@@ -2409,8 +2409,13 @@
         return;
       }
 
-      // Create main ticker cards
-      let html = enhancedTickers.map((ticker, index) => createTickerCard(ticker, index + 1)).join('');
+      // Sort by score and take top 10
+      const top10 = enhancedTickers
+        .sort((a, b) => b.score - a.score)
+        .slice(0, 10);
+
+      // Create main ticker cards (top 10 only)
+      let html = top10.map((ticker, index) => createTickerCard(ticker, index + 1)).join('');
 
       grid.innerHTML = html;
 
@@ -2419,79 +2424,52 @@
         card.addEventListener('click', handleCardClick);
       });
 
-      // Populate Second Order F-X in right column
+      // Populate Second Order F-X in right column (tickers 11-20)
       const hiddenGemsGridRight = document.getElementById('hiddenGemsGridRight');
-
-      const hiddenGems = [];
-      enhancedTickers.forEach(t => {
-        if (t.hiddenPlays) {
-          t.hiddenPlays.forEach(play => {
-            play.tickers.forEach(symbol => {
-              if (!hiddenGems.find(g => g.ticker === symbol)) {
-                hiddenGems.push({
-                  ticker: symbol,
-                  parent: t.ticker,
-                  category: play.category,
-                  score: Math.floor(t.score * 0.6)
-                });
-              }
-            });
+      
+      if (hiddenGemsGridRight) {
+        const next10 = enhancedTickers
+          .sort((a, b) => b.score - a.score)
+          .slice(10, 20);
+        
+        if (next10.length > 0) {
+          hiddenGemsGridRight.innerHTML = next10.map((t, i) => {
+            const priceInfo = priceData[t.ticker] || {};
+            const price = priceInfo.price;
+            const change = priceInfo.change_pct;
+            const hasPrice = price !== undefined && change !== undefined;
+            
+            const priceHtml = hasPrice ? `
+              <div style="display: flex; align-items: center; gap: 0.2rem; margin-top: 0.1rem;">
+                <span style="font-size: 0.7rem; color: #e8e8e8;">$${price < 1000 ? price.toFixed(2) : price.toLocaleString('en-US', {maximumFractionDigits: 0})}</span>
+                <span class="ticker-change ${change >= 0 ? 'positive' : 'negative'}" style="font-size: 0.55rem; padding: 0.05rem 0.15rem;">${change >= 0 ? '+' : ''}${change.toFixed(1)}%</span>
+              </div>
+            ` : '';
+            
+            return `
+            <div class="ticker-card" data-ticker="${t.ticker}" style="padding: 0;">
+              <div class="ticker-card-inner" style="padding: 0.5rem;">
+                <div class="ticker-header" style="margin-bottom: 0.25rem;">
+                  <div class="ticker-main">
+                    <div class="ticker-symbol" style="font-size: 1.1rem;">${t.ticker}</div>
+                    ${priceHtml}
+                  </div>
+                  <div class="ticker-meta">
+                    <span class="score-badge" style="font-size: 0.65rem; padding: 0.15rem 0.4rem;">${t.score}</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            `;
+          }).join('');
+          
+          // Add click handlers
+          hiddenGemsGridRight.querySelectorAll('.ticker-card').forEach(card => {
+            card.addEventListener('click', handleCardClick);
           });
+        } else {
+          hiddenGemsGridRight.innerHTML = '<div class="placeholder" style="font-size: 0.8rem;">No additional tickers</div>';
         }
-      });
-
-      if (hiddenGems.length > 0 && hiddenGemsGridRight) {
-        hiddenGemsGridRight.innerHTML = hiddenGems.slice(0, 8).map(gem => {
-          const gemPriceInfo = priceData[gem.ticker] || {};
-          const gemPrice = gemPriceInfo.price;
-          const gemChange = gemPriceInfo.change_pct;
-          const gemHasPrice = gemPrice !== undefined && gemChange !== undefined;
-
-          const gemPriceHtml = gemHasPrice ? `
-            <div style="display: flex; align-items: center; gap: 0.2rem; margin-top: 0.1rem;">
-              <span style="font-size: 0.7rem; color: #e8e8e8;">$${gemPrice < 1000 ? gemPrice.toFixed(2) : gemPrice.toLocaleString('en-US', {maximumFractionDigits: 0})}</span>
-              <span class="ticker-change ${gemChange >= 0 ? 'positive' : 'negative'}" style="font-size: 0.55rem; padding: 0.05rem 0.15rem;">${gemChange >= 0 ? '+' : ''}${gemChange.toFixed(1)}%</span>
-            </div>
-          ` : '';
-
-          return `
-          <div class="ticker-card hidden-gem" data-ticker="${gem.ticker}" style="padding: 0;">
-            <div class="ticker-card-inner" style="padding: 0.5rem;">
-              <div class="ticker-header" style="margin-bottom: 0.25rem;">
-                <div class="ticker-main">
-                  <div class="ticker-symbol" style="font-size: 1.1rem;">${gem.ticker}</div>
-                  <div style="font-size: 0.6rem; color: #8892b0;">via ${gem.parent}</div>
-                  ${gemPriceHtml}
-                </div>
-                <div class="ticker-meta">
-                  <span class="score-badge" style="font-size: 0.65rem; padding: 0.15rem 0.4rem;">${gem.score}</span>
-                </div>
-              </div>
-              <div class="expand-hint" style="margin-top: 0.35rem; font-size: 0.65rem;">
-                <span>Click to expand</span>
-                <span class="expand-icon">▼</span>
-              </div>
-            </div>
-            <div class="ticker-expanded">
-              <div class="expanded-content" style="padding: 0.5rem;">
-                <div class="expanded-section">
-                  <div class="expanded-label">Category</div>
-                  <div style="font-size: 0.8rem; color: #ffc107;">${gem.category}</div>
-                </div>
-                <div class="expanded-actions" style="margin-top: 0.5rem;">
-                  <button class="action-btn" onclick="event.stopPropagation(); showChart('${gem.ticker}')" style="padding: 0.35rem 0.6rem; font-size: 0.75rem;">
-                    📊 Chart
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        `}).join('');
-
-        // Add click handlers to hidden gem cards
-        hiddenGemsGridRight.querySelectorAll('.ticker-card').forEach(card => {
-          card.addEventListener('click', handleCardClick);
-        });
       }
     }
 
