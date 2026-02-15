@@ -1,0 +1,387 @@
+[
+  {
+    "ticker": "COIN",
+    "total_score": 60.0,
+    "podcast_mentions": 3,
+    "newsletter_mentions": 0,
+    "unique_sources": 3,
+    "sentiment": "bullish",
+    "sources": [
+      {
+        "name": "Jack Mallers Show",
+        "type": "podcast",
+        "sentiment": "bullish"
+      },
+      {
+        "name": "Network State Podcast",
+        "type": "podcast",
+        "sentiment": "bullish"
+      },
+      {
+        "name": "The Jack Mallers Show",
+        "type": "podcast",
+        "sentiment": "bullish"
+      }
+    ]
+  },
+  {
+    "ticker": "BTC",
+    "total_score": 40.0,
+    "podcast_mentions": 2,
+    "newsletter_mentions": 0,
+    "unique_sources": 2,
+    "sentiment": "bullish",
+    "sources": [
+      {
+        "name": "Jack Mallers Show",
+        "type": "podcast",
+        "sentiment": "bullish"
+      },
+      {
+        "name": "The Jack Mallers Show",
+        "type": "podcast",
+        "sentiment": "bullish"
+      }
+    ]
+  },
+  {
+    "ticker": "MSTR",
+    "total_score": 40.0,
+    "podcast_mentions": 2,
+    "newsletter_mentions": 0,
+    "unique_sources": 2,
+    "sentiment": "bullish",
+    "sources": [
+      {
+        "name": "Jack Mallers Show",
+        "type": "podcast",
+        "sentiment": "bullish"
+      },
+      {
+        "name": "The Jack Mallers Show",
+        "type": "podcast",
+        "sentiment": "bullish"
+      }
+    ]
+  },
+  {
+    "ticker": "TLT",
+    "total_score": 30.0,
+    "podcast_mentions": 1,
+    "newsletter_mentions": 1,
+    "unique_sources": 1,
+    "sentiment": "neutral",
+    "sources": [
+      {
+        "name": "Monetary Matters",
+        "type": "podcast",
+        "sentiment": "bearish"
+      },
+      {
+        "name": "Monetary Matters",
+        "type": "newsletter",
+        "sentiment": "bullish"
+      }
+    ]
+  },
+  {
+    "ticker": "GOOGL",
+    "total_score": 20.0,
+    "podcast_mentions": 1,
+    "newsletter_mentions": 0,
+    "unique_sources": 1,
+    "sentiment": "bullish",
+    "sources": [
+      {
+        "name": "The Rundown AI",
+        "type": "podcast",
+        "sentiment": "bullish"
+      }
+    ]
+  },
+  {
+    "ticker": "NVDA",
+    "total_score": 20.0,
+    "podcast_mentions": 1,
+    "newsletter_mentions": 0,
+    "unique_sources": 1,
+    "sentiment": "bullish",
+    "sources": [
+      {
+        "name": "The Rundown AI",
+        "type": "podcast",
+        "sentiment": "bullish"
+      }
+    ]
+  },
+  {
+    "ticker": "AVGO",
+    "total_score": 20.0,
+    "podcast_mentions": 1,
+    "newsletter_mentions": 0,
+    "unique_sources": 1,
+    "sentiment": "bullish",
+    "sources": [
+      {
+        "name": "The Rundown AI",
+        "type": "podcast",
+        "sentiment": "bullish"
+      }
+    ]
+  },
+  {
+    "ticker": "VIX",
+    "total_score": 20.0,
+    "podcast_mentions": 1,
+    "newsletter_mentions": 0,
+    "unique_sources": 1,
+    "sentiment": "bearish",
+    "sources": [
+      {
+        "name": "Monetary Matters",
+        "type": "podcast",
+        "sentiment": "bearish"
+      }
+    ]
+  },
+  {
+    "ticker": "SQQQ",
+    "total_score": 20.0,
+    "podcast_mentions": 1,
+    "newsletter_mentions": 0,
+    "unique_sources": 1,
+    "sentiment": "bearish",
+    "sources": [
+      {
+        "name": "Monetary Matters",
+        "type": "podcast",
+        "sentiment": "bearish"
+      }
+    ]
+  },
+  {
+    "ticker": "VEEV",
+    "total_score": 20.0,
+    "podcast_mentions": 1,
+    "newsletter_mentions": 0,
+    "unique_sources": 1,
+    "sentiment": "bullish",
+    "sources": [
+      {
+        "name": "a16z Live",
+        "type": "podcast",
+        "sentiment": "bullish"
+      }
+    ]
+  },
+  {
+    "ticker": "TDOC",
+    "total_score": 20.0,
+    "podcast_mentions": 1,
+    "newsletter_mentions": 0,
+    "unique_sources": 1,
+    "sentiment": "bullish",
+    "sources": [
+      {
+        "name": "a16z Live",
+        "type": "podcast",
+        "sentiment": "bullish"
+      }
+    ]
+  },
+  {
+    "ticker": "DOCS",
+    "total_score": 20.0,
+    "podcast_mentions": 1,
+    "newsletter_mentions": 0,
+    "unique_sources": 1,
+    "sentiment": "bullish",
+    "sources": [
+      {
+        "name": "a16z Live",
+        "type": "podcast",
+        "sentiment": "bullish"
+      }
+    ]
+  },
+  {
+    "ticker": "PYPL",
+    "total_score": 20.0,
+    "podcast_mentions": 1,
+    "newsletter_mentions": 0,
+    "unique_sources": 1,
+    "sentiment": "bullish",
+    "sources": [
+      {
+        "name": "Network State Podcast",
+        "type": "podcast",
+        "sentiment": "bullish"
+      }
+    ]
+  },
+  {
+    "ticker": "SQ",
+    "total_score": 20.0,
+    "podcast_mentions": 1,
+    "newsletter_mentions": 0,
+    "unique_sources": 1,
+    "sentiment": "bullish",
+    "sources": [
+      {
+        "name": "Network State Podcast",
+        "type": "podcast",
+        "sentiment": "bullish"
+      }
+    ]
+  },
+  {
+    "ticker": "SPY",
+    "total_score": 20.0,
+    "podcast_mentions": 1,
+    "newsletter_mentions": 0,
+    "unique_sources": 1,
+    "sentiment": "bearish",
+    "sources": [
+      {
+        "name": "Monetary Matters",
+        "type": "podcast",
+        "sentiment": "bearish"
+      }
+    ]
+  },
+  {
+    "ticker": "QQQ",
+    "total_score": 20.0,
+    "podcast_mentions": 1,
+    "newsletter_mentions": 0,
+    "unique_sources": 1,
+    "sentiment": "bearish",
+    "sources": [
+      {
+        "name": "Monetary Matters",
+        "type": "podcast",
+        "sentiment": "bearish"
+      }
+    ]
+  },
+  {
+    "ticker": "IWM",
+    "total_score": 20.0,
+    "podcast_mentions": 1,
+    "newsletter_mentions": 0,
+    "unique_sources": 1,
+    "sentiment": "bearish",
+    "sources": [
+      {
+        "name": "Monetary Matters",
+        "type": "podcast",
+        "sentiment": "bearish"
+      }
+    ]
+  },
+  {
+    "ticker": "SNWGF",
+    "total_score": 20.0,
+    "podcast_mentions": 1,
+    "newsletter_mentions": 0,
+    "unique_sources": 1,
+    "sentiment": "bullish",
+    "sources": [
+      {
+        "name": "Muddy Waters",
+        "type": "podcast",
+        "sentiment": "bullish"
+      }
+    ]
+  },
+  {
+    "ticker": "MINE",
+    "total_score": 20.0,
+    "podcast_mentions": 1,
+    "newsletter_mentions": 0,
+    "unique_sources": 1,
+    "sentiment": "bullish",
+    "sources": [
+      {
+        "name": "Muddy Waters",
+        "type": "podcast",
+        "sentiment": "bullish"
+      }
+    ]
+  },
+  {
+    "ticker": "IEF",
+    "total_score": 10,
+    "podcast_mentions": 0,
+    "newsletter_mentions": 1,
+    "unique_sources": 1,
+    "sentiment": "bullish",
+    "sources": [
+      {
+        "name": "Monetary Matters",
+        "type": "newsletter",
+        "sentiment": "bullish"
+      }
+    ]
+  },
+  {
+    "ticker": "SMR",
+    "total_score": 10,
+    "podcast_mentions": 0,
+    "newsletter_mentions": 1,
+    "unique_sources": 1,
+    "sentiment": "bullish",
+    "sources": [
+      {
+        "name": "The Energy Letter",
+        "type": "newsletter",
+        "sentiment": "bullish"
+      }
+    ]
+  },
+  {
+    "ticker": "OKLO",
+    "total_score": 10,
+    "podcast_mentions": 0,
+    "newsletter_mentions": 1,
+    "unique_sources": 1,
+    "sentiment": "bullish",
+    "sources": [
+      {
+        "name": "The Energy Letter",
+        "type": "newsletter",
+        "sentiment": "bullish"
+      }
+    ]
+  },
+  {
+    "ticker": "NEE",
+    "total_score": 10,
+    "podcast_mentions": 0,
+    "newsletter_mentions": 1,
+    "unique_sources": 1,
+    "sentiment": "bullish",
+    "sources": [
+      {
+        "name": "The Energy Letter",
+        "type": "newsletter",
+        "sentiment": "bullish"
+      }
+    ]
+  },
+  {
+    "ticker": "CEG",
+    "total_score": 10,
+    "podcast_mentions": 0,
+    "newsletter_mentions": 1,
+    "unique_sources": 1,
+    "sentiment": "bullish",
+    "sources": [
+      {
+        "name": "The Energy Letter",
+        "type": "newsletter",
+        "sentiment": "bullish"
+      }
+    ]
+  }
+]
