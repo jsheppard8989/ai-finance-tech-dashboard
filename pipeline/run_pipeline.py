@@ -395,6 +395,9 @@ def main():
     # Step 6b: Auto-archive old content
     results['auto_archive'] = auto_archive_content()
     
+    # Step 6c: Fetch current prices
+    results['prices'] = run_step("Price Update", "fetch_prices.py")
+    
     # Step 7: Generate charts
     results['charts'] = run_step("Chart Generation", "generate_charts.py")
     
