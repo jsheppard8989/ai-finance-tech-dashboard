@@ -6,14 +6,30 @@
   <title>Archive | AI, Finance, Tech: Scarcity & Abundance</title>
   <script src="./data/data.js"></script>
   <script>
-    // Archive data from data.js
+    // Archive data from data.js - loaded after DOM ready
     let archiveData = { insights: [], definitions: [], overton: [] };
     
-    if (typeof dashboardData !== 'undefined' && dashboardData.archive) {
-      archiveData = dashboardData.archive;
-      console.log('✓ Loaded archive data from data.js');
+    function initArchiveData() {
+      if (typeof dashboardData !== 'undefined' && dashboardData.archive) {
+        archiveData = dashboardData.archive;
+        console.log('✓ Loaded archive data from data.js:', archiveData);
+        // Re-render if function exists
+        if (typeof renderAllSections === 'function') {
+          renderAllSections();
+          updateStats();
+        }
+      } else {
+        console.error('✗ dashboardData not loaded');
+        // Retry after short delay
+        setTimeout(initArchiveData, 100);
+      }
+    }
+    
+    // Initialize when DOM is ready
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', initArchiveData);
     } else {
-      console.error('✗ dashboardData not loaded');
+      initArchiveData();
     }
   </script>
   <style>
