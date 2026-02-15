@@ -1693,7 +1693,7 @@
   </div>
 
   <!-- Load dashboard data from pipeline (if available) -->
-  <script src="data/data.js"></script>
+  <script src="./data/data.js"></script>
   
   <script>
     // Storage key for persisting votes
@@ -1889,7 +1889,7 @@
         }
         
         // Fallback: try loading from JSON file
-        const response = await fetch('data/podcast_summaries.json');
+        const response = await fetch('./data/podcast_summaries.json');
         if (response.ok) {
           const data = await response.json();
           podcastSummaries = formatPodcastData(data);
@@ -2132,7 +2132,7 @@
         }
 
         // Fallback: fetch from JSON
-        const response = await fetch('data/ticker_scores.json');
+        const response = await fetch('./data/ticker_scores.json');
         if (response.ok) {
           const data = await response.json();
           enhancedTickers = data.map(formatTickerData);
