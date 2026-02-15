@@ -1,8 +1,8 @@
-// Auto-generated data file - 2026-02-15T10:43:47.726806
+// Auto-generated data file - 2026-02-15T11:21:15.069056
 // DO NOT EDIT MANUALLY
 
 const dashboardData = {
-  generatedAt: "2026-02-15T10:43:47.726833",
+  generatedAt: "2026-02-15T11:21:15.069076",
   tickerScores: [
   {
     "ticker": "COIN",
@@ -1310,7 +1310,45 @@ const dashboardData = {
     "source_name": "Muddy Waters",
     "source_date": "2025-11-15"
   }
-}
+},
+  suggestedTerms: [
+  {
+    "id": 1,
+    "term": "Vertical Integration Moat",
+    "definition": "Competitive advantage achieved by controlling multiple stages of production or distribution within the same supply chain.",
+    "investment_implications": null,
+    "source_type": "auto_extracted",
+    "mention_count": 3,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-02-15 17:19:42",
+    "priority_score": 100
+  },
+  {
+    "id": 2,
+    "term": "Liquidity Rotation",
+    "definition": "The shift of capital between asset classes as monetary conditions change.",
+    "investment_implications": null,
+    "source_type": "auto_extracted",
+    "mention_count": 2,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-02-15 17:19:42",
+    "priority_score": 90
+  },
+  {
+    "id": 3,
+    "term": "Machine-Native Money",
+    "definition": "Payment rails designed for autonomous AI agents rather than human users.",
+    "investment_implications": null,
+    "source_type": "user_submission",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-02-15 17:19:42",
+    "priority_score": 80
+  }
+]
 };
 
 // Export for use in other scripts
