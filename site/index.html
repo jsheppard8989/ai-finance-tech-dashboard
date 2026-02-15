@@ -1941,10 +1941,22 @@
     
     // Generate HTML for insight modal - uses Deep Dive content if available
     function generateInsightHTML(insight) {
-      // Check for Deep Dive content
-      const deepDiveId = insight.id;
-      const deepDive = (typeof dashboardData !== 'undefined' && dashboardData.deepDives) ? 
-        dashboardData.deepDives[deepDiveId] : null;
+      // Check for Deep Dive content - match by generating the same ID format
+      const deepDiveId = insight.source_name.toLowerCase().replace(/[^a-z0-9]/g, '_') + '_' + 
+                        insight.title.toLowerCase().replace(/[^a-z0-9]/g, '_').substring(0, 20);
+      
+      // Try to find matching deep dive (check all keys for partial match)
+      let deepDive = null;
+      if (typeof dashboardData !== 'undefined' && dashboardData.deepDives) {
+        // First try exact match
+        deepDive = dashboardData.deepDives[deepDiveId];
+        
+        // If no exact match, try to find by insight_title
+        if (!deepDive) {
+          const allDeepDives = Object.values(dashboardData.deepDives);
+          deepDive = allDeepDives.find(dd => dd.insight_title === insight.title);
+        }
+      }
       
       if (deepDive) {
         return generateDeepDiveHTML(deepDive);
