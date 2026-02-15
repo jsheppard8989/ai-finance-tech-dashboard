@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Database
+dashboard.db
+*.db-journal
+
+# Environment
+.env
+.venv
+venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large files (don't commit audio/transcripts to git)
+audio/
+transcripts/*.txt
+!transcripts/.gitkeep
+
+# Logs
+*.log
+
+# Local testing
+.github_username

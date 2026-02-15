@@ -1,0 +1,2626 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI, Finance, Tech: Scarcity & Abundance</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+      min-height: 100vh;
+      color: #e8e8e8;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 1rem;
+    }
+
+    /* Header */
+    header {
+      text-align: center;
+      padding: 1.5rem 1rem;
+      background: rgba(0, 0, 0, 0.3);
+      border-radius: 16px;
+      margin-bottom: 1rem;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, #00d4ff 0%, #7b2cbf 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin-bottom: 0.5rem;
+    }
+
+    .subtitle {
+      color: #8892b0;
+      font-size: 1.1rem;
+    }
+
+    /* Grid Layout - 3 Columns (middle is widest: 3/7, sides 2/7 each) */
+    .grid {
+      display: grid;
+      grid-template-columns: 2fr 3fr 2fr;
+      gap: 0.75rem;
+      max-width: 100%;
+      box-sizing: border-box;
+    }
+
+    .left-col, .middle-col, .right-col {
+      min-width: 0;
+      overflow-wrap: break-word;
+    }
+
+    @media (max-width: 1200px) {
+      .grid {
+        grid-template-columns: 1fr 1fr;
+      }
+      .right-col {
+        grid-column: 1 / -1;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .grid {
+        grid-template-columns: 1fr;
+      }
+      .right-col {
+        grid-column: auto;
+      }
+    }
+
+    /* Cards */
+    .card {
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 12px;
+      padding: 1rem;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      margin-bottom: 1rem;
+    }
+
+    .card h2 {
+      font-size: 1.3rem;
+      color: #00d4ff;
+      margin-bottom: 0.75rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .card h2::before {
+      content: '';
+      display: inline-block;
+      width: 4px;
+      height: 24px;
+      background: linear-gradient(180deg, #00d4ff, #7b2cbf);
+      border-radius: 2px;
+    }
+
+    /* Definitions Section - Clickable Cards */
+    .definition-item {
+      background: rgba(0, 212, 255, 0.05);
+      border-left: 3px solid #00d4ff;
+      padding: 0.75rem;
+      margin-bottom: 0.75rem;
+      border-radius: 0 10px 10px 0;
+      cursor: pointer;
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .definition-item::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: linear-gradient(135deg, rgba(0, 212, 255, 0.1) 0%, rgba(123, 44, 191, 0.05) 100%);
+      opacity: 0;
+      transition: opacity 0.3s ease;
+      pointer-events: none;
+    }
+
+    .definition-item:hover {
+      border-left-width: 5px;
+      background: rgba(0, 212, 255, 0.08);
+      transform: translateX(4px);
+    }
+
+    .definition-item:hover::before {
+      opacity: 1;
+    }
+
+    .definition-item.active {
+      border-left-width: 6px;
+      background: rgba(0, 212, 255, 0.12);
+      box-shadow: 0 4px 20px rgba(0, 212, 255, 0.1);
+    }
+
+    .definition-item h3 {
+      color: #00d4ff;
+      font-size: 1.05rem;
+      margin-bottom: 0.4rem;
+      font-weight: 600;
+    }
+
+    .definition-item p {
+      color: #a8b2d1;
+      font-size: 0.9rem;
+      line-height: 1.5;
+    }
+
+    .definition-expanded {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.4s ease, opacity 0.3s ease, padding 0.3s ease, margin 0.3s ease;
+      opacity: 0;
+      padding: 0;
+      margin: 0;
+    }
+
+    .definition-item.active .definition-expanded {
+      max-height: 150px;
+      opacity: 1;
+      padding-top: 0.75rem;
+      margin-top: 0.5rem;
+      border-top: 1px solid rgba(0, 212, 255, 0.2);
+    }
+
+    /* Overton Window Section - Clickable Cards */
+    .overton-item {
+      background: rgba(123, 44, 191, 0.1);
+      border: 1px solid rgba(123, 44, 191, 0.3);
+      padding: 0.75rem;
+      margin-bottom: 0.75rem;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .overton-item::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: linear-gradient(135deg, rgba(123, 44, 191, 0.15) 0%, rgba(0, 212, 255, 0.1) 100%);
+      opacity: 0;
+      transition: opacity 0.3s ease;
+      pointer-events: none;
+    }
+
+    .overton-item:hover {
+      border-color: rgba(123, 44, 191, 0.5);
+      box-shadow: 0 6px 24px rgba(123, 44, 191, 0.15);
+      transform: translateY(-2px);
+    }
+
+    .overton-item:hover::before {
+      opacity: 1;
+    }
+
+    .overton-item.active {
+      border-color: rgba(123, 44, 191, 0.7);
+      box-shadow: 0 8px 32px rgba(123, 44, 191, 0.2);
+    }
+
+    .overton-item .term {
+      font-weight: 700;
+      color: #e8e8e8;
+      font-size: 1rem;
+      margin-bottom: 0.35rem;
+    }
+
+    .overton-item .source {
+      font-size: 0.75rem;
+      color: #8892b0;
+      margin-top: 0.5rem;
+      font-style: italic;
+    }
+
+    .overton-item .description {
+      font-size: 0.9rem;
+      color: #a8b2d1;
+      margin-top: 0.35rem;
+      line-height: 1.5;
+    }
+
+    .overton-expanded {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.4s ease, opacity 0.3s ease, padding 0.3s ease, margin 0.3s ease;
+      opacity: 0;
+      padding: 0;
+      margin: 0;
+      border-top: 1px solid transparent;
+    }
+
+    .overton-item.active .overton-expanded {
+      max-height: 150px;
+      opacity: 1;
+      padding-top: 0.75rem;
+      margin-top: 0.75rem;
+      border-top-color: rgba(255, 255, 255, 0.1);
+    }
+
+    /* Suggestions Box */
+    .suggestions-box {
+      background: rgba(255, 193, 7, 0.1);
+      border: 2px dashed rgba(255, 193, 7, 0.5);
+      border-radius: 10px;
+      padding: 0.8rem;
+      margin-top: 0.8rem;
+    }
+
+    .suggestions-box h3 {
+      color: #ffc107;
+      margin-bottom: 1rem;
+      font-size: 1.1rem;
+    }
+
+    .suggestion-item {
+      background: rgba(0, 0, 0, 0.3);
+      padding: 0.75rem 1rem;
+      margin-bottom: 0.5rem;
+      border-radius: 8px;
+    }
+
+    .suggestion-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 0.5rem;
+    }
+
+    .suggestion-item .word {
+      font-weight: 600;
+      color: #ffc107;
+    }
+
+    .vote-counts {
+      display: flex;
+      gap: 1rem;
+      font-size: 0.85rem;
+    }
+
+    .vote-count {
+      display: flex;
+      align-items: center;
+      gap: 0.25rem;
+    }
+
+    .vote-count.up {
+      color: #4caf50;
+    }
+
+    .vote-count.down {
+      color: #f44336;
+    }
+
+    .vote-count.threshold {
+      color: #ffc107;
+      font-weight: 600;
+    }
+
+    .vote-buttons {
+      display: flex;
+      gap: 0.5rem;
+    }
+
+    .vote-btn {
+      background: none;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      color: #fff;
+      padding: 0.25rem 0.75rem;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 0.85rem;
+      transition: all 0.2s;
+    }
+
+    .vote-btn:hover {
+      background: rgba(255, 255, 255, 0.1);
+    }
+
+    .vote-btn.approve:hover {
+      background: rgba(76, 175, 80, 0.3);
+      border-color: #4caf50;
+    }
+
+    .vote-btn.reject:hover {
+      background: rgba(244, 67, 54, 0.3);
+      border-color: #f44336;
+    }
+
+    .status-badge {
+      font-size: 0.75rem;
+      padding: 0.15rem 0.5rem;
+      border-radius: 4px;
+      font-weight: 600;
+    }
+
+    .status-badge.ready {
+      background: rgba(76, 175, 80, 0.2);
+      color: #4caf50;
+      border: 1px solid #4caf50;
+    }
+
+    /* Stock Picks Section */
+    .stock-grid {
+      display: grid;
+      gap: 1rem;
+    }
+
+    .stock-item {
+      background: linear-gradient(135deg, rgba(0, 212, 255, 0.1) 0%, rgba(123, 44, 191, 0.1) 100%);
+      border: 1px solid rgba(0, 212, 255, 0.2);
+      border-radius: 12px;
+      padding: 1.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .stock-item.bitcoin {
+      background: linear-gradient(135deg, rgba(247, 147, 26, 0.1) 0%, rgba(247, 147, 26, 0.2) 100%);
+      border: 1px solid rgba(247, 147, 26, 0.4);
+    }
+
+    .stock-item.bitcoin .ticker {
+      color: #f7931a;
+    }
+
+    .stock-item.bitcoin .score {
+      color: #f7931a;
+    }
+
+    .stock-item .rank {
+      font-size: 2rem;
+      font-weight: 700;
+      color: #00d4ff;
+      opacity: 0.5;
+    }
+
+    .stock-item .info {
+      flex: 1;
+      margin-left: 1rem;
+    }
+
+    .stock-item .ticker {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: #fff;
+    }
+
+    .stock-item .score {
+      font-size: 0.9rem;
+      color: #00d4ff;
+    }
+
+    .stock-item .mentions {
+      font-size: 0.85rem;
+      color: #8892b0;
+    }
+
+    /* Enhanced Ticker Cards - Clickable Format */
+    .ticker-card {
+      background: linear-gradient(135deg, rgba(0, 212, 255, 0.05) 0%, rgba(123, 44, 191, 0.05) 100%);
+      border: 1px solid rgba(0, 212, 255, 0.15);
+      border-radius: 12px;
+      padding: 0;
+      margin-bottom: 0.75rem;
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      cursor: pointer;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .ticker-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: linear-gradient(135deg, rgba(0, 212, 255, 0.1) 0%, rgba(123, 44, 191, 0.1) 100%);
+      opacity: 0;
+      transition: opacity 0.3s ease;
+      pointer-events: none;
+    }
+
+    .ticker-card:hover {
+      border-color: rgba(0, 212, 255, 0.5);
+      box-shadow: 0 8px 32px rgba(0, 212, 255, 0.15), 0 0 0 1px rgba(0, 212, 255, 0.3);
+      transform: translateY(-2px);
+    }
+
+    .ticker-card:hover::before {
+      opacity: 1;
+    }
+
+    .ticker-card.active {
+      border-color: rgba(0, 212, 255, 0.7);
+      box-shadow: 0 12px 40px rgba(0, 212, 255, 0.2), 0 0 0 2px rgba(0, 212, 255, 0.4);
+    }
+
+    .ticker-card.hidden-gem {
+      background: linear-gradient(135deg, rgba(255, 193, 7, 0.08) 0%, rgba(255, 152, 0, 0.05) 100%);
+      border-color: rgba(255, 193, 7, 0.3);
+    }
+
+    .ticker-card.hidden-gem:hover {
+      border-color: rgba(255, 193, 7, 0.6);
+      box-shadow: 0 8px 32px rgba(255, 193, 7, 0.2), 0 0 0 1px rgba(255, 193, 7, 0.4);
+    }
+
+    .ticker-card.hidden-gem.active {
+      border-color: rgba(255, 193, 7, 0.8);
+      box-shadow: 0 12px 40px rgba(255, 193, 7, 0.25), 0 0 0 2px rgba(255, 193, 7, 0.5);
+    }
+
+    .ticker-card.contrarian {
+      background: linear-gradient(135deg, rgba(76, 175, 80, 0.08) 0%, rgba(139, 195, 74, 0.05) 100%);
+      border-color: rgba(76, 175, 80, 0.3);
+    }
+
+    .ticker-card.contrarian:hover {
+      border-color: rgba(76, 175, 80, 0.6);
+      box-shadow: 0 8px 32px rgba(76, 175, 80, 0.2), 0 0 0 1px rgba(76, 175, 80, 0.4);
+    }
+
+    .ticker-card.crowded {
+      background: linear-gradient(135deg, rgba(244, 67, 54, 0.08) 0%, rgba(233, 30, 99, 0.05) 100%);
+      border-color: rgba(244, 67, 54, 0.3);
+    }
+
+    .ticker-card.crowded:hover {
+      border-color: rgba(244, 67, 54, 0.6);
+      box-shadow: 0 8px 32px rgba(244, 67, 54, 0.2), 0 0 0 1px rgba(244, 67, 54, 0.4);
+    }
+
+    .ticker-card-inner {
+      padding: 0.75rem;
+    }
+
+    .ticker-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 0.5rem;
+    }
+
+    .ticker-main {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.75rem;
+      flex: 1;
+      min-width: 0;
+    }
+
+    .ticker-rank {
+      font-size: 1.5rem;
+      font-weight: 800;
+      color: #00d4ff;
+      opacity: 0.4;
+      min-width: 32px;
+      line-height: 1;
+    }
+
+    .ticker-symbol {
+      font-size: 1.6rem;
+      font-weight: 700;
+      color: #fff;
+      letter-spacing: -0.5px;
+    }
+
+    .ticker-meta {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 0.25rem;
+    }
+
+    .score-badge {
+      background: linear-gradient(135deg, rgba(0, 212, 255, 0.2) 0%, rgba(123, 44, 191, 0.2) 100%);
+      color: #00d4ff;
+      padding: 0.25rem 0.6rem;
+      border-radius: 20px;
+      font-size: 0.8rem;
+      font-weight: 700;
+      border: 1px solid rgba(0, 212, 255, 0.3);
+    }
+
+    .conviction-indicator {
+      display: flex;
+      align-items: center;
+      gap: 0.2rem;
+      font-size: 0.75rem;
+    }
+
+    .conviction-indicator.high { color: #4caf50; }
+    .conviction-indicator.medium { color: #ffc107; }
+    .conviction-indicator.low { color: #8892b0; }
+
+    .signal-badge {
+      font-size: 0.7rem;
+      padding: 0.2rem 0.5rem;
+      border-radius: 4px;
+      font-weight: 600;
+    }
+
+    .signal-badge.contrarian {
+      background: rgba(76, 175, 80, 0.25);
+      color: #4caf50;
+      border: 1px solid rgba(76, 175, 80, 0.4);
+    }
+
+    .signal-badge.crowded {
+      background: rgba(244, 67, 54, 0.25);
+      color: #f44336;
+      border: 1px solid rgba(244, 67, 54, 0.4);
+    }
+
+    .ticker-details {
+      display: flex;
+      gap: 1rem;
+      margin: 0.5rem 0;
+      padding: 0.5rem 0;
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    .detail-item {
+      display: flex;
+      flex-direction: column;
+      gap: 0.1rem;
+    }
+
+    .detail-label {
+      font-size: 0.6rem;
+      color: #8892b0;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      font-weight: 500;
+    }
+
+    .detail-value {
+      font-size: 0.85rem;
+      color: #e8e8e8;
+      font-weight: 600;
+    }
+
+    .hidden-plays {
+      margin-top: 0.5rem;
+      font-size: 0.8rem;
+    }
+
+    .hidden-plays-title {
+      font-size: 0.7rem;
+      color: #ffc107;
+      margin-bottom: 0.3rem;
+      font-weight: 600;
+    }
+
+    .play-tag {
+      display: inline-block;
+      background: rgba(255, 193, 7, 0.12);
+      border: 1px solid rgba(255, 193, 7, 0.35);
+      color: #ffc107;
+      padding: 0.15rem 0.5rem;
+      border-radius: 4px;
+      font-size: 0.7rem;
+      margin: 0.1rem;
+      font-weight: 500;
+      transition: all 0.2s;
+    }
+
+    .play-tag:hover {
+      background: rgba(255, 193, 7, 0.25);
+      transform: scale(1.05);
+    }
+
+    /* Expandable Content */
+    .ticker-expanded {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.4s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.3s ease;
+      opacity: 0;
+    }
+
+    .ticker-card.active .ticker-expanded {
+      max-height: 400px;
+      opacity: 1;
+    }
+
+    .expanded-content {
+      padding: 0.75rem;
+      background: rgba(0, 0, 0, 0.2);
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .expanded-section {
+      margin-bottom: 0.75rem;
+    }
+
+    .expanded-section:last-child {
+      margin-bottom: 0;
+    }
+
+    .expanded-label {
+      font-size: 0.65rem;
+      color: #8892b0;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      margin-bottom: 0.25rem;
+      font-weight: 600;
+    }
+
+    .context-text {
+      font-size: 0.85rem;
+      color: #e8e8e8;
+      line-height: 1.5;
+      font-style: italic;
+    }
+
+    .expanded-actions {
+      display: flex;
+      gap: 0.5rem;
+      margin-top: 0.75rem;
+    }
+
+    .action-btn {
+      background: linear-gradient(135deg, rgba(0, 212, 255, 0.15) 0%, rgba(123, 44, 191, 0.15) 100%);
+      border: 1px solid rgba(0, 212, 255, 0.3);
+      color: #00d4ff;
+      padding: 0.5rem 1rem;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 0.8rem;
+      font-weight: 500;
+      transition: all 0.2s;
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+
+    .action-btn:hover {
+      background: linear-gradient(135deg, rgba(0, 212, 255, 0.25) 0%, rgba(123, 44, 191, 0.25) 100%);
+      border-color: rgba(0, 212, 255, 0.5);
+      transform: translateY(-1px);
+    }
+
+    .action-btn:active {
+      transform: translateY(0);
+    }
+
+    .action-btn.secondary {
+      background: rgba(255, 255, 255, 0.05);
+      border-color: rgba(255, 255, 255, 0.2);
+      color: #8892b0;
+    }
+
+    .action-btn.secondary:hover {
+      background: rgba(255, 255, 255, 0.1);
+      border-color: rgba(255, 255, 255, 0.3);
+      color: #e8e8e8;
+    }
+
+    .expand-hint {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.3rem;
+      font-size: 0.7rem;
+      color: #8892b0;
+      margin-top: 0.5rem;
+      opacity: 0.7;
+      transition: opacity 0.2s;
+    }
+
+    .ticker-card:hover .expand-hint {
+      opacity: 1;
+    }
+
+    .expand-icon {
+      transition: transform 0.3s ease;
+    }
+
+    .ticker-card.active .expand-icon {
+      transform: rotate(180deg);
+    }
+
+    /* Ripple Effect */
+    .ripple {
+      position: absolute;
+      border-radius: 50%;
+      background: rgba(0, 212, 255, 0.4);
+      transform: scale(0);
+      animation: ripple-animation 0.6s ease-out;
+      pointer-events: none;
+    }
+
+    @keyframes ripple-animation {
+      to {
+        transform: scale(4);
+        opacity: 0;
+      }
+    }
+
+    /* Title ticker symbols */
+    .title-ticker {
+      background: rgba(0, 212, 255, 0.15);
+      border: 1px solid rgba(0, 212, 255, 0.4);
+      color: #00d4ff;
+      padding: 0.4rem 0.8rem;
+      border-radius: 6px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s;
+      user-select: none;
+    }
+
+    .title-ticker:hover {
+      background: rgba(0, 212, 255, 0.25);
+      border-color: rgba(0, 212, 255, 0.6);
+      transform: scale(1.05);
+    }
+
+    .title-ticker.btc {
+      background: rgba(247, 147, 26, 0.15);
+      border-color: rgba(247, 147, 26, 0.4);
+      color: #f7931a;
+      font-size: 1.2rem;
+      padding: 0.3rem 0.7rem;
+    }
+
+    .title-ticker.btc:hover {
+      background: rgba(247, 147, 26, 0.25);
+      border-color: rgba(247, 147, 26, 0.6);
+    }
+
+    .ticker-price {
+      font-size: 0.75rem;
+      opacity: 0.9;
+      margin-left: 0.3rem;
+    }
+
+    .ticker-change {
+      font-size: 0.7rem;
+      padding: 0.1rem 0.3rem;
+      border-radius: 3px;
+      margin-left: 0.2rem;
+    }
+
+    .ticker-change.positive {
+      background: rgba(76, 175, 80, 0.2);
+      color: #4caf50;
+    }
+
+    .ticker-change.negative {
+      background: rgba(244, 67, 54, 0.2);
+      color: #f44336;
+    }
+
+    /* Second Order F-X Grid - 1 column for right column */
+    .second-order-grid-right {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 0.4rem;
+    }
+
+    .chart-btn {
+      background: rgba(0, 212, 255, 0.2);
+      border: 1px solid #00d4ff;
+      color: #00d4ff;
+      padding: 0.5rem 1rem;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 0.85rem;
+      transition: all 0.2s;
+    }
+
+    .chart-btn:hover {
+      background: rgba(0, 212, 255, 0.3);
+    }
+
+    .chart-btn.btc {
+      background: rgba(247, 147, 26, 0.2);
+      border-color: #f7931a;
+      color: #f7931a;
+    }
+
+    .chart-btn.btc:hover {
+      background: rgba(247, 147, 26, 0.3);
+    }
+
+    /* Chart Modal */
+    .chart-modal {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.9);
+      z-index: 1000;
+      justify-content: center;
+      align-items: center;
+      padding: 2rem;
+    }
+
+    .chart-modal.active {
+      display: flex;
+    }
+
+    .chart-container {
+      background: rgba(26, 26, 46, 0.95);
+      border-radius: 16px;
+      padding: 2rem;
+      width: 100%;
+      max-width: 1000px;
+      height: 600px;
+      position: relative;
+    }
+
+    .chart-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1rem;
+    }
+
+    .chart-header h3 {
+      color: #00d4ff;
+      font-size: 1.5rem;
+    }
+
+    .close-btn {
+      background: none;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      color: #fff;
+      padding: 0.5rem 1rem;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+
+    .close-btn:hover {
+      background: rgba(255, 255, 255, 0.1);
+    }
+
+    #chart-image-container {
+      height: calc(100% - 60px);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+    }
+
+    #chart-image-container img {
+      max-width: 100%;
+      max-height: 100%;
+      border-radius: 8px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    }
+
+    /* Podcast Summary Modal */
+    .podcast-modal {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.9);
+      z-index: 1001;
+      justify-content: center;
+      align-items: center;
+      padding: 2rem;
+    }
+
+    .podcast-modal.active {
+      display: flex;
+    }
+
+    .podcast-container {
+      background: rgba(26, 26, 46, 0.98);
+      border-radius: 16px;
+      padding: 0;
+      width: 100%;
+      max-width: 900px;
+      max-height: 85vh;
+      position: relative;
+      overflow: hidden;
+      border: 1px solid rgba(0, 212, 255, 0.2);
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+    }
+
+    .podcast-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1.5rem 2rem;
+      background: linear-gradient(135deg, rgba(0, 212, 255, 0.1) 0%, rgba(123, 44, 191, 0.1) 100%);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .podcast-header h3 {
+      color: #00d4ff;
+      font-size: 1.3rem;
+      margin: 0;
+    }
+
+    .podcast-source {
+      font-size: 0.8rem;
+      color: #8892b0;
+      margin-top: 0.25rem;
+    }
+
+    .podcast-content {
+      padding: 2rem;
+      overflow-y: auto;
+      max-height: calc(85vh - 80px);
+    }
+
+    .podcast-section {
+      margin-bottom: 1.5rem;
+    }
+
+    .podcast-section:last-child {
+      margin-bottom: 0;
+    }
+
+    .podcast-section h4 {
+      color: #00d4ff;
+      font-size: 1rem;
+      margin-bottom: 0.75rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .key-point-box {
+      background: rgba(0, 212, 255, 0.08);
+      border-left: 3px solid #00d4ff;
+      padding: 1rem;
+      margin-bottom: 0.75rem;
+      border-radius: 0 8px 8px 0;
+    }
+
+    .key-point-box.warning {
+      background: rgba(244, 67, 54, 0.08);
+      border-left-color: #f44336;
+    }
+
+    .key-point-box.bullish {
+      background: rgba(76, 175, 80, 0.08);
+      border-left-color: #4caf50;
+    }
+
+    .key-point-box.bitcoin {
+      background: rgba(247, 147, 26, 0.08);
+      border-left-color: #f7931a;
+    }
+
+    .ticker-box-inline {
+      display: inline-block;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 6px;
+      padding: 0.5rem 1rem;
+      margin: 0.25rem;
+      text-align: center;
+    }
+
+    .ticker-box-inline .symbol {
+      font-weight: 700;
+      color: #00d4ff;
+    }
+
+    .ticker-box-inline .thesis {
+      font-size: 0.75rem;
+      color: #8892b0;
+      margin-top: 0.25rem;
+    }
+
+    .quote-box {
+      font-style: italic;
+      color: #a8b2d1;
+      border-left: 2px solid rgba(255, 255, 255, 0.3);
+      padding-left: 1rem;
+      margin: 1rem 0;
+      line-height: 1.6;
+    }
+
+    .implication-box {
+      background: rgba(76, 175, 80, 0.1);
+      border: 1px solid rgba(76, 175, 80, 0.3);
+      border-radius: 8px;
+      padding: 1rem;
+    }
+
+    .implication-box.bearish {
+      background: rgba(244, 67, 54, 0.1);
+      border-color: rgba(244, 67, 54, 0.3);
+    }
+
+    .implication-box h5 {
+      color: #4caf50;
+      font-size: 0.85rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .implication-box.bearish h5 {
+      color: #f44336;
+    }
+
+    /* Insights Section - Clickable Cards */
+    .insight-item {
+      background: rgba(255, 255, 255, 0.03);
+      border-radius: 10px;
+      padding: 0.75rem;
+      margin-bottom: 0.75rem;
+      border: 1px solid rgba(255, 255, 255, 0.05);
+      cursor: pointer;
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .insight-item::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: linear-gradient(135deg, rgba(0, 212, 255, 0.08) 0%, rgba(123, 44, 191, 0.08) 100%);
+      opacity: 0;
+      transition: opacity 0.3s ease;
+      pointer-events: none;
+    }
+
+    .insight-item:hover {
+      border-color: rgba(0, 212, 255, 0.3);
+      box-shadow: 0 6px 24px rgba(0, 212, 255, 0.1);
+      transform: translateY(-2px);
+    }
+
+    .insight-item:hover::before {
+      opacity: 1;
+    }
+
+    .insight-item.active {
+      border-color: rgba(0, 212, 255, 0.5);
+      box-shadow: 0 8px 32px rgba(0, 212, 255, 0.15);
+    }
+
+    .insight-item .source {
+      font-size: 0.75rem;
+      color: #00d4ff;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      margin-bottom: 0.5rem;
+      font-weight: 600;
+    }
+
+    .insight-item .text {
+      color: #e8e8e8;
+      line-height: 1.5;
+    }
+
+    .insight-expanded {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.4s ease, opacity 0.3s ease, padding 0.3s ease;
+      opacity: 0;
+      padding: 0;
+      border-top: 1px solid transparent;
+    }
+
+    .insight-item.active .insight-expanded {
+      max-height: 200px;
+      opacity: 1;
+      padding-top: 0.75rem;
+      margin-top: 0.75rem;
+      border-top-color: rgba(255, 255, 255, 0.1);
+    }
+
+    /* Contact Form */
+    .contact-card {
+      max-width: 600px;
+      margin: 1rem auto;
+    }
+
+    .contact-form {
+      display: flex;
+      flex-direction: column;
+      gap: 0.6rem;
+    }
+
+    .form-group {
+      display: flex;
+      flex-direction: column;
+      gap: 0.25rem;
+    }
+
+    .form-group label {
+      color: #00d4ff;
+      font-size: 0.9rem;
+      font-weight: 500;
+    }
+
+    .form-group input,
+    .form-group textarea {
+      background: rgba(0, 0, 0, 0.3);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      border-radius: 6px;
+      padding: 0.4rem 0.6rem;
+      color: #e8e8e8;
+      font-size: 0.9rem;
+      transition: border-color 0.2s;
+    }
+
+    .form-group input:focus,
+    .form-group textarea:focus {
+      outline: none;
+      border-color: #00d4ff;
+    }
+
+    .form-group input::placeholder,
+    .form-group textarea::placeholder {
+      color: #8892b0;
+    }
+
+    .form-hint {
+      color: #8892b0;
+      font-size: 0.8rem;
+    }
+
+    .checkbox-group {
+      margin-top: 0.5rem;
+    }
+
+    .checkbox-label {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.75rem;
+      cursor: pointer;
+      color: #e8e8e8;
+      font-size: 0.95rem;
+      line-height: 1.4;
+    }
+
+    .checkbox-label input[type="checkbox"] {
+      display: none;
+    }
+
+    .checkmark {
+      width: 20px;
+      height: 20px;
+      min-width: 20px;
+      background: rgba(0, 0, 0, 0.3);
+      border: 2px solid rgba(0, 212, 255, 0.4);
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.2s;
+      margin-top: 1px;
+    }
+
+    .checkbox-label input[type="checkbox"]:checked + .checkmark {
+      background: #00d4ff;
+      border-color: #00d4ff;
+    }
+
+    .checkbox-label input[type="checkbox"]:checked + .checkmark::after {
+      content: '✓';
+      color: #1a1a2e;
+      font-size: 14px;
+      font-weight: bold;
+    }
+
+    .checkbox-text {
+      color: #a8b2d1;
+    }
+
+    .submit-btn {
+      background: linear-gradient(135deg, #00d4ff 0%, #7b2cbf 100%);
+      border: none;
+      color: #fff;
+      padding: 0.5rem 1rem;
+      border-radius: 6px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: opacity 0.2s, transform 0.1s;
+    }
+
+    .submit-btn:hover {
+      opacity: 0.9;
+    }
+
+    .submit-btn:active {
+      transform: scale(0.98);
+    }
+
+    .submit-btn:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+
+    .form-status {
+      margin-top: 1rem;
+      padding: 1rem;
+      border-radius: 8px;
+      font-size: 0.95rem;
+    }
+
+    .form-status.success {
+      background: rgba(76, 175, 80, 0.1);
+      border: 1px solid rgba(76, 175, 80, 0.3);
+      color: #4caf50;
+    }
+
+    .form-status.error {
+      background: rgba(244, 67, 54, 0.1);
+      border: 1px solid rgba(244, 67, 54, 0.3);
+      color: #f44336;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 1rem;
+      margin-top: 1rem;
+      background: rgba(0, 0, 0, 0.3);
+      border-radius: 12px;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    footer .credit {
+      color: #00d4ff;
+      font-weight: 600;
+      font-size: 1.1rem;
+      margin-bottom: 0.5rem;
+    }
+
+    footer .subtext {
+      color: #8892b0;
+      font-size: 0.9rem;
+    }
+
+    footer .update-time {
+      color: #8892b0;
+      font-size: 0.8rem;
+      margin-top: 1rem;
+    }
+
+    /* Loading State */
+    .loading {
+      text-align: center;
+      padding: 2rem;
+      color: #8892b0;
+    }
+
+    /* Placeholder */
+    .placeholder {
+      color: #8892b0;
+      font-style: italic;
+      text-align: center;
+      padding: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header style="position: relative;">
+      <h1>AI, Finance, Tech: Scarcity & Abundance</h1>
+      <p class="subtitle">Curated insights from newsletters, podcasts, and market analysis</p>
+      <p style="color: #8892b0; font-size: 0.8rem; margin-top: 0.5rem;">
+        <span id="last-updated">Last updated: February 14, 2026 at 11:06 AM CST</span> •
+        <span style="color: #00d4ff;">2-week % changes displayed</span>
+      </p>
+      <div style="position: absolute; bottom: 1rem; left: 2rem; display: flex; gap: 1rem;">
+        <span class="title-ticker" onclick="showChart('QQQ')" title="View QQQ 2-week chart">
+          QQQ <span id="qqq-price" class="ticker-price"></span> <span id="qqq-change" class="ticker-change"></span>
+        </span>
+      </div>
+      <div style="position: absolute; bottom: 1rem; right: 2rem; display: flex; gap: 1rem;">
+        <span class="title-ticker btc" onclick="showChart('BTC')" title="View Bitcoin 2-week chart">
+          <span id="btc-change" class="ticker-change"></span> <span id="btc-price" class="ticker-price"></span> ₿
+        </span>
+      </div>
+    </header>
+
+    <div class="grid">
+      <!-- Left Column - Definitions Only -->
+      <div class="left-col">
+        <!-- Definitions Section -->
+        <div class="card">
+          <h2>Digital Definitions to Define Directions</h2>
+
+          <div class="definition-item" onclick="toggleDefinition(this)">
+            <h3>🛰️ Dyson Swarm</h3>
+            <p>A hypothetical megastructure consisting of a vast array of solar collectors (satellites) orbiting a star to capture its energy output. Unlike a solid Dyson Sphere, a swarm allows for gradual construction and doesn't require implausible engineering.</p>
+            <div class="definition-expanded">
+              <div style="font-size: 0.85rem; color: #00d4ff;">
+                <strong>Investment Implication:</strong> As space-based solar power becomes economically viable, companies developing launch capabilities and orbital infrastructure could benefit.
+              </div>
+            </div>
+          </div>
+
+          <div class="definition-item" onclick="toggleDefinition(this)">
+            <h3>📈 Jevon's Paradox</h3>
+            <p>An economic phenomenon where increased efficiency in using a resource leads to increased consumption of that resource rather than decreased consumption.</p>
+            <div class="definition-expanded">
+              <div style="font-size: 0.85rem; color: #00d4ff;">
+                <strong>Investment Implication:</strong> As AI makes computation cheaper, total compute demand may explode—benefiting chip makers, data centers, and power providers despite efficiency gains.
+              </div>
+            </div>
+          </div>
+
+          <div class="definition-item" onclick="toggleDefinition(this)">
+            <h3>💱 Yen Carry Trade</h3>
+            <p>A strategy where investors borrow in Japanese yen (low interest rates ~0.25%) and invest in higher-yielding assets (US Treasuries, tech stocks, emerging markets).</p>
+            <div class="definition-expanded">
+              <div style="font-size: 0.85rem; color: #00d4ff;">
+                <strong>Risk Signal:</strong> When the Bank of Japan hikes rates or yen strengthens, unwinds trigger forced selling. <strong>2024 unwind</strong> caused 12% VIX spike—watch JPY/USD &gt;150.
+              </div>
+            </div>
+          </div>
+
+          <!-- Suggestions Box -->
+          <div class="suggestions-box">
+            <h3>📋 Suggested New Terms</h3>
+            <p style="color: #a8b2d1; font-size: 0.9rem; margin-bottom: 1rem;">Words/phrases detected in transcripts. Voting threshold: <strong>10 votes</strong> to add or remove.</p>
+
+            <div id="suggestions-list">
+              <div class="suggestion-item" data-term="Regulatory Capture">
+                <div class="suggestion-header">
+                  <span class="word">Regulatory Capture</span>
+                  <div class="vote-counts">
+                    <span class="vote-count up">👍 <span class="up-count">7</span></span>
+                    <span class="vote-count down">👎 <span class="down-count">2</span></span>
+                    <span class="vote-count threshold">Target: 10</span>
+                  </div>
+                </div>
+                <div class="vote-buttons">
+                  <button class="vote-btn approve" onclick="voteTerm('Regulatory Capture', 'up')">👍 Upvote</button>
+                  <button class="vote-btn reject" onclick="voteTerm('Regulatory Capture', 'down')">👎 Skip</button>
+                </div>
+              </div>
+
+              <div class="suggestion-item" data-term="Capitulation">
+                <div class="suggestion-header">
+                  <span class="word">Capitulation</span>
+                  <div class="vote-counts">
+                    <span class="vote-count up">👍 <span class="up-count">3</span></span>
+                    <span class="vote-count down">👎 <span class="down-count">1</span></span>
+                    <span class="vote-count threshold">Target: 10</span>
+                  </div>
+                </div>
+                <div class="vote-buttons">
+                  <button class="vote-btn approve" onclick="voteTerm('Capitulation', 'up')">👍 Upvote</button>
+                  <button class="vote-btn reject" onclick="voteTerm('Capitulation', 'down')">👎 Skip</button>
+                </div>
+              </div>
+
+              <div class="suggestion-item ready" data-term="Narrative Violation">
+                <div class="suggestion-header">
+                  <span class="word">Narrative Violation</span>
+                  <div class="vote-counts">
+                    <span class="vote-count up">👍 <span class="up-count">10</span></span>
+                    <span class="vote-count down">👎 <span class="down-count">1</span></span>
+                    <span class="status-badge ready">READY TO ADD</span>
+                  </div>
+                </div>
+                <div style="color: #4caf50; font-size: 0.85rem; margin-top: 0.5rem;">
+                  ✓ Threshold reached! Will be added to Definitions on next update.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Section -->
+          <div class="card contact-card" style="margin-top: 2rem;">
+            <h2>📬 Get in Touch</h2>
+            <p style="color: #8892b0; margin-bottom: 1.5rem; font-size: 0.95rem;">Want to collaborate, share insights, or just say hello? Drop your contact info and we'll reach out.</p>
+
+            <form id="contactForm" class="contact-form">
+              <div class="form-group">
+                <label for="contactName">Name (optional)</label>
+                <input type="text" id="contactName" name="name" placeholder="Your name">
+              </div>
+
+              <div class="form-group">
+                <label for="contactInfo">Email or Phone <span style="color: #f44336;">*</span></label>
+                <input type="text" id="contactInfo" name="contact" placeholder="you@email.com or +1-555-123-4567" required>
+                <small class="form-hint">We'll send a verification message to confirm</small>
+              </div>
+
+              <div class="form-group">
+                <label for="contactMessage">Message (optional)</label>
+                <textarea id="contactMessage" name="message" rows="3" placeholder="What brings you here?"></textarea>
+              </div>
+
+              <div class="form-group checkbox-group">
+                <label class="checkbox-label">
+                  <input type="checkbox" id="weeklyUpdates" name="weeklyUpdates">
+                  <span class="checkmark"></span>
+                  <span class="checkbox-text">Send me a once-weekly update of your latest insights</span>
+                </label>
+              </div>
+
+              <button type="submit" class="submit-btn">
+                <span class="btn-text">Send & Verify</span>
+                <span class="btn-loading" style="display: none;">Sending...</span>
+              </button>
+            </form>
+
+            <div id="formStatus" class="form-status" style="display: none;"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Middle Column - Insights & Stock Data -->
+      <div class="middle-col">
+        <!-- Latest Insights -->
+        <div class="card">
+          <h2>Latest Insights</h2>
+
+          <div class="insight-item" onclick="toggleInsight(this)">
+            <div class="source">The Rundown AI • Feb 13</div>
+            <div class="text"><strong>SpaceX/xAI $1.25T Super-Entity:</strong> Elon Musk consolidating Starlink's satellite network with xAI's Grok infrastructure creates the first vertically integrated AI-to-orbit stack. <span style="color:#4caf50;">→ Bullish GOOGL (defensive moat), NVDA (compute demand), AVGO (custom silicon)</span></div>
+            <div class="insight-expanded">
+              <div style="font-size: 0.85rem; color: #a8b2d1;">
+                <strong>Key Tickers:</strong> GOOGL, NVDA, AVGO<br>
+                <strong>Thesis:</strong> Vertical integration of AI compute with orbital infrastructure creates durable competitive moats.
+              </div>
+              <div style="margin-top: 0.75rem;">
+                <button class="action-btn" onclick="event.stopPropagation(); showPodcastSummary('rundown_spacex_xai');" style="padding: 0.4rem 0.8rem; font-size: 0.8rem;">
+                  🔍 Deep Dive
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="insight-item" onclick="toggleInsight(this)">
+            <div class="source">Monetary Matters • Feb 10</div>
+            <div class="text"><strong>Gold Climax Top Signal:</strong> Milton Berg's institutional model flipped net-short across major indices while retail remains 100% long. Historical pattern suggests 8% drawdown trigger imminent. <span style="color:#f44336;">→ Risk-off: Reduce momentum exposure. Watch VIX &gt;25</span></div>
+            <div class="insight-expanded">
+              <div style="font-size: 0.85rem; color: #a8b2d1;">
+                <strong>Risk Signal:</strong> VIX &gt;25<br>
+                <strong>Action:</strong> Reduce high-beta momentum exposure, consider defensive positioning.
+              </div>
+              <div style="margin-top: 0.75rem;">
+                <button class="action-btn" onclick="event.stopPropagation(); showPodcastSummary('monetary_matters_gold_top');" style="padding: 0.4rem 0.8rem; font-size: 0.8rem;">
+                  🔍 Deep Dive
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="insight-item" onclick="toggleInsight(this)">
+            <div class="source">Jack Mallers Show • Feb 3</div>
+            <div class="text"><strong>Bitcoin as Hard Asset:</strong> New liquidity regime narrative gaining traction - BTC decoupling from tech-correlation as treasury reserve thesis resurfaces. <span style="color:#f7931a;">→ BTC positioning vs DXY weakness, yen carry unwind scenarios</span></div>
+            <div class="insight-expanded">
+              <div style="font-size: 0.85rem; color: #a8b2d1;">
+                <strong>Macro Context:</strong> DXY weakness, yen carry unwind<br>
+                <strong>Positioning:</strong> BTC as non-correlated hard asset alternative to gold.
+              </div>
+              <div style="margin-top: 0.75rem;">
+                <button class="action-btn" onclick="event.stopPropagation(); showPodcastSummary('mallers_bitcoin_hard_asset');" style="padding: 0.4rem 0.8rem; font-size: 0.8rem;">
+                  🔍 Deep Dive
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="insight-item" onclick="toggleInsight(this)">
+            <div class="source">a16z Live • Jan 25</div>
+            <div class="text"><strong>Healthcare AI Moats:</strong> Tennr and Camber building operational infrastructure (referral automation, claims processing) rather than clinical AI. First-mover advantage in regulatory capture. <span style="color:#4caf50;">→ Watch for IPO pipeline in healthtech ops</span></div>
+            <div class="insight-expanded">
+              <div style="font-size: 0.85rem; color: #a8b2d1;">
+                <strong>Theme:</strong> HealthTech operational infrastructure<br>
+                <strong>Watchlist:</strong> IPO pipeline for referral automation, claims processing, and RCM platforms.
+              </div>
+              <div style="margin-top: 0.75rem;">
+                <button class="action-btn" onclick="event.stopPropagation(); showPodcastSummary('a16z_healthcare_ai');" style="padding: 0.4rem 0.8rem; font-size: 0.8rem;">
+                  🔍 Deep Dive
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="insight-item" onclick="toggleInsight(this)">
+            <div class="source">Network State Podcast • Jan 16</div>
+            <div class="text"><strong>Machine-Native Money:</strong> USDC co-founder Sean Neville on deterministic crypto meeting probabilistic AI - identity systems for autonomous agents require new financial rails. <span style="color:#4caf50;">→ Long-term: Stablecoin infrastructure (COIN, fintech rails)</span></div>
+            <div class="insight-expanded">
+              <div style="font-size: 0.85rem; color: #a8b2d1;">
+                <strong>Key Players:</strong> COIN, stablecoin infrastructure<br>
+                <strong>Long-term Thesis:</strong> AI agents require deterministic payment rails.
+              </div>
+              <div style="margin-top: 0.75rem;">
+                <button class="action-btn" onclick="event.stopPropagation(); showPodcastSummary('network_state_machine_money');" style="padding: 0.4rem 0.8rem; font-size: 0.8rem;">
+                  🔍 Deep Dive
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- AI Alpha & Asset Atrophy -->
+        <div class="card">
+          <h2>AI Alpha & Asset Atrophy</h2>
+          <p style="color: #8892b0; margin-bottom: 1.5rem; font-size: 0.9rem;">Multi-factor scoring: mentions × conviction × source diversity × contrarian signals | <strong>Click for charts & deep dive</strong></p>
+
+          <div class="stock-grid" id="tickerGrid">
+            <!-- Tickers will be populated by JavaScript -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Column - Overton Window & Second Order F-X -->
+      <div class="right-col">
+        <!-- Overton Window Section -->
+        <div class="card">
+          <h2>The Overton Window</h2>
+          <p style="color: #8892b0; margin-bottom: 1.5rem; font-size: 0.9rem;">Emerging concepts and terminology not yet mainstream in investment discourse</p>
+
+          <div class="overton-item" onclick="toggleOverton(this)">
+            <div class="term">🧠 Neuralink Moment</div>
+            <div class="description">The inflection point when brain-computer interfaces shift from experimental to consumer-ready, triggering societal restructuring around cognitive enhancement.</div>
+            <div class="source">Detected in: The Network State Podcast • Feb 2026</div>
+            <div class="overton-expanded">
+              <div style="font-size: 0.85rem; color: #a8b2d1;">
+                <strong>Investment Angle:</strong> BCI hardware, neurotech chips, cognitive enhancement platforms. Early stage - watch for FDA approvals and consumer product launches.
+              </div>
+            </div>
+          </div>
+
+          <div class="overton-item" onclick="toggleOverton(this)">
+            <div class="term">🌐 Sovereign Individual Thesis</div>
+            <div class="description">The expectation that high-net-worth individuals will increasingly decouple from traditional jurisdictions, seeking digital-first citizenship and asset structures.</div>
+            <div class="source">Detected in: Monetary Matters • Feb 2026</div>
+            <div class="overton-expanded">
+              <div style="font-size: 0.85rem; color: #a8b2d1;">
+                <strong>Investment Angle:</strong> Digital banking, crypto custody, tax-advantaged jurisdictions, nomad infrastructure. Services enabling geographic arbitrage.
+              </div>
+            </div>
+          </div>
+
+          <div class="overton-item" onclick="toggleOverton(this)">
+            <div class="term">⚡ Compute Arbitrage</div>
+            <div class="description">Exploiting price differentials in AI compute across regions and providers-buying low in unregulated markets, deploying high in enterprise stacks.</div>
+            <div class="source">Detected in: a16z Live • Jan 2026</div>
+            <div class="overton-expanded">
+              <div style="font-size: 0.85rem; color: #a8b2d1;">
+                <strong>Investment Angle:</strong> GPU cloud providers, distributed compute networks, energy arbitrage plays. Infrastructure for AI training cost optimization.
+              </div>
+            </div>
+          </div>
+
+          <div class="overton-item" onclick="toggleOverton(this)">
+            <div class="term">🏛️ Regulatory Moat</div>
+            <div class="description">Competitive advantage gained not through technology but through compliance complexity-incumbents weaponizing bureaucracy against nimble startups.</div>
+            <div class="source">Detected in: Jack Mallers Show • Feb 2026</div>
+            <div class="overton-expanded">
+              <div style="font-size: 0.85rem; color: #a8b2d1;">
+                <strong>Investment Angle:</strong> Incumbents with established compliance infrastructure. Banking, healthcare, defense contractors. Barrier to entry becomes the product.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Second Order F-X Section -->
+        <div class="card" style="margin-top: 1.5rem;">
+          <h2 style="font-size: 1.3rem;">⚡ Second Order F-X</h2>
+          <p style="color: #8892b0; margin-bottom: 1rem; font-size: 0.8rem;">Supply chain beneficiaries and second-order plays</p>
+          <div class="second-order-grid-right" id="hiddenGemsGridRight"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Disclaimer -->
+    <div class="disclaimer" style="background: rgba(0, 0, 0, 0.2); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 8px; padding: 0.75rem; margin: 1rem 0; text-align: center;">
+      <p style="color: #8892b0; font-size: 0.8rem; line-height: 1.4; margin: 0;">
+        <strong>Disclaimer:</strong> Nothing on this page constitutes investment advice or a recommendation to buy or sell any security.
+        All content is for informational and educational purposes only. We may hold positions in some or all of the companies mentioned.
+        Past performance is not indicative of future results. Always conduct your own research and consult with a qualified financial advisor before making investment decisions.
+      </p>
+    </div>
+
+    <footer>
+      <div class="credit">🤖 Curated by 6AIndolf 🧙‍♂️</div>
+      <div class="subtext">AI-powered research assistant analyzing newsletters, podcasts, and market signals</div>
+      <div class="subtext">
+        <a href="archive.html" style="color: #00d4ff; text-decoration: none;">📚 Archive</a> • 
+        <a href="index.html" style="color: #00d4ff; text-decoration: none;">🏠 Dashboard</a>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Chart Modal -->
+  <div id="chartModal" class="chart-modal">
+    <div class="chart-container">
+      <div class="chart-header">
+        <h3 id="chartTitle">Stock Chart</h3>
+        <button class="close-btn" onclick="closeChart()">✕ Close</button>
+      </div>
+      <div id="chart-image-container">
+        <img id="chartImage" src="" alt="Stock Chart">
+      </div>
+    </div>
+  </div>
+
+  <!-- Podcast Summary Modal -->
+  <div id="podcastModal" class="podcast-modal">
+    <div class="podcast-container">
+      <div class="podcast-header">
+        <div>
+          <h3 id="podcastTitle">Podcast Summary</h3>
+          <div id="podcastSource" class="podcast-source"></div>
+        </div>
+        <button class="close-btn" onclick="closePodcastSummary()">✕ Close</button>
+      </div>
+      <div id="podcastContent" class="podcast-content">
+        <!-- Content populated by JavaScript -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Load dashboard data from pipeline (if available) -->
+  <script src="data/data.js"></script>
+  
+  <script>
+    // Storage key for persisting votes
+    const STORAGE_KEY = 'investopedia_votes_v1';
+    const THRESHOLD = 10;
+
+    // Default vote data
+    const defaultVoteData = {
+      'Regulatory Capture': { up: 7, down: 2 },
+      'Capitulation': { up: 3, down: 1 },
+      'Narrative Violation': { up: 10, down: 1, ready: true }
+    };
+
+    // Load vote data from localStorage or use defaults
+    function loadVoteData() {
+      try {
+        const stored = localStorage.getItem(STORAGE_KEY);
+        if (stored) {
+          return JSON.parse(stored);
+        }
+      } catch (e) {
+        console.log('Could not load votes from storage:', e);
+      }
+      return { ...defaultVoteData };
+    }
+
+    // Save vote data to localStorage
+    function saveVoteData(data) {
+      try {
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
+      } catch (e) {
+        console.log('Could not save votes to storage:', e);
+      }
+    }
+
+    // Initialize vote data
+    let voteData = loadVoteData();
+
+    // Initialize display on page load
+    function initializeVotes() {
+      Object.keys(voteData).forEach(term => {
+        const item = document.querySelector(`[data-term="${term}"]`);
+        if (!item) return;
+
+        const upCount = item.querySelector('.up-count');
+        const downCount = item.querySelector('.down-count');
+
+        if (upCount) upCount.textContent = voteData[term].up;
+        if (downCount) downCount.textContent = voteData[term].down;
+
+        // Check if already reached threshold
+        if (voteData[term].up >= THRESHOLD) {
+          item.classList.add('ready');
+          const buttonsDiv = item.querySelector('.vote-buttons');
+          const thresholdDiv = item.querySelector('.vote-count.threshold');
+
+          if (thresholdDiv) {
+            thresholdDiv.innerHTML = '<span class="status-badge ready">READY TO ADD</span>';
+          }
+          if (buttonsDiv) {
+            buttonsDiv.innerHTML = '<div style="color: #4caf50; font-size: 0.85rem;">✓ Threshold reached! Will be added to Definitions on next update.</div>';
+          }
+          item.style.border = '1px solid #4caf50';
+        } else if (voteData[term].down >= THRESHOLD) {
+          item.style.opacity = '0.5';
+          item.style.textDecoration = 'line-through';
+          const buttonsDiv = item.querySelector('.vote-buttons');
+          if (buttonsDiv) {
+            buttonsDiv.innerHTML = '<div style="color: #f44336; font-size: 0.85rem;">✗ Will be removed from suggestions on next update.</div>';
+          }
+        }
+      });
+    }
+
+    // Handle term voting
+    function voteTerm(term, voteType) {
+      if (!voteData[term]) {
+        voteData[term] = { up: 0, down: 0 };
+      }
+
+      // Prevent voting if already decided
+      if (voteData[term].up >= THRESHOLD || voteData[term].down >= THRESHOLD) {
+        return;
+      }
+
+      // Increment the appropriate count
+      voteData[term][voteType]++;
+
+      // Persist to localStorage
+      saveVoteData(voteData);
+
+      // Update display
+      const item = document.querySelector(`[data-term="${term}"]`);
+      const upCount = item.querySelector('.up-count');
+      const downCount = item.querySelector('.down-count');
+
+      upCount.textContent = voteData[term].up;
+      downCount.textContent = voteData[term].down;
+
+      // Visual feedback - button press effect
+      const btn = item.querySelector(`.vote-btn.${voteType === 'up' ? 'approve' : 'reject'}`);
+      if (btn) {
+        btn.style.transform = 'scale(0.95)';
+        setTimeout(() => btn.style.transform = 'scale(1)', 100);
+      }
+
+      // Check if threshold reached
+      if (voteData[term].up >= THRESHOLD) {
+        // Mark as ready to add
+        voteData[term].ready = true;
+        item.classList.add('ready');
+
+        // Replace buttons with status
+        const buttonsDiv = item.querySelector('.vote-buttons');
+        const thresholdDiv = item.querySelector('.vote-count.threshold');
+
+        if (thresholdDiv) {
+          thresholdDiv.innerHTML = '<span class="status-badge ready">READY TO ADD</span>';
+        }
+
+        if (buttonsDiv) {
+          buttonsDiv.innerHTML = '<div style="color: #4caf50; font-size: 0.85rem;">✓ Threshold reached! Will be added to Definitions on next update.</div>';
+        }
+
+        // Visual feedback
+        item.style.border = '1px solid #4caf50';
+        item.style.boxShadow = '0 0 20px rgba(76, 175, 80, 0.3)';
+
+      } else if (voteData[term].down >= THRESHOLD) {
+        // Mark as ready to skip
+        item.style.opacity = '0.5';
+        item.style.textDecoration = 'line-through';
+
+        const buttonsDiv = item.querySelector('.vote-buttons');
+        if (buttonsDiv) {
+          buttonsDiv.innerHTML = '<div style="color: #f44336; font-size: 0.85rem;">✗ Will be removed from suggestions on next update.</div>';
+        }
+      }
+
+      console.log(`Voted ${voteType} on "${term}" - Up: ${voteData[term].up}, Down: ${voteData[term].down}`);
+    }
+
+    // Initialize votes on page load
+    document.addEventListener('DOMContentLoaded', initializeVotes);
+
+    // Chart modal functions
+    function showChart(ticker) {
+      const modal = document.getElementById('chartModal');
+      const title = document.getElementById('chartTitle');
+      const chartImage = document.getElementById('chartImage');
+
+      // Map tickers to chart filenames
+      const chartFiles = {
+        'GOOGL': 'GOOGL_chart.png',
+        'MSFT': 'MSFT_chart.png',
+        'AAPL': 'AAPL_chart.png',
+        'NVDA': 'NVDA_chart.png',
+        'META': 'META_chart.png',
+        'BTC': 'BTC_USD_chart.png'
+      };
+
+      const chartFile = chartFiles[ticker] || `${ticker}_chart.png`;
+      const displayName = ticker === 'BTC' ? 'Bitcoin (BTC-USD)' : ticker;
+
+      title.textContent = `${displayName} - 2 Week Chart`;
+      chartImage.src = `charts/${chartFile}`;
+      modal.classList.add('active');
+    }
+
+    function closeChart() {
+      const modal = document.getElementById('chartModal');
+      modal.classList.remove('active');
+    }
+
+    // Close modal on outside click
+    document.getElementById('chartModal').addEventListener('click', function(e) {
+      if (e.target === this) {
+        closeChart();
+      }
+    });
+
+    // Podcast Summary Data - Loaded from database export
+    let podcastSummaries = {};
+    
+    // Load podcast data from external source
+    async function loadPodcastData() {
+      try {
+        // Try to load from data.js first (if generated)
+        if (typeof dashboardData !== 'undefined' && dashboardData.podcastSummaries) {
+          podcastSummaries = formatPodcastData(dashboardData.podcastSummaries);
+          console.log('Loaded podcast data from dashboardData');
+          return;
+        }
+        
+        // Fallback: try loading from JSON file
+        const response = await fetch('data/podcast_summaries.json');
+        if (response.ok) {
+          const data = await response.json();
+          podcastSummaries = formatPodcastData(data);
+          console.log('Loaded podcast data from JSON');
+        } else {
+          console.log('No external podcast data found, using defaults');
+          loadDefaultPodcastData();
+        }
+      } catch (error) {
+        console.log('Error loading podcast data:', error);
+        loadDefaultPodcastData();
+      }
+    }
+    
+    // Format database podcast data to match expected structure
+    function formatPodcastData(data) {
+      const formatted = {};
+      data.forEach(episode => {
+        const id = episode.podcast_name.toLowerCase().replace(/[^a-z0-9]/g, '_') + '_' + 
+                   episode.episode_title.toLowerCase().replace(/[^a-z0-9]/g, '_').substring(0, 20);
+        
+        formatted[id] = {
+          title: episode.episode_title,
+          source: `${episode.podcast_name} • ${new Date(episode.episode_date).toLocaleDateString()}`,
+          content: episode.summary || generateDefaultSummary(episode)
+        };
+      });
+      return formatted;
+    }
+    
+    // Generate default summary if none provided
+    function generateDefaultSummary(episode) {
+      const tickers = episode.key_tickers || [];
+      const tickerHtml = tickers.map(t => 
+        `<span class="ticker-box-inline"><span class="symbol">${t}</span></span>`
+      ).join('');
+      
+      return `
+        <div class="podcast-section">
+          <h4>🎯 Key Takeaways</h4>
+          ${(episode.key_takeaways || []).map(takeaway => 
+            `<div class="key-point-box">${takeaway}</div>`
+          ).join('')}
+        </div>
+        <div class="podcast-section">
+          <h4>📈 Investment Implications</h4>
+          <div style="margin-top: 0.5rem;">${tickerHtml}</div>
+        </div>
+        <div class="podcast-section">
+          <h4>🎲 Positioning</h4>
+          <div class="implication-box">
+            <p style="color: #a8b2d1; font-size: 0.9rem;">${episode.investment_thesis || 'No thesis available.'}</p>
+          </div>
+        </div>
+      `;
+    }
+    
+    // Fallback default data (used when database export not available)
+    function loadDefaultPodcastData() {
+      podcastSummaries = {};
+      console.log('Loaded default (empty) podcast data');
+    }
+
+    // Show podcast summary modal
+    function showPodcastSummary(podcastId) {
+      const modal = document.getElementById('podcastModal');
+      const title = document.getElementById('podcastTitle');
+      const source = document.getElementById('podcastSource');
+      const content = document.getElementById('podcastContent');
+
+      const data = podcastSummaries[podcastId];
+      if (!data) {
+        console.error('Podcast summary not found:', podcastId);
+        return;
+      }
+
+      title.textContent = data.title;
+      source.textContent = data.source;
+      content.innerHTML = data.content;
+
+      modal.classList.add('active');
+    }
+
+    // Close podcast summary modal
+    function closePodcastSummary() {
+      const modal = document.getElementById('podcastModal');
+      modal.classList.remove('active');
+    }
+
+    // Close podcast modal on outside click
+    document.getElementById('podcastModal').addEventListener('click', function(e) {
+      if (e.target === this) {
+        closePodcastSummary();
+      }
+    });
+
+    // Close modal on Escape key
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') {
+        closeChart();
+        closePodcastSummary();
+        // Also close any expanded cards
+        document.querySelectorAll('.ticker-card.active, .insight-item.active, .overton-item.active').forEach(card => {
+          card.classList.remove('active');
+        });
+        activeCard = null;
+      }
+    });
+
+    // Toggle insight cards
+    function toggleInsight(item) {
+      // Close other expanded items
+      document.querySelectorAll('.insight-item.active').forEach(el => {
+        if (el !== item) el.classList.remove('active');
+      });
+      item.classList.toggle('active');
+    }
+
+    // Toggle overton window items
+    function toggleOverton(item) {
+      // Close other expanded items
+      document.querySelectorAll('.overton-item.active').forEach(el => {
+        if (el !== item) el.classList.remove('active');
+      });
+      item.classList.toggle('active');
+    }
+
+    // Toggle definition items
+    function toggleDefinition(item) {
+      // Close other expanded items
+      document.querySelectorAll('.definition-item.active').forEach(el => {
+        if (el !== item) el.classList.remove('active');
+      });
+      item.classList.toggle('active');
+    }
+
+    // Close expanded cards when clicking outside
+    document.addEventListener('click', function(e) {
+      if (!e.target.closest('.ticker-card') && !e.target.closest('.insight-item') && !e.target.closest('.overton-item') && !e.target.closest('.definition-item')) {
+        document.querySelectorAll('.ticker-card.active, .insight-item.active, .overton-item.active, .definition-item.active').forEach(card => {
+          card.classList.remove('active');
+        });
+        activeCard = null;
+      }
+    });
+
+    // Auto-refresh data every 5 minutes
+    setInterval(() => {
+      console.log('Checking for updated data...');
+      // In production, this would fetch updated JSON data from the pipeline
+    }, 300000);
+
+    // Price data - embedded from Yahoo Finance
+    let priceData = {
+      "GOOGL": {"price": 305.72, "change_pct": -8.62, "name": "Alphabet Inc."},
+      "MSFT": {"price": 401.32, "change_pct": -16.49, "name": "Microsoft Corporation"},
+      "AAPL": {"price": 255.78, "change_pct": -0.87, "name": "Apple Inc."},
+      "NVDA": {"price": 182.81, "change_pct": -3.03, "name": "NVIDIA Corporation"},
+      "META": {"price": 639.77, "change_pct": -4.93, "name": "Meta Platforms Inc."},
+      "BTC-USD": {"price": 69764.54, "change_pct": -9.37, "name": "Bitcoin USD"},
+      "QQQ": {"price": 601.92, "change_pct": -4.63, "name": "Invesco QQQ Trust"},
+      "NEE": {"price": 93.8, "change_pct": 7.63, "name": "NextEra Energy"},
+      "CEG": {"price": 288.43, "change_pct": -0.11, "name": "Constellation Energy"},
+      "VST": {"price": 171.49, "change_pct": 4.4, "name": "Vistra Corp"},
+      "SMR": {"price": 14.31, "change_pct": -25.47, "name": "NuScale Power"},
+      "OKLO": {"price": 65.69, "change_pct": -22.96, "name": "Oklo Inc"},
+      "BWXT": {"price": 200.4, "change_pct": -5.65, "name": "BWX Technologies"},
+      "CWST": {"price": 103.72, "change_pct": -1.98, "name": "Casella Waste"},
+      "XYL": {"price": 128.09, "change_pct": -8.77, "name": "Xylem Inc"},
+      "AWK": {"price": 133.5, "change_pct": 2.97, "name": "American Water"},
+      "ANET": {"price": 141.59, "change_pct": -3.48, "name": "Arista Networks"},
+      "AVGO": {"price": 325.17, "change_pct": -2.29, "name": "Broadcom Inc"},
+      "MRVL": {"price": 78.61, "change_pct": -5.21, "name": "Marvell Tech"},
+      "CSCO": {"price": 76.85, "change_pct": -2.33, "name": "Cisco Systems"},
+      "DLR": {"price": 180.97, "change_pct": 10.92, "name": "Digital Realty"},
+      "EQIX": {"price": 956.19, "change_pct": 18.11, "name": "Equinix Inc"},
+      "FFIV": {"price": 273.93, "change_pct": 1.29, "name": "F5 Inc"},
+      "NET": {"price": 195.85, "change_pct": -4.9, "name": "Cloudflare"},
+      "DDOG": {"price": 125.2, "change_pct": -9.41, "name": "Datadog"},
+      "SNOW": {"price": 182.29, "change_pct": -14.32, "name": "Snowflake"},
+      "PLTR": {"price": 131.41, "change_pct": -20.69, "name": "Palantir"},
+      "CFLT": {"price": 30.56, "change_pct": 0.07, "name": "Confluent"},
+      "CRM": {"price": 189.72, "change_pct": -16.98, "name": "Salesforce"},
+      "NOW": {"price": 107.08, "change_pct": -18.76, "name": "ServiceNow"},
+      "VEEV": {"price": 174.11, "change_pct": -20.09, "name": "Veeva Systems"},
+      "WDAY": {"price": 144.42, "change_pct": -23.42, "name": "Workday"},
+      "MDB": {"price": 368.4, "change_pct": -10.56, "name": "MongoDB"},
+      "SWKS": {"price": 62.1, "change_pct": 3.41, "name": "Skyworks"},
+      "QRVO": {"price": 84.44, "change_pct": 1.97, "name": "Qorvo"},
+      "QCOM": {"price": 140.7, "change_pct": -8.06, "name": "Qualcomm"},
+      "PYPL": {"price": 40.29, "change_pct": -27.42, "name": "PayPal"},
+      "SOFI": {"price": 19.61, "change_pct": -22.98, "name": "SoFi Technologies"},
+      "ASML": {"price": 1406.61, "change_pct": -3.17, "name": "ASML Holding"},
+      "AMAT": {"price": 354.91, "change_pct": 6.67, "name": "Applied Materials"},
+      "LRCX": {"price": 235.53, "change_pct": -1.23, "name": "Lam Research"},
+      "KLAC": {"price": 1464.13, "change_pct": -9.42, "name": "KLA Corp"},
+      "INTC": {"price": 46.79, "change_pct": 6.51, "name": "Intel Corp"},
+      "AMD": {"price": 207.32, "change_pct": -17.74, "name": "AMD"}
+    };
+
+    function loadPriceData() {
+      // Data is already embedded, just render
+      updateTitleTickers();
+      populateTickers();
+    }
+
+    // Update title tickers with price data
+    function updateTitleTickers() {
+      // QQQ: symbol price change
+      if (priceData['QQQ']) {
+        const qqq = priceData['QQQ'];
+        document.getElementById('qqq-price').textContent = `$${qqq.price.toFixed(2)}`;
+        const changeEl = document.getElementById('qqq-change');
+        changeEl.textContent = `${qqq.change_pct >= 0 ? '+' : ''}${qqq.change_pct.toFixed(1)}%`;
+        changeEl.className = 'ticker-change ' + (qqq.change_pct >= 0 ? 'positive' : 'negative');
+      }
+
+      // BTC: change price symbol
+      if (priceData['BTC-USD']) {
+        const btc = priceData['BTC-USD'];
+        document.getElementById('btc-price').textContent = `$${btc.price.toLocaleString('en-US', {maximumFractionDigits: 0})}`;
+        const changeEl = document.getElementById('btc-change');
+        changeEl.textContent = `${btc.change_pct >= 0 ? '+' : ''}${btc.change_pct.toFixed(1)}%`;
+        changeEl.className = 'ticker-change ' + (btc.change_pct >= 0 ? 'positive' : 'negative');
+      }
+    }
+
+    // Ticker data - loaded from database export
+    let enhancedTickers = [];
+
+    // Load ticker data from database export
+    async function loadTickerData() {
+      try {
+        // Try dashboardData first
+        if (typeof dashboardData !== 'undefined' && dashboardData.tickerScores) {
+          enhancedTickers = dashboardData.tickerScores.map(formatTickerData);
+          console.log('Loaded ticker data from dashboardData:', enhancedTickers.length);
+          populateTickers();
+          return;
+        }
+
+        // Fallback: fetch from JSON
+        const response = await fetch('data/ticker_scores.json');
+        if (response.ok) {
+          const data = await response.json();
+          enhancedTickers = data.map(formatTickerData);
+          console.log('Loaded ticker data from JSON:', enhancedTickers.length);
+          populateTickers();
+        } else {
+          console.log('No external ticker data found, using defaults');
+          loadDefaultTickerData();
+        }
+      } catch (error) {
+        console.log('Error loading ticker data:', error);
+        loadDefaultTickerData();
+      }
+    }
+
+    // Format database ticker data to match expected structure
+    function formatTickerData(score) {
+      return {
+        ticker: score.ticker,
+        score: Math.round(score.total_score || score.score),
+        rank: score.rank || 0,
+        mentions: score.raw_mention_count || score.podcast_mentions + score.newsletter_mentions || 1,
+        uniqueSources: score.unique_sources || 1,
+        convictionLevel: score.conviction_level || 'medium',
+        contrarianSignal: score.contrarian_signal || 'neutral',
+        timeframe: score.timeframe || 'long_term',
+        hiddenPlays: score.hidden_plays || [],
+        latestContext: score.contexts && score.contexts[0] ? score.contexts[0].preview : 'No context available',
+        contexts: score.contexts || []
+      };
+    }
+
+    // Fallback default ticker data
+    function loadDefaultTickerData() {
+      enhancedTickers = [
+        {
+          ticker: 'GOOGL',
+          score: 115,
+          rank: 1,
+          mentions: 6,
+          uniqueSources: 2,
+          convictionLevel: 'medium',
+          contrarianSignal: 'neutral',
+          timeframe: 'long_term',
+          hiddenPlays: [
+            { category: 'Cloud Infrastructure', tickers: ['ANET', 'FFIV', 'NET'] },
+            { category: 'AI Training', tickers: ['SNOW', 'PLTR'] }
+          ],
+          latestContext: 'SpaceX/xAI $1.25T super-entity signals defensive moat importance'
+        },
+        {
+          ticker: 'NVDA',
+          score: 88,
+          rank: 3,
+          mentions: 3,
+          uniqueSources: 2,
+          convictionLevel: 'high',
+          contrarianSignal: 'crowded_warning',
+          timeframe: 'long_term',
+          hiddenPlays: [
+            { category: 'Power', tickers: ['NEE', 'CEG', 'VST'] },
+            { category: 'Networking', tickers: ['ANET', 'AVGO', 'MRVL'] }
+          ],
+          latestContext: 'Google upgrade breaks reasoning barriers - continued compute demand'
+        }
+      ];
+      populateTickers();
+    }
+
+    // Initialize on page load
+    document.addEventListener('DOMContentLoaded', function() {
+      console.log('Page loading...');
+      updateTitleTickers();
+      loadTickerData();
+      loadPodcastData();
+    });
+
+    // Track active card
+    let activeCard = null;
+
+    // Populate enhanced ticker cards
+    function populateTickers() {
+      const grid = document.getElementById('tickerGrid');
+      if (!grid) return;
+
+      if (enhancedTickers.length === 0) {
+        grid.innerHTML = '<div class="placeholder">Loading tickers...</div>';
+        return;
+      }
+
+      // Create main ticker cards
+      let html = enhancedTickers.map((ticker, index) => createTickerCard(ticker, index + 1)).join('');
+
+      grid.innerHTML = html;
+
+      // Add click handlers to cards
+      document.querySelectorAll('.ticker-card').forEach(card => {
+        card.addEventListener('click', handleCardClick);
+      });
+
+      // Populate Second Order F-X in right column
+      const hiddenGemsGridRight = document.getElementById('hiddenGemsGridRight');
+
+      const hiddenGems = [];
+      enhancedTickers.forEach(t => {
+        if (t.hiddenPlays) {
+          t.hiddenPlays.forEach(play => {
+            play.tickers.forEach(symbol => {
+              if (!hiddenGems.find(g => g.ticker === symbol)) {
+                hiddenGems.push({
+                  ticker: symbol,
+                  parent: t.ticker,
+                  category: play.category,
+                  score: Math.floor(t.score * 0.6)
+                });
+              }
+            });
+          });
+        }
+      });
+
+      if (hiddenGems.length > 0 && hiddenGemsGridRight) {
+        hiddenGemsGridRight.innerHTML = hiddenGems.slice(0, 8).map(gem => {
+          const gemPriceInfo = priceData[gem.ticker] || {};
+          const gemPrice = gemPriceInfo.price;
+          const gemChange = gemPriceInfo.change_pct;
+          const gemHasPrice = gemPrice !== undefined && gemChange !== undefined;
+
+          const gemPriceHtml = gemHasPrice ? `
+            <div style="display: flex; align-items: center; gap: 0.2rem; margin-top: 0.1rem;">
+              <span style="font-size: 0.7rem; color: #e8e8e8;">$${gemPrice < 1000 ? gemPrice.toFixed(2) : gemPrice.toLocaleString('en-US', {maximumFractionDigits: 0})}</span>
+              <span class="ticker-change ${gemChange >= 0 ? 'positive' : 'negative'}" style="font-size: 0.55rem; padding: 0.05rem 0.15rem;">${gemChange >= 0 ? '+' : ''}${gemChange.toFixed(1)}%</span>
+            </div>
+          ` : '';
+
+          return `
+          <div class="ticker-card hidden-gem" data-ticker="${gem.ticker}" style="padding: 0;">
+            <div class="ticker-card-inner" style="padding: 0.5rem;">
+              <div class="ticker-header" style="margin-bottom: 0.25rem;">
+                <div class="ticker-main">
+                  <div class="ticker-symbol" style="font-size: 1.1rem;">${gem.ticker}</div>
+                  <div style="font-size: 0.6rem; color: #8892b0;">via ${gem.parent}</div>
+                  ${gemPriceHtml}
+                </div>
+                <div class="ticker-meta">
+                  <span class="score-badge" style="font-size: 0.65rem; padding: 0.15rem 0.4rem;">${gem.score}</span>
+                </div>
+              </div>
+              <div class="expand-hint" style="margin-top: 0.35rem; font-size: 0.65rem;">
+                <span>Click to expand</span>
+                <span class="expand-icon">▼</span>
+              </div>
+            </div>
+            <div class="ticker-expanded">
+              <div class="expanded-content" style="padding: 0.5rem;">
+                <div class="expanded-section">
+                  <div class="expanded-label">Category</div>
+                  <div style="font-size: 0.8rem; color: #ffc107;">${gem.category}</div>
+                </div>
+                <div class="expanded-actions" style="margin-top: 0.5rem;">
+                  <button class="action-btn" onclick="event.stopPropagation(); showChart('${gem.ticker}')" style="padding: 0.35rem 0.6rem; font-size: 0.75rem;">
+                    📊 Chart
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        `}).join('');
+
+        // Add click handlers to hidden gem cards
+        hiddenGemsGridRight.querySelectorAll('.ticker-card').forEach(card => {
+          card.addEventListener('click', handleCardClick);
+        });
+      }
+    }
+
+    // Handle card click with ripple effect
+    function handleCardClick(e) {
+      const card = e.currentTarget;
+
+      // Don't toggle if clicking on action buttons
+      if (e.target.closest('.action-btn')) {
+        return;
+      }
+
+      // Create ripple effect
+      const rect = card.getBoundingClientRect();
+      const ripple = document.createElement('span');
+      const size = Math.max(rect.width, rect.height);
+      const x = e.clientX - rect.left - size / 2;
+      const y = e.clientY - rect.top - size / 2;
+
+      ripple.style.width = ripple.style.height = size + 'px';
+      ripple.style.left = x + 'px';
+      ripple.style.top = y + 'px';
+      ripple.classList.add('ripple');
+
+      card.appendChild(ripple);
+
+      setTimeout(() => ripple.remove(), 600);
+
+      // Toggle active state
+      if (activeCard && activeCard !== card) {
+        activeCard.classList.remove('active');
+      }
+
+      card.classList.toggle('active');
+      activeCard = card.classList.contains('active') ? card : null;
+    }
+
+    // Show deep dive modal (placeholder for future implementation)
+    function showDeepDive(ticker) {
+      // For now, just show an alert - in production this would open a detailed view
+      const modal = document.getElementById('chartModal');
+      const title = document.getElementById('chartTitle');
+      const chartImage = document.getElementById('chartImage');
+
+      title.textContent = `${ticker} - Deep Dive Analysis`;
+      chartImage.src = `charts/${ticker}_chart.png`;
+      chartImage.onerror = function() {
+        // If no chart exists, show placeholder
+        this.src = '';
+        this.style.display = 'none';
+        document.getElementById('chart-image-container').innerHTML = `
+          <div style="text-align: center; color: #8892b0; padding: 3rem;">
+            <div style="font-size: 3rem; margin-bottom: 1rem;">🔍</div>
+            <div style="font-size: 1.2rem; margin-bottom: 0.5rem;">Deep Dive for ${ticker}</div>
+            <div style="font-size: 0.9rem;">Detailed analysis coming soon!</div>
+            <div style="margin-top: 1.5rem; font-size: 0.8rem; opacity: 0.7;">
+              Research reports, financial metrics, and AI-powered insights will be available here.
+            </div>
+          </div>
+        `;
+      };
+      chartImage.onload = function() {
+        this.style.display = 'block';
+      };
+      modal.classList.add('active');
+    }
+
+    function createTickerCard(ticker, rank) {
+      const convictionEmoji = {
+        'high': '🔥 High',
+        'medium': '⚡ Medium',
+        'low': '◦ Low'
+      };
+
+      // Handle data structure differences
+      const tickerSymbol = ticker.ticker || 'UNKNOWN';
+      const tickerScore = Math.round(ticker.score || 0);
+      const tickerMentions = ticker.mentions || 0;
+      const tickerSources = ticker.unique_sources || ticker.uniqueSources || 1;
+      const tickerConviction = ticker.conviction_level || ticker.convictionLevel || 'medium';
+      const tickerSignal = ticker.contrarian_signal || ticker.contrarianSignal || 'neutral';
+      const tickerTimeframe = ticker.timeframe || 'unspecified';
+      const tickerHiddenPlays = ticker.hidden_plays || ticker.hiddenPlays || [];
+      const contexts = ticker.contexts || [];
+      const latestContext = contexts.length > 0 ? (contexts[0].subject || contexts[0].preview || '') : '';
+
+      // Get price data if available
+      const priceInfo = priceData[tickerSymbol] || {};
+      const price = priceInfo.price;
+      const changePct = priceInfo.change_pct;
+      const hasPrice = price !== undefined && changePct !== undefined;
+
+      const cardClass = tickerSignal === 'contrarian_positive' ? 'contrarian' :
+                        tickerSignal === 'crowded_warning' ? 'crowded' : '';
+
+      const signalBadge = tickerSignal === 'contrarian_positive' ?
+        '<span class="signal-badge contrarian">🎯 Contrarian</span>' :
+        tickerSignal === 'crowded_warning' ?
+        '<span class="signal-badge crowded">⚠️ Crowded</span>' : '';
+
+      // Hidden plays for collapsed view
+      const hiddenPlaysCollapsed = tickerHiddenPlays.length > 0 ? `
+        <div class="hidden-plays">
+          <span class="hidden-plays-title">💎 Hidden Plays:</span>
+          ${tickerHiddenPlays.slice(0, 2).map(play => {
+            const tickers = play.tickers || [];
+            return tickers.slice(0, 3).map(t => `<span class="play-tag">${t}</span>`).join('');
+          }).join('')}
+        </div>
+      ` : '';
+
+      // Hidden plays for expanded view
+      const hiddenPlaysExpanded = tickerHiddenPlays.length > 0 ? `
+        <div class="expanded-section">
+          <div class="expanded-label">💎 Hidden Plays & Second-Order Effects</div>
+          ${tickerHiddenPlays.map(play => `
+            <div style="margin-bottom: 0.5rem;">
+              <div style="font-size: 0.75rem; color: #ffc107; margin-bottom: 0.25rem;">${play.category}</div>
+              <div>${play.tickers.map(t => `<span class="play-tag">${t}</span>`).join('')}</div>
+            </div>
+          `).join('')}
+        </div>
+      ` : '';
+
+      const timeframeEmoji = tickerTimeframe === 'long_term' ? '📅 Long' :
+                             tickerTimeframe === 'short_term' ? '⚡ Short' : '⏱️ Unspec';
+
+      // Price display HTML
+      const priceHtmlRight = hasPrice ? `
+        <div style="display: flex; flex-direction: column; align-items: flex-end; gap: 0.15rem;">
+          <span style="font-size: 0.9rem; color: #e8e8e8; font-weight: 700;">$${price < 1000 ? price.toFixed(2) : price.toLocaleString('en-US', {maximumFractionDigits: 0})}</span>
+          <span class="ticker-change ${changePct >= 0 ? 'positive' : 'negative'}" style="font-size: 0.7rem; padding: 0.15rem 0.4rem; font-weight: 600;">${changePct >= 0 ? '+' : ''}${changePct.toFixed(1)}%</span>
+        </div>
+      ` : '';
+
+      // Context preview for collapsed view
+      const contextPreview = latestContext ?
+        `<div style="font-size: 0.75rem; color: #8892b0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-top: 0.2rem; max-width: 200px;">${latestContext.substring(0, 50)}...</div>` : '';
+
+      // Full context for expanded view
+      const contextExpanded = latestContext ? `
+        <div class="expanded-section">
+          <div class="expanded-label">📝 Latest Context</div>
+          <div class="context-text">"${latestContext}"</div>
+        </div>
+      ` : '';
+
+      return `
+        <div class="ticker-card ${cardClass}" data-ticker="${tickerSymbol}">
+          <div class="ticker-card-inner">
+            <div class="ticker-header">
+              <div class="ticker-main">
+                <div class="ticker-rank">#${rank}</div>
+                <div style="min-width: 0; flex: 1;">
+                  <div class="ticker-symbol">${tickerSymbol}</div>
+                  ${contextPreview}
+                </div>
+              </div>
+              <div class="ticker-meta">
+                ${priceHtmlRight}
+                <span class="score-badge">${tickerScore}</span>
+                ${signalBadge}
+              </div>
+            </div>
+
+            <div class="ticker-details">
+              <div class="detail-item">
+                <span class="detail-label">Mentions</span>
+                <span class="detail-value">${tickerMentions}</span>
+              </div>
+              <div class="detail-item">
+                <span class="detail-label">Sources</span>
+                <span class="detail-value">${tickerSources}</span>
+              </div>
+              <div class="detail-item">
+                <span class="detail-label">Conviction</span>
+                <span class="detail-value conviction-indicator ${tickerConviction}">
+                  ${convictionEmoji[tickerConviction] || '◦ Low'}
+                </span>
+              </div>
+              <div class="detail-item">
+                <span class="detail-label">Timeframe</span>
+                <span class="detail-value">${timeframeEmoji}</span>
+              </div>
+            </div>
+
+            ${hiddenPlaysCollapsed}
+
+            <div class="expand-hint">
+              <span>Click to expand details</span>
+              <span class="expand-icon">▼</span>
+            </div>
+          </div>
+
+          <div class="ticker-expanded">
+            <div class="expanded-content">
+              ${contextExpanded}
+              ${hiddenPlaysExpanded}
+
+              <div class="expanded-section">
+                <div class="expanded-label">📊 Quick Stats</div>
+                <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 0.5rem; font-size: 0.8rem;">
+                  <div style="background: rgba(0,0,0,0.2); padding: 0.5rem; border-radius: 6px;">
+                    <div style="color: #8892b0; font-size: 0.7rem;">Score Breakdown</div>
+                    <div style="color: #e8e8e8;">Base: ${tickerMentions * 10} × Diversity: ${tickerSources > 2 ? '2x' : tickerSources > 1 ? '1.5x' : '1x'}</div>
+                  </div>
+                  <div style="background: rgba(0,0,0,0.2); padding: 0.5rem; border-radius: 6px;">
+                    <div style="color: #8892b0; font-size: 0.7rem;">Signal Type</div>
+                    <div style="color: ${tickerSignal === 'contrarian_positive' ? '#4caf50' : tickerSignal === 'crowded_warning' ? '#f44336' : '#00d4ff'};">
+                      ${tickerSignal === 'contrarian_positive' ? 'Contrarian Positive' : tickerSignal === 'crowded_warning' ? 'Crowded Warning' : 'Standard Mention'}
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="expanded-actions">
+                <button class="action-btn" onclick="event.stopPropagation(); showChart('${tickerSymbol}')">
+                  📊 View Chart
+                </button>
+                <button class="action-btn secondary" onclick="event.stopPropagation(); window.open('https://finance.yahoo.com/quote/${tickerSymbol}', '_blank')">
+                  ↗️ Yahoo Finance
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      `;
+    }
+
+    // Contact Form Handler
+    document.getElementById('contactForm').addEventListener('submit', async function(e) {
+      e.preventDefault();
+
+      const submitBtn = this.querySelector('.submit-btn');
+      const btnText = submitBtn.querySelector('.btn-text');
+      const btnLoading = submitBtn.querySelector('.btn-loading');
+      const statusDiv = document.getElementById('formStatus');
+
+      // Get form data
+      const name = document.getElementById('contactName').value.trim();
+      const contact = document.getElementById('contactInfo').value.trim();
+      const message = document.getElementById('contactMessage').value.trim();
+      const wantsWeekly = document.getElementById('weeklyUpdates').checked;
+
+      // Validate contact info
+      const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      const phoneRegex = /^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/;
+
+      const isEmail = emailRegex.test(contact);
+      const isPhone = phoneRegex.test(contact.replace(/\s/g, ''));
+
+      if (!isEmail && !isPhone) {
+        showStatus('Please enter a valid email address or phone number (e.g., you@email.com or +1-555-123-4567)', 'error');
+        return;
+      }
+
+      // Show loading state
+      submitBtn.disabled = true;
+      btnText.style.display = 'none';
+      btnLoading.style.display = 'inline';
+
+      try {
+        // Store submission locally (in production, this would go to a server)
+        const submission = {
+          id: Date.now(),
+          name: name || 'Anonymous',
+          contact: contact,
+          contactType: isEmail ? 'email' : 'phone',
+          message: message || '',
+          wantsWeeklyUpdates: wantsWeekly,
+          submittedAt: new Date().toISOString(),
+          verified: false,
+          verificationSent: false
+        };
+
+        // Save to localStorage for demo purposes
+        const submissions = JSON.parse(localStorage.getItem('contact_submissions') || '[]');
+        submissions.push(submission);
+        localStorage.setItem('contact_submissions', JSON.stringify(submissions));
+
+        // Show success message
+        const weeklyText = wantsWeekly ? ' You\'ve opted in for weekly updates.' : '';
+        showStatus(
+          `✓ Thanks${name ? ', ' + name : ''}! We've received your ${isEmail ? 'email' : 'phone number'}. ` +
+          `A verification ${isEmail ? 'email' : 'text message'} will be sent to confirm.${weeklyText} ` +
+          `Reply STOP anytime to unsubscribe.`,
+          'success'
+        );
+
+        // Reset form
+        this.reset();
+
+        // Log for admin review (in production, this would trigger backend verification)
+        console.log('New contact submission:', submission);
+
+      } catch (error) {
+        console.error('Form submission error:', error);
+        showStatus('Something went wrong. Please try again or email us directly.', 'error');
+      } finally {
+        submitBtn.disabled = false;
+        btnText.style.display = 'inline';
+        btnLoading.style.display = 'none';
+      }
+    });
+
+    function showStatus(message, type) {
+      const statusDiv = document.getElementById('formStatus');
+      statusDiv.textContent = message;
+      statusDiv.className = 'form-status ' + type;
+      statusDiv.style.display = 'block';
+
+      // Auto-hide after 10 seconds
+      setTimeout(() => {
+        statusDiv.style.display = 'none';
+      }, 10000);
+    }
+  </script>
+</body>
+</html>

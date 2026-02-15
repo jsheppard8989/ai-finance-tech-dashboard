@@ -1,0 +1,251 @@
+{
+  "generated_at": "2026-02-13T14:16:24.123769",
+  "total_sources_analyzed": 6,
+  "themes_detected": {
+    "ai_disruption": 0,
+    "supply_bottleneck": 0,
+    "demand_surge": 0,
+    "regulatory_risk": 1,
+    "margin_pressure": 0
+  },
+  "industry_analysis": {
+    "power": {
+      "mentions": 4,
+      "sources": [
+        "IMP9962311305",
+        "The Rundown AI <news@daily.therundown.ai>"
+      ],
+      "disruption_count": 0,
+      "contexts": [
+        {
+          "subject": "=?UTF-8?B?8J+agA==?= SpaceX, xAI form $1.25T super-entity",
+          "source": "The Rundown AI <news@daily.therundown.ai>"
+        },
+        {
+          "subject": "=?UTF-8?B?8J+noA==?= Google's upgrade breaks reasoning barriers",
+          "source": "The Rundown AI <news@daily.therundown.ai>"
+        },
+        {
+          "subject": "=?UTF-8?B?8J+Urg==?= Sam Altman's OpenAI succession plan",
+          "source": "The Rundown AI <news@daily.therundown.ai>"
+        }
+      ]
+    },
+    "data_centers": {
+      "mentions": 3,
+      "sources": [
+        "The Rundown AI <news@daily.therundown.ai>"
+      ],
+      "disruption_count": 0,
+      "contexts": [
+        {
+          "subject": "=?UTF-8?B?8J+agA==?= SpaceX, xAI form $1.25T super-entity",
+          "source": "The Rundown AI <news@daily.therundown.ai>"
+        },
+        {
+          "subject": "=?UTF-8?B?8J+agA==?= xAI's next phase unleashed",
+          "source": "The Rundown AI <news@daily.therundown.ai>"
+        },
+        {
+          "subject": "=?UTF-8?B?8J+aqg==?= xAI's co-founder exodus continues",
+          "source": "The Rundown AI <news@daily.therundown.ai>"
+        }
+      ]
+    },
+    "memory": {
+      "mentions": 1,
+      "sources": [
+        "IMP9962311305"
+      ],
+      "disruption_count": 0,
+      "contexts": [
+        {
+          "subject": "Podcast: IMP9962311305",
+          "source": "IMP9962311305"
+        }
+      ]
+    },
+    "software": {
+      "mentions": 1,
+      "sources": [
+        "IMP9962311305"
+      ],
+      "disruption_count": 0,
+      "contexts": [
+        {
+          "subject": "Podcast: IMP9962311305",
+          "source": "IMP9962311305"
+        }
+      ]
+    }
+  },
+  "explicit_ticker_mentions": [
+    {
+      "ticker": "GOOGL",
+      "mentions": 6,
+      "sources": [
+        "IMP9962311305",
+        "The Rundown AI <news@daily.therundown.ai>"
+      ],
+      "contexts": [
+        {
+          "subject": "=?UTF-8?B?8J+agA==?= SpaceX, xAI form $1.25T super-entity",
+          "source": "The Rundown AI <news@daily.therundown.ai>"
+        },
+        {
+          "subject": "=?UTF-8?B?8J+agA==?= xAI's next phase unleashed",
+          "source": "The Rundown AI <news@daily.therundown.ai>"
+        }
+      ]
+    },
+    {
+      "ticker": "CRM",
+      "mentions": 3,
+      "sources": [
+        "The Rundown AI <news@daily.therundown.ai>"
+      ],
+      "contexts": [
+        {
+          "subject": "=?UTF-8?B?8J+agA==?= xAI's next phase unleashed",
+          "source": "The Rundown AI <news@daily.therundown.ai>"
+        },
+        {
+          "subject": "=?UTF-8?B?8J+noA==?= Google's upgrade breaks reasoning barriers",
+          "source": "The Rundown AI <news@daily.therundown.ai>"
+        }
+      ]
+    },
+    {
+      "ticker": "MSFT",
+      "mentions": 3,
+      "sources": [
+        "The Rundown AI <news@daily.therundown.ai>"
+      ],
+      "contexts": [
+        {
+          "subject": "=?UTF-8?B?8J+noA==?= Google's upgrade breaks reasoning barriers",
+          "source": "The Rundown AI <news@daily.therundown.ai>"
+        },
+        {
+          "subject": "=?UTF-8?B?8J+Urg==?= Sam Altman's OpenAI succession plan",
+          "source": "The Rundown AI <news@daily.therundown.ai>"
+        }
+      ]
+    },
+    {
+      "ticker": "INTC",
+      "mentions": 2,
+      "sources": [
+        "The Rundown AI <news@daily.therundown.ai>"
+      ],
+      "contexts": [
+        {
+          "subject": "=?UTF-8?B?8J+agA==?= xAI's next phase unleashed",
+          "source": "The Rundown AI <news@daily.therundown.ai>"
+        },
+        {
+          "subject": "=?UTF-8?B?8J+noA==?= Google's upgrade breaks reasoning barriers",
+          "source": "The Rundown AI <news@daily.therundown.ai>"
+        }
+      ]
+    },
+    {
+      "ticker": "AAPL",
+      "mentions": 2,
+      "sources": [
+        "IMP9962311305",
+        "The Rundown AI <news@daily.therundown.ai>"
+      ],
+      "contexts": [
+        {
+          "subject": "=?UTF-8?B?8J+Urg==?= Sam Altman's OpenAI succession plan",
+          "source": "The Rundown AI <news@daily.therundown.ai>"
+        },
+        {
+          "subject": "Podcast: IMP9962311305",
+          "source": "IMP9962311305"
+        }
+      ]
+    },
+    {
+      "ticker": "AMD",
+      "mentions": 1,
+      "sources": [
+        "The Rundown AI <news@daily.therundown.ai>"
+      ],
+      "contexts": [
+        {
+          "subject": "=?UTF-8?B?8J+noA==?= Google's upgrade breaks reasoning barriers",
+          "source": "The Rundown AI <news@daily.therundown.ai>"
+        }
+      ]
+    },
+    {
+      "ticker": "NVDA",
+      "mentions": 1,
+      "sources": [
+        "The Rundown AI <news@daily.therundown.ai>"
+      ],
+      "contexts": [
+        {
+          "subject": "=?UTF-8?B?8J+noA==?= Google's upgrade breaks reasoning barriers",
+          "source": "The Rundown AI <news@daily.therundown.ai>"
+        }
+      ]
+    },
+    {
+      "ticker": "AVGO",
+      "mentions": 1,
+      "sources": [
+        "The Rundown AI <news@daily.therundown.ai>"
+      ],
+      "contexts": [
+        {
+          "subject": "=?UTF-8?B?8J+noA==?= Google's upgrade breaks reasoning barriers",
+          "source": "The Rundown AI <news@daily.therundown.ai>"
+        }
+      ]
+    },
+    {
+      "ticker": "AMZN",
+      "mentions": 1,
+      "sources": [
+        "IMP9962311305"
+      ],
+      "contexts": [
+        {
+          "subject": "Podcast: IMP9962311305",
+          "source": "IMP9962311305"
+        }
+      ]
+    },
+    {
+      "ticker": "CSCO",
+      "mentions": 1,
+      "sources": [
+        "IMP9962311305"
+      ],
+      "contexts": [
+        {
+          "subject": "Podcast: IMP9962311305",
+          "source": "IMP9962311305"
+        }
+      ]
+    },
+    {
+      "ticker": "KLAC",
+      "mentions": 1,
+      "sources": [
+        "IMP9962311305"
+      ],
+      "contexts": [
+        {
+          "subject": "Podcast: IMP9962311305",
+          "source": "IMP9962311305"
+        }
+      ]
+    }
+  ],
+  "hidden_plays": [],
+  "supply_bottlenecks": []
+}
