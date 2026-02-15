@@ -447,6 +447,27 @@ class DashboardDB:
                 deepdives[insight_id] = content
         
         return deepdives
+    
+    # === Suggested Terms ===
+    
+    def get_suggested_terms_for_website(self, limit: int = 1) -> List[Dict]:
+        """Get top suggested terms to display on website."""
+        with self._get_connection() as conn:
+            cursor = conn.execute("""
+                SELECT * FROM v_priority_suggestions
+                LIMIT ?
+            """, (limit,))
+            return [dict(row) for row in cursor.fetchall()]
+    
+    def get_all_pending_suggestions(self) -> List[Dict]:
+        """Get all pending suggestions for admin review."""
+        with self._get_connection() as conn:
+            cursor = conn.execute("""
+                SELECT * FROM suggested_terms
+                WHERE status = 'pending'
+                ORDER BY relevance_score DESC, mention_count DESC
+            """)
+            return [dict(row) for row in cursor.fetchall()]
 
 # Convenience function for quick access
 def get_db() -> DashboardDB:

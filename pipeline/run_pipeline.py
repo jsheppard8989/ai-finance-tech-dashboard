@@ -259,6 +259,7 @@ def generate_website_js():
     archive = db.export_archive_data()
     main_content = db.get_main_page_content()
     deepdives = db.get_all_deep_dive_content()
+    suggested_terms = db.get_suggested_terms_for_website(limit=3)
     
     # Load ticker scores
     try:
@@ -276,7 +277,8 @@ const dashboardData = {{
   tickerScores: {json.dumps(ticker_scores, indent=2)},
   archive: {json.dumps(archive, indent=2)},
   mainContent: {json.dumps(main_content, indent=2)},
-  deepDives: {json.dumps(deepdives, indent=2)}
+  deepDives: {json.dumps(deepdives, indent=2)},
+  suggestedTerms: {json.dumps(suggested_terms, indent=2)}
 }};
 
 // Export for use in other scripts
@@ -289,7 +291,7 @@ if (typeof module !== 'undefined' && module.exports) {{
         f.write(js_content)
     
     total_archive = sum(len(v) for v in archive.values())
-    print(f"✓ Generated data.js with {len(ticker_scores)} tickers, {total_archive} archive items, {len(deepdives)} deep dives")
+    print(f"✓ Generated data.js with {len(ticker_scores)} tickers, {total_archive} archive items, {len(deepdives)} deep dives, {len(suggested_terms)} suggested terms")
     return True
 
 def push_to_github():
@@ -397,6 +399,9 @@ def main():
     
     # Step 6c: Fetch current prices
     results['prices'] = run_step("Price Update", "fetch_prices.py")
+    
+    # Step 6d: Manage suggested terms
+    results['suggested_terms'] = run_step("Suggested Terms Management", "manage_suggested_terms.py")
     
     # Step 7: Generate charts
     results['charts'] = run_step("Chart Generation", "generate_charts.py")
