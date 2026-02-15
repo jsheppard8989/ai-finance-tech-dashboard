@@ -1,8 +1,8 @@
-// Auto-generated data file - 2026-02-15T11:21:15.069056
+// Auto-generated data file - 2026-02-15T11:27:43.848636
 // DO NOT EDIT MANUALLY
 
 const dashboardData = {
-  generatedAt: "2026-02-15T11:21:15.069076",
+  generatedAt: "2026-02-15T11:27:43.848663",
   tickerScores: [
   {
     "ticker": "COIN",
@@ -11,6 +11,8 @@ const dashboardData = {
     "newsletter_mentions": 0,
     "unique_sources": 3,
     "sentiment": "bullish",
+    "conviction_level": "high",
+    "timeframe": "short_term",
     "sources": [
       {
         "name": "Jack Mallers Show",
@@ -36,6 +38,8 @@ const dashboardData = {
     "newsletter_mentions": 0,
     "unique_sources": 2,
     "sentiment": "bullish",
+    "conviction_level": "high",
+    "timeframe": "medium_term",
     "sources": [
       {
         "name": "Jack Mallers Show",
@@ -56,6 +60,8 @@ const dashboardData = {
     "newsletter_mentions": 0,
     "unique_sources": 2,
     "sentiment": "bullish",
+    "conviction_level": "high",
+    "timeframe": "long_term",
     "sources": [
       {
         "name": "Jack Mallers Show",
@@ -76,6 +82,8 @@ const dashboardData = {
     "newsletter_mentions": 1,
     "unique_sources": 1,
     "sentiment": "neutral",
+    "conviction_level": "medium",
+    "timeframe": "short_term",
     "sources": [
       {
         "name": "Monetary Matters",
@@ -96,6 +104,8 @@ const dashboardData = {
     "newsletter_mentions": 0,
     "unique_sources": 1,
     "sentiment": "bullish",
+    "conviction_level": "medium",
+    "timeframe": "medium_term",
     "sources": [
       {
         "name": "The Rundown AI",
@@ -111,6 +121,8 @@ const dashboardData = {
     "newsletter_mentions": 0,
     "unique_sources": 1,
     "sentiment": "bullish",
+    "conviction_level": "medium",
+    "timeframe": "long_term",
     "sources": [
       {
         "name": "The Rundown AI",
@@ -126,6 +138,8 @@ const dashboardData = {
     "newsletter_mentions": 0,
     "unique_sources": 1,
     "sentiment": "bullish",
+    "conviction_level": "medium",
+    "timeframe": "short_term",
     "sources": [
       {
         "name": "The Rundown AI",
@@ -141,6 +155,8 @@ const dashboardData = {
     "newsletter_mentions": 0,
     "unique_sources": 1,
     "sentiment": "bearish",
+    "conviction_level": "low",
+    "timeframe": "medium_term",
     "sources": [
       {
         "name": "Monetary Matters",
@@ -156,6 +172,8 @@ const dashboardData = {
     "newsletter_mentions": 0,
     "unique_sources": 1,
     "sentiment": "bearish",
+    "conviction_level": "low",
+    "timeframe": "long_term",
     "sources": [
       {
         "name": "Monetary Matters",
@@ -171,6 +189,8 @@ const dashboardData = {
     "newsletter_mentions": 0,
     "unique_sources": 1,
     "sentiment": "bullish",
+    "conviction_level": "low",
+    "timeframe": "long_term",
     "sources": [
       {
         "name": "a16z Live",
@@ -186,6 +206,8 @@ const dashboardData = {
     "newsletter_mentions": 0,
     "unique_sources": 1,
     "sentiment": "bullish",
+    "conviction_level": "low",
+    "timeframe": "medium_term",
     "sources": [
       {
         "name": "a16z Live",
@@ -201,6 +223,8 @@ const dashboardData = {
     "newsletter_mentions": 0,
     "unique_sources": 1,
     "sentiment": "bullish",
+    "conviction_level": "low",
+    "timeframe": "long_term",
     "sources": [
       {
         "name": "a16z Live",
@@ -216,6 +240,8 @@ const dashboardData = {
     "newsletter_mentions": 0,
     "unique_sources": 1,
     "sentiment": "bullish",
+    "conviction_level": "low",
+    "timeframe": "short_term",
     "sources": [
       {
         "name": "Network State Podcast",
@@ -231,6 +257,8 @@ const dashboardData = {
     "newsletter_mentions": 0,
     "unique_sources": 1,
     "sentiment": "bullish",
+    "conviction_level": "low",
+    "timeframe": "medium_term",
     "sources": [
       {
         "name": "Network State Podcast",
@@ -246,6 +274,8 @@ const dashboardData = {
     "newsletter_mentions": 0,
     "unique_sources": 1,
     "sentiment": "bearish",
+    "conviction_level": "low",
+    "timeframe": "short_term",
     "sources": [
       {
         "name": "Monetary Matters",
@@ -261,6 +291,8 @@ const dashboardData = {
     "newsletter_mentions": 0,
     "unique_sources": 1,
     "sentiment": "bearish",
+    "conviction_level": "low",
+    "timeframe": "short_term",
     "sources": [
       {
         "name": "Monetary Matters",
@@ -276,6 +308,8 @@ const dashboardData = {
     "newsletter_mentions": 0,
     "unique_sources": 1,
     "sentiment": "bearish",
+    "conviction_level": "low",
+    "timeframe": "short_term",
     "sources": [
       {
         "name": "Monetary Matters",
@@ -291,6 +325,8 @@ const dashboardData = {
     "newsletter_mentions": 0,
     "unique_sources": 1,
     "sentiment": "bullish",
+    "conviction_level": "low",
+    "timeframe": "long_term",
     "sources": [
       {
         "name": "Muddy Waters",
@@ -306,6 +342,8 @@ const dashboardData = {
     "newsletter_mentions": 0,
     "unique_sources": 1,
     "sentiment": "bullish",
+    "conviction_level": "low",
+    "timeframe": "short_term",
     "sources": [
       {
         "name": "Muddy Waters",
@@ -321,6 +359,8 @@ const dashboardData = {
     "newsletter_mentions": 1,
     "unique_sources": 1,
     "sentiment": "bullish",
+    "conviction_level": "low",
+    "timeframe": "medium_term",
     "sources": [
       {
         "name": "Monetary Matters",
@@ -336,6 +376,8 @@ const dashboardData = {
     "newsletter_mentions": 1,
     "unique_sources": 1,
     "sentiment": "bullish",
+    "conviction_level": "low",
+    "timeframe": "long_term",
     "sources": [
       {
         "name": "The Energy Letter",
@@ -351,6 +393,8 @@ const dashboardData = {
     "newsletter_mentions": 1,
     "unique_sources": 1,
     "sentiment": "bullish",
+    "conviction_level": "low",
+    "timeframe": "long_term",
     "sources": [
       {
         "name": "The Energy Letter",
@@ -366,6 +410,8 @@ const dashboardData = {
     "newsletter_mentions": 1,
     "unique_sources": 1,
     "sentiment": "bullish",
+    "conviction_level": "low",
+    "timeframe": "long_term",
     "sources": [
       {
         "name": "The Energy Letter",
@@ -381,6 +427,8 @@ const dashboardData = {
     "newsletter_mentions": 1,
     "unique_sources": 1,
     "sentiment": "bullish",
+    "conviction_level": "low",
+    "timeframe": "long_term",
     "sources": [
       {
         "name": "The Energy Letter",
