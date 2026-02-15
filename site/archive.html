@@ -446,21 +446,33 @@
       try {
         // Debug: log what's available
         console.log('Checking for dashboardData...', typeof dashboardData);
+        console.log('dashboardData exists:', typeof dashboardData !== 'undefined');
+        if (typeof dashboardData !== 'undefined') {
+          console.log('dashboardData keys:', Object.keys(dashboardData));
+          console.log('dashboardData.archive exists:', !!dashboardData.archive);
+        }
         
         // Try to load from data.js
         if (typeof dashboardData !== 'undefined' && dashboardData.archive) {
           archiveData = dashboardData.archive;
-          console.log('Loaded archive data from dashboardData:', archiveData);
+          console.log('✓ Loaded archive data from dashboardData:', archiveData);
         } else {
-          console.log('dashboardData not found, trying fetch...');
+          console.log('dashboardData not found or no archive, trying fetch...');
           // Fallback: try loading from JSON
-          const response = await fetch('./data/archive.json');
-          if (response.ok) {
-            archiveData = await response.json();
-            console.log('Loaded archive data from JSON:', archiveData);
-          } else {
-            console.log('No archive data found, using defaults');
+          try {
+            const response = await fetch('./data/archive.json');
+            if (response.ok) {
+              archiveData = await response.json();
+              console.log('✓ Loaded archive data from JSON:', archiveData);
+            } else {
+              console.log('✗ Archive JSON not found (status:', response.status, '), using defaults');
+              loadDefaultArchiveData();
+              return;
+            }
+          } catch (fetchError) {
+            console.log('✗ Fetch failed:', fetchError.message);
             loadDefaultArchiveData();
+            return;
           }
         }
         
@@ -468,7 +480,7 @@
         loadPodcastSummaries();
         renderAllSections();
       } catch (error) {
-        console.error('Error loading archive:', error);
+        console.error('✗ Error loading archive:', error);
         loadDefaultArchiveData();
       }
     }
@@ -815,8 +827,12 @@
       }
     });
     
-    // Initialize
-    loadArchiveData();
+    // Initialize - wait for DOM and scripts to load
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', loadArchiveData);
+    } else {
+      loadArchiveData();
+    }
   </script>
 </body>
 </html>
