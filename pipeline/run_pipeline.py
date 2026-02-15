@@ -257,6 +257,7 @@ def generate_website_js():
     # Get all data including archive
     archive = db.export_archive_data()
     main_content = db.get_main_page_content()
+    deepdives = db.get_all_deep_dive_content()
     
     # Load ticker scores
     try:
@@ -273,7 +274,8 @@ const dashboardData = {{
   generatedAt: "{datetime.now().isoformat()}",
   tickerScores: {json.dumps(ticker_scores, indent=2)},
   archive: {json.dumps(archive, indent=2)},
-  mainContent: {json.dumps(main_content, indent=2)}
+  mainContent: {json.dumps(main_content, indent=2)},
+  deepDives: {json.dumps(deepdives, indent=2)}
 }};
 
 // Export for use in other scripts
@@ -286,7 +288,7 @@ if (typeof module !== 'undefined' && module.exports) {{
         f.write(js_content)
     
     total_archive = sum(len(v) for v in archive.values())
-    print(f"✓ Generated data.js with {len(ticker_scores)} tickers, {total_archive} archive items")
+    print(f"✓ Generated data.js with {len(ticker_scores)} tickers, {total_archive} archive items, {len(deepdives)} deep dives")
     return True
 
 def push_to_github():
