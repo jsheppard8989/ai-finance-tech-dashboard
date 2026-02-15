@@ -32,8 +32,25 @@
     .insight-item { background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 12px; padding: 1.25rem; margin-bottom: 1rem; cursor: pointer; transition: all 0.2s; }
     .insight-item:hover { background: rgba(255, 255, 255, 0.05); border-color: rgba(0, 212, 255, 0.3); }
     .insight-item .source { font-size: 0.8rem; color: #00d4ff; margin-bottom: 0.5rem; }
-    .insight-item .text { color: #e8e8e8; line-height: 1.6; }
+    .insight-item .text { color: #e8e8e8; line-height: 1.6; margin-bottom: 0.75rem; }
+    .insight-item .action-btn { background: rgba(0, 212, 255, 0.1); border: 1px solid rgba(0, 212, 255, 0.3); color: #00d4ff; padding: 0.4rem 0.8rem; border-radius: 6px; cursor: pointer; font-size: 0.8rem; transition: all 0.2s; }
+    .insight-item .action-btn:hover { background: rgba(0, 212, 255, 0.2); }
     .empty-state { text-align: center; padding: 3rem; color: #8892b0; }
+    
+    /* Modal */
+    .modal-overlay { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.9); z-index: 1000; justify-content: center; align-items: center; padding: 2rem; }
+    .modal-overlay.active { display: flex; }
+    .modal-content { background: rgba(26, 26, 46, 0.98); border-radius: 16px; width: 100%; max-width: 900px; max-height: 85vh; overflow: hidden; border: 1px solid rgba(0, 212, 255, 0.2); }
+    .modal-header { display: flex; justify-content: space-between; align-items: center; padding: 1.5rem 2rem; background: linear-gradient(135deg, rgba(0, 212, 255, 0.1) 0%, rgba(123, 44, 191, 0.1) 100%); border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
+    .modal-title { color: #00d4ff; font-size: 1.3rem; margin: 0; }
+    .modal-source { font-size: 0.8rem; color: #8892b0; margin-top: 0.25rem; }
+    .modal-close { background: none; border: 1px solid rgba(255, 255, 255, 0.3); color: #fff; padding: 0.5rem 1rem; border-radius: 6px; cursor: pointer; }
+    .modal-body { padding: 2rem; overflow-y: auto; max-height: calc(85vh - 80px); }
+    .dd-section { margin-bottom: 2rem; }
+    .dd-section h4 { color: #00d4ff; margin-bottom: 0.75rem; font-size: 1.1rem; }
+    .dd-overview { background: rgba(0, 212, 255, 0.05); border-left: 3px solid #00d4ff; padding: 1.25rem; border-radius: 8px; margin-bottom: 2rem; }
+    .dd-ticker { background: rgba(255, 255, 255, 0.03); padding: 1rem; border-radius: 8px; margin-bottom: 1rem; }
+    .dd-ticker-name { background: rgba(0, 212, 255, 0.2); color: #00d4ff; padding: 0.25rem 0.75rem; border-radius: 4px; font-weight: 600; font-size: 0.9rem; display: inline-block; margin-bottom: 0.5rem; }
   </style>
 </head>
 <body>
@@ -57,6 +74,20 @@
     <div id="insightsSection" class="section active"></div>
     <div id="definitionsSection" class="section"></div>
     <div id="overtonSection" class="section"></div>
+  </div>
+
+  <!-- Deep Dive Modal -->
+  <div id="deepDiveModal" class="modal-overlay" onclick="closeModal(event)">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div>
+          <h3 class="modal-title" id="modalTitle">Deep Dive</h3>
+          <div class="modal-source" id="modalSource"></div>
+        </div>
+        <button class="modal-close" onclick="closeModal()">✕ Close</button>
+      </div>
+      <div class="modal-body" id="modalBody"></div>
+    </div>
   </div>
 
   <script src="./data/data.js"></script>
@@ -105,6 +136,7 @@
         <div class="insight-item">
           <div class="source">${item.source_name} • ${formatDate(item.source_date)}</div>
           <div class="text"><strong>${item.title}:</strong> ${item.key_takeaway || item.summary}</div>
+          <button class="action-btn" onclick='openDeepDive(${JSON.stringify(item.title)}, ${JSON.stringify(item.source_name)}, ${JSON.stringify(item.source_date)})'>🔍 Deep Dive</button>
         </div>
       `).join('');
     }
@@ -155,6 +187,94 @@
       document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
       event.target.classList.add('active');
       document.getElementById(tab + 'Section').classList.add('active');
+    }
+    
+    // Deep Dive Functions
+    function openDeepDive(insightTitle, sourceName, sourceDate) {
+      const modal = document.getElementById('deepDiveModal');
+      const titleEl = document.getElementById('modalTitle');
+      const sourceEl = document.getElementById('modalSource');
+      const bodyEl = document.getElementById('modalBody');
+      
+      // Find matching Deep Dive by title
+      let dd = null;
+      if (typeof dashboardData !== 'undefined' && dashboardData.deepDives) {
+        const allDD = Object.values(dashboardData.deepDives);
+        dd = allDD.find(d => d.insight_title === insightTitle);
+      }
+      
+      titleEl.textContent = insightTitle;
+      sourceEl.textContent = `${sourceName} • ${formatDate(sourceDate)}`;
+      
+      if (dd) {
+        bodyEl.innerHTML = generateDeepDiveHTML(dd);
+      } else {
+        bodyEl.innerHTML = '<div class="empty-state">No Deep Dive content available for this insight.</div>';
+      }
+      
+      modal.classList.add('active');
+    }
+    
+    function closeModal(event) {
+      if (!event || event.target.id === 'deepDiveModal' || event.target.classList.contains('modal-close')) {
+        document.getElementById('deepDiveModal').classList.remove('active');
+      }
+    }
+    
+    function generateDeepDiveHTML(dd) {
+      let html = '';
+      
+      // Overview
+      if (dd.overview) {
+        html += `<div class="dd-overview"><h4>📋 Overview</h4><p>${dd.overview}</p></div>`;
+      }
+      
+      // Key Takeaways
+      if (dd.key_takeaways_detailed && dd.key_takeaways_detailed.length > 0) {
+        html += `<div class="dd-section"><h4>🎯 Key Takeaways</h4><ul>`;
+        dd.key_takeaways_detailed.forEach(t => html += `<li>${t}</li>`);
+        html += `</ul></div>`;
+      }
+      
+      // Investment Thesis
+      if (dd.investment_thesis) {
+        html += `<div class="dd-section"><h4>💡 Investment Thesis</h4><p>${dd.investment_thesis}</p></div>`;
+      }
+      
+      // Ticker Analysis
+      if (dd.ticker_analysis && Object.keys(dd.ticker_analysis).length > 0) {
+        html += `<div class="dd-section"><h4>📈 Ticker Analysis</h4>`;
+        Object.entries(dd.ticker_analysis).forEach(([ticker, analysis]) => {
+          html += `<div class="dd-ticker">
+            <div class="dd-ticker-name">${ticker}</div>
+            <p><strong>Rationale:</strong> ${analysis.rationale || 'N/A'}</p>
+            <p><strong>Positioning:</strong> ${analysis.positioning || 'N/A'}</p>
+            <p style="color: #f44336;"><strong>Risk:</strong> ${analysis.risk || 'N/A'}</p>
+          </div>`;
+        });
+        html += `</div>`;
+      }
+      
+      // Positioning Guidance
+      if (dd.positioning_guidance) {
+        html += `<div class="dd-section" style="background: rgba(76,175,80,0.05); border: 1px solid rgba(76,175,80,0.2); padding: 1.25rem; border-radius: 8px;"><h4 style="color: #4caf50;">🎯 Positioning Guidance</h4><p>${dd.positioning_guidance}</p></div>`;
+      }
+      
+      // Risk Factors
+      if (dd.risk_factors && dd.risk_factors.length > 0) {
+        html += `<div class="dd-section"><h4 style="color: #f44336;">⚠️ Risk Factors</h4><ul>`;
+        dd.risk_factors.forEach(r => html += `<li style="color: #f44336;">${r}</li>`);
+        html += `</ul></div>`;
+      }
+      
+      // Catalysts
+      if (dd.catalysts && dd.catalysts.length > 0) {
+        html += `<div class="dd-section"><h4 style="color: #ffc107;">📅 Catalysts & Timeline</h4><ul>`;
+        dd.catalysts.forEach(c => html += `<li style="color: #ffc107;">${c}</li>`);
+        html += `</ul></div>`;
+      }
+      
+      return html;
     }
     
     // Initialize
