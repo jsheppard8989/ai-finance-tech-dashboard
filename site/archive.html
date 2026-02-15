@@ -6,31 +6,8 @@
   <title>Archive | AI, Finance, Tech: Scarcity & Abundance</title>
   <script src="./data/data.js"></script>
   <script>
-    // Archive data from data.js - loaded after DOM ready
+    // Archive data from data.js
     let archiveData = { insights: [], definitions: [], overton: [] };
-    
-    function initArchiveData() {
-      if (typeof dashboardData !== 'undefined' && dashboardData.archive) {
-        archiveData = dashboardData.archive;
-        console.log('✓ Loaded archive data from data.js:', archiveData);
-        // Re-render if function exists
-        if (typeof renderAllSections === 'function') {
-          renderAllSections();
-          updateStats();
-        }
-      } else {
-        console.error('✗ dashboardData not loaded');
-        // Retry after short delay
-        setTimeout(initArchiveData, 100);
-      }
-    }
-    
-    // Initialize when DOM is ready
-    if (document.readyState === 'loading') {
-      document.addEventListener('DOMContentLoaded', initArchiveData);
-    } else {
-      initArchiveData();
-    }
   </script>
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -931,10 +908,29 @@
     });
     
     // Initialize - wait for DOM and scripts to load
+    function initArchivePage() {
+      // Load data from dashboardData
+      if (typeof dashboardData !== 'undefined' && dashboardData.archive) {
+        archiveData = dashboardData.archive;
+        console.log('✓ Loaded archive data from data.js:', archiveData);
+      } else {
+        console.error('✗ dashboardData not loaded');
+        archiveData = { insights: [], definitions: [], overton: [] };
+      }
+      
+      // Initial render
+      updateStats();
+      loadPodcastSummaries();
+      renderAllSections();
+      
+      console.log('✓ Archive page initialized');
+    }
+    
+    // Run initialization when DOM is ready
     if (document.readyState === 'loading') {
-      document.addEventListener('DOMContentLoaded', loadArchiveData);
+      document.addEventListener('DOMContentLoaded', initArchivePage);
     } else {
-      loadArchiveData();
+      initArchivePage();
     }
   </script>
 </body>
