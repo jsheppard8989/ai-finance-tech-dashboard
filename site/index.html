@@ -1875,32 +1875,110 @@
       }
     });
 
-    // Podcast Summary Data - Loaded from database export
+    // Podcast Summary Data - Loaded from database export or embedded
     let podcastSummaries = {};
     
-    // Load podcast data from external source
+    // Embedded insight data for Deep Dive modals
+    const embeddedInsights = [
+      {
+        id: 'rundown_spacex_xai',
+        title: 'SpaceX/xAI $1.25T Super-Entity',
+        source: 'The Rundown AI • Feb 13',
+        summary: 'Elon Musk consolidating Starlink satellite network with xAI Grok infrastructure creates first vertically integrated AI-to-orbit stack.',
+        key_takeaway: 'Vertical integration of AI compute with orbital infrastructure creates durable competitive moats.',
+        tickers_mentioned: ['GOOGL', 'NVDA', 'AVGO'],
+        sentiment: 'bullish'
+      },
+      {
+        id: 'monetary_matters_gold_top',
+        title: 'Gold Climax Top Signal',
+        source: 'Monetary Matters • Feb 10',
+        summary: "Milton Berg institutional model flipped net-short across major indices while retail remains 100% long. Historical pattern suggests 8% drawdown.",
+        key_takeaway: 'Risk-off: Reduce momentum exposure. Watch VIX >25.',
+        tickers_mentioned: ['VIX', 'SQQQ', 'TLT'],
+        sentiment: 'bearish'
+      },
+      {
+        id: 'mallers_bitcoin_hard_asset',
+        title: 'Bitcoin as Hard Asset',
+        source: 'Jack Mallers Show • Feb 3',
+        summary: 'New liquidity regime narrative gaining traction - BTC decoupling from tech-correlation as treasury reserve thesis resurfaces.',
+        key_takeaway: 'BTC positioning vs DXY weakness, yen carry unwind scenarios.',
+        tickers_mentioned: ['BTC', 'COIN', 'MSTR'],
+        sentiment: 'bullish'
+      },
+      {
+        id: 'a16z_healthcare_ai',
+        title: 'Healthcare AI Moats',
+        source: 'a16z Live • Jan 25',
+        summary: 'Tennr and Camber building operational infrastructure rather than clinical AI. First-mover advantage in regulatory capture.',
+        key_takeaway: 'Watch for IPO pipeline in healthtech operations.',
+        tickers_mentioned: ['VEEV', 'TDOC', 'DOCS'],
+        sentiment: 'bullish'
+      },
+      {
+        id: 'network_state_machine_money',
+        title: 'Machine-Native Money',
+        source: 'Network State Podcast • Jan 16',
+        summary: 'USDC co-founder Sean Neville on deterministic crypto meeting probabilistic AI - identity systems for autonomous agents require new financial rails.',
+        key_takeaway: 'Long-term: Stablecoin infrastructure (COIN, fintech rails).',
+        tickers_mentioned: ['COIN', 'PYPL', 'SQ'],
+        sentiment: 'bullish'
+      }
+    ];
+    
+    // Initialize podcast summaries from embedded data
+    function initPodcastSummaries() {
+      embeddedInsights.forEach(insight => {
+        podcastSummaries[insight.id] = {
+          title: insight.title,
+          source: insight.source,
+          content: generateInsightHTML(insight)
+        };
+      });
+      console.log('✓ Initialized podcast summaries from embedded data');
+    }
+    
+    // Generate HTML for insight modal
+    function generateInsightHTML(insight) {
+      const tickerHtml = (insight.tickers_mentioned || []).map(t => 
+        `<span style="background: rgba(0,212,255,0.15); color: #00d4ff; padding: 0.25rem 0.75rem; border-radius: 4px; font-size: 0.9rem; margin-right: 0.5rem;">${t}</span>`
+      ).join('');
+      
+      return `
+        <div style="margin-bottom: 1.5rem;">
+          <h4 style="color: #00d4ff; margin-bottom: 0.75rem; font-size: 1.1rem;">🎯 Key Takeaway</h4>
+          <p style="color: #e8e8e8; line-height: 1.6; font-size: 1rem;">${insight.key_takeaway}</p>
+        </div>
+        <div style="margin-bottom: 1.5rem;">
+          <h4 style="color: #00d4ff; margin-bottom: 0.75rem; font-size: 1.1rem;">📝 Summary</h4>
+          <p style="color: #a8b2d1; line-height: 1.6;">${insight.summary}</p>
+        </div>
+        <div style="margin-bottom: 1.5rem;">
+          <h4 style="color: #00d4ff; margin-bottom: 0.75rem; font-size: 1.1rem;">📈 Tickers Mentioned</h4>
+          <div style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 0.5rem;">${tickerHtml}</div>
+        </div>
+        <div>
+          <h4 style="color: #00d4ff; margin-bottom: 0.75rem; font-size: 1.1rem;">💭 Sentiment</h4>
+          <span style="${insight.sentiment === 'bullish' ? 'color: #4caf50;' : insight.sentiment === 'bearish' ? 'color: #f44336;' : 'color: #ffc107;'} font-weight: 600; font-size: 1rem;">${(insight.sentiment || 'neutral').toUpperCase()}</span>
+        </div>
+      `;
+    }
+    
+    // Load podcast data from external source (kept for future database integration)
     async function loadPodcastData() {
+      // Always initialize from embedded data first
+      initPodcastSummaries();
+      
       try {
-        // Try to load from data.js first (if generated)
+        // Try to load additional data from data.js if available
         if (typeof dashboardData !== 'undefined' && dashboardData.podcastSummaries) {
-          podcastSummaries = formatPodcastData(dashboardData.podcastSummaries);
-          console.log('Loaded podcast data from dashboardData');
-          return;
-        }
-        
-        // Fallback: try loading from JSON file
-        const response = await fetch('./data/podcast_summaries.json');
-        if (response.ok) {
-          const data = await response.json();
-          podcastSummaries = formatPodcastData(data);
-          console.log('Loaded podcast data from JSON');
-        } else {
-          console.log('No external podcast data found, using defaults');
-          loadDefaultPodcastData();
+          const additional = formatPodcastData(dashboardData.podcastSummaries);
+          podcastSummaries = { ...podcastSummaries, ...additional };
+          console.log('✓ Loaded additional podcast data from dashboardData');
         }
       } catch (error) {
-        console.log('Error loading podcast data:', error);
-        loadDefaultPodcastData();
+        console.log('Note: No additional podcast data available');
       }
     }
     

@@ -780,21 +780,20 @@
     // Podcast Summary Data
     let podcastSummaries = {};
     
-    // Load podcast summaries
+    // Load podcast summaries from archive data
     function loadPodcastSummaries() {
-      if (typeof dashboardData !== 'undefined' && dashboardData.mainContent) {
-        // Format main content insights as podcast summaries
-        const insights = dashboardData.mainContent.insights || [];
-        insights.forEach(insight => {
-          const id = insight.source_name.toLowerCase().replace(/[^a-z0-9]/g, '_') + '_' + 
-                     insight.title.toLowerCase().replace(/[^a-z0-9]/g, '_').substring(0, 20);
-          podcastSummaries[id] = {
-            title: insight.title,
-            source: `${insight.source_name} • ${formatDate(insight.source_date)}`,
-            content: generateSummaryHTML(insight)
-          };
-        });
-      }
+      // Use archive insights from embedded data
+      const insights = archiveData.insights || [];
+      insights.forEach(insight => {
+        const id = insight.source_name.toLowerCase().replace(/[^a-z0-9]/g, '_') + '_' + 
+                   insight.title.toLowerCase().replace(/[^a-z0-9]/g, '_').substring(0, 20);
+        podcastSummaries[id] = {
+          title: insight.title,
+          source: `${insight.source_name} • ${formatDate(insight.source_date)}`,
+          content: generateSummaryHTML(insight)
+        };
+      });
+      console.log('✓ Loaded podcast summaries from archive data:', Object.keys(podcastSummaries));
     }
     
     // Generate summary HTML from insight data
