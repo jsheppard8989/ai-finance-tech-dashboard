@@ -4,7 +4,112 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Archive | AI, Finance, Tech: Scarcity & Abundance</title>
-  <script src="./data/data.js" onerror="console.error('Failed to load data.js')"></script>
+  <script>
+    // Embedded data - generated 2026-02-15
+    const dashboardData = {
+      generatedAt: "2026-02-15T08:47:07.641113",
+      archive: {
+        "insights": [
+          {
+            "id": 1,
+            "title": "SpaceX/xAI $1.25T Super-Entity",
+            "source_type": "podcast",
+            "source_name": "The Rundown AI",
+            "source_date": "2026-02-13",
+            "summary": "Elon Musk consolidating Starlink satellite network with xAI Grok infrastructure creates first vertically integrated AI-to-orbit stack.",
+            "key_takeaway": "Vertical integration of AI compute with orbital infrastructure creates durable competitive moats.",
+            "tickers_mentioned": ["GOOGL", "NVDA", "AVGO"],
+            "sentiment": "bullish"
+          },
+          {
+            "id": 2,
+            "title": "Gold Climax Top Signal",
+            "source_type": "podcast",
+            "source_name": "Monetary Matters",
+            "source_date": "2026-02-10",
+            "summary": "Milton Berg institutional model flipped net-short across major indices while retail remains 100% long.",
+            "key_takeaway": "Risk-off: Reduce momentum exposure. Watch VIX >25.",
+            "tickers_mentioned": ["VIX", "SQQQ", "TLT"],
+            "sentiment": "bearish"
+          },
+          {
+            "id": 3,
+            "title": "Bitcoin as Hard Asset",
+            "source_type": "podcast",
+            "source_name": "Jack Mallers Show",
+            "source_date": "2026-02-03",
+            "summary": "BTC decoupling from tech-correlation as treasury reserve thesis resurfaces.",
+            "key_takeaway": "BTC positioning vs DXY weakness.",
+            "tickers_mentioned": ["BTC", "COIN", "MSTR"],
+            "sentiment": "bullish"
+          },
+          {
+            "id": 4,
+            "title": "Healthcare AI Moats",
+            "source_type": "podcast",
+            "source_name": "a16z Live",
+            "source_date": "2026-01-25",
+            "summary": "Tennr and Camber building operational infrastructure rather than clinical AI.",
+            "key_takeaway": "Watch for IPO pipeline in healthtech operations.",
+            "tickers_mentioned": ["VEEV", "TDOC", "DOCS"],
+            "sentiment": "bullish"
+          },
+          {
+            "id": 5,
+            "title": "Machine-Native Money",
+            "source_type": "podcast",
+            "source_name": "Network State Podcast",
+            "source_date": "2026-01-16",
+            "summary": "USDC co-founder on deterministic crypto meeting probabilistic AI.",
+            "key_takeaway": "Long-term: Stablecoin infrastructure.",
+            "tickers_mentioned": ["COIN", "PYPL", "SQ"],
+            "sentiment": "bullish"
+          }
+        ],
+        "definitions": [
+          {
+            "id": 1,
+            "term": "Dyson Swarm",
+            "definition": "A hypothetical megastructure consisting of a vast array of solar collectors orbiting a star.",
+            "investment_implications": "Space-based solar power plays."
+          },
+          {
+            "id": 2,
+            "term": "Jevon's Paradox",
+            "definition": "Economic phenomenon where increased efficiency leads to increased consumption.",
+            "investment_implications": "AI compute demand may explode despite efficiency gains."
+          },
+          {
+            "id": 3,
+            "term": "Yen Carry Trade",
+            "definition": "Borrowing in yen (low rates) to invest in higher-yielding assets.",
+            "investment_implications": "Watch JPY/USD >150 as risk signal."
+          }
+        ],
+        "overton": [
+          {
+            "id": 1,
+            "term": "Neuralink Moment",
+            "description": "BCIs shifting from experimental to consumer-ready.",
+            "investment_implications": "BCI hardware, neurotech chips."
+          },
+          {
+            "id": 2,
+            "term": "Sovereign Individual Thesis",
+            "description": "HNW individuals decoupling from traditional jurisdictions.",
+            "investment_implications": "Digital banking, crypto custody."
+          },
+          {
+            "id": 3,
+            "term": "Compute Arbitrage",
+            "description": "Exploiting AI compute price differentials across regions.",
+            "investment_implications": "GPU cloud providers."
+          }
+        ]
+      }
+    };
+    console.log('✓ Embedded data loaded:', dashboardData);
+  </script>
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body {
@@ -441,44 +546,20 @@
       overton: []
     };
     
-    // Load archive data
-    async function loadArchiveData() {
+    // Load archive data - now embedded directly in HTML
+    function loadArchiveData() {
       try {
-        // Debug: log what's available
-        console.log('Checking for dashboardData...', typeof dashboardData);
-        console.log('dashboardData exists:', typeof dashboardData !== 'undefined');
-        if (typeof dashboardData !== 'undefined') {
-          console.log('dashboardData keys:', Object.keys(dashboardData));
-          console.log('dashboardData.archive exists:', !!dashboardData.archive);
-        }
-        
-        // Try to load from data.js
+        // Data is embedded directly in the HTML above
         if (typeof dashboardData !== 'undefined' && dashboardData.archive) {
           archiveData = dashboardData.archive;
-          console.log('✓ Loaded archive data from dashboardData:', archiveData);
+          console.log('✓ Loaded archive data:', archiveData);
+          updateStats();
+          loadPodcastSummaries();
+          renderAllSections();
         } else {
-          console.log('dashboardData not found or no archive, trying fetch...');
-          // Fallback: try loading from JSON
-          try {
-            const response = await fetch('./data/archive.json');
-            if (response.ok) {
-              archiveData = await response.json();
-              console.log('✓ Loaded archive data from JSON:', archiveData);
-            } else {
-              console.log('✗ Archive JSON not found (status:', response.status, '), using defaults');
-              loadDefaultArchiveData();
-              return;
-            }
-          } catch (fetchError) {
-            console.log('✗ Fetch failed:', fetchError.message);
-            loadDefaultArchiveData();
-            return;
-          }
+          console.error('✗ dashboardData not found');
+          loadDefaultArchiveData();
         }
-        
-        updateStats();
-        loadPodcastSummaries();
-        renderAllSections();
       } catch (error) {
         console.error('✗ Error loading archive:', error);
         loadDefaultArchiveData();
