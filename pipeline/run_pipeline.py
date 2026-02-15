@@ -14,6 +14,7 @@ import json
 sys.path.insert(0, str(Path(__file__).parent))
 
 from db_manager import get_db, TickerMention, PodcastEpisode, DailyScore
+from pipeline_tracker import PodcastPipelineTracker
 
 def run_step(name: str, script: str, args: list = None) -> bool:
     """Run a pipeline step and report status."""
@@ -364,6 +365,11 @@ def main():
     print("AI FINANCE TECH - MASTER PIPELINE")
     print(f"Started: {datetime.now()}")
     print("="*60)
+    
+    # Show current pipeline status
+    print("\n📊 Current Pipeline Status:")
+    tracker = PodcastPipelineTracker()
+    tracker.scan_pipeline()
     
     results = {}
     
