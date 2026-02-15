@@ -1,0 +1,481 @@
+// Auto-generated data file - 2026-02-15T08:47:07.641087
+// DO NOT EDIT MANUALLY
+
+const dashboardData = {
+  generatedAt: "2026-02-15T08:47:07.641113",
+  archive: {
+  "insights": [
+    {
+      "id": 1,
+      "title": "SpaceX/xAI $1.25T Super-Entity",
+      "source_type": "podcast",
+      "source_name": "The Rundown AI",
+      "source_date": "2026-02-13",
+      "summary": "Elon Musk consolidating Starlink satellite network with xAI Grok infrastructure creates first vertically integrated AI-to-orbit stack.",
+      "key_takeaway": "Vertical integration of AI compute with orbital infrastructure creates durable competitive moats.",
+      "tickers_mentioned": [
+        "GOOGL",
+        "NVDA",
+        "AVGO"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 1,
+      "added_date": "2026-02-13",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": null
+    },
+    {
+      "id": 2,
+      "title": "Gold Climax Top Signal",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters",
+      "source_date": "2026-02-10",
+      "summary": "Milton Berg institutional model flipped net-short across major indices while retail remains 100% long. Historical pattern suggests 8% drawdown.",
+      "key_takeaway": "Risk-off: Reduce momentum exposure. Watch VIX >25.",
+      "tickers_mentioned": [
+        "VIX",
+        "SQQQ",
+        "TLT"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 2,
+      "added_date": "2026-02-10",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": null
+    },
+    {
+      "id": 3,
+      "title": "Bitcoin as Hard Asset",
+      "source_type": "podcast",
+      "source_name": "Jack Mallers Show",
+      "source_date": "2026-02-03",
+      "summary": "New liquidity regime narrative gaining traction - BTC decoupling from tech-correlation as treasury reserve thesis resurfaces.",
+      "key_takeaway": "BTC positioning vs DXY weakness, yen carry unwind scenarios.",
+      "tickers_mentioned": [
+        "BTC",
+        "COIN",
+        "MSTR"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 3,
+      "added_date": "2026-02-03",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": null
+    },
+    {
+      "id": 4,
+      "title": "Healthcare AI Moats",
+      "source_type": "podcast",
+      "source_name": "a16z Live",
+      "source_date": "2026-01-25",
+      "summary": "Tennr and Camber building operational infrastructure rather than clinical AI. First-mover advantage in regulatory capture.",
+      "key_takeaway": "Watch for IPO pipeline in healthtech operations.",
+      "tickers_mentioned": [
+        "VEEV",
+        "TDOC",
+        "DOCS"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 4,
+      "added_date": "2026-01-25",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": null
+    },
+    {
+      "id": 5,
+      "title": "Machine-Native Money",
+      "source_type": "podcast",
+      "source_name": "Network State Podcast",
+      "source_date": "2026-01-16",
+      "summary": "USDC co-founder Sean Neville on deterministic crypto meeting probabilistic AI - identity systems for autonomous agents require new financial rails.",
+      "key_takeaway": "Long-term: Stablecoin infrastructure (COIN, fintech rails).",
+      "tickers_mentioned": [
+        "COIN",
+        "PYPL",
+        "SQ"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 5,
+      "added_date": "2026-01-16",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": null
+    },
+    {
+      "id": 6,
+      "title": "Fed Pivot Signal",
+      "source_type": "newsletter",
+      "source_name": "Monetary Matters",
+      "source_date": "2026-01-01",
+      "summary": "Fed funds futures pricing in rate cuts by Q3 2025. Historical analysis of prior pivot signals.",
+      "key_takeaway": "Treasury duration attractive at current yields.",
+      "tickers_mentioned": [
+        "TLT",
+        "IEF"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 0,
+      "display_order": 0,
+      "added_date": "2026-01-01",
+      "archived_date": "2026-01-16",
+      "archived_reason": "Superseded by newer episodes",
+      "podcast_episode_id": null
+    },
+    {
+      "id": 7,
+      "title": "Nuclear Renaissance",
+      "source_type": "newsletter",
+      "source_name": "The Energy Letter",
+      "source_date": "2025-12-17",
+      "summary": "SMR approvals accelerating. Regulatory pathway clearing for next-gen reactors.",
+      "key_takeaway": "Nuclear power infrastructure plays positioned for multi-year buildout.",
+      "tickers_mentioned": [
+        "SMR",
+        "OKLO",
+        "NEE",
+        "CEG"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 0,
+      "display_order": 0,
+      "added_date": "2025-12-17",
+      "archived_date": "2026-01-06",
+      "archived_reason": "Theme still relevant but content aged out",
+      "podcast_episode_id": null
+    }
+  ],
+  "definitions": [
+    {
+      "id": 1,
+      "term": "Dyson Swarm",
+      "definition": "A hypothetical megastructure consisting of a vast array of solar collectors (satellites) orbiting a star to capture its energy output. Unlike a solid Dyson Sphere, a swarm allows for gradual construction and doesn't require implausible engineering.",
+      "investment_implications": "As space-based solar power becomes economically viable, companies developing launch capabilities and orbital infrastructure could benefit.",
+      "added_date": "2026-01-16",
+      "vote_count": 15,
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "display_order": 1
+    },
+    {
+      "id": 2,
+      "term": "Jevon's Paradox",
+      "definition": "An economic phenomenon where increased efficiency in using a resource leads to increased consumption of that resource rather than decreased consumption.",
+      "investment_implications": "As AI makes computation cheaper, total compute demand may explode\u2014benefiting chip makers, data centers, and power providers despite efficiency gains.",
+      "added_date": "2026-01-16",
+      "vote_count": 12,
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "display_order": 2
+    },
+    {
+      "id": 3,
+      "term": "Yen Carry Trade",
+      "definition": "A strategy where investors borrow in Japanese yen (low interest rates ~0.25%) and invest in higher-yielding assets (US Treasuries, tech stocks, emerging markets).",
+      "investment_implications": "When the Bank of Japan hikes rates or yen strengthens, unwinds trigger forced selling. Watch JPY/USD >150 as risk signal.",
+      "added_date": "2026-01-16",
+      "vote_count": 18,
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "display_order": 3
+    },
+    {
+      "id": 4,
+      "term": "SPAC",
+      "definition": "Special Purpose Acquisition Company. A shell corporation listed on a stock exchange with the purpose of acquiring a private company, thereby making it public without going through the traditional IPO process.",
+      "investment_implications": "SPAC boom of 2020-2021 largely over. Most trading at or below NAV. Limited new issuance.",
+      "added_date": "2026-01-16",
+      "vote_count": 8,
+      "display_on_main": 0,
+      "archived_date": "2025-11-17",
+      "archived_reason": "Market cycle shifted - SPAC boom is over",
+      "display_order": 0
+    },
+    {
+      "id": 5,
+      "term": "Meme Stock",
+      "definition": "A stock that gains popularity among retail investors through social media and online forums, often resulting in rapid price increases disconnected from fundamental value.",
+      "investment_implications": "Phenomenon peaked in 2021. Remains relevant for risk management but less systemic impact than during peak retail trading era.",
+      "added_date": "2026-01-16",
+      "vote_count": 6,
+      "display_on_main": 0,
+      "archived_date": "2025-10-18",
+      "archived_reason": "Term now mainstream - no longer needs definition",
+      "display_order": 0
+    }
+  ],
+  "overton": [
+    {
+      "id": 1,
+      "term": "Neuralink Moment",
+      "description": "The inflection point when brain-computer interfaces shift from experimental to consumer-ready, triggering societal restructuring around cognitive enhancement.",
+      "first_detected_date": "2026-02-01",
+      "last_mentioned_date": "2026-02-12",
+      "mention_count": 3,
+      "source_podcasts": [
+        "Network State Podcast",
+        "Monetary Matters"
+      ],
+      "status": "active",
+      "investment_implications": "BCI hardware, neurotech chips, cognitive enhancement platforms. Early stage - watch for FDA approvals.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null
+    },
+    {
+      "id": 2,
+      "term": "Sovereign Individual Thesis",
+      "description": "The expectation that high-net-worth individuals will increasingly decouple from traditional jurisdictions, seeking digital-first citizenship and asset structures.",
+      "first_detected_date": "2026-01-25",
+      "last_mentioned_date": "2026-02-10",
+      "mention_count": 2,
+      "source_podcasts": [
+        "Monetary Matters"
+      ],
+      "status": "active",
+      "investment_implications": "Digital banking, crypto custody, tax-advantaged jurisdictions, nomad infrastructure.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null
+    },
+    {
+      "id": 3,
+      "term": "Compute Arbitrage",
+      "description": "Exploiting price differentials in AI compute across regions and providers\u2014buying low in unregulated markets, deploying high in enterprise stacks.",
+      "first_detected_date": "2026-01-16",
+      "last_mentioned_date": "2026-02-05",
+      "mention_count": 4,
+      "source_podcasts": [
+        "a16z Live",
+        "Network State Podcast"
+      ],
+      "status": "active",
+      "investment_implications": "GPU cloud providers, distributed compute networks, energy arbitrage plays.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null
+    },
+    {
+      "id": 4,
+      "term": "Metaverse Land Rush",
+      "description": "The speculative buying of virtual real estate in metaverse platforms, anticipating future value appreciation as adoption grows.",
+      "first_detected_date": "2025-02-15",
+      "last_mentioned_date": "2025-08-19",
+      "mention_count": 12,
+      "source_podcasts": [
+        "a16z Live",
+        "All-In Podcast"
+      ],
+      "status": "archived",
+      "investment_implications": "Virtual real estate largely collapsed. Concept failed to achieve mainstream traction.",
+      "display_on_main": 0,
+      "archived_date": "2025-09-18",
+      "archived_reason": "Hype cycle ended - no longer emerging"
+    },
+    {
+      "id": 5,
+      "term": "DeFi Summer",
+      "description": "The 2020-2021 period of explosive growth in decentralized finance protocols, yield farming, and liquidity mining.",
+      "first_detected_date": "2024-10-03",
+      "last_mentioned_date": "2025-07-30",
+      "mention_count": 25,
+      "source_podcasts": [
+        "Bankless",
+        "The Defiant"
+      ],
+      "status": "graduated",
+      "investment_implications": "DeFi protocols maturing. Yield farming yields compressed. Infrastructure plays remain relevant.",
+      "display_on_main": 0,
+      "archived_date": "2025-08-19",
+      "archived_reason": "Term now mainstream in crypto discourse"
+    }
+  ]
+},
+  mainContent: {
+  "insights": [
+    {
+      "id": 1,
+      "title": "SpaceX/xAI $1.25T Super-Entity",
+      "source_type": "podcast",
+      "source_name": "The Rundown AI",
+      "source_date": "2026-02-13",
+      "summary": "Elon Musk consolidating Starlink satellite network with xAI Grok infrastructure creates first vertically integrated AI-to-orbit stack.",
+      "key_takeaway": "Vertical integration of AI compute with orbital infrastructure creates durable competitive moats.",
+      "tickers_mentioned": "[\"GOOGL\", \"NVDA\", \"AVGO\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 1,
+      "added_date": "2026-02-13",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": null
+    },
+    {
+      "id": 2,
+      "title": "Gold Climax Top Signal",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters",
+      "source_date": "2026-02-10",
+      "summary": "Milton Berg institutional model flipped net-short across major indices while retail remains 100% long. Historical pattern suggests 8% drawdown.",
+      "key_takeaway": "Risk-off: Reduce momentum exposure. Watch VIX >25.",
+      "tickers_mentioned": "[\"VIX\", \"SQQQ\", \"TLT\"]",
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 2,
+      "added_date": "2026-02-10",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": null
+    },
+    {
+      "id": 3,
+      "title": "Bitcoin as Hard Asset",
+      "source_type": "podcast",
+      "source_name": "Jack Mallers Show",
+      "source_date": "2026-02-03",
+      "summary": "New liquidity regime narrative gaining traction - BTC decoupling from tech-correlation as treasury reserve thesis resurfaces.",
+      "key_takeaway": "BTC positioning vs DXY weakness, yen carry unwind scenarios.",
+      "tickers_mentioned": "[\"BTC\", \"COIN\", \"MSTR\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 3,
+      "added_date": "2026-02-03",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": null
+    },
+    {
+      "id": 4,
+      "title": "Healthcare AI Moats",
+      "source_type": "podcast",
+      "source_name": "a16z Live",
+      "source_date": "2026-01-25",
+      "summary": "Tennr and Camber building operational infrastructure rather than clinical AI. First-mover advantage in regulatory capture.",
+      "key_takeaway": "Watch for IPO pipeline in healthtech operations.",
+      "tickers_mentioned": "[\"VEEV\", \"TDOC\", \"DOCS\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 4,
+      "added_date": "2026-01-25",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": null
+    },
+    {
+      "id": 5,
+      "title": "Machine-Native Money",
+      "source_type": "podcast",
+      "source_name": "Network State Podcast",
+      "source_date": "2026-01-16",
+      "summary": "USDC co-founder Sean Neville on deterministic crypto meeting probabilistic AI - identity systems for autonomous agents require new financial rails.",
+      "key_takeaway": "Long-term: Stablecoin infrastructure (COIN, fintech rails).",
+      "tickers_mentioned": "[\"COIN\", \"PYPL\", \"SQ\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 5,
+      "added_date": "2026-01-16",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": null
+    }
+  ],
+  "definitions": [
+    {
+      "id": 1,
+      "term": "Dyson Swarm",
+      "definition": "A hypothetical megastructure consisting of a vast array of solar collectors (satellites) orbiting a star to capture its energy output. Unlike a solid Dyson Sphere, a swarm allows for gradual construction and doesn't require implausible engineering.",
+      "investment_implications": "As space-based solar power becomes economically viable, companies developing launch capabilities and orbital infrastructure could benefit.",
+      "added_date": "2026-01-16",
+      "vote_count": 15,
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "display_order": 1
+    },
+    {
+      "id": 2,
+      "term": "Jevon's Paradox",
+      "definition": "An economic phenomenon where increased efficiency in using a resource leads to increased consumption of that resource rather than decreased consumption.",
+      "investment_implications": "As AI makes computation cheaper, total compute demand may explode\u2014benefiting chip makers, data centers, and power providers despite efficiency gains.",
+      "added_date": "2026-01-16",
+      "vote_count": 12,
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "display_order": 2
+    },
+    {
+      "id": 3,
+      "term": "Yen Carry Trade",
+      "definition": "A strategy where investors borrow in Japanese yen (low interest rates ~0.25%) and invest in higher-yielding assets (US Treasuries, tech stocks, emerging markets).",
+      "investment_implications": "When the Bank of Japan hikes rates or yen strengthens, unwinds trigger forced selling. Watch JPY/USD >150 as risk signal.",
+      "added_date": "2026-01-16",
+      "vote_count": 18,
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "display_order": 3
+    }
+  ],
+  "overton": [
+    {
+      "id": 3,
+      "term": "Compute Arbitrage",
+      "description": "Exploiting price differentials in AI compute across regions and providers\u2014buying low in unregulated markets, deploying high in enterprise stacks.",
+      "first_detected_date": "2026-01-16",
+      "last_mentioned_date": "2026-02-05",
+      "mention_count": 4,
+      "source_podcasts": "[\"a16z Live\", \"Network State Podcast\"]",
+      "status": "active",
+      "investment_implications": "GPU cloud providers, distributed compute networks, energy arbitrage plays.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null
+    },
+    {
+      "id": 1,
+      "term": "Neuralink Moment",
+      "description": "The inflection point when brain-computer interfaces shift from experimental to consumer-ready, triggering societal restructuring around cognitive enhancement.",
+      "first_detected_date": "2026-02-01",
+      "last_mentioned_date": "2026-02-12",
+      "mention_count": 3,
+      "source_podcasts": "[\"Network State Podcast\", \"Monetary Matters\"]",
+      "status": "active",
+      "investment_implications": "BCI hardware, neurotech chips, cognitive enhancement platforms. Early stage - watch for FDA approvals.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null
+    },
+    {
+      "id": 2,
+      "term": "Sovereign Individual Thesis",
+      "description": "The expectation that high-net-worth individuals will increasingly decouple from traditional jurisdictions, seeking digital-first citizenship and asset structures.",
+      "first_detected_date": "2026-01-25",
+      "last_mentioned_date": "2026-02-10",
+      "mention_count": 2,
+      "source_podcasts": "[\"Monetary Matters\"]",
+      "status": "active",
+      "investment_implications": "Digital banking, crypto custody, tax-advantaged jurisdictions, nomad infrastructure.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null
+    }
+  ]
+}
+};
+
+// Export for use in other scripts
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = dashboardData;
+}

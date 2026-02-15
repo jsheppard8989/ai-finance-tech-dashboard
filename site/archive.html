@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Archive | AI, Finance, Tech: Scarcity & Abundance</title>
+  <script src="data/data.js" onerror="console.error('Failed to load data.js')"></script>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+      min-height: 100vh;
+      color: #e8e8e8;
+      line-height: 1.6;
+      padding: 2rem;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .back-link {
+      color: #00d4ff;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      margin-bottom: 2rem;
+      font-size: 0.9rem;
+    }
+    .back-link:hover { text-decoration: underline; }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+      background: linear-gradient(135deg, #00d4ff 0%, #7b2cbf 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .subtitle {
+      color: #8892b0;
+      margin-bottom: 2rem;
+    }
+    
+    /* Tabs */
+    .tabs {
+      display: flex;
+      gap: 1rem;
+      margin-bottom: 2rem;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      padding-bottom: 1rem;
+    }
+    .tab {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      color: #8892b0;
+      padding: 0.75rem 1.5rem;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.2s;
+      font-size: 0.9rem;
+    }
+    .tab:hover {
+      background: rgba(255, 255, 255, 0.1);
+      color: #e8e8e8;
+    }
+    .tab.active {
+      background: rgba(0, 212, 255, 0.15);
+      border-color: rgba(0, 212, 255, 0.4);
+      color: #00d4ff;
+    }
+    
+    /* Search */
+    .search-box {
+      width: 100%;
+      max-width: 400px;
+      background: rgba(0, 0, 0, 0.3);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      border-radius: 8px;
+      padding: 0.75rem 1rem;
+      color: #e8e8e8;
+      font-size: 0.9rem;
+      margin-bottom: 2rem;
+    }
+    .search-box:focus {
+      outline: none;
+      border-color: #00d4ff;
+    }
+    .search-box::placeholder {
+      color: #8892b0;
+    }
+    
+    /* Content Sections */
+    .section {
+      display: none;
+    }
+    .section.active {
+      display: block;
+    }
+    
+    /* Card Styles - Same as Main Page */
+    
+    /* Definitions Section */
+    .definition-item {
+      background: rgba(0, 212, 255, 0.05);
+      border-left: 3px solid #00d4ff;
+      padding: 0.75rem;
+      margin-bottom: 0.75rem;
+      border-radius: 0 10px 10px 0;
+      cursor: pointer;
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      position: relative;
+      overflow: hidden;
+    }
+    .definition-item::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: linear-gradient(135deg, rgba(0, 212, 255, 0.1) 0%, rgba(123, 44, 191, 0.05) 100%);
+      opacity: 0;
+      transition: opacity 0.3s ease;
+      pointer-events: none;
+    }
+    .definition-item:hover {
+      border-left-width: 5px;
+      background: rgba(0, 212, 255, 0.08);
+      transform: translateX(4px);
+    }
+    .definition-item:hover::before { opacity: 1; }
+    .definition-item.active {
+      border-left-width: 6px;
+      background: rgba(0, 212, 255, 0.12);
+      box-shadow: 0 4px 20px rgba(0, 212, 255, 0.1);
+    }
+    .definition-item h3 {
+      color: #00d4ff;
+      font-size: 1.05rem;
+      margin-bottom: 0.4rem;
+      font-weight: 600;
+    }
+    .definition-item p {
+      color: #a8b2d1;
+      font-size: 0.9rem;
+      line-height: 1.5;
+    }
+    .definition-expanded {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.4s ease, opacity 0.3s ease, padding 0.3s ease, margin 0.3s ease;
+      opacity: 0;
+      padding: 0;
+      margin: 0;
+    }
+    .definition-item.active .definition-expanded {
+      max-height: 150px;
+      opacity: 1;
+      padding-top: 0.75rem;
+      margin-top: 0.5rem;
+      border-top: 1px solid rgba(0, 212, 255, 0.2);
+    }
+    
+    /* Insights Section */
+    .insight-item {
+      background: rgba(255, 255, 255, 0.03);
+      border-radius: 10px;
+      padding: 0.75rem;
+      margin-bottom: 0.75rem;
+      border: 1px solid rgba(255, 255, 255, 0.05);
+      cursor: pointer;
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      position: relative;
+      overflow: hidden;
+    }
+    .insight-item::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: linear-gradient(135deg, rgba(0, 212, 255, 0.08) 0%, rgba(123, 44, 191, 0.08) 100%);
+      opacity: 0;
+      transition: opacity 0.3s ease;
+      pointer-events: none;
+    }
+    .insight-item:hover {
+      border-color: rgba(0, 212, 255, 0.3);
+      box-shadow: 0 6px 24px rgba(0, 212, 255, 0.1);
+      transform: translateY(-2px);
+    }
+    .insight-item:hover::before { opacity: 1; }
+    .insight-item.active {
+      border-color: rgba(0, 212, 255, 0.5);
+      box-shadow: 0 8px 32px rgba(0, 212, 255, 0.15);
+    }
+    .insight-item .source {
+      font-size: 0.75rem;
+      color: #00d4ff;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      margin-bottom: 0.5rem;
+      font-weight: 600;
+    }
+    .insight-item .text {
+      color: #e8e8e8;
+      line-height: 1.5;
+    }
+    .insight-expanded {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.4s ease, opacity 0.3s ease, padding 0.3s ease;
+      opacity: 0;
+      padding: 0;
+      border-top: 1px solid transparent;
+    }
+    .insight-item.active .insight-expanded {
+      max-height: 200px;
+      opacity: 1;
+      padding-top: 0.75rem;
+      margin-top: 0.75rem;
+      border-top-color: rgba(255, 255, 255, 0.1);
+    }
+    
+    /* Overton Window Section */
+    .overton-item {
+      background: rgba(123, 44, 191, 0.1);
+      border: 1px solid rgba(123, 44, 191, 0.3);
+      padding: 0.75rem;
+      margin-bottom: 0.75rem;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      position: relative;
+      overflow: hidden;
+    }
+    .overton-item::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: linear-gradient(135deg, rgba(123, 44, 191, 0.15) 0%, rgba(0, 212, 255, 0.1) 100%);
+      opacity: 0;
+      transition: opacity 0.3s ease;
+      pointer-events: none;
+    }
+    .overton-item:hover {
+      border-color: rgba(123, 44, 191, 0.5);
+      box-shadow: 0 6px 24px rgba(123, 44, 191, 0.15);
+      transform: translateY(-2px);
+    }
+    .overton-item:hover::before { opacity: 1; }
+    .overton-item.active {
+      border-color: rgba(123, 44, 191, 0.7);
+      box-shadow: 0 8px 32px rgba(123, 44, 191, 0.2);
+    }
+    .overton-item .term {
+      font-weight: 700;
+      color: #e8e8e8;
+      font-size: 1rem;
+      margin-bottom: 0.35rem;
+    }
+    .overton-item .description {
+      font-size: 0.9rem;
+      color: #a8b2d1;
+      margin-top: 0.35rem;
+      line-height: 1.5;
+    }
+    .overton-item .source {
+      font-size: 0.75rem;
+      color: #8892b0;
+      margin-top: 0.5rem;
+      font-style: italic;
+    }
+    .overton-expanded {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.4s ease, opacity 0.3s ease, padding 0.3s ease, margin 0.3s ease;
+      opacity: 0;
+      padding: 0;
+      margin: 0;
+      border-top: 1px solid transparent;
+    }
+    .overton-item.active .overton-expanded {
+      max-height: 150px;
+      opacity: 1;
+      padding-top: 0.75rem;
+      margin-top: 0.75rem;
+      border-top-color: rgba(255, 255, 255, 0.1);
+    }
+    
+    /* Tags */
+    .tags {
+      display: flex;
+      gap: 0.5rem;
+      margin-top: 0.75rem;
+      flex-wrap: wrap;
+    }
+    .tag {
+      background: rgba(0, 212, 255, 0.1);
+      color: #00d4ff;
+      padding: 0.25rem 0.5rem;
+      border-radius: 4px;
+      font-size: 0.75rem;
+    }
+    .tag.archived {
+      background: rgba(244, 67, 54, 0.1);
+      color: #f44336;
+    }
+    .tag.graduated {
+      background: rgba(76, 175, 80, 0.1);
+      color: #4caf50;
+    }
+    .tag.active {
+      background: rgba(76, 175, 80, 0.2);
+      color: #4caf50;
+    }
+    
+    /* Action Buttons */
+    .action-btn {
+      background: linear-gradient(135deg, rgba(0, 212, 255, 0.15) 0%, rgba(123, 44, 191, 0.15) 100%);
+      border: 1px solid rgba(0, 212, 255, 0.3);
+      color: #00d4ff;
+      padding: 0.5rem 1rem;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 0.8rem;
+      font-weight: 500;
+      transition: all 0.2s;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      text-decoration: none;
+      margin-top: 0.75rem;
+    }
+    .action-btn:hover {
+      background: linear-gradient(135deg, rgba(0, 212, 255, 0.25) 0%, rgba(123, 44, 191, 0.25) 100%);
+      border-color: rgba(0, 212, 255, 0.5);
+      transform: translateY(-1px);
+    }
+    
+    /* Stats */
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 1rem;
+      margin-bottom: 2rem;
+    }
+    .stat-box {
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 8px;
+      padding: 1rem;
+      text-align: center;
+    }
+    .stat-box .number {
+      font-size: 2rem;
+      font-weight: 700;
+      color: #00d4ff;
+    }
+    .stat-box .label {
+      font-size: 0.8rem;
+      color: #8892b0;
+      margin-top: 0.25rem;
+    }
+    
+    /* Empty State */
+    .empty-state {
+      text-align: center;
+      padding: 3rem;
+      color: #8892b0;
+    }
+    .empty-state-icon {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+      opacity: 0.5;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <a href="index.html" class="back-link">← Back to Dashboard</a>
+    
+    <h1>Archive</h1>
+    <p class="subtitle">Historical definitions, insights, and Overton Window terms</p>
+    
+    <!-- Stats -->
+    <div class="stats">
+      <div class="stat-box">
+        <div class="number" id="insightsCount">-</div>
+        <div class="label">Archived Insights</div>
+      </div>
+      <div class="stat-box">
+        <div class="number" id="definitionsCount">-</div>
+        <div class="label">Definitions</div>
+      </div>
+      <div class="stat-box">
+        <div class="number" id="overtonCount">-</div>
+        <div class="label">Overton Terms</div>
+      </div>
+    </div>
+    
+    <!-- Search -->
+    <input type="text" class="search-box" id="searchBox" placeholder="Search archive...">
+    
+    <!-- Tabs -->
+    <div class="tabs">
+      <button class="tab active" onclick="showSection('insights')">📰 Insights</button>
+      <button class="tab" onclick="showSection('definitions')">📖 Definitions</button>
+      <button class="tab" onclick="showSection('overton')">🪟 Overton Window</button>
+    </div>
+    
+    <!-- Insights Section -->
+    <div class="section active" id="insightsSection">
+      <!-- Dynamically populated -->
+    </div>
+    
+    <!-- Definitions Section -->
+    <div class="section" id="definitionsSection">
+      <!-- Dynamically populated -->
+    </div>
+    
+    <!-- Overton Section -->
+    <div class="section" id="overtonSection">
+      <!-- Dynamically populated -->
+    </div>
+  </div>
+  
+  <!-- Podcast Summary Modal -->
+  <div id="podcastModal" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.9); z-index: 1000; justify-content: center; align-items: center; padding: 2rem;">
+    <div style="background: rgba(26,26,46,0.98); border-radius: 16px; width: 100%; max-width: 900px; max-height: 85vh; overflow: hidden; border: 1px solid rgba(0,212,255,0.2);">
+      <div style="display: flex; justify-content: space-between; align-items: center; padding: 1.5rem 2rem; background: linear-gradient(135deg, rgba(0,212,255,0.1) 0%, rgba(123,44,191,0.1) 100%); border-bottom: 1px solid rgba(255,255,255,0.1);">
+        <div>
+          <h3 id="podcastTitle" style="color: #00d4ff; font-size: 1.3rem; margin: 0;">Podcast Summary</h3>
+          <div id="podcastSource" style="font-size: 0.8rem; color: #8892b0; margin-top: 0.25rem;"></div>
+        </div>
+        <button onclick="closePodcastSummary()" style="background: none; border: 1px solid rgba(255,255,255,0.3); color: #fff; padding: 0.5rem 1rem; border-radius: 6px; cursor: pointer;">✕ Close</button>
+      </div>
+      <div id="podcastContent" style="padding: 2rem; overflow-y: auto; max-height: calc(85vh - 80px);"></div>
+    </div>
+  </div>
+  
+  <script>
+    // Archive data - loaded from database export
+    let archiveData = {
+      insights: [],
+      definitions: [],
+      overton: []
+    };
+    
+    // Load archive data
+    async function loadArchiveData() {
+      try {
+        // Debug: log what's available
+        console.log('Checking for dashboardData...', typeof dashboardData);
+        
+        // Try to load from data.js
+        if (typeof dashboardData !== 'undefined' && dashboardData.archive) {
+          archiveData = dashboardData.archive;
+          console.log('Loaded archive data from dashboardData:', archiveData);
+        } else {
+          console.log('dashboardData not found, trying fetch...');
+          // Fallback: try loading from JSON
+          const response = await fetch('data/archive.json');
+          if (response.ok) {
+            archiveData = await response.json();
+            console.log('Loaded archive data from JSON:', archiveData);
+          } else {
+            console.log('No archive data found, using defaults');
+            loadDefaultArchiveData();
+          }
+        }
+        
+        updateStats();
+        loadPodcastSummaries();
+        renderAllSections();
+      } catch (error) {
+        console.error('Error loading archive:', error);
+        loadDefaultArchiveData();
+      }
+    }
+    
+    // Fallback data
+    function loadDefaultArchiveData() {
+      console.log('Loading fallback data...');
+      
+      // Show warning to user
+      const warningDiv = document.createElement('div');
+      warningDiv.style.cssText = 'background: rgba(255,193,7,0.1); border: 1px solid rgba(255,193,7,0.3); color: #ffc107; padding: 1rem; border-radius: 8px; margin-bottom: 1rem;';
+      warningDiv.innerHTML = '⚠️ <strong>Using default data.</strong> For full archive, serve this page via a web server or run <code>python3 -m http.server 8000</code> in the site directory.';
+      document.querySelector('.container').insertBefore(warningDiv, document.querySelector('.stats'));
+      
+      archiveData = {
+        insights: [],
+        definitions: [
+          {
+            term: 'Dyson Swarm',
+            definition: 'A hypothetical megastructure consisting of vast solar collectors orbiting a star.',
+            archived_date: null,
+            archived_reason: null
+          },
+          {
+            term: 'Jevon\'s Paradox',
+            definition: 'Economic phenomenon where increased efficiency leads to increased consumption.',
+            archived_date: null,
+            archived_reason: null
+          }
+        ],
+        overton: []
+      };
+      updateStats();
+      renderAllSections();
+    }
+    
+    // Update stats counters
+    function updateStats() {
+      const insightsCount = archiveData.insights?.length || 0;
+      const definitionsCount = archiveData.definitions?.length || 0;
+      const overtonCount = archiveData.overton?.length || 0;
+      
+      console.log('Updating stats:', { insights: insightsCount, definitions: definitionsCount, overton: overtonCount });
+      
+      document.getElementById('insightsCount').textContent = insightsCount;
+      document.getElementById('definitionsCount').textContent = definitionsCount;
+      document.getElementById('overtonCount').textContent = overtonCount;
+    }
+    
+    // Render all sections
+    function renderAllSections() {
+      renderInsights();
+      renderDefinitions();
+      renderOverton();
+    }
+    
+    // Render insights
+    function renderInsights() {
+      const container = document.getElementById('insightsSection');
+      const insights = archiveData.insights || [];
+      
+      if (insights.length === 0) {
+        container.innerHTML = `
+          <div class="empty-state">
+            <div class="empty-state-icon">📭</div>
+            <p>No archived insights yet</p>
+          </div>
+        `;
+        return;
+      }
+      
+      container.innerHTML = insights.map(item => {
+        // Generate podcast ID for linking to summary
+        const podcastId = item.source_name.toLowerCase().replace(/[^a-z0-9]/g, '_') + '_' + 
+                         item.title.toLowerCase().replace(/[^a-z0-9]/g, '_').substring(0, 20);
+        const hasSummary = podcastSummaries[podcastId] || item.podcast_episode_id;
+        
+        return `
+        <div class="insight-item" onclick="toggleInsight(this)">
+          <div class="source">${item.source_name} • ${formatDate(item.source_date)}</div>
+          <div class="text"><strong>${item.title}:</strong> ${item.key_takeaway || item.summary}</div>
+          <div class="insight-expanded">
+            ${item.summary && item.summary !== item.key_takeaway ? `<div style="font-size: 0.85rem; color: #a8b2d1; margin-bottom: 0.5rem;">${item.summary}</div>` : ''}
+            <div class="tags">
+              ${(item.tickers_mentioned || []).map(t => `<span class="tag">${t}</span>`).join('')}
+              ${item.sentiment ? `<span class="tag" style="${item.sentiment === 'bullish' ? 'background: rgba(76,175,80,0.2); color: #4caf50;' : item.sentiment === 'bearish' ? 'background: rgba(244,67,54,0.2); color: #f44336;' : ''}">${item.sentiment.toUpperCase()}</span>` : ''}
+              ${item.display_on_main ? 
+                '<span class="tag active">👆 On Main Page</span>' : 
+                `<span class="tag archived">📥 Archived</span>`
+              }
+            </div>
+            ${hasSummary ? `<button class="action-btn" onclick="event.stopPropagation(); showPodcastSummary('${podcastId}')">🔍 Deep Dive</button>` : ''}
+          </div>
+        </div>
+      `}).join('');
+    }
+    
+    // Render definitions
+    function renderDefinitions() {
+      const container = document.getElementById('definitionsSection');
+      const definitions = archiveData.definitions || [];
+      
+      if (definitions.length === 0) {
+        container.innerHTML = `
+          <div class="empty-state">
+            <div class="empty-state-icon">📚</div>
+            <p>No definitions in archive</p>
+          </div>
+        `;
+        return;
+      }
+      
+      container.innerHTML = definitions.map(item => `
+        <div class="definition-item" onclick="toggleDefinition(this)">
+          <h3>📖 ${item.term}</h3>
+          <p>${item.definition}</p>
+          <div class="definition-expanded">
+            ${item.investment_implications ? `<div style="font-size: 0.85rem; color: #00d4ff; margin-bottom: 0.5rem;"><strong>💡 Investment Implication:</strong> ${item.investment_implications}</div>` : ''}
+            <div class="tags">
+              <span class="tag">Added: ${formatDate(item.added_date)}</span>
+              ${item.vote_count ? `<span class="tag">👍 ${item.vote_count} votes</span>` : ''}
+              ${item.display_on_main ? 
+                '<span class="tag active">✓ Active on Main</span>' : 
+                `<span class="tag archived">📦 Archived</span>`
+              }
+            </div>
+          </div>
+        </div>
+      `).join('');
+    }
+    
+    // Render Overton Window
+    function renderOverton() {
+      const container = document.getElementById('overtonSection');
+      const terms = archiveData.overton || [];
+      
+      if (terms.length === 0) {
+        container.innerHTML = `
+          <div class="empty-state">
+            <div class="empty-state-icon">🪟</div>
+            <p>No Overton Window terms archived</p>
+          </div>
+        `;
+        return;
+      }
+      
+      container.innerHTML = terms.map(item => `
+        <div class="overton-item" onclick="toggleOverton(this)">
+          <div class="term">${item.status === 'active' ? '🟡' : item.status === 'graduated' ? '🎓' : '📦'} ${item.term}</div>
+          <div class="description">${item.description}</div>
+          <div class="overton-expanded">
+            ${item.investment_implications ? `<div style="font-size: 0.85rem; color: #a78bfa; margin-bottom: 0.5rem;"><strong>🎯 Investment Angle:</strong> ${item.investment_implications}</div>` : ''}
+            <div style="font-size: 0.8rem; color: #8892b0; margin-bottom: 0.5rem;">
+              First detected: ${formatDate(item.first_detected_date)} · ${item.mention_count} mentions
+            </div>
+            <div class="tags">
+              ${item.status === 'active' ? 
+                '<span class="tag active">🟢 Emerging</span>' : 
+                item.status === 'graduated' ? 
+                  '<span class="tag" style="background: rgba(167,139,250,0.2); color: #a78bfa;">🎓 Mainstream</span>' : 
+                  '<span class="tag archived">📦 Archived</span>'
+              }
+              ${(item.source_podcasts || []).map(p => `<span class="tag">🎙️ ${p}</span>`).join('')}
+            </div>
+          </div>
+        </div>
+      `).join('');
+    }
+    
+    // Format date helper
+    function formatDate(dateStr) {
+      if (!dateStr) return 'Unknown';
+      const date = new Date(dateStr);
+      return date.toLocaleDateString('en-US', { month: 'short', year: 'numeric' });
+    }
+    
+    // Tab switching
+    function showSection(section) {
+      // Hide all sections
+      document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+      document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+      
+      // Show selected
+      document.getElementById(section + 'Section').classList.add('active');
+      event.target.classList.add('active');
+    }
+    
+    // Search functionality
+    document.getElementById('searchBox').addEventListener('input', function(e) {
+      const query = e.target.value.toLowerCase();
+      if (!query) {
+        renderAllSections();
+        return;
+      }
+      
+      // Filter each section
+      ['insights', 'definitions', 'overton'].forEach(type => {
+        const items = archiveData[type] || [];
+        const filtered = items.filter(item => {
+          const text = JSON.stringify(item).toLowerCase();
+          return text.includes(query);
+        });
+        
+        // Temporarily replace data for rendering
+        const original = archiveData[type];
+        archiveData[type] = filtered;
+        
+        if (type === 'insights') renderInsights();
+        else if (type === 'definitions') renderDefinitions();
+        else renderOverton();
+        
+        archiveData[type] = original;
+      });
+    });
+    
+    // Podcast Summary Data
+    let podcastSummaries = {};
+    
+    // Load podcast summaries
+    function loadPodcastSummaries() {
+      if (typeof dashboardData !== 'undefined' && dashboardData.mainContent) {
+        // Format main content insights as podcast summaries
+        const insights = dashboardData.mainContent.insights || [];
+        insights.forEach(insight => {
+          const id = insight.source_name.toLowerCase().replace(/[^a-z0-9]/g, '_') + '_' + 
+                     insight.title.toLowerCase().replace(/[^a-z0-9]/g, '_').substring(0, 20);
+          podcastSummaries[id] = {
+            title: insight.title,
+            source: `${insight.source_name} • ${formatDate(insight.source_date)}`,
+            content: generateSummaryHTML(insight)
+          };
+        });
+      }
+    }
+    
+    // Generate summary HTML from insight data
+    function generateSummaryHTML(insight) {
+      return `
+        <div style="margin-bottom: 1rem;">
+          <h4 style="color: #00d4ff; margin-bottom: 0.5rem;">🎯 Key Takeaway</h4>
+          <p style="color: #e8e8e8; line-height: 1.6;">${insight.key_takeaway || insight.summary}</p>
+        </div>
+        ${insight.summary ? `
+        <div style="margin-bottom: 1rem;">
+          <h4 style="color: #00d4ff; margin-bottom: 0.5rem;">📝 Full Summary</h4>
+          <p style="color: #a8b2d1; line-height: 1.6;">${insight.summary}</p>
+        </div>` : ''}
+        <div style="margin-bottom: 1rem;">
+          <h4 style="color: #00d4ff; margin-bottom: 0.5rem;">📈 Tickers Mentioned</h4>
+          <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+            ${(insight.tickers_mentioned || []).map(t => `<span style="background: rgba(0,212,255,0.15); color: #00d4ff; padding: 0.25rem 0.75rem; border-radius: 4px; font-size: 0.9rem;">${t}</span>`).join('')}
+          </div>
+        </div>
+        <div>
+          <h4 style="color: #00d4ff; margin-bottom: 0.5rem;">💭 Sentiment</h4>
+          <span style="${insight.sentiment === 'bullish' ? 'color: #4caf50;' : insight.sentiment === 'bearish' ? 'color: #f44336;' : 'color: #ffc107;'} font-weight: 600;">${(insight.sentiment || 'neutral').toUpperCase()}</span>
+        </div>
+      `;
+    }
+    
+    // Show podcast summary modal
+    function showPodcastSummary(podcastId) {
+      const modal = document.getElementById('podcastModal');
+      const title = document.getElementById('podcastTitle');
+      const source = document.getElementById('podcastSource');
+      const content = document.getElementById('podcastContent');
+      
+      const data = podcastSummaries[podcastId];
+      if (!data) {
+        // Try to find matching insight from archive data
+        const insight = (archiveData.insights || []).find(i => {
+          const id = i.source_name.toLowerCase().replace(/[^a-z0-9]/g, '_') + '_' + 
+                     i.title.toLowerCase().replace(/[^a-z0-9]/g, '_').substring(0, 20);
+          return id === podcastId;
+        });
+        
+        if (insight) {
+          title.textContent = insight.title;
+          source.textContent = `${insight.source_name} • ${formatDate(insight.source_date)}`;
+          content.innerHTML = generateSummaryHTML(insight);
+        } else {
+          console.error('Podcast summary not found:', podcastId);
+          return;
+        }
+      } else {
+        title.textContent = data.title;
+        source.textContent = data.source;
+        content.innerHTML = data.content;
+      }
+      
+      modal.style.display = 'flex';
+    }
+    
+    // Close podcast summary modal
+    function closePodcastSummary() {
+      document.getElementById('podcastModal').style.display = 'none';
+    }
+    
+    // Close modal on outside click
+    document.getElementById('podcastModal').addEventListener('click', function(e) {
+      if (e.target === this) {
+        closePodcastSummary();
+      }
+    });
+    
+    // Toggle functions
+    function toggleInsight(item) {
+      document.querySelectorAll('.insight-item.active').forEach(el => {
+        if (el !== item) el.classList.remove('active');
+      });
+      item.classList.toggle('active');
+    }
+    
+    function toggleDefinition(item) {
+      document.querySelectorAll('.definition-item.active').forEach(el => {
+        if (el !== item) el.classList.remove('active');
+      });
+      item.classList.toggle('active');
+    }
+    
+    function toggleOverton(item) {
+      document.querySelectorAll('.overton-item.active').forEach(el => {
+        if (el !== item) el.classList.remove('active');
+      });
+      item.classList.toggle('active');
+    }
+    
+    // Close expanded cards when clicking outside
+    document.addEventListener('click', function(e) {
+      if (!e.target.closest('.insight-item') && !e.target.closest('.overton-item') && !e.target.closest('.definition-item')) {
+        document.querySelectorAll('.insight-item.active, .overton-item.active, .definition-item.active').forEach(card => {
+          card.classList.remove('active');
+        });
+      }
+    });
+    
+    // Close on Escape key
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') {
+        closePodcastSummary();
+        document.querySelectorAll('.insight-item.active, .overton-item.active, .definition-item.active').forEach(card => {
+          card.classList.remove('active');
+        });
+      }
+    });
+    
+    // Initialize
+    loadArchiveData();
+  </script>
+</body>
+</html>

@@ -1,0 +1,2311 @@
+{
+  "generated_at": "2026-02-14T10:14:19.662661",
+  "total_tickers_analyzed": 59,
+  "top_5_overall": [
+    {
+      "ticker": "GOOGL",
+      "score": 87.5,
+      "breakdown": {
+        "mentions": 50,
+        "conviction": 0,
+        "source_diversity": 22.5,
+        "contrarian": 0,
+        "timeframe": 0,
+        "recency": 0,
+        "hidden_play_potential": 15
+      },
+      "mentions": 5,
+      "unique_sources": 1,
+      "sources": [
+        "The Rundown AI <news@daily.therundown.ai>"
+      ],
+      "conviction_level": "low",
+      "contrarian_signal": "neutral",
+      "timeframe": "unspecified",
+      "hidden_plays": [
+        {
+          "category": "cloud_infrastructure",
+          "tickers": [
+            "ANET",
+            "FFIV",
+            "NET",
+            "DDOG"
+          ],
+          "reason": "GOOGL demand drives cloud_infrastructure growth"
+        },
+        {
+          "category": "ai_training",
+          "tickers": [
+            "SNOW",
+            "PLTR",
+            "CFLT"
+          ],
+          "reason": "GOOGL demand drives ai_training growth"
+        },
+        {
+          "category": "search_disruption",
+          "tickers": [
+            "PERI",
+            "APP",
+            "TBLA"
+          ],
+          "reason": "GOOGL demand drives search_disruption growth"
+        }
+      ],
+      "contexts": [
+        {
+          "subject": "=?UTF-8?B?8J+agA==?= SpaceX, xAI form $1.25T super-entity",
+          "preview": "^**[Read Online](https://www.therundown.ai/p/xai-joins-spacex-in-mega-merger?_bhlid=4eaa234680798ad3bdb45514b5705f029891f88c&jwt_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWJzY3JpYmVyX2lkIjoiYzNlMzY5NWYtNjJlOC00YjBhLTg3MTgtN2NmYzcxMGFhMGM3IiwicHVibGljYXRpb25faWQiOiI0ZDAzMzkwZC0yNDgxLTQyOTktYjk0",
+          "source": "The Rundown AI <news@daily.therundown.ai>",
+          "date": "Tue, 03 Feb 2026 11:09:00 +0000 (UTC)"
+        },
+        {
+          "subject": "=?UTF-8?B?8J+agA==?= xAI's next phase unleashed",
+          "preview": "^**[Read Online](https://www.therundown.ai/p/xai-s-next-phase-unleashed?_bhlid=4eaa234680798ad3bdb45514b5705f029891f88c&jwt_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWJzY3JpYmVyX2lkIjoiYzNlMzY5NWYtNjJlOC00YjBhLTg3MTgtN2NmYzcxMGFhMGM3IiwicHVibGljYXRpb25faWQiOiI0ZDAzMzkwZC0yNDgxLTQyOTktYjk0OS1mZ",
+          "source": "The Rundown AI <news@daily.therundown.ai>",
+          "date": "Thu, 12 Feb 2026 11:07:52 +0000 (UTC)"
+        },
+        {
+          "subject": "=?UTF-8?B?8J+noA==?= Google's upgrade breaks reasoning barriers",
+          "preview": "^**[Read Online](https://www.therundown.ai/p/googles-upgrade-breaks-reasoning-barriers?_bhlid=4eaa234680798ad3bdb45514b5705f029891f88c&jwt_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWJzY3JpYmVyX2lkIjoiYzNlMzY5NWYtNjJlOC00YjBhLTg3MTgtN2NmYzcxMGFhMGM3IiwicHVibGljYXRpb25faWQiOiI0ZDAzMzkwZC0yNDgxLT",
+          "source": "The Rundown AI <news@daily.therundown.ai>",
+          "date": "Fri, 13 Feb 2026 11:08:51 +0000 (UTC)"
+        }
+      ],
+      "first_seen": "Tue, 03 Feb 2026 11:09:00 +0000 (UTC)",
+      "last_seen": "Wed, 11 Feb 2026 11:08:06 +0000 (UTC)"
+    },
+    {
+      "ticker": "MSFT",
+      "score": 77.5,
+      "breakdown": {
+        "mentions": 40,
+        "conviction": 0,
+        "source_diversity": 22.5,
+        "contrarian": 0,
+        "timeframe": 0,
+        "recency": 0,
+        "hidden_play_potential": 15
+      },
+      "mentions": 4,
+      "unique_sources": 1,
+      "sources": [
+        "The Rundown AI <news@daily.therundown.ai>"
+      ],
+      "conviction_level": "low",
+      "contrarian_signal": "neutral",
+      "timeframe": "unspecified",
+      "hidden_plays": [
+        {
+          "category": "enterprise_ai",
+          "tickers": [
+            "CRM",
+            "NOW",
+            "VEEV",
+            "WDAY"
+          ],
+          "reason": "MSFT demand drives enterprise_ai growth"
+        },
+        {
+          "category": "azure_ecosystem",
+          "tickers": [
+            "SNOW",
+            "DDOG",
+            "MDB",
+            "CFLT"
+          ],
+          "reason": "MSFT demand drives azure_ecosystem growth"
+        },
+        {
+          "category": "productivity",
+          "tickers": [
+            "ASAN",
+            "MONDAY",
+            "SMAR"
+          ],
+          "reason": "MSFT demand drives productivity growth"
+        }
+      ],
+      "contexts": [
+        {
+          "subject": "=?UTF-8?B?8J+agA==?= xAI's next phase unleashed",
+          "preview": "^**[Read Online](https://www.therundown.ai/p/xai-s-next-phase-unleashed?_bhlid=4eaa234680798ad3bdb45514b5705f029891f88c&jwt_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWJzY3JpYmVyX2lkIjoiYzNlMzY5NWYtNjJlOC00YjBhLTg3MTgtN2NmYzcxMGFhMGM3IiwicHVibGljYXRpb25faWQiOiI0ZDAzMzkwZC0yNDgxLTQyOTktYjk0OS1mZ",
+          "source": "The Rundown AI <news@daily.therundown.ai>",
+          "date": "Thu, 12 Feb 2026 11:07:52 +0000 (UTC)"
+        },
+        {
+          "subject": "=?UTF-8?B?8J+noA==?= Google's upgrade breaks reasoning barriers",
+          "preview": "^**[Read Online](https://www.therundown.ai/p/googles-upgrade-breaks-reasoning-barriers?_bhlid=4eaa234680798ad3bdb45514b5705f029891f88c&jwt_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWJzY3JpYmVyX2lkIjoiYzNlMzY5NWYtNjJlOC00YjBhLTg3MTgtN2NmYzcxMGFhMGM3IiwicHVibGljYXRpb25faWQiOiI0ZDAzMzkwZC0yNDgxLT",
+          "source": "The Rundown AI <news@daily.therundown.ai>",
+          "date": "Fri, 13 Feb 2026 11:08:51 +0000 (UTC)"
+        },
+        {
+          "subject": "=?UTF-8?B?8J+Urg==?= Sam Altman's OpenAI succession plan",
+          "preview": "^**[Read Online](https://www.therundown.ai/p/sam-altmans-openai-succession-plan?_bhlid=4eaa234680798ad3bdb45514b5705f029891f88c&jwt_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWJzY3JpYmVyX2lkIjoiYzNlMzY5NWYtNjJlOC00YjBhLTg3MTgtN2NmYzcxMGFhMGM3IiwicHVibGljYXRpb25faWQiOiI0ZDAzMzkwZC0yNDgxLTQyOTktY",
+          "source": "The Rundown AI <news@daily.therundown.ai>",
+          "date": "Wed, 04 Feb 2026 11:07:51 +0000 (UTC)"
+        }
+      ],
+      "first_seen": "Thu, 12 Feb 2026 11:07:52 +0000 (UTC)",
+      "last_seen": "Wed, 11 Feb 2026 11:08:06 +0000 (UTC)"
+    },
+    {
+      "ticker": "AAPL",
+      "score": 57.5,
+      "breakdown": {
+        "mentions": 20,
+        "conviction": 0,
+        "source_diversity": 22.5,
+        "contrarian": 0,
+        "timeframe": 0,
+        "recency": 0,
+        "hidden_play_potential": 15
+      },
+      "mentions": 2,
+      "unique_sources": 1,
+      "sources": [
+        "The Rundown AI <news@daily.therundown.ai>"
+      ],
+      "conviction_level": "low",
+      "contrarian_signal": "neutral",
+      "timeframe": "unspecified",
+      "hidden_plays": [
+        {
+          "category": "services_growth",
+          "tickers": [
+            "SQ",
+            "PYPL",
+            "SOFI"
+          ],
+          "reason": "AAPL demand drives services_growth growth"
+        },
+        {
+          "category": "supply_chain",
+          "tickers": [
+            "SWKS",
+            "QRVO",
+            "AVGO",
+            "QCOM"
+          ],
+          "reason": "AAPL demand drives supply_chain growth"
+        },
+        {
+          "category": "vision_pro_ecosystem",
+          "tickers": [
+            "U",
+            "MTTR",
+            "VUZI"
+          ],
+          "reason": "AAPL demand drives vision_pro_ecosystem growth"
+        }
+      ],
+      "contexts": [
+        {
+          "subject": "=?UTF-8?B?8J+agA==?= xAI's next phase unleashed",
+          "preview": "^**[Read Online](https://www.therundown.ai/p/xai-s-next-phase-unleashed?_bhlid=4eaa234680798ad3bdb45514b5705f029891f88c&jwt_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWJzY3JpYmVyX2lkIjoiYzNlMzY5NWYtNjJlOC00YjBhLTg3MTgtN2NmYzcxMGFhMGM3IiwicHVibGljYXRpb25faWQiOiI0ZDAzMzkwZC0yNDgxLTQyOTktYjk0OS1mZ",
+          "source": "The Rundown AI <news@daily.therundown.ai>",
+          "date": "Thu, 12 Feb 2026 11:07:52 +0000 (UTC)"
+        },
+        {
+          "subject": "=?UTF-8?B?8J+Urg==?= Sam Altman's OpenAI succession plan",
+          "preview": "^**[Read Online](https://www.therundown.ai/p/sam-altmans-openai-succession-plan?_bhlid=4eaa234680798ad3bdb45514b5705f029891f88c&jwt_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWJzY3JpYmVyX2lkIjoiYzNlMzY5NWYtNjJlOC00YjBhLTg3MTgtN2NmYzcxMGFhMGM3IiwicHVibGljYXRpb25faWQiOiI0ZDAzMzkwZC0yNDgxLTQyOTktY",
+          "source": "The Rundown AI <news@daily.therundown.ai>",
+          "date": "Wed, 04 Feb 2026 11:07:51 +0000 (UTC)"
+        }
+      ],
+      "first_seen": "Thu, 12 Feb 2026 11:07:52 +0000 (UTC)",
+      "last_seen": "Wed, 04 Feb 2026 11:07:51 +0000 (UTC)"
+    },
+    {
+      "ticker": "NVDA",
+      "score": 57.5,
+      "breakdown": {
+        "mentions": 20,
+        "conviction": 0,
+        "source_diversity": 22.5,
+        "contrarian": 0,
+        "timeframe": 0,
+        "recency": 0,
+        "hidden_play_potential": 15
+      },
+      "mentions": 2,
+      "unique_sources": 1,
+      "sources": [
+        "The Rundown AI <news@daily.therundown.ai>"
+      ],
+      "conviction_level": "low",
+      "contrarian_signal": "neutral",
+      "timeframe": "unspecified",
+      "hidden_plays": [
+        {
+          "category": "supply_chain",
+          "tickers": [
+            "ASML",
+            "AMAT",
+            "LRCX",
+            "KLAC",
+            "ENTG",
+            "MKSI"
+          ],
+          "reason": "NVDA demand drives supply_chain growth"
+        },
+        {
+          "category": "power",
+          "tickers": [
+            "NEE",
+            "CEG",
+            "VST",
+            "SMR",
+            "OKLO",
+            "BWXT"
+          ],
+          "reason": "NVDA demand drives power growth"
+        },
+        {
+          "category": "cooling",
+          "tickers": [
+            "CWST",
+            "XYL",
+            "AWK"
+          ],
+          "reason": "NVDA demand drives cooling growth"
+        },
+        {
+          "category": "data_centers",
+          "tickers": [
+            "DLR",
+            "EQIX",
+            "AMT",
+            "CCI"
+          ],
+          "reason": "NVDA demand drives data_centers growth"
+        },
+        {
+          "category": "networking",
+          "tickers": [
+            "ANET",
+            "AVGO",
+            "MRVL",
+            "CSCO"
+          ],
+          "reason": "NVDA demand drives networking growth"
+        }
+      ],
+      "contexts": [
+        {
+          "subject": "=?UTF-8?B?8J+noA==?= Google's upgrade breaks reasoning barriers",
+          "preview": "^**[Read Online](https://www.therundown.ai/p/googles-upgrade-breaks-reasoning-barriers?_bhlid=4eaa234680798ad3bdb45514b5705f029891f88c&jwt_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWJzY3JpYmVyX2lkIjoiYzNlMzY5NWYtNjJlOC00YjBhLTg3MTgtN2NmYzcxMGFhMGM3IiwicHVibGljYXRpb25faWQiOiI0ZDAzMzkwZC0yNDgxLT",
+          "source": "The Rundown AI <news@daily.therundown.ai>",
+          "date": "Fri, 13 Feb 2026 11:08:51 +0000 (UTC)"
+        },
+        {
+          "subject": "=?UTF-8?B?8J+aqg==?= xAI's co-founder exodus continues",
+          "preview": "^**[Read Online](https://www.therundown.ai/p/xai-co-founder-exodus-continues?_bhlid=4eaa234680798ad3bdb45514b5705f029891f88c&jwt_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWJzY3JpYmVyX2lkIjoiYzNlMzY5NWYtNjJlOC00YjBhLTg3MTgtN2NmYzcxMGFhMGM3IiwicHVibGljYXRpb25faWQiOiI0ZDAzMzkwZC0yNDgxLTQyOTktYjk0",
+          "source": "The Rundown AI <news@daily.therundown.ai>",
+          "date": "Wed, 11 Feb 2026 11:08:06 +0000 (UTC)"
+        }
+      ],
+      "first_seen": "Fri, 13 Feb 2026 11:08:51 +0000 (UTC)",
+      "last_seen": "Wed, 11 Feb 2026 11:08:06 +0000 (UTC)"
+    },
+    {
+      "ticker": "BFK",
+      "score": 50.0,
+      "breakdown": {
+        "mentions": 10,
+        "conviction": 10,
+        "source_diversity": 15.0,
+        "contrarian": 0,
+        "timeframe": 0,
+        "recency": 15,
+        "hidden_play_potential": 0
+      },
+      "mentions": 1,
+      "unique_sources": 1,
+      "sources": [
+        "IMP3972824673"
+      ],
+      "conviction_level": "low",
+      "contrarian_signal": "neutral",
+      "timeframe": "unspecified",
+      "hidden_plays": [],
+      "contexts": [
+        {
+          "subject": "IMP3972824673",
+          "preview": "If you really had machine-mediated hearing, where you had complete control of what was coming in and what wasn't,\nlike what could you do to help people have a radically different experience of their world?\nOh man, there's so many things.\nGive me five.\nYeah, okay.\nThe way that I characterize this is ",
+          "source": "IMP3972824673",
+          "date": "2026-02-14T08:29:58.277374"
+        }
+      ],
+      "first_seen": "2026-02-14T08:29:58.277374",
+      "last_seen": "2026-02-14T08:29:58.277374"
+    }
+  ],
+  "categories": {
+    "consensus_buys": [],
+    "hidden_gems": [],
+    "contrarian_plays": [],
+    "early_signals": [
+      {
+        "ticker": "BFK",
+        "score": 50.0,
+        "breakdown": {
+          "mentions": 10,
+          "conviction": 10,
+          "source_diversity": 15.0,
+          "contrarian": 0,
+          "timeframe": 0,
+          "recency": 15,
+          "hidden_play_potential": 0
+        },
+        "mentions": 1,
+        "unique_sources": 1,
+        "sources": [
+          "IMP3972824673"
+        ],
+        "conviction_level": "low",
+        "contrarian_signal": "neutral",
+        "timeframe": "unspecified",
+        "hidden_plays": [],
+        "contexts": [
+          {
+            "subject": "IMP3972824673",
+            "preview": "If you really had machine-mediated hearing, where you had complete control of what was coming in and what wasn't,\nlike what could you do to help people have a radically different experience of their world?\nOh man, there's so many things.\nGive me five.\nYeah, okay.\nThe way that I characterize this is ",
+            "source": "IMP3972824673",
+            "date": "2026-02-14T08:29:58.277374"
+          }
+        ],
+        "first_seen": "2026-02-14T08:29:58.277374",
+        "last_seen": "2026-02-14T08:29:58.277374"
+      },
+      {
+        "ticker": "GPT",
+        "score": 50.0,
+        "breakdown": {
+          "mentions": 10,
+          "conviction": 10,
+          "source_diversity": 15.0,
+          "contrarian": 0,
+          "timeframe": 0,
+          "recency": 15,
+          "hidden_play_potential": 0
+        },
+        "mentions": 1,
+        "unique_sources": 1,
+        "sources": [
+          "IMP3972824673"
+        ],
+        "conviction_level": "low",
+        "contrarian_signal": "neutral",
+        "timeframe": "unspecified",
+        "hidden_plays": [],
+        "contexts": [
+          {
+            "subject": "IMP3972824673",
+            "preview": "If you really had machine-mediated hearing, where you had complete control of what was coming in and what wasn't,\nlike what could you do to help people have a radically different experience of their world?\nOh man, there's so many things.\nGive me five.\nYeah, okay.\nThe way that I characterize this is ",
+            "source": "IMP3972824673",
+            "date": "2026-02-14T08:29:58.277374"
+          }
+        ],
+        "first_seen": "2026-02-14T08:29:58.277374",
+        "last_seen": "2026-02-14T08:29:58.277374"
+      },
+      {
+        "ticker": "DJ",
+        "score": 50.0,
+        "breakdown": {
+          "mentions": 10,
+          "conviction": 10,
+          "source_diversity": 15.0,
+          "contrarian": 0,
+          "timeframe": 0,
+          "recency": 15,
+          "hidden_play_potential": 0
+        },
+        "mentions": 1,
+        "unique_sources": 1,
+        "sources": [
+          "IMP3972824673"
+        ],
+        "conviction_level": "low",
+        "contrarian_signal": "neutral",
+        "timeframe": "unspecified",
+        "hidden_plays": [],
+        "contexts": [
+          {
+            "subject": "IMP3972824673",
+            "preview": "If you really had machine-mediated hearing, where you had complete control of what was coming in and what wasn't,\nlike what could you do to help people have a radically different experience of their world?\nOh man, there's so many things.\nGive me five.\nYeah, okay.\nThe way that I characterize this is ",
+            "source": "IMP3972824673",
+            "date": "2026-02-14T08:29:58.277374"
+          }
+        ],
+        "first_seen": "2026-02-14T08:29:58.277374",
+        "last_seen": "2026-02-14T08:29:58.277374"
+      },
+      {
+        "ticker": "VR",
+        "score": 50.0,
+        "breakdown": {
+          "mentions": 10,
+          "conviction": 10,
+          "source_diversity": 15.0,
+          "contrarian": 0,
+          "timeframe": 0,
+          "recency": 15,
+          "hidden_play_potential": 0
+        },
+        "mentions": 1,
+        "unique_sources": 1,
+        "sources": [
+          "IMP3972824673"
+        ],
+        "conviction_level": "low",
+        "contrarian_signal": "neutral",
+        "timeframe": "unspecified",
+        "hidden_plays": [],
+        "contexts": [
+          {
+            "subject": "IMP3972824673",
+            "preview": "If you really had machine-mediated hearing, where you had complete control of what was coming in and what wasn't,\nlike what could you do to help people have a radically different experience of their world?\nOh man, there's so many things.\nGive me five.\nYeah, okay.\nThe way that I characterize this is ",
+            "source": "IMP3972824673",
+            "date": "2026-02-14T08:29:58.277374"
+          }
+        ],
+        "first_seen": "2026-02-14T08:29:58.277374",
+        "last_seen": "2026-02-14T08:29:58.277374"
+      },
+      {
+        "ticker": "IO",
+        "score": 50.0,
+        "breakdown": {
+          "mentions": 10,
+          "conviction": 10,
+          "source_diversity": 15.0,
+          "contrarian": 0,
+          "timeframe": 0,
+          "recency": 15,
+          "hidden_play_potential": 0
+        },
+        "mentions": 1,
+        "unique_sources": 1,
+        "sources": [
+          "IMP3972824673"
+        ],
+        "conviction_level": "low",
+        "contrarian_signal": "neutral",
+        "timeframe": "unspecified",
+        "hidden_plays": [],
+        "contexts": [
+          {
+            "subject": "IMP3972824673",
+            "preview": "If you really had machine-mediated hearing, where you had complete control of what was coming in and what wasn't,\nlike what could you do to help people have a radically different experience of their world?\nOh man, there's so many things.\nGive me five.\nYeah, okay.\nThe way that I characterize this is ",
+            "source": "IMP3972824673",
+            "date": "2026-02-14T08:29:58.277374"
+          }
+        ],
+        "first_seen": "2026-02-14T08:29:58.277374",
+        "last_seen": "2026-02-14T08:29:58.277374"
+      },
+      {
+        "ticker": "GPU",
+        "score": 50.0,
+        "breakdown": {
+          "mentions": 10,
+          "conviction": 10,
+          "source_diversity": 15.0,
+          "contrarian": 0,
+          "timeframe": 0,
+          "recency": 15,
+          "hidden_play_potential": 0
+        },
+        "mentions": 1,
+        "unique_sources": 1,
+        "sources": [
+          "IMP3972824673"
+        ],
+        "conviction_level": "low",
+        "contrarian_signal": "neutral",
+        "timeframe": "unspecified",
+        "hidden_plays": [],
+        "contexts": [
+          {
+            "subject": "IMP3972824673",
+            "preview": "If you really had machine-mediated hearing, where you had complete control of what was coming in and what wasn't,\nlike what could you do to help people have a radically different experience of their world?\nOh man, there's so many things.\nGive me five.\nYeah, okay.\nThe way that I characterize this is ",
+            "source": "IMP3972824673",
+            "date": "2026-02-14T08:29:58.277374"
+          }
+        ],
+        "first_seen": "2026-02-14T08:29:58.277374",
+        "last_seen": "2026-02-14T08:29:58.277374"
+      },
+      {
+        "ticker": "TED",
+        "score": 50.0,
+        "breakdown": {
+          "mentions": 10,
+          "conviction": 10,
+          "source_diversity": 15.0,
+          "contrarian": 0,
+          "timeframe": 0,
+          "recency": 15,
+          "hidden_play_potential": 0
+        },
+        "mentions": 1,
+        "unique_sources": 1,
+        "sources": [
+          "IMP3972824673"
+        ],
+        "conviction_level": "low",
+        "contrarian_signal": "neutral",
+        "timeframe": "unspecified",
+        "hidden_plays": [],
+        "contexts": [
+          {
+            "subject": "IMP3972824673",
+            "preview": "If you really had machine-mediated hearing, where you had complete control of what was coming in and what wasn't,\nlike what could you do to help people have a radically different experience of their world?\nOh man, there's so many things.\nGive me five.\nYeah, okay.\nThe way that I characterize this is ",
+            "source": "IMP3972824673",
+            "date": "2026-02-14T08:29:58.277374"
+          }
+        ],
+        "first_seen": "2026-02-14T08:29:58.277374",
+        "last_seen": "2026-02-14T08:29:58.277374"
+      },
+      {
+        "ticker": "NAPA",
+        "score": 50.0,
+        "breakdown": {
+          "mentions": 10,
+          "conviction": 10,
+          "source_diversity": 15.0,
+          "contrarian": 0,
+          "timeframe": 0,
+          "recency": 15,
+          "hidden_play_potential": 0
+        },
+        "mentions": 1,
+        "unique_sources": 1,
+        "sources": [
+          "IMP3972824673"
+        ],
+        "conviction_level": "low",
+        "contrarian_signal": "neutral",
+        "timeframe": "unspecified",
+        "hidden_plays": [],
+        "contexts": [
+          {
+            "subject": "IMP3972824673",
+            "preview": "If you really had machine-mediated hearing, where you had complete control of what was coming in and what wasn't,\nlike what could you do to help people have a radically different experience of their world?\nOh man, there's so many things.\nGive me five.\nYeah, okay.\nThe way that I characterize this is ",
+            "source": "IMP3972824673",
+            "date": "2026-02-14T08:29:58.277374"
+          }
+        ],
+        "first_seen": "2026-02-14T08:29:58.277374",
+        "last_seen": "2026-02-14T08:29:58.277374"
+      },
+      {
+        "ticker": "IL",
+        "score": 50.0,
+        "breakdown": {
+          "mentions": 10,
+          "conviction": 10,
+          "source_diversity": 15.0,
+          "contrarian": 0,
+          "timeframe": 0,
+          "recency": 15,
+          "hidden_play_potential": 0
+        },
+        "mentions": 1,
+        "unique_sources": 1,
+        "sources": [
+          "IMP3972824673"
+        ],
+        "conviction_level": "low",
+        "contrarian_signal": "neutral",
+        "timeframe": "unspecified",
+        "hidden_plays": [],
+        "contexts": [
+          {
+            "subject": "IMP3972824673",
+            "preview": "If you really had machine-mediated hearing, where you had complete control of what was coming in and what wasn't,\nlike what could you do to help people have a radically different experience of their world?\nOh man, there's so many things.\nGive me five.\nYeah, okay.\nThe way that I characterize this is ",
+            "source": "IMP3972824673",
+            "date": "2026-02-14T08:29:58.277374"
+          }
+        ],
+        "first_seen": "2026-02-14T08:29:58.277374",
+        "last_seen": "2026-02-14T08:29:58.277374"
+      },
+      {
+        "ticker": "DARPA",
+        "score": 50.0,
+        "breakdown": {
+          "mentions": 10,
+          "conviction": 10,
+          "source_diversity": 15.0,
+          "contrarian": 0,
+          "timeframe": 0,
+          "recency": 15,
+          "hidden_play_potential": 0
+        },
+        "mentions": 1,
+        "unique_sources": 1,
+        "sources": [
+          "IMP3972824673"
+        ],
+        "conviction_level": "low",
+        "contrarian_signal": "neutral",
+        "timeframe": "unspecified",
+        "hidden_plays": [],
+        "contexts": [
+          {
+            "subject": "IMP3972824673",
+            "preview": "If you really had machine-mediated hearing, where you had complete control of what was coming in and what wasn't,\nlike what could you do to help people have a radically different experience of their world?\nOh man, there's so many things.\nGive me five.\nYeah, okay.\nThe way that I characterize this is ",
+            "source": "IMP3972824673",
+            "date": "2026-02-14T08:29:58.277374"
+          }
+        ],
+        "first_seen": "2026-02-14T08:29:58.277374",
+        "last_seen": "2026-02-14T08:29:58.277374"
+      },
+      {
+        "ticker": "DSP",
+        "score": 50.0,
+        "breakdown": {
+          "mentions": 10,
+          "conviction": 10,
+          "source_diversity": 15.0,
+          "contrarian": 0,
+          "timeframe": 0,
+          "recency": 15,
+          "hidden_play_potential": 0
+        },
+        "mentions": 1,
+        "unique_sources": 1,
+        "sources": [
+          "IMP3972824673"
+        ],
+        "conviction_level": "low",
+        "contrarian_signal": "neutral",
+        "timeframe": "unspecified",
+        "hidden_plays": [],
+        "contexts": [
+          {
+            "subject": "IMP3972824673",
+            "preview": "If you really had machine-mediated hearing, where you had complete control of what was coming in and what wasn't,\nlike what could you do to help people have a radically different experience of their world?\nOh man, there's so many things.\nGive me five.\nYeah, okay.\nThe way that I characterize this is ",
+            "source": "IMP3972824673",
+            "date": "2026-02-14T08:29:58.277374"
+          }
+        ],
+        "first_seen": "2026-02-14T08:29:58.277374",
+        "last_seen": "2026-02-14T08:29:58.277374"
+      },
+      {
+        "ticker": "ARPAE",
+        "score": 50.0,
+        "breakdown": {
+          "mentions": 10,
+          "conviction": 10,
+          "source_diversity": 15.0,
+          "contrarian": 0,
+          "timeframe": 0,
+          "recency": 15,
+          "hidden_play_potential": 0
+        },
+        "mentions": 1,
+        "unique_sources": 1,
+        "sources": [
+          "IMP3972824673"
+        ],
+        "conviction_level": "low",
+        "contrarian_signal": "neutral",
+        "timeframe": "unspecified",
+        "hidden_plays": [],
+        "contexts": [
+          {
+            "subject": "IMP3972824673",
+            "preview": "If you really had machine-mediated hearing, where you had complete control of what was coming in and what wasn't,\nlike what could you do to help people have a radically different experience of their world?\nOh man, there's so many things.\nGive me five.\nYeah, okay.\nThe way that I characterize this is ",
+            "source": "IMP3972824673",
+            "date": "2026-02-14T08:29:58.277374"
+          }
+        ],
+        "first_seen": "2026-02-14T08:29:58.277374",
+        "last_seen": "2026-02-14T08:29:58.277374"
+      },
+      {
+        "ticker": "IP",
+        "score": 50.0,
+        "breakdown": {
+          "mentions": 10,
+          "conviction": 10,
+          "source_diversity": 15.0,
+          "contrarian": 0,
+          "timeframe": 0,
+          "recency": 15,
+          "hidden_play_potential": 0
+        },
+        "mentions": 1,
+        "unique_sources": 1,
+        "sources": [
+          "IMP3972824673"
+        ],
+        "conviction_level": "low",
+        "contrarian_signal": "neutral",
+        "timeframe": "unspecified",
+        "hidden_plays": [],
+        "contexts": [
+          {
+            "subject": "IMP3972824673",
+            "preview": "If you really had machine-mediated hearing, where you had complete control of what was coming in and what wasn't,\nlike what could you do to help people have a radically different experience of their world?\nOh man, there's so many things.\nGive me five.\nYeah, okay.\nThe way that I characterize this is ",
+            "source": "IMP3972824673",
+            "date": "2026-02-14T08:29:58.277374"
+          }
+        ],
+        "first_seen": "2026-02-14T08:29:58.277374",
+        "last_seen": "2026-02-14T08:29:58.277374"
+      },
+      {
+        "ticker": "XX",
+        "score": 50.0,
+        "breakdown": {
+          "mentions": 10,
+          "conviction": 10,
+          "source_diversity": 15.0,
+          "contrarian": 0,
+          "timeframe": 0,
+          "recency": 15,
+          "hidden_play_potential": 0
+        },
+        "mentions": 1,
+        "unique_sources": 1,
+        "sources": [
+          "IMP3972824673"
+        ],
+        "conviction_level": "low",
+        "contrarian_signal": "neutral",
+        "timeframe": "unspecified",
+        "hidden_plays": [],
+        "contexts": [
+          {
+            "subject": "IMP3972824673",
+            "preview": "If you really had machine-mediated hearing, where you had complete control of what was coming in and what wasn't,\nlike what could you do to help people have a radically different experience of their world?\nOh man, there's so many things.\nGive me five.\nYeah, okay.\nThe way that I characterize this is ",
+            "source": "IMP3972824673",
+            "date": "2026-02-14T08:29:58.277374"
+          }
+        ],
+        "first_seen": "2026-02-14T08:29:58.277374",
+        "last_seen": "2026-02-14T08:29:58.277374"
+      },
+      {
+        "ticker": "MEMS",
+        "score": 50.0,
+        "breakdown": {
+          "mentions": 10,
+          "conviction": 10,
+          "source_diversity": 15.0,
+          "contrarian": 0,
+          "timeframe": 0,
+          "recency": 15,
+          "hidden_play_potential": 0
+        },
+        "mentions": 1,
+        "unique_sources": 1,
+        "sources": [
+          "IMP3972824673"
+        ],
+        "conviction_level": "low",
+        "contrarian_signal": "neutral",
+        "timeframe": "unspecified",
+        "hidden_plays": [],
+        "contexts": [
+          {
+            "subject": "IMP3972824673",
+            "preview": "If you really had machine-mediated hearing, where you had complete control of what was coming in and what wasn't,\nlike what could you do to help people have a radically different experience of their world?\nOh man, there's so many things.\nGive me five.\nYeah, okay.\nThe way that I characterize this is ",
+            "source": "IMP3972824673",
+            "date": "2026-02-14T08:29:58.277374"
+          }
+        ],
+        "first_seen": "2026-02-14T08:29:58.277374",
+        "last_seen": "2026-02-14T08:29:58.277374"
+      },
+      {
+        "ticker": "LTE",
+        "score": 50.0,
+        "breakdown": {
+          "mentions": 10,
+          "conviction": 10,
+          "source_diversity": 15.0,
+          "contrarian": 0,
+          "timeframe": 0,
+          "recency": 15,
+          "hidden_play_potential": 0
+        },
+        "mentions": 1,
+        "unique_sources": 1,
+        "sources": [
+          "IMP3972824673"
+        ],
+        "conviction_level": "low",
+        "contrarian_signal": "neutral",
+        "timeframe": "unspecified",
+        "hidden_plays": [],
+        "contexts": [
+          {
+            "subject": "IMP3972824673",
+            "preview": "If you really had machine-mediated hearing, where you had complete control of what was coming in and what wasn't,\nlike what could you do to help people have a radically different experience of their world?\nOh man, there's so many things.\nGive me five.\nYeah, okay.\nThe way that I characterize this is ",
+            "source": "IMP3972824673",
+            "date": "2026-02-14T08:29:58.277374"
+          }
+        ],
+        "first_seen": "2026-02-14T08:29:58.277374",
+        "last_seen": "2026-02-14T08:29:58.277374"
+      }
+    ],
+    "thematic": [
+      {
+        "ticker": "GOOGL",
+        "score": 87.5,
+        "breakdown": {
+          "mentions": 50,
+          "conviction": 0,
+          "source_diversity": 22.5,
+          "contrarian": 0,
+          "timeframe": 0,
+          "recency": 0,
+          "hidden_play_potential": 15
+        },
+        "mentions": 5,
+        "unique_sources": 1,
+        "sources": [
+          "The Rundown AI <news@daily.therundown.ai>"
+        ],
+        "conviction_level": "low",
+        "contrarian_signal": "neutral",
+        "timeframe": "unspecified",
+        "hidden_plays": [
+          {
+            "category": "cloud_infrastructure",
+            "tickers": [
+              "ANET",
+              "FFIV",
+              "NET",
+              "DDOG"
+            ],
+            "reason": "GOOGL demand drives cloud_infrastructure growth"
+          },
+          {
+            "category": "ai_training",
+            "tickers": [
+              "SNOW",
+              "PLTR",
+              "CFLT"
+            ],
+            "reason": "GOOGL demand drives ai_training growth"
+          },
+          {
+            "category": "search_disruption",
+            "tickers": [
+              "PERI",
+              "APP",
+              "TBLA"
+            ],
+            "reason": "GOOGL demand drives search_disruption growth"
+          }
+        ],
+        "contexts": [
+          {
+            "subject": "=?UTF-8?B?8J+agA==?= SpaceX, xAI form $1.25T super-entity",
+            "preview": "^**[Read Online](https://www.therundown.ai/p/xai-joins-spacex-in-mega-merger?_bhlid=4eaa234680798ad3bdb45514b5705f029891f88c&jwt_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWJzY3JpYmVyX2lkIjoiYzNlMzY5NWYtNjJlOC00YjBhLTg3MTgtN2NmYzcxMGFhMGM3IiwicHVibGljYXRpb25faWQiOiI0ZDAzMzkwZC0yNDgxLTQyOTktYjk0",
+            "source": "The Rundown AI <news@daily.therundown.ai>",
+            "date": "Tue, 03 Feb 2026 11:09:00 +0000 (UTC)"
+          },
+          {
+            "subject": "=?UTF-8?B?8J+agA==?= xAI's next phase unleashed",
+            "preview": "^**[Read Online](https://www.therundown.ai/p/xai-s-next-phase-unleashed?_bhlid=4eaa234680798ad3bdb45514b5705f029891f88c&jwt_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWJzY3JpYmVyX2lkIjoiYzNlMzY5NWYtNjJlOC00YjBhLTg3MTgtN2NmYzcxMGFhMGM3IiwicHVibGljYXRpb25faWQiOiI0ZDAzMzkwZC0yNDgxLTQyOTktYjk0OS1mZ",
+            "source": "The Rundown AI <news@daily.therundown.ai>",
+            "date": "Thu, 12 Feb 2026 11:07:52 +0000 (UTC)"
+          },
+          {
+            "subject": "=?UTF-8?B?8J+noA==?= Google's upgrade breaks reasoning barriers",
+            "preview": "^**[Read Online](https://www.therundown.ai/p/googles-upgrade-breaks-reasoning-barriers?_bhlid=4eaa234680798ad3bdb45514b5705f029891f88c&jwt_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWJzY3JpYmVyX2lkIjoiYzNlMzY5NWYtNjJlOC00YjBhLTg3MTgtN2NmYzcxMGFhMGM3IiwicHVibGljYXRpb25faWQiOiI0ZDAzMzkwZC0yNDgxLT",
+            "source": "The Rundown AI <news@daily.therundown.ai>",
+            "date": "Fri, 13 Feb 2026 11:08:51 +0000 (UTC)"
+          }
+        ],
+        "first_seen": "Tue, 03 Feb 2026 11:09:00 +0000 (UTC)",
+        "last_seen": "Wed, 11 Feb 2026 11:08:06 +0000 (UTC)"
+      },
+      {
+        "ticker": "MSFT",
+        "score": 77.5,
+        "breakdown": {
+          "mentions": 40,
+          "conviction": 0,
+          "source_diversity": 22.5,
+          "contrarian": 0,
+          "timeframe": 0,
+          "recency": 0,
+          "hidden_play_potential": 15
+        },
+        "mentions": 4,
+        "unique_sources": 1,
+        "sources": [
+          "The Rundown AI <news@daily.therundown.ai>"
+        ],
+        "conviction_level": "low",
+        "contrarian_signal": "neutral",
+        "timeframe": "unspecified",
+        "hidden_plays": [
+          {
+            "category": "enterprise_ai",
+            "tickers": [
+              "CRM",
+              "NOW",
+              "VEEV",
+              "WDAY"
+            ],
+            "reason": "MSFT demand drives enterprise_ai growth"
+          },
+          {
+            "category": "azure_ecosystem",
+            "tickers": [
+              "SNOW",
+              "DDOG",
+              "MDB",
+              "CFLT"
+            ],
+            "reason": "MSFT demand drives azure_ecosystem growth"
+          },
+          {
+            "category": "productivity",
+            "tickers": [
+              "ASAN",
+              "MONDAY",
+              "SMAR"
+            ],
+            "reason": "MSFT demand drives productivity growth"
+          }
+        ],
+        "contexts": [
+          {
+            "subject": "=?UTF-8?B?8J+agA==?= xAI's next phase unleashed",
+            "preview": "^**[Read Online](https://www.therundown.ai/p/xai-s-next-phase-unleashed?_bhlid=4eaa234680798ad3bdb45514b5705f029891f88c&jwt_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWJzY3JpYmVyX2lkIjoiYzNlMzY5NWYtNjJlOC00YjBhLTg3MTgtN2NmYzcxMGFhMGM3IiwicHVibGljYXRpb25faWQiOiI0ZDAzMzkwZC0yNDgxLTQyOTktYjk0OS1mZ",
+            "source": "The Rundown AI <news@daily.therundown.ai>",
+            "date": "Thu, 12 Feb 2026 11:07:52 +0000 (UTC)"
+          },
+          {
+            "subject": "=?UTF-8?B?8J+noA==?= Google's upgrade breaks reasoning barriers",
+            "preview": "^**[Read Online](https://www.therundown.ai/p/googles-upgrade-breaks-reasoning-barriers?_bhlid=4eaa234680798ad3bdb45514b5705f029891f88c&jwt_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWJzY3JpYmVyX2lkIjoiYzNlMzY5NWYtNjJlOC00YjBhLTg3MTgtN2NmYzcxMGFhMGM3IiwicHVibGljYXRpb25faWQiOiI0ZDAzMzkwZC0yNDgxLT",
+            "source": "The Rundown AI <news@daily.therundown.ai>",
+            "date": "Fri, 13 Feb 2026 11:08:51 +0000 (UTC)"
+          },
+          {
+            "subject": "=?UTF-8?B?8J+Urg==?= Sam Altman's OpenAI succession plan",
+            "preview": "^**[Read Online](https://www.therundown.ai/p/sam-altmans-openai-succession-plan?_bhlid=4eaa234680798ad3bdb45514b5705f029891f88c&jwt_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWJzY3JpYmVyX2lkIjoiYzNlMzY5NWYtNjJlOC00YjBhLTg3MTgtN2NmYzcxMGFhMGM3IiwicHVibGljYXRpb25faWQiOiI0ZDAzMzkwZC0yNDgxLTQyOTktY",
+            "source": "The Rundown AI <news@daily.therundown.ai>",
+            "date": "Wed, 04 Feb 2026 11:07:51 +0000 (UTC)"
+          }
+        ],
+        "first_seen": "Thu, 12 Feb 2026 11:07:52 +0000 (UTC)",
+        "last_seen": "Wed, 11 Feb 2026 11:08:06 +0000 (UTC)"
+      },
+      {
+        "ticker": "AAPL",
+        "score": 57.5,
+        "breakdown": {
+          "mentions": 20,
+          "conviction": 0,
+          "source_diversity": 22.5,
+          "contrarian": 0,
+          "timeframe": 0,
+          "recency": 0,
+          "hidden_play_potential": 15
+        },
+        "mentions": 2,
+        "unique_sources": 1,
+        "sources": [
+          "The Rundown AI <news@daily.therundown.ai>"
+        ],
+        "conviction_level": "low",
+        "contrarian_signal": "neutral",
+        "timeframe": "unspecified",
+        "hidden_plays": [
+          {
+            "category": "services_growth",
+            "tickers": [
+              "SQ",
+              "PYPL",
+              "SOFI"
+            ],
+            "reason": "AAPL demand drives services_growth growth"
+          },
+          {
+            "category": "supply_chain",
+            "tickers": [
+              "SWKS",
+              "QRVO",
+              "AVGO",
+              "QCOM"
+            ],
+            "reason": "AAPL demand drives supply_chain growth"
+          },
+          {
+            "category": "vision_pro_ecosystem",
+            "tickers": [
+              "U",
+              "MTTR",
+              "VUZI"
+            ],
+            "reason": "AAPL demand drives vision_pro_ecosystem growth"
+          }
+        ],
+        "contexts": [
+          {
+            "subject": "=?UTF-8?B?8J+agA==?= xAI's next phase unleashed",
+            "preview": "^**[Read Online](https://www.therundown.ai/p/xai-s-next-phase-unleashed?_bhlid=4eaa234680798ad3bdb45514b5705f029891f88c&jwt_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWJzY3JpYmVyX2lkIjoiYzNlMzY5NWYtNjJlOC00YjBhLTg3MTgtN2NmYzcxMGFhMGM3IiwicHVibGljYXRpb25faWQiOiI0ZDAzMzkwZC0yNDgxLTQyOTktYjk0OS1mZ",
+            "source": "The Rundown AI <news@daily.therundown.ai>",
+            "date": "Thu, 12 Feb 2026 11:07:52 +0000 (UTC)"
+          },
+          {
+            "subject": "=?UTF-8?B?8J+Urg==?= Sam Altman's OpenAI succession plan",
+            "preview": "^**[Read Online](https://www.therundown.ai/p/sam-altmans-openai-succession-plan?_bhlid=4eaa234680798ad3bdb45514b5705f029891f88c&jwt_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWJzY3JpYmVyX2lkIjoiYzNlMzY5NWYtNjJlOC00YjBhLTg3MTgtN2NmYzcxMGFhMGM3IiwicHVibGljYXRpb25faWQiOiI0ZDAzMzkwZC0yNDgxLTQyOTktY",
+            "source": "The Rundown AI <news@daily.therundown.ai>",
+            "date": "Wed, 04 Feb 2026 11:07:51 +0000 (UTC)"
+          }
+        ],
+        "first_seen": "Thu, 12 Feb 2026 11:07:52 +0000 (UTC)",
+        "last_seen": "Wed, 04 Feb 2026 11:07:51 +0000 (UTC)"
+      },
+      {
+        "ticker": "NVDA",
+        "score": 57.5,
+        "breakdown": {
+          "mentions": 20,
+          "conviction": 0,
+          "source_diversity": 22.5,
+          "contrarian": 0,
+          "timeframe": 0,
+          "recency": 0,
+          "hidden_play_potential": 15
+        },
+        "mentions": 2,
+        "unique_sources": 1,
+        "sources": [
+          "The Rundown AI <news@daily.therundown.ai>"
+        ],
+        "conviction_level": "low",
+        "contrarian_signal": "neutral",
+        "timeframe": "unspecified",
+        "hidden_plays": [
+          {
+            "category": "supply_chain",
+            "tickers": [
+              "ASML",
+              "AMAT",
+              "LRCX",
+              "KLAC",
+              "ENTG",
+              "MKSI"
+            ],
+            "reason": "NVDA demand drives supply_chain growth"
+          },
+          {
+            "category": "power",
+            "tickers": [
+              "NEE",
+              "CEG",
+              "VST",
+              "SMR",
+              "OKLO",
+              "BWXT"
+            ],
+            "reason": "NVDA demand drives power growth"
+          },
+          {
+            "category": "cooling",
+            "tickers": [
+              "CWST",
+              "XYL",
+              "AWK"
+            ],
+            "reason": "NVDA demand drives cooling growth"
+          },
+          {
+            "category": "data_centers",
+            "tickers": [
+              "DLR",
+              "EQIX",
+              "AMT",
+              "CCI"
+            ],
+            "reason": "NVDA demand drives data_centers growth"
+          },
+          {
+            "category": "networking",
+            "tickers": [
+              "ANET",
+              "AVGO",
+              "MRVL",
+              "CSCO"
+            ],
+            "reason": "NVDA demand drives networking growth"
+          }
+        ],
+        "contexts": [
+          {
+            "subject": "=?UTF-8?B?8J+noA==?= Google's upgrade breaks reasoning barriers",
+            "preview": "^**[Read Online](https://www.therundown.ai/p/googles-upgrade-breaks-reasoning-barriers?_bhlid=4eaa234680798ad3bdb45514b5705f029891f88c&jwt_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWJzY3JpYmVyX2lkIjoiYzNlMzY5NWYtNjJlOC00YjBhLTg3MTgtN2NmYzcxMGFhMGM3IiwicHVibGljYXRpb25faWQiOiI0ZDAzMzkwZC0yNDgxLT",
+            "source": "The Rundown AI <news@daily.therundown.ai>",
+            "date": "Fri, 13 Feb 2026 11:08:51 +0000 (UTC)"
+          },
+          {
+            "subject": "=?UTF-8?B?8J+aqg==?= xAI's co-founder exodus continues",
+            "preview": "^**[Read Online](https://www.therundown.ai/p/xai-co-founder-exodus-continues?_bhlid=4eaa234680798ad3bdb45514b5705f029891f88c&jwt_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWJzY3JpYmVyX2lkIjoiYzNlMzY5NWYtNjJlOC00YjBhLTg3MTgtN2NmYzcxMGFhMGM3IiwicHVibGljYXRpb25faWQiOiI0ZDAzMzkwZC0yNDgxLTQyOTktYjk0",
+            "source": "The Rundown AI <news@daily.therundown.ai>",
+            "date": "Wed, 11 Feb 2026 11:08:06 +0000 (UTC)"
+          }
+        ],
+        "first_seen": "Fri, 13 Feb 2026 11:08:51 +0000 (UTC)",
+        "last_seen": "Wed, 11 Feb 2026 11:08:06 +0000 (UTC)"
+      }
+    ]
+  },
+  "all_scored": [
+    {
+      "ticker": "GOOGL",
+      "score": 87.5,
+      "breakdown": {
+        "mentions": 50,
+        "conviction": 0,
+        "source_diversity": 22.5,
+        "contrarian": 0,
+        "timeframe": 0,
+        "recency": 0,
+        "hidden_play_potential": 15
+      },
+      "mentions": 5,
+      "unique_sources": 1,
+      "sources": [
+        "The Rundown AI <news@daily.therundown.ai>"
+      ],
+      "conviction_level": "low",
+      "contrarian_signal": "neutral",
+      "timeframe": "unspecified",
+      "hidden_plays": [
+        {
+          "category": "cloud_infrastructure",
+          "tickers": [
+            "ANET",
+            "FFIV",
+            "NET",
+            "DDOG"
+          ],
+          "reason": "GOOGL demand drives cloud_infrastructure growth"
+        },
+        {
+          "category": "ai_training",
+          "tickers": [
+            "SNOW",
+            "PLTR",
+            "CFLT"
+          ],
+          "reason": "GOOGL demand drives ai_training growth"
+        },
+        {
+          "category": "search_disruption",
+          "tickers": [
+            "PERI",
+            "APP",
+            "TBLA"
+          ],
+          "reason": "GOOGL demand drives search_disruption growth"
+        }
+      ],
+      "contexts": [
+        {
+          "subject": "=?UTF-8?B?8J+agA==?= SpaceX, xAI form $1.25T super-entity",
+          "preview": "^**[Read Online](https://www.therundown.ai/p/xai-joins-spacex-in-mega-merger?_bhlid=4eaa234680798ad3bdb45514b5705f029891f88c&jwt_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWJzY3JpYmVyX2lkIjoiYzNlMzY5NWYtNjJlOC00YjBhLTg3MTgtN2NmYzcxMGFhMGM3IiwicHVibGljYXRpb25faWQiOiI0ZDAzMzkwZC0yNDgxLTQyOTktYjk0",
+          "source": "The Rundown AI <news@daily.therundown.ai>",
+          "date": "Tue, 03 Feb 2026 11:09:00 +0000 (UTC)"
+        },
+        {
+          "subject": "=?UTF-8?B?8J+agA==?= xAI's next phase unleashed",
+          "preview": "^**[Read Online](https://www.therundown.ai/p/xai-s-next-phase-unleashed?_bhlid=4eaa234680798ad3bdb45514b5705f029891f88c&jwt_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWJzY3JpYmVyX2lkIjoiYzNlMzY5NWYtNjJlOC00YjBhLTg3MTgtN2NmYzcxMGFhMGM3IiwicHVibGljYXRpb25faWQiOiI0ZDAzMzkwZC0yNDgxLTQyOTktYjk0OS1mZ",
+          "source": "The Rundown AI <news@daily.therundown.ai>",
+          "date": "Thu, 12 Feb 2026 11:07:52 +0000 (UTC)"
+        },
+        {
+          "subject": "=?UTF-8?B?8J+noA==?= Google's upgrade breaks reasoning barriers",
+          "preview": "^**[Read Online](https://www.therundown.ai/p/googles-upgrade-breaks-reasoning-barriers?_bhlid=4eaa234680798ad3bdb45514b5705f029891f88c&jwt_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWJzY3JpYmVyX2lkIjoiYzNlMzY5NWYtNjJlOC00YjBhLTg3MTgtN2NmYzcxMGFhMGM3IiwicHVibGljYXRpb25faWQiOiI0ZDAzMzkwZC0yNDgxLT",
+          "source": "The Rundown AI <news@daily.therundown.ai>",
+          "date": "Fri, 13 Feb 2026 11:08:51 +0000 (UTC)"
+        }
+      ],
+      "first_seen": "Tue, 03 Feb 2026 11:09:00 +0000 (UTC)",
+      "last_seen": "Wed, 11 Feb 2026 11:08:06 +0000 (UTC)"
+    },
+    {
+      "ticker": "MSFT",
+      "score": 77.5,
+      "breakdown": {
+        "mentions": 40,
+        "conviction": 0,
+        "source_diversity": 22.5,
+        "contrarian": 0,
+        "timeframe": 0,
+        "recency": 0,
+        "hidden_play_potential": 15
+      },
+      "mentions": 4,
+      "unique_sources": 1,
+      "sources": [
+        "The Rundown AI <news@daily.therundown.ai>"
+      ],
+      "conviction_level": "low",
+      "contrarian_signal": "neutral",
+      "timeframe": "unspecified",
+      "hidden_plays": [
+        {
+          "category": "enterprise_ai",
+          "tickers": [
+            "CRM",
+            "NOW",
+            "VEEV",
+            "WDAY"
+          ],
+          "reason": "MSFT demand drives enterprise_ai growth"
+        },
+        {
+          "category": "azure_ecosystem",
+          "tickers": [
+            "SNOW",
+            "DDOG",
+            "MDB",
+            "CFLT"
+          ],
+          "reason": "MSFT demand drives azure_ecosystem growth"
+        },
+        {
+          "category": "productivity",
+          "tickers": [
+            "ASAN",
+            "MONDAY",
+            "SMAR"
+          ],
+          "reason": "MSFT demand drives productivity growth"
+        }
+      ],
+      "contexts": [
+        {
+          "subject": "=?UTF-8?B?8J+agA==?= xAI's next phase unleashed",
+          "preview": "^**[Read Online](https://www.therundown.ai/p/xai-s-next-phase-unleashed?_bhlid=4eaa234680798ad3bdb45514b5705f029891f88c&jwt_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWJzY3JpYmVyX2lkIjoiYzNlMzY5NWYtNjJlOC00YjBhLTg3MTgtN2NmYzcxMGFhMGM3IiwicHVibGljYXRpb25faWQiOiI0ZDAzMzkwZC0yNDgxLTQyOTktYjk0OS1mZ",
+          "source": "The Rundown AI <news@daily.therundown.ai>",
+          "date": "Thu, 12 Feb 2026 11:07:52 +0000 (UTC)"
+        },
+        {
+          "subject": "=?UTF-8?B?8J+noA==?= Google's upgrade breaks reasoning barriers",
+          "preview": "^**[Read Online](https://www.therundown.ai/p/googles-upgrade-breaks-reasoning-barriers?_bhlid=4eaa234680798ad3bdb45514b5705f029891f88c&jwt_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWJzY3JpYmVyX2lkIjoiYzNlMzY5NWYtNjJlOC00YjBhLTg3MTgtN2NmYzcxMGFhMGM3IiwicHVibGljYXRpb25faWQiOiI0ZDAzMzkwZC0yNDgxLT",
+          "source": "The Rundown AI <news@daily.therundown.ai>",
+          "date": "Fri, 13 Feb 2026 11:08:51 +0000 (UTC)"
+        },
+        {
+          "subject": "=?UTF-8?B?8J+Urg==?= Sam Altman's OpenAI succession plan",
+          "preview": "^**[Read Online](https://www.therundown.ai/p/sam-altmans-openai-succession-plan?_bhlid=4eaa234680798ad3bdb45514b5705f029891f88c&jwt_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWJzY3JpYmVyX2lkIjoiYzNlMzY5NWYtNjJlOC00YjBhLTg3MTgtN2NmYzcxMGFhMGM3IiwicHVibGljYXRpb25faWQiOiI0ZDAzMzkwZC0yNDgxLTQyOTktY",
+          "source": "The Rundown AI <news@daily.therundown.ai>",
+          "date": "Wed, 04 Feb 2026 11:07:51 +0000 (UTC)"
+        }
+      ],
+      "first_seen": "Thu, 12 Feb 2026 11:07:52 +0000 (UTC)",
+      "last_seen": "Wed, 11 Feb 2026 11:08:06 +0000 (UTC)"
+    },
+    {
+      "ticker": "AAPL",
+      "score": 57.5,
+      "breakdown": {
+        "mentions": 20,
+        "conviction": 0,
+        "source_diversity": 22.5,
+        "contrarian": 0,
+        "timeframe": 0,
+        "recency": 0,
+        "hidden_play_potential": 15
+      },
+      "mentions": 2,
+      "unique_sources": 1,
+      "sources": [
+        "The Rundown AI <news@daily.therundown.ai>"
+      ],
+      "conviction_level": "low",
+      "contrarian_signal": "neutral",
+      "timeframe": "unspecified",
+      "hidden_plays": [
+        {
+          "category": "services_growth",
+          "tickers": [
+            "SQ",
+            "PYPL",
+            "SOFI"
+          ],
+          "reason": "AAPL demand drives services_growth growth"
+        },
+        {
+          "category": "supply_chain",
+          "tickers": [
+            "SWKS",
+            "QRVO",
+            "AVGO",
+            "QCOM"
+          ],
+          "reason": "AAPL demand drives supply_chain growth"
+        },
+        {
+          "category": "vision_pro_ecosystem",
+          "tickers": [
+            "U",
+            "MTTR",
+            "VUZI"
+          ],
+          "reason": "AAPL demand drives vision_pro_ecosystem growth"
+        }
+      ],
+      "contexts": [
+        {
+          "subject": "=?UTF-8?B?8J+agA==?= xAI's next phase unleashed",
+          "preview": "^**[Read Online](https://www.therundown.ai/p/xai-s-next-phase-unleashed?_bhlid=4eaa234680798ad3bdb45514b5705f029891f88c&jwt_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWJzY3JpYmVyX2lkIjoiYzNlMzY5NWYtNjJlOC00YjBhLTg3MTgtN2NmYzcxMGFhMGM3IiwicHVibGljYXRpb25faWQiOiI0ZDAzMzkwZC0yNDgxLTQyOTktYjk0OS1mZ",
+          "source": "The Rundown AI <news@daily.therundown.ai>",
+          "date": "Thu, 12 Feb 2026 11:07:52 +0000 (UTC)"
+        },
+        {
+          "subject": "=?UTF-8?B?8J+Urg==?= Sam Altman's OpenAI succession plan",
+          "preview": "^**[Read Online](https://www.therundown.ai/p/sam-altmans-openai-succession-plan?_bhlid=4eaa234680798ad3bdb45514b5705f029891f88c&jwt_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWJzY3JpYmVyX2lkIjoiYzNlMzY5NWYtNjJlOC00YjBhLTg3MTgtN2NmYzcxMGFhMGM3IiwicHVibGljYXRpb25faWQiOiI0ZDAzMzkwZC0yNDgxLTQyOTktY",
+          "source": "The Rundown AI <news@daily.therundown.ai>",
+          "date": "Wed, 04 Feb 2026 11:07:51 +0000 (UTC)"
+        }
+      ],
+      "first_seen": "Thu, 12 Feb 2026 11:07:52 +0000 (UTC)",
+      "last_seen": "Wed, 04 Feb 2026 11:07:51 +0000 (UTC)"
+    },
+    {
+      "ticker": "NVDA",
+      "score": 57.5,
+      "breakdown": {
+        "mentions": 20,
+        "conviction": 0,
+        "source_diversity": 22.5,
+        "contrarian": 0,
+        "timeframe": 0,
+        "recency": 0,
+        "hidden_play_potential": 15
+      },
+      "mentions": 2,
+      "unique_sources": 1,
+      "sources": [
+        "The Rundown AI <news@daily.therundown.ai>"
+      ],
+      "conviction_level": "low",
+      "contrarian_signal": "neutral",
+      "timeframe": "unspecified",
+      "hidden_plays": [
+        {
+          "category": "supply_chain",
+          "tickers": [
+            "ASML",
+            "AMAT",
+            "LRCX",
+            "KLAC",
+            "ENTG",
+            "MKSI"
+          ],
+          "reason": "NVDA demand drives supply_chain growth"
+        },
+        {
+          "category": "power",
+          "tickers": [
+            "NEE",
+            "CEG",
+            "VST",
+            "SMR",
+            "OKLO",
+            "BWXT"
+          ],
+          "reason": "NVDA demand drives power growth"
+        },
+        {
+          "category": "cooling",
+          "tickers": [
+            "CWST",
+            "XYL",
+            "AWK"
+          ],
+          "reason": "NVDA demand drives cooling growth"
+        },
+        {
+          "category": "data_centers",
+          "tickers": [
+            "DLR",
+            "EQIX",
+            "AMT",
+            "CCI"
+          ],
+          "reason": "NVDA demand drives data_centers growth"
+        },
+        {
+          "category": "networking",
+          "tickers": [
+            "ANET",
+            "AVGO",
+            "MRVL",
+            "CSCO"
+          ],
+          "reason": "NVDA demand drives networking growth"
+        }
+      ],
+      "contexts": [
+        {
+          "subject": "=?UTF-8?B?8J+noA==?= Google's upgrade breaks reasoning barriers",
+          "preview": "^**[Read Online](https://www.therundown.ai/p/googles-upgrade-breaks-reasoning-barriers?_bhlid=4eaa234680798ad3bdb45514b5705f029891f88c&jwt_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWJzY3JpYmVyX2lkIjoiYzNlMzY5NWYtNjJlOC00YjBhLTg3MTgtN2NmYzcxMGFhMGM3IiwicHVibGljYXRpb25faWQiOiI0ZDAzMzkwZC0yNDgxLT",
+          "source": "The Rundown AI <news@daily.therundown.ai>",
+          "date": "Fri, 13 Feb 2026 11:08:51 +0000 (UTC)"
+        },
+        {
+          "subject": "=?UTF-8?B?8J+aqg==?= xAI's co-founder exodus continues",
+          "preview": "^**[Read Online](https://www.therundown.ai/p/xai-co-founder-exodus-continues?_bhlid=4eaa234680798ad3bdb45514b5705f029891f88c&jwt_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWJzY3JpYmVyX2lkIjoiYzNlMzY5NWYtNjJlOC00YjBhLTg3MTgtN2NmYzcxMGFhMGM3IiwicHVibGljYXRpb25faWQiOiI0ZDAzMzkwZC0yNDgxLTQyOTktYjk0",
+          "source": "The Rundown AI <news@daily.therundown.ai>",
+          "date": "Wed, 11 Feb 2026 11:08:06 +0000 (UTC)"
+        }
+      ],
+      "first_seen": "Fri, 13 Feb 2026 11:08:51 +0000 (UTC)",
+      "last_seen": "Wed, 11 Feb 2026 11:08:06 +0000 (UTC)"
+    },
+    {
+      "ticker": "BFK",
+      "score": 50.0,
+      "breakdown": {
+        "mentions": 10,
+        "conviction": 10,
+        "source_diversity": 15.0,
+        "contrarian": 0,
+        "timeframe": 0,
+        "recency": 15,
+        "hidden_play_potential": 0
+      },
+      "mentions": 1,
+      "unique_sources": 1,
+      "sources": [
+        "IMP3972824673"
+      ],
+      "conviction_level": "low",
+      "contrarian_signal": "neutral",
+      "timeframe": "unspecified",
+      "hidden_plays": [],
+      "contexts": [
+        {
+          "subject": "IMP3972824673",
+          "preview": "If you really had machine-mediated hearing, where you had complete control of what was coming in and what wasn't,\nlike what could you do to help people have a radically different experience of their world?\nOh man, there's so many things.\nGive me five.\nYeah, okay.\nThe way that I characterize this is ",
+          "source": "IMP3972824673",
+          "date": "2026-02-14T08:29:58.277374"
+        }
+      ],
+      "first_seen": "2026-02-14T08:29:58.277374",
+      "last_seen": "2026-02-14T08:29:58.277374"
+    },
+    {
+      "ticker": "GPT",
+      "score": 50.0,
+      "breakdown": {
+        "mentions": 10,
+        "conviction": 10,
+        "source_diversity": 15.0,
+        "contrarian": 0,
+        "timeframe": 0,
+        "recency": 15,
+        "hidden_play_potential": 0
+      },
+      "mentions": 1,
+      "unique_sources": 1,
+      "sources": [
+        "IMP3972824673"
+      ],
+      "conviction_level": "low",
+      "contrarian_signal": "neutral",
+      "timeframe": "unspecified",
+      "hidden_plays": [],
+      "contexts": [
+        {
+          "subject": "IMP3972824673",
+          "preview": "If you really had machine-mediated hearing, where you had complete control of what was coming in and what wasn't,\nlike what could you do to help people have a radically different experience of their world?\nOh man, there's so many things.\nGive me five.\nYeah, okay.\nThe way that I characterize this is ",
+          "source": "IMP3972824673",
+          "date": "2026-02-14T08:29:58.277374"
+        }
+      ],
+      "first_seen": "2026-02-14T08:29:58.277374",
+      "last_seen": "2026-02-14T08:29:58.277374"
+    },
+    {
+      "ticker": "DJ",
+      "score": 50.0,
+      "breakdown": {
+        "mentions": 10,
+        "conviction": 10,
+        "source_diversity": 15.0,
+        "contrarian": 0,
+        "timeframe": 0,
+        "recency": 15,
+        "hidden_play_potential": 0
+      },
+      "mentions": 1,
+      "unique_sources": 1,
+      "sources": [
+        "IMP3972824673"
+      ],
+      "conviction_level": "low",
+      "contrarian_signal": "neutral",
+      "timeframe": "unspecified",
+      "hidden_plays": [],
+      "contexts": [
+        {
+          "subject": "IMP3972824673",
+          "preview": "If you really had machine-mediated hearing, where you had complete control of what was coming in and what wasn't,\nlike what could you do to help people have a radically different experience of their world?\nOh man, there's so many things.\nGive me five.\nYeah, okay.\nThe way that I characterize this is ",
+          "source": "IMP3972824673",
+          "date": "2026-02-14T08:29:58.277374"
+        }
+      ],
+      "first_seen": "2026-02-14T08:29:58.277374",
+      "last_seen": "2026-02-14T08:29:58.277374"
+    },
+    {
+      "ticker": "VR",
+      "score": 50.0,
+      "breakdown": {
+        "mentions": 10,
+        "conviction": 10,
+        "source_diversity": 15.0,
+        "contrarian": 0,
+        "timeframe": 0,
+        "recency": 15,
+        "hidden_play_potential": 0
+      },
+      "mentions": 1,
+      "unique_sources": 1,
+      "sources": [
+        "IMP3972824673"
+      ],
+      "conviction_level": "low",
+      "contrarian_signal": "neutral",
+      "timeframe": "unspecified",
+      "hidden_plays": [],
+      "contexts": [
+        {
+          "subject": "IMP3972824673",
+          "preview": "If you really had machine-mediated hearing, where you had complete control of what was coming in and what wasn't,\nlike what could you do to help people have a radically different experience of their world?\nOh man, there's so many things.\nGive me five.\nYeah, okay.\nThe way that I characterize this is ",
+          "source": "IMP3972824673",
+          "date": "2026-02-14T08:29:58.277374"
+        }
+      ],
+      "first_seen": "2026-02-14T08:29:58.277374",
+      "last_seen": "2026-02-14T08:29:58.277374"
+    },
+    {
+      "ticker": "IO",
+      "score": 50.0,
+      "breakdown": {
+        "mentions": 10,
+        "conviction": 10,
+        "source_diversity": 15.0,
+        "contrarian": 0,
+        "timeframe": 0,
+        "recency": 15,
+        "hidden_play_potential": 0
+      },
+      "mentions": 1,
+      "unique_sources": 1,
+      "sources": [
+        "IMP3972824673"
+      ],
+      "conviction_level": "low",
+      "contrarian_signal": "neutral",
+      "timeframe": "unspecified",
+      "hidden_plays": [],
+      "contexts": [
+        {
+          "subject": "IMP3972824673",
+          "preview": "If you really had machine-mediated hearing, where you had complete control of what was coming in and what wasn't,\nlike what could you do to help people have a radically different experience of their world?\nOh man, there's so many things.\nGive me five.\nYeah, okay.\nThe way that I characterize this is ",
+          "source": "IMP3972824673",
+          "date": "2026-02-14T08:29:58.277374"
+        }
+      ],
+      "first_seen": "2026-02-14T08:29:58.277374",
+      "last_seen": "2026-02-14T08:29:58.277374"
+    },
+    {
+      "ticker": "GPU",
+      "score": 50.0,
+      "breakdown": {
+        "mentions": 10,
+        "conviction": 10,
+        "source_diversity": 15.0,
+        "contrarian": 0,
+        "timeframe": 0,
+        "recency": 15,
+        "hidden_play_potential": 0
+      },
+      "mentions": 1,
+      "unique_sources": 1,
+      "sources": [
+        "IMP3972824673"
+      ],
+      "conviction_level": "low",
+      "contrarian_signal": "neutral",
+      "timeframe": "unspecified",
+      "hidden_plays": [],
+      "contexts": [
+        {
+          "subject": "IMP3972824673",
+          "preview": "If you really had machine-mediated hearing, where you had complete control of what was coming in and what wasn't,\nlike what could you do to help people have a radically different experience of their world?\nOh man, there's so many things.\nGive me five.\nYeah, okay.\nThe way that I characterize this is ",
+          "source": "IMP3972824673",
+          "date": "2026-02-14T08:29:58.277374"
+        }
+      ],
+      "first_seen": "2026-02-14T08:29:58.277374",
+      "last_seen": "2026-02-14T08:29:58.277374"
+    },
+    {
+      "ticker": "TED",
+      "score": 50.0,
+      "breakdown": {
+        "mentions": 10,
+        "conviction": 10,
+        "source_diversity": 15.0,
+        "contrarian": 0,
+        "timeframe": 0,
+        "recency": 15,
+        "hidden_play_potential": 0
+      },
+      "mentions": 1,
+      "unique_sources": 1,
+      "sources": [
+        "IMP3972824673"
+      ],
+      "conviction_level": "low",
+      "contrarian_signal": "neutral",
+      "timeframe": "unspecified",
+      "hidden_plays": [],
+      "contexts": [
+        {
+          "subject": "IMP3972824673",
+          "preview": "If you really had machine-mediated hearing, where you had complete control of what was coming in and what wasn't,\nlike what could you do to help people have a radically different experience of their world?\nOh man, there's so many things.\nGive me five.\nYeah, okay.\nThe way that I characterize this is ",
+          "source": "IMP3972824673",
+          "date": "2026-02-14T08:29:58.277374"
+        }
+      ],
+      "first_seen": "2026-02-14T08:29:58.277374",
+      "last_seen": "2026-02-14T08:29:58.277374"
+    },
+    {
+      "ticker": "NAPA",
+      "score": 50.0,
+      "breakdown": {
+        "mentions": 10,
+        "conviction": 10,
+        "source_diversity": 15.0,
+        "contrarian": 0,
+        "timeframe": 0,
+        "recency": 15,
+        "hidden_play_potential": 0
+      },
+      "mentions": 1,
+      "unique_sources": 1,
+      "sources": [
+        "IMP3972824673"
+      ],
+      "conviction_level": "low",
+      "contrarian_signal": "neutral",
+      "timeframe": "unspecified",
+      "hidden_plays": [],
+      "contexts": [
+        {
+          "subject": "IMP3972824673",
+          "preview": "If you really had machine-mediated hearing, where you had complete control of what was coming in and what wasn't,\nlike what could you do to help people have a radically different experience of their world?\nOh man, there's so many things.\nGive me five.\nYeah, okay.\nThe way that I characterize this is ",
+          "source": "IMP3972824673",
+          "date": "2026-02-14T08:29:58.277374"
+        }
+      ],
+      "first_seen": "2026-02-14T08:29:58.277374",
+      "last_seen": "2026-02-14T08:29:58.277374"
+    },
+    {
+      "ticker": "IL",
+      "score": 50.0,
+      "breakdown": {
+        "mentions": 10,
+        "conviction": 10,
+        "source_diversity": 15.0,
+        "contrarian": 0,
+        "timeframe": 0,
+        "recency": 15,
+        "hidden_play_potential": 0
+      },
+      "mentions": 1,
+      "unique_sources": 1,
+      "sources": [
+        "IMP3972824673"
+      ],
+      "conviction_level": "low",
+      "contrarian_signal": "neutral",
+      "timeframe": "unspecified",
+      "hidden_plays": [],
+      "contexts": [
+        {
+          "subject": "IMP3972824673",
+          "preview": "If you really had machine-mediated hearing, where you had complete control of what was coming in and what wasn't,\nlike what could you do to help people have a radically different experience of their world?\nOh man, there's so many things.\nGive me five.\nYeah, okay.\nThe way that I characterize this is ",
+          "source": "IMP3972824673",
+          "date": "2026-02-14T08:29:58.277374"
+        }
+      ],
+      "first_seen": "2026-02-14T08:29:58.277374",
+      "last_seen": "2026-02-14T08:29:58.277374"
+    },
+    {
+      "ticker": "DARPA",
+      "score": 50.0,
+      "breakdown": {
+        "mentions": 10,
+        "conviction": 10,
+        "source_diversity": 15.0,
+        "contrarian": 0,
+        "timeframe": 0,
+        "recency": 15,
+        "hidden_play_potential": 0
+      },
+      "mentions": 1,
+      "unique_sources": 1,
+      "sources": [
+        "IMP3972824673"
+      ],
+      "conviction_level": "low",
+      "contrarian_signal": "neutral",
+      "timeframe": "unspecified",
+      "hidden_plays": [],
+      "contexts": [
+        {
+          "subject": "IMP3972824673",
+          "preview": "If you really had machine-mediated hearing, where you had complete control of what was coming in and what wasn't,\nlike what could you do to help people have a radically different experience of their world?\nOh man, there's so many things.\nGive me five.\nYeah, okay.\nThe way that I characterize this is ",
+          "source": "IMP3972824673",
+          "date": "2026-02-14T08:29:58.277374"
+        }
+      ],
+      "first_seen": "2026-02-14T08:29:58.277374",
+      "last_seen": "2026-02-14T08:29:58.277374"
+    },
+    {
+      "ticker": "DSP",
+      "score": 50.0,
+      "breakdown": {
+        "mentions": 10,
+        "conviction": 10,
+        "source_diversity": 15.0,
+        "contrarian": 0,
+        "timeframe": 0,
+        "recency": 15,
+        "hidden_play_potential": 0
+      },
+      "mentions": 1,
+      "unique_sources": 1,
+      "sources": [
+        "IMP3972824673"
+      ],
+      "conviction_level": "low",
+      "contrarian_signal": "neutral",
+      "timeframe": "unspecified",
+      "hidden_plays": [],
+      "contexts": [
+        {
+          "subject": "IMP3972824673",
+          "preview": "If you really had machine-mediated hearing, where you had complete control of what was coming in and what wasn't,\nlike what could you do to help people have a radically different experience of their world?\nOh man, there's so many things.\nGive me five.\nYeah, okay.\nThe way that I characterize this is ",
+          "source": "IMP3972824673",
+          "date": "2026-02-14T08:29:58.277374"
+        }
+      ],
+      "first_seen": "2026-02-14T08:29:58.277374",
+      "last_seen": "2026-02-14T08:29:58.277374"
+    },
+    {
+      "ticker": "ARPAE",
+      "score": 50.0,
+      "breakdown": {
+        "mentions": 10,
+        "conviction": 10,
+        "source_diversity": 15.0,
+        "contrarian": 0,
+        "timeframe": 0,
+        "recency": 15,
+        "hidden_play_potential": 0
+      },
+      "mentions": 1,
+      "unique_sources": 1,
+      "sources": [
+        "IMP3972824673"
+      ],
+      "conviction_level": "low",
+      "contrarian_signal": "neutral",
+      "timeframe": "unspecified",
+      "hidden_plays": [],
+      "contexts": [
+        {
+          "subject": "IMP3972824673",
+          "preview": "If you really had machine-mediated hearing, where you had complete control of what was coming in and what wasn't,\nlike what could you do to help people have a radically different experience of their world?\nOh man, there's so many things.\nGive me five.\nYeah, okay.\nThe way that I characterize this is ",
+          "source": "IMP3972824673",
+          "date": "2026-02-14T08:29:58.277374"
+        }
+      ],
+      "first_seen": "2026-02-14T08:29:58.277374",
+      "last_seen": "2026-02-14T08:29:58.277374"
+    },
+    {
+      "ticker": "IP",
+      "score": 50.0,
+      "breakdown": {
+        "mentions": 10,
+        "conviction": 10,
+        "source_diversity": 15.0,
+        "contrarian": 0,
+        "timeframe": 0,
+        "recency": 15,
+        "hidden_play_potential": 0
+      },
+      "mentions": 1,
+      "unique_sources": 1,
+      "sources": [
+        "IMP3972824673"
+      ],
+      "conviction_level": "low",
+      "contrarian_signal": "neutral",
+      "timeframe": "unspecified",
+      "hidden_plays": [],
+      "contexts": [
+        {
+          "subject": "IMP3972824673",
+          "preview": "If you really had machine-mediated hearing, where you had complete control of what was coming in and what wasn't,\nlike what could you do to help people have a radically different experience of their world?\nOh man, there's so many things.\nGive me five.\nYeah, okay.\nThe way that I characterize this is ",
+          "source": "IMP3972824673",
+          "date": "2026-02-14T08:29:58.277374"
+        }
+      ],
+      "first_seen": "2026-02-14T08:29:58.277374",
+      "last_seen": "2026-02-14T08:29:58.277374"
+    },
+    {
+      "ticker": "XX",
+      "score": 50.0,
+      "breakdown": {
+        "mentions": 10,
+        "conviction": 10,
+        "source_diversity": 15.0,
+        "contrarian": 0,
+        "timeframe": 0,
+        "recency": 15,
+        "hidden_play_potential": 0
+      },
+      "mentions": 1,
+      "unique_sources": 1,
+      "sources": [
+        "IMP3972824673"
+      ],
+      "conviction_level": "low",
+      "contrarian_signal": "neutral",
+      "timeframe": "unspecified",
+      "hidden_plays": [],
+      "contexts": [
+        {
+          "subject": "IMP3972824673",
+          "preview": "If you really had machine-mediated hearing, where you had complete control of what was coming in and what wasn't,\nlike what could you do to help people have a radically different experience of their world?\nOh man, there's so many things.\nGive me five.\nYeah, okay.\nThe way that I characterize this is ",
+          "source": "IMP3972824673",
+          "date": "2026-02-14T08:29:58.277374"
+        }
+      ],
+      "first_seen": "2026-02-14T08:29:58.277374",
+      "last_seen": "2026-02-14T08:29:58.277374"
+    },
+    {
+      "ticker": "MEMS",
+      "score": 50.0,
+      "breakdown": {
+        "mentions": 10,
+        "conviction": 10,
+        "source_diversity": 15.0,
+        "contrarian": 0,
+        "timeframe": 0,
+        "recency": 15,
+        "hidden_play_potential": 0
+      },
+      "mentions": 1,
+      "unique_sources": 1,
+      "sources": [
+        "IMP3972824673"
+      ],
+      "conviction_level": "low",
+      "contrarian_signal": "neutral",
+      "timeframe": "unspecified",
+      "hidden_plays": [],
+      "contexts": [
+        {
+          "subject": "IMP3972824673",
+          "preview": "If you really had machine-mediated hearing, where you had complete control of what was coming in and what wasn't,\nlike what could you do to help people have a radically different experience of their world?\nOh man, there's so many things.\nGive me five.\nYeah, okay.\nThe way that I characterize this is ",
+          "source": "IMP3972824673",
+          "date": "2026-02-14T08:29:58.277374"
+        }
+      ],
+      "first_seen": "2026-02-14T08:29:58.277374",
+      "last_seen": "2026-02-14T08:29:58.277374"
+    },
+    {
+      "ticker": "LTE",
+      "score": 50.0,
+      "breakdown": {
+        "mentions": 10,
+        "conviction": 10,
+        "source_diversity": 15.0,
+        "contrarian": 0,
+        "timeframe": 0,
+        "recency": 15,
+        "hidden_play_potential": 0
+      },
+      "mentions": 1,
+      "unique_sources": 1,
+      "sources": [
+        "IMP3972824673"
+      ],
+      "conviction_level": "low",
+      "contrarian_signal": "neutral",
+      "timeframe": "unspecified",
+      "hidden_plays": [],
+      "contexts": [
+        {
+          "subject": "IMP3972824673",
+          "preview": "If you really had machine-mediated hearing, where you had complete control of what was coming in and what wasn't,\nlike what could you do to help people have a radically different experience of their world?\nOh man, there's so many things.\nGive me five.\nYeah, okay.\nThe way that I characterize this is ",
+          "source": "IMP3972824673",
+          "date": "2026-02-14T08:29:58.277374"
+        }
+      ],
+      "first_seen": "2026-02-14T08:29:58.277374",
+      "last_seen": "2026-02-14T08:29:58.277374"
+    },
+    {
+      "ticker": "EPA",
+      "score": 50.0,
+      "breakdown": {
+        "mentions": 10,
+        "conviction": 10,
+        "source_diversity": 15.0,
+        "contrarian": 0,
+        "timeframe": 0,
+        "recency": 15,
+        "hidden_play_potential": 0
+      },
+      "mentions": 1,
+      "unique_sources": 1,
+      "sources": [
+        "IMP9962311305"
+      ],
+      "conviction_level": "low",
+      "contrarian_signal": "neutral",
+      "timeframe": "unspecified",
+      "hidden_plays": [],
+      "contexts": [
+        {
+          "subject": "IMP9962311305",
+          "preview": "I think when we work on really hard problems,\nwe have to approach them with joy and humor and a spirit of\nit's okay if it doesn't work because the journey to doing anything hard\nlike to remember there was a map that we did. Remember the one like it's like,\nyou start and it's like, oh, it's gonna be ",
+          "source": "IMP9962311305",
+          "date": "2026-02-13T12:42:01.760528"
+        }
+      ],
+      "first_seen": "2026-02-13T12:42:01.760528",
+      "last_seen": "2026-02-13T12:42:01.760528"
+    },
+    {
+      "ticker": "IDO",
+      "score": 50.0,
+      "breakdown": {
+        "mentions": 10,
+        "conviction": 10,
+        "source_diversity": 15.0,
+        "contrarian": 0,
+        "timeframe": 0,
+        "recency": 15,
+        "hidden_play_potential": 0
+      },
+      "mentions": 1,
+      "unique_sources": 1,
+      "sources": [
+        "IMP9962311305"
+      ],
+      "conviction_level": "low",
+      "contrarian_signal": "neutral",
+      "timeframe": "unspecified",
+      "hidden_plays": [],
+      "contexts": [
+        {
+          "subject": "IMP9962311305",
+          "preview": "I think when we work on really hard problems,\nwe have to approach them with joy and humor and a spirit of\nit's okay if it doesn't work because the journey to doing anything hard\nlike to remember there was a map that we did. Remember the one like it's like,\nyou start and it's like, oh, it's gonna be ",
+          "source": "IMP9962311305",
+          "date": "2026-02-13T12:42:01.760528"
+        }
+      ],
+      "first_seen": "2026-02-13T12:42:01.760528",
+      "last_seen": "2026-02-13T12:42:01.760528"
+    },
+    {
+      "ticker": "XV",
+      "score": 50.0,
+      "breakdown": {
+        "mentions": 10,
+        "conviction": 10,
+        "source_diversity": 15.0,
+        "contrarian": 0,
+        "timeframe": 0,
+        "recency": 15,
+        "hidden_play_potential": 0
+      },
+      "mentions": 1,
+      "unique_sources": 1,
+      "sources": [
+        "IMP9962311305"
+      ],
+      "conviction_level": "low",
+      "contrarian_signal": "neutral",
+      "timeframe": "unspecified",
+      "hidden_plays": [],
+      "contexts": [
+        {
+          "subject": "IMP9962311305",
+          "preview": "I think when we work on really hard problems,\nwe have to approach them with joy and humor and a spirit of\nit's okay if it doesn't work because the journey to doing anything hard\nlike to remember there was a map that we did. Remember the one like it's like,\nyou start and it's like, oh, it's gonna be ",
+          "source": "IMP9962311305",
+          "date": "2026-02-13T12:42:01.760528"
+        }
+      ],
+      "first_seen": "2026-02-13T12:42:01.760528",
+      "last_seen": "2026-02-13T12:42:01.760528"
+    },
+    {
+      "ticker": "LLM",
+      "score": 50.0,
+      "breakdown": {
+        "mentions": 10,
+        "conviction": 10,
+        "source_diversity": 15.0,
+        "contrarian": 0,
+        "timeframe": 0,
+        "recency": 15,
+        "hidden_play_potential": 0
+      },
+      "mentions": 1,
+      "unique_sources": 1,
+      "sources": [
+        "IMP9962311305"
+      ],
+      "conviction_level": "low",
+      "contrarian_signal": "neutral",
+      "timeframe": "unspecified",
+      "hidden_plays": [],
+      "contexts": [
+        {
+          "subject": "IMP9962311305",
+          "preview": "I think when we work on really hard problems,\nwe have to approach them with joy and humor and a spirit of\nit's okay if it doesn't work because the journey to doing anything hard\nlike to remember there was a map that we did. Remember the one like it's like,\nyou start and it's like, oh, it's gonna be ",
+          "source": "IMP9962311305",
+          "date": "2026-02-13T12:42:01.760528"
+        }
+      ],
+      "first_seen": "2026-02-13T12:42:01.760528",
+      "last_seen": "2026-02-13T12:42:01.760528"
+    },
+    {
+      "ticker": "VX",
+      "score": 50.0,
+      "breakdown": {
+        "mentions": 10,
+        "conviction": 10,
+        "source_diversity": 15.0,
+        "contrarian": 0,
+        "timeframe": 0,
+        "recency": 15,
+        "hidden_play_potential": 0
+      },
+      "mentions": 1,
+      "unique_sources": 1,
+      "sources": [
+        "EWWMN6429295583"
+      ],
+      "conviction_level": "low",
+      "contrarian_signal": "neutral",
+      "timeframe": "unspecified",
+      "hidden_plays": [],
+      "contexts": [
+        {
+          "subject": "EWWMN6429295583",
+          "preview": "Later on, you'll hear more about the Fundrise Income Fund and why sophisticated investors are turning to higher yielding assets like private credit. But for now, let's get into today's interview. In this interview, I'm speaking to the turning point master himself, Milton Berg. Nine months ago, Milto",
+          "source": "EWWMN6429295583",
+          "date": "2026-02-14T07:53:38.300483"
+        }
+      ],
+      "first_seen": "2026-02-14T07:53:38.300483",
+      "last_seen": "2026-02-14T07:53:38.300483"
+    },
+    {
+      "ticker": "VIX",
+      "score": 50.0,
+      "breakdown": {
+        "mentions": 10,
+        "conviction": 10,
+        "source_diversity": 15.0,
+        "contrarian": 0,
+        "timeframe": 0,
+        "recency": 15,
+        "hidden_play_potential": 0
+      },
+      "mentions": 1,
+      "unique_sources": 1,
+      "sources": [
+        "EWWMN6429295583"
+      ],
+      "conviction_level": "low",
+      "contrarian_signal": "neutral",
+      "timeframe": "unspecified",
+      "hidden_plays": [],
+      "contexts": [
+        {
+          "subject": "EWWMN6429295583",
+          "preview": "Later on, you'll hear more about the Fundrise Income Fund and why sophisticated investors are turning to higher yielding assets like private credit. But for now, let's get into today's interview. In this interview, I'm speaking to the turning point master himself, Milton Berg. Nine months ago, Milto",
+          "source": "EWWMN6429295583",
+          "date": "2026-02-14T07:53:38.300483"
+        }
+      ],
+      "first_seen": "2026-02-14T07:53:38.300483",
+      "last_seen": "2026-02-14T07:53:38.300483"
+    },
+    {
+      "ticker": "SOXX",
+      "score": 50.0,
+      "breakdown": {
+        "mentions": 10,
+        "conviction": 10,
+        "source_diversity": 15.0,
+        "contrarian": 0,
+        "timeframe": 0,
+        "recency": 15,
+        "hidden_play_potential": 0
+      },
+      "mentions": 1,
+      "unique_sources": 1,
+      "sources": [
+        "EWWMN6429295583"
+      ],
+      "conviction_level": "low",
+      "contrarian_signal": "neutral",
+      "timeframe": "unspecified",
+      "hidden_plays": [],
+      "contexts": [
+        {
+          "subject": "EWWMN6429295583",
+          "preview": "Later on, you'll hear more about the Fundrise Income Fund and why sophisticated investors are turning to higher yielding assets like private credit. But for now, let's get into today's interview. In this interview, I'm speaking to the turning point master himself, Milton Berg. Nine months ago, Milto",
+          "source": "EWWMN6429295583",
+          "date": "2026-02-14T07:53:38.300483"
+        }
+      ],
+      "first_seen": "2026-02-14T07:53:38.300483",
+      "last_seen": "2026-02-14T07:53:38.300483"
+    },
+    {
+      "ticker": "SNP",
+      "score": 50.0,
+      "breakdown": {
+        "mentions": 10,
+        "conviction": 10,
+        "source_diversity": 15.0,
+        "contrarian": 0,
+        "timeframe": 0,
+        "recency": 15,
+        "hidden_play_potential": 0
+      },
+      "mentions": 1,
+      "unique_sources": 1,
+      "sources": [
+        "EWWMN6429295583"
+      ],
+      "conviction_level": "low",
+      "contrarian_signal": "neutral",
+      "timeframe": "unspecified",
+      "hidden_plays": [],
+      "contexts": [
+        {
+          "subject": "EWWMN6429295583",
+          "preview": "Later on, you'll hear more about the Fundrise Income Fund and why sophisticated investors are turning to higher yielding assets like private credit. But for now, let's get into today's interview. In this interview, I'm speaking to the turning point master himself, Milton Berg. Nine months ago, Milto",
+          "source": "EWWMN6429295583",
+          "date": "2026-02-14T07:53:38.300483"
+        }
+      ],
+      "first_seen": "2026-02-14T07:53:38.300483",
+      "last_seen": "2026-02-14T07:53:38.300483"
+    },
+    {
+      "ticker": "SOX",
+      "score": 50.0,
+      "breakdown": {
+        "mentions": 10,
+        "conviction": 10,
+        "source_diversity": 15.0,
+        "contrarian": 0,
+        "timeframe": 0,
+        "recency": 15,
+        "hidden_play_potential": 0
+      },
+      "mentions": 1,
+      "unique_sources": 1,
+      "sources": [
+        "EWWMN6429295583"
+      ],
+      "conviction_level": "low",
+      "contrarian_signal": "neutral",
+      "timeframe": "unspecified",
+      "hidden_plays": [],
+      "contexts": [
+        {
+          "subject": "EWWMN6429295583",
+          "preview": "Later on, you'll hear more about the Fundrise Income Fund and why sophisticated investors are turning to higher yielding assets like private credit. But for now, let's get into today's interview. In this interview, I'm speaking to the turning point master himself, Milton Berg. Nine months ago, Milto",
+          "source": "EWWMN6429295583",
+          "date": "2026-02-14T07:53:38.300483"
+        }
+      ],
+      "first_seen": "2026-02-14T07:53:38.300483",
+      "last_seen": "2026-02-14T07:53:38.300483"
+    },
+    {
+      "ticker": "MB",
+      "score": 50.0,
+      "breakdown": {
+        "mentions": 10,
+        "conviction": 10,
+        "source_diversity": 15.0,
+        "contrarian": 0,
+        "timeframe": 0,
+        "recency": 15,
+        "hidden_play_potential": 0
+      },
+      "mentions": 1,
+      "unique_sources": 1,
+      "sources": [
+        "EWWMN6429295583"
+      ],
+      "conviction_level": "low",
+      "contrarian_signal": "neutral",
+      "timeframe": "unspecified",
+      "hidden_plays": [],
+      "contexts": [
+        {
+          "subject": "EWWMN6429295583",
+          "preview": "Later on, you'll hear more about the Fundrise Income Fund and why sophisticated investors are turning to higher yielding assets like private credit. But for now, let's get into today's interview. In this interview, I'm speaking to the turning point master himself, Milton Berg. Nine months ago, Milto",
+          "source": "EWWMN6429295583",
+          "date": "2026-02-14T07:53:38.300483"
+        }
+      ],
+      "first_seen": "2026-02-14T07:53:38.300483",
+      "last_seen": "2026-02-14T07:53:38.300483"
+    }
+  ]
+}

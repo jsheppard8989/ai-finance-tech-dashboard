@@ -1,0 +1,462 @@
+I think when we work on really hard problems,
+we have to approach them with joy and humor and a spirit of
+it's okay if it doesn't work because the journey to doing anything hard
+like to remember there was a map that we did. Remember the one like it's like,
+you start and it's like, oh, it's gonna be fine. It's gonna be easy with the pit of despair
+and there's like a giant pit of despair and if you can't have fun,
+you're gonna like, like, just like flail in the pit of despair, right? And the way you kind of
+cross the pit of despair is when you're with others who you can you can play with.
+I'm so glad you brought this up, Emily, because I knew exactly what you meant.
+But it's easy to hear when when you or someone else says, we got to play.
+Yeah. And what gets taken away is, oh, it's just a playground.
+They're not serious about what they do. Whereas in fact, I think what you and I and
+everyone else here feels is, we're so serious about this hard work. We know that
+seriousness is not the way to do it. And so we're serious about the outcome,
+but we're playful about the process, not because we're not interested in winning,
+but because we know that for a journey like this, being playful is actually the way to maximize
+the chances of something really valuable happening. Yes, 100%.
+Emily, I'm so glad we're doing this. Thank you for being here.
+Anytime. Awesome. We can start in so many different places, but I'd like to start with,
+it's like literally written over your heart. Right here. It says, stop food waste.
+Yeah. When did you start caring about food waste? Because, you know, you have a really
+interesting, very eclectic background. I know you're into design. You've done teaching at Stanford.
+Somehow, food waste has not taken over your entire existence, but it's become pretty central
+to sort of how you think about the world. And like, it's become a mission for you. Yeah.
+Like, how did you get there? Yeah. Great start to the question.
+So almost 10 years ago, Google food had something called a culinary internship program.
+So as Googlers, as exters, we could show up at five in the morning and work for four hours in
+our kitchens and just like learn how to do really cool things. I learned how to make five
+gallons worth of salad dressing at a time. You use like an industrial mixer and you need to have
+both hands on the industrial mixer because it's like a very large version of a hand mixer.
+I learned how to cook enough, you know, pork for 200 people, you know, for lunch, you know, downstairs.
+Right. And it was actually when I was spending enough time in the kitchens in those early
+wee hours of the day in 2016 that I was watching what people were doing and how we were making the
+most of, I mean, 200 people's worth of pork is like a lot of pork, right? And so it was also
+amazing how much of it would go un-eaten or how much of it would just end up in the compost then.
+And yeah, that for me, for many reasons, right? It's like money going in the trash can, right?
+And it's also terrible for the environment. So I really started exploring this space because
+of what I was seeing in our kitchens. And we are already incredibly intentional about it. Our
+chefs downstairs are amazing. And we were just with chef Monet downstairs, talking about lunch.
+And even then, it's still hard, right? It's one of those really dumb problems in the world that
+if we could solve for or would have like such great positive impact on the economy on society and
+environment. But yet, it's like really hard to solve. So let's, we'll get to solving it in a minute.
+But let's dig in a little bit to how much does this really matter? It's like, how big is this problem?
+100%. So at X, we look for huge problems to solve, right? Problems that impact it.
+At least 100 million people have not a billion, you know, just like things that really could
+transform our lives. And I would categorize solving food waste as one of those huge problems.
+And so just to kind of ground us in some of the facts here, in the United States, the average household.
+Basically, it could save $1,500 a year. And for a household in the United States, that's meaningful
+amounts of money if they could just reduce their food waste by 10, 20%. The amount of food they're
+throwing away is literally hard cash. I was also shared by going back to the climate side of the
+story, by a good friend of mine who works on food waste, Pete Pearson at the World Wildlife Fund.
+I asked him, I don't understand what food waste has to do with pandas, right? And he's like,
+you realize that as we cut down rainforests and the Amazon, we could significantly reduce the amount
+of agricultural land we need if we wasted less food. So that's why I'm working on food waste.
+And that's why the World Wildlife Foundation supports food waste work. And I was like, oh, that's
+interesting. So upfront, right, we would need a lot less agricultural land. And then downstream,
+the most significant source of methane coming out of our landfills is actually from food waste
+and the EPA in the United States, the environmental production agency in the United States,
+determined this. And a lot of people have asked me good questions, including my colleagues here
+at X, well, why not just cap the landfill? Turns out food waste because of the form it shows up in
+in the volume, you have to be able to capture it within the first 12 hours of it showing up the landfill.
+So it's not like the anaerobic digestion that happens, layers and layers and layers like
+below layers of landfill, it's really at the top of it. And so, and we all know that methane is
+80 times worse than carbon dioxide. So, you know, there's so many ways to sort of frame up the
+scale of the problem. And it's a pernicious problem because of its scale, but it's also hard because
+it requires us to make a decision at every meal we eat, at every meal that we cook,
+right, rather than when I know I've purchased a hybrid vehicle, I've done something good. If I,
+you know, purchased an electric vehicle, I've benefited from the gains from that every time I drive,
+right, this is one of those things that requires not only like our thinking around innovation and
+technology, but also how to change mindsets because it's a behavior. It's a behavior, it's also
+it's a systems problem. So you can't fix any one part of the problem. You kind of have to fix a whole
+bunch of things at the same time in order to really change the sort of food waste equation. That's right.
+Um, we're going to get back to food waste, but I want to take a step back. Tell us how you found
+us, how you entered X, what was like that first sort of couple of months like, what did you think
+about X? And then after you say that, we can get into sort of how you found your way from that
+to actually starting a project around food waste. Oh gosh, such fun. I believe it was burning man.
+2012. I was part of a, uh, a camp called the leopard martini lounge and uh, one of my really good
+friends, uh, from IDO, which is a design firm that invented the apple mouse in a bunch of other
+really cool things. Um, my friend Tim Prakar was an electrical engineer at IDO, and then he joined X
+early on the Google Glass program, and Tim was wearing Google Glass in the middle of the desert.
+But he let me try one of the really early prototypes of Google Glass in the desert. I'd burning
+man in 2012, and I was enthralled. It was a fascinating experience. And, uh, separately, I had met
+Babak Parviz at Stanford at a design thinking course, who was running glass at the time, and it was
+really interesting intersection of relationships and friendships of Cambridge spirits, and also
+glass was at that point looking to deploy the first 50,000 units. You can remember the glass
+explorer program, and uh, for whatever reason Babak thought it would be interesting for me to join,
+and run that because it really is a user research study, but at the grandest scale possible,
+right? Like we didn't know what we didn't know, but how users would use this new smart
+eyewear technology. So we had to go out in the world with an open heart, and explore,
+and he was right about that. It was sort of this really grand user research study that we were doing
+with our early users. Yeah, very explicitly. Yeah, and it was this brilliant way of making
+contact with the real world. We created something, and we needed the support of 50,000 diverse
+individuals across many different professions, socioeconomic backgrounds, to really understand what
+the possibilities were. And I, I loved it. Those two years were fascinating because I was able to
+spend time with everyone from, you know, people working on high voltage wires, right? Who knew, right?
+You know, it would be great for them to not have to hold three tablets when they're like 50 feet
+up in the air. To that's how I actually got involved with Google food was because there were
+chefs who wanted to be able to capture what was happening in their kitchens for their customers,
+who were curious. And if you're juggling four pans of, you know, sauces and
+pastas, and other that you're not going to be holding up a phone, trying to like record that,
+right? You're going to be cooking. You're going to be your element. And class really helped people
+be in their element. And I still believe it. I think it's still true. So, speaking of that,
+one of the things later when you started the food waste project at X, one of the
+prototypes that you built, you in the team built, was a little bit like Google Glass for a garbage
+man. So, instead of having to have people wear the Google Glass, the garbage can had its own.
+So, when people scraped it in, we could watch everything that was getting scraped into the garbage
+can. Yes, and that's such a great observation because at the end of the day,
+it really is what is out of sight out of mind, right? And so, you know, you and I don't spend
+our time thinking about our trash because we don't see it. And that's how the industry and
+our world has been set up, right? And as a result, we don't pay attention sometimes to how much
+waste we generate in general, not just food waste, right? Because it's in the trash, let me
+taste away. We don't really pay attention, right? So, actually, equipping a garbage can with a Google
+Glass is really wonderful because suddenly we have some degree of awareness. And over the first
+year and a half or so of working with the food waste prototypes across our cafes, we were able
+to capture 20 million instances of people opening up their trash cans or putting something in the
+trash can or compost bin. And we learned tremendously from that. And it was really neat to pattern
+match in certain cases, right? You know, certain things that we thought weren't true because we could
+now correlate with what we were truly seeing was happening. Do I also remember that you went to
+the garbage after this whole building and collected the garbage? And you and your whole team
+actually took the garbage outside and strewn it like strewn it, across the whole parking lot
+and like categorized the garbage and then re-through it out afterwards? 100% good memory.
+Slightly gross for those of you who are not in food waste. I don't expect all of you to want to
+like go dumpster diving. It's incredible to be able to thank you for Astro for letting us take
+over the parking lot for like a week. Of course, I don't know. It was a great moment. It's true and
+you know, all our trash all over the place. Yeah, it was, so it was part of something called
+a waste audit. So there's a, we have an incredible partner by the name of Cascadia that actually
+does this for Google's offices. And this building that we're in right now at X headquarters generates
+maybe 100 trash bags worth of trash, right? And a day, right? It's shocking. And you know,
+it turns out much of that is related to food and eating, right? And to be able to sort through it
+manually, you know, I remember it's funny for the X 10 year anniversary video. There's a video
+of me literally reaching my hand into one of the bags and pulling out a perfectly good apple
+of being just stunned by it, right? I was like, why did those not have enough of the trash, right?
+And out of that, and I, I strongly suggest that everybody on our team on the Delta team,
+which was the name of the team that we ran for food ways, take even five minutes to go through
+that experience because it's incredibly visceral. And it's hard to forget when one has a visceral
+experience. And so anyways, from that trash audit, it turns out a lot of it was associated with
+compostable cups and plastic water bottles. And so we actually have reduced along with X and a lot of
+other parts of Google, significant amounts of trash that go out the door every day by replacing
+some of those compostable cups and the spills will water bottles. And also, again,
+our food waste, right, if you look at it, we separate out from vegetable, from meat because meat
+has a much higher, you know, carbon emissions footprint. And then we also separate it from edible
+non-edible, obviously, right? So anyways, those experiences are incredibly important. And X allows
+and even supports us having these experiences. And I don't think we would have made the headway
+we did if we hadn't actually just, you know, spread out a lot of trash all over the parking lot.
+Like it was in, which is really important, which is kind of our jams, like get in contact with the
+real world, which includes sometimes literally dumpstered. Yeah, exactly. So let's, let's broaden
+out from just X and X's garbage. I learned so much just through you and watching the team. But for
+the audience, talk us through the ecosystem of trying not to waste food and how complex it is.
+Absolutely. It is the world's oldest industry. So capitalism actually started with agriculture,
+which enabled so much more and humans society to really flourish, right? It's a $20,
+$30 trillion industry in the world. Everybody needs to eat all how many people, 8 billion people,
+all of us need to eat agriculture, obviously, also generates feed for animals, fiber for our clothing
+and also fuel, right? So it is an extensive industry. Waste happens at every point in that
+industry. So let's just take food out of the four, start with food, avoid other three,
+out straight out. You start with the farms, right? On the farm, every farmer will grow a little extra
+because no one can control the weather. So if I'm on contract as a strawberry farmer to produce for,
+let's say, safe way, grocery store, five trailer trucks full of job areas, I will probably try
+to grow six trailers worth of food. Because you'll be in trouble if you don't have at least five.
+So I'm okay if I have five out of six, but I might end up growing six. So what do I do with
+that excess, right? Oftentimes I might tilt it back into the ground. So to speak, right? So that's
+a little sad because all this food, remember we had to put water, labor, fertilizer, whatever else
+to grow that extra six truck worth of strawberries, right? So there's already sort of surplus or waste
+in that sense in the farm. And then with the processors, right? I might take those strawberries and
+turn them into strawberries, movies, right? And the machine at the processor, for example,
+might literally go and just chop off the top third of the strawberries to get rid of the green
+parts, right? And so it's like, oh wait, there's actually meat on that top third, right? So I've
+wasted some of the edible flesh. Whereas it was just a little bit more dexterous with how it
+cut off the green part, they get more strawberry strawberries. Exactly. So there's waste there.
+And then for the distributors, right? And the retailers along the way, there's, there's lost
+there too, right? Because from a logistics perspective, imagine a truck of strawberries that
+has to go from Watsonville, which is 80 miles from here, strawberry capital in the world in my
+mind, all the way to New York. It has to survive a five-day trip. And even with
+coolers, like we call them refers to refrigerator trailers, there may be a literally bad apple,
+or bad strawberry in the bunch, right? And that causes a lot of these strawberries to go bad
+before they even reach the retailer. So that whole entire truckload is going to be gone, right? If
+some percentage of those strawberries in that truck are inspected to be damaged in some way,
+that's moldy here, whatever. Right? And it could be just even early signs of mold. The retailer
+will say no. And it'll likely go to landfill or compost it best if it doesn't get through a secondary
+market. And then you're at the retailer. And the retailer's not always going to sell through
+everything. Right? So what do they do? They're going to compost. They're going to try and donate,
+but the likely compost because donation takes additional energy in time. So for us, ideally,
+through that chain. And I haven't even gotten to households. So households by the way, are
+we're actually the worst at it. 40% of our waste in the United States is due to households.
+We can touch upon that later. At XV decide to focus on just everything upstream from households,
+because that's plenty to focus on. And ideally, if I is a farmer,
+grew these strawberries for you, Astro, to eat. My hope would that end up in your belly.
+Right. And every strawberry that I buy, I am presumably having to pay for all of the waste. Yes.
+So my strawberry, I'm like kind of buying three strawberries, even though I'm eating one,
+because two got wasted along the way, even though I didn't sign up. Exactly. Exactly. And as a
+farmer, it's a little sad if two out of three strawberries, I intended for you to eat and
+end up in compost. Right? So it's a very lossy system. And it's fascinating because I
+started out my life as a mechanical engineer. And when I'm on an injection molding line,
+I'm like if the yields are, if I get even 3% waste out of my injection molding line, I'm like
+something's wrong. I got to fix that. You have a system that's 40% lossy, like literally 40% of
+the food that we put through our food system in the United States ends up not in our bellies.
+It's a shocking amount of calories that just never ended up where they intended to be. And so
+anyways, ultimately, the highest and best use of any surplus food we have, that's edible,
+is to serve its intended purpose, which is to end up in somebody's belly. It's hard. It is hard.
+So talk us through, I remember one of the other challenges was, if Walmart has a gallon of milk
+and they're pretty sure they're not going to sell it. And they wanted to donate it and they have
+the the energy to send it somewhere else, which by the way costs money. But even if that's all
+true, one of the things I learned through you in the team was, where does it go? Like if you take
+it to a food bank, they might literally not have a refrigerator. And so then what's the point
+of having taken milk there? It's just going to go bad at the soup kitchen or you might send it
+to a place that has a refrigerator, but they've got too much milk. That's right. But there's no
+way to throw, which places have a refrigerator or which places have too much milk before you send the
+milk. I literally am crying over spilled milk right out thinking about this. So one of the things that we
+did while we were here at X was start to think about, what does it mean to have an air traffic
+control system for surplus food in the United States and the world? Because there's actually
+four times as many calories grown in the world, a vegetable food, then we actually eat. So learn
+as well that extra food go. And to your point, the communication system is right now for moving
+food surplus to its highest best use, ending up in somebody's belly, are a little old school. They're
+not old school in a bad way, but the way it currently works and most donation and food donation
+works is that the person with the surplus calls up their trusted friends, literally with a phone.
+Hey, do you have some milk? Yeah, do you want some milk? Oh, you don't do want some milk?
+And they like 12 times later you might, oh, so it's so wants some milk, but, oh crap, I don't have
+time to like move it there, right? So it's just really interesting challenge of communications,
+but also logistics. How does it get there? Yeah, how does it get there, right? So, you know,
+as a computer scientist, you'll know the NAPSAT problem and the traveling salesman problem, right?
+The NAPSAT problem is if I ask you to give me $5.32, how are you, you can come up with many
+different ways of doing that, right? And then the traveling salesman problem is, who do I visit first
+and second and third and fourth to be the middle school? And what order do you visit a whole bunch of
+places to minimize the amount of time you have to spend right? Exactly, exactly. So with food surplus,
+ultimately we created the initial sort of version of an air traffic control system along with our
+friends at Corroger, which is the largest traditional grocery in the United States,
+20 hundred stores, and a feeding America, which is the largest hunger relief network
+in a United States serving 40 million people. And so what we did was really help Corroger
+raise their hands at every store every night and say, we have these types of foods available
+and start to match that with the local food banks and also pantries to quickly move that food
+as efficiently as possible to the people in need. And it was imperfect and we learned a whole lot
+from that experience and that became a set of open communication standards that are now being
+used broadly in many different places. So let's dig in a little bit to that air traffic control thing.
+I'd love to hear two or three examples of specifically how it plays out, how it played out
+first at X, and now in this open source version of it that's now in the world,
+how concretely is it helping? And then how how do you quantify like how much better is it?
+Hmm. So when we started working on the air traffic control system, we were inspired by the work
+of the Arizona food banking network. So what's really interesting about the US food system and
+the, let's think about North American general, much of the food that comes into the United States
+comes from either Canada or Mexico and it turns out the 75% of our winter produce. So vegetables
+and fruits come from Mexico, right? We're in winter right now. So I think about this a lot and it's
+really four parts of the country that that food comes through. There's four ports. There's two
+in Texas, one in California, and one in Arizona. And so in order to learn about this sort of
+choke point, we actually discovered this concept of air traffic control by spending time in the
+city of Nogales. It was in meeting with an individual by the name Dana Yost, who was running basically
+air traffic control in his head every day. And Dana at that point was with the Southwest produce
+cooperative and looking to basically broker. So every day, because we have so much food coming
+from Mexico into the United States, obviously you would also see proportional loss, right? And once
+a truck of tomatoes gets driven across the border from Mexico into Arizona bound for some other
+part of the United States, if the retailer says, oh, I already have enough tomatoes that
+in the cell through last week, that truck driver is like, it's going to cost me way too much money
+in terms of time and gas to drive this back to Mexico and find a home for it. And it will go bad.
+So I'm going to dump it by the side of the road and literally literally. So you go down to this area
+in Arizona, you will find it littered with perfectly good fruits and vegetables. And so this person
+Dana Yost was the person who the truck driver would ask, does anyone want my tomatoes before I
+dumped them? Right. And so he was trying to basically, like in his mind, broker all of these relationships
+and consider all the probabilities of all his friends taking the food. And he would call them
+according to a particular priority, knowing certain things about all of them. Firstly, in the state of
+Arizona, there's a number of other food banks that he could reach out to. Then it was all the
+neighboring states. And then it was all the neighboring states after that. And you call it,
+air traffic control, but it's sounding more and more like a marketplace. It is, yeah, very inefficient
+market place, right. And feeding America for a long time has had a marketplace that has worked
+really well for, I would say, non-perishable foods. To give you some sense of how hard this problem is,
+when it's non-perishable, you have months, right? Like a box of Cheerios. You got some time, right?
+But if you have a bag of lettuce, oh man, like you may be have like 10 days to figure it out.
+If not, and you have to make a decision within 12 hours, really, truly. And so Dana was...
+Because it has to get to someone's mouth within 10 days. Yeah, right? And so Dana was basically
+helping us understand how he and other, I would say, surplus locations were trying to figure this out
+in their brains. And so a lot of this marketplace or air traffic control system. And
+a marketplace, you know, we would have to sort of somehow indicate with like points or like
+fake money or something like that. How much a load was worth to us. But a marketplace doesn't even
+all represent the trusted relationships necessarily. So we call it an air traffic control system,
+because he literally is saying, this plain land now, this plain takeoff now, this plain is coming in,
+so I need to line them up in the sky in this way. And we were really inspired by what he was
+doing with his team in their minds that we wanted to enable all these other people in the country.
+So other states that have surplus, Washington State always has too many apples. We just, by the way,
+with one of our partners, help them with the great apple recovery. And like, it's like,
+I don't know, 14 million tons of apples in the country, just like, would go to waste otherwise,
+right? And instead of each area of the country have their own Dana or had their own Dana?
+That was the hope, right? And Dana was unique. And not everyone was as good as Dana doing it.
+So we wanted to basically build an artificial version of Dana, right? Like imagine if there was
+like a Dana LLM, right? Like that was what we wanted for everyone. And that was our first prototype.
+So ultimately, what we learned along the way was the crux of what he was doing was
+number one, really understanding relationships and needs, right? So he will say things like,
+oh, the folks in Oklahoma will never say yes to it plants. So I'm going to never send the
+made plant, right? Or, you know, the folks in, you know, New Mexico, you know, will always send us
+this, but we'll send them that, right? So like, you think of it as a kind of a rules engine,
+but these were unspoken sort of aspects of that sort of trading marketplace, so to speak.
+The second thing is you need logistics, right? Just because you can say yes,
+someone has to take the one. Someone has to take the load, right? Like moving a truckload of
+tomatoes, a 30,000 pounds, and cheap, right? You know, you got to buy the gas, you got to pay the
+driver, and then on the other end, you had to space for it. There you got 3,000,000 tomatoes, a lot,
+right? And not every warehouse, not every pantry has the capacity for that. So at the end of the day,
+it's a huge logistics problem, right, to figure that out. And so, um, what, the air traffic control
+system that was inspired by Dana Yoast became was this set of standardized ways to describe the
+food, right? And you say tomato, I say tomato, right? Like everybody was, you know, had their own
+lingo, right? So we had to translate it, right? And another way was to figure out the, um,
+how to communicate. So what is the, like, so imagine if Astro, um, you were friends with me,
+and I was friends with Libby, right? You're, maybe you're not friends with Libby,
+but you can trust Libby because you're my friend, and I am friends with Libby, right? So let's say you
+sent me a description of your truckload of tomatoes. You would then trust me to forward a long
+to Libby, but Libby would see that that reference came through me back to you, and then automatically
+be able to connect that. But imagine if that chain was sort of franchises trust. Yeah, exactly,
+but to encrypt and encode that in an efficient way. And so we ended up at the end of the day evolving
+to basically enabling any organization that wanted to participate in this broader network,
+to be able to spin up a node on their own server, and to be able to quickly implement with reference
+code, these basic standard descriptions, and sort of enjoying this, you're trying to control market
+things kind of thing. Exactly. So it's a little bit like how telephones, like proliferated, right?
+It's like, if I, I telephone, I'm very useful. You have a telephone suddenly it becomes useful
+because even when I can talk, but the moment Libby gets a telephone, she can talk to me or you.
+So as everyone kind of gets more, the snowball gets rolled exactly. So we now have
+parts of the feeding America system on this, including the Arizona Food Banking Network,
+and there's seven food banks, and organizations like the Farmling Project, which has moved
+over 300 million pounds of food, which is mind-blowing, without any tech, are also adopting this
+along with other partners who are starting to set up their own nodes. And we're still early stages,
+but there's enough momentum now in the coalition, and enough people who are setting up nodes,
+that it is more than anything I could have ever imagined. And people give back, right? People give
+back and updating our GitHub, you know, the code is evolving on its own, and sometimes it's one of
+those things. It's like, I did not know the impact that our little team could have had until
+years after. It's when they tell us that it was sticky. And I'm not necessarily working on this
+every day anymore, but it's stuck, right? And it continues to do good. When you were just talking
+about kind of how the air traffic control technology that you had started here at X has now turned into
+more of an open source, and the community is sort of helping to drive it, you were talking about
+how it's proliferating, which is amazing. In this country, can it be taken outside this country?
+Is it already being taken outside this country? Yeah, absolutely. So even in the early days, we had
+friends from other countries who showed up and asked about it. So, you know, there's a very
+large grocery chain in Australia that I will not name. That was very interested along with Australian
+folks who have stepped up. And there's folks in Japan who have sort of spent some time on it.
+There's folks, I think, in the Bahamas of all places who have been looking at it. And so,
+and in some of them have been looking at it specifically for meat in particular, which I find fascinating
+because meat has a very large carbon footprint. There are others who, you know, are really focused on it.
+There's a little company called Fusionware that is a timepiece of middleware for, I would say,
+farmers in America who are, you know, running with it and have their own note because they see
+the ability to give options to their customers to donate easily as one of their really important
+features, right? So anyways, I see the same thing happening also with, you know, my favorite
+folks at Refed. We built what we also helped them with some of their tech to really measure
+food waste progress in the United States. The same model is now being looked at by many, many other
+countries. And I will shout out thank you to the Balmer Foundation for your grant because that's
+what's making it possible now to do all that work globally. So, you know, good ideas are like viruses.
+They catch on. They catch on. Right on. We're going to get back to food waste,
+but you were actually doing two things at the same time for years. And so I'd love for you to
+describe the early vision of chorus and then let's get into, because you and I went back and forth
+on which of these is really the moonshot and which of them is just an application of the other one.
+And we went back and forth for a long time, which I think says something about moonshots in
+general that they're not obvious at head. No, no, moonshots are never obvious. I think when we're
+trying to do anything hard solving huge problems, they evolve, right? They have a life of their own.
+So, chorus, going back to why it started out in food, turns out that a lot of food ends up being
+discarded, meaning composted or landfill, because we are not sure about to your point, chain of
+custody, right? So, good example of this is let's say going back to that truck full strawberries, right?
+We're supposed to maintain it between, you know, 10 and 20 degrees centigrade, actually 10 and
+15 degrees centigrade. So, assume that for a second, right? Let's say I was driving from San Francisco
+to New York and I don't know, in Oklahoma, my truck somehow had a digital breakdown and we're
+not sure that during those 12 hours, whether or not it was able to maintain temperature,
+right, because the temperature sensor stopped working. We're trashing, we're trashing them all,
+right? And so, I have been told, even in the United States, we definitely have spots where the
+connectivity is not great, where, you know, truck drivers could have their trucks break down and it's
+literally a four hour walk to where they can get some sort of cell signal or Wi-Fi connection.
+And so, chorus was intended to give, starting with food, everything of voice, so that the thing
+could raise its hand and say, hey, I'm here and in the last 15 minutes, I'm getting awfully close
+to my limit in terms of being too hot or too cool. So, whether this was a carton of strawberries
+or a jug of milk or a vaccine or whatever that is, but anything that's sort of moving through the
+world, how can it say, here's where I am and here's how I'm doing exactly. And here's the crazy
+thing we discovered. So, we knew chorus because it required both soft one hardware would
+take a lot of capital to get up and running because when you're building things, it's always
+more expensive, right? Software is a lot easier to move forward with. We actually went to Japan to
+study the fishing industry because fishing particular, yeah, again, I get sick, Astro, every going to
+eat fish that has been properly, improperly stored. And for the longest time, these incredible
+sushi chefs had this thought, you know what, the best fish is the fish that you fly and
+plane to me, right? Because it's going to get there faster and it's going to be more secure and
+I'm going to be able to monitor better, but we actually tracked fish with the early protests with chorus
+with scout. That was kind of our early sort of prototype name. Fish either traveling on a truck
+from Southern Japan to Tokyo or on a plane from Southern Japan to Tokyo. And it turns out that the
+fish being left on a tarmac at an airport on a sunny day, oh man, they're way worse quality than
+the ones that were on a truck than tire way there. And so even in the early discovery process of
+working with these prototypes were like, we've to bunk some myths, right? Again, going back to awareness,
+right? Like, I course by giving everything a voice and giving it the ability to raise it's hand
+every 15 minutes, every 45 minutes or whatever frequency gives us information that allows us to
+intervene when things might go awry so that we could save that food, that precious resource and
+really continue to be good stewards of all of that. And so you were running these two projects
+semi-independently, but we were going back and forth regularly. You know, one view was chorus
+is the moonshot. We should track everything in the world. And one of the subsets of everything that we
+should track is food and food waste. And the other argument was, I don't know, food waste is the
+moonshot. And one of the things we need to do in order to solve the food waste problem is track
+things. And that's what chorus is for. And so that's at least how I remember us going back and forth.
+That's right. And I think ultimately we decided to allow both to be sort of
+at equal standing and recognizing that they will take their own course. And for me, one of the greatest
+gifts was when the pandemic played out in 2020. We had already started looking at other applications
+of chorus to similar supply chains to food, food requires real intention around temperature,
+around tracking. So does fire my suitacles. And oh my god, one of the things that COVID vaccines.
+Like COVID vaccines. Do you know that 30% of vaccines in general is pre-COVID
+are discarded because of temperature issues. And it blew my mind even before COVID. So we were
+already in Japan working with a number of companies there. And the team quickly pivoted to actually
+really lean into the healthcare space because we knew we would make the biggest impact there.
+And I'm so grateful for that. So talk us through then the evolution chorus stayed on at X. Delta,
+the food waste effort moved over to Google. And you decided to move with it to graduate to Google.
+Like I'm really curious why you know move with Delta instead of staying with chorus.
+And then what happened when you moved over to Google?
+Oh gosh, Astro, it was such a looking back four years. It was such an incredible time.
+Moving over to Google was a fascinating opportunity to work with the social impact parts of Google
+and explore coalition building. I moved with Delta to the Google food team. We were able to
+start working much more closely with a number of industry partners like Kruger, like Walmart.
+And also bringing our philanthropy arm within Google because hunger relief does require an investment.
+My hunger relief does require not only capital to really support the food banks and
+pantries for their day-to-day operations, but a lot of them also benefit from technology investment.
+And we were able to work with Google.org and a number of other partners across the
+company to provide some of the basic tooling that would allow them to
+basically use air traffic control easier, right? And the collective investment in that space
+was really powerful and unlocking some of the really important technologies that we had built at
+X and prototype. So you're happy with how this is evolved since then? Yeah, there's this little
+organization called Refed that has led the way not only in the US, but globally around research
+in this space. It's come a long way. It's evolved in ways I never expected. I'm really
+proud of the work that we also did and I mentioned earlier. The air traffic control system here
+that we've prototyping built and demonstrated at X became something called open product recovery.
+So it's an open source set of data and communication standards that are, it's not blockchain,
+but it's blockchain-y. So the tech team that built it took a lot of the components of tech from
+blockchain to really accelerate the chain of trust and communication. Because imagine I had shared
+with you earlier, how do I get rid of this, you know, truckload of strawberries I can't sell through
+normal means. I call up, told my friends, and then those friends call up, told their friends each.
+And it takes like three days to do that. And this is really good. Right? So how do you automate that?
+Right? And so we have dozens of nodes of this network now that are set up to
+move food much more quickly, mimicking the trust relationships that already exist in this
+broader network of individuals and organizations. So never really anticipated where these things
+would take me, but it's been an incredible journey. In hindsight, it was very wise
+that we moved over to Google because I don't think I would have had the opportunity to
+establish probably the boldest public food waste commitments, any tech companies ever made,
+do the philanthropy work that we did with Google.org, and create the open standards that we did.
+Awesome. I'd love to hear a few of your both like fondest memories, silliest stories,
+X, and in particular, I'd love to hear what are your top one or two takeaways for like what it
+takes to drive moonshots and moonshot thinking? So my first and foremost, what are my favorite
+well probably my top memory and there's actually a lot of reason for this. I met my husband like
+50 feet away from here in speedy cutie in that room. My husband's name is Chad Roons. Sorry,
+I'm totally embarrassing you again. Yes, Chad was the mechanical analysis lead on project
+loon, our internet balloon project. We had a little group prior to dating called hackers.x,
+so we would come in and play pranks. And one of our pranks was we just thought that our security
+signs here were a little boring. And I adore what you did. They were so boring. And they're not
+boring anymore. And thank you, Emily. I know. So Chad and I for whatever reason, this was one of
+those pranks where we had a group of four or five folks. We came in, we had like a big box of these
+security signs. So we made them really funny. So there are things like you are now leaving a secure
+area. Go back to thinking 1x, right? And so 10x, right? Or like you are now leaving, you know,
+employees only from this point. And there would be something funny about it. Unless you're
+bono. Unless you're Harrison Porter Bono, then it's fine for you to be here. And we only expected
+them to last for like a day. We thought they would get taken down. This was like eight year, maybe
+longer than that. But yeah, I'm very proud that they're still up. Very appreciative of you.
+But x was this place for me where we could play. And you could find
+kindred spirits and other people who we could play with. And I think when we work on really hard
+problems, we have to approach them with joy and humor. And a spirit of it's okay if it doesn't
+work because the journey to doing anything hard, like to remember there's this map that we did,
+remember the one like it's like, you start and it's like, oh, it's gonna be fine. It's gonna be
+easy with the pit of despair in the world. And there's like a giant pit of despair. And if you can't
+have fun, you're gonna like just like flail in the pit of despair, right? And the way you kind of
+cross the pit of despair is when you're with others who you can you can play with. I'm so glad
+you brought this up, Emily, because I knew exactly what you meant. But it's easy to hear when you or
+someone else says, we got to play. And what gets taken away is, oh, it's just a playground. They're
+not serious about what they do. Whereas, in fact, I think what you and I and everyone else here
+feels is, we're so serious about this hard work. We know that seriousness is not the way to do it.
+And so we're serious about the outcome, but we're playful about the process, not because we're not
+interested in winning, but because we know that for a journey like this, being playful is actually
+the way to maximize the chances of something really valuable happening. Yes, 100%. And if I go back to
+that pit of despair, we have to truly love being with each other. And when we play, we learn about
+each other, we learn about each other as human beings in a way that doesn't necessarily happen
+if we're just about work the entire time. I think for all of us alums, X infused us with something
+very special. That continues to live on, right? We might not be here every day, but it continues
+to live in us. Thank you, Emily.

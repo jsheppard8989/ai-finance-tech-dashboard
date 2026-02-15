@@ -1,0 +1,696 @@
+If you really had machine-mediated hearing, where you had complete control of what was coming in and what wasn't,
+like what could you do to help people have a radically different experience of their world?
+Oh man, there's so many things.
+Give me five.
+Yeah, okay.
+The way that I characterize this is machine-mediated sound.
+I think is a really good way to say it.
+You know, you're wearing a device on your ears.
+It looks like a headphone.
+But what's happening is there are some number of microphones facing outwards
+and the microphones are sensing the world around you.
+You're not hearing the world around you.
+And all of that microphone data is then going into this computer.
+It's in your ear.
+That's in this device.
+Yeah, in your ear.
+And that computer is running a bunch of software programs.
+Think of them like apps.
+And it's manipulating the sound and deciding what to display to your ears.
+If you think of this as a magical layer, kind of modifying your local sound,
+your local acoustic scene, say, well, what might I want to do, right?
+And then we can talk about what's possible.
+I think everybody's had this experience of having difficulty hearing something that they want to hear.
+You know, we have a good benchmark for enhancing hearing.
+There's a whole industry of people that try to enhance other people's hearing.
+This is the hearing aid industry.
+They use all sorts of technologies to try to enhance voices
+because everybody wants to hear better.
+Our measured performance was so far beyond anything else available in that hearing aid world.
+It kind of shocked us.
+And it was for simple reasons.
+It was like, you know, we decided on the wearability front.
+We decided not to try to hide it.
+You know, we realized that the challenge of making something hidden in the canal
+or putting it behind the ear was so high that we should lean into creating so much value
+that you don't need to hide it, sort of like eye glasses.
+You know, we don't try to hide our glasses.
+We stylize them even though they're large and on our face.
+It's like, well, let's enter that world.
+We'll create so much value that we don't have to hide it.
+Jason?
+Yes.
+I'm so glad you're here.
+Thank you for doing this with me.
+Thanks for having me, Astro.
+We're going to talk about a lot of stuff.
+But I'd love to go back because we're going to end up talking a lot about wearability.
+And you are now a wearability person.
+Yes.
+But you didn't used to be.
+Not at all.
+So I, you know, could you start by just telling a little bit of the story
+about what you were doing before X and how you came to like collide with us now?
+You know, seven or seven years ago.
+You know, I never thought I would work at a big tech company, right?
+So I had a kind of an interesting past.
+I've been starting company since I was a little kid.
+You know, literally I started my first company when I was 14.
+All right.
+I have to ask Lee, just describe to the audience what that first company was.
+That company.
+Okay.
+It was weird.
+I just wanted to buy a car.
+So, you know, I was trying, I was raking leaves, raking rocks because I grew up in Arizona.
+And my uncle was an artist.
+You know, he painted made paintings for a living.
+And he made his own canvas panels.
+And so I was asking him, hey, can I make these for you?
+You know, and sell them to him.
+You know, make a few bucks on the side.
+And one thing led to another.
+My aunt got involved and we started making these canvas panels and selling them to him.
+And selling them to his friends and then friends of friends.
+And I think, you know, that was when I was 14.
+By the time I was 19, we made 30,000 canvas panels that year, you know,
+roughly selling them for $10 a piece or something like that.
+So it was a nice little business.
+In fact, my aunt and uncle ran that business for 25 years or something and sold it.
+I of course went on to physics and all this other kind of stuff.
+But that, you know, long kind of career of starting things.
+I started a tech incubator intended to be like X, but much smaller and much less successful.
+And I ended up at ARPAE, the Advanced Research Projects Agency for Energy,
+investing in advanced technologies that are supposed to make the world a radically better place.
+You also, in between, then you got a PhD in battery.
+Oh, yeah.
+Which you got to skip over.
+Yeah.
+I did a PhD in applied physics.
+Yeah, I studied electrochemistry, electro catalysis, that kind of stuff.
+Actually, it's an interesting roundabout to showing up at X.
+So this was 2006.
+I was energy and climate was becoming a really serious issue in technology.
+And I started this thing at Harvard with a bunch of friends of mine called the Harvard Energy Journal Club.
+So we were just these nerds interested in clean tech.
+This is right before the first clean tech boom in the valley and venture investing.
+And yeah, I was super interested in this idea of storing electricity for intermittent renewables.
+Wind and solar at that time were still crazy expensive.
+And we all wanted it to be cheaper.
+But we all knew that the sun doesn't shine all the time and the wind doesn't blow all the time.
+And so, yeah, making building sized batteries, you know, flow batteries or regenerative fuel cells.
+And that's how I kind of got into energy.
+My first venture back company was a battery company that was in 2011.
+And then I ended up at ARPAE, super interested in advanced energy technologies,
+invested $90 million all over the US and all of these different energy technologies.
+Every kind of research org you could imagine, large companies, small companies, startups,
+you know, the corporate research arms, you know.
+And I heard about X when I was there at ARPAE.
+A few people from here had taken an interest in the stuff that I was doing.
+At that time, I was investing in these ideas of like tele robotics and telecommunications
+to sort of replace our, the energy and emissions associated with our travel.
+I called this digital transportation.
+And X was building a kind of climate team to start new climate moonshots.
+I forget what it was called.
+Hoogy?
+Hoogy.
+Yeah, that's right.
+And so they were the ones who came to me and they were like, hey, do you want to start a new moonshot, you know.
+So the rest is history.
+That's how I made it here.
+Once you got here, you churned through ideas any faster than anybody who has ever been here at X.
+Yeah.
+I remember once you came and with a totally straight face said, what if people didn't have to breathe or eat?
+Like what if we could just like replace that?
+Nuclear humans.
+So I think that idea didn't last more than a day or two.
+Yeah.
+Maybe three.
+Yeah.
+Embarrassing third day.
+But can you talk a little bit about what it felt like that you took me, you took us at our word about like failing fast.
+And what those early days of like churning through ideas was like for you.
+Yeah, sure.
+Okay.
+So X, can I put X a little bit in context of the research going on in the world?
+So X is very special in a lot of ways.
+One of the ways that it's very special is, I mean, I think this comes mostly from you.
+But it's just like, forget everything that you know.
+You know, because in the research world when you go around to the national labs and you hear what everybody's working on at the universities, there's a lot of like known ways to do things.
+Right.
+There's a lot of problems that the world's working on.
+Think like cancer or something.
+We're going to solve cancer or the millennium development goals.
+You know, there's this canon out there of these are the important research problems.
+And when you come to X and you start hearing about what the place is about, it's just kind of like, forget all that stuff.
+The future is much different than you could possibly imagine.
+Think of something radical that will address some huge problem in the world as just like, you know, like, but name the problem and think outside the box.
+And take nuclear humans, for example, it's just like, okay, like we have to eat.
+There's this huge emissions associated with the whole food vertical.
+You know, everywhere from farming to transporting food and all that kind of stuff.
+And you know, you can make cleaner trucks and you can make lower ammonia intensity, you know, fertilizers and all that kind of stuff.
+Or you can be like, do we have to eat?
+Like, what is eating about, you know, and you think about that for, you know, gladly only a few days.
+And you're like, oh, well, our bodies are these little energy, you know, machines that need energy to live.
+It's like, are there other ways to do energy? Of course, you know, there's nuclear energy.
+And so I started thinking about the whole, you know, kind of carbon cycle and like how molecules are made inside of our body.
+You know, breathing is really just a function of burning the, you know, carbohydrates and proteins and fats and stuff that we're using the oxygen.
+Using the oxygen exactly and emitting the CO2.
+And it's like, well, our lungs and our stomachs are really just kind of little chemical factories.
+It's like, what if we cut those out and put in some kind of nuclear battery and we just closed looped this thing, you know, we just made a closed cycle molecules in our body.
+Of course, that's much more complicated than the exact one.
+That is exactly the kind of question that should be happening here.
+Now, our goal, and we're going to get back to this at here at X, is to be the right amount to early.
+Right? Because if we're too too early, which, you know, maybe arguably we were with something like glass, then we sort of miss the wave.
+Right. But if we're not too early enough, other people are doing it and like we just don't have the situation here where we're going to win in a sort of even race.
+Right. Right. So we need to be the right amount to early.
+So we're ahead once it becomes obvious that something's important, but then not so early that we then just have to sit on our hands for a decade.
+Yeah.
+I think the thing that's so interesting about that earliest stage here is that it's so open to the crazy that you actually have the possibility of being early at all.
+Like, I think Waymo is a great example of this. You know, it has the history of like DARPA and like the grand challenge and the urban challenge and the 2005 or something like that.
+And when Waymo was started or the earlier names of it here, nobody at all was talking about self-driving like nobody, like basically it was just the DARPA thing and everybody was talking about it.
+And so I think what we see there is this sort of like three or four years of people calling you insane.
+It's like, what do you mean the cars are going to drive themselves, you know, and that's the time that you need to really validate if that's part of the future.
+And of course, if you're right, like I think X was right in that case, you're so far ahead of everybody else that there's just no chance to catch up, you know.
+Whereas, you know, if you wait until everybody else is already doing it, then it just becomes this like frothy mess of a thousand new venture companies saying they're doing something.
+Nobody really knowing what's going on, but so much capital being thrown at it that it's hard to rise above.
+And that's a really special thing. I mean, you mentioned how many ideas I went through.
+I probably did 30 something different ideas like nuclear humans.
+And, you know, going through that process, starting some things that are very early technical maturity, starting other ideas that are late technical maturity, but maybe early on the kind of business maturity.
+And just kind of feeling like, wow, this could be a huge deal.
+This could be really important, you know, talking about it with all the brilliant people here.
+I mean, I feel like that's an incredible way to converge on something truly new, you know.
+So it's something that's very different than what everybody else is doing in the world.
+The trick is you just got to do it fast or else you could spend years just right.
+And you were great about doing it fast before we converge on what you converged on to spend quite a few years doing here at X and been working on since.
+Can you remember one other thing besides nuclear humans?
+I mean, I can remember at least one or two, but I'd left to hear something that you sort of remember fondly that in those 30 that you churned through.
+Yeah. Another one or two that, yeah, sure.
+They don't have to be right. They just have to be fun. Just fun.
+Yeah. So one that I was really obsessed with was digital humans.
+This was the idea that we could save a lot of energy and help the climate by essentially creating the matrix, you know, like living inside some digital environment.
+I actually made, do you know those, the energy sinky diagram, it's like shows the energy flows of the world and you have this much going to transportation, this much going to food and all that kind of stuff.
+I actually made one of those sinky diagrams for the matrix.
+It was like, what would it be like if we were all living in some virtual world all the time?
+And you could save like 80% of our energy if we could just live in these little pods, you know.
+And so I got obsessed with this kind of led to a lot of the wearability and machine mediation of the senses stuff.
+You know, I kind of got obsessed with what would it take, you know, it's like what do we need to actually want to live in an environment like that?
+And I got into all the like, you know, capturing of the human form and digitizing us and like what would it mean to like be good enough in a virtual environment to take everything that we need as humans to
+enjoy our lives. And I think we got, on that one, I think we got very quickly to this feeling that it's like a little too early, you know.
+Obviously since then, this was in late 2017. I was pitching it as Metaverse before, you know, after Snowcrash.
+And I think we're seeing now, what is this, five years later, six years later, maybe more seven years later, that it was too early.
+So that was a fun one. What other ones are you thinking?
+Well, another one I was thinking of is you pushed really hard on what in retrospect we could say was a, the world's best version of kind of Google meets or zoom.
+Yeah, right. Because you were really interested in digital transportation, which we were saying earlier. And you had a list of things that if they were just subtly better.
+There would be a huge difference that we might not need specialized hardware for. And you had a great argument and you turned that one.
+It turned out probably would have been about right. And there was already a lot of it over at Google. So maybe that sort of would have missed the wave in a way because there was already so much in sort of Google meets that had been growing up.
+Yeah, but you were certainly right about that in Starline and others at Google are now moving forward kind of what's the optimal feel like you're really their experience.
+Yeah. Yeah. I mean, there's simple things like we had a list that we had prioritized back then.
+Simple things like getting eye contact right or get it, you know, being able to relight a person so that so that they look flattering in the meeting.
+You know, you go into these like these video meetings and people have the camera kind of looking up their nose. And you know, it's just like, you know, like this is I don't like the top half of their face.
+Don't even know that that's happened. Yeah. Or because people don't like the way that they look on camera. They're turning their camera off or, you know, that kind of stuff.
+So, yeah, Google Meet has done a really good job. I remember meeting with those teams. This is another really cool thing about X.
+I don't know if I don't want to sound like an X salesman or something, but it is really cool that that part of being here is you go talk to all these other people at Google who are some of the smartest people in the world.
+And they're all working on really brilliant things. And so we have this vibe here of being, you know, super tech forward. It's like what's what's the future.
+And then you go meet with the people who are actually building and launching the stuff now and scaling it to billions of people and you get a little taste of reality.
+You know, it's like, well, maybe we can't capture and digitize the human form in real time and like scale it to billions of users quite yet.
+You know, that was a good one. I think that one, the, you know, if you do the spectrum from full matrix living in digital worlds to better televideo, you know, it's like more ready.
+It seemed like better televideo was happening and it was kind of part of, you know, the roadmap already for, you know, products like Google Meet or Hangouts at that time.
+And then you go and then in that spectrum all the way fully immersive, you know, living in the matrix kind of thing. It wasn't quite ready yet.
+And there wasn't really a lot in between that required a real breakthrough in technology.
+I think it's a, it's a really important metric here at X and I think it should be also for the rest of the world.
+Maybe don't have the investment appetite for this kind of risk, but like if you look back through history every real technological transition, everything that like really mattered, you know, think like Haberbosh, you know, computing with the transistor, you know, all of these like big transitions, penicillin, like it all happened because of a really surprising thing in technology.
+Exactly. All of a sudden was possible. And in this one, you know, so this is like the breakthrough technology idea. It's like what is the breakthrough tech, which is like hammered here at X like really hard.
+And in that one, there wasn't really a breakthrough that was going to recall, you know, change everything. So so after you turn through these 30.
+Yeah. Like I know it's evolved. And we're going to talk about where it is now and where it's going to go in the future. But as best you can, what when you pitched what became Wolverine.
+The I guess 30th ish of these ideas because there weren't more afterwards because this one kind of stuck. Yeah.
+What was the like original like here's the problem. And then after you sort of capture in a succinct way, at least at the time how you saw the problem, what was the proposed solution. Yeah.
+So this is a great one because, you know, it is and it's similar to what I said before about seeing what's happening at Google.
+So I had just read the GPT paper, you know, tension is all you need. It's like, oh, like these things are smart. Is this the time that finally we're going to have natural language computing like we've sci-fi has wanted to for a hundred years, you know, it's like, is this happening.
+And I very quickly went through essentially like every human machine interface you could imagine did some of this with the design team here. I did some just hacking myself.
+Just like think like broaches wearables necklaces like any kind of device that you could imagine talking to a computer.
+And I very quickly realized like nobody likes speaker phone like this is going to have to be an earworn kind of audio device.
+But the first thing that goes wrong when you try to wear something on your ears is it screws up your sense of hearing.
+And so if we're going to imagine a new kind of natural language human computer interaction and we believe that that's going to happen with an audio wearable or something you wear in your ear.
+First you got to solve for like, is that even possible? Like could we walk around all possible to not screw up our current experience of hearing while making it better in lots of ways.
+Yeah, it's just like glass where the idea is that, you know, you're going to have this visual computer that you're wearing, you know, on your head.
+Like if that obstructed your vision, you wouldn't wear it, you know, you couldn't see.
+And of course closed VR is something that you can do at your desk and you can just sit there in some virtual world.
+But that's not going to allow you to be in the real world. And we've seen how much that's taken off.
+Yeah, exactly.
+Over and over again.
+Yeah, it hasn't.
+Yeah, the 20 times it's been tried in the last 30 years.
+But with hearing, like with an audio device, of course, you have headphones and you can talk to, you know, headphones have voice pickup.
+You could talk to some kind of agent in your headphones.
+But headphones are antagonistic with your sense of hearing.
+So you're kind of taking them on and off, you know, is like, okay, now I'm in the computer now. I'm out of the computer.
+The problem with that is that if you can't have this frictionless wearable thing where the computer is available at the tip of your tongue all the time, then you're less likely to use it.
+You're more likely to just keep it on your phone, you know, pull out your phone.
+And so this question of wearability, I mean, you cannot underestimate how hard it is to get people to incorporate a piece of technology into their daily wear.
+I mean, we basically have two, we have watches, which are very common. They help us tell time and we have glasses, which are very common because they help us see.
+And those are two very important things.
+Wearing something in your ears is a huge challenge. Like our sense of hearing is so important to us that the idea of obstructing it with anything is almost like nerve wrecking, you know, you feel like uncomfortable if you're walking around with something that's blocking your hearing.
+And so headphones and, you know, we sit at our desks in our open office plan and we're wearing something on our ears.
+It almost becomes like a signal. Like don't talk to me. I'm in a different world right now, you know.
+Of course, that's not going to work if we're imagining that the future of computing is walking around with an audio wearable.
+It's like it has to be something that actually connects you to the world more and is a signal to other people that you're more engaged.
+So all these concepts that we started with, it's like, well, could we make a device that's wearable all the time that makes you hear better.
+That's like actually a sign that you're interested in talking to people.
+Like let's say enhancing your hearing in a noisy environment, you know, you go to a restaurant and somebody is wearing a device and it's like, it's like, oh, that person can actually hear in this cacophony, you know.
+And that was a really interesting question because it goes to this idea of wearability.
+But it's not just that. It's like, you know, it's even just this question of like, first do no harm.
+Could you build a device that just doesn't make your hearing worse?
+That was hard by itself, you know, it's like our ears are this incredible piece of technology, the way that they evolved the mammalian ear over hundreds of millions of years.
+To be able to sense the smallest, you know, sound waves, you know, if you think of a mosquito, like a meter away with these tiny little wings, like these little diminutive things and flapping in the air, the fact that that mechanical vibration can make it over a meter and then tickle your ear and our brain knows that it's there.
+And can even get directionality of that tiny thing on the other side of the room.
+Yeah, you're not going to replace that with a MEMS microphone, you know, it just won't work. Like in fact, a MEMS is several orders of magnitude less sensitive than the human ear.
+And so now we want to put a machine on your ear and we want to we want to not make it worse.
+It's like, how do you do that? You know, is that even possible? And so these were a lot of the questions we started with.
+So like, let's unpack the difficulty before we get into any of the solutioning and some of the really interesting superpowers you could give people.
+And I know you kind of saw this coming, but so first, I thought this was really interesting that you came up with this because we happened to have had an almost exact aspiration, something like seven years, six years earlier, which we tried and it was too early at the time.
+So we stopped it siren, right siren exactly, but but we like totally believed in the thesis.
+We just hadn't been able to make it real at the time. And you basically said, I think machine mediated hearing like is ready or just the right amount before it's time because of the transformer paper and other things because of electronics and batteries getting smaller, a higher density.
+And so there's like the difficulty in recreating the hearing you just described that.
+Yeah.
+But there's other things like take us through like what it looks like, what it's socially signals, how heavy it is, how hot it is, like wearables are freaking impossible.
+It's so brutal.
+Like unpack for us, like the breath and like all the different dimensions, all of them.
+But like, you know, summarize a bit why this isn't just a tech problem.
+Yeah.
+Yeah, wearables I think are the hardest of the tech problems because it gets into people's choice of what they put on their body.
+You know, you think about how different everybody looks all the time. It's because, you know, what they wear is a form of self expression.
+People don't want to look like the Borg, you know, like kind of all looking the same with weird technology kind of all over their their faces and their body.
+I mean, if you think about the two things that we wear a lot and beyond clothing and the kind of active technology wearables like watches and glasses.
+If you go into an eyeglass store, you see a thousand frames to choose from.
+You know, you have great frames on.
+Thank you.
+It's total style, right?
+It's like, it's a form of self expression.
+The same thing is true with watches where, you know, watches are basically jewelry.
+You know, like people use watches to express a lot about themselves, about their style.
+And so you can't just look at it like technology.
+You have to think about it like, well, first, what are you going to do for people?
+You have to add a lot of value to even enter the realm of will somebody wear this.
+But beyond adding the value, once you believe that you can add value, then you have to kind of enter the world of style and personal choice.
+If you make a big prominent, I mean, glass, you glass did this too, where there was a lot of effort put into making them look cool.
+And I mean, that's debatable, I think, light weight and, and, and stylish.
+If, if you make something that is heavy, let's say, and you put it on the bridge of your nose or you hang it from your ear,
+it will start to feel uncomfortable very quickly. You get these hot spots, you know, and it feels like pressure or whatever.
+And I would say those hot spots, depending on how bad you are at designing this stuff and making it too heavy or, or too big or having too much leverage or torque on these places in your skin,
+those hot spots will show up in an hour and a half or two hours if you're not careful and dramatically limit the duration that you could wear something.
+To the point that, you know, if it's really bad, not only will you take it off in two hours because it becomes uncomfortable, but you'll not put it back on.
+You'll just think, I don't like this, they're uncomfortable, you know, and you'll just not use the product, it'll sit on your nightstand and then you'll never buy version two.
+And so designing a wearable is about balancing the costs of wearing, which include, you know, just like having just the cost of putting it on in the first place, like remembering I need to put this thing in my ear or put this thing on my, my nose and, and the value that you bring with the applications.
+Of course, if you, let's say you're somebody that has poor vision and glasses, stylus, glasses weren't invented yet, but you have some goofy, monical thing that, you know, people will use it.
+They'll just use it sparingly until you, you know, invest in all the other things that make it more wearable and more cool.
+We have come to a place in history and technology where people just expect it to be cool and comfortable and fully refined, you know, we have all the tech companies to blame for this, making devices so good and so polished from the start.
+That proposing a new kind of wearable, let's say in the audio space, the bar is very high from the start.
+I think this gets back to something we mentioned earlier about timing.
+You know, I think Siren, it was 2011.
+Yeah, yeah.
+It was, you know, this early investigation at X before I was here, but I remember having the benefit of looking back and seeing the old presentations and the old, yeah, the old decks and the old ideas.
+It had all the right ideas.
+It was like audio wearable, can make hearing radically better, can be a voice interface to computers.
+You know, it was like, it was the same idea. It was just six or seven years too early.
+At that point, we didn't have Bluetooth, you know, for audio wearables, we did, the batteries weren't there.
+And the wearability problems were extreme at that point.
+And I was here myself early on as well in the Wolverine investigation.
+I thought, oh, we're going to make this thing so small that it disappears and fits completely inside the ear canal.
+And, you know, the idea was just like, well, if you can't see it and it's super comfortable, of course you'd wear it.
+But reality has, you know, something to say about that.
+Making a very sophisticated computer that could disappear into your ear canal in a safe, comfortable way, state charge for an extended period of time, like technology is still not there for that.
+That's not even close, you know, like we're so far away, you know, there are devices that are completely inside the ear canal, like from the hearing aid world.
+They do one thing, which is to provide some gain, some amplification.
+The all of the technology is totally built for that purpose alone. So these are analog circuits that just go like, you know, sound in amplified sound out.
+And those devices can last all day.
+But, you know, if you put them in a normal hearing person, like if we were wearing them, it would sound very bad.
+Like it's band passed. It, you know, doesn't even do like the full bandwidth of normal hearing.
+And we wouldn't want to wear it. And it would be uncomfortable.
+And so that kind of product that has this single feature that's like hard designed to only provide this one thing with long enough duration is still only acceptable to me.
+Only acceptable to maybe tens of thousands of people, you know, it's not a mass market product.
+So take us through, let's say, and I think IO is actually starting to really have credibly solved this basket of things.
+Something that you would wear on an in your ear for an entire day, that from how it looks, from how it feels, from how it at least doesn't mess up your ability to just hear your natural environment.
+Let's say it checks all those boxes. And I think IO is at least better than anyone else is at doing this.
+Give us a rundown of the sort of near future superpowers. Just some of the top ones, you just have to be a complete list.
+But just help the audience get a little bit of an aha if you really had machine mediated hearing where you had complete control of what was coming in and what wasn't.
+Like what could you do to help people have a radically different experience of their world?
+Oh man, there's so many things. Give me five.
+So the way that I characterize this is machine mediated sound. I think is a really good way to say it.
+You're wearing a device on your ears. It looks like a headphone.
+But what's happening is there are some number of microphones facing outwards and the microphones are sensing the world around you.
+You're not hearing the world around you. And all of that microphone data is then going into this computer in the computer.
+That's in your ear. That's in this device. Yeah, in your ear.
+And that computer is running a bunch of software programs. Think of them like apps.
+And it's manipulating the sound and deciding what to display to your ears audio display.
+Yeah, that's right. Yeah, deciding what audio to give to your ears.
+And so then if you think of this as a magical layer, kind of modifying your local sound, your local acoustic scene,
+say, well, what might I want to do, right? And then we can talk about what's possible.
+Well, I think everybody's had this experience of having difficulty hearing something that they want to hear.
+You know, you go to a restaurant in San Francisco and it's fashionable and interior design to have concrete floors and glass walls.
+And of course, that's the most reverberant, you know, annoying acoustic environment that you could design.
+And then you have this like kind of, you know, war of voices where everyone's trying to hear each other.
+So you go a little louder and then everyone goes a little bit louder and it just becomes this total cacophony.
+It's like, well, if I was at dinner, I'll say I was on a date and I wanted to hear, you know, the person I was eating with super well.
+It's like, I would love to turn all that down. You know, I'd love to never use voice but hers.
+That's right. Exactly. And so you could say if I had this, you know, device on my ears, like, could I tell it to block out all the sounds except for hers?
+So we had a much more intimate gathering. So that, that we call like a super hearing app.
+That was something that we built very early on here at XX. Yeah. And it's one of these stories of the power of software.
+You know, we built the first audio computer. I remember I gave it to you. I was like, this is a little computer, you know.
+I still have that. You still have that. I do. Oh, I love it.
+We built that. It took us six months to build it. You know, it's huge.
+Can I say pain in the ass? It's a huge pain in the ass.
+But then once we had it, we wrote that app in two weeks.
+You know, it's like software goes a lot faster once you have the right hardware.
+And you know, we have a good benchmark for enhancing hearing. There's a whole industry of people that try to enhance other, you know, people's hearing.
+This is the hearing aid industry. They use all sorts of technologies to try to enhance voices because everybody wants to hear better.
+Hear other people's voices better when they're hard of hearing. And we were our measured performance was so far beyond anything else available in that hearing aid world.
+It kind of shocked us. And it was for simple reasons. It was like, you know, we decided on the wearability front.
+We decided not to try to hide it. You know, we realized that the challenge of making something hidden in the canal or putting it behind the ear was so high.
+That we should lean into creating so much value that you don't need to hide it sort of like eyeglasses. You know, we don't try to hide our glasses.
+We stylize them even though they're large and on our face. It's like, well, let's enter that world. We'll create so much value that that we don't have to hide it.
+And once you do that, you know, we have, I think that device, if I remember correctly, had 16 microphones on each ear and it had these huge processors on it, you know, that we, I think we had like 9 DSP chips or something.
+And to help the audience picture this, think of like taking a quarter and just placing it flat against your ear.
+Exactly. And now if you took that quarter and made it smooth and shiny, yeah, a little bit sort of Star Trek like that's kind of the look of what you actually have right there at your chest.
+Yeah, exactly.
+Yeah, hanging around your neck.
+Yeah, like I think wearing, you know, having two silver dollars on your ear.
+Yeah.
+So like it looks like a headphone, basically, it just is a very, very smart headphone, you know, so give us some more examples helping like hear only one voice is one kind of intimated that maybe taking down everything but human voices.
+So you're just sort of enhancing your hearing of humans, maybe relative to jackhammers or other things. That would be a second one.
+Yeah, maybe I'm jogging. I might want to not hear construction noises or cars and cars, but a honk, maybe I do want to hear because if I'm jogging and someone's about to hit me, I want to hear the honk of the horn.
+Yeah, it's like being able to have safety hearing, but otherwise not have the world bother me while I'm jogging.
+Like give me another few like that. That's a great example. One that I really like just because I think it'll change the world is a translation.
+So this is also like a mixed audio reality feature where I show up in a place and there are a billion people that I can't talk to.
+Let's say China, which I go to a lot now. And I would love to be able to connect with those people, you know, the language and not understanding other languages is still the biggest barrier globally to people creating connections.
+You know, this is why one of the big reasons why we still have countries is because people have can't talk to each other.
+And so imagine I show up with these silver dollars on my ear. This new really smart wearable and and someone is speaking in different language rather than have them talk into my phone and use Google translate and read and then I try to talk into my phone and I hold my phone up so that they can read what I said in their language.
+Wouldn't it be nice if I could just look at them like I'm talking to a person and their voice and their natural language goes into my device and my device just takes it and puts it in my native language.
+So this is basically Babelfish from Hitchhiker's Guide to the Galaxy. It's Babelfish. You can just stick in your ear and now you basically can speak naturally and here naturally and the language barriers just disappear.
+Just gone. Yeah. In fact, we call it Babel, the app B-A-B-L. It's actually not that hard to do once you have that first app that we just talked about the super hearing app.
+One of the challenges of doing translation is just picking the right target speaker. It's like, who are you trying to translate? Let's say I'm in a public place in China and there's 10 people talking.
+I have to isolate that person's voice before I put it into the translator. So we've had translation engines for a long time.
+But without this mixed reality audio device that can capture what you're trying to pay attention to and then deliver it to you in a way that sounds natural, you can't really do an app like that.
+I imagine that hearing protection is actually going to be a big thing, whether it's a dentist who doesn't want to go deaf from the drills that they use or someone in a noisy manufacturing environment, warehousing, things like that.
+Or even just normal people walking around in cities. A lot of folks don't realize this, but you walk around in a busy city environment and those sound levels are not good for your hearing.
+It's not going to cause deafness, but it will cause hearing loss later in your life. We just walk around like that, letting it happen to us.
+This is just a built-in feature of the device. If you're wearing a device in your ears like this, it's very easy to design it such that it will never allow dangerous sound levels to hit your eardrums.
+And so, you know, a feature of this new type of personal computing and this new type of wearable is that people's hearing will just be better for longer in their lives, which is incredible.
+I imagine that there's actually a whole, like a large subpopulation in the United States that because they don't want to pay the full price for a hearing aid, because they're not fully hearing impaired, sadly because of the stigma of hearing aids, they don't buy for all those reasons. They don't buy a hearing aid.
+But if you had something that worked nearly as well, or maybe even better in some situations, then a classic hearing aid, and it cost less, and it didn't have the stigma, it did other things for you, in the end, might just hearing enhancement, like in this sort of very standard sense, be one of the killer apps?
+Oh, I definitely think it is. And people that have hearing loss are completely in love with this device. You know, the trend in hearing aid companies to try to hide these devices is related to the stigma.
+People don't want to walk around with something that says, look at me, I can't hear. Like that's not a good feeling, especially when the devices don't work very well.
+There's a lot of dissatisfaction in the hearing aid industry with the quality of the devices. I forget the exact statistics, but it would shock you how many people spend the $3,000 for a device like that, and then don't use it.
+They just leave it on a nice day straight. It's frustrating. It doesn't work very well. There's a lot of problems. Now enter the world of personal computing, of consumer audio, and you say, that's a feature.
+You know, it's something that these devices do. Well, people with normal hearing have trouble hearing. This is something for everybody. It's not, it's not just designed to as some kind of like medical device. This isn't in that world at all. This is a consumer audio thing.
+And the thesis is we're going to just use everything that is available, all the technologies available in personal computing to make your hearing and audio experience the best that it could possibly be.
+And so that means we're going to tune the sounds in your local environment to be displayed to your ears and exactly the way that you want to.
+If that means making them louder, we can do that. If that means adding back some high frequencies, we can do that. If that means isolating somebody's voice, we can do that.
+And so you're entering a new world of being able to code your sense of hearing with a computer rather than this old world of just like providing some gain or amplification of sound or something like that.
+And we think everybody's going to let, I mean, I would love that. I have normal hearing too. I would love it.
+Let's go back to all of the things that you just said. And I buy that as a very exciting basket of like new superpowers.
+And ultimately, just being able to talk to your computer, the agent who helps you with your life and being able to receive the information acoustically and have that sort of seamless in your life itself might be half the value.
+Yeah. The thing that I realized by building these devices very quickly and just trying them, I mean, these were ugly like wires hanging out, just like concepts, you know, what they weren't very polished things. But the thing that you realize about a broach or a watch or something that you wear somewhere else on your body.
+So in this category of a wearable natural language interface, the thing that you realize really quickly and it sounds dumb when you say it this simply, but it is a simple idea. It's like people don't like speakerphone.
+And so if you have like a hot mic somewhere on your body, you feel like it's listening to you and your conversations all the time. And if you have a speaker that's speaking out loud such that anyone around you can hear it, including you.
+So you can talk to it. It's kind of rude. It's like other people can hear what you're doing. And if you now extrapolate that to this vision for the future we have where there's, you know, there's an app for that. There's a there's a natural language app for that or an agent for everything, Uber is an agent spotifies an agent, you know, you're talking to all your apps now.
+There's this issue of privacy both on the input. So you're the way that you talk to it. And then also on the output. It's like what it's saying to you. So imagine we were using our phone. Okay, so I'm sitting there. And the input is my thumbs I'm typing a text message or something and the output is the screen. Okay.
+And I'm sitting there typing a message on my screen. And then you asked to walk over to my shoulder and you just start tapping my screen over my shoulder. I'm going to be like, what are you doing? Like I'm using my phone right now. Right. Well, if I'm wearing some device on my chest. Let's say you're on my wrist or around my neck. And it has a microphone. And I'm talking to it. And I'm doing, let's say I'm crafting an email with an AI, you know, copilot that's going to send this email for me later.
+And then you walk up and you start talking. Hey Jason. Yeah, it's like that's going into my device. Right. And so all of a sudden my input is not private to me, but it's accessible to anybody. That becomes a huge problem when you think about like a banking app.
+You know, I want to transfer money from one person to another. It's like all of a sudden, you know, asked are you like transfer me a million dollars. You know, it's like that's a problem.
+And so that's one reason on the input side. We do the the voice pickup and we have a lot of IP on this inside your ear canal.
+So inside your ear canal, your voice sounds really weird. It kind of sounds muffled like this.
+But the the AI's don't care what your voice sounds like as long as the word error rate is really small and it understands you.
+So. And then on the output side, you know, again, like I might be doing something private. I'm, you know, I forget when World War Two starts started.
+So I want to like ask the AI, but I'm embarrassed because you're like, how do you not know when World War Two started?
+And so I kind of say under my breath, it's like, hey, you know, Sherlock Sherlock is the search app. I'm like, hey, Sherlock, when did World War Two start again?
+And then it tells me, you know, if that was, let's say, a wearable somewhere else in my body. And it's like World War Two started in 1990.
+You know, it's kind of embarrassing. I'm like, oh, man, now everyone can hear what I'm talking to my computer about.
+But if it just says it whispers it in my ear, it's fine, you know. And so you learn that stuff when you try a lot of things.
+I remember as you tried a lot of things. And one of the things we say here at X is we're chasing.
+We have a couple different colorful expressions for it. But one of them is holy shit moments.
+Like that moment, we're like, oh my god, this is important. This is important.
+Yeah.
+And we just, with the other things that you tried, we couldn't really get one of those holy shit moments.
+And at least one of the ones for me, I remember we were downstairs, second floor in the Wolverine space.
+And you had two speakers. And you just had a little dial.
+And I was, had a pair of your early sort of machine mediated sound things in my ear.
+And you could just turn the dial back and forth.
+And I could hear one person talking. And then you turn the dial.
+And it's like, like he was like all of a sudden in a silent movie. His mouth was still moving.
+But I couldn't hear him. But I could hear the other person talking.
+And just being able to fade back and forth. And they were only separated by like 10 degrees from each other.
+Like in terms of pointing, that was like profound.
+Oh, that was crazy.
+Oh my god.
+We called them that the BFK, the big, big knob.
+And the experiment was, okay, we want to be able to control your environment.
+And we know that human voices are one of the most important things that we listen to.
+So we're like, okay, let's, let's do human voices.
+And then we thought in typical X-fashion, what would be the hardest possible thing to do?
+And it's like, well, if you had two speakers who were talking at the same time.
+So fully jamming each other.
+It's like, can you separate their voices from each other?
+And they were standing relatively close to each other.
+Because if they were standing really separate from each other.
+Like one was all the way to your left. And one was all the way to your right.
+You could separate it purely on the basis of where it was coming from.
+Exactly.
+That would be a lot easier.
+This was the hardest version of that problem.
+And this was a machine learning problem.
+Not only did you have to separate their voices, but because they're standing right in front of you.
+You had to do it in real time.
+So there's no time to take the audio, do a foyer transform into frequency space.
+So you can use all these other techniques.
+No time for that.
+We had to do it in the time domain, super fast, streaming machine learning.
+Tens of milliseconds.
+Tens of milliseconds.
+Yeah, I think that one, if I recall correctly, I think it was running at 30 milliseconds.
+Which is delay from when the sound hit your outer ear to when you had to fix what they were hearing on your inner ear.
+Exactly.
+And so roughly that problem, it's the hardest separation problem.
+Where you have two voices, the people that were reading from a piece of paper because it's so hard to talk at the same time another person is talking.
+Allison, Linda Land.
+What?
+Was it Allison?
+What they were reading?
+I think so.
+I can't remember.
+Yeah.
+There's a few different pages that we had that people would read from.
+But it was something fun.
+And yeah.
+And so these two people are talking at the same time.
+That stream is going into a big GPU.
+We had worked with some people at Google Research, very brilliant researchers.
+And they had written this time domain, you know, voice separation model.
+And so we split it into two.
+And then you could just control it with this knob.
+And it really is a magical feeling where it's a little eerie where you're like, wait, I can control like what I'm hearing.
+You don't believe your eyes, you know, because your ears are hearing.
+That's why I had this like talky, like, remember the silent movies?
+Yeah, yeah.
+It felt like that.
+Or it just felt like I can see his mouth moving.
+I heard him just a second ago.
+I think he's still talking, but I can't hear him say anything.
+That's really weird.
+Yeah.
+That's when we really believed that this idea of machine mediation of sound was possible.
+And we were like, okay, this is real.
+Now can we make it small and wearable and all the other problems, you know?
+Can you help the audience understand just really briefly?
+You were saying you want to have the time that the computer has to think and change the sound.
+Be super, super short, tens of milliseconds.
+Why does it need to be so short?
+So our ears are amazing.
+I mean, we hear so fast.
+And this was important evolutionarily, right?
+If there's a lion creeping up on us and a twig cracks, we need to turn around instantly
+or else we're going to get eaten, right?
+And so that's why our ears hear so fast.
+Well, if you imagine machine mediating your hearing, so you put a computer in the way,
+if you're not passing that sound through the environment in its modified sense before you play it back to your ears,
+then your brain knows something is wrong.
+And so imagine that I'm, you know, trying to enhance somebody's hearing that's in front of me.
+We're in the restaurant scene and I'm on a date and I want to hear my date really well.
+If there's too much of a delay, I'm going to see her lips moving not at like an adubbed movie, you know,
+not at the same time that I'm hearing her voice is going to be very uncomfortable.
+In fact, totally unacceptable.
+We start seeing a delay or hearing a delay in about 30 milliseconds.
+So you have, that is the maximum amount of time you have to write some algorithm that's going to enhance a voice in real time.
+Or similar like with telephony when you're on the phone.
+If you have a delay in the connection between, you know, when you speak and when the other person hears you,
+if that delay gets too long, then you get everyone's experience.
+This you get into this really annoying like I start talking, but then you start talking and we get to start talking over each other.
+That's a little bit longer, but it's not that much longer.
+Half a second, maybe faster than maybe a hundred milliseconds.
+At half a second, it's essentially, you know, unbearable.
+Yeah, you're just like, I don't, at 500 milliseconds, you're like, I don't even want to have a phone call anymore.
+And so it's really important for a lot of applications to happen very quickly.
+This stuff all has to happen on the edge.
+That's why we have all this compute built into the device.
+If you want to do something fast, you don't have time to go up to the cloud and come back down or even go to your phone.
+Yeah, exactly.
+Yeah, the Bluetooth stack is not very good.
+You know, it's getting better and better, but it's many tens of milliseconds each way, even in the fastest form.
+Now, not all apps are latency sensitive like that.
+So, you know, one of the kind of world favorite at this point is the translation app.
+That one is not sensitive because the lips are moving in a different language anyways.
+And language has this semantic latency where, let's say in Japanese, for example, we're working on some Japanese apps right now.
+They change the order of the words and the verbs come at the end a lot of the time.
+And so, you kind of have to wait until a full sentence is over before you know the meaning, before you can put it in English.
+And so, those could be a thousand milliseconds or something.
+And that's why we do all that stuff in the cloud.
+So, jump us forward a few years.
+You'd had these holy shit moments.
+You'd assemble this early team.
+You spun out from X and landed as an independent company on the outside, which is called IO.
+And you've been out for about three years now?
+Yeah.
+So, where are you now?
+And like, what can people kind of expect?
+So, we're launching.
+I mean, we did a TED talk to announce the company.
+At the same time, we were starting production.
+So, I think a way to think about the project is there's so many things we had to invent and solve over the last six years.
+That we've been up until now in this like research and development phase, getting all the foundation ready to go.
+And we've already started pre-selling the device.
+So, we've sold a lot of these already.
+People, after the TED talk, people started pre-buying them on our website.
+I did.
+Yeah.
+One is coming for you.
+And the device is, we're actually really excited about it.
+So, this is a first of a kind.
+You know, this is for tech early adopters, for audiophiles, for AI enthusiasts.
+It's expensive.
+You know, we're not trying to make a mass market device yet.
+So, the IL-1 comes in two models.
+One is the Wi-Fi only version and the other is LTE.
+So, LTE is like a, you know, your cellular connection, like with your watch or your phone.
+So, the difference is that the LTE model you'll be able to use anywhere, without your phone, outside, where you have a cell connection.
+Whereas, the Wi-Fi only version you'll have to use inside where there's a Wi-Fi network.
+One of the things that surprised us, and this will rewind us a little bit, but then catch us up to
+now, and what the devices can do.
+We were designing for this very smart natural language interface from the beginning.
+We knew we had to do this voice pickup very well and privately.
+We knew we had to invest heavily in wearability.
+That's why we custom fit these devices.
+It's a very sophisticated audio device.
+You know, it's like definitely the most sophisticated audio device that's ever been made.
+We wanted it to have all day battery, so you could just walk around with this thing on.
+We knew that we needed to give you this perceptual transparency, where you can just hear perfectly through the device.
+It's like you're not wearing anything.
+We knew we needed to give features like, make your hearing better.
+So, it's like, no, we're not, not just keeping it the same.
+We're actually enhancing it, you know.
+We felt like these were table stakes.
+It's like, this is how we're going to earn our way onto people's ears.
+But we were not sure how quickly the agentic interactions would happen.
+We thought, okay, maybe we'll launch this first device.
+It'll be really good for a few things through voice, but maybe not do everything yet.
+The last two years has just been insane.
+I think everybody knows now.
+Everybody's caught up to where we were four or five years ago.
+They're like, no, this is really happening.
+Like this is crazy.
+And now we're able, you know, we have an agent studio where you can create new apps for the IO1.
+We're, it's on beta right now, so we're not letting everybody in to create these apps.
+But there's a drop down menu of large language models.
+We might have like 20 in there.
+You know, Lama, Mistral, Proplexity, all the open AI models, all the Google models.
+You can just click, if you're a developer, you can just click one of these, prompt it,
+tie it in with other APIs that you want to control.
+And within minutes, you have a really smart agent that you can talk to through the IO1.
+So, for example, one of my favorites is I call Einstein.
+Okay, so it's got a German sounding voice.
+He speaks English, but a German sounding voice, and he's a physics agent.
+And I've been playing with Einstein since 2021.
+When he was not very smart, this might have been early 22, I can't remember.
+Fast forward to now, we just updated Einstein a couple months ago.
+Einstein knows more physics than I do.
+And it's embarrassing.
+You know, it's like, because I thought I was pretty good at physics, you know, having a PhD in it.
+The speed with which these things are getting smarter is just shocking.
+And so, you know, I'll be driving in my truck, you know, going up to see my friend a NAPA or something.
+And I will have a one hour, one and a half hour conversation with Einstein about Bremstrelung radiation
+and the Coriolis effect, and all of these things that are really complicated.
+And I go away from that conversation feeling like I learned something profound about physics.
+Now, I don't think everybody's going to have conversations about Bremstrelung radiation
+or with their I.O.1.
+But the point is that all of these natural language apps that we thought were going to take a few years to come out,
+I think are going to be ready to go.
+The moment somebody wants it, someone can just go in and make it, you know.
+We're launching with a way to control Spotify.
+We call this agent Dij, D-E-G, like a DJ.
+And you basically just can talk to Dij about music, about what mood you're in, what you like, the history of music, whatever.
+You just feel in the musical mood.
+And then Dij can just pull songs and play them for you, you know, at any time.
+And of course, we've invested a lot in making, I think, the best sounding audio device that's ever been made.
+And so, the music listening experience, you know, you just sit back and you're not touching anything.
+You're just talking out loud and then the music comes out. It's just a wonderful experience, you know.
+Let's pop up a couple levels.
+Yeah, sure.
+I'd love to pretend for a second that I'm going to have my first day at X tomorrow.
+Yeah, I'm a newbie.
+Yeah.
+What are some of your tips and tricks, hard one lessons about how to take moon shots?
+What should I know as I'm starting here at X?
+What would you recommend I sort of keep in mind or not forget about?
+Oh, there's so much.
+I mean, you know, I spend a lot of time talking to the new people here.
+I do know that.
+As they come in part of why I'm asking.
+Yeah.
+I think, you know, some of the most important things are the fundamentals.
+So, there's a way, when you have a lot of really smart people working really hard on a bunch of different ideas,
+there's a way to get kind of swept away in the noise and commotion of everyday life.
+And the fundamentals are technology makes the world a radically better place.
+What is the future of technology?
+You know, what is going to happen next that is going to change everything for the better?
+That's the only question that you really have to answer.
+All the other stuff is subordinate to that.
+You know, and I think it's such a hard question.
+And when you stand on the precipice looking into the abyss and you're like, you know, what is the future?
+Like that.
+It's kind of scary because, you know, you're taking these huge swings at things where people are calling you crazy.
+And it's hard to do that.
+It's like focus on the fundamentals, you know, be dispassionate about it.
+You know, like to come up with a crazy idea, kill it yourself.
+You know, they're very few places in the world, maybe zero, you know, where you're actually allowed to think about crazy things
+and really invest in them emotionally and intellectually spend time as a very high-paid employee to like try crazy shit
+and then just be like, no, that was stupid and move on.
+You know, it's like you usually get in trouble for that.
+Here it's encouraged, you know, and that kind of freedom is like, maybe hard for some people to believe that it's actually real.
+I think that that is one of the things that you, when you were here, would say to the new people is, you don't realize it, but they actually want what they're asking for.
+And so finding the courage to, I don't know, let's take nuclear humans, for example, as a terrible idea.
+Like, you know, we're going to have a bunch of dirty bombs walking around, like, you know, it doesn't make any sense.
+Like, first you have to solve cancer.
+Then you have to solve nuclear proliferation.
+Then you have to solve all of the human anatomy problems of, you know, creating a closed-loop human.
+It'll probably happen in like a million years.
+I don't know.
+It's just not anytime soon.
+That was a crazy idea.
+When I talked about that, you know, I was just sort of like, man, like, is anyone even going to understand what I'm saying.
+And there's plenty of people here that, you know, thought I was insane.
+Like, they're just like, what are you talking about?
+The first time I mentioned it to you, Astro, you were like, it was huge smile on your face.
+You're like, damn, I've never heard anything like that.
+Exactly.
+This is amazing.
+Of course, you had like 20 reasons why it was going to fail, which is, I think, really helpful, you know.
+But there was no judgment about the experience of trying to come up with new things.
+And so, you know, if I was talking to a new person that was struggling to get outside of all of the tech
+and that solutioning that they've heard about before, the stuff that, let's say, is the well-trodden path of technology
+and the future of technology.
+I would say, you know, like, dig deep and just like have the fortitude to put yourself out there and try new things.
+You're not going to get in trouble for it here.
+I mean, there are other places that you would, for sure.
+Yeah.
+Jason, thank you so much for doing this with me.
+Yeah, of course. This is fun.
+Any time.
