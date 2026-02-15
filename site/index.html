@@ -1811,10 +1811,11 @@
       
       container.innerHTML = suggestions.map(sugg => {
         const term = sugg.term;
-        const upVotes = sugg.vote_count || Math.floor(sugg.priority_score / 10) || 1;
-        const downVotes = 0; // Track separately if needed
+        // Start fresh at 0 votes - users vote from scratch
+        const upVotes = 0;
+        const downVotes = 0;
         const threshold = 10;
-        const isReady = upVotes >= threshold;
+        const isReady = false; // Never pre-approved
         
         if (isReady) {
           return `
@@ -1849,6 +1850,7 @@
               <button class="vote-btn reject" onclick="voteTerm('${term}', 'down')">👎 Skip</button>
             </div>
             ${sugg.definition ? `<div style="color: #8892b0; font-size: 0.8rem; margin-top: 0.5rem; font-style: italic;">${sugg.definition.substring(0, 100)}...</div>` : ''}
+            <div style="color: #00d4ff; font-size: 0.7rem; margin-top: 0.5rem;">Detected in ${sugg.mention_count || 1} source(s) • Priority: ${sugg.priority_score || 'N/A'}</div>
           </div>
         `;
       }).join('');
