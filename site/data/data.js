@@ -1,8 +1,8 @@
-// Auto-generated data file - 2026-02-15T10:14:58.089774
+// Auto-generated data file - 2026-02-15T10:35:27.558207
 // DO NOT EDIT MANUALLY
 
 const dashboardData = {
-  generatedAt: "2026-02-15T10:14:58.089793",
+  generatedAt: "2026-02-15T10:35:27.558230",
   tickerScores: [],
   archive: {
   "insights": [
@@ -44,6 +44,27 @@ const dashboardData = {
       "display_on_main": 1,
       "display_order": 2,
       "added_date": "2026-02-10",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": null
+    },
+    {
+      "id": 9,
+      "title": "Milton Berg's Market Signals: Local Bottom or Major Top?",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters",
+      "source_date": "2026-02-06",
+      "summary": "Legendary technician sees conflicting signals: December VXN sell signal suggests major top, but Thursday's panic indicators (35% VXN spike, Russell island reversal) match historical local bottoms. April 2025 buy signals have not yet achieved projected 6-8% upside.",
+      "key_takeaway": "Unprecedented Russell 2000 island reversal suggests sharp correction likely, but panic may be overdone short-term",
+      "tickers_mentioned": [
+        "SPY",
+        "QQQ",
+        "IWM"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 2,
+      "added_date": "2026-02-15",
       "archived_date": null,
       "archived_reason": null,
       "podcast_episode_id": null
@@ -151,6 +172,47 @@ const dashboardData = {
       "added_date": "2025-12-17",
       "archived_date": "2026-01-06",
       "archived_reason": "Theme still relevant but content aged out",
+      "podcast_episode_id": null
+    },
+    {
+      "id": 10,
+      "title": "Carson Block: Don't Short AI Yet, Buy Gold Miners",
+      "source_type": "podcast",
+      "source_name": "Muddy Waters",
+      "source_date": "2025-11-15",
+      "summary": "Short seller warns against fighting AI momentum despite recognizing bubble conditions. Real opportunity in mining: Snowline Gold is most compelling greenfield acquisition target as majors deplete reserves. Vietnam and India benefit from Cold War 2.0 FDI redirection.",
+      "key_takeaway": "Wait for AI supply to overwhelm demand before shorting; gold miners offer M&A upside with less risk",
+      "tickers_mentioned": [
+        "SNWGF",
+        "MINE"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 3,
+      "added_date": "2026-02-15",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": null
+    },
+    {
+      "id": 8,
+      "title": "Bitcoin's Liquidity Rotation: From Software to Hard Asset",
+      "source_type": "podcast",
+      "source_name": "The Jack Mallers Show",
+      "source_date": "2025-02-09",
+      "summary": "Bitcoin has traded like a tech stock (0.8 correlation) but is undergoing a healthy decoupling as liquidity rotates from software to hard assets. AI capex is transforming software companies from cash machines to capital-intensive businesses. Fed yield curve control and China's treasury dump signal monetary regime change.",
+      "key_takeaway": "Bitcoin's 20% drop is healthy capitulation shaking out tech tourists before hard asset repricing",
+      "tickers_mentioned": [
+        "BTC",
+        "MSTR",
+        "COIN"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 1,
+      "added_date": "2026-02-15",
+      "archived_date": null,
+      "archived_reason": null,
       "podcast_episode_id": null
     }
   ],
@@ -323,6 +385,23 @@ const dashboardData = {
       "podcast_episode_id": null
     },
     {
+      "id": 8,
+      "title": "Bitcoin's Liquidity Rotation: From Software to Hard Asset",
+      "source_type": "podcast",
+      "source_name": "The Jack Mallers Show",
+      "source_date": "2025-02-09",
+      "summary": "Bitcoin has traded like a tech stock (0.8 correlation) but is undergoing a healthy decoupling as liquidity rotates from software to hard assets. AI capex is transforming software companies from cash machines to capital-intensive businesses. Fed yield curve control and China's treasury dump signal monetary regime change.",
+      "key_takeaway": "Bitcoin's 20% drop is healthy capitulation shaking out tech tourists before hard asset repricing",
+      "tickers_mentioned": "[\"BTC\", \"MSTR\", \"COIN\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 1,
+      "added_date": "2026-02-15",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": null
+    },
+    {
       "id": 2,
       "title": "Gold Climax Top Signal",
       "source_type": "podcast",
@@ -340,6 +419,23 @@ const dashboardData = {
       "podcast_episode_id": null
     },
     {
+      "id": 9,
+      "title": "Milton Berg's Market Signals: Local Bottom or Major Top?",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters",
+      "source_date": "2026-02-06",
+      "summary": "Legendary technician sees conflicting signals: December VXN sell signal suggests major top, but Thursday's panic indicators (35% VXN spike, Russell island reversal) match historical local bottoms. April 2025 buy signals have not yet achieved projected 6-8% upside.",
+      "key_takeaway": "Unprecedented Russell 2000 island reversal suggests sharp correction likely, but panic may be overdone short-term",
+      "tickers_mentioned": "[\"SPY\", \"QQQ\", \"IWM\"]",
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 2,
+      "added_date": "2026-02-15",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": null
+    },
+    {
       "id": 3,
       "title": "Bitcoin as Hard Asset",
       "source_type": "podcast",
@@ -352,40 +448,6 @@ const dashboardData = {
       "display_on_main": 1,
       "display_order": 3,
       "added_date": "2026-02-03",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": null
-    },
-    {
-      "id": 4,
-      "title": "Healthcare AI Moats",
-      "source_type": "podcast",
-      "source_name": "a16z Live",
-      "source_date": "2026-01-25",
-      "summary": "Tennr and Camber building operational infrastructure rather than clinical AI. First-mover advantage in regulatory capture.",
-      "key_takeaway": "Watch for IPO pipeline in healthtech operations.",
-      "tickers_mentioned": "[\"VEEV\", \"TDOC\", \"DOCS\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 4,
-      "added_date": "2026-01-25",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": null
-    },
-    {
-      "id": 5,
-      "title": "Machine-Native Money",
-      "source_type": "podcast",
-      "source_name": "Network State Podcast",
-      "source_date": "2026-01-16",
-      "summary": "USDC co-founder Sean Neville on deterministic crypto meeting probabilistic AI - identity systems for autonomous agents require new financial rails.",
-      "key_takeaway": "Long-term: Stablecoin infrastructure (COIN, fintech rails).",
-      "tickers_mentioned": "[\"COIN\", \"PYPL\", \"SQ\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 5,
-      "added_date": "2026-01-16",
       "archived_date": null,
       "archived_reason": null,
       "podcast_episode_id": null
@@ -738,6 +800,129 @@ const dashboardData = {
     "insight_title": "Machine-Native Money",
     "source_name": "Network State Podcast",
     "source_date": "2026-01-16"
+  },
+  "the_jack_mallers_show_bitcoin's_liquidity_": {
+    "id": 6,
+    "insight_id": 8,
+    "podcast_episode_id": null,
+    "overview": "Jack Mallers presents a macro thesis that Bitcoin is undergoing a necessary decoupling from tech stocks as liquidity rotates from software to hard assets. The correlation between Bitcoin and software stocks (~0.8) has been unhealthy for Bitcoin's development as hard money. The current correction, while painful, is shaking out 'tech tourists' and establishing a stronger holder base.",
+    "key_takeaways_detailed": [
+      "Bitcoin's 0.8 correlation to tech stocks vs 0.09 to gold shows misclassification by broader market",
+      "Software companies transformed from cash machines to capital-intensive businesses due to AI capex (Amazon doubling to $200B, Google $100B bond sale)",
+      "US policy pivoting from financial engineering to real economy (infrastructure, defense, critical minerals)",
+      "Larry Fink acknowledged wealth creation went to narrow slice of society, creating political instability",
+      "China urging banks to curb US treasury exposure while loading up on gold signals monetary regime change",
+      "Fed's Warsh discussing yield curve control = money printing to cap yields, highly bullish for hard assets",
+      "Only 50% of Bitcoin supply in profit at $70k - historically signals late-stage correction not bear market beginning",
+      "Tech tourists getting flushed out is healthy for long-term Bitcoin adoption"
+    ],
+    "investment_thesis": "Bitcoin is the primary beneficiary of a liquidity rotation from paper assets to real assets. As the only truly scarce digital asset with a fixed supply, Bitcoin stands to gain as central banks implement yield curve control and sovereigns diversify from USD. The current correlation breakdown with tech stocks is a maturation event that will ultimately strengthen Bitcoin's monetary premium.",
+    "ticker_analysis": null,
+    "positioning_guidance": "Accumulate Bitcoin on dips with long-term time horizon. Use DCA strategies during high volatility periods. Avoid excessive leverage. Consider Bitcoin proxies (MSTR, COIN) with awareness of additional risk layers. Focus on self-custody solutions for core holdings.",
+    "risk_factors": [
+      "Regulatory crackdown on Bitcoin self-custody or transactions",
+      "Fed maintains hawkish stance longer than expected, delaying yield curve control",
+      "Continued tech stock correlation drags Bitcoin lower in liquidation cascades",
+      "China disruption of Bitcoin mining or protocol development",
+      "Macro deflationary shock from AI job losses overwhelms inflation hedges"
+    ],
+    "contrarian_signals": null,
+    "catalysts": [
+      "Fed announces yield curve control or similar treasury buying program (Q2-Q3 2025)",
+      "Major sovereign announces Bitcoin reserve accumulation",
+      "Spot Bitcoin ETFs approved in additional jurisdictions",
+      "Halving supply shock effects materialize in reduced sell pressure"
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-02-15 16:35:18",
+    "updated_at": "2026-02-15 16:35:18",
+    "insight_title": "Bitcoin's Liquidity Rotation: From Software to Hard Asset",
+    "source_name": "The Jack Mallers Show",
+    "source_date": "2025-02-09"
+  },
+  "monetary_matters_milton_berg's_market": {
+    "id": 7,
+    "insight_id": 9,
+    "podcast_episode_id": null,
+    "overview": "Legendary technician Milton Berg analyzes conflicting market signals. December 11th VXN sell signal suggested major top forming, but February 5th panic indicators matched historical local bottoms. The unprecedented Russell 2000 one-day island reversal is extremely bearish, yet the VXN spike pattern has preceded 20-40% rallies. Positioning is challenging given the tension between timeframes.",
+    "key_takeaways_detailed": [
+      "April 2025 buy signals projected 74-80 S&P level - currently at 69.78, suggesting unfulfilled upside",
+      "December 11th VXN sell signal triggered short position - historically precedes 13-32% declines",
+      "Thursday Feb 5th panic matched 1997, 2015, 2024 local bottom patterns",
+      "Russell 2000 one-day island reversal at peak is unprecedented - classic late-cycle behavior",
+      "Market hasn't had 7% correction since April lows - historically unusual",
+      "Small caps leading then crashing ('the dogs') is typical of market tops",
+      "Berg flipped to covering shorts and going long on Feb 9th based on panic signals"
+    ],
+    "investment_thesis": "Technical indicators suggest we're at an inflection point with conflicting timeframes. Short-term panic indicators suggest a bounce is likely, while medium-term sell signals remain valid. The Russell island reversal and VXN spike suggest sharp correction, but historical patterns suggest potential for continued rally if April thrust momentum persists.",
+    "ticker_analysis": null,
+    "positioning_guidance": "Reduce equity beta and raise cash given conflicting signals. If long, consider protective puts or collars. Short-term traders may play bounce from oversold levels but keep tight stops. Avoid initiating new long-term equity positions until clarity emerges on which signal set dominates.",
+    "risk_factors": [
+      "Bearish December signal proves correct leading to 20%+ correction",
+      "Russell island reversal marks major top for small caps",
+      "Liquidity conditions tighten faster than expected",
+      "Earnings disappointment from AI capex not yet reflected in prices"
+    ],
+    "contrarian_signals": null,
+    "catalysts": [
+      "Fed policy pivot clarity at next meeting",
+      "Earnings season results from tech hyperscalers",
+      "Economic data confirming or denying recession signals",
+      "Continued rotation from growth to value stocks"
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-02-15 16:35:18",
+    "updated_at": "2026-02-15 16:35:18",
+    "insight_title": "Milton Berg's Market Signals: Local Bottom or Major Top?",
+    "source_name": "Monetary Matters",
+    "source_date": "2026-02-06"
+  },
+  "muddy_waters_carson_block:_don't_": {
+    "id": 8,
+    "insight_id": 10,
+    "podcast_episode_id": null,
+    "overview": "Carson Block provides perspective on navigating bubble conditions. While AI is clearly in bubble territory, shorting too early can be fatal due to momentum persistence. Better opportunities exist in overlooked sectors like mining where M&A activity is accelerating. Snowline Gold represents the most compelling greenfield gold deposit globally. Vietnam and India offer geographic diversification benefiting from Cold War 2.0 dynamics.",
+    "key_takeaways_detailed": [
+      "AI bubble will pop when supply of speculative companies overwhelms demand - expect 2026 IPO flood",
+      "Hyperscalers (MSFT, GOOGL, META) have cash flows to survive AI investments unlike dotcoms",
+      "Snowline Gold is most compelling greenfield gold deposit for acquisition by majors",
+      "Majors depleted reserves through brownfield focus - must acquire greenfield assets",
+      "Vietnam benefits from FDI flows redirecting from China - decision paralysis improving",
+      "India offers consumer growth story plus Cold War diversification benefits",
+      "Chinese ADRs remain structurally uninvestable due to fraud and lack of enforcement",
+      "Mining sector offers venture returns with better data due to under-allocation of human capital"
+    ],
+    "investment_thesis": "Focus on real assets benefiting from both fundamentals and capital flows. Gold miners are entering M&A cycle as majors deplete reserves. Avoid shorting AI momentum until clear breakdown occurs. Geographic diversification into Vietnam/India reduces China concentration risk.",
+    "ticker_analysis": null,
+    "positioning_guidance": "Long: Gold exploration companies with tier-1 deposits (Snowline, Mayfair). Vietnam/India dedicated funds. Avoid: Chinese ADRs, speculative AI names without revenue. Short: Only when momentum breaks - watch for supply overwhelming demand in AI space.",
+    "risk_factors": [
+      "Gold price correction reduces M&A activity",
+      "Vietnam/India face their own macro challenges",
+      "AI bubble deflation drags all growth stocks lower",
+      "Regulatory changes affecting mining permitting"
+    ],
+    "contrarian_signals": null,
+    "catalysts": [
+      "Major gold miner announces acquisition of Snowline or similar",
+      "SpaceX/XAI IPO triggers AI supply flood",
+      "Vietnam FDI statistics confirm acceleration",
+      "Fed rate cuts trigger commodity reflation"
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-02-15 16:35:18",
+    "updated_at": "2026-02-15 16:35:18",
+    "insight_title": "Carson Block: Don't Short AI Yet, Buy Gold Miners",
+    "source_name": "Muddy Waters",
+    "source_date": "2025-11-15"
   }
 }
 };
