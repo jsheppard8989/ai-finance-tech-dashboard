@@ -1939,8 +1939,18 @@
       console.log('✓ Initialized podcast summaries from embedded data');
     }
     
-    // Generate HTML for insight modal
+    // Generate HTML for insight modal - uses Deep Dive content if available
     function generateInsightHTML(insight) {
+      // Check for Deep Dive content
+      const deepDiveId = insight.id;
+      const deepDive = (typeof dashboardData !== 'undefined' && dashboardData.deepDives) ? 
+        dashboardData.deepDives[deepDiveId] : null;
+      
+      if (deepDive) {
+        return generateDeepDiveHTML(deepDive);
+      }
+      
+      // Fallback to basic HTML if no Deep Dive content
       const tickerHtml = (insight.tickers_mentioned || []).map(t => 
         `<span style="background: rgba(0,212,255,0.15); color: #00d4ff; padding: 0.25rem 0.75rem; border-radius: 4px; font-size: 0.9rem; margin-right: 0.5rem;">${t}</span>`
       ).join('');
@@ -1963,6 +1973,102 @@
           <span style="${insight.sentiment === 'bullish' ? 'color: #4caf50;' : insight.sentiment === 'bearish' ? 'color: #f44336;' : 'color: #ffc107;'} font-weight: 600; font-size: 1rem;">${(insight.sentiment || 'neutral').toUpperCase()}</span>
         </div>
       `;
+    }
+    
+    // Generate full Deep Dive HTML with all sections
+    function generateDeepDiveHTML(dd) {
+      const sections = [];
+      
+      // Overview
+      if (dd.overview) {
+        sections.push(`
+          <div style="margin-bottom: 2rem; padding: 1.25rem; background: rgba(0,212,255,0.05); border-left: 3px solid #00d4ff; border-radius: 8px;">
+            <h4 style="color: #00d4ff; margin-bottom: 0.75rem; font-size: 1.1rem;">📋 Overview</h4>
+            <p style="color: #e8e8e8; line-height: 1.7; font-size: 0.95rem;">${dd.overview}</p>
+          </div>
+        `);
+      }
+      
+      // Key Takeaways (detailed)
+      if (dd.key_takeaways_detailed && dd.key_takeaways_detailed.length > 0) {
+        const takeawaysHtml = dd.key_takeaways_detailed.map(t => 
+          `<li style="margin-bottom: 0.5rem; line-height: 1.6; color: #e8e8e8;">${t}</li>`
+        ).join('');
+        sections.push(`
+          <div style="margin-bottom: 2rem;">
+            <h4 style="color: #00d4ff; margin-bottom: 0.75rem; font-size: 1.1rem;">🎯 Key Takeaways</h4>
+            <ul style="padding-left: 1.5rem; margin: 0;">${takeawaysHtml}</ul>
+          </div>
+        `);
+      }
+      
+      // Investment Thesis
+      if (dd.investment_thesis) {
+        sections.push(`
+          <div style="margin-bottom: 2rem;">
+            <h4 style="color: #00d4ff; margin-bottom: 0.75rem; font-size: 1.1rem;">💡 Investment Thesis</h4>
+            <p style="color: #a8b2d1; line-height: 1.7; font-size: 0.95rem;">${dd.investment_thesis}</p>
+          </div>
+        `);
+      }
+      
+      // Ticker Analysis
+      if (dd.ticker_analysis && Object.keys(dd.ticker_analysis).length > 0) {
+        const tickersHtml = Object.entries(dd.ticker_analysis).map(([ticker, analysis]) => `
+          <div style="margin-bottom: 1rem; padding: 1rem; background: rgba(255,255,255,0.03); border-radius: 8px;">
+            <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.5rem;">
+              <span style="background: rgba(0,212,255,0.2); color: #00d4ff; padding: 0.25rem 0.75rem; border-radius: 4px; font-weight: 600; font-size: 0.9rem;">${ticker}</span>
+            </div>
+            <p style="color: #e8e8e8; line-height: 1.5; margin-bottom: 0.5rem; font-size: 0.9rem;"><strong style="color: #00d4ff;">Rationale:</strong> ${analysis.rationale || 'N/A'}</p>
+            <p style="color: #a8b2d1; line-height: 1.5; margin-bottom: 0.5rem; font-size: 0.9rem;"><strong>Positioning:</strong> ${analysis.positioning || 'N/A'}</p>
+            <p style="color: #f44336; line-height: 1.5; font-size: 0.85rem;"><strong>Risk:</strong> ${analysis.risk || 'N/A'}</p>
+          </div>
+        `).join('');
+        sections.push(`
+          <div style="margin-bottom: 2rem;">
+            <h4 style="color: #00d4ff; margin-bottom: 0.75rem; font-size: 1.1rem;">📈 Ticker Analysis</h4>
+            ${tickersHtml}
+          </div>
+        `);
+      }
+      
+      // Positioning Guidance
+      if (dd.positioning_guidance) {
+        sections.push(`
+          <div style="margin-bottom: 2rem; padding: 1.25rem; background: rgba(76,175,80,0.05); border: 1px solid rgba(76,175,80,0.2); border-radius: 8px;">
+            <h4 style="color: #4caf50; margin-bottom: 0.75rem; font-size: 1.1rem;">🎯 Positioning Guidance</h4>
+            <p style="color: #e8e8e8; line-height: 1.7; font-size: 0.95rem;">${dd.positioning_guidance}</p>
+          </div>
+        `);
+      }
+      
+      // Risk Factors
+      if (dd.risk_factors && dd.risk_factors.length > 0) {
+        const risksHtml = dd.risk_factors.map(r => 
+          `<li style="margin-bottom: 0.5rem; line-height: 1.6; color: #f44336;">${r}</li>`
+        ).join('');
+        sections.push(`
+          <div style="margin-bottom: 2rem;">
+            <h4 style="color: #f44336; margin-bottom: 0.75rem; font-size: 1.1rem;">⚠️ Risk Factors</h4>
+            <ul style="padding-left: 1.5rem; margin: 0;">${risksHtml}</ul>
+          </div>
+        `);
+      }
+      
+      // Catalysts
+      if (dd.catalysts && dd.catalysts.length > 0) {
+        const catalystsHtml = dd.catalysts.map(c => 
+          `<li style="margin-bottom: 0.5rem; line-height: 1.6; color: #ffc107;">${c}</li>`
+        ).join('');
+        sections.push(`
+          <div style="margin-bottom: 2rem;">
+            <h4 style="color: #ffc107; margin-bottom: 0.75rem; font-size: 1.1rem;">📅 Catalysts & Timeline</h4>
+            <ul style="padding-left: 1.5rem; margin: 0;">${catalystsHtml}</ul>
+          </div>
+        `);
+      }
+      
+      return sections.join('');
     }
     
     // Load podcast data from external source (kept for future database integration)

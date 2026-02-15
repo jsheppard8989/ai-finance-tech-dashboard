@@ -1,8 +1,9 @@
-// Auto-generated data file - 2026-02-15T08:47:07.641087
+// Auto-generated data file - 2026-02-15T10:14:58.089774
 // DO NOT EDIT MANUALLY
 
 const dashboardData = {
-  generatedAt: "2026-02-15T08:47:07.641113",
+  generatedAt: "2026-02-15T10:14:58.089793",
+  tickerScores: [],
   archive: {
   "insights": [
     {
@@ -472,6 +473,272 @@ const dashboardData = {
       "archived_reason": null
     }
   ]
+},
+  deepDives: {
+  "the_rundown_ai_spacex/xai_$1.25t_su": {
+    "id": 1,
+    "insight_id": 1,
+    "podcast_episode_id": null,
+    "overview": "Elon Musk is consolidating Starlink's satellite network with xAI's Grok infrastructure, creating the first vertically integrated AI-to-orbit stack. This represents a fundamental shift in how AI compute is deployed and distributed.",
+    "key_takeaways_detailed": [
+      "First vertically integrated AI-to-orbit stack creates moats around infrastructure",
+      "Starlink's satellite network provides distributed compute access globally",
+      "xAI Grok infrastructure leverages orbital positioning for competitive advantage",
+      "Combining launch capabilities with AI compute is unprecedented in the market"
+    ],
+    "investment_thesis": "The thesis centers on vertical integration creating durable competitive moats. Companies that control both the infrastructure layer (Starlink's orbital network) and the application layer (xAI's models) can extract more value than those operating at a single layer. This is particularly powerful in AI where compute access is the primary constraint.",
+    "ticker_analysis": {
+      "GOOGL": {
+        "rationale": "Defensive moat - Google's infrastructure becomes more valuable as competition intensifies",
+        "positioning": "Long-term hold, beneficiary of increased compute demand",
+        "risk": "Market share pressure from vertically integrated competitors"
+      },
+      "NVDA": {
+        "rationale": "Compute demand acceleration - more AI infrastructure requires more GPUs",
+        "positioning": "Core holding, demand driver intact",
+        "risk": "Cyclicality in data center spend, but structural growth intact"
+      },
+      "AVGO": {
+        "rationale": "Custom silicon opportunity - vertically integrated players need custom chips",
+        "positioning": "Beneficiary of custom silicon trend in AI infrastructure",
+        "risk": "Customer concentration, but diversified across hyperscalers"
+      }
+    },
+    "positioning_guidance": "Focus on infrastructure plays that benefit from increased compute deployment. GOOGL as defensive moat, NVDA for compute demand, AVGO for custom silicon. Timeframe: 12-24 months for thesis to play out. Consider partial positions and add on weakness.",
+    "risk_factors": [
+      "Regulatory scrutiny on vertical integration (antitrust concerns)",
+      "Technical execution risk in combining orbital and AI infrastructure",
+      "Competitive response from other AI labs and infrastructure providers",
+      "Capital intensity could strain cash flows in near term"
+    ],
+    "contrarian_signals": null,
+    "catalysts": [
+      "Q2 2026: Expected update on Starlink-xAI integration progress",
+      "H2 2026: Potential IPO of combined entity per management comments",
+      "Ongoing: Monthly Starlink launch cadence and capacity additions"
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-02-15 16:12:59",
+    "updated_at": "2026-02-15 16:12:59",
+    "insight_title": "SpaceX/xAI $1.25T Super-Entity",
+    "source_name": "The Rundown AI",
+    "source_date": "2026-02-13"
+  },
+  "monetary_matters_gold_climax_top_sign": {
+    "id": 2,
+    "insight_id": 2,
+    "podcast_episode_id": null,
+    "overview": "Milton Berg's institutional model has flipped net-short across major indices while retail remains 100% long. This divergence has historically preceded significant drawdowns (8% on average).",
+    "key_takeaways_detailed": [
+      "Institutional positioning vs retail positioning at extreme divergence",
+      "Historical pattern suggests 8% average drawdown when this signal triggers",
+      "Gold price action often marks sentiment extremes in risk assets",
+      "Risk-off positioning warranted until VIX normalization"
+    ],
+    "investment_thesis": "The thesis is based on positioning divergence as a contrarian indicator. When institutions are net-short and retail is fully long, the marginal buyer is exhausted. Gold's parabolic move often coincides with this positioning extreme, serving as a canary in the coal mine for broader risk assets.",
+    "ticker_analysis": {
+      "VIX": {
+        "rationale": "Volatility expansion signal - watch for break above 25",
+        "positioning": "Consider VIX calls or long volatility strategies",
+        "risk": "Timing difficult, contango in VIX futures"
+      },
+      "SQQQ": {
+        "rationale": "Nasdaq inverse ETF for tactical downside protection",
+        "positioning": "Small position as portfolio hedge, scale in if VIX breaks 25",
+        "risk": "Decay over time, only for tactical use"
+      },
+      "TLT": {
+        "rationale": "Flight to quality, duration performs in risk-off",
+        "positioning": "Increase allocation to long-duration Treasuries",
+        "risk": "Inflation resurgence could pressure bonds"
+      }
+    },
+    "positioning_guidance": "Reduce high-beta momentum exposure. Consider defensive positioning with increased cash/bond allocation. VIX >25 is the key trigger for more aggressive hedging. Timeframe: 1-3 months for potential drawdown. Not a long-term structural bear call, but tactical risk-off.",
+    "risk_factors": [
+      "Signal could be early - markets can remain irrational longer than expected",
+      "Fed intervention could delay or prevent drawdown",
+      "Retail capitulation could drive further melt-up before correction",
+      "Gold could decouple from traditional risk-off correlations"
+    ],
+    "contrarian_signals": [
+      "Institutional net-short while retail 100% long - classic contrarian setup",
+      "Gold enthusiasm reaching retail mainstream media coverage",
+      "Complacency in VIX pricing despite positioning extremes"
+    ],
+    "catalysts": [
+      "Monthly: CFTC positioning reports to track institutional flows",
+      "Weekly: VIX close above 25 confirms signal",
+      "Earnings season: Guidance cuts could trigger repricing"
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-02-15 16:12:59",
+    "updated_at": "2026-02-15 16:12:59",
+    "insight_title": "Gold Climax Top Signal",
+    "source_name": "Monetary Matters",
+    "source_date": "2026-02-10"
+  },
+  "jack_mallers_show_bitcoin_as_hard_asse": {
+    "id": 3,
+    "insight_id": 3,
+    "podcast_episode_id": null,
+    "overview": "New liquidity regime narrative gaining traction. BTC is decoupling from tech-correlation as the treasury reserve thesis resurfaces. Positioning shifts happening around DXY weakness and yen carry unwind scenarios.",
+    "key_takeaways_detailed": [
+      "Bitcoin correlation to tech stocks breaking down",
+      "Treasury reserve thesis gaining institutional traction again",
+      "DXY weakness creating tailwinds for BTC as non-correlated hard asset",
+      "Yen carry unwind scenarios favor BTC as alternative store of value"
+    ],
+    "investment_thesis": "Bitcoin is transitioning from a risk-on tech asset to a macro hard asset. The treasury reserve thesis (companies/nations holding BTC on balance sheet) is resurfaces as fiat currency concerns mount. DXY weakness and potential yen carry unwind create favorable macro backdrop for BTC as non-correlated store of value.",
+    "ticker_analysis": {
+      "BTC": {
+        "rationale": "Direct exposure to digital hard asset thesis",
+        "positioning": "Core long-term position, accumulate on weakness",
+        "risk": "Regulatory, volatility, correlation regime could reverse"
+      },
+      "COIN": {
+        "rationale": "Infrastructure play for treasury reserve thesis",
+        "positioning": "Beneficiary of institutional custody demand",
+        "risk": "Fee compression, regulatory overhang"
+      },
+      "MSTR": {
+        "rationale": "Bitcoin treasury company with leverage to BTC price",
+        "positioning": "High-beta BTC exposure, but risky",
+        "risk": "Highly leveraged, premium/discount to NAV volatility"
+      }
+    },
+    "positioning_guidance": "BTC as core allocation for treasury reserve thesis. COIN for infrastructure/custody exposure. MSTR only for high-risk tolerance. Watch DXY and yen for macro timing. Timeframe: 6-18 months for decoupling thesis to play out.",
+    "risk_factors": [
+      "Correlation to tech could reassert during broad risk-off",
+      "Regulatory crackdown on treasury reserve thesis (accounting changes)",
+      "DXY strength would reverse macro tailwinds",
+      "Yen stabilization could reduce carry unwind pressure"
+    ],
+    "contrarian_signals": null,
+    "catalysts": [
+      "Monthly: Treasury reserve adoption announcements",
+      "Quarterly: DXY trend changes",
+      "Ongoing: Yen/JPY policy shifts from BOJ"
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-02-15 16:12:59",
+    "updated_at": "2026-02-15 16:12:59",
+    "insight_title": "Bitcoin as Hard Asset",
+    "source_name": "Jack Mallers Show",
+    "source_date": "2026-02-03"
+  },
+  "a16z_live_healthcare_ai_moats": {
+    "id": 4,
+    "insight_id": 4,
+    "podcast_episode_id": null,
+    "overview": "Tennr and Camber are building operational infrastructure (referral automation, claims processing) rather than clinical AI. This represents first-mover advantage in regulatory capture of healthcare operations.",
+    "key_takeaways_detailed": [
+      "Operational AI (not clinical) has clearer regulatory path",
+      "Referral automation and claims processing are high-ROI entry points",
+      "First-movers can establish regulatory moats before competition",
+      "Healthtech ops IPO pipeline building for 2026-2027"
+    ],
+    "investment_thesis": "Healthcare AI is bifurcating into clinical (high regulatory risk) and operational (clearer path to value). Companies building operational infrastructure (RPA for referrals, claims processing automation) can establish durable moats because once integrated into hospital workflows, switching costs are high.",
+    "ticker_analysis": {
+      "VEEV": {
+        "rationale": "Healthcare CRM incumbent, expanding into operations",
+        "positioning": "Defensive moat in healthcare data infrastructure",
+        "risk": "Valuation premium, growth deceleration"
+      },
+      "TDOC": {
+        "rationale": "Virtual care platform with operational scale",
+        "positioning": "Recovery play, operational leverage improving",
+        "risk": "Competition, post-pandemic demand normalization"
+      },
+      "DOCS": {
+        "rationale": "Professional network for physicians, data advantage",
+        "positioning": "Data moat for healthcare AI training",
+        "risk": "Platform dependency, regulatory changes"
+      }
+    },
+    "positioning_guidance": "Watch for IPO pipeline in healthtech operations (Tennr, Camber, etc.). Public plays are indirect via VEEV, TDOC, DOCS. Focus on companies with existing operational scale. Timeframe: 12-36 months for IPO wave and operational AI adoption.",
+    "risk_factors": [
+      "Regulatory changes to healthcare reimbursement could impact demand",
+      "Hospital budget constraints delaying operational AI adoption",
+      "Big tech (AMZN, GOOGL) entering healthcare operations",
+      "Clinical AI breakthrough could redirect investment focus"
+    ],
+    "contrarian_signals": null,
+    "catalysts": [
+      "2026-2027: Expected IPO pipeline for healthtech operations",
+      "Quarterly: Hospital IT spending surveys",
+      "Ongoing: Regulatory clarity on operational AI vs clinical AI"
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-02-15 16:12:59",
+    "updated_at": "2026-02-15 16:12:59",
+    "insight_title": "Healthcare AI Moats",
+    "source_name": "a16z Live",
+    "source_date": "2026-01-25"
+  },
+  "network_state_podcast_machine-native_money": {
+    "id": 5,
+    "insight_id": 5,
+    "podcast_episode_id": null,
+    "overview": "USDC co-founder Sean Neville discusses deterministic crypto meeting probabilistic AI. Identity systems for autonomous agents require new financial rails that traditional banking cannot provide.",
+    "key_takeaways_detailed": [
+      "AI agents require deterministic, programmable payment rails",
+      "Traditional banking is too slow and manual for machine commerce",
+      "Stablecoin infrastructure provides the settlement layer for AI economy",
+      "Identity and verification for autonomous agents is the gating factor"
+    ],
+    "investment_thesis": "As AI agents proliferate, they will need financial infrastructure that can operate at machine speed. Traditional payment rails (ACH, wires) are too slow and require human intervention. Stablecoins provide instant, programmable settlement that AI agents can autonomously manage. This creates a long-term demand driver for stablecoin infrastructure.",
+    "ticker_analysis": {
+      "COIN": {
+        "rationale": "USDC issuer, primary beneficiary of stablecoin growth",
+        "positioning": "Core holding for AI-commerce thesis",
+        "risk": "Regulatory pressure on stablecoins, competition"
+      },
+      "PYPL": {
+        "rationale": "Payment infrastructure integrating crypto rails",
+        "positioning": "Legacy player adapting to new rails",
+        "risk": "Disruption by crypto-native competitors"
+      },
+      "SQ": {
+        "rationale": "Cash App crypto integration, merchant acceptance",
+        "positioning": "Consumer and merchant on-ramp for stablecoins",
+        "risk": "Consumer spending slowdown, bitcoin volatility"
+      }
+    },
+    "positioning_guidance": "Long-term theme - machine-native money infrastructure. COIN as pure-play stablecoin exposure. PYPL and SQ as legacy adapters. Early stage - expect 3-5 year horizon for AI agent commerce to become material. DCA approach recommended.",
+    "risk_factors": [
+      "Regulatory crackdown on stablecoins (SEC/Congress)",
+      "AI agent adoption slower than expected",
+      "CBDCs could compete with private stablecoins",
+      "Technical challenges in autonomous agent identity/verification"
+    ],
+    "contrarian_signals": null,
+    "catalysts": [
+      "2026-2028: AI agent adoption inflection expected",
+      "Ongoing: Stablecoin regulatory clarity",
+      "Quarterly: Coinbase/USDC growth metrics"
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-02-15 16:12:59",
+    "updated_at": "2026-02-15 16:12:59",
+    "insight_title": "Machine-Native Money",
+    "source_name": "Network State Podcast",
+    "source_date": "2026-01-16"
+  }
 }
 };
 

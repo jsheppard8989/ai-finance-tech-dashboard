@@ -391,6 +391,62 @@ class DashboardDB:
             stats['today_mentions'] = {row['source_type']: row['count'] for row in cursor.fetchall()}
             
             return stats
+    
+    # === Deep Dive Content ===
+    
+    def get_deep_dive_content(self, insight_id: int) -> Optional[Dict]:
+        """Get detailed Deep Dive content for a specific insight."""
+        with self._get_connection() as conn:
+            cursor = conn.execute("""
+                SELECT * FROM deep_dive_content
+                WHERE insight_id = ?
+            """, (insight_id,))
+            row = cursor.fetchone()
+            
+            if not row:
+                return None
+            
+            content = dict(row)
+            
+            # Parse JSON fields
+            for field in ['key_takeaways_detailed', 'ticker_analysis', 'risk_factors', 
+                         'contrarian_signals', 'catalysts', 'related_insights']:
+                if content.get(field):
+                    try:
+                        content[field] = json.loads(content[field])
+                    except:
+                        pass
+            
+            return content
+    
+    def get_all_deep_dive_content(self) -> Dict[str, Dict]:
+        """Get all Deep Dive content indexed by insight title."""
+        deepdives = {}
+        
+        with self._get_connection() as conn:
+            cursor = conn.execute("""
+                SELECT ddc.*, li.title as insight_title, li.source_name, li.source_date
+                FROM deep_dive_content ddc
+                JOIN latest_insights li ON ddc.insight_id = li.id
+            """)
+            
+            for row in cursor.fetchall():
+                content = dict(row)
+                
+                # Parse JSON fields
+                for field in ['key_takeaways_detailed', 'ticker_analysis', 'risk_factors',
+                             'contrarian_signals', 'catalysts', 'related_insights']:
+                    if content.get(field):
+                        try:
+                            content[field] = json.loads(content[field])
+                        except:
+                            pass
+                
+                # Use generated ID for lookup
+                insight_id = f"{content['source_name'].lower().replace(' ', '_')}_{content['insight_title'].lower().replace(' ', '_')[:20]}"
+                deepdives[insight_id] = content
+        
+        return deepdives
 
 # Convenience function for quick access
 def get_db() -> DashboardDB:
@@ -404,3 +460,9 @@ if __name__ == "__main__":
     print("Database Stats:")
     for key, value in stats.items():
         print(f"  {key}: {value}")
+    
+    # Test deep dive content
+    deepdives = db.get_all_deep_dive_content()
+    print(f"\nDeep Dive entries: {len(deepdives)}")
+    for key in deepdives:
+        print(f"  - {key}")
