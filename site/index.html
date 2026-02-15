@@ -1398,49 +1398,7 @@
             <p style="color: #a8b2d1; font-size: 0.9rem; margin-bottom: 1rem;">Words/phrases detected in transcripts. Voting threshold: <strong>10 votes</strong> to add or remove.</p>
 
             <div id="suggestions-list">
-              <div class="suggestion-item" data-term="Regulatory Capture">
-                <div class="suggestion-header">
-                  <span class="word">Regulatory Capture</span>
-                  <div class="vote-counts">
-                    <span class="vote-count up">👍 <span class="up-count">7</span></span>
-                    <span class="vote-count down">👎 <span class="down-count">2</span></span>
-                    <span class="vote-count threshold">Target: 10</span>
-                  </div>
-                </div>
-                <div class="vote-buttons">
-                  <button class="vote-btn approve" onclick="voteTerm('Regulatory Capture', 'up')">👍 Upvote</button>
-                  <button class="vote-btn reject" onclick="voteTerm('Regulatory Capture', 'down')">👎 Skip</button>
-                </div>
-              </div>
-
-              <div class="suggestion-item" data-term="Capitulation">
-                <div class="suggestion-header">
-                  <span class="word">Capitulation</span>
-                  <div class="vote-counts">
-                    <span class="vote-count up">👍 <span class="up-count">3</span></span>
-                    <span class="vote-count down">👎 <span class="down-count">1</span></span>
-                    <span class="vote-count threshold">Target: 10</span>
-                  </div>
-                </div>
-                <div class="vote-buttons">
-                  <button class="vote-btn approve" onclick="voteTerm('Capitulation', 'up')">👍 Upvote</button>
-                  <button class="vote-btn reject" onclick="voteTerm('Capitulation', 'down')">👎 Skip</button>
-                </div>
-              </div>
-
-              <div class="suggestion-item ready" data-term="Narrative Violation">
-                <div class="suggestion-header">
-                  <span class="word">Narrative Violation</span>
-                  <div class="vote-counts">
-                    <span class="vote-count up">👍 <span class="up-count">10</span></span>
-                    <span class="vote-count down">👎 <span class="down-count">1</span></span>
-                    <span class="status-badge ready">READY TO ADD</span>
-                  </div>
-                </div>
-                <div style="color: #4caf50; font-size: 0.85rem; margin-top: 0.5rem;">
-                  ✓ Threshold reached! Will be added to Definitions on next update.
-                </div>
-              </div>
+              <!-- Suggested terms loaded dynamically from database -->
             </div>
           </div>
 
@@ -1836,8 +1794,74 @@
       console.log(`Voted ${voteType} on "${term}" - Up: ${voteData[term].up}, Down: ${voteData[term].down}`);
     }
 
+    // Load suggested terms from database
+    function loadSuggestedTerms() {
+      const container = document.getElementById('suggestions-list');
+      if (!container) return;
+      
+      // Get suggested terms from dashboardData
+      const suggestions = (typeof dashboardData !== 'undefined' && dashboardData.suggestedTerms) 
+        ? dashboardData.suggestedTerms 
+        : [];
+      
+      if (suggestions.length === 0) {
+        container.innerHTML = '<div style="color: #8892b0; padding: 1rem; text-align: center;">No new terms pending review</div>';
+        return;
+      }
+      
+      container.innerHTML = suggestions.map(sugg => {
+        const term = sugg.term;
+        const upVotes = sugg.vote_count || Math.floor(sugg.priority_score / 10) || 1;
+        const downVotes = 0; // Track separately if needed
+        const threshold = 10;
+        const isReady = upVotes >= threshold;
+        
+        if (isReady) {
+          return `
+            <div class="suggestion-item ready" data-term="${term}">
+              <div class="suggestion-header">
+                <span class="word">${term}</span>
+                <div class="vote-counts">
+                  <span class="vote-count up">👍 <span class="up-count">${upVotes}</span></span>
+                  <span class="vote-count down">👎 <span class="down-count">${downVotes}</span></span>
+                  <span class="status-badge ready">READY TO ADD</span>
+                </div>
+              </div>
+              <div style="color: #4caf50; font-size: 0.85rem; margin-top: 0.5rem;">
+                ✓ Threshold reached! Will be added to Definitions on next update.
+              </div>
+            </div>
+          `;
+        }
+        
+        return `
+          <div class="suggestion-item" data-term="${term}">
+            <div class="suggestion-header">
+              <span class="word">${term}</span>
+              <div class="vote-counts">
+                <span class="vote-count up">👍 <span class="up-count">${upVotes}</span></span>
+                <span class="vote-count down">👎 <span class="down-count">${downVotes}</span></span>
+                <span class="vote-count threshold">Target: ${threshold}</span>
+              </div>
+            </div>
+            <div class="vote-buttons">
+              <button class="vote-btn approve" onclick="voteTerm('${term}', 'up')">👍 Upvote</button>
+              <button class="vote-btn reject" onclick="voteTerm('${term}', 'down')">👎 Skip</button>
+            </div>
+            ${sugg.definition ? `<div style="color: #8892b0; font-size: 0.8rem; margin-top: 0.5rem; font-style: italic;">${sugg.definition.substring(0, 100)}...</div>` : ''}
+          </div>
+        `;
+      }).join('');
+      
+      // Re-initialize votes for newly loaded terms
+      initializeVotes();
+    }
+
     // Initialize votes on page load
-    document.addEventListener('DOMContentLoaded', initializeVotes);
+    document.addEventListener('DOMContentLoaded', function() {
+      initializeVotes();
+      loadSuggestedTerms();
+    });
 
     // Chart modal functions
     function showChart(ticker) {
