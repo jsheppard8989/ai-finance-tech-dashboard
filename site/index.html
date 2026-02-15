@@ -2458,6 +2458,29 @@
                     <span class="score-badge" style="font-size: 0.65rem; padding: 0.15rem 0.4rem;">${t.score}</span>
                   </div>
                 </div>
+                <div class="expand-hint" style="margin-top: 0.35rem; font-size: 0.65rem;">
+                  <span>Click to expand</span>
+                  <span class="expand-icon">▼</span>
+                </div>
+              </div>
+              <div class="ticker-expanded">
+                <div class="expanded-content" style="padding: 0.5rem;">
+                  <div class="expanded-section">
+                    <div class="expanded-label">Mentions</div>
+                    <div style="font-size: 0.8rem; color: #e8e8e8;">${t.mentions || 0} mentions from ${t.uniqueSources || 1} source(s)</div>
+                  </div>
+                  ${t.sentiment ? `
+                  <div class="expanded-section">
+                    <div class="expanded-label">Sentiment</div>
+                    <div style="font-size: 0.8rem; color: ${t.sentiment === 'bullish' ? '#4caf50' : t.sentiment === 'bearish' ? '#f44336' : '#ffc107'};">${t.sentiment.toUpperCase()}</div>
+                  </div>
+                  ` : ''}
+                  <div class="expanded-actions" style="margin-top: 0.5rem;">
+                    <button class="action-btn" onclick="event.stopPropagation(); showChart('${t.ticker}')" style="padding: 0.35rem 0.6rem; font-size: 0.75rem;">
+                      📊 Chart
+                    </button>
+                  </div>
+                </div>
               </div>
             </div>
             `;
