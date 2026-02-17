@@ -1,11 +1,11 @@
-// Auto-generated data file - 2026-02-16T21:41:21.239248
+// Auto-generated data file - 2026-02-16T21:41:57.413820
 // DO NOT EDIT MANUALLY
 
 const dashboardData = {
-  generatedAt: "2026-02-16T21:41:21.239259",
+  generatedAt: "2026-02-16T21:41:57.413837",
   tickerScores: [
   {
-    "id": 1,
+    "id": 7,
     "ticker": "NVDA",
     "date": "2026-02-16",
     "total_score": 360.0,
@@ -18,10 +18,10 @@ const dashboardData = {
     "contrarian_signal": "none",
     "hidden_plays": null,
     "rank": 1,
-    "created_at": "2026-02-17 03:41:18"
+    "created_at": "2026-02-17 03:41:54"
   },
   {
-    "id": 2,
+    "id": 8,
     "ticker": "BMW",
     "date": "2026-02-16",
     "total_score": 300.0,
@@ -34,10 +34,10 @@ const dashboardData = {
     "contrarian_signal": "none",
     "hidden_plays": null,
     "rank": 2,
-    "created_at": "2026-02-17 03:41:18"
+    "created_at": "2026-02-17 03:41:54"
   },
   {
-    "id": 3,
+    "id": 9,
     "ticker": "TSLA",
     "date": "2026-02-16",
     "total_score": 280.0,
@@ -50,10 +50,10 @@ const dashboardData = {
     "contrarian_signal": "none",
     "hidden_plays": null,
     "rank": 3,
-    "created_at": "2026-02-17 03:41:18"
+    "created_at": "2026-02-17 03:41:54"
   },
   {
-    "id": 4,
+    "id": 10,
     "ticker": "AMZN",
     "date": "2026-02-16",
     "total_score": 240.0,
@@ -66,10 +66,10 @@ const dashboardData = {
     "contrarian_signal": "none",
     "hidden_plays": null,
     "rank": 4,
-    "created_at": "2026-02-17 03:41:18"
+    "created_at": "2026-02-17 03:41:54"
   },
   {
-    "id": 5,
+    "id": 11,
     "ticker": "GOOGL",
     "date": "2026-02-16",
     "total_score": 240.0,
@@ -82,10 +82,74 @@ const dashboardData = {
     "contrarian_signal": "none",
     "hidden_plays": null,
     "rank": 5,
-    "created_at": "2026-02-17 03:41:18"
+    "created_at": "2026-02-17 03:41:54"
   },
   {
-    "id": 6,
+    "id": 12,
+    "ticker": "MSFT",
+    "date": "2026-02-16",
+    "total_score": 180.0,
+    "podcast_mentions": 1,
+    "newsletter_mentions": 0,
+    "disruption_signals": 1,
+    "unique_sources": 1,
+    "top_sources": null,
+    "conviction_level": "high",
+    "contrarian_signal": "none",
+    "hidden_plays": null,
+    "rank": 6,
+    "created_at": "2026-02-17 03:41:54"
+  },
+  {
+    "id": 13,
+    "ticker": "PLTR",
+    "date": "2026-02-16",
+    "total_score": 170.0,
+    "podcast_mentions": 1,
+    "newsletter_mentions": 0,
+    "disruption_signals": 1,
+    "unique_sources": 1,
+    "top_sources": null,
+    "conviction_level": "high",
+    "contrarian_signal": "none",
+    "hidden_plays": null,
+    "rank": 7,
+    "created_at": "2026-02-17 03:41:54"
+  },
+  {
+    "id": 14,
+    "ticker": "NOW",
+    "date": "2026-02-16",
+    "total_score": 160.0,
+    "podcast_mentions": 1,
+    "newsletter_mentions": 0,
+    "disruption_signals": 1,
+    "unique_sources": 1,
+    "top_sources": null,
+    "conviction_level": "high",
+    "contrarian_signal": "none",
+    "hidden_plays": null,
+    "rank": 8,
+    "created_at": "2026-02-17 03:41:54"
+  },
+  {
+    "id": 15,
+    "ticker": "CRM",
+    "date": "2026-02-16",
+    "total_score": 150.0,
+    "podcast_mentions": 1,
+    "newsletter_mentions": 0,
+    "disruption_signals": 1,
+    "unique_sources": 1,
+    "top_sources": null,
+    "conviction_level": "medium",
+    "contrarian_signal": "none",
+    "hidden_plays": null,
+    "rank": 9,
+    "created_at": "2026-02-17 03:41:54"
+  },
+  {
+    "id": 16,
     "ticker": "APP",
     "date": "2026-02-16",
     "total_score": 120.0,
@@ -97,8 +161,24 @@ const dashboardData = {
     "conviction_level": "low",
     "contrarian_signal": "none",
     "hidden_plays": null,
-    "rank": 6,
-    "created_at": "2026-02-17 03:41:18"
+    "rank": 10,
+    "created_at": "2026-02-17 03:41:54"
+  },
+  {
+    "id": 17,
+    "ticker": "META",
+    "date": "2026-02-16",
+    "total_score": 100.0,
+    "podcast_mentions": 1,
+    "newsletter_mentions": 0,
+    "disruption_signals": 1,
+    "unique_sources": 1,
+    "top_sources": null,
+    "conviction_level": "low",
+    "contrarian_signal": "none",
+    "hidden_plays": null,
+    "rank": 11,
+    "created_at": "2026-02-17 03:41:54"
   }
 ],
   archive: {
