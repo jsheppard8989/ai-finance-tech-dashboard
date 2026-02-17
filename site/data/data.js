@@ -1,8 +1,8 @@
-// Auto-generated data file - 2026-02-16T21:41:57.413820
+// Auto-generated data file - 2026-02-16T21:43:48.238491
 // DO NOT EDIT MANUALLY
 
 const dashboardData = {
-  generatedAt: "2026-02-16T21:41:57.413837",
+  generatedAt: "2026-02-16T21:43:48.238502",
   tickerScores: [
   {
     "id": 7,
@@ -302,11 +302,11 @@ const dashboardData = {
         "SQ"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 5,
       "added_date": "2026-01-16",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-02-17",
+      "archived_reason": "Keep only 5 most recent insights on main page",
       "podcast_episode_id": null
     },
     {
@@ -364,11 +364,11 @@ const dashboardData = {
         "MINE"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 3,
       "added_date": "2026-02-15",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-02-17",
+      "archived_reason": "Keep only 5 most recent insights on main page",
       "podcast_episode_id": null
     },
     {
@@ -385,11 +385,11 @@ const dashboardData = {
         "COIN"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 1,
       "added_date": "2026-02-15",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-02-17",
+      "archived_reason": "Keep only 5 most recent insights on main page",
       "podcast_episode_id": null
     }
   ],
@@ -562,23 +562,6 @@ const dashboardData = {
       "podcast_episode_id": null
     },
     {
-      "id": 8,
-      "title": "Bitcoin's Liquidity Rotation: From Software to Hard Asset",
-      "source_type": "podcast",
-      "source_name": "The Jack Mallers Show",
-      "source_date": "2025-02-09",
-      "summary": "Bitcoin has traded like a tech stock (0.8 correlation) but is undergoing a healthy decoupling as liquidity rotates from software to hard assets. AI capex is transforming software companies from cash machines to capital-intensive businesses. Fed yield curve control and China's treasury dump signal monetary regime change.",
-      "key_takeaway": "Bitcoin's 20% drop is healthy capitulation shaking out tech tourists before hard asset repricing",
-      "tickers_mentioned": "[\"BTC\", \"MSTR\", \"COIN\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 1,
-      "added_date": "2026-02-15",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": null
-    },
-    {
       "id": 2,
       "title": "Gold Climax Top Signal",
       "source_type": "podcast",
@@ -625,6 +608,23 @@ const dashboardData = {
       "display_on_main": 1,
       "display_order": 3,
       "added_date": "2026-02-03",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": null
+    },
+    {
+      "id": 4,
+      "title": "Healthcare AI Moats",
+      "source_type": "podcast",
+      "source_name": "a16z Live",
+      "source_date": "2026-01-25",
+      "summary": "Tennr and Camber building operational infrastructure rather than clinical AI. First-mover advantage in regulatory capture.",
+      "key_takeaway": "Watch for IPO pipeline in healthtech operations.",
+      "tickers_mentioned": "[\"VEEV\", \"TDOC\", \"DOCS\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 4,
+      "added_date": "2026-01-25",
       "archived_date": null,
       "archived_reason": null,
       "podcast_episode_id": null
