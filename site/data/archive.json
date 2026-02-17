@@ -22,6 +22,28 @@
       "podcast_episode_id": null
     },
     {
+      "id": 11,
+      "title": "The AI CEO Arrives: Sam Altman's Succession Plan",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-02-13",
+      "summary": "Sam Altman reveals OpenAI succession plans where AI could become CEO. Panel discusses 'Solve Everything' roadmap to abundance by 2035. Job losses accelerating at fastest rate since Great Recession as knowledge work automates first. AI CEOs will assimilate information and suggest course corrections in minutes instead of years.",
+      "key_takeaway": "The 5-year business plan is obsolete - AI governance enables minute-level strategy shifts.",
+      "tickers_mentioned": [
+        "MSFT",
+        "PLTR",
+        "NOW",
+        "CRM"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-02-16",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": null
+    },
+    {
       "id": 2,
       "title": "Gold Climax Top Signal",
       "source_type": "podcast",
