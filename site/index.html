@@ -1448,85 +1448,8 @@
         <!-- Latest Insights -->
         <div class="card">
           <h2>Latest Insights</h2>
-
-          <div class="insight-item" onclick="toggleInsight(this)">
-            <div class="source">The Rundown AI • Feb 13</div>
-            <div class="text"><strong>SpaceX/xAI $1.25T Super-Entity:</strong> Elon Musk consolidating Starlink's satellite network with xAI's Grok infrastructure creates the first vertically integrated AI-to-orbit stack. <span style="color:#4caf50;">→ Bullish GOOGL (defensive moat), NVDA (compute demand), AVGO (custom silicon)</span></div>
-            <div class="insight-expanded">
-              <div style="font-size: 0.85rem; color: #a8b2d1;">
-                <strong>Key Tickers:</strong> GOOGL, NVDA, AVGO<br>
-                <strong>Thesis:</strong> Vertical integration of AI compute with orbital infrastructure creates durable competitive moats.
-              </div>
-              <div style="margin-top: 0.75rem;">
-                <button class="action-btn" onclick="event.stopPropagation(); showPodcastSummary('rundown_spacex_xai');" style="padding: 0.4rem 0.8rem; font-size: 0.8rem;">
-                  🔍 Deep Dive
-                </button>
-              </div>
-            </div>
-          </div>
-
-          <div class="insight-item" onclick="toggleInsight(this)">
-            <div class="source">Moonshots with Peter Diamandis • Feb 13 <span style="color: #ffc107; font-size: 0.75rem;">NEW</span></div>
-            <div class="text"><strong>The AI CEO Arrives:</strong> Sam Altman reveals OpenAI succession plans where AI could become CEO. 'Solve Everything' roadmap to abundance by 2035. Job losses accelerating at fastest rate since Great Recession. <span style="color:#4caf50;">→ Bullish MSFT, PLTR, NOW, CRM (AI governance)</span></div>
-            <div class="insight-expanded">
-              <div style="font-size: 0.85rem; color: #a8b2d1;">
-                <strong>Key Tickers:</strong> MSFT, PLTR, NOW, CRM<br>
-                <strong>Thesis:</strong> The 5-year business plan is obsolete - AI governance enables minute-level strategy shifts.
-              </div>
-              <div style="margin-top: 0.75rem;">
-                <button class="action-btn" onclick="event.stopPropagation(); showPodcastSummary('diamandis_ai_ceo');" style="padding: 0.4rem 0.8rem; font-size: 0.8rem;">
-                  🔍 Deep Dive
-                </button>
-              </div>
-            </div>
-          </div>
-
-          <div class="insight-item" onclick="toggleInsight(this)">
-            <div class="source">Monetary Matters • Feb 10</div>
-            <div class="text"><strong>Gold Climax Top Signal:</strong> Milton Berg's institutional model flipped net-short across major indices while retail remains 100% long. Historical pattern suggests 8% drawdown trigger imminent. <span style="color:#f44336;">→ Risk-off: Reduce momentum exposure. Watch VIX &gt;25</span></div>
-            <div class="insight-expanded">
-              <div style="font-size: 0.85rem; color: #a8b2d1;">
-                <strong>Risk Signal:</strong> VIX &gt;25<br>
-                <strong>Action:</strong> Reduce high-beta momentum exposure, consider defensive positioning.
-              </div>
-              <div style="margin-top: 0.75rem;">
-                <button class="action-btn" onclick="event.stopPropagation(); showPodcastSummary('monetary_matters_gold_top');" style="padding: 0.4rem 0.8rem; font-size: 0.8rem;">
-                  🔍 Deep Dive
-                </button>
-              </div>
-            </div>
-          </div>
-
-          <div class="insight-item" onclick="toggleInsight(this)">
-            <div class="source">a16z Live • Jan 25</div>
-            <div class="text"><strong>Healthcare AI Moats:</strong> Tennr and Camber building operational infrastructure (referral automation, claims processing) rather than clinical AI. First-mover advantage in regulatory capture. <span style="color:#4caf50;">→ Watch for IPO pipeline in healthtech ops</span></div>
-            <div class="insight-expanded">
-              <div style="font-size: 0.85rem; color: #a8b2d1;">
-                <strong>Theme:</strong> HealthTech operational infrastructure<br>
-                <strong>Watchlist:</strong> IPO pipeline for referral automation, claims processing, and RCM platforms.
-              </div>
-              <div style="margin-top: 0.75rem;">
-                <button class="action-btn" onclick="event.stopPropagation(); showPodcastSummary('a16z_healthcare_ai');" style="padding: 0.4rem 0.8rem; font-size: 0.8rem;">
-                  🔍 Deep Dive
-                </button>
-              </div>
-            </div>
-          </div>
-
-          <div class="insight-item" onclick="toggleInsight(this)">
-            <div class="source">Network State Podcast • Jan 16</div>
-            <div class="text"><strong>Machine-Native Money:</strong> USDC co-founder Sean Neville on deterministic crypto meeting probabilistic AI - identity systems for autonomous agents require new financial rails. <span style="color:#4caf50;">→ Long-term: Stablecoin infrastructure (COIN, fintech rails)</span></div>
-            <div class="insight-expanded">
-              <div style="font-size: 0.85rem; color: #a8b2d1;">
-                <strong>Key Players:</strong> COIN, stablecoin infrastructure<br>
-                <strong>Long-term Thesis:</strong> AI agents require deterministic payment rails.
-              </div>
-              <div style="margin-top: 0.75rem;">
-                <button class="action-btn" onclick="event.stopPropagation(); showPodcastSummary('network_state_machine_money');" style="padding: 0.4rem 0.8rem; font-size: 0.8rem;">
-                  🔍 Deep Dive
-                </button>
-              </div>
-            </div>
+          <div id="insights-container">
+            <!-- Insights loaded dynamically from database -->
           </div>
         </div>
 
@@ -2099,6 +2022,51 @@
       return sections.join('');
     }
     
+    // Load insights dynamically from database
+    function loadInsights() {
+      const container = document.getElementById('insights-container');
+      if (!container) return;
+      
+      // Get insights from dashboardData
+      let insights = [];
+      if (typeof dashboardData !== 'undefined' && dashboardData.archive && dashboardData.archive.insights) {
+        // Filter to only show insights with display_on_main = 1
+        insights = dashboardData.archive.insights.filter(i => i.display_on_main === 1);
+        // Sort by source_date descending (newest first)
+        insights.sort((a, b) => new Date(b.source_date) - new Date(a.source_date));
+      }
+      
+      if (insights.length === 0) {
+        container.innerHTML = '<div class="placeholder">No insights available</div>';
+        return;
+      }
+      
+      // Render insights
+      container.innerHTML = insights.map(insight => {
+        const date = new Date(insight.source_date);
+        const dateStr = date.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+        const tickers = insight.tickers_mentioned || [];
+        const tickerStr = tickers.join(', ');
+        const sentimentColor = insight.sentiment === 'bullish' ? '#4caf50' : 
+                              insight.sentiment === 'bearish' ? '#f44336' : '#ffc107';
+        
+        return `
+          <div class="insight-item" onclick="toggleInsight(this)">
+            <div class="source">${insight.source_name} • ${dateStr}</div>
+            <div class="text"><strong>${insight.title}:</strong> ${insight.summary} <span style="color:${sentimentColor};">→ ${insight.key_takeaway}</span></div>
+            <div class="insight-expanded">
+              <div style="font-size: 0.85rem; color: #a8b2d1;">
+                <strong>Key Tickers:</strong> ${tickerStr || 'None'}<br>
+                <strong>Thesis:</strong> ${insight.key_takeaway}
+              </div>
+            </div>
+          </div>
+        `;
+      }).join('');
+      
+      console.log(`✓ Loaded ${insights.length} insights from database`);
+    }
+
     // Load podcast data from external source (kept for future database integration)
     async function loadPodcastData() {
       // Always initialize from embedded data first
@@ -2407,6 +2375,7 @@
       updateLastUpdated();
       await loadPriceData();  // Load prices first (also calls updateTitleTickers and populateTickers)
       loadTickerData();
+      loadInsights();  // Load insights dynamically from database
       loadPodcastData();
     });
 
