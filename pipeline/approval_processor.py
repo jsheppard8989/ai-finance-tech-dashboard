@@ -112,21 +112,21 @@ def download_and_transcribe(episode, curated_data):
         
         print(f"  ✓ Downloaded: {audio_path}")
         
-        # Transcribe (using existing transcribe_chunked.py)
-        print(f"  🎤 Transcribing...")
+        # Transcribe using LOCAL Whisper (free, no API costs)
+        print(f"  🎤 Transcribing with local Whisper (FREE)...")
         result = subprocess.run(
-            [sys.executable, "transcribe_chunked.py", str(audio_path), str(transcript_path)],
+            [sys.executable, "transcribe_local.py", str(audio_path), safe_name],
             cwd=Path(__file__).parent,
             capture_output=True,
             text=True,
-            timeout=600
+            timeout=1800  # 30 min timeout for long episodes
         )
         
         if result.returncode == 0:
             print(f"  ✓ Transcribed: {transcript_path}")
             return str(transcript_path)
         else:
-            print(f"  ✗ Transcription failed: {result.stderr[:100]}")
+            print(f"  ✗ Transcription failed: {result.stderr[:200]}")
             return None
             
     except Exception as e:
