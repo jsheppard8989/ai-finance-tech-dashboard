@@ -1,8 +1,8 @@
-// Auto-generated data file - 2026-02-16T21:43:48.238491
+// Auto-generated data file - 2026-02-16T22:14:48.724437
 // DO NOT EDIT MANUALLY
 
 const dashboardData = {
-  generatedAt: "2026-02-16T21:43:48.238502",
+  generatedAt: "2026-02-16T22:14:48.724452",
   tickerScores: [
   {
     "id": 7,
@@ -200,6 +200,28 @@ const dashboardData = {
       "display_on_main": 1,
       "display_order": 1,
       "added_date": "2026-02-13",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": null
+    },
+    {
+      "id": 11,
+      "title": "The AI CEO Arrives: Sam Altman's Succession Plan",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-02-13",
+      "summary": "Sam Altman reveals OpenAI succession plans where AI could become CEO. Panel discusses 'Solve Everything' roadmap to abundance by 2035. Job losses accelerating at fastest rate since Great Recession as knowledge work automates first. AI CEOs will assimilate information and suggest course corrections in minutes instead of years.",
+      "key_takeaway": "The 5-year business plan is obsolete - AI governance enables minute-level strategy shifts.",
+      "tickers_mentioned": [
+        "MSFT",
+        "PLTR",
+        "NOW",
+        "CRM"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-02-16",
       "archived_date": null,
       "archived_reason": null,
       "podcast_episode_id": null
@@ -545,6 +567,23 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 11,
+      "title": "The AI CEO Arrives: Sam Altman's Succession Plan",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-02-13",
+      "summary": "Sam Altman reveals OpenAI succession plans where AI could become CEO. Panel discusses 'Solve Everything' roadmap to abundance by 2035. Job losses accelerating at fastest rate since Great Recession as knowledge work automates first. AI CEOs will assimilate information and suggest course corrections in minutes instead of years.",
+      "key_takeaway": "The 5-year business plan is obsolete - AI governance enables minute-level strategy shifts.",
+      "tickers_mentioned": "[\"MSFT\", \"PLTR\", \"NOW\", \"CRM\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-02-16",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": null
+    },
+    {
       "id": 1,
       "title": "SpaceX/xAI $1.25T Super-Entity",
       "source_type": "podcast",
@@ -608,23 +647,6 @@ const dashboardData = {
       "display_on_main": 1,
       "display_order": 3,
       "added_date": "2026-02-03",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": null
-    },
-    {
-      "id": 4,
-      "title": "Healthcare AI Moats",
-      "source_type": "podcast",
-      "source_name": "a16z Live",
-      "source_date": "2026-01-25",
-      "summary": "Tennr and Camber building operational infrastructure rather than clinical AI. First-mover advantage in regulatory capture.",
-      "key_takeaway": "Watch for IPO pipeline in healthtech operations.",
-      "tickers_mentioned": "[\"VEEV\", \"TDOC\", \"DOCS\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 4,
-      "added_date": "2026-01-25",
       "archived_date": null,
       "archived_reason": null,
       "podcast_episode_id": null
