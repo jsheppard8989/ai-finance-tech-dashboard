@@ -2254,56 +2254,25 @@
       // In production, this would fetch updated JSON data from the pipeline
     }, 300000);
 
-    // Price data - embedded from Yahoo Finance
-    let priceData = {
-      "GOOGL": {"price": 305.72, "change_pct": -8.62, "name": "Alphabet Inc."},
-      "MSFT": {"price": 401.32, "change_pct": -16.49, "name": "Microsoft Corporation"},
-      "AAPL": {"price": 255.78, "change_pct": -0.87, "name": "Apple Inc."},
-      "NVDA": {"price": 182.81, "change_pct": -3.03, "name": "NVIDIA Corporation"},
-      "META": {"price": 639.77, "change_pct": -4.93, "name": "Meta Platforms Inc."},
-      "BTC-USD": {"price": 69764.54, "change_pct": -9.37, "name": "Bitcoin USD"},
-      "QQQ": {"price": 601.92, "change_pct": -4.63, "name": "Invesco QQQ Trust"},
-      "NEE": {"price": 93.8, "change_pct": 7.63, "name": "NextEra Energy"},
-      "CEG": {"price": 288.43, "change_pct": -0.11, "name": "Constellation Energy"},
-      "VST": {"price": 171.49, "change_pct": 4.4, "name": "Vistra Corp"},
-      "SMR": {"price": 14.31, "change_pct": -25.47, "name": "NuScale Power"},
-      "OKLO": {"price": 65.69, "change_pct": -22.96, "name": "Oklo Inc"},
-      "BWXT": {"price": 200.4, "change_pct": -5.65, "name": "BWX Technologies"},
-      "CWST": {"price": 103.72, "change_pct": -1.98, "name": "Casella Waste"},
-      "XYL": {"price": 128.09, "change_pct": -8.77, "name": "Xylem Inc"},
-      "AWK": {"price": 133.5, "change_pct": 2.97, "name": "American Water"},
-      "ANET": {"price": 141.59, "change_pct": -3.48, "name": "Arista Networks"},
-      "AVGO": {"price": 325.17, "change_pct": -2.29, "name": "Broadcom Inc"},
-      "MRVL": {"price": 78.61, "change_pct": -5.21, "name": "Marvell Tech"},
-      "CSCO": {"price": 76.85, "change_pct": -2.33, "name": "Cisco Systems"},
-      "DLR": {"price": 180.97, "change_pct": 10.92, "name": "Digital Realty"},
-      "EQIX": {"price": 956.19, "change_pct": 18.11, "name": "Equinix Inc"},
-      "FFIV": {"price": 273.93, "change_pct": 1.29, "name": "F5 Inc"},
-      "NET": {"price": 195.85, "change_pct": -4.9, "name": "Cloudflare"},
-      "DDOG": {"price": 125.2, "change_pct": -9.41, "name": "Datadog"},
-      "SNOW": {"price": 182.29, "change_pct": -14.32, "name": "Snowflake"},
-      "PLTR": {"price": 131.41, "change_pct": -20.69, "name": "Palantir"},
-      "CFLT": {"price": 30.56, "change_pct": 0.07, "name": "Confluent"},
-      "CRM": {"price": 189.72, "change_pct": -16.98, "name": "Salesforce"},
-      "NOW": {"price": 107.08, "change_pct": -18.76, "name": "ServiceNow"},
-      "VEEV": {"price": 174.11, "change_pct": -20.09, "name": "Veeva Systems"},
-      "WDAY": {"price": 144.42, "change_pct": -23.42, "name": "Workday"},
-      "MDB": {"price": 368.4, "change_pct": -10.56, "name": "MongoDB"},
-      "SWKS": {"price": 62.1, "change_pct": 3.41, "name": "Skyworks"},
-      "QRVO": {"price": 84.44, "change_pct": 1.97, "name": "Qorvo"},
-      "QCOM": {"price": 140.7, "change_pct": -8.06, "name": "Qualcomm"},
-      "PYPL": {"price": 40.29, "change_pct": -27.42, "name": "PayPal"},
-      "SOFI": {"price": 19.61, "change_pct": -22.98, "name": "SoFi Technologies"},
-      "ASML": {"price": 1406.61, "change_pct": -3.17, "name": "ASML Holding"},
-      "AMAT": {"price": 354.91, "change_pct": 6.67, "name": "Applied Materials"},
-      "LRCX": {"price": 235.53, "change_pct": -1.23, "name": "Lam Research"},
-      "KLAC": {"price": 1464.13, "change_pct": -9.42, "name": "KLA Corp"},
-      "INTC": {"price": 46.79, "change_pct": 6.51, "name": "Intel Corp"},
-      "AMD": {"price": 207.32, "change_pct": -17.74, "name": "AMD"}
-    };
+    // Price data - loaded from price_data.json
+    let priceData = {};
 
-    function loadPriceData() {
-      // Data is already embedded, just render
+    async function loadPriceData() {
+      try {
+        const response = await fetch('./price_data.json?v=' + Date.now());
+        if (response.ok) {
+          priceData = await response.json();
+          // Remove metadata key if present
+          delete priceData._metadata;
+          console.log('Loaded price data:', Object.keys(priceData).length, 'tickers');
+        } else {
+          console.log('Failed to load price data, using empty object');
+          priceData = {};
+        }
+      } catch (error) {
+        console.log('Error loading price data:', error);
+        priceData = {};
+      }
       updateTitleTickers();
       populateTickers();
     }
@@ -2319,9 +2288,10 @@
         changeEl.className = 'ticker-change ' + (qqq.change_pct >= 0 ? 'positive' : 'negative');
       }
 
-      // BTC: change price symbol
-      if (priceData['BTC-USD']) {
-        const btc = priceData['BTC-USD'];
+      // BTC: change price symbol (check both BTC and BTC-USD keys)
+      const btcKey = priceData['BTC'] ? 'BTC' : 'BTC-USD';
+      if (priceData[btcKey]) {
+        const btc = priceData[btcKey];
         document.getElementById('btc-price').textContent = `$${btc.price.toLocaleString('en-US', {maximumFractionDigits: 0})}`;
         const changeEl = document.getElementById('btc-change');
         changeEl.textContent = `${btc.change_pct >= 0 ? '+' : ''}${btc.change_pct.toFixed(1)}%`;
