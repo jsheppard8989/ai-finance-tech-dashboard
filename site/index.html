@@ -1573,6 +1573,22 @@
     </div>
   </div>
 
+  <!-- Deep Dive Modal -->
+  <div id="deepDiveModal" class="podcast-modal" style="display: none;">
+    <div class="podcast-container" style="max-width: 800px;">
+      <div class="podcast-header">
+        <div>
+          <h3 id="deepDiveTitle">Deep Dive Analysis</h3>
+          <div id="deepDiveSource" class="podcast-source"></div>
+        </div>
+        <button class="close-btn" onclick="closeDeepDive()">✕ Close</button>
+      </div>
+      <div id="deepDiveContent" class="podcast-content">
+        <!-- Deep dive content populated by JavaScript -->
+      </div>
+    </div>
+  </div>
+
   <!-- Load dashboard data from pipeline (if available) -->
   <script src="./data/data.js?v=3"></script>
   
@@ -2050,6 +2066,22 @@
         const sentimentColor = insight.sentiment === 'bullish' ? '#4caf50' : 
                               insight.sentiment === 'bearish' ? '#f44336' : '#ffc107';
         
+        // Check if this insight has Deep Dive content
+        let deepDiveButton = '';
+        if (typeof dashboardData !== 'undefined' && dashboardData.deepDives) {
+          const hasDeepDive = Object.values(dashboardData.deepDives).some(
+            dd => dd.insight_title === insight.title
+          );
+          if (hasDeepDive) {
+            deepDiveButton = `
+              <button onclick="event.stopPropagation(); showDeepDiveModal('${insight.title.replace(/'/g, "\\'")}')" 
+                      style="margin-top: 0.75rem; background: linear-gradient(90deg, #00d4ff, #7b2cbf); color: white; border: none; padding: 0.5rem 1rem; border-radius: 6px; cursor: pointer; font-weight: 600; font-size: 0.85rem; display: inline-flex; align-items: center; gap: 0.5rem;">
+                <span>🔍</span> Deep Dive
+              </button>
+            `;
+          }
+        }
+        
         return `
           <div class="insight-item" onclick="toggleInsight(this)">
             <div class="source">${insight.source_name} • ${dateStr}</div>
@@ -2058,6 +2090,7 @@
               <div style="font-size: 0.85rem; color: #a8b2d1;">
                 <strong>Key Tickers:</strong> ${tickerStr || 'None'}<br>
                 <strong>Thesis:</strong> ${insight.key_takeaway}
+                ${deepDiveButton}
               </div>
             </div>
           </div>
@@ -2163,6 +2196,51 @@
     document.getElementById('podcastModal').addEventListener('click', function(e) {
       if (e.target === this) {
         closePodcastSummary();
+      }
+    });
+
+    // Show Deep Dive modal with full analysis
+    function showDeepDiveModal(insightTitle) {
+      const modal = document.getElementById('deepDiveModal');
+      const title = document.getElementById('deepDiveTitle');
+      const source = document.getElementById('deepDiveSource');
+      const content = document.getElementById('deepDiveContent');
+      
+      // Find the deep dive data
+      if (typeof dashboardData !== 'undefined' && dashboardData.deepDives) {
+        const deepDive = Object.values(dashboardData.deepDives).find(
+          dd => dd.insight_title === insightTitle
+        );
+        
+        if (deepDive) {
+          title.textContent = deepDive.insight_title || 'Deep Dive Analysis';
+          source.textContent = deepDive.source_name ? `${deepDive.source_name} • Deep Dive` : 'AI-Powered Analysis';
+          content.innerHTML = generateDeepDiveHTML(deepDive);
+          modal.style.display = 'flex';
+          modal.classList.add('active');
+          return;
+        }
+      }
+      
+      // Fallback if no deep dive found
+      title.textContent = insightTitle || 'Deep Dive';
+      source.textContent = 'Analysis';
+      content.innerHTML = '<div style="padding: 2rem; text-align: center; color: #8892b0;">Deep dive content not available for this insight.</div>';
+      modal.style.display = 'flex';
+      modal.classList.add('active');
+    }
+
+    // Close Deep Dive modal
+    function closeDeepDive() {
+      const modal = document.getElementById('deepDiveModal');
+      modal.classList.remove('active');
+      setTimeout(() => { modal.style.display = 'none'; }, 300);
+    }
+
+    // Close deep dive modal on outside click
+    document.getElementById('deepDiveModal').addEventListener('click', function(e) {
+      if (e.target === this) {
+        closeDeepDive();
       }
     });
 
