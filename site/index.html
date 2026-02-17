@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>AI, Finance, Tech: Scarcity & Abundance</title>
-  <!-- Deployed: 2026-02-15 -->
+  <!-- Auto-updated via pipeline -->
   <style>
     * {
       margin: 0;
@@ -2414,9 +2414,27 @@
       populateTickers();
     }
 
+    // Update last updated timestamp from data
+    function updateLastUpdated() {
+      const lastUpdatedEl = document.getElementById('last-updated');
+      if (lastUpdatedEl && typeof dashboardData !== 'undefined' && dashboardData.generatedAt) {
+        const date = new Date(dashboardData.generatedAt);
+        const options = { 
+          month: 'long', 
+          day: 'numeric', 
+          year: 'numeric',
+          hour: 'numeric',
+          minute: '2-digit',
+          timeZoneName: 'short'
+        };
+        lastUpdatedEl.textContent = 'Last updated: ' + date.toLocaleString('en-US', options);
+      }
+    }
+
     // Initialize on page load
     document.addEventListener('DOMContentLoaded', function() {
       console.log('Page loading...');
+      updateLastUpdated();
       updateTitleTickers();
       loadTickerData();
       loadPodcastData();
