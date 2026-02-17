@@ -50,47 +50,54 @@ PODCAST_PATTERNS = {
 def get_ai_client() -> Optional[any]:
     """Get AI client - tries Kimi/Moonshot FIRST, falls back to OpenAI."""
 
-    # Try Kimi/Moonshot FIRST (primary)
+    # Try to load from OpenClaw auth-profiles.json FIRST (most reliable)
+    auth_profiles_path = Path.home() / ".openclaw/agents/main/agent/auth-profiles.json"
+    if auth_profiles_path.exists():
+        try:
+            with open(auth_profiles_path, 'r') as f:
+                auth_data = json.load(f)
+                profiles = auth_data.get('profiles', {})
+
+                # Try moonshot:default first (shows as working in usage stats)
+                if 'moonshot:default' in profiles:
+                    moonshot_profile = profiles['moonshot:default']
+                    if moonshot_profile.get('type') == 'api_key':
+                        kimi_key = moonshot_profile.get('key')
+                        if kimi_key:
+                            client = OpenAI(
+                                api_key=kimi_key,
+                                base_url="https://api.moonshot.ai/v1"
+                            )
+                            print("  Using Moonshot API from OpenClaw auth-profiles")
+                            return ('kimi', client)
+
+                # Try kimi-coding:default as fallback
+                if 'kimi-coding:default' in profiles:
+                    kimi_profile = profiles['kimi-coding:default']
+                    if kimi_profile.get('type') == 'api_key':
+                        kimi_key = kimi_profile.get('key')
+                        if kimi_key:
+                            client = OpenAI(
+                                api_key=kimi_key,
+                                base_url="https://api.moonshot.ai/v1"
+                            )
+                            print("  Using Kimi API from OpenClaw auth-profiles")
+                            return ('kimi', client)
+        except Exception as e:
+            print(f"  ⚠ Failed to read auth-profiles.json: {e}")
+
+    # Try Kimi/Moonshot from environment variables
     kimi_key = os.environ.get('KIMI_API_KEY') or os.environ.get('MOONSHOT_API_KEY')
     if kimi_key:
         try:
             client = OpenAI(
                 api_key=kimi_key,
-                base_url="https://api.moonshot.cn/v1"
+                base_url="https://api.moonshot.ai/v1"
             )
-            print("  Using Kimi/Moonshot API (primary)")
+            print("  Using Kimi/Moonshot API from environment")
             return ('kimi', client)
         except Exception as e:
             print(f"  ⚠ Kimi init failed: {e}")
-
-    # Try to load Kimi from OpenClaw config
-    try:
-        config_path = Path.home() / ".openclaw/openclaw.json"
-        if config_path.exists():
-            with open(config_path, 'r') as f:
-                config = json.load(f)
-
-            # Check for Kimi auth profile
-            auth_profiles = config.get('auth', {}).get('profiles', {})
-            if 'kimi-coding:default' in auth_profiles:
-                # Kimi is configured - try to get key from environment or use default
-                import subprocess
-                try:
-                    result = subprocess.run(
-                        ['openclaw', 'models', 'auth', 'get-token', '--provider', 'kimi-coding'],
-                        capture_output=True, text=True, timeout=10
-                    )
-                    if result.returncode == 0 and result.stdout.strip():
-                        client = OpenAI(
-                            api_key=result.stdout.strip(),
-                            base_url="https://api.moonshot.cn/v1"
-                        )
-                        print("  Using Kimi API from OpenClaw")
-                        return ('kimi', client)
-                except Exception:
-                    pass
-    except Exception:
-        pass
 
     # Fall back to OpenAI (secondary)
     openai_key = os.environ.get('OPENAI_API_KEY')
@@ -256,6 +263,38 @@ Return ONLY valid JSON. No markdown, no explanations."""
         return None
 
 
+def episode_exists_in_db(db, podcast_name: str, episode_title: str) -> bool:
+    """Check if an episode with this podcast name and title already exists in database."""
+    try:
+        conn = db._get_connection()
+        cursor = conn.cursor()
+        
+        # Check for exact match on podcast_name and episode_title
+        cursor.execute(
+            "SELECT id FROM podcast_episodes WHERE podcast_name = ? AND episode_title = ?",
+            (podcast_name, episode_title)
+        )
+        
+        if cursor.fetchone():
+            return True
+        
+        # Also check for similar titles (case-insensitive, first 50 chars)
+        cursor.execute(
+            """SELECT id FROM podcast_episodes 
+               WHERE podcast_name = ? 
+               AND LOWER(SUBSTR(episode_title, 1, 50)) = LOWER(SUBSTR(?, 1, 50))""",
+            (podcast_name, episode_title)
+        )
+        
+        if cursor.fetchone():
+            return True
+        
+        return False
+    except Exception as e:
+        print(f"    ⚠ Failed to check database: {e}")
+        return False
+
+
 def process_transcript_file(transcript_path: Path, client_info, db) -> Optional[int]:
     """Process a single transcript file and add to database."""
     
@@ -280,6 +319,15 @@ def process_transcript_file(transcript_path: Path, client_info, db) -> Optional[
     # Parse podcast info
     podcast_name, episode_slug = parse_podcast_info(transcript_path.name)
     
+    # Get a preview of the episode title from the first line
+    first_line = content.strip().split('\n')[0][:100] if content else episode_slug
+    
+    # Check if this episode already exists in database (by podcast + preview title)
+    if episode_exists_in_db(db, podcast_name, first_line):
+        print(f"    ⏭ Episode already in database (duplicate), skipping")
+        mark_transcript_processed(transcript_path, -1)  # Mark as processed to avoid re-checking
+        return None
+    
     # Analyze with AI
     analysis = analyze_transcript_with_ai(client_info, content, podcast_name)
     if not analysis:
@@ -293,10 +341,19 @@ def process_transcript_file(transcript_path: Path, client_info, db) -> Optional[
     except (ValueError, TypeError):
         episode_date = extract_date_from_content(content) or date.today()
     
+    # Extract episode title from AI analysis
+    episode_title = analysis.get('episode_title', episode_slug.replace('_', ' ').title())
+    
+    # CRITICAL: Check database again with the AI-extracted title (more accurate)
+    if episode_exists_in_db(db, podcast_name, episode_title):
+        print(f"    ⏭ Episode '{episode_title[:60]}...' already in database, skipping")
+        mark_transcript_processed(transcript_path, -1)
+        return None
+    
     # Create PodcastEpisode
     episode = PodcastEpisode(
         podcast_name=podcast_name,
-        episode_title=analysis.get('episode_title', episode_slug.replace('_', ' ').title()),
+        episode_title=episode_title,
         episode_date=episode_date,
         transcript_path=str(transcript_path),
         summary=analysis.get('summary', '')[:2000],
