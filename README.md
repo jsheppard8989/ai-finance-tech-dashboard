@@ -27,6 +27,29 @@ A curated dashboard aggregating investment insights from podcasts and newsletter
 - Python 3.9+
 - Git
 - GitHub account
+- Gmail App Password (for newsletter ingestion)
+
+### ⚠️ Security Notice
+
+**IMPORTANT:** This project handles sensitive API credentials. Never commit `.env` files or hardcoded passwords to GitHub!
+
+The repository includes:
+- `.env.example` - Template showing required variables (safe to commit)
+- `.env` - Your actual credentials (automatically ignored by Git)
+- `.gitignore` - Prevents accidental commits of sensitive files
+
+**Required Setup:**
+```bash
+cd pipeline
+cp .env.example .env
+# Edit .env with your actual credentials
+nano .env  # or use your preferred editor
+```
+
+**GitHub Secret Scanning:** If you've accidentally committed credentials:
+1. Change the password/API key immediately
+2. Use [BFG Repo-Cleaner](https://rtyley.github.io/bfg-repo-cleaner/) or git-filter-branch to remove from history
+3. Or create a new repository and migrate (safest option)
 
 ### Local Development
 

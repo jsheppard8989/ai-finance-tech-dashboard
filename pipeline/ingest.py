@@ -14,9 +14,9 @@ import ssl
 from datetime import datetime
 from pathlib import Path
 
-# Config
-EMAIL = "jsheppard8989@gmail.com"
-PASSWORD = "blhv nutf osjs ocsm"  # App Password for 'Stock Pipeline'
+# Config - Load from environment variables (NEVER hardcode passwords)
+EMAIL = os.environ.get('GMAIL_USER', 'jsheppard8989@gmail.com')
+PASSWORD = os.environ.get('GMAIL_APP_PASSWORD', '')  # Set via environment variable
 IMAP_SERVER = "imap.gmail.com"
 IMAP_PORT = 993
 TARGET_FOLDER = "NEWSLETTERS"  # Gmail label/folder to check
@@ -118,6 +118,18 @@ def process_email(raw_email):
 def fetch_via_gmail():
     """Fetch emails via Gmail IMAP."""
     print(f"Connecting to Gmail at {IMAP_SERVER}:{IMAP_PORT}...")
+    
+    # Security check - ensure password is set via environment
+    if not PASSWORD:
+        print("\n⚠️  ERROR: Gmail App Password not configured!")
+        print("\nTo fix this:")
+        print("1. Generate an App Password at: https://myaccount.google.com/apppasswords")
+        print("2. Set it as an environment variable:")
+        print("   export GMAIL_APP_PASSWORD='your-app-password'")
+        print("\nOr create a .env file in the pipeline directory:")
+        print("   echo 'GMAIL_APP_PASSWORD=your-app-password' > pipeline/.env")
+        print("\n❌ DO NOT hardcode passwords in this file - they will be exposed on GitHub!")
+        return []
     
     try:
         # Create SSL context

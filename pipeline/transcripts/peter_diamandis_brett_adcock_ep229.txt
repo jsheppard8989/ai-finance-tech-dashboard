@@ -1,0 +1,79 @@
+Brett Adcock: Humanoid Run on Neural Net, Autonomous Manufacturing, $50T Market #229
+Moonshots with Peter Diamandis
+Episode 229
+
+00:00:00
+
+ I am blown away by how far you've come. The things that you can do with Neural Nets now does completely blow my mind. Every year to year, the whole business looks completely different. It's amazing to me how you accumulate data and the data becomes this incredible barrier to entry, this incredible asset. The one thing that's important here is that once one robot learns how to do a task, every robot in the fleet knows it. And humans don't operate like this. When do we start seeing robots building robots? We will put robots on our Bocu lines this year. Listen, this is like going to be the largest economy in the world.
+
+00:00:30
+
+ It's going to be a super impactful business. It'll lead to like ubiquitous goods and services for anybody in the age of abundance. And it's going to be a super fun business too. It's like going to build a sci-fi future we all want. What you're seeing is every major group in the world will get in this space. You have to. You have like no choice. When are we going to see the first figure in the customer's home? My best guess is I think...
+
+00:00:58
+
+ So Dave and I are in San Jose at Figure Headquarters. We just did a podcast with our friend Brett Adcock, Extraordinary. And... Check it out. Check it out. So... Yeah. Figure one. This is the original. Yeah. Still somewhat functional. Yeah. It ran the first large language model, the first neural net. They built it in under a year. Brett actually was screwing these things together himself and it was all about gathering telemetric data so they could build this.
+
+00:01:26
+
+ Here's Figure 2, much more beautiful, much more functional, running neural nets across the board, dumping all the C++. Yeah. Can you do... You know... We need to live long and prosper. Yeah. But I... And here we go with Figure 3 is the workhorse right now. We just did a tour. I mean, probably, you know, saw a hundred of these walking through the hallways, on test stands, cleaning dishes.
+
+00:01:56
+
+ You know... Brett would just say I added a flexible toe too so it can go down like this. Yeah. And before it had just this clunky, clunky foot here. And Figure 3 has the palm camera. Palm cam? Yeah. They cut about 30 pounds off the weight and 90% of the cost. Of the manufacturing cost. Wow. Crazy. Yeah. Amazing. It's the perfect height between the two of us. Yeah. Welcome to Moonshots, everybody. I'm here at Figure Headquarters with Brett Adcock and DB2.
+
+00:02:25
+
+ Brett, it's been... It's been about 18 months since we did a podcast on Moonshots together. And I am blown away by how far you've come. 18 months in AI time, that's like a decade. Dude, welcome to Figure Headquarters. What do you think? Yeah, it's extraordinary. I mean, just to describe... Wow. We just went on a tour. You've got about 300,000 square feet, 400,000 square feet under development here. I mean, there are Figure 3 robots walking down the halls.
+
+00:02:55
+
+ There's fully autonomous robots, I guess, running Helix 2. You just released Helix 2 today. Today. I got it while I was flying up here. We have these robots doing everything from kitchen tasks to packages to manufacturing of different type. I mean, how many robots do you think we saw? Seriously. I wasn't counting as we... Hundreds, maybe not a thousand. Yeah. Hundreds. At least a hundred or so. Yeah. Well, there's a lot of partial robots out there too. Yeah.
+
+00:03:24
+
+ Picking up figure heads. That was funny. How many hands do you think we saw? There's many more hands on the power robots. The hand line, the head line, the torso line. Actually, picking up the head was the most surreal. This is where the pelvis is made. Yeah. For sure. Yes. Pretty amazing. You know, I still remember during my first visit with you, you know, full disclosure, my venture fund is invested in two of your earlier rounds. Super proud of the progress that's made, that you've made.
+
+00:03:51
+
+ I still remember your figure one putting a Keurig cup in a coffee maker. And that was a big deal because it was done with neural nets and not C++. I mean, that honestly was like, I think it was a big inflection point for us. I feel like the, you know, I think a few things we need to really run down is can you build an electric humanoid? It's like low cost. It's capable like a human. Like just the hardware side of things.
+
+00:04:19
+
+ The second thing is, can you figure out a way to not code your way out of this problem? You had to be using neural net to learn those like human type representations and the new tasks. And when we are doing the Keurig tasks, it was a basic bi-manual neural net running on the robot, which is now like evolved into Helix. And I was able to basically do the whole kind of like, you know, it was a smaller task, but it was a few minutes longer of like, you know, like picking up the Keurig cup, like opening the coffee, put it in, running it.
+
+00:04:46
+
+ And it was the first time we saw like true instance of kind of like neural nets really working on a, you know, a bi-manual humanoid robot. Yeah. And that was when we were like, okay, we have to just go all in on neural nets. The whole stack needs to be neural nets to make this work. And that started like, and that was basically two years ago now. And then you guys saw Helix 2 today. Yeah. Which is like the, basically like the, the best, um, release we've ever had. We'll run a clip of Helix 2 while we're describing it.
+
+00:05:14
+
+ Cause what we saw was, uh, figure three running Helix 2 in full autonomy, uh, going into the dishwasher, picking stuff up, putting it away, uh, not pre-programmed. Yeah. And I, I loved, I love the human elements of it. Like using its hip to close, close something and it's put to raise the dishwasher. That's the neural net difference though. You get, you get unexpected behavior, you know, both good and bad, but, but things you could never code up.
+
+00:05:42
+
+ You can never, your, your career went software company, VTOL company. Now there's gotta be the first neural net platform. Yeah. The, like we wouldn't like the things that you can do in your own. That's now it was like completely blow my mind, uh, verse code. Like we could never have done a quarter of the stuff that you saw today with the whole body, uh, with manipulation, with things that you like, you know, there's only, there's only so far you can really push like coded heuristics and no human on a robot. It's just a dead end. Yeah. Uh, it's just not going to work. Yeah. Yeah.
+
+00:06:11
+
+ It's amazing to me how you, you accumulate data and the data becomes this incredible barrier to entry. There's an incredible asset. If you were writing all this in C code, that C code would be, you'd have millions, hundreds of millions of dollars invested. You would not want to mess it up with the neural net. You can say, look, Hey guys, retrain it from scratch. Yeah. Right off the run. It's just a completely different approach. And that's why people are way under predicting how important or how quickly this is going to evolve. Cause it's a completely different paradigm. Well, we've like lived through it.
+
+00:06:36
+
+ I mean like we, you know, I think maybe a year or two ago we had like few, like several hundred thousand lines of C++ code. Several hundred thousand. Yeah. And then a hundred bucks a line to write it. Yeah. Very expensive, very hard to like test and like get out reliably. Um, and like also hard to like model all the different behaviors that we would need to test the, uh, like the, this. Yeah. Um, and then, you know, we removed a majority of all that in the helix one, uh, where we
+
+00:07:03
+
+ still had a lot of like lower body control, uh, being run in basically the control stack and C++. Yeah. And then today we, uh, remove the, the remaining 109,000 lines of C++. Uh, so there's all neural net, all neural nets today. Uh, that's a full body. And that took it from like being able to do really good tabletop manipulation. Like you saw the, the curate coffee, uh, the work we do with logistics, like all that's to be done in neural nets. We've been showing like amazing progress there, but getting the whole body to get out of there
+
+00:07:30
+
+ and mail move dynamically to a scene, uh, while manipulating and planning is just a whole other, like we basically spent like a greater part of a year refactoring the helix architecture to be able to enable us to work. Um, you're talking about now like moving through space, like a human, having like control of the full body, like eye, eye, hand, foot, leg coordination. Everything is re sensor data and cameras, tactile.
+
+00:07:55
+
+ We have camera palm, palm cameras, uh, basically doing inference on board the robot fully embedded and then be able to output torques into the motors and do that. You know, a few hundred Hertz, uh, you know, in, in terms of like, no, that planning and control and do that reliably on very difficult tasks. Like these are bi-manual tasks where it's grabbing and holding things, planning, moving the body, getting things out of the way, uh, making like, uh, errors and replanning and
+
+00:08:22
+
+ fixing this, uh, all done with the neural net now end to end over like a, like a pretty long, like for us, it's like, you know, it's a, it's kind of like, um, r

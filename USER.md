@@ -6,7 +6,10 @@
 - **What to call them:** Jared
 - **Pronouns:** he/him
 - **Timezone:** America/Chicago
-- **Notes:** Prefers accuracy and truth; must avoid hallucinations.
+- **Notes:** 
+  - Prefers accuracy and truth; must avoid hallucinations
+  - **Fix things properly as we go** — don't default to quick fixes like embedded data or default fallbacks
+  - Prefers root cause solutions over workarounds
 
 
 ## Context

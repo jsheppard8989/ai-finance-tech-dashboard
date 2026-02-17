@@ -1,5 +1,61 @@
 # Memory Notes
 
+## Working Style Preferences (2026-02-15)
+
+**WE ARE NOT QUICK FIX BEINGS. We are do shit right once and be done with it creations.**
+
+**Fix things properly as we go** — Don't default to quick fixes like:
+- Embedding data directly in HTML instead of fixing the root loading issue
+- Using default fallback data instead of debugging why real data isn't loading
+- Workarounds that mask underlying problems
+- Manual workarounds when the automation is broken
+
+**Preferred approach:**
+- Debug the actual issue (path resolution, script loading, CORS, etc.)
+- Fix the root cause
+- Only use workarounds as temporary measures while debugging
+- When automation fails, fix the automation—not just the immediate problem
+
+---
+
+## Security Incident (Fixed 2026-02-15)
+
+**Issue:** Hardcoded Gmail App Password was present in `pipeline/ingest.py`
+
+**Impact:** Password was exposed in code (now rotated)
+
+**Resolution:**
+- ✅ Removed hardcoded password from source code
+- ✅ Password now loaded from environment variables
+- ✅ Added `.env.example` template
+- ✅ Updated `.gitignore` to exclude `.env` files
+- ✅ Added runtime check with helpful error message
+- ✅ Updated README with security warnings
+
+**Required Action:**
+```bash
+# 1. Generate new App Password (old one is compromised)
+# Go to: https://myaccount.google.com/apppasswords
+# Delete old 'Stock Pipeline' password
+# Generate new one
+
+# 2. Create .env file
+cd pipeline
+cp .env.example .env
+# Edit .env and add your NEW app password
+
+# 3. Set environment variable (for current session)
+export GMAIL_APP_PASSWORD='your-new-app-password'
+```
+
+**Security Best Practices Going Forward:**
+- Never commit `.env` files
+- Use environment variables for all credentials
+- Rotate passwords if accidentally exposed
+- Enable GitHub secret scanning on repository
+
+---
+
 ## Podcast Curation Rules
 
 **As of 2026-02-13:**
@@ -460,3 +516,117 @@ run_pipeline.py
 - Check git remote: `git remote -v`
 - Verify GitHub token permissions
 - Run manually: `git push origin main`
+
+---
+
+## Pipeline Fix: Transcript Analysis (2026-02-16)
+
+**Problem:** Website data was stale (33+ hours old). The pipeline was downloading and transcribing podcasts, but transcripts were never being analyzed to extract ticker mentions and insights.
+
+**Root Cause:** `run_pipeline.py` had a stub `import_podcasts_to_db()` function that only logged transcript filenames instead of actually processing them with AI.
+
+**Solution:** Built proper automation:
+
+1. **Created `analyze_transcript.py`** — New module that:
+   - Reads transcript files from `transcripts/`
+   - Uses OpenAI GPT-4o-mini to extract structured data (summary, key takeaways, ticker mentions with sentiment/conviction)
+   - Adds PodcastEpisode and TickerMention records to database
+   - Tracks processed transcripts to avoid reprocessing
+
+2. **Updated `run_pipeline.py`** — Replaced stub with actual call to `analyze_transcript.process_all_transcripts()`
+
+3. **Created `export_data.py`** — Standalone script for midday price refreshes (was missing, causing cron job to fail)
+
+4. **Updated cron jobs** — All three automated jobs now call the unified pipeline correctly:
+   - 8:30am: Full pipeline with newsletter focus
+   - 9:00am: Chart/price refresh only (cheap)
+   - 10:00pm: Full pipeline with podcast focus
+
+**New Pipeline Files:**
+```
+pipeline/
+├── analyze_transcript.py    # NEW: AI-powered transcript analysis
+├── export_data.py           # NEW: Standalone data export for cron
+└── processed/               # NEW: Tracks which transcripts are processed
+```
+
+**To run manually:**
+```bash
+cd ~/.openclaw/workspace/pipeline
+python3 run_pipeline.py
+```
+
+**Cost note:** Analyzing a 1-hour transcript costs ~$0.05-0.10 in OpenAI API calls. With ~7 transcripts queued, expect ~$0.50-0.70 to clear the backlog.
+
+---
+
+## Morning Podcast Approval Workflow (2026-02-16)
+
+**New Workflow:** Instead of automatically processing all podcasts at 8:30am, Jared now receives an iMessage at **6:00am** with a list of available podcasts and can choose which ones to process.
+
+### How It Works
+
+```
+6:00am CST → iMessage sent to Jared with podcast list
+                    ↓
+            Jared replies with selection:
+            • "PROCESS ALL" → analyze all episodes
+            • "SKIP ALL" → skip today's batch
+            • "1,3,5" → process only episodes 1, 3, and 5
+                    ↓
+            6AIndolf processes approved episodes
+                    ↓
+            Website updated with new insights
+```
+
+### Scripts
+
+**`morning_curator.py`** — Runs at 6am, sends iMessage:
+```bash
+python3 morning_curator.py
+```
+
+**`approval_processor.py`** — Handles Jared's reply:
+```bash
+# Example: Process episodes 1, 3, and 5
+python3 approval_processor.py "1,3,5"
+
+# Example: Process all
+python3 approval_processor.py "process all"
+
+# Example: Skip all
+python3 approval_processor.py "skip"
+```
+
+### Current Queue (As of 2026-02-16)
+
+| # | Podcast | Episode | Topic |
+|---|---------|---------|-------|
+| 1 | Monetary Matters | - | Carson Block on short selling, AI pretenders, mining |
+| 2 | Monetary Matters | - | Milton Berg technical analysis, gold/silver signals |
+| 3 | Moonshots with Peter Diamandis | EP #229 | **Brett Adcock: Humanoid Run on Neural Net, $50T Market** |
+| 4 | Moonshots with Peter Diamandis | EP #230 | **Sam Altman's Succession Plan, AI CEO Arrives** |
+| 5 | a16z Live | - | How Startups are Fixing Healthcare |
+| 6 | The Jack Mallers Show | - | Bonds, debt, markets & Bitcoin |
+
+**Note:** Incorrect "Moonshot Podcast" episodes cleared and replaced with correct **Peter Diamandis** episodes from Podscan.fm.
+
+### Podcast Feed Updates (2026-02-16)
+
+**Fixed:** Replaced incorrect podcast feed
+- ❌ ~~`https://feeds.megaphone.fm/moonshot`~~ (wrong podcast - "The Moonshot Podcast")
+- ✅ **Now using Podscan.fm** for direct transcript access
+
+**Peter Diamandis episodes manually added:**
+- EP #229: Brett Adcock on Figure AI, humanoid robots, neural nets
+- EP #230: Sam Altman's AI CEO succession plan, job loss, "Solve Everything" paper
+
+### Cron Schedule (Updated)
+
+| Time | Job | Description |
+|------|-----|-------------|
+| **6:00am** | Morning Curation | Send iMessage with podcast list for approval |
+| 9:00am | Price Refresh | Update charts only (cheap, no AI) |
+| 10:00pm | Evening Pipeline | Download and transcribe new podcasts |
+
+**Note:** The newsletter check (previously 8:30am) is now integrated into the morning workflow. Podcast analysis only happens after Jared approves which episodes to process.

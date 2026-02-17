@@ -1,0 +1,314 @@
+[
+  {
+    "podcast": "Monetary Matters with Jack Farley",
+    "filename": "EWWMN2965097612.txt",
+    "tickers_found": 14,
+    "ticker_mentions": [
+      {
+        "ticker": "FTIE",
+        "sentiment": "neutral",
+        "conviction_score": 50,
+        "context": "Mentioned in Monetary Matters with Jack Farley discussion"
+      },
+      {
+        "ticker": "UAL",
+        "sentiment": "neutral",
+        "conviction_score": 50,
+        "context": "Mentioned in Monetary Matters with Jack Farley discussion"
+      },
+      {
+        "ticker": "TAM",
+        "sentiment": "bearish",
+        "conviction_score": 40,
+        "context": "Mentioned in Monetary Matters with Jack Farley discussion"
+      },
+      {
+        "ticker": "SPAC",
+        "sentiment": "bearish",
+        "conviction_score": 40,
+        "context": "Mentioned in Monetary Matters with Jack Farley discussion"
+      },
+      {
+        "ticker": "PQNT",
+        "sentiment": "neutral",
+        "conviction_score": 50,
+        "context": "Mentioned in Monetary Matters with Jack Farley discussion"
+      },
+      {
+        "ticker": "XYZ",
+        "sentiment": "neutral",
+        "conviction_score": 50,
+        "context": "Mentioned in Monetary Matters with Jack Farley discussion"
+      },
+      {
+        "ticker": "FDI",
+        "sentiment": "neutral",
+        "conviction_score": 50,
+        "context": "Mentioned in Monetary Matters with Jack Farley discussion"
+      },
+      {
+        "ticker": "TMT",
+        "sentiment": "neutral",
+        "conviction_score": 50,
+        "context": "Mentioned in Monetary Matters with Jack Farley discussion"
+      },
+      {
+        "ticker": "XAI",
+        "sentiment": "neutral",
+        "conviction_score": 50,
+        "context": "Mentioned in Monetary Matters with Jack Farley discussion"
+      },
+      {
+        "ticker": "PQANT",
+        "sentiment": "neutral",
+        "conviction_score": 50,
+        "context": "Mentioned in Monetary Matters with Jack Farley discussion"
+      },
+      {
+        "ticker": "NPV",
+        "sentiment": "neutral",
+        "conviction_score": 50,
+        "context": "Mentioned in Monetary Matters with Jack Farley discussion"
+      },
+      {
+        "ticker": "TOS",
+        "sentiment": "bearish",
+        "conviction_score": 40,
+        "context": "Mentioned in Monetary Matters with Jack Farley discussion"
+      },
+      {
+        "ticker": "MSCI",
+        "sentiment": "neutral",
+        "conviction_score": 50,
+        "context": "Mentioned in Monetary Matters with Jack Farley discussion"
+      },
+      {
+        "ticker": "GFC",
+        "sentiment": "neutral",
+        "conviction_score": 50,
+        "context": "Mentioned in Monetary Matters with Jack Farley discussion"
+      }
+    ],
+    "preview": "Today's episode is brought to you by the PICTEA AI Enhance International Equity ETF, ticker PQNT. You'll hear more about their using AI to enhance international equity returns later in the show. For n",
+    "processed_at": "2026-02-16T21:29:59.631182"
+  },
+  {
+    "podcast": "Unknown",
+    "filename": "https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-10%2F417811310-44100-2-5be9b2c9f29f2.txt",
+    "tickers_found": 12,
+    "ticker_mentions": [
+      {
+        "ticker": "III",
+        "sentiment": "neutral",
+        "conviction_score": 50,
+        "context": "Mentioned in Unknown discussion"
+      },
+      {
+        "ticker": "CNBC",
+        "sentiment": "neutral",
+        "conviction_score": 50,
+        "context": "Mentioned in Unknown discussion"
+      },
+      {
+        "ticker": "CCP",
+        "sentiment": "neutral",
+        "conviction_score": 50,
+        "context": "Mentioned in Unknown discussion"
+      },
+      {
+        "ticker": "RSI",
+        "sentiment": "bullish",
+        "conviction_score": 60,
+        "context": "Mentioned in Unknown discussion"
+      },
+      {
+        "ticker": "LTV",
+        "sentiment": "neutral",
+        "conviction_score": 50,
+        "context": "Mentioned in Unknown discussion"
+      },
+      {
+        "ticker": "DCA",
+        "sentiment": "neutral",
+        "conviction_score": 50,
+        "context": "Mentioned in Unknown discussion"
+      },
+      {
+        "ticker": "FTX",
+        "sentiment": "neutral",
+        "conviction_score": 50,
+        "context": "Mentioned in Unknown discussion"
+      },
+      {
+        "ticker": "ACH",
+        "sentiment": "bullish",
+        "conviction_score": 70,
+        "context": "Mentioned in Unknown discussion"
+      },
+      {
+        "ticker": "CME",
+        "sentiment": "neutral",
+        "conviction_score": 50,
+        "context": "Mentioned in Unknown discussion"
+      },
+      {
+        "ticker": "CNN",
+        "sentiment": "neutral",
+        "conviction_score": 50,
+        "context": "Mentioned in Unknown discussion"
+      },
+      {
+        "ticker": "HOA",
+        "sentiment": "neutral",
+        "conviction_score": 50,
+        "context": "Mentioned in Unknown discussion"
+      },
+      {
+        "ticker": "BTC",
+        "sentiment": "bearish",
+        "conviction_score": 40,
+        "context": "Mentioned in Unknown discussion"
+      }
+    ],
+    "preview": "You're welcome back to another episode of The Jack Malers Show. I am your host, Jack, and you are tuning in to yet another episode of Mailbag Monday Ladies and Gentlemen episode 104. The title of toda",
+    "processed_at": "2026-02-16T21:29:59.664050"
+  },
+  {
+    "podcast": "Moonshots with Peter Diamandis",
+    "filename": "peter_diamandis_sam_altman_ep230.txt",
+    "tickers_found": 5,
+    "ticker_mentions": [
+      {
+        "ticker": "MIT",
+        "sentiment": "neutral",
+        "conviction_score": 50,
+        "context": "Mentioned in Moonshots with Peter Diamandis discussion"
+      },
+      {
+        "ticker": "EATSO",
+        "sentiment": "neutral",
+        "conviction_score": 50,
+        "context": "Mentioned in Moonshots with Peter Diamandis discussion"
+      },
+      {
+        "ticker": "MTP",
+        "sentiment": "neutral",
+        "conviction_score": 50,
+        "context": "Mentioned in Moonshots with Peter Diamandis discussion"
+      },
+      {
+        "ticker": "AWG",
+        "sentiment": "bullish",
+        "conviction_score": 60,
+        "context": "Mentioned in Moonshots with Peter Diamandis discussion"
+      },
+      {
+        "ticker": "WTF",
+        "sentiment": "neutral",
+        "conviction_score": 50,
+        "context": "Mentioned in Moonshots with Peter Diamandis discussion"
+      }
+    ],
+    "preview": "The AI CEO Arrives: Sam Altman's Succession Plan, Job Loss Continues, and Our 2027 'Solve Everything' Paper | EP #230 Moonshots with Peter Diamandis Episode 230  00:00:00   When do we see a billion-do",
+    "processed_at": "2026-02-16T21:29:59.667150"
+  },
+  {
+    "podcast": "a16z Live",
+    "filename": "default.txt",
+    "tickers_found": 5,
+    "ticker_mentions": [
+      {
+        "ticker": "JCR",
+        "sentiment": "neutral",
+        "conviction_score": 50,
+        "context": "Mentioned in a16z Live discussion"
+      },
+      {
+        "ticker": "FAIR",
+        "sentiment": "neutral",
+        "conviction_score": 50,
+        "context": "Mentioned in a16z Live discussion"
+      },
+      {
+        "ticker": "AMD",
+        "sentiment": "neutral",
+        "conviction_score": 50,
+        "context": "Mentioned in a16z Live discussion"
+      },
+      {
+        "ticker": "PARC",
+        "sentiment": "neutral",
+        "conviction_score": 50,
+        "context": "Mentioned in a16z Live discussion"
+      },
+      {
+        "ticker": "SEO",
+        "sentiment": "neutral",
+        "conviction_score": 50,
+        "context": "Mentioned in a16z Live discussion"
+      }
+    ],
+    "preview": "Is there a better way? I think there is. Every single interface that I interact with, every single problem space that I'm trying to solve are going to be made easier by virtue of this new technology. ",
+    "processed_at": "2026-02-16T21:29:59.672664"
+  },
+  {
+    "podcast": "Moonshots with Peter Diamandis",
+    "filename": "peter_diamandis_brett_adcock_ep229.txt",
+    "tickers_found": 1,
+    "ticker_mentions": [
+      {
+        "ticker": "VTOL",
+        "sentiment": "neutral",
+        "conviction_score": 50,
+        "context": "Mentioned in Moonshots with Peter Diamandis discussion"
+      }
+    ],
+    "preview": "Brett Adcock: Humanoid Run on Neural Net, Autonomous Manufacturing, $50T Market #229 Moonshots with Peter Diamandis Episode 229  00:00:00   I am blown away by how far you've come. The things that you ",
+    "processed_at": "2026-02-16T21:29:59.673230"
+  },
+  {
+    "podcast": "Monetary Matters with Jack Farley",
+    "filename": "EWWMN6429295583.txt",
+    "tickers_found": 6,
+    "ticker_mentions": [
+      {
+        "ticker": "SOX",
+        "sentiment": "bearish",
+        "conviction_score": 20,
+        "context": "Mentioned in Monetary Matters with Jack Farley discussion"
+      },
+      {
+        "ticker": "SOXX",
+        "sentiment": "bearish",
+        "conviction_score": 40,
+        "context": "Mentioned in Monetary Matters with Jack Farley discussion"
+      },
+      {
+        "ticker": "VXN",
+        "sentiment": "neutral",
+        "conviction_score": 50,
+        "context": "Mentioned in Monetary Matters with Jack Farley discussion"
+      },
+      {
+        "ticker": "ESP",
+        "sentiment": "neutral",
+        "conviction_score": 50,
+        "context": "Mentioned in Monetary Matters with Jack Farley discussion"
+      },
+      {
+        "ticker": "SNP",
+        "sentiment": "neutral",
+        "conviction_score": 50,
+        "context": "Mentioned in Monetary Matters with Jack Farley discussion"
+      },
+      {
+        "ticker": "VIX",
+        "sentiment": "bearish",
+        "conviction_score": 20,
+        "context": "Mentioned in Monetary Matters with Jack Farley discussion"
+      }
+    ],
+    "preview": "Later on, you'll hear more about the Fundrise Income Fund and why sophisticated investors are turning to higher yielding assets like private credit. But for now, let's get into today's interview. In t",
+    "processed_at": "2026-02-16T21:29:59.686614"
+  }
+]

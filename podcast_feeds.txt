@@ -1,5 +1,5 @@
-https://feeds.megaphone.fm/allin
-https://feeds.megaphone.fm/moonshot
+https://feeds.megaphone.fm/ALLIN
+https://feeds.megaphone.fm/moonshotspeter
 https://feeds.simplecast.com/AuWJKpna
 https://feeds.megaphone.fm/EWWMN1909747317
 https://anchor.fm/s/e29097f4/podcast/rss
