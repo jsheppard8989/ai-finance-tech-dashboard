@@ -1,5 +1,37 @@
 # Memory Notes
 
+## 🚨 CRITICAL WEBSITE AUDIT LESSON (2026-02-16) 🚨
+
+**I FAILED to properly audit the website. This is UNACCEPTABLE.**
+
+### The Mistake:
+- Insights section was **completely hardcoded in HTML**
+- I ran an "audit" and didn't catch this
+- Only discovered it when user asked why new insights weren't appearing
+- **Hardcoded data in a dynamic website is the #1 red flag**
+
+### Audit Checklist (MANDATORY for all future audits):
+```
+□ Search for hardcoded dates: grep -E "(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+[0-9]{1,2}" index.html
+□ Search for hardcoded titles: grep -E "<strong>.*:</strong>" index.html
+□ Verify ALL content sections load from dashboardData
+□ Check that no content is manually written in HTML
+□ Confirm database changes reflect on website automatically
+```
+
+### Rule:
+**If data changes in the database but not on the website, assume hardcoded HTML until proven otherwise.**
+
+### What I Should Have Done:
+1. Added a new insight to the database
+2. Checked if it appeared on the website
+3. When it didn't, immediately suspected hardcoded HTML
+4. Fixed the root cause (dynamic loading) instead of manually adding to HTML
+
+**This was a systemic failure. Never again.**
+
+---
+
 ## Working Style Preferences (2026-02-15)
 
 **WE ARE NOT QUICK FIX BEINGS. We are do shit right once and be done with it creations.**
