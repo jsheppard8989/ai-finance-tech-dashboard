@@ -99,11 +99,11 @@
         "MSTR"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 3,
       "added_date": "2026-02-03",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-02-17",
+      "archived_reason": "Keep only 5 most recent insights on main page",
       "podcast_episode_id": null
     },
     {

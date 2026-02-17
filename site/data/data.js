@@ -1,8 +1,8 @@
-// Auto-generated data file - 2026-02-16T22:14:48.724437
+// Auto-generated data file - 2026-02-16T22:24:21.505664
 // DO NOT EDIT MANUALLY
 
 const dashboardData = {
-  generatedAt: "2026-02-16T22:14:48.724452",
+  generatedAt: "2026-02-16T22:24:21.505683",
   tickerScores: [
   {
     "id": 7,
@@ -282,11 +282,11 @@ const dashboardData = {
         "MSTR"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 3,
       "added_date": "2026-02-03",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-02-17",
+      "archived_reason": "Keep only 5 most recent insights on main page",
       "podcast_episode_id": null
     },
     {
@@ -635,18 +635,18 @@ const dashboardData = {
       "podcast_episode_id": null
     },
     {
-      "id": 3,
-      "title": "Bitcoin as Hard Asset",
+      "id": 4,
+      "title": "Healthcare AI Moats",
       "source_type": "podcast",
-      "source_name": "Jack Mallers Show",
-      "source_date": "2026-02-03",
-      "summary": "New liquidity regime narrative gaining traction - BTC decoupling from tech-correlation as treasury reserve thesis resurfaces.",
-      "key_takeaway": "BTC positioning vs DXY weakness, yen carry unwind scenarios.",
-      "tickers_mentioned": "[\"BTC\", \"COIN\", \"MSTR\"]",
+      "source_name": "a16z Live",
+      "source_date": "2026-01-25",
+      "summary": "Tennr and Camber building operational infrastructure rather than clinical AI. First-mover advantage in regulatory capture.",
+      "key_takeaway": "Watch for IPO pipeline in healthtech operations.",
+      "tickers_mentioned": "[\"VEEV\", \"TDOC\", \"DOCS\"]",
       "sentiment": "bullish",
       "display_on_main": 1,
-      "display_order": 3,
-      "added_date": "2026-02-03",
+      "display_order": 4,
+      "added_date": "2026-01-25",
       "archived_date": null,
       "archived_reason": null,
       "podcast_episode_id": null
