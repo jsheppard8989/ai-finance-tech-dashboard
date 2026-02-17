@@ -1,0 +1,28 @@
+# Python dependencies for AI Finance Tech Pipeline
+# Install with: pip install -r requirements.txt
+
+# Email processing
+imaplib2>=3.6
+
+# Data processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Database
+sqlite3-python
+
+# Web requests
+requests>=2.31.0
+
+# Environment variables
+python-dotenv>=1.0.0
+
+# Optional: For transcription (if using OpenAI API)
+# openai>=1.0.0
+
+# Optional: For enhanced podcast processing
+# pydub>=0.25.0
+# speechrecognition>=3.10.0
+
+# Optional: For push notifications
+# pushover-complete>=1.1.0

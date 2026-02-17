@@ -12,8 +12,10 @@ build/
 dashboard.db
 *.db-journal
 
-# Environment
+# Environment (CRITICAL: Never commit .env files!)
 .env
+.env.local
+.env.*.local
 .venv
 venv/
 

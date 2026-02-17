@@ -43,6 +43,27 @@
       "podcast_episode_id": null
     },
     {
+      "id": 9,
+      "title": "Milton Berg's Market Signals: Local Bottom or Major Top?",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters",
+      "source_date": "2026-02-06",
+      "summary": "Legendary technician sees conflicting signals: December VXN sell signal suggests major top, but Thursday's panic indicators (35% VXN spike, Russell island reversal) match historical local bottoms. April 2025 buy signals have not yet achieved projected 6-8% upside.",
+      "key_takeaway": "Unprecedented Russell 2000 island reversal suggests sharp correction likely, but panic may be overdone short-term",
+      "tickers_mentioned": [
+        "SPY",
+        "QQQ",
+        "IWM"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 2,
+      "added_date": "2026-02-15",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": null
+    },
+    {
       "id": 3,
       "title": "Bitcoin as Hard Asset",
       "source_type": "podcast",
@@ -145,6 +166,47 @@
       "added_date": "2025-12-17",
       "archived_date": "2026-01-06",
       "archived_reason": "Theme still relevant but content aged out",
+      "podcast_episode_id": null
+    },
+    {
+      "id": 10,
+      "title": "Carson Block: Don't Short AI Yet, Buy Gold Miners",
+      "source_type": "podcast",
+      "source_name": "Muddy Waters",
+      "source_date": "2025-11-15",
+      "summary": "Short seller warns against fighting AI momentum despite recognizing bubble conditions. Real opportunity in mining: Snowline Gold is most compelling greenfield acquisition target as majors deplete reserves. Vietnam and India benefit from Cold War 2.0 FDI redirection.",
+      "key_takeaway": "Wait for AI supply to overwhelm demand before shorting; gold miners offer M&A upside with less risk",
+      "tickers_mentioned": [
+        "SNWGF",
+        "MINE"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 3,
+      "added_date": "2026-02-15",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": null
+    },
+    {
+      "id": 8,
+      "title": "Bitcoin's Liquidity Rotation: From Software to Hard Asset",
+      "source_type": "podcast",
+      "source_name": "The Jack Mallers Show",
+      "source_date": "2025-02-09",
+      "summary": "Bitcoin has traded like a tech stock (0.8 correlation) but is undergoing a healthy decoupling as liquidity rotates from software to hard assets. AI capex is transforming software companies from cash machines to capital-intensive businesses. Fed yield curve control and China's treasury dump signal monetary regime change.",
+      "key_takeaway": "Bitcoin's 20% drop is healthy capitulation shaking out tech tourists before hard asset repricing",
+      "tickers_mentioned": [
+        "BTC",
+        "MSTR",
+        "COIN"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 1,
+      "added_date": "2026-02-15",
+      "archived_date": null,
+      "archived_reason": null,
       "podcast_episode_id": null
     }
   ],

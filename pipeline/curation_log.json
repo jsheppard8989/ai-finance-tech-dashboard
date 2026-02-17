@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-02-15T08:53:26.882362",
-  "total_audio_files": 11,
+  "timestamp": "2026-02-16T21:31:42.941025",
+  "total_audio_files": 10,
   "approved_for_transcription": 7,
   "episodes": [
     {
@@ -120,6 +120,24 @@
       "status": "APPROVED"
     },
     {
+      "podcast": "Monetary Matters with Jack Farley",
+      "title": "\u201cA Huge Problem for Everybody\u201d | Paul Krugman on Currency Devaluation, Artificial Intelligence, Kevin Warsh Nomination, & More",
+      "description": "\n        <p>This episode is brought to you by the Pictet AI Enhanced International Equity ETF ($PQNT): <a href=\"https://www.youtube.com/redirect?event=video_description&amp;redir_token=QUFFLUhqa0lpaFQ0Z2EwUG9FbDdVc2lXdFNRaG50V1dUZ3xBQ3Jtc0tsa3A0VVctQ014a3FObnJWNXBzNG0zRkU0a01nclVHTVQyWU04d2JxVnE5bXdsSFFOOWRyTkVVbG9DUEJPNm1QTnpia29kRmpVUHEzS1hVZ0pIZjN2Q0hzSVZDN2VaVFVrT0hZOVdvNm80UlZ3OHNyZw&amp;q=https%3A%2F%2Fetf.am.pictet.com%2Fpqnt%2F&amp;v=iCsa2zq7jAE\">https://etf.am.pictet.com/pqnt/</a></p>\n<",
+      "audio_url": "https://traffic.megaphone.fm/EWWMN3482909708.mp3",
+      "published": "Sun, 15 Feb 2026 20:38:00 -0000",
+      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/EWWMN3482909708.mp3",
+      "filename": "EWWMN3482909708.mp3",
+      "relevance_score": 5,
+      "matched_keywords": [
+        "equity",
+        "valuation",
+        "ai",
+        "artificial intelligence",
+        "intel"
+      ],
+      "status": "APPROVED"
+    },
+    {
       "podcast": "Moonshots with Peter Diamandis",
       "title": "The AI CEO Arrives: Sam Altman's Succession Plan, Job Loss Continues, and Our 2027 'Solve Everything' Paper | EP #230",
       "description": "\n        <p>The mates discuss the accelerating path toward a singularity and unveil their \"Solve Everything\" paper.\u00a0</p>\n<p><br></p>\n<p>Read the Solve Everything Paper: <a href=\"https://solveeverything.org/\"><u>https://solveeverything.org/</u></a>\u00a0</p>\n<p><br></p>\n<p>Get notified once we go live during Abundance360: <a href=\"https://www.abundance360.com/livestream\"><u>https://www.abundance360.com/livestream</u></a>\u00a0</p>\n<p><br></p>\n<p>Get access to metatrends 10+ years before anyone else - <a hr",
@@ -134,21 +152,6 @@
       "status": "SKIPPED (low relevance)"
     },
     {
-      "podcast": "The Moonshot Podcast ",
-      "title": "The Moonshot Podcast Deep Dive: Jason Rugolo on iyO and the Future of Audio Wearables",
-      "description": "\n        <p>In the eighth installment of the Moonshot Podcast Deep Dive series, Astro Teller discusses the future of audio wearables with iyO Founder Jason Rugolo.\n\nThey discuss the many unexpected use cases for machine-mediated hearing, what it was like to build the world\u2019s first audio computer and how to make audio wearables \u201ccool.\u201d\n \nFor more on the origins of iyO and the next generation of audio wearable technology, tune into Episode 9 of the Moonshot Podcast, \u201cSupersenses\u201d: https://www.yout",
-      "audio_url": "https://www.podtrac.com/pts/redirect.mp3/pscrb.fm/rss/p/traffic.megaphone.fm/IMP3972824673.mp3?updated=1764099224",
-      "published": "Tue, 25 Nov 2025 19:26:00 -0000",
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/IMP3972824673.mp3",
-      "filename": "IMP3972824673.mp3",
-      "relevance_score": 2,
-      "matched_keywords": [
-        "tech",
-        "technology"
-      ],
-      "status": "APPROVED"
-    },
-    {
       "podcast": "The Jack Mallers Show",
       "title": "From Software to Hard Asset: Bitcoin in a New Liquidity Regime",
       "description": "<p>Streaming live Mondays at 6pm ET on The Jack Mallers Show YouTube channel.</p>\n",
@@ -161,18 +164,6 @@
         "bitcoin"
       ],
       "status": "SKIPPED (low relevance)"
-    },
-    {
-      "podcast": "The Moonshot Podcast ",
-      "title": "Moonshot Podcast Deep Dive: Emily Ma on Solving Food Waste",
-      "description": "\n        <p>In the ninth installment of the Moonshot Podcast Deep Dive series, Astro Teller and Emily Ma explore how to solve humanity\u2019s food waste and hunger problems.\n\nThey discuss how Project Delta built an \u201cair traffic control\u201d system for the world\u2019s surplus food. They also discuss the origins of Chorus, X\u2019s moonshot to give every object a voice which is now focused on optimizing global supply chains using advanced sensors and orchestration software.\n \nFor more on the future of food waste, t",
-      "audio_url": "https://www.podtrac.com/pts/redirect.mp3/pscrb.fm/rss/p/traffic.megaphone.fm/IMP9962311305.mp3",
-      "published": "Tue, 13 Jan 2026 16:33:00 -0000",
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/IMP9962311305.mp3",
-      "filename": "IMP9962311305.mp3",
-      "relevance_score": -1,
-      "status": "EXCLUDED",
-      "matched_keywords": []
     }
   ]
 }

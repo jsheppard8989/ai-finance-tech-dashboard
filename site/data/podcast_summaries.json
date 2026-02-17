@@ -1,0 +1,145 @@
+[
+  {
+    "id": 2,
+    "podcast_name": "Monetary Matters",
+    "episode_title": "Technical Analysis Deep Dive with Milton Berg - February 2026 Market Signals",
+    "episode_date": "2026-02-06",
+    "summary": "Legendary technician Milton Berg analyzes current market conditions using proprietary indicators. Despite the market holding up well, Berg sees warning signals including a rare VXN pattern (35% gain in 3 days) and an unprecedented one-day island reversal in the Russell 2000. He went short on December 11th based on VXN sell signals and remains cautious. However, Thursday Feb 5th's action matched patterns seen at local bottoms (1997, 2015, 2024), creating tension between short-term bounce potential and medium-term bearish signals.",
+    "key_takeaways": [
+      "April 2025 buy signals projected 6-8% more upside from January highs - not yet satisfied",
+      "December 11th VXN sell signal has kept Berg short - historically leads to significant declines",
+      "Thursday Feb 5th matched local bottom patterns: VXN +35% in 3 days, weakest 5-day Nasdaq performance in 180 days",
+      "Russell 2000 one-day island reversal at peak is unprecedented - extremely bearish signal",
+      "Market hasn't had 7% correction since April lows - historically unusual this deep into rally",
+      "Berg flipped from 100%+ short to covering shorts and going long on Feb 9th based on panic indicators",
+      "Small caps leading then crashing is classic late-cycle behavior (the 'dogs' lead at tops)",
+      "False signals occur in bull markets - context of April thrust matters for signal interpretation"
+    ],
+    "investment_thesis": "Technical indicators suggest we're at an inflection point. While medium-term sell signals remain valid, short-term panic indicators suggest a bounce is likely. The unique Russell 2000 island reversal and VXN spike suggest this correction could be sharp but potentially short-lived if historical patterns hold.",
+    "key_tickers": [
+      "SPY",
+      "QQQ",
+      "IWM",
+      "VIX"
+    ]
+  },
+  {
+    "id": 6,
+    "podcast_name": "a16z AI Revolution",
+    "episode_title": "Boz on the Post-Phone Era: AI, AR, and the Future of Computing",
+    "episode_date": "2025-12-01",
+    "summary": "Meta CTO Andrew 'Boz' Bosworth discusses the shift from mobile to AI-enabled wearable computing. Ray-Ban Meta glasses transformed from 'smart glasses' to 'AI glasses' when Llama 3 arrived 6 months before production. Key insights: 1) AI enables intent-based computing vs app-based, 2) Orion AR glasses show post-phone world is possible, 3) Open source AI (Llama) aligns with Meta's business model - commoditizing complements, 4) Ecosystem risk remains biggest challenge but AI could provide bridge to new interaction models.",
+    "key_takeaways": [
+      "Ray-Ban Meta glasses became AI glasses when Llama 3 hit - 6 months before production",
+      "10-year vision: AR glasses widely adopted; 5-year: good but tethered to phone",
+      "AI enables intent-based computing - 'play music' vs 'open Spotify'",
+      "App model may invert - AI orchestrates services rather than user picking apps",
+      "Orion glasses first glimpse of life after smartphones",
+      "Open source AI aligns with Meta's business - commoditizing complements",
+      "Privacy and social acceptability remain key hurdles for always-on devices",
+      "Nuclear power derailed for 70 years - cautionary tale for overstepping with new tech"
+    ],
+    "investment_thesis": "Meta is positioning for post-phone computing era through Reality Labs investments. AI tailwind accelerates timeline for AR/VR adoption. Open source strategy commoditizes AI models while Meta captures value through applications.",
+    "key_tickers": [
+      "META",
+      "AAPL",
+      "SNAP",
+      "GOOGL"
+    ]
+  },
+  {
+    "id": 3,
+    "podcast_name": "Muddy Waters",
+    "episode_title": "Carson Block on Short Selling, AI Pretenders, and Mining Opportunities",
+    "episode_date": "2025-11-15",
+    "summary": "Carson Block discusses short selling in AI hype cycles and opportunities in mining. He warns against shorting AI pretenders too early despite recognizing overvaluation - momentum can persist longer than expected. Key insights: 1) AI bubble will pop when supply of speculative companies overwhelms demand, 2) Hyperscalers (MSFT, GOOGL, META) have cash flows to survive AI capex unlike dotcoms, 3) Vietnam and India benefit from US-China Cold War, 4) Snowline Gold is most compelling greenfield gold deposit for acquisition by majors.",
+    "key_takeaways": [
+      "Shorting AI pretenders now is dangerous despite overvaluation - momentum too strong",
+      "AI bubble pops when supply of speculative companies overwhelms demand - expect 2026 IPO flood",
+      "Hyperscalers can survive AI investments due to massive cash flows - unlike dotcoms",
+      "Snowline Gold is most compelling greenfield gold deposit globally - likely acquisition target",
+      "Vietnam benefits from FDI flows redirecting from China - now improving decision-making",
+      "India offers similar Cold War benefits with large consumer growth story",
+      "Chinese ADRs remain fraudulent - SEC can't investigate due to lack of cooperation",
+      "Hong Kong market is 'cesspit' with frequent pump and dump schemes",
+      "Mining offers venture capital returns with more data - under-allocated sector"
+    ],
+    "investment_thesis": "Focus on real assets like gold miners that benefit from both metal prices and M&A activity as majors deplete reserves. Avoid shorting overvalued AI names until momentum breaks. Vietnam and India offer geographic diversification for long-term capital.",
+    "key_tickers": [
+      "SNWGF",
+      "CVNA",
+      "APP",
+      "OKLO",
+      "GME",
+      "TSLA"
+    ]
+  },
+  {
+    "id": 1,
+    "podcast_name": "The Jack Mallers Show",
+    "episode_title": "Episode 104: From Software to Hard Asset - Bitcoin and the New Liquidity Regime",
+    "episode_date": "2025-02-09",
+    "summary": "Jack Mallers delivers a macro thesis on Bitcoin's decoupling from tech stocks. He argues Bitcoin has been trading like software/tech stocks due to shared investor bases, but the current liquidity rotation from software to hard assets (energy, critical minerals, infrastructure) is shaking out weak hands. Key catalysts include: 1) AI capex making software companies capital-intensive rather than cash-generative, 2) US policy pivoting to rebuild domestic industry, 3) China dumping treasuries for gold. Mallers sees this as healthy capitulation that will ultimately benefit Bitcoin as it matures into trading like a hard asset rather than tech.",
+    "key_takeaways": [
+      "Bitcoin's correlation to tech stocks (~0.8) vs gold (~0.09) shows it's been misclassified by the market",
+      "Software stocks are getting crushed as AI capex transforms them from cash machines to capital-intensive businesses",
+      "US liquidity is rotating from financial engineering (buybacks, high multiples) to real economy (infrastructure, defense, critical minerals)",
+      "Larry Fink's Davos comments acknowledged wealth creation went to narrow slice of society - elite overproduction creates political instability",
+      "China urging banks to curb US treasury exposure while loading up on gold signals monetary regime change",
+      "Fed's Warsh discussing yield curve control means money printing to cap yields - highly bullish for hard assets",
+      "Bitcoin at $70k with only 50% supply in profit suggests we're in latter half of pain, not beginning of bear market",
+      "Tech tourists getting flushed out is healthy - Bitcoin will eventually trade as hard money, not tech stock"
+    ],
+    "investment_thesis": "Bitcoin is experiencing a healthy correction that shakes out tech-stock tourists while the underlying hard asset narrative strengthens. The liquidity regime is shifting from paper assets to real assets, and Bitcoin stands to benefit as the only truly scarce digital asset. With potential Fed yield curve control coming and China diversifying from USD, Bitcoin's monetary premium should expand.",
+    "key_tickers": [
+      "BTC",
+      "MSTR",
+      "COIN",
+      "HOOD"
+    ]
+  },
+  {
+    "id": 5,
+    "podcast_name": "X (Google X)",
+    "episode_title": "Delta: Solving Food Waste with Technology",
+    "episode_date": "2024-06-01",
+    "summary": "Astro Teller interviews Emily Ma about the Delta project tackling food waste at X. Food waste costs US households $1,500/year and generates significant methane emissions. The team built an 'air traffic control' system for surplus food using open-source standards (Open Product Recovery) to match surplus with need. The system now operates across Feeding America network and is expanding globally. Key insight: 40% of US food waste occurs at households, but X focused on upstream (farms, processors, retailers) for maximum impact.",
+    "key_takeaways": [
+      "US households waste $1,500/year in food on average",
+      "Food waste is largest source of methane from landfills - 80x worse than CO2",
+      "40% of US food waste happens at consumer/household level",
+      "Air traffic control system matches surplus food with recipients using blockchain-like trust chain",
+      "Dana Yost in Arizona pioneered manual food surplus brokering - now automated",
+      "Open Product Recovery is open-source standard adopted by Kroger, Feeding America",
+      "Chorus project tracks temperature/chain of custody for perishables",
+      "COVID vaccine distribution applied learnings from food supply chain tracking"
+    ],
+    "investment_thesis": "Food waste reduction represents ESG investment opportunity with measurable climate impact. Technology solutions for supply chain optimization and inventory management will see increased demand as retailers face sustainability mandates.",
+    "key_tickers": [
+      "KR",
+      "WMT"
+    ]
+  },
+  {
+    "id": 4,
+    "podcast_name": "X (Google X)",
+    "episode_title": "Wolverine: Machine-Mediated Hearing and the Future of Audio Computing",
+    "episode_date": "2024-01-15",
+    "summary": "Astro Teller interviews Jason Rugolo about the Wolverine project at X - creating machine-mediated hearing devices. The project evolved from 30+ ideas to focus on audio wearables that enhance hearing while remaining socially acceptable. Key innovations include: real-time voice separation (the 'Big Knob' demo), translation capabilities, hearing protection, and privacy-preserving input/output. The device uses outward-facing microphones to capture sound, processes it through ML models, and delivers enhanced audio to the ear.",
+    "key_takeaways": [
+      "Wolverine project evolved from 30+ ideas including nuclear humans and digital matrix living",
+      "Machine-mediated hearing allows selective enhancement of voices in noisy environments",
+      "Translation app (Babel) enables real-time conversation across languages",
+      "Privacy-by-design: voice pickup from ear canal prevents ambient eavesdropping",
+      "30ms latency requirement to avoid perceptible delay vs natural hearing",
+      "Wearables must be stylish and comfortable - learning from Google Glass challenges",
+      "Hearing protection built-in prevents dangerous sound levels from reaching eardrums",
+      "Device can make hearing aids socially acceptable by adding consumer tech value"
+    ],
+    "investment_thesis": "Audio wearables represent next computing platform after smartphones. Success depends on solving wearability challenges and achieving social acceptance. Translation and hearing enhancement are killer apps that could drive mass adoption.",
+    "key_tickers": [
+      "GOOGL",
+      "MSFT"
+    ]
+  }
+]

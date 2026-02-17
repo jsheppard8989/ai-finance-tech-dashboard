@@ -42,35 +42,15 @@ def run_step(name: str, script: str, args: list = None) -> bool:
         return False
 
 def import_podcasts_to_db():
-    """Import processed podcast transcripts into database."""
-    print("\n" + "="*60)
-    print("Importing Podcasts to Database")
-    print("="*60)
-    
-    db = get_db()
-    transcript_dir = Path.home() / ".openclaw/workspace/pipeline/transcripts"
-    
-    imported = 0
-    for transcript_file in transcript_dir.glob("*.txt"):
-        # Skip already processed or check if in DB
-        # This is a simplified version - you'd want more sophisticated matching
-        podcast_name = transcript_file.stem
-        
-        # Read first few lines to get metadata
-        try:
-            with open(transcript_file, 'r') as f:
-                content = f.read()
-                preview = content[:500]
-        except:
-            continue
-        
-        # Add to processing queue or directly to mentions
-        # For now, just log it
-        print(f"  Found transcript: {podcast_name}")
-        imported += 1
-    
-    print(f"✓ Found {imported} transcripts")
-    return imported
+    """Import processed podcast transcripts into database using AI analysis."""
+    # Import and run the transcript analyzer
+    try:
+        from analyze_transcript import process_all_transcripts
+        result = process_all_transcripts()
+        return result.get('processed', 0)
+    except Exception as e:
+        print(f"✗ Transcript analysis failed: {e}")
+        return 0
 
 def import_newsletters_to_db():
     """Import processed newsletters into database."""
@@ -388,29 +368,29 @@ def main():
     results['import_podcasts'] = import_podcasts_to_db()
     results['import_newsletters'] = import_newsletters_to_db()
     
-    # Step 5: Run analysis
-    results['analysis'] = run_step("Ticker Analysis", "analyze_enhanced.py")
+    # Step 5: Extract themes and research insights
+    results['research'] = run_step("Theme & Research Analysis", "research.py")
     
     # Step 6: Aggregate scores
     results['aggregate'] = aggregate_daily_scores()
     
-    # Step 6b: Auto-archive old content
+    # Step 7: Auto-archive old content
     results['auto_archive'] = auto_archive_content()
     
-    # Step 6c: Fetch current prices
+    # Step 8: Fetch current prices
     results['prices'] = run_step("Price Update", "fetch_prices.py")
     
-    # Step 6d: Manage suggested terms
+    # Step 9: Manage suggested terms
     results['suggested_terms'] = run_step("Suggested Terms Management", "manage_suggested_terms.py")
     
-    # Step 7: Generate charts
+    # Step 10: Generate charts
     results['charts'] = run_step("Chart Generation", "generate_charts.py")
     
-    # Step 8: Export for website
+    # Step 11: Export for website
     results['export'] = export_website_data()
     results['generate_js'] = generate_website_js()
 
-    # Step 9: Push to GitHub (if configured)
+    # Step 12: Push to GitHub (if configured)
     results['github_push'] = push_to_github()
 
     # Summary

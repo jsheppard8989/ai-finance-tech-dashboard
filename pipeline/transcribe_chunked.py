@@ -19,11 +19,12 @@ API_KEY = os.environ.get('OPENAI_API_KEY')
 # Files to transcribe (approved from curation_log.json)
 FILES_TO_TRANSCRIBE = [
     "EWWMN2965097612.mp3",
-    "EWWMN6429295583.mp3", 
+    "EWWMN6429295583.mp3",
     "IMP3972824673.mp3",
     "default.mp3",
     "https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-0-13%2F4f1c691a-555d-6be3-1ab4-1aebf83a0b84.mp3",
-    "https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-3%2F417366235-44100-2-96fb158c7055a.mp3"
+    "https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-3%2F417366235-44100-2-96fb158c7055a.mp3",
+    "DVVTS3287004650.mp3"  # Moonshots: Brett Adcock on Humanoid Robots
 ]
 
 def get_duration(file_path):
