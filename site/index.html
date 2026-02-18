@@ -1400,6 +1400,14 @@
             <div id="suggestions-list">
               <!-- Suggested terms loaded dynamically from database -->
             </div>
+            <div style="margin-top: 1rem; padding-top: 1rem; border-top: 1px solid rgba(255,255,255,0.1);">
+              <button onclick="syncPendingVotes()" style="background: rgba(0, 212, 255, 0.1); border: 1px solid rgba(0, 212, 255, 0.3); color: #00d4ff; padding: 0.5rem 1rem; border-radius: 6px; cursor: pointer; font-size: 0.85rem; width: 100%;">
+                🔄 Sync Votes (Export for Pipeline)
+              </button>
+              <p style="color: #8892b0; font-size: 0.75rem; margin-top: 0.5rem; text-align: center;">
+                Auto-syncs when viewing locally. Export needed for GitHub Pages.
+              </p>
+            </div>
           </div>
 
           <!-- Contact Section -->
@@ -1731,6 +1739,75 @@
       }
 
       console.log(`Voted ${voteType} on "${term}" - Up: ${voteData[term].up}, Down: ${voteData[term].down}`);
+
+      // Try to sync to server (if running locally)
+      syncVoteToServer(term, voteType);
+    }
+
+    // Sync vote to local server
+    async function syncVoteToServer(term, voteType) {
+      try {
+        const response = await fetch('http://localhost:8765/vote', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ term, type: voteType, timestamp: new Date().toISOString() })
+        });
+        if (response.ok) {
+          console.log(`✓ Vote synced to server for "${term}"`);
+        }
+      } catch (e) {
+        // Server not running (expected when viewing on GitHub Pages)
+        console.log(`Vote saved locally only (server not reachable)`);
+        
+        // Queue for later sync
+        let pendingVotes = JSON.parse(localStorage.getItem('pending_votes') || '[]');
+        pendingVotes.push({ term, type: voteType, timestamp: new Date().toISOString() });
+        localStorage.setItem('pending_votes', JSON.stringify(pendingVotes));
+      }
+    }
+
+    // Export votes for manual sync (when viewing on GitHub Pages)
+    function exportVotes() {
+      const votes = [];
+      
+      // Get all vote data
+      Object.entries(voteData).forEach(([term, counts]) => {
+        for (let i = 0; i < counts.up; i++) {
+          votes.push({ term, type: 'up', timestamp: new Date().toISOString() });
+        }
+        for (let i = 0; i < counts.down; i++) {
+          votes.push({ term, type: 'down', timestamp: new Date().toISOString() });
+        }
+      });
+
+      // Add pending votes
+      const pending = JSON.parse(localStorage.getItem('pending_votes') || '[]');
+      votes.push(...pending);
+      
+      // Download as JSON
+      const blob = new Blob([JSON.stringify(votes, null, 2)], { type: 'application/json' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'votes.json';
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+      
+      console.log(`Exported ${votes.length} votes`);
+      alert(`Exported ${votes.length} votes. Save votes.json to workspace/pipeline/ to sync.`);
+    }
+
+    // Sync pending votes button
+    function syncPendingVotes() {
+      const pending = JSON.parse(localStorage.getItem('pending_votes') || '[]');
+      if (pending.length === 0) {
+        alert('No pending votes to sync');
+        return;
+      }
+      
+      exportVotes();
     }
 
     // Load suggested terms from database
