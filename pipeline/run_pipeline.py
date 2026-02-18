@@ -383,6 +383,9 @@ def main():
     # Step 9: Manage suggested terms
     results['suggested_terms'] = run_step("Suggested Terms Management", "manage_suggested_terms.py")
     
+    # Step 9b: Process website votes and auto-promote/reject terms
+    results['process_votes'] = run_step("Process Website Votes", "process_votes.py")
+    
     # Step 10: Generate charts
     results['charts'] = run_step("Chart Generation", "generate_charts.py")
     
