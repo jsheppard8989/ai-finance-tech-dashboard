@@ -341,10 +341,13 @@ class DashboardDB:
         
         with self._get_connection() as conn:
             # Get active insights (limited to most recent 5)
+            # Join with podcast_episodes to get actual episode release date
             cursor = conn.execute("""
-                SELECT * FROM latest_insights
-                WHERE display_on_main = 1
-                ORDER BY display_order, source_date DESC
+                SELECT li.*, pe.episode_date as episode_release_date
+                FROM latest_insights li
+                LEFT JOIN podcast_episodes pe ON li.podcast_episode_id = pe.id
+                WHERE li.display_on_main = 1
+                ORDER BY li.display_order, li.source_date DESC
                 LIMIT 5
             """)
             content['insights'] = [dict(row) for row in cursor.fetchall()]

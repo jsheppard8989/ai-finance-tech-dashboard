@@ -1,8 +1,8 @@
-// Auto-generated data file - 2026-02-18T06:33:49.820103
+// Auto-generated data file - 2026-02-18T06:41:31.057075
 // DO NOT EDIT MANUALLY
 
 const dashboardData = {
-  generatedAt: "2026-02-18T06:33:49.820117",
+  generatedAt: "2026-02-18T06:41:31.057089",
   tickerScores: [],
   archive: {
   "insights": [
@@ -47,7 +47,7 @@ const dashboardData = {
       "added_date": "2026-02-16",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": null
+      "podcast_episode_id": 13
     },
     {
       "id": 2,
@@ -404,7 +404,8 @@ const dashboardData = {
       "added_date": "2026-02-16",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": null
+      "podcast_episode_id": 13,
+      "episode_release_date": "2026-02-13"
     },
     {
       "id": 1,
@@ -421,7 +422,8 @@ const dashboardData = {
       "added_date": "2026-02-13",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": null
+      "podcast_episode_id": null,
+      "episode_release_date": null
     },
     {
       "id": 2,
@@ -438,7 +440,8 @@ const dashboardData = {
       "added_date": "2026-02-10",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": null
+      "podcast_episode_id": null,
+      "episode_release_date": null
     },
     {
       "id": 9,
@@ -455,7 +458,8 @@ const dashboardData = {
       "added_date": "2026-02-15",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": null
+      "podcast_episode_id": null,
+      "episode_release_date": null
     },
     {
       "id": 4,
@@ -472,7 +476,8 @@ const dashboardData = {
       "added_date": "2026-01-25",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": null
+      "podcast_episode_id": null,
+      "episode_release_date": null
     }
   ],
   "definitions": [
