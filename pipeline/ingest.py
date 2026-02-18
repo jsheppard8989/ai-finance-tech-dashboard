@@ -14,9 +14,15 @@ import ssl
 from datetime import datetime
 from pathlib import Path
 
+# Load environment variables from .env file if it exists
+from dotenv import load_dotenv
+env_path = Path(__file__).parent / '.env'
+if env_path.exists():
+    load_dotenv(env_path)
+
 # Config - Load from environment variables (NEVER hardcode passwords)
 EMAIL = os.environ.get('GMAIL_USER', 'jsheppard8989@gmail.com')
-PASSWORD = os.environ.get('GMAIL_APP_PASSWORD', '')  # Set via environment variable
+PASSWORD = os.environ.get('GMAIL_APP_PASSWORD', '')  # Set via environment variable or .env file
 IMAP_SERVER = "imap.gmail.com"
 IMAP_PORT = 993
 TARGET_FOLDER = "NEWSLETTERS"  # Gmail label/folder to check

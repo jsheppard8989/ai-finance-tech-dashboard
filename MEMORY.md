@@ -95,6 +95,46 @@ export GMAIL_APP_PASSWORD='your-new-app-password'
 - These are high-priority investment topics
 - Keywords added to curation system: bitcoin, btc, blockchain, satoshi, lightning network, altcoin, ethereum, eth, defi, web3, digital asset
 
+## Suggested Terms & Definitions Voting (2026-02-18)
+
+**Status:** ✅ Active
+
+### How It Works
+
+**1. Term Discovery**
+- Pipeline scans podcast transcripts and newsletters for new investment terms
+- Extracted terms go to `suggested_terms` table with status='pending'
+- Top 3 suggestions display on website under "Suggested New Terms"
+
+**2. User Voting (on website)**
+- 👍 Upvote terms you want added to Definitions
+- 👎 Downvote terms to skip/remove them
+- **Threshold:** 10 votes either way triggers auto-action
+
+**3. Vote Sync**
+- **Local viewing:** Votes auto-sync to `votes.json` via localhost:8765
+- **GitHub Pages:** Click "🔄 Sync Votes" button to export votes.json, then commit to repo
+
+**4. Auto-Processing (Pipeline Step 9b)**
+```
+10+ upvotes  → Auto-promote to Definitions (display_on_main=1)
+10+ downvotes → Auto-reject (status='rejected')
+```
+
+**Scripts:**
+- `pipeline/vote_receiver.py` - Local HTTP server for vote capture
+- `pipeline/process_votes.py` - Processes votes and promotes/rejects terms
+- `pipeline/manage_suggested_terms.py` - Extracts terms from content
+
+**To run manually:**
+```bash
+cd ~/.openclaw/workspace/pipeline
+python3 process_votes.py  # Process pending votes
+python3 manage_suggested_terms.py  # Extract new terms from content
+```
+
+---
+
 ## Scheduled Jobs
 
 **Morning Newsletter Check**

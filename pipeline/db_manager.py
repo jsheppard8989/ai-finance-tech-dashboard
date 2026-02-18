@@ -348,7 +348,7 @@ class DashboardDB:
                 LEFT JOIN podcast_episodes pe ON li.podcast_episode_id = pe.id
                 WHERE li.display_on_main = 1
                 ORDER BY li.display_order, li.source_date DESC
-                LIMIT 5
+                LIMIT 8
             """)
             content['insights'] = [dict(row) for row in cursor.fetchall()]
             
