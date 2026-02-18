@@ -2043,44 +2043,44 @@
       const container = document.getElementById('insights-container');
       if (!container) return;
       
-      // Get insights from dashboardData
+      // Get insights from dashboardData - ONLY show insights with Deep Dives
       let insights = [];
       if (typeof dashboardData !== 'undefined' && dashboardData.archive && dashboardData.archive.insights) {
-        // Filter to only show insights with display_on_main = 1
-        insights = dashboardData.archive.insights.filter(i => i.display_on_main === 1);
-        // Sort by source_date descending (newest first)
-        insights.sort((a, b) => new Date(b.source_date) - new Date(a.source_date));
+        // Filter to only show insights that have Deep Dive content
+        const deepDiveTitles = new Set();
+        if (dashboardData.deepDives) {
+          Object.values(dashboardData.deepDives).forEach(dd => {
+            if (dd.insight_title) deepDiveTitles.add(dd.insight_title);
+          });
+        }
+        
+        insights = dashboardData.archive.insights.filter(i => 
+          i.display_on_main === 1 && deepDiveTitles.has(i.title)
+        );
+        
+        // Sort by episode release date (or source_date as fallback) descending
+        insights.sort((a, b) => {
+          const dateA = new Date(a.episode_release_date || a.source_date);
+          const dateB = new Date(b.episode_release_date || b.source_date);
+          return dateB - dateA;
+        });
       }
       
       if (insights.length === 0) {
-        container.innerHTML = '<div class="placeholder">No insights available</div>';
+        container.innerHTML = '<div class="placeholder">No insights with Deep Dives available</div>';
         return;
       }
       
       // Render insights
       container.innerHTML = insights.map(insight => {
-        const date = new Date(insight.source_date);
-        const dateStr = date.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+        // Use episode release date if available, otherwise source_date
+        const displayDate = insight.episode_release_date || insight.source_date;
+        const date = new Date(displayDate);
+        const dateStr = date.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
         const tickers = insight.tickers_mentioned || [];
         const tickerStr = tickers.join(', ');
         const sentimentColor = insight.sentiment === 'bullish' ? '#4caf50' : 
                               insight.sentiment === 'bearish' ? '#f44336' : '#ffc107';
-        
-        // Check if this insight has Deep Dive content
-        let deepDiveButton = '';
-        if (typeof dashboardData !== 'undefined' && dashboardData.deepDives) {
-          const hasDeepDive = Object.values(dashboardData.deepDives).some(
-            dd => dd.insight_title === insight.title
-          );
-          if (hasDeepDive) {
-            deepDiveButton = `
-              <button onclick="event.stopPropagation(); showDeepDiveModal('${insight.title.replace(/'/g, "\\'")}')" 
-                      style="margin-top: 0.75rem; background: linear-gradient(90deg, #00d4ff, #7b2cbf); color: white; border: none; padding: 0.5rem 1rem; border-radius: 6px; cursor: pointer; font-weight: 600; font-size: 0.85rem; display: inline-flex; align-items: center; gap: 0.5rem;">
-                <span>🔍</span> Deep Dive
-              </button>
-            `;
-          }
-        }
         
         return `
           <div class="insight-item" onclick="toggleInsight(this)">
@@ -2090,14 +2090,17 @@
               <div style="font-size: 0.85rem; color: #a8b2d1;">
                 <strong>Key Tickers:</strong> ${tickerStr || 'None'}<br>
                 <strong>Thesis:</strong> ${insight.key_takeaway}
-                ${deepDiveButton}
+                <button onclick="event.stopPropagation(); showDeepDiveModal('${insight.title.replace(/'/g, "\\'")}')" 
+                        style="margin-top: 0.75rem; background: linear-gradient(90deg, #00d4ff, #7b2cbf); color: white; border: none; padding: 0.5rem 1rem; border-radius: 6px; cursor: pointer; font-weight: 600; font-size: 0.85rem; display: inline-flex; align-items: center; gap: 0.5rem;">
+                  <span>🔍</span> Deep Dive
+                </button>
               </div>
             </div>
           </div>
         `;
       }).join('');
       
-      console.log(`✓ Loaded ${insights.length} insights from database`);
+      console.log(`✓ Loaded ${insights.length} insights with Deep Dives from database`);
     }
 
     // Load podcast data from external source (kept for future database integration)
