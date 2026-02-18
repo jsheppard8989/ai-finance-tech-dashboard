@@ -95,6 +95,36 @@ export GMAIL_APP_PASSWORD='your-new-app-password'
 - These are high-priority investment topics
 - Keywords added to curation system: bitcoin, btc, blockchain, satoshi, lightning network, altcoin, ethereum, eth, defi, web3, digital asset
 
+## Newsletter Ingestion Fix (2026-02-18)
+
+**Issue:** Newsletter ingestion from Gmail was not working - the `newsletters` table was empty despite having JSON files in `inbox/`.
+
+**Root Cause:**
+- `ingest.py` only loaded from environment variables, not from `.env` file
+- The `.env` file existed but wasn't being read
+- Previous newsletters (Feb 13) were saved as JSON but never imported to database
+
+**Fix:**
+- Added `python-dotenv` to load `.env` file in `ingest.py`
+- Manually imported 5 pending newsletters to database (14 ticker mentions)
+- Added 8 insight cards limit (was 5)
+
+**To Fix Gmail Access:**
+```bash
+cd ~/.openclaw/workspace/pipeline
+cp .env.example .env
+# Edit .env and add your Gmail App Password:
+# GMAIL_APP_PASSWORD=your-app-password
+```
+
+**Generate App Password:**
+1. Go to https://myaccount.google.com/apppasswords
+2. Select "Mail" and device "Other (Custom name)"
+3. Name it "Stock Pipeline"
+4. Copy the 16-character password to `.env`
+
+---
+
 ## Suggested Terms & Definitions Voting (2026-02-18)
 
 **Status:** ✅ Active
