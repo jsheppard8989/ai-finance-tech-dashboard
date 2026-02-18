@@ -1,74 +1,9 @@
-// Auto-generated data file - 2026-02-17T06:48:00.914188
+// Auto-generated data file - 2026-02-18T06:33:49.820103
 // DO NOT EDIT MANUALLY
 
 const dashboardData = {
-  generatedAt: "2026-02-17T06:48:00.914203",
-  tickerScores: [
-  {
-    "id": 18,
-    "ticker": "Nasdaq",
-    "date": "2026-02-17",
-    "total_score": 12.0,
-    "podcast_mentions": 1,
-    "newsletter_mentions": 0,
-    "disruption_signals": 0,
-    "unique_sources": 1,
-    "top_sources": null,
-    "conviction_level": "high",
-    "contrarian_signal": "no",
-    "hidden_plays": null,
-    "rank": 1,
-    "created_at": "2026-02-17 12:47:57"
-  },
-  {
-    "id": 19,
-    "ticker": "Russell",
-    "date": "2026-02-17",
-    "total_score": 12.0,
-    "podcast_mentions": 1,
-    "newsletter_mentions": 0,
-    "disruption_signals": 0,
-    "unique_sources": 1,
-    "top_sources": null,
-    "conviction_level": "high",
-    "contrarian_signal": "no",
-    "hidden_plays": null,
-    "rank": 2,
-    "created_at": "2026-02-17 12:47:57"
-  },
-  {
-    "id": 20,
-    "ticker": "S&P",
-    "date": "2026-02-17",
-    "total_score": 12.0,
-    "podcast_mentions": 1,
-    "newsletter_mentions": 0,
-    "disruption_signals": 0,
-    "unique_sources": 1,
-    "top_sources": null,
-    "conviction_level": "high",
-    "contrarian_signal": "no",
-    "hidden_plays": null,
-    "rank": 3,
-    "created_at": "2026-02-17 12:47:57"
-  },
-  {
-    "id": 21,
-    "ticker": "Semiconductors",
-    "date": "2026-02-17",
-    "total_score": 12.0,
-    "podcast_mentions": 1,
-    "newsletter_mentions": 0,
-    "disruption_signals": 0,
-    "unique_sources": 1,
-    "top_sources": null,
-    "conviction_level": "high",
-    "contrarian_signal": "no",
-    "hidden_plays": null,
-    "rank": 4,
-    "created_at": "2026-02-17 12:47:57"
-  }
-],
+  generatedAt: "2026-02-18T06:33:49.820117",
+  tickerScores: [],
   archive: {
   "insights": [
     {
