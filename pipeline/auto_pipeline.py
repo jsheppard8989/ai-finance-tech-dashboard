@@ -385,7 +385,7 @@ def main():
     results['scores'] = aggregate_scores()
 
     run_script("Fetch Prices", "fetch_prices.py", timeout=120)
-    run_script("Process Votes", "process_votes.py", timeout=60)
+    run_script("Auto-Curate Terms", "auto_curate_terms.py", timeout=60)
 
     export_website()
 
