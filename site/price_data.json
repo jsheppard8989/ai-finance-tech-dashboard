@@ -3,96 +3,102 @@
     "price": 187.9,
     "change_pct": -1.69,
     "name": "NVDA",
-    "updated_at": "2026-02-19T15:22:47.887244"
+    "updated_at": "2026-02-19T15:31:44.703491"
   },
   "MSFT": {
     "price": 398.46,
     "change_pct": -7.4,
     "name": "MSFT",
-    "updated_at": "2026-02-19T15:22:47.887259"
+    "updated_at": "2026-02-19T15:31:44.703508"
   },
   "BTC-USD": {
-    "price": 66984.12,
-    "change_pct": -5.06,
+    "price": 66994.74,
+    "change_pct": -5.05,
     "name": "BTC",
-    "updated_at": "2026-02-19T15:22:47.887268"
+    "updated_at": "2026-02-19T15:31:44.703514"
   },
   "AMZN": {
     "price": 204.86,
     "change_pct": -14.39,
     "name": "AMZN",
-    "updated_at": "2026-02-19T15:22:47.887275"
+    "updated_at": "2026-02-19T15:31:44.703520"
   },
   "MSTR": {
     "price": 129.45,
     "change_pct": -13.53,
     "name": "MSTR",
-    "updated_at": "2026-02-19T15:22:47.887281"
+    "updated_at": "2026-02-19T15:31:44.703526"
   },
   "NOW": {
     "price": 107.37,
     "change_pct": -8.24,
     "name": "NOW",
-    "updated_at": "2026-02-19T15:22:47.887286"
+    "updated_at": "2026-02-19T15:31:44.703532"
   },
   "CRM": {
     "price": 185.29,
     "change_pct": -12.72,
     "name": "CRM",
-    "updated_at": "2026-02-19T15:22:47.887292"
+    "updated_at": "2026-02-19T15:31:44.703538"
   },
   "GOOGL": {
     "price": 302.85,
     "change_pct": -10.4,
     "name": "GOOGL",
-    "updated_at": "2026-02-19T15:22:47.887298"
+    "updated_at": "2026-02-19T15:31:44.703543"
   },
   "ILMN": {
     "price": 120.0,
     "change_pct": -17.13,
     "name": "ILMN",
-    "updated_at": "2026-02-19T15:22:47.887303"
+    "updated_at": "2026-02-19T15:31:44.703549"
   },
   "PLTR": {
     "price": 134.89,
     "change_pct": -7.98,
     "name": "PLTR",
-    "updated_at": "2026-02-19T15:22:47.887309"
+    "updated_at": "2026-02-19T15:31:44.703555"
   },
   "COIN": {
     "price": 165.94,
     "change_pct": -14.79,
     "name": "COIN",
-    "updated_at": "2026-02-19T15:22:47.887315"
+    "updated_at": "2026-02-19T15:31:44.703561"
   },
   "CRSP": {
     "price": 54.64,
     "change_pct": 9.37,
     "name": "CRSP",
-    "updated_at": "2026-02-19T15:22:47.887322"
+    "updated_at": "2026-02-19T15:31:44.703569"
   },
   "GLD": {
-    "price": 459.61,
-    "change_pct": 3.29,
+    "price": 459.56,
+    "change_pct": 3.28,
     "name": "GLD",
-    "updated_at": "2026-02-19T15:22:47.887329"
+    "updated_at": "2026-02-19T15:31:44.703575"
   },
   "PQNT": {
-    "price": 22.36,
-    "change_pct": 1.88,
+    "price": 22.39,
+    "change_pct": 2.02,
     "name": "PQNT",
-    "updated_at": "2026-02-19T15:22:47.887385"
+    "updated_at": "2026-02-19T15:31:44.703581"
   },
   "TLT": {
     "price": 89.62,
     "change_pct": 3.25,
     "name": "TLT",
-    "updated_at": "2026-02-19T15:22:47.887399"
+    "updated_at": "2026-02-19T15:31:44.703586"
   },
   "SPY": {
     "price": 684.48,
     "change_pct": -1.08,
     "name": "SPY",
-    "updated_at": "2026-02-19T15:22:47.887405"
+    "updated_at": "2026-02-19T15:31:44.703591"
+  },
+  "QQQ": {
+    "price": 603.47,
+    "change_pct": -2.96,
+    "name": "Invesco QQQ Trust",
+    "updated_at": "2026-02-19T15:31:44.703596"
   }
 }

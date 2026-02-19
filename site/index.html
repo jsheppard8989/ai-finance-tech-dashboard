@@ -2634,8 +2634,12 @@
       const contexts = ticker.contexts || [];
       const latestContext = contexts.length > 0 ? (contexts[0].subject || contexts[0].preview || '') : '';
 
-      // Get price data if available
-      const priceInfo = priceData[tickerSymbol] || {};
+      // Get price data if available (handle BTC -> BTC-USD mapping)
+      let priceLookupKey = tickerSymbol;
+      if (tickerSymbol === 'BTC' && !priceData['BTC'] && priceData['BTC-USD']) {
+        priceLookupKey = 'BTC-USD';
+      }
+      const priceInfo = priceData[priceLookupKey] || {};
       const price = priceInfo.price;
       const changePct = priceInfo.change_pct;
       const hasPrice = price !== undefined && changePct !== undefined;
