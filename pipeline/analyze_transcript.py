@@ -266,30 +266,30 @@ Return ONLY valid JSON. No markdown, no explanations."""
 def episode_exists_in_db(db, podcast_name: str, episode_title: str) -> bool:
     """Check if an episode with this podcast name and title already exists in database."""
     try:
-        conn = db._get_connection()
-        cursor = conn.cursor()
-        
-        # Check for exact match on podcast_name and episode_title
-        cursor.execute(
-            "SELECT id FROM podcast_episodes WHERE podcast_name = ? AND episode_title = ?",
-            (podcast_name, episode_title)
-        )
-        
-        if cursor.fetchone():
-            return True
-        
-        # Also check for similar titles (case-insensitive, first 50 chars)
-        cursor.execute(
-            """SELECT id FROM podcast_episodes 
-               WHERE podcast_name = ? 
-               AND LOWER(SUBSTR(episode_title, 1, 50)) = LOWER(SUBSTR(?, 1, 50))""",
-            (podcast_name, episode_title)
-        )
-        
-        if cursor.fetchone():
-            return True
-        
-        return False
+        with db._get_connection() as conn:
+            cursor = conn.cursor()
+            
+            # Check for exact match on podcast_name and episode_title
+            cursor.execute(
+                "SELECT id FROM podcast_episodes WHERE podcast_name = ? AND episode_title = ?",
+                (podcast_name, episode_title)
+            )
+            
+            if cursor.fetchone():
+                return True
+            
+            # Also check for similar titles (case-insensitive, first 50 chars)
+            cursor.execute(
+                """SELECT id FROM podcast_episodes 
+                   WHERE podcast_name = ? 
+                   AND LOWER(SUBSTR(episode_title, 1, 50)) = LOWER(SUBSTR(?, 1, 50))""",
+                (podcast_name, episode_title)
+            )
+            
+            if cursor.fetchone():
+                return True
+            
+            return False
     except Exception as e:
         print(f"    ⚠ Failed to check database: {e}")
         return False
