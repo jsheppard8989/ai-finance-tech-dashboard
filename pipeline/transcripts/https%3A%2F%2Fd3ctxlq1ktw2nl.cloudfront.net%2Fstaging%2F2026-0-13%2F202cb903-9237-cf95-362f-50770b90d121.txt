@@ -1,0 +1,895 @@
+Newer, welcome to the Denver State podcast.
+Thank you so much for having me.
+Well, this is awesome.
+Awesome. Great.
+So I was thinking we could start by just giving
+a review of what orchard is, what embryo screening is.
+Maybe what DNA is just a very, very basic triple.
+Don't know anything about this.
+And then also kind of what you're shipping.
+And let's get into the moral case, right?
+Why it's actually important that, you know,
+if you're on the left and you believe in my body, my choice,
+which I think you and I do, then obviously,
+you know, you're going to want that to extend to everything.
+And if you're on the right and you believe in deregulation,
+decentralization, you know, like allowing people
+basically a libertarian kind of view, then again,
+you should come to this, to assist with that
+idea that people's personal choices are their own business,
+and certainly a parent shouldn't be forced to do something
+that other parent or person wants it to do
+is not really involved in their relationship.
+So why don't we, why do we start with the first part
+and let's talk with the technology and let's talk
+with the morality and the society?
+So you got some slides, got some visuals?
+So what orchard is, is it allows parents
+to protect their children in a way that hasn't been
+possible before?
+And what we're able to do is we're able to screen
+the entire genome of an embryo to scan
+for thousands of diseases that previously parents
+didn't have the chance to know about until after the child
+was born, after symptoms already developed,
+after, you know, a doctor has a really awful conversation
+with the parent that sort of ends with, you know,
+there's not much that we can do.
+So we basically give all of that information
+at the earliest possible stage when there is actually
+something that you can do, which is a transfer in embryo
+that's unaffected.
+So let's kind of start at the very beginning of the birds
+and the bees, you know, how does embryo actually form?
+So what does an embryo embryo is an egg plus a sperm?
+Each egg, each gamut, you know,
+egg and sperm are carrying 23 chromosomes
+that combine to create a zygote and embryo that grows.
+So you can actually see this is how an embryo develops
+over those five days that it grows in the lab.
+So what happens is that, you know,
+it divides into multiple cells on day five,
+you have about 125 cells, but I have of those cells
+are sampled from the outer membrane,
+which is called the trifectaderm,
+and those are the ones that are actually used in orchids analysis.
+So this process of actually biopsying
+or giving a haircut to embryos has actually been happening
+for over two decades.
+It's just that in that, you know, five cell biopsies
+that only have 30 peakograms of DNA, historically,
+you haven't been able to get very much information off of that.
+And you only got something called chromosome information, right?
+Which you can kind of think of as like chapters in a book,
+versus what orchids able to do is actually read every single letter,
+every single base in those chapters as opposed to just that little thing.
+That little thing.
+That little thing is, this doesn't look, you know,
+at the one or two or four or 16 cell or whatever cell stage,
+it really doesn't look human, right?
+It is very much, you can decide, you take a continuous process.
+And every ethicist and every person will have a different point
+on that process as to when it's a human being, right?
+But like, probably most would agree that,
+well, actually, no, some wouldn't,
+that the sperm and egg are themselves, you know,
+there's biblical injunctions against spilling one seed
+on the ground and so on and so forth, right?
+So if you think it's actually a quote human
+at the moment of an embryo,
+then you'll have one set of moral intrusions.
+And if you think it's not really a human then,
+but it might become a human three months or six months
+or whatever months from now,
+that's, you know, the whole termination to beige or have you.
+Yeah, I think.
+It's important to put this on screen because that way,
+just put there, it really doesn't look like a human.
+If you were, if you told machine learning to ask,
+is that look like a human or not?
+It's not, you know, it doesn't look like a human, right?
+And whether it looks like something is on everything.
+But it's something, you know, in the sense of,
+it's a microscopic little cluster of cells
+that it, you know, legal systems will differ,
+based on whether or not you consider this
+to quote be a human or not, right?
+And many legal systems do not consider it to be a human.
+This is like one of those things where it's like,
+yeah, I totally agree.
+I think it's like, it's very clear that, you know,
+this is not visible to the naked eye.
+It's, you know, there's no organs.
+Oh yeah, and how small is it?
+You actually, you have an indicated that on screen.
+Yeah, yeah, it's not visible to the naked eye, right?
+So this is under a microscope.
+Like, you can't see this without a microscope.
+No, if you were to see a petri dish,
+you would not be able to see anything, right?
+It's like smaller than a grain of sand.
+But I think you, even separate from that,
+like the question of, you know, is it, is it,
+you know, human, is it not?
+Like, the core thing is that orchid doesn't actually change
+anything about the IVF process, right?
+The way that IVF works, the way that it's worked for 40 years,
+is that you extract eggs, you create embryos,
+you create multiple embryos, and you have to choose
+one to transfer, right?
+So if you're opposed to creating embryos,
+then you should just be opposed to IVF in general,
+which is where, you know, 12 million plus babies have been born, right?
+Right.
+The thing that orchid is doing is saying that, hey,
+you have these, you know, 4, 5, 6, 10, you know, 15 embryos,
+have many embryos that you were able to create during that cycle.
+And the question is which one do you transfer?
+The previous method is that you transfer
+with extremely limited information, and then with orchid,
+you have the opportunity to have much more information.
+So there isn't actually a new moral question
+of should we create embryos or not,
+or should we transfer embryos or not, right?
+That question has already been decided by IVF,
+and this question of, you know, which embryo do we transfer?
+It's just inherent in every single IVF cycle, right?
+If you create more than one embryo,
+then that decision has to be made.
+It's just that right now, it's made via kind of a beauty contest.
+So what will happen is that an embryologist will look at these images and say,
+okay, this one has a higher morphological grade,
+this one has a lower morphological grade, or alternatively,
+they'll use really limited genetic information.
+So that's kind of chromosome testing when I'm going to get into it, right?
+So, you know, humans have 23 pairs of chromosomes,
+and if you have a abnormal number of chromosomes,
+then it's frequently not compatible with life, right?
+So chromosomes are organized from largest to smallest,
+meaning, you know, the number of genes,
+the number of bases that are on chromosome one is much larger
+than on the sex chromosomes are much smaller.
+So most of, you know, if you have a monosome meaning,
+a missing chromosome or an extra chromosome on, you know,
+most of these chromosomes are just not compatible with life.
+It's sort of unique situation where it is compatible with life
+is Down syndrome, triceromy 21, and I guess the key point here is really,
+you know, if someone asked you to proofread your book,
+and the only thing that they could tell you is, you know,
+your book has an extra or missing chapter,
+you wouldn't really think that was a very good proofreader, right?
+But that's really all that existing genetic testing can tell you,
+is do you have an embryo as anyways?
+Do you have an extra or missing chromosome?
+So what holds you known sequencing and what or can
+do is go much, much further.
+It goes actually really deep into every single letter
+in each of those chromosomes or chapters, right?
+So any type of typo, whether that's an extra base,
+an insertion, a missing base, a deletion,
+those can all be detected.
+So there's actually thousands of different
+genetic diseases that have been catalogued by geneticists,
+you know, in the academic community over the last two decades,
+and you know, which really powerful is being able to actually
+scan for these ahead of time, rather than after it's too late, right?
+Like you probably don't know a lot of, you know,
+the names of a lot of these conditions, you know,
+neuro walkular disorder, like individually,
+each of these conditions is really rare.
+But in aggregate, if you add them up,
+there are a lot of people are affected.
+So, you know, if you look at like the rare disease community,
+they'll say that, you know, 10% of Americans are affected
+by rare disease and the vast majority of those are genetic,
+the vast majority of those who are affected are children.
+And 95% of these conditions don't even have treatments,
+you know, much less occur.
+So, you know, what's really cool is that this is already happening,
+right? Like babies have already been born, you know,
+through orchid that have been screened for this,
+for units that have had their entire genome screened.
+And, you know, the reason why this is really powerful is that,
+if you look at pretty much every single outcome,
+whether it's pregnancy or healthy baby, a huge component,
+a double-digit component, is actually genetic, right?
+So, if you look at miscarriage, about 50% of miscarriages
+are due to genetic issues in the embryo, right?
+So, there's people who have recurrent miscarriages due to genetics
+that, you know, if they do embryo screening,
+don't have to, you know, suffer that same fate.
+If you look at infant deaths, you know,
+over a quarter of infant deaths in the NICU,
+then you need a intensive care unit, or due to underlying genetic diseases.
+Again, this is like a huge category of sort of the maximum amount of suffering
+that you can imagine for a parent and a child that could just be totally
+avoided via embryo screening. And if you look at, you know,
+another category like moderate to severe intellectual disability,
+about 60% you know, there's a, about a 60% diagnostic yield for those folks,
+and, you know, a large fraction of these are caused by what's called denovomutations.
+So, that means that there's a new or spontaneous mutations in the embryo that are not present in the parents.
+And a lot of these are paternaly inherited, meaning older fathers are contributing more denovomutations.
+So, just to interrupt for a second, IVF already exists.
+Inflintation diagnosed starter exists.
+Yes.
+Most people who do this, millions of people who've done this, millions of people are already screening.
+And they're already screening for, for example, moderate to severe intellectual disability.
+The cause, if you're actually doing it, why would you, you might not.
+Right. So, so this screening, the moderate to severe intellectual disability,
+this is happening in the pediatric setting, right? So, a child will come in and they'll be affected,
+right, with, with either, you know, autism or intellectual disability or epilepsy.
+And then geneticists will sequence them and find out what the causes, right?
+The only difference is that instead of waiting until after symptoms happen,
+we're, we're moving that timeline all the way up to the embryo, because now we have this new ability,
+which is available to actually sequence the entire genome of the embryo,
+other than just this tiny fraction, just the chromosomes.
+Right. So, it's actually, this right. So, some fraction things can be caught pre-conception or even pre,
+like, even before people are married, or what have you, because you can get, you can sequence
+or, or carry a testimony, but many other things that are denovable, you can only catch post-conception,
+but potentially post-conception, but pre-implantation. Yes, because. Exactly.
+Yeah, and I think a really important piece here is that right now, the situation is that,
+you know, we talked about chromosome testing, right? So, via NIPT,
+pregnant mothers at 10 or, you know, 15, we could already getting information about
+chromosomes, right? They're already finding out, okay, my child has Down syndrome and now they
+have an option, right, which is either terminate or have an affected child, right?
+They're already put in that position, right? And people are already choosing to terminate
+or already choosing to, you know, continue those pregnancies, right? So, it doesn't,
+it's, it's fully sort of more compassionate from a emotional physical level to just move that
+timeline forward to the point of transferring an embryo as opposed to pre-implantation,
+rather than post-implantation. Yes, yes, exactly. So, that's what's kind of really surprising
+to just, just to define terms, right? There's like, you know, there's just screening an adult
+and giving them their genome before they're, you know, having any partner of any kind.
+Then there is, let's call it pre-conception testing, which is similar except the difference being
+that now your genome and your partnership, you know, we're being analyzed together to determine
+whether or not your children will potentially have, for example, a chance of having a double
+recessive of both parents have a Mendelian disease. And there is post-conception when the embryo
+exists, but pre-implantation, which is in the context of IVF where you've got the nine embryos,
+for example, in your diagram and there are these tiny microscopic grain of sand things.
+And then there is post-implantation when, you know, the embryo is actually in the mother's room
+and developing and then you're screening, you know, that. Yes, that is. And basically,
+she's just one of the levels different amounts of information are being revealed, right? So,
+correct. That's right. Okay, we're only looks at recessive disorders, right? But we're saying,
+hey, you know, you probably care about dominant sort of, right, you care about cancer, right? But
+that's just missing from carrier screen, right? Say, it's working. Exactly. So, in a sense,
+if you make a distinction in embryo and a three-month-old fetus, which most people I think do,
+yes. By moving more testing, now, of course, IVF itself is a procedure in a significant one
+and so and so forth. But if someone's doing IVF, then because you can screen pre-implantation,
+you can catch things so that you don't have to screen post-implantation when there's,
+it's actually developing in the womb. It's actually a more, as you said, more compassion,
+a kind of thing. Yeah, exactly. Right? I mean, maybe it's obvious, but the main cost of that is
+doing IVF in the first place. And that's whole separate topic, but we want to reduce the cost of doing
+IVF. We want to, let me see, or hit, a lot of people are working on that. And I think, yeah, exactly.
+And I think even to focus on IVF, right? So, we've also already resolved the moral question of
+should people be allowed to do IVF electively, right? So, egg freezing and IVF are identical
+processes. The question is just, you know, do freeze the eggs or do you actually fertilize the eggs?
+But essentially, women who are perfectly fertile, they have no infertility issue, or already
+using IVF using egg freezing prophylactically, right? Proactively to, basically, yeah,
+preserve their fertility, right? So, this idea that IVF can be used electively
+without an infertility diagnosis has actually also already been resolved for the last 10 years,
+right? So, even that question of, you know, should people be using IVF who don't have an infertility
+issue? I think that question has already been answered, right? It used to be the case that
+egg freezing was only recommended for women who had, you know, cancer diagnosis, right?
+They were going to be during chemotherapy, and then it was an option to preserve their fertility,
+right? But, you know, over the last decade, it sort of advanced beyond that. It's no longer experimental,
+yeah, millions of people have, have done, you know, that procedure as well, right? And obviously
+gay parents are, are using IVF, you know, to form their families, too. So, I think it's really sort of,
+I think at this point, it's already a personal decision. Do you want, you know, to use IVF
+to form your family? So, again, it's sort of just like, okay, now, once you made the decision to
+use IVF, how much information do you want? Do you want a little bit of information or do you want
+sort of the maximum out of information that science can provide? Yeah, so kind of just moving on,
+right? So, so I really wanted to kind of focus on this monogenic case because this is sort of, I would say,
+you know, very clinically bullet proof in the sense that, look, all of these conditions are already
+screened for in the pediatric setting, in the adult setting, there's no debate about, you know,
+if you have this variant, doesn't lead to these disease, right? They're all considered definitively
+associated with these diseases. So, it's really just about, you know, moving that timeline forward.
+I would say the second side of the testing is using what's called, I guess, so, just to kind of
+like hammer that point home on the monogenic side, right? So, we have users who've had, you know,
+children who have terminal disorders, right? So, this is a child that has this brain disorder
+called ListenSafely. You know, vast majority of children with this condition died before their 10 years
+old. There's no cure. So, I think it's, it's honestly, I think quite cruel to, in any way,
+stigmatized these parents, right? They've sort of given up their entire careers to be caregivers
+for, you know, these very severely affected children, and now they want the opportunity to have a child
+that is healthy, that doesn't have to suffer, for children, and it's in the same way that
+their first child did, and I think that that's an extremely important, vulnerable population to
+embrace, rather than to somehow stigmatize and I just feel, you know, extremely strongly about these
+families. I mean, this is kind of like the reason why I started the company. So, yeah, I just think
+if people understood what it is that they're going through, it's like a very human desire, right? The idea
+that, you know, you want to, you know, see your child, you know, grow up, grow old rather than
+having to bury them, right? And this is a very, this is the reality. All the people who are like,
+just roll the dice, what about the people who didn't want to roll the dice and they got a very
+bad role of the dice and very bad luck, right? You know, there's no point in, you know, just roll
+the dice is just some silly type of thing that people will say without actually thinking about
+the consequences of it for people they don't know, like, like Mrs. Crown over here.
+Yeah, exactly. I mean, they're not on the hook for the, for the lifetime, you know,
+of medical bills, right? And I think that, you know, it's not diminishing, you know,
+you know, this baby's life or anyone's life to screen and to say, hey, for my next child,
+I don't want them to be affected by that condition. I think that's kind of one of the tensions
+that I think people somehow don't understand that, hey, you know, if I choose not to drink during
+my pregnancy, that's not saying, all people with fetal alcohol syndrome should be deleted,
+for me, for my child, I don't want them to be affected by fetal alcohol. Of course, these
+arguments that the, some of these folks are making are just so silly because it's like saying,
+you know, I think we should put on seat belts. So, I was in a car crash. Do you think I shouldn't
+exist? Yeah, exactly. It's exactly the same as little lives. It's just me, you know, every one
+is equally, I want to feel people to be hurt by car crashes, you know, yeah, exactly. And if anything,
+it's sort of like even more unfair than a car crash because hey, it's like, okay, there was like a
+clear human error, you know, 90% of the time for why that car crash happened. This is sort of like,
+okay, you just a random typo, just, you know, got added to your DNA and then, you know,
+you just, you know, your organs don't form, your limbs don't form, your skull doesn't form, right?
+That's so it can just be very catastrophic. It's like the, you know, the, there's a meme about,
+like, did you have breakfast today? They genuinely can't contemplate a counterfactual, fundamentally,
+the, the concept, really what it boils down to, I think, is mystery-loves company.
+People who have some form of bad thing happen to them, just want other people to all
+to be miserable, some of them. Others don't, right? Why don't we go to the next slide to part.
+Well, actually, I don't know about it. I kind of like, basically me saying something and then you
+doing your commentary over it. Go. So I actually think that's kind of good. Like, do you want to do
+this summary really quick of like, what all this means? I actually thought that was really good.
+If you want to just, like, have one thought. Yeah. I mean, my summary is, uh, and by, we'll
+add it in polar thinking. Yeah. Um, my summary is A, we've got to tell me an IVF, uh, babies. B,
+we already are doing diagnosis priority implantation of IVF babies. C, we have opportunity to improve
+that diagnosis by simply adding polygenic scoring on top of monogenic scoring. D, it's a parent's
+decision as to whether to do that or not. E, it is not somebody else's decision really as to,
+obviously, whether this parents got married in the first place, how they choose to have children,
+whether they choose to have children, um, f, much of the hand ringing over this is based on bizarre
+illogical, emotionalism that doesn't encounter the reality of what it is to have a child with
+a genetic disorder and to make somebody else roll the dice of doing that. Um, it's, it's kind of like,
+you know, I prefer a car without seat belts. Therefore, you must have a car without seat belts.
+Yeah. You know, it's kind of like that you're literally preventing somebody else from taking a
+precaution because you want to roll the dice. Okay. I mean, fine. If you want to roll the dice
+be my guest, why should somebody else have to do that again? Why should somebody else have to do that?
+Again, why should somebody else have to do that? Again, why should somebody's parents? I also think
+you would be did if you just did one quick recap of like what are the moral questions here,
+right? Which is like, okay, should we create embryos? Let's already finish. Right. So, so moral
+questions. Hey, like should I should I should IVF be legal? Okay. And by the way, we can reverse the same,
+you know, kind of argument. Do you hate all the IVF babies? You hate 12 million people? Do you want them all
+to be eradicated? Because you're so anti IVF, you IVF hater, you IVF bigot, blah, blah, blah, right? Like,
+you can reverse all these retarded arguments on them. Okay, fine. So number one should IVF be legal.
+Okay. If yes, all right. Number two should pre-implantation genetic diagnosis be legal,
+which it is, which is basically like, if you've got embryo. And by the way, you need that
+because IVF embryos often have something, you know, wrong with their manipulities or something like that.
+So, you have to screen them before implantation. So, screen them for anopolis, which are macroscopic,
+chromosomal issues. Why wouldn't you screen them for microscopic ones, which are, like,
+monogenic scores? And if you can do that, now that we've got the technology, why not polygenic?
+There's really no, we're probably minimal at a cost. I assume the amplification step to actually
+get the DNA from there and, and screen it. It's like, minimal biochemical at a cost.
+So, let me put a like that. There might be fixed costs in terms of doing the data analysis
+and so on. So, if, if, all right. So, if you're screening, should be able to do amplities,
+almost certainly yes, monogenic, absolutely. That's always really standard if care and many parents choose it.
+And polygenic, guess what? First of all, it's already happening. And second of all,
+you can't, you can't draw the line for somebody else to marry somebody. So, they're already picking
+the genes of the other partner. If they want a tall partner or a partner who's good at Frisbee,
+that's already their choice. They're already in a sense of genes.
+Yeah, that's the biggest impact on air embryos is going to be your partner. It's never,
+it's going to be the case that your embryo screen is going to be, you know, it's 50% of the DNA,
+you're choosing right there. So, yeah. So, you know, like obviously that's not role of the dice.
+You're completely intentional about partner choice, you know? And so, this is just really,
+you know, editing around that equilibrium. It's like plus minus whatever percent around that
+50% that you've already got in there. So, you know, many medical procedures, by the way,
+you know, hard transplants, there are people who attack that as necrophilia, right?
+Actually, recently, you know, fecal transplants, which sound gross, have actually been really
+valuable for people with IBS or other kinds of things fixed or gut microbiome.
+Um, and, you know, obviously, there's a lot of people who are mad about.
+The thing is, it's one thing to be mad, maybe specifically a best Pacific aspect of the COVID vaccine.
+But a lot of people have just turned that into being against the germ theory of disease,
+writ large. Like they generally don't understand coxposulids or transmission pathogenesis.
+They just don't understand the immune system or have vaccines even work. And of course,
+there's like, you know, stupidity on both sides, many sides on that issue.
+But the point being that many medical procedures, if you're just described them to like
+a medieval peasant, they'd be destroyed by them. They actually, yeah, it's a extremely
+repugnant seeming, right? Like, um, boy, like, I mean, so first of all, just any organ transplant,
+you could basically make the argument that, you know, if you break your leg,
+then you didn't God want you to be, you know, unable to walk for less of your life.
+Yes, maybe, but you could also say, hey, look, what do we put a cast on it and see if you can,
+if it gets better? That's like the worst. Yes. So, like, for example, organ transplants are not
+vs1, isn't that like defiling the dead or we have you, right? Like, you know, necratic, like,
+okay, um, you know, blood transfusions, very similar, right? It was some of the
+repudence would not actually be that wise. Um, number three, epidural, people used to have a huge
+moral panic around epidural, right? That's right. Actually, doctors used to not tell somebody,
+tell a patient if they had cancer. Yeah. Right. They would keep that information from, from patients.
+It seems like a big deal. Very, very, very in-local apprentice, you know, type of thing.
+Um, I mean, there's, there's so many things like essentially modern medicine,
+you know, even hand washing was fought to the nail. Some of you used to have a huge problem with
+that, like people didn't, didn't like him. Um, you know, many, many things that are innovations in medicine,
+even the analysis of, go ahead. Oh, I was just going to say, yeah, even, um, you know,
+during samples, steel samples, blood samples, you know, analyzing all that stuff, analyzing all those
+fluids. There's a disgust reflex with that. Um, like a lot of medicine is gross, right? Like, if you,
+you're a jury is gross, right? The idea of cutting someone open, fixing something,
+jury is gross. All this stuff, of course, you know, you have, I mean, there's all kinds of blood
+everywhere in the operating room on a surgery. If you're just walking on that, you're like,
+you're hurting him, stop blah, blah, blah, blah, blah. You know, and, you know, you've been
+understanding anesthesia. You know, basically these are just things where the intuitions of a
+medieval peasant can only really get you so far, right? They really, the caveman mentality,
+yeah, so sometimes there's a utility to it, right? Or sometimes there's something that feels
+weird and actually is bad or heavy, right? But the problem, and one of the issues is, um,
+that much of the modern scientific establishment has said, for example, like XX and XY don't exist,
+right? Like chromosomes don't, don't, aren't functional and so on. So I actually understand where
+the sort of medieval peasant mentality came from or why it came back because they just went back
+to extreme basics and just relied on their intuitions as a caveman. But those intuitions are
+going to be different from person to person also, right? So they're not scalable across the site. They're
+very tribal. Yeah. Anyway, so, uh, it's coming back. So basically, I think what will eventually
+happen with all of this by the way, and let's go back to your slides. But I think what's going to,
+she, let's start it, yeah, yeah, go, no, no, no, go, you should. Yeah, I think a lot of people
+really underestimate what the power of a base pair is, right? You know, you have ATCG, people
+like, oh, you know, maybe it doesn't really matter if you swap an A for ATC, right? So I'm going
+to try to really illustrate and show you kind of what the impacts of a single base pair are, right?
+So this is, you know, the tallest men in the world. This is the shortest woman in the world. And,
+um, you know, these conditions, um, you know, Gigantism and a Controplasia, um, are, are really
+caused by, you know, a single letter change, right? So you're talking about a single letter, um,
+in a single gene that results of very good slide. Green leads, um, you know, dramatically different,
+you know, uh, you know, essentially what happens in Gigantism is that, you know, your
+portraying system goes into overdrive and sort of a massive amount of growth hormone gets dumped and
+you become, um, you know, extremely tall. And, um, you know, conversely in a Controplasia, um,
+you know, people who are, who are much, much more shorter, um, you know, they have a critical,
+protein that's broken that doesn't allow, um, you know, normal growth. Yeah. And actually, if,
+if I were to call correctly, um, that particular variant is something that's more common among, um,
+sperm of older men that it's like a hypermutable region or something like that that tends to,
+you tend to see more a Controplasia in children of older men. But there's some sort of,
+that part of the genome is actually more susceptible to mutation in that particular way,
+which is, like, of course, I actually don't know, like, you know, the, the full ideology of
+both of these diseases. I just think that, you know, when you're looking at that previous slide where
+we're talking about, um, you know, these thousands of, of different diseases, a lot of these are,
+honestly, our, our fail are extremely serious. People don't have an emotional reaction to it because they
+don't know someone with, um, you know, arterial calcification or any of these, you know,
+sort of diseases that have strange names are not very relatable, um, but I don't know. I guess
+what I'm trying to get across here is like, you know, it really matters, right? It could be the
+difference between your child having a terminal condition or not. It could be the difference between,
+um, you know, someone, you know, being, you know, very, you know, three-centered deviations,
+um, from the norm in terms of height, um, in either, in either direction, right? So, um,
+these changes do matter. And, um, you know, it's very reasonable for parents to want to scan
+for this information, because it can have, you know, a, a very significant impact on, you know,
+their health trajectory. So, we kind of already talked about monogenic phenomenon again into polygenics.
+So, again, monogenic is sort of that, you know, single gene, single variant, it's a specific disease.
+Polygenics is trying to understand conditions like heart disease gets a frontier by puller,
+where it's not just driven by a single gene, but rather it's the cumulative effect of many,
+many different variants across that you know. So, you know, the study design, the way that they
+actually, you know, build these models is, is pretty simple. They're looking for sequence variation.
+They have sets of, um, people who are, um, you know, unaffected controls, and then they have
+people who are affected. So, if you have folks who have schizophrenia, folks who have bipolar,
+and then they're looking for, um, enrichment. So, um, you know, basically which variants are, um,
+you know, more common in the, in the cases, as opposed to the controls.
+And, um, in terms of the performance, um, this is what the shape of these curves often look like,
+right? So, you're looking at, you know, how often do people get, um, heart disease and what is the
+percentile of their risk score? So, in the 50th percentile, that's about average. And then what you
+can see is that there's a really strong risk increase, uh, when you get to the, the, the, the much higher
+for, right, the 95th plus percentile of risk, right? So, that's kind of what, the type of risk that
+we highlight, um, it doesn't really matter if, you know, the 30th or the 70th percentile, because the
+very small increase in risk, but if you're at the tails of these distributions, there is a very strong
+signal from that, um, genetic, um, component. Um, so that's kind of what parents can learn. Is it okay?
+Is my embryo in that low risk or average risk category, or is my embryo in that higher regard?
+Yeah, the, the thing about, um, there's n variables on which you've got curves like this.
+Whether they look exactly like this or not, because that is cornering our disease. You've got
+n more that are like that. Yeah. And how do you, how do you, how do you think about the
+multi variable aspect of that? Because some, an embryo that's high on some of these will be low on
+others. Yeah, yeah, yeah, that's actually, uh, a, a great, um, so I'll actually get into that.
+Because you're doing best of n across a vector of k variables, or k is usually much greater than n.
+Yeah, yeah, yeah. So I think one of the things that people are really trying to understand is that,
+you know, if I'm, you know, selecting an embryo, that's low risk for, for one condition does that mean
+that they're going to, you know, conversely be higher risk for another condition. And they've actually
+already built, um, what's called correlation matrices will, what, what they'll say. Okay, um,
+is heart disease correlated with, isial for relation. Is it correlated with schizophrenia? Is it
+correlated with bipolar disorder? They've, they've done this. Yeah, but you wouldn't, you wouldn't
+need to do it that way. Because you actually have, if I'm not mistaken, you have actually the raw
+underlying A, C's, G's, and T's. So you can form, let's say, of n embryos, and you have k conditions
+on which you're screening for, and then each of those k conditions has, um, m sub k underlying
+low psi, right, that contribute to it, which is a ragged list for each of them, right? Yeah.
+Then you can, you don't have to do the calculations. You, you can actually go to the exact
+low psi. You can say, let me calculate the PGS for this n by k table. Yeah. And then you can just see,
+you know, how many shared variants are there? Yeah, you. Right. Yeah, yeah. So basically,
+what I guess what I'm getting at is like, what you see is there's, there's an aggregation with
+diseases that have that are related to basically heart related conditions, you know, heart disease,
+ageal for relation. Those aggregate together, they have a shared architecture,
+uh, mental health conditions like bipolar disorder, schizophrenia. They aggregate together,
+right? So what ends up happening is you get to actually reduce risk for multiple conditions at
+once, right? So an embryo that's, um, you know, high risk for schizophrenia is also, um,
+you know, likely to, there's, there, there, there, there is a shared shared architecture for
+other mental health conditions. So, um, rather than there being a trade-off, what I would actually
+happen is that a lot of these conditions that are for similar, um, systems end up actually,
+um, having those, those shared variants. So, um, anyways, I think that's, I'm trying to,
+kind of, just kind of respond quickly to what people usually, they're sort of immediate,
+and how many conditions are you looking at there besides coronary disease?
+Uh, we're looking at about 12. I'm going to give you the, the, the full list, but kind of,
+thinking about this, you know, sort of like the South Asian standpoint, right? If you roll the dice,
+you might get an average outcome, right? So, what if the average outcome is chronic disease,
+right? So, all South Asians, we get heart disease at, you know, four times, uh, a higher rate than
+any other ethnic population, right? Yeah. Or, um, twice as likely to, to die, you know, 25% of heart
+attacks, um, occur under 40 for South Asians, uh, and 50% occur under the age of 50. Um,
+so we're getting heart disease 10 years earlier than the rest of the population, right? So,
+I don't want that to affect my child, just because that's something that, you know, a lot of South
+Asians have that doesn't mean that I want that to, um, you know, automatically be a part of, you know,
+that these are one of the biggest causes of death, right? Like, and especially in terms of, um,
+you know, reducing the quality of, of life, right, a heart attack, even if you survive it, it's sort of,
+you know, you, you, you are able to run as, as often a lot of these consequences of this, right? So,
+the idea that parents shouldn't have access to mitigating the biggest vector in terms of mitigating
+risk for disease, um, yeah, I just, I just think it's insane, right? Because, um, what you, what you
+can see about, you're just talking about, okay, you know, um, what are, you know, when you're
+trying to quantify, like, from, like, the math perspective, um, how much risk reduction is actually
+possible. And, um, it's, it's really, uh, remarkable how much, um, you can get with a really small number of
+embryos. So, this is looking at kind of the worst, um, worst case scenario, right? So, let's say you have
+two parents, both mom and dad are at high risk. Um, and what you can see is that you can get a 30%
+risk reduction with five embryos with, um, you know, a pretty, you know, poorly performing, uh,
+model. And if you're in, and this analysis, by the way, you know, wasn't done by
+workers done by an independent, uh, statistical geneticist, um, who just published this paper that I,
+just loved, these, these figures that, um, he produced. So, then, you know, if he is a subtly
+better model, he get a 40% risk reduction with five embryos, and then, uh, then even better model,
+you get a 55% risk reduction with just five embryos, right? So, this is, you know, it starts
+topping out with a second. So, the software again is the difference between the triangles,
+the circles, and the squares. Yes, yes. Okay. So, just, and then, once you get to about
+nine or so embryos. Yeah. Right. Yeah. Yeah. Yeah. Yeah. You're seeing this, this behavior
+research is a flatten out, right? Because he sort of sampled from the distribution in terms of how
+much, um, risk you can reduce. On, on one condition. Yep. This is on one condition. Right. But
+multivariate, the problem is, if you're optimizing the minimum risk on one of your 12 things,
+the other 11 are loose and can have higher risk, right? So, you have some
+weighted sum of them that you're doing this on. Well, this one, this one is not looking at all.
+Oh, we can look into the methods, but this figure specifically is talking about reducing risk
+for one condition. No, I know. But basically, you would have this kind of figure for each of the 12,
+but reducing risk for let's say you picked the best of five that got you the lowest risk on
+condition one, right? Yeah. Then condition two through 12, you might have higher risk. So,
+you have to sort of spend your optimization budget. Yes. Yeah. Yes. Exactly. So, so the thing you
+want to think about is that probably for those other conditions, if you're playing in this realm,
+it's not going to make a big difference. So, you really want to be focusing on what is the condition
+that your embryos are at higher risk for, where there's a really big delta, you know,
+right, you want to just get them out of that like 97th plus percentile, which usually for 12,
+and if you're not going to have multiple, where you have embryos, like if you're not going to have
+for multiple diseases that you're in the top 3 percentile of risk, if that makes sense, right?
+Because if you're playing, that's kind of, does that make sense to explain that with?
+Yeah. Totally. Keep going. Yeah. Yeah. So, yeah. So, basically, this is kind of like the worst
+case area, right? You have, you have, you're pretty constrained because both mom and dad are
+high risk, and you still get this pretty massive, right, 30 to 55 percent risk reduction, right?
+So, people don't really have, again, a good way to conceptualize how massive this risk reduction is.
+So, what I'm trying to compare it to is, you know, this is more powerful than the most successful
+drugs on the market, right, drugs that are making, you know, a billionth stall here, right? So,
+here's, here's two drugs you have, you know, drug for COPD. There's this basically one obvious
+point of this is, there's just massive health care savings from this potentially, if we can get
+IVF and so on out there because just like many other things. Yeah. Usually, what I'm trying to
+get people to grok is like medicine is not very good, right? It costs a billion dollars and 10
+years to get a drug to market or you, you prefer to be fixed at the genome level rather than
+yeah, but even more than that, I mean, it only has a 30 percent relative risk reduction.
+That's what we're comparing relative risk reduction to relative risk reduction, right? We'll
+talk about absolute risk reduction later. But the point is, is that some of the best drugs on the
+market only get a 30 percent relative risk reduction, then you're least to that drug for life,
+and there's side effects, right? If you do this for your embryos, there are no side effects,
+right? Like you already decided to do IVF, you're picking an embryo. The question is,
+is do you want the embryo to be at higher risk or lower risk? And then that risk level is the
+same for life. You don't have to like take a continually trait, take a drug every single day,
+right? Because the other thing is that when they do these studies, right? Like you don't actually
+get the benefit if you're not perfectly adherent to the medication, right? And there's entire
+companies that are built around how do you get someone to actually remember to take a drug every day,
+right? That's also not trivial, even if you get a drug to work. Pain. So yeah, then if you kind of
+look across the other situations, right? Like you might not be in that most constrained situation
+where both mom and dad are at high risk, right? If you're in the situation where mom and dad are
+average risk, you're getting up to an 80 percent risk reduction, right? If you're in the situation
+where one is high and one is low, you're kind of you know, topping at it, maybe 70 percent depending
+on, you know, with the power of that predictor is how well understood it is. So yeah, all this to say
+that I think this is like a huge area where people can potentially, you know, massively change
+the trajectory of their child's life with really kind of a like surprisingly minimal cost for
+like how big of a component the genetics is. And kind of this is kind of what I was trying to
+you talk about earlier, which is you know, what are the genetic tradeoffs, right? So you can do
+you can build these correlation matrices where you look at, you know, which conditions are correlated
+to, which other ones and you can see that, you know, psychiatric conditions, you know, kind of
+are the most correlated with each other, you know, cardiovascular conditions are correlated with
+each other, but you know, schizophrenia is not correlated with height. It's not correlated with type 2 diabetes,
+right? So it's not the case that, you know, you're necessarily trading off risk for one thing
+for another thing. And you know, people, again, not just work at any entire physical genetic
+community has done a ton of work to look into this and to see, you know, what are the potential,
+you know, tradeoffs or or or or share our competitors between these conditions.
+Yeah, this is kind of the take home point, right, is that having large and at a risk at birth
+is likely more powerful than almost anything else that you can do later in life, right? There's no diet,
+there's no exercise that's going to mitigate risk for schizophrenia, right? There's nothing
+that can, you know, change, you know, the chance that you're trying to ask pediatric cancer if they
+have a specific variant that makes it extremely likely for them to have it, right? So, I don't know,
+I think it's sort of like this massive benefit that's hiding in plain sight that people are, you know,
+instead of embracing their kind of, you know, coming up with these really, yeah, a logical
+arguments for why it should be stigmatized. Yep. Basically, the thing is, you go ahead.
+Oh, I was like, I think, I think this is the last point, right? So, I sort of like,
+people have actually already surveyed the public and said, you know, what is their opinion
+about embryo screening for, you know, childhood onset, adult onset,
+polygenic monogenic, and the American public is really strongly in favor of this, right? 72%
+either strongly approved or approved of embryo screening. And here's the number that I think is actually
+even more surprising, right? So, 30% of Americans would either definitely consider or-
+That's a random sample. Yeah. Yeah. It's okay. This is a random sample, and it's also older
+folks. So, I actually think that if you let, I think the average age was, I think, like 40 or 45,
+which I think is older than fastening or vertical. You know, the set of folks who are actually
+going to be considering having kids. If anything, I think this is an underestimate of how many
+people would consider, you know, doing IVF. And I think this is actually a 224 paper. Yeah, yeah.
+So, I think that, um, I think people should be really shocked by this number, right? The fact that
+a third of Americans are considering, hey, I would not have babies the old fashioned way. I would
+rather have babies consider using IVF in order to mitigate risk for these conditions that I've been
+affected by. I think that that's extremely- Huh? Interesting. Now, I actually represent a sample.
+Yeah. At least for, you know, just saying. Yeah. So, I think that this idea that, you know,
+IVF is somehow, like, IVF is very different if you are, you know, fertile and you're not struggling
+with infertility, right? It's sort of like, hey, it's like this inconvenience that you have to be on
+medication for two days. And, you know, it's like a, I mean, for a lot of people, it's like a bad
+period, right? I'm not trying to diminish, you know, what it's like to fight infertility. It is
+extremely difficult. You know, if you, you know, have PCOS, endometriosis, a lot of these other
+conditions infertility is like equivalent to a cancer diagnosis, but for fertile people, you know,
+it's an extra, you know, two to three weeks of discomfort compared to, hey, you're going to have a nine
+month pregnancy. You're going to raise this child for life. You know, do you really want to
+risk, you know, a condition that you've been affected by or kind of these random genetic
+typos affecting a child. And I think that a lot of parents are going to say, no, right? I mean,
+even just if you think about miscarriage, right? I mean, it's extremely, um, yeah, it's, it's extremely,
+you know, emotionally costly suit. Oh, they're here. I can, yeah, I can share the screen for a second
+myself. So here is the article that you're just mentioning is pulling it up while you're talking. Here is the
+um, approval interest in polygynic embryo screening by this is 2024 article. And so,
+actually, this is a great figure, 45% approved, 30% strongly approved, should be allowed 80%.
+This is an amazing plastic, just for this, just for this, just for the Twitter bubble, just for
+just for people to know, just FYI, it's like 80% should be allowed. Okay, number one. Then
+it's either, yeah, right? The idea that, like, there's like, yeah, either for the purpose of PSU's
+exactly. Yeah. And then approval for various outcomes. So, you know, for health conditions,
+it's like overwhelmingly there, right? But even for, and psychiatric conditions like mental illness,
+overwhelmingly there. But even here, it's like close to 50, 50, right? Like, you know,
+these are, these are looking like, you know, in the sense of, uh, no opinion. If you delete no opinion
+in a sense, right? These are close, you know? So it's like, maybe it's 5 to 1 ratio or something
+either what's I like, 80 to 10, 8 to 1 ratio for some of these bars. And here, it's like a 1 to 1,
+right, in a sense of close to 50, 50. But, um, that's actually, that's, that's what I've called,
+this is non controversial. Yeah. And this is controversial, but in the sense of 50%
+support and fiction opposition, which means on the other 50% of states or jurisdictions may actually
+legalize it, right? Yeah. So, and then, you know, if you look at what conditions and traits and so
+one, so cancer, heart disease, Alzheimer's Diabetes, just basically overwhelming like this,
+you know, and you get to obesity, and that's actually still pretty high over here. And it's only
+only when you get to skin color that's like extremely negative. Even like intelligence, so again,
+this is, um, this is close, right? It's, it's more disapproved than approved, but it's not
+worse than magnitude. You add up the red and the yellow versus the blue and the other blue over here,
+neuroticism and so on. So, BMI is basically very similar to obesity, so it's interesting
+that it's different, the phrasing of the question sometimes matters. Um, and then, you know, concerns,
+interesting, interesting paper. Good, yeah. So, so I think it's just, people don't, you're, you're
+totally right. There's like a Twitter bubble, and people don't realize that, you know, the vast majority
+of people, I, 80% of people support embryo screening in a toy 24 setty. Yeah. Yeah.
+It's just important. Actually, Sammy, you're deck also because I will preview this, uh,
+I will preview this pod with the, um, with both that and the one-based pair, right? Like
+is a foot three versus two foot seven, you know, literally one delta alteration.
+This is really one. Because just, I want to give you just one asterisk on that one. So, um,
+I don't have those people's genomes. I just looked up for gigantic antism and a thunder
+pleasure. Okay. No, no, no. So, yeah. So, we're not giving them a diagnosis. I'm just saying,
+for gigantic antism and a thunder pleasure, this is, these are the single-based pair calls of them.
+So, just, I'll give you, like, exact copy if you want, like, how, what those mean, but I just want
+to give the caveat. It's like, we're not giving them a diagnosis. We're saying four people who have
+gigantic antism, right, caught a pleasure. So, I think, I want your commentary on, like, the moral
+necessity of this, and then maybe a little bit of your commentary on the scientific side too.
+Because I think I might have gone too deep, so I'd rather, I would like for you the, like,
+summarize it, but, well, first is, um, I mean, on the left, the entire thing for the last 50
+years has been my body, my choice. So, how could that possibly not extend? How could you, how could
+you define reproductive choice? So, narrowly, as to say, it only extends, like, you can only
+turn me in some cases or not others or screen, and so that doesn't make any sense at all, right?
+So, just, just, just choice alone. So, basically, everybody who's in favor of reproductive
+choice on the left should obviously be in favor of embryo screening, or certainly not pushing
+to ban it, even if they don't do it themselves. If, you know, as they say, if you don't want
+to don't have one, right? As for the right, I do understand the social conservative argument.
+I disagree with it, because I think that the quote, wisdom of repudence could be applied to many,
+many, many, many, many, many things, right? And what we think of as normal, like,
+circumcision could be considered really bizarre, and, and is considered bizarre, and it's
+some historical cultures, or would have you. Heart transplants would be considered bizarre in some
+cultures, um, certainly past culture surgeries, um, like screening of blood, you know,
+urine samples, fecal samples, all the stuff that's like completely normal in any biomedical clinic,
+if you just go by, oh, that grosses me out, you wouldn't do it. And we have millions of IVF babies,
+and we have millions of IVF procedures, and we have existing screening for antibodies and
+monogenic disorders. We have all the infrastructure set up. We have 80% support from people as your
+paper shows for screening, even in the West, and it's almost certainly higher in the East,
+just given given the numbers I've seen. And the whole point of the human genome project,
+billions and billions and billions of dollars was to use the genome for human health,
+like all these taxpayer dollars went into this. So that's yet another argument that is,
+if you were a taxpayer on this, it's your right to use that information, right?
+And then you're also choosing your partner, that's 50%, and that certainly wasn't a roll of the dice,
+and this is like an edit around that. Then we're over for many populations like South Asians.
+Chronic disease is actually, unfortunately, the average outcome, because in the modern
+environment, modern nutritional environment, we have very high rates of, um, of heart disease
+and of type 2 diabetes and other kinds of conditions. And see, put all that together,
+and it is really something where people are some people are just reacting in this really stupid,
+emotional way. And you know what, that's their right for themselves, you know, for themselves,
+whatever, you know, I'm not certainly not saying they should do it if they don't want to do it,
+but they definitely can't stop somebody else, because at some place, you know, some point on
+the face of the earth, there will be given, given that it's controversial not in a 99 one way,
+but at most a 50, 50 way, there will be 50% of jurisdictions that do it. And then what are you going
+to do? You can reverse the argument on them. You're going to discriminate against that IVF baby.
+Oh, huh? You know what, you think they shouldn't exist, right? And, um, so in general, I think,
+uh, one of the most interesting things about this, by the way, is a dog that didn't bark.
+Which is that tech isn't favorite of this, right? And, uh, that is a huge thing where the
+builders aren't favorite of this, because we know life is hard enough. Life is, uh, there's a lot
+of difficulties in life. Um, and, uh, you know, if somebody has chronic disease, heart disease,
+or something at 50, and they could have not had it, why would you, you know, it's this weird
+thing where life expectancy, by the way, as you know, was quite low in the 800's average life
+expectancy, because all kinds of infant mortality had not been solved, right? So, if mortality
+is very high in the past. And, um, as a consequence, you know, people used to write, and even adult
+mortality was high depending on how far back you go, right? And, I mean, people within are,
+I mean, I mean, great-grandparents' generation, um, all kinds of modern conveniences from electricity,
+running water, all kinds of things were just not present. And so, you know, really,
+what it's related to, I think, the resistance, not, I mean, the resistance, the embryo screening
+is part and part, I think, of a broader anti-tech thing within the West, which is like people
+setting self-driving cars on fire, right? People getting mad about AI, people getting mad about
+crypto, people getting mad about immigrants taking their jobs, people getting mad about, you know,
+data centers, and their electricity consumption, or something like this. People just getting mad
+about tech at all, because tech is changing a lot of things, and they just want, you know, no more
+stop, you know, I want to just, I just want to stop when a reverse the world and so on.
+This is similar emotion in the late 1800s, early 1900s, uh, around the industrial revolution.
+And, uh, you know, because the big, belching factories, all the pollution and so on,
+and to be clear, I'm not saying that there aren't some, you know, like, we develop cars,
+and then we develop walkable societies, and we took away highways from some parts and so and so
+and so we developed a thing, and we realized we had overdeveloped it somewhat, so we removed some
+developments, but we kept developing cars who still did electric cars and self-driving cars
+and now flying cars, but also had walkable communities and so there's a balance between them.
+And, um, you know, my view is life is difficult enough. Why rule the dice?
+Doesn't, why rule the dice when you would have to. There's going to be five thousand more
+dice rules. Yeah, you would do this by a car. Why do you want to also have to go blunt?
+Yeah, you can, you can't, you already get hit by lightning, you get by a car, you can, um,
+I mean, there's this five million other things that can go wrong, right? Why, you want to, you know,
+again, this is, this is the kind of person I think who, maybe they don't want to put on their
+seatbelt, but why they print you from putting on a seatbelt, you know? Yeah, so what do you think
+is this dealman? Like, what do you think is the most, like, I think we talk a lot about the
+arguments that kind of are just non-sensical, they just result from ignorance of not understanding how
+the genome works, how IVF works, how um, you know, genetic screening works, right? So what do you
+think are maybe even the most, um, oh, since your dealman, your arguments? Yeah, I'll show the
+dealman would be that far left is have abused science to call it capital S science and they said
+masks don't work before they do and they said that the during the BLM riots that racism is a real
+pandemic after telling everybody to stay inside and they people ran outside and they call a paper
+those published a day ago in nature, they call that science capital S sciences if it has the same
+number of replications as Maxwell's equations, because they equate prestigious citation
+with, and they basically substitute prestigious citation for independent replication, independent
+replication of what science is. Yeah, go ahead. Oh yeah, I just would say yeah, like yeah, and by the
+two totally more than, yeah, the replication matters way more than, uh, I guess, we're just a journalist,
+yeah, exactly. And so the thing is that the peer review basically means like two or three thumbs-ups.
+It's like if you imagine actually you need to be a social network where people post papers
+two or three likes from someone in that social network, it's a peer review paper. It's
+not like they're, it's rare that someone goes and replicates the result. Where the replicate the result
+is on GitHub where you get clone and then you try to compile it or build it, right? So that's actually
+where you get replications and that's actually the future of what academia is. It looks a lot more like
+GitHub and reproducible research and so and so forth. Yeah. But so, so because of that, there's
+enough course universities are like 90% Democrat or something like that. And a lot of people
+have not gotten a share of all the technological progress. And of course, we're also demographically
+different from a lot of people. You know, we are, uh, so tech is in the U.S., it's focused on the
+West Coast, it's focused in cities. It's got a lot of immigrants, got a lot of Indians, box signings,
+Chinese, Koreans, Japanese, Gaze, Jews. Um, that's, that's how, you know, the right we can
+sort of foreign. And then for the left, it has too many white men capitalists and, you know,
+so on and so forth, right? And, um, and so both the far left and the far right, look at it as alien
+and different and the far left emphasizes the capitalism and the right emphasizes the immigrants
+and the left doesn't like the economic change and the right doesn't like the cultural change.
+And they basically just wanted to go back to the bay was very roughly, right? And that is just an
+whole line. Oh, go ahead. That is quote by us, is what you're saying.
+More than San Francisco bias, unibomer bias, right? What I, what I actually think is going to happen
+just to digress for a second is not even digress. Many years, you know, I mean, five years ago,
+Ish, I realized and I wrote about this at the time that after all the German drawing,
+that after everything is said and done, the final political access will be, let's call it,
+futurism versus primitivism, right? They will call it humanism versus transhumanism.
+Because they'll say, oh my god, transhumanism is a salababa. So, and we're just being human,
+we're being normal, right? Yeah, the thing is being a normal human means no electricity, no
+running water, no light bulbs and so it's over in their heads, okay? And so like there's no way
+that societies, cities could have the carrying capacity to have a unibomer lifestyle where
+is literally living in the woods. But we do have that as part of our DNA in a literal sense,
+because we, you know, our common ancestors were similar to chimps. And so we do have millennia of,
+you know, the outdoors and so on in our DNA in a sense. So there's some, you know, genetic
+yearning for that, I'm sure. However, there's another interpretation which is that humanity
+is actually defined by technology. For example, Richard Rangam is a book which is like cooking
+me at his human. Why? Because the fire allowed us to externalize metabolism so you could spend
+less energy on your gut and put more to the brain. And then if you, you take fire, you take weapons,
+like the spear, you take clothes, right? The spear, you don't need fangs, with the clothes,
+you don't need fur, with a fire, you don't need gut enzymes. And all three of them freed up more
+calories for the brain. And so in sephalization quotient just rose across
+hominids and, you know, I posted that a while ago, it's like the first singular, do you see that?
+The original singularity. Oh, this is a good one. Yeah, it's basically, it's like, it's basically
+took, you know, millions of years for, you know, the human brain to evolve. So it's sort of like
+if you compare that to, you know, GPUs and CPUs, it's like the timescales are very different.
+Yeah, by all two. And by the, you'll want to increase true, right? Yeah. But this is the original
+singularity, right? And the thing about this is what that means is since humans begin, we have
+been pushing it into software. So the same process that took all of the, you know, it took fangs,
+it's really meant to spears and took fur and turned into clothes and the took, the gut enzymes
+turned into fire and pushed everything into the brain to manipulate all these tools.
+It's the same thing that's taken all kinds of devices from a camera to a recorder and so on and
+push them into software in the phone. The same kind of thing that's taken all kinds of tools and
+just pushes them into AI, right? That takes all kinds of stuff and pushes into the screen and
+into software and you have less hardware and it's more done in software, right? So we have been doing
+this concept of pushing everything into general purpose software has actually been a winning
+strategy for 10 million years, right? And this also says actually what makes a human is the use of
+technology. Yeah, because in Abe can't use a spear, it can jump, you know, along the woods or
+whatever, right? But you know, I mean, they can use some basic tools, you just finish at my point.
+They can't, they can't, uh, uh, uh, uh, animals, unlike humans, basically can't use technology.
+It's really not advanced technology. So actually technology is what makes a human and reversing
+technological progress, you know, stopping to let alone reversing it, it actually makes us unhuman.
+It's anti-human, right? So that's why I called them primitiveists because they want to
+regress to something in the name of doing something natural to doing something unnatural and they're
+stopping the singularity that actually defines humanity, right? Yeah. So that's actually the crucial
+reversal because it's actually, you know, the primitiveism is essentially the new version of communism,
+because communism also appealed to kind of the natural, small group sharing and so and so forth.
+Primitivism has enough changes to its genetic code that conservatives don't recognize it as communism,
+even though it's the same thing. If communism was against capitalism, primitiveism is against
+technology, okay? But of course, technicapilism is a very correlated thing, right? So we have
+antibodies to communism because that then that's against capitalism. So instead of targeting
+capitalism directly, they'll target technology, the left will be against the capitalist and the right
+will be against the immigrants and the center, a lot of well-meaning Jonathan hate type guys
+will be against the phones. The problem is, I understand why they're against the phones,
+but basically moderated use of phones works in many other cultures around the world. The problem
+with the West is they don't have any moderation of use of phones for kids and so forth, right?
+So what happens is you have a collision of values that just don't have any sense to them.
+Well, what do you think is, how this is going to play out for reproductive technologies?
+Like, do you feel like it's going to fall on these similar lines of primitives versus?
+Absolutely. Primitives for sutures will be the axis and it's going to be legal in some
+important jurisdictions, probably certainly in tech forward jurisdictions around the world. The
+same kinds of places probably that are pro-crypto and have digital nomad visas will probably
+have legal embryo screening and so and so forth. In the same kinds of places that are falling to
+primitiveism of the blue or now the red varieties will probably be against them. Or we don't know.
+It's unpredictable. It can be very, the future is fragmented and you will have a lot of different
+combinations of ideologies that make sense to those individual people versus just a clean
+left and right. And so at least some of those tribes, some of those jurisdictions,
+will be in favor of technology and those will probably be some of the best places to be. Usually
+they'll probably be the places that are prosperous enough that they're not just prosperous enough,
+ascending. ascending jurisdictions are also ascending at the same time the
+internet is ascending. So they have a positive association with the advanced technology.
+The West, minus tech, is descending while tech is ascending. So even if they're rich, they're descending
+world and whereas for let's say India or you know the Philippines, even if it's poor, it's ascending
+world, right? So that's why like developed and developing world is the wrong way of talking about
+because that implies a static, developed world and the developing world is moving towards it.
+Instead, it's the descending world and the ascending world. Yeah, I know. Yeah, that's a great point.
+Yeah, so I guess too many roles will be pro all of this. Yeah, so do you want to kind of like just
+summarize what you feel like sort of the like the moral cases sort of like what do you think?
+Like how do you think people are going to see this like today and maybe like how do you think
+that's going to that's going to change over the next couple of years as it becomes more popular?
+It's a reduciting known moral principles in the West for life. It's just reproductive choice.
+Yeah, your point blank. For the right, it is small government and why interfere with,
+you know, somebody's personal decisions. That's like that's a very short secular political case for it,
+right? Then you can go and you can quote, you make the religious case in terms of doctrine and
+scriptures and so on and so on and so on. I don't think many, you know, it may turn out that there's
+some people who can quote Christianity and so on and get this. I could certainly quote Hinduism for it.
+I'm sure I could probably find someone who quote Islam for it because there's many people in
+Middle East who are very pro embryoscreen, many people in the Jewish community who are pro embryoscreen
+because of care and testing. So you could probably find scriptural arguments. I'm sure I usually
+four against something, but in general I think the major faith groups could be for it.
+Yeah, I think that would be my concise moral argument for it. And then, you know, the
+thing, one of the issues is some of the arguments put forward against this are just based on
+genuinely stupid reflexive, like an AI, you know, like association day like this, right?
+Yeah. And they just get mad for the sick of getting mad, you know? And they associate like a
+grain of sand embryo as the same as a human, as the same as this as the same as that. And these
+rhetorical equations simply don't map the reality. And this like always isn't nice to have some
+chance to pit her pattern of poems. And I think there's a great tweet that you had just like,
+this is like a guy talking about how great it was to pick berries that didn't like the rise
+of agriculture, you know? It's just, the thing is that kind of argument is to them, very convincing,
+because it just feels, you know? But feels can't build. Feels can at best for them, ban.
+But feels like doesn't know an A from a C from a T from a G, usually, right? So they can try to
+ban in those jurisdictions. And then they just won't be able to do it globally because you can
+show the poll numbers and so and so forth. So so long as the feels,
+yeah, I think the trend is, you mean you're great argument right around that, right? Because
+it's sort of like, hey, we traded electricity for candles, right? We traded cars for horses,
+right? We traded, you know, Oregon transplants for death, right? We traded epidurals for
+having, you know, a pregnancy. But the soldiers for guns were considered really cowardly,
+relative to like soldiers with, you know, knights with swords who'd actually go up and see you
+and chop you and sort of like, you know, today we think of a soldier with a gun as brave.
+But in the past, they were thought of as cowardly because they wouldn't just go up to you and hit
+you with a sword, right? So moral intuitions do change over time based on the baseline of what
+people think is, you know, the right thing to do, right? Yeah, exactly. I think basically pointing
+out like, hey, what is lost, you know, from, you know, having, you know, babies through sex is like,
+it's basically kind of like the most standard cliche for anti-progress, right? It's like if you
+only look at what's lost and you don't look at what's gained, I mean, you could make that argument
+for, you know, why don't we, you know, hunt our our own food with a bone arrow and the
+British, British door, it's like something lost for, but what is gained, right? Like,
+the macro argument, I'd actually say is not even really the moral argument, it's a correlational
+argument. If people feel that their fortunes are just in general declining, which they do in the
+West, outside tech, they'll just be against any kind of change whatsoever, especially from the tech
+guys. If you're in tech and change is generally being good for you, you'll generally be neutral or
+positive on change. And if you're in the east or more generally the ascending world, then you're
+also going to be more positive on tech. So we should look to tech and the ascending world to legalize
+this stuff and we should not look to the descending world to support it. And we should need to
+divide jurisdictions on that basis. And then you just kind of, you know, like I'm not saying
+everybody in the ascending world will support it and everybody in the descending world will oppose it.
+But that's the way that you, you should expect things to play out, right? That's actually the
+macro above even the moral intuition. Yeah. So what do you think is, is so threatening to people
+about it? Like, why is it? Like, I'm genuinely surprised by the amount of activation,
+I don't know. I'm just kind of curious if you feel like you have any other thing. I mean,
+you know, well, first is people have been inculcated to literally don't understand what genes are.
+Like, they got mad at the Sydney Sweeney has great genes at, right? Huge numbers of people
+got mad at this. It's just a pun because they're like, I can't believe you're saying genes could
+do something. Oh my god, right? So like, it's, you know, in many ways, American society is like
+twisted into knots over genetics, over all kinds of things. You know, it's this bizarre kind of thing where
+they're, I mean, look, there's a lot of wars or kill a lot of people. And they're much less,
+you know, I don't know. I feel that the concern is, one of the things about it is,
+the concern is like, it seems like extremely angry on the day that it hits, and then they just
+move on to the next thing two or three days later, right? It is just very much a passing storm.
+And if you just keep building, they just don't have the attention span or anything like that.
+Yeah, I mean, I think that's, that's the thing that I think is most, I don't know, I guess
+makes me feel the best about it actually. It's like basically the benefit to each individual parent
+is so great that like random, you know, negativity is not enough to convince them, right? It's sort of
+like, for each individual parent, it's the difference between is there child, you know, it can
+be able to meet their development until milestones, be able to walk, be able to talk or not.
+And then for these other people who are kind of, you know, being negative, it's like,
+you know, they don't really have anything at stake, right? So it does feel like it's like really
+unique part of, you know, health care decisions where people actually get to, you know, vote with
+their feet, and then decide, hey, like, this is a thing that's going to make a difference for me and
+for my family, and you know, they'll be willing to do that even if, you know, there's a lot of,
+you know, loud voices on the other side. Yes, ma'am. I agree. Okay, cool. All right, so when we wrap
+there, and any last words, any other things you want the audience to come away with?
+No, no, I think it's great. I'll send you the slide, and I'll even send you the slide notes too,
+and then you, if you want to like, AI, read your algorithm to whatever content that you want, that'll be great.
