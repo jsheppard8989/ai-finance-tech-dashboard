@@ -75,11 +75,104 @@
     }
 
     @media (max-width: 768px) {
+      /* Grid */
       .grid {
         grid-template-columns: 1fr;
       }
       .right-col {
         grid-column: auto;
+      }
+
+      /* Header — pull absolute ticker badges into normal flow */
+      header {
+        padding-bottom: 0.75rem;
+      }
+      header h1 {
+        font-size: 1.5rem;
+      }
+      .header-qqq-badge,
+      .header-btc-badge {
+        position: static !important;
+        display: inline-flex !important;
+        bottom: auto !important;
+        left: auto !important;
+        right: auto !important;
+        margin-top: 0.5rem;
+        margin-right: 0.5rem;
+      }
+
+      /* Ticker cards — stack vertically */
+      .ticker-header {
+        flex-direction: column;
+        gap: 0.4rem;
+      }
+      .ticker-main {
+        align-items: center;
+      }
+      .ticker-rank {
+        font-size: 1.1rem;
+        min-width: 24px;
+      }
+      .ticker-symbol {
+        font-size: 1.3rem;
+      }
+      .ticker-meta {
+        align-items: flex-start;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 0.3rem;
+      }
+      .ticker-details {
+        flex-wrap: wrap;
+        gap: 0.5rem;
+      }
+      .detail-label {
+        font-size: 0.55rem;
+      }
+      .detail-value {
+        font-size: 0.75rem;
+      }
+
+      /* Stock items (big BTC/top card) */
+      .stock-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.4rem;
+        padding: 0.75rem;
+      }
+      .stock-grid {
+        gap: 0.5rem;
+      }
+
+      /* Chart modal */
+      .chart-modal {
+        padding: 0.5rem;
+      }
+      .chart-container {
+        height: auto;
+        max-height: 80vh;
+        padding: 1rem;
+      }
+      .chart-header h3 {
+        font-size: 1.1rem;
+      }
+
+      /* Podcast modal */
+      .podcast-modal {
+        padding: 0.5rem;
+      }
+      .podcast-container {
+        max-height: 92vh;
+      }
+      .podcast-header {
+        padding: 1rem;
+      }
+      .podcast-header h3 {
+        font-size: 1rem;
+      }
+      .podcast-content {
+        padding: 1rem;
+        max-height: calc(92vh - 70px);
       }
     }
 
@@ -1336,12 +1429,13 @@
         <span id="last-updated">Last updated: February 14, 2026 at 11:06 AM CST</span> •
         <span style="color: #00d4ff;">2-week % changes displayed</span>
       </p>
-      <div style="position: absolute; bottom: 1rem; left: 2rem; display: flex; gap: 1rem;">
+      <!-- Desktop: absolute positioned badges; Mobile: inline via CSS override -->
+      <div class="header-qqq-badge" style="position: absolute; bottom: 1rem; left: 2rem; display: flex; gap: 1rem;">
         <span class="title-ticker" onclick="showChart('QQQ')" title="View QQQ 2-week chart">
           QQQ <span id="qqq-price" class="ticker-price"></span> <span id="qqq-change" class="ticker-change"></span>
         </span>
       </div>
-      <div style="position: absolute; bottom: 1rem; right: 2rem; display: flex; gap: 1rem;">
+      <div class="header-btc-badge" style="position: absolute; bottom: 1rem; right: 2rem; display: flex; gap: 1rem;">
         <span class="title-ticker btc" onclick="showChart('BTC')" title="View Bitcoin 2-week chart">
           <span id="btc-change" class="ticker-change"></span> <span id="btc-price" class="ticker-price"></span> ₿
         </span>
