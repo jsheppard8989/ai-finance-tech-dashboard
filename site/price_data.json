@@ -1,266 +1,98 @@
 {
-  "GOOGL": {
-    "price": 305.72,
-    "change_pct": -8.62,
-    "name": "Alphabet Inc.",
-    "updated_at": "2026-02-16T22:05:10.593439"
+  "NVDA": {
+    "price": 187.9,
+    "change_pct": -1.69,
+    "name": "NVDA",
+    "updated_at": "2026-02-19T15:22:47.887244"
   },
   "MSFT": {
-    "price": 401.32,
-    "change_pct": -16.49,
-    "name": "Microsoft Corporation",
-    "updated_at": "2026-02-16T22:05:10.593453"
-  },
-  "AAPL": {
-    "price": 255.78,
-    "change_pct": -0.87,
-    "name": "Apple Inc.",
-    "updated_at": "2026-02-16T22:05:10.593459"
-  },
-  "NVDA": {
-    "price": 182.81,
-    "change_pct": -3.03,
-    "name": "NVIDIA Corporation",
-    "updated_at": "2026-02-16T22:05:10.593465"
-  },
-  "META": {
-    "price": 639.77,
-    "change_pct": -4.93,
-    "name": "Meta Platforms Inc.",
-    "updated_at": "2026-02-16T22:05:10.593471"
+    "price": 398.46,
+    "change_pct": -7.4,
+    "name": "MSFT",
+    "updated_at": "2026-02-19T15:22:47.887259"
   },
   "BTC-USD": {
-    "price": 68467.25,
-    "change_pct": -6.23,
-    "name": "Bitcoin USD",
-    "updated_at": "2026-02-16T22:05:10.593477"
+    "price": 66984.12,
+    "change_pct": -5.06,
+    "name": "BTC",
+    "updated_at": "2026-02-19T15:22:47.887268"
   },
-  "QQQ": {
-    "price": 601.92,
-    "change_pct": -4.63,
-    "name": "Invesco QQQ Trust",
-    "updated_at": "2026-02-16T22:05:10.593483"
+  "AMZN": {
+    "price": 204.86,
+    "change_pct": -14.39,
+    "name": "AMZN",
+    "updated_at": "2026-02-19T15:22:47.887275"
   },
-  "NEE": {
-    "price": 93.8,
-    "change_pct": 7.63,
-    "name": "NextEra Energy",
-    "updated_at": "2026-02-16T22:05:10.593488"
-  },
-  "CEG": {
-    "price": 288.43,
-    "change_pct": -0.11,
-    "name": "Constellation Energy",
-    "updated_at": "2026-02-16T22:05:10.593493"
-  },
-  "VST": {
-    "price": 171.49,
-    "change_pct": 4.4,
-    "name": "Vistra Corp",
-    "updated_at": "2026-02-16T22:05:10.593499"
-  },
-  "SMR": {
-    "price": 14.31,
-    "change_pct": -25.47,
-    "name": "NuScale Power",
-    "updated_at": "2026-02-16T22:05:10.593504"
-  },
-  "OKLO": {
-    "price": 65.69,
-    "change_pct": -22.96,
-    "name": "Oklo Inc",
-    "updated_at": "2026-02-16T22:05:10.593511"
-  },
-  "BWXT": {
-    "price": 200.4,
-    "change_pct": -5.65,
-    "name": "BWX Technologies",
-    "updated_at": "2026-02-16T22:05:10.593516"
-  },
-  "CWST": {
-    "price": 103.72,
-    "change_pct": -1.98,
-    "name": "Casella Waste",
-    "updated_at": "2026-02-16T22:05:10.593521"
-  },
-  "XYL": {
-    "price": 128.09,
-    "change_pct": -8.77,
-    "name": "Xylem Inc",
-    "updated_at": "2026-02-16T22:05:10.593526"
-  },
-  "AWK": {
-    "price": 133.5,
-    "change_pct": 2.97,
-    "name": "American Water",
-    "updated_at": "2026-02-16T22:05:10.593536"
-  },
-  "ANET": {
-    "price": 141.59,
-    "change_pct": -3.48,
-    "name": "Arista Networks",
-    "updated_at": "2026-02-16T22:05:10.593542"
-  },
-  "AVGO": {
-    "price": 325.17,
-    "change_pct": -2.29,
-    "name": "Broadcom Inc",
-    "updated_at": "2026-02-16T22:05:10.593547"
-  },
-  "MRVL": {
-    "price": 78.61,
-    "change_pct": -5.21,
-    "name": "Marvell Tech",
-    "updated_at": "2026-02-16T22:05:10.593551"
-  },
-  "CSCO": {
-    "price": 76.85,
-    "change_pct": -2.33,
-    "name": "Cisco Systems",
-    "updated_at": "2026-02-16T22:05:10.593556"
-  },
-  "DLR": {
-    "price": 180.97,
-    "change_pct": 10.92,
-    "name": "Digital Realty",
-    "updated_at": "2026-02-16T22:05:10.593561"
-  },
-  "EQIX": {
-    "price": 956.19,
-    "change_pct": 18.11,
-    "name": "Equinix Inc",
-    "updated_at": "2026-02-16T22:05:10.593566"
-  },
-  "FFIV": {
-    "price": 273.93,
-    "change_pct": 1.29,
-    "name": "F5 Inc",
-    "updated_at": "2026-02-16T22:05:10.593573"
-  },
-  "NET": {
-    "price": 195.85,
-    "change_pct": -4.9,
-    "name": "Cloudflare",
-    "updated_at": "2026-02-16T22:05:10.593578"
-  },
-  "DDOG": {
-    "price": 125.2,
-    "change_pct": -9.41,
-    "name": "Datadog",
-    "updated_at": "2026-02-16T22:05:10.593584"
-  },
-  "SNOW": {
-    "price": 182.29,
-    "change_pct": -14.32,
-    "name": "Snowflake",
-    "updated_at": "2026-02-16T22:05:10.593589"
-  },
-  "PLTR": {
-    "price": 131.41,
-    "change_pct": -20.69,
-    "name": "Palantir",
-    "updated_at": "2026-02-16T22:05:10.593594"
-  },
-  "CFLT": {
-    "price": 30.56,
-    "change_pct": 0.07,
-    "name": "Confluent",
-    "updated_at": "2026-02-16T22:05:10.593599"
-  },
-  "CRM": {
-    "price": 189.72,
-    "change_pct": -16.98,
-    "name": "Salesforce",
-    "updated_at": "2026-02-16T22:05:10.593604"
+  "MSTR": {
+    "price": 129.45,
+    "change_pct": -13.53,
+    "name": "MSTR",
+    "updated_at": "2026-02-19T15:22:47.887281"
   },
   "NOW": {
-    "price": 107.08,
-    "change_pct": -18.76,
-    "name": "ServiceNow",
-    "updated_at": "2026-02-16T22:05:10.593609"
+    "price": 107.37,
+    "change_pct": -8.24,
+    "name": "NOW",
+    "updated_at": "2026-02-19T15:22:47.887286"
   },
-  "VEEV": {
-    "price": 174.11,
-    "change_pct": -20.09,
-    "name": "Veeva Systems",
-    "updated_at": "2026-02-16T22:05:10.593614"
+  "CRM": {
+    "price": 185.29,
+    "change_pct": -12.72,
+    "name": "CRM",
+    "updated_at": "2026-02-19T15:22:47.887292"
   },
-  "WDAY": {
-    "price": 144.42,
-    "change_pct": -23.42,
-    "name": "Workday",
-    "updated_at": "2026-02-16T22:05:10.593619"
+  "GOOGL": {
+    "price": 302.85,
+    "change_pct": -10.4,
+    "name": "GOOGL",
+    "updated_at": "2026-02-19T15:22:47.887298"
   },
-  "MDB": {
-    "price": 368.4,
-    "change_pct": -10.56,
-    "name": "MongoDB",
-    "updated_at": "2026-02-16T22:05:10.593624"
+  "ILMN": {
+    "price": 120.0,
+    "change_pct": -17.13,
+    "name": "ILMN",
+    "updated_at": "2026-02-19T15:22:47.887303"
   },
-  "SWKS": {
-    "price": 62.1,
-    "change_pct": 3.41,
-    "name": "Skyworks",
-    "updated_at": "2026-02-16T22:05:10.593629"
+  "PLTR": {
+    "price": 134.89,
+    "change_pct": -7.98,
+    "name": "PLTR",
+    "updated_at": "2026-02-19T15:22:47.887309"
   },
-  "QRVO": {
-    "price": 84.44,
-    "change_pct": 1.97,
-    "name": "Qorvo",
-    "updated_at": "2026-02-16T22:05:10.593634"
+  "COIN": {
+    "price": 165.94,
+    "change_pct": -14.79,
+    "name": "COIN",
+    "updated_at": "2026-02-19T15:22:47.887315"
   },
-  "QCOM": {
-    "price": 140.7,
-    "change_pct": -8.06,
-    "name": "Qualcomm",
-    "updated_at": "2026-02-16T22:05:10.593640"
+  "CRSP": {
+    "price": 54.64,
+    "change_pct": 9.37,
+    "name": "CRSP",
+    "updated_at": "2026-02-19T15:22:47.887322"
   },
-  "PYPL": {
-    "price": 40.29,
-    "change_pct": -27.42,
-    "name": "PayPal",
-    "updated_at": "2026-02-16T22:05:10.593645"
+  "GLD": {
+    "price": 459.61,
+    "change_pct": 3.29,
+    "name": "GLD",
+    "updated_at": "2026-02-19T15:22:47.887329"
   },
-  "SOFI": {
-    "price": 19.61,
-    "change_pct": -22.98,
-    "name": "SoFi Technologies",
-    "updated_at": "2026-02-16T22:05:10.593650"
+  "PQNT": {
+    "price": 22.36,
+    "change_pct": 1.88,
+    "name": "PQNT",
+    "updated_at": "2026-02-19T15:22:47.887385"
   },
-  "ASML": {
-    "price": 1406.61,
-    "change_pct": -3.17,
-    "name": "ASML Holding",
-    "updated_at": "2026-02-16T22:05:10.593655"
+  "TLT": {
+    "price": 89.62,
+    "change_pct": 3.25,
+    "name": "TLT",
+    "updated_at": "2026-02-19T15:22:47.887399"
   },
-  "AMAT": {
-    "price": 354.91,
-    "change_pct": 6.67,
-    "name": "Applied Materials",
-    "updated_at": "2026-02-16T22:05:10.593660"
-  },
-  "LRCX": {
-    "price": 235.53,
-    "change_pct": -1.23,
-    "name": "Lam Research",
-    "updated_at": "2026-02-16T22:05:10.593665"
-  },
-  "KLAC": {
-    "price": 1464.13,
-    "change_pct": -9.42,
-    "name": "KLA Corp",
-    "updated_at": "2026-02-16T22:05:10.593671"
-  },
-  "INTC": {
-    "price": 46.79,
-    "change_pct": 6.51,
-    "name": "Intel Corp",
-    "updated_at": "2026-02-16T22:05:10.593676"
-  },
-  "AMD": {
-    "price": 207.32,
-    "change_pct": -17.74,
-    "name": "AMD",
-    "updated_at": "2026-02-16T22:05:10.593682"
+  "SPY": {
+    "price": 684.48,
+    "change_pct": -1.08,
+    "name": "SPY",
+    "updated_at": "2026-02-19T15:22:47.887405"
   }
 }

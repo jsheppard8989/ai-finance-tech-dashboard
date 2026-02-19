@@ -13,32 +13,26 @@ DB_PATH = Path.home() / ".openclaw/workspace/pipeline/dashboard.db"
 PRICE_FILE = Path.home() / ".openclaw/workspace/site/price_data.json"
 
 def get_tickers_from_data():
-    """Get all tickers that need prices."""
-    # Load current data.js to get all tickers
-    data_js = Path.home() / ".openclaw/workspace/site/data/data.js"
+    """Get all tickers that need prices from ticker_scores.json and database."""
     tickers = set()
     
-    if data_js.exists():
-        with open(data_js, 'r') as f:
-            content = f.read()
-            # Quick parse to get ticker symbols
-            if 'tickerScores' in content:
-                start = content.find('tickerScores:')
-                if start > 0:
-                    bracket_start = content.find('[', start)
-                    bracket_end = content.find(']', bracket_start)
-                    try:
-                        scores = json.loads(content[bracket_start:bracket_end+1])
-                        for s in scores:
-                            if 'ticker' in s:
-                                tickers.add(s['ticker'])
-                    except:
-                        pass
+    # Load from ticker_scores.json (primary source)
+    ticker_scores_file = Path.home() / ".openclaw/workspace/site/data/ticker_scores.json"
+    if ticker_scores_file.exists():
+        try:
+            with open(ticker_scores_file, 'r') as f:
+                scores = json.load(f)
+                for s in scores:
+                    if 'ticker' in s:
+                        tickers.add(s['ticker'])
+            print(f"  Loaded {len(tickers)} tickers from ticker_scores.json")
+        except Exception as e:
+            print(f"  Warning: Could not load ticker_scores.json: {e}")
     
-    # Also get from database
+    # Also get from database for any missing tickers
     try:
         conn = sqlite3.connect(DB_PATH)
-        cursor = conn.execute('SELECT tickers_mentioned FROM latest_insights')
+        cursor = conn.execute('SELECT tickers_mentioned FROM latest_insights WHERE tickers_mentioned IS NOT NULL')
         for row in cursor.fetchall():
             if row[0]:
                 try:
@@ -47,13 +41,13 @@ def get_tickers_from_data():
                 except:
                     pass
         conn.close()
-    except:
-        pass
+    except Exception as e:
+        print(f"  Warning: Could not load from database: {e}")
     
     return sorted(tickers)
 
 def fetch_price_data(ticker):
-    """Fetch price and 2-week change from Yahoo Finance."""
+    """Fetch price and 2-week (14 day) change from Yahoo Finance."""
     try:
         # Map ticker symbols for Yahoo Finance
         symbol = ticker
@@ -62,8 +56,8 @@ def fetch_price_data(ticker):
         elif ticker == 'VIX':
             symbol = '^VIX'
         
-        # Get current price
-        url = f"https://query1.finance.yahoo.com/v8/finance/chart/{symbol}?interval=1d&range=15d"
+        # Get 14 days of data (2 weeks)
+        url = f"https://query1.finance.yahoo.com/v8/finance/chart/{symbol}?interval=1d&range=20d"
         req = urllib.request.Request(url, headers={
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
         })
@@ -77,21 +71,30 @@ def fetch_price_data(ticker):
         result = data['chart']['result'][0]
         meta = result['meta']
         
-        # Get current price
-        current_price = meta.get('regularMarketPrice', 0)
+        # Get current price (regular market price or last close)
+        current_price = meta.get('regularMarketPrice') or meta.get('previousClose', 0)
         
-        # Get 2-week (10 trading days) change
-        timestamps = result.get('timestamp', [])
+        # Get prices array
         prices = result.get('indicators', {}).get('quote', [{}])[0].get('close', [])
+        timestamps = result.get('timestamp', [])
         
-        if len(prices) >= 10:
-            price_10_days_ago = prices[-10]  # 10 days back
-            if price_10_days_ago and current_price:
-                change_pct = ((current_price - price_10_days_ago) / price_10_days_ago) * 100
+        # Calculate 2-week (14 day) change
+        if len(prices) >= 14:
+            # Get price from 14 days ago (index -14 from end)
+            price_14_days_ago = prices[-14]
+            if price_14_days_ago and current_price:
+                change_pct = ((current_price - price_14_days_ago) / price_14_days_ago) * 100
+            else:
+                change_pct = 0
+        elif len(prices) >= 2:
+            # Fallback: use earliest available price in the range
+            price_earliest = prices[0]
+            if price_earliest and current_price:
+                change_pct = ((current_price - price_earliest) / price_earliest) * 100
             else:
                 change_pct = 0
         else:
-            # Fallback to regularMarketPreviousClose
+            # Fallback to previous close
             prev_close = meta.get('previousClose', current_price)
             if prev_close and current_price:
                 change_pct = ((current_price - prev_close) / prev_close) * 100
@@ -102,7 +105,8 @@ def fetch_price_data(ticker):
             'price': round(current_price, 2),
             'change_pct': round(change_pct, 2),
             'name': meta.get('shortName', meta.get('longName', ticker)),
-            'updated': datetime.now().isoformat()
+            'updated': datetime.now().isoformat(),
+            'price_14d_ago': round(prices[-14], 2) if len(prices) >= 14 else None
         }
         
     except Exception as e:
@@ -111,11 +115,17 @@ def fetch_price_data(ticker):
 
 def main():
     print("="*60)
-    print("Fetching Prices with 2-Week % Change")
+    print("Fetching Prices with 2-Week (14 Day) % Change")
     print(f"Started: {datetime.now()}")
     print("="*60)
     
     tickers = get_tickers_from_data()
+    
+    # Ensure QQQ and BTC are included (for title bar)
+    for required in ['QQQ', 'BTC']:
+        if required not in tickers:
+            tickers.append(required)
+    
     print(f"\nFound {len(tickers)} tickers")
     
     # Load existing prices

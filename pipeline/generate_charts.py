@@ -14,7 +14,7 @@ import pandas as pd
 CHARTS_DIR = Path.home() / ".openclaw/workspace/site/charts"
 CHARTS_DIR.mkdir(exist_ok=True)
 
-# Stock symbols to chart
+# Stock symbols to chart (primary tickers for main display)
 STOCKS = {
     'GOOGL': 'Alphabet Inc.',
     'MSFT': 'Microsoft Corporation',
@@ -24,6 +24,25 @@ STOCKS = {
     'BTC-USD': 'Bitcoin USD',
     'QQQ': 'Invesco QQQ Trust'
 }
+
+def get_all_tickers_from_scores():
+    """Get all tickers from ticker_scores.json to ensure we chart everything."""
+    import json
+    ticker_file = Path.home() / ".openclaw/workspace/site/data/ticker_scores.json"
+    tickers = {}
+    if ticker_file.exists():
+        try:
+            with open(ticker_file, 'r') as f:
+                scores = json.load(f)
+                for s in scores:
+                    if 'ticker' in s:
+                        ticker = s['ticker']
+                        # Map BTC to BTC-USD for Yahoo Finance
+                        symbol = 'BTC-USD' if ticker == 'BTC' else ticker
+                        tickers[symbol] = s.get('name', ticker)
+        except Exception as e:
+            print(f"Warning: Could not load ticker_scores.json: {e}")
+    return tickers
 
 # Second order / hidden play tickers (supply chain beneficiaries)
 SECOND_ORDER_TICKERS = {
@@ -173,76 +192,38 @@ def save_price_data(all_data):
 
 def main():
     print("=" * 60)
-    print("Stock Chart Generator")
+    print("Stock Chart Generator - 2 Week (14 Day) Charts")
     print("=" * 60)
     
     charts_created = []
     all_price_data = []
     
-    # Generate charts for main stocks
-    print("\n📈 Primary Tickers")
+    # Get all tickers from ticker_scores.json
+    all_tickers = get_all_tickers_from_scores()
+    print(f"\n📊 Found {len(all_tickers)} tickers to chart")
     print("-" * 40)
-    for symbol, name in STOCKS.items():
-        print(f"\n📊 Processing {symbol}...")
-        
-        # Fetch data
-        df = fetch_data(symbol, period='14d')
-        if df is None:
-            continue
-        
-        # Create chart
-        chart_path = create_candlestick_chart(df, symbol, name)
-        if chart_path:
-            latest_price = float(df['Close'].iloc[-1])
-            # Calculate 2-week change (first day to last day)
-            first_price = float(df['Close'].iloc[0])
-            change_pct = ((latest_price - first_price) / first_price) * 100 if first_price != 0 else 0
-            
-            chart_data = {
-                'symbol': symbol,
-                'name': name,
-                'path': str(chart_path),
-                'latest_price': latest_price,
-                'change_pct': change_pct,
-                'first_price': first_price
-            }
-            charts_created.append(chart_data)
-            all_price_data.append(chart_data)
     
-    # Generate charts for second-order tickers
-    print("\n\n⚡ Second Order F-X Tickers")
-    print("-" * 40)
-    for symbol, name in SECOND_ORDER_TICKERS.items():
-        # Check if chart already exists (skip if it does)
-        chart_path = CHARTS_DIR / f'{symbol.replace("-", "_")}_chart.png'
-        if chart_path.exists():
-            # Still fetch data to update price
-            df = fetch_data(symbol, period='14d')
-            if df is not None:
-                latest_price = float(df['Close'].iloc[-1])
-                first_price = float(df['Close'].iloc[0])
-                change_pct = ((latest_price - first_price) / first_price) * 100 if first_price != 0 else 0
-                all_price_data.append({
-                    'symbol': symbol,
-                    'name': name,
-                    'latest_price': latest_price,
-                    'change_pct': change_pct
-                })
-            continue
-            
+    # Generate/update charts for all tickers
+    for symbol, name in all_tickers.items():
         print(f"\n📊 Processing {symbol}...")
         
-        # Fetch data
+        # Fetch data (14 days = 2 weeks)
         df = fetch_data(symbol, period='14d')
         if df is None:
+            print(f"  ✗ Failed to fetch data for {symbol}")
             continue
         
-        # Create chart
+        # Create/update chart
         chart_path = create_candlestick_chart(df, symbol, name)
         if chart_path:
             latest_price = float(df['Close'].iloc[-1])
-            first_price = float(df['Close'].iloc[0])
-            change_pct = ((latest_price - first_price) / first_price) * 100 if first_price != 0 else 0
+            # Calculate 2-week change (14 days ago to today)
+            if len(df) >= 14:
+                price_14d_ago = float(df['Close'].iloc[-14])  # 14th day from end
+            else:
+                price_14d_ago = float(df['Close'].iloc[0])  # Earliest available
+            
+            change_pct = ((latest_price - price_14d_ago) / price_14d_ago) * 100 if price_14d_ago != 0 else 0
             
             chart_data = {
                 'symbol': symbol,
@@ -250,10 +231,11 @@ def main():
                 'path': str(chart_path),
                 'latest_price': latest_price,
                 'change_pct': change_pct,
-                'first_price': first_price
+                'price_14d_ago': price_14d_ago
             }
             charts_created.append(chart_data)
             all_price_data.append(chart_data)
+            print(f"  ✓ ${latest_price:.2f} ({change_pct:+.2f}% over 14 days)")
     
     # Save price data for webpage
     save_price_data(all_price_data)
@@ -262,11 +244,8 @@ def main():
     print("\n" + "=" * 60)
     print("SUMMARY")
     print("=" * 60)
-    print(f"Charts created this run: {len(charts_created)}")
-    for chart in charts_created:
-        print(f"  ✓ {chart['symbol']}: ${chart['latest_price']:.2f} ({chart['change_pct']:+.2f}%)")
-    
-    print(f"\nCharts saved to: {CHARTS_DIR}")
+    print(f"Charts created/updated: {len(charts_created)}")
+    print(f"Charts saved to: {CHARTS_DIR}")
     return charts_created
 
 if __name__ == "__main__":
