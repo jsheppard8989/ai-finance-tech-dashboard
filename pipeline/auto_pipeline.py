@@ -161,15 +161,80 @@ def import_newsletters() -> int:
 
 
 def aggregate_scores():
-    """Aggregate daily ticker scores."""
+    """Aggregate daily ticker scores with proper conviction and contrarian calculations."""
     print("\n" + "="*60)
     print("STEP: Aggregate Daily Scores")
     print("="*60)
     db = get_db()
     today = date.today()
     top_tickers = db.get_top_tickers(date_filter=today, limit=30)
+    
+    # Get all sentiment and timeframe data for today in one query
+    with db._get_connection() as conn:
+        cursor = conn.execute("""
+            SELECT ticker, sentiment, COUNT(*) as count 
+            FROM ticker_mentions 
+            WHERE date(mention_date) = ?
+            GROUP BY ticker, sentiment
+        """, (today,))
+        sentiment_rows = cursor.fetchall()
+        
+        cursor = conn.execute("""
+            SELECT ticker, timeframe, COUNT(*) as count 
+            FROM ticker_mentions 
+            WHERE date(mention_date) = ?
+            GROUP BY ticker, timeframe
+        """, (today,))
+        timeframe_rows = cursor.fetchall()
+    
+    # Organize sentiment data by ticker
+    sentiment_by_ticker = {}
+    for r in sentiment_rows:
+        if r['ticker'] not in sentiment_by_ticker:
+            sentiment_by_ticker[r['ticker']] = {}
+        sentiment_by_ticker[r['ticker']][r['sentiment']] = r['count']
+    
+    # Organize timeframe data by ticker
+    timeframe_by_ticker = {}
+    for r in timeframe_rows:
+        if r['ticker'] not in timeframe_by_ticker:
+            timeframe_by_ticker[r['ticker']] = {}
+        timeframe_by_ticker[r['ticker']][r['timeframe']] = r['count']
+    
     scores = []
     for i, row in enumerate(top_tickers, 1):
+        # Calculate conviction level from average conviction score
+        avg_conviction = row.get('avg_conviction', 50) or 50
+        if avg_conviction >= 70:
+            conviction_level = 'high'
+        elif avg_conviction >= 40:
+            conviction_level = 'medium'
+        else:
+            conviction_level = 'low'
+        
+        # Get sentiment distribution for contrarian signal calculation
+        sentiment_counts = sentiment_by_ticker.get(row['ticker'], {})
+        bullish = sentiment_counts.get('bullish', 0)
+        bearish = sentiment_counts.get('bearish', 0)
+        total = sum(sentiment_counts.values())
+        
+        # Determine contrarian signal
+        if total >= 3 and bearish > bullish:
+            contrarian_signal = 'contrarian'
+        elif total >= 3 and bullish > bearish * 2:
+            contrarian_signal = 'crowded'
+        else:
+            contrarian_signal = 'neutral'
+        
+        # Calculate timeframe - use most common timeframe
+        timeframe_counts = timeframe_by_ticker.get(row['ticker'], {})
+        if timeframe_counts:
+            # Sort by count descending and pick most common
+            most_common = max(timeframe_counts.items(), key=lambda x: x[1])
+            timeframe = most_common[0] if most_common[0] else 'unspecified'
+        else:
+            timeframe = 'unspecified'
+        
         score = DailyScore(
             ticker=row['ticker'],
             date=today,
@@ -178,8 +243,9 @@ def aggregate_scores():
             newsletter_mentions=row['newsletter_count'],
             disruption_signals=0,
             unique_sources=row['unique_sources'],
-            conviction_level='medium',
-            contrarian_signal='neutral',
+            conviction_level=conviction_level,
+            contrarian_signal=contrarian_signal,
+            timeframe=timeframe,
             rank=i
         )
         scores.append(score)

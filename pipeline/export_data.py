@@ -40,6 +40,11 @@ def generate_website_js():
     
     # Get all data including archive
     archive = db.export_archive_data()
+    print(f"DEBUG: export_archive_data returned {len(archive['insights'])} insights")
+    ids = [i['id'] for i in archive['insights']]
+    from collections import Counter
+    counts = Counter(ids)
+    print(f"DEBUG: ID counts: {dict(counts)}")
     main_content = db.get_main_page_content()
     deepdives = db.get_all_deep_dive_content()
     suggested_terms = db.get_suggested_terms_for_website(limit=3)
@@ -52,16 +57,25 @@ def generate_website_js():
         ticker_scores = []
     
     # Generate data.js that the HTML can load
+    # Pre-serialize to avoid f-string issues
+    ticker_json = json.dumps(ticker_scores, indent=2)
+    archive_json = json.dumps(archive, indent=2)
+    main_json = json.dumps(main_content, indent=2)
+    deepdives_json = json.dumps(deepdives, indent=2)
+    suggested_json = json.dumps(suggested_terms, indent=2)
+    
+    print(f"DEBUG: archive_json has {archive_json.count(chr(34)+'id'+chr(34))} 'id' keys")
+    
     js_content = f"""// Auto-generated data file - {datetime.now().isoformat()}
 // DO NOT EDIT MANUALLY
 
 const dashboardData = {{
   generatedAt: "{datetime.now().isoformat()}",
-  tickerScores: {json.dumps(ticker_scores, indent=2)},
-  archive: {json.dumps(archive, indent=2)},
-  mainContent: {json.dumps(main_content, indent=2)},
-  deepDives: {json.dumps(deepdives, indent=2)},
-  suggestedTerms: {json.dumps(suggested_terms, indent=2)}
+  tickerScores: {ticker_json},
+  archive: {archive_json},
+  mainContent: {main_json},
+  deepDives: {deepdives_json},
+  suggestedTerms: {suggested_json}
 }};
 
 // Export for use in other scripts

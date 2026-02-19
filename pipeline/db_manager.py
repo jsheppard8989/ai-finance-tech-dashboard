@@ -53,6 +53,7 @@ class DailyScore:
     unique_sources: int
     conviction_level: str
     contrarian_signal: str
+    timeframe: str = 'unspecified'
     hidden_plays: Optional[Dict] = None
     rank: int = 0
 
@@ -208,12 +209,13 @@ class DashboardDB:
                     INSERT OR REPLACE INTO daily_scores
                     (ticker, date, total_score, podcast_mentions, newsletter_mentions,
                      disruption_signals, unique_sources, conviction_level,
-                     contrarian_signal, hidden_plays, rank)
-                    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                     contrarian_signal, timeframe, hidden_plays, rank)
+                    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
                 """, (score.ticker, score.date, score.total_score,
                       score.podcast_mentions, score.newsletter_mentions,
                       score.disruption_signals, score.unique_sources,
                       score.conviction_level, score.contrarian_signal,
+                      score.timeframe,
                       json.dumps(score.hidden_plays) if score.hidden_plays else None,
                       score.rank))
     
