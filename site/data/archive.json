@@ -1,6 +1,51 @@
 {
   "insights": [
     {
+      "id": 13,
+      "title": "Jack Mallers: Japan, AI, & The Next Liquidity Shock For Bitcoin",
+      "source_type": "podcast",
+      "source_name": "The Jack Mallers Show",
+      "source_date": "2026-02-17",
+      "summary": "Japan raising rates triggers global liquidity unwind just as AI-driven deflation compresses corporate earnings. Bitcoin selling off alongside tech as it still trades as a risk asset \u2014 but Mallers argues this is the last correlation before Bitcoin reprices as a sovereign-grade hard asset as yield curve control fails.",
+      "key_takeaway": "Bitcoin dip is a liquidity event, not a thesis change. Japanese rate hike is the catalyst \u2014 watch for yen carry trade unwind.",
+      "tickers_mentioned": [
+        "BTC",
+        "MSTR",
+        "COIN",
+        "JPY"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 1,
+      "added_date": "2026-02-19",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 20
+    },
+    {
+      "id": 14,
+      "title": "Paul Krugman: Dollar Resilience & AI Deflation Risk",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-02-15",
+      "summary": "Krugman argues dollar dominance is structurally resilient despite chronic deficits \u2014 there is no alternative reserve asset. He flags AI as a deflationary force that will complicate Fed policy, and warns Kevin Warsh as Fed Chair would be hawkish at the wrong time. Sees a real risk of policy error in 2026.",
+      "key_takeaway": "Dollar stays strong short-term. AI deflation + hawkish Fed = dangerous mix for equities by late 2026. Watch rate policy closely.",
+      "tickers_mentioned": [
+        "DXY",
+        "TLT",
+        "GLD",
+        "SPY",
+        "QQQ"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 2,
+      "added_date": "2026-02-19",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 18
+    },
+    {
       "id": 1,
       "title": "SpaceX/xAI $1.25T Super-Entity",
       "source_type": "podcast",
@@ -42,6 +87,73 @@
       "archived_date": null,
       "archived_reason": null,
       "podcast_episode_id": 13
+    },
+    {
+      "id": 12,
+      "title": "Dario Amodei: We Are Near the End of the Exponential",
+      "source_type": "podcast",
+      "source_name": "Dwarkesh Podcast",
+      "source_date": "2026-02-13",
+      "summary": "Dario Amodei argues we are approaching AGI faster than most realize \u2014 not from slowing scaling, but because frontier RL is opening entirely new vectors. Anthropic projects enough compute to run \"a country of geniuses in a data center\" within years. Revenue projections and compute commitments discussed in detail.",
+      "key_takeaway": "The AI exponential is not ending \u2014 it is accelerating through the RL regime. Anthropic path to profitability clearer than believed.",
+      "tickers_mentioned": [
+        "AMZN",
+        "GOOGL",
+        "MSFT",
+        "NVDA",
+        "PLTR"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-02-19",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 19
+    },
+    {
+      "id": 15,
+      "title": "Sam Altman's AI CEO Vision: 5-Year Plans Are Obsolete",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-02-13",
+      "summary": "OpenAI succession plan explored: AI may become operational CEO of a billion-dollar company within 18 months. Job losses are task-automation, not recession. The 'Solve Everything' paper targets abundance by 2035. Corporate strategy cycles now measured in minutes not years.",
+      "key_takeaway": "AI governance tools (NOW, CRM, PLTR) positioned for enterprise adoption surge as decision-making automates.",
+      "tickers_mentioned": [
+        "MSFT",
+        "PLTR",
+        "NOW",
+        "CRM",
+        "NVDA"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 3,
+      "added_date": "2026-02-19",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 17
+    },
+    {
+      "id": 16,
+      "title": "Network State Podcast: Orchard & The Genetic Health Revolution",
+      "source_type": "podcast",
+      "source_name": "The Network State Podcast",
+      "source_date": "2026-02-13",
+      "summary": "Noor Siddiqui (Orchard) discusses embryo screening that can screen for thousands of genetic diseases before implantation. Declining cost curves mirror early genomics. Technology is ahead of regulatory and ethical frameworks. Represents a compounding, long-duration health tech opportunity.",
+      "key_takeaway": "Early-stage genetic health tech entering an inflection. Watch ILMN (sequencing infrastructure) and CRSP (gene editing tools) as enablers.",
+      "tickers_mentioned": [
+        "ILMN",
+        "CRSP",
+        "EDIT"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 4,
+      "added_date": "2026-02-19",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 21
     },
     {
       "id": 2,
