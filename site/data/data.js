@@ -1,8 +1,8 @@
-// Auto-generated data file - 2026-02-19T14:21:51.705931
+// Auto-generated data file - 2026-02-19T14:37:01.836151
 // DO NOT EDIT MANUALLY
 
 const dashboardData = {
-  generatedAt: "2026-02-19T14:21:51.705940",
+  generatedAt: "2026-02-19T14:37:01.836161",
   tickerScores: [
   {
     "id": 24,
@@ -457,7 +457,7 @@ const dashboardData = {
         "TLT"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 2,
       "added_date": "2026-02-10",
       "archived_date": null,
@@ -478,7 +478,7 @@ const dashboardData = {
         "IWM"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 2,
       "added_date": "2026-02-15",
       "archived_date": null,
@@ -520,7 +520,7 @@ const dashboardData = {
         "DOCS"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 4,
       "added_date": "2026-01-25",
       "archived_date": null,
@@ -835,42 +835,6 @@ const dashboardData = {
       "episode_release_date": "2023-12-07"
     },
     {
-      "id": 2,
-      "title": "Gold Climax Top Signal",
-      "source_type": "podcast",
-      "source_name": "Monetary Matters",
-      "source_date": "2026-02-10",
-      "summary": "Milton Berg institutional model flipped net-short across major indices while retail remains 100% long. Historical pattern suggests 8% drawdown.",
-      "key_takeaway": "Risk-off: Reduce momentum exposure. Watch VIX >25.",
-      "tickers_mentioned": "[\"VIX\", \"SQQQ\", \"TLT\"]",
-      "sentiment": "bearish",
-      "display_on_main": 1,
-      "display_order": 2,
-      "added_date": "2026-02-10",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": null,
-      "episode_release_date": null
-    },
-    {
-      "id": 9,
-      "title": "Milton Berg's Market Signals: Local Bottom or Major Top?",
-      "source_type": "podcast",
-      "source_name": "Monetary Matters",
-      "source_date": "2026-02-06",
-      "summary": "Legendary technician sees conflicting signals: December VXN sell signal suggests major top, but Thursday's panic indicators (35% VXN spike, Russell island reversal) match historical local bottoms. April 2025 buy signals have not yet achieved projected 6-8% upside.",
-      "key_takeaway": "Unprecedented Russell 2000 island reversal suggests sharp correction likely, but panic may be overdone short-term",
-      "tickers_mentioned": "[\"SPY\", \"QQQ\", \"IWM\"]",
-      "sentiment": "bearish",
-      "display_on_main": 1,
-      "display_order": 2,
-      "added_date": "2026-02-15",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": null,
-      "episode_release_date": null
-    },
-    {
       "id": 15,
       "title": "Sam Altman's AI CEO Vision: 5-Year Plans Are Obsolete",
       "source_type": "podcast",
@@ -905,6 +869,42 @@ const dashboardData = {
       "archived_reason": null,
       "podcast_episode_id": 21,
       "episode_release_date": "2023-04-01"
+    },
+    {
+      "id": 17,
+      "title": "Moonshots #231: 400x AI Cost Collapse & India's Talent Decade",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-02-18",
+      "summary": "ARC-AGI-1 benchmark costs collapsed 400x \u2014 from $30,000 per solution to $75 \u2014 while OpenAI acquires agentic infrastructure. Every competitive moat analysis built on 2024 AI pricing is now obsolete. India positioned as the volume talent supplier for the next AI decade: 1.5M STEM graduates annually vs US 500K.",
+      "key_takeaway": "The 400x cost collapse is the most important AI investing signal of 2026. Rebuild every moat thesis from scratch.",
+      "tickers_mentioned": "[\"MSFT\",\"GOOGL\",\"NVDA\",\"INFY\",\"WIT\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 5,
+      "added_date": "2026-02-19",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 22,
+      "episode_release_date": "2026-02-18"
+    },
+    {
+      "id": 18,
+      "title": "Ben Horowitz: xAI Exodus, $5B SSI, & Apple's Structural AI Crisis",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-02-19",
+      "summary": "Ben Horowitz dissects the week's biggest AI signals: xAI executive exodus (talent voting with feet on internal direction), Ilya Sutskever's SSI at $5B pre-product valuation (market pricing safety-first AI), and Apple's structural AI crisis \u2014 Siri's architecture makes catch-up nearly impossible while GPT-4/Claude accelerate. Horowitz sees no plateau from inside the frontier labs.",
+      "key_takeaway": "AAPL is the clearest short in consumer tech \u2014 structural AI deficit while every competitor accelerates. SSI valuation validates safety-conscious development has commercial value.",
+      "tickers_mentioned": "[\"AAPL\",\"NVDA\",\"TSLA\",\"GOOGL\",\"MSFT\",\"AVGO\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 6,
+      "added_date": "2026-02-19",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 23,
+      "episode_release_date": "2026-02-19"
     }
   ],
   "definitions": [

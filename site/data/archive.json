@@ -194,7 +194,7 @@
         "TLT"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 2,
       "added_date": "2026-02-10",
       "archived_date": null,
@@ -215,7 +215,7 @@
         "IWM"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 2,
       "added_date": "2026-02-15",
       "archived_date": null,
@@ -257,7 +257,7 @@
         "DOCS"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 4,
       "added_date": "2026-01-25",
       "archived_date": null,
