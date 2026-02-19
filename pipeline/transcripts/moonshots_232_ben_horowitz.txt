@@ -1,0 +1,35 @@
+Moonshots Podcast Episode #232 - February 19, 2026
+Ben Horowitz: xAI Executive Exodus, Ilya's $5B SSI Valuation, Apple's AI Crisis, The Pace of AI
+
+Peter Diamandis: Welcome back to Moonshots everyone. Today we're joined by Ben Horowitz from a16z to discuss the incredible pace of AI development and some major moves in the industry.
+
+Ben Horowitz: Thanks Peter. The pace right now is absolutely unprecedented. We're seeing executive exodus from xAI as Musk consolidates control. Several key researchers have left in the past month, and the rumor is they're joining Ilya's new venture.
+
+Peter: Let's talk about Ilya Sutskever's SSI - Safe Superintelligence. We just saw reports of a $5 billion valuation. That's remarkable for a company with no product yet.
+
+Ben: It's extraordinary but justified. Ilya is arguably the most important researcher in AI after his work at OpenAI. The market is betting that his safe superintelligence approach will be the winning paradigm. At $5B, you're basically buying insurance against AGI going wrong.
+
+Salim Ismail: The talent war is intense. These researchers are getting offers of $50-100 million to join new labs. It's like the Manhattan Project meets the NBA free agency.
+
+Dave Blundin: The xAI executive departures are concerning. When you lose your Chief Scientist and several key engineers in one month, that signals internal conflict about direction.
+
+Peter: What about Apple's AI crisis? We've seen reports that their AI strategy is in disarray.
+
+Ben: Apple is in a tough spot. They missed the window on foundation models. Their approach has always been to be late but best, but in AI that doesn't work - the network effects and data flywheels are too powerful. By the time they ship their on-device models, they'll be two generations behind.
+
+Alexander Wissner-Gross: The cost collapse is the real story here. We're seeing 400x improvements in inference costs year over year. What cost $100 last year costs 25 cents now.
+
+Peter: This is the "solve everything" moment. When intelligence becomes effectively free, every industry transforms.
+
+Ben: Exactly. And the talent is recognizing this. The best AI researchers want to work at companies that are moving fast and have the compute. That's why we're seeing this massive consolidation.
+
+Key Investment Themes:
+- AI talent arbitrage: Top researchers worth billions in market cap
+- Apple defensive position: Missed AI wave creates structural risk for AAPL
+- SSI as insurance play: Safety-first AGI approach commanding premium valuations
+- Compute as moat: Access to GPUs becoming the primary differentiator
+- xAI consolidation: Musk's control tightening, but talent drain concerning
+
+Ben Horowitz: The next 12 months will determine which AI companies become the trillion-dollar giants and which become footnotes. The pace of change is too fast for companies that hesitate.
+
+Peter: Thanks everyone. This has been another incredible episode. Remember, the future is faster than you think.
