@@ -200,6 +200,13 @@ def main():
     
     # Get all tickers from ticker_scores.json
     all_tickers = get_all_tickers_from_scores()
+    
+    # Ensure QQQ and BTC-USD are included (for title bar display)
+    if 'QQQ' not in all_tickers:
+        all_tickers['QQQ'] = 'Invesco QQQ Trust'
+    if 'BTC-USD' not in all_tickers and 'BTC' in all_tickers:
+        all_tickers['BTC-USD'] = all_tickers['BTC']  # Map BTC to BTC-USD for Yahoo Finance
+    
     print(f"\n📊 Found {len(all_tickers)} tickers to chart")
     print("-" * 40)
     
