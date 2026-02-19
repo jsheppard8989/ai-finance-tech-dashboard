@@ -75,6 +75,25 @@
     ]
   },
   {
+    "id": 20,
+    "podcast_name": "The Jack Mallers Show",
+    "episode_title": "Japan, AI, & The Next Liquidity Shock For Bitcoin",
+    "episode_date": "2025-04-25",
+    "summary": "In this episode, the host, Jack Malers, discusses the current state of Bitcoin's price and market cap, highlighting its recent lows and the implications of this trend. He suggests that Bitcoin's performance is an early indicator of broader economic issues, particularly focusing on the impact of Japan's economic situation and the rise of AI on liquidity. The host argues that the combination of sovereign debt, AI deflation, and tight liquidity could lead to a liquidity shock and potential crisis, with Bitcoin serving as a 'liquidity smoke alarm'. He also touches on the increase in US consumer delinquencies and the downward revision of job numbers, indicating a bleak economic outlook.",
+    "key_takeaways": [
+      "Bitcoin's current price and market cap indicate a significant drop from its all-time high.",
+      "Bitcoin is seen as an early warning system for liquidity conditions in the market.",
+      "Japan's economic situation and advancements in AI are identified as key macro factors affecting liquidity.",
+      "Sovereign debt, AI deflation, and tight liquidity are converging to potentially cause a liquidity shock.",
+      "US consumer delinquencies have risen to a decade-high, signaling economic stress.",
+      "Job data revisions indicate a less robust economy than initially reported, suggesting underlying issues."
+    ],
+    "investment_thesis": "Bitcoin's weakness is signaling an impending liquidity crisis driven by sovereign debt, AI deflation, and tight liquidity conditions, indicating potential broader economic instability.",
+    "key_tickers": [
+      "BTC"
+    ]
+  },
+  {
     "id": 1,
     "podcast_name": "The Jack Mallers Show",
     "episode_title": "Episode 104: From Software to Hard Asset - Bitcoin and the New Liquidity Regime",
@@ -141,5 +160,73 @@
       "GOOGL",
       "MSFT"
     ]
+  },
+  {
+    "id": 17,
+    "podcast_name": "Moonshots with Peter Diamandis",
+    "episode_title": "EP#230: Sam Altman \u2014 AI CEOs, Job Displacement & the 2027 Solve-Everything Paper",
+    "episode_date": "2023-12-18",
+    "summary": "This podcast episode discusses the potential for AI to take on leadership roles within companies, particularly as a CEO. The panelists explore the implications of AI-driven decision-making in the corporate world and how this could lead to increased efficiency and strategy execution. They also touch on the rapid pace of technological change and its impact on job markets, suggesting that AI may already be running billion-dollar companies behind the scenes. The conversation also includes the unveiling of a paper discussing the path to abundance by 2035.",
+    "key_takeaways": [
+      "AI could already be running billion-dollar companies, with human CEOs serving as 'meet puppets' for legal purposes.",
+      "The shift towards AI in leadership roles is accelerating, with potential to significantly impact corporate governance and strategy.",
+      "AI can process and assimilate vast amounts of data much faster than humans, allowing for quicker strategic course corrections.",
+      "The role of the CEO may evolve to focus more on setting purpose and direction, with AI handling operational and strategic execution.",
+      "The next 18 months to two years are critical in setting the rules for the next century, with AI playing a central role in shaping the future of business.",
+      "The concept of 'time dilation' in business strategy is introduced, suggesting that AI could enable more frequent and effective strategic adjustments."
+    ],
+    "investment_thesis": "Investment in AI technology and companies at the forefront of AI-driven business leadership could yield significant returns as this paradigm shift unfolds.",
+    "key_tickers": null
+  },
+  {
+    "id": 18,
+    "podcast_name": "Monetary Matters with Jack Farley",
+    "episode_title": "\"A Huge Problem for Everybody\" | Paul Krugman on Currency Devaluation",
+    "episode_date": "2023-12-07",
+    "summary": "In this episode of Monetary Matters with Jack Farley, Nobel Prize-winning economist Paul Krugman discusses the US dollar's resilience despite chronic current account deficits, the role of the dollar in international finance, and the challenges of replacing the dollar with another currency. Krugman also touches on the unpredictability of currency movements and the limitations of global financial institutions like the IMF in influencing economic policies of surplus countries.",
+    "key_takeaways": [
+      "The US dollar's strength is not solely due to trade balances but also its role as an international medium of exchange, invoice currency, and store of value.",
+      "The dollar's position is unlikely to be replaced quickly due to the lack of viable alternatives and the entrenched nature of the dollar in global business.",
+      "Krugman suggests that the dollar's role could be eroded over time due to uncertainties about US domestic policy and the potential weaponization of the currency.",
+      "Currency movements are difficult to predict and are influenced by a multitude of factors, including market expectations and interest rate differentials.",
+      "Global financial institutions like the IMF have limited power to enact change, often serving as a lender of last resort and a signal to other lenders rather than as enforcers of economic policy."
+    ],
+    "investment_thesis": "The resilience and continued dominance of the US dollar in international finance present a stable backdrop for investment strategies, despite the potential for long-term erosion.",
+    "key_tickers": [
+      "PQNT"
+    ]
+  },
+  {
+    "id": 21,
+    "podcast_name": "Network State Podcast",
+    "episode_title": "#35 - Noor Siddiqui on Orchard, Embryo Screening & the Future of Medicine",
+    "episode_date": "2023-04-01",
+    "summary": "The podcast discusses the technology and moral implications of embryo screening through the company Orchard. It highlights how DNA screening can detect thousands of diseases at the earliest stages, potentially preventing genetic disorders and improving pregnancy outcomes. The conversation also touches on the ethical considerations of embryo screening and how it aligns with both liberal and conservative ideologies.",
+    "key_takeaways": [
+      "Orchard allows parents to screen the entire genome of an embryo for thousands of diseases.",
+      "Embryo screening can identify genetic issues before a child is born, potentially preventing genetic disorders.",
+      "The technology provides more detailed genetic information than traditional chromosome testing.",
+      "Embryo screening can significantly reduce the risk of miscarriages and infant deaths due to genetic causes.",
+      "The discussion suggests that embryo screening is not a new moral question but an extension of existing IVF practices."
+    ],
+    "investment_thesis": "Investment in embryo screening technology like Orchard could be seen as an opportunity in the growing field of genetic health and reproductive medicine, aiming to reduce the incidence of genetic diseases and improve pregnancy outcomes.",
+    "key_tickers": null
+  },
+  {
+    "id": 19,
+    "podcast_name": "Dwarkesh Podcast",
+    "episode_title": "Dario Amodei \u2014 \"We Are Near the End of the Exponential\"",
+    "episode_date": "2023-04-01",
+    "summary": "The podcast discusses the exponential growth of technology, particularly in the field of artificial intelligence and machine learning. The guest shares insights on the progress made in the last three years, noting that the advancement has been roughly in line with expectations. The conversation delves into the scaling of AI models, the importance of raw compute power, data quantity and quality, and the duration of training. The guest also touches on the surprising lack of public recognition regarding the proximity to the end of the exponential growth phase of technology. The discussion further explores the differences and similarities between reinforcement learning (RL) and pre-training, suggesting that both methods may exist in a middle space between human evolution and on-the-spot learning.",
+    "key_takeaways": [
+      "The exponential growth of technology has been roughly as expected, with some minor deviations.",
+      "There is a lack of public recognition of the nearing end of the exponential growth phase of technology.",
+      "The scaling hypothesis from 2017 still holds, emphasizing the importance of raw compute, data quantity and quality, and training duration.",
+      "Pre-training and RL show similar scaling trends, with both demonstrating improvements as training duration and data quantity increase.",
+      "The discussion suggests a middle ground between human evolution and on-the-spot learning for AI models, indicating a unique learning process for these models.",
+      "There is a debate on the necessity of RL environments to teach specific skills when in-context learning may lead to more sample-efficient agents."
+    ],
+    "investment_thesis": "Investment in technology, particularly AI and machine learning, is justified by the ongoing exponential growth and the potential for significant advancements in efficiency and capability.",
+    "key_tickers": null
   }
 ]
