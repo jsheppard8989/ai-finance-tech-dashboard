@@ -2165,8 +2165,8 @@
             <div class="source">${insight.source_name} • ${dateStr}</div>
             <div class="text"><strong>${insight.title}:</strong> ${insight.summary} <span style="color:${sentimentColor};">→ ${insight.key_takeaway}</span></div>
             <div class="insight-expanded">
-              <div style="font-size: 0.85rem; color: #a8b2d1;">
-                <strong>Key Tickers:</strong> ${tickerStr || 'None'}
+              <div style="font-size: 0.85rem; color: #a8b2d1; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.5rem;">
+                <span><strong>Key Tickers:</strong> ${tickerStr || 'None'}</span>
                 ${deepDiveBtn}
               </div>
             </div>
