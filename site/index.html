@@ -2131,6 +2131,9 @@
           const dateB = new Date(b.episode_release_date || b.source_date || b.added_date);
           return dateB - dateA;
         });
+        
+        // Limit to most recent 8 insights on main page
+        insights = insights.slice(0, 8);
       }
       
       if (insights.length === 0) {
