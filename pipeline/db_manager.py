@@ -87,17 +87,24 @@ class DashboardDB:
     
     def add_ticker_mention(self, mention: TickerMention) -> int:
         """Add a ticker mention and return the ID."""
+        # Calculate weighted score at insert time
+        base = 20.0 if mention.source_type == 'podcast' else 10.0
+        weight = 2.0 if mention.source_type == 'podcast' else (1.5 if mention.is_disruption_focused else 0.5)
+        conviction_mult = 1.0 + (mention.conviction_score / 100.0)
+        weighted = base * weight * conviction_mult
+
         with self._get_connection() as conn:
             cursor = conn.execute("""
                 INSERT INTO ticker_mentions 
                 (ticker, source_type, source_name, episode_title, context,
-                 conviction_score, sentiment, timeframe, is_contrarian, is_disruption_focused)
-                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                 conviction_score, sentiment, timeframe, is_contrarian, is_disruption_focused,
+                 weighted_score)
+                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
             """, (
                 mention.ticker, mention.source_type, mention.source_name,
                 mention.episode_title, mention.context, mention.conviction_score,
                 mention.sentiment, mention.timeframe, mention.is_contrarian,
-                mention.is_disruption_focused
+                mention.is_disruption_focused, weighted
             ))
             return cursor.lastrowid
     
