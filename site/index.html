@@ -1385,20 +1385,17 @@
             </div>
           </div>
 
-          <!-- Suggestions Box -->
+          <!-- Emerging Terms Box -->
           <div class="suggestions-box">
-            <h3>📋 Suggested New Terms</h3>
-            <p style="color: #a8b2d1; font-size: 0.9rem; margin-bottom: 1rem;">Words/phrases detected in transcripts. Voting threshold: <strong>10 votes</strong> to add or remove.</p>
+            <h3>📋 Emerging Terms</h3>
+            <p style="color: #a8b2d1; font-size: 0.9rem; margin-bottom: 1rem;">New terminology detected in transcripts. Auto-curated by AI; high-relevance terms promoted to Definitions.</p>
 
             <div id="suggestions-list">
-              <!-- Suggested terms loaded dynamically from database -->
+              <!-- Emerging terms loaded dynamically from database -->
             </div>
             <div style="margin-top: 1rem; padding-top: 1rem; border-top: 1px solid rgba(255,255,255,0.1);">
-              <button onclick="syncPendingVotes()" style="background: rgba(0, 212, 255, 0.1); border: 1px solid rgba(0, 212, 255, 0.3); color: #00d4ff; padding: 0.5rem 1rem; border-radius: 6px; cursor: pointer; font-size: 0.85rem; width: 100%;">
-                🔄 Sync Votes (Export for Pipeline)
-              </button>
-              <p style="color: #8892b0; font-size: 0.75rem; margin-top: 0.5rem; text-align: center;">
-                Auto-syncs when viewing locally. Export needed for GitHub Pages.
+              <p style="color: #8892b0; font-size: 0.75rem; text-align: center;">
+                📊 Scored by mention frequency, source diversity, and investment relevance
               </p>
             </div>
           </div>
@@ -1585,216 +1582,12 @@
   <script src="./data/data.js?v=9"></script>
   
   <script>
-    // Storage key for persisting votes
-    const STORAGE_KEY = 'investopedia_votes_v1';
-    const THRESHOLD = 10;
-
-    // Default vote data
-    const defaultVoteData = {
-      'Regulatory Capture': { up: 7, down: 2 },
-      'Capitulation': { up: 3, down: 1 },
-      'Narrative Violation': { up: 10, down: 1, ready: true }
-    };
-
-    // Load vote data from localStorage or use defaults
-    function loadVoteData() {
-      try {
-        const stored = localStorage.getItem(STORAGE_KEY);
-        if (stored) {
-          return JSON.parse(stored);
-        }
-      } catch (e) {
-        console.log('Could not load votes from storage:', e);
-      }
-      return { ...defaultVoteData };
-    }
-
-    // Save vote data to localStorage
-    function saveVoteData(data) {
-      try {
-        localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
-      } catch (e) {
-        console.log('Could not save votes to storage:', e);
-      }
-    }
-
-    // Initialize vote data
-    let voteData = loadVoteData();
-
-    // Initialize display on page load
-    function initializeVotes() {
-      Object.keys(voteData).forEach(term => {
-        const item = document.querySelector(`[data-term="${term}"]`);
-        if (!item) return;
-
-        const upCount = item.querySelector('.up-count');
-        const downCount = item.querySelector('.down-count');
-
-        if (upCount) upCount.textContent = voteData[term].up;
-        if (downCount) downCount.textContent = voteData[term].down;
-
-        // Check if already reached threshold
-        if (voteData[term].up >= THRESHOLD) {
-          item.classList.add('ready');
-          const buttonsDiv = item.querySelector('.vote-buttons');
-          const thresholdDiv = item.querySelector('.vote-count.threshold');
-
-          if (thresholdDiv) {
-            thresholdDiv.innerHTML = '<span class="status-badge ready">READY TO ADD</span>';
-          }
-          if (buttonsDiv) {
-            buttonsDiv.innerHTML = '<div style="color: #4caf50; font-size: 0.85rem;">✓ Threshold reached! Will be added to Definitions on next update.</div>';
-          }
-          item.style.border = '1px solid #4caf50';
-        } else if (voteData[term].down >= THRESHOLD) {
-          item.style.opacity = '0.5';
-          item.style.textDecoration = 'line-through';
-          const buttonsDiv = item.querySelector('.vote-buttons');
-          if (buttonsDiv) {
-            buttonsDiv.innerHTML = '<div style="color: #f44336; font-size: 0.85rem;">✗ Will be removed from suggestions on next update.</div>';
-          }
-        }
-      });
-    }
-
-    // Handle term voting
-    function voteTerm(term, voteType) {
-      if (!voteData[term]) {
-        voteData[term] = { up: 0, down: 0 };
-      }
-
-      // Prevent voting if already decided
-      if (voteData[term].up >= THRESHOLD || voteData[term].down >= THRESHOLD) {
-        return;
-      }
-
-      // Increment the appropriate count
-      voteData[term][voteType]++;
-
-      // Persist to localStorage
-      saveVoteData(voteData);
-
-      // Update display
-      const item = document.querySelector(`[data-term="${term}"]`);
-      const upCount = item.querySelector('.up-count');
-      const downCount = item.querySelector('.down-count');
-
-      upCount.textContent = voteData[term].up;
-      downCount.textContent = voteData[term].down;
-
-      // Visual feedback - button press effect
-      const btn = item.querySelector(`.vote-btn.${voteType === 'up' ? 'approve' : 'reject'}`);
-      if (btn) {
-        btn.style.transform = 'scale(0.95)';
-        setTimeout(() => btn.style.transform = 'scale(1)', 100);
-      }
-
-      // Check if threshold reached
-      if (voteData[term].up >= THRESHOLD) {
-        // Mark as ready to add
-        voteData[term].ready = true;
-        item.classList.add('ready');
-
-        // Replace buttons with status
-        const buttonsDiv = item.querySelector('.vote-buttons');
-        const thresholdDiv = item.querySelector('.vote-count.threshold');
-
-        if (thresholdDiv) {
-          thresholdDiv.innerHTML = '<span class="status-badge ready">READY TO ADD</span>';
-        }
-
-        if (buttonsDiv) {
-          buttonsDiv.innerHTML = '<div style="color: #4caf50; font-size: 0.85rem;">✓ Threshold reached! Will be added to Definitions on next update.</div>';
-        }
-
-        // Visual feedback
-        item.style.border = '1px solid #4caf50';
-        item.style.boxShadow = '0 0 20px rgba(76, 175, 80, 0.3)';
-
-      } else if (voteData[term].down >= THRESHOLD) {
-        // Mark as ready to skip
-        item.style.opacity = '0.5';
-        item.style.textDecoration = 'line-through';
-
-        const buttonsDiv = item.querySelector('.vote-buttons');
-        if (buttonsDiv) {
-          buttonsDiv.innerHTML = '<div style="color: #f44336; font-size: 0.85rem;">✗ Will be removed from suggestions on next update.</div>';
-        }
-      }
-
-      console.log(`Voted ${voteType} on "${term}" - Up: ${voteData[term].up}, Down: ${voteData[term].down}`);
-
-      // Try to sync to server (if running locally)
-      syncVoteToServer(term, voteType);
-    }
-
-    // Sync vote to local server
-    async function syncVoteToServer(term, voteType) {
-      try {
-        const response = await fetch('http://localhost:8765/vote', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ term, type: voteType, timestamp: new Date().toISOString() })
-        });
-        if (response.ok) {
-          console.log(`✓ Vote synced to server for "${term}"`);
-        }
-      } catch (e) {
-        // Server not running (expected when viewing on GitHub Pages)
-        console.log(`Vote saved locally only (server not reachable)`);
-        
-        // Queue for later sync
-        let pendingVotes = JSON.parse(localStorage.getItem('pending_votes') || '[]');
-        pendingVotes.push({ term, type: voteType, timestamp: new Date().toISOString() });
-        localStorage.setItem('pending_votes', JSON.stringify(pendingVotes));
-      }
-    }
-
-    // Export votes for manual sync (when viewing on GitHub Pages)
-    function exportVotes() {
-      const votes = [];
-      
-      // Get all vote data
-      Object.entries(voteData).forEach(([term, counts]) => {
-        for (let i = 0; i < counts.up; i++) {
-          votes.push({ term, type: 'up', timestamp: new Date().toISOString() });
-        }
-        for (let i = 0; i < counts.down; i++) {
-          votes.push({ term, type: 'down', timestamp: new Date().toISOString() });
-        }
-      });
-
-      // Add pending votes
-      const pending = JSON.parse(localStorage.getItem('pending_votes') || '[]');
-      votes.push(...pending);
-      
-      // Download as JSON
-      const blob = new Blob([JSON.stringify(votes, null, 2)], { type: 'application/json' });
-      const url = URL.createObjectURL(blob);
-      const a = document.createElement('a');
-      a.href = url;
-      a.download = 'votes.json';
-      document.body.appendChild(a);
-      a.click();
-      document.body.removeChild(a);
-      URL.revokeObjectURL(url);
-      
-      console.log(`Exported ${votes.length} votes`);
-      alert(`Exported ${votes.length} votes. Save votes.json to workspace/pipeline/ to sync.`);
-    }
-
-    // Sync pending votes button
-    function syncPendingVotes() {
-      const pending = JSON.parse(localStorage.getItem('pending_votes') || '[]');
-      if (pending.length === 0) {
-        alert('No pending votes to sync');
-        return;
-      }
+    // Voting system removed - now AI-curated\n
       
       exportVotes();
     }
 
-    // Load suggested terms from database
+    // Load emerging terms from database (AI-curated, no voting)
     function loadSuggestedTerms() {
       const container = document.getElementById('suggestions-list');
       if (!container) return;
@@ -1805,63 +1598,58 @@
         : [];
       
       if (suggestions.length === 0) {
-        container.innerHTML = '<div style="color: #8892b0; padding: 1rem; text-align: center;">No new terms pending review</div>';
+        container.innerHTML = '<div style="color: #8892b0; padding: 1rem; text-align: center;">No new terms detected</div>';
         return;
       }
       
       container.innerHTML = suggestions.map(sugg => {
         const term = sugg.term;
-        // Start fresh at 0 votes - users vote from scratch
-        const upVotes = 0;
-        const downVotes = 0;
-        const threshold = 10;
-        const isReady = false; // Never pre-approved
+        const relevance = sugg.relevance_score || 50;
+        const mentions = sugg.mention_count || 1;
+        const sources = sugg.source_diversity || 1;
         
-        if (isReady) {
-          return `
-            <div class="suggestion-item ready" data-term="${term}">
-              <div class="suggestion-header">
-                <span class="word">${term}</span>
-                <div class="vote-counts">
-                  <span class="vote-count up">👍 <span class="up-count">${upVotes}</span></span>
-                  <span class="vote-count down">👎 <span class="down-count">${downVotes}</span></span>
-                  <span class="status-badge ready">READY TO ADD</span>
-                </div>
-              </div>
-              <div style="color: #4caf50; font-size: 0.85rem; margin-top: 0.5rem;">
-                ✓ Threshold reached! Will be added to Definitions on next update.
-              </div>
-            </div>
-          `;
+        // Relevance indicator color
+        let relevanceColor = '#f44336'; // Low
+        let relevanceLabel = 'Low';
+        if (relevance >= 70) {
+          relevanceColor = '#4caf50'; // High
+          relevanceLabel = 'High';
+        } else if (relevance >= 40) {
+          relevanceColor = '#ffc107'; // Medium
+          relevanceLabel = 'Medium';
         }
         
         return `
-          <div class="suggestion-item" data-term="${term}">
+          <div class="suggestion-item" data-term="${term}" style="cursor: pointer;" onclick="toggleDefinition(this)">
             <div class="suggestion-header">
               <span class="word">${term}</span>
-              <div class="vote-counts">
-                <span class="vote-count up">👍 <span class="up-count">${upVotes}</span></span>
-                <span class="vote-count down">👎 <span class="down-count">${downVotes}</span></span>
-                <span class="vote-count threshold">Target: ${threshold}</span>
+              <div style="display: flex; align-items: center; gap: 0.5rem;">
+                <span style="color: ${relevanceColor}; font-size: 0.75rem; font-weight: 600;">${relevanceLabel}</span>
+                <span style="color: #8892b0; font-size: 0.7rem;">📊 ${mentions}</span>
               </div>
             </div>
-            <div class="vote-buttons">
-              <button class="vote-btn approve" onclick="voteTerm('${term}', 'up')">👍 Upvote</button>
-              <button class="vote-btn reject" onclick="voteTerm('${term}', 'down')">👎 Skip</button>
+            <div style="color: #8892b0; font-size: 0.75rem; margin-top: 0.25rem;">
+              ${sources} source${sources > 1 ? 's' : ''} • ${sugg.source_type || 'auto-detected'}
             </div>
-            ${sugg.definition ? `<div style="color: #8892b0; font-size: 0.8rem; margin-top: 0.5rem; font-style: italic;">${sugg.definition.substring(0, 100)}...</div>` : ''}
-            <div style="color: #00d4ff; font-size: 0.7rem; margin-top: 0.5rem;">Detected in ${sugg.mention_count || 1} source(s) • Priority: ${sugg.priority_score || 'N/A'}</div>
+            ${sugg.definition ? `
+            <div class="definition-preview" style="display: none; margin-top: 0.5rem; padding-top: 0.5rem; border-top: 1px solid rgba(255,255,255,0.1);">
+              <div style="color: #a8b2d1; font-size: 0.8rem; font-style: italic;">${sugg.definition}</div>
+            </div>` : ''}
           </div>
         `;
       }).join('');
-      
-      // Re-initialize votes for newly loaded terms
-      initializeVotes();
+    }
+    
+    // Toggle definition preview
+    function toggleDefinition(element) {
+      const preview = element.querySelector('.definition-preview');
+      if (preview) {
+        preview.style.display = preview.style.display === 'none' ? 'block' : 'none';
+      }
     }
 
-    // Initialize votes on page load
+    // Initialize on page load
     document.addEventListener('DOMContentLoaded', function() {
-      initializeVotes();
       loadSuggestedTerms();
     });
 
