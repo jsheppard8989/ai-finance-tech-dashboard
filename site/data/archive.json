@@ -114,28 +114,6 @@
       "podcast_episode_id": null
     },
     {
-      "id": 11,
-      "title": "The AI CEO Arrives: Sam Altman's Succession Plan",
-      "source_type": "podcast",
-      "source_name": "Moonshots with Peter Diamandis",
-      "source_date": "2026-02-13",
-      "summary": "Sam Altman reveals OpenAI succession plans where AI could become CEO. Panel discusses 'Solve Everything' roadmap to abundance by 2035. Job losses accelerating at fastest rate since Great Recession as knowledge work automates first. AI CEOs will assimilate information and suggest course corrections in minutes instead of years.",
-      "key_takeaway": "The 5-year business plan is obsolete - AI governance enables minute-level strategy shifts.",
-      "tickers_mentioned": [
-        "MSFT",
-        "PLTR",
-        "NOW",
-        "CRM"
-      ],
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-02-16",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 13
-    },
-    {
       "id": 12,
       "title": "Dario Amodei: We Are Near the End of the Exponential",
       "source_type": "podcast",
@@ -364,27 +342,6 @@
       "sentiment": "bullish",
       "display_on_main": 0,
       "display_order": 3,
-      "added_date": "2026-02-15",
-      "archived_date": "2026-02-17",
-      "archived_reason": "Keep only 5 most recent insights on main page",
-      "podcast_episode_id": null
-    },
-    {
-      "id": 8,
-      "title": "Bitcoin's Liquidity Rotation: From Software to Hard Asset",
-      "source_type": "podcast",
-      "source_name": "The Jack Mallers Show",
-      "source_date": "2025-02-09",
-      "summary": "Bitcoin has traded like a tech stock (0.8 correlation) but is undergoing a healthy decoupling as liquidity rotates from software to hard assets. AI capex is transforming software companies from cash machines to capital-intensive businesses. Fed yield curve control and China's treasury dump signal monetary regime change.",
-      "key_takeaway": "Bitcoin's 20% drop is healthy capitulation shaking out tech tourists before hard asset repricing",
-      "tickers_mentioned": [
-        "BTC",
-        "MSTR",
-        "COIN"
-      ],
-      "sentiment": "bullish",
-      "display_on_main": 0,
-      "display_order": 1,
       "added_date": "2026-02-15",
       "archived_date": "2026-02-17",
       "archived_reason": "Keep only 5 most recent insights on main page",

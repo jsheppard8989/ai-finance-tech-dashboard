@@ -1,8 +1,8 @@
-// Auto-generated data file - 2026-02-19T12:16:39.151752
+// Auto-generated data file - 2026-02-19T14:21:51.705931
 // DO NOT EDIT MANUALLY
 
 const dashboardData = {
-  generatedAt: "2026-02-19T12:16:39.151760",
+  generatedAt: "2026-02-19T14:21:51.705940",
   tickerScores: [
   {
     "id": 24,
@@ -377,28 +377,6 @@ const dashboardData = {
       "podcast_episode_id": null
     },
     {
-      "id": 11,
-      "title": "The AI CEO Arrives: Sam Altman's Succession Plan",
-      "source_type": "podcast",
-      "source_name": "Moonshots with Peter Diamandis",
-      "source_date": "2026-02-13",
-      "summary": "Sam Altman reveals OpenAI succession plans where AI could become CEO. Panel discusses 'Solve Everything' roadmap to abundance by 2035. Job losses accelerating at fastest rate since Great Recession as knowledge work automates first. AI CEOs will assimilate information and suggest course corrections in minutes instead of years.",
-      "key_takeaway": "The 5-year business plan is obsolete - AI governance enables minute-level strategy shifts.",
-      "tickers_mentioned": [
-        "MSFT",
-        "PLTR",
-        "NOW",
-        "CRM"
-      ],
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-02-16",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 13
-    },
-    {
       "id": 12,
       "title": "Dario Amodei: We Are Near the End of the Exponential",
       "source_type": "podcast",
@@ -631,27 +609,6 @@ const dashboardData = {
       "archived_date": "2026-02-17",
       "archived_reason": "Keep only 5 most recent insights on main page",
       "podcast_episode_id": null
-    },
-    {
-      "id": 8,
-      "title": "Bitcoin's Liquidity Rotation: From Software to Hard Asset",
-      "source_type": "podcast",
-      "source_name": "The Jack Mallers Show",
-      "source_date": "2025-02-09",
-      "summary": "Bitcoin has traded like a tech stock (0.8 correlation) but is undergoing a healthy decoupling as liquidity rotates from software to hard assets. AI capex is transforming software companies from cash machines to capital-intensive businesses. Fed yield curve control and China's treasury dump signal monetary regime change.",
-      "key_takeaway": "Bitcoin's 20% drop is healthy capitulation shaking out tech tourists before hard asset repricing",
-      "tickers_mentioned": [
-        "BTC",
-        "MSTR",
-        "COIN"
-      ],
-      "sentiment": "bullish",
-      "display_on_main": 0,
-      "display_order": 1,
-      "added_date": "2026-02-15",
-      "archived_date": "2026-02-17",
-      "archived_reason": "Keep only 5 most recent insights on main page",
-      "podcast_episode_id": null
     }
   ],
   "definitions": [
@@ -806,24 +763,6 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
-      "id": 11,
-      "title": "The AI CEO Arrives: Sam Altman's Succession Plan",
-      "source_type": "podcast",
-      "source_name": "Moonshots with Peter Diamandis",
-      "source_date": "2026-02-13",
-      "summary": "Sam Altman reveals OpenAI succession plans where AI could become CEO. Panel discusses 'Solve Everything' roadmap to abundance by 2035. Job losses accelerating at fastest rate since Great Recession as knowledge work automates first. AI CEOs will assimilate information and suggest course corrections in minutes instead of years.",
-      "key_takeaway": "The 5-year business plan is obsolete - AI governance enables minute-level strategy shifts.",
-      "tickers_mentioned": "[\"MSFT\", \"PLTR\", \"NOW\", \"CRM\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-02-16",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 13,
-      "episode_release_date": "2026-02-13"
-    },
-    {
       "id": 12,
       "title": "Dario Amodei: We Are Near the End of the Exponential",
       "source_type": "podcast",
@@ -948,6 +887,24 @@ const dashboardData = {
       "archived_reason": null,
       "podcast_episode_id": 17,
       "episode_release_date": "2023-12-18"
+    },
+    {
+      "id": 16,
+      "title": "Network State Podcast: Orchard & The Genetic Health Revolution",
+      "source_type": "podcast",
+      "source_name": "The Network State Podcast",
+      "source_date": "2026-02-13",
+      "summary": "Noor Siddiqui (Orchard) discusses embryo screening that can screen for thousands of genetic diseases before implantation. Declining cost curves mirror early genomics. Technology is ahead of regulatory and ethical frameworks. Represents a compounding, long-duration health tech opportunity.",
+      "key_takeaway": "Early-stage genetic health tech entering an inflection. Watch ILMN (sequencing infrastructure) and CRSP (gene editing tools) as enablers.",
+      "tickers_mentioned": "[\"ILMN\", \"CRSP\", \"EDIT\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 4,
+      "added_date": "2026-02-19",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 21,
+      "episode_release_date": "2023-04-01"
     }
   ],
   "definitions": [
@@ -1297,48 +1254,6 @@ const dashboardData = {
     "insight_title": "Machine-Native Money",
     "source_name": "Network State Podcast",
     "source_date": "2026-01-16"
-  },
-  "the_jack_mallers_show_bitcoin's_liquidity_": {
-    "id": 6,
-    "insight_id": 8,
-    "podcast_episode_id": null,
-    "overview": "Jack Mallers presents a macro thesis that Bitcoin is undergoing a necessary decoupling from tech stocks as liquidity rotates from software to hard assets. The correlation between Bitcoin and software stocks (~0.8) has been unhealthy for Bitcoin's development as hard money. The current correction, while painful, is shaking out 'tech tourists' and establishing a stronger holder base.",
-    "key_takeaways_detailed": [
-      "Bitcoin's 0.8 correlation to tech stocks vs 0.09 to gold shows misclassification by broader market",
-      "Software companies transformed from cash machines to capital-intensive businesses due to AI capex (Amazon doubling to $200B, Google $100B bond sale)",
-      "US policy pivoting from financial engineering to real economy (infrastructure, defense, critical minerals)",
-      "Larry Fink acknowledged wealth creation went to narrow slice of society, creating political instability",
-      "China urging banks to curb US treasury exposure while loading up on gold signals monetary regime change",
-      "Fed's Warsh discussing yield curve control = money printing to cap yields, highly bullish for hard assets",
-      "Only 50% of Bitcoin supply in profit at $70k - historically signals late-stage correction not bear market beginning",
-      "Tech tourists getting flushed out is healthy for long-term Bitcoin adoption"
-    ],
-    "investment_thesis": "Bitcoin is the primary beneficiary of a liquidity rotation from paper assets to real assets. As the only truly scarce digital asset with a fixed supply, Bitcoin stands to gain as central banks implement yield curve control and sovereigns diversify from USD. The current correlation breakdown with tech stocks is a maturation event that will ultimately strengthen Bitcoin's monetary premium.",
-    "ticker_analysis": null,
-    "positioning_guidance": "Accumulate Bitcoin on dips with long-term time horizon. Use DCA strategies during high volatility periods. Avoid excessive leverage. Consider Bitcoin proxies (MSTR, COIN) with awareness of additional risk layers. Focus on self-custody solutions for core holdings.",
-    "risk_factors": [
-      "Regulatory crackdown on Bitcoin self-custody or transactions",
-      "Fed maintains hawkish stance longer than expected, delaying yield curve control",
-      "Continued tech stock correlation drags Bitcoin lower in liquidation cascades",
-      "China disruption of Bitcoin mining or protocol development",
-      "Macro deflationary shock from AI job losses overwhelms inflation hedges"
-    ],
-    "contrarian_signals": null,
-    "catalysts": [
-      "Fed announces yield curve control or similar treasury buying program (Q2-Q3 2025)",
-      "Major sovereign announces Bitcoin reserve accumulation",
-      "Spot Bitcoin ETFs approved in additional jurisdictions",
-      "Halving supply shock effects materialize in reduced sell pressure"
-    ],
-    "related_insights": null,
-    "audio_timestamp_start": null,
-    "audio_timestamp_end": null,
-    "transcript_excerpt": null,
-    "created_at": "2026-02-15 16:35:18",
-    "updated_at": "2026-02-15 16:35:18",
-    "insight_title": "Bitcoin's Liquidity Rotation: From Software to Hard Asset",
-    "source_name": "The Jack Mallers Show",
-    "source_date": "2025-02-09"
   },
   "monetary_matters_milton_berg's_market": {
     "id": 7,
