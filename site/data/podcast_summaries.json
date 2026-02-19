@@ -1,5 +1,52 @@
 [
   {
+    "id": 23,
+    "podcast_name": "Moonshots with Peter Diamandis",
+    "episode_title": "Ben Horowitz: xAI Executive Exodus, Ilya's $5B SSI Valuation, Apple's AI Crisis, The Pace of AI | #232",
+    "episode_date": "2026-02-19",
+    "summary": "Ben Horowitz (a16z) joins Peter Diamandis to analyze the most turbulent week in AI: xAI's executive exodus, the stunning $5B valuation for Ilya Sutskever's SSI (Safe Superintelligence), Apple's deepening AI crisis relative to competitors, and Elon Musk's pivot toward lunar AI data centers and orbital compute infrastructure. Horowitz provides insider perspective on what the talent movements signal about where the frontier is actually moving.",
+    "key_takeaways": [
+      "xAI executive exodus signals internal culture conflict at Musk's AI lab \u2014 talent is voting with their feet",
+      "Ilya Sutskever's SSI valued at $5B before product \u2014 the market is paying for his track record and safety-first thesis",
+      "Apple's AI crisis is structural, not cyclical \u2014 Siri's architecture makes catching up to GPT-4/Claude extremely difficult",
+      "Lunar AI data centers represent Musk's long-term compute strategy \u2014 moving AI infrastructure beyond Earth's regulatory reach",
+      "Ben Horowitz argues we are in an 'infinite loop' of capability improvement \u2014 no plateau visible from inside the frontier labs",
+      "The pace of AI is accelerating, not decelerating \u2014 2026 is the year enterprise deployment catches up to model capability"
+    ],
+    "investment_thesis": "The talent movements at xAI and the SSI valuation are the two most important signals from this episode. When top engineers leave a lab, it tells you something about the internal direction. When Ilya commands a $5B valuation on safety-first principles, it tells you the market believes safety-conscious AI development has commercial value. Apple's crisis is the clearest short thesis in consumer tech \u2014 their AI moat is evaporating while competitors accelerate.",
+    "key_tickers": [
+      "AAPL",
+      "NVDA",
+      "TSLA",
+      "GOOGL",
+      "MSFT",
+      "AVGO"
+    ]
+  },
+  {
+    "id": 22,
+    "podcast_name": "Moonshots with Peter Diamandis",
+    "episode_title": "OpenAI Acquires OpenClaw, 400x Cost Collapse, & Why India Wins the Talent War | EP #231",
+    "episode_date": "2026-02-18",
+    "summary": "The Moonshots crew dissects three seismic AI developments: OpenAI's acquisition of OpenClaw (agentic infrastructure layer), the 400x cost reduction demonstrated on ARC-AGI-1 benchmarks (from $30K to $75 per solution), and why India is positioned to win the global AI talent war over the next decade. The cost collapse thesis has profound implications for every AI business model built on today's compute pricing.",
+    "key_takeaways": [
+      "OpenAI acquisition of OpenClaw signals agentic infrastructure is now strategic, not commodity",
+      "ARC-AGI-1 cost collapsed 400x: from $30,000 per solution in 2024 to $75 in early 2026",
+      "Cost collapse invalidates every AI pricing model built in 2023-2024",
+      "India talent advantage: 1.5M STEM graduates annually vs US 500K with English fluency",
+      "400x cost reduction follows genomics sequencing pattern \u2014 when cost hits zero, new use cases emerge",
+      "Companies that redesign around near-zero compute costs will dominate"
+    ],
+    "investment_thesis": "The 400x cost collapse is the most important data point in AI investing. Every moat analysis built on 2024 AI costs is obsolete. India talent advantage compounds \u2014 volume of trained engineers plus improving infrastructure means next decade of AI development is built with Indian talent as backbone.",
+    "key_tickers": [
+      "MSFT",
+      "GOOGL",
+      "NVDA",
+      "INFY",
+      "WIT"
+    ]
+  },
+  {
     "id": 2,
     "podcast_name": "Monetary Matters",
     "episode_title": "Technical Analysis Deep Dive with Milton Berg - February 2026 Market Signals",

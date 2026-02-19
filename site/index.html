@@ -2120,31 +2120,21 @@
       const container = document.getElementById('insights-container');
       if (!container) return;
       
-      // Get insights from dashboardData - ONLY show insights with Deep Dives
+      // Get insights from dashboardData - show all display_on_main insights
       let insights = [];
       if (typeof dashboardData !== 'undefined' && dashboardData.archive && dashboardData.archive.insights) {
-        // Filter to only show insights that have Deep Dive content
-        const deepDiveTitles = new Set();
-        if (dashboardData.deepDives) {
-          Object.values(dashboardData.deepDives).forEach(dd => {
-            if (dd.insight_title) deepDiveTitles.add(dd.insight_title);
-          });
-        }
+        insights = dashboardData.archive.insights.filter(i => i.display_on_main === 1);
         
-        insights = dashboardData.archive.insights.filter(i => 
-          i.display_on_main === 1 && deepDiveTitles.has(i.title)
-        );
-        
-        // Sort by episode release date (or source_date as fallback) descending
+        // Sort by source_date descending (newest first)
         insights.sort((a, b) => {
-          const dateA = new Date(a.episode_release_date || a.source_date);
-          const dateB = new Date(b.episode_release_date || b.source_date);
+          const dateA = new Date(a.episode_release_date || a.source_date || a.added_date);
+          const dateB = new Date(b.episode_release_date || b.source_date || b.added_date);
           return dateB - dateA;
         });
       }
       
       if (insights.length === 0) {
-        container.innerHTML = '<div class="placeholder">No insights with Deep Dives available</div>';
+        container.innerHTML = '<div class="placeholder">No insights available</div>';
         return;
       }
       
@@ -2159,6 +2149,17 @@
         const sentimentColor = insight.sentiment === 'bullish' ? '#4caf50' : 
                               insight.sentiment === 'bearish' ? '#f44336' : '#ffc107';
         
+        // Check if a deep dive exists for this insight
+        const hasDeepDive = podcastSummaries[insight.title] || 
+          (typeof dashboardData !== 'undefined' && dashboardData.deepDives && 
+           Object.values(dashboardData.deepDives).some(dd => dd.insight_title === insight.title));
+        
+        const deepDiveBtn = hasDeepDive ? `
+                <button onclick="event.stopPropagation(); showDeepDiveModal('${insight.title.replace(/'/g, "\\'")}')" 
+                        style="margin-top: 0.75rem; background: linear-gradient(90deg, #00d4ff, #7b2cbf); color: white; border: none; padding: 0.5rem 1rem; border-radius: 6px; cursor: pointer; font-weight: 600; font-size: 0.85rem; display: inline-flex; align-items: center; gap: 0.5rem;">
+                  <span>🔍</span> Deep Dive
+                </button>` : '';
+        
         return `
           <div class="insight-item" onclick="toggleInsight(this)">
             <div class="source">${insight.source_name} • ${dateStr}</div>
@@ -2167,17 +2168,14 @@
               <div style="font-size: 0.85rem; color: #a8b2d1;">
                 <strong>Key Tickers:</strong> ${tickerStr || 'None'}<br>
                 <strong>Thesis:</strong> ${insight.key_takeaway}
-                <button onclick="event.stopPropagation(); showDeepDiveModal('${insight.title.replace(/'/g, "\\'")}')" 
-                        style="margin-top: 0.75rem; background: linear-gradient(90deg, #00d4ff, #7b2cbf); color: white; border: none; padding: 0.5rem 1rem; border-radius: 6px; cursor: pointer; font-weight: 600; font-size: 0.85rem; display: inline-flex; align-items: center; gap: 0.5rem;">
-                  <span>🔍</span> Deep Dive
-                </button>
+                ${deepDiveBtn}
               </div>
             </div>
           </div>
         `;
       }).join('');
       
-      console.log(`✓ Loaded ${insights.length} insights with Deep Dives from database`);
+      console.log(`✓ Loaded ${insights.length} insights from database`);
     }
 
     // Load podcast data from external source (kept for future database integration)
