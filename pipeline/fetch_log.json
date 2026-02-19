@@ -1,0 +1,54 @@
+{
+  "timestamp": "2026-02-18T08:26:39.350054",
+  "results": [
+    {
+      "podcast": "Moonshots with Peter Diamandis",
+      "title": "The AI CEO Arrives: Sam Altman's Succession Plan, Job Loss Continues, and Our 2027 'Solve Everything' Paper | EP #230",
+      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/DVVTS4101423217.mp3",
+      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/DVVTS4101423217.txt",
+      "success": true
+    },
+    {
+      "podcast": "a16z Live",
+      "title": "How Startups are Fixing Healthcare Friction",
+      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/default.mp3",
+      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/default.txt",
+      "success": true
+    },
+    {
+      "podcast": "Monetary Matters with Jack Farley",
+      "title": "\u201cA Huge Problem for Everybody\u201d | Paul Krugman on Currency Devaluation, Artificial Intelligence, Kevin Warsh Nomination, & More",
+      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/EWWMN3482909708.mp3",
+      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/EWWMN3482909708.txt",
+      "success": true
+    },
+    {
+      "podcast": "The Jack Mallers Show",
+      "title": "Japan, AI, & The Next Liquidity Shock For Bitcoin",
+      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-17%2F418255357-44100-2-b07eb0f35b621.mp3",
+      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-17%2F418255357-44100-2-b07eb0f35b621.txt",
+      "success": true
+    },
+    {
+      "podcast": "The Network State Podcast",
+      "title": "#35 - Noor Siddiqui",
+      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-0-13%2F202cb903-9237-cf95-362f-50770b90d121.mp3",
+      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-0-13%2F202cb903-9237-cf95-362f-50770b90d121.txt",
+      "success": true
+    },
+    {
+      "podcast": "Moonshots with Peter Diamandis",
+      "title": "The AI CEO Arrives: Sam Altman's Succession Plan, Job Loss Continues, and Our 2027 'Solve Everything' Paper | EP #230",
+      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/DVVTS4101423217.mp3",
+      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/DVVTS4101423217.txt",
+      "success": true
+    },
+    {
+      "podcast": "Dwarkesh Podcast",
+      "title": "Dario Amodei \u2014 \"We are near the end of the exponential\"",
+      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/cecdbe38125e2786cbfebe31dd083d4f.mp3",
+      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/cecdbe38125e2786cbfebe31dd083d4f.txt",
+      "success": true
+    }
+  ]
+}
