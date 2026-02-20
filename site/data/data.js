@@ -1,8 +1,8 @@
-// Auto-generated - 2026-02-20T06:36:58.307743
+// Auto-generated - 2026-02-20T07:38:06.921476
 // DO NOT EDIT MANUALLY
 
 const dashboardData = {
-  generatedAt: "2026-02-20T06:36:58.307757",
+  generatedAt: "2026-02-20T07:38:06.921512",
   tickerScores: [
   {
     "id": 72,
@@ -198,11 +198,11 @@ const dashboardData = {
         "AVGO"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 1,
       "added_date": "2026-02-13",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-02-20",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": null
     },
     {
@@ -221,11 +221,11 @@ const dashboardData = {
         "PLTR"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-02-19",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-02-20",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 19
     },
     {
@@ -438,6 +438,42 @@ const dashboardData = {
       "archived_date": "2026-02-17",
       "archived_reason": "Keep only 5 most recent insights on main page",
       "podcast_episode_id": null
+    },
+    {
+      "id": 19,
+      "title": "AI Disruption and the Singularity",
+      "source_type": "podcast",
+      "source_name": "Unknown Podcast",
+      "source_date": "2023-12-19",
+      "summary": "The podcast discusses the rapid advancements in AI and its impact on society and the economy. The conversation revolves around the departures from X-A-I, the concept of recursive self-improvement (RSI), and the potential for AI to significantly reduce the global death rate. The panelists also debate the timeline for AI disruption, with some suggesting it's more imminent than others believe. They touch on the transformative potential of AI in various sectors, including content creation and the potential threats to traditional industries like Hollywood.",
+      "key_takeaway": "Invest in AI and tech companies at the forefront of AI development, as they are poised to benefit from the industry's rapid growth and disruption.",
+      "tickers_mentioned": [],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-02-20",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 26
+    },
+    {
+      "id": 20,
+      "title": "The Importance of Privacy and Sovereignty in Cryptocurrency",
+      "source_type": "podcast",
+      "source_name": "Unknown Podcast",
+      "source_date": "2023-04-01",
+      "summary": "The podcast episode features a discussion on the importance of privacy and sovereignty in the context of cryptocurrencies, particularly focusing on Z-Cash. The guest, Argin, emphasizes the need for privacy in financial transactions and the role of Z-Cash in providing it. The conversation touches on the evolution of privacy concerns, the technological advancements in blockchain scalability, and the comparison between Bitcoin and Z-Cash in terms of privacy and scalability.",
+      "key_takeaway": "Investing in Z-Cash could be a way to capitalize on the growing demand for privacy in financial transactions and the potential for improved scalability in blockchain technology.",
+      "tickers_mentioned": [
+        "ZEC"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-02-20",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 27
     }
   ],
   "definitions": [
@@ -592,21 +628,39 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
-      "id": 12,
-      "title": "Dario Amodei: We Are Near the End of the Exponential",
+      "id": 19,
+      "title": "AI Disruption and the Singularity",
       "source_type": "podcast",
-      "source_name": "Dwarkesh Podcast",
-      "source_date": "2026-02-13",
-      "summary": "Dario Amodei argues we are approaching AGI faster than most realize \u2014 not from slowing scaling, but because frontier RL is opening entirely new vectors. Anthropic projects enough compute to run \"a country of geniuses in a data center\" within years. Revenue projections and compute commitments discussed in detail.",
-      "key_takeaway": "The AI exponential is not ending \u2014 it is accelerating through the RL regime. Anthropic path to profitability clearer than believed.",
-      "tickers_mentioned": "[\"AMZN\", \"GOOGL\", \"MSFT\", \"NVDA\", \"PLTR\"]",
+      "source_name": "Unknown Podcast",
+      "source_date": "2023-12-19",
+      "summary": "The podcast discusses the rapid advancements in AI and its impact on society and the economy. The conversation revolves around the departures from X-A-I, the concept of recursive self-improvement (RSI), and the potential for AI to significantly reduce the global death rate. The panelists also debate the timeline for AI disruption, with some suggesting it's more imminent than others believe. They touch on the transformative potential of AI in various sectors, including content creation and the potential threats to traditional industries like Hollywood.",
+      "key_takeaway": "Invest in AI and tech companies at the forefront of AI development, as they are poised to benefit from the industry's rapid growth and disruption.",
+      "tickers_mentioned": "[]",
       "sentiment": "bullish",
       "display_on_main": 1,
       "display_order": 0,
-      "added_date": "2026-02-19",
+      "added_date": "2026-02-20",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 19,
+      "podcast_episode_id": 26,
+      "episode_release_date": "2023-12-19"
+    },
+    {
+      "id": 20,
+      "title": "The Importance of Privacy and Sovereignty in Cryptocurrency",
+      "source_type": "podcast",
+      "source_name": "Unknown Podcast",
+      "source_date": "2023-04-01",
+      "summary": "The podcast episode features a discussion on the importance of privacy and sovereignty in the context of cryptocurrencies, particularly focusing on Z-Cash. The guest, Argin, emphasizes the need for privacy in financial transactions and the role of Z-Cash in providing it. The conversation touches on the evolution of privacy concerns, the technological advancements in blockchain scalability, and the comparison between Bitcoin and Z-Cash in terms of privacy and scalability.",
+      "key_takeaway": "Investing in Z-Cash could be a way to capitalize on the growing demand for privacy in financial transactions and the potential for improved scalability in blockchain technology.",
+      "tickers_mentioned": "[\"ZEC\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-02-20",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 27,
       "episode_release_date": "2023-04-01"
     },
     {
@@ -626,24 +680,6 @@ const dashboardData = {
       "archived_reason": null,
       "podcast_episode_id": 20,
       "episode_release_date": "2025-04-25"
-    },
-    {
-      "id": 1,
-      "title": "SpaceX/xAI $1.25T Super-Entity",
-      "source_type": "podcast",
-      "source_name": "The Rundown AI",
-      "source_date": "2026-02-13",
-      "summary": "Elon Musk consolidating Starlink satellite network with xAI Grok infrastructure creates first vertically integrated AI-to-orbit stack.",
-      "key_takeaway": "Vertical integration of AI compute with orbital infrastructure creates durable competitive moats.",
-      "tickers_mentioned": "[\"GOOGL\", \"NVDA\", \"AVGO\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 1,
-      "added_date": "2026-02-13",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": null,
-      "episode_release_date": null
     },
     {
       "id": 14,

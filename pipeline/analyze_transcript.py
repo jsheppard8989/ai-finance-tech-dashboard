@@ -168,7 +168,7 @@ def is_transcript_processed(transcript_path: Path) -> bool:
 
 
 def mark_transcript_processed(transcript_path: Path, episode_id: int):
-    """Mark transcript as processed."""
+    """Mark transcript as processed (file marker + DB flag)."""
     marker_file = PROCESSED_MARKER_DIR / f"{transcript_path.stem}.processed"
     with open(marker_file, 'w') as f:
         f.write(json.dumps({
@@ -176,6 +176,17 @@ def mark_transcript_processed(transcript_path: Path, episode_id: int):
             'episode_id': episode_id,
             'transcript_path': str(transcript_path)
         }))
+    # Also set is_processed=1 in the database so the pipeline can query it
+    if episode_id and episode_id > 0:
+        try:
+            db = get_db()
+            with db._get_connection() as conn:
+                conn.execute(
+                    "UPDATE podcast_episodes SET is_processed = 1 WHERE id = ?",
+                    (episode_id,)
+                )
+        except Exception as e:
+            print(f"    ⚠ Could not set is_processed in DB for episode {episode_id}: {e}")
 
 
 def analyze_transcript_with_ai(client_info, transcript_content: str, podcast_name: str) -> Dict:

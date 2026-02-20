@@ -254,6 +254,123 @@ def aggregate_scores():
     return len(scores)
 
 
+def promote_episodes_to_insights() -> int:
+    """Promote newly-analyzed podcast episodes into latest_insights for website display.
+    
+    Picks up any podcast_episodes that are is_processed=1 but have no corresponding
+    latest_insights row, and inserts insight cards for them.
+    Auto-archives old insights beyond the 8 most recent to keep the main page fresh.
+    """
+    print("\n" + "="*60)
+    print("STEP: Promote Episodes to Insights")
+    print("="*60)
+    db = get_db()
+    promoted = 0
+
+    with db._get_connection() as conn:
+        # Find processed episodes not yet in latest_insights
+        cursor = conn.execute("""
+            SELECT pe.id, pe.podcast_name, pe.episode_title, pe.episode_date,
+                   pe.summary, pe.key_takeaways, pe.key_tickers, pe.investment_thesis,
+                   pe.relevance_score
+            FROM podcast_episodes pe
+            WHERE pe.is_processed = 1
+              AND pe.id NOT IN (
+                  SELECT podcast_episode_id FROM latest_insights
+                  WHERE podcast_episode_id IS NOT NULL
+              )
+            ORDER BY pe.episode_date DESC, pe.id DESC
+        """)
+        episodes = cursor.fetchall()
+
+    print(f"Found {len(episodes)} processed episodes not yet in insights")
+
+    for ep in episodes:
+        ep = dict(ep)
+
+        # Skip low-relevance episodes
+        if ep['relevance_score'] < 60:
+            print(f"  ⏭ Skipping '{ep['episode_title'][:60]}' (relevance={ep['relevance_score']})")
+            continue
+
+        # Derive key_takeaway from investment_thesis or first key_takeaway bullet
+        key_takeaway = ep['investment_thesis'] or ''
+        if not key_takeaway and ep['key_takeaways']:
+            try:
+                takeaways = json.loads(ep['key_takeaways']) if isinstance(ep['key_takeaways'], str) else ep['key_takeaways']
+                key_takeaway = takeaways[0] if takeaways else ''
+            except Exception:
+                key_takeaway = ''
+        key_takeaway = (key_takeaway or '')[:500]
+
+        # Derive tickers_mentioned from key_tickers JSON
+        tickers = ep['key_tickers'] or '[]'
+
+        # Infer sentiment from summary/thesis keywords
+        text = ((ep['summary'] or '') + ' ' + (ep['investment_thesis'] or '')).lower()
+        bullish_words = ['bullish', 'buy', 'long', 'upside', 'opportunity', 'growth', 'breakout', 'undervalued']
+        bearish_words = ['bearish', 'sell', 'short', 'downside', 'risk', 'collapse', 'overvalued', 'avoid']
+        bull_score = sum(1 for w in bullish_words if w in text)
+        bear_score = sum(1 for w in bearish_words if w in text)
+        sentiment = 'bullish' if bull_score > bear_score else ('bearish' if bear_score > bull_score else 'neutral')
+
+        # Use episode_date as source_date; fall back to today
+        source_date = ep['episode_date'] or str(date.today())
+
+        with db._get_connection() as conn:
+            # Final duplicate guard: skip if title already exists
+            existing = conn.execute(
+                "SELECT id FROM latest_insights WHERE title = ?",
+                (ep['episode_title'],)
+            ).fetchone()
+            if existing:
+                print(f"  ⏭ Insight already exists: '{ep['episode_title'][:60]}'")
+                continue
+
+            conn.execute("""
+                INSERT INTO latest_insights
+                    (title, source_type, source_name, source_date, summary,
+                     key_takeaway, tickers_mentioned, sentiment,
+                     display_on_main, display_order, added_date, podcast_episode_id)
+                VALUES (?, 'podcast', ?, ?, ?, ?, ?, ?, 1, 0, ?, ?)
+            """, (
+                ep['episode_title'],
+                ep['podcast_name'],
+                source_date,
+                (ep['summary'] or '')[:2000],
+                key_takeaway,
+                tickers,
+                sentiment,
+                str(date.today()),
+                ep['id']
+            ))
+            promoted += 1
+            print(f"  ✓ Promoted: '{ep['episode_title'][:60]}' (relevance={ep['relevance_score']}, sentiment={sentiment})")
+
+    # Auto-archive oldest insights beyond 8 on main page
+    with db._get_connection() as conn:
+        main_ids = conn.execute("""
+            SELECT id FROM latest_insights
+            WHERE display_on_main = 1 AND archived_date IS NULL
+            ORDER BY added_date DESC, id DESC
+        """).fetchall()
+
+        if len(main_ids) > 8:
+            to_archive = [row['id'] for row in main_ids[8:]]
+            for insight_id in to_archive:
+                conn.execute("""
+                    UPDATE latest_insights
+                    SET display_on_main = 0,
+                        archived_date = date('now'),
+                        archived_reason = 'Auto-archived: keep 8 most recent on main'
+                    WHERE id = ?
+                """, (insight_id,))
+            print(f"  ✓ Auto-archived {len(to_archive)} older insights")
+
+    print(f"✓ Promoted {promoted} new insight(s) to website")
+    return promoted
+
+
 def export_website():
     """Export data.js and supporting files for the website."""
     print("\n" + "="*60)
@@ -296,6 +413,17 @@ if (typeof module !== 'undefined' && module.exports) {{
 """
     with open(site_data_dir / 'data.js', 'w') as f:
         f.write(js_content)
+
+    # Bump cache-buster in index.html so browsers always load fresh data.js
+    index_html = SITE_DIR / "index.html"
+    if index_html.exists():
+        import re as _re
+        html = index_html.read_text()
+        cache_ver = int(datetime.now().timestamp())
+        html_updated = _re.sub(r'data/data\.js\?v=\d+', f'data/data.js?v={cache_ver}', html)
+        if html_updated != html:
+            index_html.write_text(html_updated)
+            print(f"✓ Bumped data.js cache-buster to v={cache_ver}")
 
     total = sum(len(v) if isinstance(v, list) else 0 for v in archive.values())
     print(f"✓ Generated data.js: {len(ticker_scores)} tickers, {total} archive items, {len(deepdives)} deep dives")
@@ -381,6 +509,7 @@ def main():
 
     # Always: analyze + export
     results['transcripts_analyzed'] = analyze_transcripts()
+    results['insights_promoted'] = promote_episodes_to_insights()
     results['newsletters_imported'] = import_newsletters()
     results['scores'] = aggregate_scores()
 
@@ -391,7 +520,7 @@ def main():
 
     # Build commit message
     ts = datetime.now().strftime("%Y-%m-%d %H:%M")
-    commit_msg = f"Pipeline update {ts}: {results['transcripts_analyzed']} podcasts, {results['newsletters_imported']} newsletters"
+    commit_msg = f"Pipeline update {ts}: {results['transcripts_analyzed']} podcasts, {results['insights_promoted']} insights, {results['newsletters_imported']} newsletters"
     git_push(commit_msg)
 
     # Send summary notification
