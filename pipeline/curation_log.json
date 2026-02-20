@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-02-17T06:46:29.132557",
-  "total_audio_files": 10,
-  "approved_for_transcription": 7,
+  "timestamp": "2026-02-20T06:01:36.636438",
+  "total_audio_files": 12,
+  "approved_for_transcription": 9,
   "episodes": [
     {
       "podcast": "The Jack Mallers Show",
@@ -62,6 +62,21 @@
         "crypto",
         "ai",
         "venture"
+      ],
+      "status": "APPROVED"
+    },
+    {
+      "podcast": "The Jack Mallers Show",
+      "title": "Japan, AI, & The Next Liquidity Shock For Bitcoin",
+      "description": "<p>Streaming live Mondays at 6pm ET on The Jack Mallers Show YouTube channel.</p>\n",
+      "audio_url": "https://anchor.fm/s/e29097f4/podcast/play/115619664/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-17%2F418255357-44100-2-b07eb0f35b621.mp3",
+      "published": "Tue, 17 Feb 2026 07:27:07 GMT",
+      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-17%2F418255357-44100-2-b07eb0f35b621.mp3",
+      "filename": "https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-17%2F418255357-44100-2-b07eb0f35b621.mp3",
+      "relevance_score": 2,
+      "matched_keywords": [
+        "bitcoin",
+        "ai"
       ],
       "status": "APPROVED"
     },
@@ -164,6 +179,22 @@
         "bitcoin"
       ],
       "status": "SKIPPED (low relevance)"
+    },
+    {
+      "podcast": "Dwarkesh Podcast",
+      "title": "Dario Amodei \u2014 \"We are near the end of the exponential\"",
+      "description": "<p>Dario Amodei thinks we are just a few years away from AGI \u2014 or as he puts it, from having \u201ca country of geniuses in a data center\u201d. In this episode, we discuss what to make of the scaling hypothesis in the current RL regime, why task-specific RL might lead to generalization, and how AI will diffuse throughout the economy. We also dive into Anthropic\u2019s revenue projections, compute commitments, path to profitability, and more.</p><p>Watch on <a target=\"_blank\" href=\"https://youtu.be/n1E9IZfvGMA",
+      "audio_url": "https://api.substack.com/feed/podcast/187852154/cecdbe38125e2786cbfebe31dd083d4f.mp3",
+      "published": "Fri, 13 Feb 2026 16:46:36 GMT",
+      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/cecdbe38125e2786cbfebe31dd083d4f.mp3",
+      "filename": "cecdbe38125e2786cbfebe31dd083d4f.mp3",
+      "relevance_score": 3,
+      "matched_keywords": [
+        "revenue",
+        "profit",
+        "ai"
+      ],
+      "status": "APPROVED"
     }
   ]
 }

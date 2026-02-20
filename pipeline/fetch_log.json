@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-02-18T08:26:39.350054",
+  "timestamp": "2026-02-20T06:36:30.129446",
   "results": [
     {
       "podcast": "Moonshots with Peter Diamandis",
-      "title": "The AI CEO Arrives: Sam Altman's Succession Plan, Job Loss Continues, and Our 2027 'Solve Everything' Paper | EP #230",
-      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/DVVTS4101423217.mp3",
-      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/DVVTS4101423217.txt",
+      "title": "Ben Horowitz: xAI Executive Exodus,  Apple's AI Crisis, The Pace of AI | #232",
+      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/DVVTS5786783285.mp3",
+      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/DVVTS5786783285.txt",
       "success": true
     },
     {
@@ -31,16 +31,16 @@
     },
     {
       "podcast": "The Network State Podcast",
-      "title": "#35 - Noor Siddiqui",
-      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-0-13%2F202cb903-9237-cf95-362f-50770b90d121.mp3",
-      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-0-13%2F202cb903-9237-cf95-362f-50770b90d121.txt",
+      "title": "#36 - Arjun Khemani",
+      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-18%2Fdff54dee-2ba4-02bd-9c43-d935696550da.mp3",
+      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-18%2Fdff54dee-2ba4-02bd-9c43-d935696550da.txt",
       "success": true
     },
     {
       "podcast": "Moonshots with Peter Diamandis",
-      "title": "The AI CEO Arrives: Sam Altman's Succession Plan, Job Loss Continues, and Our 2027 'Solve Everything' Paper | EP #230",
-      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/DVVTS4101423217.mp3",
-      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/DVVTS4101423217.txt",
+      "title": "Ben Horowitz: xAI Executive Exodus,  Apple's AI Crisis, The Pace of AI | #232",
+      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/DVVTS5786783285.mp3",
+      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/DVVTS5786783285.txt",
       "success": true
     },
     {
