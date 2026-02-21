@@ -324,7 +324,16 @@ def process_transcript_file(transcript_path: Path, client_info, db) -> Optional[
         return None
     
     print(f"  Processing {transcript_path.name}...")
-    
+
+    # Age check — skip transcripts whose file is older than 7 days
+    # (proxy for episode age; prevents old backlog from being analyzed)
+    MAX_AGE_DAYS = 7
+    file_age_days = (datetime.now() - datetime.fromtimestamp(transcript_path.stat().st_mtime)).days
+    if file_age_days > MAX_AGE_DAYS:
+        print(f"    ⏭ Transcript file is {file_age_days} days old (limit: {MAX_AGE_DAYS}) — skipping")
+        mark_transcript_processed(transcript_path, -1)  # Mark so we don't re-check
+        return None
+
     # Read transcript
     try:
         with open(transcript_path, 'r', encoding='utf-8') as f:
