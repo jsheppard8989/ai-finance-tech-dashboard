@@ -1545,7 +1545,7 @@
         <!-- Latest Insights -->
         <div class="card">
           <h2>Latest Insights</h2>
-          <div id="insights-diagnostic" style="background: #16213e; padding: 10px; margin-bottom: 10px; font-family: monospace; font-size: 12px;">Waiting for JavaScript...</div>
+          <div id="insights-diagnostic" style="background: #16213e; padding: 10px; margin-bottom: 10px; font-family: monospace; font-size: 12px; display: none;">Waiting for JavaScript...</div>
           <div id="insights-container">
             <!-- Insights loaded dynamically from database -->
           </div>
@@ -1679,7 +1679,7 @@
   </div>
 
   <!-- Load dashboard data from pipeline (if available) -->
-  <script src="./data/data.js?v=1771636408"></script>
+  <script src="./data/data.js?v=1771637234"></script>
   
   <script>
     // Load emerging terms from database (AI-curated, no voting)
@@ -2077,21 +2077,28 @@
       if (diag) diag.innerHTML = diagHtml;
       console.log('Rendering', insights.length, 'insights');
       
-      // Render insights - SIMPLE VERSION
+      // Render insights with Deep Dive buttons
       let html = '';
       for (const insight of insights) {
         const dateStr = new Date(insight.source_date).toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
         const tickers = Array.isArray(insight.tickers_mentioned) ? insight.tickers_mentioned.join(', ') : (insight.tickers_mentioned || 'None');
+        const sentimentColor = insight.sentiment === 'bullish' ? '#4caf50' : insight.sentiment === 'bearish' ? '#f44336' : '#ffc107';
+        
+        // Check for deep dive
+        const hasDeepDive = typeof dashboardData !== 'undefined' && dashboardData.deepDives && 
+          Object.values(dashboardData.deepDives).some(dd => dd.insight_title === insight.title);
+        const deepDiveBtn = hasDeepDive ? 
+          '<button onclick="event.stopPropagation(); showDeepDiveModal(\'' + insight.title.replace(/'/g, "\\'") + '\')" style="margin-top: 0.5rem; background: linear-gradient(90deg, #00d4ff, #7b2cbf); color: white; border: none; padding: 0.4rem 0.8rem; border-radius: 4px; cursor: pointer; font-size: 0.8rem;">🔍 Deep Dive</button>' : '';
+        
         html += '<div class="insight-item" onclick="toggleInsight(this)">';
         html += '<div class="source">' + insight.source_name + ' • ' + dateStr + '</div>';
-        html += '<div class="text"><strong>' + insight.title + ':</strong> ' + insight.summary + '</div>';
+        html += '<div class="text"><strong>' + insight.title + ':</strong> ' + insight.summary + ' <span style="color:' + sentimentColor + ';">→ ' + (insight.key_takeaway || '') + '</span></div>';
         html += '<div class="insight-expanded"><div style="font-size: 0.85rem; color: #a8b2d1;">';
-        html += '<span><strong>Key Tickers:</strong> ' + tickers + '</span>';
+        html += '<span><strong>Key Tickers:</strong> ' + tickers + '</span>' + deepDiveBtn;
         html += '</div></div></div>';
       }
       container.innerHTML = html;
-      diagHtml += '<strong style="color:#4caf50">✓ Rendered ' + insights.length + ' insights!</strong>';
-      if (diag) diag.innerHTML = diagHtml;
+      if (diag) diag.innerHTML = '<strong style="color:#4caf50">✓ ' + insights.length + ' insights loaded</strong>';
     }
 
     // Load podcast data from external source (kept for future database integration)
