@@ -1545,7 +1545,7 @@
         <!-- Latest Insights -->
         <div class="card">
           <h2>Latest Insights</h2>
-          <div id="insights-diagnostic" style="background: #16213e; padding: 10px; margin-bottom: 10px; font-family: monospace; font-size: 12px;"></div>
+          <div id="insights-diagnostic" style="background: #16213e; padding: 10px; margin-bottom: 10px; font-family: monospace; font-size: 12px;">Waiting for JavaScript...</div>
           <div id="insights-container">
             <!-- Insights loaded dynamically from database -->
           </div>
@@ -1987,12 +1987,15 @@
       console.log('loadInsights() called');
       const container = document.getElementById('insights-container');
       const diag = document.getElementById('insights-diagnostic');
-      
+
       if (!container) {
         console.log('insights-container not found');
+        if (diag) diag.innerHTML = '<strong style="color:#ff6b6b">ERROR: insights-container not found</strong>';
         return;
       }
-      
+
+      if (diag) diag.innerHTML = '<strong>✓ JavaScript running...</strong><br>';
+
       // Build diagnostic output
       let diagHtml = '<strong>🔍 Diagnostic:</strong><br>';
       
