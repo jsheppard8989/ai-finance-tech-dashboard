@@ -9,7 +9,9 @@ import urllib.request
 import subprocess
 import json
 from pathlib import Path
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
+
+MAX_EPISODE_AGE_DAYS = 7  # Skip episodes older than this
 
 # Config
 AUDIO_DIR = Path.home() / ".openclaw/workspace/audio"
@@ -199,8 +201,23 @@ def main():
         if not episode:
             print("  ✗ No episode found")
             continue
-        
+
         print(f"  📋 Latest: {episode['title'][:60]}...")
+
+        # Age check — skip episodes older than MAX_EPISODE_AGE_DAYS
+        pub_date_str = episode.get('published', '')
+        if pub_date_str:
+            try:
+                # RSS pubDate can be in various RFC 2822 formats
+                from email.utils import parsedate_to_datetime
+                pub_dt = parsedate_to_datetime(pub_date_str)
+                age_days = (datetime.now(timezone.utc) - pub_dt).days
+                if age_days > MAX_EPISODE_AGE_DAYS:
+                    print(f"  ⏭ Skipping — {age_days} days old (limit: {MAX_EPISODE_AGE_DAYS})")
+                    continue
+                print(f"  ✓ Age check passed ({age_days} days old)")
+            except Exception as e:
+                print(f"  ⚠ Could not parse pub date '{pub_date_str}': {e} — processing anyway")
         
         # Download
         audio_path = download_episode(episode)

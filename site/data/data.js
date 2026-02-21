@@ -1,8 +1,8 @@
-// Auto-generated - 2026-02-20T18:00:07.933260
+// Auto-generated - 2026-02-20T18:04:19.012313
 // DO NOT EDIT MANUALLY
 
 const dashboardData = {
-  generatedAt: "2026-02-20T18:00:07.933282",
+  generatedAt: "2026-02-20T18:04:19.012327",
   tickerScores: [
   {
     "id": 72,
@@ -102,11 +102,11 @@ const dashboardData = {
       "key_takeaway": "Invest in AI and tech companies at the forefront of AI development, as they are poised to benefit from the industry's rapid growth and disruption.",
       "tickers_mentioned": [],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-02-20",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-02-21",
+      "archived_reason": "Removed: episode older than 7 days",
       "podcast_episode_id": 26
     },
     {
@@ -121,11 +121,11 @@ const dashboardData = {
         "ZEC"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-02-20",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-02-21",
+      "archived_reason": "Removed: episode older than 7 days",
       "podcast_episode_id": 27
     },
     {
@@ -627,42 +627,6 @@ const dashboardData = {
 },
   mainContent: {
   "insights": [
-    {
-      "id": 19,
-      "title": "AI Disruption and the Singularity",
-      "source_type": "podcast",
-      "source_name": "Unknown Podcast",
-      "source_date": "2026-02-20",
-      "summary": "The podcast discusses the rapid advancements in AI and its impact on society and the economy. The conversation revolves around the departures from X-A-I, the concept of recursive self-improvement (RSI), and the potential for AI to significantly reduce the global death rate. The panelists also debate the timeline for AI disruption, with some suggesting it's more imminent than others believe. They touch on the transformative potential of AI in various sectors, including content creation and the potential threats to traditional industries like Hollywood.",
-      "key_takeaway": "Invest in AI and tech companies at the forefront of AI development, as they are poised to benefit from the industry's rapid growth and disruption.",
-      "tickers_mentioned": "[]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-02-20",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 26,
-      "episode_release_date": "2023-12-19"
-    },
-    {
-      "id": 20,
-      "title": "The Importance of Privacy and Sovereignty in Cryptocurrency",
-      "source_type": "podcast",
-      "source_name": "Unknown Podcast",
-      "source_date": "2026-02-20",
-      "summary": "The podcast episode features a discussion on the importance of privacy and sovereignty in the context of cryptocurrencies, particularly focusing on Z-Cash. The guest, Argin, emphasizes the need for privacy in financial transactions and the role of Z-Cash in providing it. The conversation touches on the evolution of privacy concerns, the technological advancements in blockchain scalability, and the comparison between Bitcoin and Z-Cash in terms of privacy and scalability.",
-      "key_takeaway": "Investing in Z-Cash could be a way to capitalize on the growing demand for privacy in financial transactions and the potential for improved scalability in blockchain technology.",
-      "tickers_mentioned": "[\"ZEC\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-02-20",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 27,
-      "episode_release_date": "2023-04-01"
-    },
     {
       "id": 13,
       "title": "Jack Mallers: Japan, AI, & The Next Liquidity Shock For Bitcoin",
