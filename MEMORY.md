@@ -159,9 +159,9 @@ pipeline/
 | **12:00pm** | Midday Price Refresh | `fetch_prices.py` + `export_data.py` + git push only — no AI, cheap |
 | **10:00pm** | Evening Full Pipeline | `auto_pipeline.py` — fetch new podcasts, transcribe, analyze, import newsletters, score, export, push |
 
-All jobs use `model: moonshot/kimi-k2.5` in isolated sessions.  
+All jobs use `model: moonshot/kimi-k2-thinking` in isolated sessions.  
 **Note:** System crontab is empty — all scheduling is via OpenClaw cron.  
-**Model note:** Always use `moonshot/kimi-k2.5` for cron jobs. The `kimi-coding` provider is a separate (invalid) key — do NOT use `kimi-coding/k2p5` for cron jobs.
+**Model note:** Always use `moonshot/kimi-k2-thinking` for cron jobs and pipeline scripts. The `kimi-coding` provider is invalid. Never use `kimi-coding/k2p5` or `moonshot/kimi-k2.5` — preference is `kimi-k2-thinking`.
 
 ---
 
