@@ -1545,6 +1545,7 @@
         <!-- Latest Insights -->
         <div class="card">
           <h2>Latest Insights</h2>
+          <div id="insights-diagnostic" style="background: #16213e; padding: 10px; margin-bottom: 10px; font-family: monospace; font-size: 12px;"></div>
           <div id="insights-container">
             <!-- Insights loaded dynamically from database -->
           </div>
@@ -1985,24 +1986,48 @@
     function loadInsights() {
       console.log('loadInsights() called');
       const container = document.getElementById('insights-container');
+      const diag = document.getElementById('insights-diagnostic');
+      
       if (!container) {
         console.log('insights-container not found');
         return;
       }
       
+      // Build diagnostic output
+      let diagHtml = '<strong>🔍 Diagnostic:</strong><br>';
+      
       // Debug logging
-      console.log('dashboardData exists:', typeof dashboardData !== 'undefined');
-      if (typeof dashboardData !== 'undefined') {
-        console.log('dashboardData keys:', Object.keys(dashboardData));
-        console.log('mainContent exists:', !!dashboardData.mainContent);
-        if (dashboardData.mainContent) {
-          console.log('mainContent keys:', Object.keys(dashboardData.mainContent));
-          console.log('insights array exists:', !!dashboardData.mainContent.insights);
-          if (dashboardData.mainContent.insights) {
-            console.log('insights count:', dashboardData.mainContent.insights.length);
+      const ddExists = typeof dashboardData !== 'undefined';
+      console.log('dashboardData exists:', ddExists);
+      diagHtml += `dashboardData exists: ${ddExists}<br>`;
+      
+      if (ddExists) {
+        const keys = Object.keys(dashboardData);
+        console.log('dashboardData keys:', keys);
+        diagHtml += `keys: ${keys.join(', ')}<br>`;
+        
+        const mcExists = !!dashboardData.mainContent;
+        console.log('mainContent exists:', mcExists);
+        diagHtml += `mainContent exists: ${mcExists}<br>`;
+        
+        if (mcExists) {
+          const mcKeys = Object.keys(dashboardData.mainContent);
+          console.log('mainContent keys:', mcKeys);
+          diagHtml += `mainContent keys: ${mcKeys.join(', ')}<br>`;
+          
+          const insExists = !!dashboardData.mainContent.insights;
+          console.log('insights array exists:', insExists);
+          diagHtml += `insights exists: ${insExists}<br>`;
+          
+          if (insExists) {
+            const count = dashboardData.mainContent.insights.length;
+            console.log('insights count:', count);
+            diagHtml += `insights count: ${count}<br>`;
           }
         }
       }
+      
+      if (diag) diag.innerHTML = diagHtml;
       
       // Get insights from dashboardData.mainContent (correctly ordered, pre-filtered)
       let insights = [];
