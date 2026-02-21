@@ -2074,52 +2074,21 @@
       if (diag) diag.innerHTML = diagHtml;
       console.log('Rendering', insights.length, 'insights');
       
-      // Render insights
-      try {
-        const rendered = insights.map(insight => {
-        // Use episode release date if available, otherwise source_date
-        const displayDate = insight.episode_release_date || insight.source_date;
-        const date = new Date(displayDate);
-        const dateStr = date.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
-        const tickers = insight.tickers_mentioned || [];
-        const tickerStr = tickers.join(', ');
-        const sentimentColor = insight.sentiment === 'bullish' ? '#4caf50' : 
-                              insight.sentiment === 'bearish' ? '#f44336' : '#ffc107';
-        
-        // Check if a deep dive exists for this insight
-        const hasDeepDive = podcastSummaries[insight.title] || 
-          (typeof dashboardData !== 'undefined' && dashboardData.deepDives && 
-           Object.values(dashboardData.deepDives).some(dd => dd.insight_title === insight.title));
-        
-        const deepDiveBtn = hasDeepDive ? `
-                <button onclick="event.stopPropagation(); showDeepDiveModal('${insight.title.replace(/'/g, "\\'")}')" 
-                        style="margin-top: 0.75rem; background: linear-gradient(90deg, #00d4ff, #7b2cbf); color: white; border: none; padding: 0.5rem 1rem; border-radius: 6px; cursor: pointer; font-weight: 600; font-size: 0.85rem; display: inline-flex; align-items: center; gap: 0.5rem;">
-                  <span>🔍</span> Deep Dive
-                </button>` : '';
-        
-        return `
-          <div class="insight-item" onclick="toggleInsight(this)">
-            <div class="source">${insight.source_name} • ${dateStr}</div>
-            <div class="text"><strong>${insight.title}:</strong> ${insight.summary} <span style="color:${sentimentColor};">→ ${insight.key_takeaway}</span></div>
-            <div class="insight-expanded">
-              <div style="font-size: 0.85rem; color: #a8b2d1; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.5rem;">
-                <span><strong>Key Tickers:</strong> ${tickerStr || 'None'}</span>
-                ${deepDiveBtn}
-              </div>
-            </div>
-          </div>
-        `;
-      }).join('');
-        container.innerHTML = rendered;
-        diagHtml += `<strong style="color:#4caf50">✓ Rendered successfully!</strong>`;
-        if (diag) diag.innerHTML = diagHtml;
-        console.log(`✓ Loaded ${insights.length} insights from database`);
-      } catch (e) {
-        diagHtml += `<strong style="color:#ff6b6b">✗ RENDER ERROR: ${e.message}</strong>`;
-        if (diag) diag.innerHTML = diagHtml;
-        console.error('Render error:', e);
-        container.innerHTML = '<div class="placeholder" style="color:#ff6b6b">Error rendering insights: ' + e.message + '</div>';
+      // Render insights - SIMPLE VERSION
+      let html = '';
+      for (const insight of insights) {
+        const dateStr = new Date(insight.source_date).toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+        const tickers = Array.isArray(insight.tickers_mentioned) ? insight.tickers_mentioned.join(', ') : (insight.tickers_mentioned || 'None');
+        html += '<div class="insight-item" onclick="toggleInsight(this)">';
+        html += '<div class="source">' + insight.source_name + ' • ' + dateStr + '</div>';
+        html += '<div class="text"><strong>' + insight.title + ':</strong> ' + insight.summary + '</div>';
+        html += '<div class="insight-expanded"><div style="font-size: 0.85rem; color: #a8b2d1;">';
+        html += '<span><strong>Key Tickers:</strong> ' + tickers + '</span>';
+        html += '</div></div></div>';
       }
+      container.innerHTML = html;
+      diagHtml += '<strong style="color:#4caf50">✓ Rendered ' + insights.length + ' insights!</strong>';
+      if (diag) diag.innerHTML = diagHtml;
 
     // Load podcast data from external source (kept for future database integration)
     async function loadPodcastData() {
