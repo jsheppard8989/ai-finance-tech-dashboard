@@ -2070,12 +2070,13 @@
         return;
       }
       
-      diagHtml += `<strong style="color:#4caf50">Rendering ${insights.length} insights...</strong>`;
+      diagHtml += `<strong style="color:#4caf50">Rendering ${insights.length} insights...</strong><br>`;
       if (diag) diag.innerHTML = diagHtml;
       console.log('Rendering', insights.length, 'insights');
       
       // Render insights
-      container.innerHTML = insights.map(insight => {
+      try {
+        const rendered = insights.map(insight => {
         // Use episode release date if available, otherwise source_date
         const displayDate = insight.episode_release_date || insight.source_date;
         const date = new Date(displayDate);
@@ -2109,9 +2110,16 @@
           </div>
         `;
       }).join('');
-      
-      console.log(`✓ Loaded ${insights.length} insights from database`);
-    }
+        container.innerHTML = rendered;
+        diagHtml += `<strong style="color:#4caf50">✓ Rendered successfully!</strong>`;
+        if (diag) diag.innerHTML = diagHtml;
+        console.log(`✓ Loaded ${insights.length} insights from database`);
+      } catch (e) {
+        diagHtml += `<strong style="color:#ff6b6b">✗ RENDER ERROR: ${e.message}</strong>`;
+        if (diag) diag.innerHTML = diagHtml;
+        console.error('Render error:', e);
+        container.innerHTML = '<div class="placeholder" style="color:#ff6b6b">Error rendering insights: ' + e.message + '</div>';
+      }
 
     // Load podcast data from external source (kept for future database integration)
     async function loadPodcastData() {
