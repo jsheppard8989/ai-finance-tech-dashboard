@@ -1989,14 +1989,26 @@
         console.log('insights-container not found');
         return;
       }
+      
+      // Debug logging
       console.log('dashboardData exists:', typeof dashboardData !== 'undefined');
-      console.log('mainContent exists:', typeof dashboardData !== 'undefined' && !!dashboardData.mainContent);
-      console.log('insights exists:', typeof dashboardData !== 'undefined' && !!dashboardData.mainContent && !!dashboardData.mainContent.insights);
+      if (typeof dashboardData !== 'undefined') {
+        console.log('dashboardData keys:', Object.keys(dashboardData));
+        console.log('mainContent exists:', !!dashboardData.mainContent);
+        if (dashboardData.mainContent) {
+          console.log('mainContent keys:', Object.keys(dashboardData.mainContent));
+          console.log('insights array exists:', !!dashboardData.mainContent.insights);
+          if (dashboardData.mainContent.insights) {
+            console.log('insights count:', dashboardData.mainContent.insights.length);
+          }
+        }
+      }
       
       // Get insights from dashboardData.mainContent (correctly ordered, pre-filtered)
       let insights = [];
       if (typeof dashboardData !== 'undefined' && dashboardData.mainContent && dashboardData.mainContent.insights) {
         insights = dashboardData.mainContent.insights.filter(i => i.display_on_main === 1);
+        console.log('After filter, insights count:', insights.length);
         
         // Sort by added_date DESC so newest pipeline runs always appear first
         insights.sort((a, b) => {
@@ -2010,9 +2022,20 @@
       }
       
       if (insights.length === 0) {
-        container.innerHTML = '<div class="placeholder">No insights available</div>';
+        console.log('No insights to display');
+        if (typeof dashboardData === 'undefined') {
+          container.innerHTML = '<div class="placeholder" style="color: #ff6b6b;">Error: dashboardData not loaded. Check console.</div>';
+        } else if (!dashboardData.mainContent) {
+          container.innerHTML = '<div class="placeholder" style="color: #ff6b6b;">Error: mainContent missing. Check console.</div>';
+        } else if (!dashboardData.mainContent.insights) {
+          container.innerHTML = '<div class="placeholder" style="color: #ff6b6b;">Error: insights array missing. Check console.</div>';
+        } else {
+          container.innerHTML = '<div class="placeholder">No insights available</div>';
+        }
         return;
       }
+      
+      console.log('Rendering', insights.length, 'insights');
       
       // Render insights
       container.innerHTML = insights.map(insight => {
