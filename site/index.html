@@ -2052,8 +2052,12 @@
         insights = insights.slice(0, 8);
       }
       
+      diagHtml += `<hr><strong>After filter:</strong> ${insights.length} insights<br>`;
+      
       if (insights.length === 0) {
         console.log('No insights to display');
+        diagHtml += '<strong style="color:#ff6b6b">ERROR: insights.length is 0 after filter</strong>';
+        if (diag) diag.innerHTML = diagHtml;
         if (typeof dashboardData === 'undefined') {
           container.innerHTML = '<div class="placeholder" style="color: #ff6b6b;">Error: dashboardData not loaded. Check console.</div>';
         } else if (!dashboardData.mainContent) {
@@ -2066,6 +2070,8 @@
         return;
       }
       
+      diagHtml += `<strong style="color:#4caf50">Rendering ${insights.length} insights...</strong>`;
+      if (diag) diag.innerHTML = diagHtml;
       console.log('Rendering', insights.length, 'insights');
       
       // Render insights
