@@ -314,8 +314,17 @@ def promote_episodes_to_insights() -> int:
         bear_score = sum(1 for w in bearish_words if w in text)
         sentiment = 'bullish' if bull_score > bear_score else ('bearish' if bear_score > bull_score else 'neutral')
 
-        # Use episode_date as source_date; fall back to today
-        source_date = ep['episode_date'] or str(date.today())
+        # Use episode_date as source_date only if it looks recent (within 2 years).
+        # Old/unknown dates (scraped episodes with 2023 dates etc.) get today's date
+        # so freshly-promoted insights always sort to the top of the main page.
+        ep_date = ep['episode_date']
+        try:
+            from datetime import datetime as _dt
+            parsed = _dt.strptime(str(ep_date), '%Y-%m-%d').date()
+            days_old = (date.today() - parsed).days
+            source_date = str(ep_date) if days_old < 730 else str(date.today())
+        except Exception:
+            source_date = str(date.today())
 
         with db._get_connection() as conn:
             # Final duplicate guard: skip if title already exists

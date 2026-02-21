@@ -1678,7 +1678,7 @@
   </div>
 
   <!-- Load dashboard data from pipeline (if available) -->
-  <script src="./data/data.js?v=1771594686"></script>
+  <script src="./data/data.js?v=1771632007"></script>
   
   <script>
     // Load emerging terms from database (AI-curated, no voting)
@@ -1986,15 +1986,15 @@
       const container = document.getElementById('insights-container');
       if (!container) return;
       
-      // Get insights from dashboardData - show all display_on_main insights
+      // Get insights from dashboardData.mainContent (correctly ordered, pre-filtered)
       let insights = [];
-      if (typeof dashboardData !== 'undefined' && dashboardData.archive && dashboardData.archive.insights) {
-        insights = dashboardData.archive.insights.filter(i => i.display_on_main === 1);
+      if (typeof dashboardData !== 'undefined' && dashboardData.mainContent && dashboardData.mainContent.insights) {
+        insights = dashboardData.mainContent.insights.filter(i => i.display_on_main === 1);
         
-        // Sort by source_date descending (newest first)
+        // Sort by added_date DESC so newest pipeline runs always appear first
         insights.sort((a, b) => {
-          const dateA = new Date(a.episode_release_date || a.source_date || a.added_date);
-          const dateB = new Date(b.episode_release_date || b.source_date || b.added_date);
+          const dateA = new Date(a.added_date || a.source_date);
+          const dateB = new Date(b.added_date || b.source_date);
           return dateB - dateA;
         });
         

@@ -197,10 +197,20 @@ def analyze_transcript_with_ai(client_info, transcript_content: str, podcast_nam
     
     client_type, client = client_info
     
-    # Truncate if too long (token limit)
-    max_chars = 12000  # Conservative limit
+    # Smart sampling: send beginning + middle + end rather than just truncating top
+    # This gives the AI context from across the full episode, not just the intro
+    max_chars = 12000
     if len(transcript_content) > max_chars:
-        transcript_content = transcript_content[:max_chars] + "\n\n[Transcript truncated for length]"
+        chunk = max_chars // 3
+        beginning = transcript_content[:chunk]
+        mid_start = len(transcript_content) // 2 - chunk // 2
+        middle = transcript_content[mid_start:mid_start + chunk]
+        ending = transcript_content[-chunk:]
+        transcript_content = (
+            beginning + "\n\n[...middle of transcript...]\n\n" +
+            middle + "\n\n[...end of transcript...]\n\n" +
+            ending
+        )
     
     prompt = f"""You are an expert financial analyst and podcast curator. Analyze this podcast transcript from "{podcast_name}" and extract structured investment insights.
 
@@ -243,8 +253,8 @@ Return ONLY valid JSON. No markdown, no explanations."""
     try:
         if client_type == 'openai':
             model = "gpt-4o-mini"
-        else:  # kimi
-            model = "moonshot-v1-8k"  # Kimi model
+        else:  # kimi/moonshot
+            model = "kimi-k2-thinking"
         
         response = client.chat.completions.create(
             model=model,
@@ -326,7 +336,24 @@ def process_transcript_file(transcript_path: Path, client_info, db) -> Optional[
     if len(content) < 500:
         print(f"    ⏭ Too short, skipping")
         return None
-    
+
+    # Local relevance pre-filter: skip transcripts with no investment/finance keywords
+    # Saves API calls for clearly off-topic content
+    RELEVANCE_KEYWORDS = [
+        'stock', 'market', 'invest', 'bitcoin', 'crypto', 'ai ', 'artificial intelligence',
+        'fund', 'portfolio', 'equity', 'nasdaq', 's&p', 'fed ', 'interest rate', 'inflation',
+        'earnings', 'revenue', 'valuation', 'ticker', 'share', 'etf', 'venture', 'startup',
+        'disruption', 'technology', 'fintech', 'blockchain', 'nvidia', 'openai', 'anthropic',
+        'economy', 'capital', 'trade', 'asset', 'bond', 'yield', 'monetary', 'fiscal',
+        'ipo', 'acquisition', 'merger', 'growth', 'recession', 'bull', 'bear'
+    ]
+    sample = content[:5000].lower()
+    keyword_hits = sum(1 for kw in RELEVANCE_KEYWORDS if kw in sample)
+    if keyword_hits < 3:
+        print(f"    ⏭ Low relevance ({keyword_hits} keyword hits) — skipping to save API costs")
+        mark_transcript_processed(transcript_path, -1)  # Mark so we don't re-check
+        return None
+
     # Parse podcast info
     podcast_name, episode_slug = parse_podcast_info(transcript_path.name)
     

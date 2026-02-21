@@ -104,7 +104,7 @@ Rules:
 
     try:
         response = client.chat.completions.create(
-            model="moonshot-v1-8k",
+            model="kimi-k2-thinking",
             messages=[
                 {"role": "system", "content": "You are a financial analyst. Return only valid JSON."},
                 {"role": "user", "content": prompt}
