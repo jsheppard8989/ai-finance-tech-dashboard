@@ -2044,10 +2044,10 @@
         insights = dashboardData.mainContent.insights.filter(i => i.display_on_main === 1);
         console.log('After filter, insights count:', insights.length);
         
-        // Sort by added_date DESC so newest pipeline runs always appear first
+        // Sort by source_date DESC (newest episode date at top)
         insights.sort((a, b) => {
-          const dateA = new Date(a.added_date || a.source_date);
-          const dateB = new Date(b.added_date || b.source_date);
+          const dateA = new Date(a.source_date || a.added_date);
+          const dateB = new Date(b.source_date || b.added_date);
           return dateB - dateA;
         });
         
