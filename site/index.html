@@ -2023,6 +2023,12 @@
             const count = dashboardData.mainContent.insights.length;
             console.log('insights count:', count);
             diagHtml += `insights count: ${count}<br>`;
+            
+            // Check display_on_main values
+            const insights = dashboardData.mainContent.insights;
+            const onMain = insights.filter(i => i.display_on_main === 1);
+            diagHtml += `with display_on_main=1: ${onMain.length}<br>`;
+            diagHtml += `IDs: ${insights.map(i => i.id + ':' + i.display_on_main).join(', ')}<br>`;
           }
         }
       }
