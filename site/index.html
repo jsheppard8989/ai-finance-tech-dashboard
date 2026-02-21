@@ -1983,8 +1983,15 @@
     
     // Load insights dynamically from database
     function loadInsights() {
+      console.log('loadInsights() called');
       const container = document.getElementById('insights-container');
-      if (!container) return;
+      if (!container) {
+        console.log('insights-container not found');
+        return;
+      }
+      console.log('dashboardData exists:', typeof dashboardData !== 'undefined');
+      console.log('mainContent exists:', typeof dashboardData !== 'undefined' && !!dashboardData.mainContent);
+      console.log('insights exists:', typeof dashboardData !== 'undefined' && !!dashboardData.mainContent && !!dashboardData.mainContent.insights);
       
       // Get insights from dashboardData.mainContent (correctly ordered, pre-filtered)
       let insights = [];
