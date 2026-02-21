@@ -1,9 +1,9 @@
-// Auto-generated - 2026-02-20T18:44:20.577335
+// Auto-generated - 2026-02-20T19:13:28.242305
 // DO NOT EDIT MANUALLY
 
 const dashboardData = {
-  generatedAt: "2026-02-20T18:44:20.577352",
-  tickerScores: [
+  "generatedAt": "2026-02-20T19:13:28.242323",
+  "tickerScores": [
   {
     "id": 72,
     "ticker": "GOOGL",
@@ -90,7 +90,7 @@ const dashboardData = {
     "timeframe": "unspecified"
   }
 ],
-  archive: {
+  "archive": {
   "insights": [
     {
       "id": 19,
@@ -625,7 +625,7 @@ const dashboardData = {
     }
   ]
 },
-  mainContent: {
+  "mainContent": {
   "insights": [
     {
       "id": 13,
@@ -819,7 +819,7 @@ const dashboardData = {
     }
   ]
 },
-  deepDives: {
+  "deepDives": {
   "the_rundown_ai_spacex/xai_$1.25t_su": {
     "id": 1,
     "insight_id": 1,
@@ -1621,7 +1621,7 @@ const dashboardData = {
     "source_date": "2026-02-19"
   }
 },
-  suggestedTerms: [
+  "suggestedTerms": [
   {
     "id": 1,
     "term": "Vertical Integration Moat",

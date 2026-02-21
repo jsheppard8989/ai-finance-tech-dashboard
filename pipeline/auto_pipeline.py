@@ -408,12 +408,12 @@ def export_website():
 // DO NOT EDIT MANUALLY
 
 const dashboardData = {{
-  generatedAt: "{datetime.now().isoformat()}",
-  tickerScores: {json.dumps(ticker_scores, indent=2)},
-  archive: {json.dumps(archive, indent=2)},
-  mainContent: {json.dumps(main_content, indent=2)},
-  deepDives: {json.dumps(deepdives, indent=2)},
-  suggestedTerms: {json.dumps(suggested_terms, indent=2)}
+  "generatedAt": "{datetime.now().isoformat()}",
+  "tickerScores": {json.dumps(ticker_scores, indent=2)},
+  "archive": {json.dumps(archive, indent=2)},
+  "mainContent": {json.dumps(main_content, indent=2)},
+  "deepDives": {json.dumps(deepdives, indent=2)},
+  "suggestedTerms": {json.dumps(suggested_terms, indent=2)}
 }};
 
 if (typeof module !== 'undefined' && module.exports) {{
