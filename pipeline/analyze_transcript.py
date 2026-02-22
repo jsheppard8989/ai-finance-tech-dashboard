@@ -23,12 +23,13 @@ except ImportError:
     OPENAI_AVAILABLE = False
     print("  ⚠ OpenAI library not installed. Run: pip install openai")
 
-# Try to import Kimi/Moonshot
+# Try to import Gemini
 try:
-    from openai import OpenAI as KimiClient
-    KIMI_AVAILABLE = True
+    import google.generativeai as genai
+    GEMINI_AVAILABLE = True
 except ImportError:
-    KIMI_AVAILABLE = False
+    GEMINI_AVAILABLE = False
+    print("  ⚠ Google Generative AI library not installed. Run: pip install google-generativeai")
 
 # Paths
 TRANSCRIPT_DIR = Path.home() / ".openclaw/workspace/pipeline/transcripts"
@@ -46,62 +47,38 @@ PODCAST_PATTERNS = {
     'default': ('a16z Live', r'default'),
 }
 
+# Content-based podcast detection: scan transcript text for show identity clues
+CONTENT_PODCAST_HINTS = [
+    (r'welcome to moonshots|moonshot mates|ladies and gentlemen.*moonshots|this is moonshots', 'Moonshots with Peter Diamandis'),
+    (r'university of podcast', 'University of Podcast'),
+    (r'monetary matters|jack farley', 'Monetary Matters with Jack Farley'),
+    (r'network state podcast|balaji srinivasan', 'Network State Podcast'),
+    (r'jack mallers show|strike.*bitcoin', 'The Jack Mallers Show'),
+    (r'dwarkesh.*patel|patel.*dwarkesh', 'Dwarkesh Podcast'),
+    (r'all-in podcast|all in with chamath|bestie', 'All-In Podcast'),
+    (r'lex fridman podcast|lex fridman', 'Lex Fridman Podcast'),
+    (r'acquired\.fm|acquired podcast|ben gilbert.*david rosenthal', 'Acquired'),
+    (r'invest like the best|patrick o\'shaughnessy', 'Invest Like the Best'),
+    (r'we study billionaires|the investor\'s podcast', 'We Study Billionaires'),
+]
+
 
 def get_ai_client() -> Optional[any]:
-    """Get AI client - tries Kimi/Moonshot FIRST, falls back to OpenAI."""
-
-    # Try to load from OpenClaw auth-profiles.json FIRST (most reliable)
-    auth_profiles_path = Path.home() / ".openclaw/agents/main/agent/auth-profiles.json"
-    if auth_profiles_path.exists():
+    """Get AI client - tries Gemini FIRST (cheapest), falls back to OpenAI."""
+    
+    # Try Gemini API from environment (cheapest option)
+    gemini_key = os.environ.get('GEMINI_API_KEY')
+    if gemini_key and GEMINI_AVAILABLE:
         try:
-            with open(auth_profiles_path, 'r') as f:
-                auth_data = json.load(f)
-                profiles = auth_data.get('profiles', {})
-
-                # Try moonshot:default first (shows as working in usage stats)
-                if 'moonshot:default' in profiles:
-                    moonshot_profile = profiles['moonshot:default']
-                    if moonshot_profile.get('type') == 'api_key':
-                        kimi_key = moonshot_profile.get('key')
-                        if kimi_key:
-                            client = OpenAI(
-                                api_key=kimi_key,
-                                base_url="https://api.moonshot.ai/v1"
-                            )
-                            print("  Using Moonshot API from OpenClaw auth-profiles")
-                            return ('kimi', client)
-
-                # Try kimi-coding:default as fallback
-                if 'kimi-coding:default' in profiles:
-                    kimi_profile = profiles['kimi-coding:default']
-                    if kimi_profile.get('type') == 'api_key':
-                        kimi_key = kimi_profile.get('key')
-                        if kimi_key:
-                            client = OpenAI(
-                                api_key=kimi_key,
-                                base_url="https://api.moonshot.ai/v1"
-                            )
-                            print("  Using Kimi API from OpenClaw auth-profiles")
-                            return ('kimi', client)
+            genai.configure(api_key=gemini_key)
+            print("  Using Gemini API (primary - cheapest)")
+            return ('gemini', gemini_key)
         except Exception as e:
-            print(f"  ⚠ Failed to read auth-profiles.json: {e}")
+            print(f"  ⚠ Gemini init failed: {e}")
 
-    # Try Kimi/Moonshot from environment variables
-    kimi_key = os.environ.get('KIMI_API_KEY') or os.environ.get('MOONSHOT_API_KEY')
-    if kimi_key:
-        try:
-            client = OpenAI(
-                api_key=kimi_key,
-                base_url="https://api.moonshot.ai/v1"
-            )
-            print("  Using Kimi/Moonshot API from environment")
-            return ('kimi', client)
-        except Exception as e:
-            print(f"  ⚠ Kimi init failed: {e}")
-
-    # Fall back to OpenAI (secondary)
+    # Fall back to OpenAI
     openai_key = os.environ.get('OPENAI_API_KEY')
-    if openai_key:
+    if openai_key and OPENAI_AVAILABLE:
         try:
             client = OpenAI(api_key=openai_key)
             print("  Using OpenAI API (fallback)")
@@ -109,19 +86,26 @@ def get_ai_client() -> Optional[any]:
         except Exception as e:
             print(f"  ⚠ OpenAI init failed: {e}")
 
-    print("  ⚠ No AI API keys found. Set KIMI_API_KEY or OPENAI_API_KEY")
+    print("  ⚠ No AI API keys found. Set GEMINI_API_KEY or OPENAI_API_KEY")
     return None
 
 
-def parse_podcast_info(filename: str) -> Tuple[str, str]:
-    """Extract podcast name and episode info from filename."""
+def parse_podcast_info(filename: str, content: str = '') -> Tuple[str, str]:
+    """Extract podcast name and episode info from filename, with content fallback."""
     stem = Path(filename).stem
     
     for pattern_key, (podcast_name, regex) in PODCAST_PATTERNS.items():
         if pattern_key in stem or re.match(regex, stem):
             return podcast_name, stem
     
-    # Default fallback
+    # Fallback: scan transcript content for show identity clues
+    if content:
+        content_lower = content[:3000].lower()
+        for pattern, podcast_name in CONTENT_PODCAST_HINTS:
+            if re.search(pattern, content_lower):
+                return podcast_name, stem
+    
+    # Final fallback
     return 'Unknown Podcast', stem
 
 
@@ -253,20 +237,29 @@ Return ONLY valid JSON. No markdown, no explanations."""
     try:
         if client_type == 'openai':
             model = "gpt-4o-mini"
-        else:  # kimi/moonshot
-            model = "kimi-k2-thinking"
-        
-        response = client.chat.completions.create(
-            model=model,
-            messages=[
-                {"role": "system", "content": "You are a precise financial analyst. Return only valid JSON."},
-                {"role": "user", "content": prompt}
-            ],
-            temperature=0.3,
-            max_tokens=4000
-        )
-        
-        content = response.choices[0].message.content.strip()
+            response = client.chat.completions.create(
+                model=model,
+                messages=[
+                    {"role": "system", "content": "You are a precise financial analyst. Return only valid JSON."},
+                    {"role": "user", "content": prompt}
+                ],
+                temperature=0.3,
+                max_tokens=4000
+            )
+            content = response.choices[0].message.content.strip()
+        elif client_type == 'gemini':
+            # Gemini API - cheapest option
+            model = genai.GenerativeModel('gemini-1.5-flash')
+            response = model.generate_content(
+                prompt,
+                generation_config=genai.types.GenerationConfig(
+                    temperature=0.3,
+                    max_output_tokens=4000
+                )
+            )
+            content = response.text.strip()
+        else:
+            raise ValueError(f"Unknown client type: {client_type}")
         
         # Clean up any markdown code blocks
         if content.startswith('```json'):
@@ -337,25 +330,8 @@ def process_transcript_file(transcript_path: Path, client_info, db) -> Optional[
         print(f"    ⏭ Too short, skipping")
         return None
 
-    # Local relevance pre-filter: skip transcripts with no investment/finance keywords
-    # Saves API calls for clearly off-topic content
-    RELEVANCE_KEYWORDS = [
-        'stock', 'market', 'invest', 'bitcoin', 'crypto', 'ai ', 'artificial intelligence',
-        'fund', 'portfolio', 'equity', 'nasdaq', 's&p', 'fed ', 'interest rate', 'inflation',
-        'earnings', 'revenue', 'valuation', 'ticker', 'share', 'etf', 'venture', 'startup',
-        'disruption', 'technology', 'fintech', 'blockchain', 'nvidia', 'openai', 'anthropic',
-        'economy', 'capital', 'trade', 'asset', 'bond', 'yield', 'monetary', 'fiscal',
-        'ipo', 'acquisition', 'merger', 'growth', 'recession', 'bull', 'bear'
-    ]
-    sample = content[:5000].lower()
-    keyword_hits = sum(1 for kw in RELEVANCE_KEYWORDS if kw in sample)
-    if keyword_hits < 3:
-        print(f"    ⏭ Low relevance ({keyword_hits} keyword hits) — skipping to save API costs")
-        mark_transcript_processed(transcript_path, -1)  # Mark so we don't re-check
-        return None
-
-    # Parse podcast info
-    podcast_name, episode_slug = parse_podcast_info(transcript_path.name)
+    # Parse podcast info (pass content for fallback content-based detection)
+    podcast_name, episode_slug = parse_podcast_info(transcript_path.name, content)
     
     # Get a preview of the episode title from the first line
     first_line = content.strip().split('\n')[0][:100] if content else episode_slug
