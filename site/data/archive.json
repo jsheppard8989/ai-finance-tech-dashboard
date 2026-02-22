@@ -198,6 +198,97 @@
       "podcast_episode_id": 21
     },
     {
+      "id": 41,
+      "title": "Figure's General Purpose Robot: Investment Shift in 2026",
+      "source_type": "newsletter",
+      "source_name": "gandolf2026 <gandolf2026@proton.me>",
+      "source_date": "2026-02-13",
+      "summary": "The newsletter discusses a visit to Figure's headquarters, where groundbreaking advancements in general-purpose robotics were observed, potentially signaling a significant shift in the robotics and automation industry in 2026.",
+      "key_takeaway": "Investors should consider the implications of Figure's advancements on the robotics sector and look for opportunities in companies at the forefront of this technological revolution.",
+      "tickers_mentioned": [],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-02-22",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": null
+    },
+    {
+      "id": 42,
+      "title": "Agentic Inversion: Moltbook and Axie Infinity's Impact on Investment Velocity",
+      "source_type": "newsletter",
+      "source_name": "gandolf2026 <gandolf2026@proton.me>",
+      "source_date": "2026-02-13",
+      "summary": "The newsletter discusses the 'Agentic Inversion', a concept that highlights the potential for Moltbook and Axie Infinity to revolutionize investment velocity. It suggests that these platforms may offer new ways to accelerate investment processes and outcomes, indicating a shift towards more dynamic and responsive investment strategies.",
+      "key_takeaway": "Investors should consider the implications of the 'Agentic Inversion' on their strategies, as it may lead to faster-paced investment environments and new opportunities for growth.",
+      "tickers_mentioned": [],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-02-22",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": null
+    },
+    {
+      "id": 43,
+      "title": "Google's AI Advancements Signal New Investment Frontier",
+      "source_type": "newsletter",
+      "source_name": "The Rundown AI <news@daily.therundown.ai>",
+      "source_date": "2026-02-13",
+      "summary": "Google's upgraded Deep Think AI has achieved dominant scores in reasoning benchmarks across math, coding, and science, positioning the company as a powerhouse in the AI race. This development could have significant implications for investors looking to capitalize on the growing AI market.",
+      "key_takeaway": "Investors should consider Google's AI advancements as a potential catalyst for growth in the tech sector, particularly in areas related to AI research and development.",
+      "tickers_mentioned": [
+        "GOOGL"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-02-22",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": null
+    },
+    {
+      "id": 40,
+      "title": "xAI Accelerates AI Expansion with Lunar Ambitions",
+      "source_type": "newsletter",
+      "source_name": "The Rundown AI <news@daily.therundown.ai>",
+      "source_date": "2026-02-12",
+      "summary": "xAI, led by Elon Musk, is restructuring and expanding its product roadmap, with plans to establish deep space data centers on the Moon. This move aims to outpace competitors and position xAI at the forefront of AI development.",
+      "key_takeaway": "Investors should consider the potential for xAI's innovative approach to AI and space technology, which could disrupt the industry and offer significant growth opportunities.",
+      "tickers_mentioned": [
+        "TSLA"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-02-22",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": null
+    },
+    {
+      "id": 37,
+      "title": "xAI Co-founder Exodus Amid SpaceX Merger Raises Concerns",
+      "source_type": "newsletter",
+      "source_name": "The Rundown AI <news@daily.therundown.ai>",
+      "source_date": "2026-02-11",
+      "summary": "The departure of two more co-founders from Elon Musk's AI startup xAI, following a SpaceX merger, raises questions about the company's stability and leadership. This could impact investor confidence and the company's ability to execute on its ambitious plans.",
+      "key_takeaway": "Investors should closely monitor leadership changes and their potential impact on xAI's ability to deliver on its promises, as well as the implications for its SpaceX partnership.",
+      "tickers_mentioned": [
+        "TSLA"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-02-22",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": null
+    },
+    {
       "id": 2,
       "title": "Gold Climax Top Signal",
       "source_type": "podcast",
@@ -279,6 +370,25 @@
       "podcast_episode_id": 16
     },
     {
+      "id": 38,
+      "title": "OpenAI's AI Succession Plan and AGI Claims",
+      "source_type": "newsletter",
+      "source_name": "The Rundown AI <news@daily.therundown.ai>",
+      "source_date": "2026-02-04",
+      "summary": "OpenAI CEO Sam Altman reveals a succession plan to hand over the company to an AI model and claims that OpenAI has 'basically built AGI'. Microsoft CEO Satya Nadella pushes back on the AGI claim, referring to the Microsoft/OpenAI relationship as 'frenemies'. Altman's ambitious vision raises questions about OpenAI's execution and direction.",
+      "key_takeaway": "Investors should monitor OpenAI's progress and partnerships, as well as the evolving relationship between Microsoft and OpenAI, to assess the potential impact on the AI industry and related investments.",
+      "tickers_mentioned": [
+        "MSFT"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-02-22",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": null
+    },
+    {
       "id": 3,
       "title": "Bitcoin as Hard Asset",
       "source_type": "podcast",
@@ -297,6 +407,25 @@
       "added_date": "2026-02-03",
       "archived_date": "2026-02-17",
       "archived_reason": "Keep only 5 most recent insights on main page",
+      "podcast_episode_id": null
+    },
+    {
+      "id": 39,
+      "title": "SpaceX-xAI Merger Forms $1.25T AI-Space Super-Entity",
+      "source_type": "newsletter",
+      "source_name": "The Rundown AI <news@daily.therundown.ai>",
+      "source_date": "2026-02-03",
+      "summary": "Elon Musk's SpaceX has merged with AI startup xAI, creating the world's most valuable private company at $1.25 trillion. The merger aims to launch AI data centers into orbit to overcome Earth's energy constraints and enable space-based AI compute.",
+      "key_takeaway": "Investors should consider the potential impact of space-based AI compute on traditional data centers and the broader AI industry.",
+      "tickers_mentioned": [
+        "N/A"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-02-22",
+      "archived_date": null,
+      "archived_reason": null,
       "podcast_episode_id": null
     },
     {
