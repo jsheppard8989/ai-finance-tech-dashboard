@@ -380,6 +380,173 @@ def promote_episodes_to_insights() -> int:
     return promoted
 
 
+def promote_newsletters_to_insights() -> int:
+    """Promote unshown newsletters into latest_insights using AI analysis."""
+    print("\n" + "="*60)
+    print("STEP: Promote Newsletters to Insights")
+    print("="*60)
+    db = get_db()
+    promoted = 0
+
+    # Get newsletters not yet on site
+    with db._get_connection() as conn:
+        rows = conn.execute("""
+            SELECT id, sender, subject, received_date, content_preview
+            FROM newsletters
+            WHERE added_to_site = 0 AND is_processed = 1
+            ORDER BY received_date DESC
+        """).fetchall()
+
+    print(f"Found {len(rows)} newsletters not yet on site")
+    if not rows:
+        return 0
+
+    # Get AI client
+    try:
+        from analyze_transcript import get_ai_client, analyze_transcript_with_ai
+        client_info = get_ai_client()
+    except Exception as e:
+        print(f"  ✗ Could not get AI client: {e}")
+        client_info = None
+
+    # Load full content from inbox JSON files
+    inbox_dir = PIPELINE_DIR / "inbox"
+
+    for row in rows:
+        nl_id, sender, subject, received_date, content_preview = row
+        nl_id = nl_id if not hasattr(nl_id, 'keys') else dict(row)['id']
+        row = dict(row)
+        nl_id = row['id']
+        sender = row['sender']
+        subject = row['subject']
+        received_date = row['received_date']
+
+        # Decode subject if needed
+        try:
+            import email.header
+            decoded = email.header.decode_header(subject)
+            subject_clean = ''.join(
+                part.decode(enc or 'utf-8') if isinstance(part, bytes) else part
+                for part, enc in decoded
+            )
+        except Exception:
+            subject_clean = subject
+
+        # Find matching inbox JSON for full content
+        full_content = row.get('content_preview', '')
+        for jf in inbox_dir.glob("*.json"):
+            try:
+                d = json.load(open(jf))
+                if d.get('subject', '') == subject or subject_clean in d.get('subject', ''):
+                    full_content = d.get('content', d.get('content_preview', ''))
+                    break
+            except Exception:
+                pass
+
+        # Strip markdown links/images to get readable text
+        import re
+        text = re.sub(r'\[([^\]]+)\]\([^)]+\)', r'\1', full_content)
+        text = re.sub(r'View image:.*', '', text)
+        text = re.sub(r'Follow image link:.*', '', text)
+        text = re.sub(r'Caption:.*', '', text)
+        text = re.sub(r'\n{3,}', '\n\n', text).strip()
+
+        if len(text) < 100:
+            print(f"  ⏭ Skipping '{subject_clean[:50]}' — content too short")
+            continue
+
+        # Use AI to generate insight title + summary if client available
+        insight_title = subject_clean.strip()
+        summary = text[:500]
+        key_takeaway = ''
+        tickers_mentioned = row.get('extracted_tickers', '[]') or '[]'
+
+        if client_info:
+            try:
+                prompt = f"""You are analyzing a newsletter for investment insights.
+
+Newsletter: {subject_clean}
+From: {sender}
+Content:
+{text[:3000]}
+
+Return JSON with:
+- "title": punchy 8-12 word insight title (no clickbait, investment-focused)
+- "summary": 2-3 sentence summary of key investment implications
+- "key_takeaway": single most important actionable insight for investors
+- "tickers": list of relevant ticker symbols mentioned
+- "sentiment": "bullish", "bearish", or "neutral"
+"""
+                client_type, client = client_info
+                if client_type in ('openai', 'moonshot'):
+                    model_name = "moonshot-v1-8k" if client_type == 'moonshot' else "gpt-4o-mini"
+                    resp = client.chat.completions.create(
+                        model=model_name,
+                        messages=[{"role": "user", "content": prompt}],
+                        response_format={"type": "json_object"},
+                        max_tokens=400
+                    )
+                    result = json.loads(resp.choices[0].message.content)
+                elif client_type == 'gemini':
+                    import google.generativeai as genai
+                    model = genai.GenerativeModel('gemini-1.5-flash')
+                    resp = model.generate_content(prompt)
+                    result = json.loads(resp.text)
+                else:
+                    result = {}
+
+                insight_title = result.get('title', insight_title)[:200]
+                summary = result.get('summary', summary)[:2000]
+                key_takeaway = result.get('key_takeaway', '')[:500]
+                tickers_mentioned = json.dumps(result.get('tickers', []))
+                sentiment = result.get('sentiment', 'neutral')
+            except Exception as e:
+                print(f"  ⚠ AI analysis failed for newsletter: {e}")
+                sentiment = 'neutral'
+        else:
+            sentiment = 'neutral'
+
+        # Parse received_date for source_date
+        try:
+            from email.utils import parsedate_to_datetime
+            source_date = parsedate_to_datetime(received_date).strftime('%Y-%m-%d')
+        except Exception:
+            source_date = str(date.today())
+
+        # Insert insight
+        with db._get_connection() as conn:
+            existing = conn.execute(
+                "SELECT id FROM latest_insights WHERE title = ?", (insight_title,)
+            ).fetchone()
+            if existing:
+                print(f"  ⏭ Already exists: '{insight_title[:60]}'")
+                conn.execute("UPDATE newsletters SET added_to_site=1 WHERE id=?", (nl_id,))
+                continue
+
+            conn.execute("""
+                INSERT INTO latest_insights
+                    (title, source_type, source_name, source_date, summary,
+                     key_takeaway, tickers_mentioned, sentiment,
+                     display_on_main, display_order, added_date)
+                VALUES (?, 'newsletter', ?, ?, ?, ?, ?, ?, 1, 0, ?)
+            """, (
+                insight_title,
+                sender,
+                source_date,
+                summary,
+                key_takeaway,
+                tickers_mentioned,
+                sentiment,
+                str(date.today())
+            ))
+            conn.execute("UPDATE newsletters SET added_to_site=1 WHERE id=?", (nl_id,))
+            promoted += 1
+            print(f"  ✓ Promoted: '{insight_title[:60]}'")
+
+    print(f"✓ Promoted {promoted} newsletter insight(s)")
+    return promoted
+
+
 def export_website():
     """Export data.js and supporting files for the website."""
     print("\n" + "="*60)
@@ -518,8 +685,9 @@ def main():
 
     # Always: analyze + export
     results['transcripts_analyzed'] = analyze_transcripts()
-    results['insights_promoted'] = promote_episodes_to_insights()
     results['newsletters_imported'] = import_newsletters()
+    results['insights_promoted'] = promote_episodes_to_insights()
+    results['insights_promoted'] += promote_newsletters_to_insights()
     results['scores'] = aggregate_scores()
 
     run_script("Fetch Prices", "fetch_prices.py", timeout=120)

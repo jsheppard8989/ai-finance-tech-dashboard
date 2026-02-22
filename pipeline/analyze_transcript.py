@@ -64,14 +64,32 @@ CONTENT_PODCAST_HINTS = [
 
 
 def get_ai_client() -> Optional[any]:
-    """Get AI client - tries Gemini FIRST (cheapest), falls back to OpenAI."""
-    
-    # Try Gemini API from environment (cheapest option)
+    """Get AI client - tries Moonshot/Kimi FIRST, then Gemini, then OpenAI."""
+
+    # Try Moonshot/Kimi (primary - what the pipeline uses)
+    auth_profiles_path = Path.home() / ".openclaw/agents/main/agent/auth-profiles.json"
+    if auth_profiles_path.exists() and OPENAI_AVAILABLE:
+        try:
+            with open(auth_profiles_path) as f:
+                auth_data = json.load(f)
+            profiles = auth_data.get('profiles', {})
+            if 'moonshot:default' in profiles:
+                profile = profiles['moonshot:default']
+                if profile.get('type') == 'api_key':
+                    kimi_key = profile.get('key', '')
+                    if kimi_key:
+                        client = OpenAI(api_key=kimi_key, base_url="https://api.moonshot.ai/v1")
+                        print("  Using Moonshot/Kimi API (primary)")
+                        return ('moonshot', client)
+        except Exception as e:
+            print(f"  ⚠ Moonshot init failed: {e}")
+
+    # Try Gemini API from environment
     gemini_key = os.environ.get('GEMINI_API_KEY')
     if gemini_key and GEMINI_AVAILABLE:
         try:
             genai.configure(api_key=gemini_key)
-            print("  Using Gemini API (primary - cheapest)")
+            print("  Using Gemini API (fallback)")
             return ('gemini', gemini_key)
         except Exception as e:
             print(f"  ⚠ Gemini init failed: {e}")
