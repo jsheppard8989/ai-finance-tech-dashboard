@@ -302,33 +302,46 @@ Return ONLY valid JSON. No markdown, no explanations."""
         return None
 
 
-def episode_exists_in_db(db, podcast_name: str, episode_title: str) -> bool:
-    """Check if an episode with this podcast name and title already exists in database."""
+def episode_exists_in_db(db, podcast_name: str, episode_title: str, rss_guid: str = None) -> bool:
+    """Check if an episode already exists in database.
+    
+    Priority:
+    1. rss_guid match (canonical, bulletproof)
+    2. Exact podcast_name + episode_title match
+    3. Fuzzy title match (first 50 chars, case-insensitive)
+    """
+    import sqlite3 as _sqlite3
     try:
-        with db._get_connection() as conn:
-            cursor = conn.cursor()
-            
-            # Check for exact match on podcast_name and episode_title
-            cursor.execute(
-                "SELECT id FROM podcast_episodes WHERE podcast_name = ? AND episode_title = ?",
-                (podcast_name, episode_title)
-            )
-            
-            if cursor.fetchone():
+        conn = _sqlite3.connect(str(Path.home() / ".openclaw/workspace/pipeline/dashboard.db"))
+
+        # 1. GUID match — most reliable
+        if rss_guid:
+            row = conn.execute(
+                "SELECT id FROM podcast_episodes WHERE rss_guid = ?", (rss_guid,)
+            ).fetchone()
+            if row:
+                conn.close()
                 return True
-            
-            # Also check for similar titles (case-insensitive, first 50 chars)
-            cursor.execute(
-                """SELECT id FROM podcast_episodes 
-                   WHERE podcast_name = ? 
-                   AND LOWER(SUBSTR(episode_title, 1, 50)) = LOWER(SUBSTR(?, 1, 50))""",
-                (podcast_name, episode_title)
-            )
-            
-            if cursor.fetchone():
-                return True
-            
-            return False
+
+        # 2. Exact title match
+        row = conn.execute(
+            "SELECT id FROM podcast_episodes WHERE podcast_name = ? AND episode_title = ?",
+            (podcast_name, episode_title)
+        ).fetchone()
+        if row:
+            conn.close()
+            return True
+
+        # 3. Fuzzy title match (first 50 chars)
+        row = conn.execute(
+            """SELECT id FROM podcast_episodes
+               WHERE podcast_name = ?
+               AND LOWER(SUBSTR(episode_title, 1, 50)) = LOWER(SUBSTR(?, 1, 50))""",
+            (podcast_name, episode_title)
+        ).fetchone()
+        conn.close()
+        return row is not None
+
     except Exception as e:
         print(f"    ⚠ Failed to check database: {e}")
         return False
@@ -357,12 +370,23 @@ def process_transcript_file(transcript_path: Path, client_info, db) -> Optional[
 
     # Parse podcast info (pass content for fallback content-based detection)
     podcast_name, episode_slug = parse_podcast_info(transcript_path.name, content)
-    
+
+    # Load sidecar metadata (rss_guid, published_date, etc.)
+    meta_file = transcript_path.parent / f"{transcript_path.stem}.meta.json"
+    sidecar = {}
+    if meta_file.exists():
+        try:
+            with open(meta_file) as mf:
+                sidecar = json.load(mf)
+        except Exception:
+            pass
+    rss_guid = sidecar.get('rss_guid', '') or ''
+
     # Get a preview of the episode title from the first line
     first_line = content.strip().split('\n')[0][:100] if content else episode_slug
     
-    # Check if this episode already exists in database (by podcast + preview title)
-    if episode_exists_in_db(db, podcast_name, first_line):
+    # Check if this episode already exists in database (guid first, then title)
+    if episode_exists_in_db(db, podcast_name, first_line, rss_guid):
         print(f"    ⏭ Episode already in database (duplicate), skipping")
         mark_transcript_processed(transcript_path, -1)  # Mark as processed to avoid re-checking
         return None
@@ -384,11 +408,19 @@ def process_transcript_file(transcript_path: Path, client_info, db) -> Optional[
     episode_title = analysis.get('episode_title', episode_slug.replace('_', ' ').title())
     
     # CRITICAL: Check database again with the AI-extracted title (more accurate)
-    if episode_exists_in_db(db, podcast_name, episode_title):
+    if episode_exists_in_db(db, podcast_name, episode_title, rss_guid):
         print(f"    ⏭ Episode '{episode_title[:60]}...' already in database, skipping")
         mark_transcript_processed(transcript_path, -1)
         return None
     
+    # Use published_date from sidecar if available (more accurate than AI-extracted date)
+    published_date = sidecar.get('published_date', '')
+    if published_date:
+        try:
+            episode_date = datetime.strptime(published_date, '%Y-%m-%d').date()
+        except Exception:
+            pass  # keep AI-extracted date
+
     # Create PodcastEpisode
     episode = PodcastEpisode(
         podcast_name=podcast_name,
@@ -404,6 +436,20 @@ def process_transcript_file(transcript_path: Path, client_info, db) -> Optional[
     
     episode_id = db.add_podcast_episode(episode)
     print(f"    ✓ Added episode (ID: {episode_id})")
+
+    # Store rss_guid and published_date from sidecar
+    if episode_id and (rss_guid or sidecar.get('published_date')):
+        try:
+            import sqlite3 as _sqlite3
+            _conn = _sqlite3.connect(str(Path.home() / ".openclaw/workspace/pipeline/dashboard.db"))
+            _conn.execute(
+                "UPDATE podcast_episodes SET rss_guid=?, published_date=? WHERE id=?",
+                (rss_guid or None, sidecar.get('published_date') or None, episode_id)
+            )
+            _conn.commit()
+            _conn.close()
+        except Exception as e:
+            print(f"    ⚠ Could not store rss_guid: {e}")
     
     # Add ticker mentions
     ticker_mentions = analysis.get('ticker_mentions', [])
