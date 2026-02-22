@@ -31,7 +31,7 @@ def load_feeds():
                     feeds.append(line)
     return feeds
 
-def fetch_latest_episode(feed_url, max_age_days=30):
+def fetch_latest_episode(feed_url, max_age_days=2):
     """Fetch the most recent episode from an RSS feed.
     
     Returns None if the latest episode is older than max_age_days,
