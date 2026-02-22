@@ -1853,8 +1853,7 @@
       // Try to find matching deep dive by title
       let deepDive = null;
       if (typeof dashboardData !== 'undefined' && dashboardData.deepDives) {
-        const allDeepDives = Object.values(dashboardData.deepDives);
-        deepDive = allDeepDives.find(dd => dd.insight_title === insight.title);
+        deepDive = dashboardData.deepDives[String(insight.id)];
       }
       
       if (deepDive) {
@@ -2086,9 +2085,9 @@
         
         // Check for deep dive
         const hasDeepDive = typeof dashboardData !== 'undefined' && dashboardData.deepDives && 
-          Object.values(dashboardData.deepDives).some(dd => dd.insight_title === insight.title);
+          !!dashboardData.deepDives[String(insight.id)];
         const deepDiveBtn = hasDeepDive ? 
-          '<button onclick="event.stopPropagation(); showDeepDiveModal(\'' + insight.title.replace(/'/g, "\\'") + '\')" style="margin-top: 0.5rem; background: linear-gradient(90deg, #00d4ff, #7b2cbf); color: white; border: none; padding: 0.4rem 0.8rem; border-radius: 4px; cursor: pointer; font-size: 0.8rem;">🔍 Deep Dive</button>' : '';
+          '<button onclick="event.stopPropagation(); showDeepDiveModal(' + insight.id + ')" style="margin-top: 0.5rem; background: linear-gradient(90deg, #00d4ff, #7b2cbf); color: white; border: none; padding: 0.4rem 0.8rem; border-radius: 4px; cursor: pointer; font-size: 0.8rem;">🔍 Deep Dive</button>' : '';
         
         html += '<div class="insight-item" onclick="toggleInsight(this)">';
         html += '<div class="source">' + insight.source_name + ' • ' + dateStr + '</div>';
@@ -2201,30 +2200,28 @@
     });
 
     // Show Deep Dive modal with full analysis
-    function showDeepDiveModal(insightTitle) {
+    function showDeepDiveModal(insightId) {
       const modal = document.getElementById('deepDiveModal');
       const title = document.getElementById('deepDiveTitle');
       const source = document.getElementById('deepDiveSource');
       const content = document.getElementById('deepDiveContent');
       
-      // Find the deep dive data
-      if (typeof dashboardData !== 'undefined' && dashboardData.deepDives) {
-        const deepDive = Object.values(dashboardData.deepDives).find(
-          dd => dd.insight_title === insightTitle
-        );
+      // Look up deep dive by numeric insight id
+      const deepDive = (typeof dashboardData !== 'undefined' && dashboardData.deepDives)
+        ? dashboardData.deepDives[String(insightId)]
+        : null;
         
-        if (deepDive) {
-          title.textContent = deepDive.insight_title || 'Deep Dive Analysis';
-          source.textContent = deepDive.source_name ? `${deepDive.source_name} • Deep Dive` : 'AI-Powered Analysis';
-          content.innerHTML = generateDeepDiveHTML(deepDive);
-          modal.style.display = 'flex';
-          modal.classList.add('active');
-          return;
-        }
+      if (deepDive) {
+        title.textContent = deepDive.insight_title || 'Deep Dive Analysis';
+        source.textContent = deepDive.source_name ? `${deepDive.source_name} • Deep Dive` : 'AI-Powered Analysis';
+        content.innerHTML = generateDeepDiveHTML(deepDive);
+        modal.style.display = 'flex';
+        modal.classList.add('active');
+        return;
       }
       
       // Fallback if no deep dive found
-      title.textContent = insightTitle || 'Deep Dive';
+      title.textContent = 'Deep Dive';
       source.textContent = 'Analysis';
       content.innerHTML = '<div style="padding: 2rem; text-align: center; color: #8892b0;">Deep dive content not available for this insight.</div>';
       modal.style.display = 'flex';

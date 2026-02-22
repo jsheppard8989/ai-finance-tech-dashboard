@@ -454,9 +454,8 @@ class DashboardDB:
                         except:
                             pass
                 
-                # Use generated ID for lookup
-                insight_id = f"{content['source_name'].lower().replace(' ', '_')}_{content['insight_title'].lower().replace(' ', '_')[:20]}"
-                deepdives[insight_id] = content
+                # Key by insight_id (integer) — stable, title-change-proof
+                deepdives[str(content['insight_id'])] = content
         
         return deepdives
     
