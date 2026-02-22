@@ -189,12 +189,11 @@ def mark_transcript_processed(transcript_path: Path, episode_id: int):
     # Also set is_processed=1 in the database so the pipeline can query it
     if episode_id and episode_id > 0:
         try:
-            db = get_db()
-            with db._get_connection() as conn:
-                conn.execute(
-                    "UPDATE podcast_episodes SET is_processed = 1 WHERE id = ?",
-                    (episode_id,)
-                )
+            import sqlite3 as _sqlite3
+            _conn = _sqlite3.connect(str(Path.home() / ".openclaw/workspace/pipeline/dashboard.db"))
+            _conn.execute("UPDATE podcast_episodes SET is_processed = 1 WHERE id = ?", (episode_id,))
+            _conn.commit()
+            _conn.close()
         except Exception as e:
             print(f"    ⚠ Could not set is_processed in DB for episode {episode_id}: {e}")
 

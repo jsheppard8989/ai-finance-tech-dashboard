@@ -71,30 +71,6 @@
     ]
   },
   {
-    "id": 6,
-    "podcast_name": "Moonshots with Peter Diamandis",
-    "episode_title": "Boz on the Post-Phone Era: AI, AR, and the Future of Computing",
-    "episode_date": "2025-12-01",
-    "summary": "Meta CTO Andrew 'Boz' Bosworth discusses the shift from mobile to AI-enabled wearable computing. Ray-Ban Meta glasses transformed from 'smart glasses' to 'AI glasses' when Llama 3 arrived 6 months before production. Key insights: 1) AI enables intent-based computing vs app-based, 2) Orion AR glasses show post-phone world is possible, 3) Open source AI (Llama) aligns with Meta's business model - commoditizing complements, 4) Ecosystem risk remains biggest challenge but AI could provide bridge to new interaction models.",
-    "key_takeaways": [
-      "Ray-Ban Meta glasses became AI glasses when Llama 3 hit - 6 months before production",
-      "10-year vision: AR glasses widely adopted; 5-year: good but tethered to phone",
-      "AI enables intent-based computing - 'play music' vs 'open Spotify'",
-      "App model may invert - AI orchestrates services rather than user picking apps",
-      "Orion glasses first glimpse of life after smartphones",
-      "Open source AI aligns with Meta's business - commoditizing complements",
-      "Privacy and social acceptability remain key hurdles for always-on devices",
-      "Nuclear power derailed for 70 years - cautionary tale for overstepping with new tech"
-    ],
-    "investment_thesis": "Meta is positioning for post-phone computing era through Reality Labs investments. AI tailwind accelerates timeline for AR/VR adoption. Open source strategy commoditizes AI models while Meta captures value through applications.",
-    "key_tickers": [
-      "META",
-      "AAPL",
-      "SNAP",
-      "GOOGL"
-    ]
-  },
-  {
     "id": 3,
     "podcast_name": "a16z Live",
     "episode_title": "Carson Block on Short Selling, AI Pretenders, and Mining Opportunities",
@@ -162,28 +138,6 @@
       "MSTR",
       "COIN",
       "HOOD"
-    ]
-  },
-  {
-    "id": 5,
-    "podcast_name": "Moonshots with Peter Diamandis",
-    "episode_title": "Delta: Solving Food Waste with Technology",
-    "episode_date": "2024-06-01",
-    "summary": "Astro Teller interviews Emily Ma about the Delta project tackling food waste at X. Food waste costs US households $1,500/year and generates significant methane emissions. The team built an 'air traffic control' system for surplus food using open-source standards (Open Product Recovery) to match surplus with need. The system now operates across Feeding America network and is expanding globally. Key insight: 40% of US food waste occurs at households, but X focused on upstream (farms, processors, retailers) for maximum impact.",
-    "key_takeaways": [
-      "US households waste $1,500/year in food on average",
-      "Food waste is largest source of methane from landfills - 80x worse than CO2",
-      "40% of US food waste happens at consumer/household level",
-      "Air traffic control system matches surplus food with recipients using blockchain-like trust chain",
-      "Dana Yost in Arizona pioneered manual food surplus brokering - now automated",
-      "Open Product Recovery is open-source standard adopted by Kroger, Feeding America",
-      "Chorus project tracks temperature/chain of custody for perishables",
-      "COVID vaccine distribution applied learnings from food supply chain tracking"
-    ],
-    "investment_thesis": "Food waste reduction represents ESG investment opportunity with measurable climate impact. Technology solutions for supply chain optimization and inventory management will see increased demand as retailers face sustainability mandates.",
-    "key_tickers": [
-      "KR",
-      "WMT"
     ]
   },
   {
