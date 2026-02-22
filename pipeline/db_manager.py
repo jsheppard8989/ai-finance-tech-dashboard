@@ -84,10 +84,50 @@ class DashboardDB:
                     conn.executescript(f.read())
                 print(f"✓ Initialized database at {self.db_path}")
     
+    # === Ticker Aliases ===
+
+    def resolve_ticker(self, raw: str) -> str:
+        """
+        Resolve a raw mention string to a canonical Yahoo Finance ticker.
+        Looks up ticker_aliases table (case-insensitive). Returns the
+        canonical ticker if found, otherwise returns the original uppercased.
+        """
+        with self._get_connection() as conn:
+            row = conn.execute(
+                "SELECT ticker FROM ticker_aliases WHERE alias = ?",
+                (raw.lower().strip(),)
+            ).fetchone()
+        if row:
+            return row["ticker"]
+        return raw.upper().strip()
+
+    def add_ticker_alias(self, alias: str, ticker: str, description: str = "") -> bool:
+        """Add a new ticker alias mapping. Returns True if inserted, False if already exists."""
+        try:
+            with self._get_connection() as conn:
+                conn.execute(
+                    "INSERT INTO ticker_aliases (alias, ticker, description) VALUES (?, ?, ?)",
+                    (alias.lower().strip(), ticker.upper().strip(), description)
+                )
+            return True
+        except sqlite3.IntegrityError:
+            return False  # Already exists
+
+    def get_ticker_aliases(self) -> List[Dict]:
+        """Return all alias mappings."""
+        with self._get_connection() as conn:
+            rows = conn.execute(
+                "SELECT alias, ticker, description FROM ticker_aliases ORDER BY ticker, alias"
+            ).fetchall()
+        return [dict(r) for r in rows]
+
     # === Ticker Mentions ===
     
     def add_ticker_mention(self, mention: TickerMention) -> int:
         """Add a ticker mention and return the ID."""
+        # Resolve alias → canonical ticker before storing
+        mention.ticker = self.resolve_ticker(mention.ticker)
+
         # Calculate weighted score at insert time
         base = 20.0 if mention.source_type == 'podcast' else 10.0
         weight = 2.0 if mention.source_type == 'podcast' else (1.5 if mention.is_disruption_focused else 0.5)
