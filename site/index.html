@@ -2080,20 +2080,27 @@
       let html = '';
       for (const insight of insights) {
         const dateStr = new Date(insight.source_date).toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
-        const tickers = Array.isArray(insight.tickers_mentioned) ? insight.tickers_mentioned.join(', ') : (insight.tickers_mentioned || 'None');
+        // Parse tickers — handle array, JSON string, or plain string
+        let tickerArr = insight.tickers_mentioned;
+        if (typeof tickerArr === 'string') {
+          try { tickerArr = JSON.parse(tickerArr); } catch(e) { tickerArr = tickerArr ? [tickerArr] : []; }
+        }
+        if (!Array.isArray(tickerArr)) tickerArr = [];
+        const tickerDisplay = tickerArr.length > 0 ? tickerArr.join(' · ') : 'None';
+
         const sentimentColor = insight.sentiment === 'bullish' ? '#4caf50' : insight.sentiment === 'bearish' ? '#f44336' : '#ffc107';
         
         // Check for deep dive
         const hasDeepDive = typeof dashboardData !== 'undefined' && dashboardData.deepDives && 
           !!dashboardData.deepDives[String(insight.id)];
         const deepDiveBtn = hasDeepDive ? 
-          '<button onclick="event.stopPropagation(); showDeepDiveModal(' + insight.id + ')" style="margin-top: 0.5rem; background: linear-gradient(90deg, #00d4ff, #7b2cbf); color: white; border: none; padding: 0.4rem 0.8rem; border-radius: 4px; cursor: pointer; font-size: 0.8rem;">🔍 Deep Dive</button>' : '';
+          '<button onclick="event.stopPropagation(); showDeepDiveModal(' + insight.id + ')" style="background: linear-gradient(90deg, #00d4ff, #7b2cbf); color: white; border: none; padding: 0.4rem 0.9rem; border-radius: 4px; cursor: pointer; font-size: 0.8rem; white-space: nowrap;">🔍 Deep Dive</button>' : '';
         
         html += '<div class="insight-item" onclick="toggleInsight(this)">';
         html += '<div class="source">' + insight.source_name + ' • ' + dateStr + '</div>';
         html += '<div class="text"><strong>' + insight.title + ':</strong> ' + insight.summary + ' <span style="color:' + sentimentColor + ';">→ ' + (insight.key_takeaway || '') + '</span></div>';
-        html += '<div class="insight-expanded"><div style="font-size: 0.85rem; color: #a8b2d1;">';
-        html += '<span><strong>Key Tickers:</strong> ' + tickers + '</span>' + deepDiveBtn;
+        html += '<div class="insight-expanded"><div style="font-size: 0.85rem; color: #a8b2d1; display: flex; justify-content: space-between; align-items: flex-end; gap: 0.5rem;">';
+        html += '<span><strong>Key Tickers:</strong> ' + tickerDisplay + '</span>' + deepDiveBtn;
         html += '</div></div></div>';
       }
       container.innerHTML = html;
