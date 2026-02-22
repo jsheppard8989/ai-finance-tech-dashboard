@@ -1,8 +1,8 @@
-// Auto-generated data file - 2026-02-22T13:58:22.377217
+// Auto-generated data file - 2026-02-22T14:06:16.953542
 // DO NOT EDIT MANUALLY
 
 const dashboardData = {
-  generatedAt: "2026-02-22T13:58:22.377228",
+  generatedAt: "2026-02-22T14:06:16.953556",
   tickerScores: [],
   archive: {
   "insights": [
@@ -48,25 +48,6 @@ const dashboardData = {
       "podcast_episode_id": 23
     },
     {
-      "id": 28,
-      "title": "Moonshots #232: AI Pace, xAI Exodus & Ilya's $5B Safety Bet",
-      "source_type": "podcast",
-      "source_name": "Moonshots with Peter Diamandis",
-      "source_date": "2026-02-19",
-      "summary": "In this episode, the panel discusses the rapid pace of AI development, the executive exodus from xAI, and the significant valuation of Ilya Sutskever's Safe Superintelligence (SSI) at $5 billion despite having no product yet. They also touch on the talent war in AI, Apple's AI strategy crisis, and the importance of compute power in the AI race. The discussion highlights the critical role of AI talent, the potential for SSI as an insurance play, and the structural risk Apple faces due to missing ",
-      "key_takeaway": "Invest in companies leading the AI talent race and those with a safety-first approach to AGI, while being cautious of companies like Apple that have missed the AI wave and face structural risks.",
-      "tickers_mentioned": [
-        "AAPL"
-      ],
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-02-22",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 25
-    },
-    {
       "id": 17,
       "title": "Moonshots #231: 400x AI Cost Collapse & India's Talent Decade",
       "source_type": "podcast",
@@ -88,27 +69,6 @@ const dashboardData = {
       "archived_date": null,
       "archived_reason": null,
       "podcast_episode_id": 22
-    },
-    {
-      "id": 27,
-      "title": "Moonshots #231: 400x AI Cost Collapse, India Tech & OpenAI Dominance",
-      "source_type": "podcast",
-      "source_name": "Moonshots with Peter Diamandis",
-      "source_date": "2026-02-18",
-      "summary": "In this episode, the panel discusses the significant acquisition of OpenClaw by OpenAI, which positions OpenAI as a dominant player in the AI agent orchestration space. They highlight the 400x cost collapse in AI inference, enabling new applications and deployment at scale. The discussion also emphasizes India's emerging role as a global AI powerhouse, driven by demographics, technical education, and cost advantages. The panelists provide investment insights, including shorting Apple and long po",
-      "key_takeaway": "Invest in the AI agent space and Indian tech infrastructure as they are positioned to benefit from the vertical integration in AI and India's structural advantages.",
-      "tickers_mentioned": [
-        "INDA",
-        "INFY",
-        "TCS"
-      ],
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-02-22",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 24
     },
     {
       "id": 13,
@@ -244,23 +204,6 @@ const dashboardData = {
       "podcast_episode_id": 21
     },
     {
-      "id": 23,
-      "title": "Sam Altman & AI CEOs: Job Displacement and the Succession Plan",
-      "source_type": "podcast",
-      "source_name": "Moonshots with Peter Diamandis",
-      "source_date": "2026-02-13",
-      "summary": "In this episode of Moonshots with Peter Diamandis, the panel discusses the increasing role of AI in corporate governance and the potential for AI CEOs. They also touch on the rapid job loss in the U.S., suggesting that tasks are being automated out of existence. The episode highlights the shift towards AI in decision-making processes within companies and the implications for strategy and management. Furthermore, they introduce a paper titled 'Solve Everything,' which outlines a vision for achiev",
-      "key_takeaway": "Investment in AI and automation technologies is crucial as they become integral to corporate governance and operational efficiency, potentially leading to the rise of AI-led companies.",
-      "tickers_mentioned": "",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-02-22",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 13
-    },
-    {
       "id": 2,
       "title": "Gold Climax Top Signal",
       "source_type": "podcast",
@@ -280,6 +223,23 @@ const dashboardData = {
       "archived_date": null,
       "archived_reason": null,
       "podcast_episode_id": null
+    },
+    {
+      "id": 29,
+      "title": "Wolverine: Machine-Mediated Hearing \u2014 Audio Wearables as the Next Computing Platform",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-02-10",
+      "summary": "Astro Teller interviews Jason Rugolo about Wolverine \u2014 machine-mediated hearing devices from X (Google X). Evolved from 30+ ideas to audio wearables enhancing hearing with AI. Key insight: wearability and social acceptance are the moat, not raw technology.",
+      "key_takeaway": "Audio wearables represent the next computing platform after smartphones. Play: companies solving wearability + social acceptance at scale.",
+      "tickers_mentioned": "",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-02-22",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 4
     },
     {
       "id": 9,
@@ -465,23 +425,6 @@ const dashboardData = {
       "archived_date": null,
       "archived_reason": null,
       "podcast_episode_id": 12
-    },
-    {
-      "id": 24,
-      "title": "Meta Boz: The Post-Phone Era \u2014 AR, AI Interfaces & App Model Collapse",
-      "source_type": "podcast",
-      "source_name": "a16z Live",
-      "source_date": "2023-12-21",
-      "summary": "In this episode of a16z Live, Meta CTO Andrew 'Boz' Bosworth discusses the future of consumer technology with a16z's David George. Boz shares insights on the evolution of interfaces, the potential for AI-enabled computing experiences, and the shift from app-centric to more immersive and adaptive technologies. He also touches on the role of augmented reality and the potential for new content delivery vehicles in the next decade. The conversation highlights the importance of understanding user int",
-      "key_takeaway": "Investing in the evolution of consumer technology interfaces presents an opportunity to capitalize on the shift towards more immersive and adaptive AI-enabled experiences.",
-      "tickers_mentioned": "",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-02-22",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 14
     },
     {
       "id": 21,
@@ -692,49 +635,13 @@ const dashboardData = {
       "episode_release_date": "2023-12-19"
     },
     {
-      "id": 28,
-      "title": "Moonshots #232: AI Pace, xAI Exodus & Ilya's $5B Safety Bet",
+      "id": 29,
+      "title": "Wolverine: Machine-Mediated Hearing \u2014 Audio Wearables as the Next Computing Platform",
       "source_type": "podcast",
-      "source_name": "Moonshots with Peter Diamandis",
-      "source_date": "2026-02-19",
-      "summary": "In this episode, the panel discusses the rapid pace of AI development, the executive exodus from xAI, and the significant valuation of Ilya Sutskever's Safe Superintelligence (SSI) at $5 billion despite having no product yet. They also touch on the talent war in AI, Apple's AI strategy crisis, and the importance of compute power in the AI race. The discussion highlights the critical role of AI talent, the potential for SSI as an insurance play, and the structural risk Apple faces due to missing ",
-      "key_takeaway": "Invest in companies leading the AI talent race and those with a safety-first approach to AGI, while being cautious of companies like Apple that have missed the AI wave and face structural risks.",
-      "tickers_mentioned": "[\"AAPL\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-02-22",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 25,
-      "episode_release_date": "2026-02-19"
-    },
-    {
-      "id": 27,
-      "title": "Moonshots #231: 400x AI Cost Collapse, India Tech & OpenAI Dominance",
-      "source_type": "podcast",
-      "source_name": "Moonshots with Peter Diamandis",
-      "source_date": "2026-02-18",
-      "summary": "In this episode, the panel discusses the significant acquisition of OpenClaw by OpenAI, which positions OpenAI as a dominant player in the AI agent orchestration space. They highlight the 400x cost collapse in AI inference, enabling new applications and deployment at scale. The discussion also emphasizes India's emerging role as a global AI powerhouse, driven by demographics, technical education, and cost advantages. The panelists provide investment insights, including shorting Apple and long po",
-      "key_takeaway": "Invest in the AI agent space and Indian tech infrastructure as they are positioned to benefit from the vertical integration in AI and India's structural advantages.",
-      "tickers_mentioned": "[\"INDA\", \"INFY\", \"TCS\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-02-22",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 24,
-      "episode_release_date": "2026-02-18"
-    },
-    {
-      "id": 23,
-      "title": "Sam Altman & AI CEOs: Job Displacement and the Succession Plan",
-      "source_type": "podcast",
-      "source_name": "Moonshots with Peter Diamandis",
-      "source_date": "2026-02-13",
-      "summary": "In this episode of Moonshots with Peter Diamandis, the panel discusses the increasing role of AI in corporate governance and the potential for AI CEOs. They also touch on the rapid job loss in the U.S., suggesting that tasks are being automated out of existence. The episode highlights the shift towards AI in decision-making processes within companies and the implications for strategy and management. Furthermore, they introduce a paper titled 'Solve Everything,' which outlines a vision for achiev",
-      "key_takeaway": "Investment in AI and automation technologies is crucial as they become integral to corporate governance and operational efficiency, potentially leading to the rise of AI-led companies.",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-02-10",
+      "summary": "Astro Teller interviews Jason Rugolo about Wolverine \u2014 machine-mediated hearing devices from X (Google X). Evolved from 30+ ideas to audio wearables enhancing hearing with AI. Key insight: wearability and social acceptance are the moat, not raw technology.",
+      "key_takeaway": "Audio wearables represent the next computing platform after smartphones. Play: companies solving wearability + social acceptance at scale.",
       "tickers_mentioned": "",
       "sentiment": "bullish",
       "display_on_main": 1,
@@ -742,8 +649,8 @@ const dashboardData = {
       "added_date": "2026-02-22",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 13,
-      "episode_release_date": "2026-02-13"
+      "podcast_episode_id": 4,
+      "episode_release_date": "2024-01-15"
     },
     {
       "id": 26,
@@ -782,24 +689,6 @@ const dashboardData = {
       "episode_release_date": "2025-04-06"
     },
     {
-      "id": 24,
-      "title": "Meta Boz: The Post-Phone Era \u2014 AR, AI Interfaces & App Model Collapse",
-      "source_type": "podcast",
-      "source_name": "a16z Live",
-      "source_date": "2023-12-21",
-      "summary": "In this episode of a16z Live, Meta CTO Andrew 'Boz' Bosworth discusses the future of consumer technology with a16z's David George. Boz shares insights on the evolution of interfaces, the potential for AI-enabled computing experiences, and the shift from app-centric to more immersive and adaptive technologies. He also touches on the role of augmented reality and the potential for new content delivery vehicles in the next decade. The conversation highlights the importance of understanding user int",
-      "key_takeaway": "Investing in the evolution of consumer technology interfaces presents an opportunity to capitalize on the shift towards more immersive and adaptive AI-enabled experiences.",
-      "tickers_mentioned": "",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-02-22",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 14,
-      "episode_release_date": "2023-12-21"
-    },
-    {
       "id": 21,
       "title": "Carson Block: Short AI Pretenders, Buy Gold Miners",
       "source_type": "podcast",
@@ -816,6 +705,60 @@ const dashboardData = {
       "archived_reason": null,
       "podcast_episode_id": 11,
       "episode_release_date": "2023-04-01"
+    },
+    {
+      "id": 25,
+      "title": "Brett Adcock: Humanoid Robots Running Neural Nets \u2014 Autonomous Manufacturing Now",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2023-03-01",
+      "summary": "In this episode of Moonshots with Peter Diamandis, Brett Adcock discusses the rapid advancements in neural networks and their impact on the future of manufacturing and robotics. The conversation highlights the potential for robots to learn tasks and share that knowledge across a fleet, leading to significant efficiency gains. The discussion also touches on the shift from traditional coding to neural nets, the reduction in manufacturing costs, and the potential for a sci-fi future with ubiquitous",
+      "key_takeaway": "Investment in neural network technology and autonomous robotics is poised for significant growth, with the potential to disrupt traditional manufacturing and create new market opportunities.",
+      "tickers_mentioned": "",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-02-22",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 15,
+      "episode_release_date": "2023-03-01"
+    },
+    {
+      "id": 13,
+      "title": "Jack Mallers: Japan, AI, & The Next Liquidity Shock For Bitcoin",
+      "source_type": "podcast",
+      "source_name": "The Jack Mallers Show",
+      "source_date": "2026-02-17",
+      "summary": "Japan raising rates triggers global liquidity unwind just as AI-driven deflation compresses corporate earnings. Bitcoin selling off alongside tech as it still trades as a risk asset \u2014 but Mallers argues this is the last correlation before Bitcoin reprices as a sovereign-grade hard asset as yield curve control fails.",
+      "key_takeaway": "Bitcoin dip is a liquidity event, not a thesis change. Japanese rate hike is the catalyst \u2014 watch for yen carry trade unwind.",
+      "tickers_mentioned": "[\"BTC\", \"MSTR\", \"COIN\", \"JPY\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 1,
+      "added_date": "2026-02-19",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 20,
+      "episode_release_date": "2025-04-25"
+    },
+    {
+      "id": 14,
+      "title": "Paul Krugman: Dollar Resilience & AI Deflation Risk",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-02-15",
+      "summary": "Krugman argues dollar dominance is structurally resilient despite chronic deficits \u2014 there is no alternative reserve asset. He flags AI as a deflationary force that will complicate Fed policy, and warns Kevin Warsh as Fed Chair would be hawkish at the wrong time. Sees a real risk of policy error in 2026.",
+      "key_takeaway": "Dollar stays strong short-term. AI deflation + hawkish Fed = dangerous mix for equities by late 2026. Watch rate policy closely.",
+      "tickers_mentioned": "[\"DXY\", \"TLT\", \"GLD\", \"SPY\", \"QQQ\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 2,
+      "added_date": "2026-02-19",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 18,
+      "episode_release_date": "2023-12-07"
     }
   ],
   "definitions": [

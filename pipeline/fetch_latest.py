@@ -31,8 +31,12 @@ def load_feeds():
                     feeds.append(line)
     return feeds
 
-def fetch_latest_episode(feed_url):
-    """Fetch the most recent episode from an RSS feed."""
+def fetch_latest_episode(feed_url, max_age_days=30):
+    """Fetch the most recent episode from an RSS feed.
+    
+    Returns None if the latest episode is older than max_age_days,
+    or if its rss_guid already exists in the database.
+    """
     try:
         req = urllib.request.Request(feed_url, headers={'User-Agent': 'Mozilla/5.0'})
         with urllib.request.urlopen(req, timeout=30) as response:
@@ -55,31 +59,70 @@ def fetch_latest_episode(feed_url):
         
         title = ""
         enclosure_url = ""
-        pub_date = ""
-        
+        pub_date_str = ""
+        rss_guid = ""
+
         title_elem = item.find('title')
         if title_elem is not None and title_elem.text:
             title = title_elem.text
-        
+
         enclosure = item.find('enclosure')
         if enclosure is not None:
             enclosure_url = enclosure.get('url', '')
-        
+
         pub_elem = item.find('pubDate')
         if pub_elem is not None and pub_elem.text:
-            pub_date = pub_elem.text
-        
-        if title and enclosure_url:
-            return {
-                'podcast': podcast_title,
-                'title': title,
-                'audio_url': enclosure_url,
-                'published': pub_date,
-                'feed': feed_url
-            }
-        
-        return None
-        
+            pub_date_str = pub_elem.text
+
+        guid_elem = item.find('guid')
+        if guid_elem is not None and guid_elem.text:
+            rss_guid = guid_elem.text.strip()
+
+        if not title or not enclosure_url:
+            return None
+
+        # Parse published date
+        pub_date_iso = None
+        if pub_date_str:
+            try:
+                from email.utils import parsedate_to_datetime
+                pub_date_iso = parsedate_to_datetime(pub_date_str).strftime('%Y-%m-%d')
+            except Exception:
+                pass
+
+        # Gate: skip episodes older than max_age_days
+        if pub_date_iso:
+            from datetime import date
+            pub = date.fromisoformat(pub_date_iso)
+            age_days = (date.today() - pub).days
+            if age_days > max_age_days:
+                print(f"  ⏭ Skipping '{title[:50]}' — published {pub_date_iso} ({age_days}d ago, >{max_age_days}d limit)")
+                return None
+
+        # Gate: skip if rss_guid already in database
+        if rss_guid:
+            import sqlite3 as _sqlite3
+            from pathlib import Path as _Path
+            db_path = _Path.home() / ".openclaw/workspace/pipeline/dashboard.db"
+            _conn = _sqlite3.connect(str(db_path))
+            existing = _conn.execute(
+                "SELECT id FROM podcast_episodes WHERE rss_guid=?", (rss_guid,)
+            ).fetchone()
+            _conn.close()
+            if existing:
+                print(f"  ⏭ Already have '{title[:50]}' (guid match, ep_id={existing[0]})")
+                return None
+
+        return {
+            'podcast': podcast_title,
+            'title': title,
+            'audio_url': enclosure_url,
+            'published': pub_date_str,
+            'published_date': pub_date_iso,
+            'rss_guid': rss_guid,
+            'feed': feed_url
+        }
+
     except Exception as e:
         print(f"  ✗ Error fetching {feed_url}: {e}")
         return None
@@ -162,6 +205,8 @@ def transcribe_episode(audio_path, episode):
                 'audio_url': episode.get('audio_url', ''),
                 'feed_url': episode.get('feed', ''),
                 'published': episode.get('published', ''),
+                'published_date': episode.get('published_date', ''),
+                'rss_guid': episode.get('rss_guid', ''),
             }
             with open(meta_file, 'w') as mf:
                 _json.dump(meta, mf, indent=2)
