@@ -98,12 +98,42 @@ def fetch_feed_metadata(feed_url):
                 pub_date = pub_elem.text
             
             if title and enclosure_url:
+                # Parse pub date
+                pub_date_iso = None
+                if pub_date:
+                    try:
+                        from email.utils import parsedate_to_datetime
+                        pub_date_iso = parsedate_to_datetime(pub_date).strftime('%Y-%m-%d')
+                    except Exception:
+                        pass
+
+                # Skip episodes older than 2 days
+                if pub_date_iso:
+                    from datetime import date
+                    age_days = (date.today() - date.fromisoformat(pub_date_iso)).days
+                    if age_days > 2:
+                        continue
+
+                # Skip if rss_guid already in DB
+                guid_el = item.find('guid')
+                rss_guid = guid_el.text.strip() if guid_el is not None and guid_el.text else ''
+                if rss_guid:
+                    import sqlite3 as _sq
+                    from pathlib import Path as _P
+                    _c = _sq.connect(str(_P.home() / '.openclaw/workspace/pipeline/dashboard.db'))
+                    existing = _c.execute('SELECT id FROM podcast_episodes WHERE rss_guid=?', (rss_guid,)).fetchone()
+                    _c.close()
+                    if existing:
+                        continue
+
                 episodes.append({
                     'podcast': podcast_title,
                     'title': title,
                     'description': description,
                     'audio_url': enclosure_url,
-                    'published': pub_date
+                    'published': pub_date,
+                    'published_date': pub_date_iso,
+                    'rss_guid': rss_guid,
                 })
         
         return {
