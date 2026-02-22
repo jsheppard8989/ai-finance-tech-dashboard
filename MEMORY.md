@@ -30,6 +30,13 @@
 - Only use workarounds as temporary measures while debugging
 - When automation fails, fix the automation — not just the immediate symptom
 
+**CONFIRM BEFORE ACTING:** When user asks me to do something, I must:
+1. State my plan clearly
+2. Wait for user confirmation
+3. Only then implement
+
+This prevents wasting time on wrong approaches and respects user's expertise.
+
 ---
 
 ## Security Incident (Fixed 2026-02-15)

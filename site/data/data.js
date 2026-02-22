@@ -1,102 +1,16 @@
-// Auto-generated - 2026-02-20T19:27:14.095435
+// Auto-generated data file - 2026-02-22T13:48:01.499417
 // DO NOT EDIT MANUALLY
 
 const dashboardData = {
-  "generatedAt": "2026-02-20T19:27:14.095459",
-  "tickerScores": [
-  {
-    "id": 72,
-    "ticker": "GOOGL",
-    "date": "2026-02-20",
-    "total_score": 25.0,
-    "podcast_mentions": 0,
-    "newsletter_mentions": 5,
-    "disruption_signals": 0,
-    "unique_sources": 1,
-    "top_sources": null,
-    "conviction_level": "medium",
-    "contrarian_signal": "neutral",
-    "hidden_plays": null,
-    "rank": 1,
-    "created_at": "2026-02-20 12:36:49",
-    "timeframe": "unspecified"
-  },
-  {
-    "id": 73,
-    "ticker": "MSFT",
-    "date": "2026-02-20",
-    "total_score": 20.0,
-    "podcast_mentions": 0,
-    "newsletter_mentions": 4,
-    "disruption_signals": 0,
-    "unique_sources": 1,
-    "top_sources": null,
-    "conviction_level": "medium",
-    "contrarian_signal": "neutral",
-    "hidden_plays": null,
-    "rank": 2,
-    "created_at": "2026-02-20 12:36:49",
-    "timeframe": "unspecified"
-  },
-  {
-    "id": 74,
-    "ticker": "AAPL",
-    "date": "2026-02-20",
-    "total_score": 15.0,
-    "podcast_mentions": 0,
-    "newsletter_mentions": 3,
-    "disruption_signals": 0,
-    "unique_sources": 2,
-    "top_sources": null,
-    "conviction_level": "medium",
-    "contrarian_signal": "neutral",
-    "hidden_plays": null,
-    "rank": 3,
-    "created_at": "2026-02-20 12:36:49",
-    "timeframe": "unspecified"
-  },
-  {
-    "id": 75,
-    "ticker": "META",
-    "date": "2026-02-20",
-    "total_score": 15.0,
-    "podcast_mentions": 0,
-    "newsletter_mentions": 3,
-    "disruption_signals": 0,
-    "unique_sources": 2,
-    "top_sources": null,
-    "conviction_level": "medium",
-    "contrarian_signal": "neutral",
-    "hidden_plays": null,
-    "rank": 4,
-    "created_at": "2026-02-20 12:36:49",
-    "timeframe": "unspecified"
-  },
-  {
-    "id": 76,
-    "ticker": "NVDA",
-    "date": "2026-02-20",
-    "total_score": 10.0,
-    "podcast_mentions": 0,
-    "newsletter_mentions": 2,
-    "disruption_signals": 0,
-    "unique_sources": 1,
-    "top_sources": null,
-    "conviction_level": "medium",
-    "contrarian_signal": "neutral",
-    "hidden_plays": null,
-    "rank": 5,
-    "created_at": "2026-02-20 12:36:49",
-    "timeframe": "unspecified"
-  }
-],
-  "archive": {
+  generatedAt: "2026-02-22T13:48:01.499429",
+  tickerScores: [],
+  archive: {
   "insights": [
     {
       "id": 19,
       "title": "AI Disruption and the Singularity",
       "source_type": "podcast",
-      "source_name": "Unknown Podcast",
+      "source_name": "Moonshots with Peter Diamandis",
       "source_date": "2026-02-20",
       "summary": "The podcast discusses the rapid advancements in AI and its impact on society and the economy. The conversation revolves around the departures from X-A-I, the concept of recursive self-improvement (RSI), and the potential for AI to significantly reduce the global death rate. The panelists also debate the timeline for AI disruption, with some suggesting it's more imminent than others believe. They touch on the transformative potential of AI in various sectors, including content creation and the potential threats to traditional industries like Hollywood.",
       "key_takeaway": "Invest in AI and tech companies at the forefront of AI development, as they are poised to benefit from the industry's rapid growth and disruption.",
@@ -113,7 +27,7 @@ const dashboardData = {
       "id": 20,
       "title": "The Importance of Privacy and Sovereignty in Cryptocurrency",
       "source_type": "podcast",
-      "source_name": "Unknown Podcast",
+      "source_name": "University of Podcast",
       "source_date": "2026-02-20",
       "summary": "The podcast episode features a discussion on the importance of privacy and sovereignty in the context of cryptocurrencies, particularly focusing on Z-Cash. The guest, Argin, emphasizes the need for privacy in financial transactions and the role of Z-Cash in providing it. The conversation touches on the evolution of privacy concerns, the technological advancements in blockchain scalability, and the comparison between Bitcoin and Z-Cash in terms of privacy and scalability.",
       "key_takeaway": "Investing in Z-Cash could be a way to capitalize on the growing demand for privacy in financial transactions and the potential for improved scalability in blockchain technology.",
@@ -625,13 +539,13 @@ const dashboardData = {
     }
   ]
 },
-  "mainContent": {
+  mainContent: {
   "insights": [
     {
       "id": 19,
       "title": "AI Disruption and the Singularity",
       "source_type": "podcast",
-      "source_name": "Unknown Podcast",
+      "source_name": "Moonshots with Peter Diamandis",
       "source_date": "2026-02-20",
       "summary": "The podcast discusses the rapid advancements in AI and its impact on society and the economy. The conversation revolves around the departures from X-A-I, the concept of recursive self-improvement (RSI), and the potential for AI to significantly reduce the global death rate. The panelists also debate the timeline for AI disruption, with some suggesting it's more imminent than others believe. They touch on the transformative potential of AI in various sectors, including content creation and the potential threats to traditional industries like Hollywood.",
       "key_takeaway": "Invest in AI and tech companies at the forefront of AI development, as they are poised to benefit from the industry's rapid growth and disruption.",
@@ -649,7 +563,7 @@ const dashboardData = {
       "id": 20,
       "title": "The Importance of Privacy and Sovereignty in Cryptocurrency",
       "source_type": "podcast",
-      "source_name": "Unknown Podcast",
+      "source_name": "University of Podcast",
       "source_date": "2026-02-20",
       "summary": "The podcast episode features a discussion on the importance of privacy and sovereignty in the context of cryptocurrencies, particularly focusing on Z-Cash. The guest, Argin, emphasizes the need for privacy in financial transactions and the role of Z-Cash in providing it. The conversation touches on the evolution of privacy concerns, the technological advancements in blockchain scalability, and the comparison between Bitcoin and Z-Cash in terms of privacy and scalability.",
       "key_takeaway": "Investing in Z-Cash could be a way to capitalize on the growing demand for privacy in financial transactions and the potential for improved scalability in blockchain technology.",
@@ -855,7 +769,7 @@ const dashboardData = {
     }
   ]
 },
-  "deepDives": {
+  deepDives: {
   "the_rundown_ai_spacex/xai_$1.25t_su": {
     "id": 1,
     "insight_id": 1,
@@ -1657,7 +1571,7 @@ const dashboardData = {
     "source_date": "2026-02-19"
   }
 },
-  "suggestedTerms": [
+  suggestedTerms: [
   {
     "id": 1,
     "term": "Vertical Integration Moat",
@@ -1697,6 +1611,7 @@ const dashboardData = {
 ]
 };
 
+// Export for use in other scripts
 if (typeof module !== 'undefined' && module.exports) {
   module.exports = dashboardData;
 }
