@@ -1,8 +1,8 @@
-// Auto-generated data file - 2026-02-22T13:48:01.499417
+// Auto-generated data file - 2026-02-22T13:51:37.238930
 // DO NOT EDIT MANUALLY
 
 const dashboardData = {
-  generatedAt: "2026-02-22T13:48:01.499429",
+  generatedAt: "2026-02-22T13:51:37.238941",
   tickerScores: [],
   archive: {
   "insights": [
@@ -22,25 +22,6 @@ const dashboardData = {
       "archived_date": null,
       "archived_reason": null,
       "podcast_episode_id": 26
-    },
-    {
-      "id": 20,
-      "title": "The Importance of Privacy and Sovereignty in Cryptocurrency",
-      "source_type": "podcast",
-      "source_name": "University of Podcast",
-      "source_date": "2026-02-20",
-      "summary": "The podcast episode features a discussion on the importance of privacy and sovereignty in the context of cryptocurrencies, particularly focusing on Z-Cash. The guest, Argin, emphasizes the need for privacy in financial transactions and the role of Z-Cash in providing it. The conversation touches on the evolution of privacy concerns, the technological advancements in blockchain scalability, and the comparison between Bitcoin and Z-Cash in terms of privacy and scalability.",
-      "key_takeaway": "Investing in Z-Cash could be a way to capitalize on the growing demand for privacy in financial transactions and the potential for improved scalability in blockchain technology.",
-      "tickers_mentioned": [
-        "ZEC"
-      ],
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-02-20",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 27
     },
     {
       "id": 18,
@@ -558,24 +539,6 @@ const dashboardData = {
       "archived_reason": null,
       "podcast_episode_id": 26,
       "episode_release_date": "2023-12-19"
-    },
-    {
-      "id": 20,
-      "title": "The Importance of Privacy and Sovereignty in Cryptocurrency",
-      "source_type": "podcast",
-      "source_name": "University of Podcast",
-      "source_date": "2026-02-20",
-      "summary": "The podcast episode features a discussion on the importance of privacy and sovereignty in the context of cryptocurrencies, particularly focusing on Z-Cash. The guest, Argin, emphasizes the need for privacy in financial transactions and the role of Z-Cash in providing it. The conversation touches on the evolution of privacy concerns, the technological advancements in blockchain scalability, and the comparison between Bitcoin and Z-Cash in terms of privacy and scalability.",
-      "key_takeaway": "Investing in Z-Cash could be a way to capitalize on the growing demand for privacy in financial transactions and the potential for improved scalability in blockchain technology.",
-      "tickers_mentioned": "[\"ZEC\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-02-20",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 27,
-      "episode_release_date": "2023-04-01"
     },
     {
       "id": 13,
