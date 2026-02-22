@@ -153,6 +153,19 @@ def transcribe_episode(audio_path, episode):
         
         if result.returncode == 0:
             print(f"     ✓ Transcription complete: {transcript_file.name}")
+            # Write sidecar metadata so analyze_transcript.py knows the podcast name
+            meta_file = TRANSCRIPT_DIR / f"{audio_file.stem}.meta.json"
+            import json as _json
+            meta = {
+                'podcast_name': episode.get('podcast', 'Unknown'),
+                'episode_title': episode.get('title', ''),
+                'audio_url': episode.get('audio_url', ''),
+                'feed_url': episode.get('feed', ''),
+                'published': episode.get('published', ''),
+            }
+            with open(meta_file, 'w') as mf:
+                _json.dump(meta, mf, indent=2)
+            print(f"     ✓ Metadata saved: {meta_file.name}")
             return str(transcript_file)
         else:
             print(f"     ✗ Transcription failed: {result.stderr[:200]}")

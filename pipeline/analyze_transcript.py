@@ -91,21 +91,47 @@ def get_ai_client() -> Optional[any]:
 
 
 def parse_podcast_info(filename: str, content: str = '') -> Tuple[str, str]:
-    """Extract podcast name and episode info from filename, with content fallback."""
-    stem = Path(filename).stem
+    """Extract podcast name and episode info from filename.
     
+    Priority:
+    1. Sidecar .meta.json file written by fetch_latest.py (RSS feed title — most accurate)
+    2. Filename pattern matching
+    3. Transcript content scanning
+    4. 'Unknown Podcast' fallback
+    """
+    path = Path(filename)
+    stem = path.stem
+    
+    # 1. Check for sidecar metadata (RSS-sourced, most reliable)
+    transcript_dir = path.parent if path.is_absolute() else Path(__file__).parent / 'transcripts'
+    meta_file = transcript_dir / f"{stem}.meta.json"
+    if not meta_file.exists():
+        # Also check relative to the transcript file itself
+        meta_file = path.parent / f"{stem}.meta.json"
+    if meta_file.exists():
+        try:
+            import json as _json
+            with open(meta_file) as mf:
+                meta = _json.load(mf)
+            podcast_name = meta.get('podcast_name', '').strip()
+            if podcast_name and podcast_name not in ('Unknown', 'Unknown Podcast', ''):
+                return podcast_name, stem
+        except Exception:
+            pass
+    
+    # 2. Filename pattern matching
     for pattern_key, (podcast_name, regex) in PODCAST_PATTERNS.items():
         if pattern_key in stem or re.match(regex, stem):
             return podcast_name, stem
     
-    # Fallback: scan transcript content for show identity clues
+    # 3. Fallback: scan transcript content for show identity clues
     if content:
         content_lower = content[:3000].lower()
         for pattern, podcast_name in CONTENT_PODCAST_HINTS:
             if re.search(pattern, content_lower):
                 return podcast_name, stem
     
-    # Final fallback
+    # 4. Final fallback
     return 'Unknown Podcast', stem
 
 

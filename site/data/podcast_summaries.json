@@ -48,7 +48,7 @@
   },
   {
     "id": 2,
-    "podcast_name": "Monetary Matters",
+    "podcast_name": "Monetary Matters with Jack Farley",
     "episode_title": "Technical Analysis Deep Dive with Milton Berg - February 2026 Market Signals",
     "episode_date": "2026-02-06",
     "summary": "Legendary technician Milton Berg analyzes current market conditions using proprietary indicators. Despite the market holding up well, Berg sees warning signals including a rare VXN pattern (35% gain in 3 days) and an unprecedented one-day island reversal in the Russell 2000. He went short on December 11th based on VXN sell signals and remains cautious. However, Thursday Feb 5th's action matched patterns seen at local bottoms (1997, 2015, 2024), creating tension between short-term bounce potential and medium-term bearish signals.",
@@ -72,7 +72,7 @@
   },
   {
     "id": 6,
-    "podcast_name": "a16z AI Revolution",
+    "podcast_name": "Moonshots with Peter Diamandis",
     "episode_title": "Boz on the Post-Phone Era: AI, AR, and the Future of Computing",
     "episode_date": "2025-12-01",
     "summary": "Meta CTO Andrew 'Boz' Bosworth discusses the shift from mobile to AI-enabled wearable computing. Ray-Ban Meta glasses transformed from 'smart glasses' to 'AI glasses' when Llama 3 arrived 6 months before production. Key insights: 1) AI enables intent-based computing vs app-based, 2) Orion AR glasses show post-phone world is possible, 3) Open source AI (Llama) aligns with Meta's business model - commoditizing complements, 4) Ecosystem risk remains biggest challenge but AI could provide bridge to new interaction models.",
@@ -96,7 +96,7 @@
   },
   {
     "id": 3,
-    "podcast_name": "Muddy Waters",
+    "podcast_name": "a16z Live",
     "episode_title": "Carson Block on Short Selling, AI Pretenders, and Mining Opportunities",
     "episode_date": "2025-11-15",
     "summary": "Carson Block discusses short selling in AI hype cycles and opportunities in mining. He warns against shorting AI pretenders too early despite recognizing overvaluation - momentum can persist longer than expected. Key insights: 1) AI bubble will pop when supply of speculative companies overwhelms demand, 2) Hyperscalers (MSFT, GOOGL, META) have cash flows to survive AI capex unlike dotcoms, 3) Vietnam and India benefit from US-China Cold War, 4) Snowline Gold is most compelling greenfield gold deposit for acquisition by majors.",
@@ -166,7 +166,7 @@
   },
   {
     "id": 5,
-    "podcast_name": "X (Google X)",
+    "podcast_name": "Moonshots with Peter Diamandis",
     "episode_title": "Delta: Solving Food Waste with Technology",
     "episode_date": "2024-06-01",
     "summary": "Astro Teller interviews Emily Ma about the Delta project tackling food waste at X. Food waste costs US households $1,500/year and generates significant methane emissions. The team built an 'air traffic control' system for surplus food using open-source standards (Open Product Recovery) to match surplus with need. The system now operates across Feeding America network and is expanding globally. Key insight: 40% of US food waste occurs at households, but X focused on upstream (farms, processors, retailers) for maximum impact.",
@@ -188,7 +188,7 @@
   },
   {
     "id": 4,
-    "podcast_name": "X (Google X)",
+    "podcast_name": "Monetary Matters with Jack Farley",
     "episode_title": "Wolverine: Machine-Mediated Hearing and the Future of Audio Computing",
     "episode_date": "2024-01-15",
     "summary": "Astro Teller interviews Jason Rugolo about the Wolverine project at X - creating machine-mediated hearing devices. The project evolved from 30+ ideas to focus on audio wearables that enhance hearing while remaining socially acceptable. Key innovations include: real-time voice separation (the 'Big Knob' demo), translation capabilities, hearing protection, and privacy-preserving input/output. The device uses outward-facing microphones to capture sound, processes it through ML models, and delivers enhanced audio to the ear.",
