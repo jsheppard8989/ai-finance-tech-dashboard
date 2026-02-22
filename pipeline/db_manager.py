@@ -221,10 +221,13 @@ class DashboardDB:
     
     def get_daily_scores(self, score_date: date = None) -> List[Dict]:
         """Get daily scores for website."""
-        if score_date is None:
-            score_date = date.today()
-        
         with self._get_connection() as conn:
+            if score_date is None:
+                # Get the most recent date with scores
+                cursor = conn.execute("SELECT MAX(date) FROM daily_scores")
+                row = cursor.fetchone()
+                score_date = row[0] if row and row[0] else date.today()
+            
             cursor = conn.execute("""
                 SELECT * FROM daily_scores
                 WHERE date = ?

@@ -53,10 +53,10 @@ def get_ai_client():
                     if kimi_key:
                         from openai import OpenAI
                         client = OpenAI(api_key=kimi_key, base_url="https://api.moonshot.ai/v1")
-                        print("  Using Moonshot/Kimi API")
+                        print("  Using Moonshot/Kimi API", flush=True)
                         return ('moonshot', client)
         except Exception as e:
-            print(f"  ⚠ Moonshot init failed: {e}")
+            print(f"  ⚠ Moonshot init failed: {e}", flush=True)
     
     # Try Gemini (if configured)
     try:
@@ -65,12 +65,12 @@ def get_ai_client():
         gemini_key = os.environ.get('GEMINI_API_KEY')
         if gemini_key:
             genai.configure(api_key=gemini_key)
-            print("  Using Gemini API")
+            print("  Using Gemini API", flush=True)
             return ('gemini', None)
     except Exception as e:
-        print(f"  ⚠ Gemini not available: {e}")
+        print(f"  ⚠ Gemini not available: {e}", flush=True)
     
-    print("  ✗ No AI client available")
+    print("  ✗ No AI client available", flush=True)
     return None
 
 
@@ -243,6 +243,9 @@ def store_deep_dive(insight_id: int, episode_id: int, content: dict) -> bool:
 def generate_missing_deepdives(insight_ids: list = None):
     """Generate deep dives for all insights that don't have them."""
     
+    # Force unbuffered output for real-time logging
+    sys.stdout.reconfigure(line_buffering=True)
+    
     conn = get_db_connection()
     
     if insight_ids:
@@ -266,10 +269,10 @@ def generate_missing_deepdives(insight_ids: list = None):
     conn.close()
     
     if not insights:
-        print("No insights need Deep Dives!")
+        print("No insights need Deep Dives!", flush=True)
         return 0
     
-    print(f"Generating Deep Dives for {len(insights)} insights...\n")
+    print(f"Generating Deep Dives for {len(insights)} insights...\n", flush=True)
     
     # Get AI client
     client_info = get_ai_client()
@@ -285,28 +288,28 @@ def generate_missing_deepdives(insight_ids: list = None):
         source_type = row['source_type']
         episode_id = row['podcast_episode_id']
         
-        print(f"[{insight_id}] {title[:60]}")
+        print(f"[{insight_id}] {title[:60]}", flush=True)
         
         # Get source content
         source_content = get_source_content(insight_id, source_type, episode_id)
         if not source_content:
-            print(f"  ⚠ No source content found, skipping")
+            print(f"  ⚠ No source content found, skipping", flush=True)
             continue
         
         # Generate deep dive
         content = generate_deep_dive_with_ai(client_info, title, source_content, source_type)
         if not content:
-            print(f"  ✗ Generation failed")
+            print(f"  ✗ Generation failed", flush=True)
             continue
         
         # Store it
         if store_deep_dive(insight_id, episode_id, content):
-            print(f"  ✓ Deep Dive stored")
+            print(f"  ✓ Deep Dive stored", flush=True)
             generated += 1
         else:
-            print(f"  ✗ Storage failed")
+            print(f"  ✗ Storage failed", flush=True)
     
-    print(f"\n✓ Generated {generated}/{len(insights)} Deep Dives")
+    print(f"\n✓ Generated {generated}/{len(insights)} Deep Dives", flush=True)
     return generated
 
 
