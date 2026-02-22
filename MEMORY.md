@@ -39,6 +39,79 @@ This prevents wasting time on wrong approaches and respects user's expertise.
 
 ---
 
+## Deep Dive Generation Process (BURNED INTO MEMORY)
+
+**THE DEEP DIVES ARE THE POINT** — every insight MUST have a Deep Dive.
+
+### Current State:
+- Deep Dives are stored in `deep_dive_content` table, keyed by `insight_id`
+- Website matches via `insight_id` (not title) since 2026-02-22 fix
+- 14 original deep dives were manually hardcoded in `populate_deepdives.py`
+- New deep dives are generated via AI or basic fallback
+
+### When Insights Lack Deep Dives:
+
+**Option 1: AI-Generated (Preferred)**
+```bash
+cd ~/.openclaw/workspace/pipeline
+python3 generate_deepdives.py
+```
+- Uses Moonshot/Kimi API (cheapest option)
+- Generates comprehensive analysis with tickers, thesis, risks, catalysts
+- May hang silently due to output buffering — if so, use Option 2
+
+**Option 2: Basic Fallback (Quick)**
+```bash
+cd ~/.openclaw/workspace/pipeline
+python3 << 'EOF'
+import sqlite3, json
+from pathlib import Path
+from datetime import datetime
+
+DB = Path.home() / ".openclaw/workspace/pipeline/dashboard.db"
+conn = sqlite3.connect(DB)
+conn.row_factory = sqlite3.Row
+
+c = conn.execute('''
+    SELECT li.id, li.title, li.summary, li.key_takeaway 
+    FROM latest_insights li
+    LEFT JOIN deep_dive_content ddc ON li.id = ddc.insight_id
+    WHERE ddc.id IS NULL AND li.display_on_main = 1
+''')
+
+for row in c.fetchall():
+    overview = (row['summary'] or row['key_takeaway'] or '')[:500]
+    conn.execute("""
+        INSERT INTO deep_dive_content 
+        (insight_id, overview, key_takeaways_detailed, investment_thesis,
+         ticker_analysis, positioning_guidance, risk_factors, contrarian_signals, 
+         catalysts, created_at)
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+    """, (
+        row['id'], overview, json.dumps([row['key_takeaway'] or 'See summary']),
+        row['key_takeaway'] or overview, json.dumps({}),
+        "Review insight summary for positioning guidance",
+        json.dumps(["Market conditions may change"]),
+        json.dumps(["Consider opposing viewpoints"]),
+        json.dumps(["Monitor source for updates"]),
+        datetime.now().isoformat()
+    ))
+    print(f"Created deep dive for: {row['title'][:40]}...")
+
+conn.commit()
+conn.close()
+print("Done!")
+EOF
+```
+
+**Always After Creating Deep Dives:**
+```bash
+python3 export_data.py
+cd ../site && git add -A && git commit -m "Add deep dives" && git push origin main
+```
+
+---
+
 ## Security Incident (Fixed 2026-02-15)
 
 - Hardcoded Gmail App Password was in `pipeline/ingest.py` — now removed
