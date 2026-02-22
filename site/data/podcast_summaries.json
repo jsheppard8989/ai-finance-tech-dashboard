@@ -1,5 +1,24 @@
 [
   {
+    "id": 25,
+    "podcast_name": "Moonshots with Peter Diamandis",
+    "episode_title": "Moonshots Podcast Episode #232 - The Pace of AI and Major Moves in the Industry",
+    "episode_date": "2026-02-19",
+    "summary": "In this episode, the panel discusses the rapid pace of AI development, the executive exodus from xAI, and the significant valuation of Ilya Sutskever's Safe Superintelligence (SSI) at $5 billion despite having no product yet. They also touch on the talent war in AI, Apple's AI strategy crisis, and the importance of compute power in the AI race. The discussion highlights the critical role of AI talent, the potential for SSI as an insurance play, and the structural risk Apple faces due to missing the AI wave.",
+    "key_takeaways": [
+      "The pace of AI development is unprecedented, with significant executive movements and talent wars.",
+      "Ilya Sutskever's SSI is valued at $5 billion, reflecting the market's belief in the importance of a safe superintelligence approach.",
+      "Apple is struggling with its AI strategy, having missed the window on foundation models.",
+      "The cost of inference is collapsing, leading to a 'solve everything' moment where intelligence becomes effectively free.",
+      "AI talent is crucial, with top researchers being worth billions in market cap, and companies are consolidating to attract this talent.",
+      "The next 12 months will be decisive for AI companies, determining who becomes a trillion-dollar giant and who becomes a footnote."
+    ],
+    "investment_thesis": "Invest in companies leading the AI talent race and those with a safety-first approach to AGI, while being cautious of companies like Apple that have missed the AI wave and face structural risks.",
+    "key_tickers": [
+      "AAPL"
+    ]
+  },
+  {
     "id": 23,
     "podcast_name": "Moonshots with Peter Diamandis",
     "episode_title": "Ben Horowitz: xAI Executive Exodus, Ilya's $5B SSI Valuation, Apple's AI Crisis, The Pace of AI | #232",
@@ -24,6 +43,26 @@
     ]
   },
   {
+    "id": 24,
+    "podcast_name": "Moonshots with Peter Diamandis",
+    "episode_title": "Moonshots Podcast Episode #231 - February 18, 2026",
+    "episode_date": "2026-02-18",
+    "summary": "In this episode, the panel discusses the significant acquisition of OpenClaw by OpenAI, which positions OpenAI as a dominant player in the AI agent orchestration space. They highlight the 400x cost collapse in AI inference, enabling new applications and deployment at scale. The discussion also emphasizes India's emerging role as a global AI powerhouse, driven by demographics, technical education, and cost advantages. The panelists provide investment insights, including shorting Apple and long positions on Indian tech infrastructure, with a focus on the AI agent space and the potential obsolescence of the app economy.",
+    "key_takeaways": [
+      "OpenAI's acquisition of OpenClaw establishes a vertical monopoly in the AI agent layer.",
+      "India is emerging as a dominant force in AI due to its demographics, education, and lower costs.",
+      "The 400x cost collapse in AI inference enables new categories of applications.",
+      "US immigration policy is inadvertently pushing talent to competitor nations like India.",
+      "The app economy is becoming obsolete as agent-based interaction takes over traditional software."
+    ],
+    "investment_thesis": "Invest in the AI agent space and Indian tech infrastructure as they are positioned to benefit from the vertical integration in AI and India's structural advantages.",
+    "key_tickers": [
+      "INDA",
+      "INFY",
+      "TCS"
+    ]
+  },
+  {
     "id": 22,
     "podcast_name": "Moonshots with Peter Diamandis",
     "episode_title": "OpenAI Acquires OpenClaw, 400x Cost Collapse, & Why India Wins the Talent War | EP #231",
@@ -44,6 +83,44 @@
       "NVDA",
       "INFY",
       "WIT"
+    ]
+  },
+  {
+    "id": 13,
+    "podcast_name": "Moonshots with Peter Diamandis",
+    "episode_title": "The AI CEO Arrives: Sam Altman's Succession Plan, Job Loss Continues, and Our 2027 'Solve Everything' Paper",
+    "episode_date": "2026-02-13",
+    "summary": "In this episode of Moonshots with Peter Diamandis, the panel discusses the increasing role of AI in corporate governance and the potential for AI CEOs. They also touch on the rapid job loss in the U.S., suggesting that tasks are being automated out of existence. The episode highlights the shift towards AI in decision-making processes within companies and the implications for strategy and management. Furthermore, they introduce a paper titled 'Solve Everything,' which outlines a vision for achieving abundance by 2035, emphasizing the importance of the next 18 months to two years in setting the rules for the next century.",
+    "key_takeaways": [
+      "The possibility of a billion-dollar revenue company being run by an AI CEO is discussed, with the panel suggesting it might already be happening.",
+      "U.S. job disappearance is attributed to task automation rather than a traditional recession, indicating a shift in the labor market.",
+      "The concept of a social contract is fading as automation replaces human tasks, particularly among capitalists.",
+      "A paper titled 'Solve Everything' is introduced, which aims to outline a path to abundance by 2035, with a focus on the critical nature of the next 18 months to two years in shaping the future.",
+      "AI is transforming from a tool to a governance actor, with the potential to become more efficient than human management in companies.",
+      "The role of the CEO may shift towards strategy setting, while AI takes over the bulk of operational management and information routing."
+    ],
+    "investment_thesis": "Investment in AI and automation technologies is crucial as they become integral to corporate governance and operational efficiency, potentially leading to the rise of AI-led companies.",
+    "key_tickers": null
+  },
+  {
+    "id": 16,
+    "podcast_name": "Monetary Matters with Jack Farley",
+    "episode_title": "Monetary Matters with Jack Farley: Analyzing Market Signals and Investment Strategies with Milton Berg",
+    "episode_date": "2026-02-06",
+    "summary": "In this episode of Monetary Matters, host Jack Farley interviews Milton Berg, a renowned technical analyst, about his bullish case for US stocks and the strong buy signals he identified in April 2025. Berg discusses his analysis of market turning points, projections based on historical data, and his current bearish stance on precious metals like gold and silver. The conversation also touches on Bitcoin and the recent selloff in stocks. Berg's insights are based on his model portfolio for institutional clients and his retail service for individual investors.",
+    "key_takeaways": [
+      "Milton Berg identified strong buy signals in the US stock market in April 2025, which have led to a nearly 20% increase since then.",
+      "Berg's analysis is based on rare market occurrences and historical precedents, rather than traditional indicators like moving averages or Fed policy.",
+      "Berg is bearish on gold and silver, having shorted these precious metals at the end of January, and remains bearish despite a recent market rally.",
+      "Berg's model portfolio for institutional clients had combined short positions of over 100% in the S&P, Nasdaq, Russell, and semiconductors, but flipped long equities after covering shorts on February 9th, 2026.",
+      "Berg's retail service for individual investors has maintained a 100% long exposure to stocks since early April 2025."
+    ],
+    "investment_thesis": "Milton Berg's investment thesis is based on identifying market turning points through rare occurrences and historical precedents, rather than traditional indicators, and adjusting positions accordingly.",
+    "key_tickers": [
+      "S&P",
+      "Nasdaq",
+      "Russell",
+      "Semiconductors"
     ]
   },
   {
@@ -117,6 +194,23 @@
     ]
   },
   {
+    "id": 12,
+    "podcast_name": "The Jack Mallers Show",
+    "episode_title": "From Software to Hard Asset: Bitcoin and the New Liquidity Regime",
+    "episode_date": "2025-04-06",
+    "summary": "The host, Jack, discusses Bitcoin's recent price dip and its correlation with software technology stocks. He argues that Bitcoin, despite its properties as a hard asset, has been treated like a software stock by the broader market. Jack suggests that the current dip could be a transition point where Bitcoin starts to be recognized and traded more like a hard asset rather than a tech stock. He also explores the broader macroeconomic implications, including the shift in liquidity from software to sectors like energy, infrastructure, and critical minerals.",
+    "key_takeaways": [
+      "Bitcoin's price has experienced a significant drop, correlating with software technology stocks.",
+      "Bitcoin is viewed by some as a macro asset, potentially the most freely tradeable one.",
+      "The market has historically treated Bitcoin more like a software stock rather than a hard asset like gold.",
+      "Liquidity is relocating from software to sectors such as energy, infrastructure, and critical minerals.",
+      "The Biden and Trump administrations are both focused on reducing investment in frothy tech multiples and encouraging domestic investment in infrastructure and other critical areas.",
+      "The correlation between Bitcoin and tech stocks\u63a5\u8fd10.8, indicating a strong relationship and similar ownership."
+    ],
+    "investment_thesis": "Bitcoin's current dip may signal a shift in how it is perceived and traded, transitioning from a software stock to a hard asset, which could be beneficial for its long-term value.",
+    "key_tickers": null
+  },
+  {
     "id": 1,
     "podcast_name": "The Jack Mallers Show",
     "episode_title": "Episode 104: From Software to Hard Asset - Bitcoin and the New Liquidity Regime",
@@ -161,6 +255,40 @@
       "GOOGL",
       "MSFT"
     ]
+  },
+  {
+    "id": 14,
+    "podcast_name": "a16z Live",
+    "episode_title": "The Future of Consumer Technology and Interfaces",
+    "episode_date": "2023-12-21",
+    "summary": "In this episode of a16z Live, Meta CTO Andrew 'Boz' Bosworth discusses the future of consumer technology with a16z's David George. Boz shares insights on the evolution of interfaces, the potential for AI-enabled computing experiences, and the shift from app-centric to more immersive and adaptive technologies. He also touches on the role of augmented reality and the potential for new content delivery vehicles in the next decade. The conversation highlights the importance of understanding user intent and the potential for AI to revolutionize how we interact with technology.",
+    "key_takeaways": [
+      "The past 20 years have been dominated by apps and smartphones, but the next era of consumer technology may move beyond these formats.",
+      "AI and hardware breakthroughs could disrupt the existing app model, leading to more agentic, adaptive, and immersive computing experiences.",
+      "New interfaces and marketplaces will need to be developed to support these changes in technology.",
+      "The role of brands as a competitive moat may be challenged in this new landscape.",
+      "The next wave of consumer tech will likely be driven by user intent rather than taps and swipes.",
+      "Meta is investing in a spectrum of experiences, from high-end to more broadly available, to create new ways for users to interact with technology."
+    ],
+    "investment_thesis": "Investing in the evolution of consumer technology interfaces presents an opportunity to capitalize on the shift towards more immersive and adaptive AI-enabled experiences.",
+    "key_tickers": null
+  },
+  {
+    "id": 26,
+    "podcast_name": "Moonshots with Peter Diamandis",
+    "episode_title": "AI Disruption and the Singularity",
+    "episode_date": "2023-12-19",
+    "summary": "The podcast discusses the rapid advancements in AI and its impact on society and the economy. The conversation revolves around the departures from X-A-I, the concept of recursive self-improvement (RSI), and the potential for AI to significantly reduce the global death rate. The panelists also debate the timeline for AI disruption, with some suggesting it's more imminent than others believe. They touch on the transformative potential of AI in various sectors, including content creation and the potential threats to traditional industries like Hollywood.",
+    "key_takeaways": [
+      "AI is approaching a point of recursive self-improvement, which could significantly accelerate its development.",
+      "The panelists believe AI has the potential to reduce the global death rate, indicating a belief in AI's transformative potential.",
+      "There is a debate on the predictability of AI's timeline and its impact on societal change.",
+      "AI's impact on employment is discussed, with the potential for significant job displacement if companies do not expand to utilize increased productivity.",
+      "The emergence of AI-generated content could disrupt traditional media and entertainment industries.",
+      "The potential for AI to generate deepfakes and its implications for video evidence and security is highlighted."
+    ],
+    "investment_thesis": "Invest in AI and tech companies at the forefront of AI development, as they are poised to benefit from the industry's rapid growth and disruption.",
+    "key_tickers": null
   },
   {
     "id": 17,
@@ -228,6 +356,44 @@
       "There is a debate on the necessity of RL environments to teach specific skills when in-context learning may lead to more sample-efficient agents."
     ],
     "investment_thesis": "Investment in technology, particularly AI and machine learning, is justified by the ongoing exponential growth and the potential for significant advancements in efficiency and capability.",
+    "key_tickers": null
+  },
+  {
+    "id": 11,
+    "podcast_name": "Monetary Matters with Jack Farley",
+    "episode_title": "Monetary Matters with Jack Farley: Short Selling, AI, and Market Bubbles",
+    "episode_date": "2023-04-01",
+    "summary": "In this episode, Jack Farley interviews Carson Block, founder of Muddy Waters Capital, a leading activist short seller hedge fund. They discuss the fertile ground for short selling in sectors like tech, AI, and green energy, focusing on the overpromising and excessive speculation in these areas. Carson shares insights on identifying AI pretenders, the challenges of timing short sales, and his views on the current market cycle and the potential for bubbles to pop due to an oversupply of speculative companies.",
+    "key_takeaways": [
+      "Tech and AI sectors are fertile ground for short selling due to overpromising and excessive speculation.",
+      "AI pretenders are companies that attach themselves to the AI theme without substantial revenue growth or profitability.",
+      "Timing is crucial for short selling, as getting it wrong can lead to significant losses in the face of strong market momentum.",
+      "Muddy Waters Capital has diversified its business, including a quantitative momentum strategy that performed well in 2022.",
+      "The end of hype cycles is often due to an oversupply of speculative companies overwhelming the demand for such assets.",
+      "Carson expects an increase in IPOs and public listings in 2026, potentially leading to a market overwhelmed by the supply of speculative companies."
+    ],
+    "investment_thesis": "Identify and short sell overhyped companies in the tech and AI sectors, waiting for the right timing when market momentum shifts and demand for speculative assets is overwhelmed by supply.",
+    "key_tickers": [
+      "PQNT",
+      "FTIE",
+      "AppLovin"
+    ]
+  },
+  {
+    "id": 15,
+    "podcast_name": "Moonshots with Peter Diamandis",
+    "episode_title": "Humanoid Run on Neural Net, Autonomous Manufacturing, $50T Market #229",
+    "episode_date": "2023-03-01",
+    "summary": "In this episode of Moonshots with Peter Diamandis, Brett Adcock discusses the rapid advancements in neural networks and their impact on the future of manufacturing and robotics. The conversation highlights the potential for robots to learn tasks and share that knowledge across a fleet, leading to significant efficiency gains. The discussion also touches on the shift from traditional coding to neural nets, the reduction in manufacturing costs, and the potential for a sci-fi future with ubiquitous goods and services. The episode emphasizes the importance of data accumulation and the evolution of Figure Technologies' robots, from Figure 1 to Figure 3, showcasing the company's progress in autonomous robotics.",
+    "key_takeaways": [
+      "Neural networks are revolutionizing the business landscape, with significant yearly advancements.",
+      "Data accumulation is becoming a critical barrier to entry and a valuable asset in the industry.",
+      "Robots have the potential to learn tasks and share that knowledge across a fleet, which is a significant advantage over human labor.",
+      "The transition from traditional coding to neural nets is leading to more efficient and cost-effective manufacturing.",
+      "Figure Technologies has made significant strides in developing autonomous robots, with Figure 3 being a notable example of progress.",
+      "The future of manufacturing could lead to a $50T market, indicating a massive economic impact."
+    ],
+    "investment_thesis": "Investment in neural network technology and autonomous robotics is poised for significant growth, with the potential to disrupt traditional manufacturing and create new market opportunities.",
     "key_tickers": null
   }
 ]
