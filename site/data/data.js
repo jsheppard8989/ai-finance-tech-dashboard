@@ -1,8 +1,8 @@
-// Auto-generated data file - 2026-02-22T14:16:02.781326
+// Auto-generated data file - 2026-02-22T14:20:57.556894
 // DO NOT EDIT MANUALLY
 
 const dashboardData = {
-  generatedAt: "2026-02-22T14:16:02.781336",
+  generatedAt: "2026-02-22T14:20:57.556909",
   tickerScores: [],
   archive: {
   "insights": [
@@ -974,7 +974,7 @@ const dashboardData = {
   ]
 },
   deepDives: {
-  "the_rundown_ai_spacex/xai_$1.25t_su": {
+  "1": {
     "id": 1,
     "insight_id": 1,
     "podcast_episode_id": null,
@@ -1026,7 +1026,7 @@ const dashboardData = {
     "source_name": "The Rundown AI",
     "source_date": "2026-02-13"
   },
-  "monetary_matters_gold_climax_top_sign": {
+  "2": {
     "id": 2,
     "insight_id": 2,
     "podcast_episode_id": null,
@@ -1082,7 +1082,7 @@ const dashboardData = {
     "source_name": "Monetary Matters",
     "source_date": "2026-02-10"
   },
-  "jack_mallers_show_bitcoin_as_hard_asse": {
+  "3": {
     "id": 3,
     "insight_id": 3,
     "podcast_episode_id": null,
@@ -1134,7 +1134,7 @@ const dashboardData = {
     "source_name": "Jack Mallers Show",
     "source_date": "2026-02-03"
   },
-  "a16z_live_healthcare_ai_moats": {
+  "4": {
     "id": 4,
     "insight_id": 4,
     "podcast_episode_id": null,
@@ -1186,7 +1186,7 @@ const dashboardData = {
     "source_name": "a16z Live",
     "source_date": "2026-01-25"
   },
-  "network_state_podcast_machine-native_money": {
+  "5": {
     "id": 5,
     "insight_id": 5,
     "podcast_episode_id": null,
@@ -1238,7 +1238,7 @@ const dashboardData = {
     "source_name": "Network State Podcast",
     "source_date": "2026-01-16"
   },
-  "monetary_matters_milton_berg's_market": {
+  "9": {
     "id": 7,
     "insight_id": 9,
     "podcast_episode_id": null,
@@ -1278,7 +1278,7 @@ const dashboardData = {
     "source_name": "Monetary Matters",
     "source_date": "2026-02-06"
   },
-  "muddy_waters_carson_block:_don't_": {
+  "10": {
     "id": 8,
     "insight_id": 10,
     "podcast_episode_id": null,
@@ -1319,7 +1319,7 @@ const dashboardData = {
     "source_name": "Muddy Waters",
     "source_date": "2025-11-15"
   },
-  "the_jack_mallers_show_jack_mallers:_japan,": {
+  "13": {
     "id": 9,
     "insight_id": 13,
     "podcast_episode_id": 20,
@@ -1380,7 +1380,7 @@ const dashboardData = {
     "source_name": "The Jack Mallers Show",
     "source_date": "2026-02-17"
   },
-  "monetary_matters_with_jack_farley_paul_krugman:_dollar": {
+  "14": {
     "id": 10,
     "insight_id": 14,
     "podcast_episode_id": 18,
@@ -1446,7 +1446,7 @@ const dashboardData = {
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-02-15"
   },
-  "dwarkesh_podcast_dario_amodei:_we_are": {
+  "12": {
     "id": 11,
     "insight_id": 12,
     "podcast_episode_id": 19,
@@ -1513,7 +1513,7 @@ const dashboardData = {
     "source_name": "Dwarkesh Podcast",
     "source_date": "2026-02-13"
   },
-  "moonshots_with_peter_diamandis_sam_altman's_ai_ceo_": {
+  "15": {
     "id": 12,
     "insight_id": 15,
     "podcast_episode_id": 17,
@@ -1579,7 +1579,7 @@ const dashboardData = {
     "source_name": "Moonshots with Peter Diamandis",
     "source_date": "2026-02-13"
   },
-  "the_network_state_podcast_network_state_podcas": {
+  "16": {
     "id": 13,
     "insight_id": 16,
     "podcast_episode_id": 21,
@@ -1635,7 +1635,7 @@ const dashboardData = {
     "source_name": "The Network State Podcast",
     "source_date": "2026-02-13"
   },
-  "moonshots_with_peter_diamandis_moonshots_#231:_400x": {
+  "17": {
     "id": 14,
     "insight_id": 17,
     "podcast_episode_id": 22,
@@ -1701,7 +1701,7 @@ const dashboardData = {
     "source_name": "Moonshots with Peter Diamandis",
     "source_date": "2026-02-18"
   },
-  "moonshots_with_peter_diamandis_ben_horowitz:_xai_ex": {
+  "18": {
     "id": 15,
     "insight_id": 18,
     "podcast_episode_id": 23,
