@@ -421,7 +421,7 @@ def promote_newsletters_to_insights() -> int:
         subject = row['subject']
         received_date = row['received_date']
 
-        # Decode subject if needed
+        # Decode subject first
         try:
             import email.header
             decoded = email.header.decode_header(subject)
@@ -431,6 +431,23 @@ def promote_newsletters_to_insights() -> int:
             )
         except Exception:
             subject_clean = subject
+
+        # Clean sender → human-readable publication name
+        # "The Rundown AI <news@daily.therundown.ai>" → "The Rundown AI"
+        # "gandolf2026 <gandolf2026@proton.me>" → use subject as publication hint
+        import re as _re
+        sender_name = sender
+        m = _re.match(r'^(.+?)\s*<[^>]+>$', sender.strip())
+        if m:
+            sender_name = m.group(1).strip().strip('"')
+        # If sender_name looks like an email username/handle (no spaces, ends in digits),
+        # fall back to subject line as publication name (strip Fw:/Re: prefixes first)
+        if not sender_name or '@' in sender_name or _re.match(r'^[a-z0-9_]+\d+$', sender_name.lower()):
+            subj_clean = _re.sub(r'^(Fw|Fwd|Re):\s*', '', subject_clean, flags=_re.IGNORECASE).strip()
+            if ':' in subj_clean:
+                sender_name = subj_clean.split(':')[0].strip()[:50]
+            else:
+                sender_name = subj_clean[:50] if subj_clean else 'Newsletter'
 
         # Find matching inbox JSON for full content
         full_content = row.get('content_preview', '')
@@ -531,7 +548,7 @@ Return JSON with:
                 VALUES (?, 'newsletter', ?, ?, ?, ?, ?, ?, 1, 0, ?)
             """, (
                 insight_title,
-                sender,
+                sender_name,
                 source_date,
                 summary,
                 key_takeaway,

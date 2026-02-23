@@ -1,8 +1,8 @@
-// Auto-generated data file - 2026-02-22T19:17:28.483021
+// Auto-generated data file - 2026-02-22T20:38:20.105974
 // DO NOT EDIT MANUALLY
 
 const dashboardData = {
-  generatedAt: "2026-02-22T19:17:28.483031",
+  generatedAt: "2026-02-22T20:38:20.105984",
   tickerScores: [
   {
     "id": 72,
@@ -327,7 +327,7 @@ const dashboardData = {
       "id": 41,
       "title": "Figure's General Purpose Robot: Investment Shift in 2026",
       "source_type": "newsletter",
-      "source_name": "gandolf2026 <gandolf2026@proton.me>",
+      "source_name": "Figure's General Purpose Robot",
       "source_date": "2026-02-13",
       "summary": "The newsletter discusses a visit to Figure's headquarters, where groundbreaking advancements in general-purpose robotics were observed, potentially signaling a significant shift in the robotics and automation industry in 2026.",
       "key_takeaway": "Investors should consider the implications of Figure's advancements on the robotics sector and look for opportunities in companies at the forefront of this technological revolution.",
@@ -344,7 +344,7 @@ const dashboardData = {
       "id": 42,
       "title": "Agentic Inversion: Moltbook and Axie Infinity's Impact on Investment Velocity",
       "source_type": "newsletter",
-      "source_name": "gandolf2026 <gandolf2026@proton.me>",
+      "source_name": "The Agentic Inversion",
       "source_date": "2026-02-13",
       "summary": "The newsletter discusses the 'Agentic Inversion', a concept that highlights the potential for Moltbook and Axie Infinity to revolutionize investment velocity. It suggests that these platforms may offer new ways to accelerate investment processes and outcomes, indicating a shift towards more dynamic and responsive investment strategies.",
       "key_takeaway": "Investors should consider the implications of the 'Agentic Inversion' on their strategies, as it may lead to faster-paced investment environments and new opportunities for growth.",
@@ -905,7 +905,7 @@ const dashboardData = {
       "id": 41,
       "title": "Figure's General Purpose Robot: Investment Shift in 2026",
       "source_type": "newsletter",
-      "source_name": "gandolf2026 <gandolf2026@proton.me>",
+      "source_name": "Figure's General Purpose Robot",
       "source_date": "2026-02-13",
       "summary": "The newsletter discusses a visit to Figure's headquarters, where groundbreaking advancements in general-purpose robotics were observed, potentially signaling a significant shift in the robotics and automation industry in 2026.",
       "key_takeaway": "Investors should consider the implications of Figure's advancements on the robotics sector and look for opportunities in companies at the forefront of this technological revolution.",
@@ -923,7 +923,7 @@ const dashboardData = {
       "id": 42,
       "title": "Agentic Inversion: Moltbook and Axie Infinity's Impact on Investment Velocity",
       "source_type": "newsletter",
-      "source_name": "gandolf2026 <gandolf2026@proton.me>",
+      "source_name": "The Agentic Inversion",
       "source_date": "2026-02-13",
       "summary": "The newsletter discusses the 'Agentic Inversion', a concept that highlights the potential for Moltbook and Axie Infinity to revolutionize investment velocity. It suggests that these platforms may offer new ways to accelerate investment processes and outcomes, indicating a shift towards more dynamic and responsive investment strategies.",
       "key_takeaway": "Investors should consider the implications of the 'Agentic Inversion' on their strategies, as it may lead to faster-paced investment environments and new opportunities for growth.",
@@ -2775,7 +2775,7 @@ const dashboardData = {
     "created_at": "2026-02-22T14:53:08.509273",
     "updated_at": "2026-02-22 20:53:08",
     "insight_title": "Figure's General Purpose Robot: Investment Shift in 2026",
-    "source_name": "gandolf2026 <gandolf2026@proton.me>",
+    "source_name": "Figure's General Purpose Robot",
     "source_date": "2026-02-13"
   },
   "42": {
@@ -2808,7 +2808,7 @@ const dashboardData = {
     "created_at": "2026-02-22T14:53:08.510897",
     "updated_at": "2026-02-22 20:53:08",
     "insight_title": "Agentic Inversion: Moltbook and Axie Infinity's Impact on Investment Velocity",
-    "source_name": "gandolf2026 <gandolf2026@proton.me>",
+    "source_name": "The Agentic Inversion",
     "source_date": "2026-02-13"
   },
   "43": {
