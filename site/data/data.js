@@ -1,9 +1,9 @@
-// Auto-generated data file - 2026-02-22T20:44:30.211533
+// Auto-generated - 2026-02-22T22:15:06.314997
 // DO NOT EDIT MANUALLY
 
 const dashboardData = {
-  generatedAt: "2026-02-22T20:44:30.211544",
-  tickerScores: [
+  "generatedAt": "2026-02-22T22:15:06.315045",
+  "tickerScores": [
   {
     "id": 72,
     "ticker": "GOOGL",
@@ -90,7 +90,7 @@ const dashboardData = {
     "timeframe": "unspecified"
   }
 ],
-  archive: {
+  "archive": {
   "insights": [
     {
       "id": 45,
@@ -863,7 +863,7 @@ const dashboardData = {
     }
   ]
 },
-  mainContent: {
+  "mainContent": {
   "insights": [
     {
       "id": 45,
@@ -1093,7 +1093,7 @@ const dashboardData = {
     }
   ]
 },
-  deepDives: {
+  "deepDives": {
   "1": {
     "id": 1,
     "insight_id": 1,
@@ -2985,7 +2985,7 @@ const dashboardData = {
     "source_date": "2026-02-22"
   }
 },
-  suggestedTerms: [
+  "suggestedTerms": [
   {
     "id": 1,
     "term": "Compute Deflation Trade",
@@ -3025,7 +3025,6 @@ const dashboardData = {
 ]
 };
 
-// Export for use in other scripts
 if (typeof module !== 'undefined' && module.exports) {
   module.exports = dashboardData;
 }
