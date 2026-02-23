@@ -1,8 +1,8 @@
-// Auto-generated data file - 2026-02-22T20:38:20.105974
+// Auto-generated data file - 2026-02-22T20:44:30.211533
 // DO NOT EDIT MANUALLY
 
 const dashboardData = {
-  generatedAt: "2026-02-22T20:38:20.105984",
+  generatedAt: "2026-02-22T20:44:30.211544",
   tickerScores: [
   {
     "id": 72,
@@ -2988,9 +2988,9 @@ const dashboardData = {
   suggestedTerms: [
   {
     "id": 1,
-    "term": "Vertical Integration Moat",
-    "definition": "Competitive advantage achieved by controlling multiple stages of production or distribution within the same supply chain.",
-    "investment_implications": null,
+    "term": "Compute Deflation Trade",
+    "definition": "The investment thesis built around the 400x AI compute cost collapse: identifying who wins (inference-at-scale platforms, edge AI hardware) and who loses (legacy SaaS companies whose moats were priced assuming expensive AI).",
+    "investment_implications": "Long inference infrastructure and edge AI; short or underweight legacy SaaS with AI-priced multiples that cannot defend margin as compute commoditizes.",
     "source_type": "auto_extracted",
     "mention_count": 3,
     "source_diversity": 1,
@@ -3000,9 +3000,9 @@ const dashboardData = {
   },
   {
     "id": 2,
-    "term": "Liquidity Rotation",
-    "definition": "The shift of capital between asset classes as monetary conditions change.",
-    "investment_implications": null,
+    "term": "Agentic Velocity",
+    "definition": "The compression of decision-making and capital deployment timescales as AI agents replace human workflow steps. Markets, deals, and competitive responses happen faster than human organizations can process.",
+    "investment_implications": "Favor companies building workflow automation infrastructure (orchestration, memory, guardrails). Traditional 5-year strategic planning cycles become a liability.",
     "source_type": "auto_extracted",
     "mention_count": 2,
     "source_diversity": 1,
