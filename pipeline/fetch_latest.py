@@ -165,63 +165,121 @@ def download_episode(episode):
         print(f"     ✗ Download failed: {e}")
         return None
 
-def transcribe_episode(audio_path, episode):
-    """Transcribe the audio file using Whisper."""
-    import os
-    
+WHISPER_QUEUE_DIR = Path.home() / ".openclaw/workspace/whisper_queue"
+WHISPER_DONE_DIR  = Path.home() / ".openclaw/workspace/whisper_done"
+
+
+def transcribe_via_launchagent(audio_path, episode, poll_interval=15, timeout_secs=3600):
+    """
+    Submit audio to the whisper LaunchAgent queue and poll for completion.
+    The LaunchAgent runs outside the OpenClaw sandbox, avoiding OOM SIGKILL.
+    Returns path to transcript file on success, None on failure/timeout.
+    """
+    import json as _json, time
+
     audio_file = Path(audio_path)
-    transcript_file = TRANSCRIPT_DIR / f"{audio_file.stem}.txt"
-    
-    # Skip if already transcribed
+    name = audio_file.stem
+    WHISPER_QUEUE_DIR.mkdir(parents=True, exist_ok=True)
+    WHISPER_DONE_DIR.mkdir(parents=True, exist_ok=True)
+
+    # Final transcript destination (in TRANSCRIPT_DIR)
+    transcript_file = TRANSCRIPT_DIR / f"{name}.txt"
     if transcript_file.exists():
         print(f"  ✓ Already transcribed: {transcript_file.name}")
         return str(transcript_file)
-    
-    print(f"  🎙️  Transcribing: {audio_file.name}")
-    print(f"     This may take 30-60 minutes depending on length...")
-    
-    try:
-        # Set PATH to include whisper
-        env = os.environ.copy()
-        env['PATH'] = '/Library/Frameworks/Python.framework/Versions/3.9/bin:' + env.get('PATH', '')
-        
-        result = subprocess.run(
-            ['whisper', str(audio_path), '--model', 'tiny', '--language', 'en', 
-             '--output_format', 'txt', '--output_dir', str(TRANSCRIPT_DIR)],
-            capture_output=True,
-            text=True,
-            env=env,
-            timeout=7200  # 2 hour timeout
-        )
-        
-        if result.returncode == 0:
-            print(f"     ✓ Transcription complete: {transcript_file.name}")
-            # Write sidecar metadata so analyze_transcript.py knows the podcast name
-            meta_file = TRANSCRIPT_DIR / f"{audio_file.stem}.meta.json"
-            import json as _json
-            meta = {
-                'podcast_name': episode.get('podcast', 'Unknown'),
-                'episode_title': episode.get('title', ''),
-                'audio_url': episode.get('audio_url', ''),
-                'feed_url': episode.get('feed', ''),
-                'published': episode.get('published', ''),
-                'published_date': episode.get('published_date', ''),
-                'rss_guid': episode.get('rss_guid', ''),
-            }
-            with open(meta_file, 'w') as mf:
-                _json.dump(meta, mf, indent=2)
-            print(f"     ✓ Metadata saved: {meta_file.name}")
+
+    # Write sidecar meta before submitting
+    meta_file = WHISPER_QUEUE_DIR / f"{name}.meta.json"
+    meta = {
+        'podcast_name':  episode.get('podcast', 'Unknown'),
+        'episode_title': episode.get('title', ''),
+        'audio_url':     episode.get('audio_url', ''),
+        'feed_url':      episode.get('feed', ''),
+        'published':     episode.get('published', ''),
+        'published_date':episode.get('published_date', ''),
+        'rss_guid':      episode.get('rss_guid', ''),
+    }
+    meta_file.write_text(_json.dumps(meta, indent=2))
+
+    # Copy audio into queue (move would be faster but copy is safer)
+    queue_mp3 = WHISPER_QUEUE_DIR / audio_file.name
+    if not queue_mp3.exists():
+        import shutil
+        shutil.copy2(str(audio_path), str(queue_mp3))
+        print(f"  📥 Submitted to whisper queue: {queue_mp3.name}")
+    else:
+        print(f"  📥 Already in queue: {queue_mp3.name}")
+
+    # Poll for completion
+    done_txt  = WHISPER_DONE_DIR / f"{name}.txt"
+    done_meta = WHISPER_DONE_DIR / f"{name}.meta.json"
+    deadline  = time.time() + timeout_secs
+    elapsed   = 0
+    print(f"  ⏳ Waiting for LaunchAgent to transcribe (up to {timeout_secs//60} min)...")
+
+    while time.time() < deadline:
+        if done_txt.exists():
+            # Move results into pipeline transcript dir
+            import shutil
+            shutil.move(str(done_txt), str(transcript_file))
+            if done_meta.exists():
+                shutil.move(str(done_meta), str(TRANSCRIPT_DIR / f"{name}.meta.json"))
+            print(f"  ✓ Transcription complete: {transcript_file.name}")
             return str(transcript_file)
-        else:
-            print(f"     ✗ Transcription failed: {result.stderr[:200]}")
-            return None
-            
-    except subprocess.TimeoutExpired:
-        print(f"     ✗ Transcription timed out (2 hours)")
+        time.sleep(poll_interval)
+        elapsed += poll_interval
+        if elapsed % 120 == 0:
+            print(f"  ⏳ Still waiting... ({elapsed//60} min elapsed)")
+
+    print(f"  ✗ Transcription timed out after {timeout_secs//60} min")
+    return None
+
+
+def get_audio_duration(audio_path):
+    """Return duration in seconds using ffprobe, or None on failure."""
+    try:
+        result = subprocess.run(
+            ['ffprobe', '-v', 'quiet', '-print_format', 'json', '-show_format', str(audio_path)],
+            capture_output=True, text=True, timeout=30
+        )
+        import json as _json
+        data = _json.loads(result.stdout)
+        return float(data['format']['duration'])
+    except Exception:
         return None
-    except Exception as e:
-        print(f"     ✗ Error: {e}")
-        return None
+
+
+def chunk_audio(audio_path, chunk_secs=1800):
+    """
+    Split audio into chunks of chunk_secs seconds using ffmpeg.
+    Returns list of chunk file paths. Chunks are written to /tmp/.
+    """
+    duration = get_audio_duration(audio_path)
+    if duration is None:
+        return [audio_path]  # can't probe — try full file
+
+    audio_file = Path(audio_path)
+    chunks = []
+    start = 0
+    idx = 1
+    while start < duration:
+        chunk_path = Path('/tmp') / f"{audio_file.stem}_chunk{idx}.mp3"
+        subprocess.run(
+            ['ffmpeg', '-i', str(audio_path), '-ss', str(start), '-t', str(chunk_secs),
+             '-acodec', 'copy', str(chunk_path), '-y'],
+            capture_output=True, timeout=120
+        )
+        if chunk_path.exists():
+            chunks.append(chunk_path)
+        start += chunk_secs
+        idx += 1
+    return chunks if chunks else [audio_path]
+
+
+def transcribe_episode(audio_path, episode):
+    """Transcribe via the whisper LaunchAgent queue (runs outside OpenClaw sandbox)."""
+    print(f"  🎙️  Transcribing: {Path(audio_path).name}")
+    return transcribe_via_launchagent(audio_path, episode)
 
 def save_log(results):
     """Save fetch and transcription log."""
