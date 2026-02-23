@@ -1,6 +1,23 @@
 {
   "insights": [
     {
+      "id": 45,
+      "title": "The Future of Consumer Technology and Interfaces",
+      "source_type": "podcast",
+      "source_name": "a16z Live",
+      "source_date": "2026-02-22",
+      "summary": "In this episode of a16z Live, Meta CTO Andrew 'Boz' Bosworth discusses the future of consumer technology with a16z's David George. Boz shares insights on the evolution of interfaces, the potential for AI-enabled computing experiences, and the shift from app-centric to more immersive and adaptive technologies. He also touches on the role of augmented reality and the potential for new content delivery vehicles in the next decade. The conversation highlights the importance of understanding user intent and the potential for AI to revolutionize how we interact with technology.",
+      "key_takeaway": "Investing in the evolution of consumer technology interfaces presents an opportunity to capitalize on the shift towards more immersive and adaptive AI-enabled experiences.",
+      "tickers_mentioned": [],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-02-22",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 14
+    },
+    {
       "id": 19,
       "title": "AI Disruption and the Singularity",
       "source_type": "podcast",
@@ -10,12 +27,29 @@
       "key_takeaway": "Invest in AI and tech companies at the forefront of AI development, as they are poised to benefit from the industry's rapid growth and disruption.",
       "tickers_mentioned": [],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-02-20",
+      "archived_date": "2026-02-23",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
+      "podcast_episode_id": 26
+    },
+    {
+      "id": 44,
+      "title": "The Epstein Saga: Diverse Perspectives and Investment Implications",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-02-20",
+      "summary": "In this episode, the host explores the Epstein case with three guests, each offering unique insights. Sagar and Jettie from Breaking Points argue that the Epstein case reveals an 'Epstein class' operating above the law. Michael Tracy questions the evidence behind many claims about Epstein and criticizes the media frenzy. Kevin Bassis, a journalist, discusses his findings on connections between Epstein and tech figure Reed Hoffman. The discussion touches on money laundering, the influence of Epstein in financial networks, and the implications for public figures and the tech industry.",
+      "key_takeaway": "The Epstein case serves as a reminder of the importance of scrutinizing financial networks and the influence of individuals within them, which can have significant implications for investors.",
+      "tickers_mentioned": [],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-02-22",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 26
+      "podcast_episode_id": 28
     },
     {
       "id": 18,
@@ -34,11 +68,11 @@
         "AVGO"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 6,
       "added_date": "2026-02-19",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-02-23",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 23
     },
     {
@@ -57,11 +91,11 @@
         "WIT"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 5,
       "added_date": "2026-02-19",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-02-23",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 22
     },
     {
@@ -79,11 +113,11 @@
         "JPY"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 1,
       "added_date": "2026-02-19",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-02-23",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 20
     },
     {
@@ -102,11 +136,11 @@
         "QQQ"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 2,
       "added_date": "2026-02-19",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-02-23",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 18
     },
     {
@@ -169,11 +203,11 @@
         "NVDA"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 3,
       "added_date": "2026-02-19",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-02-23",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 17
     },
     {
@@ -190,11 +224,11 @@
         "EDIT"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 4,
       "added_date": "2026-02-19",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-02-23",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 21
     },
     {
@@ -281,11 +315,11 @@
         "TSLA"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-02-22",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-02-23",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": null
     },
     {
@@ -319,11 +353,11 @@
       "key_takeaway": "Audio wearables represent the next computing platform after smartphones. Play: companies solving wearability + social acceptance at scale.",
       "tickers_mentioned": "",
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-02-22",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-02-23",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 4
     },
     {
@@ -362,11 +396,11 @@
         "Semiconductors"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-02-22",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-02-23",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 16
     },
     {
@@ -542,11 +576,11 @@
       "key_takeaway": "Bitcoin's current dip may signal a shift in how it is perceived and traded, transitioning from a software stock to a hard asset, which could be beneficial for its long-term value.",
       "tickers_mentioned": "",
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-02-22",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-02-23",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 12
     },
     {
@@ -563,11 +597,11 @@
         "AppLovin"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-02-22",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-02-23",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 11
     },
     {
@@ -580,11 +614,11 @@
       "key_takeaway": "Investment in neural network technology and autonomous robotics is poised for significant growth, with the potential to disrupt traditional manufacturing and create new market opportunities.",
       "tickers_mentioned": "",
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-02-22",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-02-23",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 15
     }
   ],

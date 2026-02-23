@@ -290,8 +290,20 @@ Return ONLY valid JSON. No markdown, no explanations."""
                 max_tokens=4000
             )
             content = response.choices[0].message.content.strip()
+        elif client_type == 'moonshot':
+            # Moonshot/Kimi API (OpenAI-compatible)
+            response = client.chat.completions.create(
+                model="moonshot-v1-8k",
+                messages=[
+                    {"role": "system", "content": "You are a precise financial analyst. Return only valid JSON."},
+                    {"role": "user", "content": prompt}
+                ],
+                temperature=0.3,
+                max_tokens=4000
+            )
+            content = response.choices[0].message.content.strip()
         elif client_type == 'gemini':
-            # Gemini API - cheapest option
+            # Gemini API
             model = genai.GenerativeModel('gemini-1.5-flash')
             response = model.generate_content(
                 prompt,
