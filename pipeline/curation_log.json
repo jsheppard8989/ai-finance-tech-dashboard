@@ -1,197 +1,21 @@
 {
-  "timestamp": "2026-02-20T06:01:36.636438",
-  "total_audio_files": 12,
-  "approved_for_transcription": 9,
+  "timestamp": "2026-02-22T17:30:25.821783",
+  "total_audio_files": 1,
+  "approved_for_transcription": 1,
   "episodes": [
     {
-      "podcast": "The Jack Mallers Show",
-      "title": "BTFD? Understanding Bonds, Debt, Markets & Bitcoin",
-      "description": "<p>Streaming live Mondays at 6pm ET on The Jack Mallers Show YouTube channel.</p>\n",
-      "audio_url": "https://anchor.fm/s/e29097f4/podcast/play/114953048/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-3%2F417366235-44100-2-96fb158c7055a.mp3",
-      "published": "Tue, 03 Feb 2026 07:33:55 GMT",
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-3%2F417366235-44100-2-96fb158c7055a.mp3",
-      "filename": "https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-3%2F417366235-44100-2-96fb158c7055a.mp3",
+      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "title": "Prince Andrew Arrested, Epstein Mythology, Reid Hoffman Files with Saagar Enjeti & Michael Tracey",
+      "description": "<p>(0:00) David Sacks introduces Saagar Enjeti and Michael Tracey</p> <p>(1:04) Reacting to the arrest of Prince Andrew in the UK, Epstein's global finance network</p> <p>(11:24) Who was Jeffrey Epstein, and what is this story really about?</p> <p>(34:10) Michael Tracey explains \"Epstein Mythology\"</p> <p>(1:14:23) Kevin Bass joins to discuss Reid Hoffman's history with Epstein</p> <p>(1:32:52) Michael Tracey responds to criticism</p> <p>Follow Saagar:</p> <p><a href=\"https://x.com/esaagar\">http",
+      "audio_url": "https://dts.podtrac.com/redirect.mp3/traffic.libsyn.com/secure/allinchamathjason/ALLIN-E262_Ch.mp3?dest-id=1928300",
+      "published": "Fri, 20 Feb 2026 21:31:00 +0000",
+      "published_date": "2026-02-20",
+      "rss_guid": "6745afd7-24a2-450c-8eec-8640cf3c3157",
+      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/ALLIN-E262_Ch.mp3",
+      "filename": "ALLIN-E262_Ch.mp3",
       "relevance_score": 2,
       "matched_keywords": [
-        "market",
-        "bitcoin"
-      ],
-      "status": "APPROVED"
-    },
-    {
-      "podcast": "Moonshots with Peter Diamandis",
-      "title": "Brett Adcock: Humanoid Run on Neural Net, Autonomous Manufacturing, $50T Market #229",
-      "description": "\n        <p>Peter &amp; Dave sit down with Brett Adcock to discuss the future of Figure and Humanoid Robots.\u00a0</p>\n<p><br></p>\n<p>Get access to metatrends 10+ years before anyone else - <a href=\"https://qr.diamandis.com/metatrends\"><u>https://qr.diamandis.com/metatrends</u></a>\u00a0\u00a0</p>\n<p><br></p>\n<p>Brett Adcock is the founder of <a href=\"https://www.figure.ai/\"><u>Figure</u></a>, an AI robotics company developing general-purpose humanoid robots.</p>\n<p><br></p>\n<p>Peter H. Diamandis, MD, is the F",
-      "audio_url": "https://traffic.megaphone.fm/DVVTS3287004650.mp3?updated=1770850879",
-      "published": "Wed, 11 Feb 2026 22:46:00 -0000",
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/DVVTS3287004650.mp3",
-      "filename": "DVVTS3287004650.mp3",
-      "relevance_score": 2,
-      "matched_keywords": [
-        "market",
-        "ai"
-      ],
-      "status": "APPROVED"
-    },
-    {
-      "podcast": "a16z Live",
-      "title": "How Startups are Fixing Healthcare Friction",
-      "description": "<p>What if the biggest lever for improving U.S. healthcare isn\u2019t clinical, but operational?</p><p>In this episode, recorded live at New York Tech Week, a16z General Partner David Haber speaks with Trey Holterman (Tennr) and Christophe Rimann (Camber), two founders tackling the core infrastructure problems slowing healthcare down - from broken referral handoffs to denied insurance claims.</p><p>They discuss building trust in high-stakes workflows, how better incentives (not just better tech) driv",
-      "audio_url": "https://mgln.ai/e/1344/afp-848985-injected.calisto.simplecastaudio.com/62c6d266-e92e-4dc7-a180-9f3aa623e441/episodes/63d30b90-38aa-467b-b4ee-fc53568fe054/audio/128/default.mp3?aid=rss_feed&awCollectionId=62c6d266-e92e-4dc7-a180-9f3aa623e441&awEpisodeId=63d30b90-38aa-467b-b4ee-fc53568fe054&feed=AuWJKpna",
-      "published": "Wed, 25 Jun 2025 10:00:00 +0000",
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/default.mp3",
-      "filename": "default.mp3",
-      "relevance_score": 3,
-      "matched_keywords": [
-        "ai",
-        "tech",
-        "startup"
-      ],
-      "status": "APPROVED"
-    },
-    {
-      "podcast": "The Network State Podcast",
-      "title": "#34 - Sean Neville",
-      "description": "<p>Sean Neville co-founded Circle, the issuer of USDC, and is now the founder of Catena Labs. We cover the Centre Consortium joint venture between Circle and Coinbase, the rise of machine-native money, identity systems for AI agents, and the fusion of probabilistic AI with deterministic crypto. If you&#39;re interested in these ideas, you&#39;ll like Network School. Apply online at <a href=\"https://ns.com\" target=\"_blank\" rel=\"noopener\">https://ns.com</a>.</p>\n",
-      "audio_url": "https://anchor.fm/s/73801358/podcast/play/113922944/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-0-13%2F4f1c691a-555d-6be3-1ab4-1aebf83a0b84.mp3",
-      "published": "Fri, 16 Jan 2026 12:00:00 GMT",
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-0-13%2F4f1c691a-555d-6be3-1ab4-1aebf83a0b84.mp3",
-      "filename": "https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-0-13%2F4f1c691a-555d-6be3-1ab4-1aebf83a0b84.mp3",
-      "relevance_score": 3,
-      "matched_keywords": [
-        "crypto",
-        "ai",
-        "venture"
-      ],
-      "status": "APPROVED"
-    },
-    {
-      "podcast": "The Jack Mallers Show",
-      "title": "Japan, AI, & The Next Liquidity Shock For Bitcoin",
-      "description": "<p>Streaming live Mondays at 6pm ET on The Jack Mallers Show YouTube channel.</p>\n",
-      "audio_url": "https://anchor.fm/s/e29097f4/podcast/play/115619664/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-17%2F418255357-44100-2-b07eb0f35b621.mp3",
-      "published": "Tue, 17 Feb 2026 07:27:07 GMT",
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-17%2F418255357-44100-2-b07eb0f35b621.mp3",
-      "filename": "https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-17%2F418255357-44100-2-b07eb0f35b621.mp3",
-      "relevance_score": 2,
-      "matched_keywords": [
-        "bitcoin",
-        "ai"
-      ],
-      "status": "APPROVED"
-    },
-    {
-      "podcast": "Monetary Matters with Jack Farley",
-      "title": "The \u201cClimax Top\u201d In Gold & Silver | Milton Berg, Turning Point Master, on Precious Metals, Bitcoin, and Disturbing December Warning In Stocks",
-      "description": "\n        <p>Learn more about the Fundrise Income Fund here:</p>\n<p><a href=\"https://fundrise.com/mm\"><u>https://Fundrise.com/mm</u></a></p>\n<p><br></p>\n<p>Recorded in February 6th 2026, technical analyst Milton Berg returns to discuss his market outlook after correctly predicting the major market bottom in April 2025. Although his long-term retail model remains 100% long equities until a specific 8% drawdown occurs, Berg reveals that his institutional portfolio is currently net short across majo",
-      "audio_url": "https://traffic.megaphone.fm/EWWMN6429295583.mp3",
-      "published": "Tue, 10 Feb 2026 18:14:00 -0000",
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/EWWMN6429295583.mp3",
-      "filename": "EWWMN6429295583.mp3",
-      "relevance_score": 8,
-      "matched_keywords": [
-        "stock",
-        "market",
-        "portfolio",
-        "equities",
-        "bitcoin",
-        "ai",
-        "tech",
-        "outlook"
-      ],
-      "status": "APPROVED"
-    },
-    {
-      "podcast": "The Network State Podcast",
-      "title": "#35 - Noor Siddiqui",
-      "description": "<p>Noor Siddiqui is the founder of Orchid, which offers whole genome screening for over 1,000 genetic diseases. We cover the transition from biological chance to choice, American public support for embryo screening, the historical stigma against routine procedures like heart transplants, and the new political divide of Primitivism versus Futurism. If you&#39;re interested in these ideas, you might be interested in Network School. Apply online at <a href=\"https://ns.com\" target=\"_blank\" rel=\"noop",
-      "audio_url": "https://anchor.fm/s/73801358/podcast/play/113922954/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-0-13%2F202cb903-9237-cf95-362f-50770b90d121.mp3",
-      "published": "Fri, 16 Jan 2026 17:50:00 GMT",
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-0-13%2F202cb903-9237-cf95-362f-50770b90d121.mp3",
-      "filename": "https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-0-13%2F202cb903-9237-cf95-362f-50770b90d121.mp3",
-      "relevance_score": 1,
-      "matched_keywords": [
-        "ai"
-      ],
-      "status": "SKIPPED (low relevance)"
-    },
-    {
-      "podcast": "Monetary Matters with Jack Farley",
-      "title": "Why Carson Block Won\u2019t Short AI Names Until the IPOs Begin & Muddy Waters\u2019 Pivot to Long Resources Stocks & S&P 500 Momentum",
-      "description": "\n        <p>This episode is brought to you by the Pictet AI Enhanced International Equity ETF ($PQNT): https://etf.am.pictet.com/pqnt/</p>\n<p><br></p>\n<p>Carson Block, founder of Muddy Waters Capital joins Monetary Matters to discuss why they aren\u2019t rushing to short AI pretenders and fakers until more supply of speculative companies hits the market from big IPOs. They also discuss the increasing dominance of flows over fundamentals in US markets and abroad and Muddy Waters expanding investment f",
-      "audio_url": "https://traffic.megaphone.fm/EWWMN2965097612.mp3",
-      "published": "Wed, 04 Feb 2026 18:10:00 -0000",
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/EWWMN2965097612.mp3",
-      "filename": "EWWMN2965097612.mp3",
-      "relevance_score": 6,
-      "matched_keywords": [
-        "invest",
-        "stock",
-        "market",
-        "equity",
-        "ipo",
-        "ai"
-      ],
-      "status": "APPROVED"
-    },
-    {
-      "podcast": "Monetary Matters with Jack Farley",
-      "title": "\u201cA Huge Problem for Everybody\u201d | Paul Krugman on Currency Devaluation, Artificial Intelligence, Kevin Warsh Nomination, & More",
-      "description": "\n        <p>This episode is brought to you by the Pictet AI Enhanced International Equity ETF ($PQNT): <a href=\"https://www.youtube.com/redirect?event=video_description&amp;redir_token=QUFFLUhqa0lpaFQ0Z2EwUG9FbDdVc2lXdFNRaG50V1dUZ3xBQ3Jtc0tsa3A0VVctQ014a3FObnJWNXBzNG0zRkU0a01nclVHTVQyWU04d2JxVnE5bXdsSFFOOWRyTkVVbG9DUEJPNm1QTnpia29kRmpVUHEzS1hVZ0pIZjN2Q0hzSVZDN2VaVFVrT0hZOVdvNm80UlZ3OHNyZw&amp;q=https%3A%2F%2Fetf.am.pictet.com%2Fpqnt%2F&amp;v=iCsa2zq7jAE\">https://etf.am.pictet.com/pqnt/</a></p>\n<",
-      "audio_url": "https://traffic.megaphone.fm/EWWMN3482909708.mp3",
-      "published": "Sun, 15 Feb 2026 20:38:00 -0000",
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/EWWMN3482909708.mp3",
-      "filename": "EWWMN3482909708.mp3",
-      "relevance_score": 5,
-      "matched_keywords": [
-        "equity",
-        "valuation",
-        "ai",
-        "artificial intelligence",
-        "intel"
-      ],
-      "status": "APPROVED"
-    },
-    {
-      "podcast": "Moonshots with Peter Diamandis",
-      "title": "The AI CEO Arrives: Sam Altman's Succession Plan, Job Loss Continues, and Our 2027 'Solve Everything' Paper | EP #230",
-      "description": "\n        <p>The mates discuss the accelerating path toward a singularity and unveil their \"Solve Everything\" paper.\u00a0</p>\n<p><br></p>\n<p>Read the Solve Everything Paper: <a href=\"https://solveeverything.org/\"><u>https://solveeverything.org/</u></a>\u00a0</p>\n<p><br></p>\n<p>Get notified once we go live during Abundance360: <a href=\"https://www.abundance360.com/livestream\"><u>https://www.abundance360.com/livestream</u></a>\u00a0</p>\n<p><br></p>\n<p>Get access to metatrends 10+ years before anyone else - <a hr",
-      "audio_url": "https://traffic.megaphone.fm/DVVTS4101423217.mp3?updated=1770998624",
-      "published": "Fri, 13 Feb 2026 16:00:00 -0000",
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/DVVTS4101423217.mp3",
-      "filename": "DVVTS4101423217.mp3",
-      "relevance_score": 1,
-      "matched_keywords": [
-        "ai"
-      ],
-      "status": "SKIPPED (low relevance)"
-    },
-    {
-      "podcast": "The Jack Mallers Show",
-      "title": "From Software to Hard Asset: Bitcoin in a New Liquidity Regime",
-      "description": "<p>Streaming live Mondays at 6pm ET on The Jack Mallers Show YouTube channel.</p>\n",
-      "audio_url": "https://anchor.fm/s/e29097f4/podcast/play/115286861/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-10%2F417811310-44100-2-5be9b2c9f29f2.mp3",
-      "published": "Tue, 10 Feb 2026 08:10:58 GMT",
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-10%2F417811310-44100-2-5be9b2c9f29f2.mp3",
-      "filename": "https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-10%2F417811310-44100-2-5be9b2c9f29f2.mp3",
-      "relevance_score": 1,
-      "matched_keywords": [
-        "bitcoin"
-      ],
-      "status": "SKIPPED (low relevance)"
-    },
-    {
-      "podcast": "Dwarkesh Podcast",
-      "title": "Dario Amodei \u2014 \"We are near the end of the exponential\"",
-      "description": "<p>Dario Amodei thinks we are just a few years away from AGI \u2014 or as he puts it, from having \u201ca country of geniuses in a data center\u201d. In this episode, we discuss what to make of the scaling hypothesis in the current RL regime, why task-specific RL might lead to generalization, and how AI will diffuse throughout the economy. We also dive into Anthropic\u2019s revenue projections, compute commitments, path to profitability, and more.</p><p>Watch on <a target=\"_blank\" href=\"https://youtu.be/n1E9IZfvGMA",
-      "audio_url": "https://api.substack.com/feed/podcast/187852154/cecdbe38125e2786cbfebe31dd083d4f.mp3",
-      "published": "Fri, 13 Feb 2026 16:46:36 GMT",
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/cecdbe38125e2786cbfebe31dd083d4f.mp3",
-      "filename": "cecdbe38125e2786cbfebe31dd083d4f.mp3",
-      "relevance_score": 3,
-      "matched_keywords": [
-        "revenue",
-        "profit",
+        "finance",
         "ai"
       ],
       "status": "APPROVED"
