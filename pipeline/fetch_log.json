@@ -1,53 +1,11 @@
 {
-  "timestamp": "2026-02-20T06:36:30.129446",
+  "timestamp": "2026-02-22T22:14:54.775486",
   "results": [
     {
-      "podcast": "Moonshots with Peter Diamandis",
-      "title": "Ben Horowitz: xAI Executive Exodus,  Apple's AI Crisis, The Pace of AI | #232",
-      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/DVVTS5786783285.mp3",
-      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/DVVTS5786783285.txt",
-      "success": true
-    },
-    {
-      "podcast": "a16z Live",
-      "title": "How Startups are Fixing Healthcare Friction",
-      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/default.mp3",
-      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/default.txt",
-      "success": true
-    },
-    {
-      "podcast": "Monetary Matters with Jack Farley",
-      "title": "\u201cA Huge Problem for Everybody\u201d | Paul Krugman on Currency Devaluation, Artificial Intelligence, Kevin Warsh Nomination, & More",
-      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/EWWMN3482909708.mp3",
-      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/EWWMN3482909708.txt",
-      "success": true
-    },
-    {
-      "podcast": "The Jack Mallers Show",
-      "title": "Japan, AI, & The Next Liquidity Shock For Bitcoin",
-      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-17%2F418255357-44100-2-b07eb0f35b621.mp3",
-      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-17%2F418255357-44100-2-b07eb0f35b621.txt",
-      "success": true
-    },
-    {
-      "podcast": "The Network State Podcast",
-      "title": "#36 - Arjun Khemani",
-      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-18%2Fdff54dee-2ba4-02bd-9c43-d935696550da.mp3",
-      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-18%2Fdff54dee-2ba4-02bd-9c43-d935696550da.txt",
-      "success": true
-    },
-    {
-      "podcast": "Moonshots with Peter Diamandis",
-      "title": "Ben Horowitz: xAI Executive Exodus,  Apple's AI Crisis, The Pace of AI | #232",
-      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/DVVTS5786783285.mp3",
-      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/DVVTS5786783285.txt",
-      "success": true
-    },
-    {
-      "podcast": "Dwarkesh Podcast",
-      "title": "Dario Amodei \u2014 \"We are near the end of the exponential\"",
-      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/cecdbe38125e2786cbfebe31dd083d4f.mp3",
-      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/cecdbe38125e2786cbfebe31dd083d4f.txt",
+      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "title": "Prince Andrew Arrested, Epstein Mythology, Reid Hoffman Files with Saagar Enjeti & Michael Tracey",
+      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/ALLIN-E262_Ch.mp3",
+      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/ALLIN-E262_Ch.txt",
       "success": true
     }
   ]
