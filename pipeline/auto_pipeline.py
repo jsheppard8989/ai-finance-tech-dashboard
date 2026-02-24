@@ -361,7 +361,7 @@ def promote_episodes_to_insights() -> int:
         main_ids = conn.execute("""
             SELECT id FROM latest_insights
             WHERE display_on_main = 1 AND archived_date IS NULL
-            ORDER BY added_date DESC, id DESC
+            ORDER BY source_date DESC, id DESC
         """).fetchall()
 
         if len(main_ids) > 8:

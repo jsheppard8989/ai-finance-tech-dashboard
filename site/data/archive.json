@@ -1,6 +1,23 @@
 {
   "insights": [
     {
+      "id": 25,
+      "title": "Brett Adcock: Humanoid Robots Running Neural Nets \u2014 Autonomous Manufacturing Now",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-02-22",
+      "summary": "In this episode of Moonshots with Peter Diamandis, Brett Adcock discusses the rapid advancements in neural networks and their impact on the future of manufacturing and robotics. The conversation highlights the potential for robots to learn tasks and share that knowledge across a fleet, leading to significant efficiency gains. The discussion also touches on the shift from traditional coding to neural nets, the reduction in manufacturing costs, and the potential for a sci-fi future with ubiquitous",
+      "key_takeaway": "Investment in neural network technology and autonomous robotics is poised for significant growth, with the potential to disrupt traditional manufacturing and create new market opportunities.",
+      "tickers_mentioned": "",
+      "sentiment": "bullish",
+      "display_on_main": 0,
+      "display_order": 0,
+      "added_date": "2026-02-22",
+      "archived_date": "2026-02-23",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
+      "podcast_episode_id": 15
+    },
+    {
       "id": 45,
       "title": "The Future of Consumer Technology and Interfaces",
       "source_type": "podcast",
@@ -336,12 +353,29 @@
         "TLT"
       ],
       "sentiment": "bearish",
-      "display_on_main": 0,
+      "display_on_main": 1,
       "display_order": 2,
       "added_date": "2026-02-10",
       "archived_date": null,
       "archived_reason": null,
       "podcast_episode_id": null
+    },
+    {
+      "id": 22,
+      "title": "Jack Mallers: Bitcoin Transitions from Software to Hard Asset",
+      "source_type": "podcast",
+      "source_name": "The Jack Mallers Show",
+      "source_date": "2026-02-10",
+      "summary": "The host, Jack, discusses Bitcoin's recent price dip and its correlation with software technology stocks. He argues that Bitcoin, despite its properties as a hard asset, has been treated like a software stock by the broader market. Jack suggests that the current dip could be a transition point where Bitcoin starts to be recognized and traded more like a hard asset rather than a tech stock. He also explores the broader macroeconomic implications, including the shift in liquidity from software to ",
+      "key_takeaway": "Bitcoin's current dip may signal a shift in how it is perceived and traded, transitioning from a software stock to a hard asset, which could be beneficial for its long-term value.",
+      "tickers_mentioned": "",
+      "sentiment": "bullish",
+      "display_on_main": 0,
+      "display_order": 0,
+      "added_date": "2026-02-22",
+      "archived_date": "2026-02-23",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
+      "podcast_episode_id": 12
     },
     {
       "id": 29,
@@ -374,7 +408,7 @@
         "IWM"
       ],
       "sentiment": "bearish",
-      "display_on_main": 0,
+      "display_on_main": 1,
       "display_order": 2,
       "added_date": "2026-02-15",
       "archived_date": null,
@@ -404,6 +438,27 @@
       "podcast_episode_id": 16
     },
     {
+      "id": 21,
+      "title": "Carson Block: Short AI Pretenders, Buy Gold Miners",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-02-04",
+      "summary": "In this episode, Jack Farley interviews Carson Block, founder of Muddy Waters Capital, a leading activist short seller hedge fund. They discuss the fertile ground for short selling in sectors like tech, AI, and green energy, focusing on the overpromising and excessive speculation in these areas. Carson shares insights on identifying AI pretenders, the challenges of timing short sales, and his views on the current market cycle and the potential for bubbles to pop due to an oversupply of speculati",
+      "key_takeaway": "Identify and short sell overhyped companies in the tech and AI sectors, waiting for the right timing when market momentum shifts and demand for speculative assets is overwhelmed by supply.",
+      "tickers_mentioned": [
+        "PQNT",
+        "FTIE",
+        "AppLovin"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 0,
+      "display_order": 0,
+      "added_date": "2026-02-22",
+      "archived_date": "2026-02-23",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
+      "podcast_episode_id": 11
+    },
+    {
       "id": 38,
       "title": "OpenAI's AI Succession Plan and AGI Claims",
       "source_type": "newsletter",
@@ -415,11 +470,11 @@
         "MSFT"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-02-22",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-02-24",
+      "archived_reason": "Re-archived: source_date sort correction",
       "podcast_episode_id": null
     },
     {
@@ -455,11 +510,11 @@
         "N/A"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-02-22",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-02-24",
+      "archived_reason": "Re-archived: source_date sort correction",
       "podcast_episode_id": null
     },
     {
@@ -565,61 +620,6 @@
       "archived_date": "2026-02-17",
       "archived_reason": "Keep only 5 most recent insights on main page",
       "podcast_episode_id": null
-    },
-    {
-      "id": 22,
-      "title": "Jack Mallers: Bitcoin Transitions from Software to Hard Asset",
-      "source_type": "podcast",
-      "source_name": "The Jack Mallers Show",
-      "source_date": "2025-04-06",
-      "summary": "The host, Jack, discusses Bitcoin's recent price dip and its correlation with software technology stocks. He argues that Bitcoin, despite its properties as a hard asset, has been treated like a software stock by the broader market. Jack suggests that the current dip could be a transition point where Bitcoin starts to be recognized and traded more like a hard asset rather than a tech stock. He also explores the broader macroeconomic implications, including the shift in liquidity from software to ",
-      "key_takeaway": "Bitcoin's current dip may signal a shift in how it is perceived and traded, transitioning from a software stock to a hard asset, which could be beneficial for its long-term value.",
-      "tickers_mentioned": "",
-      "sentiment": "bullish",
-      "display_on_main": 0,
-      "display_order": 0,
-      "added_date": "2026-02-22",
-      "archived_date": "2026-02-23",
-      "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 12
-    },
-    {
-      "id": 21,
-      "title": "Carson Block: Short AI Pretenders, Buy Gold Miners",
-      "source_type": "podcast",
-      "source_name": "Monetary Matters with Jack Farley",
-      "source_date": "2023-04-01",
-      "summary": "In this episode, Jack Farley interviews Carson Block, founder of Muddy Waters Capital, a leading activist short seller hedge fund. They discuss the fertile ground for short selling in sectors like tech, AI, and green energy, focusing on the overpromising and excessive speculation in these areas. Carson shares insights on identifying AI pretenders, the challenges of timing short sales, and his views on the current market cycle and the potential for bubbles to pop due to an oversupply of speculati",
-      "key_takeaway": "Identify and short sell overhyped companies in the tech and AI sectors, waiting for the right timing when market momentum shifts and demand for speculative assets is overwhelmed by supply.",
-      "tickers_mentioned": [
-        "PQNT",
-        "FTIE",
-        "AppLovin"
-      ],
-      "sentiment": "bullish",
-      "display_on_main": 0,
-      "display_order": 0,
-      "added_date": "2026-02-22",
-      "archived_date": "2026-02-23",
-      "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 11
-    },
-    {
-      "id": 25,
-      "title": "Brett Adcock: Humanoid Robots Running Neural Nets \u2014 Autonomous Manufacturing Now",
-      "source_type": "podcast",
-      "source_name": "Moonshots with Peter Diamandis",
-      "source_date": "2023-03-01",
-      "summary": "In this episode of Moonshots with Peter Diamandis, Brett Adcock discusses the rapid advancements in neural networks and their impact on the future of manufacturing and robotics. The conversation highlights the potential for robots to learn tasks and share that knowledge across a fleet, leading to significant efficiency gains. The discussion also touches on the shift from traditional coding to neural nets, the reduction in manufacturing costs, and the potential for a sci-fi future with ubiquitous",
-      "key_takeaway": "Investment in neural network technology and autonomous robotics is poised for significant growth, with the potential to disrupt traditional manufacturing and create new market opportunities.",
-      "tickers_mentioned": "",
-      "sentiment": "bullish",
-      "display_on_main": 0,
-      "display_order": 0,
-      "added_date": "2026-02-22",
-      "archived_date": "2026-02-23",
-      "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 15
     }
   ],
   "definitions": [

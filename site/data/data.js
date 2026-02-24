@@ -1,9 +1,9 @@
-// Auto-generated - 2026-02-22T22:15:06.314997
+// Auto-generated data file - 2026-02-24T06:14:29.216502
 // DO NOT EDIT MANUALLY
 
 const dashboardData = {
-  "generatedAt": "2026-02-22T22:15:06.315045",
-  "tickerScores": [
+  generatedAt: "2026-02-24T06:14:29.216510",
+  tickerScores: [
   {
     "id": 72,
     "ticker": "GOOGL",
@@ -90,8 +90,25 @@ const dashboardData = {
     "timeframe": "unspecified"
   }
 ],
-  "archive": {
+  archive: {
   "insights": [
+    {
+      "id": 25,
+      "title": "Brett Adcock: Humanoid Robots Running Neural Nets \u2014 Autonomous Manufacturing Now",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-02-22",
+      "summary": "In this episode of Moonshots with Peter Diamandis, Brett Adcock discusses the rapid advancements in neural networks and their impact on the future of manufacturing and robotics. The conversation highlights the potential for robots to learn tasks and share that knowledge across a fleet, leading to significant efficiency gains. The discussion also touches on the shift from traditional coding to neural nets, the reduction in manufacturing costs, and the potential for a sci-fi future with ubiquitous",
+      "key_takeaway": "Investment in neural network technology and autonomous robotics is poised for significant growth, with the potential to disrupt traditional manufacturing and create new market opportunities.",
+      "tickers_mentioned": "",
+      "sentiment": "bullish",
+      "display_on_main": 0,
+      "display_order": 0,
+      "added_date": "2026-02-22",
+      "archived_date": "2026-02-23",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
+      "podcast_episode_id": 15
+    },
     {
       "id": 45,
       "title": "The Future of Consumer Technology and Interfaces",
@@ -428,12 +445,29 @@ const dashboardData = {
         "TLT"
       ],
       "sentiment": "bearish",
-      "display_on_main": 0,
+      "display_on_main": 1,
       "display_order": 2,
       "added_date": "2026-02-10",
       "archived_date": null,
       "archived_reason": null,
       "podcast_episode_id": null
+    },
+    {
+      "id": 22,
+      "title": "Jack Mallers: Bitcoin Transitions from Software to Hard Asset",
+      "source_type": "podcast",
+      "source_name": "The Jack Mallers Show",
+      "source_date": "2026-02-10",
+      "summary": "The host, Jack, discusses Bitcoin's recent price dip and its correlation with software technology stocks. He argues that Bitcoin, despite its properties as a hard asset, has been treated like a software stock by the broader market. Jack suggests that the current dip could be a transition point where Bitcoin starts to be recognized and traded more like a hard asset rather than a tech stock. He also explores the broader macroeconomic implications, including the shift in liquidity from software to ",
+      "key_takeaway": "Bitcoin's current dip may signal a shift in how it is perceived and traded, transitioning from a software stock to a hard asset, which could be beneficial for its long-term value.",
+      "tickers_mentioned": "",
+      "sentiment": "bullish",
+      "display_on_main": 0,
+      "display_order": 0,
+      "added_date": "2026-02-22",
+      "archived_date": "2026-02-23",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
+      "podcast_episode_id": 12
     },
     {
       "id": 29,
@@ -466,7 +500,7 @@ const dashboardData = {
         "IWM"
       ],
       "sentiment": "bearish",
-      "display_on_main": 0,
+      "display_on_main": 1,
       "display_order": 2,
       "added_date": "2026-02-15",
       "archived_date": null,
@@ -496,6 +530,27 @@ const dashboardData = {
       "podcast_episode_id": 16
     },
     {
+      "id": 21,
+      "title": "Carson Block: Short AI Pretenders, Buy Gold Miners",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-02-04",
+      "summary": "In this episode, Jack Farley interviews Carson Block, founder of Muddy Waters Capital, a leading activist short seller hedge fund. They discuss the fertile ground for short selling in sectors like tech, AI, and green energy, focusing on the overpromising and excessive speculation in these areas. Carson shares insights on identifying AI pretenders, the challenges of timing short sales, and his views on the current market cycle and the potential for bubbles to pop due to an oversupply of speculati",
+      "key_takeaway": "Identify and short sell overhyped companies in the tech and AI sectors, waiting for the right timing when market momentum shifts and demand for speculative assets is overwhelmed by supply.",
+      "tickers_mentioned": [
+        "PQNT",
+        "FTIE",
+        "AppLovin"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 0,
+      "display_order": 0,
+      "added_date": "2026-02-22",
+      "archived_date": "2026-02-23",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
+      "podcast_episode_id": 11
+    },
+    {
       "id": 38,
       "title": "OpenAI's AI Succession Plan and AGI Claims",
       "source_type": "newsletter",
@@ -507,11 +562,11 @@ const dashboardData = {
         "MSFT"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-02-22",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-02-24",
+      "archived_reason": "Re-archived: source_date sort correction",
       "podcast_episode_id": null
     },
     {
@@ -547,11 +602,11 @@ const dashboardData = {
         "N/A"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-02-22",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-02-24",
+      "archived_reason": "Re-archived: source_date sort correction",
       "podcast_episode_id": null
     },
     {
@@ -657,61 +712,6 @@ const dashboardData = {
       "archived_date": "2026-02-17",
       "archived_reason": "Keep only 5 most recent insights on main page",
       "podcast_episode_id": null
-    },
-    {
-      "id": 22,
-      "title": "Jack Mallers: Bitcoin Transitions from Software to Hard Asset",
-      "source_type": "podcast",
-      "source_name": "The Jack Mallers Show",
-      "source_date": "2025-04-06",
-      "summary": "The host, Jack, discusses Bitcoin's recent price dip and its correlation with software technology stocks. He argues that Bitcoin, despite its properties as a hard asset, has been treated like a software stock by the broader market. Jack suggests that the current dip could be a transition point where Bitcoin starts to be recognized and traded more like a hard asset rather than a tech stock. He also explores the broader macroeconomic implications, including the shift in liquidity from software to ",
-      "key_takeaway": "Bitcoin's current dip may signal a shift in how it is perceived and traded, transitioning from a software stock to a hard asset, which could be beneficial for its long-term value.",
-      "tickers_mentioned": "",
-      "sentiment": "bullish",
-      "display_on_main": 0,
-      "display_order": 0,
-      "added_date": "2026-02-22",
-      "archived_date": "2026-02-23",
-      "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 12
-    },
-    {
-      "id": 21,
-      "title": "Carson Block: Short AI Pretenders, Buy Gold Miners",
-      "source_type": "podcast",
-      "source_name": "Monetary Matters with Jack Farley",
-      "source_date": "2023-04-01",
-      "summary": "In this episode, Jack Farley interviews Carson Block, founder of Muddy Waters Capital, a leading activist short seller hedge fund. They discuss the fertile ground for short selling in sectors like tech, AI, and green energy, focusing on the overpromising and excessive speculation in these areas. Carson shares insights on identifying AI pretenders, the challenges of timing short sales, and his views on the current market cycle and the potential for bubbles to pop due to an oversupply of speculati",
-      "key_takeaway": "Identify and short sell overhyped companies in the tech and AI sectors, waiting for the right timing when market momentum shifts and demand for speculative assets is overwhelmed by supply.",
-      "tickers_mentioned": [
-        "PQNT",
-        "FTIE",
-        "AppLovin"
-      ],
-      "sentiment": "bullish",
-      "display_on_main": 0,
-      "display_order": 0,
-      "added_date": "2026-02-22",
-      "archived_date": "2026-02-23",
-      "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 11
-    },
-    {
-      "id": 25,
-      "title": "Brett Adcock: Humanoid Robots Running Neural Nets \u2014 Autonomous Manufacturing Now",
-      "source_type": "podcast",
-      "source_name": "Moonshots with Peter Diamandis",
-      "source_date": "2023-03-01",
-      "summary": "In this episode of Moonshots with Peter Diamandis, Brett Adcock discusses the rapid advancements in neural networks and their impact on the future of manufacturing and robotics. The conversation highlights the potential for robots to learn tasks and share that knowledge across a fleet, leading to significant efficiency gains. The discussion also touches on the shift from traditional coding to neural nets, the reduction in manufacturing costs, and the potential for a sci-fi future with ubiquitous",
-      "key_takeaway": "Investment in neural network technology and autonomous robotics is poised for significant growth, with the potential to disrupt traditional manufacturing and create new market opportunities.",
-      "tickers_mentioned": "",
-      "sentiment": "bullish",
-      "display_on_main": 0,
-      "display_order": 0,
-      "added_date": "2026-02-22",
-      "archived_date": "2026-02-23",
-      "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 15
     }
   ],
   "definitions": [
@@ -863,7 +863,7 @@ const dashboardData = {
     }
   ]
 },
-  "mainContent": {
+  mainContent: {
   "insights": [
     {
       "id": 45,
@@ -974,36 +974,36 @@ const dashboardData = {
       "episode_release_date": null
     },
     {
-      "id": 38,
-      "title": "OpenAI's AI Succession Plan and AGI Claims",
-      "source_type": "newsletter",
-      "source_name": "The Rundown AI <news@daily.therundown.ai>",
-      "source_date": "2026-02-04",
-      "summary": "OpenAI CEO Sam Altman reveals a succession plan to hand over the company to an AI model and claims that OpenAI has 'basically built AGI'. Microsoft CEO Satya Nadella pushes back on the AGI claim, referring to the Microsoft/OpenAI relationship as 'frenemies'. Altman's ambitious vision raises questions about OpenAI's execution and direction.",
-      "key_takeaway": "Investors should monitor OpenAI's progress and partnerships, as well as the evolving relationship between Microsoft and OpenAI, to assess the potential impact on the AI industry and related investments.",
-      "tickers_mentioned": "[\"MSFT\"]",
-      "sentiment": "neutral",
+      "id": 2,
+      "title": "Gold Climax Top Signal",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters",
+      "source_date": "2026-02-10",
+      "summary": "Milton Berg institutional model flipped net-short across major indices while retail remains 100% long. Historical pattern suggests 8% drawdown.",
+      "key_takeaway": "Risk-off: Reduce momentum exposure. Watch VIX >25.",
+      "tickers_mentioned": "[\"VIX\", \"SQQQ\", \"TLT\"]",
+      "sentiment": "bearish",
       "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-02-22",
+      "display_order": 2,
+      "added_date": "2026-02-10",
       "archived_date": null,
       "archived_reason": null,
       "podcast_episode_id": null,
       "episode_release_date": null
     },
     {
-      "id": 39,
-      "title": "SpaceX-xAI Merger Forms $1.25T AI-Space Super-Entity",
-      "source_type": "newsletter",
-      "source_name": "The Rundown AI <news@daily.therundown.ai>",
-      "source_date": "2026-02-03",
-      "summary": "Elon Musk's SpaceX has merged with AI startup xAI, creating the world's most valuable private company at $1.25 trillion. The merger aims to launch AI data centers into orbit to overcome Earth's energy constraints and enable space-based AI compute.",
-      "key_takeaway": "Investors should consider the potential impact of space-based AI compute on traditional data centers and the broader AI industry.",
-      "tickers_mentioned": "[\"N/A\"]",
-      "sentiment": "bullish",
+      "id": 9,
+      "title": "Milton Berg's Market Signals: Local Bottom or Major Top?",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters",
+      "source_date": "2026-02-06",
+      "summary": "Legendary technician sees conflicting signals: December VXN sell signal suggests major top, but Thursday's panic indicators (35% VXN spike, Russell island reversal) match historical local bottoms. April 2025 buy signals have not yet achieved projected 6-8% upside.",
+      "key_takeaway": "Unprecedented Russell 2000 island reversal suggests sharp correction likely, but panic may be overdone short-term",
+      "tickers_mentioned": "[\"SPY\", \"QQQ\", \"IWM\"]",
+      "sentiment": "bearish",
       "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-02-22",
+      "display_order": 2,
+      "added_date": "2026-02-15",
       "archived_date": null,
       "archived_reason": null,
       "podcast_episode_id": null,
@@ -1093,7 +1093,7 @@ const dashboardData = {
     }
   ]
 },
-  "deepDives": {
+  deepDives: {
   "1": {
     "id": 1,
     "insight_id": 1,
@@ -2173,7 +2173,7 @@ const dashboardData = {
     "updated_at": "2026-02-22 20:51:20",
     "insight_title": "Carson Block: Short AI Pretenders, Buy Gold Miners",
     "source_name": "Monetary Matters with Jack Farley",
-    "source_date": "2023-04-01"
+    "source_date": "2026-02-04"
   },
   "22": {
     "id": 20,
@@ -2243,7 +2243,7 @@ const dashboardData = {
     "updated_at": "2026-02-22 20:51:38",
     "insight_title": "Jack Mallers: Bitcoin Transitions from Software to Hard Asset",
     "source_name": "The Jack Mallers Show",
-    "source_date": "2025-04-06"
+    "source_date": "2026-02-10"
   },
   "25": {
     "id": 21,
@@ -2314,7 +2314,7 @@ const dashboardData = {
     "updated_at": "2026-02-22 20:51:57",
     "insight_title": "Brett Adcock: Humanoid Robots Running Neural Nets \u2014 Autonomous Manufacturing Now",
     "source_name": "Moonshots with Peter Diamandis",
-    "source_date": "2023-03-01"
+    "source_date": "2026-02-22"
   },
   "26": {
     "id": 22,
@@ -2985,7 +2985,7 @@ const dashboardData = {
     "source_date": "2026-02-22"
   }
 },
-  "suggestedTerms": [
+  suggestedTerms: [
   {
     "id": 1,
     "term": "Compute Deflation Trade",
@@ -3025,6 +3025,7 @@ const dashboardData = {
 ]
 };
 
+// Export for use in other scripts
 if (typeof module !== 'undefined' && module.exports) {
   module.exports = dashboardData;
 }
