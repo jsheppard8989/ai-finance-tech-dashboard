@@ -1,8 +1,8 @@
-// Auto-generated data file - 2026-02-24T06:14:29.216502
+// Auto-generated data file - 2026-02-24T06:24:23.435616
 // DO NOT EDIT MANUALLY
 
 const dashboardData = {
-  generatedAt: "2026-02-24T06:14:29.216510",
+  generatedAt: "2026-02-24T06:24:23.435625",
   tickerScores: [
   {
     "id": 72,
@@ -445,11 +445,11 @@ const dashboardData = {
         "TLT"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 2,
       "added_date": "2026-02-10",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-02-24",
+      "archived_reason": "Duplicate: Milton Berg interview, keeping id=9",
       "podcast_episode_id": null
     },
     {
@@ -525,8 +525,8 @@ const dashboardData = {
       "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-02-22",
-      "archived_date": "2026-02-23",
-      "archived_reason": "Auto-archived: keep 8 most recent on main",
+      "archived_date": "2026-02-24",
+      "archived_reason": "Duplicate: Milton Berg interview, keeping id=9",
       "podcast_episode_id": 16
     },
     {
@@ -623,7 +623,7 @@ const dashboardData = {
         "DOCS"
       ],
       "sentiment": "bullish",
-      "display_on_main": 0,
+      "display_on_main": 1,
       "display_order": 4,
       "added_date": "2026-01-25",
       "archived_date": null,
@@ -974,24 +974,6 @@ const dashboardData = {
       "episode_release_date": null
     },
     {
-      "id": 2,
-      "title": "Gold Climax Top Signal",
-      "source_type": "podcast",
-      "source_name": "Monetary Matters",
-      "source_date": "2026-02-10",
-      "summary": "Milton Berg institutional model flipped net-short across major indices while retail remains 100% long. Historical pattern suggests 8% drawdown.",
-      "key_takeaway": "Risk-off: Reduce momentum exposure. Watch VIX >25.",
-      "tickers_mentioned": "[\"VIX\", \"SQQQ\", \"TLT\"]",
-      "sentiment": "bearish",
-      "display_on_main": 1,
-      "display_order": 2,
-      "added_date": "2026-02-10",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": null,
-      "episode_release_date": null
-    },
-    {
       "id": 9,
       "title": "Milton Berg's Market Signals: Local Bottom or Major Top?",
       "source_type": "podcast",
@@ -1004,6 +986,24 @@ const dashboardData = {
       "display_on_main": 1,
       "display_order": 2,
       "added_date": "2026-02-15",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": null,
+      "episode_release_date": null
+    },
+    {
+      "id": 4,
+      "title": "Healthcare AI Moats",
+      "source_type": "podcast",
+      "source_name": "a16z Live",
+      "source_date": "2026-01-25",
+      "summary": "Tennr and Camber building operational infrastructure rather than clinical AI. First-mover advantage in regulatory capture.",
+      "key_takeaway": "Watch for IPO pipeline in healthtech operations.",
+      "tickers_mentioned": "[\"VEEV\", \"TDOC\", \"DOCS\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 4,
+      "added_date": "2026-01-25",
       "archived_date": null,
       "archived_reason": null,
       "podcast_episode_id": null,
