@@ -259,6 +259,45 @@ class DashboardDB:
                       json.dumps(score.hidden_plays) if score.hidden_plays else None,
                       score.rank))
     
+    def get_all_ticker_scores(self, limit: int = 50) -> List[Dict]:
+        """Get all tickers ranked by total weighted score from all mentions."""
+        with self._get_connection() as conn:
+            cursor = conn.execute("""
+                SELECT 
+                    ticker,
+                    SUM(weighted_score) as total_score,
+                    COUNT(*) as raw_mention_count,
+                    COUNT(DISTINCT source_type) as unique_sources,
+                    SUM(CASE WHEN source_type = 'podcast' THEN 1 ELSE 0 END) as podcast_mentions,
+                    SUM(CASE WHEN source_type = 'newsletter' THEN 1 ELSE 0 END) as newsletter_mentions
+                FROM ticker_mentions
+                WHERE ticker NOT IN ('S&P', 'Nasdaq', 'Russell', 'Semiconductors')
+                GROUP BY ticker
+                ORDER BY total_score DESC
+                LIMIT ?
+            """, (limit,))
+            
+            results = []
+            rank = 1
+            for row in cursor.fetchall():
+                results.append({
+                    'ticker': row['ticker'],
+                    'total_score': round(row['total_score'], 1),
+                    'raw_mention_count': row['raw_mention_count'],
+                    'unique_sources': row['unique_sources'],
+                    'podcast_mentions': row['podcast_mentions'],
+                    'newsletter_mentions': row['newsletter_mentions'],
+                    'rank': rank,
+                    'score': round(row['total_score'], 1),  # For frontend compatibility
+                    'mentions': row['raw_mention_count'],  # For frontend compatibility
+                    'conviction_level': 'medium',  # Default, can be enhanced
+                    'contrarian_signal': 'neutral',  # Default, can be enhanced
+                    'timeframe': 'long_term',  # Default, can be enhanced
+                    'contexts': []  # Can be populated with actual contexts if needed
+                })
+                rank += 1
+            return results
+
     def get_daily_scores(self, score_date: date = None) -> List[Dict]:
         """Get daily scores for website."""
         with self._get_connection() as conn:
@@ -291,8 +330,8 @@ class DashboardDB:
         output_dir = Path(output_dir)
         output_dir.mkdir(parents=True, exist_ok=True)
         
-        # Export daily scores (tickers)
-        scores = self.get_daily_scores()
+        # Export all tickers ranked by total weighted score from ticker_mentions
+        scores = self.get_all_ticker_scores()
         with open(output_dir / 'ticker_scores.json', 'w') as f:
             json.dump(scores, f, indent=2, default=str)
         
