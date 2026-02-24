@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
 Fetch stock data from Yahoo Finance and generate candlestick charts.
+Only charts the top 10 tickers by weighted score + QQQ/BTC for title bar.
 """
 
 import yfinance as yf
@@ -9,62 +10,54 @@ import matplotlib.dates as mdates
 from datetime import datetime, timedelta
 from pathlib import Path
 import pandas as pd
+import sqlite3
+import json
 
 # Config
 CHARTS_DIR = Path.home() / ".openclaw/workspace/site/charts"
 CHARTS_DIR.mkdir(exist_ok=True)
 
-# Stock symbols to chart (primary tickers for main display)
-STOCKS = {
-    'GOOGL': 'Alphabet Inc.',
-    'MSFT': 'Microsoft Corporation',
-    'AAPL': 'Apple Inc.',
-    'NVDA': 'NVIDIA Corporation',
-    'META': 'Meta Platforms Inc.',
-    'BTC-USD': 'Bitcoin USD',
-    'QQQ': 'Invesco QQQ Trust'
+DB_PATH = Path.home() / ".openclaw/workspace/pipeline/dashboard.db"
+
+# Always-chart tickers for title bar display
+TITLE_BAR_TICKERS = {
+    'QQQ': 'Invesco QQQ Trust',
+    'BTC-USD': 'Bitcoin USD'
 }
 
-def get_all_tickers_from_scores():
-    """Get all tickers from ticker_scores.json to ensure we chart everything."""
-    import json
-    ticker_file = Path.home() / ".openclaw/workspace/site/data/ticker_scores.json"
-    tickers = {}
-    if ticker_file.exists():
-        try:
-            with open(ticker_file, 'r') as f:
-                scores = json.load(f)
-                for s in scores:
-                    if 'ticker' in s:
-                        ticker = s['ticker']
-                        # Map BTC to BTC-USD for Yahoo Finance
-                        symbol = 'BTC-USD' if ticker == 'BTC' else ticker
-                        tickers[symbol] = s.get('name', ticker)
-        except Exception as e:
-            print(f"Warning: Could not load ticker_scores.json: {e}")
-    return tickers
 
-# Second order / hidden play tickers (supply chain beneficiaries)
-SECOND_ORDER_TICKERS = {
-    # NVDA supply chain
-    'NEE': 'NextEra Energy', 'CEG': 'Constellation Energy', 'VST': 'Vistra Corp',
-    'SMR': 'NuScale Power', 'OKLO': 'Oklo Inc', 'BWXT': 'BWX Technologies',
-    'CWST': 'Casella Waste', 'XYL': 'Xylem Inc', 'AWK': 'American Water',
-    'ANET': 'Arista Networks', 'AVGO': 'Broadcom Inc', 'MRVL': 'Marvell Tech',
-    'CSCO': 'Cisco Systems', 'DLR': 'Digital Realty', 'EQIX': 'Equinix Inc',
-    # GOOGL supply chain
-    'FFIV': 'F5 Inc', 'NET': 'Cloudflare', 'DDOG': 'Datadog',
-    'SNOW': 'Snowflake', 'PLTR': 'Palantir', 'CFLT': 'Confluent',
-    # MSFT supply chain
-    'CRM': 'Salesforce', 'NOW': 'ServiceNow', 'VEEV': 'Veeva Systems',
-    'WDAY': 'Workday', 'MDB': 'MongoDB',
-    # AAPL supply chain
-    'SWKS': 'Skyworks', 'QRVO': 'Qorvo', 'QCOM': 'Qualcomm',
-    'SQ': 'Block Inc', 'PYPL': 'PayPal', 'SOFI': 'SoFi Technologies',
-    # Broad market / other
-    'ASML': 'ASML Holding', 'AMAT': 'Applied Materials', 'LRCX': 'Lam Research',
-    'KLAC': 'KLA Corp', 'INTC': 'Intel Corp', 'AMD': 'AMD'
-}
+def get_top_tickers_from_db(limit=10):
+    """Get top tickers by weighted score from database."""
+    try:
+        conn = sqlite3.connect(DB_PATH)
+        conn.row_factory = sqlite3.Row
+        
+        cursor = conn.execute("""
+            SELECT ticker, SUM(weighted_score) as total_score, COUNT(*) as mentions
+            FROM ticker_mentions
+            WHERE ticker NOT IN ('S&P', 'Nasdaq', 'Russell', 'Semiconductors')  -- Skip index names
+            GROUP BY ticker
+            ORDER BY total_score DESC
+            LIMIT ?
+        """, (limit,))
+        
+        tickers = {}
+        for row in cursor.fetchall():
+            ticker = row['ticker']
+            # Map BTC to BTC-USD for Yahoo Finance
+            symbol = 'BTC-USD' if ticker == 'BTC' else ticker
+            tickers[symbol] = {
+                'name': ticker,  # Use ticker as name, can be enhanced later
+                'score': row['total_score'],
+                'mentions': row['mentions']
+            }
+        
+        conn.close()
+        return tickers
+    except Exception as e:
+        print(f"Warning: Could not load tickers from database: {e}")
+        return {}
+
 
 def fetch_data(symbol, period='14d'):
     """Fetch historical data from Yahoo Finance."""
@@ -82,6 +75,7 @@ def fetch_data(symbol, period='14d'):
     except Exception as e:
         print(f"  ✗ Error fetching {symbol}: {e}")
         return None
+
 
 def create_candlestick_chart(df, symbol, name):
     """Create a candlestick chart from the data."""
@@ -168,9 +162,9 @@ def create_candlestick_chart(df, symbol, name):
         print(f"  ✗ Error creating chart for {symbol}: {e}")
         return None
 
+
 def save_price_data(all_data):
     """Save price data to JSON for webpage consumption."""
-    import json
     price_data = {}
     
     for item in all_data:
@@ -190,28 +184,31 @@ def save_price_data(all_data):
     print(f"\n✓ Price data saved to: {price_file}")
     return price_file
 
+
 def main():
     print("=" * 60)
-    print("Stock Chart Generator - 2 Week (14 Day) Charts")
+    print("Stock Chart Generator - Top 10 Tickers + Title Bar")
     print("=" * 60)
     
     charts_created = []
     all_price_data = []
     
-    # Get all tickers from ticker_scores.json
-    all_tickers = get_all_tickers_from_scores()
+    # Get top 10 tickers from database
+    top_tickers = get_top_tickers_from_db(limit=10)
     
-    # Ensure QQQ and BTC-USD are included (for title bar display)
-    if 'QQQ' not in all_tickers:
-        all_tickers['QQQ'] = 'Invesco QQQ Trust'
-    if 'BTC-USD' not in all_tickers and 'BTC' in all_tickers:
-        all_tickers['BTC-USD'] = all_tickers['BTC']  # Map BTC to BTC-USD for Yahoo Finance
+    # Add title bar tickers
+    all_tickers = dict(top_tickers)  # Copy top tickers
+    for symbol, name in TITLE_BAR_TICKERS.items():
+        if symbol not in all_tickers:
+            all_tickers[symbol] = {'name': name, 'score': 0, 'mentions': 0}
     
-    print(f"\n📊 Found {len(all_tickers)} tickers to chart")
+    print(f"\n📊 Charting {len(top_tickers)} top tickers + {len(TITLE_BAR_TICKERS)} title bar tickers")
+    print("Top tickers:", list(top_tickers.keys()))
     print("-" * 40)
     
     # Generate/update charts for all tickers
-    for symbol, name in all_tickers.items():
+    for symbol, info in all_tickers.items():
+        name = info['name'] if isinstance(info, dict) else info
         print(f"\n📊 Processing {symbol}...")
         
         # Fetch data (14 days = 2 weeks)
@@ -254,6 +251,7 @@ def main():
     print(f"Charts created/updated: {len(charts_created)}")
     print(f"Charts saved to: {CHARTS_DIR}")
     return charts_created
+
 
 if __name__ == "__main__":
     main()
