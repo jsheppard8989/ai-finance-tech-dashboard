@@ -8,6 +8,7 @@ import xml.etree.ElementTree as ET
 import urllib.request
 import subprocess
 import json
+import shutil
 from pathlib import Path
 from datetime import datetime
 
@@ -169,6 +170,34 @@ WHISPER_QUEUE_DIR = Path.home() / ".openclaw/workspace/whisper_queue"
 WHISPER_DONE_DIR  = Path.home() / ".openclaw/workspace/whisper_done"
 
 
+def sweep_completed_transcripts():
+    """
+    Sweep any completed transcripts from whisper_done into the pipeline transcripts dir.
+    This makes the system resilient if a previous run timed out or was interrupted
+    after Whisper finished but before the move occurred.
+    """
+    WHISPER_DONE_DIR.mkdir(parents=True, exist_ok=True)
+    TRANSCRIPT_DIR.mkdir(parents=True, exist_ok=True)
+
+    moved = 0
+
+    # Move transcript text files
+    for txt in WHISPER_DONE_DIR.glob("*.txt"):
+        dest = TRANSCRIPT_DIR / txt.name
+        if not dest.exists():
+            shutil.move(str(txt), str(dest))
+            moved += 1
+
+    # Move matching metadata files
+    for meta in WHISPER_DONE_DIR.glob("*.meta.json"):
+        dest = TRANSCRIPT_DIR / meta.name
+        if not dest.exists():
+            shutil.move(str(meta), str(dest))
+            moved += 1
+
+    if moved:
+        print(f"  ✓ Swept {moved} completed transcript file(s) from whisper_done into transcripts")
+
 def transcribe_via_launchagent(audio_path, episode, poll_interval=15, timeout_secs=3600):
     """
     Submit audio to the whisper LaunchAgent queue and poll for completion.
@@ -297,7 +326,10 @@ def main():
     print("=" * 70)
     print("Fetch & Transcribe Latest Podcast Episodes")
     print("=" * 70)
-    
+
+    # First, sweep any transcripts that Whisper finished after a previous run timed out.
+    sweep_completed_transcripts()
+
     feeds = load_feeds()
     print(f"\nFound {len(feeds)} podcast feeds")
     
