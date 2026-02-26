@@ -1,6 +1,42 @@
 {
   "insights": [
     {
+      "id": 46,
+      "title": "AI Breaking the System and What It Means for Bitcoin",
+      "source_type": "podcast",
+      "source_name": "The Jack Mallers Show",
+      "source_date": "2026-02-24",
+      "summary": "In this episode of 'The Jack Mallers Show', Jack Mallers discusses the impact of AI on the job market, particularly in white-collar professions like accounting, and its implications for Bitcoin. He also touches on the performance of gold, the US's second-largest export in 2025, and the potential for a credit crisis due to sovereign debt issues, especially in Japan. Jack emphasizes the importance of Bitcoin as a leading indicator of market trends and a 'truth teller', suggesting that the current market conditions are not favorable for Bitcoin but that it will recover. He also discusses the inflationary impact of reshoring manufacturing and the increasing commodity prices.",
+      "key_takeaway": "Bitcoin is positioned to act as a leading indicator of market trends and a 'truth teller', suggesting that despite current market challenges, it will recover and continue to be a significant asset in the face of economic shifts.",
+      "tickers_mentioned": [
+        "BTC"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-02-26",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 30
+    },
+    {
+      "id": 47,
+      "title": "State of the Union on Age Reversal",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-02-24",
+      "summary": "In this episode of Moonshots with Peter Diamandis, Dr. David Sinclair, a professor at Harvard Medical School and author of 'LifeSpan', discusses the future of age reversal technology, focusing on epigenetic reprogramming, longevity escape velocity, and the role of AI in longevity science. Dr. Sinclair shares his insights on the near-term possibilities of age reversal, how individuals can support and benefit from these advancements, and his personal experience with longevity practices. The conversation also touches on the potential risks and benefits of certain longevity treatments and the importance of exercise and diet in maintaining health.",
+      "key_takeaway": "Investment in longevity science and age reversal technologies presents a significant opportunity for individuals seeking to extend their healthspan and lifespan, with potential for high returns on investment in this emerging field.",
+      "tickers_mentioned": [],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-02-26",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 29
+    },
+    {
       "id": 25,
       "title": "Brett Adcock: Humanoid Robots Running Neural Nets \u2014 Autonomous Manufacturing Now",
       "source_type": "podcast",
@@ -408,11 +444,11 @@
         "IWM"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 2,
       "added_date": "2026-02-15",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-02-26",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": null
     },
     {
@@ -531,11 +567,11 @@
         "DOCS"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 4,
       "added_date": "2026-01-25",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-02-26",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": null
     },
     {

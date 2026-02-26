@@ -254,7 +254,6 @@ Please provide your analysis in this exact JSON format:
   ],
   "key_tickers": ["LIST", "OF", "TICKERS", "MENTIONED"],
   "investment_thesis": "1-2 sentence summary of the core investment opportunity or thesis presented",
-  "relevance_score": 85,
   "ticker_mentions": [
     {{
       "ticker": "TICKER",
@@ -269,7 +268,6 @@ Please provide your analysis in this exact JSON format:
 }}
 
 Scoring guidelines:
-- relevance_score: 0-100 based on investment value (90+ for exceptional insights, 70-89 for solid content, <70 for light mentions)
 - conviction_score: 0-100 per ticker based on strength of argument (90+ for "deep dive/thesis", 70-89 for strong preference, 50-69 for positive mention, <50 for tracking/watching)
 - sentiment: Use explicit statements from speakers, not your inference
 - is_contrarian: true if speaker explicitly mentions going against consensus, "unloved", "underowned"
@@ -461,7 +459,7 @@ def process_transcript_file(transcript_path: Path, client_info, db) -> Optional[
         key_takeaways=analysis.get('key_takeaways', []),
         key_tickers=analysis.get('key_tickers', []),
         investment_thesis=analysis.get('investment_thesis', '')[:500],
-        relevance_score=analysis.get('relevance_score', 70)
+        relevance_score=80  # Fixed baseline; no AI-calculated relevance
     )
     
     episode_id = db.add_podcast_episode(episode)

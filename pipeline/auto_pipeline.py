@@ -271,8 +271,7 @@ def promote_episodes_to_insights() -> int:
         # Find processed episodes not yet in latest_insights
         cursor = conn.execute("""
             SELECT pe.id, pe.podcast_name, pe.episode_title, pe.episode_date,
-                   pe.summary, pe.key_takeaways, pe.key_tickers, pe.investment_thesis,
-                   pe.relevance_score
+                   pe.summary, pe.key_takeaways, pe.key_tickers, pe.investment_thesis
             FROM podcast_episodes pe
             WHERE pe.is_processed = 1
               AND pe.id NOT IN (
@@ -287,11 +286,6 @@ def promote_episodes_to_insights() -> int:
 
     for ep in episodes:
         ep = dict(ep)
-
-        # Skip low-relevance episodes
-        if ep['relevance_score'] < 60:
-            print(f"  ⏭ Skipping '{ep['episode_title'][:60]}' (relevance={ep['relevance_score']})")
-            continue
 
         # Derive key_takeaway from investment_thesis or first key_takeaway bullet
         key_takeaway = ep['investment_thesis'] or ''
@@ -354,7 +348,7 @@ def promote_episodes_to_insights() -> int:
                 ep['id']
             ))
             promoted += 1
-            print(f"  ✓ Promoted: '{ep['episode_title'][:60]}' (relevance={ep['relevance_score']}, sentiment={sentiment})")
+            print(f"  ✓ Promoted: '{ep['episode_title'][:60]}' (sentiment={sentiment})")
 
     # Auto-archive oldest insights beyond 8 on main page
     with db._get_connection() as conn:

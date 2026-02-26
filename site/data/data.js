@@ -1,19 +1,19 @@
-// Auto-generated data file - 2026-02-24T06:39:56.099983
+// Auto-generated - 2026-02-26T13:36:10.583714
 // DO NOT EDIT MANUALLY
 
 const dashboardData = {
-  generatedAt: "2026-02-24T06:39:56.099993",
-  tickerScores: [
+  "generatedAt": "2026-02-26T13:36:10.583764",
+  "tickerScores": [
   {
     "ticker": "BTC",
-    "total_score": 218.0,
-    "raw_mention_count": 3,
+    "total_score": 292.0,
+    "raw_mention_count": 4,
     "unique_sources": 1,
-    "podcast_mentions": 3,
+    "podcast_mentions": 4,
     "newsletter_mentions": 0,
     "rank": 1,
-    "score": 218.0,
-    "mentions": 3,
+    "score": 292.0,
+    "mentions": 4,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
     "timeframe": "long_term",
@@ -425,8 +425,44 @@ const dashboardData = {
     "contexts": []
   }
 ],
-  archive: {
+  "archive": {
   "insights": [
+    {
+      "id": 46,
+      "title": "AI Breaking the System and What It Means for Bitcoin",
+      "source_type": "podcast",
+      "source_name": "The Jack Mallers Show",
+      "source_date": "2026-02-24",
+      "summary": "In this episode of 'The Jack Mallers Show', Jack Mallers discusses the impact of AI on the job market, particularly in white-collar professions like accounting, and its implications for Bitcoin. He also touches on the performance of gold, the US's second-largest export in 2025, and the potential for a credit crisis due to sovereign debt issues, especially in Japan. Jack emphasizes the importance of Bitcoin as a leading indicator of market trends and a 'truth teller', suggesting that the current market conditions are not favorable for Bitcoin but that it will recover. He also discusses the inflationary impact of reshoring manufacturing and the increasing commodity prices.",
+      "key_takeaway": "Bitcoin is positioned to act as a leading indicator of market trends and a 'truth teller', suggesting that despite current market challenges, it will recover and continue to be a significant asset in the face of economic shifts.",
+      "tickers_mentioned": [
+        "BTC"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-02-26",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 30
+    },
+    {
+      "id": 47,
+      "title": "State of the Union on Age Reversal",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-02-24",
+      "summary": "In this episode of Moonshots with Peter Diamandis, Dr. David Sinclair, a professor at Harvard Medical School and author of 'LifeSpan', discusses the future of age reversal technology, focusing on epigenetic reprogramming, longevity escape velocity, and the role of AI in longevity science. Dr. Sinclair shares his insights on the near-term possibilities of age reversal, how individuals can support and benefit from these advancements, and his personal experience with longevity practices. The conversation also touches on the potential risks and benefits of certain longevity treatments and the importance of exercise and diet in maintaining health.",
+      "key_takeaway": "Investment in longevity science and age reversal technologies presents a significant opportunity for individuals seeking to extend their healthspan and lifespan, with potential for high returns on investment in this emerging field.",
+      "tickers_mentioned": [],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-02-26",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 29
+    },
     {
       "id": 25,
       "title": "Brett Adcock: Humanoid Robots Running Neural Nets \u2014 Autonomous Manufacturing Now",
@@ -835,11 +871,11 @@ const dashboardData = {
         "IWM"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 2,
       "added_date": "2026-02-15",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-02-26",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": null
     },
     {
@@ -958,11 +994,11 @@ const dashboardData = {
         "DOCS"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 4,
       "added_date": "2026-01-25",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-02-26",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": null
     },
     {
@@ -1198,8 +1234,44 @@ const dashboardData = {
     }
   ]
 },
-  mainContent: {
+  "mainContent": {
   "insights": [
+    {
+      "id": 46,
+      "title": "AI Breaking the System and What It Means for Bitcoin",
+      "source_type": "podcast",
+      "source_name": "The Jack Mallers Show",
+      "source_date": "2026-02-24",
+      "summary": "In this episode of 'The Jack Mallers Show', Jack Mallers discusses the impact of AI on the job market, particularly in white-collar professions like accounting, and its implications for Bitcoin. He also touches on the performance of gold, the US's second-largest export in 2025, and the potential for a credit crisis due to sovereign debt issues, especially in Japan. Jack emphasizes the importance of Bitcoin as a leading indicator of market trends and a 'truth teller', suggesting that the current market conditions are not favorable for Bitcoin but that it will recover. He also discusses the inflationary impact of reshoring manufacturing and the increasing commodity prices.",
+      "key_takeaway": "Bitcoin is positioned to act as a leading indicator of market trends and a 'truth teller', suggesting that despite current market challenges, it will recover and continue to be a significant asset in the face of economic shifts.",
+      "tickers_mentioned": "[\"BTC\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-02-26",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 30,
+      "episode_release_date": "2026-02-24"
+    },
+    {
+      "id": 47,
+      "title": "State of the Union on Age Reversal",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-02-24",
+      "summary": "In this episode of Moonshots with Peter Diamandis, Dr. David Sinclair, a professor at Harvard Medical School and author of 'LifeSpan', discusses the future of age reversal technology, focusing on epigenetic reprogramming, longevity escape velocity, and the role of AI in longevity science. Dr. Sinclair shares his insights on the near-term possibilities of age reversal, how individuals can support and benefit from these advancements, and his personal experience with longevity practices. The conversation also touches on the potential risks and benefits of certain longevity treatments and the importance of exercise and diet in maintaining health.",
+      "key_takeaway": "Investment in longevity science and age reversal technologies presents a significant opportunity for individuals seeking to extend their healthspan and lifespan, with potential for high returns on investment in this emerging field.",
+      "tickers_mentioned": "[]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-02-26",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 29,
+      "episode_release_date": "2026-02-24"
+    },
     {
       "id": 45,
       "title": "The Future of Consumer Technology and Interfaces",
@@ -1307,42 +1379,6 @@ const dashboardData = {
       "archived_reason": null,
       "podcast_episode_id": null,
       "episode_release_date": null
-    },
-    {
-      "id": 9,
-      "title": "Milton Berg's Market Signals: Local Bottom or Major Top?",
-      "source_type": "podcast",
-      "source_name": "Monetary Matters",
-      "source_date": "2026-02-06",
-      "summary": "Legendary technician sees conflicting signals: December VXN sell signal suggests major top, but Thursday's panic indicators (35% VXN spike, Russell island reversal) match historical local bottoms. April 2025 buy signals have not yet achieved projected 6-8% upside.",
-      "key_takeaway": "Unprecedented Russell 2000 island reversal suggests sharp correction likely, but panic may be overdone short-term",
-      "tickers_mentioned": "[\"SPY\", \"QQQ\", \"IWM\"]",
-      "sentiment": "bearish",
-      "display_on_main": 1,
-      "display_order": 2,
-      "added_date": "2026-02-15",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": null,
-      "episode_release_date": null
-    },
-    {
-      "id": 4,
-      "title": "Healthcare AI Moats",
-      "source_type": "podcast",
-      "source_name": "a16z Live",
-      "source_date": "2026-01-25",
-      "summary": "Tennr and Camber building operational infrastructure rather than clinical AI. First-mover advantage in regulatory capture.",
-      "key_takeaway": "Watch for IPO pipeline in healthtech operations.",
-      "tickers_mentioned": "[\"VEEV\", \"TDOC\", \"DOCS\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 4,
-      "added_date": "2026-01-25",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": null,
-      "episode_release_date": null
     }
   ],
   "definitions": [
@@ -1428,7 +1464,7 @@ const dashboardData = {
     }
   ]
 },
-  deepDives: {
+  "deepDives": {
   "1": {
     "id": 1,
     "insight_id": 1,
@@ -3320,7 +3356,7 @@ const dashboardData = {
     "source_date": "2026-02-22"
   }
 },
-  suggestedTerms: [
+  "suggestedTerms": [
   {
     "id": 1,
     "term": "Compute Deflation Trade",
@@ -3360,7 +3396,6 @@ const dashboardData = {
 ]
 };
 
-// Export for use in other scripts
 if (typeof module !== 'undefined' && module.exports) {
   module.exports = dashboardData;
 }
