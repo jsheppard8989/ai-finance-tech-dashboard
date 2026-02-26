@@ -700,8 +700,10 @@ def main():
     results['insights_promoted'] = promote_episodes_to_insights()
     results['insights_promoted'] += promote_newsletters_to_insights()
     results['scores'] = aggregate_scores()
-
+    
     run_script("Fetch Prices", "fetch_prices.py", timeout=120)
+    # Generate 2-week charts and price data for the website
+    run_script("Generate Charts", "generate_charts.py", timeout=600)
     run_script("Auto-Curate Terms", "auto_curate_terms.py", timeout=60)
 
     export_website()
