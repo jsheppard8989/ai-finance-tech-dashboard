@@ -241,7 +241,7 @@ pipeline/
 
 All jobs use `model: moonshot/kimi-k2-thinking` in isolated sessions.  
 **Note:** System crontab is empty — all scheduling is via OpenClaw cron.  
-**Model note:** Always use `moonshot/kimi-k2-thinking` for cron jobs and pipeline scripts. The `kimi-coding` provider is invalid. Never use `kimi-coding/k2p5` or `moonshot/kimi-k2.5` — preference is `kimi-k2-thinking`.
+**Model note:** Use `moonshot/kimi-k2.5` for cron jobs — confirmed working. `kimi-coding/kimi-k2-thinking` 401s (provider URL broken). `moonshot/kimi-k2-thinking` shows as MISSING in OpenClaw. Only `moonshot/kimi-k2.5` is confirmed functional for isolated/cron sessions.
 
 ---
 
