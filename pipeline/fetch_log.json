@@ -1,12 +1,4 @@
 {
-  "timestamp": "2026-02-22T22:14:54.775486",
-  "results": [
-    {
-      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "title": "Prince Andrew Arrested, Epstein Mythology, Reid Hoffman Files with Saagar Enjeti & Michael Tracey",
-      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/ALLIN-E262_Ch.mp3",
-      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/ALLIN-E262_Ch.txt",
-      "success": true
-    }
-  ]
+  "timestamp": "2026-02-26T14:27:46.405401",
+  "results": []
 }
