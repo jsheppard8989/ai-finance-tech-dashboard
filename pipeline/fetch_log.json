@@ -1,4 +1,12 @@
 {
-  "timestamp": "2026-02-26T14:27:46.405401",
-  "results": []
+  "timestamp": "2026-02-26T15:58:30.187187",
+  "results": [
+    {
+      "podcast": "Moonshots with Peter Diamandis",
+      "title": "Can AI Replace Teachers? Inside the $40M Company Using AI Tutors to Teach 200% Faster | #233",
+      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/DVVTS3937248093.mp3",
+      "transcript_path": null,
+      "success": false
+    }
+  ]
 }
