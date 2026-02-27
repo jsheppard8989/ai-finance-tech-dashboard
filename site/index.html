@@ -1679,7 +1679,7 @@
   </div>
 
   <!-- Load dashboard data from pipeline (if available) -->
-  <script src="./data/data.js?v=1772139512"></script>
+  <script src="./data/data.js?v=1772168367"></script>
   
   <script>
     // Load emerging terms from database (AI-curated, no voting)
@@ -2755,38 +2755,32 @@
       btnLoading.style.display = 'inline';
 
       try {
-        // Store submission locally (in production, this would go to a server)
-        const submission = {
-          id: Date.now(),
-          name: name || 'Anonymous',
-          contact: contact,
-          contactType: isEmail ? 'email' : 'phone',
-          message: message || '',
-          wantsWeeklyUpdates: wantsWeekly,
-          submittedAt: new Date().toISOString(),
-          verified: false,
-          verificationSent: false
-        };
+        // Send to backend API
+        const response = await fetch('http://localhost:8765/contact', {
+          method: 'POST',
+          headers: {'Content-Type': 'application/json'},
+          body: JSON.stringify({
+            name: name || 'Anonymous',
+            contact: contact,
+            message: message || '',
+            wantsWeekly: wantsWeekly
+          })
+        });
 
-        // Save to localStorage for demo purposes
-        const submissions = JSON.parse(localStorage.getItem('contact_submissions') || '[]');
-        submissions.push(submission);
-        localStorage.setItem('contact_submissions', JSON.stringify(submissions));
+        if (!response.ok) {
+          throw new Error('Server error: ' + response.status);
+        }
 
         // Show success message
         const weeklyText = wantsWeekly ? ' You\'ve opted in for weekly updates.' : '';
         showStatus(
-          `✓ Thanks${name ? ', ' + name : ''}! We've received your ${isEmail ? 'email' : 'phone number'}. ` +
-          `A verification ${isEmail ? 'email' : 'text message'} will be sent to confirm.${weeklyText} ` +
+          `✓ Thanks${name ? ', ' + name : ''}! We've received your ${isEmail ? 'email' : 'phone number'}.${weeklyText} ` +
           `Reply STOP anytime to unsubscribe.`,
           'success'
         );
 
         // Reset form
         this.reset();
-
-        // Log for admin review (in production, this would trigger backend verification)
-        console.log('New contact submission:', submission);
 
       } catch (error) {
         console.error('Form submission error:', error);
