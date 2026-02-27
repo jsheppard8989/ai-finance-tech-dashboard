@@ -1,0 +1,12 @@
+{
+  "pending": [
+    {
+      "id": 1772142557,
+      "name": "Test User",
+      "contact": "+15551234567",
+      "message": "Hello from test",
+      "wantsWeekly": true,
+      "submittedAt": "2026-02-26T16:49:17.214465"
+    }
+  ]
+}
