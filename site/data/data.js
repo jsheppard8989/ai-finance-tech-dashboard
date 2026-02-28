@@ -1,8 +1,8 @@
-// Auto-generated - 2026-02-26T23:59:27.892722
+// Auto-generated - 2026-02-27T19:52:20.626485
 // DO NOT EDIT MANUALLY
 
 const dashboardData = {
-  "generatedAt": "2026-02-26T23:59:27.892754",
+  "generatedAt": "2026-02-27T19:52:20.626531",
   "tickerScores": [
   {
     "ticker": "BTC",
