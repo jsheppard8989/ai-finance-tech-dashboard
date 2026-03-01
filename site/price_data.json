@@ -1,68 +1,68 @@
 {
   "BTC-USD": {
-    "price": 66376.09,
-    "change_pct": -3.58,
+    "price": 65760.31,
+    "change_pct": -4.48,
     "name": "BTC",
-    "updated_at": "2026-03-01T13:53:53.720936"
+    "updated_at": "2026-03-01T18:27:15.920904"
   },
   "NVDA": {
     "price": 177.19,
     "change_pct": -6.76,
     "name": "NVDA",
-    "updated_at": "2026-03-01T13:53:53.720955"
+    "updated_at": "2026-03-01T18:27:15.920915"
   },
   "MSFT": {
     "price": 392.74,
     "change_pct": -4.83,
     "name": "MSFT",
-    "updated_at": "2026-03-01T13:53:53.720963"
+    "updated_at": "2026-03-01T18:27:15.920918"
   },
   "GOOGL": {
     "price": 311.76,
     "change_pct": -3.87,
     "name": "GOOGL",
-    "updated_at": "2026-03-01T13:53:53.720971"
+    "updated_at": "2026-03-01T18:27:15.920922"
   },
   "MSTR": {
     "price": 129.5,
     "change_pct": -6.46,
     "name": "MSTR",
-    "updated_at": "2026-03-01T13:53:53.720979"
+    "updated_at": "2026-03-01T18:27:15.920925"
   },
   "COIN": {
     "price": 175.85,
     "change_pct": 5.14,
     "name": "COIN",
-    "updated_at": "2026-03-01T13:53:53.720986"
+    "updated_at": "2026-03-01T18:27:15.920928"
   },
   "SPY": {
     "price": 685.99,
     "change_pct": -1.15,
     "name": "SPY",
-    "updated_at": "2026-03-01T13:53:53.720993"
+    "updated_at": "2026-03-01T18:27:15.920932"
   },
   "AMZN": {
     "price": 210.0,
     "change_pct": 0.61,
     "name": "AMZN",
-    "updated_at": "2026-03-01T13:53:53.721001"
+    "updated_at": "2026-03-01T18:27:15.920935"
   },
   "GLD": {
     "price": 483.75,
     "change_pct": 3.58,
     "name": "GLD",
-    "updated_at": "2026-03-01T13:53:53.721008"
+    "updated_at": "2026-03-01T18:27:15.920937"
   },
   "META": {
     "price": 648.18,
     "change_pct": -4.29,
     "name": "META",
-    "updated_at": "2026-03-01T13:53:53.721015"
+    "updated_at": "2026-03-01T18:27:15.920940"
   },
   "QQQ": {
     "price": 607.29,
     "change_pct": -1.14,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-03-01T13:53:53.721021"
+    "updated_at": "2026-03-01T18:27:15.920943"
   }
 }

@@ -246,12 +246,21 @@ def download_episode(episode):
     try:
         req = urllib.request.Request(audio_url, headers={'User-Agent': 'Mozilla/5.0'})
         with urllib.request.urlopen(req, timeout=120) as response:
-            with open(filepath, 'wb') as f:
-                f.write(response.read())
+            data = response.read()
+        if not data or len(data) < 1000:
+            print(f"     ✗ Download empty or too small ({len(data)} bytes), skipping")
+            return None
+        with open(filepath, 'wb') as f:
+            f.write(data)
         print(f"     ✓ Downloaded to {filepath}")
         return str(filepath)
     except Exception as e:
         print(f"     ✗ Download failed: {e}")
+        if filepath.exists():
+            try:
+                filepath.unlink()
+            except OSError:
+                pass
         return None
 
 WHISPER_QUEUE_DIR = Path.home() / ".openclaw/workspace/whisper_queue"

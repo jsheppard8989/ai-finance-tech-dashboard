@@ -1,8 +1,8 @@
-// Auto-generated - 2026-03-01T13:53:54.155445
+// Auto-generated - 2026-03-01T18:27:16.196076
 // DO NOT EDIT MANUALLY
 
 const dashboardData = {
-  "generatedAt": "2026-03-01T13:53:54.155506",
+  "generatedAt": "2026-03-01T18:27:16.196118",
   "tickerScores": [
   {
     "ticker": "BTC",
@@ -215,7 +215,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "NOW",
+    "ticker": "EMAX",
     "total_score": 70.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -230,14 +230,14 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "CRM",
-    "total_score": 68.0,
+    "ticker": "NOW",
+    "total_score": 70.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
     "rank": 16,
-    "score": 68.0,
+    "score": 70.0,
     "mentions": 1,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
@@ -245,7 +245,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "MINE",
+    "ticker": "CRM",
     "total_score": 68.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -260,14 +260,14 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "ILMN",
-    "total_score": 66.0,
+    "ticker": "MINE",
+    "total_score": 68.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
     "rank": 18,
-    "score": 66.0,
+    "score": 68.0,
     "mentions": 1,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
@@ -275,7 +275,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "PLTR",
+    "ticker": "ILMN",
     "total_score": 66.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -290,14 +290,14 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "CRSP",
-    "total_score": 64.0,
+    "ticker": "PLTR",
+    "total_score": 66.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
     "rank": 20,
-    "score": 64.0,
+    "score": 66.0,
     "mentions": 1,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
@@ -305,7 +305,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "HOOD",
+    "ticker": "CRSP",
     "total_score": 64.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -320,14 +320,14 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "PQNT",
-    "total_score": 60.0,
+    "ticker": "HOOD",
+    "total_score": 64.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
     "rank": 22,
-    "score": 60.0,
+    "score": 64.0,
     "mentions": 1,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
@@ -335,7 +335,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "TLT",
+    "ticker": "PQNT",
     "total_score": 60.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -350,13 +350,28 @@ const dashboardData = {
     "contexts": []
   },
   {
+    "ticker": "TLT",
+    "total_score": 60.0,
+    "raw_mention_count": 1,
+    "unique_sources": 1,
+    "podcast_mentions": 1,
+    "newsletter_mentions": 0,
+    "rank": 24,
+    "score": 60.0,
+    "mentions": 1,
+    "conviction_level": "medium",
+    "contrarian_signal": "neutral",
+    "timeframe": "long_term",
+    "contexts": []
+  },
+  {
     "ticker": "QQQ",
     "total_score": 48.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 24,
+    "rank": 25,
     "score": 48.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -371,7 +386,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 0,
     "newsletter_mentions": 6,
-    "rank": 25,
+    "rank": 26,
     "score": 45.0,
     "mentions": 6,
     "conviction_level": "medium",
@@ -386,7 +401,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 26,
+    "rank": 27,
     "score": 40.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -401,7 +416,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 27,
+    "rank": 28,
     "score": 32.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -416,7 +431,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 28,
+    "rank": 29,
     "score": 24.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -431,7 +446,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 29,
+    "rank": 30,
     "score": 20.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -446,7 +461,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 30,
+    "rank": 31,
     "score": 20.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -461,7 +476,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 31,
+    "rank": 32,
     "score": 16.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -472,6 +487,27 @@ const dashboardData = {
 ],
   "archive": {
   "insights": [
+    {
+      "id": 49,
+      "title": "Monetary Matters with Rick Rule on Commodities and Contrarian Investment",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-03-01",
+      "summary": "In this episode of Monetary Matters, host Jack Farley interviews Rick Rule, a prominent figure in the commodity space. They discuss Rule's long-term bullish stance on precious metals and commodities, his caution on recent price movements, and his views on the U.S. dollar's purchasing power over the next decade. Rule also shares his insights on contrarian investment strategies, the importance of protecting purchasing power, and his thoughts on specific companies and sectors within natural resources.",
+      "key_takeaway": "Invest in commodities and natural resources to protect purchasing power against the predicted decline in the U.S. dollar's value.",
+      "tickers_mentioned": [
+        "PQNT",
+        "EMAX",
+        "Altias"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-01",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 32
+    },
     {
       "id": 48,
       "title": "Conspiracy Corner and Market Impact of AI",
@@ -493,6 +529,40 @@ const dashboardData = {
       "archived_date": null,
       "archived_reason": null,
       "podcast_episode_id": 31
+    },
+    {
+      "id": 50,
+      "title": "The a16z Show: New Media Strategy and Investment Insights",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-02-27",
+      "summary": "In this episode of the a16z Show, Ben and other a16z team members discuss the firm's new media strategy, emphasizing the shift from old media to new media. They highlight the importance of being interesting over being inoffensive, the value of speed over polish, and the need to approach new media with new media thinking. The conversation also touches on the challenges of adapting to the fast-paced nature of new media and the role of platforms like TikTok and Instagram in reaching a global audience.",
+      "key_takeaway": "Investing in new media requires understanding the shift from traditional media to platforms that prioritize speed, adaptability, and the ability to capture and maintain audience interest.",
+      "tickers_mentioned": [],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-01",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 33
+    },
+    {
+      "id": 51,
+      "title": "The Future of Education and the Role of AI",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-02-25",
+      "summary": "In this episode of 'Moonshots with Peter Diamandis', the focus is on the future of education and the role of AI in reshaping it. The discussion highlights the shortcomings of the current education system, particularly in preparing students for a future dominated by AI and technology. The conversation features McKenzie Price, co-founder and CEO of Alpha Schools, and Joe Lamont, founder and CEO of ESW Capital and Trilogy. They discuss the new education model called Alpha Schools, which is centered around a two-hour learning model, and the potential of AI-driven education. The episode also touches on the necessity for reskilling in the face of rapid AI advancement and the challenges faced in implementing new educational models.",
+      "key_takeaway": "Investing in AI-driven education platforms and companies that are reshaping the education sector could be a strategic move, given the increasing demand for reskilling and the need for more efficient learning models.",
+      "tickers_mentioned": [],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-01",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 34
     },
     {
       "id": 46,
@@ -788,11 +858,11 @@ const dashboardData = {
       "key_takeaway": "Investors should consider the implications of Figure's advancements on the robotics sector and look for opportunities in companies at the forefront of this technological revolution.",
       "tickers_mentioned": [],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-02-22",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-01",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": null
     },
     {
@@ -805,11 +875,11 @@ const dashboardData = {
       "key_takeaway": "Investors should consider the implications of the 'Agentic Inversion' on their strategies, as it may lead to faster-paced investment environments and new opportunities for growth.",
       "tickers_mentioned": [],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-02-22",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-01",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": null
     },
     {
@@ -824,11 +894,11 @@ const dashboardData = {
         "GOOGL"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-02-22",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-01",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": null
     },
     {
@@ -1304,6 +1374,24 @@ const dashboardData = {
   "mainContent": {
   "insights": [
     {
+      "id": 49,
+      "title": "Monetary Matters with Rick Rule on Commodities and Contrarian Investment",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-03-01",
+      "summary": "In this episode of Monetary Matters, host Jack Farley interviews Rick Rule, a prominent figure in the commodity space. They discuss Rule's long-term bullish stance on precious metals and commodities, his caution on recent price movements, and his views on the U.S. dollar's purchasing power over the next decade. Rule also shares his insights on contrarian investment strategies, the importance of protecting purchasing power, and his thoughts on specific companies and sectors within natural resources.",
+      "key_takeaway": "Invest in commodities and natural resources to protect purchasing power against the predicted decline in the U.S. dollar's value.",
+      "tickers_mentioned": "[\"PQNT\", \"EMAX\", \"Altias\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-01",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 32,
+      "episode_release_date": "2026-03-01"
+    },
+    {
       "id": 48,
       "title": "Conspiracy Corner and Market Impact of AI",
       "source_type": "podcast",
@@ -1320,6 +1408,42 @@ const dashboardData = {
       "archived_reason": null,
       "podcast_episode_id": 31,
       "episode_release_date": "2026-02-28"
+    },
+    {
+      "id": 50,
+      "title": "The a16z Show: New Media Strategy and Investment Insights",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-02-27",
+      "summary": "In this episode of the a16z Show, Ben and other a16z team members discuss the firm's new media strategy, emphasizing the shift from old media to new media. They highlight the importance of being interesting over being inoffensive, the value of speed over polish, and the need to approach new media with new media thinking. The conversation also touches on the challenges of adapting to the fast-paced nature of new media and the role of platforms like TikTok and Instagram in reaching a global audience.",
+      "key_takeaway": "Investing in new media requires understanding the shift from traditional media to platforms that prioritize speed, adaptability, and the ability to capture and maintain audience interest.",
+      "tickers_mentioned": "[]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-01",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 33,
+      "episode_release_date": "2026-02-27"
+    },
+    {
+      "id": 51,
+      "title": "The Future of Education and the Role of AI",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-02-25",
+      "summary": "In this episode of 'Moonshots with Peter Diamandis', the focus is on the future of education and the role of AI in reshaping it. The discussion highlights the shortcomings of the current education system, particularly in preparing students for a future dominated by AI and technology. The conversation features McKenzie Price, co-founder and CEO of Alpha Schools, and Joe Lamont, founder and CEO of ESW Capital and Trilogy. They discuss the new education model called Alpha Schools, which is centered around a two-hour learning model, and the potential of AI-driven education. The episode also touches on the necessity for reskilling in the face of rapid AI advancement and the challenges faced in implementing new educational models.",
+      "key_takeaway": "Investing in AI-driven education platforms and companies that are reshaping the education sector could be a strategic move, given the increasing demand for reskilling and the need for more efficient learning models.",
+      "tickers_mentioned": "[]",
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-01",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 34,
+      "episode_release_date": "2026-02-25"
     },
     {
       "id": 46,
@@ -1392,60 +1516,6 @@ const dashboardData = {
       "archived_reason": null,
       "podcast_episode_id": 28,
       "episode_release_date": "2026-02-20"
-    },
-    {
-      "id": 41,
-      "title": "Figure's General Purpose Robot: Investment Shift in 2026",
-      "source_type": "newsletter",
-      "source_name": "Figure's General Purpose Robot",
-      "source_date": "2026-02-13",
-      "summary": "The newsletter discusses a visit to Figure's headquarters, where groundbreaking advancements in general-purpose robotics were observed, potentially signaling a significant shift in the robotics and automation industry in 2026.",
-      "key_takeaway": "Investors should consider the implications of Figure's advancements on the robotics sector and look for opportunities in companies at the forefront of this technological revolution.",
-      "tickers_mentioned": "[]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-02-22",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": null,
-      "episode_release_date": null
-    },
-    {
-      "id": 42,
-      "title": "Agentic Inversion: Moltbook and Axie Infinity's Impact on Investment Velocity",
-      "source_type": "newsletter",
-      "source_name": "The Agentic Inversion",
-      "source_date": "2026-02-13",
-      "summary": "The newsletter discusses the 'Agentic Inversion', a concept that highlights the potential for Moltbook and Axie Infinity to revolutionize investment velocity. It suggests that these platforms may offer new ways to accelerate investment processes and outcomes, indicating a shift towards more dynamic and responsive investment strategies.",
-      "key_takeaway": "Investors should consider the implications of the 'Agentic Inversion' on their strategies, as it may lead to faster-paced investment environments and new opportunities for growth.",
-      "tickers_mentioned": "[]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-02-22",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": null,
-      "episode_release_date": null
-    },
-    {
-      "id": 43,
-      "title": "Google's AI Advancements Signal New Investment Frontier",
-      "source_type": "newsletter",
-      "source_name": "The Rundown AI <news@daily.therundown.ai>",
-      "source_date": "2026-02-13",
-      "summary": "Google's upgraded Deep Think AI has achieved dominant scores in reasoning benchmarks across math, coding, and science, positioning the company as a powerhouse in the AI race. This development could have significant implications for investors looking to capitalize on the growing AI market.",
-      "key_takeaway": "Investors should consider Google's AI advancements as a potential catalyst for growth in the tech sector, particularly in areas related to AI research and development.",
-      "tickers_mentioned": "[\"GOOGL\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-02-22",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": null,
-      "episode_release_date": null
     }
   ],
   "definitions": [
@@ -3637,6 +3707,207 @@ const dashboardData = {
     "insight_title": "Conspiracy Corner and Market Impact of AI",
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "source_date": "2026-02-28"
+  },
+  "49": {
+    "id": 40,
+    "insight_id": 49,
+    "podcast_episode_id": 32,
+    "overview": "In this episode of Monetary Matters, Rick Rule, a seasoned commodity investor, discusses his long-term bullish stance on precious metals and other commodities, particularly in light of the anticipated decline in the U.S. dollar's purchasing power over the next decade. Rule forecasts a 75% loss in the dollar's value, which would significantly impact gold and silver prices. Despite recent market movements, Rule cautions against following narratives without a deep understanding of underlying value and the importance of contrarian investment strategies in commodities. This analysis delves into the investment implications, providing actionable insights for investors looking to navigate the complex commodity markets.",
+    "key_takeaways_detailed": [
+      "Rick Rule anticipates a substantial decline in the U.S. dollar's purchasing power, which could lead to significant appreciation in gold and silver prices.",
+      "Investors should be cautious of following market narratives without understanding the underlying value and be prepared for market volatility.",
+      "Contrarian investment strategies are crucial in commodities, as markets often overshoot on both the upside and downside.",
+      "Investors must match their investment time horizon with the narrative's expected timeline to avoid mismatched expectations.",
+      "Valuation is key; investors should not rely solely on price movements but should conduct thorough research to understand the intrinsic value of their investments."
+    ],
+    "investment_thesis": "Rick Rule's investment thesis is grounded in the belief that the U.S. dollar will lose a significant portion of its purchasing power over the next decade due to ballooning national debt and entitlement liabilities. This depreciation will maintain the purchasing power of precious metals, particularly gold and silver, leading to a rise in their nominal prices. The thesis is supported by historical precedents, such as the 1970s, when similar conditions led to a substantial increase in gold and silver prices. However, Rule advises a contrarian approach, suggesting that investors should be prepared for potential short-term disappointments that could present long-term buying opportunities.",
+    "ticker_analysis": {
+      "PQNT": {
+        "rationale": "PQNT, the Picta AI Enhance International Equity ETF, is relevant as it represents an AI-driven approach to enhancing international equity returns, which could be indirectly influenced by commodity market trends and global currency values.",
+        "positioning": "Position PQNT as a strategic long-term investment, aligning with the expectation of a weak U.S. dollar and the potential for increased international equity performance.",
+        "risk": "Key risks include the effectiveness of AI in predicting market movements and the overall volatility of international equities."
+      },
+      "GLD": {
+        "rationale": "GLD, the SPDR Gold Shares ETF, is a direct play on gold, which is expected to maintain its purchasing power and appreciate in nominal price as the U.S. dollar weakens.",
+        "positioning": "Consider a long-term strategic position in GLD, with the understanding that short-term volatility may present buying opportunities.",
+        "risk": "The risk includes potential short-term price corrections and the overall market sentiment towards gold."
+      },
+      "SLV": {
+        "rationale": "SLV, the iShares Silver Trust, is another direct play on precious metals, expected to benefit from the same macroeconomic trends affecting gold.",
+        "positioning": "SLV can be positioned similarly to GLD, with a long-term strategic view, acknowledging the potential for increased volatility compared to gold.",
+        "risk": "Risks include industrial demand fluctuations and market sentiment shifts affecting silver prices."
+      },
+      "GDX": {
+        "rationale": "GDX, the VanEck Vectors Gold Miners ETF, provides exposure to companies involved in the production of gold, which could benefit from higher gold prices.",
+        "positioning": "GDX can be positioned tactically to capitalize on short-term price movements and strategically for long-term growth in the gold sector.",
+        "risk": "Key risks include operational challenges of gold miners and the correlation of miner performance with gold prices."
+      },
+      "XME": {
+        "rationale": "XME, the SPDR S&P Metals & Mining ETF, offers a broader exposure to the metals and mining sector, which could be influenced by the same macro trends affecting gold and silver.",
+        "positioning": "XME can be used as a tactical play to gain exposure to a basket of metal and mining stocks, with an eye on market volatility and sector-specific catalysts.",
+        "risk": "Risks include sector-wide challenges such as regulatory changes, environmental concerns, and commodity price volatility."
+      }
+    },
+    "positioning_guidance": "Investors should consider a long-term strategic allocation to precious metals and related equities, with an understanding that short-term market movements may present buying opportunities. Portfolio sizing should reflect an investor's risk tolerance and time horizon, with a focus on maintaining a balance between direct commodity exposure (GLD, SLV) and equity exposure (GDX, XME). Entry points should be considered in the context of market volatility, and investors should be prepared to hold positions through short-term price corrections. Hedges may be considered to mitigate sector-specific risks or broader market downturns.",
+    "risk_factors": [
+      "Unexpected changes in U.S. monetary policy could affect the anticipated decline in the dollar's purchasing power.",
+      "Geopolitical events or economic shifts could alter the demand for precious metals and commodities.",
+      "Technological advancements or new discoveries could disrupt the supply dynamics of commodities.",
+      "Regulatory changes in the mining sector could impact the operational efficiency and profitability of mining companies.",
+      "Market sentiment shifts or changes in investor behavior could lead to short-term price corrections that deviate from the long-term thesis."
+    ],
+    "contrarian_signals": [
+      "Despite the long-term bullish outlook, short-term market movements may present contrarian signals, such as price corrections that could be seen as buying opportunities.",
+      "Investors may be overly optimistic about the short-term performance of commodities,\u5ffd\u89c6 the importance of a long-term investment horizon.",
+      "There is a risk that the market may overshoot on the downside, presenting contrarian buying opportunities for those with a strong conviction in the long-term thesis."
+    ],
+    "catalysts": [
+      "Upcoming U.S. economic data releases, particularly those related to inflation and employment, could provide catalysts for precious metal prices.",
+      "Global geopolitical events that affect currency values or create uncertainty could influence the demand for safe-haven assets like gold and silver.",
+      "Announcements from central banks regarding monetary policy changes or quantitative easing measures could impact the value of the U.S. dollar and, consequently, precious metals.",
+      "Major discoveries or technological breakthroughs in the mining sector could affect the supply and cost dynamics of commodities.",
+      "Regulatory changes or environmental policies that impact the mining and production of metals could serve as catalysts for sector performance."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-03-01T18:26:25.942541",
+    "updated_at": "2026-03-01 23:26:25",
+    "insight_title": "Monetary Matters with Rick Rule on Commodities and Contrarian Investment",
+    "source_name": "Monetary Matters with Jack Farley",
+    "source_date": "2026-03-01"
+  },
+  "50": {
+    "id": 41,
+    "insight_id": 50,
+    "podcast_episode_id": 33,
+    "overview": "The a16z podcast episode provides a deep dive into the firm's new media strategy, highlighting the shift from traditional media to a more dynamic, engaging, and interactive approach. This shift is crucial as it reflects the broader changes in media consumption and the rise of digital platforms. The investment thesis revolves around the disruption of traditional media and the opportunities presented by new media platforms. Understanding these changes is essential for investors to capitalize on the evolving media landscape and the potential for new investment opportunities in digital media and content creation companies.",
+    "key_takeaways_detailed": [
+      "New media prioritizes being interesting over being inoffensive, which can lead to higher engagement and virality.",
+      "Speed and the ability to iterate quickly have replaced the need for polish in content creation.",
+      "The concept of 'flooding the zone' with content allows for the rapid replacement of negative narratives with positive ones.",
+      "The rise of individual brands over corporate entities suggests a shift towards personalization and authenticity in media.",
+      "Investors should look for companies that can leverage new media strategies to build and maintain audience engagement."
+    ],
+    "investment_thesis": "The core investment logic is centered on the disruption of traditional media by new media platforms and the subsequent opportunities for growth in digital content creation and distribution. Catalysts for this thesis include the continued growth of social media, the rise of individual creators as brands, and the increasing demand for interactive and personalized content. The timeframe for this thesis is medium to long-term, as the full impact of new media strategies on traditional media will likely take several years to materialize fully.",
+    "ticker_analysis": {
+      "DIS": {
+        "rationale": "Disney's acquisition of Marvel and its foray into streaming with Disney+ positions it well to leverage new media strategies.",
+        "positioning": "Long-term strategic position, as Disney's content library and brand recognition can be leveraged in the new media landscape.",
+        "risk": "Increased competition in the streaming market and the potential for cord-cutting to impact traditional cable subscriptions."
+      },
+      "FB": {
+        "rationale": "Facebook's dominance in social media and its push into virtual reality with Oculus makes it a key player in new media.",
+        "positioning": "Medium-term tactical position, as Facebook's ability to adapt to new media trends can drive short-term gains.",
+        "risk": "Regulatory challenges and data privacy concerns could hinder Facebook's growth in new media."
+      },
+      "TWTR": {
+        "rationale": "Twitter's real-time nature and its role as a news aggregator make it a relevant platform for new media.",
+        "positioning": "Short-term tactical position, as Twitter's stock can be sensitive to changes in user engagement and platform trends.",
+        "risk": "The company's ability to monetize its platform effectively and compete with other social media giants."
+      },
+      "GOOGL": {
+        "rationale": "Google's YouTube is a leading platform for content creators and its advertising business is integral to new media monetization.",
+        "positioning": "Long-term strategic position, as Google's diverse offerings in search, video, and advertising provide a solid foundation in new media.",
+        "risk": "The potential for increased regulation of digital advertising and the rise of alternative platforms."
+      },
+      "SNAP": {
+        "rationale": "Snap's focus on visual content and its youth-oriented user base align with the trends in new media.",
+        "positioning": "Medium-term tactical position, as Snap's ability to innovate and attract advertisers will be key.",
+        "risk": "High competition in the social media space and the need to maintain user engagement to stay relevant."
+      }
+    },
+    "positioning_guidance": "Investors should consider a balanced portfolio with a mix of long-term strategic positions in established players like Disney and Google, and medium to short-term tactical positions in more agile companies like Facebook and Twitter. Entry points should be considered in relation to each company's ability to adapt to new media trends and their current market positioning. Timeframes for these positions should align with the expected catalysts and the overall thesis timeframe.",
+    "risk_factors": [
+      "Regulatory changes that could impact data privacy and digital advertising.",
+      "The rise of new platforms that could disrupt existing social media giants.",
+      "Slow adaptation to new media strategies by traditional media companies.",
+      "Economic downturns that could reduce advertising spend and impact media companies.",
+      "Technological disruptions that could change the landscape of content consumption."
+    ],
+    "contrarian_signals": [
+      "The potential for traditional media to adapt more quickly than expected, leveraging their existing content libraries and audience bases.",
+      "The possibility that new media platforms may face backlash due to content quality or oversaturation.",
+      "The risk that individual creators may struggle to maintain audience engagement in a crowded market."
+    ],
+    "catalysts": [
+      "The launch of new streaming services and the expansion of existing ones.",
+      "Major media events such as the Olympics or World Cup, which can drive engagement on new media platforms.",
+      "Technological advancements in areas like virtual reality and augmented reality that can enhance new media experiences.",
+      "Regulatory decisions that impact the digital advertising landscape.",
+      "Economic indicators that signal a shift in consumer spending habits towards digital content."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-03-01T18:26:43.183836",
+    "updated_at": "2026-03-01 23:26:43",
+    "insight_title": "The a16z Show: New Media Strategy and Investment Insights",
+    "source_name": "The a16z Show",
+    "source_date": "2026-02-27"
+  },
+  "51": {
+    "id": 42,
+    "insight_id": 51,
+    "podcast_episode_id": 34,
+    "overview": "The future of education is at a critical juncture, with the advent of AI and technology reshaping how students learn and what skills they need to succeed. The traditional model of education is failing to prepare students for the demands of the modern workforce, particularly in the areas of math, science, and reading proficiency. The investment thesis centers on the potential of AI-driven education platforms, such as Alpha Schools, to disrupt the status quo and offer a more efficient, effective, and future-proof model of learning. This matters now more than ever, as the demand for reskilling and upskilling accelerates due to rapid technological advancements and shifts in the job market.",
+    "key_takeaways_detailed": [
+      "AI-driven education platforms can significantly reduce the time required for learning while increasing proficiency and test scores.",
+      "Investment in education technology is likely to grow as traditional models fail and the need for reskilling becomes more pressing.",
+      "Companies that can successfully integrate AI into education will have a competitive advantage in a market hungry for innovation.",
+      "The shift towards mastery-based learning experiences can lead to higher student engagement and better educational outcomes.",
+      "Investors should monitor the regulatory environment, as changes in education policy can significantly impact the edtech sector.",
+      "The potential for international expansion of successful AI-driven education models presents a significant growth opportunity."
+    ],
+    "investment_thesis": "The core investment logic is that AI-driven education platforms will disrupt the traditional education model by offering more efficient and effective learning experiences. This is supported by the increasing demand for reskilling, the failure of traditional models to prepare students for the modern workforce, and the proven success of platforms like Alpha Schools in delivering superior academic results in less time. Catalysts for this thesis include technological advancements in AI, changes in education policy, and the growing recognition of the inadequacy of traditional education methods. The timeframe for this thesis is medium to long-term, as the adoption of new education models may take time but is likely to accelerate as the benefits become more apparent.",
+    "ticker_analysis": {
+      "TICKER1": {
+        "rationale": "XYZ Corp is a leading provider of AI-driven education solutions and has a strong pipeline of products aimed at improving educational outcomes.",
+        "positioning": "Long-term strategic position, as the company is well-positioned to benefit from the shift towards AI in education.",
+        "risk": "Regulatory changes in the education sector could impact the company's growth prospects."
+      },
+      "TICKER2": {
+        "rationale": "ABC EduTech is a company that specializes in developing AI-based platforms for personalized learning, aligning with the trend towards individualized education.",
+        "positioning": "Medium-term tactical position, as the company's products are gaining traction in the market and could see increased adoption in the next 1-2 years.",
+        "risk": "The company's success is heavily dependent on the continued acceptance and integration of AI in education by schools and institutions."
+      },
+      "TICKER3": {
+        "rationale": "DEF Learning is a smaller cap company that has developed innovative AI tools for early childhood education, potentially capturing the market at a critical stage of learning development.",
+        "positioning": "Long-term strategic position, with a focus on growth as the company expands its offerings and footprint.",
+        "risk": "The company's small size and newness to the market present risks related to scalability and market acceptance."
+      }
+    },
+    "positioning_guidance": "Investors should consider a diversified approach to portfolio positioning in the edtech sector, with a mix of established players and innovative startups. Entry points should be considered in relation to the company's growth prospects and the overall market sentiment towards AI in education. Timeframes for investments should align with the expected adoption curve of AI in education, with a focus on medium to long-term growth. Hedges may include investments in traditional education companies that are actively adapting to the AI-driven education trend.",
+    "risk_factors": [
+      "Slow adoption of AI in education by schools and institutions due to resistance to change or lack of resources.",
+      "Regulatory hurdles that could impede the growth of AI-driven education platforms.",
+      "Technological setbacks or failures that could damage the reputation of AI in education.",
+      "Economic downturns that could reduce funding for education and limit the adoption of new technologies.",
+      "The potential for AI to exacerbate existing educational inequalities if not implemented equitably."
+    ],
+    "contrarian_signals": [
+      "Traditional education advocates may argue that the human element of teaching cannot be fully replaced by AI, potentially leading to a resurgence in demand for traditional models.",
+      "There is a risk that AI-driven education could lead to a loss of critical thinking and social skills that are developed in traditional classroom settings.",
+      "Concerns about data privacy and the ethical implications of using AI in education could slow the adoption of these technologies."
+    ],
+    "catalysts": [
+      "Upcoming policy changes or government initiatives that promote the use of AI in education.",
+      "New research or studies that highlight the effectiveness of AI-driven education platforms.",
+      "Major partnerships between AI-driven education companies and established educational institutions.",
+      "The launch of new AI-driven education products that demonstrate significant improvements in learning outcomes.",
+      "International expansion of successful AI-driven education models, indicating a global shift towards this approach."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-03-01T18:27:01.593779",
+    "updated_at": "2026-03-01 23:27:01",
+    "insight_title": "The Future of Education and the Role of AI",
+    "source_name": "Moonshots with Peter Diamandis",
+    "source_date": "2026-02-25"
   }
 },
   "suggestedTerms": [

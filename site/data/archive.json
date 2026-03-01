@@ -1,6 +1,27 @@
 {
   "insights": [
     {
+      "id": 49,
+      "title": "Monetary Matters with Rick Rule on Commodities and Contrarian Investment",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-03-01",
+      "summary": "In this episode of Monetary Matters, host Jack Farley interviews Rick Rule, a prominent figure in the commodity space. They discuss Rule's long-term bullish stance on precious metals and commodities, his caution on recent price movements, and his views on the U.S. dollar's purchasing power over the next decade. Rule also shares his insights on contrarian investment strategies, the importance of protecting purchasing power, and his thoughts on specific companies and sectors within natural resources.",
+      "key_takeaway": "Invest in commodities and natural resources to protect purchasing power against the predicted decline in the U.S. dollar's value.",
+      "tickers_mentioned": [
+        "PQNT",
+        "EMAX",
+        "Altias"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-01",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 32
+    },
+    {
       "id": 48,
       "title": "Conspiracy Corner and Market Impact of AI",
       "source_type": "podcast",
@@ -21,6 +42,40 @@
       "archived_date": null,
       "archived_reason": null,
       "podcast_episode_id": 31
+    },
+    {
+      "id": 50,
+      "title": "The a16z Show: New Media Strategy and Investment Insights",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-02-27",
+      "summary": "In this episode of the a16z Show, Ben and other a16z team members discuss the firm's new media strategy, emphasizing the shift from old media to new media. They highlight the importance of being interesting over being inoffensive, the value of speed over polish, and the need to approach new media with new media thinking. The conversation also touches on the challenges of adapting to the fast-paced nature of new media and the role of platforms like TikTok and Instagram in reaching a global audience.",
+      "key_takeaway": "Investing in new media requires understanding the shift from traditional media to platforms that prioritize speed, adaptability, and the ability to capture and maintain audience interest.",
+      "tickers_mentioned": [],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-01",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 33
+    },
+    {
+      "id": 51,
+      "title": "The Future of Education and the Role of AI",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-02-25",
+      "summary": "In this episode of 'Moonshots with Peter Diamandis', the focus is on the future of education and the role of AI in reshaping it. The discussion highlights the shortcomings of the current education system, particularly in preparing students for a future dominated by AI and technology. The conversation features McKenzie Price, co-founder and CEO of Alpha Schools, and Joe Lamont, founder and CEO of ESW Capital and Trilogy. They discuss the new education model called Alpha Schools, which is centered around a two-hour learning model, and the potential of AI-driven education. The episode also touches on the necessity for reskilling in the face of rapid AI advancement and the challenges faced in implementing new educational models.",
+      "key_takeaway": "Investing in AI-driven education platforms and companies that are reshaping the education sector could be a strategic move, given the increasing demand for reskilling and the need for more efficient learning models.",
+      "tickers_mentioned": [],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-01",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 34
     },
     {
       "id": 46,
@@ -316,11 +371,11 @@
       "key_takeaway": "Investors should consider the implications of Figure's advancements on the robotics sector and look for opportunities in companies at the forefront of this technological revolution.",
       "tickers_mentioned": [],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-02-22",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-01",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": null
     },
     {
@@ -333,11 +388,11 @@
       "key_takeaway": "Investors should consider the implications of the 'Agentic Inversion' on their strategies, as it may lead to faster-paced investment environments and new opportunities for growth.",
       "tickers_mentioned": [],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-02-22",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-01",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": null
     },
     {
@@ -352,11 +407,11 @@
         "GOOGL"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-02-22",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-01",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": null
     },
     {

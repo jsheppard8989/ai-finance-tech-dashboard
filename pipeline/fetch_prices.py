@@ -46,16 +46,33 @@ def get_tickers_from_data():
     
     return sorted(tickers)
 
+# Map display names / invalid symbols to Yahoo Finance symbols. None = skip fetch.
+YAHOO_SYMBOL_MAP = {
+    'AppLovin': 'APP',
+    'CROWD': 'CRWD',   # CrowdStrike
+    'Russell': 'IWM',  # Russell 2000 ETF
+    'S&P': 'SPY',
+    'S&P 500': 'SPY',
+    'Semiconductors': 'SMH',
+    'Nasdaq': 'QQQ',
+    'WORK': None,      # WeWork delisted
+    'FTIE': None,      # Unclear / LSE-only
+    'SQ': None,        # Block Inc - Yahoo 404
+}
+SKIP_TICKERS = {'N/A', 'n/a', ''}
+
 def fetch_price_data(ticker):
     """Fetch price and 2-week (14 day) change from Yahoo Finance."""
     try:
-        # Map ticker symbols for Yahoo Finance
-        symbol = ticker
-        if ticker == 'BTC':
+        if ticker in SKIP_TICKERS or not (ticker and str(ticker).strip()):
+            return None
+        symbol = YAHOO_SYMBOL_MAP.get(ticker, ticker)
+        if symbol is None:
+            return None
+        if symbol == 'BTC':
             symbol = 'BTC-USD'
-        elif ticker == 'VIX':
+        elif symbol == 'VIX':
             symbol = '^VIX'
-        
         # Get 14 days of data (2 weeks)
         url = f"https://query1.finance.yahoo.com/v8/finance/chart/{symbol}?interval=1d&range=20d"
         req = urllib.request.Request(url, headers={
@@ -119,13 +136,12 @@ def main():
     print(f"Started: {datetime.now()}")
     print("="*60)
     
-    tickers = get_tickers_from_data()
-    
+    raw = get_tickers_from_data()
+    tickers = [t for t in raw if t not in SKIP_TICKERS and (t and str(t).strip())]
     # Ensure QQQ and BTC are included (for title bar)
     for required in ['QQQ', 'BTC']:
         if required not in tickers:
             tickers.append(required)
-    
     print(f"\nFound {len(tickers)} tickers")
     
     # Load existing prices
