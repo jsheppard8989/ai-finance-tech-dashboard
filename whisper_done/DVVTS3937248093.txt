@@ -1,0 +1,1022 @@
+If we're going to recreate school, that's going to get our kids ready for the AI and
+going forward.
+First principles.
+What would you do?
+The first thing and most important, which is the most radical, if we say, is
+U.S. high schoolers at our historic lows in reading math and science.
+Americans today have perceived college as far less important.
+Today, college graduates, they're the longest being unemployed.
+That's not sustainable.
+We've known for 40 years.
+How kids could learn two, five, or ten times faster.
+Unfortunately, it doesn't work in a teacher in front of a classroom model.
+We've really figured out how to use technology to deliver these really incredible learning
+results and do it in a fraction of the time.
+Is everything perfect?
+What do you guys worry about?
+I love what you're doing.
+I just don't understand what's the flip side of the equation here.
+You know, the biggest issue now that the moon shot, ladies and gentlemen, everybody
+welcome to moon shots.
+Today, we're going to be speaking about the future of education and the role of AI in education.
+And this is not just for K through 12 universities.
+It's also for reskilling, right?
+Something that this rapid pace of AI is going to require every major company to start
+doing soon enough.
+This is a topic that we've been very outspoken about here on moon shots, specifically
+how secondary and post-secondary education is failing us.
+It's failing our kids.
+It's not preparing them for the near term, let alone the medium term horizon.
+We're going to be diving into a new education model called Alpha Schools, a fan that's
+gotten ray reviews and discuss the pros and cons of AI-driven education.
+Today we're joined by the leadership of Alpha Schools, McKenzie Price, and Joe Lamont.
+McKenzie is the co-founder and CEO of Alpha Schools.
+It's a K through 12 program built around a two-hour learning model that she helped to
+pioneer.
+Prior to Alpha Schools, Price was for 17 years in the lending business and also working
+at Trilogy, a Stanford grad with a degree in psychology.
+She began questioning traditional schooling when she saw her own kid begin to lose enthusiasm
+for learning.
+I'm also proud that McKenzie is an abundance 360 member.
+All right, and Joe Lamont is the founder and CEO of ESW Capital and Trilogy, a billionaire
+entrepreneur who is actively playing a central role in funding and scaling Alpha Schools
+and playing the role as the principal, which I find incredible.
+He's built this fortune by buying and systematizing software companies, a playbook he's
+now applying to education.
+So, first off, welcome McKenzie, welcome Joe, good to have you guys.
+Thanks for having us, Peter.
+We love talking education, and you're excited to be here.
+And of course, guys, I've got my much smarter, much more brilliant mood shot mates, Silly Miss
+Mayo, and DB2 guys, good evening.
+Welcome, welcome to the party here.
+And let me start by saying thank you for your service, because you don't see a lot of highly
+highly successful people turning back to work on K through 12 education.
+There's no real big money in it, and it's purely a work of good in the world.
+So thank you so much for working on it.
+Yeah, for sure.
+What I'd like to do is actually kick off by sharing a few slides that show the state
+of education in America today.
+And it's not that great.
+So, let's let me share these here.
+So, here we go.
+This is unfortunate and very shocking.
+So, US high schoolers at our historic lows in reading math and science.
+Only 35% of seniors in high school 12th graders are at or above the reading
+proficiency level.
+This is down from 40% in 1992.
+Only 22% of seniors are math proficient.
+And only 31% are proficient in science.
+And this is going into a world where math and science and reading is so
+fundamentally critical for us.
+On the flip side of secondary education going towards college,
+here are some other numbers that are seriously troubling.
+And these blow me away, but they're very real.
+So, Americans today have perceived college as far less important.
+So, back in 2010, 75% of Americans thought that college was important for your kids.
+That has dropped down from 75% to 35%.
+And as a result of this, we're beginning to see college is going bankrupt.
+At the same time, tuition has grown 893%
+since 1983, as we demonetizing and democratizing everything else.
+The cost of going to college is going up.
+And then here's the killer that today college graduates
+are the group that are out of jobs the longest.
+They're the longest being unemployed.
+And so, for me, that just cannot, that's not sustainable.
+I mean, Joe and McKinsey, you want to lean into those challenges right now.
+I don't know where to even start other than it is a very disappointing picture.
+And half of seniors in high school today graduate,
+knowing as much math as a 99th percentile third grader.
+And that's a pretty troubling statistic along with what's going on.
+But I think it really points to the fact that schools aren't preparing people for
+the near future, as you mentioned.
+And more importantly, what this world is going to look like with AI.
+And it's even more critical that in addition to making sure that
+young people have academic knowledge in their brain,
+to be successful and be great critical thinkers,
+we have to instill all of the other life skills that are going to be needed so that they can
+be adaptable in this new world and be able to keep up.
+And not just keep up, but stay on the frontier of what human knowledge is required.
+And we see this with parents all the time.
+Parents are coming to us with their little children saying,
+what in the world should school look like in this day and age?
+What is it supposed to be delivering 10, 15 years from now?
+And that's the challenge that Joe and I are excited every day to take on.
+You know, the data shows that at Alpha School,
+you're able to deliver a full academic program with only two hours a day of academic education.
+I will talk about the life skills portion in a moment.
+And that you're educating your students.
+I think it's like two and a half to three times faster.
+And still score, I mean, the one top, the one percent top two percent of the country.
+And I looked at some numbers here and it shows that on average SAT scores,
+Alpha School graduates are at 1410 compared to the national average at 1,024 roughly four
+or points lower.
+And that puts Alpha School graduates in the top 94 percentile.
+Actually, I'll correct you on that.
+1410 is actually the average for our entire high school student body freshman through seniors.
+Our average SAT score for our seniors is 1535.
+And the reason I think that's important to say isn't just to brag on how awesome our students are.
+But really, to show and highlight how easy it is to excel when students get a mastery-based
+kind of tutoring experience, which is what has been made possible in this model of education.
+We believe any student is capable of being 99 percentile when it comes to reading and writing
+in math and science and being able to crush your APs.
+And of course, the beautiful part of it is, it doesn't take all day,
+change to a desk plus hours of homework at night in order to get those results.
+We've really figured out how to use technology to deliver these really incredible learning results
+and do it in a fraction of the time.
+Yeah, so back to scores and economics and the two hours,
+and I will as the principal was just in the meeting this week where they were taking some
+practice tests, the freshman, and the freshman's goal this year is to have a minimum of 14-10
+as their SAT score is freshman. So we have somewhere already over 1500 as freshman,
+which you can think about when you talk about, wow, think of how much time that opens up for the
+rest of what they want to do during high school. But aside from that, how do we do it?
+You know, we've known for 40 years how kids could learn two-five or ten times faster.
+So there's a whole field of learning science that very few people know of,
+but it's been around for 40 years, you know, the graduate school's education of Stanford or Oxford
+or Harvard have been studying this, how kids learned and develop papers back when I was in high school.
+Blooms to Sigma is a seminal paper where, you know, the paper talked about how kids could learn,
+all kids could learn and get to the top two percent, every kid, which you're seeing that data
+in Alpha, you know, sort of 40 years later. And so what we've done, you know, and the reason
+it hasn't been implemented though is if you read the papers, you know, there's probably 10,000
+of them that have been published, you know, over the last 40 years. They all say,
+kids can learn this fast, unfortunately it doesn't work in a teacher in front of a classroom model.
+That's incredible. And the, because that's the sum of, yeah, well, it's what every parent,
+you know, one of the things I've realized, you know, after I became principal three years ago was
+every parent wants their kid educated the way they were and we don't know any different.
+And when I sit in the room with some of these learning scientists, you know, they will sit and
+said, we've known for 40 years teacher in front of the classroom is the worst way to teach kids.
+And I'm like, whoa, we like the people in this room, right? Every parent in America thinks a teacher
+in front of the classroom is the best way to teach kids, right? And it's, it's that dynamic fundamentally
+that, you know, we have to educate parents on and show that this new way, right, that is grounded
+in learning science, right? We've known how this works. We know the, everything from the best ways
+to teach to the chemistry of the mind, to be able to do this. And for the parents, it's, it's
+what they knew, it's how they grew up, right? Yeah. So you get this cascading generational effect.
+Joe, I've heard you talk about what you call the five dimensions that make a school 10 times better
+than at least the schools that we all went to school. And if you could recount that, because I found
+number one, the idea of being able to make something 10 times better is something you typically don't
+think about in terms of schools. Yeah. Yeah. So, you know, back to, when the kids in our
+work on this, if, you know, you sit down and you say, the school's been the same for over 100 years.
+And if we're going to recreate school that's going to get our kids ready for the AI age going forward,
+first principles, what would you do? Just ground up what are the core things you'd really want to do.
+And so the first, the first and most important, which is the most radical, what we say is
+kids must love school, right? If we're going to put our kids in it for a decade plus,
+it should love school. And we actually measure it where over 90% of our kids love school,
+you know, we measure every week's, we ask them. And over the last year, we actually uptit where we
+actually say, would you rather go to school or go on vacation? And 40 to 60% of our students say,
+they'd rather go to school than go on vacation. To be, a lot of it depends on what the vacation is,
+depends on what the workshop they're doing. You know, the highlight of my 10 years principle was
+this before summer, you know, six months ago, the two thirds of the Alpha High students sent an
+email and said, we don't want to take summer break. Can you keep the school open? And back to
+we all know, I didn't like, I was, you'd never catch me at high school asking if I could go to
+summer school. And so, but that principle and just talking about love of school, you know,
+it's one where when you think about it, like when we all build businesses, you know, just
+for the business world, you want to build an organization that people love to come to work for,
+right? Yet those same people when they sit and look at their kids and say what school's supposed
+to be like, you're not supposed to love school. It's supposed to suck, right? Schools, but you
+spin it. It's not supposed to be like, we have this mental model that for everything else in our
+life, we're like, yeah, you totally should build an organization that people love, right? With school,
+we just had this, this backward way of, of looking at it. So that, the first principle in the core
+and the reason we work is because of that core principle. And when we talk to other schools about
+adopting this, you know, they all ask about the ed tech. Oh, you have this engine that teaches kids,
+you know, so much faster. And we stand up and say, look, if you're not willing to rebuild your
+school around the concept that kids must love school more than vacation, this isn't going to work.
+Right? And that core principle really, really matters. Um, and that's what sort of everything that
+we do is downstream of that. That's an incredible achievement, by the way, congratulations.
+Yeah, that's statistics are mind blowing. Everybody, you may not know this, but I've been an incredible
+research team. And every week, myself, my research team, study the meta trends that are impacting the
+world. Topics like computation sensors, networks, AI robotics, 3D printing synthetic biology.
+And these meta trend reports, I've put out once a week, enabling to see the future 10 years ahead of
+anybody else. If you'd like to get access to the meta trends newsletter every week, go to dmnds.com
+slash meta trends that's dmnds.com slash meta trends. It's, it's actually when you think about it.
+If you step back, they'll, you know, we spend an enormous amount of money on educating kids.
+Like, you talked about how people don't go into a business, but we spend over a trillion dollars
+for K through 12. Right? I mean, we're spending 20,000 plus a kid, you know, some cities spend over
+40,000 dollars of student. And if you think about it, you're like, okay, I got to 10 year old.
+And you're going to be 20, great hand. And I have to educate them,
+educate them, and they can love every day. That's actually not the hardest problem in the world.
+Right? That's a lot of money where you can actually build a day to have them both love it and learn.
+So, loving school is the first dimension. What else you all know is that?
+The second one is kids should learn 10 times faster. So, back to this whole concept, and this is where
+sort of I got in is, you know, we sat down and built this engine over the last three years,
+where we basically took all the learning science, and we took AI tutors, not chat bots, and we
+can get into why chat bots are cheap bots. And if chat, GBT in schools is terrible, you know,
+but if you take AI, generative AI, and you take learning science, and you generate personalized
+lessons plans for every kid at whatever level they are, those kids can learn 10 times faster.
+Did you build or buy that tech? I'm curious. So, we started by using off the shelf apps,
+and then building around it, right? Sort of this AI wrapper around everything, and we can talk of how
+to do it. We now, for the most part, we have both sort of the foundation, this platform,
+called Time Back, and we use some third party apps that are best in class, so for any of you
+listing, math academy is the best app, and you can just go download it. It's awesome.
+If you actually care about learning science, math, the math academy way is 500
+action-packed pages of all the concepts of these, you know, 40 years of learning science that you
+should read. And that they're a great team. We love to partner with them on it. We built a bunch of
+our own own apps, alpha-right, alpha-read, et cetera, that's sit on the platform as well.
+We put it over $100 million into this platform, so it's a big lift on being able to do this.
+But what we have today is a learning engine that teaches kids basically K through 12
+10 times faster than if they sat in class. Okay, you got to love it. It's 10 times faster.
+What you hit number three. And then the second part is, you know, you come into school for two hours,
+right? Because we don't, you know, we learn over two X and two hours. And so back to what matters
+is then what do you do the rest of the day? Because parents don't want you to send the kids home,
+right? Two hours have got to be the old day. And so then what do you do with the rest of the day?
+And it's you teach them all these valuable life skills that we all think are important for the future.
+Because academics is not enough to get your kid ready. And so we have our alpha life skills curriculum,
+which is leadership and teamwork, right? Storytelling and public speaking, entrepreneurship and
+financial literacy, socialization and relationship building and grit and hard work. And so in the
+afternoon, you're getting all these killer workshops, right? Team-based, super fun workshops,
+run by adults, right, in this environment that are teaching them all of those life skills.
+To get them ready for the real world. And that's where if you see all the excitement and why we
+get so much hype besides the academics, you sort of see what these kids do. We have kids, you know,
+we have fifth graders, you know, running food trucks and running Airbnb's for their entrepreneurship
+or workshop, right? And just all these crazy, took TED talks, right? Just we have a, we have an
+alpha-high student who actually today submitted a research to nature, which no high school student
+in history has actually been published in nature, you know? And so just crazy, great accomplishments,
+because they have this awesome, you know, afternoons to work on. McKenzie, you know,
+can you like dive a layered deeper for moms and dads and kids watching this to like,
+you arrive at the school? And what's the experience, what's the experience like?
+Can you sort of paint the picture for us? You know, it's such a great question because people just
+don't understand what a school looks like where kids actually cry at the end of the week saying,
+why do we have to have breaks on the weekend? You know, I can't we go to school seven days a week.
+They just don't understand. And I think people often think, okay, this is some AI school. It's like
+Robo Terminator, dystopian, you know, anti-socialized children and nothing could be further from the
+truth. In fact, what's happened is the model of the day is one where kids get so much more
+timed, interact with each other and to interact with the adults that are in the school,
+building because of how we've said it. So, you know, you walk in the school first of all, it feels
+more like a we work space than a traditional classroom. One of the things, you know, Joe and I both
+bonded over our mutual dislike and disdain for traditional school. And so, we think again,
+school should be a fun, exciting place that comes in. And the part that, yeah, the part that you
+didn't like about traditional schools were what, teacher and the front and everybody's a desk.
+You know, for me, and I think, I think, Joe and I were similar, I was always wondering, like,
+how is whatever I'm learning going to relate to something I'm actually interested in doing? Like,
+where am I going to make, you know, use for this in my life? What am I going to do? And it was just
+so boring. I just found it incredibly boring. And I also think school is fundamentally
+traditional schools fundamentally a place where they are teaching kids to sit still, raise their hand,
+don't talk unless called upon, ask permission to go the bathroom. And, you know, it really
+hasn't changed that much. And what we're wanting to do at our schools is teach kids all these
+awesome life skills. And that starts with, you know, you walk in at the beginning of the day,
+and our kids all come together and they do what we call a limitless launch. Think Tony Robbins
+for kids. This is a chance when they get together and they'll do some sort of challenging,
+often physical sort of experience together. And it's when we start incorporating some growth mindset,
+strategies and practices that they take into the rest of the day. Then they go into their
+two-hour core learning block. This is the academic period of the day. And this is when kids are on
+computers. The key difference here from when people think of, you know, COVID Zoom classroom time
+is that kids are getting this one-to-one interaction on the computer that's meeting them at the
+level and pace where they're challenged. They're in what we call like the zone of proximal
+development where it's the lessons that they're getting aren't too hard that they turn off and
+not so easy that they're sort of bored and disengaged. Throughout that time, they take breaks
+every 30 minutes. It's time to stretch and play and be a little bit more flexible with kind of
+what their best learning environment is. And by lunchtime, they're finished with their academics and
+the rest of the school day is these super fun workshops. And so that's everything from, you know,
+five-year-olds who are learning how to climb a 40-foot rock wall or swim in the deep end of the
+pool to high school students that are out building real businesses and, you know, doing big things.
+And there's just so much energy there. And that's what we found is so cool about this kind of
+this opportunity that kids have to get more socialization and time with each other. And one of
+the things Joe mentioned in those first three pillars of what we believe makes a school ten times
+better. The fourth pillar is actually what enables us to deliver all of that, which is,
+we have transformed the role of the adult in the classroom. Instead of having to spend their time
+creating lesson plans and delivering lectures and grading papers and homework, which we don't
+even have homework, by the way. Our teachers, we call them guides. Their sole job is focused on
+motivational and emotional support. Basically, holding kids to really high standards, saying,
+like, hey, you are capable, you can do big impossible things and providing the support and the
+mentorship and the coaching that these kids need to be able to do great things. And so that human
+element has been able to be put really front and center. And that's what helps us make sure that
+kids are loving school and learning twice as fast in two hours and developing life skills. And then
+that leads to sort of that fifth pillar, which I think we all as parents can relate to.
+Ultimately, what we really care about is our kids growing up to be good human beings. Do they have
+character and integrity? And so for us, that fifth pillar is character and culture and classmates.
+Who are these kids being raised to be and who are they surrounded by? And that sort of ties
+everything that I think makes the culture at Alpha so attractive to so many families around the
+country is, you know, when you can combine phenomenal, you know, kick-ass academics along with
+developing these life skills. And then do it in a nurturing caring environment where things like
+socialization is actually practiced and coached on as opposed to just saying, hey, we hope you survive,
+you know, the mean girl cafeteria world, you know, eventually get through. I think that's kind of
+what we've done and those five pillars is what, you know, every day, everybody in our organization,
+you know, wakes up saying, how can we make sure that Alpha is a 10x better experience and really
+redefines what parents should expect out of their kids school? Dave, I see you, itching for a question
+here. I'm really, I want to visualize even better this idea of a we work looking school because
+you know, music just jumps out of me immediately. You see all the little chairs lined up with the
+little folding desk and the lecture and the front and you've got rows and rows and rows of these
+rooms in any school middle school or high school. And it's all wasted space. And now you're saying,
+no, no, no, get rid of all that. Now, make it feel much more like a work environment. But imagine
+it's not like our office, right? It's probably somewhere in between because it's got to be more
+school like, I mean, I think it's picture like a really comfortable environment. In fact,
+I was in our kindergarten and first grade classroom at one of our schools this morning. And you've
+got some kids who are standing at a, you know, a stand-up desk because those are some of
+the kids who realize they like being able to just move their feet as they're doing their work.
+You've got another group of kids who are sitting at a table and there's a guide sitting right next
+to them and they're working together. And my favorite, and I always see this when I walk into
+one of those classrooms, you'll see some kids who's like laying on a bean bag with this
+feet up against the wall and he's got his computer on his laptop. And you might look at and go,
+what's that kid doing? And I'll tell you what he's doing. He knows that he can get his work done
+and he can hit his goals. And he's kind of earned that privilege of being able to relax. And that's
+another thing, you know, motivation is is such a huge part of our culture at Alpha. And we built
+in all these different motivation models to help kids be successful. And that can be everything
+from earning the privilege of getting to do your core work in a little tent for it, you know,
+or a cubby thing with stuffed animals surrounding you. So it's just kind of fun. I think it's
+really, it's the kind of school environment that again, when we kind of are saying, we get to
+reimagine what education looks like and what school looks like. Let's build a school from the
+ground up that just is a place where kids want to be, right? We're asking kids to spend a dozen
+years of their life most of the time in a place. And it should be something that feels nurturing
+and caring and inspires just curiosity and exploration. Not one of these, what I honestly think
+so many schools are just depressing, right? So from the outside in, does it look like any other
+school with fields and, you know, field house, locker rooms and all that? And then you don't
+notice the difference till you get through the door? No, I would say we're still a little different
+on that. You know, our schools, we've opened schools all over the country and the way we've started
+this because again, Alpha is such a foreign idea and concept to so many families. They need to see what
+it is. So we've opened schools up throughout the country. We've started them small. You know,
+so we'll have, you know, schools with 25, 50 kids that are in that, you know, you get a playground,
+you know, kids need to be outside. In fact, our students get, you know, an hour and a half of just
+non-structured outside playtime every day because that's something really important to have.
+But yeah, it's not quite the traditional thing. And the same is true with the way we do our
+workshops. Like, for example, you know, I was at our middle school this week and they're doing
+an incredible band music class. But they're creating a rock band and as part of that, they're also
+learning about marketing and branding and mixing music in addition to playing instruments.
+You're not really going to walk into one of our schools and see kids all playing the recorder,
+you know, as part of their traditional music class. I see a lot of our, you know, when they reach
+college, you know, because I teach at MIT in a little bit of Harvard and it's Stanford and
+the kids that go to school in England arrive a full year ahead of the US educated kids.
+And they can use that to take basically either a year of tuition back in college, you know,
+just getting advanced credits or they can start a company while, you know, take a semester or two
+to start a company or just the extra time is worth its weight in gold. So if you start talking
+about, you know, 10Xing the rate of learning, I imagine, and you know, 1400 SAT scores of freshmen.
+I mean, you got to figure your, you're in that same. Maybe even a year ahead of that by the time you get to college.
+Yeah. When, when you think about that time for sure, two points. One about your England comment.
+You know, we have the, what we consider the world's best team of learning scientists who work for us.
+And what's, you know, very amazing is, you know, most of them come from England rather than the US
+that, you know, and the, you know, in England, the academics actually have been going like this versus
+the US like that. And a lot of it's like these, these, these people from this team, you know,
+who have been for 15 years, you know, making sure that those concepts were put into the curriculum,
+which is why they're, they're ahead, you know, we're now putting it into our platform. So everybody can get it.
+But that, that concept of just having lots of extra time, you know, in our high school,
+you know, they spend, our, our high school is a little different in that you spend four years
+working on a passion project, right? So you have four, you know, when you, if you're going to come
+down with a high, it's not because you want to be quarterback of the West Lake football team, right?
+You'll go to West Lake if you're, if you're going to do that. But you're going to come because
+you have, you want to say there's something I want to work on, right, that I really love. Now,
+they change their mind, their kids, right? And then they, you know, these, these ideas change.
+But can you imagine if you said I had four years to work on something I really loved and get really good at it?
+And so we do, we have, you know, we have, we have one of our seniors who's putting on a Broadway
+musical, right? And it's going to be the first all team all produced, you know, musical. And she's
+spent, she, everything from, I have to source the singers off TikTok to music right, right, to how
+you fill a whole venue and all the sales and marketing. All of those things was she took her,
+okay, I love, I'm an arch theater girl, right? And now has had years to actually work on it,
+you know, as she loves. Can I dive into a little bit about the guides, all right? So you don't call
+them teachers, you call them guides. And I'm curious how you source them, right? Super excited that
+Alpha is going to be opening up a school in my hometown, Santa Monica. How do you go about
+sourcing your, your guides? What's their background? Talk a little more about their, their mission.
+Are they just not traditional teachers, whether the top teacher someplace else?
+Let me, let me get my handle around that. I'll, I'll give you from the business that aspect in and then
+and McKinsey can talk on the other side. You know, the the biggest issue back to scaling schools,
+schools don't scale because you're limited by teachers, right? That's always the, the critical aspect.
+And so when I first looked at the teacher problem, you know, how are you going to be able to scale this,
+you know, the, the, the five things of what is required for a great teacher in a traditional
+school, not us, is you have to be a domain expert. I'm great in seven grade science. You have to be
+good actually in teaching kids, right? And, and, you know, not just a researcher, the third
+dimension is you have to connect and motivate students, right? The fourth is you have to be good with
+parents and the fifth depending on the organization administration, right? And, and so you look at
+that and sort of outside of the business world, you ask an HR guy, 101, he's going to say,
+that's a complicated spec, right? Those are different skills. It's hard to have all five skills in
+one person, right? That's a, that's a, that's a hard spec. And so in our, in education, what we've
+decided the way we solve that problem is to underpay them. You know, and then we're like,
+oh my god, no one applies for this job. It's the hardest spec in the world that we're going to
+underpay on. And, you know, like, well, this, you know, and so, you know, fresh that eyes coming in here,
+if we're going to rebuild this, you know, every HR guy is like, well, simplify the spec or pay more,
+or both. And so, what alpha that's what we've done very much in our model is those first two items,
+which is seventh grade science expertise, or how to teach it to kids, the 10,000 papers of learning
+science of the best way that instruct kids, we don't need because the AI tutor right our software,
+time back software does that for them. The third dimension, you have to connect and motivate kids,
+you have to be the world's best, right? We push that to the max. So if you look at our students,
+you know, a great book that, you know, I don't know if you've Dr. Yeager's 10 to 25,
+how to motivate kids from 10 to 25. This is psychological motivation, right? Correct.
+And he has this concept of the mentor mindset, which is teens need high standards and high support,
+right? And so he actually has developed our training program for our guides, right, which is,
+how do we have guides who are able to hold high standards for kids, but also provide the high
+support to get them there. And so you have to be the world's best. And so about what is it,
+McKinsey at the last count, it was like half come from traditional teaching background?
+Just about half of our guides come from a traditional teaching background. And these are generally
+people who were, you know, phenomenal, love the idea of working with kids, but, you know,
+realize that, you know, that traditional system is just built to fail on there. But we get people
+who, we have a guide who was the principal of the year in the state of Florida in 2020. And after 14
+years working as a principal, she was attracted to come back to Alpha because her desire was to get back
+in the classroom and, you know, impact and interact with kids. But in addition to that,
+we get the majority of our guides come from different backgrounds. They, you know, wouldn't have
+been interested in a traditional teaching world, but they were experts in motivation. They come from
+professional and college level coaching and athletics. Because think about how much motivation and
+life skill development is taught through sports. In fact, that's the way most of us got a lot of our
+life skills development growing up. They come from corporate backgrounds, executive backgrounds.
+What they all have in common, though, is this idea of like, okay, I want to be able to positively
+impact and motivate and connect with kids and serve as a mentor. And then, of course, to Joe's point,
+we've taken the opposite strategy as traditional education. We believe that anybody
+who is going to put their blood sweat and tears and working with, you know, this next generation,
+they deserve to be paid well. So our guides start at six figure salaries and that's part of what
+is enabled us to really attract incredibly talented people. And I will say our process for
+applying to be a guide at one of our schools is it's very challenging. I mean, we really have a
+high bar for who we want to be impacting and mentoring. That's really fundamental, though. That's
+like if you said, so in any given high school or middle school, you're going to have a math teacher,
+an English teacher, a history teacher, and they're branding. Their personal branding is tied to
+this very narrow kind of topic. And so by throwing all that out, of course, you're going to get
+much better standard in terms of the other baseline, the motivational skills and everything else.
+So is there any concept of a specialist at all across the guides or everybody is so really?
+Yeah. So just to put some numbers behind it, right? We had 80,000 people apply for our teaching
+roles, right? So in our world, we have just, you know, how many guides for school? And so
+and this is where to answer that second follow-up question. At the kindergarten level, we actually have
+five, six to one ratio of student teacher at Alpha. And the reason for that is that's the one place
+where our apps aren't fully developed, which is bootstrapping kids into reading.
+It's still not there. And so when you talk about specialists, we still have reading specialists
+to make sure kids get bootstrapped. Once you can read, I can teach your math. I can teach
+you all the other subjects. But the, basically, the detection of a four-year-old, the AI's are good enough.
+Yeah. You know, we think we need another 18 months before AI's condo. So that'll crumble too.
+That's interesting. Well, but let me just show how five to six to one. Oh, good. Yeah.
+Let me add a mom's perspective in here. Because in addition to reading, think about, I mean,
+you guys all went through this with your kids. Like kindergarten, we want our kids to feel loved
+and welcomed. And we want kids who come into school curious and excited to maintain that. And we
+believe having these awesome adults who are, who are, you know, supporting these kids and helping
+them do big things. You know, our kindergarteners learn how to ride a bike and do a five-mile
+bike race as a team together. And, you know, as there, you know, I was just, I was just talking
+to one of our guides who was talking about a kid. It was really feeling challenged around riding a
+bike. But this guide knows that he loves animals. And so she has a stuff kangaroo. And she runs
+alongside of him and says, can you go faster than the kangaroo? Now, by the way, our guides are having
+to get their exercise points in, you know, on that too. But that's the other thing that's just so
+critical is, what is the point of school? In addition, obviously, education and socialization and
+relationship building, we need these adults who are kind of mentoring. And one of the things I'll
+bring up Dave, when you were talking about specialists, the other fundamental skill that we have
+to learn how to teach young people is the ability of learning how to learn something. And when you
+talk about kids who are going off and building businesses, you know, in fourth grade doing jewelry
+making businesses or building mountain bike parks or Broadway plays or mental health apps,
+how in the world would you find a specialist, you know, who's an expert in that, you know, as a,
+as a teacher. Instead, our guides also have that skill of, you know, what? We're going to come
+along side each other and we're going to go learn how to become an expert in that field. We're
+going to learn how to connect you with experts in the field. Actually, today, I spent time with
+two of our high school students who are meeting with a really successful Hollywood producer
+who was connected by the school to give these kids some mentorship around, you know, movie production
+and marketing. And that's one of the skills that our guides are really good at is saying, okay,
+I can connect with a kid, see what they're interested in, and then help them go figure out how
+to go become an expert and jump in that field. So be careful, because we'll probably be reaching
+out to all three of you now, or mentorship and connections with our students.
+And I'm sure I'm qualified. So Liam, you're the one you're ready. And then the other, the other
+part of our model though, as you get older, we increase the ratio. So, you know, and you guys have
+14 year olds who said, you know, by the time you're adolescent, you're like, whoa, you know,
+there's too many adults around here, give me some space. And so we actually on the business model
+side, we take that money out of the guides and we put it into these workshops, right, these crazy
+afternoon workshops that they can go do everything. But if you also think about motivation, right,
+and these alternatives, right, we have X athletes, right, I have X NBA assistant coaches,
+Germano Niel is teaching a middle high school program, right, and you're just like,
+one is, I mean, those kids hold one, because motivation is so important, right, they'll do anything,
+right, with these sets, we've X Olympians, right, sets of coaches and athletes who are able to connect
+with these kids and provide that motivational, emotional support that you really want.
+And that's a lot of the magic that makes this work is making sure you hire those, which is
+why we pay more, why we built our business model around doing it, and source 80,000 of them,
+you know, to find the right ones. So that gives you a real head start on what's coming, too, because,
+you know, the whole college curriculum at MIT moved online years ago, and it got off to a
+fast start, but then a completely fizzled and the reason it fizzled is because it's so insanely boring
+to learn on your own through a browser. But what's coming next is the interactive AI version of
+that, and it's going to have exactly your favorite personality on the other side. So, you know,
+right now, when you talk to your high school math teacher, the person is who they are,
+they're not your perfect soul mate to talk to. The AI version of it, it can be any voice,
+any personality, it could be, it could be Shaquillo Niel, you know, reincarnated as a math teacher,
+whatever, it's going to be so incredibly engaging, and it's not quite ready yet, it'll be there
+within a year, but you're going to have such a head start having seen how these guides interact with
+the kids who are just, you know, the most naturally engaging people on the planet and seeing the,
+the motivation that that creates. So that'll match the AI version that comes on to that two hours
+a day when they're in front of the screen. Yeah, we have one where our middle schoolers are allowed
+to pick their avatars. And, you know, so for history, like, or an AP world history,
+they're all like, okay, Genghis Khan, right? Yeah, it's going to be my avatars. And it yells out of them if
+they're not studying, right? And the kids are like, okay, we love this, they pick it. Yeah,
+you know, actually, I met with a couple of MIT junior or sophomores today, actually, that
+we're saying that the Taylor series is now taught, my Taylor Swift.
+And right, you got a real kick out of that. It's like, okay, that's kind of cute.
+They're her avatars. And it suddenly knows how to do do. I've, I've, I've, like, a thousand,
+I've, like, a thousand questions here. But let me kick off a couple of one is when you hire a
+creature from the traditional side, there's obviously a transition period to kind of operating
+in this new modality, what's the average length of time that does that take? Well, you know,
+one thing that's interesting, the last step in our hiring process, when they've gone through
+a series of interviews and tests, everything from cognitive aptitude tests to case studies and
+having to design workshops, the last thing that they do is they spend time in one of our schools
+shadowing and basically working. What's really interesting about that is once they get to that point,
+the most common reason for falling out and not getting hired is actually traditional teachers.
+And the reason is they're not willing to jump in and engage with the kids kind of get at their
+level because traditional teachers are so used to kind of standing forward or standing back and
+sort of pointing, do this, do that, you know, and being here. But for those traditional teachers who
+do make it through our process and come into our school, we've got some really great training that
+they're able to jump into and just being a part of being willing to jump in. And so that's
+everything from designing the limitless launch activities that we do in the workshops. And the other
+big thing is helping them remember that their job is no longer to teach academic. So if you walk
+into one of our schools, you're not going to see one of our guides sitting down and showing a
+kid how to carry the one, you know, or what to do. Instead, they're going to be helping kids
+again develop that skill of learning how to learn. So they might say, hey, did you check your resources?
+We're able to find a video where you reading the explanation and they're really working to coach
+on that. Now, they're also focused on motivation. An example of that, we just, um,
+today in that kindergarten classroom, I was watching a couple of kids when they would hit one of
+their academic goals. They would give a secret signal that the guides are watching, touch your nose.
+And that would signal, I hit one of my academic goals and then that starts, get ready for it,
+a silent dance party. And that is a five-second dance party where the the guides would do this and the
+kid would do it. And then that was enough to get that kid psyched up and ready to say, okay,
+let me go hit my next goal. And it's just those little things that they can do. And then the other
+part of it, Dave, that you mentioned about how much more engaging, you know, um, personalized, truly
+personalized learning with AI can be. I just want to take it also to what it looks like when you walk
+in a classroom, you can walk in a classroom and have two seven-year-old boys sitting right next
+to each other. But each of them is working on something that's exactly at their pace. So for example,
+you have one seven-year-old kid who's doing algebra while the kid right next to him, his friend,
+is working on his multiplication tables. And that's the beauty of personalized learning. It's not
+isolating. It's not making that kid have to march up two grades, you know, to go sit with older
+kids or even worse being told by the school, you just need to chill out a little bit. You're too
+advanced. They can keep going and yet be right next to each other doing that. And then having that
+collaborative environment, I also have to say the the roller coaster that the kids incorporate
+when, um, when a kid hits a big goal, the whole class does a roller coaster ride, which, again,
+looks a little like this. Those who are not listening on video are missing the magic of
+this being credible. But that's the thing that these guides are so good at doing is figuring out
+what is that motivation. And that's everything from the silent dance parties to the fact that we
+pay our students' alpha currency and teach financial literacy concepts for hitting goals.
+Of all of that is really going on. Entrepreneurship developing self-driven learners. Yeah.
+So so then what happens? What's the impact of that on the peer pressure? And everything I see in
+schools, you're either care about your grades or you don't. And there's no, there's no, no room
+in between. And if you're near the top of the class, you get into this group of people that are
+really competitive about their GPA. And those are the ones that end up going to MIT and Harvard.
+And then you're like, oh, I can't compete on that. So I'm completely competing on the basketball
+team. You know, I'm going to put all my energy into that. It's really sad, actually, because
+because of most of these kids would be graded both. But the basketball coach cuts them from the
+teams. So you're not, you're not allowed to excel over there. And then the math teacher
+only cares about the top five students every year. And so you don't make the mind share the math
+teacher. And everybody ends up bucketed in very irrational ways. And that peer pressure is just
+pathetic. But it must be completely different in your school. Yeah. On the academic side,
+this is the difference between a time-based system and a mastery-based system. So all our kids
+right, master their grade level of material. So they get hundreds on their standardized tests.
+Right, for each level. And so if you actually, this is back to this dichotomy as adults,
+because of our system, we see the world so differently. If you ask out for parents and say,
+can you get a hundred on the, you know, in our case, the Texas star is the state standardized test?
+You know, fewer than 10% of the parents were like, yeah, of course, you can get a hundred on the
+Texas star. Only, you know, GT kids, right, that kind of thing. If you ask the alpha students,
+95% say you can get a hundred because they have. Right, which is, in a mastery-based system,
+you don't move up to the next grade level and to your master, right, what you're on. And the
+tutor is going to sit there, right, the system's going to give you the personalized lesson so you can.
+So all our students know they can crush their academics in two hours. It's also a function of
+when you have, when your classes are all top 1% of a grade level every subject. All the students
+are like, oh, I can absolutely do well academically. And so back to the competition, you know,
+it moves it in a, in a, in a time-based system, right, the two things that determine academic success
+in the standard school is, it's IQ coded and it's big five conscientiousness coded,
+are you a grinder, right? And those are the people who do naturally well, right? And that's 10% of
+market, right, 90% of the kids don't. In a mastery-based system, everybody can. And if you ask your average
+alpha student, it's not about IQ. It's about effort. You know, and that's why we call our
+software time back where it literally tells the kid, you're 17 hours away. Right, you're five hours
+away. And so it moves everything from, I'm not smart enough for I'm not capable, which is so,
+right, debilitated, right, that's such a bad model that we just inflict on these kids to, oh,
+okay, well, I'm five hours away from mastering it and getting 100, right? And that's just a huge
+unlock around self-confidence in resilience and all that. And once again, can't do a teacher in
+front of a classroom. I love this. I just want to say this for everybody listening here, you know,
+the traditional school models are you start school at 100% score. And every time you get something
+wrong, your score goes down. In the traditional video game models, you start at zero score.
+And every time you learn something your score goes up, it's completely different motivational
+system. And if you can tap into that as long as well as, you know, what you said earlier,
+the best video game designers know how to just come in at that perfect level of challenge and
+frustration. Yeah, that's great. If you think about learning and you think about this engine,
+because it does, everybody's like, oh, these AI tutors in their table. And, you know,
+you can imagine generating personal lessons for every kid that's based on, what are you trying
+to teach them? What is their knowledge graph? What do they know and not know? What is their
+interest graph? Right? This is back to your, oh, Taylor Swiss, my interest graph or Gagas Conner,
+whatever it is, right? And then actually, you can actually take into a cognitive load theory,
+which is actually the chemistry or brain, how many working memory slots you have, how many reps you
+require to store the long-term memory to, you know, change your schema. And the AI can generate
+a personal lesson for you that makes sure it's at 80 to 85% accuracy, right? Not too easy,
+not too hard. 99% you're not learning, right? It's, it's you already know it. And every game
+designer will tell you if you drop below 66, the kids disengage because it's too hard. So you can
+just imagine this unending stream of personalized content, right? For every kid right at their
+zone, and this is why you can learn 10 times faster, you know, and we do with what do you do with
+kids that are somewhere auditory listeners, some are visual learners, etc. How do you navigate
+between the different learning styles that different kids have? Fundamentally, you know, in learning
+science, right? There's dual coding, which is it is better to get it both visually and auditory at the
+same time, right? So even though internally, you think I'm a visual or I'm auditory, the actual
+science will show it's better to give it both at once. And so, kind of, even though you have a preference,
+right, you need the reinforcement of both channels at once. Let me ask some of the difficult questions
+that you probably are asked. So you're asking parents to trust more screens in the classroom
+at the same time that there's a backlash going on for screens with kids. So what do you tell parents,
+you know, who don't want their kids on computers all the time? And then are you able to
+enforce sort of a distraction free use of their laptops? So their kids aren't going off to play
+Minecraft or or some other video game. Yeah, those are super valid concerns, screen time and,
+you know, bad screen time, even AI and bad AI. So these are all super legit concerns by parents.
+And, you know, here's how we look at it. And please, parents who come in, you know, how they look at,
+which is we believe there's good screen time and bad screen time, which is if you can learn 10 times
+faster, right? Then, and it frees up the rest of the day to do all these great workshops and life skills,
+it's worth that trade-off, right? Even if you don't like screens and their parents at Alpha
+who would say, I'm a no screen time household and they're like, but if my kid can actually learn
+the academics in two hours instead of six and get that afternoons to do all these great things,
+that trade-off is worth it. That would be sort of dimension A, dimension B is to that point of
+AI, you know, if you give kids chatGPT in a school, right, 90% of them use it to cheat, right?
+Chat bots are cheap bots and so unmanaged AI is bad, right? And so we don't have in our mornings,
+we don't have chat functionality enabled. Like, even in our world, we've tried and even our best
+kids, they all use it to cheat, right? And you're all just, so we have to imagine that people
+people pre-conceived notion of Alpha School is using ChatGPT in school as a mechanism for learning,
+but it's not. So when a kid's on your platform, they're not able to go to Gemini 3 or
+Grok 5 or whatever the latest is and are they disallowed from going and playing their favorite
+video games as well? Yes, you are. And so when you talk about chat functionality, what we tell the
+kids is, if you're using Chat in the morning, you're probably cheating, but if you're not using it
+in the afternoon on these life skill workshops, you're probably failing, right? The students are trying
+to do a musical needs help, right? So it's that dual sense that they have to have of that.
+But for putting facts ideas and concepts in kids' brain, ChatGPT sort of steals that away from the
+kids and you want to fill kids with ideas. Now our AI uses basically there's two dimensions of the
+AI use. One is generate the personalized lesson, right? And so it's the generative part of AI,
+it generates a dynamic lesson for the kid. Now, the second part of what it's doing is the vision
+models. So it is watching the screen coaching you. So one of the things that's doing and it's
+actually the more expensive part, like we basically stream the screen to a soda model. We spend
+like 10 grader to kid right now in AI tokens because we're doing this because the AI is watching
+the screen and it's saying, look, you know, you're scrolling, you're guessing the answers or
+when you miss the question, you're not listening to the explanation and you're just trying to
+drive the next question without listening. And so it's coaching them into good self-driven learning
+habits. And the core of this and this is sort of a key and why EdTech isn't the solution for you.
+We talk about EdTech's like 10% of the answer, which is, you know, everybody says to educate a
+kid, you need a motivated student and you need to put them in lessons of the correct difficulty,
+not too easy not to work. EdTech does the second really well, but how do you do the motivated
+student part? For us, it's give the kids their time back, right? Where you say, look, engage in it,
+once you finish the lesson, you get to do the workshops. Well, if you're not using the apps correctly,
+right, if you're skipping or guessing or, you know, doing any of these anti patterns,
+you're not going to finish in the two hours, right? And so we literally have a waste meter in the
+corner where it's like, dude, you're wasting 50% of your time. That's mind blowing. Those vision
+models only came into existence, maybe a year ago, and you've already got them employed. That's
+incredible. We kid is a lot of token usage though. That'll come down a factor of 10, but it's impressive
+that you're, we're going to get down to it on device. But that is our end to be honest, like three
+years ago when we started when I became principal, we literally had humans reviewing the video at night
+annotating. Like, oh, wow, this is, these kids aren't learning, because you have to train models,
+just like the, you know, Tesla, you know, auto-packed. Yeah, of course. You have to train this model up of,
+okay, this is good learning. This is bad learning. What are these kids doing? Oh, wait, they're switching
+to another screen to ask chatGPT, oh, wait, they're playing Minecraft. And so all of those things
+were monitoring those. And, you know, our, our unit of measure is XP, right, whichever video, right?
+Yes. One XP is one point of learning. Yeah. One, one, one XP is one minute of, of learning. And so
+the kids know that AI is deciding, was this a minute of focus learning? Okay, you get credit for it.
+Yeah. So, I mean, that's, that's, I mean, just to make an analogy for the audience here. Like, if you
+have ever coached soccer or football or tennis, if you just imagine, you could look at every single
+kid and study every footstep they take and say, oh, wait, that step to the right should have been
+a step to the left, but you're in their AirPods telling them one on one coaching of every single move,
+that team will just take off. And that, the, the vision technology to actually do that through AI
+with the AI looking at every single motion. That's brand new in the world. And it would work in coaching
+just as well as it works in screen monitoring for teaching. But I can just completely see how like
+every single action in the learning experience is now a measurable piece of data that can be
+personally analyzed. And it's brilliant to me that you actually had human beings trying to do that at night.
+That must have been the most glorious thing in the history of the world. But that's how you get a
+head start into knowing how you're going to deploy it with AI very soon thereafter. That's just
+your system and put it into a traditional school and see how much time is being wasted there.
+Yeah, the 90% is being wasted. I can tell you in any school, 90% is wasted, right, for sure.
+That's, that's for sure. But back, and then just taking that last part that you were talking about
+the data, what we have now and why are learning keeps increasing is we have the, we're the only
+ones in the world with a closed looped data site. It's a, it's reinforcement learning for kids.
+It is. And so our, our learning science team comes up with an idea and they're like, okay,
+let's implement this new idea and see, they put it in right, generate their lessons. The kids
+do the lessons. You measure the learning. It was this a better way to teach the kid in this particular
+kid or whatever. And then they can see the scores based on standardized test results and then
+adapt to the learning. And so to give you a concrete example, so in August, I student front of all the
+parents, I'm like, we got a new math curriculum K through 12. Kids are going to learn more in
+20% less time, right? We made improvements. It's going to be 20% better. And eight weeks later,
+at the end of the first session, I got up. I'm like, okay, good news and bad news. 4 through 12,
+we're crushing it. We're above our thresholds. We're beating the 20% metric K through 3. We're not.
+The kids are getting lost, right? In the past, we gave them too much freedom, you know,
+freedom of choice got too much. So we're going to be changing that and changing that for the next
+eight weeks, right? And I can tell you now, it's where back on track on that one. But that kind of
+science, it's learning science, it's a little science. Yeah, yeah, how do it's learn?
+It's identical. Peter and I went to one X Robotics to interview Bert Bordenic and he had the exact
+same thing for the robots that are in the home. They gather every single motion, all the data
+comes back, gets transmitted into a nightly, you know, learning process that retains the model.
+So you've got the exact same thing in education with, you know, probably more kids robot.
+Well, you know, when we podcasted Eric Schmidt, he said, you get these loops, you know,
+Google learning loops, yes. But this is a perfect example of one of Eric Schmidt's learning loops,
+where the model will improve with that data. And Dave, you were talking about sports. And
+think about how much time is spent studying game film to see how you can improve. And that's never
+been done when it comes to learning in academics. It's like, again, just hopefully you're good at
+school or you're not good at school, you know, and that's where we be. And we actually give kids
+the coaching where they learn, you know what? The best way to go forward is actually to slow down,
+read the explanation, watch the video, and then take your time to, you know, look at the question,
+you know, before you go answer it. And that's part of what really puts learning in the
+kids hands and gives them a sense of ownership over it. And they start seeing, you know, what?
+I can get better. I can do better. I have the agency and the ability to improve if I put in the
+work and the, and the good practices. And again, that completely changes the way that a kid sees
+himself. And that's really the magic. This episode is brought to you by Blitzie, a autonomous software
+development with infinite code context. Blitzie uses thousands of specialized AI agents that think
+for hours to understand enterprise scale code bases with millions of lines of code. Engineers start
+every development sprint with the Blitzie platform, bringing in their development requirements.
+The Blitzie platform provides a plan. Then generates and pre-compiles code for each task.
+Blitzie delivers 80% or more of the development work autonomously, while providing a guide
+for the final 20% of human development work required to complete the sprint. Enterprises are achieving
+a 5x engineering velocity increase when incorporating Blitzie as their pre-idea development tool,
+pairing it with their coding co-pilot of choice to bring an AI native SDLC into their org.
+Ready to 5x your engineering velocity, visit Blitzie.com to schedule a demo and start building with
+Blitzie today. When I want to hit on some psych emotional side, so I mean, some kids,
+in particular, I think male teenagers probably need more scaffolding than others.
+How do you think about that? The other side of the equation I want to ask is how do you measure
+levels of stress and the psychology of the kids to provide feedback and safety?
+Scaffolding first and psychological side of the equation next.
+Yeah, it's interesting from a scaffolding perspective in this way, the earlier that we have
+kids come into our system, the better we can build on those habits. But you take, as you mentioned
+the teenager, you get a kid who comes into us in middle school or high school, and they've had
+years of conditioning in the traditional model, which is B passive, sit back, wait for someone
+to give information to you, and then move along whether you know it or not. Which is the worst
+place to be in life, right? It is actually the worst place. Yeah, and so there are some bad habits
+that kids have picked up. But here's the good news is you can pretty quickly put kids into a
+situation where they're suddenly in a culture where they feel a sense of ownership around the
+culture and where they've got adults who are you know practicing this mentor mindset with these
+kids of saying, hey, you were capable of doing big things. You may have thought in the past that
+you weren't a math kid, right? You weren't a good at science, your dyslexic, and therefore
+reading will never be your thing. That's not true, and let's put in some growth mindset,
+let's give you some training around receiving feedback around, you know, being able to connect
+and do that. And so they get that help, and then when they also are met with the level in pace,
+and you know, here's a pretty scary statistic that I think it makes most most parents kind of
+blood turn. We brought hundreds of students from all over the country into our alpha school that
+at the beginning of the school year, and as part of their onboarding, they do assessment, so we can
+figure out where they are. And Joe stood in front of our parents at the back to school academic
+90s said, guys, I got some bad news for you. This will be a little hard to take, but basically
+we looked at where students are, and we compared them to their transcripts from their previous schools.
+And here's what we found, if they were an A student on their transcript, you know, in math
+class, for example, they were anywhere between one year head and three years behind in their academics.
+If they were a B student, they were between three and seven years behind, three to seven years.
+And so here's the other part, and Joe's a, Joe's a pretty forward principal, he said,
+your schools have been lying to you. You know, gone are the days of teachers giving out season
+days because, you know, what? Parents don't pay $40,000 a year to send their kids to schools where
+they get season D's right? Where should they don't get the grades at all? They get, they get sort of
+a written evaluation, and then like, okay, I need some objective measurement is, is my kid doing well or
+not? And they don't, they don't give that out. Now, here's the next part that Joe said,
+as he said, here's the good news. It's not going to take years to catch up. We're going to go
+and we're going to fill in some holes, give some personalized lessons that that gets you caught up,
+and you can do that pretty quickly. And going through that exercise, which by the way, it sometimes
+takes a little bit of motivation right, modeling to get these kids excited about going back and
+revisiting fourth grade, fifth grade, sixth grade to catch up, but they do and that kind of changes.
+And then on top of it, when you think about kind of mental and emotional stuff, you know,
+all of our students every week, they get a one on one, 30 minute meeting with their guides.
+Every single week, they're getting that connection. And did you know, the average amount of one
+one time in a traditional school with a teacher in a student, 22 seconds a day? That's it.
+And we may get those, those 30 minute times, it's that stuff. And here's another thing that's
+really interesting. We have an important in our school where kids can take the Alpha
+currency that they earn for hitting their goals. And they can buy stuff. It might be a Lego set
+or stickers or snacks or you name it. The number one most popular item in the Emporian is a special
+lunch with their guide. Kids love that connection in that mentorship. And then the other part of
+kind of coming in is a middle school student or a high school student, you know, we are really
+serious about creating a culture where we're helping students understand that they can be
+creators and contributors, not consumers. And when you think about what society does, it naturally
+pushes kids into the consumer mode. Scroll TikTok all day, watch you to play video games and
+listen. We spend time helping our kids see one, what are their values? What are their talents?
+What are they interested in? They go through an e-key guy values workshop that they then do a
+workshop where they spend 168 hours of their week tracking, right? How do they spend that time?
+And what are they actually doing with it? And pretty soon, our guides are worrying with kids
+to realize, you know what? Instead of playing a video game, why don't you go learn the vibe code
+and build a video game and then host your own tournament instead of scrolling TikTok, build an
+audience that's promoting a message with a great, you know, app that you've built. And we find young
+people want to step into that role. And we just need to help make that possible. I love that as a
+result we see. Yeah, we see. And when you have that sense of purpose in that culture and
+students who are uplifting each other, we really have found that that's been a pretty good
+cocktail for, you know, healthy, healthy lives. One of the things we see a lot is when you try
+anything disruptive in a legacy environment, the immune system attacks you. So are you getting a
+tack by the legacy system? Well, you know, this is one of, I've been trying to figure out,
+can you convert an existing school or do you have to be a new school like Alpha? And the answer is,
+you know, I've talked to, you know, the heads of some of the, you know, top 10 private schools in the
+country. And I'm like, here's the difference. If you hear this pitch and you like it, you come to
+the Alpha Infosession, which is why there's a thousand people at New York's Alpha Infosession,
+because, you know, people want this new thing. All the people who don't like this message,
+stay at your school. And so, you know, there is, for sure, a set of people who are like,
+I don't want that. And it's, it's too full of what it is. There's a set of people who are like,
+I want it, but somebody else has to be first, you know, that everybody wants to come to an
+Alpha and as we open up all these new cities, right? One of the things you realize is,
+once Alpha has a hundred people, right, that everybody wants to come. Let's talk about what
+you want to be the first 20. Let's talk about that. That's the key. Let's talk about how you get
+your schools open. So you're opening one in Santa Monica. You've just opened one in Santa Barbara.
+So your typical, you go out and you find a real estate location, you're, you're finding some place
+that is enough interest that you've assessed. So you have a density. And then Mackenzie,
+you're looking at an opening class of what 25 to 40 typically. Yeah, in general, we're calling
+these kind of micro schools with about 25 students is the start. And then one of, there's one of
+the things you mentioned to me is one of the advantages, if you're like a founding family,
+is, and I love this idea is that you can actually help create the opening class,
+right? You can get your kids best friends in there and you can select. I mean, I think half of
+education is who you go, who you go through the educational process with, right? Are they people
+holding you up or pulling you down? And I think this is a good one and I'll tell them Mackenzie,
+this is the Mackenzie story, which is, you know, when she was co-founding Alpha, she woke up and said,
+I want to go find the 20 people who are going to be surround my kids, right? And I was actually
+unfortunately, I, I was a laggard. It took Mackenzie two years to convince me to come down for.
+No, because I was like all the other parents is my kids, I went to Catholic school, didn't
+really like it, you know, almost expelled, because I skipped school all the time, you know, dropped out of
+college, but my kids were doing everything pretty well. Sure, sure, but you know, my kids were going
+to Catholic school and she's, I was like, this is such a weird school, like so weird, right? And
+but she woke up and is what we would now call a founding family, right? She found it out
+but in every city, you need the same thing, because just because Austin's going well doesn't
+mean Santa Monica, Santa Barbara, San Francisco, New York. They want to be like, this one is it.
+And so the more of growth is going to a city and finding those first set of families who are like,
+yes, I'm in and I'm actually going to go recruit the other families because it is, right,
+it is one where parents want to see, okay, it's working for your kid, okay, I trust it, right?
+The, I always say the two things parents need to move a kid from their school is they need a
+reference from an adult they trust, a parent they trust in their city and they need to see a kid at
+the school do something their kid can't do, whether it's love of school or academics or
+life, because whatever they care about, they have to see those two things and when they have the
+two things, then they'll move. Do you use a franchise model or do you attend all your own schools?
+So to we for alpha, it's a hundred percent us, we run it, there's no franchise, this is work,
+a hundred percent charge of the quality control, you know, but yeah, but the second part of it is
+alpha is the high-end private school, we design this when we said what are we doing?
+It's prices no object, right? It's expensive, it's the high-end private school, how would you rebuild
+education? Now, with this time-back platform that we're building, we're building a whole set of
+other schools based on it, which will be different model. So we've launched Texas Sports Academy,
+right, which is the afternoon is all sports. We've launched gifted talented school,
+which is for the kids who love academics, when you say what would make you love more school
+they're like more academics, and so, you know, those kids are learning like five X learning,
+they'll be 1500 by, you know, eighth grade. And so you have different ones we have a wilderness
+school, right? So you can, we have a Montessori school. So you can imagine all these different
+models that as soon as you have this magic of two-hour learning, you can start to say
+what should we do in the afternoon? And so next year in 2026, you're going to see all these other
+models beyond just alpha that roll out based on this time-back software.
+And look at your vision, the reaction of the authorities and government departments of education
+and that whole legacy side. Yeah, your public school, I'm going to be doing this for 20 years,
+McKinsey's in for 20 years. The public school side I think is going to be like the second decade.
+Not the first decade, which is we're doing a lot, it's all private, right, it's with the
+there's a whole set of schools, the Texas sports academy is using the Texas vouchers, the
+billion dollars, they just allocated where it's $300 a month parent paid. So bringing the price
+way down from an alpha. And so right now, you know, this is a private model. And we've tried on
+the public side, McKinsey applied for 10 charters, in 10 states, for in-person charters, zero, rejected
+10 times. One, one, we got air. One virtual, but you got an air result, you got a virtual
+not a physical, which is physical school, you know, the school boards literally say things like,
+I was put on this earth to stop people like you. Wow. And so that's what I talk about when I say
+the immune system, the good legacy for likes. Yeah, for sure. And so, you know, for us, it's, you know,
+the back to the thing, the private school markets of $50 billion market, right? And so it's a big market
+and for those parents who want to opt in, you know, it is radical, you know, so they, they can.
+We'd love to move into public as soon as they want to invite us, but, you know, on charters,
+we just said, we, we know we're not wanted here. So whenever you want us come call us, but otherwise
+we're done applying for, you know, charters. And I think Celine, what we see is we've got a lot of
+interest from the public education sector, you know, the Secretary of Education came and spent the
+day at Alpha and Texas in September. We get people kind of are inspired, but it's really the idea
+of, can you really change the whole model of the day, right? If, if academics only takes two hours,
+what do you do with the rest of the school day? And are you willing to change that rule of teachers?
+And all that. So I think right now, part of the reason we get a lot of attention, we are probably
+the most talked about school, you know, in the world is because we are sort of serving as inspirational
+ideas for what's possible. And I actually love that part of it. I'm getting parents who reach out to
+me who have implemented a lot of what we do in their homeschool environments, you know, or taking
+pieces of that. And I think, you know, eventually it'll get there, but right now, you know, our plan
+is to build the private distribution model at varying levels and price points, you know,
+still delivering the academic excellence through the time-back platform and the life skills
+development. And that just can be done in different ways. You know, at Alpha, our students will learn
+adaptability and teamwork by doing a sailing workshop where they eventually sail from Florida to
+the Bahamas, you know, over five days. But, you know, what else you can do, you can get incredible
+life skills development by letting kids get out on the sports field, you know, starting at noon instead
+of it for a clock and giving them time-backed things. So there's a lot of things.
+Everything perfect. What do you guys worry about? What keeps you up at night? What are the
+problems that are having? I mean, you know, I don't want to be in, I listen, I love what you're doing.
+I just don't understand, what's the flip side of the equation here? Here, well, flip side is,
+your average parent, when hearing this, think this is fully wacky and must not be true.
+So, you know, educating parents that this is actually this new model is not fake and false
+and a hoax at all of that, you know, is a huge lift, right? You know, our marketing department
+is, you know, our schools educate kids. We have to go educate parents because every parent
+literally thinks the opposite. That's one. The part I, as principal, is, how do I scale
+with keeping quality? Right? So, every time we open a new location, every time we open a new,
+have a new guide, how are we making sure that you're getting that same level of love of school,
+right, academic performance, the life skills? You know, we spend a lot of time like when you
+talk about life skills, we teach grit. What does that mean? Right? If you can't just read a book,
+the answer was book, and do I go, oh my kid, that's grit, right? We have to be able to say
+our third graders in Santa Monica and Austin and New York have grit. What does that mean? What's
+the test of past? Right? What is our, you know, alpha surf, right, that we have? And so we spend a
+lot of time making sure that we're building this for scale, right, and making sure that, you know,
+every third grader can do a Rubius Cube. So we're like, oh, that's a good, you know, proxy for grit.
+And so the, the, the scaling part is, you know, critical. The other is our cost, right? I'm
+spending, I'm burning 10 grand on the AI. I got to drive that down. So tomorrow is somebody flipped a
+switch and said, okay, everybody, finally, every parent wants it tomorrow. You know, we couldn't
+fulfill it. You know, we, we, we got to drive that, that curve down to make that work. And then the
+biggest one that I think to hit scale, building schools and rebuilding from scratch is, you know,
+I got 20 years. So we're going to build 10,000 schools, you know, and that's going to be great,
+and I love it. But how do I get to a billion kids, right? How do we drive this out to a billion
+kids? And if motivation is your number one issue, right? This engine parts easy in the scheme of things.
+How do you motivate kids when you don't own the school day? Right? The biggest motivator of a kid is
+giving their time back. So if I have six, and I give you four hours back, I have the most important
+motivation. But for the billion kids where I don't control their school day, right? And they're not
+going to give it back to me. They're not going to read structure of their school. We still have to get to those kids.
+And we have to motivate them to do it. And so you're going to see where we've actually
+were partnering with some of the best motivators in the world to figure out how do we package
+up both a motivational component with the learning component. So we have some of the world's best
+video game designers that that's going to be released in 2026. We work with some of these biggest
+influencers, right? And packaging all this up where it's a bundle, motivation, plus the learning,
+and that is hard. There's a big lift there, right? So have you talked about? Have you talked
+other governments because they're certainly countries around the world that are much more
+open to the future of education in a modern way than then we are safe here. Yes, we do. We have
+demand everywhere. And you know, on governments, what we find is it's the same thing it
+almost everywhere, which is if countries have a private model, you absolutely can get take rate
+on the private side. The issue is ministers of education or secretaries or departments of education
+are pretty much globally, very much going to wait and see until there's dramatically more proof,
+which I'm not against. I was, you know, Peter Teele was a, you know, his, his daughter went to the
+school and we were, I was comparing, you know, medical grade testing, you know, versus education.
+And, you know, there aren't, you know, in education we roll stuff out to 55 million kids,
+and there's no randomized control trial, right? There's no million million user like,
+does this really work? And I would love, you know, one of the things that we'd love to do is be able
+to, you know, as we get all this data out there in this, you know, time back at scale is due a
+million student randomized control trial so that every pharmaceutical grade trial. So everybody
+can be like, this isn't a hoax, right? This actually works. Oh my gosh, right? We need some of
+that proof because a lot of things in education are, you know, there's a lot of bad learning
+science and education that we need to undo and I believe proof and, and pharmaceutical grade
+trials might be the way around that. Incredible. Yeah, as we close on this episode, I have one final
+question, but Dave and Celine morning to give you a chance to ask. I would love to know how you
+deal with the rate of change of technology and what your process says. Because if you think about,
+you know, if you start with a batch of say, you know, six, seven, eight, or olds and you're planning
+that to end as 18 year olds. But in the intervening 12 years, you know, half the kids will have
+neural links and the other half won't, you know, and they'll be, they'll be doing something in the
+back of their mind. You can't even see. How are you going to deal with this cognitive change during
+that timeline? Yeah. So that, um, we're, we're humble enough to know we don't have all the answers.
+You know, we talked to McKinsey and I talked to thousands of kindergarten parents, right?
+And the pent kindergarten parents are the ones who who want the biggest change because they are
+looking out at 12 years from now and they base, they all know this current school system is not going
+to work, right? We need something different, right? They're, they're motivated to change
+versus if you have a senior in high school, you're like, let me just get them to college or get them
+up here, right? But if you have to look forward and project 12 years, you're going to want
+something new. And all we say at Alpha is we wake up every day and we feel we're the leading school
+that is saying how do we adapt to what the technology changes. So if you actually look at our
+high school kids, we have a concept called a brain lift, which is the data structure for human
+knowledge, right? And it literally divides, this is the stuff LLMs are going to be good at or
+are good at and will be. And this is the part that humans are good at. And we're teaching them
+as of today and with what we can project in the future, this is as good as we can get kids.
+And this is how we're preparing you for that world. And you know, and baby grok 7 is like,
+okay, well, it does everything the brain lift thought is, you know, and we got to move on.
+But we believe there's a, you know, our our view very much. And I think this is an important point
+about our culture. You know, McKinsey's best line is this is the best time in history to be a five-year-old.
+Right? AI is going to impact adults very differently. We're in Austin, Uber's,
+Waymo's, Robotaxies, right? Not a good time to be an Uber driver, right? But AI is going to give
+kids superpowers, right? It's going to transform their childhood. It's going to let them do things
+that our generation never even dreamed of. And so putting them, putting your kid in that kind of
+environment, right, is going to be awesome for them. And you know, if you talk to, I have a, I have,
+I have a dozen high school kids who are in my guide group, um, Spartacrupe, shout out. Um,
+anyway, they, uh, you know, they wake up every day and when you talk to them, they're like, yeah,
+you adults, and it's wraps for you guys. We are going to, AI is going to give us superpowers.
+We're going to take over the world. Well, infinite longevity, too. Yeah. Exactly. So, I mean,
+they can't be more optimistic about the future. And I think that's the kind of thing. By the way,
+I think I'm just moving before us adults screwed up completely. I mean, they are. Don't worry,
+they are. Don't worry, they are. Don't worry, they are. One of the reasons we, like,
+move schools for one, uh, our kids at one point was, you have to assess the level of optimism
+of the teachers teaching your kids. If your teachers are pessimistic about this, about the future.
+What do you expect your kids to be? I couldn't agree. Matt Ridley, right, all our kids
+re-rational optimists, right? That's a really good idea. That's a really good idea. That's a really good
+degree of abundance as well. Okay. Yeah. And, and they, you know, he came to the school and he actually
+was sort of an AI doomer when it came to education. And I couldn't have been more proud as our
+student sat there and used his arguments from his books and examples from what their day is like
+on why he needs to see the world differently. This is going to be awesome. Right. And, uh, and so I
+think that's an important part of when you talk about culture that we need for our kids. And, you know,
+Peter, we had a, we had a big foundation of a very large education philanthropy foundation came
+and visited our schools and at the end of the time, uh, the head of the foundation said to my
+guides and me, they said, you guys are so happy. And I was kind of like, what, you know, and they said,
+we go and we visit schools and we talked to educators and they're all just so, uh, they're
+encumbered and they're, they're depressed and they're like, it's so hard. And, you know, our, I was so,
+I was so happy to see my guide said, what do you mean? This is the greatest time in the world to be
+an educator because we finally are unleashed to do what we got into this world to do, which is
+positively impact kids. And, and you can do those things. And the other thing I, I love and appreciate
+and I think, you know, Joe is obviously a really great partner to have in this education endeavor.
+But one of the things I say is, if you come to one of our schools, at the beginning of the school,
+you're, we're not going to just dust off the same old presentation that says, hey, here's what
+the school year looks like. This is the date of field day. This is the day for back to school night,
+whatever. We're more like the Apple iPhone. We update every six weeks. We're constantly iterating
+and we're constantly growing and learning and we're seeing what, what works and what doesn't. And
+I will say families in our model, they have to flex their adaptability muscle as well because we're
+always having kids do cool things and adjusting things as they work. And I think that's why we're
+able to see such rapid innovation. But as part of that, we are on the forefront of it. So it's kind
+of a fun and wild ride, which hopefully Peter, you guys will get to be a part of, you know,
+in Santa Monica, seeing what that's like. Hopefully your AI works. Hopefully your AI works better than
+Apple iPhone AI. Silly, what you represent here, buddy? Yeah, I think that's what's great. It's
+such a clear watershed between everything you're doing and a growth mindset and everything
+old and a fixed mindset. And I think you're probably pushing people over that align wonderfully.
+If you you launched, I think 2016, if I remember right, right? We started the very first school in 2014
+when my kids were in third and first grade. And Joe's daughters who are the same age as my
+girls came in a couple years later. And we now have sophomores in college and then seniors in high school.
+So this is Joe's in my last year as Alpha Parents. And then he'll be peer principal and guide leader
+and I'll do it. If you go back to your founding, what would you have done differently
+that would have accelerated or changed things? What have you learned now that you wish you knew then?
+Oh boy. To partner with Joe at the very beginning, guys, right?
+Well, I part of this, like, you know, part of this and back to the story three years ago,
+why I got involved was, you know, I put my kids in 10 years ago. But I was like McKinsey,
+just like all that education. This isn't scalable. This is great for Austin, it's great for
+families. It wasn't until Jenny I came out. When I said, this is the technology that can let us scale
+to a billion kids. So it really was that moment that said, okay, now I should get involved
+because we can get it out to everybody. And I, what I bring to the party. And so, you know, that
+would been it. And if you just rolled me back three years, you know, what would I, what would I have
+done differently? The understanding, the educating parents. You know, I, I wake up every day.
+And if you said, if I could wave a magic wand to fix education, it's actually not the students.
+The students are awesome. Right? The issue is, I need the, because parents are the blocker,
+the blocker to education reform is what's in parents heads. And so that whole concept of,
+you know, in our three years, I did into a podcast, right? And I did, you know, and now I realize
+educating parents, you know, McKinsey's been out there. We have to get out there because the
+single biggest impediment to making education great for our kids is what our parents believe.
+I'm in McKinsey. Where can we point people to learn more about alpha school? Where do they go?
+We've got alpha schools that are launching coast to coast. We had 13 new schools this year
+and we'll be continuing now. So you can go to alpha dot school and learn more about our model.
+And then future of education on social media on Instagram. I've got a podcast called future of
+education. And we spend a lot of time on those channels just giving parents a little bit of
+a taste of what's possible in school when you free kids time up to go do awesome things and
+develop. So future of education and alpha dot school. And Joe in a particular targets, you want to
+point folks at? Oh, he's becoming an X star. Good. You can get J. Lee Mon is where I post and you'll see
+sort of life as a principal. You know, in all the education and the visit, you'll see some
+stuff about the business of education as well as what alpha kids are doing in our view around this.
+And can if family wants to go and visit an alpha school to see if it's right for them,
+is that a possibility? Absolutely. In fact, that's kind of the key is students will come and do
+a shadow day to see if if the school's a fit. And the one thing we warn parents is don't send
+your kid to a shadow day unless you are convinced that you want to move or your kids will rebel.
+They'll be like, I'm not going back to my old school. I want to go to this new school. And so that's
+one of the things we've got. We're hosting, we're hosting a few sessions at all of these schools
+and getting kids into kind of experience this. And again, that whole idea of love of school,
+it is so magical because when kids love school, it allows us to help them unlock their potential
+and do big things. Amazing. I got to say, I came into this podcast saying, well, I always learned
+something, but you know, how big a deal can it be? And I'm coming out of it saying, this is so inevitable
+and so huge. This has been great. Yeah, I created a critical for America, critical for the world.
+I mean, the speed of change is so extraordinarily fast that if we are still using the old methodologies,
+we're hitting brick walls. We need some not just Alpha School, hopefully many different mechanisms
+that are going to enable us to have our kids, our college kids, and even, you know, we
+need to talk about it, but reskilling using this technology to reskill our employees is going to be
+fundamentally critical. Well, thank you, Joe. Thank you guys. We really appreciate the pleasure
+TV too. Sleam a pleasure as always. How am I time to school? Absolutely. Yeah, reskill yourself.
+All right, guys. Have a beautiful day. Thank you. If you made it to the end of this episode,
+which you obviously did, I consider you a moonshot mate. Every week, my moonshot mate's and I
+spent a lot of energy and time to really deliver you the news that matters. If you're subscriber,
+thank you. If you're not a subscriber yet, please consider subscribing so you get the news as it comes
+out. I also want to invite you to join me on my weekly newsletter called Metatrems. I have a research team.
+You may not know this, but we spend the entire week looking at the Metatrems that are impacting
+your family, your company, your industry, your nation. And I put this into a two-minute read every week.
+If you'd like to get access to the Metatrems newsletter every week, go to dmnds.com slash Metatrems.
+Thank you again for joining us today. It's a blast for us to put this together every week.

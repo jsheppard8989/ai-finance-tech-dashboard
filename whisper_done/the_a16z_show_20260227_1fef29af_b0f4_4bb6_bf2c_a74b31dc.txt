@@ -1,0 +1,620 @@
+This episode is from a recent A16Z all-hands meeting where bed floor widths, Mark and
+recent deny, discuss the firm's new media strategy.
+We cover why the old media playbook no longer works, why be interesting matters for
+it being inoffensive, and how speeded it on the toasty have replaced polish and cautioned.
+Really stoked to be making this happen.
+Today's gonna be a fun one.
+We're gonna dive into all things new media.
+First start with a high level conversation about what is new media, how the media industry has
+changed, and then get into what the new media team is doing here at A16Z, what we've done so far,
+what we're focused on and where we're going in 2026.
+But first we thought we'd start with a little sizzle reel that gives a little bit of insight into
+some of the activity that we've done here.
+So they pitched to us this idea of working with a virtual production using Marvel's
+scene.
+And we look at the calendar, the virtual crazy idea.
+There's unlimited channels.
+And then the brands are mostly people.
+If you grew up in market, you're a whole concept of the laws of physics is different.
+You have to approach new media with new media thinking new media people that kind of think.
+But the world of media is completely different than we started.
+You see the market themselves.
+There's absolutely a manufacturer in the country in the house for actual law form,
+the television commentary.
+Few want to do something larger than yourselves and make the world a better place.
+We are 100% for it.
+One quick story I want to tell is to the video that we put out for the fundraising
+announcement, which is a third most popular post ever on the last night before putting it out.
+We had trouble getting one of the rights cleared for one of the songs that actually was like
+the backbone for the video.
+So the team using 11 labs recreated a different song that I think was actually better.
+But it was a sort of an amazing last night's sprint to make it all work.
+And I want to start there with the fundraising announcement because Ben you had this quote,
+which I think summarizes one of the main principles of new media.
+I just want to read a small part of it and then have you elaborate old media's defense oriented.
+In new media, offense is always better than defense.
+We've spent many years fretting about our results being leaked.
+Old media tries to please every audience.
+Old media is terrified of upsetting people and new media only cares about being interesting.
+When in doubt, flood the zone.
+Yeah, yeah.
+That sounds like something I said.
+One you share some of the tenets behind that idea and how you came to it.
+Yeah, so actually it's interesting.
+It's a really weird adjustment going from, you know, I mean, I spent my whole career in
+media or dealing with old media and now we're in new media in the history of the firm.
+The one thing that we really, really, really, really defended against was basically leak results.
+And the reason and it goes back to, in the pretty early days of the firm,
+the New York Times got a leak of our results.
+And I mean, we were like a young firm.
+So most of the funds were like a year old and venture capital firms don't have
+high returns in the first year because nothing happens in the first year.
+It's not like a stock market type thing.
+And so they miss our, maybe it's the Wall Street Journal.
+It was one of the two, but they miss interpreted the results.
+So they kind of said, well, the early funds were good because those had enough years to get
+kind of returns to them.
+But funds ring was terrible and like, you know, that it had been so forth.
+And because old media was still powerful, it was very hard to combat it.
+You know, we put out statements in this and that and the other blog posts explaining like why they were wrong.
+But it didn't land.
+And it was such a like an inside the firm.
+It was such a big crisis that actually, I'm pretty sure biology quit because he thought we were dead
+because the New York Times had just ruined the whole firm with that article.
+So it was like that kind of existential threat.
+And so we were very oriented around, okay, don't let anything out that could be misinterpreted
+or this or that because you can never correct it.
+It goes out there and you're never going to kind of come back from it and see more about
+the flood the zone concept in terms of why it works and why it's so different than
+what happened in the past.
+So in the past, traditional heat, it didn't count if it wasn't in the Wall Street Journal
+or the New York Times or like the Economist or CNN or like there were maybe eight channels
+that could save something and then whatever they said was permany in that, once it was out there,
+it was very hard to deal with and it would be top of Google results like the whole thing.
+But now like Mark and I if we really had a problem could go on 30 podcasts all of which get
+a much bigger audience than any of the publications I talked about.
+And we wouldn't have to talk about that. We could go talk about something else more interesting
+and erase that from everybody's memory very quickly. So it's just without commenting on
+what's about a world like the laws of physics are completely different in this world than the
+other world. And I think to be effective as an organization in marketing and media,
+you have to embrace the new world because you can't be half in half.
+Because the whole motion of the old world will kill you in the new world.
+Yeah, and vice versa. And so you have to kind of commit to
+we're going to really care about what goes down through the old channels or we're not going to give
+fun. Sorry to use language and we're just going to say interesting things and flood the zone
+and we're doing the latter by the way. There's a whole history to this, but basically like the
+whole idea that there's like a quote unquote corporate brand like the whole idea that there's like
+a corporate like trademark and then the whole idea that you like as a business you basically
+load everything into that thing and that's that thing whether it's general electric or
+international business machines or whatever. The idea that that thing is somehow abstracted away
+from the people involved and then that the people involved there main job is to try to kind of
+buff that thing which kind of led to this, what do we look at it is like it led to this like 80
+year kind of rain of everything being synthetic and plastic and boring, right? We're like
+better than I've had this experience for many, many decades at this point. It's just like the
+job of a corporate CEO for very long time was to get up on stage and to say absolutely nothing.
+In any sort of public event, I actually was on a board of the CEO who very firmly
+believe this and he literally would come off stage having very deliberately set absolutely nothing
+and would have been thrilled because like he had made no news like mission accomplished, right?
+Anyway, so the Eric to your question like basically I think the retrospective view on this
+what happened was basically in the past, your communication channels were just like super narrow,
+right? And so how could you get a message through to the mass market or to your audience or
+to your customer base? You could only do it by kind of sending in a message that was encoded into
+a few bits as possible, right? Because that was kind of your only shot because it was always limited
+by TV broadcast near a time or was limited by newspaper column inches or whatever. And so you
+just you had to kind of crystallize everything down to this kind of minimal and sort of at least
+offensive kind of possible position. But it's always been unnatural because the human beings like
+it never felt right. I always felt like weird because it's like this corporation is like this weird
+other kind of alien thing. It always felt weird and uncomfortable and we just kind of got used to it.
+And it just turns out as a friend of me famously said corporations are people too, right? And like
+right. Yeah, he was using in a different context. He was not calling the change in PR. But for our
+purposes, it's like it's all about people. It's all about the decisions that people make. But
+it's a bit company or a government agency or a nonprofit or a venture firm or a startup is like
+making decisions and acting in the world. That's people. Like there are some set of people who are
+sitting around making that decision. And then it's kind of this almost not even like shock therapy or
+something where it's just people who are actually making the calls actually show up and talking
+there on behalf and explain themselves and actually say what they think it like blows everybody's minds.
+Right. You know, it's the response people have to eat a lot and it's for response people have to
+certain other people who are now kind of very notable environment who are running large things
+who are very public and vocal. It's just kind of a single hand. It's just almost like this thing where
+it's like, well, they can't say that. It's a wait a minute. Number one, they can't say that like they're
+allowed to. They're like an adult in the United States of America. They're allowed to say whatever they want.
+Number one, number two, how about they actually tell us what they think? Like how about we hear
+directly from them so that we can actually understand what they're thinking and who they are
+and how they're processing reality and what their assumptions are. And of course, the technological
+cost for this is just that that narrow media funnel just got like completely blown into
+the rings. Right. In large part as a consequence of all the work that all of us have done
+on this call over the last 30 years. And you could kind of maybe say love it or hate it like the
+days of kind of this narrow channel narrow casting. And then what I would argue is just this like
+inherently deceptive practice of abstracting things away from people that world is just clearly fading
+and in the new world we're just going to hear direct from people. I look, I'm not a utopian and
+it's not going to be like 100% better, but I think there's no question it's a big net improvement.
+Yeah. And by the way, the other thing that's really interesting and retrospect is
+the things that people got in trouble for canceled for fired for, etc. in the past that they said in
+the press were all just missing interpretations. You know, with somebody saying something and
+because it was so narrow and because you could never erase it and because you could never come back
+and defend it because the audience would be at thousands of the size on the defense.
+You know, it wasn't, I said what I thought and people thought I was a horrible person. It was
+like said something, it got misinterpreted and people thought it was a horrible person. So now in
+this world we're like, you know, people say much more like aggressive things I would just say in
+terms of, you know, not being mainstream thinking, but have room to explain it. That really happens
+anymore. So I mean, everything from like Howard Dean to you know, you name like in today's world
+that that would be nothing. But in that world because there was no chance to say, well, like this is
+what happened. You know, like there were just thousands of times when people got into
+incredible trouble for things that they said that were misinterpreted that they could not correct.
+Yeah. And Eric, you know, Ben, Ben gave me good advice. You know, actually before you came
+on board, which I am trying my best to stick to, although I will tell you what it's a significant
+personal challenge. I can't, was not eating an entire box of Oreos and drinking an entire bottle
+scotch every night, both of which I'm also trying not to do. Um, because we live in a healthy world now.
+So, um, let's self-destruct a world. So, you know, Ben, Ben pointed out like, the, what Ben just said
+basically applies into the new world actually just as much as the old world in the sense of like
+when every time I've got myself in a like serious trouble, like in public over the last decade,
+it's because I tweeted something. Um, and I mean, you know, everybody on your probably know
+so much, I love Twitter and like it's great to be able to rip off the 100, you know, and that was
+really good at like compressing something super controversial in 140 characters and then really
+letting it rip up 280 characters. We've been pointed out like, look, every time every time somebody gets mad at
+you, you know, we're just just like completely ripped it. You overs over that. Missy what's happened is it's
+out of context. Um, and so Ben said, it's like just say everything that you think, but say it on a podcast,
+right, say it in the context of an hour and a half discussion so that you can, whatever it is,
+you've surrounded it with the full explanation or say it in the form of an essay where you've
+like fully articulated your argument and it's fully in context. Um, and just observationally like
+and not just applying to myself, but just more broadly, it's actually interesting if you watch this
+to this day. When public figures get blown to some of the reins, it's almost always because of
+something that's basically too short. Um, uh, when people actually do the full long, long-form explanation
+of what they think, even if it's on a highly contrary, you know, even if it's imputed to be
+out of controversy or whatever, if it's the full explanation, it is actually harder to blow people up
+and again, you could kind of, it's actually really funny. You know, when I was a kid, like, you know,
+the moral panic was around television, right, kind of pre-the internet and the moral panic, I tell
+a lot of moral panic and television always was around the concept of sound bites, which is you
+only ever get to hear like five seconds of what anybody's thoughts are, right? And somehow television
+is now the gold standard, you know, for information transmission, the internet's evil, like somehow
+it all flipped, but anyway, the point being is like the internet gives us the chance to not only express
+ourselves, like, in short form, the internet specifically gives us the chance to express ourselves
+in one form, right, and fully explain things. And that's, that's just so different, like the, the, the,
+the hour, hour and a half, two hour discussion with somebody who's like deeply into something
+and it's really involved in something, like, yeah, man, we all experience this as consumers,
+like it's just so much better than the, than the 30-second death that, you know, might have been
+on the NBC nightly news 30 years ago. And by the way, you know, the long form, uh,
+of almost anything that's interesting, complex systems problem, um, which is most everything
+in politics and in technology, you need the long form. There is no sound bite that gives you any information,
+and so you have to have a long conversation. So it is actually much better, or it is for me,
+as far as to get what, then there's always that thing with sugar, you know, using bones or whatever
+to be wider than that kind of thing. I'm going to eat a gigantic package,
+worrisome night in Deborah's honor, I really appreciate it. The, yeah, it's, we've also talked
+about, you know, media training of the past used to be around, you know, how to stay out of trouble
+this kind of thing. And now, you, you know, if you're a CEO, you want to be, you know, something
+uh, you know, Jordy from TVPN as it's concept of a Joe Rogan CEO. I used someone interesting
+enough to go on Joe Rogan for three out, you know, someone like an Alex Carp, someone like a Palmer
+lucky, right? And, um, is in, and the flip side of that is that, you know, if you're interesting,
+you know, if you're powerful, you're, you're, because you're interesting, uh, because that's what
+people, that's what people want to work for, it's, you know, people want to be customers of,
+it's people want to invest in, um, and if you're powerful and interesting, you're going to be
+and, and, and that's something that you guys have also helped me get more, more accustomed to,
+is like, hey, you know, this is the big leagues, you know, and there are people, like, who are
+going to be mad at what we're doing, and, and that is, that's, in some ways, that's a good thing,
+that's, it's evidence of our, of our power and, and our, seeing this.
+Yeah, no, I think that's right. And I think, you know, it's hard, it did, this is another kind of
+crossover between the old world and the new world, because it's your corporate brand,
+then, you know, you try and keep all the dust off the brand and, and, you know, try and be,
+something that nobody hates, uh, I guess, for like about a word, and then, you know, I think,
+in today's world, to be good at marketing, you've got to be interesting, to be interesting.
+If you're interesting, and powerful, there are going to be a lot of people who don't like you,
+and that's, it'll like that's a good thing. And I was very happy to see by the way, the
+infrared piece, because we can get like a nice piece, um, like a subsection of the firm,
+but nobody's ever going to write like a really nice thing about the whole firm. I think that,
+you know, also, it's a, this whole new world is much better for founder CEOs, because to be a founder,
+you have to have an original idea, and original ideas are interesting by nature. I think that
+professional CEOs, um, often get to that position through very careful polyticking, which,
+uh, kind of as the opposite, where you want to be uncontroversial, like nobody can ding you
+right as you get to the thing. And you know, Mark and I have, uh, been on, you know, Mark,
+much better than me, but been on large boards, where in the large boards, you know, when it comes
+to picking the professional CEO, they're all about what's not wrong with him, not what's right with it,
+or let's write with her. And so you get these very vanilla characters who definitely could not
+go on Joe Rogan, and that, you know, is all to our advantage, because we basically deal almost
+entirely with founder CEOs. I want to, uh, transition to one more structural mechanic, because it's
+a segue into how we've built our team a little bit, and it's, um, this, uh, Mark, it's this
+McLuhan quote, you know, if it's on TV, it's a TV show, um, and to talk about how the different formats
+yield different types of content. Um, okay. You want, you want me to do it, you want me to do it?
+Yeah. Okay. Okay. Okay. This is the thing. Okay. So yeah, Marshall McLuhan was the great
+media theorist of the, of the TV era, and actually his work has actually held up really well
+and it's, it's, it's, it's worth reading. Um, but, uh, he, he had, he had this, this thing in air
+air justice that he said, if, if it's on TV, it's a television show. Um, in, in other words, like,
+basically, that, that, that, that, that, you know, as they were as he said, the medium is the message,
+basically what he said is like, look, like, TV, TV is a specific kind of technology,
+a specific kind of media technology, um, and basically, like, all of the questions around TV are like,
+you know, is it, you know, it's, you know, it's all basically just like the only real parameters
+length, like, is it a three minute news segment? Is it a 20 minute sitcom? Is it a 40 minute drama?
+Like, there's, there's very little kind of variation in like what you can do, because it's just a
+linear, you know, it's just a straight, you know, just, you know, broadcast video, you know, mass broadcast video.
+And so he said, you know, basically the medium and it's first, you know, 10 or 20 years of
+evolved, you know, basically the concept of what we now know to be a television show, which is basically
+either a comedy or drama or a combination of the both. And it's basically a little story,
+and it's a little story, the play is that over 20 to 40 minutes, and it kind of has to be a self-contained story,
+because you don't know when people are going to watch it. And, you know, now they're doing, you know,
+now they're doing, you know, streaming and doing serial stories, but, you know, television shows
+properly generally were, you know, where the door of the thing was on one off, you can watch up and
+sell it out of order. And so there's like there, they're, they're these very, like, self-contained,
+little, basically, you know, plays, little stage plays, broadcasts on video, and then they're,
+they're these self-contained little stories, and then, and then they need to kind of appeal to emotion,
+because it's like an emotional medium, right? It's not like an information dance medium. It's a, you know,
+it's a, it's a, it's a, it's a, it's a medium that literally puts somebody in your living room. And so,
+basically it's, it's like these little morality plays, right, where there's, and there's got to be like,
+good guys and bad guys, and kind of the very simplistic story, and there's like a few, you know,
+a few mile plot twists, and then everything kind of wraps up at the end. And what he says sort of,
+the consequences of that is like everything on television has to be a television show. And that includes
+everything in the real world that gets talked about on television has to be turned into a television show,
+right? And, and this is kind of, you know, the running joke of like following, you know,
+I don't know, whatever current events are politics on TV right now, which is kind of running
+joke, which is, you know, and either party, which, but it's just kind of like, oh, you know,
+that, you know, it's, you know, it's time for the next season. Oh, you know, this is the new, you know,
+main plot that's happening, and then this is the new secondary plot that's happening, and if you
+watch CNN every night, you know, they're just kind of, you know, they're kind of just playing with these stories,
+you know, kind of over time, the way that the way that a soap opera might, or that a, you know,
+that a, that a, that a, that a, that a drama might, or occasionally, you know, how comedy might.
+And so, so basically, we just like lived in a world where it just seems like everything's a TV show.
+And it's, it's a world where like all the edges are sanded off, and everything is kind of very
+smooth and professional, and everything is kind of within this very narrow band of what can be put into
+these kind of little, little morality place. Okay, so Marshall McLuhan unfortunately is long dead,
+but I assert that if you were alive today, he would say, if it's on the internet, it's a viral internet post.
+Right, so like what's the native medium of the internet? Like what's the thing that, what's the
+form of media on the internet that like rips and dominates? And it's clearly the viral post, right?
+It's, it's the viral, act, you know, tweet, it's the viral TikTok, it's the viral Instagram,
+right? It's the, it's the viral Facebook post, it's the viral substack, it's the viral YouTube video.
+Like it's very clearly deposed, and specifically it's the viral post, like it's, it's the one that
+really rips. And so, so basically, you're right, right? So my theory is if it's on the internet,
+everything is a viral post, and then you just ask yourself two questions, which is like, okay,
+what's the characteristic of a viral post? And like nine times out of ten, it's something like
+really gets people cranked up, right? Like, on whatever topic, right? It might be on whatever your
+favorite pop star said yesterday, or it might be on whatever, you know, the politician said or it
+might be on whatever, you know, a business leader said or whatever, but like, it's something that like
+causes people to like flip out, right? You know, and maybe some people flip out possibly some
+people flip out negatively or something, cause people to flip out. And then the other thing
+with viral posts that's really interesting is you can actually observe this in the data.
+They have this really rapid rise, like they tend it, if they're going to take off, they tend to
+take off within like 12 hours, and then they spike like crazy as everybody retreats or reposts,
+and, you know, emails that are on talks about it. And then there's basically just like half
+like fall off, we're like within 24, it's like 12 hours up, and then it's like 24 hours down.
+And then 36 hours later, it's like gone from our collective memory. And the reason is because
+another one has popped up, and it's taken off instead. And if you kind of take a step back and
+kind of chart the media landscape that we've all been living in for the last whatever, you know,
+for sure, five years, but you know, you can even say probably 10 years. Well, what we've
+lived through is just literally just like thousands of cycles of viral posts. Okay, you know,
+is this good or bad or something in the middle? You can have a big debate about that.
+You know, I would argue, it's its own form of emotionality, right? It's basically things that
+spike the cortisol, and so that, you know, it sort of things that are controversial, and so
+it leans into that. But you know, the other side is things that are interesting, right? And then
+the other part is, you know, the people get a vote of what goes viral, right? It's not just up to a
+news producer, what shows up on TV, so there's that aspect to it. Another aspect to it, by the way,
+is that stories come and go much more quickly now, right? And so there will be some thing that pops,
+and it's like the world's biggest crisis in whatever sector is talking about. And it's just like
+everybody in the world has an opinion. This is where I was using a while back, the the the mean
+of the current thing. Like it's the current thing. Everybody has to have an opinion on the current thing.
+It's the most important thing in the world. And then 24 hours later, it's like it never happened.
+Because something else, right? And it's become the current thing. And then that leads to, you know,
+the new version of the old time on our strategy of getting through media crises, which is like just like
+basically, you make sure something else becomes the new viral post. You know, gets get something else
+elevated into that thing. So that, you know, there's the there's this way to kind of deal with these things.
+But but anyway, I just think like as long as the internet is the medium of choice, we're going to live
+in a world in which this is what it, you know, this is the cycle now. It's like a 24, 36 hour cycle
+by the way, the traditional media in the form of newspapers and television, like at least the way I read them,
+is they're basically covering whatever was the viral post like yesterday or a week ago. Right. And so
+right. And so there being driven by the internet viral post, which is, which, you know, which is why I think that,
+you know, the internet viral post is the higher order thing. And I also think like that, that's not going to change. Like they
+the whole long thing I can do on that. But like they literally, if you're a television, if you're a television producer,
+or if you're a news editor, whatever, like you can't possibly move your organization fast up to stay ahead of these cycles.
+And so what you end up doing is you end up chasing them. And that's, and basically the role of mainstream
+media for the rest of our life is just going to be to follow the internet viral post.
+Yeah, never said, funding joke on the daily show years ago where they were time to a newspaper guy
+and he said, why do you call it news? You should call it old. That's good. He was, he was the
+internet at the time of the managing editor of the New York Times. And he was in his office. And the
+New York Times, you know, is expecting to get the glowing coverage on the daily show. And whoever it was
+shows up in the office and says, says what Ben just said in the guy. And the editor is just completely confused.
+Like he clearly has no idea what the daily show guy is talking about. And he's like, well,
+like, what do you mean? And he's like, you point to there's like a pilot literally physical newspapers in the
+guy's desk. And he says, like, look, it's all old news. And he's like, no, no, it's today's paper.
+And he's like, no, no, it's yesterday's paper. Like I already know everything that's in that.
+And so, and yeah, and like it's just basically like, again, what do they have?
+They're very proud of this. They have their editorial process. They have their publication process.
+Like they have multi-layer bureaucratic mechanism for, you know, all all the news is fit to print.
+But, you know, it's at least a 24 hour cycle to figure that out. And I mean, you know,
+24 hours later, the internet has already moved on from whatever the last thing was. And so it's just,
+it's, it's a, it's another example of the dog chasing the car, except now they have to chase it,
+like every single day, which might be why they're so upset all the time. Yeah, they are pissed.
+You know, we've really made sure to hire people who really understand the platform. Not just how
+the platform works technically, but also the vibe and the taste and the spirit of the platform.
+And we've gone all in to start on on X because those are just where the most interesting conversations
+are happening, where people are the most plugged in. And so I think that's what's in tech world is on X.
+You know, like it or not, like our world lives on X. I'm just because that's also where all the
+e book both the kind of AI researchers and the AI influencers, crypto influencer, like
+everybody in our world lives there, you know, at least some parts. So we can't avoid it,
+even if we didn't like it. Yeah, where we love it. You're about to say something more.
+Oh, yeah, no, I was just going to say, yeah, I know what Ben said is, yeah, so that like this is a
+I posted a link to a book called the True Believer, the kind of talks about this is,
+you know, the old characterization is elites and masses, which is a little bit 20 century. But
+yeah, I like the people who are spending 24 hours a day trying to understand, you know,
+basically in these domains like AI or, you know, politics or whatever, like they're on X. Like
+that. And that's not the mass market, like that's not most of humanity, but like that's most of
+the people who are like basically in the way you might, I don't know what you want to call, like
+knowledge synthesis, business or whatever, where they're trying to like understand the formula
+policies and things and so forth. Obviously, it's also true that TikTok and Instagram,
+you know, have just like much more reach. Like they're, you know, they're just much bigger,
+you know, they reach the mass kind of global audience more. And so that, you know, they certainly,
+they certainly play a role. But if you're on the leading edge of the field, like, you know,
+it's very rare that whatever is kind of the lead, you know, the edge of that process of kind of
+idea formation, propagation, people, you know, in positions of authority kind of figuring out what
+they think. That's almost all entirely on that. By the way, this is another huge
+difference between old media and new media. So if you come from old media world,
+there's just wreak, you know, right, like the targets, you know, if you were going for a target
+audience, there was no real easy way to do it. All men mean, you know, like maybe like your sports
+you'd be in sports illustrator, whatever, but like there wasn't really a way to do it. But now
+with podcasts and and blogs and accents, when you can go to an exact audience,
+you can really get down to an extremely narrow target, a new media world. And, you know,
+for us, that's great, because the audience is founders, not the world. And so, you know,
+having a way to talk to 90% of founders as opposed to 4% of the world is just a much better thing
+for us. Yeah. The two more structural things, Mark, I want you to explain that I want to
+present some slides, you know, give some detail about what we're doing, that relate to one
+about to say, one is, I want you to explain the the void loop and why, you know, that that makes
+to Twitter and social media so much more powerful in terms of, you know, forming consensus.
+And then the other is the difference between written and oral culture and what's prioritized
+in, you know, as you transition oral. Yeah. Okay. So these are both long topics.
+And so I'll try to do the click notes version. Yeah. So I'll link to the book on this. But in,
+in military theory, there's this concept called maneuver warfare, which basically just says like
+speed, speed wins, like speed, speed wins is compared to math, math, math, winning,
+speed wins. So if you, if you, if you believe that, then there's basically this frame, there's
+this frame, or called called the Udolup, O-O-D-A loop, which originally was developed for
+fighter pilots, and then later for, for broader military strategy. And the Udolup,
+the, what, what O-D-A stands for, it's an acronym, it stands for Observe Orient Decide Act.
+And so it's basically the decision making cycle, right? And so, and Observe is like,
+view the outside world, Orient is like figure out where you are in respect to the outside
+world. Decide, of course, decide what to do, act, act. And basically what this guy, boy,
+came up with this idea said was like, any military operator, any fighter pilot, any military
+operation, any, you know, basketball player, any, you know, company, any government,
+basically goes through a decision making cycle that's like that in order to make decisions.
+So we just talked about it in your times, has their own Udolup, it's like 24 hours to go through
+their process, right? And so, and so, and, and as you what he said, it's like if, if speed is
+a thing that matters, then the person who gets to the cycle of fastest is the one who's going to win,
+but he said, there's a second order thing that happens. So one is just like, is Udolup
+faster than the other guys. So, so that's one question. But he said, the other thing can happen is
+if you, if you can have a sustainably faster Udolup processing cycle than the next guy,
+then if you think about what happens, like, let's say it takes, you know, you whatever,
+you know, an hour to figure something out, it takes the other guy to hour to figure something out.
+And think about what happens is like, okay, you start out and even playing fields.
+You, you both start your, your decision making cycles. You operate, you, you make your decision
+within an hour. The other guy is still, say, it's inside his own Udolup when you make your decision,
+right? And so, you make your decision, you act within an hour. He's only halfway through his process.
+He now has to start his process over, right? Because, because you've changed the last
+gap, you've changed the parameters of what's going on. So he now has to go back and re-observe
+and reorient has started over, right? And then, and then, of course, project forward. It's like,
+okay, then you decide again within an hour. And then by the time he gets, and again, he gets halfway
+through his process, he gets interrupted. He has to go back. And so what he says is, if you,
+if you can be sustainably fast for running your decision loop, you can get inside the other
+guy's loop in a, in a systematic and perpetual way. And basically, the result of that is psychological
+breakdown. Basically, you destroy this psychology of other side because they just simply,
+they, they just can no longer operate or function at all. They just like basically go into
+complete panic. Nothing seems to make sense. They can never get oriented. They can never make
+decisions. They can never, they become completely defensive, completely responsive. You completely
+dominate, you know, basically, the playing field. And he, you know, he was a famous fighter pilot.
+He was a famous fighter pilot called 15 second boy because he, his claim was in, which was true,
+as he could beat any other fighter pilot in dogfight within 15 seconds using this method. And so
+it's basically this, this, this, this premium on speed and quality of execution such that
+you are actually causing the side to have a, have a psychological break. By the way, like, again,
+go back to, like, I think this is also a big explanation for what's happened to traditional media.
+The, the fact that the internet moves events so much faster and this sort of internet collective
+crowd decides what's important. So much faster causes all the people who were television producers,
+who knew senators, who thought that they were in charge of the narrative to just basically
+have a psychological breakdown. Like, how, how can you even function when the internet is just basically
+cycling much faster than you could? And I think this, by the way, the same mystery of companies,
+you know, this is what Elon does, you know, to his competitors like in the defense, you know,
+in the aerospace industry. This is what Andrew's not doing in companies in the defense industry.
+You know, this, quite frankly, is what we try to do, you know, to our competitors in the
+venture industry. So, yeah, so that, no, to do that, you have to be willing to commit to being
+fast, right? And so you can't, you can't have long bureaucratic processes, you can't have,
+you know, a risk adverse posture, you can't, you know, stress, you know, you need enough time to
+make a decision properly, you know, but you can't, you can't run the fully deliberate, you know,
+strategy that a lot of companies used to have in the past were it was days to weeks to
+months to figure out, you know, what they were going to say about something. By the way, in politics,
+they adapted to this probably 30 years ago with the concept of the war room. And there's a
+famous documentary in the Clinton campaign. And I think in 1988, where they called the war room,
+they show this. And now, now they call it rapid response. And if you, if you go to basically any
+political operation on the internet right now, you know, they'll have an exit count this literally,
+they call it like rapid response. So, it's like, actually, the Department of War has won,
+just as an example, the Department of War rapid response. And it's literally like they're responding
+in real time to stuff that's happening because they want to stay inside, you know, everybody else's
+Yeah, okay, so there's that. And then, yeah, the, the, the Oral versus written thing is it's
+probably taking an hour to kind of go through the whole thing. But yeah, the long assured of it is
+there, there's basically, in sort of human culture, there's kind of two ways to communicate. There's
+two fundamental modes. There's oral communication, there's written communication. You know, oral communication,
+you know, is the original form. And you could think about it literally as like people around a campfire
+telling stories, singing songs, you know, reciting poetry. You can think about written communication
+would be, you know, kind of famously the book or the scientific journal article, right, or the
+math equation, or the business plan, right, you know, written artifact. And then, basically,
+the characteristic of morality or oral communication is it's sort of inherently emotion first,
+right, because it's, you know, literally, you know, live interactions to the other person.
+The characteristic of written communication is sort of abstraction, you know, and then, you know,
+hopefully logic, the scientific method, you know, intellectual rigor, analytical rigor.
+It used to be the case that you can kind of really divide these, you know,
+in traditional mass media, it used to be the case you could say that like newspaper some magazines
+are written, and so they would be like more calmer and more dispassionate. You could say, you know,
+television was oral, right? People literally people talking. And so it was going to be much more
+emotional on how to headed, you know, basically like, you know, that, that's all broken down,
+because of everything we've talked about. But the modern version of that is like the internet, like,
+okay, is the internet and oral culture or written culture? And it turns out the answer is the internet
+is both because the internet is everything, right? It supports every kind of media. And so a YouTube
+video, I will say for sure, a short form, TikTok or Instagram reel for sure is oral culture.
+Like, it's something short and bursty and emotional and interpersonal and it's experience,
+a long form of sub-stack post is for sure written culture. But then things get more complicated,
+because a short tweet, even though it's written, is actually an oral culture thing, right?
+Because the fact that short means it has to be like this, again, the sort of this burst of,
+of sort of, say, triggering emotionality in order to go viral. So actually, tweets, I would say
+or oral culture, even though they look written. And then long form podcasts are actually written
+culture, even though they look oral, right? Because if you're going to talk about something for
+three hours, like that's necessarily something where you're kind of getting empty abstractions
+and depth, you know, beyond just kind of a flash moment of emotion. And so the internet lets you
+kind of play with these formats and the kind of impact that you want to have in a way that,
+you know, in the past was kind of determined by exactly which fixed media you were in.
+And like, we all live this. Like, if you want to have the internet experience of, like,
+dim scrolling, again, you're really pissed off at the world. Like, you go to TikTok and
+actually, you can do that. If you want to, like, learn a lot of stuff, you can go on sub-stack
+and long form YouTube podcasts and you can live in that world and like, you can, like, you know,
+raise your IQ point today. Like, you know, it's absolutely amazing. And so there is a choose
+your own adventure aspect to it. And then, of course, you know, firms like ours need to
+think hard about how we communicate because of the differences. I love that as a segue,
+because it just emphasizes how different every platform is. And it's not, you know, a lot of people
+or companies will just, you know, have one idea and then cross-post it, you know, across every platform.
+But it doesn't fully appreciate, you know, what that platform is built for and what that platform
+rewards. And so for every platform that we have, we have a, you know, with a sub-stack podcast, Instagram,
+you know, X, YouTube, et cetera. We have an expert running it who is obsessed with, with that,
+with that medium, you know, on Instagram, we're up 35% you know, month of a month right now. We have
+this guy, Hero, who's 18 years old and has been, you know, grew up on an Instagram and it knows it,
+like the, the back of his hand. And, and that really matters. That makes a difference. And so with
+that is a segue, I want to do a share of just a few slides that just show a little bit about
+what we've, what we've done so far. So what we're, you know, really trying to do is, is, is,
+can make our companies, right? Is, is, is give them such a, a superpower in terms of getting their
+message out in terms of reaching their customers in terms of reaching their talent. You know,
+the superpower that companies like Anderall have to, you know, punch way above their,
+their weight class and, and other brands, you know, wish that they, they had that level of,
+of resonance, that level of reach. We're, we're, you know, trying to give them those super powers.
+And, and we do that by, by building our own channels, our own, you know, media empire,
+across platforms. We do that by making sure that we know everybody else who's got,
+those, uh, some of the screen-posts for some reason. Okay, it's a great share.
+But everybody else who's, who's got those powers of distribution and, and having great relationships
+with them, um, and then also by just, you know, making sure that we have the expertise,
+to be able to deploy, to, to, to our companies as well. You know, Lulu put this, uh, put this,
+well, you know, that people don't really invest enough in, in, in people running these, these platforms.
+And, um, you know, we've really, uh, spent a lot of time recruiting the, the right expert talent
+to do it. So I'm, um, I'm stoked because now that we've had them build our platforms,
+we're going to deploy them to, to work on behalf of our companies. Um, and so we're, you know,
+casser from a plighted tuition, you know, he's, he's always been, I was an angel in, and
+he has, there's also known for a while, and he's always been complaining of like, hey, you know,
+why are we not valued more? Or why do we not have more resonance? Why do people, you know,
+what, why is everyone talking about other companies, not, not our company, give it how good we are?
+And I'm, um, is it a casser? You know, you've never tweeted in your life.
+How do you expect to have tremendous, tremendous mind sharing? He, he finally, you know,
+thanks to a lot of pushing that we did, bit the bullet, and his first tweet got like 4,000 likes.
+You know, the first product we have, I'll get to in a second was, this launch is a service.
+Um, the second one is going to be this, this founder go direct emotion. You know, we're working with
+casser, we're working with Garrett from Flock Safety. You know, that's a heroic company that
+should be at the stature of an Android as well, and, and I really helped them build that machine.
+So, speaking of the launch of the service offering, this was, you know, inspired early on,
+I was asking, you know, some of the GP's, hey, what would, where could we make the biggest difference?
+Like, what new products should we have? And, you know, Sarah said, if we can get a guarantee of
+viral announcement, you know, I think that'd be a superpower for us. So, so we built out this,
+this launch of the service, you know, everything's souped to nuts from, from, you know, all the
+all the social media copied, messaging, the, um, you know, the rollout, we created these custom videos,
+you know, we hired Richard, another 18 year old who, you know, we convinced him to go straight
+from high school at the NBA, I, not go to college, or at least not right now. And, um, he, uh,
+he had previously done the clueless video, uh, and, um, and the browser based video, and he's just
+got this, you know, phenomenal, um, taste for, for what really does well. And so we, we built this
+video team Richard Ben, you know, Henry, you know, has really led this, led this product. And,
+and you can see the, the views here, it's, it's, it's just, um, phenomenally well, um, you know,
+millions of millions of views for our, for our companies, we've now scaled up this offering to,
+to offer it to, to all, all of our companies. And, um, that, that's our first product, you know,
+from there, we're, we're going to go deeper and do more embedded engagements, not, not just,
+hey, let's get this announcement viral, but let's, let's build this repeatable motion to, uh,
+to help companies, you know, build their foundations. And, and, and that's one thing I was
+going to call out, um, we, um, after working with companies, companies are saying, hey, you know,
+how do I hire people like that? In some cases, they were talking to them individually and seeing
+if they were, they were potable. And, uh, we, we said, hey, we can't lose, you know, they say,
+how do I find someone like Henry or Brandt or Richard or whoever? And so we said, hey, we want to,
+well, first, we're trying to hire more of them too. Um, and so let's, let's, let's create this
+fellowship. And then, and that's the new media fellowship was born to help us hire them, but also help
+help our companies hire them. And so, uh, because, you know, there's this sweet spot where you need
+to be online enough to really know the, the, the, the, the, the, have a taste and, and have a
+sensibility and understand these new platforms. But, um, you need also need to be functioning enough
+and professional enough to work at one of these companies. And, and there's not many people can,
+can, can do both. And so we really, um, you know, tried to create this, this, uh, this program to be
+able to identify these people and then just give them a little bit more sort of technical know how.
+And so our first fellowship, uh, we, you know, 2000 applications, we picked 65 people. We think
+we think they're incredible. Uh, we, two hires were must came from that so far. Um, and we think
+this is going to be a franchise, um, to come. And, and then the other part of it, I'll just leave
+is, um, you know, I think we were really popularizing this term, new media, seeing a number of
+people with, you know, new media, JD's. They, they want to head of new media, they're, they're looking
+for that. And I think we're, uh, sort of, in, in the way that we've popularized American dynamism,
+other people have American dynamism practices. Um, we're starting to see that with, with, with
+newbie. And so it's cool to, to see our thought leadership there. Um, and, uh, you know, more to, uh,
+more to come. So, yeah, there's other things I'll leave you with in our, our, our, our presentation,
+the, um, you know, our, our channels are up, um, tremendously. And we're continuing to invest in them.
+We, um, we've got this portfolio offering launch as a service where we're, you know, now launching
+our go direct motion of really helping our, our CEOs and companies do that. It has to come
+from CEO. So every engagement we do, the CEO is, is tremendously engaged. Um, and then we're
+really building out this, this new media category creation, this new media talent base for, for us,
+because we're continuing to hire, uh, but then also our, our, our, our, our companies. Yeah. So
+band, any closing thoughts? I'm, uh, I, I would just say that, uh, you know, particular
+if you spent time in, uh, the prior media regime, um, you know, evolved media, you know, you
+really have to rethink every instinct that you have because it's, it's one of the,
+where it is things where all your instincts are wrong. I mean, we're actually experiencing a
+little bit of this in AI too, which, you know, our team wrote a great post on, which is like in
+the old world of software, the one thing you knew is you couldn't throw money at a problem. And
+now you can throw money at a problem. And so like, you don't even realize how much of your thinking
+is affected by that old rule. Um, and, you know, uh, I would say this is that in spades where,
+like every single instinct you have is incorrect if you're in this world. And you just have
+to let it all go. And this is why, you know, this is people, women, oh, like the right way
+built this big podcast network and blah, but that's not what happened. What happened is Trump just
+understood new media for whatever. I don't know why he did because he's so old and he's been an
+old media the whole time. But like he just rolled right into it and, you know, not at a technological
+level, but this media as a medium. And I think that, you know, we've got to do that. We have to
+understand it and we have to kind of play by the new roles. All my favorite comedians, podcasts,
+etc., always tell their guests, don't read the comments. What do you guys think? Do the
+manic reddit posters drive you nuts? I have not dive into our podcast comment section, but I have
+seen a 60 z region reddit, not surprising. Uh, for what is worth every 10 o'clock conference I've
+been out all the day 60 z is always had an a 60 z fanboy raving about our podcast. Um, yeah, so Eric
+read the contents and read the comments. Don't read the comments. Don't read the comments. If they're
+going to affect what you say, it's kind of like the yelp prop, you know, people who care
+enough to post either absolutely love it or absolutely hate it. And we've definitely got at this point
+I, I, it doesn't affect me. So I read the comments, but you know, I, you know, I, well, you know,
+and Marka Ben have helped me not to not get too concerned about some of the, some of the commentary
+on Twitter by, you know, certain anonymous Twitter posters who, you know, raging in their basements.
+But, uh, yeah, ensure, don't read the comments. Yeah, so I'll just, I'll just maybe close
+on two things. Um, so one is, um, uh, there's a long history of this. And so, uh, if you read any sort
+of biography or autobiography of any sort of professional author, you know, um, uh, you know,
+writes, writes books for a living. Like 100% of the time at some point, they will tell you,
+oh, the one thing I never do is read, read the critics, right? Uh, I never read the reviews.
+Um, and then they'll say, well, actually, no, that's not true. I always read the reviews.
+Um, because I know I shouldn't, right? Like, I know I shouldn't. I know I shouldn't, because like critics,
+like my definition are like, you know, basically bitter, you know, bitter people, um, you know,
+who are, who are writing novels or whatever. And so of course, they're going to be mad.
+Um, and, and I know I shouldn't read. I know it's very bad for me, and I was going to really screw me up.
+And, and, and, and, and, and then I, I try and then it's like a magnetic pole. I, I always end up reading them,
+you know, because it's like three in the morning and I can't resist them. And then I always end up getting mad.
+Um, and so that, you know, there is this push. And it used to be right only professional authors or
+professional filmmakers or whatever had critics, right? Yeah, yeah, we're using now basically, right? The entire,
+the entire world is a critic. And so I, I think we all, we all, we all, we all kind of have that. It's,
+it's a little bit of a, it's a little bit of a push and a pull. Um, and so, um, that is, that is a,
+that is a little bit a little bit difficult. Um, you know, I will say, I, I think maybe a thing to kind of bear in mind.
+Um, I could resist, I posted a link to it. Another book on this topic, uh, with, it has a
+great title called Kill All Normies. Um, and it's a, it's a, it's a book actually from like a decade ago,
+they talked about like this kind of very angry internet culture, you know, the kind of developed after the 2000s.
+And, um, because by the way, internet was not always like this, like in the, in the very, very early days,
+the internet was so hard to get on to that the only people who were on the internet were like basically
+super, basically like smart, super successful people. Yeah, news groups were really good then.
+Yeah, yeah, like for pre 1993 news, news groups were like utopia, um, and then, uh, and then, uh,
+and then sort of post-1993, things started going sideways, and then things started.
+That the modern kind of cost to get in our culture really developed in the, in the 2000s and 2010s.
+Um, but, but basically it's like, it actually turns out there's like a, a genealogy to it,
+and it actually turns out like a lot of it is literally, literally, it's, uh, it's like,
+call of duty lobbies, um, uh, for online gaming. So it's like literally like online gaming lobbies,
+because like when the Xbox and the PlayStation, you know, kind of rolled out, uh, voice, uh,
+you know, voice interaction for the first time, you know, they're like, oh, be great for players to
+be able to talk to each other, and it turns out you just get like, you know, 12-year-old boys in these
+lobbies, just like torching the fuck, you know, out of everybody, and literally trying to get
+under their opponent's skin, and then being willing to, you know, anonymously say absolutely anything to
+do it, um, right, and so that led to, you know, you know, very, very, of course, very vulgar, very
+offensive, you know, kind of thing, and then that, you know, kind of flipped, you know, that kind of
+culture kind of expanded into early internet forums like something awful, and then it started
+metastasizing and it things like, you know, like YouTube comments, um, uh, and then, you know,
+and then obviously social media kind of blew that open. And so, um, there is this, um, uh, you know,
+there, there is this kind of, you know, I don't know, like rage, undercurrent to everything,
+um, and I guess it's just, you know, just got, you do kind of literally have to think about
+if these are people literally in their, in their parents basement. And by the way, the other thing
+is generally when we get attacked in the comments or, or, or stuff like that, it's somebody with
+like four followers or like a bot or something like that. By the way, that is interesting to
+read in the comments. Yeah, and that includes when it's hey, mantra, but no, yeah. Thanks for listening
+to this episode of the A60D podcast. If you liked this episode, be sure to like, comment,
+and subscribe, leave us a rating or a review, and share it with your friends and family.
+For more episodes, go to YouTube, Apple Podcast and Spotify. Follow us on X, A60D, and subscribe
+to our sub-stack at A60D.substack.com. Thanks again for listening, and I'll see you in the next episode.
+As a reminder, the content here is for informational purposes only. Should not be taken as
+legal business, tax, or investment advice, or be used to evaluate any investment or security,
+and is not directed at any investors or potential investors in any A60D fun.
+Please note that A60D and its affiliates may also maintain investments in the company's
+discussed in this podcast. For more details, including a link to our investments,
+please see A60D.com forward slash disclosures.
