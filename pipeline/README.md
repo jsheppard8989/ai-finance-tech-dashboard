@@ -6,13 +6,18 @@ This directory contains the data pipeline for ingesting newsletters and extracti
 
 ```
 pipeline/
-├── inbox/         # New emails (processed JSON format)
-├── processed/     # Original .eml files (after processing)
-├── extracted/     # Structured data extracted from emails
-├── analysis/      # Analysis results and stock picks
-├── ingest.py      # Email ingestion script (Gmail IMAP)
-└── analyze.py     # Stock analysis and scoring
+├── state/          # Logs and state (curation_log.json, pipeline_status.json, fetch_log.json, etc.)
+├── transcripts/    # All transcript .txt and .meta.json files
+├── processed/      # Per-transcript .processed markers
+├── inbox/          # New emails (processed JSON format)
+├── analysis/       # Analysis results and stock picks
+├── dashboard.db    # SQLite database
+├── ingest.py       # Email ingestion script (Gmail IMAP)
+├── analyze_transcript.py, fetch_latest.py, auto_pipeline.py, ...
+└── README.md       # This file
 ```
+
+See also `WORKSPACE_LAYOUT.md` in the workspace root.
 
 ## Setup
 
@@ -51,21 +56,51 @@ crontab -e
 
 Or use OpenClaw's cron system to schedule runs.
 
-## Podcast transcription (local, stable on macOS)
+## Robust podcast transcription (queue + worker) — recommended
 
-**Recommended:** Use **openai-whisper** (PyTorch). It’s stable on macOS; faster-whisper can crash (SIGABRT).
+The approach that worked for the All-In episode: **transcription runs in a separate process** (queue + worker), so the main pipeline doesn’t hit OOM, timeouts, or SIGABRT.
 
-1. **Install:** `pip install openai-whisper`
-2. **Transcribe all audio in pipeline:**  
-   `python3 transcribe_local.py`
-3. **Single file:**  
-   `python3 transcribe_local.py /path/to/episode.mp3`
-4. **Use from fetch_latest (in-process, no LaunchAgent):**  
-   `USE_FASTER_WHISPER=1 python3 fetch_latest.py`
+1. **Run the worker** (outside the OpenClaw sandbox) so it’s always available:
+   - Worker script: `workspace/whisper_worker.sh`
+   - It watches `workspace/whisper_queue/`, runs Whisper (e.g. `$HOME/anaconda3/bin/whisper`), writes `.txt` + `.meta.json` to `workspace/whisper_done/`.
+   - Run it as a **LaunchAgent** or in a dedicated terminal so it keeps processing the queue.
+   - Ensure `whisper` is on your PATH (e.g. Anaconda: `conda install -c conda-forge openai-whisper`).
 
-First run downloads the model to `~/.cache/whisper/`. Use `--model small` or `--model medium` in the script for better quality.
+2. **Pipeline uses the queue by default.**  
+   When you run `fetch_latest.py` (or the full pipeline), it:
+   - Sweeps any completed files from `whisper_done/` into `pipeline/transcripts/`.
+   - Downloads new episodes and **enqueues** them (copies audio + meta into `whisper_queue/`).
+   - Either **waits** for the worker to finish (default), or **exits after enqueue** if you use enqueue-only (see below).
 
-**Note:** `transcribe_faster_whisper.py` is available for a faster engine but may crash on some Macs; use `transcribe_local.py` if you see SIGABRT.
+3. **Do not set `USE_FASTER_WHISPER=1`** unless you intentionally want in-process transcription (can OOM or timeout on long episodes).
+
+### Enqueue-only (no wait)
+
+To avoid the pipeline blocking on transcription (e.g. in cron or when the worker is slow):
+
+```bash
+USE_QUEUE_ONLY=1 python3 fetch_latest.py
+```
+
+or:
+
+```bash
+python3 fetch_latest.py --queue-only
+```
+
+This only downloads and enqueues; it does not wait for the worker. On the **next** pipeline run, `sweep_completed_transcripts()` will move any finished transcripts from `whisper_done/` into the pipeline, and they’ll be analyzed and published then.
+
+### In-process fallback (can OOM/timeout)
+
+Use only when the worker isn’t available. **openai-whisper** (PyTorch) is stable on macOS; faster-whisper can crash (SIGABRT).
+
+- **Install:** `pip install openai-whisper`
+- **Standalone:** `python3 transcribe_local.py` or `python3 transcribe_local.py /path/to/episode.mp3`
+- **From fetch_latest:** `USE_FASTER_WHISPER=1 python3 fetch_latest.py`
+
+First run downloads the model to `~/.cache/whisper/`. Use `--model small` or `--model medium` for better quality.
+
+**Note:** `transcribe_faster_whisper.py` may crash on some Macs; use `transcribe_local.py` if you see SIGABRT.
 
 ## Publishing transcripts from whisper_done
 

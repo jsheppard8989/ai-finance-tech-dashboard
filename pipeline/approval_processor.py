@@ -12,8 +12,9 @@ from pathlib import Path
 from datetime import datetime
 
 TRANSCRIPT_DIR = Path.home() / ".openclaw/workspace/pipeline/transcripts"
-PENDING_FILE = Path.home() / ".openclaw/workspace/pipeline/pending_approval.json"
-CURATED_FILE = Path.home() / ".openclaw/workspace/pipeline/curated_episodes.json"
+STATE_DIR = Path.home() / ".openclaw/workspace/pipeline/state"
+PENDING_FILE = STATE_DIR / "pending_approval.json"
+CURATED_FILE = STATE_DIR / "curated_episodes.json"
 
 def load_pending_episodes():
     """Load pending episodes from file."""

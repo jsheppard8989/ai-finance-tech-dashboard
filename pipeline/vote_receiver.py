@@ -10,7 +10,7 @@ from datetime import datetime
 from pathlib import Path
 from http.server import HTTPServer, BaseHTTPRequestHandler
 
-VOTE_FILE = Path.home() / ".openclaw/workspace/pipeline/votes.json"
+VOTE_FILE = Path.home() / ".openclaw/workspace/pipeline/state/votes.json"
 
 class VoteHandler(BaseHTTPRequestHandler):
     def do_OPTIONS(self):

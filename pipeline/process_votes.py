@@ -12,7 +12,7 @@ from datetime import datetime
 sys.path.insert(0, str(Path(__file__).parent))
 from db_manager import get_db
 
-VOTE_FILE = Path.home() / ".openclaw/workspace/pipeline/votes.json"
+VOTE_FILE = Path.home() / ".openclaw/workspace/pipeline/state/votes.json"
 THRESHOLD_UP = 10    # Auto-promote at 10 upvotes
 THRESHOLD_DOWN = 10  # Auto-reject at 10 downvotes
 

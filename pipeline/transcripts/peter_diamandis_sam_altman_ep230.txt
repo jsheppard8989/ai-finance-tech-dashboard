@@ -1,0 +1,83 @@
+The AI CEO Arrives: Sam Altman's Succession Plan, Job Loss Continues, and Our 2027 'Solve Everything' Paper | EP #230
+Moonshots with Peter Diamandis
+Episode 230
+
+00:00:00
+
+ When do we see a billion-dollar revenue company being run by an AI CEO? I think it's pretty likely that there already is such a company right now. U.S. jobs disappear at the fastest rate this January since the Great Recession. This is not really a recession. It's literally tasks being evaporated in front of our eyes. This shows us Marx was wrong. We knew that anyway. We have the capitalists who are being first in line to be replaced by the automation.
+
+00:00:29
+
+ For me, this is the social contract, little by little, disappearing and pixelating away. Alex and I are going to be unveiling a paper we've been working on for some months. It's called Solve Everything. How do we get to abundance by 2035? The next 18 months to two years are going to set the rules down for the next century. We're about to have this conversation. The paper slash book is nine chapters. Are you ready to jump in? No one expects the singularity, Peter. I'm ready.
+
+00:01:06
+
+ Everybody, welcome to Moonshots. Another episode of WTF just happened in tech. I'm here with my incredible Moonshot mates, DB2, Salim, AWG. Guys, it is just accelerating. In fact, this is the second WTF episode we're recording this week, just because the news is just incessant. We're going to have this podcast today in two parts. First, we'll be covering the news that's breaking a lot of it, really important news.
+
+00:01:33
+
+ The second part, Alex and I are going to be unveiling a paper we've been working on for some months. It's called Solve Everything. How do we get to abundance by 2035? This is the equivalent of the paper released Situational Awareness in AI 2027. This is our view of where things are going. So in the second half, get ready for this. Excited to present it.
+
+00:01:58
+
+ It shows the brilliance of AWG. I'm in Sun Valley at the moment, speaking at Tony Robbins' Platinum Finance event about AI and longevity. Dave, you're back at MIT. Salim, where are you, pal? I'm home in New York, waiting for the warm weather to hit and get us above zero for once. It'll take six months. Wondering why I ever left India. No, why you left Florida is the great answer.
+
+00:02:24
+
+ And Alex, it looks like you're in your normal setting, some AI-generated background. The audience is convinced that I live in VR or maybe a hotel, and you wouldn't – actually, you probably would believe the YouTube comments on the flowers and the lamp and their purported invariability. Yeah. And I have taken on – But you did point out that the orchids have changed, actually. The orchids have changed, but I'm getting like flower-keeping advice in the YouTube comments at this point. I find people telling me to put ice cubes in the orchids.
+
+00:02:53
+
+ And I have to say, I'm having so much fun with ClawBot. The lobsters have begun to become part of my life inside and out. So I'm like, you know, bringing them into the conversation here. I got jealous, Dave, of the lobsters in your view. So I'm holding the lobsters back for now. No. We're having a tribbles moment. There's actually more. I take some of them down. It is a tribbles moment. You're absolutely right. Hopefully, it's not the trouble with the lobsters. All right.
+
+00:03:23
+
+ No, no. These tribbles are economically productive. Okay. Well, these are. And they're so much fun. I can't wait to express the level of collaboration I'm having with my ClawBot, which I've named Skippy. If anybody knows where the name Skippy came from, put it in the comments. It's my favorite AI from science fiction. All right.
+
+00:03:45
+
+ This is the number one podcast in AI and exponential tech, getting you future ready, getting you ready for the supersonic tsunami heading our way. And with that, let's jump into the news. First off, top AI news. I love this article. This came out from Forbes. Sam is the cover child, cover boy for Forbes this week. And the question is, will ChatGPT become the CEO of OpenAI? So this is what Sam said.
+
+00:04:15
+
+ You know, pretty simple. He has a succession plan. He's said he doesn't want to be the CEO of a public company. And honestly, being the CEO of a public company is a pain in the neck. So taking it further, he says, you know, if the goal for artificial intelligence is to become so advanced that it can run companies, he asked, then why not run OpenAI? I would never stand in the way of that. He says, I should be the most willing to do that. I find that fascinating.
+
+00:04:44
+
+ You know, when will we see an AI actually running a significant economic engine like this? Dave, thoughts? This is no joke, actually, because this is board meeting week for me. So I have back-to-back Minerva today, the cash cow from Dartmouth. Then tomorrow, the $2 trillion asset manager. Then the next day, the public company. All back-to-back.
+
+00:05:06
+
+ And in every one of those meetings, this is the topic, not replacing the CEO, but all of our plans are now in written form that we can digest with AI. So we're trying to track every single movement within every company in documents digestible by AI. And then if you ask the CEO, well, what do you do? It's mostly set course and set strategy, which is a very small fraction of total time. What else do you do?
+
+00:05:33
+
+ What's the other 90% of time go into and how much of that can be done by AI today? And the answer is a lot, which is great because then the CEO is unleashed to be even more effective at setting strategy and also promoting the strategy. So I don't think that part's going away anytime soon. But the other 90% is really just, you know, inbound information getting routed into the organization to do these specific tasks, which is outbound. It's documents in, documents out now. So we're really geared up now for this. So, Salim, you and I have been talking about this forever.
+
+00:06:04
+
+ When are we going to have AI board members, AI executive teams, and eventually AI CEOs? Thoughts? Yeah, we're seeing this shift from AI as from a tool to being a governance actor, right? We already have an AI minister in Albania. And initially, these are kind of like toy things.
+
+00:06:21
+
+ But in reality, this is very powerful stuff because an AI scanning can be scanning millions of documents at a company in real time has a much better sense of what's going on in the company than any human being can possibly do. Right? A typical loop in a big company is the senior management sets some direction or policy, cascades down. At the coalface, the people do it. It takes a long time to get down there. You have Chinese whispers.
+
+00:06:47
+
+ By the time it's down there, they're doing some activity that nobody at the top even knows about. And then they start doing stuff, report back up to the top. You've got another set of Chinese whispers. And by the time data gets to the top, it's diluted so much. And you lose all the intelligence in the middle, right? And so AI is going to come through and break through radical, create radical opportunities to do this. And I think what will happen is we'll see a pure AI organization at some point soon. But they won't look efficient. They'll look literally alien. And that's fine.
+
+00:07:16
+
+ I think it's one of these where you can't wait for it to happen. And then you can't compete. I'll tell you what else, too. You can't compete against that. You can't compete. Because of time dilation. I asked Alex for some help with the strategy of a big company earlier this week. And one of the points he made in his answer, which was brilliant, of course, one of the points he made in his answer was time dilation. If you look at banks and insurance companies and practically anything, it doesn't change strategy more than once a decade or once every millennium.
+
+00:07:46
+
+ Now, in the age of AGI, the course corrections are going to be, you know, it'll go from decades to years to months to weeks to minutes. All in the next couple of years. We have a whole section in the first EATSO book called Death to the Five-Year Plan, right? Because today, by the time you finish your five-year plan, it's out of date. Then you spend all your time maintaining the plan. Yeah, exactly. Exactly. So the amount of information that you need to assimilate to do those course corrections is beyond human. There's just so much going on.
+
+00:08:15
+
+ If you read Alex's daily feed, you know, the amount of change going on, if you compare it day over day, you can see the expansion of the rate. And so it's just so much happening. It's beyond human assimilation at some point. So you have to have an AI CEO to assimilate it and even suggest the course corrections. And Dave, you said it over and over again, right? The role of the CEO in part is to understand what his or her employees are doing and if they're making the most efficient use of their time and their resources.
+
+00:08:44
+
+ And it's all knowable, but just not by the human right now. But the AI can be giving you an understanding of this person's operating at 50% of capacity or this person's not making the best use of their resources. That's all management mechanics, which AIs will do very well. I think where you have the C-suite and the CEO, they'll be holding the purpose, hence the MTP, etc. They need to hold the direction and what problems the com

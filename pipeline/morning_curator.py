@@ -10,7 +10,8 @@ from pathlib import Path
 from datetime import datetime
 
 TRANSCRIPT_DIR = Path.home() / ".openclaw/workspace/pipeline/transcripts"
-CURATION_LOG = Path.home() / ".openclaw/workspace/pipeline/curation_log.json"
+STATE_DIR = Path.home() / ".openclaw/workspace/pipeline/state"
+CURATION_LOG = STATE_DIR / "curation_log.json"
 
 
 def get_episode_info(filename):
@@ -129,7 +130,7 @@ def main():
         print("✓ iMessage sent successfully")
         
         # Save pending state
-        pending_file = Path.home() / ".openclaw/workspace/pipeline/pending_approval.json"
+        pending_file = STATE_DIR / "pending_approval.json"
         with open(pending_file, 'w') as f:
             json.dump({
                 'sent_at': datetime.now().isoformat(),

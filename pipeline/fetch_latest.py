@@ -2,9 +2,16 @@
 """
 Fetch and transcribe latest podcast episodes.
 Run this to get the most recent episode from each feed.
+
+Default: uses queue + worker (whisper_worker.sh). Episodes are enqueued to
+whisper_queue/ and the worker writes transcripts to whisper_done/. Either wait
+for completion (default) or use --queue-only to enqueue and exit (transcripts
+picked up on next run). Do not set USE_FASTER_WHISPER unless you want in-process
+transcription (can OOM/timeout).
 """
 
 import os
+import sys
 import xml.etree.ElementTree as ET
 import urllib.request
 import subprocess
@@ -17,7 +24,7 @@ from datetime import datetime
 AUDIO_DIR = Path.home() / ".openclaw/workspace/audio"
 TRANSCRIPT_DIR = Path.home() / ".openclaw/workspace/pipeline/transcripts"
 FEEDS_FILE = Path.home() / ".openclaw/workspace/podcast_feeds.txt"
-LOG_FILE = Path.home() / ".openclaw/workspace/pipeline/fetch_log.json"
+LOG_FILE = Path.home() / ".openclaw/workspace/pipeline/state/fetch_log.json"
 
 AUDIO_DIR.mkdir(exist_ok=True)
 TRANSCRIPT_DIR.mkdir(exist_ok=True)
@@ -129,6 +136,73 @@ def fetch_latest_episode(feed_url, max_age_days=2):
         print(f"  ✗ Error fetching {feed_url}: {e}")
         return None
 
+
+def check_feeds(limit_per_feed=5):
+    """Fetch each feed and print latest episodes (no download, no DB check)."""
+    from datetime import date
+    from email.utils import parsedate_to_datetime
+
+    feeds = load_feeds()
+    if not feeds:
+        print("No feeds found. Check ~/.openclaw/workspace/podcast_feeds.txt")
+        return
+
+    print("=" * 70)
+    print("RSS feed check — latest episodes (no download)")
+    print("=" * 70)
+    today = date.today()
+
+    for feed_url in feeds:
+        try:
+            req = urllib.request.Request(feed_url, headers={'User-Agent': 'Mozilla/5.0'})
+            with urllib.request.urlopen(req, timeout=30) as response:
+                xml_content = response.read()
+            root = ET.fromstring(xml_content)
+            channel = root.find('.//channel')
+            podcast_title = "Unknown"
+            if channel is not None:
+                t = channel.find('title')
+                if t is not None and t.text:
+                    podcast_title = t.text
+
+            items = root.findall('.//item')[:limit_per_feed]
+            print(f"\n📻 {podcast_title}")
+            print(f"   Feed: {feed_url[:60]}...")
+            if not items:
+                print("   No episodes found")
+                continue
+            for i, item in enumerate(items):
+                title_elem = item.find('title')
+                pub_elem = item.find('pubDate')
+                title = (title_elem.text or "").strip()[:70]
+                pub_date_str = (pub_elem.text or "").strip()
+                pub_date_iso = None
+                age_days = None
+                if pub_date_str:
+                    try:
+                        dt = parsedate_to_datetime(pub_date_str)
+                        pub_date_iso = dt.strftime("%Y-%m-%d")
+                        pub = dt.date()
+                        age_days = (today - pub).days
+                    except Exception:
+                        pass
+                label = "  NEW" if (age_days is not None and age_days <= 2) else ""
+                age_str = f" ({age_days}d ago)" if age_days is not None else ""
+                print(f"   {i+1}. {title} — {pub_date_iso or pub_date_str}{age_str}{label}")
+        except Exception as e:
+            print(f"\n📻 {feed_url[:50]}...")
+            print(f"   ✗ Error: {e}")
+    print("\n" + "=" * 70)
+
+
+def _safe_filename_stem(s):
+    """Short alphanumeric slug for use in filenames."""
+    import re
+    s = re.sub(r'[^\w\s-]', '', (s or '').lower())
+    s = re.sub(r'[-\s]+', '_', s).strip('_')[:32]
+    return s or 'ep'
+
+
 def download_episode(episode):
     """Download the audio file for an episode."""
     audio_url = episode['audio_url']
@@ -145,6 +219,19 @@ def download_episode(episode):
     
     if not filename.endswith('.mp3'):
         filename += '.mp3'
+    
+    # Fallback: Simplecast and other feeds often use generic URLs (e.g. default.mp3)
+    # so every episode would overwrite. Use a unique name from podcast + date + guid/title.
+    stem = Path(filename).stem
+    if stem == 'default' or 'simplecast.com' in audio_url:
+        pub = (episode.get('published_date') or '').replace('-', '')[:8]
+        guid = (episode.get('rss_guid') or '')
+        if guid and len(guid) < 50 and '/' not in guid:
+            unique = _safe_filename_stem(guid)
+        else:
+            unique = _safe_filename_stem(episode.get('title', 'ep'))
+        pod_slug = _safe_filename_stem(episode.get('podcast', 'podcast'))[:20]
+        filename = f"{pod_slug}_{pub}_{unique}.mp3"
     
     filepath = AUDIO_DIR / filename
     
@@ -240,6 +327,11 @@ def transcribe_via_launchagent(audio_path, episode, poll_interval=15, timeout_se
     else:
         print(f"  📥 Already in queue: {queue_mp3.name}")
 
+    # Enqueue-only: do not wait for worker (transcripts picked up on next run)
+    if os.environ.get("USE_QUEUE_ONLY"):
+        print(f"  ⏭ Queue-only mode: not waiting. Run pipeline again after worker finishes.")
+        return None
+
     # Poll for completion
     done_txt  = WHISPER_DONE_DIR / f"{name}.txt"
     done_meta = WHISPER_DONE_DIR / f"{name}.meta.json"
@@ -307,7 +399,9 @@ def chunk_audio(audio_path, chunk_secs=1800):
 
 
 def transcribe_episode(audio_path, episode):
-    """Transcribe: use openai-whisper local if USE_FASTER_WHISPER=1, else LaunchAgent queue."""
+    """Transcribe: use queue+worker (default), or in-process if USE_FASTER_WHISPER=1.
+    With USE_QUEUE_ONLY=1 or --queue-only, only enqueue and return None (no wait).
+    """
     print(f"  🎙️  Transcribing: {Path(audio_path).name}")
     if os.environ.get("USE_FASTER_WHISPER"):
         return _transcribe_via_openai_whisper_local(audio_path, episode)
@@ -337,12 +431,22 @@ def save_log(results):
         'results': results
     }
     
+    Path(LOG_FILE).parent.mkdir(parents=True, exist_ok=True)
     with open(LOG_FILE, 'w') as f:
         json.dump(log_data, f, indent=2)
     
     return LOG_FILE
 
 def main():
+    # Check feeds only (no download, no DB) — just list latest episodes
+    if "--check-only" in sys.argv or "-c" in sys.argv:
+        check_feeds()
+        return
+
+    # Support --queue-only (enqueue without waiting for transcription)
+    if "--queue-only" in sys.argv:
+        os.environ["USE_QUEUE_ONLY"] = "1"
+
     print("=" * 70)
     print("Fetch & Transcribe Latest Podcast Episodes")
     print("=" * 70)

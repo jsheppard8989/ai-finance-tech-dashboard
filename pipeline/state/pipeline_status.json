@@ -1,0 +1,316 @@
+{
+  "last_updated": "2026-02-17T06:46:27.292615",
+  "episodes": {
+    "the_jack_mallers_show_btfd?_understanding_bonds,_deb": {
+      "info": {
+        "podcast": "The Jack Mallers Show",
+        "title": "BTFD? Understanding Bonds, Debt, Markets & Bitcoin",
+        "published": "Tue, 03 Feb 2026 07:33:55 GMT",
+        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-3%2F417366235-44100-2-96fb158c7055a.mp3",
+        "keywords": [
+          "market",
+          "bitcoin"
+        ]
+      },
+      "stages": {
+        "downloaded": {
+          "complete": true,
+          "timestamp": null
+        },
+        "transcribed": {
+          "complete": false,
+          "file": null,
+          "timestamp": null
+        },
+        "analyzed": {
+          "complete": false,
+          "episode_id": null,
+          "timestamp": null
+        },
+        "insight_created": {
+          "complete": false,
+          "timestamp": null
+        },
+        "published": {
+          "complete": false,
+          "timestamp": null
+        }
+      },
+      "first_seen": "2026-02-15T10:49:14.606108"
+    },
+    "moonshots_with_peter_diamandis_brett_adcock:_humanoid_run_on_": {
+      "info": {
+        "podcast": "Moonshots with Peter Diamandis",
+        "title": "Brett Adcock: Humanoid Run on Neural Net, Autonomous Manufacturing, $50T Market #229",
+        "published": "Wed, 11 Feb 2026 22:46:00 -0000",
+        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/DVVTS3287004650.mp3",
+        "keywords": [
+          "market",
+          "ai"
+        ]
+      },
+      "stages": {
+        "downloaded": {
+          "complete": true,
+          "timestamp": null
+        },
+        "transcribed": {
+          "complete": false,
+          "file": null,
+          "timestamp": null
+        },
+        "analyzed": {
+          "complete": false,
+          "episode_id": null,
+          "timestamp": null
+        },
+        "insight_created": {
+          "complete": false,
+          "timestamp": null
+        },
+        "published": {
+          "complete": false,
+          "timestamp": null
+        }
+      },
+      "first_seen": "2026-02-15T10:49:14.608348"
+    },
+    "a16z_live_how_startups_are_fixing_health": {
+      "info": {
+        "podcast": "a16z Live",
+        "title": "How Startups are Fixing Healthcare Friction",
+        "published": "Wed, 25 Jun 2025 10:00:00 +0000",
+        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/default.mp3",
+        "keywords": [
+          "ai",
+          "tech",
+          "startup"
+        ]
+      },
+      "stages": {
+        "downloaded": {
+          "complete": true,
+          "timestamp": null
+        },
+        "transcribed": {
+          "complete": true,
+          "file": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/default.txt",
+          "timestamp": null
+        },
+        "analyzed": {
+          "complete": false,
+          "episode_id": null,
+          "timestamp": null
+        },
+        "insight_created": {
+          "complete": false,
+          "timestamp": null
+        },
+        "published": {
+          "complete": false,
+          "timestamp": null
+        }
+      },
+      "first_seen": "2026-02-15T10:49:14.609409"
+    },
+    "the_network_state_podcast_#34_-_sean_neville": {
+      "info": {
+        "podcast": "The Network State Podcast",
+        "title": "#34 - Sean Neville",
+        "published": "Fri, 16 Jan 2026 12:00:00 GMT",
+        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-0-13%2F4f1c691a-555d-6be3-1ab4-1aebf83a0b84.mp3",
+        "keywords": [
+          "crypto",
+          "ai",
+          "venture"
+        ]
+      },
+      "stages": {
+        "downloaded": {
+          "complete": true,
+          "timestamp": null
+        },
+        "transcribed": {
+          "complete": false,
+          "file": null,
+          "timestamp": null
+        },
+        "analyzed": {
+          "complete": false,
+          "episode_id": null,
+          "timestamp": null
+        },
+        "insight_created": {
+          "complete": false,
+          "timestamp": null
+        },
+        "published": {
+          "complete": false,
+          "timestamp": null
+        }
+      },
+      "first_seen": "2026-02-15T10:49:14.610304"
+    },
+    "monetary_matters_with_jack_farley_the_\u201cclimax_top\u201d_in_gold_&_sil": {
+      "info": {
+        "podcast": "Monetary Matters with Jack Farley",
+        "title": "The \u201cClimax Top\u201d In Gold & Silver | Milton Berg, Turning Point Master, on Precious Metals, Bitcoin, and Disturbing December Warning In Stocks",
+        "published": "Tue, 10 Feb 2026 18:14:00 -0000",
+        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/EWWMN6429295583.mp3",
+        "keywords": [
+          "stock",
+          "market",
+          "portfolio",
+          "equities",
+          "bitcoin",
+          "ai",
+          "tech",
+          "outlook"
+        ]
+      },
+      "stages": {
+        "downloaded": {
+          "complete": true,
+          "timestamp": null
+        },
+        "transcribed": {
+          "complete": true,
+          "file": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/EWWMN6429295583.txt",
+          "timestamp": null
+        },
+        "analyzed": {
+          "complete": false,
+          "episode_id": null,
+          "timestamp": null
+        },
+        "insight_created": {
+          "complete": false,
+          "timestamp": null
+        },
+        "published": {
+          "complete": false,
+          "timestamp": null
+        }
+      },
+      "first_seen": "2026-02-15T10:49:14.611167"
+    },
+    "monetary_matters_with_jack_farley_why_carson_block_won\u2019t_short_a": {
+      "info": {
+        "podcast": "Monetary Matters with Jack Farley",
+        "title": "Why Carson Block Won\u2019t Short AI Names Until the IPOs Begin & Muddy Waters\u2019 Pivot to Long Resources Stocks & S&P 500 Momentum",
+        "published": "Wed, 04 Feb 2026 18:10:00 -0000",
+        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/EWWMN2965097612.mp3",
+        "keywords": [
+          "invest",
+          "stock",
+          "market",
+          "equity",
+          "ipo",
+          "ai"
+        ]
+      },
+      "stages": {
+        "downloaded": {
+          "complete": true,
+          "timestamp": null
+        },
+        "transcribed": {
+          "complete": true,
+          "file": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/EWWMN2965097612.txt",
+          "timestamp": null
+        },
+        "analyzed": {
+          "complete": false,
+          "episode_id": null,
+          "timestamp": null
+        },
+        "insight_created": {
+          "complete": false,
+          "timestamp": null
+        },
+        "published": {
+          "complete": false,
+          "timestamp": null
+        }
+      },
+      "first_seen": "2026-02-15T10:49:14.612212"
+    },
+    "the_moonshot_podcast__the_moonshot_podcast_deep_dive": {
+      "info": {
+        "podcast": "The Moonshot Podcast ",
+        "title": "The Moonshot Podcast Deep Dive: Jason Rugolo on iyO and the Future of Audio Wearables",
+        "published": "Tue, 25 Nov 2025 19:26:00 -0000",
+        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/IMP3972824673.mp3",
+        "keywords": [
+          "tech",
+          "technology"
+        ]
+      },
+      "stages": {
+        "downloaded": {
+          "complete": true,
+          "timestamp": null
+        },
+        "transcribed": {
+          "complete": false,
+          "file": null,
+          "timestamp": null
+        },
+        "analyzed": {
+          "complete": false,
+          "episode_id": null,
+          "timestamp": null
+        },
+        "insight_created": {
+          "complete": false,
+          "timestamp": null
+        },
+        "published": {
+          "complete": false,
+          "timestamp": null
+        }
+      },
+      "first_seen": "2026-02-15T10:49:14.613129"
+    },
+    "monetary_matters_with_jack_farley_\u201ca_huge_problem_for_everybody\u201d": {
+      "info": {
+        "podcast": "Monetary Matters with Jack Farley",
+        "title": "\u201cA Huge Problem for Everybody\u201d | Paul Krugman on Currency Devaluation, Artificial Intelligence, Kevin Warsh Nomination, & More",
+        "published": "Sun, 15 Feb 2026 20:38:00 -0000",
+        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/EWWMN3482909708.mp3",
+        "keywords": [
+          "equity",
+          "valuation",
+          "ai",
+          "artificial intelligence",
+          "intel"
+        ]
+      },
+      "stages": {
+        "downloaded": {
+          "complete": true,
+          "timestamp": null
+        },
+        "transcribed": {
+          "complete": false,
+          "file": null,
+          "timestamp": null
+        },
+        "analyzed": {
+          "complete": false,
+          "episode_id": null,
+          "timestamp": null
+        },
+        "insight_created": {
+          "complete": false,
+          "timestamp": null
+        },
+        "published": {
+          "complete": false,
+          "timestamp": null
+        }
+      },
+      "first_seen": "2026-02-16T20:54:44.940510"
+    }
+  }
+}
