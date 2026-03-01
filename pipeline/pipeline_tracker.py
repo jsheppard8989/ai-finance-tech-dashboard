@@ -14,8 +14,9 @@ from typing import Dict, List, Optional
 AUDIO_DIR = Path.home() / ".openclaw/workspace/audio"
 TRANSCRIPT_DIR = Path.home() / ".openclaw/workspace/pipeline/transcripts"
 DB_PATH = Path.home() / ".openclaw/workspace/pipeline/dashboard.db"
-CURATION_LOG = Path.home() / ".openclaw/workspace/pipeline/curation_log.json"
-STATUS_FILE = Path.home() / ".openclaw/workspace/pipeline/pipeline_status.json"
+STATE_DIR = Path.home() / ".openclaw/workspace/pipeline/state"
+CURATION_LOG = STATE_DIR / "curation_log.json"
+STATUS_FILE = STATE_DIR / "pipeline_status.json"
 
 class PodcastPipelineTracker:
     """Track podcast episodes through the processing pipeline."""
@@ -43,6 +44,7 @@ class PodcastPipelineTracker:
     
     def _save_status(self):
         """Save current status to file."""
+        STATE_DIR.mkdir(parents=True, exist_ok=True)
         self.status['last_updated'] = datetime.now().isoformat()
         with open(STATUS_FILE, 'w') as f:
             json.dump(self.status, f, indent=2)
@@ -318,7 +320,8 @@ def main():
     tracker.scan_pipeline()
     
     # Also save a detailed report
-    report_file = Path.home() / ".openclaw/workspace/pipeline/pipeline_report.txt"
+    STATE_DIR.mkdir(parents=True, exist_ok=True)
+    report_file = STATE_DIR / "pipeline_report.txt"
     with open(report_file, 'w') as f:
         f.write("Podcast Pipeline Report\n")
         f.write(f"Generated: {datetime.now().isoformat()}\n\n")

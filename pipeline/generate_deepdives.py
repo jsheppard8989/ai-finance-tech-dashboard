@@ -87,8 +87,11 @@ def get_source_content(insight_id: int, source_type: str, episode_id: int = None
         row = c.fetchone()
         if row and row['transcript_path']:
             transcript_path = Path(row['transcript_path'])
+            # Resolve relative paths against pipeline dir (e.g. "transcripts/foo.txt")
+            if not transcript_path.is_absolute():
+                transcript_path = Path(__file__).parent / transcript_path
             if transcript_path.exists():
-                with open(transcript_path) as f:
+                with open(transcript_path, encoding='utf-8') as f:
                     return f.read()
     
     elif source_type == 'newsletter':

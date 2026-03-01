@@ -1,8 +1,8 @@
-// Auto-generated - 2026-03-01T12:45:36.536521
+// Auto-generated - 2026-03-01T13:53:54.155445
 // DO NOT EDIT MANUALLY
 
 const dashboardData = {
-  "generatedAt": "2026-03-01T12:45:36.536569",
+  "generatedAt": "2026-03-01T13:53:54.155506",
   "tickerScores": [
   {
     "ticker": "BTC",
@@ -3421,6 +3421,222 @@ const dashboardData = {
     "insight_title": "The Future of Consumer Technology and Interfaces",
     "source_name": "a16z Live",
     "source_date": "2026-02-22"
+  },
+  "46": {
+    "id": 37,
+    "insight_id": 46,
+    "podcast_episode_id": 30,
+    "overview": "The investment thesis revolves around the disruptive impact of AI on the global economy and its implications for Bitcoin. As AI continues to advance and permeate various sectors, it is poised to cause a significant shift in the job market, particularly in white-collar professions, leading to a potential credit crisis and market upheaval. This disruption could lead to a reevaluation of traditional financial systems, potentially increasing the appeal of decentralized assets like Bitcoin. Given the current market conditions and the rapid pace of AI development, this thesis is particularly relevant now as it suggests a paradigm shift in how we view wealth, employment, and technology's role in society.",
+    "key_takeaways_detailed": [
+      "AI's rapid advancement is already affecting white-collar jobs, which could lead to a significant shift in the labor market and economic stability.",
+      "Bitcoin, often seen as a 'digital gold' or hedge against systemic risk, may benefit from a crisis of confidence in traditional financial systems.",
+      "Investors should monitor AI's integration into various sectors and its impact on earnings calls and market volatility as an indicator of future trends.",
+      "The potential for a credit crisis and market downturn suggests a strategic allocation to Bitcoin as a hedge against systemic risks.",
+      "Keep an eye on regulatory responses to AI advancements, as they can significantly influence the pace of disruption and the appeal of cryptocurrencies."
+    ],
+    "investment_thesis": "The core investment logic is that AI's disruptive potential will lead to a reevaluation of traditional financial systems, increasing the appeal of decentralized assets like Bitcoin. As AI integration becomes more prevalent, causing potential market instability and job displacement, Bitcoin could be seen as a safe haven. The catalysts for this thesis include increasing AI mentions in earnings calls, the potential for a credit crisis, and the ongoing development of AI technology. The timeframe for this thesis is medium to long-term, as the full impact of AI on the job market and financial systems is likely to unfold over several years.",
+    "ticker_analysis": {
+      "BTC-USD": {
+        "rationale": "Bitcoin is the primary decentralized asset that could benefit from a shift away from traditional financial systems due to AI disruption.",
+        "positioning": "Strategic long position, as Bitcoin is expected to act as a hedge against systemic risks and potential market instability.",
+        "risk": "Regulatory crackdown on cryptocurrencies, technological obsolescence of Bitcoin, or a lack of widespread AI disruption."
+      },
+      "GOOGL": {
+        "rationale": "As a major player in AI development, Google's stock could be impacted by the pace and direction of AI's market penetration.",
+        "positioning": "Tactical long position, as the company is well-positioned to benefit from AI advancements, but with a close eye on market volatility.",
+        "risk": "Increased regulatory scrutiny on AI, ethical concerns, or failure to monetize AI effectively."
+      },
+      "MSFT": {
+        "rationale": "Microsoft's extensive investments in AI could make it a key beneficiary of AI's growth, but also expose it to the risks of market disruption.",
+        "positioning": "Strategic long position with a focus on Microsoft's AI capabilities and market leadership.",
+        "risk": "Competitive pressures in the AI space, regulatory hurdles, and potential backlash against tech giants."
+      },
+      "NVDA": {
+        "rationale": "Nvidia's GPUs are critical for AI processing, making the company a key beneficiary of AI's growth and a proxy for AI's market penetration.",
+        "positioning": "Strategic long position, as demand for AI processing power is expected to increase.",
+        "risk": "Technological disruption in GPU market, reduced demand for AI processing due to economic downturn."
+      },
+      "TSLA": {
+        "rationale": "Tesla's integration of AI in its vehicles and energy solutions could make it vulnerable to AI's disruptive effects on the automotive and energy sectors.",
+        "positioning": "Tactical long position, considering Tesla's innovative use of AI, but with caution due to market volatility.",
+        "risk": "Regulatory challenges, competition, and potential disruptions in the automotive and energy sectors due to AI."
+      }
+    },
+    "positioning_guidance": "Investors should consider a medium to long-term strategic allocation to Bitcoin as a hedge against potential market instability. For AI-related stocks, a balanced approach is recommended, with a focus on companies with strong AI capabilities but also an awareness of the risks associated with market disruption. Sizing should be based on an individual's risk tolerance, with a potential allocation of 5-10% to Bitcoin and a diversified approach to AI stocks within the technology sector.",
+    "risk_factors": [
+      "Regulatory crackdown on AI development or cryptocurrencies could slow down or reverse the thesis.",
+      "A slower-than-expected AI adoption rate could limit the disruptive impact on traditional financial systems.",
+      "Economic downturns could reduce the demand for AI technology and cryptocurrencies.",
+      "Technological obsolescence could render current AI and cryptocurrency technologies less relevant.",
+      "Increased competition in the AI space could lead to a more fragmented market, reducing the potential for disruption."
+    ],
+    "contrarian_signals": [
+      "Despite the narrative of AI disruption, some sectors may adapt more quickly, mitigating the impact on jobs and financial stability.",
+      "The potential for AI to create new jobs and industries could offset the job losses in traditional sectors.",
+      "The integration of AI into financial systems could increase efficiency and stability, reducing the appeal of decentralized assets like Bitcoin.",
+      "The possibility of a regulatory environment that fosters innovation while managing the risks of AI disruption."
+    ],
+    "catalysts": [
+      "Upcoming AI-related legislation or regulatory changes that could accelerate or slow down AI's market penetration.",
+      "Major AI breakthroughs or product launches that signal the technology's readiness and potential impact.",
+      "Economic indicators that suggest a shift in the labor market or financial stability, such as unemployment rates and credit spreads.",
+      "Corporate earnings calls and reports that highlight AI's impact on various sectors and companies' strategies.",
+      "Global events or crises that could accelerate the adoption of AI and the shift towards decentralized assets."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-03-01T13:49:54.970970",
+    "updated_at": "2026-03-01 18:49:54",
+    "insight_title": "AI Breaking the System and What It Means for Bitcoin",
+    "source_name": "The Jack Mallers Show",
+    "source_date": "2026-02-24"
+  },
+  "47": {
+    "id": 38,
+    "insight_id": 47,
+    "podcast_episode_id": 29,
+    "overview": "The investment thesis revolves around the rapid advancements in age reversal technology, specifically focusing on epigenetic reprogramming. This field has the potential to revolutionize healthcare and longevity, offering investors significant opportunities. The recent breakthroughs in resetting the epigenome without cloning, coupled with the role of AI in accelerating research, suggest that we are on the cusp of a new era in anti-aging treatments. This development could lead to therapies that not only slow down aging but also reverse it, offering the possibility of increased healthspan and lifespan. The implications for pharmaceuticals, biotechnology, and healthcare services are profound, making this a critical area for investment analysis.",
+    "key_takeaways_detailed": [
+      "Epigenetic reprogramming has proven effective in reversing aging in cellular studies, with potential for human applications.",
+      "AI is playing a pivotal role in accelerating research, reducing costs, and identifying effective compounds for age reversal.",
+      "The cost of gene therapy is expected to decrease significantly, making treatments more accessible and potentially increasing market size.",
+      "Investors should monitor the progress of clinical trials and regulatory approvals for age reversal therapies.",
+      "Keep an eye on companies involved in longevity science, as they may offer significant growth opportunities in the coming years."
+    ],
+    "investment_thesis": "The core investment logic is based on the transformative potential of age reversal technology on healthcare and society. As scientific advancements lead to practical applications, there will be a catalyst for investment in companies at the forefront of this field. The timeframe for significant returns is medium to long-term, as the technology moves from lab to market. However, early adopters and investors in this space could reap substantial rewards as the market matures and treatments become mainstream.",
+    "ticker_analysis": {
+      "TICKER1": {
+        "rationale": "This biotech company is at the forefront of epigenetic research and has a pipeline of potential age reversal therapies.",
+        "positioning": "Long-term strategic position, as the company is expected to benefit from the commercialization of age reversal treatments.",
+        "risk": "Clinical trial failures and regulatory hurdles could delay or prevent the company from bringing its therapies to market."
+      },
+      "TICKER2": {
+        "rationale": "A pharmaceutical giant with a division dedicated to longevity and age management, offering diversification and potential for significant returns.",
+        "positioning": "Medium-term tactical position, as the company's established presence could lead to faster market penetration.",
+        "risk": "The company's broad portfolio may dilute the impact of age reversal successes among other business segments."
+      },
+      "TICKER3": {
+        "rationale": "A tech company specializing in AI and its application in drug discovery, which could accelerate the development of age reversal treatments.",
+        "positioning": "Short to medium-term tactical position, as the company's AI technology could provide a competitive edge in the race for age reversal therapies.",
+        "risk": "High competition in the AI space and the possibility that AI advancements may not translate into successful age reversal treatments."
+      },
+      "TICKER4": {
+        "rationale": "A healthcare services provider that could benefit from the increased demand for age reversal treatments and related services.",
+        "positioning": "Long-term strategic position, as the company is well-positioned to offer complementary services to age reversal therapy patients.",
+        "risk": "The company may face increased competition as the market for age reversal services expands."
+      },
+      "TICKER5": {
+        "rationale": "A venture capital firm with a focus on investing in longevity and biotechnology startups, offering exposure to the age reversal space through a diversified portfolio.",
+        "positioning": "Medium to long-term strategic position, as the firm's investments could yield high returns if any of its portfolio companies succeed.",
+        "risk": "The high-risk nature of venture capital investments means that not all portfolio companies will be successful."
+      },
+      "TICKER6": {
+        "rationale": "A supplier of materials and components used in gene therapy and biotechnology research, benefiting from the increased demand in the age reversal space.",
+        "positioning": "Short to medium-term tactical position, as the company could see immediate gains from the current surge in research and development.",
+        "risk": "Fluctuations in research and development spending by pharmaceutical and biotech companies could impact the company's revenue."
+      }
+    },
+    "positioning_guidance": "Investors should consider a balanced portfolio with a mix of long-term strategic positions in companies directly involved in age reversal research and development, as well as short to medium-term tactical positions in companies that provide enabling technologies or services. Entry points should be considered in the context of clinical trial results and regulatory milestones. Diversification across different stages of the value chain can help mitigate risks.",
+    "risk_factors": [
+      "Failure of clinical trials for age reversal therapies could significantly impact investment returns.",
+      "Regulatory hurdles and delays in approval could slow down the commercialization of these treatments.",
+      "The high cost of gene therapy may limit patient access, affecting market size and growth.",
+      "Competition in the biotechnology and pharmaceutical sectors could lead to a race to market with uncertain outcomes.",
+      "Public perception and ethical concerns surrounding age reversal could influence regulatory environments and market acceptance."
+    ],
+    "contrarian_signals": [
+      "The potential for overhyping of age reversal technology without concrete, near-term results could lead to market corrections.",
+      "The focus on longevity may divert resources from other critical healthcare needs, leading to ethical and societal debates.",
+      "Investors may underestimate the time and resources required to bring age reversal therapies from the lab to widespread clinical use."
+    ],
+    "catalysts": [
+      "Publication of positive results from ongoing clinical trials for age reversal therapies.",
+      "Regulatory approvals for new age reversal treatments or therapies.",
+      "Advancements in AI that accelerate drug discovery and reduce the cost of developing age reversal treatments.",
+      "Partnerships between biotech companies and tech giants to leverage AI in longevity research.",
+      "Investor days or conferences where companies in the age reversal space present their latest research and development updates."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-03-01T13:50:15.264066",
+    "updated_at": "2026-03-01 18:50:15",
+    "insight_title": "State of the Union on Age Reversal",
+    "source_name": "Moonshots with Peter Diamandis",
+    "source_date": "2026-02-24"
+  },
+  "48": {
+    "id": 39,
+    "insight_id": 48,
+    "podcast_episode_id": 31,
+    "overview": "The recent market volatility, particularly in tech sectors, has been attributed to the rapid advancement of AI technology, as discussed in the Conspiracy Corner podcast. The investment thesis revolves around the impact of AI on market sectors, with a focus on the shift from a 'when' to an 'if' mindset regarding the durability of cash flows. This change in market perception could lead to significant repricing of equities, affecting both valuation multiples and the cost of capital. The analysis will delve into the strategic and tactical implications for investors, providing actionable insights into how to navigate this new market reality.",
+    "key_takeaways_detailed": [
+      "AI advancements are causing a paradigm shift in market valuations, moving from a 'when' to an 'if' cash flow debate.",
+      "Investors are demanding a higher margin of safety due to the uncertainty of future cash flows, leading to lower PE ratios and higher weighted average cost of capital (WACC).",
+      "The market is currently in a degrossing cycle, with hedge funds trimming positions and reducing risk, contributing to downward pressure on stock prices.",
+      "Tech companies, particularly those reliant on human capital, may face challenges in recruiting and retaining talent as cash flows are impacted by AI.",
+      "The market is repricing risk, with a focus on companies that can adapt and thrive in an AI-driven economy."
+    ],
+    "investment_thesis": "The core investment logic is that AI technology will disrupt traditional business models, leading to a reevaluation of company valuations. Catalysts for this thesis include the announcement of AI advancements by companies like Anthropic and the market's reaction to these developments. The timeframe for this thesis is medium to long-term, as the full impact of AI on various sectors will unfold over the next 3-12 months and beyond.",
+    "ticker_analysis": {
+      "GOOGL": {
+        "rationale": "Google's parent company, Alphabet, is at the forefront of AI development with its DeepMind subsidiary. As a leader in AI, it is well-positioned to benefit from the technology's growth.",
+        "positioning": "Long-term strategic position, as the company is likely to be a beneficiary of AI advancements.",
+        "risk": "Regulatory risks and potential backlash against tech giants could impact Google's AI initiatives."
+      },
+      "MSFT": {
+        "rationale": "Microsoft has a strong presence in cloud computing and AI, with its Azure platform and investments in AI research.",
+        "positioning": "Medium-term tactical position, as the company can leverage AI to strengthen its cloud offerings and compete in the AI space.",
+        "risk": "Dependency on legacy software businesses could slow down Microsoft's transition to an AI-centric model."
+      },
+      "IBM": {
+        "rationale": "IBM has a significant stake in the COBOL language and mainframe computers, which are being threatened by AI's ability to modernize legacy systems.",
+        "positioning": "Short-term tactical position, as the market may overreact to AI's potential to disrupt IBM's core business.",
+        "risk": "AI advancements may not materialize as quickly as the market fears, leading to a rebound in IBM's stock price."
+      },
+      "AMZN": {
+        "rationale": "Amazon has shown its ability to leverage AI for efficiency gains, and its cloud computing arm, AWS, is a major player in the AI space.",
+        "positioning": "Long-term strategic position, as Amazon is well-positioned to integrate AI into its operations and services.",
+        "risk": "Amazon's aggressive expansion into new markets may face headwinds from regulatory scrutiny and competition."
+      },
+      "TSLA": {
+        "rationale": "Tesla's focus on electric vehicles and autonomous driving technology positions it to benefit from AI advancements.",
+        "positioning": "Medium-term tactical position, as the company's growth is closely tied to the development and adoption of AI in the automotive industry.",
+        "risk": "The high valuation of Tesla's stock may be vulnerable to any slowdown in AI adoption or technological setbacks."
+      }
+    },
+    "positioning_guidance": "Investors should consider a balanced portfolio with a mix of long-term strategic positions in AI leaders and medium-term tactical positions in companies that can adapt to AI disruptions. Entry points should be based on market reactions to AI announcements and the overall market sentiment. Timeframes for these positions should align with the expected impact of AI on each company's sector. Investors may also consider hedging against AI-driven market volatility through options or inverse ETFs.",
+    "risk_factors": [
+      "Regulatory actions against tech companies could slow down AI development and adoption.",
+      "A slower-than-expected transition to AI could lead to a revaluation of traditional business models.",
+      "Unexpected technological breakthroughs could disrupt the current AI landscape and create new market leaders.",
+      "Economic downturns or market crashes could lead to a broader sell-off, affecting even the most well-positioned AI companies.",
+      "Geopolitical tensions could impact the global supply chain and hinder the development of AI technologies."
+    ],
+    "contrarian_signals": [
+      "The market may overestimate the speed at which AI will disrupt traditional sectors, leading to buying opportunities in undervalued companies.",
+      "Smaller companies with niche AI applications may offer significant upside if they can carve out a niche in the market.",
+      "The potential for AI to create new industries and business models could lead to unexpected growth opportunities in currently undervalued sectors."
+    ],
+    "catalysts": [
+      "Upcoming AI-related product launches and announcements from major tech companies.",
+      "Regulatory decisions affecting AI development and deployment.",
+      "Economic indicators that may signal the impact of AI on employment and productivity.",
+      "Tech conference and industry events where AI advancements are showcased.",
+      "Quarterly earnings reports from companies in sectors heavily impacted by AI, which may provide insights into the technology's real-world effects."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-03-01T13:50:34.294336",
+    "updated_at": "2026-03-01 18:50:34",
+    "insight_title": "Conspiracy Corner and Market Impact of AI",
+    "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "source_date": "2026-02-28"
   }
 },
   "suggestedTerms": [

@@ -14,7 +14,8 @@ from datetime import datetime
 AUDIO_DIR = Path.home() / ".openclaw/workspace/audio"
 TRANSCRIPT_DIR = Path.home() / ".openclaw/workspace/pipeline/transcripts"
 FEEDS_FILE = Path.home() / ".openclaw/workspace/podcast_feeds.txt"
-CURATION_LOG = Path.home() / ".openclaw/workspace/pipeline/curation_log.json"
+STATE_DIR = Path.home() / ".openclaw/workspace/pipeline/state"
+CURATION_LOG = STATE_DIR / "curation_log.json"
 
 # Investment-related keywords to look for
 INVESTMENT_KEYWORDS = [
@@ -244,6 +245,7 @@ def curate_episodes(matched_episodes):
 
 def save_curation_log(all_episodes, curated):
     """Save curation log for reference."""
+    STATE_DIR.mkdir(parents=True, exist_ok=True)
     log_data = {
         'timestamp': datetime.now().isoformat(),
         'total_audio_files': len(all_episodes),

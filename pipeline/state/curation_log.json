@@ -1,0 +1,42 @@
+{
+  "timestamp": "2026-03-01T13:53:14.642052",
+  "total_audio_files": 2,
+  "approved_for_transcription": 1,
+  "episodes": [
+    {
+      "podcast": "The a16z Show",
+      "title": "a16z's New Media Playbook",
+      "description": "<p>Erik Torenberg, Ben Horowitz, and Marc Andreessen discuss how the media landscape has fundamentally changed and what a16z is doing about it. They cover why offense beats defense, why individuals now matter more than corporate brands, why speed wins in the new media landscape, and the difference between oral and written culture on the internet.</p>\n<p>\u00a0</p>\n<p>Resources:</p>\n<p>Follow Erik Torenberg on X: <a href=\"https://x.com/eriktorenberg\" rel=\"noopener noreferrer\">https://twitter.com/erikt",
+      "audio_url": "https://mgln.ai/e/1344/afp-848985-injected.calisto.simplecastaudio.com/3f86df7b-51c6-4101-88a2-550dba782de8/episodes/0ca265e2-712a-48c7-8528-4e55ab9ca062/audio/128/default.mp3?aid=rss_feed&awCollectionId=3f86df7b-51c6-4101-88a2-550dba782de8&awEpisodeId=0ca265e2-712a-48c7-8528-4e55ab9ca062&feed=JGE3yC0V",
+      "published": "Fri, 27 Feb 2026 11:00:00 +0000",
+      "published_date": "2026-02-27",
+      "rss_guid": "1fef29af-b0f4-4bb6-bf2c-a74b31dc1d36",
+      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/default.mp3",
+      "filename": "default.mp3",
+      "relevance_score": 0,
+      "matched_keywords": [],
+      "status": "SKIPPED (low relevance)"
+    },
+    {
+      "podcast": "Monetary Matters with Jack Farley",
+      "title": "How Legendary Resource Investor Rick Rule is Investing for a 10-Year Bull Market",
+      "description": "\n        <p>This episode is brought to you by the Pictet AI Enhanced International Equity ETF ($PQNT): https://etf.am.pictet.com/pqnt/</p>\n<p><br></p>\n<p>Legendary resource investor Rick Rule, founder of Rule Investment Media, explains why he anticipates a 75% decline in US dollar purchasing power over the next decade. Rule breaks down his recent move to sell a significant portion of his silver holdings to rotate into silver miners, highlighting the massive valuation arbitrage currently availabl",
+      "audio_url": "https://traffic.megaphone.fm/EWWMN8981476019.mp3",
+      "published": "Sun, 01 Mar 2026 14:00:00 -0000",
+      "published_date": "2026-03-01",
+      "rss_guid": "dc443ff0-151a-11f1-b9d3-77d46eab4259",
+      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/EWWMN8981476019.mp3",
+      "filename": "EWWMN8981476019.mp3",
+      "relevance_score": 6,
+      "matched_keywords": [
+        "invest",
+        "market",
+        "equity",
+        "valuation",
+        "bull",
+        "ai"
+      ],
+      "status": "APPROVED"
+    }
+  ]
+}

@@ -4,6 +4,11 @@ Fully automated pipeline - no approval step needed.
 Runs end-to-end: fetch → transcribe → analyze → export → push to GitHub.
 Sends a summary notification after completion.
 
+Fetch step uses --queue-only: new episodes are enqueued to whisper_queue/ and
+the external worker (whisper_worker.sh) transcribes them; completed transcripts
+are swept from whisper_done/ on the next run. Ensure the worker is running for
+transcription to complete.
+
 Usage:
   python3 auto_pipeline.py              # Full pipeline
   python3 auto_pipeline.py --analyze-only  # Just analyze unprocessed transcripts + export
@@ -45,14 +50,17 @@ def send_notification(title: str, message: str, priority: int = 0):
             print(f"  iMessage failed: {e}")
 
 
-def run_script(name: str, script: str, timeout: int = 300) -> bool:
-    """Run a pipeline script and return success."""
+def run_script(name: str, script: str, timeout: int = 300, extra_args: list = None) -> bool:
+    """Run a pipeline script and return success. extra_args: optional list of CLI args (e.g. ['--queue-only'])."""
     print(f"\n{'='*60}")
     print(f"STEP: {name}")
     print(f"{'='*60}")
+    cmd = [sys.executable, script]
+    if extra_args:
+        cmd.extend(extra_args)
     try:
         result = subprocess.run(
-            [sys.executable, script],
+            cmd,
             capture_output=True, text=True,
             cwd=PIPELINE_DIR, timeout=timeout
         )
@@ -688,7 +696,7 @@ def main():
         if not run_script("Podcast Curation", "curate.py", timeout=120):
             errors.append("curation")
 
-        if not run_script("Fetch & Transcribe", "fetch_latest.py", timeout=7200):
+        if not run_script("Fetch & Transcribe", "fetch_latest.py", timeout=7200, extra_args=["--queue-only"]):
             errors.append("fetch")
 
         if not run_script("Newsletter Ingestion", "ingest.py", timeout=120):
@@ -700,6 +708,9 @@ def main():
     results['insights_promoted'] = promote_episodes_to_insights()
     results['insights_promoted'] += promote_newsletters_to_insights()
     results['scores'] = aggregate_scores()
+    
+    # Generate Deep Dives for any insights that don't have one (so site always has full content)
+    run_script("Generate Deep Dives", "generate_deepdives.py", timeout=900)
     
     run_script("Fetch Prices", "fetch_prices.py", timeout=120)
     # Generate 2-week charts and price data for the website

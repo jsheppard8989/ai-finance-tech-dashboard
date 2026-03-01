@@ -1,0 +1,19 @@
+{
+  "timestamp": "2026-03-01T13:53:16.630773",
+  "results": [
+    {
+      "podcast": "Monetary Matters with Jack Farley",
+      "title": "How Legendary Resource Investor Rick Rule is Investing for a 10-Year Bull Market",
+      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/EWWMN8981476019.mp3",
+      "transcript_path": null,
+      "success": false
+    },
+    {
+      "podcast": "The a16z Show",
+      "title": "a16z's New Media Playbook",
+      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_20260227_1fef29af_b0f4_4bb6_bf2c_a74b31dc.mp3",
+      "transcript_path": null,
+      "success": false
+    }
+  ]
+}
