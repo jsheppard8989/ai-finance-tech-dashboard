@@ -20,6 +20,9 @@ python-dotenv>=1.0.0
 # Optional: For transcription (if using OpenAI API)
 # openai>=1.0.0
 
+# Local fast transcription (recommended for podcasts - no API, fewer errors)
+faster-whisper>=1.0.0
+
 # Optional: For enhanced podcast processing
 # pydub>=0.25.0
 # speechrecognition>=3.10.0

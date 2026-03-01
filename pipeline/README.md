@@ -50,3 +50,40 @@ crontab -e
 ```
 
 Or use OpenClaw's cron system to schedule runs.
+
+## Podcast transcription (local, stable on macOS)
+
+**Recommended:** Use **openai-whisper** (PyTorch). It’s stable on macOS; faster-whisper can crash (SIGABRT).
+
+1. **Install:** `pip install openai-whisper`
+2. **Transcribe all audio in pipeline:**  
+   `python3 transcribe_local.py`
+3. **Single file:**  
+   `python3 transcribe_local.py /path/to/episode.mp3`
+4. **Use from fetch_latest (in-process, no LaunchAgent):**  
+   `USE_FASTER_WHISPER=1 python3 fetch_latest.py`
+
+First run downloads the model to `~/.cache/whisper/`. Use `--model small` or `--model medium` in the script for better quality.
+
+**Note:** `transcribe_faster_whisper.py` is available for a faster engine but may crash on some Macs; use `transcribe_local.py` if you see SIGABRT.
+
+## Publishing transcripts from whisper_done
+
+When the LaunchAgent (or another process) writes transcripts to `workspace/whisper_done/`, sweep them into the pipeline and refresh the site:
+
+```bash
+cd ~/.openclaw/workspace/pipeline
+python3 sweep_whisper_done_and_publish.py
+```
+
+This copies any new `.txt` and `.meta.json` from `whisper_done/` to `pipeline/transcripts/`, then runs analyze → promote → scores → prices → charts → export (same as `auto_pipeline.py --analyze-only`). The site’s `site/data/data.js` will include the new episode and insights.
+
+**Manual steps** (if you prefer):
+
+1. Copy (or move) files:  
+   `cp workspace/whisper_done/ALLIN-E262_Ch_1.txt workspace/whisper_done/ALLIN-E262_Ch_1.meta.json pipeline/transcripts/`
+2. Analyze:  
+   `python3 analyze_transcript.py`
+3. Export site:  
+   `python3 auto_pipeline.py --analyze-only`  
+   (or run only the export step from `run_pipeline.py` / `auto_pipeline.py` as needed.)

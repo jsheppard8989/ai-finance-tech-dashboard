@@ -4,6 +4,7 @@ Fetch and transcribe latest podcast episodes.
 Run this to get the most recent episode from each feed.
 """
 
+import os
 import xml.etree.ElementTree as ET
 import urllib.request
 import subprocess
@@ -306,9 +307,28 @@ def chunk_audio(audio_path, chunk_secs=1800):
 
 
 def transcribe_episode(audio_path, episode):
-    """Transcribe via the whisper LaunchAgent queue (runs outside OpenClaw sandbox)."""
+    """Transcribe: use openai-whisper local if USE_FASTER_WHISPER=1, else LaunchAgent queue."""
     print(f"  🎙️  Transcribing: {Path(audio_path).name}")
+    if os.environ.get("USE_FASTER_WHISPER"):
+        return _transcribe_via_openai_whisper_local(audio_path, episode)
     return transcribe_via_launchagent(audio_path, episode)
+
+
+def _transcribe_via_openai_whisper_local(audio_path, episode):
+    """
+    Transcribe in-process with openai-whisper (PyTorch). Stable on macOS.
+    Set USE_FASTER_WHISPER=1 to use this instead of the LaunchAgent.
+    """
+    try:
+        from transcribe_local import transcribe_file, TRANSCRIPT_DIR
+    except ImportError:
+        print("  ✗ transcribe_local not found (need openai-whisper: pip install openai-whisper)")
+        return None
+    audio_file = Path(audio_path)
+    transcript_file = TRANSCRIPT_DIR / f"{audio_file.stem}.txt"
+    if transcribe_file(audio_file, output_path=transcript_file):
+        return str(transcript_file)
+    return None
 
 def save_log(results):
     """Save fetch and transcription log."""
