@@ -1,8 +1,26 @@
 {
-  "timestamp": "2026-02-27T19:09:00.655046",
-  "total_audio_files": 1,
-  "approved_for_transcription": 0,
+  "timestamp": "2026-02-27T23:34:31.601412",
+  "total_audio_files": 2,
+  "approved_for_transcription": 1,
   "episodes": [
+    {
+      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "title": "Software Stocks Implode, Claude's Hit List, State of the Union Reactions, Trump's Tariff Pivot",
+      "description": "<p>(0:00) Bestie intros</p> <p>(1:22) Claude's hit list, SaaS crash, and Citrini's AI letter</p> <p>(30:39) Why Doomer narratives are more popular, valuable new AI jobs</p> <p>(40:19) Understanding the Rate Payer Protection Pledge, what's behind datacenter opposition?</p> <p>(52:13) State of the Union reactions</p> <p>(1:03:58) Science Corner: Cure for blindness via Yamanaka Factors?</p> <p>(1:10:17) SCOTUS strikes down tariffs, Trump pivots</p> <p>Apply for Liquidity:</p> <p><a href= \"https://a",
+      "audio_url": "https://dts.podtrac.com/redirect.mp3/traffic.libsyn.com/secure/allinchamathjason/ALLIN-E262_Ch_1.mp3?dest-id=1928300",
+      "published": "Sat, 28 Feb 2026 00:34:00 +0000",
+      "published_date": "2026-02-28",
+      "rss_guid": "1b5e8889-47c1-4779-b589-fe23ea5d0e24",
+      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/ALLIN-E262_Ch.mp3",
+      "filename": "ALLIN-E262_Ch.mp3",
+      "relevance_score": 3,
+      "matched_keywords": [
+        "stock",
+        "crash",
+        "ai"
+      ],
+      "status": "APPROVED"
+    },
     {
       "podcast": "Moonshots with Peter Diamandis",
       "title": "Can AI Replace Teachers? Inside the $40M Company Using AI Tutors to Teach 200% Faster | #233",

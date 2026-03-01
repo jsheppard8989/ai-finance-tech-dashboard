@@ -1,6 +1,28 @@
 {
   "insights": [
     {
+      "id": 48,
+      "title": "Conspiracy Corner and Market Impact of AI",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-02-28",
+      "summary": "In this episode of 'All-In with Chamath, Jason, Sacks & Friedberg', the hosts discuss various conspiracy theories and their impact on the market. The primary focus is on the influence of AI company Anthropics and its new products on the market sectors. The conversation covers the market's reaction to Anthropics' announcements, the potential for AI to compress stock prices, and the strategic and tactical implications of these changes. Additionally, the discussion touches on the rate pair protection pledge related to AI data centers and energy, emphasizing the need for tech companies to provide for their own power needs to prevent residential electricity rates from increasing.",
+      "key_takeaway": "AI advancements, particularly by Anthropics, are causing market disruptions and presenting both risks and opportunities in various sectors.",
+      "tickers_mentioned": [
+        "IBM",
+        "CROWD",
+        "WORK",
+        "TSLA"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-01",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 31
+    },
+    {
       "id": 46,
       "title": "AI Breaking the System and What It Means for Bitcoin",
       "source_type": "podcast",
@@ -349,11 +371,11 @@
         "TSLA"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-02-22",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-01",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": null
     },
     {
