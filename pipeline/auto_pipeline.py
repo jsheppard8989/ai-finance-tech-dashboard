@@ -15,10 +15,11 @@ Usage:
 """
 
 import sys
+import os
 import json
 import subprocess
 from pathlib import Path
-from datetime import datetime
+from datetime import datetime, timedelta
 
 sys.path.insert(0, str(Path(__file__).parent))
 
@@ -28,6 +29,42 @@ from datetime import date
 WORKSPACE = Path.home() / ".openclaw/workspace"
 PIPELINE_DIR = WORKSPACE / "pipeline"
 SITE_DIR = WORKSPACE / "site"
+STATE_DIR = PIPELINE_DIR / "state"
+LOCK_FILE = STATE_DIR / "auto_pipeline.lock"
+
+
+def acquire_lock(max_age_hours: int = 6) -> bool:
+    """
+    Prevent concurrent runs by using a simple lock file.
+    If the lock is older than max_age_hours, treat it as stale and replace it.
+    """
+    STATE_DIR.mkdir(parents=True, exist_ok=True)
+    now = datetime.now()
+    try:
+        # O_CREAT | O_EXCL ensures we fail if the file already exists
+        fd = os.open(LOCK_FILE, os.O_CREAT | os.O_EXCL | os.O_WRONLY)
+        with os.fdopen(fd, "w") as f:
+            f.write(str(os.getpid()))
+        return True
+    except FileExistsError:
+        try:
+            mtime = datetime.fromtimestamp(LOCK_FILE.stat().st_mtime)
+            if now - mtime > timedelta(hours=max_age_hours):
+                print(f"⚠ Stale lock detected (older than {max_age_hours}h); removing and continuing.")
+                LOCK_FILE.unlink(missing_ok=True)
+                return acquire_lock(max_age_hours)
+        except Exception as e:
+            print(f"⚠ Could not inspect existing lock file: {e}")
+        print("Another auto_pipeline.py run appears to be in progress; exiting.")
+        return False
+
+
+def release_lock() -> None:
+    """Remove the lock file if it exists."""
+    try:
+        LOCK_FILE.unlink(missing_ok=True)
+    except Exception:
+        pass
 
 def send_notification(title: str, message: str, priority: int = 0):
     """Send Pushover + iMessage notification."""
@@ -680,6 +717,9 @@ def build_summary(results: dict) -> str:
 
 
 def main():
+    if not acquire_lock():
+        return
+
     analyze_only = "--analyze-only" in sys.argv
 
     print("="*60)
@@ -691,54 +731,57 @@ def main():
     results = {}
     errors = []
 
-    if not analyze_only:
-        # Full pipeline: fetch new episodes first
-        if not run_script("Podcast Curation", "curate.py", timeout=120):
-            errors.append("curation")
+    try:
+        if not analyze_only:
+            # Full pipeline: fetch new episodes first
+            if not run_script("Podcast Curation", "curate.py", timeout=120):
+                errors.append("curation")
 
-        if not run_script("Fetch & Transcribe", "fetch_latest.py", timeout=7200, extra_args=["--queue-only"]):
-            errors.append("fetch")
+            if not run_script("Fetch & Transcribe", "fetch_latest.py", timeout=7200, extra_args=["--queue-only"]):
+                errors.append("fetch")
 
-        if not run_script("Newsletter Ingestion", "ingest.py", timeout=120):
-            errors.append("ingest")
+            if not run_script("Newsletter Ingestion", "ingest.py", timeout=120):
+                errors.append("ingest")
 
-    # Always: analyze + export
-    results['transcripts_analyzed'] = analyze_transcripts()
-    results['newsletters_imported'] = import_newsletters()
-    results['insights_promoted'] = promote_episodes_to_insights()
-    results['insights_promoted'] += promote_newsletters_to_insights()
-    results['scores'] = aggregate_scores()
-    
-    # Generate Deep Dives for any insights that don't have one (so site always has full content)
-    run_script("Generate Deep Dives", "generate_deepdives.py", timeout=900)
-    
-    run_script("Fetch Prices", "fetch_prices.py", timeout=120)
-    # Generate 2-week charts and price data for the website
-    run_script("Generate Charts", "generate_charts.py", timeout=600)
-    run_script("Auto-Curate Terms", "auto_curate_terms.py", timeout=60)
+        # Always: analyze + export
+        results['transcripts_analyzed'] = analyze_transcripts()
+        results['newsletters_imported'] = import_newsletters()
+        results['insights_promoted'] = promote_episodes_to_insights()
+        results['insights_promoted'] += promote_newsletters_to_insights()
+        results['scores'] = aggregate_scores()
 
-    export_website()
+        # Generate Deep Dives for any insights that don't have one (so site always has full content)
+        run_script("Generate Deep Dives", "generate_deepdives.py", timeout=900)
 
-    # Build commit message
-    ts = datetime.now().strftime("%Y-%m-%d %H:%M")
-    commit_msg = f"Pipeline update {ts}: {results['transcripts_analyzed']} podcasts, {results['insights_promoted']} insights, {results['newsletters_imported']} newsletters"
-    git_push(commit_msg)
+        run_script("Fetch Prices", "fetch_prices.py", timeout=120)
+        # Generate 2-week charts and price data for the website
+        run_script("Generate Charts", "generate_charts.py", timeout=600)
+        run_script("Auto-Curate Terms", "auto_curate_terms.py", timeout=60)
 
-    # Send summary notification
-    summary = build_summary(results)
-    if results.get('transcripts_analyzed', 0) > 0 or results.get('newsletters_imported', 0) > 0:
-        send_notification("Pipeline Update", summary)
-    else:
-        print("Nothing new — skipping notification")
+        export_website()
 
-    print("\n" + "="*60)
-    print("PIPELINE COMPLETE")
-    print(f"Finished: {datetime.now()}")
-    print("="*60)
-    print(summary)
+        # Build commit message
+        ts = datetime.now().strftime("%Y-%m-%d %H:%M")
+        commit_msg = f"Pipeline update {ts}: {results['transcripts_analyzed']} podcasts, {results['insights_promoted']} insights, {results['newsletters_imported']} newsletters"
+        git_push(commit_msg)
 
-    if errors:
-        print(f"\n⚠ Non-fatal errors in: {', '.join(errors)}")
+        # Send summary notification
+        summary = build_summary(results)
+        if results.get('transcripts_analyzed', 0) > 0 or results.get('newsletters_imported', 0) > 0:
+            send_notification("Pipeline Update", summary)
+        else:
+            print("Nothing new — skipping notification")
+
+        print("\n" + "="*60)
+        print("PIPELINE COMPLETE")
+        print(f"Finished: {datetime.now()}")
+        print("="*60)
+        print(summary)
+
+        if errors:
+            print(f"\n⚠ Non-fatal errors in: {', '.join(errors)}")
+    finally:
+        release_lock()
 
 
 if __name__ == "__main__":
