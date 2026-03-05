@@ -1,6 +1,76 @@
 {
   "insights": [
     {
+      "id": 52,
+      "title": "Mailbag Monday: War, AI, and Deep Value in Bitcoin",
+      "source_type": "podcast",
+      "source_name": "The Jack Mallers Show",
+      "source_date": "2026-03-03",
+      "summary": "In this episode of The Jack Mallers Show, Jack discusses the geopolitical tensions involving Iran and its impact on the markets, including oil and bonds. He emphasizes the fragility of the current system and the importance of Bitcoin as a store of value amidst global instability. Jack also touches on the topic of AI and its deflationary tendencies, suggesting that Bitcoin is a hedge against the systemic issues facing fiat currencies. The episode concludes with Jack's strong stance against war and his advocacy for Bitcoin as a peaceful alternative.",
+      "key_takeaway": "Bitcoin is presented as a deep value investment and a hedge against the fragility of the current financial and geopolitical systems.",
+      "tickers_mentioned": [],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-04",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 38
+    },
+    {
+      "id": 53,
+      "title": "The Great Debt Cycle and Economic Outlook",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-03-03",
+      "summary": "In this episode, Ray Dahlia discusses the great debt cycle, fiscal and monetary policy issues, and their impact on the global economy. He highlights five big forces that intertwine to shape the economic landscape, including debt, domestic gaps, international great power conflict, technology, and acts of nature. Dahlia provides insights into the U.S. government's finances, the challenges of managing interest rates amidst high debt, and the role of technology in shaping the future of economies. He also touches upon the dynamics of Bitcoin and silver in the context of monetary assets.",
+      "key_takeaway": "The current high debt levels and fiscal policies pose significant risks to the U.S. economy, requiring careful management of interest rates and a balanced approach to financial prudence and innovation.",
+      "tickers_mentioned": [],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-04",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 37
+    },
+    {
+      "id": 54,
+      "title": "Constructive Confrontation and Decision Debt in Tech Companies",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-03-03",
+      "summary": "In this episode of the a16z Show, Ben Horowitz, co-founder and general partner at a16z, discusses the importance of aggressive questioning and bluntness in tech companies, particularly among founders and CEOs. He emphasizes that hesitation and decision debt are detrimental to a company's success. Horowitz also shares insights on the patterns he sees in successful versus failing CEOs and the importance of hiring the right people, especially in sales roles. The conversation touches on the challenges faced by first-time CEOs and the discomfort that comes with the territory.",
+      "key_takeaway": "The core investment thesis presented is that successful tech companies require decisive leadership, the ability to confront issues directly, and the avoidance of decision debt.",
+      "tickers_mentioned": [],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-04",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 35
+    },
+    {
+      "id": 55,
+      "title": "Moonshots with Peter Diamandis: AI, Exponential Technologies, and the Future of Auditing",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-03-02",
+      "summary": "In this episode, Peter Diamandis discusses the rapidly evolving landscape of AI and exponential technologies, focusing on the implications for national security, enterprise, and the auditing profession. Key themes include the battle between Anthropic and the Pentagon over AI safeguards, the potential for AI to reshape global institutions, and the impact of AI on the auditing and insurance industries. The conversation also touches on the importance of trust in a volatile world and the opportunities for entrepreneurs in building new solutions.",
+      "key_takeaway": "Invest in AI and exponential technology companies that are shaping the future of enterprise applications, as well as those disrupting traditional industries like auditing and insurance.",
+      "tickers_mentioned": [
+        ""
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-04",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 36
+    },
+    {
       "id": 49,
       "title": "Monetary Matters with Rick Rule on Commodities and Contrarian Investment",
       "source_type": "podcast",
@@ -89,11 +159,11 @@
         "BTC"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-02-26",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-05",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 30
     },
     {
@@ -106,11 +176,11 @@
       "key_takeaway": "Investment in longevity science and age reversal technologies presents a significant opportunity for individuals seeking to extend their healthspan and lifespan, with potential for high returns on investment in this emerging field.",
       "tickers_mentioned": [],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-02-26",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-05",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 29
     },
     {
@@ -140,11 +210,11 @@
       "key_takeaway": "Investing in the evolution of consumer technology interfaces presents an opportunity to capitalize on the shift towards more immersive and adaptive AI-enabled experiences.",
       "tickers_mentioned": [],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-02-22",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-05",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 14
     },
     {
@@ -174,11 +244,11 @@
       "key_takeaway": "The Epstein case serves as a reminder of the importance of scrutinizing financial networks and the influence of individuals within them, which can have significant implications for investors.",
       "tickers_mentioned": [],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-02-22",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-05",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 28
     },
     {

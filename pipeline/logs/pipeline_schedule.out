@@ -1,0 +1,205 @@
+============================================================
+AUTO PIPELINE
+Mode: full
+Started: 2026-03-04 21:00:02.901079
+============================================================
+
+============================================================
+STEP: Podcast Curation
+============================================================
+ion System
+======================================================================
+
+Found 6 podcast feeds
+
+Fetching episode metadata...
+  Fetching: https://feeds.megaphone.fm/DVVTS2890392624...
+    ✓ Moonshots with Peter Diamandis: 1 episodes
+  Fetching: https://feeds.megaphone.fm/EWWMN1909747317...
+    ✓ Monetary Matters with Jack Farley: 1 episodes
+  Fetching: https://feeds.simplecast.com/JGE3yC0V...
+    ✓ The a16z Show: 3 episodes
+  Fetching: https://rss.libsyn.com/shows/254861/destinations/1928300.xml...
+    ✓ All-In with Chamath, Jason, Sacks & Friedberg: 1 episodes
+  Fetching: https://anchor.fm/s/e29097f4/podcast/rss...
+    ✓ The Jack Mallers Show: 1 episodes
+  Fetching: https://feed.podbean.com/macrovoices/feed.xml...
+    ✓ Macro Voices: 0 episodes
+
+Matching audio files to episodes...
+  ✓ Matched: 4 files
+  ? Unmatched: 27 files
+
+Curating episodes for investment relevance...
+
+  APPROVED for transcription: 3
+  SKIPPED/EXCLUDED: 1
+
+======================================================================
+CURATION RESULTS
+======================================================================
+
+📌 APPROVED (will transcribe):
+
+  ✓ The Jack Mallers Show
+    Title: War, AI, and Bitcoin In Deep Value
+    Keywords: bitcoin, ai
+    File: https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-2-3%2F419179319-44100-2-34c7171cc2be4.mp3
+
+  ✓ All-In with Chamath, Jason, Sacks & Friedberg
+    Title: Ray Dalio: Our System Is in Jeopardy - Debt, AI & the Cycle That Destr
+    Keywords: financial, bitcoin, ai
+    File: Dalio_DF_Ch.mp3
+
+  ✓ Moonshots with Peter Diamandis
+    Title: Anthropic vs. The Pentagon, Claude Outpaces ChatGPT, and Consulting Ge
+    Keywords: ai, forecast
+    File: DVVTS6368073885.mp3
+
+----------------------------------------------------------------------
+
+📋 REVIEW ALL:
+
+  ✓ [APPROVED] The Jack Mallers Show
+    Title: War, AI, and Bitcoin In Deep Value
+    Keywords: bitcoin, ai
+
+  ✓ [APPROVED] All-In with Chamath, Jason, Sacks & Friedberg
+    Title: Ray Dalio: Our System Is in Jeopardy - Debt, AI & the Cycle 
+    Keywords: financial, bitcoin, ai
+
+  ✗ [SKIPPED (low relevance)] The a16z Show
+    Title: Deploying AI in Healthcare
+    Keywords: ai
+
+  ✓ [APPROVED] Moonshots with Peter Diamandis
+    Title: Anthropic vs. The Pentagon, Claude Outpaces ChatGPT, and Con
+    Keywords: ai, forecast
+
+
+✓ Curation log saved: /Users/jaredsheppard/.openclaw/workspace/pipeline/state/curation_log.json
+
+======================================================================
+NEXT STEPS
+======================================================================
+
+1. Review approved episodes above
+2. To transcribe approved episodes, run:
+   python3 transcribe_curated.py
+
+3. Or manually transcribe specific files:
+   whisper 'https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-2-3%2F419179319-44100-2-34c7171cc2be4.mp3' --model tiny --language en
+   whisper 'Dalio_DF_Ch.mp3' --model tiny --language en
+   whisper 'DVVTS6368073885.mp3' --model tiny --language en
+
+✓ Podcast Curation completed
+
+============================================================
+STEP: Fetch & Transcribe
+============================================================
+from whisper_done into transcripts
+
+Found 6 podcast feeds
+
+📻 Processing: https://feeds.megaphone.fm/DVVTS2890392624...
+  📋 Latest: Anthropic vs. The Pentagon, Claude Outpaces ChatGPT, and Con...
+  ✓ Already downloaded: DVVTS6368073885.mp3
+  🎙️  Transcribing: DVVTS6368073885.mp3
+  ✓ Already transcribed: DVVTS6368073885.txt
+
+📻 Processing: https://feeds.megaphone.fm/EWWMN1909747317...
+  📋 Latest: Jobless Growth, Euphoria, and a Manufacturing Recovery: How ...
+  ⬇️  Downloading: EWWMN9964356428.mp3
+     Title: Jobless Growth, Euphoria, and a Manufacturing Recovery: How ...
+     ✓ Downloaded to /Users/jaredsheppard/.openclaw/workspace/audio/EWWMN9964356428.mp3
+  🎙️  Transcribing: EWWMN9964356428.mp3
+  📥 Submitted to whisper queue: EWWMN9964356428.mp3
+  ⏭ Queue-only mode: not waiting. Run pipeline again after worker finishes.
+
+📻 Processing: https://feeds.simplecast.com/JGE3yC0V...
+  📋 Latest: Deploying AI in Healthcare...
+  ⬇️  Downloading: the_a16z_show_20260304_a3513b51_9365_489a_8ddb_1b8ad40c.mp3
+     Title: Deploying AI in Healthcare...
+     ✓ Downloaded to /Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_20260304_a3513b51_9365_489a_8ddb_1b8ad40c.mp3
+  🎙️  Transcribing: the_a16z_show_20260304_a3513b51_9365_489a_8ddb_1b8ad40c.mp3
+  📥 Submitted to whisper queue: the_a16z_show_20260304_a3513b51_9365_489a_8ddb_1b8ad40c.mp3
+  ⏭ Queue-only mode: not waiting. Run pipeline again after worker finishes.
+
+📻 Processing: https://rss.libsyn.com/shows/254861/destinations/1...
+  📋 Latest: Ray Dalio: Our System Is in Jeopardy - Debt, AI & the Cycle ...
+  ✓ Already downloaded: Dalio_DF_Ch.mp3
+  🎙️  Transcribing: Dalio_DF_Ch.mp3
+  ✓ Already transcribed: Dalio_DF_Ch.txt
+
+📻 Processing: https://anchor.fm/s/e29097f4/podcast/rss...
+  📋 Latest: War, AI, and Bitcoin In Deep Value...
+  ✓ Already downloaded: https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-2-3%2F419179319-44100-2-34c7171cc2be4.mp3
+  🎙️  Transcribing: https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-2-3%2F419179319-44100-2-34c7171cc2be4.mp3
+  ✓ Already transcribed: https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-2-3%2F419179319-44100-2-34c7171cc2be4.txt
+
+📻 Processing: https://feed.podbean.com/macrovoices/feed.xml...
+  ⏭ Skipping 'MacroVoices #521 Jeff Currie: The Great Rotation' — published 2026-02-26 (6d ago, >2d limit)
+  ✗ No episode found
+
+✓ Log saved: /Users/jaredsheppard/.openclaw/workspace/pipeline/state/fetch_log.json
+
+======================================================================
+SUMMARY
+======================================================================
+Total feeds: 6
+Successfully transcribed: 3
+Failed: 2
+
+Completed episodes:
+  ✓ Moonshots with Peter Diamandis: Anthropic vs. The Pentagon, Claude Outpaces ChatGP...
+  ✓ All-In with Chamath, Jason, Sacks & Friedberg: Ray Dalio: Our System Is in Jeopardy - Debt, AI & ...
+  ✓ The Jack Mallers Show: War, AI, and Bitcoin In Deep Value...
+
+
+Next step: Run 'python3 research.py' to analyze transcripts
+
+✓ Fetch & Transcribe completed
+
+============================================================
+STEP: Newsletter Ingestion
+============================================================
+==================================================
+Newsletter Ingestion Pipeline
+==================================================
+
+Connecting to Gmail...
+Connecting to Gmail at imap.gmail.com:993...
+Logging in as jsheppard8989@gmail.com...
+Selecting folder: NEWSLETTERS...
+Found 0 unread emails
+
+No emails fetched. Trying manual mode...
+
+✓ Processed 0 emails
+
+Files saved to: /Users/jaredsheppard/.openclaw/workspace/pipeline/inbox
+
+Next step: Run analysis to score stock mentions
+
+✓ Newsletter Ingestion completed
+
+============================================================
+STEP: Transcript AI Analysis
+============================================================
+  ⚠ Google Generative AI library not installed. Run: pip install google-generativeai
+
+============================================================
+Processing Podcast Transcripts with AI
+============================================================
+  Using Moonshot/Kimi API (primary)
+Found 28 transcript files
+  Processing the_a16z_show_20260303_a279dc13_f308_4f57_aaa6_9fad2fbd.txt...
+    ✓ Added episode (ID: 35)
+    ✓ Added 0 ticker mentions
+  Processing DVVTS6368073885.txt...
+    ✓ Added episode (ID: 36)
+    ✓ Added 0 ticker mentions
+  Processing dario_amodei.txt...
+    ⏭ Too short, skipping
+  Processing Dalio_DF_Ch.txt...
+    ✓ Added episode (ID: 37)
