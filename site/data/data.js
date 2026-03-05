@@ -1,8 +1,8 @@
-// Auto-generated - 2026-03-05T04:02:01.182318
+// Auto-generated - 2026-03-05T12:10:35.183914
 // DO NOT EDIT MANUALLY
 
 const dashboardData = {
-  "generatedAt": "2026-03-05T04:02:01.182369",
+  "generatedAt": "2026-03-05T12:10:35.183960",
   "tickerScores": [
   {
     "ticker": "BTC",
@@ -495,7 +495,13 @@ const dashboardData = {
       "source_date": "2026-03-04",
       "summary": "In this episode of Monetary Matters, Max Weethy interviews TN Yang, CEO of Variant Perception, to discuss the macro environment and its implications for investment. They delve into the benign macro environment characterized by jobless growth, disinflation, and a synchronized global easing policy. The conversation also touches on the impact of potential energy shocks, the technology race, and the role of gold as a reserve asset. Yang provides insights into less obvious investment opportunities within technology and government consulting, and the strategic allocation to gold and gold miners.",
       "key_takeaway": "Invest in less obvious areas of technology and government consulting with reasonable valuations, and consider gold and gold miners as a strategic allocation in a world moving towards inflationary policies.",
-      "tickers_mentioned": [],
+      "tickers_mentioned": [
+        "XOM",
+        "BP",
+        "SPY",
+        "IEF",
+        "UNG"
+      ],
       "sentiment": "bullish",
       "display_on_main": 1,
       "display_order": 0,
@@ -531,7 +537,13 @@ const dashboardData = {
       "source_date": "2026-03-03",
       "summary": "In this episode of The Jack Mallers Show, Jack discusses the geopolitical tensions involving Iran and its impact on the markets, including oil and bonds. He emphasizes the fragility of the current system and the importance of Bitcoin as a store of value amidst global instability. Jack also touches on the topic of AI and its deflationary tendencies, suggesting that Bitcoin is a hedge against the systemic issues facing fiat currencies. The episode concludes with Jack's strong stance against war and his advocacy for Bitcoin as a peaceful alternative.",
       "key_takeaway": "Bitcoin is presented as a deep value investment and a hedge against the fragility of the current financial and geopolitical systems.",
-      "tickers_mentioned": [],
+      "tickers_mentioned": [
+        "BTC-USD",
+        "ETH-USD",
+        "XAU-USD",
+        "USO",
+        "TLT"
+      ],
       "sentiment": "neutral",
       "display_on_main": 1,
       "display_order": 0,
@@ -548,7 +560,14 @@ const dashboardData = {
       "source_date": "2026-03-03",
       "summary": "In this episode, Ray Dahlia discusses the great debt cycle, fiscal and monetary policy issues, and their impact on the global economy. He highlights five big forces that intertwine to shape the economic landscape, including debt, domestic gaps, international great power conflict, technology, and acts of nature. Dahlia provides insights into the U.S. government's finances, the challenges of managing interest rates amidst high debt, and the role of technology in shaping the future of economies. He also touches upon the dynamics of Bitcoin and silver in the context of monetary assets.",
       "key_takeaway": "The current high debt levels and fiscal policies pose significant risks to the U.S. economy, requiring careful management of interest rates and a balanced approach to financial prudence and innovation.",
-      "tickers_mentioned": [],
+      "tickers_mentioned": [
+        "TICKER1",
+        "TICKER2",
+        "TICKER3",
+        "TICKER4",
+        "TICKER5",
+        "TICKER6"
+      ],
       "sentiment": "bearish",
       "display_on_main": 1,
       "display_order": 0,
@@ -565,7 +584,13 @@ const dashboardData = {
       "source_date": "2026-03-03",
       "summary": "In this episode of the a16z Show, Ben Horowitz, co-founder and general partner at a16z, discusses the importance of aggressive questioning and bluntness in tech companies, particularly among founders and CEOs. He emphasizes that hesitation and decision debt are detrimental to a company's success. Horowitz also shares insights on the patterns he sees in successful versus failing CEOs and the importance of hiring the right people, especially in sales roles. The conversation touches on the challenges faced by first-time CEOs and the discomfort that comes with the territory.",
       "key_takeaway": "The core investment thesis presented is that successful tech companies require decisive leadership, the ability to confront issues directly, and the avoidance of decision debt.",
-      "tickers_mentioned": [],
+      "tickers_mentioned": [
+        "FB",
+        "GOOGL",
+        "TSLA",
+        "AMZN",
+        "MSFT"
+      ],
       "sentiment": "bearish",
       "display_on_main": 1,
       "display_order": 0,
@@ -644,7 +669,13 @@ const dashboardData = {
       "source_date": "2026-02-27",
       "summary": "In this episode of the a16z Show, Ben and other a16z team members discuss the firm's new media strategy, emphasizing the shift from old media to new media. They highlight the importance of being interesting over being inoffensive, the value of speed over polish, and the need to approach new media with new media thinking. The conversation also touches on the challenges of adapting to the fast-paced nature of new media and the role of platforms like TikTok and Instagram in reaching a global audience.",
       "key_takeaway": "Investing in new media requires understanding the shift from traditional media to platforms that prioritize speed, adaptability, and the ability to capture and maintain audience interest.",
-      "tickers_mentioned": [],
+      "tickers_mentioned": [
+        "DIS",
+        "FB",
+        "TWTR",
+        "GOOGL",
+        "SNAP"
+      ],
       "sentiment": "neutral",
       "display_on_main": 0,
       "display_order": 0,
@@ -661,7 +692,11 @@ const dashboardData = {
       "source_date": "2026-02-25",
       "summary": "In this episode of 'Moonshots with Peter Diamandis', the focus is on the future of education and the role of AI in reshaping it. The discussion highlights the shortcomings of the current education system, particularly in preparing students for a future dominated by AI and technology. The conversation features McKenzie Price, co-founder and CEO of Alpha Schools, and Joe Lamont, founder and CEO of ESW Capital and Trilogy. They discuss the new education model called Alpha Schools, which is centered around a two-hour learning model, and the potential of AI-driven education. The episode also touches on the necessity for reskilling in the face of rapid AI advancement and the challenges faced in implementing new educational models.",
       "key_takeaway": "Investing in AI-driven education platforms and companies that are reshaping the education sector could be a strategic move, given the increasing demand for reskilling and the need for more efficient learning models.",
-      "tickers_mentioned": [],
+      "tickers_mentioned": [
+        "TICKER1",
+        "TICKER2",
+        "TICKER3"
+      ],
       "sentiment": "bearish",
       "display_on_main": 0,
       "display_order": 0,
@@ -697,7 +732,14 @@ const dashboardData = {
       "source_date": "2026-02-24",
       "summary": "In this episode of Moonshots with Peter Diamandis, Dr. David Sinclair, a professor at Harvard Medical School and author of 'LifeSpan', discusses the future of age reversal technology, focusing on epigenetic reprogramming, longevity escape velocity, and the role of AI in longevity science. Dr. Sinclair shares his insights on the near-term possibilities of age reversal, how individuals can support and benefit from these advancements, and his personal experience with longevity practices. The conversation also touches on the potential risks and benefits of certain longevity treatments and the importance of exercise and diet in maintaining health.",
       "key_takeaway": "Investment in longevity science and age reversal technologies presents a significant opportunity for individuals seeking to extend their healthspan and lifespan, with potential for high returns on investment in this emerging field.",
-      "tickers_mentioned": [],
+      "tickers_mentioned": [
+        "TICKER1",
+        "TICKER2",
+        "TICKER3",
+        "TICKER4",
+        "TICKER5",
+        "TICKER6"
+      ],
       "sentiment": "bullish",
       "display_on_main": 0,
       "display_order": 0,
@@ -714,7 +756,13 @@ const dashboardData = {
       "source_date": "2026-02-22",
       "summary": "In this episode of Moonshots with Peter Diamandis, Brett Adcock discusses the rapid advancements in neural networks and their impact on the future of manufacturing and robotics. The conversation highlights the potential for robots to learn tasks and share that knowledge across a fleet, leading to significant efficiency gains. The discussion also touches on the shift from traditional coding to neural nets, the reduction in manufacturing costs, and the potential for a sci-fi future with ubiquitous",
       "key_takeaway": "Investment in neural network technology and autonomous robotics is poised for significant growth, with the potential to disrupt traditional manufacturing and create new market opportunities.",
-      "tickers_mentioned": "",
+      "tickers_mentioned": [
+        "TSLA",
+        "GOOGL",
+        "AMZN",
+        "NVDA",
+        "FB"
+      ],
       "sentiment": "bullish",
       "display_on_main": 0,
       "display_order": 0,
@@ -731,7 +779,13 @@ const dashboardData = {
       "source_date": "2026-02-22",
       "summary": "In this episode of a16z Live, Meta CTO Andrew 'Boz' Bosworth discusses the future of consumer technology with a16z's David George. Boz shares insights on the evolution of interfaces, the potential for AI-enabled computing experiences, and the shift from app-centric to more immersive and adaptive technologies. He also touches on the role of augmented reality and the potential for new content delivery vehicles in the next decade. The conversation highlights the importance of understanding user intent and the potential for AI to revolutionize how we interact with technology.",
       "key_takeaway": "Investing in the evolution of consumer technology interfaces presents an opportunity to capitalize on the shift towards more immersive and adaptive AI-enabled experiences.",
-      "tickers_mentioned": [],
+      "tickers_mentioned": [
+        "AAPL",
+        "GOOGL",
+        "MSFT",
+        "FB",
+        "NVDA"
+      ],
       "sentiment": "bullish",
       "display_on_main": 0,
       "display_order": 0,
@@ -748,7 +802,13 @@ const dashboardData = {
       "source_date": "2026-02-20",
       "summary": "The podcast discusses the rapid advancements in AI and its impact on society and the economy. The conversation revolves around the departures from X-A-I, the concept of recursive self-improvement (RSI), and the potential for AI to significantly reduce the global death rate. The panelists also debate the timeline for AI disruption, with some suggesting it's more imminent than others believe. They touch on the transformative potential of AI in various sectors, including content creation and the potential threats to traditional industries like Hollywood.",
       "key_takeaway": "Invest in AI and tech companies at the forefront of AI development, as they are poised to benefit from the industry's rapid growth and disruption.",
-      "tickers_mentioned": [],
+      "tickers_mentioned": [
+        "GOOGL",
+        "MSFT",
+        "NVDA",
+        "TSLA",
+        "IBM"
+      ],
       "sentiment": "bullish",
       "display_on_main": 0,
       "display_order": 0,
@@ -765,7 +825,13 @@ const dashboardData = {
       "source_date": "2026-02-20",
       "summary": "In this episode, the host explores the Epstein case with three guests, each offering unique insights. Sagar and Jettie from Breaking Points argue that the Epstein case reveals an 'Epstein class' operating above the law. Michael Tracy questions the evidence behind many claims about Epstein and criticizes the media frenzy. Kevin Bassis, a journalist, discusses his findings on connections between Epstein and tech figure Reed Hoffman. The discussion touches on money laundering, the influence of Epstein in financial networks, and the implications for public figures and the tech industry.",
       "key_takeaway": "The Epstein case serves as a reminder of the importance of scrutinizing financial networks and the influence of individuals within them, which can have significant implications for investors.",
-      "tickers_mentioned": [],
+      "tickers_mentioned": [
+        "BTC-USD",
+        "GS",
+        "TSLA",
+        "AMZN",
+        "BAC"
+      ],
       "sentiment": "neutral",
       "display_on_main": 0,
       "display_order": 0,
@@ -1074,7 +1140,13 @@ const dashboardData = {
       "source_date": "2026-02-10",
       "summary": "The host, Jack, discusses Bitcoin's recent price dip and its correlation with software technology stocks. He argues that Bitcoin, despite its properties as a hard asset, has been treated like a software stock by the broader market. Jack suggests that the current dip could be a transition point where Bitcoin starts to be recognized and traded more like a hard asset rather than a tech stock. He also explores the broader macroeconomic implications, including the shift in liquidity from software to ",
       "key_takeaway": "Bitcoin's current dip may signal a shift in how it is perceived and traded, transitioning from a software stock to a hard asset, which could be beneficial for its long-term value.",
-      "tickers_mentioned": "",
+      "tickers_mentioned": [
+        "BTC-USD",
+        "GOLD",
+        "XLK",
+        "XLE",
+        "GDX"
+      ],
       "sentiment": "bullish",
       "display_on_main": 0,
       "display_order": 0,
@@ -1091,7 +1163,13 @@ const dashboardData = {
       "source_date": "2026-02-10",
       "summary": "Astro Teller interviews Jason Rugolo about Wolverine \u2014 machine-mediated hearing devices from X (Google X). Evolved from 30+ ideas to audio wearables enhancing hearing with AI. Key insight: wearability and social acceptance are the moat, not raw technology.",
       "key_takeaway": "Audio wearables represent the next computing platform after smartphones. Play: companies solving wearability + social acceptance at scale.",
-      "tickers_mentioned": "",
+      "tickers_mentioned": [
+        "AAPL",
+        "GOOGL",
+        "AMZN",
+        "SONY",
+        "BOSE"
+      ],
       "sentiment": "bullish",
       "display_on_main": 0,
       "display_order": 0,
@@ -1487,7 +1565,7 @@ const dashboardData = {
       "source_date": "2026-03-04",
       "summary": "In this episode of Monetary Matters, Max Weethy interviews TN Yang, CEO of Variant Perception, to discuss the macro environment and its implications for investment. They delve into the benign macro environment characterized by jobless growth, disinflation, and a synchronized global easing policy. The conversation also touches on the impact of potential energy shocks, the technology race, and the role of gold as a reserve asset. Yang provides insights into less obvious investment opportunities within technology and government consulting, and the strategic allocation to gold and gold miners.",
       "key_takeaway": "Invest in less obvious areas of technology and government consulting with reasonable valuations, and consider gold and gold miners as a strategic allocation in a world moving towards inflationary policies.",
-      "tickers_mentioned": "[]",
+      "tickers_mentioned": "[\"XOM\", \"BP\", \"SPY\", \"IEF\", \"UNG\"]",
       "sentiment": "bullish",
       "display_on_main": 1,
       "display_order": 0,
@@ -1523,7 +1601,7 @@ const dashboardData = {
       "source_date": "2026-03-03",
       "summary": "In this episode of The Jack Mallers Show, Jack discusses the geopolitical tensions involving Iran and its impact on the markets, including oil and bonds. He emphasizes the fragility of the current system and the importance of Bitcoin as a store of value amidst global instability. Jack also touches on the topic of AI and its deflationary tendencies, suggesting that Bitcoin is a hedge against the systemic issues facing fiat currencies. The episode concludes with Jack's strong stance against war and his advocacy for Bitcoin as a peaceful alternative.",
       "key_takeaway": "Bitcoin is presented as a deep value investment and a hedge against the fragility of the current financial and geopolitical systems.",
-      "tickers_mentioned": "[]",
+      "tickers_mentioned": "[\"BTC-USD\", \"ETH-USD\", \"XAU-USD\", \"USO\", \"TLT\"]",
       "sentiment": "neutral",
       "display_on_main": 1,
       "display_order": 0,
@@ -1541,7 +1619,7 @@ const dashboardData = {
       "source_date": "2026-03-03",
       "summary": "In this episode, Ray Dahlia discusses the great debt cycle, fiscal and monetary policy issues, and their impact on the global economy. He highlights five big forces that intertwine to shape the economic landscape, including debt, domestic gaps, international great power conflict, technology, and acts of nature. Dahlia provides insights into the U.S. government's finances, the challenges of managing interest rates amidst high debt, and the role of technology in shaping the future of economies. He also touches upon the dynamics of Bitcoin and silver in the context of monetary assets.",
       "key_takeaway": "The current high debt levels and fiscal policies pose significant risks to the U.S. economy, requiring careful management of interest rates and a balanced approach to financial prudence and innovation.",
-      "tickers_mentioned": "[]",
+      "tickers_mentioned": "[\"TICKER1\", \"TICKER2\", \"TICKER3\", \"TICKER4\", \"TICKER5\", \"TICKER6\"]",
       "sentiment": "bearish",
       "display_on_main": 1,
       "display_order": 0,
@@ -1559,7 +1637,7 @@ const dashboardData = {
       "source_date": "2026-03-03",
       "summary": "In this episode of the a16z Show, Ben Horowitz, co-founder and general partner at a16z, discusses the importance of aggressive questioning and bluntness in tech companies, particularly among founders and CEOs. He emphasizes that hesitation and decision debt are detrimental to a company's success. Horowitz also shares insights on the patterns he sees in successful versus failing CEOs and the importance of hiring the right people, especially in sales roles. The conversation touches on the challenges faced by first-time CEOs and the discomfort that comes with the territory.",
       "key_takeaway": "The core investment thesis presented is that successful tech companies require decisive leadership, the ability to confront issues directly, and the avoidance of decision debt.",
-      "tickers_mentioned": "[]",
+      "tickers_mentioned": "[\"FB\", \"GOOGL\", \"TSLA\", \"AMZN\", \"MSFT\"]",
       "sentiment": "bearish",
       "display_on_main": 1,
       "display_order": 0,
@@ -4339,7 +4417,7 @@ const dashboardData = {
         "risk": "Technological advancements or alternative energy sources that could disrupt the natural gas market."
       }
     },
-    "positioning_guidance": "Investors should consider a balanced portfolio with a mix of energy-related assets and broad market exposure.\u6218\u672f\u6027\u5730\u589e\u52a0\u5bf9\u80fd\u6e90\u76f8\u5173\u8d44\u4ea7\u7684\u914d\u7f6e\uff0c\u540c\u65f6\u4fdd\u6301\u5bf9\u5e02\u573a\u6ce2\u52a8\u7684\u5bf9\u51b2\u3002\u5bf9\u4e8e\u80fd\u6e90\u8fdb\u53e3\u56fd\u7684\u516c\u53f8\uff0c\u53ef\u80fd\u9700\u8981\u51cf\u5c11\u655e\u53e3\uff0c\u800c\u5bf9\u4e8e\u80fd\u6e90\u51fa\u53e3\u56fd\u7684\u516c\u53f8\uff0c\u5219\u53ef\u4ee5\u589e\u52a0\u655e\u53e3\u3002\u8003\u8651\u5230\u51b2\u7a81\u7684\u6301\u7eed\u65f6\u95f4\u548c\u653f\u7b56\u54cd\u5e94\uff0c\u6295\u8d44\u8005\u5e94\u51c6\u5907\u5728\u77ed\u671f\u5185\u8c03\u6574\u5934\u5bf8\uff0c\u5e76\u4e3a\u4e2d\u957f\u671f\u8d8b\u52bf\u505a\u597d\u51c6\u5907\u3002",
+    "positioning_guidance": "Investors should consider a balanced portfolio with a mix of energy-related assets and broad market exposure.",
     "risk_factors": [
       "Rapid resolution of geopolitical conflicts leading to a swift drop in energy prices.",
       "Unexpected policy responses that could contain energy price spikes more effectively than anticipated.",

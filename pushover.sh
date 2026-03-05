@@ -1,12 +1,22 @@
 #!/bin/bash
 # Pushover notification script
-# Usage: ./pushover.sh "Title" "Message" [priority]
+# Usage: PUSHOVER_USER_KEY=... PUSHOVER_APP_TOKEN=... ./pushover.sh "Title" "Message" [priority]
+#
+# IMPORTANT: Do NOT hardcode real keys in this file.
+# Set them via environment variables instead:
+#   export PUSHOVER_USER_KEY="your-user-key"
+#   export PUSHOVER_APP_TOKEN="your-app-token"
 
-USER_KEY="uo48fj98byqex2bt8jvercic38qze2"
-APP_TOKEN="a8p75vg3vep6p4grpncktbrip652jr"
+if [ -z "$PUSHOVER_USER_KEY" ] || [ -z "$PUSHOVER_APP_TOKEN" ]; then
+  echo "Error: PUSHOVER_USER_KEY and PUSHOVER_APP_TOKEN must be set in the environment." >&2
+  exit 1
+fi
+
+USER_KEY="$PUSHOVER_USER_KEY"
+APP_TOKEN="$PUSHOVER_APP_TOKEN"
 
 TITLE="${1:-OpenClaw Alert}"
-MESSAGE="${2:-Notification from 6AIndolf}"
+MESSAGE="${2:-Notification from OpenClaw}"
 PRIORITY="${3:-0}"
 
 curl -s \
@@ -18,3 +28,4 @@ curl -s \
   https://api.pushover.net/1/messages.json
 
 echo ""
+

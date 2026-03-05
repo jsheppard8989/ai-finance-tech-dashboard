@@ -180,6 +180,7 @@ Requirements:
 - Focus on investment implications, not just news summary
 - Timeframe should be explicit (short-term: <3mo, medium: 3-12mo, long: >1yr)
 - Contrarian signals should show sophisticated understanding of risks
+- All output must be written in clear, professional English only (no other languages)
 """
 
     try:
@@ -234,6 +235,24 @@ def store_deep_dive(insight_id: int, episode_id: int, content: dict) -> bool:
             json.dumps(content.get('catalysts', [])),
             datetime.now().isoformat()
         ))
+        # If latest_insights.tickers_mentioned is empty, backfill it from ticker_analysis keys
+        try:
+            tickers = list((content.get('ticker_analysis') or {}).keys())
+            if tickers:
+                cur = conn.execute(
+                    "SELECT tickers_mentioned FROM latest_insights WHERE id = ?",
+                    (insight_id,)
+                )
+                row = cur.fetchone()
+                current = row[0] if row else None
+                if not current or current in ("", "[]"):
+                    conn.execute(
+                        "UPDATE latest_insights SET tickers_mentioned = ? WHERE id = ?",
+                        (json.dumps(tickers), insight_id)
+                    )
+        except Exception as e:
+            print(f"    ⚠ Could not backfill tickers_mentioned from deep dive: {e}")
+
         conn.commit()
         return True
     except Exception as e:
