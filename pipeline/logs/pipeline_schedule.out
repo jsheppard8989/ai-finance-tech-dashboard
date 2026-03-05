@@ -203,3 +203,420 @@ Found 28 transcript files
     ⏭ Too short, skipping
   Processing Dalio_DF_Ch.txt...
     ✓ Added episode (ID: 37)
+    ✓ Added 0 ticker mentions
+  Processing https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-2-3%2F419179319-44100-2-34c7171cc2be4.txt...
+    ✓ Added episode (ID: 38)
+    ✓ Added 0 ticker mentions
+  Processing elon_musk.txt...
+    ⏭ Too short, skipping
+
+✓ Transcript processing complete: 4 new, 22 skipped, 0 errors
+✓ Analyzed 4 new transcripts
+
+============================================================
+STEP: Newsletter Import
+============================================================
+  ⏭ Already in DB: =?UTF-8?B?8J+agA==?= SpaceX, xAI form $1.25T super-entity
+  ⏭ Already in DB: Fw: The Agentic Inversion: What Moltbook and Axie Infinity R
+  ⏭ Already in DB: =?utf-8?Q?Fw:_Figure=E2=80=99s_General_Purpose_Robot:_Why_20
+  ⏭ Already in DB: =?UTF-8?B?8J+agA==?= xAI's next phase unleashed
+  ⏭ Already in DB: =?UTF-8?B?8J+noA==?= Google's upgrade breaks reasoning barri
+  ⏭ Already in DB: =?UTF-8?B?8J+Urg==?= Sam Altman's OpenAI succession plan
+  ⏭ Already in DB: =?UTF-8?B?8J+aqg==?= xAI's co-founder exodus continues
+✓ Total newsletters imported: 0
+
+============================================================
+STEP: Promote Episodes to Insights
+============================================================
+Found 4 processed episodes not yet in insights
+  ✓ Promoted: 'Mailbag Monday: War, AI, and Deep Value in Bitcoin' (sentiment=neutral)
+  ✓ Promoted: 'The Great Debt Cycle and Economic Outlook' (sentiment=bearish)
+  ✓ Promoted: 'Constructive Confrontation and Decision Debt in Tech Compani' (sentiment=bearish)
+  ✓ Promoted: 'Moonshots with Peter Diamandis: AI, Exponential Technologies' (sentiment=neutral)
+  ✓ Auto-archived 4 older insights
+✓ Promoted 4 new insight(s) to website
+
+============================================================
+STEP: Promote Newsletters to Insights
+============================================================
+Found 0 newsletters not yet on site
+
+============================================================
+STEP: Aggregate Daily Scores
+============================================================
+✓ Saved 0 daily scores
+
+============================================================
+STEP: Generate Deep Dives
+============================================================
+Generating Deep Dives for 4 insights...
+
+  Using Moonshot/Kimi API
+[52] Mailbag Monday: War, AI, and Deep Value in Bitcoin
+  ✓ Deep Dive stored
+[53] The Great Debt Cycle and Economic Outlook
+  ✓ Deep Dive stored
+[54] Constructive Confrontation and Decision Debt in Tech Compani
+  ✓ Deep Dive stored
+[55] Moonshots with Peter Diamandis: AI, Exponential Technologies
+  ✓ Deep Dive stored
+
+✓ Generated 4/4 Deep Dives
+
+✓ Generate Deep Dives completed
+
+============================================================
+STEP: Fetch Prices
+============================================================
+============================================================
+Fetching Prices with 2-Week (14 Day) % Change
+Started: 2026-03-04 21:02:48.771275
+============================================================
+  Loaded 32 tickers from ticker_scores.json
+
+Found 56 tickers
+  Fetching AAPL... $262.52 (+0.30%)
+  Fetching AMZN... $216.82 (+8.63%)
+  Fetching APP... $482.81 (+31.59%)
+  Fetching AVGO... $317.53 (-4.12%)
+  Fetching Altias...     Error fetching Altias: HTTP Error 404: Not Found
+Failed
+  Fetching AppLovin... $482.81 (+31.59%)
+  Fetching BTC... $72510.95 (+6.63%)
+  Fetching CEG... $322.85 (+16.92%)
+  Fetching COIN... $208.93 (+48.08%)
+  Fetching CRM... $193.08 (+4.13%)
+  Fetching CROWD... $407.68 (-0.94%)
+  Fetching CRSP... $60.00 (+22.62%)
+  Fetching CVNA... $316.26 (-8.10%)
+  Fetching DOCS... $26.44 (+7.00%)
+  Fetching DXY... $0.00 (+0.00%)
+  Fetching EDIT... $2.19 (+30.36%)
+  Fetching EMAX... $0.00 (-0.00%)
+  Fetching FTIE... Failed
+  Fetching GLD... $471.80 (+4.52%)
+  Fetching GOOGL... $303.13 (-1.90%)
+  Fetching HOOD... $82.21 (+15.59%)
+  Fetching IBM... $250.06 (-3.65%)
+  Fetching IEF... $96.81 (-0.02%)
+  Fetching ILMN... $128.97 (+12.70%)
+  Fetching INFY... $14.33 (+0.84%)
+  Fetching IWM... $261.76 (+0.86%)
+  Fetching JPY... $34.44 (-6.53%)
+  Fetching META... $667.73 (+2.76%)
+  Fetching MINE... $3.85 (+2.12%)
+  Fetching MSFT... $405.20 (+0.84%)
+  Fetching MSTR... $146.44 (+19.06%)
+  Fetching NEE... $92.60 (+0.73%)
+  Fetching NOW... $113.86 (+10.23%)
+  Fetching NVDA... $183.04 (-2.09%)
+  Fetching Nasdaq... $610.75 (+1.68%)
+  Fetching OKLO... $65.65 (+2.71%)
+  Fetching PLTR... $153.19 (+18.63%)
+  Fetching PQNT... $21.96 (-2.10%)
+  Fetching PYPL... $46.75 (+19.63%)
+  Fetching QQQ... $610.75 (+1.68%)
+  Fetching Russell... $261.76 (+0.86%)
+  Fetching S&P... $685.13 (+0.57%)
+  Fetching SLV... $75.34 (+11.24%)
+  Fetching SMR... $12.54 (-10.36%)
+  Fetching SNWGF... $12.75 (+0.79%)
+  Fetching SPY... $685.13 (+0.57%)
+  Fetching SQ... Failed
+  Fetching SQQQ... $69.62 (-4.76%)
+  Fetching Semiconductors... $399.10 (-1.73%)
+  Fetching TDOC... $5.13 (+14.77%)
+  Fetching TLT... $89.15 (-0.09%)
+  Fetching TSLA... $405.94 (-2.67%)
+  Fetching VEEV... $188.48 (+9.59%)
+  Fetching VIX... $21.15 (+1.59%)
+  Fetching WIT... $2.20 (-3.51%)
+  Fetching WORK... Failed
+
+✓ Saved 52 prices to /Users/jaredsheppard/.openclaw/workspace/site/price_data.json
+Finished: 2026-03-04 21:03:02.133820
+
+✓ Fetch Prices completed
+
+============================================================
+STEP: Generate Charts
+============================================================
+
+STDERR: Traceback (most recent call last):
+  File "/Users/jaredsheppard/.openclaw/workspace/pipeline/generate_charts.py", line 7, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+
+✗ Generate Charts failed
+
+============================================================
+STEP: Auto-Curate Terms
+============================================================
+============================================================
+Auto-Curating Suggested Terms
+============================================================
+
+📊 Analyzing 3 pending terms...
+------------------------------------------------------------
+
+============================================================
+CURATION SUMMARY
+============================================================
+  Auto-promoted: 0
+  Flagged for review: 3
+  Skipped (low relevance): 0
+
+============================================================
+TERMS FOR MANUAL REVIEW
+============================================================
+
+• Compute Deflation Trade
+  Relevance: 50
+  Mentions: 3 in 1 source(s)
+  Definition: The investment thesis built around the 400x AI compute cost collapse: identifying who wins (inferenc...
+
+• Agentic Velocity
+  Relevance: 50
+  Mentions: 2 in 1 source(s)
+  Definition: The compression of decision-making and capital deployment timescales as AI agents replace human work...
+
+• Machine-Native Money
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: Payment rails designed for autonomous AI agents rather than human users....
+
+✓ Auto-Curate Terms completed
+
+============================================================
+STEP: Export Website Data
+============================================================
+✓ Exported website data to /Users/jaredsheppard/.openclaw/workspace/site/data
+✓ Exported JSON: {'ticker_scores': 32, 'podcast_summaries': 14, 'archive_items': 51}
+✓ Bumped data.js cache-buster to v=1772679782
+✓ Generated data.js: 32 tickers, 51 archive items, 41 deep dives
+
+============================================================
+STEP: Push to GitHub
+============================================================
+✗ Git push failed: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
+  iMessage failed: Command '['/Users/jaredsheppard/.openclaw/workspace/send_imessage.sh', '+16306437437', 'Pipeline Update\n\n📊 Pipeline Complete\n\n🎙️ 4 new podcast(s) analyzed\n\n🌐 Website updated']' timed out after 15 seconds
+
+============================================================
+PIPELINE COMPLETE
+Finished: 2026-03-04 21:05:48.258228
+============================================================
+📊 Pipeline Complete
+
+🎙️ 4 new podcast(s) analyzed
+
+🌐 Website updated
+============================================================
+AUTO PIPELINE
+Mode: full
+Started: 2026-03-05 04:00:00.210255
+============================================================
+
+============================================================
+STEP: Podcast Curation
+============================================================
+======================================================================
+Podcast Curation System
+======================================================================
+
+Found 6 podcast feeds
+
+Fetching episode metadata...
+  Fetching: https://feeds.megaphone.fm/DVVTS2890392624...
+    ✓ Moonshots with Peter Diamandis: 0 episodes
+  Fetching: https://feeds.megaphone.fm/EWWMN1909747317...
+    ✓ Monetary Matters with Jack Farley: 1 episodes
+  Fetching: https://feeds.simplecast.com/JGE3yC0V...
+    ✓ The a16z Show: 1 episodes
+  Fetching: https://rss.libsyn.com/shows/254861/destinations/1928300.xml...
+    ✓ All-In with Chamath, Jason, Sacks & Friedberg: 0 episodes
+  Fetching: https://anchor.fm/s/e29097f4/podcast/rss...
+    ✓ The Jack Mallers Show: 0 episodes
+  Fetching: https://feed.podbean.com/macrovoices/feed.xml...
+    ✓ Macro Voices: 0 episodes
+
+Matching audio files to episodes...
+  ✓ Matched: 2 files
+  ? Unmatched: 31 files
+
+Curating episodes for investment relevance...
+
+  APPROVED for transcription: 1
+  SKIPPED/EXCLUDED: 1
+
+======================================================================
+CURATION RESULTS
+======================================================================
+
+📌 APPROVED (will transcribe):
+
+  ✓ Monetary Matters with Jack Farley
+    Title: Jobless Growth, Euphoria, and a Manufacturing Recovery: How Iran Could
+    Keywords: invest, ai, research
+    File: EWWMN9964356428.mp3
+
+----------------------------------------------------------------------
+
+📋 REVIEW ALL:
+
+  ✗ [SKIPPED (low relevance)] The a16z Show
+    Title: Deploying AI in Healthcare
+    Keywords: ai
+
+  ✓ [APPROVED] Monetary Matters with Jack Farley
+    Title: Jobless Growth, Euphoria, and a Manufacturing Recovery: How 
+    Keywords: invest, ai, research
+
+
+✓ Curation log saved: /Users/jaredsheppard/.openclaw/workspace/pipeline/state/curation_log.json
+
+======================================================================
+NEXT STEPS
+======================================================================
+
+1. Review approved episodes above
+2. To transcribe approved episodes, run:
+   python3 transcribe_curated.py
+
+3. Or manually transcribe specific files:
+   whisper 'EWWMN9964356428.mp3' --model tiny --language en
+
+✓ Podcast Curation completed
+
+============================================================
+STEP: Fetch & Transcribe
+============================================================
+======================================================================
+Fetch & Transcribe Latest Podcast Episodes
+======================================================================
+  ✓ Swept 4 completed transcript file(s) from whisper_done into transcripts
+
+Found 6 podcast feeds
+
+📻 Processing: https://feeds.megaphone.fm/DVVTS2890392624...
+  ⏭ Skipping 'Anthropic vs. The Pentagon, Claude Outpaces ChatGP' — published 2026-03-02 (3d ago, >2d limit)
+  ✗ No episode found
+
+📻 Processing: https://feeds.megaphone.fm/EWWMN1909747317...
+  📋 Latest: Jobless Growth, Euphoria, and a Manufacturing Recovery: How ...
+  ✓ Already downloaded: EWWMN9964356428.mp3
+  🎙️  Transcribing: EWWMN9964356428.mp3
+  ✓ Already transcribed: EWWMN9964356428.txt
+
+📻 Processing: https://feeds.simplecast.com/JGE3yC0V...
+  📋 Latest: Deploying AI in Healthcare...
+  ✓ Already downloaded: the_a16z_show_20260304_a3513b51_9365_489a_8ddb_1b8ad40c.mp3
+  🎙️  Transcribing: the_a16z_show_20260304_a3513b51_9365_489a_8ddb_1b8ad40c.mp3
+  ✓ Already transcribed: the_a16z_show_20260304_a3513b51_9365_489a_8ddb_1b8ad40c.txt
+
+📻 Processing: https://rss.libsyn.com/shows/254861/destinations/1...
+  ⏭ Already have 'Ray Dalio: Our System Is in Jeopardy - Debt, AI & ' (guid match, ep_id=37)
+  ✗ No episode found
+
+📻 Processing: https://anchor.fm/s/e29097f4/podcast/rss...
+  ⏭ Already have 'War, AI, and Bitcoin In Deep Value' (guid match, ep_id=38)
+  ✗ No episode found
+
+📻 Processing: https://feed.podbean.com/macrovoices/feed.xml...
+  ⏭ Skipping 'MacroVoices #521 Jeff Currie: The Great Rotation' — published 2026-02-26 (7d ago, >2d limit)
+  ✗ No episode found
+
+✓ Log saved: /Users/jaredsheppard/.openclaw/workspace/pipeline/state/fetch_log.json
+
+======================================================================
+SUMMARY
+======================================================================
+Total feeds: 6
+Successfully transcribed: 2
+Failed: 0
+
+Completed episodes:
+  ✓ Monetary Matters with Jack Farley: Jobless Growth, Euphoria, and a Manufacturing Reco...
+  ✓ The a16z Show: Deploying AI in Healthcare...
+
+
+Next step: Run 'python3 research.py' to analyze transcripts
+
+✓ Fetch & Transcribe completed
+
+============================================================
+STEP: Newsletter Ingestion
+============================================================
+==================================================
+Newsletter Ingestion Pipeline
+==================================================
+
+Connecting to Gmail...
+Connecting to Gmail at imap.gmail.com:993...
+Logging in as jsheppard8989@gmail.com...
+Selecting folder: NEWSLETTERS...
+Found 0 unread emails
+
+No emails fetched. Trying manual mode...
+
+✓ Processed 0 emails
+
+Files saved to: /Users/jaredsheppard/.openclaw/workspace/pipeline/inbox
+
+Next step: Run analysis to score stock mentions
+
+✓ Newsletter Ingestion completed
+
+============================================================
+STEP: Transcript AI Analysis
+============================================================
+  ⚠ Google Generative AI library not installed. Run: pip install google-generativeai
+
+============================================================
+Processing Podcast Transcripts with AI
+============================================================
+  Using Moonshot/Kimi API (primary)
+Found 30 transcript files
+  Processing dario_amodei.txt...
+    ⏭ Too short, skipping
+  Processing elon_musk.txt...
+    ⏭ Too short, skipping
+  Processing the_a16z_show_20260304_a3513b51_9365_489a_8ddb_1b8ad40c.txt...
+    ✓ Added episode (ID: 39)
+    ✓ Added 0 ticker mentions
+  Processing EWWMN9964356428.txt...
+    ✓ Added episode (ID: 40)
+    ✓ Added 0 ticker mentions
+
+✓ Transcript processing complete: 2 new, 26 skipped, 0 errors
+✓ Analyzed 2 new transcripts
+
+============================================================
+STEP: Newsletter Import
+============================================================
+  ⏭ Already in DB: =?UTF-8?B?8J+agA==?= SpaceX, xAI form $1.25T super-entity
+  ⏭ Already in DB: Fw: The Agentic Inversion: What Moltbook and Axie Infinity R
+  ⏭ Already in DB: =?utf-8?Q?Fw:_Figure=E2=80=99s_General_Purpose_Robot:_Why_20
+  ⏭ Already in DB: =?UTF-8?B?8J+agA==?= xAI's next phase unleashed
+  ⏭ Already in DB: =?UTF-8?B?8J+noA==?= Google's upgrade breaks reasoning barri
+  ⏭ Already in DB: =?UTF-8?B?8J+Urg==?= Sam Altman's OpenAI succession plan
+  ⏭ Already in DB: =?UTF-8?B?8J+aqg==?= xAI's co-founder exodus continues
+✓ Total newsletters imported: 0
+
+============================================================
+STEP: Promote Episodes to Insights
+============================================================
+Found 2 processed episodes not yet in insights
+  ✓ Promoted: 'Monetary Matters: Macro Regimes and Investment Insights' (sentiment=bullish)
+  ✓ Promoted: 'The Future of Healthcare with AI and Technology' (sentiment=bullish)
+  ✓ Auto-archived 2 older insights
+✓ Promoted 2 new insight(s) to website
+
+============================================================
+STEP: Promote Newsletters to Insights
+============================================================
+Found 0 newsletters not yet on site
+
+============================================================
+STEP: Aggregate Daily Scores
+============================================================
+✓ Saved 0 daily scores

@@ -1,0 +1,712 @@
+We live in a world where the demand for health care is just rising so quickly.
+We have 10,000 people aging in the Medicare every single day,
+and we just can't train doctors fast enough to take care of all these people.
+The practice surface area for the clinician will look fundamentally different
+in the next three to five years.
+When I was deploying my own software back in the day,
+doctors would grow and they were like,
+oh, yet another tool, why are you stopping this down my throat?
+The delta between the magic of the tool that they're experiencing
+and they're consumer lives, and what they do in their work
+has for the first time narrowed.
+Just even a little bit to a point where it's just finally changed the nature of how they view technology.
+I think this is the first time where there's hope.
+There is a pathway to doing more with less.
+There is a pathway for the job of being a clinician being a nurse,
+to be fulfilling one.
+There is a pathway for the experience of a patient,
+not being as confusing and full of despair as sometimes it is.
+When the Kiel Buduma was a PhD student at Stanford,
+he lost a mentor to a medical error.
+Instead of finishing his MD PhD,
+he dropped out to work on fixing health care with technology.
+He spent years in the early deep learning community,
+including time with the researchers who would go on to found OpenAI.
+He watched Transformers emerge in 2017 and saw the scaling laws start to click.
+Then he did something unusual.
+He and his co-founders started a medical practice,
+to deliver care forever,
+but to understand what it actually feels like to run one,
+to work with doctors,
+implement an EHR, and see where technology falls short.
+That experience became the foundation for ambience.
+Today, the company works with some of the largest academic medical centers in the country.
+Over 75% of clinicians use the product daily,
+and one health system is projecting 30 million dollars
+in that new margin for the platform.
+A 16Z General Partner, Julie U, talks with Michiel Buduma,
+CEO and co-founder of Ambience Healthcare.
+Super excited to have you here at Nikhil,
+the Duma who is a CEO of Ambience, one of the co-founders.
+Ambience, I feel like you guys were founded, what 2020?
+2020.
+I think we were the first investment you made on Zoom.
+Yes.
+On Zoom, that's right.
+When COVID was hitting and everyone was going crazy,
+but even crazier is what has happened in the last five-plus years
+on the AI front, and you sort of had a front row seat to the whole thing.
+So you should share a little bit about your background,
+hoping that's whole crazy AI space, and then what's it been like to,
+be at the home of one of the most cutting-edge companies in the clinical AI space
+as the market has evolved as rapidly as it has over the last few years?
+Yeah, I mean, who've the last 12 years, and AI have been kind of insane?
+And there's almost like a few different arcs to the story,
+but I started my career thinking I was going to be an MDPHD,
+and then I ended up dropping out,
+mostly because I'd lost a mentor to a medical error,
+and thinking about the net benefit to the world for another MDPHD
+versus thinking about how do you solve these problems systemically?
+And I grew up here in the Bay Area and sort of was embedded at Stanford,
+and so you might remember when Andrew Ang was building deep belief nets
+and scaling up those models of GPUs, this is like 2010.
+I think after that I started writing a book on deep learning,
+and I think at a certain point,
+got called out to Silicon Valley to hang out with a lot of the early researchers
+in the space we were all hanging out in Greg's apartment for a little while,
+and that group became open AI.
+And that time I think there was a belief that in general unsupervised learning
+and reinforcement learning was going to give rise to general intelligence
+and general reasoning models, but no one really had a clear sense of what that was going to look like.
+You had a group of people working on open AI gym, trying to get RL agents to walk
+and see related environments, yet a bunch of people working on variational auto encoders,
+and I think the hard part of doing any kind of work in that time is
+every six months, something would happen, and an entire branch of deep learning
+which sort of collapse.
+We went from thinking deep belief nets were going to be the architecture of choice
+to no one cares about deep belief nets and about 12 months.
+And I think what was interesting is, you know,
+my co-founder Mike and I took a step back and we said,
+we're most excited about thinking about how do we take these technologies
+and apply them to healthcare.
+And so we actually did the crazy thing, which is we started a care delivery asset
+and we started to not only run that practice, work with doctors, implement an EHR,
+but at the same time we were taking all of the techniques that we were seeing
+at the research labs and bring them into the practice, right?
+So 2017, transformer came out, we were using the transformer in production
+to ingest claim data, predict risk hospitalization.
+And I think during this time sort of post transformer,
+we just saw the entire research communities sort of just collapse on this architecture
+because it was so clear that it solved many of the challenges around language modeling
+and reasoning in a way that we didn't quite see the previous architectures work
+and all of a sudden scaling laws.
+And RLHF, we saw a demo of GPT2 over the dinner table.
+And I think Mike and I were coming to this conviction that we were on the precipice
+of some sort of exponential here.
+And when you see the people you respect the most
+and some of your closest friends go risk their reputation
+to raise billions of dollars to scale up these architectures,
+like something is happening here.
+In those early days when you saw the performance of those early transformers,
+like today when GPT3 first came out,
+everyone was like, oh, it sucked at healthcare.
+There was a ton of hallucination risk.
+You know, it wasn't trained on a lot of the proprietary data,
+sort of not on the internet, sort of speak about medical practice and guidelines
+and all that.
+And then obviously it improved drastically over the last few years.
+But back then, like, was it super bad or how did
+it actually perform in healthcare setting?
+And when you were applying it to your first startup,
+like how long was the pull of sort of postdoc training and
+and fine tuning that you had to do to get it to actually work
+at a clinical setting?
+The iteration cycles were insane, right?
+So today people are like, well, I could pull it all out of the box
+and it kind of works out of the box for certain use cases.
+And then the moment you move into really deep domain verticals
+is when you have to really invest in post-training,
+back then, honestly, you had to rethink how you did pre-training,
+how you did post-training the iteration cycles a year
+and you're building deep custom bespoke data sets.
+And all the sort of like ML operations infrastructure
+that you had to build for self-driving cars you were pulling over.
+So it was a very different world to get these architectures to work.
+And also very different scales, right?
+We were talking about tens of millions,
+if not maybe a hundred million parameters
+or some of these models in 2017 and 2018 versus now we're talking about
+truly in plus parameter models.
+And you guys kind of did the reverse thing
+where a lot of startups start by building technology
+that gets sold into the healthcare markets in particular
+and then realize how hard it is to sell technology to providers,
+you know, for instance,
+and then decide to go full stack and say,
+we just wanna eat our own dog food,
+we wanna capture more values associated with the services
+delivered on top of a technology platform.
+You guys did the opposite where you started full stack
+and then decided that you wanted to do a platform company
+in your next play, talk to us about how you got to conviction
+that that was the right move.
+Yeah, I think when we started our previous company remedy,
+we were just extremely sober to recognize
+that we had very little empathy for what it's like
+to sit in the shoes of an operator of a health system.
+And to truly understand the entirety of the context
+and the job to be done in the opportunities,
+we felt very strongly that we had
+to hold the responsibility ourselves for us in foremost.
+And I think that not only did give us the flexibility
+to be able to have the rapid iteration cycles
+inside of the company to see what worked and what didn't work,
+but I think it also set the foundations
+for if we ever did start a platform company,
+but would it like feel like to sit in the shoes of the CEO,
+looking at one to three percent profit margins,
+looking at a workforce and burnout crisis amongst your staff,
+having to navigate the complexity of an IT stack
+and having to work with Epic
+and thinking about how to even make decisions in that world.
+And so in many ways, I think going through the experience
+of running a care delivery asset,
+gave us a ton of intuition for now
+as we're building a platform company,
+how do you actually do that successfully,
+and how do you build something that can resonate,
+not just with the end user on the ground,
+but also resonate with the economic buyer,
+the CEO, the CFO, the chief operating officer,
+of an organization that has to be sure that this system
+is financially sustainable too.
+And just to get into a little bit of the history of ambience,
+you guys in some ways have traversed a fairly large surface area
+of the provider market, right?
+You've worked with the obviously today working
+with some of the most prominent health systems in the world,
+you also have experience working with smaller medical groups,
+digital health companies at the beginning,
+talk to us about what's your view on the segmentation of the market,
+and also what's the stage of maturity
+that we're at today with respect to AI adoption,
+because I think that's one of the most surprising things
+that's occurred in the last few years,
+is that providers used to be the last bastion of technology adoption,
+they were always the laggers,
+they were always behind every other segment,
+like the payers and life sciences and what have you,
+and then all of a sudden in the last couple of years,
+they are arguably amongst the fastest adopters of AI,
+and not just in the administrative setting,
+but like your product, like at the point of care for doctors.
+And so how do you sort of like grunk all that,
+and where do you see the pockets of like sort of highest adoption rates
+amongst that set of providers that I describe?
+Yeah.
+Maybe we would take step back when we think about why
+this is so compelling to the organizations we work with,
+the realities like you look at adopters work day today,
+it's not a lot of joy in the practice of medicine anymore.
+You can't look your patient in the eye.
+You're constantly feeling like you're running behind.
+It feels like you went to school to take care of people
+and to actually grapple with the clinical medicine in the room.
+But most of your time is spent doing all sorts of other stuff,
+right?
+You're like searching through the electronic medical record
+to find information, you're writing notes.
+You're navigating these thousands and thousands
+of coding and billing rules are different
+by type of payer, different by region,
+they change year over year.
+You're like, I didn't go to school to do this.
+And so I think in many ways,
+the organic pull from the market was there
+for a very, very long time.
+And it wasn't a question of, hey,
+can, is there a demand for a technology that can do this?
+The question really was for a long time.
+Can a technology even serve this need well enough
+in the first place?
+And I think as the market sort of evolved,
+there's almost a bifurcation between
+what I think are largely the high complexity,
+high value set of use cases,
+and the low complexity low value set of use cases.
+And so, if for us, we've found a home
+specifically in some of the largest
+ideas in the academic medical centers.
+And part of why we think that's a very interesting place
+to play is just the vast breadth
+of medicine that's being practiced in those environments.
+And the depth across that breath is extremely challenging
+to go tackle.
+So you think about, if you're trying to build,
+you know, our view is that the practice surface area
+for the clinician will look fundamentally different
+in the next three to five years.
+Like today, even if you compare the experience today
+using something like ambience versus what it was a year
+or a year or a year ago, it already looks
+so so transformatively different.
+But the challenge is that when you're operating
+in these really complex clinical settings,
+the job of a primary care physician,
+who's primarily trying to manage multiple chronic diseases,
+versus the needs of a subspecialized oncologist,
+they're so different.
+They're making different decisions.
+They have different workflows inside of the EHR.
+They're looking at different data sources.
+And so to be able to build the kind of infrastructure
+that serves the broad range of medicine
+is really, really hard.
+On the other hand, the moment you move to sort of the mid-market
+or the small sort of three, five, ten dock practices,
+the complexity drops dramatically.
+And so it's much easier to serve.
+And so my guess is in general,
+you'll see a proliferation of lots of players
+trying to compete over the mid-market.
+For instance, I think, you've got the EHRs
+and that space that are trying to reinvent themselves
+to be AI first companies.
+You've got AI scribes going after that space.
+And I think they're quickly finding out that
+to create enough value.
+They have to own more and more of the stack
+for these organizations.
+And then I think the enterprise segment of the market
+is certain to shake out now where
+I think the reality is there's only a couple of players
+that have even had a right to play in that market
+and most of them outside of ambience
+have really, really struggled to actually meet these organizations
+at the complexity at which they need a practice, right?
+So for instance, we'll have so many organizations
+come to us, they've rolled out something,
+and only 15, 20% of their doctors actually use it.
+And even those who do use it, they use it.
+It's not good enough.
+It's not good enough.
+And even the ones that you use it,
+they're using it for 20, 30, 40% of their visits.
+On the other hand, I think, for us,
+we work with several large academic medical centers
+and we're at the scale now where 75% of all their clinicians
+use ambience every single day in clinic.
+They're using it for 80% of all their visits,
+which is a completely different sort of opportunity in scale.
+And so I think that's sort of how the market has shook out
+in many ways, which is there's a high complexity part of the market
+that's really, really hard to serve.
+But if you can serve it is hard for others to compete in.
+Yeah, one of the tropes when people talk about this space in general,
+like sort of the, let's call it clinical intelligence.
+AI for clinical intelligence in general.
+You know, one of the tropes is that eventually,
+the generalist foundation models will just get so good
+at like a global set of intelligence that,
+you know, they're going to win these categories where,
+you know, all you have to do is basically, you know,
+synthesize information and then make a recommendation.
+And then really where the game is going to be at is kind of the action layer,
+like the actual work that is done agentically.
+What do you do with that information once you have it?
+How do you actually, you know, clinically create clinical utility
+basically for the patient and the provider?
+Number one, do you agree with that premise that, you know,
+the sort of the cliff that is clinical intelligence,
+like that, that is coming up soon and that like any company
+that's only doing the intelligence layer will soon become like very
+commodified and that, and therefore, the real competition is going to be
+on the action layer.
+Or do you actually think like to your point that the length of the pool
+on just clinical intelligence alone, it's so long that you still have,
+you know, many years before any of the generalist foundation models
+will be able to crack the code comprehensively across the full
+surface area of medical practice.
+So it's a fascinating question.
+I might answer it as slightly different abstraction,
+which is that from our experience, AI clock speed is fundamentally different
+from product clock speed.
+And part of the reason I think about it that way is there's several aspects
+to intelligence that do get better with every generation of foundation model.
+And in many ways, I think what's kind of frightening about building in this world
+is the capabilities are evolving so quickly that,
+and we use this word constantly inside of ambience,
+we're building a world where the floor is lava.
+And you have to have the kind of organization that can respond to
+and on a dime, be able to reinvent themselves itself as capabilities
+continue to evolve, right?
+So we spend an insane amount of time predicting what the capabilities will look
+like over the next 18 months and then building for that future
+as opposed to building for the capabilities now.
+That being said, I think what we find is that there is still a massive
+last mile problem for these models to be effective in healthcare.
+And you can break it up into a couple of different categories.
+And it's going to start with,
+do the models even have the right context to begin with?
+And I think you probably have a deeper appreciation for this.
+Just how messy it is to even build out the right infrastructure
+to be able to pull context out of systems of record,
+hidden behind fiery PIs and proprietary PIs.
+The data models are so messy and inconsistent.
+You'll get specific standards where it's sort of like a concept of
+a specification.
+Yeah.
+And so you've like people just like stuff like free text into a random
+field and all that.
+Yeah.
+100%.
+So you're like, even just a problem of across EHR instances,
+being able to pull out the context from systems of record,
+in and of itself was an unsolved problem.
+We started building ambience that we solved.
+Right.
+And so the ability to read out of any part of an EHR instance,
+including the data warehouse underneath it,
+and then using that and having a groomed layer to be able to then build
+intelligence on top, that was an unsolved problem.
+I think another thing that a lot of folks don't
+don't fully appreciate is that the most valuable thing for AI
+companies is decision traces.
+Most EHRs are built on readable data structures,
+which means that you inherently destroy the decision traces.
+And so fundamentally, you have to rethink the architecture of how you
+actually collect the data in the first place,
+even make intelligence the specific to the domain.
+And so that's another sort of big problem in the data layer,
+but there's a whole sort of range of data layer problems that you
+have to solve.
+Then in the middle, I think we have a really big challenge
+from a clinical intelligence standpoint around defining quality.
+We have to find quality in way too many ways.
+Exactly.
+And it's especially challenging because most of the use cases
+are open-ended use cases.
+And they start as trivial as if you have multiple pieces of
+contradictory information in the chart.
+You got a patient where there's no indication of thyroid problems
+that problemless, but this person is on thyroid medication.
+That was prescribed six months ago.
+What does that mean about the state of this patient?
+Like even just resolving truth at that level is tricky.
+Then what if you're in the inpatient setting, and all of a sudden,
+you've got four different clinicians doing a physical exam on this patient,
+and you've got one very specific physical exam that happened about 48 hours ago
+that came in through a specialty consult?
+How much do you index on that versus the physical exam that happened two hours ago
+by generalist?
+That's a hard reasoning problem.
+Chronicity and credentialing matters a ton.
+And then there's also the realization that so much of what ends up
+and needs to end up in the medical record is never verbally explained in a visit.
+Right?
+So for instance, an oncologist may be walking through a decision tree on a care pathway in their brain,
+which is then expressing to the patient in words that they can understand what the next step is,
+but what goes into the clinical note is that trace of the decision tree,
+not the words that were spoken to the patient.
+And so defining quality as to what does that special,
+subspecialized oncologist expect is fundamentally complicated.
+And then you've got certain use cases where, for example,
+ICD-10 coding, you put two doctors in a room.
+They agree 60% of the time.
+You put a doctor on an ICD-10 coding problem.
+You ask them a question.
+You put a coder on that problem you ask them a question.
+Versus, you have both them in the room with ten minutes to debate before you ask them the question.
+You get three different answers.
+And so defining quality is actually just a fundamentally hard problem.
+And one where it has to be solved the intelligence layer,
+and it's not being solved by the foundation models today.
+And then I think the last piece is that for these companies to be successful,
+as capabilities are evolving really really quickly,
+you've got some companies in vertical industries
+where iteration speed is naturally fast.
+For us, you have to have really, really deep relationships
+to be able to go from prototyping something to deploying something
+and TST to turning it on and prod to then being able to actually
+make live learning loops with end users.
+And I think one of the things that we've solved as an organization
+is how do you build extremely deep relationships with mark
+you organizations to be able to go from concepts to live and deploy
+learning with users within less than 30 days, which is unheard of in our category.
+So I think there's all these things that you have to solve
+for companies to be valuable in this category that are just far beyond
+clinical intelligence of that makes sense.
+This is a floor of what they love for much longer.
+It's what you're saying.
+100%.
+I mean, maybe a question for you is imagine you lived in a world.
+You were to rebuild chyrus today.
+How long would that take?
+And then if you had an environment where someone had solved the integration,
+problem had solved the data integrity,
+problem had solved the sort of relationship with the health system problem,
+how long do you think that would take for you?
+I mean, this is definitely a question that's about all the time.
+And I see lots of companies that are actually doing forms of what I would have
+done.
+But it kind of gets just to,
+we hash some of what you said.
+I think there's two components that I think a lot about.
+One is what is the form factor of the product that we would have built?
+I mean, it's really different.
+Like we were legacy enterprise SaaS product that got deployed into a call center setting.
+But we had to train the humans to use the software workflow in the right way.
+You know, to get the right outcome.
+And as we know in those environments, the turn rate of employees is just naturally
+super high.
+So as soon as you train one batch of people, they leave.
+And then you got to retrain them again.
+And you just have a huge range of compliance rates.
+Let's call it with which people are using that software.
+So if you can actually make an agent do the work instead.
+You know, that removes a ton of the potential drift in outcome.
+And so that's, you know, one thing that we see a lot of these days is like instead of just giving
+tools to a call center, why not beat the call center and build, you know, voice AI agents that are
+effectively doing the work based on the rules of the road that you want, you know, kind of
+system and ties across the entire healthcare system.
+The second thing I think about is exactly what you said.
+And I have a question back to you on this is, you know, the data layer, right?
+Like one of the biggest impediments to being able to do scheduling.
+Uh, efficiently, which is what we were trying to do is that there is no source of truth.
+There's no standardized way for representing clinical schedules.
+And, and not only that, it's like individual physicians, like, you know, to their credit.
+They obviously all have very different styles, very different, you know, preferences,
+different ways they want to practice.
+And there's no, no health system has an incentive to tell every doctor to, you know,
+system ties it in one way because, you know, these doctors are very scarce.
+They want to retain them.
+They want those doctors to attract the patients, you know, that they want to see.
+And so there's, you know, the heterogeneity of the underlying data was like a huge impediment to getting
+getting it right at the system level.
+And so, you know, if we were to build that company today or even, you know, what
+ambience is doing, you're effectively creating the new system of record, right?
+Like you're, you have a full texture of data that has never existed before in the
+healthcare system ever, right?
+Conversation, grade resolution on what's being said between a clinician and a patient.
+And then to your point, how does that translate to what actually gets documented in an esoteric fashion?
+And creating those links like that's never existed before.
+Same thing with scheduling, right, where, you know, as as appointments are being booked.
+And as you hear, what was the preference of the patient?
+And then how do you bump that against the preferences of the doctor?
+And then, you know, create a semantic that links those two things together.
+Like that's a denobo set of information that like never existed before.
+So, I think there it is another opportunity to set for any company that's building in this day and age is,
+you know, how do you not only think about the work that needs to be done,
+but, you know, creating an entirely new set of data that not only trains your models better
+to like, you know, perform better in the future, but effectively could become an entirely new system itself, right?
+And I mean, that would be the question to you is, as you think about the future of the EHR,
+like to your point, the EHRs are trying to vertically integrate into these workflows of themselves.
+You know, I think, obviously, I'm betting against them being the ones who win that game,
+but, you know, it is this the moment, like all of us have been waiting for decades for the moment
+where we can finally disrupt, you know, that incumbent EHR layer and have a shot at potentially introducing new tools
+that, you know, number one bring those systems into the modern era, but also enable startups to have a shot at, you know,
+kind of owning that layer, do you think this is the moment?
+Or, you know, what needs to be true for us to start to kind of eat into the layers of the stack that are owned today
+by these kind of monolithic ERP players?
+I think this is the moment and it's the moment for two reasons.
+The first is deeply related to what you were talking about, which is the organizations that figure out
+how to build the practice surface area of the future and the administrative stack of the future
+have to be able to unlock this sort of level of AI at a product clock speed that is bottlenecked by the fact that today
+we've built all these legacy systems on a legacy architecture that's not actually optimized for AI at a product clock speed
+and so one of the innovations of ambience is we've actually built out a layer that sits on top of the EHR
+that pulls all the data out of sort of the systems of record, puts it in a form that makes it easy to build AI products on top
+so that the incremental cost of building in that new use case dramatically drops.
+Because you can imagine every single use case and application area is leveraging the same underlying systems of record
+and you don't want to recreate that same infrastructure over and over and over again, right?
+For us to go from like two products to 12 products to next year, 24 products out in the market
+I think once you've had that infrastructure layer that we've created, it fundamentally changes your product clock speed as an organization
+so that's probably the first insight and it's not a trivial piece of infrastructure to create
+like it for us it took several several years of deep R&D to be able to even do this in the first place
+I think the second is the following. The physics level will have fundamentally changed with the set of capabilities
+and so you were talking a little bit about how if you were to build a kyrus today, you're like with the form factor even be the same
+right?
+And I think that's happening across every use case across the span of the entire system, right?
+Rev cycles probably one that you're really, really deep in as we are too.
+And one of the questions is like today when you have a Rev cycle problem, how does system solve it?
+And it's really twofold either the invest in training, the teach clinicians who don't want to learn coding
+to try to get them to do the right thing, or you've got massive back office teams, the credit like review as much as you possibly can
+and then try to correct a clinician afterwards, which obviously clinicians hate as well, and is extremely inexpensive and inefficient.
+And so the question for us as well, if you could distill it expertise into a model, which is extremely hard to do, but if you could, and then you could distribute it at the cost of software across every interaction where Rev cycle expertise is relevant.
+And you then own the window in front of that user.
+How do you then leverage that set of capabilities to make doing the right thing easy? How do you make doing the right thing obvious?
+And all of a sudden, that starts to disintegrate a lot of the underlying assumptions for why Rev cycles constructed the way that it is, right? So like building a product for pre-built.
+Does that make sense any more in a version of the world where you can work closely with the clinician to create a more accurate source of truth and automatically adjudicate all of it in real time?
+Yeah, the next obvious step from everything that we're talking about is you know autonomous AI doctor, right?
+Today a co-pilot every use case I believe that it's still being used in the wild requires a physician to basically sign off on the note or the documentation, et cetera.
+What's between why shouldn't your platform be an autonomous AI doctor like what's between, you know, the capabilities today and you know the future.
+You know, reality that we will likely have a lot of this being done, you know, in a fully automatic fashion doing clinical like actually making clinical judgments.
+We live in a world where the demand for health care is just rising quickly with 10,000 people aging in the Medicare every single day.
+And we just can't train doctors fast enough to take care of all these people.
+And on top of that, the sort of cost of adding one more patient to a doctor's panel today so painful.
+And so I think one of the promises of these technologies is, how do we do more with less, how do we make it painless for a clinician to say, I do want to see see more patients.
+I do want to increase access to the care and expertise that I have do it in a way that is long term sustainable.
+I think most organizations want to increase access to patient populations.
+And the question is, how do you do that without asking your clinicians to do more?
+Well, a big part of that is, how do we start to offload some of that work to sort of virtual care team members who can sort of take the next step on behalf of the, on behalf of the clinician.
+And so already we're starting to experiment with before the visit even start.
+So before before visit today, ambience is sort of anticipated everything this doctor would need to know before they even see this patient.
+And then the quick side of your self, you're you're an interconologist, a clone of yourself has poured through all the data for hours and hours and hours and hours and it's put together a summary of everything you need to know for this patient.
+Now imagine you move that one step further upstream, which is you've got an agent that has access to all this context that can also anticipate well what are the most likely questions that are top of mine for the clinician and you start asking those questions before the visit even happens and then you've loaded that also up into the summary for the doctor.
+You had a great conversation with your physician the clinician sort of wrapped up with you with an after visit summary that gets sent back to you through the patient portal.
+What happens if you turn that into an agent that can have a continuous conversation with you answer questions double check did you pick up your medication actually make sure that you got that sort of.
+The lab test done at quest diagnostics, did you pick up your Xanx for your claustrophobia because you have to get a CT scan before seeing the oncologist and your anxious about that CT scan all these things.
+What does it look like for now there to be a virtual care team member to actually help quarterback all those things on your behalf that is what the true promise of these capabilities is.
+Let's say that I'm the CEO of a hospital system and like what you're describing sounds incredibly exciting but today I've got five different vendors who are all buying for you know that like that pie essentially so you got your I have my EHR.
+I've got you know the foundation model companies who are all doing you know launching whole care products and you know claiming that they're going to get into the space.
+I've got ambience you know kind of starting with AI scribe but expanding rapidly I've got my AI revenue cycle players I have my AI clinical to send support players you know those are kind of like to me the five major categories of players that are kind of all converging on this vision.
+What's your pitch to me like tell me how I rock this whole space and how do I think about making.
+I've got a lot of investments against those categories and such a way that is durable for me.
+You know for over multiple years like a five year time horizon as opposed to me being a situation where I need to repair and replace vendors like every every six months.
+Yeah.
+Do we that I would think about it from the shoe of the operator is probably too full two lenses the first is.
+It's a lot of excitement in noise around AI.
+But there's a big difference between marketing and noise versus.
+If I bought this will my clinicians actually use it because if if they're if you don't have the right level of adoption nothing really matters right and so I think that's probably where right now.
+The jury is looking really negative for a lot of AI use cases which is these companies are very good at pitching a vision but then when it comes to brass tax the adoption utilization of these technologies is extremely underwhelming.
+And that's one of the cool things about this era is that you can literally just let the doctors use it and kind of put with their own feet right 100% and I think that's that already is.
+It's it's so clear for any organization that either works directly with ambience or just talks to an organization that has worked with that works with ambience and most of these have tried every single one of the players in in the category that.
+We've done an incredible job of actually owning the window of care in front of every single clinician so that the enterprise and if you can't do that that's table stakes and so that's the first lenses.
+Can you actually get the level of adoption utilization.
+I think the second is.
+Look, health systems are not traditional enterprise be to be SaaS enterprises.
+You don't have hundreds of millions of dollars of cash lying around to be able to invest in in toys in cool toys and so the question then becomes how do I actually fund these things.
+And so the second lens that we take is.
+At the end of the day one of the reasons why AI is exciting is because this is the first time that we think is an industry that there is a class of technologies.
+That can fundamentally change operating margin.
+And I think if you get this right.
+The organizations unlock their AI product clock speed they'll be able to adopt AI.
+They'll be able to unlock new forms of operating margin that operating margin allows them to invest more in tools that attract better talent.
+That better talent means more volume more volume equals more revenue more revenue equals ability to invest in more AI.
+You get sort of unlock this crazy flywheel.
+And I think from the CEOs perspective and the board perspective, the organizations that figure out how to do this effectively.
+They compound and become the destination of choice for patients.
+And the ones that don't, they're at risk of consolidation.
+And so then the question really becomes, who can I actually work with to change operating margin?
+Are the HRs going to work with me in a partnership model where they're committing to change operating margin?
+I think it's a thing that's so scary for people to do because it requires your products to actually work.
+You have to attribute a good at change management. You have to be good at measurement and attribution.
+But I think because we've built out all those capabilities, we're willing to go to a health system and say we will actually put our money where our mouth is.
+And our success is going to be dependent on your ability or ability to help you change operating margin.
+And so I think the combination of those two things creates a set of proof points in the beginning of a relationship where it's almost like a religious conversion that happens,
+where now you walk into an organization that leverages the ambience and you can't go from room to room without being stopped in the hallway.
+And that builds the level of sort of trust and excitement for the future that earns you the right to do more over time.
+Right, so I think within six months of working with the marquee academic medical center customers we have we go from hey we're working on the scribe to we want everything on your roadmap as quickly as possible.
+And I think it's because of that sort of like excitement from seeing it actually work and then the CFO for the first time looking at an implementation and saying this clearly pays for itself many times over.
+And we can take the new margin we didn't have one one one center we work with they're projecting over 30 million dollars of net new margin post attribution debate.
+That's just free by ambience because they don't have to hire human scribes anymore what what's the attribution.
+A big part of it is our CM a big part of is improving throughput and access.
+But our CM is a big part of it.
+And now you're like well I have all this margin to invest more AI and that's sort of the beginning of unlocking that fly will.
+And so once you see that I think it just fundamentally changes your perspective on the category.
+It's interesting too because I know like even just a year ago I remember the first wave of AI scribe adoption.
+When I talked to see sweet executives at a hospital systems and I said you know what's the ROI like what made you purchase these products they they basically said listen Julie actually there's not that much financial ROI.
+We're just doing it for retention we want employee happiness we want our positions to feel like we are looking out for them and giving them a reason to come to work every day.
+And now it seems like it's very much shifted you know to to actually heart ROI kind of in like base to.
+Because people didn't know it was even possible.
+Yeah.
+At that point in time right to to to do this you have to be able to track where user behavior is happening inside of the EHR.
+Map that user behavior down to a code that code then being submitted a CDI query prevented a denial prevented.
+And then putting that all together to new cache you're collecting in reduction in cost to collect.
+And doing that in a way that's going to actually meet the muster of the CFO's office.
+And for us to do that requires us to basically download the data warehouse and build an entire analytics stack that would actually work for the CFO's office.
+And so like in the absence of doing that of course the CFO's never going to believe it.
+But now we're seeing the real proof points across customers where CFO's will actually tell other CFO's how much value this this category can create.
+But it takes a lot of work and thoughtfulness on getting the right use cases actually moving coding performance actually doing change management to move the mark marker on operating margin.
+Yeah.
+We've talked solely about the providers out of the market but obviously some of the things that you're you're speaking about have implications for certainly for payers at a minimum.
+Yeah.
+And you know the sort of still case death match of you know providers implement AI.
+And then we have a late bought on bot crime around rcm like that's actually playing out as we know and you know people are actually talking about on the earnings calls even.
+Yeah.
+With some of the large national pairs.
+Where do you see that playing out like how do you see and if you got any work along those lines would be great to hear just like real life case studies of how do we solve that that challenge.
+You probably know we work with a lot of organizations that are integrated and have a plan.
+Um, close relationships with plans.
+Yeah. I think what we're finding is that the world may our view is more optimistic, which is.
+If you've got a system that actually can.
+Understand source of truth and understand it really really well, which is not just ambient listening it's also deeply understanding all the past context as well.
+So it's like you you need that sort of like layer on top of the system's record.
+But if you deeply understand source of truth.
+And you know exactly what happened in the visit and you can answer any question with high levels fidelity with clear audit trails.
+It's not just a win for the organization on the health system side, right?
+I think long term it ends up being a win for the payer as well because on the flip side, you know we're talking about an AI versus AI.
+Arms race.
+We've already seen the labor versus labor arms race because you got payment integrity teams being built out to sort of work with the rcm teams on the health system side.
+But I think what ends up happening is once you have a shared source of truth, then.
+The ROI of rcm becomes potentially negative over the next five years.
+And there's a very real likelihood that the ROI of payment integrity also becomes negative over the next five years.
+And it just makes sense to to collaborate.
+So I think I'm a long term optimistic on this one, even if the short term seems a little bit tricky to navigate.
+As like the bar has gone up on like the things that AI can do like there's a lot of things that I remember like when we first invested, you know, we were kind of like,
+Oh, that's a pipe dream.
+We'll have to do additional development and or wait until AI models, you know, come along far enough for us to do XYZ.
+And then here we are, you know, those things are actually very, very feasible.
+Our projects about the same.
+The pitch like that.
+Yeah.
+Yeah.
+But the capabilities have definitely evolved.
+Like is there any remaining like what's hard today?
+Like what's still hard to do?
+What are you hearing from your customers that they want to do that?
+You know, we're not actually able to do yet with, you know, the capabilities that are out there.
+And is it, is it AI?
+That's the bottleneck or is it all the other stuff that you talked about with respect to,
+like last mile workflow, integration, RCM, all that kind of stuff?
+Yeah.
+I think we're at a place where it's hard to disentangle like, what do you consider like a bottleneck at the foundation model layer versus a bottleneck and post training versus a bottleneck and product?
+I think some of the use cases that are still tricky and hard for us are as we're thinking about cascading context across care settings.
+So how do you anticipate what's going to happen when you've got a patient who's admitted to the ED and now they're upgraded to the inpatient setting?
+And now you're trying to make predictions on what next pass action really is.
+Some of that, some of that work is is still a little tricky.
+I think generally like predictive modeling is not particularly well solved yet by this class of models.
+But I think in general what we're finding is that if you've built the right team with the right our applied R&D expertise and the right sort of internal clinical subject matter expertise and RCM,
+subject matter expertise to pair really well with applied R&D teams weren't a world where like so much is there's just so much to build that we don't really feel that bottleneck.
+We're almost just like our ability to understand the problem and and go have teams that can go tackle the problem is the bottleneck more than anything else.
+Do you ever envision ambience becoming like a true platform in the sense that you open up your capabilities to third parties to then develop on top of your system and you become kind of that back in layer that the easier place today.
+It's an active conversation with most of our our customers.
+A lot of the academics have internal product and engineering teams that want to build all sorts of stuff.
+Sometimes that's on roadmap for us and we talk about how do we want to think about making the right shared investments over time with a lot of great ideas that are likely just not on our roadmap and so.
+This ability for us to make it easy for others to build on top is this supernatural and that could extend to our customers but it also extended the broader ecosystem.
+And one last question for me that's more internal facing of like your experience is building ambience as an AI native company and obviously again like being an employee at an AI company.
+It's obviously also evolved quite a bit over the last few years like what are some of the things that you're doing like fundamentally different today based on the availability of AI tools for your employees.
+That you weren't doing like you know two or three years ago that you think it's but a huge game changer.
+I mean there's probably a number of of experiences or wild to folks if you almost like rewind back time two years ago, but on the engineering side like.
+The amount of work that an individual engineer can get done now with open 4.5 is is is quite insane.
+I think what we're finding is that you just need really smart thinkers and you don't necessarily need as many people anymore to get lots and lots of work done.
+Because it has a change like the profile of engineer that you hire it does it does.
+I think generally on the platform side you want people who can think really deeply about long term architectural choices and see around corners.
+And on the product on the product engineering side what you're really looking for is the kind of person who can embed deeply in clinical environments spend time with customers work closely with subject matter experts and do really like really really get it requirements gathering.
+And that's actually the bottleneck to building great great products and features.
+Internally we use AI time for research from sharing context.
+One of the things we often think about is when a new employee on words, how do we take almost our internal decision traces on how we make decisions as an organization and make it really really easy for a new employee to be able to.
+Standard of the shoulders of giants because if you join a new company oftentimes you're like you have no idea how this place works.
+You have no idea the historical context of decisions that were made you have no idea if you're about to make a new decision how to even begin thinking about what the right framework is.
+100% and so I think still early on some of these use cases, but we're starting to build internal teams to think about if we were to internally make ourselves an AI for a company what that would look like.
+Because our thesis is in the same way that you wouldn't if you were building a health system from the ground up today you would not do it the way you were building 10 years ago if you're building a company today you would not do it the way you would be doing it two years ago.
+What what to be not covered that you want the world to know about ambience.
+This is a good question. There is a specific level of just humility and an honor in being able to work on this problem.
+I know you've got your own personal experiences with health system.
+I sure have my own and every person ambience comes in because they were loved one or had an experience with health system or works inside of the health system.
+It's just one of those industries where the outlook with bleak for quite some time.
+Folks have been talking about the system being at a breaking point.
+I think this is the first time where there's hope that there is a pathway to doing more with less there is a pathway for the job of being a clinician being a nurse to be fulfilling one.
+There is a pathway for the experience of a patient not being as confusing and full of despair or sometimes it is.
+I think in some ways that makes this a special time to be working in health care whereas in the past I think we didn't necessarily attract the best people in the best talent because it was unclear.
+We even have an impact if you wanted to on health care. So this moment is very special and I think there's just a lot of gratitude.
+I think we all have to be in a position to even be able to contribute to the problem.
+100% agree with that point about just the exceptional talent that's coming into health care and the fact that I think health tech is now earning its right to be compared to best in class broader tech.
+I've never experienced the type of joy that I've experienced using this tool in my day-to-day job that has made me now want to remain a doctor.
+This was a person who had been considering quitting their job basically after all the terror of COVID and everything else compounding on top of that that you're talking about.
+So I 100% agree with you that after nothing but technology being a burden to this whole industry.
+I was deploying my own software back in the day doctors would grow and they were like, oh yeah another tool like why are you stopping this down my throat?
+All of a sudden to an era where they can actually see sunshine and I think the the delta between the magic of the tool that they're experiencing and their consumer lives.
+And what they do in their work has for the first time narrowed you know just even a little bit to a point where it's just finally changed the nature of how they view technology.
+It's kind of wild when we even hint that we're about to release a new product the energy we feel from the clinicians is almost like lining up for the next new apple product.
+And like you've just never seen that kind of energy before and it feel I think for us it feels great that every time we create something there's almost a level of magic.
+That's created for the clinician that sort of builds up this anticipation and I think we're also we understand that comes with a bunch of responsibility too right which is.
+What then once we do deliver that the products actually meaningfully changed lives of the clinicians we serve and so that's a responsibility on us to to keep doing that quarter after quarter after quarter.
+Yeah amazing. We'll always a pleasure to talk to you about these things to kill and congrats on all the progress that ambience.
+Thank you, Julie. Thank you for believing us since the very beginning. Yeah, absolutely.
+Thanks for listening to this episode of Raising Health.
+If you liked this episode be sure to like comment, subscribe, leave us a rating or review and share it with your friends and family.
+Follow us on x at a 16 z in subscribe to our sub stack at a 16 z dot sub stack dot com.
+Thanks again for listening and I'll see you in the next episode.
+As a reminder the content here is for informational purposes only should not be taken as legal business tax or investment advice or be used to evaluate any investment or security and is not directed at any investors or potential investors in any a 16 z fund.
+Please note that a 16 z and its affiliates may also maintain investments in the companies discussed in this podcast.
+For more details, including a link to our investments, please see a 16 z dot com forward slash disclosures.

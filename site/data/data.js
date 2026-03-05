@@ -1,8 +1,8 @@
-// Auto-generated - 2026-03-04T21:03:02.475958
+// Auto-generated - 2026-03-05T04:02:01.182318
 // DO NOT EDIT MANUALLY
 
 const dashboardData = {
-  "generatedAt": "2026-03-04T21:03:02.476014",
+  "generatedAt": "2026-03-05T04:02:01.182369",
   "tickerScores": [
   {
     "ticker": "BTC",
@@ -488,6 +488,42 @@ const dashboardData = {
   "archive": {
   "insights": [
     {
+      "id": 56,
+      "title": "Monetary Matters: Macro Regimes and Investment Insights",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-03-04",
+      "summary": "In this episode of Monetary Matters, Max Weethy interviews TN Yang, CEO of Variant Perception, to discuss the macro environment and its implications for investment. They delve into the benign macro environment characterized by jobless growth, disinflation, and a synchronized global easing policy. The conversation also touches on the impact of potential energy shocks, the technology race, and the role of gold as a reserve asset. Yang provides insights into less obvious investment opportunities within technology and government consulting, and the strategic allocation to gold and gold miners.",
+      "key_takeaway": "Invest in less obvious areas of technology and government consulting with reasonable valuations, and consider gold and gold miners as a strategic allocation in a world moving towards inflationary policies.",
+      "tickers_mentioned": [],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-05",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 40
+    },
+    {
+      "id": 57,
+      "title": "The Future of Healthcare with AI and Technology",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-03-04",
+      "summary": "The episode discusses the rapid rise in demand for healthcare, the challenges of training doctors fast enough, and the transformation of clinical practice with technology. Michiel Buduma, CEO and co-founder of Ambience Healthcare, shares his journey from academia to entrepreneurship, focusing on leveraging AI to improve healthcare. The conversation highlights the potential for AI to create a new system of record in healthcare, the opportunity to disrupt the incumbent EHR layer, and the excitement around new healthcare technologies among clinicians.",
+      "key_takeaway": "Investing in healthcare technology companies that leverage AI to improve clinician workflows and patient experiences, with the potential to disrupt the incumbent EHR systems.",
+      "tickers_mentioned": [
+        ""
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-05",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 39
+    },
+    {
       "id": 52,
       "title": "Mailbag Monday: War, AI, and Deep Value in Bitcoin",
       "source_type": "podcast",
@@ -610,11 +646,11 @@ const dashboardData = {
       "key_takeaway": "Investing in new media requires understanding the shift from traditional media to platforms that prioritize speed, adaptability, and the ability to capture and maintain audience interest.",
       "tickers_mentioned": [],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-01",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-05",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 33
     },
     {
@@ -627,11 +663,11 @@ const dashboardData = {
       "key_takeaway": "Investing in AI-driven education platforms and companies that are reshaping the education sector could be a strategic move, given the increasing demand for reskilling and the need for more efficient learning models.",
       "tickers_mentioned": [],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-01",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-05",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 34
     },
     {
@@ -1444,6 +1480,42 @@ const dashboardData = {
   "mainContent": {
   "insights": [
     {
+      "id": 56,
+      "title": "Monetary Matters: Macro Regimes and Investment Insights",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-03-04",
+      "summary": "In this episode of Monetary Matters, Max Weethy interviews TN Yang, CEO of Variant Perception, to discuss the macro environment and its implications for investment. They delve into the benign macro environment characterized by jobless growth, disinflation, and a synchronized global easing policy. The conversation also touches on the impact of potential energy shocks, the technology race, and the role of gold as a reserve asset. Yang provides insights into less obvious investment opportunities within technology and government consulting, and the strategic allocation to gold and gold miners.",
+      "key_takeaway": "Invest in less obvious areas of technology and government consulting with reasonable valuations, and consider gold and gold miners as a strategic allocation in a world moving towards inflationary policies.",
+      "tickers_mentioned": "[]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-05",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 40,
+      "episode_release_date": "2026-03-04"
+    },
+    {
+      "id": 57,
+      "title": "The Future of Healthcare with AI and Technology",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-03-04",
+      "summary": "The episode discusses the rapid rise in demand for healthcare, the challenges of training doctors fast enough, and the transformation of clinical practice with technology. Michiel Buduma, CEO and co-founder of Ambience Healthcare, shares his journey from academia to entrepreneurship, focusing on leveraging AI to improve healthcare. The conversation highlights the potential for AI to create a new system of record in healthcare, the opportunity to disrupt the incumbent EHR layer, and the excitement around new healthcare technologies among clinicians.",
+      "key_takeaway": "Investing in healthcare technology companies that leverage AI to improve clinician workflows and patient experiences, with the potential to disrupt the incumbent EHR systems.",
+      "tickers_mentioned": "[\"\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-05",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 39,
+      "episode_release_date": "2026-03-04"
+    },
+    {
       "id": 52,
       "title": "Mailbag Monday: War, AI, and Deep Value in Bitcoin",
       "source_type": "podcast",
@@ -1550,42 +1622,6 @@ const dashboardData = {
       "archived_reason": null,
       "podcast_episode_id": 31,
       "episode_release_date": "2026-02-28"
-    },
-    {
-      "id": 50,
-      "title": "The a16z Show: New Media Strategy and Investment Insights",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-02-27",
-      "summary": "In this episode of the a16z Show, Ben and other a16z team members discuss the firm's new media strategy, emphasizing the shift from old media to new media. They highlight the importance of being interesting over being inoffensive, the value of speed over polish, and the need to approach new media with new media thinking. The conversation also touches on the challenges of adapting to the fast-paced nature of new media and the role of platforms like TikTok and Instagram in reaching a global audience.",
-      "key_takeaway": "Investing in new media requires understanding the shift from traditional media to platforms that prioritize speed, adaptability, and the ability to capture and maintain audience interest.",
-      "tickers_mentioned": "[]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-03-01",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 33,
-      "episode_release_date": "2026-02-27"
-    },
-    {
-      "id": 51,
-      "title": "The Future of Education and the Role of AI",
-      "source_type": "podcast",
-      "source_name": "Moonshots with Peter Diamandis",
-      "source_date": "2026-02-25",
-      "summary": "In this episode of 'Moonshots with Peter Diamandis', the focus is on the future of education and the role of AI in reshaping it. The discussion highlights the shortcomings of the current education system, particularly in preparing students for a future dominated by AI and technology. The conversation features McKenzie Price, co-founder and CEO of Alpha Schools, and Joe Lamont, founder and CEO of ESW Capital and Trilogy. They discuss the new education model called Alpha Schools, which is centered around a two-hour learning model, and the potential of AI-driven education. The episode also touches on the necessity for reskilling in the face of rapid AI advancement and the challenges faced in implementing new educational models.",
-      "key_takeaway": "Investing in AI-driven education platforms and companies that are reshaping the education sector could be a strategic move, given the increasing demand for reskilling and the need for more efficient learning models.",
-      "tickers_mentioned": "[]",
-      "sentiment": "bearish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-03-01",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 34,
-      "episode_release_date": "2026-02-25"
     }
   ],
   "definitions": [
@@ -4262,6 +4298,147 @@ const dashboardData = {
     "insight_title": "Moonshots with Peter Diamandis: AI, Exponential Technologies, and the Future of Auditing",
     "source_name": "Moonshots with Peter Diamandis",
     "source_date": "2026-03-02"
+  },
+  "56": {
+    "id": 47,
+    "insight_id": 56,
+    "podcast_episode_id": 40,
+    "overview": "In this episode of Monetary Matters, Max Weethy interviews TN Yang, CEO of Variant Perception, to discuss the macroeconomic regime and its potential shifts due to geopolitical events in the Middle East. The conversation highlights the benign macro environment characterized by jobless growth, disinflationary pressures, and synchronized global easing. The key focus is on how a potential energy shock, similar to the 2022 Ukraine invasion, could impact this regime, particularly for energy importers like Europe and Asia. Understanding these dynamics is crucial for investors as they navigate the current market volatility and position their portfolios accordingly.",
+    "key_takeaways_detailed": [
+      "The current macro environment is benign, supporting risk-on assets, but a prolonged energy shock could disrupt this stability.",
+      "Energy importers like Europe and Asia are more vulnerable to sustained energy price spikes compared to energy exporters like the U.S.",
+      "Investors should monitor the duration of geopolitical conflicts as it significantly influences the impact on energy prices and the macro environment.",
+      "Policy responses, such as strategic petroleum reserve releases, can mitigate the impact of energy shocks on domestic economies.",
+      "Positioning for a potential regime change should consider the diverging economic impacts on energy importers and exporters."
+    ],
+    "investment_thesis": "The core investment thesis revolves around the resilience of the current macro regime to short-term geopolitical shocks and the potential for a prolonged energy shock to disrupt this stability. Investors should focus on the duration of conflicts and the policy responses that could contain energy price spikes. The thesis suggests a short-term tactical positioning in energy-related assets and a medium-term strategic allocation to companies that could benefit from a shift in the terms of trade due to energy price fluctuations.",
+    "ticker_analysis": {
+      "XOM": {
+        "rationale": "Exxon Mobil is a major energy company that could benefit from higher energy prices, especially if the conflict prolongs and energy prices remain elevated.",
+        "positioning": "Long-term strategic position due to the company's strong balance sheet and potential for increased dividends.",
+        "risk": "Rapid resolution of conflicts leading to a drop in energy prices."
+      },
+      "BP": {
+        "rationale": "BP is another energy major that could see increased profits if energy prices remain high, affecting its upstream operations.",
+        "positioning": "Medium-term tactical position to capitalize on potential short-term price volatility.",
+        "risk": "Policy interventions that lead to a rapid decrease in energy prices."
+      },
+      "SPY": {
+        "rationale": "The S&P 500 ETF represents a broad market exposure, allowing investors to hedge against sector-specific risks while still participating in the market.",
+        "positioning": "Strategic long-term holding with tactical adjustments based on geopolitical developments.",
+        "risk": "A prolonged conflict leading to a broader market downturn."
+      },
+      "IEF": {
+        "rationale": "The iShares 7-10 Year Treasury Bond ETF provides a hedge against inflation and market volatility, especially in times of geopolitical uncertainty.",
+        "positioning": "Short-term tactical hedge to protect against market downturns.",
+        "risk": "Unexpected economic data or policy changes that could alter the interest rate environment."
+      },
+      "UNG": {
+        "rationale": "The United States Natural Gas Fund offers exposure to natural gas prices, which could be affected by global energy market dynamics.",
+        "positioning": "Medium-term tactical position to capitalize on potential shifts in energy markets.",
+        "risk": "Technological advancements or alternative energy sources that could disrupt the natural gas market."
+      }
+    },
+    "positioning_guidance": "Investors should consider a balanced portfolio with a mix of energy-related assets and broad market exposure.\u6218\u672f\u6027\u5730\u589e\u52a0\u5bf9\u80fd\u6e90\u76f8\u5173\u8d44\u4ea7\u7684\u914d\u7f6e\uff0c\u540c\u65f6\u4fdd\u6301\u5bf9\u5e02\u573a\u6ce2\u52a8\u7684\u5bf9\u51b2\u3002\u5bf9\u4e8e\u80fd\u6e90\u8fdb\u53e3\u56fd\u7684\u516c\u53f8\uff0c\u53ef\u80fd\u9700\u8981\u51cf\u5c11\u655e\u53e3\uff0c\u800c\u5bf9\u4e8e\u80fd\u6e90\u51fa\u53e3\u56fd\u7684\u516c\u53f8\uff0c\u5219\u53ef\u4ee5\u589e\u52a0\u655e\u53e3\u3002\u8003\u8651\u5230\u51b2\u7a81\u7684\u6301\u7eed\u65f6\u95f4\u548c\u653f\u7b56\u54cd\u5e94\uff0c\u6295\u8d44\u8005\u5e94\u51c6\u5907\u5728\u77ed\u671f\u5185\u8c03\u6574\u5934\u5bf8\uff0c\u5e76\u4e3a\u4e2d\u957f\u671f\u8d8b\u52bf\u505a\u597d\u51c6\u5907\u3002",
+    "risk_factors": [
+      "Rapid resolution of geopolitical conflicts leading to a swift drop in energy prices.",
+      "Unexpected policy responses that could contain energy price spikes more effectively than anticipated.",
+      "Economic data that suggests a stronger or weaker global economy than currently expected, affecting energy demand.",
+      "Technological breakthroughs in energy production or alternative energy sources that could disrupt the market.",
+      "Unexpected changes in central bank policies that could affect the global liquidity environment."
+    ],
+    "contrarian_signals": [
+      "The potential for a swift end to conflicts that could lead to a faster-than-expected decline in energy prices.",
+      "The possibility that energy-exporting countries could increase production to capitalize on higher prices, mitigating the impact on the global market.",
+      "The underestimation of the global economy's resilience to energy price shocks, leading to a less severe impact than anticipated."
+    ],
+    "catalysts": [
+      "Geopolitical developments and the duration of conflicts in the Middle East.",
+      "Policy announcements from central banks regarding interest rates and liquidity measures.",
+      "Economic data releases that could indicate shifts in global growth or inflation.",
+      "Energy market reports on production levels and\u5e93\u5b58 changes.",
+      "Announcements from energy companies regarding new projects or technological advancements."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-03-05T04:01:09.334486",
+    "updated_at": "2026-03-05 10:01:09",
+    "insight_title": "Monetary Matters: Macro Regimes and Investment Insights",
+    "source_name": "Monetary Matters with Jack Farley",
+    "source_date": "2026-03-04"
+  },
+  "57": {
+    "id": 48,
+    "insight_id": 57,
+    "podcast_episode_id": 39,
+    "overview": "The healthcare industry is at the cusp of a technological revolution, driven by advancements in AI and machine learning. The demand for healthcare is rising rapidly, with 10,000 people aging into Medicare daily, creating a pressing need for more efficient care delivery. AI has the potential to transform the clinician's practice, making it more efficient and fulfilling, while improving patient experiences. Ambience Healthcare, founded by Michiel Buduma, is at the forefront of this revolution, leveraging AI to optimize clinical workflows and improve patient outcomes. With over 75% of clinicians using their product daily and one health system projecting $30 million in new margin, Ambience is poised to disrupt the healthcare industry. This deep dive analysis explores the investment implications of this trend and identifies key opportunities for investors.",
+    "key_takeaways_detailed": [
+      "AI and machine learning have the potential to significantly improve healthcare delivery, making it more efficient and patient-centric.",
+      "Ambience Healthcare is a leading player in the clinical AI space, with a proven track record of success and strong partnerships with major academic medical centers.",
+      "The healthcare industry is facing a growing demand for services, creating a pressing need for innovative solutions to optimize care delivery.",
+      "Investing in AI-driven healthcare companies can provide exposure to a rapidly growing market with significant upside potential.",
+      "The success of Ambience Healthcare highlights the importance of understanding the practical challenges of healthcare delivery when developing AI solutions."
+    ],
+    "investment_thesis": "The healthcare industry is undergoing a transformation driven by AI and technology. With the demand for healthcare services rising rapidly, there is a pressing need for more efficient and patient-centric care delivery. Ambience Healthcare is well-positioned to capitalize on this trend, leveraging its AI-driven platform to optimize clinical workflows and improve patient outcomes. As the company continues to expand its partnerships and gain traction in the market, we expect its valuation to increase significantly. The investment thesis is based on the rapid adoption of AI in healthcare, the growing demand for efficient care delivery, and Ambience's strong track record and partnerships. We expect this trend to play out over the medium to long term (3-12 months to >1 year).",
+    "ticker_analysis": {
+      "AMBN": {
+        "rationale": "Ambience Healthcare is a leading player in the clinical AI space and is well-positioned to benefit from the growing demand for AI-driven healthcare solutions.",
+        "positioning": "Long-term strategic position, as the company is expected to grow significantly over the next few years.",
+        "risk": "Key risks include regulatory hurdles, competition from other AI-driven healthcare companies, and potential technological setbacks."
+      },
+      "TDOC": {
+        "rationale": "Teladoc is a leading telehealth company that is increasingly incorporating AI into its platform to improve patient outcomes and optimize care delivery.",
+        "positioning": "Medium-term tactical position, as the company is expected to benefit from the growing demand for telehealth services and AI-driven solutions.",
+        "risk": "Key risks include regulatory challenges, competition from other telehealth providers, and potential technological setbacks."
+      },
+      "PHR": {
+        "rationale": "Phreesia is a leading healthcare IT company that is leveraging AI to optimize patient intake and revenue cycle management.",
+        "positioning": "Medium-term tactical position, as the company is expected to benefit from the growing demand for AI-driven healthcare IT solutions.",
+        "risk": "Key risks include competition from other healthcare IT providers, potential technological setbacks, and regulatory challenges."
+      },
+      "EVH": {
+        "rationale": "Evolent Health is a value-based care enablement company that is increasingly incorporating AI into its platform to improve care delivery and outcomes.",
+        "positioning": "Long-term strategic position, as the company is expected to benefit from the growing demand for value-based care and AI-driven solutions.",
+        "risk": "Key risks include regulatory challenges, competition from other value-based care providers, and potential technological setbacks."
+      },
+      "CERN": {
+        "rationale": "Cerner is a leading healthcare IT company that is leveraging AI to optimize electronic health records and improve care delivery.",
+        "positioning": "Long-term strategic position, as the company is expected to benefit from the growing demand for AI-driven healthcare IT solutions.",
+        "risk": "Key risks include competition from other healthcare IT providers, potential technological setbacks, and regulatory challenges."
+      }
+    },
+    "positioning_guidance": "Investors should consider a long-term strategic position in Ambience Healthcare (AMBN) to capitalize on the growing demand for AI-driven healthcare solutions. Medium-term tactical positions in Teladoc (TDOC), Phreesia (PHR), Evolent Health (EVH), and Cerner (CERN) can provide exposure to the growing demand for AI-driven healthcare IT and telehealth solutions. Investors should size their positions based on their risk tolerance and investment horizon, with a focus on companies with strong partnerships and proven track records. Entry points should be based on technical analysis and market conditions, with a focus on companies with strong growth potential and competitive advantages.",
+    "risk_factors": [
+      "Regulatory hurdles and challenges in the healthcare industry.",
+      "Competition from other AI-driven healthcare companies.",
+      "Potential technological setbacks and challenges in developing and implementing AI solutions.",
+      "Slow adoption of AI-driven solutions by healthcare providers.",
+      "Economic downturns and reduced demand for healthcare services."
+    ],
+    "contrarian_signals": [
+      "Skepticism around the effectiveness of AI in improving healthcare delivery and patient outcomes.",
+      "Concerns around the cost and complexity of implementing AI-driven solutions in healthcare.",
+      "Potential backlash against AI-driven solutions due to privacy and ethical concerns.",
+      "The possibility that AI-driven solutions may not be able to keep up with the rapidly evolving healthcare landscape."
+    ],
+    "catalysts": [
+      "New partnerships and collaborations between Ambience Healthcare and major healthcare providers.",
+      "Positive clinical trial results demonstrating the effectiveness of AI-driven healthcare solutions.",
+      "Regulatory approvals and clearances for AI-driven healthcare products and solutions.",
+      "Increasing demand for telehealth and value-based care, driving the adoption of AI-driven solutions.",
+      "Advancements in AI and machine learning technology, enabling more effective and efficient healthcare solutions."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-03-05T04:01:49.080775",
+    "updated_at": "2026-03-05 10:01:49",
+    "insight_title": "The Future of Healthcare with AI and Technology",
+    "source_name": "The a16z Show",
+    "source_date": "2026-03-04"
   }
 },
   "suggestedTerms": [

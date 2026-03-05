@@ -1,39 +1,18 @@
 {
-  "timestamp": "2026-03-04T21:00:27.043352",
+  "timestamp": "2026-03-05T04:00:05.758382",
   "results": [
-    {
-      "podcast": "Moonshots with Peter Diamandis",
-      "title": "Anthropic vs. The Pentagon, Claude Outpaces ChatGPT, and Consulting Gets Replaced | #234 ",
-      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/DVVTS6368073885.mp3",
-      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/DVVTS6368073885.txt",
-      "success": true
-    },
     {
       "podcast": "Monetary Matters with Jack Farley",
       "title": "Jobless Growth, Euphoria, and a Manufacturing Recovery: How Iran Could Force a Macro Regime Change | Tian Yang",
       "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/EWWMN9964356428.mp3",
-      "transcript_path": null,
-      "success": false
+      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/EWWMN9964356428.txt",
+      "success": true
     },
     {
       "podcast": "The a16z Show",
       "title": "Deploying AI in Healthcare",
       "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_20260304_a3513b51_9365_489a_8ddb_1b8ad40c.mp3",
-      "transcript_path": null,
-      "success": false
-    },
-    {
-      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "title": "Ray Dalio: Our System Is in Jeopardy - Debt, AI & the Cycle That Destroyed Rome",
-      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/Dalio_DF_Ch.mp3",
-      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/Dalio_DF_Ch.txt",
-      "success": true
-    },
-    {
-      "podcast": "The Jack Mallers Show",
-      "title": "War, AI, and Bitcoin In Deep Value",
-      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-2-3%2F419179319-44100-2-34c7171cc2be4.mp3",
-      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-2-3%2F419179319-44100-2-34c7171cc2be4.txt",
+      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/the_a16z_show_20260304_a3513b51_9365_489a_8ddb_1b8ad40c.txt",
       "success": true
     }
   ]

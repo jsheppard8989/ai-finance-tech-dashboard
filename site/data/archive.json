@@ -1,6 +1,42 @@
 {
   "insights": [
     {
+      "id": 56,
+      "title": "Monetary Matters: Macro Regimes and Investment Insights",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-03-04",
+      "summary": "In this episode of Monetary Matters, Max Weethy interviews TN Yang, CEO of Variant Perception, to discuss the macro environment and its implications for investment. They delve into the benign macro environment characterized by jobless growth, disinflation, and a synchronized global easing policy. The conversation also touches on the impact of potential energy shocks, the technology race, and the role of gold as a reserve asset. Yang provides insights into less obvious investment opportunities within technology and government consulting, and the strategic allocation to gold and gold miners.",
+      "key_takeaway": "Invest in less obvious areas of technology and government consulting with reasonable valuations, and consider gold and gold miners as a strategic allocation in a world moving towards inflationary policies.",
+      "tickers_mentioned": [],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-05",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 40
+    },
+    {
+      "id": 57,
+      "title": "The Future of Healthcare with AI and Technology",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-03-04",
+      "summary": "The episode discusses the rapid rise in demand for healthcare, the challenges of training doctors fast enough, and the transformation of clinical practice with technology. Michiel Buduma, CEO and co-founder of Ambience Healthcare, shares his journey from academia to entrepreneurship, focusing on leveraging AI to improve healthcare. The conversation highlights the potential for AI to create a new system of record in healthcare, the opportunity to disrupt the incumbent EHR layer, and the excitement around new healthcare technologies among clinicians.",
+      "key_takeaway": "Investing in healthcare technology companies that leverage AI to improve clinician workflows and patient experiences, with the potential to disrupt the incumbent EHR systems.",
+      "tickers_mentioned": [
+        ""
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-05",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 39
+    },
+    {
       "id": 52,
       "title": "Mailbag Monday: War, AI, and Deep Value in Bitcoin",
       "source_type": "podcast",
@@ -123,11 +159,11 @@
       "key_takeaway": "Investing in new media requires understanding the shift from traditional media to platforms that prioritize speed, adaptability, and the ability to capture and maintain audience interest.",
       "tickers_mentioned": [],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-01",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-05",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 33
     },
     {
@@ -140,11 +176,11 @@
       "key_takeaway": "Investing in AI-driven education platforms and companies that are reshaping the education sector could be a strategic move, given the increasing demand for reskilling and the need for more efficient learning models.",
       "tickers_mentioned": [],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-01",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-05",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 34
     },
     {

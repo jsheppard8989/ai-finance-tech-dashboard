@@ -1,43 +1,8 @@
 {
-  "timestamp": "2026-03-04T21:00:07.505033",
-  "total_audio_files": 4,
-  "approved_for_transcription": 3,
+  "timestamp": "2026-03-05T04:00:03.512220",
+  "total_audio_files": 2,
+  "approved_for_transcription": 1,
   "episodes": [
-    {
-      "podcast": "The Jack Mallers Show",
-      "title": "War, AI, and Bitcoin In Deep Value",
-      "description": "<p>Streaming live Mondays at 6pm ET on The Jack Mallers Show YouTube channel.</p>\n",
-      "audio_url": "https://anchor.fm/s/e29097f4/podcast/play/116312162/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-2-3%2F419179319-44100-2-34c7171cc2be4.mp3",
-      "published": "Tue, 03 Mar 2026 06:48:26 GMT",
-      "published_date": "2026-03-03",
-      "rss_guid": "11992a40-08f2-409b-b3aa-ed7ce3d2b0ed",
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-2-3%2F419179319-44100-2-34c7171cc2be4.mp3",
-      "filename": "https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-2-3%2F419179319-44100-2-34c7171cc2be4.mp3",
-      "relevance_score": 2,
-      "matched_keywords": [
-        "bitcoin",
-        "ai"
-      ],
-      "status": "APPROVED"
-    },
-    {
-      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "title": "Ray Dalio: Our System Is in Jeopardy - Debt, AI & the Cycle That Destroyed Rome",
-      "description": "<p>(0:00) Friedberg Introduces Ray Dalio</p> <p>(1:29) 5 Forces That Will Decide America's Future</p> <p>(7:26) Why Government Reform Is Nearly Impossible</p> <p>(11:19) Gold vs. Bitcoin</p> <p>(28:16) What Economists Got Wrong About Tariffs</p> <p>(41:11) Is America Heading Towards Collapse?</p> <p>Airwallex is a leading global payments and financial platform for modern businesses, offering trusted solutions to manage everything from business account, payments, treasury, and spend management to",
-      "audio_url": "https://dts.podtrac.com/redirect.mp3/traffic.libsyn.com/secure/allinchamathjason/Dalio_DF_Ch.mp3?dest-id=1928300",
-      "published": "Tue, 03 Mar 2026 10:00:00 +0000",
-      "published_date": "2026-03-03",
-      "rss_guid": "7bea282e-50d5-43ea-97f1-01d1b0d2de03",
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/Dalio_DF_Ch.mp3",
-      "filename": "Dalio_DF_Ch.mp3",
-      "relevance_score": 3,
-      "matched_keywords": [
-        "financial",
-        "bitcoin",
-        "ai"
-      ],
-      "status": "APPROVED"
-    },
     {
       "podcast": "The a16z Show",
       "title": "Deploying AI in Healthcare",
@@ -55,19 +20,20 @@
       "status": "SKIPPED (low relevance)"
     },
     {
-      "podcast": "Moonshots with Peter Diamandis",
-      "title": "Anthropic vs. The Pentagon, Claude Outpaces ChatGPT, and Consulting Gets Replaced | #234 ",
-      "description": "\n        <p>The hosts unpack AI's asteroid-like disruption\u2014Anthropic's explosive enterprise growth outpacing OpenAI, Pentagon clashes over safeguards, and agentic revolutions from OpenClaw to meat puppets\u2014urging agile evolution amid sovereign AI summits and trillion-dollar forecasts.</p>\n<p><br></p>\n<p>Get notified once we go live during Abundance360: <a href=\"https://www.abundance360.com/livestream\"><u>https://www.abundance360.com/livestream</u></a>\u00a0</p>\n<p><br></p>\n<p>Get access to metatrends ",
-      "audio_url": "https://traffic.megaphone.fm/DVVTS6368073885.mp3?updated=1772485922",
-      "published": "Mon, 02 Mar 2026 20:58:00 -0000",
-      "published_date": "2026-03-02",
-      "rss_guid": "edb02aca-1672-11f1-b762-f7ac0568d34a",
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/DVVTS6368073885.mp3",
-      "filename": "DVVTS6368073885.mp3",
-      "relevance_score": 2,
+      "podcast": "Monetary Matters with Jack Farley",
+      "title": "Jobless Growth, Euphoria, and a Manufacturing Recovery: How Iran Could Force a Macro Regime Change | Tian Yang",
+      "description": "\n        <p>This episode is brought to you by CAIA.nxt. Learn more about their alternatives education courses for investment advisors and get 10% off with code MMTEN: https://caia.org/content/welcome-monetary-matters-and-other-peoples-money-listeners</p>\n<p><br></p>\n<p>Tian Yang, CEO of quant research platform Variant Perception, joins Monetary Matters to discuss how the benign macro regime might shift in the back half of 2026 should the Iran conflict not produce a prolonged shock. Yang also tou",
+      "audio_url": "https://traffic.megaphone.fm/EWWMN9964356428.mp3",
+      "published": "Wed, 04 Mar 2026 23:51:00 -0000",
+      "published_date": "2026-03-04",
+      "rss_guid": "1198d00a-1825-11f1-93eb-5feef34b537a",
+      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/EWWMN9964356428.mp3",
+      "filename": "EWWMN9964356428.mp3",
+      "relevance_score": 3,
       "matched_keywords": [
+        "invest",
         "ai",
-        "forecast"
+        "research"
       ],
       "status": "APPROVED"
     }
