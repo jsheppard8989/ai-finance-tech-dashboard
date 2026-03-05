@@ -38,5 +38,8 @@ transcripts/*.txt
 # Logs
 *.log
 
+# Pipeline state (lock files, etc.)
+pipeline/state/auto_pipeline.lock
+
 # Local testing
 .github_username
