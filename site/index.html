@@ -1499,8 +1499,8 @@
             </div>
           </div>
 
-          <!-- Contact Section (temporarily hidden until contact backend is configured) -->
-          <div class="card contact-card" style="margin-top: 2rem; display: none;" data-fallback-email="">
+          <!-- Contact Section -->
+          <div class="card contact-card" style="margin-top: 2rem;" data-fallback-email="">
             <h2>📬 Get in Touch</h2>
             <p style="color: #8892b0; margin-bottom: 1.5rem; font-size: 0.95rem;">Want to collaborate, share insights, or just say hello? Drop your contact info and we'll reach out.</p>
 
@@ -2755,17 +2755,18 @@
       btnLoading.style.display = 'inline';
 
       try {
-        // Send to backend API: use CONTACT_API_URL if set; else localhost:8765 for file:// or same-machine; else same-origin /contact
-        const origin = window.location.origin;
-        const isLocal = window.location.protocol === 'file:' || (origin && (origin.includes('localhost') || origin.includes('127.0.0.1')));
+        // Send to Formspree backend (or override via CONTACT_API_URL if set)
+        const defaultUrl = 'https://formspree.io/f/mqeyzgre';
         const apiUrl = (typeof window.CONTACT_API_URL === 'string' && window.CONTACT_API_URL)
           ? window.CONTACT_API_URL
-          : isLocal
-            ? 'http://localhost:8765/contact'
-            : origin + '/contact';
+          : defaultUrl;
+
         const response = await fetch(apiUrl, {
           method: 'POST',
-          headers: {'Content-Type': 'application/json'},
+          headers: {
+            'Content-Type': 'application/json',
+            'Accept': 'application/json'
+          },
           body: JSON.stringify({
             name: name || 'Anonymous',
             contact: contact,
@@ -2791,18 +2792,7 @@
 
       } catch (error) {
         console.error('Form submission error:', error);
-        const card = document.querySelector('.contact-card');
-        const fallbackEmail = (card && card.getAttribute('data-fallback-email')) || '';
-        let msg = 'Couldn\'t send (server may be offline or this page isn\'t connected to the contact API). ';
-        if (fallbackEmail) {
-          const subject = encodeURIComponent('Message from site');
-          const body = encodeURIComponent(
-            (name ? 'Name: ' + name + '\n\n' : '') + 'Contact: ' + contact + '\n\n' + (message || '(No message)')
-          );
-          msg += 'You can <a href="mailto:' + fallbackEmail + '?subject=' + subject + '&body=' + body + '" style="color:#00d4ff;">email us instead</a>.';
-        } else {
-          msg += 'Please try again later or email us directly if you have our address.';
-        }
+        let msg = 'Something went wrong sending your message. Please try again later.';
         const statusDiv = document.getElementById('formStatus');
         statusDiv.innerHTML = msg;
         statusDiv.className = 'form-status error';
