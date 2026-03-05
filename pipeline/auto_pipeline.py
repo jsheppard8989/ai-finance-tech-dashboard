@@ -619,7 +619,8 @@ def export_website():
     archive = db.export_archive_data()
     main_content = db.get_main_page_content()
     deepdives = db.get_all_deep_dive_content()
-    suggested_terms = db.get_suggested_terms_for_website(limit=3)
+    # Top 4 Emerging Terms (Emerging Terms box)
+    suggested_terms = db.get_suggested_terms_for_website(limit=4)
 
     try:
         with open(site_data_dir / 'ticker_scores.json', 'r') as f:

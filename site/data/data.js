@@ -1,8 +1,8 @@
-// Auto-generated - 2026-03-05T12:10:35.183914
+// Auto-generated - 2026-03-05T13:06:52.406063
 // DO NOT EDIT MANUALLY
 
 const dashboardData = {
-  "generatedAt": "2026-03-05T12:10:35.183960",
+  "generatedAt": "2026-03-05T13:06:52.406098",
   "tickerScores": [
   {
     "ticker": "BTC",
@@ -560,14 +560,7 @@ const dashboardData = {
       "source_date": "2026-03-03",
       "summary": "In this episode, Ray Dahlia discusses the great debt cycle, fiscal and monetary policy issues, and their impact on the global economy. He highlights five big forces that intertwine to shape the economic landscape, including debt, domestic gaps, international great power conflict, technology, and acts of nature. Dahlia provides insights into the U.S. government's finances, the challenges of managing interest rates amidst high debt, and the role of technology in shaping the future of economies. He also touches upon the dynamics of Bitcoin and silver in the context of monetary assets.",
       "key_takeaway": "The current high debt levels and fiscal policies pose significant risks to the U.S. economy, requiring careful management of interest rates and a balanced approach to financial prudence and innovation.",
-      "tickers_mentioned": [
-        "TICKER1",
-        "TICKER2",
-        "TICKER3",
-        "TICKER4",
-        "TICKER5",
-        "TICKER6"
-      ],
+      "tickers_mentioned": [],
       "sentiment": "bearish",
       "display_on_main": 1,
       "display_order": 0,
@@ -692,11 +685,7 @@ const dashboardData = {
       "source_date": "2026-02-25",
       "summary": "In this episode of 'Moonshots with Peter Diamandis', the focus is on the future of education and the role of AI in reshaping it. The discussion highlights the shortcomings of the current education system, particularly in preparing students for a future dominated by AI and technology. The conversation features McKenzie Price, co-founder and CEO of Alpha Schools, and Joe Lamont, founder and CEO of ESW Capital and Trilogy. They discuss the new education model called Alpha Schools, which is centered around a two-hour learning model, and the potential of AI-driven education. The episode also touches on the necessity for reskilling in the face of rapid AI advancement and the challenges faced in implementing new educational models.",
       "key_takeaway": "Investing in AI-driven education platforms and companies that are reshaping the education sector could be a strategic move, given the increasing demand for reskilling and the need for more efficient learning models.",
-      "tickers_mentioned": [
-        "TICKER1",
-        "TICKER2",
-        "TICKER3"
-      ],
+      "tickers_mentioned": [],
       "sentiment": "bearish",
       "display_on_main": 0,
       "display_order": 0,
@@ -732,14 +721,7 @@ const dashboardData = {
       "source_date": "2026-02-24",
       "summary": "In this episode of Moonshots with Peter Diamandis, Dr. David Sinclair, a professor at Harvard Medical School and author of 'LifeSpan', discusses the future of age reversal technology, focusing on epigenetic reprogramming, longevity escape velocity, and the role of AI in longevity science. Dr. Sinclair shares his insights on the near-term possibilities of age reversal, how individuals can support and benefit from these advancements, and his personal experience with longevity practices. The conversation also touches on the potential risks and benefits of certain longevity treatments and the importance of exercise and diet in maintaining health.",
       "key_takeaway": "Investment in longevity science and age reversal technologies presents a significant opportunity for individuals seeking to extend their healthspan and lifespan, with potential for high returns on investment in this emerging field.",
-      "tickers_mentioned": [
-        "TICKER1",
-        "TICKER2",
-        "TICKER3",
-        "TICKER4",
-        "TICKER5",
-        "TICKER6"
-      ],
+      "tickers_mentioned": [],
       "sentiment": "bullish",
       "display_on_main": 0,
       "display_order": 0,
@@ -1619,7 +1601,7 @@ const dashboardData = {
       "source_date": "2026-03-03",
       "summary": "In this episode, Ray Dahlia discusses the great debt cycle, fiscal and monetary policy issues, and their impact on the global economy. He highlights five big forces that intertwine to shape the economic landscape, including debt, domestic gaps, international great power conflict, technology, and acts of nature. Dahlia provides insights into the U.S. government's finances, the challenges of managing interest rates amidst high debt, and the role of technology in shaping the future of economies. He also touches upon the dynamics of Bitcoin and silver in the context of monetary assets.",
       "key_takeaway": "The current high debt levels and fiscal policies pose significant risks to the U.S. economy, requiring careful management of interest rates and a balanced approach to financial prudence and innovation.",
-      "tickers_mentioned": "[\"TICKER1\", \"TICKER2\", \"TICKER3\", \"TICKER4\", \"TICKER5\", \"TICKER6\"]",
+      "tickers_mentioned": "[]",
       "sentiment": "bearish",
       "display_on_main": 1,
       "display_order": 0,
@@ -2669,38 +2651,7 @@ const dashboardData = {
       "Diversification within the nuclear sector can help mitigate risks associated with regulatory changes and technological advancements."
     ],
     "investment_thesis": "The investment thesis revolves around the resurgence of nuclear power as a key component of the global energy transition. With SMRs gaining regulatory approval and the need for clean, reliable energy sources increasing, companies involved in the design, construction, and operation of next-generation reactors are well-positioned for growth. The catalysts for this thesis include the acceleration of SMR approvals, increasing global demand for clean energy, and the urgency of addressing climate change. The timeframe for this investment thesis spans from short-term gains in the next 3 months to long-term growth over the next decade.",
-    "ticker_analysis": {
-      "TICKER1": {
-        "rationale": "Terrestrial Energy is a company focused on the development of Integral Molten Salt Reactor (IMSR) technology, which is a type of advanced nuclear reactor. The company's technology is gaining traction, and it has recently signed agreements with several utilities and governments.",
-        "positioning": "Long-term strategic position due to the company's innovative technology and growing partnerships.",
-        "risk": "Regulatory hurdles and delays in project execution could impact the company's growth prospects."
-      },
-      "TICKER2": {
-        "rationale": "NuScale Power is a leader in SMR technology, with its design already approved by the U.S. Nuclear Regulatory Commission. The company is well-positioned to capitalize on the growing demand for SMRs.",
-        "positioning": "Medium-term tactical position as the company is close to commercializing its technology and has a strong pipeline of projects.",
-        "risk": "Competition from other SMR developers and potential changes in regulatory environments could affect the company's market share."
-      },
-      "TICKER3": {
-        "rationale": "GE Hitachi Nuclear Energy is a joint venture between GE and Hitachi, focusing on advanced nuclear technologies, including SMRs. The company's expertise and resources make it a key player in the nuclear renaissance.",
-        "positioning": "Long-term strategic position due to the company's established presence in the nuclear industry and its focus on advanced technologies.",
-        "risk": "Economic downturns and changes in energy policies could impact the demand for new nuclear projects."
-      },
-      "TICKER4": {
-        "rationale": "Westinghouse Electric Company is a global provider of nuclear technology and services, with a strong focus on SMR development. The company's expertise and global reach make it a significant player in the nuclear renaissance.",
-        "positioning": "Medium to long-term strategic position as the company is well-positioned to benefit from the growing demand for SMRs and has a diverse customer base.",
-        "risk": "Geopolitical tensions and changes in energy policies could impact the company's global operations."
-      },
-      "TICKER5": {
-        "rationale": "Orano is a global leader in the nuclear industry, providing fuel cycle services and waste management solutions. The company's services are essential for the operation of nuclear power plants, making it a key beneficiary of the nuclear renaissance.",
-        "positioning": "Long-term strategic position due to the company's essential role in the nuclear fuel cycle and its global presence.",
-        "risk": "Technological advancements in waste management and changes in nuclear regulations could impact the company's competitive position."
-      },
-      "TICKER6": {
-        "rationale": "Framatome is a global leader in nuclear energy, providing advanced technologies and services for the design, construction, and operation of nuclear power plants. The company's expertise and innovation make it a key player in the nuclear renaissance.",
-        "positioning": "Medium to long-term strategic position as the company is well-positioned to benefit from the growing demand for advanced nuclear technologies and services.",
-        "risk": "Economic downturns and changes in energy policies could impact the demand for new nuclear projects and services."
-      }
-    },
+    "ticker_analysis": {},
     "positioning_guidance": "Investors should consider a diversified approach to positioning in the nuclear sector, with a mix of short-term tactical and long-term strategic positions. Entry points should be based on market conditions and individual company performance. The timeframe for investments should align with the expected growth of the nuclear industry, with a focus on the next 3-12 months for tactical positions and a longer-term horizon for strategic positions. Investors may consider hedging against potential risks, such as regulatory changes and economic downturns, by diversifying their holdings across different segments of the nuclear industry.",
     "risk_factors": [
       "Regulatory changes and delays in project approvals could impact the growth prospects of nuclear power infrastructure companies.",
@@ -2881,11 +2832,6 @@ const dashboardData = {
     ],
     "investment_thesis": "The core investment logic is that Bitcoin, despite its properties as a hard asset and a superior form of money, has been trading like a software stock due to market perception and ownership dynamics. The recent market dip suggests a realignment where Bitcoin starts to decouple from software stocks and aligns more with hard assets. This transition could be catalyzed by global economic policies and a shift in capital towards tangible assets. The timeframe for this thesis is medium to long-term, as market perception and capital allocation take time to adjust.",
     "ticker_analysis": {
-      "BTC-USD": {
-        "rationale": "Bitcoin is the primary asset in question, and its price movement is central to the thesis.",
-        "positioning": "Strategic long position, as the thesis suggests a long-term revaluation of Bitcoin as a hard asset.",
-        "risk": "Regulatory changes targeting cryptocurrencies, technological obsolescence, or a failure of Bitcoin's network could pose risks."
-      },
       "GOLD": {
         "rationale": "Gold is traditionally seen as a hard asset and a store of value, making it a comparative benchmark.",
         "positioning": "Tactical long position to hedge against market volatility and as a proxy for hard asset behavior.",
@@ -3041,11 +2987,6 @@ const dashboardData = {
         "rationale": "SLV is an ETF that tracks silver prices, which Berg remains bearish on.",
         "positioning": "Short-term tactical position, as silver prices are expected to decline based on Berg's analysis.",
         "risk": "Key risks include a sudden increase in demand for silver as a safe-haven asset or a shift in market sentiment."
-      },
-      "BTC-USD": {
-        "rationale": "Bitcoin is a digital asset that Berg has discussed in his analysis, although he has not provided a clear stance on its future direction.",
-        "positioning": "Neutral position, as the direction of Bitcoin prices is uncertain based on Berg's analysis.",
-        "risk": "Key risks include regulatory changes, technological advancements, and shifts in market sentiment."
       }
     },
     "positioning_guidance": "Investors should consider a long-term strategic position in broad market indices such as SPY and QQQ, based on Berg's analysis of buy signals. For precious metals, a short-term tactical position in GLD and SLV is suggested, as Berg remains bearish on gold and silver. Investors should also consider a neutral position in Bitcoin, as the direction of its prices is uncertain. Entry points should be based on market trends and individual risk tolerance, with a timeframe of 3-12 months for the broad market indices and a shorter timeframe for precious metals and Bitcoin.",
@@ -3160,38 +3101,7 @@ const dashboardData = {
       "Stay informed about upcoming events and milestones that could move the thesis forward."
     ],
     "investment_thesis": "The departure of co-founders from xAI following its merger with SpaceX raises concerns about the company's stability and leadership. This could impact investor confidence and the company's ability to execute on its ambitious plans. However, the potential for significant returns in the AI industry and the potential synergies from the SpaceX partnership could still make xAI an attractive investment opportunity. Investors should closely monitor these developments and their potential impact on xAI's future prospects. The investment thesis is based on the potential for xAI to overcome these challenges and capitalize on the opportunities presented by the AI industry and its partnership with SpaceX. The catalysts for this thesis include the company's ability to stabilize its leadership, execute on its ambitious plans, and leverage the potential synergies from the SpaceX partnership. The timeframe for this thesis is medium to long-term (3-12 months to >1 year).",
-    "ticker_analysis": {
-      "TICKER1": {
-        "rationale": "Tesla (TSLA) is relevant to this thesis as Elon Musk's flagship company and a key player in the AI and electric vehicle industries.",
-        "positioning": "Position long on TSLA as a strategic investment in the AI and electric vehicle industries, with potential for significant returns in the medium to long term.",
-        "risk": "Key risks for this position include regulatory challenges, competition, and potential disruptions from the xAI leadership changes."
-      },
-      "TICKER2": {
-        "rationale": "SpaceX (not publicly traded) is relevant to this thesis as xAI's partner and a key player in the space industry.",
-        "positioning": "While SpaceX is not publicly traded, investors can position long on companies with exposure to SpaceX, such as L3Harris Technologies (LHX) and Maxar Technologies (MAXR), as tactical investments to capitalize on the potential synergies from the xAI partnership.",
-        "risk": "Key risks for these positions include regulatory challenges, competition, and potential disruptions from the xAI leadership changes."
-      },
-      "TICKER3": {
-        "rationale": "NVIDIA (NVDA) is relevant to this thesis as a key player in the AI industry and a potential competitor to xAI.",
-        "positioning": "Position short on NVDA as a tactical investment to capitalize on potential disruptions to xAI's growth prospects and the potential for increased competition in the AI industry.",
-        "risk": "Key risks for this position include NVIDIA's strong market position, potential for innovation, and potential synergies from its own partnerships."
-      },
-      "TICKER4": {
-        "rationale": "Alphabet (GOOGL) is relevant to this thesis as a key player in the AI industry and a potential competitor to xAI.",
-        "positioning": "Position short on GOOGL as a tactical investment to capitalize on potential disruptions to xAI's growth prospects and the potential for increased competition in the AI industry.",
-        "risk": "Key risks for this position include Alphabet's strong market position, potential for innovation, and potential synergies from its own partnerships."
-      },
-      "TICKER5": {
-        "rationale": "Microsoft (MSFT) is relevant to this thesis as a key player in the AI industry and a potential competitor to xAI.",
-        "positioning": "Position short on MSFT as a tactical investment to capitalize on potential disruptions to xAI's growth prospects and the potential for increased competition in the AI industry.",
-        "risk": "Key risks for this position include Microsoft's strong market position, potential for innovation, and potential synergies from its own partnerships."
-      },
-      "TICKER6": {
-        "rationale": "Amazon (AMZN) is relevant to this thesis as a key player in the AI industry and a potential competitor to xAI.",
-        "positioning": "Position short on AMZN as a tactical investment to capitalize on potential disruptions to xAI's growth prospects and the potential for increased competition in the AI industry.",
-        "risk": "Key risks for this position include Amazon's strong market position, potential for innovation, and potential synergies from its own partnerships."
-      }
-    },
+    "ticker_analysis": {},
     "positioning_guidance": "Investors should position long on Tesla (TSLA) as a strategic investment in the AI and electric vehicle industries, with potential for significant returns in the medium to long term. For companies with exposure to SpaceX, such as L3Harris Technologies (LHX) and Maxar Technologies (MAXR), investors can position long as tactical investments to capitalize on the potential synergies from the xAI partnership. To capitalize on potential disruptions to xAI's growth prospects and increased competition in the AI industry, investors can position short on NVIDIA (NVDA), Alphabet (GOOGL), Microsoft (MSFT), and Amazon (AMZN). Entry points should be based on market conditions and individual risk tolerance, with a timeframe of 3-12 months to >1 year. Investors may consider hedging their positions with options or other derivatives to mitigate potential risks.",
     "risk_factors": [
       "Regulatory challenges and potential disruptions from the xAI leadership changes.",
@@ -3375,38 +3285,7 @@ const dashboardData = {
       "Consider the regulatory environment and potential challenges that xAI may face in implementing its lunar data center plans."
     ],
     "investment_thesis": "xAI's decision to establish deep space data centers on the Moon is a bold move that could significantly accelerate its AI expansion. This initiative has the potential to revolutionize data storage and processing, positioning xAI as a leader in the AI and space technology sectors. The core investment logic is based on xAI's ability to successfully implement its lunar data center plans, which could lead to substantial market share gains and disrupt the AI industry. Key catalysts for this thesis include successful implementation of the lunar data centers, partnerships with key industry players, and positive regulatory developments. The timeframe for this thesis is medium to long-term, as the establishment of lunar data centers is likely to take several years.",
-    "ticker_analysis": {
-      "TICKER1": {
-        "rationale": "SpaceX, Elon Musk's space exploration company, is likely to play a key role in the establishment of xAI's lunar data centers.",
-        "positioning": "Long-term strategic position, as SpaceX's involvement in xAI's lunar data center initiative could lead to significant growth opportunities.",
-        "risk": "Key risks include technical challenges in establishing lunar data centers, regulatory hurdles, and potential delays in the project timeline."
-      },
-      "TICKER2": {
-        "rationale": "NVIDIA, a leading AI chipmaker, could benefit from xAI's lunar data center initiative, as it may require advanced AI hardware for its space-based operations.",
-        "positioning": "Medium-term tactical position, as NVIDIA's AI hardware could be in high demand if xAI's lunar data centers are successfully established.",
-        "risk": "Key risks include competition from other AI chipmakers, potential delays in xAI's lunar data center plans, and fluctuations in the overall AI hardware market."
-      },
-      "TICKER3": {
-        "rationale": "Blue Origin, Jeff Bezos' space exploration company, could be a competitor to SpaceX in the race to establish lunar data centers.",
-        "positioning": "Short-term tactical position, as Blue Origin's progress in establishing lunar data centers could impact xAI's competitive position.",
-        "risk": "Key risks include technical challenges, regulatory hurdles, and potential delays in Blue Origin's lunar data center plans."
-      },
-      "TICKER4": {
-        "rationale": "Amazon Web Services (AWS), a leading cloud computing provider, could be impacted by xAI's lunar data center initiative, as it may disrupt the traditional data storage and processing market.",
-        "positioning": "Long-term strategic position, as AWS's competitive position could be threatened by xAI's space-based data centers.",
-        "risk": "Key risks include AWS's ability to adapt to the changing data storage landscape, potential delays in xAI's lunar data center plans, and competition from other cloud computing providers."
-      },
-      "TICKER5": {
-        "rationale": "Virgin Galactic, Richard Branson's space exploration company, could be a potential partner or competitor to SpaceX in the establishment of lunar data centers.",
-        "positioning": "Medium-term tactical position, as Virgin Galactic's involvement in xAI's lunar data center initiative could lead to growth opportunities or competitive challenges.",
-        "risk": "Key risks include technical challenges, regulatory hurdles, and potential delays in Virgin Galactic's lunar data center plans."
-      },
-      "TICKER6": {
-        "rationale": "Lockheed Martin, a leading aerospace and defense company, could be a potential partner or competitor to SpaceX in the establishment of lunar data centers.",
-        "positioning": "Long-term strategic position, as Lockheed Martin's involvement in xAI's lunar data center initiative could lead to growth opportunities or competitive challenges.",
-        "risk": "Key risks include technical challenges, regulatory hurdles, and potential delays in Lockheed Martin's lunar data center plans."
-      }
-    },
+    "ticker_analysis": {},
     "positioning_guidance": "Investors should consider a diversified approach to positioning in this thesis, with a mix of long-term strategic positions in companies directly involved in xAI's lunar data center initiative (e.g., SpaceX, NVIDIA) and medium-term tactical positions in companies that could be impacted by the initiative (e.g., Blue Origin, Amazon Web Services). Entry points should be based on technical analysis and market sentiment, with a focus on the overall progress of xAI's lunar data center plans. Timeframes for these positions should align with the expected timeline for the establishment of lunar data centers, which is likely to be several years. Investors may also consider hedging their positions with options or other derivatives to mitigate potential risks.",
     "risk_factors": [
       "Technical challenges in establishing lunar data centers, which could lead to delays or failures in the project.",
@@ -3550,11 +3429,6 @@ const dashboardData = {
     ],
     "investment_thesis": "The core investment logic revolves around the potential fallout from the Epstein case, which could lead to increased regulatory scrutiny and impact on financial markets. Catalysts include the ongoing release of files, legal actions against implicated individuals, and potential changes in legislation. The timeframe for this thesis is medium to long-term, as the full implications of the case are likely to unfold over several years. Investors should position themselves to capitalize on potential market disruptions and shifts in regulatory environments.",
     "ticker_analysis": {
-      "BTC-USD": {
-        "rationale": "As the original cryptocurrency, Bitcoin's price could be influenced by the revelation of its early adoption by money launderers and those seeking to evade financial regulations.",
-        "positioning": "Strategic long position, as increased scrutiny on traditional financial systems could drive more interest in decentralized currencies.",
-        "risk": "Regulatory crackdowns on cryptocurrencies could pose a risk to Bitcoin's price."
-      },
       "GS": {
         "rationale": "Goldman Sachs, as a major financial institution, could be indirectly affected by increased regulatory scrutiny stemming from the Epstein case.",
         "positioning": "Tactical short position, as the stock may be vulnerable to negative headlines and potential regulatory changes.",
@@ -3690,11 +3564,6 @@ const dashboardData = {
     ],
     "investment_thesis": "The core investment logic is that AI's disruptive potential will lead to a reevaluation of traditional financial systems, increasing the appeal of decentralized assets like Bitcoin. As AI integration becomes more prevalent, causing potential market instability and job displacement, Bitcoin could be seen as a safe haven. The catalysts for this thesis include increasing AI mentions in earnings calls, the potential for a credit crisis, and the ongoing development of AI technology. The timeframe for this thesis is medium to long-term, as the full impact of AI on the job market and financial systems is likely to unfold over several years.",
     "ticker_analysis": {
-      "BTC-USD": {
-        "rationale": "Bitcoin is the primary decentralized asset that could benefit from a shift away from traditional financial systems due to AI disruption.",
-        "positioning": "Strategic long position, as Bitcoin is expected to act as a hedge against systemic risks and potential market instability.",
-        "risk": "Regulatory crackdown on cryptocurrencies, technological obsolescence of Bitcoin, or a lack of widespread AI disruption."
-      },
       "GOOGL": {
         "rationale": "As a major player in AI development, Google's stock could be impacted by the pace and direction of AI's market penetration.",
         "positioning": "Tactical long position, as the company is well-positioned to benefit from AI advancements, but with a close eye on market volatility.",
@@ -3760,38 +3629,7 @@ const dashboardData = {
       "Keep an eye on companies involved in longevity science, as they may offer significant growth opportunities in the coming years."
     ],
     "investment_thesis": "The core investment logic is based on the transformative potential of age reversal technology on healthcare and society. As scientific advancements lead to practical applications, there will be a catalyst for investment in companies at the forefront of this field. The timeframe for significant returns is medium to long-term, as the technology moves from lab to market. However, early adopters and investors in this space could reap substantial rewards as the market matures and treatments become mainstream.",
-    "ticker_analysis": {
-      "TICKER1": {
-        "rationale": "This biotech company is at the forefront of epigenetic research and has a pipeline of potential age reversal therapies.",
-        "positioning": "Long-term strategic position, as the company is expected to benefit from the commercialization of age reversal treatments.",
-        "risk": "Clinical trial failures and regulatory hurdles could delay or prevent the company from bringing its therapies to market."
-      },
-      "TICKER2": {
-        "rationale": "A pharmaceutical giant with a division dedicated to longevity and age management, offering diversification and potential for significant returns.",
-        "positioning": "Medium-term tactical position, as the company's established presence could lead to faster market penetration.",
-        "risk": "The company's broad portfolio may dilute the impact of age reversal successes among other business segments."
-      },
-      "TICKER3": {
-        "rationale": "A tech company specializing in AI and its application in drug discovery, which could accelerate the development of age reversal treatments.",
-        "positioning": "Short to medium-term tactical position, as the company's AI technology could provide a competitive edge in the race for age reversal therapies.",
-        "risk": "High competition in the AI space and the possibility that AI advancements may not translate into successful age reversal treatments."
-      },
-      "TICKER4": {
-        "rationale": "A healthcare services provider that could benefit from the increased demand for age reversal treatments and related services.",
-        "positioning": "Long-term strategic position, as the company is well-positioned to offer complementary services to age reversal therapy patients.",
-        "risk": "The company may face increased competition as the market for age reversal services expands."
-      },
-      "TICKER5": {
-        "rationale": "A venture capital firm with a focus on investing in longevity and biotechnology startups, offering exposure to the age reversal space through a diversified portfolio.",
-        "positioning": "Medium to long-term strategic position, as the firm's investments could yield high returns if any of its portfolio companies succeed.",
-        "risk": "The high-risk nature of venture capital investments means that not all portfolio companies will be successful."
-      },
-      "TICKER6": {
-        "rationale": "A supplier of materials and components used in gene therapy and biotechnology research, benefiting from the increased demand in the age reversal space.",
-        "positioning": "Short to medium-term tactical position, as the company could see immediate gains from the current surge in research and development.",
-        "risk": "Fluctuations in research and development spending by pharmaceutical and biotech companies could impact the company's revenue."
-      }
-    },
+    "ticker_analysis": {},
     "positioning_guidance": "Investors should consider a balanced portfolio with a mix of long-term strategic positions in companies directly involved in age reversal research and development, as well as short to medium-term tactical positions in companies that provide enabling technologies or services. Entry points should be considered in the context of clinical trial results and regulatory milestones. Diversification across different stages of the value chain can help mitigate risks.",
     "risk_factors": [
       "Failure of clinical trials for age reversal therapies could significantly impact investment returns.",
@@ -4046,23 +3884,7 @@ const dashboardData = {
       "The potential for international expansion of successful AI-driven education models presents a significant growth opportunity."
     ],
     "investment_thesis": "The core investment logic is that AI-driven education platforms will disrupt the traditional education model by offering more efficient and effective learning experiences. This is supported by the increasing demand for reskilling, the failure of traditional models to prepare students for the modern workforce, and the proven success of platforms like Alpha Schools in delivering superior academic results in less time. Catalysts for this thesis include technological advancements in AI, changes in education policy, and the growing recognition of the inadequacy of traditional education methods. The timeframe for this thesis is medium to long-term, as the adoption of new education models may take time but is likely to accelerate as the benefits become more apparent.",
-    "ticker_analysis": {
-      "TICKER1": {
-        "rationale": "XYZ Corp is a leading provider of AI-driven education solutions and has a strong pipeline of products aimed at improving educational outcomes.",
-        "positioning": "Long-term strategic position, as the company is well-positioned to benefit from the shift towards AI in education.",
-        "risk": "Regulatory changes in the education sector could impact the company's growth prospects."
-      },
-      "TICKER2": {
-        "rationale": "ABC EduTech is a company that specializes in developing AI-based platforms for personalized learning, aligning with the trend towards individualized education.",
-        "positioning": "Medium-term tactical position, as the company's products are gaining traction in the market and could see increased adoption in the next 1-2 years.",
-        "risk": "The company's success is heavily dependent on the continued acceptance and integration of AI in education by schools and institutions."
-      },
-      "TICKER3": {
-        "rationale": "DEF Learning is a smaller cap company that has developed innovative AI tools for early childhood education, potentially capturing the market at a critical stage of learning development.",
-        "positioning": "Long-term strategic position, with a focus on growth as the company expands its offerings and footprint.",
-        "risk": "The company's small size and newness to the market present risks related to scalability and market acceptance."
-      }
-    },
+    "ticker_analysis": {},
     "positioning_guidance": "Investors should consider a diversified approach to portfolio positioning in the edtech sector, with a mix of established players and innovative startups. Entry points should be considered in relation to the company's growth prospects and the overall market sentiment towards AI in education. Timeframes for investments should align with the expected adoption curve of AI in education, with a focus on medium to long-term growth. Hedges may include investments in traditional education companies that are actively adapting to the AI-driven education trend.",
     "risk_factors": [
       "Slow adoption of AI in education by schools and institutions due to resistance to change or lack of resources.",
@@ -4107,21 +3929,6 @@ const dashboardData = {
     ],
     "investment_thesis": "The core investment thesis is that Bitcoin, as a decentralized asset, offers a hedge against the fragility of traditional financial systems and geopolitical risks. With the current tensions in the Middle East and the potential for further escalation, Bitcoin's value proposition as an uncorrelated asset is reinforced. The catalysts for this thesis include ongoing geopolitical events, market volatility, and the increasing adoption of Bitcoin as a store of value. The timeframe for this thesis is medium to long-term, as the resolution of geopolitical tensions and the maturation of Bitcoin's market will likely play out over several months to years.",
     "ticker_analysis": {
-      "BTC-USD": {
-        "rationale": "Bitcoin is the primary decentralized asset that can act as a hedge against geopolitical risks and market volatility.",
-        "positioning": "Long-term strategic position, with potential for tactical adjustments based on market volatility.",
-        "risk": "Regulatory crackdowns on cryptocurrencies, technological failures, or a sudden resolution of geopolitical tensions could negatively impact Bitcoin's price."
-      },
-      "ETH-USD": {
-        "rationale": "Ethereum, as a platform for decentralized finance (DeFi), can benefit from the increased interest in decentralized systems.",
-        "positioning": "Medium-term strategic position, with potential for short-term tactical plays based on DeFi developments.",
-        "risk": "Ethereum's transition to Ethereum 2.0 could face technical hurdles, and competition from other blockchain platforms is a risk."
-      },
-      "XAU-USD": {
-        "rationale": "Gold is a traditional safe-haven asset that often moves in tandem with geopolitical risks, providing a comparative analysis to Bitcoin.",
-        "positioning": "Short to medium-term tactical position to gauge market sentiment and as a diversification strategy.",
-        "risk": "A deceleration in inflationary pressures or a resolution of geopolitical tensions could reduce demand for gold."
-      },
       "USO": {
         "rationale": "The United States Oil Fund provides exposure to the oil market, which is directly impacted by Middle East tensions.",
         "positioning": "Short-term tactical position to capitalize on or hedge against oil price volatility.",
@@ -4175,38 +3982,7 @@ const dashboardData = {
       "Investors should monitor the actions of the U.S. government and global buyers of U.S. debt closely, as these will be key indicators of the health of the debt cycle and potential risks."
     ],
     "investment_thesis": "The core investment logic is centered around the unsustainable nature of the current debt cycle and its potential impact on the global economy. Catalysts for change could include significant policy shifts aimed at reducing the deficit, technological advancements that disrupt traditional financial systems, or geopolitical events that alter the balance of power. The timeframe for this thesis is medium to long term, as the resolution of the debt cycle will likely take years to play out, with significant implications for asset classes such as government bonds, equities, and currencies.",
-    "ticker_analysis": {
-      "TICKER1": {
-        "rationale": "As a major player in the financial sector, JPMorgan (JPM) is directly impacted by the health of the U.S. economy and the stability of the debt cycle.",
-        "positioning": "Long-term strategic position, as the stability of the financial sector is crucial for economic health.",
-        "risk": "Key risks include economic downturns due to the unsustainable debt cycle and potential regulatory changes that could impact profitability."
-      },
-      "TICKER2": {
-        "rationale": "Apple (AAPL) is a global technology leader, and its performance can be indicative of the broader impact of technology on economic cycles.",
-        "positioning": "Medium-term tactical position, as technology companies may benefit from the shift towards digital solutions in a debt-ridden economy.",
-        "risk": "The risk of increased competition, regulatory scrutiny, and potential economic slowdowns that could reduce consumer spending on technology products."
-      },
-      "TICKER3": {
-        "rationale": "The iShares U.S. Treasury Bond ETF (GOVT) provides exposure to U.S. government debt, which is at the center of the current debt cycle.",
-        "positioning": "Short-term tactical position, as the ETF could be volatile in response to changes in interest rates and fiscal policies.",
-        "risk": "Key risks include rising interest rates, which could decrease the value of existing bonds, and potential credit rating downgrades for U.S. debt."
-      },
-      "TICKER4": {
-        "rationale": "The Vanguard FTSE Developed Markets ETF (VEA) offers exposure to a broad range of international equities, which can be affected by the global implications of the U.S. debt cycle.",
-        "positioning": "Long-term strategic position, as diversification across developed markets can help mitigate risks associated with the U.S. debt cycle.",
-        "risk": "The risk of geopolitical conflicts, currency fluctuations, and changes in global economic policies that could impact international equities."
-      },
-      "TICKER5": {
-        "rationale": "The Invesco QQQ Trust (QQQ) tracks the NASDAQ-100 Index, which includes many technology and innovation companies that could be disruptors in the financial sector.",
-        "positioning": "Medium-term tactical position, as these companies may offer solutions to the challenges posed by the debt cycle.",
-        "risk": "The risk of market volatility, technological obsolescence, and potential regulatory hurdles that could impact the performance of these innovative companies."
-      },
-      "TICKER6": {
-        "rationale": "The SPDR Gold Shares (GLD) provides exposure to gold, which is often seen as a safe-haven asset during times of economic uncertainty.",
-        "positioning": "Short to medium-term tactical position, as gold can offer protection against inflation and currency devaluation risks associated with high debt levels.",
-        "risk": "Key risks include changes in inflation expectations, shifts in investor sentiment towards riskier assets, and potential changes in monetary policy that could impact gold prices."
-      }
-    },
+    "ticker_analysis": {},
     "positioning_guidance": "Investors should consider a balanced portfolio with a mix of long-term strategic positions in stable sectors like financials and technology, as well as short to medium-term tactical positions in assets that can offer protection or benefit from the current debt cycle. Entry points should be carefully considered, with an eye on economic indicators, policy changes, and global events. Investors should also consider hedging strategies, such as holding gold or other safe-haven assets, to protect against potential economic downturns.",
     "risk_factors": [
       "A sudden increase in interest rates could lead to a rapid increase in debt service costs, exacerbating the debt cycle.",

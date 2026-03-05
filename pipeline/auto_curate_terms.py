@@ -12,11 +12,15 @@ from datetime import datetime, timedelta
 
 sys.path.insert(0, str(Path(__file__).parent))
 from db_manager import get_db
+from manage_suggested_terms import SuggestedTermsManager
 
 # Auto-promotion criteria
 MIN_RELEVANCE_AUTO = 70  # Auto-promote if relevance >= 70
 MIN_SOURCES_AUTO = 2     # And mentioned in 2+ different sources
 MIN_MENTIONS_AUTO = 3    # And mentioned 3+ times total
+# Hard threshold: if a term is mentioned this many times across podcasts/newsletters,
+# it should always be promoted into Digital Definitions.
+PROMOTE_MENTIONS_THRESHOLD = 6
 
 # Manual review criteria (borderline)
 MIN_RELEVANCE_REVIEW = 40  # Flag for review if relevance >= 40 but < 70
@@ -31,7 +35,11 @@ def analyze_term_quality(term_data):
     sources = term_data.get('source_diversity', 0) or 0
     mentions = term_data.get('mention_count', 0) or 0
     
-    # High quality = auto-promote
+    # Hard rule: once a term has been mentioned enough times, always promote it.
+    if mentions >= PROMOTE_MENTIONS_THRESHOLD:
+        return 'auto_promote'
+    
+    # Otherwise, use relevance + source diversity rules for early promotion
     if relevance >= MIN_RELEVANCE_AUTO and sources >= MIN_SOURCES_AUTO and mentions >= MIN_MENTIONS_AUTO:
         return 'auto_promote'
     
@@ -100,6 +108,14 @@ def main():
     print("="*60)
     print("Auto-Curating Suggested Terms")
     print("="*60)
+    
+    # First, scan recent content so mention counts and candidates stay fresh
+    try:
+        manager = SuggestedTermsManager()
+        new_found = manager.scan_content_for_terms()
+        print(f"\nFound {new_found} new potential terms from recent content.")
+    except Exception as e:
+        print(f"\n⚠ Could not scan content for new terms: {e}")
     
     db = get_db()
     

@@ -17,6 +17,7 @@ To run for specific insights only:
 
 import sys
 import json
+import re
 import sqlite3
 import argparse
 from pathlib import Path
@@ -28,6 +29,19 @@ sys.path.insert(0, str(Path(__file__).parent))
 DB_PATH = Path.home() / ".openclaw/workspace/pipeline/dashboard.db"
 INBOX_DIR = Path.home() / ".openclaw/workspace/pipeline/inbox"
 TRANSCRIPT_DIR = Path.home() / ".openclaw/workspace/pipeline/transcripts"
+
+
+def sanitize_ticker_analysis(ticker_analysis: dict) -> dict:
+    """Remove placeholder keys (TICKER1, Ticker2, etc.) so only real symbols are stored."""
+    if not ticker_analysis or not isinstance(ticker_analysis, dict):
+        return ticker_analysis or {}
+    placeholder_pattern = re.compile(r"^TICKER\d+$", re.IGNORECASE)
+    # Real tickers are typically 1-5 uppercase letters (e.g. AAPL, NVDA, SPY, BRK.A)
+    valid_pattern = re.compile(r"^[A-Z]{1,5}(\.[A-Z])?$")
+    return {
+        k: v for k, v in ticker_analysis.items()
+        if not placeholder_pattern.match(k) and valid_pattern.match(k.strip())
+    }
 
 
 def get_db_connection():
@@ -151,12 +165,12 @@ Generate a comprehensive Deep Dive analysis in JSON format with these fields:
   "investment_thesis": "1-2 paragraph detailed thesis explaining the core investment logic, catalysts, and timeframe",
   
   "ticker_analysis": {{
-    "TICKER1": {{
+    "AAPL": {{
       "rationale": "Why this ticker is relevant to this thesis",
       "positioning": "How to position (long/short, tactical vs strategic)",
       "risk": "Key risks for this specific position"
     }},
-    "TICKER2": {{...}}
+    "NVDA": {{...}}
   }},
   
   "positioning_guidance": "Specific guidance on portfolio positioning: sizing, entry points, timeframes, hedges",
@@ -176,7 +190,7 @@ Generate a comprehensive Deep Dive analysis in JSON format with these fields:
 
 Requirements:
 - Be specific and actionable - no generic fluff
-- Include 3-6 tickers with detailed analysis
+- Include 3-6 tickers with detailed analysis. Use REAL ticker symbols as keys (e.g. AAPL, NVDA, SPY, TSLA). Extract tickers mentioned in the source material. NEVER use placeholder keys like TICKER1, TICKER2, or company names without a ticker symbol.
 - Focus on investment implications, not just news summary
 - Timeframe should be explicit (short-term: <3mo, medium: 3-12mo, long: >1yr)
 - Contrarian signals should show sophisticated understanding of risks
@@ -216,6 +230,13 @@ def store_deep_dive(insight_id: int, episode_id: int, content: dict) -> bool:
     conn = get_db_connection()
     
     try:
+        # Sanitize ticker_analysis: drop placeholder keys (TICKER1, Ticker2, etc.)
+        raw_tickers = content.get('ticker_analysis') or {}
+        ticker_analysis = sanitize_ticker_analysis(raw_tickers)
+        if len(ticker_analysis) < len(raw_tickers):
+            # Avoid overwriting with empty if AI returned only placeholders
+            content = {**content, 'ticker_analysis': ticker_analysis}
+        
         conn.execute("""
             INSERT INTO deep_dive_content (
                 insight_id, podcast_episode_id, overview, key_takeaways_detailed,
@@ -260,6 +281,52 @@ def store_deep_dive(insight_id: int, episode_id: int, content: dict) -> bool:
         return False
     finally:
         conn.close()
+
+
+def clean_placeholder_tickers_in_db():
+    """One-time fix: remove TICKER1/Ticker2-style keys from deep_dive_content and latest_insights."""
+    conn = get_db_connection()
+    updated_ddc = 0
+    updated_li = 0
+    try:
+        cursor = conn.execute(
+            "SELECT id, insight_id, ticker_analysis FROM deep_dive_content WHERE ticker_analysis != '' AND ticker_analysis IS NOT NULL"
+        )
+        for row in cursor:
+            try:
+                data = json.loads(row['ticker_analysis'])
+            except (json.JSONDecodeError, TypeError):
+                continue
+            cleaned = sanitize_ticker_analysis(data)
+            if len(cleaned) != len(data):
+                conn.execute(
+                    "UPDATE deep_dive_content SET ticker_analysis = ? WHERE id = ?",
+                    (json.dumps(cleaned), row['id'])
+                )
+                updated_ddc += 1
+                # Update latest_insights.tickers_mentioned for this insight if it had placeholders
+                cur = conn.execute(
+                    "SELECT tickers_mentioned FROM latest_insights WHERE id = ?",
+                    (row['insight_id'],)
+                )
+                li_row = cur.fetchone()
+                if li_row and li_row['tickers_mentioned']:
+                    try:
+                        mentioned = json.loads(li_row['tickers_mentioned'])
+                        if mentioned and any(re.match(r"^TICKER\d+$", str(t), re.IGNORECASE) for t in mentioned):
+                            new_mentioned = [t for t in mentioned if not re.match(r"^TICKER\d+$", str(t), re.IGNORECASE)]
+                            conn.execute(
+                                "UPDATE latest_insights SET tickers_mentioned = ? WHERE id = ?",
+                                (json.dumps(new_mentioned), row['insight_id'])
+                            )
+                            updated_li += 1
+                    except (json.JSONDecodeError, TypeError):
+                        pass
+        conn.commit()
+        print(f"Cleaned placeholder tickers: {updated_ddc} deep_dive_content rows, {updated_li} latest_insights rows.", flush=True)
+    finally:
+        conn.close()
+    return updated_ddc + updated_li
 
 
 def generate_missing_deepdives(insight_ids: list = None):
@@ -338,7 +405,12 @@ def generate_missing_deepdives(insight_ids: list = None):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Generate Deep Dive content for insights')
     parser.add_argument('--insight-ids', type=str, help='Comma-separated list of insight IDs to process')
+    parser.add_argument('--fix-placeholder-tickers', action='store_true', help='One-time: remove TICKER1/Ticker2 etc. from existing DB rows')
     args = parser.parse_args()
+    
+    if args.fix_placeholder_tickers:
+        clean_placeholder_tickers_in_db()
+        sys.exit(0)
     
     insight_ids = None
     if args.insight_ids:

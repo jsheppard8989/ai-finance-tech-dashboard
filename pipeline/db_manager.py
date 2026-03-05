@@ -543,8 +543,8 @@ class DashboardDB:
     
     # === Suggested Terms ===
     
-    def get_suggested_terms_for_website(self, limit: int = 1) -> List[Dict]:
-        """Get top suggested terms to display on website."""
+    def get_suggested_terms_for_website(self, limit: int = 4) -> List[Dict]:
+        """Get top suggested terms to display on website (Emerging Terms box)."""
         with self._get_connection() as conn:
             cursor = conn.execute("""
                 SELECT * FROM v_priority_suggestions

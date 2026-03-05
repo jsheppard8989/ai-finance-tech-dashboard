@@ -47,7 +47,8 @@ def generate_website_js():
     print(f"DEBUG: ID counts: {dict(counts)}")
     main_content = db.get_main_page_content()
     deepdives = db.get_all_deep_dive_content()
-    suggested_terms = db.get_suggested_terms_for_website(limit=3)
+    # Top 4 Emerging Terms for the website
+    suggested_terms = db.get_suggested_terms_for_website(limit=4)
     
     # Load ticker scores
     try:
