@@ -1,8 +1,8 @@
-// Auto-generated - 2026-03-05T13:06:52.406063
+// Auto-generated - 2026-03-07T04:01:23.703992
 // DO NOT EDIT MANUALLY
 
 const dashboardData = {
-  "generatedAt": "2026-03-05T13:06:52.406098",
+  "generatedAt": "2026-03-07T04:01:23.704042",
   "tickerScores": [
   {
     "ticker": "BTC",
@@ -20,13 +20,28 @@ const dashboardData = {
     "contexts": []
   },
   {
+    "ticker": "GOOGL",
+    "total_score": 241.0,
+    "raw_mention_count": 13,
+    "unique_sources": 2,
+    "podcast_mentions": 3,
+    "newsletter_mentions": 10,
+    "rank": 2,
+    "score": 241.0,
+    "mentions": 13,
+    "conviction_level": "medium",
+    "contrarian_signal": "neutral",
+    "timeframe": "long_term",
+    "contexts": []
+  },
+  {
     "ticker": "NVDA",
     "total_score": 208.0,
     "raw_mention_count": 7,
     "unique_sources": 2,
     "podcast_mentions": 3,
     "newsletter_mentions": 4,
-    "rank": 2,
+    "rank": 3,
     "score": 208.0,
     "mentions": 7,
     "conviction_level": "medium",
@@ -41,24 +56,9 @@ const dashboardData = {
     "unique_sources": 2,
     "podcast_mentions": 2,
     "newsletter_mentions": 8,
-    "rank": 3,
+    "rank": 4,
     "score": 202.0,
     "mentions": 10,
-    "conviction_level": "medium",
-    "contrarian_signal": "neutral",
-    "timeframe": "long_term",
-    "contexts": []
-  },
-  {
-    "ticker": "GOOGL",
-    "total_score": 175.0,
-    "raw_mention_count": 12,
-    "unique_sources": 2,
-    "podcast_mentions": 2,
-    "newsletter_mentions": 10,
-    "rank": 4,
-    "score": 175.0,
-    "mentions": 12,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
     "timeframe": "long_term",
@@ -215,14 +215,14 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "EMAX",
-    "total_score": 70.0,
+    "ticker": "ZEN",
+    "total_score": 72.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
     "rank": 15,
-    "score": 70.0,
+    "score": 72.0,
     "mentions": 1,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
@@ -230,7 +230,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "NOW",
+    "ticker": "ARBOB GASOLINE",
     "total_score": 70.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -245,13 +245,58 @@ const dashboardData = {
     "contexts": []
   },
   {
+    "ticker": "EMAX",
+    "total_score": 70.0,
+    "raw_mention_count": 1,
+    "unique_sources": 1,
+    "podcast_mentions": 1,
+    "newsletter_mentions": 0,
+    "rank": 17,
+    "score": 70.0,
+    "mentions": 1,
+    "conviction_level": "medium",
+    "contrarian_signal": "neutral",
+    "timeframe": "long_term",
+    "contexts": []
+  },
+  {
+    "ticker": "NOW",
+    "total_score": 70.0,
+    "raw_mention_count": 1,
+    "unique_sources": 1,
+    "podcast_mentions": 1,
+    "newsletter_mentions": 0,
+    "rank": 18,
+    "score": 70.0,
+    "mentions": 1,
+    "conviction_level": "medium",
+    "contrarian_signal": "neutral",
+    "timeframe": "long_term",
+    "contexts": []
+  },
+  {
+    "ticker": "WTI",
+    "total_score": 70.0,
+    "raw_mention_count": 1,
+    "unique_sources": 1,
+    "podcast_mentions": 1,
+    "newsletter_mentions": 0,
+    "rank": 19,
+    "score": 70.0,
+    "mentions": 1,
+    "conviction_level": "medium",
+    "contrarian_signal": "neutral",
+    "timeframe": "long_term",
+    "contexts": []
+  },
+  {
     "ticker": "CRM",
     "total_score": 68.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 17,
+    "rank": 20,
     "score": 68.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -266,7 +311,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 18,
+    "rank": 21,
     "score": 68.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -281,7 +326,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 19,
+    "rank": 22,
     "score": 66.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -296,8 +341,23 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 20,
+    "rank": 23,
     "score": 66.0,
+    "mentions": 1,
+    "conviction_level": "medium",
+    "contrarian_signal": "neutral",
+    "timeframe": "long_term",
+    "contexts": []
+  },
+  {
+    "ticker": "COPPER",
+    "total_score": 64.0,
+    "raw_mention_count": 1,
+    "unique_sources": 1,
+    "podcast_mentions": 1,
+    "newsletter_mentions": 0,
+    "rank": 24,
+    "score": 64.0,
     "mentions": 1,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
@@ -311,7 +371,37 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 21,
+    "rank": 25,
+    "score": 64.0,
+    "mentions": 1,
+    "conviction_level": "medium",
+    "contrarian_signal": "neutral",
+    "timeframe": "long_term",
+    "contexts": []
+  },
+  {
+    "ticker": "GOLD",
+    "total_score": 64.0,
+    "raw_mention_count": 1,
+    "unique_sources": 1,
+    "podcast_mentions": 1,
+    "newsletter_mentions": 0,
+    "rank": 26,
+    "score": 64.0,
+    "mentions": 1,
+    "conviction_level": "medium",
+    "contrarian_signal": "neutral",
+    "timeframe": "long_term",
+    "contexts": []
+  },
+  {
+    "ticker": "GOOG",
+    "total_score": 64.0,
+    "raw_mention_count": 1,
+    "unique_sources": 1,
+    "podcast_mentions": 1,
+    "newsletter_mentions": 0,
+    "rank": 27,
     "score": 64.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -326,7 +416,52 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 22,
+    "rank": 28,
+    "score": 64.0,
+    "mentions": 1,
+    "conviction_level": "medium",
+    "contrarian_signal": "neutral",
+    "timeframe": "long_term",
+    "contexts": []
+  },
+  {
+    "ticker": "S&P 500",
+    "total_score": 64.0,
+    "raw_mention_count": 1,
+    "unique_sources": 1,
+    "podcast_mentions": 1,
+    "newsletter_mentions": 0,
+    "rank": 29,
+    "score": 64.0,
+    "mentions": 1,
+    "conviction_level": "medium",
+    "contrarian_signal": "neutral",
+    "timeframe": "long_term",
+    "contexts": []
+  },
+  {
+    "ticker": "SF",
+    "total_score": 64.0,
+    "raw_mention_count": 1,
+    "unique_sources": 1,
+    "podcast_mentions": 1,
+    "newsletter_mentions": 0,
+    "rank": 30,
+    "score": 64.0,
+    "mentions": 1,
+    "conviction_level": "medium",
+    "contrarian_signal": "neutral",
+    "timeframe": "long_term",
+    "contexts": []
+  },
+  {
+    "ticker": "URANIUM",
+    "total_score": 64.0,
+    "raw_mention_count": 1,
+    "unique_sources": 1,
+    "podcast_mentions": 1,
+    "newsletter_mentions": 0,
+    "rank": 31,
     "score": 64.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -341,7 +476,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 23,
+    "rank": 32,
     "score": 60.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -356,7 +491,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 24,
+    "rank": 33,
     "score": 60.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -371,7 +506,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 25,
+    "rank": 34,
     "score": 48.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -386,7 +521,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 0,
     "newsletter_mentions": 6,
-    "rank": 26,
+    "rank": 35,
     "score": 45.0,
     "mentions": 6,
     "conviction_level": "medium",
@@ -401,7 +536,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 27,
+    "rank": 36,
     "score": 40.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -416,7 +551,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 28,
+    "rank": 37,
     "score": 32.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -431,7 +566,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 29,
+    "rank": 38,
     "score": 24.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -446,7 +581,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 30,
+    "rank": 39,
     "score": 20.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -461,7 +596,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 31,
+    "rank": 40,
     "score": 20.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -476,7 +611,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 32,
+    "rank": 41,
     "score": 16.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -487,6 +622,138 @@ const dashboardData = {
 ],
   "archive": {
   "insights": [
+    {
+      "id": 62,
+      "title": "Emergency Podcast: US-Iran Conflict and its Impact on Global Markets",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-03-06",
+      "summary": "In this emergency podcast, the hosts discuss the recent US and Israel joint attack on Iran, Operation Epic Fury, and its implications on global markets, energy prices, and insurance industries. They also touch upon the potential for a new insurance industry in the US, the cancellation of a $200 million contract with Anduril, and the strategic importance of DARPA's work in technology and defense. The conversation also briefly explores the threat posed by China's military build-up and the need for the US to remain competitive.",
+      "key_takeaway": "The podcast suggests that the conflict in Iran could lead to new investment opportunities in the insurance sector and underscores the importance of defense and technology investments in the face of global threats.",
+      "tickers_mentioned": [
+        "AAPL",
+        "NVDA",
+        "SPY",
+        "TSLA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-06",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 45
+    },
+    {
+      "id": 63,
+      "title": "The AI Transformation of Software and SaaS Landscape",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-03-06",
+      "summary": "The podcast discusses the transformative impact of AI on software and the SaaS industry. It explores how AI is changing the way software works, from simple data storage to performing tasks autonomously. The conversation also touches on the 'SaaS apocalypse', discussing the varying impacts on different SaaS companies and how some may actually benefit from AI advancements. The episode further delves into the challenges of software pricing and the shift towards more efficient and collaborative software systems.",
+      "key_takeaway": "Investment in AI-driven software and SaaS companies that can leverage AI to enhance efficiency and value proposition, while being cautious of those that may be disrupted by these technological shifts.",
+      "tickers_mentioned": [
+        "WORK",
+        "ZEN",
+        "SF"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-07",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 46
+    },
+    {
+      "id": 58,
+      "title": "The Future of Advanced Nuclear Energy and its Impact on Markets",
+      "source_type": "podcast",
+      "source_name": "Macro Voices",
+      "source_date": "2026-03-05",
+      "summary": "This episode of Macro Voices features an in-depth discussion on the future of nuclear energy, with a focus on the need for revolutionary changes in the industry. Hosts Eric Townsend and Patrick Suresneut interview Matt Lowzack, CEO of Alo Atomics, a company aiming to mass-produce modular nuclear power plants to address the impending global energy crisis. The conversation covers the potential of breeder technology, the importance of modularity for mass production, and the economic and logistical challenges of traditional nuclear power plant construction. Additionally, the hosts discuss market movements influenced by geopolitical tensions, particularly the situation in Iran, and provide insights into various financial instruments.",
+      "key_takeaway": "Invest in advanced nuclear energy companies that are pioneering mass production and modularity to capitalize on the upcoming energy crisis and the shift away from fossil fuels.",
+      "tickers_mentioned": [
+        "S&P 500",
+        "WTI",
+        "ARBOB Gasoline",
+        "Gold",
+        "Copper",
+        "Uranium",
+        "US 10 year Treasury"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-06",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 44
+    },
+    {
+      "id": 59,
+      "title": "Anthropic and Alignment: The Intersection of AI, Politics, and Business",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-03-05",
+      "summary": "In this episode of the a16z Show, Ben Thompson from Strat\u00e9cary discusses the complex relationship between AI technology, politics, and business. The conversation revolves around the implications of private companies developing powerful AI technologies and the potential for government intervention. Thompson highlights the importance of considering the real-world consequences of AI advancements, drawing parallels to nuclear weapons, and discusses the ethical and legal dilemmas that arise when private entities possess technologies that could be considered a matter of national security. The discussion also touches on the challenges faced by companies like Anthropic in navigating the delicate balance between innovation, government cooperation, and ethical considerations.",
+      "key_takeaway": "Investment in AI technology companies requires careful consideration of the political and ethical landscape, as well as the potential for government intervention and regulation.",
+      "tickers_mentioned": [
+        ""
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-06",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 43
+    },
+    {
+      "id": 60,
+      "title": "The Financialization of Super Intelligence and the Entrepreneurial Opportunity of a Lifetime",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-03-05",
+      "summary": "In this episode, the panel discusses the financialization of super intelligence, with Amazon making a contingent offer to invest $35 billion into OpenAI based on their going public and achieving AGI. They also touch on the rapid acceleration of AI, the shift in responsible scaling policies by Anthropic, and the trust in different cloud providers like Microsoft Azure and AWS. The discussion highlights the entrepreneurial opportunities in the circular economy becoming indistinguishable from the real economy, suggesting an era of abundance and value creation.",
+      "key_takeaway": "Investment in AI and cloud technology is positioned as a moonshot opportunity with the potential for significant returns, especially with the anticipated IPOs and the financialization of super intelligence.",
+      "tickers_mentioned": [
+        "AMZN",
+        "MSFT",
+        "GOOGL",
+        "GOOG"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-06",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 42
+    },
+    {
+      "id": 61,
+      "title": "Economic Growth through Creative Destruction",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-03-05",
+      "summary": "In this episode of Monetary Matters with Jack Farley, Dr. Peter Howitt, Nobel Prize winner in economics, discusses his research on economic growth through creative destruction, a concept attributed to Joseph Schumpeter. Dr. Howitt explains how technological progress drives economic growth and disrupts existing economic orders, rendering old products, processes, and markets obsolete. The conversation also touches on the impact of technology on productivity, employment, and inflation-adjusted growth rates. Dr. Howitt shares his optimistic view on the potential for new technologies to increase efficiency and potentially lead to more employment in competitive economies.",
+      "key_takeaway": "Invest in technologies and companies that are at the forefront of creative destruction, as they are likely to drive economic growth and disrupt existing markets.",
+      "tickers_mentioned": [
+        "AAPL",
+        "NVDA",
+        "GOOGL",
+        "MSFT",
+        "TSLA"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-06",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 41
+    },
     {
       "id": 56,
       "title": "Monetary Matters: Macro Regimes and Investment Insights",
@@ -545,11 +812,11 @@ const dashboardData = {
         "TLT"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-04",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-06",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 38
     },
     {
@@ -562,11 +829,11 @@ const dashboardData = {
       "key_takeaway": "The current high debt levels and fiscal policies pose significant risks to the U.S. economy, requiring careful management of interest rates and a balanced approach to financial prudence and innovation.",
       "tickers_mentioned": [],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-04",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-06",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 37
     },
     {
@@ -585,11 +852,11 @@ const dashboardData = {
         "MSFT"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-04",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-07",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 35
     },
     {
@@ -604,11 +871,11 @@ const dashboardData = {
         ""
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-04",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-06",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 36
     },
     {
@@ -625,11 +892,11 @@ const dashboardData = {
         "Altias"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-01",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-06",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 32
     },
     {
@@ -647,11 +914,11 @@ const dashboardData = {
         "TSLA"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-01",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-06",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 31
     },
     {
@@ -1540,6 +1807,114 @@ const dashboardData = {
   "mainContent": {
   "insights": [
     {
+      "id": 62,
+      "title": "Emergency Podcast: US-Iran Conflict and its Impact on Global Markets",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-03-06",
+      "summary": "In this emergency podcast, the hosts discuss the recent US and Israel joint attack on Iran, Operation Epic Fury, and its implications on global markets, energy prices, and insurance industries. They also touch upon the potential for a new insurance industry in the US, the cancellation of a $200 million contract with Anduril, and the strategic importance of DARPA's work in technology and defense. The conversation also briefly explores the threat posed by China's military build-up and the need for the US to remain competitive.",
+      "key_takeaway": "The podcast suggests that the conflict in Iran could lead to new investment opportunities in the insurance sector and underscores the importance of defense and technology investments in the face of global threats.",
+      "tickers_mentioned": "[\"AAPL\", \"NVDA\", \"SPY\", \"TSLA\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-06",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 45,
+      "episode_release_date": "2026-03-06"
+    },
+    {
+      "id": 63,
+      "title": "The AI Transformation of Software and SaaS Landscape",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-03-06",
+      "summary": "The podcast discusses the transformative impact of AI on software and the SaaS industry. It explores how AI is changing the way software works, from simple data storage to performing tasks autonomously. The conversation also touches on the 'SaaS apocalypse', discussing the varying impacts on different SaaS companies and how some may actually benefit from AI advancements. The episode further delves into the challenges of software pricing and the shift towards more efficient and collaborative software systems.",
+      "key_takeaway": "Investment in AI-driven software and SaaS companies that can leverage AI to enhance efficiency and value proposition, while being cautious of those that may be disrupted by these technological shifts.",
+      "tickers_mentioned": "[\"WORK\", \"ZEN\", \"SF\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-07",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 46,
+      "episode_release_date": "2026-03-06"
+    },
+    {
+      "id": 58,
+      "title": "The Future of Advanced Nuclear Energy and its Impact on Markets",
+      "source_type": "podcast",
+      "source_name": "Macro Voices",
+      "source_date": "2026-03-05",
+      "summary": "This episode of Macro Voices features an in-depth discussion on the future of nuclear energy, with a focus on the need for revolutionary changes in the industry. Hosts Eric Townsend and Patrick Suresneut interview Matt Lowzack, CEO of Alo Atomics, a company aiming to mass-produce modular nuclear power plants to address the impending global energy crisis. The conversation covers the potential of breeder technology, the importance of modularity for mass production, and the economic and logistical challenges of traditional nuclear power plant construction. Additionally, the hosts discuss market movements influenced by geopolitical tensions, particularly the situation in Iran, and provide insights into various financial instruments.",
+      "key_takeaway": "Invest in advanced nuclear energy companies that are pioneering mass production and modularity to capitalize on the upcoming energy crisis and the shift away from fossil fuels.",
+      "tickers_mentioned": "[\"S&P 500\", \"WTI\", \"ARBOB Gasoline\", \"Gold\", \"Copper\", \"Uranium\", \"US 10 year Treasury\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-06",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 44,
+      "episode_release_date": "2026-03-05"
+    },
+    {
+      "id": 59,
+      "title": "Anthropic and Alignment: The Intersection of AI, Politics, and Business",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-03-05",
+      "summary": "In this episode of the a16z Show, Ben Thompson from Strat\u00e9cary discusses the complex relationship between AI technology, politics, and business. The conversation revolves around the implications of private companies developing powerful AI technologies and the potential for government intervention. Thompson highlights the importance of considering the real-world consequences of AI advancements, drawing parallels to nuclear weapons, and discusses the ethical and legal dilemmas that arise when private entities possess technologies that could be considered a matter of national security. The discussion also touches on the challenges faced by companies like Anthropic in navigating the delicate balance between innovation, government cooperation, and ethical considerations.",
+      "key_takeaway": "Investment in AI technology companies requires careful consideration of the political and ethical landscape, as well as the potential for government intervention and regulation.",
+      "tickers_mentioned": "[\"\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-06",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 43,
+      "episode_release_date": "2026-03-05"
+    },
+    {
+      "id": 60,
+      "title": "The Financialization of Super Intelligence and the Entrepreneurial Opportunity of a Lifetime",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-03-05",
+      "summary": "In this episode, the panel discusses the financialization of super intelligence, with Amazon making a contingent offer to invest $35 billion into OpenAI based on their going public and achieving AGI. They also touch on the rapid acceleration of AI, the shift in responsible scaling policies by Anthropic, and the trust in different cloud providers like Microsoft Azure and AWS. The discussion highlights the entrepreneurial opportunities in the circular economy becoming indistinguishable from the real economy, suggesting an era of abundance and value creation.",
+      "key_takeaway": "Investment in AI and cloud technology is positioned as a moonshot opportunity with the potential for significant returns, especially with the anticipated IPOs and the financialization of super intelligence.",
+      "tickers_mentioned": "[\"AMZN\", \"MSFT\", \"GOOGL\", \"GOOG\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-06",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 42,
+      "episode_release_date": "2026-03-05"
+    },
+    {
+      "id": 61,
+      "title": "Economic Growth through Creative Destruction",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-03-05",
+      "summary": "In this episode of Monetary Matters with Jack Farley, Dr. Peter Howitt, Nobel Prize winner in economics, discusses his research on economic growth through creative destruction, a concept attributed to Joseph Schumpeter. Dr. Howitt explains how technological progress drives economic growth and disrupts existing economic orders, rendering old products, processes, and markets obsolete. The conversation also touches on the impact of technology on productivity, employment, and inflation-adjusted growth rates. Dr. Howitt shares his optimistic view on the potential for new technologies to increase efficiency and potentially lead to more employment in competitive economies.",
+      "key_takeaway": "Invest in technologies and companies that are at the forefront of creative destruction, as they are likely to drive economic growth and disrupt existing markets.",
+      "tickers_mentioned": "[\"AAPL\", \"NVDA\", \"GOOGL\", \"MSFT\", \"TSLA\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-06",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 41,
+      "episode_release_date": "2026-03-05"
+    },
+    {
       "id": 56,
       "title": "Monetary Matters: Macro Regimes and Investment Insights",
       "source_type": "podcast",
@@ -1574,114 +1949,6 @@ const dashboardData = {
       "archived_reason": null,
       "podcast_episode_id": 39,
       "episode_release_date": "2026-03-04"
-    },
-    {
-      "id": 52,
-      "title": "Mailbag Monday: War, AI, and Deep Value in Bitcoin",
-      "source_type": "podcast",
-      "source_name": "The Jack Mallers Show",
-      "source_date": "2026-03-03",
-      "summary": "In this episode of The Jack Mallers Show, Jack discusses the geopolitical tensions involving Iran and its impact on the markets, including oil and bonds. He emphasizes the fragility of the current system and the importance of Bitcoin as a store of value amidst global instability. Jack also touches on the topic of AI and its deflationary tendencies, suggesting that Bitcoin is a hedge against the systemic issues facing fiat currencies. The episode concludes with Jack's strong stance against war and his advocacy for Bitcoin as a peaceful alternative.",
-      "key_takeaway": "Bitcoin is presented as a deep value investment and a hedge against the fragility of the current financial and geopolitical systems.",
-      "tickers_mentioned": "[\"BTC-USD\", \"ETH-USD\", \"XAU-USD\", \"USO\", \"TLT\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-03-04",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 38,
-      "episode_release_date": "2026-03-03"
-    },
-    {
-      "id": 53,
-      "title": "The Great Debt Cycle and Economic Outlook",
-      "source_type": "podcast",
-      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "source_date": "2026-03-03",
-      "summary": "In this episode, Ray Dahlia discusses the great debt cycle, fiscal and monetary policy issues, and their impact on the global economy. He highlights five big forces that intertwine to shape the economic landscape, including debt, domestic gaps, international great power conflict, technology, and acts of nature. Dahlia provides insights into the U.S. government's finances, the challenges of managing interest rates amidst high debt, and the role of technology in shaping the future of economies. He also touches upon the dynamics of Bitcoin and silver in the context of monetary assets.",
-      "key_takeaway": "The current high debt levels and fiscal policies pose significant risks to the U.S. economy, requiring careful management of interest rates and a balanced approach to financial prudence and innovation.",
-      "tickers_mentioned": "[]",
-      "sentiment": "bearish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-03-04",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 37,
-      "episode_release_date": "2026-03-03"
-    },
-    {
-      "id": 54,
-      "title": "Constructive Confrontation and Decision Debt in Tech Companies",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-03-03",
-      "summary": "In this episode of the a16z Show, Ben Horowitz, co-founder and general partner at a16z, discusses the importance of aggressive questioning and bluntness in tech companies, particularly among founders and CEOs. He emphasizes that hesitation and decision debt are detrimental to a company's success. Horowitz also shares insights on the patterns he sees in successful versus failing CEOs and the importance of hiring the right people, especially in sales roles. The conversation touches on the challenges faced by first-time CEOs and the discomfort that comes with the territory.",
-      "key_takeaway": "The core investment thesis presented is that successful tech companies require decisive leadership, the ability to confront issues directly, and the avoidance of decision debt.",
-      "tickers_mentioned": "[\"FB\", \"GOOGL\", \"TSLA\", \"AMZN\", \"MSFT\"]",
-      "sentiment": "bearish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-03-04",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 35,
-      "episode_release_date": "2026-03-03"
-    },
-    {
-      "id": 55,
-      "title": "Moonshots with Peter Diamandis: AI, Exponential Technologies, and the Future of Auditing",
-      "source_type": "podcast",
-      "source_name": "Moonshots with Peter Diamandis",
-      "source_date": "2026-03-02",
-      "summary": "In this episode, Peter Diamandis discusses the rapidly evolving landscape of AI and exponential technologies, focusing on the implications for national security, enterprise, and the auditing profession. Key themes include the battle between Anthropic and the Pentagon over AI safeguards, the potential for AI to reshape global institutions, and the impact of AI on the auditing and insurance industries. The conversation also touches on the importance of trust in a volatile world and the opportunities for entrepreneurs in building new solutions.",
-      "key_takeaway": "Invest in AI and exponential technology companies that are shaping the future of enterprise applications, as well as those disrupting traditional industries like auditing and insurance.",
-      "tickers_mentioned": "[\"\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-03-04",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 36,
-      "episode_release_date": "2026-03-02"
-    },
-    {
-      "id": 49,
-      "title": "Monetary Matters with Rick Rule on Commodities and Contrarian Investment",
-      "source_type": "podcast",
-      "source_name": "Monetary Matters with Jack Farley",
-      "source_date": "2026-03-01",
-      "summary": "In this episode of Monetary Matters, host Jack Farley interviews Rick Rule, a prominent figure in the commodity space. They discuss Rule's long-term bullish stance on precious metals and commodities, his caution on recent price movements, and his views on the U.S. dollar's purchasing power over the next decade. Rule also shares his insights on contrarian investment strategies, the importance of protecting purchasing power, and his thoughts on specific companies and sectors within natural resources.",
-      "key_takeaway": "Invest in commodities and natural resources to protect purchasing power against the predicted decline in the U.S. dollar's value.",
-      "tickers_mentioned": "[\"PQNT\", \"EMAX\", \"Altias\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-03-01",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 32,
-      "episode_release_date": "2026-03-01"
-    },
-    {
-      "id": 48,
-      "title": "Conspiracy Corner and Market Impact of AI",
-      "source_type": "podcast",
-      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "source_date": "2026-02-28",
-      "summary": "In this episode of 'All-In with Chamath, Jason, Sacks & Friedberg', the hosts discuss various conspiracy theories and their impact on the market. The primary focus is on the influence of AI company Anthropics and its new products on the market sectors. The conversation covers the market's reaction to Anthropics' announcements, the potential for AI to compress stock prices, and the strategic and tactical implications of these changes. Additionally, the discussion touches on the rate pair protection pledge related to AI data centers and energy, emphasizing the need for tech companies to provide for their own power needs to prevent residential electricity rates from increasing.",
-      "key_takeaway": "AI advancements, particularly by Anthropics, are causing market disruptions and presenting both risks and opportunities in various sectors.",
-      "tickers_mentioned": "[\"IBM\", \"CROWD\", \"WORK\", \"TSLA\"]",
-      "sentiment": "bearish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-03-01",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 31,
-      "episode_release_date": "2026-02-28"
     }
   ],
   "definitions": [
@@ -4293,6 +4560,406 @@ const dashboardData = {
     "insight_title": "The Future of Healthcare with AI and Technology",
     "source_name": "The a16z Show",
     "source_date": "2026-03-04"
+  },
+  "58": {
+    "id": 49,
+    "insight_id": 58,
+    "podcast_episode_id": 44,
+    "overview": "The investment thesis revolves around the potential of advanced nuclear energy to disrupt the global energy market, particularly as fossil fuel production becomes increasingly expensive. Alo Atomics, a company focusing on mass-producing modular nuclear power plants, represents a significant shift from traditional light water reactors. This approach could lead to a more scalable, cost-effective, and safer nuclear energy solution, which is crucial given the escalating geopolitical tensions and the need for sustainable energy sources. The current market dynamics, driven by events in Iran and the resilience of the S&P 500, underscore the urgency and potential impact of this energy transition on financial markets.",
+    "key_takeaways_detailed": [
+      "Invest in companies pioneering modular nuclear power plant technology to capitalize on the shift from traditional nuclear energy models.",
+      "Monitor the progress of Alo Atomics' prototype reactor as a bellwether for the viability of advanced nuclear energy solutions.",
+      "Consider the impact of geopolitical events, such as the situation in Iran, on energy markets and how advanced nuclear energy could offer a hedge against such risks.",
+      "Analyze the supply chain implications of a shift to modular nuclear power, focusing on companies that could benefit from the demand for new materials and technologies.",
+      "Stay informed on regulatory developments that could either accelerate or hinder the adoption of advanced nuclear energy technologies."
+    ],
+    "investment_thesis": "The core investment logic is that advanced nuclear energy, through modular and mass-produced reactors, offers a scalable and cost-competitive alternative to fossil fuels and traditional nuclear power. The catalysts include the escalating costs of fossil fuel production, geopolitical tensions affecting energy security, and technological advancements that make modular reactors more feasible. The timeframe for this thesis is medium to long-term, as the transition to advanced nuclear energy is likely to take several years but could offer significant returns for early investors.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's investment in green energy and technology could position it to benefit from the shift to advanced nuclear energy, both through direct investments and the demand for sustainable energy solutions.",
+        "positioning": "Consider a long-term strategic position in AAPL as the company is likely to be at the forefront of adopting and integrating advanced nuclear energy technologies.",
+        "risk": "Key risks include regulatory hurdles and potential delays in the deployment of advanced nuclear energy technologies."
+      },
+      "NVDA": {
+        "rationale": "Nvidia's expertise in high-performance computing and AI could be leveraged in the development and operation of advanced nuclear reactors, which require complex simulations and monitoring.",
+        "positioning": "A tactical long position in NVDA could be beneficial as the company's technology is likely to be in high demand for the advanced nuclear energy sector.",
+        "risk": "The risk lies in the highly competitive nature of the tech industry and the potential for other companies to disrupt Nvidia's market position."
+      },
+      "TSLA": {
+        "rationale": "Tesla's involvement in energy storage and renewable energy makes it a potential beneficiary of the advanced nuclear energy revolution, as it could integrate such technology into its energy solutions.",
+        "positioning": "A strategic long position in TSLA could be appropriate, given the company's ambitious goals in sustainable energy and potential partnerships in the nuclear energy space.",
+        "risk": "The risk is associated with the high valuation of TSLA and the possibility that the company may not successfully capitalize on the advanced nuclear energy market."
+      },
+      "SPY": {
+        "rationale": "As an ETF tracking the S&P 500, SPY offers exposure to a broad range of companies that could be affected by the shift to advanced nuclear energy, both positively and negatively.",
+        "positioning": "A tactical position in SPY could be used to hedge against market volatility while the advanced nuclear energy sector matures.",
+        "risk": "The risk is the broad exposure to the market, which may dilute the specific benefits of investing in advanced nuclear energy companies."
+      }
+    },
+    "positioning_guidance": "Investors should consider a diversified approach, with a mix of long-term strategic positions in companies directly involved in advanced nuclear energy and tactical positions in companies that could benefit indirectly. Entry points should be considered in relation to the progress of key projects, such as Alo Atomics' prototype reactor, and in response to geopolitical events affecting energy markets. Timeframes should align with the expected deployment and adoption of advanced nuclear technologies, which is likely to be several years out. Hedges could include investments in companies that are likely to be negatively affected by the shift to nuclear energy, such as fossil fuel producers.",
+    "risk_factors": [
+      "Regulatory hurdles and delays in the approval and deployment of advanced nuclear energy technologies.",
+      "Technological challenges in the development and operation of modular nuclear reactors.",
+      "Geopolitical events that could disrupt the global energy market and affect the demand for alternative energy sources.",
+      "Competition from other renewable energy sources, such as solar and wind, which could affect the adoption of nuclear energy.",
+      "Economic downturns that could reduce investment in new energy technologies, including advanced nuclear energy."
+    ],
+    "contrarian_signals": [
+      "The potential overestimation of the speed at which advanced nuclear energy can be deployed and adopted.",
+      "The possibility that traditional nuclear energy companies may adapt and compete effectively with advanced nuclear energy technologies.",
+      "The risk of public perception and resistance to nuclear energy, which could slow down the adoption of new technologies."
+    ],
+    "catalysts": [
+      "The launch of Alo Atomics' prototype reactor by 4 July of this year.",
+      "Geopolitical events affecting the stability of fossil fuel production, such as conflicts in the Middle East.",
+      "Regulatory changes that could accelerate or hinder the deployment of advanced nuclear energy technologies.",
+      "Technological breakthroughs that could make advanced nuclear energy more cost-effective or safer.",
+      "Economic indicators, such as inflation and GDP growth, that could affect the demand for alternative energy sources."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-03-06T04:01:30.070922",
+    "updated_at": "2026-03-06 10:01:30",
+    "insight_title": "The Future of Advanced Nuclear Energy and its Impact on Markets",
+    "source_name": "Macro Voices",
+    "source_date": "2026-03-05"
+  },
+  "59": {
+    "id": 50,
+    "insight_id": 59,
+    "podcast_episode_id": 43,
+    "overview": "The investment thesis revolves around the intersection of artificial intelligence (AI), politics, and business, with a focus on the implications of powerful AI technologies on global politics and the economy. The recent events involving Anthropic, a company that refused to remove safeguards against mass domestic surveillance and autonomous weapons, highlight the growing tension between private companies developing advanced AI and the interests of nation-states. This dynamic is crucial for investors to understand, as it could significantly impact the valuation and operations of tech companies, particularly those involved in AI development. The current geopolitical landscape suggests that the development and deployment of AI technologies will be increasingly scrutinized and potentially regulated, affecting the competitive landscape and growth prospects of companies in this space.",
+    "key_takeaways_detailed": [
+      "The development of advanced AI technologies is becoming a matter of national security, potentially leading to increased regulation and scrutiny of companies in the AI space.",
+      "Nation-states may seek to control or influence the development of AI to maintain a competitive edge, which could impact the global supply chain and the operations of multinational tech companies.",
+      "Investors should monitor the political and regulatory environment closely, as it can significantly influence the growth and valuation of AI-focused companies.",
+      "The potential for AI to be weaponized or used in surveillance raises ethical and legal concerns that could lead to backlash against companies not adhering to certain standards.",
+      "The balance of power in global politics could shift as a result of AI advancements, with implications for companies that are seen as enabling or hindering certain nation-states."
+    ],
+    "investment_thesis": "The core investment logic is that the development and deployment of AI technologies are becoming increasingly politicized, with significant implications for the tech industry. As AI becomes more powerful, it is likely to be seen as a strategic asset by nation-states, leading to increased regulation, potential restrictions on trade, and a shift in the competitive landscape. Catalysts for this thesis include ongoing geopolitical tensions, particularly between the US and China, as well as regulatory developments in AI ethics and surveillance. The timeframe for this thesis is medium to long-term, as the full implications of AI on politics and business will likely unfold over several years.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple is a major player in the tech industry with significant investments in AI, making it vulnerable to increased regulation and geopolitical tensions.",
+        "positioning": "Position long on AAPL as a strategic play on the AI industry, but consider tactical short positions when geopolitical tensions escalate.",
+        "risk": "Key risks include increased regulation of AI technologies and potential backlash against companies involved in surveillance or autonomous weapons."
+      },
+      "NVDA": {
+        "rationale": "Nvidia is a leader in AI and GPU technology, which are critical for the development of advanced AI systems.",
+        "positioning": "Maintain a long-term strategic position in NVDA, as the company is well-positioned to benefit from the growth of AI, but be prepared to hedge against short-term geopolitical risks.",
+        "risk": "Regulatory changes and restrictions on the export of AI technologies could impact Nvidia's growth prospects."
+      },
+      "TSLA": {
+        "rationale": "Tesla's involvement in AI, particularly in autonomous driving, makes it a company to watch in the context of AI regulation and ethics.",
+        "positioning": "Consider a long position in TSLA for investors bullish on the future of AI in transportation, but monitor regulatory developments closely.",
+        "risk": "The risk of increased regulation and public scrutiny of autonomous driving technologies could hinder Tesla's progress."
+      },
+      "GOOGL": {
+        "rationale": "Google, through its parent company Alphabet, is heavily invested in AI research and development, with potential exposure to political and regulatory risks.",
+        "positioning": "Hold a strategic long position in GOOGL, but be prepared to adjust exposure based on regulatory developments and geopolitical tensions.",
+        "risk": "Google's AI projects could face increased scrutiny and potential restrictions, impacting its ability to commercialize AI technologies."
+      }
+    },
+    "positioning_guidance": "Investors should position their portfolios to capitalize on the growth potential of AI while being prepared to mitigate risks associated with increased regulation and geopolitical tensions. This could involve a mix of long positions in AI-focused companies, with tactical short positions or hedges in place during periods of heightened risk. Entry points should be based on market conditions and the evolving political and regulatory landscape, with a focus on medium to long-term timeframes.",
+    "risk_factors": [
+      "Increased regulation of AI technologies could hinder the growth of companies in the space.",
+      "Geopolitical tensions, particularly between the US and China, could lead to trade restrictions and supply chain disruptions.",
+      "Ethical concerns and public backlash against AI applications in surveillance and autonomous weapons could impact company valuations.",
+      "Nation-states may seek to control or influence the development of AI, leading to a less competitive and innovative industry.",
+      "The potential for AI to be weaponized could lead to an arms race, with unpredictable consequences for the global economy and political stability."
+    ],
+    "contrarian_signals": [
+      "Despite the risks, some argue that increased regulation could ultimately benefit companies that can navigate the regulatory landscape, leading to stronger competitive positions.",
+      "There is a view that the potential for AI to drive economic growth and innovation outweighs the risks, suggesting that the long-term benefits could outweigh short-term political and regulatory challenges.",
+      "Contrary to concerns about AI being weaponized, some believe that international cooperation and norms could prevent the weaponization of AI, mitigating the risk of an AI arms race."
+    ],
+    "catalysts": [
+      "Upcoming regulatory developments in AI ethics and surveillance in the US and Europe.",
+      "Geopolitical events, such as trade negotiations or military exercises, that could impact the global AI industry.",
+      "Major AI breakthroughs or product launches that could shift the competitive landscape.",
+      "International conferences or agreements on AI regulation and ethics.",
+      "Election outcomes in key countries that could influence the political and regulatory environment for AI."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-03-06T04:01:52.874211",
+    "updated_at": "2026-03-06 10:01:52",
+    "insight_title": "Anthropic and Alignment: The Intersection of AI, Politics, and Business",
+    "source_name": "The a16z Show",
+    "source_date": "2026-03-05"
+  },
+  "60": {
+    "id": 51,
+    "insight_id": 60,
+    "podcast_episode_id": 42,
+    "overview": "The investment thesis revolves around the financialization of super intelligence (AGI) and the significant entrepreneurial opportunity it presents. With Amazon's contingent offer to invest $35 billion into OpenAI upon their going public and achieving AGI, we are witnessing the monetization of advanced AI capabilities. This development is not only a testament to the growing importance of AI in the global economy but also signals a shift towards a new era where the circular economy becomes indistinguishable from the real economy. The potential for AGI to generate unprecedented value creation is immense, with the capacity to create tens of thousands of times more wealth. This analysis aims to provide investors with a deep dive into the implications of this moonshot moment in technology and the strategic positioning required to capitalize on it.",
+    "key_takeaways_detailed": [
+      "The financialization of AGI signifies a paradigm shift in technology valuation and investment, with potential returns measured in the magnitude of gigawatts and dollars.",
+      "Investors should focus on companies at the forefront of AGI development, as they are likely to benefit most from the transition to a circular economy.",
+      "The race for AGI is intensifying, with safety concerns taking a backseat to competitive advantage, which could lead to rapid advancements but also significant risks.",
+      "Diversification across the AI ecosystem is crucial, as no single company or lab is likely to dominate the future landscape of AGI.",
+      "Monitor the policy and regulatory environment closely, as it can significantly impact the trajectory and profitability of AGI development."
+    ],
+    "investment_thesis": "The core investment logic is that the pursuit of AGI is becoming a financial race, with significant capital being allocated to achieve this goal. The catalysts for this thesis include the contingent investment by Amazon in OpenAI, the acceleration of AI development by companies like Google and Uber, and the increasing recognition of AGI's potential to generate vast economic value. The timeframe for this thesis is medium to long-term, as the development and commercialization of AGI are expected to take several years, but the potential rewards are substantial, making it a compelling investment opportunity for those with a long-term horizon.",
+    "ticker_analysis": {
+      "AMZN": {
+        "rationale": "Amazon's contingent offer to invest in OpenAI upon their going public and achieving AGI positions the company as a key player in the financialization of super intelligence.",
+        "positioning": "Strategically long, as Amazon's investment in AGI could significantly enhance its competitive position and drive future growth.",
+        "risk": "The risk of regulatory hurdles or delays in AGI development could impact Amazon's investment and potential returns."
+      },
+      "MSFT": {
+        "rationale": "Microsoft's involvement with OpenAI and its own AI initiatives make it a relevant ticker for investors interested in the AGI space.",
+        "positioning": "Strategically long, as Microsoft's AI capabilities are expected to bolster its cloud services and drive long-term growth.",
+        "risk": "Microsoft faces competition from other tech giants in the AI space, which could affect its market share and profitability."
+      },
+      "GOOGL": {
+        "rationale": "Google's deep investments in AI research and development, including its own AGI efforts, make it a significant player in this space.",
+        "positioning": "Tactically long, as Google's AI advancements could provide short-term gains, but with a strategic eye on the long-term potential.",
+        "risk": "The risk of ethical and safety concerns surrounding AGI could slow down Google's progress and impact its reputation."
+      },
+      "NVDA": {
+        "rationale": "NVIDIA's GPUs are critical for the compute power required for AI and AGI development, making it a foundational component of this thesis.",
+        "positioning": "Strategically long, as the demand for GPUs is expected to grow with the advancement of AI technologies.",
+        "risk": "NVIDIA faces risks from competitors in the GPU market and potential disruptions in the global semiconductor supply chain."
+      }
+    },
+    "positioning_guidance": "Investors should consider a diversified approach to portfolio positioning, with a mix of strategic long-term holdings in companies like AMZN, MSFT, and NVDA, and tactical positions in other AI-related companies. Entry points should be considered in the context of broader market trends and company-specific developments. Timeframes for these positions should align with the expected development trajectory of AGI, which is likely to be measured in years. Investors may also consider hedging against potential regulatory risks or ethical concerns that could impact the AGI space.",
+    "risk_factors": [
+      "Regulatory hurdles or ethical concerns could slow down AGI development, impacting the financialization of super intelligence.",
+      "Competition among tech giants could lead to a race condition, potentially compromising safety and ethical standards.",
+      "Technological setbacks or delays in achieving AGI could affect the valuation and investment returns of companies in the AI space.",
+      "A potential shift in consumer or societal acceptance of AGI could impact the adoption and profitability of AGI technologies.",
+      "Economic downturns or market volatility could affect the capital allocation towards AGI development and investment."
+    ],
+    "contrarian_signals": [
+      "The potential for AGI to create a vast economic surplus could be overestimated, leading to overinvestment in the space.",
+      "The focus on financial returns from AGI could overshadow the need for robust safety measures and ethical considerations.",
+      "The race for AGI could lead to a winner-takes-all scenario, where only a few companies dominate, reducing the diversity and innovation in the space."
+    ],
+    "catalysts": [
+      "Amazon's formal investment in OpenAI upon their going public and achieving AGI.",
+      "Key AI conferences and events where breakthroughs in AGI development are announced.",
+      "Regulatory decisions or policy changes that impact the development and deployment of AGI technologies.",
+      "Strategic partnerships or acquisitions in the AI space that signal a shift towards AGI development.",
+      "Economic indicators that suggest a growing appetite for investment in AI and technology, potentially fueling AGI development."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-03-06T04:02:19.345965",
+    "updated_at": "2026-03-06 10:02:19",
+    "insight_title": "The Financialization of Super Intelligence and the Entrepreneurial Opportunity of a Lifetime",
+    "source_name": "Moonshots with Peter Diamandis",
+    "source_date": "2026-03-05"
+  },
+  "61": {
+    "id": 52,
+    "insight_id": 61,
+    "podcast_episode_id": 41,
+    "overview": "The investment thesis revolves around the concept of 'growth through creative destruction,' a model of economic growth that emphasizes the role of technological progress in driving long-term economic growth. This model, which won Dr. Peter Howitt the Nobel Prize in Economics, suggests that new technologies disrupt existing economic orders, rendering old products, processes, and markets obsolete. While this process can lead to short-term displacement and job loss, it ultimately benefits society by driving economic growth and improving living standards. In the context of AI, this thesis is particularly relevant as AI represents a powerful, general-purpose technology with the potential to disrupt and transform various sectors of the economy. Understanding the implications of creative destruction for different industries and companies is crucial for investors looking to capitalize on the opportunities and mitigate the risks associated with technological change.",
+    "key_takeaways_detailed": [
+      "Investors should focus on companies at the forefront of AI innovation, as they are likely to benefit from the first-mover advantage and capture significant market share.",
+      "Consider the potential for AI to disrupt traditional industries and the incumbent companies within those sectors. Look for opportunities to short or underweight these companies.",
+      "Evaluate the resilience and adaptability of companies to technological change. Those with strong R&D capabilities and a history of successfully adopting new technologies are better positioned to navigate the challenges of creative destruction.",
+      "Monitor policy developments related to AI, as regulatory changes can significantly impact the pace and direction of AI adoption and the competitive landscape.",
+      "Be aware of the potential for job displacement and social unrest resulting from AI-driven creative destruction. Companies and sectors that are heavily reliant on human labor may face increased scrutiny and opposition."
+    ],
+    "investment_thesis": "The core investment logic is that AI, as a general-purpose technology, will drive economic growth through creative destruction. Companies that can successfully leverage AI to disrupt existing markets and create new ones will be well-positioned to capture significant value. The catalysts for this thesis include advancements in AI technology, increased adoption across industries, and supportive regulatory environments. The timeframe for this thesis is medium to long-term, as the full impact of AI on the economy is likely to unfold over several years.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple is a leader in AI technology, with a strong focus on AI-driven products and services. The company's investments in AI research and development position it well to benefit from the growth opportunities presented by creative destruction.",
+        "positioning": "Long-term strategic position, as Apple's AI capabilities are expected to drive growth and competitive advantage over the medium to long term.",
+        "risk": "Key risks include increased competition from other tech giants, regulatory challenges, and potential backlash against AI-driven job displacement."
+      },
+      "NVDA": {
+        "rationale": "NVIDIA is a leading provider of AI chips and platforms, which are critical for the development and deployment of AI applications. As AI adoption accelerates, NVIDIA is well-positioned to benefit from the increased demand for its products.",
+        "positioning": "Medium-term tactical position, as NVIDIA's AI offerings are expected to drive near-term growth and profitability.",
+        "risk": "Key risks include potential disruptions in the global semiconductor supply chain, increased competition from other chipmakers, and fluctuations in demand for AI chips."
+      },
+      "GOOGL": {
+        "rationale": "Google, through its parent company Alphabet, is a major player in AI research and development, with a wide range of AI-driven products and services. The company's extensive AI capabilities position it to benefit from the growth opportunities presented by creative destruction.",
+        "positioning": "Long-term strategic position, as Google's AI investments are expected to drive growth and competitive advantage over the medium to long term.",
+        "risk": "Key risks include increased competition from other tech giants, regulatory challenges, and potential backlash against AI-driven job displacement."
+      },
+      "MSFT": {
+        "rationale": "Microsoft is a leading provider of AI software and services, with a strong focus on AI-driven cloud computing solutions. The company's investments in AI research and development position it well to benefit from the growth opportunities presented by creative destruction.",
+        "positioning": "Long-term strategic position, as Microsoft's AI capabilities are expected to drive growth and competitive advantage over the medium to long term.",
+        "risk": "Key risks include increased competition from other tech giants, regulatory challenges, and potential backlash against AI-driven job displacement."
+      },
+      "TSLA": {
+        "rationale": "Tesla is a leader in AI-driven electric vehicles and autonomous driving technology. The company's investments in AI research and development position it well to benefit from the growth opportunities presented by creative destruction in the automotive industry.",
+        "positioning": "Medium-term tactical position, as Tesla's AI offerings are expected to drive near-term growth and profitability.",
+        "risk": "Key risks include potential disruptions in the global supply chain, increased competition from traditional automakers and other EV startups, and regulatory challenges related to autonomous driving technology."
+      }
+    },
+    "positioning_guidance": "Investors should consider a balanced portfolio approach, with a mix of long-term strategic positions in AI leaders (e.g., AAPL, GOOGL, MSFT) and medium-term tactical positions in companies with near-term AI growth potential (e.g., NVDA, TSLA). Sizing should be based on individual risk tolerance and investment objectives, with a focus on maintaining diversification across sectors and geographies. Entry points should be opportunistic, taking advantage of market volatility and sector-specific events. Timeframes should align with the expected duration of the creative destruction process, with a focus on the medium to long term.",
+    "risk_factors": [
+      "Increased competition from new entrants and incumbents in AI-driven industries.",
+      "Regulatory challenges and potential backlash against AI-driven job displacement.",
+      "Disruptions in the global supply chain, particularly for AI hardware providers.",
+      "Fluctuations in demand for AI-driven products and services, particularly in the context of economic downturns.",
+      "Potential for AI-driven creative destruction to lead to social unrest and political instability."
+    ],
+    "contrarian_signals": [
+      "Investors may underestimate the pace of AI adoption and the potential for creative destruction to disrupt traditional industries.",
+      "There is a risk that AI-driven job displacement may lead to increased social unrest and political opposition, potentially slowing the pace of AI adoption.",
+      "The potential for AI to create new industries and job opportunities may be underappreciated, leading to an overly pessimistic view of the long-term economic impact of creative destruction."
+    ],
+    "catalysts": [
+      "Advancements in AI technology, including breakthroughs in machine learning, natural language processing, and computer vision.",
+      "Increased adoption of AI across industries, driven by cost savings, efficiency gains, and competitive pressures.",
+      "Supportive regulatory environments that encourage AI innovation and adoption, including favorable tax policies and relaxed data privacy regulations.",
+      "Economic downturns that accelerate the adoption of AI-driven solutions as companies seek to cut costs and improve efficiency.",
+      "Major AI-driven product launches and partnerships, particularly in sectors such as autonomous vehicles, healthcare, and finance."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-03-06T04:02:45.879215",
+    "updated_at": "2026-03-06 10:02:45",
+    "insight_title": "Economic Growth through Creative Destruction",
+    "source_name": "Monetary Matters with Jack Farley",
+    "source_date": "2026-03-05"
+  },
+  "62": {
+    "id": 53,
+    "insight_id": 62,
+    "podcast_episode_id": 45,
+    "overview": "The recent US-Iran conflict, dubbed Operation Epic Fury, has significant geopolitical and investment implications. Iran's Supreme Leader Ali Hamani was killed, and the US aims to disarm Iran's ability to support terror groups and develop ICBMs and nuclear weapons. This conflict could escalate, potentially involving boots on the ground and regime change. The situation is fluid, with potential to impact global markets, particularly those tied to China and oil supply chains. Investors must understand the evolving risks and opportunities in this volatile environment.",
+    "key_takeaways_detailed": [
+      "The US-Iran conflict could escalate, impacting global markets and supply chains.",
+      "Investors should monitor developments closely, as the situation is fluid and could change rapidly.",
+      "Companies with significant exposure to China and the Middle East may face heightened risks.",
+      "The conflict could create opportunities for companies involved in defense and cybersecurity.",
+      "Investors should consider hedging strategies to protect against potential market volatility."
+    ],
+    "investment_thesis": "The US-Iran conflict presents both risks and opportunities for investors. Geopolitical tensions could escalate, impacting global markets and supply chains. Companies with significant exposure to China and the Middle East may face heightened risks. However, the conflict could also create opportunities for companies involved in defense and cybersecurity. Investors should position their portfolios to capitalize on these dynamics, while also considering hedging strategies to protect against potential market volatility. The conflict's resolution and its impact on global markets will likely play out over the medium to long term (3-12 months to >1 year).",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple has significant exposure to China, both in terms of manufacturing and sales. Escalating tensions between the US and China could impact Apple's supply chain and sales.",
+        "positioning": "Investors should consider a tactical short position in AAPL, given the heightened risks associated with the US-Iran conflict and its potential impact on China. However, a long-term strategic position could be warranted if the conflict leads to a resolution that benefits US companies operating in China.",
+        "risk": "Key risks for AAPL include supply chain disruptions, reduced demand in China, and potential regulatory challenges."
+      },
+      "NVDA": {
+        "rationale": "Nvidia is a leading provider of AI and GPU technology, which could be utilized in defense and cybersecurity applications. The US-Iran conflict could create increased demand for these technologies.",
+        "positioning": "Investors should consider a long position in NVDA as a strategic play on the increased demand for defense and cybersecurity technologies resulting from the US-Iran conflict.",
+        "risk": "Key risks for NVDA include potential supply chain disruptions and increased competition in the AI and GPU space."
+      },
+      "SPY": {
+        "rationale": "The SPDR S&P 500 ETF (SPY) provides broad exposure to the US stock market. The US-Iran conflict could create volatility and potential downside risk for the overall market.",
+        "positioning": "Investors should consider a tactical short position in SPY to hedge against potential market volatility resulting from the US-Iran conflict. A long-term strategic position could be warranted if the conflict leads to a resolution that benefits the US economy and markets.",
+        "risk": "Key risks for SPY include market volatility, geopolitical tensions, and potential economic fallout from the conflict."
+      },
+      "TSLA": {
+        "rationale": "Tesla has significant exposure to China, both in terms of manufacturing and sales. Escalating tensions between the US and China could impact Tesla's supply chain and sales.",
+        "positioning": "Investors should consider a tactical short position in TSLA, given the heightened risks associated with the US-Iran conflict and its potential impact on China. However, a long-term strategic position could be warranted if the conflict leads to a resolution that benefits US companies operating in China.",
+        "risk": "Key risks for TSLA include supply chain disruptions, reduced demand in China, and potential regulatory challenges."
+      }
+    },
+    "positioning_guidance": "Investors should position their portfolios to capitalize on the risks and opportunities presented by the US-Iran conflict. This could include taking tactical short positions in companies with significant exposure to China and the Middle East, such as AAPL and TSLA. Long positions in defense and cybersecurity companies, such as NVDA, could also be warranted. Investors should also consider hedging strategies, such as shorting the overall market through SPY, to protect against potential market volatility. Position sizing should be based on individual risk tolerance and investment objectives, with a focus on maintaining a balanced and diversified portfolio.",
+    "risk_factors": [
+      "Escalating tensions between the US and Iran could lead to a prolonged conflict, creating significant market volatility and economic fallout.",
+      "The conflict could disrupt global supply chains, particularly for companies with significant exposure to China and the Middle East.",
+      "Geopolitical tensions could lead to increased regulatory challenges for US companies operating in China and other affected regions.",
+      "The conflict could create opportunities for defense and cybersecurity companies, but also increased competition in these spaces.",
+      "The potential for a resolution that benefits US companies operating in China could lead to a reassessment of investment theses and positioning."
+    ],
+    "contrarian_signals": [
+      "While the US-Iran conflict presents significant risks, a resolution that benefits US companies operating in China could create opportunities for long-term strategic positioning.",
+      "The conflict could lead to increased demand for defense and cybersecurity technologies, but also increased competition in these spaces.",
+      "Investors should consider the potential for a 'peace dividend' if the conflict leads to a resolution that reduces geopolitical tensions and benefits the global economy."
+    ],
+    "catalysts": [
+      "Developments in the US-Iran conflict, including potential escalation or resolution, could move the thesis forward.",
+      "Upcoming negotiations between the US and China in April could provide insight into the potential for a resolution that benefits US companies.",
+      "Economic data and corporate earnings reports could provide insight into the impact of the conflict on global supply chains and the overall economy.",
+      "Geopolitical developments, such as changes in leadership or policy shifts, could impact the conflict and its implications for investors.",
+      "Technological advancements in defense and cybersecurity could create opportunities for companies in these spaces, but also increased competition."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-03-06T07:46:06.546920",
+    "updated_at": "2026-03-06 13:46:06",
+    "insight_title": "Emergency Podcast: US-Iran Conflict and its Impact on Global Markets",
+    "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "source_date": "2026-03-06"
+  },
+  "63": {
+    "id": 54,
+    "insight_id": 63,
+    "podcast_episode_id": 46,
+    "overview": "The investment thesis revolves around the transformative impact of AI on the Software as a Service (SaaS) landscape. As AI capabilities evolve, traditional SaaS models are being challenged, with the potential to either disrupt or enhance business operations. This shift is creating a bifurcated market where companies that can successfully integrate AI to automate tasks and improve efficiency will thrive, while others may struggle. The current market dynamics, including the so-called 'SaaS apocalypse,' reflect a period of adjustment as investors reassess the value and potential of SaaS companies in light of these technological changes. Understanding which companies are poised to benefit from AI integration and which are at risk of obsolescence is crucial for investors to navigate this new landscape effectively.",
+    "key_takeaways_detailed": [
+      "Investors should identify SaaS companies that are proactively integrating AI to automate tasks, as these are likely to see increased efficiency and value.",
+      "Monitor companies for their ability to redesign human-software interactions, as this will be a key differentiator in the AI era.",
+      "Be cautious of SaaS companies with business models tied to tasks that AI can now perform, as they may face obsolescence.",
+      "Look for companies that can demonstrate a clear path to adapting their business models to the AI transformation, as this will be critical for long-term success.",
+      "Consider the potential for AI to disrupt traditional pricing models, as this could lead to revaluations across the SaaS sector."
+    ],
+    "investment_thesis": "The core investment logic is that the AI transformation will create a significant bifurcation in the SaaS sector. Companies that can leverage AI to automate and enhance their services will see increased value, while those unable to adapt may face decline. Catalysts for this thesis include advancements in AI technology, the rate of adoption by SaaS companies, and market recognition of the differential impact on various business models. The timeframe for this thesis is medium to long-term, as the full impact of AI on the SaaS landscape will likely unfold over several years.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's foray into AI and machine learning, particularly with its focus on privacy-preserving AI, positions it to benefit from the AI transformation in SaaS. Its ability to integrate AI into its suite of services could provide a competitive edge.",
+        "positioning": "Long-term strategic position, as Apple's AI capabilities are expected to enhance its service offerings and drive value over the medium to long term.",
+        "risk": "Key risks include slower than expected AI adoption rates and increased competition in the AI space."
+      },
+      "NVDA": {
+        "rationale": "NVIDIA is a leader in AI hardware, with its GPUs being essential for training and running AI models. As AI becomes more integral to SaaS, NVIDIA's position in the supply chain could be highly beneficial.",
+        "positioning": "Long-term strategic position, as demand for AI hardware is expected to grow with the expansion of AI in SaaS.",
+        "risk": "The risk of technological disruption in AI hardware or a slowdown in AI adoption could impact NVIDIA's growth prospects."
+      },
+      "CRM": {
+        "rationale": "Salesforce, as a major player in the CRM SaaS space, has significant opportunities to integrate AI to enhance its platform and services, potentially leading to increased efficiency and customer retention.",
+        "positioning": "Medium-term tactical position, as the integration of AI could provide a short-term boost to Salesforce's competitive position.",
+        "risk": "The risk of failing to effectively integrate AI or losing market share to more agile competitors could impact Salesforce's performance."
+      },
+      "WDAY": {
+        "rationale": "Workday, with its focus on human capital management and financial management, is well-positioned to leverage AI to automate and streamline HR and financial processes, potentially increasing its value proposition to customers.",
+        "positioning": "Long-term strategic position, as Workday's ability to integrate AI could lead to increased efficiency and growth.",
+        "risk": "The risk of not keeping pace with AI advancements or facing increased competition from AI-focused startups could challenge Workday's growth."
+      },
+      "NOW": {
+        "rationale": "ServiceNow, offering cloud computing services for automation and digital workflow, is poised to benefit from the AI transformation as it can enhance its services with AI capabilities, improving automation and efficiency.",
+        "positioning": "Medium-term tactical position, as the integration of AI could provide a competitive advantage in the short to medium term.",
+        "risk": "The risk of technological disruptions or failure to innovate could hinder ServiceNow's ability to capitalize on the AI transformation."
+      }
+    },
+    "positioning_guidance": "Investors should consider a balanced portfolio with a mix of long-term strategic positions in companies leading the AI transformation, such as AAPL and NVDA, and medium-term tactical positions in SaaS companies that are actively integrating AI, like CRM, WDAY, and NOW. Entry points should be based on a thorough analysis of each company's AI integration progress and market positioning. Timeframes for these positions should align with the expected timeline for AI to impact the SaaS sector, which is medium to long-term. Investors may also consider hedging against potential disruptions in the AI space or economic downturns that could affect SaaS valuations.",
+    "risk_factors": [
+      "Slow AI adoption rates across the SaaS sector could delay the expected benefits of AI integration.",
+      "Increased competition from new entrants leveraging AI could disrupt established SaaS companies.",
+      "Technological disruptions in AI could render current AI investments obsolete.",
+      "Economic downturns could reduce spending on SaaS solutions, impacting growth prospects.",
+      "Regulatory changes, particularly around data privacy and AI usage, could hinder the development and deployment of AI in SaaS solutions."
+    ],
+    "contrarian_signals": [
+      "The belief that AI will not significantly impact the SaaS sector, as some argue that the current market adjustments are overreactions.",
+      "The view that traditional SaaS companies will be able to quickly adapt to AI integration without significant business model changes.",
+      "The possibility that AI advancements will be slower than expected, reducing the immediate impact on the SaaS landscape."
+    ],
+    "catalysts": [
+      "Upcoming AI-related product launches or partnerships from key SaaS players.",
+      "Quarterly earnings reports that demonstrate the impact of AI integration on SaaS company performance.",
+      "Major AI conferences or events that showcase new advancements applicable to the SaaS sector.",
+      "Regulatory decisions that either support or hinder the use of AI in SaaS solutions.",
+      "Economic indicators that signal the health of the SaaS market and the potential for AI-driven growth."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-03-07T04:01:03.993886",
+    "updated_at": "2026-03-07 10:01:03",
+    "insight_title": "The AI Transformation of Software and SaaS Landscape",
+    "source_name": "The a16z Show",
+    "source_date": "2026-03-06"
   }
 },
   "suggestedTerms": [

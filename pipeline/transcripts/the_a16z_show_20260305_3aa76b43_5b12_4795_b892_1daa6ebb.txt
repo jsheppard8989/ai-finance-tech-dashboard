@@ -1,0 +1,658 @@
+You may not be interested in politics, but politics has an interest in you.
+What is politics?
+War by other means.
+You might not be interested in that.
+It is going to have an interest in you.
+If we're going to analogize it to nuclear weapons,
+as Dario Amade has done repeatedly,
+you have to think through what would happen in a world
+where a private company developed nuclear weapons.
+It's a tension has been brewing for years,
+which is are you an American company subject to American law,
+and even beyond law,
+just morally compelled to support the US military or not.
+A private company built something powerful enough
+that the government threatened to destroy it for not cooperating.
+That's not hypothetical.
+It happened last week when the Department of War
+designated anthrophic a supply chain risk
+after the company refused to remove safeguards against mass domestic surveillance
+and to autonomous weapons.
+Then Thompson's response wasn't to defend either side.
+It was to point out what almost no one was saying.
+If AI is as powerful as its builders claim,
+the people with guns are going to want to say.
+Whether that means the US government compelling access
+or China deciding to act because America is getting too powerful,
+these are no longer theoretical questions.
+In this conversation previously aired on TDPN,
+John Cooke and Jory Hayes speak with Ben Thompson,
+founder of Stratécary about his essay,
+Anthropic and Alignment.
+We have Ben Thompson in the resturing waiting room.
+From Stratécary.
+Welcome to the show, Ben, how are you doing?
+I'm good.
+Hopefully I have the right microphone turned on this time.
+You do.
+It sounds fantastic.
+Thank you so much for joining on short notice.
+Thank you for writing Anthropic and Alignment.
+It is a fantastic piece that I think covers all of my questions.
+But I want to start with just how did you process the weekend?
+How did you get to this particular place?
+What is your key thesis with Anthropic and Alignment?
+This is one of those ones.
+I don't know if it's good or bad that it came out sort of at the end of the week.
+So I had a lot of time to think about it.
+Ultimately, I think it was good because I'm not sure anyone very as explicitly made the point I did.
+And maybe it was bad because I feel there is a lot of like caveats,
+maybe in retrospect I should have put in the article.
+And I would have addressed a lot of the points that people are upset about.
+Yeah.
+Basically zooming out, this was not a normative article where I'm saying what's happening is good or bad.
+And that's really the one caveat.
+I really wish I would have put on there.
+I mean, I'm being out there accused of like a new appetite,
+like the full-froated fascist endorsement of fascism or something like that.
+And it's like, relax.
+You know, okay, can I get some sort of product for the last X number of years?
+Basically, there is a deep rooted concern that I've had for a long time about.
+And I now hasn't even used sort of EA as a term because it's kind of now politicized.
+Thanks to the events of the last week.
+But a failure to grapple with a world of guns is basically the long ensured of it.
+And I actually think a loser has been the one guy who's been honest about this,
+where he wrote that time article about potentially bombing data center someday.
+And that's actually a point worth bringing up,
+which is all this stuff is right now in the digital realm with robotic,
+and potential other applications.
+And it's obviously being used for military operations.
+It's crossing over into the physical realm.
+But if AI is as powerful as people say it's going to be,
+then there are going to be real world reactions to that.
+And if we're going to analogize it to nuclear weapons,
+as Dario Amide has done repeatedly,
+you have to think through what's what would happen in a world where a private company
+developed nuclear weapons.
+What would the government's response be?
+And that's not to say that the government response in that case is good or bad,
+or does it follow sort of constitutional principles or whatever it might be?
+Obviously, I want them to.
+On the surveillance point, I've been concerned about the application of computers
+to our surveillance laws for years.
+Like so many things in our society assumed a certain level of friction in doing things
+that computers already updated.
+And AI is going to just do that on steroids.
+I do think we need new laws.
+I think all this stuff is correct.
+And I think the idea that AI being applied to these commercially purchased data sets,
+for example, is a huge problem that I don't want to happen.
+The concern I have is that if this technology is as powerful as it is on pace to be,
+unilaterally imposing restrictions,
+even if those restrictions are good,
+isn't just an issue as far as who rules us,
+the democracy issue, that sort of Palmer Wookie, I think, very eloquently raised.
+It's inviting very bad outcomes for those asserting that in general.
+And I feel there's been a lack of awareness of this.
+That's why I brought up the Taiwan China thing.
+This has been a frustration I've had with anthropic generally.
+They talk about, you know,
+very outspoken in terms of opposing selling chips to China,
+for in a narrow, you know, aspect, very, very good reasons.
+My pushback has always been what happens if we get super powerful AI,
+and China doesn't.
+What are they going to do?
+Sure.
+The optimal thing would be to just bomb TSMC out of existence,
+because suddenly that becomes optimal even with all the costs that that does.
+And then what?
+What are we going to do?
+Like we're entering this, like I don't like getting into political posts.
+It's not fun at all.
+I'm not having fun with this.
+It's not enjoyable.
+I could promise you this.
+And so people like, well, you should've just made the post-private.
+I'm like, no, actually, I really want anthropic and people associated with this
+to read this because people have theorized for a while about what's going to happen.
+That's going to happen as AI becomes more powerful.
+And now it's starting to happen for real.
+And I guess over the weekend, part of it was just, I felt compelled to say this,
+and girding myself to do so.
+And even then, I still wasn't having it.
+I've been waiting for a while, it's no fun, but it is what it is.
+Can you unpack a little bit more of that tweet that you posted,
+where you did the find on the Dario article for Taiwan,
+and saw that it wasn't mentioned.
+I mean, I just kind of, I've sort of gripped about this in general.
+Yeah, I think that.
+So do you just think he should be, he should be talking about this high-one issue
+more deliberately, he should be messaging that.
+Like, why is it important that, why is it significant that he doesn't mention Taiwan?
+Well, oh, I think the position about not selling chips to China
+is a totally legitimate one.
+I understand the argument.
+If I needed to, like, uh, I have advocated the opposite.
+That number one, not only should we be selling chips to China,
+and a generation or to behind, which has always been sort of our standard practice with chips.
+We should also be allowing Chinese companies to fab with TSMC.
+That is a restriction that has come down.
+Now, these Huawei chips are somehow manufactured by TSMC.
+It's not worth too closely at it, but we should explicitly be allowing it.
+And the reason for that is I think it is a safer equilibrium to have China dependent on Taiwan
+than to try to cut them off from Taiwan.
+Yeah.
+Well, we are dependent on Taiwan.
+Taiwan is 70 miles off the coast of China.
+It's not an ideal position in the world for us to have a dependency on it
+and China to not have a dependency on it.
+Yeah.
+This and this is a problem.
+All this stuff has everything going forward has massive tradeoffs.
+Yeah.
+The implication of letting China fab with TSMC or the implication of letting them buy in video chips
+is that they gain these incredibly powerful AI capabilities that is driving this entire debate.
+That is in a vacuum, not a good thing.
+But nothing's in a vacuum.
+Yeah.
+Everything is a tradeoff.
+And in that specific area, I think that just it's repeatedly again and again being absolutely
+this about the chip issue when I am frustrated to not see any public comments about that.
+That's not quite fair.
+He has made comments about, oh, yeah.
+That would slow down sort of the adoption of the Warren of Taiwan got got popped.
+I'm like, that's in my mind.
+That's an insufficient consideration of the possibility of getting popped.
+Now, again, I buy some of that regard.
+I live there for nearly two decades.
+But it's just the reason I brought it up in this context is if AI is what it is, the people with guns
+are going to want to have a say, whether that be domestically, whether that be internationally,
+that might be in the context of the US government just taking it, try to kill your company
+because they feel you're not cooperating or it might be the context of trying to deciding it has to act
+because the US is becoming too powerful because you know, and it's not a fun debate.
+It does, I do think the nuclear angle is a good one.
+It has echoes of the proliferation, question of mutual assertion, all those sorts of things,
+and that's just going to be the reality that it's going for it.
+And again, it's not very fun, but I think it's also irresponsible to sort of run away from it.
+How much attention, or what kind of factor do you think the information asymmetry between the Department of War
+and Theropic played last week?
+It felt like in hindsight, the Department of War knows they're headed into a major, what is now looking like a drawn out,
+conflict and Theropic sitting there thinking, hey, they would have this arbitrary deadline.
+Why do we need to renegotiate this now?
+If going off of a meal, Michael's timeline, it sounds like they were still in the final hour trying to make a deal happen
+and according to a meal, Dario was in a meeting and was busy and wasn't really respecting the deadline
+which maybe he felt was kind of artificial, but in hindsight, now looks like it was a significant
+because the Department of War was taking the country into a conflict and wanted to know,
+hey, can we lean on one of our, one of our AI partners?
+I don't know.
+I mean, I think that seems pretty arbitrary to have, I mean, I'm hesitant to speculate.
+I don't know what was going on.
+I don't know the angles.
+I think, and that's why I didn't sort of delve too deeply into it.
+I also think some of the specifics like this supply chain risk probably over broad.
+And almost certainly the way it was stated in the tweet is definitely over broad.
+If you actually go and re-read the statute.
+I think the goal that I was, and again, this is where I wish I had sort of put more caveats to say,
+I'm not actually talking about all that stuff.
+I don't really care.
+I do care, but that's not the point of this article.
+There's all this talk about alignment.
+That's why I put that in the headline.
+And on one hand, alignment is a line AI with humanity generally.
+But for the foreseeable future and you could have a philosophical argument about the long-term viability
+of nation states in the age of the internet, much less the age of AI and whatever that might be.
+That certainly is, you know, a more pressing conversation than probably ever before.
+And foropic exists in the context of the United States.
+And that's why I put that quote.
+You may not be interested in politics as an interest in you.
+What is politics?
+War by other means.
+You might not be interested in that.
+It is going to have an interest in you.
+And there's a certain long-standing frustration of not fully grappling with that fact,
+having dorm room theoretical arguments about AGI.
+You go back to that post over Christmas about like,
+AGI in like 100 years and no one having any jobs or being worthless or pointless or whatever.
+Which included some implicit assumptions around property rights existing at 150 years as they exist today.
+News flash.
+If that happens property rights as they exist today are going away.
+All of these rights and this is a philosophical argument.
+That's why start with the international law concept.
+All these rights, all these laws are subject to the agreement of those governed by them to follow them.
+And the final say is those who successfully inflict violence.
+And again, this isn't fun to think about.
+It's not pleasant.
+You would like to assume we operate in a world of laws that everyone follows them and goes by them.
+But to the extent AGI is as impactful and powerful as it is,
+the more these questions, fundamental questions that we thought have been settled for hundreds of years.
+If not thousands of years are going to be raised.
+And this is just the first of several episodes, right?
+I think that's going to happen.
+I grew up in sort of like post Cold War, no ducking cover.
+Didn't have a lot of fear of nuclear Armageddon.
+Dario Amade is a fan of this book, the making of the nuclear bomb.
+And it seemed like he sort of predicted that if AGI becomes super powerful,
+the US might take a similar approach that they did with regulation of nuclear weapons.
+And as I was thinking about that, I feel sort of good about the way nuclear weapons are regulated.
+I feel like it we got the good ending and we haven't had nuclear weapons drop in 70 years.
+And it seems like things are going well there as well as they can considering that there's this amazing,
+you know, tremendous like dangerous technology that exists.
+But it hasn't been deployed.
+It hasn't actually bombed anyone.
+But how do you think he's processing that that book?
+How do you think we should be processing that idea of the government?
+Running the same playbook that they did with nuclear weapons?
+It's pretty interesting.
+I mean, one hand, just from sort of a physical perspective, dealing with weights and software,
+is very different than dealing with fishable material.
+Or I guess the super bombs are like, they're actually like fusion devices.
+And that is trackable.
+It is interceptable.
+You know when I ran to take a pertinent example is trying to build
+enrichment facilities.
+All of which makes the problem easier to solve.
+Yeah.
+So that's different number one.
+Difference number two.
+And I really wish I would.
+I had this included.
+I cut it so that the sort of the article will be tighter.
+But there is a very interesting point in technological history, which was the early days of intel.
+And Bob noise made the decision that we will sell to the government.
+But we're not going to design ships for the government.
+And the distinction there was you had guaranteed orders, which was great.
+The government would take your IP and there was, and in his mind, the more important thing is there was limited volume.
+And the way that he foresaw correctly that this was going to be a very upfront capital intensive process of designing share share design them.
+If you have the equipment, all of which is in the billions of dollars a day.
+The fact that it was in the tens of millions and hundreds of millions is you need to find the largest possible market, which was the consumer slash business market.
+You designed for that that will accelerate your improvement and your capabilities so much that you will end up having better devices in the government.
+I could have ever requested or made for itself.
+Yeah.
+That is at stake on steroids with AI.
+People like I was talking to someone that like, why doesn't the government just get someone to make their own model?
+It's like because it's got like you talk about government contracts.
+We're like single digit billions.
+We're talking about for the amount that's going to cap X.
+The cost of these models.
+We're talking hundreds of millions of dollars for the models.
+And hundreds of billions of dollars are approaching a trillion dollars a year in cap X.
+That is only sustainable and viable if you're selling to everyone.
+And but that introduces the entire new dynamics where the government built nuclear.
+It started there and it started with a lot of assumptions because it was a government program.
+We are necessarily for economic reasons because of all the upfront costs entailed starting with private companies of which the government is one of many customers.
+That introduces the assumption that well, it's a private company with private property rights in all those sorts of things.
+All of which I want to be true.
+Again, I don't like how this is going down at all.
+The point here is to say, there's a good reason why it's not going down that way.
+And there needs to be cognizants that even though these is a private company that is building the model general purpose.
+And for very good reasons, wants to put restrictions.
+Again, I think that the same way is one is a very powerful argument that I agree with.
+The problem is that you just need to be aware of.
+Yes, the government is a small customer.
+The government is also the entity again, that to be put with guns.
+Like they, you know, like why do I pay taxes?
+Because the law says pay taxes.
+You know, if you really want to distill down, if I don't, someone with guns will come to my house and throw me in jail, right?
+Like we don't think about that, but at the end of the day, where do these assumptions and laws and rights flow from?
+And as long as that is still the case, that it needs to be a decision making factor for these companies.
+How do you think this plays out for anthropic?
+It's such a small contract, but it's so important in the zeitgeist.
+There's a lot of people that are rallying around anthropic because of this.
+There's a lot of people that are pulling away for anthropic because of this.
+It feels like there is a business to be built that doesn't work with the government,
+but delivers coding models and knowledge retrieval systems and a whole bunch of really valuable products and technology.
+And it winds up being fine.
+But at the same time, you don't want this like hairy relationship with the government adversarial, right?
+Go on for a long time.
+I would like them to sell to the government, now like Congress to pass a law addressing these digital surveillance issues.
+Yeah.
+And a lot of people are like, that's unrealistic, which I've amenable to, but at the end of the day,
+if you don't have its legal or not legal as your guiding standard, the only alternative is someone has to decide.
+Yeah.
+And the implication of that not being a sufficient justification is that means a private executive is deciding.
+Yeah.
+And if they eyes what it is, I think that's going to be, I use this word intolerable.
+To me, I meant intolerable to those with power to have a private executive making those decisions or not.
+And if you think about if power, if we're going to have this very sort of brute analysis, the power flows from or laws flow from power.
+And I is a source of power.
+Yeah.
+So it's not just that, and I think this is where the supply chain, again, which I'm not endorsing,
+but I think that's where the motivation is coming from.
+The goal isn't to finally just won't use anthropic.
+I do think the goal is to hurt anthropic.
+Yeah.
+And if you're not going to be subservient to us, you're not going to be allowed to build a power based period.
+And again, I'm not endorsing all this.
+Yeah.
+It's just a matter of it's not a surprise.
+This is happening.
+Yeah.
+And it'd be, the season be just a, is a real risk factor, a real, that has to be considered in all these decisions.
+Putting on my Dario hat, I'm thinking about a different way to achieve the goals with maybe less sacrimony.
+And I threw out this idea that maybe the better solution is like work with the government,
+but then lobby for a surveillance act and actually.
+Yeah.
+I went to the White House would come out and say, yeah, there's a digital surveillance problem.
+Let's work on a bit.
+Like I, I don't, yeah.
+Probably another regret I have is sort of putting this all on anthropic.
+That was sort of the angle I was concerned about.
+I mean, that left me, I think fairly open to the critique that this is just like defending.
+The way I was approached.
+And that was, again, that was, I was trying to be a higher level.
+That's saying, look, this is what's going to happen.
+But yeah, the, I'm just thinking of the perspective of a way to find a middle ground here.
+I'm just thinking of, like, from the perspective of, like, the, if the White House is like this immutable thing.
+I mean, that you are involved in anthropic, like, like, one advice would be, hey,
+okay, instead of going in and having this confrontation with the government directly,
+go and start a political action committee that lobbies for change in the way that you want through the democratic process.
+Yes, that is the ideal process.
+I understand why people are frustrated and skeptical about this.
+Okay.
+I used to have this debate a lot in the context of, and I trust, and aggregators.
+And one of my sort of thesis about the aggregators, and then I trust is that the,
+the antitrust laws are fundamentally unsuited to dealing with aggregators,
+because antitrust laws historically been about control of supply and the power of aggregators flows from control of demand.
+And so you end up with all these solutions that I call pushing on a string.
+You're just trying to get people to change how they behave.
+And that doesn't work very well.
+Like Google has always been right.
+Competition has always been just a click away.
+The problem is people aren't clicking.
+And like, like, so the solutions focused on the supply angle,
+doesn't work in a world where the supply is there, just no one's choosing it.
+Yeah.
+And therefore, my prescription is you actually need to pass new laws, not try to retrofit these old laws
+to this new use case where they don't work.
+And the reaction is always, that's impossible.
+We can't pass new laws.
+And okay, but realize the implications of what, of what you're saying.
+I mean, I saw a tweet, again, I didn't like it.
+So I lost it forever when the most infuriating things in the world.
+But someone's like, I would definitely rather have Dario Amade make these decisions then.
+And he into this tweeter's credit.
+He wasn't limited to Trump.
+Because me, this isn't a Trump issue.
+This is a any politician issue.
+Yeah.
+He said, I would rather have Amade make these decisions than whoever comes out of our screwed up democratic process.
+Yeah.
+And points for the honesty, because that's the actual choice.
+That is that is being put forward.
+And you could say Congress isn't going to do anything.
+Therefore, Amade should just appreciate that is giving up on the democratic process in saying
+we should have unelected, unaccountable individuals making weighty decisions.
+And again, I understand this sentiment.
+It's hard to imagine Congress passing laws about anything.
+But just realize that implication is quite fraud.
+Yeah.
+It's a huge change.
+I mean, I just spawn in and believe in democracy and then understand it and study economics.
+And then just reinforce my belief in the American project throughout my entire career.
+And now it really is people discussing an entirely different world of governance,
+which has been not something people have talked about publicly for a very long time.
+But it is here.
+For sure.
+Right.
+And they always come in on these Trojan horses that are permanently debensable.
+Again, I with anthropic on the digital surveillance.
+Yeah.
+I've been concerned about it for years.
+Yeah.
+Been ready about it for ages.
+And it's similar in terms of analogy to the,
+to the, like you have all these laws that assume someone has to actually physically go somewhere
+and tap into a phone line.
+Yeah.
+But if you can do it with computers at scale,
+like suddenly you had all these assumptions that limited with the government could do that magically disappear
+and not because of the law change.
+But because we got computers that could do the job of an individual at scale infinitely.
+And AI again is going to live the idea that the NSA,
+by the way, this is my sort of like,
+I do admit this at the article.
+Yeah.
+I was so confused by the Pentagon was so obsessed with domestic violence.
+Yeah.
+Yeah.
+I didn't realize yet to say it was part of the John and I.
+John and I had the same moment.
+Yeah.
+Yeah.
+Yeah.
+You're sort of thought about it as like an independent agency.
+Yeah.
+Yeah.
+But that's a bit of a lot of the story makes more sense.
+Yeah.
+Exactly.
+Yeah.
+I feel like a lot of tech people are like reading the fourth amendment today.
+And understanding like,
+some of these like pretty basic processes.
+Well, yeah.
+But like it's pretty, like the whipples are massive.
+Like I'm not denying it.
+Like it.
+And it's similar to the chip thing with China.
+Like my prescription for anthropic.
+And it's similar to given is to allow these massive loopholes to be exploited.
+And for the NSA to.
+Allegedly in the service of.
+Investigating for an ever series.
+But by.
+You know, the process basically surveilling the domestic population.
+I think is bad.
+And the reality is.
+The nature of tradeoffs is you're choosing between multiple bad options.
+And.
+At some point, it's like.
+Which team are you signing up for?
+Yeah.
+They both suck.
+Yeah.
+What do you think of the.
+The messaging around like the models themselves.
+Not being capable enough to be used in the context that the department of war asked for.
+Because I felt like Darry was was sort of speaking for all frontier labs.
+He said that like these technologies broadly are not suitable for these missions just yet.
+I'm not sure that he has all of the information on the other side to know about the efficacy.
+He certainly understands his models and what's capable in front here.
+I think that.
+Yeah, I would as I would assume they're definitely not capable.
+That that I think that point is more of a precedent setting one.
+I think anthropic position is significantly weaker on that point.
+Like at the end of the day, we either trust the military or not to make these sorts of decisions.
+That's why we have a military.
+Yeah.
+And so I have a harder time.
+And I think.
+The digital service point is so compelling for them because I think it may be my personal biases.
+Totally.
+I think it's a huge problem.
+Yeah.
+And you this very anecdotes again.
+I think the reporting from these because you can tell like the leaks coming from which side for each of these.
+Yeah, but you know, this idea that putting forward these hypothetical examples of like,
+Oh, you can call us and we'll figure it out then.
+It's like, no, come on.
+Yeah.
+Seriously, about this.
+Like, like, so yeah, I think that's a weak argument for them.
+So that's why I almost focus on the digital service one just because I think it is a very compelling argument in favor of the anthropic position.
+Do you want anything else?
+Oh, there's a lot more.
+What are you?
+What are you going to be tracking going forward?
+Obviously, the storm might come out.
+Yeah.
+Good luck.
+I'm so strong.
+No, I mean, I.
+The open eye angle is obviously interesting.
+I didn't really get into open AI.
+Yeah.
+It's hard to parse exactly what's going on.
+It seems to me.
+They have agreed to the to the Pentagon that they will be the Pentagon will be limited by lawful capabilities.
+Yep.
+And they're making their own judgments about weapon usage.
+And as I understand it, open AI is like, we will on our side be free to stop the model from doing digital surveillance, which sounds like you're in sort of a jailbreak competition.
+It's like, we're going to agree to have a jailbreak competition with the US government.
+Um, which I.
+Again, it's an example of how froth this is that that's probably the good place to come down on.
+Now, there's obviously these dynamics of competing for the same talent base being in San Francisco.
+You know, the this is part of and think and thropics.
+Thropic has a local advantage.
+Yep.
+And that most people I think in the industry are with them.
+And they have a national PR problem in that I think a lot of folks outside of tech don't understand why tech companies always try to or resist helping the US government.
+And so it's kind of an interesting dynamic where I think open AI is in step with the broader public and very much out of step with sort of their talent base in in San Francisco.
+And so that could be very interesting to see how that plays out.
+Uh, it's it's remarkable at Google has stayed out of the friend given all the project maven background and stuff like they must be so happy.
+And they're just like, well, that's the other thing is, uh, I this is actually goes back to Google.
+I believe where Google had the project and I think this is right.
+Yeah.
+But I think Google had project maven, which their employees objected to.
+Yep.
+And therefore that went to AWS.
+And then at some combination of I think the Pentagon is using anthropic because.
+There's a higher higher fed ramp designation.
+That's right.
+So that's why anthropic was already a wild for classified content and opening it.
+I wasn't.
+I don't know the.
+It was.
+I've studied.
+It does.
+It's a wild story.
+I mean, the it was similar like AI for the military, the same like killer robot fears.
+Uh, the actual, I mean, Google was a subcontractor on that project.
+And, uh, what they were actually exposing to the.
+Uh, to the government was TensorFlow APIs that would run on Google hardware.
+And so they weren't actually writing any AI software.
+But they wanted to effectively like classify images from drones in the Middle East.
+See, that's a car.
+That's a house.
+And previously they had Air Force Airmen just sitting there like clicking.
+And they were like, okay, we're going to automate that.
+Um, right.
+But, uh, but it was still like scary.
+Don't be evil.
+Working with the government.
+Military.
+And then there was a backlash.
+They pulled out.
+Then eventually they went back in and had a new head of Google cloud.
+Um.
+Yeah.
+I mean, this is, you know, it's hard to.
+And I speak for myself personally.
+I obviously have the bias thing because of Taiwan.
+I have the bias thing.
+Where.
+I think they're, you know, just in general.
+There is this very naive view of the world that doesn't understand why.
+Military's are important in necessary.
+And I think Silicon Valley got itself in a lot of trouble by giving in to this naive mindset.
+Yeah.
+That we have no duty to support the military.
+And there's this, this tension has been, so it's a tension has been brewing for years.
+Yeah.
+Which is, are you an American company subject to American law?
+And even beyond law, just morally compelled to support the US military.
+Yeah.
+And there's an equally American sort of idea of moral consciousness.
+I'm able to say no.
+That's why we have the first amendment, right?
+Do this goes into the, can the government compel a company to do something?
+It goes back to some of the questions that happen.
+You know, with the first Trump administration.
+And you know, I've been on both sides of this, like.
+Yeah.
+Which I, and this is what I'm going to say in CBS interview.
+He said, we are a private company.
+We can choose to sell or not sell whatever we want.
+There are other providers.
+He's already executive like making this case.
+Yeah.
+Which, again, it is a case that I support.
+Yeah.
+But the point here is.
+There's always the question with like a bubble or whatever.
+Is it different this time?
+Sure.
+And I guess that's sort of the question I'm raising.
+Yep.
+Is AI actually applicable to every other technology has come along?
+Sure.
+If it is the potential to be a source of power going forward.
+It's going to be dealt with as such.
+Yeah.
+No, make sense.
+Last question we'll let you go.
+How happy should Ted Srandos be right now?
+I mean, I think he had the killer quote.
+The last couple of days where I think so.
+It was asking you if this is such a jewel.
+And it is so rare.
+Like, isn't it a problem that you're missing out on it?
+Yeah.
+And he's like, well, have you seen the history of time Warner?
+It's something.
+Sounds about right.
+I'm not sure I'll do the entity with all the debt that pair about where brother is going
+on.
+Like, who else are content companies going to sell to?
+Yeah.
+I feel like they sort of.
+I think they've been spooked by you too a little bit.
+They've felt indeed to push forward.
+Yeah.
+That bring the future forward.
+That was not allowed to happen.
+But that means their original plan.
+I think still in place.
+So probably, probably pretty happy.
+All things considered.
+And I'm going to say, it's great.
+Well, I'm excited to get back to naturally.
+It's coverage.
+And more in and out.
+Yeah.
+Remember it was on cheeky.
+You were talking about getting sucked into.
+Yeah.
+I don't.
+So here we are.
+So I put that quote to be in my article.
+You know, you may not be interested in politics.
+What's called politics and interest in you.
+That was about anthropic.
+And it was also about me.
+You asked.
+What did you do?
+Welcome.
+Welcome to 2026.
+Well, we thank you for taking the time to come chat with us.
+Yeah.
+Great to see you.
+Fantastic article.
+We appreciate you, Ben.
+Talk to you soon.
+Thank you.
+That's great.
+Thanks for listening to this episode of the A60Z podcast.
+If you liked this episode, be sure to like, comment, subscribe,
+leave us a rating or a view, and share it with your friends and family.
+For more episodes, go to YouTube, Apple Podcast and Spotify.
+Follow us on X, A16Z, and subscribe to our Substack at A16Z.Substack.com.
+Thanks again for listening, and I'll see you in the next episode.
+This information is for educational purposes only and is not a recommendation to buy,
+hold or sell any investment or financial product.
+This podcast has been produced by a third party and may include pay promotional advertisements,
+other company references and individuals unafiliated with A16Z.
+Advertisements, companies, and individuals are not endorsed by AH Capital Management LLC, A16Z,
+or any of its affiliates.
+Information is from sources deemed reliable on the data publication, but A16Z does not care
+and teeth accuracy.

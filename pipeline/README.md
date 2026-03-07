@@ -54,7 +54,7 @@ crontab -e
 0 8 * * * cd ~/.openclaw/workspace/pipeline && python3 ingest.py && python3 analyze.py
 ```
 
-Or use OpenClaw's cron system to schedule runs.
+Or use OpenClaw's cron system to schedule runs. For scheduled runs to push to GitHub, set **GITHUB_PUSH_TOKEN** in the workspace `.env` (see MEMORY.md § Scheduled Jobs).
 
 ## Robust podcast transcription (queue + worker) — recommended
 

@@ -620,3 +620,1414 @@ Found 0 newsletters not yet on site
 STEP: Aggregate Daily Scores
 ============================================================
 ✓ Saved 0 daily scores
+============================================================
+AUTO PIPELINE
+Mode: full
+Started: 2026-03-05 21:00:00.253448
+============================================================
+
+============================================================
+STEP: Podcast Curation
+============================================================
+======================================================================
+Podcast Curation System
+======================================================================
+
+Found 6 podcast feeds
+
+Fetching episode metadata...
+  Fetching: https://feeds.megaphone.fm/DVVTS2890392624...
+    ✓ Moonshots with Peter Diamandis: 1 episodes
+  Fetching: https://feeds.megaphone.fm/EWWMN1909747317...
+    ✓ Monetary Matters with Jack Farley: 1 episodes
+  Fetching: https://feeds.simplecast.com/JGE3yC0V...
+    ✓ The a16z Show: 1 episodes
+  Fetching: https://rss.libsyn.com/shows/254861/destinations/1928300.xml...
+    ✓ All-In with Chamath, Jason, Sacks & Friedberg: 0 episodes
+  Fetching: https://anchor.fm/s/e29097f4/podcast/rss...
+    ✓ The Jack Mallers Show: 0 episodes
+  Fetching: https://feed.podbean.com/macrovoices/feed.xml...
+    ✓ Macro Voices: 1 episodes
+
+Matching audio files to episodes...
+  ✓ Matched: 1 files
+  ? Unmatched: 32 files
+
+Curating episodes for investment relevance...
+
+  APPROVED for transcription: 1
+  SKIPPED/EXCLUDED: 0
+
+======================================================================
+CURATION RESULTS
+======================================================================
+
+📌 APPROVED (will transcribe):
+
+  ✓ The a16z Show
+    Title: Ben Thompson: Anthropic, the Pentagon, and the Limits of Private Power
+    Keywords: ai, tech
+    File: default.mp3
+
+----------------------------------------------------------------------
+
+📋 REVIEW ALL:
+
+  ✓ [APPROVED] The a16z Show
+    Title: Ben Thompson: Anthropic, the Pentagon, and the Limits of Pri
+    Keywords: ai, tech
+
+
+✓ Curation log saved: /Users/jaredsheppard/.openclaw/workspace/pipeline/state/curation_log.json
+
+======================================================================
+NEXT STEPS
+======================================================================
+
+1. Review approved episodes above
+2. To transcribe approved episodes, run:
+   python3 transcribe_curated.py
+
+3. Or manually transcribe specific files:
+   whisper 'default.mp3' --model tiny --language en
+
+✓ Podcast Curation completed
+
+============================================================
+STEP: Fetch & Transcribe
+============================================================
+Found 6 podcast feeds
+
+📻 Processing: https://feeds.megaphone.fm/DVVTS2890392624...
+  📋 Latest: Financializing Super Intelligence, Amazon's $50B Late Fee | ...
+  ⬇️  Downloading: DVVTS8518765097.mp3
+     Title: Financializing Super Intelligence, Amazon's $50B Late Fee | ...
+     ✓ Downloaded to /Users/jaredsheppard/.openclaw/workspace/audio/DVVTS8518765097.mp3
+  🎙️  Transcribing: DVVTS8518765097.mp3
+  📥 Submitted to whisper queue: DVVTS8518765097.mp3
+  ⏭ Queue-only mode: not waiting. Run pipeline again after worker finishes.
+
+📻 Processing: https://feeds.megaphone.fm/EWWMN1909747317...
+  📋 Latest: The Economic Effects of Technological Disruption & Artificia...
+  ⬇️  Downloading: EWWMN7956955796.mp3
+     Title: The Economic Effects of Technological Disruption & Artificia...
+     ✓ Downloaded to /Users/jaredsheppard/.openclaw/workspace/audio/EWWMN7956955796.mp3
+  🎙️  Transcribing: EWWMN7956955796.mp3
+  📥 Submitted to whisper queue: EWWMN7956955796.mp3
+  ⏭ Queue-only mode: not waiting. Run pipeline again after worker finishes.
+
+📻 Processing: https://feeds.simplecast.com/JGE3yC0V...
+  📋 Latest: Ben Thompson: Anthropic, the Pentagon, and the Limits of Pri...
+  ⬇️  Downloading: the_a16z_show_20260305_3aa76b43_5b12_4795_b892_1daa6ebb.mp3
+     Title: Ben Thompson: Anthropic, the Pentagon, and the Limits of Pri...
+     ✓ Downloaded to /Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_20260305_3aa76b43_5b12_4795_b892_1daa6ebb.mp3
+  🎙️  Transcribing: the_a16z_show_20260305_3aa76b43_5b12_4795_b892_1daa6ebb.mp3
+  📥 Submitted to whisper queue: the_a16z_show_20260305_3aa76b43_5b12_4795_b892_1daa6ebb.mp3
+  ⏭ Queue-only mode: not waiting. Run pipeline again after worker finishes.
+
+📻 Processing: https://rss.libsyn.com/shows/254861/destinations/1...
+  ⏭ Already have 'Ray Dalio: Our System Is in Jeopardy - Debt, AI & ' (guid match, ep_id=37)
+  ✗ No episode found
+
+📻 Processing: https://anchor.fm/s/e29097f4/podcast/rss...
+  ⏭ Already have 'War, AI, and Bitcoin In Deep Value' (guid match, ep_id=38)
+  ✗ No episode found
+
+📻 Processing: https://feed.podbean.com/macrovoices/feed.xml...
+  📋 Latest: MacroVoices #522 Matt Loszak: Factory Mass-Production of Adv...
+  ⬇️  Downloading: MacroVoices-2026-03-05-Matt-Loszak.mp3
+     Title: MacroVoices #522 Matt Loszak: Factory Mass-Production of Adv...
+     ✓ Downloaded to /Users/jaredsheppard/.openclaw/workspace/audio/MacroVoices-2026-03-05-Matt-Loszak.mp3
+  🎙️  Transcribing: MacroVoices-2026-03-05-Matt-Loszak.mp3
+  📥 Submitted to whisper queue: MacroVoices-2026-03-05-Matt-Loszak.mp3
+  ⏭ Queue-only mode: not waiting. Run pipeline again after worker finishes.
+
+✓ Log saved: /Users/jaredsheppard/.openclaw/workspace/pipeline/state/fetch_log.json
+
+======================================================================
+SUMMARY
+======================================================================
+Total feeds: 6
+Successfully transcribed: 0
+Failed: 4
+
+Completed episodes:
+
+
+Next step: Run 'python3 research.py' to analyze transcripts
+
+✓ Fetch & Transcribe completed
+
+============================================================
+STEP: Newsletter Ingestion
+============================================================
+==================================================
+Newsletter Ingestion Pipeline
+==================================================
+
+Connecting to Gmail...
+Connecting to Gmail at imap.gmail.com:993...
+Logging in as jsheppard8989@gmail.com...
+Selecting folder: NEWSLETTERS...
+Found 0 unread emails
+
+No emails fetched. Trying manual mode...
+
+✓ Processed 0 emails
+
+Files saved to: /Users/jaredsheppard/.openclaw/workspace/pipeline/inbox
+
+Next step: Run analysis to score stock mentions
+
+✓ Newsletter Ingestion completed
+
+============================================================
+STEP: Transcript AI Analysis
+============================================================
+  ⚠ Google Generative AI library not installed. Run: pip install google-generativeai
+
+============================================================
+Processing Podcast Transcripts with AI
+============================================================
+  Using Moonshot/Kimi API (primary)
+Found 30 transcript files
+  Processing dario_amodei.txt...
+    ⏭ Too short, skipping
+  Processing elon_musk.txt...
+    ⏭ Too short, skipping
+
+✓ Transcript processing complete: 0 new, 28 skipped, 0 errors
+✓ Analyzed 0 new transcripts
+
+============================================================
+STEP: Newsletter Import
+============================================================
+  ⏭ Already in DB: =?UTF-8?B?8J+agA==?= SpaceX, xAI form $1.25T super-entity
+  ⏭ Already in DB: Fw: The Agentic Inversion: What Moltbook and Axie Infinity R
+  ⏭ Already in DB: =?utf-8?Q?Fw:_Figure=E2=80=99s_General_Purpose_Robot:_Why_20
+  ⏭ Already in DB: =?UTF-8?B?8J+agA==?= xAI's next phase unleashed
+  ⏭ Already in DB: =?UTF-8?B?8J+noA==?= Google's upgrade breaks reasoning barri
+  ⏭ Already in DB: =?UTF-8?B?8J+Urg==?= Sam Altman's OpenAI succession plan
+  ⏭ Already in DB: =?UTF-8?B?8J+aqg==?= xAI's co-founder exodus continues
+✓ Total newsletters imported: 0
+
+============================================================
+STEP: Promote Episodes to Insights
+============================================================
+Found 0 processed episodes not yet in insights
+✓ Promoted 0 new insight(s) to website
+
+============================================================
+STEP: Promote Newsletters to Insights
+============================================================
+Found 0 newsletters not yet on site
+
+============================================================
+STEP: Aggregate Daily Scores
+============================================================
+✓ Saved 0 daily scores
+
+============================================================
+STEP: Generate Deep Dives
+============================================================
+No insights need Deep Dives!
+
+✓ Generate Deep Dives completed
+
+============================================================
+STEP: Fetch Prices
+============================================================
+============================================
+  Loaded 32 tickers from ticker_scores.json
+
+Found 75 tickers
+  Fetching AAPL... $260.29 (+1.76%)
+  Fetching AMZN... $218.94 (+10.14%)
+  Fetching APP... $508.56 (+30.22%)
+  Fetching AVGO... $332.77 (+2.34%)
+  Fetching Altias...     Error fetching Altias: HTTP Error 404: Not Found
+Failed
+  Fetching AppLovin... $508.56 (+30.22%)
+  Fetching BAC... $49.81 (-5.21%)
+  Fetching BOSE...     Error fetching BOSE: HTTP Error 404: Not Found
+Failed
+  Fetching BP... $39.30 (+4.35%)
+  Fetching BTC... $71254.01 (+4.78%)
+  Fetching BTC-USD... $71254.01 (+4.78%)
+  Fetching CEG... $332.07 (+15.13%)
+  Fetching COIN... $205.71 (+25.19%)
+  Fetching CRM... $201.39 (+6.15%)
+  Fetching CROWD... $426.16 (-0.81%)
+  Fetching CRSP... $57.33 (+8.03%)
+  Fetching CVNA... $331.16 (-3.42%)
+  Fetching DIS... $102.41 (-2.88%)
+  Fetching DOCS... $26.07 (+4.20%)
+  Fetching DXY... $0.00 (+0.00%)
+  Fetching EDIT... $1.90 (+7.67%)
+  Fetching EMAX... $0.00 (-0.00%)
+  Fetching ETH-USD... $2083.48 (+5.56%)
+  Fetching FB... $42.57 (+0.57%)
+  Fetching FTIE... Failed
+  Fetching GDX... $101.82 (-2.04%)
+  Fetching GLD... $466.13 (+0.76%)
+  Fetching GOLD... $54.60 (-10.36%)
+  Fetching GOOGL... $300.88 (-1.58%)
+  Fetching GS... $835.46 (-7.70%)
+  Fetching HOOD... $80.56 (+6.04%)
+  Fetching IBM... $256.55 (-2.22%)
+  Fetching IEF... $96.51 (-0.72%)
+  Fetching ILMN... $128.24 (+9.79%)
+  Fetching INFY... $14.40 (-2.17%)
+  Fetching IWM... $256.76 (-2.36%)
+  Fetching JPY... $33.47 (-9.14%)
+  Fetching META... $660.57 (+3.25%)
+  Fetching MINE... $3.62 (-9.27%)
+  Fetching MSFT... $410.68 (+2.33%)
+  Fetching MSTR... $139.81 (+4.43%)
+  Fetching NEE... $91.13 (-2.85%)
+  Fetching NOW... $120.38 (+12.42%)
+  Fetching NVDA... $183.34 (+0.29%)
+  Fetching Nasdaq... $608.91 (+1.16%)
+  Fetching OKLO... $62.03 (-5.57%)
+  Fetching PLTR... $152.67 (+16.18%)
+  Fetching PQNT... $21.51 (-4.26%)
+  Fetching PYPL... $47.64 (+18.24%)
+  Fetching QQQ... $608.91 (+1.16%)
+  Fetching Russell... $256.76 (-2.36%)
+  Fetching S&P... $681.31 (-0.06%)
+  Fetching SLV... $74.27 (+6.53%)
+  Fetching SMR... $12.18 (-14.88%)
+  Fetching SNAP... $5.34 (+10.56%)
+  Fetching SNWGF... $13.38 (+4.94%)
+  Fetching SONY... $21.37 (-7.85%)
+  Fetching SPY... $681.31 (-0.06%)
+  Fetching SQ... Failed
+  Fetching SQQQ... $70.26 (-3.40%)
+  Fetching Semiconductors... $395.35 (-3.03%)
+  Fetching TDOC... $5.12 (+10.11%)
+  Fetching TLT... $88.79 (-1.04%)
+  Fetching TSLA... $405.55 (-2.85%)
+  Fetching TWTR...     Error fetching TWTR: HTTP Error 404: Not Found
+Failed
+  Fetching UNG... $12.05 (-3.14%)
+  Fetching USO... $96.31 (+26.36%)
+  Fetching VEEV... $196.06 (+12.61%)
+  Fetching VIX... $23.75 (+15.29%)
+  Fetching WIT... $2.22 (-5.13%)
+  Fetching WORK... Failed
+  Fetching XAU-USD... $0.00 (+0.00%)
+  Fetching XLE... $56.48 (+3.92%)
+  Fetching XLK... $140.18 (+0.44%)
+  Fetching XOM... $150.76 (+1.56%)
+
+✓ Saved 69 prices to /Users/jaredsheppard/.openclaw/workspace/site/price_data.json
+Finished: 2026-03-05 21:03:22.746494
+
+✓ Fetch Prices completed
+
+============================================================
+STEP: Generate Charts
+============================================================
+
+STDERR: Traceback (most recent call last):
+  File "/Users/jaredsheppard/.openclaw/workspace/pipeline/generate_charts.py", line 7, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+
+✗ Generate Charts failed
+
+============================================================
+STEP: Auto-Curate Terms
+============================================================
+============================================================
+Auto-Curating Suggested Terms
+============================================================
+
+🔍 Scanning content for new terms...
+
+✓ Found 0 new potential terms
+
+Found 0 new potential terms from recent content.
+
+📊 Analyzing 3 pending terms...
+------------------------------------------------------------
+
+============================================================
+CURATION SUMMARY
+============================================================
+  Auto-promoted: 0
+  Flagged for review: 3
+  Skipped (low relevance): 0
+
+============================================================
+TERMS FOR MANUAL REVIEW
+============================================================
+
+• Compute Deflation Trade
+  Relevance: 50
+  Mentions: 3 in 1 source(s)
+  Definition: The investment thesis built around the 400x AI compute cost collapse: identifying who wins (inferenc...
+
+• Agentic Velocity
+  Relevance: 50
+  Mentions: 2 in 1 source(s)
+  Definition: The compression of decision-making and capital deployment timescales as AI agents replace human work...
+
+• Machine-Native Money
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: Payment rails designed for autonomous AI agents rather than human users....
+
+✓ Auto-Curate Terms completed
+
+============================================================
+STEP: Export Website Data
+============================================================
+✓ Exported website data to /Users/jaredsheppard/.openclaw/workspace/site/data
+✓ Exported JSON: {'ticker_scores': 32, 'podcast_summaries': 14, 'archive_items': 53}
+✓ Bumped data.js cache-buster to v=1772766203
+✓ Generated data.js: 32 tickers, 53 archive items, 43 deep dives
+
+============================================================
+STEP: Push to GitHub
+============================================================
+✗ Git push failed: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
+Nothing new — skipping notification
+
+============================================================
+PIPELINE COMPLETE
+Finished: 2026-03-05 21:05:58.117766
+============================================================
+📊 Pipeline Complete
+
+
+🌐 Website updated
+============================================================
+AUTO PIPELINE
+Mode: full
+Started: 2026-03-06 04:00:00.206815
+============================================================
+
+============================================================
+STEP: Podcast Curation
+============================================================
+====================================
+Podcast Curation System
+======================================================================
+
+Found 6 podcast feeds
+
+Fetching episode metadata...
+  Fetching: https://feeds.megaphone.fm/DVVTS2890392624...
+    ✓ Moonshots with Peter Diamandis: 1 episodes
+  Fetching: https://feeds.megaphone.fm/EWWMN1909747317...
+    ✓ Monetary Matters with Jack Farley: 1 episodes
+  Fetching: https://feeds.simplecast.com/JGE3yC0V...
+    ✓ The a16z Show: 1 episodes
+  Fetching: https://rss.libsyn.com/shows/254861/destinations/1928300.xml...
+    ✓ All-In with Chamath, Jason, Sacks & Friedberg: 1 episodes
+  Fetching: https://anchor.fm/s/e29097f4/podcast/rss...
+    ✓ The Jack Mallers Show: 0 episodes
+  Fetching: https://feed.podbean.com/macrovoices/feed.xml...
+    ✓ Macro Voices: 1 episodes
+
+Matching audio files to episodes...
+  ✓ Matched: 4 files
+  ? Unmatched: 33 files
+
+Curating episodes for investment relevance...
+
+  APPROVED for transcription: 3
+  SKIPPED/EXCLUDED: 1
+
+======================================================================
+CURATION RESULTS
+======================================================================
+
+📌 APPROVED (will transcribe):
+
+  ✓ The a16z Show
+    Title: Ben Thompson: Anthropic, the Pentagon, and the Limits of Private Power
+    Keywords: ai, tech
+    File: default.mp3
+
+  ✓ Monetary Matters with Jack Farley
+    Title: The Economic Effects of Technological Disruption & Artificial Intellig
+    Keywords: ai, artificial intelligence, intel, tech, technology
+    File: EWWMN7956955796.mp3
+
+  ✓ Moonshots with Peter Diamandis
+    Title: Financializing Super Intelligence, Amazon's $50B Late Fee | #235
+    Keywords: financial, ai, intel
+    File: DVVTS8518765097.mp3
+
+----------------------------------------------------------------------
+
+📋 REVIEW ALL:
+
+  ✓ [APPROVED] The a16z Show
+    Title: Ben Thompson: Anthropic, the Pentagon, and the Limits of Pri
+    Keywords: ai, tech
+
+  ✗ [SKIPPED (low relevance)] Macro Voices
+    Title: MacroVoices #522 Matt Loszak: Factory Mass-Production of Adv
+    Keywords: trading
+
+  ✓ [APPROVED] Monetary Matters with Jack Farley
+    Title: The Economic Effects of Technological Disruption & Artificia
+    Keywords: ai, artificial intelligence, intel, tech, technology
+
+  ✓ [APPROVED] Moonshots with Peter Diamandis
+    Title: Financializing Super Intelligence, Amazon's $50B Late Fee | 
+    Keywords: financial, ai, intel
+
+
+✓ Curation log saved: /Users/jaredsheppard/.openclaw/workspace/pipeline/state/curation_log.json
+
+======================================================================
+NEXT STEPS
+======================================================================
+
+1. Review approved episodes above
+2. To transcribe approved episodes, run:
+   python3 transcribe_curated.py
+
+3. Or manually transcribe specific files:
+   whisper 'default.mp3' --model tiny --language en
+   whisper 'EWWMN7956955796.mp3' --model tiny --language en
+   whisper 'DVVTS8518765097.mp3' --model tiny --language en
+
+✓ Podcast Curation completed
+
+============================================================
+STEP: Fetch & Transcribe
+============================================================
+======================================================================
+Fetch & Transcribe Latest Podcast Episodes
+======================================================================
+  ✓ Swept 8 completed transcript file(s) from whisper_done into transcripts
+
+Found 6 podcast feeds
+
+📻 Processing: https://feeds.megaphone.fm/DVVTS2890392624...
+  📋 Latest: Financializing Super Intelligence, Amazon's $50B Late Fee | ...
+  ✓ Already downloaded: DVVTS8518765097.mp3
+  🎙️  Transcribing: DVVTS8518765097.mp3
+  ✓ Already transcribed: DVVTS8518765097.txt
+
+📻 Processing: https://feeds.megaphone.fm/EWWMN1909747317...
+  📋 Latest: The Economic Effects of Technological Disruption & Artificia...
+  ✓ Already downloaded: EWWMN7956955796.mp3
+  🎙️  Transcribing: EWWMN7956955796.mp3
+  ✓ Already transcribed: EWWMN7956955796.txt
+
+📻 Processing: https://feeds.simplecast.com/JGE3yC0V...
+  📋 Latest: Ben Thompson: Anthropic, the Pentagon, and the Limits of Pri...
+  ✓ Already downloaded: the_a16z_show_20260305_3aa76b43_5b12_4795_b892_1daa6ebb.mp3
+  🎙️  Transcribing: the_a16z_show_20260305_3aa76b43_5b12_4795_b892_1daa6ebb.mp3
+  ✓ Already transcribed: the_a16z_show_20260305_3aa76b43_5b12_4795_b892_1daa6ebb.txt
+
+📻 Processing: https://rss.libsyn.com/shows/254861/destinations/1...
+  📋 Latest: Inside the Iran War and the Pentagon's Feud with Anthropic w...
+  ⬇️  Downloading: ALLIN-E263_Ch.mp3
+     Title: Inside the Iran War and the Pentagon's Feud with Anthropic w...
+     ✓ Downloaded to /Users/jaredsheppard/.openclaw/workspace/audio/ALLIN-E263_Ch.mp3
+  🎙️  Transcribing: ALLIN-E263_Ch.mp3
+  📥 Submitted to whisper queue: ALLIN-E263_Ch.mp3
+  ⏭ Queue-only mode: not waiting. Run pipeline again after worker finishes.
+
+📻 Processing: https://anchor.fm/s/e29097f4/podcast/rss...
+  ⏭ Skipping 'War, AI, and Bitcoin In Deep Value' — published 2026-03-03 (3d ago, >2d limit)
+  ✗ No episode found
+
+📻 Processing: https://feed.podbean.com/macrovoices/feed.xml...
+  📋 Latest: MacroVoices #522 Matt Loszak: Factory Mass-Production of Adv...
+  ✓ Already downloaded: MacroVoices-2026-03-05-Matt-Loszak.mp3
+  🎙️  Transcribing: MacroVoices-2026-03-05-Matt-Loszak.mp3
+  ✓ Already transcribed: MacroVoices-2026-03-05-Matt-Loszak.txt
+
+✓ Log saved: /Users/jaredsheppard/.openclaw/workspace/pipeline/state/fetch_log.json
+
+======================================================================
+SUMMARY
+======================================================================
+Total feeds: 6
+Successfully transcribed: 4
+Failed: 1
+
+Completed episodes:
+  ✓ Moonshots with Peter Diamandis: Financializing Super Intelligence, Amazon's $50B L...
+  ✓ Monetary Matters with Jack Farley: The Economic Effects of Technological Disruption &...
+  ✓ The a16z Show: Ben Thompson: Anthropic, the Pentagon, and the Lim...
+  ✓ Macro Voices: MacroVoices #522 Matt Loszak: Factory Mass-Product...
+
+
+Next step: Run 'python3 research.py' to analyze transcripts
+
+✓ Fetch & Transcribe completed
+
+============================================================
+STEP: Newsletter Ingestion
+============================================================
+==================================================
+Newsletter Ingestion Pipeline
+==================================================
+
+Connecting to Gmail...
+Connecting to Gmail at imap.gmail.com:993...
+Logging in as jsheppard8989@gmail.com...
+Selecting folder: NEWSLETTERS...
+Found 0 unread emails
+
+No emails fetched. Trying manual mode...
+
+✓ Processed 0 emails
+
+Files saved to: /Users/jaredsheppard/.openclaw/workspace/pipeline/inbox
+
+Next step: Run analysis to score stock mentions
+
+✓ Newsletter Ingestion completed
+
+============================================================
+STEP: Transcript AI Analysis
+============================================================
+  ⚠ Google Generative AI library not installed. Run: pip install google-generativeai
+
+============================================================
+Processing Podcast Transcripts with AI
+============================================================
+  Using Moonshot/Kimi API (primary)
+Found 34 transcript files
+  Processing dario_amodei.txt...
+    ⏭ Too short, skipping
+  Processing EWWMN7956955796.txt...
+    ✓ Added episode (ID: 41)
+    ✓ Added 0 ticker mentions
+  Processing DVVTS8518765097.txt...
+    ✓ Added episode (ID: 42)
+    ⚠ Failed to add mention for AMZN: CHECK constraint failed: timeframe IN ('short_term', 'long_term', 'unspecified')
+    ⚠ Failed to add mention for MSFT: CHECK constraint failed: timeframe IN ('short_term', 'long_term', 'unspecified')
+    ✓ Added 2 ticker mentions
+  Processing the_a16z_show_20260305_3aa76b43_5b12_4795_b892_1daa6ebb.txt...
+    ✓ Added episode (ID: 43)
+    ✓ Added 0 ticker mentions
+  Processing elon_musk.txt...
+    ⏭ Too short, skipping
+  Processing MacroVoices-2026-03-05-Matt-Loszak.txt...
+    ✓ Added episode (ID: 44)
+    ⚠ Failed to add mention for US 10 year Treasury: CHECK constraint failed: timeframe IN ('short_term', 'long_term', 'unspecified')
+    ✓ Added 6 ticker mentions
+
+✓ Transcript processing complete: 4 new, 28 skipped, 0 errors
+✓ Analyzed 4 new transcripts
+
+============================================================
+STEP: Newsletter Import
+============================================================
+  ⏭ Already in DB: =?UTF-8?B?8J+agA==?= SpaceX, xAI form $1.25T super-entity
+  ⏭ Already in DB: Fw: The Agentic Inversion: What Moltbook and Axie Infinity R
+  ⏭ Already in DB: =?utf-8?Q?Fw:_Figure=E2=80=99s_General_Purpose_Robot:_Why_20
+  ⏭ Already in DB: =?UTF-8?B?8J+agA==?= xAI's next phase unleashed
+  ⏭ Already in DB: =?UTF-8?B?8J+noA==?= Google's upgrade breaks reasoning barri
+  ⏭ Already in DB: =?UTF-8?B?8J+Urg==?= Sam Altman's OpenAI succession plan
+  ⏭ Already in DB: =?UTF-8?B?8J+aqg==?= xAI's co-founder exodus continues
+✓ Total newsletters imported: 0
+
+============================================================
+STEP: Promote Episodes to Insights
+============================================================
+Found 4 processed episodes not yet in insights
+  ✓ Promoted: 'The Future of Advanced Nuclear Energy and its Impact on Mark' (sentiment=neutral)
+  ✓ Promoted: 'Anthropic and Alignment: The Intersection of AI, Politics, a' (sentiment=neutral)
+  ✓ Promoted: 'The Financialization of Super Intelligence and the Entrepren' (sentiment=bullish)
+  ✓ Promoted: 'Economic Growth through Creative Destruction' (sentiment=bullish)
+  ✓ Auto-archived 4 older insights
+✓ Promoted 4 new insight(s) to website
+
+============================================================
+STEP: Promote Newsletters to Insights
+============================================================
+Found 0 newsletters not yet on site
+
+============================================================
+STEP: Aggregate Daily Scores
+============================================================
+✓ Saved 8 daily scores
+
+============================================================
+STEP: Generate Deep Dives
+============================================================
+Generating Deep Dives for 4 insights...
+
+  Using Moonshot/Kimi API
+[58] The Future of Advanced Nuclear Energy and its Impact on Mark
+  ✓ Deep Dive stored
+[59] Anthropic and Alignment: The Intersection of AI, Politics, a
+  ✓ Deep Dive stored
+[60] The Financialization of Super Intelligence and the Entrepren
+  ✓ Deep Dive stored
+[61] Economic Growth through Creative Destruction
+  ✓ Deep Dive stored
+
+✓ Generated 4/4 Deep Dives
+
+✓ Generate Deep Dives completed
+
+============================================================
+STEP: Fetch Prices
+============================================================
+ HTTP Error 404: Not Found
+Failed
+  Fetching BP... $39.30 (+4.35%)
+  Fetching BTC... $70594.86 (+3.81%)
+  Fetching BTC-USD... $70594.86 (+3.81%)
+  Fetching CEG... $332.07 (+15.13%)
+  Fetching COIN... $205.71 (+25.19%)
+  Fetching CRM... $201.39 (+6.15%)
+  Fetching CROWD... $426.16 (-0.81%)
+  Fetching CRSP... $57.33 (+8.03%)
+  Fetching CVNA... $331.16 (-3.42%)
+  Fetching Copper...     Error fetching Copper: HTTP Error 404: Not Found
+Failed
+  Fetching DIS... $102.41 (-2.88%)
+  Fetching DOCS... $26.07 (+4.20%)
+  Fetching DXY... $0.00 (+0.00%)
+  Fetching EDIT... $1.90 (+7.67%)
+  Fetching EMAX... $0.00 (-0.00%)
+  Fetching ETH-USD... $2063.02 (+4.52%)
+  Fetching FB... $42.57 (+0.57%)
+  Fetching FTIE... Failed
+  Fetching GDX... $101.82 (-2.04%)
+  Fetching GLD... $466.13 (+0.76%)
+  Fetching GOLD... $54.60 (-10.36%)
+  Fetching GOOG... $300.91 (-1.67%)
+  Fetching GOOGL... $300.88 (-1.58%)
+  Fetching GS... $835.46 (-7.70%)
+  Fetching Gold... $54.60 (-10.36%)
+  Fetching HOOD... $80.56 (+6.04%)
+  Fetching IBM... $256.55 (-2.22%)
+  Fetching IEF... $96.51 (-0.72%)
+  Fetching ILMN... $128.24 (+9.79%)
+  Fetching INFY... $14.40 (-2.17%)
+  Fetching IWM... $256.76 (-2.36%)
+  Fetching JPY... $33.47 (-9.14%)
+  Fetching META... $660.57 (+3.25%)
+  Fetching MINE... $3.62 (-9.27%)
+  Fetching MSFT... $410.68 (+2.33%)
+  Fetching MSTR... $139.81 (+4.43%)
+  Fetching NEE... $91.13 (-2.85%)
+  Fetching NOW... $120.38 (+12.42%)
+  Fetching NVDA... $183.34 (+0.29%)
+  Fetching Nasdaq... $608.91 (+1.16%)
+  Fetching OKLO... $62.03 (-5.57%)
+  Fetching PLTR... $152.67 (+16.18%)
+  Fetching PQNT... $21.51 (-4.26%)
+  Fetching PYPL... $47.64 (+18.24%)
+  Fetching QQQ... $608.91 (+1.16%)
+  Fetching Russell... $256.76 (-2.36%)
+  Fetching S&P... $681.31 (-0.06%)
+  Fetching S&P 500... $681.31 (-0.06%)
+  Fetching SLV... $74.27 (+6.53%)
+  Fetching SMR... $12.18 (-14.88%)
+  Fetching SNAP... $5.34 (+10.56%)
+  Fetching SNWGF... $13.40 (+5.10%)
+  Fetching SONY... $21.37 (-7.85%)
+  Fetching SPY... $681.31 (-0.06%)
+  Fetching SQ... Failed
+  Fetching SQQQ... $70.26 (-3.40%)
+  Fetching Semiconductors... $395.35 (-3.03%)
+  Fetching TDOC... $5.12 (+10.11%)
+  Fetching TLT... $88.79 (-1.04%)
+  Fetching TSLA... $405.55 (-2.85%)
+  Fetching TWTR...     Error fetching TWTR: HTTP Error 404: Not Found
+Failed
+  Fetching UNG... $12.05 (-3.14%)
+  Fetching US 10 year Treasury...     Error fetching US 10 year Treasury: URL can't contain control characters. '/v8/finance/chart/US 
+Failed
+  Fetching USO... $96.31 (+26.36%)
+  Fetching Uranium...     Error fetching Uranium: HTTP Error 404: Not Found
+Failed
+  Fetching VEEV... $196.06 (+12.61%)
+  Fetching VIX... $24.65 (+21.49%)
+  Fetching WIT... $2.22 (-5.13%)
+  Fetching WORK... Failed
+  Fetching WTI... $2.81 (+24.34%)
+  Fetching XAU-USD... $0.00 (+0.00%)
+  Fetching XLE... $56.48 (+3.92%)
+  Fetching XLK... $140.18 (+0.44%)
+  Fetching XOM... $150.76 (+1.56%)
+
+✓ Saved 73 prices to /Users/jaredsheppard/.openclaw/workspace/site/price_data.json
+Finished: 2026-03-06 04:03:05.762738
+
+✓ Fetch Prices completed
+
+============================================================
+STEP: Generate Charts
+============================================================
+
+STDERR: Traceback (most recent call last):
+  File "/Users/jaredsheppard/.openclaw/workspace/pipeline/generate_charts.py", line 7, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+
+✗ Generate Charts failed
+
+============================================================
+STEP: Auto-Curate Terms
+============================================================
+============================================================
+Auto-Curating Suggested Terms
+============================================================
+
+🔍 Scanning content for new terms...
+
+✓ Found 0 new potential terms
+
+Found 0 new potential terms from recent content.
+
+📊 Analyzing 3 pending terms...
+------------------------------------------------------------
+
+============================================================
+CURATION SUMMARY
+============================================================
+  Auto-promoted: 0
+  Flagged for review: 3
+  Skipped (low relevance): 0
+
+============================================================
+TERMS FOR MANUAL REVIEW
+============================================================
+
+• Compute Deflation Trade
+  Relevance: 50
+  Mentions: 3 in 1 source(s)
+  Definition: The investment thesis built around the 400x AI compute cost collapse: identifying who wins (inferenc...
+
+• Agentic Velocity
+  Relevance: 50
+  Mentions: 2 in 1 source(s)
+  Definition: The compression of decision-making and capital deployment timescales as AI agents replace human work...
+
+• Machine-Native Money
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: Payment rails designed for autonomous AI agents rather than human users....
+
+✓ Auto-Curate Terms completed
+
+============================================================
+STEP: Export Website Data
+============================================================
+✓ Exported website data to /Users/jaredsheppard/.openclaw/workspace/site/data
+✓ Exported JSON: {'ticker_scores': 39, 'podcast_summaries': 14, 'archive_items': 57}
+✓ Bumped data.js cache-buster to v=1772791386
+✓ Generated data.js: 39 tickers, 57 archive items, 47 deep dives
+
+============================================================
+STEP: Push to GitHub
+============================================================
+✗ Git push failed: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
+  iMessage failed: Command '['/Users/jaredsheppard/.openclaw/workspace/send_imessage.sh', '+16306437437', 'Pipeline Update\n\n📊 Pipeline Complete\n\n🎙️ 4 new podcast(s) analyzed\n📈 8 tickers scored\n\nTop tickers today:\n  ARBOB GASOLINE: score 70\n  WTI: score 70\n  GOOGL: score 66\n  COPPER: score 64\n  GOLD: score 64\n\n🌐 Website updated']' timed out after 15 seconds
+
+============================================================
+PIPELINE COMPLETE
+Finished: 2026-03-06 04:05:44.452893
+============================================================
+📊 Pipeline Complete
+
+🎙️ 4 new podcast(s) analyzed
+📈 8 tickers scored
+
+Top tickers today:
+  ARBOB GASOLINE: score 70
+  WTI: score 70
+  GOOGL: score 66
+  COPPER: score 64
+  GOLD: score 64
+
+🌐 Website updated
+============================================================
+AUTO PIPELINE
+Mode: full
+Started: 2026-03-06 21:00:00.256478
+============================================================
+
+============================================================
+STEP: Podcast Curation
+============================================================
+======================================================================
+Podcast Curation System
+======================================================================
+
+Found 6 podcast feeds
+
+Fetching episode metadata...
+  Fetching: https://feeds.megaphone.fm/DVVTS2890392624...
+    ✓ Moonshots with Peter Diamandis: 0 episodes
+  Fetching: https://feeds.megaphone.fm/EWWMN1909747317...
+    ✓ Monetary Matters with Jack Farley: 0 episodes
+  Fetching: https://feeds.simplecast.com/JGE3yC0V...
+    ✓ The a16z Show: 1 episodes
+  Fetching: https://rss.libsyn.com/shows/254861/destinations/1928300.xml...
+    ✓ All-In with Chamath, Jason, Sacks & Friedberg: 0 episodes
+  Fetching: https://anchor.fm/s/e29097f4/podcast/rss...
+    ✓ The Jack Mallers Show: 0 episodes
+  Fetching: https://feed.podbean.com/macrovoices/feed.xml...
+    ✓ Macro Voices: 0 episodes
+
+Matching audio files to episodes...
+  ✓ Matched: 1 files
+  ? Unmatched: 37 files
+
+Curating episodes for investment relevance...
+
+  APPROVED for transcription: 0
+  SKIPPED/EXCLUDED: 1
+
+======================================================================
+CURATION RESULTS
+======================================================================
+
+📌 APPROVED (will transcribe):
+
+----------------------------------------------------------------------
+
+📋 REVIEW ALL:
+
+  ✗ [SKIPPED (low relevance)] The a16z Show
+    Title: Atlassian CEO on the SaaS Apocalypse, AI Agents & What Comes
+    Keywords: ai
+
+
+✓ Curation log saved: /Users/jaredsheppard/.openclaw/workspace/pipeline/state/curation_log.json
+
+======================================================================
+NEXT STEPS
+======================================================================
+
+1. Review approved episodes above
+2. To transcribe approved episodes, run:
+   python3 transcribe_curated.py
+
+3. Or manually transcribe specific files:
+
+✓ Podcast Curation completed
+
+============================================================
+STEP: Fetch & Transcribe
+============================================================
+======================================================================
+Fetch & Transcribe Latest Podcast Episodes
+======================================================================
+
+Found 6 podcast feeds
+
+📻 Processing: https://feeds.megaphone.fm/DVVTS2890392624...
+  ⏭ Already have 'Financializing Super Intelligence, Amazon's $50B L' (guid match, ep_id=42)
+  ✗ No episode found
+
+📻 Processing: https://feeds.megaphone.fm/EWWMN1909747317...
+  ⏭ Already have 'The Economic Effects of Technological Disruption &' (guid match, ep_id=41)
+  ✗ No episode found
+
+📻 Processing: https://feeds.simplecast.com/JGE3yC0V...
+  📋 Latest: Atlassian CEO on the SaaS Apocalypse, AI Agents & What Comes...
+  ⬇️  Downloading: the_a16z_show_20260306_3614cc37_b64d_47e9_88da_51eda0e6.mp3
+     Title: Atlassian CEO on the SaaS Apocalypse, AI Agents & What Comes...
+     ✓ Downloaded to /Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_20260306_3614cc37_b64d_47e9_88da_51eda0e6.mp3
+  🎙️  Transcribing: the_a16z_show_20260306_3614cc37_b64d_47e9_88da_51eda0e6.mp3
+  📥 Submitted to whisper queue: the_a16z_show_20260306_3614cc37_b64d_47e9_88da_51eda0e6.mp3
+  ⏭ Queue-only mode: not waiting. Run pipeline again after worker finishes.
+
+📻 Processing: https://rss.libsyn.com/shows/254861/destinations/1...
+  ⏭ Already have 'Inside the Iran War and the Pentagon's Feud with A' (guid match, ep_id=45)
+  ✗ No episode found
+
+📻 Processing: https://anchor.fm/s/e29097f4/podcast/rss...
+  ⏭ Skipping 'War, AI, and Bitcoin In Deep Value' — published 2026-03-03 (3d ago, >2d limit)
+  ✗ No episode found
+
+📻 Processing: https://feed.podbean.com/macrovoices/feed.xml...
+  ⏭ Already have 'MacroVoices #522 Matt Loszak: Factory Mass-Product' (guid match, ep_id=44)
+  ✗ No episode found
+
+✓ Log saved: /Users/jaredsheppard/.openclaw/workspace/pipeline/state/fetch_log.json
+
+======================================================================
+SUMMARY
+======================================================================
+Total feeds: 6
+Successfully transcribed: 0
+Failed: 1
+
+Completed episodes:
+
+
+Next step: Run 'python3 research.py' to analyze transcripts
+
+✓ Fetch & Transcribe completed
+
+============================================================
+STEP: Newsletter Ingestion
+============================================================
+==================================================
+Newsletter Ingestion Pipeline
+==================================================
+
+Connecting to Gmail...
+Connecting to Gmail at imap.gmail.com:993...
+Logging in as jsheppard8989@gmail.com...
+Selecting folder: NEWSLETTERS...
+Found 0 unread emails
+
+No emails fetched. Trying manual mode...
+
+✓ Processed 0 emails
+
+Files saved to: /Users/jaredsheppard/.openclaw/workspace/pipeline/inbox
+
+Next step: Run analysis to score stock mentions
+
+✓ Newsletter Ingestion completed
+
+============================================================
+STEP: Transcript AI Analysis
+============================================================
+  ⚠ Google Generative AI library not installed. Run: pip install google-generativeai
+
+============================================================
+Processing Podcast Transcripts with AI
+============================================================
+  Using Moonshot/Kimi API (primary)
+Found 35 transcript files
+  Processing dario_amodei.txt...
+    ⏭ Too short, skipping
+  Processing elon_musk.txt...
+    ⏭ Too short, skipping
+
+✓ Transcript processing complete: 0 new, 33 skipped, 0 errors
+✓ Analyzed 0 new transcripts
+
+============================================================
+STEP: Newsletter Import
+============================================================
+  ⏭ Already in DB: =?UTF-8?B?8J+agA==?= SpaceX, xAI form $1.25T super-entity
+  ⏭ Already in DB: Fw: The Agentic Inversion: What Moltbook and Axie Infinity R
+  ⏭ Already in DB: =?utf-8?Q?Fw:_Figure=E2=80=99s_General_Purpose_Robot:_Why_20
+  ⏭ Already in DB: =?UTF-8?B?8J+agA==?= xAI's next phase unleashed
+  ⏭ Already in DB: =?UTF-8?B?8J+noA==?= Google's upgrade breaks reasoning barri
+  ⏭ Already in DB: =?UTF-8?B?8J+Urg==?= Sam Altman's OpenAI succession plan
+  ⏭ Already in DB: =?UTF-8?B?8J+aqg==?= xAI's co-founder exodus continues
+✓ Total newsletters imported: 0
+
+============================================================
+STEP: Promote Episodes to Insights
+============================================================
+Found 0 processed episodes not yet in insights
+✓ Promoted 0 new insight(s) to website
+
+============================================================
+STEP: Promote Newsletters to Insights
+============================================================
+Found 0 newsletters not yet on site
+
+============================================================
+STEP: Aggregate Daily Scores
+============================================================
+✓ Saved 8 daily scores
+
+============================================================
+STEP: Generate Deep Dives
+============================================================
+No insights need Deep Dives!
+
+✓ Generate Deep Dives completed
+
+============================================================
+STEP: Fetch Prices
+============================================================
+06 (+5.30%)
+  Fetching COIN... $197.22 (+18.79%)
+  Fetching COPPER...     Error fetching COPPER: HTTP Error 404: Not Found
+Failed
+  Fetching CRM... $202.11 (+9.67%)
+  Fetching CROWD... $428.99 (+3.55%)
+  Fetching CRSP... $56.50 (+6.26%)
+  Fetching CVNA... $317.70 (-9.47%)
+  Fetching Copper...     Error fetching Copper: HTTP Error 404: Not Found
+Failed
+  Fetching DIS... $101.54 (-3.70%)
+  Fetching DOCS... $25.34 (+3.09%)
+  Fetching DXY... $0.00 (+0.00%)
+  Fetching EDIT... $2.00 (+14.94%)
+  Fetching EMAX... $0.00 (-0.00%)
+  Fetching ETH-USD... $1980.80 (+1.17%)
+  Fetching FB... $42.42 (+0.21%)
+  Fetching FTIE... Failed
+  Fetching GDX... $101.38 (+1.13%)
+  Fetching GLD... $473.51 (+5.65%)
+  Fetching GOLD... $52.42 (-10.68%)
+  Fetching GOOG... $298.30 (-1.49%)
+  Fetching GOOGL... $298.52 (-1.16%)
+  Fetching GS... $821.42 (-10.33%)
+  Fetching Gold... $52.42 (-10.68%)
+  Fetching HOOD... $77.09 (+2.19%)
+  Fetching IBM... $258.85 (+0.21%)
+  Fetching IEF... $96.45 (-0.77%)
+  Fetching ILMN... $124.62 (+6.96%)
+  Fetching INFY... $14.44 (-2.10%)
+  Fetching IWM... $250.89 (-4.62%)
+  Fetching JPY... $33.16 (-8.34%)
+  Fetching META... $644.86 (+0.87%)
+  Fetching MINE... $3.63 (-8.56%)
+  Fetching MSFT... $408.96 (+3.05%)
+  Fetching MSTR... $133.53 (+3.78%)
+  Fetching NEE... $91.02 (-1.82%)
+  Fetching NOW... $124.34 (+17.40%)
+  Fetching NVDA... $177.82 (-3.87%)
+  Fetching Nasdaq... $599.75 (-0.26%)
+  Fetching OKLO... $58.25 (-13.88%)
+  Fetching PLTR... $157.16 (+18.15%)
+  Fetching PQNT... $21.31 (-5.06%)
+  Fetching PYPL... $46.97 (+15.09%)
+  Fetching QQQ... $599.75 (-0.26%)
+  Fetching Russell... $250.89 (-4.62%)
+  Fetching S&P... $672.38 (-1.53%)
+  Fetching S&P 500... $672.38 (-1.53%)
+  Fetching SLV... $75.94 (+14.42%)
+  Fetching SMR... $11.67 (-18.22%)
+  Fetching SNAP... $5.16 (+9.09%)
+  Fetching SNWGF... $13.40 (+13.08%)
+  Fetching SONY... $21.48 (-5.87%)
+  Fetching SPY... $672.38 (-1.53%)
+  Fetching SQ... Failed
+  Fetching SQQQ... $73.46 (+0.69%)
+  Fetching Semiconductors... $380.56 (-6.61%)
+  Fetching TDOC... $5.08 (+11.40%)
+  Fetching TLT... $88.46 (-1.57%)
+  Fetching TSLA... $396.73 (-3.39%)
+  Fetching TWTR...     Error fetching TWTR: HTTP Error 404: Not Found
+Failed
+  Fetching UNG... $12.75 (+7.14%)
+  Fetching URANIUM...     Error fetching URANIUM: HTTP Error 404: Not Found
+Failed
+  Fetching US 10 year Treasury...     Error fetching US 10 year Treasury: URL can't contain control characters. '/v8/finance/chart/US 
+Failed
+  Fetching USO... $108.77 (+43.63%)
+  Fetching Uranium...     Error fetching Uranium: HTTP Error 404: Not Found
+Failed
+  Fetching VEEV... $195.49 (+10.56%)
+  Fetching VIX... $29.49 (+45.34%)
+  Fetching WIT... $2.32 (+1.31%)
+  Fetching WORK... Failed
+  Fetching WTI... $3.14 (+44.70%)
+  Fetching XAU-USD... $0.00 (+0.00%)
+  Fetching XLE... $56.57 (+5.25%)
+  Fetching XLK... $137.29 (-1.57%)
+  Fetching XOM... $151.21 (+3.43%)
+
+✓ Saved 73 prices to /Users/jaredsheppard/.openclaw/workspace/site/price_data.json
+Finished: 2026-03-06 21:00:27.967633
+
+✓ Fetch Prices completed
+
+============================================================
+STEP: Generate Charts
+============================================================
+
+STDERR: Traceback (most recent call last):
+  File "/Users/jaredsheppard/.openclaw/workspace/pipeline/generate_charts.py", line 7, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+
+✗ Generate Charts failed
+
+============================================================
+STEP: Auto-Curate Terms
+============================================================
+============================================================
+Auto-Curating Suggested Terms
+============================================================
+
+🔍 Scanning content for new terms...
+
+✓ Found 0 new potential terms
+
+Found 0 new potential terms from recent content.
+
+📊 Analyzing 3 pending terms...
+------------------------------------------------------------
+
+============================================================
+CURATION SUMMARY
+============================================================
+  Auto-promoted: 0
+  Flagged for review: 3
+  Skipped (low relevance): 0
+
+============================================================
+TERMS FOR MANUAL REVIEW
+============================================================
+
+• Compute Deflation Trade
+  Relevance: 50
+  Mentions: 3 in 1 source(s)
+  Definition: The investment thesis built around the 400x AI compute cost collapse: identifying who wins (inferenc...
+
+• Agentic Velocity
+  Relevance: 50
+  Mentions: 2 in 1 source(s)
+  Definition: The compression of decision-making and capital deployment timescales as AI agents replace human work...
+
+• Machine-Native Money
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: Payment rails designed for autonomous AI agents rather than human users....
+
+✓ Auto-Curate Terms completed
+
+============================================================
+STEP: Export Website Data
+============================================================
+✓ Exported website data to /Users/jaredsheppard/.openclaw/workspace/site/data
+✓ Exported JSON: {'ticker_scores': 39, 'podcast_summaries': 14, 'archive_items': 58}
+✓ Bumped data.js cache-buster to v=1772852428
+✓ Generated data.js: 39 tickers, 58 archive items, 48 deep dives
+
+============================================================
+STEP: Push to GitHub
+============================================================
+✗ Git push timed out (60s)
+  iMessage failed: Command '['/Users/jaredsheppard/.openclaw/workspace/send_imessage.sh', '+16306437437', "Pipeline: Git push timed out\n\nRun 'git push origin main' from the workspace."]' timed out after 15 seconds
+Nothing new — skipping notification
+
+============================================================
+PIPELINE COMPLETE
+Finished: 2026-03-06 21:01:49.984678
+============================================================
+📊 Pipeline Complete
+
+📈 8 tickers scored
+
+Top tickers today:
+  ARBOB GASOLINE: score 70
+  WTI: score 70
+  GOOGL: score 66
+  COPPER: score 64
+  GOLD: score 64
+
+🌐 Website updated
+============================================================
+AUTO PIPELINE
+Mode: full
+Started: 2026-03-07 04:00:00.221553
+============================================================
+
+============================================================
+STEP: Podcast Curation
+============================================================
+======================================================================
+Podcast Curation System
+======================================================================
+
+Found 6 podcast feeds
+
+Fetching episode metadata...
+  Fetching: https://feeds.megaphone.fm/DVVTS2890392624...
+    ✓ Moonshots with Peter Diamandis: 0 episodes
+  Fetching: https://feeds.megaphone.fm/EWWMN1909747317...
+    ✓ Monetary Matters with Jack Farley: 0 episodes
+  Fetching: https://feeds.simplecast.com/JGE3yC0V...
+    ✓ The a16z Show: 1 episodes
+  Fetching: https://rss.libsyn.com/shows/254861/destinations/1928300.xml...
+    ✓ All-In with Chamath, Jason, Sacks & Friedberg: 0 episodes
+  Fetching: https://anchor.fm/s/e29097f4/podcast/rss...
+    ✓ The Jack Mallers Show: 0 episodes
+  Fetching: https://feed.podbean.com/macrovoices/feed.xml...
+    ✓ Macro Voices: 0 episodes
+
+Matching audio files to episodes...
+  ✓ Matched: 1 files
+  ? Unmatched: 38 files
+
+Curating episodes for investment relevance...
+
+  APPROVED for transcription: 0
+  SKIPPED/EXCLUDED: 1
+
+======================================================================
+CURATION RESULTS
+======================================================================
+
+📌 APPROVED (will transcribe):
+
+----------------------------------------------------------------------
+
+📋 REVIEW ALL:
+
+  ✗ [SKIPPED (low relevance)] The a16z Show
+    Title: Atlassian CEO on the SaaS Apocalypse, AI Agents & What Comes
+    Keywords: ai
+
+
+✓ Curation log saved: /Users/jaredsheppard/.openclaw/workspace/pipeline/state/curation_log.json
+
+======================================================================
+NEXT STEPS
+======================================================================
+
+1. Review approved episodes above
+2. To transcribe approved episodes, run:
+   python3 transcribe_curated.py
+
+3. Or manually transcribe specific files:
+
+✓ Podcast Curation completed
+
+============================================================
+STEP: Fetch & Transcribe
+============================================================
+======================================================================
+Fetch & Transcribe Latest Podcast Episodes
+======================================================================
+  ✓ Swept 2 completed transcript file(s) from whisper_done into transcripts
+
+Found 6 podcast feeds
+
+📻 Processing: https://feeds.megaphone.fm/DVVTS2890392624...
+  ⏭ Already have 'Financializing Super Intelligence, Amazon's $50B L' (guid match, ep_id=42)
+  ✗ No episode found
+
+📻 Processing: https://feeds.megaphone.fm/EWWMN1909747317...
+  ⏭ Already have 'The Economic Effects of Technological Disruption &' (guid match, ep_id=41)
+  ✗ No episode found
+
+📻 Processing: https://feeds.simplecast.com/JGE3yC0V...
+  📋 Latest: Atlassian CEO on the SaaS Apocalypse, AI Agents & What Comes...
+  ✓ Already downloaded: the_a16z_show_20260306_3614cc37_b64d_47e9_88da_51eda0e6.mp3
+  🎙️  Transcribing: the_a16z_show_20260306_3614cc37_b64d_47e9_88da_51eda0e6.mp3
+  ✓ Already transcribed: the_a16z_show_20260306_3614cc37_b64d_47e9_88da_51eda0e6.txt
+
+📻 Processing: https://rss.libsyn.com/shows/254861/destinations/1...
+  ⏭ Already have 'Inside the Iran War and the Pentagon's Feud with A' (guid match, ep_id=45)
+  ✗ No episode found
+
+📻 Processing: https://anchor.fm/s/e29097f4/podcast/rss...
+  ⏭ Skipping 'War, AI, and Bitcoin In Deep Value' — published 2026-03-03 (4d ago, >2d limit)
+  ✗ No episode found
+
+📻 Processing: https://feed.podbean.com/macrovoices/feed.xml...
+  ⏭ Already have 'MacroVoices #522 Matt Loszak: Factory Mass-Product' (guid match, ep_id=44)
+  ✗ No episode found
+
+✓ Log saved: /Users/jaredsheppard/.openclaw/workspace/pipeline/state/fetch_log.json
+
+======================================================================
+SUMMARY
+======================================================================
+Total feeds: 6
+Successfully transcribed: 1
+Failed: 0
+
+Completed episodes:
+  ✓ The a16z Show: Atlassian CEO on the SaaS Apocalypse, AI Agents & ...
+
+
+Next step: Run 'python3 research.py' to analyze transcripts
+
+✓ Fetch & Transcribe completed
+
+============================================================
+STEP: Newsletter Ingestion
+============================================================
+==================================================
+Newsletter Ingestion Pipeline
+==================================================
+
+Connecting to Gmail...
+Connecting to Gmail at imap.gmail.com:993...
+Logging in as jsheppard8989@gmail.com...
+Selecting folder: NEWSLETTERS...
+Found 0 unread emails
+
+No emails fetched. Trying manual mode...
+
+✓ Processed 0 emails
+
+Files saved to: /Users/jaredsheppard/.openclaw/workspace/pipeline/inbox
+
+Next step: Run analysis to score stock mentions
+
+✓ Newsletter Ingestion completed
+
+============================================================
+STEP: Transcript AI Analysis
+============================================================
+  ⚠ Google Generative AI library not installed. Run: pip install google-generativeai
+
+============================================================
+Processing Podcast Transcripts with AI
+============================================================
+  Using Moonshot/Kimi API (primary)
+Found 36 transcript files
+  Processing dario_amodei.txt...
+    ⏭ Too short, skipping
+  Processing the_a16z_show_20260306_3614cc37_b64d_47e9_88da_51eda0e6.txt...
+    ✓ Added episode (ID: 46)
+    ⚠ Failed to add mention for WORK: CHECK constraint failed: timeframe IN ('short_term', 'long_term', 'unspecified')
+    ✓ Added 2 ticker mentions
+  Processing elon_musk.txt...
+    ⏭ Too short, skipping
+
+✓ Transcript processing complete: 1 new, 33 skipped, 0 errors
+✓ Analyzed 1 new transcripts
+
+============================================================
+STEP: Newsletter Import
+============================================================
+  ⏭ Already in DB: =?UTF-8?B?8J+agA==?= SpaceX, xAI form $1.25T super-entity
+  ⏭ Already in DB: Fw: The Agentic Inversion: What Moltbook and Axie Infinity R
+  ⏭ Already in DB: =?utf-8?Q?Fw:_Figure=E2=80=99s_General_Purpose_Robot:_Why_20
+  ⏭ Already in DB: =?UTF-8?B?8J+agA==?= xAI's next phase unleashed
+  ⏭ Already in DB: =?UTF-8?B?8J+noA==?= Google's upgrade breaks reasoning barri
+  ⏭ Already in DB: =?UTF-8?B?8J+Urg==?= Sam Altman's OpenAI succession plan
+  ⏭ Already in DB: =?UTF-8?B?8J+aqg==?= xAI's co-founder exodus continues
+✓ Total newsletters imported: 0
+
+============================================================
+STEP: Promote Episodes to Insights
+============================================================
+Found 1 processed episodes not yet in insights
+  ✓ Promoted: 'The AI Transformation of Software and SaaS Landscape' (sentiment=neutral)
+  ✓ Auto-archived 1 older insights
+✓ Promoted 1 new insight(s) to website
+
+============================================================
+STEP: Promote Newsletters to Insights
+============================================================
+Found 0 newsletters not yet on site
+
+============================================================
+STEP: Aggregate Daily Scores
+============================================================
+✓ Saved 2 daily scores
+
+============================================================
+STEP: Generate Deep Dives
+============================================================
+Generating Deep Dives for 1 insights...
+
+  Using Moonshot/Kimi API
+[63] The AI Transformation of Software and SaaS Landscape
+  ✓ Deep Dive stored
+
+✓ Generated 1/1 Deep Dives
+
+✓ Generate Deep Dives completed
+
+============================================================
+STEP: Fetch Prices
+============================================================

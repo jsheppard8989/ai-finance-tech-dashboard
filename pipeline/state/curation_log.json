@@ -1,16 +1,16 @@
 {
-  "timestamp": "2026-03-05T04:00:03.512220",
-  "total_audio_files": 2,
-  "approved_for_transcription": 1,
+  "timestamp": "2026-03-07T04:00:02.476188",
+  "total_audio_files": 1,
+  "approved_for_transcription": 0,
   "episodes": [
     {
       "podcast": "The a16z Show",
-      "title": "Deploying AI in Healthcare",
-      "description": "<p>a16z general partner Julie Yoo talks with Nikhil Buduma, CEO and cofounder of Ambience Healthcare, to discuss how AI is transforming clinical workflows. They cover the early days of deep learning, why Ambience started by running a medical practice before building a platform company, and what it takes to achieve high clinician adoption rates at major academic medical centers. They also dig into the challenge of building products when AI capabilities change every few months, the real ROI that's",
-      "audio_url": "https://mgln.ai/e/1344/afp-848985-injected.calisto.simplecastaudio.com/3f86df7b-51c6-4101-88a2-550dba782de8/episodes/2b2a2d50-0774-4d7e-b71b-703e83dcd6cc/audio/128/default.mp3?aid=rss_feed&awCollectionId=3f86df7b-51c6-4101-88a2-550dba782de8&awEpisodeId=2b2a2d50-0774-4d7e-b71b-703e83dcd6cc&feed=JGE3yC0V",
-      "published": "Wed, 4 Mar 2026 18:45:00 +0000",
-      "published_date": "2026-03-04",
-      "rss_guid": "a3513b51-9365-489a-8ddb-1b8ad40c4b4c",
+      "title": "Atlassian CEO on the SaaS Apocalypse, AI Agents & What Comes Next",
+      "description": "<p>Alex Rampell and Erik Torenberg speak with Mike Cannon-Brookes, cofounder and CEO of Atlassian, about how to make sense of the SaaS selloff, why not all software companies face the same AI-driven risks, and how Atlassian is thinking about the shift from records to processes. They also examine the real design challenge of getting everyday users to trust and benefit from AI agents in enterprise workflows.</p>\n<p>\u00a0</p>\n<p>Resources:</p>\n<p>Follow Alex Rampell on X:\u00a0 <a href=\"https://twitter.com/",
+      "audio_url": "https://mgln.ai/e/1344/afp-848985-injected.calisto.simplecastaudio.com/3f86df7b-51c6-4101-88a2-550dba782de8/episodes/c39605ee-6196-4c03-85ca-91ed76d88ac7/audio/128/default.mp3?aid=rss_feed&awCollectionId=3f86df7b-51c6-4101-88a2-550dba782de8&awEpisodeId=c39605ee-6196-4c03-85ca-91ed76d88ac7&feed=JGE3yC0V",
+      "published": "Fri, 6 Mar 2026 16:24:02 +0000",
+      "published_date": "2026-03-06",
+      "rss_guid": "3614cc37-b64d-47e9-88da-51eda0e6bca7",
       "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/default.mp3",
       "filename": "default.mp3",
       "relevance_score": 1,
@@ -18,24 +18,6 @@
         "ai"
       ],
       "status": "SKIPPED (low relevance)"
-    },
-    {
-      "podcast": "Monetary Matters with Jack Farley",
-      "title": "Jobless Growth, Euphoria, and a Manufacturing Recovery: How Iran Could Force a Macro Regime Change | Tian Yang",
-      "description": "\n        <p>This episode is brought to you by CAIA.nxt. Learn more about their alternatives education courses for investment advisors and get 10% off with code MMTEN: https://caia.org/content/welcome-monetary-matters-and-other-peoples-money-listeners</p>\n<p><br></p>\n<p>Tian Yang, CEO of quant research platform Variant Perception, joins Monetary Matters to discuss how the benign macro regime might shift in the back half of 2026 should the Iran conflict not produce a prolonged shock. Yang also tou",
-      "audio_url": "https://traffic.megaphone.fm/EWWMN9964356428.mp3",
-      "published": "Wed, 04 Mar 2026 23:51:00 -0000",
-      "published_date": "2026-03-04",
-      "rss_guid": "1198d00a-1825-11f1-93eb-5feef34b537a",
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/EWWMN9964356428.mp3",
-      "filename": "EWWMN9964356428.mp3",
-      "relevance_score": 3,
-      "matched_keywords": [
-        "invest",
-        "ai",
-        "research"
-      ],
-      "status": "APPROVED"
     }
   ]
 }

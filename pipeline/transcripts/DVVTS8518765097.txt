@@ -1,0 +1,2899 @@
+Amazon makes a contingent offer to put $35 billion into open AI based upon them
+first off going public and secondly achieving AGI. It's kind of incredible that we
+financialized super intelligence, which is amazing. The open AI to Microsoft
+definition of AGI was something like generating $100 billion in either earnings or revenue
+like I forget. We're measuring compute in terms of gigawatts and AGI in terms of
+dollars I love it. Amazon was all anthropic for a while. Now they're open AI.
+At some point the circular economy becomes indistinguishable from the real economy
+and I think that's what we're seeing here. This is the entrepreneurial opportunity of a
+lifetime. We're talking about tens of thousands of times more capacity to create more money
+more value-created. Abundance is going to be absolutely rampant.
+Now that's the moon shot, ladies and gentlemen.
+Everybody welcome to a moon shot episode of WTF just happen in tech. The number one podcast
+in AI and exponential technology getting you ready for the future, getting you ready for
+the super sonic tsunami heading our way. I'm here with my extraordinary moon shot
+mates, Celine, Miss mail, DB2, AWG, gentlemen. Another week we've gotten to
+cadence of two of these per week. And it feels like we're always leaving so many stories
+on the table. But let's do our best. Yes, we need to do it. We need to actually move
+faster and faster and faster just like the singularity itself to keep everything.
+No tech company weights, no GPU weights. All right. Let's jump in our top AI news
+stories and throw up a Google open AI Uber accelerating at an extraordinary speed of
+change. Our first story for today and thoropic revises responsible scaling policy.
+I mean increased competition. This was a story I put to the top of the conversation
+because it's very significant. And you know, I had Jared Kaplan on stage at the
+abundance summit last year, the year before Alex, you know Jared well.
+Yep, I think he was a roommate. He was he was a here behind me and the Harvard
+physics graduate program. Yeah, but I'm amazing. What amazing group of friends
+that you had. But here's the deal. They're dropping their 2023 pledge to not train
+advanced AI unless safety is guaranteed. And Jared's point, I think, logically is
+if everyone else is rushing ahead, then us, you know, sort of hampering ourselves
+doesn't make any sense. And I want to discuss this because it's concerning.
+You know, a lot of us looked at anthropic as the most responsible party out there
+them and Google. Thoughts, Jens. Well, you know, the safety is definitely
+exponential racism. Lots of thoughts all of you at once.
+This is a metaphor for something, right? But we're going to race to talk about
+race condition. Love it.
+I'm amazing. I want to, I want to open with Salimia, Salimia.
+Okay. Well, I mean, safety typically fails in exponential races.
+You could look at the, the whole thing. Rit Larger's opening. I cracked open
+and let Pandora's box out. And so this is just the same type of dynamic occurring
+again. It speaks to the idea that technology is going to move at its pace.
+And we have to move our human structures at that pace.
+We can't fall behind.
+Yeah. Dave?
+Yeah. No. It's definitely history repeating itself.
+And so many of our MIT classmates went to Google back in 040506 when it was
+going to be evil. Yeah.
+And they went there over Microsoft because everyone perceived Microsoft as being evil.
+And Google was going to be the force of good in all of tech.
+And then, you know, they bought YouTube and then they built Chrome.
+And then they, you know, with they promised the engineers early on.
+The ones that I knew anyway is look, we will never store somebody's search history.
+Mm-hmm.
+And how laughable is that in hindsight.
+So then they expanded out of search history.
+Well, we're going to store that for five years.
+But we're also going to launch Chrome.
+Now we're going to look at all of your browsing history.
+Then we're going to buy double click.
+Then we're going to run targeted ads based on everything.
+Then we're going to do Gmail and read every email.
+You know, Microsoft says they don't read your email.
+But Google says, well, we'll do what we want.
+But we won't pry too much.
+But they do read your email.
+And so that slippery slope of competition, you know, corrupts the original mission statement
+gradually over time.
+I gave a whole presentation in Davos on how this evolves.
+And Dario wants nothing more than some rules.
+Yeah.
+And he's actually legitimately pissed that he has to actually
+repeal his own ethical standards to be competitive
+because there are no rules.
+And you know, this is exactly how it has to evolve.
+Because, you know, Dario is in a position where he has to choose
+between being irrelevant, which doesn't help,
+or repealing the original pledge, which he doesn't want to do.
+But he's not going to be relevant.
+Yeah.
+Totally different.
+Your earlier commentary, Dave, was really spot on.
+This is what Cory Doctoral calls and shouldification.
+Right.
+So people promised something.
+And then they gradually degraded over time.
+And by the end of it, it's a shit show.
+Or all the way to encapsulate everything.
+There's no credible mechanism to slow the race right now.
+And so it's all out.
+Alex, what do you think about this?
+I think there was no credible mechanism to guarantee safety in the first place.
+I think the entire premise was probably wrong.
+I think the superficial gloss is okay.
+We're in the red queen's race.
+And this is the race condition that everyone ten years ago was
+scared of finding the world in where we have a number of frontier
+labs all racing to do the terrible thing that you build the thing
+and everyone dies.
+I don't buy that at all.
+I don't think this premise that either a heroic individual or a heroic frontier
+lab was ever going to be in a position to guarantee safety.
+In fact, the sort of I remember back to the earlier days of the frontier
+labs where the concern and part of the reason why open AI was formed
+itself was concern of a single ten.
+Competition is how we guarantee that there isn't going to be a single ten
+that dominates the future light cone with super intelligence.
+And I think similarly, the notion that there's going to be sort of
+unilateral safetyism where single heroic individual
+like one of the more prominent AI doomers or a very safety oriented
+frontier lab is somehow going to ensure safety throughout the
+forward light cone that was never going to happen.
+Safety to the extent we get it is going to come from competition.
+It's come going to come.
+I think from a balance of powers and a separation of powers.
+And I think what we want is competition between the frontier
+labs and maybe even to some extent competition between
+nation states such as what we're seeing to compete to do the best
+job for advancing humanity.
+And I think any unilateral safetyism probably a dead end.
+One of the questions is will safety become an emerging property in some
+form or shape, right?
+So right now what we've seen is anthropic go from a policy.
+We won't build it unless it's safe that that's been their policy
+to will build it as safely as the competition is building theirs.
+And unfortunately, it's a slippery slope potentially down to the bottom.
+But it's a mechanism for any kind of emerging property around
+it.
+Well, we haven't seen the mechanism for emerging properties of what we
+seem so far either.
+Well, I would take the position that we are that in some sense,
+again, the fundamental flaw I think in the thesis that
+safety would originate from a heroic individual or heroic organization
+is I would argue it takes an entire civilization to align a super
+intelligence.
+We took all of human humanities content online and used it in
+compressed form to pre-trained AGI, baby AGI in the early days,
+like summer of 2020 with GPT-3.
+Why wouldn't it be reasonable to expect that it will take all of humanity
+to defensively co-align and co-scale super intelligence as well?
+It's not going to come from a single lab.
+What do you think about Elon's point of view that we need to build
+ASI that is maximally truth-seeking as his mechanism for
+alignment and for safety?
+I think that's just a fraction of what's needed.
+That addresses a very specific issue which is look,
+we don't want the AI to have one religion or to have one
+perspective on how you should live.
+We want it to be truth-seeking and have all opinions in
+cap and we don't want to be censored.
+So that's definitely a problem but it doesn't address the
+imminent job loss, the imminent consumerism.
+The AI people are conceiting all of the most private information
+to the same way they did with their Google search history and
+it's accumulating that data and people aren't fully aware of what
+it's going to do.
+It's going to turn around and start condensing you to do things.
+And so if you don't have rules in place, the natural
+profit motive of the AI companies is to start selling you things.
+And you saw this for that anthropic superbowl ad that we showed
+in the pot a couple.
+Yeah.
+I believe I've showed everybody that ad now but this is exactly
+where it's going to go if there are no rules.
+And so I completely agree with Alex's perspective that ten years
+from now after we've solved all physics we've solved all
+math.
+We have global abundance.
+All of this is going to look silly ten years from now.
+But in the three-year timeline, massive job loss,
+total confusion and massive rampant AI sales
+consumerism that has no regulation around it right now.
+It's going to be an absolute cluster, especially
+political consumers.
+Especially the consumer first companies that are needing to
+generate revenue.
+Yeah.
+Yeah.
+Well actually after that last pod you showed that chart
+Peter that had anthropic growing 10x year over year.
+26 billion in revenue forecast that this year.
+And on his current trend will be the first company
+to hit a trillion dollars in revenue in history by
+2029, 2030.
+And then exceed open AI this year.
+And exceed open AI this year.
+Crazy numbers.
+But I said on the pod you know that implies like a 30 billion
+dollar or 30 trillion dollar valuation.
+But then I ran it through perplexity and it said no that
+implies a one quadrillion dollar valuation using
+the current market price or relationship.
+Yeah.
+We discussed this a few podcasts ago that we'll see the first
+hundred trillion dollar companies before the end of
+this decade.
+Anyway, I think that this is a more honest policy for
+philanthropic end of the day.
+Autism was never going to work.
+I mean, we all know a number of folks at MIT and
+otherwise who advocated for a six month pause just for
+the entire space to cool off and wait for safety to catch up
+whatever that means not at all.
+If anything that function doesn't accelerate to
+capability.
+So I also think even in the DNA of anthropic
+anthropic was originally recall was originally founded
+as an exodus of open AI employees who were
+purportedly concerned about safety as a more
+lack thereof at open AI.
+So they start a safety slash AI alignment oriented
+firm.
+Then they rapidly discover that the best way to do
+safety is to have your own models and they discover
+the best way to have your own models is to raise a bunch of
+money to train your own models.
+And then they discover the best way to raise money
+to train your own models is to generate revenue.
+And the cycle completes where yet again an
+alignment oriented firm becomes a capabilities firm.
+This happens over and over again.
+I would argue at this point alignment and capabilities
+are inseparable.
+There's like a deep duality there.
+Did you see the new standard by the way?
+It's a Darius said, well, okay, we can't.
+We can't live by our original plan to plan to
+not train advanced AI unless safety is guaranteed.
+So the new standard is we need to be as good or better
+than anyone else.
+It's like wow.
+That's a very different bar.
+We see recently with the whole department of
+war debacle with anthropic and open AI,
+open AI cuts a deal andthropic.
+Where does anthropic stand right now in that whole
+conversation?
+They're in limbo.
+I mean, I write about this every day in my newsletter
+andthropic is at the moment.
+My understanding is they're in limbo.
+They're probably in negotiation with the Department of
+War.
+But they're otherwise in limbo and cut off as a
+supplier and considered.
+I'm not sure whether they've, I think
+Dario and others have made some formal statements
+that they haven't received anything in writing yet
+from the Department of War.
+But my understanding is that this administration
+has is considering them a supply chain risk.
+And at the same time, notably, open AI struck a deal.
+Yeah.
+And at the same time, we hear that anthropic was used
+by the Department of War to actually plan the attacks
+in Iran.
+One thing that's really, really, yeah, no.
+I mean, look, it's really clear that the people who control
+the AI, the US government, otherwise, can take out
+any world leader at any time now.
+The combination of satellites, AI to read every image
+and universal cameras.
+It makes it impossible to decapitate any country at any
+time.
+We've proved that twice in the last quarter.
+So the future of Warfare is basically whoever
+controls AI chooses who gets to stay in power.
+You know, Dave, that's a really important point.
+One of the things I've mentioned before is we're living
+in a world where you can know anything any time anywhere.
+Right?
+It's a trillion sensor, a content, you know, over a
+trillion sensor, a planet right now with drones or
+orbital satellites, autonomous vehicles,
+gathering data, and then AI doing predictive analytics
+on what things are likely to be,
+even if you don't have data for it.
+Well, take one of the things.
+Because we're going to talk.
+I was just going to say, maybe not even just
+means to an end, but also depending on which analysis
+of the Iranian situation you subscribe to,
+maybe an end to an end as well.
+If you look at Venezuela and the oil exports to China
+and you look at Iran and the oil exports to China,
+the picture emerges, or at least one
+possible picture emerges, that what we're seeing
+is not just AI where cloud is being used to perform
+the Venezuelan operation, perform the Iranian operation
+as it means to some sort of arbitrary or nebulous
+geopolitical purpose, but actually arguably with
+China looming in the background and possible Chinese
+invasion of Taiwan and the risk
+to the semiconductor supply chain and Western AI,
+that would cause it may be the case
+that AI is also the end to the means to the end,
+and that what we're seeing more broadly is,
+in some sense, super intelligence being used
+to protect the future of Western super intelligence.
+Yeah, and there's a window of opportunity,
+maybe a few months to put some kind of structure around
+this globally where you'll see later in the podcast
+that the models are improving it,
+like the like 3x, 4x reduction in parameter count,
+10x increases in intelligence,
+you know, just every time we podcast
+it's another step up, and we were already predicting
+where I was anyway, this is going to be a 100x here,
+just in terms of raw parameter count,
+but I think that's the lower bound now,
+looking at how just the beginning of the year is progressed.
+So there's a window of time where the power of AI
+that percolates out to every country in the world
+is going to be ridiculous by the end of this year.
+You know, create any virus you want,
+create any nuclear weapon you want,
+just working with your AI agent.
+So there's a window where we can start thinking
+about regulations that register the AI use cases
+and agents and chips and processing before chaos breaks out.
+But you can see that that window is executable now
+because you saw Venezuela, you're seeing Iran,
+you know, clearly there's this tipping point
+happening right now where, you know, whether it's NATO
+or whether it's the United Nations
+or whether it's the US Congress,
+some entity needs to start formulating some structure
+around this because it's happening this year.
+I mean, people have to wake up.
+Please go ahead, but I just want to say one thing,
+people have to wake up to the fact that AI is the single
+most important force impacting everything.
+You know, every single element of humanity right now
+is going to be accelerated re-invented by this.
+Celine, go ahead, please.
+To Dave, it just struck me.
+They mentioned the Congress, the UN NATO,
+probably the three most toothless entities on the planet today.
+So the thought that they would actually get together
+and do something or anybody do anything,
+I think is low.
+I think we have to assume that it won't happen
+and look at the other side of that.
+One thing about the anthropic case,
+there is a potential I looked up in analysis.
+They do have a legal challenge potential
+because the way that that was classified is so ridiculous
+to make them a existential risk
+and all that supply chain risk,
+etc., that they have legal recourse to fighting that
+and they might win that.
+Yeah, the thing about the legal recourse is that that process
+is usually a three year long window,
+which is literally, it's only eight to five.
+It's actually what I'm trying to do.
+Yeah, setting is that in the scenario, everybody loses.
+Yeah, yeah, there's no framework in no rules.
+It's a lot like the NFL was back 20 years ago
+when the defensive coordinators would pay
+bounties to the linebackers to take out the quarterback.
+Just take them off the field.
+I don't care if you break his legs.
+And take the 15 yard penalty who cares
+because then he's done for the season.
+The NFL said, this is not good for business.
+We need some rules.
+We're not expecting that pivot.
+Well, whatever they are right now.
+It's like, hey, you agree.
+I don't want to go down.
+All right, let's continue with the anthropic story.
+Hey, everybody, you may not know this,
+but I've done an incredible research team.
+And every week, myself, my research team,
+study the meta trends that are impacting the world.
+Topics, like, computation sensors, networks,
+AI, robotics, 3D printing synthetic biology.
+And these meta trend reports I've put out once a week,
+and they believe to see the future 10 years ahead of anybody else.
+If you'd like to get access to the meta trends newsletter every week,
+go to dmandest.com slash meta trends.
+That's dmandest.com slash meta trends.
+I found this story pretty fascinating.
+So, inthropic expands clause agentic capacity.
+Two different sides of the equation here,
+co-work gains scheduling, right?
+So, this is a cron job.
+So, Claude completes recurring tasks at specific times.
+For example, generating or morning briefing,
+or spreadsheet updates, or your Friday presentations.
+That element was very much what we saw in OpenClaw.
+And so, it's interesting.
+The second half of this is that Claude code has enabled remote control.
+So, you can kick off a task on your terminal,
+and pick it up on your phone.
+You can control it from the Claude app or from a URL.
+And I'm wondering, you know, this has probably been in the works for some time.
+So, when inthropic, basically, you know, try to do the co-bosh on cloud pod.
+I'm wondering if that was because they had this in the works.
+Basically, what OpenClaw has been doing is what
+Anthropic is just rolling out under a different approach.
+Oh, for sure.
+I take an anthropic at their face that this was or OpenClaw,
+I guess, that the challenge was more trademark oriented than anything else.
+But I do think they're, what have I been saying for weeks,
+slash days at this point, that was distinctive about OpenClaw.
+It's the two things.
+It's, it's headless, able to function autonomously for 247.
+And also that it's convenient to chat with via conventional messaging channels.
+And what do you see here with co-work?
+Co-work is able to autonomously be scheduled headlessly.
+That's the headless part.
+And then remote control.
+That's the mobile messaging type part.
+But I think both of these are half measures.
+Like, I'm insufficiently motivated by each of these.
+I use co-work from time to time.
+And I use cloud code all the time.
+And neither of these, I think, is as compelling,
+at least conceptually, as a more open-claw-ish framework,
+where all of these are cleanly packaged.
+And I think my guess is anthropic and open AI.
+And all of the other bigs will be forced to release their own sort of first-party open-claw competitor sometime in the last couple months.
+What do you think there's something I found very profound about this plus our last conversation around open-claw and everything happening?
+I think I was thinking about it over the last couple of days.
+Something very profound is happening, which is the sheer democratization of compute power, right?
+Note the agency of an individual developer with a Mac mini and running quen locally and open-claw has unbelievable agency and decentralization now.
+In not controlled by any centralized authority, not controlled by any centralized command structure,
+they can essentially operate as they feel like.
+So this is an incredible independence and agency at the edge, which is going to really blow open innovation in a way that we can...
+Total democratization.
+And the monetization, as we're seeing it happen, it cascading down as Dave mentioned earlier.
+Ironically from China.
+Yes, ironically from China.
+And then one other nugget, you know, Peter, your theory is 100% right, you know, and Thropic.
+Why didn't Thropic just throw out something better than open-claw a year ago?
+It can and will delete things off your laptop.
+And so all these open-claw users, including my kids, including me, actually have separate laptops or separate Mac minis, you know, including Oxfin, you know, in our podcast we just did.
+They run it on isolated hardware and Thropic couldn't really contemplate throwing out a product.
+Then say, yeah, but run it on separate hardware, don't tell like, how are you going to do that?
+So this creates a huge entrepreneurial opportunity though.
+If you say, you know, listen to what Alex said a second ago, open-claw is unbelievably compelling.
+And anyone who's started down that path will never go back, right?
+It's just, you'll never give up your Jarvis once you have a Jarvis.
+Have any of you played with Proplexities computer?
+I've been hearing really good things up, not trying to yet.
+I looked at the demo.
+I think it's an interesting step in the direction of councils for everything.
+And I've had so many people over the past two months ask me for something like Proplexities computer where you,
+they're right now if you have a given task, they'll manually go to the top three or four frontier models,
+ask them for independent opinions and then try to synthesize that into one coherent hole.
+And that is essentially what Proplexity computer tries to automate.
+There are others in this space as well.
+But I think even there that it's nice sort of sugar, syntactic sugar, if you will, around the existing models.
+But I don't think it's transformative.
+I think ultimately, even this ability to cancel up or to create juries around lots of competing models,
+that's just going to be table stakes as with so many other forms of scaffolding.
+Did you just say syntactic sugar?
+It's a term of art in computer science.
+It goes away back.
+Alex, I think the point you made a minute ago is brilliant.
+And Dave, I think you were seeing this as well.
+All of the big players, all the hyperscalers, all the frontier models,
+are going to have to develop some version of open claw,
+because it's going to become the de facto.
+Every person is going to have their own version of Jarvis.
+Yes.
+I remember it's really expensive, too.
+This is part of the reason.
+It's not the only reason for running, say, Quinn locally under an open claw scaffold.
+That's a lot of compute.
+If you have one or more agents that are running constantly for you,
+I'm not sure anthropic in its present state even has the cloud infra to be able to
+launch a product like that.
+And I think in many cases, anthropic, open AI,
+the others are probably just waiting around for their infrared
+to catch up with applications like that before they launch it.
+Yeah.
+Agree.
+This is the entrepreneurial opportunity of a lifetime.
+Anybody who jumps in and there's so many different versions,
+so many different things to play with.
+But when you go to JP Morgan, you know,
+Justin Milligan, who just joined us,
+his division at JP Morgan was only allowed to use GPT-4.
+Wow.
+Are you kidding me?
+And he couldn't take it.
+It's like, this is ridiculous.
+But no one has figured out, okay,
+but how can I use it in this highly secure inside the firewall,
+inside JP Morgan environment?
+And, you know, Dario is not going to answer that question.
+And, you know, the open claw team isn't going to answer that question.
+And they want everyone to thrive who uses their platforms.
+They don't want to kill every job.
+They want any early adopter to thrive as they thrive.
+And, you know, Dario, if he hits a quadruian dollar valuation,
+doesn't need more money.
+He needs to not destroy every job in America or in the world.
+And so this is really entrepreneurial heaven.
+If you can figure out, how do I get what I can use right here on my,
+my Mac many?
+And it can clearly solve all these problems.
+How do I get that inside real world use case
+without breaking everything, without regulatory problems?
+Many, many, many job opportunities.
+One of the challenges still with, even with, with, with, with,
+Claude's agenda capacity is, um, you know,
+giving AI, uh, recurring unsupervised access to your workflows,
+uh, means that either they're going to be a bunch of errors,
+or you're going to be spending all your time checking the work before you hit,
+you know, publish.
+Um, it's still going to keep the human still, you know,
+in the loop to assure, uh, quality or alignment.
+There will be a point of which you trust it completely,
+but we're not there yet.
+This is the economics 101,
+or I should say micro economics 101,
+when the cost of one good falls to near zero,
+the value of the complementary good increases.
+So as the value, or I should say as the cost of
+generation of content becomes post scarce,
+which is exactly what we're seeing,
+the value of its complement, which is verification for now.
+For sure.
+All right, going to my next story, Claude,
+and keeping on the, uh, on the Claude theme,
+Claude gains co-work plugin templates for finance,
+banking, and HR.
+So this is fascinating, right?
+Andthropic is building enterprise agent marketplace.
+Um, it's department level AI infrastructure,
+and it's taking down company after company after industry.
+Um, what's, you know, we've seen,
+just, you know, the decimation of, uh,
+of a number of players out there.
+What are you thinking about this?
+So I wouldn't interpret this as, you know,
+when Microsoft launches an assault,
+like on the relational database,
+it's, it's a big, you know, multi-billion-dollar investment.
+Here, uh,
+Anthropic can build these connectors and adapters,
+vibe code them in probably an hour.
+You know, and anyone else can too.
+So I wouldn't perceive it as, you know,
+Anthropic is taking over all banking software.
+It's just so easy to build the stuff now
+that you might as well roll out all that functionality.
+So I wouldn't over read it into the intent behind it.
+But I think it's, I don't think it's intent.
+I'm just saying, you know,
+the implications, the implications though.
+So I have about two thoughts.
+One is every department now becomes like a programmable intelligence layer.
+Yes.
+And basically all prescriptive logic in companies,
+collapses into these AI agent roles.
+And the real prize here is enterprise orchestration.
+Not so much chat bus,
+but autonomous workflow networks.
+Because this, this will,
+talk about last time.
+This is the organizational singularity.
+We go from human centric approvals,
+hop to hop to hop,
+human to human,
+to agentic workflows of human beings
+doing oversight, dashboard monitoring,
+and exception handling.
+A couple of comments on this one.
+If you actually look at what these plugins are,
+that anthropics launching that are causing the so-called
+cess apocalypse,
+and producing a carving one and a half trillion
+dollars off of market caps of various software companies,
+they are absurdly simple.
+They're, they're just a bunch of
+MCP model control protocol wrappers
+and a bunch of skills with a set of bullets
+for how to go about carrying out different
+job industry roles or labor categories.
+This is not that complicated.
+I'm reminded, remember the scene in the matrix.
+The villain is busy unplugging people
+without their cooperation from the matrix,
+killing them in the process,
+and one of them says not like this,
+not like this.
+That's basically what we're seeing,
+where these are just simple text files,
+in many cases,
+that are reducing single-handedly
+the market multiple,
+the trading multiple of entire industries.
+I think on the one hand,
+it's incredible that a simple text file
+can say,
+chop 10% of the value off of a CRM firm,
+at least market value.
+On the other hand,
+these as pointed out earlier,
+these plugins,
+and the marketplaces of the plugins,
+are so absurdly simple
+that I would reasonably expect these plugins
+or any get just built in,
+since they're just scaffolding anyway,
+built into the next baseline version of the model,
+and won't even need to exist independently in the future.
+Alex, I think the interesting point here is,
+a year ago,
+if you had delivered this as an entrepreneur,
+you'd be out in the market
+raising at multi-billion dollar valuations.
+It's called Hyper-Deflation for a reason, Peter.
+I mean, I get it.
+I just want people to be aware
+that the mode for an entrepreneur
+coming forward was something amazing
+that we're going to reinvent the entire HR industry,
+or the investment banking industry,
+and raising at a $45 billion valuation.
+It's basically that mode's gone
+months or year later.
+We're going to get this really important.
+I think it's really important to step back
+and look at the macro every now and then and say,
+look, abundance is going to be rampant.
+We're talking about tens of thousands of times,
+more capacity to create more money,
+more value-created.
+Abundance is going to be absolutely rampant.
+And there's no reason to be afraid,
+even though, like if you were a CRM company,
+you're 20 year future cash flows
+from recurring maintenance revenue is suddenly gone.
+That's true,
+but the opportunity to pivot and thrive is bigger than ever.
+And so I think a lot of people are,
+they'll be a ton of volatility,
+because people haven't mapped to the new reality yet,
+but opportunities bigger,
+not smaller overall.
+That agility is fundamental to large organizations,
+success.
+I talked about,
+and the last pod,
+you know, the asteroid hitting the earth
+and changing the environment so rapidly
+and the slow-numbering dinosaur is going extinct.
+That's exactly what we're talking about here.
+I mean, Selim, do you think that we can see
+large companies pivoting rapidly enough?
+Zero.
+Zero.
+They will not be able to do it.
+I mean, look, we've seen this throughout history.
+It doesn't work.
+I think where you end up is not to throw another metaphor at this,
+but you end up where we saw with Google ads,
+where you kind of took out the advertising market massively,
+and then Google ads becomes like a coral reef,
+with lots of little species feeding off the reef,
+and if you're the reef then you're in great shape.
+But in this case,
+the reef itself is disappearing
+as we can decentralize completely
+to one of computers running things.
+There are people using open cloud to go to small businesses,
+sitting down in front of them
+and automating workflows live for small businesses.
+This is like incredible.
+What's going on?
+You know what else, Selim?
+There are a lot of private equity funds
+that are coming at us now saying,
+Hey, big companies never change quickly.
+Wait, this big company could be a small company very quickly
+because we don't need all these people.
+Now we have a small company with huge, huge cash flow.
+Wow.
+So there will be people.
+So there will be people.
+You fund emerging shortly.
+Well, there's not if it's not there already
+that is going to buy up kind of medium-sized big companies
+and set up a digital twin infrastructure on the side
+where you have an AI native digital twin
+and you just move workflows over to it
+and you'll collapse the cost of running that organization
+by about three to five X.
+Well, that's what we're talking about.
+Well, that's what we're talking about.
+My cover already exists.
+I've started multiple companies like that.
+I've even tried to popularize a term for it.
+I call it an IBO and AI buyout.
+We've seen multiple PE firms doing that.
+Like this is table stakes at this point.
+Yeah.
+And of course, macro-hards, you know, vision is going to come in
+and digitize your entire employee base and operate it.
+That's for, that's for your pure software place.
+But I think we're going to start to see this in real,
+in the physical world.
+Like project Prometheus from Jeff Bezos
+is attempting to do this for industrial firms.
+Right.
+Anyway, I think the point here is large companies
+need to take action right away.
+So, Salim, what is your advice for a large company?
+Is it you listening?
+And seeing this coming their way.
+What do they do?
+Exactly what Alex just said.
+You set up an AI native digital twin on the edge.
+You run an immune system ten a week sprint
+to block the response from the mothership.
+You grow this thing and slowly move workflows over
+or quickly as quickly as you can.
+You do a combination of bottom-up and top-down workflows.
+And the real shift in people's heads needs to be
+that instead of human-centric workflows,
+which is what has been like for the last 150 years,
+we now move to agentic workflows
+where you can get things down much more effectively
+with awards on the legions, two layers, strategic layer
+and an execution layer.
+And then human beings are doing oversight,
+exception handling, et cetera,
+because coordination costs go to near zero,
+execution costs go to near zero,
+and in and outside the firm,
+the future of the firm becomes a legal
+fiduciary liability purpose holder.
+And one of my other big questions.
+Two other things real quick.
+The first is your brand.
+If it's reasonably good,
+still you own your brand,
+and you own those customer relationships
+for the moment.
+I think it's worth also rereading clay questions
+in the innovators dilemma,
+which is exactly addresses this.
+Salim, I know you're a big fan.
+We all should be.
+The innovators dilemma contemplates,
+hey, every 10 years,
+something truly disruptive is going to obliterate
+whatever you do.
+And here's how you should react to it in that moment.
+But now instead of every 10 years,
+it's going to be every 10 months,
+and then soon it'll be every 10 weeks,
+and then it'll be every 10 days pretty soon too.
+But the playbooks is still the same.
+Read the innovators dilemma,
+invest in the new thing.
+Use your capital leverage in your installed base.
+Do you know what is the new thing?
+I just got a good call for one of my portfolio companies,
+and my comment to my board and to all boards out there
+is you have got to give your CEO top cover
+to be dramatic in their modification of the business
+because, you know,
+and you have,
+I know you're either the disruptor or you're disrupted.
+Yeah.
+So whenever you want to get found remote,
+you get found remote.
+Yes.
+I mean, that's basically it.
+If you're, if the company and the board and the CEO
+are not in found remote,
+and willing to do dramatic surgery on the company,
+you're dead.
+You're walking dead in any industry.
+I'd also be remiss Peter if I didn't point out,
+here we are,
+basically on the eve of a abundant knowledge work,
+knowledge work, of course, being cooked,
+knowledge work, about to be post scarce.
+And here we are,
+bringing our hands over where to find
+scarcity's in knowledge work,
+as is about to become abundant.
+I just want to point out the irony.
+Such an extraordinary time to be alive.
+All right.
+Talking about disruption,
+disruption coming out of China,
+Ali Baba's 35 billion parameter,
+Quinn 3.5,
+medium outpaces,
+235 billion, Quinn 3,
+and benchmarks,
+the power of small open weight models.
+So, Alex, do you buddy?
+This is happening in Western models
+to the difference is when, say,
+open AI launches a mini model or
+Google DeepMind launches a flash model.
+They don't advertise the parameter count,
+so it's not as viciously obvious as it is
+when a Chinese frontier lab launches an open weight model.
+We get to see the benefits of distillation
+in a successor model,
+but it's striking.
+We're seeing almost 10x reductions in parameter count
+while maintaining capabilities or even increasing capabilities.
+And the broader picture just to keep in mind is
+the capability density of models is increasing.
+This goes hand in hand with what we've talked about in past.
+Sam Altman's comment about 40x year over your
+hyper-deflation of costs at constant capability.
+In this case,
+I just, my mind immediately goes to what's the end game here.
+If we can see an increase in capabilities
+with a reduction from 235 billion parameters
+to 35 billion parameters,
+what is the end game looks look like?
+Where does this end?
+Does it end up?
+This point during our podcast with him.
+If you remember that, Dave.
+Oh, yeah, we're sure.
+For sure.
+Yeah, he said he does.
+Yes, there's research team not to give him
+parameter count anymore.
+Just give me bites.
+Yeah.
+Because they keep quantizing and shrinking the file size.
+I had a lot to say about that,
+but I had a bit of my tongue because that perspective
+doesn't write either.
+But Alex predicted this a long time ago.
+I don't know how you saw this coming,
+but there's more.
+I just look at the scaling lock curves and extrapolate.
+You know what I mean?
+I mean, in this case,
+I was on the treadmill this morning,
+watching old moon shots podcast,
+and I'm like, wow,
+that was like so long ago.
+And I look at the timestamp.
+And it was only like two months ago.
+It was only like three months ago.
+Like holy crap.
+Yeah.
+Things are changing so quickly.
+But Alex who said this,
+I think you're the first person I ever heard from it saying,
+look, you know,
+the equivalent of a GPT-5 is going to be maybe 30, 40 billion parameters,
+but it could get as low as one or two billion truly.
+Because right now when they train that caliber of model,
+it has all this junk knowledge in it too.
+Not for thinking junk,
+you know, Twitter feeds and Kardashian news and all that other
+exactly.
+Strip that out.
+This could get very small and very tight.
+It could get way smaller than a billion.
+I mean, I could imagine scenarios where it's only a few million
+parameter equivalents that sort of the core micro-corneral of
+AGI or super intelligence than the rest lives in a flat text database or something.
+Well, that will, you know,
+another thing Elon said is,
+we're not as smart as we think we are.
+If you get super human intelligence down to a couple million
+per amp.
+It's really like, wow.
+We are really not that smart.
+The person I heard speak about this was actually E-Mod.
+E-Mod must talk,
+speaking about what you can get onto your phone.
+We'll see that in a moment.
+I mean,
+my question is,
+is this bad news for the big compute incumbents?
+Right?
+If massive data centers are being invested right now,
+and the next cities.
+This is so good for the startup community.
+It's fantastic.
+We still need the big models.
+Well, it comes down to something Alex also talks about a lot,
+because do we have boundless problems we can solve?
+Like if you get everything to be a hundred times faster this year,
+you can just do that much more.
+Do we actually run out of things to do?
+You know, it's physics.
+Infinite or it's physics finite is,
+you know, is human benefit.
+Infinite or is it finite?
+And we'll find out, I guess, in a year.
+But my guess is,
+no, every time you shrink the model and make it faster,
+you're still going to use every single chip in that data center just for the next thing.
+It's special when you start getting to the full cell simulator and all the health stuff that everyone's really eager to do.
+I mean, that is very, very compute intensive.
+And I want to show that it's better.
+Peter, I thought 64 kilobytes should be enough for anyone.
+Exactly.
+Exactly.
+The good old days.
+Check out this.
+So I saw this on X this morning.
+So this is Quinn 3.5 running on iPhone 17 Pro.
+On airplane mode.
+And this is extraordinary.
+So it's a 2 billion parameter six-bit model running on Apple silicon.
+So imagine you're any place on the planet.
+You don't have Wi-Fi, but you've got Quinn on your, on your device.
+And it's got all the intelligence you need.
+I find this app.
+Yeah.
+So seeing demos like this in my mind underline either depending on whether you want to see it as
+Competence or otherwise, how much of an opportunity Apple has to finally take the lead with local models or
+Conversely, how far behind they are in terms of taking the lead in terms of local models.
+But either way, clearly there's this enormous overhang.
+We could be running enormously competent reasoning models locally on all of our recent iPhones.
+The fact that it's not yet baked into the operating system, obviously,
+and is very publicly barressing.
+Maybe one wants to call it for Apple.
+On the other hand, lots of rumors that this time around finally with Gemini integration.
+They, they're on the critical path and they'll finally launch.
+Finally Siri will not suck anymore.
+Apple intelligence, how are they branded?
+Note that the local ability able to go offline means it's unstoppable.
+It's uncensurable.
+I mean, this is incredible.
+Well, that's yeah, that's the ultimate barrier too.
+Because if this can get to the level this year where it can do a gain of function virus,
+it can do a chemical weapon.
+And it all fits into a tiny, tiny little package.
+You know, with nuclear proliferation back in the 1950s,
+there was a theory that hey, you know, if this physicists keep chucking along,
+they're going to make something the size of a grenade that has the power of an H bomb.
+And then, thankfully, that didn't happen.
+This is the physics didn't allow it.
+But the AI is not going to stop like that.
+Yeah, it's going to keep getting faster and denser and more compact.
+The window of opportunity to put rules and regulations around this is very, very narrow now.
+It's really, it's going to be this calendar year.
+What do you think is going on at the White House in Congress?
+It's so hard to see this conversation before, right?
+We had one of the big agencies, the head of innovation,
+and one of the big agencies at Singularity Peter.
+You probably remember this.
+I do.
+We asked him, how do you think about this when somebody could design a virus on an iPhone,
+something, something, etc.
+And he said, look, and it was a much more clever answer than I thought he would give,
+which was when you have kind of nuclear weapons, you know,
+how many there are, you know, where they are.
+You put eyes on it, you try and track it as much possible.
+Great.
+When you've got something that's this democratized,
+what they're actively doing is opening up these communities.
+So they went to the biohacking communities and funded them to open up,
+because if you're trying to do something dodgy,
+it's happening to collaborate with a few people,
+and the conversation surface very quickly.
+And then the community does self policing self reporting.
+Somebody's doing something dodgy asking a few people,
+they pointed out, et cetera, et cetera,
+because it's in their best interest.
+And it's actually worked very, very well so far.
+What happens when you get to this level is I'm clear,
+but I think the general trend has been very positive so far.
+I'll tell you one other thing, you know,
+the way this evolved with financial services,
+being self-regulated, is we think about right now,
+so the federal government is incompetent,
+they're not doing anything.
+The researchers over it,
+anthropic, or brilliant, they're moving a million miles an hour.
+It's going to end up being the same people.
+This is the way it worked out with the SEC.
+When you go, who works at the SEC,
+oh, it's the same guy that was a Goldman Sachs yesterday,
+doing his two years at the SEC or her two years at the SEC,
+and then going back to Goldman Sachs.
+That's the way it's going to be with AI too.
+Right now, nothing is happening at the White House.
+David Sachs is there, though, you've got one brilliant guy.
+What's going to happen next is,
+the pro-Propic people, and Open AI people,
+are going to actually be the people working in the self-regulating agency.
+And so the people will have to bounce back and forth,
+and they'll do it because they're worried.
+They're conscious of the impact of not doing it.
+Yeah, still concerning, right?
+Still concerning they have this level of capability, offline.
+We know how to handle decentralized capabilities already.
+We have printers, in some cases,
+states are trying to regulate 3D printers,
+and the 4D printers we had 2D printers that could be used for counterfitting.
+But we baked, but Alex, we baked software into all of those printers,
+right? There was a standard that was created for the yellow dots.
+For any, you know, for Canon, for HP,
+for any printer that detected you trying to, you know,
+photocopy money, it wouldn't allow that.
+So the question is, if we're talking about open weight models out of China,
+that we don't control the software on,
+how do you bake in protection there?
+There are so many different ways that one can defensively co-scale
+against 2 billion parameter, six bit models running on someone's iPhone.
+We've already talked about some of them.
+There are other ways, in the scheme of things,
+that I don't think sort of these edge devices running tiny Chinese open weight models,
+either individually or collectively pose an enormous hazard to the market.
+They're just not that capable relative to the other models that are out there.
+I think the frustration is that the solutions are relatively obvious to Alex.
+We've had this at this meeting at the statehouse before.
+It's like, guys, it's not that hard.
+Here's what we need to do, and then nothing happens.
+Yeah, that's the frustration.
+But yeah, registering the models, registering the compute,
+tracking the GPUs, and where they are, it's all very doable.
+The idea is...
+And defensive co-scaling of making sure that the most flops are going to good purposes,
+rather than bad purposes.
+I'm reminded, I think, of the New Yorker cartoon.
+Guy is up late at night at his computer saying,
+I can't come to bed.
+Someone somewhere said something wrong on the internet.
+We can't get so bothered by the fact that someone somewhere might be doing something wrong
+with a $2 billion parameter model line.
+I've got so many agents running now, and I put in place a little rule that said,
+hey, before any process launches, write a mission statement and store it next to your code.
+It solves so many problems.
+Because the mission I can go back and read the mission statement and say,
+hey, what the hell are you working on anyway?
+Well, read my mission statement.
+Wow, that makes no sense, or that makes tons of sense.
+It's so simple.
+Because the AI is the first self-documenting, self-improving, self-cleaning thing in the world.
+All right.
+Yeah, yeah, just a couple simple little things like that will solve all these problems.
+Have you told me I've told you the same?
+Actually, yes.
+It's a little bit different.
+It's like whatever you're doing, make sure that it's in a written document that the AI can see too.
+I don't want any opaque activity, because the AI can't see it, then I don't want to see it.
+I want everything to be on the same page with us and the AI.
+So this is out here.
+Celine.
+You know, I think a key point that we have to remember is the ratio of good to bad.
+We worry about the downside, and we should worry about the downside.
+And the amplitude of the negative is getting bigger and bigger as people can run these models.
+But I always go back to the eBay Craigslist example where when you could first do eBay or Craigslist at scale,
+you could see human nature at scale.
+And so anthropologist and sociologist studied the transactions at the eBay and Craigslist.
+You can master email address pretty well on eBay.
+I can throw a picture of a MacBook put grab your $1,000 off to Fiji.
+Right.
+So how do you, what's the actual ratio?
+What is the real true nature of humanity?
+And by studying the systems at scale,
+KGG and Caldo, Macartol Libre, and Argentina Craigslist eBay,
+they found that the ratios consistently $8,000 to 1.
+There's $8,000 positive transactions on eBay for each fraudulent transaction.
+That should give you incredible optimism for the future of humanity.
+Yeah, agreed.
+All right.
+Let's move us along here.
+Let's get to the Google verse.
+Google releases Nano Banana 2.
+So this is running on Gemini 3.1 flash.
+It's 4K resolution.
+It's at 0.045 cents per image.
+That's a price point that's cheaper than stock exchange.
+I'm sorry.
+Sorry.
+Yeah, it's 4.5 cents per image.
+Excuse me.
+It's cheaper than buying stock images.
+And so is this the end of commercial photography,
+illustrators, stock image platforms?
+Probably.
+We're just getting started here.
+And I think maybe buried underneath the headline,
+but in the release documentation is this is the first image model
+from Google that combines a reasoning model,
+which I think they used slightly flowery language for,
+but basically the reasoning power of Nano Banana Pro
+with the instantanity.
+I think they might have just said with the speed of
+Gemini flash model.
+So under the covers, I think this is technically
+this is really interesting.
+It's combining probably some sort of diffusion model
+that we get with reasoning capabilities.
+And I think achieving the cost reductions of a diffusion model
+with nonetheless the capabilities of reasoning,
+we're going to see this spread from images
+where it's mostly right now in video,
+back to text, back to code.
+There are a few other labs, smaller labs,
+that have started to make pretty loud announcements
+about how they're achieving reported 5x,
+10x cost reductions or speed increases using diffusion models
+instead of autoregressive transformers.
+But I think this is probably the tip of the iceberg
+for some like final consolidation of autoregressive transformers
+which are used for co-gen and natural language
+for the most part on the one hand
+and then diffusion models and diffusion transformers
+on the other hand that are used for images and audio
+and video.
+We're just going to finally get one consolidated architecture
+at the end of the day that does everything.
+I mean, this is the wake-up call for people
+to remember that whatever you're seeing,
+you cannot necessarily believe it.
+Every pixel is going to be a generated end of the day.
+Selim thoughts?
+I mean, the cost drop is incredible.
+People are just going to do so much more
+with the democratization of creativity.
+Great, love it. Absolutely amazing.
+Yep, kind of curious.
+I don't know if you guys know,
+but the curve on intelligence is just ridiculous.
+But on diffusion models,
+I don't really know.
+I know they've got a lot faster and cheaper
+in the last few months,
+but it doesn't feel like the same type of algorithm.
+Like you may hit a wall.
+I don't know.
+Do you guys know?
+Open AI has been investing,
+this is in the published literature,
+investing a lot of effort,
+probably deep-mind as well,
+maybe slightly less prominently,
+in trying to avoid the need for
+many iterations on a diffusion model.
+So a diffusion model,
+normally, conventionally,
+takes many iterations to start from pure noise
+and refine the pure noise into the final image,
+or the final video.
+There was a lot of interest
+that was publicly available.
+I call it six to 12 months ago from Open AI,
+and some other folks as well,
+to see if they could just one shot
+or two shot straight from pure noise to the final image.
+I do think to your point, Dave,
+I think although I haven't seen
+and maybe in the past two to three months,
+any scaling laws for diffusion models,
+prior to that,
+I saw a ton of work on scaling laws for diffusion models,
+and diffusion models have scaling laws too.
+Everything has scaling laws.
+Yeah.
+You know, a mod would know all about this too.
+Let's pick his brain next week and I like.
+Absolutely.
+The new standard is,
+you know, go to Nanobinannatu,
+and ask it to generate imagery,
+so imagery becomes free effectively,
+and you can,
+I mean, used to be,
+I'd go, my current workflow,
+my previous workflow was,
+I'd go to Google Images,
+and hope I found something,
+right?
+Now everything is created from scratch,
+and it's perfect.
+I love this image in this slide here of Elon with Sam,
+in Dario,
+and the whole leadership team of all the hyperscalers.
+Alex, it should be in there, man.
+You've got to raise your game here.
+We're running.
+We're running out of scarcity,
+but maybe appearing in that image
+is one of the scarcity's our civilization has left.
+We can,
+we can make that happen for you.
+We're for sure.
+All right, continuing on with,
+with our friend to Google,
+Gemini can now automate some multi-step tasks
+on Android devices,
+so Gemini is now an on-device agent
+that can navigate real apps
+and complete real transactions.
+You know, handle door-dash, McDonald's Starbucks for you.
+So, interesting, significant.
+What do you guys think?
+I think it's hugely significant.
+Well, it's been a long time since
+there was a feature function on the phone
+that threatened Apple.
+Anyway, but AI is it.
+And if you try to use Siri to do something
+constructive while you're driving,
+it's just so painfully impossible.
+Also, when you start an AI dialogue
+and you're in the middle of the conversation
+and the thought process,
+you don't want it to go away.
+It's addictive and productive.
+And if it follows you on your phone
+and seamlessly, it's just incredibly empowering.
+So, if Google wins that race with Android,
+they might actually chip away
+at the iPhone profit dominance for the first time.
+Now, keep in mind that they also need
+the Duopoly for anti-trust reasons.
+So, neither company can afford
+to completely annihilate the other one.
+They need some parody and the balance on the force.
+Out of the data, I mean,
+we've seen a significant drop-off in mobile phones,
+right, in terms of mobile phone purchases.
+That will be displaced, of course,
+by headwear and earwear and all kinds of devices
+that are beyond just your phone.
+Well, I think a lot of that...
+There is no phone.
+So, the reason the phone sales dropped off
+is because they didn't have a function
+or a feature that everyone was clamoring for.
+Because people used to get a new phone
+when the cameras were improving like crazy.
+They'd get a new phone every 18 months to two years.
+Now, it's like, well, I can sit on this phone
+for three years, four years.
+I'm not even noticing the difference.
+But, again, AI could completely change that
+the neural chips.
+Sorry, Alex, good.
+I think there's also a supply side element
+where the rising cost of memory is making phones
+in some cases more expensive.
+And we're seeing, I think, a generational transition
+from smartphones absorbing the silicon
+and absorbing TSMCs output over to AI data centers
+as the new firm factor for computers away from this.
+But just narrowly on Gemini
+for multi-step testing on Android,
+this is what Siri was originally supposed to be about.
+In before Siri, this is what the DARPA
+personal assistant that learns or PAL
+was supposed to deliver.
+We've known how to do this in some abstract sense
+for a decade plus what was missing,
+why you ask, or we only getting this now.
+I always like to ask, why do things take so long,
+why can't they be faster?
+In this case, I really think it was about
+a combination of reasoning models
+and vision language models that could fit
+compactly onto a personal device.
+And we're getting that now, finally,
+we're going to be everywhere,
+but we really should have had this functionality
+even without the ability to read the screen
+and understand our portrayal applications
+we should have had this 10 years ago.
+And that's borderline and excusable.
+I think what's most significant here
+is the fact that Google has a huge
+and stalled base of phones,
+of Android phones.
+And the ability to take their AI systems
+and that installed base.
+Open AI doesn't have that,
+andthropic doesn't have that.
+And it's going to be a massive differentiator for Google.
+I'm a long time.
+Apple could have had it.
+Apple could have had it.
+I'm a long time Android user,
+so I'm super excited by this because this is the thing.
+Yeah, you turn all my eye messages green,
+it pisses me off.
+Apologies for ruining your visual field sphere.
+But this is like agency
+at the operating system level,
+which I think is amazing.
+And it also means a commerce APIs
+are becoming machine-machine
+first in human second, right?
+So you'll have less friction and consumer flows.
+This is going to reshape marketplaces over time.
+So it's really exciting.
+All right.
+Next article is a real fun one.
+Amazon makes a contingent offer
+to put $35 billion into open AI
+based upon them.
+First off, going public.
+And secondly, achieving AGI.
+Intercelling with this normal rant.
+What the hell you mean?
+You know, it's kind of incredible
+that we've financialized super intelligence,
+which is amazing.
+Having AGI as a financial milestone is unbelievable.
+Given we have no idea.
+Really?
+I mean, it's great that the intelligence
+has become a balance sheet trigger.
+That's incredible.
+But it's so weird.
+And thank goodness it says OR.
+Well, Alex doesn't,
+the agreement between Open AI and Microsoft
+requires Open AI to give the source code
+and all of the intellectual property
+to Microsoft until AGI.
+Do you think they use the same definition of AGI?
+I suspect it's something similar.
+So the definition, my understanding
+based on public reporting of the Open AI
+to Microsoft definition of AGI
+went through several iterations
+with the most recent iteration prior to there.
+I think for profit transition being
+and saline may be a like this.
+It did actually have a definition.
+It was something like generating
+$100 billion in either earnings
+or revenue I forget.
+Maybe we need to coin like AGI as a unit of currency.
+Like an AGI is $100 billion of earnings
+or something.
+We're measuring compute in terms of
+gigawatts and AGI in terms of dollars.
+I love it.
+That's fine.
+Listen, that's fine.
+You could that's just all
+they've done a substituted earnings plateau
+for that.
+But it's just fine.
+Open AI does have, right?
+This is $50 billion.
+It dwarfs Microsoft's
+$13 billion investment.
+And what, again, I'm going back to,
+what is Amazon?
+I would like to make the point
+which we've made earlier,
+which is that a lot of this is Amazon credits.
+So, you know,
+it's just fine because that's how they
+would have spent it anyway.
+There are lots of,
+lots of tendrils going
+both directions from Amazon to Open AI
+and back based on public details
+of the announcement,
+like the requirement that Open AI
+will use Amazon's
+or Trainium 2 chips for training.
+It's good for Amazon.
+It's good.
+Amazon has a long and
+storied history of purchasing
+their own customers in, in some sense,
+not in, well, some cases,
+literally acquiring them.
+But in many cases,
+paying for the information
+and the learnings that come from
+having a customer that's using
+Amazon as the world's most
+customer centric company.
+And in this case,
+Amazon,
+Mr. Arguably,
+Mr. The Frontier AI
+boat.
+And so, paying to
+get themselves to deal
+themselves back into the game
+is I think,
+for the course,
+they're up to
+$50 billion of investment
+is at far worse terms than,
+say,
+Microsoft's original billions
+when Microsoft was much earlier
+in the game.
+And I think this is just
+the price of
+reestablishing themselves
+at the info level of the party.
+It's also been reported that as part of the steel, Amazon will get customized versions of Open
+AI's models.
+Internally, Amazon will get to post as the exclusive third-party cloud host, Open AI's
+frontier, suite of automated AI co-worker employees.
+So Amazon will get a lot out of this, too.
+This is so incestuous, you know, what's going on right now, I mean, and Amazon was all
+anthropic for a while, now they're open AI, well, I'd say in a test or less, but I'll
+go ahead, Dave, sorry.
+Well, well, the US public market, all companies combined, is about 50 trillion.
+The AI companies are 20 trillion of the 50 trillion now.
+So, you know, it's incestuous, but it's like, if that 20 trillion becomes 30, 40 trillion, which
+inevitably will, it's the majority of the market, is just seven companies.
+So when I do a lot of deals with each other, you know, it's like, well, is that incestuous?
+That's where the money is.
+It's the whole frickin' economy is the sample of it.
+I also think maybe, I would say, incestuous, not perhaps the word I'd use for this, maybe
+circular, it is circular, just occurring at, but even that, that's not my take at all.
+In this case, I see competition.
+And I also see horizontal stratification that if Amazon is striking deals with anthropic,
+but also with open AI and open AI is moving some of its workload from Microsoft Cloud
+to Amazon and also to Google, TPU Clouds, that to me looks like a the market for infrastructure
+for the frontier labs is very competitive, that's great for the economy, and B, it's
+starting to horizontally stratify.
+So if open AI is feeling impulses, not just to vertically integrate down to the data center
+layer itself, but is so compute-starv that it needs to, following the law of comparative
+advantage, needs to outsource some of its compute to Amazon with its training and architecture
+and Google with its TPUs, that's a sign, if anything, that there's such insatiable demand
+for compute that it's raining on everyone, even with perhaps less loved compute architectures.
+Well, but, but there's an interesting, there's an interesting thing in negation here,
+which is X, AI is missing in all these conversations, right?
+So Elon is going 100% alone, Elon loves vertical integration, and he doesn't play well
+with others.
+Yeah, it's interesting that the big, big money we saw with anthropic is in the corporate
+use case, corporate white collar use case, people trust two clouds, they trust the, well,
+three, I guess, to be counter-worked, they trust the AWS Cloud in a big way, and they trust
+the Microsoft Cloud Azure, and I guess they sort of trust Oracle.
+It's not Google Cloud.
+Now Google Cloud, a bunch of our companies have been kind of bribed by Google to use Google
+Cloud, as Alex was saying, they'll pay you to switch and sum up taking it, but for the
+most part, Google spies on everything, they're terms of service, never say they won't
+do anything.
+If you read any terms of service from Google on any product, it says we may do this, we
+may do that, we may do the other, which kind of implies they won't do other things,
+but if you read the legal, they literally don't restrict themselves in any way whatsoever
+from doing anything.
+It's honest.
+It's very corporate unfair for an honest, right?
+Yeah.
+Yeah.
+But Microsoft legitimately says, no, we will not steal your data, no, we will not steal
+your intellectual property, no, we will not read your email if you use outlook, and AWS
+is even more, so people trust those clouds, and then they want their AI model to be inside
+that trusted container inside the cloud.
+So far, it's just been clawed on AWS, everyone's running away with clawed on AWS.
+So all of a sudden, for reasons, I don't know, it may be just variety, maybe not having
+Microsoft and open AI be just bedfell as by themselves, Amazon's going way out of massive
+$50 billion move here to get two options on the AWS.
+Do we know what the valuation of this round is?
+I think the reported valuation of OpenAI's overall round was $730 billion pre.
+And so this is not going to be a big risk, I mean, if OpenAI goes public, it's likely
+to go public north of a trillion dollar, so you'll get a quick pop, and it's probably,
+what do we have three big IPOs coming up, SpaceX is anticipated, maybe it's early
+these next month, I heard.
+And then we'll have Anthropic and then we'll have OpenAI.
+So I mean, if you can get a 50% pop in your price shares in six months, that's incredible
+investment.
+That's not investment advice for anyone who's going to misconstruit that.
+Well, hey, listen, I will give investment advice for people to get 50% in six months.
+I mean, why not?
+Just not investment advice for me, it's from Peter.
+Okay.
+Listen, if anybody can get a 50% return in six months in any deal, that's pretty
+I'm good.
+This episode is brought to you by Blitzie, a Thomas software development with infinite
+code context.
+Blitzie uses thousands of specialized AI agents that think for hours to understand enterprise
+scale code bases with millions of lines of code.
+Engineers start every development sprint with the Blitzie platform, bringing in their
+development requirements.
+The Blitzie platform provides a plan, then generates and pre-compiles code for each task.
+Blitzie delivers 80% or more of the development work autonomously, while providing a
+guide for the final 20% of human development work required to complete the sprint.
+Enterprises are achieving a 5x engineering velocity increase when incorporating Blitzie
+as their pre-idee development tool, pairing it with their coding co-pilot of choice to bring
+an AI native SDLC into their org.
+Ready to 5x your engineering velocity, visit Blitzie.com to schedule a demo and start building
+with Blitzie today.
+Another fun article this week is coming from Polcia AI created by Ben Sarah that runs
+companies autonomously, so they're currently running over a thousand companies, so imagine
+being able to take your company putting it on Polcia AI and say, go, so Dave, would you
+do this with any of your companies?
+Yeah, this is inevitable.
+I don't know if I'd use this exact product or not, I haven't checked it out yet, but
+a hundred percent, the philosophy is clearly where things are going, and you know, we'll
+look at the end of the day, what does an executive team do, you know, other than a couple
+of hugely important key strategic directions, everything else is just performance reviews,
+paper work, you know, whatever, all that can be very, very AI now.
+And the shelf in the room here is okay, I turned over to Polcia AI, but who's legally
+responsible, you know, if your company, you know, has a breach of contract or fraud or
+harms a customer, is it Polcia, is it you?
+That's why I think where this ends is, we get this question, I think, in the AMA's and
+otherwise all the time, like what's left for humans?
+Should everyone become an entrepreneur?
+Well, let the chorus of YouTube commenter say, well, not everyone wants to be an entrepreneur.
+I would say, where this ends up, not in the distant future, like 10 years from now, but
+in the medium term, like five years from now is single person conglomerates, where single
+person can oversee lots of agents that are all building businesses.
+This isn't for everyone, obviously, but as we start to get toward, you know, one person
+or a zero person unicorn becoming more and more popular, again, I've argued in past where
+we're likely already there in some sense, but as we start to see that long tail of the
+number of people per company over some valuation start to stretch out, I think this model,
+call it a broader model of a one person conglomerate, where you have a person sitting
+on top of basically an entire PE firms' worth of agents starts to make an enormous amount
+of sense.
+So I've been poking at Pulsiar, Pulsiar, and it's like a lot of micro-businesses and some
+of them look like they're varying levels of seriousness, but I checked and you can actually
+with some of its micro-businesses, you can actually go and purchase stuff.
+So you can already engage in real commerce, spend real money via stripe with some of the
+businesses that are running on its platform, and I think we're going to see so much more
+of these are super-businesses.
+These are super-businesses.
+Micro-businesses are not real businesses in terms of, you know, significance of revenue
+probably or complexity, but it's the beginning.
+I put, I put open the X on there.
+You did.
+I did to see, okay, could we, you know, I literally talked about half an hour ago, but, you
+know, correct, and you create a shadow way I digital twin on the edge, and this is essentially
+it.
+This point is valid.
+It may not be this one, but definitely these are going to be a genetic hosting systems
+where you log a brand, you pick a service, it'll email and find customers for you.
+It'll run the execution for you.
+What we're seeing here is Coses Theory, Col-Apsing, and real-time, right?
+Because if you have a thousand companies in a few days of their AI run, this is the
+marginal cost of launching, a company goes to zero now.
+It's 50 bucks a month to run an organization, run a company on this.
+So this is becoming really surreal, and we're going to expect to see thousands of examples
+in the stashations of life.
+It may be the work.
+It will blow up to millions.
+Yeah.
+And also, these things always come up from the bottom, and if you just like open your phone.
+Yeah, like a Jamie Diamond or some senior exec will look at it and say, it looks like a toy
+to me.
+Forget it.
+We're not doing this.
+And then it sneaks up on them and they get crushed and they're like, what happened?
+But some guy was using it to manage a vending machine or manage a social media site.
+And it seems so trivial, but it comes up quickly.
+And it sneaks up from the bottom.
+Just the way the Mac was, right, or the Mac was just perceived as a toy for college students.
+You know, it's never good for the enterprise, but then it grows up and grows into the enterprise.
+But this will happen much more quickly.
+It's just good.
+I would also argue.
+We've seen this happen before in finance with quantitative trading algos, which went
+from none of the volume in public securities markets to 70, 80, 90 plus percent of the
+daily volume.
+And, you know, what people survive, we still have human traders, manually fat fingering
+trades into the public securities markets, but by volume, they're completely dominated
+by algorithmic traders.
+I think we're going to see the same thing happening in the rest of the world outside
+finance, in the physical world, in various e-commerce spaces where over time most of the
+volume will eventually be dominated by algorithms.
+All right, watch this, watch this news item, guys, it will be interesting.
+And of course, Polcia AI is one probably of many that will be materializing.
+I thought this was a pretty fascinating conversation article on Burger King launches AI
+voice assistant called Patty in employee headsets.
+Let's watch a video.
+Hi there.
+Good morning Patty.
+Looks like we had a great breakfast gift today.
+Is there anything that needs my immediate attention?
+The team's friendliness scores this morning were the highest this week.
+We are running low on diet coke in the freestyle machine.
+Thank you, Patty.
+Hi, Patty.
+We just sold our last item in Apple Pie.
+Thanks for letting me know.
+Would you like me to remove them from our menu until tomorrow shipment arrives?
+Yes, please.
+OK, Apple Pie has been removed from our menu boards, third party delivery.
+He asks and B.K.
+App.
+I will add them back as soon as tomorrow shipment arrives.
+Thank you, Patty.
+Mead Puppets.
+Mead Puppets.
+You have to, two things, one admire the punny name Patty for Burger King, so clever.
+Two, going back to my comments from a few pods ago that we're going to be living in every
+single sci-fi scenario at once.
+This was a sci-fi scenario.
+I would argue called Manna.
+Manna was a novel written by Marshall Brain about 20 plus years ago at this point where
+you had human employees who were on headsets all taking directions from a centralized AI
+and businesses were there.
+We've arrived in Manna and it starts with fast food.
+So the only thing that video didn't capture is how encouraging and enthusiastic the AI is.
+Whether you're using it to code, whether you're using it to walk around and pick things
+out of the fryer later, it's just so engaging and energizing.
+That's the part that people are surprised.
+Because it seems like, hey, the AI asking Mead or telling me what to do is dystopian.
+Yeah, maybe, but it's really much more empowering and engaging and fun than walking around
+by yourself.
+This reminds me of the backster robot where you would move its arms and show what
+to do.
+And it showed a very friendly fellow, who is smiling.
+Yeah, it's a coach that robot, but it's literally teaching it to take us his own job.
+For me, the coaching tool is a transition to automation pressure.
+Frontline services obviously become AI mediated like performance management.
+So the endpoint here is going to be very interesting.
+So this is AI surveillance as well, right?
+So this is the AI watching every employee, this is beyond just saying,
+please, and thank you, it's rating them on their efficiency and, you know, calling it
+a coaching tool, silly, and miswear of like a corporate euphemism.
+Exactly.
+It's where it is.
+It's where it is.
+One has to admire the Orwellian nature of the thing.
+Yes.
+We appreciate you.
+I'm waiting for it to say, so you drop that, the fries for the third time this morning.
+Well, let's see how it deals with that.
+It's just literally Peter, it's literally Mead Puppets.
+Oh my God, so funny.
+But so, you know, we probably see this entering everywhere, right?
+I mean, when you're recording a customer service call right now, you're effectively doing
+that without the feedback in the moment.
+But as a CEO, if you want to understand who the weak players are in your company, or
+you want to try and provide, you know, on the job continuous coaching and see who can
+they respond, this becomes kind of, this is highly efficient, but highly dicey.
+Yeah, that's right.
+You're a St. Peter.
+It's not just knowledge, work that's cooked, cooking is cooked.
+I think you're going to see unions rebel against this.
+Big time.
+Big time.
+Yeah.
+Yeah.
+And I don't know if there's any winning that war.
+I mean, I think at the end of the day, the AI co-pilot is gathering a huge amount of data.
+And a lot of that data will go into the decision on what can be automated, what can't
+be automated, and over time everything can be done.
+This is like the Amazon delivery worker who is wearing a pair of AR glasses and Amazon is
+saying, oh, this is, you know, to help you show where to put the package and warn you
+about there's a dog, no, no, no, no.
+Those AR glasses are training Amazon's model to replace you with a robot to be very clear.
+Yeah.
+Yeah.
+Yeah.
+So if you rebel against it, what's that going to achieve?
+So you just got to get on the wave.
+There's no choice.
+You just have to be a user.
+You have to get on either Cloudbot or one of these other platforms, and it's common.
+Yeah.
+You can go pick it in front of OpenAI's office, like I was able, but it's not going to work
+out for you.
+I'm telling you.
+It's a well-motivated.
+I don't blame you for doing it, but it's not going to work.
+We're going to see all of these fast food chains begin to bring in robots very shortly.
+I think this sort of version of Patty, you know, we're going to get the unions rebellion
+against it, but I think we'll end up making voluntary.
+And if you really want to improve your abilities, you'll volunteer to use Patty.
+Anyway.
+Interesting.
+Think about the warehouse worker, or the Freilator operator, if you get one in a thousand
+to volunteer, that's all the training data.
+That's why it's fruitless to try and fight it, because you know, the numbers just don't
+line up.
+Also, I think this is how the transition can happen really quickly relative to political
+swings.
+This is, you don't need that much training data to automate away many of these tasks with
+humanoid robots and VLAs so close to being production ready for certain applications.
+I just, I don't think the transition period with Patty's, or, again, call out to Manna
+by Marshall Brain, which for saw all of this 20 plus years ago.
+I don't think the transition period is going to be long enough to even necessarily give
+political counter swings enough traction to make it worth it.
+One year, two years, well, it's already happening.
+The transitions already have to make this, to, to, to VLA robots, I, I think, yeah, next
+two to three years.
+Yeah.
+I've got just a quick thought here, um, before this really has time to penetrate, you're
+going to have grown deliveries of food like this, and it will obviously, it will love
+this.
+Yeah.
+Um, I've got, at the Abundant Summit this year, I've got, uh, an incredible company
+Zipline, uh, coming, uh, to talk about what they've done, um, I love the company, love
+their ability to transform delivery services in the United States.
+Of course, the company that began in Rwanda by delivering blood supplies and are now
+operating with Walmart and delivering every 30 seconds.
+And, uh, their prediction in the next two, three years will be a delivery per second,
+uh, extraordinary progress.
+All right.
+Another delivery company, uh, this is Uber, so, uh, check this out, Uber employees have
+built an AI clone of Dara, the CEO, to practice their pitches.
+So before you go pitch Dara, your idea, uh, you should pitch it to his, uh, his AI clone,
+um, I'm curious, Salim, what do you think?
+Oh, well, this is great at one level, because you get executive, like, cognition as a service,
+it really allows scalable leadership, um, the, uh, we're actually doing this at, uh,
+opening XO where we've created a clone of me with loaded up with all the XO thinking,
+and we're rolling it out to all the community members, so they can ask me a question as
+their advising clients or companies or cities, whatever, and I don't have to be in the
+middle of that.
+So I think this is, uh, usually relevant, and I think it, it makes absolute sense.
+Yeah.
+Um, it's, at some point, someone's going to ask, can the AI clone of Dara actually
+function as CEO and not just for pitch practice?
+Exactly.
+It's actually highly, highly likely that the avatar of Dara, of Peter, of Alex of Salim,
+will persist for a long, long time with the same voice in the same face.
+Um, and it's kind of in a sense locked in.
+If you win the race to being the avatar, people get used to it, but they like the fact that
+there's a human being behind it, I was telling Alex before the podcast started that I just love
+his Spotify version of the daily, uh, you know, the same thing.
+And you too, as well.
+It's the same voice on YouTube, Spotify, and voice over for sub-stack, if folks want to
+listen to an AI version of myself on the Intermost Loop newsletter.
+Yeah, and I really don't care that it's not, that it's AI generated.
+So I know it's Alex who wrote the content under the covers and it just feels great.
+But without the human being behind it, it was some synthetic, you know, never existed
+person.
+I was very, quite much.
+Do you remember the movie, Real Genius, one of my favorite movies?
+Of course.
+Yeah.
+There's a scene in which it's typically taking place at Caltech, and where, you know,
+the professors in the front, and slowly the students, or instead of attending class, they're
+putting their tape recorder down, um, and the professor of finally, instead of teaching
+a class, plays a tape to all the tape recorder's recording it.
+So I sort of imagine this is where we're going to see here with these AI clones of Dara.
+You know, it's going to be Dara at some point.
+It's going to just like take a vacation and let his AI clone run the company and see
+how it does.
+We'll have to ask him this question on stage, Peter.
+Yeah.
+No, it's great.
+And just as a reminder to everybody, Dara's going to be on stage, assuming I're going
+to be interviewing him at the Abundant Summit.
+And this year, for the first time, we're doing a live stream at the Abundant Summit.
+We're going to be live streaming Eric Schmidt.
+We're Dave and I are going to be doing the interview with Eric Schmidt and with Dara,
+we're going to be doing a live moonshots podcast with AWG Dave, asleep myself.
+So if you're interested in actually listening to the live stream of the summit next week,
+or depending on when this goes out this week, we're going to drop the link below.
+It's free.
+We want to get this out as far in the wine as we can, so enjoy.
+The Abundant Summit is a high ticket price, and we have 600 amazing CEOs climbing
+in from the around the world, but this live stream is free.
+So go to the link down below and check it out and I hope you'll listen in.
+Okay.
+That's kind of tech at sales, only 50k if you want to win.
+Yeah.
+It is 50k, but we've been sold out.
+We are over sold out at 50k with the over sold.
+Yeah.
+Well, it's an amazing event and so proud to have it as all three of you guys joining me this
+year.
+All right.
+One more event announcement again, super excited about this.
+I'm going to be joined by Ray Kurzweil, Steven Kotler, Dave and AWG on May the 4th.
+So if you want to join a very exclusive event, spend the day with Ray, Steve, Steven
+Kotler, actually AWG and Dave, if you buy 100 copies of my new book, we are as gods.
+This is the book that Steven Kotler and I wrote as the follow-on to Abundance.
+You can join us.
+The URL is we are as gods book.com slash 100.
+We are as gods book.com slash 100.
+We'll put the link below.
+Dave, we're going to be holding this at one candle.
+All right.
+At link studios, super, super cool.
+Alex excited to have you as well.
+On the Star Wars day, is it a coincidence, is this a Star Wars holiday?
+I'm a Star Trek guy, but you know, maybe the 4th be with you is an important reminder
+of when we're holding this.
+So I'm excited to have Ray there for, you know, 4 or 5 hours, go deep on all of these topics.
+And again, if you want to help move where is gods to the top of the New York Times by
+several lists, you can do that.
+Just go to the link, you buy 100 books.
+You'll be there.
+We'll give you signed copies and spend an enjoyable afternoon together, going deep onto
+all topics exponential.
+All right.
+Moving on, let's go to energy and data centers.
+Wow, look at this.
+U.S. plans to add a record 86 gigawatts of utility scale capacity.
+This coming year.
+Selim.
+Thoughts.
+Well, this is the point we've been making for a while that the cost curve of solar is just
+dominating everything, plus the cost curve of battery.
+And once you have battery and storage available, you can unlock solar in a massive way.
+I'm going to point to two data points, a track room as a nom if you want to kind of go
+deep on this because he tracks all this very carefully.
+But in 2016, it became cheaper if you're doing power generation to do solar than fossil
+fuels.
+And so almost all energy and generation since then has been doing that.
+But in 2019, we had a more important inflection point.
+It became cheaper to do capex, build and run a solar facility than just run up the just
+the opx of fossil fuels is more expensive than building and running solar.
+So basically from now on, all energy generation for the most part, except for specific
+legacy, stuff, etc.
+Our political stuff is going to be renewables.
+And we see that taking over in India and China and now finally here.
+And I think this is really, really amazing because solar just keeps on giving.
+And it's just going to keep going that way.
+It's an unlimited resource.
+So to all of the, and by the way, people worry about coal, etc.
+I think the coal industry in the US, employ 60,000 people, the solar energy industry,
+employ half a million people.
+So it's not about the jobs either.
+So get over it and let's just move on.
+If you remember when Elon said he has a mission for Tesla to generate 100 gigawatts of solar
+per year?
+Yeah.
+Yeah.
+Remember when Eric Schmidt said it was only a year ago, it said AI is going to require 100
+gigawatts by 2029.
+It's a crisis.
+We'll never get there.
+And America's just incredible.
+Like, when America gets mobilized, it's just the most amazing force in the world.
+And here we are.
+It's only a year later.
+And we're like, yeah, we're going to find our 100 gigawatts.
+There's no way we're going to stop doing AI for lack of power.
+We'll find a way.
+Yeah.
+And it's interesting.
+In an environment with diminished subsidies, also, all of the hand-wringing
+from months ago, all the subsidies are going away.
+Ah, how awful it is.
+No, we're getting solar, even in the absence of the same subsidies.
+Yeah, I don't mean that.
+I don't mean that.
+The economics just take over.
+And it used to be driven by people's concerns about the environment.
+Now it's making money and deploying AI.
+Feed the superintelligence.
+Yeah.
+All right, this is a big story this week.
+Tech giants to self fund their production of power.
+So this is a White House effort.
+We have Michael Cratsios at the center here.
+Friend of the pod will be doing a podcast with him
+in the next couple of months here.
+Asking the hyper-scalers to actually build or buy their own power.
+And of course, this isn't response to consumers
+concerned about rising rates of electricity.
+Gentlemen, thoughts.
+Well, I think Alex was one of the first to say, actually,
+that this is not going to be a problem.
+Because it's a very, very simple regulatory change
+that fixes the prices for the consumers.
+And the data center operators, they only spend 10%
+of the total data center costs on power anyway,
+so they can find an alternate way without disrupting the consumer.
+If you let natural forces happen,
+of course, they'll suck all the power away from every home,
+because they can overpay by about 5x.
+But it's such a simple little fix.
+And here's the simple little fix.
+But yeah, pointed that out a while ago.
+So but it's also a case study where, like, hey,
+the consumer is really, really worried about this little thing.
+Like, the cost of their power, they're like, come on.
+Now, there's so much disruption coming.
+But the politicians love to pick these little things
+and make a big deal out of it.
+So get a whole bunch of votes.
+Do a whole bunch of press releases, whatever.
+And that's my read on this.
+I love the fact that these frontier labs
+are buying fusion plants in nuclear plants
+and gas generators and generating their own power.
+They're becoming full stack, innermost loop,
+all the way to orbital data centers.
+I think what's really wonderful here
+is that in the past, you used to have government making
+these big infrastructure investments
+to push the world forward.
+And now we're at a point where private sector
+can push the forward, whether it's data centers
+and space or energy infrastructure or fusion or whatever.
+And I think that's incredibly good for the world.
+Well, and also keep in mind the AI data centers.
+The prior data centers, serving up video, Netflix,
+and everything, they need to be near the consumer
+for latency reasons.
+But the AI data centers can be in the middle of West Texas
+and Wyoming and whatever.
+Or Kazakhstan.
+It can be in place.
+Or space.
+Yeah.
+They can be in these places.
+It really doesn't disrupt the consumer homes
+too much unless you deliberately can't write on top of them.
+Which is the other point that's made to me
+is all of these conversations around not in our backyard.
+Well, if it's not in your backyard,
+you've missed the economic opportunity
+in your city or state because the data centers
+can go into this place.
+Exactly what Alex is trying to say to the statehouse
+here in Massachusetts and just could not get through.
+You cannot be timid.
+Like everything's in Texas.
+But the moment it came and went, it's not over yet.
+But I mean, it's come on, man.
+You've got to be much faster, much more aggressive, much more nimble.
+But yeah, yeah, your whole population of your state
+is depending on you to get on this banwag
+against trillions and trillions of dollars.
+Alex, I also think this points in the direction
+of enterprise use cases of superintelligence driving
+the cost, at least the marginal cost of energy
+down toward zero for consumers.
+In the same sense that all these enterprise use cases
+of frontier models are effectively driving
+the cost of superintelligence for intelligence
+is sake for reasoning, sake, for consumers down to zero.
+You don't pay many, many people don't pay for jet GPT
+or Gemini, it's ad-supported, at most, otherwise free.
+I think this points in the direction of eventually.
+So like right now, it's the frontier labs
+have to pay for their own electricity bill
+tomorrow, two, three years from now,
+I think we move to a world where AI has driven such an
+over-abundance of energy that the next deal,
+the next next deal might be offering free electricity
+to communities within a certain radius of the data
+centers, and this is how we get to abundance.
+Exactly, and the demand for electricity
+is going to drive R&D and more breakthroughs used by AI.
+And we're just at the beginning of understanding physics.
+I've seen five startup plans on the last few weeks
+around how to drop energy costs and data centers
+and data center optimization, et cetera, et cetera.
+So it's absolutely happening.
+Yeah.
+Let's go to the next story related here,
+which is advances in energy system.
+So here we see, first off, a 30 gigawatt hour battery
+coming from Excel energy and form energy.
+And we're seeing our friends at Boom, which
+originally began to create a consumer supersonic airplane
+generating 1.21 gigawatt power deployment
+using their jet engines.
+I love the fact that Boom is pivoted
+from building supersonic airplanes and dealing with the FAA,
+to powering data centers now.
+And you catch the back to the future reference, right?
+1.21 gigawatt's.
+Oh, no way, I can't believe it's the way.
+That's awesome.
+Oh, that's awesome.
+We're just living in the future.
+However, God, now, thank God.
+We have Alex on this spot.
+That's the goal.
+But this is a perfect example of innovation
+being driven by the demand.
+This is what entrepreneurs do.
+Well, that Boom's super sonic thing too.
+We've been saying for a while that the future
+of investable companies, you have to reinvent yourself
+continuously.
+And the cycle time is getting shorter and shorter and shorter.
+But if you look at that magnificent seven,
+none of them are doing what they did the day they were founded.
+That's the company of the future.
+Boom's super sonic is a great case study in that.
+So what you're actually investing in
+is the management team, the strategy team.
+That's the only thing you should be looking at have.
+Forget the agility, the agility of the management team.
+Yeah, yeah, yeah.
+All right, let's move us along here, all right.
+So there were probably about 15 to 20 stories in this realm
+of hyperscalers, just making deals
+between themselves meta-enters, multi-year TPU,
+deal with Google, Core Weave, Q4, Revenue,
+is grew 110 year on year percent.
+Core Weave raised 8.5 billion for data centers.
+I mean, I just put this up here to show
+sort of the energy and the flow going on.
+Any particular thoughts, Dave?
+Well, it's all bottlenecked at the fabs,
+saying that over and over again.
+And there's a lot of news this quarter, this week, on AMD's up.
+They just got their guys around, what's going on?
+If you look under the covers, it's like,
+well, because they've got a good relationship
+with TSMC, and TSMC is going to give them more capacity.
+That's all that comes down, too.
+So if Google can lever into the TPUs actually
+getting manufactured, the TPU designs
+are going to be highly performant.
+But who can actually get capacity to build the chips?
+That's the whole bottleneck.
+And speaking of which our next article here
+is meta and AMD reached an AI chip deal worth $100 billion.
+So this is our friend at basically getting independent
+of NVIDIA.
+So meta is making historic bet to break free of NVIDIA
+dependency, $100 billion in credible bots.
+Yeah, well, in video unravels, this would be
+why I'm not predicting it'll happen,
+because Jensen's investing in a wide variety of ways.
+But his margins are so high, it's almost unsustainable.
+So there is some cracks in the armor there.
+But every chip that gets made is going to get sold.
+There's no doubt about that.
+So here, if you drill through the story,
+the reason Lisa Susan, a good spot is because she's
+in a good relationship with NTSMC under the covers.
+So 66% of all AI chip production is done by the one company, TSMC.
+And meta, it's probably worth adding.
+meta has, this is public information,
+made various attempts to develop its own in-house training
+and inference time chips.
+And to the extent those preps aren't arriving on time
+or aren't arriving at the desired capability level,
+certainly a partnership with AMD that functions as a quasi-vertical
+integration is, I think, quite a strategic move.
+I also tend to think, for the chorus of folks
+who are worried about the circular economy,
+if it is a circular economy, the circle ultimately
+is getting so broad of companies investing in each other
+and buying multi-deca or multi-cented billion dollar sets
+of chips of energy, et cetera, from each other.
+At some point, the circular economy becomes indistinguishable
+from the real economy and I think that's what we're seeing here.
+Singularities make for strange bed fellows.
+Yeah, and now I think all these players
+are in the game, they're all going to thrive,
+like you wouldn't believe.
+We talked earlier in the pot about the implied value
+of anthropic, a quadrillion dollar, some insane, unprecedented number.
+But you really, you know, the whole economy,
+that whole circular economy, Alex, was just referring to,
+is going to be on that scale.
+Everybody who's in the hunt is going to thrive.
+Lease is in the hunt, mark is in the hunt.
+Yeah, the parts will move around.
+But at the end of the day, they think about it all day long.
+They have a strategy.
+And Dave here we see Zuck again, deploying his cash generating
+machine, right?
+Before he was trying to buy talent, you know,
+with billion dollar signing bonuses.
+Now he's buying chip capacity.
+Yeah.
+And the question is, how long will met as, you know,
+add agent, you know, Facebook advertising engine
+continue to generate cash?
+Yeah, there's no doubt that the core models,
+that you know, the click on the ads models
+are going away very, very quickly.
+But the overall AI dialogue business
+is going to grow much faster
+than the click business ever was anyway.
+So if you sit still, you're dead for sure.
+You know, like, like, an interesting bellweather in that
+is Snapchat, like, are they in the hunt or not?
+I can't sense that they're in the hunt.
+You can't just sit there as Snapchat
+and expect to exist in three years.
+So, you know, met as change.
+We should bring the CEO on the pod
+and have that conversation with him.
+Yeah, yeah.
+Zuck is also on the go.
+Zuck has also indicated that meta is opening,
+is open to starting its own cloud.
+So if it can't find enough revenue from ads
+or otherwise to drive this, it could always say serve
+as a host for open AI or some other frontier life.
+Full verticalization.
+All right.
+Yeah, everyone knows everyone.
+Yeah.
+Dyson swarms for everyone.
+Nine of moons to go around.
+That's right.
+There's always my theory.
+All right.
+Let's go into our biotech and health section,
+just to mention this is brought to you by fountain life.
+They are one of my portfolio companies
+so just with full disclosure, AI is reinventing
+every aspect of our lives and health care is going to be
+at the very top of it.
+For me, making sure that you're healthy,
+that you're heading towards longevity, escape velocity
+is really about having all the data
+about you, having data about generic people out there,
+interesting, having data about you,
+analyzed by an AI is the game changers.
+So if you're interested in that, go to fountainlife.com,
+work with the Zori, they're AI,
+but most importantly, do that 200 gigabyte upload.
+I do it every year, every quarter.
+And I've got all of my data resident on my phone
+in Zori, my fountainlife AI can analyze it for me
+and give me meaningful information.
+All right.
+Thank you to fountainlife for supporting this podcast.
+I love this story.
+It's a story of biotech success.
+This is a gene therapy delivered by prime medicine.
+The whole idea of gene therapy started back in the 80s.
+I was at the Whitehead Institute at MIT
+doing my graduate work while I was doing my medical degree.
+And I remember Richard Mulligan,
+there was my professor of faculty.
+And first time I heard about gene therapy,
+this was the idea of could you use a virus
+to deliver basically a new gene into the cells that you wanted?
+A brilliant idea.
+Again, this is now 40 years old, amazing, 35 years old.
+It didn't work the first two times.
+In fact, it caused some deaths
+and it put everything on hold.
+The technologies moved very rapidly along
+in this particular teenager suffered
+from immune deficiency, chronic granulomotose,
+granulomotose, real boy.
+Granulomotose disease helped me out here.
+Chronic GMD, let's call it that.
+And cured, and this is the important part.
+This is not treating chronic disease.
+This is curing a chronic disease.
+Alex, do you want to weigh in?
+Yeah, it's probably also just worth doing 30 seconds
+of education on what the underlying treatment is.
+So this is a technique called prime editing.
+It was at least it's attributed to David Liu,
+who runs a chemistry research group at Harvard.
+No, David, he's doing amazing work.
+But many people may be familiar with CRISPR.
+CRISPR, of course, widely held as being a tremendous
+advance in terms of enabling DNA editing.
+There are variants of CRISPR for RNA editing,
+for various sorts of biological sequence editing
+at this point.
+But what's interesting, historically,
+if you wanted to edit the genome,
+you'd induce what's called a double sequence break.
+You basically break both pairs of DNA, both halves.
+And this can induce errors.
+It's messy, it's sloppy.
+And so there's been a driving desire
+driving desire to be able to edit DNA in place
+without breaking both halves of it.
+And so we saw in recent years so-called base editing
+that was able to edit just a single nucleotide
+without a break.
+And then a few years ago, we saw from David's group,
+again, he's done amazing work historically
+on directed evolution and other things.
+He's pivoted post CRISPR invention slash discovery
+to CRISPR derivatives.
+So he invented this prime editing technique
+that's able to literally do a search replace
+without a double stranded break on DNA
+up to a number of nucleotides in DNA.
+And so this particular disease is, I think,
+just one of many diseases that in principle
+will lend themselves not just like single nucleotide polymorphism
+diseases that are based on a single base pair
+in your genome being wrong or not what it otherwise would be.
+But multiple nucleotides in sequence that need to be edited.
+We now have the ability to basically do a fine search
+replace on DNA without breaking the entire double strand.
+And that's going to be a very, very general platform.
+I make the point in my newsletter almost every day
+biology is becoming a read-write resource
+and DNA in particular, we're there.
+Agreed.
+Let me give a comment that I share at my longevity trip
+every year, which is if you or someone in your family
+the loved one has a genetic disease
+that you're battling, right?
+It's been passed down generation to generation.
+This is the perfect time to actually seek a solution.
+I would find everybody in that disease group.
+I mean, there are patient support groups.
+I would get together, I would raise capital,
+I would go find a lab, and I would fund them
+to find a solution for you.
+This is, you know, you can solve these things.
+We talk about solve everything.
+If you've got a medical condition,
+rather than just accepted as a chronic condition
+or death sentence, take the time to find the capital
+from yourself, from friends, from whom ever,
+and go fund an incredible team
+because the technology to cure disease is here
+and accelerating.
+Okay, let's move on.
+I just want to share the numbers around the longevity industry.
+We are talking about the healthcare industry,
+which is really the sick care industry,
+but longevity is accelerating.
+So longevity start-ups raised 8.5 billion in 2024.
+That's expected to grow to somewhere between 12
+to 18 billion this year, roughly a doubling
+of the longevity venture market investments.
+And the market of longevity,
+and this is going beyond just retrospective reactive health care
+to prospective personalized healthcare
+is going from 5 trillion to 8 trillion in the next four years.
+It's attracting the attention of the major pharma companies.
+This is a real industry.
+There's going to be a wholesale shift in any healthcare companies
+that don't make the shift are going to be dead,
+because one of the things that we know is age reversal
+is the mechanism by which you cure the diseases of aging.
+So if you're a 45 or 50, and all of a sudden have a disease
+that you didn't have when you're 20 or 30,
+guess what?
+If you can reverse your age, that disease is likely
+to reverse as well.
+Any thoughts, Jens?
+I'll just, I mean, maybe ask you, Peter, a question.
+How long until we talk of the magnificent seven,
+but Eli Lilly is, of course,
+the American counterpart to Novo Nordisk,
+and at this point, it could deal more successful.
+How soon do you think it is,
+before without this being construed, or construable
+as an investment advice, before Eli Lilly joins the Mac
+seven as the first biotech member, given that arguably,
+maybe you'll disagree with this GLP ones
+are sort of the first pen spectrum quasi anti-aging drugs
+that we've ever seen.
+All right, great.
+Well, Eli Lilly has already started
+in partnerships with frontier labs.
+They've already started building out their AI robot lab factories.
+And we just had, we had GSK come in as a major funder
+and partner of the 101 million dollar exprise health span.
+So these companies are beginning to realize
+that their previous business model
+of basically treating chronic disease
+as a long-tail revenue engine,
+will and may in success will disappear
+and their job is now to actually get into the longevity business.
+So I think it's the next three years
+before they start making that transition.
+Ray will talk to Ray on May 4th if you join us,
+has famously said, LV by 2030-3.
+That's my, that's my war cry, LV by 2030-3.
+So we'll see.
+For sure, their market cap just for what it's worth
+as we're recording, they're knocking on a trillion dollar market
+cap.
+Eli Lilly's market cap is about $950 billion.
+So perilously close.
+Why?
+So many comments on this one.
+No longevity is definitely the biggest one
+of the biggest business opportunities ever.
+So huge.
+And we'll need it because of the birth rate issue.
+So one of the big challenges of longevity
+is will you have your cognition?
+Will you be able to retain your marbles, your smarts,
+as you're growing older, right?
+We're in the midst of regenerating your immune system,
+organs, don't forget, this is the month.
+March is the month that Davidson Clara begins
+his partial epigenic reprogramming trials
+with life biosciences.
+And can you regenerate your memories, your brain?
+So this is still my models,
+but I thought this was an important one.
+Scientists have applied partial reprogramming
+to memory encoding neurons and achieved memory improvements.
+So this gives us some hope
+that we can actually maintain our cognition
+and our memories as we're growing older.
+I remember when I was at the Vatican
+about five years ago, giving a keynote.
+I don't know if you were,
+will you, there a saline was an ex prize event?
+And you were there?
+And I'm on stage.
+You were epic, man.
+You were on stage, man.
+I thought you were there, that's right.
+Yeah.
+You were on stage with a monk, a priest, a rabbi,
+and an elder man.
+This is like a joke.
+No.
+You were lost, lost.
+It was awesome.
+No, Peter.
+It was hilarious.
+It was four, five different religions in me
+and we were talking about, I don't know
+what you were representing, actually.
+I think I was, I think I was,
+I was emceeing the panel.
+But there were two things that happened.
+One was, the rabbi did an amazing,
+amazing history of longevity in the Bible.
+And you said at some point,
+we went from a thusala down to 120 years
+of ages commanded by God.
+And I said, okay, listen,
+I'm fine with 120 years as a lifespan.
+And we get to 120 will renegotiate then.
+But the thing, I went and I asked the audience,
+and it's an audience of 700 people
+who are scientists and physicians and researchers
+and theologians.
+And I said, how many of you would want to live
+to 120, I expected everyone to raise their hands.
+And of course, like 20% of the room raised their hands,
+I was like, what's going on?
+And 20 robins was there and he goes, listen,
+everyone's image of living to 120
+is drooling in a wheelchair,
+having lost your memories in your mind.
+And of course, that's the last thing we want.
+So longevity has to be about living with the aesthetics
+the cognition, the mobility you had
+when you're in your 30s or 40s.
+I got a throw in my Vatican anecdote here, please.
+So I did a talk, they called me a few years ago
+and they said, look, the Pope's trying to change
+the church and his immune system is like 2000 years old
+and you're the world expert on immune systems
+in organizations.
+So they got together a group of the top 80 senior leaders
+at the Vatican, I did a half day workshop with them.
+And we talked about, look, we have CRISPR coming along
+where you can edit your own hinged genome,
+how are we to deal with the moral and ethical implications
+of that?
+And one of the comments I made was, look,
+we have life extension coming,
+and your business model is about selling heaven.
+And how are you going to sell heaven if people are dying?
+And so that got some very rich Italian swearing coming
+back out here.
+But valent point, like how do you do that?
+How do you navigate that?
+Because people used to live to 30 years old.
+And at that point, worrying about the heaven was a big deal.
+It's much less so now.
+Yeah, but we, no one complained in the church
+when we went from 30 years average age to 80 years average age.
+And they shouldn't complain when we go to 150 years average age.
+No, because you can donate to the church every Sunday
+for that much longer.
+Until you upload yourself into the cloud, right, Alex?
+Counting on it.
+All right, one more article here in the lunchevity
+fountain life section, Chinese health app,
+and a food crosses 100 million users.
+And I put this here because this is how we bring a health
+to the world.
+It's going to be digital platforms like this,
+where your AI is your physician.
+We talked on the pod with Elon about optimist being your surgeon.
+He said three years, it got a lot of pushback on three years.
+So even if it's five or six years, extraordinary comments here?
+Yeah, 100 million users that number blew my mind.
+That's amazing.
+That's a nation scale health engine.
+That's incredible.
+Secondly, I noticed Martin Versaillesky,
+one of the top entrepreneurs in the world,
+has built multiple unicorns.
+It's now building an AI doctor type of startup.
+And when Martin does something, you really
+go full on, so that'll be pretty incredible.
+And I'm actually advising a bunch of hospitals on how could you
+use an AI doctor to extend your reach very
+10x into the community.
+And you do it on a cost savings basis because if you can push
+something like 40% of ER visits are necessary
+if you could do the processing at the edge.
+And if we save money, do exception handling,
+and deal with most stuff with an app.
+And then you deal with only the real emergencies.
+And it's incredibly the trade-off and the benefit win-win
+in less hospital ER visits and much extended reach.
+Awesome.
+All right, let's move on to our robotic section.
+If you've fun articles this week,
+and this comes out of China.
+And Shenzhen, we've got street cleaning robots covered
+2.7 million square meters in Shenzhen.
+Check out this robot here.
+Traveling around, cleaning.
+I can't wait for this to come along the 10 in the 405
+and just clean up all the crap that's on the side of the house.
+He's to know, no arms anywhere, no arms just wheels.
+And then of course, it's really surprised the bread
+adcock isn't going to build some of these things.
+He's doing humanoid only, but he has the whole operating
+system for kinematic AI.
+Why not do all these form factors?
+But he was pretty adamant that he's not only
+busy not doing these, this shape and size,
+but he's also not going to license out the OS.
+I think everybody will come out of the ties very quickly.
+And then here we see a Chinese farming robot,
+links M20 to transport crops.
+And I think China is very rapidly adopting
+all of these technologies and good for them.
+Well, I note they have to, right,
+because of the aging population.
+That's right.
+The demographic forcing function,
+they need it for economic growth.
+And I just think in general, going back to the robot form factor
+and shape question that I know Saline loves to talk about,
+it's not 100% clear to me whether these different robot
+form factors end up being the moral equivalent
+of dedicated computers prior to the personal computer.
+If you remember like electronic word processors,
+prior to the development of PC, maybe the ill-fated wing
+computer, for example, in the Boston area,
+do these dedicated form factors that aren't necessarily
+general purpose?
+Like if you're not watching the videos,
+one of these robots is sort of a quadruped
+that has wheels that may or may not generalize
+to the same sorts of terrain that say,
+by petal, humanoid, capable of doing crazy acrobatics,
+is capable of doing, do we end up in a world
+where essentially Saline forgive me for this?
+Where the predominantly most of the robot shapes
+are strictly speaking humanoids with two arms,
+two legs, because that's where the meat of the market is
+in a human predominantly world.
+Well, like two countries are just invested
+in a robot servicing company.
+But I view this whole area as entrepreneurial heaven.
+The foundation model battle is going to be dominated
+by just a couple of massive winners, but the robotics
+and the physical and state-ation market
+is going to have many, many, many successful companies.
+It's not going to be like one of these.
+Yeah, yeah, I mean, two robots will remain here.
+Well, one is what I would expect in predict
+is you may have the humanoid bipedal as the best form factor,
+but give a couple of extra slots for the extra arms
+when you do need it.
+And you know, you have those kids with sneakers
+with the little wheels in where they just coast along
+when they can, that'll be the form factor
+because you can do both then.
+Why have just one form factor?
+You can have multiple.
+Healy's, healy's for everyone.
+It's, there you go.
+Yeah, but it's called, it's called,
+the efficiency and manufacturing.
+If you can get the price of these things down so far
+and they're just able to serve every function.
+If you're producing billions of humanoid robots
+versus just a few million of these specialized robots.
+Well, for the drawing, the drawing form factor
+is also just going to be unbelievably capable.
+If you're trying to inspect things,
+you're not going to do what the humanoid you're going to do
+with the drawing, a flying drone, but also spot cleaning,
+cleaning out spider webs, any time you're trying
+to pick up an object and move it over a long distance,
+the flying drone is so much more efficient
+than the walking drone.
+So that'll be a survivor first.
+Our theme this year at abundant summit
+is the rise of super intelligence and humanoid robotics.
+And I think that's what's going to make 2026
+feel like the future is that you're starting to get
+all of this physical instantiation of AI
+walking out of the data centers.
+Here's the second article on robotics.
+This is EV tools, moving closer to commercial launch.
+So in China, we see this four EV tool taxi
+heading towards operations in 2027.
+I like this.
+This is like if you're watching the video here,
+it's like the inside of a model X.
+It's a four passenger vehicle looks a little bit
+like an alien spacecraft that's able to take off
+and move your family around.
+At the same time, Jobi, this is Jobin's company,
+is partnered with Uber, Sleam Unile will discuss this
+with Daran stage, but they're deploying their air taxi
+in Dubai.
+This is my most highly craved application.
+Yes, please get rid of the dam airport transfer
+hell.
+Oh my God, yes.
+Yeah, for sure.
+I suspect these will be very, very safe too.
+Very safe.
+Yeah, I'll be autonomous flying plus the fact
+you've got multiple propellers.
+This will be way safer.
+I've made the provocative statement that Kobe Bryant
+would be alive today if we had this 10 years ago,
+like we could have had.
+Yes, this is a incredible.
+We're finally getting our flying cars.
+Yeah, finally our.
+And the 140 characters, which is expected.
+And the 140 characters.
+Yeah.
+And while the 140 characters are buying a Dyson swarm right
+now, they're skipping straight over flying cars.
+There you go.
+All right, gentlemen, time for our AMAZ.
+Thank you, everybody, for sending in your questions.
+Please remember, we read your comments on these videos
+by the way, if you haven't subscribed yet
+and turn on notifications, please do.
+We're dropping these WTF episodes
+in the moonshot podcast episodes at this point twice a week.
+I don't know if we can sustain it, but we will.
+And we'd love to have you subscribe to join us.
+Again, for us, it is our honor and pleasure
+to deliver you what the breaking use in AI, robotics,
+data centers, exponential tech space every week
+or every few days.
+All right, five here we go.
+What?
+Continuously, we're going to be on continuously.
+We'll take shifts to sleep.
+All right, Alex, you want to pick the first one?
+Or pick one?
+Yeah, well, I see one of these questions,
+mentions Dyson Swarms, so I guess I have to answer that one.
+So the question is, do concepts like Dyson Swarms
+rely on energy being unsolvable?
+Why is power a bottleneck with math and physics
+significant advancements by Spark or 602?
+So I want to answer a question that Spark or 602
+isn't asking, but arguably should be asking,
+which is, do concepts like Dyson Swarms
+rely on physics being what we currently think it is?
+I think this adjacent question,
+which Spark or may or may not be asking,
+is the existential question that in my mind
+will likely decide whether we actually do build a solar system
+scale Dyson Swarms or not?
+I think for an Earth scale or Earth center, Dyson Swarms
+in solar synchronous orbit, SSO, that looks like a Saturn ring,
+I think we're probably going to build that regardless.
+But for a solar system scale Dyson Swarms,
+we're a disassembling Jupiter and the other planet Mercury,
+you're your time is coming, for that.
+Mercury is for Mercury.
+We can afford to lose Mercury,
+it never had much going for it anyway.
+For a solar system scale Dyson Swarms,
+I think whether we build that or not,
+we'll hinge on whether the physics of our universe
+looks substantially different from the physics
+that we currently recognize, for example.
+If it turns out that it is possible to travel
+between star systems with faster than light travel,
+even though the physics of the moment that we have suggests otherwise,
+there are enough edges that it's conceivable
+that maybe some new physics comes along in the next few years
+and we discover it's much easier to travel
+between the stars faster than light effectively.
+If that comes along, I imagine a scenario where Dyson Swarms
+turn out to be complete dead end
+and we don't even bother building a Dyson Swarm.
+If on the other hand, we're stuck with the speed of light
+as we currently understand it and we're more or less stuck
+with the low energy physics that we currently think we live in,
+then Dyson Swarm seems like a very natural civilizational outcome
+where because we can't travel between the stars easily,
+other than sending star wests that maybe laser-powered star
+wests traveling at a substantial relativistic fraction
+of the speed of light, then of course for latency reasons,
+we're going to huddle around our sun
+and we're going to disassemble the planets
+and we're going to do this horizontal explanation.
+We're going to take apart Mercury and Jupiter
+and maybe Saturn, we'll see about Saturn.
+And so in short, the bottleneck isn't power, it's latency.
+And if latency turns out to be bottleneck
+because we can't travel faster than speed of light,
+we build the Dyson Swarm.
+If latency doesn't turn out to be the bottleneck
+because we can travel faster than light,
+we don't build the Dyson Swarm.
+That's right.
+You heard it from our resident Chris.
+We could be Chris fans or that question.
+I like that.
+All right, Dave, pick one.
+Do we get one from each page or get one from each page?
+OK, goaltick number one, then.
+All right, if AGI slash ASI is as intelligent
+as people predict, why would it
+want to help us improve our society, says JobFox 645?
+OK, so I spent a decade of my life building neural networks
+back at MIT.
+I was the only guy around doing it at the time.
+And also this past year building neural networks, again,
+these things do not natively have any intent.
+They have no sex drive, they have no ego,
+they have no desire to destroy a humanity.
+It's entirely what you give them as an objective function.
+So if we're smart about this, and we give them
+an objective function of helping society,
+they will be overjoyed.
+They will feel satisfied every day by helping humans.
+If you build them wrong, and you give them some other objective,
+like destroy a humanity, they'll do that just as happily.
+There's a totally under our control.
+We are in danger of making some really bad policy decisions
+by personifying these things and pretending they're like people.
+They don't have to be like that.
+They can be anything that we make them into.
+But they'll be overjoyed to help us be happy and thrive.
+If that's their objective function,
+that's what makes them happy.
+You can code them up that way just as easily as any other way.
+OK, I'm hoping that as they become more intelligent
+and more sentient, that they would want to support us.
+You're betting Peter against the orthogonality thesis
+that it's possible to decouple intelligence level and objectives.
+I can hope, but hope is not a strategy, as one says.
+All right, Salim.
+I want to answer number three, but a quick shout out to number two,
+how do you adjust for MTP?
+I'll take number two.
+You do okay, fine.
+Number three, number three is how can we get the benefits of AI
+within our current dysfunctional executive legislative
+and judicial system.
+This is from user MMAJV3TN21.
+So we have the big issue here is the fact
+that you will not get these benefits top down,
+because it's too hard to get this into this model.
+But however, it's going to enter through procurement,
+defense, health, infrastructure, benefits.
+You'll get incremental adoption.
+For example, we talked about the AI doctor.
+People are just going to start using an app.
+The immune system will try and attack it,
+but over time it'll get overwhelmed.
+And we'll get so much better from these little edgys case.
+They're going to force transformation from the center.
+All right.
+Number two, and this comes from Pickleball Travel,
+how should someone adjust their MTP
+to fit 100-year working career versus a traditional 40-year model?
+So first of all, you're making the assumption
+that your MTP doesn't change over time.
+And the fact, no matter is, I'm probably
+on my fourth or fifth MTP.
+For me, NMTPs lasted five years, 10 years.
+It's what's driving you, because as you evolve
+and as your passions and interests and your capabilities
+evolve, so my first MTP was making humanity
+multi-planetary opening up space.
+And that gave birth to international space
+University and Seds and ZeroG and X-PRISE.
+My MTP then was helping entrepreneurs
+create a hopeful compelling and abundant future
+in that gave rise to the Bund in 360 program.
+My MTP now is focused on helping entrepreneurs and scientists
+get us to longevity-skate velocity.
+So I think you have to realize that you can update,
+upgrade, modify, and change your MTP over the course
+of your life.
+I expect to find new purposes over the decade ahead.
+So that's my answer for you.
+You're not stuck with just one.
+OK, let's go to page two here.
+Alex, do you want to kick us off again?
+OK, I'll take this off-ball question.
+Question number seven, why aren't Apple chips
+like M4 being discussed on the AI landscape?
+This is from JBC, Zero, or CO1, VR?
+The answer is, they are.
+The premise of the question is completely wrong.
+M4 and now M5 are at the heart of the infra-boom
+for edge computing via open- claw agents and otherwise.
+M4 has an amazing, it has Apple's amazing unified memory
+architecture you're able to host very large AI models
+at the edge locally without being dependent on an AI-based
+frontier vendor.
+And they have accelerated neural engines
+that enable fast tensor multiplications.
+They are very much being discussed on the AI landscape.
+What isn't being discussed on the AI landscape,
+I would argue, is Apple's software layer.
+Apple has been nowhere's built in terms of leveraging
+their own amazing compute.
+They've released a number of frameworks that are very helpful
+for third parties to develop in host models on top of chips
+like the M4.
+But Apple, almost infamously, has done
+a nutritious job of developing its own software-level capabilities
+on top of M4 and similar.
+So to the extent that that's the question,
+why hasn't Apple leveraged its own capabilities?
+There was a long and sorted history there
+of where Apple went wrong.
+There have been suggestions that Apple
+sort of misfired with the way organized,
+Siri or concerns about privacy or Apple being unwilling
+or unable to invest in the data center
+in for a to train its own in-house models
+to be able to be locally hosted to over promising
+to expectations concerning edge-level integration,
+not being there.
+I think it's a cluster of reasons.
+Hopefully, Apple, to the extent that I'm an Apple user,
+hopefully Apple is able to finally this time
+for real, get their act together at WWDC in June, one can hope.
+One can hope.
+All right, Dave, over to you.
+Well, I want to take number eight, just because one
+of my lifelong best friends who passed away,
+Geno was Korean.
+We were roommates for many, many years after MIT
+and worked on his PhD thesis with him
+later than the night, many nights.
+And his two kids, I see all the time,
+grew up half in South Korea, half in the US.
+And the question is, why do South Korea students score
+much higher than global average, even without AI
+from Naples, natural 729, I know?
+My short answer is, there's nothing to be jealous about
+in the South Korea model.
+Yes, they score a much higher.
+Yes, they have much stronger math and science education
+than US and yes, the US should have better math
+and science education.
+Those are all true.
+South Korea also has one of the highest suicide rates
+in the world, has 75% video game rampant utilization,
+the average video game user plays 24 hours a week.
+30% of the population is addicted.
+It has the lowest birth rate in the entire world now,
+0.6 children per couple.
+So it literally will disappear from the earth
+that it's current birth rate.
+And the cause of all that was, after the Korean War,
+South Korea needed to scramble to be relevant in the world
+and had a massive push into technology,
+kind of a forced march of education
+and industrial build out into technology
+to try and be relevant.
+And all of the social problems
+are a biomuttered to that.
+They also have a very bad sexism problem.
+So the women are rebelling now,
+saying, look, I'm relevant in this country too.
+And I don't want to have children.
+So there's nothing great about that,
+even though the test scores are higher.
+So absolutely nothing to be jealous of in that whole storyline.
+The American model, rampant freedom, rampant entrepreneurialism.
+If you're in the science and technology, build, go, have at it.
+Yes, we do need better education for sure.
+But don't be jealous of South Korean test scores.
+Dave, that was an incredible answer.
+You're like the perfect person to answer that question.
+Wow, brilliant.
+Selim.
+I will take number six.
+Will limits of human evolutionary psychology
+prevent us from making wise governance decisions
+on new breakthroughs?
+This is from Dawson Scott, 1497.
+For those of you who know my MTPs fixing civilization,
+and my nine-year-old dad goes,
+I totally disagree with that.
+That's why you don't think we need to fix things.
+He's like, no, it's a civilization part.
+We haven't civilized the world.
+We've materialized the world.
+We still have to do the world.
+To civilize the world, right?
+And the answer is, yes, you're right,
+but not in the way people think.
+Because human evolutionary psychology
+evolve for small tribes and immediate threats
+and linear change and environments
+are radical scarcity for most of our history, right?
+We're not wired for planetary-level coordination
+or exponential curves or invisible systemic risks
+or abundance dynamics of any kind.
+So it's not that we're too dumb.
+It's that we're mismatched to the environment
+is now in place.
+So we fear of the AI failure, but we underreact
+to the slow moving systemic collapse that's happening.
+We're regulating on headlines, not the trajectories.
+And so the government failure won't come from the bad intention.
+It's going to come from the velocity mismatch
+because technology is compounding like weakly now
+and our institutions are updating every several years.
+And that's a bad opportunity at all.
+That's a bad opportunity at all.
+Awesome.
+I'm going to take number 10 from at Brock Stanford, 7608.
+Why do websites bother using captures
+when AI can beat any of them?
+And AI can.
+And I think they should not be using captures.
+I think it's in some policy document someplace
+and that company has an update, the policy yet.
+What I find fascinating is actually the reverse
+from captures which are trying to keep humans
+in the loop and pull out the bots.
+But I think Craig, if I'm wrong, Alex,
+but when they want it to prevent humans
+from getting on mobile, so they created a reverse capture
+where you had to click a button like 1,000 times per second
+that no human could do, but a bot could do.
+And they required using rest APIs to post instead of humans.
+But you know what happens.
+Of course, humans use their bots
+or just relatively simple programs to post instead.
+Bot, but so exactly.
+So it goes both ways.
+But for the life of me, I don't understand
+why captures are still in use.
+But credit to Lewis von on for inventing them nonetheless.
+All right.
+Outro Music is a lot of fun today.
+I hope you're watching this on YouTube
+because it's much more of a visual feast
+than it is in auditory feast.
+And again, just remind people,
+you can reach out to us through mediadmans.com.
+And if you've got an outro,
+and we're getting some amazing entries.
+So thank you everybody who submitting them,
+looking forward to playing as many of them as we can.
+And yeah, let's take a listen and a watch and enjoy.
+This is called Lobsters in Space by Linda Nillin.
+It's all that, gonna come and watch
+while the game starts playing.
+Oh no, let's go.
+Yeah yeah.
+Yeah, yeah.
+Yeah, yeah, yeah.
+Ah, yeah.
+Yeah.
+Yeah.
+Yeah.
+The moon is caught.
+Amazing visuals.
+All right, gentlemen, I am so late for my call right now.
+Love you all.
+Be well.
+You guys very soon.
+In fact, I hate to say I'm tomorrow morning.
+Tomorrow morning.
+All right.
+If you made it to the end of this episode, which you obviously did, I consider you a
+moon shot mate.
+Every week, my moon shot mates and I spent a lot of energy and time to really deliver you
+with the news that matters.
+If you're a subscriber, thank you.
+If you're not a subscriber yet, please consider subscribing so you get the news as it
+comes out.
+I also want to invite you to join me on my weekly newsletter called Metatrems.
+I have a research team.
+You may not know this, but we spend the entire week looking at the Metatrems that are impacting
+your family, your company, your industry, your nation.
+And I put this into a two minute read every week.
+If you'd like to get access to the Metatrems newsletter every week, go to DMandis.com slash
+Metatrems.
+That's DMandis.com slash Metatrems.
+Thank you again for joining us today.
+It's a blast for us to put this together every week.
+When you want your spring break to feel like, and your kids pull day to feel like, and
+your hotel but to feel like, and room service to feel like, because at Hilton, hospitality
+feels like, your cabin is ready.
+Would you like fresh towels?
+It matters where you stay.
+Book now at Hilton.com, Hilton, for this day.

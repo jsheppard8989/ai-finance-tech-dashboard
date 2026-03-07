@@ -1,6 +1,138 @@
 {
   "insights": [
     {
+      "id": 62,
+      "title": "Emergency Podcast: US-Iran Conflict and its Impact on Global Markets",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-03-06",
+      "summary": "In this emergency podcast, the hosts discuss the recent US and Israel joint attack on Iran, Operation Epic Fury, and its implications on global markets, energy prices, and insurance industries. They also touch upon the potential for a new insurance industry in the US, the cancellation of a $200 million contract with Anduril, and the strategic importance of DARPA's work in technology and defense. The conversation also briefly explores the threat posed by China's military build-up and the need for the US to remain competitive.",
+      "key_takeaway": "The podcast suggests that the conflict in Iran could lead to new investment opportunities in the insurance sector and underscores the importance of defense and technology investments in the face of global threats.",
+      "tickers_mentioned": [
+        "AAPL",
+        "NVDA",
+        "SPY",
+        "TSLA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-06",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 45
+    },
+    {
+      "id": 63,
+      "title": "The AI Transformation of Software and SaaS Landscape",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-03-06",
+      "summary": "The podcast discusses the transformative impact of AI on software and the SaaS industry. It explores how AI is changing the way software works, from simple data storage to performing tasks autonomously. The conversation also touches on the 'SaaS apocalypse', discussing the varying impacts on different SaaS companies and how some may actually benefit from AI advancements. The episode further delves into the challenges of software pricing and the shift towards more efficient and collaborative software systems.",
+      "key_takeaway": "Investment in AI-driven software and SaaS companies that can leverage AI to enhance efficiency and value proposition, while being cautious of those that may be disrupted by these technological shifts.",
+      "tickers_mentioned": [
+        "WORK",
+        "ZEN",
+        "SF"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-07",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 46
+    },
+    {
+      "id": 58,
+      "title": "The Future of Advanced Nuclear Energy and its Impact on Markets",
+      "source_type": "podcast",
+      "source_name": "Macro Voices",
+      "source_date": "2026-03-05",
+      "summary": "This episode of Macro Voices features an in-depth discussion on the future of nuclear energy, with a focus on the need for revolutionary changes in the industry. Hosts Eric Townsend and Patrick Suresneut interview Matt Lowzack, CEO of Alo Atomics, a company aiming to mass-produce modular nuclear power plants to address the impending global energy crisis. The conversation covers the potential of breeder technology, the importance of modularity for mass production, and the economic and logistical challenges of traditional nuclear power plant construction. Additionally, the hosts discuss market movements influenced by geopolitical tensions, particularly the situation in Iran, and provide insights into various financial instruments.",
+      "key_takeaway": "Invest in advanced nuclear energy companies that are pioneering mass production and modularity to capitalize on the upcoming energy crisis and the shift away from fossil fuels.",
+      "tickers_mentioned": [
+        "S&P 500",
+        "WTI",
+        "ARBOB Gasoline",
+        "Gold",
+        "Copper",
+        "Uranium",
+        "US 10 year Treasury"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-06",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 44
+    },
+    {
+      "id": 59,
+      "title": "Anthropic and Alignment: The Intersection of AI, Politics, and Business",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-03-05",
+      "summary": "In this episode of the a16z Show, Ben Thompson from Strat\u00e9cary discusses the complex relationship between AI technology, politics, and business. The conversation revolves around the implications of private companies developing powerful AI technologies and the potential for government intervention. Thompson highlights the importance of considering the real-world consequences of AI advancements, drawing parallels to nuclear weapons, and discusses the ethical and legal dilemmas that arise when private entities possess technologies that could be considered a matter of national security. The discussion also touches on the challenges faced by companies like Anthropic in navigating the delicate balance between innovation, government cooperation, and ethical considerations.",
+      "key_takeaway": "Investment in AI technology companies requires careful consideration of the political and ethical landscape, as well as the potential for government intervention and regulation.",
+      "tickers_mentioned": [
+        ""
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-06",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 43
+    },
+    {
+      "id": 60,
+      "title": "The Financialization of Super Intelligence and the Entrepreneurial Opportunity of a Lifetime",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-03-05",
+      "summary": "In this episode, the panel discusses the financialization of super intelligence, with Amazon making a contingent offer to invest $35 billion into OpenAI based on their going public and achieving AGI. They also touch on the rapid acceleration of AI, the shift in responsible scaling policies by Anthropic, and the trust in different cloud providers like Microsoft Azure and AWS. The discussion highlights the entrepreneurial opportunities in the circular economy becoming indistinguishable from the real economy, suggesting an era of abundance and value creation.",
+      "key_takeaway": "Investment in AI and cloud technology is positioned as a moonshot opportunity with the potential for significant returns, especially with the anticipated IPOs and the financialization of super intelligence.",
+      "tickers_mentioned": [
+        "AMZN",
+        "MSFT",
+        "GOOGL",
+        "GOOG"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-06",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 42
+    },
+    {
+      "id": 61,
+      "title": "Economic Growth through Creative Destruction",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-03-05",
+      "summary": "In this episode of Monetary Matters with Jack Farley, Dr. Peter Howitt, Nobel Prize winner in economics, discusses his research on economic growth through creative destruction, a concept attributed to Joseph Schumpeter. Dr. Howitt explains how technological progress drives economic growth and disrupts existing economic orders, rendering old products, processes, and markets obsolete. The conversation also touches on the impact of technology on productivity, employment, and inflation-adjusted growth rates. Dr. Howitt shares his optimistic view on the potential for new technologies to increase efficiency and potentially lead to more employment in competitive economies.",
+      "key_takeaway": "Invest in technologies and companies that are at the forefront of creative destruction, as they are likely to drive economic growth and disrupt existing markets.",
+      "tickers_mentioned": [
+        "AAPL",
+        "NVDA",
+        "GOOGL",
+        "MSFT",
+        "TSLA"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-06",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 41
+    },
+    {
       "id": 56,
       "title": "Monetary Matters: Macro Regimes and Investment Insights",
       "source_type": "podcast",
@@ -58,11 +190,11 @@
         "TLT"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-04",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-06",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 38
     },
     {
@@ -75,11 +207,11 @@
       "key_takeaway": "The current high debt levels and fiscal policies pose significant risks to the U.S. economy, requiring careful management of interest rates and a balanced approach to financial prudence and innovation.",
       "tickers_mentioned": [],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-04",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-06",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 37
     },
     {
@@ -98,11 +230,11 @@
         "MSFT"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-04",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-07",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 35
     },
     {
@@ -117,11 +249,11 @@
         ""
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-04",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-06",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 36
     },
     {
@@ -138,11 +270,11 @@
         "Altias"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-01",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-06",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 32
     },
     {
@@ -160,11 +292,11 @@
         "TSLA"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-01",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-06",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 31
     },
     {

@@ -1,0 +1,618 @@
+Very pleased today to be joined by Dr. Peter Howitt, Professor Emeritus of Economics at Brown University
+and recent winner of the Nobel Prize in economics. Peter, thank you so much for joining us.
+Well, thanks for having me on. I want to ask about your research that won you the Nobel Prize,
+a model of growth through creative destruction. I think it's very relevant to what's going on in
+AI right now. Can you start out, please, by summarizing what were the findings?
+What I did, and I should say it was entirely together with Philippe Begillon, a French economist
+that I've worked with since 1987, and that's when we started working on this model.
+What we did was to make operational an idea that had been an old idea, but treated largely as
+a sort of curiosity because it didn't fit in with most economic theory. The idea of growth through
+creative destruction is actually attributable to the great Austrian-American economist Joseph Schumpader,
+who taught at Harvard for many decades, and the idea was formulated in his 1942 book called
+Capitalism Socialism and Democracy. And of course, the idea is pretty straightforward, just that
+economic growth in the long run comes about through technological progress. There are various
+things you can do over the space of a couple of years to boost the growth rate of an economy by
+perhaps stimulating aggregate demand or by changing some inefficient regulations or something,
+but ultimately you're running into a limit if you don't have technological progress.
+And what Schumpader pointed out was that this technological progress tends to come in
+waves that disrupt the existing economic order. They introduce also its new products, new processes,
+new ways of doing things, new ways of organizing activity, new markets, and so on.
+And they disrupt the old order by rendering old products and processes and markets obsolete.
+And people used to regard that as just a curiosity, but Philip and I thought it really did belong
+at the heart of economic growth. At the time that we were writing the state of the art in growth theory
+was the famous solo model, created by Robert Solow back in the 1950s, a beautiful little model,
+but it assumed correctly, I think, that the long run growth rate was entirely determined by
+the rate of technological progress. But it took that rate of technological progress, it's just
+something that was given by external forces, by some scientific process that had nothing to do with
+economics. And it also assumed that everybody benefited uniformly from the new technologies
+when they arrived. So people were aware of this idea of creative destruction, but they didn't
+see it as being somehow essential to the growth process. When Philip and I started talking back in
+1987, we thought there probably is something important about this because creative destruction implies
+that there's a conflict, a conflict between the new and the old. And the people that are
+coming in with new technologies are disrupting the order. They're challenging the status quo,
+they're threatening the well-being of incumbent producers that are producing the goods that they're
+trying to make obsolete. And they're also creating a lot of losses for people who's human
+capital or skills are tied up with the old technologies. And it's something that should be part of
+growth theory. It turns out it wasn't really very easy to incorporate, at least at the time,
+because when you think about what's involved, there are a lot of strategic considerations
+that require some game theoretic ideas to model. Nowadays, most graduate students would find
+it fairly straightforward, I think, to address these questions. But game theory was at the time making
+great progress in micro-economics, but really hadn't come into macro-economics at all yet.
+But what we did was to find some techniques that have been used in the theory of industrial
+organization to study patent races and individual markets and put that into a general equilibrium model
+of the whole economy. And we created a model where growth comes about from research and development
+activities, by business firms that are aimed at trying to produce innovations that will
+leapfrog the technologies of existing producers and allow them to capture some monopoly
+because they found a way to produce a product that's better than anybody else can produce.
+And that would allow them, therefore, to charge prices above of the cost of production,
+without the risk of being undercut by competitors, because the competitors just didn't have
+that technology. So that's what we did. We made this idea of creative destruction operation.
+Put it in terms into a tractable mathematically coherent model of economic growth and that
+allowed us to take the idea to the data and measure all sorts of different things and see how
+growth through this channel would interact with all sorts of other things like competition,
+policy, education, international trade, environment, and many, many other things in a way that
+you couldn't before, because before people were just ignoring not only the
+endogeneity of technology to the economy, but also the fact that there was this conflict at the
+heart that had to be resolved somehow. So it's in the word, an endogeneity, the old school model
+had technology as exogenous or outside of the economy. You were bringing that in. And just to be
+clear, Peter, the destruction in creative destruction is a negative, right? So that the
+technology is a positive, a plus the destruction is a negative, but overall the sum is still a
+positive number. Because sometimes I hear when people talk about creative destruction and perhaps
+they can use the word fetishize it, they almost talk about it as if the creative destruction itself
+is good, whereas you're saying the destruction is a byproduct of something that is good.
+Well, that's right. Yes, there's nothing good about having your business destroyed or having
+losing your job, really. But the fact is that ultimately, everybody benefits from the new technologies.
+Take a look at the start of the Industrial Revolution at the devastation that was produced by the
+invention of the power loom. There were these hand loom weavers who had spent decades
+perfecting their skills. And we're highly paid, highly trained craftspeople who were all of a
+sudden made, you know, poppers because there was no way that they could compete against the power
+loom. There was a long period before people, you know, like that recovered. Some of them never did.
+But nowadays, who can you think of whose life would be materially better off of the power loom
+had never been invented? In the long run, we all benefit. That was just one step in an ongoing
+ladder of technological progress. New technologies build on old developments and so on. So the fact
+that we had the power loom was just one part of that whole process that led us to the technological
+world that we're in right now. And how does the current technology of AI? Who is that going to
+displace? And what can we learn from from the history of other displaced industries, whether it's the
+internet, you know, internet, disembrating travel agents or that the automobile, disintermediating horses,
+you know, you kind of open-ended question. Take it wherever you want. Well, first of all, I think it's too
+really to tell. This is on AI in general of AI is obviously a very powerful technology that's going to
+have ramifications throughout the economy, not just in a few sectors. And it's like a handful of
+other really big, what we would call general purpose technologies, you know, starting from the
+steam engine going through electrification of manufacturing through the computer and the internet
+and mid to late 20th century. And now we've got artificial intelligence in all of those cases,
+all of this just a handful of them. What we see is that when these technologies first arrive,
+it seems that they have a tremendous potential for creation and for destruction. It's obvious that
+these new technologies are going to displace workers in a lot of places. They're going to displace
+old manufacturing interests in a number of cases. And at first, it's that destructive potential
+that's clearest. You can see right away that there are certain occupations, there are certain
+sectors of the economy that are really going to be badly hit by this. It's not so clear where
+the benefits are going to be. But what happens is that it takes further innovations, downstream
+innovations, before the full potential of the technology is really realized and before new occupations
+open up, new industries open up, new ways of earning a living open up, that spread the benefits
+around more or less uniformly. A few people will never, some people will never recover from it,
+but a few people out, some people. Well, so that's the question, how many are going to be? And
+and the answer is that, you know, we don't know, take a look at electrification, for example.
+Obviously electric motors had the potential to make manufacturing vastly more productive than it
+was when your only power source was a steam engine or a water wheel. That possibility of using
+electric motors was available in the, you know, the last third of the 19th century. And a lot of
+factories did that. They simply replaced the water wheel or the steam engine with an electric motor.
+And that allowed a few benefits. But it wasn't until the invention of the assembly line method of
+production that the, that the real potential was realized. People had realized that, that in the past,
+a factory had to be built along vertical lines so that everything was, was close to
+a central power source and, with perhaps, a big vertical shaft so that you could send,
+send it up and be operating on different levels. But the full potential of the, of electricity
+had to be realized by distributing the power sources horizontally, something that you couldn't have
+done with previous power sources. And once, once Henry Ford discovered how to start producing
+automobiles along this end assembly line back in the 1920s and 30s, he was actually able to offer
+fairly unskilled workers the unheard of wage of $5 a day. That, that, you know, was a tremendous
+benefit to all sorts of workers. But it took, you know, 40 years or so before, before that development
+took place and, and, and it required an innovation, something that people hadn't foreseen at first.
+We can't tell what the benefits of artificial intelligence are going to be right now. It's going to
+re, they're going to be a lot of innovations coming about. What seems to me unique about artificial
+intelligence is the speed at which the new innovations are taking place, the speed at which the
+technology being improved and deployed in different directions and so on. It's not going to be
+40 years before we, we fully understand, you know, well, I wouldn't say fully, we'll never fully
+understand the implications. We're still actually working through the implications of electrification.
+You think of the general purpose technology of using electricity to produce things.
+Well, you could think of the computer, the internet, the artificial intelligence, all
+is being simply downstream innovations that are realizing the potential of electrification
+because how would we have any of this without the use of electric power? So it's going to be,
+it's going to be a long time before we see where the new occupations, the new goods, the new ways of
+producing things are going to be. If it's like in the past, it's going to end up making us all
+a materially much better off. There's no guarantee that it's going to be like in the past. My friend
+Joel Malkir, who shared the prize with Philippe and me this year, likes to say that any sentence
+that begins with history shows that is about to to stay to fallacy. History reveals patterns
+that are instructive, that help you to think about things. They don't teach you exactly what's
+going to happen. But we do have a whole history of some of the best economists in our history,
+predicting that new technologies are going to create long-term mass unemployment. Going back to
+Ricardo with his famous chapter of machinery in 1821, in the third edition of the principles of
+political economy, and then through John Maynard Keynes, who argued that technological unemployment
+was going to be inevitable. Even Paul Samuelson, in 2004, had a wonderful little article entitled
+Ricardo was right, produced a beautiful little general equilibrium model showing how technological
+progress was likely to drive the equilibrium real wage rate to zero in a long run. But so far,
+all these great economists have been proven wrong by real-world developments. If you're an optimist
+like me, you think, well, the naysayers are going to be proven wrong again. But there's no theorem
+that I can prove that shows you that that has to be right. So technology can you know,
+displaces two factors. It displaces businesses firms as well as labor people. Let's talk about
+that second one first. So history does show that economists making predictions, bearish predictions,
+doomsay predictions about how labor demand is going to go away, and no one's going to have a job,
+mass unemployment. History shows that they are wrong. But is that just a pattern that
+you might it might be different this time? How are you thinking about this and why?
+What we've seen in the pattern that we've seen in the past is that new technologies
+have effects that are that substitute for labor and some effects that complement labor.
+And obviously the occupations that can be substituted for by the new technologies tend to disappear
+the occupations that can be made even more productive and more rewarding by the new technologies
+tend to flourish. What's disturbing about it all is that we can't yet see what all of those new
+occupations and skills are going to be. It's a lot easier to see the ones that are going to be
+substituted for. But I take a look at what I do even in trying to write a paper.
+And I, you know, I'm used to having research assistants that'll go out and help me
+scour through the literature and see what else has been done to run redbrushing for me to
+check on and roll what what some of the facts are and so on. Even at its present stage,
+it's just a three year old chat GPT is by far the most efficient research assistant I've ever had.
+That's making me much more productive. I can see, you know, what I, what I gave my acceptance
+lecture in Stockholm, I slipped in a paragraph that had been written by chat GPT. I had asked
+chat GPT, I put in the prompt, write me a short paragraph describing the job destroying potential
+of generative artificial intelligence. And in a few seconds, it produced a beautiful, well-thought-out
+paragraph that explained have the different sectors in which it's likely that this is going to
+happen and why because a generative artificial intelligence seemed to be capable of performing
+cognitive tasks that have been previously thought to require uniquely human judgment. And so on,
+it was, it was, it was maybe the best paragraph of the whole speech. Of course, I, you know, I didn't
+slip it by them. I, after the paragraph, I told people that I'll hope you like that one because
+it was written by a three year old. And in this was the first draft, it only took the three year
+old a few seconds and that three year old is growing up very, very rapidly into what we don't know.
+I could see that, you know, someone who was a really good speech writer
+could probably carry on writing good speeches, doing it much, much faster than they used to
+with the aid of this, you know, helping to produce first drafts. I'm sure that first draft
+could have been improved by somebody that was was, I used a really good writer. And
+but it just cuts the time down by so much. So I could see that a lot of jobs like that are
+going to be made more productive. But then, of course, the downside is that this is going to make a,
+a lot of, my turn, a lot of markets into superstar markets, markets where the very, the most
+productive people, even if they just have a marginal edge in productivity, are going to be able
+to satisfy so much of the market. And people are going to want them, rather than the slightly
+less productive ones. And there isn't going to be room for a lot of other competitors in those
+markets because, you know, ultimately, you get somebody that can flood the market at a lower cost than
+anybody else. You know, the other is going to be driven out of business. And so we're going to need
+new occupations. We're going to need new things for smart people to do. In a lot of things,
+when people are using their brains, they're going to be much more productive with the use of
+generative artificial intelligence. They're going to take care of all sorts of mineral
+tasks, you think, they give medical workers who spend a lot of their time nowadays with their
+little laptops, entering information in there and keeping records. And sometimes those
+records are inconsistent with what other doctors are keeping. And so on, a lot of this can be really
+sped up tremendously by just entering the things verbally and having, you know, having the speech recognition
+do it and having it correct mistakes for you, co-lating it with other bits of information. And so on,
+there's a big gates project underway in studying in Rwanda and going in other places that the gates
+claims can is going to really revolutionize the delivery of health care, the prediction of
+pandemics and all sorts of other things like this by gathering information so much more efficiently.
+And by making the health care workers that they're there is so much more efficient because instead
+of wasting their time entering data and so on, they're going to be doing what they're supposed to
+be doing as helping patients. So I can see all of this taking place, but we're going to have to find
+new ways of of implying people. And I'm confident that we're going to, but it's largely because
+I tend to be optimistic. And, you know, I don't think that there's a limit that we're at least
+not one that we're anywhere close to that completely satisfies human desires that, that I think there
+are a lot of ways in which smart people can help other people with new services that they're going to be
+creating. You know, you think particularly about elderly care, we've got an aging population
+in North America and in Europe and many, many other parts of the world, even in China,
+and there's tremendous potential for elderly care to be improved and there's going to be a lot of
+demand for it. But I can't, you know, I can't predict exactly where there's going to be
+it requires downstream innovations. And the problem, as I said before, is that it's happening so fast.
+I mean, you take a look at 150 years ago, 50% approximately of the population of North America was
+engaged in our agriculture. They had to be, had to be working on the farm just to feed us all.
+Now, it's one or two percent, and we produce way more than we need. At first, they went into
+factories. Now, of course, they're leaving factories. We're producing more and more manufacturing
+goods with fewer and fewer workers. That, by the way, is also true in China. Manufacturing employment
+is falling even in China because technology is advancing so rapidly. And so then they go into
+services. They go into services that had never been heard of before. We have a lot of people in
+financial services right now. If you went back 150 years ago, how many people worked in financial
+services? Well, a few people worked in banks. And it was just a handful, relatively speaking,
+people work in information services. There's a lot, and communication services.
+So we have, you know, we continue to evolve. We continue to find new ways that we can
+cooperate with each other to use our expertise to help others. And they use theirs to help ours.
+They mutually beneficial gains from trade that raises to higher and higher levels all the time.
+I mean, there's no doubt about it. We continue to go at the pace of doubling the material
+standard living of societies like North America or Europe, every generation. And I don't see that
+stopping. You said you're an optimist long term being an optimist in economics, particularly when
+it comes to innovation. That's been that the right call. But when I think of, you know,
+picture in your mind, like the long term chart of US unemployment, almost every spike,
+I think every spike is due to demand a recession. Like has there ever been a technology that
+actually causes the unemployment rate to go up by, you know, 900 basis points? Or is it always
+they find the next thing? They find the next thing. They move from the, okay, you know,
+we're no longer farming. We're moving to the factory. Okay, the factory needs fewer people.
+We're going to move into services. Like what happens if there's not a next thing?
+Well, if there's not an next thing, then we're going to have trouble. We're going to have a lot of
+social conflict. Because it's clear that some people are getting fabulously rich from artificial
+intelligence. If that wealth isn't spread around, we're going to have a lot of conflict. Just like
+they had when the steam engine first came around. You know, the lullights that were smashing machines,
+we're not just irrational people with a, with a, with a superstitious fear of technology.
+There was, they were skilled craft people who were not sharing in the benefits of these new
+technologies. And they, they didn't take a line down. And, you know, that's really important.
+Because we take a look and, and wonder why is it that the Industrial Revolution started in England?
+A lot of it has to do with technology. But those technologies were available in a lot of other places too.
+And you had the same phenomenon. You had people smashing machines in Germany.
+Had them doing it in Holland. You had the New Eden friends. And they were supported by their
+guilds. They didn't want a competition from the new, the new machinery. The government in England
+was particularly hard on the guilds and in favor of the manufacturing interests. And the guild,
+you know, people just had to adapt. That was not the case in other countries. And then,
+you know, historians, let's tell you, that's one of, I mean, nobody knows for sure. And there are
+many other contenders, there's explanation for why the Industrial Revolution started in England.
+But I think that was a big one. This social conflict that's created by technologies that
+whether who's benefits aren't shared is, is a very important one. And we're likely to see it.
+And what throughout history would be the most extreme example of technical change where it was the
+most significant, the most rapid. It caused the biggest winners and the biggest losers.
+What would it be? It might have been just the great progress in agricultural productivity.
+Throughout the, you know, the first part of the 20th century. We still don't really fully understand
+where the Great Depression came from. But it certainly came in the middle of this massive
+transition from agriculture to manufacturing. But it would have shown up in even more unemployment
+except that a lot of people who became unemployed just went back to work on the farm.
+So they were still registered as unemployed. There were still lots of family farmers that they
+would go back to and so on. So registered as employed. But still registered as employed.
+Oh, wow, I didn't know that. Yeah, I think a lot of economists, you know, if they were
+they had two fingers, you know, the two handed economists, the two fingers, they point the first
+finger at the gold standard. And then maybe they'd point the second finger at trade policy. But I think
+a lot of economists mostly blame the gold standard. But you're bringing in non monetary factors,
+which is very interesting. Wow. Well, I'm just saying that, you know, it was a complex
+combination of things. And I'm not even sure it was the gold standard. Although that was part of it.
+But I think Milton Friedman was quite right in this that the failure of the brand new federal
+reserve system to maintain the banking system and to prop it up. The way Ben Bernanke did
+70 years later, 80 years later, was really critical to all of that. And a lot of those bank
+failures, of course, were country banks that have been lending money to farmers, and anticipate, you
+know, who would board money and anticipate in anticipation of the revenue they would get when the
+crop was harvested. And it was a really bad year. So, you know, that if the
+if the federal reserve had been led in the early 1930s, the way it was around 2008 and 2009,
+I think it would have been quite a different story. That's interesting. Yeah, I wish I could take
+it back. You were three minutes ago when I was telling a Nobel Prize-winning economist,
+you're most economists think this, right? You know, but my idea is that was it because of the
+gold standard that the federal reserve was not able to be sufficiently loose because I had to,
+you know, attract capital to prevent a capital excess of gold. That did tie their hands
+and they didn't have to stay on the gold standard. But that was part of, you know, the mistake
+that monetary authorities made. And of course, that's not the Fed that was, it was, it was
+Roosevelt that decided to go off the gold standard. And it's not something that the Fed could have
+done, but the Fed could have done a lot to prevent the bank failures by propping up the money supply
+basically. I guess I want to ask you, and I know the answer is I don't know and no one knows,
+but I just, how wide do you think the distribution is for what employment is going to look like
+because of AI? Because you know, there are a lot of people who they don't have, you know,
+they don't, it's not physical labor, but they work on their computers and they work hard,
+but a lot of it is knowledge work. And if you're saying that chatGBT is already the best
+economic grad student that you've ever had, you know, a lot of that work could be going away
+and could be automated and, you know, productivity is going to increase. Is it going to increase
+by everyone still having a job and doing a lot more or is it going to increase by the output
+goes up, but the inputs go down. Right. I mean, that's a good question. And I think that there is a
+coordination problem here because, you know, a business firm when they find they're able to produce
+a more output with less input, they'll do some combination of that. They'll, you know,
+they'll be inclined to lay people off because that's the most immediate way to save money.
+You can produce more, but of course, whatever you're producing, you may worry that you can't sell
+or you can't sell it at the same price. You're going to be depressing prices by producing more
+and but you're guaranteed to save money. If you know, you can continue to operate the way you are
+now, but with less input. And so, so some of that's going to happen. And, you know, my colleague
+Philippe is more optimistic on that. He's been writing some papers with co-authors looking at
+French data and arguing. He's got evidence that firms during the, you know, during the introduction
+of personal computers, found that he found that firms that tended to introduce a new information
+technology is more intensively, did tend to be more productive, but they also tended to have more
+employment. And then where that in an industry, the firm is that we're laying workers off with
+the firms that weren't introducing information technologies rapidly. And the argument is pretty
+simple. It's just that those that introduced it very rapidly were able to produce more efficiently
+and therefore took business away from the firms that were laggards and didn't adapt to the new
+technological environment. So, nobody really knows how the core of that coordination problem is
+going to work out. But if you've got a highly competitive economy with lots of room for entry of
+new businesses, but no ideas and so on, the potential for profit in using these new technologies
+to produce more, perhaps, and even better, newer, different kinds of products, more efficiently
+with the new technology. It's going to be pretty great. And they're going to be, you know,
+the sort of thing that Philippe is optimistic about, I think is going to happen.
+It's, you know, you're talking about graduate students. Graduates students don't just do
+research assistants. They work as collaborators. I have a number, you know, a papers that I've written
+together with graduate students. And, you know, they started off as being just research assistants
+for my work, but they were very, you know, very bright, very full of new ideas and hardworking.
+And they became co-authors. They're, you know, their names are right there before, if, you know,
+they're all listed alphabetically. Some of them are listed before me. And that's fine. I mean,
+we're all, I, I, I consider them as equal co-authors. I, so I think what's going to happen with
+a new technology is that they're going to be more efficient. I won't use them as much as research
+assistants, because I've got chat, GPT. I'm going to use them more as co-authors. And that's going
+to speed their professional development along a lot faster. They're going to have worked through
+the ranks from, you know, attending lectures to trying to write little papers that sort of mimic
+what's other people have done, that working as a research assistant and eventually becoming,
+you know, learning to create something of your own. I think I can go through that process much more
+rapidly, I think. Okay. So, so that's labor. In a second, I want to ask about the
+destructive powers that innovation does to firms. But first, yeah, you mentioned growth. I just
+want to ask you about what is possible for, let's say inflation adjusted growth, real growth,
+how does technology change that? You mentioned something about the 1950s solo model,
+assumptions about that. But also, you know, how much of it is technology versus
+maybe things that you would say are exogenous, but like demographics, for example, I think
+a country A that is not growing its population, but has tons of innovation versus country B that
+it has a very rapid demographic growth, but not a lot of tech. Like I think country B probably
+is going to grow faster, right? But I don't know if you correct me I'm wrong. So, like how is this
+impact impact your change for your outlook for growth? And, you know, there are a lot of venture
+capitalists on podcasts who are saying that 15% growth is possible. And, you know, the disguise,
+the limit, what might the lessons from the internet teach us about that? Or is this just, you know,
+completely different? Well, there are a number of points that you raise there.
+Let me take a look first of all at population growth countries with rapid population growth.
+You don't really have much of an advantage. It's true that they'll get more labor input.
+But when we think of economic growth, we're really thinking of the growth of income per person.
+And, you know, having more people, doesn't immediately raise the standard of living of the average
+person. You know, if you get them through, through more rapid, sort of a higher fertility rates,
+for example, then you're going to go through a large period where you've got this demographic
+penalty where you've got more people, but more of them are at an early age. They're not working yet,
+and they've got to be educated and so forth. And, eventually, when they get to be working,
+there's there's not enough capital for everybody to work with. So, you've got to do a lot of
+physical investment just to equip the new generations with their share of the capital stocks.
+So, it's many, many years before you get a positive benefit out of a more rapid fertility rate.
+It's a little better when the new population growth comes from immigration.
+Of course, that's got all sorts of political problems associated with it, particularly nowadays.
+Can we get 50% growth?
+Oh, I said, I said, one five. Sorry, 15.
+Oh, 15%?
+Well, who knows, that might be possible, but I can't think of an example where that's been sustained
+for more than a year to China looked like it was having growth rates like that for a long
+time, 20 years ago or so, but the Chinese data are not entirely reliable. I'm afraid.
+So, I wouldn't put much weight on that. So, no, I, I, and if you take a look also at any
+general purpose technology, when we're coming back to this, and again, we're dealing with small
+samples and everything, but you know, we look at what we can.
+It takes a long time before aggregate productivity is really boosted by a new
+technology that's sweeping it on the economy. And I'm sure you remember Robert Solar was famous
+in the 1980s for saying you can see the computer everywhere except in the product activities
+statistics. And the same was true with electrification. I might talk about how the long lag between the
+introduction of the technology and the positive benefits. But when a new or a really radically new
+technology comes in, it's not just that it takes a long time for the benefits. There are a lot of
+expenditures that are made that don't show up as being a final output. People are experimenting with
+with the new technology and a lot of these experiments. I'm really successful, but that's part
+of the learning process. I remember in the late 1980s and, and on into the 90s,
+when I used to go to the faculty club for lunch, before that, we used to talk about the latest
+article in econometric or something. But now what we're doing, we're talking about how to use
+our word processors to increase the font size or something. I mean, it's just a period to be
+a pretty big waste of our human capital. But that's what people, you know, people we're doing,
+where we're learning about the new technology. And, of course, at first, what happens when a new
+technology comes along is that people aren't quite sure exactly how to use it. It doesn't fully
+replace the old technology, which we've got quite used to it. So we tend, instead of
+using it to substitute for the old technology, we tend to use them side by side. So we're actually
+using more input to produce maybe slightly more output. And so, you know, we thought at first,
+well, we're not going to need our typing pool anymore. Now that we've got these new computers,
+but we continue to hire them. And because we were just learning how to type, we thought, well,
+we're not going to be having to cut down so many forests to photocopy our papers. But we continue
+to do it anyway, because we weren't really fully trustful of the electronic storage methods.
+And, you know, that's still true to all our digs down. We still produce an awful lot of
+hard copies of papers. But a lot less than we used to. So you actually, and this was true
+the economic historian Paul David once wrote a really interesting paper
+about 1990, I think, called the computer and the dynamo, where he compared the
+progress of aggregate productivity, following the introduction of the personal computer in its
+diffusions for the economy with the introduction and diffusion of the electric motor
+in manufacturing. And pointed out a lot of similarities. It was a lot of fumbling around with
+the new technology, a lot of mistakes were made, took further innovations, and a lot of that,
+a lot of that learning, a lot of that fumbling around, if you were the ideal
+national income account and could measure everything, that would be considered investment.
+Even when you're making mistakes, you're learning, you're learning, okay, that was not the right
+way to go around. That's very valuable because now you're not going to waste time going down that route.
+That's new capital that you're building up, but, you know, it's impossible to measure. So it
+just shows up as more input, but no output. And that's what happens to the product activities,
+statistics. But we're likely to have that, I think, for quite a while in artificial intelligence.
+If it's anything like previous general purpose technologies, tell me about the
+destruction of firms that are beaten and lose to innovative companies. So so right now,
+you have software as a service businesses, those stocks are declining sharply because there's
+the threat that using AI companies can just basically create the software that costs hundreds of
+millions of dollars to make for a tiny fraction of that. Tell us about the theoretical underpinnings
+about how that happens and the motivational structure of the innovators as well.
+I can't get too far into the the technology here because it's just not my area of expertise.
+And I understand what's going on in general terms. And, you know, from looking at it from 30,000
+feet, it seems to me very similar to many areas of creative destruction. You got this
+whole way of doing things. I mean, just like we used to take pictures using this film that we would
+stick into our cameras and then expose them to the light and take them down to the rug store or
+whatever that would develop them and come back a few days later and take a look at them. And the
+Kodak Corporation was the at one point the third largest corporation in the United States by revenue
+and played 150,000 people worldwide. They were driven bankrupt by digital photography.
+This is going to happen in a lot of sectors. Sure. I don't think there's, you know, there may be
+some interesting inside stories about how these these these big companies are biting against each
+other because my AI will destroy your software and so on. I'm not into that. I say, I'm looking
+at it from a more general point of view. Right. Tell us about the monopoly rents that
+innovators are able to extract and and also you're you're finding that they innovate less when
+they price when they expect more innovation, right? Well, not necessarily. No. As, you know,
+it is a complicated strategic situation and it depends on a number of things, but what we found
+more generally is that the most innovative industries tend to be those in which firms are more
+less neck and neck technologically. There isn't one dominant leader and a bunch of firms that
+are way behind because in that situation, the firms with existing technology, when they're
+sort of neck and neck technologically, that's the closest you can get to perfect competition,
+where there are no monopoly profits. And that's where the incentive to innovate is the strongest.
+And that's, you know, we've done a lot of empirical research verifying that that is indeed the
+case industries that are more neck and neck tend to be more innovative in terms of measure
+in terms of citation weed patterns or productivity growth or however you want. And one of the
+worries about the last 20 years in the US and in many other countries is that industrial
+concentration seems to be growing in many sectors of the economy. And there's a lot of evidence
+that this has been slowing down the process of innovation. We had this big boom of productivity
+growth from about 95 till 2005, where we're finally solo could see the the computer in the
+productivity statistics. But since about 2005, productivity growth has been kind of sluggish.
+And I think there, you know, Philippe and I wrote a paper a few years ago trying, you know, making
+the case that a lot of this is attributable to the increasing concentration in so many different
+industries in the US and and the same as true to the large extent in many European countries.
+Sorry, maybe I misunderstood. I thought that that you said that the amount of research in one period
+depends negatively upon the expected amount next next period. Well, that's looking at a
+from a partial point of view. I mean, that's true. If you're an individual and you expect a lot
+to be of innovation to follow in the event that you are successful in innovating. And that simply
+means that you're going to be facing tougher competition down the road. The payoff to you won't be as
+great. But what if you expect what if you have a lot of competition right now, not just in
+innovating for new products, but competition for producing and selling the goods that you're able
+to produce right now? You had that's where you have the strongest incentive to innovate. So you can
+end up with some monopoly rinse because you're successful and they're not. And it's true that
+they will be in the same situation. And they'll be trying to to replace you. You'll be in a race
+and depending on the circumstances, the fact that you've got lots of other people competing as well
+might make you innovate a little bit less, but you've got that extra innovation for society because
+you've got these others doing it too. So generally, and this is true in the theoretical models
+that we've worked out and it's been verified, I think pretty well empirically, that the
+fairs are the competition for existing products in the in a market. The bigger the incentive
+firms have to try to innovate to improve those products. And that and that can build on itself
+that they have a greater incentive to innovate and then that makes the other people want to innovate
+even more. Well, it's just that they're all in the same boat. They're all good on one of them
+to innovate. That's a lot. Talk about these monopoly like rinse. You said these companies
+innovate so that they can extract these monopoly like rinse. When you wrote this paper in 1992,
+what was kind of the talk of the monopolies back then? I mentioned, you know, there's government
+granted monopolies for water and electricity, but you know, I don't really know, but like is there
+might there be a lot more monopoly like power and a lot more monopoly like rent extraction now
+than when you wrote this paper? I think there is actually, and that's exactly what Philippe and I
+were writing about in this paper that we wrote a few years ago. There's, there's a, and this
+was in our finding. I mean, David, Otter and many other people have been pointing out that there
+has been this rise of the superstar firm, not just, you know, not just the ones you've all heard
+about Google and Amazon and so forth and Apple and Microsoft, but throughout most sectors of the
+economy, the degree of concentration is rising and the share of output produced by
+by large productive, in many cases, firms charging high markups, also pay high wages,
+has grown, then they're coming increasingly to dominate more and more sectors of the
+economy. And this is what we think has been having a negative effect on productivity growth.
+Now, this could all be changed, of course, if artificial intelligence turns out to be as
+productive as many people think it could be. It may be that suddenly we're going to be on this new
+way of innovations and productivity growth is going to pick up again. You know, no country does everything
+perfectly. And there's no silver bullet for economic growth. You know, when we first started
+writing about growth, there were a lot of people claiming that, no, the real key to economic growth
+is human capital. Now, the key is being opened to international trade, you know, the key is
+something else. I don't believe any of that. There are many, many factors that contribute to
+to rapid technological progress and rapid economic growth in the country and no country does them all
+perfectly. So it may be that, you know, in the United States, for example, our ability, our extremely
+innovative and flexible financial system is going to compensate for a lot of this. I mean,
+you take a look, take a look at where all of these advances in generative AI are coming from.
+Right now, you've got, you know, the big companies, the Googles and a Microsoft's,
+it going at it. And everybody that's doing it, I suppose, in doing it at the edges, is big.
+But some of them are very new. I mean, anthropic is what three years old, even open AI is only
+about 10 years old. These are new companies. There are companies that are risen up,
+despite the fact that they're going to high tech sector that's being increasingly dominated
+by a few very, very powerful firms who can suppress innovation by others for a number of
+methods, for preemptive mergers, for creating patent thickets, by having political influence,
+regulatory capture and so on, and there's been doing a lot of that. We have a financial system that
+allows firms to start up and become giants within a couple of years and to dominate
+an area that had previously been, you know, we're previously, it looked like it was just the domain
+of one of these mega corporations, while losing tons of money. Yeah. Well, of course,
+part of the requirement for a flexible, innovative system is a financial system that is willing to
+tolerate losses for long periods of time, because no one is as successful, innovative without
+having gone through a long, a long period of failures. The extremely large capital expenditures
+being spent on AI right now, how do they compare to previous capital capex
+booms, whether it's the railroads, the canals, other things, is it normal for us to spend for,
+you know, the economy to spend so much and, you know, just have the, the capex numbers,
+absolutely dwarf the revenues and the profits, which don't exist and actually are negative numbers.
+I, yeah, I think so. If you take a look at the dot con boom, which is perhaps as much
+a sort of telecon boom as anything else, I hear remember people being just staggered
+that this new company Amazon, it never made a profit and all they did was sell books,
+had a market capitalization greater than that of general motors, you know, one of the greatest
+industrial enterprises of history, it was so staggering. Well, yeah, and there were a lot of other
+companies like that, a lot of the other ones collapsed, but not Amazon and, and here they are,
+you take a look back in then in the 19th century at the railroad boom in the UK,
+investments in, in the railroads there, it's been a while since I looked at, at the data,
+but I think it was somewhere around 15% of GDP was being invested in railroads at those times,
+that that's way bigger than we're spending on an artificial intelligence now,
+might not be for long, I don't know, but, yeah, and typically these huge investments in new
+technologies will lead to some sort of a climax, some sort of a crisis will take place and
+they're going to be some failures and other winners will emerge, that seems to have been the
+pattern in the past, and I know a lot of people, I have a lot of friends that are convinced
+that these, there's going to be a stock market crash that not all of these valuations are
+realistic, but they're fully invested in the stock market, they're okay, I've got my point at
+which I'm going to get out, and I've got a little button I can present my phone to sell everything,
+and I think they're right, and I think in their predictions, at some point, going to happen
+of the stock market, but whether they're right that they can all get out in time, I'm not sure
+about that so much, you know, you take a look at these, cyclically adjusted price earnings ratio,
+the stock market, the shiller index, it's up around where it was at the very, very peak of the
+con bubble, believe it's up higher than it was in 1929, it doesn't mean that there's going to be
+a stock market crash next year, even the year after, but historically it's meant that the average
+rate of return over the next 10 to 20 years in the stock market is probably going to be really low.
+So, yeah, I don't think it's unprecedented. So, whatever we're at, you know, one and a half
+two percent of GDP of capital expenditure on AI, it could get as high as 15 percent, or I think
+you'll five percent is some other numbers I've seen of previous capbacks. So, Peter, that's
+what about some industries where the monopoly like rents that the companies are able to
+extract to justify the capital expenditure doesn't exist at all. So, is the juice worth the squeeze?
+First, for society, the juice can be worth the squeeze, but for the actual companies that are spending
+this massive amount of money might not be worth the squeeze. I expect it will be for some,
+and I won't be for others. Let's see, expect it right over turn, well, you know, I tend to
+side with the efficient market people that we tell you the expected rate of return isn't much
+different from investing in the stock market now than it ever has been. You'd be a lot of winners,
+a lot of losers. You know, if you get lucky and you buy an Nvidia when it's just ahead of
+its IPO and hold on to it, you're going to become a very rich person, but there are a lot of
+others that are just going to go bust. A sensible person just diversifies, I think, but most people just
+they love the gambling aspect. You're not wrong about that. One of my final questions for you is
+the source of monopoly like rents, you know, one, I could say, yeah, government granted
+monopolies and they can't extract the rents too high for waters and electricity and the such
+others are maybe not technological, like, you know, Coca-Cola, the obviously it's not if I'm not
+able to represent something in people's brains, the brand, in terms of companies that have
+a monopoly because of technology, how common is it for them to maintain that lead? Because,
+you know, Nvidia definitely has now and has had for the past 10 years, a dominant lead in
+you know, GPUs, computer chips that are powering AI. But I imagine like when the first car was
+invented or car company that had a lead in 1912, like did it have that lead in 1942? I don't
+know, or 1922? How long do these things last? Well, yeah, yeah, I honestly haven't looked at data
+on the sort of, you know, the distribution of the duration of technology leads. Some of them
+go for a long time. I mean the AT&T corporation held its monopoly for about 70 years. Wow, that's
+a long time. Now they were helped by having, having this monopoly being recognized as being legal.
+Yeah, there's obviously just last a few years and then they're leapfrogged or joined by
+by others. You take a look at Tesla. It had, didn't have a monopoly on electric vehicles,
+but it was the dominant leader in the head, I don't know, somewhere in the order of 90% of global
+sales. There are no way near the world leaders anymore. They've been way overtaken by more than one
+Chinese company. That only lasted a few years. So, there's a lot of factors that go into it.
+You know, the more innovative, the more competitive an economy is, the shorter those went out,
+monopolies tend to last. How if it all have your views about creative destruction changed since
+you wrote that paper in 1992? That's a good question. I guess I tend to see it as more as a social
+and political phenomenon than I used to. I was just, I used to be interested in it mainly, just as
+as a tool for understanding how economies grow and so on and I still do. But I think that
+the fact that once an innovator succeeds in acquiring some monopoly power, they don't just use that
+monopoly power to try to continue innovating. They use it to try to prevent others from replacing them.
+I see that as being much more important now than I used to. Do you think that merits
+government policy, whether it's regulation or anti-trust actions, or something to prevent
+the hoarding of corporate power and monopolies? I do. And there are a number of things that we could
+talk about. But I think right now the the top thing of my mind as far as that's concerned is
+a reorientation of anti-trust policy. Right now, it's not just in the United States, but I think
+in most countries, the anti-trust cases are usually prosecuted on the grounds that a firm might
+be using its market power to harm consumers by making goods more expensive than it might otherwise be.
+Whereas I think that the biggest harm from monopoly comes in the ability of a market leader
+to suppress innovation on the part of its followers of people that they're threatening to replace it.
+But our laws and the approach that anti-trust authorities have followed around the world really
+have not really fully adapted to that. You know, when there was a trial of a meta, for example,
+where Zuckerberg apparently there was an email in which he just plateaued said, well,
+I don't think we can compete against Instagram, let's just buy them up. And well, I mean,
+that should be that should have been grounds right there, or you know, declaring that this is a
+illegal use of monopoly power. Because you know what they're doing is they're not necessarily
+stopping Instagram from innovating. They're just making it conform to their own technological
+plan and so on. And not allowing the full scope of competition that might have been there
+had Instagram been providing some alternatives to meta, forcing meta, perhaps to innovate
+themselves a little harder rather than just buying up a competitor. And it's that sort of thing
+that I think we need to focus more on. Well, Professor, thank you so much for coming on.
+When I'm obviously you must be immensely proud of this paper and your your Nobel Prize in it,
+what do you think there's some of your other greatest work throughout your career?
+Doesn't doesn't have to be about, you know, it doesn't, sorry, doesn't have to be about
+you know, top competition in creative destruction. Well, that's a good question.
+You know, until I met my co-authors started writing about economic growth, I mostly written about
+things like monetary policy and unemployment theory and so on. And I done on a number of things.
+And actually, that same year that I was spending my sabbatical year at MIT, where I met Filippe
+and we started working at same year, I produced a first draft of a couple of other papers that
+that I was quite proud of. One with Preston McAfee, who then went on to become the chief economist
+for Microsoft and is now now works for Google, called Animal Spirits, where I think we we provided,
+really neat little theoretical argument for how an economy could learn somehow rather to enter into
+a low level equilibrium with high unemployment just because it's a self-fulfilling expectation.
+I thought that was a very, a very, that was one of the series of papers that Preston and I wrote
+together that it was quite pleased with. I also wrote, I used to write a lot about Canadian
+monetary policy when I was an economist at Canada. And that led me to believe that interest rate
+control was really something that had a danger of getting out of control. And I wrote something
+that was very close to what became known as the Taylor rule. And I wrote this paper on the
+the dangers of trying to pay interest rates to tightly in the face of changes in the state of
+the economy and how that might lead to what was known at the time as Wixil's cumulative process,
+where inflation would just get out of hand. So those three papers, I wrote that, you know,
+to those two together with the one with Philly and started writing them in 1987 during that
+sabbatical year at MIT, and all three of them were published in 1992. And I was proud of all three of those.
+So I had a very good year at MIT. What was that finding about Canadian monetary policy?
+And the Wixil and I think you can explain that? Well, yeah, that wasn't just about Canadian monetary
+policy. I was about monetary policy in general. I mean, I, but it was something that I had been
+sort of led to just by my experience of writing a boat in consulting a boat, Canadian monetary policy.
+He's just been a lot of time with people at the bank of Canada and talking with, you know,
+going to monetary conferences. I was more a monetary economist than a macro economist for a long
+time. And as we just, a general paper, a monetary theory that was eventually published in the general
+politically economy that I was quite proud of. And so you're work on something that's later,
+you know, similar to something that later became that the Taylor rule, that's basically
+dictating what the level of interest rates should be based on the neutral rate of interest plus inflation,
+plus the output gap. Are you saying that it was a mistake to not follow a quote unquote rule,
+or the mistake is to follow it too rigorously? No, the mistake is not to respond sufficiently vigorously
+with interest rates when inflation changes in both directions. The quote, yeah, a coefficient of reaction
+has to be greater than one. And if not, you know, what I showed was under a wide variety of
+circumstances with a wide variety of different classes of models, you were going to get you were
+going to get explosive instability in the inflation rate. And did the peak matter? So I think inflation,
+I think it actually was like 8.8 or 8.9%, but let's just call it 9% and obviously in the
+US and obviously interest rates didn't get up, you know, to like five and a half percent. So according
+to your work at your back in the day, would going up to five and a half percent mistake because
+it didn't go high enough? Well, you know, I mean, if you're talking about the the Volcker
+experiment interest rates got a lot higher than you know, so I'm talking about 2022, sorry, sorry.
+Oh, yeah. Yeah, that particular inflation was a different, had it, had it, it was a bit different
+sorry. I mean, there were a lot of things going on in the supply side that I was just ignoring.
+And, you know, a more complete analysis of monetary policy would have to take those supply side
+things into account. I mean, when you had all the disruptions from COVID and so on that that we're
+taking place, I think that was that was quite special. But you're right, that in that case,
+inflation was brought under control without getting short-term interest rates any higher than
+very even close to the peak of the rate of inflation. That makes sense. Well, Professor, thank you so
+much and absolute privilege. We'll leave it there and we'll link it to your paper that they
+want the Nobel Prize in the description. Thank you everyone for watching. Please leave a rating
+and review from monetary matters on Apple Podcasts, Spotify, and subscribe to the monetary
+matters YouTube channel.

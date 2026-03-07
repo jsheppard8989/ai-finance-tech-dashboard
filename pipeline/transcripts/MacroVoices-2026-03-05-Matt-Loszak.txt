@@ -1,0 +1,789 @@
+This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance,
+high-net worth individuals, family offices, and other sophisticated investors.
+Macrovoisers is all about the brightest minds in the world of finance and macroeconomics
+telling it like it is, bullish or bearish, no holds barred.
+Now, here are your hosts, Eric Townsend and Patrick Suresneut.
+Macrovoisers episode 5-22 was produced on March 5th, 2026, I'm Eric Townsend.
+As are a long time listeners already know, I'm passionate about nuclear energy, but I think
+the nuclear renaissance may be off on the wrong foot.
+The nuclear industry has been very slow to recognize my vision that this moment in history
+demands revolutionary rather than evolutionary change to the way that we build nuclear
+power.
+I've argued on a subject that we need to mass-produce entire, modular nuclear power plants,
+not just reactors, in giga factories with fully robotic assembly lines, at massive scale
+in order to divert a global energy crisis when fossil fuel production becomes prohibitively
+expensive in the 2030s.
+So when all our atomics, a company that seems to share my vision almost perfectly hit my
+radar screen recently, I wanted to share their vision for nuclear energy with our macrovoisers
+audience.
+Allows CEO Matt Loseck will join me as this week's feature interview guest and we'll
+talk about the big picture of what the advanced nuclear industry needs to do in order
+to bring the cost of nuclear energy down to the cost of energy from fossil fuels.
+VCs in the audience, you're not going to want to miss this one.
+Allow expects to have their first prototype advanced nuclear reactor up and running by
+4 July of this year, and their shopping their series C-Terms sheet right now.
+Obviously the developing situation in Iran is driving markets this week, and Patrick and
+I will have plenty to say about what the conflict means for major markets in our post-game
+segment after the future interview on the future of advanced nuclear energy.
+Let's start with Patrick's trade of the week, revisiting the S&P 500 options caller
+to hedge out short-term market risks.
+And I'm Patrick Sarasna with the macroscore board week over week, as of the close of Wednesday
+March 4th, 2020, the S&P 500 index down 111 basis points to 6869.
+The market continues to resiliently hold support in spite of material headline risks.
+We'll take a closer look at that chart and the key technical levels to watch in the post-game
+segment.
+The U.S. dollar index up 140 basis points to 99.01 a substantial reversal of the dollar trend.
+The April WTI crude oil contract up 1412 points to 7466.
+The war risk premium sharply advancing oil prices.
+The April Arbob Gasoline up 1156 basis points to 251.
+The April Gold contract down 176 basis points to 5134.
+The main copper contract down 134 basis points to 590 and the March uranium down 211 basis
+points to 8590.
+The U.S. 10 year treasury yield up six basis points trading to 411.
+The key news to watch this week is Friday's jobs numbers and next week we have the CPI
+and the core PC price index inflation numbers and the U.S. preliminary GDP numbers.
+This week's feature interview guest is Alo Atomic's founder and CEO Matt Lowzack.
+Eric and Matt discussed the next generation of nuclear power.
+The potential for mass produced modular reactors.
+Why breeder technology could dramatically expand nuclear fuel supply and more.
+Eric's interview with Matt Lowzack is coming up as macro voices continues.
+Right here at macrovoices.com.
+And now with this week's special guest, here's your host, Eric Townsend.
+What I mean now is Matt Lowzack, founder and CEO of Alo Atomics, a company that
+proposes to mass produce, not just modular nuclear reactors, but entire modular nuclear
+power plants in a gigafactory for the express goal of rapid deployment at scale.
+Alo's initial market focus will be on data centers.
+We are rapidly deployable power solutions are most critically needed.
+In the interest of full disclosure, I am personally a private equity investor in Matt's
+company, Alo Atomics.
+Matt, it's great to have you on the show.
+Thanks for joining us today.
+Thanks so much for having me, I'm great to be here.
+I want to start by playing Devil's Advocate and describing the most commonly held view
+in the conventional nuclear power industry, despite the fact that I personally disagree
+pretty strongly with that view.
+The common wisdom says that the pressurized water reactor originally designed for the
+notalist submarine back in the early 1950s has evolved to become the gold standard of
+nuclear power alongside its close cousin the boiling water reactor.
+Most seasoned nuclear industry professionals share the view that the operational experience
+that we've gained from running these light water reactors is their called.
+For several decades now is the most important safety consideration that we should think
+about.
+And so they question why anybody in their right mind would even consider deviating from
+what's already been proven to work for nearly six decades and thousands of reactor
+years of commercial service.
+For those reasons, they strongly advocate focusing the formative nuclear renaissance
+on building more of them, more light water reactors like the Westing House Model AP1000.
+And a lot of these people think that experimenting with different reactor designs involving
+the coolant's other than water is just asking for trouble both economically and from
+a supply chain perspective.
+You and I disagree with the consensus view.
+What's wrong with the narrative shared by so many of your peers in the nuclear industry
+that we should just stick with what we already know, which is light water reactors that
+have been proven to work for decades?
+If we add to boil it down, I'd say it's that essentially the current solution is a
+local maxima, but not a global maxima.
+So if we think about some of the problems that have happened in the past 20 years of
+nuclear deployment, we saw Vogel go 10 years of a schedule, $15 billion over budget.
+And essentially the problem is that you have a industry where every reactor that's been
+built in the past 75 years is bespoke.
+They've been one off projects.
+And in that world, the best way to try to lower cost is just make the reactors bigger
+and bigger and bigger and stick with the same design you've been doing before.
+But as we know, there's two ways to optimize economics.
+One is make things bigger and two is make a lot more of that.
+The interesting thing is the idea of making a lot more of nuclear reactors has really not been
+attempted properly.
+In other words, there's no single large factory we can point to globally that is mass producing
+along the lines of Henry Ford's cars nuclear reactors.
+The reason to switch off of water is essentially this emergent realization when you start
+to explore and ask yourself, what is the best design to mass manufacture?
+And if you're no longer just going bigger and bigger and you want to get a better design
+that can be maybe transportable on everyday roads, then you start to look at these other
+coolants.
+Things like liquid metal, sodium, molten salt or even gas and especially sodium and molten
+salt allow you to make the vessel of the reactor much smaller.
+So in other words, if the vessel was the same size for all these coolants with sodium and
+molten salts, you'd get around anywhere from two to ten times more energy out of it.
+So you can imagine that's much better from a mass manufacturing perspective.
+And so you also get other advantages, things like more inherent safety and something I think
+we might talk a bit more about later around when you can achieve higher temperatures,
+you can service things like industrial process heat and so on.
+Those are some of the core reasons for exploring other technologies beyond just water-based
+gigawatt scale reactors that we have today.
+Well, certainly the high tech boys have recognized this case and I know that's where
+you're focusing a lot of your business.
+Help our audience understand what this so-called advanced nuclear industry really is all
+about.
+One of the most commonly held views among institutional investors is look, we don't want
+to invest in science projects, we don't want to mess with unproven technologies.
+So even if you're onto some great idea that's going to completely change the course
+of human history, it probably belongs in a research lab at MIT, not in a startup company
+like O'Clo, or all-oh, that proposes to actually be selling nuclear reactors to data
+centers in the next few years.
+So we really only want to invest in stuff that's already been proven to work and proven
+to be deployable in a commercial context.
+How much do we really know about all this advanced nuclear technology and to what extent
+is it proven to be viable and how much technology risk is involved in deviating from
+that accepted norm of essentially light water reactors forever, which is what a lot of
+the industry wants to focus on.
+I think a lot of people don't realize that advanced reactors actually do have quite a
+bit of operational history.
+So water cooled reactors definitely have the most to the tune of thousands of cumulative
+years of operational history, but sodium still has around 400 operational years, gas has
+maybe 100 and molten salt has on the order of just a few years.
+It's kind of the least one on molten salt.
+These have been built before and the interesting debate in nuclear is why these technology
+branches on the tech tree weren't fully explored.
+Our argument essentially you might believe is that it was largely for political reasons
+if you look at the history that these reactors did not get further explored.
+One interesting anecdote is EBR2, which is one of the reactors that we take the most inspiration
+from, operated from essentially for 30 years at 20 megawatts of power and it was a real
+success.
+I mean, when they decommissioned it, the sodium had been the look at metal, had been
+so compatible with a stainless steel that the welders etchings were still visible inside
+the pipes.
+So it operated with a very high capacity factor for that time as well.
+And interestingly, they did a test where they basically tried to make the reactor melt
+down by removing all the backup power and leaving the control rods, the brakes on the reactor
+fully open.
+And what they found is that the reactor was able to safely shut itself off inherently
+because of the physics of the system, though depending on human control.
+So it demonstrated good capacity factor, good safety, but you'll never guess what happened
+12 days after that test occurred Chernobyl.
+Some of these sodium reactors had different political challenges that caused them to slow
+down development.
+But I think that taking a step back, the thing to realize is these advanced vision reactors
+are not really like, for example, fusion where there's Nobel prize-winning discoveries
+that have to be made or new science has to be unearthed in order to make it feasible.
+They've already been deployed and the kind of best analogy in my mind is some of these
+advanced coolants like sodium are kind of like SpaceX with landing a rocket.
+Is it easy compared to water?
+No, there's a bit of extra engineering challenge.
+But if you can do it, it unlocks a holy grail of economics.
+And if you get a smart teams together with a bunch of capital and the right environment,
+with the right customer in this case, the idea centers, we think you can really make this
+work.
+And so I think that's what's most exciting about this technology.
+Matt, you mentioned a holy grail of economics and that's what I want to focus on next.
+Not so much what's possible in the next two years, but let's kind of zoom out and talk
+about the future of nuclear energy and what it's going to take to truly change the
+course of human history and deliver a new source of energy that will eventually be able
+to replace fossil fuels and give us a cleaner, greener, better future.
+The more I've learned about all this nuclear energy technology, the more that I've come
+to realize two things.
+Number one, we're never going to really and truly change the world and be able to scale
+nuclear up enough to replace fossil fuels until we get to something called a breeder reactor
+economy.
+The second thing though is that breeder reactors, at least as they've been developed and deployed
+to date, have generally not proven themselves to be economically viable for commercial
+deployment.
+So that's a real conundrum.
+Let's start with what is a breeder reactor in the first place.
+Why is that important?
+Why do we need breeder reactors to eventually change the world completely with nuclear
+energy?
+And then what are your thoughts on how we overcome the fact that, frankly, breeder reactors
+haven't proven themselves economic, at least not yet.
+And how do we get to that eventual infrastructure that we need?
+How does the evolution occur and why is that important?
+Currently, the nuclear fuel supply chain is primarily based on uranium 235.
+And if we were to burn all of the known resources on U235, it would probably have a similar
+life span to oil and gas and lasting us in other 200 years, maybe.
+But if you can do a breeder, it unlocks different fuels still in a nuclear reactor, like
+thorium and uranium 238, which are both much more abundant than U235.
+So essentially that enables you to expand the usable fuel lifespan of known reserves on Earth
+to 4 billion years.
+So that's what's really exciting is when you think about scaling up in the future of energy
+production on Earth.
+Really, it almost seems inevitable that this will become the main source of energy that
+replaces oil and gas on Earth and it's certainly inevitably within a 200-year time frame,
+but we think much sooner because of the demand from, you know, the data centers and nuclear
+being the best fit for power on them.
+That's the kind of bottom line now is, if that's the case, why are we not doing breeding
+right now?
+The answer is, it's a bit more expensive right now and there's going to be a cross over
+point in the supply chain of U235 and U238 when it makes sense to actually do the extra
+step of recycling and reprocessing the fuel to access the resources within the spent
+fuel and to switch the mining supply chain to be for thorium and U238.
+So there's going to be an economic cross over point when that occurs for the time being
+the cheaper faster short-term path is to use standard low-enrichment, you know, 5%
+uranium dioxide, which is what we're doing in our company, but yeah, that's essentially
+how we see it is.
+It's an inevitable move that'll happen in the coming probably a couple of decades, but
+for now, the cheaper faster approach for the customer of the day data centers is to use
+the existing supply chain and the existing reactor technology.
+I think there's a point here that a lot of people don't fully appreciate, which is they've
+heard about these breeder reactors being able to use this fuel less than 1% of uranium
+that's mined out of the ground is U235, the kind of fuel that's actually used today.
+The other 99.3% is U238 and when people think about it, they hear, okay, we're wasting
+all of that U238, we're not putting it to use, but hey, you know, the cost of the uranium
+is not really that big of a deal to run a nuclear power plant.
+Let's not worry about it.
+What I don't think people really understand is we're not just wasting it in the sense
+of not putting it to good use, we're literally creating so-called nuclear waste.
+Spent fuel waste is mostly all of that U238 that people think is just this horrible, awful
+toxic stuff that stays around forever.
+Really it's perfectly good nuclear fuel that we could have used to make energy, which
+just didn't do that because we didn't build the style of reactor that we've known about
+since before I was born, that can use that U238 fuel.
+So I want to talk about this so-called nuclear waste now, a lot of experts say, you know,
+don't worry so much about it, it's a public perception problem, but technologically speaking,
+they shouldn't worry because it's not as big of a deal as they think it is.
+And I think that those technical experts are missing the point because the public perception
+that this nuclear waste is horribly dangerous is really I think the biggest thing that's
+holding back the growth of nuclear energy.
+So talk to us a little bit about, you know, we've been hearing these stories that some
+companies are coming up with technology, they can actually take the stuff we call nuclear
+waste that's been sitting around for decades, burn it up and use it as fuel in order
+to make more energy, which covers two, you know, kills two birds with one stone.
+As we're making energy that we don't have to mind, new uranium for, but the other
+thing is we're getting rid of all that nuclear waste that everybody's so concerned
+about.
+Are we back to science projects here, is this brand new, unproven technology?
+Or is there really a way that's available today that we could get rid of those 250,000
+metric tons of spent nuclear fuel waste that's sitting around in dry casks storage all
+around the world and get rid of it by actually making power from it?
+So they're definitely as a way and again, coming back to EBR2, the reactor we spoke about
+earlier, that was actually the first time we demonstrated what's called closing the fuel
+cycle.
+Essentially, the way to think of this is as fallen.
+So first of all, nuclear waste, the fears of nuclear waste were somewhat propaganda
+driven by in large part the oil and gas lobbyists in the 70s and 80s, the created
+fear around something that really hasn't ever harmed anyone was pretty easy to store
+and there's tiny amounts of it.
+I have to be empathetic to the fears of nuclear meltdowns and radiation causing relocations
+and that's the thing we also can avoid to technology, but the nuclear waste issue, I think,
+is almost entirely propaganda and not really at all technological, technologically it's
+a solid issue from a safety perspective, but to your point, it's not just about keeping
+us towards safely, it's also about the fact that when you have nuclear waste, it's actually
+a very useful substance, there's still 95% of the energy still in there.
+What's happening around the world today is France is currently recycling most of their
+fuel and they're extracting so once fuel is burned, some of the, what's called fissile isotopes,
+like U235 and plutonium are still in there, you can make what's called mixed oxide
+fuels by recycling the fuel and just extracting those leftover fissile isotopes.
+But with the approach of using breeder reactors, we can then tap into the other 95% of
+the energy that's still in there, which is the U238 and in doing so you can really get
+a lot more energy out of the fuel and also reduce the volume of waste that you have to
+even store to begin with. So to give you an anecdote, the entire history of nuclear power
+production in America, so 70 years for 20% of on average 300 million people has produced
+only a football field of waste stacked around 10 yards tall. And if you were to do waste
+burning and use the useful stuff in that leftover fuel, then the height of the true waste would
+only be six inches on that whole football field. It goes to show you, you know, A waste is not
+really this existential problem for nuclear. It's actually one of the main selling points
+because everything produces waste, oil and gas puts waste into the air, we breathe, solar panels
+have an end of life and must be put under the earth, they're expensively recycled, same with wind
+turbine blades. So everything produces waste when it reaches out of life, but nuclear is main selling
+point or one of them is that there's such a small amount of waste and it's so easy to maintain.
+And what we conceive of as waste today is actually, like you said, a very useful substance. It's
+a very valuable substance that we actually want to use in future reactors.
+Matt, you and I share a vision that the way we get from where we are today to the point where
+nuclear energy finally becomes cost competitive with energy from oil and gas is that we need to
+mass produce not just components to build modular reactors, but we need to do factory assembly line
+mass production of entire nuclear power plants in giga factories. So the whole power plant
+just gets set up and configured on site like Ikea furniture is opposed to having to be custom
+built on site the way we've built all of the nuclear plants that exist today. I'll save my
+own reasons for thinking that's important for another podcast. What are yours? At a high level,
+what we're trying to do, I think what the ideal solution here is is to turn nuclear from being a
+project into a product. And I'll give you a few examples of that, but the key advantage, you know,
+if we're asking why does it make sense to do this? For the current customer of the day data centers,
+it's all about speed. And if you can mass produce your nuclear power plant, again, not just
+the reactor, but the whole plant in the factory, you can do a lot more in parallel and essentially
+deploy hundreds of megawatts in under a year, whereas normally it would take, you know, five or
+10 years. Eventually, the goal is to be deploying 10, 20, 30 gigawatts per year by doing a lot of sites,
+a lot of reactors, a lot of nuclear product in parallel. But that's essentially what's the key
+unlock for a data centers who will pay a real premium in return for speed. You know, clean is nice
+and base load is important, but speed is really one of the most important things there. In our view,
+the key to achieving this is extreme vertical integration. And maybe we can talk a bit more about this
+later, but that's a really key part to achieving that scale in speed. And essentially,
+cost reduction will follow from that scale in speed. And nuclear, a big part of the cost today
+is actually interest because it takes so long to build all this, all this major hardware. So if
+you can build it much faster in a more predictable, repeatable way, cost come down. And then
+that unlocks a whole bunch of other markets for whom a gigawatts scale nuclear plant would have been
+just too big and too expensive and too slow. But when you get faster and below a certain cost
+threshold, let's call it 7 to 10 cents a kilowatt hour, then it opens up all of these other markets
+like large industrial onsite loads, for example, desalination, industrial process heat,
+small utility, even large utility. And then microgrids for powering EVs, hydrogen production,
+ammonia, etc. So those are some of the biggest reasons to mass produce a slightly smaller
+nuclear product that can see major cost reduction and then unlock entirely new markets that
+are not previously available to nuclear. I want to stay on this topic of scale because I think
+it's the single most important thing we have to think about. It's been a lot of hype in the
+industry about hey, we're going to triple nuclear by 2050. Sounds great. A lot of people are
+skeptical that that's even possible because that's a lot of old school nuclear power plants to
+build if you build them the old way. The thing is what you'd need to replace fossil fuels is not
+tripling nuclear. It's it's literally 25 times the amount of nuclear that we have in operation
+today. So my view is the most important thing is get the cost down to the cost of energy from coal
+and gas because when you do that it unlocks what I call the nuclear Henry Ford moment and you
+alluded to Henry Ford and his automobiles a little bit earlier. I think this is really what the
+game is all about because there's 10 terawatts of nuclear generation capacity, 25 more than we
+have today that could be deployed if we could somehow get the cost down to where nuclear costs the
+same is coal and gas. I don't think it's at all an exaggeration to say we could change the course
+of human history in a way that is more impactful than the industrial revolution if we could figure
+out how to get the cost down and really scale this up so that we could actually build 25 times
+more nuclear than we have today. But we're struggling right now just to get back on the business
+of building nuclear power plants. So I want to talk about the future. Do you think that that vision
+can ever be realized and is it mass production that gets us from there from here to there and if not
+what else do we need to worry about in order to achieve that vision? It's going to be really hard
+but I think it's possible. If you think about the pathway in going from 10 reactors per year to 100
+to 1,000 to 10,000 and in doing so you go from at our reactor output 100 megawatts per year to 100
+gigawatts per year. You can imagine a lot of different things in this supply chain will break along
+the way and so I think this is all very doable but it requires a very ambitious effort from a company
+really thinking about the future and how to break down those barriers in the supply chain at every
+step along in the way. So if you think about what it takes to deploy 10,000 reactors a year. For
+example, in the short term you can deploy a bunch of reactors like that's called at 10 per year with
+existing fuel supply chain, pump supply chain, turbine supply chain, heat exchanger supply chain.
+But different parts of that supply chain will break as we go in that journey. For example, in 100
+reactors per year vertical integration on the heat exchangers becomes important at a thousand
+the company will have to make its own turbines and at 10,000 a company using sodium might have to
+create its own sort of industrial conglomerate that does things like sets up a reactor at Salt Lake
+City to separate sodium from chlorine and the salt that's there and manufacture its own sodium
+at scale. So none of this is really impossible from a first principle physics perspective. It's all
+very doable. It just takes the right team, the right effort and I think the beautiful thing is
+what this unlocks if you kind of look at some of the techno economic models is you can very rapidly
+get below 10 cents per kilowatt hour. Let's call it n equals 20 reactors by then you could probably
+get below 10. And then to get to for example, maybe three cents one day, which would really unlock a
+whole bunch of new markets and really beat oil and gas across the board, call it two to three cents
+might require a different kind of learning. So for example, to get down below 10 might involve
+just construction learnings, turning it more into a product versus a project, building most
+the modules in the factory and keeping on-site construction to basically a very simple concrete
+slab with no excavation and really productizing nuclear. But then to get it down to three cents
+might require much more of a I just referenced with the extreme vertical integration of the supply chain
+to achieve way faster greater scale faster deployment lower costs. But I think that is kind of the
+core way to allow nuclear to really do a Santa chance of replacing oil and gas almost wholesale
+in the next century or so. Back in Henry Ford's day, automobile wheels were like private jets
+are today. Everybody knew what it was, everybody wanted one, but nobody except the super rich could
+afford to actually have one. And I've contented that the same thing is true of nuclear energy.
+It's the safest cleanest grain is form of energy that's known to man, but it frankly just costs
+to darned much. It seems to me, you know, if you think about Henry Ford's challenge,
+he wanted to bring the cost way down. But he needed at least a small number of rich guys that
+could afford the bespoke automobiles in order to get his business going before he could really
+build his assembly line and bring the cost down to the point that the common man could afford one.
+It seems to me if we take this analogy forward to the 21st century, the hyperscalers and their
+AI data centers are the rich kids who can afford to buy private jets. They're the guys who could
+afford, if you said, look, we can deliver your data center energy from an all-awaitomics nuclear
+plant that we can roll out in a period of months rather than years. They can afford to pay extra
+for that. Is that the strategy is to use the budget of the data centers to get this started and
+then eventually scale it up to mass really big mass production from there?
+Our kind of top secret master plan is to start by servicing data centers because they have a
+high willingness to pay with a lot of urgency so they'll pay a premium for speed. And as we come
+down the cost curve, we can go after all these other markets that we talked about,
+so industrial process heat, decalination, large utilities, small utility. For whom, if you go and
+talk to them today, they would say come back and talk to us when you're below 10 cents per kilowatt hour.
+But once you get down below 10 cents, it really opens up this whole other set of markets.
+And like we were referencing earlier, eventually you can imagine going after the developing world
+with around 3 cents per kilowatt hour electricity to bring the world out of energy poverty.
+So in the long term, that would be our goal. I think it's a good goal. But I think it's important
+to realize, like we talked about earlier, there are two main ways to make nuclear cheap. You go
+bigger or you go more numerous. And the beautiful thing is the hyperscalers have a huge amount of demand
+for talking 100 gigawatts in the next five years in the US alone for a huge amount of demand for
+a very consistent product. And they want a reactor that's a bit smaller because then you can
+deploy a fleet of smaller reactors and have a higher availability. Meaning if you have a single
+gigawattscale reactor, it has to go offline for refueling for a month every two years. So you lose
+the whole gigawatts, which puts a big strain on the grid. And then you see data centers being
+kind of bad Samaritans with their local communities putting our strain on the grid. So if you have
+a fleet of these smaller reactors, you can refuel one by one and essentially always have power
+available at a high availability. So it's cool how these customers they want exactly this product,
+which almost is inventing this new nuclear product that can then once it comes down the cost curve
+go after all those other markets we talked about. It essentially allows you to go from
+large bespoke reactors to small, repeatable mass when you factorable ones. And the fact that
+it's clean is essentially a nice to have right now, but frankly, we'll benefit everyone in the
+long term. That's the last kind of benefit of doing this approach. But yes, I think the hyperscalers
+are arguably the core unlock to this new model and nuclear that we haven't really seen done before.
+Now I want to touch on what has to be the hottest marketing trend in the nuclear power industry,
+something called SMRs, small modular reactors. I have to confess my naivety when I first heard
+that phrase, I assumed that they were talking about nuclear reactors that would be both small and
+modular, given the name small modular reactor. Frankly, I don't think either of those things are true
+for products like the Westing and SAP 300 or the GE Hitachi BWRX 300, which seemed to have taken
+over that marketing phrase of small modular reactor. So let's just talk for a minute about why
+would small be better than large in the first place? Because as you said, the whole trend of the
+1960s and 70s was to go to much larger reactors for the sake of economy of scale. So why do you
+want to go from large to small in the first place? And how small does it have to be in order for
+that benefit to actually be realized and do these SMRs like the AP300 achieve that goal?
+In terms of achieving the Henry IV vision for nuclear, there is a sweet spot in terms of size.
+In that size of all the modules for the reactor and the whole plant. But if you think about it,
+a reactor that's too small will have very bad economics for physics reasons. It has a very poor
+neutron economy. And if you go too large, you can't ship it on normal roads. So if you're trying
+to build one reactor a year, then yeah, I'd say build a bigger reactor. But if you're trying to
+ship 10,000 reactors per year, you've got to have something that's the right size to ship normally
+on everyday roads and the rest of the global transportation network. That's kind of the thinking behind
+what is the optimal size for mass production and for rapidly achieving the scale that data centers
+are desiring. But the other kind of thing to highlight. So the SMR term you kind of
+correctly highlighted that they are not small nor modular. But in my view, one of the other major
+disconnects and maybe the the biggest flaw in the SMR vision so far in terms of how it's been
+expressed is that traditionally those modules all come from different factories. So a single company,
+for example, Westinghouse or Oaklow, they can be a reactor designer. But something that often surprises
+people as Oaklow, for example, is a fully remote company. They don't have a fact. So what you see
+happen is the reactor designers send the design of their so-called SMRs to dozens of different
+companies who each have their own factory. And when those modules come together at site, they don't fit.
+They have reworks and slowdowns and that's why Vogel went 10 years over schedule and 15
+billion dollars over budget. So if we kind of think about the best approach to SMRs in our view,
+what that would be would be a single factory that takes raw materials in and outputs modules
+that we know will fit together. In fact, we integration tested them in the factory. And then when
+they come together at site, it's way faster and way easier. And by the way, they're all sized properly
+for mass transportation. That's what we think is really the proper incantation of the SMR vision.
+And so that's what we're working on at all. Well, I think we're very much aligned in our thinking
+because I've always said that what matters about small is it's small enough that you can ship it
+in the existing container ship based and flatbed truck-based global infrastructure of logistics.
+But the other side of this is the time to actually build the on-site part of it. And it blows
+my mind when I see Westinghouse bragging about this is going to be great because with the AP300 SMR,
+we're going to be able to build the entire reactor and only four and a half years. And I'm
+taking wait a minute, isn't that how long it takes the Koreans to build a conventional nuclear
+power plant? It seems to me, Matt, that we should be striving for four and a half months at most
+to take an entire nuclear power plant that was factory built and set it up and hook it together
+and I don't mean the site work in grid connections. But once you've got the site prepared and
+you ship in all the stuff that comes from the factory, I think it should be months less than a year
+to completely set it up, hook it up and get it running. Is that realistic and how long will it
+take to realize that vision? I think we might talk about this a bit later, but our first power plant
+we are building currently and all in, it'll be under a year in terms of start to finish on
+turning that thing on. And the whole goal here, again, is to turn nuclear from a project into a
+product. And so if you're doing more in parallel in the factory, it allows you to, at the site,
+really reduce the work that's involved. For example, if you're trying to make nuclear
+deployable more quickly and more predictably, a really dumb way to start is by digging a gigantic hole
+because different sites have different water table, different rock hardness, and that can
+introduce a lot of variability between sites which can slow you down. And you really want to try
+to make it so that every project is the exact same as predictable as possible and that's where you
+see the speed benefits. So yes, we believe that it will be possible and almost already is to deploy
+these reactors at this scale in under a year. And that's kind of even accelerated further by some of
+the new licensing pathways under the current Trump administration around DOE authorization,
+categorical exclusions for NEPA and more. So the somewhat short answer is yes, that will be possible
+and it's going to have to be to keep up with the pace of development that the hybrid scalars are
+Matt, you've mentioned something called industrial process heat a few times in this interview.
+So I want to come back to that and understand a little more bit more detail what that means.
+Only 38% of global energy is used to make electricity in the first place. What we normally
+think about when we're discussing nuclear reactors, of course, is making electricity. Now another
+25% of global energy goes to transportation fuels, but almost a full quarter of global energy
+consumption. That's nearly as much as we spend making all of the transportation fuels that we need
+combined to power the entire global economy. The rest of that that last quarter of global energy
+production goes into something that's called industrial process heat. Examples of that are
+smelting steel making concrete and so forth. Why are light water reactors poorly suited to delivering
+process heat and what's better about advanced nuclear reactors in order to better solve that problem?
+With light water reactors, the reason they can't go to as high of a temperature is because water is
+the coolant and water boils at around 100 Celsius. So the the way that water-based reactors
+have essentially made their designs to date is they apply a lot of pressure hence the name
+pressurized water reactors to allow the water coolant to go up to as high as 300 Celsius.
+But if you look at industrial process heat applications, most of the applications occur at temperature
+is greater than 300 Celsius. So with advanced reactors using high temperature gas or sodium
+or molten salt, you can achieve temperatures in the range of 500 to 800 Celsius and that
+unlocks essentially roughly half of all industrial process heat applications globally,
+which could be decarbonized and replaced and powered by nuclear. In order to reach the higher
+temperatures still, you could in theory use more advanced nuclear designs or electrical assistance
+to reach those higher temperatures so it's still possible with nuclear. But at the lower temperature
+from 500 to 800, you get a really nice benefit on efficiency because traditionally when you
+make electricity with a nuclear reactor, two thirds of your heat energy overall is going to waste heat
+and only a third is converting to electricity. But if you are doing industrial process heat,
+you can essentially use the heat coming straight out of the reactor and use a hundred percent
+of it or much more of it, use it much more efficiently than the electrical use case. So it has
+extra economic benefits there as well. But yeah, fundamentally we can kind of think of it as
+data centers will be the ideal initial customer to bring the cost down and it unlocks all these
+other markets to help bring industrial process heat to be decarbonized with nuclear around the world.
+Matt, I can't thank you enough for a terrific interview, but before we close, I want to give you an
+opportunity to pitch what your company is working on because frankly, you're the only advance
+nuclear company that I've found that shares my own vision for mass producing, not just nuclear
+reactors, but entire nuclear power plants in giga factories for the sake of cost reduction.
+It's that Henry Ford concept of bringing the cost of nuclear way down by mass producing it
+in a giga factory so that all that has to happen on site is setting it up and hooking it together
+as opposed to any kind of custom building of anything. Again, listeners and the interest of
+full disclosure, I am an investor in Matt's company, Matt, give us the elevator pitch on all
+our topics. What are you working on when will your technology be ready for commercial deployment
+and where can our institutional investor audience find out more about your company and its business plan?
+Thank you again for having me on this. This has been a real honor privilege. We are all
+the topics where mass manufacturing nuclear power plants that are purpose built for powering
+AI data centers. We started around two and a half years ago and at that point, we were two people
+now we're 140. Today we've raised 180 million and we are on pace to turn our first nuclear
+power plant on in under just a few months. I can't say exactly when, that's confidential but it is
+very soon. So hopefully when I say that, the audience is shocked because going from that
+into vision in three years is very unprecedented but right now we are raising our series C,
+it'll be 500 million to a billion and the use of this fund will go towards the first gigawatt factory.
+So scaling out our 40,000 square foot pilot factory space that we've already built into a million
+square foot facility that will have the ability to mass produce at least one gigawatt per year
+initially and then scale up to five and then ten and then likely around 20 gigawatts per year
+per factory in the not two descent future. So essentially we're turning the first plant on in the
+next few months. It's a ten megawatt plant as purpose built for powering a data center. By the end of
+the year, it'll achieve full power operation and that's the aggressive internal goal on powering
+the world's first co-built nuclear plants in data center and it'll be a great demonstration of
+something that I think will see a lot more of in the years to come. Yeah, thanks again for having me
+on and it was a real pleasure. Well Matt, I'm really excited about what you're doing. That's why
+I invested in it but I just want to probe a little bit on the business plan because first of all
+I think you're doing exactly the right thing but selling a nuclear power to data centers sounds
+to me like selling private jets to rich guys. Is your strategy eventually to get to the point
+where you can bring the cost down enough mass produce these nuclear power plants at a price
+point where you don't have to be an AI data center to afford one and can you give us a rough
+sense? I know it's it's probably an unfair question but you know is that two years out 10 years
+out 20 years out when do we get to the point where factory mass production brings the cost of nuclear
+down to the point where it starts to compete with the cost of fossil fuels? So I think the
+interesting thing is right now if you look at the hyperscalers, build us a data centers. The
+price point they're seeing for net new natural gas production is in the 10 to 15 cents per kilowatt
+hour range. We're seeing as the current pipeline gets tapped out, new fracking, new pipeline expansion
+has to be built out and that also adds cost and delay. So the interesting thing is even at the speed
+that we're talking about right now and the scale for power and data centers today, we can come in
+at a price point right around that same range initially. So by by many measures coming in right off
+the bat being competitive with the ideal oil and gas solutions for this end customer. But as you
+know in order to displace much more of oil and gas it'll have to get cheaper and we believe
+within any equals 20 to 40 or so. So in other words after the first 20 to 40 reactors which
+would be around 5, 5 to 10 pods getting well below 10 cents is fully within range. So it doesn't
+have to be in a thousands to see a very good price point. But in order to eventually get to
+three cents which is a very aggressive number. It's our essentially our company mission that is
+more of the multi decade effort. But I'd say probably in the early 20 30s to mid 20 30s
+getting below 10 cents is very achievable. Well Matt I'm really excited to be investing in what you're
+doing and I just want to say that I hope that other companies will come to the table and share
+your vision and my vision of mass producing nuclear energy in factory so that all you have to do
+is set it up and hook it up on site is opposed to custom building anything on site. And I think it's
+really going to be important that the Western nuclear industry embrace this idea because frankly
+the people's Republic of China gets it and they're working hard on this too and if we want to be
+competitive in the West more companies need to follow the lead that Matt's company is taking. So
+that's my soap box for this episode. I want to move on now and encourage everyone to stay tuned for
+our post-game segment after the feature interview. Ironically we happen to go a little bit off
+of our usual macro theme for this nuclear-focused episode in a week where the world went to
+hell in a ham basket and we've got lots to talk about around Iran, the evolving geopolitical
+situation and so forth. And that's coming up when Patrick Serizna joins me as macro voices continues
+right here at macrovoices.com now back to your hosts Eric Townsend and Patrick Serizna
+Eric was great to have Matt on the show. Now listeners you're going to find the download link
+for the post-game trade of the week in your research round up email. If you don't have a research round
+up email that means you have not yet registered at macrovoices.com just go to our homepage
+macrovoices.com and click on the red button over Matt's picture saying looking for the downloads.
+Patrick with volatility elevated and the market environment feeling increasingly uncertain
+with all the conflict in Iran, it seems like a prudent time to consider protection. In previous
+episodes you've structured some very effective hedge trades. So how would you approach hedging
+in this market backdrop? Eric listeners will remember that the last time we featured the S&P 500
+caller back on episode 5 away with Lachman Achuthin. It worked exactly as intended. The short
+call that finance the hedge was never tested and the structure has now expired. The reason we're
+revisiting the caller today is that the market conditions have shifted. Technicals are deteriorating,
+leadership is lacking and we have geopolitical shocks driving oil higher alongside credit stresses
+emergent in the system like we've seen around blue owl. In this environment,
+upside potential looks limited and it's a critical time to consider an overlay that helps hedge
+and dampen downside volatility. So here's the structure with the S&P 500 at 6880,
+we're looking at the April 16th, 2026 expiration, 43 days out. We're buying the 6535 put strike
+about 5% below spot for 67 dollars and we are selling the 7100 strike call, roughly 3% higher
+above spot near the recent highs for about 51 dollars. That gives us a net debit of $16.
+This sets the floor about 5% below current levels while capping upside roughly 3% higher.
+But the real point of the trade is as a volatility dampener. It's structurally lowers
+portfolio drawdown risks and gives you the psychological staying power to hold through noisy
+tape instead of getting shaken out at the wrong time. In light of the market risks,
+upside is likely limited. This overlay strikes a smart balance, paying a small debit to hedge
+downside volatility while giving up only a modest portion of the potential upside.
+That explanation worked for the pros and for our retail listeners, Patrick's Monday webinar
+at Big Picture Trading will break down this week's trade of the week in detail as always.
+And because of the market turmoil caused by the Iran conflict, I've asked Patrick to consider
+offering our macro voices listeners another free webinar focused specifically on options
+strategies for protecting portfolios, turbulent times. Stay tuned and hopefully Patrick
+will announce something along those lines in next week's podcast. All right, Eric, we got to dive
+into the equities. What are you thinking, Eric? Patrick, the usual playbook when a war breaks out
+is first you get a panic in the markets. Oh my god, sell everything. There's a war on for God's
+sake. That usually lasts a week or so. Then there's a realization as Commerhead's prevail,
+wait a minute, wars are always inflationary and they always lead to increased government spending.
+And there's a need to replace all of the spent munitions and rebuild all the stuff that gets
+blown up. Hey, wait a minute, wars are usually good for the stock market despite the fact
+that they're always bad for humanity. Then once that realization hits everyone's collective
+consciousness, a rally begins that often takes the market back above the pre-war highs.
+Now, the reasons that this time might be different is that was the playbook for what happens
+when a war breaks out when the market was not already top heavy and looking like it wanted to roll
+over with a looming private credit collapse and numerous other signs that a top could already
+be in. So if this turns out to be the start of a really big correction or bear market,
+I don't think it will have been because of the Iran conflict. Rather, the Iran conflict
+will have been the proximal trigger that unleashed something that was already set to happen anyway.
+Meanwhile, the possibility exists of a wartime rally that actually has the potential to
+extend what was probably an overstretched bull market to do all-time highs. So I can see this going
+either way. I don't pretend to be smart enough to know which way we go from here. But I am glad
+that I put on an SNP hedge the last time Patrick recommended a few episodes ago
+in which we revisited in this week's trade of the week.
+All right, Eric. I just want to keep this technically simple. For the last month, we have spent
+the majority of the time below the 50-day moving average. I'm both the SNP 500 and the NASDAQ
+and the MAG 7's. The primary trend has been distributive in its nature, but surprisingly,
+the technical levels continue to hold the support lines particularly on the SNP.
+There is obviously the risk of systematic trading kicking in below 6800. But that line has
+held a very, very well up until now. Now we have heightened volatility. We have a top in the
+Cosby. There's all sorts of stress gauges occurring. Even the breath of the market is deteriorating.
+The market is structurally vulnerable for a breakdown. But what is the counter to this?
+The counter to this is that everyone is starting to get pretty bearish and very rarely do markets
+crash whenever everyone is expecting it. That's what the bulls have to hang on at this point.
+This is that a short side has just gotten too crowded and some sort of counter trend rally can
+get this market out of the danger zone. Nonetheless, the way I'm keeping it super simple
+if this market trips up below 6800 on the downside of the SNP. It really can start a feedback loop
+of selling, hitting the bid on a lot of systematic selling that can overwhelm the flows and drive
+a much, much deeper correction. But if the bulls can keep it together and squeeze, there's
+so many people starting to move to the sideline that that in itself could actually drive the counter
+bull move. So I'm looking at a very neutrally here. The 6800 will accelerate things to the downside
+and if the bulls can somehow manage to get this back above the 50-day moving average,
+neutralize this current cell cycle. The bulls could actually hold things together for another
+month or so past the March expiration. All right, Eric, let's move on to that U.S. dollar.
+Patrick, there can be no doubt that the surge above 99.5 on the Dixie was driven by the
+Iran conflict. It's important to understand the mechanics of how this works. A lot of people
+might say, oh, but wait a minute, you know, the dollar is really changing its role in the global
+currency system and maybe it's not the most intelligent safety trade after all. Look, that doesn't
+matter. In a situation like this, a lot of institutional finance is driven by written mandates
+that were written decades ago. They have to go to U.S. dollar treasuries as their safety trade,
+regardless of what the manager thinks about whether that's a good idea or a bad idea.
+So it comes as no surprise whatsoever that those mechanics have driven this or any other
+war conflict to lead to an upward surge in the dollar index. That in turn ignites a short squeeze,
+which I think is probably already underway because there was a lot of structural short interest
+in the dollar market. That in turn might trigger trend following algos to start buying the dollar
+in size. So one thing leads to another leads to another. This might have much farther to go to the
+upside, especially if those trend followers get into the game. But going back to the fundamentals,
+it's important to consider the evolving attitudes globally towards U.S. foreign policy.
+So is the Iran conflict really dollar bullish on a fundamental basis or did it just trigger a whole
+bunch of counter fundamental mechanical events that are going to lead to a squeeze and a trend
+following move and eventually a blow off that reverts into a downside correction and then maybe a
+new low to lower lows, resuming the primary downtrend, which has been prevailing in the dollar
+for several months. Well, the answer to that rhetorical question probably depends on your politics
+or your geopolitics. So as investors, my advice to you is don't let your own feelings about whether
+the U.S. is doing the right thing or the wrong thing here. Guide your trading instinct on the
+U.S. dollar. The question to ask after the initial impulses over is not how you feel about
+U.S. policy, but how do the central banks that are holding U.S. treasuries is their primary
+reserve asset feel about current U.S. foreign policy? And are they more likely to continue to
+divest a way from dollar assets or are they going to redouble their interest in U.S. treasuries
+because they see growing tension in the world? Obviously, that depends on the perspective of the
+policy makers, but I do think it's a different world than it was several years ago.
+Well, look, we were talking about how critical that 98 level was on the dollar and we saw a substantial
+breakdown in the euro that drove that dollar higher. The yen remains weak, the pound remains weak.
+So structurally the dollar strengthening here seems to have room to come to the top of the trade
+range near the 100 hand along the upside. There are some divergent currencies like the Canadian
+dollar, which actually looks like it's bucking the trend on the upside. Maybe it's the waiting
+of into resources that potentially is a tailwind there. But overall, the dollar is neutralized
+a cell cycle. It doesn't make me immediately bullish, but it certainly takes the imminent bear
+breakdown of the dollar completely off the table. And a minimum we're back into like a trade range,
+kind of currency that has resistance above, but is not in a primary downtrend.
+Art Eric, we got to talk about this oil move.
+Well, obviously Iran is the driver of the big spike upward in oil prices. And as of late Wednesday,
+we had moved above 78 on WTI. I don't have a Brent print in front of me. Although Brent is
+probably the more relevant geopolitical yard strike to follow here, we're moving to new higher
+highs in the course of the conflict suggesting, you know, this ain't over yet. And I definitely
+don't think that it's over. Of course, the market will eventually peak and come back down
+is this whole conflict dies down. But I'm not convinced that it's going to die down anytime soon.
+President Trump, of course, told us it should be over in maybe three weeks or so.
+Where did I hear that before? Oh, I know. It was President Bush in 2003, who said it would be
+over in just a matter of weeks. That turned into 20 years. Now, I don't think there's any reason
+to necessarily conclude this one's going to be 20 years. But I don't think it's going to be over
+in three weeks. And I think it's really just getting started. Time spreads are outperforming the
+flat price here. I'm already taking some profits, probably prematurely. Not yet on my Z6 Z7
+spread, which I've talked about here on macro voices. I also had another trunch of J6 U6 just
+to the summer trunch that was based on my pre-war expectation of an expansion of backwardation
+through the summer months. I already went well beyond my expected price targets for that trade.
+So I went ahead and took profits on that one. I'm holding on to my Z6 Z7 longs because I think
+it would be a few months before they really start to peek out. Well, Eric, we clearly got the
+war risk premium into the price of oil. But what has a little bit surprising is that we only
+managed to surge to the same levels where we were in May when the nuclear sites were hit.
+But back then, the trader her moves was nowhere near being closed down. And now we have that
+situation. I would a little bit surprised that the oil prices actually didn't surge even higher.
+On the short term, this is now going to be a headline driven number. It's very hard to
+technically observe that some sort of a technical levels got to be hit at this stage.
+At this moment, my speculation is that oil will structurally stay in bold trend
+until there's clarity that the straight will be reopened. And then maybe that will lead to that
+profit taking cycle. But it's very hard to make any technical calls beyond that. All right,
+let's touch on gold. Patrick, the recent strength in gold is obviously errone related.
+But something happened on Monday night between about Monday, midnight, eastern time and Tuesday,
+10 a.m. that was utterly bizarre. And I think is very worth paying attention to.
+What was happening is bombs were dropping. Oil was going straight up in reaction to escalating
+geopolitics and gold went straight down at the exact same time that the bombs were falling.
+The gold down on geopolitical escalation was surprising. So I investigated with both
+Google and chat GPT searches. What I learned is that the consensus view on this is actually
+pretty darn clear. It's because the dollar index is up significantly. Gold is priced in dollars
+and that's the reason for gold going down. Now as I read that, the first thought to come to
+my mind is gosh, that's exactly what I would have said. If I were some sell-side
+ambassador who has absolutely no clue what's really going on, but needed to make something
+up that sounded smart. First of all, oil is priced in dollars too, and that didn't stop oil
+from going up in reaction to rapidly increasing geopolitical escalation at the exact same time.
+This was happening. The argument for the last time the Dixie was at this level, gold was at such
+in such a level is entirely sensible, and it would make sense in terms of where the dust would
+ultimately settle. But gold dropping suddenly down $400 in less than 12 hours, as the bombs were
+dropping, as oil was pushing to new cycle highs just doesn't add up. The only explanation that I
+can come up with, and this is raw speculation. At this point, I can't figure it out. I'm
+grasping for straws here. But the only explanation I could think of is to why that would be happening
+is that someone who has a lot of size to sell needed to sell into strength. So in other words,
+they were using fundamental events that would normally be expected to be very positive for gold,
+and they were selling into that strength. Now normally, as a trader, if you're trying to do that,
+you set a bunch of limit orders and you allow the market to come to use so you're supplying
+rather than consuming liquidity. Whoever was doing this, if that hypothesis of mine is correct,
+was willing to move the needle not just a little bit, but $400 to the downside in less than 12 hours.
+So they must have had a whole lot of size to move. I'm asking myself, okay, which central
+bank would have a motive here to reverse their gold buying plans into gold selling plans instead
+as a reaction to these geopolitical developments. I can't really think of why that would make sense.
+But the fact that gold was down 400 bucks in less than 12 hours, as bombs were falling as oil was
+rocketing up to new highs just doesn't add up in my mind. It makes me wonder what's going to
+happen to the price of gold when those bombs are not falling. An oil is not spiking to new highs,
+but rather is starting to mean revert back to the downside. So yes, the explanation of
+well, it's because of the Dixie being at a level, last time it was at that level, gold was below
+5000. It makes sense in terms of where it might eventually shake out, but it doesn't explain
+that price action that we saw Monday night into Tuesday morning. So I think this is an important
+open question. If anybody knows the answer that I'm missing by all means, let us know on Twitter.
+Well, Eric, I mean, obviously there are geopolitics and play on this, but I'm in a position at
+this stage to stick with a technical landscape in gold, which is essentially that after major
+blowoffs in the past, gold has spent at least two to four months in some sort of absorption
+consolidation, where prices consolidate before they go bullish again. I overall think that the
+bull trend is very likely to continue in gold, but curbing my enthusiasm that it all happens here
+in the first quarter of the year. At this stage, these kind of short-term tests on the upside could
+lead to retesting a 50-day moving averages, and I'm going to reserve kind of the idea that we're
+going to 6,000 plus for later in the year. Well, finally, Eric, any thoughts here on Uranium?
+Well, the URA ETF retested its 50 and 100-day moving averages as support on a broad market
+dip, of course, as a result of the Iran news. It recovered nicely on Wednesday, but we're not
+out of the woods yet, and there's still an open question as to what happens next in terms of
+the broader market and the Iran conflict. As of recording time before the market opened in London
+on Thursday morning, we're still looking at a down candle on SNP futures just barely below that
+support line at 6865 is where the support line was. We're about 15 points below that as I'm recording.
+Are we headed back down to lower lows or is the bottom already in? I really don't know what's coming
+next for the broad market, but I suspect that if we do get more broad market weakness,
+we'll probably see a deeper dip in Uranium prices. If that happens, I say it's a buy the dip
+opportunity at what level will it depends on how far we go deeper on the broad market correction,
+and that's anybody's guess. Well, Uranium to me has been surprisingly quiet, but it certainly
+hasn't in my opinion done anything bearish. This fits a lot of the criteria what would be a
+typical retracing correction, and I don't see any reason to deviate from that thesis.
+All right, Eric, what are your thoughts here on copper? Patrick, I'm starting to pay more attention
+to copper here because we've been really nicely supported by the 55 day moving average, and all
+the sudden it looks like maybe it's starting to be given up. We're only a little bit below it as I'm
+recording, but we dip substantially below it a couple of days ago, and it looks like maybe we're
+headed down again. Of course, copper is nicknamed as Dr. Copper because it tends to be a predictor
+of where the broad economy is headed. If we're about to be thrown into some serious correction,
+as a result of the Iran conflict, or I shouldn't say as a result if the Iran conflict has been
+the catalyst to bring us into an economic correction that was probably in the works anyway.
+Dr. Copper should be a good barometer to indicate that's coming, so I'm watching it carefully.
+Well, Eric, interestingly to me, copper seems to have correlation directly with the precious metals.
+We sort of seen a blow off top in the same window countertrend rod in the same point,
+and a little bit of profit taking here in the last few days. A disstage, I'll be watching very closely
+to see whether that correlation between them continues. Patrick, before we wrap up this
+week's episode, let's hit that 10-year treasury note chart. We clearly had a bond rally underway,
+as yields were coming down to some critical levels, but this is decisively bounced back
+in the last three, four days. They'll be very interesting to see whether or not these yields are
+simply retracing their previous decline, or whether in fact, that was a major support line that
+was tested, and now we're let's say going back to the top end of the trade range. At this stage,
+this is a key level right along this 50-day moving average, and it'll be very interesting to see
+whether this just sits here in this retracement zone or not. Folks, if you enjoy Patrick's
+chart decks, you can get them every single day of the week with a free trial of big picture trading.
+The details are on the last pages of the slide deck, or just go to bigpicturetrading.com.
+Patrick, tell them what they can expect to find in this week's research roundup.
+And this week's research roundup, you're going to find the transcript for today's interview
+and the trader of the week chart book we just discussed here in the post game,
+including a number of links to articles that we found interesting. You're going to find this link
+and so much more in this week's research roundup. So that does it for this week's episode.
+We appreciate all the feedback and support we get from our listeners, and we are always looking
+for suggestions on how we can make the program even better. Now, for those of our listeners that
+write or blog about the markets and we'd like to share that content with our listeners, send us an email
+at research roundup at macrovoices.com, and we will consider it for our weekly distributions.
+If you have not already, follow our main account on X at macrovoices,
+for all the most recent updates and releases. You can also follow Eric on X at Eric S. Townsend.
+That's Eric's belt with a K. You can also follow me at Patrick Suresna on behalf of Eric Townsend
+of Myself. Thank you for listening, and we'll see you all next week.
+That concludes this edition of macrovoices. Be sure to tune in each week to hear
+feature interviews with the brightest minds in finance and macroeconomics.
+Macrovoices is made possible by sponsorship from bigpicturetrading.com.
+The internet's premier source of online education for traders. Please visit bigpicturetrading.com
+for more information. Please register your free account at macrovoices.com.
+Once registered, you'll receive our free weekly research roundup email,
+containing links to supporting documents from our featured guests,
+and the very best free financial content our volunteer research team could find on the internet each week.
+You'll also gain access to our free listener discussion forums and research library.
+And the more registered users we have, the more will be able to recruit high-profile
+feature interview guests for future programs. So please register your free account today
+at macrovoices.com if you haven't already. You can subscribe to macrovoices on iTunes
+to have macrovoices automatically delivered to your mobile device each week free of charge.
+You can email questions for the program to mailbag at macrovoices.com
+and we'll answer your questions on the air from time to time in our mailbag segment.
+Macrovoices is presented for informational and entertainment purposes only.
+The information presented on macrovoices should not be construed as investment advice.
+Always consult a licensed investment professional before making investment decisions.
+The views and opinions expressed on macrovoices are those of the participants
+and do not necessarily reflect those of the show's host or sponsors.
+Macrovoices, its producers, sponsors, and hosts Eric Townsend and Patrick Suresna
+shall not be liable for losses resulting from investment decisions
+based on information or viewpoints presented on macrovoices.
+Macrovoices is made possible by sponsorship from bigpicturetrading.com
+and by funding from fourth turning capital management LLC.
+For more information visit macrovoices.com

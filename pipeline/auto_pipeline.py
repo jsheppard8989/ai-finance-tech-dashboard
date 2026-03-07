@@ -33,6 +33,24 @@ STATE_DIR = PIPELINE_DIR / "state"
 LOCK_FILE = STATE_DIR / "auto_pipeline.lock"
 
 
+def _load_dotenv(env_path: Path) -> None:
+    """Load .env into os.environ (simple key=value). Used for GITHUB_PUSH_TOKEN."""
+    if not env_path.exists():
+        return
+    try:
+        with open(env_path, "r") as f:
+            for line in f:
+                line = line.strip()
+                if not line or line.startswith("#"):
+                    continue
+                if "=" in line:
+                    k, v = line.split("=", 1)
+                    k, v = k.strip(), v.strip()
+                    if k and v and k not in os.environ:
+                        os.environ[k] = v
+    except Exception:
+        pass
+
 def acquire_lock(max_age_hours: int = 6) -> bool:
     """
     Prevent concurrent runs by using a simple lock file.
@@ -664,27 +682,78 @@ if (typeof module !== 'undefined' && module.exports) {{
 
 
 def git_push(commit_msg: str) -> bool:
-    """Commit and push changes to GitHub."""
+    """Commit and push changes to GitHub. On failure, log stderr and send notification.
+    If GITHUB_PUSH_TOKEN is set in workspace .env, uses it for push (so cron can push without keychain).
+    """
     print("\n" + "="*60)
     print("STEP: Push to GitHub")
     print("="*60)
+    _load_dotenv(WORKSPACE / ".env")
+    token = os.environ.get("GITHUB_PUSH_TOKEN", "").strip()
+    original_url = None
+    if token:
+        try:
+            r = subprocess.run(
+                ["git", "config", "--get", "remote.origin.url"],
+                capture_output=True, text=True, cwd=WORKSPACE, timeout=5
+            )
+            if r.returncode == 0 and r.stdout:
+                url = r.stdout.strip()
+                # Build https://USER:PAT@github.com/owner/repo.git
+                if url.startswith("https://github.com/"):
+                    path = url.replace("https://github.com", "", 1)
+                    user = os.environ.get("GITHUB_USERNAME", "").strip() or path.strip("/").split("/")[0]
+                    auth_url = f"https://{user}:{token}@github.com{path}"
+                    subprocess.run(
+                        ["git", "config", "remote.origin.url", auth_url],
+                        check=True, cwd=WORKSPACE, capture_output=True
+                    )
+                    original_url = url
+        except Exception:
+            pass
     try:
         result = subprocess.run(["git", "status", "--porcelain"],
                                 capture_output=True, text=True, cwd=WORKSPACE)
-        if not result.stdout.strip():
-            print("✓ No changes to push")
-            return True
+        if result.stdout.strip():
+            subprocess.run(["git", "add", "-A"], check=True, cwd=WORKSPACE, capture_output=True)
+            subprocess.run(["git", "commit", "-m", commit_msg], check=True,
+                           cwd=WORKSPACE, capture_output=True)
 
-        subprocess.run(["git", "add", "-A"], check=True, cwd=WORKSPACE, capture_output=True)
-        subprocess.run(["git", "commit", "-m", commit_msg], check=True,
-                       cwd=WORKSPACE, capture_output=True)
-        subprocess.run(["git", "push", "origin", "main"], check=True,
-                       cwd=WORKSPACE, capture_output=True)
-        print(f"✓ Pushed to GitHub: {commit_msg}")
+        push_result = subprocess.run(
+            ["git", "push", "origin", "main"],
+            capture_output=True, text=True, cwd=WORKSPACE, timeout=60
+        )
+        if push_result.returncode != 0:
+            err = (push_result.stderr or push_result.stdout or str(push_result)).strip()
+            print(f"✗ Git push failed: {err}")
+            send_notification(
+                "Pipeline: Git push failed",
+                f"Site not updated on GitHub. Run 'git push origin main' from the workspace.\n\n{err[:500]}",
+                priority=1
+            )
+            return False
+        if result.stdout.strip():
+            print(f"✓ Pushed to GitHub: {commit_msg}")
+        else:
+            print("✓ Already up to date (no new commits to push)")
         return True
     except subprocess.CalledProcessError as e:
-        print(f"✗ Git push failed: {e}")
+        print(f"✗ Git commit/add failed: {e}")
+        send_notification("Pipeline: Git commit failed", str(e), priority=1)
         return False
+    except subprocess.TimeoutExpired:
+        print("✗ Git push timed out (60s)")
+        send_notification("Pipeline: Git push timed out", "Run 'git push origin main' from the workspace.", priority=1)
+        return False
+    finally:
+        if original_url:
+            try:
+                subprocess.run(
+                    ["git", "config", "remote.origin.url", original_url],
+                    check=True, cwd=WORKSPACE, capture_output=True
+                )
+            except Exception:
+                pass
 
 
 def build_summary(results: dict) -> str:

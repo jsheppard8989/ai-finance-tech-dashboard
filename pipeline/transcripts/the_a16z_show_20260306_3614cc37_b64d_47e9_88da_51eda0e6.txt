@@ -1,0 +1,1219 @@
+Give people a chat box that can do unlimited power and they're like,
+tell me a dad joke, can the technology build their underutilized capabilities are so big?
+It's almost tried now to say the models of fire ahead of the value they're delivering.
+The whole history of software from 1960 and told 2022 was you would take a
+filing cabinet and you turn it into a database.
+The cool thing about everything that's happening in AI land is that the
+filing cabinet can do work.
+The idea I would vibe code my own work day and then run it is terrifying.
+However, there is a great game we are seeing internally in
+extensibility of software using things like fire code.
+That's been talking about the SaaS apocalypse.
+Some people call it the catastrophe.
+Well, why is there too much fear about this?
+As I've said, not every SaaS company is going to
+thrive through the next decade.
+We're not headed to defend all of software, obviously.
+Percy pricing built software fortunes for two decades.
+It felt fair, more users, more money.
+But beneath the logic, we're very different kinds of businesses.
+Some seats were tied to work that AI can now do instead.
+Others were just a pricing proxy for head count.
+And those companies may actually benefit from AI.
+The public markets so far haven't reliably told them a part.
+When the SaaS sell-off hit, valuations dropped across the board,
+regardless of whether a company looked more like Zen disc or a work day.
+That's the gap worth understanding.
+Companies that survive the transition face a harder job than adding an AI
+feature.
+They have to redesign how humans and software work together,
+where loops belong, went to interrupt,
+and how much trust an agent has to earn before it acts.
+Alex Rampell and I speak with Mike Cannon Brooks,
+co-founder and CEO of Ed Lassian.
+The whole history of software from 1960 and told 2022
+was you would take a filing cabinet and you turn it into a database.
+So the first example of this is the company called Saber Systems,
+which was started in 1960 by IBM and American Airlines.
+Because it took the reservation system,
+which literally was stored in vaults of filing cabinets,
+manned or womanned by lots of lots of secretaries in like the 1950s
+in 1940s, zero-on, it's been around for a long time.
+And then it put them in a early database,
+back when 10 megabit hard drive probably cost $100 million.
+And then that's what happened with electronic health records.
+And the first one was called Mops.
+It was built by Mass General Hospital,
+where the first seabull system is predating Salesforce,
+or actually the first CRM was called Access Systems in 1987.
+So basically every single filing cabinet became a database.
+And there were benefits to that,
+but it didn't actually make the world that much more efficient.
+Because whereas before you would have a human,
+go fetch you the HR file for Eric.
+Oh, go to the HR file and get me that file.
+Now it's in work day.
+But now you have to have a CSO to make sure that your work day doesn't get hacked.
+You need to have IT people to provision accounts in your SSO to work day.
+So did the world get that much more efficient?
+It did.
+If you have multiple offices, now people can collaborate.
+You could do complex joins in a database,
+much, much harder to do that on pieces of paper.
+But that was kind of software from 1962,
+because the filing cabinet couldn't think for itself.
+And now this is the cool thing about everything that's happening.
+In AI land is that the filing cabinet can do work.
+Like QuickBooks can actually accomplish a task by itself.
+Versus just relying on a human to retrieve the file from QuickBooks in the same way that the human in 1500
+would retrieve a file from yield filing cabinet from the yield accounting department.
+So it's interesting.
+It's actually great segue into, of course,
+with everyone talking about the SaaS apocalypse.
+Some people call it the Sepatastrophe.
+Obviously, it was happening in the public markets.
+And a lot of people have different perspectives of how significant it is,
+what it means.
+I want you from both of you, how you interpret what's been going on.
+And more importantly, what it means,
+how we should make sense of it.
+Well, why is there too much fear about this or how should we make sense of this?
+Look, I think the world is trying to work out how to write
+or value software businesses in a highly disruptive stage, right?
+And everyone has hot takes about what the future is going to look like,
+right?
+You get a version of the future that's either really good or really bad for all
+of software, certain companies, certain categories in software.
+It's a really interesting thing.
+There's no doubt in my mind that the risk level has gone up.
+So if you think about it from an investor mindset,
+you're like, this used to be a very stable category.
+Now it's a more risky category,
+hence I'm going to step away and watch.
+And as I always say, investors are trying to work out,
+not necessarily the DCF cash flow model of a company for all
+profits of history.
+They're really trying to work out,
+what are other investors going to do?
+And they're actually betting on what other people think that other people
+think they're going to do.
+And right now that it sort of logically makes sense,
+you have a interesting world where everyone has a version of what
+the future is likely to look like.
+And it seems likely to them.
+It's pretty disconnected from the reality on the ground,
+but the answer is always,
+what if I can do that in two years or three years?
+What does that mean?
+And I think it comes from a very static viewpoint,
+like that people won't adapt the world,
+it's like one thing is going to change
+and everything else is going to remain static.
+So you have these interesting world at the moment
+where businesses like ours are doing very well.
+Right?
+We've had three great quarters in a row,
+and everybody says so,
+and then you're like, wait,
+you know, that used to relate to some value.
+And it's our job to prove that that's not the case for our business,
+right?
+We're not here to defend all of software, obviously.
+But for our business,
+we feel very good about the opportunities we have,
+the data we keep showing,
+the results we keep showing,
+and now I always say this as well.
+It doesn't mean that we don't have to adapt.
+It's this weird world that like,
+we are changing how we work,
+radically and quickly,
+as we always have,
+as we've been doing for a number of years,
+some part of that,
+I think, assumes that we won't be able to change, right?
+There are strategic vectors for sure,
+and look, the reality is,
+as I've said,
+not every SaaS company is going to thrive for the next decade.
+Right?
+Just like a bunch didn't make it to the cloud,
+a bunch didn't make it from,
+I don't know, windows to the internet era,
+whichever era you want to say,
+no one is going to say,
+I think, that 100 out of 100 SaaS companies
+are going to make it through,
+and be thriving and growing on the other side.
+Also, we have this version,
+it's software kind of dies.
+A lot of it just ends up as a cash revenue stream.
+I can speak for us,
+this is the best thing that's happened to our business, right?
+We're in a knowledge world.
+We have tools to play with that knowledge,
+to act on that knowledge,
+to do all sorts of other things,
+to solve the jobs our customers are always hired for.
+This logicly is very good,
+but it's up to us to execute that through that transition, right?
+Which I think we're doing really well,
+but again, we have to prove that to people over time,
+that the patient's part is hard for markets.
+Alex, how do you react to it?
+What's been happening?
+Well, I hope I'm right in the long run,
+which is all this stuff is crazy.
+I think I tweeted about this a few weeks ago,
+where my kind of cursory glance is that
+there are three different types of SaaS companies,
+and the public markets couldn't tell the difference
+between the three,
+and one is where seats are tied to outcomes.
+So, the seats are being used by people
+who use kind of going back to the filing cabinet metaphor, right?
+If I'm Zendesk, I'm using Zendesk,
+and they came up with a very clever pricing model,
+which by the way,
+Middeth can take a step back before I mention your question,
+which is this great book by Dan Ariel,
+called Preditably A Rational.
+And I used to give it to all my product managers of my company,
+study this to figure out how we charge people for stuff.
+These are turns out, like,
+and the example it gives is,
+imagine you're locked out of your apartment,
+it's midnight, you hire a locksmith,
+comes one minute later,
+lets you in in 30 seconds,
+says it's 500 bucks to like 500 bucks,
+but the F, like you just did like 90 seconds of work,
+you leave a one-star Yelp review,
+no tip, protest the charge in your credit card.
+Now imagine parallel universe,
+locksmith comes,
+stands nine hours, trying to let you in.
+Goes back to his office to get more tools,
+finally, by like, you know,
+930 in the morning,
+finally lets you into your apartment,
+you're so grateful that he spent nine and a half hours
+helping you get into your apartment.
+But you give him a $200 tip,
+leave him a five star rating on Yelp,
+this is an example he gives in the book,
+and it basically means humans are kind of
+capable and willing to pay for incompetence,
+like it's like a lot of pricing is about fairness,
+like it feels fair that I give that time more money,
+even though he's completely incompetent,
+then his counterpart,
+who's super competent,
+where I'm so pissed that he overcharge me,
+and it doesn't make any sense,
+but like it feels fair.
+And if you think about how we got to SaaS,
+like per seat per month,
+like when you're giving away,
+in many cases,
+it's like the additional cost of provisioning a seat
+digitally is like close to zero,
+not for everything,
+but for some things,
+like it just feels fair,
+it's like,
+five seats,
+you pay more money than if you have one seat,
+even though it's kind of the same thing going on
+in the background.
+So the three types of SaaS companies that I think of,
+great, great oversimplification era,
+but category one is you have seats,
+the seats are being used to produce some element of work,
+but now,
+uh-oh, like you don't need the seats anymore
+to produce the element of work.
+So like Xendez would be like patient one there,
+where it's like how many seats
+does Xendez customer need today,
+if they're using zero,
+a deck of yonder,
+you know roll the run,
+it's like potentially zero.
+So Xendez,
+I mean,
+talking about the present value of future cash flows,
+it's like,
+they're in peril,
+because the per seat pricing,
+like if Xendez said,
+we're just going to charge you per seat per month for the current thing,
+never make a change to our code or pricing,
+that revenue stream is 100% going to zero.
+On the other hand,
+it could triple or quadruple,
+because they might just move to outcome-based pricing
+and ditch.
+I mean, it still has to be subject to the laws of fairness
+and predictable rationality that we talked about,
+but, you know,
+something like Xendez could go up,
+it could go down,
+but like the default path
+unless it changes going to zero.
+On the complete other side of that
+is you might have per seat pricing
+because it feels fair,
+but the seats are not tied to an outcome.
+So like work day has this great pricing model,
+we're like,
+oh, you're a GE,
+you have 340,000 employees.
+Yeah, I'm going to charge you per employee per month.
+Why?
+I don't know,
+just feels fair.
+But those employees that work at GE
+are not using work day to produce an outcome.
+So work day,
+I think is fine.
+In fact, if anything,
+and that this kind of goes into like,
+what can you do with AI tools?
+Well, when you hire somebody at GE,
+they need to do a reference check
+and make sure that you worked at the three companies
+that you claimed you worked at.
+An HR person has to go look at the file
+that's in work day and go call those three companies.
+Work day can call those three companies.
+Like an AI tool can do that
+but only through the system of record.
+So it is something like work day
+or like into it,
+it's down 45%
+and the first like,
+it's February 26th or 27 today.
+Down 45%
+nobody's going to get rid of QuickBooks.
+So, you know,
+these are the two tent poles is like,
+you know, per, like,
+seats are charged per month or per whatever
+and it's tied to some kind of work.
+And then seats just happen to be a clever pricing trick
+but it's not tried tied to work.
+And then there are things that are in the middle
+like Adobe.
+Like it's maybe you need more seats,
+maybe you need fewer seats,
+but it's not as stark as
+the Zendes,
+or the work day example.
+And then again,
+set you have this kind of
+undercurrent of
+a lot of vibe code everything,
+which I think is just preposterous
+having been a software developer
+for a very, very long time
+because the person I like to cite
+as my counter example here
+is my,
+my second favorite economist,
+David Ricardo.
+And an NT17 has been around for a long time.
+But it's like,
+this is where the theory of comparative advantage comes from.
+It's like you could also grow your own food,
+but even those are bad examples
+because it's very simple to grow food
+or well-deluminant.
+It's just I have a comparative advantage
+filming podcasts to see you.
+I could do that too,
+but I can earn more doing this
+even though I might be more productive
+than the plumber,
+but I should still do the podcast.
+That's actually less important
+than what I like to call
+like all the edge cases that lie beneath.
+Right?
+So I could theoretically vibe code
+me some work day.
+But what happens in Indiana,
+if the person leaves
+and they're on maternity leave,
+like all these edge cases,
+which is you don't know about them
+unless you've encountered them in the wild.
+So a lot of software
+is just a set of deterministic roles
+that have been learned from,
+like,
+in many cases,
+decades of experience
+and the rules are not exposed.
+The rules are,
+they're kind of embedded,
+and you can't just replicate them.
+You replicate them through experience.
+So I think it's like,
+they're kind of three types of sass
+of my oversimplistic view of the world.
+And then there is this like,
+oh, like,
+it's no,
+like the IP is worthless
+because everybody's going to vibe code
+through their own thing.
+And I think on,
+maybe for certain subcategories,
+if it's a very simple task with no edge cases,
+or maybe you don't need all the edge cases
+that have been built in.
+I think software is going to do great
+because it's the true systems of record
+that have sticky software
+that people rely on that have all of these embedded edge cases,
+and they're going to start adding AI,
+where AI does the work,
+right?
+It's like,
+you know,
+workday will say,
+do you want us to do a background check?
+Into it will say,
+do you want us to go collect on your outstanding accounts
+receivable?
+You don't have to go hire humans to do that.
+You go hire your software to do these tasks.
+That is starting to happen.
+But when that does happen,
+the present value is future cash,
+but like that's going to go up a lot.
+Like the future,
+like the present cash flows are going to go up a lot.
+And I just,
+it's astonishing to me that a lot of public market industries,
+they can't tell the difference between these different buckets,
+and they're not giving any kind,
+like they're very excited about AI,
+but how do you deploy the AI?
+You have to deploy the AI through software
+that's a system of record.
+I think it's a fascinating time for everyone
+getting to first principles of what a business really does.
+So like you have all these views, right?
+I personally hate the system of record thing
+because it sounds like,
+oh, a system of record is just like a database sitting there.
+It's very static.
+I put stuff into it and I pull it out and that's it.
+And that views a business as a set of filing cabinets,
+and very sort of industrial era kind of world, right?
+Now that was very different than the pre-industrial era of a business,
+so totally ahead of value.
+And I get why we have the terms system of record,
+but it feels a little bit like we,
+why we have a floppy disk icon as the saved button,
+right where my kids like,
+what's that?
+And like, that's a disk,
+and they're like, what is that?
+And I'm like, oh shit,
+you've never actually physically seen a disk,
+but you still have this icon,
+you know what?
+The save button does.
+And the reason it's questioning this is,
+to me businesses are a set of processes.
+The not a system of record,
+like these are all processed based systems, right?
+Everything else is just as totally true,
+but there are processes like reference checking or other things.
+And your ability to coordinate a set of processes
+to happen as cheaply and efficiently and quickly as possible
+is actually in a knowledge business,
+not an industrial era business,
+but a knowledge era business,
+you're in Thai business, right?
+I have 10,000 plus people who walk into buildings every day
+and bring their brains and walk out
+and take their brains with them.
+And that's it.
+I don't have any atoms.
+I don't have any bits.
+I don't stamp any steel.
+I don't even have any file and cabinets that I don't think.
+Right?
+And I am all about coordinating a sets of processes,
+really most modern businesses probably are, right?
+When you get to,
+how does that relate to Alex's commentary?
+I think it's totally true.
+We have different types of processes within a business.
+There are what Alex will input constrained
+and output constrained processes.
+The customer service example with Zendesk,
+that's input constrained.
+Your customers ask a certain amount of questions.
+How quickly you process those is about your efficiency,
+costs, speed, quality of running that queue.
+If you do it 10 times as fast,
+you don't get 10 times as many questions, right?
+Like you have so many customers,
+there's a relationship or a ratio.
+For every customer they ask five questions,
+how can I make them ask those questions
+or process questions quicker, right?
+There's actually a lot in a business that is
+an input constrained kind of a process.
+I was used on a legal team as an example, right?
+Their job is not to generate legal work.
+It is to answer it.
+So how many leases do we have, how many NDAs,
+how many contracts?
+It's like a fixed total set.
+And for that work,
+I'm trying to do it as efficiently as possible.
+And you have one entire vector for that set of processes.
+But then I have kind of output constrained work
+if I think about anything creative, marketing,
+I would argue software development technology,
+where I can theoretically do an unlimited amount of tasks.
+Right?
+I'm constrained by my creativity, if you like,
+and how many things I can think of to do,
+how much value I can do with my customers.
+Those are actually where I'll take the efficiency gain
+and probably do more output rather than limit input.
+Within the balance of making my company profitable
+and all these sorts of things.
+The challenges to look at a business
+and try to make this analysis on the outside,
+because all of your input constrained processes
+and output constrained processes actually work together
+to make a business.
+And they all have to kind of liais in all these interesting ways.
+And that's where you see weird pieces of software
+that are just coordinating, quite a lot,
+humans are running processes.
+And what you're saying about NDAs totally true,
+because some of those processes have outside rules.
+We call them laws, governance, compliance,
+that I have to do in NDAs after a certain thing for employees.
+So the processes are both,
+how I want my business to run and how it has to run
+and the business is really just a collection of all these processes
+to put together.
+I'm just saying it's totally different view from the sort of,
+we have a system of record and a system of action or whatever.
+And I'm like, that's not how I think most businesses actually run,
+but it's often how we think about it.
+So I totally agree that's a great framing.
+Like, despite the fact that I love into it,
+it's like turbo tax.
+Well, like the tax code is published.
+You can download all of these rules.
+It's highly deterministic.
+And then your files are in your messy downloads folder.
+And it's like, make those two happen.
+In that case, it's like one of these bizarre situations
+where everything is actually transparent
+in terms of the processes.
+I think it's actually quite rare situation
+where the edge cases are published
+in maybe one place or maybe 50 places.
+You just, there are 50 states in the United States of America.
+Each one has its own tax code.
+There's the federal tax system.
+They have a tax code.
+Go download that stuff and make it work.
+And they're probably still our edge cases and processes that you learn
+versus like the real world normally isn't as neat as that.
+It's just like you learn by doing.
+And a business has value.
+I mean, there are a lot of businesses where theoretically,
+I mean, this is where it's like you say like all the assets
+leave every night because they go down the elevator and they go home.
+Like, that's like more knowledge economy type things.
+But actually these businesses do have value.
+Like, you know, does McKinsey have value outside
+of all of the employees that work there?
+Because that's a knowledge economy business
+where they produce outcomes.
+And it's tied to labor.
+It's not like a product.
+But still like they're probably probably have some top secret handbook
+that they use around how do they hire people,
+how do they fire people, how do they produce outcomes for clients
+and so on and so forth.
+I haven't seen it.
+And that's actually great that I haven't seen it because I can't
+replicate it.
+And it's probably been built over a hundred years.
+And like, you know, what is it that non-digital non-suffer products
+do?
+What is their product?
+Their product is the accumulated knowledge
+from potentially centuries or decades.
+I mean, I love going to Japan and you see like,
+oh, this noodle store has been around since like 1887.
+And it's like, yeah, there's probably something going on there.
+It's like this accumulated set of kind of culture and knowledge
+and know how besides, you know, here's the recipe list
+for making noodles.
+Maybe that is helping us make the noodles as a little bit easier.
+Probably not as many edge cases.
+But I think there are edge cases.
+Like what happens if you're, do you run out of flour?
+What do you do?
+What happened?
+How did the noodles shop survive the great flour shortage of 1623?
+They probably did something.
+And that's like accumulated in this like secret book of know-how.
+As opposed to, I'm just going to replicate something
+where all of the rules are published to the public.
+Or maybe, like, intro it again.
+This is where I think it's so fascinating.
+It forces us to rethink our businesses, right?
+Is intro it filling out the tax code for you?
+Or does intro it know the tax code as well as anyone else can?
+What they're helping is you to take your life data,
+your understanding, your, they're asking you the right questions.
+Intro it's almost more like a McKinsey.
+It can be considered that way.
+It's their process and their special ability is how to ask you the right questions
+to fill out the tax code rather than the filling out of the tax code.
+Yeah, right.
+And all these businesses are having to look at,
+maybe I have 50 processes internally that I think of my secret source in unique.
+Maybe only 20 of them are.
+But now I have to really consider which of those processes are actually unique
+in which it which are not because we haven't had to think about it in that in that
+manner before.
+I think it's also kind of a question of how like there's this Goldilocks zone
+probably of like, is it worth doing yourself versus not?
+Like, if you take this kind of like third, not third rail,
+but kind of this independent variable of should I now cloud code myself?
+Cloud code myself some X.
+Well, if it's like 99% of my cost and like my business is going to fail
+because this evil company is overcharging me for software.
+It might make sense.
+If it's like a dollar a year, it probably doesn't make sense.
+And then not all systems are record are the same.
+So like, you know, I kind of think of a system of record as like the atomic unit of something
+for a business.
+Like it could be calendars or a system of record for time.
+Or, I don't know, ERP is a system of record for inventory.
+Like you have all these different systems of record.
+But like the Zebra is giving somebody is,
+if I have an office in Miami that I don't go too very often.
+And there's a system of record for conference rooms.
+There is a system of record for conference rooms.
+It's like Google Calendar.
+Like, am I willing to change that system of record?
+Yeah, because it's like my Miami office,
+I only got it once a year, like who cares?
+Um, versus like this is something that touches my revenue.
+It's not that expensive.
+Um, am I really going to grow my own food for something where,
+I mean, actually, this is the cool thing about like farming, right?
+Is he kind of take that metaphor?
+It's actually a lot cheaper to go to a restaurant.
+If I just want like one hamburger versus like get myself a cow and feed the cow and wait
+I just, a lot of food is actually cheaper if you consume it in a restaurant
+because it's compared to the energy and economies of scale.
+So there are probably our systems of record where it's like there's some where
+outside of any of the factors that we're talking about.
+They're more susceptible just because they overpriced or they're just not as valuable
+in terms of what it is that they're storing and keeping records for.
+I mean, like card, I keep strapped and cap tables for a lot of companies.
+How often do you access your cap table?
+Not very often, but it's super valuable.
+You can't eff that up, right?
+It's probably rather use carder for that than like in the only,
+they don't charge me how much money, like sure I'll use carder.
+And it's not, it's not like a daily use kind of product.
+So it's not even like that to mention.
+I think the vibe coding thing is so fascinating to me because yes,
+someone in software with the like, oh, people are just going to vibe
+code all these replacements to tools.
+I'm like, the idea I would vibe code my own work day and then run it is terrifying.
+I have some really smart engineers.
+Firstly, I've other stuff for them to do.
+Secondly, I'm like, wait, I feel like that has way more downside than upside for me.
+However, and so that's the sort of replacement theory.
+There is a great game we are seeing internally in
+extensibility of software using things like vibe coding.
+So most of these applications are highly configurable, customizable.
+In our case, all the way through to true extensibility.
+You can write pieces of software, apps that run on top of our platform
+that have all sorts of different areas.
+And lots of customers do.
+But those customers need to put a technology team on doing that job.
+There are ability to, quote unquote, vibe code.
+Extensions, customizations, very tailored applications.
+They're very specific use case of something.
+I want an app for the Miami team to do conference room booking.
+And Miami has some weird HR policies.
+So that app needs to look at work day and it's not.
+It's used by 20 people.
+I probably wouldn't be able to afford to put the IT team internally
+on building that because the bill would have been too big.
+But now maybe I can build that, right?
+But that uses work day's data and rules around the world underneath.
+But it just gives me a very custom interface for out another person
+on the front desk in Miami to do something very specific to what they need.
+That is super powerful, but it's not a replacement for work
+poor work day.
+I feel like a nail is light.
+The butt of a lot of these conceptual examples.
+That's really powerful, right?
+That actually makes work day stickier in the enterprise
+and more valuable because you can build all these applications on top.
+Which is the power of AI and vibe coding and creativity
+to make it more tailored for what I need.
+But we're going to have to be really careful about the sort of layers of
+stability and rules and process versus customization, right?
+And you could argue, I don't know, open core and stuff is an example
+of building very personal apps just for me.
+Most of those people are on software developers.
+They're building apps that work just for them on top of their Gmail or something else, right?
+But it still uses Gmail as the rails.
+They still go to Gmail to read their email and do their email,
+but they build some specific thing for themselves to solve a problem they have
+and probably only they have.
+A couple of them maybe turn into companies,
+most of them are just solving some stuff that they need themselves.
+That's it.
+And that's great, that's really powerful.
+But I'm curious about maybe I'd call it my bucket two of this pricing
+fairness where the backend is not the front end.
+So you think of Salesforce.
+They charge for licenses.
+Like I think we have 600 people at our firm.
+Might have 600 Salesforce licenses.
+I'd never logged into Salesforce.
+But I bet we pay for me.
+But I use the output of it sometimes because it actually is the system of record
+not to overuse that term.
+But stores like all of our relationships.
+But I am like part of a table in a relational database.
+So it's like, you know, I'm user ID number 422 here.
+And then whenever I meet with the company like,
+oh, well, like user ID 422 is matched in this other database.
+But we really just want to pay for a database.
+So like, you know, world where the front end is not the backend.
+I mean, that's the thing.
+It's like, for work day, I kind of think they've come up with a very clever pricing trick.
+Trick trick undersells it.
+I mean, I think it's a it's a powerful pricing paradigm that feels fair.
+It's like the more employees that you have and why is that fair because GE has more profits than a 10% company.
+GE's going to pay more for this thing.
+It's still a drop on the bucket.
+It's totally within the Goldilocks zone of pricing.
+And I don't think anybody is in a vibe because that they're going to add all the CI revenue.
+But most importantly, their pricing feels fair.
+Whereas for these things where it's like the front end is somewhat divorced from the backend.
+That that that that one is I I don't know what's the fair what's the fair format for pricing.
+Like what will happen to software pricing.
+And and obviously like nobody's going to vibe through the wrong thing.
+And there's not going to be any competition.
+Then pricing will stay unchanged.
+But you can imagine a world where people are building things on top to read from the database.
+Right.
+Because any system of record has a database represented.
+That's like the the abstraction layer both beneath everything.
+We all the pricing will there be any pricing pressure on any of these categories.
+And for me, I think it's like it's the front end is not the backend.
+There's more susceptibility than if they're like very, very tightly taught like intertwined.
+Like QuickBooks is used by small businesses.
+They don't have seats.
+It's like the owner of the business just lies in the QuickBooks.
+So the front end kind of is the backend versus salesforce.
+We can imagine like nobody gets rid of salesforce.
+But maybe they have fewer seats because they need fewer front ends.
+They're really still need the backend desperately.
+They're not going to go, you know, they're not going to eliminate or do anything with the backend.
+It depends on always like I think you're fairness and optics in pricing are really, really important.
+People understanding what they pay for and feel like what they pay for is.
+Relates to their usage in some Broadway, right?
+I would say that a 10,000 person company paying for work day.
+The 20,000 person company public place twice as much plus some discount because they're buying more because they're generally have twice as much complexity of stuff.
+And they see that as fair.
+That's what you mean by like it seems reasonable that I would pay by employee for my HR system.
+I think the question with a lot of these things is, you know, what processes when we talk about front end and backend doesn't example, it's not a database.
+It's a database plus a set of processes we used to call a business logic when I was growing up.
+Those business logics are not irrelevant.
+So in the world of what why does a business have them because it runs as a collection of processes and they want standardization of process to some level.
+Right? So the two teams work the same way.
+So someone can manage them, understand them, track output.
+You know, I don't know if I have a bunch of car factories.
+I want to track the total amount of cars in and out it consistently across them.
+The business logic where it gets backed in is somewhat where the value is.
+Because you may need and again, maybe a 16Z is not a great example of a Salesforce customer, right?
+That that actually has a huge amount of sales going on in terms of traditionally.
+The processes you bank into that for your sales teams are totally valuable to you and you would think that's a fair way to pay.
+The question is your sales adjacent teams, the sort of collaborator rather than the core user.
+How much do they need those processes and how much do they not?
+So I don't know. I assume Salesforce tells cloud.
+I guess we're talking about sales cloud has an MCP server.
+That MCP server doesn't go to the database.
+It probably involves your processes and the rules on the way through.
+So the question is someone sells adjacent?
+I don't know. They're in marketing or they're in customer success or something like this.
+If they need those processes and governance and controls and rules and you know,
+hey, we only do X for customers in Japan, we do Y for customers in this area, that sort of stuff.
+Even their MCP server is going to need an account.
+Whether the customer thinks that's fair, that's a different question.
+It's just the challenge of like, how does that get priced?
+I'd say because we get this all the time talking about consumption based pricing is usage based pricing.
+How come based pricing? There are a lot of categories where that makes sense.
+I definitely do not believe that it will be the majority pricing manner for all software, for all SaaS based software.
+Because when you talk to customers, they hate it.
+They really hate it. Where, as to risk, it is not related to the value they consider that they put in.
+So I have usage based pricing for Splunk. If I set them twice as many logs, I pay more money, I get it.
+But the logging is up to me.
+Right? I can log more. I can log less. I can yell at teams where I'm like, hey, how come you're logging so much?
+This is expensive. And, you know, are you using these logs?
+I can control the amount of data I put in, same with storage and S3 or something canonically.
+I put in a gigabyte, I put in two gigabytes, fine.
+Right? The problem is those are relatively transferable and controllable by me as a customer.
+A lot of the examples people give of either outcome or consumption based pricing are not in control by me as a customer.
+And not exchangeable. So the AI token world, the AI credit world, is really, really difficult for customers.
+Because I'm like, I don't really understand what this casino token you've given.
+Casino chip you give me is. Right?
+I can take a gigabyte from AWS and go put it in Azure.
+And I know how much they're going to charge me because the gigabyte is kind of constant.
+When I have these AI credits, I'm like, I don't know if your credits are the same as yours or the same as yours.
+And by the way, you keep adding features, which chew up my credits because my users use them.
+And I'm like, wait, I don't know what they're doing with those credits.
+Like, it's not the company choosing to use them.
+It's the vendor adding like features that make the software better that seem to just happen.
+Right? I can 10x my customers credit user joven at by adding a whole bunch of stuff.
+Like, hey, I built these great summaries for you and they're like, wait, I didn't do that.
+So I think the outcome based usage when you talk to customers, they want seats.
+Probably because today they understand it.
+And secondly, they've been burned by a lot of this consumption base that the bill just goes up massively and they're like, wait, how do I control this?
+Right.
+It's a bit like adjustment.
+Yeah.
+It will be certainly present in a lot of categories.
+You know, we have a bunch of areas of our business.
+So the last year in that are, you would argue consumption based pricing or literally just in some device pricing.
+We try to stick to areas where customers do twice as much stuff.
+They get twice as much value that pay twice as much money, and it's in their control.
+A lot of these other things aren't in their control.
+And the last example of outcome based pricing is those outcomes are also dynamic.
+So the problem with, say, customer service where I've saved you, you know, you used to spend 20 dollars in customer service
+Without tool, you're only spent 10.
+That's a great sales pitch in year one.
+In year two, the customer goes, but I only spend 10.
+Now I want to spend five otherwise you didn't deliver any value.
+And the vendor goes, well, if you took me out, you'd be spending 20.
+And it's like, wait, but I don't spend 20.
+I spend 10.
+So like my ability to save you money each year is difficult from an outcome basis, right?
+I'm eliminating tasks.
+I think also like from a sales perspective, I've started two payment companies.
+And it was really, I used to, this is why I know work day is I envy them.
+And I would talk to my sales team about work day.
+As they know from the outside end, how much money they make from GE.
+They're like, okay, GE uses people soft.
+They have $330,000 employees.
+Maybe we charge them $4 a month, but probably $5 per employee per month.
+This is how much money you make from that account.
+And it's so, it's so much easier to scale a sales team if you're selling a software product, right?
+If you know, that company will pay $3,000.
+Versus like, you know, we were starting a farm.
+We signed up 1,800 flowers.
+We have no idea how much we're going to make from them.
+And it turned out like, you know what really made the business work?
+Casper the mattress company.
+It's like, what?
+Like this stupid MATLAB.
+But it's like, you just don't know.
+And you think like, you get like a big deal.
+Like we got Walmart didn't really work out that well in the beginning.
+We get Casper the mattress company.
+Well, my God, incredible work day has the predictability in both directions, right?
+It's predictably for the spender of the money, which is the customer.
+But it's also the predictability for the management team, knowing that you should spend
+your time trying to sign up GE and not sign up a 10 person company because GE is bigger
+than a 10 person company.
+Whereas it's crazy in internet land where it's like, strike might make more money from a 10 person
+company than GE.
+And I guess you can get to like higher levels of predictability there.
+But like when you have outcome based pricing or consumption based pricing or something,
+and consumption based pricing is not bad per se.
+But if you don't know from the outside in, how much you can make from an account,
+it just becomes exponentially harder to scale a sales and marketing team.
+So just as an entrepreneur, one thing I want to go back to sort of dull with how you guys
+are adopting in this era.
+Can you share more about the biggest ways in which that's manifested for you?
+And you know, how it's made you change your business?
+Look, I think the way that we think about it is, we look, we sell collaboration tools
+that solve human collaboration problems, right?
+In lots of different areas, service teams, broad business teams, HR finance, software teams,
+like lots of different types of teams by different sets of apps from us, collections and sets of apps.
+Fundamentally, they're all collaboration problems that involve a lot of text,
+so this is really good for us.
+What are those people doing is probably important part, right?
+The technology world often runs to we're going to reinvent everything,
+and that's the way of the future.
+And that generally is true in the medium to long arc of time.
+Our challenge is always we have a lot of customers that work in today's manner.
+Today's workflows in today's set of apps, and they're not, they're very smart.
+They want to get to tomorrow, but they also have to move a lot of people.
+So when we're building AI features, and I can give examples of any of these,
+we need to understand what that technology is, how can help us to sell we think about it, firstly.
+Secondly, what fundamental platform componentry do we need to build,
+for whatever that future will be, because this stuff's accelerating so fast, right?
+So that's how we got to our AI gateway and the teamwork graph and enterprise compliance and controls.
+You have to separate that out from the features you're building for customers in a given app.
+Then have to build features for customers that they use, right? So where do you put those features? What are those features?
+A whole bunch of them are in existing workflows to help the customer do that existing workflow faster, better higher quality more efficiently.
+Those tend to be very unexciting from a magic point of view, in terms of what sells up, you know, a 30 second animated gif on on X,
+but they're incredibly exciting from the customer because they can use them today.
+Like, they're existing way of working just got better, they're like, this is amazing.
+Like, they rave about that stuff. And in the AI world where I'm like, but that's pretty simple,
+and it's like, but it actually helps them today in a massive way.
+I tell people internally though, and you can give an example in service showing that that's not enough,
+because you also need to use their existing workflows with new apps or look at new workflows and be able to handle that as well, right?
+So we have to do all of these things. So if you look at, you know,
+Jira's canonical example, you know, in the service collection in our HR and IT service management products,
+summarizing a ticket is something we can do way better than we have a ticket, because there's a lot of existing workflows we have.
+In an enterprise, maybe a four or five, six people work a ticket internally to try to solve a problem.
+The fourth person that shows up, there are a whole lot of attached files, there's a lot of conversation,
+there's a lot of different things going on. They would normally have taken 30 minutes to like read it all,
+and understand what's going on. So then they can bring your expertise to bear on the problem.
+Literally just summarizing that, and it's not a simple stick it into, you know, an LOM and get back summary.
+You have to be very careful about the context.
+It's so powerful for them, but they haven't changed their workflow when I go to.
+It's still Alex saying, hey, Eric, can you come help me with this ticket? Eric shows up. Eric has to bootload his brain with all the things.
+So that's like an existing workflow where we can use LOMs just to make that customer way better,
+and they love it, right? They arrayed about all these types of features, but they're very simple. They're usually not agentic.
+Then we can say, cool, but that service workflow, we need to put agents in a various spots, right?
+And most people are taking a workflow and finding, you know what, this step trips us up a lot, this costs us a lot of time.
+Can we make this step faster? And that's absolutely something that we have to provide agent frameworks ourselves.
+We have a pretty great agent framework that uses all the teamograph and all the context you have, it's pretty simple, it's pretty, it's very affordable.
+Or you bring your own agent framework, right? Most businesses, I think we'll have three to five large-scale agent platforms running internally.
+And they say, hey, I use agent fourth for this, or I use Gemini for this. Great.
+Bring that agent and we'll pop it into the workflow here and I'll make that work, right? We have to be able to do that.
+But you're still all in the existing workflow world. You're just doing the old task and then doing kind of a new and efficient task, but in the existing workflow.
+Then you get people like, what if the service ticket didn't exist at all, right?
+So you're reimagining whole categories of software to new workflows and we have to help our customers make it across that gap.
+Because they don't generally have one service team. They have hundreds, right?
+And if they have hundreds of different service tests running, they might say, these 20 are going to work in this new way, these, but they have to manage them all.
+So, I guess we're trying to bring data in the teamwork graph together with this and also from a customer driven lens.
+I think that often gets left out here, right? We're trying to take him five years into the future.
+It's our job to actually get them one year and two years and five years into the future, simultaneously, which we're trying to do.
+And the last thing I'd say is we're investing a lot in design.
+And I think that always in any eye conversation gets left out.
+Because there is a lot of foundational design to do in how this works, right?
+We're seeing the first elements of this.
+But if I look at the mobile era, the first set of apps would kind of just canonically taking desktop or web things and sticking them in a phone.
+And then we evolved new patterns of interaction and experience, right?
+Not even the visuals. How do we use these things?
+We're pushing notifications for. They didn't exist at the start, right?
+Drag to refresh is like a very obvious, simple example that's a pretty canonical design pattern that generally it's successful here and it gets moved across.
+But the whole, like, how do I use my mobile on my desktop together? How do I move back and forth?
+We have so many design challenges to solve that actually help people to understand what's there.
+The average customer we have, the average you, they don't want to understand.
+If AI doesn't exist for them, that's fine.
+But they want the outcomes of it, right? They don't need to know all of the technical detail.
+It's our job to hide them and just give them the answer they're looking for or make a task more effective or efficient.
+I feel like in the technology world standards, we get so obsessed by, like, model quality.
+You know, it's almost tried now to say the models of fire ahead of the actual value they're delivering now that the undiutilized capabilities are so big.
+A part of that equation is actually designing experience.
+Right. How do I get this? Give people a chat box that can do unlimited power.
+And they're like, uh, tell me a dead junk.
+Like, it's like unlimited power.
+But it does, it's very hard to help them utilize that power, which is where a huge amount of our challenge goes in terms of bringing agents and all the power of them into workflows and collaborative loops and having humans and agents work together.
+Yeah. I love the skeymorphic point.
+Well, you know, it's first. It's like you have pieces of paper that really web was just like a web page.
+So it's what's called a web page. It's like eight and a half by 11, right?
+And then mobile, oh, well, they get a tiny web page.
+And then it turns out if you don't just go into the skeymorphic world,
+but you just think from first principles and take advantage of the power of the device.
+You do all sorts of other things.
+It's like, you know, the scrolls refresh, right?
+Like the pull down to refresh, that was a new concept that came from mobile, right?
+So I was thinking about this the other day.
+Have you tried nanobin nanotube?
+Yes.
+It's really good, right?
+So one of my colleagues just said, hey, for an American tourist visiting Japan,
+make an infographic about what to do and not to do.
+And it's like, it one shot something that's amazing.
+How do you edit that output?
+Right?
+And that's where it's like, you know, it feels very, it's like, well, you could edit the text.
+You could edit the graphics.
+You could just one shot something new.
+Or, you know, what is this data?
+I guess this is my question for you.
+It's like, what do you think the state of the art is or should be?
+And how have you been thinking about this?
+Just because you mentioned design for editing the output of the AI output.
+Right?
+Because they're like, they're the classic.
+It's like, oh, I'll use it gooey and click here and change that.
+But it feels like that's very, very steomorphic.
+I would zoom out two levels from that to answer that question because it's a great question.
+First is customer trust is really hard in these areas.
+Right?
+When you go talk to users, you sit down, you do research with them.
+You sit, you ask them questions.
+You asked the five wise.
+They're very scared of AI.
+Not because of its power.
+Because it does stuff.
+And they're like, hey, how do I know that was right?
+What did it do?
+Right?
+It's like the idea that, oh, don't worry.
+My AI bot's going to send 15 emails in management.
+And bot's your inbox is empty.
+And you're like, okay, did it?
+I don't trust it yet.
+Like, so I have a trust question on generally AI doing things really quickly.
+To gain trust, it has to come back to you and say,
+Here's what I'm about to do.
+You sure what I'm going to do this without being annoying.
+Like, just F and go and do it.
+So like, that's a whole design question.
+How often is it how do you build trust with any of these tools?
+The second is, doesn't have enough data, right?
+So much of AI is one shutting things.
+Sit on X. You'll see a thousand like, hey, this is the magical prompt
+Incarnation Harry Potter spell that does this.
+Like runs you a one person billion dollar business.
+Just put this prompt in and paste it.
+And like, that's like kind of ridiculous because the reality is you also have a lot of iteration on the data side.
+Right?
+One shutting thing is really useful, but you often need to go back and edit the output and the input.
+Right?
+I'm not very good.
+I've used this example of a while.
+You say, hey, go write me an essay for my homework.
+It will spit out an essay.
+And the like, wait, no, no, it's a history class.
+They're like, okay, well, let's drill even essay.
+And like, you're actually changing the input.
+And somewhat, this is chat like iterations.
+But if you've ever tried to do that image editing with chat iterations,
+it's super frustrating.
+Where it's like.
+Oh, no, you changed the thing.
+I didn't want you to change and you come back.
+Y'all got up.
+So like, there's an input design and experience problem.
+Part of that is how do we have the right amount of context.
+And then there's an output and iteration problems.
+Our teamwork graph can access largely all of your organization knowledge.
+It's insanely accurate.
+It's got great search.
+It's got amazing relevance at your like sweet.
+I have full organizational memory.
+Now, the teamwork graph knows that I used to write code in 2002.
+And it knows that because it has this insane memory.
+And I'm like, it's actually not useful.
+Don't use that to answer any query I give you other than one thing.
+Mike used to be a developer.
+Maybe a bad one, right?
+It wouldn't get hired nowadays anywhere.
+But maybe that helps in explaining something to me in a way that,
+Oh, you have a computer science degree.
+I can help explain it to you in this way.
+But I don't want to know all that information.
+Why is that input challenge?
+You kind of see all these boxes at the moment where it's like,
+search the web, don't search the web.
+Search my organization.
+Don't search my organization.
+Like, you're asking to use and make all these choices.
+I don't quite understand.
+That's not in a design flow, right?
+Where it says, hey, this question, I suspect you want me to do this.
+And that is that correct.
+You see that a little bit in deep research.
+But it's a bit frustrating.
+And at least to this whole like, man, I've got 17 different agents running off and doing stuff.
+And I'm like, it's like the problem of having a lot of interns.
+We like the problem with having 50 interns as you get a lot of work done.
+The problem with having 50 interns is they ask you 50 questions a minute.
+Like, all you're doing is answer a question for intern.
+So there's an input problem of experience that you really need to solve.
+Then you get to the iteration problem, which in a corporation is much more difficult,
+right?
+Because we get this great example of brainstorming,
+where it's not usually one person brainstorming.
+So in our whiteboard and conference, you can bring an agent and say,
+I want to brainstorm about this topic.
+They are really good at going off and getting all the information from your organization.
+Knowledge for the team on graph and coming back with a really good brainstorm.
+And we get better and better at drawing it and putting the cards in right places and everything else.
+If you just take that randomly and say, go, you lose human input and trust.
+So actually usually what happens then is we've got a bunch of data.
+We're going to have a meeting.
+We're going to get people together.
+We're going to go and say, well, what are we all think at our intuition that the brain
+matter?
+Which of these are useful and not useful?
+And then that information has to go back into some other agentic loop.
+They say, cool, now we've kind of voted or though the voting is like the output of a human process.
+Then you're going to go and do something.
+Then we're going to work out what to do.
+And then we do it correctly and hold these things.
+It says you said it's very non-deterministic in the quality of output.
+But it requires, I think, this human agent loop.
+Right?
+And getting that right is a design problem.
+Too many loops.
+It's frustrating.
+Not enough loops.
+You lose trust and it just happens.
+And so we see that.
+We just shipped agents in Jura in a lot of ways.
+So you can assign work to an agent and it goes off and does stuff.
+And when we test it with people, they're like, well, what's it doing?
+I'm like, do you want to give us a thousand steps?
+And I'm like, why are you telling me all this crap?
+I'm like, wait, because you said you know what it was doing.
+And so there are lots of design challenges.
+We're just bringing them into workflows.
+And back to the business processes.
+Like, the, I don't know, the security team is involved in a lot of places.
+And the accounting team to finance team.
+There's lots of places.
+Like, even in sales, finance usually has sign-off on a deal.
+Or someone in finance does.
+How do you do that?
+And make that workflow better where you're just assigning to agents.
+You need to be very careful about the experience.
+How does it come back?
+When does it come back?
+Is it frustrating?
+Does it come back in a new way?
+Can I interrogate what it's doing right now?
+Like, our agent, first or third party agents, we're running in Jura.
+If they're off doing a task, you can chat to them while they're doing the task.
+And say, what are you doing?
+Which helps you build trust in the short term we believe.
+But in a long term, if you trust it, this particular agent doing this task.
+Man, it's got to write the last 20 times.
+The odds are right.
+It's good.
+I'm just going to ignore it.
+These are all, I would argue, a fundamental foundational design and experience problem.
+They're not a technology problem, right?
+They're getting millions of people who use our apps every day to trust this and the
+things they get and removing the blank box.
+I can do unlimited things for you, which just leads to paralysis, I think, for most people.
+It's an open question, right?
+It's like, because it's clearly like, it's not the yesterday version of, like, click your mouse here.
+And it's up to today version of, just do a new prompt.
+It's like, both, it's like, it actually is like, as long as humans are involved in some way
+shape or form, which I firmly believe they will be, is these tools,
+you need to be able to get your head into the model, both from a trust perspective and from an iteration perspective.
+And it's a design problem.
+And nobody's quite nailed it yet, right?
+I don't know.
+Maybe they have, but it's like worth the very, very beginning of this process of coming up with a better
+design for modulating, not even modulating, but just kind of editing the one shots, which
+impresses it as they are today.
+It's just like, that's not going to be, I just don't believe it's just like, ah, Harry Potter's
+starting to entache.
+I'm going to steal that for us.
+That's a good one.
+I think one interesting example is just writing documents is something we all do so naturally.
+And there is a huge design challenge, an experience challenge, which I can describe
+with AI, document writing.
+But secondly, there's also a huge, like, people learning challenge.
+So, like, we sometimes forget that pretty much people in tech industry know what a prompt is,
+and what it does, and what the old ones doing in the background, you go to people in the broad
+business world that have time to learn all this.
+They kind of probably know what chat you'd be teasing, quite know how it's working.
+And the reason it's a design challenge of document creation is we have a whole set of features,
+which we'll call create with Rovo, which instead of writing a document by giving you a blank page,
+and just starting to write, okay, I've got a heading, I put some text in, I put another heading,
+I put some text in, I put a table, etc.
+We've all been trained for decades in knowledge worker to write a document that way.
+With create with Rovo, you can literally say, start with a prompt, right?
+Hey, I want to document that roughly does this or looks like this shape,
+give me a template and a little bit of a template.
+You can say, hey, I want a document, can you go off and research this,
+that and the other, and bring it back?
+But most of those documents, the research is actually a small category of tasks.
+It's like, help me get started with my document in some way.
+Teaching users that they should start that way is really, really hard.
+Once they're running though, they now have two pains, right?
+They have 75% of the screen is the document itself,
+and 25% is a chat window.
+Think of Microsoft Word without a toolbar, but with chat only.
+Now, I can touch text in, I can edit it, I can change it.
+And you need to say, hey, you should be totally comfortable, change everything on the left.
+But you can do operations on the right.
+Hey, I want you to add a new section that goes and researches other stuff,
+and put it after like the summary, and it'll go and do that.
+Trying to watch power users are like this is amazing,
+and they're like moving back and forth, and they're getting a whole paradigm,
+and they're like doing things, and they can write commands, like, you know what?
+Make every heading blue, which you can't do in Word, and they're like bang.
+It's all blue, and they're like, this is cool.
+I can kind of give it commands across the document,
+and I can go get more information, and I can like, hey,
+can you read summarise it quicker, or man, how do you think they can ask questions?
+Like, how do you think the board is going to read this document?
+As a board member, is it simple enough?
+And it'll give you information in chat that you may say,
+cool, go action that or done.
+It's a completely different paradigm to writing a simple document,
+which is just at the end of the day, you know,
+headings and goals and text and stuff.
+And when you watch power users, they love it.
+Normal people like regular business users who are very smart,
+they're like, so I just type on the left.
+That's all I do.
+And I'm like, well, yes, it's a whole paradigm shift.
+I suspect as we get more of these tools and experiences, just like mobile.
+Two years now, five years now, that'll be very standard.
+They'll also, yeah, I get how to do this, right?
+Maybe the first time someone looked at Excel, they were like, wait,
+where do I type the paragraph, so something?
+And you're like, oh, no, you have to think differently about it.
+Now it's just like, oh, yeah, I get Excel, I know how to work.
+That's the experience challenge we have, I think.
+To go out of this power and put it into something as simple as writing a document
+with all my organization on knowledge.
+Like, oh, yeah, I get the maths of why that's possible.
+But now help me actually help people do it.
+Massive amount of challenge there.
+Matching random assignment, right?
+When they get it, they're like, this thing is amazing.
+But it's going to take us a lot of time to get, get the experiences
+correct for people to learn.
+That's a great place to wrap.
+Mike, thank you so much for coming on the podcast
+and then to excellent discussion.
+Yeah, no worries, guys.
+Hope it was a great minute, Mike.
+Thanks for listening to this episode of the A16Z podcast.
+If you liked this episode, be sure to like, comment, subscribe,
+leave us a rating or a review, and share it with your friends and family.
+For more episodes, go to YouTube, Apple Podcast and Spotify.
+Follow us on X, A16Z, and subscribe to our Substack at A16Z.substack.com.
+Thanks again for listening, and I'll see you in the next episode.
+As a reminder, the content here is for informational purposes only.
+Should not be taken as legal business, tax, or investment advice,
+or be used to evaluate any investment or security,
+and is not directed at any investors or potential investors in any A16Z fund.
+Please note that A16Z and its affiliates may also maintain investments
+in the companies discussed in this podcast.
+For more details, including a link to our investments,
+please see A16Z.com forward slash disclosures.
+Thank you for watching.

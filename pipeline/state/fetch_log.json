@@ -1,18 +1,11 @@
 {
-  "timestamp": "2026-03-05T04:00:05.758382",
+  "timestamp": "2026-03-07T04:00:04.270425",
   "results": [
     {
-      "podcast": "Monetary Matters with Jack Farley",
-      "title": "Jobless Growth, Euphoria, and a Manufacturing Recovery: How Iran Could Force a Macro Regime Change | Tian Yang",
-      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/EWWMN9964356428.mp3",
-      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/EWWMN9964356428.txt",
-      "success": true
-    },
-    {
       "podcast": "The a16z Show",
-      "title": "Deploying AI in Healthcare",
-      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_20260304_a3513b51_9365_489a_8ddb_1b8ad40c.mp3",
-      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/the_a16z_show_20260304_a3513b51_9365_489a_8ddb_1b8ad40c.txt",
+      "title": "Atlassian CEO on the SaaS Apocalypse, AI Agents & What Comes Next",
+      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_20260306_3614cc37_b64d_47e9_88da_51eda0e6.mp3",
+      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/the_a16z_show_20260306_3614cc37_b64d_47e9_88da_51eda0e6.txt",
       "success": true
     }
   ]
