@@ -40,11 +40,6 @@ def generate_website_js():
     
     # Get all data including archive
     archive = db.export_archive_data()
-    print(f"DEBUG: export_archive_data returned {len(archive['insights'])} insights")
-    ids = [i['id'] for i in archive['insights']]
-    from collections import Counter
-    counts = Counter(ids)
-    print(f"DEBUG: ID counts: {dict(counts)}")
     main_content = db.get_main_page_content()
     deepdives = db.get_all_deep_dive_content()
     # Top 4 Emerging Terms for the website
@@ -65,9 +60,7 @@ def generate_website_js():
     deepdives_json = json.dumps(deepdives, indent=2)
     suggested_json = json.dumps(suggested_terms, indent=2)
     
-    print(f"DEBUG: archive_json has {archive_json.count(chr(34)+'id'+chr(34))} 'id' keys")
-    
-    js_content = f"""// Auto-generated data file - {datetime.now().isoformat()}
+    js_content = f"""// Auto-generated data file
 // DO NOT EDIT MANUALLY
 
 const dashboardData = {{

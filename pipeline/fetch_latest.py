@@ -267,16 +267,34 @@ WHISPER_QUEUE_DIR = Path.home() / ".openclaw/workspace/whisper_queue"
 WHISPER_DONE_DIR  = Path.home() / ".openclaw/workspace/whisper_done"
 
 
+def _delete_audio_for_stem(stem: str) -> int:
+    """Delete MP3s for this transcript stem from audio/ and whisper_queue/. Returns count deleted."""
+    deleted = 0
+    for base_dir in (AUDIO_DIR, WHISPER_QUEUE_DIR):
+        if not base_dir.exists():
+            continue
+        for ext in (".mp3", ".m4a"):
+            path = base_dir / f"{stem}{ext}"
+            if path.exists():
+                try:
+                    path.unlink()
+                    deleted += 1
+                except OSError:
+                    pass
+    return deleted
+
+
 def sweep_completed_transcripts():
     """
     Sweep any completed transcripts from whisper_done into the pipeline transcripts dir.
-    This makes the system resilient if a previous run timed out or was interrupted
-    after Whisper finished but before the move occurred.
+    After moving, delete the corresponding source MP3s from audio/ and whisper_queue/
+    so they don't accumulate and waste disk.
     """
     WHISPER_DONE_DIR.mkdir(parents=True, exist_ok=True)
     TRANSCRIPT_DIR.mkdir(parents=True, exist_ok=True)
 
     moved = 0
+    stems_moved = []
 
     # Move transcript text files
     for txt in WHISPER_DONE_DIR.glob("*.txt"):
@@ -284,6 +302,7 @@ def sweep_completed_transcripts():
         if not dest.exists():
             shutil.move(str(txt), str(dest))
             moved += 1
+            stems_moved.append(txt.stem)
 
     # Move matching metadata files
     for meta in WHISPER_DONE_DIR.glob("*.meta.json"):
@@ -292,8 +311,30 @@ def sweep_completed_transcripts():
             shutil.move(str(meta), str(dest))
             moved += 1
 
+    # Delete source MP3s for transcripts we just swept (free disk space)
+    for stem in stems_moved:
+        _delete_audio_for_stem(stem)
+
     if moved:
         print(f"  ✓ Swept {moved} completed transcript file(s) from whisper_done into transcripts")
+
+    # Cleanup: remove any orphan MP3s that already have a transcript (e.g. from previous runs)
+    cleanup_orphan_audio()
+
+
+def cleanup_orphan_audio():
+    """
+    Delete MP3s in audio/ and whisper_queue/ when a matching transcript exists
+    in pipeline/transcripts. Keeps disk usage down.
+    """
+    if not TRANSCRIPT_DIR.exists():
+        return
+    deleted_total = 0
+    for txt in TRANSCRIPT_DIR.glob("*.txt"):
+        n = _delete_audio_for_stem(txt.stem)
+        deleted_total += n
+    if deleted_total:
+        print(f"  ✓ Cleaned up {deleted_total} orphan audio file(s) (transcript already exists)")
 
 def transcribe_via_launchagent(audio_path, episode, poll_interval=15, timeout_secs=3600):
     """

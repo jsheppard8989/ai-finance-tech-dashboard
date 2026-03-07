@@ -91,6 +91,7 @@
   </div>
 
   <script src="./data/data.js?v=3"></script>
+  <script src="./js/common.js"></script>
   <script>
     // Archive data
     let archiveData = { insights: [], definitions: [], overton: [] };
@@ -219,62 +220,6 @@
       if (!event || event.target.id === 'deepDiveModal' || event.target.classList.contains('modal-close')) {
         document.getElementById('deepDiveModal').classList.remove('active');
       }
-    }
-    
-    function generateDeepDiveHTML(dd) {
-      let html = '';
-      
-      // Overview
-      if (dd.overview) {
-        html += `<div class="dd-overview"><h4>📋 Overview</h4><p>${dd.overview}</p></div>`;
-      }
-      
-      // Key Takeaways
-      if (dd.key_takeaways_detailed && dd.key_takeaways_detailed.length > 0) {
-        html += `<div class="dd-section"><h4>🎯 Key Takeaways</h4><ul>`;
-        dd.key_takeaways_detailed.forEach(t => html += `<li>${t}</li>`);
-        html += `</ul></div>`;
-      }
-      
-      // Investment Thesis
-      if (dd.investment_thesis) {
-        html += `<div class="dd-section"><h4>💡 Investment Thesis</h4><p>${dd.investment_thesis}</p></div>`;
-      }
-      
-      // Ticker Analysis
-      if (dd.ticker_analysis && Object.keys(dd.ticker_analysis).length > 0) {
-        html += `<div class="dd-section"><h4>📈 Ticker Analysis</h4>`;
-        Object.entries(dd.ticker_analysis).forEach(([ticker, analysis]) => {
-          html += `<div class="dd-ticker">
-            <div class="dd-ticker-name">${ticker}</div>
-            <p><strong>Rationale:</strong> ${analysis.rationale || 'N/A'}</p>
-            <p><strong>Positioning:</strong> ${analysis.positioning || 'N/A'}</p>
-            <p style="color: #f44336;"><strong>Risk:</strong> ${analysis.risk || 'N/A'}</p>
-          </div>`;
-        });
-        html += `</div>`;
-      }
-      
-      // Positioning Guidance
-      if (dd.positioning_guidance) {
-        html += `<div class="dd-section" style="background: rgba(76,175,80,0.05); border: 1px solid rgba(76,175,80,0.2); padding: 1.25rem; border-radius: 8px;"><h4 style="color: #4caf50;">🎯 Positioning Guidance</h4><p>${dd.positioning_guidance}</p></div>`;
-      }
-      
-      // Risk Factors
-      if (dd.risk_factors && dd.risk_factors.length > 0) {
-        html += `<div class="dd-section"><h4 style="color: #f44336;">⚠️ Risk Factors</h4><ul>`;
-        dd.risk_factors.forEach(r => html += `<li style="color: #f44336;">${r}</li>`);
-        html += `</ul></div>`;
-      }
-      
-      // Catalysts
-      if (dd.catalysts && dd.catalysts.length > 0) {
-        html += `<div class="dd-section"><h4 style="color: #ffc107;">📅 Catalysts & Timeline</h4><ul>`;
-        dd.catalysts.forEach(c => html += `<li style="color: #ffc107;">${c}</li>`);
-        html += `</ul></div>`;
-      }
-      
-      return html;
     }
     
     // Initialize

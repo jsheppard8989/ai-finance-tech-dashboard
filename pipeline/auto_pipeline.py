@@ -622,50 +622,19 @@ Return JSON with:
 
 
 def export_website():
-    """Export data.js and supporting files for the website."""
+    """Export data.js and supporting files for the website (uses export_data for single implementation)."""
     print("\n" + "="*60)
     print("STEP: Export Website Data")
     print("="*60)
-    db = get_db()
-    site_data_dir = SITE_DIR / "data"
-
-    # Export JSON files
-    stats = db.export_for_website(site_data_dir)
-    print(f"✓ Exported JSON: {stats}")
-
-    # Generate data.js
-    archive = db.export_archive_data()
-    main_content = db.get_main_page_content()
-    deepdives = db.get_all_deep_dive_content()
-    # Top 4 Emerging Terms (Emerging Terms box)
-    suggested_terms = db.get_suggested_terms_for_website(limit=4)
-
     try:
-        with open(site_data_dir / 'ticker_scores.json', 'r') as f:
-            ticker_scores = json.load(f)
-    except FileNotFoundError:
-        ticker_scores = []
+        from export_data import export_website_data, generate_website_js
+        export_website_data()
+        generate_website_js()
+    except Exception as e:
+        print(f"✗ Export failed: {e}")
+        return False
 
-    js_content = f"""// Auto-generated - {datetime.now().isoformat()}
-// DO NOT EDIT MANUALLY
-
-const dashboardData = {{
-  "generatedAt": "{datetime.now().isoformat()}",
-  "tickerScores": {json.dumps(ticker_scores, indent=2)},
-  "archive": {json.dumps(archive, indent=2)},
-  "mainContent": {json.dumps(main_content, indent=2)},
-  "deepDives": {json.dumps(deepdives, indent=2)},
-  "suggestedTerms": {json.dumps(suggested_terms, indent=2)}
-}};
-
-if (typeof module !== 'undefined' && module.exports) {{
-  module.exports = dashboardData;
-}}
-"""
-    with open(site_data_dir / 'data.js', 'w') as f:
-        f.write(js_content)
-
-    # Bump cache-buster in index.html so browsers always load fresh data.js
+    # Bump cache-buster in index.html so browsers load fresh data.js
     index_html = SITE_DIR / "index.html"
     if index_html.exists():
         import re as _re
@@ -675,9 +644,6 @@ if (typeof module !== 'undefined' && module.exports) {{
         if html_updated != html:
             index_html.write_text(html_updated)
             print(f"✓ Bumped data.js cache-buster to v={cache_ver}")
-
-    total = sum(len(v) if isinstance(v, list) else 0 for v in archive.values())
-    print(f"✓ Generated data.js: {len(ticker_scores)} tickers, {total} archive items, {len(deepdives)} deep dives")
     return True
 
 
@@ -814,6 +780,12 @@ def main():
                 errors.append("ingest")
 
         # Always: analyze + export
+        # Clean up orphan MP3s (audio/ and whisper_queue/) when transcript exists — saves disk
+        try:
+            from fetch_latest import cleanup_orphan_audio
+            cleanup_orphan_audio()
+        except Exception as e:
+            print(f"  ⚠ Orphan audio cleanup skipped: {e}")
         results['transcripts_analyzed'] = analyze_transcripts()
         results['newsletters_imported'] = import_newsletters()
         results['insights_promoted'] = promote_episodes_to_insights()

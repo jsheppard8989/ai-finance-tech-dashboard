@@ -1545,7 +1545,6 @@
         <!-- Latest Insights -->
         <div class="card">
           <h2>Latest Insights</h2>
-          <div id="insights-diagnostic" style="background: #16213e; padding: 10px; margin-bottom: 10px; font-family: monospace; font-size: 12px; display: none;">Waiting for JavaScript...</div>
           <div id="insights-container">
             <!-- Insights loaded dynamically from database -->
           </div>
@@ -1680,8 +1679,10 @@
 
   <!-- Load dashboard data from pipeline (if available) -->
   <script src="./data/data.js?v=1772877683"></script>
+  <script src="./js/common.js"></script>
   
   <script>
+    var DEBUG_SITE = !!window.DEBUG_SITE;
     // Load emerging terms from database (AI-curated, no voting)
     function loadSuggestedTerms() {
       const container = document.getElementById('suggestions-list');
@@ -1715,7 +1716,7 @@
         }
         
         return `
-          <div class="suggestion-item" data-term="${term}" style="cursor: pointer;" onclick="toggleDefinition(this)">
+          <div class="suggestion-item" data-term="${term}" style="cursor: pointer;" onclick="toggleSuggestionPreview(this)">
             <div class="suggestion-header">
               <span class="word">${term}</span>
               <div style="display: flex; align-items: center; gap: 0.5rem;">
@@ -1735,8 +1736,8 @@
       }).join('');
     }
     
-    // Toggle definition preview
-    function toggleDefinition(element) {
+    // Toggle suggestion (Emerging Terms) definition preview
+    function toggleSuggestionPreview(element) {
       const preview = element.querySelector('.definition-preview');
       if (preview) {
         preview.style.display = preview.style.display === 'none' ? 'block' : 'none';
@@ -1748,14 +1749,20 @@
       loadSuggestedTerms();
     });
 
-    // Chart modal functions
-    function showChart(ticker) {
-      const modal = document.getElementById('chartModal');
-      const title = document.getElementById('chartTitle');
-      const chartImage = document.getElementById('chartImage');
+    // Chart modal functions — reset container so img is always present after placeholder
+    function resetChartContainer() {
+      var container = document.getElementById('chart-image-container');
+      if (!container) return;
+      container.innerHTML = '<img id="chartImage" src="" alt="Stock Chart">';
+    }
 
-      // Map tickers to chart filenames
-      const chartFiles = {
+    function showChart(ticker) {
+      resetChartContainer();
+      var modal = document.getElementById('chartModal');
+      var title = document.getElementById('chartTitle');
+      var chartImage = document.getElementById('chartImage');
+
+      var chartFiles = {
         'GOOGL': 'GOOGL_chart.png',
         'MSFT': 'MSFT_chart.png',
         'AAPL': 'AAPL_chart.png',
@@ -1764,17 +1771,19 @@
         'BTC': 'BTC_USD_chart.png'
       };
 
-      const chartFile = chartFiles[ticker] || `${ticker}_chart.png`;
-      const displayName = ticker === 'BTC' ? 'Bitcoin (BTC-USD)' : ticker;
+      var chartFile = chartFiles[ticker] || (ticker + '_chart.png');
+      var displayName = ticker === 'BTC' ? 'Bitcoin (BTC-USD)' : ticker;
 
-      title.textContent = `${displayName} - 2 Week Chart`;
-      chartImage.src = `charts/${chartFile}`;
+      title.textContent = displayName + ' - 2 Week Chart';
+      chartImage.src = 'charts/' + chartFile;
+      chartImage.style.display = '';
       modal.classList.add('active');
     }
 
     function closeChart() {
-      const modal = document.getElementById('chartModal');
+      var modal = document.getElementById('chartModal');
       modal.classList.remove('active');
+      resetChartContainer();
     }
 
     // Close modal on outside click
@@ -1845,7 +1854,7 @@
           content: generateInsightHTML(insight)
         };
       });
-      console.log('✓ Initialized podcast summaries from embedded data');
+      if (DEBUG_SITE) console.log('✓ Initialized podcast summaries from embedded data');
     }
     
     // Generate HTML for insight modal - uses Deep Dive content if available
@@ -1885,196 +1894,34 @@
       `;
     }
     
-    // Generate full Deep Dive HTML with all sections
-    function generateDeepDiveHTML(dd) {
-      const sections = [];
-      
-      // Overview
-      if (dd.overview) {
-        sections.push(`
-          <div style="margin-bottom: 2rem; padding: 1.25rem; background: rgba(0,212,255,0.05); border-left: 3px solid #00d4ff; border-radius: 8px;">
-            <h4 style="color: #00d4ff; margin-bottom: 0.75rem; font-size: 1.1rem;">📋 Overview</h4>
-            <p style="color: #e8e8e8; line-height: 1.7; font-size: 0.95rem;">${dd.overview}</p>
-          </div>
-        `);
-      }
-      
-      // Key Takeaways (detailed)
-      if (dd.key_takeaways_detailed && dd.key_takeaways_detailed.length > 0) {
-        const takeawaysHtml = dd.key_takeaways_detailed.map(t => 
-          `<li style="margin-bottom: 0.5rem; line-height: 1.6; color: #e8e8e8;">${t}</li>`
-        ).join('');
-        sections.push(`
-          <div style="margin-bottom: 2rem;">
-            <h4 style="color: #00d4ff; margin-bottom: 0.75rem; font-size: 1.1rem;">🎯 Key Takeaways</h4>
-            <ul style="padding-left: 1.5rem; margin: 0;">${takeawaysHtml}</ul>
-          </div>
-        `);
-      }
-      
-      // Investment Thesis
-      if (dd.investment_thesis) {
-        sections.push(`
-          <div style="margin-bottom: 2rem;">
-            <h4 style="color: #00d4ff; margin-bottom: 0.75rem; font-size: 1.1rem;">💡 Investment Thesis</h4>
-            <p style="color: #a8b2d1; line-height: 1.7; font-size: 0.95rem;">${dd.investment_thesis}</p>
-          </div>
-        `);
-      }
-      
-      // Ticker Analysis
-      if (dd.ticker_analysis && Object.keys(dd.ticker_analysis).length > 0) {
-        const tickersHtml = Object.entries(dd.ticker_analysis).map(([ticker, analysis]) => `
-          <div style="margin-bottom: 1rem; padding: 1rem; background: rgba(255,255,255,0.03); border-radius: 8px;">
-            <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.5rem;">
-              <span style="background: rgba(0,212,255,0.2); color: #00d4ff; padding: 0.25rem 0.75rem; border-radius: 4px; font-weight: 600; font-size: 0.9rem;">${ticker}</span>
-            </div>
-            <p style="color: #e8e8e8; line-height: 1.5; margin-bottom: 0.5rem; font-size: 0.9rem;"><strong style="color: #00d4ff;">Rationale:</strong> ${analysis.rationale || 'N/A'}</p>
-            <p style="color: #a8b2d1; line-height: 1.5; margin-bottom: 0.5rem; font-size: 0.9rem;"><strong>Positioning:</strong> ${analysis.positioning || 'N/A'}</p>
-            <p style="color: #f44336; line-height: 1.5; font-size: 0.85rem;"><strong>Risk:</strong> ${analysis.risk || 'N/A'}</p>
-          </div>
-        `).join('');
-        sections.push(`
-          <div style="margin-bottom: 2rem;">
-            <h4 style="color: #00d4ff; margin-bottom: 0.75rem; font-size: 1.1rem;">📈 Ticker Analysis</h4>
-            ${tickersHtml}
-          </div>
-        `);
-      }
-      
-      // Positioning Guidance
-      if (dd.positioning_guidance) {
-        sections.push(`
-          <div style="margin-bottom: 2rem; padding: 1.25rem; background: rgba(76,175,80,0.05); border: 1px solid rgba(76,175,80,0.2); border-radius: 8px;">
-            <h4 style="color: #4caf50; margin-bottom: 0.75rem; font-size: 1.1rem;">🎯 Positioning Guidance</h4>
-            <p style="color: #e8e8e8; line-height: 1.7; font-size: 0.95rem;">${dd.positioning_guidance}</p>
-          </div>
-        `);
-      }
-      
-      // Risk Factors
-      if (dd.risk_factors && dd.risk_factors.length > 0) {
-        const risksHtml = dd.risk_factors.map(r => 
-          `<li style="margin-bottom: 0.5rem; line-height: 1.6; color: #f44336;">${r}</li>`
-        ).join('');
-        sections.push(`
-          <div style="margin-bottom: 2rem;">
-            <h4 style="color: #f44336; margin-bottom: 0.75rem; font-size: 1.1rem;">⚠️ Risk Factors</h4>
-            <ul style="padding-left: 1.5rem; margin: 0;">${risksHtml}</ul>
-          </div>
-        `);
-      }
-      
-      // Catalysts
-      if (dd.catalysts && dd.catalysts.length > 0) {
-        const catalystsHtml = dd.catalysts.map(c => 
-          `<li style="margin-bottom: 0.5rem; line-height: 1.6; color: #ffc107;">${c}</li>`
-        ).join('');
-        sections.push(`
-          <div style="margin-bottom: 2rem;">
-            <h4 style="color: #ffc107; margin-bottom: 0.75rem; font-size: 1.1rem;">📅 Catalysts & Timeline</h4>
-            <ul style="padding-left: 1.5rem; margin: 0;">${catalystsHtml}</ul>
-          </div>
-        `);
-      }
-      
-      return sections.join('');
-    }
-    
     // Load insights dynamically from database
     function loadInsights() {
-      console.log('loadInsights() called');
       const container = document.getElementById('insights-container');
-      const diag = document.getElementById('insights-diagnostic');
+      if (!container) return;
 
-      if (!container) {
-        console.log('insights-container not found');
-        if (diag) diag.innerHTML = '<strong style="color:#ff6b6b">ERROR: insights-container not found</strong>';
-        return;
-      }
-
-      if (diag) diag.innerHTML = '<strong>✓ JavaScript running...</strong><br>';
-
-      // Build diagnostic output
-      let diagHtml = '<strong>🔍 Diagnostic:</strong><br>';
-      
-      // Debug logging
-      const ddExists = typeof dashboardData !== 'undefined';
-      console.log('dashboardData exists:', ddExists);
-      diagHtml += `dashboardData exists: ${ddExists}<br>`;
-      
-      if (ddExists) {
-        const keys = Object.keys(dashboardData);
-        console.log('dashboardData keys:', keys);
-        diagHtml += `keys: ${keys.join(', ')}<br>`;
-        
-        const mcExists = !!dashboardData.mainContent;
-        console.log('mainContent exists:', mcExists);
-        diagHtml += `mainContent exists: ${mcExists}<br>`;
-        
-        if (mcExists) {
-          const mcKeys = Object.keys(dashboardData.mainContent);
-          console.log('mainContent keys:', mcKeys);
-          diagHtml += `mainContent keys: ${mcKeys.join(', ')}<br>`;
-          
-          const insExists = !!dashboardData.mainContent.insights;
-          console.log('insights array exists:', insExists);
-          diagHtml += `insights exists: ${insExists}<br>`;
-          
-          if (insExists) {
-            const count = dashboardData.mainContent.insights.length;
-            console.log('insights count:', count);
-            diagHtml += `insights count: ${count}<br>`;
-            
-            // Check display_on_main values
-            const insights = dashboardData.mainContent.insights;
-            const onMain = insights.filter(i => i.display_on_main === 1);
-            diagHtml += `with display_on_main=1: ${onMain.length}<br>`;
-            diagHtml += `IDs: ${insights.map(i => i.id + ':' + i.display_on_main).join(', ')}<br>`;
-          }
-        }
-      }
-      
-      if (diag) diag.innerHTML = diagHtml;
-      
-      // Get insights from dashboardData.mainContent (correctly ordered, pre-filtered)
       let insights = [];
       if (typeof dashboardData !== 'undefined' && dashboardData.mainContent && dashboardData.mainContent.insights) {
         insights = dashboardData.mainContent.insights.filter(i => i.display_on_main === 1);
-        console.log('After filter, insights count:', insights.length);
-        
-        // Sort by source_date DESC (newest episode date at top)
         insights.sort((a, b) => {
           const dateA = new Date(a.source_date || a.added_date);
           const dateB = new Date(b.source_date || b.added_date);
           return dateB - dateA;
         });
-        
-        // Limit to most recent 8 insights on main page
         insights = insights.slice(0, 8);
       }
       
-      diagHtml += `<hr><strong>After filter:</strong> ${insights.length} insights<br>`;
-      
       if (insights.length === 0) {
-        console.log('No insights to display');
-        diagHtml += '<strong style="color:#ff6b6b">ERROR: insights.length is 0 after filter</strong>';
-        if (diag) diag.innerHTML = diagHtml;
         if (typeof dashboardData === 'undefined') {
-          container.innerHTML = '<div class="placeholder" style="color: #ff6b6b;">Error: dashboardData not loaded. Check console.</div>';
+          container.innerHTML = '<div class="placeholder" style="color: #ff6b6b;">Error: dashboardData not loaded.</div>';
         } else if (!dashboardData.mainContent) {
-          container.innerHTML = '<div class="placeholder" style="color: #ff6b6b;">Error: mainContent missing. Check console.</div>';
+          container.innerHTML = '<div class="placeholder" style="color: #ff6b6b;">Error: mainContent missing.</div>';
         } else if (!dashboardData.mainContent.insights) {
-          container.innerHTML = '<div class="placeholder" style="color: #ff6b6b;">Error: insights array missing. Check console.</div>';
+          container.innerHTML = '<div class="placeholder" style="color: #ff6b6b;">Error: insights array missing.</div>';
         } else {
           container.innerHTML = '<div class="placeholder">No insights available</div>';
         }
         return;
       }
-      
-      diagHtml += `<strong style="color:#4caf50">Rendering ${insights.length} insights...</strong><br>`;
-      if (diag) diag.innerHTML = diagHtml;
-      console.log('Rendering', insights.length, 'insights');
       
       // Render insights with Deep Dive buttons
       let html = '';
@@ -2117,10 +1964,10 @@
         if (typeof dashboardData !== 'undefined' && dashboardData.podcastSummaries) {
           const additional = formatPodcastData(dashboardData.podcastSummaries);
           podcastSummaries = { ...podcastSummaries, ...additional };
-          console.log('✓ Loaded additional podcast data from dashboardData');
+          if (DEBUG_SITE) console.log('✓ Loaded additional podcast data from dashboardData');
         }
       } catch (error) {
-        console.log('Note: No additional podcast data available');
+        if (DEBUG_SITE) console.log('Note: No additional podcast data available');
       }
     }
     
@@ -2170,7 +2017,7 @@
     // Fallback default data (used when database export not available)
     function loadDefaultPodcastData() {
       podcastSummaries = {};
-      console.log('Loaded default (empty) podcast data');
+      if (DEBUG_SITE) console.log('Loaded default (empty) podcast data');
     }
 
     // Show podcast summary modal
@@ -2182,7 +2029,7 @@
 
       const data = podcastSummaries[podcastId];
       if (!data) {
-        console.error('Podcast summary not found:', podcastId);
+        if (DEBUG_SITE) console.error('Podcast summary not found:', podcastId);
         return;
       }
 
@@ -2300,10 +2147,7 @@
     });
 
     // Auto-refresh data every 5 minutes
-    setInterval(() => {
-      console.log('Checking for updated data...');
-      // In production, this would fetch updated JSON data from the pipeline
-    }, 300000);
+      setInterval(() => { if (DEBUG_SITE) console.log('Checking for updated data...'); }, 300000);
 
     // Price data - loaded from price_data.json
     let priceData = {};
@@ -2315,13 +2159,13 @@
           priceData = await response.json();
           // Remove metadata key if present
           delete priceData._metadata;
-          console.log('Loaded price data:', Object.keys(priceData).length, 'tickers');
+          if (DEBUG_SITE) console.log('Loaded price data:', Object.keys(priceData).length, 'tickers');
         } else {
-          console.log('Failed to load price data, using empty object');
+          if (DEBUG_SITE) console.log('Failed to load price data, using empty object');
           priceData = {};
         }
       } catch (error) {
-        console.log('Error loading price data:', error);
+        if (DEBUG_SITE) console.log('Error loading price data:', error);
         priceData = {};
       }
       updateTitleTickers();
@@ -2359,7 +2203,7 @@
         // Try dashboardData first
         if (typeof dashboardData !== 'undefined' && dashboardData.tickerScores) {
           enhancedTickers = dashboardData.tickerScores.map(formatTickerData);
-          console.log('Loaded ticker data from dashboardData:', enhancedTickers.length);
+          if (DEBUG_SITE) console.log('Loaded ticker data from dashboardData:', enhancedTickers.length);
           populateTickers();
           return;
         }
@@ -2369,14 +2213,14 @@
         if (response.ok) {
           const data = await response.json();
           enhancedTickers = data.map(formatTickerData);
-          console.log('Loaded ticker data from JSON:', enhancedTickers.length);
+          if (DEBUG_SITE) console.log('Loaded ticker data from JSON:', enhancedTickers.length);
           populateTickers();
         } else {
-          console.log('No external ticker data found, using defaults');
+          if (DEBUG_SITE) console.log('No external ticker data found, using defaults');
           loadDefaultTickerData();
         }
       } catch (error) {
-        console.log('Error loading ticker data:', error);
+        if (DEBUG_SITE) console.log('Error loading ticker data:', error);
         loadDefaultTickerData();
       }
     }
@@ -2454,7 +2298,7 @@
 
     // Initialize on page load
     document.addEventListener('DOMContentLoaded', async function() {
-      console.log('Page loading...');
+      if (DEBUG_SITE) console.log('Page loading...');
       updateLastUpdated();
       await loadPriceData();  // Load prices first (also calls updateTitleTickers and populateTickers)
       loadTickerData();
@@ -2526,33 +2370,41 @@
       activeCard = card.classList.contains('active') ? card : null;
     }
 
-    // Show deep dive modal (placeholder for future implementation)
+    // Show chart or "Deep Dive" placeholder for a ticker (from ticker cards)
     function showDeepDive(ticker) {
-      // For now, just show an alert - in production this would open a detailed view
-      const modal = document.getElementById('chartModal');
-      const title = document.getElementById('chartTitle');
-      const chartImage = document.getElementById('chartImage');
+      resetChartContainer();
+      var modal = document.getElementById('chartModal');
+      var title = document.getElementById('chartTitle');
+      var chartImage = document.getElementById('chartImage');
+      var container = document.getElementById('chart-image-container');
 
-      title.textContent = `${ticker} - Deep Dive Analysis`;
-      chartImage.src = `charts/${ticker}_chart.png`;
+      title.textContent = ticker + ' - 2 Week Chart';
+      var chartFile = (ticker === 'BTC' ? 'BTC_USD' : ticker) + '_chart.png';
+      chartImage.src = 'charts/' + chartFile;
+      chartImage.style.display = '';
+
       chartImage.onerror = function() {
-        // If no chart exists, show placeholder
-        this.src = '';
-        this.style.display = 'none';
-        document.getElementById('chart-image-container').innerHTML = `
-          <div style="text-align: center; color: #8892b0; padding: 3rem;">
-            <div style="font-size: 3rem; margin-bottom: 1rem;">🔍</div>
-            <div style="font-size: 1.2rem; margin-bottom: 0.5rem;">Deep Dive for ${ticker}</div>
-            <div style="font-size: 0.9rem;">Detailed analysis coming soon!</div>
-            <div style="margin-top: 1.5rem; font-size: 0.8rem; opacity: 0.7;">
-              Research reports, financial metrics, and AI-powered insights will be available here.
-            </div>
-          </div>
-        `;
+        chartImage.style.display = 'none';
+        chartImage.onerror = null;
+        var placeholder = document.getElementById('chart-placeholder');
+        if (!placeholder) {
+          placeholder = document.createElement('div');
+          placeholder.id = 'chart-placeholder';
+          placeholder.style.cssText = 'text-align: center; color: #8892b0; padding: 3rem;';
+          container.appendChild(placeholder);
+        }
+        placeholder.innerHTML = '<div style="font-size: 3rem; margin-bottom: 1rem;">🔍</div>' +
+          '<div style="font-size: 1.2rem; margin-bottom: 0.5rem;">Chart for ' + ticker + '</div>' +
+          '<div style="font-size: 0.9rem;">No chart image available.</div>';
+        placeholder.style.display = 'block';
       };
+
       chartImage.onload = function() {
-        this.style.display = 'block';
+        var placeholder = document.getElementById('chart-placeholder');
+        if (placeholder) placeholder.style.display = 'none';
+        chartImage.style.display = 'block';
       };
+
       modal.classList.add('active');
     }
 
@@ -2791,7 +2643,7 @@
         this.reset();
 
       } catch (error) {
-        console.error('Form submission error:', error);
+        if (DEBUG_SITE) console.error('Form submission error:', error);
         let msg = 'Something went wrong sending your message. Please try again later.';
         const statusDiv = document.getElementById('formStatus');
         statusDiv.innerHTML = msg;

@@ -63,7 +63,8 @@ pip install -r pipeline/requirements.txt
 
 # Run the pipeline (generates data and charts)
 cd pipeline
-python3 run_pipeline.py
+python3 auto_pipeline.py
+# Or analyze-only (no fetch): python3 auto_pipeline.py --analyze-only
 
 # Serve locally for testing
 cd ../site
@@ -109,11 +110,13 @@ python3 -m http.server 8000
 ├── pipeline/
 │   ├── schema.sql              # Database schema
 │   ├── db_manager.py           # Database operations
-│   ├── run_pipeline.py         # Master orchestrator
+│   ├── auto_pipeline.py        # Primary orchestrator (fetch → analyze → export → push)
+│   ├── export_data.py          # Website export (data.js, JSONs); used by auto_pipeline
+│   ├── run_pipeline.py         # Legacy orchestrator (still present)
 │   ├── curate.py               # Podcast curation
 │   ├── ingest.py               # Newsletter ingestion
-│   ├── analyze_enhanced.py     # Multi-factor scoring
-│   └── fetch_latest.py         # Transcription pipeline
+│   ├── analyze_transcript.py   # Transcript AI analysis
+│   └── fetch_latest.py         # Fetch & transcribe (queue + worker)
 ├── site/
 │   ├── index.html              # Main dashboard
 │   ├── archive.html            # Archive page
@@ -141,18 +144,12 @@ PUSHOVER_USER=your-pushover-user
 
 ### Automated Updates
 
-Set up cron jobs for automatic data updates:
+Scheduling is via **OpenClaw cron** (see MEMORY.md and pipeline/README.md). Jobs run `auto_pipeline.py` (full or `--analyze-only`). For system cron instead:
 
 ```bash
-# Edit crontab
 crontab -e
-
-# Add these lines:
-# Daily at 8:30 AM CST - Newsletter pipeline
-30 8 * * * cd ~/.openclaw/workspace/pipeline && python3 run_pipeline.py
-
-# Daily at 10:00 PM CST - Podcast pipeline  
-0 22 * * * cd ~/.openclaw/workspace/pipeline && python3 run_pipeline.py
+# Example: full pipeline daily at 7 AM
+0 7 * * * cd ~/.openclaw/workspace/pipeline && python3 auto_pipeline.py
 ```
 
 ### Source Weighting
