@@ -1,9 +1,9 @@
-// Auto-generated - 2026-03-07T04:01:23.703992
+// Auto-generated data file
 // DO NOT EDIT MANUALLY
 
 const dashboardData = {
-  "generatedAt": "2026-03-07T04:01:23.704042",
-  "tickerScores": [
+  generatedAt: "2026-03-07T16:58:03.702644",
+  tickerScores: [
   {
     "ticker": "BTC",
     "total_score": 292.0,
@@ -620,7 +620,7 @@ const dashboardData = {
     "contexts": []
   }
 ],
-  "archive": {
+  archive: {
   "insights": [
     {
       "id": 62,
@@ -1804,7 +1804,7 @@ const dashboardData = {
     }
   ]
 },
-  "mainContent": {
+  mainContent: {
   "insights": [
     {
       "id": 62,
@@ -2034,7 +2034,7 @@ const dashboardData = {
     }
   ]
 },
-  "deepDives": {
+  deepDives: {
   "1": {
     "id": 1,
     "insight_id": 1,
@@ -4962,7 +4962,7 @@ const dashboardData = {
     "source_date": "2026-03-06"
   }
 },
-  "suggestedTerms": [
+  suggestedTerms: [
   {
     "id": 1,
     "term": "Compute Deflation Trade",
@@ -5002,6 +5002,7 @@ const dashboardData = {
 ]
 };
 
+// Export for use in other scripts
 if (typeof module !== 'undefined' && module.exports) {
   module.exports = dashboardData;
 }
