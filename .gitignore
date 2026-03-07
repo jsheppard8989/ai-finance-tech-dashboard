@@ -44,3 +44,19 @@ pipeline/state/auto_pipeline.lock
 
 # Local testing
 .github_username
+
+# Openclaw & sensitive (do not commit to public repo)
+AGENTS.md
+SOUL.md
+USER.md
+IDENTITY.md
+MEMORY.md
+HEARTBEAT.md
+TOOLS.md
+memory/
+bip39.txt
+pending_contacts.json
+
+# Pipeline state & inbox (optional: uncomment to stop committing these too)
+# pipeline/state/
+# pipeline/inbox/
