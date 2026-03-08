@@ -2232,3 +2232,178 @@ No insights need Deep Dives!
 ============================================================
 STEP: Fetch Prices
 ============================================================
+404: Not Found
+Failed
+  Fetching CRM... $202.11 (+9.67%)
+  Fetching CROWD... $428.99 (+3.55%)
+  Fetching CRSP... $56.50 (+6.26%)
+  Fetching CVNA... $317.70 (-9.47%)
+  Fetching Copper...     Error fetching Copper: HTTP Error 404: Not Found
+Failed
+  Fetching DIS... $101.54 (-3.70%)
+  Fetching DOCS... $25.34 (+3.09%)
+  Fetching DXY... $0.00 (+0.00%)
+  Fetching EDIT... $2.00 (+14.94%)
+  Fetching EMAX... $0.00 (-0.00%)
+  Fetching ETH-USD... $1941.12 (+4.61%)
+  Fetching FB... $42.42 (+0.14%)
+  Fetching FTIE... Failed
+  Fetching GDX... $101.38 (+1.13%)
+  Fetching GLD... $473.51 (+5.65%)
+  Fetching GOLD... $52.42 (-10.68%)
+  Fetching GOOG... $298.30 (-1.49%)
+  Fetching GOOGL... $298.52 (-1.16%)
+  Fetching GS... $821.42 (-10.33%)
+  Fetching Gold... $52.42 (-10.68%)
+  Fetching HOOD... $77.09 (+2.19%)
+  Fetching IBM... $258.85 (+0.21%)
+  Fetching IEF... $96.45 (-0.77%)
+  Fetching ILMN... $124.62 (+6.96%)
+  Fetching INFY... $14.44 (-2.10%)
+  Fetching IWM... $250.89 (-4.62%)
+  Fetching JPY... $33.16 (-8.34%)
+  Fetching META... $644.86 (+0.87%)
+  Fetching MINE... $3.63 (-8.56%)
+  Fetching MSFT... $408.96 (+3.05%)
+  Fetching MSTR... $133.53 (+3.78%)
+  Fetching NEE... $91.02 (-1.82%)
+  Fetching NOW... $124.34 (+17.40%)
+  Fetching NVDA... $177.82 (-3.87%)
+  Fetching Nasdaq... $599.75 (-0.26%)
+  Fetching OKLO... $58.25 (-13.88%)
+  Fetching PLTR... $157.16 (+18.15%)
+  Fetching PQNT... $21.31 (-5.06%)
+  Fetching PYPL... $46.97 (+15.09%)
+  Fetching QQQ... $599.75 (-0.26%)
+  Fetching Russell... $250.89 (-4.62%)
+  Fetching S&P... $672.38 (-1.53%)
+  Fetching S&P 500... $672.38 (-1.53%)
+  Fetching SF... $73.15 (-7.10%)
+  Fetching SLV... $75.94 (+14.42%)
+  Fetching SMR... $11.67 (-18.22%)
+  Fetching SNAP... $5.16 (+9.09%)
+  Fetching SNWGF... $13.34 (+12.57%)
+  Fetching SONY... $21.48 (-5.87%)
+  Fetching SPY... $672.38 (-1.53%)
+  Fetching SQ... Failed
+  Fetching SQQQ... $73.46 (+0.69%)
+  Fetching Semiconductors... $380.56 (-6.61%)
+  Fetching TDOC... $5.08 (+11.40%)
+  Fetching TLT... $88.46 (-1.57%)
+  Fetching TSLA... $396.73 (-3.39%)
+  Fetching TWTR...     Error fetching TWTR: HTTP Error 404: Not Found
+Failed
+  Fetching UNG... $12.75 (+7.14%)
+  Fetching URANIUM...     Error fetching URANIUM: HTTP Error 404: Not Found
+Failed
+  Fetching US 10 year Treasury...     Error fetching US 10 year Treasury: URL can't contain control characters. '/v8/finance/chart/US 
+Failed
+  Fetching USO... $108.77 (+43.63%)
+  Fetching Uranium...     Error fetching Uranium: HTTP Error 404: Not Found
+Failed
+  Fetching VEEV... $195.49 (+10.56%)
+  Fetching VIX... $29.49 (+45.34%)
+  Fetching WIT... $2.32 (+1.31%)
+  Fetching WORK... Failed
+  Fetching WTI... $3.14 (+44.70%)
+  Fetching XAU-USD... $0.00 (+0.00%)
+  Fetching XLE... $56.57 (+5.25%)
+  Fetching XLK... $137.29 (-1.57%)
+  Fetching XOM... $151.21 (+3.43%)
+  Fetching ZEN...     Error fetching ZEN: HTTP Error 404: Not Found
+Failed
+
+✓ Saved 74 prices to /Users/jaredsheppard/.openclaw/workspace/site/price_data.json
+Finished: 2026-03-07 21:00:33.562434
+
+✓ Fetch Prices completed
+
+============================================================
+STEP: Generate Charts
+============================================================
+
+STDERR: Traceback (most recent call last):
+  File "/Users/jaredsheppard/.openclaw/workspace/pipeline/generate_charts.py", line 7, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+
+✗ Generate Charts failed
+
+============================================================
+STEP: Auto-Curate Terms
+============================================================
+============================================================
+Auto-Curating Suggested Terms
+============================================================
+
+🔍 Scanning content for new terms...
+
+✓ Found 0 new potential terms
+
+Found 0 new potential terms from recent content.
+
+📊 Analyzing 3 pending terms...
+------------------------------------------------------------
+
+============================================================
+CURATION SUMMARY
+============================================================
+  Auto-promoted: 0
+  Flagged for review: 3
+  Skipped (low relevance): 0
+
+============================================================
+TERMS FOR MANUAL REVIEW
+============================================================
+
+• Compute Deflation Trade
+  Relevance: 50
+  Mentions: 3 in 1 source(s)
+  Definition: The investment thesis built around the 400x AI compute cost collapse: identifying who wins (inferenc...
+
+• Agentic Velocity
+  Relevance: 50
+  Mentions: 2 in 1 source(s)
+  Definition: The compression of decision-making and capital deployment timescales as AI agents replace human work...
+
+• Machine-Native Money
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: Payment rails designed for autonomous AI agents rather than human users....
+
+✓ Auto-Curate Terms completed
+
+============================================================
+STEP: Export Website Data
+============================================================
+============================================================
+Exporting Website Data
+============================================================
+✓ Exported website data to /Users/jaredsheppard/.openclaw/workspace/site/data
+✓ Exported: {'ticker_scores': 41, 'podcast_summaries': 14, 'archive_items': 59}
+
+============================================================
+Generating Website JavaScript
+============================================================
+✓ Generated data.js with 41 tickers, 59 archive items, 49 deep dives, 3 suggested terms
+✓ Bumped data.js cache-buster to v=1772938833
+
+============================================================
+STEP: Push to GitHub
+============================================================
+✓ Pushed to GitHub: Pipeline update 2026-03-07 21:00: 0 podcasts, 0 insights, 0 newsletters
+Nothing new — skipping notification
+
+============================================================
+PIPELINE COMPLETE
+Finished: 2026-03-07 21:00:35.812215
+============================================================
+📊 Pipeline Complete
+
+📈 2 tickers scored
+
+Top tickers today:
+  ZEN: score 72
+  SF: score 64
+
+🌐 Website updated

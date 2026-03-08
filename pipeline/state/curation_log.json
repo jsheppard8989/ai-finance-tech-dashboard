@@ -1,6 +1,37 @@
 {
-  "timestamp": "2026-03-07T21:00:02.498728",
-  "total_audio_files": 0,
+  "timestamp": "2026-03-07T22:24:47.334016",
+  "total_audio_files": 2,
   "approved_for_transcription": 0,
-  "episodes": []
+  "episodes": [
+    {
+      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "title": "Exiled Iranian Prince Reza Pahlavi: Transition Plan and the Fight for Iran's Freedom",
+      "description": "<p>(0:00) Jason intros Prince Reza Pahlavi</p> <p>(1:09) Pahlavi's take on the war and vision for Iran's future, Democracy, and return</p> <p>(8:53) Trump's surrender conditions, core principles, role in transition and potential leadership</p> <p>(17:14) Thoughts on the people and spirit of Iran</p> <p>(21:33) Shervin Pishevar joins: thoughts on the current regime killing 40k+ protestors, future of the Middle East</p> <p>(33:59) Future leader and government of Iran, plan for transition</p> <p>Fo",
+      "audio_url": "https://dts.podtrac.com/redirect.mp3/traffic.libsyn.com/secure/allinchamathjason/ALLIN-INTV_RezaPahlavi_Ch.mp3?dest-id=1928300",
+      "published": "Sat, 07 Mar 2026 18:00:00 +0000",
+      "published_date": "2026-03-07",
+      "rss_guid": "f3df379d-e536-460f-83f6-83b06f4cad9e",
+      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/ALLIN-INTV_RezaPahlavi_Ch.mp3",
+      "filename": "ALLIN-INTV_RezaPahlavi_Ch.mp3",
+      "relevance_score": 0,
+      "matched_keywords": [],
+      "status": "SKIPPED (low relevance)"
+    },
+    {
+      "podcast": "Moonshots with Peter Diamandis",
+      "title": "Andrew Yang: UBI Before UHI, Solving Job Loss, and the Future of Work | #236",
+      "description": "\n        <p>Livestream the Abundance Summit: <a href=\"https://www.abundance360.com/livestream\"><u>https://www.abundance360.com/livestream</u></a></p>\n<p><br></p>\n<p>The Moonshots hosts join Andrew Yang to unpack AI's explosive collision with politics - deepfakes weaponizing elections, UBI surging as job-killer abundance hits, and radical fixes like open voting for anyone from Cuban to Robbins - while plotting democracy's entrepreneurial reboot.</p>\n<p><br></p>\n<p>Get access to metatrends 10+ yea",
+      "audio_url": "https://traffic.megaphone.fm/DVVTS5109779823.mp3?updated=1772831152",
+      "published": "Sat, 07 Mar 2026 16:00:00 -0000",
+      "published_date": "2026-03-07",
+      "rss_guid": "cca5b25e-1993-11f1-94c5-2b01f3c2fbc4",
+      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/DVVTS5109779823.mp3",
+      "filename": "DVVTS5109779823.mp3",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "ai"
+      ],
+      "status": "SKIPPED (low relevance)"
+    }
+  ]
 }

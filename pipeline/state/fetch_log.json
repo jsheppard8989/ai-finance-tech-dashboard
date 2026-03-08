@@ -1,19 +1,19 @@
 {
-  "timestamp": "2026-03-07T21:00:13.716176",
+  "timestamp": "2026-03-07T22:24:55.474896",
   "results": [
     {
       "podcast": "Moonshots with Peter Diamandis",
       "title": "Andrew Yang: UBI Before UHI, Solving Job Loss, and the Future of Work | #236",
       "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/DVVTS5109779823.mp3",
-      "transcript_path": null,
-      "success": false
+      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/DVVTS5109779823.txt",
+      "success": true
     },
     {
       "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
       "title": "Exiled Iranian Prince Reza Pahlavi: Transition Plan and the Fight for Iran's Freedom",
       "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/ALLIN-INTV_RezaPahlavi_Ch.mp3",
-      "transcript_path": null,
-      "success": false
+      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/ALLIN-INTV_RezaPahlavi_Ch.txt",
+      "success": true
     }
   ]
 }

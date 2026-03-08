@@ -1,6 +1,48 @@
 {
   "insights": [
     {
+      "id": 64,
+      "title": "The Future of Work and Income with Andrew Yang",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-03-07",
+      "summary": "In this episode, Peter Diamandis interviews Andrew Yang, discussing the future of work, income, and the impact of AI and robotics on society. Key themes include the potential for universal high-income, the necessity of entrepreneurship, and the social unrest that could arise from rapid technological advancements. They also delve into the idea of UBI (Universal Basic Income) versus UHI (Universal High-Income) and the challenges of transitioning to a new social contract in the face of disruptive technologies.",
+      "key_takeaway": "Invest in sectors and technologies that are driving the fourth industrial revolution, with a focus on AI, robotics, and automation, while also considering the social implications and potential for new economic models like UBI and UHI.",
+      "tickers_mentioned": [
+        ""
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-07",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 48
+    },
+    {
+      "id": 65,
+      "title": "All In with Chamath, Jason, Sacks & Friedberg - Episode 263 Part 2: Vision for Iran Post-Military Action",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-03-07",
+      "summary": "In this episode, the hosts interview Prince Reza Pahlavi, discussing the potential for a democratic Iran and the economic opportunities that could arise from such a transition. The conversation touches on the importance of humanitarian intervention, the potential for Iran to become a significant economic player in the 21st century, and the impact this could have on global markets, particularly for the United States. The discussion also includes the potential for Iran to evolve from a corrupt regime to a democracy, with free elections and a focus on redevelopment and reconstruction.",
+      "key_takeaway": "The potential for a democratic Iran presents a significant economic opportunity, particularly for the United States, with the possibility of generating billions of dollars in business and investment.",
+      "tickers_mentioned": [
+        "AAPL",
+        "NVDA",
+        "XOM",
+        "JNJ",
+        "TSLA"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-07",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 47
+    },
+    {
       "id": 62,
       "title": "Emergency Podcast: US-Iran Conflict and its Impact on Global Markets",
       "source_type": "podcast",
@@ -148,11 +190,11 @@
         "UNG"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-05",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-08",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 40
     },
     {
@@ -167,11 +209,11 @@
         ""
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-05",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-08",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 39
     },
     {

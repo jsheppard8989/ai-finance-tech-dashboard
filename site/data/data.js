@@ -2,7 +2,7 @@
 // DO NOT EDIT MANUALLY
 
 const dashboardData = {
-  generatedAt: "2026-03-07T21:00:33.958952",
+  generatedAt: "2026-03-07T22:26:22.824193",
   tickerScores: [
   {
     "ticker": "BTC",
@@ -623,6 +623,48 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 64,
+      "title": "The Future of Work and Income with Andrew Yang",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-03-07",
+      "summary": "In this episode, Peter Diamandis interviews Andrew Yang, discussing the future of work, income, and the impact of AI and robotics on society. Key themes include the potential for universal high-income, the necessity of entrepreneurship, and the social unrest that could arise from rapid technological advancements. They also delve into the idea of UBI (Universal Basic Income) versus UHI (Universal High-Income) and the challenges of transitioning to a new social contract in the face of disruptive technologies.",
+      "key_takeaway": "Invest in sectors and technologies that are driving the fourth industrial revolution, with a focus on AI, robotics, and automation, while also considering the social implications and potential for new economic models like UBI and UHI.",
+      "tickers_mentioned": [
+        ""
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-07",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 48
+    },
+    {
+      "id": 65,
+      "title": "All In with Chamath, Jason, Sacks & Friedberg - Episode 263 Part 2: Vision for Iran Post-Military Action",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-03-07",
+      "summary": "In this episode, the hosts interview Prince Reza Pahlavi, discussing the potential for a democratic Iran and the economic opportunities that could arise from such a transition. The conversation touches on the importance of humanitarian intervention, the potential for Iran to become a significant economic player in the 21st century, and the impact this could have on global markets, particularly for the United States. The discussion also includes the potential for Iran to evolve from a corrupt regime to a democracy, with free elections and a focus on redevelopment and reconstruction.",
+      "key_takeaway": "The potential for a democratic Iran presents a significant economic opportunity, particularly for the United States, with the possibility of generating billions of dollars in business and investment.",
+      "tickers_mentioned": [
+        "AAPL",
+        "NVDA",
+        "XOM",
+        "JNJ",
+        "TSLA"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-07",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 47
+    },
+    {
       "id": 62,
       "title": "Emergency Podcast: US-Iran Conflict and its Impact on Global Markets",
       "source_type": "podcast",
@@ -770,11 +812,11 @@ const dashboardData = {
         "UNG"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-05",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-08",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 40
     },
     {
@@ -789,11 +831,11 @@ const dashboardData = {
         ""
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-05",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-08",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 39
     },
     {
@@ -1807,6 +1849,42 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 64,
+      "title": "The Future of Work and Income with Andrew Yang",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-03-07",
+      "summary": "In this episode, Peter Diamandis interviews Andrew Yang, discussing the future of work, income, and the impact of AI and robotics on society. Key themes include the potential for universal high-income, the necessity of entrepreneurship, and the social unrest that could arise from rapid technological advancements. They also delve into the idea of UBI (Universal Basic Income) versus UHI (Universal High-Income) and the challenges of transitioning to a new social contract in the face of disruptive technologies.",
+      "key_takeaway": "Invest in sectors and technologies that are driving the fourth industrial revolution, with a focus on AI, robotics, and automation, while also considering the social implications and potential for new economic models like UBI and UHI.",
+      "tickers_mentioned": "[\"\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-07",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 48,
+      "episode_release_date": "2026-03-07"
+    },
+    {
+      "id": 65,
+      "title": "All In with Chamath, Jason, Sacks & Friedberg - Episode 263 Part 2: Vision for Iran Post-Military Action",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-03-07",
+      "summary": "In this episode, the hosts interview Prince Reza Pahlavi, discussing the potential for a democratic Iran and the economic opportunities that could arise from such a transition. The conversation touches on the importance of humanitarian intervention, the potential for Iran to become a significant economic player in the 21st century, and the impact this could have on global markets, particularly for the United States. The discussion also includes the potential for Iran to evolve from a corrupt regime to a democracy, with free elections and a focus on redevelopment and reconstruction.",
+      "key_takeaway": "The potential for a democratic Iran presents a significant economic opportunity, particularly for the United States, with the possibility of generating billions of dollars in business and investment.",
+      "tickers_mentioned": "[\"AAPL\", \"NVDA\", \"XOM\", \"JNJ\", \"TSLA\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-07",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 47,
+      "episode_release_date": "2026-03-07"
+    },
+    {
       "id": 62,
       "title": "Emergency Podcast: US-Iran Conflict and its Impact on Global Markets",
       "source_type": "podcast",
@@ -1913,42 +1991,6 @@ const dashboardData = {
       "archived_reason": null,
       "podcast_episode_id": 41,
       "episode_release_date": "2026-03-05"
-    },
-    {
-      "id": 56,
-      "title": "Monetary Matters: Macro Regimes and Investment Insights",
-      "source_type": "podcast",
-      "source_name": "Monetary Matters with Jack Farley",
-      "source_date": "2026-03-04",
-      "summary": "In this episode of Monetary Matters, Max Weethy interviews TN Yang, CEO of Variant Perception, to discuss the macro environment and its implications for investment. They delve into the benign macro environment characterized by jobless growth, disinflation, and a synchronized global easing policy. The conversation also touches on the impact of potential energy shocks, the technology race, and the role of gold as a reserve asset. Yang provides insights into less obvious investment opportunities within technology and government consulting, and the strategic allocation to gold and gold miners.",
-      "key_takeaway": "Invest in less obvious areas of technology and government consulting with reasonable valuations, and consider gold and gold miners as a strategic allocation in a world moving towards inflationary policies.",
-      "tickers_mentioned": "[\"XOM\", \"BP\", \"SPY\", \"IEF\", \"UNG\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-03-05",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 40,
-      "episode_release_date": "2026-03-04"
-    },
-    {
-      "id": 57,
-      "title": "The Future of Healthcare with AI and Technology",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-03-04",
-      "summary": "The episode discusses the rapid rise in demand for healthcare, the challenges of training doctors fast enough, and the transformation of clinical practice with technology. Michiel Buduma, CEO and co-founder of Ambience Healthcare, shares his journey from academia to entrepreneurship, focusing on leveraging AI to improve healthcare. The conversation highlights the potential for AI to create a new system of record in healthcare, the opportunity to disrupt the incumbent EHR layer, and the excitement around new healthcare technologies among clinicians.",
-      "key_takeaway": "Investing in healthcare technology companies that leverage AI to improve clinician workflows and patient experiences, with the potential to disrupt the incumbent EHR systems.",
-      "tickers_mentioned": "[\"\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-03-05",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 39,
-      "episode_release_date": "2026-03-04"
     }
   ],
   "definitions": [
@@ -4960,6 +5002,146 @@ const dashboardData = {
     "insight_title": "The AI Transformation of Software and SaaS Landscape",
     "source_name": "The a16z Show",
     "source_date": "2026-03-06"
+  },
+  "64": {
+    "id": 55,
+    "insight_id": 64,
+    "podcast_episode_id": 48,
+    "overview": "The rapid advancement of AI and robotics is poised to reshape the global labor market, potentially leading to significant job displacement and social unrest. This deep dive analysis explores the investment implications of the transition from traditional labor to a future where universal high-income (UHI) may become a necessity. The discussion with Andrew Yang, a leading advocate for universal basic income (UBI), underscores the urgency of preparing for this future. The analysis focuses on how investors can position their portfolios to capitalize on and mitigate the risks associated with these transformative changes.",
+    "key_takeaways_detailed": [
+      "Invest in companies at the forefront of AI and robotics to benefit from job automation trends.",
+      "Consider diversifying into sectors that are less susceptible to automation, such as creative industries and personal services.",
+      "Monitor political developments closely, as policy shifts towards UBI or UHI could have significant market impacts.",
+      "Prepare for increased social unrest, which may affect various sectors, including insurance and security services.",
+      "Stay informed about the latest in education and skill development, as the value of certain degrees and certifications may change."
+    ],
+    "investment_thesis": "The core investment logic revolves around the inevitability of AI and robotics leading to significant job displacement. This thesis posits that while some sectors will thrive due to automation, others will struggle, creating a bifurcated market. Catalysts include technological breakthroughs, legislative changes towards UBI/UHI, and societal acceptance of automation. The timeframe for this thesis is medium to long-term, as the full impact of these changes will likely unfold over the next 3-10 years.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple is a leader in consumer technology and has a vested interest in the development of AI and robotics, which could drive future growth.",
+        "positioning": "Position long-term as the company is well-positioned to benefit from the AI revolution.",
+        "risk": "Key risks include regulatory hurdles and potential backlash against tech giants."
+      },
+      "NVDA": {
+        "rationale": "NVIDIA is a key player in the development of AI chips and platforms, which are essential for advancing robotics and automation.",
+        "positioning": "Consider a strategic long position due to the company's strong growth potential in the AI sector.",
+        "risk": "The risk of competition from other tech giants and potential market saturation."
+      },
+      "TSLA": {
+        "rationale": "Tesla is at the forefront of electric vehicle technology and AI-driven autonomous driving systems.",
+        "positioning": "A tactical long position could be beneficial as the company continues to disrupt the automotive industry.",
+        "risk": "Regulatory challenges and competition in the electric vehicle market."
+      },
+      "GOOGL": {
+        "rationale": "Google's parent company, Alphabet, is heavily invested in AI research and has a broad range of applications, from search to autonomous vehicles.",
+        "positioning": "Hold a strategic long position due to the company's diverse AI initiatives.",
+        "risk": "Privacy concerns and potential antitrust actions could impact the company's growth."
+      },
+      "MSFT": {
+        "rationale": "Microsoft is a major player in cloud computing and AI, offering tools and services that can aid in the transition to a more automated future.",
+        "positioning": "A medium-term strategic long position is appropriate given the company's stable growth and investment in AI.",
+        "risk": "Dependency on the success of cloud services and potential disruptions in the tech sector."
+      }
+    },
+    "positioning_guidance": "Investors should consider a balanced portfolio that includes a mix of long positions in AI and robotics leaders, as well as companies in sectors less likely to be automated. Entry points should be strategic, with a focus on long-term growth potential. Diversification is key to mitigate risks associated with rapid technological change. Consider hedging with investments in education and skill development companies, as well as those in creative industries.",
+    "risk_factors": [
+      "Regulatory changes that could slow the adoption of AI and robotics.",
+      "Unexpected technological setbacks or failures in AI development.",
+      "Increased social unrest leading to disruptions in business operations.",
+      "Potential market overvaluation of AI and robotics companies.",
+      "Rapid shifts in consumer behavior away from technology-driven solutions."
+    ],
+    "contrarian_signals": [
+      "A potential backlash against automation leading to a resurgence in traditional labor markets.",
+      "The possibility that AI and robotics may not live up to their hype, leading to a reevaluation of their economic impact.",
+      "The emergence of new industries that create jobs and counterbalance the effects of automation."
+    ],
+    "catalysts": [
+      "Upcoming AI and robotics breakthroughs that could accelerate job displacement.",
+      "Legislative actions towards UBI or UHI, indicating a shift in societal and economic structures.",
+      "Major tech conferences and expos that showcase new AI and robotics technologies.",
+      "Economic reports highlighting the impact of automation on employment rates.",
+      "Political elections that could bring about policy changes supportive of UBI or UHI."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-03-07T22:25:31.973322",
+    "updated_at": "2026-03-08 04:25:31",
+    "insight_title": "The Future of Work and Income with Andrew Yang",
+    "source_name": "Moonshots with Peter Diamandis",
+    "source_date": "2026-03-07"
+  },
+  "65": {
+    "id": 56,
+    "insight_id": 65,
+    "podcast_episode_id": 47,
+    "overview": "In this episode of the 'All In' podcast, Prince Reza Pahlavi discusses the potential for a post-military action Iran, emphasizing the importance of a stable transition to a democratic government. The investment thesis revolves around the economic opportunities that could arise from a more open and democratic Iran, with potential benefits for global markets and businesses. This analysis focuses on the implications for investors, considering the potential for increased trade, investment, and economic growth in Iran and its neighbors, as well as the risks associated with political and economic uncertainty.",
+    "key_takeaways_detailed": [
+      "Iran's potential transition to a democratic government could unlock significant economic opportunities, benefiting both Iran and global markets.",
+      "The timeline for Iran's transition is uncertain but could be expedited by defections from the current regime and strengthening of domestic organizations.",
+      "Investors should monitor political developments in Iran closely, as they could have significant implications for global markets and businesses.",
+      "The potential for increased trade and investment with Iran could benefit companies with exposure to the region, including those in the energy, technology, and financial sectors.",
+      "Investors should be aware of the risks associated with political and economic uncertainty in Iran, as well as the potential for geopolitical tensions to escalate."
+    ],
+    "investment_thesis": "The core investment logic is that a stable transition to a democratic government in Iran could lead to increased trade, investment, and economic growth, benefiting both Iran and global markets. Catalysts for this thesis include political developments in Iran, such as defections from the current regime and the strengthening of domestic organizations, as well as the potential for increased cooperation between Iran and other countries. The timeframe for this thesis is medium to long-term, as the transition process is likely to take time and will depend on various factors, including the level of international support and the ability of Iran's new government to implement economic reforms.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple has a global presence and could benefit from increased trade and investment with Iran, as well as the potential for a more open and democratic Iran to become a larger market for its products.",
+        "positioning": "Investors could consider a long-term strategic position in AAPL, as the potential benefits from increased trade and investment with Iran could take time to materialize.",
+        "risk": "Key risks for this position include political and economic uncertainty in Iran, as well as the potential for geopolitical tensions to escalate."
+      },
+      "NVDA": {
+        "rationale": "Nvidia has a significant presence in the technology sector and could benefit from increased investment and economic growth in Iran, particularly if the country becomes more open to foreign technology companies.",
+        "positioning": "Investors could consider a medium-term tactical position in NVDA, as the potential benefits from increased investment and economic growth in Iran could take some time to materialize.",
+        "risk": "Key risks for this position include the potential for political and economic uncertainty in Iran to impact the technology sector, as well as the potential for geopolitical tensions to escalate."
+      },
+      "XOM": {
+        "rationale": "Exxon Mobil is a major player in the energy sector and could benefit from increased investment and economic growth in Iran, particularly if the country becomes more open to foreign energy companies.",
+        "positioning": "Investors could consider a medium-term tactical position in XOM, as the potential benefits from increased investment and economic growth in Iran could take some time to materialize.",
+        "risk": "Key risks for this position include the potential for political and economic uncertainty in Iran to impact the energy sector, as well as the potential for geopolitical tensions to escalate."
+      },
+      "JNJ": {
+        "rationale": "Johnson & Johnson has a significant presence in the healthcare sector and could benefit from increased investment and economic growth in Iran, particularly if the country becomes more open to foreign healthcare companies.",
+        "positioning": "Investors could consider a long-term strategic position in JNJ, as the potential benefits from increased investment and economic growth in Iran could take time to materialize.",
+        "risk": "Key risks for this position include the potential for political and economic uncertainty in Iran to impact the healthcare sector, as well as the potential for geopolitical tensions to escalate."
+      },
+      "TSLA": {
+        "rationale": "Tesla has a significant presence in the electric vehicle and renewable energy sectors and could benefit from increased investment and economic growth in Iran, particularly if the country becomes more open to foreign companies in these sectors.",
+        "positioning": "Investors could consider a medium-term tactical position in TSLA, as the potential benefits from increased investment and economic growth in Iran could take some time to materialize.",
+        "risk": "Key risks for this position include the potential for political and economic uncertainty in Iran to impact the electric vehicle and renewable energy sectors, as well as the potential for geopolitical tensions to escalate."
+      }
+    },
+    "positioning_guidance": "Investors should consider a mix of tactical and strategic positions in companies with exposure to Iran, depending on their outlook for the country's political and economic developments. Entry points should be based on a careful assessment of the risks and potential rewards, as well as the overall market conditions. Investors should also consider hedging their positions to protect against potential geopolitical risks.",
+    "risk_factors": [
+      "Political and economic uncertainty in Iran could impact the potential benefits from increased trade and investment.",
+      "Geopolitical tensions could escalate, potentially impacting global markets and businesses.",
+      "The timeline for Iran's transition to a democratic government is uncertain and could take longer than expected.",
+      "The potential for increased trade and investment with Iran could be offset by other geopolitical factors, such as sanctions or trade barriers.",
+      "The potential benefits from increased trade and investment with Iran could be offset by other economic factors, such as inflation or currency fluctuations."
+    ],
+    "contrarian_signals": [
+      "The potential benefits from increased trade and investment with Iran could be offset by the risks associated with political and economic uncertainty.",
+      "Geopolitical tensions could escalate, potentially offsetting the potential benefits from increased trade and investment with Iran.",
+      "The timeline for Iran's transition to a democratic government could be longer than expected, potentially delaying the potential benefits from increased trade and investment."
+    ],
+    "catalysts": [
+      "Political developments in Iran, such as defections from the current regime and the strengthening of domestic organizations.",
+      "Increased cooperation between Iran and other countries, potentially leading to increased trade and investment.",
+      "Economic reforms in Iran, potentially leading to increased investment and economic growth.",
+      "Geopolitical developments, such as changes in sanctions or trade barriers, potentially impacting Iran's trade and investment opportunities.",
+      "Global economic developments, such as changes in inflation or currency fluctuations, potentially impacting Iran's trade and investment opportunities."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-03-07T22:25:57.798104",
+    "updated_at": "2026-03-08 04:25:57",
+    "insight_title": "All In with Chamath, Jason, Sacks & Friedberg - Episode 263 Part 2: Vision for Iran Post-Military Action",
+    "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "source_date": "2026-03-07"
   }
 },
   suggestedTerms: [
