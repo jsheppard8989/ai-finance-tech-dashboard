@@ -71,6 +71,8 @@ You can only have one repeat schedule; this overwrites any existing one.
 
 Plist files live in the repo at **`docs/launchd/`** so you can version them. Copy into `~/Library/LaunchAgents` and load.
 
+If you always have to log in with Touch ID when you sit down, the session is locking and LaunchAgents may not run when locked. Use section 3 (LaunchDaemon) so the job runs anyway.
+
 ### 1. Scheduled 10pm (and 5am) run
 
 Copy the plist into your LaunchAgents and load it:
@@ -90,6 +92,25 @@ cp /Users/jaredsheppard/.openclaw/workspace/docs/launchd/com.openclaw.pipeline.c
 launchctl unload ~/Library/LaunchAgents/com.openclaw.pipeline.catchup.plist 2>/dev/null || true
 launchctl load ~/Library/LaunchAgents/com.openclaw.pipeline.catchup.plist
 ```
+
+### 3. Use LaunchDaemon (runs when screen is locked)
+
+If you have to log in with Touch ID every time you sit down, the Mac is locking when you walk away. **LaunchAgents** (user-level) may not run when the screen is locked. Use a **LaunchDaemon** so the 10pm job runs at system level—**unaffected by lock or login**.
+
+1. Unload the user LaunchAgent (so you don’t run twice):
+   ```bash
+   launchctl unload ~/Library/LaunchAgents/com.openclaw.pipeline.schedule.plist
+   ```
+2. Install the daemon (requires admin password):
+   ```bash
+   sudo cp /Users/jaredsheppard/.openclaw/workspace/docs/launchd/com.openclaw.pipeline.daemon.plist /Library/LaunchDaemons/
+   sudo chown root:wheel /Library/LaunchDaemons/com.openclaw.pipeline.daemon.plist
+   sudo chmod 644 /Library/LaunchDaemons/com.openclaw.pipeline.daemon.plist
+   sudo launchctl load /Library/LaunchDaemons/com.openclaw.pipeline.daemon.plist
+   ```
+3. Verify: `sudo launchctl list | grep openclaw.pipeline.daemon`
+
+The daemon runs as your user so it sees your HOME and `.env`; same logs in `pipeline/logs/`.
 
 ---
 
