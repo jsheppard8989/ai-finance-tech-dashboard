@@ -1,23 +1,6 @@
 {
-  "timestamp": "2026-03-07T04:00:02.476188",
-  "total_audio_files": 1,
+  "timestamp": "2026-03-07T21:00:02.498728",
+  "total_audio_files": 0,
   "approved_for_transcription": 0,
-  "episodes": [
-    {
-      "podcast": "The a16z Show",
-      "title": "Atlassian CEO on the SaaS Apocalypse, AI Agents & What Comes Next",
-      "description": "<p>Alex Rampell and Erik Torenberg speak with Mike Cannon-Brookes, cofounder and CEO of Atlassian, about how to make sense of the SaaS selloff, why not all software companies face the same AI-driven risks, and how Atlassian is thinking about the shift from records to processes. They also examine the real design challenge of getting everyday users to trust and benefit from AI agents in enterprise workflows.</p>\n<p>\u00a0</p>\n<p>Resources:</p>\n<p>Follow Alex Rampell on X:\u00a0 <a href=\"https://twitter.com/",
-      "audio_url": "https://mgln.ai/e/1344/afp-848985-injected.calisto.simplecastaudio.com/3f86df7b-51c6-4101-88a2-550dba782de8/episodes/c39605ee-6196-4c03-85ca-91ed76d88ac7/audio/128/default.mp3?aid=rss_feed&awCollectionId=3f86df7b-51c6-4101-88a2-550dba782de8&awEpisodeId=c39605ee-6196-4c03-85ca-91ed76d88ac7&feed=JGE3yC0V",
-      "published": "Fri, 6 Mar 2026 16:24:02 +0000",
-      "published_date": "2026-03-06",
-      "rss_guid": "3614cc37-b64d-47e9-88da-51eda0e6bca7",
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/default.mp3",
-      "filename": "default.mp3",
-      "relevance_score": 1,
-      "matched_keywords": [
-        "ai"
-      ],
-      "status": "SKIPPED (low relevance)"
-    }
-  ]
+  "episodes": []
 }

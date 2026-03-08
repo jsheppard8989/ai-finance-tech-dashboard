@@ -2,7 +2,7 @@
 // DO NOT EDIT MANUALLY
 
 const dashboardData = {
-  generatedAt: "2026-03-07T16:58:10.760864",
+  generatedAt: "2026-03-07T21:00:33.958952",
   tickerScores: [
   {
     "ticker": "BTC",

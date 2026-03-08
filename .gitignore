@@ -41,6 +41,7 @@ transcripts/*.txt
 
 # Pipeline state (lock files, etc.)
 pipeline/state/auto_pipeline.lock
+pipeline/state/last_evening_run.txt
 
 # Local testing
 .github_username

@@ -1,12 +1,19 @@
 {
-  "timestamp": "2026-03-07T04:00:04.270425",
+  "timestamp": "2026-03-07T21:00:13.716176",
   "results": [
     {
-      "podcast": "The a16z Show",
-      "title": "Atlassian CEO on the SaaS Apocalypse, AI Agents & What Comes Next",
-      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_20260306_3614cc37_b64d_47e9_88da_51eda0e6.mp3",
-      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/the_a16z_show_20260306_3614cc37_b64d_47e9_88da_51eda0e6.txt",
-      "success": true
+      "podcast": "Moonshots with Peter Diamandis",
+      "title": "Andrew Yang: UBI Before UHI, Solving Job Loss, and the Future of Work | #236",
+      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/DVVTS5109779823.mp3",
+      "transcript_path": null,
+      "success": false
+    },
+    {
+      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "title": "Exiled Iranian Prince Reza Pahlavi: Transition Plan and the Fight for Iran's Freedom",
+      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/ALLIN-INTV_RezaPahlavi_Ch.mp3",
+      "transcript_path": null,
+      "success": false
     }
   ]
 }

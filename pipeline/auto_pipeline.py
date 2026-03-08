@@ -820,6 +820,12 @@ def main():
         print("="*60)
         print(summary)
 
+        # Mark successful run for catch-up logic (so "run on wake" knows we ran today)
+        try:
+            (STATE_DIR / "last_evening_run.txt").write_text(datetime.now().strftime("%Y-%m-%d %H:%M"))
+        except Exception as e:
+            print(f"  (Could not write last_evening_run.txt: {e})")
+
         if errors:
             print(f"\n⚠ Non-fatal errors in: {', '.join(errors)}")
     finally:
