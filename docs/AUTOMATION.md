@@ -97,18 +97,27 @@ launchctl load ~/Library/LaunchAgents/com.openclaw.pipeline.catchup.plist
 
 If you have to log in with Touch ID every time you sit down, the Mac is locking when you walk away. **LaunchAgents** (user-level) may not run when the screen is locked. Use a **LaunchDaemon** so the 10pm job runs at system level—**unaffected by lock or login**.
 
+The daemon runs **every 5 minutes** (`StartInterval` 300) and executes `pipeline/run_if_scheduled.sh`. That script checks: are we in the 10pm (22:00–22:20) or 5am (05:00–05:20) window, and have we not run in the last 90 minutes? If so, it runs the evening pipeline. So you get multiple chances each night instead of one exact minute that might not fire.
+
 1. Unload the user LaunchAgent (so you don’t run twice):
    ```bash
-   launchctl unload ~/Library/LaunchAgents/com.openclaw.pipeline.schedule.plist
+   launchctl unload ~/Library/LaunchAgents/com.openclaw.pipeline.schedule.plist 2>/dev/null || true
    ```
-2. Install the daemon (requires admin password):
+2. Install/reload the daemon (requires admin password):
+   ```bash
+   ~/.openclaw/workspace/scripts/reload_pipeline_daemon.sh
+   ```
+   Or manually:
    ```bash
    sudo cp /Users/jaredsheppard/.openclaw/workspace/docs/launchd/com.openclaw.pipeline.daemon.plist /Library/LaunchDaemons/
    sudo chown root:wheel /Library/LaunchDaemons/com.openclaw.pipeline.daemon.plist
    sudo chmod 644 /Library/LaunchDaemons/com.openclaw.pipeline.daemon.plist
+   sudo launchctl unload /Library/LaunchDaemons/com.openclaw.pipeline.daemon.plist 2>/dev/null || true
    sudo launchctl load /Library/LaunchDaemons/com.openclaw.pipeline.daemon.plist
    ```
 3. Verify: `sudo launchctl list | grep openclaw.pipeline.daemon`
+
+**Heartbeat:** The daemon writes the current time to `pipeline/state/daemon_last_check.txt` every run. If that file's timestamp is recent (within the last few minutes), the daemon is firing. Success marker for the pipeline itself is still `pipeline/state/last_evening_run.txt`.
 
 The daemon runs as your user so it sees your HOME and `.env`; same logs in `pipeline/logs/`.
 
@@ -120,15 +129,22 @@ The daemon runs as your user so it sees your HOME and `.env`; same logs in `pipe
    `cat ~/.openclaw/workspace/pipeline/state/last_evening_run.txt`  
    should show today’s date and time (e.g. `2026-03-07 22:45`).
 
-2. **Logs:**  
+2. **Daemon heartbeat (is the daemon firing?):**  
+   `cat ~/.openclaw/workspace/pipeline/state/daemon_last_check.txt`  
+   should show a timestamp from the last few minutes if the daemon is running.
+
+3. **Logs:**  
    - stdout: `~/.openclaw/workspace/pipeline/logs/pipeline_schedule.out`  
    - stderr: `~/.openclaw/workspace/pipeline/logs/pipeline_schedule.err`
 
-3. **LaunchAgent status:**  
+4. **LaunchAgent status:**  
    `launchctl list | grep openclaw`  
    You should see `com.openclaw.pipeline.schedule` and, if installed, `com.openclaw.pipeline.catchup`.
 
-4. **Manual test (without waiting for 10pm):**  
+5. **LaunchDaemon status:**  
+   `sudo launchctl list | grep openclaw.pipeline.daemon`
+
+6. **Manual test (without waiting for 10pm):**  
    `~/.openclaw/workspace/pipeline/run_evening_pipeline.sh`  
    Then check `last_evening_run.txt` and the logs.
 
