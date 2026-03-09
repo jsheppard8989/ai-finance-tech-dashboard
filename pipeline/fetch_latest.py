@@ -40,7 +40,7 @@ def load_feeds():
                     feeds.append(line)
     return feeds
 
-def fetch_latest_episode(feed_url, max_age_days=2):
+def fetch_latest_episode(feed_url, max_age_days=14):
     """Fetch the most recent episode from an RSS feed.
     
     Returns None if the latest episode is older than max_age_days,
@@ -99,8 +99,8 @@ def fetch_latest_episode(feed_url, max_age_days=2):
             except Exception:
                 pass
 
-        # Gate: skip episodes older than max_age_days
-        if pub_date_iso:
+        # Gate: skip episodes older than max_age_days (default: 14 days so short outages don't lose episodes)
+        if pub_date_iso and max_age_days is not None:
             from datetime import date
             pub = date.fromisoformat(pub_date_iso)
             age_days = (date.today() - pub).days
