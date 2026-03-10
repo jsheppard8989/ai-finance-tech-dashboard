@@ -1,6 +1,57 @@
 {
-  "timestamp": "2026-03-09T22:03:58.418817",
-  "total_audio_files": 0,
-  "approved_for_transcription": 0,
-  "episodes": []
+  "timestamp": "2026-03-10T05:00:38.205294",
+  "total_audio_files": 3,
+  "approved_for_transcription": 2,
+  "episodes": [
+    {
+      "podcast": "Monetary Matters with Jack Farley",
+      "title": "Michael Howell: Markets On \u201cNervous Knife-Edge Equilibrium\" As Global Liquidity Momentum Has Peaked",
+      "description": "\n        <p>Learn more about the Fundrise Income Fund here:</p>\n<p><a href=\"https://fundrise.com/mm\"><u>https://Fundrise.com/mm</u></a></p>\n<p><br></p>\n<p>In this episode, Michael Howell of Capital Wars and Global Liquidity Indexes discusses why the global liquidity cycle has peaked and is beginning to slow down in early 2026. This shift suggests that investors should pivot toward defensive assets, as the \"everything bubble\" transitions into a regime where liquidity is tighter relative to growin",
+      "audio_url": "https://traffic.megaphone.fm/EWWMN5301712942.mp3",
+      "published": "Mon, 09 Mar 2026 17:39:00 -0000",
+      "published_date": "2026-03-09",
+      "rss_guid": "ebf9c10c-1bde-11f1-836b-c3ab9458a6f0",
+      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/EWWMN5301712942.mp3",
+      "filename": "EWWMN5301712942.mp3",
+      "relevance_score": 2,
+      "matched_keywords": [
+        "invest",
+        "market"
+      ],
+      "status": "APPROVED"
+    },
+    {
+      "podcast": "Moonshots with Peter Diamandis",
+      "title": "OpenClaw Explained: Baby AGI, Security Threats, and How a Mac Mini Became Everyone's Supercomputer | #237",
+      "description": "\n        <p>Livestream the Abundance Summit: <a href=\"https://www.abundance360.com/livestream\">https://www.abundance360.com/livestream</a></p>\n<p><br></p>\n<p>The hosts dive into OpenClaw's explosion\u2014unleashing autonomous local agents on Mac minis that code, create content, and self-evolve 24/7\u2014featuring expert Alex Finn's workflows, org charts of AI \"employees,\" and visions for trillion-dollar agent economies.</p>\n<p><br></p>\n<p>Get access to metatrends 10+ years before anyone else - <a href=\"ht",
+      "audio_url": "https://traffic.megaphone.fm/DVVTS3081156583.mp3?updated=1772746985",
+      "published": "Mon, 09 Mar 2026 13:00:00 -0000",
+      "published_date": "2026-03-09",
+      "rss_guid": "97167592-17ea-11f1-a8d6-d347bbe50f87",
+      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/DVVTS3081156583.mp3",
+      "filename": "DVVTS3081156583.mp3",
+      "relevance_score": 1,
+      "matched_keywords": [
+        "ai"
+      ],
+      "status": "SKIPPED (low relevance)"
+    },
+    {
+      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "title": "Graham Allison on the Global Realignment: Iran, China, Israel, Greenland",
+      "description": "<p>(0:00) The Besties welcome legendary Harvard professor Graham Allison</p> <p>(1:14) Iran Conflict: Strategy, Netanyahu's influence, Trump's motivation, redefining Middle East security</p> <p>(11:44) Iran endgame scenarios: Democracy, extremism, second-order effects</p> <p>(21:07) Israel: Is Netanyahu destroying Israel's democracy?</p> <p>(24:28) China: Taiwan invasion, trade, and Trump's April meeting</p> <p>(39:50) Greenland: Importance, deal scenarios, EU socialism angle</p> <p>(48:58) Nucl",
+      "audio_url": "https://dts.podtrac.com/redirect.mp3/traffic.libsyn.com/secure/allinchamathjason/ALLIN-GrahamAllison_Ch.mp3?dest-id=1928300",
+      "published": "Mon, 09 Mar 2026 20:42:00 +0000",
+      "published_date": "2026-03-09",
+      "rss_guid": "23a012b8-9754-49f3-8e19-ca7252be22fe",
+      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/ALLIN-GrahamAllison_Ch.mp3",
+      "filename": "ALLIN-GrahamAllison_Ch.mp3",
+      "relevance_score": 2,
+      "matched_keywords": [
+        "defi",
+        "ai"
+      ],
+      "status": "APPROVED"
+    }
+  ]
 }

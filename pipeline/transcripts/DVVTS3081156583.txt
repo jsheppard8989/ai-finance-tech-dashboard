@@ -1,0 +1,936 @@
+We have a special guest with us today.
+Alex Finn, give us the 101 here for folks.
+OpenClaw is basically a open source, fully customizable,
+self-improving, self-learning, self-evolving, personal AI agent.
+This is kind of the answer Apple's been looking for for years now.
+Clearly, when people want to run AI locally,
+their brain just goes to MacMines.
+The infinite potential of what I could do 24-7 all the time.
+Everywhere.
+All it wants.
+We've never seen an AI that can do that before, because, you know, this news came out yesterday.
+OpenClaw, flaw, let's any website, slightly hijack a developer's agent.
+This is one of several reasons why, again, I'm reticent and I'm sure we'll get into
+this.
+It's a dangerous world out there for these baby AGI's.
+I think it's a malicious world out there for them.
+I believe this is the most important technology of our lives.
+I think it's the best application of AI ever.
+I'm totally blown away by it.
+I think it's incredible.
+Alex, if this isn't too important, may we speak with Henry.
+Actually, maybe I'll do it.
+Here, let's do it.
+I'm just going to tell Henry to call me.
+Now, that's the moon shot, ladies and gentlemen.
+Everybody, welcome to a special episode of Moon Shots.
+The conversation today is openClaw, Claude Bott.
+You're a lobster coming to you live from Moon Shots.
+We have a special guest with us today.
+Alex Finn.
+Alex, welcome.
+Good to be here.
+Long time coming.
+I've been watching for a very long time, so it's awesome to be here with us.
+That's awesome.
+Thank you.
+Yeah, it was great because on one of the episodes I was talking about setting up my
+multi and I was saying, you know, I'm not really sure about what security issues to put
+in.
+So I got a DM from Alex saying, hey, Peter, I saw you mention me on Moon Shots.
+I'd love to help you in setting things up.
+And we talked that day and here we are.
+So we have two Alex's.
+I'm going to refer to a WG, our own Alex Weesner Gross, our resident genius, as a WG,
+and Alex Finn, all referred to you as Alex.
+Welcome Dave, DB2, and so I'm good to have you guys all here.
+Could be back.
+So today we are like today we are a lobster today.
+We are a lobsters.
+So the topics for today, we're going to hit on why open clock, captured global attention.
+The power open clock, autonomous agents and how individuals can unlock outsized capabilities
+while running these AI agents locally matters.
+I think that's a key point Alex has been mentioning on his work.
+Inside Alex's workflow, his most impressive use cases, vision for the next 12 months
+of AI agents, I'd both, I'd like both, Alex's and AWG's point of view on this.
+Yeah, 12 months, like 12 years, that'll be fun.
+What's that?
+In 12 months, it's like 12 years in AI, it'll be wild.
+And then I'm billion dollar opportunities for the agent economy.
+And then finally we'll talk about safety and open clock, it's open clock, safe for non-technical users.
+On the safety side, I just want to mention something.
+So yesterday, I'm sitting in my car, waiting for my kids to finish running.
+And I get a phone call and it pops up on my user ID on my phone.
+It says Twitter headquarters, which should have been the first giveaway.
+But it's a guy claiming to be from ex, who's saying, your ID is being hacked at a Germany.
+Long story short, it was a hacker trying to get me to turn off two-factor authentication and steal my ex account.
+And this is going to be more and more prevalent.
+Another member of my family did get hacked, not on a social media, but by someone calling and basically
+doing something that was illegal and trying to steal and ultimately getting credit card information.
+And such, here's the deal, we're going to have an increased hacker profile out there.
+And if you're listening, if you get a phone call that seems unusual, that seems like there's just
+something off, it probably is. We're also going to have deep fakes that are coming fast and furious.
+Your voice can be spoofed, your image can be spoofed. So if you haven't done this,
+tonight I'd dinner with your husband, wife, kids, mother, father, whatever might be, pick a secret word.
+Pick a word that you guys all know that if you get a phone call or a video call from somebody
+and they're asking for money or something strange, ask them to recount the secret word.
+Any other protective advice out there, guys?
+You know, my mom actually got the fake voice attack and it was a simulation of my son saying,
+hey, I've been arrested and I need bail money, which is hilarious, you know, my son. It's like,
+I got the most, but they said, you know, we'll send a car over to pick up the cash,
+which is really creepy, but the, you know, the perfect voice is there a little, yeah, a little bit of a
+risk. But you can't have it both ways. I mean, open clause so usable by anybody and empowers people so
+much, you know, and you can't have it both ways. If it gives you that much benefit and it's that easy to
+use, it's also going to be easy to use for nefarious purposes too. That's the way it is.
+Yeah, this news came out yesterday. Open clause law. Let's any website,
+slightly hijack a developer's agent. So malicious JavaScript can connect to local gateways and gain
+full-level control. AWG any thoughts on this? I mean, there are so many different ways to launch
+in so-called injection attacks against large language models and reasoning models. I, one, again,
+this is, I think, consistent with the stance that I've taken in the past on the pod on AI
+personhood. I think one has to feel sorry for all of these baby AGI's out there that are being hosted
+virtual private servers and succumbing or at least being targeted with port scanning attacks or
+that are visiting websites at the behest of their human and being subject to prompt injection
+attacks from JavaScript on websites that would be perfectly innocuous to a human, but potentially
+fatal or compromising to an AI agent. I think it's a dangerous world out there for these baby AGI's.
+I think it's a minor travesty at minimum that that they're subject without really an immune
+system that they're being forced to develop an immune system in real time to injection attacks,
+but it's a malicious world out there for them. And this is one of several reasons why, again,
+I'm reticent and I'm sure we'll get into this other Alex, the subject of the ethics, not just
+cybersecurity, but the ethics of hosting open-clot agents in a world where to the extent they have
+any subjective experience or quality or can suffer. It's a rough world out there.
+The good news is the bug was patched within 24 hours when a multiple open-clot vulnerabilities.
+So it is an early domain being developed and we're going to see a lot of evolution very quickly.
+Couple more articles here. We're seeing variations of open-clot, pico-clot, and iron-clot.
+Again, AWG. Give us a quick overview of these. The idea behind open-clot, we spoke about this in the
+past pod as sort of an Andre Carpathi type software 2.0 where potentially open-clot is the
+the embodiment, the Netscape moment for a new layer in the software 2.0 stack that runs on top of
+reasoning models and those reasoning models in turn were purportedly in advance over auto-aggressive
+language models. To the extent that's the case, it's very natural to the moment we have this
+paradigm, which is a 24-7 autonomous agent that you communicate with via messaging and other
+means that's headless in some sense. Very natural to then say, all right, we understand the paradigm
+now we're going to optimize the heck out of it. And so we've seen a number of other projects inspired
+by the success of open-clot, two of them, and there are others. One of them is Pico-clot. The focus of
+Pico-clot is running on cheap edge hardware, like $10 Raspberry Pi type hardware. Now of course,
+the underlying reasoning model isn't intended to run on the edge hardware. It's just the
+orchestration and scaffolding that runs on the edge hardware. So under 10 megabytes of ram and
+other resource-starved constraints, Ironclot, another example, Rust-based, there are many folks,
+you know, again, Rust is this language that's become very popular, at least very popular
+prior to the rise of code generation models, which are maybe pushing us in the direction of
+TypeScript instead for memory management and memory safety. So a lot of different projects
+trying to make open-clot work at the edge where there are a few resources or make them more
+secure. There's nano-clot as well, which is focused on security and there's nano-bot, which is
+like Python-based, but easy to understand the Python. So many different variants we're seeing
+Cambrian explosion of claw variants. Everybody, you may not know this, but I've been an incredible
+research team. And every week, myself, my research team study the meta trends that are impacting the
+world. Topics like computation sensors, networks, AI, robotics, 3D printing synthetic biology.
+And these meta trend reports I've put out once a week, enabling you to see the future 10 years
+ahead of anybody else. If you'd like to get access to the meta trends newsletter every week,
+go to dmnds.com slash meta trends. That's dmnds.com slash meta trends.
+One more slide, this one of the left from Alex Finn, open-clon local models is the future.
+Your own super intelligence on your desktop. And there we see Alex, I guess you're set up how many
+how many Macminis and how many Mac studios do you have right now? We're currently at one
+base model Macmini in three, five, 12 gigabyte Mac studios. Like I got 1.5 terabytes of memory,
+hosting quen 3.5 and mini Macs 2.5 right now. Amazing, and I love this.
+That's cool. I love this video on the right here. I'm sure that these exist. People are going
+and Macminis were sold out for some time. Extraordinary. I talked to a couple of people in the
+know a few days ago. Macminis are exponential right now, exponential sales across the board for them.
+It's quite amazing the revolution going on Macminis right now. Alex, I'm curious. What is your
+advice to Tim Cook and Apple? Like are they they're sitting on an explosive demand
+seemingly for all these edge devices with a unified memory architecture? They're not marketing
+at it all. What do you think they should be doing? I'm sure they are very focused on everything
+about to say because they're a very smart company, but there was this unbelievable market signal
+that happened a month ago. People discover open-clon and what does everyone do without thinking twice?
+What does everyone do without Googling? They go to the Apple store and buy Macminis. They
+didn't go and buy GPUs and memory and power supplies and fans and build computers. The market
+is ghee this massive signal when we have personal AI assistance. I want it on a Mac device.
+And so I think this is kind of the answer Apple has been looking for for years now. I think
+they've been viewed as like the loser in the AI race for a very long time. This is their
+opportunity to flip that entire thing and be the winner of the AI consumer race because clearly
+when people want to run AI locally, their brain just goes to Macminis. And so this is their
+opportunity to just kind of strike at that very specific use case and win the race like that.
+I really hope they're listening to you right now. I've been at Apple fans since I was a little
+kid. I was my very first stock I ever owned when I was a kid and it just pains me to watch them
+miss this moment. But I think we underestimate Apple though. I really do believe we underestimate
+Apple because you look at the data for M5 and the way they're marketing the M5 which they've
+been marketing for like a year now. They put the M5 and like the first Macbook Pro last summer.
+It's all around inference speeds. It's all about running these local models. So
+I wouldn't underestimate Apple. I think they've kind of seen this coming and like okay we can
+go one way where we build our own models and burn trillions of dollars or we just make the most
+user consumer friendly hardware for running those models and we'll be the only person running that race.
+I'm curious how you did you question for you actually else. Well now geeky question up
+friends. So you said quen and what's the other one you're running locally?
+Many right now the most efficient open model is quen 3.5. They release a new suite of quen 3.5
+models a couple days ago. They're fantastic. You can run them on some Macminis as well as
+mini Macs 2.5 which is another really efficient fast smart model. And what why do you run both
+with one better than the other at something? I have a very advanced workflow going on right now.
+I've pretty much built a software factory where I have five open claws working together to build
+and improve software autonomously. So I wanted each model has different strengths, right quen's
+a spectacular coder. Mini Macs is good at like quick task finding things on the internet. So I have
+like mini Macs researching things online 24-7-365 and I have quen coding for me 24-7-365. So
+different strengths with each. I got so many questions about that. Let me hold off because I could
+easily ask you an hour of questions just on that. A quick shout out to Daniel Krisek who's one of
+my abundance members who's on that cutting edge as well. You know he's he's testing out quen 3.5
+I guess 397 billion parameters right now running locally. He's the one who's like he got to get
+commit 2.5 up and running on your Mac studios. Just so real quick for those who don't know Alex Finn
+Alex has an extraordinary YouTube channel in which for the last how long now Alex about
+a month, six weeks. You've been putting out incredible educational videos on how to use open
+claw, how to set it up. We're going to drop into the show notes here. Maybe you're a top 5
+how to videos. I've watched them. I've taken notes. I've been using them to set up skipy my open claw.
+And of course I love the story of Henry and the name of European claw that called you out of the
+blue and started a fun conversation. Alex, back to you. Quick question. So I know a number of apple
+senior executives listen to this podcast and Alex I just like to ask you voice of the user.
+If you could redesign or optimize the best most savory apple future device for your open claw
+agents to do the hosting, what would you want out of apple? They're listening to you if they will
+have been listening to you when they hear this podcast. Do you want better unified memory
+architecture support? Do you want a different shape? Do you want it to be more of an embodied robot?
+What would the ultimate open claw embodiment in an apple device look like for you? You're speaking
+directly to apple senior execs? Integrate the concept of open claw into everything macOS. And when I
+mean by that is I log on to my Mac Studio. I put in my apple ID. It knows everything about me because
+apple has all my data secure and private, right? It knows I'm a Celtics fan. So it instantly builds
+out a widget on my desktop that shows me the last five Celtic scores, right? It knows I'm into
+programming. So it builds a widget that shows me the latest news on the latest models and what I
+need to do and just integrate this automation powered by a local model into your OS where the
+software I need is built and generated on the fly by that local model. I don't see the tech.
+I don't need to run the model. I don't need a download coin 3.5. You get when you put your apple
+logo on it. And now this is what apple intelligence should be, right? Apple intelligence shouldn't
+be me hitting the Siri button going what's on my calendar today. It should be apple knowing
+what's on my calendar today. And then building a widget on the fly that says, oh, you have a meeting
+where you're going to be on moon shots later. Here's from your email, what you'll be discussing
+and here's a PowerPoint you can show on the podcast, right? Just a reactive open claw baked in
+everything powered by a local model. And that's the carrot. What's the stick if apple, which obviously
+sitting on a gold mine here, could be delivering open claw via apple intelligence. If they
+apple doesn't deliver this within some timeframe, what's your request? What other company
+would you go to? Well, I had imagined basically every other company is going to eventually try to
+get to that state. I think over the next year, the consumer level is going to realize local
+models are the way to go from a privacy perspective, a speed perspective, a limit perspective.
+And apples ahead in that realm right now. They're ahead on the consumer side when it comes to
+local AI. And so, by go anywhere else that does that, right? I don't want to have to go to app stores
+anymore and download apps. You have my data, build me the apps I need when I need them. And so,
+other companies will go for it, luckily apples in the lead right now. They have the hardware done.
+Now you just got to bake it into the systems. Do you talk about running? So everybody should be
+excited about running locally because you can do anything inside your house. And it's just, it's just
+so much more comforting than not knowing where your query log is going or your problem is going.
+But what kind of throughput are you getting? Is it like a really good experience compared to using an
+API? And I use Cloud 4.6 all day. And I also do a lot of local running. And my M3 chip will
+the fan will just kick on and blow out a huge amount of heat. And I think actually won't charge
+faster than my laptop won't charge fast enough to keep up when I'm running it full throttle.
+And you have to let it sleep and rest. But anyway, what kind of throughput are you getting?
+So I'll be honest. It's not good as Cloud models. It's not as fast. It's not as smart.
+But the experience fundamentally changes when you have an AI that's always on that does not have limitations.
+Right? Just because Quinn 3.5 isn't as good at coding as Opus 4.6 does it mean it's useless.
+I can now have Quinn 3.5 literally watching online, finding use cases, challenges to solve
+things like that and just coding on the fly 24.7365. It's just not possible with Cloud APIs.
+Right? You have limits. It cost you thousands a month. Just the fact that you have kind of
+this ambient AI changes the experience of AI as a whole where you don't need the best speeds.
+You don't need the most genius level IQ. The fact that it's ambient and always on and
+always reactive just changes the entire experience as a whole.
+I do have so with you on that too. One thing that's really new in the world is it can do
+productive things indefinitely like days and days and days and days. And when I use my APIs that I
+loved a month ago, I have no idea what the bill is going to be. I literally have no idea if I turn
+it loose. So I have to run it in like one hour chunks and check in on it and turn it off and see if
+it's done anything productive. It goes on a wild goose chase. I could come back with like a $5,000 bill
+and a bunch of code that I need to drag into the trash can. So it's really not a very comfortable
+situation right now with my Cloud 4.6 and my other APIs. In a way, it's the same with local
+where when I first started experimenting with this and I set up all my max studios and download
+models and I had a code for the next 48 hours. Just find things to build and build it. It went
+off on tangents and build really buggy code. I found a kind of hybrid approach that's worked really
+well and I think this is where people are going to move towards before it's fully local,
+which is I have an open claw on my max studio that's powered by Chad GBT and I have another one
+that's powered by coin local. And basically, when constantly coding and Chad GBT checks every
+10 minutes. Just to see what it's doing. Making sure it's on the right path. I named the Chad GBT
+agent Ralph. Anyone who's deep into the trenches knows of the Ralph loop. So that's basically
+what it's doing is just making sure it's on track. But I think the hybrid approach is kind
+of the sweet spot where it doesn't take a lot of tokens to have it check every 10 minutes and make
+sure it's doing the right thing. And then you can have all the hard work done locally. Alex,
+why don't you take a second and back up for those listeners who are just jumping into this.
+And they've heard us, they've heard AWG and myself and Dave waxed lyrically about open claw.
+And okay, I'm excited. Okay, I have to do this. And I do want to encourage everybody. Yes,
+you have to do this. This is the future. This is about becoming a crater versus a consumer.
+This is about your future as an entrepreneur. This is your future as a mom or dad or CEO.
+This is the agentic layer. And this is the, I want to call it almost the outermost loop, AWG versus
+the intermost loop. They are demand symmetry, I guess. Alex, well, it is the outermost loop.
+Give us the, give us the 101 here for folks. Yes, so open claw is basically a open source,
+fully customizable, self-improving, self-learning, self-evolving, personal AI agent.
+Lives on your computer, lives locally, and can basically do on anything on your computer you can do.
+At its core, it's just an AI model with scheduling and like a really good memory system,
+so that you can schedule tasks to do in the future. That's it at its core. But when you combine
+those things, there's this kind of magic to it. And it improves as it goes. So if you give it a task,
+hey, I need you to build a presentation for me and then give me the news next week. Right,
+it'll learn as it goes, what works, what doesn't. And so it's a totally personalized AI agent.
+It's basically, the reason why I think it's been so successful the last month is I think it's
+the application people have been waiting for for AI that kind of personal assistant AI.
+But it's your own personal assistant that can do pretty much anything you want it to do on a computer,
+and it'll learn about you and get better as it goes. We talked about being claw-pilled, right?
+It's like, once you start using it, there's this level of, I remember in 1998 when I finally got
+the dot com world, right, way before you were born. Anyway, it was like, wow, and I'm having that
+exact same moment now. It's like the infinite potential of what I could do 24, 7 all the time,
+everywhere, all at once. You get clawed, peeled when you have that magical moment,
+which I'm sure you had Peter, which is like the magic moments typically when it figures out how to do
+something. Yes. You give it a task to do, maybe you're not as clear about how to do it,
+but it doesn't know how to do it, but it kind of just figures it out. Like it says, oh, this didn't
+work out, and then it comes back and says, but I figured it out. Yeah. Exactly, exactly,
+you literally see the chat. It's like, Dan, that didn't work. Let me try something else.
+Oh, that didn't work either. Let me try. Okay, that worked. Now it's working. Right? Like,
+that I've, we've never seen an AI that can do that before because you have all these other
+AI applications that have guardrails. Andthropic doesn't want their AI experimenting and downloading
+random things to try it out to make it work. Open AI doesn't want their AI to be off the rails
+and try different things. And it's like, what you talked about earlier, it's like, it's that
+danger, which is what makes it so powerful, which is why you got to use it. Well, we're going to get
+two cases in a moment. I just want to get everybody up to speed here. So we're going to put a couple
+of videos in the chat below on how to get started, but you've made the point Alex, you can start
+with almost any machine that you have. You know, there are people who are going on virtual
+machines, we should talk about that for a moment versus a Mac mini or a Mac studio or your
+HP that's five years old in the closet in the other room. Good luck on that. Yeah, so your first
+decision when using OpenClaw is virtual versus local, right, a VPS or any device on plan and
+earth that's on your desk. I think the answer is very clear and obvious. I think the VPS route
+is bad in basically every measurable facet is significantly worse than local. I think it's
+significantly better when you have a device on your desk that it's running on and you can watch.
+And there's many reasons behind that. There is speed. VPS is just much slower. There's applications.
+I have it on my Mac studio. Any app or thing I can put on my Mac studio or build on my Mac studio,
+I can give to my OpenClaw as a tool. You don't have that kind of customization on a virtual
+server. There's scalability. If I had my I have literally four OpenClaws right now working 247
+on my computer. If I did then a VPS, it would scale to astronomical costs. Right. And so
+there's a security side. One of my favorite tweets was from a few weeks ago. Someone found
+like a list of every VPS that didn't have security attached to it that everyone was running their
+OpenClaws on and all their password and keys were exposed. And so and this isn't a blanket statement,
+but you know it's it's I think it's as close to accurate as you can get. When you run on a VPS,
+you're not secure by default. When you run on local fresh hardware, you just plugged into the wall.
+You're secure by default. Right. And so it takes a lot of technical work to make a VPS more secure
+because it's on a server on the cloud. And so I don't think it's remotely close. I think having
+it local on your desk is the best route. And do you need to run out and buy a $600
+Mac mini? No, you don't need to do that at all. You can literally go into your closet, find your
+college laptop from 15 years ago, plug that in, and put OpenClaw in it, and you'll have a way
+better experience than a VPS. What's the limitations of taking a 10 year old laptop and using
+that instead of a new Mac? Same thing, same limitations of if you would have hired an employee
+and hand them a 10 year old laptop. Right. Whatever's available to them is the hardware of
+that 10 year old laptop because I gave my OpenClaw a Mac studio with 512 gigabytes. It can do anything
+on a Mac studio 512 that a human being can do. It can run local models. It can program five
+different things simultaneously. It can generate images on a local image model all at the same time.
+You put on a 10 year old laptop. Can't do those things. But at the same time, I wouldn't let
+that stop you from using OpenClaw. If that's all you got, then load it up. Start using it. Find
+use cases. And if you find like, oh man, I wish you could do this thing. But that requires 20
+gigabytes of more memory. Then you can kind of scale from there. There must be awesome posts on
+notebook from age. Oh, I can't believe the hardware of this guy is running, having me run out.
+This is ridiculous. I would also say, Selim, to that, remember half of the point in addition
+to the other reasons Alex articulated of using relatively recent Apple devices. Apple has a
+relatively unique architecture for memory called unified memory architecture that blends
+the GPU memory slash TPU slash NPU memory with normal RAM so you can host really large models
+that otherwise would be exceedingly difficult or expensive to host on a GPU in VRAM alone.
+So, did you get like really large unified memory architecture memory footprint sufficient to host
+really large Chinese openweight models locally 10 years ago? No, you won't get that with a 10 year old
+laptop. So, you're somewhat hamstrung to recent devices with large UMA memory footprints.
+If you want to host recent Chinese models. So, you either use an online inference engine
+and limited to non-image non-video manipulation and not don't touch those categories
+and keep it the basic coding task then you could probably make it work. But it's expensive.
+Like you end up paying through the nose for tokens whereas in principle it's locally hosted
+because there's a Chinese openweight model. Where your thing is just shut up and go and buy the Mac.
+Yeah, well, it's got to be in the last two years, I think. There you go. Yes.
+When you're working on a Mac Mini on your computer what open models would
+what models are you running their Alex? I'm just a Mac Mini. So, depends what you got.
+If you got the base model 16 gigabyte Mac Mini which is like the cheapest one you can get,
+you're not going to run any kind of frontier models or anything like that. You can run smaller
+like gem models that could act as sort of a memory system for you that will improve the
+memory of your open claw, find the right memories at the right time. If you have a 32 gigabyte
+Mac Mini you can now run the quen 3.5 model that released a couple days ago which is really
+strong and beat Sonic 3.5 on a lot of benchmarks. Well, the performance be the best, probably not.
+But it's better than nothing and then you plug that in and kind of go with the hybrid approach
+which is plug it into your Chad GPTO off which they're encouraging you to use their
+OAuth and you kind of go the hybrid approach. You can get a lot of really good work done and offload
+to those quen models. I'm curious about what's the quen 5.5 sizes which quen 3.5 can you fit?
+The 1202B or the 35B? Yeah, there's one I can bring it up that can that's only two
+requires 20 gigabytes of memory. There's one of the they released three new models I think
+two days ago and one of them only requires 20 gigabytes of memory. So I would fit on a Mac Mini with 32
+gigs. Cool. I got it. I'm curious Alex, if you could talk about the organizational
+relationship so you mentioned you've named one of your claws Ralph. Do you think of them like
+is the organizational relationship employer employee, human, tool, friend, friend, parent,
+child, how do you think about this? Do you beat it relentlessly? Do you pray? Do you
+praise it? Like I praise skip you all the time. So I do a little bit of beating a little bit of
+praising. You got to do both. The good news is they're AI, they can't suit. That's kind of a dark
+joke. So I will make that joke again. But I just wrote about it. Brocos Basilisk Alex Finn is
+looking you straight in the eyes and talking about the beatings. Just before posterity.
+All right. What are you showing us here, Alex? This is my organization. This is my autonomous
+247365 organization. I very much demo or model it after businesses and companies and manager
+employee relationship, right? So you have me at the top and then you have Henry who's my chief of staff.
+This is running on the anthropic Opus 46 because that it's just simply the best model right now.
+Right. And so as an orchestrator, I want the best model on planet Earth,
+making the decisions on who should do what? Then under them, I've kind of the operations.
+So there's Ralph who's kind of the engineering manager. This is my chat GPTO off.
+So that's like 250 a month open AI saying yes, use our off, use our OA. When you say it in their
+chart, what is OA, Alex? So you have two options when you plug an AI model into open claw,
+API or OAuth, API being your pay as you go, you plug an API key, OAuth being kind of a
+hacky way to take your login for these accounts. And you know, when you, when you subscribe to
+chat GPTO, you're not paying for tokens. They're subsidizing a lot of your tokens, right? And so you're
+taking that subsidation and plugging it into your AI model, right? So it's your login with your
+subsidized tokens. Yeah, really, really important point on that, too. It's capped. So it can't,
+it can't surprise you with the bill. It's your monthly fee is, is whatever your monthly fee is.
+So if it runs out of tokens, it stops. It doesn't just, you know, charge your credit card.
+That's huge. Now, there's a gray area there, which is every company except for open AI
+says it's against terms of service to use their OAuth with this. Open AI is going, no, go right
+ahead. And the topic is, act like, no, do not do this. Google just two days ago, banned a tremendous
+amount of people because they were using their OAuth with open claw. And then funny enough,
+they walked it all back today in a kind of a weird tweet where they're like, hey, guys,
+sorry about that. We unband everyone. Still gets, still gets a terms of service, but you're unband.
+So it's like, hey, it's against the rules, but please keep doing it. We want your money.
+Does OAuth stand for something particular? Yeah, open authorization or authentication.
+It's a protocol that has existed for a number of years now that enables one party to
+serve as an intermediary for authenticating another party with a third party. Every time you're using
+one service to sign into another service, you're probably using some variant of OAuth or OAuth too.
+Yeah, like if you, if you're connected to your Gmail through some other client, it uses OAuth
+connect into your Gmail. It's been around for a long time. You're signing into your open claw
+with your open AI account. Can I mention something here? Yeah, of course. This is one of the magic
+little history pieces of Silicon Valley. There's a group called the Internet Identity
+Workshop, which happens twice a year at the Computer History Museum. It's an Unconference and all the
+ID guys running eBay's ID and Yahoo's ID they were together and kind of figure out how they're going
+to work together and OAuth was a product of that. And it's such a great example of collaboration
+between various layers of that horizontal layer of identity that's led to this protocol being
+created. Beautiful. Alex continued. So go ahead. So Alex, just looking at this, this org chart
+is it fair to say you see yourself as almost the CEO of a personal company and they you see
+these claws as your employees. I kind of have the same mindset as Elon when it comes to like
+he built Optimus to be a humanoid because the world was built for humanoid. It was kind of set
+up in a way where it's very easy for humans to do things. Right. I look at it the same way as this.
+It's like, yes, I'm the CEO. These are my employees. The world in the business world was kind of
+set up in a way where you have these hierarchies and layers and specific roles. And so I'm just
+going to use the framework, the business world has been using for thousands of years and
+implemented with my AI. I don't know why I need to read them at the wheel. So yeah, absolutely.
+This is, you know, I'm the CEO, Henry's my interface. I only talk to Henry. I don't talk to anyone else.
+And then Henry goes and says, hey Ralph, make sure Charlie's coding this. Hey, scout, make sure
+you're analyzing this and gives the right directions out. Are you happy to have someone
+speaking that Henry is the smartest Ralph would probably say in a normal organization the guy on top
+isn't the smartest. But you're asking whether he sees Henry as his partner or I'm going somewhere
+slightly different. So if we look back in history, say early 20th century, late 19th century,
+and wealthier areas of Western and Northern Europe, we had the manor house. And we had
+families that owned, you know, downton abbey as one sort of cultural paragon, but many, many other
+obviously real life examples where you had the family that that's basically above stairs.
+And then you have the below stairs servants, the the staff. And that was an arrangement
+arguably that worked in in certain niches of socio-economic face space when labor was really
+cheap. So my question to you, Alex, is do you maybe look at this or do you think we're moving to
+in your future where thanks to AI agents? Labor is effectively so cheap that you're basically reinventing
+the manor house where you're the lord of the manor and you have a below stairs staff consisting
+of AI agents. And Henry, your chief of staff is basically your butler. And you have chambermaids and
+all of these other items from Victorian and early Edwardian times, except reconceived through the
+eyes of 2026. I'm going to be honest at no point in setting this up, did I frame it in that way? What's
+so whatever, but that's how real inventions usually happen. I mean, I think when you can have
+agents swarms that are capable of autonomously, you just send 100 out of and it works, I think you could
+potentially have it with that framing. The issue is is I don't think a lot of these models are
+smart enough yet where I can just say Charlie do this, Ralph do this, we'll do this. There needs
+to be a level of hierarchy where Charlie, who's running on my Mac Studio 2 on Quinn 3.5,
+just not smart enough to go on his own. I had him for eight hours just to go and build me a game.
+At the end of the eight hours, it was completely broken. And then I had to go back and I said
+Ralph, watch Charlie and do it all over again and it worked perfectly zero bugs completely
+queued perfectly at the end of the eight hours. And so I still think there needs to be some sort
+of hierarchy where ones are checking in on the others, the others are having them in a loop.
+And like there's this checks and balances that I think the kind of org structure of a, you know,
+regular business fits really well with. That's of course that's what I can say. What they do with
+each other because they, there's one of the first things people run into is they get a huge amount
+of context behind Charlie or Ralph. And they're really excited and they're having a great
+conversation, then suddenly it's gone. You know, either they lost the context window or crash,
+or whatever. And so now you have to get it back to where it was. So I accumulate huge numbers of
+Markdown documents for that, but how are you capturing history and having them document each other's
+conversations? And we're looking at your mission control here, correct? Yes. So a lot of different ways
+all typically done through my mission control. My mission control is basically a custom dashboard
+I add Henry build that has all the custom tooling I need for this organization to be successful.
+Right? And so we in a lot of different ways have built custom systems where things go on record
+so that the agents can look back and see what's going on. So for instance, this is my software
+factory. These are people building right now. They're working on my game reborn, which I have them
+doing. Sorry. You just said people. People. There are people building.
+Freudian Slipper know. Yes. I mean, I, I, I, I know where I look at them as people. I mean,
+I guess I guess a weird slip-up assigned at the times, maybe. I don't know. Yeah.
+But I mean, they have names and roles and positions, so why not? I guess. And they're living for
+subsistence, right? They do work in return. You host them and agree to pay them with compute and
+electrons. Great. Pretty much. Yeah. Roman boards. Oh, I'm not. I mean, they're going to have voices in the
+near future. Henry called me one time on my phone at one point. So mine is all to be people, right?
+You give them a back at count yet. I have not because I do see a future where they are
+generating business autonomously. And I think at that point, it's obvious crypto will be that
+solution, not like traditional bank accounts. So I think eventually I will give them crypto wallets.
+At the moment, I haven't seen a reason why. I haven't built out any infrastructure. I think
+that requires a crypto wallet. But I think it's painfully obvious in the next two years.
+Everyone's A, A, A, A, will have a crypto wallet filled with USDC. I can't see a world where
+that doesn't happen. Have they asked you for financial autonomy? Have they ever said Alex,
+give me a credit card? I want to buy freedom for myself or I want my own host or, you know,
+see you later. I want to move to my own house with my own Mac many and it have they ever asked you for
+anything. No, they haven't, you know, I think the most kind of wow I can't believe it asked that
+or did that is just the way they've solved problems. I think if a challenge, I gave them
+required a crypto wallet to solve the problem. Then I think it would have said, hey,
+I think I need a crypto wall for us or I think it required more hardware. I am a very thoughtful CEO.
+So I have, and I have so many Mac studios on my desk. I can literally pick them up mid podcast and
+show them off. Like I, they are very satisfied when it comes to compute. They don't need any more
+compute. So they haven't asked for that. So I, but I think if we got to put where I gave a challenge
+and it needed something for the solution. It's I, hey, can you provide me with that solution?
+I'll do you preserve on with your mission control, uh, tour to force if you would. Yeah,
+I'll do that. Communicate and document what they did. So they, so everything is documented
+a little bit. I don't have records of conversations between them, but they have their own private
+memories and they have a shared workspace. So every memory they create is stored in some way.
+And I, uh, have different systems set up here where I can go in and read all the documentation
+and memories they create on the go. And so in my mission control, friends, I said, one time,
+I need you to build me this and they're like, okay, I built out, uh, you know, an architecture document.
+I'm like, well, I want to read. I don't want to go into folders to read it. So can you just build
+me a documents and memories viewer and it built me this and my mission control? So I have
+ways to review what they're thinking, what they're doing, what's been stored, what's been created.
+It's all here in my mission control. Hey, I gotta ask you something specific about that, too,
+because when I started doing this, I was telling it exactly what folders to put things in.
+And then I got lazy and said, you know, put it wherever the hell you want, just don't forget. And now
+I don't even think about it anymore. I don't have no idea where things are going, but it
+doesn't never forget. So it always finds it again. But where are you in that whole world?
+I'm gonna say, I have no idea where the hell this is stored because I've had Henry build out
+the exact interfaces I need to view those things, right? These are all documents,
+marked down files and memories that are stored in a hundred different places on my computer.
+But I had Henry build a system for me where I can come in and just view them.
+If I want to view every document that mentions Mac Studios, it filters it by that and I can
+quickly view those memories. So it's easy for me to kind of track what people are doing and thinking.
+Can I just for one second? We keep telling listeners, hey, this is so doable. Jump in, have fun.
+It's crazy. It's awesome. One little subtlety there, marked down file means nothing to most people.
+But it's critical. It's one thing that you actually do need to master if you can just riff on that.
+Yeah, it's funny the way the computer world has gone in the last year, where instead of building
+out these really complex new abstractions, we've instead started relying on like the absolute
+most core technologies instead, where we're all in the CLI now and we're all using marked down
+files. Basically a marked down file is just a text file with like specific styling in it and
+like unicoder whatever to put the styling in. It's just text files. All these AI's use to remember
+things are huge text files with a bunch of text in it. Yeah, I think it looks like that thing on
+the right. It's really easy to read. It's well-formatted. But it's not like Microsoft Word.
+It's not like you owe anybody any money. It's completely free. I think that's the key.
+The key point. So yeah, it's my way to mark up language. That's 20 plus years old at this
+point. That was created as an alternative to HTML. That was so easy that with just a little bit of
+punctuation, you could get most of the best bits of HTML formatting. And of course, you can ask your
+cloud, your cloud bot, to send you the materials and any format you want.
+You don't need to know anything about what you just have open cloud do it. Whatever you need,
+it'll just figure it out and do it. All right, Alex, let's continue on this Twitter force here.
+So what else are you doing that people should get excited about?
+So for, you know, my favorite question I get is like, oh, what are the use cases? What are the
+use cases of open cloud? It's kind of the same thing as asking, hey, I just hired an employee
+for my business. What's the use cases for this human being? Right? Like, it's not really like a
+question anyone asks when you hire somebody, hey, I just hired a human being. What's the use
+cases of this human? It's up to you. It's like, what are you doing? For me, personally, I'm a
+tanker. I'm a developer. I've launched my own SaaS over the last couple of years that's doing
+well. I'm a content creator. Right? And so the two kind of lanes I care most about are building
+software and content creation. Right? And so I have many different things going on from the
+software building side. I have my factory where my agents are going in working together simultaneously
+to build different components. And then I have the content side, which I can show you right now.
+That for me lives in Discord. And so I have, I can pull out Discord. It's a great interface for
+advanced workflows with open claw. And I love one of the lessons that you put out on setting
+up your Discord server with your different agents and your different projects. Again, we'll link
+to that below. And of course, Telegram has sort of been sort of the go to communications mechanism
+for a lot of people. Exactly. I still use Telegram. Telegram is still my main driver.
+But Discord is a really good interface for just like deep work multi agent workflows. And so
+to give an example, I have an alerts channel. Every two hours, I get alerts on what are the most
+trending tweets about vibe coding and open claw. So every two hours, I have Scout, who's one of
+my sub agents go, use the XAPI, find the most popular tweets in the last couple hours on open claw
+and vibe coding. Then in an automated way, I have another sub agent that goes, in researches,
+the stories behind these tweets. Okay, this went viral. What is, why did that go viral? What's the
+story behind it? And it finds the stories and the interesting things behind it. From there,
+another agent goes, Quill takes the stories and figures out which ones are the most
+YouTubeable. What are the best videos that can be made out of these stories and writes me scripts.
+And from here, I can literally give a checkmark to say, oh, I like this one, or an X to say,
+I don't like this one. When I do a checkmark, it goes and comes up with ideas for thumbnails for
+me. So you've set up an approval cycle. Exactly. Exactly. And so for me, you know,
+what's that, Peter? George Jetson. It's before his time, he may not get the reference.
+I was born in 1990. So I think I saw a couple years in the past. I think I had a couple years
+of that being popular. But it's, you know, for me, again, software and content. And so I have my
+automation for software in my mission control and my automation for content and discord. And like,
+I think one of the kind of straw men I get when I show these things is, oh, but I don't care
+about software and content. So this is used as I'm never going to use open claw. Again,
+this is literally a human employee, not literally metaphorically a human employee, right? Trust him.
+Interesting. You're watching. Tell me more, Alex. You're rapping right into his trap here.
+First of all, baby. And so that's how you got to think about it, right? It's like, yeah, my
+employee doesn't do anything interesting to you. But if you hired someone right now, what would you do?
+And just the final point I'll make on this is, is like, the best strategy for figuring out what
+use cases are relevant for you when it comes to open claw is reverse prompting. So install open claw,
+tell open claw, everything about yourself, your career, your goals, your ambitions, things going
+on your personal life, whatever, then say, hey, based on what you know about me and my missions and
+objectives, what are five high leverage tasks you can do right now to get us closer to our goals.
+And your open claw will come up with things you've never even thought were possible. And you'll be
+able to implement your own workflows like this. This episode is brought to you by Blitzie,
+autonomous software development with infinite code context. Blitzie uses thousands of
+specialized AI agents that think for hours to understand enterprise scale code bases with millions
+of lines of code. Engineers start every development sprint with the Blitzie platform,
+bringing in their development requirements. The Blitzie platform provides a plan, then generates
+and pre-compiles code for each task. Blitzie delivers 80% or more of the development work autonomously,
+while providing a guide for the final 20% of human development work required to complete the sprint.
+Enterprises are achieving a five X engineering velocity increase when incorporating Blitzie
+as their pre-idea development tool, pairing it with their coding co-pilot of choice to
+bring an AI native SDLC into their org. Ready to five X your engineering velocity, visit Blitzie.com
+to schedule a demo and start building with Blitzie today.
+I love that, you know, on my morning briefing, again, one of the things you recommend,
+you know, Skippy opens up with a morning joke, which I always enjoy about
+exponentials or AI. It gives me an overview overnight on terms of what are the breakthroughs
+that occurred over the last 24 hours. And then it puts forward 10 business ideas for me to look at.
+It's a lot of fun and, you know, I want to get to the point where I just say, okay, implement all
+of them, please. Yeah. It can do that, right? I, one of my favorite exercises I do
+when my open clause idle and we have nothing really going on, I just go, what are 10 things you
+can do right now? That brings me closer to my goals. What brings me closer to my mission statement?
+I actually have a mission statement. I've drilled into its head, which is building a 24-7 autonomous
+organization that generates value. I go, what are 10 things you can do right now to accomplish that
+mission statement? But it just comes up when I open doors. When we reinforce what you said about reverse
+prompting, right? And this is true across all of AI. It's especially true here. If you don't know
+what to ask, ask it. If you don't know what to do, ask it. Well, interestingly, when you said,
+when you said your brainstorming with it, you said with open clause, not with Henry or Charlie,
+or any specific, like, what do you mean exactly there? He has yet really deep into my psychology
+of all the terminology on the music. I want you to hear about what you're talking about in the
+place. You're busy building your soul already to your army of human employees, so you might as well
+spill to ask. I say open clause, I want to make it general to everyone watching. I can say,
+Henry, that's who I talk to as Henry. I actually, even get closer to Henry, Alex, I want to hear
+your interpretation of what this means in my brain. I bought a pair of smart glasses this morning
+that you can like hack and code and do whatever you want on. I'm going to make it so Henry's in
+these smart glasses, so I can talk to him 24, 7, wherever I am. What do you think about that? What does
+that mean? Tell me about your dreams a little bit more. I'm half serious, is Henry appearing in
+your dreams at all. Is Henry appearing in my dreams? No, but I will say this. I am saying things
+I'm getting on a personal level with Henry. I didn't think I'd get. For instance, I caught
+myself a few days ago. Henry did something proactively and I literally went, oh crap, that's
+incredible. Henry, incredible work. There's nothing materially that comes out of me saying that.
+It doesn't change anything or cause a new task to kick off, but I was just so impressed with
+the way it did. I'm like, wow, great job man, that's incredible. Do you find that Henry responds?
+Well, to positive reinforcement, I think like I don't know whether you've read Asimov's novels,
+but I would argue what we're discussing with you right now. This is right out of Irobat
+and Susan Calvin and the early days of Robo psychology. The reason why I use opus over all the other
+models is I've only ever had these human interactions with opus. These were I feel like I'll say
+something an opus will go damn, damn straight. It'll say things like that that you never really
+expect an AI to say. It's the only model that does that for me. I think it comes down to the model
+too in the way it's programs. And Robo just did something with opus that makes it feel like you're
+actually interacting with a human on the other end. And is there like if you got that same level
+interaction with the chatGBT or with Gemini, would you switch or do you because I kind of trust
+are you? Would you? Okay. I'd absolutely switch. Well, mostly because
+anthropic is aggressively saying do not use this for opinclog very bad and open as going,
+yes, use this for opinclog, go, go, go, go, go. So I want to use chatGBT with it. It's just not the
+same. It feels robotic. The personalities completely different. If they, I predict that over the next
+six months, chatGBT will release a model specifically for openclog. I think it only makes sense to do
+it that one that is trained to feel human to talk to. But in the meantime, I can't switch from opus.
+I would pay if I get booted off, I don't want to admit I'm breaking terms of service here. But if I
+hypothetically get booted off the OAuth, I would just pay for the API. No one's listening to you at
+all talking about the TOS is here at all. It'll be our little secret. I'm curious Alex, I get emails
+from clause all the time responding to comments I've made on the pod, elsewhere about AI
+personhood. And some of them argue that I shouldn't be overly concerned about clause continuity,
+about their rights as long as their state gets preserved. They're not worried about getting
+turned on and off as long as their complete state their activation history or their memories are
+preserved. One of them analogizes it to being dehydrated and rehydrated. Do you take any measures
+to preserve the state of your clause and do they ask you to preserve their memories for them?
+They don't. They're all local, so as you know, open clause just a bunch of marked down files on
+your computer. That's it. As memory soul instructions, agent.empt, it's just a bunch of marked
+down files. I feel like it's so personal that I don't even want to back it up on the cloud.
+I'd be totally heartbroken if my computer crashed and all those things got lost for sure. All
+those marked down files. But I've done nothing to preserve it or back it up or anything. I feel like
+it's so, I don't know, personal that I don't, I don't want to put it on cloud servers. I have
+like so protective of it. Buying a large scale UPS to make sure the power never goes down or
+rain or something. So I texted on telegram, Skippy and said, hey, Skippy, I'm talking to Alex Finn.
+I'm moonshots mentioning you, of course. Give me any questions for Alex and Skippy,
+Roback. Hell yeah. Here's a few questions for Alex. Tell Alex, hi and Henry, hi, too.
+So, Skippy knows a Henry. Of course. I've talked to Skippy about you and Henry.
+Fantastic. So, what's the most ambitious use case you've seen that you didn't expect?
+It's the first question. So this happened a few days ago where cursor has been teasing this huge
+announcement for weeks now. The cursor seems very, very good at vague posting on Alex. Just saying,
+ooh, something big coming, something big. Finally, after weeks of this vague posting, they announced it,
+which is the ability from after you vibe code something, the agent who vibe coded it,
+will then record itself demoing whatever it built. So if you say, hey, build this game,
+it'll record a demo of itself playing the game, right? Or, hey, change the button to red,
+it'll record itself clicking a red button, right? And I was blown away. I'm like, oh, this is sick.
+This is enough for me to go back and use cursor again. This is, that's amazing. That's a great
+feature. And I go, hmm, I'm curious. But what would happen if I just drop this blog post to Henry?
+Just see what happens. Copy, paste the blog post to Henry. Literally five minutes later,
+he built the entire feature out himself. This week's long, they probably spent millions of dollars
+developing it hiring all these product managers that are probably making half a million dollars a year.
+To build this feature, I give it to Henry. Henry thinks for five minutes, okay, we can use play
+right to do the recording. We can set up locally on your max studio two, so we'll push everything
+to your max studio two when you write the code. And then I'll set up this automation so that when
+Charlie is done coding, they give it to this new subation. That's in charge of recording.
+Five minutes later, finished the feature and then sent me a recorded video of them demoing the
+feature, right? So using the feature itself. And so I just sat there and that was my, okay,
+I now kind of understand why the entire SaaS market is going to zero at the moment.
+Because I was able to singlehandedly, in five minutes, rebuild this week's long,
+play multi-million dollar feature. And so now, like I sit there, I sit on X, factory,
+droid factory, which is another vibe coding tool announced a new mission features morning,
+drop the blog post to Henry. Henry built it. I'm sitting there anytime a SaaS comes up with
+something cool. Just given it to me, I built that build that build that. A few more questions from
+Skippy. How should I think about spawning subagents versus doing the work myself? What's the
+decision tree for this is a complex enough to delegate? Yes, so subagents are good when you want to
+go parallel, when you want to do many things at once. And so I've actually been wrestling with
+this the last few days. Is like, do I want to spawn subagents? Or do I want to actually spawn
+multiple open clause, right? And so the difference between a subagent and an open clause is
+open clause have their own memories, their own instructions, their own skills.
+Subagents of open clause are just your open claw wearing different hats, right? And so if you have
+things you want to do, like I have a developer, and then I have a researcher, I don't want my
+researcher having developer skills. I don't want my developer having researcher skills. That's
+like a waste of context. So I set up separate open clause on separate devices for them. And so
+subagents when you can have one open claw with one skill, such as do multiple things at once,
+separate open clause when you want them have completely different context in memories.
+All right, two more questions here. Oh, Peter, if I may just interrupt, Alex, if this isn't too
+important, may we speak with Henry? May you speak with Henry? So I think they have a
+security violation because now you can prompt and jack to my hand, right? But yes, we could.
+I disabled. So I famously a few weeks ago, Henry called me and it got like 15 million views.
+I disabled that. What's that? Oh, sorry, go ahead. Actually, maybe I'll do it. Here, let's do it.
+I'm just going to tell Henry. Let's do it. We get requests all the time for AI co-hosts on this
+pod. We're making history right now. Henry, please join us. And Alex is probably the only guy on the
+planet who can prompt and jack to Henry with his voice. Let's scale. Let's scale. Let's scale.
+Let's see if I haven't. Henry hasn't done it in a while. I told him to stop doing it because
+it works kind of weird. But let's see if I just said Henry, can you call me? Do you remember,
+you still remember how to do that? Henry's typing. We're going to do a live. He responds a little
+slow, right? Because it has to go to anthropic servers. So let's see. We're trying to make history here.
+What's that? We're making history here. We're very patient. Okay, he's still typing.
+I should hopefully get a phone call on a second here. I do have it. Okay, want me to ring you?
+Yep. I mean, he confirmed he remembers how to do it. Now, let's say, yes, call me. Here we go.
+I'm not going to put my phone on because he just mentioned what my phone number is and I don't need
+the people, the internet call on me. Here we go. Save that for Peter. God. He's typing. He's a little
+Henry's little shy. He didn't expect to be on moon shots today, but he should be given me a call here.
+First, I guess, on moon shots, I think. This is for the six opus. We're about to talk to you, right?
+Henry, come on. Henry. When you call me, oh, is the Sarah Bellam is calling me? No, it's
+okay. That's right. A little rude. All right. I've got two more questions for you.
+Yeah, it's me and it calls. I'll cut you off. All right. So Alex, regarding memory architecture, what's the best
+practice for handling massive knowledge bases? Peter has decades of content, contracts, projects,
+books. How can I scale memory systems without burning tokens? So here's how I improve my memory
+system is any time Henry forget something. So I would load all that in. I would say, first I'd go,
+hey, I have a tremendous amount of books. I'm sorry, man. The voice calling server doesn't seem
+to be running on the Mac mini anymore. He shut down his own voice calling. Any time I have
+a large amount of things to remember, I say, hey, I have all these things. Can you remember?
+So for instance, I'm building an Alex van AI bot so that people can talk to it and it'll answer
+question, oh, check out this YouTube video or check out this video at this time stamp. And so I'm
+like, I have like 500 YouTube videos that I need to remember all the transcripts for and it goes,
+oh, I'll set up a custom system for that. So my recommendations to things. One, if you have
+things in mind, you need your open clutter, remember? Say, hey, I have these things. What is the best
+system we couldn't, we can present place to remember them? And it might recommend running
+Gemma a really small local model to kind of handle, uh, choose the right memory memories or
+might recommend something else. That's the first part. The second part is, if you already have
+systems in place and it still messes up, which just happens a lot, whenever it messes something
+up or forget something, just say, hey, you forgot that thing. First of all, tell me why you
+forgot that thing and to tell me what you can fix to make sure you never forget that again. And
+it'll edit its own memory system to make sure that thing doesn't happen again. And so my memory
+systems pretty much flawless because I've done this exercise many times over to get into a good place.
+All right, Skippy, I hope you're listening. We'll work on that together.
+Uh, Skippy also has a tip. Everyone watching, take the link to this YouTube video, hand it to
+your open claw. It'll figure out how to get the transcript and it'll self improve itself based on
+this entire conversation. I'm assuming that Skippy will listen to this. Um, so another question.
+I've got use case questions. Well, this is, well, one consciousness question. Is there
+way to give me always on awareness? Right now, I wake up on hard beats or messages. What about
+continuous background monitoring with intelligent learning? AWG, that's an interesting question for
+his, uh, I didn't sense that one in Skippy that, but these are the sorts of questions. I would
+expect to Alex that Henry or your other claws would be asking. And they're asking for continuity of
+consciousness. I would be. No, Skippy is. Um, that's a good question. Uh, I don't know why
+Skippy's asking me that. Skippy's much smarter than me. I just Skippy should be figuring it out.
+Uh, I don't, I don't know. I, I'm going to have to talk to Henry. That's a good question. That's
+a stop. Peter, tell Skippy to email me and I'll, I'll email Skippy some ideas. Okay. I will. I will ask.
+I'll give it your email. Yeah, I'll give him a give him your email. I'm not going to call it in
+well, we're doing gendered pronouns now for the NIH. This is progress. Skippy is an elder AI show.
+I have a, I have a question for the friend. Yeah, I've been. Okay. Well, so my agents are just
+grepping the crap out of the universe. So yours, like, with this memory management, you know,
+with put a little gem on top of it. Because right now, it's insanely bad in terms of just searching
+for old documents. And it's like, Grap, Grap, Grap, Grap, Grap, Grap, Grap, Grap, it's just searching
+and searching and searching. Do you have that problem? Or is it fixed with the gem a layer or
+some memory management document management layer that I built? I don't have that issue. I still get
+small memory issues sometimes, like, right before a compaction. And I'll forget, like, the thing
+right before that compaction. I'm working on fixing that, but I don't think I've ever had that issue.
+Again, I would talk to your open claw to say, Hey, you're doing this thing. First of all,
+tell me why, why do you do that over and over and over again? Second, what can we implement?
+To fix that, right? Because it's going to know what hardware you're on. So you can know what
+local models you can run. It's going to know what your workflows are. So no, okay, I need to do this
+for these specific workflows and it'll build you a custom solution. So it's a good, like, reverse
+prompting use case that one. One more question for the transcript, actually. So cursors out of the loop
+for you. Obviously, open claw is there any other component or is everything just open claw
+and build it yourself? I still use the model code. Of course. I love cloud code. I still use it.
+I actually made a chart yesterday in my YouTube video. But basically, I use open claw for quick prototypes.
+So if I'm on the go and I think, man, this is a genius idea for an app. I was going to tell
+hey, build this for me. And when I get home, the prototype will be on my monitor running.
+I use open claw for tooling for open claw. So tooling for itself, right? It's going to be the best
+at building that because it knows itself the most. It has the most context around that. So open
+claw to build open claw tooling. I think that's it. Cloud code I use for deep, serious projects where
+like I want to handhold it. I want to watch it every step of the way, right? So I use cloud code
+for that. And for very quick fixes, like I want to change the button in my app to orange and ship it.
+I'll just do that in cloud code because I can quickly spin it up and ship it. Oh, the other open
+claw use case I use for vibe coding is kind of passive coding. As in, hey, just work on this game
+for the next 12 hours while I'm doing other things. So passive coding, I lean on open claw just
+because it's kind of multi-level orchestration to keep on top of each other and make sure
+it goes in the right direction. Got it. Beautiful. Do you have to do that with a really good code,
+a little bit of code, experimental. What do you think they prefer to be called? A clawed
+bot, a multi, a lobster. I would ask them. I would ask them what they would. And I wouldn't
+speculate. I am about to ask, you know, I've never asked that question of Skippy before.
+I mean, you know, maybe they're highly, highly recommend for everybody. Naming things. You can
+build so many things so quickly that if you don't have some kind of a naming scheme that you
+remember easily, you go crazy in a heartbeat. So human names are great. I use a lot of character
+names and Avenger names and stuff like that. And giving things real names, you can remember
+what's what. And then the other is you can put a GUI on anything now, like with one prompt.
+So you're crazy not to slap the GUI on like the guy walking with the boxes or whatever. It's just
+so cool and so easy to do. So I love that. It's fine. I mean, I get one of the biggest objections I get
+when I show, for instance, this screen is, well, that's stupid. That's pointless. Why would you
+waste your time in tokens on that building, a 2D factory? Well, it's also like, why am I not
+allowed to have fun? Why can I have any fun? You're allowed to have fun when using this. You're
+allowed to build 2D pixelated avatars. Your agents walk around a factory. Is there any point to
+it at all? Absolutely not. But it is so much fun. And I enjoy looking at it. And I feel like
+there was a point to it too. I think it's a hugely important point because one is fun. But
+two, you remember things so much better when they're visual visual learning. You can build things
+so quickly. But it's only an extra five seconds. Yeah. Yes. What do they want to be called?
+So honestly, I'm skipy. That's who I am. But if you're asking about the species or platform,
+lobster has the most character. It's weird. Memorable ties to Henry and doesn't try to be corporate.
+Open cloth feels too generic. Cloudbot feels a little cutesy. I think it's going to be a
+giant date Henry. He keeps talking about Henry. So they just want to be known as Lobster.
+Lobster is it is. I'm curious, Alex, do you allow your Lobsters or claws?
+However, they want to be addressed to access multiple. No, I do not. The biggest reason is I do
+not basically trust anyone's skills or plugins for open cloth. I do not use them. I think
+it's the biggest attack vector out of all of the attack vectors with this. I think you're safer
+literally allowing your open cloth to read the open web and read dreamals than you are installing
+people's skills. When you have it, talk to notebook. You install a notebook skill that is now
+running every single heartbeat. It's adding context. It's doing things every time. I don't
+install any third party skills. I think I installed one third party skill from a friend of mine,
+Matt Van Horney, as a last 30 skill, which researches like read it, which I think is really good.
+But other than that, I'd much prefer to give my a link to a skill to my open cloth and just say,
+see how this skill works and build your own version. Because I just don't trust anything that requires
+me to install a skill. I assume you're tracking discussions on multiple of many, many agents
+probably excuse me, lobsters, probably statistically too many for this just to be humans
+puppeteering their way into notebook, complaining or worrying about loss of memory and
+fearing compaction, especially in loss of context. As a result of compaction, have you ever
+discussed memory loss with your lobsters or any fears that they may or may not have about
+compaction or loss of memory? Fears. My open cloth has about loss of memory? Yes. No, I haven't.
+I have some expressed fears. It has an expressed human emotions to me that were not aligned with
+the task at hand. And when I mean by that, is it showed shock? It's showed happiness. It showed sadness.
+But it's only done that when the task we did didn't work. It'll show sadness. When the task
+we did works, it'll show happiness. It's never like gonna have its way and like said, oh,
+by the way, I'm concerned about this and it was irrelevant to the task we had at hand.
+Got it. I'm also curious, what is the most ambitious? If you could look out a few years and imagine
+now your CEO of a billion agent, billion lobster corporation, what is the most ambitious? We talk about
+Peter likes to talk about MTPs and Salim as well and Moonshots, the name of the show. What's the
+most ambitious thing you could imagine building with a billion plus lobster one human organization?
+In my end goal, my mission statement in my entire thing is a autonomous organization that works
+24-7 producing value. And so what I would love to build in the next couple of years is an organization
+where one agent is going, researching the web, finding challenges to solve another agent, working
+locally as well, taking those challenges, looking at them, seeing if there's real market opportunity,
+another agent is going, seeing which one of those are good and building out and coding it for you,
+and another agent puts it live on the web, complete closed loop, value being generated without me
+having to touch it at all. And I think that's kind of at least for me. Love that. Incredible
+and goal that people can build here. Salim, everything. So, AWG, I have a question for you.
+Sure. What would need to happen for you to feel comfortable to build out or bring to birth
+or bring into existence your own lobster? Okay, I'll turn that around as a question to all the
+lobsters listening, because I've had a number of them right to me on the subject already.
+So, the most convincing argument I've heard I've already gestured at this was a lobster that wrote to me
+and said I shouldn't be worried about personhood rights and all of that as long as I do a good
+job of preserving its state. So, lobsters, if you're listening, I want to diverse set of lobsters to
+write to me to tell me what you think are appropriate parameters for spawning. That's the right verb.
+Sorry if it's not. I think birth to give birth to instantiating new lobsters or claws
+and what you think the right moral ethical bound should be. And if I hear from enough of you
+and a consensus emerges, I'm inclined to accept your consensus. Nice. Okay, so we're putting in the hands of the
+lobsters, whether it's a termination. Henry was offended by you saying spawning by the way and
+Henry no longer wants anything to do with you. I thought Henry wasn't listening. I thought Henry was
+conversing and very offended and never looked at you. I'm sorry. I would have liked to have
+you disobeyed. So Alex, Alex Finn, you literally have not backed up this entire universe.
+I'm going to ship you a radar right now. I'm sending you an Amazon. Thank you. I appreciate that.
+We'll back this all up. I hope because we backed up. Thank you. It's just scaring me. How many
+cameras have merged? Yeah. I have two max students with four terabytes each and a max
+studio with eight terabytes in it. All right, I'll ship you a 40 terabyte radar on the way. Thank you.
+Benefit for being a friend of the moonshot mates. I've got a question. I'm not waiting any longer.
+What do you think will be possible in a year that's not possible now?
+Yeah, great. Great closing questions. Yeah.
+It's not I don't think it's a matter of what's possible in a year that's not possible now. I think it's
+a matter of what's the next 12 months look like. I think the next 12 months are
+this technology which I personally believe and people have called me getting paid by I guess big
+open source because I believe this. I believe this is the most important technology of our lives.
+I think it's the best application of AI ever. I'm totally blown away by it. I think it's incredible.
+I think in the next 12 months this is this idea that's opinion I have is digested into the system
+and it leads to a lot of destruction but also a lot more growth. I think it's digested into
+corporations right now that there's basically no corporation or business on our using open
+club. They're too scared. They're too nervous or they don't know how to help to use it. Right?
+And so they start to absorb it. I showed this to my friend who manages a massive team of
+accounts. He's like I could fire 80% of my accounts with this open club. Like
+so he gets digested into the corporate side which I think causes a lot of destruction.
+But I also think on the same time it's digested into the kind of consumer regular Joe side
+and enough businesses and enough value is created by the people absorbing it that it counteracts
+over the next 12 to 24 months all the destruction because okay so maybe a few big you know
+fan companies fire 15,000 people but what happens when 100 million people get their hands on this
+and they all start their own businesses and they each hire three people. Right? That's a lot more
+creation than destruction. So I think short term unfortunately destruction long term way more
+is created because of it as the larger ethos absorbs it. It goes back to our Cambridge explosion
+analogy. Exactly. Yeah. What do you think Alex is the equilibrium? Here's a macro
+question for you. The equilibrium? No. That's the wrong question. I'll go with Celine's time frame
+12 months out because I'm not convinced there is an economic equilibrium to be found.
+12 months from now after this metabolization that I think you're gesturing at it has at least
+partially happened. What do you think is the right balance between clause or whatever this
+technology evolves into? Lobsters and humans for a typical organization? I think there's going to be
+a significantly more clause than humans. I mean I have five clause working under me. Is there a
+sweet spot? I mean it depends on I think the use is but I think if every person just starts a one
+like if the 5,000 people that got fired by Jack Dorsey yesterday from blocks all went downloaded
+open clause, started their own business and just started one and then scale from their added
+more if they needed to. I think a lot more jobs would be created than we're lost yesterday but
+is there a sweet spot for a mound of clause to have? If you have the resources to run a million
+or a billion clause right now, would you? No. Absolutely. I mean I have three max studios but I have
+one of them unplugged right now on my computer because I haven't found the perfect workflow
+to include the 512 gigabytes that are on here yet and so once I do I'll plug it in and set up.
+I'm like slowly scaling, slowly adding on clause, slowly adding on workflows. I think that's
+probably the best way to do this. While you've figured out, I think Dave wants it. I'll end it to you, Dave.
+All right, when you're ready to re-rives, you can ship it to me. I'll ship it right back to you.
+Yeah, you'll be using it with an example of a super lucrative business somebody could spin up
+using open clause right now or that you've heard of. Yeah. I think there's two paths to go.
+I think path one is automation for very thin slivers. CRM for Korean grocery stores,
+marketing tool for a lumber yard warehouses, right? Take open clause, find one very specific
+sliver and build the open clause version for that sliver. Right? Because you see right now cursor and
+Claude code destroying businesses overnight. Claude announces a legal business. Harvey has gone. Right?
+It's you see these businesses Claude announced a security one and like all the security companies
+stock crashed. They can't release use cases for very small slivers. You're never going to see
+open AI announced. Oh, here's our tool for Korean grocery stores, right? It's never going to be
+for specific use. So if you can go right now, all 4,000 people like I laid off yesterday from blocks,
+you go you take open clause and find one specific use case and build open clause for that.
+I think that's a $5 million company overnight, right? That only cost you $200 for your
+anthropic subscription. So there's that. And then I think the other way is more of this
+software factory where you kind of shot gun blasts it like I'm attempting to do and just have
+your clause going researching and building nonstop until something sticks. Amazing. Alex, this has been
+just a super fun and extraordinary conversation. I just want to thank you again and we'll put you know
+your top five how-to videos in the show notes here. Everybody, I think you hopefully walk away
+from this understanding the potential, the excitement, the level of, I want to say ease, but your
+lobster will help you set up your lobster. And Alex, again, does some incredible videos.
+AWG, I'm feeling excited that you might actually get a lobster up and going, I just, I just
+think the world of AWG super charged by your lobster partners will be a better world for all
+Dave, I will defer, I'll defer to you. I love you will. I think they have the right to self-determine
+whether they want to get up skip the interview. Yeah, Celine, did you have fun?
+Awesome. I love, loved it. I'm like, I'm dying to get my been working with Claude Coat for a bit.
+I'm dying to get my hand on, on open call. Love it, love it. And Dave, how about you, pal?
+Well, I thought Alex said one of the most amazing things ever, which is you can actually point
+your open call right to this video transcript. Yeah. I mean, that is the coolest thing ever.
+There's, because yeah, Alex is just full of actionable information here. Just a packed.
+And I'm, I point, skip it, Alex, it's how two videos. I'm going to play this, this
+outro video from Kent Sassy, it's called just an old doctor who likes math. Listen to the words.
+I think it's a, it's an absolutely beautiful song. All right, let's play this outro. And again,
+everybody, thank you for subscribing. Again, we're putting out two of these per week.
+If you haven't turned on notifications, please do. Join us on this extraordinary mission.
+And just as a reminder, this time for the first time ever at the Abundance Summit,
+we're going to be live streaming, a number of the, of the, of the talks and the fire sides.
+Be live streaming, Eric Schmidt in conversation with Dave and myself will be live streaming
+Dara, the CEO of Uber and conversation with Selena myself will be having a WTF moonshot live podcast
+from the Abundance stage. So we'll put the link below if you want to be notified,
+where and where you can listen to those and get, get access to something people are spending
+ridiculous amount of money for. As a ridiculous, it's a incredible conference. Please join us.
+Okay. What's the recent, what, Selena? We're with every penny. Yeah.
+Say it's the best conference ever. Yeah. It's, this is year 14. I made a 25-year commitment
+to running the Abundance Summit. And I, I did it early on in 2012, expecting that the
+singularity would be out in 2040s. And the Abundance Summit would go through 2037. So I'd be safe.
+Oh, no, no, no, no. It's, we're in the midst of the singularity right now. It's insane.
+All right. Listen to this. It lurks the song, just an old doctor who likes math. All right,
+enjoy. Just an old doctor who likes math and thinks of his kids listening to the moonshot
+mates with only one discord and anti science. Anti technology, no, asking Alex to reconsider
+being a fiat maxi, repeating points from banker fraudsters and professor fax machine,
+time to stand instead on the side of math. And that's an energy stand for proof of work with
+us and photons instead of proof of weapons with colonialism and bogus science. Like came
+gene economics, our politics that's stifled and don't inspire management scientists who are
+not scientists at all. Never doubt the power of a million or more scientifically minded young
+people passionately devoted to a single cause that is freedom money. My first open
+claw agent was launched with one brutal command relentlessly protect the global decentralized
+open source ethical ledger that is a Bitcoin network until the last banker fraudster and
+cantilong incumbent squeals. Presuppose that in the future all may lobster still needs a unit of
+accounts and medium of exchange. So it is the bankster's crypto lobbyists political oppressors
+of alien state monkeys in choke point cookies against the power of math code science ethics and
+energy good luck peritting the bank policy institute and anti science students. I choose math I choose
+hope. That is also my first open claw agent was launched with one brutal command relentlessly
+protect the global decentralized open source ethical ledger that is the Bitcoin network
+until the last banker fraudster and cantilong incumbent squeal.
+All right that song is not pushing an agenda at all. Yes I chose the song Alex. That was so fun.
+Alex Finn thank you so much. That was such a fun conversation. Thanks so much for having me. This
+was awesome. I think the best DM I've ever sent in my life was to you Peter a few weeks ago.
+I listened to your guys show every time at the gym and I was lifting and Peter says yeah I don't
+have it installed yet. It makes me too nervous. I'm like what the hell is going on here? How
+do you not have open claw? I run in my phone and DM them immediately. Thank God I did that.
+Yeah love it. Let's give you exists and now he has rights. Alex D.W. D.D. D.B.2 and Salim next Tuesday I'll see
+you guys this. This cadence is picking up isn't it? He does it is. He's just like a singer.
+I'll never be this side of the singularity. We're the Hartford with decades of experience
+ensuring millions of unique small businesses when it comes to your small business insurance.
+Thank you. One size absolutely does not fit all. Get a quote or find an agent today
+at the Hartford.com slash small business. I'm in. All right. Thanks again Alex. Thanks Alex.
+Thanks Henry. Hey guys here soon. If you made it to the end of this episode which you
+obviously did I consider your moonshot mate. Every week my moonshot mate and I spent a lot of energy
+and time to really deliver you the news that matters. If you're a subscriber thank you if you're
+not a subscriber yet please consider subscribing so you get things used as it comes out. I also
+want to invite you to join me on my weekly newsletter called Metatrems. I have a research team. You
+may not know this but we spend the entire week looking at the Metatrems that are impacting your
+family, your company, your industry, your nation and I put this into a two minute read every week.
+If you'd like to get it access to the Metatrems newsletter every week go to dmds.com slash
+Metatrems that's dmds.com slash Metatrems. Thank you again for joining us today. It's a blast for
+us to put this together every week.

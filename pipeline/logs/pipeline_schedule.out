@@ -3683,3 +3683,391 @@ Found 1 processed episodes not yet in insights
   ✓ Promoted: 'The Future of Health and Biotech Innovations' (sentiment=neutral)
   ✓ Auto-archived 1 older insights
 ✓ Promoted 1 new insight(s) to website
+
+============================================================
+STEP: Promote Newsletters to Insights
+============================================================
+Found 0 newsletters not yet on site
+
+============================================================
+STEP: Aggregate Daily Scores
+============================================================
+✓ Saved 0 daily scores
+
+============================================================
+STEP: Generate Deep Dives
+============================================================
+Generating Deep Dives for 1 insights...
+
+  Using Moonshot/Kimi API
+[66] The Future of Health and Biotech Innovations
+  ✓ Deep Dive stored
+
+✓ Generated 1/1 Deep Dives
+
+✓ Generate Deep Dives completed
+
+============================================================
+STEP: Fetch Prices
+============================================================
+OWD... $434.13 (+4.42%)
+  Fetching CRSP... $58.78 (+9.83%)
+  Fetching CVNA... $328.26 (-9.20%)
+  Fetching Copper...     Error fetching Copper: HTTP Error 404: Not Found
+Failed
+  Fetching DIS... $101.66 (-5.08%)
+  Fetching DOCS... $25.49 (+0.16%)
+  Fetching DXY... $0.00 (+0.00%)
+  Fetching EDIT... $2.32 (+34.88%)
+  Fetching EMAX... $0.00 (-0.00%)
+  Fetching ETH-USD... $2042.91 (-0.57%)
+  Fetching FB... $42.48 (+0.29%)
+  Fetching FTIE... Failed
+  Fetching GDX... $102.44 (-0.12%)
+  Fetching GLD... $472.53 (+3.11%)
+  Fetching GOLD... $50.10 (-13.28%)
+  Fetching GOOG... $306.01 (+0.68%)
+  Fetching GOOGL... $306.36 (+1.00%)
+  Fetching GS... $832.03 (-10.89%)
+  Fetching Gold... $50.10 (-13.28%)
+  Fetching HOOD... $79.35 (+5.50%)
+  Fetching IBM... $253.33 (-2.86%)
+  Fetching IEF... $96.75 (-0.26%)
+  Fetching ILMN... $124.28 (+3.49%)
+  Fetching INFY... $14.42 (-4.19%)
+  Fetching IWM... $253.62 (-3.93%)
+  Fetching JNJ... $242.59 (-0.98%)
+  Fetching JPY... $33.45 (-7.28%)
+  Fetching LLY... $1008.39 (-1.19%)
+  Fetching META... $647.39 (+0.65%)
+  Fetching MINE... $3.69 (-6.11%)
+  Fetching MSFT... $409.41 (+2.45%)
+  Fetching MSTR... $138.95 (+10.98%)
+  Fetching NEE... $92.01 (+0.87%)
+  Fetching NOW... $121.93 (+13.10%)
+  Fetching NVDA... $182.65 (-2.84%)
+  Fetching Nasdaq... $607.76 (+0.33%)
+  Fetching OKLO... $61.78 (-8.32%)
+  Fetching PLTR... $156.43 (+15.55%)
+  Fetching PQNT... $21.49 (-4.45%)
+  Fetching PYPL... $46.16 (+11.36%)
+  Fetching QQQ... $607.76 (+0.33%)
+  Fetching Russell... $253.62 (-3.93%)
+  Fetching S&P... $678.27 (-1.17%)
+  Fetching S&P 500... $678.27 (-1.17%)
+  Fetching SF... $73.05 (-9.06%)
+  Fetching SLV... $78.26 (+11.66%)
+  Fetching SMR... $12.16 (-14.37%)
+  Fetching SNAP... $5.13 (+5.12%)
+  Fetching SNWGF... $13.34 (+12.67%)
+  Fetching SONY... $21.62 (-3.91%)
+  Fetching SPY... $678.27 (-1.17%)
+  Fetching SQ... Failed
+  Fetching SQQQ... $70.60 (-1.12%)
+  Fetching Semiconductors... $394.37 (-4.41%)
+  Fetching TDOC... $5.30 (+13.73%)
+  Fetching TLT... $89.23 (-0.34%)
+  Fetching TSLA... $398.68 (-3.07%)
+  Fetching TWTR...     Error fetching TWTR: HTTP Error 404: Not Found
+Failed
+  Fetching UNG... $12.31 (+3.71%)
+  Fetching URANIUM...     Error fetching URANIUM: HTTP Error 404: Not Found
+Failed
+  Fetching US 10 year Treasury...     Error fetching US 10 year Treasury: URL can't contain control characters. '/v8/finance/chart/US 
+Failed
+  Fetching USO... $104.33 (+31.40%)
+  Fetching Uranium...     Error fetching Uranium: HTTP Error 404: Not Found
+Failed
+  Fetching VEEV... $195.57 (+7.90%)
+  Fetching VIX... $25.50 (+29.97%)
+  Fetching WIT... $2.31 (+0.43%)
+  Fetching WORK... Failed
+  Fetching WTI... $3.09 (+32.05%)
+  Fetching XAU-USD... $0.00 (+0.00%)
+  Fetching XLE... $56.32 (+2.81%)
+  Fetching XLK... $139.76 (-0.82%)
+  Fetching XOM... $150.44 (-0.16%)
+  Fetching ZEN...     Error fetching ZEN: HTTP Error 404: Not Found
+Failed
+
+✓ Saved 76 prices to /Users/jaredsheppard/.openclaw/workspace/site/price_data.json
+Finished: 2026-03-09 22:05:12.524849
+
+✓ Fetch Prices completed
+
+============================================================
+STEP: Generate Charts
+============================================================
+
+STDERR: Traceback (most recent call last):
+  File "/Users/jaredsheppard/.openclaw/workspace/pipeline/generate_charts.py", line 7, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+
+✗ Generate Charts failed
+
+============================================================
+STEP: Auto-Curate Terms
+============================================================
+============================================================
+Auto-Curating Suggested Terms
+============================================================
+
+🔍 Scanning content for new terms...
+
+✓ Found 0 new potential terms
+
+Found 0 new potential terms from recent content.
+
+📊 Analyzing 3 pending terms...
+------------------------------------------------------------
+
+============================================================
+CURATION SUMMARY
+============================================================
+  Auto-promoted: 0
+  Flagged for review: 3
+  Skipped (low relevance): 0
+
+============================================================
+TERMS FOR MANUAL REVIEW
+============================================================
+
+• Compute Deflation Trade
+  Relevance: 50
+  Mentions: 3 in 1 source(s)
+  Definition: The investment thesis built around the 400x AI compute cost collapse: identifying who wins (inferenc...
+
+• Agentic Velocity
+  Relevance: 50
+  Mentions: 2 in 1 source(s)
+  Definition: The compression of decision-making and capital deployment timescales as AI agents replace human work...
+
+• Machine-Native Money
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: Payment rails designed for autonomous AI agents rather than human users....
+
+✓ Auto-Curate Terms completed
+
+============================================================
+STEP: Export Website Data
+============================================================
+============================================================
+Exporting Website Data
+============================================================
+✓ Exported website data to /Users/jaredsheppard/.openclaw/workspace/site/data
+✓ Exported: {'ticker_scores': 41, 'podcast_summaries': 14, 'archive_items': 62}
+
+============================================================
+Generating Website JavaScript
+============================================================
+✓ Generated data.js with 41 tickers, 62 archive items, 52 deep dives, 3 suggested terms
+✓ Bumped data.js cache-buster to v=1773111912
+
+============================================================
+STEP: Push to GitHub
+============================================================
+✓ Pushed to GitHub: Pipeline update 2026-03-09 22:05: 1 podcasts, 1 insights, 0 newsletters
+  iMessage failed: Command '['/Users/jaredsheppard/.openclaw/workspace/send_imessage.sh', '+16306437437', 'Pipeline Update\n\n📊 Pipeline Complete\n\n🎙️ 1 new podcast(s) analyzed\n\n🌐 Website updated']' timed out after 15 seconds
+
+============================================================
+PIPELINE COMPLETE
+Finished: 2026-03-09 22:05:30.828388
+============================================================
+📊 Pipeline Complete
+
+🎙️ 1 new podcast(s) analyzed
+
+🌐 Website updated
+2026-03-10T05:00:36-05:00 run_if_scheduled: in window, running pipeline
+============================================================
+AUTO PIPELINE
+Mode: full
+Started: 2026-03-10 05:00:36.273539
+============================================================
+
+============================================================
+STEP: Podcast Curation
+============================================================
+======================================================================
+Podcast Curation System
+======================================================================
+
+Found 6 podcast feeds
+
+Fetching episode metadata...
+  Fetching: https://feeds.megaphone.fm/DVVTS2890392624...
+    ✓ Moonshots with Peter Diamandis: 1 episodes
+  Fetching: https://feeds.megaphone.fm/EWWMN1909747317...
+    ✓ Monetary Matters with Jack Farley: 1 episodes
+  Fetching: https://feeds.simplecast.com/JGE3yC0V...
+    ✓ The a16z Show: 1 episodes
+  Fetching: https://rss.libsyn.com/shows/254861/destinations/1928300.xml...
+    ✓ All-In with Chamath, Jason, Sacks & Friedberg: 1 episodes
+  Fetching: https://anchor.fm/s/e29097f4/podcast/rss...
+    ✓ The Jack Mallers Show: 0 episodes
+  Fetching: https://feed.podbean.com/macrovoices/feed.xml...
+    ✓ Macro Voices: 0 episodes
+
+Matching audio files to episodes...
+  ✓ Matched: 3 files
+  ? Unmatched: 7 files
+
+Curating episodes for investment relevance...
+
+  APPROVED for transcription: 2
+  SKIPPED/EXCLUDED: 1
+
+======================================================================
+CURATION RESULTS
+======================================================================
+
+📌 APPROVED (will transcribe):
+
+  ✓ Monetary Matters with Jack Farley
+    Title: Michael Howell: Markets On “Nervous Knife-Edge Equilibrium" As Global 
+    Keywords: invest, market
+    File: EWWMN5301712942.mp3
+
+  ✓ All-In with Chamath, Jason, Sacks & Friedberg
+    Title: Graham Allison on the Global Realignment: Iran, China, Israel, Greenla
+    Keywords: defi, ai
+    File: ALLIN-GrahamAllison_Ch.mp3
+
+----------------------------------------------------------------------
+
+📋 REVIEW ALL:
+
+  ✓ [APPROVED] Monetary Matters with Jack Farley
+    Title: Michael Howell: Markets On “Nervous Knife-Edge Equilibrium" 
+    Keywords: invest, market
+
+  ✗ [SKIPPED (low relevance)] Moonshots with Peter Diamandis
+    Title: OpenClaw Explained: Baby AGI, Security Threats, and How a Ma
+    Keywords: ai
+
+  ✓ [APPROVED] All-In with Chamath, Jason, Sacks & Friedberg
+    Title: Graham Allison on the Global Realignment: Iran, China, Israe
+    Keywords: defi, ai
+
+
+✓ Curation log saved: /Users/jaredsheppard/.openclaw/workspace/pipeline/state/curation_log.json
+
+======================================================================
+NEXT STEPS
+======================================================================
+
+1. Review approved episodes above
+2. To transcribe approved episodes, run:
+   python3 transcribe_curated.py
+
+3. Or manually transcribe specific files:
+   whisper 'EWWMN5301712942.mp3' --model tiny --language en
+   whisper 'ALLIN-GrahamAllison_Ch.mp3' --model tiny --language en
+
+✓ Podcast Curation completed
+
+============================================================
+STEP: Fetch & Transcribe
+============================================================
+p3
+     Title: Michael Howell: Markets On “Nervous Knife-Edge Equilibrium" ...
+     ✓ Downloaded to /Users/jaredsheppard/.openclaw/workspace/audio/EWWMN5301712942.mp3
+  🎙️  Transcribing: EWWMN5301712942.mp3
+  ✓ Already transcribed: EWWMN5301712942.txt
+
+📻 Processing: https://feeds.simplecast.com/JGE3yC0V...
+  📋 Latest: The Top 100 Gen AI Consumer Apps...
+  ⬇️  Downloading: the_a16z_show_20260310_1f3ac321_8823_4c4e_bb85_97812d54.mp3
+     Title: The Top 100 Gen AI Consumer Apps...
+     ✓ Downloaded to /Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_20260310_1f3ac321_8823_4c4e_bb85_97812d54.mp3
+  🎙️  Transcribing: the_a16z_show_20260310_1f3ac321_8823_4c4e_bb85_97812d54.mp3
+  📥 Submitted to whisper queue: the_a16z_show_20260310_1f3ac321_8823_4c4e_bb85_97812d54.mp3
+  ⏭ Queue-only mode: not waiting. Run pipeline again after worker finishes.
+
+📻 Processing: https://rss.libsyn.com/shows/254861/destinations/1...
+  📋 Latest: Graham Allison on the Global Realignment: Iran, China, Israe...
+  ⬇️  Downloading: ALLIN-GrahamAllison_Ch.mp3
+     Title: Graham Allison on the Global Realignment: Iran, China, Israe...
+     ✓ Downloaded to /Users/jaredsheppard/.openclaw/workspace/audio/ALLIN-GrahamAllison_Ch.mp3
+  🎙️  Transcribing: ALLIN-GrahamAllison_Ch.mp3
+  ✓ Already transcribed: ALLIN-GrahamAllison_Ch.txt
+
+📻 Processing: https://anchor.fm/s/e29097f4/podcast/rss...
+  📋 Latest: Oil, Bonds, and Bitcoin: The Rules Are That There Are No Rul...
+  ⬇️  Downloading: https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-2-10%2F419680322-44100-2-bea5367045d35.mp3
+     Title: Oil, Bonds, and Bitcoin: The Rules Are That There Are No Rul...
+     ✓ Downloaded to /Users/jaredsheppard/.openclaw/workspace/audio/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-2-10%2F419680322-44100-2-bea5367045d35.mp3
+  🎙️  Transcribing: https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-2-10%2F419680322-44100-2-bea5367045d35.mp3
+  📥 Submitted to whisper queue: https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-2-10%2F419680322-44100-2-bea5367045d35.mp3
+  ⏭ Queue-only mode: not waiting. Run pipeline again after worker finishes.
+
+📻 Processing: https://feed.podbean.com/macrovoices/feed.xml...
+  ⏭ Already have 'MacroVoices #522 Matt Loszak: Factory Mass-Product' (guid match, ep_id=44)
+  ✗ No episode found
+
+✓ Log saved: /Users/jaredsheppard/.openclaw/workspace/pipeline/state/fetch_log.json
+
+======================================================================
+SUMMARY
+======================================================================
+Total feeds: 6
+Successfully transcribed: 3
+Failed: 2
+
+Completed episodes:
+  ✓ Moonshots with Peter Diamandis: OpenClaw Explained: Baby AGI, Security Threats, an...
+  ✓ Monetary Matters with Jack Farley: Michael Howell: Markets On “Nervous Knife-Edge Equ...
+  ✓ All-In with Chamath, Jason, Sacks & Friedberg: Graham Allison on the Global Realignment: Iran, Ch...
+
+
+Next step: Run 'python3 research.py' to analyze transcripts
+
+✓ Fetch & Transcribe completed
+
+============================================================
+STEP: Newsletter Ingestion
+============================================================
+==================================================
+Newsletter Ingestion Pipeline
+==================================================
+
+Connecting to Gmail...
+Connecting to Gmail at imap.gmail.com:993...
+Logging in as jsheppard8989@gmail.com...
+Selecting folder: NEWSLETTERS...
+Found 0 unread emails
+
+No emails fetched. Trying manual mode...
+
+✓ Processed 0 emails
+
+Files saved to: /Users/jaredsheppard/.openclaw/workspace/pipeline/inbox
+
+Next step: Run analysis to score stock mentions
+
+✓ Newsletter Ingestion completed
+  ✓ Cleaned up 3 orphan audio file(s) (transcript already exists)
+
+============================================================
+STEP: Transcript AI Analysis
+============================================================
+  ⚠ Google Generative AI library not installed. Run: pip install google-generativeai
+
+============================================================
+Processing Podcast Transcripts with AI
+============================================================
+  Using Moonshot/Kimi API (primary)
+Found 42 transcript files
+  Processing dario_amodei.txt...
+    ⏭ Too short, skipping
+  Processing ALLIN-GrahamAllison_Ch.txt...
+    ⚠ AI analysis failed: Error code: 429 - {'error': {'message': 'The engine is currently overloaded, please try again later', 'type': 'engine_overloaded_error'}}
+    ✗ AI analysis failed
+  Processing elon_musk.txt...
+    ⏭ Too short, skipping
+  Processing EWWMN5301712942.txt...
+    ⚠ AI analysis failed: Error code: 429 - {'error': {'message': 'The engine is currently overloaded, please try again later', 'type': 'engine_overloaded_error'}}
+    ✗ AI analysis failed
+  Processing DVVTS3081156583.txt...

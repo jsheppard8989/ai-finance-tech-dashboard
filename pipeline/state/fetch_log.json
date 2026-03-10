@@ -1,31 +1,38 @@
 {
-  "timestamp": "2026-03-09T22:04:10.586724",
+  "timestamp": "2026-03-10T05:00:54.558015",
   "results": [
     {
       "podcast": "Moonshots with Peter Diamandis",
       "title": "OpenClaw Explained: Baby AGI, Security Threats, and How a Mac Mini Became Everyone's Supercomputer | #237",
       "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/DVVTS3081156583.mp3",
-      "transcript_path": null,
-      "success": false
+      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/DVVTS3081156583.txt",
+      "success": true
     },
     {
       "podcast": "Monetary Matters with Jack Farley",
       "title": "Michael Howell: Markets On \u201cNervous Knife-Edge Equilibrium\" As Global Liquidity Momentum Has Peaked",
       "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/EWWMN5301712942.mp3",
-      "transcript_path": null,
-      "success": false
+      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/EWWMN5301712942.txt",
+      "success": true
     },
     {
       "podcast": "The a16z Show",
-      "title": "Andrew Huberman: Peptides, Sleep Tech, and the End of Obesity",
-      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_20260309_b7ea7a42_8b62_472f_aa70_ddfddd17.mp3",
-      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/the_a16z_show_20260309_b7ea7a42_8b62_472f_aa70_ddfddd17.txt",
-      "success": true
+      "title": "The Top 100 Gen AI Consumer Apps",
+      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_20260310_1f3ac321_8823_4c4e_bb85_97812d54.mp3",
+      "transcript_path": null,
+      "success": false
     },
     {
       "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
       "title": "Graham Allison on the Global Realignment: Iran, China, Israel, Greenland",
       "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/ALLIN-GrahamAllison_Ch.mp3",
+      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/ALLIN-GrahamAllison_Ch.txt",
+      "success": true
+    },
+    {
+      "podcast": "The Jack Mallers Show",
+      "title": "Oil, Bonds, and Bitcoin: The Rules Are That There Are No Rules",
+      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-2-10%2F419680322-44100-2-bea5367045d35.mp3",
       "transcript_path": null,
       "success": false
     }
