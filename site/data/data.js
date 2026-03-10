@@ -2,7 +2,7 @@
 // DO NOT EDIT MANUALLY
 
 const dashboardData = {
-  generatedAt: "2026-03-09T06:18:34.579090",
+  generatedAt: "2026-03-09T22:05:12.943203",
   tickerScores: [
   {
     "ticker": "BTC",
@@ -623,6 +623,25 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 66,
+      "title": "The Future of Health and Biotech Innovations",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-03-09",
+      "summary": "The podcast discusses the evolving landscape of health and biotech innovations, focusing on consumer interest in health, breakthrough supplements, and the intersection of health and fitness with mainstream medicine. The conversation also touches on the potential of peptides and neuro-technologies to reshape obesity and influence biology directly. Dr. Andrew Heurman shares insights on the major drivers behind the increased consumer focus on health and the potential for new drugs and technologies to become popular in the near future.",
+      "key_takeaway": "Investing in health and biotech innovations that cater to the growing consumer interest in self-directed healthcare and novel treatments for obesity and cognitive disorders.",
+      "tickers_mentioned": [
+        "LLY"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-09",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 49
+    },
+    {
       "id": 64,
       "title": "The Future of Work and Income with Andrew Yang",
       "source_type": "podcast",
@@ -725,11 +744,11 @@ const dashboardData = {
         "US 10 year Treasury"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-06",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-10",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 44
     },
     {
@@ -1849,6 +1868,24 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 66,
+      "title": "The Future of Health and Biotech Innovations",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-03-09",
+      "summary": "The podcast discusses the evolving landscape of health and biotech innovations, focusing on consumer interest in health, breakthrough supplements, and the intersection of health and fitness with mainstream medicine. The conversation also touches on the potential of peptides and neuro-technologies to reshape obesity and influence biology directly. Dr. Andrew Heurman shares insights on the major drivers behind the increased consumer focus on health and the potential for new drugs and technologies to become popular in the near future.",
+      "key_takeaway": "Investing in health and biotech innovations that cater to the growing consumer interest in self-directed healthcare and novel treatments for obesity and cognitive disorders.",
+      "tickers_mentioned": "[\"LLY\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-09",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 49,
+      "episode_release_date": "2026-03-09"
+    },
+    {
       "id": 64,
       "title": "The Future of Work and Income with Andrew Yang",
       "source_type": "podcast",
@@ -1919,24 +1956,6 @@ const dashboardData = {
       "archived_reason": null,
       "podcast_episode_id": 46,
       "episode_release_date": "2026-03-06"
-    },
-    {
-      "id": 58,
-      "title": "The Future of Advanced Nuclear Energy and its Impact on Markets",
-      "source_type": "podcast",
-      "source_name": "Macro Voices",
-      "source_date": "2026-03-05",
-      "summary": "This episode of Macro Voices features an in-depth discussion on the future of nuclear energy, with a focus on the need for revolutionary changes in the industry. Hosts Eric Townsend and Patrick Suresneut interview Matt Lowzack, CEO of Alo Atomics, a company aiming to mass-produce modular nuclear power plants to address the impending global energy crisis. The conversation covers the potential of breeder technology, the importance of modularity for mass production, and the economic and logistical challenges of traditional nuclear power plant construction. Additionally, the hosts discuss market movements influenced by geopolitical tensions, particularly the situation in Iran, and provide insights into various financial instruments.",
-      "key_takeaway": "Invest in advanced nuclear energy companies that are pioneering mass production and modularity to capitalize on the upcoming energy crisis and the shift away from fossil fuels.",
-      "tickers_mentioned": "[\"S&P 500\", \"WTI\", \"ARBOB Gasoline\", \"Gold\", \"Copper\", \"Uranium\", \"US 10 year Treasury\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-03-06",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 44,
-      "episode_release_date": "2026-03-05"
     },
     {
       "id": 59,
@@ -5142,6 +5161,76 @@ const dashboardData = {
     "insight_title": "All In with Chamath, Jason, Sacks & Friedberg - Episode 263 Part 2: Vision for Iran Post-Military Action",
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "source_date": "2026-03-07"
+  },
+  "66": {
+    "id": 57,
+    "insight_id": 66,
+    "podcast_episode_id": 49,
+    "overview": "The investment thesis centers on the rapidly evolving landscape of health and biotech innovations, driven by consumer demand for self-directed healthcare solutions and advancements in neuro-technologies. The COVID-19 pandemic has accelerated this trend, with people seeking to take control of their health through supplements, resistance training, and neuro-technological interventions. This shift presents significant investment opportunities in companies at the forefront of these innovations, particularly those involved in the development and distribution of growth hormones, peptides, and neuro-technological devices. The focus is on the medium to long-term, as these trends are expected to shape the future of healthcare and wellness.",
+    "key_takeaways_detailed": [
+      "Invest in companies developing and commercializing growth hormones and peptides, as they have the potential to disrupt traditional obesity treatments and enhance physical performance.",
+      "Consider positions in firms that are pioneering neuro-technological solutions for sleep, focus, and cortisol control, as these could become mainstream in the self-care market.",
+      "Monitor the regulatory environment closely, as changes in laws and enforcement could significantly impact the market for growth hormones and peptides.",
+      "Stay abreast of consumer trends in health and wellness, as the demand for self-directed healthcare solutions is a key driver of this investment thesis.",
+      "Evaluate the potential for neuro-technological advancements to reshape the treatment of mental health conditions, which could open new markets for innovative companies."
+    ],
+    "investment_thesis": "The core investment logic is based on the growing consumer interest in self-directed healthcare and the increasing adoption of biotech innovations. The catalysts for this thesis include the ongoing pandemic, which has heightened awareness of personal health, and the development of new technologies that allow individuals to take control of their well-being. The timeframe for this thesis is medium to long-term, as these trends are expected to continue evolving and gaining traction over the next 3-12 months and beyond.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's focus on health and wellness through its Apple Watch and HealthKit platform positions it to benefit from the growing consumer interest in self-directed healthcare solutions.",
+        "positioning": "Long-term strategic position, as Apple's health initiatives are expected to contribute to its growth in the coming years.",
+        "risk": "Regulatory changes could impact the functionality of Apple's health-related products, and competition from other tech giants could erode its market share."
+      },
+      "NVDA": {
+        "rationale": "Nvidia's advanced AI and deep learning technologies are crucial for the development of neuro-technological solutions, making it a key player in this space.",
+        "positioning": "Medium-term tactical position, as the company's technology is likely to be in high demand as neuro-technologies advance.",
+        "risk": "The technology sector is highly competitive, and Nvidia's success in neuro-technologies could be challenged by new entrants or shifts in market demand."
+      },
+      "TSLA": {
+        "rationale": "Tesla's investment in Neuralink, a neurotechnology company, aligns with the growing interest in controlling biology through neuro-technologies.",
+        "positioning": "Long-term strategic position, as Neuralink's developments could revolutionize the treatment of various health conditions.",
+        "risk": "Neuralink's technology is in the early stages, and there are significant risks associated with the development and commercialization of such advanced technologies."
+      },
+      "PTON": {
+        "rationale": "Peloton's digital fitness platform and community could benefit from the increased interest in resistance training and self-directed health solutions.",
+        "positioning": "Medium-term tactical position, as Peloton's platform is well-positioned to capitalize on the growing demand for at-home fitness solutions.",
+        "risk": "The at-home fitness market is competitive, and Peloton faces challenges from both established and new entrants."
+      },
+      "VRTX": {
+        "rationale": "Vertex Pharmaceuticals is involved in the development of innovative therapies, including those that could potentially address obesity and other health conditions.",
+        "positioning": "Long-term strategic position, as Vertex's pipeline could yield significant breakthroughs in the treatment of chronic diseases.",
+        "risk": "The success of Vertex's pipeline is uncertain, and the pharmaceutical industry is subject to regulatory and competitive risks."
+      }
+    },
+    "positioning_guidance": "Investors should consider a diversified approach, allocating a portion of their portfolio to each of the identified tickers. Entry points should be based on market conditions and individual risk tolerance, with a focus on long-term growth potential. Investors should also consider hedging against potential risks, such as regulatory changes or competitive threats.",
+    "risk_factors": [
+      "Regulatory changes could significantly impact the market for growth hormones and peptides.",
+      "The development and commercialization of neuro-technological solutions could face technical and ethical challenges.",
+      "Competition in the health and wellness market is intense, and new entrants could disrupt existing players.",
+      "Consumer trends in health and wellness are volatile and can shift rapidly, affecting the demand for certain products and services.",
+      "The success of new health and biotech innovations is uncertain and subject to clinical trial outcomes and market acceptance."
+    ],
+    "contrarian_signals": [
+      "The potential for overregulation could stifle innovation in the health and biotech space.",
+      "There is a risk of market saturation, as many companies rush to capitalize on the growing demand for health and wellness solutions.",
+      "The focus on self-directed healthcare could lead to a lack of professional medical oversight, potentially resulting in adverse health outcomes."
+    ],
+    "catalysts": [
+      "Upcoming clinical trial results for new obesity treatments and neuro-technological solutions.",
+      "Regulatory decisions regarding the approval and enforcement of growth hormones and peptides.",
+      "Advancements in AI and deep learning technologies that could accelerate the development of neuro-technologies.",
+      "New product launches and partnerships in the health and wellness space.",
+      "Changes in consumer behavior and preferences, particularly as they relate to self-directed healthcare solutions."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-03-09T22:04:53.167873",
+    "updated_at": "2026-03-10 03:04:53",
+    "insight_title": "The Future of Health and Biotech Innovations",
+    "source_name": "The a16z Show",
+    "source_date": "2026-03-09"
   }
 },
   suggestedTerms: [

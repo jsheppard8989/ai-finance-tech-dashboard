@@ -1,6 +1,25 @@
 {
   "insights": [
     {
+      "id": 66,
+      "title": "The Future of Health and Biotech Innovations",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-03-09",
+      "summary": "The podcast discusses the evolving landscape of health and biotech innovations, focusing on consumer interest in health, breakthrough supplements, and the intersection of health and fitness with mainstream medicine. The conversation also touches on the potential of peptides and neuro-technologies to reshape obesity and influence biology directly. Dr. Andrew Heurman shares insights on the major drivers behind the increased consumer focus on health and the potential for new drugs and technologies to become popular in the near future.",
+      "key_takeaway": "Investing in health and biotech innovations that cater to the growing consumer interest in self-directed healthcare and novel treatments for obesity and cognitive disorders.",
+      "tickers_mentioned": [
+        "LLY"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-09",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 49
+    },
+    {
       "id": 64,
       "title": "The Future of Work and Income with Andrew Yang",
       "source_type": "podcast",
@@ -103,11 +122,11 @@
         "US 10 year Treasury"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-06",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-10",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 44
     },
     {

@@ -1,10 +1,31 @@
 {
-  "timestamp": "2026-03-09T06:17:53.474558",
+  "timestamp": "2026-03-09T22:04:10.586724",
   "results": [
+    {
+      "podcast": "Moonshots with Peter Diamandis",
+      "title": "OpenClaw Explained: Baby AGI, Security Threats, and How a Mac Mini Became Everyone's Supercomputer | #237",
+      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/DVVTS3081156583.mp3",
+      "transcript_path": null,
+      "success": false
+    },
+    {
+      "podcast": "Monetary Matters with Jack Farley",
+      "title": "Michael Howell: Markets On \u201cNervous Knife-Edge Equilibrium\" As Global Liquidity Momentum Has Peaked",
+      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/EWWMN5301712942.mp3",
+      "transcript_path": null,
+      "success": false
+    },
     {
       "podcast": "The a16z Show",
       "title": "Andrew Huberman: Peptides, Sleep Tech, and the End of Obesity",
       "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_20260309_b7ea7a42_8b62_472f_aa70_ddfddd17.mp3",
+      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/the_a16z_show_20260309_b7ea7a42_8b62_472f_aa70_ddfddd17.txt",
+      "success": true
+    },
+    {
+      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "title": "Graham Allison on the Global Realignment: Iran, China, Israel, Greenland",
+      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/ALLIN-GrahamAllison_Ch.mp3",
       "transcript_path": null,
       "success": false
     }
