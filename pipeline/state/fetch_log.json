@@ -1,40 +1,12 @@
 {
-  "timestamp": "2026-03-10T22:02:20.245928",
+  "timestamp": "2026-03-11T05:00:55.460374",
   "results": [
     {
-      "podcast": "Moonshots with Peter Diamandis",
-      "title": "OpenClaw Explained: Baby AGI, Security Threats, and How a Mac Mini Became Everyone's Supercomputer | #237",
-      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/DVVTS3081156583.mp3",
-      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/DVVTS3081156583.txt",
-      "success": true
-    },
-    {
-      "podcast": "Monetary Matters with Jack Farley",
-      "title": "Michael Howell: Markets On \u201cNervous Knife-Edge Equilibrium\" As Global Liquidity Momentum Has Peaked",
-      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/EWWMN5301712942.mp3",
-      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/EWWMN5301712942.txt",
-      "success": true
-    },
-    {
       "podcast": "The a16z Show",
-      "title": "The Top 100 Gen AI Consumer Apps",
-      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_20260310_1f3ac321_8823_4c4e_bb85_97812d54.mp3",
-      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/the_a16z_show_20260310_1f3ac321_8823_4c4e_bb85_97812d54.txt",
-      "success": true
-    },
-    {
-      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "title": "Graham Allison on the Global Realignment: Iran, China, Israel, Greenland",
-      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/ALLIN-GrahamAllison_Ch.mp3",
-      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/ALLIN-GrahamAllison_Ch.txt",
-      "success": true
-    },
-    {
-      "podcast": "The Jack Mallers Show",
-      "title": "Oil, Bonds, and Bitcoin: The Rules Are That There Are No Rules",
-      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-2-10%2F419680322-44100-2-bea5367045d35.mp3",
-      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-2-10%2F419680322-44100-2-bea5367045d35.txt",
-      "success": true
+      "title": "What It Takes to Clear a Million Crimes a Year with Flock Safety's CEO",
+      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_20260311_ae881697_54e2_4449_921c_2958a262.mp3",
+      "transcript_path": null,
+      "success": false
     }
   ]
 }

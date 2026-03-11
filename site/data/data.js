@@ -2,7 +2,7 @@
 // DO NOT EDIT MANUALLY
 
 const dashboardData = {
-  generatedAt: "2026-03-10T22:05:24.868849",
+  generatedAt: "2026-03-11T05:01:16.398093",
   tickerScores: [
   {
     "ticker": "BTC",
@@ -5671,6 +5671,18 @@ const dashboardData = {
 },
   suggestedTerms: [
   {
+    "id": 4,
+    "term": "Michael Howell",
+    "definition": null,
+    "investment_implications": null,
+    "source_type": "auto_extracted",
+    "mention_count": 3,
+    "source_diversity": 2,
+    "relevance_score": 35,
+    "submitted_date": "2026-03-11 03:05:24",
+    "priority_score": 105
+  },
+  {
     "id": 1,
     "term": "Compute Deflation Trade",
     "definition": "The investment thesis built around the 400x AI compute cost collapse: identifying who wins (inference-at-scale platforms, edge AI hardware) and who loses (legacy SaaS companies whose moats were priced assuming expensive AI).",
@@ -5705,18 +5717,6 @@ const dashboardData = {
     "relevance_score": 50,
     "submitted_date": "2026-02-15 17:19:42",
     "priority_score": 80
-  },
-  {
-    "id": 4,
-    "term": "Michael Howell",
-    "definition": null,
-    "investment_implications": null,
-    "source_type": "auto_extracted",
-    "mention_count": 2,
-    "source_diversity": 1,
-    "relevance_score": 30,
-    "submitted_date": "2026-03-11 03:05:24",
-    "priority_score": 70
   }
 ]
 };
