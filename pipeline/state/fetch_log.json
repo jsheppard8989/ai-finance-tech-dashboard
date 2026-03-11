@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-10T05:00:54.558015",
+  "timestamp": "2026-03-10T22:02:20.245928",
   "results": [
     {
       "podcast": "Moonshots with Peter Diamandis",
@@ -19,8 +19,8 @@
       "podcast": "The a16z Show",
       "title": "The Top 100 Gen AI Consumer Apps",
       "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_20260310_1f3ac321_8823_4c4e_bb85_97812d54.mp3",
-      "transcript_path": null,
-      "success": false
+      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/the_a16z_show_20260310_1f3ac321_8823_4c4e_bb85_97812d54.txt",
+      "success": true
     },
     {
       "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
@@ -33,8 +33,8 @@
       "podcast": "The Jack Mallers Show",
       "title": "Oil, Bonds, and Bitcoin: The Rules Are That There Are No Rules",
       "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-2-10%2F419680322-44100-2-bea5367045d35.mp3",
-      "transcript_path": null,
-      "success": false
+      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-2-10%2F419680322-44100-2-bea5367045d35.txt",
+      "success": true
     }
   ]
 }

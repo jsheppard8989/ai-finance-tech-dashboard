@@ -1,6 +1,47 @@
 {
   "insights": [
     {
+      "id": 67,
+      "title": "Oil, Bonds, and Bitcoin: Navigating Geopolitical Poker and Market Volatility",
+      "source_type": "podcast",
+      "source_name": "The Jack Mallers Show",
+      "source_date": "2026-03-10",
+      "summary": "In this episode, Jack Mallers discusses the current geopolitical situation, particularly focusing on Iran and its impact on financial markets. He emphasizes the unpredictability of the current landscape, comparing it to a high-stakes poker game with no rules. Mallers also touches on the concept of 'short-term pain for long-term gain' as it relates to oil prices and the broader economy. Additionally, he shares his personal investment strategy, which revolves around dollar-cost averaging (DCA) into Bitcoin and building great companies. The episode concludes with Mallers reflecting on the importance of transparency and the potential benefits of sharing more of his personal life, including his diet, finances, and health.",
+      "key_takeaway": "Dollar-cost averaging into Bitcoin and focusing on building innovative companies are key strategies for navigating the current volatile and unpredictable market environment.",
+      "tickers_mentioned": [
+        "AAPL",
+        "NVDA",
+        "SPY",
+        "TSLA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-10",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 52
+    },
+    {
+      "id": 68,
+      "title": "The a16z Show: AI Adoption, Creative Tools, and the Future of Generative AI",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-03-10",
+      "summary": "The podcast discusses the cultural and technological shifts in AI adoption, with a focus on the growth and specialization of AI platforms like Cloud, Chatchee BT, and Gemini. The conversation highlights the increasing divergence of these platforms, their impact on consumer behavior, and the potential for AI to drive cultural changes. The episode also touches on the global data on AI usage, with insights into how different countries are adopting AI and the varying levels of trust in AI across regions. Lastly, the podcast delves into the evolution of creative tools and the role of memory in AI products.",
+      "key_takeaway": "Investment in AI platforms is driven by their ability to capture user data, create personalized experiences, and expand globally, with a focus on platforms that can leverage AI to create compounding advantages.",
+      "tickers_mentioned": [
+        ""
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-10",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 50
+    },
+    {
       "id": 66,
       "title": "The Future of Health and Biotech Innovations",
       "source_type": "podcast",
@@ -18,6 +59,64 @@
       "archived_date": null,
       "archived_reason": null,
       "podcast_episode_id": 49
+    },
+    {
+      "id": 69,
+      "title": "The Future of Personal AI Agents with OpenClaw",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-03-09",
+      "summary": "In this episode of 'Moonshots with Peter Diamandis', the focus is on OpenClaw, an open-source, customizable, self-learning personal AI agent. The discussion revolves around the potential of AI running locally, the opportunities and risks associated with autonomous AI agents, and the impact on individuals and businesses. The guests explore use cases, the vision for the future of AI agents, and the billion-dollar opportunities within the agent economy. Additionally, the conversation touches on safety concerns and the implications of increased hacking attempts in a world where AI is becoming more integrated into daily life.",
+      "key_takeaway": "Investment in AI technology, particularly in personal AI agents like OpenClaw, could offer substantial returns as the technology matures and becomes more integrated into daily life.",
+      "tickers_mentioned": [
+        "BTC"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-10",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 54
+    },
+    {
+      "id": 70,
+      "title": "Monetary Matters with Jack Farley: Global Liquidity and Asset Allocation",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-03-09",
+      "summary": "In this episode of Monetary Matters, Jack Farley interviews Michael Howell from Capital Wars sub-stack and Global Liquidity Indexes. They discuss the peak in the global liquidity cycle, its implications for financial assets, and the shift towards higher yielding assets like private credit. Michael Howell shares his insights on the Federal Reserve's balance sheet, the impact of liquidity on markets, and the potential for a strong economy to lead to a more bearish outlook. The conversation also touches on China's role in the global liquidity cycle and its impact on gold prices.",
+      "key_takeaway": "As the global liquidity cycle peaks, investors should consider rotating their asset allocation towards more defensive areas and higher yielding assets like private credit.",
+      "tickers_mentioned": [
+        "N/A"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-10",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 53
+    },
+    {
+      "id": 71,
+      "title": "All-In with Chamath, Jason, Sacks & Friedberg - Discussion with Graham Allison",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-03-09",
+      "summary": "In this episode, Harvard Professor Graham Allison discusses a range of geopolitical and economic issues, including the Iran conflict, the U.S.-China relationship, and the importance of Taiwan in the global semiconductor supply chain. He emphasizes the uncertainty surrounding these issues and the challenges of regime change and maintaining influence in a multi-polar world. Additionally, Allison touches on economic inequality and potential solutions to address wealth distribution.",
+      "key_takeaway": "The global semiconductor supply chain, with a focus on Taiwan's TSMC, presents both risks and opportunities in the context of U.S.-China relations and economic inequality.",
+      "tickers_mentioned": [
+        "TSLA",
+        "TSM"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-10",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 51
     },
     {
       "id": 64,
@@ -76,11 +175,11 @@
         "TSLA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-06",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-11",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 45
     },
     {
@@ -97,11 +196,11 @@
         "SF"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-07",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-11",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 46
     },
     {
@@ -141,11 +240,11 @@
         ""
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-06",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-11",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 43
     },
     {
@@ -163,11 +262,11 @@
         "GOOG"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-06",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-11",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 42
     },
     {
@@ -186,11 +285,11 @@
         "TSLA"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-06",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-11",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 41
     },
     {

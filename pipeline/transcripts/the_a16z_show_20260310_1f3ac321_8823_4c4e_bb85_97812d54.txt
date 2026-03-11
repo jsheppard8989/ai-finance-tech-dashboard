@@ -1,0 +1,659 @@
+The cultural change in the cultural adoption will be slower than the technology change in
+what's actually possible.
+If you actually look at the app stores that are emerging on Cloud and Chatchee BT, they
+both have 200 plus apps, but there's only 11% overlap.
+Essentially, you'd be able to log in with your Chatchee BT account and take like your memory
+and your tokens with you, and then that other products would be able to kind of borrow
+those things to be even more powerful and helpful for you.
+I don't think we've seen a social product yet to succeed.
+That's like entirely AI content that emotional,
+stakes, just feel lower in some ways.
+Chatchee BT is the biggest AI product in the world.
+It's also only reaching 10% of the global population on a weekly basis.
+We're still early.
+Six editions into the A16Z Top 100 AI Act report.
+The platforms are diverging.
+Cloud is doubling down on prosumer tools.
+Gemini's traction tracks almost perfectly to creative model releases.
+And Chatchee BT is building towards something that looks more like Google,
+and everything at that monetizes through ads, transactions, and subscriptions.
+The global data is surprising.
+Singapore, Hong Kong, and the UAE lead per capita AI usage.
+The US sits at number 20.
+Trust in AI varies wildly.
+From 32% in the US to 80% in China.
+A niche of Chariah, General Partner at A16Z,
+speaks with Olivia Moore, Partner at A16Z.
+Olivia, welcome.
+Thanks for having me.
+It's the most exciting time of the year,
+which is the top 100 report is coming out today.
+I think is that right?
+It's been six editions over three years.
+Talk to us about what's the same,
+what's changed, what's your excitement level,
+what's up at the report?
+Yeah.
+In many ways, like so much has changed,
+and there's been interested in credible amount of growth
+since the first time we put out this list in 2023.
+On the other hand, from a macro level,
+we're still so early.
+Chatchee BT is by far the biggest global AI product,
+and still only 10% of the global population is using it
+on a weekly active basis.
+So there's like a lot more to come.
+I do think this past six months has been maybe my favorite time
+and the most exciting time because of the shifts that we've seen.
+One of them has been at the race for the consumer is really heating up.
+So Chatchee BT, of course,
+but also Gemini and Claude are kind of doubling down
+on their own ICP within consumer and pro-sumer.
+And I think we're starting to see how these platforms
+might have compounding advantages over time.
+And so that makes it especially kind of existential
+or interesting of who is acquiring the most users.
+And then on a related note,
+this was actually the first issue that we included products
+that were non-AI native,
+but are now majority AI enabled.
+So things like Canva, Notion, Free Pick,
+Notion actually announced that now they think half of their new ARR
+is driven by AI first features, which is very cool.
+And then lastly, I think we've seen a big expansion of AI
+outside of just like the website or app prompt box.
+So we have all of the browsers that have come out,
+like Dia, Comet, Atlas.
+We have Claude and Excel PowerPoint and Chrome.
+And then we have desktop apps like cursor,
+whisper, flow, granola.
+And so there's been just a really kind of exciting explosion
+in the ways that people are using AI.
+So exciting.
+There's a ton of cover here.
+So let's start with the big foundation models.
+Can you talk a bit about what you think are the respective areas
+of specialization for Gemini, Claude,
+and then of course Chatchee BT,
+or Rising Tide story more than these models trading off with each other.
+Yes, I agreed.
+Despite the drama,
+maybe over the past week,
+we have Katy Perry taking sides on Twitter in the L-O-Mid Row,
+which is something that I didn't ever see coming.
+I think at a base level still,
+if you look at AI usage,
+like Chatchee BT is a very, very clear winner.
+So on web, there are 2.7 times bigger than Gemini on mobile,
+there are 2.5 times bigger than Gemini.
+And then, despite, again, like the kind of tech Twitter discourse,
+Claude, there are almost 30 times bigger than Claude on web.
+And almost 80 times bigger than Claude on mobile.
+So we had seen that Sam Altman tweet back in the Super Bowl ad wars.
+Air Texas tweet.
+Yes.
+He was like, we have more people using Chatchee BT free version
+in Texas than Claude has all users globally, which is true.
+That being said, I think we are CAing.
+I don't think Bifurcation is the right word,
+but maybe expansion in the number of products people are using
+and what they're using different products for, which is kind of changed
+the market share a little bit.
+Claude, at particular, is really double down on pro-sumer
+with things like co-work, Claude code, Claude and Excel
+and PowerPoint.
+If you actually look at the app stores that are emerging
+on Claude and Chatchee BT, they both have 200 plus apps,
+but there's only 11% overlap.
+Like Claude is very much doubling down on premium data sources.
+Research tools, science tools, financial data,
+and Chatchee BT is really doubling down on consumer marketplaces,
+travel, nutrition, consumer finance, things like that.
+And then Gemini is kind of in its own little corner as well.
+And the traction is largely been driven by creative tools there.
+So if you look at their kind of active users and paying users,
+it's nearly perfectly correlated to releases of like VO-3,
+Nano Banana 1, Nano Banana Pro, Nano Banana 2.
+They're doing a little more in pro-sumer.
+They're adding AI to Gmail, sheets, calendar.
+But that's all being captured by like their existing products,
+versus like a net new experience.
+Maybe let's dig into the app store dynamic a little bit,
+because that's so fascinating.
+Can you talk about the bullcase for Chatchee BT
+with I think what they call the app's directory?
+Yeah, yeah.
+I think the approach we're seeing with Chatchee BT
+and Sam said this himself on Twitter is,
+we want to be the AI for everyone.
+And that means that they're trying to acquire every consumer
+and they'll monetize them in different ways.
+So I think Cloud has been very clear
+that they're just going to monetize via subscriptions,
+which is great for people and companies who can pay for subscriptions,
+but it won't be everyone.
+And they can see that with the plugins that they're leaning into,
+which are like paid, high ACV, like work, data, tools.
+And a little bit of things like that.
+Yeah, things like that.
+Like pitchbook, like things that you'd use
+if you're an investor or a scientist and mathematician.
+And Chatchee BT, I think, is going more of the,
+somewhat of a Google type approach
+in that they're building things that like the average person
+will want to use.
+And maybe a smaller percentage of those convert
+to subscriptions right now,
+but they will be able to monetize those people through ads.
+And probably also I would guess through transactions.
+Like if they're building the gateway to book a trip
+or do all of these other kind of long-tailed consumer purchases,
+hypothetically, they should eventually be able to take some kind of cut of that,
+at least for the traffic that they're driving.
+And so I think that that is the bullcase for the chat,
+GBT app store that isn't yet showing up in the data
+that will probably become even more evident in the next year or two.
+Yeah, it's really interesting, because the touches on your point in the report
+about compounding advantages and how context compounds
+can you talk a little bit about that concept?
+And then what's your proxy in terms of a metric for it?
+Is it session time?
+Is it number of sessions?
+Is it the amount of data you've provided or is it something else?
+Yeah, this is a really exciting question to me,
+because I think thus far with these horizontal LLMs,
+like Chatchee BT, Claude, Gemini, Proplexity.
+We've kind of lived in a world where the context and the memory
+is somewhat easily exportable.
+Claude ran a campaign around this recently.
+But I think there's going to be increasing lock-in.
+And I do think that probably actually benefits the broader,
+more horizontal tools like Chatchee BT for a few reasons.
+So I think one, we've already seen Chatchee BT focus on or start to build out products
+where you interact with other people on them through the platforms,
+so the group chats.
+Like imagine if there's an even more successful version of Chatchee BT group chats,
+and all of your friends are on there, then if you wanted to turn from
+Chatchee BT, you'd also have to convince them all to go through that.
+Exactly.
+I would say the second one is kind of also like an Apple Google comparison
+in that as these app stores emerge, it is likely that developers
+might start to concentrate their time and effort in who they build for
+in the most sophisticated way, who they ship to first,
+depending on who as the most users.
+Or maybe in some cases who's the most willing to pay,
+but for a lot of these consumer tools, it'll be who as the most users.
+So I think that also benefits Chatchee BT.
+And then the other thing probably that I'm most excited for this year
+that Sam Altman had kind of hinted at
+is this like authentication with Chatchee BT layer.
+So essentially you'd be able to log in with your Chatchee BT account
+and take like your memory and your tokens with you
+and then that other product would be able to kind of borrow those things
+to be even more powerful and helpful for you.
+And if that's the case, then you're wanting to have more of your core identity
+live on Chatchee BT because then it can lend it to these other tools
+that are even better for you.
+It's so smart and it really plays to their advantages
+and that they have signups for 900 million people.
+And then the third party developer ideally would not want to pay
+for the inference.
+So the user can bring their inference capacity with them.
+There's an advantage for the developer.
+Chatchee BT gets the lock in.
+Yeah.
+And user gets the benefit of personalization and it all kind of works.
+Yes.
+I totally agree.
+The one question mark I still have on this that I think could play both
+positive and negative in terms of increasing lock-in
+for the consumer product is what your work goes with.
+Like what your enterprise contract is.
+So for example, in some ways, it's good for me if my company uses
+Chatchee BT for work because then I know how to use the product.
+And as a normal consumer, they might have tried one or two AI products.
+So they're more likely to be comfortable in keeping something that they've already used.
+On the other hand, some people might not want to mix identity
+and mix memory across their personal and work use cases.
+True.
+And so I'm really interested.
+I think open AI hinted at this recently, but I'm really interested in how we kind of
+segment memory across different personas that are within yourself that are using
+these products.
+Don't cross the streams.
+Yeah.
+Exactly.
+Well, maybe actually switching gears to Gemini for a moment.
+You know, I think about the kind of just the vibes around Google with their early AI products
+barred, which they'll never live down.
+Some top times there.
+So where are we are today with products like nanobinana?
+Yeah.
+Even naming it nanobinana, such a perfect microcosm for how far a Google has come.
+Yeah.
+And it seems like they have a lot of intentions around multimodality.
+Yeah.
+What's your assessment of their approach?
+I've been impressed.
+I think they have been hesitant.
+Maybe in some ways more hesitant in same ways is exactly what we would expect.
+So to kind of bake AI into the core features, because there's a risk of either
+analyzing their own product or like there's so many people who are have used these tools
+for 10, 20, 30, 40 years.
+And so the switching costs there is like a little bit high.
+They don't want to scare users when AI is suddenly popping up in everything which I understand.
+But what they've done a really really good job at is these new creative products that are basically
+very model driven from the deep mind team who I think is generally fantastic.
+I think notebook LM was actually the first look at this and that was something truly new
+and like consumer AI audio.
+And now we have the image and video models.
+So in some ways with the big company like this, they kind of have to get out of their own way.
+In terms of being able to actually innovate.
+Yeah.
+And it seems like they are.
+But you also worked at Google.
+So it'd be curious.
+Well, it's interesting to just, I'm glad you brought notebook because notebook is sort of this
+green field area within product area within the company.
+So you don't have 10 VPs fighting over it.
+And as a result, I think just the progress on notebook has been tremendous.
+You know, they just launched a video generation feature that helps visually demonstrate all the
+concepts in your sort of workspace, which is cool.
+Conversely, when you look at the existing product surfaces like sheets or dox, there's just so much
+one sort of momentum and inertia from the past, but then management overhead.
+Around those, it's harder for them to do anything other than the most obvious incremental thing.
+Yes, I agree.
+We'll see what happens there in the next few years.
+I feel like they're going to put up a fight on some of those products because they don't want to
+lose that user base.
+But to your point, they're already locked in with so many enterprises that they might not have to do that
+much, at least in the near term to kind of keep up.
+You know, implicit in this conversation is we experience and talk a lot about AI in the West.
+Yeah.
+We're talking about the sort of global AI trends.
+There was a few surprising things I saw in there.
+We kind of expanded our scope in terms of what we looked at for this report, which ended up being
+like very fun and interesting.
+Two things that are probably obvious in terms of how they differ from the rest of the world.
+I would be Russia and China.
+So Russia, I think China, everyone knows like a ton of AI products are kind of censored or
+censored.
+And so almost all of the usage, they actually have the lowest combined chat you BT and
+Gemini usage of any country.
+It's only 15%.
+So they're mostly using like Dow Bow, which is made by by dance, deep seek, quen,
+kimi, those kinds of models.
+The somewhat of a surprise to me was that Russia actually is a very very similar story, where they
+have also their own kind of parallel AI ecosystem out of necessity because they have some level of
+sanctions and things like that that prevent them from using all the US-based tools.
+So we've seen products like Gigachat and Yandex, which are Russia specific, built by
+Russia and often state-affiliated companies, had big, big usage there and then deep seek.
+So Russia is the number two market for deep seek after China.
+And so if you look at the kind of like per country adoption data, like yes, there's
+some blips where like this country uses clawed a little bit more.
+This country uses Gemini a little bit more, but the two huge outliers are Russia and China.
+And those are like big, big markets.
+And so I think it's worth watching what's going on there.
+It's interesting though, because both Russia and China, they are outliers because of restrictions
+around how models can be used.
+And maybe cultural preferences, are there any other countries that have geospecific trends
+or is this sort of global AI behavior?
+Yeah, I would say in terms of like model development, proprietary model development that
+allows you to do to deploy proprietary AI products.
+Most of that research is coming out of the US in China.
+Maybe a little bit out of Russia.
+Okay.
+I think we are seeing a few kind of native ecosystems in other places.
+I would create has a couple of their own products like neighbor and cacao that
+have built out nice kind of LLM interfaces.
+India is probably the other one that I watch really closely just because there's so many people
+that you can have stand alone big companies focused on India.
+The other interesting thing about India is there's so many different languages like such a range
+that both LLM products and even voice products don't necessarily support very well.
+Like it's a worse experience if you're a primary user of one of those languages
+and you're trying to use something like a CHPT.
+So so far we haven't seen a huge amount of variants there yet, but I would not be surprised.
+Maybe to see more founders even from the US, like targeting the Indian market for AI.
+And then the other thing I wanted to mention, we did for the first time also kind of like a heat map
+essentially of which countries are adopting AI the most and the least on a per capita basis.
+So we looked across like the 10 biggest LLM products to see on web and mobile to see what this may look like.
+So Singapore is number one.
+Crazy.
+Yes, then Hong Kong, then the UAE, then South Korea.
+The US is down at number 20, so not super low, not incredibly high.
+Russia and China are like very far down the list, like sub 50.
+And there's a lot of interesting stories I think that live in that data.
+Yeah.
+The first one is if you think about those top five, like Singapore, South Korea, Hong Kong,
+it's a very like the demographics of the workforce are very like tech first white collar high scale.
+And the US has a giant chunk of jobs where AI hasn't really touched them yet, like retail and transportation
+and some of these other things.
+I think also the cultural norms around AI are shockingly diverse.
+If you're in the US, you've probably internalized this ongoing angst and questioning around
+the United States.
+Yeah, I was going to ask you about this.
+About 1% or AI is terrible for artists or all of these other things that make people pick up or not pick up AI.
+Yes.
+There was actually a big survey last year from Edelman, the global media company.
+And the US had a fairly low rate of trust in AI.
+It was like 32% and most of these other countries that are high on the list are like 50, 60, 70%.
+So that I think has also held the US back.
+Despite the fact that we are where the biggest products come from,
+our per capita usage is lower than a lot of these other markets that have maybe smaller populations,
+but have been, have embraced it more.
+I think that's exactly right.
+I was reading that in China, the sort of favorability views on AI are 80%.
+Yeah.
+80% hold a favorable view.
+And I know UAE in Singapore, I think they've sort of culturally wired to be tech optimistic.
+Yes.
+Which is an advantage.
+Yes.
+Definitely.
+It's interesting to see some of these smaller countries like the per capita adoption rate.
+Like in the US, it's around probably a third of people are monthly active users of something like a Chatchee BT.
+Yeah.
+And even some of the European countries, or Eastern Europe, it's like 50, 40, 45, 60%.
+On smaller bases, but they've kind of embraced it more quickly than we have here.
+Yeah.
+Really interesting.
+You know, one thing that I'm sort of watching and I'm interested in is, as you look at the spectrum of AI from the most functional, almost like a Google search replacement to the most cultural creative personal,
+we should see more divergence country by country.
+Because obviously the culture, the movies they make in India couldn't be more different than the movies they make in China or the US.
+Yeah.
+So why wouldn't their use of creative tools be different?
+Yeah.
+And this is honestly part of the reason why we started looking at the geographic segmentation in this report,
+because for the first two and a half, three years of generative AI, the vast majority of consumers were maybe interacting with one product.
+And now it's broadening quite a bit.
+And I think that we will see more of these market specific tools.
+And if they are, if they capture enough of that market, like some of these Russian companies or Chinese companies,
+they can actually surface up to the global list if it's kind of the market is big enough.
+Talk a bit about the evolution of creative tools and how much you think that, is that a reflection of culture, is that driving culture?
+When do we cross that threshold?
+The creative tools trend has been fascinating.
+I mean, obviously the first big generative AI product was actually major, which came out before it's actually true.
+True.
+And in our first few editions of the list, it was very much dominated by creative tools.
+And I've said this before, but the creative tools benefit from kind of hallucination of the early models,
+because they produce things that are more kind of surprising or beautiful or original.
+And so for a while, those are the only things we're seeing consumer AI really.
+Now it's shifted a lot.
+The creative tools are still a huge chunk of the list, but like the type of creative tool that is a standalone big business has changed.
+I would say the biggest change is we're seeing fewer standalone image generators.
+A lot of this activity, if you're making like a basic commodity image, like, you know, a meme or a basic marketing image or an infographic.
+Like the core models in chat you BT and Gemini are quite good at those things now.
+So the products that are still surfacing on the list like an IU grant or a mid journey are either very aesthetically opinionated,
+or they have very more sophisticated workflows that you can't get on something like a chat should be key.
+Contrasting that I would say like music, voice, video, all seem to be things that the model, the biggest model companies have maybe invested less in.
+And so we've seen players like Suno and music and 11 labs and boys kind of completely breakout and rise to top 20, top 15 on the list and then like hold their spot there over time.
+And then there's like a compounding walk in from like the community and you know the big base of enterprise customers and all of that.
+Video is where I have the most questions.
+Opening I has been investing in it with Sora and of course Google with VO, but the Chinese models are so good because they can train on any data.
+So students too is probably the best example of this where it's just kind of in some ways head and shoulders above what the US companies have thus far been able to do.
+So I think we'll see I think this actually benefits platforms like a create where you can use all the models in one place because.
+My sister just emailed an article about this but the way video is shaping out there's done likely to be like one model to roll them all and so you kind of need to be able to switch between them.
+It seems true of most of the model spaces.
+Yeah.
+Chat models, creative models, even code models have their areas of specialization you know people talk about 10 ergonomics of opus versus the accuracy of codex.
+Yes.
+And that's just that's a trade-off you know.
+You have to choose what tool you want to use for which problem.
+Yeah absolutely.
+Sores really interesting to me because it represented both a sort of a big step forward in the model but also a really ambitious experiment around social and there was.
+Data in the early days of sort of like the percentage of people that were creating which was dramatic these 10x higher than we'd seen before.
+Yeah.
+You know what's your kind of assessment of the sort of social effort versus the model effort and where do you see that going.
+Sores so fascinating and I think was a very.
+Interesting release experiment that I think taught us all a lot about kind of both creative tools but also maybe more importantly what consumer social in the area might look like.
+So by the numbers, they had a massive launch.
+They were number one on the app store.
+The US apps are for 20 consecutive days which is very hard to do.
+It means you're probably getting to be number one on the app store.
+You probably have to get these days 150,000 daily downloads.
+So it's like a high download volume.
+And they actually hit a million users faster than touch a BT itself.
+So like huge launch.
+And actually I think what a lot of people underestimate is it still is very significant usage.
+So 3 million dollars per sensor tower, which is not bad at all.
+What has dropped off about Sora is the new downloads.
+So there may be they peaked like 6 million a month in November.
+It's looking like a million and a half now.
+I think that what has really worked about Sora is that it's a very good video model.
+And they kind of innovated and introduced this concept of cameos, which is where a real person can grant their likeness to Sora so that they and others can generate videos of them.
+So like a lot of people in the early days were doing like mean videos of their friends.
+Like Jake Paul went viral because he was the first big celebrity to like lean into Sora.
+So he received like insane Jake Paul.
+Of course.
+I mean, honestly, good for him.
+Yes, yes.
+I think what worked less about Sora is that because the content was exportable.
+People would take it to TikTok.
+They would take it to Instagram reels.
+They would take it to YouTube.
+And there it competed against the best human made content.
+And so the overall feed experience was just better because you were seeing the best of both not just like the best of Sora.
+And I don't think we've seen a social product yet succeed.
+That's like entirely AI content.
+The emotional stakes are just feel lower in some ways.
+Right.
+And so I would imagine we'll see more examples like these where Sora still has clearly very very significant usage and revenue as a creative tool.
+But not so much as a social app.
+Right.
+And I don't know if they'll be.
+They're probably will be in a massive AI native social network.
+But we haven't seen when it looks like just yet.
+I would say it'll be interesting.
+You know, we discussed this frequently.
+But every social product has a status game.
+Yes.
+You know, and on instads, it's maybe be the hottest and on acts.
+It's be the most interesting.
+And it felt like the emerging status game on Sora was be the funniest.
+Yes.
+I think this is one of the reasons why it's hard for the content to cross over.
+Yeah.
+Because it's just two different ways of judging what is interesting and great.
+I agree.
+What they might do if I had to imagine where they might find more of a niche.
+They have now inked a bunch of deals with the media companies like Disney.
+Right.
+And so if Sora is the only place where you can make like licensed like fan videos of like beloved kind of characters and entertainment figures, then like that's very interesting.
+Totally.
+But we're early.
+I think and how that rules out.
+It's so early.
+I know.
+I know.
+Yeah.
+Okay.
+Let's switch gears.
+We can't have this conversation with that.
+Talk about agents.
+Yeah.
+You know, Claude Baud, Molt Baud.
+I know.
+But Molt was the other one.
+Claude Baud opened Claude.
+I had a name in the interim.
+Let's cut that.
+Yeah.
+In any case, we cannot as conversation without talking about agents.
+Open Claude, Manus, Jen Spar, Molt Baud.
+Give us an overview of what has happened in the last 60 days in the world of agents.
+Yeah.
+What is a report tell us?
+I think this is mostly why I say the last, you know, even six months.
+But actually even two months of this report have been like the most interesting that I think we've seen.
+So, Opa Claude actually, as you'll see, is not on our rankings because it blew up in February, our data ends in January.
+But we did pull the data for February.
+And if it had been eligible, it would have been number 30 on our web list, which is a pretty big debut.
+I think that really interesting thing about open claw is the usage has just continued to accelerate in the technical community.
+So now it's, I think, number one get hub stars of all time.
+It passed react to past Linux.
+Wow.
+Yes, holy cow.
+Very impressive.
+But in terms of overall new users, it's kind of plateaued.
+So we looked at kind of visits to the get started or sign up page.
+And that is kind of flat week over week since early February, which I think indicates that like, it is an amazing product of your technical.
+It has not yet fully escaped containment to non-technical people, which of course is like a bigger population.
+They work quite by open AI, so if I had to guess or what I'd love to see open AI do is build like product ties open claw into something that is usable for a mainstream consumer.
+And I think we've also just seen the ideas behind the open claw architecture inspire so many other founders.
+Like how many pages do we take a day where the founders like, I want to be open claw for this or open claw may be realized this was possible.
+So I think we're going to see open claw itself will continue to succeed and be a massive product.
+And I'm guessing we'll see more kind of like verticalized focus versions of open claw for different use cases.
+Yeah, it's so interesting because it feels like one of the things that makes open claw work so well as it can operate across all models in all directions.
+And I sort of wonder if it delutes the value of open claw to have it be sold model provided and therefore it's sort of counter position against labs.
+Totally.
+We've kept it I think multi model for now. He's in my usage. So we'll see how it trends. I think it would be smart to keep it that way for usage, but.
+Yeah, is managed the consumer grade open claw or how do you distinguish the sum.
+Some might say that and and I do actually think so so man is made our web list.
+And of course they had a $2 billion plus acquisition by meta also in the course of the list.
+Incredible growth like the the ramp that they were part of from like zero to 100 million, 200 million ARR in the span of like honestly six nine months is is really kind of best in class.
+My view on why managed was so successful was it was really the first consumer grade agent that could actually operate fairly autonomously across products and platforms.
+So you could connect email you could have it browse the web and it would it could make slides it could make spreadsheets.
+I spent a lot of time in the early days trying like this was a year ago chat GPT operator or Google's project manager.
+Yeah, and none of them were reliable and managed was a breakthrough in kind of agent reliability and agent accessibility for the consumer.
+I think the fact that they did the acquisition is interesting in terms of where this is going.
+And that once everyone has that agented capability and you might imagine they will if it's kind of based on the core underlying models.
+Then it's actually if you're such a horizontal product you may be better off with the distribution forces of a meta or a Google or something like that versus a standalone company that's definitely not true if you're building something more vertical.
+Imagine that like Google now has the resources to create a man is then that's a really hard thing to keep fighting against as a startup.
+I think and obviously the big companies have a billion different priorities so they're not going to do everything best in class.
+But it's why I've generally been a little more cautious about the very very horizontal consumer AI apps just because it's probably both in scope for the for the bigger companies.
+And they have the advantage of already having IT approval and enterprise contracts and all that right right it is interesting that we sort of cross this cultural threshold though.
+Yes, we're managing to like a non obvious bet in terms of just the breadth of the offering.
+Yeah, and now it seems like they're living in the future a little bit.
+Yes, absolutely they were it's in obviously an incredible engineering team like the quality of the product was like.
+Three six months ahead of the rest of the market, which is not easy to do when you're competing with teams of like that.
+It's a free searcher totally.
+Let's use this to kind of like into a conversation about other horizontal AI products things that live beyond the sort of web window.
+Yes, what are you seeing there?
+Yeah, that has been a massive theme.
+When I think about the products that I interact with on a daily basis in the AI world quite a few of them are actually desktop apps like things like granola, voice dictation tools, code code work those kinds of things.
+And and it does become a methodology problem for our report because we can track website visits very well.
+And so we can track the first time that they download the desktop app.
+We can track mobile app usage very well. We can not track desktop usage that closely.
+And I think that is increasingly as AI products become more sophisticated.
+Having them live in their own dedicated application much of which will run on desktop because it can interact with your files and it can be more ambient.
+I think that's going to happen more and more.
+And so I think moving forward finding us finding ways to parallel track ranking these products by web and mobile usage but also by revenue.
+It's going to be a pretty good idea because if you think about things like cursor some of the consumer prosumer AI apps that are generating the most revenue have very few very little usage on web.
+It's almost all in kind of a dedicated app.
+Yeah, it's really interesting.
+It also feels like the fact that opening I released Atlas and anthropic released co-work shows you where their priorities are.
+Yes, definitely.
+I fully agree.
+The AI browser debate is is is is own interesting thing.
+I feel like we're still in the early to mid phases of how that's going to play out.
+And I think the instinct behind an AI native browser is right in that if you can have AI be.
+Co kind of always on always available ambient in where you're spending a lot of your time online like that's a good opportunity.
+Proplexity comment. I think actually led the way.
+It's a great product.
+It's a great product.
+And the interesting thing is if you look at kind of the highest spike for comment and Atlas in terms of visits to the download page.
+Comment is five times ahead of Atlas, which is wild because chat you beat these audiences like so massive.
+Yeah, and I think what we've seen is like comment and Atlas still have very dedicated excited user bases.
+But for the average consumer, the switching cost of a browser is non trivial just because like you have worked close setup.
+You naturally just open this one app.
+And so it not only has to be like feature parity, there has to be one or two features of the AI browser that are really killer.
+Yeah.
+And that are easy enough for the average person to set up an access.
+And I don't think that we've seen that quite yet.
+You know, it's really interesting because Sam said I think six months ago on a pod.
+You know, somebody was asking what has surprised you the most and he said,
+It's that the world hasn't changed more.
+Yeah.
+And if you look at the trends around how people are using chat,
+scale, it's still, you know, homework and Google like queries and a little bit of companionship.
+In a sense, something like a browser gives you an opportunity to point the user in a different direction.
+What's your view on how the average person is using AI today?
+Yeah.
+I think a couple of things.
+So one, I feel like teenage girls are like the best source of what is happening in this.
+You talk in this.
+You talk in this.
+If you look at all of the biggest consumer outcomes, like they were the early adopters of all of these.
+Beautiful.
+And so there was actually a few research study fairly recently on how teenagers are using AI.
+Now, finally, I think for the first time, over half of them are admitting to using it for their homework.
+So the real number is probably like 99.99%.
+I thought some of them didn't want to get in trouble with their parents.
+Uh-huh.
+38% are now using it for a creative tool.
+So editing images, editing video, generating images and video.
+And then this like emerging slightly longer tail, but I think will ultimately be amongst the biggest behaviors.
+16% are using it for just like casual conversation, like not the intense companion products, but like just having someone to talk to.
+And then 12% are using it for like emotional support and advice.
+I think all of these use cases will like asymptote around probably 100% ultimately.
+And so those are behaviors that maybe have been less well served by products so far and will be going forward.
+Whether it's on a chat to be tea or whether it's on like a standalone product.
+Um, and then the other big thing that I'm looking out for is agents.
+Like I think basically our teenage girls going to use agents.
+Come on.
+So here's the thing.
+I think that agents similar to like how in 1990, an internet company was like a dot com company, right?
+Or a tech company like dot com was its own it's own designator.
+Right.
+I think that this is what's going to happen with agents.
+We're ultimately like every tech company was a dot com company.
+Like I think ultimately every AI company and then every tech company is going to be an agenda company because that's just where the models are headed.
+And if you can deliver outcomes and not just kind of inputs to your users as a software product that's so much more compelling.
+So yes, I think 13 year old girls will be using agents, but they will not think of them as agents.
+But I think it does unlock a lot of these other consumer use cases of AI like finance.
+Healthcare travel planning complex trend shopping even where pre agents.
+There was just so much data you had to go out and grab and do it reliably and do it across systems that it wasn't really possible.
+And now it is and so I think we're going to see an explosion of those other use cases in the next few months.
+How long do you think it takes to play out?
+I mean, is everybody using their own open claw in 12 months?
+Is that five years away?
+Is that the wrong mental model like where when we have this conversation?
+Yeah.
+Perhaps in six months at the next top 100.
+What does a world look like?
+I feel like every time I predict something it happens much more quickly that I would have thought which I think is what we're seeing every day.
+And that startups are growing faster than they ever have.
+I think people there's still the cultural change in the cultural adoption will be slower than the technology change in what's actually possible.
+And so I think what will continue to see is this early wave of often technical sometimes not technical AI adopters like lead the charge on a behavior that then six months later everyone else is doing.
+One good example of this that I'm very very excited about is a voice which we've talked about a lot.
+We have talked about voice.
+To me it's like the most information dense high quality source of basically media that we have.
+Like so much of what you do every day is actually downstream or upstream of like what you say.
+And we're I think for the first time in the past six months have seen first engineers and now other people within tech companies adopt things like voice dictation.
+Now it's kind of almost a norm at many companies that your meetings are going to be kind of recorded and transcribed by an AI.
+Yeah.
+Whether that's voice dictation whether that's like a voice pin that answers questions or does task for you.
+I think that is going to spread to the mainstream consumer in the next six and nine months.
+Really really interesting maybe to close can you talk a little bit about memory yes and where you see that going yes.
+Memories as we mentioned early right now and it can be a little bit jarring in that.
+Claude and chat you PT in particular are very good at this even Gemini Google has launched them then called personal intelligence where it now can pull information knows about you from your docs email etc.
+So like serve you better with AI across all of the apps and like I said it can be a little bit drawing now because.
+Many people are talking to AI about everything personal professional and so it can sometimes kind of inadvertently cross the line of like what it knows about you.
+To try to help you better but in the wrong context.
+So I think there's a lot of work to do kind of on like the infrastructure side almost of like how we sort out who someone is in every context one set is settled.
+I think that memory will be one of the core advantages for AI products.
+Whether it's their own memory or like chat you PT lending memory any product that you start to use two years from now if it doesn't immediately feel like it knows you.
+It will feel broken.
+Like the concept of like onboarding to a product should not be something that exists in a couple years and I think that that is something that memory is really going to enable.
+I see it personally for myself where I talked to AI all day talk to several AI's all day and the way that they interact with me and the kind of value that they're able to provide has been so much higher.
+Two or three months in and it is when you start using it incredible.
+Well, I don't know what the future holds but it's going to be weird and wonderful and certainly that.
+Yes.
+Olivia, thank you so much.
+It was super fun to actually have this conversation today and go through the report any closing comments.
+No, I'm just excited for people to read it.
+There's a lot of interesting data in there next time and I'm sure we'll look wildly different six months from now.
+So we'll be back then.
+Really exciting.
+We'll tell us what you think and thanks for checking us out.
+Thank you.
+Thanks for listening to this episode of the A60Z podcast.
+If you liked this episode, be sure to like, comment, subscribe, leave us a rating or a review and share with your friends and family.
+For more episodes, go to YouTube, Apple Podcast and Spotify.
+Follow us on X and A60Z and subscribe to our Substack at A60Z.substack.com.
+Thanks again for listening and I'll see you in the next episode.
+As a reminder, the content here is for informational purposes only.
+Should not be taken as legal business, tax or investment advice or be used to evaluate any investment or security and is not directed at any investors or potential investors in any A60Z fund.
+Please note that A60Z and its affiliates may also maintain investments in the companies discussed in this podcast.
+For more details, including a link to our investments, please see A60Z.com forward slash disclosures.
+Thanks for watching.

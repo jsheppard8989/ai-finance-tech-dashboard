@@ -2,18 +2,18 @@
 // DO NOT EDIT MANUALLY
 
 const dashboardData = {
-  generatedAt: "2026-03-10T05:01:51.587421",
+  generatedAt: "2026-03-10T22:05:24.868849",
   tickerScores: [
   {
     "ticker": "BTC",
-    "total_score": 292.0,
-    "raw_mention_count": 4,
+    "total_score": 368.0,
+    "raw_mention_count": 5,
     "unique_sources": 1,
-    "podcast_mentions": 4,
+    "podcast_mentions": 5,
     "newsletter_mentions": 0,
     "rank": 1,
-    "score": 292.0,
-    "mentions": 4,
+    "score": 368.0,
+    "mentions": 5,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
     "timeframe": "long_term",
@@ -623,6 +623,47 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 67,
+      "title": "Oil, Bonds, and Bitcoin: Navigating Geopolitical Poker and Market Volatility",
+      "source_type": "podcast",
+      "source_name": "The Jack Mallers Show",
+      "source_date": "2026-03-10",
+      "summary": "In this episode, Jack Mallers discusses the current geopolitical situation, particularly focusing on Iran and its impact on financial markets. He emphasizes the unpredictability of the current landscape, comparing it to a high-stakes poker game with no rules. Mallers also touches on the concept of 'short-term pain for long-term gain' as it relates to oil prices and the broader economy. Additionally, he shares his personal investment strategy, which revolves around dollar-cost averaging (DCA) into Bitcoin and building great companies. The episode concludes with Mallers reflecting on the importance of transparency and the potential benefits of sharing more of his personal life, including his diet, finances, and health.",
+      "key_takeaway": "Dollar-cost averaging into Bitcoin and focusing on building innovative companies are key strategies for navigating the current volatile and unpredictable market environment.",
+      "tickers_mentioned": [
+        "AAPL",
+        "NVDA",
+        "SPY",
+        "TSLA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-10",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 52
+    },
+    {
+      "id": 68,
+      "title": "The a16z Show: AI Adoption, Creative Tools, and the Future of Generative AI",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-03-10",
+      "summary": "The podcast discusses the cultural and technological shifts in AI adoption, with a focus on the growth and specialization of AI platforms like Cloud, Chatchee BT, and Gemini. The conversation highlights the increasing divergence of these platforms, their impact on consumer behavior, and the potential for AI to drive cultural changes. The episode also touches on the global data on AI usage, with insights into how different countries are adopting AI and the varying levels of trust in AI across regions. Lastly, the podcast delves into the evolution of creative tools and the role of memory in AI products.",
+      "key_takeaway": "Investment in AI platforms is driven by their ability to capture user data, create personalized experiences, and expand globally, with a focus on platforms that can leverage AI to create compounding advantages.",
+      "tickers_mentioned": [
+        ""
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-10",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 50
+    },
+    {
       "id": 66,
       "title": "The Future of Health and Biotech Innovations",
       "source_type": "podcast",
@@ -640,6 +681,64 @@ const dashboardData = {
       "archived_date": null,
       "archived_reason": null,
       "podcast_episode_id": 49
+    },
+    {
+      "id": 69,
+      "title": "The Future of Personal AI Agents with OpenClaw",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-03-09",
+      "summary": "In this episode of 'Moonshots with Peter Diamandis', the focus is on OpenClaw, an open-source, customizable, self-learning personal AI agent. The discussion revolves around the potential of AI running locally, the opportunities and risks associated with autonomous AI agents, and the impact on individuals and businesses. The guests explore use cases, the vision for the future of AI agents, and the billion-dollar opportunities within the agent economy. Additionally, the conversation touches on safety concerns and the implications of increased hacking attempts in a world where AI is becoming more integrated into daily life.",
+      "key_takeaway": "Investment in AI technology, particularly in personal AI agents like OpenClaw, could offer substantial returns as the technology matures and becomes more integrated into daily life.",
+      "tickers_mentioned": [
+        "BTC"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-10",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 54
+    },
+    {
+      "id": 70,
+      "title": "Monetary Matters with Jack Farley: Global Liquidity and Asset Allocation",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-03-09",
+      "summary": "In this episode of Monetary Matters, Jack Farley interviews Michael Howell from Capital Wars sub-stack and Global Liquidity Indexes. They discuss the peak in the global liquidity cycle, its implications for financial assets, and the shift towards higher yielding assets like private credit. Michael Howell shares his insights on the Federal Reserve's balance sheet, the impact of liquidity on markets, and the potential for a strong economy to lead to a more bearish outlook. The conversation also touches on China's role in the global liquidity cycle and its impact on gold prices.",
+      "key_takeaway": "As the global liquidity cycle peaks, investors should consider rotating their asset allocation towards more defensive areas and higher yielding assets like private credit.",
+      "tickers_mentioned": [
+        "N/A"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-10",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 53
+    },
+    {
+      "id": 71,
+      "title": "All-In with Chamath, Jason, Sacks & Friedberg - Discussion with Graham Allison",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-03-09",
+      "summary": "In this episode, Harvard Professor Graham Allison discusses a range of geopolitical and economic issues, including the Iran conflict, the U.S.-China relationship, and the importance of Taiwan in the global semiconductor supply chain. He emphasizes the uncertainty surrounding these issues and the challenges of regime change and maintaining influence in a multi-polar world. Additionally, Allison touches on economic inequality and potential solutions to address wealth distribution.",
+      "key_takeaway": "The global semiconductor supply chain, with a focus on Taiwan's TSMC, presents both risks and opportunities in the context of U.S.-China relations and economic inequality.",
+      "tickers_mentioned": [
+        "TSLA",
+        "TSM"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-10",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 51
     },
     {
       "id": 64,
@@ -698,11 +797,11 @@ const dashboardData = {
         "TSLA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-06",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-11",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 45
     },
     {
@@ -719,11 +818,11 @@ const dashboardData = {
         "SF"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-07",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-11",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 46
     },
     {
@@ -763,11 +862,11 @@ const dashboardData = {
         ""
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-06",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-11",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 43
     },
     {
@@ -785,11 +884,11 @@ const dashboardData = {
         "GOOG"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-06",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-11",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 42
     },
     {
@@ -808,11 +907,11 @@ const dashboardData = {
         "TSLA"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-06",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-11",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 41
     },
     {
@@ -1868,6 +1967,42 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 67,
+      "title": "Oil, Bonds, and Bitcoin: Navigating Geopolitical Poker and Market Volatility",
+      "source_type": "podcast",
+      "source_name": "The Jack Mallers Show",
+      "source_date": "2026-03-10",
+      "summary": "In this episode, Jack Mallers discusses the current geopolitical situation, particularly focusing on Iran and its impact on financial markets. He emphasizes the unpredictability of the current landscape, comparing it to a high-stakes poker game with no rules. Mallers also touches on the concept of 'short-term pain for long-term gain' as it relates to oil prices and the broader economy. Additionally, he shares his personal investment strategy, which revolves around dollar-cost averaging (DCA) into Bitcoin and building great companies. The episode concludes with Mallers reflecting on the importance of transparency and the potential benefits of sharing more of his personal life, including his diet, finances, and health.",
+      "key_takeaway": "Dollar-cost averaging into Bitcoin and focusing on building innovative companies are key strategies for navigating the current volatile and unpredictable market environment.",
+      "tickers_mentioned": "[\"AAPL\", \"NVDA\", \"SPY\", \"TSLA\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-10",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 52,
+      "episode_release_date": "2026-03-10"
+    },
+    {
+      "id": 68,
+      "title": "The a16z Show: AI Adoption, Creative Tools, and the Future of Generative AI",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-03-10",
+      "summary": "The podcast discusses the cultural and technological shifts in AI adoption, with a focus on the growth and specialization of AI platforms like Cloud, Chatchee BT, and Gemini. The conversation highlights the increasing divergence of these platforms, their impact on consumer behavior, and the potential for AI to drive cultural changes. The episode also touches on the global data on AI usage, with insights into how different countries are adopting AI and the varying levels of trust in AI across regions. Lastly, the podcast delves into the evolution of creative tools and the role of memory in AI products.",
+      "key_takeaway": "Investment in AI platforms is driven by their ability to capture user data, create personalized experiences, and expand globally, with a focus on platforms that can leverage AI to create compounding advantages.",
+      "tickers_mentioned": "[\"\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-10",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 50,
+      "episode_release_date": "2026-03-10"
+    },
+    {
       "id": 66,
       "title": "The Future of Health and Biotech Innovations",
       "source_type": "podcast",
@@ -1883,6 +2018,60 @@ const dashboardData = {
       "archived_date": null,
       "archived_reason": null,
       "podcast_episode_id": 49,
+      "episode_release_date": "2026-03-09"
+    },
+    {
+      "id": 69,
+      "title": "The Future of Personal AI Agents with OpenClaw",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-03-09",
+      "summary": "In this episode of 'Moonshots with Peter Diamandis', the focus is on OpenClaw, an open-source, customizable, self-learning personal AI agent. The discussion revolves around the potential of AI running locally, the opportunities and risks associated with autonomous AI agents, and the impact on individuals and businesses. The guests explore use cases, the vision for the future of AI agents, and the billion-dollar opportunities within the agent economy. Additionally, the conversation touches on safety concerns and the implications of increased hacking attempts in a world where AI is becoming more integrated into daily life.",
+      "key_takeaway": "Investment in AI technology, particularly in personal AI agents like OpenClaw, could offer substantial returns as the technology matures and becomes more integrated into daily life.",
+      "tickers_mentioned": "[\"BTC\"]",
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-10",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 54,
+      "episode_release_date": "2026-03-09"
+    },
+    {
+      "id": 70,
+      "title": "Monetary Matters with Jack Farley: Global Liquidity and Asset Allocation",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-03-09",
+      "summary": "In this episode of Monetary Matters, Jack Farley interviews Michael Howell from Capital Wars sub-stack and Global Liquidity Indexes. They discuss the peak in the global liquidity cycle, its implications for financial assets, and the shift towards higher yielding assets like private credit. Michael Howell shares his insights on the Federal Reserve's balance sheet, the impact of liquidity on markets, and the potential for a strong economy to lead to a more bearish outlook. The conversation also touches on China's role in the global liquidity cycle and its impact on gold prices.",
+      "key_takeaway": "As the global liquidity cycle peaks, investors should consider rotating their asset allocation towards more defensive areas and higher yielding assets like private credit.",
+      "tickers_mentioned": "[\"N/A\"]",
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-10",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 53,
+      "episode_release_date": "2026-03-09"
+    },
+    {
+      "id": 71,
+      "title": "All-In with Chamath, Jason, Sacks & Friedberg - Discussion with Graham Allison",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-03-09",
+      "summary": "In this episode, Harvard Professor Graham Allison discusses a range of geopolitical and economic issues, including the Iran conflict, the U.S.-China relationship, and the importance of Taiwan in the global semiconductor supply chain. He emphasizes the uncertainty surrounding these issues and the challenges of regime change and maintaining influence in a multi-polar world. Additionally, Allison touches on economic inequality and potential solutions to address wealth distribution.",
+      "key_takeaway": "The global semiconductor supply chain, with a focus on Taiwan's TSMC, presents both risks and opportunities in the context of U.S.-China relations and economic inequality.",
+      "tickers_mentioned": "[\"TSLA\", \"TSM\"]",
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-10",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 51,
       "episode_release_date": "2026-03-09"
     },
     {
@@ -1920,96 +2109,6 @@ const dashboardData = {
       "archived_reason": null,
       "podcast_episode_id": 47,
       "episode_release_date": "2026-03-07"
-    },
-    {
-      "id": 62,
-      "title": "Emergency Podcast: US-Iran Conflict and its Impact on Global Markets",
-      "source_type": "podcast",
-      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "source_date": "2026-03-06",
-      "summary": "In this emergency podcast, the hosts discuss the recent US and Israel joint attack on Iran, Operation Epic Fury, and its implications on global markets, energy prices, and insurance industries. They also touch upon the potential for a new insurance industry in the US, the cancellation of a $200 million contract with Anduril, and the strategic importance of DARPA's work in technology and defense. The conversation also briefly explores the threat posed by China's military build-up and the need for the US to remain competitive.",
-      "key_takeaway": "The podcast suggests that the conflict in Iran could lead to new investment opportunities in the insurance sector and underscores the importance of defense and technology investments in the face of global threats.",
-      "tickers_mentioned": "[\"AAPL\", \"NVDA\", \"SPY\", \"TSLA\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-03-06",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 45,
-      "episode_release_date": "2026-03-06"
-    },
-    {
-      "id": 63,
-      "title": "The AI Transformation of Software and SaaS Landscape",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-03-06",
-      "summary": "The podcast discusses the transformative impact of AI on software and the SaaS industry. It explores how AI is changing the way software works, from simple data storage to performing tasks autonomously. The conversation also touches on the 'SaaS apocalypse', discussing the varying impacts on different SaaS companies and how some may actually benefit from AI advancements. The episode further delves into the challenges of software pricing and the shift towards more efficient and collaborative software systems.",
-      "key_takeaway": "Investment in AI-driven software and SaaS companies that can leverage AI to enhance efficiency and value proposition, while being cautious of those that may be disrupted by these technological shifts.",
-      "tickers_mentioned": "[\"WORK\", \"ZEN\", \"SF\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-03-07",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 46,
-      "episode_release_date": "2026-03-06"
-    },
-    {
-      "id": 59,
-      "title": "Anthropic and Alignment: The Intersection of AI, Politics, and Business",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-03-05",
-      "summary": "In this episode of the a16z Show, Ben Thompson from Strat\u00e9cary discusses the complex relationship between AI technology, politics, and business. The conversation revolves around the implications of private companies developing powerful AI technologies and the potential for government intervention. Thompson highlights the importance of considering the real-world consequences of AI advancements, drawing parallels to nuclear weapons, and discusses the ethical and legal dilemmas that arise when private entities possess technologies that could be considered a matter of national security. The discussion also touches on the challenges faced by companies like Anthropic in navigating the delicate balance between innovation, government cooperation, and ethical considerations.",
-      "key_takeaway": "Investment in AI technology companies requires careful consideration of the political and ethical landscape, as well as the potential for government intervention and regulation.",
-      "tickers_mentioned": "[\"\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-03-06",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 43,
-      "episode_release_date": "2026-03-05"
-    },
-    {
-      "id": 60,
-      "title": "The Financialization of Super Intelligence and the Entrepreneurial Opportunity of a Lifetime",
-      "source_type": "podcast",
-      "source_name": "Moonshots with Peter Diamandis",
-      "source_date": "2026-03-05",
-      "summary": "In this episode, the panel discusses the financialization of super intelligence, with Amazon making a contingent offer to invest $35 billion into OpenAI based on their going public and achieving AGI. They also touch on the rapid acceleration of AI, the shift in responsible scaling policies by Anthropic, and the trust in different cloud providers like Microsoft Azure and AWS. The discussion highlights the entrepreneurial opportunities in the circular economy becoming indistinguishable from the real economy, suggesting an era of abundance and value creation.",
-      "key_takeaway": "Investment in AI and cloud technology is positioned as a moonshot opportunity with the potential for significant returns, especially with the anticipated IPOs and the financialization of super intelligence.",
-      "tickers_mentioned": "[\"AMZN\", \"MSFT\", \"GOOGL\", \"GOOG\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-03-06",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 42,
-      "episode_release_date": "2026-03-05"
-    },
-    {
-      "id": 61,
-      "title": "Economic Growth through Creative Destruction",
-      "source_type": "podcast",
-      "source_name": "Monetary Matters with Jack Farley",
-      "source_date": "2026-03-05",
-      "summary": "In this episode of Monetary Matters with Jack Farley, Dr. Peter Howitt, Nobel Prize winner in economics, discusses his research on economic growth through creative destruction, a concept attributed to Joseph Schumpeter. Dr. Howitt explains how technological progress drives economic growth and disrupts existing economic orders, rendering old products, processes, and markets obsolete. The conversation also touches on the impact of technology on productivity, employment, and inflation-adjusted growth rates. Dr. Howitt shares his optimistic view on the potential for new technologies to increase efficiency and potentially lead to more employment in competitive economies.",
-      "key_takeaway": "Invest in technologies and companies that are at the forefront of creative destruction, as they are likely to drive economic growth and disrupt existing markets.",
-      "tickers_mentioned": "[\"AAPL\", \"NVDA\", \"GOOGL\", \"MSFT\", \"TSLA\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-03-06",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 41,
-      "episode_release_date": "2026-03-05"
     }
   ],
   "definitions": [
@@ -5231,6 +5330,343 @@ const dashboardData = {
     "insight_title": "The Future of Health and Biotech Innovations",
     "source_name": "The a16z Show",
     "source_date": "2026-03-09"
+  },
+  "67": {
+    "id": 58,
+    "insight_id": 67,
+    "podcast_episode_id": 52,
+    "overview": "In the current geopolitical climate, characterized by uncertainty and volatility, the interplay between oil, bonds, and Bitcoin is of paramount importance. The investment thesis revolves around the impact of geopolitical events, particularly those involving Iran, on oil prices, the stability of bond markets, and the role of Bitcoin as a hedge against inflation and traditional financial market fluctuations. This analysis is crucial as it provides a framework for investors to navigate the complex and rapidly changing landscape of global finance, with a focus on short to medium-term strategies.",
+    "key_takeaways_detailed": [
+      "Geopolitical tensions, especially those involving Iran, can cause significant volatility in oil prices, affecting global inflation and economic stability.",
+      "Bitcoin's market cap and price movements are indicative of its role as a potential safe haven asset, especially in times of market uncertainty.",
+      "The bond market's reaction to geopolitical events and inflation expectations can provide insights into the health of the global economy and potential shifts in monetary policy.",
+      "Investors should monitor the Bitcoin market cap and price as a barometer for digital asset adoption and potential shifts away from traditional financial instruments.",
+      "The use of AI in financial analysis and decision-making is becoming increasingly important, offering efficiency gains and potentially uncovering new investment opportunities."
+    ],
+    "investment_thesis": "The core investment logic is centered on the premise that geopolitical events, particularly those in Iran, will continue to influence oil prices and global financial markets. This thesis posits that as oil prices fluctuate due to geopolitical tensions, bond markets will reflect changes in inflation expectations and economic stability. Simultaneously, Bitcoin's performance will be indicative of its role as a hedge against traditional market volatility. The catalysts for this thesis include ongoing geopolitical developments, changes in global monetary policy, and the increasing adoption of digital assets. The timeframe for this thesis is short to medium-term, as these markets are highly sensitive to immediate events and policy changes.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple Inc. (AAPL) is included due to its significant market influence and its exposure to global supply chains, which can be affected by geopolitical tensions and economic stability.",
+        "positioning": "Position long on AAPL as a strategic play on the company's ability to weather economic volatility and its potential to benefit from increased digital payments and services, which could rise with the adoption of digital assets like Bitcoin.",
+        "risk": "Key risks include supply chain disruptions due to geopolitical events and potential shifts in consumer spending due to economic instability."
+      },
+      "NVDA": {
+        "rationale": "NVIDIA Corporation (NVDA) is relevant due to its leadership in AI technology, which is becoming increasingly important in financial analysis and decision-making.",
+        "positioning": "Consider a tactical long position in NVDA to capitalize on the growing demand for AI in finance and the potential for increased efficiency in investment strategies.",
+        "risk": "The risk lies in the potential for slower-than-expected adoption of AI in the financial sector and increased competition in the AI chip market."
+      },
+      "SPY": {
+        "rationale": "SPDR S&P 500 ETF Trust (SPY) represents a broad exposure to the U.S. stock market and can serve as a benchmark for market performance amidst geopolitical events.",
+        "positioning": "Maintain a medium-term strategic position in SPY to track the overall market performance and as a hedge against more focused sector investments.",
+        "risk": "Risks include broad market downturns due to economic instability and geopolitical tensions affecting U.S. companies."
+      },
+      "TSLA": {
+        "rationale": "Tesla Inc. (TSLA) is included for its role as a disruptor in the automotive and energy sectors, which can be influenced by oil price fluctuations and the adoption of digital assets.",
+        "positioning": "A tactical long position in TSLA could be considered to capitalize on the company's growth potential in electric vehicles and renewable energy, which may benefit from a shift away from fossil fuels.",
+        "risk": "Key risks include increased competition in the electric vehicle market and potential disruptions in Tesla's supply chain due to geopolitical events."
+      }
+    },
+    "positioning_guidance": "Investors should consider a diversified portfolio with a mix of long positions in companies that can benefit from or are less affected by geopolitical tensions and market volatility. Entry points should be based on market analysis and individual risk tolerance, with a focus on short to medium-term timeframes. Consider hedging with investments in companies that offer stability or are less exposed to geopolitical risks.",
+    "risk_factors": [
+      "Unexpected escalation of geopolitical conflicts leading to a significant disruption in oil supply.",
+      "A sudden shift in global monetary policy that could affect bond markets and inflation expectations.",
+      "Regulatory changes affecting the digital asset market, particularly Bitcoin, which could impact its role as a hedge.",
+      "A slowdown in the adoption of AI technology in the financial sector, affecting companies like NVIDIA.",
+      "Economic downturns that could affect consumer spending and the performance of companies like Apple and Tesla."
+    ],
+    "contrarian_signals": [
+      "The possibility that geopolitical tensions may de-escalate, leading to a stabilization in oil prices and reduced market volatility.",
+      "The potential for a faster-than-expected recovery in the global economy, which could reduce the appeal of Bitcoin as a hedge.",
+      "The emergence of new technologies or market trends that could disrupt the current investment thesis, such as the rise of alternative digital assets or new AI applications."
+    ],
+    "catalysts": [
+      "Upcoming geopolitical events and their outcomes, particularly those involving Iran, which could significantly impact oil prices.",
+      "Central bank meetings and announcements that could signal changes in monetary policy, affecting bond markets and inflation expectations.",
+      "Earnings reports and significant business developments from companies like Apple, NVIDIA, and Tesla, which could influence their stock performance.",
+      "Regulatory developments in the digital asset space, which could affect the adoption and performance of Bitcoin.",
+      "Technological breakthroughs or significant AI applications in finance that could change the investment landscape."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-03-10T22:03:30.270374",
+    "updated_at": "2026-03-11 03:03:30",
+    "insight_title": "Oil, Bonds, and Bitcoin: Navigating Geopolitical Poker and Market Volatility",
+    "source_name": "The Jack Mallers Show",
+    "source_date": "2026-03-10"
+  },
+  "68": {
+    "id": 59,
+    "insight_id": 68,
+    "podcast_episode_id": 50,
+    "overview": "The rapid advancement of AI technology has outpaced cultural adoption, creating a fertile ground for investment opportunities. The a16z podcast highlights the divergence of platforms like Cloud, Chatchee BT, and Gemini, each focusing on different aspects of AI applications. With Chatchee BT reaching only 10% of the global population weekly, there is significant room for growth. This deep dive analysis explores the investment implications of the current AI landscape, focusing on the creative tools sector and the future of generative AI.",
+    "key_takeaways_detailed": [
+      "Chatchee BT leads in AI usage but has substantial room for growth, indicating a long-term investment opportunity.",
+      "The divergence of platforms suggests a fragmented market, where each has the potential to capture specific user segments.",
+      "The inclusion of non-AI native products that are now majority AI-enabled, like Canva and Notion, signals a broader trend towards AI integration across various software applications.",
+      "AI usage varies significantly by region, with Singapore, Hong Kong, and the UAE leading per capita AI usage, presenting geographical investment insights.",
+      "Trust in AI is a critical factor, with high trust in China contrasting with lower trust in the US, affecting global AI adoption rates."
+    ],
+    "investment_thesis": "The core investment logic revolves around the early stages of AI adoption and the potential for exponential growth as technology matures and cultural barriers are overcome. Catalysts include the release of new AI-enabled features in existing platforms, the expansion of AI into new applications, and the increasing trust in AI technology. The timeframe for this thesis is medium to long-term, as cultural adoption and technology integration are expected to accelerate over the next 3-10 years.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's strong position in consumer technology and its potential to integrate AI into its ecosystem makes it a key player in the AI space.",
+        "positioning": "Position long-term as Apple continues to innovate and integrate AI into its products, enhancing user experience and driving growth.",
+        "risk": "Key risks include slower-than-expected AI adoption by consumers and increased competition from other tech giants."
+      },
+      "NVDA": {
+        "rationale": "Nvidia's leadership in GPU technology positions it as a critical supplier to the AI industry, benefiting from the growth of AI applications.",
+        "positioning": "Consider a strategic long position due to Nvidia's fundamental role in powering AI advancements.",
+        "risk": "The risk of technological disruption in GPU technology and reliance on the overall growth of the AI market."
+      },
+      "GOOGL": {
+        "rationale": "Google's extensive AI research and its broad suite of AI-enabled services make it a significant player in the generative AI space.",
+        "positioning": "Hold a long position as Google continues to expand its AI offerings and monetize through ads, transactions, and subscriptions.",
+        "risk": "Regulatory challenges and competition from other tech giants could hinder Google's AI growth."
+      },
+      "MSFT": {
+        "rationale": "Microsoft's investment in AI through Azure and its suite of productivity tools positions it to benefit from the proliferation of AI in enterprise settings.",
+        "positioning": "Maintain a long-term strategic position as Microsoft's AI offerings are integrated into its existing products and services.",
+        "risk": "The risk of losing market share to competitors and the slow adoption of AI by enterprise customers."
+      },
+      "TSLA": {
+        "rationale": "Tesla's use of AI in its autonomous driving technology and manufacturing processes makes it a unique player in the AI-driven innovation.",
+        "positioning": "Consider a long position as Tesla continues to push the boundaries of AI in the automotive industry.",
+        "risk": "Regulatory hurdles and technological setbacks in autonomous driving could impact Tesla's growth."
+      }
+    },
+    "positioning_guidance": "Investors should position their portfolios to capitalize on the long-term growth potential of AI. This includes a mix of tech giants with established AI offerings and innovative companies at the forefront of AI development. Entry points should be considered in the context of market volatility and the individual company's AI roadmap. Diversification across different AI applications and regions can help mitigate risks.",
+    "risk_factors": [
+      "Regulatory hurdles that could slow down AI adoption and development.",
+      "Technological setbacks or failures in AI applications that could damage consumer trust.",
+      "Increased competition that could erode market share and profitability for AI companies.",
+      "Cultural resistance to AI adoption that could limit the reach of AI technologies.",
+      "Economic downturns that could reduce investment in AI research and development."
+    ],
+    "contrarian_signals": [
+      "The potential for AI to displace jobs, leading to social and political pushback against AI adoption.",
+      "The possibility of AI technologies failing to meet the high expectations set by rapid technological advancements.",
+      "The risk of data privacy concerns and security breaches that could hinder the growth of AI applications.",
+      "The potential for AI to exacerbate existing social inequalities, leading to calls for more stringent regulation."
+    ],
+    "catalysts": [
+      "The release of new AI features and products by major tech companies.",
+      "Advancements in AI research that lead to breakthroughs in generative AI capabilities.",
+      "Regulatory decisions that either support or hinder the growth of AI technologies.",
+      "Economic indicators that signal the health of the AI market and the willingness of consumers and businesses to adopt AI.",
+      "Global events that highlight the benefits or risks of AI, influencing public perception and adoption rates."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-03-10T22:03:50.008473",
+    "updated_at": "2026-03-11 03:03:50",
+    "insight_title": "The a16z Show: AI Adoption, Creative Tools, and the Future of Generative AI",
+    "source_name": "The a16z Show",
+    "source_date": "2026-03-10"
+  },
+  "69": {
+    "id": 60,
+    "insight_id": 69,
+    "podcast_episode_id": 54,
+    "overview": "OpenClaw represents a significant shift in the AI landscape, offering a fully customizable, self-learning, and self-evolving personal AI agent. This technology has the potential to disrupt traditional AI models by enabling 24/7 autonomous operation, which is a game-changer for personal and enterprise use. The ability to run AI locally on devices like MacMines opens up a new frontier for AI applications, making OpenClaw a pivotal player in the AI revolution. Given its potential to redefine personal AI and the rapid evolution in this space, investors should pay close attention to the developments around OpenClaw and its implications for the tech industry.",
+    "key_takeaways_detailed": [
+      "OpenClaw's self-improving AI agents could lead to significant efficiency gains and new applications in personal and enterprise settings.",
+      "The ability to run AI locally on devices like MacMines could reduce reliance on cloud-based AI services, impacting companies like Apple (AAPL) and NVIDIA (NVDA).",
+      "Security and ethical considerations surrounding AI autonomy are critical for investors to monitor, as they could influence the adoption and regulation of such technologies.",
+      "Investors should watch for the emergence of new variants like Pico-Claw and Iron-Claw, which could indicate the direction of the AI agent market.",
+      "The rapid pace of development in AI agents suggests that the next 12 months could see significant advancements, akin to a '12 years in AI' period."
+    ],
+    "investment_thesis": "The core investment logic revolves around the transformative potential of OpenClaw's personal AI agents. As these agents become more capable and widely adopted, they could disrupt traditional AI models and create new market opportunities. Catalysts for this thesis include technological breakthroughs, increased adoption by consumers and enterprises, and the development of a robust ecosystem around AI agents. The timeframe for this thesis is medium to long-term, as the full impact of these technologies may take several years to materialize.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's MacMines could become the go-to platform for running OpenClaw's AI agents, leveraging their local processing capabilities.",
+        "positioning": "Long-term strategic position, as Apple's hardware could benefit from the shift towards local AI processing.",
+        "risk": "Regulatory changes around AI autonomy and security could impact Apple's ability to leverage OpenClaw effectively."
+      },
+      "NVDA": {
+        "rationale": "NVIDIA's GPUs are critical for AI processing, and the shift towards local AI could increase demand for their products.",
+        "positioning": "Long-term strategic position, as NVIDIA's technology is fundamental to the performance of AI agents.",
+        "risk": "If the market shifts towards less powerful, edge-based AI processing, NVIDIA's high-end GPU sales could be affected."
+      },
+      "GOOGL": {
+        "rationale": "Google's extensive AI research and cloud services could be threatened by the rise of local AI agents like OpenClaw.",
+        "positioning": "Short-term tactical position, as Google may face near-term challenges in adapting to the local AI trend.",
+        "risk": "Google's ability to innovate and adapt to new AI paradigms could mitigate the risks associated with OpenClaw's rise."
+      },
+      "MSFT": {
+        "rationale": "Microsoft's Azure cloud platform and AI investments position it to compete in the evolving AI landscape.",
+        "positioning": "Medium-term strategic position, as Microsoft can leverage its cloud and AI expertise to offer complementary services to OpenClaw users.",
+        "risk": "Microsoft may face increased competition from local AI solutions, which could reduce its cloud revenue."
+      },
+      "AMZN": {
+        "rationale": "Amazon's AWS could also be impacted by the shift towards local AI, but it also has opportunities to offer services that support AI agents.",
+        "positioning": "Medium-term strategic position, as Amazon can pivot to offer infrastructure and services for local AI solutions.",
+        "risk": "The rapid adoption of local AI could reduce Amazon's cloud market share if it fails to adapt quickly."
+      }
+    },
+    "positioning_guidance": "Investors should consider a balanced portfolio that includes positions in companies that stand to benefit from the rise of local AI agents like OpenClaw, as well as those that may face challenges. Sizing should reflect the potential impact of OpenClaw on each company's business model. Entry points should be considered in the context of the overall market trends and the specific catalysts related to AI agent development. Timeframes for these positions should align with the expected pace of AI agent evolution, which is likely to be rapid but with significant variability. Hedges may include investments in cybersecurity companies that could benefit from the increased need for security solutions in the AI space.",
+    "risk_factors": [
+      "Regulatory changes could significantly impact the development and adoption of AI agents.",
+      "Technological setbacks or security breaches could slow the adoption of personal AI agents.",
+      "The pace of AI agent development could be slower than expected, affecting the timeline for investment returns.",
+      "The rise of competing AI platforms could diminish OpenClaw's market share.",
+      "Ethical concerns around AI autonomy could lead to public backlash and impact the market for personal AI agents."
+    ],
+    "contrarian_signals": [
+      "The potential for cloud-based AI to remain dominant due to economies of scale and network effects.",
+      "The possibility that personal AI agents may not achieve the level of autonomy and intelligence expected, limiting their disruptive potential.",
+      "The risk that the development of AI agents could be hampered by ethical and security concerns, slowing their adoption.",
+      "The potential for AI agents to be niche solutions rather than widespread replacements for current AI models."
+    ],
+    "catalysts": [
+      "Upcoming AI conferences and events where OpenClaw and its variants may be showcased.",
+      "Release of new OpenClaw features or variants that significantly enhance its capabilities.",
+      "Partnerships between OpenClaw and major tech companies that could accelerate its adoption.",
+      "Regulatory decisions that either support or hinder the development and use of personal AI agents.",
+      "Technological breakthroughs in AI that could either bolster or challenge the position of OpenClaw in the market."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-03-10T22:04:13.469165",
+    "updated_at": "2026-03-11 03:04:13",
+    "insight_title": "The Future of Personal AI Agents with OpenClaw",
+    "source_name": "Moonshots with Peter Diamandis",
+    "source_date": "2026-03-09"
+  },
+  "70": {
+    "id": 61,
+    "insight_id": 70,
+    "podcast_episode_id": 53,
+    "overview": "In this episode of 'Monetary Matters with Jack Farley,' Michael Howell of Capital Wars sub-stack and Global Liquidity Indexes discusses the peak in the global liquidity cycle and its implications for financial assets, particularly risk markets. Howell suggests that the narrative of a general debasement of currencies is misleading and that gold's performance is being driven by specific actions taken by China. The discussion highlights the importance of understanding the nuances of global liquidity and its impact on asset allocation. This analysis is crucial for investors as it provides insights into the current market dynamics and potential shifts in monetary policy that could significantly affect investment strategies.",
+    "key_takeaways_detailed": [
+      "Global liquidity is peaking, which could put pressure on financial assets, especially risk markets.",
+      "The narrative of currency debasement is not universally applicable; gold's performance is influenced by specific actions by China.",
+      "The Federal Reserve's balance sheet is not the sole indicator of liquidity; it's essential to analyze its liquidity-creating components.",
+      "The incoming Fed share, Kevin Waters, may have a hawkish stance on the balance sheet, which could impact liquidity and financial markets.",
+      "The size of the Treasury market has grown significantly post-GFC, and the Fed's balance sheet plays a crucial role in supporting it."
+    ],
+    "investment_thesis": "The investment thesis revolves around the peak in the global liquidity cycle and its potential impact on asset allocation. As liquidity growth slows, risk markets may face headwinds, and investors should consider reallocating their portfolios to higher-yielding assets like private credit. The catalysts for this thesis include the actions of central banks, particularly the Federal Reserve, and the potential policy shifts under the new Fed share. The timeframe for this thesis is medium to long-term, as the effects of liquidity changes typically manifest over a period of 3-12 months and beyond.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple Inc. (AAPL) is a bellwether for the technology sector and is sensitive to changes in global liquidity and market sentiment. As liquidity peaks, tech stocks like AAPL may face volatility.",
+        "positioning": "Positioning in AAPL should be strategic, considering the company's strong balance sheet and growth prospects, but with an awareness of potential market volatility.",
+        "risk": "Key risks include changes in consumer spending, global economic slowdown, and potential shifts in monetary policy affecting tech valuations."
+      },
+      "NVDA": {
+        "rationale": "NVIDIA Corporation (NVDA) is a leader in the semiconductor industry, which is heavily influenced by global liquidity and demand for technology products.",
+        "positioning": "NVDA can be positioned long for its growth potential in AI and gaming, but investors should be prepared for short-term volatility due to liquidity concerns.",
+        "risk": "Risks include increased competition, regulatory challenges, and a potential slowdown in global demand for semiconductors."
+      },
+      "SPY": {
+        "rationale": "SPY, the SPDR S&P 500 ETF, provides broad exposure to the U.S. stock market and is a direct reflection of the health of risk markets.",
+        "positioning": "Investors should consider a tactical approach to SPY, balancing long-term holdings with the potential for short-term market fluctuations due to liquidity changes.",
+        "risk": "Risks include a broad market downturn, geopolitical events, and changes in Fed policy affecting the entire S&P 500 index."
+      },
+      "TSLA": {
+        "rationale": "Tesla Inc. (TSLA) is a high-growth stock that is sensitive to liquidity conditions and investor sentiment towards electric vehicles and renewable energy.",
+        "positioning": "TSLA can be positioned long for its innovative leadership and growth prospects, but with caution due to its high valuation and market volatility.",
+        "risk": "Key risks include production delays, regulatory hurdles, and changes in consumer preferences or economic conditions affecting the EV market."
+      }
+    },
+    "positioning_guidance": "Investors should consider a balanced approach to portfolio positioning, with a mix of strategic long-term holdings and tactical short-term positions to capitalize on market fluctuations. Entry points should be based on market liquidity indicators and global economic data. Timeframes for strategic positions should be medium to long-term, while tactical positions may be more short-term, adjusting to changes in liquidity conditions and monetary policy. Hedging strategies, such as options or inverse ETFs, can be employed to protect against potential market downturns.",
+    "risk_factors": [
+      "Unexpected changes in monetary policy by the Federal Reserve or other central banks.",
+      "Geopolitical events or economic crises that could disrupt global liquidity.",
+      "A significant shift in investor sentiment towards risk assets, leading to a rapid sell-off.",
+      "Regulatory changes affecting key industries, such as technology or finance.",
+      "A global economic slowdown affecting demand for goods and services."
+    ],
+    "contrarian_signals": [
+      "The possibility that the peak in the global liquidity cycle may not lead to a significant market downturn, as some investors may still find value in risk assets.",
+      "The view that the actions of the Chinese government may not have a lasting impact on gold prices, and other factors may drive the market.",
+      "The argument that the incoming Fed share may not be as hawkish as anticipated, leading to a more accommodative monetary policy."
+    ],
+    "catalysts": [
+      "The appointment of the new Fed share and their initial policy announcements.",
+      "Economic data releases that could indicate the health of the global economy and the effectiveness of current monetary policies.",
+      "Central bank meetings and policy decisions that could signal changes in liquidity conditions.",
+      "Geopolitical events that could impact global markets and liquidity, such as trade agreements or conflicts.",
+      "Corporate earnings reports and economic indicators that could influence investor sentiment and market volatility."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-03-10T22:04:38.402994",
+    "updated_at": "2026-03-11 03:04:38",
+    "insight_title": "Monetary Matters with Jack Farley: Global Liquidity and Asset Allocation",
+    "source_name": "Monetary Matters with Jack Farley",
+    "source_date": "2026-03-09"
+  },
+  "71": {
+    "id": 62,
+    "insight_id": 71,
+    "podcast_episode_id": 51,
+    "overview": "In this episode of the all-in-interview, Harvard Professor Graham Allison discusses the current geopolitical landscape, particularly focusing on the U.S. and Israel's attack on Iran and its potential implications. The conversation highlights the uncertainty surrounding the conflict, the demonstration of military and intelligence power, and the challenges of regime change. This analysis aims to provide investors with insights into the investment implications of these geopolitical events, focusing on technology and defense companies that may be affected by the evolving situation in the Middle East.",
+    "key_takeaways_detailed": [
+      "The current conflict with Iran is highly uncertain, with multiple potential outcomes and timelines, making it difficult to predict the impact on global markets and specific sectors.",
+      "The U.S. and Israel's demonstration of military and intelligence power could lead to increased defense spending and investment in advanced technology, benefiting companies in the defense and technology sectors.",
+      "Regime change in Iran is historically challenging, and the potential for a prolonged conflict could have negative implications for global markets and the stability of the Middle East.",
+      "The potential for a redefined security landscape in the Middle East could create opportunities for companies with interests in the region, particularly in the energy and technology sectors.",
+      "Investors should closely monitor the evolving situation and consider the potential impact on their portfolios, particularly in relation to technology and defense companies."
+    ],
+    "investment_thesis": "The current geopolitical situation in the Middle East, particularly the conflict with Iran, presents both risks and opportunities for investors. While the uncertainty surrounding the conflict makes it difficult to predict the exact impact on global markets, there are potential catalysts for increased defense spending and investment in advanced technology. Investors should consider positioning their portfolios to capitalize on these potential opportunities, while also being prepared for the risks associated with a prolonged conflict. The timeframe for this thesis is medium to long-term, as the situation in the Middle East is likely to evolve over the coming months and years.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple is a global technology leader with significant exposure to the Middle East, particularly through its supply chain and sales. The evolving geopolitical situation could impact Apple's business in the region, either positively or negatively.",
+        "positioning": "Investors should consider a tactical long position in AAPL, as the company is well-positioned to benefit from increased investment in advanced technology. However, the potential for a prolonged conflict in the Middle East presents risks, so investors should monitor the situation closely and be prepared to adjust their positions accordingly.",
+        "risk": "Key risks for AAPL include potential disruptions to its supply chain, negative impacts on sales in the Middle East, and broader market volatility due to geopolitical uncertainty."
+      },
+      "NVDA": {
+        "rationale": "Nvidia is a leading provider of advanced technology, including artificial intelligence and graphics processing units, which are increasingly important for military and intelligence applications.",
+        "positioning": "Investors should consider a strategic long position in NVDA, as the company is well-positioned to benefit from increased defense spending and investment in advanced technology. However, the potential for a prolonged conflict in the Middle East presents risks, so investors should monitor the situation closely and be prepared to adjust their positions accordingly.",
+        "risk": "Key risks for NVDA include potential disruptions to its supply chain, negative impacts on sales to defense customers, and broader market volatility due to geopolitical uncertainty."
+      },
+      "SPY": {
+        "rationale": "The SPDR S&P 500 ETF Trust (SPY) provides exposure to the overall U.S. market, which could be impacted by the evolving geopolitical situation in the Middle East.",
+        "positioning": "Investors should consider a tactical position in SPY, as the ETF offers broad exposure to the U.S. market and can serve as a hedge against sector-specific risks. However, the potential for a prolonged conflict in the Middle East presents risks, so investors should monitor the situation closely and be prepared to adjust their positions accordingly.",
+        "risk": "Key risks for SPY include broader market volatility due to geopolitical uncertainty and potential negative impacts on specific sectors, such as energy and technology."
+      },
+      "TSLA": {
+        "rationale": "Tesla is a global leader in electric vehicles and renewable energy, with potential exposure to the Middle East through its sales and potential future investments in the region.",
+        "positioning": "Investors should consider a tactical long position in TSLA, as the company is well-positioned to benefit from increased investment in renewable energy and could potentially expand its presence in the Middle East. However, the potential for a prolonged conflict in the Middle East presents risks, so investors should monitor the situation closely and be prepared to adjust their positions accordingly.",
+        "risk": "Key risks for TSLA include potential disruptions to its supply chain, negative impacts on sales in the Middle East, and broader market volatility due to geopolitical uncertainty."
+      }
+    },
+    "positioning_guidance": "Investors should consider a balanced approach to portfolio positioning, with a mix of tactical and strategic positions in technology and defense companies. Entry points should be based on a close monitoring of the evolving geopolitical situation and potential catalysts for increased defense spending and investment in advanced technology. Timeframes for positions should be medium to long-term, as the situation in the Middle East is likely to evolve over the coming months and years. Investors should also consider hedging their positions with broad market exposure, such as through the SPDR S&P 500 ETF Trust (SPY), to mitigate sector-specific risks.",
+    "risk_factors": [
+      "Prolonged conflict in the Middle East leading to broader market volatility and potential disruptions to supply chains.",
+      "Negative impacts on sales for companies with significant exposure to the Middle East, particularly in the energy and technology sectors.",
+      "Geopolitical uncertainty leading to reduced investment in advanced technology and defense spending.",
+      "Potential for regime change in Iran to be more difficult and protracted than anticipated, leading to increased instability in the region.",
+      "Broader economic impacts of the conflict, such as increased oil prices and potential disruptions to global trade."
+    ],
+    "contrarian_signals": [
+      "The potential for a quick resolution to the conflict in Iran, leading to a more stable security landscape in the Middle East and increased investment opportunities.",
+      "The possibility that the U.S. and Israel's demonstration of military and intelligence power could deter further aggression from Iran and its proxies, reducing the likelihood of a prolonged conflict.",
+      "The potential for increased investment in renewable energy and technology in the Middle East, creating new opportunities for companies in these sectors."
+    ],
+    "catalysts": [
+      "Upcoming negotiations between the U.S. and China, which could be impacted by the evolving geopolitical situation in the Middle East.",
+      "Potential changes in U.S. policy towards Iran, such as increased sanctions or diplomatic efforts to resolve the conflict.",
+      "Developments in the conflict with Iran, such as changes in the objectives or timeline of the U.S. and Israel's military actions.",
+      "Elections in Israel, which could impact the country's stance towards Iran and the broader conflict.",
+      "Changes in the global oil market, which could be impacted by the evolving situation in the Middle East and have broader implications for the global economy."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-03-10T22:05:06.719139",
+    "updated_at": "2026-03-11 03:05:06",
+    "insight_title": "All-In with Chamath, Jason, Sacks & Friedberg - Discussion with Graham Allison",
+    "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "source_date": "2026-03-09"
   }
 },
   suggestedTerms: [
@@ -5269,6 +5705,18 @@ const dashboardData = {
     "relevance_score": 50,
     "submitted_date": "2026-02-15 17:19:42",
     "priority_score": 80
+  },
+  {
+    "id": 4,
+    "term": "Michael Howell",
+    "definition": null,
+    "investment_implications": null,
+    "source_type": "auto_extracted",
+    "mention_count": 2,
+    "source_diversity": 1,
+    "relevance_score": 30,
+    "submitted_date": "2026-03-11 03:05:24",
+    "priority_score": 70
   }
 ]
 };
