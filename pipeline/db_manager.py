@@ -83,7 +83,31 @@ class DashboardDB:
                 with open(SCHEMA_PATH, 'r') as f:
                     conn.executescript(f.read())
                 print(f"✓ Initialized database at {self.db_path}")
-    
+        # Ensure podcast_guests exists (migration for existing DBs)
+        with self._get_connection() as conn:
+            conn.execute("""
+                CREATE TABLE IF NOT EXISTS podcast_guests (
+                    id INTEGER PRIMARY KEY AUTOINCREMENT,
+                    name TEXT NOT NULL,
+                    slug TEXT UNIQUE,
+                    bio TEXT,
+                    known_for TEXT,
+                    last_main_idea TEXT,
+                    last_episode_id INTEGER,
+                    last_episode_title TEXT,
+                    last_podcast_name TEXT,
+                    last_episode_date DATE,
+                    appearance_count INTEGER DEFAULT 1,
+                    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                    FOREIGN KEY (last_episode_id) REFERENCES podcast_episodes(id)
+                )
+            """)
+            try:
+                conn.execute("ALTER TABLE podcast_episodes ADD COLUMN guest_name TEXT")
+            except sqlite3.OperationalError:
+                pass
+
     # === Ticker Aliases ===
 
     def resolve_ticker(self, raw: str) -> str:
@@ -344,12 +368,18 @@ class DashboardDB:
         archive = self.export_archive_data()
         with open(output_dir / 'archive.json', 'w') as f:
             json.dump(archive, f, indent=2, default=str)
-        
+
+        # Export podcast guests for site
+        guests = self.get_podcast_guests_for_site(limit=30)
+        with open(output_dir / 'podcast_guests.json', 'w') as f:
+            json.dump(guests, f, indent=2, default=str)
+
         print(f"✓ Exported website data to {output_dir}")
         return {
             'ticker_scores': len(scores),
             'podcast_summaries': len(podcasts),
-            'archive_items': sum(len(v) for v in archive.values())
+            'archive_items': sum(len(v) for v in archive.values()),
+            'podcast_guests': len(guests)
         }
     
     # === Archive Management ===
@@ -434,7 +464,7 @@ class DashboardDB:
             # Get active insights (limited to most recent 5)
             # Join with podcast_episodes to get actual episode release date
             cursor = conn.execute("""
-                SELECT li.*, pe.episode_date as episode_release_date
+                SELECT li.*, pe.episode_date as episode_release_date, pe.guest_name as guest_name
                 FROM latest_insights li
                 LEFT JOIN podcast_episodes pe ON li.podcast_episode_id = pe.id
                 WHERE li.display_on_main = 1
@@ -561,6 +591,64 @@ class DashboardDB:
                 ORDER BY relevance_score DESC, mention_count DESC
             """)
             return [dict(row) for row in cursor.fetchall()]
+
+    # === Podcast Guests (Interviewees) ===
+
+    def get_podcast_guests_for_site(self, limit: int = 20) -> List[Dict]:
+        """Get podcast guests for website 'Voices' / interviewees section."""
+        with self._get_connection() as conn:
+            cursor = conn.execute("""
+                SELECT id, name, slug, bio, known_for, last_main_idea,
+                       last_episode_title, last_podcast_name, last_episode_date, appearance_count
+                FROM podcast_guests
+                WHERE last_episode_id IS NOT NULL
+                ORDER BY last_episode_date DESC, appearance_count DESC
+                LIMIT ?
+            """, (limit,))
+            return [dict(row) for row in cursor.fetchall()]
+
+    def upsert_podcast_guest(self, name: str, last_episode_id: int, last_episode_title: str,
+                             last_podcast_name: str, last_episode_date, last_main_idea: str,
+                             bio: str = None, known_for: str = None) -> int:
+        """Insert or update a podcast guest. Returns guest id."""
+        import re
+        slug = re.sub(r'[^\w\s-]', '', name).strip().lower().replace(' ', '-')[:80] or 'guest'
+        slug = slug or f"guest-{last_episode_id}"
+        now = datetime.now().isoformat()
+        with self._get_connection() as conn:
+            existing = conn.execute(
+                "SELECT id, appearance_count, last_episode_date FROM podcast_guests WHERE LOWER(TRIM(name)) = LOWER(TRIM(?))",
+                (name,)
+            ).fetchone()
+            if existing:
+                count = (existing['appearance_count'] or 1) + 1
+                cur_date = existing['last_episode_date']
+                # Only overwrite last_episode_* if this episode is same or more recent
+                if cur_date is None or (last_episode_date and str(last_episode_date) >= str(cur_date)):
+                    conn.execute("""
+                        UPDATE podcast_guests SET
+                            last_episode_id = ?, last_episode_title = ?, last_podcast_name = ?,
+                            last_episode_date = ?, last_main_idea = ?, appearance_count = ?,
+                            updated_at = ?,
+                            bio = COALESCE(?, bio), known_for = COALESCE(?, known_for)
+                        WHERE id = ?
+                    """, (last_episode_id, last_episode_title, last_podcast_name,
+                          last_episode_date, last_main_idea, count, now, bio, known_for, existing['id']))
+                else:
+                    conn.execute("""
+                        UPDATE podcast_guests SET appearance_count = ?, updated_at = ?,
+                        bio = COALESCE(?, bio), known_for = COALESCE(?, known_for)
+                        WHERE id = ?
+                    """, (count, now, bio, known_for, existing['id']))
+                return existing['id']
+            cursor = conn.execute("""
+                INSERT INTO podcast_guests
+                (name, slug, bio, known_for, last_main_idea, last_episode_id, last_episode_title,
+                 last_podcast_name, last_episode_date, appearance_count, created_at, updated_at)
+                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, 1, ?, ?)
+            """, (name, slug, bio, known_for, last_main_idea, last_episode_id, last_episode_title,
+                  last_podcast_name, last_episode_date, now, now))
+            return cursor.lastrowid
 
 # Convenience function for quick access
 def get_db() -> DashboardDB:

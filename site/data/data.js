@@ -2,7 +2,7 @@
 // DO NOT EDIT MANUALLY
 
 const dashboardData = {
-  generatedAt: "2026-03-11T05:01:16.398093",
+  generatedAt: "2026-03-11T22:02:43.100789",
   tickerScores: [
   {
     "ticker": "BTC",
@@ -623,6 +623,29 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 72,
+      "title": "Real-time Crime Prevention and the Future of Policing",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-03-11",
+      "summary": "This episode of the a16z Show features Garrett Langley, founder of Flock Safety, discussing the evolution of crime prevention technology. Langley highlights the transition from traditional policing methods to real-time, data-driven approaches that leverage AI, drones, and license plate readers. The conversation touches on the impact of technology on crime clearance rates, the importance of data sovereignty, and the challenges faced by US companies competing with subsidized Chinese manufacturers. Langley also shares his vision for preventing crime and rehabilitating offenders, emphasizing the need for a holistic approach that includes job creation and community investment.",
+      "key_takeaway": "Investing in technology that enhances real-time crime prevention and clearance rates can lead to more effective law enforcement and safer communities.",
+      "tickers_mentioned": [
+        "AAPL",
+        "NVDA",
+        "GOOGL",
+        "AMZN",
+        "MSFT"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-11",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 55
+    },
+    {
       "id": 67,
       "title": "Oil, Bonds, and Bitcoin: Navigating Geopolitical Poker and Market Volatility",
       "source_type": "podcast",
@@ -752,11 +775,11 @@ const dashboardData = {
         ""
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-07",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-12",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 48
     },
     {
@@ -1967,6 +1990,25 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 72,
+      "title": "Real-time Crime Prevention and the Future of Policing",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-03-11",
+      "summary": "This episode of the a16z Show features Garrett Langley, founder of Flock Safety, discussing the evolution of crime prevention technology. Langley highlights the transition from traditional policing methods to real-time, data-driven approaches that leverage AI, drones, and license plate readers. The conversation touches on the impact of technology on crime clearance rates, the importance of data sovereignty, and the challenges faced by US companies competing with subsidized Chinese manufacturers. Langley also shares his vision for preventing crime and rehabilitating offenders, emphasizing the need for a holistic approach that includes job creation and community investment.",
+      "key_takeaway": "Investing in technology that enhances real-time crime prevention and clearance rates can lead to more effective law enforcement and safer communities.",
+      "tickers_mentioned": "[\"AAPL\", \"NVDA\", \"GOOGL\", \"AMZN\", \"MSFT\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-11",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 55,
+      "episode_release_date": "2026-03-11",
+      "guest_name": null
+    },
+    {
       "id": 67,
       "title": "Oil, Bonds, and Bitcoin: Navigating Geopolitical Poker and Market Volatility",
       "source_type": "podcast",
@@ -1982,7 +2024,8 @@ const dashboardData = {
       "archived_date": null,
       "archived_reason": null,
       "podcast_episode_id": 52,
-      "episode_release_date": "2026-03-10"
+      "episode_release_date": "2026-03-10",
+      "guest_name": null
     },
     {
       "id": 68,
@@ -2000,7 +2043,8 @@ const dashboardData = {
       "archived_date": null,
       "archived_reason": null,
       "podcast_episode_id": 50,
-      "episode_release_date": "2026-03-10"
+      "episode_release_date": "2026-03-10",
+      "guest_name": null
     },
     {
       "id": 66,
@@ -2018,7 +2062,8 @@ const dashboardData = {
       "archived_date": null,
       "archived_reason": null,
       "podcast_episode_id": 49,
-      "episode_release_date": "2026-03-09"
+      "episode_release_date": "2026-03-09",
+      "guest_name": null
     },
     {
       "id": 69,
@@ -2036,7 +2081,8 @@ const dashboardData = {
       "archived_date": null,
       "archived_reason": null,
       "podcast_episode_id": 54,
-      "episode_release_date": "2026-03-09"
+      "episode_release_date": "2026-03-09",
+      "guest_name": null
     },
     {
       "id": 70,
@@ -2054,7 +2100,8 @@ const dashboardData = {
       "archived_date": null,
       "archived_reason": null,
       "podcast_episode_id": 53,
-      "episode_release_date": "2026-03-09"
+      "episode_release_date": "2026-03-09",
+      "guest_name": null
     },
     {
       "id": 71,
@@ -2072,25 +2119,8 @@ const dashboardData = {
       "archived_date": null,
       "archived_reason": null,
       "podcast_episode_id": 51,
-      "episode_release_date": "2026-03-09"
-    },
-    {
-      "id": 64,
-      "title": "The Future of Work and Income with Andrew Yang",
-      "source_type": "podcast",
-      "source_name": "Moonshots with Peter Diamandis",
-      "source_date": "2026-03-07",
-      "summary": "In this episode, Peter Diamandis interviews Andrew Yang, discussing the future of work, income, and the impact of AI and robotics on society. Key themes include the potential for universal high-income, the necessity of entrepreneurship, and the social unrest that could arise from rapid technological advancements. They also delve into the idea of UBI (Universal Basic Income) versus UHI (Universal High-Income) and the challenges of transitioning to a new social contract in the face of disruptive technologies.",
-      "key_takeaway": "Invest in sectors and technologies that are driving the fourth industrial revolution, with a focus on AI, robotics, and automation, while also considering the social implications and potential for new economic models like UBI and UHI.",
-      "tickers_mentioned": "[\"\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-03-07",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 48,
-      "episode_release_date": "2026-03-07"
+      "episode_release_date": "2026-03-09",
+      "guest_name": "Harvard Professor Graham Allison"
     },
     {
       "id": 65,
@@ -2108,7 +2138,8 @@ const dashboardData = {
       "archived_date": null,
       "archived_reason": null,
       "podcast_episode_id": 47,
-      "episode_release_date": "2026-03-07"
+      "episode_release_date": "2026-03-07",
+      "guest_name": null
     }
   ],
   "definitions": [
@@ -5667,6 +5698,76 @@ const dashboardData = {
     "insight_title": "All-In with Chamath, Jason, Sacks & Friedberg - Discussion with Graham Allison",
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "source_date": "2026-03-09"
+  },
+  "72": {
+    "id": 63,
+    "insight_id": 72,
+    "podcast_episode_id": 55,
+    "overview": "The investment thesis revolves around the transformation of crime prevention and policing through technology, specifically the use of real-time surveillance and data analytics. The podcast highlights the success of Flock Safety, a company that started with a simple camera tracking system and has evolved into a comprehensive solution integrating license plate readers, drones, and AI for real-time crime detection and prevention. This shift towards proactive policing, enabled by advanced technology, is a significant trend that can disrupt traditional law enforcement methods and create substantial investment opportunities in the tech sector. The current landscape, marked by increasing urban crime and the need for more efficient policing, makes this an urgent and relevant investment focus.",
+    "key_takeaways_detailed": [
+      "Invest in companies at the forefront of real-time crime prevention technology to capitalize on the shift towards proactive policing.",
+      "Look for opportunities in AI and machine learning sectors, as these technologies are integral to analyzing crime data and predicting criminal activities.",
+      "Consider the potential for drone technology in surveillance and data collection, which can offer rapid response times and enhance situational awareness.",
+      "Evaluate the integration capabilities of tech companies with law enforcement agencies, as seamless integration is crucial for the adoption of these new policing methods.",
+      "Monitor regulatory changes that could impact the use of surveillance technology, as privacy concerns may influence the growth of this sector."
+    ],
+    "investment_thesis": "The core investment logic is that the adoption of advanced technology in crime prevention will increase as cities seek more efficient and effective policing methods. This trend is supported by the success of companies like Flock Safety, which has demonstrated the value of real-time data in solving crimes. Catalysts for this investment include technological advancements in AI, increased urban crime rates, and the need for faster response times from law enforcement. The timeframe for this investment thesis is medium to long-term, as the integration of technology into policing is a gradual process, but the potential for growth is significant.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's involvement in AI and machine learning through its devices and services positions it to benefit from the growth in real-time crime prevention technology.",
+        "positioning": "Long-term strategic position, as Apple's technology can be integrated into various law enforcement tools.",
+        "risk": "Regulatory changes affecting data privacy and potential backlash against tech companies involved in surveillance."
+      },
+      "NVDA": {
+        "rationale": "NVIDIA's expertise in AI and GPU technology is crucial for processing the large amounts of data generated by real-time surveillance systems.",
+        "positioning": "Medium-term tactical position, as the demand for advanced processing power in crime prevention is likely to grow.",
+        "risk": "High competition in the AI chip market and potential obsolescence of technology."
+      },
+      "GOOGL": {
+        "rationale": "Google's extensive work in AI and its cloud services make it a key player in providing the backend support for real-time crime prevention systems.",
+        "positioning": "Long-term strategic position, as Google's cloud infrastructure is essential for data storage and processing.",
+        "risk": "Privacy concerns and potential regulatory hurdles could impact Google's involvement in surveillance technology."
+      },
+      "AMZN": {
+        "rationale": "Amazon's Ring and its cloud services offer direct exposure to home security and surveillance technology, which can be extended to law enforcement.",
+        "positioning": "Medium-term tactical position, as Amazon's technology can be quickly adapted to meet the needs of law enforcement agencies.",
+        "risk": "Public perception of Amazon's involvement in surveillance and potential boycotts could affect the company's reputation."
+      },
+      "MSFT": {
+        "rationale": "Microsoft's cloud services and AI capabilities position it to support the technological needs of law enforcement agencies transitioning to real-time crime prevention.",
+        "positioning": "Long-term strategic position, as Microsoft's stable technology offerings can be integrated into various policing systems.",
+        "risk": "Microsoft faces competition from other tech giants in providing cloud services to law enforcement, which could affect its market share."
+      }
+    },
+    "positioning_guidance": "Investors should consider a diversified approach, allocating a portion of their portfolio to each of the tech companies mentioned, with an emphasis on those with strong AI and cloud capabilities. Entry points should be considered based on market conditions and the individual company's financial performance. The investment timeframe should be medium to long-term, as the adoption of technology in policing is a gradual process. Investors may also consider hedging against potential regulatory risks by diversifying across different sectors within the tech industry.",
+    "risk_factors": [
+      "Regulatory changes that could restrict the use of surveillance technology due to privacy concerns.",
+      "Public backlash against tech companies involved in surveillance, which could impact their reputation and stock performance.",
+      "Technological obsolescence, as the rapid pace of innovation in AI and surveillance technology could render current solutions outdated.",
+      "Increased competition in the AI and surveillance market, which could affect the profitability of companies in this space.",
+      "Cybersecurity risks, as the collection and storage of sensitive data make these companies targets for hackers."
+    ],
+    "contrarian_signals": [
+      "The potential for increased public demand for privacy, which could lead to a decrease in the adoption of surveillance technology.",
+      "The possibility that law enforcement agencies may be slow to adopt new technology, preferring traditional methods of policing.",
+      "The risk that technological solutions may not be as effective as anticipated in reducing crime rates, leading to disillusionment with these methods."
+    ],
+    "catalysts": [
+      "Upcoming city council meetings and policy decisions that could mandate the use of advanced technology in policing.",
+      "Technological breakthroughs in AI and machine learning that could enhance the capabilities of real-time crime prevention systems.",
+      "Partnership announcements between tech companies and law enforcement agencies, indicating a move towards more integrated policing solutions.",
+      "Publication of crime statistics that highlight the success of tech-enabled policing methods, which could drive further adoption.",
+      "Investor days and earnings calls from tech companies, where they may provide updates on their involvement in law enforcement and crime prevention technologies."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-03-11T22:02:23.694022",
+    "updated_at": "2026-03-12 03:02:23",
+    "insight_title": "Real-time Crime Prevention and the Future of Policing",
+    "source_name": "The a16z Show",
+    "source_date": "2026-03-11"
   }
 },
   suggestedTerms: [
@@ -5676,11 +5777,11 @@ const dashboardData = {
     "definition": null,
     "investment_implications": null,
     "source_type": "auto_extracted",
-    "mention_count": 3,
-    "source_diversity": 2,
-    "relevance_score": 35,
+    "mention_count": 4,
+    "source_diversity": 3,
+    "relevance_score": 40,
     "submitted_date": "2026-03-11 03:05:24",
-    "priority_score": 105
+    "priority_score": 140
   },
   {
     "id": 1,
@@ -5717,6 +5818,164 @@ const dashboardData = {
     "relevance_score": 50,
     "submitted_date": "2026-02-15 17:19:42",
     "priority_score": 80
+  }
+],
+  podcastGuests: [
+  {
+    "id": 72,
+    "name": "Harvard Professor Graham Allison",
+    "slug": "harvard-professor-graham-allison",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "The global semiconductor supply chain, with a focus on Taiwan's TSMC, presents both risks and opportunities in the context of U.S.-China relations and economic inequality.",
+    "last_episode_title": "All-In with Chamath, Jason, Sacks & Friedberg - Discussion with Graham Allison",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-03-09",
+    "appearance_count": 1
+  },
+  {
+    "id": 73,
+    "name": "Andrew Yang",
+    "slug": "andrew-yang",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Invest in sectors and technologies that are driving the fourth industrial revolution, with a focus on AI, robotics, and automation, while also considering the social implications and potential for new economic models like UBI and UHI.",
+    "last_episode_title": "The Future of Work and Income with Andrew Yang",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-03-07",
+    "appearance_count": 1
+  },
+  {
+    "id": 74,
+    "name": "cary",
+    "slug": "cary",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Investment in AI technology companies requires careful consideration of the political and ethical landscape, as well as the potential for government intervention and regulation.",
+    "last_episode_title": "Anthropic and Alignment: The Intersection of AI, Politics, and Business",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-03-05",
+    "appearance_count": 1
+  },
+  {
+    "id": 75,
+    "name": "Ray Dahlia",
+    "slug": "ray-dahlia",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "The current high debt levels and fiscal policies pose significant risks to the U.S. economy, requiring careful management of interest rates and a balanced approach to financial prudence and innovation.",
+    "last_episode_title": "The Great Debt Cycle and Economic Outlook",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-03-03",
+    "appearance_count": 1
+  },
+  {
+    "id": 76,
+    "name": "Mailbag Monday",
+    "slug": "mailbag-monday",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Bitcoin is presented as a deep value investment and a hedge against the fragility of the current financial and geopolitical systems.",
+    "last_episode_title": "Mailbag Monday: War, AI, and Deep Value in Bitcoin",
+    "last_podcast_name": "The Jack Mallers Show",
+    "last_episode_date": "2026-03-03",
+    "appearance_count": 1
+  },
+  {
+    "id": 77,
+    "name": "Ben Horowitz",
+    "slug": "ben-horowitz",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "The talent movements at xAI and the SSI valuation are the two most important signals from this episode. When top engineers leave a lab, it tells you something about the internal direction. When Ilya commands a $5B valuation on safety-first principles, it tells you the market believes safety-conscious AI development has commercial value. Apple's crisis is the clearest short thesis in consumer tech ",
+    "last_episode_title": "Ben Horowitz: xAI Executive Exodus, Ilya's $5B SSI Valuation, Apple's AI Crisis, The Pace of AI | #232",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-02-19",
+    "appearance_count": 1
+  },
+  {
+    "id": 78,
+    "name": "Berg",
+    "slug": "berg",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Milton Berg's investment thesis is based on identifying market turning points through rare occurrences and historical precedents, rather than traditional indicators, and adjusting positions accordingly.",
+    "last_episode_title": "Monetary Matters with Jack Farley: Analyzing Market Signals and Investment Strategies with Milton Berg",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-02-06",
+    "appearance_count": 1
+  },
+  {
+    "id": 79,
+    "name": "From Software to Hard Asset",
+    "slug": "from-software-to-hard-asset",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Bitcoin's current dip may signal a shift in how it is perceived and traded, transitioning from a software stock to a hard asset, which could be beneficial for its long-term value.",
+    "last_episode_title": "From Software to Hard Asset: Bitcoin and the New Liquidity Regime",
+    "last_podcast_name": "The Jack Mallers Show",
+    "last_episode_date": "2025-04-06",
+    "appearance_count": 1
+  },
+  {
+    "id": 80,
+    "name": "Wolverine",
+    "slug": "wolverine",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Audio wearables represent next computing platform after smartphones. Success depends on solving wearability challenges and achieving social acceptance. Translation and hearing enhancement are killer apps that could drive mass adoption.",
+    "last_episode_title": "Wolverine: Machine-Mediated Hearing and the Future of Audio Computing",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2024-01-15",
+    "appearance_count": 1
+  },
+  {
+    "id": 81,
+    "name": "Bosworth",
+    "slug": "bosworth",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Investing in the evolution of consumer technology interfaces presents an opportunity to capitalize on the shift towards more immersive and adaptive AI-enabled experiences.",
+    "last_episode_title": "The Future of Consumer Technology and Interfaces",
+    "last_podcast_name": "a16z Live",
+    "last_episode_date": "2023-12-21",
+    "appearance_count": 1
+  },
+  {
+    "id": 82,
+    "name": "\"A Huge Problem for Everybody\"",
+    "slug": "a-huge-problem-for-everybody",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "The resilience and continued dominance of the US dollar in international finance present a stable backdrop for investment strategies, despite the potential for long-term erosion.",
+    "last_episode_title": "\"A Huge Problem for Everybody\" | Paul Krugman on Currency Devaluation",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2023-12-07",
+    "appearance_count": 1
+  },
+  {
+    "id": 83,
+    "name": "shares insights",
+    "slug": "shares-insights",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Investment in technology, particularly AI and machine learning, is justified by the ongoing exponential growth and the potential for significant advancements in efficiency and capability.",
+    "last_episode_title": "Dario Amodei \u2014 \"We Are Near the End of the Exponential\"",
+    "last_podcast_name": "Dwarkesh Podcast",
+    "last_episode_date": "2023-04-01",
+    "appearance_count": 1
+  },
+  {
+    "id": 84,
+    "name": "Brett Adcock",
+    "slug": "brett-adcock",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Investment in neural network technology and autonomous robotics is poised for significant growth, with the potential to disrupt traditional manufacturing and create new market opportunities.",
+    "last_episode_title": "Humanoid Run on Neural Net, Autonomous Manufacturing, $50T Market #229",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2023-03-01",
+    "appearance_count": 1
   }
 ]
 };

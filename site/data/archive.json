@@ -1,6 +1,29 @@
 {
   "insights": [
     {
+      "id": 72,
+      "title": "Real-time Crime Prevention and the Future of Policing",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-03-11",
+      "summary": "This episode of the a16z Show features Garrett Langley, founder of Flock Safety, discussing the evolution of crime prevention technology. Langley highlights the transition from traditional policing methods to real-time, data-driven approaches that leverage AI, drones, and license plate readers. The conversation touches on the impact of technology on crime clearance rates, the importance of data sovereignty, and the challenges faced by US companies competing with subsidized Chinese manufacturers. Langley also shares his vision for preventing crime and rehabilitating offenders, emphasizing the need for a holistic approach that includes job creation and community investment.",
+      "key_takeaway": "Investing in technology that enhances real-time crime prevention and clearance rates can lead to more effective law enforcement and safer communities.",
+      "tickers_mentioned": [
+        "AAPL",
+        "NVDA",
+        "GOOGL",
+        "AMZN",
+        "MSFT"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-11",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 55
+    },
+    {
       "id": 67,
       "title": "Oil, Bonds, and Bitcoin: Navigating Geopolitical Poker and Market Volatility",
       "source_type": "podcast",
@@ -130,11 +153,11 @@
         ""
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-07",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-12",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 48
     },
     {

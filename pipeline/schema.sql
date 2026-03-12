@@ -36,6 +36,7 @@ CREATE TABLE podcast_episodes (
     relevance_score INTEGER,
     is_processed BOOLEAN DEFAULT 0,
     added_to_site BOOLEAN DEFAULT 0,
+    guest_name TEXT,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
@@ -122,11 +123,8 @@ CREATE TABLE latest_insights (
     FOREIGN KEY (podcast_episode_id) REFERENCES podcast_episodes(id)
 );
 
--- Deep Dive Content (detailed analysis for modal display)
-CREATE TABLE deep_dive_content (
-    id INTEGER PRIMARY KEY AUTOINCREMENT,
-    insight_id INTEGER NOT NULL,
-    podcast_episode_id INTEGER,
+-- Processing queue (for async processing)
+CREATE TABLE processing_queue (
     -- Structured Deep Dive sections
     overview TEXT,  -- Executive summary of the insight
     key_takeaways_detailed TEXT,  -- JSON array of detailed bullet points
@@ -158,6 +156,24 @@ CREATE TABLE processing_queue (
     retry_count INTEGER DEFAULT 0,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     processed_at TIMESTAMP
+);
+
+-- Podcast guests (interviewees) for website "Voices" section
+CREATE TABLE podcast_guests (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT NOT NULL,
+    slug TEXT UNIQUE,
+    bio TEXT,
+    known_for TEXT,
+    last_main_idea TEXT,
+    last_episode_id INTEGER,
+    last_episode_title TEXT,
+    last_podcast_name TEXT,
+    last_episode_date DATE,
+    appearance_count INTEGER DEFAULT 1,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (last_episode_id) REFERENCES podcast_episodes(id)
 );
 
 -- Indexes for performance

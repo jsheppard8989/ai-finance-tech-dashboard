@@ -42,9 +42,9 @@ def generate_website_js():
     archive = db.export_archive_data()
     main_content = db.get_main_page_content()
     deepdives = db.get_all_deep_dive_content()
-    # Top 4 Emerging Terms for the website
     suggested_terms = db.get_suggested_terms_for_website(limit=4)
-    
+    podcast_guests = db.get_podcast_guests_for_site(limit=20)
+
     # Load ticker scores
     try:
         with open(site_dir / 'ticker_scores.json', 'r') as f:
@@ -59,7 +59,8 @@ def generate_website_js():
     main_json = json.dumps(main_content, indent=2)
     deepdives_json = json.dumps(deepdives, indent=2)
     suggested_json = json.dumps(suggested_terms, indent=2)
-    
+    podcast_guests_json = json.dumps(podcast_guests, indent=2)
+
     js_content = f"""// Auto-generated data file
 // DO NOT EDIT MANUALLY
 
@@ -69,7 +70,8 @@ const dashboardData = {{
   archive: {archive_json},
   mainContent: {main_json},
   deepDives: {deepdives_json},
-  suggestedTerms: {suggested_json}
+  suggestedTerms: {suggested_json},
+  podcastGuests: {podcast_guests_json}
 }};
 
 // Export for use in other scripts
@@ -82,7 +84,7 @@ if (typeof module !== 'undefined' && module.exports) {{
         f.write(js_content)
     
     total_archive = sum(len(v) for v in archive.values() if isinstance(v, list))
-    print(f"✓ Generated data.js with {len(ticker_scores)} tickers, {total_archive} archive items, {len(deepdives)} deep dives, {len(suggested_terms)} suggested terms")
+    print(f"✓ Generated data.js with {len(ticker_scores)} tickers, {total_archive} archive items, {len(deepdives)} deep dives, {len(suggested_terms)} suggested terms, {len(podcast_guests)} guests")
     return True
 
 

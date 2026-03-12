@@ -395,6 +395,25 @@
       color: #ffc107;
     }
 
+    .guest-item {
+      background: rgba(0, 212, 255, 0.06);
+      border: 1px solid rgba(0, 212, 255, 0.25);
+      padding: 0.75rem 1rem;
+      margin-bottom: 0.75rem;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: all 0.25s ease;
+    }
+    .guest-item:hover {
+      border-color: rgba(0, 212, 255, 0.45);
+      box-shadow: 0 4px 16px rgba(0, 212, 255, 0.1);
+    }
+    .guest-item .guest-name { font-weight: 700; color: #00d4ff; font-size: 0.95rem; margin-bottom: 0.35rem; }
+    .guest-item .guest-known-for { font-size: 0.8rem; color: #8892b0; font-style: italic; margin-bottom: 0.4rem; line-height: 1.35; }
+    .guest-item .guest-bio { font-size: 0.85rem; color: #a8b2d1; line-height: 1.45; margin-bottom: 0.5rem; }
+    .guest-item .guest-idea { font-size: 0.8rem; color: #e8e8e8; padding-top: 0.5rem; border-top: 1px solid rgba(255,255,255,0.08); line-height: 1.4; }
+    .guest-item .guest-source { font-size: 0.7rem; color: #8892b0; margin-top: 0.35rem; }
+
     .vote-counts {
       display: flex;
       gap: 1rem;
@@ -1448,11 +1467,12 @@
     </header>
 
     <div class="grid">
-      <!-- Left Column - Definitions Only -->
+      <!-- Left Column - The Overton Window (definitions + emerging concepts) -->
       <div class="left-col">
-        <!-- Definitions Section -->
+        <!-- The Overton Window: definitions + overton terms merged -->
         <div class="card">
-          <h2>Digital Definitions to Define Directions</h2>
+          <h2>The Overton Window</h2>
+          <p style="color: #8892b0; margin-bottom: 1.5rem; font-size: 0.9rem;">Curated definitions and emerging concepts not yet mainstream in investment discourse</p>
 
           <div class="definition-item" onclick="toggleDefinition(this)">
             <h3>🛰️ Dyson Swarm</h3>
@@ -1480,6 +1500,51 @@
             <div class="definition-expanded">
               <div style="font-size: 0.85rem; color: #00d4ff;">
                 <strong>Risk Signal:</strong> When the Bank of Japan hikes rates or yen strengthens, unwinds trigger forced selling. <strong>2024 unwind</strong> caused 12% VIX spike—watch JPY/USD &gt;150.
+              </div>
+            </div>
+          </div>
+
+          <!-- Overton terms (emerging concepts) -->
+          <div class="overton-item" onclick="toggleOverton(this)">
+            <div class="term">🧠 Neuralink Moment</div>
+            <div class="description">The inflection point when brain-computer interfaces shift from experimental to consumer-ready, triggering societal restructuring around cognitive enhancement.</div>
+            <div class="source">Detected in: The Network State Podcast • Feb 2026</div>
+            <div class="overton-expanded">
+              <div style="font-size: 0.85rem; color: #a8b2d1;">
+                <strong>Investment Angle:</strong> BCI hardware, neurotech chips, cognitive enhancement platforms. Early stage - watch for FDA approvals and consumer product launches.
+              </div>
+            </div>
+          </div>
+
+          <div class="overton-item" onclick="toggleOverton(this)">
+            <div class="term">🌐 Sovereign Individual Thesis</div>
+            <div class="description">The expectation that high-net-worth individuals will increasingly decouple from traditional jurisdictions, seeking digital-first citizenship and asset structures.</div>
+            <div class="source">Detected in: Monetary Matters • Feb 2026</div>
+            <div class="overton-expanded">
+              <div style="font-size: 0.85rem; color: #a8b2d1;">
+                <strong>Investment Angle:</strong> Digital banking, crypto custody, tax-advantaged jurisdictions, nomad infrastructure. Services enabling geographic arbitrage.
+              </div>
+            </div>
+          </div>
+
+          <div class="overton-item" onclick="toggleOverton(this)">
+            <div class="term">⚡ Compute Arbitrage</div>
+            <div class="description">Exploiting price differentials in AI compute across regions and providers-buying low in unregulated markets, deploying high in enterprise stacks.</div>
+            <div class="source">Detected in: a16z Live • Jan 2026</div>
+            <div class="overton-expanded">
+              <div style="font-size: 0.85rem; color: #a8b2d1;">
+                <strong>Investment Angle:</strong> GPU cloud providers, distributed compute networks, energy arbitrage plays. Infrastructure for AI training cost optimization.
+              </div>
+            </div>
+          </div>
+
+          <div class="overton-item" onclick="toggleOverton(this)">
+            <div class="term">🏛️ Regulatory Moat</div>
+            <div class="description">Competitive advantage gained not through technology but through compliance complexity-incumbents weaponizing bureaucracy against nimble startups.</div>
+            <div class="source">Detected in: Jack Mallers Show • Feb 2026</div>
+            <div class="overton-expanded">
+              <div style="font-size: 0.85rem; color: #a8b2d1;">
+                <strong>Investment Angle:</strong> Incumbents with established compliance infrastructure. Banking, healthcare, defense contractors. Barrier to entry becomes the product.
               </div>
             </div>
           </div>
@@ -1552,59 +1617,13 @@
 
       </div>
 
-      <!-- Right Column - Overton Window & Alpha or Atrophy -->
+      <!-- Right Column - Podcast Interviewees + Alpha or Atrophy -->
       <div class="right-col">
-        <!-- Overton Window Section -->
-        <div class="card">
-          <h2>The Overton Window</h2>
-          <p style="color: #8892b0; margin-bottom: 1.5rem; font-size: 0.9rem;">Emerging concepts and terminology not yet mainstream in investment discourse</p>
-
-          <div class="overton-item" onclick="toggleOverton(this)">
-            <div class="term">🧠 Neuralink Moment</div>
-            <div class="description">The inflection point when brain-computer interfaces shift from experimental to consumer-ready, triggering societal restructuring around cognitive enhancement.</div>
-            <div class="source">Detected in: The Network State Podcast • Feb 2026</div>
-            <div class="overton-expanded">
-              <div style="font-size: 0.85rem; color: #a8b2d1;">
-                <strong>Investment Angle:</strong> BCI hardware, neurotech chips, cognitive enhancement platforms. Early stage - watch for FDA approvals and consumer product launches.
-              </div>
-            </div>
-          </div>
-
-          <div class="overton-item" onclick="toggleOverton(this)">
-            <div class="term">🌐 Sovereign Individual Thesis</div>
-            <div class="description">The expectation that high-net-worth individuals will increasingly decouple from traditional jurisdictions, seeking digital-first citizenship and asset structures.</div>
-            <div class="source">Detected in: Monetary Matters • Feb 2026</div>
-            <div class="overton-expanded">
-              <div style="font-size: 0.85rem; color: #a8b2d1;">
-                <strong>Investment Angle:</strong> Digital banking, crypto custody, tax-advantaged jurisdictions, nomad infrastructure. Services enabling geographic arbitrage.
-              </div>
-            </div>
-          </div>
-
-          <div class="overton-item" onclick="toggleOverton(this)">
-            <div class="term">⚡ Compute Arbitrage</div>
-            <div class="description">Exploiting price differentials in AI compute across regions and providers-buying low in unregulated markets, deploying high in enterprise stacks.</div>
-            <div class="source">Detected in: a16z Live • Jan 2026</div>
-            <div class="overton-expanded">
-              <div style="font-size: 0.85rem; color: #a8b2d1;">
-                <strong>Investment Angle:</strong> GPU cloud providers, distributed compute networks, energy arbitrage plays. Infrastructure for AI training cost optimization.
-              </div>
-            </div>
-          </div>
-
-          <div class="overton-item" onclick="toggleOverton(this)">
-            <div class="term">🏛️ Regulatory Moat</div>
-            <div class="description">Competitive advantage gained not through technology but through compliance complexity-incumbents weaponizing bureaucracy against nimble startups.</div>
-            <div class="source">Detected in: Jack Mallers Show • Feb 2026</div>
-            <div class="overton-expanded">
-              <div style="font-size: 0.85rem; color: #a8b2d1;">
-                <strong>Investment Angle:</strong> Incumbents with established compliance infrastructure. Banking, healthcare, defense contractors. Barrier to entry becomes the product.
-              </div>
-            </div>
-          </div>
+        <div class="card" id="guests-card">
+          <h2>Podcast Interviewees</h2>
+          <p style="color: #8892b0; margin-bottom: 1rem; font-size: 0.9rem;">Guests from our tracked podcasts: who they are, what they're known for, and the latest idea they shared.</p>
+          <div id="guests-list"></div>
         </div>
-
-        <!-- Alpha or Atrophy -->
         <div class="card" style="margin-top: 1.5rem;">
           <h2 style="font-size: 1.3rem;">Alpha or Atrophy</h2>
           <p style="color: #8892b0; margin-bottom: 1rem; font-size: 0.8rem;">Multi-factor scoring: mentions × conviction × source diversity × contrarian signals | <strong>Click for charts</strong></p>
@@ -1678,7 +1697,7 @@
   </div>
 
   <!-- Load dashboard data from pipeline (if available) -->
-  <script src="./data/data.js?v=1773223276"></script>
+  <script src="./data/data.js?v=1773284563"></script>
   <script src="./js/common.js"></script>
   
   <script>
@@ -1747,7 +1766,35 @@
     // Initialize on page load
     document.addEventListener('DOMContentLoaded', function() {
       loadSuggestedTerms();
+      loadPodcastGuests();
     });
+
+    function loadPodcastGuests() {
+      const container = document.getElementById('guests-list');
+      const card = document.getElementById('guests-card');
+      if (!container || !card) return;
+      const guests = (typeof dashboardData !== 'undefined' && dashboardData.podcastGuests) ? dashboardData.podcastGuests : [];
+      if (guests.length === 0) {
+        container.innerHTML = '<p style="color: #8892b0; font-size: 0.9rem; padding: 1rem;">No interviewees yet. Run the pipeline with <code>extract_guests.py</code> to populate.</p>';
+        return;
+      }
+      container.innerHTML = guests.map(function(g) {
+        var name = (g.name || 'Guest').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+        var known = (g.known_for || '').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+        var bio = (g.bio || '').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+        var idea = (g.last_main_idea || '—').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+        var src = (g.last_podcast_name || '') + (g.last_episode_date ? ' • ' + g.last_episode_date : '');
+        var showKnown = known ? '<div class="guest-known-for">' + known + '</div>' : '';
+        var showBio = bio ? '<div class="guest-bio">' + bio + '</div>' : '';
+        return '<div class="guest-item">' +
+          '<div class="guest-name">' + name + '</div>' +
+          showKnown +
+          showBio +
+          '<div class="guest-idea"><strong>Last main idea:</strong> ' + idea + '</div>' +
+          '<div class="guest-source">' + src + '</div>' +
+          '</div>';
+      }).join('');
+    }
 
     // Chart modal functions — reset container so img is always present after placeholder
     function resetChartContainer() {
@@ -1937,6 +1984,9 @@
 
         const sentimentColor = insight.sentiment === 'bullish' ? '#4caf50' : insight.sentiment === 'bearish' ? '#f44336' : '#ffc107';
         
+        let sourceLine = insight.source_name + ' • ' + dateStr;
+        if (insight.guest_name) sourceLine += ' • ' + insight.guest_name;
+
         // Check for deep dive
         const hasDeepDive = typeof dashboardData !== 'undefined' && dashboardData.deepDives && 
           !!dashboardData.deepDives[String(insight.id)];
@@ -1944,7 +1994,7 @@
           '<button onclick="event.stopPropagation(); showDeepDiveModal(' + insight.id + ')" style="background: linear-gradient(90deg, #00d4ff, #7b2cbf); color: white; border: none; padding: 0.4rem 0.9rem; border-radius: 4px; cursor: pointer; font-size: 0.8rem; white-space: nowrap;">🔍 Deep Dive</button>' : '';
         
         html += '<div class="insight-item" onclick="toggleInsight(this)">';
-        html += '<div class="source">' + insight.source_name + ' • ' + dateStr + '</div>';
+        html += '<div class="source">' + sourceLine + '</div>';
         html += '<div class="text"><strong>' + insight.title + ':</strong> ' + insight.summary + ' <span style="color:' + sentimentColor + ';">→ ' + (insight.key_takeaway || '') + '</span></div>';
         html += '<div class="insight-expanded"><div style="font-size: 0.85rem; color: #a8b2d1; display: flex; justify-content: space-between; align-items: flex-end; gap: 0.5rem;">';
         html += '<span><strong>Key Tickers:</strong> ' + tickerDisplay + '</span>' + deepDiveBtn;

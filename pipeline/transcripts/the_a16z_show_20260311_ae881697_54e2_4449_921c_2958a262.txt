@@ -1,0 +1,3142 @@
+South American cartels fly illegal drones through these neighborhoods.
+They'll flip on night vision.
+Look through houses to see if you can tell me.
+Didn't go break in.
+I was working with a town in Tennessee.
+It's a good city.
+Their average response time to that won't call seven and a half minutes.
+Their drone from us gets there in 68 seconds.
+Just like a better quality of service.
+You don't wind up policing where crime has happened historically.
+You end up policing where crime is happening right now.
+In real time.
+And that is a fairly fundamental shift in how policing works.
+The majority of criminals, let's call it nine-dimensional criminals,
+are not evil people.
+They're not.
+Like evil is a random act of violence.
+And that is exceptionally rare.
+It's both rare.
+It's very rare.
+There's all opportunity to do them.
+In 2017, someone stole a gun from a car in Garrett Langley's neighborhood.
+The Atlanta Police Department came.
+Shrugged and left.
+No fingerprints?
+No investigation.
+The crime would go unsolved.
+So Langley, an electrical engineer, built a camera to track every car entering the neighborhood.
+Two months later, another gun was stolen.
+This time, he handed police a single plate.
+The only car that didn't belong.
+Hours later, unarrest.
+That prototype became flock safety.
+Now deployed in more than 6,000 American cities.
+Last year, the company helped clear over a million crimes.
+The product has grown from licensed plate readers to drones.
+911 integration.
+And an AI layer that turned city safety into a real-time operating system.
+In this conversation, previously aired on cheeky pine.
+Garrett Langley talks with John Colison about building hardware for law enforcement.
+Why crime is down, but clearance rates matter more.
+And what it would take to make every city a safe city.
+Cheers.
+Yeah, let's see.
+Likewise, thanks for having me.
+Hmm.
+Okay.
+So, if you start by describing how does...
+...the flat part work?
+Yeah.
+Maybe we go, we were one, like, all the way back.
+Because it's evolved.
+So, eight years ago, living in Atlanta.
+And there's a fun fact.
+Is if you're in a place like Atlanta or Memphis or pick a town in the southeast.
+If you put just pull 10 F-150 door handles,
+some, let's call it 310, will be unlocked.
+And, like, 110 will have a firearm in the glove box.
+Which is, like, regardless of the firearm, your point of view on it.
+It's like...
+You should keep your firearm safe.
+And you should keep it in a safe.
+Not in the glove box.
+Like, that's just like really bad.
+And so, if you're, you know, a game member,
+and you're trying to obtain a firearm.
+The easiest way is, it's just like driving to a neighborhood.
+Six kids, bizarre kids, like, jump out.
+You start pulling door handles.
+You don't have anything breaking in the car.
+You're pulling door handles.
+So, it's just happened to my neighborhood.
+Someone got a gun.
+Someone posted on a next door, like,
+Oh my gosh, I forgot my gun in my car,
+and it's now a gun.
+And so, the Atlanta peace department comes
+and the major was, like, fairly apathetic.
+Like, hey.
+Sorry.
+Good luck.
+Like, we're not going to...
+So, do your Bosch thing.
+They're not going to finger print the view.
+Like, no one's been hurt.
+Yeah, yeah.
+And for most major cities.
+There's no sake out happening.
+There's no sake out.
+There's no, like, oh, we're going to go do all this resources.
+For most major cities.
+If a human is not physically hurt,
+the crime goes just to the bottom of the list.
+And I found it really frustrating.
+And I'm just like, this should be really easy.
+Like, the people drove into our neighborhood.
+They stole a firearm.
+Like, we should, we should have some people.
+And he was like, well, we don't have any information.
+Okay.
+What do you need to say?
+We need a license.
+Okay.
+Great.
+So, that's a lunch questionnaire.
+So, I caught a body of mine who studied computer science with me at Georgia Tech.
+And I was like, we're going to go build this camera.
+It's going to just like track license, but it's at...
+That's what the Atlanta Peace Department said.
+Okay, great.
+So, we built this thing.
+And if you ever come to the Atlanta office,
+we still have the original camera.
+Like, on, you know, pedestal that looks by garbage.
+None of the mechanical questionnaire.
+I put it up.
+And all it did was track every car that came into our neighborhood.
+But as you can imagine, like, after 30 days, you start to build a note.
+Like, that person clearly lives here.
+They're in the neighborhood twice a day, four times a day.
+And so, about two months later, another car gets broken into another firearm stolen.
+The same major comes back.
+And I was like, oh, by the way, here's the only car that doesn't live in our neighborhood.
+That was here last night.
+That car gets put on, we call it like a bowl.
+Like, you don't look out for.
+A couple hours later, they find that vehicle.
+The guns in the car.
+First, we go to jail.
+And it was really interesting.
+It's like the...
+We were like proud of ourselves.
+It was not a business at the time.
+It's a real project.
+And so, the five o'clock news would do the story.
+So, I'm on the five o'clock news.
+And the next morning, like, I had five emails from neighborhoods.
+And I think, I might be the only company that strictly driven off of five o'clock news.
+That was our only growth channel.
+That actual media appearance did try.
+In every time we solved a crime, we'd be like, hey, do you want to cover the story at five o'clock?
+And they'd be like, but love to.
+We'd love to.
+We love talking about crime.
+Because this is local news.
+It's local news.
+We're not going to go to the New York Times.
+They don't care.
+It's about like a stolen sofa.
+Yeah.
+Or like a stolen dog.
+Like that.
+Did you start with that?
+Because I associate flock today with being plugged into the stolen car database.
+But you started without that.
+Just looking at just suspicious stuff.
+Yeah.
+Well, I mean, if you think about it in the classic, I don't know who gets credit for it.
+You know, there's 400,000 neighborhoods in America.
+And there's no consolidation of providing safety for those communities.
+And when I say neighborhood, that is a, you know,
+legally binding organization that can sign a contract.
+Yes.
+Not like you and me just put 20 bucks together and say, let's buy this thing on the street.
+So that felt really interesting.
+And then the other kind of interesting insight that we developed, which took time is,
+I imagine at your house, you have a security system.
+You might have a gate to your house.
+You probably have a dog.
+Yeah. You have all these things, right?
+They did two things that I sure not helpful.
+They tell you a crime has happened.
+They don't actually help you solve it.
+And then what about your neighbor?
+And so it realizes that every single security system was focused on the individual.
+Yes.
+But like I think about my life in Atlanta,
+there's just a crazy random act of violence a couple years ago.
+Like my wife wouldn't run outside for a year.
+And like we have nothing to do with us.
+It was like a mile away.
+Yes.
+And so the whole...
+You know my community.
+The premise became that you had to build a safety system for a community.
+Yes.
+Because that's actually what you feel.
+I mean, you live in San Francisco, you get it.
+Like even if you've never been the victim, if crime is up, it's really bad.
+So it was all neighborhoods for the first three or four years of the business.
+So give me the stats on flock today.
+Just how many cameras out there?
+I'm stopped.
+Because again, and maybe just describe the product as it exists today.
+So now it's a much, much more sophisticated product in that sense.
+So we're last year we helped clear just north of a million crimes in America.
+I just helped clear mean.
+So we want to be clear that similar to probably how you feel and not like you help business grow.
+But like you didn't do the hard stuff.
+You made it easy.
+You made it really easy for me to grow flock by making payments simple.
+Yeah.
+I don't actually have to do any of the hard work of like chasing bad people, putting my life at risk.
+Like we write code in design circuits.
+Like it's not hard work.
+So we like to be very careful of like not overstating our value.
+So we were involved in the arrest, in clearance, or successful arrest over the crime as well.
+And in a lot of this cases, we are the end of the beginning and everything.
+Yes.
+Outside of the human putting handcuffs on.
+And in some cases, we might be at the tip of the spear.
+And so like for more sophisticated investigations like the brown shooter and the MIT shooter,
+there was a tip on reddit.
+But then flock was a, there was a way to found them.
+Like we weren't the tips.
+Sure.
+I can't take full credit.
+So maybe maybe I'll walk you through like a recent example.
+And I won't name the city because it's the, the case is still going through prosecution.
+But so there's an animal in call is the major city of America.
+Our system here is an animal in call.
+So we can tap into animal in call.
+And this is kind of wild if you think about 911.
+Today, when you call 911, it's every Cisco.
+It's going to get about 3 million animals in calls a year.
+A human picks up every single time.
+A human manually listens manually, types and information.
+Imagine if you were running stripe.
+And every single lead you received was human routed.
+You'd say this is crazy.
+Well, that's how we work in cities today.
+So we hear the 911 call on real time.
+What that allows us to do is then figure out what are they talking about.
+Is there any information that could find beneficial?
+So in this case, we had heard that it was in a tim tim homicide.
+Someone was bleeding on the street.
+And all they could remember was that the suspect was wearing white
+Converse sneakers.
+Now, we have a product called Flock OS that allows us to integrate all the cameras in a city
+Whether they're flock develops or not.
+And so that 911 calls pops up.
+They're kind of an operator.
+It's like, oh my gosh, there's an 911 car right there.
+They can listen to the call.
+There's a, there's a privately owned camera.
+I can tap on that double click that camera.
+Making use of one of our products for free-forming.
+I'm looking for any individuals in the last 30 minutes
+that are wearing white Converse sneakers.
+They've been finding the individuals.
+They can then push that video to the nearest officer.
+So we run on the, like, dash of the police vehicles.
+And then that person gets arrested.
+And so if you think about the way the way you used to work,
+that case never would have been soft.
+Like, it had been weeks, maybe months.
+We had a good conical case.
+And in this case, this person was from a 911 call to arrest in about 17 minutes.
+So we did that on people.
+We did that on vehicles.
+So in that same version of the story,
+I'll give you another story.
+And then I'll give you a sense of it.
+So in a town in Colorado,
+there was a armed robbery of a Levi's outlet.
+Got to get your jeans when wearing another.
+This is a funny one, actually.
+So they called 911.
+So we're plugged into 911, right?
+They're real time crimes in an operator.
+Here's it's a armed robbery.
+And they also hear two things.
+The person has already fled the store.
+And they drove away.
+And a white van that looks like a black and blue cow.
+It's like, the same number one is criminal.
+Like, don't drive a weird car.
+Now this, this police department also has our drone that we build here in America.
+So they immediately click a button.
+The drone automatically flies at 400 feet to the Levi's outlet.
+The drone knows what to look for.
+It has the visual kind of,
+kind of nomenclature of a white van with black and blue spray van.
+That using that same free form,
+we can start to look for it.
+And we get another 911 call of another outlet.
+That's having the same time.
+So the drone is ready in the air.
+Zoom's over.
+drone has eyes on it.
+That video feed can now be sent straight to the nearest officer.
+And so in a traditional response,
+you're going to come in hot, blue lights flashing.
+Someone's going to get hurt.
+This case.
+The drone's forfeet up in the air.
+You have no idea.
+The drone's there.
+The guy drives home.
+Soon as he pulls it in a driveway, two cops,
+Pinnomin.
+Safe tactical apprehension.
+So it's drones.
+It's some computer vision.
+It's cameras attract cars.
+It's quite a robust portfolio.
+And plot is flock by the numbers today.
+So how many cameras, how many drones,
+how many law enforcement agents,
+you know, how many individual entities?
+Yeah.
+So it's just over 6000 cities.
+So it's like well north of 50% of America.
+Yeah.
+That's covered by flood population.
+Yeah, by population.
+Yeah.
+As soon as you're about 17,000 cities in the US,
+and we have all the big ones outside of Manhattan at this point.
+It's like the last the last one to go get.
+Yes.
+I'm not sure if that's going to happen.
+It's time to soon.
+Current situation there.
+But yes, it's pretty pretty well deployed,
+building cameras, drones, and selling up to the government,
+which is like three strikes are out.
+That's incredible.
+And I feel like something non-American
+is might not realize is so I grew up in Ireland.
+Yeah.
+You know, could you have five million people?
+And there is just a police force, the the Gardyshikana,
+like the North country.
+Exactly police force for the whole country.
+And that is a relatively common model in lots of places in the United States.
+It's the opposite.
+It's very localized.
+And just maybe on talk about the average size.
+And I feel like washer providing is.
+In some ways scale economies and helping police forces.
+Yeah.
+Coordination with other agencies.
+There's a dynamic that people don't understand, which is your right.
+So Ireland, most of the EU, Australia has six police departments.
+I mean, let's call it effectively the same.
+It's a really big country.
+It's a lot of land.
+Most of South America.
+Like America is really the only country that operates under the model
+where local municipalities provide a law enforcement service.
+It's very rare.
+Yeah.
+And the benefit, the pro is a very straightforward.
+Which is like, you actually have a good chance of knowing the police officer
+that has your territory and has your your patch of dirt.
+The downside is criminals don't really care where cities start and stop.
+And don't care where state start and stop.
+Yet historically law enforcement agencies were incapable of sharing information.
+To give you a sense of timeline.
+The cloud was only recently made legal and Florida as recently as 22.
+So if you were a long transition that you could not host your data in the cloud until 22.
+Maryland was 23.
+So like, so any coordination between agencies was very manual.
+All phone calls.
+Faxing files.
+And so one of the big kind of unlocks of flock was this realization that you could drive better
+collaboration.
+Because like if you're you're kind of low level criminal isn't maybe changing cities.
+But you're looking at some of the most like successful cases we've helped work.
+It's like multiple states.
+Right.
+Like we did a huge try to human trafficking bust is 70 76 people arrested across four states.
+Like all organized on flock.
+And like, I think it's pretty hard for one agency to wrap their hands around their whole thing.
+No, at that point you've got like six different local cities.
+Two different sorry three different state agencies and the US marshals.
+Yeah.
+All collaborating inside of flock.
+Yeah.
+And like that's that's how it should work.
+Yes.
+That is actually the only option is you're the same police department.
+It's a very unique problem that America is created.
+Law enforcement coordination.
+Yeah.
+Yeah.
+It shouldn't be controversial.
+Yes.
+But it's actually a very controversial topic.
+What's controversial about?
+Another way of this controversy.
+Um.
+This is just a question of like you.
+Um.
+You're trust in government.
+Probably follows some type of, uh, you know, logarithmic expectation or linear expectation.
+If like the farther you are removed from those people, the least trust you have.
+And so most people's trust in the federal government is very low.
+State, a little bit lower, local, full trust.
+Yeah.
+And so there's this interesting dynamic where let's talk about like a recent recent case.
+My guess is that most people don't have a lot of trust for certain federal agencies.
+But what stuff goes really bad.
+Like the Guthrie kidnapping is the federal government that runs the investigation.
+Like they are the only ones of the actual resources to work these cases.
+It's the FBI.
+That's running that investigation.
+The Brown Shooter, the FBI.
+The Mar-a-Lago Sation attempt.
+The secret service.
+Like it goes down.
+But people have this big distrust.
+And so we actually see it in places like California.
+There is state legislation that law enforcement is not allowed to collaborate with federal
+authorities.
+Yeah.
+Because it's all of the different politics.
+Yeah.
+And so we kind of have to sit in the middle.
+Yes.
+And when it's clearly legislative like in California, it's actually fine.
+Yeah.
+That's the law that's actually very simple.
+Yeah.
+It's another state where it's opinion.
+Yes.
+And that's like, oh, that's really messy because we should just write laws.
+Yeah.
+I mean, you operate in a regulated space.
+Regulation when done properly just defines the rules of engagement.
+Sometimes it's better or worse, but like at least everyone knows these are the rules.
+Yes.
+Yes.
+And as I think about square flock grew up and the helping with flagging stolen vehicles
+and kind of a very vehicle oriented product.
+How does that work at a technical level?
+Like you guys, there was a stolen database.
+There was a database for stolen cars already.
+But that's an example of prior cross law.
+Like who maintains that database?
+How does it work?
+Yes.
+So it's a good question.
+So there's you think about a couple of fun engineering problems that flock had
+to solve.
+The first is how do you do it, which describes, you know,
+read a license plate, track a car on solar power with a 5G back all.
+And which is the camera that you have to solve.
+It can't be like this.
+Exactly.
+But you very rarely have fiber or power where you want to put a camera.
+So you want a self-sufficient box that you can total have.
+A lot of structure for taking this action.
+Yeah.
+And be able to track a car going with 100 miles an hour and do some level of computer vision on top of it.
+Yes.
+And that was a pretty fun problem because if you put, you know,
+let's say you wanted to put a GPU in it.
+You're going to, you can't run a solar power there.
+And so then it's a great one.
+Then what do you do on the edge?
+And you can't buy any GPUs these days.
+Yeah.
+That would have been a huge disaster for us.
+But so the FBI maintains a list called the NCIC,
+which is, you know, about quarter to half a million known in vehicles with other warrants.
+Could be amber, the amber alert system, the silver alert system.
+Like we saw of sadly like silver alerts too.
+I think we did just over a thousand amber and silver alerts last year that we helped clear.
+Like missing adults missing seniors and missing kids pretty sad stuff.
+So we have a direct integration with the FBI for that.
+And then at a local level, let's say like the Bay Area.
+Yeah.
+There is a Bay Area hot list that we maintain with those agencies.
+Oh, wait.
+So I assume that there was a single integrated when a car is called in in stolen.
+Yeah.
+I assume that went somewhere integrated.
+Ah, so this is, this is kind of scary.
+So let's say your car is stolen.
+And you're in Salester, Francisco.
+You, they will immediately put it in the Bay Area,
+flock hot list immediately.
+It will take 24 hours to make it to the FBI hot list.
+Oh.
+And that's a, you know, CSV file.
+They get sent around on FTP servers across the US.
+As much as they come to the runs.
+Yes, we're very used to be used to that.
+Yeah, exactly.
+But so this is the real time happens on flock.
+And then there's about a day lag to make it nationwide.
+So local entities have some kind of local lists and those propagates to a national database,
+which is an FBI database.
+Yeah.
+And why do you guys are doing this being that real time, which obviously,
+if a crime is unfolding real time is a big deal.
+Exactly.
+Yeah.
+Yeah.
+It's not good to wait a day.
+Yes.
+Like you can, you can drive really far in 24 hours.
+It turns out.
+Yes.
+Yeah.
+And then you had some great staff before about just a fraction of, like,
+stolen cars or bad news, like the fraction of crimes.
+Yeah.
+Yeah.
+There's a thing phenomenon where you don't,
+no one really steals a car for fun.
+It's like, there's not much you can actually do.
+You can true, like all the side shows and stuff.
+Like, there's a little bit of steel.
+Well, some side shows are definitely.
+They look fun.
+Never participated in it.
+Neither of us.
+Yeah.
+But it's fun.
+Yeah.
+Yeah.
+It's fun.
+Yeah.
+Yeah.
+Yeah.
+It's fun.
+Yeah.
+It's fun.
+Yeah.
+Yeah.
+Well, I guess you would still a car and a driver for fun.
+Yeah.
+The main news case is, like, when my car was stolen,
+my car was stolen.
+And then they used it to go rob three CVSs.
+Yeah.
+Did a bunch of drugs in the car and then ditch it.
+And that's like a normal, you still a car to go do some nice house.
+Yeah.
+Yeah.
+Or you still a car to go shoot someone.
+Because you don't want to shoot someone in your own car.
+If you're thinking ahead, you want to do it in a stolen car.
+Yeah.
+And it's a large part of fiction.
+Yeah.
+Yeah.
+This is like how you do this, right?
+And so we do a bunch of other interesting things.
+This feature called Cold Plating, where if we detect that the vehicle from an AI perspective,
+the making model doesn't match the DMV record.
+That clearly the person's driving with the stolen license white.
+And that's another thing you can do.
+It's easier than seeing the car.
+You still someone's tag.
+Mm-hmm.
+So then you got to go down to, like, we got to steal the same license plate from the same type of car.
+But then, like, if we detect an anomaly that the same car is in two places at once,
+we'll flag that.
+Yes.
+That's, like, that's kind of weird.
+That's like a glitch in the matrix.
+Uh, so we've all these, and we would call them more like anomaly detections.
+Where it's like, this isn't, this isn't illegal.
+Yes.
+Yeah.
+But sure is kind of weird.
+Yes.
+And it's enough of, if it provides enough for reasons to pull someone over.
+Yes.
+And depending on the size of the city, it's enough to, you know, dispatch an officer.
+I think if you're a major city, like in San Francisco, you have enough going on.
+Yes.
+But if you're, you know, a foster city, you're a smaller town where thankfully you don't have violent criminals running around every day.
+Yes.
+We have two cars to say West flavor.
+Yes.
+In different parts of the city, we should go.
+Yes.
+See what's going on.
+Yes.
+It strikes me that, um, uh,
+plus a way you can think about what flock is doing is, uh,
+not changing any of the norms around privacy, boss, really expanding law enforcement's bandwidth to go deal with stuff.
+And so I don't think anyone really has an expectation of, you know, a rights privacy of the car they are driving just being observed from a distance or their license plate being readable when I was on a public road.
+But if a car is called in a stolen rather than officers manually, you know, you know, looking for that car and that license plate instead, you can just kind of much more quickly get it.
+But yes, this kind of stuff ends up super controversial from, uh, I don't know if it's super controversial, but it ends up controversial from a privacy point of view.
+And so, I don't know, is, is that take too generous?
+It's a rest of the settlement of the other side.
+Why is this?
+There is, I mean, I think you're right on the country.
+I would articulate it as like, if you're building a business that impacts millions of people's lives, it's going to be controversy of some degree.
+Like, I'm sure people, I'm sure there's someone who hates stripe.
+I don't know why they would, but I'm sure that person exists.
+Just like there's someone who hates Walmart.
+It's like, they're trying to sell cheap groceries.
+And why do you hate, it's like, people hate Airbnb, people hate every company.
+Maybe they hate us more. I don't know.
+I think there's a few things that make it for the, for the steelman argument.
+One is you can see it.
+All right, so I bet you if we pull up your iPhone, and we looked at the number of apps that you've given full time local location services.
+It would shock both of us.
+And then if we looked at the number of data brokers who then leveraged that data to sell you ads, we'd be really shocked.
+And I think if we were one to 30 years ago and said imagine these private companies tracked your location in real time.
+Yeah.
+And sold out to advertisers, we'd be like, that is unacceptable.
+But as we can't see it, we kind of let it go.
+We have this perception of anonymity or being anonymous.
+anonymity.
+anonymity.
+Thank you.
+Yet like, you're an engineer.
+How many data points do you need to triangulate where someone is? How about where they sleep and where they work?
+And I know exactly who you are.
+Yep.
+And so like, there is that one piece, which is because we operate in the physical world, we are held to a higher standard,
+which I think is a shame because personal opinion, what I do online,
+wait more interesting and telling about my personality and my life than what I do in the real world.
+Like I go from work to home, and to like kids birthday parties on weekends, that's my life.
+So there's that piece. In the second piece is like, there is a appropriate debate of what level of privacy erosion.
+Are we willing to take for an increase in safety?
+Now, you and I both choose to live in cities that have governments.
+So we've already chosen to remove some of our privacy and drive on public roads.
+We're constitutionally, we have no extension to privacy, but we're using the government's roads with the government's license plate.
+Like we have a driver's license and our pocket driver's license or a modern thing.
+That's not a, that hasn't been around for two hundred years.
+The newer concept of driver's license, so we've accepted all those.
+The articulation that I would have is like, I want my kids to be safe.
+And like, as long as there's accountability of like how the information is used,
+which we do, every single action or system, the audit is stored in perpetuity is publicly available.
+And they're for us, like we really believe in this concept of a certain data retention,
+which kind of limits the level of abuse. It doesn't eliminate abuse.
+But it limits that, hey, if it's seven days, 14 days, 30 days of data,
+it's just not that interesting.
+Yeah.
+I'm relative to what you see with data brokers online, where they have your entire internet history,
+stored forever.
+You're interested in fresh data.
+That's what's going on.
+Yeah, basically criminals.
+Yeah, there's a really fast drop off of where have you been in the last couple days,
+versus like, where were you a year ago?
+It's very irrelevant in a criminal investigation.
+Yes, yes.
+Or is protected by an warrant?
+It's fine.
+Right.
+You talked about cell phone locations and, you know,
+get your cell phone having your GPS location.
+And I'm reminded of the phenomenon,
+where it feels like the balance of power and the offense defense mix within crime fighting,
+tends to change of the earth as new technologies are invented.
+And, you know, criminal is getting wise to fingerprinting exists and things like that.
+It feels like cell phone locations have had a huge impact on crime fighting.
+Not even GPS location, but just the coarse cell tower data and
+in particular in murder cases.
+Yes.
+How do you impact?
+I'm curious just what are the other major trends going on in a technology point of view,
+in how crime gets fought.
+Yeah.
+That's CDRs would be the, you know, the nomenclature in the long run.
+Not CDR.
+Cell phone data dump versus CDR cells.
+Yeah.
+But it's your point.
+It's the broader, like you hit these three towers.
+Therefore, you're in this general vicinity.
+That is like one of the best kept secrets for long enforcement of,
+like how to solve crime, which, you know,
+people don't lean to make crime with their cell phone and their pocket every time.
+Yep.
+It's a very, I think I've heard of one case in the last 12 months,
+or someone was smart enough to commit a homicide and left their cell phone at home by design.
+It was a very intentional, they were very organized in the era.
+How did they get caught?
+It's actually flock obviously.
+So they were smart enough to leave their cell phone.
+Yeah.
+They were dumb enough.
+So they drove from LA up to San Francisco.
+General area.
+They hit a bunch of flock cameras along the way.
+They didn't pick up their cell phone to the way back to LAX.
+And we have cameras all around LAX.
+And they finally made that one mistake.
+They had it was a completely cold case until they got a hit on the car,
+pulling into LAX, then got the cell phone could do the whole thing.
+I guess the thing you can do is you can know that a cell phone's in the car because you can.
+We don't tough that.
+But the law enforcement can cross reference cell phone location with flock.
+Well, we're all this.
+So they knew that the vehicle was in a certain parking lot.
+Yeah.
+They can then use the item warrant at this point.
+Sure.
+And warrant to pull what cell phones were in that area.
+And then start to build the case.
+So your question.
+I'd say the most the current phenomena that is causing a ton of problem domestically is drones.
+And this is an example where it's asymmetric warfare that law enforcement is being put up against where.
+Criminals have no rules using drones.
+So here's a good example.
+In one of the counties we work with.
+So in a fluentish county in the Virginia area.
+South American cartels fly in legal drones through these neighborhoods.
+They'll flip on night vision.
+Look through houses to see if anyone's home.
+Then go break in.
+They don't want a competition.
+It's one of the best drones to the case.
+Just go out.
+Yeah.
+Wow.
+And this is where the downside is.
+Law enforcement has just recently been allowed to fly beyond visual on a site.
+These guys have been operating for years.
+Sure.
+Just a Jerry rig.
+You know, an LTE modem to a cheap drone.
+They can fly anywhere.
+However, they want.
+And then legally, even today, law enforcement is not allowed to engage.
+That room.
+They can't take it down.
+It's FAA or space.
+It's not law enforcement or space.
+And so they just sit there.
+So that's a problem in neighborhoods.
+That's a problem in prisons.
+It's probably the number one problem we have in our prison system today.
+A lot of problems in prisons.
+But one of the leading problems for enforcement officers is.
+You've got these.
+Pretty incredible actually from the city.
+In perspective drones that are carrying 10, 20, 30 pound payloads.
+Flying them over the prison walls.
+And like, they're literally dangled down to like the prison cell.
+And the person will reach out and grab it.
+Cell phones.
+We have guns.
+And our from zip line.
+Yeah.
+You see these guys have built a comfortable product.
+Yeah.
+And I was with a sheriff that I know really well.
+And he was like, if I shoot that down with a shotgun,
+I'm technically breaking the law.
+I'm breaking federal law.
+If I shoot this out with shotgun.
+And so you're seeing states now pass.
+Like Louisiana has a state bill.
+George is working on a state bill that says, sorry,
+FA.
+We're going to do what we want.
+And that creates a problem is most long force.
+Officers just want to follow the law.
+Yeah.
+It takes that one to stand up from the federal prevention point of view.
+No.
+And like the other challenge is like, I think you're not.
+Exactly.
+Who's going to, who's going to enforce this?
+FA is not an enforcement body.
+But these people want to follow the law.
+And the law says clearly like you can't shoot a drone down.
+Yes.
+You can detect it.
+You can't mitigate.
+And it's a totally crazy law.
+Yeah.
+What else has made?
+What else has gotten worse from an offense perspective?
+Um, I mean, this is one that's like, you know,
+I know, and if I have strong feelings on this topic,
+but this concept that we, we appropriately hold local law enforcement
+to a very high standard of accountability and
+accountability.
+And I think that's very good.
+Yes.
+The downside is like, we don't with criminals.
+And so as a citizen, you don't be the victim of a crime.
+You get really frustrated that they're not working hard enough.
+And it's just generally that it's that they don't have the tools.
+They don't have the data.
+They're not legally allowed to get to the data.
+And the warrant system is a very, very good thing.
+It's a very effective tool.
+But like, there's a debate of like,
+Should law enforcement have more ability to solve crime faster.
+Um, and the example of the framework that we use is,
+I don't know how you land this is that the severity of a crime
+should be commiser with the sophistication of technology.
+And don't give you an example.
+Facial recognition.
+Hot topic.
+There are thousands of cities in America that have banned law enforcement from using
+Facial recognition.
+It's not bad.
+It's a technology.
+It's not good either.
+It's just technology.
+I think a way more effective measure would be to say,
+Hey, look, facial wreck has its pros and cons.
+You can't use it for shoplifting.
+Um, but for homicides, uh, crimes against children,
+like go, go to the list of things that like,
+we as a society care deeply about law enforcement
+should do everything in their power to solve those cases.
+And then, yeah, though, like petty stuff,
+we should say, look, like, we got a,
+kind of a progress there, but, you know,
+you stole, uh, pack of skittles, like we probably shouldn't deploy a drone to find you.
+Like, kind of, if you kill someone, I think we should work really,
+really hard as a society to hold you accountable.
+Yeah.
+But there's no, there's no nuance.
+No, they're just like, facial wreck is bad.
+And we don't do facial recognition for that reason.
+Yeah.
+It's too controversial, but that's, yes.
+It's counterintuitive to me when the technology gets better every day.
+Yes, yes.
+And obviously, another interesting thing that's happening amongst these trends is
+the prevalence of body cams, which, I think,
+maybe was in some corners promoted by law enforcement skeptics,
+but I think now has backfired.
+But just like, it's actually, um, in a lot of cases,
+being somewhat exonerated, right?
+Yeah.
+No.
+I think, I think in, in many cases, um,
+police were really hesitant to get body cams.
+Just like, I mean, imagine if you were a body cam,
+we're all day at work, you'd be like, ah,
+yeah.
+That's right.
+Love that idea.
+It's kind of a little bit invasive, but they did.
+And I would say, in the majority cases that I see,
+where a foul play is called,
+it is almost always the inverse.
+Where law enforcement officer was just trying to do their job,
+and on the other side, there was other mental health issue.
+There was something gone wrong, and it actually exonerates the,
+the officer.
+Yeah.
+It's just kind of interesting.
+And I think the same thing is true,
+what at least we're seeing on the camera side,
+on the streets is, you know, historical policing,
+sadly, it's quite prejudiced, right?
+And we all have our biases, whether it's conscious or unconscious.
+So you have bad data in, you get bad data out.
+And so the traditional way of policing is like,
+you go to dangerous neighborhoods,
+look for suspicious people and arrest them.
+It's just like you're perpetuating a trend
+against a certain community.
+And when you look at like Oakland as a good example,
+who's quite a big sport of flock,
+they're like, we need a more objective way to please.
+Let's just focus on stolen cars.
+Yep.
+We don't care who's inside.
+We will find out eventually.
+That car was stolen.
+Yep.
+And then you don't want to policing where crime has happened historically.
+You want to policing where crime is happening right now.
+Yep.
+In real time.
+And that is a fairly fundamental shift in how policing works.
+And for many cities we work with,
+changes the perception of this kind of community with law enforcement.
+Is there no longer felt like they're being targeted?
+It feels like it's rubber crime happens.
+We're going to go chase it.
+And if there's not been crime in last couple days,
+then we're good.
+Yep.
+It's crime up her down.
+Yes.
+Hmm.
+I just down.
+Well, let's take a look at the tini to go down.
+COVID was like really bad.
+So it's?
+Was it really bad?
+Was it really bad?
+Was it really bad?
+Is it really bad?
+So it has emerged during COVID?
+Crazy search.
+Okay.
+People lost their minds.
+Hmm.
+I think we tested society of like what happens if you keep people inside for too long.
+It's a people got really violent.
+Yeah.
+So do you do the next?
+Is this us?
+Like it was a mental health issue,
+or was it kind of a crime of opportunity,
+these were crying, but you think it was just people
+and a bit bassy being locked up.
+I think so, I'm a resort to crime.
+But I mean, I mean, I've obviously not a, you know,
+clerical psychologist, but it's like,
+you just, you look at a data and there's no other way
+to articulate why, you know, homicides three to four acts.
+And then plummeted back down,
+let's call it somewhat reasonable levels.
+There's a very few number of cities that are left at COVID levels.
+Most cities had this massive spike.
+Yes.
+And like the, the way to, if you look at the people
+who were committing that violence,
+that tended to be 16 to 22, male, and very online.
+And very online.
+Yeah.
+And so like, this is, this is like, this is really sad.
+That's her, how do you measure very online?
+Oh, let me give you an example.
+I was in a town of Major City, Matthew Long gone.
+I was asking the chief to tell me kind of what's going on.
+This is a couple of years ago, right?
+They turned, during COVID.
+And she was like, Garrett, these kids are just killing each other.
+Say, what?
+So, you know, they're literally getting in their car
+and just shooting each other.
+I'm like, why?
+Like, oh, because this guy posted a picture of him
+with that guy's girl on Instagram.
+And I think in an almost situation,
+you might have called that person in the shade, bro.
+That's my girl.
+And in another case, they're getting in a car shooting
+somewhere.
+And like, that's not normal.
+I thought normal behavior.
+And it wasn't normal before COVID.
+And it happened a lot during COVID.
+And then it's largely gone away.
+But it was a very specific social phenomena
+where the race of violence was so dramatic.
+It was so scary.
+And I don't need to say this.
+It's going to fully back to normal.
+But like, look at the data.
+It's hard to relate.
+That's the most obvious explanation to me.
+And I guess there are other empirical measures
+like erasure incidents, road rage incidents.
+Like all of that kind of stuff went up during COVID.
+Everything went up.
+Yeah.
+They can everything.
+People just literally lost in months.
+I think we need to be outside.
+Yeah.
+But okay.
+So how are we doing now on crime?
+Yeah.
+You say it's down.
+And is that across all categories?
+Because you read Twitter.
+And it's like everything's locked up at CVS.
+And you know.
+Well, that could mean.
+So much of it just goes from, you know,
+like there's all these means, which are you maybe
+do some debunking and confirming of all the means.
+So so every city is a little bit different.
+Major cities still have major crime problems.
+I would argue, you know, I live in Atlanta.
+And the mayor, you know, he's made it very clear.
+Anything greater than zero homicides is a strategy tragedy.
+And therefore we're on the race to zero still.
+Like as an unacceptable level,
+we're down, historic lows over the last decade.
+But it's still pretty hard to wake up and go.
+You know, only 52 people died in Atlanta last year.
+And you can't pack yourself on the back for that.
+I think where we're focused on is more so clearance rates.
+And that's actually getting better.
+But only better in certain cities.
+Now, we track it across flock, you know, not to overly promote.
+Like tends to be that if you have a flock product,
+your city has a lot higher clearance rate.
+You look at San Francisco as a great example.
+The new chief, the prior chief, Mayor Larry,
+like they are making crime a focus.
+And the focus is on solving crime.
+Yes.
+And when they solve it, as I'm sure you fall on the news,
+they talk about it.
+Yeah.
+And they should, because like it's really cool,
+they're working very hard.
+And what you'll see is back to the online point I mean,
+all I see pull it online.
+And so when San Francisco is dominating X,
+it has a deterrent effect.
+Oh, gosh, yeah, you don't want to get caught.
+Yeah.
+And that's like the the unintuitive or the counter intuitive point on crime
+is that most people would intuitively say,
+oh, if the punishment's really really bad,
+people will do less of it.
+But you were 16, 18 at one point.
+You operate on a Boolean mindset.
+I will get away with this.
+They're for all of you.
+I'm a sneak out of my house.
+I'm not going to get caught.
+You don't care if the punishment is being grounded for a week or a month.
+You're going to get away with it.
+You're just looking like a cotton mask.
+Yeah, yeah.
+Yeah.
+And so, but you've not realized criminals are so online.
+So if you flip the, oh, it's like, it's to some culture.
+You got to get there.
+But I mean, you'll see, it's like Reddit, Twitter,
+they're everywhere.
+Patreists.
+I don't, let's buy pile of pictures.
+But I mean, TikTok's really big.
+Yeah.
+Instagram's really big.
+Snapchat's really big.
+And like it is, it's how they recruit though.
+Like the whole, the whole recruitment effort is, you know,
+I'm going to show a lifestyle line
+that seems dreamworthy to recruit these people.
+And then they're in and they're going to perpetuate that.
+And the data actually showed it's actually not a very good job.
+You know, she don't make very much money being a criminal.
+It's like the medium income for your average criminals.
+It's very, very low.
+Yeah.
+But they promote a lifestyle of wealth.
+So if you look at those cities, like, so thanks to Cisco.
+Crime is coming down.
+Clearance rates are going up.
+100% clear.
+It's like 100% solved.
+Yes.
+It's doable.
+We have been in major cities.
+And like, like, cop County would be one, which is like the second one.
+They have a hundred percent.
+Yep.
+If you commit violence in cop County, yes.
+You will get arrested.
+And that's so crosswise.
+I'm precise.
+That's the second largest county in Georgia.
+So let's call it, you know, couple million people.
+Is that almost annoying people?
+Oh, basically a decent number of violent crimes.
+Oh, yeah.
+Yeah.
+And like, but it's going down every year.
+Sure.
+So it's like a place like that.
+Yeah.
+Yeah.
+And so like we have this new concept that we've developed called, like,
+safe city.
+And we'll go into a town and say, look, this is the platform you need to solve all
+that crime in your city.
+Mm-hmm.
+Is your choice?
+It tends to be like about 20 bucks a citizen a year.
+Yeah.
+And it's like your choice.
+And like what's fun to watch is we find these mayors with really strong backbones.
+And they're like, I want to be a safe city.
+Mm-hmm.
+There's just like this awesome town Greenville, Mississippi.
+You might never heard of it.
+26,000 people.
+They have our drones.
+They have our cameras.
+They have our AI.
+They have everything we do.
+And they are lighting it up.
+Mm-hmm.
+And like, could us to the mayor and chief like every crime is off?
+Yes.
+They're on the 5'clock news.
+What?
+So these are highly effective cities.
+What?
+Effect?
+Does this?
+What happens to the criminals?
+Does this shift it to other localities?
+And like you need to, it's like, you know, disease eradication.
+You ultimately need to do kind of enough to blanket us as a snuff it out.
+Because if just kind of a warm municipality does a little shift to a local municipality,
+does it actually within that municipality?
+People just go to something non-criminal.
+I'm curious.
+What do the effects of?
+Yeah.
+Wouldn't mean that's probably getting ready.
+There's two phases.
+The first phase you're spot on.
+Like people that has changed cities.
+Mm-hmm.
+It's like when San Francisco started off in Flock,
+Oakland crime went up.
+Mm-hmm.
+So then Oakland needed to do a dot-flock.
+Yes.
+And now, like, a couple of false starts now that that's fully going.
+Like, they will have the same.
+But like, first is the shift.
+Yes.
+And then you're right.
+Like, this is, people don't,
+but the majority of criminals.
+Let's call it nine giant percent criminals are not evil people.
+They're not.
+Like, evil is a random act of violence.
+Mm-hmm.
+And that is exceptionally rare.
+It's both very opportunism.
+It's all opportunism.
+It's all opportunism.
+And like, you and I were fortunate enough to be born in a family,
+in a social construct that we could go build great companies.
+But not everyone had that chance.
+And some people get pushed in their own direction.
+And that's what we have to stop.
+And it's like, as a business, we don't,
+while we're proud of the impact,
+you know, making a million arrests.
+It's actually quite disheartening.
+Because I mean, it's like a million people
+when I have to go through criminal justice system.
+Which doesn't work that well.
+There's a million victims.
+Like, bad.
+And every single way.
+It's also crazy expensive.
+That's a society to jail.
+That many people.
+It's like, it's a double negative bottom line where it's costly.
+And prohibitive that they'll probably never re-enter society.
+So we're, we're much more focused on the preventative mechanisms.
+If like, how do you convince someone?
+This is not a good lifestyle.
+This is not a long-term plan.
+And eventually what you will see is like, they will go get jobs.
+Like, these are functional members of society.
+They can be functional members.
+We should push them in that direction.
+How kind of crime is on the increase?
+So I'll tell you one that's like pretty fascinating.
+So if you look in the enterprise community,
+organized resalt crime in stores
+was really hot during COVID and right after COVID.
+And that's why you saw CBS lock their stuff up.
+You saw places like in an outly of Oakland.
+Like, this was a huge problem.
+And it's still, you know, for someone like Walmart,
+I think they reported just shy of a billion dollars of theft last year.
+So there's a lot of money.
+And like, their peers aren't doing dramatically better.
+Now, if lock customers are doing really well.
+Yeah.
+And Walmart on the advice of this stuff.
+Yeah.
+But those get there.
+Yeah.
+We'll get there with Walmart.
+But like, you look at some of our partners like a lows.
+You know, their shrink has gone down order of magnitude.
+It's not, it's not really a problem anymore.
+Yeah.
+But where the criminals have moved is to the distribution facilities.
+It's safer and bigger loads.
+And so probably the most sophisticated one that I've heard of
+is the Eastern European group.
+They went and bought a legal, like well running freight broker.
+They know on this asset.
+And they bid on all these low bid on all these projects.
+Show up with real paperwork.
+They look at 20 foot with products.
+Drive away does all the company.
+7 million dollars in a single day.
+Like, that's pretty business.
+Yeah.
+That's very sophisticated though.
+That's harder to solve.
+That's very much harder to solve.
+Because every car phone, like everything will be disposable used in that.
+Everything's going to leave the country as fast as possible.
+And just show up on a street somewhere.
+Yeah.
+And then the other interesting challenges.
+You, you have to unpack a little bit complicated.
+Who's liable.
+So soon as the product goes into a store that retailer is liable for the theft.
+Like, but it hits their bottom line.
+For a lot of these companies, they negotiate it such that, you know,
+there is insurance coverage from a different broker that owns that asset
+until final delivery.
+And so it's not super clear.
+Like, who actually cares?
+And it's going to take insurance.
+And sure cares eventually.
+Yeah.
+But when you talk about the scale of what's called, you know,
+tens of billions of dollars, hundreds of billions of dollars of product being moved.
+You're like, oh, you know, we lost a couple hundred million.
+I see.
+Yeah.
+We'll be fine.
+We haven't insurance.
+Yeah.
+It will catch up eventually.
+But that's probably the most interesting type of crime we're tracking is the
+issue.
+So we have a lot of partners on the distribution side.
+We're now deploying our product.
+Can you try to prevent this from an epidemic?
+Yes.
+But it's much harder to solve.
+It's a real company.
+Yes.
+Yes.
+I want to ask you more about this.
+But yeah.
+And then again.
+This is a good segue into your corporate business.
+Because again, you associate you with selling to municipalities.
+But obviously, you sell a lot to corporates as well.
+Yeah.
+That's a big part of our business.
+Oh, sorry.
+You had some drags.
+That's my fault.
+Yeah.
+Okay.
+We want to just go full up and get more of a head that way.
+And it's perfectly.
+It's the correct.
+Oh, it is.
+You can trust us here.
+Okay.
+So the corporate business.
+Yeah.
+Not a lot of money.
+We are part of fastest growing segment.
+There's so like wild.
+There's some wild stories.
+So, you know, we help businesses solve two problems.
+How do you keep your employees safe?
+And how do you keep your assets or your stuff safe?
+Yeah.
+So it's a kind of funny.
+Because we have a fortune five company as a customer.
+And they don't want to talk about specifics.
+But we should just imagine big box stores.
+They kind of.
+Well, this thing is like, we have this like fortune five company as a customer.
+And they spend like a hundred thousand dollars a year.
+Because they have like three locations in the country.
+That's it.
+They have like three really big campuses.
+So they're actually like, we don't proxy towards necessarily market capital revenue.
+We're proxy to physical locations.
+And we look at it.
+So someone like a dollar general is a way better prospect for us.
+But dollar general has seven thousand stores.
+Yeah.
+That's subway.
+You want subways a good example.
+So we tend to focus on retail health care in logistics.
+They tend to have big physical footprints.
+Yeah.
+A lot of employees.
+Yeah.
+In a lot of challenges.
+And they've been challenged theft.
+Like that's what they're worried about.
+And it's still in cars coming to the stuff.
+I'd say employees is.
+It's a three years ago when we started the business unit.
+It was assets.
+It was like, oh my gosh, coming out of COVID.
+Everyone's stealing everything.
+Yeah.
+It is much more shift to now to keeping employees safe.
+Uh-huh.
+So you think about some of these businesses.
+They might terminate half a million people a year.
+Poor people a year.
+It takes one angry employee to come back.
+And so in our system, you can have an automated, you know, with your HRS.
+That, like, when employees is terminated, they're added to a localized hot list.
+Yeah.
+That employee ever comes back on campus.
+Study legal.
+Yeah.
+But notified security is why people have security seems like don't let them in the building.
+Yeah.
+So it's about kind of moving that layer of safety farther out.
+Yes.
+The other example is like, we do quite a bit of work.
+Like in executive protection.
+Mm-hmm.
+So I'll give you a good example.
+Uh-huh.
+It gave me like a fortune 2000 CEO.
+Yeah.
+Our stuff's deployed at her house.
+We also deploy at corporate.
+It's not illegal.
+But it's quite weird if the same vehicle in the same day goes to both locations.
+Mm-hmm.
+And so freaking that is not that person.
+Yeah.
+It's not that person or their EP team.
+Yeah.
+And so like, we're, I think keeping people safe is the number one thing.
+And the assets is like, it's good.
+But worst case, you just raise prices, which is not good.
+Yeah.
+But like we have this crazy case, um, with all of our healthcare partners, um, where
+this group pretty smart actually would show up to the hospital.
+Dressed in like a certain company's uniform.
+And back.
+Oh, the robotic surgical arm is an easy beer fair.
+Can you help me grab it?
+And some clinical, you know, clinical, you know, surgeons like, oh, yeah.
+I want to show you where it is.
+Don't worry.
+It's not where it's gone.
+Walk in there.
+This is a, you know, multi-million art piece of equipment.
+They literally walk out with it.
+Uh, this, this happened in Thomas crown affair kind of stuff.
+But it's like, yeah.
+I mean, you're a physician.
+You're not thinking like, oh,
+it's John actually working at this company is the product.
+I think I used yesterday.
+You're like, oh, yeah.
+We get that sounds right.
+It's super expensive product.
+Um, so this is an example to, to your conversation.
+If like, where the business gets interesting is we've been connected that healthcare provider
+with federal authorities.
+Because if this is not a, a lot, this is going to be a little bit of a,
+already, it's always kind of crime is a federal crime at this point.
+They were taking the product, exporting it and selling it in different
+country.
+Um, for kind of, you know, clinical work.
+So we have the that one is pretty interesting.
+There's like, that's an asset.
+When we're actually the healthcare system is like, this is a,
+like, 20 something million dollars of product stolen.
+Yes.
+We were in the product.
+Yeah.
+Yeah.
+Our is your business going international, which countries is the
+best suited to, like, is this a,
+universally applicable product.
+Do those differences in, you know, law enforcement data structure,
+make it.
+I'm just curious.
+We were, we're,
+dabbling.
+Yeah.
+But
+I think payments is probably like a very global, like everyone wants to process payments.
+I think, yes, well, it's a lot of local nuance.
+Yeah.
+I think for us, maybe our ambitions aren't big enough.
+But when I look at the domestic opportunity, you know,
+we should be able to get to five, ten, 15 billion of revenue in America.
+And like, we're not, we're not there.
+Yes.
+And so it's, the difference of to your point of the nuance and payments is probably
+more than the nuance of working with the whole government.
+But then you overlay hardware.
+And that just gets maybe two steps, two difficult.
+That's my stomach today.
+God, it's today.
+Yeah.
+But there's, I mean, there we get an inbound.
+I got to ask all of you, well, this morning from Monastery and police departments.
+I would love to do a demo and it's like.
+Why not just do, I mean, I think there's a lot of nuance.
+Is there some aspect of your tech?
+Like you put a lot of work into the cameras,
+vehicle, recognition, stuff like that.
+Because I know, again, from painfully experienced at localization,
+it's never easy and never as easy as you think it.
+Yeah.
+Here's, here's, but maybe it's easy.
+Yeah.
+Well, so here's the argument.
+So we, we pursued one really big deal last year in Mexico.
+Mm-hmm.
+And we had support from one of our investors.
+Like, we should go after to our great.
+And they had connections to the, to the Mexican government.
+So we got all into the finish line.
+And it was us versus tech visions.
+The vision is a, as a Chinese camera manufacturer,
+arguably a subsidiary of the CCP.
+And we were almost 10 times the price.
+And it came down to like, well, is the, is the, the department of home and security
+going to subsidize for this for the Mexican government.
+Because this, we know they're list price.
+It's way more than this.
+Yeah.
+It's very clear this is being subsidized for the Mexican government
+to make this purchase decision.
+And, of which case, they will most likely be giving away real time feeds
+to another government.
+And I wouldn't win that deal.
+And like, I think that that, that, if you look at,
+Mr. K. Book on this topic,
+if you look at what China was able to do in Africa with their infrastructure
+to deployments on creativity.
+They own this countries.
+Yeah.
+They own this countries.
+I find the book.
+Pretty much shows that like one of the, maybe,
+smartest moves that China did was going to these developing countries and saying,
+we will give you 5G.
+Mm-hmm.
+Really low cost.
+Well, bond it for like 100 years.
+So we're not giving away for free, but go guess what?
+No.
+Chinese government has access to your pipes.
+Mm-hmm.
+And maybe that's not scary for some countries.
+For me, I'd be a little afraid.
+And that was our, that was our pitch to the Mexican government is like,
+you don't look at this cost.
+Look at the sovereignty of the data and who has access and look
+will domicile this data in your country.
+We won't domicile it in America.
+And they are like, yeah.
+Sorry, it's too expensive.
+And we've seen that we've done a couple other projects like that,
+not just picking on Mexican countries where we're not competitive with China,
+not because our products are better, much better,
+but we're not being subsidized by the federal government.
+But presumably NATO countries, you know, Australia.
+Should be better, but I mean, no.
+I mean, I can, I can, I can,
+we should go walk around, you know, a strip mall.
+And I could probably point out 80% of the cameras are Chinese manufacturers.
+Mm-hmm.
+And your average would be business owners.
+Like, yeah, I got it for 15 bucks on Amazon.
+Yeah.
+And I got to know if you know that's that story on kind of like the,
+you know, the vacuum cleaners.
+Uh, something like that.
+Yeah.
+It's like the robot vacuum.
+Yeah.
+Do you, do you should care about where your data is stored and who's storing it?
+Yeah.
+That kind of stuff matters to me.
+Yeah.
+Not everyone.
+As we've learned from Fox safety, fighting crime is most effective
+with network data on your side.
+The same is true for payment fraud.
+Most businesses only see their own transactions,
+which make it very hard to spot patterns and prevent future attacks.
+Let's try radar tackles fraud using the power of the Stripe network.
+Our machine learning models train hundreds of billions of data points
+across the two trillion dollars of payments we see on the Stripe network each year.
+When new fraud patterns emerge,
+our models can quickly learn and start blocking similar attacks immediately.
+So if you want to fight fraud like flux safety,
+fight's crime, check out Stripe radar.
+As I think about your competitive landscape in the US,
+Yeah.
+And companies themselves along for us,
+and I think about axon,
+which people associate with making the body cameras,
+but they make lots of them and tasers, I think,
+but they make lots of other stuff.
+And then motorline solutions,
+which are kind of the radios,
+and they get up in the cars and things like that.
+Are you three the main three players?
+Are there other things you're thinking about?
+And how will this have, like presumably,
+you guys can keep more over time?
+Yeah.
+So I remember in 2020,
+some of radar series B,
+and every investor came the same conclusion,
+63 Strikes for Out.
+Like Stripe 1, you're based in Atlanta.
+And I like Post-COVID,
+that's become my class of repom,
+but, you know, Stripe 1, you're in Atlanta.
+Stripe 2, you're doing hardware,
+but that's really bad.
+Hardware is, like, really expensive.
+Now it's the only business of terming it.
+Not values.
+I would argue that, like, no,
+AI is not going to replace cameras or dick holes.
+Yes, yes.
+It's like, we mean, a third of our employees dick holes for living.
+Like, that's just AI's long ways away from,
+I think, replacing that.
+So how about they doing the holes for?
+It was like, most of the time,
+you want a camera where you don't have any infrastructure?
+We actually show up post or something.
+We dig the hole,
+and we print it.
+We poor concrete.
+Put our pull up.
+I mean, I might.
+It's on your own pull.
+I think there's an answer to that.
+I should pull this data.
+I would not be surprised if I'm the largest general
+contractor in America.
+Hmm.
+We pulled 77 permits a day last year.
+Hmm.
+And if you ever built a house,
+you know how to hold this department.
+Sure.
+77 permits a day.
+Like crazy scale.
+Yes.
+AI's not going to replace that.
+It's a very safe asset.
+But, but so, yes.
+So when we were trying to raise that,
+that's here is B.
+The third strike was second strike was hardware.
+The third strike was,
+and you're trying to sell to the government.
+The last company to go public was axon.
+They owned public in 2005.
+We've been 15 years prior.
+And in the VC speak,
+it's like, well, if you can't get big enough to go public,
+you're not worth investing in.
+It's like, well, crap.
+Now, so luckily Gary Tan shared my beliefs of,
+like, safety should be a public right.
+It shouldn't be a privilege.
+It should be a right.
+If you live in America.
+So he did our series B,
+which is, to say,
+it's the only series B's ever done.
+So awesome.
+And he was right.
+And I was right.
+So it's the three of us now.
+It's, it's Motorola,
+who's the biggest.
+About a 90 billion dollar mark.
+Cap 120 years old.
+Invented the radio.
+Still are the,
+I think they have 80% of market share globally.
+Of land mass radio.
+Just like a crazy scale.
+It's funny.
+He had durable.
+Some of these businesses.
+Garmin and other.
+Like you just start doing GPS.
+You start doing radio.
+And you say you're doing radio.
+Oh, no.
+Yeah.
+Oh, no.
+Yeah.
+It's a radio itself.
+Some of the Garmin,
+which you thought Garmin would have been crushed.
+And it's like this.
+They've been so creative and creating verticals.
+And they brought it.
+You know this stuff.
+Awesome product.
+And no one would debate whether Motorola's radios work really well.
+And when you need them,
+which would be like a natural disaster.
+Yeah.
+They work especially well.
+Yeah.
+That's like pretty compelling when your job is to
+respond to natural disasters.
+Yeah.
+Do you know what are all that?
+Every single thing we do.
+We compete with Motorola.
+Yeah.
+They're big.
+Second one would be axon.
+Like I said, public in 2005.
+About a 40 billion dollar market cap.
+Where they come out of.
+Like I understand where Motorola came out of.
+Yeah.
+So Rick Smith's the founder.
+Graduated Harvard.
+It's like a fund for that.
+He plays the office at various markets.
+Um.
+Graduate Harvard.
+Um.
+Found this tazer company.
+It wasn't called tazer at the time.
+Okay.
+So they started with tazers.
+Yeah.
+Found that found those kind of the IP.
+The products.
+Yeah.
+So they started to realize it.
+And it's if you're.
+You love a good founding story.
+It's a good one where, you know, almost without a business.
+It's like dad mortgage the house.
+He mortgage the house.
+Yeah.
+When public because they couldn't finance it, I think they went out.
+Like a 50 million dollar.
+Like, you know, market cap.
+This is like what people would public, you know, much earlier.
+Um, and just has done a really good job of of of growing the business in the public markets.
+And tazer is a brand.
+It's like he next.
+They own.
+So they started to sort of tazer and rebranded acts on.
+In 2012 or 2015.
+Yeah.
+Um, and got him to body cams via acquisition.
+So they bought a company that had just won the contract in the New York Police Department to do body cams.
+So bought that.
+They have a dash camera.
+Um, and they'd recently launched a competitive product with me.
+Yeah.
+So now we compete.
+Everything we do we can be with.
+Excellent too.
+Um, it's fun.
+So it's just a Mexican standoff.
+Everything.
+Everything.
+Everything.
+Everything.
+Um, because your question was also in the future.
+This is really interesting for now.
+I'm going to happen.
+Now where because flocks been somewhat successful.
+Um, VCs have like.
+Port in.
+And when I used to call a police department seven years ago.
+I know you have a bunch of competitors.
+No.
+No one would.
+No.
+You could literally just walk into police department.
+I can only be the chief.
+That's great.
+Now chiefs are like.
+Right.
+17 different people call me for the exact same.
+And they don't compete with us.
+Yeah.
+I think about.
+Um, take like trying to deploy AI to money or body camp footage.
+There is seven different companies with VC backing doing that.
+There's not some big enough market.
+Yeah.
+I think, I think, you know, your end report was great.
+By the way, you all are at what 1% of GDP or something.
+Probably.
+Okay.
+I'm in 60 to 70% of the cities that matter.
+Yes.
+Yes.
+There's just enough space for seven competitors.
+I can do this.
+It won't.
+The market's not big enough.
+And we're not creating new cities.
+I think you tend to see structurally in these.
+Um.
+Smaller.
+I mean, it's a large market in total.
+But where there's a finite universe of buyers.
+The distribution of events is a very powerful thing.
+That's what you're saying.
+And I think so.
+And so I think what we'll see is, you know, I see a new.
+VC backed company every day.
+And I'm like, there's just, I don't all the things are going to have a business.
+So they're just going to be consolidation.
+And so you see, you know, I think Motorola has done 40 acquisitions in the last two years.
+But I'm actually on to five last year.
+We did one last year.
+I just think you're going to see everyone in this space.
+I don't know.
+Because like once someone builds a good product.
+You go great.
+I already have a sales force.
+I have the customer base.
+Yes.
+We'll just pick you up.
+Yeah.
+So I had no idea about the.
+You know, you're talking about where the tech goes.
+I'd known idea about two things actually.
+I learned here.
+One is the original real time analysis of 911 calls.
+Yeah.
+And so is that?
+I mean, is that being fed to an LM?
+Basically our like 911 calls now.
+Yes.
+So the way I think about it is.
+We are trying to build an orchestration layer for a city's safety.
+And the majority of police departments are understaffed.
+I think the worst I've heard recently.
+I was at a higher ed and so college campus.
+A large college campus, you know, full school.
+There 40% of staffing.
+Could you imagine if I tomorrow?
+Are you going to come and strike?
+I had 40% staff.
+40% staff?
+Yes.
+You would like figure it out.
+Yeah.
+But a lot of things that you would deem court today were just stopped.
+Yes.
+Yes.
+And so that's how most of our customers operate.
+Which is not sustainable.
+Yes.
+And so we view our job is like being that force multiplier or I like to think of this
+orchestration layer where every manual thing that's done by a human should be automated.
+Now, the difference in public safety versus maybe payments is like.
+I think you want humans at the start and finish still.
+So if I call 911, still kind of want a person to pick up.
+And those dispatchers are incredibly well trained.
+They're very well trained.
+They're very calm.
+Now, where I think it gets valuable is like, but let's say there's a.
+Mass event.
+AI is way better because if you have a surge of demand and you go from only one
+call a minute to 10 calls a minute.
+Yeah.
+Yeah.
+AI is better than a busy tune.
+Yep.
+That makes sense.
+And then I think about for us, we call amplified intelligence.
+But that 911 call comes in.
+LLM is able to pick up the call.
+Is able to determine where the characteristics.
+Can I go sort of build an investigation?
+Can I go pull this up so that if you're detective.
+Whereas historically you walk in your car, I'm going to go get the call
+Transcreate.
+I'm going to go look up my record system.
+I'm going to go do a bunch of analysis.
+It's the equivalent of having, you know, whether you use something like a
+Glean or another product that's like, kind of do a lot of the hard work.
+So that as a sales rep, you show up and you're got it.
+Yep.
+And so we do that for investigators.
+So they show up to get delivered a case in a lot of the busy work.
+Has been done for them.
+So they can use the Sheaman part of their job.
+Having all the data that needs this.
+All the different data.
+Like, let's go do this.
+Like, we solved one of the cooler cases we've solved.
+Was a armored, you know, armored trucks.
+They bring, say, move money around.
+Yeah.
+Was one of the best.
+It's called like a jogging case.
+It's a very popular in Texas.
+Where you, like, you follow these armored trucks.
+And you typically have like a shooter on a nearby building.
+And when the person walks out, the shooter shoots them.
+Other guy runs in grabs on the money and runs away.
+It's like a very, it's obviously sad.
+But it's a very, very comfortable thing.
+So we built an agent.
+And that tracks armored cars.
+And so in all times, it is literally saying, okay, here's armored truck.
+We ever see other vehicles tracking this car.
+Flag them automatically.
+That's not illegal.
+Yeah, sure.
+Right.
+But it is enough that if you're a city like Houston, who has a jogging problem.
+Yeah.
+You want to get a subscription to like, you let me know whenever you see someone doing that.
+Because I want to know.
+Yeah.
+I want to get a step ahead.
+So there's always types of like crimes that you can start to say, okay, this is helping
+officers.
+Not do something new.
+And it's just doing things that when you're at 50% 40% staffing.
+Yes.
+Sure.
+100% you've been doing this yourself.
+You'd be checking the cars.
+You'd be in flock.
+You'd be running this search.
+But you can't do that anymore.
+Yeah.
+We're describing this again.
+Having this data to be able to do anomaly detection.
+Just allows for a new kind of police park.
+Yeah.
+Otherwise.
+Just wouldn't have gotten that.
+No.
+And it's like people's lives.
+You know, and then the other thing I had realized you guys were doing is the drone assistance
+where again, this sounds to me like, you know, obviously already it's the case that, you know,
+many police departments have a helicopter and then for very serious crimes.
+You know, they will they will task us at bus.
+That's expensive.
+Very limited resource.
+And so I think what you're doing is allowing for some manner of very
+support to just be much more cost effective and available to more officers.
+That's right.
+I think it's another example where there's just a lot of tasks.
+We asked law enforcement officers to conduct that a drone could do faster, more effectively
+in cheaper.
+Yes.
+And so if it's, you know, calling out a hidden run.
+Great.
+It's in the drone.
+I was working with a town in Tennessee.
+It's a pretty good city.
+Their average response time tonight will call us seven and a half minutes.
+Their drone from us gets there in 68 seconds.
+She's like a better quality of service.
+Like in the incremental cost is less than the cost of one single officer.
+I guess it's it's really nice when you see technology.
+Deliver both the techniques better products at a dramatically lower cost.
+Yeah.
+That sounds like that's how it's supposed to work.
+It's working for them.
+Where are the drone?
+What kind of task or intervention are the drones best suited?
+Yeah.
+The two most, the three primary use cases, the first would be vehicular pursuits.
+One of the most dangerous things cities conduct is high speed pursuits.
+Sure.
+Typically it's not the suspect that dies.
+It's some random person.
+So for most of our towns that have adopted our drone program.
+They in pursuits.
+They don't pursue anymore.
+Send it for a while.
+Send it for a while.
+Send it for a while.
+Yeah.
+Way better.
+Yeah.
+It's way safer.
+That's a bit of like a police car running at 80 miles an hour down the residential streets.
+No.
+You just have a drone for her feet up in the air.
+It's safe.
+Waiting for the car to pull into a gas station, pulled into their home, pulled
+and somewhere safe.
+Get to a red light.
+Mm-hmm.
+And then meanwhile, that video feeds being broadcasted to the entire police department.
+It's like great.
+You know, John's over here.
+Yeah.
+Block him in.
+It's, you know, every pursuit goes to GTA level five immediately.
+Yes.
+Yeah.
+Every smart.
+I was like, that's a big one.
+The second is 911 calls.
+So what's been interesting is that, you know, we'll send the drone first.
+And it takes someone like Elk Grove, another California.
+They've got a bunch of our drones.
+It's on the 911 calls.
+Where is Elk Grove?
+Elk Grove?
+Yeah.
+It's a suburb of Sacramento.
+Okay.
+But maybe 75,000 people.
+So I say suburb.
+It's like a pretty big town.
+But so like, they'll dispatch for 911.
+Majority of the call is actually never need a human to show up.
+And the example I'd give you is like, you see a fist fight.
+So you call 911.
+And then what happens is historically like a seven minutes later.
+Someone shows up.
+Guess what?
+They're no longer fighting.
+But now we've dispatched this officer.
+He's a quam in the area.
+Maybe we'll grab a caterade, walk around, check it out.
+30 minutes later.
+Like we've wasted a bunch of time.
+Yeah.
+You send the drone.
+In best case, you see the guys fighting.
+And you're great.
+I'm going to keep an eye on them.
+And like, and allow the officer to do a job.
+Or if there's never, there's not a fighting anymore.
+Yeah.
+You dismiss the call.
+Mm-hmm.
+And so you actually increase, try decrease their response time for situations.
+You really do need to go to by removing the jump in the system.
+Yeah.
+Does the second one in the third one is certain rescues?
+Yeah.
+And not every city has a helicopter.
+Yep.
+The same as I do is a very expensive proposition.
+Sure.
+And so sadly, like people go missing all the time.
+Uh, and you can, you know, pop up the drone.
+Go on thermals.
+Yep.
+I'm sure it's a night, you know, and find the person.
+Actually, I thought of that.
+But drone plus thermal camera is very transformable for us there.
+Yeah, we had a, we had an interesting case in a, in a cold state right now.
+He's flying our drone.
+Um, there was a, uh, sorry, a lot of my cases.
+He's a lot of homicides.
+Uh, we're going to try and find a better topic than homicides at some point.
+I've better topic as soon as I can.
+Okay.
+Great.
+So, so there's this normal one.
+Uh, typically, homicides.
+Carside street.
+Um, lunch or drone throwing thermals.
+I just see where the person went.
+Like, sensitive enough to see the heat pattern.
+Like, there's like, oh, yeah.
+Yeah.
+I wanted to find the guy.
+I wanted to find himself on everything.
+Uh, but it's interesting, like, to your point.
+I think we're still very early on in the use case exploration.
+Yeah.
+And I think it's a type of technology that until it's fully proliferated, which give it
+two, three more years.
+I think we'll continue to find more like ways to augment how we respond.
+Because I think, I guess the last example I'll give you is, uh, we typically
+launch the drone for all first responders.
+That's not just law enforcement.
+It's fire at the MS, like, the whole community gets advantage of it.
+Yep.
+Yep. Oh, okay. My fun example.
+Because I agree a lot of the, uh, you know, crimes are quite heavy topics.
+Yeah.
+Um, so, uh, I feel like one of the, um, most satisfying genres of YouTube video
+to watch is, uh, people who laser aircraft, but they're mistakenly
+lasering a police helicopter.
+So this is insane crime that happens.
+But why did they do that?
+Okay. So this is, uh, insane crime.
+That's not bad.
+It's like very dangerous.
+Yeah.
+But like, boards, people, do your point of just maybe people going mad during COVID
+and being cooped up.
+People just for fun laser aircraft.
+It's very dangerous.
+Like, seems just for anyone's eyes shining a laser into them.
+But like, pilots who is flying a plane full of people at that moment,
+it's especially bad.
+But is it real problem that happened?
+You listen to like, ATC recordings all the time, like airline
+or going into LAX, you know, getting laser by someone on the ground.
+And so people buy these, uh, lasers on Amazon.
+Yeah. They're like, they're, like, very powerful laser.
+Exactly. They're very powerful.
+And they're just lasering the cockpits of aircraft.
+But occasionally, what happens is they're lasering an aircraft.
+But it turns out that aircraft is the police helicopter.
+They're just like, gotcha.
+And they got the thermola and they're just like,
+and so you get to watch the whole thing unfolds.
+It's a bunch of these on YouTube,
+we'd like to see the squad cars coming up.
+Yeah.
+Let's check that out.
+But it's, uh, it's such an odd crime.
+And, um, yeah, it's, uh, it's very satisfying to see them caught in real time.
+Yes.
+Uh, that's a really weird idea.
+The other thing to present to you, you like aviation stuff.
+Yeah.
+We're seeing more and more police helicopters have to turn off ADSB as well.
+Um, because like criminals have the same data that you have.
+Yeah, yeah, sure.
+And so most of the police helicopters actually fly without ADSB, no.
+And we're just like a whole challenge.
+Yeah.
+Yeah, sure.
+From a separation point of view.
+Yeah.
+Um, okay, if so many more things to, um,
+to go into our Canadian jumping around, but I like this.
+Um,
+how does the business evolved?
+So you're now, you said around 500 billion in, uh,
+a, uh, era, uh, selling to both law enforcement agencies and, uh, corporates.
+Just have there been interesting changes in.
+How you monetized is it just questions scaling up?
+Yeah.
+I mean, I think the biggest challenge is, you know,
+two, three years ago, we were a single product, single customer.
+Like we had our neighborhood had business.
+It was growing 23% year over year, but it was kind of,
+operating in law enforcement was basically on really fast.
+We had one product.
+And then maybe made a mistake.
+Uh, I know, um,
+RJ from Rivian was here.
+Uh, so much worry.
+Like probably built too many products for too many customers really quickly.
+Uh, yeah.
+It in hardware.
+That's really expensive.
+Yeah.
+Um, hardware tends to follow this J curve of, like,
+huge capex investment upfront to get the thing going.
+And then you monetize and actually ones it being.
+And this is very significant scale economy is asked.
+Very high orders of my guess.
+Yes.
+And so, you know, we went from one camera that tracks cars to,
+uh, camera that's focused were for people,
+a drone, the trailer, multiple customer segments.
+And just really hard.
+Yeah.
+So looking back at using GN2 broad too quickly.
+Yeah.
+I would have better.
+So did you discontinue products and stuff?
+Yeah.
+Just stuck with them through it.
+Yeah.
+Still mumbling through down the race of adding products.
+We were like, we cannot do any new hardware products this year.
+Uh,
+Like we need to take a year to off.
+Yeah.
+A fiber brush.
+We can debate software products.
+Yeah.
+There's no incremental burn or kind of cash outlay for it.
+But we just, we, we know what the J curve looks like.
+Like we saw it on the core business.
+And like the core business now is profitable.
+It's great.
+Um, like, we're generating for cash flow.
+Hundreds of millions of operating cash flow this year.
+But like, this new business is,
+are effectively like,
+five years ago.
+Yeah.
+Um, and we know how painful that is.
+But we were just like, oh, it'll be great.
+It'll be fine.
+Uh, and so I think that's been,
+that's been challenging for us.
+And so what we're doing is how do you balance from a product road map,
+servicing two customers, which is very different.
+Use cases like your average,
+uh, Amazon distribution facility is, you know,
+30 acres, 50 acres.
+That's, that's like a neighborhood block.
+Yeah.
+Yeah.
+And then you've got like a San Francisco that's got hundreds of square miles.
+It's the problems are different.
+It's, it's that, that is,
+like the hardest thing that we're still,
+Yes.
+Trying to muscle through that.
+And like, how do you organize your company to service these two different customers?
+Yeah.
+That's having redundancies.
+Have you figured that out?
+What have you learned other than,
+um, don't make too many products.
+What have you learned by building hardware?
+Or what have you learned about?
+Yeah.
+Yeah.
+Yeah.
+I think the,
+I mean,
+a couple things that I would jump to.
+The first would be,
+I don't know how you guys think about forecasting demand.
+It's a full-time profession at flock.
+Sure.
+And it typically needs to be 12 to 18 months out.
+And if you look at the like hardware companies,
+I don't make it.
+That's actually where they feel.
+Yeah.
+No, we ended up with, I mean, our hardware business is a very small part of our overall business.
+But we wildly overproduced at one point.
+And just sitting in the warehouse, like,
+there's all my money.
+Exactly.
+So anywhere else.
+Yeah.
+Well, luckily, it's not, you know, it's not going to go bad.
+Yeah.
+It's like bananas.
+Yeah.
+It's like, oh, gosh, we have like a week to move this product.
+Yes.
+But it kind of looks bad.
+But it does get bad at some point.
+Yeah.
+And I think like, you know,
+during YC, many, many, many years ago,
+talking to Eric at Pebble of how was like the irony that in the best year ever of the company in terms of revenues, the year they went out of business.
+And like, that's crazy.
+Yes.
+But they just, they overordered overproduced him.
+Yeah.
+Even though still a record quarter is still wasn't enough.
+So I think like,
+that has been amplified by also our distribution process,
+like, which were full first party.
+And we not only designed the stuff, build the stuff.
+We install the stuff.
+Mm-hmm.
+And so I have to have forecasted.
+I mean, it's presumed.
+I maintain it as well.
+So I have to have forecasting not just at the product level, but up the geographic level by product.
+With some level of, you know, the script,
+and say, come on.
+You need to know this city for stats,
+it'd be released in general area.
+So I think forecasting.
+Yeah.
+That's been pretty hard.
+And the second is,
+every decision you make in hardware is millions of dollars at a minimal,
+and often tens of millions of dollars.
+And so when you grow up in this Silicon Valley mindset of like,
+Yeah.
+Everything's a two-way door.
+Yeah.
+Bullshit. Hardware. Everything's a one-way door.
+Yeah.
+You want to pick that part?
+Yeah.
+One way for the next five, ten years.
+Yeah.
+And like, I don't know.
+You probably don't track this as much,
+but probably the, you know,
+the dumbest financial mistake I've made in the last year is
+our supply chain team came to us six months ago.
+And they were like,
+Salt State memory is getting really expensive.
+And like we had, we had this one part.
+And that's in our cameras.
+And the price had gone up four X in near time.
+Which indicates that typically one much,
+much larger company,
+play stay massive order.
+Yeah.
+As we've seen this time again,
+where an Apple or Sony,
+or some consumer or Samsung,
+will pick a part for a new product,
+picked to me out in 12 months,
+and the supply globally disappears.
+Okay. So you're feeling the AI data center built out.
+So in your supply chain.
+Yes.
+And so my, our supply chain leader was like,
+this is getting crazy.
+And I was like, well, who are we using it?
+Go, you send us.
+And so look at their stock.
+And I'm like, oh, I could be buying it.
+I saw them.
+See if I was like,
+if I was like, if I was like, if I was like,
+if I was like, they're priced to go up three X.
+It means that like a lot of people are buying a lot of products.
+Yeah.
+Now, of course, the stock's up like 1200%.
+Mm-hmm.
+And I feel like an idiot for not like following that conviction.
+But no, yeah.
+I mean, our, our bomb.
+Now, luckily, it's a small part of our bomb.
+Yeah.
+But like, we have a full team of people who all they do
+is mitigate global supply chain risk.
+Because parts just disappear.
+Okay.
+Just getting the products into the hands of customers as already
+backed is not trivial.
+So what we wanted to do in which I think a lot of companies do.
+I'm not sure for special, but it's just like, you know,
+think about this is, you know, when we look at a bomb of a product,
+we'll risk purchase.
+Not necessarily the whole thing.
+Yeah.
+But the cheapest highest risk thing.
+It's like we should have bought.
+And we did, we bought a ton of memory.
+So that we didn't run out because we can't.
+But I would suggest, you know,
+often these supply chain crunches come on
+the leading edge where, you know, everyone's fighting over.
+TSMC, you know, three nanometer nodes production
+capability.
+But, you know, the auto chips as, you know,
+much larger gate sizes are not,
+or large nodes are not as content.
+And I would have thought that you guys are not using
+tipty top end cameras and lenses and memories and things like
+fast.
+But that's not fancy.
+That's like capacitors.
+And the point of view is like, let's say, let's say,
+we ship, you know, 100,000 units.
+That's tiny.
+And so all it takes is, you know,
+if we need this capacitor from Texas instruments,
+all it takes to Apple saying, well, the iPhone 27 is
+and have that capacitor.
+And Apple's like, cool.
+We'll buy everything for the next three years.
+And then we go, oh, crap.
+We've got to completely.
+But I'm just about to use it.
+You're competing with Apple for components.
+Like I would have thought,
+that's faster than your capacity.
+Yeah.
+Yeah.
+Faster as a capacitor.
+But so it's actually,
+no the capacity won't have to have a supply chain to buy it.
+You have to have enough inventory within a fleet time.
+Like it is,
+yeah.
+And so what you want to do is like early on,
+your designs are very simple.
+You buy everything from, you know,
+add a fruit or whatever.
+You buy everything like from easy places where you can buy 50
+to time.
+Yeah.
+When you move to like tens of thousands at a time.
+Yeah.
+You start having to have designs that have four different
+different derivatives for every part.
+So that your supply chain team doesn't have to call engineering,
+being like this parts out.
+They know like these pots are all sub ends.
+You're describing the scale of this economies of manufacturing,
+where it's easier to buy three of something than it is to buy 30,000.
+100%.
+And I never would have thought we would need like a team of people
+who all they do has been money for living,
+which by stuff.
+A lot's hard about operating the hardware.
+Like how do you keep the lenses clean on the cameras?
+And just how do you?
+I don't know together.
+It's like a,
+on the one hand, you know, we're some of the best weather forecasters.
+You know, if it's like we keep track of every major storm.
+Yes.
+It's like storm like we need to be back up.
+So we do like we have a pretty cool,
+we call it our flight team.
+And there are technicians that only fly.
+Yeah.
+It's like that big storm in New York in Boston.
+Like they were flying in to the storm.
+Like we had surge demand to fix stuff.
+To be on the side to when they got the wrong.
+Something is down.
+Go repair it.
+Everything.
+Everything.
+We have really good telemetry on the equipment.
+So if a customer calls something's gone.
+Yeah.
+Like we've really seen you know before the customer knows.
+And most of the maintenance at this point is fairly predictive.
+Like we know.
+This mechanical part malfunctions after between a hundred and two hundred thousand
+uses.
+So like if you're in the area,
+it's ironic that the largest cost structure in replacing equipment is the driving.
+Yeah.
+Yeah.
+Striving.
+And so like if we think compartment needs a replacement at six months.
+Yes.
+And we're nearby.
+Yeah.
+Yeah.
+Yeah.
+So that part's been like we had to build a software company, a hardware company.
+And a field services business.
+Do you have parts out where else?
+I would have thought the whole thing is fairly solid stage.
+We most of it's well drones obviously.
+Sure.
+But on the camera side, there's one part, which is the IR cut filter.
+So when we operate at night, we operate on infrared.
+And you need a different filter so that you don't have pink images.
+During the day.
+Yeah.
+So that literally changes twice a day.
+Oh.
+Like something mechanically put a lens over it.
+I see.
+And after a couple of dollars in uses.
+The one moving part.
+It is the one moving in it.
+Is the only part that breaks.
+I'm not just having two lenses.
+Uh, we two different images.
+There's two.
+Yeah.
+Bomb.
+Okay.
+No good.
+No good reason.
+Okay.
+No good reason.
+Okay.
+No good reason.
+Okay.
+Like I said, digs holes, drives bucket trucks.
+Yeah.
+Sure.
+Keeps track of all the kind of inventory.
+But if you look at it, you know, I didn't want to build that business.
+Yeah.
+But early on in the company, um, there is this horrific case in Atlanta, where women was just running
+and, you know, our version of, like, mission Dolores or pick your, like, nice park in the city.
+Random act of violence.
+Just cameras everywhere in the park.
+Yep.
+None of them working.
+And the city got blasted.
+Yeah.
+And they're like, well, but also like, do you really want our police department being in charge of, like, camera
+up time?
+Yeah.
+Yeah.
+That's like, that's the dumb idea.
+Yeah.
+We should, like, pay a company.
+Are you fired in this case?
+Yeah.
+So just like make sure the stuff always works.
+Yes.
+Um, so it's not the, you know, my favorite part of the business in that sense of, like,
+it's just, it's a lot of stress.
+It's very operationally intense.
+But I think it's valuable to our customers.
+Yeah.
+How do you think about the rice, um, enjoy by cameras in the park, you know, many movies,
+um, center on this idea of, um, universal surveillance, you know, in the, the born-it
+entity or something, you know, they've cameras on absolutely everything, or I guess the,
+what's the premise here?
+I think it's more the, um, the wall administration scene.
+And, um, same with lots of other things.
+Just, how do you create the right guard rails,
+once you move off roads and into parks and public spaces and kind of creating access controls
+around that?
+Yeah.
+Um, the cop audience here is like, I don't want to be in charge of deciding that.
+Uh-huh.
+Thankfully, we have elected officials who, we, yeah, vote to make that decision.
+Well, what do you think is sensible place for them to land is?
+I think it's way hard that we have now.
+Yeah.
+Like, I think that, for me, at least, for every crime that occurs, that doesn't get solved.
+Means we didn't have enough cameras.
+Um, right, that's, to me, the easiest rubric.
+Uh-huh.
+Now, I think to your, to your question though, the question of where they are.
+Who has access to them.
+Uh-huh.
+And I think it's one of the few cases where, you know, the disparity between, uh, maybe, my knowledge
+and your knowledge of how the technology works and how much official work is like, it's pretty big.
+Um, and like, their dreams of how it might work versus actually how it works.
+Like, it's much less sophisticated than they think or dream up.
+Uh, it's just a camera.
+Um, so for me, at least, we should have a bunch of cameras.
+And have an incredibly restrictive controls of how and when they're used.
+And the example I give you is like, today, everything in flock just, you can, you can generally do.
+There's, there's data retention where we protect, you know, how long something is stored.
+So for live video, it's typically seven days for LPR data, it's typically 30 days.
+You can go longer shorter, if a dimmer critically, it went to body, boats on it.
+But like, I would challenge why not do more cameras and have a warrant restriction.
+Like, why not do 30 days of LPR data.
+But if you have warrant, you have a year.
+Yeah.
+You mean less cameras.
+And so I do think there are some nuanced ways to do it.
+And you know, thankfully, we were really good at government affairs team,
+that is lobbying for that kind of legislation to say, like,
+there's a way for us to both be safe and maintain civil liberties.
+And it needs to be legislated, though.
+Yes.
+Like, I can't,
+those ideas are, are not in line with what my customers want.
+They went along for a few customers.
+They just want to go catch bad guys.
+They want to follow the constitution.
+Yeah.
+Catch bad guys.
+But that nuance in the middle of what is societally acceptable today,
+really belongs in your elected officials to make that decision.
+So as it can change.
+And so we push them to let's legislate this now before it becomes a problem.
+Where do you think has passed sense of the rules?
+Um, sensible.
+Um,
+I think Virginia's bill last year was pretty good.
+Um, it defined,
+it did a few things well.
+And one thing I don't agree with, what it did well is it defined,
+uh,
+a modest data retention period of 21 days.
+You know, it's fine.
+I like 30, but it's a motto.
+It's fine.
+It wasn't, I think the ACLU was lobbying for three minutes.
+So little tough.
+It has a hard to swallow.
+I, you know, seven, 14, 20, something days is like enough.
+There's a trade off there.
+Um,
+they mandated a formal auditing.
+Which I think is great enough of not enough of our customers.
+Audit themselves on a regular basis.
+We can build software to make that easier.
+But we need to be pushed to do that.
+It was like customers don't want it.
+And there's need to be told to do it.
+So I think that was good.
+Um,
+It also validated that this can only be used for criminal investigations.
+And I think that's really good.
+While that's, that's obvious.
+It's helpful to write it in law.
+I think the only thing that I disagree with is they did say,
+you know, effectively.
+There's no participation with the federal government.
+Hmm.
+I think that's just.
+It's their choice.
+Yeah.
+I get their choice.
+Yeah.
+Like that.
+That's the beauty of the country is like Virginia should do it.
+What feels right for Virginia.
+Yeah.
+But I worry about.
+The types of cases that you don't want to read about on the news.
+The tendency gets solved by the US Marshalls, the DEA, the ATF, the FBI.
+And like, they can't use our technology in Virginia.
+Um, which is, I guess I said, I live in Georgia.
+So thankfully, it doesn't really impact me.
+Yes.
+But as a business, I'm like, ah, I don't know if that's right.
+But I'm more than anything just happy they passed some legislation.
+Yeah.
+I'm New Mexico passed a similar bill this year.
+California has a similar ish bill.
+Hmm.
+Well, I think a couple of other states have, I think the worst type of bill is actually not,
+you know, whether it's 14 days or 30 days of citizenship.
+And to me, the worst bill is an unenforceable bill.
+Hmm.
+So you can imagine a bill that's like, this product cannot be used for
+a possession of marijuana.
+Like, how, who's going to enforce it?
+Yeah.
+And it's like, you might, it's not noble.
+You might believe that.
+Yeah.
+And that's great.
+But someone has to enforce this.
+And actually what's in habit is no, it's a new force of no.
+And that's, I think, like, really bad law.
+Yeah.
+I'm curious.
+What your view is on police department procurement.
+What do they do?
+What do they buy?
+Yeah.
+Not enough of what they buy too much of.
+I don't, they don't feel like they're swimming in, you know, procurement dollars.
+Uh, but yeah, I'm curious.
+Yeah.
+I mean, the thing they buy too much of is,
+and not to become marijuana, things that only matter in the point zero zero one percent case.
+Mm-hmm.
+So it's like, guys, why don't you choose to use, like, cell phones?
+Like, well, natural, is that?
+And it's like, got it.
+Okay.
+Like, how often, like, so you look at, like, a land mass radio contract,
+then it's in a cost of, like, San Francisco County, you know,
+$200 million dollars.
+Like, I mean, like, it's like that kind of money.
+Oh, like, on a TCV basis.
+Oh, yeah.
+Wow.
+I mean, I mean, I think, murals are really big company.
+Sure.
+Yeah.
+Yeah.
+I says, you don't get there.
+Uh, and you go, why get it?
+Like, if there's an earthquake and every single cell tower goes down,
+law enforcement definitely needs a way to communicate.
+And is that really the only way?
+Yeah.
+Like, could you guys just, like, have your own town?
+Like, there's got to be something.
+Yeah.
+But you look into it.
+Is this, uh, your margin is my opportunity situation for you guys.
+Yeah.
+Maybe because law enforcement's unique in this case in which, like,
+they really also like that they own the infrastructure, like,
+they own that bandwidth.
+Uh, and so they can do everything they want with it.
+Yeah.
+I don't even do anything interesting with it.
+But they can.
+Yeah.
+Versus if they're riding on, on Verizon or AT&T, they have no control.
+No, but why don't you guys just have the exact same product, like,
+and have a good radio in this spectrum?
+Probably should.
+Yeah.
+But we got it.
+That's my, you know, like, a VC in the board.
+I'll say, yeah.
+That's okay.
+You guys should do it.
+It's going to be a million dollar company.
+That's been a business for 130 years.
+Like, I mean, I guess you did it in payments.
+And it worked out pretty well.
+Um, yeah.
+So I think like, uh, that part I think is really, really kind of crazy.
+At least I can do business where I feel like I buy for my majority case.
+Yes. And I deal with the ramifications of the edge case.
+We're built around it.
+And they do that.
+Uh, I think procurement is exceptionally slow and exceptionally
+laborious.
+Everything goes to RFP.
+Yep.
+But the RFP's written for one vendor.
+So all that does is wanting, what,
+uptaking an extra year?
+Yep.
+Six months.
+That's like, that's.
+I get why RFP's exist.
+Yeah.
+But they're not actually RFPs.
+I've never seen an RFP that's not written for one vendor.
+Um, sure it exists somewhere.
+Yeah.
+I haven't seen it.
+Um, but what I think to do well is like one of the things that I think, uh,
+the government did figure out is,
+maybe you need to have an RFP for a 200 million R contract.
+We're about to 10,000 R contract.
+Great.
+So they do have spin levels where, you know, if you're a police chief,
+you can go spend $20,000 or $5,000 or $5,000.
+Like, not have to go through the entire process.
+But, you know, it's tough.
+Like, it's, I would now wish upon anyone selling to local government.
+It's more negatives and positives, you know, always.
+Um, yeah.
+And again, that's procurement process has evolved for a reason.
+Uh, you know, and to protect against certain other failing roads.
+But yeah.
+Well, if you think about it in business and like,
+I know you.
+Are you a stripe?
+I'm sure you have like six competitors.
+I don't know.
+But like, I know you.
+I'm sure you're like, by stripe.
+Mm-hmm.
+And then the business world is considered very normal.
+Yeah.
+Government world.
+That is called illegal.
+Yep.
+Which is really, it's, it's really interesting.
+Yeah.
+Like, what do we have?
+It's a mall for a reason.
+It's the rule of the written in blood.
+Um, oh, no.
+And in like, you have plenty of cases where it's, you know,
+it's, it's gone sideways.
+Yeah.
+But it is just interesting on the camera.
+For so many things that we take for granted is normal business practice
+are definitively illegal when procuring with government.
+How do you guys use Fed?
+Um, we have a lot of our customers will all,
+our, a lot of our private sector customers pay their via credit card or check.
+Yeah.
+Okay.
+A lot of checks.
+Okay.
+So for the, um, public sector stuff that will generally be via a torturous,
+you know, RFP process and PO and something like that.
+But for your private sector.
+And then, and then it, but even, I mean, when we don't want to be in the check,
+the positive business.
+You guys to use stripe for the check functionality because no,
+knows about our check functionality that stripe can accept checks for you.
+Am I allowed to talk about it?
+Hey, like I said, no, no.
+Because we're bad at marketing.
+I just, I was just like, oh, not because it's secret.
+Yeah.
+Yeah.
+No.
+It's like, we don't want to be in that business.
+Yeah.
+It's a kind of remote deposit box.
+Sure.
+Yeah.
+Yeah.
+Yeah.
+Yeah.
+We can give you an address that you can give to your customers and they can mail checks to us.
+And we will turn it into digital money.
+And the fact that's a bunch of atoms.
+And, you know, an envelope going through the postal system,
+we're involved.
+You can be, um, you can forget about those.
+Not a single customer of our sprays.
+We see each other check or credit card.
+We do a lot of checks.
+I'd buy say 80% on your percentage of checks.
+Maybe hire.
+You know, the few tech companies to mostly use stripe for checks.
+Uh, it's, you know, trying to talk the trend every day the week.
+Yeah.
+So that's really funny.
+I love that.
+Um, you were talking about police departments.
+Maybe being, um, over fixation on kind of the zero one percent.
+Yeah.
+Uh, zero point one percent cases.
+Does that apply to, you know, a common critique that you hear of police department
+recruitment is the sort of militarization of police departments.
+And, you know, what we really need is a bear cast, you know, for this
+couple of 20.
+That's really good.
+Which is like an armored personnel carrier.
+Oh, yeah.
+And it's like a million dollar vehicle.
+And it's like, why couldn't we just get an F-150?
+Yeah.
+So do you think that applies also to kind of the shiny stuff?
+Oh, yeah.
+I mean, you look at like early on when we were building the company.
+They would, we'd get a question of like, open it.
+Can it track?
+Can your license plate reader work on a car going 175 miles a hour?
+There was like, probably not.
+I've never driven that fast.
+And have to rent a runway to go like test this.
+Yes.
+They're like, it's really important.
+Really?
+Like how often does it happen?
+They're like in a high speed pursuit.
+People drive very fast.
+So they're like in high speeds, you know where they are.
+Like we were criticized and had to build a product.
+Like until we got to like 1-21-50, it was a major blocker to sales.
+Really?
+And it's like, we built a camera that, I mean, we tested it on roads that we drove on.
+So we'd get up to like 80 or 90 and we're fine.
+But we had to eventually, we rented a, like, you know,
+an amateur racing track.
+Yes.
+And just drove around in circles in 120 miles.
+And we had, we emailed the employees and we're like, who owns a car that goes really fast?
+And that was actually going to put him as a lot of people.
+That's like, like, car to use.
+We had, we had some like, there's some fast cars.
+Putting it Tesla's, Rivian's, some other nicer cars.
+Yeah.
+It drives really fast.
+And like that was like a fun day.
+Because if the camera's up and like,
+But the camera's work out of the box.
+Or did you have to do that on the performance?
+Yeah.
+Okay.
+So it just worked.
+No, the only place where we had to make one modification which kind of
+we deploy or radar.
+So on really busy roads where our angle of incident is particularly tight.
+I like, we can't shoot super far down into shooting a sharp angle.
+Yeah.
+And we have a radar attachment that we tilt backwards to notify, like,
+the cars on the way, like, get ready, which helps.
+But I think I'm very, like, far edge case.
+But the camera doesn't actually prime the camera.
+Essentially.
+Yes.
+To get ready for a car coming.
+Huh.
+And sorry.
+It's an offline.
+Oh.
+It's a vehicle.
+I see.
+So you booted it up.
+And that's a power saving measure.
+Yeah.
+Okay.
+The most expensive thing we do is, like, take a picture.
+Yeah.
+The second one is something we do is send stuff to the cloud.
+Third is just, like, being a computer turned on.
+Yep.
+And so it's similar to your iPhone, you know, turning your screen off.
+Okay.
+So we added the button.
+You could take a photo right away.
+The continuously running radar is very low power.
+That's negligible.
+I see.
+Yeah.
+That's cool.
+Yeah.
+That's a fun one.
+We were talking about how hardware previously, but, um,
+Plus, that's putting your own drones being like.
+A lot of fun.
+Sounds fun.
+No.
+It's fun.
+It's like, you know, I've, I've kids in a, you've,
+kid.
+It's a really fun to build a product that your kids understand.
+Yeah.
+It's like, we, we drive around Atlanta.
+And my son will count the cameras from my home to school.
+You know, where we're going, like, the airport or we'll go into the park and, like,
+I love that he can actually, like, understand what that does.
+Yes.
+Uh, I'm not sure if he's taught your son.
+Like, I'm screwed on this.
+Yeah.
+Yeah.
+Yeah.
+We processed the world's payments.
+Um, and so when you show him a drone, he's like, oh, this is so cool.
+And he has, like, a little miniature drone.
+Also, you didn't only do drones, but you did drones to catch bad guys.
+Yeah.
+Yeah.
+That's a very, very easy.
+Yeah.
+You know, like, he'll watch Paw Patrol and be like, that's what dad knows.
+Like, that's the, that's the, that's the helicopter.
+But we don't put any people in it.
+Um, but I think what's been fun is we made a, uh, hypothesis that, you know,
+if you studied, um, planes.
+I think the most interesting plane military-wise is the Warhog.
+It was where it was traditionally, you built a plane, you know, like, everything.
+Yeah.
+Like, what do we, what do we, what kind of business can we add?
+And they're like, let's design the best missile.
+It's a very precise, very big.
+And then we'll figure out a fly it.
+And so our, our, our thesis was, well, we're really good at cameras.
+A drone is really just a camera that flies.
+Let's build the best payload and then figure out a fly it.
+So if I, if I showed you, I can show you the payload in the next time you're in the,
+uh, or we could fly one out here.
+It's like the coolest camera ever.
+It's huge.
+It's like this big.
+Um, and it's got, you know, four different, uh, four different image sensors.
+Maybe six, uh, different optical lenses.
+Like, we can do, we can read a license plate almost a mile away.
+Like, crazy specs, great thermal.
+Then we're going to get to fly.
+Um, so like, I don't know, I was a much more engineer.
+When my co-founder is a mechanical engineer.
+It's fun to build things that fly.
+So it's like, we've payload, we have this airframes, we have not a
+Cognitive engineers now.
+Like, it's been fun to grow the engineering team.
+Yes.
+Um, an imaging team.
+You think about the dock that it lives in.
+It's effectively a commercial grade H.
+Fact system.
+Like, the drone lands and needs to be cold.
+It needs to be hot.
+Yeah.
+Best of charge.
+If you know anything about lithium ion, lithium ion doesn't like to be too hot
+or too cold.
+You've got to keep that well conditioned.
+It's like, huge compressor.
+It's a massive thing that opens and closes.
+And if it's snowing, if it's froze, like, all of these engineering problems.
+Yes.
+Um, and that's like, that's the fun part of this.
+Yeah.
+Yes.
+Everything else is, you know, selling this good back.
+Building stuff's fun.
+How many drones do you have out there in the run?
+But we don't, we don't.
+Okay.
+But decent number.
+Yeah.
+I know.
+It's it's hundreds of cities that are flying.
+Our flying drones.
+Yeah.
+It's funny.
+The 18-Worth Hog, you're reminding me of the, uh, the Boyd book, which, uh, my rather
+Koram, which, uh, only read recently, but it's like one of those kind of silicon valley
+can.
+And everyone talks about, and everyone talks about him, uh, in the context of his
+Uda loop, you know, orient something, decide act.
+Yeah.
+Um, boss.
+That's actually kind of overrated.
+Uh, and actually the main reason boy is interesting is helping the pentagon
+procure better planes.
+I'm just reminded that with the Warthog and also, you know, your description.
+Yeah.
+It's around 170 miles an hour.
+Because basically he came into a pentagon that had a bunch of bad planes, because all
+the generals were just obsessed with specs.
+Yeah.
+And they wanted, you know, a high top speed.
+And like they really judge planes on specs.
+And, um, actually, you know, the, the fighter pilot joke is that they're only
+to throttle settings in a dogfight, uh, you know, maximum full military power or throttle
+cycle, uh, like there's the only situation that energy states that you're in.
+And what matters is maneuverability and the ability to add energy or lose energy quickly.
+So anyway, he was involved in basically all of the good planes.
+Yeah.
+That were produced, including the A10 Warthog, because he got them out of the mine set of
+just amazing feeds.
+Yeah.
+Well, that's, like, for us, the respect we track is, like, time on scene.
+Yeah.
+And so one of the reasons why we care so much of payload is, like, if you have a
+payload that can see really far away, you don't have to fly there.
+So actually, you get their faster virtually.
+Yeah.
+Which is what, like, if this was a drone that was carrying a payload, like, as a blind
+or something else, like, actually physically in their matters.
+But for us, it's just about time on virtual scene.
+Yes.
+So that's what we measure ourselves to.
+So that's why we fly high.
+It's like, physics allows you to see farther.
+Yeah.
+That's why we have the future payloads.
+You don't have to actually fly there.
+And then you don't have to fly as fast, which means you can sort of
+battery life, which means you're in the air longer.
+Like, all these designs were around.
+Yes.
+That use case versus, like, you know, I'm sure this was a plane went through
+and a whole separate use case of, like, what's the max payload or
+that kind of stuff.
+So how many drones does a city decides to set for this good need?
+12.
+Okay.
+So it's a very small number.
+No.
+It was me, our average drone can cover a 30 square mile radius
+and get there within under a minute.
+And thankfully, in a knock-on wood, like, direction or
+that.
+Many 911 calls that merit, our response.
+Yeah.
+So we look at it both ways.
+We look at it in terms of geography.
+And then 911 density.
+So in, you know, more role parts, you need less drones,
+as well as call for service.
+And then in more dense urban areas, you need more drones, mostly from a volume of service.
+Yeah.
+But even in our most dense customers, like, it's pretty rare that they fly
+to drones at once.
+Yeah.
+It happens.
+But it's like, I think our busiest drone is being flown, you know, 90 hours a week.
+Yeah.
+Now, it's like, that's a lot of flight time.
+And it's hard to dispatch the drone when it's needed from a charging dock.
+Or it's the idea that it's out there flying already in New Justice.
+Yeah.
+But it lives in the dock.
+Yeah.
+There is some debate of whether a drone should be in the air at all times.
+Does that actually save you meaningful time?
+Being in the air?
+Yeah.
+I would save a lot of time.
+Already?
+Yeah.
+But like, you look at the carpenter case in Baltimore.
+And they had a airplane with a very powerful camera 24 hours a day.
+And that was deemed like an unwarranted search.
+And something you got killed.
+And so we're very conscious.
+Like, we have a, you, other part of our business that is interesting.
+No, it scales.
+Like, we have a full team of constitutional attorneys.
+Yeah.
+And I'm sure you have like a regulatory team that we want to build something.
+They're like, let's check it before we ship.
+Yes.
+We have a constitutional team.
+It's like cool idea.
+Let's actually make sure this doesn't violate the constitution.
+Look up the fourth amendment here.
+Really.
+Yeah.
+Let's just like double check this thing.
+And so when you look at the drone, like, we believe.
+And there hasn't this been tested in court.
+But these are more people.
+They're like, look.
+You just, it's unclear how that would end in court.
+Yeah.
+But if you call 911, there is a reason to fly the drone.
+Uh, if there is a gunshot, if there is a gunshot detection, if there is a stolen
+car like that is a reason to dispatch versus just like flying around looking for stuff.
+It's not, it's not a unconstitutional, but we would not push that as a use case.
+It's like a lot of this, um, president, you know, as new technologies come along.
+You know, people are reasoned by analogy of like, you know,
+as some, some plot like your house, but somewhat different, you know, whatever.
+Like isn't a drone flying around just like, uh,
+at least cruiser on its patrol.
+So the, uh, and I learned attorneys.
+Yeah.
+It has never stopped.
+Yeah.
+The other analogy that would be the butterfly effect, which is like,
+when things are much, much cheaper, much, much easier, uh,
+historical president gets thrown away.
+And so take the helicopter example.
+You could say, oh, well, helicopters fly sometimes.
+Yeah, but helicopters are so expensive.
+It's not practical.
+Yeah.
+Yeah.
+To have 24, seven, you know, aerial coverage with a drone,
+Sun, a practical.
+Yeah.
+It's the same reason why like when we launch our drone,
+we want to go from like the launch location to the, you know,
+the in location, the cameras point the horizon the whole time.
+We don't want to look in your backyard.
+Um, that's like, I feel really strong.
+And that's not a law.
+That's just like our point of view of where the law should be.
+Yes.
+It will build the product for that.
+Yeah.
+And then it look, if the operator wants to tilt down, that's,
+you know, it's not a control, but as a default.
+We're fine.
+It's very interesting.
+Last question, you know,
+so you guys have grown with cameras out there.
+Uh, in cities, now getting into drones at building the software,
+OS to help law enforcement agencies and others kind of synthesize all the
+information they have.
+Just what comes next, what future product ideas.
+Yeah.
+Yeah.
+So I think about it.
+Um, we talked about this earlier.
+Failure for flock is prison population goes up.
+Essentially, like, really bad.
+Um, and we look at, you know, the products today are very much focused in the middle of a crime.
+The crime is already happened and therefore we should solve it.
+And that's really good.
+And I think we're, probably not done, but we've, we've got a lot of work in that category.
+I get pretty interested in expanding that.
+In going, well, what about, what can we be doing from a product perspective
+to prevent crime from happening?
+Um, and that actually doesn't necessarily look like software.
+It's like one of the interesting things that we started last year.
+So we call our thriving cities fund.
+It's probably in an analogy somewhere to your, like, strike press,
+you know, which is like, it's never going to be the core of your business.
+But like, you feel really good that it's a part of your business.
+And so when we go in places like Greenville, Mississippi,
+we also commit to deploy capital as, as gross partners to those businesses.
+Because if we want to convince that 16 year old to not be criminal,
+there does need to be jobs.
+Jobs like a 16 year old can get.
+And so we deploy capital in, you know, restaurants, nail salons,
+like pick your business that you can be 16 or work out easily.
+And like, we want more of this to exist.
+In the cities that also choose to be safe.
+I don't want to go to a deploy capital place that doesn't want to be safe.
+Yeah.
+So I'm like, I want to do more, they are.
+And then I think to our conversation on the, on the other half,
+you know, the majority of the crime we solve is not violent.
+It's not violent.
+And then today, the, the discrepancy for a juvenile non juvenile,
+how you still wind up in some type of, kind of centering or prison system.
+I think that's crazy.
+Like all the data shows as soon as you wind up in prison,
+you're going to get violent and you're going to come back.
+And so I would articulate there is an opportunity.
+Don't know yet what it is to say a whole, a whole, a whole, a whole, a whole.
+If this was an opportunity, a particular criminal,
+is there a product with a capital fee?
+Because it might not be software.
+It might be hardware software.
+I don't know.
+That allows that person to have a second chance.
+And in a way that is not going to increase their likelihood of doing it again.
+Like that's bad.
+But like, prison can't be the answer.
+Like it just doesn't work.
+And the whole concept of prison will never work.
+Like, and there are some incredibly well-run prisons with really well-intentioned
+warms doing the best of their ability.
+But the concept of putting a bunch of violent people together is,
+like, by default, flawed.
+And so I question, like, what could flock be doing to say,
+I'm going to prevent kids from becoming criminals?
+And if you do one of them that path,
+how do I get you back on track as fast as possible?
+And we're a for-profit business.
+So I'm not looking to be a nonprofit.
+But I think there is something there.
+I mean, talking about millions and millions of people who really need.
+Like, it's actually as a society.
+In our best interest to get them back in and productive.
+And I want to do both of those.
+So fewer crimes, fewer people in prisons.
+Yeah, that's the same goal.
+Thank you.
+Thank you.
+Thanks for listening to this episode of the A60Z podcast.
+If you liked this episode, be sure to like, comment,
+subscribe, leave us a rating, we're a view,
+and share with your friends and family.
+For more episodes, go to YouTube, Apple Podcast and Spotify.
+Follow us on X, A16Z, and subscribe to our sub-stack at A16Z.substack.com.
+Thanks again for listening, and I'll see you in the next episode.
+This information is for educational purposes only in
+not a recommendation to buy, hold, or sell any investment or financial product.
+This podcast has been produced by third party
+and may include pay promotional advertisements, other company references
+and individuals unafiliated with A16Z.
+Such advertisements, companies, and individuals
+are not endorsed by AH Capital Management LLC, A16Z, or any of its affiliates.
+Information is from sources deep reliable on the data publication,
+Bay16Z does not guarantee its accuracy.

@@ -799,6 +799,7 @@ def main():
         # Generate 2-week charts and price data for the website
         run_script("Generate Charts", "generate_charts.py", timeout=600)
         run_script("Auto-Curate Terms", "auto_curate_terms.py", timeout=60)
+        run_script("Extract Podcast Guests", "extract_guests.py", timeout=180)
 
         export_website()
 
