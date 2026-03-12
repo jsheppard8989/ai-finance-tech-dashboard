@@ -1,0 +1,1089 @@
+This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance,
+high-net worth individuals, family offices, and other sophisticated investors.
+Macrovoisers is all about the brightest minds in the world of finance and macroeconomics
+telling it like it is, bullish or bearish, no holds barred.
+Now, here are your hosts, Eric Townsend and Patrick Suresne.
+Macrovoisers episode 523 was produced on March 12th, 2026, I'm Eric Townsend.
+Bianco Research founder Jim Bianco returns his this week's feature interview guest, Jim and
+I will discuss everything from the geopolitical situation in Iran to oil prices to precious
+metals and much more.
+We got a lot of positive feedback on last week's advanced nuclear energy interview with
+alloatomic CEO Matt Loseck, but also a few criticisms.
+A few of you said that we should have been clearer about whether or not there was a present
+opportunity to invest in alloatomics and how to go about it.
+I'll revisit that after today's feature interview, but the much stronger criticism was
+that we picked a hell of a week to step away from macro and run a nuclear energy interview
+as war was literally breaking out in the Middle East.
+Macfokes are guest interviews are scheduled weeks in advance, so there's no way that we
+could have anticipated or coordinated the timing of the Iran conflict with last week's
+feature guest booking.
+But what we should have done last week is the same thing that we did on January 30th of 2020.
+When we dropped everything to bring in a second feature interview guest, Dr. Chris
+Martinson, who correctly called the COVID pandemic in that episode during a second guest interview.
+Sorry, folks.
+We didn't think of that last week, but we can definitely make up for it this week.
+So be sure to stay tuned after the feature interview with Jim Bianco for a second feature
+interview with none other than Dr. Onus Alhajji, who will break down why this conflict
+probably isn't over the way the market was interpreting the news flow as of Tuesday
+night, along with Dr. Onus' analysis of what still needs to be sorted out before the conflict
+and markets can return to normal.
+All of that's coming up on this week's podcast, but wait, it doesn't end there.
+Patrick's trade of the week will focus on hedging portfolio tail risks in these troubled
+times, and will have an announcement about another free portfolio hedging webinar from
+big picture trading.
+And then of course, we'll have our usual post-game chart deck.
+So make some popcorn for Jim Bianco's feature interview and put your seat belts on for Dr.
+Onus Alhajji's explanation of why it ate over until it's really over, and how it's
+maybe not quite over in terms of this oil situation.
+Then stay tuned for the post-game chart deck and market discussion.
+And I'm Patrick Sarasno with the macro scoreboard week over week as of the close of Wednesday,
+March 11th, 2021, the S&P 500 indexed down 137 basis points, training at 6775.
+The market is in the midst of a correction.
+The question is, how deep does it go?
+We will take a closer look at that chart and the key technical levels to watch in the post-game
+segment.
+The US dollar indexed up 24 basis points, training at 99 and a quarter, trading at the top
+of its range, begging the question, will it break out?
+The April WTI crude oil contract up 1686 basis points to 87 and a quarter.
+It almost hit $120 on the weekend news as volatility remains off the charts.
+The April Arbomb gasoline up 1116 basis points, trading at 279, prices at the pump up almost
+70% year to date.
+The April Gold contract up 88 basis points, trading at 5179, continues to consolidate after
+January high was put in.
+The May copper contract down 17 basis points to 589, the March Arbomb contract down 23 basis
+points, trading at 8570 and the US 10 year treasury yield up 12 basis points, trading at
+423, a material rise in yields as traders are nervous about rising inflation.
+The key news to watch this week is the core PCE price index on Friday and next week
+we have the PPI inflation numbers and the FOMC, Bank of Japan and ECB policy statements
+and conferences.
+This week's feature in MU guest is Bianco Research founder, Jim Bianco, Eric and Jim discussed
+the financial market implications of the Iran conflict.
+The risk that higher oil prices could keep inflation elevated, the role of stable coins
+in the global dollar system and how rapid advances in a genic AI could reshape productivity,
+energy demand and the future of work.
+Then stay tuned for our special follow-up appearance by energy expert Annas Ahaji, who
+joins Eric later in the program to break down the latest developments in the oil markets
+and what the crisis in the state of Hormuz could mean for global energy supply and prices.
+Eric's interview with Jim Bianco is coming up as macro voices continues right here at macrovoices.com.
+Joining me now is Bianco Research founder Jim Bianco Jim, no shortage of things to talk
+about this week.
+Let's discuss the Iran conflict.
+What it means, what comes next, how are you looking at this?
+Being that we are financially oriented in that's our real interest is we have to look at
+this from a financial standpoint.
+What does that mean for financial markets and potentially the economy, global economy,
+general?
+Obviously the answer is what is it being for the price of crude oil and in the immediate
+short term, we've got a problem in that the crude oil is not moving.
+Cude oil is kind of like the circulatory system of the world, it gets pumped, it gets
+put in the storage, it gets put on the tankers, it gets sent to refineries and the system
+constantly has to be moving.
+Right now we have a big blockage and the blockages in the state of Hormuz.
+The good news is we have not really done any damage to the system, not that I've seen
+in terms of stories, you know, we haven't blown up a bunch of infrastructure or pipelines
+or wells or ports or anything that would cause an extended period of time to repair it.
+We've got a bunch of ships sitting around waiting for the ability to go through the
+straight and keep that circulatory system moving.
+So the hope is that this is a short term problem, short term being two to three months.
+You're a couple of weeks to get this resolved and then six weeks to two months to maybe
+get that circulatory system moving.
+The concern is the longer this goes, the more we keep lobbying missiles at them and they
+keep lobbying missiles at us or their neighbors, the higher the probability that
+they're going to break something that will take an significant period of time to fix and that
+will create a bigger problem for the energy markets.
+So for right now, the hope in the energy markets and I share that hope for right now is
+while we're doing as we're waiting for the straight to get open so we could start moving
+that moving the crude oil again, you know, we haven't sunk any of these ships or anything
+but the concern is the longer this goes in the middle of a kinetic war, the longer it goes,
+the higher the risk is we break something.
+Let's talk about what the impacts are, if something does get broken and it delays the ability
+to deliver crude oil, it seems to me like obviously there's a cost to the economy,
+which is the most immediate effect of all the sudden energy costs much more and it's crippling
+on the productive economy. But I think there's a lot of not gone effects, the first to biggest
+one in my mind is the inflation wave that that creates, inflation tends to be self-reinforcing
+so you get the potential that you started a fire you can't put out and then there's probably
+several other feedback loops. So when you think about what if they do break something that results
+in even after the the piece has been made, it's going to take a long time to fix those broken
+things before we get the oil delivery system back to normal. What are the knock-on effects that
+you see financially? So first of all, I'll measure the knock-on effects in a very market-oriented
+way. If you look at the forward curve in the credit oil futures market, it is in record
+backwardation by Sunday night on March 8th, it hit minus 25 percent, meaning that the six
+month out, the September futures for WTI was 25 percent lower in price than the April futures,
+which is the current contract and that is the most extreme that it's ever been right now. So
+one way you can look at that is that the market is still pricing and hoping that this is going to
+be a short-term thing. So if we break something of significance, how do we know it? I think you would
+see that backwardation start to narrow a lot because those deferred contracts would start to rally
+to meet where the spot contract is. But you're right, if that were to happen, you're probably
+going to see more inflation. Now, all things being equal, we've been doing a little back in the
+envelope calculation with the price of gasoline in the United States in the last eight days,
+the war, the day we're recording March 10th is the 10th day. So we've got nine days worth of data,
+price of gasoline is up 18 percent or 55 cents. All things being equal, that's probably
+going to give you a March CPI report of around six tenths or seven tenths. That is probably
+going to push you over your inflation over three percent for March. Now, every economist will say,
+oh, but that's temporary. That's just a inflation thing. Correct. Unless, of course, those deferred
+contracts and rally the backwardization narrows and then you could start talking about April being
+elevated. You could start talking about maybe elevated as well. I don't think this is going to
+produce big inflation, like 7.89 percent inflation, but what it can do, at least in the very short-term
+of the next three to six months, if not longer, is keep the inflation rate around three percent
+if not above three percent higher if the crude oil situation worsens. I've been arguing that the
+Fed cannot cut rates if that's the inflation rate. We have gotten used to and we are still used to
+that 2010 to 2020 period. We're no matter what the Fed did, they couldn't get or we're no matter
+what the economic circumstances were. The inflation rate never got above two percent. In fact,
+it averaged around 1.6 during the 2010 to 2020 period. So, at any wobble in the economy,
+print money, cut rates to zero, print more money. And that mantra remains to this day that whenever
+markets or economies wobble, print print, you can't do that if we've got inflation. Because
+if you print what you're trying to say is the economy's wobbling, financial markets are
+under stress, we need to create easier financial conditions by cutting interest rates or
+expanding the Fed's balance sheet. But in this environment, if you do that, then you're saying the
+bond traders, we don't care about your real returns. You have a fixed income investment and we're
+willing to risk inflation going up, even though your investment's fixed income, you should sell
+bonds right now. And so, if they were to try and be easy in this type of environment, you could wind
+up with higher interest rates and actually making things worse, making it actually tighter. So,
+one of the things about the higher inflation is it takes the Fed off the table, even if we get
+worsening employment numbers, even if markets start to wobble a lot more. Because the reaction would
+be, oh, markets are in trouble or the economy's weakening. We have to cut, yes, and then if 10-year
+note traders run away from the 10-year note and those rates start soaring, you've made things worse.
+They're going to want some maturances that they're not going to lose money because inflation's
+going to go up. So, that's where I think the nuance is going to come in. This is not the 2010 to 2020
+period. And if we have enough inflation now because of the rising crude oil that we've seen in the
+rising gasoline, we've seen now to keep the inflation rate above three, the Fed is just off the table.
+They just cannot step in and start cutting rates under that environment.
+Jim, at the risk of nitpicking semantics, I want to come back to your language around saying the
+Fed cannot cut rates. I think you just made an extremely good argument for why they should not
+cut rates. Are you really convinced that they won't? Oh, yeah, I guess you write that in a
+semantic argument, I would argue they should not because the risk is they make it worse.
+That's what I meant by cannot is that they need to be very, very careful. Now, obviously, if things were
+to deteriorate to the point where you could argue that they would overwhelm
+whatever higher inflation you would get that the economy would be so weak that even with higher
+energy prices, it would offset that. You could then see the Fed cutting rates. But we're talking
+about like almost like a rerun of 2008, there are 2020 in that type of the scenario. And as we're
+talking now, the stock market isn't even 5% off of it's all time high. So we're nowhere near
+that type of scenario. But you're right, I should have said they really should not because the
+risk is that in the attempt to try and make easier financial conditions by cutting rates,
+they spoke bond traders that they're not acting in their best interest, they sell rates go up and
+you actually wind up making tighter financial conditions and you wind up making it worse.
+Jim, let's take that a little bit further and talk about the next step with
+worst taking office is Fed share. You'll have to refresh our memory on exactly what date that
+becomes effective. It seems like we don't have a really clear signal. A lot of people thought
+he was more hawkish, but then again, it seems like he's extremely loyal to Trump. He's going to
+give Trump whatever he needs. I agree with you and what you said about the reasons the Fed
+should not cut here. I don't think President Trump got the memo on that and if worse is going to
+do whatever Trump wants and I'm not sure if that's the case, it seems like there's a potential
+that the Fed does cut. Am I missing something? No, you're never seeing anything at all. Just as a
+quick aside, I'll remind everybody that Donald Trump is a real estate guy and I've yet to meet a
+real estate guy who has not met an interest rate that he doesn't think should go lower. So I'm
+not surprised that at every turn he just keeps demanding lower and lower interest rates
+because every real estate guy does that. Now as far as Kevin Warsh goes, you're right, the problem
+we face right now is we're all saying he's hawkish and why do we say he's hawkish? Because we're
+going back and looking at what he was saying and writing back when he was a Federal Reserve Governor
+during the financial crisis. I hate the data solve but that was 20 years ago, 19 years ago,
+at this point and we don't really know where his thinking is currently because in the last eight
+months he's only given two public appearances and he was kind of vague on where he stands on this.
+Now hopefully when they do get his confirmation hearing scheduled he'll have an opportunity
+to explain his thinking a little bit more fully and as far as the date goes,
+it's May 15th is the last day for Jay Powell. So all things being equal, Kevin Warsh would be the
+chairman at the June meeting so that would mean the next two meetings, the March 18th meeting and
+the early May meeting will be Jay Powell will proceed over those so he's got two meetings left
+and then we'll have Kevin Warsh unless there's a snag in his confirmation hearings in any way.
+The bigger issue I think he's going to face other than, you know, he will articulate a comment
+or a view I assume that will say that we should be cutting interest rates is that the Federal
+Reserve has been changing its stripes. The individual members of the Fed have been really talking
+a lot more independence than they've ever been and they've really been acting more independent.
+We've seen way more descents in the last three or four meetings than we probably saw in the last five
+years combined and I don't think that's a fluke and I think that's going to continue so much
+that I've argued that Fed watching is no longer about parsing the individual words of what the
+chairman says but it's really about listening to all the voters and putting them in the
+cut, hold, or hike column and asking the question which one has seven votes and whichever one
+has seven votes that's what the Fed's going to do and as of right now as I look at the Fed's
+speech broken down of the 12 voters fully 10 of them have made hawkish comments. I mean,
+basically Steven Merin is made, you know, he's still pretty dovish and you might
+argue Chris Waller is kind of on the fence but the rest of them are pretty hawkish. So given all
+of that, if we had a Kevin Warsh's Fed chairman right now and he said, look, we have to cut rates.
+I would just turn around and say, where are the other six votes you're going to get to
+approve that rate cut because if they're going to vote the way they're talking and I assume they will,
+I don't see where those votes are coming from. So I think that's going to be the next big thing
+we're going to see when we get this new Fed chairman is how much of it is really going to be
+about parsing his words and how much of it's going to be really just about votally and just trying
+to figure out where all the votes are coming from. Let's talk about the broader economy and where
+the market was headed before this whole oil shock happened even before the decision was made to go
+ahead and have an attack on Iran. It kind of felt like the market was rolling over and, you know,
+maybe we're heading into a soft patch here. We've just tested the 200 day moving average at least
+very briefly in the overnight session on the SNP. Is it over? Is it an all clear or are we really
+just kind of back to where we were of wondering if it's time for this market to run out of steam?
+I think when it comes to the economy that there's really an issue that is difficult for a lot of
+economists and a lot of other people to really get their head around and that continues to be the
+story about labor supply. We got the February employment report back last week the week before
+we were recording and it came in at a stunning number of minus 90,000 jobs and yet the reaction in
+the market was very muted. You would have thought you would have saw interest rates plunge and you
+would have thought you would have saw maybe the stock market take it poorly and largely didn't
+now part of that might be because it was still wrapped up in paying attention to oil. But I do think
+that it really comes down to the other issue and that is what is the biggest driver of labor?
+Because labor is the most important aspect of any economy. How many people have jobs? How many
+people are going to be able to get a job? And the biggest aspect of labor I think comes to population growth
+and we have no population growth because of the slow of what's happening at the border and there's
+arguments to be made that the number of jobs that the U.S. economy needs to create is somewhere around
+zero to 50,000 probably with an average closer to 15 to 25,000 jobs a month. That's all the U.S.
+economy needs to create right now. It's not 150,000 like it used to be a couple of years ago and again
+that's because if you don't have population growth driven by immigration the number of 15 to 64
+year olds or 16 to 64 year olds excuse me that's the working age population is in growing and if
+that's not growing you don't need to create a number of jobs. That's why I think we also have this
+other instance where if you go back to the summer of 2024 the U.S. economy on a 12 month average
+basis was creating about 150,000 jobs a month in the year-ending July 2024. In the year-ending
+in February of 2026 that fallen from 150 to 9,000 but the unemployment rate hardly moved it was a
+4.2% in July of 2024 it's 4.4% in February of 2026 up to 10s while we lost all that job growth.
+Now why isn't it higher because we don't need that many jobs is really where I think it is and that
+really gets to the other issue too is that if we don't need that many jobs and none other than Jay Powell
+talked about this at his last press conference maybe it's these very low numbers that we're seeing
+with employment we're still in balance and if we are still in balance the risk you face is that
+if you overreact to these supposedly weak numbers and cut rates too much again that could be
+perceived as overstimulating when the economy doesn't need it. So I do think that when you look
+at the market I don't think it's necessarily looking like it's going to roll over on the idea
+that the economy is weakening because I think that the numbers have so fundamentally changed here
+right now and it's a, admittedly it's a hard thing to get your head around because
+when you say that the population growth is down then people ask can you be more precise in the
+answer is not really because demographers have never been structured to give us high frequency
+updates and the population of the United States because they've never had to you know and so what
+about labor force participation those numbers are constantly revised but we do know that the
+population growth has come from immigration because of the low fertility rate and we do know that
+immigration is most likely negative right now you know more people leaving the country than entering
+the country as we're recording on Tuesday afternoon we're looking about 5200 on the gold price
+something I reported last week on macro voices is feels like there's been a change in the reaction
+of gold to geopolitics well we had last Monday we had a situation where bombs are dropping oil is
+going straight up and gold was down literally 400 dollars over the course of just 10 hours we saw
+kind of the same thing on the Sunday futures open where it was just a moonshot on on oil prices
+in reaction to escalation over the weekend in the straight up for a move and so forth and obviously
+oil is the direct affected commodity but you didn't see the expected gold up with oil it was
+actually gold down feels like somebody is either selling gold to raise money to cover their losses
+on something else or selling into strength or something it feels like there's been a disturbance in
+the forest with respect to precious metals what do you think is going on you know sometimes the
+easiest answer might be the best answer is that first of all golden silver as we know from early
+February had that massive reversal and while they haven't followed through on the downside
+their upward momentum is stalled so you've got a lot of people that have a lot of unrealized
+gains in those and when you look at markets wobbling and you wonder if people need to sell something
+there's the old adage on Wall Street you sell what you can now what you want and what you can sell
+is the thing that has big unrealized gains and no momentum so whether it's to meet a margin call
+or perceived margin call like Sunday night when futures S&P futures were down 2 and a half percent
+at their worst point or an oil because of the big web sauce we've seen in it you know somebody's
+going to hit hit with a margin call where they're going to get the money from they've got this
+other thing here we assume that they're holding that they've got a big unrealized gain and they
+can sell it so I think that there might be some of that going on with gold because you're right
+normally speaking all things being equal if you've got geopolitical stress the textbooks say
+gold and silver and precious metals are the place to go but they have definitely not been the
+place to go since February 28th because they have not been responding to this Jim that as you said
+was the old school adages precious metals of course the new age version of that would be crypto
+currency how is that fair since February 28th it's been more of the same I mean it's really
+struggled to do anything right now now it's very volatile you could say it's up five or six percent
+but in Bitcoin five or six percent it's kind of an average day so it hasn't really done anything
+to establish any kind of an uptrend as well but I also think that there also stuck in a different
+type of cycle as well too bit coin peak to the end of October to $126000 at its lows in February
+it was down 50 percent from that high so it is definitely broken momentum as well and I think the
+narrative behind Bitcoin has been changing right now the narrative used to be that institutions
+retail investors through wealth managers and everybody's going to buy it through these new products like
+the ETFs and they're all going to say kind of the old gold store remember if all the
+only anybody everybody only owned it five percent of their portfolio and gold it would go to the moon
+well that was kind of the argument that they were using what Bitcoin was and if everybody just bought
+three or five percent of their portfolio and Bitcoin it would go to the moon I think that narrative is
+over with right now now the potential for a new narrative is out there and I think the new narrative
+if that old narrative was permission that the regulators were giving you a permission with it
+that Wall Street was creating products to give you permission to own it the new
+narrative for it might be replacement instead of saying because I've seen a social media a lot of
+Bitcoin enthusiasts saying don't worry you know Larry Fink and BlackRock are talking about tokenizing
+every asset in the world and that'll be bullish for Bitcoin I was like why are you waiting for
+Larry Fink to do it why doesn't the Bitcoin development community do it instead of him so maybe
+the next narrative will be replacement instead of waiting for regulators to approve it
+waiting for Wall Street to create products for regular people to trade on it why don't you
+create an alternative system and say this is better than the old system let's go play on that
+game let's play it in this way Jim you told me off the air that you heard my interview recently
+with Michael every about stable coin state craft and that comes to mind with what you just said because
+talk about an asset to tokenize that's already been tokenized it's the US dollar what if
+Trump and Besson were to say to the whole world look don't worry about what your government is
+telling you the rules are in your country don't worry about what your banking system says in your
+country you can skirt the whole system and just buy US dollar stable coins on your cell phone
+regardless of of what your countries rules are and yeah you're backed by the US government that
+could potentially replace the petro dollar system with the stable coin system and shore up the US
+treasury market do you think that's a realistic scenario and would it play into what you just said
+about you know the market creating those tokenized assets without waiting for anybody oh I think
+that in that case that is a realistic scenario and in fact you can argue that that is already
+started to happen if you look at countries like Venezuela if Afghanistan even Iran and other
+hotspots around the world I'll take Venezuela as my example if you wanted to go and find out what
+is the black market rate for Venezuela and both are their currency the most credible source that
+I have found is Binance giving you a tether to both are rate in other words a stable coin a stable
+coin is really where they are that they operate and when you dig deeper you'll find out that in
+countries like Afghanistan and Iran to some degree in Venezuela definitely those are dollarized
+economies they are now trading in commerce in dollars but it's not stacks of $100 bills it's
+on their electronic wallets they're owning the dollar stable coin and they're trading it back and
+forth so in the respect that the dollar is going to get a leg up on remaining to be the reserve
+currency and that it's going to have a digital version of it in the crypto universe and a stable coin
+I think that's already happened now it's going to be a while before we see that come to say
+Europe or the United States because our financial system is more stable we don't go to bed every
+night worrying that our banks are going to fail and we don't go to bed every night worrying
+I'm talking about Europe the United States Japan that our currencies are going to get seriously
+devalued at least we don't yet or maybe I should say we don't now but so we don't really need it
+but in a lot of places around the world they do so I agree that's coming and I agree that
+to some degree it's already here now the second part of that is what Scott Basant is trying to argue
+is this will be hugely beneficial for lowering interest rates in the US because as trillions of
+dollars of stable coins are created they're going to have to be backed by US treasuries and that's
+going to create a demand for them the problem I have with that argument is where is that money coming
+from right now that money that would go into a stable into a dollar based stable coin was
+probably already into some degree in the financial system to begin with it was already backed by a
+dollar so if the argument is we need to pass the genius act and once we get the genius act passed
+that Americans are going to start opening up electronic wallets and they're going to be buying
+hundreds of billions of dollars worth of stable coins I understand that argument I just don't
+know whether or not a stable coin will be more attractive than a current bank account is at least not
+now but even if that's more to happen and they start buying hundreds of billions of dollars worth
+of stable coins where is that hundreds of billions of dollars coming from it's going to be coming
+out of the banking system that's already backed by a treasuries security and it's going to go into a
+new secure a new instrument a stable coin that's backed by treasuries security so it's purely a
+substitution effect is what you're going to get you're not going to get any really big net buying
+now you might get net buying out of places like Venezuela Afghanistan Iran because they're they're
+not backed by dollars and they put their money into a stable coin but they're not going to be enough
+to move the needle when you have a forty trillion dollar deficit it's really going to be the
+developer that's going to be able to move the needle but I just don't see where you're going to
+get that net new money but let's go back to the first part the fact that everybody is now using
+stable coins and they're using them through electronic wallets and they're using them in order
+to you know affect trade the dollar is maintaining its dominance as the reserve currency it's just
+that if you're looking at the traditional numbers of currency and circulation and how much trade is
+going on how much you're being held by the banks and reserves you're not going to see it you're
+going to start but you're seeing it at the margins where they need it the most in the countries that
+are most vulnerable and that's what people are doing is because remember that in even in the
+poorest countries in the world cell phone penetration smart phone penetration is still 80% even
+and you could pick the poorest countries in Africa 80% of the people have a cell phone and they
+could download an electronic wallet and they can hold a stable coin and that electronic wallet
+they can transfer to another phone and that's how commerce is being done and it's all backed by
+dollars. What do you think about the statecraft argument of it where
+beset and Trump intentionally basically tell the rest of the world look the model that we used to
+have where you guys thought your central bank was in charge of things like managing your own currency
+now we're in charge now we're going to just tell the entire world that the settlement currency for
+all international transactions is US dollar stable coins and we're going to bypass any monetary
+policy that other countries try to implement because we're calling the shots is that scenario
+something they would do intentionally. I think in fact that is the scenario that we're having now
+whether they're trying to intentionally do it it's very possible but the idea is they are giving
+you a frictionless version of the dollar that everybody can own and more importantly unlike the
+old system that you're that cannot be regulated by a different country so if you're in a ran
+and they want to say that you can't use dollars because the government will punish you if you
+use dollars in the old system yes it was hard to do right that you couldn't hold it in a
+regulated bank account in that country. If you wanted to use dollars you had to physically
+carry around money with you a sack of $100 bills and you were subject to crime somebody trying
+to steal from you but now you just walk around with a with a phone like every other person and they
+have no way to know whether or not you own that so they are providing a global standard to the
+rest of the world and they're saying to other countries if you run your financial system poorly
+or you try to develop your currency a lot we don't have to say a word your population is going
+to migrate to our currency the dollar through a stable coin and the federal reserve will become
+the world central bank by default whereas your central bank will then start to lose influence
+so I definitely think that that's effectively what's happening I'll assume that that's kind of what
+they don't mind happening but they haven't said it directly but that's in reality what we're
+getting. There's another topic where it feels to me like the Windsor changing
+gym and that's artificial intelligence I don't mean recent developments in AI although there
+have certainly been some of those what I'm talking about is the public sentiment and reaction to it
+until very recently was oh boy this is just the coolest thing ever it's going to you know enable
+so many things it's going to be great I'm hearing a lot more of the fears of you know it's taking
+our jobs it's putting us out of business what we're going to end up losing a lot of industries
+losing tens of thousands of jobs and it's going to make our electric bills triple because we're
+competing with AI data centers for electricity and there's not a lot of electricity to go around
+so you've got the public sentiment seems to be changing and meanwhile the military sentiment
+toward the AI developers if you look at the pissing contest that anthropic just had with or is
+still having with the US State Department it seems like we're kind of getting to a showdown where
+the US government is saying now look we're going to tell you what to do you don't get to decide
+what your technology gets used for what you want to sell it for you're going to sell it to us
+on our terms whether you like it or not it seems like things are heating up on both fronts where
+do you see this going yeah you're right there was a recent poll done that was put out in the last
+week or so asking people their favorability unfavorability of of certain topics and AI
+scored near the bottom of the list the very bottom of the list by the way was people's opinion about
+Iran so at least people like AI more than Iran that's all they've got really going for them
+at this point but not much more and of course as you point it out the real reason that AI's
+looked down so much is we've been told by the media it's a threat it's either a threat for our job
+or it's a threat for our electric bill that we you know that our our local utility is going to be
+we're going to be competing with the data center in order to pay for putting the lights on in our
+house right now and bear in mind that in some places and I'll give you the state of Wisconsin
+for his matter of fact state of Wisconsin has a lot of data centers in it very popular place to put
+the electrical consumption of data centers in the state of Wisconsin is larger than the six
+million people residents of Wisconsin now to keep this number in perspective about 60 or 70
+percent of all electrical usage in the United States is commercial and industrial and data centers
+are part of commercial and industrial but they're larger than residential units usage right now so
+that's part of the thing that gives people a lot of pause about AI now I have a little bit
+different view on it and you know just by background you know I've said this before I subscribe
+to the pro version of every data of every AI right now I kind of use all of them and I'm learning
+that they're not all the same it's not like switching from coke to Pepsi if you go from you know
+open AI to Claude with his in traffic they all have their strengths and they all have their
+weaknesses depending on which one you want to use but what has changed in the last 90 days that
+has really brought this on forward is what's called a Gentic AI. In other words we're all familiar
+with when a CHPT went to its free service in late 2022 it's called Generative AI that's prompt and
+response ask it a question get an answer it's Google search and steroids but what and Gentic AI
+AI agents is give the AI control of your computer tell it it has the ability to read your files change
+your files execute commands without you doing it so don't tell me how to do it just go do it
+and that has been the thing that has really opened up people's eyes why the software stocks have
+been struggling because the most obvious application is is in coding and in development right now
+the people have been using AI to basically as an assistant as opposed to just something you
+ask questions for and I do think that is going to be transformational now as far as jobs go I have
+a different view on it not necessarily a unique view but what is a job a job is a series of tasks you
+a number of things and put them all together and that's your job now some of those tasks
+tend to be kind of boring and tend to be repetitive and you don't want to do them they're
+usually around compliance accounting answering emails putting together slide decks updating
+Excel spreadsheet some kind of speaking from a financial point of view you know filling out expense
+reports and all that AI can be very helpful in all of that stuff in streamlining or
+automating a lot of those processes in order so you don't have to do them now that's going to
+free me up or anybody else up that uses AI to do more the higher end stuff collaboration,
+creativity, communication these are things that humans are clearly better at than AI
+if your argument is oh well if AI is going to do all this other stuff like answer some of my emails
+help you take the one-hour process of putting together my slide deck and make it five minutes
+filling up my expense reports automatically I can go home every day at one o'clock because
+I don't have to spend the other three hours and work doing that other stuff then your job's
+in trouble but if you say no I have three more hours to do more higher end stuff at my job then your
+job necessarily won't be as much in trouble but so I'm not of the opinion that it's necessarily
+something we should be afraid of but I understand why everybody is because they're only told you're
+going to lose your job and you're going to pay more in your electric bill and most people haven't
+yet fully recognized that this engente AI is here and they're saying for what for a Google search
+why am I going to lose my job over a Google search why am I going to have to pay more in
+electrical bills over a Google search and so I do think that this industry is moving so fast
+I'll give you one fun anecdote and somebody told me to do this with Claude on Claude if you
+asked AI right now how do I use you how do I use AI it will give you instructions and how to use it
+which are three months old which is not even the latest version so it's moving so fast to
+can't keep up with itself right now I couldn't agree more with that I use Claude and Chad
+JPT both extensively I agree with you that they're completely different and they're I hate to say
+they were personality but I don't know how else to describe it they're completely different tools
+with different characteristics there's something that nobody's talking about though which I think
+they should be which is we've heard one side of this argument which you just articulated perfectly
+and that is the argument in favor of AI is it in enables humans to do much more than they ever
+could have done before it means our economy could be much more productive because you can literally
+write and publish a book in a week or two using Claude that just wasn't possible previously you can
+do a lot of things the thing is the energy consumption side of it and it seems to me that the
+solution to this is if you change the rules and you told the tech companies look you guys are really
+good at innovating and doing things more quickly than a lot of other industries are the new rules
+are we're going to open a whole bunch of doors for you we're going to take a lot of barriers out of
+your way so you can have the growth and everything you want but it's a two for one not only do you
+have to build your own energy to support your data center but you have to build double the amount of
+energy that your data center needs and sell it back to the grid so that in the course of getting your AI
+running and doing everything you're doing you're supplying more energy to the rest of society not
+consuming net energy that we can't afford to spare if we unregulated a bunch of things so that
+Google was allowed to build power plants all over the countryside and could do things like work with
+acquiring an advanced nuclear company investing we just talked to all last week about mass produced
+entire nuclear power plants if the hyper scalars could buy into something like that and start
+building nuclear faster than electric utilities can do it because frankly the tech companies are
+pretty good at innovating technology and deploying it quickly I think you could see the AI industry
+supplying net energy to the rest of the world problem is you know there's protections in place
+that only utilities are allowed to build power plants and so forth I think we should re-architect this
+and open the door for high tech to build more than enough energy than it consumes what do you think of
+that idea I think not only do I agree with it I think that most of high tech is on board with that
+idea full scale that they would be more than happy what they're trying to do right but the rules don't
+right and the biggest problem with the rules is is that you now run into the environmental lobby
+and the environmental lobby is full scale against a lot of these rules because one of the things is you
+mentioned they're saying yes I'm ready to do that yes we actually will build energy sources to
+not only so power our data centers but over power our data centers so we could sell it back to the grid
+and they'll go you want step further the energy sources that we have don't produce any
+pollution you go well okay what is that energy source it's small nuclear reactors and that's when the
+you know the environmental groups then throw up the wall and go hold on a minute we're not building
+more nuclear reactors and they're like oh yes that is the answer the small nuclear reactors you
+know they're the size of like a two-car garage and they will produce tremendous amounts of energy
+and they exist their safety record is very good they'll try and demagogue them by
+that this is the environmental groups and saying that they're dangerous and that we shouldn't be
+using them but they but there's no reason to think that they are dangerous right now it would just
+be demagoguary that we would say it but so that's really where the where the blockage is now maybe
+there is a sign that this is coming because in the last week the Trump administration has given at
+least Department of Energy approval if I've got it right for a nuclear power plant to be built
+in the United States the first one in 50 years that's gotten approval doesn't mean it's done it it's
+not done with all the approvals but we are moving in that direction so I do think you're right
+if you allow the tech companies to build your power build your data center bring your all and then
+construct the power to build it they're all for but you've got to let them do it and you can't say
+we're going to do it but then we're going to go through the same to rigour roll that we have
+right now you want to build some power plant to pump on the first we have to have 10 years worth of
+studies done then we have to have five years worth of public hearings and then maybe we can build it
+if you're still interested in doing it at that point cannot have that game being played any more
+with this so that's really where the where the fight is going to be is really with whether not the
+environmental lobby will allow this to happen yeah that announcement that you're talking about was
+terror power and their sodium cooled nuclear reactor it's the first time in the 52 year history
+of the nuclear regulatory commission that they have ever approved a civilian power reactor
+that was cooled by something other than water they're finally moving off of 1952 technology
+to something more modern and the NRC is not in the way as they've been in the past so I think that's
+a breakthrough and I hope that we see more of it I agree and I really do hope so too because we
+need it for a lot of other reasons too because as AI comes down only there's a thing called
+Jevon's paradox that when the cost of something goes down you get a lot more of it so if the cost
+of creating software and the cost of using a computer becomes easier and I'm talking about
+my personal cost your personal cost that we're just at the point where you just talk to your
+computer and it does things for you or you know it runs things for you automatically you're
+going to have more of these and you're going to demand more of it and we're going to have more
+power demands for us not just for data centers but even for our personal use too so as you make the
+cost of things go down you get more of it we're going to need more power in order to meet those
+Jim it seems like you and I agree on a lot of the Jevon's paradox example is well as just the
+big picture of AI as a good thing not a bad thing but I think there is an angle we haven't acknowledged
+yet and that is we already see a lot of divisiveness in the U.S. and in the Western world in general
+let's talk about what AI really does it enables smart people to be a hell of a lot more productive
+but it also does I think legitimately eliminate a lot of jobs for dumb people you know the
+the office worker that had to do the grunt work because the smart executive you know needs
+that assistance and smart executive can pretty much be self-sufficient with AI and doesn't
+need the grunt workers anymore does this create a further worsening of the K-shaped economy where
+the people who are well educated and intelligent enough to know how to leverage AI and use it to
+their benefit start to really do well but you know the guy who's not smart enough to figure out what
+it is is really in trouble oh yeah I mean you know you can even think about I read this a couple
+years ago and I assume it's still true that the IRS puts out these lists of whenever you fill out
+your tax returns they ask you what track your patient has and you you write it down and they
+did a study of that and the biggest occupation listed in the United States has the word driver
+taxi driver truck driver, fork lift driver, bus driver, fill in whatever but the word driver
+like millions and millions of jobs well autonomous driving is coming in AI is going to power that
+AI is going to power 50% of all of minimum wage jobs have the word cashier in them
+that's going to be done by AI as well so you're going to see a lot of these lower-end jobs that can
+be automated away now the funny thing about AI is you know the more science fiction side you
+could argue that AI can help scientists cure cancer but if you ask AI to power a robot to fold
+laundry it's still struggling to do that part of it as well so there's going to be other roles
+that are going to be that it can't really do right now but the concern that I have with it is
+and we saw this during the Industrial Revolution that as we first get this new technology
+Industrial Revolution AI it automated away a lot of jobs 200 years ago it was you know farming
+jobs in the like and all you saw was job loss first and then the job creation came second because
+keep in mind what we're talking about if you automate I'll use my example of driver if you automate
+and all and the world is reduced to 50 million or 75 million autonomous taxis that run 24
+7365 and autonomous delivery trucks the price of transportation is going to plummet and it's going to
+cost you practically nothing to ship either yourself to the airport or a product somewhere else
+that is going to make business models that are not economic now and we don't even think about them
+because they aren't will be economic in the future if you want a near-term example of that
+the Apple I store opened up business models such as Uber, Airbnb to be able to compete with
+taxi drivers and hotels because they had this new technology that you could now put an app out
+and people could use the app to book somebody's room in their house or book a private car to take
+from A to B and so it created a lot more jobs so I do think that what technology is always done
+and I do believe is a net creator of jobs so ultimately yes we might lose that driver job we
+might lose that cashier job but we're going to create whole new industries and we're going to need
+those people in other industries the concern is the jobs get lost first the new jobs get created
+later and in that gap people get angry all they wind up seeing is job loss all they wind up seeing
+is what they perceive as it making things worse and in the 18th century when we had the industrial
+evolution we got a pushback the pushback was Frederick Engels and Karl Marx writing the communist
+manifesto and pushing back against the capitalist system we might get a pushback against this now
+won't be communism that was a pushback to a different era but it will be some kind of collective
+socialistic type of argument to put up a barrier from putting this together so I hope that the
+AI industry and I hope that the AI proponents understand that if all we're going to do is say
+great we can automate this and fire all these people and everything is better it won't be better
+in the long run it might be better for the very short term but if we're going to create new opportunities
+at the same time you lose your job here but there's going to be this new industry here begging for
+people to help doing whole new things that we haven't figured out yet because of that new
+technology I think that transition will be much softer but that is a real risk right now.
+But you have my can't thank you enough for a terrific interview as always before I let you go
+tell our listeners we're not familiar with what you do at Bianca research a little bit more about
+what you're up to you got wisdom tree now following your work with an ETF that basically
+follows a fixed income index that you created tell us more about that how people can invest in it
+as well as your Twitter handle and all that stuff to follow your work. We we put out Bianco
+research which is an institutional research product at Biancoresearch.com. If you're interested you can
+sign up for free trial there otherwise I'm very active on social media under my business name Bianco
+research on Twitter X on YouTube on LinkedIn and also we started a couple of years ago and in
+fixing come total return index which has its own website Bianco advisors it's a managed index
+to try and beat the benchmarks in the bond market and we have an ETF with our partners as wisdom
+tree as you mentioned WTBN wisdom tree Bianco Nancy is its ticker symbol that tracks our index as
+well too so you can find out more about it by looking up more about WTBN or looking at Bianco advisors.com.
+Patrick Serezina and I will be back as macro voices continues right here at macrovoices.com.
+Now back to your hosts Eric Townsend and Patrick Serezina. Eric it was great to have
+Jim Bianco back on the show. Dr. Anassal Hajji is next on deck with a special second feature
+interview on the developing Iran conflict and what it means for oil markets. But first you had
+a couple of announcements to follow up on from last week's show what's on your mind.
+First a few of you complained that last week's show failed to make clear how to invest in
+allowatomics which is still a private company. As you already know private companies like
+allow can't market their private equity offerings to retail investors. So unfortunately if you're a
+US citizen you need to be an accredited investor to invest in private placements meaning that you
+have to have at least a million dollar net worth. You can find the exact requirements on Wikipedia
+under accredited investor. For our accredited and institutional audience there is a safe offering
+right now that will be priced coincident with their upcoming Series C share offering. The safe
+is cap to price at a lower pre money than the expected Series C valuation but they're still
+shopping that Series C term sheet and don't yet have a final pre money valuation for the Series C.
+If you are accredited and want to get in on the safe you better move fast because it's a limited
+offering and they don't have much capacity left. The Series C offering is also restricted to a
+accredited and institutional investors and is expected to close by September. After the company
+expects to have its first nuclear reactor up and running. The other thing I promised last week
+was that I'd lean on Patrick off the air to respond to the many inquiries that we've had
+about getting a webinar going for hedging tail risks in these troubled times. Patrick has agreed
+to that and we'll get to that announcement soon enough but first let's bring on Dr. Onus Ahaji
+for our second feature interview this week and believe me folks you don't want to miss this one.
+Dr. Onus is coming right up. Joining me now is energy outlook advisors founder Dr. Onus Ahaji.
+Onus great to get you back on and these troubled times. Let's start from the beginning.
+Some listeners who might not be completely on top of the latest news might be thinking
+boy you know Dr. Onus came on macro voices a few months ago and said the Iran military
+doesn't really have the military power to close the straightive hormones but from what we've heard
+in the news it sounds like somebody did close the straightive hormones. The thing is it wasn't really
+Iran's military. Who was it what happened? Well thank you Eric for having me again on your show
+a couple of things here. The first one is I still stand by why what I said earlier Iran cannot
+close the hermush rate. It is not in the interest of Iran to close the hermush rate and even if
+they are able and they are willing they will hurt their friends and they will not hurt their enemies.
+Israel does not import anything from that region and you as dependence on the region
+is very small so they hurt their own people and they hurt their friends. So what happened?
+Iran did not close the hermush rate. The hermush rate was closed because of an insurance
+fiasco and I would like to explain this to the audience in a layment term so they can understand what
+happened. The EU has certain regulations to avoid the bankruptcies of the insurance companies.
+Of course as you know sometimes bankruptcies happen because of lack of cash not because they don't
+have the wealth or they don't have the money just the lack of cash can cause bankruptcy in Europe
+they call the call the solvency. So to avoid solvency they require the insurance companies to increase
+the amount of cash at hand as the risk increases. So the risk basically went up and they need to
+have more cash. Here is the problem. The insurance the cancellation of the policies did not happen
+because of any attacks in hermush rate or Gulf of Iran or the Gulf at all. The consolation happened
+when a US submarine launched a torpedo which is the first since World War II launched a torpedo
+on a Iranian navy boat that was participating in a drills with other countries near Sri Lanka
+and they killed about 130 people on that boat. So what happened is the attack happened in Sri Lanka
+so for those who can imagine the map from an insurance point of view and from a risk point of view
+now they have to cover the whole area from Bustra in South America all the way to India and to Sri
+Lanka which has thousands of ships and boats and everything else and therefore the risk went up
+so much that it's beyond the ability of those companies to cover and hold cash.
+So they have an option and that's part of the rules of the EU. They have an option and that
+option is they can cancel within certain number of days and the lowest number is seven and they decided
+to go for the lowest number which is seven. Now all of those are British companies as you know
+the UK is not a member of the EU but the UK was a member of the EU when this was this law was
+adopted after the UK left they kept those laws on the books. So basically that was the case
+where shipping companies they don't have insurance and if there is no insurance they cannot leave
+and then some insurance companies can back with a major increase in value because they have this
+war premium which is sometimes 50% to 75% of the value of the ship and it's not worth it. This is
+extremely expensive so all the ships got stuck and that was really the main reason why regardless of
+the rhetoric of the Iranians the Iranians been saying this for 45 years and here I would like to
+clarify another point. We heard a lot about many attacks on ships and tankers in the region
+until last Saturday there was not a single attack in the Gulf of India in the Strait of Hormuz
+not a single one yet the media basically for a week been telling us about attacks in the
+in the Hormuz trade. The media was telling us that and this is really a serious issue because
+there were supposedly attacks very far away from the Hormuz trade but the media kept
+linking it Hormuz trade. The second point is the first two ships that mean attack they were
+two small boats they carry Iranian oil so does it make sense that Iranians will be attacking their
+own boats so the first two attacks they were Iranian or they were boats that carried Iranian oil
+but they were small boats for the others the way the attacks are reported that any
+thing that the captain report basically is considered an attack so if a captain report that
+oh I heard the bang that is reported as an attack what regardless the ship is not hurt at all
+there's not hit but he heard the bang so what happened is because Iran was attacking the Gulf
+countries and they were intercepting all those missiles and the drones they were falling
+on the heads of everyone they were falling on houses on buildings on parks on cars on buses
+and on ships and that was reported as an attack so the reporting basically was is not accurate
+because they kept telling us Iranians attack Iranians attack so the the whole fiasco that we have
+is an insurance fiasco the final point on this is this we know that when Trump present Trump
+does not like something he is outspoken and he is outspoken if he to presidents kings senators
+congressman we know he is after them he goes public and badmouth everything and yell in all kinds of things
+he for his adult life I'm talking about like since he was 24 until now he in every single
+interview and every single writing and every single book he wrote he was always against high
+old prices this is the first time ever that he does not care much about high old prices the first
+time ever and there is a big question mark here why even when he was asked by the journalist he said
+well just wait press it will go down later this is not Trump the one we know the other issue is
+so what I'm saying here is he despite the fact this fiasco was caused by the insurance
+companies he never mentioned anything about the insurance companies he never pressured them even
+to do something he never said anything few days later he came back he said oh we are going to ensure
+the ships and we are going to escort them through the hormone straight and this is not going to happen
+this does not happen in fact escorting them is kind of a big question mark because he went public
+saying that we destroyed all the Iranian navy so if if the whole Iranian navy is destroyed
+why do you need to escort ships so there is a big question mark there but the idea that he never
+said anything about the European insurance companies there is a big question mark here why because
+there are many solutions to this they are very easy only got to do is ask the EU and we know that
+they are scared of him and we know they yielded to him to remove that condition the cash condition
+or reduce it or suspend it for 30 days or something or reduce the risk area say it's
+only the hormone straight from a man to the middle of the adult and that's it would they don't
+have to cover it all the way to Sri Lanka and that could solve the problem but they never said anything
+so it is really the insurance companies and it's still the insurance companies until now
+so the upshot is the operators of these tankers do want to transit the straight there's no reason
+that they couldn't get through it's not like it's impossible to navigate those waters they're
+not allowed to because they don't have insurance and they can't get insurance and you and several
+other experts have gone on record saying look this is a serious problem for the world it has to be resolved
+quickly or else we could literally get to $250 oil prices that could cripple the global economy now
+there's a little bit more to this story that doesn't add up to my mind which is it's been reported number
+one president Trump says Iran's navy has been destroyed sunk its over its done number two
+Iran's navy is actively setting mines in the straight of four moves they're mining the straight
+right now number three Trump says they're going to be a big trouble if they do that
+wait a minute if they don't have any ships because they already got sunk how are they mining
+the straight of four moves something doesn't add up here what's really going on on us
+may I respond to that the mining one yes please okay because there is an issue that no one is
+talking about and it is a very serious issue probably it's like the nuclear bomb in this war
+if they are putting if they are really putting mines in the waters in the Gulf
+and the worst thing or the last thing that Iranians want is to blew up a VLCC with two million
+barrels in it and the oil basically will land near their shores just in the Gulf alone they have
+more than 65 desalination plant water desalination plants these communities depend heavily
+on water from desalination plants they are going to die from thirst are the Iranians too
+bit enough to do that but this is not only the case we know that they they believe they are
+shia Islam basically this is one of the six in in Islam they are shia and they support the
+shia in other countries whether in Saudi Arabia Kuwait Bahrain or Iraq and most of the
+shia populations in the region are along the Gulf and there are hundreds of desal plants on the
+other side so are they going to literally let their brothers on the other side die from thirst
+because they want to bomb those oil tankers just the story does not add up even from this site
+so they want to transit the straight they cannot transit the straight because of insurance that's
+an EU requirement that could be changed by the EU but for some reason hasn't been one way or another
+you and others are on record saying this situation has to get sorted out and sorted out soon
+because if it doesn't we could be looking at 250 dollar oil prices which could cripple the
+global economy and set us into a 2008-sized global financial crisis so we need to do something
+how is this going to get resolved do you think it's about to be resolved and you know what will
+it take how do you see this playing out well it is it is very clear that whatever the media being
+kind of feeding us was mostly propaganda the case on the ground is completely different from
+what the media is telling us and this war must end as soon as possible for various reasons because
+the Gulf countries are being choked and as you know those countries have been heavily on oil
+when they try to diversify their economies basically they created industries now those industries
+are shut down because they cannot export or import and they try to diversify by focusing on tourism
+and that industry got killed so we are literally killing our allies who promised to pay us
+two trillion or to invest in the United States two trillion dollars from where they are going to
+get the two trillions if they have no money so it is a crisis and not only that if you look at
+what's happening right now worldwide we are already hearing about food shortages and in fact if you look
+at methanol and the use of methanol in biofuel and other things that are in food products and
+everything else you can play the go through the chain and you can see the impact on we might end up
+with food crisis before even energy crisis and the issue here is there are tremendous benefits
+to the United States from closing the Hormos trade and these benefits are long term
+and they are huge you cannot even give put a price on that but there is a lot of short term
+pain that comes with it so we have different time frames for the advantages and the pain and we
+don't know whether this is a deep state that does not really care about who is in the White
+House and they want to implement certain things the reason why I'm saying this because the issue
+is not only about oil and gas and LNG if you look at helium for example 35% of traded helium
+comes out of the Hormos trade you cannot make computer chips and semiconductors without helium
+and all of that goes to age so if the objective is to bring this industry to the United States
+well this is the great opportunity right now and that's really good opportunity yes because
+the US is the largest producer of helium in the world you want to talk about agricultural products
+and agricultural exports which Trump was promoting 33% of the world traded or the sea borne traded
+fertilizers go through the Hormos trade if those Asian countries do not have enough fertilizers
+then they have to buy from the United States agricultural products and we talk about fertilizers
+by the way the 33% is misleading because that's what they import in term of final product
+but they do have their own industries that manufacture fertilizers but those fertilizers need the gas
+that come from Qatar or the NGLs that come from Saudi Arabia so the impact is more than 33%
+and we know that Trump basically was the marketer in chief of the US LNG industry and he wanted
+the Asian companies to sign long term contracts with US LNG industry this is a great opportunity
+because the reputation of Qatar and the UAE got tarnished right now as a secure supplier
+while the United States has no problem so the LNG industry benefited if you look at the stocks
+just the US LNG stocks they doubled in some cases just since the start of the war and
+till today so there are tremendous benefits to the US and these benefits have already been achieved
+so if the purpose of these benefits the benefits are achieved but if these benefits that I'm
+talking about are not the purpose at all and they are just a pie product of the attack on Iran
+well let it be but they are achieved okay let's talk about the price signal which frankly
+doesn't drive with the things that you're saying about what's really going on because what we saw
+is on Sunday's futures open there was a massive shooting star candle printed we went all the way
+up to what was at $119 on US West Texas Intermediate crude oil around 1030 at night or so
+it peaked you and I were actually on a Twitter space together as that was happening well hang on
+not us there's been a massive sigh of relief since then from $119 we're down to $88
+we're speaking on Wednesday afternoon it seems like President Trump said okay this Iran war is
+winding down now he made that statement the market breathed a huge sigh of relief as of our recording
+time Wednesday afternoon the EU has not announced that the insurance rules don't apply anymore the
+traffic is not really resumed at least as is I understand it through the straight but the market
+is breathing a sigh of relief is the market wrong what's going on here no basically the market is
+being manipulated by the Trump administration in various ways some of them we know about and some of
+them probably we don't know about or we will know about later on by the end of the month so we have
+President Trump basically making statements about the end of the war that lead prices to decline by
+about $20 and then by the second day we realize this is not the case so prices went up again
+then the energy secretary came in said something but that we that was wrong we talking about
+the US Navy started escorting all tankers out of the out of the Hormous trade and prices plummeted
+by of kind of like $1718 five minutes later he deleted that wheat and then the White House denied it
+so this is pure manipulation and we don't know within those few minutes between the time
+he posted the tweet and deleted it who jumped on the wagon and bought etc there is a lot of chatter
+about the US treasury basically being heavily involved in the futures again this is a rumor
+but the fact that President Trump said something that was not correct and the secretary of
+energy said something that was not correct that led pressure to decline significantly this is pure
+manipulation of the market and that's why people are getting scared both sides prescribed from
+prices going up and scared from those manipulation basically ruining their savings and and
+ruining their lives if if they lose a lot of money let's talk about the impacts of
+whatever is going on this manipulation game if that's what you think it is
+let's suppose that we go for another couple of weeks of not moving traffic in any meaningful
+size through the straight and that results in a lot of logistic dislocations where oil that was
+expected to arrive doesn't arrive and you get situations where the producers are backing up
+in some cases they may be forced to shut in producing wells because there's no place to put the oil
+if the ships are allowed to leave what is this something where we've only got a few days before
+we hit a real crisis or could we tolerate a month or two of this kind of disruption what are the
+consequences of waiting and then once it does get resolved how long does it take to work out the
+backlog and get everything back to normal this is a historic event by every sense because it
+covers so many things and so many products and affects the people around the world and for the poorer
+countries basically they are going to be impacted the most but the issue here that we already seen
+the Gulf countries cutting production we already have production cut about seven to eight
+million barrels a day if this is going to last another week probably it will go up to 10 or 11
+million barrels a day as you know if we it will take about a couple of weeks basically to get to
+to move all those ships out if everything ends if the war ends and everything is fine we'll take
+about a couple of weeks but to bring all that production back to previous levels will take a couple
+of months and for LNG it might take more than that and the longer we stay and the higher the amount
+being cut the longer is going to be to bring it back online and so we have a serious problem prices
+are not reflecting the actual risk from my point of view it seems that probably Trump knows
+that but that's why he's being calm otherwise he would panic and today the IA announced
+the argument to release 400 million barrels from the strategic petroleum reserves of the 32 members
+but that is voluntary basically countries are free to do that and prices went up
+price went up by more than 5 percent at the same time US oil inventories basically the numbers
+were released by the IA and we have an increase in inventories higher than expected yet prices went
+up probably they would have gone higher without all these news but the issue with the IA and
+I would like to explain it here to the audience it seems this is another manipulation because they
+chose a very high number kind of for impact and but the actual release is very small
+and the reason why unless we see the Trump administration basically retracting its statements
+and start releasing gold from the United States this is only for few countries that do not want
+to pay the high prices for oil they have oil that stored when oil prices were very low
+and they don't if they think this is going to last for two or three or four weeks a month
+they can use their own inventories and instead of paying the high price for it so the requirement
+by the IA if that they have to keep 90 days worth of supplies in strategic storage so to avoid
+being in violation they've been given this way out today the legal out today go ahead and use it
+but and and that's that's why some countries basically will resort to their strategic
+petroleum reserves and do it but the question here is if this really let's go with the headline first
+let's say it's 400 million and everyone is going to release even the United States this is of course
+the highest or record this is the withdrawal from the United States would be higher than the one released
+by Biden and this is going to be very big of course the United States has not announced anything yet
+but let's assume that the it is 400 million we have many problems with that and the first problem
+is most of the release is going to be in the west while the shortages are in the east should that's
+one problem the other problem is so of course if you want to solve if you want to move the SPR
+from United States to to the east that takes about four to five weeks to get it there probably
+the overall end by that time anyway the other issue is one of the main problems we have a recent
+days is that heavy crude price is is higher than the light crude price because that's where the
+shortage is and prices went up substantially so we lost a rocky oil which is heavy crude but what we
+have in storage is either products we are talking about gasoline diesel what jet fuel etc or most of it
+basically is crude and it's medium-sour or light so that does not solve the heavy crude problem
+and we don't have any additional oil coming out of Venezuela by the way whatever they produce
+and export that's it they they cannot do more so from where that heavy crude is going to come
+kind of that is maxed out at this stage so there are some issues with that release even if the
+headline number is the correct number okay so as I'm understanding what's really happened here
+the world is perceiving the ia has announced the release of 400 million barrels of oil from strategic
+reserve boy that sounds like a really really big relief that's going to make a big difference what's
+really going on if I'm understanding you correctly is the ia has in its possession exactly zero barrels
+in strategic reserve that it controls directly all it's really saying is if anybody else should
+choose of their own volition to want to release some of their reserves which we the ia don't have
+any authority to tell them to release but if they decide to do it on their own we're not going to
+find them for it for breaking a rule that we used to have is that really the substance of this
+announcement yes yes the spr the amount in the spr right now i just checked it i think the uh
+in the press release they said it's 1.2 billion i checked the actual numbers there is some exaggeration
+in this it's closer to 1 billion than down down 1.2 billion so about 700 uh in crude and about 300
+products uh so the headline number basically is a little bit exaggerated but still i mean the number
+is still a huge anyway if they want to deliver on that uh but the actual numbers again this is more
+it's not about a shortage mostly it is about some countries do not want to pay the high price
+and others probably if you look at South Korea and particular probably they need that oil because of
+they i mean within like couple of weeks probably they they really need that oil so what can happen
+here in order to get this insurance problem that it seems like it's being under reported actually
+solved so that everybody who's got a tanker that wants to transit the strait of hormones can do so
+what do you think happens next here i have a uh a theory here i know i don't want to take much
+of your time here but i have a theory uh sanctions historically never worked even in terms of
+inflecting pain the pain was very minimal until globalization came in in the 90s and with the globalization
+what was globalized was two things the American financial system and copyrights that was really
+what was globalized and once the the the American financial system was globalized it became
+sanctions became very painful there are not effective in achieving their goals but they became
+very painful by adopting the US financial system and now i am looking at it from that perspective
+and i look at it as uh a financial experiment through insurance because if this is effective
+then we we have a new tool new foreign policy tool and that's why we've seen some countries
+basically having their own insurance and hey by the way i just remembered here is here is one for you
+to tell you that this is really not kind of a clear cut game a flight with 400 people
+can leave dauha without any problems without the increase in insurance or anything else
+but a boat leaving dauha is subject to that insurance the heavy insurance
+we know the fight is in the air all those missiles all those planes all those attacks are in the air
+so how can planes can fly but boats cannot go through well on a size supposed the difference is
+that the airplanes only carry enough petroleum to get them to their destination and they're not
+delivering oil to the other end i guess that begs the question what are the implications of that
+what meaning do you read into that and then let's come back to my earlier question which is
+this has got to get resolved someday when it does get resolved how long does it take to clear the
+whole system out make up the backlogs and get everything back to a smooth properly operating global
+energy delivery logistics system regarding the first question the answer is very simple we should
+not discount the idea that this war may not be about Iran and its a nuclear program it could be
+more than that and Iran could be just one piece of the puzzle if you put it within the
+trade wars and sanctions tariffs vins will Panama Canal red sea Greenland you put it within this
+concept you end up with Iran only parts of that puzzle all I am saying here is we should not discount
+this idea regarding the second question if the war ends tomorrow the crisis does not end tomorrow
+because it takes time probably a couple of weeks to clear all the ships out of the golf on one side
+and for production to come back online probably we need about a couple of months but the damage
+to the golf nations have already been done their nutritional damage has already been done
+that's it and their nutritional damage for Qatar LNG and UA LNG has been done so anyone
+now wants to say long-term contracts they have an increase in risk in those contracts and therefore
+they need to look for alternatives to minimize the risk in their import portfolios
+on us before we close I want to ask you about something you mentioned earlier which is decalination
+plants and how they could geostrategically play into this whole equation I don't I haven't heard
+anybody else besides you talking about this how significant could that be this is the nuclear war this
+is the world war three this is something above everything else we can imagine why because everyone
+in the region basically has decalination plants including Israel so if they start hitting the
+decal plants of each other people will die from thirst so this is really the nuclear option if you
+want to call it you're saying rather than a nuclear strike which is what comes to everybody's mind
+is the way to achieve that outcome the way it would happen is actually by intentionally targeting
+decalination plants so that there's no water supply for entire countries so what I'm saying is
+Israel for example had decal plants somewhere in Iran and Iran retaliated and then somehow
+they said another decal plant in the Gulf and countries retaliated so that's really where the
+problems are if they start hitting the decal plants of each other well honest I can't thank you
+enough for a terrific update listeners so you know what to expect is this crisis hopefully resolves
+but if not if it continues to develop for is long as it does will invite Dr. Honest and
+door potentially other energy and geopolitical experts back on the program in addition to our
+normally scheduled feature interview schedule we'll be getting Dr. Honest and others back in order
+to comment on this until the situation is ultimately resolved honest before I let you go what they can
+find at energy outlookadvisors.com so we do publish a newsletter mostly directed and at institutions
+and financial institutions etc we do publish a daily energy report this is for everyone and it's
+fairly cheap $420 per year but the materials that is covered in this basically just unmatched anywhere else
+and of course we have Twitter and Twitter subscription too most of the stuff I put there basically
+is on Twitter it is at an SLHG and SLHGGI and folks be sure to stay tuned for our post game segment
+when Patrick's Serenus trade of the week is going to focus on hedging and protecting portfolios
+in these troubled times then we'll get into it analysis of all the markets and what's going on
+that's coming up as Patrick Serenus joins me as macro voices continues right here at macrovoices.com
+now back to your hosts Eric tells and Patrick Serenus listeners we'll keep bringing you a second
+guest as conditions warranted until the Iran situation eventually settles down meanwhile thanks for
+understanding that we didn't think of this last week you'll find a download link for this
+week's trade of the week in your research round up email if you don't have a research round up
+email yet it means that you have not yet registered at macrovoices.com just go to our home page
+and look for the red button over Jim Bianco's picture saying looking for the downloads.
+Patrick thank you for agreeing to offer our listeners a free tail risk hedging webinar
+we'll come back to that soon enough but first let's start with this week's trade of the week
+I know you wanted to walk through one of the types of portfolio hedges that you plan to go deeper
+on in that webinar so how are you thinking about protecting downside risk in the current market
+environment? Eric while the market is beginning to show some signs of classic short-term
+capitulation signals the underlying conditions in the market remain fragile beneath the surface
+there still structural stresses building particularly in private credit where redemption pressures
+continue to surface and in the systematic space where several flow triggers are now being hit
+potentially shifting positioning in a way that can amplify volatility. At the same time
+leadership in the largest mega cap stocks remain structurally weak removing an important pillar of
+support for the broader index so even if the market manages a near-term bounce the environment still
+carries enough uncertainty that maintaining left-tail protection remains prudent. Interestingly
+a similar idea was highlighted earlier this week by Goldman Sachs the rivetive trader Brian
+Garret who suggested that investors used the recent bounce to reset downside hedges on the S&P 500
+his desk specifically pointed to a 95 85 downside put spread as an efficient way to express that view
+so if we take that framework and apply to today's markets let's walk through exactly what the
+hedge would look like in practice with the S&P 500 trading around 6760 the 95 85 structure
+translates into buying the April 17th 6425 put and selling the April 17th 5750 put which costs a net
+of 56 points put differently that's roughly 80 basis points of the index value to own this protection
+and with roughly five weeks or about 38 days until expiration that costs buys you a 675 point
+wide downside payoff window if the market were to experience a meaningful draw-down during that window
+the spread can be worth as much as 619 points which creates roughly 11 to 1 payoff profile relative
+to the premium paid so the idea here is straightforward in a market where hedges were recently
+unwound and volatility could easily re-expand paying a small percentage of portfolio value for a
+defined period of downside convexity is a reasonable way to reset protection and manage left-tail
+risk well Patrick I think this is really topical considering honest view that the market may be breathing
+a sigh of relief prematurely so what's the plan for the free webinar that you agreed to offer
+our macro voices listeners in the webinar I'm going to go much deeper into exactly these kinds
+of portfolio protection strategies we'll walk through the key risks I think could drive a
+deeper pullback from here why simply moving to cash isn't always the best solution
+and how option hedges can help protect a portfolio while staying invested I'll also break
+down a real hedge structure I'm watching right now including the strikes and exploration
+and show you how it fits into a broader portfolio protection framework for uncertain markets
+the reason we're doing this as a live webinar is that I can actually build these trades visually
+in the options chain in real time which makes them much easier to understand than trying to
+explain these structures in this audio only format so for those that want to attend we'll be
+hosting it on March 16th at 4 p.m. eastern and macro voice listeners can register for free
+at bigpitchatrading.com. Patrick every Monday at bigpicture trading your webinar explains how retail
+investors can put on our most recent trade of the week for those listeners that want to explore
+how to put on these trades in greater detail don't miss out on a 14 day free trial at bigpicture
+trading.com now let's dive into the post game chart tick all right Eric let's dive into these
+equity markets what are you thinking here Patrick let's revisit the wartime playbook that I
+described last week first comes the panic oh my gosh there's a war on check we traded below the
+200 day moving average during the Sunday night market panic right after the future is open
+next came the sigh of relief president Trump says the war is ending back up almost 250 s and
+p points on shares that the war is over oops wait a minute as doctor onus is explained it's not
+over till it's over and as of Wednesday afternoon the market was figuring that out bigger picture
+we're still in the panic phase that I described last week which is coming in waves do we get to a
+new lower low probably depends on what happens with the oil market situation uh definitely heat
+on that one so it's not clear whether the bottom is in yet there's plenty of room for more panic
+if onuses right and the market scare is not yet over if oil prices really did go super high short
+term and that's definitely possible if the I shouldn't say the straight remains close the straight
+is open if the insurance companies remain inclined to block traffic from being allowed to transit
+the straight which has been open the whole time uh well you know if the oil doesn't flow
+anything could happen or you could easily see 250 dollar oil prices that would definitely
+tank global equities in a 2008 style of crash the thing is I don't think that that's going to happen
+there's no reason that they can't just fix this insurance problem and get the hormones traffic
+back to normal once the market stabilizes I think we'll probably get into that aha moment where
+people say oh wait a minute and wars are inflationary it's usually good news for equity markets
+even if it's bad news for humanity and that's when the rally kicks in the serious rally that
+takes us back up potentially even to all time highs we're not there yet and we don't know if we're
+going to get there it depends on how this thing unfolds but I do still think that's possible
+if the governments and other parties are swift in getting this insurance situation worked out
+and the traffic back to flowing efficiently through the straightive hormones well Eric this is the
+way I'm sizing this up the first thing I want listeners to do is ask themselves a question as to
+what they believe the actual driver is of the current equity weakness we have seen a substantial
+deterioration in financial conditions from breakdowns in the financial stocks to break down in
+many of the tech names the meg sevens continued to lag we are seeing now that systematic traders
+trigger levels are now being hit and so there's a lot of underpinning issues in the market
+including the private equity space so the question is is that is the market deteriorating
+because of these types of conditions or is it a focal point on what's happening with the war
+and the impact of oil prices rising now I obviously both of them influence I don't want to say one
+is more important than the other but in the end if the resolution to the Iran situation
+deescalated would that solve all of the other problems and would the stock market be able to just go
+higher overall I think that there's a lot of problems for the markets here and while we hit some
+very short term over sold conditions that warranted at a bounce overall the new trend is actually
+down there is zero evidence that the bulls have actually regained their footing overall you know
+if we ran out rally back up to the highs I would have to accept that there's some sort of
+neutralizing of the downtrend and potentially a bull breakout setting up but as of this moment the
+downside windows open for me and we could easily see at 10 plus percent market drop
+from peak to trough and before this is all over so Eric let's move on what's your thoughts here
+on the US dollar well we're back to 99 and a half on the dixie testing top of trading range resistance
+this is definitely war driven it can definitely go higher on more instability that could
+ignite a short squeeze and trend following continuation rally and you know a whole bunch of
+things could happen but I return ultimately to the fundamental question that I posed last week
+is all of this really dollar bullish or are we seeing more and more fundamental moves that
+will actually incentivize more central banks to divest dollar commitment and move to other assets
+I think that what we're seeing here is just a reaction to the liquidity panic I don't think it's
+structural or fundamental driven new bull market in the dollar so I see plenty of room for a
+downside reversal in the dixie but not until this is over and as Anaset and over till it's over
+well under normal conditions we're in a six-month trade range on the dollar and we're just
+traded to the top end of this range and so the idea that overhead resistance on the dollar could
+structurely be a headwind is possible and the fact that dollar weakens back to its previous
+lows is also on the table but what I'm thinking about right now is whether or not there's a bigger
+intermarket flow issue from a in a risk off period where the dollar is being bid and if we see that
+that is able to break out of the six-month trade range to the upside that could certainly pivot
+flows with no real fundamental reason behind it driving even a two or three-point rise up to one
+or two or one or three on the dixie overall if the entire intermarkets remain risk off and under a
+lot of stress I'm not ruling out a dollar break out here but I think it's not going to do it on
+its own it's going to be a bigger market story alright Eric touching on oil well we covered most
+of the oil market with Anaset there's not a whole lot left to say the one thing that I've been
+dwelling on ever since recording that interview which now for me is several hours ago with Dr. Anas
+is his comment about wait a minute this was not a hard problem to solve if the US had really wanted
+to solve this insurance problem it shouldn't have taken this long so what's really going on here
+is somebody not in a hurry on purpose in order to fix this and get the oil flowing and if so
+how long are they going to continue to want to take their time about fixing it because it doesn't
+really add up here maybe it's incompetence maybe there's more to it I don't know but let's see if it's
+not resolved in the next few days it clearly could have been so if not why not what's going on that's
+the question on my mind well you're right Eric Anas did cover a lot overall it's very hard to do
+technical analysis on something that is moving with this kind of velocity overall the dip was
+bought at fib zones and so the idea here that oil can still surge higher is something you can't
+rule out overall it's one of these scenarios where the best way to put on trades at this stage
+is using some sort of option structures there's a fat right tail bull called spreads can usually
+give you pretty good payoff structures so if you're playing further upside on oil here using a
+bull called spreads is a very attractive way of approaching this all right Eric let's touch on gold
+clearly we're seeing a decoupling from the normal you know geopolitical upset means gold goes
+straight up that seems to have run out of steam for whatever reason the downside risk here
+though is not that fundamentals have changed I don't think that they have I still think the
+fundamentals are super bullish long term for gold the issue is what happens if everybody else
+starts selling their gold in order to meet margin calls on other things and that goes back to the
+it's not over till it's over in 2008 and just as a caveat I'm not expecting a 2008 outcome
+but in 2008 even though the gold fundamentals were very bullish ultimately what we saw was a huge
+sell-off in gold why because people sell what they can not what they want to when a market is crashing
+so the cashless collar strategy that Patrick did a trade of the week on a few weeks ago
+it to stay long on gold while still hedging against left tail risk with a cashless collar
+not costing you anything other than limiting some upside that strategy is still more relevant
+today probably than the day that it was aired so go back and listen to that one again if you want
+to understand how to put that risk collar on well Eric for me gold is stuck in a little bit of a
+tug of war one side you have geopolitics but on the other side you have a flows issue that we
+had a blow off top in January and we're in the midst of some sort of a consolidation overall
+I'm structurally bullish on gold but it wouldn't surprise me if gold continued to turn in a trade range
+into the second quarter and only after the over-bought condition is fully unwound does the opportunity
+for a new breakout playout overall I think that the lows that were put in near 4500 are likely
+to remain the lows unless there's a liquidity event where all asset correlation goes to one in
+gold has a little flush out but I'm not signing a high probability to that overall I think 4500
+will ultimately prove to have been the low for this first quarter and so it's just a matter of
+seeing when this consolidation is over and when a new bull face has resumed are Eric what are your
+thoughts here on uranium Patrick the fundamentals are still Uber bullish and they're getting better
+by the day we see more and more nuclear announcements and in some ways this oil crisis is
+underscoring for a lot of investors and other people hey boy we really do need this nuclear
+renaissance look it's gotten to the point where even Ursula von der Leyen gets it now so I think
+long term the fundamentals are still super bullish but hold on if the market broadly is going to
+continue selling off which it may as the situation's not over till it's over it will probably take
+uranium back down with it we didn't quite get all the way down to the 200 day moving average
+and some of my uranium charts I think there's plenty of room to get there it's probably a buy
+when we do get there it's so far uranium's been holding up better than the broader market but
+if we get a big broad market risk event and especially if we get a big gold sell off because of
+that it'll probably pull uranium with it frankly I'm kind of hoping that happens because it's
+going to be a buy the dip opportunity the question is always on a buy the dip is how low is
+the low where you want to start buying I'm not exactly sure but I think there's room to go lower
+than we are now well whether or not the fundamentals are bullish overall right now there is no
+money flow going into the uranium space at least from a the spot physical securities overall
+I do think that there's obviously all the bullish opportunities but we're going to be looking for
+a technical breakout to suggest that flows have started to come back into the space and it's a
+here and now story overall this consolidation continues to dominate at least on this short term
+metric before we wrap up this week's show let's hit that 10 year treasury note chart
+air clearly the oil spike has created nervousness about inflation fears and that is reflecting
+in these rates now while we did hear a great take from Jim Bianco the one thing I continue to think
+about is will the fed respond to supply side inflation because this is not really monetary inflation
+and so it's entirely possible that this wouldn't result more in a fed that is a wait and see
+more than a fed that becomes hawkish and nonetheless we'll see how it shapes up in the weeks to come
+especially since we have the FOMC meeting next week folks if you enjoy Patrick's chart decks you can
+get them every single day of the week with a free trial of big picture trading the details are on
+the last pages of the slide deck or just go to bigpicturetrading.com Patrick tell him what they can
+expect to find in this week's research roundup so in this week's research roundup you can find
+the transcript for today's interview as well as the trade of the week chart book which is
+discussed here in the post game including the link to the special webinar we're hosting on hedging
+your portfolio which we're hosting on March 16th on Monday at 4 p.m eastern time and you can register
+at bigpicturetrading.com or click on the link in your research roundup email we also included a number
+of links to articles that we found interesting so you're going to find this and so much more
+in this week's research roundup that does it for this week's episode we appreciate all the
+feedback and support we get from our listeners and we're always looking for suggestions on how we
+can make the program even better and for those of our listeners that write or blog about the
+markets and would like to share that content with our listeners send us an email at research roundup
+at macravoyce.com and we will consider it for our weekly distributions if you have not already
+follow our main account on x at macravoyce for the most recent updates and releases you can also follow
+Eric on x at Eric S. Townsend that's Eric spelled with a k you can also follow me at Patrick Suresna
+on behalf of the Eric Townsend of myself thank you for listening and we'll see you all next week
+that concludes this edition of macravoyce is be sure to tune in each week to hear feature
+interviews with the brightest minds in finance and macro economics macravoyce is made possible by
+sponsorship from bigpicturetrading.com the internet's premier source of online education for traders
+please visit bigpicturetrading.com for more information please register your free account
+at macravoyce.com once registered you'll receive our free weekly research roundup email
+containing links to supporting documents from our featured guests and the very best free
+financial content our volunteer research team could find on the internet each week you'll also
+gain access to our free listener discussion forums and research library and the more registered
+users we have the more will be able to recruit high profile feature interview guests for future programs
+so please register your free account today at macravoyce.com if you haven't already you can
+subscribe to macravoyce's on iTunes to have macravoyce's automatically delivered to your mobile
+device each week free of charge you can email questions for the program to mailbag at macravoyce's
+.com and we'll answer your questions on the air from time to time in our mailbag segment macravoyce
+is presented for informational and entertainment purposes only the information presented on macravoyce
+should not be construed as investment advice always consult a licensed investment professional
+before making investment decisions the views and opinions expressed on macravoyce's are those
+of the participants and do not necessarily reflect those of the show's host or sponsors macravoyce's
+its producers sponsors and hosts Eric Townsend and Patrick Suresna shall not be liable for losses
+resulting from investment decisions based on information or viewpoints presented on macravoyce's
+macravoyce's is made possible by sponsorship from bigpicturetrading.com and by funding from
+fourth turning capital management LLC for more information visit macravoyce's.com

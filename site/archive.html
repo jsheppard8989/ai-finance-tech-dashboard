@@ -57,22 +57,19 @@
   <div class="container">
     <a href="index.html" class="back-link">← Back to Dashboard</a>
     <h1>Archive</h1>
-    <p class="subtitle">Historical definitions, insights, and Overton Window terms</p>
+    <p class="subtitle">Historical insights and Overton Window terms (definitions + emerging concepts)</p>
     
     <div class="tabs">
       <div class="tab active" onclick="showTab('insights')">📰 Insights (<span id="insightsCount">0</span>)</div>
-      <div class="tab" onclick="showTab('definitions')">📚 Definitions (<span id="definitionsCount">0</span>)</div>
-      <div class="tab" onclick="showTab('overton')">🪟 Overton Terms (<span id="overtonCount">0</span>)</div>
+      <div class="tab" onclick="showTab('overton')">🪟 Overton Window (Definitions + Terms) (<span id="overtonCount">0</span>)</div>
     </div>
     
     <div class="stats">
       <div class="stat-box"><div class="stat-number" id="insightsStat">0</div><div class="stat-label">Insights</div></div>
-      <div class="stat-box"><div class="stat-number" id="definitionsStat">0</div><div class="stat-label">Definitions</div></div>
-      <div class="stat-box"><div class="stat-number" id="overtonStat">0</div><div class="stat-label">Overton Terms</div></div>
+      <div class="stat-box"><div class="stat-number" id="overtonStat">0</div><div class="stat-label">Overton Window Items</div></div>
     </div>
     
     <div id="insightsSection" class="section active"></div>
-    <div id="definitionsSection" class="section"></div>
     <div id="overtonSection" class="section"></div>
   </div>
 
@@ -116,12 +113,14 @@
     }
     
     function updateStats() {
-      document.getElementById('insightsCount').textContent = archiveData.insights?.length || 0;
-      document.getElementById('definitionsCount').textContent = archiveData.definitions?.length || 0;
-      document.getElementById('overtonCount').textContent = archiveData.overton?.length || 0;
-      document.getElementById('insightsStat').textContent = archiveData.insights?.length || 0;
-      document.getElementById('definitionsStat').textContent = archiveData.definitions?.length || 0;
-      document.getElementById('overtonStat').textContent = archiveData.overton?.length || 0;
+      const insightsCount = archiveData.insights?.length || 0;
+      const defCount = archiveData.definitions?.length || 0;
+      const overtonCount = archiveData.overton?.length || 0;
+      const combinedWindowCount = defCount + overtonCount;
+      document.getElementById('insightsCount').textContent = insightsCount;
+      document.getElementById('overtonCount').textContent = combinedWindowCount;
+      document.getElementById('insightsStat').textContent = insightsCount;
+      document.getElementById('overtonStat').textContent = combinedWindowCount;
     }
     
     function renderInsights() {
@@ -142,36 +141,32 @@
       `).join('');
     }
     
-    function renderDefinitions() {
-      const container = document.getElementById('definitionsSection');
-      const definitions = archiveData.definitions || [];
-      
-      if (definitions.length === 0) {
-        container.innerHTML = '<div class="empty-state">No definitions available</div>';
-        return;
-      }
-      
-      container.innerHTML = definitions.map(item => `
-        <div class="insight-item">
-          <div class="source">${item.term}</div>
-          <div class="text">${item.definition}</div>
-        </div>
-      `).join('');
-    }
-    
     function renderOverton() {
       const container = document.getElementById('overtonSection');
+      const definitions = archiveData.definitions || [];
       const terms = archiveData.overton || [];
+      const combined = [
+        // Definitions first
+        ...definitions.map(item => ({
+          term: item.term,
+          text: item.definition
+        })),
+        // Then Overton terms
+        ...terms.map(item => ({
+          term: item.term,
+          text: item.description
+        }))
+      ];
       
-      if (terms.length === 0) {
-        container.innerHTML = '<div class="empty-state">No Overton terms available</div>';
+      if (combined.length === 0) {
+        container.innerHTML = '<div class="empty-state">No Overton Window items available</div>';
         return;
       }
       
-      container.innerHTML = terms.map(item => `
+      container.innerHTML = combined.map(item => `
         <div class="insight-item">
           <div class="source">${item.term}</div>
-          <div class="text">${item.description}</div>
+          <div class="text">${item.text}</div>
         </div>
       `).join('');
     }
@@ -179,7 +174,6 @@
     function renderAll() {
       updateStats();
       renderInsights();
-      renderDefinitions();
       renderOverton();
     }
     

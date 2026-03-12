@@ -1,0 +1,272 @@
+We were the freak chef, and we spent 20 years for this moment.
+We're doing it, we're doing it, and I'm sure you're enjoying this as much as I am.
+I just got three things to say.
+God bless our troops.
+God bless America.
+And shout on that.
+Don't.
+We are the power that actually has the decisive vote.
+And that is with military superiority.
+If Silicon Valley believes, we are going to take away everyone's white collar job.
+The most important thing to do is to make sure that American war fighters are much more likely to come home.
+If we are going to outperform the rest of the world, our single advantage is.
+There is a version of Silicon Valley that believes it operates outside of geopolitics.
+That the products it builds are neutral.
+That the rules of great power competition don't apply to software companies.
+Alex Carp has spent 20 years arguing the opposite.
+As co-founder and CEO of Palantir, he has built technology deployed on battlefields across the Middle East.
+And analytics infrastructure embedded in the Department of War.
+What has changed in the past year is harder to dismiss.
+American operations have demonstrated a level of precision and dominance that adversaries did not anticipate.
+Carp argues that is not an accident.
+His warning to the rest of the industry is equally direct.
+If AI companies don't make common cause with the defense establishment,
+nationalization becomes the politically obvious move.
+This conversation with Alex Carp, co-founder and CEO of Palantir,
+was recorded at the A16Z American Dynamism Summit in Washington, D.C.
+Dr. Carp, it is a pleasure to finally have the OG American dynamism founder on stage with us at the fourth annual summit.
+I think it has to do this.
+I think we all got the reference.
+Medi's in the audience.
+She's like, what is that?
+This is going to be a great conversation.
+If we had this conversation 72 hours ago, it would have been very different.
+Of course, there's been a lot of news.
+I want to get straight to the news and what's happening in the world because Palantir is certainly part of that story.
+Over the weekend, the US and Israel bombed Iran and Operation Epic Fury.
+I had told how many is dead.
+The Middle East is now at war.
+What do you think the situation means for the future of the West and you talk a lot about it and the future of America?
+First of all, I'm delighted to be on stage with you.
+Many of you in this audience, by the way, I've been talking so much.
+I'm kind of losing my voice.
+I wouldn't have probably canceled anyone but you, right?
+Well, that means that we're glad you're here.
+I love to cancel, by the way, for those of you.
+Because that's my favorite thing because actually I'm an introvert.
+Any excuse to cancel as Palantirians know it.
+But yeah, you've been such a force in public and behind the scenes for I think helping people in the broadly speaking defense tech or let America wins or things are good,
+broadly defined.
+And then we also align on something we could talk about later on, like the importance of not putting our youth in straight jackets because they're
+divergent neurologically, which is a passion of mine and should be a passion of everyone.
+Since you could define our wonderful and great country as a country where everyone who was divergent in ideology thought religion or quite frankly,
+neurologically came to this country to have a better place where they could express their freedom and had the right to a express what they thought.
+And there's a deep link between expressing what you think publicly and privately first and forth amendment and being able to think it.
+And if that doesn't work, being able to defend it with the second amendment.
+And last, not least, our founders did not structure these rights the way they are in, say, where I live for a lot of my life in Germany is rights granted to us by other bureaucrats.
+They're given to us. They're inalatable from a higher being.
+And I would just say before I get into how the world's changed.
+We have American warfighters on the battlefield, willing to sacrifice their lives, some of whom have sacrificed their lives.
+They have families and kids, the kids and families don't know if their loved ones are coming home and we, I know in this room, but we should publicly privately support them.
+And people who are not aware or somehow so effem spoiled that they don't realize what these people do for us, we should publicly humiliate them.
+And everyone has a role in that, and especially those of us who are writing a crest of intergenerational cultural intellectual courage advantage, which it is to be an American nowadays.
+Obviously, should not forget the warfighter who are disproportionately from the middle of our country and disproportionately have gotten screwed.
+I'm proud, very proud that a parent here, we get arrows and people, I mean, half the people attacking us.
+It'd be good if they spent two minutes on Wikipedia, at least learning the talking points they're regurgitating.
+But, you know, there's some legitimate criticisms of any company.
+But, at the end of the day, the fact is, the most important thing panelage here is doing, then I, other people in this room are doing and people like you and other people.
+It Jason or Ancillary to building more lethal and deadly weapons is to make sure that American warfighters are much more likely to come home.
+And quite frankly, the people who are trying to harm them know that they won't be coming home.
+And that's the way you stop people from attacking us, in my opinion, and then on the kind of leading up to what's going on.
+But I think that there are probably people in this room who are wildly supportive and their people who aren't.
+It is hard to deny that America is exerting a deterrent capability that was eviscerated.
+You can like, or not like, that's different than ignoring, we now have a deterrent capability that no other country appears to have.
+And that is, for lots of reasons, obviously, the warfighter, people organize the warfighter, the generals, the leadership, the president.
+But one advantage that often gets overlooked for reasons that make no sense is warfighting is technology.
+I spent half my life in Germany for familiar reasons, and then I wrote my PhD there.
+And then the rise of America after World War II, the recent America was able to win World War II, were technological advantages.
+And if you look what happened in Operation Midnight Hammer, what happened in Venezuela, what's so far happening in Iran, you see one society just totally dominating.
+That's our society. Now, you could get into, I mean, always in fights with my intellectual friends about it.
+They're like, but wouldn't it be better to have a law-based system where everyone is equal?
+Yeah, sure, and theory, but in this world is us or China or Russia.
+And I don't know how you guys feel about those decisions, but I literally believe we're doing the work of a higher purpose by making sure, and not just for America, but for the whole world, that we are the power that actually has the decisive vote.
+And there is only one way to do that. And that is with military superiority. And when I say military superiority, I don't mean that we're arguing on a PowerPoint.
+It means, so now you get to what is technology done. Now, again, I think whenever people like me are talking about this, you can't say enough that it's the warfighter and their courage. And I'm not doing that. I'm sitting here.
+And we are all over, like I'm talking to them constantly. So they're putting themselves in harm's way. And I am kind of, but not directly. It's mostly all the people who yell at me. And I guess maybe there are some people who want to shoot at me.
+In the lifetime of Palantir, there's been the rise of software, which essentially meant your software company that is supplying a state dinner.
+And it's obviously parasitic is not cutting it. Those companies are being eviscerated.
+The rise of defense tech, and now you have a hybrid software hardware AI, where you really need all three.
+Interestingly, from an investment perspective, I would say the last company standing before we all have to salute the overload of the LM will be Palantir.
+But it's mainly, we're going to get into that from us.
+Mainly because it's the specificity of, and the security and the orchestration. But none of that has to make any sense to anyone in this room.
+I'll tell you what it makes a lot of sense to our adversaries right now.
+Pal is America doing this. Now again, it's specialized ways. It's 25, 30 years of experience in fighting.
+It's meritocracy. The Department of War is the most meritocratic environment integrated and career before our society did.
+It is the most popular institution.
+And most revered institution, probably the only institution in America that is actually revered by the American people across every demographic.
+And it's revered by the American people across every demographic, precisely because it's been meritocratic.
+If you are a black American, you got your break in America by going to the military.
+If you wanted to be treated fairly, and you were from a group that you felt that every demographic has somebody who is in the military, whose life was changed.
+And it did something noble and wonderful for America.
+They also have the experience of coming home in America not sticking up for them.
+We should change that. Now you get to Silicon Valley. My one message for, and again, I don't, I'm without getting in specific people or because I'm like, if Silicon Valley believes we are going to take away everyone's white collar job, meaning primarily democratic shaped people who might grow up with highly educated people who went to elite schools or went to schools that are almost elite.
+Who vote for one party and you're going to screw the military.
+If you don't think that's going to lead to nationalization of our technology, you're retarded.
+And you might be particularly retarded because you have a 160 IQ, but this is where that path is going.
+Like you cannot have technologies that simultaneously take away everyone's job.
+And then be perceived. Again, there's a lot of subtlety here behind behind the curtain. I've been heavily involved in that subtlety.
+What can be where it can be deployed? What can be deployed? There's a difference between US military and surveillance.
+And despite what everyone thinks, pound here is the anti surveillance company.
+I know your personal online thinks that's not true, but every technical expert does. So I end up in every conversation that I don't want to be in.
+But the danger for our industry is that America, you get a famous horseshoe effect where there's only one thing people agree on.
+And that's that this is not paying the bills and people and our industry should be nationalized.
+And so the societal benefit that is going on in Iran besides the fact that I think I suspect the Iranian people feel like finally someone's on my side.
+And it wasn't the Berkeley faculty that was supposed to like me.
+It's a big lesson for you.
+But then as America, we and people who are prominent in the tech industry, you know, we have to find a way to make sure that we're not just popular in Palo Alto.
+I want to get back to something you just said, which is that, you know, it's either us winning or China winning or Russia winning or another country that it's a zero sum game.
+Like the people in this room in Washington really understand that AI is zero sum.
+But that Silicon Valley doesn't Silicon Valley doesn't like to think in terms of zero sum.
+They like to think that everything is a positive sum game. So how would you explain to the people in Silicon Valley who are, again, building the LLMs,
+you know, building what they would say is a brand new net new technology that hasn't existed before and therefore it needs to be treated differently.
+Well, I mean, there's, first of all, it's, it's, by the way, I just want to push back slightly, they do think it's zero sum, they think it's zero sum versus each other.
+So like they absolutely are fighting, there will be like, you know, it's my own rhetoric by happening to think it's true.
+It's going to be chips, ontology, and I suspect in the end one, one and a half provider.
+So they pretend they don't think it's zero sum, but then ask them how they feel about their competitor.
+So it's very, very, I mean, these people are fighting very, very hard for the dominant position.
+So like what they don't understand is in the world, it's zero sum.
+But I actually think the primary issue in the valley is it's going to be zero sum, these of you, when America decides it, okay, I have, I interact with a lot of political figures.
+I have a lot of respect, I think in summer, when politicians figure out this is the one winning issue, it is going to be zero sum.
+It's going to be your money and your company being zero sum nationalized.
+So that's the part they don't understand.
+Helping people understand that, you know, either we set the rules or de facto, like, I'm much more, I much more on America should be strong.
+So that we don't have to worry about the enemies, then our enemies are evil kind of things, so I'm not super neocon.
+It seems to be very hard in this culture as someone who's lived abroad a lot of my life.
+It's very hard in this culture to explain to people that were in a competitive environment because things here are so good.
+They don't understand how different it will be and how much we will change and how much the pressure will be on America, not just legally, but militarily and culturally, if we fall behind.
+And I, I, one of the things that, again, it's, so I personally think the better way to get people to change is to.
+Okay, bring people like that to Iowa, bring them to DC and explain to our American political leadership while you make $100 million and why a soldier from Iowa can explain to his wife, he has the best technology.
+And then go across the hall, so let's classically Republican shape, then go across the hall and talk to progressive Democrats about how everyone in their constituencies is not going to have a job.
+And then leave and imagine what's going to happen to you.
+You know, the funny thing about those of us who've spent most of our life abroad, like in Germany, or to phenomenal culture, we have a much better sense of how fragile this experience experiment is America.
+And it will go wrong if all wealth is going to a small number of people and those people do not appear to be on side.
+Now, that perception might is obviously a caricature.
+It is a caricature in the sense this is new technology and you're not going to be able to use the same kind of.
+Framework and you're going to need people who appreciate how it's different and there are real questions about fourth amendment protections like our right to privacy.
+In a world where you could impute what someone's doing at home through technology.
+How do you protect our right to have our own thoughts, our own ideas, our own practices at home, our own health records.
+Those are real issues when the technology can also help you to be healthier, live longer, have a higher economic status, potentially certainly if you're vocational worker.
+But so those issues have to be unpacked and where Silicon Valley is right is you're going to need a forum to talk about that that doesn't pretend.
+You know, at large language models is the same thing as machine learning is the same thing as software is the same thing as a bullet they're they're not.
+But but but but but but the fact that I I very much believe as a critique of the like a economic elite especially in in the technical area.
+There's there's like a to use an economic a kind of overlay academic a philosophical term they reify meaning they turn it into a thing.
+Our rights but those rights you know when I was in Germany I was there and there were I spent a lot of time by did a PhD.
+But I know there are a lot of older Germans and I would spend time with them in the countryside in the city of course they didn't know anybody he was a Nazi in the countryside they're like we're all Nazis.
+So I would ask them but one of the more fascinating conversations is why they became Democrats were not like left right but capital and it was always because it worked and then the unwinding of it that we don't ask if it unwinds.
+You know our it will we will not be protected and it's just the dialogue we have currently is not acknowledging what's going to happen politically what is happening politically the wealth tax is a derivative of this because everyone knows the wealth tax isn't going to help the poor it's just going to fuck the rich and that's enough to get it done.
+And if that's happening just imagine what's going to happen when it's like there's going to be 50 unlikeable people with all the money.
+Anybody here like that and you guys are doing well.
+No I want to get back to to kind of the conversation about how.
+How we ensure that the department of work continues to lead on AI because I think this has been top of mind for everyone in the room for the last 48 hours.
+Our adversaries are looking at you know contracting wars that are playing out in press releases you know what is your view on how we can ensure that we win this AI race against the PRC if you if you're giving advice to.
+All the founders and CEOs of you know the the well the first thing part of what I'm doing and what part of the reason I may be side to your charm and importance what part of the year is.
+I want.
+My reputation in the valve every you always have reputations my reputation which I'm not even saying the reputation is true.
+But in my case like I'm viewed as the batshit crazy guy who is often telling you something you don't want to hear and you may not like but is probably right.
+And that's true so yeah and that's why I want you to send this first step we have to they're not understanding the stakes and what I nothing's going to happen to people understand the stakes this will affect you.
+Now then the question is like what Hollywood did is Hollywood got together the whole rating system was Hollywood realized if we don't do rating ratings Washington's going to and Washington is going to butcher it.
+And they go it's even say Washington doesn't want to butcher it but like it doesn't understand the med TA so.
+The first step is everybody and I'm already on the phone with people saying okay great I understand your issue.
+But you realize the wolves are at the gate and they are ready of tasted blood.
+The second step is we have to find ways where we get together and say okay like if you just want to go through the issues yes there are you know using technologies and the context of officiating.
+The fourth amendment rights in America is a is something left and right in this country actually don't want it's a caricature to believe that either side once it there are people on the honestly I mean private rooms there are people on the left you don't care about these issues who pretend to do it in public.
+But there are people and their people on the right who pretend not to care who do care both parties have significant coalitions and the American people cares care and it's in our constitution.
+But then you have to get be very granular about what's going to happen on the battlefield because they're the the two issues Americans care about are their prosperity and they're safety.
+But if the if the two things that Silicon Valley has to figure out is what are we going to how are we going to ethically talk about what's going to happen to our economy.
+In my view you have you could create a lot of prosperity with trade shaped people.
+Okay, but what is going to happen to the white collar workers and what are we going to do that that's one issue and then we we're not going to agree but we have to have something like.
+We're going to do these initiatives just like Hollywood did and then you're going to have to have a discussion on the battlefield where you know the rebuttable presumption meaning it doesn't happen is that.
+The we are going to do the maximum amount to make sure our war fighters come home safely and if you are sitting in Silicon Valley making an argument that somehow would appreciate that or conversely.
+You're not able to understand what Silicon Valley saying meaning there's going to have to be a medium without going into details on all these breakdowns because.
+I was in the middle of it and I want to stay in the middle of it there are substantive issues and there are cultural issues.
+If we could get rid of the cultural misunderstanding we could get pretty close to agreements here, but you you're dealing with worlds that never ever ever talk yes and don't have an ability to talk to each other.
+Yeah well and you've been building a bridge between these cultures for 20 years I mean that's what's so interesting I mean that's in some ways why we have this conference is to bring together people who speak to different languages.
+Very different value sets and try to get them aligned.
+I love your advice for these founders who maybe are new you know it's sort of like that meme the first time meme with the co and brothers film you know where it's like a lot of these people are having their first conversations with the department of war or they don't ever they maybe don't have any family in the military maybe they never never met a war fighter.
+What is your advice to some of these CEOs who are maybe new to these conversations that you've been having for for 20 years now.
+Well the best thing you could do is go to Iowa or go to a base and have a comment like I don't think look this way maybe the first time.
+It's probably not PGA but you know I'm happily not married not divorced so don't follow how I live but you don't have to maybe if you're going to meet somebody you really want to press it may not maybe you have an advantage if it's your third girlfriend or boyfriend not your first.
+Like go have a conversation with somebody like if you're going to meet a general or somebody like that and you've never talked to somebody who's actually done something on the battlefield.
+Or someone who has family who's done something on the battlefield and you don't have any and because of that you don't have an ability to emphasize with their perspective.
+That's probably a huge mistake and I that's probably going to backfire last second video you have to be honest about where your aptitude is like you know.
+Silicon Valley tech builders probably defined hardware software AI.
+I would say we build in the military context essentially software scaffolding much more like in a weird way more like hardware software but it's software managing LLM's.
+It is the single biggest mistake people make in this area is because they're intelligent in one area.
+They assume they're intelligent in all areas and a big failure mechanism in the valley is every valley person is forced to present as if they're the smartest in all areas at all time.
+And that's like if you don't know who the mark is you're the mark like if you think you're the smartest, so I'm just like sick and I think one of the reasons I've done so well is I do think I'm one of the better people a certain things at least I believe it and I know I'm not at everything it's a very small it's like but.
+A failure mode for the valley is I miss smartest on every issue I for example I need to be the person negotiating this contract.
+Yeah.
+What if you have no aptitude for that just because you can do X does not mean you've imputed high aptitude at why in fact it's very unlikely it's true.
+Yeah.
+It's it's almost certain that you're just not smart enough to realize how bad you are.
+That's probably one of the most important lessons for for company builders in the room.
+I actually I want to end the conversation on Palantir is the OG American dynamism company.
+I think a lot of our founders in this room are indebted.
+They've worked for you. They've built their playbooks inside of Palantir.
+They built new companies that you know are epic in their own right, but they started a Palantir in many cases.
+And so I want to dive into you brought up the neurodivergent fellowship. It's one of my favorite things you've ever done.
+You've done a lot of great things, but I think it's one of the most extraordinary.
+It stands that you've taken in the company, but you've always looked for people who are different.
+And somehow cultivated them and brought together people who are Democrats or Republicans on the right on the left.
+People who are of all walks of life.
+How do you lead such a diverse group of people, especially at scale like that the scale you are?
+Well, I mean, it's always hard to know when you're.
+Like, I, I view myself as an artist. So you're really, it's like, well, how do you create the art?
+And it's funny because I, I mean, I look, I, I like the freedom money gives me.
+And I, I certainly don't want to like do some bullshit philanthropy to prove that I'm good.
+When, because I just something back, because I think what we do is very important.
+But it's like at the end of the day, it's like an artistic thing.
+But, you know, I had, it's always helpful.
+I had my parents are among the most talented people I've ever met.
+And I feel they don't agree with me that, you know, like, they should have, they could, like, it's kind of weird.
+I'm so famous.
+Put it that way from, and, um, I, um, I, I, and then there's the American thing where we are,
+I really believe in the magical liberating in a liberal right for all of us to be individuals.
+And that's what I see as particularly moral and special in the world.
+I don't like these things that, like, I've been famously anti-work, but in the thing I find offensive about it is actually that it's people pretending to be different while all being the same.
+So I don't, like, so I tend to gravitate towards people who are unique and yeah, I don't really care their politics.
+I care about, like, their ability to think and do.
+There is an aptitude thing where can you recognize somebody who is truly unique in something you've not done yourself is just something you're born with.
+I, I do think it's a form of neurodivergence, like, outlier IQ is it, if the a certain way, it's not that different than being autistic, like you just can't.
+You're not going to, you're not going to decomp a problem the way somebody who is all just normal smart will.
+And I find that very, very charismatic.
+The trick to doing it is you have to, it's this very hard thing where somebody who is the best, I, I believe the Palantirians.
+While managed a Palantir and sometimes in many and most cases presumably after a Palantir, I am helping them to express something that only they can do at that moment.
+And if you look at our products and what we've done, it is actually true, even what we're doing in like right now, it all across the Middle East and obviously in America, each single product at each single part was built by the one person in the world that could have done it.
+But then I have to somehow get them to do things that they don't actually think are valuable, but on their terms and that's basically my job because at that level of aptitude, you can't just say do this idiot because they're like, why would I do that, you're the idiot.
+And so, and then what I think is very special about the Palantirians, ex-Palantirians and current Palantirians is, when you're at Palantir, you're not learning to actually follow my playbook.
+You're learning to follow your playbook where I'm inserting some things that may not have occurred to you, maybe don't know I'm doing that, to make sure that your playbook gets rid of your dyslexia basically.
+I'm anti-dislexifying your playbook, but around you.
+And if you take the, I don't know there's so many really important ex-Palantirians, what you'll see is they're a kind of classic people and they're not going to build the same company Palantir was.
+They're also not going to build the same company and the ex-personalist Palantir, and that's why they play such a disproportional role.
+And at the end of the day, that's why Palantir is like playing such a big role because like, foundry, PG, Apollo, ontology, the management of ontology,
+Maven, which is like, you know, we've just like been able to target in a way, no other country can, it's like the other countries are like, what that happened here?
+Like, we were thinking Afghanistan, like, what is this meaning our retreat?
+Like, meaning, and like, like America has re-established deterrence.
+That actually just happened.
+It's happened in the last year.
+Like that right left center, I don't care what party you're in, in private.
+Obviously, you can't say this in public.
+In private, that is a phenomenal asset that America now has that it did not have.
+And there are lots of reasons for it.
+But a one, maybe not the most important is a concatenation of the most unusual.
+In some cases, otherwise, maybe not fully functional talent.
+Built around building something that was absolutely scandalous, unpopular dream rejected by many people, called Maven.
+And that's how this country, by the way, if we are going to outperform the rest of the world,
+our single advantage is to augment neurodivergent.
+It highly individual people to be their absolute unique best.
+And protect their first second, fourth, and fifth amendment rights, so that they don't get screwed.
+Yeah, absolutely.
+Well, again, the OG American Dynamism founder, thank you so much for all you've done for the country.
+Thank you.
+Thanks for listening to this episode of the A60Z podcast.
+If you liked this episode, be sure to like, comment, subscribe, leave us a rating or review, and share it with your friends and family.
+Or more episodes, go to YouTube, Apple Podcast and Spotify.
+Follow us on X, A60Z, and subscribe to our Substack at A60Z.substack.com.
+Thanks again for listening, and I'll see you in the next episode.
+As a reminder, the content here is for informational purposes only.
+Should not be taken as legal business, tax, or investment advice, or be used to evaluate any investment or security,
+and is not directed at any investors or potential investors in any A60Z fund.
+Please note that A60Z and its affiliates may also maintain investments in the company's discussed in this podcast.
+For more details, including a link to our investments, please see A60Z.com forward slash disclosures.
+Thank you for watching.

@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-17T06:46:27.292615",
+  "last_updated": "2026-03-12T14:41:33.072373",
   "episodes": {
     "the_jack_mallers_show_btfd?_understanding_bonds,_deb": {
       "info": {
@@ -311,6 +311,84 @@
         }
       },
       "first_seen": "2026-02-16T20:54:44.940510"
+    },
+    "monetary_matters_with_jack_farley_joseph_stiglitz:_higher_oil_an": {
+      "info": {
+        "podcast": "Monetary Matters with Jack Farley",
+        "title": "Joseph Stiglitz: Higher Oil and Food Prices From Iran War Risk 1970s-Era Stagflation ",
+        "published": "Wed, 11 Mar 2026 18:01:00 -0000",
+        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/EWWMN3228786308.mp3",
+        "keywords": [
+          "artificial intelligence",
+          "intel"
+        ]
+      },
+      "stages": {
+        "downloaded": {
+          "complete": false,
+          "timestamp": null
+        },
+        "transcribed": {
+          "complete": true,
+          "file": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/EWWMN3228786308.txt",
+          "timestamp": null
+        },
+        "analyzed": {
+          "complete": false,
+          "episode_id": null,
+          "timestamp": null
+        },
+        "insight_created": {
+          "complete": false,
+          "timestamp": null
+        },
+        "published": {
+          "complete": false,
+          "timestamp": null
+        }
+      },
+      "first_seen": "2026-03-12T14:41:33.061555"
+    },
+    "all-in_with_chamath,_jason,_sacks_&_friedberg_rewriting_the_rules:_the_sec_&": {
+      "info": {
+        "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+        "title": "Rewriting the Rules: The SEC & CFTC on Crypto, IPOs & the Future of American Markets",
+        "published": "Wed, 11 Mar 2026 19:59:00 +0000",
+        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/ALLIN-INTV_SEC_CFTC_Ch.mp3",
+        "keywords": [
+          "invest",
+          "market",
+          "trading",
+          "ipo",
+          "crypto",
+          "ai"
+        ]
+      },
+      "stages": {
+        "downloaded": {
+          "complete": false,
+          "timestamp": null
+        },
+        "transcribed": {
+          "complete": true,
+          "file": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/ALLIN-INTV_SEC_CFTC_Ch.txt",
+          "timestamp": null
+        },
+        "analyzed": {
+          "complete": false,
+          "episode_id": null,
+          "timestamp": null
+        },
+        "insight_created": {
+          "complete": false,
+          "timestamp": null
+        },
+        "published": {
+          "complete": false,
+          "timestamp": null
+        }
+      },
+      "first_seen": "2026-03-12T14:41:33.069608"
     }
   }
 }

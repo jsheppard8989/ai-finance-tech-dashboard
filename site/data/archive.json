@@ -1263,6 +1263,42 @@
   ],
   "definitions": [
     {
+      "id": 6,
+      "term": "Compute Deflation Trade",
+      "definition": "The investment thesis built around the 400x AI compute cost collapse: identifying who wins (inference-at-scale platforms, edge AI hardware) and who loses (legacy SaaS companies whose moats were priced assuming expensive AI).",
+      "investment_implications": "Long inference infrastructure and edge AI; short or underweight legacy SaaS with AI-priced multiples that cannot defend margin as compute commoditizes.",
+      "added_date": "2026-03-12",
+      "vote_count": 1,
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "display_order": 0
+    },
+    {
+      "id": 7,
+      "term": "Agentic Velocity",
+      "definition": "The compression of decision-making and capital deployment timescales as AI agents replace human workflow steps. Markets, deals, and competitive responses happen faster than human organizations can process.",
+      "investment_implications": "Favor companies building workflow automation infrastructure (orchestration, memory, guardrails). Traditional 5-year strategic planning cycles become a liability.",
+      "added_date": "2026-03-12",
+      "vote_count": 1,
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "display_order": 0
+    },
+    {
+      "id": 8,
+      "term": "Machine-Native Money",
+      "definition": "Payment rails designed for autonomous AI agents rather than human users.",
+      "investment_implications": "Pending analysis",
+      "added_date": "2026-03-12",
+      "vote_count": 1,
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "display_order": 0
+    },
+    {
       "id": 1,
       "term": "Dyson Swarm",
       "definition": "A hypothetical megastructure consisting of a vast array of solar collectors (satellites) orbiting a star to capture its energy output. Unlike a solid Dyson Sphere, a swarm allows for gradual construction and doesn't require implausible engineering.",

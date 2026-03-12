@@ -239,41 +239,54 @@ def analyze_transcript_with_ai(client_info, transcript_content: str, podcast_nam
             ending
         )
     
-    prompt = f"""You are an expert financial analyst and podcast curator. Analyze this podcast transcript from "{podcast_name}" and extract structured investment insights.
-
-TRANSCRIPT:
-{transcript_content}
-
-Please provide your analysis in this exact JSON format:
-{{
-  "episode_title": "Full episode title (infer from content or use descriptive title)",
-  "episode_date": "YYYY-MM-DD (infer from content, or use today's date if unclear)",
-  "summary": "2-3 paragraph summary of key investment themes and market insights discussed",
-  "key_takeaways": [
-    "5-7 bullet points of specific investment insights, market calls, or key arguments made"
-  ],
-  "key_tickers": ["LIST", "OF", "TICKERS", "MENTIONED"],
-  "investment_thesis": "1-2 sentence summary of the core investment opportunity or thesis presented",
-  "ticker_mentions": [
-    {{
-      "ticker": "TICKER",
-      "context": "Specific context from transcript about this ticker (1-2 sentences)",
-      "sentiment": "bullish|bearish|neutral",
-      "conviction_score": 75,
-      "timeframe": "short_term|medium_term|long_term",
-      "is_contrarian": false,
-      "is_disruption_focused": false
-    }}
-  ]
-}}
-
-Scoring guidelines:
-- conviction_score: 0-100 per ticker based on strength of argument (90+ for "deep dive/thesis", 70-89 for strong preference, 50-69 for positive mention, <50 for tracking/watching)
-- sentiment: Use explicit statements from speakers, not your inference
-- is_contrarian: true if speaker explicitly mentions going against consensus, "unloved", "underowned"
-- is_disruption_focused: true if discussing paradigm shifts, game changers, industry transformation
-
-Return ONLY valid JSON. No markdown, no explanations."""
+    prompt = (
+        "You are an expert financial analyst and podcast curator. "
+        f"Analyze this podcast transcript from \"{podcast_name}\" and extract structured investment insights.\n\n"
+        "TRANSCRIPT:\n"
+        f"{transcript_content}\n\n"
+        "Please provide your analysis in this exact JSON format:\n"
+        "{\n"
+        "  \"episode_title\": \"Full episode title (infer from content or use descriptive title)\",\n"
+        "  \"episode_date\": \"YYYY-MM-DD (infer from content, or use today's date if unclear)\",\n"
+        "  \"summary\": \"2-3 paragraph summary of key investment themes and market insights discussed\",\n"
+        "  \"key_takeaways\": [\n"
+        "    \"5-7 bullet points of specific investment insights, market calls, or key arguments made\"\n"
+        "  ],\n"
+        "  \"key_tickers\": [\"LIST\", \"OF\", \"TICKERS\", \"MENTIONED\"],\n"
+        "  \"investment_thesis\": \"1-2 sentence summary of the core investment opportunity or thesis presented\",\n"
+        "  \"guests\": [\n"
+        "    {\n"
+        "      \"name\": \"Full name of a main guest/interviewee\",\n"
+        "      \"role\": \"guest\",\n"
+        "      \"bio\": \"1-2 sentence bio (optional, only for important guests)\",\n"
+        "      \"known_for\": \"Short 'known for' line for investors (optional)\"\n"
+        "    }\n"
+        "  ],\n"
+        "  \"hosts\": [\n"
+        "    {\n"
+        "      \"name\": \"Full name of a recurring show host\",\n"
+        "      \"role\": \"host\"\n"
+        "    }\n"
+        "  ],\n"
+        "  \"ticker_mentions\": [\n"
+        "    {\n"
+        "      \"ticker\": \"TICKER\",\n"
+        "      \"context\": \"Specific context from transcript about this ticker (1-2 sentences)\",\n"
+        "      \"sentiment\": \"bullish|bearish|neutral\",\n"
+        "      \"conviction_score\": 75,\n"
+        "      \"timeframe\": \"short_term|medium_term|long_term\",\n"
+        "      \"is_contrarian\": false,\n"
+        "      \"is_disruption_focused\": false\n"
+        "    }\n"
+        "  ]\n"
+        "}\n\n"
+        "Scoring guidelines:\n"
+        "- conviction_score: 0-100 per ticker based on strength of argument (90+ for \"deep dive/thesis\", 70-89 for strong preference, 50-69 for positive mention, <50 for tracking/watching)\n"
+        "- sentiment: Use explicit statements from speakers, not your inference\n"
+        "- is_contrarian: true if speaker explicitly mentions going against consensus, \"unloved\", \"underowned\"\n"
+        "- is_disruption_focused: true if discussing paradigm shifts, game changers, industry transformation\n\n"
+        "Return ONLY valid JSON. No markdown, no explanations."
+    )
 
     try:
         if client_type == 'openai':
@@ -449,6 +462,23 @@ def process_transcript_file(transcript_path: Path, client_info, db) -> Optional[
         except Exception:
             pass  # keep AI-extracted date
 
+    # Derive key tickers directly from structured ticker_mentions.
+    # If none are present, we intentionally leave key_tickers empty
+    # so that no tickers are shown on the Insight card.
+    raw_ticker_mentions = analysis.get('ticker_mentions', []) or []
+    key_tickers_structured: list[str] = []
+    seen_tickers = set()
+    for tm in raw_ticker_mentions:
+        ticker = (tm.get('ticker') or '').strip().upper()
+        if not ticker:
+            continue
+        if ticker in seen_tickers:
+            continue
+        seen_tickers.add(ticker)
+        key_tickers_structured.append(ticker)
+        if len(key_tickers_structured) >= 6:
+            break
+
     # Create PodcastEpisode
     episode = PodcastEpisode(
         podcast_name=podcast_name,
@@ -457,13 +487,47 @@ def process_transcript_file(transcript_path: Path, client_info, db) -> Optional[
         transcript_path=str(transcript_path),
         summary=analysis.get('summary', '')[:2000],
         key_takeaways=analysis.get('key_takeaways', []),
-        key_tickers=analysis.get('key_tickers', []),
+        key_tickers=key_tickers_structured,
         investment_thesis=analysis.get('investment_thesis', '')[:500],
         relevance_score=80  # Fixed baseline; no AI-calculated relevance
     )
     
     episode_id = db.add_podcast_episode(episode)
     print(f"    ✓ Added episode (ID: {episode_id})")
+
+    # Ingest guests/hosts into semantic layer (entities + appearances)
+    from ingest_ai_analysis import upsert_entity, insert_appearance  # local import to avoid cycles
+
+    guests = analysis.get('guests') or []
+    hosts = analysis.get('hosts') or []
+
+    for g in guests:
+        name = (g.get('name') or '').strip()
+        if not name:
+            continue
+        bio = g.get('bio') or None
+        known_for = g.get('known_for') or None
+        entity_id = upsert_entity(name=name, type_='person', bio=bio, known_for=known_for)
+        insert_appearance(
+            entity_id=entity_id,
+            source_type='podcast',
+            source_id=episode_id,
+            role='guest_primary',
+            prominence=3,
+        )
+
+    for h in hosts:
+        name = (h.get('name') or '').strip()
+        if not name:
+            continue
+        entity_id = upsert_entity(name=name, type_='person')
+        insert_appearance(
+            entity_id=entity_id,
+            source_type='podcast',
+            source_id=episode_id,
+            role='host',
+            prominence=1,
+        )
 
     # Store rss_guid and published_date from sidecar
     if episode_id and (rss_guid or sidecar.get('published_date')):

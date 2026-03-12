@@ -1,25 +1,18 @@
 {
-  "timestamp": "2026-03-12T05:03:14.100156",
+  "timestamp": "2026-03-12T15:29:41.631121",
   "results": [
-    {
-      "podcast": "Monetary Matters with Jack Farley",
-      "title": "Joseph Stiglitz: Higher Oil and Food Prices From Iran War Risk 1970s-Era Stagflation ",
-      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/EWWMN3228786308.mp3",
-      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/EWWMN3228786308.txt",
-      "success": true
-    },
     {
       "podcast": "The a16z Show",
       "title": "Palantir CEO Alex Karp on the Zero-Sum AI Race",
       "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_20260312_83d9dbc0_d0fc_4194_abb3_69af1465.mp3",
-      "transcript_path": null,
-      "success": false
+      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/the_a16z_show_20260312_83d9dbc0_d0fc_4194_abb3_69af1465.txt",
+      "success": true
     },
     {
-      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "title": "Rewriting the Rules: The SEC & CFTC on Crypto, IPOs & the Future of American Markets",
-      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/ALLIN-INTV_SEC_CFTC_Ch.mp3",
-      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/ALLIN-INTV_SEC_CFTC_Ch.txt",
+      "podcast": "Macro Voices",
+      "title": "MacroVoices #523 Jim Bianco: Energy, FED & Economy in the wake of Iran conflict",
+      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/MacroVoices-2026-03-12-Jim-Bianco.mp3",
+      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/MacroVoices-2026-03-12-Jim-Bianco.txt",
       "success": true
     }
   ]

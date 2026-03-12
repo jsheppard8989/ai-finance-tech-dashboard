@@ -209,13 +209,13 @@
       border-radius: 2px;
     }
 
-    /* Definitions Section - Clickable Cards */
+    /* Definitions Section - Clickable Cards (visually merged with Overton items) */
     .definition-item {
-      background: rgba(0, 212, 255, 0.05);
-      border-left: 3px solid #00d4ff;
+      background: rgba(123, 44, 191, 0.1);
+      border: 1px solid rgba(123, 44, 191, 0.3);
       padding: 0.75rem;
       margin-bottom: 0.75rem;
-      border-radius: 0 10px 10px 0;
+      border-radius: 10px;
       cursor: pointer;
       transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
       position: relative;
@@ -236,9 +236,9 @@
     }
 
     .definition-item:hover {
-      border-left-width: 5px;
-      background: rgba(0, 212, 255, 0.08);
-      transform: translateX(4px);
+      border-color: rgba(123, 44, 191, 0.5);
+      background: rgba(123, 44, 191, 0.15);
+      transform: translateY(-2px);
     }
 
     .definition-item:hover::before {
@@ -246,9 +246,9 @@
     }
 
     .definition-item.active {
-      border-left-width: 6px;
-      background: rgba(0, 212, 255, 0.12);
-      box-shadow: 0 4px 20px rgba(0, 212, 255, 0.1);
+      border-color: rgba(123, 44, 191, 0.7);
+      background: rgba(123, 44, 191, 0.18);
+      box-shadow: 0 6px 22px rgba(123, 44, 191, 0.18);
     }
 
     .definition-item h3 {
@@ -1724,9 +1724,36 @@
       if (!container) return;
       
       // Get suggested terms from dashboardData
-      const suggestions = (typeof dashboardData !== 'undefined' && dashboardData.suggestedTerms) 
+      let suggestions = (typeof dashboardData !== 'undefined' && dashboardData.suggestedTerms) 
         ? dashboardData.suggestedTerms 
         : [];
+
+      // Filter out entries that correspond to people already recognized as pundits/guests
+      try {
+        const nameSet = new Set();
+        if (typeof dashboardData !== 'undefined') {
+          if (Array.isArray(dashboardData.pundits)) {
+            dashboardData.pundits.forEach(function(p) {
+              if (p && p.name) nameSet.add(String(p.name).trim());
+            });
+          }
+          if (Array.isArray(dashboardData.podcastGuests)) {
+            dashboardData.podcastGuests.forEach(function(g) {
+              if (g && g.name) nameSet.add(String(g.name).trim());
+            });
+          }
+        }
+        if (nameSet.size > 0) {
+          suggestions = suggestions.filter(function(s) {
+            var t = (s && s.term) ? String(s.term).trim() : '';
+            return t && !nameSet.has(t);
+          });
+        }
+      } catch (e) {
+        if (DEBUG_SITE) {
+          console.warn('Emerging terms filter error:', e);
+        }
+      }
       
       if (suggestions.length === 0) {
         container.innerHTML = '<div style="color: #8892b0; padding: 1rem; text-align: center;">No new terms detected</div>';
@@ -1790,11 +1817,8 @@
       const card = document.getElementById('guests-card');
       if (!container || !card) return;
 
-      // Prefer semantic-layer pundits; fall back to legacy podcastGuests for now
-      const pundits = (typeof dashboardData !== 'undefined' && Array.isArray(dashboardData.pundits)) ? dashboardData.pundits : [];
-      const guestsLegacy = (typeof dashboardData !== 'undefined' && Array.isArray(dashboardData.podcastGuests)) ? dashboardData.podcastGuests : [];
-
-      const items = pundits.length > 0 ? pundits : guestsLegacy;
+      // Pundits come purely from semantic-layer entities/appearances (guest_primary roles)
+      const items = (typeof dashboardData !== 'undefined' && Array.isArray(dashboardData.pundits)) ? dashboardData.pundits : [];
       if (items.length === 0) {
         container.innerHTML = '<p style="color: #8892b0; font-size: 0.9rem; padding: 1rem;">No pundits yet. Ensure transcripts are analyzed and the AI entity pipeline has run.</p>';
         return;
@@ -2412,7 +2436,7 @@
       grid.innerHTML = html;
 
       // Add click handlers to cards
-      document.querySelectorAll('.ticker-card').forEach(card => {
+      document.querySelectorAll('.ticker-card, .guest-item, .overton-item').forEach(card => {
         card.addEventListener('click', handleCardClick);
       });
 

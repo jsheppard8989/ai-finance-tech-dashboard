@@ -5895,3 +5895,55 @@ TypeError: 'NoneType' object is not subscriptable
 ============================================================
 STEP: Extract Podcast Guests
 ============================================================
+============================================================
+Extract Podcast Guests
+============================================================
+Processing 44 processed episodes
+  ✓ Harvard Professor Graham Allison ← All-In with Chamath, Jason, Sacks & Friedberg (2026-03-09)
+  ✓ Andrew Yang ← Moonshots with Peter Diamandis (2026-03-07)
+  ✓ cary ← The a16z Show (2026-03-05)
+  ✓ Ray Dahlia ← All-In with Chamath, Jason, Sacks & Friedberg (2026-03-03)
+  ✓ Mailbag Monday ← The Jack Mallers Show (2026-03-03)
+  ✓ Ben Horowitz ← Moonshots with Peter Diamandis (2026-02-19)
+  ✓ Berg ← Monetary Matters with Jack Farley (2026-02-06)
+  ✓ From Software to Hard Asset ← The Jack Mallers Show (2025-04-06)
+  ✓ Wolverine ← Monetary Matters with Jack Farley (2024-01-15)
+  ✓ Bosworth ← a16z Live (2023-12-21)
+  ✓ "A Huge Problem for Everybody" ← Monetary Matters with Jack Farley (2023-12-07)
+  ✓ shares insights ← Dwarkesh Podcast (2023-04-01)
+  ✓ Brett Adcock ← Moonshots with Peter Diamandis (2023-03-01)
+
+✓ Done. 13 guest(s) in database.
+
+✓ Extract Podcast Guests completed
+
+============================================================
+STEP: Export Website Data
+============================================================
+============================================================
+Exporting Website Data
+============================================================
+✓ Exported website data to /Users/jaredsheppard/.openclaw/workspace/site/data
+✓ Exported: {'ticker_scores': 41, 'podcast_summaries': 14, 'archive_items': 70, 'podcast_guests': 13}
+
+============================================================
+Generating Website JavaScript
+============================================================
+✓ Generated data.js with 41 tickers, 70 archive items, 60 deep dives, 4 suggested terms, 13 guests
+✓ Bumped data.js cache-buster to v=1773309889
+
+============================================================
+STEP: Push to GitHub
+============================================================
+✓ Pushed to GitHub: Pipeline update 2026-03-12 05:04: 2 podcasts, 2 insights, 0 newsletters
+  iMessage failed: Command '['/Users/jaredsheppard/.openclaw/workspace/send_imessage.sh', '+16306437437', 'Pipeline Update\n\n📊 Pipeline Complete\n\n🎙️ 2 new podcast(s) analyzed\n\n🌐 Website updated']' timed out after 15 seconds
+
+============================================================
+PIPELINE COMPLETE
+Finished: 2026-03-12 05:05:06.481174
+============================================================
+📊 Pipeline Complete
+
+🎙️ 2 new podcast(s) analyzed
+
+🌐 Website updated

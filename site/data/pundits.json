@@ -1,162 +1,90 @@
 [
   {
-    "id": 18,
-    "name": "Andrew Yang",
-    "slug": "andrew-yang",
-    "bio": null,
-    "known_for": null,
-    "last_seen": "2026-03-12 18:45:56"
+    "id": 54,
+    "name": "Jim Bianco",
+    "slug": "jim-bianco",
+    "bio": "Founder of Bianco Research, a provider of institutional research.",
+    "known_for": "In-depth analysis of financial markets and macroeconomic trends.",
+    "last_seen": "2026-03-12 20:30:09"
   },
   {
-    "id": 19,
-    "name": "discussing the future of work",
-    "slug": "discussing-the-future-of-work",
-    "bio": null,
-    "known_for": null,
-    "last_seen": "2026-03-12 18:45:56"
+    "id": 55,
+    "name": "Dr. Onus Alhajji",
+    "slug": "dr-onus-alhajji",
+    "bio": "Expert commentator on energy markets and geopolitical conflicts.",
+    "known_for": "Analysis of the impact of geopolitical events on oil markets.",
+    "last_seen": "2026-03-12 20:30:09"
   },
   {
-    "id": 20,
-    "name": "the impact of AI",
-    "slug": "the-impact-of-ai",
-    "bio": null,
-    "known_for": null,
-    "last_seen": "2026-03-12 18:45:56"
+    "id": 52,
+    "name": "Alex Carp",
+    "slug": "alex-carp",
+    "bio": "Co-founder and CEO of Palantir, a company that specializes in big data analytics.",
+    "known_for": "Building technology deployed on battlefields and analytics infrastructure embedded in the Department of Defense.",
+    "last_seen": "2026-03-12 20:29:53"
   },
   {
-    "id": 21,
-    "name": "an in-depth discussion",
-    "slug": "an-in-depth-discussion",
-    "bio": null,
-    "known_for": null,
-    "last_seen": "2026-03-12 18:45:56"
+    "id": 48,
+    "name": "Graham Allison",
+    "slug": "graham-allison",
+    "bio": "Founding dean of the Harvard Kennedy School, advisor to U.S. Secretaries of Defense, and author of 'Destined For War'.",
+    "known_for": "Expertise on U.S.-China relations and nuclear security.",
+    "last_seen": "2026-03-12 19:39:13"
   },
   {
-    "id": 22,
-    "name": "TN Yang",
-    "slug": "tn-yang",
-    "bio": null,
-    "known_for": null,
-    "last_seen": "2026-03-12 18:45:56"
+    "id": 47,
+    "name": "Michael Howell",
+    "slug": "michael-howell",
+    "bio": "Michael Howell is known for his work on global liquidity and his sub-stack Capital Wars.",
+    "known_for": "Expertise in global liquidity and its impact on financial markets",
+    "last_seen": "2026-03-12 19:39:05"
   },
   {
-    "id": 23,
-    "name": "CEO of Variant Perception",
-    "slug": "ceo-of-variant-perception",
-    "bio": null,
-    "known_for": null,
-    "last_seen": "2026-03-12 18:45:56"
+    "id": 45,
+    "name": "Alex Finn",
+    "slug": "alex-finn",
+    "bio": "Alex Finn is an AI enthusiast and expert who has been following the development of AI for a long time.",
+    "known_for": "His expertise and hands-on experience with AI, particularly with OpenClaw.",
+    "last_seen": "2026-03-12 19:38:58"
   },
   {
-    "id": 24,
-    "name": "to discuss the macro environment",
-    "slug": "to-discuss-the-macro-environment",
-    "bio": null,
-    "known_for": null,
-    "last_seen": "2026-03-12 18:45:56"
+    "id": 43,
+    "name": "Olivia Moore",
+    "slug": "olivia-moore",
+    "bio": "Partner at a16z",
+    "known_for": "Expertise in AI and its applications within the tech industry",
+    "last_seen": "2026-03-12 19:38:51"
   },
   {
-    "id": 25,
-    "name": "its implications for investment",
-    "slug": "its-implications-for-investment",
-    "bio": null,
-    "known_for": null,
-    "last_seen": "2026-03-12 18:45:56"
-  },
-  {
-    "id": 26,
-    "name": "Rick Rule",
-    "slug": "rick-rule",
-    "bio": null,
-    "known_for": null,
-    "last_seen": "2026-03-12 18:45:56"
-  },
-  {
-    "id": 27,
-    "name": "a prominent figure in the commodity space",
-    "slug": "a-prominent-figure-in-the-commodity-space",
-    "bio": null,
-    "known_for": null,
-    "last_seen": "2026-03-12 18:45:56"
-  },
-  {
-    "id": 28,
-    "name": "Milton Berg",
-    "slug": "milton-berg",
-    "bio": null,
-    "known_for": null,
-    "last_seen": "2026-03-12 18:45:56"
-  },
-  {
-    "id": 29,
-    "name": "a renowned technical analyst",
-    "slug": "a-renowned-technical-analyst",
-    "bio": null,
-    "known_for": null,
-    "last_seen": "2026-03-12 18:45:56"
-  },
-  {
-    "id": 30,
-    "name": "Carson Block",
-    "slug": "carson-block",
-    "bio": null,
-    "known_for": null,
-    "last_seen": "2026-03-12 18:45:56"
-  },
-  {
-    "id": 31,
-    "name": "founder of Muddy Waters Capital",
-    "slug": "founder-of-muddy-waters-capital",
-    "bio": null,
-    "known_for": null,
-    "last_seen": "2026-03-12 18:45:56"
-  },
-  {
-    "id": 32,
-    "name": "a leading activist short seller hedge fund",
-    "slug": "a-leading-activist-short-seller-hedge-fund",
-    "bio": null,
-    "known_for": null,
-    "last_seen": "2026-03-12 18:45:56"
-  },
-  {
-    "id": 9,
+    "id": 40,
     "name": "Garrett Langley",
     "slug": "garrett-langley",
-    "bio": "An electrical engineer who built a camera system to track cars entering his neighborhood, which later evolved into Flock Safety.",
-    "known_for": "Flock Safety",
-    "last_seen": "2026-03-12 18:45:55"
+    "bio": "Founder of Flock Safety, an electrical engineer turned entrepreneur.",
+    "known_for": "Developing a neighborhood safety system that evolved into a nationwide real-time crime prevention platform.",
+    "last_seen": "2026-03-12 19:38:37"
   },
   {
-    "id": 12,
-    "name": "Nobel Laureate Economist Professor Joseph Stiglitz",
-    "slug": "nobel-laureate-economist-professor-joseph-stiglitz",
-    "bio": null,
-    "known_for": null,
-    "last_seen": "2026-03-12 18:45:55"
+    "id": 38,
+    "name": "Joseph Stiglitz",
+    "slug": "joseph-stiglitz",
+    "bio": "Nobel Laureate Economist and Professor at Columbia University",
+    "known_for": "Author of 'Road to Freedom, Economics, and the Good Society'",
+    "last_seen": "2026-03-12 19:38:30"
   },
   {
-    "id": 13,
-    "name": "a discussion with SEC chair Paul Ackens",
-    "slug": "a-discussion-with-sec-chair-paul-ackens",
-    "bio": null,
-    "known_for": null,
-    "last_seen": "2026-03-12 18:45:55"
+    "id": 33,
+    "name": "Paul Ackens",
+    "slug": "paul-ackens",
+    "bio": "SEC chair with a history in corporation finance work.",
+    "known_for": "Shaping capital markets and regulatory oversight.",
+    "last_seen": "2026-03-12 19:38:22"
   },
   {
-    "id": 14,
-    "name": "CFTC chair Michael Cilig",
-    "slug": "cftc-chair-michael-cilig",
-    "bio": null,
-    "known_for": null,
-    "last_seen": "2026-03-12 18:45:55"
-  },
-  {
-    "id": 15,
-    "name": "founder of Flock Safety",
-    "slug": "founder-of-flock-safety",
-    "bio": null,
-    "known_for": null,
-    "last_seen": "2026-03-12 18:45:55"
+    "id": 34,
+    "name": "Michael Cilig",
+    "slug": "michael-cilig",
+    "bio": "CFTC chair with expertise in commodities and financial markets.",
+    "known_for": "Regulatory oversight in commodities and financial markets.",
+    "last_seen": "2026-03-12 19:38:22"
   }
 ]

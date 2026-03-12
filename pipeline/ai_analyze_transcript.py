@@ -86,6 +86,8 @@ Return JSON with two keys:
 - "people": array of objects with fields:
     - "name": person speaking or discussed (only real people, no shows or topics)
     - "role": "host", "guest", or "panelist" (best guess)
+    - "bio": OPTIONAL 1-2 sentence bio for important guests (omit or empty if trivial)
+    - "known_for": OPTIONAL short string of what this person is best known for to investors
 - "ideas": array of objects with fields:
     - "speaker_name": who primarily advances the idea
     - "summary": 1-2 sentence summary of the idea (investment/macro relevant)
