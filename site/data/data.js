@@ -2,7 +2,7 @@
 // DO NOT EDIT MANUALLY
 
 const dashboardData = {
-  generatedAt: "2026-03-12T05:04:49.135891",
+  generatedAt: "2026-03-12T07:15:17.893039",
   tickerScores: [
   {
     "ticker": "BTC",
@@ -6002,7 +6002,7 @@ const dashboardData = {
 ],
   podcastGuests: [
   {
-    "id": 85,
+    "id": 98,
     "name": "Harvard Professor Graham Allison",
     "slug": "harvard-professor-graham-allison",
     "bio": null,
@@ -6014,11 +6014,11 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 86,
+    "id": 99,
     "name": "Andrew Yang",
     "slug": "andrew-yang",
-    "bio": null,
-    "known_for": null,
+    "bio": "Andrew Yang is an entrepreneur and political leader who popularized universal basic income in U.S. politics through his 2020 presidential campaign.",
+    "known_for": "Advocating the 'Freedom Dividend' and automation-focused economic policy.",
     "last_main_idea": "Invest in sectors and technologies that are driving the fourth industrial revolution, with a focus on AI, robotics, and automation, while also considering the social implications and potential for new economic models like UBI and UHI.",
     "last_episode_title": "The Future of Work and Income with Andrew Yang",
     "last_podcast_name": "Moonshots with Peter Diamandis",
@@ -6026,23 +6026,11 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 87,
-    "name": "cary",
-    "slug": "cary",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Investment in AI technology companies requires careful consideration of the political and ethical landscape, as well as the potential for government intervention and regulation.",
-    "last_episode_title": "Anthropic and Alignment: The Intersection of AI, Politics, and Business",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-03-05",
-    "appearance_count": 1
-  },
-  {
-    "id": 88,
-    "name": "Ray Dahlia",
-    "slug": "ray-dahlia",
-    "bio": null,
-    "known_for": null,
+    "id": 100,
+    "name": "Ray Dalio",
+    "slug": "ray-dalio",
+    "bio": "Ray Dalio is the founder of Bridgewater Associates and a macro investor known for his 'Principles' framework and work on long-term debt cycles.",
+    "known_for": "Macro investing at Bridgewater and analysis of global debt cycles.",
     "last_main_idea": "The current high debt levels and fiscal policies pose significant risks to the U.S. economy, requiring careful management of interest rates and a balanced approach to financial prudence and innovation.",
     "last_episode_title": "The Great Debt Cycle and Economic Outlook",
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
@@ -6050,23 +6038,11 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 89,
-    "name": "Mailbag Monday",
-    "slug": "mailbag-monday",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Bitcoin is presented as a deep value investment and a hedge against the fragility of the current financial and geopolitical systems.",
-    "last_episode_title": "Mailbag Monday: War, AI, and Deep Value in Bitcoin",
-    "last_podcast_name": "The Jack Mallers Show",
-    "last_episode_date": "2026-03-03",
-    "appearance_count": 1
-  },
-  {
-    "id": 90,
+    "id": 101,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
-    "bio": null,
-    "known_for": null,
+    "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
+    "known_for": "Co-founding a16z and authoring 'The Hard Thing About Hard Things'.",
     "last_main_idea": "The talent movements at xAI and the SSI valuation are the two most important signals from this episode. When top engineers leave a lab, it tells you something about the internal direction. When Ilya commands a $5B valuation on safety-first principles, it tells you the market believes safety-conscious AI development has commercial value. Apple's crisis is the clearest short thesis in consumer tech ",
     "last_episode_title": "Ben Horowitz: xAI Executive Exodus, Ilya's $5B SSI Valuation, Apple's AI Crisis, The Pace of AI | #232",
     "last_podcast_name": "Moonshots with Peter Diamandis",
@@ -6074,11 +6050,11 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 91,
-    "name": "Berg",
-    "slug": "berg",
-    "bio": null,
-    "known_for": null,
+    "id": 102,
+    "name": "Milton Berg",
+    "slug": "milton-berg",
+    "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
+    "known_for": "Decades of macro/technical work identifying equity and commodity inflection points.",
     "last_main_idea": "Milton Berg's investment thesis is based on identifying market turning points through rare occurrences and historical precedents, rather than traditional indicators, and adjusting positions accordingly.",
     "last_episode_title": "Monetary Matters with Jack Farley: Analyzing Market Signals and Investment Strategies with Milton Berg",
     "last_podcast_name": "Monetary Matters with Jack Farley",
@@ -6086,31 +6062,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 92,
-    "name": "From Software to Hard Asset",
-    "slug": "from-software-to-hard-asset",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Bitcoin's current dip may signal a shift in how it is perceived and traded, transitioning from a software stock to a hard asset, which could be beneficial for its long-term value.",
-    "last_episode_title": "From Software to Hard Asset: Bitcoin and the New Liquidity Regime",
-    "last_podcast_name": "The Jack Mallers Show",
-    "last_episode_date": "2025-04-06",
-    "appearance_count": 1
-  },
-  {
-    "id": 93,
-    "name": "Wolverine",
-    "slug": "wolverine",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Audio wearables represent next computing platform after smartphones. Success depends on solving wearability challenges and achieving social acceptance. Translation and hearing enhancement are killer apps that could drive mass adoption.",
-    "last_episode_title": "Wolverine: Machine-Mediated Hearing and the Future of Audio Computing",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2024-01-15",
-    "appearance_count": 1
-  },
-  {
-    "id": 94,
+    "id": 103,
     "name": "Bosworth",
     "slug": "bosworth",
     "bio": null,
@@ -6122,35 +6074,11 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 95,
-    "name": "\"A Huge Problem for Everybody\"",
-    "slug": "a-huge-problem-for-everybody",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "The resilience and continued dominance of the US dollar in international finance present a stable backdrop for investment strategies, despite the potential for long-term erosion.",
-    "last_episode_title": "\"A Huge Problem for Everybody\" | Paul Krugman on Currency Devaluation",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2023-12-07",
-    "appearance_count": 1
-  },
-  {
-    "id": 96,
-    "name": "shares insights",
-    "slug": "shares-insights",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Investment in technology, particularly AI and machine learning, is justified by the ongoing exponential growth and the potential for significant advancements in efficiency and capability.",
-    "last_episode_title": "Dario Amodei \u2014 \"We Are Near the End of the Exponential\"",
-    "last_podcast_name": "Dwarkesh Podcast",
-    "last_episode_date": "2023-04-01",
-    "appearance_count": 1
-  },
-  {
-    "id": 97,
+    "id": 104,
     "name": "Brett Adcock",
     "slug": "brett-adcock",
-    "bio": null,
-    "known_for": null,
+    "bio": "Brett Adcock is a serial founder behind Vettery, Archer Aviation, and Figure, building in eVTOL, humanoid robotics, and frontier AI.",
+    "known_for": "Founding Figure AI and Archer Aviation in next-gen robotics and aviation.",
     "last_main_idea": "Investment in neural network technology and autonomous robotics is poised for significant growth, with the potential to disrupt traditional manufacturing and create new market opportunities.",
     "last_episode_title": "Humanoid Run on Neural Net, Autonomous Manufacturing, $50T Market #229",
     "last_podcast_name": "Moonshots with Peter Diamandis",

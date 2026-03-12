@@ -8,8 +8,6 @@ Run after analyze_transcript (e.g. in pipeline or manually).
 import re
 import sys
 import json
-import urllib.request
-import urllib.parse
 from pathlib import Path
 from datetime import datetime
 from typing import Optional
@@ -17,67 +15,49 @@ from typing import Optional
 sys.path.insert(0, str(Path(__file__).parent))
 from db_manager import get_db
 
-# Cache file for Wikipedia responses to avoid repeated requests
-WIKI_CACHE_DIR = Path.home() / ".openclaw/workspace/pipeline/state"
-WIKI_CACHE_DIR.mkdir(parents=True, exist_ok=True)
-WIKI_CACHE_FILE = WIKI_CACHE_DIR / "wiki_guest_cache.json"
+# Grokipedia-style overrides: curated bios, known-for, fixes, and blocklist
+OVERRIDES_PATH = Path.home() / ".openclaw/workspace/pipeline/guest_overrides.json"
+_OVERRIDES_CACHE = None
 
 
-def _load_wiki_cache():
-    if WIKI_CACHE_FILE.exists():
+def load_overrides():
+    global _OVERRIDES_CACHE
+    if _OVERRIDES_CACHE is not None:
+        return _OVERRIDES_CACHE
+    data = {"blocklist": [], "fixes": {}, "overrides": {}}
+    if OVERRIDES_PATH.exists():
         try:
-            with open(WIKI_CACHE_FILE, "r") as f:
-                return json.load(f)
+            with open(OVERRIDES_PATH, "r") as f:
+                raw = json.load(f)
+            if isinstance(raw, dict):
+                data["blocklist"] = raw.get("blocklist", []) or []
+                data["fixes"] = raw.get("fixes", {}) or {}
+                data["overrides"] = raw.get("overrides", {}) or {}
         except Exception:
             pass
-    return {}
+    _OVERRIDES_CACHE = data
+    return data
 
 
-def _save_wiki_cache(cache):
-    try:
-        with open(WIKI_CACHE_FILE, "w") as f:
-            json.dump(cache, f, indent=0)
-    except Exception:
-        pass
-
-
-def fetch_wikipedia_summary(name: str) -> tuple:
-    """Fetch short bio and 'known for' from Wikipedia API. Returns (bio, known_for). Uses cache."""
-    cache = _load_wiki_cache()
-    key = name.strip().lower()
-    if key in cache:
-        return cache[key].get("bio"), cache[key].get("known_for")
-
-    bio = None
-    known_for = None
-    try:
-        # Wikipedia API: get page extract (first paragraph) and optional description
-        url = "https://en.wikipedia.org/w/api.php?" + urllib.parse.urlencode({
-            "action": "query",
-            "titles": name,
-            "prop": "extract|pageprops",
-            "exintro": "1",
-            "explaintext": "1",
-            "exsentences": "3",
-            "redirects": "1",
-            "format": "json",
-        })
-        req = urllib.request.Request(url, headers={"User-Agent": "OpenClaw/1.0"})
-        with urllib.request.urlopen(req, timeout=5) as resp:
-            data = json.loads(resp.read())
-        pages = data.get("query", {}).get("pages", {})
-        page = next((p for p in pages.values() if p.get("extract")), None)
-        if page:
-            bio = (page.get("extract") or "").strip()[:500]
-            # "Known for" often in first sentence or from description
-            if bio and "." in bio:
-                known_for = bio.split(".")[0].strip() + "."
-    except Exception:
-        pass
-
-    cache[key] = {"bio": bio, "known_for": known_for}
-    _save_wiki_cache(cache)
-    return bio, known_for
+def grokipedia_lookup(name: str) -> tuple:
+    """
+    Grokipedia-style lookup: use local overrides for bios/known_for and name fixes.
+    Returns (fixed_name, bio, known_for, blocked: bool).
+    """
+    ov = load_overrides()
+    raw = name.strip()
+    # Blocklist
+    if raw in ov["blocklist"]:
+        return raw, None, None, True
+    # Fixes (None = drop)
+    fixed = ov["fixes"].get(raw, raw)
+    if fixed is None:
+        return raw, None, None, True
+    # Curated overrides
+    entry = ov["overrides"].get(fixed) or ov["overrides"].get(raw)
+    bio = (entry or {}).get("bio")
+    known_for = (entry or {}).get("known_for")
+    return fixed, bio, known_for, False
 
 
 def extract_guest_name(episode_title: str, summary: str, podcast_name: str = "") -> Optional[str]:
@@ -165,6 +145,9 @@ def main():
         if not guest:
             continue
         guest_clean = guest.strip()
+        guest_clean, bio, known_for, blocked = grokipedia_lookup(guest_clean)
+        if blocked:
+            continue
 
         last_main_idea = (investment_thesis or "").strip()
         if not last_main_idea and key_takeaways:
@@ -174,8 +157,6 @@ def main():
             except Exception:
                 last_main_idea = ""
         last_main_idea = (last_main_idea or "—")[:400]
-
-        bio, known_for = fetch_wikipedia_summary(guest_clean)
         db.upsert_podcast_guest(
             name=guest_clean,
             last_episode_id=ep_id,

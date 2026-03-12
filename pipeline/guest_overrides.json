@@ -1,0 +1,54 @@
+{
+  "blocklist": [
+    "Mailbag Monday",
+    "From Software to Hard Asset",
+    "Wolverine",
+    "\"A Huge Problem for Everybody\"",
+    "shares insights",
+    "Oil, Bonds, and Bitcoin"
+  ],
+  "fixes": {
+    "Ray Dahlia": "Ray Dalio",
+    "Berg": "Milton Berg",
+    "cary": null
+  },
+  "overrides": {
+    "Graham Allison": {
+      "bio": "Graham Allison is a Harvard Kennedy School professor and former U.S. Assistant Secretary of Defense, best known for 'Essence of Decision' and his work on U.S.-China great power rivalry.",
+      "known_for": "Harvard political scientist focused on nuclear security and Thucydides Trap analysis."
+    },
+    "Andrew Yang": {
+      "bio": "Andrew Yang is an entrepreneur and political leader who popularized universal basic income in U.S. politics through his 2020 presidential campaign.",
+      "known_for": "Advocating the 'Freedom Dividend' and automation-focused economic policy."
+    },
+    "Ben Horowitz": {
+      "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
+      "known_for": "Co-founding a16z and authoring 'The Hard Thing About Hard Things'."
+    },
+    "Brett Adcock": {
+      "bio": "Brett Adcock is a serial founder behind Vettery, Archer Aviation, and Figure, building in eVTOL, humanoid robotics, and frontier AI.",
+      "known_for": "Founding Figure AI and Archer Aviation in next-gen robotics and aviation."
+    },
+    "Milton Berg": {
+      "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
+      "known_for": "Decades of macro/technical work identifying equity and commodity inflection points."
+    },
+    "Carson Block": {
+      "bio": "Carson Block is the founder of Muddy Waters Research, a short seller known for exposing accounting frauds in global equities.",
+      "known_for": "Activist short-selling and forensic research at Muddy Waters."
+    },
+    "David Sinclair": {
+      "bio": "David Sinclair is a Harvard Medical School geneticist whose research on sirtuins, NAD+, and epigenetics helped shape the modern science of aging.",
+      "known_for": "Longevity science and authoring 'Lifespan: Why We Age—and Why We Don't Have To'."
+    },
+    "Andrew Bosworth": {
+      "bio": "Andrew 'Boz' Bosworth is Meta's Chief Technology Officer and head of Reality Labs, leading AR/VR and metaverse-focused computing efforts.",
+      "known_for": "Building Facebook's News Feed and now steering Meta's AR/VR strategy."
+    },
+    "Ray Dalio": {
+      "bio": "Ray Dalio is the founder of Bridgewater Associates and a macro investor known for his 'Principles' framework and work on long-term debt cycles.",
+      "known_for": "Macro investing at Bridgewater and analysis of global debt cycles."
+    }
+  }
+}
+
