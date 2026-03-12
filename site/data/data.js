@@ -2,7 +2,7 @@
 // DO NOT EDIT MANUALLY
 
 const dashboardData = {
-  generatedAt: "2026-03-12T08:30:18.355184",
+  generatedAt: "2026-03-12T11:29:08.911896",
   chartsVersion: "2026-03-12T08:30:18.018679",
   tickerScores: [
   {
