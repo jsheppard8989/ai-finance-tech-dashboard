@@ -1,8 +1,9 @@
-// Auto-generated data file - 2026-03-12T15:30:40.388419
+// Auto-generated data file
 // DO NOT EDIT MANUALLY
 
 const dashboardData = {
-  generatedAt: "2026-03-12T15:30:40.388457",
+  generatedAt: "2026-03-12T15:50:28.978760",
+  chartsVersion: "2026-03-12T08:30:18.018679",
   tickerScores: [
   {
     "ticker": "BTC",
@@ -6049,6 +6050,182 @@ const dashboardData = {
     "relevance_score": 50,
     "submitted_date": "2026-03-11 03:05:24",
     "priority_score": 210
+  }
+],
+  podcastGuests: [
+  {
+    "id": 98,
+    "name": "Harvard Professor Graham Allison",
+    "slug": "harvard-professor-graham-allison",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "The global semiconductor supply chain, with a focus on Taiwan's TSMC, presents both risks and opportunities in the context of U.S.-China relations and economic inequality.",
+    "last_episode_title": "All-In with Chamath, Jason, Sacks & Friedberg - Discussion with Graham Allison",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-03-09",
+    "appearance_count": 1
+  },
+  {
+    "id": 99,
+    "name": "Andrew Yang",
+    "slug": "andrew-yang",
+    "bio": "Andrew Yang is an entrepreneur and political leader who popularized universal basic income in U.S. politics through his 2020 presidential campaign.",
+    "known_for": "Advocating the 'Freedom Dividend' and automation-focused economic policy.",
+    "last_main_idea": "Invest in sectors and technologies that are driving the fourth industrial revolution, with a focus on AI, robotics, and automation, while also considering the social implications and potential for new economic models like UBI and UHI.",
+    "last_episode_title": "The Future of Work and Income with Andrew Yang",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-03-07",
+    "appearance_count": 1
+  },
+  {
+    "id": 100,
+    "name": "Ray Dalio",
+    "slug": "ray-dalio",
+    "bio": "Ray Dalio is the founder of Bridgewater Associates and a macro investor known for his 'Principles' framework and work on long-term debt cycles.",
+    "known_for": "Macro investing at Bridgewater and analysis of global debt cycles.",
+    "last_main_idea": "The current high debt levels and fiscal policies pose significant risks to the U.S. economy, requiring careful management of interest rates and a balanced approach to financial prudence and innovation.",
+    "last_episode_title": "The Great Debt Cycle and Economic Outlook",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-03-03",
+    "appearance_count": 1
+  },
+  {
+    "id": 101,
+    "name": "Ben Horowitz",
+    "slug": "ben-horowitz",
+    "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
+    "known_for": "Co-founding a16z and authoring 'The Hard Thing About Hard Things'.",
+    "last_main_idea": "The talent movements at xAI and the SSI valuation are the two most important signals from this episode. When top engineers leave a lab, it tells you something about the internal direction. When Ilya commands a $5B valuation on safety-first principles, it tells you the market believes safety-conscious AI development has commercial value. Apple's crisis is the clearest short thesis in consumer tech ",
+    "last_episode_title": "Ben Horowitz: xAI Executive Exodus, Ilya's $5B SSI Valuation, Apple's AI Crisis, The Pace of AI | #232",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-02-19",
+    "appearance_count": 1
+  },
+  {
+    "id": 102,
+    "name": "Milton Berg",
+    "slug": "milton-berg",
+    "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
+    "known_for": "Decades of macro/technical work identifying equity and commodity inflection points.",
+    "last_main_idea": "Milton Berg's investment thesis is based on identifying market turning points through rare occurrences and historical precedents, rather than traditional indicators, and adjusting positions accordingly.",
+    "last_episode_title": "Monetary Matters with Jack Farley: Analyzing Market Signals and Investment Strategies with Milton Berg",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-02-06",
+    "appearance_count": 1
+  },
+  {
+    "id": 103,
+    "name": "Bosworth",
+    "slug": "bosworth",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Investing in the evolution of consumer technology interfaces presents an opportunity to capitalize on the shift towards more immersive and adaptive AI-enabled experiences.",
+    "last_episode_title": "The Future of Consumer Technology and Interfaces",
+    "last_podcast_name": "a16z Live",
+    "last_episode_date": "2023-12-21",
+    "appearance_count": 1
+  },
+  {
+    "id": 104,
+    "name": "Brett Adcock",
+    "slug": "brett-adcock",
+    "bio": "Brett Adcock is a serial founder behind Vettery, Archer Aviation, and Figure, building in eVTOL, humanoid robotics, and frontier AI.",
+    "known_for": "Founding Figure AI and Archer Aviation in next-gen robotics and aviation.",
+    "last_main_idea": "Investment in neural network technology and autonomous robotics is poised for significant growth, with the potential to disrupt traditional manufacturing and create new market opportunities.",
+    "last_episode_title": "Humanoid Run on Neural Net, Autonomous Manufacturing, $50T Market #229",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2023-03-01",
+    "appearance_count": 1
+  }
+],
+  pundits: [
+  {
+    "id": 54,
+    "name": "Jim Bianco",
+    "slug": "jim-bianco",
+    "bio": "Founder of Bianco Research, a provider of institutional research.",
+    "known_for": "In-depth analysis of financial markets and macroeconomic trends.",
+    "last_seen": "2026-03-12 20:30:09"
+  },
+  {
+    "id": 55,
+    "name": "Dr. Onus Alhajji",
+    "slug": "dr-onus-alhajji",
+    "bio": "Expert commentator on energy markets and geopolitical conflicts.",
+    "known_for": "Analysis of the impact of geopolitical events on oil markets.",
+    "last_seen": "2026-03-12 20:30:09"
+  },
+  {
+    "id": 52,
+    "name": "Alex Carp",
+    "slug": "alex-carp",
+    "bio": "Co-founder and CEO of Palantir, a company that specializes in big data analytics.",
+    "known_for": "Building technology deployed on battlefields and analytics infrastructure embedded in the Department of Defense.",
+    "last_seen": "2026-03-12 20:29:53"
+  },
+  {
+    "id": 48,
+    "name": "Graham Allison",
+    "slug": "graham-allison",
+    "bio": "Founding dean of the Harvard Kennedy School, advisor to U.S. Secretaries of Defense, and author of 'Destined For War'.",
+    "known_for": "Expertise on U.S.-China relations and nuclear security.",
+    "last_seen": "2026-03-12 19:39:13"
+  },
+  {
+    "id": 47,
+    "name": "Michael Howell",
+    "slug": "michael-howell",
+    "bio": "Michael Howell is known for his work on global liquidity and his sub-stack Capital Wars.",
+    "known_for": "Expertise in global liquidity and its impact on financial markets",
+    "last_seen": "2026-03-12 19:39:05"
+  },
+  {
+    "id": 45,
+    "name": "Alex Finn",
+    "slug": "alex-finn",
+    "bio": "Alex Finn is an AI enthusiast and expert who has been following the development of AI for a long time.",
+    "known_for": "His expertise and hands-on experience with AI, particularly with OpenClaw.",
+    "last_seen": "2026-03-12 19:38:58"
+  },
+  {
+    "id": 43,
+    "name": "Olivia Moore",
+    "slug": "olivia-moore",
+    "bio": "Partner at a16z",
+    "known_for": "Expertise in AI and its applications within the tech industry",
+    "last_seen": "2026-03-12 19:38:51"
+  },
+  {
+    "id": 40,
+    "name": "Garrett Langley",
+    "slug": "garrett-langley",
+    "bio": "Founder of Flock Safety, an electrical engineer turned entrepreneur.",
+    "known_for": "Developing a neighborhood safety system that evolved into a nationwide real-time crime prevention platform.",
+    "last_seen": "2026-03-12 19:38:37"
+  },
+  {
+    "id": 38,
+    "name": "Joseph Stiglitz",
+    "slug": "joseph-stiglitz",
+    "bio": "Nobel Laureate Economist and Professor at Columbia University",
+    "known_for": "Author of 'Road to Freedom, Economics, and the Good Society'",
+    "last_seen": "2026-03-12 19:38:30"
+  },
+  {
+    "id": 33,
+    "name": "Paul Ackens",
+    "slug": "paul-ackens",
+    "bio": "SEC chair with a history in corporation finance work.",
+    "known_for": "Shaping capital markets and regulatory oversight.",
+    "last_seen": "2026-03-12 19:38:22"
+  },
+  {
+    "id": 34,
+    "name": "Michael Cilig",
+    "slug": "michael-cilig",
+    "bio": "CFTC chair with expertise in commodities and financial markets.",
+    "known_for": "Regulatory oversight in commodities and financial markets.",
+    "last_seen": "2026-03-12 19:38:22"
   }
 ]
 };

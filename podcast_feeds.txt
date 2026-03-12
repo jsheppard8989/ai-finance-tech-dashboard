@@ -4,3 +4,4 @@ https://feeds.simplecast.com/JGE3yC0V
 https://rss.libsyn.com/shows/254861/destinations/1928300.xml
 https://anchor.fm/s/e29097f4/podcast/rss
 https://feed.podbean.com/macrovoices/feed.xml
+https://api.substack.com/feed/podcast/69345.rss

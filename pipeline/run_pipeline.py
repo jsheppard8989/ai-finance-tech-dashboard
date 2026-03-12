@@ -60,6 +60,8 @@ def import_newsletters_to_db():
     
     db = get_db()
     inbox_dir = Path.home() / ".openclaw/workspace/pipeline/inbox"
+    processed_dir = inbox_dir / "processed_db"
+    processed_dir.mkdir(exist_ok=True)
     
     imported = 0
     for json_file in inbox_dir.glob("*.json"):
@@ -94,6 +96,12 @@ def import_newsletters_to_db():
                 db.add_ticker_mention(mention)
             
             imported += 1
+            
+            # Move JSON file so it is not re-imported on the next run
+            try:
+                json_file.rename(processed_dir / json_file.name)
+            except Exception as move_err:
+                print(f"  ⚠ Could not move {json_file} after import: {move_err}")
             
         except Exception as e:
             print(f"  Error importing {json_file}: {e}")

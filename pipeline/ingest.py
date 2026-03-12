@@ -251,10 +251,8 @@ if __name__ == "__main__":
     else:
         print("\nConnecting to Gmail...")
         results = fetch_via_gmail()
-        
         if not results:
-            print("\nNo emails fetched. Trying manual mode...")
-            results = process_manual_files()
+            print("\nNo emails fetched from Gmail.")
     
     print(f"\n✓ Processed {len(results)} emails")
     for r in results:
