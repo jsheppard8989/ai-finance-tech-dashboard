@@ -1837,10 +1837,12 @@
       };
 
       var chartFile = chartFiles[ticker] || (ticker + '_chart.png');
+      var chartsVersion = (typeof dashboardData !== 'undefined' && dashboardData.chartsVersion) ? dashboardData.chartsVersion : '';
+      var cacheSuffix = chartsVersion ? ('?v=' + encodeURIComponent(chartsVersion)) : '';
       var displayName = ticker === 'BTC' ? 'Bitcoin (BTC-USD)' : ticker;
 
       title.textContent = displayName + ' - 2 Week Chart';
-      chartImage.src = 'charts/' + chartFile;
+      chartImage.src = 'charts/' + chartFile + cacheSuffix;
       chartImage.style.display = '';
       modal.classList.add('active');
     }

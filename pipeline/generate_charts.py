@@ -19,6 +19,11 @@ CHARTS_DIR.mkdir(exist_ok=True)
 
 DB_PATH = Path.home() / ".openclaw/workspace/pipeline/dashboard.db"
 
+# State file to record last successful chart run (for cache-busting & diagnostics)
+STATE_DIR = Path.home() / ".openclaw/workspace/pipeline/state"
+STATE_DIR.mkdir(parents=True, exist_ok=True)
+LAST_CHART_RUN_FILE = STATE_DIR / "last_chart_run.json"
+
 # Always-chart tickers for title bar display
 TITLE_BAR_TICKERS = {
     'QQQ': 'Invesco QQQ Trust',
@@ -250,6 +255,18 @@ def main():
     print("=" * 60)
     print(f"Charts created/updated: {len(charts_created)}")
     print(f"Charts saved to: {CHARTS_DIR}")
+
+    # Record last chart run for cache-busting and debugging
+    try:
+        payload = {
+            "timestamp": datetime.now().isoformat(),
+            "symbols": [c["symbol"] for c in charts_created]
+        }
+        LAST_CHART_RUN_FILE.write_text(json.dumps(payload, indent=2))
+        print(f"✓ Recorded last chart run in {LAST_CHART_RUN_FILE}")
+    except Exception as e:
+        print(f"⚠ Could not write last_chart_run.json: {e}")
+
     return charts_created
 
 
