@@ -83,7 +83,7 @@ class DashboardDB:
                 with open(SCHEMA_PATH, 'r') as f:
                     conn.executescript(f.read())
                 print(f"✓ Initialized database at {self.db_path}")
-        # Ensure podcast_guests exists (migration for existing DBs)
+        # Ensure podcast_guests and new semantic tables exist (migration for existing DBs)
         with self._get_connection() as conn:
             conn.execute("""
                 CREATE TABLE IF NOT EXISTS podcast_guests (
@@ -103,10 +103,57 @@ class DashboardDB:
                     FOREIGN KEY (last_episode_id) REFERENCES podcast_episodes(id)
                 )
             """)
+            # guest_name column for episode-level association
             try:
                 conn.execute("ALTER TABLE podcast_episodes ADD COLUMN guest_name TEXT")
             except sqlite3.OperationalError:
                 pass
+
+            # Semantic layer tables: entities, appearances, ideas
+            conn.execute("""
+                CREATE TABLE IF NOT EXISTS entities (
+                    id INTEGER PRIMARY KEY AUTOINCREMENT,
+                    name TEXT NOT NULL,
+                    type TEXT NOT NULL,
+                    slug TEXT UNIQUE,
+                    bio TEXT,
+                    known_for TEXT,
+                    source_url TEXT,
+                    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+                )
+            """)
+            conn.execute("CREATE INDEX IF NOT EXISTS idx_entities_name ON entities(LOWER(name))")
+
+            conn.execute("""
+                CREATE TABLE IF NOT EXISTS appearances (
+                    id INTEGER PRIMARY KEY AUTOINCREMENT,
+                    entity_id INTEGER NOT NULL,
+                    source_type TEXT NOT NULL CHECK (source_type IN ('podcast','newsletter')),
+                    source_id INTEGER NOT NULL,
+                    role TEXT NOT NULL,
+                    prominence INTEGER DEFAULT 1,
+                    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                    FOREIGN KEY (entity_id) REFERENCES entities(id)
+                )
+            """)
+            conn.execute("CREATE INDEX IF NOT EXISTS idx_appearances_entity ON appearances(entity_id)")
+            conn.execute("CREATE INDEX IF NOT EXISTS idx_appearances_source ON appearances(source_type, source_id)")
+
+            conn.execute("""
+                CREATE TABLE IF NOT EXISTS ideas (
+                    id INTEGER PRIMARY KEY AUTOINCREMENT,
+                    source_type TEXT NOT NULL CHECK (source_type IN ('podcast','newsletter')),
+                    source_id INTEGER NOT NULL,
+                    speaker_name TEXT,
+                    summary TEXT NOT NULL,
+                    thesis TEXT,
+                    tickers_json TEXT,
+                    sentiment TEXT,
+                    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+                )
+            """)
+            conn.execute("CREATE INDEX IF NOT EXISTS idx_ideas_source ON ideas(source_type, source_id)")
 
     # === Ticker Aliases ===
 

@@ -757,6 +757,7 @@ def main():
         return
 
     analyze_only = "--analyze-only" in sys.argv
+    ENABLE_AI_ENTITY_PIPELINE = False  # flip to True when ready
 
     print("="*60)
     print("AUTO PIPELINE")
@@ -787,6 +788,30 @@ def main():
         except Exception as e:
             print(f"  ⚠ Orphan audio cleanup skipped: {e}")
         results['transcripts_analyzed'] = analyze_transcripts()
+
+        # Optional: semantic layer AI pipeline (entities/appearances/ideas)
+        if ENABLE_AI_ENTITY_PIPELINE:
+            db = get_db()
+            with db._get_connection() as conn:
+                ep_rows = conn.execute(
+                    """
+                    SELECT id, transcript_path
+                    FROM podcast_episodes
+                    WHERE is_processed = 1
+                    """
+                ).fetchall()
+            for row in ep_rows:
+                ep_id = row["id"]
+                tpath = row["transcript_path"]
+                if not tpath or not (PIPELINE_DIR / Path(tpath).name).exists():
+                    # Prefer absolute paths; if transcript_path is relative, best-effort resolution
+                    continue
+                run_script(
+                    f"AI Analyze Transcript {ep_id}",
+                    "ai_analyze_transcript.py",
+                    timeout=600,
+                    extra_args=["--episode-id", str(ep_id), "--transcript-path", tpath],
+                )
         results['newsletters_imported'] = import_newsletters()
         results['insights_promoted'] = promote_episodes_to_insights()
         results['insights_promoted'] += promote_newsletters_to_insights()
