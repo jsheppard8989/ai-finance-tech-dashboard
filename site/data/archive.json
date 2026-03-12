@@ -24,6 +24,51 @@
       "podcast_episode_id": 55
     },
     {
+      "id": 73,
+      "title": "Capital Markets Evolution and the Future of IPOs",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-03-11",
+      "summary": "The podcast features a discussion with SEC chair Paul Ackens and CFTC chair Michael Cilig on the evolution of capital markets, the shift from public to private markets, the impact of quarterly reporting on IPOs, and the need for investor education to protect younger investors from potential gambling addictions in financial markets. The conversation touches on the historical context of capital markets, the changing dynamics of public offerings, and the importance of regulatory bodies in safeguarding the integrity of financial systems.",
+      "key_takeaway": "The shift towards private markets and the potential for changing reporting cadence could redefine the landscape for early-stage investment opportunities and public market participation.",
+      "tickers_mentioned": [
+        "AAPL",
+        "NVDA",
+        "SPY",
+        "TSLA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-12",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 57
+    },
+    {
+      "id": 74,
+      "title": "Monetary Matters: Economic Consequences of War and AI's Impact",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-03-11",
+      "summary": "In this episode of Monetary Matters, host Jack Farley interviews Nobel Laureate Economist Professor Joseph Stiglitz on the economic consequences of the U.S. and Iran conflict, the potential for stagflation, and the impact of AI on the economy and job market. Professor Stiglitz discusses the erratic actions of the Trump administration and their impact on global economic stability, the rise in oil prices, potential food price inflation, and the risks associated with AI and labor displacement.",
+      "key_takeaway": "The current geopolitical tensions and the rise of AI technology present both risks and opportunities, with the potential for economic disruption and the need for strategic investment in sectors less affected by AI.",
+      "tickers_mentioned": [
+        "AAPL",
+        "NVDA",
+        "XOM",
+        "TSLA",
+        "SPY"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-12",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 56
+    },
+    {
       "id": 67,
       "title": "Oil, Bonds, and Bitcoin: Navigating Geopolitical Poker and Market Volatility",
       "source_type": "podcast",
@@ -76,11 +121,11 @@
         "LLY"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-09",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-12",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 49
     },
     {
@@ -176,11 +221,11 @@
         "TSLA"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-07",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-12",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 47
     },
     {

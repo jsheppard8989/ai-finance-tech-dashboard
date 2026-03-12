@@ -1,6 +1,45 @@
 {
-  "timestamp": "2026-03-11T22:01:30.411470",
-  "total_audio_files": 0,
-  "approved_for_transcription": 0,
-  "episodes": []
+  "timestamp": "2026-03-12T05:03:07.249045",
+  "total_audio_files": 2,
+  "approved_for_transcription": 2,
+  "episodes": [
+    {
+      "podcast": "Monetary Matters with Jack Farley",
+      "title": "Joseph Stiglitz: Higher Oil and Food Prices From Iran War Risk 1970s-Era Stagflation ",
+      "description": "\n        <p>Learn more about Teucrium\u2019s Soybean ETF (SOYB) here: <a href=\"https://teucrium.com/soyb\"><u>https://teucrium.com/soyb</u></a></p>\n<p><br></p>\n<p>Nobel Laureate in Economics Joseph Stiglitz (who holds highest #1 D-Index than all other Economists in the world) joins Jack to discuss the recent war in Iran, artificial intelligence, and his macroeconomic views. Dr. Stiglitz warns that the conflict in Iran is likely to have much more serious consequences for the U.S. &amp; world economy th",
+      "audio_url": "https://traffic.megaphone.fm/EWWMN3228786308.mp3",
+      "published": "Wed, 11 Mar 2026 18:01:00 -0000",
+      "published_date": "2026-03-11",
+      "rss_guid": "57640772-1d74-11f1-b127-abcf76a1bdee",
+      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/EWWMN3228786308.mp3",
+      "filename": "EWWMN3228786308.mp3",
+      "relevance_score": 2,
+      "matched_keywords": [
+        "artificial intelligence",
+        "intel"
+      ],
+      "status": "APPROVED"
+    },
+    {
+      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "title": "Rewriting the Rules: The SEC & CFTC on Crypto, IPOs & the Future of American Markets",
+      "description": "<p>(0:00) Jason and Chamath welcome SEC's Paul Atkins and CFTC's Michael Selig</p> <p>(0:53) Atkins on how US markets have changed over his 40 year career</p> <p>(3:04) Top priorities across both agencies: Fixing the IPO drought, crypto regulation, cutting unnecessary rules</p> <p>(8:16) AI trading bots, autonomous hedge funds, and investing with leverage</p> <p>(15:30) Ending the \"Turf War\" between the SEC and CFTC, super app vision</p> <p>(19:15) Prediction markets, insider trading, gray area<",
+      "audio_url": "https://dts.podtrac.com/redirect.mp3/traffic.libsyn.com/secure/allinchamathjason/ALLIN-INTV_SEC_CFTC_Ch.mp3?dest-id=1928300",
+      "published": "Wed, 11 Mar 2026 19:59:00 +0000",
+      "published_date": "2026-03-11",
+      "rss_guid": "034aae77-e9ee-4def-8716-6ddee6572003",
+      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/ALLIN-INTV_SEC_CFTC_Ch.mp3",
+      "filename": "ALLIN-INTV_SEC_CFTC_Ch.mp3",
+      "relevance_score": 6,
+      "matched_keywords": [
+        "invest",
+        "market",
+        "trading",
+        "ipo",
+        "crypto",
+        "ai"
+      ],
+      "status": "APPROVED"
+    }
+  ]
 }

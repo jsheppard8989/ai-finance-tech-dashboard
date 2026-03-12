@@ -1,0 +1,619 @@
+All right, everybody, welcome to the all-in interview program.
+Today, we are delighted to have two of the most important individuals shaping capital markets
+over the next couple of years.
+SEC chair, Paul Ackens is with us as well as CFTC chair, Michael Cilig.
+Welcome to the all-in interview show, gentlemen.
+Glad to be here.
+Roger to be here.
+Also with me, my bestie.
+Shemoth Polly, Hippetia, who is known to participate in capital markets.
+I think there's a great structure here for us to talk.
+Many opportunities and then guard rails and things that we should be concerned about in such a
+dynamic time.
+Chairman Ackens, this is your third tour of duty since the 90s.
+Things have changed dramatically, so maybe just to start us off here.
+And I know Shemoth's got a lot of great questions ready to go.
+I'm just curious, in your time, let's say the last 40 years or so, what have you noted here
+about capital markets and how they've changed and what's important for us looking forward?
+Well, thanks, it's great to be here and see both of you all today.
+Well, so I started out as a young lawyer in New York City doing corporation finance work,
+you know, new offerings and that sort of thing in the mid-80s.
+And it's, and there, you know, to be a startup company and to build your products and do
+R&D and all that, you had to go public in order to so Apple and Microsoft, advanced
+micro-devices, all of those companies started off as, you know, IPOs.
+And so, in recent horror, what says a really, I think, a really good bar chart where they compare
+the companies of the early mid to late 80s to today, where, I mean, it just basically
+demonstrates through the ROI that insiders versus the buyers of the public stock, you know,
+enjoyed from those early companies, the insiders, being, you know, there's not much
+private equity or venture capital back then, but the insiders, meaning the officers,
+directors, whatnot, they had a relatively thin slice of the entire pie, I mean, everyone
+made out well, obviously. But the public purchasers in the IPO, you know, made out very well
+over the years and then had the flying share of that. You look at today, the current situation,
+where, you know, we have robust private capital markets and we have fully today, half the number
+of public companies as we had 30 years ago and it's completely reversed. The return on investment
+is, you know, mainly to the insiders, private equity venture capital, the corporate officers and
+employees versus the public because they're, they're mature companies when they actually go
+public. So that's a huge change. The private markets are a very robust and strong, but anyway,
+but the American capital markets are very healthy, I think. When you look at that back then,
+there was a real requirement for everybody to do an enormous amount of work because to your point,
+these companies were quite young. You'd be a four or five-year-old company and you'd go public
+because the going public was not about monetizing anything. It was actually a fundraising moment.
+It was like a series C or a series D. I guess the answer is, the reason to change was probably
+because to your point, there's all these returns and so investors said, well, let's go
+capture these in the private markets for us in our LPs. But what it also does is then change the
+nature of how these markets behave. Can you just comment on the amount of time companies are
+staying private, the birth of the IPO because it has become a liquidity defining moment in
+as much more so than the financing moment and whether things should change and if so, how do you
+want to change that? Why? Yeah, well, it's a free market. Obviously, investors, we should allow
+the market to develop as it will, but you're exactly right. So now it's more of a liquidity event
+for insiders and so what we are seeing now is in the private markets, there's a lot of
+capital that's where people are willing to deploy it to companies at early stages and then to
+stay on. But at the same time, there are inhibitions for private companies to go public and one of
+them is the cost of our rules to comply with our rules and the disclosure ones, especially
+where you have all the annual report requirements, proxy statements and all of that. And so
+I am quarterly reporting and so forth. So that is one big inhibition where things are not necessarily
+focused on materiality anymore. Are you allowed to convene a group of people and start to line
+item these rules out or change them or does it have to go through some much more robust process
+where there's a lot of competing reasons why some people, some lobbies, maybe may want these rules.
+Oh, sure. I mean, the investors interest in everything, but that is part of my program for this
+year and going into next is to go through our world rule book. We need a spring cleaning. We need
+cleaning out the attic, the basement and the garage and to really look at things. Unlike the
+agency has ever done before with a real focus on materiality. So that's one. The second to make
+IPOs great again is to focus on litigation. And so that is another thing that is a key
+inhibition. I think for people to go from the private markets to public the threats of
+class action lawsuits and vexatious litigation with every dip in the in the stocks. You have
+issues like mandatory arbitration, fee shifting, it will lose her pay. That sort of thing,
+both of which Delaware has recently outlawed for public companies, but there are other states out there.
+And then the third is the weaponization of corporate governance around shareholders and proposals
+of that sort of thing. So it becomes a pain to deal with the annual general shareholder meeting
+and that sort of thing. So those three are maybe not the only inhibitions. But there are three
+key ones that have heard over and over and over and over again over the last 30, some years from
+venture capitalists, private equity folks, and that's some bankers lawyers and et cetera. So
+Mike, what are your top priorities for 2026 in this EFTC? Like Paul, I started off working in
+private practice at a law firm and right around 2021, 2022 every week, my clients would get a
+subpoena from Gary Gensler or from the CFTC. And we're faced with this onslaught of regulation
+by enforcement. They were faced with regulations that did not work for their business models.
+And these were crypto firms, prediction markets, artificial intelligence firms, as well as our
+traditional financial market participants. They were just relentlessly attacked by the federal
+government under the prior administration. So I really came into government to help write the
+shift to help make sure that we have purpose fit rules and regulations for new innovative
+technologies and financial products. And so a big piece of my agenda has been crypto, our crypto
+asset markets. As you all, I'm sure tracking there's some legislation that we're really hopefully
+work with David Sachs to get across the finish line in the president. But that's going to be a
+key piece. So the CFTC would have a broad amount of authority over the spot markets and we're
+getting ready to implement those rules. Should the legislation get across the finish line?
+Another key piece of our agenda has also been modernizing and upgrading our rules and regulations
+for on-chain software systems, blockchain networks and other types of digital asset products,
+regardless of legislation. It's really important that we have future proof rules and regulations
+that are ready for the innovations of both today and tomorrow. And that's blockchain. But that's
+also artificial intelligence and other areas of technology innovations. So there's a lot of things
+when you change within our regulatory framework to make sure that we're ready to accommodate that.
+Let me ask both of you guys a question. So this sits at the intersection of tokenization,
+crypto, and what I would call systemic risk. So if all, if everything becomes tokenized and digitized
+and 24 by seven, what do you think needs to happen to make sure that the systemic risks to the
+system are managed? And here's what I mean. If you go on X, I've gone down the automated trading
+rabbit hole. So I don't know if you guys know, but there are these incredible, young, vibrant projects
+that are basically replacing a citadel, replacing a millennium. And they're building these automated
+agent-based hedge funds that are transacting across all kinds of markets all the time. And on the
+one hand, I'm completely attracted to it. I think it's totally democratic. It's a free market.
+It's like, let's figure out what's going on there. And on the other hand, I ask myself the question,
+where's the kill switch? Or where's the circuit breaker, if you will? And I just want to give you
+both a chance to talk about how you see these markets converge and both the positives and the negatives of it.
+Absolutely. We need to be considering these risks as we're developing rules. And this to me is
+is the whole reason we need to have a purpose fit regulatory framework for these products and
+autonomous agents and all of that. Up until now, I think the approach has always been, let's apply
+the old rules and regulations. And that's going to work out and make sure that nobody can actually
+innovate and create something new. So we are embracing these opportunities in the markets.
+We need to study them and make sure that we understand the risks. But we can develop rules that
+accommodate that. So having a regime in place that says go build, don't ask us for permission,
+but we need to study that work with the market participants understand the risks. And on our end,
+we need to set up guardrail. So I do think there are unique risks when you have the ability
+for an agent to go out and deploy capital on basically an autonomous basis. And that's going to be
+something that our markets, we've really never seen before as regulators. But that doesn't mean we
+have to stand in the way and block it. I think we need to really understand the risks. Make sure
+that we have the right guardrails, whether that is operating nodes on block trains or really having
+technologists that are studying the contracts in the code. But I don't think there's any reason
+we can't have this technology is built here in America. I agree with that. From my point of view,
+there are so many benefits to come from distributed ledger technology for the financial services
+industry where we're right at the cost of achieving T0, basically immediate delivery versus payment,
+receipt versus payment on chain by digital assets. And so that's pretty exciting. What we may
+even have to build in speed bumps to prevent fraud and things like that. But for some instruments
+it might not be possible. But your discussion there are 24 seven and all that I think is
+is really an exciting prospect. But there are challenges from liquidity perspective, you know,
+having the whole concept of best bid and offer. What does that mean? So, you know, that's one
+that we will be wrestling with. But ultimately at least our approaches and what Mike and I are
+striving to do in harmonizing the approach of our two agencies is to and hopefully we'll get a
+statute out of the whole Clarity Act discussions going on until right now. That's really
+necessary to future proof what we're doing. So there is no backsliding in the future. But we
+need to focus on, you know, if it's a security underneath and it's tokenized, it still is a security
+and it still the security's laws still apply. But it's up to us to make sure that our rules are fit
+for purpose. And as the whole purpose changes and as the delivery mechanism changes, we need to
+accommodate that. Unfortunately, in the previous administration, you know, we said, oh, come in and
+talk to us, you know, we have a simple form for you to fill out. It's on our website. Well, ha, ha, it's
+called an S1 and it takes lots of lawyers and accountants to try to figure out how to do it for an existing
+company, much less for a new digital asset, the crypto sort of asset that, you know, where the
+form is completely an opposite. There's no border directors, there are no offices around the country,
+around the world or whatever. It's, you know, just the thing needs to be adjusted so that it is fit
+for purpose. So that's what we're striving to do, going through a rule book to make sure it can
+accommodate the new technologies. So let's build on Chemoth's conversation here in his points.
+One of the key dangers and innovations opportunities in the market is leverage. And we see it
+obviously hedge funds have been doing this for a long time, starting to see it in prediction markets
+and we're seeing it in crypto. What is the proper amount of leverage and who should set those rules?
+Obviously, you have Congress making laws. You're responsible for executing them, chairman,
+in order to make sure the markets are orderly and you protect investors. So just walk us through
+what you think is the proper amount of leverage and your framework. And you've been at this for a while,
+as we mentioned, how has that changed over time? Education is a bit on how we got to a world in which
+Bitcoin investors might be 100x or 50x and people might be leveraging their prediction market.
+And it seems like it has a function, but it also seems like almost every story starts and ends
+with leverage. Right. Well, so I think it depends on the marketplace and on the type because obviously
+of banks, they're all about fractional deposits and all of that and lending. So, you know,
+so we've gone through that back in 2008 and 2009 and the financial crisis and going all the way back to
+1929 and then even the 1800s obviously, all the repeated problems with financial disruption
+and financial markets. So we have to be careful about that. There are all sorts of rules for
+broker dealers, for banks, for in the futures markets, for margin and all of that to, like, put a
+lid on some of this and to have some controls around it and transparency. You know, in the
+futures markets, the exchanges have a lot of power. You know, if they're members and over margin
+and you're closing things down, we saw that even in the COVID time and whatnot. So when the
+market's got hairy there. So, you know, those things are constantly looked at. The fed plays a role
+as well, you know, with margining and the securities markets. So all that has to be adjusted
+and now we need to look carefully at these new markets and then see what's analogous and see what
+authority we have and then make sure that, you know, we're not killing trading but we also have to
+keep an eye out for the future to make sure that we're not allowing things to then blow up at our face.
+Here's a question that may sound dumb, so I apologize if it doesn't. This is to both of you.
+I think a lot of people don't understand, or at least I don't. Where the SEC and the CFTC
+cooperate most effectively, but then as with all things, where does coordination maybe break down?
+Could you just explain that to people so that we understand and level set about what the expectations
+of each organization aren't? How you guys actually work together day to day when you have to?
+Having been around the two agencies now for 30 some years, I can really say that,
+unfortunately the two and not necessarily at the commissioner or level, but certainly at the staff,
+there was a lot of sniping, you know, back and forth. So I compare it to two fortresses with
+the new man's land in between. And so the new man's land is littered with the bodies of would-be
+products that people were unsure like, is it CFTC? Is it SEC? And the crossfire between the two
+just killed the products they never went to market. Single stock futures, portfolio margining,
+which has so much potential benefits for making the national markets safer and more efficient.
+But Mike and I are setting out to change that, and I'll let you go forth on that one Mike.
+Absolutely. The two agencies have unfortunately rarely worked well together,
+and what we're really moving forward in a new direction with our harmonization efforts. We have
+a memorandum of understanding that the two agencies are working on hammering out and getting
+in place that will allow us to share information, coordinate on specific issues,
+and make sure that we don't have this turf battle between the two agencies going forward.
+And part of that starts, of course, at the top, German hackens and I work very closely together
+to make sure that we're coordinated on policy, but also at the staff level. So when
+exchanges and brokers and market estimates are coming in to register or to offer new product,
+we need to make sure that there's not this fighting over where they're supposed to be registered
+and what they're able to offer. Some of these products across jurisdictions, a great example,
+are some of the prediction markets products, some of them involve public companies and
+securities and others are related to things like sports and politics. And that crosses jurisdictions.
+And so we need to make sure that we have clear lines and that our market participants aren't
+subject to duplicative regulatory frameworks. And German hackens and I have talked about substitute
+compliance regimes where you have a primary regulator at the SEC or the CFTC, but we work together
+to figure out the cluster sexual products so that you don't get stuck with duplicative regulation
+registration. Another area is crypto where we've got blockchain networks. We've got smart contracts.
+We've got protocols that have both securities and non-security trading on them.
+Cross-sturistic, surely. And we need to make sure that the standards are consistent
+because it won't work if we've got one blockchain for securities and another blockchain for commodities
+and nothing in between. So I think this is really critical that the agencies
+bury the hatchet and move forward with a harmonized and coordinated approach.
+As we look towards a future, I mean, to build on either two separate regimes and their
+differences in approaches based on the statutes that govern us. But we also, speaking for the SEC,
+we have a lot of flexibility with respect to exemptive authority and whatnot. So my dream is
+one day that, and I hope we can achieve that here in the next couple of years to have like a super
+app approach where there is, okay, blurred lines between the two, but we've coordinated our approach,
+we've coordinated, you know, to reduce the friction between duly registered companies and to make
+everything work very efficiently. I want to ask a question around prediction markets.
+Let me try to set this up the way that I think about it. So I think that there is this
+inexorable tension that's always existed and we'll always exist between the investor protection
+that has to happen when you have publicly traded securities or commodities or derivatives.
+But then the capital formation process that on behalf of the company or whatever that wants to
+get access to this and there's always been this kind of back and forth tension. The best example
+of this is Reg FD, where we said at some point, hey, let's hold the trains. If one person knows
+something, every person needs to know that thing, makes a ton of sense. When you get into prediction
+markets, I think that this is going to stress test this assumption to the end degree. And the
+reason is that there are just certain things that some people know and we see it now every other
+day. There's an article about some prediction market that turned out to be right or a bunch
+of other markets that were almost manipulated. It seems like it's right for this question to come up
+all over again. The corollary to this is Brian Armstrong tweeted something, which I thought was
+quite an interesting comment about prediction markets, which is that certain prediction markets
+only thrive on insider information, which is to say that they know a secret. And so that's how
+the market can exist and actually conform to an outcome and that creates these two sides. I just want
+to get your thoughts on prediction markets. What role do they play? How do we balance the capital
+formation that the market creates versus the investor protection, the insider trading that may be
+happening? It's a very complicated space. I'm not going to hold you to any of it. I just want to
+think out loud. Well, these markets aren't new. We've had them since the 90s. They started off with
+the electronic market in Iowa where folks were predicting the political outcomes on elections. We've
+been surveilling and monitoring and policing for auto manipulation in these markets for a very
+long time. And to the extent that there are contracts in certain markets, for example, what color
+gatorades going to be dunked on the the coach at the Super Bowl. Some of this stuff is potentially
+at risk of being manipulated. There's a risk that somebody on the team is able to go trade
+because they have special information about the gatorade. They put in the cooler. We have the
+enders to make sure that those contracts should not be listed and it's on the exchanges as the
+first line of defense as self regulatory organizations to evaluate each contract and certify to us
+the regulator, the CFTC, that those contracts are not readily susceptible to insider trading,
+manipulation fraud and the like. And we saw actually recently call she one of the prediction markets
+brought to enforcement actions against participants. One involved a contract related to Mr.
+Bees YouTube channel where one of his employees insider traded based on information of when a video
+was going to launch what was in the video. And the same sort of authority that you have at the
+SEC around a duty of you know, care to your employer is a prevalent in our markets. So to the
+extent, somebody insider trades on information, we police that. And it's really important for
+folks to know it's not just securities insider trading. We've got it in the commodities world as well.
+And the exchanges are policing that we're policing that. And to the extent folks are listing contracts
+that are susceptible to manipulation, there's consequences to that. We can reject those contracts
+or we can police fraud on the back end. But there is a cop on the beat there. And I do
+want to caution that insider trading is not something that's necessarily allowed in our markets.
+But we do believe that markets are truth machines that they do create a really powerful source
+of information. We've seen the hoax is the fake news and the manipulation of the polls.
+The prior administration tried to ban these markets ahead of the 2024 election. And they really
+increased turnout. It showed that they were correct when a bunch of the fake bulls were put out
+right ahead of the election. So we really have to foster these markets here in the United
+States and make sure that they don't flourish and rush somewhere else where they really will turn
+out to be a source of disinformation. So we do believe it's valuable to have that trading and
+information flowing through the markets. But insider trading is still illegal in the US.
+Take us through some examples there Mike. It's very obviously clear to people who work at
+Microsoft. If some new version of software is coming out or the sales are dynamic and the
+numbers haven't been released. Obviously you can't trade on that. You're going to jail. It's
+insider trading. If I am a reseller of Microsoft software or a friend of mine works at Microsoft
+and says, Hey, things are going great with this new product we have. And I make a thoughtful
+wager on a prediction market. Or if I intentionally do something like I'm a striker at the Super Bowl
+was one that came up recently. And I actually am the striker. Not that I'm planning any of this
+to make the bet. There are those rules. Where do they live? And who's responsible? Is it the
+prediction market? Is it you? Or is it TBD? Because it does seem that there's a bit of gray area
+has tremendous sort of alluding to here. And does this need to be codified? And this need to be
+a bit more education for the public on it? A lot of the gray started off with the prior
+administration really trying to ban these markets and not facilitating proper rulemaking and guidance
+in the markets over the past year. You know, I've been in the office for a couple of months now
+for the past year. And the acting chairman's leadership, a lot of these products have really
+exploded in popularity. And so now is the time to put out guidance and make sure that we're not
+regulating my enforcement as the prior administration did. But we are setting standards. We are
+making clear what our statute says. And that is that these contracts cannot be listed if they're
+susceptible to manipulation. And we take that seriously. Yeah. Yeah. Yeah. So the exchanges are
+responsible for policing that and reviewing the contracts. And they certify to us throughout
+you later that they are free of the risk of manipulation. And if there's manipulation of markets
+we're policing that, the exchanges are policing that. So there are controls in place. But a lot
+of these questions as to what's susceptible to manipulation are up for debate. And I think there's
+some risk. There's possibility. You know, your example at the street or if somebody can just jump
+out of the stands and go street across and collect on the contract. I mean, that's something that
+does seem potentially at risk of manipulation and fraud. And so we need to be careful about that.
+The exchanges need to be on the lookout for that. And if they're not, you know, there's consequences
+with us as a regulator. The markets should take the first step and make sure they're thoughtful
+about which ones to fire up to begin with. And we have seen that they are not saying, hey, this
+dictator is executed. They're saying this dictator is deposed or is no longer in power. That seems
+to be a very tricky one as well. Yes, Mike. Well, there's got to be integrity in the contracts.
+Our rules require that the contracts have, for example, certain fundurability and standardization.
+They're derivative contracts. This isn't simply just betting at a, you know, with a bookie.
+And you can see, you know, and so each contract that's, that's correct. It, you would look for,
+is it tied to an election or is it tied to a very specific event? Is there a risk that that
+event can be manipulated or insider traded? And the, and the exchanges are evaluating that.
+And there are instances where something is insider traded and it wasn't something they could
+have for seeing. It wasn't readily susceptible to manipulation. And so they police that, they bring
+actions against the traders and call she did just this with some of its fines in the past few weeks.
+Let me ask a question about quarterly reporting because maybe where there was the most manipulation
+in the past was around that, right? People would try to frontrun these quarterly reports. They would
+try to make guesses invariably you would find some people that had crossed the right red line.
+But recently Paul President Trump said maybe we should move to six month reporting or one year
+reporting. And it was really well received by a lot of people. Do you think that quarterly reporting
+has sort of also killed the IPO, meaning when we think about making an IPO great again,
+just the complexity in the burden of such short termism has it made the markets better or worse.
+Do you think? Yeah. Well, that's a great point. And I just wanted to add one kind of a little
+note to the previous discussion there that, you know, if something is a tokenized security,
+you know, the federal securities laws apply. And so that goes for insider trading, you know,
+with respect to trading securities, whatever they may be, you know, on the online or or on an
+exchange floor or wherever. So I mean, but then to your point about the cadence of reporting,
+I think that's an important one. And we are going to come out with a proposed rule and see
+comment on it. And I frankly am a bit agnostic myself personally because if you look at things,
+we haven't always had quarterly reporting. In fact, when the SEC was, you know,
+forward back in 1934, it basically codified the New York Stock Exchange rule book,
+which at the time called for annual reports. So annual reports prevailed until 1955 and the SEC
+went to semi annual reporting. And by the way, the UK did the same thing around the same time.
+And then in 1970, only did things go to quarterly. And then the UK parted what they did
+quarterly as well. But then in 2014 or so, they they changed to go back to semi annual, but
+if you wanted to still report quarterly, you know, God bless you and go ahead and and do that.
+So we're select quarterly and and so President did Sonata, you know, electronic message about that.
+And so, but our staff was looking at, so we're looking at what we call a file or status.
+They're all sorts of different categories of fileers with different rules, like large accelerated
+fileers, accelerated files, and herging growth companies. And so forth. So we're looking to kind of
+simplify all of this. And part of that also is perhaps smaller companies could benefit from, you know,
+reduce, you know, cadence of reporting. But maybe not they they have trouble finding analysts
+to follow their stock. That's another thing that might be an inhibition to go public for small
+companies of maybe analysts want quarterly. Maybe they don't. Maybe they would prefer semi
+annual too. So I think this is a great debate to have right now. And you did have Barry Delher,
+you've been taking the other side of it, where he's like, I'm just tired of giving predictions.
+I'm tired of playing this game'smanship quarterly. I'm just going to release our accounting
+numbers every month. And y'all can have fun with numbers as much as you vibe. But that's amazing
+because you can do that now, right? You can have software that's so vibrant that it can just
+Jason release a stream. And there'll be people that have, you know, developed agents and develop
+these AIs that will just process all of that. And they will then publish out a dashboard and the whole
+thing will be almost real time. It could be real time. Yeah. And there are services that do semi
+interesting things are already that you can buy that. Maybe people with budgets for data search
+streams can do. Let's talk a little bit, Chairman Akins, about the history of accreditation in this
+country. I think when you brought up Microsoft and the early part of your career watching this company
+is go public. I did a little research while we're here when you were speaking, Microsoft and Apple
+went out with a thousand and 1200 employees each and about $400 million in revenue in today's
+dollars, $120 million in those dollars. So obviously there was this incredible opportunity for you
+to create and place a bet on these companies as an individual with the stock trading account. And maybe
+move from, you know, one tier in societal wealth to another. And that's a big part of the American
+dream. But as we talk about private markets, the SEC has ancient rules now going on close to a
+century old to protect investors called accreditation laws. They apply to 95% of the of the country
+apparently and about 5% of us get to trade in some way in private companies where the value is
+created. The SEC has been challenged and charged with changing means of evolving these and it never
+seems to happen. My perception is which SEC shares ever going to take this on because safe. It's just
+easier to keep the status quo. But is there not an argument? I know there's some legislation now
+to create a sophisticated investor test. So instead of you inherited a million dollars, you're qualified
+to buy stock in Uber when it's a private company. Why not a sophisticated test like a driver's license
+and you learn how to trade in private companies and you get to participate in that market
+instead of just saying to people, well, you can only participate in sports betting or blackjack
+in Vegas, but you can't. If you were an Uber driver or an Airbnb host or an HR person
+using LinkedIn as a private company, buy those stocks, you have an insight and you have an
+instinct into maybe purchasing. So talk about the accreditation test and sophisticated investor
+tests and you're a personal be on it. Yeah, well great point and so well here's one chairman who
+is going to tackle that issue and so we intend to do that the accredited investor definition.
+And so interestingly, I mean, to your point in the statute and the investment advisors act of
+1940, I believe, or investment companies act of 1940, there's a definition of that and it includes
+knowledge, not just where with all or sort of assets that you have, but it has the word knowledge
+in it. So to your point, why can't we have and people suggested this over time, equivalent of a
+driver's test or something like that or recognize somebody who has a CPA or a CFA or whatever,
+but maybe a type of series seven, but you know, not so complicated is that the finra administer.
+So part of the thing is like, who's going to make the test who's going to minister it and how do you
+get there? But anyway, but we can those are issues that we want to tackle and I remember when this
+issue came up when I was a commissioner back in the OTS, there was one comment letter that came
+in that really struck me and it said today I am able to, this is the comment letter, the comment
+or speaking, today I am able to buy a hedge fund or private asset or whatnot, but tomorrow once you
+raise the standard of, you know, I have to have x amount of money, assets, or income, or whatever,
+I won't be able to. So what's changed? Why are you going to take that away from me? So why does
+a finance professor who makes a hundred thousand dollars in the lives of an apartment and doesn't
+have any other assets? Why is he not able to your point to invest in some of these types of securities
+where as an eras who just came into ten million dollars or something like that, suddenly as
+as she can hire people to advisor, but they could be dummies too. I mean, who knows what they are.
+But so anyway, so I think we have to take a fresh look at all this and we are going to do that
+here this year and with the proposed rule to address that.
+Have a question around the derivatives markets? Well, actually before I ask a question,
+I want to ask about the futures markets, which is you have an enormous number of
+high frequency trading firms that really dominate futures volume. Can you just tell us
+both the value that these folks are providing is a truly liquidity or is it? And there's been
+some speculation about this very sophisticated market arb. And if it's the latter,
+where do you think we need to do necessarily a better job? I think the best example is if you
+look at this, the volume of futures activities and spot prices of certain commodities,
+the basis is starting to kind of get out of wax. Just tell me about the market participants
+part of these derivatives and futures markets and what you think about what's going on.
+Our markets have three core types of participants. We've got the hedgers. We've got
+speculators and we've got market makers. And liquidity is really the the result of all three.
+So there's going to be market participants that really rely on whether it's a cattle contract
+or a credit default swap product. They need to enter into these agreements to hedge
+key risks in their business. And then you've got folks that are willing to provide liquidity,
+whether they're speculating and taking another position on that for for the proprietary basis
+or they're doing so to make markets in earnest spread. And that's right. We're regulating these
+markets. We're making sure that the trades that are going through have integrity and that folks
+aren't you know, washed trading and trying to manipulate markets. There are some strategies that
+raise particular risk of manipulation or fraud. And we police that we've taken actions in the past to
+to make sure that the the exchanges are not subject to the illicit behavior and and trading.
+And the exchanges similar to my point earlier, really, to prediction markets,
+are a first line of defense here as well. They surveil their markets and we're in constant
+communication with them as well as the traders were oftentimes sending information requests
+the traders about their activity. So I do believe that these all three participants are very
+important to make sure that our markets are liquid. So on that last point that you just made,
+which I think is a very good one. Post GFC, there was like the central clearing functions
+right to make sure that derivatives contracts were getting not getting out of control. And
+we had a good sense of systemic risk. But it turns out that one blind spot everybody has is to
+these bilateral swaps. I mean, I've done certain bilateral swaps with certain counterparties.
+It's not clear to me that you know that on the back end of it. Can you talk about that?
+And how you think that that should stay the same change? What that is, whether that keeps you
+up at night, whether it should keep us up at night? Sure. Well, not a huge fan of Dodd
+Frank, but in the wake of Dodd Frank, we got swapped out of reporting. And these bilateral
+over-the-counter swaps are now generally all. There are some exceptions, but sent to swapped out
+our repositories where we're getting information on a daily basis as well as these third-party
+swapped out of our repositories that compiled that information. So the markets are much less opaque.
+We have transparency today. But my concern about the swapped out of reporting regulations
+is that they have really been a tool for enforcement divisions in the past where you've got so many
+different fields. It's really difficult to characterize each different type of swap. I'll tell you
+when I was in private practice and folks started entering into Bitcoin swaps and crypto swaps.
+Characterizing that is a type of derivative relative to cattle and wheat and other commodities.
+Really was a whole lot of legal advising and a lot of wasted money frankly. So we need to simplify.
+We need to make sure there are swapped out our reporting regime as rational and coherent
+and make sense for the everyday participant in the market. You shouldn't have to go higher a high-priced
+law firm just to enter into a risk management tool. But these markets, these developments post-dot
+Frank, some of them make sense. Some of them don't. A big priority of mine is going through
+rule by rule to make sure that all of our regulations are really the minimum effect of dose.
+I have a question for both of you. Is there something that if you could borrow from the other
+person's regulatory toolbox? Something that they can do that you cannot, that you would love to also
+be able to do? From my perspective, one thing for new products that the CFTC has is called self-certification.
+So for repetitive products that once you go ahead and approve the general type of framework for it,
+then it's self-certification by the markets and by the people who are of course coming forward
+with the products. We don't necessarily have that kind of thing. We do for some things like
+for ETFs and whatnot where we've come up with rules that then, you know, then it's up to the
+market participants to abide by the rules and have their product conform. But on so many other
+products, we have a much more complex labor intensive let's just say approach to it that requires
+approval by the staff and the commission and that sort of thing. Where is this much more streamlined
+on the CFTC side? On our side, there's one regulation that I think's been really effective on the
+SEC's jurisdiction and that's the alternative trading system. So on both sides of the house, we have
+full-born, you know, very, very intensive exchange registrations. The SEC went ahead with a rule-making
+that allows broker dealers to then set up an alternative trading system and it's really an exchange
+light framework and I'd love to see that on the SEC side as well. Chairman Mackins, I want to talk
+about fund formation and the power of venture capital in the US economy, 20% of the GDP of this
+country comes from venture back companies, 40% of the S&P. Obviously, at the max 7 contributing
+heavily comes from venture companies that we all know and love their products. But fund formation
+for venture capital is ancient and there are massive limitations on it. There's two ways,
+obviously, to address this. One is the path to accreditation for people to become sophisticated.
+We just spoke about that. But the other is how many people are allowed to participate in a fund.
+As but one example, when I raised my last fund, I had well over a hundred million dollars in a
+credit investors who wanted to have a small bite of the apple and get into venture capital,
+but I can only accept a hundred. I can only accept 10 million and doesn't make any logical sense
+because in fact, it would be better if more people could put in smaller amounts, many hands
+makes real light work and more people could participate in this. This would have a dual impact on the
+economy. One, more startups would get funded and two, more individual investors would get to participate
+in this very closed ecosystem known as venture capital. So I was wondering,
+your thoughts on venture capital specifically and formation of what is the driver of the U.S.
+economy? You raised a great point, but a lot of that that you're talking about with funds is
+stetched thoroughly mandated and so there are two big exemptions in the investor company acted
+in 1940 that are pertinent here and so those were adopted by Congress with a lot of debates
+and whatnot. So that is more difficult to change and there are certain ways that we can change
+them and so we are going to look at this and there you have a lot of different types of accredited
+investors. You have qualified purchasers. You have also qualified institutional purchasers and
+whatnot or buyers or other and so all of these things need to be I think looked at a new and where
+we have the authority through our exemptive power under the various statutes. We'll be able to use
+that but I do think that especially now as we talk about opening up private funds or private
+types of products to a broader range of people including to you know 401k plans and whatnot.
+We're working with the Department of Labor and the Treasury Department to address this and we all
+feel very strongly that here you have to have good guardrails but you just can't open up the barn
+door wide open that we have to have standards for what can go into these sorts of plans for
+1K plans pension plans but retail investors are already exposed to the private markets through
+their pension funds and insurance companies and all that so all of this needs to have a fresh look
+and you know come up with good new ideas to basically provide democratize it and just as a
+quick follow up there one then I think would be super easy is just hey 10% of whatever your last
+two years average income was or you know no more than 5 or 10% of your net worth Michael there
+are some common sense ideas here that would increase the amount of participation. Can you think
+of Michael any reason that we should restrict Americans from being able to participate in venture
+capital is there any argument here if there were some basic level controls as I've outlined here
+sophistication taking a test or a cap you can only put 5k and you make 150k a year you can put
+15k per year what are your thoughts Michael? I'm a believer in free markets and I really think
+that allowing more access to our capital markets is is really a powerful thing for everyday
+Americans we saw the ICOs you know the initial coin offerings where things just kind of moved into
+crypto and you had all sorts of investments in different projects and they were attempting to
+to get under the radar of the securities laws even though their capital raises with different tokens
+and I think the markets always find a way so allowing for more access decreasing some of the
+requirements around accreditation I think that's a really great thing for the American people and
+really will just allow for people to have some skin in the game and maybe they lose sometimes
+but other times they really hit it big and it's a great thing for everyone. Nature finds way right
+like I said don't allow people to participate they start doing ICOs and when I looked at them I
+looked at a hundred chamoph I said wow 99% of these are white papers which spelling errors in
+them these are not the real companies that you and I look at in our daily lives in venture capital
+so it's reminds me of what happened with crypto which is hey it went off short it went to another
+stream I want to talk about just the capital markets globally we're in this very unique moment where
+there just seems to be this separation where the American capital markets and you choose our
+tips of the spear have enormous credibility and then when you look at some of these other capital
+markets all you mentioned the UK but hey to say it's so bluntly but the UK's it is a hustler
+it is impossible to raise money it's impossible to raise money or innovate in a European exchange
+it's a little bit easier in Asia but it's complicated but then you do see some of these upstart
+exchanges that are trying to push and innovate in Abu Dhabi and KSA etc if you just take a step back
+for a second I just love your perspective on what's going to happen to capital formation
+and specifically what does America need to do to get this next couple of trillion dollars to be
+brought on short well first of all I think you know our our capital markets are the envy of the
+world I mean really is amazing when I travel through Europe or Japan and in the UK and in
+Middle East and whatnot people really envy our huge capital markets and how robust they are
+how fair they are and it goes back to our rule of law and the forcefully of contract and that's the
+essence of what is the foundation of your freedom and our ability to do innovating and have all
+these new products so they would love to have that plus the you know the I guess what they also
+really envy is our our risk appetite here in the United States where people are have an equity
+investment culture and that is really largely absent in Japan and in Europe and in a lot of ways
+they can't get out of their way because out of their own way because through their regulatory system
+and whatnot I mean ours is bad enough but they in many ways take it to a different extreme with a very
+narrowly constructed code that really hamstrings them and is it's not very flexible in the future
+so that's what as far as if we can open up our markets as far as you know some of the things that we've
+been talking about here as far as new products allow innovation they take place here on onshore and then
+also to fix some of the things like the accredited investor investor standard and that sort of thing
+I think we you know can then to your point you know turbo charge it to continue our growth
+crypto has been a bit of the wild west and we have things NFTs ICO's meme coins they feel
+they look like stocks to people whether it's dollars time trump or dollar sign doge whatever it is
+but they have a ticker symbol they have a chart they trade like a stock what do we need to do in regards to
+crypto what what should and where is the line between launching a crypto token and the public being
+protected their chairmanacans versus hey it's a publicly traded stock because for a lot of them they get
+into it and they're the suckers at the table it feels it looks it quacks like a duck it looks like a duck
+and so they buy it like it's a duck but it's not a duck obviously so what to and then this
+was genslers I think you know maybe a logical point although his execution was poor there was a
+logical point to hey we have rules we can't let you break these rules for your dollar sign whatever
+if everybody else is doing their company properly you know and following this set of rules so
+so how do we evolve that to protect which is the top mandate be consumer well that's a great
+question I think the real problem has been uh definitionally and so that the kind of the very vague
+lines and so people weren't sure they were and as Mike was talking about you know people play
+paid lawyers a lot of money to try to do it some lawyers just gave happy talk and then people got
+in trouble with the SEC and other lawyers just said forget it go offshore you know you there's no
+used even trying here in the ice state so that's part of what you know Mike and I are trying to do
+as far as harmonize so we're if it's a tokenized security then that's one thing under the SEC's rule
+book but if it's things like tokenized uh so digital coin a digital token sorry or digital tools
+or digital collectibles then those sorts of things fall under the CFTC's oversight and their
+rule book is is really more opposite for these sorts of things than ours is but you have to have
+a logical oversight over things like that to prevent fraud because the one thing that really
+you know attracts people to our markets from overseas is that they perceive that there is you know
+that fraudsters do get caught and you know we have protections around as we've been talking about
+inside trading and then it's things like that trading on material non-public information
+by insiders that is you know so we have a robust so thank for that Mike I'm back that for us
+and maybe you could add to it the role of uh sometimes we see celebrities promoting these things and
+it just feels like it's a bit of uh it was a bit out of control there for a bit and and your job
+is to make it controlled so so what should the crypto community that wants to release utility tokens
+and participate here what do they need to know going forward we have to separate the capital raising
+activity and selling something for the purpose of uh raising capital to forum business when you're
+going out there and giving folks the white papers and the business plan has been making promises to them
+from the actual thing that people are buying the tokens themselves and many of these cases are just
+good as Chairman Akins said they could be a digital commodity something that's an input for a
+network like Ethereum or Solana or anything else where you're using it for a function with
+the network but the capital raises something separate and they could be collectibles like an NFT
+or a tool that you're using to run a command on a network that sort of stuff I mean they're
+their commodities are their goods or things that potentially not there of us regulate we don't go
+out and regulate widgets that are sold as part of a capital raising the the SEC's brought many
+cases over the years related to fundraising with chinchillas and whiskey barrels and all sorts of
+things but we've not had those uh trading insecurities in our markets and and we don't want that
+for the digital world either as we start to wrap here I have a final question which is
+both of you sit on top again as I said the most in my opinion important capital market in the
+world you guys are responsible for the well functioning and the path through of literally tens and
+tens of billions of dollars you are responsible for enabling and not slowing down just the great
+vibrance you the American economy has reflected in these markets that's the upside the downside is that
+that also comes with a lot of pressure when you're in the bowels of the job and I obviously I don't
+know what that's like every day but what are the couple of things that the two of you think about
+at night what are the critical risks to this experiment that you just know you have to get right
+or the critical issues that in the next year or two you must get right for all of this to continue
+I maybe Michael start with you and Paul. Two big things concern me the first has been this push
+of innovation offshore we've got to get it back here in the United States that's really
+what's built this country over the years Thomas Edison didn't have to go ask for permission to
+go innovate we need to make sure that our builders our visionaries our entrepreneurs have the courage
+and the confidence to come and develop new things and build here in our financial markets and that
+means blockchain that means artificial intelligence that means prediction markets will set the rules
+for it make sure that it's possible to do it but we don't want everyone fleeing to the Cayman Islands
+and the Bahamas and Russia to go do this stuff so that's really concerning to me I want to make
+sure that the folks are back here in the US the second piece of course is the the risk to our system
+if we've got too much manipulation and satir trading fraud I mean why not trade you know elsewhere
+and there's real risk to our investors and so making sure that we have the right controls
+to the customer protections we can't have another FTX in the United States where funds are lost
+and there's an absolute fraud on our American people so so that's a really critical concern
+balancing innovation with our financial system the integrity of our markets and we're going to
+do it but it's definitely hard work ahead of us and for me so I mean I agree completely with the
+innovation point that you know we need to make sure that we are allowing people to innovate here
+on shore and FTX one is a great point where there was one part of FTX that what didn't
+implode with the rest of it and that was their investment in a swap trading platform called
+Ledger X was which was supervised by the CFTC and examined and they had they they had their
+accounts segregated and all that so no customers lost any money through that and and it still
+is on you know today so so my worry is that we're finding always the last battle you know the
+French built the Magina line and that didn't work very well and then so we had the same thing coming
+out of the financial crisis so we have to think ahead we're confronting a lot of new challenges
+so artificial intelligence of course you know is you know developing very quickly and but we're
+also seeing it on the fraud side I mean this horrible stories I hear about people who's who've
+lost their entire retirement nest egg through fraud where there are confidence people who
+you know through all sorts of manipulative types of communications then draw people and
+and get them to you know send off their their money elsewhere or even their their Coinbase account
+or things like that where they give passwords away with you know these confidence artists out
+there so we have to be a tune to that we have to be the cop on the beat because that's the real
+threat that will leave people not to necessarily you know invest their money here but
+I think you know we are a cop on the beat where you know out to make sure that we can find the bad guys
+but we can't to then put too much overwhelming you know restrictions on the good guys so that they
+can't innovate and can't happen to products those are great answers I think both opportunity
+and policing I just want to end with a final thought as these markets open up
+wagering stocks crypto we do have an issue a second order effect that's happening young men
+18 to 30 45% report that they've had a problem with wagering gambling and 10% meet the addiction
+criteria a third have placed a bet the upside to this in my mind is we have a generation generation
+bet that understands capital vocation markets and how to participate and what you have downside
+outcomes and how comes yes and and to really think about that there's obviously a downside here
+which is a very young developing brain might not be ready for that so so Mike and then and
+chairman and I can support what are your thoughts on how to protect these young men who you don't
+they're they're excited about participating in these markets but maybe their brains aren't fully
+formed and ready to take on that responsibility thank education critical here we need to make sure
+that our market participants are providing information to participants and we don't regulate
+the casinos and the gambling and all of that but I do believe that that is a key piece of
+their initiative as well to make sure that folks are informed when they're coming into the casinos
+we should do the same at the federal level make sure that our participants voluntarily of course
+this isn't necessarily something that we mandate on our derivatives exchanges but I do think it's an
+important thing to be informing the public and of course we've got really robust standards on
+brokers and on our exchanges and they're making sure that there's the the person's
+participating in the markets have the ability to participate that they're suitable to invest and
+participate in our markets and I think those controls combined with some education are really
+going to be important here. Chairman I agree with that and but it's not just education of the
+many cases children or adult young men and women too but it's also their parents especially for
+the children where I think there is a large ignorance on the parents part as to what their kids
+are doing and with their phones or elsewhere and you're getting involved in these things so
+you know I hear that from a lot of my friends so just you know a poker fully there but
+so that's we shouldn't forget that the schools are important as well but the signs of you know
+that sort of addiction you know are really you know important to recognize that and then
+take action but we have the same thing with other sorts of gambling, lotto or lotteries and that sort of
+thing so it's not just in the securities markets or crypto markets or elsewhere but it's also on
+everyday things that we have to really watch out for. I love your suggestion Mike because I notice
+Robinhood now if you want to go trade something complex puts calls you know spreads everything
+it forces you to go through a little wizard to make sure you understand it and to teach you what
+exactly you're doing so I think education so critical and it can exist at the platform level this
+has been an incredible hour plus I want to thank you to gentlemen for joining us here on the
+all in interview and we'll see you all next time bye bye thanks gentlemen

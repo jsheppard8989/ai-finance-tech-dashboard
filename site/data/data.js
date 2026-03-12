@@ -2,7 +2,7 @@
 // DO NOT EDIT MANUALLY
 
 const dashboardData = {
-  generatedAt: "2026-03-11T22:02:43.100789",
+  generatedAt: "2026-03-12T05:04:49.135891",
   tickerScores: [
   {
     "ticker": "BTC",
@@ -646,6 +646,51 @@ const dashboardData = {
       "podcast_episode_id": 55
     },
     {
+      "id": 73,
+      "title": "Capital Markets Evolution and the Future of IPOs",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-03-11",
+      "summary": "The podcast features a discussion with SEC chair Paul Ackens and CFTC chair Michael Cilig on the evolution of capital markets, the shift from public to private markets, the impact of quarterly reporting on IPOs, and the need for investor education to protect younger investors from potential gambling addictions in financial markets. The conversation touches on the historical context of capital markets, the changing dynamics of public offerings, and the importance of regulatory bodies in safeguarding the integrity of financial systems.",
+      "key_takeaway": "The shift towards private markets and the potential for changing reporting cadence could redefine the landscape for early-stage investment opportunities and public market participation.",
+      "tickers_mentioned": [
+        "AAPL",
+        "NVDA",
+        "SPY",
+        "TSLA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-12",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 57
+    },
+    {
+      "id": 74,
+      "title": "Monetary Matters: Economic Consequences of War and AI's Impact",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-03-11",
+      "summary": "In this episode of Monetary Matters, host Jack Farley interviews Nobel Laureate Economist Professor Joseph Stiglitz on the economic consequences of the U.S. and Iran conflict, the potential for stagflation, and the impact of AI on the economy and job market. Professor Stiglitz discusses the erratic actions of the Trump administration and their impact on global economic stability, the rise in oil prices, potential food price inflation, and the risks associated with AI and labor displacement.",
+      "key_takeaway": "The current geopolitical tensions and the rise of AI technology present both risks and opportunities, with the potential for economic disruption and the need for strategic investment in sectors less affected by AI.",
+      "tickers_mentioned": [
+        "AAPL",
+        "NVDA",
+        "XOM",
+        "TSLA",
+        "SPY"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-12",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 56
+    },
+    {
       "id": 67,
       "title": "Oil, Bonds, and Bitcoin: Navigating Geopolitical Poker and Market Volatility",
       "source_type": "podcast",
@@ -698,11 +743,11 @@ const dashboardData = {
         "LLY"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-09",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-12",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 49
     },
     {
@@ -798,11 +843,11 @@ const dashboardData = {
         "TSLA"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-07",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-12",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 47
     },
     {
@@ -2009,6 +2054,44 @@ const dashboardData = {
       "guest_name": null
     },
     {
+      "id": 73,
+      "title": "Capital Markets Evolution and the Future of IPOs",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-03-11",
+      "summary": "The podcast features a discussion with SEC chair Paul Ackens and CFTC chair Michael Cilig on the evolution of capital markets, the shift from public to private markets, the impact of quarterly reporting on IPOs, and the need for investor education to protect younger investors from potential gambling addictions in financial markets. The conversation touches on the historical context of capital markets, the changing dynamics of public offerings, and the importance of regulatory bodies in safeguarding the integrity of financial systems.",
+      "key_takeaway": "The shift towards private markets and the potential for changing reporting cadence could redefine the landscape for early-stage investment opportunities and public market participation.",
+      "tickers_mentioned": "[\"AAPL\", \"NVDA\", \"SPY\", \"TSLA\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-12",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 57,
+      "episode_release_date": "2026-03-11",
+      "guest_name": null
+    },
+    {
+      "id": 74,
+      "title": "Monetary Matters: Economic Consequences of War and AI's Impact",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-03-11",
+      "summary": "In this episode of Monetary Matters, host Jack Farley interviews Nobel Laureate Economist Professor Joseph Stiglitz on the economic consequences of the U.S. and Iran conflict, the potential for stagflation, and the impact of AI on the economy and job market. Professor Stiglitz discusses the erratic actions of the Trump administration and their impact on global economic stability, the rise in oil prices, potential food price inflation, and the risks associated with AI and labor displacement.",
+      "key_takeaway": "The current geopolitical tensions and the rise of AI technology present both risks and opportunities, with the potential for economic disruption and the need for strategic investment in sectors less affected by AI.",
+      "tickers_mentioned": "[\"AAPL\", \"NVDA\", \"XOM\", \"TSLA\", \"SPY\"]",
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-12",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 56,
+      "episode_release_date": "2026-03-11",
+      "guest_name": null
+    },
+    {
       "id": 67,
       "title": "Oil, Bonds, and Bitcoin: Navigating Geopolitical Poker and Market Volatility",
       "source_type": "podcast",
@@ -2044,25 +2127,6 @@ const dashboardData = {
       "archived_reason": null,
       "podcast_episode_id": 50,
       "episode_release_date": "2026-03-10",
-      "guest_name": null
-    },
-    {
-      "id": 66,
-      "title": "The Future of Health and Biotech Innovations",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-03-09",
-      "summary": "The podcast discusses the evolving landscape of health and biotech innovations, focusing on consumer interest in health, breakthrough supplements, and the intersection of health and fitness with mainstream medicine. The conversation also touches on the potential of peptides and neuro-technologies to reshape obesity and influence biology directly. Dr. Andrew Heurman shares insights on the major drivers behind the increased consumer focus on health and the potential for new drugs and technologies to become popular in the near future.",
-      "key_takeaway": "Investing in health and biotech innovations that cater to the growing consumer interest in self-directed healthcare and novel treatments for obesity and cognitive disorders.",
-      "tickers_mentioned": "[\"LLY\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-03-09",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 49,
-      "episode_release_date": "2026-03-09",
       "guest_name": null
     },
     {
@@ -2121,25 +2185,6 @@ const dashboardData = {
       "podcast_episode_id": 51,
       "episode_release_date": "2026-03-09",
       "guest_name": "Harvard Professor Graham Allison"
-    },
-    {
-      "id": 65,
-      "title": "All In with Chamath, Jason, Sacks & Friedberg - Episode 263 Part 2: Vision for Iran Post-Military Action",
-      "source_type": "podcast",
-      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "source_date": "2026-03-07",
-      "summary": "In this episode, the hosts interview Prince Reza Pahlavi, discussing the potential for a democratic Iran and the economic opportunities that could arise from such a transition. The conversation touches on the importance of humanitarian intervention, the potential for Iran to become a significant economic player in the 21st century, and the impact this could have on global markets, particularly for the United States. The discussion also includes the potential for Iran to evolve from a corrupt regime to a democracy, with free elections and a focus on redevelopment and reconstruction.",
-      "key_takeaway": "The potential for a democratic Iran presents a significant economic opportunity, particularly for the United States, with the possibility of generating billions of dollars in business and investment.",
-      "tickers_mentioned": "[\"AAPL\", \"NVDA\", \"XOM\", \"JNJ\", \"TSLA\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-03-07",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 47,
-      "episode_release_date": "2026-03-07",
-      "guest_name": null
     }
   ],
   "definitions": [
@@ -5768,6 +5813,141 @@ const dashboardData = {
     "insight_title": "Real-time Crime Prevention and the Future of Policing",
     "source_name": "The a16z Show",
     "source_date": "2026-03-11"
+  },
+  "73": {
+    "id": 64,
+    "insight_id": 73,
+    "podcast_episode_id": 57,
+    "overview": "The evolution of capital markets and the future of IPOs are pivotal topics in today's financial landscape, particularly with the rise of private capital markets and the shift towards later-stage public offerings. This deep dive analysis explores the implications of these changes, the role of regulatory bodies like the SEC and CFTC, and their impact on investment strategies. Understanding these dynamics is crucial for investors to navigate the current market efficiently and anticipate future trends. The analysis focuses on the transformation of capital markets, the influence of private equity and venture capital, and the challenges faced by companies considering an IPO, including regulatory burdens and litigation risks.",
+    "key_takeaways_detailed": [
+      "The number of public companies has halved in the last 30 years, with returns on investment increasingly accruing to insiders rather than the public.",
+      "Private markets are robust, with capital readily available for early-stage companies, potentially delaying or deterring IPOs.",
+      "Regulatory burdens, including compliance costs and disclosure requirements, are significant inhibitors for private companies considering going public.",
+      "Litigation risks, particularly class action lawsuits following stock price dips, pose a substantial challenge to companies post-IPO.",
+      "Tokenization and digitization are on the rise, potentially leading to systemic risks that require innovative regulatory approaches."
+    ],
+    "investment_thesis": "The investment thesis centers on the changing landscape of capital markets, where the traditional IPO as a primary fundraising event has evolved into a liquidity event for insiders. This shift has implications for investors seeking early-stage growth opportunities, which are increasingly found in the private markets. Catalysts for this thesis include regulatory reforms aimed at reducing the barriers to IPOs, technological advancements in blockchain and AI, and legislative changes affecting the crypto and digital asset markets. The timeframe for this thesis is medium to long-term, as regulatory changes and market adaptations are expected to unfold over several years.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple, as a mature technology company that went public in its early stages, exemplifies the historical success of IPOs as a means for public investors to capture significant returns. Its performance and market behavior provide insights into the potential missed opportunities for public investors in today's market.",
+        "positioning": "Long-term strategic holding, as Apple's established market position and continued innovation make it a core holding for investors interested in the technology sector.",
+        "risk": "Key risks include increased regulatory scrutiny, especially in the areas of privacy and antitrust, and potential disruptions from new market entrants or technological shifts."
+      },
+      "NVDA": {
+        "rationale": "Nvidia, with its strong presence in the semiconductor and AI sectors, is well-positioned to benefit from the ongoing digitization and the growth of private capital markets investing in technology.",
+        "positioning": "Medium-term tactical holding, as Nvidia's products are central to many emerging technologies, but the stock's performance may be more sensitive to short-term market fluctuations and regulatory changes.",
+        "risk": "The primary risk is the potential for supply chain disruptions and the impact of global trade policies on semiconductor availability and costs."
+      },
+      "SPY": {
+        "rationale": "The SPDR S&P 500 ETF Trust (SPY) is included to provide a benchmark for the overall market performance and to gauge the broader impact of the changing capital markets on public investors.",
+        "positioning": "Long-term strategic holding, as it offers diversified exposure to the S&P 500 index, which includes many mature companies that have benefited from the current market dynamics.",
+        "risk": "Market risks include economic downturns, changes in monetary policy, and shifts in investor sentiment towards private markets."
+      },
+      "TSLA": {
+        "rationale": "Tesla, as a relatively recent IPO that has grown exponentially, represents the potential for public investors to capture significant returns in today's market, albeit with higher risks.",
+        "positioning": "Medium-term tactical holding, considering Tesla's rapid growth and the volatility associated with the electric vehicle and clean energy sectors.",
+        "risk": "Key risks include regulatory changes affecting the automotive and energy industries, as well as potential disruptions from competitors and supply chain issues."
+      }
+    },
+    "positioning_guidance": "Investors should consider a balanced approach, with a portion of their portfolio allocated to established public companies like AAPL and NVDA, which offer exposure to mature markets and innovation.\u540c\u65f6, they should also allocate resources to private market investments or funds that provide access to early-stage companies, acknowledging the shift in returns towards insiders. Position sizing should reflect the risk tolerance and investment horizon of the investor, with a view to capitalize on both the stability of public markets and the growth potential of private markets.",
+    "risk_factors": [
+      "Regulatory changes that could either hinder or accelerate the shift towards private capital markets.",
+      "The potential for increased litigation post-IPO, affecting the valuation and attractiveness of public offerings.",
+      "Technological disruptions that could render current market leaders obsolete or create new investment opportunities.",
+      "Economic downturns that could affect the overall performance of capital markets and investor sentiment.",
+      "Geopolitical tensions and trade policies that could impact global supply chains and market access."
+    ],
+    "contrarian_signals": [
+      "The possibility that the current trend towards private capital markets is a cyclical phenomenon rather than a structural shift, with a potential resurgence of early-stage public offerings in the future.",
+      "The argument that the rise of private equity and venture capital could lead to market inefficiencies and missed opportunities for retail investors.",
+      "Concerns that the focus on materiality in regulatory reforms may lead to insufficient disclosure and increased information asymmetry."
+    ],
+    "catalysts": [
+      "Upcoming regulatory reforms and legislative changes that could reduce the barriers to IPOs and alter the dynamics of capital markets.",
+      "Advancements in blockchain and AI technologies that could disrupt traditional capital market structures and create new investment opportunities.",
+      "Economic indicators and market sentiment shifts that could influence the attractiveness of public versus private investments.",
+      "Global trade agreements and policies that could impact the flow of capital and the competitiveness of domestic markets.",
+      "Technological milestones and product launches that could drive investor interest in specific sectors or companies."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-03-12T05:04:04.395274",
+    "updated_at": "2026-03-12 10:04:04",
+    "insight_title": "Capital Markets Evolution and the Future of IPOs",
+    "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "source_date": "2026-03-11"
+  },
+  "74": {
+    "id": 65,
+    "insight_id": 74,
+    "podcast_episode_id": 56,
+    "overview": "The escalating geopolitical tensions between the U.S., Iran, and Israel, as discussed in the Monetary Matters podcast featuring Nobel Laureate Economist Professor Joseph Stiglitz, have significant economic implications. The conflict has already led to a surge in oil prices, with potential knock-on effects on food prices and global supply chains. This analysis explores the investment thesis around these events, focusing on the impact on inflation, stagflation risks, and the role of AI in the economy. The current situation underscores the importance of a diversified investment strategy that can navigate the volatility and potential economic shocks ahead.",
+    "key_takeaways_detailed": [
+      "Oil prices have surged, with potential for further increases, impacting global inflation and economic growth.",
+      "Disruptions in the Middle East could affect the supply chain for fertilizers, leading to potential food price inflation.",
+      "The U.S. economy, despite efforts to diversify energy sources, remains vulnerable to oil price shocks, which can lead to stagflation.",
+      "Investors should consider the impact of geopolitical events on energy and technology sectors, as well as the potential for policy responses that could affect markets.",
+      "The current situation may exacerbate existing inflationary pressures, which could lead to a more aggressive Fed response and higher interest rates."
+    ],
+    "investment_thesis": "The current geopolitical tensions have the potential to significantly disrupt global markets, particularly in the energy and technology sectors. The investment thesis revolves around positioning for increased volatility and potential stagflation. Investors should consider a diversified portfolio that includes exposure to energy producers, technology companies with AI capabilities, and defensive stocks that can withstand economic shocks. The catalysts for this thesis include ongoing geopolitical developments, oil price movements, and central bank policy responses. The timeframe for this thesis is medium to long-term, as the economic consequences of the conflict are likely to be felt over an extended period.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple, as a technology giant with significant AI capabilities, can benefit from the increased focus on AI as a driver of economic growth amidst geopolitical tensions.",
+        "positioning": "Long-term strategic position, as Apple's diversified product line and strong balance sheet can weather economic volatility.",
+        "risk": "Key risks include potential supply chain disruptions due to conflict in the Middle East and increased competition in the AI space."
+      },
+      "NVDA": {
+        "rationale": "Nvidia, a leader in AI and GPU technology, stands to benefit from the growing demand for AI solutions in a diversified economy.",
+        "positioning": "Medium-term tactical position, as Nvidia's technology is likely to be in high demand, but the stock may be sensitive to market volatility.",
+        "risk": "The risk of supply chain disruptions and potential regulatory challenges in the technology sector could impact Nvidia's performance."
+      },
+      "XOM": {
+        "rationale": "Exxon Mobil, as a major oil and gas company, could benefit from higher oil prices, which are a direct result of the conflict.",
+        "positioning": "Short-term tactical position, as the stock may offer exposure to rising oil prices but is also subject to significant volatility.",
+        "risk": "The risk of geopolitical resolution leading to a drop in oil prices, as well as the long-term transition to renewable energy."
+      },
+      "TSLA": {
+        "rationale": "Tesla, as a leader in electric vehicles and renewable energy, could benefit from the increased focus on reducing oil dependence and promoting sustainable energy solutions.",
+        "positioning": "Long-term strategic position, as Tesla's growth is aligned with the global shift towards renewable energy and AI technology.",
+        "risk": "Key risks include competition in the electric vehicle market, potential supply chain disruptions, and regulatory challenges."
+      },
+      "SPY": {
+        "rationale": "The SPDR S&P 500 ETF offers broad exposure to the U.S. market, allowing investors to hedge against sector-specific risks while still participating in market growth.",
+        "positioning": "Medium-term tactical position, as the ETF provides diversification and can be adjusted based on market conditions and economic outlook.",
+        "risk": "The risk of a broad market downturn due to economic shocks or geopolitical escalations could impact the ETF's performance."
+      }
+    },
+    "positioning_guidance": "Investors should consider a balanced portfolio with exposure to both energy producers and technology companies with AI capabilities. Position sizing should reflect the potential for increased volatility and economic shocks. Entry points should be considered in the context of ongoing geopolitical developments and market conditions. Timeframes for positions should be aligned with the expected duration of the conflict and its economic consequences. Hedges may include defensive stocks and investments in renewable energy to mitigate the impact of oil price volatility.",
+    "risk_factors": [
+      "Geopolitical resolution leading to a rapid drop in oil prices.",
+      "Supply chain disruptions affecting technology and energy sectors.",
+      "Aggressive central bank policy responses leading to higher interest rates and economic slowdown.",
+      "Increased competition in the AI and renewable energy sectors.",
+      "Long-term transition to renewable energy impacting traditional energy producers."
+    ],
+    "contrarian_signals": [
+      "The potential for a swift geopolitical resolution that could lead to a rapid decrease in oil prices.",
+      "The possibility that technology companies may not be able to capitalize on the increased demand for AI solutions due to market saturation or regulatory hurdles.",
+      "The risk that the focus on renewable energy may be overshadowed by short-term economic concerns, leading to a slower transition than anticipated."
+    ],
+    "catalysts": [
+      "Ongoing geopolitical developments and their impact on oil prices.",
+      "Central bank policy decisions and their influence on interest rates and economic growth.",
+      "Technological advancements in AI and renewable energy that could drive economic growth and reduce oil dependence.",
+      "Global supply chain disruptions and their effect on food and energy prices.",
+      "Policy initiatives aimed at promoting renewable energy and reducing oil dependence."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-03-12T05:04:30.059546",
+    "updated_at": "2026-03-12 10:04:30",
+    "insight_title": "Monetary Matters: Economic Consequences of War and AI's Impact",
+    "source_name": "Monetary Matters with Jack Farley",
+    "source_date": "2026-03-11"
   }
 },
   suggestedTerms: [
@@ -5777,11 +5957,11 @@ const dashboardData = {
     "definition": null,
     "investment_implications": null,
     "source_type": "auto_extracted",
-    "mention_count": 4,
-    "source_diversity": 3,
-    "relevance_score": 40,
+    "mention_count": 5,
+    "source_diversity": 4,
+    "relevance_score": 45,
     "submitted_date": "2026-03-11 03:05:24",
-    "priority_score": 140
+    "priority_score": 175
   },
   {
     "id": 1,
@@ -5822,7 +6002,7 @@ const dashboardData = {
 ],
   podcastGuests: [
   {
-    "id": 72,
+    "id": 85,
     "name": "Harvard Professor Graham Allison",
     "slug": "harvard-professor-graham-allison",
     "bio": null,
@@ -5834,7 +6014,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 73,
+    "id": 86,
     "name": "Andrew Yang",
     "slug": "andrew-yang",
     "bio": null,
@@ -5846,7 +6026,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 74,
+    "id": 87,
     "name": "cary",
     "slug": "cary",
     "bio": null,
@@ -5858,7 +6038,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 75,
+    "id": 88,
     "name": "Ray Dahlia",
     "slug": "ray-dahlia",
     "bio": null,
@@ -5870,7 +6050,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 76,
+    "id": 89,
     "name": "Mailbag Monday",
     "slug": "mailbag-monday",
     "bio": null,
@@ -5882,7 +6062,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 77,
+    "id": 90,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": null,
@@ -5894,7 +6074,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 78,
+    "id": 91,
     "name": "Berg",
     "slug": "berg",
     "bio": null,
@@ -5906,7 +6086,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 79,
+    "id": 92,
     "name": "From Software to Hard Asset",
     "slug": "from-software-to-hard-asset",
     "bio": null,
@@ -5918,7 +6098,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 80,
+    "id": 93,
     "name": "Wolverine",
     "slug": "wolverine",
     "bio": null,
@@ -5930,7 +6110,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 81,
+    "id": 94,
     "name": "Bosworth",
     "slug": "bosworth",
     "bio": null,
@@ -5942,7 +6122,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 82,
+    "id": 95,
     "name": "\"A Huge Problem for Everybody\"",
     "slug": "a-huge-problem-for-everybody",
     "bio": null,
@@ -5954,7 +6134,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 83,
+    "id": 96,
     "name": "shares insights",
     "slug": "shares-insights",
     "bio": null,
@@ -5966,7 +6146,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 84,
+    "id": 97,
     "name": "Brett Adcock",
     "slug": "brett-adcock",
     "bio": null,
