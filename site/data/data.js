@@ -2,7 +2,7 @@
 // DO NOT EDIT MANUALLY
 
 const dashboardData = {
-  generatedAt: "2026-03-12T11:29:08.911896",
+  generatedAt: "2026-03-12T11:33:12.366481",
   chartsVersion: "2026-03-12T08:30:18.018679",
   tickerScores: [
   {
@@ -6085,6 +6085,88 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2023-03-01",
     "appearance_count": 1
+  }
+],
+  pundits: [
+  {
+    "id": 9,
+    "name": "Garrett Langley",
+    "slug": "garrett-langley",
+    "bio": null,
+    "known_for": null,
+    "last_seen": "2026-03-12 16:28:48"
+  },
+  {
+    "id": 10,
+    "name": "John Colison",
+    "slug": "john-colison",
+    "bio": null,
+    "known_for": null,
+    "last_seen": "2026-03-12 16:28:48"
+  },
+  {
+    "id": 7,
+    "name": "Jack Farley",
+    "slug": "jack-farley",
+    "bio": null,
+    "known_for": null,
+    "last_seen": "2026-03-12 16:28:41"
+  },
+  {
+    "id": 8,
+    "name": "Joseph Stiglitz",
+    "slug": "joseph-stiglitz",
+    "bio": null,
+    "known_for": null,
+    "last_seen": "2026-03-12 16:28:41"
+  },
+  {
+    "id": 1,
+    "name": "Paul Ackens",
+    "slug": "paul-ackens",
+    "bio": null,
+    "known_for": null,
+    "last_seen": "2026-03-12 16:28:33"
+  },
+  {
+    "id": 2,
+    "name": "Michael Cilig",
+    "slug": "michael-cilig",
+    "bio": null,
+    "known_for": null,
+    "last_seen": "2026-03-12 16:28:33"
+  },
+  {
+    "id": 3,
+    "name": "Shemoth Polly",
+    "slug": "shemoth-polly",
+    "bio": null,
+    "known_for": null,
+    "last_seen": "2026-03-12 16:28:33"
+  },
+  {
+    "id": 4,
+    "name": "Jason",
+    "slug": "jason",
+    "bio": null,
+    "known_for": null,
+    "last_seen": "2026-03-12 16:28:33"
+  },
+  {
+    "id": 5,
+    "name": "Sacks",
+    "slug": "sacks",
+    "bio": null,
+    "known_for": null,
+    "last_seen": "2026-03-12 16:28:33"
+  },
+  {
+    "id": 6,
+    "name": "Friedberg",
+    "slug": "friedberg",
+    "bio": null,
+    "known_for": null,
+    "last_seen": "2026-03-12 16:28:33"
   }
 ]
 };

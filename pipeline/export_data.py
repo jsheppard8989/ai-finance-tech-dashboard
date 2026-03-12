@@ -44,6 +44,13 @@ def generate_website_js():
     deepdives = db.get_all_deep_dive_content()
     suggested_terms = db.get_suggested_terms_for_website(limit=4)
     podcast_guests = db.get_podcast_guests_for_site(limit=20)
+    # Load pundits (semantic layer) from JSON exported by export_for_website
+    pundits_path = site_dir / "pundits.json"
+    try:
+        with open(pundits_path, "r") as f:
+            pundits = json.load(f)
+    except FileNotFoundError:
+        pundits = []
 
     # Chart metadata for cache-busting
     charts_version = None
@@ -71,6 +78,7 @@ def generate_website_js():
     deepdives_json = json.dumps(deepdives, indent=2)
     suggested_json = json.dumps(suggested_terms, indent=2)
     podcast_guests_json = json.dumps(podcast_guests, indent=2)
+    pundits_json = json.dumps(pundits, indent=2)
 
     js_content = f"""// Auto-generated data file
 // DO NOT EDIT MANUALLY
@@ -83,7 +91,8 @@ const dashboardData = {{
   mainContent: {main_json},
   deepDives: {deepdives_json},
   suggestedTerms: {suggested_json},
-  podcastGuests: {podcast_guests_json}
+  podcastGuests: {podcast_guests_json},
+  pundits: {pundits_json}
 }};
 
 // Export for use in other scripts
@@ -96,7 +105,7 @@ if (typeof module !== 'undefined' && module.exports) {{
         f.write(js_content)
     
     total_archive = sum(len(v) for v in archive.values() if isinstance(v, list))
-    print(f"✓ Generated data.js with {len(ticker_scores)} tickers, {total_archive} archive items, {len(deepdives)} deep dives, {len(suggested_terms)} suggested terms, {len(podcast_guests)} guests; chartsVersion={charts_version}")
+    print(f"✓ Generated data.js with {len(ticker_scores)} tickers, {total_archive} archive items, {len(deepdives)} deep dives, {len(suggested_terms)} suggested terms, {len(podcast_guests)} legacy guests, {len(pundits)} pundits; chartsVersion={charts_version}")
     return True
 
 

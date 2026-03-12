@@ -1789,17 +1789,29 @@
       const container = document.getElementById('guests-list');
       const card = document.getElementById('guests-card');
       if (!container || !card) return;
-      const guests = (typeof dashboardData !== 'undefined' && dashboardData.podcastGuests) ? dashboardData.podcastGuests : [];
-      if (guests.length === 0) {
-        container.innerHTML = '<p style="color: #8892b0; font-size: 0.9rem; padding: 1rem;">No interviewees yet. Run the pipeline with <code>extract_guests.py</code> to populate.</p>';
+
+      // Prefer semantic-layer pundits; fall back to legacy podcastGuests for now
+      const pundits = (typeof dashboardData !== 'undefined' && Array.isArray(dashboardData.pundits)) ? dashboardData.pundits : [];
+      const guestsLegacy = (typeof dashboardData !== 'undefined' && Array.isArray(dashboardData.podcastGuests)) ? dashboardData.podcastGuests : [];
+
+      const items = pundits.length > 0 ? pundits : guestsLegacy;
+      if (items.length === 0) {
+        container.innerHTML = '<p style="color: #8892b0; font-size: 0.9rem; padding: 1rem;">No pundits yet. Ensure transcripts are analyzed and the AI entity pipeline has run.</p>';
         return;
       }
-      container.innerHTML = guests.map(function(g) {
-        var name = (g.name || 'Guest').replace(/</g, '&lt;').replace(/>/g, '&gt;');
-        var known = (g.known_for || '').replace(/</g, '&lt;').replace(/>/g, '&gt;');
-        var bio = (g.bio || '').replace(/</g, '&lt;').replace(/>/g, '&gt;');
-        var idea = (g.last_main_idea || '—').replace(/</g, '&lt;').replace(/>/g, '&gt;');
-        var src = (g.last_podcast_name || '') + (g.last_episode_date ? ' • ' + g.last_episode_date : '');
+
+      container.innerHTML = items.map(function(item) {
+        var name = (item.name || 'Guest').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+        var known = (item.known_for || '').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+        var bio = (item.bio || '').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+        // Legacy guests carry last_main_idea + last_podcast_name/date; pundits currently don't
+        var idea = (item.last_main_idea || '—').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+        var src = '';
+        if (item.last_podcast_name || item.last_episode_date) {
+          src = (item.last_podcast_name || '') + (item.last_episode_date ? ' • ' + item.last_episode_date : '');
+        } else if (item.last_seen) {
+          src = 'Last seen • ' + String(item.last_seen).substring(0, 10);
+        }
         var showKnown = known ? '<div class="guest-known-for">' + known + '</div>' : '';
         var showBio = bio ? '<div class="guest-bio">' + bio + '</div>' : '';
         return '<div class="guest-item" onclick="this.classList.toggle(\'active\')">' +

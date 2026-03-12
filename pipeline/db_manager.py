@@ -416,17 +416,42 @@ class DashboardDB:
         with open(output_dir / 'archive.json', 'w') as f:
             json.dump(archive, f, indent=2, default=str)
 
-        # Export podcast guests for site
+        # Export podcast guests for site (legacy path)
         guests = self.get_podcast_guests_for_site(limit=30)
         with open(output_dir / 'podcast_guests.json', 'w') as f:
             json.dump(guests, f, indent=2, default=str)
+
+        # Export pundits from semantic layer: people entities with recent appearances
+        with self._get_connection() as conn:
+            cursor = conn.execute(
+                """
+                SELECT
+                    e.id,
+                    e.name,
+                    e.slug,
+                    e.bio,
+                    e.known_for,
+                    MAX(a.created_at) AS last_seen
+                FROM entities e
+                JOIN appearances a ON a.entity_id = e.id
+                WHERE e.type = 'person'
+                GROUP BY e.id, e.name, e.slug, e.bio, e.known_for
+                ORDER BY last_seen DESC
+                LIMIT 20
+                """
+            )
+            pundits = [dict(row) for row in cursor.fetchall()]
+
+        with open(output_dir / 'pundits.json', 'w') as f:
+            json.dump(pundits, f, indent=2, default=str)
 
         print(f"✓ Exported website data to {output_dir}")
         return {
             'ticker_scores': len(scores),
             'podcast_summaries': len(podcasts),
             'archive_items': sum(len(v) for v in archive.values()),
-            'podcast_guests': len(guests)
+            'podcast_guests': len(guests),
+            'pundits': len(pundits),
         }
     
     # === Archive Management ===
