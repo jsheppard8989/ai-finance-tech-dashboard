@@ -1521,7 +1521,7 @@
           </div>
 
           <!-- Overton terms (emerging concepts) -->
-          <div class="overton-item" onclick="toggleOverton(this)">
+          <div class="overton-item">
             <div class="term">🧠 Neuralink Moment</div>
             <div class="description">The inflection point when brain-computer interfaces shift from experimental to consumer-ready, triggering societal restructuring around cognitive enhancement.</div>
             <div class="source">Detected in: The Network State Podcast • Feb 2026</div>
@@ -1532,7 +1532,7 @@
             </div>
           </div>
 
-          <div class="overton-item" onclick="toggleOverton(this)">
+          <div class="overton-item">
             <div class="term">🌐 Sovereign Individual Thesis</div>
             <div class="description">The expectation that high-net-worth individuals will increasingly decouple from traditional jurisdictions, seeking digital-first citizenship and asset structures.</div>
             <div class="source">Detected in: Monetary Matters • Feb 2026</div>
@@ -1543,7 +1543,7 @@
             </div>
           </div>
 
-          <div class="overton-item" onclick="toggleOverton(this)">
+          <div class="overton-item">
             <div class="term">⚡ Compute Arbitrage</div>
             <div class="description">Exploiting price differentials in AI compute across regions and providers-buying low in unregulated markets, deploying high in enterprise stacks.</div>
             <div class="source">Detected in: a16z Live • Jan 2026</div>
@@ -1554,7 +1554,7 @@
             </div>
           </div>
 
-          <div class="overton-item" onclick="toggleOverton(this)">
+          <div class="overton-item">
             <div class="term">🏛️ Regulatory Moat</div>
             <div class="description">Competitive advantage gained not through technology but through compliance complexity-incumbents weaponizing bureaucracy against nimble startups.</div>
             <div class="source">Detected in: Jack Mallers Show • Feb 2026</div>
@@ -1854,7 +1854,7 @@
         }
         var showKnown = known ? '<div class="guest-known-for">' + known + '</div>' : '';
         var showBio = bio ? '<div class="guest-bio">' + bio + '</div>' : '';
-        return '<div class="guest-item" onclick="this.classList.toggle(\'active\')">' +
+        return '<div class="guest-item">' +
           '<div class="guest-name">' + name + '</div>' +
           showKnown +
           '<div class="guest-source">' + src + '</div>' +
@@ -2046,8 +2046,9 @@
       let html = '';
       for (const insight of insights) {
         const dateStr = new Date(insight.source_date).toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+        // Key tickers come directly from structured AI output (podcast_episodes.key_tickers)
         // Parse tickers — handle array, JSON string, or plain string
-        let tickerArr = insight.tickers_mentioned;
+        let tickerArr = insight.key_tickers;
         if (typeof tickerArr === 'string') {
           try { tickerArr = JSON.parse(tickerArr); } catch(e) { tickerArr = tickerArr ? [tickerArr] : []; }
         }
