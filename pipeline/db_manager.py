@@ -435,6 +435,10 @@ class DashboardDB:
                 FROM entities e
                 JOIN appearances a ON a.entity_id = e.id
                 WHERE e.type = 'person'
+                  AND EXISTS (
+                      SELECT 1 FROM appearances a2
+                      WHERE a2.entity_id = e.id AND LOWER(a2.role) != 'host'
+                  )
                 GROUP BY e.id, e.name, e.slug, e.bio, e.known_for
                 ORDER BY last_seen DESC
                 LIMIT 20
