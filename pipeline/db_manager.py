@@ -423,6 +423,7 @@ class DashboardDB:
 
         # Export pundits from semantic layer: people entities with recent appearances
         with self._get_connection() as conn:
+            # Pundits: only people with at least one guest_primary appearance
             cursor = conn.execute(
                 """
                 SELECT
@@ -437,7 +438,7 @@ class DashboardDB:
                 WHERE e.type = 'person'
                   AND EXISTS (
                       SELECT 1 FROM appearances a2
-                      WHERE a2.entity_id = e.id AND LOWER(a2.role) != 'host'
+                      WHERE a2.entity_id = e.id AND LOWER(a2.role) = 'guest_primary'
                   )
                 GROUP BY e.id, e.name, e.slug, e.bio, e.known_for
                 ORDER BY last_seen DESC

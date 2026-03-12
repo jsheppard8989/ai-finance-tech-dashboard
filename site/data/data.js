@@ -2,7 +2,7 @@
 // DO NOT EDIT MANUALLY
 
 const dashboardData = {
-  generatedAt: "2026-03-12T11:59:53.604911",
+  generatedAt: "2026-03-12T13:46:14.138807",
   chartsVersion: "2026-03-12T08:30:18.018679",
   tickerScores: [
   {
@@ -6089,52 +6089,164 @@ const dashboardData = {
 ],
   pundits: [
   {
+    "id": 18,
+    "name": "Andrew Yang",
+    "slug": "andrew-yang",
+    "bio": null,
+    "known_for": null,
+    "last_seen": "2026-03-12 18:45:56"
+  },
+  {
+    "id": 19,
+    "name": "discussing the future of work",
+    "slug": "discussing-the-future-of-work",
+    "bio": null,
+    "known_for": null,
+    "last_seen": "2026-03-12 18:45:56"
+  },
+  {
+    "id": 20,
+    "name": "the impact of AI",
+    "slug": "the-impact-of-ai",
+    "bio": null,
+    "known_for": null,
+    "last_seen": "2026-03-12 18:45:56"
+  },
+  {
+    "id": 21,
+    "name": "an in-depth discussion",
+    "slug": "an-in-depth-discussion",
+    "bio": null,
+    "known_for": null,
+    "last_seen": "2026-03-12 18:45:56"
+  },
+  {
+    "id": 22,
+    "name": "TN Yang",
+    "slug": "tn-yang",
+    "bio": null,
+    "known_for": null,
+    "last_seen": "2026-03-12 18:45:56"
+  },
+  {
+    "id": 23,
+    "name": "CEO of Variant Perception",
+    "slug": "ceo-of-variant-perception",
+    "bio": null,
+    "known_for": null,
+    "last_seen": "2026-03-12 18:45:56"
+  },
+  {
+    "id": 24,
+    "name": "to discuss the macro environment",
+    "slug": "to-discuss-the-macro-environment",
+    "bio": null,
+    "known_for": null,
+    "last_seen": "2026-03-12 18:45:56"
+  },
+  {
+    "id": 25,
+    "name": "its implications for investment",
+    "slug": "its-implications-for-investment",
+    "bio": null,
+    "known_for": null,
+    "last_seen": "2026-03-12 18:45:56"
+  },
+  {
+    "id": 26,
+    "name": "Rick Rule",
+    "slug": "rick-rule",
+    "bio": null,
+    "known_for": null,
+    "last_seen": "2026-03-12 18:45:56"
+  },
+  {
+    "id": 27,
+    "name": "a prominent figure in the commodity space",
+    "slug": "a-prominent-figure-in-the-commodity-space",
+    "bio": null,
+    "known_for": null,
+    "last_seen": "2026-03-12 18:45:56"
+  },
+  {
+    "id": 28,
+    "name": "Milton Berg",
+    "slug": "milton-berg",
+    "bio": null,
+    "known_for": null,
+    "last_seen": "2026-03-12 18:45:56"
+  },
+  {
+    "id": 29,
+    "name": "a renowned technical analyst",
+    "slug": "a-renowned-technical-analyst",
+    "bio": null,
+    "known_for": null,
+    "last_seen": "2026-03-12 18:45:56"
+  },
+  {
+    "id": 30,
+    "name": "Carson Block",
+    "slug": "carson-block",
+    "bio": null,
+    "known_for": null,
+    "last_seen": "2026-03-12 18:45:56"
+  },
+  {
+    "id": 31,
+    "name": "founder of Muddy Waters Capital",
+    "slug": "founder-of-muddy-waters-capital",
+    "bio": null,
+    "known_for": null,
+    "last_seen": "2026-03-12 18:45:56"
+  },
+  {
+    "id": 32,
+    "name": "a leading activist short seller hedge fund",
+    "slug": "a-leading-activist-short-seller-hedge-fund",
+    "bio": null,
+    "known_for": null,
+    "last_seen": "2026-03-12 18:45:56"
+  },
+  {
     "id": 9,
     "name": "Garrett Langley",
     "slug": "garrett-langley",
     "bio": "An electrical engineer who built a camera system to track cars entering his neighborhood, which later evolved into Flock Safety.",
     "known_for": "Flock Safety",
-    "last_seen": "2026-03-12 16:59:38"
+    "last_seen": "2026-03-12 18:45:55"
   },
   {
-    "id": 8,
-    "name": "Joseph Stiglitz",
-    "slug": "joseph-stiglitz",
-    "bio": "Nobel Laureate Economist, Professor at Columbia University, and author of 'Road to Freedom, Economics, and the Good Society'.",
-    "known_for": "His work on inequality, globalization, and economic consequences of geopolitical events.",
-    "last_seen": "2026-03-12 16:59:31"
-  },
-  {
-    "id": 1,
-    "name": "Paul Ackens",
-    "slug": "paul-ackens",
-    "bio": "SEC chair, responsible for overseeing the U.S. securities market.",
-    "known_for": "Regulating and enforcing federal securities laws",
-    "last_seen": "2026-03-12 16:59:22"
-  },
-  {
-    "id": 2,
-    "name": "Michael Cilig",
-    "slug": "michael-cilig",
-    "bio": "CFTC chair, responsible for overseeing the U.S. derivatives market.",
-    "known_for": "Regulating futures, options, and swaps markets",
-    "last_seen": "2026-03-12 16:59:22"
-  },
-  {
-    "id": 11,
-    "name": "Shemoth Polly, Hippetia",
-    "slug": "shemoth-polly-hippetia",
+    "id": 12,
+    "name": "Nobel Laureate Economist Professor Joseph Stiglitz",
+    "slug": "nobel-laureate-economist-professor-joseph-stiglitz",
     "bio": null,
     "known_for": null,
-    "last_seen": "2026-03-12 16:59:22"
+    "last_seen": "2026-03-12 18:45:55"
   },
   {
-    "id": 3,
-    "name": "Shemoth Polly",
-    "slug": "shemoth-polly",
+    "id": 13,
+    "name": "a discussion with SEC chair Paul Ackens",
+    "slug": "a-discussion-with-sec-chair-paul-ackens",
     "bio": null,
     "known_for": null,
-    "last_seen": "2026-03-12 16:28:33"
+    "last_seen": "2026-03-12 18:45:55"
+  },
+  {
+    "id": 14,
+    "name": "CFTC chair Michael Cilig",
+    "slug": "cftc-chair-michael-cilig",
+    "bio": null,
+    "known_for": null,
+    "last_seen": "2026-03-12 18:45:55"
+  },
+  {
+    "id": 15,
+    "name": "founder of Flock Safety",
+    "slug": "founder-of-flock-safety",
+    "bio": null,
+    "known_for": null,
+    "last_seen": "2026-03-12 18:45:55"
   }
 ]
 };
