@@ -5947,3 +5947,217 @@ Finished: 2026-03-12 05:05:06.481174
 🎙️ 2 new podcast(s) analyzed
 
 🌐 Website updated
+2026-03-12T22:00:16-05:00 run_if_scheduled: in window, running pipeline
+============================================================
+AUTO PIPELINE
+Mode: full
+Started: 2026-03-12 22:00:16.367407
+============================================================
+
+============================================================
+STEP: Podcast Curation
+============================================================
+======================================================================
+Podcast Curation System
+======================================================================
+
+Found 7 podcast feeds
+
+Fetching episode metadata...
+  Fetching: https://feeds.megaphone.fm/DVVTS2890392624...
+    ✓ Moonshots with Peter Diamandis: 0 episodes
+  Fetching: https://feeds.megaphone.fm/EWWMN1909747317...
+    ✓ Monetary Matters with Jack Farley: 0 episodes
+  Fetching: https://feeds.simplecast.com/JGE3yC0V...
+    ✓ The a16z Show: 0 episodes
+  Fetching: https://rss.libsyn.com/shows/254861/destinations/1928300.xml...
+    ✓ All-In with Chamath, Jason, Sacks & Friedberg: 0 episodes
+  Fetching: https://anchor.fm/s/e29097f4/podcast/rss...
+    ✓ The Jack Mallers Show: 0 episodes
+  Fetching: https://feed.podbean.com/macrovoices/feed.xml...
+    ✓ Macro Voices: 0 episodes
+  Fetching: https://api.substack.com/feed/podcast/69345.rss...
+    ✓ Dwarkesh Podcast: 1 episodes
+
+Matching audio files to episodes...
+  ✓ Matched: 0 files
+  ? Unmatched: 9 files
+
+Curating episodes for investment relevance...
+
+  APPROVED for transcription: 0
+  SKIPPED/EXCLUDED: 0
+
+======================================================================
+CURATION RESULTS
+======================================================================
+
+📌 APPROVED (will transcribe):
+
+----------------------------------------------------------------------
+
+📋 REVIEW ALL:
+
+
+✓ Curation log saved: /Users/jaredsheppard/.openclaw/workspace/pipeline/state/curation_log.json
+
+======================================================================
+NEXT STEPS
+======================================================================
+
+1. Review approved episodes above
+2. To transcribe approved episodes, run:
+   python3 transcribe_curated.py
+
+3. Or manually transcribe specific files:
+
+✓ Podcast Curation completed
+
+============================================================
+STEP: Fetch & Transcribe
+============================================================
+======================================================================
+Fetch & Transcribe Latest Podcast Episodes
+======================================================================
+  ✓ Cleaned up 2 orphan audio file(s) (transcript already exists)
+
+Found 7 podcast feeds
+
+📻 Processing: https://feeds.megaphone.fm/DVVTS2890392624...
+  ⏭ Already have 'OpenClaw Explained: Baby AGI, Security Threats, an' (guid match, ep_id=54)
+  ✗ No episode found
+
+📻 Processing: https://feeds.megaphone.fm/EWWMN1909747317...
+  ⏭ Already have 'Joseph Stiglitz: Higher Oil and Food Prices From I' (guid match, ep_id=56)
+  ✗ No episode found
+
+📻 Processing: https://feeds.simplecast.com/JGE3yC0V...
+  ⏭ Already have 'Palantir CEO Alex Karp on the Zero-Sum AI Race' (guid match, ep_id=58)
+  ✗ No episode found
+
+📻 Processing: https://rss.libsyn.com/shows/254861/destinations/1...
+  ⏭ Already have 'Rewriting the Rules: The SEC & CFTC on Crypto, IPO' (guid match, ep_id=57)
+  ✗ No episode found
+
+📻 Processing: https://anchor.fm/s/e29097f4/podcast/rss...
+  ⏭ Already have 'Oil, Bonds, and Bitcoin: The Rules Are That There ' (guid match, ep_id=52)
+  ✗ No episode found
+
+📻 Processing: https://feed.podbean.com/macrovoices/feed.xml...
+  ⏭ Already have 'MacroVoices #523 Jim Bianco: Energy, FED & Economy' (guid match, ep_id=59)
+  ✗ No episode found
+
+📻 Processing: https://api.substack.com/feed/podcast/69345.rss...
+  📋 Latest: The most important question nobody's asking about AI...
+  ⬇️  Downloading: 94a1857634f9ebd3857e20d95893ec75.mp3
+     Title: The most important question nobody's asking about AI...
+     ✓ Downloaded to /Users/jaredsheppard/.openclaw/workspace/audio/94a1857634f9ebd3857e20d95893ec75.mp3
+  🎙️  Transcribing: 94a1857634f9ebd3857e20d95893ec75.mp3
+  📥 Submitted to whisper queue: 94a1857634f9ebd3857e20d95893ec75.mp3
+  ⏭ Queue-only mode: not waiting. Run pipeline again after worker finishes.
+
+✓ Log saved: /Users/jaredsheppard/.openclaw/workspace/pipeline/state/fetch_log.json
+
+======================================================================
+SUMMARY
+======================================================================
+Total feeds: 7
+Successfully transcribed: 0
+Failed: 1
+
+Completed episodes:
+
+
+Next step: Run 'python3 research.py' to analyze transcripts
+
+✓ Fetch & Transcribe completed
+
+============================================================
+STEP: Newsletter Ingestion
+============================================================
+==================================================
+Newsletter Ingestion Pipeline
+==================================================
+
+Connecting to Gmail...
+Connecting to Gmail at imap.gmail.com:993...
+Logging in as jsheppard8989@gmail.com...
+Selecting folder: NEWSLETTERS...
+Found 0 unread emails
+
+No emails fetched from Gmail.
+
+✓ Processed 0 emails
+
+Files saved to: /Users/jaredsheppard/.openclaw/workspace/pipeline/inbox
+
+Next step: Run analysis to score stock mentions
+
+✓ Newsletter Ingestion completed
+
+============================================================
+STEP: Transcript AI Analysis
+============================================================
+  ⚠ Google Generative AI library not installed. Run: pip install google-generativeai
+
+============================================================
+Processing Podcast Transcripts with AI
+============================================================
+  Using Moonshot/Kimi API (primary)
+Found 49 transcript files
+  Processing dario_amodei.txt...
+    ⏭ Too short, skipping
+  Processing elon_musk.txt...
+    ⏭ Too short, skipping
+
+✓ Transcript processing complete: 0 new, 47 skipped, 0 errors
+✓ Analyzed 0 new transcripts
+
+============================================================
+STEP: Newsletter Import
+============================================================
+  ⏭ Already in DB: =?UTF-8?B?8J+agA==?= SpaceX, xAI form $1.25T super-entity
+  ⏭ Already in DB: Fw: The Agentic Inversion: What Moltbook and Axie Infinity R
+  ⏭ Already in DB: =?utf-8?Q?Fw:_Figure=E2=80=99s_General_Purpose_Robot:_Why_20
+  ⏭ Already in DB: =?UTF-8?B?8J+agA==?= xAI's next phase unleashed
+  ⏭ Already in DB: =?UTF-8?B?8J+noA==?= Google's upgrade breaks reasoning barri
+  ⏭ Already in DB: =?UTF-8?B?8J+Urg==?= Sam Altman's OpenAI succession plan
+  ⏭ Already in DB: =?UTF-8?B?8J+aqg==?= xAI's co-founder exodus continues
+✓ Total newsletters imported: 0
+
+============================================================
+STEP: Promote Episodes to Insights
+============================================================
+Found 2 processed episodes not yet in insights
+  ✓ Promoted: 'Macro Voices Episode 523: Geopolitical Situation in Iran, Oi' (sentiment=bearish)
+  ✓ Promoted: 'The Intersection of Technology, Geopolitics, and National De' (sentiment=neutral)
+  ✓ Auto-archived 2 older insights
+✓ Promoted 2 new insight(s) to website
+
+============================================================
+STEP: Promote Newsletters to Insights
+============================================================
+Found 0 newsletters not yet on site
+
+============================================================
+STEP: Aggregate Daily Scores
+============================================================
+✓ Saved 9 daily scores
+
+============================================================
+STEP: Generate Deep Dives
+============================================================
+Generating Deep Dives for 2 insights...
+
+  Using Moonshot/Kimi API
+[75] Macro Voices Episode 523: Geopolitical Situation in Iran, Oi
+  ✓ Deep Dive stored
+[76] The Intersection of Technology, Geopolitics, and National De
+  ✓ Deep Dive stored
+
+✓ Generated 2/2 Deep Dives
+
+✓ Generate Deep Dives completed
+
+============================================================
+STEP: Fetch Prices

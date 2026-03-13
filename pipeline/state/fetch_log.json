@@ -1,19 +1,12 @@
 {
-  "timestamp": "2026-03-12T15:29:41.631121",
+  "timestamp": "2026-03-12T22:00:21.629340",
   "results": [
     {
-      "podcast": "The a16z Show",
-      "title": "Palantir CEO Alex Karp on the Zero-Sum AI Race",
-      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_20260312_83d9dbc0_d0fc_4194_abb3_69af1465.mp3",
-      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/the_a16z_show_20260312_83d9dbc0_d0fc_4194_abb3_69af1465.txt",
-      "success": true
-    },
-    {
-      "podcast": "Macro Voices",
-      "title": "MacroVoices #523 Jim Bianco: Energy, FED & Economy in the wake of Iran conflict",
-      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/MacroVoices-2026-03-12-Jim-Bianco.mp3",
-      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/MacroVoices-2026-03-12-Jim-Bianco.txt",
-      "success": true
+      "podcast": "Dwarkesh Podcast",
+      "title": "The most important question nobody's asking about AI",
+      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/94a1857634f9ebd3857e20d95893ec75.mp3",
+      "transcript_path": null,
+      "success": false
     }
   ]
 }

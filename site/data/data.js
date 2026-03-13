@@ -2,7 +2,7 @@
 // DO NOT EDIT MANUALLY
 
 const dashboardData = {
-  generatedAt: "2026-03-12T15:50:28.978760",
+  generatedAt: "2026-03-12T22:01:57.388710",
   chartsVersion: "2026-03-12T08:30:18.018679",
   tickerScores: [
   {
@@ -639,6 +639,49 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 75,
+      "title": "Macro Voices Episode 523: Geopolitical Situation in Iran, Oil Prices, Precious Metals, and Market Analysis",
+      "source_type": "podcast",
+      "source_name": "Macro Voices",
+      "source_date": "2026-03-12",
+      "summary": "In this episode of Macro Voices, hosts Eric Townsend and Patrick Suresne discuss a range of topics from the geopolitical situation in Iran to oil prices, precious metals, and the broader market implications. They feature interviews with Jim Bianco, founder of Bianco Research, and Dr. Onus Alhajji, who provides insights into the ongoing conflict and its impact on oil markets. The episode also includes a discussion on hedging portfolio tail risks and a post-game chart deck analysis.",
+      "key_takeaway": "The current geopolitical tensions, particularly in Iran, are creating significant market volatility, especially in oil prices, which presents both risks and opportunities for investors.",
+      "tickers_mentioned": [
+        "S&P 500",
+        "WTI",
+        "ARBOMB",
+        "GOLD",
+        "COPPER",
+        "WTBN"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-12",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 59
+    },
+    {
+      "id": 76,
+      "title": "The Intersection of Technology, Geopolitics, and National Defense",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-03-12",
+      "summary": "In this episode of the a16z Show, Alex Carp, co-founder and CEO of Palantir, discusses the critical role of technology in modern warfare and the importance of maintaining American military superiority. Carp argues that Silicon Valley's belief in operating outside of geopolitics is a fallacy and that AI companies must collaborate with the defense establishment to prevent nationalization. He also touches on the broader implications of technology on society, including the protection of individual rights and the potential for technology to exacerbate wealth inequality.",
+      "key_takeaway": "Investing in companies that leverage technology to enhance national defense and security could yield significant returns, especially if they align with the interests of the defense establishment.",
+      "tickers_mentioned": [
+        "PLTR"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-12",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 58
+    },
+    {
       "id": 72,
       "title": "Real-time Crime Prevention and the Future of Policing",
       "source_type": "podcast",
@@ -778,11 +821,11 @@ const dashboardData = {
         "BTC"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-10",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-13",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 54
     },
     {
@@ -797,11 +840,11 @@ const dashboardData = {
         "N/A"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-10",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-13",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 53
     },
     {
@@ -1901,6 +1944,18 @@ const dashboardData = {
   ],
   "definitions": [
     {
+      "id": 9,
+      "term": "Michael Howell",
+      "definition": "Definition for Michael Howell",
+      "investment_implications": "AI-curated from transcript analysis",
+      "added_date": "2026-03-13",
+      "vote_count": 7,
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "display_order": 0
+    },
+    {
       "id": 6,
       "term": "Compute Deflation Trade",
       "definition": "The investment thesis built around the 400x AI compute cost collapse: identifying who wins (inference-at-scale platforms, edge AI hardware) and who loses (legacy SaaS companies whose moats were priced assuming expensive AI).",
@@ -2087,6 +2142,44 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 75,
+      "title": "Macro Voices Episode 523: Geopolitical Situation in Iran, Oil Prices, Precious Metals, and Market Analysis",
+      "source_type": "podcast",
+      "source_name": "Macro Voices",
+      "source_date": "2026-03-12",
+      "summary": "In this episode of Macro Voices, hosts Eric Townsend and Patrick Suresne discuss a range of topics from the geopolitical situation in Iran to oil prices, precious metals, and the broader market implications. They feature interviews with Jim Bianco, founder of Bianco Research, and Dr. Onus Alhajji, who provides insights into the ongoing conflict and its impact on oil markets. The episode also includes a discussion on hedging portfolio tail risks and a post-game chart deck analysis.",
+      "key_takeaway": "The current geopolitical tensions, particularly in Iran, are creating significant market volatility, especially in oil prices, which presents both risks and opportunities for investors.",
+      "tickers_mentioned": "[\"S&P 500\", \"WTI\", \"ARBOMB\", \"GOLD\", \"COPPER\", \"WTBN\"]",
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-12",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 59,
+      "episode_release_date": "2026-03-12",
+      "guest_name": null
+    },
+    {
+      "id": 76,
+      "title": "The Intersection of Technology, Geopolitics, and National Defense",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-03-12",
+      "summary": "In this episode of the a16z Show, Alex Carp, co-founder and CEO of Palantir, discusses the critical role of technology in modern warfare and the importance of maintaining American military superiority. Carp argues that Silicon Valley's belief in operating outside of geopolitics is a fallacy and that AI companies must collaborate with the defense establishment to prevent nationalization. He also touches on the broader implications of technology on society, including the protection of individual rights and the potential for technology to exacerbate wealth inequality.",
+      "key_takeaway": "Investing in companies that leverage technology to enhance national defense and security could yield significant returns, especially if they align with the interests of the defense establishment.",
+      "tickers_mentioned": "[\"PLTR\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-12",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 58,
+      "episode_release_date": "2026-03-12",
+      "guest_name": null
+    },
+    {
       "id": 72,
       "title": "Real-time Crime Prevention and the Future of Policing",
       "source_type": "podcast",
@@ -2182,44 +2275,6 @@ const dashboardData = {
       "guest_name": null
     },
     {
-      "id": 69,
-      "title": "The Future of Personal AI Agents with OpenClaw",
-      "source_type": "podcast",
-      "source_name": "Moonshots with Peter Diamandis",
-      "source_date": "2026-03-09",
-      "summary": "In this episode of 'Moonshots with Peter Diamandis', the focus is on OpenClaw, an open-source, customizable, self-learning personal AI agent. The discussion revolves around the potential of AI running locally, the opportunities and risks associated with autonomous AI agents, and the impact on individuals and businesses. The guests explore use cases, the vision for the future of AI agents, and the billion-dollar opportunities within the agent economy. Additionally, the conversation touches on safety concerns and the implications of increased hacking attempts in a world where AI is becoming more integrated into daily life.",
-      "key_takeaway": "Investment in AI technology, particularly in personal AI agents like OpenClaw, could offer substantial returns as the technology matures and becomes more integrated into daily life.",
-      "tickers_mentioned": "[\"BTC\"]",
-      "sentiment": "bearish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-03-10",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 54,
-      "episode_release_date": "2026-03-09",
-      "guest_name": null
-    },
-    {
-      "id": 70,
-      "title": "Monetary Matters with Jack Farley: Global Liquidity and Asset Allocation",
-      "source_type": "podcast",
-      "source_name": "Monetary Matters with Jack Farley",
-      "source_date": "2026-03-09",
-      "summary": "In this episode of Monetary Matters, Jack Farley interviews Michael Howell from Capital Wars sub-stack and Global Liquidity Indexes. They discuss the peak in the global liquidity cycle, its implications for financial assets, and the shift towards higher yielding assets like private credit. Michael Howell shares his insights on the Federal Reserve's balance sheet, the impact of liquidity on markets, and the potential for a strong economy to lead to a more bearish outlook. The conversation also touches on China's role in the global liquidity cycle and its impact on gold prices.",
-      "key_takeaway": "As the global liquidity cycle peaks, investors should consider rotating their asset allocation towards more defensive areas and higher yielding assets like private credit.",
-      "tickers_mentioned": "[\"N/A\"]",
-      "sentiment": "bearish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-03-10",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 53,
-      "episode_release_date": "2026-03-09",
-      "guest_name": null
-    },
-    {
       "id": 71,
       "title": "All-In with Chamath, Jason, Sacks & Friedberg - Discussion with Graham Allison",
       "source_type": "podcast",
@@ -2240,6 +2295,18 @@ const dashboardData = {
     }
   ],
   "definitions": [
+    {
+      "id": 9,
+      "term": "Michael Howell",
+      "definition": "Definition for Michael Howell",
+      "investment_implications": "AI-curated from transcript analysis",
+      "added_date": "2026-03-13",
+      "vote_count": 7,
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "display_order": 0
+    },
     {
       "id": 6,
       "term": "Compute Deflation Trade",
@@ -6036,25 +6103,147 @@ const dashboardData = {
     "insight_title": "Monetary Matters: Economic Consequences of War and AI's Impact",
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-03-11"
+  },
+  "75": {
+    "id": 66,
+    "insight_id": 75,
+    "podcast_episode_id": 59,
+    "overview": "In this episode of Macro Voices, hosts Eric Townsend and Patrick Suresne delve into the geopolitical situation in Iran, its impact on oil prices, precious metals, and broader market implications. The discussion with Jim Bianco, founder of Bianco Research, and Dr. Onus Alhajji, an energy expert, provides insights into the potential short and long-term effects of the Iran conflict on financial markets. The analysis is particularly timely given the recent escalation in the Middle East and its immediate impact on oil prices, inflation, and global economic stability. Understanding these dynamics is crucial for investors to navigate the current market volatility and position their portfolios accordingly.",
+    "key_takeaways_detailed": [
+      "The Iran conflict's immediate impact on oil prices could lead to a short-term blockage in the Strait of Hormuz, disrupting the global oil supply and potentially causing a spike in inflation.",
+      "Investors should monitor the duration of the conflict as prolonged tensions increase the risk of infrastructure damage, which could lead to a more significant and longer-lasting impact on energy markets.",
+      "The potential for self-reinforcing inflation due to higher oil prices necessitates a close watch on core PCE price index and PPI inflation numbers for signs of economic strain.",
+      "Stablecoins may play a role in the global dollar system amid geopolitical tensions, offering a potential hedge against currency fluctuations.",
+      "Advances in genomic AI could reshape productivity, energy demand, and the future of work, presenting both opportunities and challenges for investors."
+    ],
+    "investment_thesis": "The investment thesis centers around the geopolitical tensions in Iran and their impact on global financial markets, particularly oil prices and inflation. The catalysts for this thesis include the ongoing conflict in the Middle East, the potential for infrastructure damage affecting oil supply, and the broader implications for global economic stability. The timeframe for this thesis is immediate to medium-term, as the conflict's resolution or escalation will significantly influence market movements. Investors should consider positions in sectors directly affected by oil prices and inflation, such as energy stocks and precious metals, while also hedging against potential market volatility.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple Inc. (AAPL) is included due to its significant market influence and its exposure to global supply chain disruptions that could be exacerbated by geopolitical tensions.",
+        "positioning": "Positioning in AAPL should be strategic, considering its resilience and potential for innovation in times of market stress. A long position may be appropriate for investors with a medium to long-term horizon.",
+        "risk": "Key risks include supply chain disruptions due to conflict escalation and potential inflationary pressures affecting consumer spending."
+      },
+      "NVDA": {
+        "rationale": "Nvidia Corporation (NVDA) is relevant due to its leadership in AI and technology, which could be significantly impacted by advances in genomic AI and changes in energy demand.",
+        "positioning": "NVDA can be positioned long for its growth potential in the AI sector, with a tactical approach to manage short-term volatility.",
+        "risk": "The risk lies in the rapid pace of technological change and the potential for geopolitical tensions to disrupt global technology supply chains."
+      },
+      "SPY": {
+        "rationale": "SPDR S&P 500 ETF Trust (SPY) represents a broad market exposure, allowing investors to hedge against or capitalize on the overall market movements influenced by the Iran conflict.",
+        "positioning": "Investors should consider a tactical approach with SPY, using it as a tool to balance portfolio exposure to market volatility.",
+        "risk": "The risk is the potential for a market correction due to escalating geopolitical tensions and rising inflation."
+      },
+      "TSLA": {
+        "rationale": "Tesla Inc. (TSLA) is included for its role as a disruptor in the energy and automotive sectors, which could be affected by changes in oil prices and the push towards sustainable energy.",
+        "positioning": "TSLA can be positioned long for its potential to benefit from a shift towards renewable energy, with a strategic focus on its long-term growth prospects.",
+        "risk": "Key risks include regulatory changes, competition in the electric vehicle market, and potential disruptions in its supply chain due to global tensions."
+      }
+    },
+    "positioning_guidance": "Investors should consider a balanced approach to portfolio positioning, with a mix of long positions in companies that stand to benefit from the current geopolitical situation and short positions or hedges against those that are more vulnerable. Entry points should be based on market volatility and technical analysis, with a focus on key support and resistance levels. Timeframes should be medium to long-term, as the resolution of the Iran conflict and its economic implications will likely take time to unfold. Hedging strategies, such as options or inverse ETFs, can be employed to protect against potential market downturns.",
+    "risk_factors": [
+      "Prolonged conflict in the Middle East leading to significant damage to oil infrastructure and a prolonged disruption in the global oil supply.",
+      "Rising inflation that could lead to a self-reinforcing cycle, impacting consumer spending and economic growth.",
+      "Unexpected shifts in global energy policies or technological advancements that could disrupt the current market dynamics.",
+      "Geopolitical tensions escalating beyond the Middle East, affecting other regions and markets.",
+      "Regulatory changes or technological disruptions affecting key sectors such as technology and renewable energy."
+    ],
+    "contrarian_signals": [
+      "The potential for a swift resolution to the Iran conflict that could lead to a rapid return to normalcy in oil markets and a subsequent drop in prices.",
+      "The possibility that advances in renewable energy technologies could mitigate the impact of oil price fluctuations on the global economy.",
+      "The view that the current market volatility presents a buying opportunity for investors looking to capitalize on long-term growth prospects in sectors such as technology and renewable energy."
+    ],
+    "catalysts": [
+      "The outcome of the Iran conflict and any potential ceasefire or escalation, which could significantly impact oil prices and global stability.",
+      "Upcoming inflation data, including the core PCE price index and PPI inflation numbers, which will provide insight into the economic impact of rising oil prices.",
+      "FOMC, Bank of Japan, and ECB policy statements and conferences, which could influence global monetary policy and market expectations.",
+      "Advances in genomic AI and their potential to reshape productivity, energy demand, and the future of work.",
+      "Global energy policies and the shift towards renewable energy, which could mitigate the impact of geopolitical tensions on oil prices."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-03-12T22:00:59.356923",
+    "updated_at": "2026-03-13 03:00:59",
+    "insight_title": "Macro Voices Episode 523: Geopolitical Situation in Iran, Oil Prices, Precious Metals, and Market Analysis",
+    "source_name": "Macro Voices",
+    "source_date": "2026-03-12"
+  },
+  "76": {
+    "id": 67,
+    "insight_id": 76,
+    "podcast_episode_id": 58,
+    "overview": "The investment thesis revolves around the convergence of technology, geopolitics, and national defense, with a focus on the role of AI and software companies in bolstering military superiority. The recent events in the Middle East, including the US and Israel's bombing of Iran, underscore the importance of this intersection. As Alex Carp, CEO of Palantir, argues, the rise of defense tech and the integration of AI into military operations are critical for maintaining a decisive vote in global power dynamics. This thesis matters now more than ever, as the US demonstrates a level of precision and dominance in military operations that adversaries did not anticipate, largely due to technological advantages.",
+    "key_takeaways_detailed": [
+      "The US is exerting a deterrent capability that was previously eviscerated, largely due to technological advantages in military operations.",
+      "AI companies that do not align with the defense establishment risk nationalization, which could have significant implications for their business models and growth prospects.",
+      "Investors should focus on companies that are at the forefront of defense technology and AI, as they are poised to benefit from the increasing convergence of these sectors.",
+      "The rise of defense tech presents a hybrid opportunity, combining software, hardware, and AI, which could lead to significant growth and innovation in the space.",
+      "Geopolitical tensions and the need for military superiority are likely to drive increased investment in defense technology, creating potential investment opportunities in this space."
+    ],
+    "investment_thesis": "The core investment logic is that the convergence of technology, geopolitics, and national defense will create significant investment opportunities in the defense technology and AI sectors. As the US and other nations seek to maintain military superiority, there will be increased demand for advanced technologies that can provide a decisive edge in conflicts. This thesis is supported by recent events in the Middle East, which demonstrate the importance of technological advantages in military operations. The catalysts for this thesis include ongoing geopolitical tensions, the rise of defense tech, and the increasing integration of AI into military operations. The timeframe for this thesis is medium to long-term, as the development and deployment of advanced defense technologies is likely to take time, but the potential rewards are significant.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple is relevant to this thesis due to its significant investments in AI and its potential to supply advanced technologies to the military.",
+        "positioning": "Position long on AAPL as a strategic investment, given its potential to benefit from the increasing demand for advanced defense technologies.",
+        "risk": "Key risks for AAPL include potential backlash from consumers if it becomes too closely associated with military operations, as well as potential supply chain disruptions due to geopolitical tensions."
+      },
+      "NVDA": {
+        "rationale": "Nvidia is a leader in AI and GPU technology, which are critical for advanced defense systems and military operations.",
+        "positioning": "Position long on NVDA as a strategic investment, given its strong position in the AI and defense technology sectors.",
+        "risk": "Key risks for NVDA include potential regulatory hurdles and increased competition in the AI space, as well as potential disruptions to its supply chain due to geopolitical tensions."
+      },
+      "GOOGL": {
+        "rationale": "Google, through its subsidiary Alphabet, has significant investments in AI and defense technology, including its work on Project Maven.",
+        "positioning": "Position long on GOOGL as a strategic investment, given its potential to benefit from the increasing demand for advanced defense technologies.",
+        "risk": "Key risks for GOOGL include potential backlash from consumers and employees over its involvement in military projects, as well as potential regulatory hurdles."
+      },
+      "MSFT": {
+        "rationale": "Microsoft has a significant presence in the defense technology sector, including its work on the JEDI cloud contract with the Department of Defense.",
+        "positioning": "Position long on MSFT as a strategic investment, given its strong position in the defense technology sector and its potential to benefit from increased military spending.",
+        "risk": "Key risks for MSFT include potential backlash from consumers and employees over its involvement in military projects, as well as potential regulatory hurdles and increased competition in the cloud space."
+      },
+      "PLTR": {
+        "rationale": "Palantir is directly involved in defense technology, with its software being used in military operations and intelligence analysis.",
+        "positioning": "Position long on PLTR as a strategic investment, given its direct involvement in defense technology and its potential to benefit from increased military spending.",
+        "risk": "Key risks for PLTR include potential backlash from consumers and employees over its involvement in military projects, as well as potential regulatory hurdles and increased competition in the AI space."
+      }
+    },
+    "positioning_guidance": "Investors should position their portfolios to take advantage of the convergence of technology, geopolitics, and national defense. This could involve allocating a portion of their portfolio to companies that are at the forefront of defense technology and AI, such as AAPL, NVDA, GOOGL, MSFT, and PLTR. Investors should consider a medium to long-term timeframe for these investments, as the development and deployment of advanced defense technologies is likely to take time. Entry points could be based on market dips or on positive news related to these companies' involvement in defense projects. Investors may also consider hedging their positions with inverse ETFs or options in case of potential market downturns or geopolitical tensions.",
+    "risk_factors": [
+      "Geopolitical tensions could lead to increased volatility and potential disruptions to the supply chains of defense technology companies.",
+      "Regulatory hurdles could slow down the development and deployment of advanced defense technologies.",
+      "Backlash from consumers and employees over companies' involvement in military projects could hurt their reputations and bottom lines.",
+      "Increased competition in the AI and defense technology sectors could erode the competitive advantages of individual companies.",
+      "Potential nationalization of AI companies that do not align with the defense establishment could have significant implications for their business models and growth prospects."
+    ],
+    "contrarian_signals": [
+      "Some investors may argue that the focus on military superiority is short-sighted and that resources would be better spent on diplomacy and conflict resolution.",
+      "There is a risk that the increasing integration of AI into military operations could lead to an arms race and further escalate geopolitical tensions.",
+      "Investors may be concerned about the ethical implications of investing in companies that are directly involved in military operations and the potential for blowback from controversial projects."
+    ],
+    "catalysts": [
+      "Upcoming military operations or conflicts that demonstrate the importance of technological advantages in military operations.",
+      "New defense contracts awarded to technology companies, signaling increased demand for advanced defense technologies.",
+      "Positive news related to the development and deployment of AI in military operations, such as successful tests or real-world applications.",
+      "Geopolitical tensions that highlight the need for military superiority and increased defense spending.",
+      "Regulatory developments that could impact the defense technology sector, such as changes to export controls or antitrust regulations."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-03-12T22:01:38.653990",
+    "updated_at": "2026-03-13 03:01:38",
+    "insight_title": "The Intersection of Technology, Geopolitics, and National Defense",
+    "source_name": "The a16z Show",
+    "source_date": "2026-03-12"
   }
 },
-  suggestedTerms: [
-  {
-    "id": 4,
-    "term": "Michael Howell",
-    "definition": null,
-    "investment_implications": null,
-    "source_type": "auto_extracted",
-    "mention_count": 6,
-    "source_diversity": 5,
-    "relevance_score": 50,
-    "submitted_date": "2026-03-11 03:05:24",
-    "priority_score": 210
-  }
-],
+  suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 98,
+    "id": 105,
     "name": "Harvard Professor Graham Allison",
     "slug": "harvard-professor-graham-allison",
     "bio": null,
@@ -6066,7 +6255,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 99,
+    "id": 106,
     "name": "Andrew Yang",
     "slug": "andrew-yang",
     "bio": "Andrew Yang is an entrepreneur and political leader who popularized universal basic income in U.S. politics through his 2020 presidential campaign.",
@@ -6078,7 +6267,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 100,
+    "id": 107,
     "name": "Ray Dalio",
     "slug": "ray-dalio",
     "bio": "Ray Dalio is the founder of Bridgewater Associates and a macro investor known for his 'Principles' framework and work on long-term debt cycles.",
@@ -6090,7 +6279,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 101,
+    "id": 108,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -6102,7 +6291,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 102,
+    "id": 109,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -6114,7 +6303,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 103,
+    "id": 110,
     "name": "Bosworth",
     "slug": "bosworth",
     "bio": null,
@@ -6126,7 +6315,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 104,
+    "id": 111,
     "name": "Brett Adcock",
     "slug": "brett-adcock",
     "bio": "Brett Adcock is a serial founder behind Vettery, Archer Aviation, and Figure, building in eVTOL, humanoid robotics, and frontier AI.",

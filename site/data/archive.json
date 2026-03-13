@@ -1,6 +1,49 @@
 {
   "insights": [
     {
+      "id": 75,
+      "title": "Macro Voices Episode 523: Geopolitical Situation in Iran, Oil Prices, Precious Metals, and Market Analysis",
+      "source_type": "podcast",
+      "source_name": "Macro Voices",
+      "source_date": "2026-03-12",
+      "summary": "In this episode of Macro Voices, hosts Eric Townsend and Patrick Suresne discuss a range of topics from the geopolitical situation in Iran to oil prices, precious metals, and the broader market implications. They feature interviews with Jim Bianco, founder of Bianco Research, and Dr. Onus Alhajji, who provides insights into the ongoing conflict and its impact on oil markets. The episode also includes a discussion on hedging portfolio tail risks and a post-game chart deck analysis.",
+      "key_takeaway": "The current geopolitical tensions, particularly in Iran, are creating significant market volatility, especially in oil prices, which presents both risks and opportunities for investors.",
+      "tickers_mentioned": [
+        "S&P 500",
+        "WTI",
+        "ARBOMB",
+        "GOLD",
+        "COPPER",
+        "WTBN"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-12",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 59
+    },
+    {
+      "id": 76,
+      "title": "The Intersection of Technology, Geopolitics, and National Defense",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-03-12",
+      "summary": "In this episode of the a16z Show, Alex Carp, co-founder and CEO of Palantir, discusses the critical role of technology in modern warfare and the importance of maintaining American military superiority. Carp argues that Silicon Valley's belief in operating outside of geopolitics is a fallacy and that AI companies must collaborate with the defense establishment to prevent nationalization. He also touches on the broader implications of technology on society, including the protection of individual rights and the potential for technology to exacerbate wealth inequality.",
+      "key_takeaway": "Investing in companies that leverage technology to enhance national defense and security could yield significant returns, especially if they align with the interests of the defense establishment.",
+      "tickers_mentioned": [
+        "PLTR"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-12",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 58
+    },
+    {
       "id": 72,
       "title": "Real-time Crime Prevention and the Future of Policing",
       "source_type": "podcast",
@@ -140,11 +183,11 @@
         "BTC"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-10",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-13",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 54
     },
     {
@@ -159,11 +202,11 @@
         "N/A"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-10",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-13",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 53
     },
     {
@@ -1262,6 +1305,18 @@
     }
   ],
   "definitions": [
+    {
+      "id": 9,
+      "term": "Michael Howell",
+      "definition": "Definition for Michael Howell",
+      "investment_implications": "AI-curated from transcript analysis",
+      "added_date": "2026-03-13",
+      "vote_count": 7,
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "display_order": 0
+    },
     {
       "id": 6,
       "term": "Compute Deflation Trade",
