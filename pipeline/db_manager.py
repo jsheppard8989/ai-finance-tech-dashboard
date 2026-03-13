@@ -421,9 +421,8 @@ class DashboardDB:
         with open(output_dir / 'podcast_guests.json', 'w') as f:
             json.dump(guests, f, indent=2, default=str)
 
-        # Export pundits from semantic layer: people entities with recent appearances
+        # Export pundits from semantic layer: people with guest_primary appearances + last episode / main idea
         with self._get_connection() as conn:
-            # Pundits: only people with at least one guest_primary appearance
             cursor = conn.execute(
                 """
                 SELECT
@@ -432,20 +431,58 @@ class DashboardDB:
                     e.slug,
                     e.bio,
                     e.known_for,
-                    MAX(a.created_at) AS last_seen
+                    a.created_at AS last_seen,
+                    pe.episode_title AS last_episode_title,
+                    pe.podcast_name AS last_podcast_name,
+                    pe.episode_date AS last_episode_date,
+                    pe.investment_thesis,
+                    pe.key_takeaways
                 FROM entities e
-                JOIN appearances a ON a.entity_id = e.id
+                JOIN appearances a ON a.entity_id = e.id AND LOWER(a.role) = 'guest_primary' AND a.source_type = 'podcast'
+                JOIN (
+                    SELECT entity_id, MAX(id) AS mid
+                    FROM appearances
+                    WHERE LOWER(role) = 'guest_primary' AND source_type = 'podcast'
+                    GROUP BY entity_id
+                ) latest ON latest.entity_id = a.entity_id AND a.id = latest.mid
+                LEFT JOIN podcast_episodes pe ON pe.id = a.source_id
                 WHERE e.type = 'person'
-                  AND EXISTS (
-                      SELECT 1 FROM appearances a2
-                      WHERE a2.entity_id = e.id AND LOWER(a2.role) = 'guest_primary'
-                  )
-                GROUP BY e.id, e.name, e.slug, e.bio, e.known_for
-                ORDER BY last_seen DESC
+                ORDER BY a.created_at DESC
                 LIMIT 20
                 """
             )
-            pundits = [dict(row) for row in cursor.fetchall()]
+            rows = [dict(row) for row in cursor.fetchall()]
+
+            pundits = []
+            for row in rows:
+                p = {
+                    'id': row['id'],
+                    'name': row['name'],
+                    'slug': row['slug'],
+                    'bio': row['bio'],
+                    'known_for': row['known_for'],
+                    'last_seen': row['last_seen'],
+                    'last_episode_title': row['last_episode_title'],
+                    'last_podcast_name': row['last_podcast_name'],
+                    'last_episode_date': row['last_episode_date'],
+                }
+                # Last main idea: from that episode's investment_thesis or first key_takeaway (AI JSON)
+                thesis = (row.get('investment_thesis') or '').strip()
+                takeaways = row.get('key_takeaways')
+                if isinstance(takeaways, str) and takeaways:
+                    try:
+                        takeaways = json.loads(takeaways)
+                    except Exception:
+                        takeaways = []
+                if not isinstance(takeaways, list):
+                    takeaways = []
+                if thesis:
+                    p['last_main_idea'] = thesis[:500]
+                elif takeaways:
+                    p['last_main_idea'] = (takeaways[0] or '')[:500]
+                else:
+                    p['last_main_idea'] = None
+                pundits.append(p)
 
         with open(output_dir / 'pundits.json', 'w') as f:
             json.dump(pundits, f, indent=2, default=str)
@@ -538,17 +575,26 @@ class DashboardDB:
         }
         
         with self._get_connection() as conn:
-            # Get active insights (limited to most recent 5)
-            # Join with podcast_episodes to get actual episode release date
+            # Get active insights (limited to most recent 8). Include key_tickers from episode (AI JSON) for cards and Deep Dive.
             cursor = conn.execute("""
-                SELECT li.*, pe.episode_date as episode_release_date, pe.guest_name as guest_name
+                SELECT li.*, pe.episode_date as episode_release_date, pe.guest_name as guest_name, pe.key_tickers as key_tickers
                 FROM latest_insights li
                 LEFT JOIN podcast_episodes pe ON li.podcast_episode_id = pe.id
                 WHERE li.display_on_main = 1
                 ORDER BY li.display_order, li.source_date DESC
                 LIMIT 8
             """)
-            content['insights'] = [dict(row) for row in cursor.fetchall()]
+            rows = [dict(row) for row in cursor.fetchall()]
+            for r in rows:
+                raw = r.get('key_tickers')
+                if isinstance(raw, str) and raw:
+                    try:
+                        r['key_tickers'] = json.loads(raw) if raw.strip() else []
+                    except Exception:
+                        r['key_tickers'] = []
+                elif not isinstance(raw, list):
+                    r['key_tickers'] = []
+            content['insights'] = rows
             
             # Get active definitions (limited to most relevant)
             cursor = conn.execute("""
@@ -621,14 +667,15 @@ class DashboardDB:
             return content
     
     def get_all_deep_dive_content(self) -> Dict[str, Dict]:
-        """Get all Deep Dive content indexed by insight title."""
+        """Get all Deep Dive content indexed by insight_id. Includes key_tickers from linked episode (AI JSON) for filtering."""
         deepdives = {}
         
         with self._get_connection() as conn:
             cursor = conn.execute("""
-                SELECT ddc.*, li.title as insight_title, li.source_name, li.source_date
+                SELECT ddc.*, li.title as insight_title, li.source_name, li.source_date, pe.key_tickers
                 FROM deep_dive_content ddc
                 JOIN latest_insights li ON ddc.insight_id = li.id
+                LEFT JOIN podcast_episodes pe ON li.podcast_episode_id = pe.id
             """)
             
             for row in cursor.fetchall():
@@ -642,6 +689,18 @@ class DashboardDB:
                             content[field] = json.loads(content[field])
                         except:
                             pass
+                
+                # key_tickers from episode: only show tickers from AI JSON in Deep Dive
+                raw = content.get('key_tickers')
+                if isinstance(raw, str) and raw:
+                    try:
+                        content['key_tickers'] = json.loads(raw) if raw.strip() else []
+                    except Exception:
+                        content['key_tickers'] = []
+                elif isinstance(raw, list):
+                    content['key_tickers'] = raw
+                else:
+                    content['key_tickers'] = []
                 
                 # Key by insight_id (integer) — stable, title-change-proof
                 deepdives[str(content['insight_id'])] = content
@@ -668,6 +727,48 @@ class DashboardDB:
                 ORDER BY relevance_score DESC, mention_count DESC
             """)
             return [dict(row) for row in cursor.fetchall()]
+
+    def upsert_suggested_term_from_ai(
+        self,
+        term: str,
+        definition: Optional[str] = None,
+        investment_implications: Optional[str] = None,
+        source_context: Optional[str] = None,
+    ) -> bool:
+        """Insert or update suggested_terms from AI episode analysis. Returns True if new."""
+        term_clean = (term or "").strip()
+        if not term_clean or len(term_clean) < 3:
+            return False
+        with self._get_connection() as conn:
+            row = conn.execute(
+                "SELECT id, mention_count FROM suggested_terms WHERE LOWER(TRIM(term)) = LOWER(?)",
+                (term_clean,),
+            ).fetchone()
+            if row:
+                conn.execute(
+                    """
+                    UPDATE suggested_terms
+                    SET mention_count = mention_count + 1,
+                        last_mentioned_date = date('now'),
+                        relevance_score = MIN(COALESCE(relevance_score, 50) + 5, 100),
+                        definition = COALESCE(?, definition),
+                        investment_implications = COALESCE(?, investment_implications),
+                        source_context = COALESCE(?, source_context)
+                    WHERE id = ?
+                    """,
+                    (definition, investment_implications, source_context, row["id"]),
+                )
+                return False
+            conn.execute(
+                """
+                INSERT INTO suggested_terms
+                (term, definition, investment_implications, source_type, source_context,
+                 mention_count, source_diversity, relevance_score, last_mentioned_date, status)
+                VALUES (?, ?, ?, 'auto_extracted', ?, 1, 1, 50, date('now'), 'pending')
+                """,
+                (term_clean, definition, investment_implications, source_context),
+            )
+            return True
 
     # === Podcast Guests (Interviewees) ===
 

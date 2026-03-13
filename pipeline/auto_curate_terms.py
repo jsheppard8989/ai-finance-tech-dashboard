@@ -52,7 +52,7 @@ def analyze_term_quality(term_data):
 
 
 def auto_promote_term(db, term_data):
-    """Promote a term to Definitions."""
+    """Promote a term to Definitions and to Overton Window (overton_terms)."""
     with db._get_connection() as conn:
         # Check if already in definitions
         cursor = conn.execute(
@@ -61,8 +61,10 @@ def auto_promote_term(db, term_data):
         )
         if cursor.fetchone():
             print(f"  ℹ️  '{term_data['term']}' already in definitions")
+            # Still ensure it's in overton_terms for the Overton Window
+            _ensure_overton_term(conn, term_data)
             return False
-        
+
         # Add to definitions
         conn.execute("""
             INSERT INTO definitions 
@@ -74,7 +76,10 @@ def auto_promote_term(db, term_data):
             term_data.get('investment_implications') or 'AI-curated from transcript analysis',
             term_data.get('mention_count', 1)
         ))
-        
+
+        # Add to overton_terms so it appears in the Overton Window on the site
+        _ensure_overton_term(conn, term_data)
+
         # Update suggested_terms status
         conn.execute("""
             UPDATE suggested_terms 
@@ -83,9 +88,35 @@ def auto_promote_term(db, term_data):
                 review_notes = 'Auto-approved: high relevance score'
             WHERE id = ?
         """, (term_data['id'],))
-        
-        print(f"  ✅ AUTO-PROMOTED: '{term_data['term']}' (relevance: {term_data.get('relevance_score', 'N/A')})")
+
+        print(f"  ✅ AUTO-PROMOTED: '{term_data['term']}' → Definitions + Overton Window (relevance: {term_data.get('relevance_score', 'N/A')})")
         return True
+
+
+def _ensure_overton_term(conn, term_data):
+    """Insert or update overton_terms so the term appears in the Overton Window."""
+    term = term_data['term']
+    description = term_data.get('definition') or f"Curated concept: {term}"
+    investment_implications = term_data.get('investment_implications')
+    mention_count = term_data.get('mention_count', 1)
+    cursor = conn.execute("SELECT id FROM overton_terms WHERE term = ?", (term,))
+    if cursor.fetchone():
+        conn.execute("""
+            UPDATE overton_terms
+            SET description = COALESCE(?, description),
+                investment_implications = COALESCE(?, investment_implications),
+                last_mentioned_date = date('now'),
+                mention_count = MAX(mention_count, ?),
+                status = 'active',
+                display_on_main = 1
+            WHERE term = ?
+        """, (description, investment_implications, mention_count, term))
+    else:
+        conn.execute("""
+            INSERT INTO overton_terms
+            (term, description, first_detected_date, last_mentioned_date, mention_count, status, investment_implications, display_on_main)
+            VALUES (?, ?, date('now'), date('now'), ?, 'active', ?, 1)
+        """, (term, description, mention_count, investment_implications))
 
 
 def get_borderline_terms_for_review(db):

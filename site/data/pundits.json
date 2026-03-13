@@ -5,7 +5,11 @@
     "slug": "jim-bianco",
     "bio": "Founder of Bianco Research, a provider of institutional research.",
     "known_for": "In-depth analysis of financial markets and macroeconomic trends.",
-    "last_seen": "2026-03-12 20:30:09"
+    "last_seen": "2026-03-12 20:30:09",
+    "last_episode_title": "Macro Voices Episode 523: Geopolitical Situation in Iran, Oil Prices, Precious Metals, and Market Analysis",
+    "last_podcast_name": "Macro Voices",
+    "last_episode_date": "2026-03-12",
+    "last_main_idea": "The current geopolitical tensions, particularly in Iran, are creating significant market volatility, especially in oil prices, which presents both risks and opportunities for investors."
   },
   {
     "id": 55,
@@ -13,7 +17,11 @@
     "slug": "dr-onus-alhajji",
     "bio": "Expert commentator on energy markets and geopolitical conflicts.",
     "known_for": "Analysis of the impact of geopolitical events on oil markets.",
-    "last_seen": "2026-03-12 20:30:09"
+    "last_seen": "2026-03-12 20:30:09",
+    "last_episode_title": "Macro Voices Episode 523: Geopolitical Situation in Iran, Oil Prices, Precious Metals, and Market Analysis",
+    "last_podcast_name": "Macro Voices",
+    "last_episode_date": "2026-03-12",
+    "last_main_idea": "The current geopolitical tensions, particularly in Iran, are creating significant market volatility, especially in oil prices, which presents both risks and opportunities for investors."
   },
   {
     "id": 52,
@@ -21,7 +29,11 @@
     "slug": "alex-carp",
     "bio": "Co-founder and CEO of Palantir, a company that specializes in big data analytics.",
     "known_for": "Building technology deployed on battlefields and analytics infrastructure embedded in the Department of Defense.",
-    "last_seen": "2026-03-12 20:29:53"
+    "last_seen": "2026-03-12 20:29:53",
+    "last_episode_title": "The Intersection of Technology, Geopolitics, and National Defense",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-03-12",
+    "last_main_idea": "Investing in companies that leverage technology to enhance national defense and security could yield significant returns, especially if they align with the interests of the defense establishment."
   },
   {
     "id": 48,
@@ -29,7 +41,11 @@
     "slug": "graham-allison",
     "bio": "Founding dean of the Harvard Kennedy School, advisor to U.S. Secretaries of Defense, and author of 'Destined For War'.",
     "known_for": "Expertise on U.S.-China relations and nuclear security.",
-    "last_seen": "2026-03-12 19:39:13"
+    "last_seen": "2026-03-12 19:39:13",
+    "last_episode_title": "All-In with Chamath, Jason, Sacks & Friedberg - Discussion with Graham Allison",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-03-09",
+    "last_main_idea": "The global semiconductor supply chain, with a focus on Taiwan's TSMC, presents both risks and opportunities in the context of U.S.-China relations and economic inequality."
   },
   {
     "id": 47,
@@ -37,7 +53,11 @@
     "slug": "michael-howell",
     "bio": "Michael Howell is known for his work on global liquidity and his sub-stack Capital Wars.",
     "known_for": "Expertise in global liquidity and its impact on financial markets",
-    "last_seen": "2026-03-12 19:39:05"
+    "last_seen": "2026-03-12 19:39:05",
+    "last_episode_title": "Monetary Matters with Jack Farley: Global Liquidity and Asset Allocation",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-03-09",
+    "last_main_idea": "As the global liquidity cycle peaks, investors should consider rotating their asset allocation towards more defensive areas and higher yielding assets like private credit."
   },
   {
     "id": 45,
@@ -45,7 +65,11 @@
     "slug": "alex-finn",
     "bio": "Alex Finn is an AI enthusiast and expert who has been following the development of AI for a long time.",
     "known_for": "His expertise and hands-on experience with AI, particularly with OpenClaw.",
-    "last_seen": "2026-03-12 19:38:58"
+    "last_seen": "2026-03-12 19:38:58",
+    "last_episode_title": "The Future of Personal AI Agents with OpenClaw",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-03-09",
+    "last_main_idea": "Investment in AI technology, particularly in personal AI agents like OpenClaw, could offer substantial returns as the technology matures and becomes more integrated into daily life."
   },
   {
     "id": 43,
@@ -53,7 +77,11 @@
     "slug": "olivia-moore",
     "bio": "Partner at a16z",
     "known_for": "Expertise in AI and its applications within the tech industry",
-    "last_seen": "2026-03-12 19:38:51"
+    "last_seen": "2026-03-12 19:38:51",
+    "last_episode_title": "The a16z Show: AI Adoption, Creative Tools, and the Future of Generative AI",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-03-10",
+    "last_main_idea": "Investment in AI platforms is driven by their ability to capture user data, create personalized experiences, and expand globally, with a focus on platforms that can leverage AI to create compounding advantages."
   },
   {
     "id": 40,
@@ -61,7 +89,11 @@
     "slug": "garrett-langley",
     "bio": "Founder of Flock Safety, an electrical engineer turned entrepreneur.",
     "known_for": "Developing a neighborhood safety system that evolved into a nationwide real-time crime prevention platform.",
-    "last_seen": "2026-03-12 19:38:37"
+    "last_seen": "2026-03-12 19:38:37",
+    "last_episode_title": "Real-time Crime Prevention and the Future of Policing",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-03-11",
+    "last_main_idea": "Investing in technology that enhances real-time crime prevention and clearance rates can lead to more effective law enforcement and safer communities."
   },
   {
     "id": 38,
@@ -69,7 +101,11 @@
     "slug": "joseph-stiglitz",
     "bio": "Nobel Laureate Economist and Professor at Columbia University",
     "known_for": "Author of 'Road to Freedom, Economics, and the Good Society'",
-    "last_seen": "2026-03-12 19:38:30"
+    "last_seen": "2026-03-12 19:38:30",
+    "last_episode_title": "Monetary Matters: Economic Consequences of War and AI's Impact",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-03-11",
+    "last_main_idea": "The current geopolitical tensions and the rise of AI technology present both risks and opportunities, with the potential for economic disruption and the need for strategic investment in sectors less affected by AI."
   },
   {
     "id": 33,
@@ -77,7 +113,11 @@
     "slug": "paul-ackens",
     "bio": "SEC chair with a history in corporation finance work.",
     "known_for": "Shaping capital markets and regulatory oversight.",
-    "last_seen": "2026-03-12 19:38:22"
+    "last_seen": "2026-03-12 19:38:22",
+    "last_episode_title": "Capital Markets Evolution and the Future of IPOs",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-03-11",
+    "last_main_idea": "The shift towards private markets and the potential for changing reporting cadence could redefine the landscape for early-stage investment opportunities and public market participation."
   },
   {
     "id": 34,
@@ -85,6 +125,10 @@
     "slug": "michael-cilig",
     "bio": "CFTC chair with expertise in commodities and financial markets.",
     "known_for": "Regulatory oversight in commodities and financial markets.",
-    "last_seen": "2026-03-12 19:38:22"
+    "last_seen": "2026-03-12 19:38:22",
+    "last_episode_title": "Capital Markets Evolution and the Future of IPOs",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-03-11",
+    "last_main_idea": "The shift towards private markets and the potential for changing reporting cadence could redefine the landscape for early-stage investment opportunities and public market participation."
   }
 ]

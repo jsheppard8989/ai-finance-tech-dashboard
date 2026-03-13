@@ -209,8 +209,8 @@
       border-radius: 2px;
     }
 
-    /* Definitions Section - Clickable Cards (visually merged with Overton items) */
-    .definition-item {
+    /* Overton Window – unified cards (definitions + emerging terms, same structure) */
+    .overton-window-item {
       background: rgba(123, 44, 191, 0.1);
       border: 1px solid rgba(123, 44, 191, 0.3);
       padding: 0.75rem;
@@ -222,128 +222,58 @@
       overflow: hidden;
     }
 
-    .definition-item::before {
+    .overton-window-item::before {
       content: '';
       position: absolute;
       top: 0;
       left: 0;
       right: 0;
       bottom: 0;
-      background: linear-gradient(135deg, rgba(0, 212, 255, 0.1) 0%, rgba(123, 44, 191, 0.05) 100%);
+      background: linear-gradient(135deg, rgba(123, 44, 191, 0.15) 0%, rgba(0, 212, 255, 0.08) 100%);
       opacity: 0;
       transition: opacity 0.3s ease;
       pointer-events: none;
     }
 
-    .definition-item:hover {
+    .overton-window-item:hover {
       border-color: rgba(123, 44, 191, 0.5);
       background: rgba(123, 44, 191, 0.15);
-      transform: translateY(-2px);
-    }
-
-    .definition-item:hover::before {
-      opacity: 1;
-    }
-
-    .definition-item.active {
-      border-color: rgba(123, 44, 191, 0.7);
-      background: rgba(123, 44, 191, 0.18);
-      box-shadow: 0 6px 22px rgba(123, 44, 191, 0.18);
-    }
-
-    .definition-item h3 {
-      color: #00d4ff;
-      font-size: 1.05rem;
-      margin-bottom: 0.4rem;
-      font-weight: 600;
-    }
-
-    .definition-item p {
-      color: #a8b2d1;
-      font-size: 0.9rem;
-      line-height: 1.5;
-    }
-
-    .definition-expanded {
-      max-height: 0;
-      overflow: hidden;
-      transition: max-height 0.4s ease, opacity 0.3s ease, padding 0.3s ease, margin 0.3s ease;
-      opacity: 0;
-      padding: 0;
-      margin: 0;
-    }
-
-    .definition-item.active .definition-expanded {
-      max-height: 150px;
-      opacity: 1;
-      padding-top: 0.75rem;
-      margin-top: 0.5rem;
-      border-top: 1px solid rgba(0, 212, 255, 0.2);
-    }
-
-    /* Overton Window Section - Clickable Cards */
-    .overton-item {
-      background: rgba(123, 44, 191, 0.1);
-      border: 1px solid rgba(123, 44, 191, 0.3);
-      padding: 0.75rem;
-      margin-bottom: 0.75rem;
-      border-radius: 10px;
-      cursor: pointer;
-      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-      position: relative;
-      overflow: hidden;
-    }
-
-    .overton-item::before {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background: linear-gradient(135deg, rgba(123, 44, 191, 0.15) 0%, rgba(0, 212, 255, 0.1) 100%);
-      opacity: 0;
-      transition: opacity 0.3s ease;
-      pointer-events: none;
-    }
-
-    .overton-item:hover {
-      border-color: rgba(123, 44, 191, 0.5);
       box-shadow: 0 6px 24px rgba(123, 44, 191, 0.15);
       transform: translateY(-2px);
     }
 
-    .overton-item:hover::before {
+    .overton-window-item:hover::before {
       opacity: 1;
     }
 
-    .overton-item.active {
+    .overton-window-item.active {
       border-color: rgba(123, 44, 191, 0.7);
+      background: rgba(123, 44, 191, 0.18);
       box-shadow: 0 8px 32px rgba(123, 44, 191, 0.2);
     }
 
-    .overton-item .term {
+    .overton-window-item .ow-term {
       font-weight: 700;
       color: #e8e8e8;
       font-size: 1rem;
       margin-bottom: 0.35rem;
     }
 
-    .overton-item .source {
+    .overton-window-item .ow-description {
+      font-size: 0.9rem;
+      color: #a8b2d1;
+      line-height: 1.5;
+      margin-top: 0.25rem;
+    }
+
+    .overton-window-item .ow-source {
       font-size: 0.75rem;
       color: #8892b0;
       margin-top: 0.5rem;
       font-style: italic;
     }
 
-    .overton-item .description {
-      font-size: 0.9rem;
-      color: #a8b2d1;
-      margin-top: 0.35rem;
-      line-height: 1.5;
-    }
-
-    .overton-expanded {
+    .overton-window-item .ow-expanded {
       max-height: 0;
       overflow: hidden;
       transition: max-height 0.4s ease, opacity 0.3s ease, padding 0.3s ease, margin 0.3s ease;
@@ -353,12 +283,17 @@
       border-top: 1px solid transparent;
     }
 
-    .overton-item.active .overton-expanded {
-      max-height: 150px;
+    .overton-window-item.active .ow-expanded {
+      max-height: 200px;
       opacity: 1;
       padding-top: 0.75rem;
-      margin-top: 0.75rem;
+      margin-top: 0.5rem;
       border-top-color: rgba(255, 255, 255, 0.1);
+    }
+
+    .overton-window-item .ow-expanded-inner {
+      font-size: 0.85rem;
+      color: #a8b2d1;
     }
 
     /* Suggestions Box */
@@ -396,6 +331,8 @@
     }
 
     .guest-item {
+      position: relative;
+      overflow: hidden;
       background: rgba(0, 212, 255, 0.06);
       border: 1px solid rgba(0, 212, 255, 0.25);
       padding: 0.75rem 1rem;
@@ -1488,87 +1425,16 @@
         <!-- The Overton Window: definitions + overton terms merged -->
         <div class="card">
           <h2>The Overton Window</h2>
-          <p style="color: #8892b0; margin-bottom: 1.5rem; font-size: 0.9rem;">Curated definitions and emerging concepts not yet mainstream in investment discourse</p>
+          <p style="color: #8892b0; margin-bottom: 1.5rem; font-size: 0.9rem;">Curated definitions and emerging concepts not yet mainstream in investment discourse. Terms from AI episode analysis appear here after promotion.</p>
 
-          <div class="definition-item" onclick="toggleDefinition(this)">
-            <h3>🛰️ Dyson Swarm</h3>
-            <p>A hypothetical megastructure consisting of a vast array of solar collectors (satellites) orbiting a star to capture its energy output. Unlike a solid Dyson Sphere, a swarm allows for gradual construction and doesn't require implausible engineering.</p>
-            <div class="definition-expanded">
-              <div style="font-size: 0.85rem; color: #00d4ff;">
-                <strong>Investment Implication:</strong> As space-based solar power becomes economically viable, companies developing launch capabilities and orbital infrastructure could benefit.
-              </div>
-            </div>
-          </div>
-
-          <div class="definition-item" onclick="toggleDefinition(this)">
-            <h3>📈 Jevon's Paradox</h3>
-            <p>An economic phenomenon where increased efficiency in using a resource leads to increased consumption of that resource rather than decreased consumption.</p>
-            <div class="definition-expanded">
-              <div style="font-size: 0.85rem; color: #00d4ff;">
-                <strong>Investment Implication:</strong> As AI makes computation cheaper, total compute demand may explode—benefiting chip makers, data centers, and power providers despite efficiency gains.
-              </div>
-            </div>
-          </div>
-
-          <div class="definition-item" onclick="toggleDefinition(this)">
-            <h3>💱 Yen Carry Trade</h3>
-            <p>A strategy where investors borrow in Japanese yen (low interest rates ~0.25%) and invest in higher-yielding assets (US Treasuries, tech stocks, emerging markets).</p>
-            <div class="definition-expanded">
-              <div style="font-size: 0.85rem; color: #00d4ff;">
-                <strong>Risk Signal:</strong> When the Bank of Japan hikes rates or yen strengthens, unwinds trigger forced selling. <strong>2024 unwind</strong> caused 12% VIX spike—watch JPY/USD &gt;150.
-              </div>
-            </div>
-          </div>
-
-          <!-- Overton terms (emerging concepts) -->
-          <div class="overton-item">
-            <div class="term">🧠 Neuralink Moment</div>
-            <div class="description">The inflection point when brain-computer interfaces shift from experimental to consumer-ready, triggering societal restructuring around cognitive enhancement.</div>
-            <div class="source">Detected in: The Network State Podcast • Feb 2026</div>
-            <div class="overton-expanded">
-              <div style="font-size: 0.85rem; color: #a8b2d1;">
-                <strong>Investment Angle:</strong> BCI hardware, neurotech chips, cognitive enhancement platforms. Early stage - watch for FDA approvals and consumer product launches.
-              </div>
-            </div>
-          </div>
-
-          <div class="overton-item">
-            <div class="term">🌐 Sovereign Individual Thesis</div>
-            <div class="description">The expectation that high-net-worth individuals will increasingly decouple from traditional jurisdictions, seeking digital-first citizenship and asset structures.</div>
-            <div class="source">Detected in: Monetary Matters • Feb 2026</div>
-            <div class="overton-expanded">
-              <div style="font-size: 0.85rem; color: #a8b2d1;">
-                <strong>Investment Angle:</strong> Digital banking, crypto custody, tax-advantaged jurisdictions, nomad infrastructure. Services enabling geographic arbitrage.
-              </div>
-            </div>
-          </div>
-
-          <div class="overton-item">
-            <div class="term">⚡ Compute Arbitrage</div>
-            <div class="description">Exploiting price differentials in AI compute across regions and providers-buying low in unregulated markets, deploying high in enterprise stacks.</div>
-            <div class="source">Detected in: a16z Live • Jan 2026</div>
-            <div class="overton-expanded">
-              <div style="font-size: 0.85rem; color: #a8b2d1;">
-                <strong>Investment Angle:</strong> GPU cloud providers, distributed compute networks, energy arbitrage plays. Infrastructure for AI training cost optimization.
-              </div>
-            </div>
-          </div>
-
-          <div class="overton-item">
-            <div class="term">🏛️ Regulatory Moat</div>
-            <div class="description">Competitive advantage gained not through technology but through compliance complexity-incumbents weaponizing bureaucracy against nimble startups.</div>
-            <div class="source">Detected in: Jack Mallers Show • Feb 2026</div>
-            <div class="overton-expanded">
-              <div style="font-size: 0.85rem; color: #a8b2d1;">
-                <strong>Investment Angle:</strong> Incumbents with established compliance infrastructure. Banking, healthcare, defense contractors. Barrier to entry becomes the product.
-              </div>
-            </div>
+          <div id="overton-window-list">
+            <!-- Filled by loadOvertonWindow() from mainContent.definitions + mainContent.overton -->
           </div>
 
           <!-- Emerging Terms Box -->
           <div class="suggestions-box">
             <h3>📋 Emerging Terms</h3>
-            <p style="color: #a8b2d1; font-size: 0.9rem; margin-bottom: 1rem;">New terminology detected in transcripts. Auto-curated by AI; high-relevance terms promoted to Definitions.</p>
+            <p style="color: #a8b2d1; font-size: 0.9rem; margin-bottom: 1rem;">Terms extracted from the AI episode analysis JSON. High-relevance terms are promoted to the Overton Window above.</p>
 
             <div id="suggestions-list">
               <!-- Emerging terms loaded dynamically from database -->
@@ -1713,7 +1579,7 @@
   </div>
 
   <!-- Load dashboard data from pipeline (if available) -->
-  <script src="./data/data.js?v=1773396202-2"></script>
+  <script src="./data/data.js?v=20260312-2"></script>
   <script src="./js/common.js"></script>
   
   <script>
@@ -1822,10 +1688,71 @@
       }
     }
 
+    // Load Overton Window from mainContent.definitions + mainContent.overton (promoted terms)
+    function loadOvertonWindow() {
+      const container = document.getElementById('overton-window-list');
+      if (!container) return;
+
+      const main = (typeof dashboardData !== 'undefined' && dashboardData.mainContent) ? dashboardData.mainContent : {};
+      const definitions = main.definitions || [];
+      const overton = main.overton || [];
+
+      function esc(s) {
+        if (s == null || s === '') return '';
+        return String(s).replace(/</g, '&lt;').replace(/>/g, '&gt;');
+      }
+
+      const items = [];
+      definitions.forEach(function(d) {
+        const term = esc(d.term);
+        const desc = esc(d.definition || '');
+        const impl = esc(d.investment_implications || '');
+        const expanded = impl ? '<strong>Investment angle:</strong> ' + impl : '';
+        items.push(
+          '<div class="overton-window-item">' +
+            '<div class="ow-term">' + term + '</div>' +
+            '<div class="ow-description">' + desc + '</div>' +
+            '<div class="ow-source">Curated definition</div>' +
+            (expanded ? '<div class="ow-expanded"><div class="ow-expanded-inner">' + expanded + '</div></div>' : '') +
+          '</div>'
+        );
+      });
+      overton.forEach(function(o) {
+        const term = esc(o.term);
+        const desc = esc(o.description || o.definition || '');
+        const impl = esc(o.investment_implications || '');
+        let source = 'Detected in podcast';
+        if (o.source_podcasts) {
+          try {
+            const arr = typeof o.source_podcasts === 'string' ? JSON.parse(o.source_podcasts) : o.source_podcasts;
+            if (Array.isArray(arr) && arr.length) source = 'Detected in: ' + arr.slice(0, 2).join(', ');
+          } catch (e) {}
+        } else if (o.first_detected_date) {
+          source = 'First detected: ' + o.first_detected_date;
+        }
+        const expanded = impl ? '<strong>Investment angle:</strong> ' + impl : '';
+        items.push(
+          '<div class="overton-window-item">' +
+            '<div class="ow-term">' + term + '</div>' +
+            '<div class="ow-description">' + desc + '</div>' +
+            '<div class="ow-source">' + esc(source) + '</div>' +
+            (expanded ? '<div class="ow-expanded"><div class="ow-expanded-inner">' + expanded + '</div></div>' : '') +
+          '</div>'
+        );
+      });
+
+      if (items.length === 0) {
+        container.innerHTML = '<p style="color: #8892b0; font-size: 0.9rem; padding: 1rem;">No terms yet. Emerging terms from AI episode analysis are promoted here after curation.</p>';
+        return;
+      }
+      container.innerHTML = items.join('');
+    }
+
     // Initialize on page load
     document.addEventListener('DOMContentLoaded', function() {
       loadSuggestedTerms();
       loadPodcastGuests();
+      loadOvertonWindow();
     });
 
     function loadPodcastGuests() {
@@ -1988,8 +1915,13 @@
         return generateDeepDiveHTML(deepDive);
       }
       
-      // Fallback to basic HTML if no Deep Dive content
-      const tickerHtml = (insight.tickers_mentioned || []).map(t => 
+      // Fallback to basic HTML if no Deep Dive content. Use key_tickers from AI JSON only (no fallback tickers).
+      let fallbackTickers = insight.key_tickers;
+      if (typeof fallbackTickers === 'string') {
+        try { fallbackTickers = JSON.parse(fallbackTickers); } catch (e) { fallbackTickers = []; }
+      }
+      if (!Array.isArray(fallbackTickers)) fallbackTickers = [];
+      const tickerHtml = fallbackTickers.map(t =>
         `<span style="background: rgba(0,212,255,0.15); color: #00d4ff; padding: 0.25rem 0.75rem; border-radius: 4px; font-size: 0.9rem; margin-right: 0.5rem;">${t}</span>`
       ).join('');
       
@@ -2003,8 +1935,8 @@
           <p style="color: #a8b2d1; line-height: 1.6;">${insight.summary}</p>
         </div>
         <div style="margin-bottom: 1.5rem;">
-          <h4 style="color: #00d4ff; margin-bottom: 0.75rem; font-size: 1.1rem;">📈 Tickers Mentioned</h4>
-          <div style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 0.5rem;">${tickerHtml}</div>
+          <h4 style="color: #00d4ff; margin-bottom: 0.75rem; font-size: 1.1rem;">📈 Key Tickers</h4>
+          <div style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 0.5rem;">${tickerHtml || 'None'}</div>
         </div>
         <div>
           <h4 style="color: #00d4ff; margin-bottom: 0.75rem; font-size: 1.1rem;">💭 Sentiment</h4>
@@ -2225,7 +2157,7 @@
         closeChart();
         closePodcastSummary();
         // Also close any expanded cards
-        document.querySelectorAll('.ticker-card.active, .insight-item.active, .overton-item.active').forEach(card => {
+        document.querySelectorAll('.ticker-card.active, .insight-item.active, .overton-window-item.active').forEach(card => {
           card.classList.remove('active');
         });
         activeCard = null;
@@ -2244,25 +2176,24 @@
     // Toggle overton window items
     function toggleOverton(item) {
       // Close other expanded items
-      document.querySelectorAll('.overton-item.active').forEach(el => {
+      document.querySelectorAll('.overton-window-item.active').forEach(el => {
         if (el !== item) el.classList.remove('active');
       });
       item.classList.toggle('active');
     }
 
-    // Toggle definition items
+    // Legacy toggles (Overton cards now use shared handleCardClick)
     function toggleDefinition(item) {
-      // Close other expanded items
-      document.querySelectorAll('.definition-item.active').forEach(el => {
+      document.querySelectorAll('.overton-window-item.active').forEach(el => {
         if (el !== item) el.classList.remove('active');
       });
-      item.classList.toggle('active');
+      if (item) item.classList.toggle('active');
     }
 
     // Close expanded cards when clicking outside
     document.addEventListener('click', function(e) {
-      if (!e.target.closest('.ticker-card') && !e.target.closest('.insight-item') && !e.target.closest('.overton-item') && !e.target.closest('.definition-item')) {
-        document.querySelectorAll('.ticker-card.active, .insight-item.active, .overton-item.active, .definition-item.active').forEach(card => {
+      if (!e.target.closest('.ticker-card') && !e.target.closest('.insight-item') && !e.target.closest('.overton-window-item') && !e.target.closest('.guest-item')) {
+        document.querySelectorAll('.ticker-card.active, .insight-item.active, .overton-window-item.active, .guest-item.active').forEach(card => {
           card.classList.remove('active');
         });
         activeCard = null;
@@ -2453,7 +2384,7 @@
       grid.innerHTML = html;
 
       // Add click handlers to cards
-      document.querySelectorAll('.ticker-card, .guest-item, .overton-item').forEach(card => {
+      document.querySelectorAll('.ticker-card, .guest-item, .overton-window-item').forEach(card => {
         card.addEventListener('click', handleCardClick);
       });
 

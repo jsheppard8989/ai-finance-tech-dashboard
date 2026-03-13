@@ -242,6 +242,8 @@ def analyze_transcript_with_ai(client_info, transcript_content: str, podcast_nam
     prompt = (
         "You are an expert financial analyst and podcast curator. "
         f"Analyze this podcast transcript from \"{podcast_name}\" and extract structured investment insights.\n\n"
+        "IMPORTANT: Write all of the following in English only (summary, key_takeaways, investment_thesis, guest bios, emerging_terms). "
+        "Do not use other languages even if the transcript or topic is in another language.\n\n"
         "TRANSCRIPT:\n"
         f"{transcript_content}\n\n"
         "Please provide your analysis in this exact JSON format:\n"
@@ -277,6 +279,13 @@ def analyze_transcript_with_ai(client_info, transcript_content: str, podcast_nam
         "      \"timeframe\": \"short_term|medium_term|long_term\",\n"
         "      \"is_contrarian\": false,\n"
         "      \"is_disruption_focused\": false\n"
+        "    }\n"
+        "  ],\n"
+        "  \"emerging_terms\": [\n"
+        "    {\n"
+        "      \"term\": \"Concept or phrase (e.g. Compute Arbitrage, Regulatory Moat)\",\n"
+        "      \"definition\": \"1-2 sentence definition\",\n"
+        "      \"investment_angle\": \"One line for investors\"\n"
         "    }\n"
         "  ]\n"
         "}\n\n"
@@ -528,6 +537,17 @@ def process_transcript_file(transcript_path: Path, client_info, db) -> Optional[
             role='host',
             prominence=1,
         )
+
+    # Ingest emerging terms from AI into suggested_terms (Emerging Terms box)
+    source_context = f"{podcast_name} • {episode_title[:80]}"
+    for et in analysis.get('emerging_terms') or []:
+        term = (et.get('term') or '').strip()
+        if not term:
+            continue
+        definition = (et.get('definition') or '').strip() or None
+        investment_angle = (et.get('investment_angle') or '').strip() or None
+        if db.upsert_suggested_term_from_ai(term, definition, investment_angle, source_context):
+            print(f"    + Emerging term: {term[:50]}")
 
     # Store rss_guid and published_date from sidecar
     if episode_id and (rss_guid or sidecar.get('published_date')):

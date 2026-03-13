@@ -2,7 +2,7 @@
 // DO NOT EDIT MANUALLY
 
 const dashboardData = {
-  generatedAt: "2026-03-13T05:03:22.847471",
+  generatedAt: "2026-03-13T11:38:41.196268",
   chartsVersion: "2026-03-12T08:30:18.018679",
   tickerScores: [
   {
@@ -1978,6 +1978,54 @@ const dashboardData = {
       "display_order": 0
     },
     {
+      "id": 10,
+      "term": "Neuralink Moment",
+      "definition": "The inflection point when brain-computer interfaces shift from experimental to consumer-ready, triggering societal restructuring around cognitive enhancement.",
+      "investment_implications": "BCI hardware, neurotech chips, cognitive enhancement platforms. Early stage - watch for FDA approvals and consumer product launches.",
+      "added_date": "2026-03-13",
+      "vote_count": 1,
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "display_order": 0
+    },
+    {
+      "id": 11,
+      "term": "Sovereign Individual Thesis",
+      "definition": "The expectation that high-net-worth individuals will increasingly decouple from traditional jurisdictions, seeking digital-first citizenship and asset structures.",
+      "investment_implications": "Digital banking, crypto custody, tax-advantaged jurisdictions, nomad infrastructure. Services enabling geographic arbitrage.",
+      "added_date": "2026-03-13",
+      "vote_count": 1,
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "display_order": 0
+    },
+    {
+      "id": 12,
+      "term": "Compute Arbitrage",
+      "definition": "Exploiting price differentials in AI compute across regions and providers\u2014buying low in unregulated markets, deploying high in enterprise stacks.",
+      "investment_implications": "GPU cloud providers, distributed compute networks, energy arbitrage plays. Infrastructure for AI training cost optimization.",
+      "added_date": "2026-03-13",
+      "vote_count": 1,
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "display_order": 0
+    },
+    {
+      "id": 13,
+      "term": "Regulatory Moat",
+      "definition": "Competitive advantage gained not through technology but through compliance complexity\u2014incumbents weaponizing bureaucracy against nimble startups.",
+      "investment_implications": "Incumbents with established compliance infrastructure. Banking, healthcare, defense contractors. Barrier to entry becomes the product.",
+      "added_date": "2026-03-13",
+      "vote_count": 1,
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "display_order": 0
+    },
+    {
       "id": 6,
       "term": "Compute Deflation Trade",
       "definition": "The investment thesis built around the 400x AI compute cost collapse: identifying who wins (inference-at-scale platforms, edge AI hardware) and who loses (legacy SaaS companies whose moats were priced assuming expensive AI).",
@@ -2076,6 +2124,62 @@ const dashboardData = {
   ],
   "overton": [
     {
+      "id": 6,
+      "term": "Dyson Swarm",
+      "description": "A hypothetical megastructure consisting of a vast array of solar collectors (satellites) orbiting a star to capture its energy output. Unlike a solid Dyson Sphere, a swarm allows for gradual construction and doesn't require implausible engineering.",
+      "first_detected_date": "2026-03-13",
+      "last_mentioned_date": "2026-03-13",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "As space-based solar power becomes economically viable, companies developing launch capabilities and orbital infrastructure could benefit.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null
+    },
+    {
+      "id": 7,
+      "term": "Jevon's Paradox",
+      "description": "An economic phenomenon where increased efficiency in using a resource leads to increased consumption of that resource rather than decreased consumption.",
+      "first_detected_date": "2026-03-13",
+      "last_mentioned_date": "2026-03-13",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "As AI makes computation cheaper, total compute demand may explode\u2014benefiting chip makers, data centers, and power providers despite efficiency gains.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null
+    },
+    {
+      "id": 8,
+      "term": "Yen Carry Trade",
+      "description": "A strategy where investors borrow in Japanese yen (low interest rates ~0.25%) and invest in higher-yielding assets (US Treasuries, tech stocks, emerging markets).",
+      "first_detected_date": "2026-03-13",
+      "last_mentioned_date": "2026-03-13",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "When the Bank of Japan hikes rates or yen strengthens, unwinds trigger forced selling. 2024 unwind caused 12% VIX spike\u2014watch JPY/USD >150.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null
+    },
+    {
+      "id": 9,
+      "term": "Regulatory Moat",
+      "description": "Competitive advantage gained not through technology but through compliance complexity\u2014incumbents weaponizing bureaucracy against nimble startups.",
+      "first_detected_date": "2026-03-13",
+      "last_mentioned_date": "2026-03-13",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Incumbents with established compliance infrastructure. Banking, healthcare, defense contractors. Barrier to entry becomes the product.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null
+    },
+    {
       "id": 1,
       "term": "Neuralink Moment",
       "description": "The inflection point when brain-computer interfaces shift from experimental to consumer-ready, triggering societal restructuring around cognitive enhancement.",
@@ -2087,7 +2191,7 @@ const dashboardData = {
         "Monetary Matters"
       ],
       "status": "active",
-      "investment_implications": "BCI hardware, neurotech chips, cognitive enhancement platforms. Early stage - watch for FDA approvals.",
+      "investment_implications": "BCI hardware, neurotech chips, cognitive enhancement platforms. Early stage - watch for FDA approvals and consumer product launches.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null
@@ -2103,7 +2207,7 @@ const dashboardData = {
         "Monetary Matters"
       ],
       "status": "active",
-      "investment_implications": "Digital banking, crypto custody, tax-advantaged jurisdictions, nomad infrastructure.",
+      "investment_implications": "Digital banking, crypto custody, tax-advantaged jurisdictions, nomad infrastructure. Services enabling geographic arbitrage.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null
@@ -2120,7 +2224,7 @@ const dashboardData = {
         "Network State Podcast"
       ],
       "status": "active",
-      "investment_implications": "GPU cloud providers, distributed compute networks, energy arbitrage plays.",
+      "investment_implications": "GPU cloud providers, distributed compute networks, energy arbitrage plays. Infrastructure for AI training cost optimization.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null
@@ -2366,6 +2470,54 @@ const dashboardData = {
       "display_order": 0
     },
     {
+      "id": 10,
+      "term": "Neuralink Moment",
+      "definition": "The inflection point when brain-computer interfaces shift from experimental to consumer-ready, triggering societal restructuring around cognitive enhancement.",
+      "investment_implications": "BCI hardware, neurotech chips, cognitive enhancement platforms. Early stage - watch for FDA approvals and consumer product launches.",
+      "added_date": "2026-03-13",
+      "vote_count": 1,
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "display_order": 0
+    },
+    {
+      "id": 11,
+      "term": "Sovereign Individual Thesis",
+      "definition": "The expectation that high-net-worth individuals will increasingly decouple from traditional jurisdictions, seeking digital-first citizenship and asset structures.",
+      "investment_implications": "Digital banking, crypto custody, tax-advantaged jurisdictions, nomad infrastructure. Services enabling geographic arbitrage.",
+      "added_date": "2026-03-13",
+      "vote_count": 1,
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "display_order": 0
+    },
+    {
+      "id": 12,
+      "term": "Compute Arbitrage",
+      "definition": "Exploiting price differentials in AI compute across regions and providers\u2014buying low in unregulated markets, deploying high in enterprise stacks.",
+      "investment_implications": "GPU cloud providers, distributed compute networks, energy arbitrage plays. Infrastructure for AI training cost optimization.",
+      "added_date": "2026-03-13",
+      "vote_count": 1,
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "display_order": 0
+    },
+    {
+      "id": 13,
+      "term": "Regulatory Moat",
+      "definition": "Competitive advantage gained not through technology but through compliance complexity\u2014incumbents weaponizing bureaucracy against nimble startups.",
+      "investment_implications": "Incumbents with established compliance infrastructure. Banking, healthcare, defense contractors. Barrier to entry becomes the product.",
+      "added_date": "2026-03-13",
+      "vote_count": 1,
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "display_order": 0
+    },
+    {
       "id": 1,
       "term": "Dyson Swarm",
       "definition": "A hypothetical megastructure consisting of a vast array of solar collectors (satellites) orbiting a star to capture its energy output. Unlike a solid Dyson Sphere, a swarm allows for gradual construction and doesn't require implausible engineering.",
@@ -2388,18 +2540,6 @@ const dashboardData = {
       "archived_date": null,
       "archived_reason": null,
       "display_order": 2
-    },
-    {
-      "id": 3,
-      "term": "Yen Carry Trade",
-      "definition": "A strategy where investors borrow in Japanese yen (low interest rates ~0.25%) and invest in higher-yielding assets (US Treasuries, tech stocks, emerging markets).",
-      "investment_implications": "When the Bank of Japan hikes rates or yen strengthens, unwinds trigger forced selling. Watch JPY/USD >150 as risk signal.",
-      "added_date": "2026-01-16",
-      "vote_count": 18,
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "display_order": 3
     }
   ],
   "overton": [
@@ -2412,7 +2552,7 @@ const dashboardData = {
       "mention_count": 4,
       "source_podcasts": "[\"a16z Live\", \"Network State Podcast\"]",
       "status": "active",
-      "investment_implications": "GPU cloud providers, distributed compute networks, energy arbitrage plays.",
+      "investment_implications": "GPU cloud providers, distributed compute networks, energy arbitrage plays. Infrastructure for AI training cost optimization.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null
@@ -2426,7 +2566,7 @@ const dashboardData = {
       "mention_count": 3,
       "source_podcasts": "[\"Network State Podcast\", \"Monetary Matters\"]",
       "status": "active",
-      "investment_implications": "BCI hardware, neurotech chips, cognitive enhancement platforms. Early stage - watch for FDA approvals.",
+      "investment_implications": "BCI hardware, neurotech chips, cognitive enhancement platforms. Early stage - watch for FDA approvals and consumer product launches.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null
@@ -2440,7 +2580,63 @@ const dashboardData = {
       "mention_count": 2,
       "source_podcasts": "[\"Monetary Matters\"]",
       "status": "active",
-      "investment_implications": "Digital banking, crypto custody, tax-advantaged jurisdictions, nomad infrastructure.",
+      "investment_implications": "Digital banking, crypto custody, tax-advantaged jurisdictions, nomad infrastructure. Services enabling geographic arbitrage.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null
+    },
+    {
+      "id": 6,
+      "term": "Dyson Swarm",
+      "description": "A hypothetical megastructure consisting of a vast array of solar collectors (satellites) orbiting a star to capture its energy output. Unlike a solid Dyson Sphere, a swarm allows for gradual construction and doesn't require implausible engineering.",
+      "first_detected_date": "2026-03-13",
+      "last_mentioned_date": "2026-03-13",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "As space-based solar power becomes economically viable, companies developing launch capabilities and orbital infrastructure could benefit.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null
+    },
+    {
+      "id": 7,
+      "term": "Jevon's Paradox",
+      "description": "An economic phenomenon where increased efficiency in using a resource leads to increased consumption of that resource rather than decreased consumption.",
+      "first_detected_date": "2026-03-13",
+      "last_mentioned_date": "2026-03-13",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "As AI makes computation cheaper, total compute demand may explode\u2014benefiting chip makers, data centers, and power providers despite efficiency gains.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null
+    },
+    {
+      "id": 8,
+      "term": "Yen Carry Trade",
+      "description": "A strategy where investors borrow in Japanese yen (low interest rates ~0.25%) and invest in higher-yielding assets (US Treasuries, tech stocks, emerging markets).",
+      "first_detected_date": "2026-03-13",
+      "last_mentioned_date": "2026-03-13",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "When the Bank of Japan hikes rates or yen strengthens, unwinds trigger forced selling. 2024 unwind caused 12% VIX spike\u2014watch JPY/USD >150.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null
+    },
+    {
+      "id": 9,
+      "term": "Regulatory Moat",
+      "description": "Competitive advantage gained not through technology but through compliance complexity\u2014incumbents weaponizing bureaucracy against nimble startups.",
+      "first_detected_date": "2026-03-13",
+      "last_mentioned_date": "2026-03-13",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Incumbents with established compliance infrastructure. Banking, healthcare, defense contractors. Barrier to entry becomes the product.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null
