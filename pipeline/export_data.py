@@ -26,6 +26,20 @@ def export_website_data():
     
     stats = db.export_for_website(site_dir)
     print(f"✓ Exported: {stats}")
+
+    # Write a lightweight status.json for frontend health display
+    status = {
+        "last_pipeline_run": datetime.now().isoformat(),
+        "last_steps": {
+            "podcasts_analyzed": stats.get("podcast_summaries", 0),
+            "overton_terms": db.get_stats().get("overton_terms_total", 0) if hasattr(db, "get_stats") else 0,
+            "pundits": stats.get("pundits", 0),
+        },
+        "counts": db.get_stats() if hasattr(db, "get_stats") else {}
+    }
+    with open(site_dir / "status.json", "w") as f:
+        json.dump(status, f, indent=2, default=str)
+
     return stats
 
 

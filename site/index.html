@@ -1403,8 +1403,8 @@
       <h1>AI, Finance, Tech: Scarcity & Abundance</h1>
       <p class="subtitle">Curated insights from newsletters, podcasts, and market analysis</p>
       <p style="color: #8892b0; font-size: 0.8rem; margin-top: 0.5rem;">
-        <span id="last-updated">Last updated: February 14, 2026 at 11:06 AM CST</span> •
-        <span style="color: #00d4ff;">2-week % changes displayed</span>
+        <span id="last-updated">Last updated: —</span>
+        <span id="last-updated-meta">• <span style="color: #00d4ff;">2-week % changes displayed</span></span>
       </p>
       <!-- Desktop: absolute positioned badges; Mobile: inline via CSS override -->
       <div class="header-qqq-badge" style="position: absolute; bottom: 1rem; left: 2rem; display: flex; gap: 1rem;">
@@ -2344,10 +2344,28 @@
     }
 
     // Update last updated timestamp from data
-    function updateLastUpdated() {
+    async function updateLastUpdated() {
       const lastUpdatedEl = document.getElementById('last-updated');
-      if (lastUpdatedEl && typeof dashboardData !== 'undefined' && dashboardData.generatedAt) {
-        const date = new Date(dashboardData.generatedAt);
+      if (!lastUpdatedEl) return;
+
+      // Prefer status.json if available
+      let ts = null;
+      try {
+        const resp = await fetch('./data/status.json', { cache: 'no-cache' });
+        if (resp.ok) {
+          const status = await resp.json();
+          ts = status.last_pipeline_run || null;
+        }
+      } catch (e) {
+        if (DEBUG_SITE) console.warn('Could not load status.json:', e);
+      }
+
+      if (!ts && typeof dashboardData !== 'undefined' && dashboardData.generatedAt) {
+        ts = dashboardData.generatedAt;
+      }
+
+      if (ts) {
+        const date = new Date(ts);
         const options = { 
           month: 'long', 
           day: 'numeric', 
@@ -2357,6 +2375,8 @@
           timeZoneName: 'short'
         };
         lastUpdatedEl.textContent = 'Last updated: ' + date.toLocaleString('en-US', options);
+      } else {
+        lastUpdatedEl.textContent = 'Last updated: (unknown)';
       }
     }
 
