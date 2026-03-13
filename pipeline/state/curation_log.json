@@ -1,6 +1,24 @@
 {
-  "timestamp": "2026-03-12T22:00:18.781713",
-  "total_audio_files": 0,
-  "approved_for_transcription": 0,
-  "episodes": []
+  "timestamp": "2026-03-13T05:02:06.107289",
+  "total_audio_files": 1,
+  "approved_for_transcription": 1,
+  "episodes": [
+    {
+      "podcast": "Dwarkesh Podcast",
+      "title": "The most important question nobody's asking about AI",
+      "description": "<p>Read the full essay here: <a target=\"_blank\" href=\"https://www.dwarkesh.com/p/dow-anthropic\">https://www.dwarkesh.com/p/dow-anthropic</a></p><p></p><p>Timestamps</p><p>(00:00:00) - Anthropic vs The Pentagon</p><p>(00:04:16) - The overhangs of tyranny</p><p>(00:05:54) - AI structurally favors mass surveillance</p><p>(00:08:25) - Alignment...to whom?</p><p>(00:13:55) - Coordination not worth the costs</p> <br/><br/>Get full access to Dwarkesh Podcast at <a href=\"https://www.dwarkesh.com/subscri",
+      "audio_url": "https://api.substack.com/feed/podcast/190633588/94a1857634f9ebd3857e20d95893ec75.mp3",
+      "published": "Wed, 11 Mar 2026 18:55:20 GMT",
+      "published_date": "2026-03-11",
+      "rss_guid": "substack:post:190633588",
+      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/94a1857634f9ebd3857e20d95893ec75.mp3",
+      "filename": "94a1857634f9ebd3857e20d95893ec75.mp3",
+      "relevance_score": 2,
+      "matched_keywords": [
+        "rally",
+        "ai"
+      ],
+      "status": "APPROVED"
+    }
+  ]
 }

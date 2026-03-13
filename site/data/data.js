@@ -2,7 +2,7 @@
 // DO NOT EDIT MANUALLY
 
 const dashboardData = {
-  generatedAt: "2026-03-12T22:01:57.388710",
+  generatedAt: "2026-03-13T05:03:22.847471",
   chartsVersion: "2026-03-12T08:30:18.018679",
   tickerScores: [
   {
@@ -750,6 +750,28 @@ const dashboardData = {
       "podcast_episode_id": 56
     },
     {
+      "id": 77,
+      "title": "AI and the Future of Warfare: The Department of War vs. Anthropic",
+      "source_type": "podcast",
+      "source_name": "Dwarkesh Podcast",
+      "source_date": "2026-03-11",
+      "summary": "The podcast discusses the Department of War's declaration of anthropic AI supply chain risk due to anthropic's refusal to remove red lines around the use of their models for mass surveillance and autonomous weapons. The host argues that AI will play a significant role in the military, civilian government, and private sector within 20 years, raising important questions about the control and ethics of AI use. The episode also touches on the potential risks of AI in warfare and surveillance, and the need for regulation and norms to prevent misuse.",
+      "key_takeaway": "Investment in AI technology is critical for companies operating in the military and surveillance sectors, but\u9700\u8c28\u614e\u8003\u8651AI\u7684\u4f26\u7406\u548c\u76d1\u7ba1\u95ee\u9898\u3002",
+      "tickers_mentioned": [
+        "AMZN",
+        "NVDA",
+        "GOOGL",
+        "PLTR"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-13",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 60
+    },
+    {
       "id": 67,
       "title": "Oil, Bonds, and Bitcoin: Navigating Geopolitical Poker and Market Volatility",
       "source_type": "podcast",
@@ -860,11 +882,11 @@ const dashboardData = {
         "TSM"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-10",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-13",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 51
     },
     {
@@ -2237,6 +2259,25 @@ const dashboardData = {
       "guest_name": null
     },
     {
+      "id": 77,
+      "title": "AI and the Future of Warfare: The Department of War vs. Anthropic",
+      "source_type": "podcast",
+      "source_name": "Dwarkesh Podcast",
+      "source_date": "2026-03-11",
+      "summary": "The podcast discusses the Department of War's declaration of anthropic AI supply chain risk due to anthropic's refusal to remove red lines around the use of their models for mass surveillance and autonomous weapons. The host argues that AI will play a significant role in the military, civilian government, and private sector within 20 years, raising important questions about the control and ethics of AI use. The episode also touches on the potential risks of AI in warfare and surveillance, and the need for regulation and norms to prevent misuse.",
+      "key_takeaway": "Investment in AI technology is critical for companies operating in the military and surveillance sectors, but\u9700\u8c28\u614e\u8003\u8651AI\u7684\u4f26\u7406\u548c\u76d1\u7ba1\u95ee\u9898\u3002",
+      "tickers_mentioned": "[\"AMZN\", \"NVDA\", \"GOOGL\", \"PLTR\"]",
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-13",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 60,
+      "episode_release_date": "2026-03-11",
+      "guest_name": null
+    },
+    {
       "id": 67,
       "title": "Oil, Bonds, and Bitcoin: Navigating Geopolitical Poker and Market Volatility",
       "source_type": "podcast",
@@ -2273,25 +2314,6 @@ const dashboardData = {
       "podcast_episode_id": 50,
       "episode_release_date": "2026-03-10",
       "guest_name": null
-    },
-    {
-      "id": 71,
-      "title": "All-In with Chamath, Jason, Sacks & Friedberg - Discussion with Graham Allison",
-      "source_type": "podcast",
-      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "source_date": "2026-03-09",
-      "summary": "In this episode, Harvard Professor Graham Allison discusses a range of geopolitical and economic issues, including the Iran conflict, the U.S.-China relationship, and the importance of Taiwan in the global semiconductor supply chain. He emphasizes the uncertainty surrounding these issues and the challenges of regime change and maintaining influence in a multi-polar world. Additionally, Allison touches on economic inequality and potential solutions to address wealth distribution.",
-      "key_takeaway": "The global semiconductor supply chain, with a focus on Taiwan's TSMC, presents both risks and opportunities in the context of U.S.-China relations and economic inequality.",
-      "tickers_mentioned": "[\"TSLA\", \"TSM\"]",
-      "sentiment": "bearish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-03-10",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 51,
-      "episode_release_date": "2026-03-09",
-      "guest_name": "Harvard Professor Graham Allison"
     }
   ],
   "definitions": [
@@ -6238,12 +6260,82 @@ const dashboardData = {
     "insight_title": "The Intersection of Technology, Geopolitics, and National Defense",
     "source_name": "The a16z Show",
     "source_date": "2026-03-12"
+  },
+  "77": {
+    "id": 68,
+    "insight_id": 77,
+    "podcast_episode_id": 60,
+    "overview": "The Department of War's declaration of anthropic ace-upplied chain risk due to anthropic's refusal to remove red lines around the use of their models for mass surveillance and autonomous weapons is a significant event with far-reaching implications for the future of AI and warfare. This situation underscores the growing importance of AI in military and civilian applications and raises critical questions about the role of AI in society, the balance of power between private companies and the government, and the potential for mass surveillance and political suppression. The investment thesis revolves around the increasing reliance on AI in the military and civilian sectors, the potential for government overreach, and the ethical considerations surrounding AI usage. Understanding these dynamics is crucial for investors as the AI landscape evolves rapidly, with potential impacts on privacy, security, and the balance of power between public and private entities.",
+    "key_takeaways_detailed": [
+      "AI is becoming increasingly central to military and civilian operations, with potential implications for national security and individual privacy.",
+      "The Department of War's actions against anthropic highlight the tension between government demands and private sector ethics, which could have broader implications for AI companies.",
+      "Investors should monitor the development and deployment of AI technologies, especially in the context of mass surveillance and autonomous weapons.",
+      "The potential for government overreach in the AI space could lead to regulatory changes that impact the operations of tech companies.",
+      "Ethical considerations surrounding AI usage are becoming more prominent, which could influence public opinion and corporate behavior."
+    ],
+    "investment_thesis": "The core investment logic is that the increasing integration of AI into military and civilian operations will create both opportunities and risks for tech companies. Catalysts for this thesis include advancements in AI technology, changes in government policy, and ethical debates surrounding AI usage. The timeframe for this thesis is medium to long-term, as the full implications of AI integration will likely unfold over several years. Investors should consider positions in companies that are at the forefront of AI development, while also being mindful of the potential risks associated with government overreach and ethical concerns.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple is a major player in the tech industry and has significant investments in AI research and development. As AI becomes more central to military and civilian operations, Apple's AI capabilities could become increasingly valuable.",
+        "positioning": "Long-term strategic position, as Apple's AI investments are likely to pay off in the medium to long term.",
+        "risk": "Key risks include potential regulatory changes that could impact AI usage and ethical concerns surrounding AI deployment."
+      },
+      "NVDA": {
+        "rationale": "Nvidia is a leading provider of AI chips and has significant exposure to the AI industry. As AI becomes more central to military and civilian operations, Nvidia's products could be in high demand.",
+        "positioning": "Medium-term tactical position, as Nvidia's AI chip sales could be directly impacted by government policy and AI adoption trends.",
+        "risk": "Key risks include potential supply chain disruptions and competition from other AI chip manufacturers."
+      },
+      "GOOGL": {
+        "rationale": "Google is a major player in the AI industry, with significant investments in AI research and development. As AI becomes more central to military and civilian operations, Google's AI capabilities could become increasingly valuable.",
+        "positioning": "Long-term strategic position, as Google's AI investments are likely to pay off in the medium to long term.",
+        "risk": "Key risks include potential regulatory changes that could impact AI usage and ethical concerns surrounding AI deployment."
+      },
+      "AMZN": {
+        "rationale": "Amazon is a major player in the cloud computing industry, which is becoming increasingly important for AI deployment. As AI becomes more central to military and civilian operations, Amazon's cloud services could be in high demand.",
+        "positioning": "Medium-term tactical position, as Amazon's cloud services could be directly impacted by government policy and AI adoption trends.",
+        "risk": "Key risks include potential competition from other cloud providers and regulatory changes that could impact cloud computing."
+      },
+      "PLTR": {
+        "rationale": "Palantir is a data analytics company that works closely with the U.S. government. As AI becomes more central to military and civilian operations, Palantir's services could be in high demand.",
+        "positioning": "Short-term tactical position, as Palantir's government contracts could be directly impacted by changes in government policy and AI adoption trends.",
+        "risk": "Key risks include potential changes in government spending priorities and competition from other data analytics providers."
+      }
+    },
+    "positioning_guidance": "Investors should consider a balanced portfolio that includes positions in companies at the forefront of AI development, such as Apple, Nvidia, and Google, as well as companies that provide critical infrastructure for AI deployment, such as Amazon and Palantir. Position sizing should reflect the potential risks and rewards associated with each company, with a focus on long-term strategic positions in companies with strong AI capabilities and medium-term tactical positions in companies that are more directly impacted by government policy and AI adoption trends. Entry points should be based on market conditions and individual risk tolerance, with a focus on long-term growth potential and short-term catalysts. Investors should also consider hedging their positions to protect against potential risks, such as regulatory changes and ethical concerns.",
+    "risk_factors": [
+      "Potential regulatory changes that could impact AI usage and deployment.",
+      "Ethical concerns surrounding AI deployment and mass surveillance.",
+      "Competition from other AI companies and technology providers.",
+      "Supply chain disruptions and reliance on government contracts.",
+      "Potential backlash from the public and private sector over government overreach."
+    ],
+    "contrarian_signals": [
+      "The potential for AI to be used for positive societal outcomes, such as improving healthcare and education, which could mitigate some of the risks associated with mass surveillance and political suppression.",
+      "The possibility that government overreach could lead to a backlash and increased demand for privacy-focused technologies, creating new investment opportunities.",
+      "The potential for AI companies to develop new business models and partnerships that allow them to maintain their ethical standards while still working with the government."
+    ],
+    "catalysts": [
+      "Upcoming government policy changes and regulatory decisions related to AI usage and deployment.",
+      "Advancements in AI technology and the development of new AI applications.",
+      "Ethical debates and public opinion shifts surrounding AI usage and mass surveillance.",
+      "Changes in government spending priorities and the allocation of resources to AI research and development.",
+      "New partnerships and collaborations between AI companies and the government or private sector."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-03-13T05:03:03.908418",
+    "updated_at": "2026-03-13 10:03:03",
+    "insight_title": "AI and the Future of Warfare: The Department of War vs. Anthropic",
+    "source_name": "Dwarkesh Podcast",
+    "source_date": "2026-03-11"
   }
 },
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 105,
+    "id": 112,
     "name": "Harvard Professor Graham Allison",
     "slug": "harvard-professor-graham-allison",
     "bio": null,
@@ -6255,7 +6347,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 106,
+    "id": 113,
     "name": "Andrew Yang",
     "slug": "andrew-yang",
     "bio": "Andrew Yang is an entrepreneur and political leader who popularized universal basic income in U.S. politics through his 2020 presidential campaign.",
@@ -6267,7 +6359,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 107,
+    "id": 114,
     "name": "Ray Dalio",
     "slug": "ray-dalio",
     "bio": "Ray Dalio is the founder of Bridgewater Associates and a macro investor known for his 'Principles' framework and work on long-term debt cycles.",
@@ -6279,7 +6371,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 108,
+    "id": 115,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -6291,7 +6383,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 109,
+    "id": 116,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -6303,7 +6395,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 110,
+    "id": 117,
     "name": "Bosworth",
     "slug": "bosworth",
     "bio": null,
@@ -6315,7 +6407,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 111,
+    "id": 118,
     "name": "Brett Adcock",
     "slug": "brett-adcock",
     "bio": "Brett Adcock is a serial founder behind Vettery, Archer Aviation, and Figure, building in eVTOL, humanoid robotics, and frontier AI.",

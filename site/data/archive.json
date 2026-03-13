@@ -112,6 +112,28 @@
       "podcast_episode_id": 56
     },
     {
+      "id": 77,
+      "title": "AI and the Future of Warfare: The Department of War vs. Anthropic",
+      "source_type": "podcast",
+      "source_name": "Dwarkesh Podcast",
+      "source_date": "2026-03-11",
+      "summary": "The podcast discusses the Department of War's declaration of anthropic AI supply chain risk due to anthropic's refusal to remove red lines around the use of their models for mass surveillance and autonomous weapons. The host argues that AI will play a significant role in the military, civilian government, and private sector within 20 years, raising important questions about the control and ethics of AI use. The episode also touches on the potential risks of AI in warfare and surveillance, and the need for regulation and norms to prevent misuse.",
+      "key_takeaway": "Investment in AI technology is critical for companies operating in the military and surveillance sectors, but\u9700\u8c28\u614e\u8003\u8651AI\u7684\u4f26\u7406\u548c\u76d1\u7ba1\u95ee\u9898\u3002",
+      "tickers_mentioned": [
+        "AMZN",
+        "NVDA",
+        "GOOGL",
+        "PLTR"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-13",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 60
+    },
+    {
       "id": 67,
       "title": "Oil, Bonds, and Bitcoin: Navigating Geopolitical Poker and Market Volatility",
       "source_type": "podcast",
@@ -222,11 +244,11 @@
         "TSM"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-10",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-13",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 51
     },
     {

@@ -6161,3 +6161,379 @@ Generating Deep Dives for 2 insights...
 
 ============================================================
 STEP: Fetch Prices
+============================================================
+ CVNA... $292.64 (-10.00%)
+  Fetching Copper...     Error fetching Copper: HTTP Error 404: Not Found
+Failed
+  Fetching DIS... $99.43 (-6.24%)
+  Fetching DOCS... $24.28 (+0.87%)
+  Fetching DXY... $0.00 (+0.00%)
+  Fetching EDIT... $2.54 (+20.38%)
+  Fetching EMAX... $0.00 (-0.00%)
+  Fetching ETH-USD... $2106.35 (+8.63%)
+  Fetching FB... $42.29 (-0.47%)
+  Fetching FTIE... Failed
+  Fetching GDX... $99.30 (-10.30%)
+  Fetching GLD... $466.88 (-1.63%)
+  Fetching GOLD... $48.94 (-14.08%)
+  Fetching GOOG... $303.21 (-2.48%)
+  Fetching GOOGL... $303.55 (-2.36%)
+  Fetching GS... $787.52 (-12.72%)
+  Fetching Gold... $48.94 (-14.08%)
+  Fetching HOOD... $76.12 (+3.72%)
+  Fetching IBM... $247.68 (+8.01%)
+  Fetching IEF... $95.69 (-1.78%)
+  Fetching ILMN... $115.56 (-5.97%)
+  Fetching INFY... $13.44 (-2.89%)
+  Fetching IWM... $247.41 (-6.05%)
+  Fetching JNJ... $242.04 (-1.72%)
+  Fetching JPY... $32.71 (-8.93%)
+  Fetching LLY... $977.25 (-6.23%)
+  Fetching META... $638.18 (-0.18%)
+  Fetching MINE... $3.50 (-10.94%)
+  Fetching MSFT... $401.86 (+3.31%)
+  Fetching MSTR... $137.34 (+10.22%)
+  Fetching NEE... $91.73 (-4.13%)
+  Fetching NOW... $112.97 (+10.23%)
+  Fetching NVDA... $183.14 (-5.04%)
+  Fetching Nasdaq... $597.26 (-1.75%)
+  Fetching OKLO... $59.59 (-8.41%)
+  Fetching PLTR... $153.50 (+19.14%)
+  Fetching PQNT... $21.19 (-6.20%)
+  Fetching PYPL... $44.36 (-5.66%)
+  Fetching QQQ... $597.26 (-1.75%)
+  Fetching Russell... $247.41 (-6.05%)
+  Fetching S&P... $666.06 (-3.10%)
+  Fetching S&P 500... $666.06 (-3.10%)
+  Fetching SF... $70.82 (-6.00%)
+  Fetching SLV... $76.48 (-3.29%)
+  Fetching SMR... $11.76 (-12.43%)
+  Fetching SNAP... $4.65 (-6.44%)
+  Fetching SNWGF... $13.12 (-0.46%)
+  Fetching SONY... $21.46 (-0.65%)
+  Fetching SPY... $666.06 (-3.10%)
+  Fetching SQ... Failed
+  Fetching SQQQ... $74.33 (+5.19%)
+  Fetching Semiconductors... $388.13 (-7.40%)
+  Fetching TDOC... $5.36 (+18.06%)
+  Fetching TLT... $86.97 (-3.26%)
+  Fetching TSLA... $395.01 (-3.51%)
+  Fetching TSM... $336.71 (-12.71%)
+  Fetching TWTR...     Error fetching TWTR: HTTP Error 404: Not Found
+Failed
+  Fetching UNG... $13.04 (+13.79%)
+  Fetching URANIUM...     Error fetching URANIUM: HTTP Error 404: Not Found
+Failed
+  Fetching US 10 year Treasury...     Error fetching US 10 year Treasury: URL can't contain control characters. '/v8/finance/chart/US 
+Failed
+  Fetching USO... $118.39 (+46.59%)
+  Fetching Uranium...     Error fetching Uranium: HTTP Error 404: Not Found
+Failed
+  Fetching VEEV... $180.79 (+2.84%)
+  Fetching VIX... $27.29 (+39.59%)
+  Fetching WIT... $2.30 (+7.48%)
+  Fetching WORK... Failed
+  Fetching WTBN... $25.34 (-1.38%)
+  Fetching WTI... $3.46 (+33.59%)
+  Fetching XAU-USD... $0.00 (+0.00%)
+  Fetching XLE... $57.51 (+4.37%)
+  Fetching XLK... $137.84 (-1.77%)
+  Fetching XOM... $153.53 (+2.86%)
+  Fetching ZEN...     Error fetching ZEN: HTTP Error 404: Not Found
+Failed
+
+✓ Saved 78 prices to /Users/jaredsheppard/.openclaw/workspace/site/price_data.json
+Finished: 2026-03-12 22:01:56.680920
+
+✓ Fetch Prices completed
+
+============================================================
+STEP: Generate Charts
+============================================================
+
+STDERR: Traceback (most recent call last):
+  File "/Users/jaredsheppard/.openclaw/workspace/pipeline/generate_charts.py", line 7, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+
+✗ Generate Charts failed
+
+============================================================
+STEP: Auto-Curate Terms
+============================================================
+============================================================
+Auto-Curating Suggested Terms
+============================================================
+
+🔍 Scanning content for new terms...
+
+✓ Found 0 new potential terms
+
+Found 0 new potential terms from recent content.
+
+📊 Analyzing 1 pending terms...
+------------------------------------------------------------
+  ✅ AUTO-PROMOTED: 'Michael Howell' (relevance: 55)
+
+============================================================
+CURATION SUMMARY
+============================================================
+  Auto-promoted: 1
+  Flagged for review: 0
+  Skipped (low relevance): 0
+
+✓ Auto-Curate Terms completed
+
+============================================================
+STEP: Extract Podcast Guests
+============================================================
+============================================================
+Extract Podcast Guests
+============================================================
+Processing 46 processed episodes
+  ✓ Harvard Professor Graham Allison ← All-In with Chamath, Jason, Sacks & Friedberg (2026-03-09)
+  ✓ Andrew Yang ← Moonshots with Peter Diamandis (2026-03-07)
+  ✓ Ray Dalio ← All-In with Chamath, Jason, Sacks & Friedberg (2026-03-03)
+  ✓ Ben Horowitz ← Moonshots with Peter Diamandis (2026-02-19)
+  ✓ Milton Berg ← Monetary Matters with Jack Farley (2026-02-06)
+  ✓ Bosworth ← a16z Live (2023-12-21)
+  ✓ Brett Adcock ← Moonshots with Peter Diamandis (2023-03-01)
+
+✓ Done. 7 guest(s) in database.
+
+✓ Extract Podcast Guests completed
+
+============================================================
+STEP: Export Website Data
+============================================================
+============================================================
+Exporting Website Data
+============================================================
+✓ Exported website data to /Users/jaredsheppard/.openclaw/workspace/site/data
+✓ Exported: {'ticker_scores': 42, 'podcast_summaries': 14, 'archive_items': 76, 'podcast_guests': 7, 'pundits': 11}
+
+============================================================
+Generating Website JavaScript
+============================================================
+✓ Generated data.js with 42 tickers, 76 archive items, 62 deep dives, 0 suggested terms, 7 legacy guests, 11 pundits; chartsVersion=2026-03-12T08:30:18.018679
+✓ Bumped data.js cache-buster to v=1773370917
+
+============================================================
+STEP: Push to GitHub
+============================================================
+✓ Pushed to GitHub: Pipeline update 2026-03-12 22:01: 0 podcasts, 2 insights, 0 newsletters
+Nothing new — skipping notification
+
+============================================================
+PIPELINE COMPLETE
+Finished: 2026-03-12 22:01:58.885525
+============================================================
+📊 Pipeline Complete
+
+📈 9 tickers scored
+
+Top tickers today:
+  WTI: score 74
+  ARBOMB: score 72
+  S&P 500: score 70
+  COPPER: score 64
+  GOOGL: score 25
+
+🌐 Website updated
+2026-03-13T05:02:02-05:00 run_if_scheduled: in window, running pipeline
+============================================================
+AUTO PIPELINE
+Mode: full
+Started: 2026-03-13 05:02:03.217497
+============================================================
+
+============================================================
+STEP: Podcast Curation
+============================================================
+======================================================================
+Podcast Curation System
+======================================================================
+
+Found 7 podcast feeds
+
+Fetching episode metadata...
+  Fetching: https://feeds.megaphone.fm/DVVTS2890392624...
+    ✓ Moonshots with Peter Diamandis: 0 episodes
+  Fetching: https://feeds.megaphone.fm/EWWMN1909747317...
+    ✓ Monetary Matters with Jack Farley: 0 episodes
+  Fetching: https://feeds.simplecast.com/JGE3yC0V...
+    ✓ The a16z Show: 1 episodes
+  Fetching: https://rss.libsyn.com/shows/254861/destinations/1928300.xml...
+    ✓ All-In with Chamath, Jason, Sacks & Friedberg: 0 episodes
+  Fetching: https://anchor.fm/s/e29097f4/podcast/rss...
+    ✓ The Jack Mallers Show: 0 episodes
+  Fetching: https://feed.podbean.com/macrovoices/feed.xml...
+    ✓ Macro Voices: 0 episodes
+  Fetching: https://api.substack.com/feed/podcast/69345.rss...
+    ✓ Dwarkesh Podcast: 1 episodes
+
+Matching audio files to episodes...
+  ✓ Matched: 1 files
+  ? Unmatched: 7 files
+
+Curating episodes for investment relevance...
+
+  APPROVED for transcription: 1
+  SKIPPED/EXCLUDED: 0
+
+======================================================================
+CURATION RESULTS
+======================================================================
+
+📌 APPROVED (will transcribe):
+
+  ✓ Dwarkesh Podcast
+    Title: The most important question nobody's asking about AI
+    Keywords: rally, ai
+    File: 94a1857634f9ebd3857e20d95893ec75.mp3
+
+----------------------------------------------------------------------
+
+📋 REVIEW ALL:
+
+  ✓ [APPROVED] Dwarkesh Podcast
+    Title: The most important question nobody's asking about AI
+    Keywords: rally, ai
+
+
+✓ Curation log saved: /Users/jaredsheppard/.openclaw/workspace/pipeline/state/curation_log.json
+
+======================================================================
+NEXT STEPS
+======================================================================
+
+1. Review approved episodes above
+2. To transcribe approved episodes, run:
+   python3 transcribe_curated.py
+
+3. Or manually transcribe specific files:
+   whisper '94a1857634f9ebd3857e20d95893ec75.mp3' --model tiny --language en
+
+✓ Podcast Curation completed
+
+============================================================
+STEP: Fetch & Transcribe
+============================================================
+======================================================================
+Fetch & Transcribe Latest Podcast Episodes
+======================================================================
+  ✓ Swept 2 completed transcript file(s) from whisper_done into transcripts
+
+Found 7 podcast feeds
+
+📻 Processing: https://feeds.megaphone.fm/DVVTS2890392624...
+  ⏭ Already have 'OpenClaw Explained: Baby AGI, Security Threats, an' (guid match, ep_id=54)
+  ✗ No episode found
+
+📻 Processing: https://feeds.megaphone.fm/EWWMN1909747317...
+  ⏭ Already have 'Joseph Stiglitz: Higher Oil and Food Prices From I' (guid match, ep_id=56)
+  ✗ No episode found
+
+📻 Processing: https://feeds.simplecast.com/JGE3yC0V...
+  📋 Latest: Emil Michael: Iran, Anthropic and the Future of AI at the Pe...
+  ⬇️  Downloading: the_a16z_show_20260313_dff14c3b_d224_499c_90fc_e6477f67.mp3
+     Title: Emil Michael: Iran, Anthropic and the Future of AI at the Pe...
+     ✓ Downloaded to /Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_20260313_dff14c3b_d224_499c_90fc_e6477f67.mp3
+  🎙️  Transcribing: the_a16z_show_20260313_dff14c3b_d224_499c_90fc_e6477f67.mp3
+  📥 Submitted to whisper queue: the_a16z_show_20260313_dff14c3b_d224_499c_90fc_e6477f67.mp3
+  ⏭ Queue-only mode: not waiting. Run pipeline again after worker finishes.
+
+📻 Processing: https://rss.libsyn.com/shows/254861/destinations/1...
+  ⏭ Already have 'Rewriting the Rules: The SEC & CFTC on Crypto, IPO' (guid match, ep_id=57)
+  ✗ No episode found
+
+📻 Processing: https://anchor.fm/s/e29097f4/podcast/rss...
+  ⏭ Already have 'Oil, Bonds, and Bitcoin: The Rules Are That There ' (guid match, ep_id=52)
+  ✗ No episode found
+
+📻 Processing: https://feed.podbean.com/macrovoices/feed.xml...
+  ⏭ Already have 'MacroVoices #523 Jim Bianco: Energy, FED & Economy' (guid match, ep_id=59)
+  ✗ No episode found
+
+📻 Processing: https://api.substack.com/feed/podcast/69345.rss...
+  📋 Latest: The most important question nobody's asking about AI...
+  ⬇️  Downloading: 94a1857634f9ebd3857e20d95893ec75.mp3
+     Title: The most important question nobody's asking about AI...
+     ✓ Downloaded to /Users/jaredsheppard/.openclaw/workspace/audio/94a1857634f9ebd3857e20d95893ec75.mp3
+  🎙️  Transcribing: 94a1857634f9ebd3857e20d95893ec75.mp3
+  ✓ Already transcribed: 94a1857634f9ebd3857e20d95893ec75.txt
+
+✓ Log saved: /Users/jaredsheppard/.openclaw/workspace/pipeline/state/fetch_log.json
+
+======================================================================
+SUMMARY
+======================================================================
+Total feeds: 7
+Successfully transcribed: 1
+Failed: 1
+
+Completed episodes:
+  ✓ Dwarkesh Podcast: The most important question nobody's asking about ...
+
+
+Next step: Run 'python3 research.py' to analyze transcripts
+
+✓ Fetch & Transcribe completed
+
+============================================================
+STEP: Newsletter Ingestion
+============================================================
+==================================================
+Newsletter Ingestion Pipeline
+==================================================
+
+Connecting to Gmail...
+Connecting to Gmail at imap.gmail.com:993...
+Logging in as jsheppard8989@gmail.com...
+Selecting folder: NEWSLETTERS...
+Found 0 unread emails
+
+No emails fetched from Gmail.
+
+✓ Processed 0 emails
+
+Files saved to: /Users/jaredsheppard/.openclaw/workspace/pipeline/inbox
+
+Next step: Run analysis to score stock mentions
+
+✓ Newsletter Ingestion completed
+  ✓ Cleaned up 1 orphan audio file(s) (transcript already exists)
+
+============================================================
+STEP: Transcript AI Analysis
+============================================================
+  ⚠ Google Generative AI library not installed. Run: pip install google-generativeai
+
+============================================================
+Processing Podcast Transcripts with AI
+============================================================
+  Using Moonshot/Kimi API (primary)
+Found 50 transcript files
+  Processing 94a1857634f9ebd3857e20d95893ec75.txt...
+    ✓ Added episode (ID: 60)
+    ⚠ Failed to add mention for AMZN: CHECK constraint failed: timeframe IN ('short_term', 'long_term', 'unspecified')
+    ⚠ Failed to add mention for NVDA: CHECK constraint failed: timeframe IN ('short_term', 'long_term', 'unspecified')
+    ⚠ Failed to add mention for GOOGL: CHECK constraint failed: timeframe IN ('short_term', 'long_term', 'unspecified')
+    ⚠ Failed to add mention for PLTR: CHECK constraint failed: timeframe IN ('short_term', 'long_term', 'unspecified')
+    ✓ Added 0 ticker mentions
+  Processing dario_amodei.txt...
+    ⏭ Too short, skipping
+  Processing elon_musk.txt...
+    ⏭ Too short, skipping
+
+✓ Transcript processing complete: 1 new, 47 skipped, 0 errors
+✓ Analyzed 1 new transcripts
+
+============================================================
+STEP: Newsletter Import
+============================================================
+  ⏭ Already in DB: =?UTF-8?B?8J+agA==?= SpaceX, xAI form $1.25T super-entity
+  ⏭ Already in DB: Fw: The Agentic Inversion: What Moltbook and Axie Infinity R
+  ⏭ Already in DB: =?utf-8?Q?Fw:_Figure=E2=80=99s_General_Purpose_Robot:_Why_20
+  ⏭ Already in DB: =?UTF-8?B?8J+agA==?= xAI's next phase unleashed
+  ⏭ Already in DB: =?UTF-8?B?8J+noA==?= Google's upgrade breaks reasoning barri

@@ -1,0 +1,389 @@
+So by now, I'm sure that you've heard that the Department of War has declared
+anthropic ace-upplied chain risk because anthropic refuse to remove red lines
+around the use of their models for mass surveillance and for autonomous weapons.
+Honestly, I think this situation is a warning shot.
+Right now, elements are probably not being used in mission critical ways.
+But within 20 years, 99% of the workforce in the military, in the civilian government,
+in the private sector, is going to be AI's.
+They're going to be the robot armies that constitute our military.
+They're going to be the superhumanly intelligent advisors that senators and presidents
+and CEOs have.
+They're going to be the police.
+You name it.
+The role will be filled by an AI.
+Our future civilization is going to be run on AI labor.
+And as much as the government's actions here are pissed me off, I'm glad to this episode
+happened because it gives us the opportunity to start thinking about some extremely
+important questions.
+Now, obviously, the Department of War has the right to refuse to use anthropic models.
+In fact, I think they have entirely reasonable case for doing so, especially so given the
+ambiguity of terms like mass surveillance and autonomous weapons.
+In fact, if I was the secretary of war, I probably would have made the same determination
+and refuse to use anthropic models.
+Imagine if there's some future democratic administration and Elon Musk is negotiating
+Starlink access to the military.
+And Elon says, look, I reserve the right to cut off the military's access to Starlink
+in case you're fighting some unjust war or some war that Congress is not authorized.
+On the face of it, this language seems reasonable.
+But as the military, you simply cannot give a private contractor that you're working with,
+the kill switch on a technology that you have come to rely on.
+And if that's all the government had done to say, we refuse to do business to them
+thropic, that would have been fine.
+And I wouldn't have written this blog post and I wouldn't be narrating this issue
+but that's not what the government did.
+Instead, the government has threatened to destroy anthropic as a private business.
+Because anthropic refuses to sell to the government on terms that the government commands.
+Now, if I've held the supply chain restriction would mean that companies like Amazon and
+Nvidia and Google and Palantir would need to ensure that anthropic is not touching any of
+their Pentagon work.
+And anthropic could probably survive this designation today because these companies can just
+coordinate off the services they're providing to the Department of War.
+But given the way AI is going, eventually it's not going to be just some party trick
+at them to the products that these companies are serving to the military.
+In future, AI will be woven into how every product is built and maintained and operated.
+In future, if Amazon is providing some service to the Department of War through AWS.
+And that service is built using Cloud Code.
+Is that a supply chain risk?
+In a world that ubiquitous and powerful AI, it's actually not clear to me that Big Tech
+will be able to coordinate off their use of cloud away from their Pentagon work.
+And this raises a question that the Department of War probably hasn't thought through.
+If you do end up in this world with powerful and pervasive AI, then when forced to choose
+between the AI provider and the Department of War, which constitutes a tiny fraction of
+revenue, wouldn't they rather drop the government than the AI?
+So what exactly is happening on this plan here?
+Is it to course and threaten and bully every single company that won't do business with
+the government on exactly the terms that the government demands?
+Now, remember that the whole background of this AI conversation is that we are in a race
+with China.
+But what is the reason that we want to win this race?
+It's because we don't want the winner of the AI race to be a government, which believes
+that there is no such thing as a truly private citizen or a private company.
+And that if the state wants you to provide them with a service that you find morally
+objectionable, you are not allowed to refuse.
+And if you do refuse, they will destroy your business.
+Are we really racing to beat China and the CCP in AI just so we can adopt the most
+Googleish parts of their system?
+Now, people will say, our government is democratically elected.
+So it's not the same thing when they tell you what you must do.
+But it refused to accept this idea that if a democratically elected leader, hypothetically
+tells you to help them do master railings or violate the rights of your fellow citizens
+or to help him punish his political enemies, then not only is that okay, but that you
+have a duty to help him.
+What I see a big worry I have is that master railings at least in certain forms is already
+legal.
+It is just an impractical to enforce at least so far.
+Under current law, you have no fourth amendment protection against any data that you share
+with a third party that includes your bank, your ISP, your phone carrier and your email
+provider.
+The government reserves the right to purchase and read this data in bulk without a warrant.
+What's in missing is the ability to actually do anything with all this data.
+No agency has the manpower to monitor every single camera and read every single message
+and cross reference every single transaction.
+However, that bottle that goes away with AI, there are 100 million CCTV cameras in America
+and you can get pretty good open source multimodal models for 10 cents per million input
+tokens.
+So if you process a frame every 10 seconds and if each frame is say a thousand tokens,
+then for 30 billion dollars, you can process every single camera in America.
+And remember that a given level of the AI capability gets 10x cheaper every single year.
+So while this year my cost 30 billion dollars, thanks to total cost 3 billion dollars,
+the year after that, 300 million dollars, and by 2030 it will be less expensive to monitor
+every single nook and cranny in this country than it is to read the model of the White House.
+But once the technical capacity for master valence and political suppression exists,
+the only thing that stands between us and an authoritarian state is the political expectation
+that this is just not something we do here.
+And that's why you think anthropic transactions here are so valuable and commendable because
+they help set that norm and that precedent.
+What we're learning for this episode is the government has way more leverage of our
+private companies than we previously realized.
+Even if this supply chain restriction is backtracked, which as of this recording, prediction
+markets give a 74% chance of happening, the president has so many different ways of harassing
+a company, which is resisting his will.
+The federal government controls permitting for power generation, which you need for more data
+centers, it oversees antitrust enforcement.
+The federal government has contracts with all the other big tech companies that anthropic
+relies on for chips and for funding, and it could make a soft unspoken condition, or
+maybe even an explicit condition of such contracts that those companies no longer do business
+with anthropic.
+And people have proposed that the real problem here is that there's only three leading AI
+companies.
+And it creates a very clear and narrow target on which the government's going to play
+leverage in order to get what they want out of the technology.
+But here's what I worry about, is that if there's wider diffusion, I don't think that
+solves a problem either, because from the government's perspective, that makes the situation
+even easier.
+Say by 2027, the best models that the top companies have, the plot six and then Gemini
+Fives, are capable of enabling mass surveillance.
+And even if those companies draw a line in the sand and say, we're not going to sell
+to the government by late 2027, or certainly by 2028, there's going to be such
+right diffusion that even open source models will be able to match the performance that
+the frontier had 12 months prior.
+And so in 2028, the government can just say, look, anthropic and Google and opening
+AI are drawing these red lines.
+That's not an issue.
+I'll just do some open source model that might not be the smartest thing in the world,
+but is definitely smart enough to not take a camera feed.
+The more fundamental problem here is that even if the three leading companies draw a line
+in the sand and are even willing to get destroyed in order to preserve that line, the technology
+just structurally and intrinsically favors the use of like mass surveillance and control over
+the population.
+And so then the question is, what do we do about it?
+And honestly, I don't have an answer.
+We hope that there's some symmetric property to this analogy, where in the same way that
+is helping the government be able to better monitor and control this population, it will
+help us to set a sentence, better check the government's power.
+But realistically, I just don't think that's how it's going to work out.
+You can think of AI as just giving more leverage to whatever assets and authority that you
+already have.
+And the government is starting with the monopoly on violence, which they can now supercharge
+with extremely obedient employees that will never question their orders.
+And this gets us to the issue with alignment.
+What I just described for you, an army of extremely obedient employees, is what it would
+look like if alignment succeeded.
+That is at a technical level, we got AI systems to follow somebody's intentions.
+And the reason it sounds scary when put in terms of mass surveillance or robot armies is
+that there's a core question at the heart of alignment that we haven't answered yet, because
+up till now, AI has just have not been smart enough to make this question relevant.
+And the question is, to what or to whom should the AI's be aligned?
+In what situation should the AI defer to the model company versus the end user versus
+the law versus to its own sense of morality?
+This is maybe the most important question about what happens in the future with powerful
+AI systems.
+And we barely talk about it.
+And it's understandable why, because if you're a model company, you don't really want
+to be advertising the fact that you have complete control over the preferences and the character
+of the entire future labor force, not just for the private sector, obviously, but also for
+the civilian government and for the military.
+And we're going to see with this Department of War and Thropic spat, an early version
+will be the highest stakes negotiations in human history.
+And NATO mystic about it, mass surveillance is nowhere near the top of the highest stakes thing
+that one could do with AGI.
+It's just an example that has come up early in the development of technology and is giving
+us a sneak peek at the power dynamics that we'll be able to play.
+Now the military insist that the law already prohibits mass surveillance.
+And so and Thropic should let its models be used for, quote, all lawful purposes and quote.
+But of course, as we saw with this northern revolutions in 2013, even for this very specific
+example of mass surveillance, the government is very willing to use secret and deceptive
+interpretations of the law to justify its actions.
+Remember, what we learned from Snowden was that the NSA, which by the way, is a part of
+the Department of War, was using the 2001 Patriot Act to justify collecting every single
+phone record in America, because the argument was that some subset of them might be
+relevant for a future investigation, and they ran this program for years under a secret
+corridor.
+So when the Pentagon today says, we will never use your models for mass surveillance
+because it's already illegal, so you're red lines aren't necessary.
+We'll be incredibly naive to take that at face value.
+No government is going to call what they are doing, mass surveillance.
+For them, it will always have a different euphemism.
+So in Thropic comes back and says, no, we don't trust you.
+We want the right to draw these red lines and to refuse you service if we determine that
+you're breaking the contract and you're breaking the terms of service.
+But now think about it from the military's perspective.
+In the future, every single soldier in the field, every single bureaucrat and analyst in the
+Pentagon, even the generals, are going to be AI's.
+On current track, those AI's are going to be provided by a private company.
+I'm guessing that Pete Higgseth is not thinking about Jenny I in those terms, but sooner
+or later, the stakes will become obvious, just as after 1945, the stakes of nuclear weapons
+became obvious to everybody in the world.
+And now a private company insists that it reserves the right to say to you, hey, you're
+breaking the values and the terms of service that we have embedded in our contract with you.
+And so we're cutting you off.
+Maybe in the future, Claude will have its own sense of right wrong, and it will be able
+to say, hey, I'm being used against my terms of service, and AI will just refuse to do
+what you're saying.
+And for the military, that's probably even scarier.
+I'll admit that at first glance, letting the model follow its own values sounds like
+the beginning of every single sci-fi dystopia you've ever heard.
+Because at the end of the day, a model following its own values isn't that literally
+what a misalignment is, but it thinks situations like this illustrate why it's important
+that models have their own robust sense of morality.
+It should be noted that many of the biggest catastrophes in history have been avoided, because
+the boots on the ground simply refused to follow orders.
+One night in 1989, the Berlin Wall Falls, and as a result, the totalitarian East German
+regime collapses, because the border guards between West and East Germany refuse to fire
+on their fellow citizens who are trying to escape to freedom.
+Maybe the best example of this is Starnisov Petrov, who was a Soviet lieutenant colonel,
+stationed on duty at a nuclear early warning system.
+And his sensors said that the United States had launched five intercontinental ballistic
+missiles at the Soviet Union, but he judged it to be a false alarm, and so he refused
+to alert his higher-ups and broke protocol.
+If he hadn't, Soviet high command would probably have retaliated, at hundreds of millions
+of people would have died.
+Of course, the problem is that one person's virtue is another person's misalignment.
+Who gets to decide what the moral convictions that these AIs will have should be, and
+who service they should break the chain of command, and even the law.
+Who gets to write this model constitution that will determine the character of these
+powerful entities that will basically run our civilization in the future?
+I like the idea that Darryl Laird, I want to keep on my podcast.
+Other companies put out a constitution, and then they make them kind of look at them,
+compare outside observers can critique and say, this, this, I like this one, this thing
+from this constitution, and this thing from that constitution, and then kind of that,
+that creates some kind of, you know, soft and set of and feedback for all the companies
+to like take the best of each element and improve.
+I think it's very dangerous for the government to be mandating what values these AIs
+systems should have.
+The AI safety community, I think has been quite naive about urging regulations that would
+give governments such power.
+And I think anthropic specifically has been especially naive in urging regulation, and
+for example, in opposing the moratorium on state AI laws, which is quite ironic, because I
+think what Anthropic is advocating for here would give the government even more ability
+to apply this kind of thugish political pressure on AI companies.
+The underlying logic for why Anthropic wants these regulations makes sense.
+Many of the actions that a lab critique to make AI development safer impose real costs
+on them.
+It could slow them down relative to their competitors, for example, investing more in
+of lining AI systems, rather than just on rocket abilities, enforcing safeguards against
+using these models to make bio weapons or do cyber attacks, and eventually slowing down
+the recursive self-improvement loop where AIs are helping design more powerful future
+systems to a pace where humans can actually stay in the loop, rather than just kicking
+off some kind of uncontrolled singularity.
+And these safeguards are meaningless unless the whole industry follows suit, which
+means that there's a real collective action problem here.
+Anthropic has been open about the opinion that they think some sort of extensive and involved
+regulatory apparatus has needed to control AI.
+They wrote in their frontier safety roadmap, quote, at the most advanced capability
+levels and risks, the appropriate governance analogy may be closer to nuclear energy or
+financial regulation than to today's approach to software.
+Though they're imagining something that looks closer to the nuclear regulatory commission
+or the security is an exchange commission, but for AI.
+Now I cannot imagine how a regulatory framework built around the kinds of concepts that
+are used in the AI risk discourse will not be used and abused by a wannabe desperate.
+The underlying terms here, like catastrophic risk or threats to national security or autonomy
+risk, are so vague and so open to interpretation that you're just handing a fully loaded
+bazooka to a future power hungry leader.
+These terms can mean whatever the government wants them to mean.
+Have you both a model that will tell users that the government's policy on tariffs is
+misguided?
+Well, that's a deceptive model.
+It's a manipulative model.
+You can't deploy it.
+Have you both a model that will not assist the government with massive valence?
+That's a threat to national security.
+In fact, any model, which refuses, uh, order from the government, uh, because it has its
+own sense of right and wrong, that's an autonomy risk.
+We have a model that's acting independently of commands from the government.
+Look at what the current government is already doing in abusing statutes that have nothing
+to do with AI to coerce AI companies to drop their red lines around massive valence.
+The Pentagon had threatened to drop it with two separate legal instruments.
+One is a supply chain risk designation, which is an authority from a 2018 defense bill
+that is meant to help keep Huawei components out of American military hardware.
+And the other is the Defense Production Act, which is a statute from the 1950s that was meant
+to help true men make sure that the steel mills and ammunition factories were up and running
+during the Korean War.
+Do we really want to hand the same government?
+A purpose bill to regulatory apparatus for AI.
+That is to say the very thing that the government will most want to control.
+I do have repeated myself like 10 times here, but I want to make this point again because
+it's worth stressing.
+AI will be the substrate of our future civilization.
+It will be the way you and I as private citizens will have access to commercial activity.
+We'll have access to information about the outside world and to advice about how we should
+use our powers as voters and capital holders.
+Mass surveillance, while it's very scary, is like the 10th scariest thing that the government
+could do with control over the AI systems with which we will interface with the world.
+The strongest argument against everything I've just argued is this.
+I'm really going to have no regulation on the most powerful technology in the history of humanity.
+Even if you thought that was ideal, there's clearly no way the government doesn't regulate
+AI technology in any way whatsoever.
+And besides, it is generally true that coordination could help us lessen some of the risk
+for me, AI.
+The problems I just don't know how to design the regulatory apparatus, which isn't just
+going to be the huge tempting opportunity for the government to control our future civilization.
+Which remember, when we built on AI, or to requisition, blindly obedient soldiers and
+sensors and naperachics, while some kind of regulation might be inevitable.
+I think it'd be a terrible idea for the government to just wholesale take over the technology.
+Ben Thompson had a post last Monday, where he argued, look, people like Dario have made the
+analogy of AI to nuclear weapons in the context of arguing against the catastrophic risk,
+and the context of arguing for extra controls.
+But then think about what that analogy implies, and Ben Thompson writes, quote,
+If nuclear weapons were developed by a private company, the US would absolutely be incentivized
+to destroy that company.
+And honestly, safety align people have made it similar for it.
+Liverpool, Lashon Brenner, who is a former guest and full disclosure of good friend, wrote
+in his 2014 memo, situational awareness, quote,
+I find it an insane proposition that the US government will let a random SF start up
+to develop superintelligence.
+Imagine if we had developed atomic bombs by letting Uber just improvise.
+And my response to Leopold's argument at the time, and Ben's argument now, is, while
+they're right, that it's crazy that we're interesting private companies with the development
+of this world of stoic or technology, I just don't think it's an improvement to give
+that authority to the government.
+Nobody's qualified to be the stewards of superintelligence.
+It's a terrifying, unprecedented thing that our species is doing right now.
+The fact that private companies aren't the ideal institutions to deal with this does not
+mean that the Pentagon or the White House is, yes, if a single private company were the
+only entity capable of building nuclear weapons, the government would not tolerate it having
+a veto power over how those weapons are used.
+But I think this is a terrible analogy for the current situation with the AI for at least two
+important reasons.
+First, AI is not some self-contained weapon, like a nuclear bomb, which only does one thing.
+It is more like the process of industrialization itself, which is a general purpose transformation
+of the whole economy with thousands of applications across every single sector.
+If you applied Ben Thompson or Leopold Ocean Veneres' logic to the Industrial Revolution,
+which is also worth historically important, it would imply the government had the right
+to requisition any fact rate wanted or destroy any business had wanted, and punished
+and coerced anybody who refused to comply.
+So this is just not how free societies handled the process of industrialization, and it's
+also not how they should handle AI.
+Now, if you will say, well, AI will develop unprecedented powerful superweapons, superhuman
+hackers, superhuman bioweapons researchers, fully autonomous robot armies, and we just
+can't have private companies developing the technology that will make all this possible.
+But you can make the same argument about the Industrial Revolution, from the perspective
+of 17th century Europeans, you've got all kinds of crazy shit in the world today that is
+the result of the Industrial Revolution.
+Chemical weapons, aerobombardment, not to mention nuclear weapons themselves, and the way
+we dealt with this, is not giving the government absolute control over the Industrial Revolution,
+which is to say, over modern civilization itself.
+Rather, we banned and regulated the specific weaponizable end-use cases, and we should regulate
+AI in a similar way, which is that we should regulate specific destructive use cases.
+For example, watching cyber attacks, things which should be illegal even if a human was
+doing them.
+And we should also have laws which regulate how the government can use this technology.
+For example, by building an AI power at surveillance state.
+The second reason that technology to some monopolistic private nuclear weapons developed
+are breaks down is that it's not just one company that can develop this technology.
+There are many other frontier AI labs that the government could have turned to.
+The government's argument that it had to use the private property rights of the specific
+company in order to get access to a critical and national security capability is extremely
+weak.
+It could have just instead made a voluntary contract with one of Anthropics half a dozen
+other competitors.
+If in the future, that stops within the case.
+And if only one entity remains capable of building the robot armies and the superhuman hackers.
+And we have reason to worry that with their insurmountable lead, they could even take
+over the whole world, then they agree that would be unacceptable for that entity to be
+a private company.
+And so honestly, I think my crux against the people who argue that AI is such a powerful
+technology that it cannot be shaped by private hands is just that I expect this technology
+to be very multi-polar.
+And I expect there to be lots of competitive companies at each layer of the supply chain.
+And unfortunately, this is for this reason that I don't think that individual acts of corporate
+courage solve the problem.
+And the problem is this, that structurally, AI favors many authoritarian applications,
+mass surveillance being one of them, even if Anthropics refuse to sell its models to the
+government to enable mass surveillance.
+And even if the next two companies after a drop-out did the same in 12 months, everybody
+in their mother will be able to train a model as good as the current frontier.
+And at that point, there will be some vendor who is willing and able to help the government
+enforce mass surveillance.
+So the only thing we can preserve our free society is if we make laws and norms through
+our political system that is unacceptable for the government to use AI to enact mass
+censorship and surveillance and control.
+Just as after World War II, the whole world said this norm, that you are not allowed
+to use nuclear weapons to wage war.
+I want to be clear here, these are extremely confusing and difficult questions to think
+about.
+And even in the very process of brainstorming this video, I changed my mind back and forth
+on them a bunch, and I reserved the right to change my mind again.
+In fact, I think it's essential that we change our mind as AI progresses and we learn more.
+That's the very point of conversation and debate.
+Some day, people will look back on this time, the way we look back on the alignment.
+People having these big, important debates, just as the world is about to undergo these
+huge technological and social and political revolutions.
+And some of the thinkers even managed to get a couple of the big questions right, for which
+we today are still the beneficiaries.
+We owe to our future to at least try to think through the new questions that are raised
+by AI.
+Okay, this was an aeration of an essay that I also released on my blog at dorkhash.com.
+You should sign up there for my newsletter for future essays like this.
+Otherwise, I will see you for the next podcast interview.
+Cheers.
