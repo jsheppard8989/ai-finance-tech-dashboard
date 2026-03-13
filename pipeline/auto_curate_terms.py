@@ -51,8 +51,46 @@ def analyze_term_quality(term_data):
     return 'skip'
 
 
+def _looks_like_person_name(term: str) -> bool:
+    """
+    Heuristic: detect personal names like 'Michael Howell' and avoid
+    promoting them into Definitions/Overton (those should stay out of
+    the Overton Window).
+    """
+    if not term:
+        return False
+    parts = str(term).strip().split()
+    if len(parts) != 2:
+        return False
+    first, last = parts[0], parts[1]
+    return (
+        first[0].isupper()
+        and last[0].isupper()
+        and first[1:].islower()
+        and last[1:].islower()
+    )
+
+
 def auto_promote_term(db, term_data):
     """Promote a term to Definitions and to Overton Window (overton_terms)."""
+    term = term_data.get('term', '')
+
+    # Hard rule: do not promote personal names into Definitions/Overton.
+    if _looks_like_person_name(term):
+        with db._get_connection() as conn:
+            conn.execute(
+                """
+                UPDATE suggested_terms
+                SET status = 'rejected',
+                    reviewed_at = CURRENT_TIMESTAMP,
+                    review_notes = 'Rejected: looks like a personal name (excluded from Overton Window)'
+                WHERE id = ?
+                """,
+                (term_data['id'],),
+            )
+        print(f"  ⏭️  SKIPPED (person name): '{term}'")
+        return False
+
     with db._get_connection() as conn:
         # Check if already in definitions
         cursor = conn.execute(

@@ -1334,9 +1334,9 @@
       "investment_implications": "AI-curated from transcript analysis",
       "added_date": "2026-03-13",
       "vote_count": 7,
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
+      "display_on_main": 0,
+      "archived_date": "2026-03-13",
+      "archived_reason": "Person name excluded from Overton Window",
       "display_order": 0
     },
     {

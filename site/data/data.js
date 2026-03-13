@@ -2,7 +2,7 @@
 // DO NOT EDIT MANUALLY
 
 const dashboardData = {
-  generatedAt: "2026-03-13T11:38:41.196268",
+  generatedAt: "2026-03-13T12:18:58.689348",
   chartsVersion: "2026-03-12T08:30:18.018679",
   tickerScores: [
   {
@@ -756,7 +756,7 @@ const dashboardData = {
       "source_name": "Dwarkesh Podcast",
       "source_date": "2026-03-11",
       "summary": "The podcast discusses the Department of War's declaration of anthropic AI supply chain risk due to anthropic's refusal to remove red lines around the use of their models for mass surveillance and autonomous weapons. The host argues that AI will play a significant role in the military, civilian government, and private sector within 20 years, raising important questions about the control and ethics of AI use. The episode also touches on the potential risks of AI in warfare and surveillance, and the need for regulation and norms to prevent misuse.",
-      "key_takeaway": "Investment in AI technology is critical for companies operating in the military and surveillance sectors, but\u9700\u8c28\u614e\u8003\u8651AI\u7684\u4f26\u7406\u548c\u76d1\u7ba1\u95ee\u9898\u3002",
+      "key_takeaway": "Investment in AI technology is critical for companies operating in the military and surveillance sectors, but requires careful consideration of AI ethics and oversight.",
       "tickers_mentioned": [
         "AMZN",
         "NVDA",
@@ -1972,9 +1972,9 @@ const dashboardData = {
       "investment_implications": "AI-curated from transcript analysis",
       "added_date": "2026-03-13",
       "vote_count": 7,
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
+      "display_on_main": 0,
+      "archived_date": "2026-03-13",
+      "archived_reason": "Person name excluded from Overton Window",
       "display_order": 0
     },
     {
@@ -2284,7 +2284,15 @@ const dashboardData = {
       "archived_reason": null,
       "podcast_episode_id": 59,
       "episode_release_date": "2026-03-12",
-      "guest_name": null
+      "guest_name": null,
+      "key_tickers": [
+        "S&P 500",
+        "WTI",
+        "ARBOMB",
+        "GOLD",
+        "COPPER",
+        "WTBN"
+      ]
     },
     {
       "id": 76,
@@ -2303,7 +2311,10 @@ const dashboardData = {
       "archived_reason": null,
       "podcast_episode_id": 58,
       "episode_release_date": "2026-03-12",
-      "guest_name": null
+      "guest_name": null,
+      "key_tickers": [
+        "PLTR"
+      ]
     },
     {
       "id": 72,
@@ -2322,7 +2333,8 @@ const dashboardData = {
       "archived_reason": null,
       "podcast_episode_id": 55,
       "episode_release_date": "2026-03-11",
-      "guest_name": null
+      "guest_name": null,
+      "key_tickers": []
     },
     {
       "id": 73,
@@ -2341,7 +2353,8 @@ const dashboardData = {
       "archived_reason": null,
       "podcast_episode_id": 57,
       "episode_release_date": "2026-03-11",
-      "guest_name": null
+      "guest_name": null,
+      "key_tickers": []
     },
     {
       "id": 74,
@@ -2360,7 +2373,8 @@ const dashboardData = {
       "archived_reason": null,
       "podcast_episode_id": 56,
       "episode_release_date": "2026-03-11",
-      "guest_name": null
+      "guest_name": null,
+      "key_tickers": []
     },
     {
       "id": 77,
@@ -2369,7 +2383,7 @@ const dashboardData = {
       "source_name": "Dwarkesh Podcast",
       "source_date": "2026-03-11",
       "summary": "The podcast discusses the Department of War's declaration of anthropic AI supply chain risk due to anthropic's refusal to remove red lines around the use of their models for mass surveillance and autonomous weapons. The host argues that AI will play a significant role in the military, civilian government, and private sector within 20 years, raising important questions about the control and ethics of AI use. The episode also touches on the potential risks of AI in warfare and surveillance, and the need for regulation and norms to prevent misuse.",
-      "key_takeaway": "Investment in AI technology is critical for companies operating in the military and surveillance sectors, but\u9700\u8c28\u614e\u8003\u8651AI\u7684\u4f26\u7406\u548c\u76d1\u7ba1\u95ee\u9898\u3002",
+      "key_takeaway": "Investment in AI technology is critical for companies operating in the military and surveillance sectors, but requires careful consideration of AI ethics and oversight.",
       "tickers_mentioned": "[\"AMZN\", \"NVDA\", \"GOOGL\", \"PLTR\"]",
       "sentiment": "bearish",
       "display_on_main": 1,
@@ -2379,7 +2393,13 @@ const dashboardData = {
       "archived_reason": null,
       "podcast_episode_id": 60,
       "episode_release_date": "2026-03-11",
-      "guest_name": null
+      "guest_name": null,
+      "key_tickers": [
+        "AMZN",
+        "NVDA",
+        "GOOGL",
+        "PLTR"
+      ]
     },
     {
       "id": 67,
@@ -2398,7 +2418,8 @@ const dashboardData = {
       "archived_reason": null,
       "podcast_episode_id": 52,
       "episode_release_date": "2026-03-10",
-      "guest_name": null
+      "guest_name": null,
+      "key_tickers": []
     },
     {
       "id": 68,
@@ -2417,22 +2438,13 @@ const dashboardData = {
       "archived_reason": null,
       "podcast_episode_id": 50,
       "episode_release_date": "2026-03-10",
-      "guest_name": null
+      "guest_name": null,
+      "key_tickers": [
+        ""
+      ]
     }
   ],
   "definitions": [
-    {
-      "id": 9,
-      "term": "Michael Howell",
-      "definition": "Definition for Michael Howell",
-      "investment_implications": "AI-curated from transcript analysis",
-      "added_date": "2026-03-13",
-      "vote_count": 7,
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "display_order": 0
-    },
     {
       "id": 6,
       "term": "Compute Deflation Trade",
@@ -2540,6 +2552,18 @@ const dashboardData = {
       "archived_date": null,
       "archived_reason": null,
       "display_order": 2
+    },
+    {
+      "id": 3,
+      "term": "Yen Carry Trade",
+      "definition": "A strategy where investors borrow in Japanese yen (low interest rates ~0.25%) and invest in higher-yielding assets (US Treasuries, tech stocks, emerging markets).",
+      "investment_implications": "When the Bank of Japan hikes rates or yen strengthens, unwinds trigger forced selling. Watch JPY/USD >150 as risk signal.",
+      "added_date": "2026-01-16",
+      "vote_count": 18,
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "display_order": 3
     }
   ],
   "overton": [
@@ -2694,7 +2718,8 @@ const dashboardData = {
     "updated_at": "2026-02-15 16:12:59",
     "insight_title": "SpaceX/xAI $1.25T Super-Entity",
     "source_name": "The Rundown AI",
-    "source_date": "2026-02-13"
+    "source_date": "2026-02-13",
+    "key_tickers": []
   },
   "2": {
     "id": 2,
@@ -2750,7 +2775,8 @@ const dashboardData = {
     "updated_at": "2026-02-15 16:12:59",
     "insight_title": "Gold Climax Top Signal",
     "source_name": "Monetary Matters",
-    "source_date": "2026-02-10"
+    "source_date": "2026-02-10",
+    "key_tickers": []
   },
   "3": {
     "id": 3,
@@ -2802,7 +2828,8 @@ const dashboardData = {
     "updated_at": "2026-02-15 16:12:59",
     "insight_title": "Bitcoin as Hard Asset",
     "source_name": "Jack Mallers Show",
-    "source_date": "2026-02-03"
+    "source_date": "2026-02-03",
+    "key_tickers": []
   },
   "4": {
     "id": 4,
@@ -2854,7 +2881,8 @@ const dashboardData = {
     "updated_at": "2026-02-15 16:12:59",
     "insight_title": "Healthcare AI Moats",
     "source_name": "a16z Live",
-    "source_date": "2026-01-25"
+    "source_date": "2026-01-25",
+    "key_tickers": []
   },
   "5": {
     "id": 5,
@@ -2906,7 +2934,8 @@ const dashboardData = {
     "updated_at": "2026-02-15 16:12:59",
     "insight_title": "Machine-Native Money",
     "source_name": "Network State Podcast",
-    "source_date": "2026-01-16"
+    "source_date": "2026-01-16",
+    "key_tickers": []
   },
   "9": {
     "id": 7,
@@ -2946,7 +2975,8 @@ const dashboardData = {
     "updated_at": "2026-02-15 16:35:18",
     "insight_title": "Milton Berg's Market Signals: Local Bottom or Major Top?",
     "source_name": "Monetary Matters",
-    "source_date": "2026-02-06"
+    "source_date": "2026-02-06",
+    "key_tickers": []
   },
   "10": {
     "id": 8,
@@ -2987,7 +3017,8 @@ const dashboardData = {
     "updated_at": "2026-02-15 16:35:18",
     "insight_title": "Carson Block: Don't Short AI Yet, Buy Gold Miners",
     "source_name": "Muddy Waters",
-    "source_date": "2025-11-15"
+    "source_date": "2025-11-15",
+    "key_tickers": []
   },
   "13": {
     "id": 9,
@@ -3048,7 +3079,10 @@ const dashboardData = {
     "updated_at": "2026-02-19 18:02:49",
     "insight_title": "Jack Mallers: Japan, AI, & The Next Liquidity Shock For Bitcoin",
     "source_name": "The Jack Mallers Show",
-    "source_date": "2026-02-17"
+    "source_date": "2026-02-17",
+    "key_tickers": [
+      "BTC"
+    ]
   },
   "14": {
     "id": 10,
@@ -3114,7 +3148,10 @@ const dashboardData = {
     "updated_at": "2026-02-19 18:02:49",
     "insight_title": "Paul Krugman: Dollar Resilience & AI Deflation Risk",
     "source_name": "Monetary Matters with Jack Farley",
-    "source_date": "2026-02-15"
+    "source_date": "2026-02-15",
+    "key_tickers": [
+      "PQNT"
+    ]
   },
   "12": {
     "id": 11,
@@ -3181,7 +3218,8 @@ const dashboardData = {
     "updated_at": "2026-02-19 18:02:49",
     "insight_title": "Dario Amodei: We Are Near the End of the Exponential",
     "source_name": "Dwarkesh Podcast",
-    "source_date": "2026-02-13"
+    "source_date": "2026-02-13",
+    "key_tickers": []
   },
   "15": {
     "id": 12,
@@ -3247,7 +3285,8 @@ const dashboardData = {
     "updated_at": "2026-02-19 18:02:49",
     "insight_title": "Sam Altman's AI CEO Vision: 5-Year Plans Are Obsolete",
     "source_name": "Moonshots with Peter Diamandis",
-    "source_date": "2026-02-13"
+    "source_date": "2026-02-13",
+    "key_tickers": []
   },
   "16": {
     "id": 13,
@@ -3303,7 +3342,8 @@ const dashboardData = {
     "updated_at": "2026-02-19 18:02:49",
     "insight_title": "Network State Podcast: Orchard & The Genetic Health Revolution",
     "source_name": "The Network State Podcast",
-    "source_date": "2026-02-13"
+    "source_date": "2026-02-13",
+    "key_tickers": []
   },
   "17": {
     "id": 14,
@@ -3369,7 +3409,14 @@ const dashboardData = {
     "updated_at": "2026-02-19 18:02:49",
     "insight_title": "Moonshots #231: 400x AI Cost Collapse & India's Talent Decade",
     "source_name": "Moonshots with Peter Diamandis",
-    "source_date": "2026-02-18"
+    "source_date": "2026-02-18",
+    "key_tickers": [
+      "MSFT",
+      "GOOGL",
+      "NVDA",
+      "INFY",
+      "WIT"
+    ]
   },
   "18": {
     "id": 15,
@@ -3442,7 +3489,15 @@ const dashboardData = {
     "updated_at": "2026-02-19 18:02:49",
     "insight_title": "Ben Horowitz: xAI Exodus, $5B SSI, & Apple's Structural AI Crisis",
     "source_name": "Moonshots with Peter Diamandis",
-    "source_date": "2026-02-19"
+    "source_date": "2026-02-19",
+    "key_tickers": [
+      "AAPL",
+      "NVDA",
+      "TSLA",
+      "GOOGL",
+      "MSFT",
+      "AVGO"
+    ]
   },
   "6": {
     "id": 16,
@@ -3512,7 +3567,8 @@ const dashboardData = {
     "updated_at": "2026-02-22 20:34:07",
     "insight_title": "Fed Pivot Signal",
     "source_name": "Monetary Matters",
-    "source_date": "2026-01-01"
+    "source_date": "2026-01-01",
+    "key_tickers": []
   },
   "7": {
     "id": 17,
@@ -3556,7 +3612,8 @@ const dashboardData = {
     "updated_at": "2026-02-22 20:34:29",
     "insight_title": "Nuclear Renaissance",
     "source_name": "The Energy Letter",
-    "source_date": "2025-12-17"
+    "source_date": "2025-12-17",
+    "key_tickers": []
   },
   "19": {
     "id": 18,
@@ -3627,7 +3684,8 @@ const dashboardData = {
     "updated_at": "2026-02-22 20:35:13",
     "insight_title": "AI Disruption and the Singularity",
     "source_name": "Moonshots with Peter Diamandis",
-    "source_date": "2026-02-20"
+    "source_date": "2026-02-20",
+    "key_tickers": []
   },
   "21": {
     "id": 19,
@@ -3692,7 +3750,12 @@ const dashboardData = {
     "updated_at": "2026-02-22 20:51:20",
     "insight_title": "Carson Block: Short AI Pretenders, Buy Gold Miners",
     "source_name": "Monetary Matters with Jack Farley",
-    "source_date": "2026-02-04"
+    "source_date": "2026-02-04",
+    "key_tickers": [
+      "PQNT",
+      "FTIE",
+      "AppLovin"
+    ]
   },
   "22": {
     "id": 20,
@@ -3757,7 +3820,8 @@ const dashboardData = {
     "updated_at": "2026-02-22 20:51:38",
     "insight_title": "Jack Mallers: Bitcoin Transitions from Software to Hard Asset",
     "source_name": "The Jack Mallers Show",
-    "source_date": "2026-02-10"
+    "source_date": "2026-02-10",
+    "key_tickers": []
   },
   "25": {
     "id": 21,
@@ -3828,7 +3892,8 @@ const dashboardData = {
     "updated_at": "2026-02-22 20:51:57",
     "insight_title": "Brett Adcock: Humanoid Robots Running Neural Nets \u2014 Autonomous Manufacturing Now",
     "source_name": "Moonshots with Peter Diamandis",
-    "source_date": "2026-02-22"
+    "source_date": "2026-02-22",
+    "key_tickers": []
   },
   "26": {
     "id": 22,
@@ -3892,7 +3957,13 @@ const dashboardData = {
     "updated_at": "2026-02-22 20:52:20",
     "insight_title": "Milton Berg: Rare Signal \u2014 Local Bottom or Major Top Ahead",
     "source_name": "Monetary Matters with Jack Farley",
-    "source_date": "2026-02-06"
+    "source_date": "2026-02-06",
+    "key_tickers": [
+      "S&P",
+      "Nasdaq",
+      "Russell",
+      "Semiconductors"
+    ]
   },
   "29": {
     "id": 24,
@@ -3962,7 +4033,11 @@ const dashboardData = {
     "updated_at": "2026-02-22 20:52:51",
     "insight_title": "Wolverine: Machine-Mediated Hearing \u2014 Audio Wearables as the Next Computing Platform",
     "source_name": "Monetary Matters with Jack Farley",
-    "source_date": "2026-02-10"
+    "source_date": "2026-02-10",
+    "key_tickers": [
+      "GOOGL",
+      "MSFT"
+    ]
   },
   "37": {
     "id": 25,
@@ -4006,7 +4081,8 @@ const dashboardData = {
     "updated_at": "2026-02-22 20:53:00",
     "insight_title": "xAI Co-founder Exodus Amid SpaceX Merger Raises Concerns",
     "source_name": "The Rundown AI <news@daily.therundown.ai>",
-    "source_date": "2026-02-11"
+    "source_date": "2026-02-11",
+    "key_tickers": []
   },
   "38": {
     "id": 32,
@@ -4076,7 +4152,8 @@ const dashboardData = {
     "updated_at": "2026-02-22 20:53:21",
     "insight_title": "OpenAI's AI Succession Plan and AGI Claims",
     "source_name": "The Rundown AI <news@daily.therundown.ai>",
-    "source_date": "2026-02-04"
+    "source_date": "2026-02-04",
+    "key_tickers": []
   },
   "39": {
     "id": 33,
@@ -4146,7 +4223,8 @@ const dashboardData = {
     "updated_at": "2026-02-22 20:53:36",
     "insight_title": "SpaceX-xAI Merger Forms $1.25T AI-Space Super-Entity",
     "source_name": "The Rundown AI <news@daily.therundown.ai>",
-    "source_date": "2026-02-03"
+    "source_date": "2026-02-03",
+    "key_tickers": []
   },
   "40": {
     "id": 34,
@@ -4190,7 +4268,8 @@ const dashboardData = {
     "updated_at": "2026-02-22 20:54:00",
     "insight_title": "xAI Accelerates AI Expansion with Lunar Ambitions",
     "source_name": "The Rundown AI <news@daily.therundown.ai>",
-    "source_date": "2026-02-12"
+    "source_date": "2026-02-12",
+    "key_tickers": []
   },
   "41": {
     "id": 29,
@@ -4223,7 +4302,8 @@ const dashboardData = {
     "updated_at": "2026-02-22 20:53:08",
     "insight_title": "Figure's General Purpose Robot: Investment Shift in 2026",
     "source_name": "Figure's General Purpose Robot",
-    "source_date": "2026-02-13"
+    "source_date": "2026-02-13",
+    "key_tickers": []
   },
   "42": {
     "id": 30,
@@ -4256,7 +4336,8 @@ const dashboardData = {
     "updated_at": "2026-02-22 20:53:08",
     "insight_title": "Agentic Inversion: Moltbook and Axie Infinity's Impact on Investment Velocity",
     "source_name": "The Agentic Inversion",
-    "source_date": "2026-02-13"
+    "source_date": "2026-02-13",
+    "key_tickers": []
   },
   "43": {
     "id": 31,
@@ -4289,7 +4370,8 @@ const dashboardData = {
     "updated_at": "2026-02-22 20:53:08",
     "insight_title": "Google's AI Advancements Signal New Investment Frontier",
     "source_name": "The Rundown AI <news@daily.therundown.ai>",
-    "source_date": "2026-02-13"
+    "source_date": "2026-02-13",
+    "key_tickers": []
   },
   "44": {
     "id": 35,
@@ -4354,7 +4436,8 @@ const dashboardData = {
     "updated_at": "2026-02-23 01:17:01",
     "insight_title": "The Epstein Saga: Diverse Perspectives and Investment Implications",
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "source_date": "2026-02-20"
+    "source_date": "2026-02-20",
+    "key_tickers": []
   },
   "45": {
     "id": 36,
@@ -4424,7 +4507,8 @@ const dashboardData = {
     "updated_at": "2026-02-23 01:17:19",
     "insight_title": "The Future of Consumer Technology and Interfaces",
     "source_name": "a16z Live",
-    "source_date": "2026-02-22"
+    "source_date": "2026-02-22",
+    "key_tickers": []
   },
   "46": {
     "id": 37,
@@ -4490,7 +4574,10 @@ const dashboardData = {
     "updated_at": "2026-03-01 18:49:54",
     "insight_title": "AI Breaking the System and What It Means for Bitcoin",
     "source_name": "The Jack Mallers Show",
-    "source_date": "2026-02-24"
+    "source_date": "2026-02-24",
+    "key_tickers": [
+      "BTC"
+    ]
   },
   "47": {
     "id": 38,
@@ -4534,7 +4621,8 @@ const dashboardData = {
     "updated_at": "2026-03-01 18:50:15",
     "insight_title": "State of the Union on Age Reversal",
     "source_name": "Moonshots with Peter Diamandis",
-    "source_date": "2026-02-24"
+    "source_date": "2026-02-24",
+    "key_tickers": []
   },
   "48": {
     "id": 39,
@@ -4604,7 +4692,13 @@ const dashboardData = {
     "updated_at": "2026-03-01 18:50:34",
     "insight_title": "Conspiracy Corner and Market Impact of AI",
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "source_date": "2026-02-28"
+    "source_date": "2026-02-28",
+    "key_tickers": [
+      "IBM",
+      "CROWD",
+      "WORK",
+      "TSLA"
+    ]
   },
   "49": {
     "id": 40,
@@ -4674,7 +4768,12 @@ const dashboardData = {
     "updated_at": "2026-03-01 23:26:25",
     "insight_title": "Monetary Matters with Rick Rule on Commodities and Contrarian Investment",
     "source_name": "Monetary Matters with Jack Farley",
-    "source_date": "2026-03-01"
+    "source_date": "2026-03-01",
+    "key_tickers": [
+      "PQNT",
+      "EMAX",
+      "Altias"
+    ]
   },
   "50": {
     "id": 41,
@@ -4744,7 +4843,8 @@ const dashboardData = {
     "updated_at": "2026-03-01 23:26:43",
     "insight_title": "The a16z Show: New Media Strategy and Investment Insights",
     "source_name": "The a16z Show",
-    "source_date": "2026-02-27"
+    "source_date": "2026-02-27",
+    "key_tickers": []
   },
   "51": {
     "id": 42,
@@ -4789,7 +4889,8 @@ const dashboardData = {
     "updated_at": "2026-03-01 23:27:01",
     "insight_title": "The Future of Education and the Role of AI",
     "source_name": "Moonshots with Peter Diamandis",
-    "source_date": "2026-02-25"
+    "source_date": "2026-02-25",
+    "key_tickers": []
   },
   "52": {
     "id": 43,
@@ -4843,7 +4944,8 @@ const dashboardData = {
     "updated_at": "2026-03-05 03:01:30",
     "insight_title": "Mailbag Monday: War, AI, and Deep Value in Bitcoin",
     "source_name": "The Jack Mallers Show",
-    "source_date": "2026-03-03"
+    "source_date": "2026-03-03",
+    "key_tickers": []
   },
   "53": {
     "id": 44,
@@ -4887,7 +4989,8 @@ const dashboardData = {
     "updated_at": "2026-03-05 03:01:57",
     "insight_title": "The Great Debt Cycle and Economic Outlook",
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "source_date": "2026-03-03"
+    "source_date": "2026-03-03",
+    "key_tickers": []
   },
   "54": {
     "id": 45,
@@ -4957,7 +5060,8 @@ const dashboardData = {
     "updated_at": "2026-03-05 03:02:23",
     "insight_title": "Constructive Confrontation and Decision Debt in Tech Companies",
     "source_name": "The a16z Show",
-    "source_date": "2026-03-03"
+    "source_date": "2026-03-03",
+    "key_tickers": []
   },
   "55": {
     "id": 46,
@@ -5027,7 +5131,10 @@ const dashboardData = {
     "updated_at": "2026-03-05 03:02:48",
     "insight_title": "Moonshots with Peter Diamandis: AI, Exponential Technologies, and the Future of Auditing",
     "source_name": "Moonshots with Peter Diamandis",
-    "source_date": "2026-03-02"
+    "source_date": "2026-03-02",
+    "key_tickers": [
+      ""
+    ]
   },
   "56": {
     "id": 47,
@@ -5097,7 +5204,8 @@ const dashboardData = {
     "updated_at": "2026-03-05 10:01:09",
     "insight_title": "Monetary Matters: Macro Regimes and Investment Insights",
     "source_name": "Monetary Matters with Jack Farley",
-    "source_date": "2026-03-04"
+    "source_date": "2026-03-04",
+    "key_tickers": []
   },
   "57": {
     "id": 48,
@@ -5168,7 +5276,10 @@ const dashboardData = {
     "updated_at": "2026-03-05 10:01:49",
     "insight_title": "The Future of Healthcare with AI and Technology",
     "source_name": "The a16z Show",
-    "source_date": "2026-03-04"
+    "source_date": "2026-03-04",
+    "key_tickers": [
+      ""
+    ]
   },
   "58": {
     "id": 49,
@@ -5233,7 +5344,16 @@ const dashboardData = {
     "updated_at": "2026-03-06 10:01:30",
     "insight_title": "The Future of Advanced Nuclear Energy and its Impact on Markets",
     "source_name": "Macro Voices",
-    "source_date": "2026-03-05"
+    "source_date": "2026-03-05",
+    "key_tickers": [
+      "S&P 500",
+      "WTI",
+      "ARBOB Gasoline",
+      "Gold",
+      "Copper",
+      "Uranium",
+      "US 10 year Treasury"
+    ]
   },
   "59": {
     "id": 50,
@@ -5298,7 +5418,10 @@ const dashboardData = {
     "updated_at": "2026-03-06 10:01:52",
     "insight_title": "Anthropic and Alignment: The Intersection of AI, Politics, and Business",
     "source_name": "The a16z Show",
-    "source_date": "2026-03-05"
+    "source_date": "2026-03-05",
+    "key_tickers": [
+      ""
+    ]
   },
   "60": {
     "id": 51,
@@ -5363,7 +5486,13 @@ const dashboardData = {
     "updated_at": "2026-03-06 10:02:19",
     "insight_title": "The Financialization of Super Intelligence and the Entrepreneurial Opportunity of a Lifetime",
     "source_name": "Moonshots with Peter Diamandis",
-    "source_date": "2026-03-05"
+    "source_date": "2026-03-05",
+    "key_tickers": [
+      "AMZN",
+      "MSFT",
+      "GOOGL",
+      "GOOG"
+    ]
   },
   "61": {
     "id": 52,
@@ -5433,7 +5562,8 @@ const dashboardData = {
     "updated_at": "2026-03-06 10:02:45",
     "insight_title": "Economic Growth through Creative Destruction",
     "source_name": "Monetary Matters with Jack Farley",
-    "source_date": "2026-03-05"
+    "source_date": "2026-03-05",
+    "key_tickers": []
   },
   "62": {
     "id": 53,
@@ -5498,7 +5628,8 @@ const dashboardData = {
     "updated_at": "2026-03-06 13:46:06",
     "insight_title": "Emergency Podcast: US-Iran Conflict and its Impact on Global Markets",
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "source_date": "2026-03-06"
+    "source_date": "2026-03-06",
+    "key_tickers": []
   },
   "63": {
     "id": 54,
@@ -5568,7 +5699,12 @@ const dashboardData = {
     "updated_at": "2026-03-07 10:01:03",
     "insight_title": "The AI Transformation of Software and SaaS Landscape",
     "source_name": "The a16z Show",
-    "source_date": "2026-03-06"
+    "source_date": "2026-03-06",
+    "key_tickers": [
+      "WORK",
+      "ZEN",
+      "SF"
+    ]
   },
   "64": {
     "id": 55,
@@ -5638,7 +5774,10 @@ const dashboardData = {
     "updated_at": "2026-03-08 04:25:31",
     "insight_title": "The Future of Work and Income with Andrew Yang",
     "source_name": "Moonshots with Peter Diamandis",
-    "source_date": "2026-03-07"
+    "source_date": "2026-03-07",
+    "key_tickers": [
+      ""
+    ]
   },
   "65": {
     "id": 56,
@@ -5708,7 +5847,8 @@ const dashboardData = {
     "updated_at": "2026-03-08 04:25:57",
     "insight_title": "All In with Chamath, Jason, Sacks & Friedberg - Episode 263 Part 2: Vision for Iran Post-Military Action",
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "source_date": "2026-03-07"
+    "source_date": "2026-03-07",
+    "key_tickers": []
   },
   "66": {
     "id": 57,
@@ -5778,7 +5918,10 @@ const dashboardData = {
     "updated_at": "2026-03-10 03:04:53",
     "insight_title": "The Future of Health and Biotech Innovations",
     "source_name": "The a16z Show",
-    "source_date": "2026-03-09"
+    "source_date": "2026-03-09",
+    "key_tickers": [
+      "LLY"
+    ]
   },
   "67": {
     "id": 58,
@@ -5843,7 +5986,8 @@ const dashboardData = {
     "updated_at": "2026-03-11 03:03:30",
     "insight_title": "Oil, Bonds, and Bitcoin: Navigating Geopolitical Poker and Market Volatility",
     "source_name": "The Jack Mallers Show",
-    "source_date": "2026-03-10"
+    "source_date": "2026-03-10",
+    "key_tickers": []
   },
   "68": {
     "id": 59,
@@ -5914,7 +6058,10 @@ const dashboardData = {
     "updated_at": "2026-03-11 03:03:50",
     "insight_title": "The a16z Show: AI Adoption, Creative Tools, and the Future of Generative AI",
     "source_name": "The a16z Show",
-    "source_date": "2026-03-10"
+    "source_date": "2026-03-10",
+    "key_tickers": [
+      ""
+    ]
   },
   "69": {
     "id": 60,
@@ -5985,7 +6132,10 @@ const dashboardData = {
     "updated_at": "2026-03-11 03:04:13",
     "insight_title": "The Future of Personal AI Agents with OpenClaw",
     "source_name": "Moonshots with Peter Diamandis",
-    "source_date": "2026-03-09"
+    "source_date": "2026-03-09",
+    "key_tickers": [
+      "BTC"
+    ]
   },
   "70": {
     "id": 61,
@@ -6050,7 +6200,10 @@ const dashboardData = {
     "updated_at": "2026-03-11 03:04:38",
     "insight_title": "Monetary Matters with Jack Farley: Global Liquidity and Asset Allocation",
     "source_name": "Monetary Matters with Jack Farley",
-    "source_date": "2026-03-09"
+    "source_date": "2026-03-09",
+    "key_tickers": [
+      "N/A"
+    ]
   },
   "71": {
     "id": 62,
@@ -6115,7 +6268,11 @@ const dashboardData = {
     "updated_at": "2026-03-11 03:05:06",
     "insight_title": "All-In with Chamath, Jason, Sacks & Friedberg - Discussion with Graham Allison",
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "source_date": "2026-03-09"
+    "source_date": "2026-03-09",
+    "key_tickers": [
+      "TSLA",
+      "TSM"
+    ]
   },
   "72": {
     "id": 63,
@@ -6185,7 +6342,8 @@ const dashboardData = {
     "updated_at": "2026-03-12 03:02:23",
     "insight_title": "Real-time Crime Prevention and the Future of Policing",
     "source_name": "The a16z Show",
-    "source_date": "2026-03-11"
+    "source_date": "2026-03-11",
+    "key_tickers": []
   },
   "73": {
     "id": 64,
@@ -6250,7 +6408,8 @@ const dashboardData = {
     "updated_at": "2026-03-12 10:04:04",
     "insight_title": "Capital Markets Evolution and the Future of IPOs",
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "source_date": "2026-03-11"
+    "source_date": "2026-03-11",
+    "key_tickers": []
   },
   "74": {
     "id": 65,
@@ -6320,7 +6479,8 @@ const dashboardData = {
     "updated_at": "2026-03-12 10:04:30",
     "insight_title": "Monetary Matters: Economic Consequences of War and AI's Impact",
     "source_name": "Monetary Matters with Jack Farley",
-    "source_date": "2026-03-11"
+    "source_date": "2026-03-11",
+    "key_tickers": []
   },
   "75": {
     "id": 66,
@@ -6385,7 +6545,15 @@ const dashboardData = {
     "updated_at": "2026-03-13 03:00:59",
     "insight_title": "Macro Voices Episode 523: Geopolitical Situation in Iran, Oil Prices, Precious Metals, and Market Analysis",
     "source_name": "Macro Voices",
-    "source_date": "2026-03-12"
+    "source_date": "2026-03-12",
+    "key_tickers": [
+      "S&P 500",
+      "WTI",
+      "ARBOMB",
+      "GOLD",
+      "COPPER",
+      "WTBN"
+    ]
   },
   "76": {
     "id": 67,
@@ -6455,7 +6623,10 @@ const dashboardData = {
     "updated_at": "2026-03-13 03:01:38",
     "insight_title": "The Intersection of Technology, Geopolitics, and National Defense",
     "source_name": "The a16z Show",
-    "source_date": "2026-03-12"
+    "source_date": "2026-03-12",
+    "key_tickers": [
+      "PLTR"
+    ]
   },
   "77": {
     "id": 68,
@@ -6525,7 +6696,13 @@ const dashboardData = {
     "updated_at": "2026-03-13 10:03:03",
     "insight_title": "AI and the Future of Warfare: The Department of War vs. Anthropic",
     "source_name": "Dwarkesh Podcast",
-    "source_date": "2026-03-11"
+    "source_date": "2026-03-11",
+    "key_tickers": [
+      "AMZN",
+      "NVDA",
+      "GOOGL",
+      "PLTR"
+    ]
   }
 },
   suggestedTerms: [],
@@ -6622,7 +6799,11 @@ const dashboardData = {
     "slug": "jim-bianco",
     "bio": "Founder of Bianco Research, a provider of institutional research.",
     "known_for": "In-depth analysis of financial markets and macroeconomic trends.",
-    "last_seen": "2026-03-12 20:30:09"
+    "last_seen": "2026-03-12 20:30:09",
+    "last_episode_title": "Macro Voices Episode 523: Geopolitical Situation in Iran, Oil Prices, Precious Metals, and Market Analysis",
+    "last_podcast_name": "Macro Voices",
+    "last_episode_date": "2026-03-12",
+    "last_main_idea": "The current geopolitical tensions, particularly in Iran, are creating significant market volatility, especially in oil prices, which presents both risks and opportunities for investors."
   },
   {
     "id": 55,
@@ -6630,7 +6811,11 @@ const dashboardData = {
     "slug": "dr-onus-alhajji",
     "bio": "Expert commentator on energy markets and geopolitical conflicts.",
     "known_for": "Analysis of the impact of geopolitical events on oil markets.",
-    "last_seen": "2026-03-12 20:30:09"
+    "last_seen": "2026-03-12 20:30:09",
+    "last_episode_title": "Macro Voices Episode 523: Geopolitical Situation in Iran, Oil Prices, Precious Metals, and Market Analysis",
+    "last_podcast_name": "Macro Voices",
+    "last_episode_date": "2026-03-12",
+    "last_main_idea": "The current geopolitical tensions, particularly in Iran, are creating significant market volatility, especially in oil prices, which presents both risks and opportunities for investors."
   },
   {
     "id": 52,
@@ -6638,7 +6823,11 @@ const dashboardData = {
     "slug": "alex-carp",
     "bio": "Co-founder and CEO of Palantir, a company that specializes in big data analytics.",
     "known_for": "Building technology deployed on battlefields and analytics infrastructure embedded in the Department of Defense.",
-    "last_seen": "2026-03-12 20:29:53"
+    "last_seen": "2026-03-12 20:29:53",
+    "last_episode_title": "The Intersection of Technology, Geopolitics, and National Defense",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-03-12",
+    "last_main_idea": "Investing in companies that leverage technology to enhance national defense and security could yield significant returns, especially if they align with the interests of the defense establishment."
   },
   {
     "id": 48,
@@ -6646,7 +6835,11 @@ const dashboardData = {
     "slug": "graham-allison",
     "bio": "Founding dean of the Harvard Kennedy School, advisor to U.S. Secretaries of Defense, and author of 'Destined For War'.",
     "known_for": "Expertise on U.S.-China relations and nuclear security.",
-    "last_seen": "2026-03-12 19:39:13"
+    "last_seen": "2026-03-12 19:39:13",
+    "last_episode_title": "All-In with Chamath, Jason, Sacks & Friedberg - Discussion with Graham Allison",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-03-09",
+    "last_main_idea": "The global semiconductor supply chain, with a focus on Taiwan's TSMC, presents both risks and opportunities in the context of U.S.-China relations and economic inequality."
   },
   {
     "id": 47,
@@ -6654,7 +6847,11 @@ const dashboardData = {
     "slug": "michael-howell",
     "bio": "Michael Howell is known for his work on global liquidity and his sub-stack Capital Wars.",
     "known_for": "Expertise in global liquidity and its impact on financial markets",
-    "last_seen": "2026-03-12 19:39:05"
+    "last_seen": "2026-03-12 19:39:05",
+    "last_episode_title": "Monetary Matters with Jack Farley: Global Liquidity and Asset Allocation",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-03-09",
+    "last_main_idea": "As the global liquidity cycle peaks, investors should consider rotating their asset allocation towards more defensive areas and higher yielding assets like private credit."
   },
   {
     "id": 45,
@@ -6662,7 +6859,11 @@ const dashboardData = {
     "slug": "alex-finn",
     "bio": "Alex Finn is an AI enthusiast and expert who has been following the development of AI for a long time.",
     "known_for": "His expertise and hands-on experience with AI, particularly with OpenClaw.",
-    "last_seen": "2026-03-12 19:38:58"
+    "last_seen": "2026-03-12 19:38:58",
+    "last_episode_title": "The Future of Personal AI Agents with OpenClaw",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-03-09",
+    "last_main_idea": "Investment in AI technology, particularly in personal AI agents like OpenClaw, could offer substantial returns as the technology matures and becomes more integrated into daily life."
   },
   {
     "id": 43,
@@ -6670,7 +6871,11 @@ const dashboardData = {
     "slug": "olivia-moore",
     "bio": "Partner at a16z",
     "known_for": "Expertise in AI and its applications within the tech industry",
-    "last_seen": "2026-03-12 19:38:51"
+    "last_seen": "2026-03-12 19:38:51",
+    "last_episode_title": "The a16z Show: AI Adoption, Creative Tools, and the Future of Generative AI",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-03-10",
+    "last_main_idea": "Investment in AI platforms is driven by their ability to capture user data, create personalized experiences, and expand globally, with a focus on platforms that can leverage AI to create compounding advantages."
   },
   {
     "id": 40,
@@ -6678,7 +6883,11 @@ const dashboardData = {
     "slug": "garrett-langley",
     "bio": "Founder of Flock Safety, an electrical engineer turned entrepreneur.",
     "known_for": "Developing a neighborhood safety system that evolved into a nationwide real-time crime prevention platform.",
-    "last_seen": "2026-03-12 19:38:37"
+    "last_seen": "2026-03-12 19:38:37",
+    "last_episode_title": "Real-time Crime Prevention and the Future of Policing",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-03-11",
+    "last_main_idea": "Investing in technology that enhances real-time crime prevention and clearance rates can lead to more effective law enforcement and safer communities."
   },
   {
     "id": 38,
@@ -6686,7 +6895,11 @@ const dashboardData = {
     "slug": "joseph-stiglitz",
     "bio": "Nobel Laureate Economist and Professor at Columbia University",
     "known_for": "Author of 'Road to Freedom, Economics, and the Good Society'",
-    "last_seen": "2026-03-12 19:38:30"
+    "last_seen": "2026-03-12 19:38:30",
+    "last_episode_title": "Monetary Matters: Economic Consequences of War and AI's Impact",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-03-11",
+    "last_main_idea": "The current geopolitical tensions and the rise of AI technology present both risks and opportunities, with the potential for economic disruption and the need for strategic investment in sectors less affected by AI."
   },
   {
     "id": 33,
@@ -6694,7 +6907,11 @@ const dashboardData = {
     "slug": "paul-ackens",
     "bio": "SEC chair with a history in corporation finance work.",
     "known_for": "Shaping capital markets and regulatory oversight.",
-    "last_seen": "2026-03-12 19:38:22"
+    "last_seen": "2026-03-12 19:38:22",
+    "last_episode_title": "Capital Markets Evolution and the Future of IPOs",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-03-11",
+    "last_main_idea": "The shift towards private markets and the potential for changing reporting cadence could redefine the landscape for early-stage investment opportunities and public market participation."
   },
   {
     "id": 34,
@@ -6702,7 +6919,11 @@ const dashboardData = {
     "slug": "michael-cilig",
     "bio": "CFTC chair with expertise in commodities and financial markets.",
     "known_for": "Regulatory oversight in commodities and financial markets.",
-    "last_seen": "2026-03-12 19:38:22"
+    "last_seen": "2026-03-12 19:38:22",
+    "last_episode_title": "Capital Markets Evolution and the Future of IPOs",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-03-11",
+    "last_main_idea": "The shift towards private markets and the potential for changing reporting cadence could redefine the landscape for early-stage investment opportunities and public market participation."
   }
 ]
 };
