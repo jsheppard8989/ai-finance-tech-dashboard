@@ -1755,13 +1755,33 @@
       loadOvertonWindow();
     });
 
-    function loadPodcastGuests() {
+    async function loadPodcastGuests() {
       const container = document.getElementById('guests-list');
       const card = document.getElementById('guests-card');
       if (!container || !card) return;
 
-      // Pundits come purely from semantic-layer entities/appearances (guest_primary roles)
-      const items = (typeof dashboardData !== 'undefined' && Array.isArray(dashboardData.pundits)) ? dashboardData.pundits : [];
+      // Pundits come primarily from semantic-layer entities/appearances (guest_primary roles)
+      let items = (typeof dashboardData !== 'undefined' && Array.isArray(dashboardData.pundits)) ? dashboardData.pundits : [];
+
+      // Fallback: if dashboardData.pundits is missing/empty (e.g. older data.js schema),
+      // try loading directly from data/pundits.json so the section still renders on live site.
+      if ((!items || items.length === 0) && typeof fetch === 'function') {
+        try {
+          const resp = await fetch('./data/pundits.json', { cache: 'no-cache' });
+          if (resp.ok) {
+            const json = await resp.json();
+            if (Array.isArray(json) && json.length > 0) {
+              items = json;
+              if (typeof dashboardData !== 'undefined') {
+                dashboardData.pundits = json;
+              }
+            }
+          }
+        } catch (e) {
+          if (DEBUG_SITE) console.warn('Could not load pundits.json fallback:', e);
+        }
+      }
+
       if (items.length === 0) {
         container.innerHTML = '<p style="color: #8892b0; font-size: 0.9rem; padding: 1rem;">No pundits yet. Ensure transcripts are analyzed and the AI entity pipeline has run.</p>';
         return;
