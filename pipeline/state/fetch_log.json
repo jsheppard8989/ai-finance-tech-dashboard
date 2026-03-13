@@ -1,19 +1,26 @@
 {
-  "timestamp": "2026-03-13T05:02:09.799027",
+  "timestamp": "2026-03-13T13:27:21.850677",
   "results": [
+    {
+      "podcast": "Monetary Matters with Jack Farley",
+      "title": "Could the Iran War Cause a New Oil Crisis? | FT's Chief Economics Commentator Martin Wolf",
+      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/EWWMN3934171483.mp3",
+      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/EWWMN3934171483.txt",
+      "success": true
+    },
     {
       "podcast": "The a16z Show",
       "title": "Emil Michael: Iran, Anthropic and the Future of AI at the Pentagon",
       "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_20260313_dff14c3b_d224_499c_90fc_e6477f67.mp3",
-      "transcript_path": null,
-      "success": false
+      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/the_a16z_show_20260313_dff14c3b_d224_499c_90fc_e6477f67.txt",
+      "success": true
     },
     {
       "podcast": "Dwarkesh Podcast",
-      "title": "The most important question nobody's asking about AI",
-      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/94a1857634f9ebd3857e20d95893ec75.mp3",
-      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/94a1857634f9ebd3857e20d95893ec75.txt",
-      "success": true
+      "title": "Dylan Patel \u2014 Deep Dive on the 3 Big Bottlenecks to Scaling AI Compute",
+      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/c3cb2a35bdf4b3199832704511cc77ee.mp3",
+      "transcript_path": null,
+      "success": false
     }
   ]
 }

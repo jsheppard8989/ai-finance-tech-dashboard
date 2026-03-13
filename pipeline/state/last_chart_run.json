@@ -1,16 +1,14 @@
 {
-  "timestamp": "2026-03-12T08:30:18.018679",
+  "timestamp": "2026-03-13T13:28:57.055826",
   "symbols": [
     "BTC-USD",
     "GOOGL",
-    "NVDA",
     "MSFT",
+    "NVDA",
+    "WTI",
     "MSTR",
     "COIN",
     "SPY",
-    "AMZN",
-    "GLD",
-    "META",
     "QQQ"
   ]
 }

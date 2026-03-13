@@ -1,5 +1,29 @@
 [
   {
+    "id": 60,
+    "name": "Michael Griffin",
+    "slug": "michael-griffin",
+    "bio": "Under Secretary of Defense for Research and Engineering, and acting director of the Defense Innovation Unit.",
+    "known_for": "Prior experience as a Silicon Valley executive and public servant.",
+    "last_seen": "2026-03-13 18:27:45",
+    "last_episode_title": "AI in Defense and the Future of Military Technology",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-03-13",
+    "last_main_idea": "Investment in AI technology within the defense sector is critical for maintaining national security and ensuring operational effectiveness."
+  },
+  {
+    "id": 59,
+    "name": "Martin Wolff",
+    "slug": "martin-wolff",
+    "bio": "Chief Economics Commentator for the Financial Times",
+    "known_for": "Expert analysis on global economic and political issues",
+    "last_seen": "2026-03-13 18:27:35",
+    "last_episode_title": "Monetary Matters: The Impact of US-Iran Conflict on the World Economy",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-03-13",
+    "last_main_idea": "Investors should consider the geopolitical risks associated with the US-Iran conflict and the potential impact on global oil supply, as well as the long-term shift towards renewable energy sources."
+  },
+  {
     "id": 54,
     "name": "Jim Bianco",
     "slug": "jim-bianco",

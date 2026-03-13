@@ -1,9 +1,8 @@
-// Auto-generated data file
+// Auto-generated data file - 2026-03-13T13:28:57.360889
 // DO NOT EDIT MANUALLY
 
 const dashboardData = {
-  generatedAt: "2026-03-13T12:18:58.689348",
-  chartsVersion: "2026-03-12T08:30:18.018679",
+  generatedAt: "2026-03-13T13:28:57.360952",
   tickerScores: [
   {
     "ticker": "BTC",
@@ -22,14 +21,14 @@ const dashboardData = {
   },
   {
     "ticker": "GOOGL",
-    "total_score": 266.0,
-    "raw_mention_count": 18,
+    "total_score": 291.0,
+    "raw_mention_count": 23,
     "unique_sources": 2,
     "podcast_mentions": 3,
-    "newsletter_mentions": 15,
+    "newsletter_mentions": 20,
     "rank": 2,
-    "score": 266.0,
-    "mentions": 18,
+    "score": 291.0,
+    "mentions": 23,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
     "timeframe": "long_term",
@@ -37,14 +36,14 @@ const dashboardData = {
   },
   {
     "ticker": "MSFT",
-    "total_score": 222.0,
-    "raw_mention_count": 14,
+    "total_score": 242.0,
+    "raw_mention_count": 18,
     "unique_sources": 2,
     "podcast_mentions": 2,
-    "newsletter_mentions": 12,
+    "newsletter_mentions": 16,
     "rank": 3,
-    "score": 222.0,
-    "mentions": 14,
+    "score": 242.0,
+    "mentions": 18,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
     "timeframe": "long_term",
@@ -52,14 +51,14 @@ const dashboardData = {
   },
   {
     "ticker": "NVDA",
-    "total_score": 218.0,
-    "raw_mention_count": 9,
+    "total_score": 228.0,
+    "raw_mention_count": 11,
     "unique_sources": 2,
     "podcast_mentions": 3,
-    "newsletter_mentions": 6,
+    "newsletter_mentions": 8,
     "rank": 4,
-    "score": 218.0,
-    "mentions": 9,
+    "score": 228.0,
+    "mentions": 11,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
     "timeframe": "long_term",
@@ -156,30 +155,30 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "AMZN",
-    "total_score": 104.0,
-    "raw_mention_count": 2,
-    "unique_sources": 1,
-    "podcast_mentions": 2,
-    "newsletter_mentions": 0,
+    "ticker": "META",
+    "total_score": 107.0,
+    "raw_mention_count": 13,
+    "unique_sources": 2,
+    "podcast_mentions": 1,
+    "newsletter_mentions": 12,
     "rank": 11,
-    "score": 104.0,
-    "mentions": 2,
+    "score": 107.0,
+    "mentions": 13,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
     "timeframe": "long_term",
     "contexts": []
   },
   {
-    "ticker": "META",
-    "total_score": 92.0,
-    "raw_mention_count": 10,
-    "unique_sources": 2,
-    "podcast_mentions": 1,
-    "newsletter_mentions": 9,
+    "ticker": "AMZN",
+    "total_score": 104.0,
+    "raw_mention_count": 2,
+    "unique_sources": 1,
+    "podcast_mentions": 2,
+    "newsletter_mentions": 0,
     "rank": 12,
-    "score": 92.0,
-    "mentions": 10,
+    "score": 104.0,
+    "mentions": 2,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
     "timeframe": "long_term",
@@ -201,22 +200,22 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "IBM",
-    "total_score": 74.0,
-    "raw_mention_count": 1,
+    "ticker": "AAPL",
+    "total_score": 75.0,
+    "raw_mention_count": 12,
     "unique_sources": 1,
-    "podcast_mentions": 1,
-    "newsletter_mentions": 0,
+    "podcast_mentions": 0,
+    "newsletter_mentions": 12,
     "rank": 14,
-    "score": 74.0,
-    "mentions": 1,
+    "score": 75.0,
+    "mentions": 12,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
     "timeframe": "long_term",
     "contexts": []
   },
   {
-    "ticker": "SNWGF",
+    "ticker": "IBM",
     "total_score": 74.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -231,14 +230,14 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "ARBOMB",
-    "total_score": 72.0,
+    "ticker": "SNWGF",
+    "total_score": 74.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
     "rank": 16,
-    "score": 72.0,
+    "score": 74.0,
     "mentions": 1,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
@@ -246,7 +245,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "CROWD",
+    "ticker": "ARBOMB",
     "total_score": 72.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -261,7 +260,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "WORK",
+    "ticker": "CROWD",
     "total_score": 72.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -276,7 +275,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "ZEN",
+    "ticker": "WORK",
     "total_score": 72.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -291,14 +290,14 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "ARBOB GASOLINE",
-    "total_score": 70.0,
+    "ticker": "ZEN",
+    "total_score": 72.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
     "rank": 20,
-    "score": 70.0,
+    "score": 72.0,
     "mentions": 1,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
@@ -306,7 +305,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "EMAX",
+    "ticker": "ARBOB GASOLINE",
     "total_score": 70.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -321,7 +320,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "NOW",
+    "ticker": "EMAX",
     "total_score": 70.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -336,14 +335,14 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "CRM",
-    "total_score": 68.0,
+    "ticker": "NOW",
+    "total_score": 70.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
     "rank": 23,
-    "score": 68.0,
+    "score": 70.0,
     "mentions": 1,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
@@ -351,7 +350,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "MINE",
+    "ticker": "CRM",
     "total_score": 68.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -366,14 +365,14 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "ILMN",
-    "total_score": 66.0,
+    "ticker": "MINE",
+    "total_score": 68.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
     "rank": 25,
-    "score": 66.0,
+    "score": 68.0,
     "mentions": 1,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
@@ -381,7 +380,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "PLTR",
+    "ticker": "ILMN",
     "total_score": 66.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -396,14 +395,14 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "CRSP",
-    "total_score": 64.0,
+    "ticker": "PLTR",
+    "total_score": 66.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
     "rank": 27,
-    "score": 64.0,
+    "score": 66.0,
     "mentions": 1,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
@@ -411,7 +410,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "GOLD",
+    "ticker": "CRSP",
     "total_score": 64.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -426,7 +425,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "GOOG",
+    "ticker": "GOLD",
     "total_score": 64.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -441,7 +440,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "HOOD",
+    "ticker": "GOOG",
     "total_score": 64.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -456,7 +455,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "SF",
+    "ticker": "HOOD",
     "total_score": 64.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -471,7 +470,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "URANIUM",
+    "ticker": "SF",
     "total_score": 64.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -486,15 +485,15 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "AAPL",
-    "total_score": 60.0,
-    "raw_mention_count": 9,
+    "ticker": "URANIUM",
+    "total_score": 64.0,
+    "raw_mention_count": 1,
     "unique_sources": 1,
-    "podcast_mentions": 0,
-    "newsletter_mentions": 9,
+    "podcast_mentions": 1,
+    "newsletter_mentions": 0,
     "rank": 33,
-    "score": 60.0,
-    "mentions": 9,
+    "score": 64.0,
+    "mentions": 1,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
     "timeframe": "long_term",
@@ -2026,6 +2025,54 @@ const dashboardData = {
       "display_order": 0
     },
     {
+      "id": 14,
+      "term": "Strategic Oil Reserves",
+      "definition": "Emergency stocks of crude oil or petroleum products held by governments to safeguard against potential supply disruptions.",
+      "investment_implications": "Investors should monitor changes in strategic oil reserves as an indicator of geopolitical tensions and potential market impacts.",
+      "added_date": "2026-03-13",
+      "vote_count": 1,
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "display_order": 0
+    },
+    {
+      "id": 15,
+      "term": "Renewable Energy Transition",
+      "definition": "The shift from fossil fuel-based energy sources to renewable energy sources such as wind, solar, and hydroelectric power.",
+      "investment_implications": "Investors should consider the long-term growth potential of renewable energy companies and the technologies enabling the energy transition.",
+      "added_date": "2026-03-13",
+      "vote_count": 1,
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "display_order": 0
+    },
+    {
+      "id": 16,
+      "term": "Artificial General Intelligence (AGI)",
+      "definition": "A type of AI that possesses the ability to understand, learn, and apply knowledge across a broad range of tasks at a human level.",
+      "investment_implications": "Investors should consider the potential for AGI to revolutionize various sectors, including defense.",
+      "added_date": "2026-03-13",
+      "vote_count": 1,
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "display_order": 0
+    },
+    {
+      "id": 17,
+      "term": "Democratic Oversight",
+      "definition": "The process by which elected officials and government bodies supervise and regulate activities, particularly in matters of national security and defense.",
+      "investment_implications": "Investors should be aware of how democratic oversight can influence the adoption and deployment of new technologies in defense.",
+      "added_date": "2026-03-13",
+      "vote_count": 1,
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "display_order": 0
+    },
+    {
       "id": 6,
       "term": "Compute Deflation Trade",
       "definition": "The investment thesis built around the 400x AI compute cost collapse: identifying who wins (inference-at-scale platforms, edge AI hardware) and who loses (legacy SaaS companies whose moats were priced assuming expensive AI).",
@@ -2530,40 +2577,40 @@ const dashboardData = {
       "display_order": 0
     },
     {
-      "id": 1,
-      "term": "Dyson Swarm",
-      "definition": "A hypothetical megastructure consisting of a vast array of solar collectors (satellites) orbiting a star to capture its energy output. Unlike a solid Dyson Sphere, a swarm allows for gradual construction and doesn't require implausible engineering.",
-      "investment_implications": "As space-based solar power becomes economically viable, companies developing launch capabilities and orbital infrastructure could benefit.",
-      "added_date": "2026-01-16",
-      "vote_count": 15,
+      "id": 14,
+      "term": "Strategic Oil Reserves",
+      "definition": "Emergency stocks of crude oil or petroleum products held by governments to safeguard against potential supply disruptions.",
+      "investment_implications": "Investors should monitor changes in strategic oil reserves as an indicator of geopolitical tensions and potential market impacts.",
+      "added_date": "2026-03-13",
+      "vote_count": 1,
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
-      "display_order": 1
+      "display_order": 0
     },
     {
-      "id": 2,
-      "term": "Jevon's Paradox",
-      "definition": "An economic phenomenon where increased efficiency in using a resource leads to increased consumption of that resource rather than decreased consumption.",
-      "investment_implications": "As AI makes computation cheaper, total compute demand may explode\u2014benefiting chip makers, data centers, and power providers despite efficiency gains.",
-      "added_date": "2026-01-16",
-      "vote_count": 12,
+      "id": 15,
+      "term": "Renewable Energy Transition",
+      "definition": "The shift from fossil fuel-based energy sources to renewable energy sources such as wind, solar, and hydroelectric power.",
+      "investment_implications": "Investors should consider the long-term growth potential of renewable energy companies and the technologies enabling the energy transition.",
+      "added_date": "2026-03-13",
+      "vote_count": 1,
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
-      "display_order": 2
+      "display_order": 0
     },
     {
-      "id": 3,
-      "term": "Yen Carry Trade",
-      "definition": "A strategy where investors borrow in Japanese yen (low interest rates ~0.25%) and invest in higher-yielding assets (US Treasuries, tech stocks, emerging markets).",
-      "investment_implications": "When the Bank of Japan hikes rates or yen strengthens, unwinds trigger forced selling. Watch JPY/USD >150 as risk signal.",
-      "added_date": "2026-01-16",
-      "vote_count": 18,
+      "id": 16,
+      "term": "Artificial General Intelligence (AGI)",
+      "definition": "A type of AI that possesses the ability to understand, learn, and apply knowledge across a broad range of tasks at a human level.",
+      "investment_implications": "Investors should consider the potential for AGI to revolutionize various sectors, including defense.",
+      "added_date": "2026-03-13",
+      "vote_count": 1,
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
-      "display_order": 3
+      "display_order": 0
     }
   ],
   "overton": [
@@ -6705,227 +6752,7 @@ const dashboardData = {
     ]
   }
 },
-  suggestedTerms: [],
-  podcastGuests: [
-  {
-    "id": 112,
-    "name": "Harvard Professor Graham Allison",
-    "slug": "harvard-professor-graham-allison",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "The global semiconductor supply chain, with a focus on Taiwan's TSMC, presents both risks and opportunities in the context of U.S.-China relations and economic inequality.",
-    "last_episode_title": "All-In with Chamath, Jason, Sacks & Friedberg - Discussion with Graham Allison",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-03-09",
-    "appearance_count": 1
-  },
-  {
-    "id": 113,
-    "name": "Andrew Yang",
-    "slug": "andrew-yang",
-    "bio": "Andrew Yang is an entrepreneur and political leader who popularized universal basic income in U.S. politics through his 2020 presidential campaign.",
-    "known_for": "Advocating the 'Freedom Dividend' and automation-focused economic policy.",
-    "last_main_idea": "Invest in sectors and technologies that are driving the fourth industrial revolution, with a focus on AI, robotics, and automation, while also considering the social implications and potential for new economic models like UBI and UHI.",
-    "last_episode_title": "The Future of Work and Income with Andrew Yang",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-03-07",
-    "appearance_count": 1
-  },
-  {
-    "id": 114,
-    "name": "Ray Dalio",
-    "slug": "ray-dalio",
-    "bio": "Ray Dalio is the founder of Bridgewater Associates and a macro investor known for his 'Principles' framework and work on long-term debt cycles.",
-    "known_for": "Macro investing at Bridgewater and analysis of global debt cycles.",
-    "last_main_idea": "The current high debt levels and fiscal policies pose significant risks to the U.S. economy, requiring careful management of interest rates and a balanced approach to financial prudence and innovation.",
-    "last_episode_title": "The Great Debt Cycle and Economic Outlook",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-03-03",
-    "appearance_count": 1
-  },
-  {
-    "id": 115,
-    "name": "Ben Horowitz",
-    "slug": "ben-horowitz",
-    "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
-    "known_for": "Co-founding a16z and authoring 'The Hard Thing About Hard Things'.",
-    "last_main_idea": "The talent movements at xAI and the SSI valuation are the two most important signals from this episode. When top engineers leave a lab, it tells you something about the internal direction. When Ilya commands a $5B valuation on safety-first principles, it tells you the market believes safety-conscious AI development has commercial value. Apple's crisis is the clearest short thesis in consumer tech ",
-    "last_episode_title": "Ben Horowitz: xAI Executive Exodus, Ilya's $5B SSI Valuation, Apple's AI Crisis, The Pace of AI | #232",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-02-19",
-    "appearance_count": 1
-  },
-  {
-    "id": 116,
-    "name": "Milton Berg",
-    "slug": "milton-berg",
-    "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
-    "known_for": "Decades of macro/technical work identifying equity and commodity inflection points.",
-    "last_main_idea": "Milton Berg's investment thesis is based on identifying market turning points through rare occurrences and historical precedents, rather than traditional indicators, and adjusting positions accordingly.",
-    "last_episode_title": "Monetary Matters with Jack Farley: Analyzing Market Signals and Investment Strategies with Milton Berg",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-02-06",
-    "appearance_count": 1
-  },
-  {
-    "id": 117,
-    "name": "Bosworth",
-    "slug": "bosworth",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Investing in the evolution of consumer technology interfaces presents an opportunity to capitalize on the shift towards more immersive and adaptive AI-enabled experiences.",
-    "last_episode_title": "The Future of Consumer Technology and Interfaces",
-    "last_podcast_name": "a16z Live",
-    "last_episode_date": "2023-12-21",
-    "appearance_count": 1
-  },
-  {
-    "id": 118,
-    "name": "Brett Adcock",
-    "slug": "brett-adcock",
-    "bio": "Brett Adcock is a serial founder behind Vettery, Archer Aviation, and Figure, building in eVTOL, humanoid robotics, and frontier AI.",
-    "known_for": "Founding Figure AI and Archer Aviation in next-gen robotics and aviation.",
-    "last_main_idea": "Investment in neural network technology and autonomous robotics is poised for significant growth, with the potential to disrupt traditional manufacturing and create new market opportunities.",
-    "last_episode_title": "Humanoid Run on Neural Net, Autonomous Manufacturing, $50T Market #229",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2023-03-01",
-    "appearance_count": 1
-  }
-],
-  pundits: [
-  {
-    "id": 54,
-    "name": "Jim Bianco",
-    "slug": "jim-bianco",
-    "bio": "Founder of Bianco Research, a provider of institutional research.",
-    "known_for": "In-depth analysis of financial markets and macroeconomic trends.",
-    "last_seen": "2026-03-12 20:30:09",
-    "last_episode_title": "Macro Voices Episode 523: Geopolitical Situation in Iran, Oil Prices, Precious Metals, and Market Analysis",
-    "last_podcast_name": "Macro Voices",
-    "last_episode_date": "2026-03-12",
-    "last_main_idea": "The current geopolitical tensions, particularly in Iran, are creating significant market volatility, especially in oil prices, which presents both risks and opportunities for investors."
-  },
-  {
-    "id": 55,
-    "name": "Dr. Onus Alhajji",
-    "slug": "dr-onus-alhajji",
-    "bio": "Expert commentator on energy markets and geopolitical conflicts.",
-    "known_for": "Analysis of the impact of geopolitical events on oil markets.",
-    "last_seen": "2026-03-12 20:30:09",
-    "last_episode_title": "Macro Voices Episode 523: Geopolitical Situation in Iran, Oil Prices, Precious Metals, and Market Analysis",
-    "last_podcast_name": "Macro Voices",
-    "last_episode_date": "2026-03-12",
-    "last_main_idea": "The current geopolitical tensions, particularly in Iran, are creating significant market volatility, especially in oil prices, which presents both risks and opportunities for investors."
-  },
-  {
-    "id": 52,
-    "name": "Alex Carp",
-    "slug": "alex-carp",
-    "bio": "Co-founder and CEO of Palantir, a company that specializes in big data analytics.",
-    "known_for": "Building technology deployed on battlefields and analytics infrastructure embedded in the Department of Defense.",
-    "last_seen": "2026-03-12 20:29:53",
-    "last_episode_title": "The Intersection of Technology, Geopolitics, and National Defense",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-03-12",
-    "last_main_idea": "Investing in companies that leverage technology to enhance national defense and security could yield significant returns, especially if they align with the interests of the defense establishment."
-  },
-  {
-    "id": 48,
-    "name": "Graham Allison",
-    "slug": "graham-allison",
-    "bio": "Founding dean of the Harvard Kennedy School, advisor to U.S. Secretaries of Defense, and author of 'Destined For War'.",
-    "known_for": "Expertise on U.S.-China relations and nuclear security.",
-    "last_seen": "2026-03-12 19:39:13",
-    "last_episode_title": "All-In with Chamath, Jason, Sacks & Friedberg - Discussion with Graham Allison",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-03-09",
-    "last_main_idea": "The global semiconductor supply chain, with a focus on Taiwan's TSMC, presents both risks and opportunities in the context of U.S.-China relations and economic inequality."
-  },
-  {
-    "id": 47,
-    "name": "Michael Howell",
-    "slug": "michael-howell",
-    "bio": "Michael Howell is known for his work on global liquidity and his sub-stack Capital Wars.",
-    "known_for": "Expertise in global liquidity and its impact on financial markets",
-    "last_seen": "2026-03-12 19:39:05",
-    "last_episode_title": "Monetary Matters with Jack Farley: Global Liquidity and Asset Allocation",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-03-09",
-    "last_main_idea": "As the global liquidity cycle peaks, investors should consider rotating their asset allocation towards more defensive areas and higher yielding assets like private credit."
-  },
-  {
-    "id": 45,
-    "name": "Alex Finn",
-    "slug": "alex-finn",
-    "bio": "Alex Finn is an AI enthusiast and expert who has been following the development of AI for a long time.",
-    "known_for": "His expertise and hands-on experience with AI, particularly with OpenClaw.",
-    "last_seen": "2026-03-12 19:38:58",
-    "last_episode_title": "The Future of Personal AI Agents with OpenClaw",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-03-09",
-    "last_main_idea": "Investment in AI technology, particularly in personal AI agents like OpenClaw, could offer substantial returns as the technology matures and becomes more integrated into daily life."
-  },
-  {
-    "id": 43,
-    "name": "Olivia Moore",
-    "slug": "olivia-moore",
-    "bio": "Partner at a16z",
-    "known_for": "Expertise in AI and its applications within the tech industry",
-    "last_seen": "2026-03-12 19:38:51",
-    "last_episode_title": "The a16z Show: AI Adoption, Creative Tools, and the Future of Generative AI",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-03-10",
-    "last_main_idea": "Investment in AI platforms is driven by their ability to capture user data, create personalized experiences, and expand globally, with a focus on platforms that can leverage AI to create compounding advantages."
-  },
-  {
-    "id": 40,
-    "name": "Garrett Langley",
-    "slug": "garrett-langley",
-    "bio": "Founder of Flock Safety, an electrical engineer turned entrepreneur.",
-    "known_for": "Developing a neighborhood safety system that evolved into a nationwide real-time crime prevention platform.",
-    "last_seen": "2026-03-12 19:38:37",
-    "last_episode_title": "Real-time Crime Prevention and the Future of Policing",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-03-11",
-    "last_main_idea": "Investing in technology that enhances real-time crime prevention and clearance rates can lead to more effective law enforcement and safer communities."
-  },
-  {
-    "id": 38,
-    "name": "Joseph Stiglitz",
-    "slug": "joseph-stiglitz",
-    "bio": "Nobel Laureate Economist and Professor at Columbia University",
-    "known_for": "Author of 'Road to Freedom, Economics, and the Good Society'",
-    "last_seen": "2026-03-12 19:38:30",
-    "last_episode_title": "Monetary Matters: Economic Consequences of War and AI's Impact",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-03-11",
-    "last_main_idea": "The current geopolitical tensions and the rise of AI technology present both risks and opportunities, with the potential for economic disruption and the need for strategic investment in sectors less affected by AI."
-  },
-  {
-    "id": 33,
-    "name": "Paul Ackens",
-    "slug": "paul-ackens",
-    "bio": "SEC chair with a history in corporation finance work.",
-    "known_for": "Shaping capital markets and regulatory oversight.",
-    "last_seen": "2026-03-12 19:38:22",
-    "last_episode_title": "Capital Markets Evolution and the Future of IPOs",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-03-11",
-    "last_main_idea": "The shift towards private markets and the potential for changing reporting cadence could redefine the landscape for early-stage investment opportunities and public market participation."
-  },
-  {
-    "id": 34,
-    "name": "Michael Cilig",
-    "slug": "michael-cilig",
-    "bio": "CFTC chair with expertise in commodities and financial markets.",
-    "known_for": "Regulatory oversight in commodities and financial markets.",
-    "last_seen": "2026-03-12 19:38:22",
-    "last_episode_title": "Capital Markets Evolution and the Future of IPOs",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-03-11",
-    "last_main_idea": "The shift towards private markets and the potential for changing reporting cadence could redefine the landscape for early-stage investment opportunities and public market participation."
-  }
-]
+  suggestedTerms: []
 };
 
 // Export for use in other scripts

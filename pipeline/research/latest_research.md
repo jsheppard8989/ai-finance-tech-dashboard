@@ -1,27 +1,27 @@
 # Investment Research Report
 
-Generated: 2026-03-12T15:30:12.754303
+Generated: 2026-03-13T13:27:51.514917
 
-Sources analyzed: 56
+Sources analyzed: 52
 
 ## Detected Themes
 
 - **ai_disruption**: 6 mentions
 - **supply_bottleneck**: 22 mentions
-- **demand_surge**: 8 mentions
+- **demand_surge**: 7 mentions
 - **regulatory_risk**: 22 mentions
 
 ## Industry Analysis
 
 ### Power
-- Mentions: 47
-- Disruption signals: 26
-- Latest: =?UTF-8?B?8J+agA==?= SpaceX, xAI form $1.25T super-entity
+- Mentions: 46
+- Disruption signals: 28
+- Latest: Podcast: DVVTS4101423217
 
 ### Software
-- Mentions: 34
-- Disruption signals: 23
-- Latest: =?utf-8?Q?Fw:_Figure=E2=80=99s_General_Purpose_Robot:_Why_2026_Changes_Everythin
+- Mentions: 35
+- Disruption signals: 24
+- Latest: Podcast: DVVTS4101423217
 
 ### Memory
 - Mentions: 19
@@ -29,51 +29,51 @@ Sources analyzed: 56
 - Latest: Podcast: DVVTS4101423217
 
 ### Data Centers
-- Mentions: 17
+- Mentions: 14
 - Disruption signals: 11
-- Latest: =?UTF-8?B?8J+agA==?= SpaceX, xAI form $1.25T super-entity
+- Latest: Podcast: DVVTS4101423217
 
 ## Explicit Ticker Mentions
 
-### INTC (37 mentions)
-- Sources: DVVTS4101423217, the_a16z_show_20260303_a279dc13_f308_4f57_aaa6_9fa, the_a16z_show_20260304_a3513b51_9365_489a_8ddb_1b8
-- Context: =?UTF-8?B?8J+agA==?= xAI's next phase unleashed
-
-### AAPL (34 mentions)
-- Sources: the_a16z_show_20260303_a279dc13_f308_4f57_aaa6_9fa, the_a16z_show_20260304_a3513b51_9365_489a_8ddb_1b8, ALLIN-GrahamAllison_Ch
-- Context: =?UTF-8?B?8J+Urg==?= Sam Altman's OpenAI succession plan
-
-### GOOGL (32 mentions)
-- Sources: DVVTS4101423217, the_a16z_show_20260303_a279dc13_f308_4f57_aaa6_9fa, https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstag
-- Context: =?UTF-8?B?8J+agA==?= SpaceX, xAI form $1.25T super-entity
-
-### META (32 mentions)
-- Sources: DVVTS4101423217, https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstag, cecdbe38125e2786cbfebe31dd083d4f
-- Context: Fw: The Agentic Inversion: What Moltbook and Axie Infinity Reveal About the Futu
-
-### AMZN (16 mentions)
-- Sources: DVVTS4101423217, DVVTS5786783285, DVVTS6368073885
+### INTC (38 mentions)
+- Sources: the_a16z_show_20260311_ae881697_54e2_4449_921c_295, ALLIN-E263_Ch, DVVTS5109779823
 - Context: Podcast: DVVTS4101423217
 
-### MSFT (15 mentions)
-- Sources: DVVTS4101423217, DVVTS6368073885, EWWMN7956955796
-- Context: =?UTF-8?B?8J+noA==?= Google's upgrade breaks reasoning barriers
+### AAPL (35 mentions)
+- Sources: the_a16z_show_20260311_ae881697_54e2_4449_921c_295, ALLIN-E263_Ch, ALLIN-INTV_SEC_CFTC_Ch
+- Context: Podcast: the_a16z_show_20260303_a279dc13_f308_4f57_aaa6_9fad2fbd
+
+### META (30 mentions)
+- Sources: DVVTS5109779823, EWWMN2965097612, DVVTS3937248093
+- Context: Podcast: DVVTS4101423217
+
+### GOOGL (29 mentions)
+- Sources: ALLIN-E263_Ch, 94a1857634f9ebd3857e20d95893ec75, ALLIN-E262_Ch
+- Context: Podcast: DVVTS4101423217
+
+### AMZN (17 mentions)
+- Sources: DVVTS6368073885, the_a16z_show_20260311_ae881697_54e2_4449_921c_295, ALLIN-E263_Ch
+- Context: Podcast: DVVTS4101423217
 
 ### TSLA (15 mentions)
-- Sources: DVVTS4101423217, DVVTS5786783285, the_a16z_show_20260303_a279dc13_f308_4f57_aaa6_9fa
+- Sources: DVVTS6368073885, EWWMN2965097612, the_a16z_show_20260311_ae881697_54e2_4449_921c_295
+- Context: Podcast: DVVTS4101423217
+
+### MSFT (13 mentions)
+- Sources: DVVTS6368073885, ALLIN-E263_Ch, ALLIN-INTV_SEC_CFTC_Ch
 - Context: Podcast: DVVTS4101423217
 
 ### CSCO (10 mentions)
-- Sources: DVVTS5786783285, ALLIN-E263_Ch, EWWMN8981476019
+- Sources: the_a16z_show_20260311_ae881697_54e2_4449_921c_295, ALLIN-E263_Ch, DVVTS3937248093
 - Context: Podcast: EWWMN8981476019
 
 ### KLAC (7 mentions)
-- Sources: DVVTS6368073885, cecdbe38125e2786cbfebe31dd083d4f, EWWMN3482909708
+- Sources: DVVTS6368073885, the_a16z_show_20260311_ae881697_54e2_4449_921c_295, the_a16z_show_20260305_3aa76b43_5b12_4795_b892_1da
 - Context: Podcast: EWWMN3482909708
 
 ### NVDA (6 mentions)
-- Sources: DVVTS4101423217, EWWMN7956955796, ALLIN-E263_Ch
-- Context: =?UTF-8?B?8J+noA==?= Google's upgrade breaks reasoning barriers
+- Sources: ALLIN-E263_Ch, DVVTS8518765097, 94a1857634f9ebd3857e20d95893ec75
+- Context: Podcast: DVVTS4101423217
 
 ## Hidden Plays (Supply Chain & Second-Order Effects)
 
@@ -82,50 +82,50 @@ Sources analyzed: 56
 ### NEE
 - Category: ai_power_demand
 - Bottleneck: power
-- Source: Fw: The Agentic Inversion: What Moltbook and Axie Infinity Reveal About the Futu
+- Source: Podcast: DVVTS4101423217
 
 ### D
 - Category: ai_power_demand
 - Bottleneck: power
-- Source: Fw: The Agentic Inversion: What Moltbook and Axie Infinity Reveal About the Futu
+- Source: Podcast: DVVTS4101423217
 
 ### SO
 - Category: ai_power_demand
 - Bottleneck: power
-- Source: Fw: The Agentic Inversion: What Moltbook and Axie Infinity Reveal About the Futu
+- Source: Podcast: DVVTS4101423217
 
 ### AEP
 - Category: ai_power_demand
 - Bottleneck: power
-- Source: Fw: The Agentic Inversion: What Moltbook and Axie Infinity Reveal About the Futu
+- Source: Podcast: DVVTS4101423217
 
 ### CEG
 - Category: ai_power_demand
 - Bottleneck: power
-- Source: Fw: The Agentic Inversion: What Moltbook and Axie Infinity Reveal About the Futu
+- Source: Podcast: DVVTS4101423217
 
 ### SMR
 - Category: ai_power_demand
 - Bottleneck: power
-- Source: Fw: The Agentic Inversion: What Moltbook and Axie Infinity Reveal About the Futu
+- Source: Podcast: DVVTS4101423217
 
 ### OKLO
 - Category: ai_power_demand
 - Bottleneck: power
-- Source: Fw: The Agentic Inversion: What Moltbook and Axie Infinity Reveal About the Futu
+- Source: Podcast: DVVTS4101423217
 
 ### BWXT
 - Category: ai_power_demand
 - Bottleneck: power
-- Source: Fw: The Agentic Inversion: What Moltbook and Axie Infinity Reveal About the Futu
+- Source: Podcast: DVVTS4101423217
 
 ### CCJ
 - Category: ai_power_demand
 - Bottleneck: power
-- Source: Fw: The Agentic Inversion: What Moltbook and Axie Infinity Reveal About the Futu
+- Source: Podcast: DVVTS4101423217
 
 ### URA
 - Category: ai_power_demand
 - Bottleneck: power
-- Source: Fw: The Agentic Inversion: What Moltbook and Axie Infinity Reveal About the Futu
+- Source: Podcast: DVVTS4101423217
 

@@ -1,0 +1,602 @@
+We're faced with the biggest military build-up in history.
+We're trending toward an artificial general intelligence, a substrate, a layer, something that'll touch everything.
+But we're way behind an AI at the department.
+You are a CTO for the Department of War.
+How do you take stock of where those priorities are?
+When I took the role, we had 14 critical priority areas.
+We've got them down to six.
+And there were the places where I thought we had the greatest opportunity for change
+and for growth and impact.
+There has been an incredibly public discussion about commercial AI models being used in the Pentagon.
+What has changed in this latest discussion?
+I had a holy cow moment.
+Because there were things as well beyond what you've been hearing in the press in the last couple weeks.
+When a meal Michael was confirmed as under Secretary of Defense for Research and Engineering,
+he took inventory.
+What he found was a department with 14 critical technology priorities.
+Most unchanged for nearly a decade.
+Written in a language so vague, no one could act on them.
+He cut the list to six.
+Applied AI went to the top.
+Within 90 days, 1.2 million of the departments 3 million personnel had used some form of AI.
+When he started, that number was 80,000.
+The more urgent problem was what he found inside existing contracts.
+AI models baked into the most sensitive commands in the US military.
+Under terms that could shut the software off, mid operation.
+A company's internal values document he argues cannot be the governing authority
+for American command and control.
+This conversation with a meal Michael, under Secretary of Defense for Research and Engineering,
+and acting director of the Defense Innovation Unit,
+was recorded at the A16Z American Dynamism Summit in Washington, D.C.
+All right.
+Thank you for being with us.
+I know every week is very dizzy for you.
+But it feels like this past week is probably been the most publicly busy for you.
+Thanks for joining us.
+My pleasure.
+Good to be here.
+Look, we're going to talk about anthropic AI and defense.
+But I think we want to talk first a little bit about you.
+How you got into this seat.
+This is not your first tour of duty and government.
+You have decided to be a public servant before and for a long time.
+And for half this room that comes from the technology side,
+they know you as an incredibly accomplished Silicon Valley executive.
+Highly sought after very successful.
+Let's start with what pulled you into public service.
+How did it start?
+Why do it?
+And why take on this role now?
+You know, after my first company tell me that works.
+So we had this speech recognition software.
+We sold the Microsoft and 07.
+I kind of needed a break from text.
+I applied to this White House Fellowship program, which was super cool.
+Colin Powell had done it.
+Chairman of Joint Chiefs of Staff.
+General Kane had done it.
+It was just a cool program.
+It was a year nonpartisan program.
+And I got selected, which was awesome.
+And I got assigned to Robert Gates, who was the secretary defensive at the time.
+So I got to spend time in Afghanistan and Iraq.
+Pakistan.
+I got a passion for that role.
+And it was so new to me.
+And I said, some day I'll come back when I'm ready to really go.
+And then President Trump got elected.
+And I was like, wow, this is a moment where you have a disruptor at the top.
+He chose secretary of excess.
+And that meant all the problems I'd seen.
+There would be a clearer way to solve them.
+And you could see by the pace we're moving at the executive orders, critical minerals,
+new tech, new entrance, the pace is incredible relative to what it was before.
+So I'm excited to be there.
+Awesome.
+Well, one of you talked to us a little bit about that.
+You have been outspoken that the Department of War cannot operate at peacetime speed.
+This is kind of like how we tell founders.
+Yeah, wartime CEO or peacetime CEO.
+What does peacetime speed mean?
+What does the problem with it?
+And what does winning look like?
+What is moving with urgency look like?
+peacetime speed started after the Cold War was over at the Department of War.
+And I guess there's some famous event called the Last Supper where the leaders at the
+Pentagon said to industry, hey, there's not going to be a lot more buying of weapon systems or
+innovation.
+So y'all should consolidate and slow down your growth basically and become dividend payers
+and stocked by backers.
+And that lasted for a long time.
+And then the industry consolidated down to four or five crimes.
+So then we're faced with the biggest military buildup in history in China starting
+in the mid 2000s, 2010.
+And we didn't catch up.
+So all of a sudden, we've outsourced a lot of our key domestic production on many different
+areas, whether it's critical minerals, batteries, a lot of the supply chain stuff.
+And then you look up and you're like, hold the count.
+We've got a lot of catching up to do.
+So wartime speed is ensuring that redomesticating the critical things we need for national
+strength.
+And we are moving on on that.
+Like, with the capabilities we've ever lead in so many areas, we have to make sure that
+we're self-reliant in key areas.
+And so we're running as hard as we can on that.
+It was amazing to me.
+We work with a company called Skydio.
+And they were sanctioned by China.
+And we usually hear stories about how companies are sanctioned by the United States from doing
+business here.
+But actually, if you're a company that's an important company and you get sanctioned by
+China, and you can no longer buy motors or batteries, or other really key things.
+primarily come from China, it stinks.
+And if those products make it into the defense procurement cycle,
+and we can't get them anymore, it's a huge problem.
+So we've learned in our practice that it's not just
+the defense industrial base, but also all those precursors.
+So talk to us a little bit about, as you stepped into the role,
+you are CTO for the Department of War.
+How do you prioritize?
+How do you take stock of where those priorities are?
+How do you figure out?
+I mean, if you read the news, it feels like there's an endless list
+of things that we need to catch up on.
+When I took the role in May, it was sworn in.
+But did the inventory, like any new leader, would do?
+And we had 14 critical priority areas in this role.
+And my predecessors had 10, and then someone added four.
+So they were 14, and they hadn't changed in the early decade.
+So I get to look at them and say, OK, well, why are these critical?
+And by the way, who could remember 14 things?
+We need to try to motivate it, work force.
+And what is an integrated network systems of systems?
+They were sort of technobabble.
+So I said, well, let's study and say, what's really important.
+And we got them down to six.
+And there were the places where I thought we had the greatest opportunity
+for change and for growth and impact on our combat power
+and for our industrial base.
+And that was just starting point.
+I know, apply day high was number one.
+So then we moved the chief digital and AI office into my group.
+And we were able to run extremely fast with that,
+because we're way behind an AI at the department.
+And we know it's penetrating the rest of the world so dramatically,
+so quickly, and our adversaries were also
+using it for lots of different purposes,
+because they have less trust than their command to control.
+So they want to use computers to sort of eliminate human
+decision-making.
+We want to enhance human decision-making.
+So that's been a priority.
+And we've kind of, in 90 days, I think we've had 1.2 million
+of the 3 million people at the department.
+Use some form of AI when that was correct.
+That number was 80,000 before I started.
+Incredible.
+Now, let's talk a little bit more about why it's important
+to have advanced AI capabilities.
+Maybe some people would say, well, we've been really good at being
+a world power without all this AI capability.
+Why is it important?
+Can't we just focus on making missiles and stuff?
+Well, I can help make missiles if you'd
+help you solve physics problems, material science problems,
+aerodynamics problems, or opportunities.
+But we split up the AI sort of efforts in the three areas,
+like enterprise corporate use cases,
+like any big organization would do for efficiency purposes.
+And that's just normal goodness.
+Everyone's happier when you could do mundane tasks faster.
+And then intelligence purposes, which is we collect
+an enormous amount of intelligence.
+We have huge repositories of data at the department
+that's sitting there siloed on use.
+Imagine decades of satellite imagery
+that you could use to train a model and get insights
+and then use that to do anomalies, detections.
+You could find out what's happening.
+So you take a human analyst and you increase
+their throughput by 1,000.
+And then for warfighting, warfighting,
+they talk about as big part of it as logistics.
+How do you plan logistics and find assets
+and do war gaming and plan operations?
+And do simulations and so on.
+So there's a lot of really important use cases
+that we could benefit from.
+Yeah, I think we are the beneficiaries of startups
+that pitch us their ideas all the time.
+And because it's American Dynamism,
+we hear about companies that say, look,
+we're going to say 15% of the Pentagon's fuel budget
+through logistics by using AI.
+We're going to figure out how do you move the troops
+and the equipment and the vehicles
+in the most efficient way in a contestant environment.
+These are all amazing, amazing and credible use cases.
+So look, in the last week,
+there has been an incredibly public discussion
+about commercial AI models being used in the Pentagon,
+including anthropic, the use inside the department.
+What, you know, in the old software days
+and I'm going to really be in the old software days
+before even SaaS, people would just buy software
+and then the customer would use it, however they want.
+What has changed in this latest discussion?
+What has come up?
+What are the issues?
+I assume most people in this room have been following along.
+So I think it's safe to assume
+there's a baseline understanding,
+but what have become the key issues?
+Why did they come up now?
+Well, they came up now because as I started to look
+at the contracts I had been written
+during the last administration for the use of AI,
+I had a whole, holy cow moment
+because there were things that were not well beyond
+what you've been hearing in the press
+in the last couple of weeks.
+Things like you couldn't move a satellite.
+You couldn't plan, you know, an operation,
+you couldn't plan it, not use AI to execute it.
+Right.
+If we potentially lead to a kinetic strike or something,
+dozens of restrictions and yet this these AI sort of models
+were baked into some of the most sensitive
+and important places in the US military
+where we do exercise combat power.
+Central Command now that's sort of air of responsibilities
+Iran or in, you know, Indo-Pay Commons,
+their responsibilities, China or Southcom,
+which is the Venezuelan South America,
+we're all using this model and there was no two vendors.
+It was a vendor lock situation with terms
+that in theory if the model was designed to turn off
+when you violated the terms could just stop
+in the middle of the operation and put lives at risk.
+So that was the one moment I was like,
+okay, we have to fix this and clean this up
+while we're deploying this into the department.
+So that raised all these issues and then second,
+after the Maduro raid, one of the primary vendor for this,
+had raised the question, senior exec about whether their software
+was used during the Maduro raid,
+which is one of the successful military operations
+of our lifetime one, incredibly an incredible operation.
+And that sort of sort of sort of, yeah.
+It's going to die a few months for the enemies of America.
+It has been, and I got to meet the guys who did that,
+the lead helicopter guy who got the Melavana,
+it was truly outstanding American.
+I mean, he was shot and kept his cool,
+didn't tell anyone a shot so that the first landing team
+could land and it didn't freak it out
+and he could have blown whole operations
+at the courage was incredible.
+And when a company says to you,
+hey, was our software used there
+because we're not sure we'd like that?
+Chill goes up your spine.
+It's like you're at a coffee shop and some strangers like,
+hey, so you're a kid at school,
+guest ready playing Cape ball, and you're like,
+who are you, you know what?
+So that set off a series of events of, whoa,
+are we single threaded on a vendor
+who's concerned about how we're using the software
+after the most successful military raid?
+And in terms of service,
+do not comport with the future world.
+We've got to get other partners in here
+and we've got to move.
+And if you think about AI as is,
+like what we're trending toward AJA,
+artificial general intelligence, a substrate, a layer,
+something that'll touch everything,
+like the internet touch, everything,
+or the telecommunications that work, touch everything.
+Then to tell the users of that substrate of technology,
+you can't use it for legal things.
+Things that come through the democratic system
+was passed by Congress, executed by executive branch.
+In the military, which is the most sensitive part
+of the US government, because our job is to be
+the strength department to protect Americans,
+you do have a moment of truth there, like we've had,
+which is this technology, if we're using it lawfully,
+the substrate has to be our choice.
+It can't the software, the soul,
+someone's soul of their model,
+their constitution, which is not the US constitution,
+can't be dictating our command to control environment
+and telling generals and workfighters what to do and not do.
+That's right, so, first of all,
+I think you just shared a bunch of backstory and information
+that has not been readily found,
+I think by reading the news and following along,
+although probably a lot of people in this room
+could have guessed, but it's nice to hear
+that part of the impetus for this and the catalyst
+for this discussion was originally about making sure
+that you have ways to use this capability
+that fit in with our democratic norms.
+And you mentioned that we have a constitution
+and they have a constitution.
+It's kind of crazy that a company even has a constitution.
+There's not a lot of companies, I think,
+that have their own corporate values, yes, constitution.
+Right, no.
+Corporate culture, corporate values, for sure.
+I don't know how many have a term that they say,
+this is our constitution, especially when there's often
+a revolving door of executives at companies,
+like who knows what they'll think tomorrow.
+So talk a little bit about the role of democratic oversight,
+elected leadership that sort of guides the process
+that we have in this country for deploying AI capabilities,
+for national security, for defense.
+Yes, so when it comes to American civil liberties,
+there's a very robust debate historically,
+especially after 9-11 and foreign intelligence,
+surveillance act, the National Security Act 1947,
+all these acts where the government has tried to balance
+civil liberties and the good news has been robust
+to debate on it.
+And maybe those laws and rules have been updated,
+maybe they should be.
+But if we don't trust that process
+and we're like, well, the laws are behind the attack.
+So I'm going to make a decision
+that impacts 3 million people in the part of it,
+and then through 150 million people in the country.
+You don't get to do that, right?
+If you believe in the system,
+if you don't believe in the system,
+as imperfect as it is, then what do you believe in, right?
+Then you're taken upon yourself to kind of be God.
+And that's not something that I want,
+even though I'm a small government,
+free market person, you still have to have,
+the government has to have a monopoly on violence
+to protect its country, America is just as an idea,
+but it's also a nation.
+And it can only protect the people
+if we have the best tools and use them lawfully
+and Congress is responsible for dictating that law
+and we're responsible for writing regulations on that law.
+And we've got 40-page internal directives
+that have been there for years, about autonomous weaponry
+and we're looking at Ukraine and Russia
+and seeing what's happening there.
+And then we're looking at the Chinese stealing
+American models, taking the guard rails off
+and potentially using those against us.
+So am I going to have my arm tied behind my back
+against the same model that has been stolen
+by the adversary, you get into or well-earned situations
+where it's hard to have anyone make sense of it
+and sort of be on the other side of that question.
+Yeah, absolutely.
+And I think the point about our adversaries
+is well-made, they are not having this debate.
+They are a full steam ahead.
+How do we, was there anything more you want to share
+about where we are today in the AI?
+Well, where are we today in the AI debate discussion?
+And like is this put to bed or are we,
+is there a long road ahead?
+I think there's still work to do.
+And essentially you have four companies
+that you could call frontier companies.
+And then you have this sort of major league baseball roster
+of researchers, like 1,000, who they're trading amongst themselves
+who, if you ask the leaders of these companies,
+are so incredibly valuable that it's a very strange dynamic
+for companies, 1,000 sort of researchers
+who everyone feels are vital.
+And how do we work with that dynamic
+where we have enough companies engaged with us?
+So I'm not never single threaded again,
+which is a terrible gift that the last administration handed us.
+So we have multiple avenues who are international security
+who are patriotic.
+Very much like the 2018 Maven, where Google
+didn't want to bid on the contract.
+Now Google is a great partner.
+And so I hope some of the newer companies
+would learn from what Google did, which
+is didn't want to serve the government
+because that employee model issues,
+but now there's one of the government's best partners.
+We see the Google Project Maven moment in 2018, in many ways,
+has a galvanizing moment to actually wake up
+a lot of founders and builders and say, hey, wait a minute,
+I actually do want the government
+to have the best technology and best capabilities.
+I do want to build.
+I mean, that I would say if you fast forward,
+that gave rise to the American Dynamism Movement.
+We provided a landing zone for a lot of those founders
+and said, wait, I don't agree with the protesters at Google.
+I want first responders and the men and women
+who defend our country to have the best technology
+and capabilities.
+And I always, whenever someone asked me these questions,
+I always remind them, look, like Project Maven was used
+to make sure that we didn't leave anyone behind in Afghanistan.
+That's literally the technology that was used
+in this public.
+And like, do you want to leave someone behind?
+Like, what's the alternative?
+And so I think that this will also be a galvanizing moment.
+I certainly hope it will be for a whole
+another set of founders that are excited to support
+their country and the people that serve the government.
+Let's talk about the Department of War,
+structurally inside, things that need to change.
+In order to make sure that you have the best capabilities,
+best technology, and you get them out in the field,
+we saw on the news.
+I won't ask you about it directly because you probably
+can't even answer.
+But we saw photos on the news of what it looks like new technology,
+new capabilities.
+But what is changing culturally and structurally inside
+the Department of War?
+Obviously, it starts with bringing
+in people to understand technology like you.
+But what is changing to actually enable the Department of War
+to modernize?
+Well, Secretary Higgs has says we're on an unstoppable battle
+against the bureaucracy.
+That's not the people.
+It's the bureaucracy that's built up over decades.
+That prevents new companies with new technologies
+from getting their concept or their product deployed
+in the Department.
+So what I'm trying to do with the various tools I have
+is trying to create normal contracting processes,
+normal requirements for requirements.
+So for example, we used to do things like,
+here's the thousand requirements in our RFP,
+a vendor would sort of fill it out and say, yes, SSSS.
+Even if it was physically impossible, the physics didn't work.
+Right.
+Then we put them on a cost-plus contract.
+And they're like, oh, that didn't work out and change order.
+Change order at least for another three years of development,
+another couple billion dollars.
+So we're trying to move it to simple requirements.
+I need a missile that goes this far in this environment
+with this payload.
+It's actually a you industry come and meet with your ideas
+and how to do it.
+And then you can, well, pay for it.
+Yeah.
+And we'll buy it and firm fixed price.
+If you make a better margin because you're able to economize
+this is sort of the Elon model.
+Why he was so successful, it's basic.
+Well, then everyone wins, right?
+There'll be, and the venture community
+is very comfortable with that model, right?
+Your bet on winners, some are not odd ones going to win.
+But cost-plus, endless, endless development
+cycles, doesn't work.
+And so we need faster development cycles,
+risk-faring within industry, clear to man's sake,
+those simple way city business.
+And that those are the kind of bureaucracies
+that like every day I'm moving the debris out
+to try to make it happen.
+Let's give you like regular touring those,
+probably that's good.
+So we, that that to me is one of the most important things
+that's changed and it actually gets the founders
+fired up to build.
+What is it that the companies can do better to work
+with the government, to work with you?
+You've done this arsenal of freedom tour.
+You've visited a bunch of startups.
+But what is it that you need?
+Now that the government is saying we're ready to do business,
+we're going to make it easier to do business.
+We want the best capabilities.
+What do you need from the companies and the startups?
+So we need companies to, this is just the one thing
+the primes have an advantage on is not the inventiveness.
+It's the production and manufacturing ability
+to scale what they do with what they've initially built.
+And I think the opportunity for startups
+is to take the great technologies and concepts,
+build up their muscle on how do you build a factory
+and produce these things that scale
+and do the quality testing and all that thing.
+All that kind of stuff.
+And said, you do have to borrow from the old world
+to do that effectively so you're not just reinventing the whole thing.
+And I think that's the next stage.
+And you're going to see companies start to cross that
+chasm here in the next one to two years,
+where they've demonstrated or they've foot-faulted,
+but then they've hired the right people
+and they've figured it out.
+And then that hopefully encourages a lot of other companies
+like this can be done.
+And then venture capital dollars will continue to coalesce
+around this marketplace, which I would desperately want.
+So I think that's the thing that consider.
+And there are the other thing,
+if I'm on your side, if I'm on the new entrance side,
+you could always find someone in the department
+of 3 million people say, man, this is great.
+I love you, man.
+I love your lecture product, but money talks.
+So are they buying it?
+Are they testing it?
+Are they doing those?
+Are they actually pushing you through?
+The process, because that's the best signal
+of you are you actually successful,
+because the culture there again is to never say no.
+And I've tried to move it to faster, yes, as faster nose,
+so that if you're a startup,
+and I felt this pain as a startup guy,
+when you don't really know if you're getting a deal out,
+rather be told, no, so that you can either move on
+to the next partner, read it to us.
+My product strategy, do something,
+and that's what we're trying to move the culture to
+and what I tell the young founders out there.
+Awesome, we're very appreciative of those efforts,
+and to give them the taxpayer.
+Last question is, we wrap up here, you know,
+you have a good life, you're very successful.
+This is not a nine to five job, I assume,
+you have a family, takes you away from your family.
+What would you say to people that are in the startup
+and tech side of the world,
+who are thinking about spending time
+working with the government, supporting the government,
+and look at you as an inspiration
+and somebody who's shoes, they would like to follow
+and steps they would like to follow.
+Well, I think, you know, everyone can,
+the most patriots figure out a way to get back
+and there's lots of ways to get back.
+This was my way, which is, you know, I'm an immigrant.
+My first language was Arabic, I moved this country,
+I get to the Silicon Valley, I've seen some
+and been able to participate and build some of those
+interesting companies around, and it was right time
+my life to say, like, okay, well, this is the way I'm
+going to serve my country.
+I want to say, I have my kids see it,
+so that they can see that this, you know,
+our system doesn't come for free.
+People, they have to have builders,
+people who care, people who sacrifice to do it.
+Not to mention all the board fighters who sign up
+for the jobs that they sign up this is the way I could sign up
+and, you know, put making sure that they feel that
+for me that's incredibly motivating
+and ever hope everyone else who's in the startup
+will find their own moment to do that
+if not in business, but after,
+and the right point in your career and all that,
+because we deem more people to do that,
+because we use to have government services
+and honored profession that Manhattan Project,
+a best scientist.
+Now, industry has a lot of opportunities
+to really exercise your brain and your, you know,
+in those ways, but we can't forget that we need patriots
+to kind of come and do these kinds of things
+every now and again.
+Well, thank you.
+We are so appreciative of the work you're doing,
+and thank you for being with us today.
+We know you are extraordinarily busy.
+Thank you.
+Thanks for listening to this episode of the A16Z podcast.
+If you liked this episode,
+be sure to like, comment, subscribe,
+leave us a rating word of view,
+and share it with your friends and family.
+For more episodes, go to YouTube, Apple Podcast and Spotify.
+Follow us on X, A16Z, and subscribe to our Substack
+at A16Z.substack.com.
+Thanks again for listening, and I'll see you in the next episode.
+As a reminder, the content here is for informational purposes only.
+Should not be taken as legal business, tax,
+or investment advice, or be used to evaluate any investment
+or security, and is not directed at any investors
+or potential investors in any A16Z fund?
+Please note that A16Z and its affiliates
+may also maintain investments in the company's discussed
+in this podcast.
+For more details, including a link to our investments,
+please see A16Z.com forward slash disclosures.
+Thanks for watching, and I'll see you in the next episode.
