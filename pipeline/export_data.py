@@ -80,10 +80,13 @@ def generate_website_js():
     podcast_guests_json = json.dumps(podcast_guests, indent=2)
     pundits_json = json.dumps(pundits, indent=2)
 
+    schema_version = 2
+
     js_content = f"""// Auto-generated data file
 // DO NOT EDIT MANUALLY
 
 const dashboardData = {{
+  schemaVersion: {schema_version},
   generatedAt: "{datetime.now().isoformat()}",
   chartsVersion: {json.dumps(charts_version) if 'charts_version' in locals() else 'null'},
   tickerScores: {ticker_json},

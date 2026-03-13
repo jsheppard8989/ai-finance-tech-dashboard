@@ -1584,6 +1584,11 @@
   
   <script>
     var DEBUG_SITE = !!window.DEBUG_SITE;
+    function getSchemaVersion() {
+      if (typeof dashboardData === 'undefined' || dashboardData === null) return 0;
+      var v = Number(dashboardData.schemaVersion || 0);
+      return isNaN(v) ? 0 : v;
+    }
     // Load emerging terms from database (AI-curated, no voting)
     function loadSuggestedTerms() {
       const container = document.getElementById('suggestions-list');
@@ -1688,13 +1693,12 @@
       }
     }
 
-    // Load Overton Window from mainContent.definitions + mainContent.overton (promoted terms)
+    // Load Overton Window from mainContent.overton only (Definitions concept is now folded into Overton Terms)
     function loadOvertonWindow() {
       const container = document.getElementById('overton-window-list');
       if (!container) return;
 
       const main = (typeof dashboardData !== 'undefined' && dashboardData.mainContent) ? dashboardData.mainContent : {};
-      const definitions = main.definitions || [];
       const overton = main.overton || [];
 
       function esc(s) {
@@ -1703,20 +1707,6 @@
       }
 
       const items = [];
-      definitions.forEach(function(d) {
-        const term = esc(d.term);
-        const desc = esc(d.definition || '');
-        const impl = esc(d.investment_implications || '');
-        const expanded = impl ? '<strong>Investment angle:</strong> ' + impl : '';
-        items.push(
-          '<div class="overton-window-item">' +
-            '<div class="ow-term">' + term + '</div>' +
-            '<div class="ow-description">' + desc + '</div>' +
-            '<div class="ow-source">Curated definition</div>' +
-            (expanded ? '<div class="ow-expanded"><div class="ow-expanded-inner">' + expanded + '</div></div>' : '') +
-          '</div>'
-        );
-      });
       overton.forEach(function(o) {
         const term = esc(o.term);
         const desc = esc(o.description || o.definition || '');
