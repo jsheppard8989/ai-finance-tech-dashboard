@@ -521,14 +521,11 @@ class DashboardDB:
                         pass
                 archive['insights'].append(insight)
             
-            # Get all definitions
-            cursor = conn.execute("""
-                SELECT * FROM definitions
-                ORDER BY added_date DESC
-            """)
-            archive['definitions'] = [dict(row) for row in cursor.fetchall()]
+            # Legacy definitions are no longer used for the Overton Window.
+            # Keep the key for backward compatibility, but leave it empty.
+            archive['definitions'] = []
             
-            # Get all Overton terms
+            # Get all Overton terms (canonical source for Overton Window)
             cursor = conn.execute("""
                 SELECT * FROM overton_terms
                 ORDER BY first_detected_date DESC

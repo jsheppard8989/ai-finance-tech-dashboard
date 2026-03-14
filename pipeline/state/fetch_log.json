@@ -1,24 +1,17 @@
 {
-  "timestamp": "2026-03-13T13:27:21.850677",
+  "timestamp": "2026-03-13T22:03:46.607108",
   "results": [
     {
-      "podcast": "Monetary Matters with Jack Farley",
-      "title": "Could the Iran War Cause a New Oil Crisis? | FT's Chief Economics Commentator Martin Wolf",
-      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/EWWMN3934171483.mp3",
-      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/EWWMN3934171483.txt",
-      "success": true
-    },
-    {
-      "podcast": "The a16z Show",
-      "title": "Emil Michael: Iran, Anthropic and the Future of AI at the Pentagon",
-      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_20260313_dff14c3b_d224_499c_90fc_e6477f67.mp3",
-      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/the_a16z_show_20260313_dff14c3b_d224_499c_90fc_e6477f67.txt",
-      "success": true
+      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "title": "Iran War, Oil Shock, Off Ramps, AI's Revenue Explosion and PR Nightmare",
+      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/ALLIN-E264_V2_Ch.mp3",
+      "transcript_path": null,
+      "success": false
     },
     {
       "podcast": "Dwarkesh Podcast",
-      "title": "Dylan Patel \u2014 Deep Dive on the 3 Big Bottlenecks to Scaling AI Compute",
-      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/c3cb2a35bdf4b3199832704511cc77ee.mp3",
+      "title": "Dylan Patel \u2014 Deep dive on the 3 big bottlenecks to scaling AI compute",
+      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/e3c75a06762af10f374661e8af1d1af6.mp3",
       "transcript_path": null,
       "success": false
     }

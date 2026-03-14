@@ -6741,3 +6741,209 @@ Finished: 2026-03-13 05:03:25.724657
 🎙️ 1 new podcast(s) analyzed
 
 🌐 Website updated
+2026-03-13T22:03:36-05:00 run_if_scheduled: in window, running pipeline
+============================================================
+AUTO PIPELINE
+Mode: full
+Started: 2026-03-13 22:03:37.240982
+============================================================
+
+============================================================
+STEP: Podcast Curation
+============================================================
+======================================================================
+Podcast Curation System
+======================================================================
+
+Found 7 podcast feeds
+
+Fetching episode metadata...
+  Fetching: https://feeds.megaphone.fm/DVVTS2890392624...
+    ✓ Moonshots with Peter Diamandis: 0 episodes
+  Fetching: https://feeds.megaphone.fm/EWWMN1909747317...
+    ✓ Monetary Matters with Jack Farley: 0 episodes
+  Fetching: https://feeds.simplecast.com/JGE3yC0V...
+    ✓ The a16z Show: 0 episodes
+  Fetching: https://rss.libsyn.com/shows/254861/destinations/1928300.xml...
+    ✓ All-In with Chamath, Jason, Sacks & Friedberg: 1 episodes
+  Fetching: https://anchor.fm/s/e29097f4/podcast/rss...
+    ✓ The Jack Mallers Show: 0 episodes
+  Fetching: https://feed.podbean.com/macrovoices/feed.xml...
+    ✓ Macro Voices: 0 episodes
+  Fetching: https://api.substack.com/feed/podcast/69345.rss...
+    ✓ Dwarkesh Podcast: 1 episodes
+
+Matching audio files to episodes...
+  ✓ Matched: 0 files
+  ? Unmatched: 10 files
+
+Curating episodes for investment relevance...
+
+  APPROVED for transcription: 0
+  SKIPPED/EXCLUDED: 0
+
+======================================================================
+CURATION RESULTS
+======================================================================
+
+📌 APPROVED (will transcribe):
+
+----------------------------------------------------------------------
+
+📋 REVIEW ALL:
+
+
+✓ Curation log saved: /Users/jaredsheppard/.openclaw/workspace/pipeline/state/curation_log.json
+
+======================================================================
+NEXT STEPS
+======================================================================
+
+1. Review approved episodes above
+2. To transcribe approved episodes, run:
+   python3 transcribe_curated.py
+
+3. Or manually transcribe specific files:
+
+✓ Podcast Curation completed
+
+============================================================
+STEP: Fetch & Transcribe
+============================================================
+======================================================================
+Fetch & Transcribe Latest Podcast Episodes
+======================================================================
+  ✓ Swept 2 completed transcript file(s) from whisper_done into transcripts
+  ✓ Cleaned up 2 orphan audio file(s) (transcript already exists)
+
+Found 7 podcast feeds
+
+📻 Processing: https://feeds.megaphone.fm/DVVTS2890392624...
+  ⏭ Already have 'OpenClaw Explained: Baby AGI, Security Threats, an' (guid match, ep_id=54)
+  ✗ No episode found
+
+📻 Processing: https://feeds.megaphone.fm/EWWMN1909747317...
+  ⏭ Already have 'Could the Iran War Cause a New Oil Crisis? | FT's ' (guid match, ep_id=61)
+  ✗ No episode found
+
+📻 Processing: https://feeds.simplecast.com/JGE3yC0V...
+  ⏭ Already have 'Emil Michael: Iran, Anthropic and the Future of AI' (guid match, ep_id=62)
+  ✗ No episode found
+
+📻 Processing: https://rss.libsyn.com/shows/254861/destinations/1...
+  📋 Latest: Iran War, Oil Shock, Off Ramps, AI's Revenue Explosion and P...
+  ⬇️  Downloading: ALLIN-E264_V2_Ch.mp3
+     Title: Iran War, Oil Shock, Off Ramps, AI's Revenue Explosion and P...
+     ✓ Downloaded to /Users/jaredsheppard/.openclaw/workspace/audio/ALLIN-E264_V2_Ch.mp3
+  🎙️  Transcribing: ALLIN-E264_V2_Ch.mp3
+  📥 Submitted to whisper queue: ALLIN-E264_V2_Ch.mp3
+  ⏭ Queue-only mode: not waiting. Run pipeline again after worker finishes.
+
+📻 Processing: https://anchor.fm/s/e29097f4/podcast/rss...
+  ⏭ Already have 'Oil, Bonds, and Bitcoin: The Rules Are That There ' (guid match, ep_id=52)
+  ✗ No episode found
+
+📻 Processing: https://feed.podbean.com/macrovoices/feed.xml...
+  ⏭ Already have 'MacroVoices #523 Jim Bianco: Energy, FED & Economy' (guid match, ep_id=59)
+  ✗ No episode found
+
+📻 Processing: https://api.substack.com/feed/podcast/69345.rss...
+  📋 Latest: Dylan Patel — Deep dive on the 3 big bottlenecks to scaling ...
+  ⬇️  Downloading: e3c75a06762af10f374661e8af1d1af6.mp3
+     Title: Dylan Patel — Deep dive on the 3 big bottlenecks to scaling ...
+     ✓ Downloaded to /Users/jaredsheppard/.openclaw/workspace/audio/e3c75a06762af10f374661e8af1d1af6.mp3
+  🎙️  Transcribing: e3c75a06762af10f374661e8af1d1af6.mp3
+  📥 Submitted to whisper queue: e3c75a06762af10f374661e8af1d1af6.mp3
+  ⏭ Queue-only mode: not waiting. Run pipeline again after worker finishes.
+
+✓ Log saved: /Users/jaredsheppard/.openclaw/workspace/pipeline/state/fetch_log.json
+
+======================================================================
+SUMMARY
+======================================================================
+Total feeds: 7
+Successfully transcribed: 0
+Failed: 2
+
+Completed episodes:
+
+
+Next step: Run 'python3 research.py' to analyze transcripts
+
+✓ Fetch & Transcribe completed
+
+============================================================
+STEP: Newsletter Ingestion
+============================================================
+==================================================
+Newsletter Ingestion Pipeline
+==================================================
+
+Connecting to Gmail...
+Connecting to Gmail at imap.gmail.com:993...
+Logging in as jsheppard8989@gmail.com...
+Selecting folder: NEWSLETTERS...
+Found 0 unread emails
+
+No emails fetched from Gmail.
+
+✓ Processed 0 emails
+
+Files saved to: /Users/jaredsheppard/.openclaw/workspace/pipeline/inbox
+
+Next step: Run analysis to score stock mentions
+
+✓ Newsletter Ingestion completed
+
+============================================================
+STEP: Transcript AI Analysis
+============================================================
+  ⚠ Google Generative AI library not installed. Run: pip install google-generativeai
+
+============================================================
+Processing Podcast Transcripts with AI
+============================================================
+  Using Moonshot/Kimi API (primary)
+Found 53 transcript files
+  Processing dario_amodei.txt...
+    ⏭ Too short, skipping
+  Processing elon_musk.txt...
+    ⏭ Too short, skipping
+  Processing c3cb2a35bdf4b3199832704511cc77ee.txt...
+    ✓ Added episode (ID: 63)
+    + Emerging term: Memory Crunch
+    + Emerging term: Geopolitical Diversification
+    ⚠ Failed to add mention for NVDA: CHECK constraint failed: timeframe IN ('short_term', 'long_term', 'unspecified')
+    ⚠ Failed to add mention for TSLA: CHECK constraint failed: timeframe IN ('short_term', 'long_term', 'unspecified')
+    ✓ Added 4 ticker mentions
+
+✓ Transcript processing complete: 1 new, 50 skipped, 0 errors
+✓ Analyzed 1 new transcripts
+
+============================================================
+STEP: Newsletter Import
+============================================================
+✓ Total newsletters imported: 0
+
+============================================================
+STEP: Promote Episodes to Insights
+============================================================
+Found 3 processed episodes not yet in insights
+  ✓ Promoted: 'Semiconductors and the Future of Compute' (sentiment=neutral)
+  ✓ Promoted: 'AI in Defense and the Future of Military Technology' (sentiment=neutral)
+  ✓ Promoted: 'Monetary Matters: The Impact of US-Iran Conflict on the Worl' (sentiment=neutral)
+  ✓ Auto-archived 3 older insights
+✓ Promoted 3 new insight(s) to website
+
+============================================================
+STEP: Promote Newsletters to Insights
+============================================================
+Found 0 newsletters not yet on site
+
+============================================================
+STEP: Aggregate Daily Scores
+============================================================
+✓ Saved 5 daily scores
+
+============================================================
+STEP: Generate Deep Dives

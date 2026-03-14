@@ -1,5 +1,17 @@
 [
   {
+    "id": 62,
+    "name": "Dylan",
+    "slug": "dylan",
+    "bio": "CEO of Semi Analysis",
+    "known_for": "Expertise in semiconductor market analysis",
+    "last_seen": "2026-03-14 03:04:09",
+    "last_episode_title": "Semiconductors and the Future of Compute",
+    "last_podcast_name": "Dwarkesh Podcast",
+    "last_episode_date": "2026-03-13",
+    "last_main_idea": "Investment in semiconductors and AI is set to drive significant economic growth and reshape global supply chains, with potential for disruption in the event of geopolitical tensions."
+  },
+  {
     "id": 60,
     "name": "Michael Griffin",
     "slug": "michael-griffin",

@@ -3,7 +3,7 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-03-13T16:36:36.483779",
+  generatedAt: "2026-03-13T22:05:45.163020",
   chartsVersion: "2026-03-13T13:28:57.055826",
   tickerScores: [
   {
@@ -23,14 +23,14 @@ const dashboardData = {
   },
   {
     "ticker": "GOOGL",
-    "total_score": 291.0,
-    "raw_mention_count": 23,
+    "total_score": 361.0,
+    "raw_mention_count": 24,
     "unique_sources": 2,
-    "podcast_mentions": 3,
+    "podcast_mentions": 4,
     "newsletter_mentions": 20,
     "rank": 2,
-    "score": 291.0,
-    "mentions": 23,
+    "score": 361.0,
+    "mentions": 24,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
     "timeframe": "long_term",
@@ -38,14 +38,14 @@ const dashboardData = {
   },
   {
     "ticker": "MSFT",
-    "total_score": 242.0,
-    "raw_mention_count": 18,
+    "total_score": 312.0,
+    "raw_mention_count": 19,
     "unique_sources": 2,
-    "podcast_mentions": 2,
+    "podcast_mentions": 3,
     "newsletter_mentions": 16,
     "rank": 3,
-    "score": 242.0,
-    "mentions": 18,
+    "score": 312.0,
+    "mentions": 19,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
     "timeframe": "long_term",
@@ -67,13 +67,43 @@ const dashboardData = {
     "contexts": []
   },
   {
+    "ticker": "META",
+    "total_score": 177.0,
+    "raw_mention_count": 14,
+    "unique_sources": 2,
+    "podcast_mentions": 2,
+    "newsletter_mentions": 12,
+    "rank": 5,
+    "score": 177.0,
+    "mentions": 14,
+    "conviction_level": "medium",
+    "contrarian_signal": "neutral",
+    "timeframe": "long_term",
+    "contexts": []
+  },
+  {
+    "ticker": "AMZN",
+    "total_score": 174.0,
+    "raw_mention_count": 3,
+    "unique_sources": 1,
+    "podcast_mentions": 3,
+    "newsletter_mentions": 0,
+    "rank": 6,
+    "score": 174.0,
+    "mentions": 3,
+    "conviction_level": "medium",
+    "contrarian_signal": "neutral",
+    "timeframe": "long_term",
+    "contexts": []
+  },
+  {
     "ticker": "WTI",
     "total_score": 144.0,
     "raw_mention_count": 2,
     "unique_sources": 1,
     "podcast_mentions": 2,
     "newsletter_mentions": 0,
-    "rank": 5,
+    "rank": 7,
     "score": 144.0,
     "mentions": 2,
     "conviction_level": "medium",
@@ -88,7 +118,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 2,
     "newsletter_mentions": 0,
-    "rank": 6,
+    "rank": 8,
     "score": 142.0,
     "mentions": 2,
     "conviction_level": "medium",
@@ -103,7 +133,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 2,
     "newsletter_mentions": 0,
-    "rank": 7,
+    "rank": 9,
     "score": 134.0,
     "mentions": 2,
     "conviction_level": "medium",
@@ -118,7 +148,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 2,
     "newsletter_mentions": 0,
-    "rank": 8,
+    "rank": 10,
     "score": 132.0,
     "mentions": 2,
     "conviction_level": "medium",
@@ -133,7 +163,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 2,
     "newsletter_mentions": 0,
-    "rank": 9,
+    "rank": 11,
     "score": 128.0,
     "mentions": 2,
     "conviction_level": "medium",
@@ -148,38 +178,8 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 2,
     "newsletter_mentions": 0,
-    "rank": 10,
-    "score": 112.0,
-    "mentions": 2,
-    "conviction_level": "medium",
-    "contrarian_signal": "neutral",
-    "timeframe": "long_term",
-    "contexts": []
-  },
-  {
-    "ticker": "META",
-    "total_score": 107.0,
-    "raw_mention_count": 13,
-    "unique_sources": 2,
-    "podcast_mentions": 1,
-    "newsletter_mentions": 12,
-    "rank": 11,
-    "score": 107.0,
-    "mentions": 13,
-    "conviction_level": "medium",
-    "contrarian_signal": "neutral",
-    "timeframe": "long_term",
-    "contexts": []
-  },
-  {
-    "ticker": "AMZN",
-    "total_score": 104.0,
-    "raw_mention_count": 2,
-    "unique_sources": 1,
-    "podcast_mentions": 2,
-    "newsletter_mentions": 0,
     "rank": 12,
-    "score": 104.0,
+    "score": 112.0,
     "mentions": 2,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
@@ -640,6 +640,76 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 78,
+      "title": "Semiconductors and the Future of Compute",
+      "source_type": "podcast",
+      "source_name": "Dwarkesh Podcast",
+      "source_date": "2026-03-13",
+      "summary": "In this episode, the host discusses the massive capital expenditures in semiconductors by big tech companies and AI labs, the timeline for these investments to come online, and the implications for economic growth. The conversation delves into the potential for using commodity DRAM instead of HBM in accelerators, the centralization of computation, and the geopolitical risks surrounding Taiwan's role in the semiconductor supply chain.",
+      "key_takeaway": "Investment in semiconductors and AI is set to drive significant economic growth and reshape global supply chains, with potential for disruption in the event of geopolitical tensions.",
+      "tickers_mentioned": [
+        "AMZN",
+        "META",
+        "GOOGL",
+        "MSFT",
+        "NVDA",
+        "TSLA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-13",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 63
+    },
+    {
+      "id": 79,
+      "title": "AI in Defense and the Future of Military Technology",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-03-13",
+      "summary": "The a16z Show podcast features an in-depth discussion with Michael Griffin, Under Secretary of Defense for Research and Engineering, on the integration of artificial intelligence (AI) within the US Department of Defense. Griffin highlights the transformation of the department's approach to technology, reducing critical priority areas from 14 to 6, with AI becoming a top priority. The conversation delves into the challenges of using commercial AI models in military applications, the importance of democratic oversight in AI deployment, and the need for technology that aligns with American command and control standards.",
+      "key_takeaway": "Investment in AI technology within the defense sector is critical for maintaining national security and ensuring operational effectiveness.",
+      "tickers_mentioned": [
+        "AAPL",
+        "NVDA",
+        "GOOGL",
+        "MSFT",
+        "AMZN"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-13",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 62
+    },
+    {
+      "id": 80,
+      "title": "Monetary Matters: The Impact of US-Iran Conflict on the World Economy",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-03-13",
+      "summary": "In this episode of Monetary Matters, host Jack Farley interviews Martin Wolff, Chief Economics Commentator for the Financial Times, to discuss the economic implications of the ongoing conflict between the US and Iran. The conversation centers around the potential disruption to global oil supply, the strategic importance of the Gulf region, and the broader geopolitical ramifications. Wolff also touches on the future of energy-intensive industries and the shift towards renewable energy in Europe.",
+      "key_takeaway": "Investors should consider the geopolitical risks associated with the US-Iran conflict and the potential impact on global oil supply, as well as the long-term shift towards renewable energy sources.",
+      "tickers_mentioned": [
+        "AAPL",
+        "NVDA",
+        "XOM",
+        "BP",
+        "SPY"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-13",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 61
+    },
+    {
       "id": 75,
       "title": "Macro Voices Episode 523: Geopolitical Situation in Iran, Oil Prices, Precious Metals, and Market Analysis",
       "source_type": "podcast",
@@ -698,11 +768,11 @@ const dashboardData = {
         "MSFT"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-11",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-14",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 55
     },
     {
@@ -787,11 +857,11 @@ const dashboardData = {
         "TSLA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-10",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-14",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 52
     },
     {
@@ -806,11 +876,11 @@ const dashboardData = {
         ""
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-10",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-14",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 50
     },
     {
@@ -2202,6 +2272,73 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 78,
+      "title": "Semiconductors and the Future of Compute",
+      "source_type": "podcast",
+      "source_name": "Dwarkesh Podcast",
+      "source_date": "2026-03-13",
+      "summary": "In this episode, the host discusses the massive capital expenditures in semiconductors by big tech companies and AI labs, the timeline for these investments to come online, and the implications for economic growth. The conversation delves into the potential for using commodity DRAM instead of HBM in accelerators, the centralization of computation, and the geopolitical risks surrounding Taiwan's role in the semiconductor supply chain.",
+      "key_takeaway": "Investment in semiconductors and AI is set to drive significant economic growth and reshape global supply chains, with potential for disruption in the event of geopolitical tensions.",
+      "tickers_mentioned": "[\"AMZN\", \"META\", \"GOOGL\", \"MSFT\", \"NVDA\", \"TSLA\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-13",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 63,
+      "episode_release_date": "2026-03-13",
+      "guest_name": null,
+      "key_tickers": [
+        "AMZN",
+        "META",
+        "GOOGL",
+        "MSFT",
+        "NVDA",
+        "TSLA"
+      ]
+    },
+    {
+      "id": 79,
+      "title": "AI in Defense and the Future of Military Technology",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-03-13",
+      "summary": "The a16z Show podcast features an in-depth discussion with Michael Griffin, Under Secretary of Defense for Research and Engineering, on the integration of artificial intelligence (AI) within the US Department of Defense. Griffin highlights the transformation of the department's approach to technology, reducing critical priority areas from 14 to 6, with AI becoming a top priority. The conversation delves into the challenges of using commercial AI models in military applications, the importance of democratic oversight in AI deployment, and the need for technology that aligns with American command and control standards.",
+      "key_takeaway": "Investment in AI technology within the defense sector is critical for maintaining national security and ensuring operational effectiveness.",
+      "tickers_mentioned": "[\"AAPL\", \"NVDA\", \"GOOGL\", \"MSFT\", \"AMZN\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-13",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 62,
+      "episode_release_date": "2026-03-13",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
+      "id": 80,
+      "title": "Monetary Matters: The Impact of US-Iran Conflict on the World Economy",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-03-13",
+      "summary": "In this episode of Monetary Matters, host Jack Farley interviews Martin Wolff, Chief Economics Commentator for the Financial Times, to discuss the economic implications of the ongoing conflict between the US and Iran. The conversation centers around the potential disruption to global oil supply, the strategic importance of the Gulf region, and the broader geopolitical ramifications. Wolff also touches on the future of energy-intensive industries and the shift towards renewable energy in Europe.",
+      "key_takeaway": "Investors should consider the geopolitical risks associated with the US-Iran conflict and the potential impact on global oil supply, as well as the long-term shift towards renewable energy sources.",
+      "tickers_mentioned": "[\"AAPL\", \"NVDA\", \"XOM\", \"BP\", \"SPY\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-13",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 61,
+      "episode_release_date": "2026-03-13",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 75,
       "title": "Macro Voices Episode 523: Geopolitical Situation in Iran, Oil Prices, Precious Metals, and Market Analysis",
       "source_type": "podcast",
@@ -2249,26 +2386,6 @@ const dashboardData = {
       "key_tickers": [
         "PLTR"
       ]
-    },
-    {
-      "id": 72,
-      "title": "Real-time Crime Prevention and the Future of Policing",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-03-11",
-      "summary": "This episode of the a16z Show features Garrett Langley, founder of Flock Safety, discussing the evolution of crime prevention technology. Langley highlights the transition from traditional policing methods to real-time, data-driven approaches that leverage AI, drones, and license plate readers. The conversation touches on the impact of technology on crime clearance rates, the importance of data sovereignty, and the challenges faced by US companies competing with subsidized Chinese manufacturers. Langley also shares his vision for preventing crime and rehabilitating offenders, emphasizing the need for a holistic approach that includes job creation and community investment.",
-      "key_takeaway": "Investing in technology that enhances real-time crime prevention and clearance rates can lead to more effective law enforcement and safer communities.",
-      "tickers_mentioned": "[\"AAPL\", \"NVDA\", \"GOOGL\", \"AMZN\", \"MSFT\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-03-11",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 55,
-      "episode_release_date": "2026-03-11",
-      "guest_name": null,
-      "key_tickers": []
     },
     {
       "id": 73,
@@ -2333,48 +2450,6 @@ const dashboardData = {
         "NVDA",
         "GOOGL",
         "PLTR"
-      ]
-    },
-    {
-      "id": 67,
-      "title": "Oil, Bonds, and Bitcoin: Navigating Geopolitical Poker and Market Volatility",
-      "source_type": "podcast",
-      "source_name": "The Jack Mallers Show",
-      "source_date": "2026-03-10",
-      "summary": "In this episode, Jack Mallers discusses the current geopolitical situation, particularly focusing on Iran and its impact on financial markets. He emphasizes the unpredictability of the current landscape, comparing it to a high-stakes poker game with no rules. Mallers also touches on the concept of 'short-term pain for long-term gain' as it relates to oil prices and the broader economy. Additionally, he shares his personal investment strategy, which revolves around dollar-cost averaging (DCA) into Bitcoin and building great companies. The episode concludes with Mallers reflecting on the importance of transparency and the potential benefits of sharing more of his personal life, including his diet, finances, and health.",
-      "key_takeaway": "Dollar-cost averaging into Bitcoin and focusing on building innovative companies are key strategies for navigating the current volatile and unpredictable market environment.",
-      "tickers_mentioned": "[\"AAPL\", \"NVDA\", \"SPY\", \"TSLA\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-03-10",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 52,
-      "episode_release_date": "2026-03-10",
-      "guest_name": null,
-      "key_tickers": []
-    },
-    {
-      "id": 68,
-      "title": "The a16z Show: AI Adoption, Creative Tools, and the Future of Generative AI",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-03-10",
-      "summary": "The podcast discusses the cultural and technological shifts in AI adoption, with a focus on the growth and specialization of AI platforms like Cloud, Chatchee BT, and Gemini. The conversation highlights the increasing divergence of these platforms, their impact on consumer behavior, and the potential for AI to drive cultural changes. The episode also touches on the global data on AI usage, with insights into how different countries are adopting AI and the varying levels of trust in AI across regions. Lastly, the podcast delves into the evolution of creative tools and the role of memory in AI products.",
-      "key_takeaway": "Investment in AI platforms is driven by their ability to capture user data, create personalized experiences, and expand globally, with a focus on platforms that can leverage AI to create compounding advantages.",
-      "tickers_mentioned": "[\"\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-03-10",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 50,
-      "episode_release_date": "2026-03-10",
-      "guest_name": null,
-      "key_tickers": [
-        ""
       ]
     }
   ],
@@ -6651,12 +6726,255 @@ const dashboardData = {
       "GOOGL",
       "PLTR"
     ]
+  },
+  "78": {
+    "id": 69,
+    "insight_id": 78,
+    "podcast_episode_id": 63,
+    "overview": "The investment thesis revolves around the significant capital expenditures (capex) in semiconductors and compute infrastructure by major tech companies and AI labs. With the 'big four'\u2014Amazon, Meta, Google, and Microsoft\u2014projected to spend $600 billion on capex in 2023, and AI labs like Anthropic and OpenAI raising substantial funds, there is a clear trend towards scaling compute capacity. This spending is indicative of a future where compute power is a critical differentiator, and the ability to scale quickly will be paramount. The current landscape suggests a shift towards more aggressive expansion in data centers and semiconductor technologies, which is crucial for investors to understand in the context of the evolving tech sector.",
+    "key_takeaways_detailed": [
+      "The 'big four' tech companies are expected to spend a combined $600 billion on capex in 2023, with a significant portion allocated to future compute capacity.",
+      "AI labs like Anthropic and OpenAI are securing substantial funding, indicating a race for scaling AI compute infrastructure to support their business models.",
+      "The timeline for capex spending suggests that while some compute capacity will come online in 2023, a considerable amount is planned for future years, indicating a long-term investment in technology infrastructure.",
+      "The conservative approach of companies like Anthropic versus the aggressive stance of OpenAI in securing compute capacity will have strategic implications for their growth and market positioning.",
+      "The need for additional compute capacity may drive companies to seek out less traditional providers, which could impact the quality and cost of their AI services."
+    ],
+    "investment_thesis": "The core investment logic is centered on the rapid expansion of compute infrastructure by tech giants and AI labs, which will drive demand for semiconductors and data center services. This capex spending is a catalyst for growth in the semiconductor and data center sectors. Investors should focus on companies that can benefit from this increased demand, such as semiconductor manufacturers and data center operators. The timeframe for this thesis is medium to long-term, as the capex spending will materialize in increased revenues and profits over the next 3-5 years.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple is a major player in the semiconductor market, with its own chip designs and significant investments in compute infrastructure. Its vertical integration and commitment to innovation position it to benefit from the growing demand for advanced semiconductors and AI capabilities.",
+        "positioning": "Long-term strategic position, as Apple's investments in technology and semiconductors are likely to yield dividends over the coming years.",
+        "risk": "Key risks include increased competition in the semiconductor space and potential disruptions in global supply chains."
+      },
+      "NVDA": {
+        "rationale": "Nvidia is a leader in GPU technology, which is critical for AI and high-performance computing. With its advanced semiconductor offerings, Nvidia is poised to capitalize on the increased demand for compute power from tech companies and AI labs.",
+        "positioning": "Long-term strategic position, considering Nvidia's strong position in the GPU market and its potential to benefit from the AI boom.",
+        "risk": "The risk of losing market share to competitors in the semiconductor space and the potential for a slowdown in AI investment could impact Nvidia's growth prospects."
+      },
+      "AMZN": {
+        "rationale": "Amazon, through its AWS division, is a major player in cloud computing and has significant capex plans for expanding its data center infrastructure. This positions Amazon to benefit from the growing demand for cloud services and AI capabilities.",
+        "positioning": "Medium to long-term strategic position, as Amazon's AWS continues to expand and capture a larger share of the cloud computing market.",
+        "risk": "Regulatory challenges and increased competition in the cloud computing space could pose risks to Amazon's growth."
+      },
+      "GOOGL": {
+        "rationale": "Google is investing heavily in both semiconductors and data centers, with a focus on AI and machine learning. Its capex spending indicates a commitment to maintaining a competitive edge in these areas.",
+        "positioning": "Long-term strategic position, as Google's investments are expected to drive growth in its cloud and AI businesses.",
+        "risk": "The risk of not being able to effectively monetize its investments in AI and semiconductors could impact Google's financial performance."
+      },
+      "MSFT": {
+        "rationale": "Microsoft, with its Azure cloud platform, is also making significant investments in semiconductors and data centers. These investments are crucial for maintaining its competitive position in the cloud computing market.",
+        "positioning": "Medium to long-term strategic position, as Microsoft's capex spending is expected to bolster its cloud services and drive future growth.",
+        "risk": "The risk of falling behind in the race for AI and cloud computing could negatively affect Microsoft's market position."
+      }
+    },
+    "positioning_guidance": "Investors should consider a diversified approach to portfolio positioning, with a mix of long-term strategic positions in companies like AAPL, NVDA, AMZN, GOOGL, and MSFT. Entry points should be considered in the context of market volatility, with a focus on long-term growth potential. Investors should also consider hedging against potential risks such as supply chain disruptions and regulatory challenges.",
+    "risk_factors": [
+      "Economic downturns could lead to reduced capex spending by tech companies, impacting the demand for semiconductors and data center services.",
+      "Increased competition in the semiconductor and cloud computing markets could erode the market share and profitability of key players.",
+      "Regulatory changes, particularly in data privacy and AI ethics, could slow down the adoption of new technologies and impact growth prospects.",
+      "Supply chain disruptions could hinder the ability of companies to expand their compute infrastructure as planned.",
+      "A potential slowdown in AI investment could reduce the demand for advanced semiconductors and data center capacity."
+    ],
+    "contrarian_signals": [
+      "Despite the capex spending, some argue that the tech sector is overvalued, and a market correction could lead to reduced spending on semiconductors and data centers.",
+      "There is a risk that the growth in AI and machine learning may not be as rapid as anticipated, which could lead to overcapacity in the data center market.",
+      "The potential for technological disruptions, such as the emergence of new computing paradigms, could render current investments in semiconductors and data centers less valuable."
+    ],
+    "catalysts": [
+      "Earnings reports from tech companies that highlight increased capex spending on semiconductors and data centers.",
+      "Announcements of new semiconductor technologies or data center expansions by major players like AAPL, NVDA, AMZN, GOOGL, and MSFT.",
+      "Regulatory decisions that impact the tech sector, particularly those related to AI and data privacy.",
+      "Technological breakthroughs in AI and machine learning that drive increased demand for compute power.",
+      "Economic indicators that suggest a recovery or continued growth, which could support continued capex spending by tech companies."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-03-13T22:04:36.467230",
+    "updated_at": "2026-03-14 03:04:36",
+    "insight_title": "Semiconductors and the Future of Compute",
+    "source_name": "Dwarkesh Podcast",
+    "source_date": "2026-03-13",
+    "key_tickers": [
+      "AMZN",
+      "META",
+      "GOOGL",
+      "MSFT",
+      "NVDA",
+      "TSLA"
+    ]
+  },
+  "79": {
+    "id": 70,
+    "insight_id": 79,
+    "podcast_episode_id": 62,
+    "overview": "The rapid advancement of artificial intelligence (AI) is reshaping the global military landscape, with significant implications for defense contractors and technology companies. The U.S. Department of Defense (DoD) is prioritizing AI to enhance combat power and strengthen the industrial base, recognizing the strategic imperative of maintaining a technological edge. This deep dive analysis explores the investment thesis around AI in defense, focusing on the urgency of modernization and the potential for substantial growth in this sector.",
+    "key_takeaways_detailed": [
+      "The DoD has reduced its critical technology priorities from 14 to 6, with AI at the forefront, indicating a sharp focus on modernization.",
+      "Within 90 days, AI usage within the DoD increased from 80,000 to 1.2 million personnel, showcasing the rapid integration and potential for further expansion.",
+      "The U.S. is playing catch-up in military technology, particularly against the backdrop of China's significant military build-up, which could accelerate defense spending.",
+      "Defense contractors with advanced AI capabilities are poised to benefit from the DoD's push for modernization and self-reliance in key technology areas.",
+      "Investors should monitor the DoD's procurement policies and the impact of AI on the defense industrial base for investment opportunities."
+    ],
+    "investment_thesis": "The investment thesis centers on the accelerated adoption of AI within the U.S. military, driven by the need to counter emerging threats and maintain strategic superiority. As the DoD streamlines its priorities and rapidly integrates AI, defense contractors and technology companies with cutting-edge AI solutions are well-positioned for growth. The catalysts for this thesis include increased defense spending, the ongoing military build-up by adversaries, and the DoD's emphasis on self-reliance in critical technology areas. The timeframe for this thesis is medium to long-term, as the integration and deployment of AI in defense are expected to be a gradual yet continuous process.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's advanced chip technology and potential for defense-related applications make it a relevant player in the AI in defense space.",
+        "positioning": "Position long-term, as Apple's technology could be integral to future defense contracts and AI integration.",
+        "risk": "Key risks include geopolitical tensions affecting defense spending and potential delays in technology deployment."
+      },
+      "NVDA": {
+        "rationale": "NVIDIA's leadership in AI and GPU technology positions it to supply advanced computing solutions to the defense sector.",
+        "positioning": "Consider a medium-term strategic position, as NVIDIA's technology is likely to be in high demand for AI applications.",
+        "risk": "Regulatory changes and competition from other tech giants could pose risks to NVIDIA's market position."
+      },
+      "GOOGL": {
+        "rationale": "Google's expertise in AI and cloud computing could lead to collaborations with the DoD, particularly in data analytics and machine learning.",
+        "positioning": "A tactical long position could be considered, given Google's potential to secure defense contracts and its ongoing investment in AI.",
+        "risk": "Ethical concerns and public backlash against military applications of AI could impact Google's involvement in defense projects."
+      },
+      "MSFT": {
+        "rationale": "Microsoft's cloud services and AI capabilities make it a key partner for the DoD, especially with its existing cloud contract.",
+        "positioning": "A strategic long position is appropriate, as Microsoft is likely to benefit from ongoing defense cloud and AI initiatives.",
+        "risk": "Cybersecurity threats and potential loss of defense contracts due to competitive bidding could affect Microsoft's prospects."
+      },
+      "AMZN": {
+        "rationale": "Amazon's AWS is a leading cloud provider with significant potential in defense cloud services, particularly with the JEDI contract.",
+        "positioning": "A medium-term strategic position in Amazon could be beneficial, as AWS continues to expand its defense cloud offerings.",
+        "risk": "Legal challenges and regulatory scrutiny of the JEDI contract could impact Amazon's ability to secure and maintain defense cloud contracts."
+      }
+    },
+    "positioning_guidance": "Investors should consider a diversified approach to portfolio positioning, with a mix of strategic long-term holdings in established players like MSFT and NVDA, and tactical positions in companies like GOOGL and AMZN, which may offer higher growth potential but also carry higher risks. Entry points should be based on market conditions and company-specific catalysts, with a medium to long-term timeframe in mind. Investors may also consider hedging against geopolitical risks and regulatory changes that could impact the defense sector.",
+    "risk_factors": [
+      "Geopolitical tensions and conflicts could lead to fluctuations in defense spending.",
+      "Ethical concerns and public opposition to AI in military applications may slow adoption.",
+      "Regulatory changes and cybersecurity threats pose risks to companies involved in defense projects.",
+      "Competition among tech giants for defense contracts could lead to pricing pressures and reduced margins.",
+      "Technological failures or delays in AI deployment could impact the timeline for defense modernization."
+    ],
+    "contrarian_signals": [
+      "The potential for overreliance on AI in defense could lead to unforeseen vulnerabilities.",
+      "The high cost of AI integration and modernization may face budget constraints in times of fiscal austerity.",
+      "Adversaries may develop countermeasures to U.S. military AI advancements, potentially neutralizing the technological edge.",
+      "The pace of AI development in the private sector could outstrip the DoD's ability to adopt and integrate new technologies."
+    ],
+    "catalysts": [
+      "Upcoming defense budget allocations and spending reviews could provide clarity on the financial commitment to AI in defense.",
+      "DoD procurement decisions and contract awards related to AI could signal which companies are best positioned to benefit.",
+      "Advancements in AI technology and successful field tests could accelerate the adoption of AI in military applications.",
+      "International military exercises and joint operations involving AI could highlight the effectiveness of AI in defense.",
+      "Policy changes and regulatory updates related to AI use in the military could create new opportunities or constraints for defense contractors."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-03-13T22:05:00.819262",
+    "updated_at": "2026-03-14 03:05:00",
+    "insight_title": "AI in Defense and the Future of Military Technology",
+    "source_name": "The a16z Show",
+    "source_date": "2026-03-13",
+    "key_tickers": []
+  },
+  "80": {
+    "id": 71,
+    "insight_id": 80,
+    "podcast_episode_id": 61,
+    "overview": "The ongoing conflict between the US and Iran poses a significant risk to the global economy, particularly due to its potential impact on oil supply. With Iran being a major oil producer and the Strait of Hormuz being a critical transit point for oil, any disruption could lead to a spike in oil prices, inflation, and economic instability. This analysis examines the investment implications of this geopolitical tension, focusing on the potential economic fallout and its effects on key market sectors and stocks.",
+    "key_takeaways_detailed": [
+      "The Strait of Hormuz is a critical chokepoint for global oil supply, with around 20% of the world's oil passing through it.",
+      "Any prolonged conflict in the region could lead to a significant spike in oil prices, potentially reaching $150 per barrel or higher.",
+      "The conflict's duration and the extent of damage to oil facilities will be key determinants of the economic impact.",
+      "Investors should closely monitor the situation for any signs of escalation or de-escalation, as this could have immediate effects on energy-related stocks and the broader market."
+    ],
+    "investment_thesis": "The US-Iran conflict presents a significant geopolitical risk that could disrupt global oil supply and lead to a spike in oil prices. This thesis posits that investors should position their portfolios to hedge against this risk, focusing on energy stocks and other sectors that could be affected by a potential supply shock. The catalysts for this thesis include any escalation in the conflict, damage to oil facilities, or a prolonged closure of the Strait of Hormuz. The timeframe for this thesis is short to medium-term, as the immediate impact of the conflict will be felt in the energy markets and could have broader economic implications within the next 3-12 months.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple is a global technology giant with significant exposure to international markets, including those affected by the US-Iran conflict. Any economic disruption caused by the conflict could impact consumer spending and demand for Apple's products.",
+        "positioning": "Investors should consider a tactical short position in AAPL if the conflict escalates, as a hedge against potential economic disruption. However, for long-term investors, AAPL's strong fundamentals and innovation pipeline could make it a buy-on-dip opportunity.",
+        "risk": "Key risks include a prolonged conflict leading to a global economic slowdown, which could negatively impact Apple's sales and margins."
+      },
+      "NVDA": {
+        "rationale": "Nvidia is a leading semiconductor company that supplies chips for various industries, including automotive and gaming, which could be affected by a potential economic downturn due to the conflict.",
+        "positioning": "Investors should consider a tactical short position in NVDA if the conflict escalates, as a hedge against potential economic disruption. However, for long-term investors, NVDA's strong growth prospects in AI and autonomous driving could make it a buy-on-dip opportunity.",
+        "risk": "Key risks include a prolonged conflict leading to a global economic slowdown, which could negatively impact demand for Nvidia's products."
+      },
+      "XOM": {
+        "rationale": "Exxon Mobil is a major oil and gas company that could benefit from a potential spike in oil prices due to the conflict.",
+        "positioning": "Investors should consider a long position in XOM if they believe the conflict will lead to a sustained increase in oil prices. This is a strategic play on the potential supply disruption in the global oil market.",
+        "risk": "Key risks include a rapid resolution of the conflict, which could lead to a drop in oil prices, or a shift towards renewable energy sources that could reduce demand for oil in the long term."
+      },
+      "BP": {
+        "rationale": "BP is another major oil and gas company that could benefit from a potential spike in oil prices due to the conflict.",
+        "positioning": "Similar to XOM, investors should consider a long position in BP if they believe the conflict will lead to a sustained increase in oil prices. This is a strategic play on the potential supply disruption in the global oil market.",
+        "risk": "Key risks include a rapid resolution of the conflict, which could lead to a drop in oil prices, or a shift towards renewable energy sources that could reduce demand for oil in the long term."
+      },
+      "SPY": {
+        "rationale": "The SPDR S&P 500 ETF Trust (SPY) is a broad market index that could be affected by the economic fallout of the conflict.",
+        "positioning": "Investors should consider a tactical short position in SPY if the conflict escalates, as a hedge against potential economic disruption. However, for long-term investors, SPY's diversification could provide some protection against sector-specific risks.",
+        "risk": "Key risks include a prolonged conflict leading to a global economic slowdown, which could negatively impact the broader market."
+      }
+    },
+    "positioning_guidance": "Investors should consider a balanced approach to portfolio positioning, with a mix of long and short positions to hedge against the potential economic fallout of the conflict. For energy stocks like XOM and BP, a long position could be strategic if investors believe in a sustained increase in oil prices. For technology stocks like AAPL and NVDA, a tactical short position could be appropriate if the conflict escalates, as a hedge against potential economic disruption. Broad market exposure through SPY could be managed with a tactical short position to protect against a broader market downturn. Investors should also consider the use of options or other derivatives to manage risk and potentially profit from volatility.",
+    "risk_factors": [
+      "A rapid resolution of the conflict that leads to a drop in oil prices.",
+      "A shift towards renewable energy sources that could reduce demand for oil in the long term.",
+      "A global economic slowdown that negatively impacts consumer spending and demand for technology products.",
+      "Geopolitical risks that could lead to further escalation of the conflict."
+    ],
+    "contrarian_signals": [
+      "The potential for a rapid resolution of the conflict, which could lead to a drop in oil prices and reduce the economic impact.",
+      "The possibility that the US and Iran could reach a diplomatic solution, reducing the risk of further escalation.",
+      "The resilience of the global economy in the face of geopolitical tensions, as seen in previous conflicts."
+    ],
+    "catalysts": [
+      "Any escalation or de-escalation in the conflict.",
+      "Damage to oil facilities or a prolonged closure of the Strait of Hormuz.",
+      "Geopolitical events that could impact the conflict, such as elections or diplomatic initiatives.",
+      "Economic indicators that could signal the impact of the conflict on global markets, such as oil prices and inflation data."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-03-13T22:05:25.702849",
+    "updated_at": "2026-03-14 03:05:25",
+    "insight_title": "Monetary Matters: The Impact of US-Iran Conflict on the World Economy",
+    "source_name": "Monetary Matters with Jack Farley",
+    "source_date": "2026-03-13",
+    "key_tickers": []
   }
 },
-  suggestedTerms: [],
+  suggestedTerms: [
+  {
+    "id": 16,
+    "term": "Memory Crunch",
+    "definition": "A situation where the demand for memory outpaces supply, leading to potential shortages and increased prices.",
+    "investment_implications": "Investors should monitor memory supply chains for potential disruptions and investment opportunities.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-03-14 03:04:09",
+    "priority_score": 80
+  },
+  {
+    "id": 17,
+    "term": "Geopolitical Diversification",
+    "definition": "The strategy of spreading geopolitical risks across different regions to mitigate potential disruptions.",
+    "investment_implications": "Investors should consider the geopolitical risks in their supply chain and diversify accordingly.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-03-14 03:04:09",
+    "priority_score": 80
+  }
+],
   podcastGuests: [
   {
-    "id": 112,
+    "id": 119,
     "name": "Harvard Professor Graham Allison",
     "slug": "harvard-professor-graham-allison",
     "bio": null,
@@ -6668,7 +6986,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 113,
+    "id": 120,
     "name": "Andrew Yang",
     "slug": "andrew-yang",
     "bio": "Andrew Yang is an entrepreneur and political leader who popularized universal basic income in U.S. politics through his 2020 presidential campaign.",
@@ -6680,7 +6998,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 114,
+    "id": 121,
     "name": "Ray Dalio",
     "slug": "ray-dalio",
     "bio": "Ray Dalio is the founder of Bridgewater Associates and a macro investor known for his 'Principles' framework and work on long-term debt cycles.",
@@ -6692,7 +7010,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 115,
+    "id": 122,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -6704,7 +7022,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 116,
+    "id": 123,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -6716,7 +7034,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 117,
+    "id": 124,
     "name": "Bosworth",
     "slug": "bosworth",
     "bio": null,
@@ -6728,7 +7046,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 118,
+    "id": 125,
     "name": "Brett Adcock",
     "slug": "brett-adcock",
     "bio": "Brett Adcock is a serial founder behind Vettery, Archer Aviation, and Figure, building in eVTOL, humanoid robotics, and frontier AI.",
@@ -6741,6 +7059,18 @@ const dashboardData = {
   }
 ],
   pundits: [
+  {
+    "id": 62,
+    "name": "Dylan",
+    "slug": "dylan",
+    "bio": "CEO of Semi Analysis",
+    "known_for": "Expertise in semiconductor market analysis",
+    "last_seen": "2026-03-14 03:04:09",
+    "last_episode_title": "Semiconductors and the Future of Compute",
+    "last_podcast_name": "Dwarkesh Podcast",
+    "last_episode_date": "2026-03-13",
+    "last_main_idea": "Investment in semiconductors and AI is set to drive significant economic growth and reshape global supply chains, with potential for disruption in the event of geopolitical tensions."
+  },
   {
     "id": 60,
     "name": "Michael Griffin",
