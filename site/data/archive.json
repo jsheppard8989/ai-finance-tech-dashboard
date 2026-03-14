@@ -71,6 +71,28 @@
       "podcast_episode_id": 61
     },
     {
+      "id": 81,
+      "title": "Investing in Capitalism: Trump Accounts, AI, and the Future of Wealth",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-03-13",
+      "summary": "In this episode of 'All-In with Chamath, Jason, Sacks & Friedberg', the hosts discuss the significance of Trump accounts in democratizing capitalism, the potential for AI in coding assistance and its scalability, and the impact of wealth taxes on the political landscape. They also touch on the role of entrepreneurs in addressing societal issues such as education, housing, and healthcare, emphasizing the importance of capitalism and entrepreneurship in solving these problems without resorting to socialism.",
+      "key_takeaway": "Invest in technologies and platforms that democratize capitalism and leverage AI to create scalable solutions in coding and product development.",
+      "tickers_mentioned": [
+        "AAPL",
+        "NVDA",
+        "SPY",
+        "TSLA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-14",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 64
+    },
+    {
       "id": 75,
       "title": "Macro Voices Episode 523: Geopolitical Situation in Iran, Oil Prices, Precious Metals, and Market Analysis",
       "source_type": "podcast",
@@ -151,11 +173,11 @@
         "TSLA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-12",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-14",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 57
     },
     {

@@ -1,0 +1,1814 @@
+All right. This is the episode of my roommate teaches me semiconductors. It's also the sundoff for this this current set
+It's you know after you use it. I'm like I can't use it again
+Okay Dylan is the CEO of semi analysis Dylan the burning question I have for you
+If you add up the big four Amazon meta Google Microsoft they're combined
+Four casted catbacks that you published recently this year is 600 billion dollars and
+Given you know
+Yearly prices of renting that compute that would be like close to 50 gigawatts
+Now obviously we're not putting on 50 glasses here
+So presumably that's paying for
+Compute that is going to be coming online over the coming years
+So I have a question about what how to think about the timeline around around when that catback sums online
+similar question for the labs where you know
+Opening I just announced that there is a hundred and ten billion dollars and
+Thropic just announced there is thirty billion dollars and if you look at the compute that they have coming
+Online this year
+Um, you should tell me how much of it is but like is not is in order for gigawatts total that they'll have this year
+It feels like the cost to rent the compute that opening I and and Thropic will have this year to like sustain their compute spend
+At you know ten thirteen billion dollars a gigawatts
+Those individual raises alone are like
+Enough to cover their compute spend for the year and then this is not even including the revenue that they're going to earn this year
+So help me understand first
+When is the time scale at which the big tech capbacks is actually coming online and to what are the labs raising all this money for if like
+The the yearly price of a one gigawatts data centers like thirteen billion dollars
+So when you talk about the capbacks of these hyper scalars right on the order of 600 billion dollars and you look at the cross the rest of the supply chain
+gets you to on the order of a trillion dollars a portion of this is
+You know immediately for compute going online this year right the chips and the
+The other parts of CapEx that do get paid this year
+But there's a lot of setup CapEx as well right so when we have when we're talking about 20 gigawatts this year in America
+Roughly incremental incremental added capacity a portion of this is not
+Spent this year a portion of that CapEx is actually spent the prior year and so when you look at hey
+Google's got a hundred and eighty billion dollars actually a big chunk of that is spent on turbine deposits for 28 and 29
+a chunk of that is spent on data center construction for 27 a chunk of that is spent on you know
+Power purchasing agreements and down payments and all these other things that they're doing
+For further out into the future so that they can set up this super fast scaling right and and this applies to all the hyper scalars
+And other people in the supply chain and so you know 20 gigawatts roughly deployed this year
+A big chunk of that being hyper scalars chunk of not being and all of these companies their biggest customers are inthropic and opening eye
+Inthropic and opening eye are in the you know two gigawatt and you know two and a half gigawatt and one and a half gigawatts
+Roughly right now
+They're trying to scale too much larger right if you look at what inthropic has done over the last few months
+You know four billion six billion revenue added and if we just draw straight line hey
+Yeah, they'll add another six billion dollars a revenue month
+People would argue that's bearish and that they should go faster
+What that implies is that they're gonna add sixty billion dollars of revenue across the next ten months right
+And sixty billion dollars a revenue at the current gross margins that inthropic had at least last
+Reported by media
+Would imply that they have you know roughly forty billion dollars a compete spend for that inference for that sixty bill of revenue
+That forty billion of compute at roughly ten billion dollars a gigawatt
+Rental cost means that they need to add four gigawatts of
+Inference capacity just to grow revenue and that's saying that their research and development training fleet stays flat right so
+You know in a sense andthropic needs to get to well above five gigawatts by the end of this year
+And it's gonna be really tough for them to get there, but it's possible can you guys a question about that so yeah
+If inthropic was not on track to have five gigawatts by the end of this year, but it needs that to serve both
+The revenue that's gone crazy or than expected and maybe it's gonna be even more than that plus the research and training to make sure
+Its models are good enough for next year
+How how where is that gonna come from?
+You know, Dario when he was on your podcast was very very like
+Conservatives like you know, I'm not gonna go crazy on compute because if my revenue and flex at a different rate at a different point
+I don't want to go bankrupt. You know, I want to make sure that we're being responsible with this scaling
+But in reality, you know, he's definitely missed the pooch in terms of like going like opening eye which was
+Let's just sign these crazy fucking deals right
+And opening eyes kind of got way more access to compute than inthropic by the end of the year and so what is inthropic have to do to get the compute?
+Well, they have to go to
+Lower quality providers that they would not have gone to before right you know
+Optimally, you know, and throughout thing at least historically has had the best quality providers been like Google and Amazon
+Whereas you know at least historically minded, you know the biggest companies in the world
+Now Microsoft and now they're expanding across the supply chain and going to other players that are newer
+Open alley has been you know a bit more aggressive on going to many players
+Yes, they have tons of capacity for Microsoft
+They have Google and Amazon as well, but they also have like tons with corrib and Oracle and they've gone to like random companies
+Or you know one would think random companies like soft bank energy who has never built a data center in their life
+But you know, they're building data centers now for open eye so they've gone to and and many others like end scale and others
+That they're going in getting capacity from and so there's this like
+Conundrum for inthropic because they were so conservative on compute
+Because they didn't want to go crazy right and oh in in some sense a lot of the financial freak outs in the second half of last year
+We're like open eyes signed all these deals, but they don't have the money to pay for them
+Okay, Oracle stocks going to tank. Oh, okay, core we've stocks going to take okay, like you know all these companies stocks tanks
+And credit markets went crazy because people like the end buyer can't pay for this now
+It's like oh wait they raised a ton of money. Okay, fine, they can pay for it
+But in the sense anthropic was a lot more conservative. They were like well sign contracts, but we'd be principled
+And we'll
+Purpiously undershoot what we think we can possibly do and be conservative because we don't want to potentially go bankrupt
+The thing I want to understand is so in a what what is it mean to have to acquire compute in a pinch?
+Is it that you have to go with like neoclouds that is it that they have worse computers like in what ways it works and is it that you have to pay
+Gross margins to a cloud provider that you wouldn't have otherwise had to pay to because you're coming in the last minute
+Who built the spare capacity such that
+It's available for anthropic and opening eye to get last minute and like basically what is the concrete advantage that opening has gone
+If they end up at similar compute numbers by 27
+Is it just like they're gonna end this year with different gigawatts if so how many gigawatts is anthropic and opening?
+I'm gonna have by the end of this year. Yeah, so
+To acquire excess compute. I mean, yes, there is capacity hyperscalers
+That and not all contracts for compute are long term right five years, right? There's compute that in 2023
+2024
+825 that were signed at not five-year deals right open eye the vast majority of their compute is signed at five-year deals
+But they could you know, there were there were many other customers that had one year two year three-year deals six-month deals on demand and as these contracts roll off
+Who is the participant in the market most willing to pay price and
+In this sense right we've seen a 200 prices inflect a lot and go up and
+People willing to sign long-term deals for you know as above two dollars even right like I've seen
+deals where certain AI labs
+Be a little bit vague here for a reason have signed at as high as two dollars and forty cents for two or three years for
+H-100s which if you think about the margin a dollar forty for hopper when you release it
+Or hopper to build it across five years and now two years in your signing deals that are two to three years
+That are at two dollars and forty cents those margins are way higher, right? And so now you can crowd out
+All of these other suppliers whether it's Amazon had these or Corrie've had these or together AI or nebias or whoever it is, right?
+You know the you these these Neil clouds
+or the
+Firms that had a higher percentage of hopper in general because there were more aggressive on it a and b
+They tended to sign
+shorter-term deals, you know, not Corrie, but the others tended to sign shorter-term deals and so hey
+if I want hopper there is some capacity out there and then also
+while most of the capacity at like an oracle or Corrie is signed for a long-term deal in terms of black well
+Anything that's going online this quarter's already sold and in some cases
+They're not even hitting all the numbers that they promised they would sell because there's some data center delays not just those two but like nebias and all the other folks
+Microsoft Amazon Google but there is a lot of Neil clouds as well as some of the hyper scalars who have capacity
+They're building that they did not sell yet or capacity that they were going to allocate to some internal use
+That is not necessarily super a AI focused that they may now turn around and sell or they may you know in the case of
+Anthropic they don't have to have all the compute directly, right? Amazon can have the compute they can serve
+Bedrock or Google can have the compute and serve vertex or Microsoft can have the compute and serve foundry and then do a revenue share
+Withinthropic or vice versa. Okay, basically you're saying Anthropic is having to pay either this like 50% mark-up in the sense of the revenue share
+Or in the sense of
+Last-minute spot compute that they wouldn't have otherwise had to pay had they bought the computer early right and and you know
+There's a trade-off there but also at the same time
+You know for a solid like four months everyone was like open-air
+We're not gonna sign deals with you like that sounds crazy right because you guys don't have the money now everyone's like yeah
+Oh, but I believe you the whole time we can we can sign any deal because you've raised all this money
+But in a sense of Anthropic is constrained in that sense
+There are not that many incremental buyers of compute yet because Anthropic hit the capabilities to your first where they're
+Revenue is a meaning that that's interesting like that that's this
+You know because otherwise you're like well having the best model is a extremely depreciating asset that you know
+Three months later, or you don't have the best model, but like the reason it's important is that you can sign these deals and then lock in the compute in advance get better prices
+Isn't this also implied by the way
+And maybe this is an obvious point, but there's at least until recently people were had made this huge point about
+Oh, what is the depreciation cycle of a GPU and the bears the Michael Buries or whatever have said
+Look people are saying that
+Four or five years for these GPUs and in fact if you
+Maybe it's because the technology is improving so fast or whatever
+Anybody makes sense to have two-year depreciation cycles for these GPUs
+Which increases the sort of like reported
+Amortized catbacks in the given year
+And so makes that maybe financially less
+Look rid of the building all these clouds, but in fact you're pointing at like
+Maybe the depreciation cycle is even longer than five years because if we're using hoppers and then
+Especially if AI really takes off in in 2030. We're like fuck we got to like get the seven nanometer fabs up and we got to like
+We got to go back to the a100 like return on the a100 again
+Then it's like actually the depreciation cycle is incredibly long and
+So I think that's an interesting financial implication of where you're saying there's a few
+Strings to pull on there one is
+What happens to the depreciation of GPUs right?
+And I guess I didn't answer your prior question. I'm just like anthropic
+I
+Think we'll be able to get to like five gigawatts ish maybe a little bit more by the end of the year through themselves as well as
+Their product being served
+Through bedrock or through vertex or through foundry
+I think they'll be able to get to five or six gigawatts which is way above their like initial plans, right?
+You know and and anyways, that's that's sort of like and an open add will be
+Roughly the same maybe a little higher
+Actually a little bit higher based on our numbers, but
+Anyway, the depreciation cycle of a GPU right Michael Burrie was saying it's you know three years or or last right is like sort of his argument and
+There's sort of two ways and lenses to look at this like mechanically
+In this you know, there's a TCO model right a total cost of ownership of the GPU
+Where we sort of project pricing out for GPUs and build up the total cost of a cluster
+But there's a number of cost right there's your data cap center cost right there's your networking cost
+There's your hand smart hands and people in the data center
+Swapping stuff out there's your spare parts right there's your actual chip cost
+There's your server costs all these all these various costs gets lumped together and there's some depreciation cycles on it
+You know, there's certain credit costs on it
+And you get to okay, that's how you build up hey and a 200 cost of $40 an hour to deploy at volume across five years if your depreciation is five years
+And then if you sign a deal at $2 an hour for those five years or gross margin is roughly 35 percent
+It's a little bit above that, but you know if you sign it for a dollar ninety it's 35 percent roughly
+And then at you assume at that fifth year the GPU falls off of us right it's dead
+And in some cases, you know, sort of the argument people are making is well
+If you didn't sign a long-term deal
+Because every two years in videos tripling quadrupling the performance while only two-axing the price or 50 percent increasing the price
+Then the price of an 1,800 sure maybe the value in the market was two dollars at 35 percent gross margins
+In 2024, but in 2026 when blackwell is in super high volume and deploying millions a year
+You're actually now worth a dollar an hour and when rubin in 27 is in super high volume right even though start shipping this year is
+in super high volume next year
+Doing millions of chips a year deployed into clouds
+You've got another three-axing performance and another 50 percent or two-axing price actually the the hoppers only worth 70 cents an hour
+And so the price of a GPU would continue to fall that's like one lens the other lenses
+What is the utility you get out of the chip right because if you could build infinite rubin or infinite
+Of the newest chip then yes, that's exactly what would happen the price of a hopper would fall
+At a spot or a short-term contract rate as the new chips come out and the price per performance goes up
+But because you are so limited on semi-conductors and
+Deployment timelines and all these things you end up with actually what prices these chips is not
+Hey, what's the comparative thing I can buy today? It's actually what is the value I can derive out of this chip today, right and in that sense
+Let's take GPT 5.4 GP5.4 is both weight cheaper to run than GP4 has fewer active parameters
+It's much smaller right in that sense of active parameters plus because it's a you know
+Ops parser moe versus GP4 being a course or moe
+There's also been so many other advancements in training rl
+Model architecture et cetera et cetera data qualities
+All these things that have made GP5.4 way better than GPT 4 and it's cheaper to serve and so when you look at
+an H-100 it can serve more tokens per GPU of 5.4 than if you'd ran for GPT 4 on it, right?
+So so at some sense it's producing more tokens of a model that is of higher quality interesting and so
+In some sense, you know, obviously GPT 4 what is the maximum term for its tokens?
+You know, maybe maybe it was a few billion dollars, maybe those tens of billions of dollars adoption takes time
+For GP5.4 that numbers probably north of a hundred billion, but there's an adoption lag and there's competitions
+All the people are getting it and there's the constant improvements that everyone else is having so if if improvements stopped
+You know, here the value of an H-100 is now predicated on the value that GP5.4 can get out of it instead of the value that GP4 can get out of it
+And the margins and all that stuff that these labs are doing and they're in a competitive environment so their margins can't go to infinity
+So you sort of have this like dynamic that is quite interesting in that
+And H-100 is worth more today than it was three years ago. That's crazy
+And it's also interesting for the perspective of like just take that forward if you if we had actual
+H-i models developed we had like genuinely human on a server at a human like
+On a flop basis in H-100
+These are such hand maybe numbers about how many flops can the brain do but on a flop basis an H-100 is estimated to
+One E 15 is like how much some people estimate the human brain doesn't flops
+Obviously in terms of memory the human brain has way more H-100 is like 80 gigabytes and brain might have petabytes
+Oh, you've got petabytes
+Name
+Name a petabyte of ones zero's bro name me a string
+Well, this is actually the point or like actually and no, we've just got the best sparse attention techniques
+But genuinely the right like in like in the sort of like amount of information that is compressed and might be petabytes
+But like the actual it like this you know, it's like extremely sparse. I'm oh
+But anyways imagine if we had a human knowledge worker can produce six figures a year of value and so if a
+H-100 can produce something close to that if we had actual humans on a server
+The value of an H-100 is like a can repay itself in the course of like a couple of months
+So as I've been going through everything to prefer taxes
+I realized that I work with over 50 different contractors last year from cinematographers to audio technicians to editors
+And I owed all of them ten ninety nights in the past I've just used a spreadsheet and a big fold
+There are of invoices to figure out who I need to collect tax forms from but with so many contractors
+This takes a bunch of time and I've almost miss some people this year though mercury made my process way more straightforward
+Whenever I pay somebody in 2025
+I just hit a toggle to have mercury requested W9 from them because of that everything that I needed to issue ten ninety nine
+Scott sent directly to mercury
+I literally just clicked a button and mercury generated and sent them all out
+This is just one of the many things that I never would have assumed that a baking platform could just handle for me
+Mercury has a bunch of features like this which are gonna collectively save me multiple days this tax season
+You can learn more at mercury.com
+Mercury is a fintech company not an F-D-I-C in short make baking services provided through choice financial group and column N-A members F-D-I-C
+So when I knew Rdario
+The point I was trying to make is
+Not that I think the singularity is two years away and therefore
+Dario desperately needs to buy more compute although it's the revenue is certainly there that it needs to be buying more compute
+But the point I was trying to make is that given what Dario seems to be saying given his statements that were two years away from a data center of geniuses
+Certainly not more than five years away and
+Data server geniuses should be earning trillions upon trillions of dollars of revenue
+It just does not make sense why
+He keeps making these statements about being more conservative on computer to your point buying being less aggressive than opening eye on compute
+And I guess that point got lost because people were like roasting me about like oh, this podcast
+I try to convince this like
+multi hundred billion dollar company CEO like why don't you you all though it bro
+But no, I was trying to say that is internally his statements are inconsistent
+Anyway, so it's good to iron it out. Yeah, I think you know going back to like sort of the earlier view that if the models are so powerful
+The value of a GPU goes up over time
+As we approach closer and closer to you know, let's say a point where right now only open eye andthropic have that viewpoint as we approach further and further out
+Actually everyone is going to even with open source models be able to like sort of like start to
+See that value skyrocket per GPU and so in that sense you should you should commit now to compute but
+Interestingly in like an anthropic fashion, right
+You know, there's there's a bit of a meme that they are they don't they have problems with commitment issues and they're like sort of polyurever
+Not that I don't I hope like this is a bit of a me
+This is everything
+By the way, so there's this interesting economics effect called alcan Allen
+which is the idea that if you increase the fixed cost of different goods
+One of which is higher quality and which was lower quality that will make people choose the higher quality good on the margin
+So to give it a specific example
+Suppose the you know better tasting apple cost two dollars and then like the shitty your apple apple cost one dollar
+Okay, now suppose you put an import tariff on them and so now
+Now it's three dollars is a two dollars for like good great apple
+Medium apple right is that because they both increase by a dollar or should it be like 50% increase no no
+Because they both increase by a dollar that the whole effect is that if there's a fixed cost of light to both the relative price the price difference between them
+The ratio changes so previously it was like this the more expensive one was two x more expensive now
+I just 1.5x more expensive as I wonder if it applied to AI that would mean that look if
+If GPUs are gonna get more expensive there will be a fixed cost increase in the price of compute yes as a result
+That will push people to be willing to pay
+Higher margins to for slightly better models
+Because the calculus is I'm gonna be paying all this money for the compute anyways
+I might as well just pay slightly more to making sure it's like the very best model rather than a model that's slightly worse
+Right, so the hopper went from two to three dollars and if
+Hopper can make a million tokens of
+Opus and it can make two million tokens of sonnet
+The price differential between opus and sonnet has decreased
+Because the price of the GPUs increased by a dollar from exactly interesting
+I think that makes a ton of sense also we I think we just see all of the volumes are on the best models today all the revenues on the best models today and
+in a compute limited world
+There's sort of two things that happen right a companies that have locked up
+You know and and don't have commitment issues, you know have these five-year contracts for compute
+They've kind of locked in a humongous margin advantage because they've locked in compute for
+Five years at a price of what it transacted at five years ago or three years ago or two years
+Going whatever it is
+Whereas if you're now three years into that five-year contract and someone else is two-year contract or three-year contract rolled off
+And now you're trying to buy that at you know modern pricing when you're priced to the value of models the price is gonna be up a lot more
+And so in a sense like the person who committed
+Early has better margins in general and the percentage of the market that is in long-term contracts is much larger than the percentage of the market in short-term contracts
+That can be the sort of flex capacity that you add at the last second
+And at the same time right so where does the margin go right because models get more valuable
+How much can the cloud players flex
+They're pricing well if in fact like if you look at Corrie if their average term duration is like over three years right now
+And for like 98% plus of their compute so over three years
+And so they end up with this like conundrum of like well they can't actually flex price
+But
+Every year they're adding incrementally way more capacity than they had previously right
+This year alone right met as adding as much capacity as they had in the entire fleet of compute and data centers for all purposes for serving what's
+Appet Instagram and Facebook in 2022 and doing a right
+They're adding that alone this year so in the same sense, you know, you talk about met as doing that Corriev and and
+Google and my Amazon all these companies are adding insane amounts of compute
+Year on year on year that new compute gets turns acted at the new price
+So in a sense yes, you've walked in as long as we're in a sort of a takeoff right
+Oh, open and I went from 600 megawatts to 2 gigawatts last year from 2 gigawatts to you know
+6 plus this year and you know six to 12 next year right
+The incremental added compute is where all the cost is not the prior long-term contracts
+So then who holds the card is the info providers for charging margin right?
+So now the cloud players the Neil clouds are the hyperscalers can charge the margin. Oh, they can't because
+Or they can't at some extent but then as you go upstream to oh
+Well, who has access to all the memory and logic capacity? Well, it's it's in video for the most part
+They've signed a lot of long-term contracts
+You know, they've got like $90 billion of long-term contracts today and they're negotiating three-year deals with the memory vendors today
+You know, you've got you've got you know, obviously Amazon and Google through broad-com and they're you know Amazon directly and all these companies sort of AMD
+These companies hold all the cards because they've secured the capacity and
+And TSMC is not raising prices, but memory vendors are just like sort of to some extent raising a lot of price
+Right, so they're gonna double or triple price again
+But then they're also signing these long-term deals so who is able to accrual the margin dollars is actually
+You know potentially the cloud potentially the chip vendors and the memory vendors
+Until TSMC or ASML like breakout and they like know actually we're gonna charge a lot more
+But at the same time do the model vendors get to charge crazy margins
+I think at least this year we're gonna see margins for the model vendors go up a lot
+Right, cuz they're so capacity constrained they have to demand destroyed demand right there is there's no way they can
+Continue and throw up a can you have the current pace without destroying demand. Yeah, it's good until
+logic and memory
+How specifically in video has been able to lock up so much of both so if you I think according to your numbers by
+27 in video is gonna have like
+70 plus percent of n three
+Wait for capacity or something like that
+Or around that area and then I forget what the numbers were for a memory at Ski Hinex and Samsung and so forth
+But if you look at so think about how the new cloud business works and how in video works with that or how the
+Our environment business works and how inthropic works with that in both those cases and video is purposely trying to fracture
+The complementary industry to make sure that they have as much leverage possible
+So they're giving you know a allocation to random neoclouds to make sure that there's not one person that has all the compute
+Similarly inthropic or opening I when they're working with the data providers
+They say no we're gonna just see the huge industry of these things so that
+We're not locked into anyone
+Supplier for for data environments and I wonder why
+On the three nanometer process that that's gonna be trinium three that's gonna be TPU V7
+Other accelerators potentially and why is TSMC just giving it all up to in video rather than you know
+Trying to fracture the market. Yeah, so I think
+There's a couple like points here, right?
+On three nanometer, you know if we go back to last year the vast majority of three nanometer was apple right apples
+Being moved to two nanometer memory prices are going up so apples volumes may go down right because as memory prices go up
+They have to either they cut margin or they
+Move move on, you know, there there's some time lag because they have long-term contracts, but basically
+Apple likely reduces demand slash moves to two nanometer faster
+We're two nanometers only capable of sort of mobile chips today
+And in the future AI chips will move there. So sort of apple has that and then apples also talking to
+Third party vendors because they're getting squeezed out of TSMC a little bit
+Because TSMC's margins on high performance computing
+HPC AI chips, et cetera, is higher than it is for mobile
+Because they have a bigger advantage in mobile
+It's already an HPC than they do in mobile, but anyways
+When you look at what's TSMC running calculus here actually they're providing really good
+Allications to companies that are doing CPUs, right?
+So when you think about hey Amazon has trinium and Amazon has
+Graviton both of those are on three nanometer Graviton being their CPU training being their their AI chip
+They're actually
+TSMC's much more excited to give allocation to Graviton than they are to
+Trainium because they view CPU business as more stable long-term growth, right?
+And as a company that is conservative and doesn't want to ride cycles of growth too hard
+you actually want to allocate to the
+The market that is more stable and lower growth rate first before you allocate all the incremental capacity to the fast growth rate market now
+That is that is the case generally and so when you look at like hey same for AMD right the allocations they get on
+You know their CPUs is like TSMC's much more excited about those than they are for GPUs
+Likewise for Amazon and in video
+Is a bit unique because oh, yes, they have CPUs. Yes, they make switches. Yes, they make networking
+They make and be laying they make all these different infinitive and ethernet all these different products next
+By and large most of these things will be on three nanometer by the end of this year with the rubin launch and all the chips that are in that family
+Did you be being the most important one and yet in videos getting the majority of supply right
+part of this is because
+You look at the market and you like sort of like you know TSMC and others like they there are many ways that they a forecast market demand
+But also it's the market signal right the market signal
+Hey, we need this much capacity next year we need this much we need this much will sign non-cancer well non-returnable
+We may even pay deposits right things like this and video just do it way earlier than Google
+Or Amazon and in some cases Google and Amazon had stumbling blocks you know
+There's one one of the chips got delayed slightly by a couple quarters
+Trainium and in all these sorts of things happen and and so in that case there was a huge sort of like
+Okay, well these guys are delaying but in video wanting more more more more more more and we are checking with the rest of the supply chain is there enough capacity
+Right, so they're going to all the PCB vendors and they're saying hey is there enough
+Victory giant is there enough PCB? This is like one of the largest suppliers of PCBs to Nvidia and there are Chinese company all the all the PCBs come from China
+Sort of from them
+Or many of them and anyways, they're like do you have enough PCB capacity great. Oh, hey memory vendors who has all the memory capacity. Oh, okay in video. That's great. So when you look at
+Sort of in the same way, you know, who who is age-y piled enough to buy compute in long-time lines at
+Levels that seem ridiculous to people who aren't age-y piled
+But nonetheless they're willing to pay a pretty good margin
+And sign it now because they view
+In the future that that ratios screwed up the same thing happens with the supply chain for semiconductors, right
+In video was well, I don't think in videos quite age-y piled, right?
+You know, Jensen doesn't believe software is going to be automated fully and all these things are accelerated computing not AI ships
+It's AI chips, right, but that's what he calls it, right?
+Yeah, because I mean, I think there's a broader term, right? AI is within that, but like
+Physics modeling and simulations and like or it is just like he's not embracing this sort of like man use case and
+I think he's embracing it, but like I just don't think he's like age-y piled like Dario, right or Sam
+But he's still way way more age-y piled than
+Google was at Q3 of last year or Amazon was at Q3 of last year and he saw way more demand, right?
+And the reason is pretty simple, you know, you can see all the data center construction is like okay, I want to have this market share
+You know, we sort of like have all the data centers tracked and you know, you can see
+You know, there's there's a lot of data centers that you could say well, they could be one of the other, right?
+And so in some to some extent Google and Amazon, you know Google especially even though they're you know
+Their TPU is just better for them to deploy. They have to deploy a crap load of GPUs because they don't have enough TPUs to fill up their data centers
+They can't get them fat. I mean, can I so I have a question about that
+Google sold I think a million was at the V7 the ironwoods to endthropic and
+You're saying in general, there's just with the big bottleneck right now this year and next year
+I mean, I guess going forward forever now is going to be the you know logic memory the stuff that like it takes to build these ships and
+Google has deep mind. This is the other third prominent AI lab and if this is the big bottleneck why would they sell it rather than just giving it to deep mind
+Right, so so this is again like a problem with like
+You know deep mind people are like this is insane. Why did we do this? Yeah, right? But then Google cloud people and Google executive saw a different like thought process, right?
+And basically
+You know you and I know the compute team there's one guy from you know both of them actually came from Google
+At at the main people on on the compute team atthropic they saw this dislocation
+They negotiated a deal and they were able to get access to these to this compute before Google realized and so
+The actually the chain of events at least from our data that we found was in in early Q3
+We saw over the course of two over the course of like six weeks. We we saw capacity on
+Andthropic or sorry on TPUs go up by a significant amount over the course of those six weeks and it went up like multiple times in those six weeks, right
+There were multiple requests Google even had to go to TSMC and explain to them why they needed this
+Increasing capacity because it was so sudden but that a lot of that capacity increase was for selling to entropic
+Yeah, because entropic saw it before Google and then
+Google had nanobinano and Gemini three which caused their user metrics to skyrocket and leadership at Google
+And then they started making the statement of we have to double compute every is it six months or I don't remember the exact number that they said
+But they they really woke up a lot more and then they're like oh
+Hey TSMC we want more we want more and it's like well sorry guys like we're sold out for next year
+We can work on next year, but you can maybe get like five ten percent more for 26
+But really we're gonna work on 27 right there's sort of like you know
+There's this like information asymmetry of the labs in my mind right
+I don't know if this is exactly the narrative I've spun myself from seeing all the data in the supply chain
+I'm like wait for orders and like what's going on with the data centers that you know anthropic signed and fluid stacks signed and all this like sort of it's
+It's it's it's it's pretty clear to me that Google screwed up and you can see this from
+Google's Gemini ARRs right
+They had next to nothing in Q1 Q3 Q3 a little bit right once they started inflecting but Q4 they were at like five billion ARR right
+Exiting or something like this so it's like or five billion revenue four Q4 on an ARR basis
+And so it's clearly like Google didn't see revenue skyrocket
+And in a sense right andthropic was
+Not willing you know is kind of had like a little bit of commitment issues before their ARR exploded even though there
+Have far more information asymmetry and see what's coming down the pipe
+Google is going to be more conservative than anthropic is a and b
+Google had had even less ARR
+So they sort of were like I think just not willing to like sort of do it and then they realize they should do it
+And so now since then
+Google has gotten absurdly agi-pilled right in terms of like what they're doing
+They bought an energy company. They're buying putting deposits down for turbines
+They're buying a ridiculous percentage of the power gland
+They're going to utilities and negotiating long-term agreements are doing this on the data center and
+Power side
+Very very aggressively right so you know, I think Google woke up towards the end of last year
+But it took them some time and how many gigawatts do you think Google will have by the end of next year by my data
+You charged for that kind of information
+I feel like every year the bottleneck for a widest preventing us from scaling a compute keeps changing
+a couple years ago was co-host last year it was power this year
+You'll tell me where the bottleneck is this year, but I want to understand
+Five years out what will be the thing that is constraining us from
+Deploying the singularity. Yeah, I think the biggest bottleneck is compute and
+For that the longest lead times supply chains are not power or data centers. They're actually the semiconductor supply chain themselves
+Right switches back from being power and data center as a major bottleneck two chips and in the chips apply chain
+There's a number of different bottlenecks right there's memory. There's logic way first from TSMC
+there's
+Fabs themselves construction of the fabs takes a couple of years three two to three years versus a data center takes
+Less than a year right we've seen Amazon build data centers in as fast as eight months
+Right, so there's a big difference in lead times because of the complexity the building the fab that actually makes the chip
+And then the tools right those also have really long lead times and so the bottlenecks as we've scaled
+Have shifted from hey, what is this supply chain currently not what is it currently not able to do?
+Which was co-host and
+Power and data centers, but those were all shorter lead time items right co-oss is a much more simple
+Process of packaging chips together
+Power and data centers are ultimately way more simple than the actual manufacturing of the chips and so there's been some
+sliding of of of capacity across you know
+Mobile or PC to data center chips, but that's been somewhat fungible whereas on in and whereas co-oss and power and data centers
+So I've sort of had to start a new as supply chains, but now there's sort of no more capacity for
+the mobile and PC
+Industries which used to be the majority the semiconductor industry to shift over to AI right in video is now the largest customer at TSMC and
+In video is the largest customer SK high necks the largest memory manufacturer right so it's sort of
+Impossible for the scaling or the sliding of
+Resources away from the common person right PCs and and smartphones to shift anymore towards the AI chips and so now how do we scale the AI?
+chip production and that's the biggest bottleneck
+As we go to 2030 is those you'd be very interesting if there is an absolute gigawatts healing
+That you can project out to 2030 based just on hey we can't produce more than this many UV machines
+Right so two scale compute further right there's some different bottlenecks this year next year
+But ultimately by 2829 the bottleneck falls to the lowest wrong on the supply chain which is ASML
+Makes the world's most complicated machine ie in UV tool and the selling price for those is
+$300-$400 million and currently they can make about 70 next year they'll get to 80
+Even under very aggressive supply chain expansion they only get to a little bit over a hundred by the end of the decade and so what does that mean?
+Okay, they can make a hundred of these tools by the end of the decade and you know 70 right now
+How does that actually translate to AI compute right we we see all these numbers from Sam Altman and
+Many others across the supply chain gigawatts gigawatts gigawatts right how many gigawatts are we adding
+And we see you know Elon saying hey the hundred gigawatts in space a year a year right the the problem with any of
+These numbers are the challenge to these numbers is you know actually not the power not the data center
+We can dive into that but it's it's it's manufacturing the chips right so a gigawatt of you know Nvidia's Rubin chips
+Right so and Rubin is announced at GTC
+I believe the week this podcast goes live and to make a gigawatt worth of data center capacity of Nvidia's latest chip that they're
+releasing at the end of this year towards the end of this year you need you know a few different wait for technologies right
+You need about 55,000 waitfers of three nanometer you need about 6,000 waitfers of five nanometer and then you need
+About 170,000 waitfers of DRAM right memory and so across these three different buckets
+Each of these requires different amounts of EV right so when you manufacture a wafer
+There's thousands and thousands of process steps where you're depositing material removing them
+But the sort of key critical step which at least an advanced logic is like 30% of the cost of the chip is
+Something that doesn't actually put anything on the wafer right you take the wafer you deposit photo resist which is like a
+Chemical that basically chemically changes when you expose it to light then you stick into the EV tool
+Shines light at it in a certain way it patterns it right because there's what's called a mask
+Which is a stencil effectively for the design and so when you look at a wafer
+You know leading edge string nanometer wafer has 70 or so masks right 70 or so layers of lithography
+But 20 of them are the most advanced EV right and that specifically
+You know if you think about okay, well if I need 55,000 waitfers for a gigawatt if I do
+20 UV wave passes per wafer you then
+You can do the math that's like okay, that's 1.1 million passes of EV for a single gigawatt
+So actually like it's pretty simple and then once you add the rest of the stuff ends up being 2 million right across
+5 nanometer and all the memory you're at roughly
+2 million UV passes for a single gigawatt you know these these tools are very complicated so
+When you think about what it's doing across a wafer it's taking the wafer and it's scanning and it's stepping across right
+It does this hundreds of times across the entire or dozens of times across the whole wafer and and so when you're talking about hey
+How many UV passes that's the entire wafer is being exposed at a certain rate a wafer or UV
+talking do roughly 75 wafer per hour and the tool is up roughly 90% of the time right so in the end
+You end up with actually I need about 3.5 UV tools to do the 2 million UV wafer passes for the gigawatt
+So 3.5 UV tools
+Satisfies the gigawatt so it's funny to think about the numbers right because we're talking about oh what's the gigawatt cost
+It costs like $50 million roughly right whereas what is 3.5 UV tools costs that's like 1.2 right right
+It's actually like quite a lower number which is which is interesting to think about like oh 50 gigawatt's an economic
+You know sort of cat backs in in the data center and what gets built on top of that in terms of tokens is even larger right it might be a hundred billion dollars worth of
+AI value into the supply chain is held up by this
+1.2 billion dollars worth of tooling that simply just cannot expand its supply chain quickly and I think
+So you you had this article recently where you were saying over the last three years
+A TSMC has done a hundred billion dollars of capex it's like 30 30 40
+And if you think about I mean a small fraction of that is sort of like being used by
+In video for the three nanometer that it's gonna or you know previously four nanometer that that's using for its chips
+But in video has turned that into what was what what what are it's like
+Earnings last quarter is like 40 billion and it's a 40 billion times four so
+160 billion dollars so in video alone is turning
+Some small fraction of a hundred billion in cat backs. It's gonna be depreciate over many years not just this one year
+Into 160 billion dollars in a single year and then that it gets even more intensity go down the supply chain to a SML
+But just taking a billion dollars with the machines to produce a gigawatt and in the of course those machines last for more than a year
+Right, so it's it's doing more than that. Okay, so now I want to understand
+Okay, well, how many such machines will there be by 2030 if you include not just the ones that are sold that year
+But are have been compiling over the previous years
+And what does that imply about the
+Sam Altman says he wants to do a gigawatt a week in 2030
+Or when you add up those numbers is that compatible with that right? That's that's completely compatible, right?
+Because if you think about TSMC and the entire ecosystem has something 250 to 300 EV tools already
+And then you stack on 70 this year and you next year growing 200 by 2030
+You're at like 700 EV tools by the end of the decade
+700 EV tools three and a half tools per gigawatt
+Assuming it's all allocated to AI which it's not but three and a half tools per gigawatt gets you to 200
+Gigawatts worth of AI chips for the data centers to deploy, right?
+So 200 gigawatts Sam wants 50 gigawatts right 52 gigawatts a year
+He's only taking 25% share then right obviously there's some share given to
+You know mobile and PC
+Assuming that
+You know for some reason we're allowed to even have consumer goods still
+You know and we don't get priced out of them, but you know roughly like he's saying 25% 50%
+You know 25% market share of the total chips fab that's that's kind of like very reasonable given
+You know this year alone. I think he's gonna have access to 25% of the black wall GPUs that are deployed, right?
+So it's it's not that crazy. I find it surprising that you know what when was the first
+When did ASML start shipping UV tools when seven nanometer started?
+So I don't know when that was exactly but you're saying in 2030 they're gonna be using machines that
+Initially we're shipped in 2020 so 10 years you're using the same most important machine in this most
+Technologically advanced industry in the world I find that surprising so it's most been shipping UV tools now for
+Roughly a decade but it only entered mass volume production around 2020
+You know the tools not the same
+You know back then the tools were even lower throughput
+There were there's various specifications around them called overlay, right?
+You know as mentioning you're stacking layers on top of each other. You'll do some UV
+You'll do a bunch of different process steps depositing stuff etching stuff cleaning the wafer
+You know dozens of those steps before you do another UV layer
+There's a spec called overlay, right? Which is okay? You did all this work, you know you drew these lines on the wafer
+Now I want to draw these dots, right? Let's just say I want to draw these dots to connect this
+These lines of metal to and then dot, you know holes and then the next layer up is another set of lines
+It goes perpendicular so now you're connecting wires going perpendicular to each other
+There you have to you have to be able to land them on top of each other so it's called overlay and
+Overlay is a spec that's been improved rapidly by ASMR
+Way for throughput has been improved rapidly by ASMR and also the price of the tools gone up
+But not as much as the capabilities of the tool, right? Initially the UV tools were like 150
+Million and over time they're now like 400 billion
+You know as I as I look out to 2028
+But the capabilities of the tools have more than doubled as well, right? Especially
+On throughput and overlay accuracy, which is the ability to stack you know accurately align the
+The subsequent passes on top of each other
+Even though you do tons of steps between and so this is this is
+You know ASMR is improving super rapidly. I think it's also something noteworthy to say ASMR
+is
+You know maybe one of the most generous companies in the world, right?
+They have this linchpin thing. No one has anything competitive. Maybe China will have some
+UV by the end of the decade, but no one else, you know, has anything even close to UV
+And yet they haven't taken price and margins up like crazy, right? You know you go ask
+You know some other folks, you know that we talk to all the time like you know for example
+Lampel and they're like what you know, let's let's let's have the price go up, right?
+Because they can the margin is there you can you can take the margin like Nvidia takes the margin
+Memory players are taking the margin, but ASMR has never risen the price more than they've
+Increased the capability of the tool
+And so in a sense they've always provided net benefit to their customer
+It's not that the tool is stagnant. It's just that like you know
+These tools are old. Yes, you can upgrade them some and the new tools are coming and for simplicity
+Sake we're kind of ignoring you know the advances for this podcast the advances in overlay or throughput per tool
+So you say we're producing
+60 of these machines this year and then 70 80 over subsequent years
+What would happen if ASMR will just decided to double its catbacks or triple its catbacks?
+What is preventing them for producing more than a hundred in 2030 why why so confident that even five years out you can be
+Relatively sure what their production will be so I think I think a couple factors here right
+ASMR has not decided to just go yellow. Let's expand capacities fast as possible, right?
+In general the semiconductor supply chain has not right. It's lifted through the booms and bust and
+We can talk a bit more about it, but basically no one
+You know some players as of very recently have like woken up, but in general no one
+Really sees demand for 200 gigawatts a year of AI chips or you know trillions of dollars of spend a year in the semiconductor supply chain
+They're just like they're not they're not say AI piled right. They're not age yet. We're gonna get to trillion dollars this year
+Yeah, I I feel you, but I'm just like like no one really understands this in the supply chain
+Constantly we're told our numbers are way too high and then when they're right they're like oh, yeah, but your next year's numbers are still too high
+And it's like but anyways like ASMR
+has sort of their tool has four major components right it has
+The source right which is made by Simon San Diego
+Has the
+Redical stage which is made in Wilmington
+Connecticut right has the wait for stage and the
+The optics right the lens is in such and those two are made in Europe right and so when you when you look at each for each of these four
+They're tremendously complex supply chains that
+They have not tried to expand massively and be when they try to expand them the
+Timelag is quite long right and so again
+This is the most complicated machine that humans make period right at a volume
+Any sort of volume, but like let's talk about the source specifically right what does the sports
+Source do it drops these 10 droplets it hits it three subsequent times with the laser perfectly
+So the first one hits this 10 droplet expands out it hits it again so it expands out to this perfect shape and then it blasts it
+It's super high power and
+The 10 droplets get excited enough that they release
+UV light 13.5 nanometer and then it's in this thing that is like basically collecting all the light and directing it into the lens stack
+Right then you have the lens stack which is Carl's ice right as you mentioned and and some other folks, but zis being the most important part of it
+They also have not tried to expand production capacity because they don't see any you know
+They they they they're like oh yeah like
+We're growing a lot because of AI we're growing from 60 to 100 right it's like no, no, no
+We need to go to like a couple hundred, but it's it's fine whatever
+Each of these tools has you know, I think 18 of these lenses effectively
+mirrors
+They are they're multilayer mirrors which are perfect layers of Militonum and
+Ruthenium if I recall correctly
+Stacked on top of each other in many layers and then the light bounces off of it perfectly
+But it's not just like you know like when we think about a lens, you know, it's it's like in a shape and it focuses the light
+This is a this is like a mirror that's also a lens and so it's pretty complicated
+Any defect in this perfect layer of stat in this in these like
+Super thinly deposit stacks will mess it up any curvature issues like there is a lot of challenges with scaling the production
+It's quite artisanal right in the sense right because you're not making
+tens of thousands of these a year you're making
+hundreds you're making thousands right you know talk about 60 tools
+Year
+18 of these per tool you end up with you know you're still in the
+You know hundreds of tools
+Or thousands you're at the thousand number roughly for these these lenses and projection optics
+So then you and then you step forward to the radical stage
+Which is also something really
+Crazy this thing moves at I want to say nine Gs like it will shift nine Gs because as you step across a wafer
+The tool will go and and the wafer stage is complementary. It's the wafer part
+So you you line these two things up you're taking all the light through the lenses that's focused and and here's the radical
+Here's the wafer and you're passing
+The radicals moving one direction the wafer is moving the direction the other direction as it scans a
+26 by 33 millimeter
+section of the wafer and then it stops it shifts over to another part of the wafer and does it again and it does that in just seconds
+Right and each of them are moving at nine Gs and opposite directions
+So each of these things is like a wonder and marvel of like chemistry
+fabrication, you know
+Sort of like mechanical mechanical mechanical engineering
+Optical engineering because you have to align all these things and make sure they're perfect
+All these things have crazy amounts of metrology because you have to perfectly test everything because if anything is messed up
+They yield it goes to zero right because this is such a finely tuned system and by the way
+You it's so large that you're building it in all these you're building in the factory in hindhoven
+Another lens and they're deconstructing it and shipping it on many planes
+To the customer site and then you're reassembling it there and testing it again and that process takes many many months
+So like it's it's just there's so many steps in the supply chain right whether it's Zeiss making their
+Lenses and projection optics or Simer which is an ASML owned company making the UV source and each of these has its own complex supply chain
+Right is the most commented. There's supply chain has over 10,000 people in it right
+Like individual suppliers. Yes, and it might not be directly it might be through like hey, you know
+Zeiss has so many suppliers and you know xyz company as so many suppliers, but you know
+They these you know
+If you just think about like okay, you're talking about two physically moving objects that are like this large and this large
+You know
+Besides of a wafer right and it has to be accurate to the level of
+You know single digit nanometers or even smaller because the entire system the overlay right
+Layer to layer a variation has to be on the order of three nanometers right and so if overlay is three nanometers
+That means each individual part the accuracy of its physical movement has to be even less than that
+Right has to be sub one nanometer in most cases because the the error of these things stacks up right and and so there's no way to like
+You know just like snap your fingers and increase production right you know things simple as power
+The US going from 0% power growth to 2% power growth even though China's already a 30 was like so hard for America to do right
+And and and and that's a really simple supply chain with very few people in the supply chain right
+Who make difficult things and there's you know probably what 100,000 electricians slash people working the supply chain
+of electricity or more in the US and
+You know when you look at oh ASMR employees like so few people Carl Zeiss
+Probably employees like less than a thousand people working on this and and all of those people are like super super specialized
+So yeah, you know you can't just train random people up for this like in the snap of the finger
+You can't just get your entire supply chain to get galvanized right and videos had to do a lot
+To get the entire supply chain to even deliver the capacity they're gonna make this year
+Even though when you look go talk to anthropic they're like well we're short of TPUs or sort of training
+We're short of GPS when you go talk to open it. They're like we're short of these things, right?
+So open it in anthropic they know they need X in video is not quite as a GIP
+And they they're building you know X minus one and you go down the supply chain everyone's doing minus one and in some cases
+They're doing like divided by two right because they just don't they're not a GIP
+I pulled right I think and and so you end up with
+the time lag for this whip to react right you know the the
+The sort of AI Pildness is and and and desire to increase production is so long and then once they finally understand
+Hey, we need to increase production rapidly right and they think they understand oh, AI means we have to go from 60 to 100
+In addition to the tools all just getting better and faster, you know the source getting higher power from 500 watts to a thousand and
+You know all these other aspects of the supply chain, you know advancing technically plus increase of production
+They think they're they're like actually increasing production a lot
+But if you float through the numbers of hey, what is Elon want he wants a hundred gigawatts a year in space by 2028 is it
+Or 2029 and you know
+Sam Altman wants 50 gigawatts 52 gigawatts a year
+By the end of the decade and you look at you know probably anthropic needs the same and then you know Google needs that
+You know you go across this pledge and it's like wait no the supply chain can't possibly build enough capacity for everyone to get what they want on the side of compute
+Real conversations are a full of fits and starts and pauses and interruptions
+I mean just listen to this episode at least superficially voice models have gotten pretty good at handling these kinds of things
+But at a deeper level interruptions can throw off a model's understanding and degrade the quality of his responses
+And it's not always clear why
+Liberal box realized that this is a huge bottleneck for their customers
+So they built an evaluation pipeline called echo chain to help you diagnose and fix to your voice models
+Pacific failure modes echo chain starts by feeding conversations into your voice model
+In then injection eruptions at specific intervals and classifies any failures into one of three different modes
+One did the technology correction to keep the old plan to
+Did it adapt briefly but then slide back to older assumptions or three did it abandoned the old task entirely
+This is extremely useful information because label box can get your model the exact get-out needs to fix
+Whatever issue is preventing it from being
+Available and competent voice model
+So if you want to ensure that your voice model states perform in real conversations you should reach out to label box
+Go to label box dot com slash for cash
+So I feel like in the in the data center supply chain for the last few years people have been making arguments of
+This specific thing we are bottleneck by therefore AI compute can't scale more than x
+But then as you've written about oh no if you know say the grid is a bottleneck then we just do
+We just do behind the meter on the site. We do guess for buying this at all
+If that doesn't work there's like all these are the alternatives that people fall back on and I want to ask you a question about
+Whether we can imagine a similar thing happening
+In the semiconductor supply chain. So if EUV becomes a bottleneck
+Well, we you know what if we just went back to
+7 nanometer and do a China is doing currently in producing seven nanometer ships with multi-pattern egg with a DOV machines
+And you know if you look at a 7 nanometer ship like the a 100
+There's been a lot of progress obviously since from the a 100 to the the 100 or b 200
+but
+How much of that progress is just numerics and then like if you just told constant say
+Fp 16 for me 100 to b 100
+The b 100 is like a little over one pet a flop and then a 100 is like 300 tariff lops
+And so you have you have like basically three x
+Holding numerics constant you have like a three x improvement from a 100 to b 100 and then some of that is the process
+Improvement some of that is just the accelerator design improving which you know we could replicate again in the future
+And so then it just seems like that actually it's like very small effect from the process improving from seven nanometer or two
+Four nanometer so I don't know this is say we have
+I don't know the numbers off hand, but let's say there's like a 150
+K wait first per month of three nanometer and then eventually similar amounts for two nanometer
+But then there's a similar amount for seven nanometer, right? So if you have all those old way of ours
+And then there's maybe a 50% haircut because the process you know the bits per way for area are like
+Was it 50% less or something
+Then it's like it doesn't seem like that bad it's just bringing on seven nanometer away first and then oh, that gives you another 50 or a hundred another hundred gigawatts
+Yeah, tell me why that's naive. Yeah, so I think
+You know we potentially do go crazy enough that this is this happens because we just need incremental compute and the compute is worth
+the higher cost power et cetera of these chips
+But it's it's also unlikely to some extent to a large extent because of I think I think just comparing you know some of these are like not fair comparisons, right?
+For example, you know from a 100 which is through 12 teraphlops to
+Blackwell, which is like a thousand
+Ish of FP16
+Or maybe it's 2000 and then rubin is like 5,000 or so FP16. It's it's not a fair comparison because
+These chips have vastly different
+You know design targets, right at a 100 that's what that is what Nvidia optimized for was FB16 Pflot 16
+numerics when you look at a hopper
+They didn't care as much about that they care about FPA when when you look at rubin
+They don't care about about FB16 and BF16 as much
+They care mostly about FFP4 and 6 right and so numerics like are what they've designed the search design their chip for
+And so there's a couple like you know, okay, let's just say let's redesign
+Let's make a new chip design on seven animators sure we can do that like and then it's optimized for
+The numerics of the modern day the performance difference is still gonna be much larger than the flop's different
+You mentioned right
+Often it's easy to boil things down to flops
+Per watt or flops for dollar
+But that's actually not a fair comparison, right?
+And so this is where I sort of you can bring in hey, let's look at kimi k1 or deep seek when you look at kimi or or kimi k2.5
+Sorry and deep seek when you look at these two models and you look at their performance on hopper versus black well
+on you know very optimized software you get vastly different performance, right and
+Most of this is not attributed to flops a lot of this is a and or numerics, right because those models are actually eight bit
+So it's not like black wells and hopper, they're both optimized for eight bit and black wells not really taking advantage of it's for bit there
+You know the performance golf is is actually much larger and
+You know the way you can sort of compare them and think about them is sure it's one thing to you know shrink process
+Technology and make the transistor smaller and each chip has x number of flops
+But you forget the big gating factors just these models don't run in a single chip they run on
+Hundreds of chips at a time right if you look at deep seeks
+Production deployment which is well over a year old now. They were running on 160 GPUs
+Right and that's what they serve production traffic on and so they split the model across a 160 GPUs
+Every time you cross the barrier of a chip to another chip there is an efficiency loss because you now have to
+Transmit over you know high speed electrical surdies and there is a latency cost there's a power cost
+There's a there's all these
+Dynamics that hurt as you shrink and shrink and shrink the process node you've
+Increased the amount of compute in a single chip now in chip right a movement of data is you know at at
+Hundreds or of at least tens of terabytes a second for hundreds of terabytes a second
+Whereas between chips you're on the order of a terabytes of second right and and so this this movement of data between ships that are
+Super close to each other physically and then you can only put so many ships close to each other physically
+So you have to put ships in different racks the order of
+Data between that is on the order of hundreds of gigabits a second right 400 gig right hundred gig a second
+So 100 gigabytes a second roughly and so you've got this like huge ladder of like oh on chip
+I can communicate at super fast speeds within the rack I can communicate at a
+You know order of magnitude speeds outside the rack I can communicate at an even order of magnitude lower than that and
+As you break the bounds of chips you end up with this performance
+So anyways the reason I explain this is because when I look at when you look at hopper versus blackwell
+Even if both of them are using you know a rack worth of chips the hopper is significantly slower because the amount of performance that you have
+Leverage to the task within that you know within each domain of hey tens of terabytes a seconds of
+Communication between these transistors or or these processing elements and you know terabytes a second between these processing elements is
+Much much higher and therefore the performance is much higher. So when you look at
+inference at let's say a hundred tokens a second for deep-seek and
+Chemic H2.5 hopper versus blackwell the performance difference is on the order of 20x
+Interesting not two or three x like the flops performance difference indicates even though those are on the same process
+No, yeah, you know, there's just differences in networking technologies and what they've worked on and so you can translate some of these back
+But when you look at like rubin what they're doing on three nanometers some of these things are just not possible to do all the way back on a
+100 even if you make a new chip for interesting
+Seven nanometer. There's just like certain architectural improvements you can port there's certain ones you cannot
+And and so the performance difference is not just gonna be the difference in flops
+It's in some senses
+cumulative between the difference in you know flops per chip networking speed between chips how many flops are on a chip versus a system
+Memory bandwidth on a single chip and on this entire system all of these things compound can I say very naive question
+So this year last year the B200 has now two dies on a single chip so you can get that bandwidth on
+Single chip without having to go through enemy link or infinite band and then next year
+Rubin ultra will have four dies on one chip what is for renting us from just doing that with
+And like how many dies could you have a single chip and still get these tens of
+Terabytes a second. Yeah, so so even within blackwell
+There are differences in performance when you go when you're communicating on the chip versus across the chips
+Those those bounds are obviously much smaller than when you're going you know out of the entire chip but each
+Diverse is you know within the package and so anyways when you scale
+You know the number of chips up there is some performance loss. It's not just perfect, but it is way better than
+Different entire packages now how large can advance packaging scale
+The way Nvidia's doing it is co-oss away, you know Google and with Broadcom and MediaTack and you know
+Amazon, Tranym all these chips are doing is called co-oss, but actually you can go and look back at what
+What Tesla did with dojo right dojo
+Which they canceled and restarted?
+Anyways dojo was a chip that was the size of an entire wafer that 25 chips on it
+And there were some trade-offs right they couldn't put HBM on it
+But the positive side of it was that they had 25 chips on it and so two day it is still probably the best chip for running convolutional neural networks
+It's just not great at transformers because the you know the sort of the shape of the chip the memory
+Their arithmetic all these various specifications of it are just not well suited for transformers. They're well suited for CNNs
+In any way so so you know dojo chips
+We're optimize around that they made a bigger package, but at the same time
+You know as you make packages bigger and bigger and bigger and bigger you have other constraints right networking speed
+Memory bandwidth cooling capabilities all of these things start to rear their heads. It's not simple
+But yes, you will see a trend line of more chips on the package and yes, you're gonna be able to do that on 7 animator
+In fact, that's what Huawei did with their
+a send 910 CRD
+They put they were initially just one and then they did too
+And they're focusing on scaling the packaging up because that is an area where they can advance faster
+Then sort of process technology where they can't shrink
+But at the end of the day that's still you know that's something that you can do on the leading edge chips too
+Right anything you do on 7 animator you can also probably do on 3 animators in terms of packaging
+So if we're if you end up in this world in 2030 where the West has the most advanced
+Process technology, but it has not ramped it up as much whereas
+China I don't know if you think by 2030 they would have UV and I don't know two nanometer or whatever
+But they are semi-conductor pills, so they are producing in mass quantity
+Basically, I'm wondering what the year is where there's a crossover where our advantage in process technology has faded enough and the
+Or advantage in scale has increased enough and also their advantage in like having one country that has the entire supply chain
+And visionized rather than having random suppliers in Germany and Netherlands and whatever would mean that China would be ahead and it's ability to like
+produce mass flux. Yeah, so two date
+China still does not have you know entire indigenous semi-conductor supply chain, right?
+But with the 2030 yeah by 2030 it's it's possible that they do
+But but two date right all of of China's
+70 nanometer and 14 nanometer capacity uses ASML DV tools, right?
+And the amount that they can ship and import from ASML is is large and but the point being that
+the vast majority of ASML's revenue especially on UV all of it is outside of China. So the scale advantage is still in the
+favor of the let's call the West plus Taiwan Japan it's I don't know if they're trying to make their own
+DV and UV tools, right? They're trying to do all these things the question is how fast can they advance
+and and scale up production as well as quality and to date we haven't seen that now I'm quite
+bullish that they're going to be able to do these things over the next five to 10 years, right?
+Really scale up production really kick it into high gear they have more engineers working on it. They're
+they're more desired to throw capitalists. So by 2030 do they have fully indigenous DV?
+I think for sure for sure. Yeah, and fully indigenous UV by 2030. I think they'll have working
+tools. I don't think that they'll be able to manufacture a bunch yet, right? You know there's
+there's sort of having it work and then there's production hell, right? And ultimately like ASML had
+UV working in the early 2010s at some capacity, right? Now the tools were not accurate enough.
+They were not scaled for high production for skilled for high volume manufacturing or liable enough
+and then they had to ramp production and that all took time production hell takes time, right?
+Which is why it took another five to seven years to get UV into mass production at a fab,
+rather than just working in the lab. So how many do you view tools do you think you need to
+be a manufacturer in 2030? ASML? No, China. Well that's a great question.
+It's a bit of a challenge to look into this supply chain, especially we try really hard.
+But you know, for in some instances they're like buying stuff from Japanese vendors and if they
+want to fully indigenous supply chain, they need to not buy these lenses or buy these projection
+optics or stages from Japanese vendors, they need to build it internally. So it's really tough to say
+where they'll be able to get to. Like I honestly think it's like a shot in the dark, but it's
+probably not unlikely that they'll be able to do, you know, on the order of 100 UV tools a year,
+whereas ASML is doing hundreds of UV tools a year currently.
+You know, no one's made a process node. No company has a process node where they make a million
+wait for a month, right? Elon says he wants to do it and China's obviously going to do it, right?
+And I don't think the, you know, TSMC is trying to do that. The memory makers may get there as
+well, right, to the million wait for a month, but not in a single fab. It's sort of mind-boggling to
+think of that scale and challenging to see the supply chain galvanized for that.
+So I'm not sure, you know, I don't want to doubt, you know, China's capability to scale.
+Right, and I guess it's an interesting question that I think it might, you know, at some point
+timing to ask us, we'll do the deep dive on this. But I think this question of like, by when
+would China be able, like indigenous Chinese production would it could be bigger than the rest of
+the West combined, if you just add up like all the, and put it in the input of your model,
+when they'll have, do you view machines that scale, when they'll have you machines that scale?
+Because I think there's this like question around if you have long timelines on AI by long
+meaning 2035, which is not that long in the grand scheme of things. Should you expect a world
+we're trying to just like dominating and semi-conductors? Which I think, I don't know, it doesn't
+get asked enough if it's in San Francisco, we're just like thinking on time scale of like, you know,
+weeks. And then if you're outside of San Francisco, you're nothing, you're about AGI at all.
+And so this question of like, okay, what if we have AGI, what if we have this transformational
+thing that is commanding tens of trillions of dollars or hundreds of trillions of dollars of economic
+growth and wait, you know, token output and so forth, but then it happens in 2035. And like,
+what does that imply for the West versus China? I think it's just like, I don't know, the semi
+analysis has got to write the definitive model on this. Yeah, so I think it's really challenging
+when you move time scales out that far, right? Like we tend to focus on it is like, we're tracking
+every data center, we're tracking every fab, we're tracking all the tools, and we're tracking
+where they're going, but the the time lags for these things are relatively short, right?
+We can only make like reasonably accurate estimates for data center capacity based on, you know,
+land purchasing and, you know, permits and turbine purchasing and all these things and we know
+where all these things are going and we like, that's what the data we sell is, but like,
+you know, as you go out to like 2035, you know, things are just so radically different and
+your error bars get so large, it's kind of hard to make an estimate. But at the end of the day, like,
+you know, there is if take off or timelines are slow enough, right? Then certainly China,
+I don't see why they wouldn't be able to catch up drastically, right? You know, in some sense,
+we've got like this valley, right? Of where, you know, call it three to six months ago,
+Chinese models were, or maybe even now, Chinese models were competitive as they've ever been.
+I think I think Opus 46 and GP55.4 have really pulled away and made the gap a little bit bigger,
+but I'm sure, you know, some new Chinese models were come out, but as we move from, you know,
+hey, these companies are selling tokens where they provide the entire reasoning chain and all that to
+selling automated, you know, white color work, right? Automated software engineer send them the
+request, they give you the result back and there's a bunch of thinking on the back end that they
+don't show you. The ability to just steal out of American models into Chinese models will be harder A,
+B, as the scale of the compute that the labs have, right? Opening, I exited the year with roughly
+two gigawatts last year, um, inthropic, we'll get to, you know, two plus gigawatts this year and,
+and by the end of next year, there will both be at like 10 gigawatts of capacity.
+China has, is not scaling their AI lab compute nearly as fast, and so at some point, you know,
+when you can't distill the learnings from these labs into the Chinese models, plus this compute,
+race that, uh, open an anthropic Google, etc. Meta are all racing on. At some point, they end up getting to
+a point where, you know, the model performance should start to diverge more,
+and then all of this capex that's being spent on, you know, data centers and all that, right?
+Amazon, you know, 200 billion Google 180, you know, so on and so forth. All these companies are spending
+hundreds of billions of dollars of capex, um, you know, there's, there's, you know, nearly a
+trillion dollars of capex being invested in data centers in America this year, roughly, right?
+You end up with, okay, well, what's the return on invested capital here? You and I would think that
+the return on invested capital for data center capex is very high, um, and at least if we look at
+Anthropics revenues and, you know, January, they added like four billion in February, which is a
+shorter month, they added like six. We'll see what they can do in March and April, um, given compute
+constraints are what's bottlenecking their growth, right? The reliability of cloud code is actually
+quite low because they're so compute constrained. Uh, but if this continues and the ROIC on these data
+centers is super high. Yeah. Um, and at some point the US economy starts growing faster and faster
+over the next, you know, this year next year because of all this capex and all this revenue that
+these models are generating, um, and downstream supply chain versus China doesn't have that yet, right?
+They have not built the scale of infrastructure to then invest in model, uh, to invest in models,
+to get to the capabilities, to then deploy these models at such scale, right? Uh, because when you
+look at like Anthropics, hey, they're at call it 20 billion ARR, of that, you know, the margins are
+sub 50% at least last reported by the information. So then, you know, you're at, okay, that's like
+13, 14 billion dollars of compute that it's running on rental cost wise, which is actually like
+50 billion dollars worth of capex that someone laid out for Anthropics to regenerate their current
+revenue. Um, and China has just not done this if, if and when Anthropics 10X has revenue again,
+and I think our, our answer would be when not if, um, then China doesn't have the compute to deploy
+at that scale. And so there is some sense of like, oh, we're in fast takeoff-ish, right? It's not
+like we're talking about, you know, Dyson's fear by X-Day. It's more like the revenues compounding
+at such a rate that it does affect the economic growth, um, and the resources these labs are gathering
+or going so fast that, you know, and China hasn't done that yet. So in that case, the U.S. and the
+West is actually diverging. The flip side is actually these, these infrastructure investments
+have middleing returns. Maybe they're not as good as, as, as hoped, you know, maybe Google is
+wrong for wanting to take free cash flow to zero and spend $300 billion on capex next year. Maybe
+they're just wrong. Um, and, you know, people on Wall Street who are bearish and people who don't
+understand AI are correct, right? Um, and in which case, then the U.S. is building all this capacity,
+it doesn't get really great returns, and China's able to build the fully vertical
+indigenous supply chain, not, you know, U.S. Japan, Korea, Taiwan, Southeast Asia, you know,
+Europe, all these, all these countries together building this like less vertical supply chain.
+And in a sense, at some point, China is able to scale past us if AI takes a longer to get to
+certain capability levels than, you know, I would say, the vast majority of your guests on this
+podcast belief. It's a fast time lines, U.S. wins, long timelines, China wins. Right, but I don't
+know, like, I don't know what fast time lines means, right? Like, I, I, like, don't think you have to
+believe an AGI to have the timelines where the U.S. wins. Okay, let's go back to memory, because
+I think this is maybe people on Wall Street and people in the industry are understanding how
+big this is, but maybe generally people don't understand how big a deal this is. So we've got this
+memory crunch as you're talking about. And earlier I was asking about, oh, could we solve for the
+U.V. tool shortage by going much to seven nanometers? Let me ask a similar question about memory.
+HBM is made of DRAM, but has three to four X less bits per wafer area than the DRAM is made out of.
+Is it possible that accelerators in the future could just use commodity DRAM and not HBM?
+And so just we can make much more capacity out of the DRAM we get. And the reason to think this
+might be possible is look, if we're going to have agents that are just going off and doing work
+and it doesn't really, you don't, it's not a synchronous chop out application. Then you don't necessarily
+need extremely high, fast latency kinds of things anymore. And so maybe you can have the low, low bandwidth,
+because the, the reason is stacked DRAM into stacks and make HBM is for higher bandwidth. And so
+is it possible to go to HBM accelerators and basically have the opposite of cloud code fast,
+like have cloud code slow and and do that? I think I think at the end of the day the
+incremental purchaser who's willing to pay the highest price for tokens also ends up being the
+one that's like less price sensitive. And you know, the, the compute should be allocated in a
+capitalistic society towards the, the, the goods that have the highest value and the private market
+determines this by willingness to pay. And so to some extent, sure, anthropic can actually release
+a slow mode, right? They could release cloud slow mode and have an increase in tokens per dollar
+by a significant amount. They could probably like reduce the price of opus four six by, you know,
+four x five x and reduce the speed by another by maybe just like two x. Like the curve on
+inference throughput versus speed is there already just on HBM. And yet they don't, um, because
+no one actually wants to use a slow model and furthermore on these agentic tasks, you know,
+it's, it's great that the model can run at this time horizon of hours that's kind of like,
+okay, well, if the model was just running slower, that hours would become a day, right? Or
+vice versa, right, if the model's running faster, that hours becomes hour. And yet no one really
+wants to move to that day long weight period because the highest value tasks also have some
+time sensitivity to them, right? And, and so I'm, I struggle to see, you know, yes, you could use
+DDR, um, but then there's a couple like things that are challenging with this, right? You could use
+regular DRAM. Um, one is your, your still limited, you know, one of the like core constraints of
+chips, even though they're, you know, sort of like, you know, there's a chip is like a certain size.
+All of the IO escapes on the edges of the chip, right? So oftentimes, you know, what you see is
+the left and the right of the chip or HBM, the IO from the chip to the HBM is on the sides,
+and then the top and bottom, or IO to other chips, right? Um, and so if you were to change from
+HBM to DDR, then all of a sudden this IO on this edge would have significantly less bandwidth,
+but it had significantly more capacity per chip. Yeah. Because, and, and, and, and so yes,
+you're making less, um, you know, the, the, the metric that you actually care about is bandwidth per
+wafer, not bits per wafer. Because the, the thing that is constraining the flops is just getting in
+and out the next matrix, and for that you just need more bandwidth. Yeah, getting out the weights
+and getting out, getting in and out the KV cache. Right. And so in many cases, these GPUs are not
+running at full memory capacity. Yes, it's obviously like a system design thing, you know, model
+hardware, software code design of, hey, what do I, what do I, how much KV cache do I do, how much
+do I keep on the chip, how much do I offload to other chips and call when I need it, for tool
+calling or whatever, how much do I, how many chips do I paralyze this on? Obviously these are like the
+search space of this is like very broad, which is why we have like inference x, like this is like
+an open source model, like searches all the optimal points on inference for a variety of eight
+different chips, um, and models. Um, anyways, like the point is you don't necessarily, you're not
+always necessarily constrained by memory capacity. Uh, you can be constrained by,
+conflops, you can be constrained by network bandwidth, you can be constrained by memory bandwidth,
+uh, or you can be constrained by memory capacity. There's sort of like four, if you're really
+to simplify it down, there's like four constraints, and each of these can break out into more.
+But in this case, if you switch to DDR, yes, you produce four X the bits per what DRM wafer,
+but all of a sudden the constraints shift a lot, and your system design shifts a lot, you go slower,
+yes, is the market smaller? Okay, maybe possibly, but also now all of a sudden all these
+flops are wasted, because they're just sitting there waiting for memory. It's like great. I don't
+need all that capacity because I can't really increase batch size, because then the KV cash is going
+to take even longer to read. And so you never, you can, yeah, interesting. Uh, what is the bandwidth
+difference between HBM and uh, normal DRM? Yeah. So an HBM stack of HBM four, let's just talk about
+like the stuff that's in Rubin, because that's where we've been indexing on is 2048 bits across
+connected in an area that's like 13 millimeters or quite. So 2048 bits, and it transfers memory
+at around 10 giga transfers a second. So HBM a stack of HBM four is 2048 bits on an area that's 13
+millimeters wide, roughly or 11, and that's, that's the shoreline that you're taking on the chip.
+And in that shoreline, you have 2048 bits transferring at 10 giga transfers per second.
+You multiply those together and you divide by eight bits to bytes. You're at roughly two and a
+half terabytes a second per HBM stack, right? When you look at DDR, um, in that same area,
+it's maybe 64 or 128 bits wide. And that DDR five is transferring at any, you know, anywhere from
+6.4 giga transfers a second to maybe 8,000 giga transfers a second. So your, your bandwidth is
+like significantly lower lower, right? At 64 times 8,000 divided by eight, um, you're at 64 giga
+bytes a second. Um, and even if you take a generous interpretation of 128 times 8 giga transfers,
+you're at 128 giga bytes a second. For the same shoreline versus two and a half terabytes a second.
+There's an order of magnitude difference in bandwidth per edge area. And if your chip is a square
+or it's 26 by 33, right, is the maximum size for a chip individual die, um, you only have so much
+edge area. And then on the inside of that chip, you put all your compute. Um, there's things you
+can do to try and change, right, more SRAM, more cash, ing, blah, blah, blah. Uh, but at the end of the
+day, you're very constrained by bandwidth. Interesting. So, um, then there's a question of like,
+where can you destroy demand to free up enough for AI? Um, and uh, and I guess the picture is
+especially bad because as you're saying, if it takes four X more away for area to get the same
+byte for HBM, you had to just write four X as much consumer demand for laptops and phones and whatever,
+in order to free up one byte for AI. So, what, yeah, what does this imply for the next year or two of,
+sorry for the wrong on question? I think on your newsletter, you said 30% of the
+CapX and 2026 of Big Tech is going towards memory. Yes. That's insane, right? Yeah. Like,
+of the 600 billion or whatever, you're saying 30% is going just to just to, uh, just to,
+you know, obviously there's some level of like margin stacking that Nvidia does. And so if you
+separate out, you know, and you apply their margin to the memory and the logic, but at the end of the
+day, yeah, like a third of their CapX is going to memory. That's, that's, that's crazy. Okay. So,
+I get what, what is the question for an ask? It's something like, yeah, what is this simply? What
+basically, what should we start over the next year or two is this memory crunch hits? Yeah. So,
+memory crunch will continue to be harder and harder, um, and prices continue to go up. And
+this affects different parts of the market differently, right? Um, gets to sort of the like,
+are people going to, hey, AI more and more? Yes, because now smartphones and PCs are not going
+to get incrementally better year on year. And in fact, they're going to incrementally worse.
+And if you look at the, the, the, the, the, the, the, the, the, the, the, the, I phone, what, what,
+what fraction of it is the memory? Like how, how much more expensive does an iPhone get? Yeah. Right.
+The memories, two X more expensive or whatever it has to be. So, um, I believe an iPhone has 12 gigabytes
+of memory, um, each gig cost used to cost roughly $3 or $4. So, it's $50. Um, but now the price of
+memory is like triple. Let's call it if it's now, uh, it's 12 bucks per gig for DDR. So now you're
+talking about $150 versus $50, right? A $100 increase in cost on Apple also Apple has some margin.
+They're not just can eat the margin. So now that's a $100 cost increase. That's just on the DRAM.
+The NAND also has the same sort of like market. So, in fact, you know, it's probably a $150 increase
+on the on the iPhone. Apple has to either pass that on to the consumer A or B, they have to eat it.
+I don't see Apple reducing their margin too much. Maybe they eat a little bit. But at the end of
+the day, that means the N consumers paying $250 more for an iPhone. Um, and now that's on like,
+hey, what is last year's memory pricing versus todays? Now, there is some lag for Apple to have
+to feel the heat because they have tended to have, you know, three, six or a year-long contracts
+for a lot of memory. But at the end of the day, Apple gets hit pretty hard by this. But they won't
+they won't really adjust until the next iPhone release. But that's the high end of the market.
+Actually, that's only a few hundred million phones a year, right? Apple sells one two three
+hundred million phones a year. The bulk of the market is this mid-range low end, right?
+Uh, used to be 1.4 million smartphones were sold a year. Now we're at like 1.1. But our projections
+are maybe get down to like 800 million this year. And next year, like 600 or 500 million. Because
+in and we look at like, you know, there's some data points out of China, um, from some of our
+analysts in Asia and Singapore and Hong Kong and Taiwan. They've they've been tracking this and they
+see Xiaomi and Oppo are cutting low-end in mid-range smartphone volumes by half. Because yes,
+it's only a hundred and fifty dollar price increase on a thousand dollar smartphone,
+a hundred and fifty dollar bombing increase on a hundred and a thousand dollar iPhone.
+Where Apple has some larger margin. But if we look at the smaller phones, the percentage of the
+bomb that goes to memory and storage is much larger. And the margins are lower. So there's less
+capacity to even eat the margins. Um, and they have like generally tended not to do as long-term
+agreements on memory. Um, and why this is like a big deal is if smartphone volumes, let's say half,
+the halfing will frankly happen in the low-end mid-range not in the high-end. So it's not like
+the bits released are halfing, right? Um, you know, currently consumers more than half of memory,
+um, demand. Even if you have the smartphone volumes because of the shape of the halfing, right?
+It's like low-end gets cut by more than half. High-end gets cut by less than half. Because
+you and I will buy, you know, the high-end phones that cost north of a thousand dollars will buy them,
+even if they get a little bit more expensive. And Apple's volumes will not go down as much as like a
+low-end smartphone provider. And, and the same applies to PCs. And what this does to the market is
+quite drastic, right? Um, DRAM gets released goes to AI chips who are willing to do longer-term
+contracts, willing to pay higher margins, et cetera, et cetera, because at the end of the day,
+the margin that they extract is much larger from the end user or whatever. Um, and so this,
+this, this probably leads to like, people hating AI even more, right? Because they're going to
+start being like, today you already see all the memes like, uh, on, on like PC, subreddits, and PC,
+like Twitter, gaming PC, Twitter is like, you know, cat-dancing videos and it's like, this is why
+memory prices is doubled and you can't get a new gaming GPU, right? Or you can't get a new
+desktop. And, and, and it's going to be even worse when memory prices double again,
+especially DRAM. Another dynamic that's quite interesting is it's not just DRAM, it's also
+NAND. Um, NAND is also going up in price. Both of these markets have expanded capacity very slowly
+over the last few years, um, NAND almost zero. But smartphones, uh, the percentage of NAND that goes to
+phones and PCs is larger than the percentage of DRAM that goes to phone and PC. So as you
+destroyed demand, you unlock, you know, mostly for the DRAM purposes, you unlock more NAND that
+gets allocated, uh, and can, can sort of go to other markets. And so the price increases,
+uh, DRAM will be larger than those of NAND, because you've released more from the consumer,
+uh, in fact, you've produced more memory for AI. Sorry, but the NAND is, uh, I maybe just
+explained it and I missed it. Is it because SSDs are being used in large quantities for data centers,
+or they are, but not as large quantity quantities as DRAM. Okay. But it's interesting,
+they will all so increase because they're revisiting some quantity, but like there's not as much
+in need as there is for AI. Yeah. Makes sense. Um, one thing I didn't appreciate until I was
+reading some of your newsletters is that, um, basically the same constraints that are preventing
+logic scaling, uh, over the next few years are, it's, it's quite similar to what's preventing
+us from producing more memory away for us. In fact, like literally the same exact machine,
+this U, U, V tool is needed for memory. So I guess, yeah, maybe there's a question that
+somebody could be asking right now like, well, why can't we just make more memory? Is that somebody?
+Yeah, who knows? So I think the constraints, as I was mentioned earlier, are not necessarily
+U, V tools today, or to next year, um, they, they become that as we get to the latter part of
+the decade, uh, but currently, right, the constraints are more so, they physically just haven't built
+fabs, right? So over the last three to four years, these vendors have just not built new fabs.
+Um, that's because memory prices were really low. Um, their margins were low, and in fact,
+they were losing money in 2023 on memory. Um, so they're like, oh, we're not building new fabs,
+and then like the market slowly recovered over time, but never really got amazing until last year.
+Um, you know, in 2024, we were like banging on the drums that like, hey,
+reasoning means long context, which means large KV cash, which means you need a lot of memory
+demand, um, and we've been talking about that for like a year and a half, two years, um, and people
+who understand AI, like, went really long memory then, right? Um, you know, and so you've seen that
+sort of like dynamic, but now it finally played out in pricing. It took so long for what was,
+obvious, right? Hey, long context, KV cash gets bigger. You need more memory, and accelerators
+have their cost as memory. So of course, they're just going to start, and you know, they're going
+to start like going crazy on it. Um, it took a year for that to actually reflect in memory prices,
+once memory prices reflected, then it took another six months, three months for the memory vendors
+to start building phabs, and those phabs take two years to build. And so we don't have really
+meaningful phabs that you can even put these tools in until late 27 or 28, right? Um, and so
+instead what you've seen is like some really crazy stuff to get capacity, right? Uh,
+micron bought a phab from a company in Taiwan that makes lagging edge chips, right? Um,
+hynics and Samsung are doing, you know, some pretty crazy things to try and expand capacity at
+their existing phabs, uh, that also have like very not large knock on effects in the economy. And so
+hey, why can't we build more capacity is like, there's nowhere to put the tools, right? And it's
+not just UV. There's other tools involved in DRAM and logic, right? Like logic, you know,
+n3, 30% or so of the cost, you know, 28% of the cost is UV of the wafer of the final wafer.
+When you look at like DRAM, it's, it's, it's, it's in the teens. Um, and it's going up,
+but it's in the teens. So it's as much smaller percentage of the cost is DRAM,
+or is UV, these other tools are also bottlenecks, although their supply chains are not as
+complex as ASMLs. Um, and so you see applied materials in land research and all these other
+companies also expanding capacity a lot. And anyways, you don't have anywhere to put the tool because
+the most complex building that people make is phaps and phaps take two years to build.
+You can think of Jane Street as a research lab with a trading desk attached. Their infrastructure
+team has built some of the biggest research clusters in the world with tens of thousands of high
+NGPUs and hundreds of thousands of CPU cores and exabytes of storage. This compute is part of how
+Jane Street surfaces all the hidden patterns that are embedded in incredibly noisy market data.
+Even beyond the noise, the nature of the signal changes constantly in reaction to things like
+pandemics and elections and new regulations, and even changes in sentiment. There's this
+underwritten game of trying to figure out whether your old model is still reflect the real world,
+and if not, what to do about it? If you're interested in working on this sort of thing,
+Jane Street is hiring ML researchers and engineers. There are also accepting applications for
+their summer ML internship program with spots in London, New York, and Hong Kong. And if you happen
+to find yourself at GTC, which is happening the week after the episode drops, Jane Street's
+GPU performance team is giving a talk. Go to Jane Street.com slash the work hash to learn more.
+I know everybody align recently, and his old plan is that I guess they're going to build this
+gick-a-fab tariffab, some power of 10, and they're going to build the clean rooms.
+I don't even ask you about the dirty rooms thing, but let's say they build the clean rooms.
+And for a couple of questions, one, do you think this is the kind of thing that Elon
+Coke would build much faster than people are mentioning it? Well, this is not about building the
+end tools. This is just about building the facility itself. How complicated is it to just build the
+clean room and do it extremely fast? Is this something that like Elon with this move fast thing
+could do much faster? If that's where we're modern like on this year or next year? And two,
+does that even matter if in two years your view is that we're not modern like on clean room
+space, but we're bottlenecked on the tooling? So I think, I think, you know, as with any complex
+supply chain, it takes time and constraints shift over time, and even if something isn't
+a longer constraint, that doesn't mean that market no longer has margin, right? So for example,
+energy will not be a big bottleneck as we get to, you know, a couple of years from now,
+but that doesn't mean energy is not growing super fast, and there's no margin there. It's just
+like it's not the key bottleneck. And in the space of fabs, right? Clean rooms are the biggest
+bottleneck this year and next year. And as we get over time, 29, 29, 29, 30, there will be
+still constraints there. The thing about Elon is, I think he's had a tremendous capability to
+garner physical resources and really smart people to build things. And the way he's able to recruit
+really amazing people is just trying to build the craziest stuff, right? In the case of AI,
+that's not really worked because everyone's trying to build AI, everyone's very ambitious. But in the
+case of like, we're going to make, you know, we're going to go to Mars and we're going to make
+rockets that lend themselves, or we're going to make fully autonomous cars that are electric,
+right? Or we're going to make human aid robots, right? Like these are methods of recruiting
+that people who think that's the most important problem in the world to work on that problem
+because he's the only one trying really hard. In the case of semiconductors, I want to make a
+fab that's a million-way first per month. No one has a fab that big. That's what he stated,
+right? He wants to make a million-way for the month. You know, it's possible that he's
+able to recruit a lot of really awesome people and get them on this crazy task of trying to
+build a fab that doesn't a million-way for a month. Step one is to build the clean room. And I think
+that he probably can do, right? I think, you know, there's some mindset, you know, his mindset
+around like delete things. It can be dirty. It's fine. Probably not, right? Or actually, I think 100%
+it's not right. You like need the fab to be very clean. I think the entire the entire
+all of the air and the fab gets replaced like every three seconds. It's like that fast. And
+there's so few particles per, but I think he can build the clean room. It'll take a year or two,
+maybe initially it won't be super fast, but then over time we'll get faster and faster at it.
+But then the really complex part is actually developing a process technology in building
+wafers. And I don't think he can develop that quickly. I think that has a lot of built-up knowledge.
+It's again, like the most complicated, like integration of very expensive tools and supply chain
+that's done is a TSMC or an Intel or a Samsung. And those, some of these two other two companies aren't
+even that great and they're like tremendously complex. How, how surprised would you be if in 2030
+people like, they're just happened to be some total disruption. We're not using UV. We're using
+something that has like much better facts as much simpler to produce. We can produce in much bigger
+quantities. I'm sure as an industry insider that sounds like a totally naive question. But do you
+see what I'm asking like, is it, what probably should we put on something totally out of the left
+field comes out and this is relevant? Something that's very simple and easy to scale,
+I have very, very low probability for. There are a number of companies working on effectively
+like particle accelerators or synchotrons that generate light that's either 13.5 nanometer
+like UV or even x-ray, like even narrower wavelength, like seven nanometer or whatever,
+wavelengths of light to then use in lithography tools. But those things are like massive
+particle accelerators that are then generating this light. It's a very complicated thing to build.
+So there's a couple of companies and I think that that could be a big disruption to the industry
+beyond what UV is. I don't necessarily think that like we're going to just magically build
+something new that is like direct right and super simple and can be manufactured at huge volumes.
+Although there are some attempts to do things like this. Yeah, because if you think about Elon
+Co's in the past, rocket tree was this thing though. I mean, it is incredibly complicated.
+Look, I'm just a naive yapper compared to Elon, right? What am I built?
+Well, so maybe it's possible, right? Yeah. In order to be able to build more memory in the
+future, could be build 3D to your end the way we do 3D and then go back to UV.
+This is the hope currently everyone's roadmap for 3D to your end is that you'll still use UV
+because you want to have that tighter overlay because now when you're doing these subsequent
+processing steps, you want it to be, you know, now everything is vertically stacked. You have
+more layers on top of each other and you want the pitches to be tighter and all these things.
+So generally, people are still trying to do it. UV, but what 3D would do is it would take the
+caught, you know, hey, a single UV pass how many bits can it make, right? If you do this sort of
+like calculation and that number would go up drastically if you go to 3DD ramp. That is the hope
+but right now everyone's roadmap is sort of like you go from current. It's called a 6F
+cell to a 4F cell and then finally 3D DRAM like by the end of the decade or early next decade.
+So there's still like a lot of R&D and manufacturing and integration to be done.
+I wouldn't call that out of the cards. I think it's very much likely going to happen.
+It also is going to require a huge retooling of fabs, right? The breakdown of tools in a
+fab are very different, right? Actually the lithography tools, the only thing that isn't like
+that different, but the number of them relative to different types of chemical vapor deposition
+or atomic layer deposition or dry etch or different kinds of etch chambers with different
+chemistries. All of these things, you have all these different kinds of tools for different
+process nodes. You can't just convert a logic fab to a DRAM fab or vice versa back and forth
+or a nan fab to a DRAM fab in a short amount of time and then the same way existing DRAM
+fabs require a lot of retooling just to go from one B or one alpha to one beta to one gamma
+process nodes because now they have to add DEV and change the chemistry stacks for when you're using
+EV in terms of deposition and etch and the EV tool has to be there and further more like when you
+change the 3D DRAM there's going to be an even larger shift and so there's a lot of retooling
+of these fabs that needs to happen in terms of the tools and so that would be a big disruption
+that would make EV demand generally lower but as we've seen across time, EV demand as a percentage
+of wafer costs has trended up initially or lithography, right? lithography initially,
+I want to say in like 2014-ish era was like 16% of the wafer cost, 17% and it's gone to 30
+over the last 15 years and for DRAM it was in the midteens as well or lowteens and now it's
+trended towards the highteens and before we get to 3D DRAM it'll likely cross into the 20's
+percentage range but then if we get to 3D DRAM it takes again in terms of the total and wafer
+cost as a percentage of EV. Yeah I guess you're less about like the percent of cost and more
+about how much it bottlenecks. But the percentage of cost is sort of...
+proxy yeah yeah. So if you're a gencin or soundwaltman or whoever who stands to gain a lot from
+scaling up the eye compute there's a story is that they'd go to TSMC and say hey why can't we
+actually buy it and see but I think the point you're making here is it doesn't really matter
+in some sense what TSMC does and in fact even if you have Intel and Samsung building more
+foundries in the long run you're going to be bottlenecked by ASML and other tool makers and
+other material makers. So first of that correct interpretation and second then why should
+basically search Silicon Valley people be going to the Netherlands to try to push ASML like right now
+should they be trying to push ASML to make more tools so that like in 2030 they can have more EI compute.
+You know it's a funny dynamic we saw in 2324 and 2025 people who saw the energy bottleneck
+before others asymmetrically went to you know semen's Mitsubishi and of course Gver Nova
+and bought up turbine capacity and now they're able to charge excess amounts for deploying these
+turbines places because of energy and in the same sense this could be done for EV except ASML
+is not just going to trust any random bozo who wants to buy EV tools. In the sense that like
+you know these turbines are much cheaper than EV tools and there's many more of them produced
+right especially once you like get to like industrial gas turbines or like you know not just
+combined cycle but like the cheaper smaller etc less efficient ones people put down the
+pauses for these so in a sense someone could do this right someone should go to the Netherlands and be like
+I'll pay you a billion dollars you give me the right to purchase 10 EV tools two years from now
+right and I have I'm first in line two years from now and then over those two years you then go
+around and wait for everyone to realize oh crap I don't have enough EV tools and then you try and
+sell your option at some premium but all you're effectively doing is you're saying ASML you're
+dumb you weren't making enough margin on these I'm going to make margin and the question is like
+well the will ASML even agree to this right and I'm like I don't think so right so but there's a
+world where they at least like get the demand signal from that to increase production potentially potentially
+I agree but it sounds like you're saying oh they couldn't even increase production if they want
+it to give end to that question exactly the market in which if they can't increase production just
+like TSMC cannot increase production that fast and yet demand is moaning then the obvious solution
+is to arbitrage this because you and I know demand is way higher than they're projecting and
+they're capability to build so then you arbitrage this by locking up the capacity and then
+sort of doing like a forward contract and and and then trying to sell it at a later date once
+other people realize actually shit everything is fucked and we don't have enough capacity
+and then you'll have like this insane margin that ASML and TSMC should have been charging
+but the thing is I don't know if ASML and TSMC will ever agree to this okay let let let me ask
+about power now so it sounds like you think power can be arbitrarily scaled not arbitrarily but
+yes but beyond these numbers and I think if I remember correctly your blog posts on the
+power how how I love their increasing power you were like were you were implying that
+G ever Nova and Mitsubishi and Siamens could produce and gas turbines was like 60 gigawatts a year
+and then there's other sources but they're like less significant then the turbines and so
+and only a fraction that goes to AI as soon so yeah if in 2030 we have enough logic in
+memory to do 200 gigawatts a year is it you just think that these things are on a path to ramp up
+to more than 200 gigawatts a year or what do you see yeah so I mean I mean right now we're at
+30 right or 20 or 20 so this is critical IT capacity by the way right this is an important thing
+to mention when I'm talking about these gigawatts I'm talking about critical IT capacity
+server plugged in that's how much power it pulls but there's losses along the chain right
+there is loss on the transmission there's losses on the conversion there's losses on cooling etc
+and so you should gross this factor up you know from 20 gigawatts for this year or 200
+gigawatts by the end of the decade to some number 2030 percent higher and then you have capacity
+factors right turbines don't run at 100% in fact like if you look at PGM which is the largest
+grid I think in America sort of the Midwest sort of northeast kind of area ish not not the
+full northeast but anyways PGM they rate and in their models for like hey turbines how much capacity
+we want to have excess you know roughly 20% capacity in addition in that 20% excess capacity
+we're running all the turbines at 90 percent because they are derated some for reliability
+all things go down maintenance etc etc etc so then in reality the nameplate capacity for
+energy is always way higher than the actual end critical IT capacity because of all of these factors
+but it's not just turbines right if you're just making power from turbines like that's simple
+boring easy right we're you know humans and capitalism is far more effective and so the whole
+point of that blog was yes there's only three people making combine cycle gas turbines but there's so
+much more we can do right we can do error to derivatives right we can take airplane engines and turn
+them into turbines as well and there's even new entrance to the market like boom super sonic trying
+to do that right and they're working with crusco and and also there's all the other ones like
+that already exist in the market there's there's medium speed reciprocating engines right engines
+that spin in circles right so sort of like any diesel engine right there's like 10 people who make
+engines that way right so come in you know you know you know at least I'm from Georgia and we you
+know people used to be like oh man you got a commons engine in there you know like you know
+regarding ram trucks but it's like well actually automobiles manufacturing's going down
+these companies all have capacity and could scale and convert that to for data center power right
+stick all these reciprocating engines yes it's not as clean as combine cycle maybe you can you can
+convert them from diesel to gas if you want but at the end of the day these spinning engines oh what
+about ship engines right all of these engines for these massive cargo ships those are great
+nebius is doing that for a data center and micro for Microsoft in New Jersey right they're
+running the ship engines to generate power oh there's you know blue energies doing fuel cells
+we've been like very positive on them for like a year and a half now because they have like
+such a capability to increase their production and their payback period for production increase
+is like very fast even if the cost is a little bit higher than combined cycle which is like
+the best cost and efficiency you know and then and then their solar plus battery which as these
+cost curves continue to come down those can come online there's wind and of course the derating
+of those you know hey when you put on a wind turbine you might say oh I'm only going to expect
+15% of the maximum power because things just oscillate but yeah batteries there's all these things
+and then the other thing is that like the grid is scaled for you know hey we are not going to
+cut off power at peak usage which is like the hottest day in the summer but in reality that's a
+load spike that is 10 15 20% higher than the average well if you just put enough utility scale
+batteries or you put peaker plants that only run a small portion of the year then all of a sudden
+you know and those could be gas they could be industrial gas turbines they could be combined
+cycle they could be any of the other sources of power I mentioned they could be batteries then
+all of a sudden you've unlocked 20% of the U.S. grid for data centers because most of the times
+that capacity is sitting idle and it's really only there for that peak which is a day or two right
+and it's a few hours of like maybe a few days of the full year is that peak and so you just have
+enough capacity to absorb that peak load and all of a sudden you've transferred all on today
+data centers only 3% of the power of the U.S. grid and by 28 they'll be 10% but if you can just
+unlock 20% of the U.S. grid like this like it's like not that crazy you know and the U.S. grid is
+terawatt level not hundreds of gigawatts level right so we we can add a lot more energy it's not
+easy I'm not saying it's easy these things are going to be hard there's a lot of hard engineering
+there's a lot of risks that people have to take there's a lot of new technologies people have to
+use but Elon was the first to do this behind the meter gas and since then we've seen an explosion of
+different things that people are doing to get power and they're not easy but people are going to be
+able to do them and the supply chains are just way more simple than chips interesting so I
+guess he made the point during the interview that the specific blade for the specific turbine he was
+looking at the lead times for that go out beyond 2030 and your point is that that's great there's
+so many other ways to make energy okay so you're just be inefficient like it's fine right so you're
+like right now I guess combined cycle gas turbines have capbacks of $1,500 per kilowatt and you're
+saying you could just it would make sense to have either technologies that are much more expensive
+than that or other things are getting cheap enough to that to make it competitive exactly exactly
+you know there it can be as high as $3,500 per kilowatt even right so it could be twice as much
+as the cost of combined cycle and the total cost of the GPU you know you know on a TCO basis has
+gone up a few cents per hour right again if we're because because we've been talking about
+hopper pricing and dollar 40 now becomes you know oh the power price doubles okay the hopper that was
+a dollar 40 is now a dollar 50 in cost right it's like oh I don't care because
+the models are improving so fast that the marginal utility of them is worth way more than that
+10 cents increase in energy okay and then so you're saying 20% of the grace a one-term
+what about 20% of that I can just come online from you to these scale batteries increasing
+what your comfortable putting on your mechanism there's like not easy okay but like that's 200
+gigawatts like if that hypothetically happens but you're saying on just from the different sources
+of gas generation you mentioned the different kinds of engines and turbines combined how how many
+gigawatts could they unlock by the end of decade yeah so we're we're tracking and some of our data
+where all you know there's over 16 different manufacturers of power generating things just from gas
+alone right so you know yes there's only three turbine manufacturers for combined cycle
+but we're tracking 16 different vendors and we have all of their orders and things like that and
+it turns out there is just hundreds of gigawatts of orders to various data centers as we get to the
+end of the decade we think like something like half of the capacity that's being added will be behind
+the meter and when we look at like a lot of this is actually behind the meters almost always more
+expensive than grid connected but there's just a lot of problems with getting grid connected and
+permits and interconnection cues and all this sort of stuff so and it's up being even though it's
+more expensive people are doing behind the meter and then what they're doing behind the meter with
+ranges widely right it could be reciprocating engines it could be ship engines it could be eroder
+if it could be combined cycle although combined cycle is not that great for behind the meter
+it could be bloom energy fuel cells it could be solar plus battery right like it could be any of
+these things any of these individually could do like tens of gigawatts any of these individually
+will do tens of gigawatts and in a whole they will do hundreds of gigawatts okay so that alone should
+more than I mean it's it's going to take I mean like electrician wages probably double triple again
+right and like there's going to be a lot of new people entering that field and there's going to be
+ton of people who make money but it is something that I don't like I don't see that as the main
+bottleneck right so right now and not believe in the 1.2 gigawatt data center that
+of course I was building for open AI I think they have like 5,000 people working there or at peak
+they had did and if you turned that into a hundred gigawatts and I'm sure things will get
+more efficient over time but that would be like 400 k people it would take to build a hundred
+gigawatts and if you think about the US labor force of how many electricians there are how many
+construction workers there are yeah I guess there's like 800 k electricians I don't have their
+all substitutable in this way there's millions of construction workers but if we're in a world
+we're adding 200 gigawatts a year are we going to be crunched on labor eventually or do you
+think that is actually not a real constraint so labor is a humongous constraint in this people
+have to be trained likewise we probably start importing the highest skilled labor in this in this
+way right because now it makes sense that you know hey a really high skilled electrician in Europe
+was working on destroying power plants now comes to America and is building data center you know
+high voltage electricity you know power moving across data center right something like this right
+humongous robots maybe start to or robotics at least start to but the main factor is going to be
+for reducing the number of people is modularizing things and making them in factories in Asia
+unfortunately but you know at least for America but you know Korea southeast Asia in many ways
+China as well but you know these these areas are going to do or are going to ship more and more
+built-outs built-out sections of the data center and those will be shipped in right maybe
+today you you know you currently ship servers in or a rack in and then you plug that into you know
+different pieces that you're shipping from different places but now you'll ship it to a factory
+and integrate the entire you know hey maybe this is a two megawatt block and this block goes from
+you know high voltage power to you know the voltage power that you you the voltage and maybe DC
+that you deliver to the rack instead of being AC and high voltage right or something like this right
+or cooling you take you you ship a fully integrated thing that has a lot of the cooling
+subsystems already put together or because plumbers are also a big constraint here or further
+more you take instead of just a single rack and now you have people wiring up all these racks
+power and electricity and blah blah blah blah you take a skid and you put an entire row of
+of servers and that is shipped from the factories and and today a single rack may be 120
+140 kilowatts but as we get to you know next generation you know Nvidia fiber and things like that
+it's almost a megawatt and then in addition if you do an entire row it'll have the the rack
+it'll have the networking and it'll have the cooling and the power racks all integrated together
+so now when you come in actually you you have much less stuff to cable whether it be
+networking with a fiber whether it be the power right there's viewer power that power things to
+connect and then there's fewer plumbing things to connect right and so this drastically can
+reduce the amount of people working in data centers and therefore the capability to build these
+will be much larger and along the way there will be you know new things mean you know some people
+move faster to new things some people move slower right cruso and Google have been talking a lot about
+this modularization as has people like meta and you know many others right have been talking a lot
+about this modularization and others are going to be slower to doing it but at the end of the day
+you know and and people who move faster to new things may have more delays or people who are slower
+have labor problems so there'll always be dislocations in the market because this is a very complex
+supply chain at the end of the day it's still simple enough that we will be able to solve it through
+capitalism and human ingenuity on the time skills that are required yeah okay so speaking of
+big problems solve I am a Elon Musk's very bullish on space repuse if you're right that power is
+not a constraint on earth I guess of other reason they would make sense is that even you can
+there is enough there will be enough gas turbines or whatever to build on earth I think Elon's
+next argument then is like you can't get the permitting to build hundreds of gigawatts on earth do you
+buy that argument land wise it's pretty America's big there doesn't data centers don't take that much
+space you can you can solve that permitting wise air pollution permits are a challenge but the
+Trump administrations made it much easier you go to Texas and you can skip a lot of this red tape
+and so you know Elon had to deal with a lot of like this complex stuff and Memphis and then
+building a power plan across the border and all these things for a colossus one and two
+but at the end of the day there's a lot more you can get away with in the middle of Texas right
+well why given that Elon lives in Texas why didn't you just go to Texas? I think I think it was
+partially like they over indexed on grid power for a temporary period of time right because that's just
+what they they thought they needed more of you said an illuminator finer connected to the grid there
+no it's a it was an appliance factory that was so that was an idled but I think they may have
+indexed more to what was grid power they may have indexed more to like water access and gas access
+because actually I think they bought that knowing that the gas line was right there and they were
+going to tap it same with water it was a whole host of different constraints it was probably
+an area where electricians and things like that were easier to find but at the end of the day I'm
+not exactly sure why they chose that site I bet Elon would have chosen somewhere in Texas if you
+could have like gone back but yeah because of the regulatory phases each challenge is challenges
+these faced it's it's it's ultimately like permitting is a challenge but America is a big place
+and there are 50 states and things will get done and there are a lot of small jurisdictions where
+you can just transport in all the workers that you need for a temporary period of six months to a year
+depending on the type of contractor it can be even three months for depending on the type of the
+contractor that's coming in and put them in temporary housing pay out the butt because labor is very
+cheap relative to the GPUs and the power not the power but the GPUs and the like the networking
+and so on and so forth and the end value of the tokens it's going to produce so all of these things
+have plenty of room to like be paid for and so I think it's fine right you and also people are
+diversifying now right Australia Malaysia Indonesia India these are all places where data centers are
+going up at a much faster pace but currently still 70% plus of the AI data centers are in America
+and that continues to be the trend and so I think people are figuring out how to build these things
+and permitting like I just like ultimately like permitting and red tape in middle of nowhere
+Texas or middle of nowhere Wyoming or middle of nowhere like New Mexico is probably a hell of
+a lot easier than sending stuff into space right other than the fact that the economic argument
+makes less sense once you consider the fact that energy is a small fraction of the
+cost of ownership of a data center what are the other reasons you're skeptical
+yeah so obviously power free and space basically uh moon is that that's the reason to do it
+yeah that's the reason to do it but then there's all the other counter arguments right which is
+because even if power costs double you're still at a fraction of the total cost of the GPU the the main
+challenges is and what we've seen that disperses right we have cluster max which rates all the
+Neo clouds and we test them we test over 40 cloud companies including the hyperscaler Neo clouds
+what differentiates some of these clouds the most outside of software is their ability to deploy
+and manage failure right GPUs are horrendously unreliable even today 15% of black wells or so
+that get deployed have to be RMA you have to take them out you have to you know maybe just
+plug them in plug them back in but sometimes you have to take them out with ship into Nvidia
+or rather there are partners who do these RMAs and such um what do you think of Elon's kind
+of argument that once you have the initial um after initial phase that you don't feel that much sure
+but now you've you've done this you've tested them all you deconstructed them put them on a space ship
+fucking put them into space and then put them online again that's months right and if your argument
+is that you know hey GPUs have a useful life of X years right if a GPU has a useful life of
+five years and it takes three additional months probably six let's say six additional months
+then that is 10% of your cluster is useful life and and because we're so capacity constrained
+that compute is most valuable theoretically in the first six months you have it because we're
+more constrained now than in the future because that compute now can contribute to a better model
+in the future or contribute to revenue now which you can use to raise more money to get about you know
+all these all these sorts of things now is always the most important moment and so you've delayed
+your compute deployment by six months potentially and and the thing that separates these clouds
+is we see clouds that takes six months to deploy GPUs today on earth right we see clouds that
+take a lot less than six months right and so the question is where does space get in there?
+I don't see how you would test them all on earth deconstruct them in ship ship in the
+space and it not take longer than just putting them in the spot that you're testing them.
+Yeah so the question I wanted to ask is the topology of space communication so
+right now Starlink satellites talked to each other at 100 gigabits per second and you could
+imagine that being much higher with optical inner satellite laser links that are optimized for this
+and that actually ends up being like quite close to the infinite band bandwidth which is like
+400 gigabytes a second right that's per GPU not per rack I see okay so so multiply that by 72 also
+like that was hopper when you go to blackwell and ruin that two Xs and two Xs again
+all right but but how much compute is happening per like during inference are the different
+scale-ups still working together is it just happening it's a batch within a single scale-up
+a lot of models fit within one scale-up domain but many times you split them across multiple
+scale-up domains I think that you really have to as models become more and more sparse at least this
+is like the general trend then you want to you know ping just a couple experts per GPU and if
+leading models today have hundreds if not thousand experts then you want to run this across hundreds of
+chips or thousands of chips even as we continue to advance into the future and so then you end up with
+this problem of well now you need to you know need to connect all these satellites together
+it comes wise as well okay so that would be tough because I was imagine if there's a world where
+you could like do a batch inference for a batch on a single scale-up then maybe it's more plausible
+but if not then it's it's not working these chips together is a problem and you can't just make
+this to satellite infinitely large right like there are a lot of challenges with physics to
+making a satellite really big right so then these inner that's why you need these inner right
+inner connects between the satellites that's inner connects are more expensive than the you know
+a cluster like 20% of the cost or 15% of the cost is networking all of a sudden now you're
+making it like space lasers instead of like pretty simple like lasers that are manufactured and
+millions of volumes with you know pluggable transceivers and those things are very unreliable as well
+more unreliable than the GPUs by the way across the life of a cluster you have to unplug clean it all the time
+unplug replug it just for random reasons these things are just not as reliable so you've got that also
+that problem as well like you've got a more expensive complicated space laser to communicate instead
+of this pluggable optical transceiver that's been in super high volume okay so all in all what is
+that implied for space data centers so space data centers effectively are not limited by you know
+hey we have this energy advantage it's actually just limited by the same content resource
+we can only make 200 gigawatts of chips a year by the end of the decade so what are we going to
+do to get that capacity it doesn't matter if it's on land or in space you it doesn't really matter
+right because you can build that power and I think human capabilities and capacity to could get
+to the period where we're adding a terawattier globally of a various types of power at some point
+we do cross the chasm or space data centers make sense but it's not this decade right it is it is
+much further out once you have energy constraints actually being a big bottleneck once you have space land
+permitting be a much bigger bottleneck as it subsumes more and more of the economy and chips are no
+longer the bottleneck because chips are the biggest bottleneck and so you want them deployed working
+on AI the moment they're done may be manufactured and so there's a lot of things people are doing
+to increase that speed faster and faster whether it be modularizing data centers or even modularizing
+racks where you actually put the chip in at the data center but only the chip and everything else
+is already wired up and ready to go at the data center so there's things like this that people are
+doing to decrease that time that you cannot do in space and at the end of the day all that matters
+in a chip-contrained world is gift these chips working on producing tokens ASAP in a world
+you know maybe 2035 once the semiconductor industry in ASML and ZICE and all these other
+suppliers land research applied materials fab manufacturers like pendulum swings and are able to
+make enough chips and really we're optimizing every dial and like it makes sense to optimize the 10%
+of energy costs or 15% of energy costs or as we move to A6 potentially and Nvidia's margins
+aren't 70 plus percent maybe that energy cost is 30% of the cluster and fab construction all this like
+these are the things our data center these are the things to optimize but that's not a you know
+Elon doesn't win by doing you know 20% gains Elon never wins that way Elon wins when he
+swings for the fences and does 10x gains right that's what SpaceX is about that's what Tesla is about
+that's what all of his success has been about right it's not a bit about these chasing the 20% so I
+think I think space data centers will eventually be a 10x gain potentially as as Earth resources
+get more and more contentious but that's not this decade yeah I mean I think just a dry
+some intuition about how much land there is on Earth obviously the chips themselves especially
+if you move to a world where you have rocks that have megawatts uh megawatts uh megawatts are like
+literally it's not even a rhino factor that's the other thing right the power dense you know
+if chips are in manufacturing is the constraint right now roughly it's one watt per millimeter square
+yeah uh for AI chips and such one easy way is to pump that to two watts per millimeter square
+now you may not get two x the performance you may only get 20% more performance and that requires
+much more exotic cooling right it requires uh more complicated cold plates and very complicated liquid
+cooling and uh or maybe it requires like things like immersion cooling but in space higher watts
+per millimeter is very difficult whereas on Earth these are solved problems and one of these things
+enables you to get a lot more tokens maybe it's 20% more tokens per way for this manufacturer
+and that's a humongous way so maybe let me tell you mean of diarrhea yeah of diarrhea
+scram millimeters of a diarrhea yeah I mean it would be a better for space because if you can
+write more watts per millimeter would be the chip runs hotter and the hotter the chip
+I guess this is a question of a computer chip engineering but but it like it cools to the power
+for us by step on Boltzmann's law so if you can run a very hot chip because of the water water
+you can't run hotter you can only run a denser and the problem is getting the heat out of that dense
+area means you have to move away from standard like air cooling and liquid cooling to
+more exotic forms of liquid cooling or even immersion to get to higher power densities and that's
+more difficult in space than it is on Earth yeah and maybe it's at this point worth
+uh exploiting what what exactly a scale up is and what it looks like for Nvidia versus uh
+traenium versus um versus uh TPUs yeah so earlier I was mentioning how communication within a chip
+is super fast yeah communication within chips that are in the same rack is fast but is not as fast
+and then you know it's on the order of terabytes and then communication very far away is
+on the order of gigabyte hundreds of gigabytes right so this this order of magnitude as you get
+further distance compute and maybe across the country it's on the order of gigabytes second right
+scale up domain is this like tight domain um where the chips are communicating on the order
+of terabytes a second and so for Nvidia previously this meant in H100 server had HGPUs
+and those HGPUs could talk to each other at terabytes a second with black well and VL72
+they implemented rack scale scale up and that meant all 72 GPUs in the rack would connect to
+could connect to each other at terabytes a second speed and in the speed double gen on gen but also
+the most important innovation they did was going from 8 to 72 in the domain when we look at
+Google their scale up domain is completely different right it is always been on the order of thousands
+right with TPU V4 they had pod the size of 4,000 chips with V8 they had pods even you know
+RV7 they had pods in the 7,000 or sorry 8,000 9,000 range um and what's relevant here is that it's
+not it's not the same as Nvidia it's not like for like Google has a topology that's a tourist right
+so every chip connects to six neighbors rather than Nvidia the 72 GPUs connect all to all right so
+they can send terabytes a second to each other to any arbitrary other chip in that pod of scale up
+whereas Google you have to bounce through chips right so this means if TPU one needs to talk to TPU
+76 then it has to bounce through various chips and there is always some blocking of resources when
+you do that so because that one TPU is only connected to six other TPUs and so there's a difference
+in topology and bandwidth and there are tradeoffs and advantages of both right Google gets to have
+a massive scale up domain but then they have the tradeoff of you have to bounce across chips to get
+from one chip to another you can only talk to six direct neighbors and so there is like this tradeoff
+and Amazon it has has mutated their scale up domain there's somewhere in between Nvidia and Google
+effectively where they're trying to make larger scale up domains they try and do all to all to some
+extent which is what with switches which is what Nvidia does but also to some extent they use tourists
+topologies like Google does and as we as we advance forward to next generations all all three of them
+are moving more and more towards a dragonfly topology which means there's sort of like
+there is some fully connected elements and there's some elements that are not fully connected
+so you can get the scale up to be hundreds or thousands of chips but also have it not content
+for resources when you're bouncing through chips. Related question I heard somebody make the claim
+that the reason the parameter scaling has been slow and only now are we getting bigger and bigger
+models from OpenAI and Anthropic is that so original GP4 is over a trillion parameters and
+only now are models starting to approach that again and I heard a theory the reason is that
+Nvidia's scale ups have just not had that much memory capacity and so
+what was the claim exactly if you have say one five you let's see if you have a 5T model running
+at FPH so that's five five trillion gigabytes yeah and then you have the KV cache let's say it's like
+just called the same size let's say it's the same size for one batch so you need 10 gigabytes sorry
+10 terabytes to be able to run a single forward pass yeah and then only with the GP200 and
+VL72 do you have an NVIDIA scale up that has 20 terabytes and before that they were much smaller
+whereas Google on the other hand has had these huge TPU pods that are not all to all but still
+have I think hundreds of terabytes of capacity in a single scale up so does that explain why
+parameter scaling has been slow I think it's partially the capacity in bandwidth but also
+as you build a larger model the ability to deploy is is slower right like in terms of like
+hey what is the inference speed for the end user that's kind of irrelevant what's really relevant
+is RL and what we've seen with these models and allocation of compute out a lab is sort of
+there's there's a few main ways you can allocate compute you can allocate it to inference iE revenue
+you can allocate it to development iE making the next model and you can allocate it to research
+and in development specifically you can split it between pre-training and RL right
+and so when you think about hey what exactly is happening well the model the compute efficiency
+gains you get from research are so large you actually want most of your compute to go to research
+yeah not to development because you know all these researchers are generating new ideas trying
+them out testing them and continuing to march along this and push the prey to optimal curve
+of scaling loss further and further and further and further and at least we've seen empirically
+as like model cost gets 10x cheaper every year or even more than that which at the same scale
+gets 10x cheaper or I get you know at you know to get to reach new frontiers it costs the same amount
+or more right so you don't want to train you don't want to allocate too many resources to
+to pre-training and post and RL you actually want to allocate most of your resources to research
+and then in the middle is this sort of this like development top period if you pre-trained
+a 5 trillion parameter model now you have to spend all this time how many rollouts do you have to do
+in these RLs and these rollouts for a trillion parameter model versus a 5 trillion parameter model
+are five times larger which then means it takes if you wanted to do as many rollouts maybe
+the larger models more sample efficient let's say it's two x more sample efficient okay great
+now you need two and a half x much time of RL to get the model smarter or you could
+RL the smaller model for two x the time and you'd be it'd be you know you'd still have a
+50% or you'd sell the 25% difference in the big model which is two x more sample efficient
+and doing x number of rollouts versus the small model which is a trillion parameters doing
+although it's less sample efficient is doing twice as many rollouts it's still done faster
+and so you get the model faster sooner and you've done more RL and then you can take that model
+to help you build the next models help your engineers train and do all these research ideas and so
+this feedback loop is actually weighed towards smaller models in in every case no matter what
+your hardware is and then as you look to Google Google does deploy the largest production model
+of any of the major labs right with Gemini Pro it is a larger model than GPT five four
+so larger model than Opus and and so you end up with yes Google does this because they have
+a unipolar set of compute right almost all TPU um where's inthropic is dealing with
+1800s H200s blackwell trainiums TPUs of various generations right and and
+open eyes dealing with mostly in video right now but going towards having AMD and trainium as well
+the fleets of compute like Google can can just optimize around the larger model
+and they can leverage 1000 ships in a scale up domain to get you know the RL time speed much faster
+so that you can actually have this feedback loop be fast but at the end of the day
+in isolation you almost always want to go with a smaller model that gets RL faster
+and gets deployed into research and development so you can build the next thing and get more
+compute efficiency wins and then this compounding effect of oh I made a smaller model that I
+RL more that I then deployed into research and development earlier and I spent less compute
+on the training itself because I was able and I was able to allocate more compute to the research
+this like compounding effect of being able to do the research faster and faster and faster
+is potentially a faster takeoff and that's all these companies want is fast to takeoff possible
+yeah um okay a spicy question um you know you're explaining you make the
+a semi-analysis tells these spreadsheets and you're always like uh six months ago or a year ago
+we told people the memory crunch or now you're telling people they were clean room crunch and then
+the in the future the tool crunch um why is LIA pulled the only person that is using your spreadsheets
+to make outrageous money what is everybody else doing I think I think there are a lot of people
+making money in many ways I think obviously LIA pulled LIA pulled jokes that you know he's the
+only client of mine that tells me our numbers are too low everyone else tells me our numbers are too high
+almost ad nausea um you know whether it's a hyperscaler saying hey that other hyperscaler their
+numbers are too high you know and we're like no that's it and they're like no no no it's impossible
+blah blah blah and then you're like finally have to convince them through all these facts and data
+when we're working with hyperscalers or AI labs that in fact know that number isn't too high
+um that's correct but eventually like sometimes it's like six months later it takes them to
+realize our year later um I think I think other clients like on the trading side also use our
+data right we we sell data to a lot of you know I think roughly 60% of my business is industry
+so AI labs data center companies hyperscalers semiconductor companies you know the whole supply chain
+across AI infrastructure but then like 40% of our revenue is like hedge funds right and you know
+I'm not gonna comment on who our customers are but I think a lot of people use the data it's just
+how do you interpret it and then what do you like view as beyond it and I will say LIA pulled is
+pretty much the only person who tells me my numbers are too low always and sometimes these two
+high sometimes I'm too low right but in general I think other people are you know doing that and
+you can check certain you can you can look across the space at hedge funds and look at the 13Fs
+and see actually they own maybe not exactly what LIA pulled does because it's always like a question
+of like what is the most constrained thing what's the thing that's going to be that's most
+outside of expectations and that's what you're really trying to exploit its inefficiencies in the market
+and in a sense what our data shows is like is is like making the market more efficient
+by making the base data of what's happening more accurate versus like but in a sense I think many
+many funds do trade on information that is out there and it's not I don't think I don't think
+LIA pulled the only person I think he has the most conviction on the entire in the entire like about
+the agi take off though right right I mean but the better not about like what happens in 2035
+the bets that you're making that are at least exemplified by public returns we can see for
+different funds including leopolds about what has happened in the last year and the last
+year stuff could be predicted using your spreadsheets right so it's like it's less about
+it's about buying like the next year spreadsheet not just spreadsheets the other reports there's
+the i-axis to the data a lot of data but anyways you know I think it's not about some crazy
+singularity thing it's about like oh can you buy the memory crunch a simple one though is like
+you only buy the memory crunch if you believe a-i is going to take off in in a huge way and
+the memory crunch a lot of it was predicated on like you know at least for like people in the
+bay area who think about infrastructure it's like obvious kv cash explodes as context ones
+this is longer so you need more memory and then you do the math and you then you also have to have
+a lot of supply chain understanding of like what fabs are being built and what data centers are
+being built and how many chips and all these things and so we we we track all these different data
+datasets like very tightly but at the end of the day it takes you know someone to fully believe
+that this is going to happen like I think a year ago if you told someone memory prices were
+quadruple and smartphone volumes are going to go down 40% you know over the over the year or
+two after that people are like you're crazy that never happened except a few people will do
+believe that and those people did trade memory right and and people did I don't think like
+the only person buying like memory companies I think there are a lot of people buying
+memory companies he of course sized and positioned and did things in a better ways than some
+maybe most right I don't want to comment on who's returns or what but he certainly did well
+but other people also did really well right trying to be like this wow you've made me
+for the first time ever no you're fine I think it's hilarious right I'm being a diplomat you
+know where is usually I'm like spicy yeah okay maybe some rapid fire the close out
+can TSMC if you're saying look the the memory logic etc and the
+and three's mostly going to be yeah accelerators but then there's N2 which is mostly apple now
+and then in the future I guess yeah I would also want to go on N2 can can they kick out apple
+if NVIDIA and Amazon and Google say hey we really the board pulling to pay a lot of money
+for N2 capacity so I think the challenge of this is chip design timelines take a lot while
+and so that's more than a year and the designs that are on two nanometer are more than a year out
+and so what would really happen is apple or sorry in video and all these others will be like hey
+we're going to prepay for the capacity and you're going to expand it for us and then apple will be
+and maybe TSMC takes a little bit of margin but not a ton they're not going to kick apple out entirely
+right what they're going to do is when apple orders x they may say hey we projectively need y
+or x minus one and so that's what we're going to give you is x minus one and then that flex capacity
+apples kind of screwed on um whereas traditionally apples always overordered by like 10% and cut
+back by 10% over the course of the year and some years they they hit the entire 10% just you know
+volumes very right based on the season macro blah blah blah blah and so I don't think TSMC would kick
+out apple I think apple will become a smaller and smaller and smaller for percentage of TSMC's revenue
+and therefore be less relevant for TSMC to cater to their demands and TSMC could eventually start
+saying hey you got a pre-book your capacity for next year for two years out and you have to prepay
+for the capx because that's what in video and Amazon and Google are doing yeah I wonder where
+the going to specific numbers and like I don't have any of them on the hand of like how many
+end to wafer's or the what percentage of N2 does apple have its hands on versus over the coming
+years versus AI yeah I mean this year apple has the majority of N2 yeah that's going to get fabricated
+there's a little bit from AMD they are trying to make some AI chips and CPU chips early there's a
+little bit but for the most part it's it's apple um and as we go forward to the year after that apple
+still you know it gets closer to like half of it as other people start ramping but then it falls
+drastically right just like for N3 they were half um well well we'll see and when I say N2 that includes
+A16 which is a variant of N2 um over time those those nodes will be the majority and what's also
+interesting is traditionally apple has been the first to a process node two nanometers actually
+the first time they're not well besides Huawei right Huawei back in 2020 and before was the first
+with apple but they were both making smartphones now with 2 nanometer you've got AMD trying to make
+a CPU and a GPU chiplet that they used advanced packaging to package together um in the same time
+frame as apple um and this is a big risk for AMD that causes potential delays potentially because
+it's a brand new process technology it's hard but in today this is this is a bet that they want to
+do to you know scale faster than Nvidia and try and beat them as we move forward actually when we
+move to the A16 node the first customer there is not even apple it's AI and as we move forward
+that will become more and more prevalent not only will apple not be the first to a node they will
+also not be the majority of the volume to the new node and then they'll just be like any old
+customer and because the scale of TSMC's capex keeps ballooning but apple's business is kind of
+not growing at the same pace they become less and less relevant customer and they also will just
+cut their orders because things in the supply chain are kicking them out whether it be packaging
+or materials or DRAM or NAND these things are increasing in cost they can't pass on all the
+cost to customers likely because the consumer is not that strong and in you end up with like
+this conundrum where they are just not apple TSMC's best bud like they have been historically.
+Do you think um if Huawei had access to three nanometer they would have a better accelerated than
+potentially yeah I think I think Huawei they were the first for the seven nanometer AI chip as
+well they're the first for the five nanometer mobile chip but they were the first for the
+seven nanometer AI chip the Huawei ascend was like two months before the TPU and like four months
+before Nvidia's I want to say it was a V100 A100 I think and so you know that's just moving to a
+process no that doesn't imply software it doesn't imply hardware design all these other things
+but Huawei is arguably the only company in the world that has all the legs right Huawei has
+cracked software engineers Huawei has cracked networking technologies that's in fact
+they're biggest business historically right and they have cracked AI talent but further
+more beyond Nvidia they actually have better AI researchers and further more beyond Nvidia they
+have their own fabs and further more beyond Nvidia they have you know their own you know end
+market of like selling tokens and things like that and Huawei tends to be like they're able to get
+the top top top top talent in videos as well but not as not as in such concentration and Huawei
+has a bigger pool in China it's very arguable that Huawei if they had TSMC would be
+better than Nvidia and there are areas where China has advantages outside of um areas that Nvidia
+can't access as easily right around not just scale but also like some things around um you know
+certain optical technologies China's actually really good at um so there's there's certain
+I think it's very reasonable that if uh in 2019 that issue that that was not that Huawei
+was not banned from using TSMC Huawei would Huawei would had already a Clipsed Apple is the biggest
+TSMC customer and Huawei has huge share of networking and compute and CPUs and all these things
+they would have kept gaining share and likely be TSMC's bigger biggest customer. Wow that's crazy
+I'm going to have a random final question for you so the other part of the online interview was
+robots and so if um if you've noticed take off faster than people expect if by 2030 there's
+millions of people who know is running around which each need local uh local compute
+any thoughts on what that implies? What will be required for that? You know there's there's a lot of
+like difficulties with like the VLMs and all these things that people of VLAs that people are deploying
+on on on robots but to some extent you don't need to have all the intelligence in the robot
+and it would be much more efficient to not do that right because in the server and in cloud
+you can batch process and all these things so what you may want to do is hey a lot of the planning
+and longer horizon tasks are determined by a much more capable model in the cloud that runs
+at very high batch sizes and then it pushes those directions to the robots who then interpolate
+between each subsequent action or is given like hey pick up that cup and then the model on the
+robot can pick up the cup and it's like as it's picking up it's like oh you know in fact
+this you know you know things like weight and all these things might have to be and like force
+may have to be like determined by the model on the robot but not everything needs to be like you
+know hey pick up the robot uh you know this right or like hey that's a headphone actually I'm
+the super model in the cloud I know that this headphones are you know Sony XM6 which is not a
+dorkish ad spot but you know it might say hey the headband is soft and and this is the
+grant there's the weight of it and all these things and then the model on the robot can be less
+intelligent and take these inputs and do the actions and it may get told by the model in the cloud
+second every 10 times a second maybe you know depends on the hurts of the action but a lot of that
+can be offloaded to the cloud because otherwise if you do all of the processing on the device
+I believe it would be more expensive because you can't batch to you couldn't have as much
+intelligence as you do in the cloud because the models would just be bigger in the cloud and three
+were an assembly conductor shortage world and any robot you deploy needs leading edge chips
+because the power is really bad for robots right you need it to be low power and efficient
+and all of a sudden you're taking power and chips that would have been for AI data centers and
+you're putting them in robots yeah so now that 200 gigawatts gets lower if you're at if you're
+deploying millions of human rights I think this is very interesting because something people
+might not appreciate about the future is how centralized in a physical sense intelligence will be
+we're right now with humans you're compute like there's eight billion humans and their compute
+is on on their heads on their person and in a future even with robots that are out physically in
+the world I mean obviously knowledge work will be done in a centralized way from data centers with
+huge like hundreds of thousands of instances or maybe millions of instances but even for robotics
+the future you're suggesting is one where there's like more centralized thinking and centralized
+computation that's driving you know millions of robots out in the world and so I think that just like
+there's an interesting fact about the future that I think people might not appreciate
+I think Elon recognizes this which is why he's like going to different places for his chips right
+he signed this massive deal with Samsung to make his robot chips in Texas because he thinks you know
+like I personally think he thinks that you know Taiwan risk is huge and because of that
+and the centralization of resources in Taiwan him having his robot chips in Texas and also being
+a separate supply chain that is not as constrained by no one's making AI chips really on Samsung
+besides Nvidia's new LPU that they're launched they're launching it next week but we're
+recording it the week before it's going to be on this week this is going to be a part of
+oh the substance coming up a force yeah so they're launching this new AI chip next week
+for which is built on Samsung but that's like sort of a recent development from Nvidia and then
+that's the only other AI like AI demand there whereas on TSMC everything is competing so he gets
+this like both geopolitical diversification but also the supply chain diversity for his robots
+and he's not as competing as much with with the like willingness to pay of infinity of the
+data center of geniuses okay final question on Taiwan if we believe that tools are the ultimate
+bottleneck how much of Taiwan's place in the AI semiconductor supply chain could we deerisk
+simply by having a plan to airlift every single process engineer at TSMC out when things come
+to if they get blockaded or something or do you actually still need to ship out the EV tools
+which would be multiple plain loads per single tool and would not be practical if you ship
+out all the process engineers and assuming it's like hot enough that you destroy the fabs
+no one has all the fabs in Taiwan now which is a big risk right you know these tools actually
+use a lot of semiconductors which are manufactured in Taiwan so it's like a snake eating its own
+tail sort of like meme because you can't make the tools without the chips from Taiwan which you
+can't use without the tools and you know there's obviously some diversification there but
+and they don't use super advanced chips in lithography tools but at the end of the day there is
+some tail eating the dragon just shipping out all the engineers and blowing up the fabs means
+China has a stronger semiconductor supply chain than the rest of the world right in terms of
+verticalization now that you've removed Taiwan and now you've got all the knowhow but you've
+got to replicate it in let's say Arizona or wherever for TSMC and it's going to take a long time
+to build all the capacity that TSMC has had built over the years and so you've dramatically slowed
+US and global GDP not just growth you've drank the GDP massively and you've got a lot bigger
+problems and your incremental ability to add compute goes to almost zero right instead of
+hundreds of gigawatts a year by the end of decade let's say by the end of the decade something
+happens to Taiwan now you're at maybe like 10 gigawatts across in Telenzamsong or 20 gigawatts it's like
+nothing right now all of a sudden you've like really cost some crazy dynamics in AI of course you
+have all the existing capacity but that existing capacity pills and comparison to the capacity that's
+being expanded yeah okay good one that was excellent thank you so much for coming on the podcast
+thank you for having me and uh see you today yeah

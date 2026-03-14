@@ -6947,3 +6947,432 @@ STEP: Aggregate Daily Scores
 
 ============================================================
 STEP: Generate Deep Dives
+============================================================
+Generating Deep Dives for 3 insights...
+
+  Using Moonshot/Kimi API
+[78] Semiconductors and the Future of Compute
+  ✓ Deep Dive stored
+[79] AI in Defense and the Future of Military Technology
+  ✓ Deep Dive stored
+[80] Monetary Matters: The Impact of US-Iran Conflict on the Worl
+  ✓ Deep Dive stored
+
+✓ Generated 3/3 Deep Dives
+
+✓ Generate Deep Dives completed
+
+============================================================
+STEP: Fetch Prices
+============================================================
+VNA... $300.15 (-10.37%)
+  Fetching Copper...     Error fetching Copper: HTTP Error 404: Not Found
+Failed
+  Fetching DIS... $99.29 (-5.48%)
+  Fetching DOCS... $24.37 (-0.12%)
+  Fetching DXY... $0.00 (+0.00%)
+  Fetching EDIT... $2.44 (+14.55%)
+  Fetching EMAX... $0.00 (-0.00%)
+  Fetching ETH-USD... $2093.45 (+3.26%)
+  Fetching FB... $42.28 (-0.51%)
+  Fetching FTIE... Failed
+  Fetching GDX... $93.26 (-16.10%)
+  Fetching GLD... $460.84 (-2.66%)
+  Fetching GOLD... $47.47 (-15.50%)
+  Fetching GOOG... $301.46 (-3.70%)
+  Fetching GOOGL... $302.28 (-3.39%)
+  Fetching GS... $782.21 (-15.10%)
+  Fetching Gold... $47.47 (-15.50%)
+  Fetching HOOD... $73.39 (-5.34%)
+  Fetching IBM... $246.28 (+3.68%)
+  Fetching IEF... $95.59 (-1.80%)
+  Fetching ILMN... $118.94 (-2.40%)
+  Fetching INFY... $13.27 (-6.81%)
+  Fetching IWM... $246.59 (-6.80%)
+  Fetching JNJ... $241.52 (-1.49%)
+  Fetching JPY... $32.33 (-10.36%)
+  Fetching LLY... $985.08 (-4.25%)
+  Fetching META... $613.71 (-6.12%)
+  Fetching MINE... $3.40 (-12.82%)
+  Fetching MSFT... $395.55 (-1.26%)
+  Fetching MSTR... $139.67 (+2.96%)
+  Fetching NEE... $92.78 (-2.45%)
+  Fetching NOW... $113.62 (+9.01%)
+  Fetching NVDA... $180.25 (-7.83%)
+  Fetching Nasdaq... $593.72 (-3.72%)
+  Fetching OKLO... $58.37 (-11.99%)
+  Fetching PLTR... $150.95 (+12.49%)
+  Fetching PQNT... $20.89 (-8.31%)
+  Fetching PYPL... $44.90 (-5.11%)
+  Fetching QQQ... $593.72 (-3.72%)
+  Fetching Russell... $246.59 (-6.80%)
+  Fetching S&P... $662.29 (-4.45%)
+  Fetching S&P 500... $662.29 (-4.45%)
+  Fetching SF... $70.23 (-8.42%)
+  Fetching SLV... $72.69 (-9.18%)
+  Fetching SMR... $11.80 (-10.47%)
+  Fetching SNAP... $4.56 (-10.06%)
+  Fetching SNWGF... $11.67 (-15.75%)
+  Fetching SONY... $21.49 (+0.37%)
+  Fetching SPY... $662.29 (-4.45%)
+  Fetching SQ... Failed
+  Fetching SQQQ... $75.74 (+11.98%)
+  Fetching Semiconductors... $387.33 (-9.11%)
+  Fetching TDOC... $5.37 (+15.48%)
+  Fetching TLT... $86.54 (-3.75%)
+  Fetching TSLA... $391.20 (-6.28%)
+  Fetching TSM... $338.31 (-12.75%)
+  Fetching TWTR...     Error fetching TWTR: HTTP Error 404: Not Found
+Failed
+  Fetching UNG... $12.64 (+8.97%)
+  Fetching URANIUM...     Error fetching URANIUM: HTTP Error 404: Not Found
+Failed
+  Fetching US 10 year Treasury...     Error fetching US 10 year Treasury: URL can't contain control characters. '/v8/finance/chart/US 
+Failed
+  Fetching USO... $119.89 (+50.37%)
+  Fetching Uranium...     Error fetching Uranium: HTTP Error 404: Not Found
+Failed
+  Fetching VEEV... $178.88 (+1.37%)
+  Fetching VIX... $27.19 (+51.65%)
+  Fetching WIT... $2.26 (+2.73%)
+  Fetching WORK... Failed
+  Fetching WTBN... $25.30 (-1.52%)
+  Fetching WTI... $3.37 (+33.20%)
+  Fetching XAU-USD... $0.00 (+0.00%)
+  Fetching XLE... $57.70 (+5.16%)
+  Fetching XLK... $136.80 (-4.34%)
+  Fetching XOM... $156.12 (+4.74%)
+  Fetching ZEN...     Error fetching ZEN: HTTP Error 404: Not Found
+Failed
+
+✓ Saved 78 prices to /Users/jaredsheppard/.openclaw/workspace/site/price_data.json
+Finished: 2026-03-13 22:05:44.388586
+
+✓ Fetch Prices completed
+
+============================================================
+STEP: Generate Charts
+============================================================
+
+STDERR: Traceback (most recent call last):
+  File "/Users/jaredsheppard/.openclaw/workspace/pipeline/generate_charts.py", line 7, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+
+✗ Generate Charts failed
+
+============================================================
+STEP: Auto-Curate Terms
+============================================================
+============================================================
+Auto-Curating Suggested Terms
+============================================================
+
+🔍 Scanning content for new terms...
+
+✓ Found 0 new potential terms
+
+Found 0 new potential terms from recent content.
+
+📊 Analyzing 2 pending terms...
+------------------------------------------------------------
+
+============================================================
+CURATION SUMMARY
+============================================================
+  Auto-promoted: 0
+  Flagged for review: 2
+  Skipped (low relevance): 0
+
+============================================================
+TERMS FOR MANUAL REVIEW
+============================================================
+
+• Memory Crunch
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A situation where the demand for memory outpaces supply, leading to potential shortages and increase...
+
+• Geopolitical Diversification
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: The strategy of spreading geopolitical risks across different regions to mitigate potential disrupti...
+
+✓ Auto-Curate Terms completed
+
+============================================================
+STEP: Extract Podcast Guests
+============================================================
+============================================================
+Extract Podcast Guests
+============================================================
+Processing 50 processed episodes
+  ✓ Harvard Professor Graham Allison ← All-In with Chamath, Jason, Sacks & Friedberg (2026-03-09)
+  ✓ Andrew Yang ← Moonshots with Peter Diamandis (2026-03-07)
+  ✓ Ray Dalio ← All-In with Chamath, Jason, Sacks & Friedberg (2026-03-03)
+  ✓ Ben Horowitz ← Moonshots with Peter Diamandis (2026-02-19)
+  ✓ Milton Berg ← Monetary Matters with Jack Farley (2026-02-06)
+  ✓ Bosworth ← a16z Live (2023-12-21)
+  ✓ Brett Adcock ← Moonshots with Peter Diamandis (2023-03-01)
+
+✓ Done. 7 guest(s) in database.
+
+✓ Extract Podcast Guests completed
+
+============================================================
+STEP: Export Website Data
+============================================================
+============================================================
+Exporting Website Data
+============================================================
+✓ Exported website data to /Users/jaredsheppard/.openclaw/workspace/site/data
+✓ Exported: {'ticker_scores': 42, 'podcast_summaries': 14, 'archive_items': 82, 'podcast_guests': 7, 'pundits': 14}
+
+============================================================
+Generating Website JavaScript
+============================================================
+✓ Generated data.js with 42 tickers, 82 archive items, 66 deep dives, 2 suggested terms, 7 legacy guests, 14 pundits; chartsVersion=2026-03-13T13:28:57.055826
+✓ Bumped data.js cache-buster to v=1773457545
+
+============================================================
+STEP: Push to GitHub
+============================================================
+✓ Pushed to GitHub: Pipeline update 2026-03-13 22:05: 1 podcasts, 3 insights, 0 newsletters
+
+============================================================
+PIPELINE COMPLETE
+Finished: 2026-03-13 22:05:48.208715
+============================================================
+📊 Pipeline Complete
+
+🎙️ 1 new podcast(s) analyzed
+📈 5 tickers scored
+
+Top tickers today:
+  GOOGL: score 25
+  MSFT: score 20
+  AAPL: score 15
+  META: score 15
+  NVDA: score 10
+
+🌐 Website updated
+2026-03-14T05:00:52-05:00 run_if_scheduled: in window, running pipeline
+============================================================
+AUTO PIPELINE
+Mode: full
+Started: 2026-03-14 05:00:53.095752
+============================================================
+
+============================================================
+STEP: Podcast Curation
+============================================================
+======================================================================
+Podcast Curation System
+======================================================================
+
+Found 7 podcast feeds
+
+Fetching episode metadata...
+  Fetching: https://feeds.megaphone.fm/DVVTS2890392624...
+    ✓ Moonshots with Peter Diamandis: 0 episodes
+  Fetching: https://feeds.megaphone.fm/EWWMN1909747317...
+    ✓ Monetary Matters with Jack Farley: 0 episodes
+  Fetching: https://feeds.simplecast.com/JGE3yC0V...
+    ✓ The a16z Show: 0 episodes
+  Fetching: https://rss.libsyn.com/shows/254861/destinations/1928300.xml...
+    ✓ All-In with Chamath, Jason, Sacks & Friedberg: 1 episodes
+  Fetching: https://anchor.fm/s/e29097f4/podcast/rss...
+    ✓ The Jack Mallers Show: 0 episodes
+  Fetching: https://feed.podbean.com/macrovoices/feed.xml...
+    ✓ Macro Voices: 0 episodes
+  Fetching: https://api.substack.com/feed/podcast/69345.rss...
+    ✓ Dwarkesh Podcast: 0 episodes
+
+Matching audio files to episodes...
+  ✓ Matched: 1 files
+  ? Unmatched: 8 files
+
+Curating episodes for investment relevance...
+
+  APPROVED for transcription: 1
+  SKIPPED/EXCLUDED: 0
+
+======================================================================
+CURATION RESULTS
+======================================================================
+
+📌 APPROVED (will transcribe):
+
+  ✓ All-In with Chamath, Jason, Sacks & Friedberg
+    Title: Iran War, Oil Shock, Off Ramps, AI's Revenue Explosion and PR Nightmar
+    Keywords: revenue, ai
+    File: ALLIN-E264_V2_Ch.mp3
+
+----------------------------------------------------------------------
+
+📋 REVIEW ALL:
+
+  ✓ [APPROVED] All-In with Chamath, Jason, Sacks & Friedberg
+    Title: Iran War, Oil Shock, Off Ramps, AI's Revenue Explosion and P
+    Keywords: revenue, ai
+
+
+✓ Curation log saved: /Users/jaredsheppard/.openclaw/workspace/pipeline/state/curation_log.json
+
+======================================================================
+NEXT STEPS
+======================================================================
+
+1. Review approved episodes above
+2. To transcribe approved episodes, run:
+   python3 transcribe_curated.py
+
+3. Or manually transcribe specific files:
+   whisper 'ALLIN-E264_V2_Ch.mp3' --model tiny --language en
+
+✓ Podcast Curation completed
+
+============================================================
+STEP: Fetch & Transcribe
+============================================================
+======================================================================
+Fetch & Transcribe Latest Podcast Episodes
+======================================================================
+  ✓ Swept 4 completed transcript file(s) from whisper_done into transcripts
+
+Found 7 podcast feeds
+
+📻 Processing: https://feeds.megaphone.fm/DVVTS2890392624...
+  ⏭ Already have 'OpenClaw Explained: Baby AGI, Security Threats, an' (guid match, ep_id=54)
+  ✗ No episode found
+
+📻 Processing: https://feeds.megaphone.fm/EWWMN1909747317...
+  ⏭ Already have 'Could the Iran War Cause a New Oil Crisis? | FT's ' (guid match, ep_id=61)
+  ✗ No episode found
+
+📻 Processing: https://feeds.simplecast.com/JGE3yC0V...
+  ⏭ Already have 'Emil Michael: Iran, Anthropic and the Future of AI' (guid match, ep_id=62)
+  ✗ No episode found
+
+📻 Processing: https://rss.libsyn.com/shows/254861/destinations/1...
+  📋 Latest: Iran War, Oil Shock, Off Ramps, AI's Revenue Explosion and P...
+  ⬇️  Downloading: ALLIN-E264_V2_Ch.mp3
+     Title: Iran War, Oil Shock, Off Ramps, AI's Revenue Explosion and P...
+     ✓ Downloaded to /Users/jaredsheppard/.openclaw/workspace/audio/ALLIN-E264_V2_Ch.mp3
+  🎙️  Transcribing: ALLIN-E264_V2_Ch.mp3
+  ✓ Already transcribed: ALLIN-E264_V2_Ch.txt
+
+📻 Processing: https://anchor.fm/s/e29097f4/podcast/rss...
+  ⏭ Already have 'Oil, Bonds, and Bitcoin: The Rules Are That There ' (guid match, ep_id=52)
+  ✗ No episode found
+
+📻 Processing: https://feed.podbean.com/macrovoices/feed.xml...
+  ⏭ Already have 'MacroVoices #523 Jim Bianco: Energy, FED & Economy' (guid match, ep_id=59)
+  ✗ No episode found
+
+📻 Processing: https://api.substack.com/feed/podcast/69345.rss...
+  ⏭ Already have 'Dylan Patel — Deep dive on the 3 big bottlenecks t' (guid match, ep_id=63)
+  ✗ No episode found
+
+✓ Log saved: /Users/jaredsheppard/.openclaw/workspace/pipeline/state/fetch_log.json
+
+======================================================================
+SUMMARY
+======================================================================
+Total feeds: 7
+Successfully transcribed: 1
+Failed: 0
+
+Completed episodes:
+  ✓ All-In with Chamath, Jason, Sacks & Friedberg: Iran War, Oil Shock, Off Ramps, AI's Revenue Explo...
+
+
+Next step: Run 'python3 research.py' to analyze transcripts
+
+✓ Fetch & Transcribe completed
+
+============================================================
+STEP: Newsletter Ingestion
+============================================================
+==================================================
+Newsletter Ingestion Pipeline
+==================================================
+
+Connecting to Gmail...
+Connecting to Gmail at imap.gmail.com:993...
+Logging in as jsheppard8989@gmail.com...
+Selecting folder: NEWSLETTERS...
+Found 0 unread emails
+
+No emails fetched from Gmail.
+
+✓ Processed 0 emails
+
+Files saved to: /Users/jaredsheppard/.openclaw/workspace/pipeline/inbox
+
+Next step: Run analysis to score stock mentions
+
+✓ Newsletter Ingestion completed
+  ✓ Cleaned up 1 orphan audio file(s) (transcript already exists)
+
+============================================================
+STEP: Transcript AI Analysis
+============================================================
+  ⚠ Google Generative AI library not installed. Run: pip install google-generativeai
+
+============================================================
+Processing Podcast Transcripts with AI
+============================================================
+  Using Moonshot/Kimi API (primary)
+Found 55 transcript files
+  Processing e3c75a06762af10f374661e8af1d1af6.txt...
+    ⏭ Episode already in database (duplicate), skipping
+  Processing ALLIN-E264_V2_Ch.txt...
+    ✓ Added episode (ID: 64)
+    + Emerging term: Trump Accounts
+    + Emerging term: Coding Assistance
+    + Emerging term: Wealth Tax
+    ✓ Added 0 ticker mentions
+  Processing dario_amodei.txt...
+    ⏭ Too short, skipping
+  Processing elon_musk.txt...
+    ⏭ Too short, skipping
+
+✓ Transcript processing complete: 1 new, 51 skipped, 0 errors
+✓ Analyzed 1 new transcripts
+
+============================================================
+STEP: Newsletter Import
+============================================================
+✓ Total newsletters imported: 0
+
+============================================================
+STEP: Promote Episodes to Insights
+============================================================
+Found 1 processed episodes not yet in insights
+  ✓ Promoted: 'Investing in Capitalism: Trump Accounts, AI, and the Future ' (sentiment=neutral)
+  ✓ Auto-archived 1 older insights
+✓ Promoted 1 new insight(s) to website
+
+============================================================
+STEP: Promote Newsletters to Insights
+============================================================
+Found 0 newsletters not yet on site
+
+============================================================
+STEP: Aggregate Daily Scores
+============================================================
+✓ Saved 4 daily scores
+
+============================================================
+STEP: Generate Deep Dives
+============================================================
+Generating Deep Dives for 1 insights...
+
+  Using Moonshot/Kimi API
+[81] Investing in Capitalism: Trump Accounts, AI, and the Future 
+  ✓ Deep Dive stored
+
+✓ Generated 1/1 Deep Dives
+
+✓ Generate Deep Dives completed

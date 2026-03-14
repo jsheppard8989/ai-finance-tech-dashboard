@@ -1,19 +1,12 @@
 {
-  "timestamp": "2026-03-13T22:03:46.607108",
+  "timestamp": "2026-03-14T05:00:59.438506",
   "results": [
     {
       "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
       "title": "Iran War, Oil Shock, Off Ramps, AI's Revenue Explosion and PR Nightmare",
       "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/ALLIN-E264_V2_Ch.mp3",
-      "transcript_path": null,
-      "success": false
-    },
-    {
-      "podcast": "Dwarkesh Podcast",
-      "title": "Dylan Patel \u2014 Deep dive on the 3 big bottlenecks to scaling AI compute",
-      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/e3c75a06762af10f374661e8af1d1af6.mp3",
-      "transcript_path": null,
-      "success": false
+      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/ALLIN-E264_V2_Ch.txt",
+      "success": true
     }
   ]
 }

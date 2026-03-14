@@ -1,6 +1,24 @@
 {
-  "timestamp": "2026-03-13T22:03:39.457384",
-  "total_audio_files": 0,
-  "approved_for_transcription": 0,
-  "episodes": []
+  "timestamp": "2026-03-14T05:00:55.118193",
+  "total_audio_files": 1,
+  "approved_for_transcription": 1,
+  "episodes": [
+    {
+      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "title": "Iran War, Oil Shock, Off Ramps, AI's Revenue Explosion and PR Nightmare",
+      "description": "<p>(0:00) The Besties welcome Brad Gerstner!</p> <p>(3:48) Economic fallout of the Iran War, escalation scenarios, impact on midterms</p> <p>(19:18) Off ramp strategies, Gulf state involvement, the China angle</p> <p>(27:05) Anthropic and OpenAI scaling revenue faster than any company ever</p> <p>(46:11) AI's PR disaster, open source's future</p> <p>(1:07:51) Washington passes \"Millionaire Tax,\" Howard Schultz bails for Miami</p> <p>Follow Brad:</p> <p><a href=\"https://x.com/altcap\">https://x.co",
+      "audio_url": "https://dts.podtrac.com/redirect.mp3/traffic.libsyn.com/secure/allinchamathjason/ALLIN-E264_V2_Ch.mp3?dest-id=1928300",
+      "published": "Fri, 13 Mar 2026 17:53:00 +0000",
+      "published_date": "2026-03-13",
+      "rss_guid": "f0e6d983-d9d0-47a5-8390-17e55831299b",
+      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/ALLIN-E264_V2_Ch.mp3",
+      "filename": "ALLIN-E264_V2_Ch.mp3",
+      "relevance_score": 2,
+      "matched_keywords": [
+        "revenue",
+        "ai"
+      ],
+      "status": "APPROVED"
+    }
+  ]
 }

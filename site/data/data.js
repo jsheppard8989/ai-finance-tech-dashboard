@@ -3,7 +3,7 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-03-13T22:05:45.163020",
+  generatedAt: "2026-03-14T05:02:00.874309",
   chartsVersion: "2026-03-13T13:28:57.055826",
   tickerScores: [
   {
@@ -710,6 +710,28 @@ const dashboardData = {
       "podcast_episode_id": 61
     },
     {
+      "id": 81,
+      "title": "Investing in Capitalism: Trump Accounts, AI, and the Future of Wealth",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-03-13",
+      "summary": "In this episode of 'All-In with Chamath, Jason, Sacks & Friedberg', the hosts discuss the significance of Trump accounts in democratizing capitalism, the potential for AI in coding assistance and its scalability, and the impact of wealth taxes on the political landscape. They also touch on the role of entrepreneurs in addressing societal issues such as education, housing, and healthcare, emphasizing the importance of capitalism and entrepreneurship in solving these problems without resorting to socialism.",
+      "key_takeaway": "Invest in technologies and platforms that democratize capitalism and leverage AI to create scalable solutions in coding and product development.",
+      "tickers_mentioned": [
+        "AAPL",
+        "NVDA",
+        "SPY",
+        "TSLA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-14",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 64
+    },
+    {
       "id": 75,
       "title": "Macro Voices Episode 523: Geopolitical Situation in Iran, Oil Prices, Precious Metals, and Market Analysis",
       "source_type": "podcast",
@@ -790,11 +812,11 @@ const dashboardData = {
         "TSLA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-12",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-14",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 57
     },
     {
@@ -2339,6 +2361,26 @@ const dashboardData = {
       "key_tickers": []
     },
     {
+      "id": 81,
+      "title": "Investing in Capitalism: Trump Accounts, AI, and the Future of Wealth",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-03-13",
+      "summary": "In this episode of 'All-In with Chamath, Jason, Sacks & Friedberg', the hosts discuss the significance of Trump accounts in democratizing capitalism, the potential for AI in coding assistance and its scalability, and the impact of wealth taxes on the political landscape. They also touch on the role of entrepreneurs in addressing societal issues such as education, housing, and healthcare, emphasizing the importance of capitalism and entrepreneurship in solving these problems without resorting to socialism.",
+      "key_takeaway": "Invest in technologies and platforms that democratize capitalism and leverage AI to create scalable solutions in coding and product development.",
+      "tickers_mentioned": "[\"AAPL\", \"NVDA\", \"SPY\", \"TSLA\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-14",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 64,
+      "episode_release_date": "2026-03-13",
+      "guest_name": "Investing in Capitalism",
+      "key_tickers": []
+    },
+    {
       "id": 75,
       "title": "Macro Voices Episode 523: Geopolitical Situation in Iran, Oil Prices, Precious Metals, and Market Analysis",
       "source_type": "podcast",
@@ -2386,26 +2428,6 @@ const dashboardData = {
       "key_tickers": [
         "PLTR"
       ]
-    },
-    {
-      "id": 73,
-      "title": "Capital Markets Evolution and the Future of IPOs",
-      "source_type": "podcast",
-      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "source_date": "2026-03-11",
-      "summary": "The podcast features a discussion with SEC chair Paul Ackens and CFTC chair Michael Cilig on the evolution of capital markets, the shift from public to private markets, the impact of quarterly reporting on IPOs, and the need for investor education to protect younger investors from potential gambling addictions in financial markets. The conversation touches on the historical context of capital markets, the changing dynamics of public offerings, and the importance of regulatory bodies in safeguarding the integrity of financial systems.",
-      "key_takeaway": "The shift towards private markets and the potential for changing reporting cadence could redefine the landscape for early-stage investment opportunities and public market participation.",
-      "tickers_mentioned": "[\"AAPL\", \"NVDA\", \"SPY\", \"TSLA\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-03-12",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 57,
-      "episode_release_date": "2026-03-11",
-      "guest_name": null,
-      "key_tickers": []
     },
     {
       "id": 74,
@@ -6944,6 +6966,71 @@ const dashboardData = {
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-03-13",
     "key_tickers": []
+  },
+  "81": {
+    "id": 72,
+    "insight_id": 81,
+    "podcast_episode_id": 64,
+    "overview": "The investment thesis revolves around the growing importance of direct ownership in American companies through 'Trump accounts', the potential for a wealth disparity solution through a 'giving pledge' around equities, and the impact of geopolitical tensions on oil prices. This thesis is timely given the recent State of the Union address, which highlighted the significance of these accounts, and the escalating tensions in Iran affecting global oil prices. The focus is on how these developments can shape the future of wealth and capitalism, with a particular emphasis on the role of technology and AI in facilitating these changes.",
+    "key_takeaways_detailed": [
+      "Trump accounts are gaining momentum, with over 100,000 kids signing up daily, indicating a shift towards direct ownership of American companies.",
+      "The potential for a 'giving pledge' around equities could significantly impact wealth disparity and provide a new form of Universal Basic Income (UBI).",
+      "Geopolitical tensions in Iran have led to significant volatility in oil prices, affecting global economic forecasts and market sentiment.",
+      "Investors should monitor the development of Trump accounts and related policy changes for investment opportunities in American companies.",
+      "Keep an eye on oil prices and related geopolitical developments for short-term trading opportunities and long-term economic impacts."
+    ],
+    "investment_thesis": "The core investment logic is centered on the increasing trend towards direct ownership of American companies through Trump accounts, which could democratize capitalism and provide a new form of wealth distribution. Additionally, the potential for a 'giving pledge' around equities could further accelerate this trend. The catalysts for this thesis include policy changes, the ongoing development of Trump accounts, and the resolution of geopolitical tensions in Iran. The timeframe for this thesis is medium to long-term, as the full impact of these developments will likely take time to materialize.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple is a leading American technology company that would benefit from increased direct ownership through Trump accounts, as it is one of the most widely held stocks in the market.",
+        "positioning": "Long-term strategic position, as the company's strong brand and financial performance make it an attractive investment for new account holders.",
+        "risk": "Key risks include potential trade disputes affecting Apple's supply chain and the impact of geopolitical tensions on consumer spending."
+      },
+      "NVDA": {
+        "rationale": "Nvidia is a leading AI and technology company that stands to benefit from the growing importance of AI in facilitating direct ownership and wealth distribution.",
+        "positioning": "Medium-term tactical position, as the company's exposure to the AI sector could provide significant growth opportunities in the coming years.",
+        "risk": "Key risks include competition in the AI space and potential regulatory changes affecting the technology sector."
+      },
+      "SPY": {
+        "rationale": "SPY is an ETF that tracks the S&P 500, providing broad exposure to American companies and a way to invest in the overall market.",
+        "positioning": "Long-term strategic position, as it allows investors to benefit from the growth of American companies and the potential for increased direct ownership.",
+        "risk": "Key risks include market volatility and economic downturns affecting the overall performance of the S&P 500."
+      },
+      "TSLA": {
+        "rationale": "Tesla is a leading electric vehicle and clean energy company that could benefit from the growing interest in sustainable investments and the potential for a 'giving pledge' around equities.",
+        "positioning": "Medium-term tactical position, as the company's innovative products and potential for growth make it an attractive investment opportunity.",
+        "risk": "Key risks include competition in the electric vehicle market and potential supply chain disruptions."
+      }
+    },
+    "positioning_guidance": "Investors should consider a diversified approach, with a mix of long-term strategic positions in companies like AAPL and SPY, and medium-term tactical positions in companies like NVDA and TSLA. Entry points should be based on market conditions and individual risk tolerance, with a focus on long-term growth potential. Investors should also consider hedging their positions with options or other derivatives to protect against market volatility.",
+    "risk_factors": [
+      "Potential policy changes that could affect the development of Trump accounts and direct ownership of American companies.",
+      "Geopolitical tensions in Iran and their impact on oil prices and global economic forecasts.",
+      "Competition in the AI and technology sectors, which could affect the performance of companies like NVDA and TSLA.",
+      "Market volatility and economic downturns, which could impact the overall performance of American companies and the S&P 500."
+    ],
+    "contrarian_signals": [
+      "The potential for a 'giving pledge' around equities may not gain widespread support, limiting its impact on wealth disparity and direct ownership.",
+      "Geopolitical tensions in Iran may be resolved more quickly than expected, reducing the impact on oil prices and global economic forecasts.",
+      "The market may overreact to the potential for increased direct ownership through Trump accounts, leading to a short-term bubble in certain stocks."
+    ],
+    "catalysts": [
+      "Policy changes and developments related to Trump accounts and direct ownership of American companies.",
+      "Resolution of geopolitical tensions in Iran and their impact on oil prices and global economic forecasts.",
+      "Announcements related to a 'giving pledge' around equities and its potential impact on wealth disparity.",
+      "Earnings reports and product launches from companies like AAPL, NVDA, and TSLA, which could impact their stock performance.",
+      "Economic data releases and central bank decisions that could affect market sentiment and investment opportunities."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-03-14T05:01:43.175968",
+    "updated_at": "2026-03-14 10:01:43",
+    "insight_title": "Investing in Capitalism: Trump Accounts, AI, and the Future of Wealth",
+    "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "source_date": "2026-03-13",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
@@ -6970,11 +7057,47 @@ const dashboardData = {
     "relevance_score": 50,
     "submitted_date": "2026-03-14 03:04:09",
     "priority_score": 80
+  },
+  {
+    "id": 18,
+    "term": "Trump Accounts",
+    "definition": "A financial instrument mentioned in the podcast that allows for direct ownership of companies, aiming to democratize capitalism.",
+    "investment_implications": "Investors should consider the potential for such accounts to increase retail investor participation in the market.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-03-14 10:01:17",
+    "priority_score": 80
+  },
+  {
+    "id": 19,
+    "term": "Coding Assistance",
+    "definition": "The use of AI to assist in the development of software code, which can increase efficiency and reduce the need for human engineers.",
+    "investment_implications": "Investors should monitor the growth of AI in enterprise software development as a potential disruptor in the tech industry.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-03-14 10:01:17",
+    "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 119,
+    "id": 126,
+    "name": "Investing in Capitalism",
+    "slug": "investing-in-capitalism",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Invest in technologies and platforms that democratize capitalism and leverage AI to create scalable solutions in coding and product development.",
+    "last_episode_title": "Investing in Capitalism: Trump Accounts, AI, and the Future of Wealth",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-03-13",
+    "appearance_count": 1
+  },
+  {
+    "id": 127,
     "name": "Harvard Professor Graham Allison",
     "slug": "harvard-professor-graham-allison",
     "bio": null,
@@ -6986,7 +7109,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 120,
+    "id": 128,
     "name": "Andrew Yang",
     "slug": "andrew-yang",
     "bio": "Andrew Yang is an entrepreneur and political leader who popularized universal basic income in U.S. politics through his 2020 presidential campaign.",
@@ -6998,7 +7121,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 121,
+    "id": 129,
     "name": "Ray Dalio",
     "slug": "ray-dalio",
     "bio": "Ray Dalio is the founder of Bridgewater Associates and a macro investor known for his 'Principles' framework and work on long-term debt cycles.",
@@ -7010,7 +7133,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 122,
+    "id": 130,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -7022,7 +7145,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 123,
+    "id": 131,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -7034,7 +7157,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 124,
+    "id": 132,
     "name": "Bosworth",
     "slug": "bosworth",
     "bio": null,
@@ -7046,7 +7169,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 125,
+    "id": 133,
     "name": "Brett Adcock",
     "slug": "brett-adcock",
     "bio": "Brett Adcock is a serial founder behind Vettery, Archer Aviation, and Figure, building in eVTOL, humanoid robotics, and frontier AI.",
@@ -7059,6 +7182,18 @@ const dashboardData = {
   }
 ],
   pundits: [
+  {
+    "id": 64,
+    "name": "Brad Gersner",
+    "slug": "brad-gersner",
+    "bio": "Brad Gersner, a guest on the podcast, is known for his involvement in Trump accounts and his insights into the intersection of politics and finance.",
+    "known_for": "Trump accounts and financial market commentary",
+    "last_seen": "2026-03-14 10:01:17",
+    "last_episode_title": "Investing in Capitalism: Trump Accounts, AI, and the Future of Wealth",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-03-13",
+    "last_main_idea": "Invest in technologies and platforms that democratize capitalism and leverage AI to create scalable solutions in coding and product development."
+  },
   {
     "id": 62,
     "name": "Dylan",

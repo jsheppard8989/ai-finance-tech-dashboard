@@ -1,5 +1,17 @@
 [
   {
+    "id": 64,
+    "name": "Brad Gersner",
+    "slug": "brad-gersner",
+    "bio": "Brad Gersner, a guest on the podcast, is known for his involvement in Trump accounts and his insights into the intersection of politics and finance.",
+    "known_for": "Trump accounts and financial market commentary",
+    "last_seen": "2026-03-14 10:01:17",
+    "last_episode_title": "Investing in Capitalism: Trump Accounts, AI, and the Future of Wealth",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-03-13",
+    "last_main_idea": "Invest in technologies and platforms that democratize capitalism and leverage AI to create scalable solutions in coding and product development."
+  },
+  {
     "id": 62,
     "name": "Dylan",
     "slug": "dylan",
