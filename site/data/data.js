@@ -3,7 +3,7 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-03-14T05:02:00.874309",
+  generatedAt: "2026-03-14T22:02:29.154835",
   chartsVersion: "2026-03-13T13:28:57.055826",
   tickerScores: [
   {
@@ -7085,7 +7085,7 @@ const dashboardData = {
 ],
   podcastGuests: [
   {
-    "id": 126,
+    "id": 134,
     "name": "Investing in Capitalism",
     "slug": "investing-in-capitalism",
     "bio": null,
@@ -7097,7 +7097,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 127,
+    "id": 135,
     "name": "Harvard Professor Graham Allison",
     "slug": "harvard-professor-graham-allison",
     "bio": null,
@@ -7109,7 +7109,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 128,
+    "id": 136,
     "name": "Andrew Yang",
     "slug": "andrew-yang",
     "bio": "Andrew Yang is an entrepreneur and political leader who popularized universal basic income in U.S. politics through his 2020 presidential campaign.",
@@ -7121,7 +7121,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 129,
+    "id": 137,
     "name": "Ray Dalio",
     "slug": "ray-dalio",
     "bio": "Ray Dalio is the founder of Bridgewater Associates and a macro investor known for his 'Principles' framework and work on long-term debt cycles.",
@@ -7133,7 +7133,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 130,
+    "id": 138,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -7145,7 +7145,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 131,
+    "id": 139,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -7157,7 +7157,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 132,
+    "id": 140,
     "name": "Bosworth",
     "slug": "bosworth",
     "bio": null,
@@ -7169,7 +7169,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 133,
+    "id": 141,
     "name": "Brett Adcock",
     "slug": "brett-adcock",
     "bio": "Brett Adcock is a serial founder behind Vettery, Archer Aviation, and Figure, building in eVTOL, humanoid robotics, and frontier AI.",

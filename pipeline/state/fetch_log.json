@@ -1,12 +1,4 @@
 {
-  "timestamp": "2026-03-14T05:00:59.438506",
-  "results": [
-    {
-      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "title": "Iran War, Oil Shock, Off Ramps, AI's Revenue Explosion and PR Nightmare",
-      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/ALLIN-E264_V2_Ch.mp3",
-      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/ALLIN-E264_V2_Ch.txt",
-      "success": true
-    }
-  ]
+  "timestamp": "2026-03-14T22:02:08.050334",
+  "results": []
 }
