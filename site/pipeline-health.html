@@ -77,6 +77,38 @@
     </div>
 
     <div class="card">
+      <h2>Main page (section tie-out)</h2>
+      <p class="muted" style="margin-bottom: 0.75rem;">Counts currently shown in the three dashboard sections. Matches data.js / export.</p>
+      <table id="main-page-table">
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <div class="card">
+      <h2>Episodes in pipeline</h2>
+      <p class="muted" style="margin-bottom: 0.75rem;">Episodes we know about (from curation: approved episodes only) and where each is in the process. To see new episodes from your feeds, run the full pipeline (Curate step).</p>
+      <p id="episode-summary" class="muted" style="font-size: 0.85rem; margin-bottom: 0.5rem;"></p>
+      <div style="overflow-x: auto;">
+        <table id="episodes-table">
+          <thead>
+            <tr>
+              <th>Podcast</th>
+              <th>Title</th>
+              <th>Published</th>
+              <th title="Downloaded">Downl.</th>
+              <th title="Transcribed">Transcr.</th>
+              <th title="Analyzed">Analyzed</th>
+              <th title="Insight created">Insight</th>
+              <th title="On site">Site</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <p id="episode-note" class="muted" style="margin-top: 0.5rem; font-size: 0.8rem;"></p>
+    </div>
+
+    <div class="card">
       <h2>Counts (after last run)</h2>
       <table id="counts-table">
         <tbody></tbody>
@@ -155,6 +187,52 @@
         loadingEl.style.display = 'none';
         noReportEl.style.display = 'block';
       }
+
+      // Main page section counts (tie-out)
+      const mainPage = status?.main_page || {};
+      const mainPageTbody = document.getElementById('main-page-table').querySelector('tbody');
+      mainPageTbody.innerHTML = '';
+      for (const [key, value] of Object.entries(mainPage)) {
+        const tr = document.createElement('tr');
+        const labels = { overton: 'Overton Window', insights: 'Latest Insights', pundits: 'Podcast Pundits' };
+        tr.innerHTML = '<td>' + (labels[key] || key) + '</td><td>' + value + '</td>';
+        mainPageTbody.appendChild(tr);
+      }
+      if (Object.keys(mainPage).length === 0) {
+        mainPageTbody.innerHTML = '<tr><td colspan="2" class="muted">No main_page in status.json (re-run export).</td></tr>';
+      }
+
+      // Episodes in pipeline
+      let episodeStatus = { last_updated: null, episodes: [], note: '' };
+      try {
+        const epResp = await fetch('./data/episode_status.json', { cache: 'no-cache' });
+        if (epResp.ok) episodeStatus = await epResp.json();
+      } catch (_) {}
+      const episodes = episodeStatus.episodes || [];
+      const epTbody = document.getElementById('episodes-table').querySelector('tbody');
+      epTbody.innerHTML = '';
+      const stageKeys = ['downloaded', 'transcribed', 'analyzed', 'insight_created', 'published'];
+      let throughAnalysis = 0, onSite = 0;
+      episodes.forEach(function(ep) {
+        const st = ep.stages || {};
+        if (st.analyzed) throughAnalysis++;
+        if (st.published) onSite++;
+        const cells = [
+          (ep.podcast || '').substring(0, 28) + (ep.podcast && ep.podcast.length > 28 ? '…' : ''),
+          (ep.title || '').substring(0, 45) + (ep.title && ep.title.length > 45 ? '…' : ''),
+          (ep.published || '').substring(0, 22)
+        ];
+        stageKeys.forEach(function(k) {
+          cells.push(st[k] ? '<span class="ok">✓</span>' : '<span class="fail">✗</span>');
+        });
+        const tr = document.createElement('tr');
+        tr.innerHTML = '<td>' + cells[0] + '</td><td>' + cells[1] + '</td><td>' + cells[2] + '</td><td>' + cells[3] + '</td><td>' + cells[4] + '</td><td>' + cells[5] + '</td><td>' + cells[6] + '</td><td>' + cells[7] + '</td>';
+        epTbody.appendChild(tr);
+      });
+      document.getElementById('episode-summary').textContent = episodes.length === 0
+        ? 'No episodes in pipeline yet. Run curate → fetch so approved episodes appear here.'
+        : episodes.length + ' episodes known · ' + throughAnalysis + ' through analysis · ' + onSite + ' on site. Status as of: ' + (episodeStatus.last_updated ? formatDate(episodeStatus.last_updated) : '—');
+      document.getElementById('episode-note').textContent = episodeStatus.note || '';
 
       const counts = report?.counts || { ...(status?.counts || {}), ...(status?.last_steps || {}) };
       const countsOrder = ['podcast_episodes', 'podcasts_analyzed', 'latest_insights_total', 'overton_terms_total', 'overton_terms', 'ticker_mentions', 'pundits', 'newsletters', 'daily_scores'];

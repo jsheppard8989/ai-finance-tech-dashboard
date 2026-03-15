@@ -27,6 +27,14 @@ def export_website_data():
     stats = db.export_for_website(site_dir)
     print(f"✓ Exported: {stats}")
 
+    # Main-page section counts (same content that feeds the three dashboard sections)
+    main_content = db.get_main_page_content()
+    main_page = {
+        "overton": len(main_content.get("overton", [])),
+        "insights": len(main_content.get("insights", [])),
+        "pundits": stats.get("pundits", 0),
+    }
+
     # Write a lightweight status.json for frontend health display
     status = {
         "last_pipeline_run": datetime.now().isoformat(),
@@ -35,12 +43,65 @@ def export_website_data():
             "overton_terms": db.get_stats().get("overton_terms_total", 0) if hasattr(db, "get_stats") else 0,
             "pundits": stats.get("pundits", 0),
         },
+        "main_page": main_page,
         "counts": db.get_stats() if hasattr(db, "get_stats") else {}
     }
     with open(site_dir / "status.json", "w") as f:
         json.dump(status, f, indent=2, default=str)
 
+    # Export episode pipeline status for Pipeline Health (sanitized: no local paths)
+    _export_episode_status(site_dir)
+
     return stats
+
+
+def _export_episode_status(site_dir: Path):
+    """Write sanitized episode pipeline status to site/data for Pipeline Health."""
+    state_dir = Path(__file__).parent / "state"
+    status_path = state_dir / "pipeline_status.json"
+    out_path = site_dir / "episode_status.json"
+    if not status_path.exists():
+        with open(out_path, "w") as f:
+            json.dump({"last_updated": None, "episodes": [], "note": "Run full pipeline to populate."}, f, indent=2)
+        return
+    try:
+        with open(status_path, "r") as f:
+            raw = json.load(f)
+    except Exception as e:
+        print(f"  ⚠ Could not read pipeline_status.json: {e}")
+        return
+    episodes_in = raw.get("episodes") or {}
+    episodes_out = []
+    for ep_id, data in episodes_in.items():
+        info = data.get("info") or {}
+        stages_raw = data.get("stages") or {}
+        stages = {
+            "downloaded": bool(stages_raw.get("downloaded", {}).get("complete")),
+            "transcribed": bool(stages_raw.get("transcribed", {}).get("complete")),
+            "analyzed": bool(stages_raw.get("analyzed", {}).get("complete")),
+            "insight_created": bool(stages_raw.get("insight_created", {}).get("complete")),
+            "published": bool(stages_raw.get("published", {}).get("complete")),
+        }
+        episodes_out.append({
+            "id": ep_id,
+            "podcast": info.get("podcast", ""),
+            "title": info.get("title", ""),
+            "published": info.get("published", ""),
+            "stages": stages,
+        })
+    # Sort by published date descending (best-effort)
+    def pub_key(e):
+        s = (e.get("published") or "")[:25]
+        return s
+    episodes_out.sort(key=pub_key, reverse=True)
+    payload = {
+        "last_updated": raw.get("last_updated"),
+        "episodes": episodes_out,
+        "note": "Episodes from curation (approved). Pipeline: curate → fetch → analyze → export.",
+    }
+    with open(out_path, "w") as f:
+        json.dump(payload, f, indent=2, default=str)
+    print(f"  ✓ Exported episode status: {len(episodes_out)} episodes")
 
 
 def generate_website_js():

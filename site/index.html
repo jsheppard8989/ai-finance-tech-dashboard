@@ -1425,7 +1425,8 @@
         <!-- The Overton Window: definitions + overton terms merged -->
         <div class="card">
           <h2>The Overton Window</h2>
-          <p style="color: #8892b0; margin-bottom: 1.5rem; font-size: 0.9rem;">Curated definitions and emerging concepts not yet mainstream in investment discourse. Terms from AI episode analysis appear here after promotion.</p>
+          <p style="color: #8892b0; margin-bottom: 0.5rem; font-size: 0.9rem;">Curated definitions and emerging concepts not yet mainstream in investment discourse. Terms from AI episode analysis appear here after promotion.</p>
+          <p style="color: #6b7280; font-size: 0.8rem; margin-bottom: 1.5rem;">Source: promoted from Emerging Terms (AI episode analysis) · up to 8 terms</p>
 
           <div id="overton-window-list">
             <!-- Filled by loadOvertonWindow() from mainContent.definitions + mainContent.overton -->
@@ -1492,6 +1493,7 @@
         <!-- Latest Insights -->
         <div class="card">
           <h2>Latest Insights</h2>
+          <p style="color: #6b7280; font-size: 0.8rem; margin-bottom: 1rem;">Source: latest_insights from AI episode summaries · key tickers from AI only · up to 8</p>
           <div id="insights-container">
             <!-- Insights loaded dynamically from database -->
           </div>
@@ -1503,7 +1505,8 @@
       <div class="right-col">
         <div class="card" id="guests-card">
           <h2>Podcast Pundits</h2>
-          <p style="color: #8892b0; margin-bottom: 1rem; font-size: 0.9rem;">Voices behind the ideas: tap to see who they are and the last thesis they shared.</p>
+          <p style="color: #8892b0; margin-bottom: 0.5rem; font-size: 0.9rem;">Voices behind the ideas: tap to see who they are and the last thesis they shared.</p>
+          <p style="color: #6b7280; font-size: 0.8rem; margin-bottom: 1rem;">Source: podcast guest appearances + last thesis/takeaways from episodes · up to 20</p>
           <div id="guests-list"></div>
         </div>
         <div class="card" style="margin-top: 1.5rem;">
@@ -1644,7 +1647,7 @@
       }
       
       if (suggestions.length === 0) {
-        container.innerHTML = '<div style="color: #8892b0; padding: 1rem; text-align: center;">No new terms detected</div>';
+        container.innerHTML = '<div style="color: #8892b0; padding: 1rem; text-align: center;">No new terms detected. Run transcript analysis to extract emerging_terms. <a href="pipeline-health.html" style="color: #00d4ff;">Pipeline Health</a></div>';
         return;
       }
       
@@ -1733,7 +1736,7 @@
       });
 
       if (items.length === 0) {
-        container.innerHTML = '<p style="color: #8892b0; font-size: 0.9rem; padding: 1rem;">No terms yet. Emerging terms from AI episode analysis are promoted here after curation.</p>';
+        container.innerHTML = '<p style="color: #8892b0; font-size: 0.9rem; padding: 1rem;">No terms yet. Promote from Emerging Terms below (or run auto-curate). <a href="pipeline-health.html" style="color: #00d4ff;">Pipeline Health</a></p>';
         return;
       }
       container.innerHTML = items.join('');
@@ -1774,7 +1777,7 @@
       }
 
       if (items.length === 0) {
-        container.innerHTML = '<p style="color: #8892b0; font-size: 0.9rem; padding: 1rem;">No pundits yet. Ensure transcripts are analyzed and the AI entity pipeline has run.</p>';
+        container.innerHTML = '<p style="color: #8892b0; font-size: 0.9rem; padding: 1rem;">No pundits yet. Run transcript analysis and entity pipeline, then export. <a href="pipeline-health.html" style="color: #00d4ff;">Pipeline Health</a></p>';
         return;
       }
 
@@ -1980,7 +1983,7 @@
         } else if (!dashboardData.mainContent.insights) {
           container.innerHTML = '<div class="placeholder" style="color: #ff6b6b;">Error: insights array missing.</div>';
         } else {
-          container.innerHTML = '<div class="placeholder">No insights available</div>';
+          container.innerHTML = '<div class="placeholder">No insights yet. Run transcript analysis and export. <a href="pipeline-health.html" style="color: #00d4ff;">Pipeline Health</a></div>';
         }
         return;
       }
