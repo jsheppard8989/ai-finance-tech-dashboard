@@ -421,5 +421,23 @@ def main():
     for key, value in stats.items():
         print(f"  {key}: {value}")
 
+    # Write pipeline run report for health dashboard (local + site)
+    report = {
+        "last_run_iso": datetime.now().isoformat(),
+        "step_results": {k: (v if isinstance(v, (bool, int)) else bool(v)) for k, v in results.items()},
+        "counts": stats,
+        "errors": [k for k, v in results.items() if v is False],
+    }
+    state_dir = Path(__file__).parent / "state"
+    state_dir.mkdir(parents=True, exist_ok=True)
+    site_data_dir = Path.home() / ".openclaw/workspace/site/data"
+    site_data_dir.mkdir(parents=True, exist_ok=True)
+    for dest_dir, label in [(state_dir, "last_run_report.json"), (site_data_dir, "pipeline_report.json")]:
+        try:
+            with open(dest_dir / ("last_run_report.json" if dest_dir == state_dir else "pipeline_report.json"), "w") as f:
+                json.dump(report, f, indent=2, default=str)
+        except Exception as e:
+            print(f"  ⚠ Could not write report to {dest_dir}: {e}")
+
 if __name__ == "__main__":
     main()

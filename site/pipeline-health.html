@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pipeline Health · AI Finance Tech</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+      min-height: 100vh;
+      color: #e8e8e8;
+      line-height: 1.6;
+    }
+    .container { max-width: 900px; margin: 0 auto; padding: 1rem; }
+    header {
+      text-align: center;
+      padding: 1.5rem 1rem;
+      background: rgba(0, 0, 0, 0.3);
+      border-radius: 16px;
+      margin-bottom: 1rem;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    h1 {
+      font-size: 1.75rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, #00d4ff 0%, #7b2cbf 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin-bottom: 0.25rem;
+    }
+    .subtitle { color: #8892b0; font-size: 0.95rem; }
+    a { color: #00d4ff; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .card {
+      background: rgba(0, 0, 0, 0.25);
+      border-radius: 12px;
+      padding: 1.25rem;
+      margin-bottom: 1rem;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+    }
+    .card h2 { font-size: 1.1rem; margin-bottom: 0.75rem; color: #b8c5d6; }
+    table { width: 100%; border-collapse: collapse; }
+    th, td { text-align: left; padding: 0.4rem 0.6rem; border-bottom: 1px solid rgba(255,255,255,0.06); }
+    th { color: #8892b0; font-weight: 600; }
+    .ok { color: #6ee7b7; }
+    .fail { color: #f87171; }
+    .muted { color: #8892b0; font-size: 0.9rem; }
+    #loading { color: #8892b0; }
+    #errors { color: #f87171; margin-top: 0.5rem; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Pipeline Health</h1>
+      <p class="subtitle">Pickup, processing, and site export at a glance</p>
+      <p class="muted" style="margin-top: 0.5rem;"><a href="index.html">← Back to dashboard</a></p>
+    </header>
+
+    <div class="card">
+      <h2>Last run</h2>
+      <p id="last-run">—</p>
+    </div>
+
+    <div class="card">
+      <h2>Step results</h2>
+      <p id="loading">Loading…</p>
+      <table id="steps-table" style="display: none;">
+        <thead><tr><th>Step</th><th>Status</th><th>Value</th></tr></thead>
+        <tbody></tbody>
+      </table>
+      <p id="no-report" style="display: none;" class="muted">No run report yet. Run the full pipeline once to generate <code>data/pipeline_report.json</code>.</p>
+      <p id="errors"></p>
+    </div>
+
+    <div class="card">
+      <h2>Counts (after last run)</h2>
+      <table id="counts-table">
+        <tbody></tbody>
+      </table>
+    </div>
+  </div>
+
+  <script>
+    const stepLabels = {
+      curate: 'Podcast curation',
+      fetch: 'Fetch & transcribe',
+      ingest: 'Newsletter ingestion',
+      import_podcasts: 'Import podcasts',
+      import_newsletters: 'Import newsletters',
+      research: 'Theme & research',
+      aggregate: 'Aggregate scores',
+      auto_archive: 'Auto-archive',
+      prices: 'Price update',
+      suggested_terms: 'Suggested terms',
+      process_votes: 'Process votes',
+      charts: 'Charts',
+      export: 'Export for website',
+      generate_js: 'Generate data.js',
+      github_push: 'Push to GitHub'
+    };
+
+    function formatDate(iso) {
+      if (!iso) return '—';
+      const d = new Date(iso);
+      return d.toLocaleString('en-US', { dateStyle: 'medium', timeStyle: 'short' });
+    }
+
+    async function load() {
+      let status = {};
+      let report = null;
+
+      try {
+        const s = await fetch('./data/status.json', { cache: 'no-cache' });
+        if (s.ok) status = await s.json();
+      } catch (e) {
+        document.getElementById('last-run').textContent = 'Could not load status.json';
+        document.getElementById('loading').style.display = 'none';
+        return;
+      }
+
+      const runTs = status.last_pipeline_run || report?.last_run_iso;
+      document.getElementById('last-run').textContent = formatDate(runTs);
+
+      try {
+        const r = await fetch('./data/pipeline_report.json', { cache: 'no-cache' });
+        if (r.ok) report = await r.json();
+      } catch (_) {}
+
+      const loadingEl = document.getElementById('loading');
+      const tableEl = document.getElementById('steps-table');
+      const noReportEl = document.getElementById('no-report');
+      const errorsEl = document.getElementById('errors');
+
+      if (report && report.step_results) {
+        loadingEl.style.display = 'none';
+        noReportEl.style.display = 'none';
+        tableEl.style.display = 'table';
+        const tbody = tableEl.querySelector('tbody');
+        tbody.innerHTML = '';
+        for (const [key, value] of Object.entries(report.step_results)) {
+          const label = stepLabels[key] || key;
+          const ok = value === true || (typeof value === 'number' && value >= 0);
+          const tr = document.createElement('tr');
+          tr.innerHTML = '<td>' + label + '</td><td class="' + (ok ? 'ok' : 'fail') + '">' + (ok ? '✓' : '✗') + '</td><td>' + (typeof value === 'number' ? value : (value ? '—' : '—')) + '</td>';
+          tbody.appendChild(tr);
+        }
+        if (report.errors && report.errors.length) {
+          errorsEl.textContent = 'Failed steps: ' + report.errors.join(', ');
+        }
+      } else {
+        loadingEl.style.display = 'none';
+        noReportEl.style.display = 'block';
+      }
+
+      const counts = report?.counts || { ...(status?.counts || {}), ...(status?.last_steps || {}) };
+      const countsOrder = ['podcast_episodes', 'podcasts_analyzed', 'latest_insights_total', 'overton_terms_total', 'overton_terms', 'ticker_mentions', 'pundits', 'newsletters', 'daily_scores'];
+      const countLabels = { podcast_episodes: 'Podcast episodes', podcasts_analyzed: 'Podcasts (exported)', latest_insights_total: 'Latest insights', overton_terms_total: 'Overton terms', overton_terms: 'Overton terms', ticker_mentions: 'Ticker mentions', pundits: 'Pundits', newsletters: 'Newsletters', daily_scores: 'Daily scores' };
+      const tbodyCounts = document.getElementById('counts-table').querySelector('tbody');
+      tbodyCounts.innerHTML = '';
+      for (const k of countsOrder) {
+        if (counts[k] === undefined) continue;
+        const tr = document.createElement('tr');
+        tr.innerHTML = '<td>' + (countLabels[k] || k) + '</td><td>' + (typeof counts[k] === 'object' ? JSON.stringify(counts[k]) : counts[k]) + '</td>';
+        tbodyCounts.appendChild(tr);
+      }
+      for (const [k, v] of Object.entries(counts)) {
+        if (countsOrder.includes(k)) continue;
+        const tr = document.createElement('tr');
+        tr.innerHTML = '<td>' + k + '</td><td>' + (typeof v === 'object' ? JSON.stringify(v) : v) + '</td>';
+        tbodyCounts.appendChild(tr);
+      }
+    }
+
+    load();
+  </script>
+</body>
+</html>

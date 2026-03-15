@@ -624,6 +624,16 @@ class DashboardDB:
             for table in ['ticker_mentions', 'podcast_episodes', 'newsletters', 'daily_scores']:
                 cursor = conn.execute(f"SELECT COUNT(*) FROM {table}")
                 stats[table] = cursor.fetchone()[0]
+            try:
+                cursor = conn.execute("SELECT COUNT(*) FROM overton_terms")
+                stats['overton_terms_total'] = cursor.fetchone()[0]
+            except Exception:
+                stats['overton_terms_total'] = 0
+            try:
+                cursor = conn.execute("SELECT COUNT(*) FROM latest_insights")
+                stats['latest_insights_total'] = cursor.fetchone()[0]
+            except Exception:
+                stats['latest_insights_total'] = 0
             
             # Today's mentions
             cursor = conn.execute("""
