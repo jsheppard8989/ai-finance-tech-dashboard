@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
 """
-Smart podcast curator - fetches RSS feeds, checks episode titles/descriptions,
-only transcribes investment-relevant content.
+Podcast curator - fetches RSS feeds and approves all episodes from the feed list.
+Feed list (podcast_feeds.txt) is the relevance filter; we do not apply per-episode relevance scoring.
 """
 
 import xml.etree.ElementTree as ET
 import urllib.request
 import json
 from pathlib import Path
-from datetime import datetime
+from datetime import datetime, date
 
 # Config
 AUDIO_DIR = Path.home() / ".openclaw/workspace/audio"
@@ -16,29 +16,16 @@ TRANSCRIPT_DIR = Path.home() / ".openclaw/workspace/pipeline/transcripts"
 FEEDS_FILE = Path.home() / ".openclaw/workspace/podcast_feeds.txt"
 STATE_DIR = Path.home() / ".openclaw/workspace/pipeline/state"
 CURATION_LOG = STATE_DIR / "curation_log.json"
+# Forward-looking: only consider episodes from the current calendar month (no backfill of prior months).
+CURRENT_MONTH_ONLY = True
+# Fallback max age when CURRENT_MONTH_ONLY is False (not used when current-month filter is on).
+MAX_EPISODE_AGE_DAYS = 60
 
-# Investment-related keywords to look for
-INVESTMENT_KEYWORDS = [
-    'invest', 'stock', 'market', 'trading', 'portfolio', 'equity', 'equities',
-    'finance', 'financial', 'earnings', 'revenue', 'profit', 'valuation',
-    'bull', 'bear', 'rally', 'crash', 'correction',
-    'fed', 'interest rate', 'inflation', 'recession',
-    'ipo', 'merger', 'acquisition', 'buyout',
-    'crypto', 'bitcoin', 'btc', 'blockchain', 'satoshi', 'lightning network',
-    'altcoin', 'ethereum', 'eth', 'defi', 'web3', 'digital asset',
-    'ai', 'artificial intelligence', 'machine learning',
-    'semiconductor', 'chip', 'nvidia', 'amd', 'intel',
-    'tech', 'technology', 'startup', 'venture',
-    'analysis', 'research', 'outlook', 'forecast'
-]
+# Hard stop: do not approve or process anything before this date.
+from cutoff_date import CUTOFF_DATE_ISO, is_before_cutoff
 
-# Explicitly EXCLUDE keywords (to avoid food waste, lifestyle, etc.)
-EXCLUDE_KEYWORDS = [
-    'food waste', 'culinary', 'cooking', 'recipe', 'chef',
-    'meditation', 'mindfulness', 'yoga', 'wellness',
-    'dating', 'relationship', 'parenting',
-    'sports', 'football', 'basketball', 'baseball'
-]
+# Feed list is the relevance filter: only feeds in podcast_feeds.txt are used.
+# We do not apply per-episode relevance scoring; if it's in the feed list, it's relevant.
 
 def load_feeds():
     """Load podcast feed URLs from file."""
@@ -51,8 +38,11 @@ def load_feeds():
                     feeds.append(line)
     return feeds
 
-def fetch_feed_metadata(feed_url):
-    """Fetch and parse RSS feed to get episode metadata."""
+def fetch_feed_metadata(feed_url, skip_if_in_db=True):
+    """Fetch and parse RSS feed to get episode metadata.
+    If skip_if_in_db=True (default), episodes already in podcast_episodes are omitted.
+    Set skip_if_in_db=False to get all episodes (age/cutoff only) for Pipeline Health.
+    """
     try:
         req = urllib.request.Request(feed_url, headers={'User-Agent': 'Mozilla/5.0'})
         with urllib.request.urlopen(req, timeout=30) as response:
@@ -108,17 +98,26 @@ def fetch_feed_metadata(feed_url):
                     except Exception:
                         pass
 
-                # Skip episodes older than 2 days
                 if pub_date_iso:
-                    from datetime import date
-                    age_days = (date.today() - date.fromisoformat(pub_date_iso)).days
-                    if age_days > 2:
+                    if is_before_cutoff(pub_date_iso):
                         continue
+                    # Forward-looking: only current calendar month (e.g. March only, leave out Feb).
+                    if CURRENT_MONTH_ONLY:
+                        today = date.today()
+                        try:
+                            ep_date = date.fromisoformat(pub_date_iso)
+                            if (ep_date.year, ep_date.month) != (today.year, today.month):
+                                continue
+                        except Exception:
+                            continue
+                    else:
+                        age_days = (date.today() - date.fromisoformat(pub_date_iso)).days
+                        if age_days > MAX_EPISODE_AGE_DAYS:
+                            continue
 
-                # Skip if rss_guid already in DB
                 guid_el = item.find('guid')
                 rss_guid = guid_el.text.strip() if guid_el is not None and guid_el.text else ''
-                if rss_guid:
+                if skip_if_in_db and rss_guid:
                     import sqlite3 as _sq
                     from pathlib import Path as _P
                     _c = _sq.connect(str(_P.home() / '.openclaw/workspace/pipeline/dashboard.db'))
@@ -147,100 +146,100 @@ def fetch_feed_metadata(feed_url):
         print(f"Error fetching {feed_url}: {e}")
         return None
 
-def score_episode_relevance(episode):
-    """Score how relevant an episode is to investing."""
-    full_text = f"{episode['title']} {episode['description']}".lower()
-    
-    # Check for exclusion keywords first
-    for keyword in EXCLUDE_KEYWORDS:
-        if keyword in full_text:
-            return -1  # Exclude this episode
-    
-    # Count investment keywords
-    score = 0
-    matched_keywords = []
-    
-    for keyword in INVESTMENT_KEYWORDS:
-        if keyword in full_text:
-            score += 1
-            matched_keywords.append(keyword)
-    
-    return score, matched_keywords
+def flatten_feed_episodes(all_episodes):
+    """Flatten per-feed episode lists into one list (so we can curate all, not only those with audio)."""
+    flat = []
+    for podcast in all_episodes:
+        for ep in podcast.get('episodes', []):
+            flat.append(ep)
+    return flat
 
-def match_audio_files_to_episodes(all_episodes):
-    """Match downloaded audio files to their episode metadata."""
+
+def get_feed_episodes_not_in_db():
+    """
+    Return episodes that are live on RSS (within age/cutoff) but not yet in podcast_episodes.
+    Used by Pipeline Health to show "Available from RSS (not yet processed)".
+    Uses same feed list and age/cutoff as curation; does not filter by keywords.
+    """
+    import sqlite3
+    feeds = load_feeds()
+    if not feeds:
+        return []
+    all_episodes = []
+    for feed_url in feeds:
+        metadata = fetch_feed_metadata(feed_url, skip_if_in_db=False)
+        if metadata and metadata.get('episodes'):
+            all_episodes.extend(metadata['episodes'])
+    if not all_episodes:
+        return []
+    # Single DB check: all rss_guids we have
+    db_path = Path.home() / ".openclaw/workspace/pipeline/dashboard.db"
+    if not db_path.exists():
+        return [{"podcast": e["podcast"], "title": e["title"], "published": e.get("published", ""), "published_date": e.get("published_date")} for e in all_episodes]
+    conn = sqlite3.connect(str(db_path))
+    guids_in_db = set(row[0] for row in conn.execute("SELECT rss_guid FROM podcast_episodes WHERE rss_guid IS NOT NULL AND rss_guid != ''").fetchall())
+    conn.close()
+    out = []
+    for e in all_episodes:
+        guid = (e.get("rss_guid") or "").strip()
+        if guid and guid in guids_in_db:
+            continue
+        out.append({
+            "podcast": e.get("podcast", ""),
+            "title": e.get("title", ""),
+            "published": e.get("published", ""),
+            "published_date": e.get("published_date"),
+        })
+    # Sort by published_date desc
+    def pub_key(ep):
+        d = ep.get("published_date") or ""
+        if len(d) >= 10:
+            return (d[:4], d[5:7], d[8:10])
+        return ("0", "0", "0")
+    out.sort(key=pub_key, reverse=True)
+    return out
+
+
+def match_audio_to_feed_episodes(all_feed_episodes):
+    """
+    Attach matching audio files to feed episodes where we have a download.
+    Returns (all_feed_episodes, unmatched_audio_count).
+    Episodes without a match keep no audio_file — they can still be approved (pending download).
+    """
     audio_files = list(AUDIO_DIR.glob("*.mp3"))
-    
-    matched = []
-    unmatched = []
-    
-    for audio_file in audio_files:
-        # Extract filename (remove extension)
-        filename = audio_file.stem
-        
-        # Try to match to an episode URL
-        matched_episode = None
-        
-        for podcast in all_episodes:
-            for ep in podcast.get('episodes', []):
-                audio_url = ep.get('audio_url', '')
-                
-                # Match by filename in URL
-                if filename in audio_url or filename.replace('%', '') in audio_url:
-                    matched_episode = ep
-                    matched_episode['audio_file'] = str(audio_file)
-                    matched_episode['filename'] = audio_file.name
-                    break
-                
-                # For megaphone files, try matching by ID
-                if 'megaphone.fm' in audio_url:
-                    megaphone_id = audio_url.split('/')[-1].split('.')[0]
-                    if megaphone_id in filename:
-                        matched_episode = ep
-                        matched_episode['audio_file'] = str(audio_file)
-                        matched_episode['filename'] = audio_file.name
-                        break
-            
-            if matched_episode:
+    used_audio = set()
+
+    for ep in all_feed_episodes:
+        audio_url = ep.get('audio_url', '')
+        ep.pop('audio_file', None)
+        ep.pop('filename', None)
+        for audio_file in audio_files:
+            if str(audio_file) in used_audio:
+                continue
+            filename = audio_file.stem
+            if filename in audio_url or filename.replace('%', '') in audio_url:
+                ep['audio_file'] = str(audio_file)
+                ep['filename'] = audio_file.name
+                used_audio.add(str(audio_file))
                 break
-        
-        if matched_episode:
-            matched.append(matched_episode)
-        else:
-            unmatched.append({
-                'filename': audio_file.name,
-                'path': str(audio_file)
-            })
-    
-    return matched, unmatched
+            if 'megaphone.fm' in audio_url:
+                megaphone_id = (audio_url.split('/')[-1].split('.')[0] if audio_url else '')
+                if megaphone_id and megaphone_id in filename:
+                    ep['audio_file'] = str(audio_file)
+                    ep['filename'] = audio_file.name
+                    used_audio.add(str(audio_file))
+                    break
+
+    unmatched_count = len(audio_files) - len(used_audio)
+    return all_feed_episodes, unmatched_count
 
 def curate_episodes(matched_episodes):
-    """Curate episodes - only keep investment-relevant ones."""
+    """Approve all episodes from the feed list. Feed list is the filter; no per-episode relevance score."""
     curated = []
-    
     for ep in matched_episodes:
-        score_result = score_episode_relevance(ep)
-        
-        if score_result == -1:
-            # Explicitly excluded
-            ep['relevance_score'] = -1
-            ep['status'] = 'EXCLUDED'
-            ep['matched_keywords'] = []
-        elif isinstance(score_result, tuple):
-            score, keywords = score_result
-            ep['relevance_score'] = score
-            ep['matched_keywords'] = keywords
-            
-            if score >= 2:  # Threshold for relevance
-                ep['status'] = 'APPROVED'
-                curated.append(ep)
-            else:
-                ep['status'] = 'SKIPPED (low relevance)'
-        else:
-            ep['relevance_score'] = 0
-            ep['status'] = 'SKIPPED (no match)'
-            ep['matched_keywords'] = []
-    
+        ep['status'] = 'APPROVED'
+        ep['matched_keywords'] = []
+        curated.append(ep)
     return matched_episodes, curated
 
 def save_curation_log(all_episodes, curated):
@@ -248,7 +247,7 @@ def save_curation_log(all_episodes, curated):
     STATE_DIR.mkdir(parents=True, exist_ok=True)
     log_data = {
         'timestamp': datetime.now().isoformat(),
-        'total_audio_files': len(all_episodes),
+        'total_feed_episodes': len(all_episodes),
         'approved_for_transcription': len(curated),
         'episodes': all_episodes
     }
@@ -289,42 +288,42 @@ def main():
         print("\nNo episodes fetched. Check feed URLs.")
         return
     
-    # Match to downloaded audio files
+    # Flatten so we curate all feed episodes (not only those that already have audio)
+    all_feed_episodes = flatten_feed_episodes(all_episodes)
+    if CURRENT_MONTH_ONLY:
+        from datetime import date
+        today = date.today()
+        print(f"\n  Total feed episodes (current month only: {today.year}-{today.month:02d}): {len(all_feed_episodes)}")
+    else:
+        print(f"\n  Total feed episodes (last {MAX_EPISODE_AGE_DAYS} days): {len(all_feed_episodes)}")
+
+    # Attach audio file to episodes where we have a matching download
     print("\nMatching audio files to episodes...")
-    matched, unmatched = match_audio_files_to_episodes(all_episodes)
-    
-    print(f"  ✓ Matched: {len(matched)} files")
-    print(f"  ? Unmatched: {len(unmatched)} files")
-    
-    # Curate episodes
-    print("\nCurating episodes for investment relevance...")
-    all_matched, curated = curate_episodes(matched)
-    
-    print(f"\n  APPROVED for transcription: {len(curated)}")
-    print(f"  SKIPPED/EXCLUDED: {len(all_matched) - len(curated)}")
+    all_feed_episodes, unmatched_audio_count = match_audio_to_feed_episodes(all_feed_episodes)
+    with_audio = sum(1 for ep in all_feed_episodes if ep.get('audio_file'))
+    print(f"  ✓ Episodes with matching audio: {with_audio}")
+    print(f"  ? Unmatched audio files (no matching feed episode): {unmatched_audio_count}")
+    print(f"  📥 Episodes pending download: {len(all_feed_episodes) - with_audio}")
+
+    # Feed list is the filter; all episodes from feeds are approved (no per-episode relevance score).
+    print("\nApproving all episodes from feed list (feeds are pre-curated)...")
+    all_matched, curated = curate_episodes(all_feed_episodes)
+
+    print(f"\n  APPROVED (will transcribe or download): {len(curated)}")
     
     # Display results
     print("\n" + "=" * 70)
     print("CURATION RESULTS")
     print("=" * 70)
     
-    print("\n📌 APPROVED (will transcribe):")
+    print("\n📌 APPROVED (will transcribe or download):")
     for ep in curated:
+        has_audio = ep.get('filename') or ep.get('audio_file')
         print(f"\n  ✓ {ep['podcast']}")
         print(f"    Title: {ep['title'][:70]}")
-        print(f"    Keywords: {', '.join(ep['matched_keywords'][:5])}")
-        print(f"    File: {ep['filename']}")
+        print(f"    File: {ep['filename'] if has_audio else '(pending download)'}")
     
-    print("\n" + "-" * 70)
-    print("\n📋 REVIEW ALL:")
-    for ep in all_matched:
-        status_icon = "✓" if ep['status'] == 'APPROVED' else "✗"
-        print(f"\n  {status_icon} [{ep['status']}] {ep['podcast']}")
-        print(f"    Title: {ep['title'][:60]}")
-        if ep['matched_keywords']:
-            print(f"    Keywords: {', '.join(ep['matched_keywords'][:5])}")
-    
-    # Save log
+    # Save log (all feed episodes with status; pipeline shows APPROVED ones)
     log_file = save_curation_log(all_matched, curated)
     print(f"\n\n✓ Curation log saved: {log_file}")
     
@@ -335,9 +334,10 @@ def main():
     print(f"\n1. Review approved episodes above")
     print(f"2. To transcribe approved episodes, run:")
     print(f"   python3 transcribe_curated.py")
-    print(f"\n3. Or manually transcribe specific files:")
+    print(f"\n3. Or manually transcribe specific files (only for episodes that have audio):")
     for ep in curated:
-        print(f"   whisper '{ep['filename']}' --model tiny --language en")
+        if ep.get('filename'):
+            print(f"   whisper '{ep['filename']}' --model tiny --language en")
 
 if __name__ == "__main__":
     main()

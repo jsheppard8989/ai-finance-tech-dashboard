@@ -1,6 +1,51 @@
 {
-  "timestamp": "2026-03-15T05:02:36.629095",
-  "total_audio_files": 0,
-  "approved_for_transcription": 0,
-  "episodes": []
+  "timestamp": "2026-03-15T15:57:21.255334",
+  "total_feed_episodes": 4,
+  "approved_for_transcription": 4,
+  "episodes": [
+    {
+      "podcast": "Monetary Matters with Jack Farley",
+      "title": "\u201cDeflationary Bust\u201d A Risk From AI | Alex Gurevich\u2019s Bull Case on Rates, \u201cPerfect Trade\u201d Potential in Japan, and The Risk of Artificial Intelligence Poses to Labor Market",
+      "description": "\n        <p>In this interview, Alex Gurevich of HonTe Investments outlines his macroeconomic outlook, highlighting a particularly bullish stance on the platinum and palladium markets because they historically follow long cycles that lag behind gold and silver. He predicts that the rapid advancement of artificial intelligence will initially act as a deflationary headwind, potentially automating away 20% of jobs by the end of the decade and permanently eliminating certain white-collar economic act",
+      "audio_url": "https://traffic.megaphone.fm/EWWMN1106342889.mp3",
+      "published": "Sun, 15 Mar 2026 15:12:00 -0000",
+      "published_date": "2026-03-15",
+      "rss_guid": "62f5febe-2081-11f1-9653-078e9543bec1",
+      "status": "APPROVED",
+      "matched_keywords": []
+    },
+    {
+      "podcast": "The a16z Show",
+      "title": "Marc Andreessen on the Mindset of Great Founders \u2014 with David Senra",
+      "description": "<p>Marc Andreessen joins David Senra for a conversation about entrepreneurship, history, and what drives some of the world\u2019s most ambitious builders.</p>\n<p>In this conversation with David, Marc reflects on patterns he\u2019s seen across great founders, why many of them focus relentlessly on building rather than introspection, and how technology and entrepreneurship continue to shape the future.</p>\n<p>\u00a0</p>\n<p>Resources:</p>\n<p>David Senra</p>\n<p>Website:<a href=\"https://www.youtube.com/redirect?eve",
+      "audio_url": "https://mgln.ai/e/1344/afp-848985-injected.calisto.simplecastaudio.com/3f86df7b-51c6-4101-88a2-550dba782de8/episodes/e67bdf23-557e-4e44-a677-3dc01d8d8bf6/audio/128/default.mp3?aid=rss_feed&awCollectionId=3f86df7b-51c6-4101-88a2-550dba782de8&awEpisodeId=e67bdf23-557e-4e44-a677-3dc01d8d8bf6&feed=JGE3yC0V",
+      "published": "Sun, 15 Mar 2026 17:10:12 +0000",
+      "published_date": "2026-03-15",
+      "rss_guid": "ae94cef0-be60-44f9-8716-02f7423973b5",
+      "status": "APPROVED",
+      "matched_keywords": []
+    },
+    {
+      "podcast": "The a16z Show",
+      "title": "Chris Dixon: From Quant Trading to Building a16z Crypto",
+      "description": "<p>In this feed drop from the Internet History Podcast, host Brian McCullough speaks with Chris Dixon, general partner at a16z, about his path from 1980s hobbyist programmer to one of the most prominent venture capitalists in tech. Chris traces his career from quantitative finance to founding SiteAdvisor, cofounding Founder Collective, starting an early machine learning company, and eventually building a16z's crypto practice from the ground up. They also discuss his framework for spotting unconv",
+      "audio_url": "https://mgln.ai/e/1344/afp-848985-injected.calisto.simplecastaudio.com/3f86df7b-51c6-4101-88a2-550dba782de8/episodes/570e2e70-58d1-4291-aa63-e4512d6e78cf/audio/128/default.mp3?aid=rss_feed&awCollectionId=3f86df7b-51c6-4101-88a2-550dba782de8&awEpisodeId=570e2e70-58d1-4291-aa63-e4512d6e78cf&feed=JGE3yC0V",
+      "published": "Mon, 2 Mar 2026 11:00:00 +0000",
+      "published_date": "2026-03-02",
+      "rss_guid": "1a7873e6-52cf-493d-a1a1-360a49324923",
+      "status": "APPROVED",
+      "matched_keywords": []
+    },
+    {
+      "podcast": "Dwarkesh Podcast",
+      "title": "Why Leonardo was a saboteur, Gutenberg went broke, and Florence was weird \u2013 Ada Palmer",
+      "description": "<p>Renaissance history is so much wilder and weirder than you would have expected. Very fun chatting with <a target=\"_blank\" href=\"https://www.adapalmer.com/\">Ada Palmer</a> (historian, novelist, and composer based at the University of Chicago).</p><p>Some especially fascinating things I learned from the conversation and her excellent book, <a target=\"_blank\" href=\"https://a.co/d/03EjyByR\"><em>Inventing the Renaissance</em></a>:</p><p>Not only did Gutenberg go bankrupt in the 1450s (after invent",
+      "audio_url": "https://api.substack.com/feed/podcast/190118311/8c3433af58d7b7ad7ee60c28c569017a.mp3",
+      "published": "Fri, 06 Mar 2026 17:14:20 GMT",
+      "published_date": "2026-03-06",
+      "rss_guid": "substack:post:190118311",
+      "status": "APPROVED",
+      "matched_keywords": []
+    }
+  ]
 }

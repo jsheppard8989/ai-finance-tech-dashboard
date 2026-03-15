@@ -81,17 +81,23 @@ class PodcastPipelineTracker:
         with open(CURATION_LOG, 'r') as f:
             log = json.load(f)
         
+        from cutoff_date import is_before_cutoff
         for ep in log.get('episodes', []):
-            if ep.get('status') == 'APPROVED':
-                # Create unique ID from podcast + title
-                ep_id = f"{ep['podcast']}_{ep['title'][:30]}".replace(' ', '_').lower()
-                episodes[ep_id] = {
-                    'podcast': ep['podcast'],
-                    'title': ep['title'],
-                    'published': ep.get('published', 'Unknown'),
-                    'audio_file': ep.get('audio_file', ''),
-                    'keywords': ep.get('matched_keywords', [])
-                }
+            if ep.get('status') != 'APPROVED':
+                continue
+            # Hard stop: do not track episodes before Feb 2026
+            pub = ep.get('published_date') or (ep.get('published') or '')[:10]
+            if pub and is_before_cutoff(pub):
+                continue
+            # Create unique ID from podcast + title
+            ep_id = f"{ep['podcast']}_{ep['title'][:30]}".replace(' ', '_').lower()
+            episodes[ep_id] = {
+                'podcast': ep['podcast'],
+                'title': ep['title'],
+                'published': ep.get('published', 'Unknown'),
+                'audio_file': ep.get('audio_file', ''),
+                'keywords': ep.get('matched_keywords', [])
+            }
         
         return episodes
     

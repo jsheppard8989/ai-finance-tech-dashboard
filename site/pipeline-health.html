@@ -93,9 +93,39 @@
     </div>
 
     <div class="card">
+      <h2>RSS filter criteria</h2>
+      <p class="muted" style="margin-bottom: 0.75rem;">Episodes from your feeds are included when they pass these rules. Episodes already on the Main Insight column (or in the DB) are skipped.</p>
+      <table id="rss-criteria-table">
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <div class="card">
       <h2>Episodes in pipeline</h2>
-      <p class="muted" style="margin-bottom: 0.75rem;">Episodes we know about (from curation: approved episodes only) and where each is in the process. To see new episodes from your feeds, run the full pipeline (Curate step).</p>
+      <p class="muted" style="margin-bottom: 0.75rem;">Any podcast episode live on RSS that is not on the Main Insight column should appear here: last 3 completed (all green), then in-progress, then available from RSS not yet processed.</p>
       <p id="episode-summary" class="muted" style="font-size: 0.85rem; margin-bottom: 0.5rem;"></p>
+
+      <h3 style="font-size: 1rem; color: #6ee7b7; margin: 1rem 0 0.5rem;">Last 3 completed (all green)</h3>
+      <div style="overflow-x: auto;">
+        <table id="last-three-table">
+          <thead>
+            <tr>
+              <th>Podcast</th>
+              <th>Title</th>
+              <th>Published</th>
+              <th title="Downloaded">Downl.</th>
+              <th title="Transcribed">Transcr.</th>
+              <th title="Analyzed">Analyzed</th>
+              <th title="Insight created">Insight</th>
+              <th title="On site">Site</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <p id="last-three-empty" class="muted" style="display: none; margin-top: 0.25rem;">No completed episodes yet. Run curate → fetch → analyze → export until at least one is on site.</p>
+
+      <h3 style="font-size: 1rem; color: #b8c5d6; margin: 1.25rem 0 0.5rem;">In pipeline (approved, in progress)</h3>
       <div style="overflow-x: auto;">
         <table id="episodes-table">
           <thead>
@@ -113,6 +143,22 @@
           <tbody></tbody>
         </table>
       </div>
+
+      <h3 style="font-size: 1rem; color: #00d4ff; margin: 1.25rem 0 0.5rem;">Available from RSS (not yet processed)</h3>
+      <p class="muted" style="font-size: 0.85rem; margin-bottom: 0.25rem;">Live on your feeds, within age/cutoff; not in DB yet. Run Curate step to approve and add to pipeline.</p>
+      <div style="overflow-x: auto;">
+        <table id="available-rss-table">
+          <thead>
+            <tr>
+              <th>Podcast</th>
+              <th>Title</th>
+              <th>Published</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <p id="available-rss-empty" class="muted" style="display: none; margin-top: 0.25rem;">None. All feed episodes in window are already in the pipeline or on Main.</p>
       <p id="episode-note" class="muted" style="margin-top: 0.5rem; font-size: 0.8rem;"></p>
     </div>
 
@@ -218,23 +264,38 @@
         mainPageTbody.innerHTML = '<tr><td colspan="2" class="muted">No main_page in status.json (re-run export).</td></tr>';
       }
 
-      // Episodes in pipeline
-      let episodeStatus = { last_updated: null, episodes: [], note: '' };
+      // Episodes in pipeline (load first so we have last_3_completed, available_from_rss, rss_filter_criteria)
+      let episodeStatus = { last_updated: null, episodes: [], last_3_completed: [], available_from_rss: [], rss_filter_criteria: {}, note: '' };
       try {
         const epResp = await fetch('./data/episode_status.json', { cache: 'no-cache' });
         if (epResp.ok) episodeStatus = await epResp.json();
       } catch (_) {}
+      const last3 = episodeStatus.last_3_completed || [];
       const episodes = episodeStatus.episodes || [];
-      const epTbody = document.getElementById('episodes-table').querySelector('tbody');
-      epTbody.innerHTML = '';
+      const inProgressIds = new Set(last3.map(function(c) { return c.id; }));
+      const inProgress = episodes.filter(function(ep) { return !inProgressIds.has(ep.id); });
+      const availableRss = episodeStatus.available_from_rss || [];
       const stageKeys = ['downloaded', 'transcribed', 'analyzed', 'insight_created', 'published'];
       const stageLabels = { downloaded: 'Downloaded', transcribed: 'Transcribed', analyzed: 'Analyzed', insight_created: 'Insight created', published: 'On site' };
-      let throughAnalysis = 0, onSite = 0;
-      episodes.forEach(function(ep) {
+
+      // RSS filter criteria table
+      const rssCriteria = episodeStatus.rss_filter_criteria || {};
+      const criteriaTbody = document.getElementById('rss-criteria-table').querySelector('tbody');
+      criteriaTbody.innerHTML = '';
+      if (Object.keys(rssCriteria).length) {
+        const criteriaLabels = { window: 'Episode window', max_episode_age_days: 'Max episode age (days)', cutoff_date: 'Cutoff date (no episodes before)', approval: 'Approval', feeds: 'Feeds & DB' };
+        for (const [k, v] of Object.entries(rssCriteria)) {
+          const tr = document.createElement('tr');
+          tr.innerHTML = '<td>' + (criteriaLabels[k] || k) + '</td><td>' + (typeof v === 'object' ? JSON.stringify(v) : String(v)) + '</td>';
+          criteriaTbody.appendChild(tr);
+        }
+      } else {
+        criteriaTbody.innerHTML = '<tr><td colspan="2" class="muted">Re-run export to load criteria from pipeline.</td></tr>';
+      }
+
+      function renderStageRow(ep) {
         const st = ep.stages || {};
         const reasons = ep.stage_reasons || {};
-        if (st.analyzed) throughAnalysis++;
-        if (st.published) onSite++;
         const cells = [
           (ep.podcast || '').substring(0, 28) + (ep.podcast && ep.podcast.length > 28 ? '…' : ''),
           (ep.title || '').substring(0, 45) + (ep.title && ep.title.length > 45 ? '…' : ''),
@@ -249,9 +310,34 @@
             cells.push('<span class="fail stage-x" data-stage="' + label + '" data-reason="' + String(reason).replace(/"/g, '&quot;') + '" title="Click for reason">✗</span>');
           }
         });
+        return '<td>' + cells[0] + '</td><td>' + cells[1] + '</td><td>' + cells[2] + '</td><td>' + cells[3] + '</td><td>' + cells[4] + '</td><td>' + cells[5] + '</td><td>' + cells[6] + '</td><td>' + cells[7] + '</td>';
+      }
+
+      // Last 3 completed (all green)
+      const last3Tbody = document.getElementById('last-three-table').querySelector('tbody');
+      last3Tbody.innerHTML = '';
+      last3.forEach(function(ep) {
         const tr = document.createElement('tr');
-        tr.innerHTML = '<td>' + cells[0] + '</td><td>' + cells[1] + '</td><td>' + cells[2] + '</td><td>' + cells[3] + '</td><td>' + cells[4] + '</td><td>' + cells[5] + '</td><td>' + cells[6] + '</td><td>' + cells[7] + '</td>';
+        tr.innerHTML = renderStageRow(ep);
+        last3Tbody.appendChild(tr);
+      });
+      document.getElementById('last-three-empty').style.display = last3.length === 0 ? 'block' : 'none';
+
+      // In pipeline (in progress only)
+      const epTbody = document.getElementById('episodes-table').querySelector('tbody');
+      epTbody.innerHTML = '';
+      let throughAnalysis = 0, onSite = 0;
+      inProgress.forEach(function(ep) {
+        const st = ep.stages || {};
+        if (st.analyzed) throughAnalysis++;
+        if (st.published) onSite++;
+        const tr = document.createElement('tr');
+        tr.innerHTML = renderStageRow(ep);
         epTbody.appendChild(tr);
+      });
+      last3.forEach(function(ep) {
+        if (ep.stages && ep.stages.analyzed) throughAnalysis++;
+        if (ep.stages && ep.stages.published) onSite++;
       });
       epTbody.querySelectorAll('.stage-x').forEach(function(el) {
         el.addEventListener('click', function() {
@@ -263,9 +349,20 @@
       window.closeStageReasonModal = function() {
         document.getElementById('stage-reason-modal').classList.remove('show');
       };
-      document.getElementById('episode-summary').textContent = episodes.length === 0
+
+      // Available from RSS (not yet processed)
+      const availTbody = document.getElementById('available-rss-table').querySelector('tbody');
+      availTbody.innerHTML = '';
+      availableRss.forEach(function(ep) {
+        const tr = document.createElement('tr');
+        tr.innerHTML = '<td>' + (ep.podcast || '').substring(0, 28) + (ep.podcast && ep.podcast.length > 28 ? '…' : '') + '</td><td>' + (ep.title || '').substring(0, 50) + (ep.title && ep.title.length > 50 ? '…' : '') + '</td><td>' + (ep.published || ep.published_date || '—').substring(0, 22) + '</td>';
+        availTbody.appendChild(tr);
+      });
+      document.getElementById('available-rss-empty').style.display = availableRss.length === 0 ? 'block' : 'none';
+
+      document.getElementById('episode-summary').textContent = episodes.length === 0 && availableRss.length === 0
         ? 'No episodes in pipeline yet. Run curate → fetch so approved episodes appear here.'
-        : episodes.length + ' episodes known · ' + throughAnalysis + ' through analysis · ' + onSite + ' on site. Status as of: ' + (episodeStatus.last_updated ? formatDate(episodeStatus.last_updated) : '—');
+        : (episodes.length + ' in pipeline · ' + last3.length + ' completed · ' + availableRss.length + ' available from RSS (not processed). Status: ' + (episodeStatus.last_updated ? formatDate(episodeStatus.last_updated) : '—'));
       document.getElementById('episode-note').textContent = episodeStatus.note || '';
 
       const counts = report?.counts || { ...(status?.counts || {}), ...(status?.last_steps || {}) };

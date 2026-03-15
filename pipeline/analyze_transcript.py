@@ -471,6 +471,18 @@ def process_transcript_file(transcript_path: Path, client_info, db) -> Optional[
         except Exception:
             pass  # keep AI-extracted date
 
+    # Hard stop: do not analyze or add to DB anything before Feb 2026
+    try:
+        from cutoff_date import CUTOFF_DATE_ISO
+        from datetime import date as _date
+        cutoff = _date.fromisoformat(CUTOFF_DATE_ISO)
+        if episode_date < cutoff:
+            print(f"    ⏭ Skipping (published {episode_date} is before Feb 2026 cutoff)")
+            mark_transcript_processed(transcript_path, -1)
+            return None
+    except Exception:
+        pass
+
     # Derive key tickers directly from structured ticker_mentions.
     # If none are present, we intentionally leave key_tickers empty
     # so that no tickers are shown on the Insight card.

@@ -1789,7 +1789,10 @@
         var idea = (item.last_main_idea || '—').replace(/</g, '&lt;').replace(/>/g, '&gt;');
         var src = '';
         if (item.last_podcast_name || item.last_episode_date) {
-          src = (item.last_podcast_name || '') + (item.last_episode_date ? ' • ' + item.last_episode_date : '');
+          var epDateStr = item.last_episode_date ? (function(d) {
+            try { return new Date(d).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }); } catch(e) { return d; }
+          })(item.last_episode_date) : '';
+          src = (item.last_podcast_name || '') + (epDateStr ? ' • ' + epDateStr : '');
         } else if (item.last_seen) {
           src = 'Last seen • ' + String(item.last_seen).substring(0, 10);
         }
@@ -1988,10 +1991,12 @@
         return;
       }
       
-      // Render insights with Deep Dive buttons
+      // Render insights with Deep Dive buttons (use episode release date when available for consistency with pundits)
+      const dateOpts = { month: 'short', day: 'numeric', year: 'numeric' };
       let html = '';
       for (const insight of insights) {
-        const dateStr = new Date(insight.source_date).toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+        const episodeDate = insight.episode_release_date || insight.source_date;
+        const dateStr = episodeDate ? new Date(episodeDate).toLocaleDateString('en-US', dateOpts) : '—';
         // Key tickers come directly from structured AI output (podcast_episodes.key_tickers)
         // Parse tickers — handle array, JSON string, or plain string
         let tickerArr = insight.key_tickers;

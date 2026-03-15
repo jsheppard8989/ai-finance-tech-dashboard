@@ -25,6 +25,8 @@ AUDIO_DIR = Path.home() / ".openclaw/workspace/audio"
 TRANSCRIPT_DIR = Path.home() / ".openclaw/workspace/pipeline/transcripts"
 FEEDS_FILE = Path.home() / ".openclaw/workspace/podcast_feeds.txt"
 LOG_FILE = Path.home() / ".openclaw/workspace/pipeline/state/fetch_log.json"
+# Hard stop: do not download anything older than Feb 2026
+from cutoff_date import is_before_cutoff
 
 AUDIO_DIR.mkdir(exist_ok=True)
 TRANSCRIPT_DIR.mkdir(exist_ok=True)
@@ -99,13 +101,27 @@ def fetch_latest_episode(feed_url, max_age_days=14):
             except Exception:
                 pass
 
-        # Gate: skip episodes older than max_age_days (default: 14 days so short outages don't lose episodes)
-        if pub_date_iso and max_age_days is not None:
+        if pub_date_iso:
             from datetime import date
             pub = date.fromisoformat(pub_date_iso)
-            age_days = (date.today() - pub).days
-            if age_days > max_age_days:
-                print(f"  ⏭ Skipping '{title[:50]}' — published {pub_date_iso} ({age_days}d ago, >{max_age_days}d limit)")
+            # Forward-looking: only current calendar month (same as curate)
+            try:
+                from curate import CURRENT_MONTH_ONLY
+            except Exception:
+                CURRENT_MONTH_ONLY = True
+            if CURRENT_MONTH_ONLY:
+                today = date.today()
+                if (pub.year, pub.month) != (today.year, today.month):
+                    print(f"  ⏭ Skipping '{title[:50]}' — published {pub_date_iso} (not in current month)")
+                    return None
+            elif max_age_days is not None:
+                age_days = (date.today() - pub).days
+                if age_days > max_age_days:
+                    print(f"  ⏭ Skipping '{title[:50]}' — published {pub_date_iso} ({age_days}d ago, >{max_age_days}d limit)")
+                    return None
+
+            if is_before_cutoff(pub_date_iso):
+                print(f"  ⏭ Skipping '{title[:50]}' — published {pub_date_iso} (before cutoff)")
                 return None
 
         # Gate: skip if rss_guid already in database

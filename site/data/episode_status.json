@@ -1,5 +1,109 @@
 {
-  "last_updated": "2026-03-15T15:03:29.744772",
-  "episodes": [],
-  "note": "Episodes from curation (approved). Pipeline: curate \u2192 fetch \u2192 analyze \u2192 export."
+  "last_updated": "2026-03-15T15:57:24.914965",
+  "last_3_completed": [],
+  "episodes": [
+    {
+      "id": "monetary_matters_with_jack_farley_\u201cdeflationary_bust\u201d_a_risk_fro",
+      "podcast": "Monetary Matters with Jack Farley",
+      "title": "\u201cDeflationary Bust\u201d A Risk From AI | Alex Gurevich\u2019s Bull Case on Rates, \u201cPerfect Trade\u201d Potential in Japan, and The Risk of Artificial Intelligence Poses to Labor Market",
+      "published": "Sun, 15 Mar 2026 15:12:00 -0000",
+      "stages": {
+        "downloaded": false,
+        "transcribed": true,
+        "analyzed": false,
+        "insight_created": false,
+        "published": false
+      },
+      "stage_reasons": {
+        "downloaded": "Audio file missing or not found",
+        "analyzed": "Waiting for next analyze run (transcript \u2192 DB).",
+        "insight_created": "Depends on analyze step first.",
+        "published": "Not in data.js yet (run export and push to site)."
+      }
+    },
+    {
+      "id": "the_a16z_show_marc_andreessen_on_the_mindset",
+      "podcast": "The a16z Show",
+      "title": "Marc Andreessen on the Mindset of Great Founders \u2014 with David Senra",
+      "published": "Sun, 15 Mar 2026 17:10:12 +0000",
+      "stages": {
+        "downloaded": false,
+        "transcribed": true,
+        "analyzed": false,
+        "insight_created": false,
+        "published": false
+      },
+      "stage_reasons": {
+        "downloaded": "Audio file missing or not found",
+        "analyzed": "Waiting for next analyze run (transcript \u2192 DB).",
+        "insight_created": "Depends on analyze step first.",
+        "published": "Not in data.js yet (run export and push to site)."
+      }
+    },
+    {
+      "id": "dwarkesh_podcast_why_leonardo_was_a_saboteur,_g",
+      "podcast": "Dwarkesh Podcast",
+      "title": "Why Leonardo was a saboteur, Gutenberg went broke, and Florence was weird \u2013 Ada Palmer",
+      "published": "Fri, 06 Mar 2026 17:14:20 GMT",
+      "stages": {
+        "downloaded": false,
+        "transcribed": true,
+        "analyzed": false,
+        "insight_created": false,
+        "published": false
+      },
+      "stage_reasons": {
+        "downloaded": "Audio file missing or not found",
+        "analyzed": "Waiting for next analyze run (transcript \u2192 DB).",
+        "insight_created": "Depends on analyze step first.",
+        "published": "Not in data.js yet (run export and push to site)."
+      }
+    },
+    {
+      "id": "the_a16z_show_chris_dixon:_from_quant_tradin",
+      "podcast": "The a16z Show",
+      "title": "Chris Dixon: From Quant Trading to Building a16z Crypto",
+      "published": "Mon, 2 Mar 2026 11:00:00 +0000",
+      "stages": {
+        "downloaded": false,
+        "transcribed": true,
+        "analyzed": false,
+        "insight_created": false,
+        "published": false
+      },
+      "stage_reasons": {
+        "downloaded": "Audio file missing or not found",
+        "analyzed": "Waiting for next analyze run (transcript \u2192 DB).",
+        "insight_created": "Depends on analyze step first.",
+        "published": "Not in data.js yet (run export and push to site)."
+      }
+    }
+  ],
+  "available_from_rss": [
+    {
+      "podcast": "Monetary Matters with Jack Farley",
+      "title": "\u201cDeflationary Bust\u201d A Risk From AI | Alex Gurevich\u2019s Bull Case on Rates, \u201cPerfect Trade\u201d Potential in Japan, and The Risk of Artificial Intelligence Poses to Labor Market",
+      "published": "Sun, 15 Mar 2026 15:12:00 -0000",
+      "published_date": "2026-03-15"
+    },
+    {
+      "podcast": "The a16z Show",
+      "title": "Marc Andreessen on the Mindset of Great Founders \u2014 with David Senra",
+      "published": "Sun, 15 Mar 2026 17:10:12 +0000",
+      "published_date": "2026-03-15"
+    },
+    {
+      "podcast": "Dwarkesh Podcast",
+      "title": "Why Leonardo was a saboteur, Gutenberg went broke, and Florence was weird \u2013 Ada Palmer",
+      "published": "Fri, 06 Mar 2026 17:14:20 GMT",
+      "published_date": "2026-03-06"
+    }
+  ],
+  "rss_filter_criteria": {
+    "cutoff_date": "2026-02-01",
+    "approval": "Feed list is the filter. If a feed is in podcast_feeds.txt, all its episodes (within window) are approved. No per-episode relevance score.",
+    "feeds": "podcast_feeds.txt; episodes already in DB (by rss_guid) are skipped.",
+    "window": "Current calendar month only (forward-looking; no backfill of prior months)."
+  },
+  "note": "Episodes from curation (approved). Pipeline: curate \u2192 fetch \u2192 analyze \u2192 export. RSS list = live on feeds, not in DB yet."
 }

@@ -56,14 +56,54 @@ def export_website_data():
     return stats
 
 
+def _rss_filter_criteria():
+    """RSS filter criteria for Pipeline Health (from curate.py / cutoff_date)."""
+    try:
+        from cutoff_date import CUTOFF_DATE_ISO
+    except Exception:
+        CUTOFF_DATE_ISO = "2026-02-01"
+    try:
+        from curate import CURRENT_MONTH_ONLY
+    except Exception:
+        CURRENT_MONTH_ONLY = True
+    criteria = {
+        "cutoff_date": CUTOFF_DATE_ISO,
+        "approval": "Feed list is the filter. If a feed is in podcast_feeds.txt, all its episodes (within window) are approved. No per-episode relevance score.",
+        "feeds": "podcast_feeds.txt; episodes already in DB (by rss_guid) are skipped.",
+    }
+    if CURRENT_MONTH_ONLY:
+        criteria["window"] = "Current calendar month only (forward-looking; no backfill of prior months)."
+    else:
+        criteria["max_episode_age_days"] = 60
+    return criteria
+
+
 def _export_episode_status(site_dir: Path):
     """Write sanitized episode pipeline status to site/data for Pipeline Health."""
     state_dir = Path(__file__).parent / "state"
     status_path = state_dir / "pipeline_status.json"
     out_path = site_dir / "episode_status.json"
     if not status_path.exists():
+        try:
+            from curate import get_feed_episodes_not_in_db
+            available_from_rss = get_feed_episodes_not_in_db()
+        except Exception:
+            available_from_rss = []
+        try:
+            from cutoff_date import CUTOFF_DATE_ISO
+        except Exception:
+            CUTOFF_DATE_ISO = "2026-02-01"
+        payload = {
+            "last_updated": None,
+            "last_3_completed": [],
+            "episodes": [],
+            "available_from_rss": available_from_rss,
+            "rss_filter_criteria": _rss_filter_criteria(),
+            "note": "Run full pipeline (curate → fetch → …) to populate. RSS list = live on feeds, not in DB yet.",
+        }
         with open(out_path, "w") as f:
-            json.dump({"last_updated": None, "episodes": [], "note": "Run full pipeline to populate."}, f, indent=2)
+            json.dump(payload, f, indent=2, default=str)
+        print(f"  ✓ Exported episode status: 0 in pipeline, 0 completed, {len(available_from_rss)} available from RSS")
         return
     try:
         with open(status_path, "r") as f:
@@ -101,7 +141,6 @@ def _export_episode_status(site_dir: Path):
         if not s:
             return None
         s = (s or "").strip()
-        # Try "03 Feb 2026" or "2026-02-03" or "Wed, 11 Feb 2026 22:46:00 -0000"
         m = re.search(r"(\d{4})-(\d{2})-(\d{2})", s)
         if m:
             return (int(m.group(1)), int(m.group(2)), int(m.group(3)))
@@ -111,14 +150,36 @@ def _export_episode_status(site_dir: Path):
             return (int(m.group(3)), months.get(m.group(2)[:3], 0), int(m.group(1)))
         return (0, 0, 0)
     episodes_out.sort(key=lambda e: parse_published(e.get("published")) or (0, 0, 0), reverse=True)
+
+    # Last 3 completed (all stages ✓) for Pipeline Health
+    stage_keys = ["downloaded", "transcribed", "analyzed", "insight_created", "published"]
+    completed = [e for e in episodes_out if all((e.get("stages") or {}).get(k) for k in stage_keys)]
+    last_3_completed = completed[:3]
+
+    # In-pipeline = all tracked episodes (we show last 3 at top in UI, then rest)
+    in_pipeline = episodes_out
+
+    # Available from RSS but not yet in DB (same age/cutoff as curation; no keyword filter)
+    try:
+        from curate import get_feed_episodes_not_in_db
+        available_from_rss = get_feed_episodes_not_in_db()
+    except Exception as ex:
+        available_from_rss = []
+        print(f"  ⚠ Could not fetch RSS episodes not in DB: {ex}")
+
+    rss_filter_criteria = _rss_filter_criteria()
+
     payload = {
         "last_updated": raw.get("last_updated"),
-        "episodes": episodes_out,
-        "note": "Episodes from curation (approved). Pipeline: curate → fetch → analyze → export.",
+        "last_3_completed": last_3_completed,
+        "episodes": in_pipeline,
+        "available_from_rss": available_from_rss,
+        "rss_filter_criteria": rss_filter_criteria,
+        "note": "Episodes from curation (approved). Pipeline: curate → fetch → analyze → export. RSS list = live on feeds, not in DB yet.",
     }
     with open(out_path, "w") as f:
         json.dump(payload, f, indent=2, default=str)
-    print(f"  ✓ Exported episode status: {len(episodes_out)} episodes")
+    print(f"  ✓ Exported episode status: {len(in_pipeline)} in pipeline, {len(last_3_completed)} last completed, {len(available_from_rss)} available from RSS")
 
 
 def generate_website_js():
