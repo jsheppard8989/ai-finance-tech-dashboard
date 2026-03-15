@@ -4,6 +4,7 @@ Standalone data export script for website updates.
 Called by cron job for midday price refreshes.
 """
 
+import re
 import sys
 from pathlib import Path
 from datetime import datetime
@@ -82,18 +83,34 @@ def _export_episode_status(site_dir: Path):
             "insight_created": bool(stages_raw.get("insight_created", {}).get("complete")),
             "published": bool(stages_raw.get("published", {}).get("complete")),
         }
+        stage_reasons = {}
+        for stage_name in ["downloaded", "transcribed", "analyzed", "insight_created", "published"]:
+            r = (stages_raw.get(stage_name) or {}).get("reason")
+            if r:
+                stage_reasons[stage_name] = r
         episodes_out.append({
             "id": ep_id,
             "podcast": info.get("podcast", ""),
             "title": info.get("title", ""),
             "published": info.get("published", ""),
             "stages": stages,
+            "stage_reasons": stage_reasons,
         })
-    # Sort by published date descending (best-effort)
-    def pub_key(e):
-        s = (e.get("published") or "")[:25]
-        return s
-    episodes_out.sort(key=pub_key, reverse=True)
+    # Sort by published date descending (parse common RSS-style dates)
+    def parse_published(s):
+        if not s:
+            return None
+        s = (s or "").strip()
+        # Try "03 Feb 2026" or "2026-02-03" or "Wed, 11 Feb 2026 22:46:00 -0000"
+        m = re.search(r"(\d{4})-(\d{2})-(\d{2})", s)
+        if m:
+            return (int(m.group(1)), int(m.group(2)), int(m.group(3)))
+        months = {"Jan": 1, "Feb": 2, "Mar": 3, "Apr": 4, "May": 5, "Jun": 6, "Jul": 7, "Aug": 8, "Sep": 9, "Oct": 10, "Nov": 11, "Dec": 12}
+        m = re.search(r"(\d{1,2})\s+(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\s+(\d{4})", s, re.I)
+        if m:
+            return (int(m.group(3)), months.get(m.group(2)[:3], 0), int(m.group(1)))
+        return (0, 0, 0)
+    episodes_out.sort(key=lambda e: parse_published(e.get("published")) or (0, 0, 0), reverse=True)
     payload = {
         "last_updated": raw.get("last_updated"),
         "episodes": episodes_out,

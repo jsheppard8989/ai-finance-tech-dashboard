@@ -44,6 +44,15 @@ The main site has **three sections** that should be tied out, buttoned up, and c
 
 ---
 
+## Pipeline vs published
+
+- **Episodes in pipeline** = episodes from the curation log (approved for processing). They are the set that will eventually reach the main page.
+- **Stages:** Downloaded → Transcribed → Analyzed → Insight created → **On site** (in data.js / main page).
+- **Published** in the tracker = episode title appears in `site/data/data.js` (i.e. exported and deployable). So pipeline “published” = on website.
+- **Triple-check:** Pipeline Health shows the same list as the tracker; section “Main page” shows how many insights/overton/pundits are on the site. Episodes that complete all stages appear in data.js and count toward those numbers.
+
+---
+
 ## Making Changes
 
 - **Change limits:** Edit `get_main_page_content()` in `db_manager.py` (insights/overton LIMIT) and pundits query LIMIT; `get_suggested_terms_for_website(limit=…)` in `export_data.py`.

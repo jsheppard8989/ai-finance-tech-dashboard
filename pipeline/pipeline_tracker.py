@@ -46,6 +46,7 @@ class PodcastPipelineTracker:
         """Save current status to file."""
         STATE_DIR.mkdir(parents=True, exist_ok=True)
         self.status['last_updated'] = datetime.now().isoformat()
+        # Ensure we write the live in-memory structure (with reasons)
         with open(STATUS_FILE, 'w') as f:
             json.dump(self.status, f, indent=2)
     
@@ -55,10 +56,17 @@ class PodcastPipelineTracker:
         
         # 1. Get approved episodes from curation log
         approved_episodes = self._get_approved_episodes()
-        
-        # 2. Check each episode's progress
-        for episode_id, episode_info in approved_episodes.items():
-            self._update_episode_status(episode_id, episode_info)
+        if approved_episodes:
+            # Only track approved episodes (fresh structure with reasons)
+            self.status['episodes'] = {}
+            for episode_id, episode_info in approved_episodes.items():
+                self._update_episode_status(episode_id, episode_info)
+        else:
+            # No approved list: refresh all existing episodes so they get stage reasons
+            for episode_id, data in list(self.status.get('episodes', {}).items()):
+                info = data.get('info') or {}
+                if info:
+                    self._update_episode_status(episode_id, info)
         
         self._save_status()
         self._print_summary()
@@ -100,9 +108,11 @@ class PodcastPipelineTracker:
         
         # Stage 1: Downloaded?
         audio_file = episode_info.get('audio_file', '')
+        downloaded_ok = Path(audio_file).exists() if audio_file else False
         status['stages']['downloaded'] = {
-            'complete': Path(audio_file).exists() if audio_file else False,
-            'timestamp': status['stages'].get('downloaded', {}).get('timestamp')
+            'complete': downloaded_ok,
+            'timestamp': status['stages'].get('downloaded', {}).get('timestamp'),
+            'reason': None if downloaded_ok else ('Audio file missing or not found' if not audio_file else 'Audio file path does not exist; re-run fetch.')
         }
         
         # Stage 2: Transcribed?
@@ -123,7 +133,8 @@ class PodcastPipelineTracker:
         status['stages']['transcribed'] = {
             'complete': transcript_found,
             'file': transcript_file,
-            'timestamp': status['stages'].get('transcribed', {}).get('timestamp')
+            'timestamp': status['stages'].get('transcribed', {}).get('timestamp'),
+            'reason': None if transcript_found else ('Waiting for fetch/transcribe step' if downloaded_ok else 'No transcript until audio is downloaded.')
         }
         
         # Stage 3 & 4: Analyzed and in database?
@@ -154,7 +165,8 @@ class PodcastPipelineTracker:
         status['stages']['analyzed'] = {
             'complete': episode_row is not None,
             'episode_id': episode_row['id'] if episode_row else None,
-            'timestamp': status['stages'].get('analyzed', {}).get('timestamp')
+            'timestamp': status['stages'].get('analyzed', {}).get('timestamp'),
+            'reason': None if episode_row is not None else 'Waiting for next analyze run (transcript → DB).'
         }
         
         # Check if there's a related insight
@@ -171,12 +183,14 @@ class PodcastPipelineTracker:
                 'complete': insight_row is not None,
                 'insight_id': insight_row['id'] if insight_row else None,
                 'insight_title': insight_row['title'] if insight_row else None,
-                'timestamp': status['stages'].get('insight_created', {}).get('timestamp')
+                'timestamp': status['stages'].get('insight_created', {}).get('timestamp'),
+                'reason': None if insight_row is not None else 'Insight not created yet (run pipeline / auto_pipeline).'
             }
         else:
             status['stages']['insight_created'] = {
                 'complete': False,
-                'timestamp': None
+                'timestamp': None,
+                'reason': 'Depends on analyze step first.'
             }
         
         conn.close()
@@ -186,7 +200,7 @@ class PodcastPipelineTracker:
         data_js = Path.home() / ".openclaw/workspace/site/data/data.js"
         
         if not data_js.exists():
-            status['stages']['published'] = {'complete': False}
+            status['stages']['published'] = {'complete': False, 'reason': 'data.js not found (run export).'}
             return
         
         # Simple check - look for title in data.js
@@ -197,7 +211,8 @@ class PodcastPipelineTracker:
         
         status['stages']['published'] = {
             'complete': title_found,
-            'timestamp': status['stages'].get('published', {}).get('timestamp')
+            'timestamp': status['stages'].get('published', {}).get('timestamp'),
+            'reason': None if title_found else 'Not in data.js yet (run export and push to site).'
         }
     
     def _print_summary(self):

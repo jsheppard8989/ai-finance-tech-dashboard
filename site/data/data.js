@@ -3,24 +3,9 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-03-15T14:39:02.375834",
+  generatedAt: "2026-03-15T15:03:30.233196",
   chartsVersion: "2026-03-13T13:28:57.055826",
   tickerScores: [
-  {
-    "ticker": "BTC",
-    "total_score": 368.0,
-    "raw_mention_count": 5,
-    "unique_sources": 1,
-    "podcast_mentions": 5,
-    "newsletter_mentions": 0,
-    "rank": 1,
-    "score": 368.0,
-    "mentions": 5,
-    "conviction_level": "medium",
-    "contrarian_signal": "neutral",
-    "timeframe": "long_term",
-    "contexts": []
-  },
   {
     "ticker": "GOOGL",
     "total_score": 361.0,
@@ -28,7 +13,7 @@ const dashboardData = {
     "unique_sources": 2,
     "podcast_mentions": 4,
     "newsletter_mentions": 20,
-    "rank": 2,
+    "rank": 1,
     "score": 361.0,
     "mentions": 24,
     "conviction_level": "medium",
@@ -43,9 +28,24 @@ const dashboardData = {
     "unique_sources": 2,
     "podcast_mentions": 3,
     "newsletter_mentions": 16,
-    "rank": 3,
+    "rank": 2,
     "score": 312.0,
     "mentions": 19,
+    "conviction_level": "medium",
+    "contrarian_signal": "neutral",
+    "timeframe": "long_term",
+    "contexts": []
+  },
+  {
+    "ticker": "BTC",
+    "total_score": 302.0,
+    "raw_mention_count": 4,
+    "unique_sources": 1,
+    "podcast_mentions": 4,
+    "newsletter_mentions": 0,
+    "rank": 3,
+    "score": 302.0,
+    "mentions": 4,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
     "timeframe": "long_term",
@@ -502,7 +502,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "PQNT",
+    "ticker": "TLT",
     "total_score": 60.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -517,28 +517,13 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "TLT",
-    "total_score": 60.0,
-    "raw_mention_count": 1,
-    "unique_sources": 1,
-    "podcast_mentions": 1,
-    "newsletter_mentions": 0,
-    "rank": 35,
-    "score": 60.0,
-    "mentions": 1,
-    "conviction_level": "medium",
-    "contrarian_signal": "neutral",
-    "timeframe": "long_term",
-    "contexts": []
-  },
-  {
     "ticker": "QQQ",
     "total_score": 48.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 36,
+    "rank": 35,
     "score": 48.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -553,7 +538,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 37,
+    "rank": 36,
     "score": 40.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -568,7 +553,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 38,
+    "rank": 37,
     "score": 32.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -583,7 +568,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 39,
+    "rank": 38,
     "score": 24.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -598,7 +583,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 40,
+    "rank": 39,
     "score": 20.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -613,7 +598,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 41,
+    "rank": 40,
     "score": 20.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -628,7 +613,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 42,
+    "rank": 41,
     "score": 16.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -1400,75 +1385,6 @@ const dashboardData = {
       "podcast_episode_id": 29
     },
     {
-      "id": 25,
-      "title": "Brett Adcock: Humanoid Robots Running Neural Nets \u2014 Autonomous Manufacturing Now",
-      "source_type": "podcast",
-      "source_name": "Moonshots with Peter Diamandis",
-      "source_date": "2026-02-22",
-      "summary": "In this episode of Moonshots with Peter Diamandis, Brett Adcock discusses the rapid advancements in neural networks and their impact on the future of manufacturing and robotics. The conversation highlights the potential for robots to learn tasks and share that knowledge across a fleet, leading to significant efficiency gains. The discussion also touches on the shift from traditional coding to neural nets, the reduction in manufacturing costs, and the potential for a sci-fi future with ubiquitous",
-      "key_takeaway": "Investment in neural network technology and autonomous robotics is poised for significant growth, with the potential to disrupt traditional manufacturing and create new market opportunities.",
-      "tickers_mentioned": [
-        "TSLA",
-        "GOOGL",
-        "AMZN",
-        "NVDA",
-        "FB"
-      ],
-      "sentiment": "bullish",
-      "display_on_main": 0,
-      "display_order": 0,
-      "added_date": "2026-02-22",
-      "archived_date": "2026-02-23",
-      "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 15
-    },
-    {
-      "id": 45,
-      "title": "The Future of Consumer Technology and Interfaces",
-      "source_type": "podcast",
-      "source_name": "a16z Live",
-      "source_date": "2026-02-22",
-      "summary": "In this episode of a16z Live, Meta CTO Andrew 'Boz' Bosworth discusses the future of consumer technology with a16z's David George. Boz shares insights on the evolution of interfaces, the potential for AI-enabled computing experiences, and the shift from app-centric to more immersive and adaptive technologies. He also touches on the role of augmented reality and the potential for new content delivery vehicles in the next decade. The conversation highlights the importance of understanding user intent and the potential for AI to revolutionize how we interact with technology.",
-      "key_takeaway": "Investing in the evolution of consumer technology interfaces presents an opportunity to capitalize on the shift towards more immersive and adaptive AI-enabled experiences.",
-      "tickers_mentioned": [
-        "AAPL",
-        "GOOGL",
-        "MSFT",
-        "FB",
-        "NVDA"
-      ],
-      "sentiment": "bullish",
-      "display_on_main": 0,
-      "display_order": 0,
-      "added_date": "2026-02-22",
-      "archived_date": "2026-03-05",
-      "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 14
-    },
-    {
-      "id": 19,
-      "title": "AI Disruption and the Singularity",
-      "source_type": "podcast",
-      "source_name": "Moonshots with Peter Diamandis",
-      "source_date": "2026-02-20",
-      "summary": "The podcast discusses the rapid advancements in AI and its impact on society and the economy. The conversation revolves around the departures from X-A-I, the concept of recursive self-improvement (RSI), and the potential for AI to significantly reduce the global death rate. The panelists also debate the timeline for AI disruption, with some suggesting it's more imminent than others believe. They touch on the transformative potential of AI in various sectors, including content creation and the potential threats to traditional industries like Hollywood.",
-      "key_takeaway": "Invest in AI and tech companies at the forefront of AI development, as they are poised to benefit from the industry's rapid growth and disruption.",
-      "tickers_mentioned": [
-        "GOOGL",
-        "MSFT",
-        "NVDA",
-        "TSLA",
-        "IBM"
-      ],
-      "sentiment": "bullish",
-      "display_on_main": 0,
-      "display_order": 0,
-      "added_date": "2026-02-20",
-      "archived_date": "2026-02-23",
-      "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 26
-    },
-    {
       "id": 44,
       "title": "The Epstein Saga: Diverse Perspectives and Investment Implications",
       "source_type": "podcast",
@@ -1539,51 +1455,6 @@ const dashboardData = {
       "podcast_episode_id": 22
     },
     {
-      "id": 13,
-      "title": "Jack Mallers: Japan, AI, & The Next Liquidity Shock For Bitcoin",
-      "source_type": "podcast",
-      "source_name": "The Jack Mallers Show",
-      "source_date": "2026-02-17",
-      "summary": "Japan raising rates triggers global liquidity unwind just as AI-driven deflation compresses corporate earnings. Bitcoin selling off alongside tech as it still trades as a risk asset \u2014 but Mallers argues this is the last correlation before Bitcoin reprices as a sovereign-grade hard asset as yield curve control fails.",
-      "key_takeaway": "Bitcoin dip is a liquidity event, not a thesis change. Japanese rate hike is the catalyst \u2014 watch for yen carry trade unwind.",
-      "tickers_mentioned": [
-        "BTC",
-        "MSTR",
-        "COIN",
-        "JPY"
-      ],
-      "sentiment": "bullish",
-      "display_on_main": 0,
-      "display_order": 1,
-      "added_date": "2026-02-19",
-      "archived_date": "2026-02-23",
-      "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 20
-    },
-    {
-      "id": 14,
-      "title": "Paul Krugman: Dollar Resilience & AI Deflation Risk",
-      "source_type": "podcast",
-      "source_name": "Monetary Matters with Jack Farley",
-      "source_date": "2026-02-15",
-      "summary": "Krugman argues dollar dominance is structurally resilient despite chronic deficits \u2014 there is no alternative reserve asset. He flags AI as a deflationary force that will complicate Fed policy, and warns Kevin Warsh as Fed Chair would be hawkish at the wrong time. Sees a real risk of policy error in 2026.",
-      "key_takeaway": "Dollar stays strong short-term. AI deflation + hawkish Fed = dangerous mix for equities by late 2026. Watch rate policy closely.",
-      "tickers_mentioned": [
-        "DXY",
-        "TLT",
-        "GLD",
-        "SPY",
-        "QQQ"
-      ],
-      "sentiment": "neutral",
-      "display_on_main": 0,
-      "display_order": 2,
-      "added_date": "2026-02-19",
-      "archived_date": "2026-02-23",
-      "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 18
-    },
-    {
       "id": 1,
       "title": "SpaceX/xAI $1.25T Super-Entity",
       "source_type": "podcast",
@@ -1603,73 +1474,6 @@ const dashboardData = {
       "archived_date": "2026-02-20",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": null
-    },
-    {
-      "id": 12,
-      "title": "Dario Amodei: We Are Near the End of the Exponential",
-      "source_type": "podcast",
-      "source_name": "Dwarkesh Podcast",
-      "source_date": "2026-02-13",
-      "summary": "Dario Amodei argues we are approaching AGI faster than most realize \u2014 not from slowing scaling, but because frontier RL is opening entirely new vectors. Anthropic projects enough compute to run \"a country of geniuses in a data center\" within years. Revenue projections and compute commitments discussed in detail.",
-      "key_takeaway": "The AI exponential is not ending \u2014 it is accelerating through the RL regime. Anthropic path to profitability clearer than believed.",
-      "tickers_mentioned": [
-        "AMZN",
-        "GOOGL",
-        "MSFT",
-        "NVDA",
-        "PLTR"
-      ],
-      "sentiment": "bullish",
-      "display_on_main": 0,
-      "display_order": 0,
-      "added_date": "2026-02-19",
-      "archived_date": "2026-02-20",
-      "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 19
-    },
-    {
-      "id": 15,
-      "title": "Sam Altman's AI CEO Vision: 5-Year Plans Are Obsolete",
-      "source_type": "podcast",
-      "source_name": "Moonshots with Peter Diamandis",
-      "source_date": "2026-02-13",
-      "summary": "OpenAI succession plan explored: AI may become operational CEO of a billion-dollar company within 18 months. Job losses are task-automation, not recession. The 'Solve Everything' paper targets abundance by 2035. Corporate strategy cycles now measured in minutes not years.",
-      "key_takeaway": "AI governance tools (NOW, CRM, PLTR) positioned for enterprise adoption surge as decision-making automates.",
-      "tickers_mentioned": [
-        "MSFT",
-        "PLTR",
-        "NOW",
-        "CRM",
-        "NVDA"
-      ],
-      "sentiment": "bullish",
-      "display_on_main": 0,
-      "display_order": 3,
-      "added_date": "2026-02-19",
-      "archived_date": "2026-02-23",
-      "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 17
-    },
-    {
-      "id": 16,
-      "title": "Network State Podcast: Orchard & The Genetic Health Revolution",
-      "source_type": "podcast",
-      "source_name": "The Network State Podcast",
-      "source_date": "2026-02-13",
-      "summary": "Noor Siddiqui (Orchard) discusses embryo screening that can screen for thousands of genetic diseases before implantation. Declining cost curves mirror early genomics. Technology is ahead of regulatory and ethical frameworks. Represents a compounding, long-duration health tech opportunity.",
-      "key_takeaway": "Early-stage genetic health tech entering an inflection. Watch ILMN (sequencing infrastructure) and CRSP (gene editing tools) as enablers.",
-      "tickers_mentioned": [
-        "ILMN",
-        "CRSP",
-        "EDIT"
-      ],
-      "sentiment": "bullish",
-      "display_on_main": 0,
-      "display_order": 4,
-      "added_date": "2026-02-19",
-      "archived_date": "2026-02-23",
-      "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 21
     },
     {
       "id": 41,
@@ -1784,52 +1588,6 @@ const dashboardData = {
       "podcast_episode_id": null
     },
     {
-      "id": 22,
-      "title": "Jack Mallers: Bitcoin Transitions from Software to Hard Asset",
-      "source_type": "podcast",
-      "source_name": "The Jack Mallers Show",
-      "source_date": "2026-02-10",
-      "summary": "The host, Jack, discusses Bitcoin's recent price dip and its correlation with software technology stocks. He argues that Bitcoin, despite its properties as a hard asset, has been treated like a software stock by the broader market. Jack suggests that the current dip could be a transition point where Bitcoin starts to be recognized and traded more like a hard asset rather than a tech stock. He also explores the broader macroeconomic implications, including the shift in liquidity from software to ",
-      "key_takeaway": "Bitcoin's current dip may signal a shift in how it is perceived and traded, transitioning from a software stock to a hard asset, which could be beneficial for its long-term value.",
-      "tickers_mentioned": [
-        "BTC-USD",
-        "GOLD",
-        "XLK",
-        "XLE",
-        "GDX"
-      ],
-      "sentiment": "bullish",
-      "display_on_main": 0,
-      "display_order": 0,
-      "added_date": "2026-02-22",
-      "archived_date": "2026-02-23",
-      "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 12
-    },
-    {
-      "id": 29,
-      "title": "Wolverine: Machine-Mediated Hearing \u2014 Audio Wearables as the Next Computing Platform",
-      "source_type": "podcast",
-      "source_name": "Monetary Matters with Jack Farley",
-      "source_date": "2026-02-10",
-      "summary": "Astro Teller interviews Jason Rugolo about Wolverine \u2014 machine-mediated hearing devices from X (Google X). Evolved from 30+ ideas to audio wearables enhancing hearing with AI. Key insight: wearability and social acceptance are the moat, not raw technology.",
-      "key_takeaway": "Audio wearables represent the next computing platform after smartphones. Play: companies solving wearability + social acceptance at scale.",
-      "tickers_mentioned": [
-        "AAPL",
-        "GOOGL",
-        "AMZN",
-        "SONY",
-        "BOSE"
-      ],
-      "sentiment": "bullish",
-      "display_on_main": 0,
-      "display_order": 0,
-      "added_date": "2026-02-22",
-      "archived_date": "2026-02-23",
-      "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 4
-    },
-    {
       "id": 9,
       "title": "Milton Berg's Market Signals: Local Bottom or Major Top?",
       "source_type": "podcast",
@@ -1871,27 +1629,6 @@ const dashboardData = {
       "archived_date": "2026-02-24",
       "archived_reason": "Duplicate: Milton Berg interview, keeping id=9",
       "podcast_episode_id": 16
-    },
-    {
-      "id": 21,
-      "title": "Carson Block: Short AI Pretenders, Buy Gold Miners",
-      "source_type": "podcast",
-      "source_name": "Monetary Matters with Jack Farley",
-      "source_date": "2026-02-04",
-      "summary": "In this episode, Jack Farley interviews Carson Block, founder of Muddy Waters Capital, a leading activist short seller hedge fund. They discuss the fertile ground for short selling in sectors like tech, AI, and green energy, focusing on the overpromising and excessive speculation in these areas. Carson shares insights on identifying AI pretenders, the challenges of timing short sales, and his views on the current market cycle and the potential for bubbles to pop due to an oversupply of speculati",
-      "key_takeaway": "Identify and short sell overhyped companies in the tech and AI sectors, waiting for the right timing when market momentum shifts and demand for speculative assets is overwhelmed by supply.",
-      "tickers_mentioned": [
-        "PQNT",
-        "FTIE",
-        "AppLovin"
-      ],
-      "sentiment": "bullish",
-      "display_on_main": 0,
-      "display_order": 0,
-      "added_date": "2026-02-22",
-      "archived_date": "2026-02-23",
-      "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 11
     },
     {
       "id": 38,
@@ -3065,331 +2802,6 @@ const dashboardData = {
     "source_date": "2025-11-15",
     "key_tickers": []
   },
-  "13": {
-    "id": 9,
-    "insight_id": 13,
-    "podcast_episode_id": 20,
-    "overview": "Jack Mallers delivers a macro thesis on Bitcoin's next liquidity shock. Japan's surprise rate hike has triggered a global liquidity unwind, forcing risk-off selling across equities and Bitcoin simultaneously. Mallers argues this is the final correlation event \u2014 as carry trades unwind and yen strengthens, the Bitcoin selloff is mechanical and temporary, not fundamental. Once the dust settles, Bitcoin reprices as a sovereign-grade hard asset divorced from tech-stock correlations.",
-    "key_takeaways_detailed": [
-      "Bank of Japan rate hike triggers yen carry trade unwind \u2014 forced selling of risk assets including BTC",
-      "BTC/tech correlation at ~0.8 is historically anomalous \u2014 born from 2020-2021 liquidity flood",
-      "Japan's yield curve control failure is the macro event that breaks the correlation permanently",
-      "Mallers sees this as Bitcoin shedding 'tech tourist' holders and establishing a stronger HODLer base",
-      "AI-driven deflation compresses corporate earnings margins \u2014 bad for equities, neutral-to-positive for hard money",
-      "Bitcoin's thesis as sovereign treasury reserve is gaining nation-state traction",
-      "MicroStrategy/MSTR continues to serve as the highest-beta proxy for institutional BTC thesis"
-    ],
-    "investment_thesis": "The carry trade unwind is the last time Bitcoin sells off like a tech stock. As Japanese yields normalize, forced liquidations clear, and the remaining holders are conviction-driven. The next leg is a repricing as programmable hard money \u2014 a different valuation framework from growth equities entirely.",
-    "ticker_analysis": {
-      "BTC": {
-        "rationale": "Core thesis: repricing from risk-asset to sovereign hard money. Dip is mechanical, not fundamental.",
-        "positioning": "Accumulate on weakness. This is the carry unwind, not a thesis break.",
-        "risk": "Extended carry unwind could push BTC to $60-70K range before stabilizing"
-      },
-      "MSTR": {
-        "rationale": "Highest-beta BTC proxy. Institutional adoption vehicle via convertible notes strategy.",
-        "positioning": "High conviction long for BTC believers who want leveraged exposure",
-        "risk": "Leverage amplifies downside; not appropriate for weak hands"
-      },
-      "COIN": {
-        "rationale": "Coinbase revenue tied to crypto volumes and volatility \u2014 both elevated in this environment",
-        "positioning": "Cyclical long; strong during volatility spikes",
-        "risk": "Regulatory overhang from SEC; revenue highly volatile"
-      },
-      "JPY": {
-        "rationale": "Yen strengthening is the signal to watch \u2014 carry trade unwind indicator",
-        "positioning": "Watch as a leading indicator for BTC bottom",
-        "risk": "BOJ could reverse course quickly if economy weakens"
-      }
-    },
-    "positioning_guidance": "Buy BTC weakness in tranches. The carry unwind is a known event with a finite duration \u2014 watch JPY as the leading indicator. When yen stabilizes and carry positions are cleared, BTC should decouple upward. MSTR for aggressive exposure, COIN for vol-driven revenue play. Timeframe: thesis plays out over 6-18 months.",
-    "risk_factors": [
-      "Bank of Japan continues hiking aggressively, extending carry unwind duration",
-      "Broader recession hits and Bitcoin fails to decouple from risk-off",
-      "Regulatory crackdown on MSTR convertible note strategy",
-      "Mt. Gox or other large holder distributions create sustained sell pressure"
-    ],
-    "contrarian_signals": "This IS the contrarian call \u2014 everyone selling BTC like a tech stock while Mallers argues it already transitioned to a different asset class. The pain is the proof.",
-    "catalysts": [
-      "Yen stabilizes \u2014 carry trade fully unwound, forced selling done",
-      "Nation-state Bitcoin reserve announcement",
-      "MicroStrategy additional BTC purchase announcement",
-      "Bitcoin ETF inflows resume after current sell-off clears"
-    ],
-    "related_insights": null,
-    "audio_timestamp_start": null,
-    "audio_timestamp_end": null,
-    "transcript_excerpt": null,
-    "created_at": "2026-02-19 18:02:49",
-    "updated_at": "2026-02-19 18:02:49",
-    "insight_title": "Jack Mallers: Japan, AI, & The Next Liquidity Shock For Bitcoin",
-    "source_name": "The Jack Mallers Show",
-    "source_date": "2026-02-17",
-    "key_tickers": [
-      "BTC"
-    ]
-  },
-  "14": {
-    "id": 10,
-    "insight_id": 14,
-    "podcast_episode_id": 18,
-    "overview": "Nobel laureate Paul Krugman pushes back on dollar collapse narratives \u2014 there is no viable alternative reserve currency. His more alarming thesis: AI is a structural deflationary force that will complicate Fed policy precisely when it's most dangerous. A Kevin Warsh Fed would be hawkish into a deflationary AI shock, potentially engineering the worst policy error since the 1930s.",
-    "key_takeaways_detailed": [
-      "Dollar dominance is network-effect driven \u2014 SWIFT, Treasury market depth, and petrodollar recycling create durable moats",
-      "Euro, yuan, and gold all fail as dollar alternatives for specific structural reasons",
-      "AI deflation is structural, not cyclical \u2014 it compresses service-sector margins where inflation has been stickiest",
-      "Fed faces impossible calculus: AI deflation looks like demand weakness but is actually supply-side productivity surge",
-      "Kevin Warsh as Fed Chair = reflexive hawk who would raise rates into AI deflation = policy catastrophe",
-      "Real risk is 2026 policy error: Fed tightens into AI-driven disinflation, triggering unnecessary recession",
-      "Dollar strength near-term actually makes the deflationary shock worse for exporters and EM dollar debtors"
-    ],
-    "investment_thesis": "Dollar stays bid short-to-medium term \u2014 no credible alternative. But the more important trade is positioning around the AI deflation + Fed policy error risk in late 2026. Long duration Treasuries (TLT) as a deflation hedge. Gold (GLD) as a policy error hedge if Fed overtightens.",
-    "ticker_analysis": {
-      "DXY": {
-        "rationale": "Structural dollar dominance intact. No credible alternative reserve currency.",
-        "positioning": "Dollar remains bid; DXY strength continues medium-term",
-        "risk": "Fiscal expansion could eventually erode confidence"
-      },
-      "TLT": {
-        "rationale": "AI deflation + potential Fed policy error = duration rally. Long bonds win in deflation.",
-        "positioning": "Accumulate on dips; 20+ year Treasuries as deflation hedge",
-        "risk": "Supply-demand imbalance in Treasury market from deficit spending"
-      },
-      "GLD": {
-        "rationale": "Policy error hedge. If Fed overtightens into AI deflation, gold rallies as confidence erodes.",
-        "positioning": "Hold as portfolio insurance",
-        "risk": "Gold underperforms in a 'good outcome' scenario"
-      },
-      "SPY": {
-        "rationale": "Broad equity exposure faces headwind from AI margin compression + potential Fed error",
-        "positioning": "Underweight; favor quality and pricing power",
-        "risk": "AI productivity surge could outweigh deflation drag"
-      },
-      "QQQ": {
-        "rationale": "Tech faces dual pressure: AI deflation hits enterprise customers while Fed tightening raises discount rates",
-        "positioning": "Selective; hyperscalers with pricing power outperform",
-        "risk": "AI infrastructure demand could sustain tech outperformance"
-      }
-    },
-    "positioning_guidance": "Barbell strategy: Long TLT (deflation) + Long GLD (policy error) + Short rate-sensitive equities. Watch Warsh appointment news as a catalyst for risk-off. Dollar strength continues. Timeframe: 12-18 months for policy error thesis to resolve.",
-    "risk_factors": [
-      "Fed correctly identifies AI deflation as transitory and holds course",
-      "AI productivity surge is inflationary (energy demand, capex) rather than deflationary",
-      "Dollar alternative emerges with actual adoption",
-      "Congress passes fiscal consolidation"
-    ],
-    "contrarian_signals": "Krugman is NOT bearish on America \u2014 he's warning about a specific policy error risk from appointing the wrong Fed chair. This is a targeted, scenario-specific warning, not a broad doom call.",
-    "catalysts": [
-      "Kevin Warsh Fed Chair nomination confirmed",
-      "CPI print shows AI-driven services deflation materializing",
-      "Dollar index hits 110+ \u2014 EM stress begins",
-      "Yield curve re-inverts on Fed overtightening fears"
-    ],
-    "related_insights": null,
-    "audio_timestamp_start": null,
-    "audio_timestamp_end": null,
-    "transcript_excerpt": null,
-    "created_at": "2026-02-19 18:02:49",
-    "updated_at": "2026-02-19 18:02:49",
-    "insight_title": "Paul Krugman: Dollar Resilience & AI Deflation Risk",
-    "source_name": "Monetary Matters with Jack Farley",
-    "source_date": "2026-02-15",
-    "key_tickers": [
-      "PQNT"
-    ]
-  },
-  "12": {
-    "id": 11,
-    "insight_id": 12,
-    "podcast_episode_id": 19,
-    "overview": "Dario Amodei makes the case that we are not at the end of the AI exponential \u2014 we are at the beginning of its next, more powerful phase. Scaling laws remain intact; frontier reinforcement learning is opening entirely new capability vectors. Anthropic's internal projections: compute equivalent to 'a country of geniuses in a data center' within years.",
-    "key_takeaways_detailed": [
-      "Scaling laws remain intact \u2014 the apparent slowdown was in pre-training; post-training RL is the new frontier",
-      "Frontier RL unlocks capabilities orthogonal to raw parameter count",
-      "Anthropic projects ASL-4 systems within 18-24 months \u2014 capable of significant autonomous scientific work",
-      "Revenue trajectory: $1B+ ARR in 2025, multi-billion ARR by 2026 on current deal pipeline",
-      "The 'country of geniuses in a data center' framing is literal \u2014 autonomous research agents running 24/7",
-      "Biomedical research is the first domain where this capability creates measurable economic value",
-      "Amodei explicitly disagrees with 'AI winter' narratives \u2014 sees 2-3 more doublings before any plateau"
-    ],
-    "investment_thesis": "If Amodei is right \u2014 and his capital commitments give him credibility \u2014 we are in the early innings of a capability explosion that will reprice every AI infrastructure company upward. Compute demand is not plateauing. NVDA, AMZN, GOOGL, and MSFT may be trading at trough multiples relative to 2027-2028 earnings.",
-    "ticker_analysis": {
-      "NVDA": {
-        "rationale": "Every RL training run requires massive GPU compute. If capability doublings continue, Blackwell has sustained demand.",
-        "positioning": "Core holding. Buy dips. Compute is the primary constraint.",
-        "risk": "Custom silicon erodes share over 3-5 year horizon"
-      },
-      "AMZN": {
-        "rationale": "AWS is Anthropic's primary cloud partner. Every Anthropic API call runs on AWS.",
-        "positioning": "Indirect Anthropic play; AWS margin expansion accelerates with AI workloads",
-        "risk": "Microsoft/Azure has deeper OpenAI integration"
-      },
-      "GOOGL": {
-        "rationale": "TPU infrastructure and Gemini are direct competitors; benefits from AI-driven search monetization",
-        "positioning": "Defensive AI infrastructure play with search moat as floor",
-        "risk": "OpenAI/Anthropic search disruption risk"
-      },
-      "MSFT": {
-        "rationale": "OpenAI integration across Office, Azure, Copilot creates the broadest AI monetization surface",
-        "positioning": "Enterprise AI adoption proxy; Copilot attach rate is the key metric",
-        "risk": "OpenAI relationship is both moat and dependency"
-      },
-      "PLTR": {
-        "rationale": "AI capabilities Amodei describes flow into enterprise via platforms like Palantir's AIP",
-        "positioning": "High-conviction AI-to-enterprise software layer; government contracts provide floor",
-        "risk": "Valuation already pricing significant AI adoption"
-      }
-    },
-    "positioning_guidance": "Treat this as a 'capability re-rating' event. If Amodei's 18-24 month timeline is correct, current AI infrastructure multiples are too low, not too high. Add NVDA on dips. AMZN as the Anthropic infrastructure play. PLTR as the enterprise deployment layer. Timeframe: 18-36 months.",
-    "risk_factors": [
-      "RL scaling hits unexpected capability walls \u2014 timeline slips",
-      "Anthropic raises at lower valuation \u2014 signals private market cooling",
-      "Energy constraints become binding before next capability doubling",
-      "Regulatory intervention delays commercial deployment",
-      "Geopolitical export controls limit compute availability"
-    ],
-    "contrarian_signals": "Amodei is arguing AGAINST the 'AI winter is coming' consensus forming in some corners. His inside view, backed by capital and engineering teams, deserves significant weight.",
-    "catalysts": [
-      "Anthropic ASL-4 system announcement",
-      "Anthropic IPO filing",
-      "Novel scientific discovery credited to autonomous AI agent",
-      "NVDA data center revenue beats consensus for 3+ consecutive quarters"
-    ],
-    "related_insights": null,
-    "audio_timestamp_start": null,
-    "audio_timestamp_end": null,
-    "transcript_excerpt": null,
-    "created_at": "2026-02-19 18:02:49",
-    "updated_at": "2026-02-19 18:02:49",
-    "insight_title": "Dario Amodei: We Are Near the End of the Exponential",
-    "source_name": "Dwarkesh Podcast",
-    "source_date": "2026-02-13",
-    "key_tickers": []
-  },
-  "15": {
-    "id": 12,
-    "insight_id": 15,
-    "podcast_episode_id": 17,
-    "overview": "Peter Diamandis and Sam Altman explore the near-term horizon where AI becomes operational CEO of major enterprises. The '5-year business plan' is not just obsolete \u2014 it is actively harmful. The 'Solve Everything' roadmap projects abundance by 2035 across energy, healthcare, education, and food. Knowledge work automation is accelerating faster than physical labor automation.",
-    "key_takeaways_detailed": [
-      "AI CEO thesis: within 18 months, AI could run operations of a billion-dollar company with minimal human oversight",
-      "Strategy cycles compress from 5-year plans to real-time adjustment \u2014 incumbents with rigid planning face structural disadvantage",
-      "Knowledge work automation is proceeding faster than physical labor automation \u2014 white-collar jobs at risk first",
-      "'Solve Everything' paper: OpenAI's internal roadmap targets material progress on climate, disease, poverty by 2035",
-      "Corporate governance will need to evolve \u2014 AI CEOs require new board oversight frameworks",
-      "Abundance by 2035 is backed by specific compute and deployment projections",
-      "Companies that redesign workflows for AI-native operation will outcompound those bolting AI onto legacy processes"
-    ],
-    "investment_thesis": "The AI CEO thesis creates two investment opportunities: (1) Enterprise software providing AI governance and workflow orchestration \u2014 NOW, CRM, PLTR are the picks-and-shovels. (2) Companies already operating as AI-native enterprises will compound faster than incumbents.",
-    "ticker_analysis": {
-      "NOW": {
-        "rationale": "ServiceNow is the operating system for enterprise workflows. AI CEO requires workflow orchestration at scale.",
-        "positioning": "High conviction. AI CEO adoption accelerates NOW's TAM expansion.",
-        "risk": "Competition from Microsoft Copilot embedding directly"
-      },
-      "CRM": {
-        "rationale": "Salesforce Agentforce is the CRM's answer to AI-native customer operations.",
-        "positioning": "Turnaround thesis accelerates if Agentforce adoption meets projections",
-        "risk": "HubSpot and newer AI-native CRMs as competitive threats"
-      },
-      "PLTR": {
-        "rationale": "Palantir AIP is the AI decision-support layer for enterprise and government.",
-        "positioning": "Government contract floor + enterprise AI growth ceiling. High-conviction hold.",
-        "risk": "Valuation already stretched; execution risk on commercial expansion"
-      },
-      "MSFT": {
-        "rationale": "Microsoft 365 Copilot is the most deployed AI CEO assistant globally.",
-        "positioning": "Core holding. Copilot attach rate is the metric to watch quarterly.",
-        "risk": "Commoditization risk as OpenAI makes models cheaper directly"
-      },
-      "NVDA": {
-        "rationale": "AI CEOs running in real-time require inference compute at scale.",
-        "positioning": "Compute demand continues regardless of which AI CEO platform wins",
-        "risk": "Custom silicon and new inference architectures could compress margins"
-      }
-    },
-    "positioning_guidance": "Build an 'AI CEO infrastructure' basket: NOW + CRM + PLTR as the workflow layer; MSFT as the deployed surface; NVDA as compute substrate. Timeframe: 2-5 years for full AI CEO adoption wave.",
-    "risk_factors": [
-      "AI CEO regulatory backlash \u2014 governments mandate human oversight requirements",
-      "AI accuracy at real-time decision-making proves insufficient for high-stakes decisions",
-      "Job displacement triggers political response that constrains AI deployment",
-      "OpenAI's 'Solve Everything' roadmap proves aspirational"
-    ],
-    "contrarian_signals": "Most enterprises are still in 'AI pilot' mode \u2014 the gap between where deployment is today and where Altman says it's going in 18 months is enormous. Either he's wrong, or the adoption curve is about to go vertical.",
-    "catalysts": [
-      "First Fortune 500 company announces AI-led operational restructuring",
-      "NOW or CRM reports AI agent revenue exceeding 10% of total revenue",
-      "OpenAI releases 'Solve Everything' public roadmap with specific milestones",
-      "Regulatory framework for AI corporate governance proposed"
-    ],
-    "related_insights": null,
-    "audio_timestamp_start": null,
-    "audio_timestamp_end": null,
-    "transcript_excerpt": null,
-    "created_at": "2026-02-19 18:02:49",
-    "updated_at": "2026-02-19 18:02:49",
-    "insight_title": "Sam Altman's AI CEO Vision: 5-Year Plans Are Obsolete",
-    "source_name": "Moonshots with Peter Diamandis",
-    "source_date": "2026-02-13",
-    "key_tickers": []
-  },
-  "16": {
-    "id": 13,
-    "insight_id": 16,
-    "podcast_episode_id": 21,
-    "overview": "Noor Siddiqui, founder of Orchard, presents the investment case for preimplantation genetic testing as a long-duration, compounding health technology opportunity. Orchard screens embryos for thousands of genetic diseases before implantation \u2014 at cost curves that mirror early genomics in 2007. The technology is operationally ahead of both the regulatory and ethical frameworks designed to govern it.",
-    "key_takeaways_detailed": [
-      "Orchard screens for 10,000+ genetic conditions per embryo \u2014 100x more comprehensive than current clinical standard",
-      "Cost per test declining at genomics-like rates \u2014 following the Illumina sequencing cost curve from 2007-2015",
-      "IVF market in the US: 300,000+ cycles annually, growing 5-7% per year",
-      "Regulatory framework has not caught up \u2014 current legal gray area favors early movers",
-      "Technology enables selection against polygenic risk scores, not just monogenic diseases",
-      "Long-term: as cost approaches zero, this becomes standard of care \u2014 embedded in IVF workflow globally",
-      "Sequencing infrastructure (ILMN) and gene editing tools (CRSP) are the enabling technologies"
-    ],
-    "investment_thesis": "This is a multi-decade compounding opportunity at the intersection of genomics, AI-powered screening, and reproductive medicine. Direct play (Orchard) is private \u2014 but the infrastructure layer is public. ILMN provides the sequencing substrate. CRSP and EDIT provide gene editing for the next phase.",
-    "ticker_analysis": {
-      "ILMN": {
-        "rationale": "Illumina sequencing is the infrastructure layer enabling cheaper-per-test economics. As Orchard scales, Illumina's consumables revenue grows.",
-        "positioning": "Long-term infrastructure hold; beneficiary of any genetic screening volume growth",
-        "risk": "Oxford Nanopore and PacBio as competitive sequencing platforms"
-      },
-      "CRSP": {
-        "rationale": "CRISPR Therapeutics represents the next phase: correcting disease-causing variants, not just selecting healthy embryos.",
-        "positioning": "Speculative long with high upside; FDA approval pipeline is the catalyst",
-        "risk": "Clinical trial failures; off-target editing concerns"
-      },
-      "EDIT": {
-        "rationale": "Editas Medicine's base editing technology is safer than traditional CRISPR for germline applications.",
-        "positioning": "Small position; speculative; binary FDA outcome risk",
-        "risk": "Most speculative; cash burn rate is a concern"
-      }
-    },
-    "positioning_guidance": "Build a 'genetic health infrastructure' basket: ILMN as anchor (sequencing substrate), CRSP as speculative growth (next-phase editing), EDIT as small optionality bet. Monitor Orchard for IPO signals. Timeframe: 5-10 year thesis.",
-    "risk_factors": [
-      "FDA imposes moratorium on preimplantation genetic screening for polygenic traits",
-      "Ethical and religious opposition generates legislative restrictions",
-      "Cost curve fails to decline at genomics pace \u2014 market remains niche",
-      "Public backlash framing as 'designer baby' technology triggers regulatory overcorrection"
-    ],
-    "contrarian_signals": "This technology is happening regardless of debate \u2014 the question is investment timing. The contrarian position is that genetic screening is standard of care by 2030. Most investors aren't watching reproductive health tech yet.",
-    "catalysts": [
-      "Orchard files for IPO \u2014 forces public market valuation and awareness",
-      "CMS reimbursement decision for expanded genetic screening coverage",
-      "ILMN reports acceleration in reproductive medicine sequencing volumes",
-      "CRSP or EDIT reports positive Phase 2 data for germline-adjacent application"
-    ],
-    "related_insights": null,
-    "audio_timestamp_start": null,
-    "audio_timestamp_end": null,
-    "transcript_excerpt": null,
-    "created_at": "2026-02-19 18:02:49",
-    "updated_at": "2026-02-19 18:02:49",
-    "insight_title": "Network State Podcast: Orchard & The Genetic Health Revolution",
-    "source_name": "The Network State Podcast",
-    "source_date": "2026-02-13",
-    "key_tickers": []
-  },
   "17": {
     "id": 14,
     "insight_id": 17,
@@ -3660,286 +3072,6 @@ const dashboardData = {
     "source_date": "2025-12-17",
     "key_tickers": []
   },
-  "19": {
-    "id": 18,
-    "insight_id": 19,
-    "podcast_episode_id": 26,
-    "overview": "The rapid advancement of AI technology is poised to disrupt various sectors and potentially trigger a new era of exponential growth, often referred to as the singularity. This deep dive analysis examines the investment implications of AI's recursive self-improvement capabilities and its impact on society and the economy. Given the recent departures from key AI companies and the increasing discussion around AI's societal impact, the urgency to understand and position investments accordingly is paramount. The analysis will focus on the short to medium-term implications, as the technology's trajectory and societal acceptance are still unfolding.",
-    "key_takeaways_detailed": [
-      "AI's recursive self-improvement capability could lead to a significant acceleration in technological advancements, potentially reshaping industries and economies.",
-      "Investors should monitor the departures and changes within the founding teams of AI companies as these could signal shifts in company direction or technological breakthroughs.",
-      "The potential for AI to address global challenges, such as reducing mortality rates, highlights the technology's transformative potential and the importance of its development.",
-      "The societal and economic impact of AI is a double-edged sword, with both positive and negative implications that investors must weigh when making investment decisions.",
-      "The current pace of AI development suggests that the technology's impact could be felt more acutely in the next 1-3 years, necessitating a proactive investment stance."
-    ],
-    "investment_thesis": "The core investment logic revolves around the imminent disruption caused by AI's ability to self-improve and accelerate technological progress. Catalysts include advancements in AI algorithms, increased computational power, and the potential for AI to solve complex global issues. The timeframe for this thesis is medium to long-term, as the full impact of AI on society and the economy is expected to unfold over the next 3-10 years. Investors should focus on companies at the forefront of AI development and those poised to benefit from AI-driven efficiency gains.",
-    "ticker_analysis": {
-      "GOOGL": {
-        "rationale": "Google's parent company, Alphabet, is a leader in AI research and has a broad range of applications from search to autonomous vehicles.",
-        "positioning": "Long-term strategic position due to its diverse AI applications and strong research capabilities.",
-        "risk": "Regulatory challenges and potential backlash against data privacy concerns could hinder AI development and deployment."
-      },
-      "MSFT": {
-        "rationale": "Microsoft has a strong position in cloud computing and AI, with products like Azure and a focus on AI as a service.",
-        "positioning": "Strategic long position, considering its cloud infrastructure and enterprise AI solutions.",
-        "risk": "Intense competition in the cloud space and the potential for AI\u5931\u8bef to disrupt its traditional software business model."
-      },
-      "NVDA": {
-        "rationale": "Nvidia is a key player in the GPU market, which is essential for the parallel processing required by AI and deep learning.",
-        "positioning": "Tactical to strategic long position, depending on the investor's view on the speed of AI adoption.",
-        "risk": "High valuation multiples and potential competition from custom AI chips developed by tech giants."
-      },
-      "TSLA": {
-        "rationale": "Tesla's leadership in autonomous driving technology positions it to benefit from AI advancements in transportation.",
-        "positioning": "Strategic long position, with a focus on the company's ability to commercialize AI in the automotive sector.",
-        "risk": "Regulatory hurdles and safety concerns could slow the adoption of autonomous vehicles."
-      },
-      "IBM": {
-        "rationale": "IBM has a long history in AI, with its Watson platform being a significant player in enterprise AI solutions.",
-        "positioning": "Tactical long position, as IBM's AI offerings could see a resurgence in a more AI-centric business environment.",
-        "risk": "Slow transformation and the potential for being outpaced by more agile competitors in the AI space."
-      }
-    },
-    "positioning_guidance": "Investors should consider a balanced approach, with a core long-term position in companies leading AI development and tactical positions in companies that are expected to benefit from AI-driven efficiency gains. Entry points should be considered in the context of broader market trends and company-specific catalysts. Diversification across different sectors impacted by AI can help mitigate risks. Hedges may include investments in companies that could be negatively affected by AI disruption.",
-    "risk_factors": [
-      "Regulatory hurdles could slow the development and deployment of AI technologies.",
-      "Ethical concerns and societal pushback against AI could impact the technology's adoption.",
-      "Technological setbacks or failures in high-profile AI applications could lead to a loss of confidence in the technology.",
-      "Intense competition and rapid changes in the AI landscape could displace current market leaders.",
-      "Economic downturns or market volatility could affect the capital available for AI research and development."
-    ],
-    "contrarian_signals": [
-      "The potential for AI to create new jobs and industries that offset job displacement in the short term.",
-      "The possibility that AI development could slow due to technical challenges or a lack of significant breakthroughs.",
-      "The argument that AI's impact on global issues like mortality rates could be overstated, leading to a more gradual societal shift.",
-      "The view that AI's disruption will be more evolutionary than revolutionary, with a slower and more controlled transition to a new technological paradigm."
-    ],
-    "catalysts": [
-      "Upcoming AI conferences and events that could showcase new breakthroughs and applications.",
-      "Earnings reports and announcements from key AI companies that could indicate the pace of AI development and adoption.",
-      "Regulatory decisions and policy changes that could either accelerate or hinder AI's development and deployment.",
-      "Technological milestones, such as significant improvements in AI algorithms or the development of new AI hardware.",
-      "Global events or crises that could accelerate the need for AI solutions, such as pandemics or climate change-related disasters."
-    ],
-    "related_insights": null,
-    "audio_timestamp_start": null,
-    "audio_timestamp_end": null,
-    "transcript_excerpt": null,
-    "created_at": "2026-02-22T14:35:13.093957",
-    "updated_at": "2026-02-22 20:35:13",
-    "insight_title": "AI Disruption and the Singularity",
-    "source_name": "Moonshots with Peter Diamandis",
-    "source_date": "2026-02-20",
-    "key_tickers": []
-  },
-  "21": {
-    "id": 19,
-    "insight_id": 21,
-    "podcast_episode_id": 11,
-    "overview": "In this podcast, Carson Block, founder of Muddy Waters Capital, discusses the fertile ground for short selling in the tech sector, particularly in AI and AI-adjacent industries. He identifies the potential for overpromising and excessive speculation in these areas, suggesting that the current market dynamics favor momentum plays over fundamental analysis. The investment thesis revolves around shorting companies that are overhyped and unlikely to generate profits soon, while also considering the timing of such moves due to the strong momentum in these stocks. This analysis is particularly relevant now as the market is experiencing a proliferation of AI-related companies, some of which may be overvalued or 'pretenders'.",
-    "key_takeaways_detailed": [
-      "Identify AI and AI-adjacent companies with high market caps and questionable fundamentals.",
-      "Monitor for signs of market saturation or oversupply in speculative stocks, which could signal a shift in momentum.",
-      "Be cautious of shorting overhyped stocks with strong momentum; timing is critical to avoid significant losses.",
-      "Consider diversifying investment strategies to include both short selling and momentum plays within the S&P 500.",
-      "Keep an eye on IPOs and de-SPAC transactions for potential 'wannabe' companies that may be overvalued."
-    ],
-    "investment_thesis": "The core investment logic is to short companies in the AI and AI-adjacent sectors that are overvalued and unlikely to generate profits in the near term. Catalysts for this thesis include market saturation, oversupply of speculative stocks, and a potential shift in market sentiment away from momentum plays. The timeframe for this thesis is medium to long-term, as it may take time for the market to recognize the overvaluation and for the momentum to subside.",
-    "ticker_analysis": {
-      "PQNT": {
-        "rationale": "PQNT is relevant as it is an ETF that uses AI to enhance international equity returns, which could be affected by the overvaluation and overpromising in the AI sector.",
-        "positioning": "Consider a tactical short position if the thesis of overvaluation in AI stocks holds true, as PQNT's performance may be tied to the broader AI market.",
-        "risk": "Key risks include the continued outperformance of AI stocks and the potential for PQNT to hold legitimate AI companies that may continue to grow."
-      },
-      "NVDA": {
-        "rationale": "NVIDIA is a leader in AI and GPU technology, and its stock performance could be indicative of the broader AI market's health.",
-        "positioning": "Monitor for signs of overvaluation and potential short opportunities, but be cautious due to the company's strong market position.",
-        "risk": "The risk of missing out on continued growth if NVIDIA continues to innovate and lead in the AI space."
-      },
-      "QCOM": {
-        "rationale": "Qualcomm is a major player in the semiconductor industry, which has seen significant investment flows and could be overvalued.",
-        "positioning": "Consider a strategic short position if the cyclical nature of the semiconductor industry leads to a downturn.",
-        "risk": "The risk of being wrong about the cyclical nature of the industry and the potential for continued growth in demand for semiconductors."
-      },
-      "APPL": {
-        "rationale": "Apple, while not strictly an AI company, has significant investments in AI and could be affected by a market shift away from AI stocks.",
-        "positioning": "Use as a hedge against a broader market downturn in AI, but be cautious as Apple's diversified business could mitigate risks.",
-        "risk": "The risk of Apple's AI investments paying off and the company continuing to grow despite a potential AI market downturn."
-      }
-    },
-    "positioning_guidance": "Position sizing should be\u8c28\u614e\uff0cwith a focus on risk management. Entry points should be timed around market sentiment shifts and signs of overvaluation. Timeframes for short positions should be medium to long-term, with the understanding that market momentum can be strong and sustained. Consider hedging with companies that have a diversified business model or are less tied to the AI sector.",
-    "risk_factors": [
-      "Continued strong performance of AI stocks due to ongoing technological advancements and market demand.",
-      "Misjudging the cyclical nature of the semiconductor industry and the potential for continued growth.",
-      "Overlooking the potential for legitimate AI companies to continue to innovate and grow, despite market overvaluation.",
-      "Regulatory changes that could favor AI and tech companies, leading to increased investment and growth.",
-      "Market sentiment shifts that could prolong the momentum in AI stocks, making short positions risky."
-    ],
-    "contrarian_signals": [
-      "The potential for AI and tech companies to deliver on their promises and continue to grow, invalidating the short thesis.",
-      "The possibility that market overvaluation is a temporary phenomenon and that fundamentals will eventually drive stock performance.",
-      "The risk that shorting overhyped stocks could lead to significant losses if the stocks continue to rise due to strong market momentum."
-    ],
-    "catalysts": [
-      "Upcoming earnings reports from major AI companies that could reveal overvaluation or continued growth.",
-      "Market sentiment shifts due to economic indicators or global events that could affect the tech sector.",
-      "Regulatory changes or policy announcements that could impact the AI and tech sectors.",
-      "New technological breakthroughs or product launches that could either validate or invalidate the overhyped nature of certain AI stocks.",
-      "Significant market downturns that could lead to a reevaluation of overvalued stocks, including those in the AI sector."
-    ],
-    "related_insights": null,
-    "audio_timestamp_start": null,
-    "audio_timestamp_end": null,
-    "transcript_excerpt": null,
-    "created_at": "2026-02-22T14:51:20.417989",
-    "updated_at": "2026-02-22 20:51:20",
-    "insight_title": "Carson Block: Short AI Pretenders, Buy Gold Miners",
-    "source_name": "Monetary Matters with Jack Farley",
-    "source_date": "2026-02-04",
-    "key_tickers": [
-      "PQNT",
-      "FTIE",
-      "AppLovin"
-    ]
-  },
-  "22": {
-    "id": 20,
-    "insight_id": 22,
-    "podcast_episode_id": 12,
-    "overview": "In this episode of The Jack Malers Show, the host presents a compelling investment thesis that Bitcoin is transitioning from being perceived as a software stock to a hard asset. This shift is significant as it could redefine Bitcoin's correlation with traditional markets, potentially leading to a new liquidity regime. The analysis suggests that Bitcoin's recent price dip is not an anomaly but a necessary correction that aligns with broader macroeconomic trends, where capital is moving away from software and tech stocks towards more tangible assets like energy, infrastructure, and critical minerals. Understanding this transition is crucial for investors as it could\u9884\u793a\u7740 a new phase in Bitcoin's market behavior and its role as a store of value.",
-    "key_takeaways_detailed": [
-      "Bitcoin's correlation with software stocks is high, indicating similar ownership and market dynamics.",
-      "The recent dip in Bitcoin's price may signal a broader market shift towards hard assets, affecting Bitcoin's trading behavior.",
-      "Investors should monitor the correlation between Bitcoin and traditional hard assets to gauge this transition.",
-      "Policy changes in the U.S., aimed at reducing reliance on foreign tech and increasing domestic investment in infrastructure and energy, could influence Bitcoin's market perception.",
-      "Diversification into hard assets might offer a hedge against potential software stock volatility, which could spill over to Bitcoin."
-    ],
-    "investment_thesis": "The core investment logic is that Bitcoin, despite its properties as a hard asset and a superior form of money, has been trading like a software stock due to market perception and ownership dynamics. The recent market dip suggests a realignment where Bitcoin starts to decouple from software stocks and aligns more with hard assets. This transition could be catalyzed by global economic policies and a shift in capital towards tangible assets. The timeframe for this thesis is medium to long-term, as market perception and capital allocation take time to adjust.",
-    "ticker_analysis": {
-      "GOLD": {
-        "rationale": "Gold is traditionally seen as a hard asset and a store of value, making it a comparative benchmark.",
-        "positioning": "Tactical long position to hedge against market volatility and as a proxy for hard asset behavior.",
-        "risk": "A significant shift in global interest rates or inflation expectations could affect gold's value."
-      },
-      "XLK": {
-        "rationale": "The Technology Select Sector SPDR Fund is a representation of the tech sector, which Bitcoin has historically correlated with.",
-        "positioning": "Short position or underweight as capital is expected to flow out of the tech sector.",
-        "risk": "Unexpected technological breakthroughs or a surge in tech earnings could reverse capital flows."
-      },
-      "XLE": {
-        "rationale": "The Energy Select Sector SPDR Fund represents the energy sector, which is expected to attract more capital.",
-        "positioning": "Overweight or long position as part of a hard asset allocation strategy.",
-        "risk": "Fluctuations in oil prices or a slowdown in the energy transition could impact the sector negatively."
-      },
-      "GDX": {
-        "rationale": "The Gold Miners ETF represents companies involved in mining hard assets, which could benefit from the capital shift.",
-        "positioning": "Strategic long position as these companies may see increased investment.",
-        "risk": "Changes in mining regulations or a decrease in demand for mined materials could pose risks."
-      }
-    },
-    "positioning_guidance": "Investors should consider a medium to long-term strategic allocation to Bitcoin and other hard assets like gold. Diversification is key, with a potential overweight in sectors expected to attract more capital, such as energy and mining. Entry points should be considered on market dips, and investors should be prepared to hold positions through short-term volatility. Hedges against software stock volatility may be prudent.",
-    "risk_factors": [
-      "Unexpected changes in global economic policies could disrupt the capital shift towards hard assets.",
-      "A technological breakthrough in the software sector could draw capital back in, affecting Bitcoin's market behavior.",
-      "Regulatory crackdowns on cryptocurrencies could undermine Bitcoin's value proposition.",
-      "A global economic downturn could affect all asset classes, including hard assets.",
-      "Potential market manipulation or large-scale selling by Bitcoin whales could create volatility."
-    ],
-    "contrarian_signals": [
-      "Institutional investors may continue to view Bitcoin as a digital asset rather than a hard asset, maintaining its correlation with tech stocks.",
-      "The growth of decentralized finance (DeFi) could reinforce Bitcoin's ties to the software sector.",
-      "Global economic stability and a resurgence in tech innovation could slow the capital shift towards hard assets."
-    ],
-    "catalysts": [
-      "U.S. policy changes and infrastructure investment plans could accelerate the capital shift towards hard assets.",
-      "Earnings reports and market performance of tech companies could indicate the direction of capital flows.",
-      "Global economic indicators, such as inflation rates and GDP growth, may influence investor sentiment towards hard assets.",
-      "Bitcoin's upcoming halving event could impact its supply dynamics and market perception.",
-      "Geopolitical events that affect the stability of traditional financial systems could drive interest in alternative assets like Bitcoin."
-    ],
-    "related_insights": null,
-    "audio_timestamp_start": null,
-    "audio_timestamp_end": null,
-    "transcript_excerpt": null,
-    "created_at": "2026-02-22T14:51:38.226538",
-    "updated_at": "2026-02-22 20:51:38",
-    "insight_title": "Jack Mallers: Bitcoin Transitions from Software to Hard Asset",
-    "source_name": "The Jack Mallers Show",
-    "source_date": "2026-02-10",
-    "key_tickers": []
-  },
-  "25": {
-    "id": 21,
-    "insight_id": 25,
-    "podcast_episode_id": 15,
-    "overview": "The rapid advancement in neural network technology has positioned humanoid robots at the forefront of the next industrial revolution. Brett Adcock's Figure Technologies is pioneering the use of neural nets for autonomous manufacturing, creating a $50T market opportunity. This technology enables robots to learn tasks and share this knowledge across the fleet, offering a significant competitive advantage over traditional coding methods. The implications for this technology are vast, spanning across various sectors including manufacturing, logistics, and services, potentially leading to an era of ubiquitous goods and services in the age of abundance.",
-    "key_takeaways_detailed": [
-      "Neural nets enable robots to learn and perform tasks autonomously, reducing reliance on traditional coding and creating a significant barrier to entry for competitors.",
-      "Data accumulation is becoming a crucial asset, as it fuels the learning process of neural networks, providing a competitive edge to early adopters like Figure Technologies.",
-      "The transition from C++ to neural nets in robotics represents a paradigm shift, potentially accelerating the development and adoption of autonomous manufacturing technologies.",
-      "Investors should monitor the progress of Figure Technologies and similar companies, as they could disrupt traditional manufacturing and service sectors.",
-      "The potential for robots to build robots could significantly reduce manufacturing costs and accelerate the adoption of humanoid robots in various industries."
-    ],
-    "investment_thesis": "The core investment thesis revolves around the transformative impact of neural network technology on the robotics industry, particularly in autonomous manufacturing. As Figure Technologies and similar companies continue to advance neural net capabilities, we expect a significant shift towards more efficient, cost-effective, and flexible manufacturing processes. This shift could disrupt traditional manufacturing companies and create substantial investment opportunities in the robotics and AI sectors. The catalysts for this thesis include technological breakthroughs, increased adoption of neural net technology, and the potential for humanoid robots to enter mainstream applications. The timeframe for this thesis is medium to long-term, as the full realization of this technology's potential may take several years.",
-    "ticker_analysis": {
-      "TSLA": {
-        "rationale": "Tesla's investment in AI and robotics could position the company to benefit from advancements in neural network technology for autonomous manufacturing.",
-        "positioning": "Long-term strategic position, as Tesla's technology investments could pay off in the medium to long term.",
-        "risk": "Tesla's focus on automotive applications may limit the immediate benefits from advancements in humanoid robotics."
-      },
-      "GOOGL": {
-        "rationale": "Google's deep investments in AI research and development make it well-positioned to capitalize on the growth of neural network technology.",
-        "positioning": "Long-term strategic position, with potential for significant upside as neural net technology becomes more prevalent.",
-        "risk": "Google's broad\u4e1a\u52a1\u8303\u56f4 could dilute the impact of specific advancements in neural network technology."
-      },
-      "AMZN": {
-        "rationale": "Amazon's extensive logistics network could greatly benefit from advancements in autonomous manufacturing and robotics.",
-        "positioning": "Medium-term tactical position, as Amazon could quickly adopt neural net technology to improve efficiency.",
-        "risk": "Amazon's reliance on a diverse range of technologies could slow the adoption of specific neural net advancements."
-      },
-      "NVDA": {
-        "rationale": "Nvidia's leadership in GPU technology positions it to benefit from the increased demand for AI and neural network processing power.",
-        "positioning": "Long-term strategic position, as the need for advanced processing power is expected to grow with neural network technology.",
-        "risk": "Nvidia faces competition from other chip manufacturers looking to capture the AI processing market."
-      },
-      "FB": {
-        "rationale": "Facebook's investment in AI could allow it to leverage neural network technology for various applications, including content moderation and user experience enhancement.",
-        "positioning": "Medium-term tactical position, as Facebook could implement neural net technology to improve its platform.",
-        "risk": "Regulatory challenges and public perception issues could hinder Facebook's ability to fully leverage neural network technology."
-      }
-    },
-    "positioning_guidance": "Investors should consider a diversified approach to capitalizing on the potential of neural network technology in robotics. A mix of long-term strategic positions in companies with significant AI investments, such as TSLA and GOOGL, combined with medium-term tactical positions in companies that could quickly adopt the technology, like AMZN and NVDA, could provide a balanced portfolio. Entry points should be considered in relation to each company's specific advancements and market announcements. Investors should also consider hedging against potential regulatory and public perception risks, especially for companies like FB that operate in highly scrutinized sectors.",
-    "risk_factors": [
-      "Technological setbacks or delays in the development and adoption of neural network technology could slow the growth of the robotics industry.",
-      "Increased competition in the AI and robotics space could erode the competitive advantage of early adopters.",
-      "Regulatory hurdles could limit the deployment of humanoid robots in certain sectors or geographies.",
-      "Public perception and ethical concerns surrounding the use of humanoid robots could hinder adoption.",
-      "Economic downturns or market volatility could affect the investment in and development of AI and robotics technologies."
-    ],
-    "contrarian_signals": [
-      "Traditional manufacturing companies may resist the shift to autonomous manufacturing, preferring to invest in tried-and-true methods.",
-      "The high cost of developing and implementing neural network technology could deter some companies from adopting it.",
-      "There is a risk that the hype surrounding AI and neural networks could lead to overvaluation of companies in this space, without corresponding profits.",
-      "The potential for job displacement due to the rise of humanoid robots could lead to social and political pushback against this technology."
-    ],
-    "catalysts": [
-      "Figure Technologies' continued development and deployment of Figure 3 robots and the release of Helix 2 could serve as a catalyst for the industry.",
-      "Major tech conferences and AI summits where advancements in neural network technology are showcased.",
-      "Regulatory decisions that either support or hinder the development and deployment of AI and robotics technologies.",
-      "Partnerships between tech companies and traditional manufacturers to integrate neural network technology into existing processes.",
-      "Economic indicators that signal a shift towards investment in AI and technology, potentially accelerating the adoption of neural network technology."
-    ],
-    "related_insights": null,
-    "audio_timestamp_start": null,
-    "audio_timestamp_end": null,
-    "transcript_excerpt": null,
-    "created_at": "2026-02-22T14:51:57.232999",
-    "updated_at": "2026-02-22 20:51:57",
-    "insight_title": "Brett Adcock: Humanoid Robots Running Neural Nets \u2014 Autonomous Manufacturing Now",
-    "source_name": "Moonshots with Peter Diamandis",
-    "source_date": "2026-02-22",
-    "key_tickers": []
-  },
   "26": {
     "id": 22,
     "insight_id": 26,
@@ -4008,80 +3140,6 @@ const dashboardData = {
       "Nasdaq",
       "Russell",
       "Semiconductors"
-    ]
-  },
-  "29": {
-    "id": 24,
-    "insight_id": 29,
-    "podcast_episode_id": 4,
-    "overview": "The investment thesis revolves around the burgeoning audio wearables market, which is poised to disrupt traditional computing platforms. As technology advances, audio wearables are becoming more than just devices for listening to music; they are evolving into sophisticated tools for communication, health monitoring, and virtual/augmented reality experiences. This shift signifies a new era in personal computing, with significant investment opportunities in companies that can capitalize on this trend. The current market dynamics, driven by technological innovation and consumer demand, make this an opportune time for investors to consider positions in this space.",
-    "key_takeaways_detailed": [
-      "Invest in companies at the forefront of audio wearable technology to capture early market share.",
-      "Monitor partnerships between tech giants and audio wearable manufacturers for potential synergies.",
-      "Assess the impact of 5G rollouts on the capabilities and demand for advanced audio wearables.",
-      "Keep an eye on the regulatory environment, as data privacy and health standards can significantly affect the industry.",
-      "Diversify investments across the supply chain to mitigate risks associated with single product failures."
-    ],
-    "investment_thesis": "The core investment logic is that audio wearables are set to become the next major computing platform, integrating with various aspects of daily life. Catalysts include technological advancements in sound quality, battery life, and integration with AI and VR/AR technologies. The timeframe for this thesis is medium to long-term, as the market is still in its nascent stages but is expected to experience rapid growth over the next 3-5 years.",
-    "ticker_analysis": {
-      "AAPL": {
-        "rationale": "Apple's AirPods have been a significant driver in the audio wearables market, and the company continues to innovate in this space.",
-        "positioning": "Long-term strategic position, considering Apple's ecosystem and recurring revenue model.",
-        "risk": "Increased competition and potential for market saturation."
-      },
-      "GOOGL": {
-        "rationale": "Google's investment in audio technology and potential entry into the wearables market through partnerships.",
-        "positioning": "Medium-term tactical position, as Google could leverage its AI capabilities to disrupt the market.",
-        "risk": "Regulatory challenges and the possibility of delayed product releases."
-      },
-      "AMZN": {
-        "rationale": "Amazon's Echo Buds and its potential to integrate audio wearables with its broader ecosystem, including cloud services.",
-        "positioning": "Medium-term tactical position, with an eye on Amazon's ability to scale and innovate quickly.",
-        "risk": "Amazon's focus on other areas of technology could lead to underinvestment in audio wearables."
-      },
-      "SONY": {
-        "rationale": "Sony's expertise in audio technology and its established brand in consumer electronics.",
-        "positioning": "Long-term strategic position, as Sony can leverage its brand and technology to capture market share.",
-        "risk": "The risk of being outpaced by more agile competitors in terms of innovation and market response."
-      },
-      "BOSE": {
-        "rationale": "Bose's reputation for high-quality audio products and potential to lead in the premium audio wearables segment.",
-        "positioning": "Short to medium-term tactical position, given the company's focus on quality over quantity.",
-        "risk": "High price points may limit market penetration in the early stages of market development."
-      }
-    },
-    "positioning_guidance": "Investors should consider a diversified approach, allocating a portion of their tech investments to audio wearables. Entry points should be considered in relation to product release cycles and market penetration rates. Timeframes for holding positions will vary based on the company's position in the market, with some being more suited for short-term gains and others for long-term growth. Consider hedging against market volatility, especially in the early stages of market development.",
-    "risk_factors": [
-      "Rapid changes in consumer preferences could render current technology obsolete.",
-      "Increased competition may lead to price wars, reducing profitability.",
-      "Regulatory hurdles, particularly around data privacy and health standards, could slow market growth.",
-      "Technological failures or recalls could damage brand reputations and market trust.",
-      "Slow adoption of 5G technology could limit the capabilities of audio wearables."
-    ],
-    "contrarian_signals": [
-      "The potential for market overestimation of the speed at which audio wearables will become mainstream.",
-      "The possibility that health and safety concerns could delay or halt the widespread adoption of certain audio wearables.",
-      "The risk that the market may become saturated quickly, leading to a decline in growth rates."
-    ],
-    "catalysts": [
-      "Upcoming product releases from major tech companies in the audio wearables space.",
-      "Advancements in 5G technology and its impact on the capabilities of audio wearables.",
-      "Partnerships between tech companies and traditional audio equipment manufacturers.",
-      "Regulatory decisions that could either open or close markets for audio wearables.",
-      "Market research reports highlighting growth trends and consumer adoption rates."
-    ],
-    "related_insights": null,
-    "audio_timestamp_start": null,
-    "audio_timestamp_end": null,
-    "transcript_excerpt": null,
-    "created_at": "2026-02-22T14:52:51.077344",
-    "updated_at": "2026-02-22 20:52:51",
-    "insight_title": "Wolverine: Machine-Mediated Hearing \u2014 Audio Wearables as the Next Computing Platform",
-    "source_name": "Monetary Matters with Jack Farley",
-    "source_date": "2026-02-10",
-    "key_tickers": [
-      "GOOGL",
-      "MSFT"
     ]
   },
   "37": {
@@ -4482,77 +3540,6 @@ const dashboardData = {
     "insight_title": "The Epstein Saga: Diverse Perspectives and Investment Implications",
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "source_date": "2026-02-20",
-    "key_tickers": []
-  },
-  "45": {
-    "id": 36,
-    "insight_id": 45,
-    "podcast_episode_id": 14,
-    "overview": "The investment thesis revolves around the impending shift in consumer technology and interfaces, moving away from the app-centric, smartphone-dominated era towards a more immersive, AI-enabled future. This transition is expected to be driven by advancements in AI, hardware, and the development of new interfaces such as augmented reality (AR) glasses. The shift is significant as it could redefine how consumers interact with technology, creating new market opportunities and potentially disrupting existing ones. The timing is crucial as we are at the cusp of this technological revolution, with the potential for substantial changes in consumer behavior and market dynamics within the next 5 to 10 years.",
-    "key_takeaways_detailed": [
-      "Invest in companies at the forefront of AI and AR/VR technology as they are likely to shape the new consumer tech landscape.",
-      "Monitor the development of new interfaces and platforms that could replace or supplement the current app model.",
-      "Assess the potential impact on traditional brands and consider how 'intent'-based interactions could change marketing and consumer engagement.",
-      "Keep an eye on the competitive dynamics within the tech industry, as new entrants and innovative business models could disrupt established players.",
-      "Consider the regulatory environment, as advancements in AI and data privacy concerns may influence the pace of technological adoption."
-    ],
-    "investment_thesis": "The core investment logic is that the next wave of consumer technology will be characterized by a move away from the current app-centric model to a more immersive, AI-driven experience. This shift will be catalyzed by breakthroughs in AI, the maturation of AR/VR technologies, and the development of new interfaces that are more adaptive and intuitive. The timeframe for this thesis is medium to long-term, as the transition will likely take several years to fully materialize, with significant changes expected within 3-5 years and a complete transformation over a decade.",
-    "ticker_analysis": {
-      "AAPL": {
-        "rationale": "Apple is a key player in consumer technology with a strong ecosystem and is investing heavily in AR. Its potential to lead in the new interface era makes it a strategic long-term investment.",
-        "positioning": "Long-term strategic position, considering its potential to integrate new technologies into its product lineup.",
-        "risk": "Slow adoption of new interfaces by consumers, or failure to innovate quickly enough to stay ahead of competitors."
-      },
-      "GOOGL": {
-        "rationale": "Google has a strong presence in AI and is investing in AR and VR. Its\u5e7f\u6cdb\u7684\u6280\u672f\u57fa\u7840\u548c\u7814\u53d1\u80fd\u529b position it well to benefit from the shift towards AI-enabled interfaces.",
-        "positioning": "Medium to long-term strategic position, with a focus on its ability to leverage AI across various platforms.",
-        "risk": "Regulatory challenges to data usage and potential missed opportunities in hardware development."
-      },
-      "MSFT": {
-        "rationale": "Microsoft's focus on enterprise software and services, along with its foray into AR with HoloLens, makes it a contender in the new tech era.",
-        "positioning": "Strategic long-term position, with a focus on its enterprise offerings and potential to disrupt business operations with new interfaces.",
-        "risk": "Slow enterprise adoption of AR/VR technologies and increased competition in the AR space."
-      },
-      "FB": {
-        "rationale": "Facebook (Meta) has shown a commitment to the metaverse and has a history of adapting to new tech trends, positioning it to potentially lead in the new interface era.",
-        "positioning": "Medium-term tactical position, considering the company's aggressive moves into AR/VR and the metaverse.",
-        "risk": "High dependence on consumer adoption of new interfaces and potential regulatory hurdles."
-      },
-      "NVDA": {
-        "rationale": "Nvidia's leadership in GPU technology positions it as a key beneficiary of the AI revolution and the increased demand for processing power in new interfaces.",
-        "positioning": "Long-term strategic position, given its foundational role in enabling advanced AI and graphics capabilities.",
-        "risk": "Dependency on the overall growth of the AI market and potential disruptions from new competitors in the semiconductor space."
-      }
-    },
-    "positioning_guidance": "Investors should consider a balanced portfolio with a mix of long-term strategic positions in companies leading the AI and AR/VR revolution, complemented by medium-term tactical positions in companies that are rapidly adapting to these changes. Entry points should be considered in the context of each company's specific developments and market announcements, with a focus on the upcoming product launches and technological milestones. Investors should also consider hedging against potential regulatory risks and market volatility associated with rapid technological shifts.",
-    "risk_factors": [
-      "Slow consumer adoption of new interfaces and technologies.",
-      "Increased competition that could erode market share for established players.",
-      "Regulatory challenges that could slow down the development and adoption of AI and AR/VR technologies.",
-      "Technological setbacks or failures that could delay the transition to new interfaces.",
-      "Economic downturns that could reduce consumer spending on new tech products."
-    ],
-    "contrarian_signals": [
-      "The possibility that the current app model could evolve to remain relevant, reducing the need for new interfaces.",
-      "The potential for privacy concerns to limit the adoption of AI-driven, data-intensive interfaces.",
-      "The risk that technological advancements may not materialize as quickly as expected, prolonging the dominance of the current smartphone era."
-    ],
-    "catalysts": [
-      "Upcoming product launches and announcements from major tech companies in the AR/VR space.",
-      "Advancements in AI that enable more natural and intuitive user interfaces.",
-      "Regulatory decisions that impact data usage and privacy, influencing the development of new interfaces.",
-      "Economic indicators that signal consumer readiness to adopt new technologies and interfaces.",
-      "Partnerships and acquisitions that signal a shift towards the development of new interfaces and platforms."
-    ],
-    "related_insights": null,
-    "audio_timestamp_start": null,
-    "audio_timestamp_end": null,
-    "transcript_excerpt": null,
-    "created_at": "2026-02-22T19:17:19.691105",
-    "updated_at": "2026-02-23 01:17:19",
-    "insight_title": "The Future of Consumer Technology and Interfaces",
-    "source_name": "a16z Live",
-    "source_date": "2026-02-22",
     "key_tickers": []
   },
   "46": {

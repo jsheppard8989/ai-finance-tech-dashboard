@@ -50,6 +50,14 @@
     .muted { color: #8892b0; font-size: 0.9rem; }
     #loading { color: #8892b0; }
     #errors { color: #f87171; margin-top: 0.5rem; }
+    .stage-x { cursor: pointer; text-decoration: underline; text-decoration-style: dotted; }
+    .stage-x:hover { opacity: 0.9; }
+    #stage-reason-modal { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.6); z-index: 100; align-items: center; justify-content: center; }
+    #stage-reason-modal.show { display: flex; }
+    #stage-reason-box { background: #1a1a2e; border: 1px solid rgba(255,255,255,0.2); border-radius: 12px; padding: 1.25rem; max-width: 420px; }
+    #stage-reason-box h3 { font-size: 1rem; color: #00d4ff; margin-bottom: 0.5rem; }
+    #stage-reason-box p { color: #a8b2d1; font-size: 0.95rem; line-height: 1.5; }
+    #stage-reason-box button { margin-top: 1rem; padding: 0.4rem 1rem; background: #00d4ff; color: #0f3460; border: none; border-radius: 6px; cursor: pointer; }
   </style>
 </head>
 <body>
@@ -106,6 +114,14 @@
         </table>
       </div>
       <p id="episode-note" class="muted" style="margin-top: 0.5rem; font-size: 0.8rem;"></p>
+    </div>
+
+    <div id="stage-reason-modal" onclick="if(event.target===this) closeStageReasonModal()">
+      <div id="stage-reason-box">
+        <h3 id="stage-reason-title">Stage</h3>
+        <p id="stage-reason-text"></p>
+        <button type="button" onclick="closeStageReasonModal()">Close</button>
+      </div>
     </div>
 
     <div class="card">
@@ -212,9 +228,11 @@
       const epTbody = document.getElementById('episodes-table').querySelector('tbody');
       epTbody.innerHTML = '';
       const stageKeys = ['downloaded', 'transcribed', 'analyzed', 'insight_created', 'published'];
+      const stageLabels = { downloaded: 'Downloaded', transcribed: 'Transcribed', analyzed: 'Analyzed', insight_created: 'Insight created', published: 'On site' };
       let throughAnalysis = 0, onSite = 0;
       episodes.forEach(function(ep) {
         const st = ep.stages || {};
+        const reasons = ep.stage_reasons || {};
         if (st.analyzed) throughAnalysis++;
         if (st.published) onSite++;
         const cells = [
@@ -223,12 +241,28 @@
           (ep.published || '').substring(0, 22)
         ];
         stageKeys.forEach(function(k) {
-          cells.push(st[k] ? '<span class="ok">✓</span>' : '<span class="fail">✗</span>');
+          if (st[k]) {
+            cells.push('<span class="ok">✓</span>');
+          } else {
+            const reason = reasons[k] || 'No reason recorded. Re-run pipeline to refresh.';
+            const label = stageLabels[k] || k;
+            cells.push('<span class="fail stage-x" data-stage="' + label + '" data-reason="' + String(reason).replace(/"/g, '&quot;') + '" title="Click for reason">✗</span>');
+          }
         });
         const tr = document.createElement('tr');
         tr.innerHTML = '<td>' + cells[0] + '</td><td>' + cells[1] + '</td><td>' + cells[2] + '</td><td>' + cells[3] + '</td><td>' + cells[4] + '</td><td>' + cells[5] + '</td><td>' + cells[6] + '</td><td>' + cells[7] + '</td>';
         epTbody.appendChild(tr);
       });
+      epTbody.querySelectorAll('.stage-x').forEach(function(el) {
+        el.addEventListener('click', function() {
+          document.getElementById('stage-reason-title').textContent = this.getAttribute('data-stage') || 'Stage';
+          document.getElementById('stage-reason-text').textContent = (this.getAttribute('data-reason') || '').replace(/&quot;/g, '"');
+          document.getElementById('stage-reason-modal').classList.add('show');
+        });
+      });
+      window.closeStageReasonModal = function() {
+        document.getElementById('stage-reason-modal').classList.remove('show');
+      };
       document.getElementById('episode-summary').textContent = episodes.length === 0
         ? 'No episodes in pipeline yet. Run curate → fetch so approved episodes appear here.'
         : episodes.length + ' episodes known · ' + throughAnalysis + ' through analysis · ' + onSite + ' on site. Status as of: ' + (episodeStatus.last_updated ? formatDate(episodeStatus.last_updated) : '—');
