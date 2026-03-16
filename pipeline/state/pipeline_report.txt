@@ -1,136 +1,17 @@
 Podcast Pipeline Report
-Generated: 2026-03-16T07:37:12.775335
+Generated: 2026-03-16T15:34:08.651256
 
 {
-  "last_updated": "2026-03-16T07:37:12.773781",
+  "last_updated": "2026-03-16T15:34:08.650443",
   "episodes": {
-    "monetary_matters_with_jack_farley_\u201cdeflationary_bust\u201d_a_risk_fro": {
-      "info": {
-        "podcast": "Monetary Matters with Jack Farley",
-        "title": "\u201cDeflationary Bust\u201d A Risk From AI | Alex Gurevich\u2019s Bull Case on Rates, \u201cPerfect Trade\u201d Potential in Japan, and The Risk of Artificial Intelligence Poses to Labor Market",
-        "published": "Sun, 15 Mar 2026 15:12:00 -0000",
-        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/EWWMN1106342889.mp3",
-        "keywords": []
-      },
-      "stages": {
-        "downloaded": {
-          "complete": true,
-          "timestamp": null,
-          "reason": null
-        },
-        "transcribed": {
-          "complete": true,
-          "file": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/EWWMN1106342889.txt",
-          "timestamp": null,
-          "reason": null
-        },
-        "analyzed": {
-          "complete": false,
-          "episode_id": null,
-          "timestamp": null,
-          "reason": "Waiting for next analyze run (transcript \u2192 DB)."
-        },
-        "insight_created": {
-          "complete": false,
-          "timestamp": null,
-          "reason": "Depends on analyze step first."
-        },
-        "published": {
-          "complete": false,
-          "timestamp": null,
-          "reason": "Not in data.js yet (run export and push to site)."
-        }
-      },
-      "first_seen": "2026-03-16T07:37:12.752402",
-      "status": "needs_analysis"
-    },
-    "the_a16z_show_ai_startups_vs._big_chatbots_\u2014": {
-      "info": {
-        "podcast": "The a16z Show",
-        "title": "AI Startups vs. Big Chatbots \u2014 With Olivia Moore",
-        "published": "Mon, 16 Mar 2026 10:00:00 +0000",
-        "audio_file": "",
-        "keywords": []
-      },
-      "stages": {
-        "downloaded": {
-          "complete": true,
-          "timestamp": null,
-          "reason": null
-        },
-        "transcribed": {
-          "complete": true,
-          "file": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/DVVTS4101423217.txt",
-          "timestamp": null,
-          "reason": null
-        },
-        "analyzed": {
-          "complete": false,
-          "episode_id": null,
-          "timestamp": null,
-          "reason": "Waiting for next analyze run (transcript \u2192 DB)."
-        },
-        "insight_created": {
-          "complete": false,
-          "timestamp": null,
-          "reason": "Depends on analyze step first."
-        },
-        "published": {
-          "complete": false,
-          "timestamp": null,
-          "reason": "Not in data.js yet (run export and push to site)."
-        }
-      },
-      "first_seen": "2026-03-16T07:37:12.766739",
-      "status": "needs_analysis"
-    },
-    "the_a16z_show_marc_andreessen_on_the_mindset": {
-      "info": {
-        "podcast": "The a16z Show",
-        "title": "Marc Andreessen on the Mindset of Great Founders \u2014 with David Senra",
-        "published": "Sun, 15 Mar 2026 17:10:12 +0000",
-        "audio_file": "",
-        "keywords": []
-      },
-      "stages": {
-        "downloaded": {
-          "complete": true,
-          "timestamp": null,
-          "reason": null
-        },
-        "transcribed": {
-          "complete": true,
-          "file": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/DVVTS4101423217.txt",
-          "timestamp": null,
-          "reason": null
-        },
-        "analyzed": {
-          "complete": false,
-          "episode_id": null,
-          "timestamp": null,
-          "reason": "Waiting for next analyze run (transcript \u2192 DB)."
-        },
-        "insight_created": {
-          "complete": false,
-          "timestamp": null,
-          "reason": "Depends on analyze step first."
-        },
-        "published": {
-          "complete": false,
-          "timestamp": null,
-          "reason": "Not in data.js yet (run export and push to site)."
-        }
-      },
-      "first_seen": "2026-03-16T07:37:12.768202",
-      "status": "needs_analysis"
-    },
     "the_a16z_show_chris_dixon:_from_quant_tradin": {
       "info": {
         "podcast": "The a16z Show",
         "title": "Chris Dixon: From Quant Trading to Building a16z Crypto",
         "published": "Mon, 2 Mar 2026 11:00:00 +0000",
         "audio_file": "",
-        "keywords": []
+        "keywords": [],
+        "rss_guid": "1a7873e6-52cf-493d-a1a1-360a49324923"
       },
       "stages": {
         "downloaded": {
@@ -161,7 +42,7 @@ Generated: 2026-03-16T07:37:12.775335
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-16T07:37:12.770031",
+      "first_seen": "2026-03-16T15:34:08.631596",
       "status": "needs_analysis"
     },
     "dwarkesh_podcast_why_leonardo_was_a_saboteur,_g": {
@@ -170,7 +51,8 @@ Generated: 2026-03-16T07:37:12.775335
         "title": "Why Leonardo was a saboteur, Gutenberg went broke, and Florence was weird \u2013 Ada Palmer",
         "published": "Fri, 06 Mar 2026 17:14:20 GMT",
         "audio_file": "",
-        "keywords": []
+        "keywords": [],
+        "rss_guid": "substack:post:190118311"
       },
       "stages": {
         "downloaded": {
@@ -201,7 +83,7 @@ Generated: 2026-03-16T07:37:12.775335
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-16T07:37:12.772174",
+      "first_seen": "2026-03-16T15:34:08.647986",
       "status": "needs_analysis"
     }
   }

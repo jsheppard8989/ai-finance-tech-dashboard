@@ -1,5 +1,53 @@
 [
   {
+    "id": 70,
+    "name": "Salim Ismail",
+    "slug": "salim-ismail",
+    "bio": "Salim Ismail is a well-known futurist and author, known for his work on exponential technologies.",
+    "known_for": "Futurist and author",
+    "last_seen": "2026-03-16 19:37:22",
+    "last_episode_title": "Moonshots Podcast Episode #231 - OpenAI Acquires OpenClaw, 400x Cost Collapse, & Why India Wins the Talent War",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-02-18",
+    "last_main_idea": "Invest in the vertical integration of AI, the rise of India as a global AI hub, and the shift towards agent-based interactions."
+  },
+  {
+    "id": 71,
+    "name": "Dave Blundin",
+    "slug": "dave-blundin",
+    "bio": null,
+    "known_for": null,
+    "last_seen": "2026-03-16 19:37:22",
+    "last_episode_title": "Moonshots Podcast Episode #231 - OpenAI Acquires OpenClaw, 400x Cost Collapse, & Why India Wins the Talent War",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-02-18",
+    "last_main_idea": "Invest in the vertical integration of AI, the rise of India as a global AI hub, and the shift towards agent-based interactions."
+  },
+  {
+    "id": 72,
+    "name": "Alexander Wissner-Gross",
+    "slug": "alexander-wissner-gross",
+    "bio": null,
+    "known_for": null,
+    "last_seen": "2026-03-16 19:37:22",
+    "last_episode_title": "Moonshots Podcast Episode #231 - OpenAI Acquires OpenClaw, 400x Cost Collapse, & Why India Wins the Talent War",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-02-18",
+    "last_main_idea": "Invest in the vertical integration of AI, the rise of India as a global AI hub, and the shift towards agent-based interactions."
+  },
+  {
+    "id": 69,
+    "name": "Ben Horowitz",
+    "slug": "ben-horowitz",
+    "bio": "Ben Horowitz is a co-founder of the venture capital firm Andreessen Horowitz (a16z).",
+    "known_for": "Co-founder of a16z",
+    "last_seen": "2026-03-16 19:37:22",
+    "last_episode_title": "Moonshots Podcast Episode #231 - OpenAI Acquires OpenClaw, 400x Cost Collapse, & Why India Wins the Talent War",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-02-18",
+    "last_main_idea": "Invest in the vertical integration of AI, the rise of India as a global AI hub, and the shift towards agent-based interactions."
+  },
+  {
     "id": 43,
     "name": "Olivia Moore",
     "slug": "olivia-moore",
@@ -173,18 +221,6 @@
     "slug": "paul-ackens",
     "bio": "SEC chair with a history in corporation finance work.",
     "known_for": "Shaping capital markets and regulatory oversight.",
-    "last_seen": "2026-03-12 19:38:22",
-    "last_episode_title": "Capital Markets Evolution and the Future of IPOs",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-03-11",
-    "last_main_idea": "The shift towards private markets and the potential for changing reporting cadence could redefine the landscape for early-stage investment opportunities and public market participation."
-  },
-  {
-    "id": 34,
-    "name": "Michael Cilig",
-    "slug": "michael-cilig",
-    "bio": "CFTC chair with expertise in commodities and financial markets.",
-    "known_for": "Regulatory oversight in commodities and financial markets.",
     "last_seen": "2026-03-12 19:38:22",
     "last_episode_title": "Capital Markets Evolution and the Future of IPOs",
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",

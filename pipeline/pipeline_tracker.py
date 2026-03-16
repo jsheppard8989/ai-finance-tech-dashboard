@@ -9,6 +9,7 @@ import sqlite3
 from pathlib import Path
 from datetime import datetime
 from typing import Dict, List, Optional
+import json as _json
 
 # Paths
 AUDIO_DIR = Path.home() / ".openclaw/workspace/audio"
@@ -96,7 +97,8 @@ class PodcastPipelineTracker:
                 'title': ep['title'],
                 'published': ep.get('published', 'Unknown'),
                 'audio_file': ep.get('audio_file', ''),
-                'keywords': ep.get('matched_keywords', [])
+                'keywords': ep.get('matched_keywords', []),
+                'rss_guid': ep.get('rss_guid', '')
             }
         
         return episodes
@@ -168,20 +170,61 @@ class PodcastPipelineTracker:
         conn.row_factory = sqlite3.Row
         cursor = conn.cursor()
         
-        # Check podcast_episodes table
-        cursor.execute("""
-            SELECT id, episode_date, summary 
-            FROM podcast_episodes 
-            WHERE podcast_name LIKE ? AND episode_title LIKE ?
-        """, (f"%{episode_info['podcast']}%", f"%{episode_info['title'][:40]}%"))
-        
-        episode_row = cursor.fetchone()
-        
+        episode_row = None
+        rss_guid = (episode_info.get('rss_guid') or '').strip()
+
+        # Prefer GUID-based lookup when available (stable episode identity)
+        if rss_guid:
+            cursor.execute("""
+                SELECT id, episode_date, summary
+                FROM podcast_episodes
+                WHERE rss_guid = ?
+            """, (rss_guid,))
+            episode_row = cursor.fetchone()
+
+        # Fallback: podcast + title fuzzy match (for legacy rows without guid)
+        if episode_row is None:
+            cursor.execute("""
+                SELECT id, episode_date, summary 
+                FROM podcast_episodes 
+                WHERE podcast_name LIKE ? AND episode_title LIKE ?
+            """, (f"%{episode_info['podcast']}%", f"%{episode_info['title'][:40]}%"))
+            episode_row = cursor.fetchone()
+
+        analyzed_stage = status['stages'].get('analyzed') or {}
+        analyzed_complete = episode_row is not None
+        analyzed_reason = None
+
+        if not analyzed_complete:
+            # If analysis previously failed, surface that instead of a generic "waiting" message.
+            failures_path = STATE_DIR / "analysis_failures.json"
+            failure = None
+            try:
+                if failures_path.exists():
+                    with open(failures_path, "r") as f:
+                        failure_map = _json.load(f)
+                    # Try to match by transcript stem from transcribed stage
+                    t_stage = status['stages'].get('transcribed') or {}
+                    t_file = t_stage.get('file') or ''
+                    stem = Path(t_file).stem if t_file else ''
+                    if stem and stem in failure_map:
+                        failure = failure_map[stem]
+            except Exception:
+                failure = None
+
+            if failure:
+                code = failure.get("reason_code", "analysis_error")
+                analyzed_reason = f"Analysis failed: {code}"
+                # Tag this episode as blocked at the analysis stage
+                status['status'] = 'blocked_analysis'
+            else:
+                analyzed_reason = 'Waiting for next analyze run (transcript → DB).'
+
         status['stages']['analyzed'] = {
-            'complete': episode_row is not None,
+            'complete': analyzed_complete,
             'episode_id': episode_row['id'] if episode_row else None,
-            'timestamp': status['stages'].get('analyzed', {}).get('timestamp'),
-            'reason': None if episode_row is not None else 'Waiting for next analyze run (transcript → DB).'
+            'timestamp': analyzed_stage.get('timestamp'),
+            'reason': analyzed_reason,
         }
         
         # Check if there's a related insight
@@ -239,7 +282,10 @@ class PodcastPipelineTracker:
         """
         st_flags = {k: bool((stages.get(k) or {}).get('complete')) for k in self.STAGES}
 
-        # TODO: inspect reasons for hard failures and return blocked_* statuses when needed
+        # Inspect reasons for hard failures and return blocked_* statuses when needed
+        analyzed_reason = reasons.get('analyzed') or ''
+        if analyzed_reason.startswith('Analysis failed'):
+            return 'blocked_analysis'
 
         if not st_flags.get('downloaded'):
             return 'needs_download'

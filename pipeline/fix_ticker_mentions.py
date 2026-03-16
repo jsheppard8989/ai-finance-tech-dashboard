@@ -103,8 +103,20 @@ Rules:
 - Return ONLY valid JSON, no markdown"""
 
     try:
+        # Use the same model selection convention as the main pipeline:
+        # Moonshot/Kimi primary, otherwise a small GPT model.
+        model_name = "moonshot-v1-8k"
+        try:
+            # If the client has been created from an OpenAI key without Moonshot base_url,
+            # fall back to a smaller, cheaper GPT model.
+            base_url = getattr(client, "base_url", "")
+            if not base_url or "moonshot.ai" not in str(base_url):
+                model_name = "gpt-4o-mini"
+        except Exception:
+            model_name = "gpt-4o-mini"
+
         response = client.chat.completions.create(
-            model="kimi-k2-thinking",
+            model=model_name,
             messages=[
                 {"role": "system", "content": "You are a financial analyst. Return only valid JSON."},
                 {"role": "user", "content": prompt}

@@ -3,8 +3,8 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-03-16T11:48:37.526988",
-  chartsVersion: "2026-03-16T11:48:31.595781",
+  generatedAt: "2026-03-16T16:44:57.376078",
+  chartsVersion: "2026-03-16T16:44:54.603367",
   tickerScores: [
   {
     "ticker": "GOOGL",
@@ -1511,6 +1511,25 @@ const dashboardData = {
       "podcast_episode_id": 23
     },
     {
+      "id": 85,
+      "title": "Moonshots Podcast Episode #232 - The Pace of AI and Major Industry Moves",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-02-19",
+      "summary": "In this episode of Moonshots, Peter Diamandis is joined by Ben Horowitz from a16z to discuss the rapid pace of AI development and significant shifts within the industry. They cover topics such as the executive exodus from xAI, the high valuation of Ilya Sutskever's Safe Superintelligence (SSI), the talent war in AI, and Apple's AI strategy challenges. The conversation highlights the importance of AI talent, the impact of compute capabilities, and the potential for AI to transform industries.",
+      "key_takeaway": "Invest in companies leading the AI talent and compute race, as they are poised to capitalize on the transformative potential of AI.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 0,
+      "display_order": 0,
+      "added_date": "2026-03-16",
+      "archived_date": "2026-03-16",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
+      "podcast_episode_id": 68
+    },
+    {
       "id": 17,
       "title": "Moonshots #231: 400x AI Cost Collapse & India's Talent Decade",
       "source_type": "podcast",
@@ -1532,6 +1551,25 @@ const dashboardData = {
       "archived_date": "2026-02-23",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 22
+    },
+    {
+      "id": 86,
+      "title": "Moonshots Podcast Episode #231 - OpenAI Acquires OpenClaw, 400x Cost Collapse, & Why India Wins the Talent War",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-02-18",
+      "summary": "In this episode of Moonshots, Peter Diamandis and his guests discuss the monumental acquisition of OpenClaw by OpenAI, which signifies a vertical monopoly in the AI agent layer. They analyze the implications of a 400x cost collapse in AI inference, enabling new applications. The panel also highlights India's emerging dominance in AI due to its demographic advantage, lower costs, and high-quality technical education. The conversation covers the impact of US immigration policy on global talent distribution and the obsolescence of the app economy in favor of agent-based interactions.",
+      "key_takeaway": "Invest in the vertical integration of AI, the rise of India as a global AI hub, and the shift towards agent-based interactions.",
+      "tickers_mentioned": [
+        "INDA"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 0,
+      "display_order": 0,
+      "added_date": "2026-03-16",
+      "archived_date": "2026-03-16",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
+      "podcast_episode_id": 69
     },
     {
       "id": 1,
@@ -6309,6 +6347,152 @@ const dashboardData = {
     "source_name": "The a16z Show",
     "source_date": "2026-03-16",
     "key_tickers": []
+  },
+  "85": {
+    "id": 76,
+    "insight_id": 85,
+    "podcast_episode_id": 68,
+    "overview": "The rapid pace of AI development is reshaping the technology landscape, with significant implications for investors. In this episode of Moonshots Podcast, we discuss the executive exodus from xAI, the $5 billion valuation of Ilya Sutskever's Safe Superintelligence (SSI), and Apple's AI strategy crisis. The talent war in AI is intensifying, with top researchers commanding massive salaries and companies vying for access to GPUs. The next 12 months will be crucial in determining which AI companies become trillion-dollar giants and which fade into obscurity. This deep dive analysis explores the investment implications of these developments and provides actionable insights for investors.",
+    "key_takeaways_detailed": [
+      "AI talent arbitrage is a key investment theme, with top researchers worth billions in market cap.",
+      "Apple's missed AI wave creates a structural risk, making it a potential short opportunity.",
+      "SSI's safety-first AGI approach is commanding premium valuations, making it an interesting insurance play.",
+      "Access to GPUs is becoming the primary differentiator in the AI space, favoring companies like NVIDIA.",
+      "xAI's consolidation under Musk's control is concerning due to the talent drain, potentially impacting its long-term prospects."
+    ],
+    "investment_thesis": "The core investment logic revolves around the rapid pace of AI development and the talent war. Companies that can attract top AI talent and have access to significant compute resources will be well-positioned to capitalize on the AI revolution. The catalysts for this thesis include the executive exodus from xAI, the high valuation of SSI, and Apple's AI strategy crisis. The timeframe for this thesis is medium to long-term, as the next 12 months will determine which companies become industry leaders and which fall behind.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's missed AI wave and disarray in AI strategy create a structural risk for the company, making it a potential short opportunity.",
+        "positioning": "Consider a tactical short position on AAPL, as the company's delayed entry into the AI space may result in it falling behind competitors.",
+        "risk": "Key risks include Apple successfully pivoting its AI strategy and gaining ground on competitors, as well as potential positive catalysts from new product launches."
+      },
+      "NVDA": {
+        "rationale": "NVIDIA's leadership in GPUs and AI compute gives it a significant advantage in the AI space, making it a core holding for investors looking to capitalize on the AI revolution.",
+        "positioning": "Maintain a long-term strategic position in NVDA, as the company's dominance in AI compute is likely to continue driving growth.",
+        "risk": "Key risks include increased competition from other chipmakers and potential disruptions in the global semiconductor supply chain."
+      },
+      "GOOGL": {
+        "rationale": "Google's deep investments in AI research and its leadership in foundation models position it well to benefit from the AI revolution.",
+        "positioning": "Consider a long-term strategic position in GOOGL, as the company's AI capabilities are likely to drive growth across its various business segments.",
+        "risk": "Key risks include increased regulatory scrutiny and potential backlash against Google's dominance in the AI space."
+      },
+      "MSFT": {
+        "rationale": "Microsoft's investments in AI and its partnerships with top researchers position it as a key player in the AI space.",
+        "positioning": "Maintain a long-term strategic position in MSFT, as the company's AI capabilities are likely to drive growth across its cloud and enterprise segments.",
+        "risk": "Key risks include increased competition from other cloud providers and potential disruptions in the global technology supply chain."
+      },
+      "TSLA": {
+        "rationale": "Tesla's investments in AI for its autonomous driving technology position it as a potential beneficiary of the AI revolution.",
+        "positioning": "Consider a long-term strategic position in TSLA, as the company's AI capabilities are likely to drive growth in its autonomous driving technology.",
+        "risk": "Key risks include increased competition in the electric vehicle space and potential setbacks in the development of its autonomous driving technology."
+      }
+    },
+    "positioning_guidance": "Investors should position their portfolios to capitalize on the AI revolution by allocating a significant portion to companies with strong AI capabilities and access to compute resources. Consider a mix of long-term strategic positions in companies like NVIDIA, Google, Microsoft, and Tesla, as well as a tactical short position in Apple due to its missed AI wave. Entry points should be based on individual risk tolerance and investment horizon, with a focus on long-term growth potential. Investors may also consider hedging their positions with options or other derivatives to mitigate potential risks.",
+    "risk_factors": [
+      "Increased competition in the AI space could disrupt the current landscape and impact the valuations of companies like NVIDIA and Google.",
+      "Regulatory scrutiny could hinder the growth of AI companies and impact their ability to operate freely.",
+      "Potential disruptions in the global semiconductor supply chain could impact the performance of companies reliant on GPUs and other compute resources.",
+      "Setbacks in the development of autonomous driving technology could impact Tesla's growth prospects.",
+      "Unexpected positive catalysts from Apple's new product launches or AI strategy pivot could mitigate the risks associated with its missed AI wave."
+    ],
+    "contrarian_signals": [
+      "Apple may successfully pivot its AI strategy and gain ground on competitors, mitigating the risks associated with its missed AI wave.",
+      "Increased competition from other chipmakers could disrupt NVIDIA's dominance in AI compute, impacting its growth prospects.",
+      "Potential backlash against Google's dominance in the AI space could lead to increased regulatory scrutiny and hinder its growth."
+    ],
+    "catalysts": [
+      "Upcoming AI conferences and events, where new breakthroughs and partnerships may be announced, could move the thesis forward.",
+      "Earnings reports from companies like NVIDIA, Google, Microsoft, and Tesla, which may provide insights into their AI capabilities and growth prospects.",
+      "Regulatory developments in the AI space, which could impact the growth prospects of companies like Google and Microsoft.",
+      "New product launches from Apple, which may provide insights into its AI strategy and potential for catching up to competitors.",
+      "Advancements in autonomous driving technology from Tesla, which could drive growth and validate its position in the AI space."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-03-16T16:44:06.557370",
+    "updated_at": "2026-03-16 21:44:06",
+    "insight_title": "Moonshots Podcast Episode #232 - The Pace of AI and Major Industry Moves",
+    "source_name": "Moonshots with Peter Diamandis",
+    "source_date": "2026-02-19",
+    "key_tickers": [
+      "AAPL"
+    ]
+  },
+  "86": {
+    "id": 77,
+    "insight_id": 86,
+    "podcast_episode_id": 69,
+    "overview": "In the Moonshots Podcast Episode #231, the panel discusses the significant acquisition of OpenClaw by OpenAI, which positions OpenAI as a dominant player in the AI agent orchestration space. The discussion highlights a 400x cost collapse in AI inference, making large-scale deployment economically viable. Additionally, the panel emphasizes India's emerging role as a global AI powerhouse due to its demographic advantage, technical education, and lower costs. These factors are reshaping the global tech landscape, with profound investment implications, particularly for companies like Apple, which may be missing out on the agent revolution, and Indian tech infrastructure firms like Infosys and TCS, which are transitioning into AI platforms.",
+    "key_takeaways_detailed": [
+      "OpenAI's acquisition of OpenClaw solidifies its control over both the model and orchestration layers of AI, potentially creating a vertical monopoly in the AI agent space.",
+      "India's demographic advantage, combined with a strong technical education system and lower costs, positions the country as a leading contender in the global AI talent war.",
+      "The 400x cost collapse in AI inference enables new categories of applications and large-scale deployments that were previously unfeasible.",
+      "US immigration restrictions are inadvertently pushing AI talent to stay in India, accelerating the development of AI infrastructure there.",
+      "The app economy is becoming obsolete as agent-based interaction is set to replace traditional software, signaling a shift in technology paradigms."
+    ],
+    "investment_thesis": "The acquisition of OpenClaw by OpenAI and the 400x cost collapse in AI inference are catalysts for significant shifts in the tech industry. This thesis posits that investors should focus on companies that are well-positioned to capitalize on these changes, particularly those in the AI agent orchestration space and Indian tech infrastructure. The short to medium-term catalysts include the integration of OpenAI and OpenClaw, while the long-term potential lies in India's ability to leverage its demographic and educational advantages to become a global AI powerhouse. The timeframe for this thesis is short-term (<3mo) for immediate market reactions and medium to long-term (3-12mo to >1yr) for structural changes in the industry.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's potential misstep in the agent revolution makes it a short candidate, as the company seems to be lagging behind in the shift from app-based to agent-based interaction.",
+        "positioning": "Short-term tactical position, as the market may begin to price in Apple's potential obsolescence in the new AI-driven paradigm.",
+        "risk": "Key risks include Apple adapting quickly to the agent-based economy or finding innovative ways to integrate AI into its existing ecosystem."
+      },
+      "INFY": {
+        "rationale": "Infosys is transforming from a body shop to an AI platform, benefiting from the shift in tech infrastructure and the rise of India as an AI powerhouse.",
+        "positioning": "Medium to long-term strategic position, as Infosys is likely to see increased demand for its services in the evolving AI landscape.",
+        "risk": "The risk lies in Infosys' ability to compete effectively in the global AI market and to manage the transition from traditional IT services to AI platforms."
+      },
+      "TCS": {
+        "rationale": "TCS, like Infosys, is also transitioning to an AI platform, and stands to benefit from the same trends affecting the Indian tech industry.",
+        "positioning": "Medium to long-term strategic position, with a focus on the company's ability to leverage its existing client base and expertise in AI.",
+        "risk": "The risk is similar to Infosys, with additional considerations for TCS's global operations and how it navigates the competitive AI market."
+      },
+      "INDA": {
+        "rationale": "INDA is an ETF that provides broad exposure to Indian tech infrastructure companies, making it a play on the overall theme of India's rise in the AI space.",
+        "positioning": "Medium to long-term strategic position, as it offers diversification across multiple Indian tech companies poised for growth in the AI sector.",
+        "risk": "Risks include market-specific risks in India, such as regulatory changes or economic downturns, which could affect the entire tech sector."
+      },
+      "NVDA": {
+        "rationale": "NVIDIA is a key player in the AI hardware space, with its GPUs being essential for AI inference and training, benefiting from the 400x cost collapse and increased AI deployment.",
+        "positioning": "Long-term strategic position, as NVIDIA is likely to see sustained demand for its products as AI applications become more prevalent.",
+        "risk": "The risk includes competition from other chip manufacturers and potential disruptions in the global semiconductor supply chain."
+      }
+    },
+    "positioning_guidance": "Investors should consider a diversified approach, with a mix of short-term tactical positions in companies like AAPL and long-term strategic positions in Indian tech infrastructure firms and the NVDA. Entry points should be based on market reactions to the OpenAI/OpenClaw integration and the ongoing developments in the Indian AI sector. Timeframes for these positions range from short-term for immediate impacts to medium to long-term for structural changes. Investors may also consider hedging against potential risks, such as regulatory actions against monopolies or shifts in US immigration policy.",
+    "risk_factors": [
+      "Regulatory actions against OpenAI for creating a vertical monopoly in the AI agent space.",
+      "Unexpected shifts in US immigration policy that could alter the flow of AI talent.",
+      "Technological disruptions that could render current AI infrastructure obsolete.",
+      "Economic or political instability in India that could hinder its development as an AI powerhouse.",
+      "Competitive pressures that could erode the market share of companies like NVIDIA in the AI hardware space."
+    ],
+    "contrarian_signals": [
+      "The possibility that Apple may pivot quickly to embrace the agent-based economy, leveraging its vast resources and ecosystem.",
+      "The emergence of new global AI hubs that could challenge India's position, such as China or the European Union, if they make significant investments in AI education and infrastructure.",
+      "The potential for a slowdown in AI adoption due to ethical concerns, data privacy issues, or other societal pushbacks against AI technology."
+    ],
+    "catalysts": [
+      "The completion of the OpenAI/OpenClaw integration and the announcement of new products or services leveraging their combined technology.",
+      "Indian tech companies securing significant AI contracts or partnerships with global corporations, signaling their growing competitiveness.",
+      "US immigration policy changes that could either exacerbate or alleviate the talent flow to India.",
+      "Major AI conferences or events where new breakthroughs in AI efficiency and cost reduction are announced.",
+      "Quarterly earnings reports from companies like NVIDIA that could indicate the pace of AI adoption and the demand for AI hardware."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-03-16T16:44:27.397199",
+    "updated_at": "2026-03-16 21:44:27",
+    "insight_title": "Moonshots Podcast Episode #231 - OpenAI Acquires OpenClaw, 400x Cost Collapse, & Why India Wins the Talent War",
+    "source_name": "Moonshots with Peter Diamandis",
+    "source_date": "2026-02-18",
+    "key_tickers": [
+      "INDA"
+    ]
   }
 },
   suggestedTerms: [
@@ -6363,7 +6547,7 @@ const dashboardData = {
 ],
   podcastGuests: [
   {
-    "id": 168,
+    "id": 174,
     "name": "Investing in Capitalism",
     "slug": "investing-in-capitalism",
     "bio": null,
@@ -6375,7 +6559,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 169,
+    "id": 175,
     "name": "Harvard Professor Graham Allison",
     "slug": "harvard-professor-graham-allison",
     "bio": null,
@@ -6387,7 +6571,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 170,
+    "id": 176,
     "name": "Andrew Yang",
     "slug": "andrew-yang",
     "bio": "Andrew Yang is an entrepreneur and political leader who popularized universal basic income in U.S. politics through his 2020 presidential campaign.",
@@ -6399,7 +6583,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 171,
+    "id": 177,
     "name": "Ray Dalio",
     "slug": "ray-dalio",
     "bio": "Ray Dalio is the founder of Bridgewater Associates and a macro investor known for his 'Principles' framework and work on long-term debt cycles.",
@@ -6411,7 +6595,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 172,
+    "id": 178,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -6423,7 +6607,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 173,
+    "id": 179,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -6436,6 +6620,54 @@ const dashboardData = {
   }
 ],
   pundits: [
+  {
+    "id": 70,
+    "name": "Salim Ismail",
+    "slug": "salim-ismail",
+    "bio": "Salim Ismail is a well-known futurist and author, known for his work on exponential technologies.",
+    "known_for": "Futurist and author",
+    "last_seen": "2026-03-16 19:37:22",
+    "last_episode_title": "Moonshots Podcast Episode #231 - OpenAI Acquires OpenClaw, 400x Cost Collapse, & Why India Wins the Talent War",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-02-18",
+    "last_main_idea": "Invest in the vertical integration of AI, the rise of India as a global AI hub, and the shift towards agent-based interactions."
+  },
+  {
+    "id": 71,
+    "name": "Dave Blundin",
+    "slug": "dave-blundin",
+    "bio": null,
+    "known_for": null,
+    "last_seen": "2026-03-16 19:37:22",
+    "last_episode_title": "Moonshots Podcast Episode #231 - OpenAI Acquires OpenClaw, 400x Cost Collapse, & Why India Wins the Talent War",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-02-18",
+    "last_main_idea": "Invest in the vertical integration of AI, the rise of India as a global AI hub, and the shift towards agent-based interactions."
+  },
+  {
+    "id": 72,
+    "name": "Alexander Wissner-Gross",
+    "slug": "alexander-wissner-gross",
+    "bio": null,
+    "known_for": null,
+    "last_seen": "2026-03-16 19:37:22",
+    "last_episode_title": "Moonshots Podcast Episode #231 - OpenAI Acquires OpenClaw, 400x Cost Collapse, & Why India Wins the Talent War",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-02-18",
+    "last_main_idea": "Invest in the vertical integration of AI, the rise of India as a global AI hub, and the shift towards agent-based interactions."
+  },
+  {
+    "id": 69,
+    "name": "Ben Horowitz",
+    "slug": "ben-horowitz",
+    "bio": "Ben Horowitz is a co-founder of the venture capital firm Andreessen Horowitz (a16z).",
+    "known_for": "Co-founder of a16z",
+    "last_seen": "2026-03-16 19:37:22",
+    "last_episode_title": "Moonshots Podcast Episode #231 - OpenAI Acquires OpenClaw, 400x Cost Collapse, & Why India Wins the Talent War",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-02-18",
+    "last_main_idea": "Invest in the vertical integration of AI, the rise of India as a global AI hub, and the shift towards agent-based interactions."
+  },
   {
     "id": 43,
     "name": "Olivia Moore",
@@ -6610,18 +6842,6 @@ const dashboardData = {
     "slug": "paul-ackens",
     "bio": "SEC chair with a history in corporation finance work.",
     "known_for": "Shaping capital markets and regulatory oversight.",
-    "last_seen": "2026-03-12 19:38:22",
-    "last_episode_title": "Capital Markets Evolution and the Future of IPOs",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-03-11",
-    "last_main_idea": "The shift towards private markets and the potential for changing reporting cadence could redefine the landscape for early-stage investment opportunities and public market participation."
-  },
-  {
-    "id": 34,
-    "name": "Michael Cilig",
-    "slug": "michael-cilig",
-    "bio": "CFTC chair with expertise in commodities and financial markets.",
-    "known_for": "Regulatory oversight in commodities and financial markets.",
     "last_seen": "2026-03-12 19:38:22",
     "last_episode_title": "Capital Markets Evolution and the Future of IPOs",
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",

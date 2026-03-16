@@ -190,9 +190,35 @@ def extract_date_from_content(content: str) -> Optional[date]:
 
 
 def is_transcript_processed(transcript_path: Path) -> bool:
-    """Check if transcript has already been processed."""
+    """Check if transcript has already been processed.
+    
+    A transcript is considered processed ONLY if:
+    - A .processed marker exists AND
+    - The referenced podcast_episodes row still exists in the DB (episode_id > 0).
+    
+    This reconciles marker files with the database so we don't skip episodes
+    that never actually made it into podcast_episodes.
+    """
     marker_file = PROCESSED_MARKER_DIR / f"{transcript_path.stem}.processed"
-    return marker_file.exists()
+    if not marker_file.exists():
+        return False
+
+    try:
+        with open(marker_file, "r") as f:
+            meta = json.load(f)
+        episode_id = meta.get("episode_id") or 0
+        if not episode_id or episode_id <= 0:
+            return False
+        import sqlite3 as _sqlite3
+        db_path = Path.home() / ".openclaw/workspace/pipeline/dashboard.db"
+        conn = _sqlite3.connect(str(db_path))
+        cur = conn.execute("SELECT 1 FROM podcast_episodes WHERE id = ?", (episode_id,))
+        exists = cur.fetchone() is not None
+        conn.close()
+        return exists
+    except Exception:
+        # On any issue validating the marker/DB, treat as unprocessed so we retry.
+        return False
 
 
 def mark_transcript_processed(transcript_path: Path, episode_id: int):
@@ -628,6 +654,24 @@ def process_all_transcripts() -> Dict[str, any]:
     skipped = 0
     errors = 0
     
+    # Load existing analysis failures (if any)
+    failures_path = Path.home() / ".openclaw/workspace/pipeline/state/analysis_failures.json"
+    try:
+        if failures_path.exists():
+            with open(failures_path, "r") as f:
+                analysis_failures = json.load(f)
+        else:
+            analysis_failures = {}
+    except Exception:
+        analysis_failures = {}
+    
+    def record_failure(stem: str, code: str, detail: str):
+        analysis_failures[stem] = {
+            "last_failed_at": datetime.now().isoformat(),
+            "reason_code": code,
+            "reason_detail": detail,
+        }
+    
     for transcript_path in transcript_files:
         if is_transcript_processed(transcript_path):
             skipped += 1
@@ -638,9 +682,22 @@ def process_all_transcripts() -> Dict[str, any]:
             if episode_id:
                 processed += 1
         except Exception as e:
-            print(f"  ✗ Error processing {transcript_path.name}: {e}")
+            msg = f"{type(e).__name__}: {e}"
+            print(f"  ✗ Error processing {transcript_path.name}: {msg}")
             errors += 1
+            stem = transcript_path.stem
+            # Rough classification for now
+            code = "analysis_error"
+            record_failure(stem, code, msg[:300])
     
+    # Persist failures, if any
+    try:
+        failures_path.parent.mkdir(parents=True, exist_ok=True)
+        with open(failures_path, "w") as f:
+            json.dump(analysis_failures, f, indent=2)
+    except Exception as e:
+        print(f"  ⚠ Could not write analysis_failures.json: {e}")
+
     print(f"\n✓ Transcript processing complete: {processed} new, {skipped} skipped, {errors} errors")
     return {
         'processed': processed,

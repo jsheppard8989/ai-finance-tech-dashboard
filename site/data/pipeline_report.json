@@ -1,0 +1,21 @@
+{
+  "last_run_iso": "2026-03-16T11:48:38.984450",
+  "step_results": {
+    "transcripts_analyzed": 0,
+    "newsletters_imported": 0,
+    "insights_promoted": 0,
+    "scores": 2
+  },
+  "counts": {
+    "ticker_mentions": 134,
+    "podcast_episodes": 43,
+    "newsletters": 7,
+    "daily_scores": 72,
+    "overton_terms_total": 16,
+    "latest_insights_total": 59,
+    "today_mentions": {
+      "podcast": 2
+    }
+  },
+  "errors": []
+}

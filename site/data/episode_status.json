@@ -1,64 +1,7 @@
 {
-  "last_updated": "2026-03-16T07:37:12.773781",
+  "last_updated": "2026-03-16T15:34:08.650443",
   "last_3_completed": [],
   "episodes": [
-    {
-      "id": "the_a16z_show_ai_startups_vs._big_chatbots_\u2014",
-      "podcast": "The a16z Show",
-      "title": "AI Startups vs. Big Chatbots \u2014 With Olivia Moore",
-      "published": "Mon, 16 Mar 2026 10:00:00 +0000",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": false,
-        "insight_created": false,
-        "published": false
-      },
-      "stage_reasons": {
-        "analyzed": "Waiting for next analyze run (transcript \u2192 DB).",
-        "insight_created": "Depends on analyze step first.",
-        "published": "Not in data.js yet (run export and push to site)."
-      },
-      "status": "needs_analysis"
-    },
-    {
-      "id": "monetary_matters_with_jack_farley_\u201cdeflationary_bust\u201d_a_risk_fro",
-      "podcast": "Monetary Matters with Jack Farley",
-      "title": "\u201cDeflationary Bust\u201d A Risk From AI | Alex Gurevich\u2019s Bull Case on Rates, \u201cPerfect Trade\u201d Potential in Japan, and The Risk of Artificial Intelligence Poses to Labor Market",
-      "published": "Sun, 15 Mar 2026 15:12:00 -0000",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": false,
-        "insight_created": false,
-        "published": false
-      },
-      "stage_reasons": {
-        "analyzed": "Waiting for next analyze run (transcript \u2192 DB).",
-        "insight_created": "Depends on analyze step first.",
-        "published": "Not in data.js yet (run export and push to site)."
-      },
-      "status": "needs_analysis"
-    },
-    {
-      "id": "the_a16z_show_marc_andreessen_on_the_mindset",
-      "podcast": "The a16z Show",
-      "title": "Marc Andreessen on the Mindset of Great Founders \u2014 with David Senra",
-      "published": "Sun, 15 Mar 2026 17:10:12 +0000",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": false,
-        "insight_created": false,
-        "published": false
-      },
-      "stage_reasons": {
-        "analyzed": "Waiting for next analyze run (transcript \u2192 DB).",
-        "insight_created": "Depends on analyze step first.",
-        "published": "Not in data.js yet (run export and push to site)."
-      },
-      "status": "needs_analysis"
-    },
     {
       "id": "dwarkesh_podcast_why_leonardo_was_a_saboteur,_g",
       "podcast": "Dwarkesh Podcast",

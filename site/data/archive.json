@@ -872,6 +872,25 @@
       "podcast_episode_id": 23
     },
     {
+      "id": 85,
+      "title": "Moonshots Podcast Episode #232 - The Pace of AI and Major Industry Moves",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-02-19",
+      "summary": "In this episode of Moonshots, Peter Diamandis is joined by Ben Horowitz from a16z to discuss the rapid pace of AI development and significant shifts within the industry. They cover topics such as the executive exodus from xAI, the high valuation of Ilya Sutskever's Safe Superintelligence (SSI), the talent war in AI, and Apple's AI strategy challenges. The conversation highlights the importance of AI talent, the impact of compute capabilities, and the potential for AI to transform industries.",
+      "key_takeaway": "Invest in companies leading the AI talent and compute race, as they are poised to capitalize on the transformative potential of AI.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 0,
+      "display_order": 0,
+      "added_date": "2026-03-16",
+      "archived_date": "2026-03-16",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
+      "podcast_episode_id": 68
+    },
+    {
       "id": 17,
       "title": "Moonshots #231: 400x AI Cost Collapse & India's Talent Decade",
       "source_type": "podcast",
@@ -893,6 +912,25 @@
       "archived_date": "2026-02-23",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 22
+    },
+    {
+      "id": 86,
+      "title": "Moonshots Podcast Episode #231 - OpenAI Acquires OpenClaw, 400x Cost Collapse, & Why India Wins the Talent War",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-02-18",
+      "summary": "In this episode of Moonshots, Peter Diamandis and his guests discuss the monumental acquisition of OpenClaw by OpenAI, which signifies a vertical monopoly in the AI agent layer. They analyze the implications of a 400x cost collapse in AI inference, enabling new applications. The panel also highlights India's emerging dominance in AI due to its demographic advantage, lower costs, and high-quality technical education. The conversation covers the impact of US immigration policy on global talent distribution and the obsolescence of the app economy in favor of agent-based interactions.",
+      "key_takeaway": "Invest in the vertical integration of AI, the rise of India as a global AI hub, and the shift towards agent-based interactions.",
+      "tickers_mentioned": [
+        "INDA"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 0,
+      "display_order": 0,
+      "added_date": "2026-03-16",
+      "archived_date": "2026-03-16",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
+      "podcast_episode_id": 69
     },
     {
       "id": 1,
