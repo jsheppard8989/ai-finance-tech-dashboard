@@ -115,11 +115,6 @@ class PodcastPipelineTracker:
         # Stage 1: Downloaded?
         audio_file = episode_info.get('audio_file', '')
         downloaded_ok = Path(audio_file).exists() if audio_file else False
-        status['stages']['downloaded'] = {
-            'complete': downloaded_ok,
-            'timestamp': status['stages'].get('downloaded', {}).get('timestamp'),
-            'reason': None if downloaded_ok else ('Audio file missing or not found' if not audio_file else 'Audio file path does not exist; re-run fetch.')
-        }
         
         # Stage 2: Transcribed?
         # Look for matching transcript file
@@ -129,12 +124,22 @@ class PodcastPipelineTracker:
         # Try to match by filename patterns
         audio_filename = Path(audio_file).stem if audio_file else ''
         for transcript in TRANSCRIPT_DIR.glob('*.txt'):
-            # Check if transcript matches audio file
+            # Check if transcript matches audio file or normalized title
             if audio_filename in transcript.name or \
                self._normalize_name(episode_info['title']) in self._normalize_name(transcript.name):
                 transcript_found = True
                 transcript_file = str(transcript)
                 break
+        
+        # Logical consistency: if we have a transcript, we must have had audio at some point.
+        if transcript_found and not downloaded_ok:
+            downloaded_ok = True
+        
+        status['stages']['downloaded'] = {
+            'complete': downloaded_ok,
+            'timestamp': status['stages'].get('downloaded', {}).get('timestamp'),
+            'reason': None if downloaded_ok else ('Audio file missing or not found' if not audio_file else 'Audio file path does not exist; re-run fetch.')
+        }
         
         status['stages']['transcribed'] = {
             'complete': transcript_found,

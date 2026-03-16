@@ -3,7 +3,7 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-03-16T05:06:24.027324",
+  generatedAt: "2026-03-16T06:15:01.313373",
   chartsVersion: "2026-03-13T13:28:57.055826",
   tickerScores: [
   {
@@ -6384,18 +6384,6 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-13",
     "last_main_idea": "Invest in technologies and platforms that democratize capitalism and leverage AI to create scalable solutions in coding and product development."
-  },
-  {
-    "id": 62,
-    "name": "Dylan",
-    "slug": "dylan",
-    "bio": "CEO of Semi Analysis",
-    "known_for": "Expertise in semiconductor market analysis",
-    "last_seen": "2026-03-14 03:04:09",
-    "last_episode_title": "Semiconductors and the Future of Compute",
-    "last_podcast_name": "Dwarkesh Podcast",
-    "last_episode_date": "2026-03-13",
-    "last_main_idea": "Investment in semiconductors and AI is set to drive significant economic growth and reshape global supply chains, with potential for disruption in the event of geopolitical tensions."
   },
   {
     "id": 60,

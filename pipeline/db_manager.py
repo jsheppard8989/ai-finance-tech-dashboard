@@ -455,6 +455,10 @@ class DashboardDB:
 
             pundits = []
             for row in rows:
+                # Filter out known non-pundit co-hosts (e.g. Dwarkesh co-host "Dylan")
+                name = (row.get('name') or '').strip()
+                if name == 'Dylan':
+                    continue
                 p = {
                     'id': row['id'],
                     'name': row['name'],
