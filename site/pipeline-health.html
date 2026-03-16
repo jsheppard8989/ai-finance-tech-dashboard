@@ -121,7 +121,6 @@
         <table id="episodes-table">
           <thead>
             <tr>
-              <th>Status</th>
               <th>Podcast</th>
               <th>Title</th>
               <th>Published</th>
@@ -284,15 +283,6 @@
         criteriaTbody.innerHTML = '<tr><td colspan="2" class="muted">Re-run export to load criteria from pipeline.</td></tr>';
       }
 
-      function getEpisodeStatus(st) {
-        if (!st.downloaded) return 'Needs download';
-        if (!st.transcribed) return 'Needs transcription';
-        if (!st.analyzed) return 'Needs analysis';
-        if (!st.insight_created) return 'Needs insight';
-        if (!st.published) return 'Needs export';
-        return 'Complete';
-      }
-
       function getAgeDays(ep) {
         const raw = ep.published_date || (ep.published || '').slice(0, 25);
         if (!raw) return null;
@@ -322,10 +312,8 @@
       function renderStageRow(ep) {
         const st = ep.stages || {};
         const reasons = ep.stage_reasons || {};
-        const statusLabel = ep.status || getEpisodeStatus(st);
         const ageDays = getAgeDays(ep);
         const cells = [
-          statusLabel,
           (ep.podcast || '').substring(0, 28) + (ep.podcast && ep.podcast.length > 28 ? '…' : ''),
           (ep.title || '').substring(0, 45) + (ep.title && ep.title.length > 45 ? '…' : ''),
           (ep.published || '').substring(0, 22),
@@ -393,7 +381,7 @@
       } else if (episodes.length === 0 && availableRss.length === 0) {
         healthEl.textContent = '✅ Pipeline is clear: no episodes in window from your feeds.';
       } else {
-        healthEl.textContent = '⬜ Pipeline has work remaining: use the Status column above and the legend to decide the next step for Clawbot.';
+        healthEl.textContent = '⬜ Pipeline has work remaining: use the stage checkmarks above and the legend to decide the next step for Clawbot.';
       }
 
       const counts = report?.counts || { ...(status?.counts || {}), ...(status?.last_steps || {}) };

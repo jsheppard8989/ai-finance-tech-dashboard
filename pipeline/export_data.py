@@ -158,13 +158,25 @@ def _export_episode_status(site_dir: Path):
     completed = [e for e in episodes_out if all((e.get("stages") or {}).get(k) for k in stage_keys)]
     last_3_completed = completed[:3]
 
-    # In-pipeline = all tracked episodes (we show last 3 at top in UI, then rest)
+    # In-pipeline = all tracked episodes
     in_pipeline = episodes_out
 
-    # Available from RSS but not yet in DB (same age/cutoff as curation; no keyword filter)
+    # Available from RSS but not yet in DB (same age/cutoff as curation; no keyword filter).
+    # Deduplicate against in-pipeline episodes so a given episode never appears in both lists.
+    def _norm(s: str) -> str:
+        return (s or "").strip().lower()
+
+    in_pipeline_keys = {
+        (_norm(e.get("podcast", "")), _norm(e.get("title", "")))
+        for e in in_pipeline
+    }
     try:
         from curate import get_feed_episodes_not_in_db
-        available_from_rss = get_feed_episodes_not_in_db()
+        raw_available = get_feed_episodes_not_in_db()
+        available_from_rss = [
+            ep for ep in raw_available
+            if (_norm(ep.get("podcast", "")), _norm(ep.get("title", ""))) not in in_pipeline_keys
+        ]
     except Exception as ex:
         available_from_rss = []
         print(f"  ⚠ Could not fetch RSS episodes not in DB: {ex}")

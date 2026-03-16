@@ -1,19 +1,8 @@
 {
-  "timestamp": "2026-03-16T08:07:56.799509",
-  "total_feed_episodes": 3,
-  "approved_for_transcription": 3,
+  "timestamp": "2026-03-16T11:47:50.206871",
+  "total_feed_episodes": 2,
+  "approved_for_transcription": 2,
   "episodes": [
-    {
-      "podcast": "The a16z Show",
-      "title": "AI Startups vs. Big Chatbots \u2014 With Olivia Moore",
-      "description": "<p>In this episode, originally aired on Big Technology Podcast, Olivia Moore discusses whether AI startups can compete with the big chatbots, why American sentiment toward AI is so negative, and what she learned from giving LLMs personality tests. She also breaks down where ChatGPT, Claude, and Gemini are diverging, why Open Claw signals a new wave of agentic products, and what makes memory the most underrated feature in consumer AI.</p>\n<p>\u00a0</p>\n<p>Resources:</p>\n<p>Follow Olivia Moore on X:\u00a0 <",
-      "audio_url": "https://mgln.ai/e/1344/afp-848985-injected.calisto.simplecastaudio.com/3f86df7b-51c6-4101-88a2-550dba782de8/episodes/3e22bf60-cfa4-4419-8077-6d7837a648f7/audio/128/default.mp3?aid=rss_feed&awCollectionId=3f86df7b-51c6-4101-88a2-550dba782de8&awEpisodeId=3e22bf60-cfa4-4419-8077-6d7837a648f7&feed=JGE3yC0V",
-      "published": "Mon, 16 Mar 2026 10:00:00 +0000",
-      "published_date": "2026-03-16",
-      "rss_guid": "29966786-4785-47fc-8117-d99b7841077a",
-      "status": "APPROVED",
-      "matched_keywords": []
-    },
     {
       "podcast": "The a16z Show",
       "title": "Chris Dixon: From Quant Trading to Building a16z Crypto",
