@@ -3,7 +3,7 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-03-15T22:03:46.021612",
+  generatedAt: "2026-03-16T05:06:24.027324",
   chartsVersion: "2026-03-13T13:28:57.055826",
   tickerScores: [
   {
@@ -172,13 +172,28 @@ const dashboardData = {
     "contexts": []
   },
   {
+    "ticker": "GOLD",
+    "total_score": 128.0,
+    "raw_mention_count": 2,
+    "unique_sources": 1,
+    "podcast_mentions": 2,
+    "newsletter_mentions": 0,
+    "rank": 12,
+    "score": 128.0,
+    "mentions": 2,
+    "conviction_level": "medium",
+    "contrarian_signal": "neutral",
+    "timeframe": "long_term",
+    "contexts": []
+  },
+  {
     "ticker": "SPY",
     "total_score": 112.0,
     "raw_mention_count": 2,
     "unique_sources": 1,
     "podcast_mentions": 2,
     "newsletter_mentions": 0,
-    "rank": 12,
+    "rank": 13,
     "score": 112.0,
     "mentions": 2,
     "conviction_level": "medium",
@@ -193,7 +208,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 2,
     "newsletter_mentions": 0,
-    "rank": 13,
+    "rank": 14,
     "score": 84.0,
     "mentions": 2,
     "conviction_level": "medium",
@@ -208,7 +223,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 0,
     "newsletter_mentions": 12,
-    "rank": 14,
+    "rank": 15,
     "score": 75.0,
     "mentions": 12,
     "conviction_level": "medium",
@@ -223,7 +238,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 15,
+    "rank": 16,
     "score": 74.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -238,7 +253,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 16,
+    "rank": 17,
     "score": 74.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -253,7 +268,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 17,
+    "rank": 18,
     "score": 72.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -268,7 +283,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 18,
+    "rank": 19,
     "score": 72.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -283,7 +298,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 19,
+    "rank": 20,
     "score": 72.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -298,7 +313,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 20,
+    "rank": 21,
     "score": 72.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -313,7 +328,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 21,
+    "rank": 22,
     "score": 70.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -328,7 +343,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 22,
+    "rank": 23,
     "score": 70.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -343,7 +358,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 23,
+    "rank": 24,
     "score": 70.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -358,7 +373,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 24,
+    "rank": 25,
     "score": 68.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -373,7 +388,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 25,
+    "rank": 26,
     "score": 68.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -388,7 +403,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 26,
+    "rank": 27,
     "score": 66.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -403,7 +418,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 27,
+    "rank": 28,
     "score": 66.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -413,21 +428,6 @@ const dashboardData = {
   },
   {
     "ticker": "CRSP",
-    "total_score": 64.0,
-    "raw_mention_count": 1,
-    "unique_sources": 1,
-    "podcast_mentions": 1,
-    "newsletter_mentions": 0,
-    "rank": 28,
-    "score": 64.0,
-    "mentions": 1,
-    "conviction_level": "medium",
-    "contrarian_signal": "neutral",
-    "timeframe": "long_term",
-    "contexts": []
-  },
-  {
-    "ticker": "GOLD",
     "total_score": 64.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -502,7 +502,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "TLT",
+    "ticker": "T",
     "total_score": 60.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -517,13 +517,28 @@ const dashboardData = {
     "contexts": []
   },
   {
+    "ticker": "TLT",
+    "total_score": 60.0,
+    "raw_mention_count": 1,
+    "unique_sources": 1,
+    "podcast_mentions": 1,
+    "newsletter_mentions": 0,
+    "rank": 35,
+    "score": 60.0,
+    "mentions": 1,
+    "conviction_level": "medium",
+    "contrarian_signal": "neutral",
+    "timeframe": "long_term",
+    "contexts": []
+  },
+  {
     "ticker": "QQQ",
     "total_score": 48.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 35,
+    "rank": 36,
     "score": 48.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -538,7 +553,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 36,
+    "rank": 37,
     "score": 40.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -553,7 +568,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 37,
+    "rank": 38,
     "score": 32.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -568,7 +583,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 38,
+    "rank": 39,
     "score": 24.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -583,7 +598,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 39,
+    "rank": 40,
     "score": 20.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -598,7 +613,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 40,
+    "rank": 41,
     "score": 20.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -613,7 +628,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 41,
+    "rank": 42,
     "score": 16.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -624,6 +639,47 @@ const dashboardData = {
 ],
   archive: {
   "insights": [
+    {
+      "id": 82,
+      "title": "The Intersection of Technology, Entrepreneurship, and the Future",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-03-15",
+      "summary": "In this episode of 'The a16z Show', the guest discusses the powerful role of technology in driving the world forward and the importance of entrepreneurship in creating new opportunities. The conversation delves into patterns observed among successful founders, the focus on building rather than introspection, and the impact of technology and entrepreneurship on the future. The guest also shares insights on the importance of recruiting in the early stages of a company and the challenges faced by ambitious builders. The discussion touches on the historical context of technology-driven businesses, such as Nintendo and Starlink, and their influence on shaping the future.",
+      "key_takeaway": "Invest in technology-driven businesses with a strong founder's mindset that focus on building and scaling rather than introspection, as they are more likely to shape the future and create significant value.",
+      "tickers_mentioned": [
+        "NINT",
+        "T"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-16",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 66
+    },
+    {
+      "id": 83,
+      "title": "Monetary Matters with Jack Farley: Precious Metals, Bonds, and Economic Cycles",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-03-15",
+      "summary": "In this episode of Monetary Matters, host Jack Farley interviews Alex Gorovich, founder and CIO at Hauntay Asset Management and author of 'The Next Perfect Trade: The Magic Sword of Necessity'. They discuss Gorovich's views on palladium and platinum, precious metals, and their cycles. Gorovich shares his insights on the volatility of precious metals, the difficulty in pinpointing their value, and their correlation with real rates and economic performance. Additionally, they touch upon the potential for inflation due to government stimulus and the impact of AI on productivity and deficits. Gorovich also reflects on his past predictions and their outcomes, providing a retrospective on his investment strategies.",
+      "key_takeaway": "Invest in platinum as a hybrid precious and industrial metal with potential for growth outside of traditional economic cycles, and consider the impact of AI on productivity and government deficits on interest rates.",
+      "tickers_mentioned": [
+        "PLTM",
+        "PALL",
+        "GOLD"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-16",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 65
+    },
     {
       "id": 78,
       "title": "Semiconductors and the Future of Compute",
@@ -820,11 +876,11 @@ const dashboardData = {
         "SPY"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-12",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-16",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 56
     },
     {
@@ -842,11 +898,11 @@ const dashboardData = {
         "PLTR"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-13",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-16",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 60
     },
     {
@@ -2031,6 +2087,53 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 82,
+      "title": "The Intersection of Technology, Entrepreneurship, and the Future",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-03-15",
+      "summary": "In this episode of 'The a16z Show', the guest discusses the powerful role of technology in driving the world forward and the importance of entrepreneurship in creating new opportunities. The conversation delves into patterns observed among successful founders, the focus on building rather than introspection, and the impact of technology and entrepreneurship on the future. The guest also shares insights on the importance of recruiting in the early stages of a company and the challenges faced by ambitious builders. The discussion touches on the historical context of technology-driven businesses, such as Nintendo and Starlink, and their influence on shaping the future.",
+      "key_takeaway": "Invest in technology-driven businesses with a strong founder's mindset that focus on building and scaling rather than introspection, as they are more likely to shape the future and create significant value.",
+      "tickers_mentioned": "[\"NINT\", \"T\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-16",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 66,
+      "episode_release_date": "2026-03-15",
+      "guest_name": null,
+      "key_tickers": [
+        "NINT",
+        "T"
+      ]
+    },
+    {
+      "id": 83,
+      "title": "Monetary Matters with Jack Farley: Precious Metals, Bonds, and Economic Cycles",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-03-15",
+      "summary": "In this episode of Monetary Matters, host Jack Farley interviews Alex Gorovich, founder and CIO at Hauntay Asset Management and author of 'The Next Perfect Trade: The Magic Sword of Necessity'. They discuss Gorovich's views on palladium and platinum, precious metals, and their cycles. Gorovich shares his insights on the volatility of precious metals, the difficulty in pinpointing their value, and their correlation with real rates and economic performance. Additionally, they touch upon the potential for inflation due to government stimulus and the impact of AI on productivity and deficits. Gorovich also reflects on his past predictions and their outcomes, providing a retrospective on his investment strategies.",
+      "key_takeaway": "Invest in platinum as a hybrid precious and industrial metal with potential for growth outside of traditional economic cycles, and consider the impact of AI on productivity and government deficits on interest rates.",
+      "tickers_mentioned": "[\"PLTM\", \"PALL\", \"GOLD\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-16",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 65,
+      "episode_release_date": "2026-03-15",
+      "guest_name": null,
+      "key_tickers": [
+        "PLTM",
+        "PALL",
+        "GOLD"
+      ]
+    },
+    {
       "id": 78,
       "title": "Semiconductors and the Future of Compute",
       "source_type": "podcast",
@@ -2163,51 +2266,6 @@ const dashboardData = {
       "episode_release_date": "2026-03-12",
       "guest_name": null,
       "key_tickers": [
-        "PLTR"
-      ]
-    },
-    {
-      "id": 74,
-      "title": "Monetary Matters: Economic Consequences of War and AI's Impact",
-      "source_type": "podcast",
-      "source_name": "Monetary Matters with Jack Farley",
-      "source_date": "2026-03-11",
-      "summary": "In this episode of Monetary Matters, host Jack Farley interviews Nobel Laureate Economist Professor Joseph Stiglitz on the economic consequences of the U.S. and Iran conflict, the potential for stagflation, and the impact of AI on the economy and job market. Professor Stiglitz discusses the erratic actions of the Trump administration and their impact on global economic stability, the rise in oil prices, potential food price inflation, and the risks associated with AI and labor displacement.",
-      "key_takeaway": "The current geopolitical tensions and the rise of AI technology present both risks and opportunities, with the potential for economic disruption and the need for strategic investment in sectors less affected by AI.",
-      "tickers_mentioned": "[\"AAPL\", \"NVDA\", \"XOM\", \"TSLA\", \"SPY\"]",
-      "sentiment": "bearish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-03-12",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 56,
-      "episode_release_date": "2026-03-11",
-      "guest_name": null,
-      "key_tickers": []
-    },
-    {
-      "id": 77,
-      "title": "AI and the Future of Warfare: The Department of War vs. Anthropic",
-      "source_type": "podcast",
-      "source_name": "Dwarkesh Podcast",
-      "source_date": "2026-03-11",
-      "summary": "The podcast discusses the Department of War's declaration of anthropic AI supply chain risk due to anthropic's refusal to remove red lines around the use of their models for mass surveillance and autonomous weapons. The host argues that AI will play a significant role in the military, civilian government, and private sector within 20 years, raising important questions about the control and ethics of AI use. The episode also touches on the potential risks of AI in warfare and surveillance, and the need for regulation and norms to prevent misuse.",
-      "key_takeaway": "Investment in AI technology is critical for companies operating in the military and surveillance sectors, but requires careful consideration of AI ethics and oversight.",
-      "tickers_mentioned": "[\"AMZN\", \"NVDA\", \"GOOGL\", \"PLTR\"]",
-      "sentiment": "bearish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-03-13",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 60,
-      "episode_release_date": "2026-03-11",
-      "guest_name": null,
-      "key_tickers": [
-        "AMZN",
-        "NVDA",
-        "GOOGL",
         "PLTR"
       ]
     }
@@ -6018,6 +6076,152 @@ const dashboardData = {
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "source_date": "2026-03-13",
     "key_tickers": []
+  },
+  "82": {
+    "id": 73,
+    "insight_id": 82,
+    "podcast_episode_id": 66,
+    "overview": "The investment thesis centers on the transformative power of technology and entrepreneurship in shaping the future. As highlighted in the podcast, the world is in dire need of more technology and intelligence, creating a unique opportunity for those willing to push boundaries. This analysis underscores the importance of backing founders with innovative ideas and the potential to disrupt traditional industries. Given the current global landscape, the focus on technology and entrepreneurship is more relevant than ever, as it can drive economic growth and solve pressing societal issues. The urgency is underscored by the potential for significant returns in the 21st century, favoring those who can effectively harness these forces.",
+    "key_takeaways_detailed": [
+      "Invest in companies with visionary founders who prioritize building over introspection, as they are more likely to create lasting value.",
+      "Consider the historical context of individualism and its impact on entrepreneurship; look for companies that embody this spirit of innovation and action.",
+      "Be aware of the potential impact of cultural shifts, such as the use of psychedelics among entrepreneurs, on company culture and performance.",
+      "Focus on technology companies that are at the forefront of innovation and have the potential to disrupt traditional industries.",
+      "Monitor the development of new technologies and their applications, as they can be a catalyst for significant investment opportunities."
+    ],
+    "investment_thesis": "The core investment logic is to capitalize on the current technological revolution by investing in companies that are driving innovation and have ambitious, forward-thinking founders. Catalysts for this thesis include advancements in artificial intelligence, machine learning, and the continued growth of the digital economy. The timeframe for this investment is medium to long-term, as significant technological advancements and their impacts on society typically require time to materialize and be fully realized.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple Inc. (AAPL) is a technology giant with a history of innovation and a strong ecosystem of products and services. Its continued investment in R&D positions it well to capitalize on future technological advancements.",
+        "positioning": "Long-term strategic position, as Apple's robust product pipeline and services segment offer potential for sustained growth.",
+        "risk": "Key risks include increased competition, regulatory challenges, and potential disruptions in the global supply chain."
+      },
+      "NVDA": {
+        "rationale": "NVIDIA Corporation (NVDA) is a leader in the graphics processing unit (GPU) market, with significant exposure to the growth of AI and machine learning applications.",
+        "positioning": "Medium-term tactical position, as the company's technology is integral to the development of new AI-driven products and services.",
+        "risk": "The risk includes reliance on the tech cycle, competition from other chip manufacturers, and potential slowdowns in the AI adoption rate."
+      },
+      "TSLA": {
+        "rationale": "Tesla Inc. (TSLA) is at the forefront of electric vehicle technology and energy solutions, with a visionary founder leading the charge.",
+        "positioning": "Long-term strategic position, as the company's innovative approach and expanding product line have the potential to disrupt the automotive and energy industries.",
+        "risk": "Key risks include production bottlenecks, regulatory hurdles, and increased competition in the electric vehicle market."
+      },
+      "GOOGL": {
+        "rationale": "Alphabet Inc. (GOOGL), the parent company of Google, is a dominant player in the technology sector with a diverse portfolio of innovative projects.",
+        "positioning": "Medium to long-term strategic position, as Alphabet's ventures in AI, cloud computing, and other emerging technologies offer significant growth potential.",
+        "risk": "Risks include antitrust litigation, data privacy concerns, and the potential for market saturation in its core advertising business."
+      },
+      "MSFT": {
+        "rationale": "Microsoft Corporation (MSFT) is a technology stalwart with a strong presence in cloud services, software, and hardware.",
+        "positioning": "Long-term strategic position, as Microsoft's diversified offerings and commitment to innovation provide a stable growth trajectory.",
+        "risk": "Key risks include reliance on the\u6301\u7eed\u6027 of cloud adoption, competition in the software market, and potential disruptions due to global economic shifts."
+      }
+    },
+    "positioning_guidance": "Investors should consider a diversified approach, allocating a portion of their portfolio to each of these technology leaders. Entry points should be strategic, taking advantage of market dips to accumulate positions. Given the medium to long-term nature of the thesis, investors should be prepared to hold these positions for at least 3-12 months, with a view to potentially longer-term gains. Consider hedging against sector-specific risks, such as regulatory changes or supply chain disruptions.",
+    "risk_factors": [
+      "Regulatory challenges that could impede the growth of technology companies.",
+      "Technological disruptions that render current business models obsolete.",
+      "Economic downturns that affect consumer spending on technology products and services.",
+      "Cybersecurity threats that could compromise company operations and customer trust.",
+      "Geopolitical tensions that impact global supply chains and international trade."
+    ],
+    "contrarian_signals": [
+      "The potential overvaluation of technology stocks due to the hype surrounding innovation.",
+      "The possibility that not all technological advancements will translate into profitable business models.",
+      "The risk of market saturation in certain tech sectors, leading to reduced growth prospects.",
+      "The potential for increased competition to erode market share and profitability for established players."
+    ],
+    "catalysts": [
+      "Upcoming product launches and technology breakthroughs from the companies mentioned.",
+      "Earnings reports that demonstrate strong growth and profitability in the technology sector.",
+      "Regulatory decisions that either support or hinder the growth of technology companies.",
+      "Global economic indicators that signal a recovery or downturn, impacting technology spending.",
+      "Advancements in AI and machine learning that create new opportunities for technology companies."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-03-16T05:05:26.830393",
+    "updated_at": "2026-03-16 10:05:26",
+    "insight_title": "The Intersection of Technology, Entrepreneurship, and the Future",
+    "source_name": "The a16z Show",
+    "source_date": "2026-03-15",
+    "key_tickers": [
+      "NINT",
+      "T"
+    ]
+  },
+  "83": {
+    "id": 74,
+    "insight_id": 83,
+    "podcast_episode_id": 65,
+    "overview": "In this deep dive, we explore the investment thesis surrounding precious metals, particularly focusing on platinum and copper, as discussed by Alex Gorovich, founder of Hauntay Asset Management. The analysis underscores the importance of understanding the multi-decade cycles of these metals, their correlation with economic and industrial cycles, and the potential for significant value in platinum and copper investments. Given the current market dynamics and the historical patterns of these metals, the investment thesis is particularly relevant now, as we may be at the beginning of a new bull market for platinum and a continued demand for copper due to its industrial applications and the rise of electric vehicles.",
+    "key_takeaways_detailed": [
+      "Platinum is currently favored over gold and silver due to its historical patterns and potential for a bull market cycle.",
+      "Precious metals, including platinum and palladium, follow long cycles that are not necessarily concurrent with business cycles.",
+      "Copper is expected to experience a shortage due to increased demand from electric vehicles and industrial applications.",
+      "Investors should consider the correlation between precious metals and their industrial demand, especially for metals like platinum and palladium.",
+      "The platinum to gold price ratio suggests a potential shift in investment from gold to platinum, given historical price relationships.",
+      "Copper mining stocks may offer an opportunity for investors looking to capitalize on the expected demand for copper in the coming years."
+    ],
+    "investment_thesis": "The core investment logic revolves around the historical cycles of precious metals, particularly platinum and copper, and their current positioning within these cycles. With platinum showing signs of entering a bull market and copper expected to face a shortage due to increased demand, the thesis suggests a strategic allocation to these metals. Catalysts for this thesis include the adoption of electric vehicles, which will drive demand for copper, and the historical price ratios between platinum and gold, which indicate an undervaluation of platinum. The timeframe for this thesis is medium to long-term, as these cycles can span several years.",
+    "ticker_analysis": {
+      "PLTM": {
+        "rationale": "PLTM is an ETF that provides exposure to platinum, which is the primary focus of our investment thesis due to its potential to enter a bull market.",
+        "positioning": "Long-term strategic position, as the bull market for platinum is expected to unfold over several years.",
+        "risk": "Key risks include a slowdown in the adoption of electric vehicles and changes in industrial demand that could affect the price of platinum."
+      },
+      "COPX": {
+        "rationale": "COPX is an ETF that tracks the copper market, which is expected to experience a shortage due to increased demand from electric vehicles and industrial applications.",
+        "positioning": "Medium to long-term strategic position, as the demand for copper is expected to grow steadily over the coming years.",
+        "risk": "Key risks include technological advancements that could reduce the demand for copper or the discovery of new copper reserves that could increase supply."
+      },
+      "AAPL": {
+        "rationale": "Apple is a major player in the electric vehicle market and could benefit from the increased demand for copper due to its use in EV components.",
+        "positioning": "Long-term strategic position, as Apple's involvement in EVs is expected to grow, potentially increasing the demand for copper.",
+        "risk": "Key risks include competition in the EV market and potential delays in Apple's EV development and launch."
+      },
+      "NVDA": {
+        "rationale": "NVIDIA is a leader in the technology sector and could benefit from the increased demand for copper in the production of semiconductors and other tech components.",
+        "positioning": "Medium-term tactical position, as NVIDIA's growth is tied to the broader technology sector and the demand for copper in tech applications.",
+        "risk": "Key risks include fluctuations in the semiconductor market and potential supply chain disruptions that could affect NVIDIA's production."
+      }
+    },
+    "positioning_guidance": "Investors should consider a diversified approach to positioning in precious metals and copper. For platinum, a long-term strategic position in PLTM could be appropriate, with a focus on the potential bull market cycle. For copper, a medium to long-term strategic position in COPX could be beneficial, given the expected demand from electric vehicles and industrial applications. Additionally, investors may want to consider long-term strategic positions in companies like AAPL and NVDA, which are expected to benefit from the increased demand for copper in their respective industries. Entry points should be considered in the context of market volatility and the potential for short-term price fluctuations, with a focus on long-term growth prospects.",
+    "risk_factors": [
+      "A significant slowdown in the adoption of electric vehicles could reduce the demand for copper.",
+      "Technological advancements could reduce the demand for copper in certain applications.",
+      "Discovery of new copper reserves could increase supply and affect prices.",
+      "Economic downturns could affect the demand for precious metals and copper.",
+      "Geopolitical events or changes in mining regulations could impact the supply of these metals."
+    ],
+    "contrarian_signals": [
+      "The current market sentiment may be overly optimistic about the demand for copper, potentially leading to overvaluation.",
+      "There is a possibility that the historical cycles of precious metals may not repeat as expected, affecting the investment thesis.",
+      "Investors may be underestimating the potential for new technologies to disrupt the demand for copper and other metals."
+    ],
+    "catalysts": [
+      "The release of new electric vehicle models by major automakers.",
+      "Announcements of new copper mining projects or discoveries.",
+      "Technological breakthroughs in the use of copper in industries such as renewable energy and electronics.",
+      "Economic reports indicating a recovery or growth, which could influence the demand for precious metals and copper.",
+      "Policy changes or announcements related to the mining industry that could affect the supply of these metals."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-03-16T05:06:03.261157",
+    "updated_at": "2026-03-16 10:06:03",
+    "insight_title": "Monetary Matters with Jack Farley: Precious Metals, Bonds, and Economic Cycles",
+    "source_name": "Monetary Matters with Jack Farley",
+    "source_date": "2026-03-15",
+    "key_tickers": [
+      "PLTM",
+      "PALL",
+      "GOLD"
+    ]
   }
 },
   suggestedTerms: [
@@ -6072,7 +6276,7 @@ const dashboardData = {
 ],
   podcastGuests: [
   {
-    "id": 150,
+    "id": 156,
     "name": "Investing in Capitalism",
     "slug": "investing-in-capitalism",
     "bio": null,
@@ -6084,7 +6288,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 151,
+    "id": 157,
     "name": "Harvard Professor Graham Allison",
     "slug": "harvard-professor-graham-allison",
     "bio": null,
@@ -6096,7 +6300,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 152,
+    "id": 158,
     "name": "Andrew Yang",
     "slug": "andrew-yang",
     "bio": "Andrew Yang is an entrepreneur and political leader who popularized universal basic income in U.S. politics through his 2020 presidential campaign.",
@@ -6108,7 +6312,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 153,
+    "id": 159,
     "name": "Ray Dalio",
     "slug": "ray-dalio",
     "bio": "Ray Dalio is the founder of Bridgewater Associates and a macro investor known for his 'Principles' framework and work on long-term debt cycles.",
@@ -6120,7 +6324,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 154,
+    "id": 160,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -6132,7 +6336,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 155,
+    "id": 161,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -6145,6 +6349,30 @@ const dashboardData = {
   }
 ],
   pundits: [
+  {
+    "id": 66,
+    "name": "Mark Suster",
+    "slug": "mark-suster",
+    "bio": "Mark Suster is a venture capitalist and entrepreneur, known for his work at Upfront Ventures and his blog BothSidesoftheTable.com.",
+    "known_for": "Venture Capital, Entrepreneurship, and Startup Advice",
+    "last_seen": "2026-03-16 10:04:45",
+    "last_episode_title": "The Intersection of Technology, Entrepreneurship, and the Future",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-03-15",
+    "last_main_idea": "Invest in technology-driven businesses with a strong founder's mindset that focus on building and scaling rather than introspection, as they are more likely to shape the future and create significant value."
+  },
+  {
+    "id": 65,
+    "name": "Alex Gorovich",
+    "slug": "alex-gorovich",
+    "bio": "Founder and Chief Investment Officer at Hauntay Asset Management, author of 'The Next Perfect Trade: The Magic Sword of Necessity'.",
+    "known_for": "His views on precious metals and long-term trading strategies.",
+    "last_seen": "2026-03-16 10:04:22",
+    "last_episode_title": "Monetary Matters with Jack Farley: Precious Metals, Bonds, and Economic Cycles",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-03-15",
+    "last_main_idea": "Invest in platinum as a hybrid precious and industrial metal with potential for growth outside of traditional economic cycles, and consider the impact of AI on productivity and government deficits on interest rates."
+  },
   {
     "id": 64,
     "name": "Brad Gersner",

@@ -1,5 +1,29 @@
 [
   {
+    "id": 66,
+    "name": "Mark Suster",
+    "slug": "mark-suster",
+    "bio": "Mark Suster is a venture capitalist and entrepreneur, known for his work at Upfront Ventures and his blog BothSidesoftheTable.com.",
+    "known_for": "Venture Capital, Entrepreneurship, and Startup Advice",
+    "last_seen": "2026-03-16 10:04:45",
+    "last_episode_title": "The Intersection of Technology, Entrepreneurship, and the Future",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-03-15",
+    "last_main_idea": "Invest in technology-driven businesses with a strong founder's mindset that focus on building and scaling rather than introspection, as they are more likely to shape the future and create significant value."
+  },
+  {
+    "id": 65,
+    "name": "Alex Gorovich",
+    "slug": "alex-gorovich",
+    "bio": "Founder and Chief Investment Officer at Hauntay Asset Management, author of 'The Next Perfect Trade: The Magic Sword of Necessity'.",
+    "known_for": "His views on precious metals and long-term trading strategies.",
+    "last_seen": "2026-03-16 10:04:22",
+    "last_episode_title": "Monetary Matters with Jack Farley: Precious Metals, Bonds, and Economic Cycles",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-03-15",
+    "last_main_idea": "Invest in platinum as a hybrid precious and industrial metal with potential for growth outside of traditional economic cycles, and consider the impact of AI on productivity and government deficits on interest rates."
+  },
+  {
     "id": 64,
     "name": "Brad Gersner",
     "slug": "brad-gersner",

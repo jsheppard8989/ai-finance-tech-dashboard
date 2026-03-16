@@ -1,6 +1,47 @@
 {
   "insights": [
     {
+      "id": 82,
+      "title": "The Intersection of Technology, Entrepreneurship, and the Future",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-03-15",
+      "summary": "In this episode of 'The a16z Show', the guest discusses the powerful role of technology in driving the world forward and the importance of entrepreneurship in creating new opportunities. The conversation delves into patterns observed among successful founders, the focus on building rather than introspection, and the impact of technology and entrepreneurship on the future. The guest also shares insights on the importance of recruiting in the early stages of a company and the challenges faced by ambitious builders. The discussion touches on the historical context of technology-driven businesses, such as Nintendo and Starlink, and their influence on shaping the future.",
+      "key_takeaway": "Invest in technology-driven businesses with a strong founder's mindset that focus on building and scaling rather than introspection, as they are more likely to shape the future and create significant value.",
+      "tickers_mentioned": [
+        "NINT",
+        "T"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-16",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 66
+    },
+    {
+      "id": 83,
+      "title": "Monetary Matters with Jack Farley: Precious Metals, Bonds, and Economic Cycles",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-03-15",
+      "summary": "In this episode of Monetary Matters, host Jack Farley interviews Alex Gorovich, founder and CIO at Hauntay Asset Management and author of 'The Next Perfect Trade: The Magic Sword of Necessity'. They discuss Gorovich's views on palladium and platinum, precious metals, and their cycles. Gorovich shares his insights on the volatility of precious metals, the difficulty in pinpointing their value, and their correlation with real rates and economic performance. Additionally, they touch upon the potential for inflation due to government stimulus and the impact of AI on productivity and deficits. Gorovich also reflects on his past predictions and their outcomes, providing a retrospective on his investment strategies.",
+      "key_takeaway": "Invest in platinum as a hybrid precious and industrial metal with potential for growth outside of traditional economic cycles, and consider the impact of AI on productivity and government deficits on interest rates.",
+      "tickers_mentioned": [
+        "PLTM",
+        "PALL",
+        "GOLD"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-16",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 65
+    },
+    {
       "id": 78,
       "title": "Semiconductors and the Future of Compute",
       "source_type": "podcast",
@@ -196,11 +237,11 @@
         "SPY"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-12",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-16",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 56
     },
     {
@@ -218,11 +259,11 @@
         "PLTR"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-13",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-16",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 60
     },
     {
