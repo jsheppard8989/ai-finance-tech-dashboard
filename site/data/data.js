@@ -3,7 +3,7 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-03-15T15:57:31.646208",
+  generatedAt: "2026-03-15T22:03:46.021612",
   chartsVersion: "2026-03-13T13:28:57.055826",
   tickerScores: [
   {
@@ -6072,7 +6072,7 @@ const dashboardData = {
 ],
   podcastGuests: [
   {
-    "id": 142,
+    "id": 150,
     "name": "Investing in Capitalism",
     "slug": "investing-in-capitalism",
     "bio": null,
@@ -6084,7 +6084,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 143,
+    "id": 151,
     "name": "Harvard Professor Graham Allison",
     "slug": "harvard-professor-graham-allison",
     "bio": null,
@@ -6096,7 +6096,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 144,
+    "id": 152,
     "name": "Andrew Yang",
     "slug": "andrew-yang",
     "bio": "Andrew Yang is an entrepreneur and political leader who popularized universal basic income in U.S. politics through his 2020 presidential campaign.",
@@ -6108,7 +6108,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 145,
+    "id": 153,
     "name": "Ray Dalio",
     "slug": "ray-dalio",
     "bio": "Ray Dalio is the founder of Bridgewater Associates and a macro investor known for his 'Principles' framework and work on long-term debt cycles.",
@@ -6120,7 +6120,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 146,
+    "id": 154,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -6132,7 +6132,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 147,
+    "id": 155,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -6141,30 +6141,6 @@ const dashboardData = {
     "last_episode_title": "Monetary Matters with Jack Farley: Analyzing Market Signals and Investment Strategies with Milton Berg",
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-02-06",
-    "appearance_count": 1
-  },
-  {
-    "id": 148,
-    "name": "Bosworth",
-    "slug": "bosworth",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Investing in the evolution of consumer technology interfaces presents an opportunity to capitalize on the shift towards more immersive and adaptive AI-enabled experiences.",
-    "last_episode_title": "The Future of Consumer Technology and Interfaces",
-    "last_podcast_name": "a16z Live",
-    "last_episode_date": "2023-12-21",
-    "appearance_count": 1
-  },
-  {
-    "id": 149,
-    "name": "Brett Adcock",
-    "slug": "brett-adcock",
-    "bio": "Brett Adcock is a serial founder behind Vettery, Archer Aviation, and Figure, building in eVTOL, humanoid robotics, and frontier AI.",
-    "known_for": "Founding Figure AI and Archer Aviation in next-gen robotics and aviation.",
-    "last_main_idea": "Investment in neural network technology and autonomous robotics is poised for significant growth, with the potential to disrupt traditional manufacturing and create new market opportunities.",
-    "last_episode_title": "Humanoid Run on Neural Net, Autonomous Manufacturing, $50T Market #229",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2023-03-01",
     "appearance_count": 1
   }
 ],
