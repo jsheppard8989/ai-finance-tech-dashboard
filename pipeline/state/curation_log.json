@@ -1,21 +1,8 @@
 {
-  "timestamp": "2026-03-16T05:03:54.722631",
-  "total_feed_episodes": 5,
-  "approved_for_transcription": 5,
+  "timestamp": "2026-03-16T08:07:56.799509",
+  "total_feed_episodes": 3,
+  "approved_for_transcription": 3,
   "episodes": [
-    {
-      "podcast": "Monetary Matters with Jack Farley",
-      "title": "\u201cDeflationary Bust\u201d A Risk From AI | Alex Gurevich\u2019s Bull Case on Rates, \u201cPerfect Trade\u201d Potential in Japan, and The Risk of Artificial Intelligence Poses to Labor Market",
-      "description": "\n        <p>In this interview, Alex Gurevich of HonTe Investments outlines his macroeconomic outlook, highlighting a particularly bullish stance on the platinum and palladium markets because they historically follow long cycles that lag behind gold and silver. He predicts that the rapid advancement of artificial intelligence will initially act as a deflationary headwind, potentially automating away 20% of jobs by the end of the decade and permanently eliminating certain white-collar economic act",
-      "audio_url": "https://traffic.megaphone.fm/EWWMN1106342889.mp3",
-      "published": "Sun, 15 Mar 2026 15:12:00 -0000",
-      "published_date": "2026-03-15",
-      "rss_guid": "62f5febe-2081-11f1-9653-078e9543bec1",
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/EWWMN1106342889.mp3",
-      "filename": "EWWMN1106342889.mp3",
-      "status": "APPROVED",
-      "matched_keywords": []
-    },
     {
       "podcast": "The a16z Show",
       "title": "AI Startups vs. Big Chatbots \u2014 With Olivia Moore",
@@ -24,17 +11,6 @@
       "published": "Mon, 16 Mar 2026 10:00:00 +0000",
       "published_date": "2026-03-16",
       "rss_guid": "29966786-4785-47fc-8117-d99b7841077a",
-      "status": "APPROVED",
-      "matched_keywords": []
-    },
-    {
-      "podcast": "The a16z Show",
-      "title": "Marc Andreessen on the Mindset of Great Founders \u2014 with David Senra",
-      "description": "<p>Marc Andreessen joins David Senra for a conversation about entrepreneurship, history, and what drives some of the world\u2019s most ambitious builders.</p>\n<p>In this conversation with David, Marc reflects on patterns he\u2019s seen across great founders, why many of them focus relentlessly on building rather than introspection, and how technology and entrepreneurship continue to shape the future.</p>\n<p>\u00a0</p>\n<p>Resources:</p>\n<p>David Senra</p>\n<p>Website:<a href=\"https://www.youtube.com/redirect?eve",
-      "audio_url": "https://mgln.ai/e/1344/afp-848985-injected.calisto.simplecastaudio.com/3f86df7b-51c6-4101-88a2-550dba782de8/episodes/e67bdf23-557e-4e44-a677-3dc01d8d8bf6/audio/128/default.mp3?aid=rss_feed&awCollectionId=3f86df7b-51c6-4101-88a2-550dba782de8&awEpisodeId=e67bdf23-557e-4e44-a677-3dc01d8d8bf6&feed=JGE3yC0V",
-      "published": "Sun, 15 Mar 2026 17:10:12 +0000",
-      "published_date": "2026-03-15",
-      "rss_guid": "ae94cef0-be60-44f9-8716-02f7423973b5",
       "status": "APPROVED",
       "matched_keywords": []
     },

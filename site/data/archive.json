@@ -1,6 +1,29 @@
 {
   "insights": [
     {
+      "id": 84,
+      "title": "AI Startups and the Future of Technology",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-03-16",
+      "summary": "In this episode of the a16z Show, Olivia Moore, partner at A16Z, discusses the future of AI and its impact on the technology industry. Moore suggests that every tech company will eventually become an AI company, and every AI company will become an agent company. She emphasizes the importance of understanding and leveraging AI for businesses and individuals. The conversation also touches on the challenges of AI social, the potential for AI to reinvent the technology industry, and the competitive landscape for AI startups against big players like ChatGPT. Moore highlights the opportunities for AI startups in specific niches and the potential for AI to transform various sectors.",
+      "key_takeaway": "Invest in AI startups that focus on specific niches and use cases, as they can compete effectively against larger AI companies by capitalizing on the gaps between platforms.",
+      "tickers_mentioned": [
+        "AAPL",
+        "NVDA",
+        "GOOGL",
+        "MSFT",
+        "TSLA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-16",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 67
+    },
+    {
       "id": 82,
       "title": "The Intersection of Technology, Entrepreneurship, and the Future",
       "source_type": "podcast",
@@ -150,11 +173,11 @@
         "WTBN"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-12",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-16",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 59
     },
     {

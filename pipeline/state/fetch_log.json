@@ -1,19 +1,12 @@
 {
-  "timestamp": "2026-03-16T05:04:00.446380",
+  "timestamp": "2026-03-16T08:08:01.121935",
   "results": [
-    {
-      "podcast": "Monetary Matters with Jack Farley",
-      "title": "\u201cDeflationary Bust\u201d A Risk From AI | Alex Gurevich\u2019s Bull Case on Rates, \u201cPerfect Trade\u201d Potential in Japan, and The Risk of Artificial Intelligence Poses to Labor Market",
-      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/EWWMN1106342889.mp3",
-      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/EWWMN1106342889.txt",
-      "success": true
-    },
     {
       "podcast": "The a16z Show",
       "title": "AI Startups vs. Big Chatbots \u2014 With Olivia Moore",
       "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_20260316_29966786_4785_47fc_8117_d99b7841.mp3",
-      "transcript_path": null,
-      "success": false
+      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/the_a16z_show_20260316_29966786_4785_47fc_8117_d99b7841.txt",
+      "success": true
     }
   ]
 }

@@ -3,8 +3,8 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-03-16T07:37:15.091930",
-  chartsVersion: "2026-03-13T13:28:57.055826",
+  generatedAt: "2026-03-16T08:09:36.726450",
+  chartsVersion: "2026-03-16T08:09:34.217538",
   tickerScores: [
   {
     "ticker": "GOOGL",
@@ -640,6 +640,29 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 84,
+      "title": "AI Startups and the Future of Technology",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-03-16",
+      "summary": "In this episode of the a16z Show, Olivia Moore, partner at A16Z, discusses the future of AI and its impact on the technology industry. Moore suggests that every tech company will eventually become an AI company, and every AI company will become an agent company. She emphasizes the importance of understanding and leveraging AI for businesses and individuals. The conversation also touches on the challenges of AI social, the potential for AI to reinvent the technology industry, and the competitive landscape for AI startups against big players like ChatGPT. Moore highlights the opportunities for AI startups in specific niches and the potential for AI to transform various sectors.",
+      "key_takeaway": "Invest in AI startups that focus on specific niches and use cases, as they can compete effectively against larger AI companies by capitalizing on the gaps between platforms.",
+      "tickers_mentioned": [
+        "AAPL",
+        "NVDA",
+        "GOOGL",
+        "MSFT",
+        "TSLA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-16",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 67
+    },
+    {
       "id": 82,
       "title": "The Intersection of Technology, Entrepreneurship, and the Future",
       "source_type": "podcast",
@@ -789,11 +812,11 @@ const dashboardData = {
         "WTBN"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-12",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-16",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 59
     },
     {
@@ -2087,6 +2110,26 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 84,
+      "title": "AI Startups and the Future of Technology",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-03-16",
+      "summary": "In this episode of the a16z Show, Olivia Moore, partner at A16Z, discusses the future of AI and its impact on the technology industry. Moore suggests that every tech company will eventually become an AI company, and every AI company will become an agent company. She emphasizes the importance of understanding and leveraging AI for businesses and individuals. The conversation also touches on the challenges of AI social, the potential for AI to reinvent the technology industry, and the competitive landscape for AI startups against big players like ChatGPT. Moore highlights the opportunities for AI startups in specific niches and the potential for AI to transform various sectors.",
+      "key_takeaway": "Invest in AI startups that focus on specific niches and use cases, as they can compete effectively against larger AI companies by capitalizing on the gaps between platforms.",
+      "tickers_mentioned": "[\"AAPL\", \"NVDA\", \"GOOGL\", \"MSFT\", \"TSLA\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-16",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 67,
+      "episode_release_date": "2026-03-16",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 82,
       "title": "The Intersection of Technology, Entrepreneurship, and the Future",
       "source_type": "podcast",
@@ -2219,33 +2262,6 @@ const dashboardData = {
       "episode_release_date": "2026-03-13",
       "guest_name": "Investing in Capitalism",
       "key_tickers": []
-    },
-    {
-      "id": 75,
-      "title": "Macro Voices Episode 523: Geopolitical Situation in Iran, Oil Prices, Precious Metals, and Market Analysis",
-      "source_type": "podcast",
-      "source_name": "Macro Voices",
-      "source_date": "2026-03-12",
-      "summary": "In this episode of Macro Voices, hosts Eric Townsend and Patrick Suresne discuss a range of topics from the geopolitical situation in Iran to oil prices, precious metals, and the broader market implications. They feature interviews with Jim Bianco, founder of Bianco Research, and Dr. Onus Alhajji, who provides insights into the ongoing conflict and its impact on oil markets. The episode also includes a discussion on hedging portfolio tail risks and a post-game chart deck analysis.",
-      "key_takeaway": "The current geopolitical tensions, particularly in Iran, are creating significant market volatility, especially in oil prices, which presents both risks and opportunities for investors.",
-      "tickers_mentioned": "[\"S&P 500\", \"WTI\", \"ARBOMB\", \"GOLD\", \"COPPER\", \"WTBN\"]",
-      "sentiment": "bearish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-03-12",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 59,
-      "episode_release_date": "2026-03-12",
-      "guest_name": null,
-      "key_tickers": [
-        "S&P 500",
-        "WTI",
-        "ARBOMB",
-        "GOLD",
-        "COPPER",
-        "WTBN"
-      ]
     },
     {
       "id": 76,
@@ -6222,6 +6238,77 @@ const dashboardData = {
       "PALL",
       "GOLD"
     ]
+  },
+  "84": {
+    "id": 75,
+    "insight_id": 84,
+    "podcast_episode_id": 67,
+    "overview": "The rapid evolution of AI technology is reshaping the tech industry landscape, presenting both challenges and opportunities for startups and established players. As AI becomes more integrated into every tech company, the potential for disruption across various sectors is significant. This deep dive analysis explores the investment implications of AI's growing dominance, the potential for startups to compete, and the strategic positioning of key tech stocks in this evolving market. The analysis is particularly timely given the current negative sentiment towards AI in the U.S., which presents both risks and opportunities for investors.",
+    "key_takeaways_detailed": [
+      "AI is not just a market but a reinvention of the entire technology industry, suggesting significant growth and disruption.",
+      "Despite negative public sentiment, AI adoption is growing, with 900 million users for ChatGPT, indicating a potential shift in perception and usage.",
+      "Startups can compete by focusing on niche areas where large labs may not allocate resources, such as specific vertical markets or innovative applications.",
+      "Investors should monitor the labs' focus on creative models versus coding agents or AGI, as this allocation of resources could create opportunities for startups.",
+      "The gap between platforms is widening, suggesting that specialized AI applications may have a competitive edge in certain areas."
+    ],
+    "investment_thesis": "The core investment logic is that AI will continue to be a significant driver of growth and innovation in the tech industry. While large AI companies like ChatGPT dominate the market, there are opportunities for startups to carve out niches and innovate in areas that are not the focus of the labs. Catalysts for this thesis include the ongoing development and adoption of AI technologies, the potential for regulatory changes that could level the playing field, and the emergence of new applications that leverage AI. The timeframe for this thesis is medium to long-term, as the full impact of AI on the tech industry is expected to unfold over the next 3-10 years.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's investment in AI and machine learning is significant, with applications across its product ecosystem. The company's ability to integrate AI into its devices and services positions it well in the AI-driven future.",
+        "positioning": "Long-term strategic position, as Apple's AI capabilities are expected to enhance its competitive advantage and drive growth.",
+        "risk": "Regulatory changes that could limit AI applications or increased competition from other tech giants in the AI space."
+      },
+      "NVDA": {
+        "rationale": "Nvidia is a leader in AI and deep learning, with its GPUs being essential for training and running AI models. The company's position in the AI hardware space makes it a key beneficiary of AI's growth.",
+        "positioning": "Medium-term tactical position, as Nvidia's AI offerings are expected to drive near-term growth, but the competitive landscape could change rapidly.",
+        "risk": "Technological disruptions in AI hardware or a slowdown in AI adoption rates."
+      },
+      "GOOGL": {
+        "rationale": "Google's parent company, Alphabet, is at the forefront of AI research and development, with significant investments in AI across its various businesses.",
+        "positioning": "Long-term strategic position, as Google's AI capabilities are expected to drive innovation and growth across its diverse business lines.",
+        "risk": "Increased competition from other AI companies or regulatory challenges that could hinder AI development and deployment."
+      },
+      "MSFT": {
+        "rationale": "Microsoft is investing heavily in AI, with a focus on making AI more accessible and integrated into its cloud services and productivity tools.",
+        "positioning": "Medium-term tactical position, as Microsoft's AI initiatives are expected to drive growth in its cloud business and enhance its competitive position.",
+        "risk": "Slow adoption of AI by enterprise customers or increased competition from other cloud providers in the AI space."
+      },
+      "TSLA": {
+        "rationale": "Tesla's use of AI in its autonomous driving technology positions it as a leader in the application of AI in the automotive industry.",
+        "positioning": "Long-term strategic position, as Tesla's AI capabilities are expected to drive innovation and maintain its competitive advantage in the electric vehicle market.",
+        "risk": "Regulatory hurdles to autonomous driving or technological disruptions in AI that could impact Tesla's lead in the space."
+      }
+    },
+    "positioning_guidance": "Investors should consider a balanced approach to portfolio positioning, with a mix of long-term strategic positions in established tech companies with strong AI capabilities and medium-term tactical positions in companies that are well-positioned to benefit from near-term AI growth. Entry points should be considered in the context of broader market trends and company-specific catalysts. Investors should also consider hedging against potential risks, such as regulatory changes or technological disruptions.",
+    "risk_factors": [
+      "Regulatory changes that could limit the development or deployment of AI technologies.",
+      "Technological disruptions that could render current AI applications obsolete.",
+      "Increased competition from new entrants or established players in the AI space.",
+      "Slow adoption of AI by consumers or enterprise customers.",
+      "Ethical concerns and public sentiment that could impact the acceptance and use of AI technologies."
+    ],
+    "contrarian_signals": [
+      "Despite negative public sentiment, AI adoption is growing, suggesting a potential shift in perception as consumers realize the benefits of AI.",
+      "Startups may find opportunities to compete in niche areas where large labs are not focused, leading to innovation and growth in the AI space.",
+      "The potential for AI to drive job growth, as companies that use AI may need to hire more humans to keep up with demand, countering the narrative of AI-led job displacement."
+    ],
+    "catalysts": [
+      "Upcoming AI-related product launches or announcements from key tech companies.",
+      "Regulatory decisions or policy changes that could impact the development and deployment of AI technologies.",
+      "New research or studies that highlight the benefits or risks of AI, potentially shifting public sentiment.",
+      "Economic indicators that show the impact of AI on job growth or productivity.",
+      "Technological breakthroughs that could accelerate the adoption of AI across industries."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-03-16T08:08:58.044948",
+    "updated_at": "2026-03-16 13:08:58",
+    "insight_title": "AI Startups and the Future of Technology",
+    "source_name": "The a16z Show",
+    "source_date": "2026-03-16",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
@@ -6276,7 +6363,7 @@ const dashboardData = {
 ],
   podcastGuests: [
   {
-    "id": 156,
+    "id": 162,
     "name": "Investing in Capitalism",
     "slug": "investing-in-capitalism",
     "bio": null,
@@ -6288,7 +6375,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 157,
+    "id": 163,
     "name": "Harvard Professor Graham Allison",
     "slug": "harvard-professor-graham-allison",
     "bio": null,
@@ -6300,7 +6387,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 158,
+    "id": 164,
     "name": "Andrew Yang",
     "slug": "andrew-yang",
     "bio": "Andrew Yang is an entrepreneur and political leader who popularized universal basic income in U.S. politics through his 2020 presidential campaign.",
@@ -6312,7 +6399,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 159,
+    "id": 165,
     "name": "Ray Dalio",
     "slug": "ray-dalio",
     "bio": "Ray Dalio is the founder of Bridgewater Associates and a macro investor known for his 'Principles' framework and work on long-term debt cycles.",
@@ -6324,7 +6411,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 160,
+    "id": 166,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -6336,7 +6423,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 161,
+    "id": 167,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -6349,6 +6436,18 @@ const dashboardData = {
   }
 ],
   pundits: [
+  {
+    "id": 43,
+    "name": "Olivia Moore",
+    "slug": "olivia-moore",
+    "bio": "Olivia Moore is a partner at A16Z, focusing on AI applications.",
+    "known_for": "Her expertise in AI and its applications in various sectors.",
+    "last_seen": "2026-03-16 13:08:23",
+    "last_episode_title": "AI Startups and the Future of Technology",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-03-16",
+    "last_main_idea": "Invest in AI startups that focus on specific niches and use cases, as they can compete effectively against larger AI companies by capitalizing on the gaps between platforms."
+  },
   {
     "id": 66,
     "name": "Mark Suster",
@@ -6480,18 +6579,6 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-03-09",
     "last_main_idea": "Investment in AI technology, particularly in personal AI agents like OpenClaw, could offer substantial returns as the technology matures and becomes more integrated into daily life."
-  },
-  {
-    "id": 43,
-    "name": "Olivia Moore",
-    "slug": "olivia-moore",
-    "bio": "Partner at a16z",
-    "known_for": "Expertise in AI and its applications within the tech industry",
-    "last_seen": "2026-03-12 19:38:51",
-    "last_episode_title": "The a16z Show: AI Adoption, Creative Tools, and the Future of Generative AI",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-03-10",
-    "last_main_idea": "Investment in AI platforms is driven by their ability to capture user data, create personalized experiences, and expand globally, with a focus on platforms that can leverage AI to create compounding advantages."
   },
   {
     "id": 40,

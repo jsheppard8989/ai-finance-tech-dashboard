@@ -1,5 +1,17 @@
 [
   {
+    "id": 43,
+    "name": "Olivia Moore",
+    "slug": "olivia-moore",
+    "bio": "Olivia Moore is a partner at A16Z, focusing on AI applications.",
+    "known_for": "Her expertise in AI and its applications in various sectors.",
+    "last_seen": "2026-03-16 13:08:23",
+    "last_episode_title": "AI Startups and the Future of Technology",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-03-16",
+    "last_main_idea": "Invest in AI startups that focus on specific niches and use cases, as they can compete effectively against larger AI companies by capitalizing on the gaps between platforms."
+  },
+  {
     "id": 66,
     "name": "Mark Suster",
     "slug": "mark-suster",
@@ -130,18 +142,6 @@
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-03-09",
     "last_main_idea": "Investment in AI technology, particularly in personal AI agents like OpenClaw, could offer substantial returns as the technology matures and becomes more integrated into daily life."
-  },
-  {
-    "id": 43,
-    "name": "Olivia Moore",
-    "slug": "olivia-moore",
-    "bio": "Partner at a16z",
-    "known_for": "Expertise in AI and its applications within the tech industry",
-    "last_seen": "2026-03-12 19:38:51",
-    "last_episode_title": "The a16z Show: AI Adoption, Creative Tools, and the Future of Generative AI",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-03-10",
-    "last_main_idea": "Investment in AI platforms is driven by their ability to capture user data, create personalized experiences, and expand globally, with a focus on platforms that can leverage AI to create compounding advantages."
   },
   {
     "id": 40,

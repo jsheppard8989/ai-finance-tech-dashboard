@@ -9203,3 +9203,53 @@ TERMS FOR MANUAL REVIEW
 ============================================================
 STEP: Extract Podcast Guests
 ============================================================
+============================================================
+Extract Podcast Guests
+============================================================
+Processing 42 processed episodes
+  ✓ Investing in Capitalism ← All-In with Chamath, Jason, Sacks & Friedberg (2026-03-13)
+  ✓ Harvard Professor Graham Allison ← All-In with Chamath, Jason, Sacks & Friedberg (2026-03-09)
+  ✓ Andrew Yang ← Moonshots with Peter Diamandis (2026-03-07)
+  ✓ Ray Dalio ← All-In with Chamath, Jason, Sacks & Friedberg (2026-03-03)
+  ✓ Ben Horowitz ← Moonshots with Peter Diamandis (2026-02-19)
+  ✓ Milton Berg ← Monetary Matters with Jack Farley (2026-02-06)
+
+✓ Done. 6 guest(s) in database.
+
+✓ Extract Podcast Guests completed
+
+============================================================
+STEP: Export Website Data
+============================================================
+============================================================
+Exporting Website Data
+============================================================
+✓ Exported website data to /Users/jaredsheppard/.openclaw/workspace/site/data
+✓ Exported: {'ticker_scores': 42, 'podcast_summaries': 3, 'archive_items': 74, 'podcast_guests': 6, 'pundits': 17}
+  ✓ Exported episode status: 4 in pipeline, 0 last completed, 2 available from RSS
+
+============================================================
+Generating Website JavaScript
+============================================================
+✓ Generated data.js with 42 tickers, 74 archive items, 58 deep dives, 4 suggested terms, 6 legacy guests, 17 pundits; chartsVersion=2026-03-13T13:28:57.055826
+✓ Bumped data.js cache-buster to v=1773655584
+
+============================================================
+STEP: Push to GitHub
+============================================================
+✓ Pushed to GitHub: Pipeline update 2026-03-16 05:06: 2 podcasts, 2 insights, 0 newsletters
+
+============================================================
+PIPELINE COMPLETE
+Finished: 2026-03-16 05:06:27.482582
+============================================================
+📊 Pipeline Complete
+
+🎙️ 2 new podcast(s) analyzed
+📈 2 tickers scored
+
+Top tickers today:
+  GOLD: score 64
+  T: score 60
+
+🌐 Website updated

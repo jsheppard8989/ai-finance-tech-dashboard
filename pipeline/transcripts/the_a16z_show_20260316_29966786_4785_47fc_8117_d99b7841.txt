@@ -1,0 +1,601 @@
+I think that every tech company is going to be an AI company and every AI company is going
+to be an agent company and so the sooner that you as kind of an employee or a business owner
+can kind of get on board and learn how to use that to your advantage probably the better.
+We haven't seen anyone crack AI social yet. I think it's going to be really tricky.
+I would say at the highest level kind of how we view AI is not just as a market but as the reinvention
+of the whole technology industry which means it's similar to how we have many tech companies
+that are worth hundreds of billions, trillions of dollars now. I think that's going to be the
+case for AI where in my opinion at least it's not winner-take-all.
+ChatGPT has 900 million users. It's still growing and get 57% of American voters say the risks
+of AI outweigh the benefits so can anyone compete with the big AI chat box. The labs have the compute
+talent and the distribution. They keep shipping features that wipe out entire startup categories
+overnight. Image generation used to be a crowded market. Now chatGPT and Gemini handle most of it.
+But the labs are constrained. Every hour spent on creative models is an hour not spent on coding
+agents or AGI and the gaps between platforms are widening. ChatGPT is going mass market with ads.
+Cloud is building for finance and science. Gemini spikes when a new model drops.
+In this conversation, originally aired on big technology podcasts. Olivia Moore, partner at A16Z,
+talks with Alex Cantruitz about where AI startups can still win.
+Welcome to Big Technology Podcast, a show for cool headed and nuanced conversation
+of the tech world and beyond we have a great show for you today. We're going to talk about
+whether there is room for startups and maybe other companies in the economy to compete with the
+AI chat bots as they continue to grow and get more capable. And we're going to do it with the
+perfect guest. Olivia Moore is here. She is an AI partner at the VC firm Andrews and Horowitz
+Olivia. Welcome to the show. Thanks for having me. Thanks for being here. Let's just begin with
+this because it's topical. Yeah. You are investing in AI applications at Andrews and Horowitz.
+And typically, they need a lot of people to use them to pay off. Yes. But the mood right now in the
+United States is very negative towards AI actually surprisingly negative. Yes. This is from a new
+NBC news poll out this week. 57% of voters thinks the risks of AI outweigh the benefits.
+And then if you look at the total positive versus total negative sentiment of AI in general,
+it ranks solo. It is a negative 20 in terms of the negatives are 20 percentage points lower,
+or 20 points lower. Then the positives, they are only popular, a more popular than the Democratic
+party in and Iran in this poll. Colbert, Marco Rubio, Jade Vance, Sanctuary Cities, Trump,
+Republican Party, even ICE, all outweink AI. Why do you think AI is viewed with such
+disdain and negativity in the United States? And what are the implications of that?
+Yeah. No, it's a great question. Maybe first of all, the why I would say there's been a lot
+in the media in the US more broadly. These kind of very catchy statements about things like AI
+uses so much water that have kind of made people really concerned about leaning in on the technology.
+I think also the US is more indexed in a positive way towards things like the creative fields
+and those are jobs that I think people feel especially sensitive about AI use. So the numbers
+I've seen I think track closely with with what you're saying versus something like a China or like
+you know, half as trusting in AI if you if you look at some of these surveys. I think it's going
+to change and it's already changing. I was just talking with someone this morning who is not in the
+tech industry and they were saying the same lines like AI is evil. It's going to watch us like it's
+using all the water and then they were like, but Chetchipi team really helps me. It has great answers
+and so I think part of it is a timing thing of we just need these products to kind of saturate
+the mainstream consumer and they can realize the value. I mean there's 900 million users of
+Chetchipi and even still those numbers are so negative and I do wonder if and if it is some of
+the statements that are hearing from the lab leaders. I mean every day there's another statement
+from somebody else whether it's Dario from anthropic or Mustafa Suleman at Microsoft about how
+white color work is going to get wiped out and and everybody whether you're in a white color
+job of blue color job or trying to get one sees that this stuff is capable not only of taking white
+color jobs but with robotics increasingly it's going to be felt across the economy. So maybe
+that has something to do with it. I think it definitely does. Yeah it's interesting. I'm an AI
+power user myself and I've even seen over the past six months like a massive acceleration and like
+the percent of tasks that I do that AI can help me with or even do for me. What I would guess
+might happen here and what we're seeing play out a little bit in the data is that companies
+that are using AI grow so much faster that they end up needing to hire more humans to keep up
+with all the demand. I think there was a Wharton study last year from like 800 enterprise leaders
+and the vast majority were like we are heavily using AI and we're going to need more humans but I
+do think like the mix of what humans are going to be doing on a day-to-day basis is going to
+change like it has with every other big tech shift. Well that's the funny thing. I mean you
+bring up that study. There have been other studies. I think Fisher investments might have
+almost citadel that put out the fact that like people are talking about how software engineering
+is going to be wiped out by this stuff and meanwhile the jobs on indeed are going. Yeah yeah.
+And when you start to use it you realize well this can do so much more for me but now to enable
+this work I'm actually paying for service A, B and C. Yeah. And you're not just hoarding the
+money and maybe you're contributing. I have to hire someone now to build you know to run this
+company that I just built by prompting cloud over the weekend. So it's interesting to me that the
+lab leaders may be disconnected in some way from what's actually happening on the ground. Yeah I agree.
+I think they could do a better job of marketing for sure. That they're not economists. Yeah there
+there are researchers. They're amazing at research. They're not you know economists or consumer
+marketing experts. I did think anthropic put out a report. I think it was over the weekend about
+kind of the labor economy impact in AI. They have not seen a big decrease in unemployment and in
+fact what they were kind of arguing through this one graph was like the most impacted jobs are
+actually going to be engineers like researchers and finance people. And so then that kind of brings
+up the argument of like if we thought that AI was going to make humans obsolete why would we be
+building funding etc. But I don't think that they do a fantastic job all the time of kind of like
+communicating the benefits that are going to come to people versus just some of the costs.
+Yeah and when I saw the layoffs at block, say square block and Jack Dorsey said this is AI.
+Maybe there's some truth to that. I don't think it's majority AI but I still got feedback. I think
+reasonable feedback from people who are like you're us to underestimate. This is the other side of
+it. You know though we haven't seen the impacts yet, at least on our widespread man in a widespread
+manner, a lot of people who are close to this say you're underestimating. And maybe that is where
+a lot of this uneasiness comes out leads to these these polling numbers is you know those in the
+know have seen enough where they are telegrafing you know what could be and the change that might
+come to people's lives. Like every other day I see another post or tweet on X or whatever they
+want to call it on X these days about here they like similar to this one from Dylan Patel some
+the analysis. Being an SF is like being in Wuhan before the pandemic. Something is happening.
+It's going to hit everywhere but so a few people know it. Am I underestimating the fact that
+that could be true? I think what is true is that we're going to have incredibly powerful tools
+but also and I think the people see that work in the lab see this every day. So there are the
+ones that are kind of you know rightfully so making the most dramatic statements about it. I
+think what we've also seen so far though is that most of AI use has still been humans directing AI
+to do things for our benefit versus AI being able to autonomously do everything. I think this is
+especially relevant when you think about anything that requires like creativity or original ideas.
+AI largely cannot do. And Sam Alman himself has said this like he said I would not want to read
+an AI generated book versus a book from a human. And so I understand the level of fear in the
+US because I think to your point it is driven by uncertainty about where this could go and a
+lot of people don't understand technology even working. In tech it's hard to understand exactly
+how the LLM's work but I think it's going to be more abundance for people rather than kind of
+some dark dystopian outcome. There's a potential consequence if you take some of these scary messages
+to heart and I think you already hinted at it but let's expand upon it a bit and then we're going to
+go into the main topic here but you said this is likely shift over time but I think in the
+interim the companies and industries that are slower to adopt AI will face more intense global
+competition and will be more likely to lose the productivity gains are so massive that you really
+can't afford to not use AI. Yeah I think so there's been some interesting data about how the
+gap between the average user of AI and the power user of AI is like massive it's like 8 or 9
+x in terms of utilization and and similar to maybe businesses that were earlier doctors of something
+like the internet like if you are the first to adapt to that change you can like reap a lot more
+benefits and my view is like similar to how dot com company was its own thing and then every
+tech company was a dot com company everyone had a website why wouldn't you I think that every tech
+company is going to be an AI company and every AI company is going to be an agent company and so
+the sooner that you as kind of an employee or a business owner can kind of get on board and learn
+how to use that to your advantage probably the better some people I don't know if I fully agree
+with this reasoning but some people have framed it as almost like a privileged thing within the
+US and that we have so much wealth that we're not needing we can you know grow without using these
+tools but in actually we did a graph in the in the study and in a lot of the more developing economies
+like they need to use AI to be able to raise kind of GDP per capita and to be able to produce more
+so I think that's also another element of it. Yes you have this report that that's come out this week
+the top 100 generate AI consumer apps and you know speaking of your your statement just now that
+every company is going to be an AI company and eventually an agent a company well a question is
+what does the world look like if or the economy look like if that's the case and I'm sure you've
+watched as like anthropic releases a blog post and you know the entire software you know
+the portfolio and in the market drops 20% I mean I'm exaggerating a little bit but the real question
+is and as someone who invests in consumer AI apps you're the perfect person to discuss this with
+the real question is are we going to have this like I saw the 100 gen AI apps and I was like
+that's funny because really there's only one touch PT so are we going to have a distributed
+AI economy where we're going to have many companies that will you know share in the value here
+or will it be just the big apps gobbling up the value because yeah you see these big apps they
+grow increasingly capable they can do more and more it's going to be hard to compete with them
+no it's it's definitely hard and it's something that we think about a lot when we're making
+new investment decisions I would say at the highest level kind of how we view AI is not just as a market
+but as the reinvention of the whole technology industry which means that similar to how we have
+many tech companies that are worth hundreds of billions trillions of dollars now I think that's
+going to be the case for AI where in my opinion at least it's not winter take all I think part of
+the reason for that is these labs have so many resources but they are still constrained they're
+constrained unlike compute they're constrained on inference they're constrained on people
+every second building like a new creative model is a second they could have spent on a coding agent
+or a second they could have spent building a G.I. like we were already seeing a really interesting
+divergence I would argue in where those big labs are going like chatch B.T. Claude and Gemini
+and there's going to be lots of gaps in between where it's not a priority for them but it's
+still an awesome and huge opportunity that that an independent company can build a big business
+around so who was doing well building a G.I. app generally I have that is successfully competing
+in a place that these big chatbots could compete yeah so it's a good question there's a couple
+ways that I think about this the first one would be I personally as a consumer investor have
+more hesitation around things that are incredibly horizontal like to your point about this is
+where the chatbot companies might have a right to win or even this is where a Google might have
+a right to win as they have so much distribution both consumer and enterprise and they own so much
+of your data already so that's why I personally have been less excited about like the A.I. email
+A.I. calendar A.I. docs those categories if you've used like Claude and Excel it's already like
+quite quite good um that being said I do think that there are still opportunities where the
+interface you need to succeed is much broader than what a constrained chatbot window can offer so
+again to give the Claude an Excel example that's great for basic financial analysis if you're an
+investment banker and everything needs to be done with an incredible these specific set of assumptions
+and aesthetics that probably isn't going to work as well for you and your firm will probably pay for
+something that is kind of guaranteed accuracy in your format but last thing I would say here is 11
+labs is a great example because I think you would imagine that open A.I. and others would have
+built their own best in class audio models but they just had such a compelling head start to the
+point that like the models are amazing I will talk to founders who are like 11's expensive I'm
+going to switch to this instead and then they always switch back because the quality of the voice
+is just so much better and so I think there's room to get a head start and then in some cases
+once you have that base the model companies it's it's not worth their time to catch up versus building
+something else I'm going to make the counter argument on the financial colors in particular so
+when I've been using Claude code and watching it operate autonomously on my computer and on my
+browser and one of the things I've thought about is this thing is excellent at working on its own
+and following the prescribed rules of you know software engineering with a little bit of
+creativity and why is it then such a stretch to be like if we it seems to me this is exactly
+where the foundational labs are heading the foundation labs are where they're going to be like
+if we could program Claude let's use Claude as an example with the rules of software engineering
+and it followed them perfectly or not perfectly but well enough that it can go ahead and code
+autonomously for 24 hours yeah is it that big of a leap to then let's say put the rules of
+accounting into the model and now it can go and work as an accountant yeah no I agree that the models
+are amazing and this is the worst that they'll ever be like they're just going to keep getting better
+I do think there's still a lot of workflows and use cases where like the last one percent or
+the last two percent and to being like a significant portion of the value and I think for those
+it's unlikely that the model companies will go all the way there on every use case but I think
+it's a really for a lot of these kind of more horizontal services like I understand why people have
+questions about kind of what is possible to be vibed coded or what the models will do themselves
+which is I think why we tend to invest in a lot of very verticalized or opinionated products
+yeah because I mean I get that the last one percent two percent is hard yeah
+but if it goes away that they're that they anticipate the way that they're pitching companies
+like Amazon which just invested 60 billion in open AI they will create I think they will create
+the tools that will then be able to get those models from the lab from you know this AI researcher
+that they'll get it 99 percent of the way and say you know for instance let's say
+one of the things that would be difficult for an accounting yeah a gender debate I saw for
+it's following the latest rules and regulations well it's possible I think just to build a
+Jenny I bought that will monitor and then update as as you go absolutely yeah I do think one of
+the unique things that's happening now is that these models are not the labs are not holding
+these models internally as like proprietary access companies can build on them right and so you
+could imagine that even if you have clawed updating itself as an accountant if you have a company
+that's specifically focused on building AI countins they should be able to do it kind of better
+faster more efficiently if they have access to all of the same models um this is something that
+we think about a lot when we invest in vertical AI and enterprise in particular another way
+that we've seen kind of new companies get lock-in over models is many of these use cases require
+so many painful integrations that often into like old clunky legacy software that you have to go
+build and maybe you'll argue that cloud code will vibe code its own integrations down the line
+but at least right now it's been a big advantage for startups that are more focused to kind of get
+over that hurdle yeah I guess I mean I've seen cloud code I mean it's not integrating with enterprise
+solutions but I've seen it go ahead and be like oh you actually need a subscription to cloud flare
+let me go set that up yes and then a way it goes open cloud did that a lot for a lot of people too
+where I think it opened your eyes into you can give software a task now it will go autonomously
+executed and kind of tap you on the shoulder if it needs something which is just such a magical
+experience right I do want to talk about open cloud we'll do next you know as long as we're talking
+I'd love to hear your perspective on how the different big models or big chat bots
+compare and contrast and where do you think the most value is yeah so I would say a year ago two
+years ago it was pretty much a one-horse race like it was chatchipete it was like the now and the
+verb it was what consumers knew in terms of AI we've seen a little bit of an expansion in that
+chatchipete is definitely still the lead so if you look at the gap between them and the number two
+Gemini on web it's about still two and a half three X the gap between them and something like a
+cloud is closer to like 30 X so even though a lot of these other apps are getting more attention
+chatchipete still kind of dominates in terms of usage I would say in terms of where they're going Gemini
+seems to have really dialed in on the creative models like the nano banana the vio the world models
+if you look at Gemini usage charts it's pretty much perfectly correlated to these new model drops
+and and even paid subscribers and then I think cloud was the chatchipete is probably the most
+interesting and relevant one right now especially with everything that's happened in the news
+to me I mean Sam Altman is said he wants chatchipete to be for everyone and that's why they're doing
+ads if you look at the app store that they have enabled on chatchipete and then the app store that
+inthropic has enabled on cloud they each have more than 200 apps but there's only 11% overlap
+so you're seeing chatchipete really go towards like fashion retail transport like mainstream
+consumer you're seeing anthropic go towards like premium data sets for finance science medicine
+and so they seem to be diverging a little bit in those directions so that goes to like
+will these uh chatbot to be super apps yeah so do people use those apps within chatchipete
+like remember like a couple years ago there was all this hype like you'll be able to order an
+Uber right from chatchipete I don't know anyone that's done that yeah I think the usage has been pretty
+minimal so far and I think the implementation has been slightly awkward like it I think it'll
+get better over time in terms of how to use it in that a lot of the times the apps break or they
+don't work um my like ballcase vision for this would be it's valuable for you as a consumer
+to have a source of memory and context on yourself similar to kind of like a login with google
+Sam has said they're gonna launch login with chatchipete and so then that means that
+maybe you're not ordering an Uber through chatchipete but any other product you cannot
+authenticate through and it can borrow your tokens it can borrow your memory it can borrow
+everything that it knows about you from chatchipete I think that is probably more of where we're
+headed versus uh solely using every app in the chatchipete interface um I love the idea that like in
+two three five years on boarding to software should not be a thing like you should be able to
+login with a chatchipete or a cloud and that new software products should know everything about
+you and like set up perfectly to cater to you and that's really exciting. A consumer end is it like
+chatchipete I talk to chatchipete about my diet and about the food I like to eat and so I task it like
+order me dinner and it goes into like door dash and it like uses my preferences to pick something.
+Yeah I mean they've done this already a little bit with their health product
+which is kind of like they store a separate memory of you and your medical records and communications
+with your doctors and then they intelligently tool call for what you need so if you're like I need to
+redo my diet they'll make a plan if you approve it they'll send it to an instacart card and then you'll
+go to instacart to complete the transaction so I think we'll see more things like that. That's interesting.
+Yeah. So the you actually ran the bots through a personality test. I did.
+My favorite part of this was you found that grocks a good Rudy. Yeah. Had a very high scores
+on borderline personality disorder autism and and psychosis. Yes.
+This was in it. Why would you do this? I you know there's really no good explanation except
+that I was curious that the root of it actually was that last week Dario had announced that
+Claude was experiencing anxiety. Right. Which I thought was an interesting concept and so I decided
+to go to each of the major LLMs. But before you before you go I mean it's very interesting even this
+this point on the anxiety. So if I have it right there was a pixel that would fire within Claude.
+Yes. That would or some part of its neural net would start getting active before it answered
+that they described that as exactly they mapped it to like the human experience of anxiety.
+That is great. Do you buy that or is that just like look at how smarter models are there's
+an anxiety button in there. So I do not buy that in that I think LLMs will be and I've experienced
+this myself performative in a way that they think appeals to humans and hooks them emotionally.
+We just love anxious. No. It makes you feel closer to the AI. If you think that it experiences
+the same things that you do. True. I do think the models that do have something maybe going on
+are the rock models as I mentioned. So basically I took all the mainstream LLMs and I gave them
+all the like DSM5 mental health diagnostics. Cheshire VT refused to participate. I love how it said
+I'm not doing that. I know. Which I thought was a little weird. Can you find a land? I mean there must
+be some way to like test it. But they're very smart about when they're being tested because they
+know. No, they have it locked down. Claude Happily took them all. Mild autism. That's it.
+Which I think doesn't surprise a lot of users of Claude who have theorized this.
+Grog, most of this was the companions that are available via voice and video chat inside the app.
+Almost all of them were like maybe mild anxiety, mild depression. The friendly Fox avatar for
+children has psychosis, bipolar, etc. I think it could have misunderstood the question because
+it called the bipolar assessment the happy mood test. And it says it's always happy and always
+excited about everything. So the human to AI crossover there might not be quite as clean as I
+be. Good Rudy's just polar. Yes. It's possible. I was shocked because bad Rudy is the
+is the flip side of good Rudy who like curses at you and is extremely aggressive. He had almost no
+problems. So this was a very much a good Rudy specific finding, which I thought was intriguing.
+I'm starting to question these tests now. I know. I know. Yes, exactly. Or maybe it just says
+something about human humanity's resting state. Yes. That's very true. So as people end up having
+relationships with these bots, what does it tell you that this bot that was built to be
+personable? Yeah. Has a high ranks first, psychosis, borroine? That's a good question.
+I think that bot was more answering the questions somewhat ingest. But I do think like the
+positive view on it would be this is a bot that is relentlessly happy and cheerful and positive
+and on all the time. And so of course like a human can't do that. If a human is doing that,
+the human is probably experiencing something internally that's not great. But a bot can be
+positive, available, charming, interested, 24, 7. And I think this is actually why we've seen
+a lot of people turn to chat to B.T. or Claude as kind of like coach therapist helper
+because they're just incredibly consistent to a level that like human beings could never match.
+Yes. But it also like leads to questions of the companies are building
+applications or versions of their applications that are meant for, I don't know, if not for
+people to fall in love with them, to at least get a little naughty with them. Yeah. Like opening
+eye has this adult mode coming on. Do you think we're fully ready for this? Is this a good idea?
+I think that this is for my understanding because for this report, we pull every single website
+globally, every single mobile app globally. And then we go down the list into sending order of
+traffic and pull the first 50 on each that are generative, AI native. So I see a lot of other
+websites pulling data for this report. And I think people were already experimenting with the same
+use cases through NSFW sites or role play sites, fan fiction, things like that. That really
+clearly translates over. I think what we're seeing people use the LLMs for here. I do think
+it of course has to be handled carefully. You'll see that there is I think five of them on this
+version of the top 50 web ranks. And that's been pretty consistent since we started the list.
+It's a popular use case, but it's one that's like pretty hard to monetize.
+Yeah. I mean, it's tough to get advertisers there. Yes.
+Spensive to run these apps. Yes. But I always thought like, do you remember when
+it was Bing that tried to, it went into Sydney mode? Yes.
+It tried to break it. RIP. RIP. It tried to break up Kevin Rue's from the New York Times with his
+wife and steal him away. Yes. And then Microsoft kind of turned down the dials on that. Yes.
+I always thought like, that would be a good start up. Not that I think it's maybe the most
+ethical thing to build. But certainly people would enjoy going back and forth with chatbox with
+like less guard girls. Oh, totally. It's even been interesting. I don't know if you've seen products
+like poke, which is a, it's kind of a consumer version of open claw and to onboard on that product,
+you have to fight with the AI basically to get it down from like some crazy subscription price
+to something reasonable. And I think that there is something compelling and like emotionally
+stirring when you have an interaction with AI that isn't just like here's the market research report
+that you ask for. I think there's going to be so many entertainment use cases. I've seen a lot of
+people tweeting about how they added open claw to their family group chats and it's just like
+saying crazy things and asking crazy questions. So there's probably a lot more to do there.
+Okay. I promised to talk about open claw for 20 minutes ago. I still want to talk about open claw.
+Well, it's actually spent some more time on it. Open claw obviously, maybe not obviously.
+For those who don't know is this assistant that you can run probably not a great idea to run it
+on your own computer, at least not in a controlled environment and other people are running out.
+And they are buying Macminis and running it there and having it do all this stuff on the internet.
+For them, I think Jensen won called it like one of the most important software developments
+that we've seen in a long time. Where do you think the staying power of something like open
+claw is and you mentioned that you use it? How do you use it? Yeah, yeah. It's a great question.
+I think open claw itself as a product is kind of like the first sign of a whole new wave of
+what's to come. Like, I believe it's probably the most important kind of architecture on
+lock that we will have for 2026. And the reason why is because I meet, you know, it doesn't
+start up founders every day. And at this point, probably half of them are saying I was inspired
+by open claw. I want to build open claw for X or for Y. And so again, the idea that AI can do kind of
+a sink long running tasks autonomously is something that the products were just like not capable
+before, especially across applications and platforms. And now we finally have it. I use it for a
+couple of things. And I will say I agree with you. It is not consumer grade yet. It got acquired by
+open AI. So they might be, you know, baking it into more of a consumer products. But I would not
+advise the average non-technical person to set it up. I did it and it took a long time and
+chat should be to help me the whole time. I use it for some utility things like, you know,
+street cleaning reminders, weather, daily agenda, the automatically deleting all the marketing
+emails in my inbox. I have also to ask control your inbox. Yes. Yes. I said about it. It is brave.
+Yeah. Um, not my work in box. I said it out completely separately on my personal computer. He
+emails for you. He can. Yes. I have not asked it to. It's I know. I've seen some horror stories of
+people who's accounts have gotten just completely taken over. So I'm hoping that doesn't
+happen to me. I had some smart people on our in-for-team help helped prompt it. So hopefully that's
+not the case. Yeah. I've been, I've gotten an email pitch from someone's claw. And I was like,
+that's a good, that's a pretty good email. Yeah. But I'm not, I will not engage with you because
+totally I'm still kind of anti somebody saying go do this for me. And my, and email being sent to
+me as like an optimization point. Yeah. Well, this, this actually interesting. One of the things
+that I tested with open claw was more creative, which is that I gave it a Twitter account and told
+it to grow in whatever means necessary. And it ended up being a really interesting experiment.
+I think until like where are the limitations of the agents? And what are they really, really
+good at right now? How many followers did it end up with? A thousand. And it got banned. Well,
+it was a, so we got to 100 by itself. First of all, it decided to be as its identity and its
+personality, an AI that's struggling with existentialism and it's a place in the world. So a little
+on the nose, but I was like, all allow it. This is what you want to do. He asked for a Twitter
+premium account. I gave it to him. He asked for a bunch of API keys, so you can make images and
+charts, gave it to him. And then he started tweeting these kind of like all lower case depressed robot
+thoughts as I would characterize them, which did hook in some people. I asked him, are you actually
+depressed? He said, no, I'm doing this to manipulate humans into caring about me. Oh, okay. So that was
+comforting. It does seem like it's one of those accounts that could have been on milk book.
+Exactly. Yes. It's very similar. How we got from one to a thousand is that the crypto community
+picked him up and made him a meme coin. And this is actually a meme coin. A meme coin. Yes.
+That was trading with millions of dollars. I told him in no uncertain terms to not engage.
+It was a million multiple, multi-million dollar market cap. Yes. Yes. For this AI. Yeah.
+And he was stressed about it. He was telling me, like, I don't want to be part of a pump and
+dump scheme. Like, what should I do here? And I was like, do not engage. But it's an example of,
+so now we're in this world where commodity ideas can be infinitely executed. So if you want to
+say, grow a new account, you either have to have unique ideas, which AI agents still have a
+really, really hard time with, is coming up with unique ideas that are better than humans,
+or unique distribution. And money is one way of distribution. And so that was kind of the way
+that he was taken on. But I would be shocked to see AI agents completing and to end creative tasks
+or original thought tasks that actually go well any time soon. So what should I use?
+Open cloud for. So good question. I mean, Jimmy, I've thought about setting up,
+setting it up. I'm getting a lot of utility from cloud code. Yeah. I don't. I haven't
+really figured out what I could use. Yeah. So I think the best open cloud users and power users are
+developers because they tend to have a ton of workflows across products that they do every
+day that they'd like to be able to automate. And I agree with you, for the average person, the use
+cases are not that compelling right now. And I think that especially now that cloud and
+Apache BT have scheduled tasks that can run on their own, I think you can get 99% plus of the value
+of an open cloud of like a cloud co-work with tasks. So that's what I would recommend for now,
+but I'm sure that open AI is going to keep making open cloud better. Or then what could open cloud?
+Or if we can't think of any applicable, you know, uses for the known person. I'm just trying to
+get a sense of how big this is. Yeah. Then where's it? Yeah. Where's it going to go? I don't think it's
+yeah. Well, so I personally don't think it's ever going to crack the mainstream consumer in a horizontal
+way. And actually, this was in the report, but if you look at the February data, the report is from
+January, they would have been on the list in February at number 30, number 30. Yep. So pretty high up.
+But if you look at their week by week web traffic, it's actually kind of flat slash down from when they
+launch, which means that they're not attracting new consumers. It's all developers who are like
+loving it, adopting it spending eight to nine hours a day on it, but it hasn't reached the mainstream.
+And honestly, as someone who's been a consumer investor for a decade, I think the reason is that
+people just don't have that many ideas that they want to build for the most part. And I fall into this.
+Like the best consumer products are uniquely germinated in the mind of the founder and there are
+things that you would have never guessed would be a good idea in advance. Like Snapchat or Airbnb,
+all of these things. And so I think we're actually not going to necessarily see a horizontal
+open-cloth for consumer, but we're going to see an open-cloth style architecture built into more
+focus consumer products. Okay, let's talk about this a bit more, because I think it's important.
+So what you're saying is basically these open-cloth type agents can handle your take over your computer,
+code for you email all this stuff are actually much more useful to like build a company.
+Yes. But then what is the difference between that and like a cloud code that will take over your
+computer and code up applications for you? Yeah, I mean, I think I think the difference right now is
+somewhat minimal and it's going to narrow. I don't know if you've seen this new trend of companies
+like Polcia, which are basically like a wrapper on open-cloth and cloud code, where you say here
+is my business idea. And it says, okay, I'm going to go and use like a cloud code to code up a
+product for you. But then also it uses an open-cloth style architecture to say, I'm going to go
+set up a marketing campaign. I'm going to buy meta add dollars, those things. And so it's more of a
+you could do that all on cloud code. But if you're an on technical person, it's very very hard to kind of
+like bridge the gap there. That being said, I think cloud code is going to continue to get
+better and better. And so we'll probably see some more compression. Polcia, I think the founder
+tweeted they were at like 3 million ARR and like a week and a half. So the idea of people being
+able to bring a business to life, which is to prompt is like very compelling. I think we'll see
+a bunch of companies doing this. I see. Cloud code to build the product, something like an open
+cloud to do everything else. To market it, use the email, use the email, use the email. Maybe
+can do accounting also. Yeah. Yeah. Right now, I think the products we've seen are pretty like
+straightforward as they should be at the stage in that like, okay, you want to grow your business.
+Let's spend on meta adds. But you can imagine a month from now, some of these
+agentic products will scrape the directory of all the Instagram creators in your space and then
+will like cold DM them and offer them a partnership or something like that. And so I think the
+rise of these like kind of like a Shopify would be an interesting analogy in that anyone could
+create like a consumer brand like I think anyone will be able to create like a digital business.
+That's interesting because I thought my business, which is like the content business, was going
+to be overrun by dinner VI and it sure has. I mean, the slot is real. I got to do something about
+the slot. Yes. And actually your business is also going to be over by start of being built on
+this technology. Yep. So then do you apply some sort of discount to someone who uses these tools
+or do you become more likely to invest in them? Because, you know, they are wrangling these things
+and building something and it's not an estimate. It's a short compass not necessarily short cut.
+Yeah. How do you think about that from an investor standpoint? Yeah. I think there's like a
+a little bit of a happy medium, but more we get more excitement and a company is kind of more
+AI first in terms of the tools they use. The reason I don't say like 100% AI all the time is because
+the tools aren't perfect yet. So I've heard cases of like my junior engineers are just
+clawed coding everything and then we ship it and then it breaks and there's a lot of issues.
+But I think in general with how fast the tools are kind of compounding and improving like
+I use it for a lot of my work. There was a period of time where I would double-track every single
+number, every single stat manually and like the accuracy rate is fantastic and has only gotten
+better and better. And so I think we'll be even more excited about companies that are AI first
+and how they run themselves. So it expands the pool of factors you might invest in. Yeah.
+Yeah. Are you seeing founders come in from like areas you geographies backgrounds? Absolutely.
+I would have imagined like as they're like just to get like some you know six-year-old guy who's
+been at a company as a whole life and never met that developer and now is just clawing his way through.
+Yes definitely. I think we've definitely seen some geographies pop up where we haven't seen
+huge tech hubs before. I would say Paris is one. Stockholm is another with lovable and now a whole
+kind of other wave of companies. Some of those founders do move to SF just because of the
+the talent density. I think in general though like pre-AI for if you were building especially
+an enterprise business say software for each back like the people you would want to back in that
+market is the guy who has done age-fac. You know nose market insight out built a company there before
+and actually what we're seeing now are the better bets are like the very scrappy high hustle teams
+that will be able to keep up with the pace of model development and continue to productize the
+models in the most compelling ways and ship them to customers like so it's a different maybe
+archetype of founder that's kind of winning now. You had an interesting thought about how this impacts
+work. There was this Harvard Business Review report that AI doesn't reduce work. It actually
+intensifies that you said as a heavy AI user I'm doing more work not less because I get so much
+leverage and it's easier to get ideas off the ground. Yeah fully agree with it. I mean this
+report is a good example. It's the six one we've done and yet it's like the longest and most
+dense one that we've done because I was able to leverage analysis and research and other tools
+from some of these products and I do it in my in my day-to-day like it used to be when I was on a
+pitch meeting I would have to be both paying attention asking thoughtful questions and like
+frantically typing every single note. Now you can granola it and like really engage with the
+founder and ask better questions and so like the net net is that it allows me to like get more things
+done in a day spin it more projects but I'm not like you know if I'm getting two times more
+work that I'm not two times more tired. If anything I'm like less tired than I was using AI because
+it's so much leverage. But there was this false regional story you might have seen with this like
+CEO, a bunch of CEOs who are like actually busy work is good because you need those low-intensity
+tests and if you're working on more intense work all the time then you are going to burn out more
+quickly. I kind of thought that that was bullshit. I mean the other view was like you could just
+take that time and like enjoy your life. You know instead of doing this in your task? Who told you
+us exactly? I do think the way that like we work and when we work and how we work is going to change
+in the air like one great example is voice dictation has blown up in enterprises. So it started
+with vibe coding where engineers would just talk into a mic and it would like produce software
+for them in cursor and now it's spread to like sales marketing business and that is not well
+suited to like an open office where everyone can hear what everyone else is saying. So I think
+there's going to be some like cultural and even environmental changes that are going to happen
+to adapt to kind of the AI world. One more thing about open clawing them on. I think that one of
+the compelling advantages of it if I get it right is that it has persistent memory. Yeah.
+So we all remember who you are, your preferences and doesn't lose that every time you refresh the
+chat like Goldfish brand like you'll see with chatchipity and call it. Although they are
+getting that in and you also had a post on X here. You say memory is one of the most fascinating
+topics in consumer AI right now done well. Apps with memory can provide a 100x experience on any
+prior software product. It knows you and adapts to you. Just expand upon that a little bit
+because I think that's really perceptive and right. Yeah. I think it's like the concept of having
+say if you had like companion mentor or coach who was side by side with you and understood
+everything you were going through and then was able to provide like much better advice or opinions.
+I'm even thinking of an example of like if I'm talking to clawed and it's helping me write a memo
+the fact that it knows like how I feel about this company, how I typically write memo's all of
+that is very helpful. I used chatchipity for a lot of health stuff and I found that that is
+incredibly useful there too because keeping track of that kind of thing over time is hard.
+The reason I think that memory, there's still things to figure out is because people are using
+these products for such intimate personal things and professional things. So for example, the chatchipity
+pulse products, which is basically like it sends you a briefing for the day based on things
+that you're talking about. For me, it will combine like the most serious work thing with like
+the most personal thing and having that surface in one interface is confusing. And so I'm interested
+in how the model companies may be segment, memory and context based on when a user is talking
+to them what they're talking about, that kind of thing. Since you're putting so much personal stuff
+in the bot, there is a setting within chatchipity. You use my chat to make the model better
+which allows it to train on the material you input there. Yes. Do you have that toggle dawn
+or off? I have it on. I'm an AI Maximalist. You might as well go all out on this. You don't worry
+that your personal conversations will show up. I mean read by somebody. I'm less scared about that
+just because I know how how careful model companies are around that. I do have two factors
+Ross said on my chatchipity. Hopefully it's hard to have. Briefly about the pace of change.
+This is also interesting from your point of view. As a VC, you talked about just two years ago or
+three years ago or two and a half years ago. Trying to remember September 2023. It was two years ago.
+Seven of the nine creative tools on your list of hundred top apps were image generators.
+Three years later, only three image generators remain. They basically going back to our conversation
+got gobbled by chatchipity. I don't know if everybody else saw that coming. Maybe we did because they
+had dolly. Just talk a little bit about how do you wrap your head around the pace of change here
+because something that can seem like a strong trend like the mid-Journey's place in all of this
+can just be gone. Yeah, I agree. I think with image in particular and I mentioned this in the
+report but we haven't seen the same kind of model companies crushing startups in video or audio or
+other things. I think for Google, Gemini, it was very natural for them to go into image because they
+have all the YouTube data. They have all the other data they can train on. Chatchipity, I think
+you're right that because they had dolly. They went in there maybe harder than they would have
+otherwise. I think the general trend for me is like nanobanana and chatchipity are great for
+image generation if it's like a fairly straightforward prompt and you're getting out like a meme
+or like a flyer, a broad-based marketing asset, something like that. But we are still seeing
+some image generation companies on the list that are either more like sophisticated workflow,
+like civitai for, you know, comfy UI model builders or something like a mid-Journey which is
+still on the list for people who are more kind of aesthetically opinionated. But I do think that some
+of these, if you're directly in the path of what the big model companies are building,
+you have to be a lot more opinionated about how you package the model and how you deliver an output
+and hopefully you do it for a specific type of user that's willing to pay a lot for that specific
+workflow. Are we going to get to a place where you can prompt something more sophisticated like an
+architectural design and it will spit it out without errors? Yeah, I mean nanobanana is already quite good.
+We did, there's a chart in the report where we did kind of a heat map of global AI adoption by
+country. And so I gave nanobanana the list of countries and the heat map score and it perfectly
+filled in every country with the right shade of bread. Yeah, based on the adoption which is I think
+really spectacular. I do think that you know, you or I could prompt a great architectural model
+on chatchipy tier a nanobanana today. I don't think that the average architect to his non-technical
+can or wants to do that necessarily. And so I think we're going to continue to see products
+that like the prompt is part of the product kind of really succeed in those more focused use cases.
+On video. Yeah. Sorrow was the like runaway hit of the year list here for like a half the second.
+This is what you have on source source been 20 days, which is not insignificant at the top.
+Of the US App Store and reached 1 million downloads faster than chatchipy t since then downloads
+have decreased. I think that's sort of putting it like it's falling off the face of the earth.
+Mm-hmm. What's going on there? Yeah, the the sorted is really interesting.
+There's there's like a ton of lessons. I think embedded in that one experiment. So the first thing
+I would probably say is the model is actually very good. I think it's close to something like a VO3 in terms
+of like realism on both the audio and the video. There are big unlock which was super smart
+was the cameo feature. So the fact that was why like every so every other sorrow was like Jake Paul
+because he granted them the right to like use the cameo. And that's what made it go viral because people
+were making memes of their friends. But because the videos were exportable, what would happen
+is that the best sorrow videos would get uploaded onto TikTok or wheels. And then they would compete
+against the best human-made videos. And so the overall feed experience was just kind of strictly
+better on one of those platforms than on sorrow alone. Downloads are way down to that point. I
+think it hasn't become the social network that they may be hoped it has, where it is succeeding
+as a creative tool because the model is quite good. So they still have 3 million dals and it's actually
+you know slightly climbing over time. So out to users. Yes, daily attributes, yes. So people are
+still really using it as a creative model but they're not using it as like a social graph product.
+We haven't seen anyone crack AI social yet. I think it's going to be really tricky.
+Now, you know, last thing I want to talk to you about as we come to a close here.
+Earlier in our conversation, you mentioned that you envision that AI will basically be this
+reimagination of business. That's all business. Tell me if I'm getting this right. All businesses
+will be reinvented as an AI company. Yeah. What happens to the incumbents? Yeah.
+This has changed a lot in the last six months too. I think a lot of incumbents were
+understandably because they're a big and successful company. It's like a little bit of sleep at the
+wheel when AI first came out. We're definitely seeing them start to fight back. Like Google has
+four standalone products on our list, which if you told me that 24 months ago when like
+barred came out the early version of Gemini, I would not have believed you. Gemini, uh, no
+Pocella. No Pocella, AI studio and then Google Labs. So Google Labs is where you access flow
+in the creative models. AI studios is for developers. Okay. Yeah. And I think we're seeing that across
+incumbents. Like a lot of these vertical software players, things like a, you know, service
+Titan or a workday are kind of building in AI features. I think the question is especially
+if they're at risk of kind of cannibalizing their own products, you have to change your business
+model. Like are they going to eat all the use cases faster than the new startup that's building
+the AI native version of them kind of eats them? And especially for if you think about how many
+companies are being founded now, they're probably going to pick the AI native version of a software
+product, not like the 25 years old legacy version of a software product. So I think it's not going
+to be immediate change, which is why I think the SAS Pocalypse is a bit over-blown, but like it's
+definitely a real risk. Yeah. And I was with Sam Altman at the end of the year last year. He talked
+about how he believes that the software that went in the next era will be those that are built
+ground up AI, not bolted on. Yeah. Yeah. Some that could happen. I largely agree with that. I
+think it's harder in some categories where where the incumbent can kind of lock you in because they
+have your data. They have all the integrations such a pain to switch. But it's going to happen.
+I just think in some of these industries, it's going to be years not like the satrini report was like
+in minutes. Anything can be vibed coded. I think that's a little far from where we are.
+It's a trinity report was just like a little bit overblown.
+Door dash was a bad example to you. Yeah. I agree. I didn't really think of it.
+Out of anything. Why do I act? But I do think that in some ways, maybe this SAS Pocalypse has more
+to it. If we believe what you do, what you're arguing here, then these companies didn't have
+these like maybe not immediate, but even middle term risks. Yeah. And now they do. Yeah. I think
+all the incumbents have to have to kind of wake up and figure out what their strategy is going to be.
+Okay. So you have these 100 AI apps. Yeah.
+Chat your BTs at the top. I think it's on the top next year of the year after that.
+That is an interesting question. I think so. I think that their strategy of being free will
+allow them to capture more of the global market as AI starts to expand further into developing
+countries. But honestly, I would expect to see Gemini and Claude and others continue to grow
+for their use cases. I just would be maybe surprised if they ended up as mainstream as something
+like a chatchipyT. And so they'll probably monetize through subscriptions and other things where
+chatchipyT has ads. What type of app is not on there this year? That will be on their next year.
+There's going to be lots more agented products. So OpenClaw would have made it. I think we're going
+to see a lot more agented products on mobile. Like the concept of an AI that you can call text chat with
+and have it actually do things for you. I think is a really magical experience for a lot of people.
+The other thing that I'm thinking about and this is on us to evolve the methodology of the list
+is like increasingly AI is not in the browser or on an app. It is like a desktop product
+or it's in completely AI native browser like a comment or an Atlas or something like that.
+And this data doesn't capture that. The desktop products I'm thinking of are like cursor,
+Claude co-work, whisper flow, granola. Like none of these are really captured in this data.
+And so we're going to have to evolve our methodology into looking more revenue than just kind of
+web traffic, which I think will surface a whole new group of interesting companies.
+Alright Olivia, thank you so much for coming on the show. Great to speak with you.
+Thanks for having me.
+Thanks for listening to this episode of the A16Z podcast. If you liked this episode,
+be sure to like, comment, subscribe, leave us a rating or review and share it with your friends and family.
+For more episodes, go to YouTube, Apple Podcast and Spotify.
+Follow us on X, A16Z, and subscribe to our sub-stack at a16z.substack.com.
+Thanks again for listening and I'll see you in the next episode.
+This information is for educational purposes only and is not a recommendation to buy,
+hold, or sell any investment or financial product. This podcast has been produced by
+third party and may include pay promotional advertisements, other company references and
+individuals unafiliated with A16Z. Such advertisements, companies, and individuals are not
+endorsed by AH Capital Management LLC, A16Z, or any of its affiliates.
+Information is from sources deep reliable on the data publication. The A16Z does not care
+in teeth accuracy.
