@@ -153,6 +153,10 @@ class PodcastPipelineTracker:
         
         # Stage 5: Published?
         self._check_published_status(ep_id, episode_info, status)
+
+        # Derive overall status enum from stages + reasons
+        stage_reasons = {name: (status['stages'].get(name) or {}).get('reason') for name in self.STAGES}
+        status['status'] = self._derive_status_enum(status['stages'], stage_reasons)
         
     def _normalize_name(self, name: str) -> str:
         """Normalize name for comparison."""
@@ -225,6 +229,29 @@ class PodcastPipelineTracker:
             'timestamp': status['stages'].get('published', {}).get('timestamp'),
             'reason': None if title_found else 'Not in data.js yet (run export and push to site).'
         }
+
+    def _derive_status_enum(self, stages: Dict, reasons: Dict[str, Optional[str]]) -> str:
+        """
+        Map per-stage booleans (and optionally reasons) to a single status string.
+        Happy path:
+          needs_download → needs_transcription → needs_analysis → needs_insight → needs_export → complete
+        Blocked_* statuses can be added later when we classify hard failures.
+        """
+        st_flags = {k: bool((stages.get(k) or {}).get('complete')) for k in self.STAGES}
+
+        # TODO: inspect reasons for hard failures and return blocked_* statuses when needed
+
+        if not st_flags.get('downloaded'):
+            return 'needs_download'
+        if not st_flags.get('transcribed'):
+            return 'needs_transcription'
+        if not st_flags.get('analyzed'):
+            return 'needs_analysis'
+        if not st_flags.get('insight_created'):
+            return 'needs_insight'
+        if not st_flags.get('published'):
+            return 'needs_export'
+        return 'complete'
     
     def _print_summary(self):
         """Print summary of pipeline status."""

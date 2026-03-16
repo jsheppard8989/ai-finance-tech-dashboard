@@ -116,12 +116,13 @@ def _export_episode_status(site_dir: Path):
     for ep_id, data in episodes_in.items():
         info = data.get("info") or {}
         stages_raw = data.get("stages") or {}
+        # stages_raw already has the canonical per-stage state from pipeline_tracker
         stages = {
-            "downloaded": bool(stages_raw.get("downloaded", {}).get("complete")),
-            "transcribed": bool(stages_raw.get("transcribed", {}).get("complete")),
-            "analyzed": bool(stages_raw.get("analyzed", {}).get("complete")),
-            "insight_created": bool(stages_raw.get("insight_created", {}).get("complete")),
-            "published": bool(stages_raw.get("published", {}).get("complete")),
+            "downloaded": bool((stages_raw.get("downloaded") or {}).get("complete")),
+            "transcribed": bool((stages_raw.get("transcribed") or {}).get("complete")),
+            "analyzed": bool((stages_raw.get("analyzed") or {}).get("complete")),
+            "insight_created": bool((stages_raw.get("insight_created") or {}).get("complete")),
+            "published": bool((stages_raw.get("published") or {}).get("complete")),
         }
         stage_reasons = {}
         for stage_name in ["downloaded", "transcribed", "analyzed", "insight_created", "published"]:
@@ -135,6 +136,7 @@ def _export_episode_status(site_dir: Path):
             "published": info.get("published", ""),
             "stages": stages,
             "stage_reasons": stage_reasons,
+            "status": data.get("status", "unknown"),
         })
     # Sort by published date descending (parse common RSS-style dates)
     def parse_published(s):

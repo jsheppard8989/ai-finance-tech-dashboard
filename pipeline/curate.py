@@ -7,6 +7,8 @@ Feed list (podcast_feeds.txt) is the relevance filter; we do not apply per-episo
 import xml.etree.ElementTree as ET
 import urllib.request
 import json
+import shutil
+import hashlib
 from pathlib import Path
 from datetime import datetime, date
 
@@ -242,6 +244,47 @@ def curate_episodes(matched_episodes):
         curated.append(ep)
     return matched_episodes, curated
 
+
+def download_audio_for_approved(episodes):
+    """
+    Download audio for approved episodes that don't yet have an audio_file.
+    Feed list + current-month window decide relevance; this just ensures we
+    attempt a download once we know about the episode.
+    """
+    AUDIO_DIR.mkdir(parents=True, exist_ok=True)
+    downloaded = 0
+    for ep in episodes:
+        if ep.get('audio_file'):
+            continue
+        audio_url = ep.get('audio_url') or ''
+        if not audio_url:
+            continue
+
+        safe_podcast = ''.join(c if c.isalnum() else '_' for c in (ep.get('podcast') or '').lower())[:40]
+        safe_title = ''.join(c if c.isalnum() else '_' for c in (ep.get('title') or '').lower())[:60]
+        h = hashlib.md5(audio_url.encode('utf-8')).hexdigest()[:8]
+        filename = f"{safe_podcast}_{safe_title}_{h}.mp3"
+        path = AUDIO_DIR / filename
+
+        # If file already exists, just wire it up.
+        if path.exists():
+            ep['audio_file'] = str(path)
+            ep['filename'] = filename
+            continue
+
+        try:
+            print(f"  ↓ Downloading audio: {ep.get('podcast','')[:40]} – {ep.get('title','')[:60]}")
+            with urllib.request.urlopen(audio_url, timeout=120) as resp, open(path, 'wb') as out:
+                shutil.copyfileobj(resp, out)
+            ep['audio_file'] = str(path)
+            ep['filename'] = filename
+            downloaded += 1
+        except Exception as e:
+            print(f"  ⚠ Failed to download audio for '{ep.get('title','')[:60]}': {e}")
+
+    print(f"  ✓ Downloaded audio for {downloaded} approved episode(s)")
+    return episodes
+
 def save_curation_log(all_episodes, curated):
     """Save curation log for reference."""
     STATE_DIR.mkdir(parents=True, exist_ok=True)
@@ -303,13 +346,18 @@ def main():
     with_audio = sum(1 for ep in all_feed_episodes if ep.get('audio_file'))
     print(f"  ✓ Episodes with matching audio: {with_audio}")
     print(f"  ? Unmatched audio files (no matching feed episode): {unmatched_audio_count}")
-    print(f"  📥 Episodes pending download: {len(all_feed_episodes) - with_audio}")
+    print(f"  📥 Episodes pending download before auto-download: {len(all_feed_episodes) - with_audio}")
 
     # Feed list is the filter; all episodes from feeds are approved (no per-episode relevance score).
     print("\nApproving all episodes from feed list (feeds are pre-curated)...")
     all_matched, curated = curate_episodes(all_feed_episodes)
 
+    # Auto-download any approved episodes that don't yet have audio.
+    curated = download_audio_for_approved(curated)
+    with_audio_after = sum(1 for ep in curated if ep.get('audio_file'))
+
     print(f"\n  APPROVED (will transcribe or download): {len(curated)}")
+    print(f"  🎧 Approved episodes with audio after auto-download: {with_audio_after}")
     
     # Display results
     print("\n" + "=" * 70)

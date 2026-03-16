@@ -101,18 +101,31 @@
     </div>
 
     <div class="card">
-      <h2>Episodes in pipeline</h2>
-      <p class="muted" style="margin-bottom: 0.75rem;">Any podcast episode live on RSS that is not on the Main Insight column should appear here: last 3 completed (all green), then in-progress, then available from RSS not yet processed.</p>
+      <h2>Episodes to process (Clawbot todo)</h2>
+      <p class="muted" style="margin-bottom: 0.75rem;">Every current-month episode from your feeds that should end up on the Main Insight column, with a status that tells Clawbot what to do next.</p>
       <p id="episode-summary" class="muted" style="font-size: 0.85rem; margin-bottom: 0.5rem;"></p>
 
-      <h3 style="font-size: 1rem; color: #b8c5d6; margin: 1rem 0 0.5rem;">Episodes in pipeline (stage view)</h3>
+      <div class="muted" style="font-size: 0.8rem; margin-bottom: 0.75rem;">
+        <strong>How to clear this list:</strong>
+        <ul style="margin-left: 1.1rem; margin-top: 0.35rem;">
+          <li><strong>Needs download</strong>: ensure <code>curate.py</code> has run; auto-download will attach audio or log a failure.</li>
+          <li><strong>Needs analysis</strong>: run transcript analysis (podcasts) so episodes enter the database.</li>
+          <li><strong>Needs insight</strong>: run the insight promotion step so each analyzed episode gets a Latest Insight card.</li>
+          <li><strong>Needs export</strong>: run website export + push so new insights are on the live site.</li>
+          <li><strong>Complete</strong>: nothing to do; episode is fully on site.</li>
+        </ul>
+      </div>
+
+      <h3 style="font-size: 1rem; color: #b8c5d6; margin: 0.5rem 0 0.5rem;">Episodes in pipeline (stage view)</h3>
       <div style="overflow-x: auto;">
         <table id="episodes-table">
           <thead>
             <tr>
+              <th>Status</th>
               <th>Podcast</th>
               <th>Title</th>
               <th>Published</th>
+              <th>Age (days)</th>
               <th title="Downloaded">Downl.</th>
               <th title="Transcribed">Transcr.</th>
               <th title="Analyzed">Analyzed</th>
@@ -124,8 +137,8 @@
         </table>
       </div>
 
-      <h3 style="font-size: 1rem; color: #00d4ff; margin: 1.25rem 0 0.5rem;">Available from RSS (not yet processed)</h3>
-      <p class="muted" style="font-size: 0.85rem; margin-bottom: 0.25rem;">Live on your feeds, within age/cutoff; not in DB yet. Run Curate step to approve and add to pipeline.</p>
+      <h3 style="font-size: 1rem; color: #00d4ff; margin: 1.25rem 0 0.5rem;">New on feeds (not in pipeline yet)</h3>
+      <p class="muted" style="font-size: 0.85rem; margin-bottom: 0.25rem;">Live in your RSS feeds, within the current window; not yet in the database. Clawbot should run the Curate step until this is empty.</p>
       <div style="overflow-x: auto;">
         <table id="available-rss-table">
           <thead>
@@ -138,8 +151,9 @@
           <tbody></tbody>
         </table>
       </div>
-      <p id="available-rss-empty" class="muted" style="display: none; margin-top: 0.25rem;">None. All feed episodes in window are already in the pipeline or on Main.</p>
+      <p id="available-rss-empty" class="muted" style="display: none; margin-top: 0.25rem;">None. All feed episodes in the window are already in the pipeline or on Main.</p>
       <p id="episode-note" class="muted" style="margin-top: 0.5rem; font-size: 0.8rem;"></p>
+      <p id="pipeline-health-check" class="muted" style="margin-top: 0.5rem; font-size: 0.85rem;"></p>
     </div>
 
     <div id="stage-reason-modal" onclick="if(event.target===this) closeStageReasonModal()">
@@ -270,13 +284,52 @@
         criteriaTbody.innerHTML = '<tr><td colspan="2" class="muted">Re-run export to load criteria from pipeline.</td></tr>';
       }
 
+      function getEpisodeStatus(st) {
+        if (!st.downloaded) return 'Needs download';
+        if (!st.transcribed) return 'Needs transcription';
+        if (!st.analyzed) return 'Needs analysis';
+        if (!st.insight_created) return 'Needs insight';
+        if (!st.published) return 'Needs export';
+        return 'Complete';
+      }
+
+      function getAgeDays(ep) {
+        const raw = ep.published_date || (ep.published || '').slice(0, 25);
+        if (!raw) return null;
+        // Try ISO first
+        let iso = null;
+        const mIso = raw.match(/(\d{4})-(\d{2})-(\d{2})/);
+        if (mIso) {
+          iso = `${mIso[1]}-${mIso[2]}-${mIso[3]}`;
+        } else {
+          const mRss = raw.match(/(\d{1,2})\s+(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\s+(\d{4})/i);
+          if (mRss) {
+            const months = { jan: 0, feb: 1, mar: 2, apr: 3, may: 4, jun: 5, jul: 6, aug: 7, sep: 8, oct: 9, nov: 10, dec: 11 };
+            const monthIdx = months[mRss[2].toLowerCase().slice(0, 3)];
+            if (monthIdx !== undefined) {
+              const d = new Date(Number(mRss[3]), monthIdx, Number(mRss[1]));
+              iso = d.toISOString().slice(0, 10);
+            }
+          }
+        }
+        if (!iso) return null;
+        const today = new Date();
+        const pub = new Date(iso + 'T00:00:00Z');
+        const diffMs = today - pub;
+        return Math.floor(diffMs / (1000 * 60 * 60 * 24));
+      }
+
       function renderStageRow(ep) {
         const st = ep.stages || {};
         const reasons = ep.stage_reasons || {};
+        const statusLabel = ep.status || getEpisodeStatus(st);
+        const ageDays = getAgeDays(ep);
         const cells = [
+          statusLabel,
           (ep.podcast || '').substring(0, 28) + (ep.podcast && ep.podcast.length > 28 ? '…' : ''),
           (ep.title || '').substring(0, 45) + (ep.title && ep.title.length > 45 ? '…' : ''),
-          (ep.published || '').substring(0, 22)
+          (ep.published || '').substring(0, 22),
+          ageDays == null ? '—' : String(ageDays)
         ];
         stageKeys.forEach(function(k) {
           if (st[k]) {
@@ -328,14 +381,24 @@
         return stageKeys.every(function(k) { return !!st[k]; });
       }).length;
 
-      document.getElementById('episode-summary').textContent = episodes.length === 0 && availableRss.length === 0
+      const episodeSummaryEl = document.getElementById('episode-summary');
+      episodeSummaryEl.textContent = episodes.length === 0 && availableRss.length === 0
         ? 'No episodes in pipeline yet. Run curate → fetch so approved episodes appear here.'
         : (episodes.length + ' in pipeline · ' + completedCount + ' completed · ' + availableRss.length + ' available from RSS (not processed). Status: ' + (episodeStatus.last_updated ? formatDate(episodeStatus.last_updated) : '—'));
       document.getElementById('episode-note').textContent = episodeStatus.note || '';
 
+      const healthEl = document.getElementById('pipeline-health-check');
+      if (episodes.length === completedCount && availableRss.length === 0 && episodes.length > 0) {
+        healthEl.textContent = '✅ Pipeline is clear: all tracked episodes are fully processed and on site; nothing new on feeds waiting for curation.';
+      } else if (episodes.length === 0 && availableRss.length === 0) {
+        healthEl.textContent = '✅ Pipeline is clear: no episodes in window from your feeds.';
+      } else {
+        healthEl.textContent = '⬜ Pipeline has work remaining: use the Status column above and the legend to decide the next step for Clawbot.';
+      }
+
       const counts = report?.counts || { ...(status?.counts || {}), ...(status?.last_steps || {}) };
-      const countsOrder = ['podcast_episodes', 'podcasts_analyzed', 'latest_insights_total', 'overton_terms_total', 'overton_terms', 'ticker_mentions', 'pundits', 'newsletters', 'daily_scores'];
-      const countLabels = { podcast_episodes: 'Podcast episodes', podcasts_analyzed: 'Podcasts (exported)', latest_insights_total: 'Latest insights', overton_terms_total: 'Overton terms', overton_terms: 'Overton terms', ticker_mentions: 'Ticker mentions', pundits: 'Pundits', newsletters: 'Newsletters', daily_scores: 'Daily scores' };
+      const countsOrder = ['podcast_episodes', 'podcasts_analyzed', 'latest_insights_total', 'overton_terms_total', 'ticker_mentions', 'pundits', 'newsletters', 'daily_scores'];
+      const countLabels = { podcast_episodes: 'Podcast episodes', podcasts_analyzed: 'Podcasts (exported)', latest_insights_total: 'Latest insights', overton_terms_total: 'Overton terms', ticker_mentions: 'Ticker mentions', pundits: 'Pundits', newsletters: 'Newsletters', daily_scores: 'Daily scores' };
       const tbodyCounts = document.getElementById('counts-table').querySelector('tbody');
       tbodyCounts.innerHTML = '';
       for (const k of countsOrder) {
