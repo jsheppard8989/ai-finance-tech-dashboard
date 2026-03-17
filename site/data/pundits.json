@@ -1,5 +1,29 @@
 [
   {
+    "id": 74,
+    "name": "Travis Kalanick",
+    "slug": "travis-kalanick",
+    "bio": "Founder of Cloud Kitchens and former CEO of Uber.",
+    "known_for": "His work in the transportation and food delivery sectors.",
+    "last_seen": "2026-03-17 10:15:16",
+    "last_episode_title": "Stealth Startups and the Digitization of the Physical World",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-03-17",
+    "last_main_idea": "Invest in companies that are digitizing the physical world and transforming traditional industries through technology."
+  },
+  {
+    "id": 75,
+    "name": "Michael Dell",
+    "slug": "michael-dell",
+    "bio": "Founder and CEO of Dell Technologies.",
+    "known_for": "Building one of the world's largest technology infrastructure companies.",
+    "last_seen": "2026-03-17 10:15:16",
+    "last_episode_title": "Stealth Startups and the Digitization of the Physical World",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-03-17",
+    "last_main_idea": "Invest in companies that are digitizing the physical world and transforming traditional industries through technology."
+  },
+  {
     "id": 73,
     "name": "Sam Altman",
     "slug": "sam-altman",
@@ -202,29 +226,5 @@
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-03-09",
     "last_main_idea": "Investment in AI technology, particularly in personal AI agents like OpenClaw, could offer substantial returns as the technology matures and becomes more integrated into daily life."
-  },
-  {
-    "id": 40,
-    "name": "Garrett Langley",
-    "slug": "garrett-langley",
-    "bio": "Founder of Flock Safety, an electrical engineer turned entrepreneur.",
-    "known_for": "Developing a neighborhood safety system that evolved into a nationwide real-time crime prevention platform.",
-    "last_seen": "2026-03-12 19:38:37",
-    "last_episode_title": "Real-time Crime Prevention and the Future of Policing",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-03-11",
-    "last_main_idea": "Investing in technology that enhances real-time crime prevention and clearance rates can lead to more effective law enforcement and safer communities."
-  },
-  {
-    "id": 38,
-    "name": "Joseph Stiglitz",
-    "slug": "joseph-stiglitz",
-    "bio": "Nobel Laureate Economist and Professor at Columbia University",
-    "known_for": "Author of 'Road to Freedom, Economics, and the Good Society'",
-    "last_seen": "2026-03-12 19:38:30",
-    "last_episode_title": "Monetary Matters: Economic Consequences of War and AI's Impact",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-03-11",
-    "last_main_idea": "The current geopolitical tensions and the rise of AI technology present both risks and opportunities, with the potential for economic disruption and the need for strategic investment in sectors less affected by AI."
   }
 ]

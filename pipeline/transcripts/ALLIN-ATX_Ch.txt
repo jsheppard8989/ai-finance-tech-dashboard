@@ -1,0 +1,1485 @@
+I don't know if some of you knew I was an angel investor in some companies.
+On the count of three, what's my favorite angel investment of all time?
+One, two, three.
+Thank you.
+Give it up.
+Travis Kalenik.
+Appreciate you.
+Alright.
+Wow.
+On a big news day, Travis is here on a very big news day.
+We spent, wow, I guess, like seven years, just in the lab building.
+Last year, every year I ask, hey, you want to come to them and saw them and you want to
+say, no, it's like, I'm going to just chill.
+I'm building next year.
+Hey, you know, it's always a moment when you understand.
+I'm stealth.
+I stealth.
+I'm stealth.
+Nobody knows where I am.
+Nobody knows what I'm doing.
+The employees are not allowed to put the name of the company on their LinkedIn.
+Thousands of employees that weren't allowed to put the company name on LinkedIn.
+I mean, incredible.
+And I'm like, okay, and their parents thought they worked for the CIA.
+Yeah.
+And then he's like, and by the way, Jack, you can invest.
+You can't announce it.
+And you have to spend it.
+And then you can't mention you're in an investor.
+It's like, okay, no problem.
+I'm just happy to be able to capital.
+Is he like, kind of like secret saying what he wasn't supposed to say?
+Yeah, right.
+And now we're doing that.
+Just now.
+You said, well, you know you're out.
+Now, let's go.
+You're out.
+It's out.
+You came out of stealth today.
+It's so funny.
+It's so great.
+You came out of stealth.
+Well, you've talked a little bit.
+You came to all ensemble.
+Is that fair?
+You say you're coming out of stealth today?
+Is that right?
+Well, look, let's just start with what that meant for our employees because again, imagine
+if you're at a multi-thousand person company.
+And every single employee has stealth on their LinkedIn, including sales people, including
+recruiters, like it was, they were, they were live in life on a hard mode.
+It's got a fun too, right?
+I mean, yeah.
+It was like, got a cool.
+What is this?
+Why are there?
+Why is this massive density of stealth start up people in Los Angeles?
+What is happening over there?
+Yeah.
+Also, technically, the name of the company in different countries was very generic names
+of companies.
+I mean, everything was designed to be stealth, right?
+So we operate in 30 countries in the U.S.
+The Kitchens product is known as Cloud Kitchens.
+In Korea, it's kitchen valley in the Middle East, it's Nama in Latin America, parts of Latin
+America.
+It's conceding us to quilt us.
+I mean, you get the idea.
+You can't remember all the names at all the co-workers to think about it.
+Yeah.
+I think it's true.
+We're in China.
+Yeah.
+It's like all over the place, yeah.
+But things have gone really well.
+And you've been a little inquisitive.
+So tell us about the branding today that you're announcing, and then maybe some of the
+acquisitions and evolution of the company, you're not just renting kitchen space.
+Those who, I mean, know how I thought about things in the Uber day, a lot of this stuff's
+not surprising.
+I would often talk about digitizing the physical world.
+I think I even did it in all of some it.
+The quick version of this, I'll try to do it quickly.
+But it's like we know the bits world, the computer world, the one that Michael Dell, essentially
+invented for us, CPU storage network, these are three core computing resources when you
+go to computer science class your first day, three core computer resources.
+CPU manipulates a bit, storage storage the bits, network moves bits from point A to point
+B.
+But if you're digitizing the physical world, you're treating atoms like bits.
+You're building an atoms-based computer, and I'll explain what I mean to say I know
+this little out there.
+CPU manipulates bits, what manipulates atoms, manufacturing.
+Storage storage bits, what stores atoms, real estate.
+Network moves bits from point A to point B, what moves atoms, that's transportation, or logistics.
+So you have these three core computing resources in an atoms-based computer.
+The name of my company was very obtuse and purposely designed to be as boring as hell
+was called city storage systems.
+So that's digitized real estate.
+And an atoms-based computer, our first computer being a food computer.
+What does that mean?
+Manufacturing, real estate, and logistics for food.
+And so you start to get there, and the idea, the mission was infrastructure for better
+food, the idea was, can you get a meal that's prepared and delivered to you?
+So efficient that it starts to approach the cost of going to grocery store.
+If you can do that, you do to the kitchen, what Uber did to the car.
+But in the Uber day, the roads were there.
+The cars are unused.
+You just had to put an app in the app store.
+It wasn't that easy, but kind of that easy.
+In this world, you can't do this on a restaurant.
+Restaurant doesn't have, when I left Uber, 13% of all sits in front of Cisco miles
+were Uber miles.
+You can't get, and that was 10, you nine years ago.
+You can't get there on food, on restaurants.
+They have like 20% capacity, Uber eats indoor dash fillet, but the infrastructure
+to do high capacity, high scale sort of industrial production is just not there.
+And the logistics just not there, it just doesn't work.
+That's why on e-commerce, you go through Amazon, big ass warehouses with awesome logistics.
+You've got to do the same thing when food when food goes to e-commerce.
+That was a lot.
+Okay, so bottom line is it's awesome.
+We do this food computation stuff.
+We're doing more computers now.
+And so the name of the company is called Adams.
+And let's say the mission is physical automation to transform industries and move the world.
+And so we have our food to be talked about, then we do we're doing mining.
+Mining as in mining data mining, we're talking about Adams guys.
+Yeah.
+We do some mining data mining too, but the point is is physical mining.
+So automation of mines.
+And the mission there is more productive mines to power earth's industries, right?
+So it's got this industrial Adams vibe to it.
+And then on the transport side, it's a wheelbase for robots.
+Because if you're doing specialized robots, not humanoids.
+You need to be able to move and act in the physical world.
+But the minute you're moving, you've got to have a wheelbase.
+So it's just part of the equation.
+And a lot of people go look at Tesla's great, look at, look at Waymo, awesome.
+They're cruising around Austin, of course.
+But there's so many things that move.
+It's not just a right-sharing thing.
+And so obviously including mining equipment that's doing it's thanks.
+That's the general sort of idea.
+And we acquired a company on the mining stuff, a company called Pronto.
+Or it's about to close.
+It's where we're inches from closing, is the way to put it.
+What were they doing?
+What was their business?
+Pronto.
+Automating mining equipment.
+Were they based?
+They're based in San Francisco.
+So you know, we're starting to talk about this backstage.
+But there's some folks I talked to in the mining industry who mentioned, you know,
+like the the biggest issue with mining.
+Number one is just surveying like finding the locations, right?
+Is there an advantage to be created there?
+Because I know there's a couple startups that are trying to be really smart
+about selecting locations to get the targets out of the ground.
+Yeah.
+And then the other one is like, well, can you go deep?
+Because pretty much anywhere on Earth, you can get whatever you want
+if you're willing to go deep enough.
+But the cost is, is distance squared, right?
+So the energy cost is like, how deep are you going to the second power?
+So becomes, you know, geometrically more expensive to go deeper.
+But the deeper you go, the more you're able to kind of not worry
+about getting the right location.
+So does automation unlock that capacity?
+I know what it definitely does.
+I mean, yeah.
+I mean, also it's like, man, just boring company has some good stuff going.
+Like, I hope we were like, we're doing the mining thing like,
+and boring goes makes, you know, some good tunnels for cars to do the thing.
+But they're like, there's some kind of boring mechanism, automated,
+to do some of this.
+But to be honest, there's, yeah, they had this, this thing is like rare earths.
+I don't know why they put plural rare earths isn't it?
+Rare earth, I don't know.
+But the, but it's not rare.
+Yeah.
+But it's not rare.
+It's uncommon minerals.
+Because it's not rare.
+It's what you have to do the land is aggressive.
+And what's rare is the is where the where are the places they'll let you do it?
+that you can also sort of get people to.
+When you automate, you can go to a lot of places.
+Well, first is all the minds that exist are way more productive.
+And the second is you can then sort of justify going to places.
+You wouldn't have been able to go before,
+because you don't have as much of a labor footprint
+or a safety issue or a whole bunch of other things that then.
+So it was become hospitable if it's regulated.
+If it's like, I don't want to live there.
+It's the end of the earth.
+Yeah.
+You can send robots and have people monitoring them remotely.
+Yeah.
+And this is like a future that feels like a little bit like science fiction.
+Look, we're here in Osay.
+You got to do this shout out to Tesla and all the things.
+Because I like to sort of break down the physical AI stack.
+Includes not just like, oh, yeah, computation.
+And I've got to have physical AI models.
+And I've got to do all the things you sort of think of.
+What about land development?
+That should be in that stack.
+What about chemistry?
+That needs to be in the stack.
+Manufacturing needs to be a stack.
+When you look at the stack, you're like, damn.
+Tesla's got this.
+They are the Google of this era,
+which is what I mean by that is in the 2000s.
+If you were doing a startup in the 2000s,
+the first question you would get is,
+why isn't Google going to kill you?
+Or why isn't Google just going to do it?
+Right.
+There's going to know that you killed you.
+And before that Microsoft.
+And before that is Microsoft, the late 90s.
+Uber had a time, 2010.
+Yeah.
+What if Uber puts that in the end?
+Come on.
+It's like, dude, this is Uber.
+Yeah.
+But, you know, I think in the physical AI space,
+that's sort of a Tesla thing.
+But there's so many things to do.
+You've got to shoot your shot.
+Yeah.
+And rumors that, hey, you might not be done with self-driving.
+Something that you were very early on.
+How do you think about what you're seeing in the playing field of self-driving?
+Because my Lord, you know, way most making great progress.
+Tesla's making great progress.
+Pick a winner.
+Like, pick a winner between Tesla, way more.
+Uber.
+Or like, where might even be Uber or actually.
+Uber seems to be building a network.
+Yeah.
+I mean, like, number of pick a winner.
+Yeah.
+Yeah.
+Look, I think there's more noise.
+If there's more bark than there is bite right now.
+Look, I think way though, obviously, the head, the existence proof is there.
+Their issue is manufacturing and scale.
+And urgency and fierceness.
+Yeah.
+Come on.
+Let's go.
+Yeah.
+You know, Uber had an autonomy project back in the day to,
+and they have a different strategy these days.
+I haven't been there for a while.
+So, but the point is, is that you, so you got way more than you've got Tesla.
+Fundamentals.
+Science.
+Hard mode.
+Times a hundred.
+And the question is, do they get there in what time scale?
+If they, like, honestly, everybody's like, could happen tomorrow.
+Could happen in five years.
+And I think that it's like, when does the chat GPT moment happen for vision?
+It's basically the thing, let's call it vision without other sensors.
+So super inspiring, but like, what's the timeline on it?
+Yeah.
+Those are the pace.
+This is basically the, and then there's a lot of other little guys that don't really have the stuff I believe yet.
+There's nobody standing out just yet of, of the others.
+Do you think, or at a point now?
+Like, obviously now that you're getting into more of these kind of autonomous systems that move around,
+like, do we have these vision language action models tuned and ready for prime time?
+There's, there's been a conversation like, who's going to have the Android, the operating system for vision language action,
+where I can use my voice, tell it to do something, and it knows what I'm saying.
+And then it identifies the objects and does the thing in the physical world.
+Do those models exist today, or they're still work?
+And is that like a Google OS or like, where does that OS come from?
+Look, I think there's a, this is an area of a lot of energy, a mix of research and implementation.
+I think there's a lot of hope and interesting stuff.
+I mean, the high level is we all remember what happened when you used chat GPT 3.5,
+and you're like, holy shit.
+Yeah, it's legit.
+Whoa, and then it went to four, and you're like, okay, like some stuff just changed.
+The world just changed, and I can sort of connect some dots and shit getting real.
+Is it about to happen?
+Is it about to happen for physical AI?
+And that's what this is about.
+Yeah.
+And the fun part about it is machine learning, deep learning, this kind of thing for many years,
+decades was like, inscrutable, I don't know what the thing is thinking.
+It just spits out an answer, and I know it's correct.
+Well, now you can have a conversation with it, right?
+Like imagine if it's driving your car, and there's different agents, and one's just driving.
+The other's like, yo, look out over there.
+Yeah.
+It's like, oh, just like how we roll.
+It looks like something does that.
+You're like, honey, that's like 200 meters away.
+We're going to be okay.
+Yeah.
+Jason, I don't call each other honey, but I got you.
+Yeah.
+Sweetie.
+You know.
+Okay.
+So anyways, that was odd.
+It wasn't okay.
+I didn't mean it.
+I didn't mean it.
+I didn't mean it.
+Yeah.
+Yeah.
+Yeah.
+Okay.
+Language is a beautiful compression mechanism that humans use a hundred watts of energy.
+Like, and you put that in the scheme of things of like AI training, AI energy, the power
+plants that are built to do the thing that isn't even at human strength yet.
+Okay.
+The whamom machine takes a hundred times more energy to drive a whamom than a human does
+to drive a whamom.
+So, so language.
+There are still things that humans are great at, and that unbeat, like the goat.
+We're still the goat at certain things.
+Language is this epic compression.
+We need to find ways to compress because like when you think about how how we first started
+looking at the physical world is we saw everything.
+And you know what guys in this is sort of obvious?
+Like, it doesn't matter what the cloud is doing if I'm driving.
+But like, the car doesn't know that.
+It's pulling in every fricking data point and processing everything.
+And it's, you know, look, they've been about sort of carving out the things that don't
+matter and things like this.
+But there's ultra awesome versions of this.
+And you can imagine how you can use language or things that look like language to communicate
+either amongst agents or sort of safety systems with a driving system to sort of get very
+efficient answers and to identify safety issues very efficiently.
+People don't know that you've moved to Texas as of or most people don't know.
+But it's out there.
+Yeah.
+You moved here in December.
+So now you're a resident of Austin.
+Yeah.
+I was about.
+Thank you.
+We're exciting for me.
+We're getting to play some backgammon.
+Backgammon cards.
+It's hard.
+We're having a good job.
+So I've had a place on Lake Austin since 2021.
+And I go there.
+I'm an avid water skier.
+Like, you're impressed about what is king.
+I haven't decided.
+Like, so I've had a place in Austin for five years.
+Frick and love it.
+It's my weekend.
+I would go 15 weekends a year.
+What do you think is going to happen in California?
+It's pretty messed up.
+I look.
+I grew up in Cali.
+I grew up in Los Angeles.
+My parents were born in Brad and Los Angeles, which basically makes them the founders
+of LA.
+Okay.
+But.
+So I have a lot of heart.
+Like, my whole family, everything.
+You know, it's pretty.
+It's pretty.
+It's.
+Yeah.
+I don't want to.
+A lot of a feel that way.
+I don't want to get them out.
+The play.
+It totally.
+It's just a place you grew up as your home, you know, when you have to leave.
+But it's getting weird out there.
+And it feels like it's getting weirder.
+And at some point, that's it's just too weird.
+It's too weird.
+Do you think everyone's going to leave?
+I mean, it started with Elon and it was like,
+Yeah, he was going to want Elon here.
+And then he's like message received.
+Right.
+And then it kind of worked.
+It's way down the tech industry.
+And then he kind of, you know, world of people building businesses and whatnot.
+And now it's kind of gotten so broad in terms of the.
+I Joe Rogan comedy, music, New Yorkers, restaurant tours.
+I mean, this place is.
+I'm not even done.
+I'm just.
+I'm just.
+Everyone leaving LA or sorry, leaving California.
+It's almost like working down this path of.
+But my, the rest of my teams, like, were when we're moving, you know, they're like,
+How are you dealing with that?
+So that was the question was like, got to be on the lake.
+There are literally dozens of startups CEOs of.
+Call it successful or growing companies that I talked to.
+Who are like, dude, I want to leave, but I got employees here.
+I got an office here.
+I got a facility here.
+I built stuff here.
+Yeah.
+How am I going to leave?
+Yeah.
+I totally got it.
+It's a real thing.
+So look, I think like most things.
+Sort of when it's time.
+And it feels painful to do something.
+Sometimes it's actually not as bad as you think.
+And you just got to make the move and lead and do it.
+And so that's kind of what.
+That's kind of the process.
+They're almost like a morning process I went through.
+And that's just what it is.
+And you're setting up a team here.
+Yeah, of course.
+And I got that office right on the lake.
+Did you get that?
+It's the one.
+Yeah.
+No, it's all good.
+We're going to go shaking right now.
+But I'm going to chat ski to work.
+No, literally.
+It's just great.
+Last year we were driving up the thing.
+And I was like, wow, I wonder who owns that.
+He's like, I will.
+And I was like, did you look at his like.
+I looked at that.
+And I was like, that would be a nice one.
+But the truth is, you know, and I had a couple people move here a couple of years
+ago.
+And they all had the same reaction.
+Oh my god.
+I'm living in a place that's twice as big for half as much.
+The people here are dope.
+The food is dope.
+Everybody here is got this sense that we're building the future.
+And it's just fun and world positive.
+And, you know, for me, I got to live New York, LA San Francisco.
+I did three of the great cities in this country.
+This one feels the most like home to me.
+Which is a very strange feeling to me.
+Yeah.
+It feels like everybody here wants to build the future.
+And it's very diverse.
+You know, like all these different industries and people pursuing stuff.
+I think this is the future.
+Yeah.
+Here's the thing.
+Like you go to San Francisco.
+And I still have a little nostalgia when I go to San Francisco.
+Just having built Uber there and the whole thing.
+I still get the, you know, the butterflies.
+Just I did, you know.
+But it does have something magical.
+You just can't take it away.
+And then you look at all of these bike lanes and these bus lanes
+that never have a bus or a bike in them.
+And cost $400 million.
+And it's literally, it's sort of like this subconscious desire
+to choke the city off.
+Now remember, I look at things through roads.
+That's how I think.
+So I'm just like, obviously, the city is totally busted.
+Yeah.
+They literally took market street.
+And they're like, what would be the optimal way to f*** this up
+and virtual signal at the same time?
+And they're like, yeah, buses.
+Like, nobody's on the bus.
+Nobody takes the bus.
+It's a beautiful small town.
+That street was empty.
+That whole street is empty and it's hanging red.
+Okay.
+So we all bitch and complain nonstop.
+Okay.
+On a road trip.
+Why do you?
+Like, I'm number one.
+I get it.
+But Uber, when are you leaving?
+Okay.
+On the chat, you're the best.
+Yeah.
+Okay.
+So let me find out.
+There's a couple glasses of wine in public.
+We're facing freedberg.
+Yeah.
+And he's like, you know, I think there's a better way.
+And then there's like, Darth freedberg.
+In group chat.
+He's like, these people.
+These f*** more.
+How's that?
+They're destroying society.
+He is like, Darth freedberg.
+Yeah.
+And my life.
+And my life is he the most.
+Correct.
+Especially after a couple glasses of wine.
+Yeah.
+When I started drinking, he takes a lot of a clean.
+He takes pictures.
+He's like, fourth beverage.
+Yeah.
+Oh, it's worth staying.
+And then what's the group chat?
+Yeah.
+And then I'm like, I'll go and attack this congressman on Twitter.
+Yeah.
+And then I'm like, I'll go and attack this congressman on Twitter.
+Yeah.
+They're going to delete the tweet.
+Yeah.
+I deleted the tweet.
+Okay.
+So there's a group of people trying to raise $500 million to create like a tech slash business coalition
+to go to Sacramento, which arguably is something that everyone's left and avoided doing forever
+because no one wants to spend time in freaking Sacramento fighting politicians.
+But it's almost like we're all falling off a cliff.
+It's time to do something.
+Do you think there's a realistic path pack?
+The people can actually get their shit together.
+That even if $500 million came in, there's a way to kind of turn around the state.
+Fix some of the policies.
+You think it's too late.
+I don't think that.
+But look, I would go.
+Look, anybody who's doing anything to fix things.
+I'm like, how yeah, let's do something.
+The issue is we all grew up in the tech world, which was like a libertarian place where
+you stay out of politics and.
+It was that kind of vibe.
+It was just everybody was like that.
+And I want to make stuff.
+Yeah, I just, I'm not, I don't do that.
+And that's obviously, this is not a thing anymore.
+In California, I think the, the ballot initiatives are very powerful.
+And there's very clean ways to get something on the ballot.
+Love that.
+I think that your DA's who've decided we do not enforce crime at all anymore.
+That's like a sweet spot.
+Like I believe that I sort of have this aphorism.
+Aphorism is truth and justice are the immune system for society.
+When when the immune system is suppressed, all the social ills flare up.
+So look for the places where truth and justice are being deteriorated are being degraded
+and say, how do we get at that?
+Because if you get at that, everything else downstream will be better.
+So that's kind of how I look at things and how I also determine whether the world's getting better or worse.
+When I say weird, I'm talking about truth and justice.
+That's what I mean when I say, oh man, it's getting weird.
+It's getting weirder.
+Which means it's weird.
+I'm just talking about truth and justice.
+Well, I mean, and you look at the homeless industrial complex.
+You look at Chesa-Boodeen, which the all-in-law acts myself and the pod.
+Like we, we literally led the recall of him.
+And then you had the same thing going on in LA where they were just like, if somebody...
+Gas going.
+Yeah, Gas going.
+I mean, we basically lost the script.
+You're running the city for the criminals.
+It literally is like a Batman movie.
+It's like, Bane.
+Well, you want to arrest the criminals.
+Look.
+I was born in the darkness.
+I mean, these guys are fucking lunatics.
+Yeah, look.
+I know police officers in Los Angeles who are no longer police officers.
+And these are lifelong guys who protect and serve.
+That's in their bloods or DNA.
+They want to protect people.
+They want the bad guys to be dealt with.
+And they, they almost have PTSD from what it is like to want to serve.
+And see bad things happening and not being allowed to stop it.
+Yeah, nobody's got their back and they're not allowed to do their job.
+It's crazy.
+And it's getting weird.
+Okay, hey, I want to just go back to A.
+Sorry for the darkness.
+I don't know.
+I think it's good.
+I was trying to induce.
+I'm trying to induce dark free bird.
+Well, I brought her.
+Yes.
+I mean, someone bring me a tequila.
+I'll get going.
+Yeah, let's do it.
+Can we get a couple of tequila?
+I went on this podcast yesterday.
+And the first hour was middle of the road.
+I was talking about tech and science.
+And then like politics came up.
+He's like, so socialism.
+And he said, like, you lost it.
+And then you were like, he's like, the energy with 10x.
+Who is this?
+Yeah.
+So it'll come out in a couple of weeks.
+But I was like, it got me going.
+Okay.
+I want to talk about physically.
+I want more time.
+Yeah.
+So now that you're doing this.
+I saw a presentation of a day.
+Someone showed like a video of a squirrel jumping from one tree to another tree.
+And they're like a tenth of a watt or something.
+Yeah.
+Like the biology is tuned.
+And it's so perfect in terms of its efficiency of energy utilization to do physical
+things.
+And we're taking these like big things of metal and motors and like actuators.
+And if you add up or you compound all of the inefficiencies in the system.
+It's like 1200 watts to get the robot to walk four foot like break apart.
+Not just the software, but the hardware layer.
+And where we add in evolving things like actuators and the materials and everything else
+that's going to make physical AI work and scale.
+I look a lot with the questions you're asking are going down humanoid lane, which is like
+this thing.
+And everybody talks about how do you do the hand.
+It's almost like terminator to type obsession with the hand, which is fair.
+Like it's a very critical part of it.
+I mean, look at the, I like to look at the Achilles, the quote unquote Achilles tendon of any of these
+machines.
+And you're like, that's where the action is.
+This, this is a couple other places.
+Look, I'm in the non-humanoid space.
+I mean, but mechanical engineers have been dealing with actuators.
+And, you know, all the sort of electro mechanical sort of interactions that make machines do certain things.
+But like, I'm in the food machine space.
+So I can tell you how to open a paper bag and put a, put a bowl in a paper bag without tearing the paper bag.
+But I am less into the, I forget the name Peria.
+There, there, the, the senses to understand awareness and touch.
+Um, I'm not in that game.
+Um, so when you're mining, you're like, you're not like, you know, you're not threading it.
+You're not playing tennis.
+Um, certain things may be equivalent to tennis.
+So look, the bottom line is we're seeing obviously all you have to do is go online and look at where the humanoids are going over time and how much better they're getting.
+Um, it's wild.
+And it's happening so freaking fast.
+But any humanoid demo starts with dancing and martial arts.
+Yeah.
+And we're sort of down specialized robot lane, which is gainfully employed robots.
+Yeah.
+So I know I didn't totally answer the question on, like, the technology piece.
+But I just like, do you agree that there's probably like a big opportunity for venture money?
+Yes.
+We're going to go in a real science.
+Yeah.
+Yeah.
+For sure.
+Because if the physical AI stack manipulation and all of the related things around it is massive.
+And so if you get the software working, it's almost like the hardware has to catch up.
+Yeah.
+We got a lot of, there's a lot of ideas.
+Well, actually, it's good that you bring this up.
+You know, one of the things you pioneered at Uber was capitalized a weapon.
+You were very thoughtful about, hey, if we can take this capital off the table, then that's
+going to let's call it what it is.
+It's going to be advantage versus the competitors.
+And these other competitors couldn't get that capital.
+That's now.
+I think people have seen that playbook.
+And they're like, hmm, someone's like, that was smart.
+Let me try.
+And it's at a different scale.
+Now that you've come out of stealth.
+Yeah.
+Now that you've got, and people are starting to understand just starting today, how big your vision
+is capitalize a weapon.
+Yeah.
+This is, I guess, in your plan.
+Yeah.
+Well, I mean, here's the thing.
+Right.
+So capital as a strategic weapon for its own sake is not a thing.
+But when it is actually a strategic weapon, then it is a thing.
+What I mean by that is like in the Uber world early days, if you didn't have capital
+didn't matter how good your app was.
+Because Moss is going to put a billion dollars in your competitor.
+And you're going to lose 20% market share tomorrow.
+So a critical competency, in fact, to your world class competencies.
+One of them has to be raising capital and you need to do it better than everybody else.
+And if you don't, you are going to lose.
+Let me ask one follow up to that.
+Yeah.
+You got it.
+But the Middle East.
+Yeah.
+I've heard theories the last couple days that big capital seekers are kind of
+right now because of what's going on in the Middle East with the Iran War.
+Dubai, Qatar, Saudis are kind of going to close up the capital flowing to the US right now.
+And is that real?
+I mean, you think that's a real threat?
+So look, our Middle East business was supposed to go public in January.
+And the Saudi market went down 20% over like a two month period.
+And that was like a massive damper on the situation.
+Now part of that was because the oil prices had gone down so dramatically.
+And if you went into KSA, you went to the kingdom.
+Everybody's like, we need oil prices to go up.
+You know, that's the other side of the equation.
+So I don't know what hat look.
+I don't.
+I'm not in the market raising money right at this moment.
+And this is a two week old thing that I, you know, look, I see the news just like everybody else.
+And I'm not out there calling wallet war is going on and saying, hey, guys, you got some money.
+So I don't know exactly what's going to happen.
+But if you are an optimist and you're like, okay, this isn't.
+This is not going on forever, just like the tariffs.
+It was the end of the world.
+And then it wasn't very quickly.
+Yeah.
+If you're an optimist about this situation and it won't be the end of the world.
+Maybe even a better world.
+Then we get to a better place.
+And I think progress abundance, the golden age happens.
+And a lot of it is about all the things that are happening in AI in physical AI.
+And and and just the productivity gains that are coming in very massive ways.
+Yeah.
+Yeah.
+I mean, it was shock shock and awe.
+And then hey, now we've got a steady state.
+And let's hope that's what happens in Iran is that we can depose this evil dictatorship.
+Well, I'm sorry, replace it with something a little more stable.
+And related to this before we wrap, they're going to China.
+They're big trade deal being negotiated.
+What do you hope comes out of this Chinese thing?
+And what did you learn in China?
+Yeah, what would you learn?
+And what do you think would be great for America?
+Like, what would you like to see and be like, man, that's going to set us all up.
+No more.
+Well, here's the thing.
+If you go to China right now.
+And you go and just take a tour of the manufacturing that's going on there.
+Just the manufacturing base.
+The cities, especially if you've gone to China for a couple decades in a row.
+You're like, damn.
+Yeah.
+You so let's just do two things.
+You go to Shenzhen, which before felt like Kansas City.
+But 50 years ago and really humid, which I guess is Kansas City sometimes.
+But you go there now and it's like one up in Singapore.
+Right?
+Or so that's the city view.
+You're just experiencing a very awesome, you're like, this is advanced.
+And you just get the vibe and it's everywhere.
+And then you go and you start seeing the manufacturing base.
+And you see what like Xiaomi is doing or any of the other.
+There's so many scrappy guys.
+Bad ask guys everywhere in your like.
+Uh.
+They're hungry.
+So does anybody remember the 2008 Olympics in Beijing?
+Anybody?
+Does anybody?
+Does anybody?
+This is a little bit.
+You're down rabbit hole.
+Does anybody remember the opening ceremony?
+And you're like, these mofos are taken over.
+At least that's what they want to do.
+That's shit's happening.
+So I don't have any issuers.
+This is not negativity for me.
+I'm like these guys are killing it.
+The best idea is winning.
+They're fiercely, they're fiercely going after truth and progress.
+And they're making shit happen.
+Let's step up our game.
+Okay.
+But we can also have a friendly game.
+Like we don't have to like be like the Detroit pistons in the 90s.
+You know?
+Yes.
+There's a way into the stands.
+Yeah.
+Yeah.
+You know?
+There's a way to do this right.
+And there's a way to do it like adults.
+I hope that's where we would end up.
+I have a employee who, because we, we, for, for a long time where the largest,
+built kitchen builders in China.
+I've been a play in China.
+Has an American wife.
+Okay.
+They both live in China.
+They're both from China originally.
+Okay.
+But one of them, it would be great for him to work here.
+On some things I'm doing.
+It's very hard to make that happen right now.
+Now, that selfish like I like maybe selfish like I'm like,
+There's a person I've been working with for over a decade.
+I'd love to continue here.
+Maybe there's other bigger picture items that I'm not dealing with.
+I'm not the geopolitical guy.
+But I'd love for that to be sort of.
+Good.
+Relations and good like like if you have a significant
+other it, who is an American citizen like,
+Do we have to make that hard?
+Is an example.
+Some normal see would.
+Something.
+You know, I'm just saying now I agree like.
+There are ways to do immigration properly.
+Like we ended up super bad.
+Don't even get me started.
+But there's also there's good migration to like a lot of great innovators.
+All over the place came from other places for their own version of the American dream.
+God bless.
+Freeberg.
+And we don't have to.
+That doesn't have to be a negative thing.
+And so I'd like to see more that.
+And yeah, China's trying his wild.
+So let's let's keep our on the ball and let's let's give him run for their money too.
+Give it up for Chica.
+I love that.
+That's good.
+Good to see you, brother.
+Wow.
+Michael Dell.
+My Lord.
+Well, I missed the opening.
+We jumped to the music.
+But you started Dell computer here in Austin with a thousand bucks.
+42 years ago in my dorm room at Dobby at UT.
+About 10 days before I finished my freshman semester.
+And it's been working out pretty good.
+Yeah, it's been some bumps in the road.
+But generally generally worked out.
+Okay.
+Yeah, we'll have about 140 billion in revenue this year.
+So yeah, it's okay.
+It compounds over time.
+Yeah.
+Yeah.
+You know, you start small and just keep adding.
+There you go.
+That's how it goes.
+Yeah.
+It's just that easy.
+But why Texas?
+Like I think this is an important thing.
+We're in Austin.
+Jason lives here.
+David Sachs lives here now.
+More people are moving from California to Austin.
+Why Austin?
+Why Texas?
+Why is it work here?
+And it's getting better.
+They're just always worked.
+You know, I think Texas has had a low tax.
+Pro grows.
+Environment for a long time.
+And pro.
+You know, sort of progressive business climate.
+And you know, if you sort of look at the growth of.
+The Texas economy relative to the rest of the United States without Texas.
+You know, Texas just kind of looks like a better version of the US economy.
+And, you know, you've now you've got.
+Austin is sort of just about in the top 10 cities in the United States.
+So you've got.
+When that happens, you'll have four of the 10 largest cities in America in Texas.
+One out of 10 children born in the United States, born in Texas.
+More New York Stock Exchange companies in Texas than in New York or anywhere else.
+And, you know, you've got the University of Texas here in Austin, which I always think of as kind of the wellspring for a lot of the companies that are here, certainly ours.
+And, you know, long history of of.
+Innovative pioneering spirit and entrepreneurship.
+And it's been a fantastic place for us.
+And part of this, I think, freeberg and Michael is.
+What's happened in the other great cities or what were one great cities.
+My hometown New York got to spend 10 years in LA in the last 12 in the Bay area.
+And what's happening there is incredibly un-American.
+And they're decelerating when compared.
+And I think maybe the gap maybe in the disparity from these two locations has gotten greater, yeah.
+And you're seeing a lot more people say life there here in Austin seems a lot better than the life I'm living in New York, LA or in the Bay area.
+Well, I've got a lot of new friends and neighbors, you know, that have come in certainly.
+I mean, if you look at the migration statistics, Texas has attracted an enormous number of people.
+And, look, I mean, when you look at the environment here and compare it to the other kind of situations that are going on, it's very attractive.
+But, you know, it's kind of been great for a long time.
+So it's not really news to us that have been here a while.
+Yeah, Elon had a great experience when he was building the giga factory over here.
+They let you do stuff here.
+Yeah, that's really, you know.
+They let him build it, which he said it was like an incredible experience for him because in California, they didn't let him build.
+And, you know, these factories.
+And in fact, that Tesla factories that didn't free month was just an old ancient factory that he was able to retrofit.
+So there's something going on here as well with the data centers.
+And that's actually, I think very close to what you're working on it down.
+Maybe you could talk a little bit about the data center boom that's going on in Texas that maybe people aren't paying attention to.
+Sure, well, there's, you know, obviously been an enormous build out of AI infrastructure.
+And that requires, you know, lots of new data centers, lots of power.
+Texas, you know, has an enormous advantage there relative to other states.
+A lot of power, a lot of land.
+And it's, and you can build stuff, right?
+So there's, there's been a massive build out, particularly in some of the cities and towns in West Texas,
+where there's not a lot of population.
+And so they're not really too opposed to having data centers out in the middle of nowhere, where there's land and power.
+And so, yeah, I mean, the, the demand for tokens is enormous.
+You know, we've been building these AI data centers, not just to your Texas, but around the world.
+And, you know, the growth in that has been tremendous.
+You know, we, we introduced the first 800 server.
+It was literally a couple of weeks before chat, GPT was announced.
+And, you know, the progression of our business in that area has sort of gone from like 2 billion to 10 billion to 25 billion to this year.
+It'll be like 50 billion.
+So, so tremendous growth.
+And when, when you think about what these models are creating,
+you know, there's this phase change that's happened in computing, right?
+We, we had 60 years of calculating computing.
+Now we have machines that are thinking and helping us think.
+And so the demand for that kind of intelligence and, you know, the models are amazing,
+but they're also the worst delivery and they're continuing to improve.
+And so, we just see a lot more demand than supply.
+And it's happening not just in the hyperscalers and the cloud service providers.
+It's happening in 4,000 enterprises where we building these, these del AI factories.
+It's happening in sovereign AI, you know, like the Palantir and, you know,
+people want to protect their data, but also use AI on it.
+They want to bring the AI to where their data is.
+And, you know, when this kind of started a few years ago,
+we had some really sophisticated large companies think of like Fortune 100.
+And they started, you know, buying these AI servers from us.
+And, and they kind of knew what they were doing, right?
+And we said, well, what are you doing?
+And they, they were, they were kind of taking building their own models.
+They were taking open source models.
+They were running them.
+Some of them were, were algorithmic traders or, you know, derivatives of machine learning.
+And, of course, they needed a lot of help in doing that because it was sort of a complicated thing.
+So, about two years ago, we put together this product that we, we called the del AI factory.
+And now we've got 4,000 plus of these.
+And it's kind of running rampant across enterprises.
+How do you think about the payback time on the investment that's being made?
+The administration put in place this accelerated depreciation rule.
+Yeah, that's very helpful, actually.
+So, just for folks to understand that a little bit, like, if you spend a hundred billion dollars this year building
+and data centers and buying infrastructure for those data centers, you get to write off
+a hundred percent of that this year.
+Correct.
+To deduct it.
+So, you don't pay taxes.
+You pay way much fewer tax.
+And that's in place for 10 years, I think.
+That's in 10 years.
+Right, right.
+Celebrating the investment.
+How much is that helping versus how are you seeing folks rationalize the investment relative
+to the return they're going to make an over what time scale?
+This is still the big question.
+Is the money really there?
+The hyper scale is maybe they're starting to come up.
+And usage and states are we kind of, hey, wait and see.
+We don't know yet, or folks are getting 20 percent ROI C starting in year one after they've
+made the investment.
+You know, I can tell you, in our business, in our company, we definitely see plenty of use cases
+where the ROI or the improvement in productivity efficiency is 20 percent or greater.
+The right away gets there.
+I mean, it's not like you just hit a button and you get 20 percent.
+Right.
+There's work required in thinking through the processes.
+And it's worth a little bit describing that.
+So, you know, when you have any company, its processes and tools and technology are a function
+of what was available at the time, it created those things.
+And so, what you sort of have to do is step back and say, all right,
+what's the trajectory of the improvement of the tools?
+What outcome are we trying to create?
+And now let's simplify and standardize the processes, get all the tools together, get all the data together,
+and then apply the technology.
+And this really has to be done in kind of a top-down way.
+You can't sort of do it spontaneously.
+And silos are not going to spontaneously improve themselves.
+And often that means that you're completely changing the way the organization works.
+It's like a wholesale re-architecture.
+It's a re-imagining of the way a company works.
+I mean, the way I described this to our team about three years ago is,
+you know, we were going to have a new competitor five years from now.
+That would be two years from now.
+Every business that we're in, except they were going to be faster and more innovative and more successful,
+and lower cost, and they were going to put us out of business.
+And the only way we were going to prevent that is we're going to become that company.
+And here's how we're going to do it.
+And you know, excited, some people, it's carrots and people,
+but I actually believe that that's what's going to happen.
+And so, we've been dramatically changing our business.
+I would say the biggest benefit by far is speed.
+We're much faster at being able to apply innovations.
+And so, you know, you look at our infrastructure business last quarter group, 73 percent.
+Well, that's kind of unusual for a business of this size.
+And you know, this quarter we guided that it would grow even faster, like 100 percent.
+You've lived through a couple of paradigm shifts here.
+The PC Revolution, obviously you led that.
+And then you, of course, had a, you know, client server,
+then network revolution online, internet, mobile, mobile.
+Yeah.
+So each one of those, we saw massive disruption.
+We're talking in the green room about it.
+We used to have a typing pool.
+There was a mail room.
+All of these things got abstracted away by the PC and networked PC revolution.
+But it took a decade or two.
+And this one's happening a lot faster.
+Yeah.
+Yeah.
+This one, I think it's, it's like, you know, a quarter is like a year.
+Maybe it's five times faster or something like that.
+But, but back to your question, I, I would say maybe 10 or 15 percent of large companies
+have really figured this out.
+And the rest of them are kind of fumbling around.
+And, you know, there's a tendency when you hear about a new technology.
+Like, oh, let's just, let's just go do it.
+You know, show the boss.
+Hey, we did AI.
+You know, the board said we got to do AI.
+Yeah.
+We got to do AI.
+We did AI.
+Are you proud of your boss?
+Yeah.
+Yeah.
+And look at what I made.
+Exactly.
+And I also think, you know, as an important point about about this, which is, you know,
+the barrier to technology adoption is not technology.
+It's culture and leadership and courage.
+Right.
+And so willingness to change.
+Yeah.
+And, you know, if you, if you're in a business that you don't think is changing very much or,
+you know, heart changes really hard.
+Right.
+You have to be very uncomfortable.
+You're like, well, we're going to stop doing that.
+Well, we don't need this anymore.
+Particularly if your bonus is dependent on not messing things up.
+But let's go, let's use the internet as an analogy, which you saw up close.
+There are businesses that were internet transition successful.
+They made the transition.
+Maybe macy's dot com versus sears robot, right?
+Right.
+Right.
+Maybe macy's did a better job of taking advantage of the internet then sears.
+But then there was internet native businesses that seemed to blow them all out.
+And maybe Amazon's a good example or CSN stores, whatever.
+They'd be way fair, et cetera.
+But what's the right way to think about this evolution in the industry's generally?
+Are we going to have businesses that are going to transition successfully in those that aren't
+that are going to die?
+And is this really going to, are we going to see AI native businesses in every industry?
+Come in and just disrupt everything.
+I believe we will.
+And certainly, you know, when you talk to the calls and brothers that strike, they'll
+tell you that the rate of growth of the 2025 cohort companies is about four times faster than
+the 2018 companies.
+And so every year, the new batch of companies are growing faster faster because they're starting
+with all these new tools that, you know, because they see all the new companies on their platform.
+Exactly.
+And so when you think about an incumbent company, okay, that already exists, it has, let's say,
+it's got brands, it's got balance sheets, it's got, you know, customer relationships, whatever
+stuff, right?
+Okay.
+But that's sort of like, those are aspiring value assets.
+If it doesn't change quickly and get onto the other side of this, I think it will go out
+of business, which is exactly the speech I gave to our team, you know, three years ago.
+I think, you know, you have to be bold and you got to go make those changes to not only survive
+this, but to try and, you know, I think about it, how do we prepare our company to be ready
+for the 2030s?
+Right.
+Isn't it like it's much more, it's kind of the storyline.
+There's more to do than there ever was.
+It's like when the internet or kind of came around, here's doesn't just need to sell locally, they can sell
+to the world.
+Well, sure.
+I mean, this is the point.
+And the AI looks everyone way, when we have better tools, we can do way more things, right?
+And, you know, when I hear people say, oh, you know, maybe we're just going to have all these great tools
+and we won't do more things.
+We'll just do the same things with fewer people.
+It doesn't sound right to me.
+I mean, they'll be some of that.
+But I think most of it will be, we're just going to do a whole lot more things.
+We're going to solve a lot more problems.
+We're going to accept the right scientific discovery.
+That's why we're really excited about it.
+We're going to invent all sorts of new things.
+We're going to solve all sorts of problems that haven't been solved.
+And, you know, that's, that's super exciting.
+What do we have wrong on infrastructure?
+So, the original build cycle looked a lot like everything's in a data center.
+Everything's got to sit there.
+That's where all the intelligence, it'll all be in these kind of hosted proprietary cloud models.
+Do you think that it's open source?
+Is it distributed on the edge?
+Where does the intelligence, where does the inference sit?
+And how does that really change or kind of rearchitect the industry, do you think?
+It's really all the above.
+I mean, it's not like there's one answer.
+I mean, certainly if you go to any industrial company or natural resources company,
+advanced manufacturing, retail logistics, there's tons of inference at the edge.
+And that's growing very, very fast.
+And, you know, we make a lot of that embedded equipment.
+Certainly, you know, telcos are doing that too.
+I mean, it's pretty much every industry.
+Think about wherever data is being created.
+You want the AI infrastructure and the inference, you know, close to the data.
+You know, there, there has been this sort of rebalancing as companies that figure it out.
+You know, sort of everybody loves the public cloud, right?
+Until they get the bill, right?
+And when they get the bill, they're like, this is supposed to save us money.
+Yes.
+It costs quite a bit more.
+So, you know, the lowest cost token is going to be the one that's generated right where the data is on the device.
+You're going to have, you know, tokens being generated on your phone, on your PC, in every embedded piece of equipment.
+And look, we have an interesting perspective on this business because we have 10,000 customers,
+where they embed our product in their product.
+This is, you know, think medical devices, security, all sorts of things in hospitals and industrial plants.
+And, you know, any kind of, you know, data-driven activity, right, require some kind of computing network storage infrastructure.
+Yeah.
+So, when you look at the desktop where you started, it's coming full circle.
+And this must be, at least, very interesting or intriguing to you that you see this open cloud movement.
+Everybody trying to buy the most powerful desktop they can.
+And all these hobbyists, who were your customers who were calling you up and ordering from, you know,
+dial their, their bespoke PC.
+Now they'll.com.
+What did I say?
+Dell.com.
+Yeah.
+You said ordering from Dell, calling us up.
+They, they order online use.
+They order online now.
+Yes.
+They call the internet.
+Yeah.
+Yeah.
+It works out pretty well.
+But this is incredible that they're like all stacking computers and running, you know, local models.
+I was just thinking back to how much the first couple of computers I owned cost $4,000.
+In 1980 dollars.
+And then the prices came down.
+You could buy a Dell for 500 bucks, 800 bucks, like really nice laptops for that price.
+Use the promo code all in.
+That was, that was a joke.
+But do you think there's a world where we're going to start to see.
+The desktop because people want to protect that data.
+They want to protect the skills they're building.
+They don't want to give it to Sam Altman, put it in a cloud somewhere.
+They don't want to give it to Google, whoever it happens to be.
+And that the desktop revolution comes back and everybody's got a $10,000 desktop.
+Is that coming?
+I don't know if everyone will have $10,000 desktop, but that would be great.
+I mean, you know.
+So we have this Dell portal on a hugging face.
+And we have all these open models.
+And we qualify them on every kind of machine we have.
+And there's been enormous progress in the open source models.
+You know, Google has these Gemma models, GMMA and they work really, really well on small machines.
+You know, opening AI has their open source models.
+You've got the Nvidia Nemotron models.
+So you've got, you know, enormous ecosystem of open source that is, you know, thriving and certainly open clawed.
+You know, there'll be some good discussion about that.
+How many people have set up open claw ratio hand?
+Oh, my Lord.
+That's about what a 20% of the audience here.
+Yeah.
+So, you know, autonomous agents.
+Big deal and certainly inside companies.
+There's going to be a lot more autonomous agents.
+There are significant security requirements.
+You need to go with that.
+We need to, we need to be able to authenticate and validate who these agents are and what they're doing.
+And, you know, have the right controls and, and that's where the thing.
+Yeah.
+And, uh, your take on, uh, AGI and when we're going to hit it,
+like you actually think about super intelligence and AGI and the, the two sets of problems that could solve their eye.
+And do you have a personal definition that you like to use for those when you're talking internally with your team of how things are moving?
+I, I don't really know Jason.
+You know, I think if it feels like with the latest releases, we're talking about this backstage,
+you know, the Gemini 3.1, the Opus 4.6, the Open AI 5.4,
+it feels like we sort of hit some kind of threshold where the just the quality of the models are just tremendous.
+And, and when I listen to what our teams are able to accomplish in a day or two weeks that would have taken them,
+you know, a few months or nine months time, you know, it's just amazing the speed of innovation.
+Yeah.
+And so, it, it seems to be continuing and we get all the reinforcement learning and there's also tons of private dark data
+that these models haven't been applied to.
+And that's sort of what's happening with these, I think the auto research is thought that's the key with auto research,
+the capacity to take a standard model and then retrain it on your private data and keep it private
+and build an advantage for your organization based on the history of your data that no one else has.
+That seems to be what a lot of folks are thinking about that have the capacity.
+But if you were to start a company today that was not in computing and you were to build a business from the ground up,
+how would you architect your people and your organizational principles as an AI kind of first knowing what you know about computing
+and where things are headed, are you hiring people, are you hiring a bunch of people to run a bunch of agents?
+How do you think about architecting a new business today?
+It's a great question, I don't really spend a lot of time thinking about that, you know, I'm thinking about how to, how do I,
+Well, the rest of us are thinking about it.
+How do I run more company?
+Yeah, that's hard enough.
+Yeah, everyone I talked to, that's the question, everyone goes to these off sites and they're like,
+I'm actually doing this in my management team on Monday or doing like a tear down be like, hey, how would we build the business differently today?
+No, I mean, what we've been thinking a lot about is the sort of, this, this reimagining question.
+Yeah, you know, sort of, all right.
+We know the trajectory of the tools, one of the tools going to be in 272829 and how do we accelerate, you know, our path to that?
+How worried are you about social issues?
+So AI recently ranked as the most unfavorable term of a list of terms, including.
+Yeah, so it was somewhere between the ISIS, the Democrats, ISIS and the Democrats, was better than AI.
+People like, I have mass agents more than they like AI.
+Yeah.
+I think part of the problem is it's been, it's been, you know, maybe sold as, you know, it sort of presents itself like a human way.
+Like a human would.
+Yeah.
+All right.
+And, you know, maybe if we called it linear algebra matrix statistics instead, maybe that would be more friendly.
+I don't know.
+Yeah.
+But you think we're going to have, I think you're right.
+The positioning is wrong.
+And then we're not communicating to people, hey, this could help health care.
+This could make you live longer.
+This could help your kids get educated more.
+This could help with housing costs.
+This could help with food costs.
+That's what we're messaging aside.
+I mean, how much do you actually worry about disruption or dislocation and employment, about acceleration of earnings for some people and desoloration for other people in society that feel left behind?
+And that starts to fuel more of the kind of social concerns and politicians saying, hey, we got to stop building all the data centers, you know, like that kind of stuff.
+And how much are you really, I tend to be more optimistic.
+And, you know, I do think that in all technology cycles, you get sort of these network effects.
+And that's kind of inevitable.
+But I also think, you know, we're going to do more with the tools.
+You do have this acceleration of all sorts of great things.
+Education could dramatically improve scientific discovery, health care, energy, you know, all sort of the, the unsolved problems can be accelerated.
+And ultimately, I think it's, it's amplification of human potential and capability and extending the frontier to.
+And, and by the way, we should also remember that, basically, we're talking about here, beyond sort of some of the advanced semiconductors and the, you know, big data centers.
+We're talking about software, right?
+Yeah.
+It's like software that runs in your computer.
+So, you know, somebody says, well, we don't, we don't want that.
+It's like, how do you stop total software?
+I mean, you know, it's how you're going to, you know, it's not someone going to open source model on their computer at home and asking it for medical advice.
+You know, New York just passed a law saying, AI models can no longer give medical advice.
+Yeah, it's being proposed.
+You can give legal and heard advice.
+We're anti software.
+It's like, yeah.
+So anti books and advice.
+So if you were going to look up in a book, but we are stopping into your Bernie Sanders right there.
+That was my Bernie Sanders.
+Michael Dowl.
+Dude, the one percent of the one percent that you're enabling with your data centers.
+Why are you doing this to the people of all great nation?
+Well, you'll give your money to children in the, invest America accounts.
+Yeah.
+That's a good one you're doing.
+Yeah.
+Can we talk about an investment?
+I think you might have to even criticize that, but, but, you know, it's the problem.
+The billionaires are giving like children money and they're not asking us permission and then those kids are going to buy things that their parents never asked for.
+Well, they don't actually get the money till they're 18 years old.
+So that's, that's what gives you the right to give our children an education.
+What is this philanthropy?
+It makes no sense.
+No.
+Well, I see, I see my great friend Brad Gersner here.
+Brad's here.
+There he is.
+Brad, come up for this little segment here.
+Sit first, second.
+Let's talk about the West America.
+We've got five minutes left here.
+So, you know, I heard about the fifth best to give him a round.
+I know, it's a beer.
+Here you go.
+All right.
+I, I, I just go down Michael.
+I, I heard about this idea in 2021 from Brad.
+And I thought, you know, that's a, that's just a great idea.
+That's an awesome idea.
+And, you know, I think there were some discussions with the prior administration,
+but they didn't do anything about that, unfortunately.
+And, you know, here we are.
+You know, a miracle.
+You know, the, the, the West America Act was, was passed.
+And, you know, now we have thousands of companies that are joining in
+and matching the government's contribution.
+And, you know, Susan, I made a big announcement.
+Giving 250 dollars to 25 million children in zip codes,
+where the median income is.
+I mean, Michael, this is, we have to talk about it right now.
+This is one of the greatest.
+What do you think Bernie, do you approve?
+I'm going to take out this, but I just want to pause on this,
+because it is one of the greatest philanthropic gifts in the history of humanity.
+And I, people have just kind of glossed over to it, because there's a lot of big numbers in the world.
+But we're talking about, you, you personally, you and Susan sat down and said,
+we're going to give a number.
+And that number was five, six, seven billion dollars or this is.
+Let's, it's $250 to 25 million children ages two to ten in zip codes,
+where the median income is $150,000 or less.
+It's, it's $6.25 billion dollars.
+I mean, and I just want to say something.
+You know, in the end at a time where.
+But they have to sign up to clean the accounts.
+Yes.
+They have accounts, but they have to sign up to clean the accounts.
+You know, I think we're getting 100,000 plus kids now day signing up.
+Yeah.
+First things for having me up.
+Yeah.
+I mean, what, what a national hero and national asset that my friend Michael Delas,
+but he understands this because I've been working on this for four years.
+We've been talking about it on the island pod.
+We had a lot of momentum.
+But behind the scenes, Trump gets elected.
+And so it's April that we're in the middle of the tariff strife, April 25.
+We realize there's only going to be one piece of legislation that gets passed during Trump's first two years.
+It'll be the, you know, this big beautiful bill, the reconciliation bill.
+And so I call up Michael and I said, Michael, we got to go.
+We've got five days.
+We have the, it's drafted in the Senate.
+We have bipartisan support, but we have a window.
+And like we have, I have to get in the oval office.
+We have to get in the oval office.
+And, you know, Michael said, you know, what, what should the tech say?
+And you and I had a conversation and you, you know,
+but you know, the tech's to DJT.
+Yes.
+I'm not talking to the school.
+Listen, Biden, whatever you said on the political divide, I will say, I've said this.
+Trump seeks out ideas from business leaders.
+And he has deep respect for business leaders like Michael Dell.
+Like, yeah, wherever your politics are, that's just the truth and the last administration didn't.
+And, you know, if it was, and it may have done the same thing.
+And this, and I just have to say, this investor America, it's not a red idea or blue idea.
+It's a red, white and blue idea, right?
+So, so, into the private conversation, well, Michael, I first talked about it.
+Um, you know, it was, this is the right thing to do, right?
+Like we have to reconnect the 70% of people who fill left out and left behind to the American
+dream, right?
+But this is in our self interest.
+This is about defending the ownership society and capitalism that for 250 years created
+the greatest experiment in the history of the world.
+But that's at risk.
+Less than half of people on to the age of 40 have a favorable view of capitalism.
+So when I talk to you about it the first time, Michael understood both sides of it.
+It's the right thing to do and it's the right thing for the country.
+And so at any rate, Michael Dald, tremendous American have just one one punch up the name
+in West America, Trump accounts.
+What do you think?
+Were you considering this in the context of other philanthropy?
+I mean, how do you, how do you kind of put this together in the spectrum of how
+you think about giving back?
+Yeah, great question.
+So we have a foundation that's very focused on children in urban poverty.
+That's basically the central focus of the foundation, although folks in central Texas
+would know that we do a few other things here in our local community.
+And when I heard about this idea, one of my thoughts was, wow, this is like a platform
+for directly giving to the people that we're targeting, right?
+And we actually thought about doing it just in Texas first and things have gone pretty
+well with the company and all that, so we thought we'd just go bigger.
+And what happens, Brad, if 10 more Michael Dald show up?
+And there are dozens, not a lot of Michael Dalds, let's be honest, but there's a number
+of folks who could make an equal size or even greater gift.
+There are people who, you know, many hands makes for light work.
+There are a thousand people who could make a gift of significance.
+What if this actually becomes a movement and we, and I think it actually is becoming
+a movement instead of a moment and we've got a lot of that cute up Brad one shoe.
+Have you called anybody, Michael?
+Have you called Michael Michael?
+Michael Michael and I chair the University of America giving committee and we're ambitious
+guys.
+So, we've had a few conversations.
+We've tested people.
+Yeah.
+Yeah.
+Yes.
+There's a question earlier.
+First, it's really important to understand and for you guys to spread the word, every
+child under the age of 18, every child under the age of 18 is eligible to claim their account.
+Number one.
+Number two, you've heard this, I go, kids born between 25 and 28, no, this is forever
+more.
+The legislation creates as account forever more every child born in America, starting
+January 1st, 2027, we'll automatically get an event, we'll get a Trump account, right?
+At birth, stapled to their Social Security card.
+The $1,000 has to be reauthorized every four years, okay, but the accounts don't.
+So every kid, this is Social Security 2.0.
+This is the biggest change to the Social Contract in America in 50 years.
+3.7 million kids a year will get an account that can compound as a 401k from birth.
+And yes, we're going to have a lot of announcements, but it's not just billionaires.
+It's going to be companies that are donating stock on their IPOs into these accounts.
+It's going to be wealthy people.
+It's going to be states, it's going to be moms and dads.
+It's going to be corporations and the estimate is over 15 years.
+We can move $5 trillion into the pockets of families that would have otherwise had zero, $5
+trillion, right?
+And so to me, the leadership that Michael showed not only in helping me get the meeting,
+that ultimately got this passed into law and it does take people like those moments either
+happen or they don't happen.
+And if they don't happen, there's no law and this doesn't change kids lives.
+By the way, two things on this, if this $5 trillion moved through government programs, it would
+get incinerated.
+Exactly.
+That's what we see happen.
+There's just a million crony structures that take it away and destroy it.
+So to give it directly into the accounts is the circumstance.
+The second thing is it makes a lot of sense that you guys can, I'll, I'll be the lead.
+Can we replace social security in this country with a defined benefit, or define contribution
+like this and eventually everyone has a Trump account or whatever you call it?
+And we don't have to have this fake Ponzi scheme that we can do it.
+Well, they, they have a defined benefit program, but I'm saying like everyone has an account
+and they all own a piece of their future and every time you get a payroll detacks deduction
+instead of it getting invisorated and destroyed and vaporized, that money actually goes
+into an account and you buy a piece of a company and maybe you can direct it.
+Freeworks get on your July 4th of this year.
+You get me.
+So there are four and a half million kids who've claimed their account, almost $150,000 a
+day will have on the trajectory and we're on 10 million by July 4th or 250 at the anniversary
+of the country.
+Every one of those kids accounts, the parents and the kids on July 4th, they'll
+see an app on their phone that looks a lot like a Robin Hood app that'll see them
+owning.
+It'll say you've received your $1,000 or your $250.
+And it will show a little bit of Nvidia, a little bit of Walmart, a little bit of Dell.
+We decompose the S&P 500 which they own into the constituent parts so they can get
+excited about being an owner in the upside of America.
+And what moms and dads double click and Apple pay 510 bucks into the account, right?
+When they send their QR codes to their friends on their birthday and now their friends
+all add to the account or on Christmas or bar mitzvahs and they add to the accounts, when
+companies add to the accounts, all of this, they see it growing and it unlocks the
+human potential.
+It's not just the money.
+It's the I'm in the game.
+I have a shot which to David's point, I think the biggest crime of Social Security and we
+made very clear.
+Social Security is a sacred promise.
+We refused and many people tried to get us to take on the broader struggle.
+And we didn't do it because we knew it would kill this program, but let's be clear about
+this.
+Our government requires all of us to give 10% of what we earn into Social Security, right?
+It was the social contract evolution in the Industrial Revolution that kept the country
+together.
+The only problem is it goes into a black hole.
+Nobody sees it.
+Nobody knows what's there.
+But it is your savings.
+Now imagine if that same money was required to government took it away, but it was in an
+account with your name on it, you could see it grow.
+You know exactly what was there.
+You could get excited and say, hey, I'm going to add a little bit more to that.
+Right?
+And you had a little bit of choice.
+That to me is the possibility I think we will end up there.
+And Brad, thank you for your time.
+Thank you for your time.
+I'm just going to say, Brad, Brad also adopted his home state of Indiana.
+We have Ray and Barbara Dalio adopted their home state of Connecticut and many, many more
+to come.
+And look, it's going to be super easy for anybody to add 100 kids in your neighborhood,
+adopt a zip code, adopt a school district, adopt a town.
+It's going to be amazing.
+I'm going to give it up for one of the great entrepreneurs of our time and an incredible

@@ -24,6 +24,27 @@
       "podcast_episode_id": 70
     },
     {
+      "id": 88,
+      "title": "Stealth Startups and the Digitization of the Physical World",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-03-17",
+      "summary": "In this episode, the hosts discuss the concept of digitizing the physical world, treating atoms like bits, and the implications for various industries. They interview Travis Kalanick, the founder of Cloud Kitchens, who shares his journey of building a stealth startup and the challenges faced by employees during the stealth phase. The conversation also touches on the benefits of operating in Texas, with its pro-business climate and low taxes, and the potential for a new social security model that empowers individuals through direct investment.",
+      "key_takeaway": "Invest in companies that are digitizing the physical world and transforming traditional industries through technology.",
+      "tickers_mentioned": [
+        "DELL",
+        "NVDA",
+        "WMT"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-17",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 71
+    },
+    {
       "id": 84,
       "title": "AI Startups and the Future of Technology",
       "source_type": "podcast",
@@ -104,11 +125,11 @@
         "TSLA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-13",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-17",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 63
     },
     {

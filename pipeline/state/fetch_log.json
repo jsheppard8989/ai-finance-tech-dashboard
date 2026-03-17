@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-03-17T04:39:20.052272",
+  "timestamp": "2026-03-17T05:13:40.059142",
   "results": [
     {
       "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
       "title": "Travis Kalanick & Michael Dell Live from Austin, Texas",
       "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/ALLIN-ATX_Ch.mp3",
-      "transcript_path": null,
-      "success": false
+      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/ALLIN-ATX_Ch.txt",
+      "success": true
     },
     {
       "podcast": "The Jack Mallers Show",

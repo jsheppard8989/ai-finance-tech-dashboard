@@ -3,8 +3,8 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-03-17T04:43:02.024491",
-  chartsVersion: "2026-03-17T04:42:47.755243",
+  generatedAt: "2026-03-17T05:17:42.334389",
+  chartsVersion: "2026-03-17T05:17:33.125009",
   tickerScores: [
   {
     "ticker": "GOOGL",
@@ -337,7 +337,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "EMAX",
+    "ticker": "DELL",
     "total_score": 70.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -352,7 +352,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "NOW",
+    "ticker": "EMAX",
     "total_score": 70.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -367,14 +367,14 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "CRM",
-    "total_score": 68.0,
+    "ticker": "NOW",
+    "total_score": 70.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
     "rank": 25,
-    "score": 68.0,
+    "score": 70.0,
     "mentions": 1,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
@@ -382,7 +382,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "MINE",
+    "ticker": "CRM",
     "total_score": 68.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -397,14 +397,14 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "ILMN",
-    "total_score": 66.0,
+    "ticker": "MINE",
+    "total_score": 68.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
     "rank": 27,
-    "score": 66.0,
+    "score": 68.0,
     "mentions": 1,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
@@ -412,7 +412,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "PLTR",
+    "ticker": "ILMN",
     "total_score": 66.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -427,14 +427,14 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "CRSP",
-    "total_score": 64.0,
+    "ticker": "PLTR",
+    "total_score": 66.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
     "rank": 29,
-    "score": 64.0,
+    "score": 66.0,
     "mentions": 1,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
@@ -442,7 +442,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "GOOG",
+    "ticker": "CRSP",
     "total_score": 64.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -457,7 +457,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "HOOD",
+    "ticker": "GOOG",
     "total_score": 64.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -472,7 +472,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "SF",
+    "ticker": "HOOD",
     "total_score": 64.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -487,7 +487,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "URANIUM",
+    "ticker": "SF",
     "total_score": 64.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -502,14 +502,14 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "T",
-    "total_score": 60.0,
+    "ticker": "URANIUM",
+    "total_score": 64.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
     "rank": 34,
-    "score": 60.0,
+    "score": 64.0,
     "mentions": 1,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
@@ -517,7 +517,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "TLT",
+    "ticker": "T",
     "total_score": 60.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -532,13 +532,28 @@ const dashboardData = {
     "contexts": []
   },
   {
+    "ticker": "TLT",
+    "total_score": 60.0,
+    "raw_mention_count": 1,
+    "unique_sources": 1,
+    "podcast_mentions": 1,
+    "newsletter_mentions": 0,
+    "rank": 36,
+    "score": 60.0,
+    "mentions": 1,
+    "conviction_level": "medium",
+    "contrarian_signal": "neutral",
+    "timeframe": "long_term",
+    "contexts": []
+  },
+  {
     "ticker": "QQQ",
     "total_score": 48.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 36,
+    "rank": 37,
     "score": 48.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -553,7 +568,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 37,
+    "rank": 38,
     "score": 40.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -568,7 +583,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 38,
+    "rank": 39,
     "score": 32.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -583,7 +598,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 39,
+    "rank": 40,
     "score": 24.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -598,7 +613,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 40,
+    "rank": 41,
     "score": 20.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -613,7 +628,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 41,
+    "rank": 42,
     "score": 20.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -628,7 +643,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 42,
+    "rank": 43,
     "score": 16.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -661,6 +676,27 @@ const dashboardData = {
       "archived_date": null,
       "archived_reason": null,
       "podcast_episode_id": 70
+    },
+    {
+      "id": 88,
+      "title": "Stealth Startups and the Digitization of the Physical World",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-03-17",
+      "summary": "In this episode, the hosts discuss the concept of digitizing the physical world, treating atoms like bits, and the implications for various industries. They interview Travis Kalanick, the founder of Cloud Kitchens, who shares his journey of building a stealth startup and the challenges faced by employees during the stealth phase. The conversation also touches on the benefits of operating in Texas, with its pro-business climate and low taxes, and the potential for a new social security model that empowers individuals through direct investment.",
+      "key_takeaway": "Invest in companies that are digitizing the physical world and transforming traditional industries through technology.",
+      "tickers_mentioned": [
+        "DELL",
+        "NVDA",
+        "WMT"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-17",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 71
     },
     {
       "id": 84,
@@ -743,11 +779,11 @@ const dashboardData = {
         "TSLA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-13",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-17",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 63
     },
     {
@@ -2191,6 +2227,30 @@ const dashboardData = {
       "key_tickers": []
     },
     {
+      "id": 88,
+      "title": "Stealth Startups and the Digitization of the Physical World",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-03-17",
+      "summary": "In this episode, the hosts discuss the concept of digitizing the physical world, treating atoms like bits, and the implications for various industries. They interview Travis Kalanick, the founder of Cloud Kitchens, who shares his journey of building a stealth startup and the challenges faced by employees during the stealth phase. The conversation also touches on the benefits of operating in Texas, with its pro-business climate and low taxes, and the potential for a new social security model that empowers individuals through direct investment.",
+      "key_takeaway": "Invest in companies that are digitizing the physical world and transforming traditional industries through technology.",
+      "tickers_mentioned": "[\"DELL\", \"NVDA\", \"WMT\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-17",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 71,
+      "episode_release_date": "2026-03-17",
+      "guest_name": null,
+      "key_tickers": [
+        "DELL",
+        "NVDA",
+        "WMT"
+      ]
+    },
+    {
       "id": 84,
       "title": "AI Startups and the Future of Technology",
       "source_type": "podcast",
@@ -2255,33 +2315,6 @@ const dashboardData = {
         "PLTM",
         "PALL",
         "GOLD"
-      ]
-    },
-    {
-      "id": 78,
-      "title": "Semiconductors and the Future of Compute",
-      "source_type": "podcast",
-      "source_name": "Dwarkesh Podcast",
-      "source_date": "2026-03-13",
-      "summary": "In this episode, the host discusses the massive capital expenditures in semiconductors by big tech companies and AI labs, the timeline for these investments to come online, and the implications for economic growth. The conversation delves into the potential for using commodity DRAM instead of HBM in accelerators, the centralization of computation, and the geopolitical risks surrounding Taiwan's role in the semiconductor supply chain.",
-      "key_takeaway": "Investment in semiconductors and AI is set to drive significant economic growth and reshape global supply chains, with potential for disruption in the event of geopolitical tensions.",
-      "tickers_mentioned": "[\"AMZN\", \"META\", \"GOOGL\", \"MSFT\", \"NVDA\", \"TSLA\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-03-13",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 63,
-      "episode_release_date": "2026-03-13",
-      "guest_name": null,
-      "key_tickers": [
-        "AMZN",
-        "META",
-        "GOOGL",
-        "MSFT",
-        "NVDA",
-        "TSLA"
       ]
     },
     {
@@ -6585,6 +6618,81 @@ const dashboardData = {
     "source_name": "Moonshots with Peter Diamandis",
     "source_date": "2027-01-01",
     "key_tickers": []
+  },
+  "88": {
+    "id": 79,
+    "insight_id": 88,
+    "podcast_episode_id": 71,
+    "overview": "The investment thesis revolves around the digitization of the physical world, focusing on the stealth startup 'Adams' and its mission to transform industries through physical automation. This company, previously operating under the radar with thousands of employees and generic company names across different countries, has recently come out of stealth mode. The significance lies in its potential to revolutionize sectors like food production, mining, and logistics by treating atoms like bits, creating an 'atoms-based computer'. This approach could lead to increased efficiency and cost reduction, making it a timely and relevant investment opportunity in the current tech-driven market landscape.",
+    "key_takeaways_detailed": [
+      "Invest in companies that are pioneering the digitization of physical assets, as this could lead to significant efficiency gains and cost savings.",
+      "Look for opportunities in sectors that are ripe for disruption, such as food production and mining, where Adams is focusing its efforts.",
+      "Consider the potential for increased automation in industries to drive productivity and reduce costs, which could have a substantial impact on the bottom line.",
+      "Monitor the progress of Adams' acquisitions, such as Pronto, for indications of the company's growth and expansion into new areas.",
+      "Keep an eye on the regulatory environment, as the digitization of physical assets could face legal and ethical challenges."
+    ],
+    "investment_thesis": "The core investment logic is centered on the belief that the digitization of the physical world will be a significant driver of economic growth and efficiency in the coming years. Adams, with its stealth approach and recent unveiling, represents a catalyst for this transformation. The company's focus on creating infrastructure for better food, automating mines, and developing wheelbases for robots positions it at the forefront of this trend. The investment timeframe is medium to long-term, as the full impact of these technologies will likely be realized over several years as they are developed, implemented, and scaled.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's technology and software expertise could be leveraged in the digitization of physical assets, potentially partnering with or investing in companies like Adams.",
+        "positioning": "Long-term strategic position, as Apple's involvement in this space could be a significant growth driver.",
+        "risk": "Regulatory challenges and potential market resistance to the digitization of certain physical assets."
+      },
+      "NVDA": {
+        "rationale": "Nvidia's expertise in AI and GPU technology is crucial for the development of advanced automation and digitization solutions.",
+        "positioning": "Medium-term tactical position, as Nvidia's technology could be in high demand for the digitization of physical assets.",
+        "risk": "Competition from other tech giants and the potential for technological disruptions."
+      },
+      "TSLA": {
+        "rationale": "Tesla's experience in electric vehicles and energy could be applicable to Adams' efforts in logistics and mining, particularly with the development of wheelbases for robots.",
+        "positioning": "Long-term strategic position, as Tesla's technology and innovation could complement Adams' goals.",
+        "risk": "High competition in the electric vehicle and energy sectors, which could divert resources from other areas."
+      },
+      "AMZN": {
+        "rationale": "Amazon's extensive logistics network and experience in e-commerce make it a potential competitor or partner in the digitization of food and other physical goods.",
+        "positioning": "Medium-term tactical position, as Amazon's moves in this space could significantly impact the market.",
+        "risk": "Amazon's dominance in e-commerce could stifle competition and limit opportunities for new entrants like Adams."
+      },
+      "MSFT": {
+        "rationale": "Microsoft's cloud computing and AI capabilities could support the backend infrastructure needed for the digitization of physical assets.",
+        "positioning": "Long-term strategic position, as Microsoft's technology could be fundamental to the success of companies like Adams.",
+        "risk": "The potential for Microsoft to face increased regulatory scrutiny and antitrust concerns."
+      }
+    },
+    "positioning_guidance": "Investors should consider a diversified approach, allocating a portion of their portfolio to companies that are directly involved in the digitization of physical assets, such as Adams, as well as those that provide the necessary technology and infrastructure, like Nvidia and Microsoft. Entry points should be strategic, focusing on pullbacks in the market or after significant news events. The timeframe for these investments should be medium to long-term, as the full potential of these technologies may take several years to materialize.",
+    "risk_factors": [
+      "Regulatory hurdles that could slow down or halt the progress of digitizing physical assets.",
+      "Technological challenges in scaling and implementing new digitization technologies.",
+      "Market resistance to the changes brought about by the digitization of physical assets, particularly in sectors like food production and mining.",
+      "Competition from established players in the technology and logistics sectors.",
+      "Ethical concerns regarding the use of automation and AI in the digitization process."
+    ],
+    "contrarian_signals": [
+      "The potential for overinvestment in digitization technologies leading to a market bubble.",
+      "The possibility that the benefits of digitization may not materialize as quickly as expected, leading to disappointment in the market.",
+      "The risk that established players in various sectors may resist change, slowing the adoption of digitization technologies."
+    ],
+    "catalysts": [
+      "The completion of Adams' acquisition of Pronto and the announcement of new partnerships or collaborations.",
+      "Significant technological breakthroughs in the digitization of physical assets, such as advancements in AI and automation.",
+      "Regulatory changes that support the digitization of physical assets, such as new policies or guidelines.",
+      "The launch of new products or services by companies like Adams that demonstrate the potential of digitization.",
+      "Major investments by tech giants in the digitization space, indicating a validation of the trend."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-03-17T05:16:35.993373",
+    "updated_at": "2026-03-17 10:16:35",
+    "insight_title": "Stealth Startups and the Digitization of the Physical World",
+    "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "source_date": "2026-03-17",
+    "key_tickers": [
+      "DELL",
+      "NVDA",
+      "WMT"
+    ]
   }
 },
   suggestedTerms: [
@@ -6639,7 +6747,7 @@ const dashboardData = {
 ],
   podcastGuests: [
   {
-    "id": 192,
+    "id": 198,
     "name": "Investing in Capitalism",
     "slug": "investing-in-capitalism",
     "bio": null,
@@ -6651,7 +6759,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 193,
+    "id": 199,
     "name": "Harvard Professor Graham Allison",
     "slug": "harvard-professor-graham-allison",
     "bio": null,
@@ -6663,7 +6771,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 194,
+    "id": 200,
     "name": "Andrew Yang",
     "slug": "andrew-yang",
     "bio": "Andrew Yang is an entrepreneur and political leader who popularized universal basic income in U.S. politics through his 2020 presidential campaign.",
@@ -6675,7 +6783,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 195,
+    "id": 201,
     "name": "Ray Dalio",
     "slug": "ray-dalio",
     "bio": "Ray Dalio is the founder of Bridgewater Associates and a macro investor known for his 'Principles' framework and work on long-term debt cycles.",
@@ -6687,7 +6795,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 196,
+    "id": 202,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -6699,7 +6807,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 197,
+    "id": 203,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -6712,6 +6820,30 @@ const dashboardData = {
   }
 ],
   pundits: [
+  {
+    "id": 74,
+    "name": "Travis Kalanick",
+    "slug": "travis-kalanick",
+    "bio": "Founder of Cloud Kitchens and former CEO of Uber.",
+    "known_for": "His work in the transportation and food delivery sectors.",
+    "last_seen": "2026-03-17 10:15:16",
+    "last_episode_title": "Stealth Startups and the Digitization of the Physical World",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-03-17",
+    "last_main_idea": "Invest in companies that are digitizing the physical world and transforming traditional industries through technology."
+  },
+  {
+    "id": 75,
+    "name": "Michael Dell",
+    "slug": "michael-dell",
+    "bio": "Founder and CEO of Dell Technologies.",
+    "known_for": "Building one of the world's largest technology infrastructure companies.",
+    "last_seen": "2026-03-17 10:15:16",
+    "last_episode_title": "Stealth Startups and the Digitization of the Physical World",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-03-17",
+    "last_main_idea": "Invest in companies that are digitizing the physical world and transforming traditional industries through technology."
+  },
   {
     "id": 73,
     "name": "Sam Altman",
@@ -6915,30 +7047,6 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-03-09",
     "last_main_idea": "Investment in AI technology, particularly in personal AI agents like OpenClaw, could offer substantial returns as the technology matures and becomes more integrated into daily life."
-  },
-  {
-    "id": 40,
-    "name": "Garrett Langley",
-    "slug": "garrett-langley",
-    "bio": "Founder of Flock Safety, an electrical engineer turned entrepreneur.",
-    "known_for": "Developing a neighborhood safety system that evolved into a nationwide real-time crime prevention platform.",
-    "last_seen": "2026-03-12 19:38:37",
-    "last_episode_title": "Real-time Crime Prevention and the Future of Policing",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-03-11",
-    "last_main_idea": "Investing in technology that enhances real-time crime prevention and clearance rates can lead to more effective law enforcement and safer communities."
-  },
-  {
-    "id": 38,
-    "name": "Joseph Stiglitz",
-    "slug": "joseph-stiglitz",
-    "bio": "Nobel Laureate Economist and Professor at Columbia University",
-    "known_for": "Author of 'Road to Freedom, Economics, and the Good Society'",
-    "last_seen": "2026-03-12 19:38:30",
-    "last_episode_title": "Monetary Matters: Economic Consequences of War and AI's Impact",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-03-11",
-    "last_main_idea": "The current geopolitical tensions and the rise of AI technology present both risks and opportunities, with the potential for economic disruption and the need for strategic investment in sectors less affected by AI."
   }
 ]
 };
