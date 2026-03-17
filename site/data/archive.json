@@ -89,6 +89,25 @@
       "podcast_episode_id": 73
     },
     {
+      "id": 91,
+      "title": "Monetary Matters with Jack Farley: Farmland Investment Insights",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-03-17",
+      "summary": "In this episode of 'Other People's Money', host Max interviews Chris Morris, President of Lampun Partners, an institutional farmland investment firm. They discuss the firm's focus on acquiring and managing high-quality irrigated row crop farmland in the mid-South region of the United States. Key themes include the diversification benefits of farmland as an alternative asset class, the impact of water scarcity on farmland value, and the potential for professional management and ownership of farmland assets as the average age of farmers increases.",
+      "key_takeaway": "Farmland represents an underutilized asset class with diversification benefits and potential for strong returns, particularly in the context of water scarcity and aging farmer demographics.",
+      "tickers_mentioned": [
+        "SOYB"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-17",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 74
+    },
+    {
       "id": 84,
       "title": "AI Startups and the Future of Technology",
       "source_type": "podcast",
@@ -237,11 +256,11 @@
         "TSLA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-14",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-17",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 64
     },
     {

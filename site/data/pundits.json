@@ -1,5 +1,17 @@
 [
   {
+    "id": 79,
+    "name": "Chris Morris",
+    "slug": "chris-morris",
+    "bio": "President of Lampun Partners, an institutional farmland investment firm focused on acquiring and managing high-quality irrigated row crop farmland in the mid-South region of the United States.",
+    "known_for": "Overseeing the management of over $400 million in farmland assets and delivering strong returns through Lampun Partners' Soil Enrichment Fund.",
+    "last_seen": "2026-03-17 13:39:56",
+    "last_episode_title": "Monetary Matters with Jack Farley: Farmland Investment Insights",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-03-17",
+    "last_main_idea": "Farmland represents an underutilized asset class with diversification benefits and potential for strong returns, particularly in the context of water scarcity and aging farmer demographics."
+  },
+  {
     "id": 77,
     "name": "Shal Misra",
     "slug": "shal-misra",
@@ -214,17 +226,5 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-09",
     "last_main_idea": "The global semiconductor supply chain, with a focus on Taiwan's TSMC, presents both risks and opportunities in the context of U.S.-China relations and economic inequality."
-  },
-  {
-    "id": 47,
-    "name": "Michael Howell",
-    "slug": "michael-howell",
-    "bio": "Michael Howell is known for his work on global liquidity and his sub-stack Capital Wars.",
-    "known_for": "Expertise in global liquidity and its impact on financial markets",
-    "last_seen": "2026-03-12 19:39:05",
-    "last_episode_title": "Monetary Matters with Jack Farley: Global Liquidity and Asset Allocation",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-03-09",
-    "last_main_idea": "As the global liquidity cycle peaks, investors should consider rotating their asset allocation towards more defensive areas and higher yielding assets like private credit."
   }
 ]

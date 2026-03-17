@@ -3,8 +3,8 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-03-17T08:08:17.163225",
-  chartsVersion: "2026-03-17T08:08:13.398382",
+  generatedAt: "2026-03-17T08:43:16.436502",
+  chartsVersion: "2026-03-17T08:43:12.176687",
   tickerScores: [
   {
     "ticker": "GOOGL",
@@ -743,6 +743,25 @@ const dashboardData = {
       "podcast_episode_id": 73
     },
     {
+      "id": 91,
+      "title": "Monetary Matters with Jack Farley: Farmland Investment Insights",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-03-17",
+      "summary": "In this episode of 'Other People's Money', host Max interviews Chris Morris, President of Lampun Partners, an institutional farmland investment firm. They discuss the firm's focus on acquiring and managing high-quality irrigated row crop farmland in the mid-South region of the United States. Key themes include the diversification benefits of farmland as an alternative asset class, the impact of water scarcity on farmland value, and the potential for professional management and ownership of farmland assets as the average age of farmers increases.",
+      "key_takeaway": "Farmland represents an underutilized asset class with diversification benefits and potential for strong returns, particularly in the context of water scarcity and aging farmer demographics.",
+      "tickers_mentioned": [
+        "SOYB"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-17",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 74
+    },
+    {
       "id": 84,
       "title": "AI Startups and the Future of Technology",
       "source_type": "podcast",
@@ -891,11 +910,11 @@ const dashboardData = {
         "TSLA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-14",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-17",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 64
     },
     {
@@ -2335,6 +2354,28 @@ const dashboardData = {
       "key_tickers": []
     },
     {
+      "id": 91,
+      "title": "Monetary Matters with Jack Farley: Farmland Investment Insights",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-03-17",
+      "summary": "In this episode of 'Other People's Money', host Max interviews Chris Morris, President of Lampun Partners, an institutional farmland investment firm. They discuss the firm's focus on acquiring and managing high-quality irrigated row crop farmland in the mid-South region of the United States. Key themes include the diversification benefits of farmland as an alternative asset class, the impact of water scarcity on farmland value, and the potential for professional management and ownership of farmland assets as the average age of farmers increases.",
+      "key_takeaway": "Farmland represents an underutilized asset class with diversification benefits and potential for strong returns, particularly in the context of water scarcity and aging farmer demographics.",
+      "tickers_mentioned": "[\"SOYB\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-17",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 74,
+      "episode_release_date": "2026-03-17",
+      "guest_name": null,
+      "key_tickers": [
+        "SOYB"
+      ]
+    },
+    {
       "id": 84,
       "title": "AI Startups and the Future of Technology",
       "source_type": "podcast",
@@ -2400,26 +2441,6 @@ const dashboardData = {
         "PALL",
         "GOLD"
       ]
-    },
-    {
-      "id": 81,
-      "title": "Investing in Capitalism: Trump Accounts, AI, and the Future of Wealth",
-      "source_type": "podcast",
-      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "source_date": "2026-03-13",
-      "summary": "In this episode of 'All-In with Chamath, Jason, Sacks & Friedberg', the hosts discuss the significance of Trump accounts in democratizing capitalism, the potential for AI in coding assistance and its scalability, and the impact of wealth taxes on the political landscape. They also touch on the role of entrepreneurs in addressing societal issues such as education, housing, and healthcare, emphasizing the importance of capitalism and entrepreneurship in solving these problems without resorting to socialism.",
-      "key_takeaway": "Invest in technologies and platforms that democratize capitalism and leverage AI to create scalable solutions in coding and product development.",
-      "tickers_mentioned": "[\"AAPL\", \"NVDA\", \"SPY\", \"TSLA\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-03-14",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 64,
-      "episode_release_date": "2026-03-13",
-      "guest_name": "Investing in Capitalism",
-      "key_tickers": []
     }
   ],
   "definitions": [
@@ -6869,6 +6890,74 @@ const dashboardData = {
     "source_name": "The a16z Show",
     "source_date": "2026-03-17",
     "key_tickers": []
+  },
+  "91": {
+    "id": 82,
+    "insight_id": 91,
+    "podcast_episode_id": 74,
+    "overview": "In this episode of Other People's Money, Chris Morris, President of Lampun Partners, discusses the investment thesis for farmland as an alternative asset class. With over $400 million in farmland assets under management, Morris highlights the diversification benefits of farmland, its low correlation with traditional asset classes like equities, and its resilience in the face of new global risks. The investment thesis centers around the growing demand for professional management of farmland assets as the average age of farmers increases, creating opportunities for institutional investors. This deep dive analysis explores the investment implications, positioning guidance, and potential risks associated with farmland investments, particularly through the lens of the two-Korean Soybean Fund (SOYB).",
+    "key_takeaways_detailed": [
+      "Farmland investments offer diversification benefits with low correlations to traditional asset classes like equities and real estate.",
+      "The average age of farmers is increasing, creating a growing opportunity for professional management and ownership of farmland assets.",
+      "Farmland is a tangible real asset that can provide a store of value, similar to commodities like oil and gold, but with the added benefit of producing food.",
+      "Investing in farmland can help mitigate new global risks such as geopolitical shifts, natural resource scarcity, and water stress.",
+      "Farmland investments can be a key part of a diversified real asset portfolio, alongside infrastructure and other real estate investments."
+    ],
+    "investment_thesis": "The core investment thesis for farmland is centered around its diversification benefits and resilience in the face of new global risks. As the average age of farmers increases, there is a growing opportunity for professional management and ownership of farmland assets, particularly in the mid-South region of the United States. This thesis is supported by the low correlation of farmland investments with traditional asset classes and the growing demand for natural resources and food security. The catalysts for this thesis include the aging farmer population, increasing demand for professional management, and the growing importance of food security and natural resource scarcity in a changing global landscape. The timeframe for this thesis is medium to long-term, as the transition to professional management of farmland assets is expected to occur over the next 10-20 years.",
+    "ticker_analysis": {
+      "SOYB": {
+        "rationale": "The two-Korean Soybean Fund (SOYB) is directly relevant to this thesis as it is an investment vehicle focused on farmland assets. Investing in SOYB provides exposure to the farmland investment thesis and the potential benefits of diversification and resilience in the face of new global risks.",
+        "positioning": "Investors should consider a strategic long position in SOYB as a way to gain exposure to the farmland investment thesis. This position should be held over the medium to long-term to capitalize on the expected transition to professional management of farmland assets and the growing demand for food security and natural resources.",
+        "risk": "Key risks for investing in SOYB include the potential for underperformance if the transition to professional management of farmland assets occurs more slowly than expected, as well as risks related to changes in agricultural commodity prices and global trade policies."
+      },
+      "DE": {
+        "rationale": "Deere & Company (DE) is a leading manufacturer of agricultural equipment and a key player in the farmland ecosystem. As the professional management of farmland assets grows, there will be increased demand for agricultural equipment, making DE a relevant ticker for this thesis.",
+        "positioning": "Investors should consider a tactical long position in DE to capitalize on the expected growth in demand for agricultural equipment. This position should be held over the medium-term, as the transition to professional management of farmland assets is expected to occur over the next 10-20 years.",
+        "risk": "Key risks for investing in DE include potential disruptions to global supply chains, changes in agricultural commodity prices, and shifts in global trade policies that could impact the demand for agricultural equipment."
+      },
+      "MOS": {
+        "rationale": "The Mosaic Company (MOS) is a leading producer of agricultural nutrients, including potash and phosphate, which are essential for crop production. As the professional management of farmland assets grows, there will be increased demand for agricultural nutrients, making MOS a relevant ticker for this thesis.",
+        "positioning": "Investors should consider a tactical long position in MOS to capitalize on the expected growth in demand for agricultural nutrients. This position should be held over the medium-term, as the transition to professional management of farmland assets is expected to occur over the next 10-20 years.",
+        "risk": "Key risks for investing in MOS include potential disruptions to global supply chains, changes in agricultural commodity prices, and shifts in global trade policies that could impact the demand for agricultural nutrients."
+      },
+      "BAC": {
+        "rationale": "Bank of America (BAC) is a leading provider of financial services, including loans and financing for agricultural operations. As the professional management of farmland assets grows, there will be increased demand for financing, making BAC a relevant ticker for this thesis.",
+        "positioning": "Investors should consider a tactical long position in BAC to capitalize on the expected growth in demand for agricultural financing. This position should be held over the medium-term, as the transition to professional management of farmland assets is expected to occur over the next 10-20 years.",
+        "risk": "Key risks for investing in BAC include potential disruptions to global financial markets, changes in interest rates, and shifts in agricultural commodity prices that could impact the demand for agricultural financing."
+      }
+    },
+    "positioning_guidance": "Investors should consider allocating a portion of their real asset portfolio to farmland investments, such as the two-Korean Soybean Fund (SOYB), to gain exposure to the farmland investment thesis. This allocation should be sized based on the investor's overall risk tolerance and investment objectives, with a focus on the medium to long-term timeframe. Entry points for SOYB and other relevant tickers should be based on market conditions and the individual investor's strategy. Investors should also consider hedging their positions with options or other derivatives to mitigate potential risks.",
+    "risk_factors": [
+      "The transition to professional management of farmland assets may occur more slowly than expected, impacting the performance of farmland investments.",
+      "Changes in agricultural commodity prices could impact the profitability of farmland investments and the demand for agricultural equipment and nutrients.",
+      "Shifts in global trade policies could impact the demand for agricultural commodities and the performance of farmland investments.",
+      "Disruptions to global supply chains could impact the availability of agricultural equipment, nutrients, and financing, affecting the performance of farmland investments.",
+      "Adverse weather conditions or natural disasters could negatively impact crop production and the performance of farmland investments."
+    ],
+    "contrarian_signals": [
+      "Some investors may argue that the demand for farmland investments is overhyped, as the transition to professional management of farmland assets may not occur as quickly as expected.",
+      "Others may contend that the diversification benefits of farmland investments are overstated, as the performance of farmland assets may still be influenced by broader market trends and economic factors.",
+      "Some may argue that the focus on farmland investments overlooks other alternative asset classes, such as renewable energy or infrastructure, which may offer similar diversification benefits and growth potential."
+    ],
+    "catalysts": [
+      "The aging farmer population and the increasing demand for professional management of farmland assets.",
+      "Growing concerns over food security and natural resource scarcity, particularly in the context of geopolitical shifts and global supply chain disruptions.",
+      "Changes in agricultural commodity prices, which could impact the profitability of farmland investments and the demand for agricultural equipment and nutrients.",
+      "Shifts in global trade policies, which could impact the demand for agricultural commodities and the performance of farmland investments.",
+      "Adverse weather conditions or natural disasters, which could negatively impact crop production and the performance of farmland investments."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-03-17T08:42:32.751738",
+    "updated_at": "2026-03-17 13:42:32",
+    "insight_title": "Monetary Matters with Jack Farley: Farmland Investment Insights",
+    "source_name": "Monetary Matters with Jack Farley",
+    "source_date": "2026-03-17",
+    "key_tickers": [
+      "SOYB"
+    ]
   }
 },
   suggestedTerms: [
@@ -6923,7 +7012,7 @@ const dashboardData = {
 ],
   podcastGuests: [
   {
-    "id": 228,
+    "id": 234,
     "name": "Investing in Capitalism",
     "slug": "investing-in-capitalism",
     "bio": null,
@@ -6935,7 +7024,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 229,
+    "id": 235,
     "name": "Harvard Professor Graham Allison",
     "slug": "harvard-professor-graham-allison",
     "bio": null,
@@ -6947,7 +7036,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 230,
+    "id": 236,
     "name": "Andrew Yang",
     "slug": "andrew-yang",
     "bio": "Andrew Yang is an entrepreneur and political leader who popularized universal basic income in U.S. politics through his 2020 presidential campaign.",
@@ -6959,7 +7048,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 231,
+    "id": 237,
     "name": "Ray Dalio",
     "slug": "ray-dalio",
     "bio": "Ray Dalio is the founder of Bridgewater Associates and a macro investor known for his 'Principles' framework and work on long-term debt cycles.",
@@ -6971,7 +7060,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 232,
+    "id": 238,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -6983,7 +7072,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 233,
+    "id": 239,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -6996,6 +7085,18 @@ const dashboardData = {
   }
 ],
   pundits: [
+  {
+    "id": 79,
+    "name": "Chris Morris",
+    "slug": "chris-morris",
+    "bio": "President of Lampun Partners, an institutional farmland investment firm focused on acquiring and managing high-quality irrigated row crop farmland in the mid-South region of the United States.",
+    "known_for": "Overseeing the management of over $400 million in farmland assets and delivering strong returns through Lampun Partners' Soil Enrichment Fund.",
+    "last_seen": "2026-03-17 13:39:56",
+    "last_episode_title": "Monetary Matters with Jack Farley: Farmland Investment Insights",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-03-17",
+    "last_main_idea": "Farmland represents an underutilized asset class with diversification benefits and potential for strong returns, particularly in the context of water scarcity and aging farmer demographics."
+  },
   {
     "id": 77,
     "name": "Shal Misra",
@@ -7211,18 +7312,6 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-09",
     "last_main_idea": "The global semiconductor supply chain, with a focus on Taiwan's TSMC, presents both risks and opportunities in the context of U.S.-China relations and economic inequality."
-  },
-  {
-    "id": 47,
-    "name": "Michael Howell",
-    "slug": "michael-howell",
-    "bio": "Michael Howell is known for his work on global liquidity and his sub-stack Capital Wars.",
-    "known_for": "Expertise in global liquidity and its impact on financial markets",
-    "last_seen": "2026-03-12 19:39:05",
-    "last_episode_title": "Monetary Matters with Jack Farley: Global Liquidity and Asset Allocation",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-03-09",
-    "last_main_idea": "As the global liquidity cycle peaks, investors should consider rotating their asset allocation towards more defensive areas and higher yielding assets like private credit."
   }
 ]
 };

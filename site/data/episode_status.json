@@ -41,14 +41,7 @@
       "status": "needs_analysis"
     }
   ],
-  "available_from_rss": [
-    {
-      "podcast": "Monetary Matters with Jack Farley",
-      "title": "The Ultimate Hard Asset: American Farmland and The 300-Year Water Supply Hidden Underneath It | Chris Morris LandFund Partners",
-      "published": "Tue, 17 Mar 2026 13:00:00 -0000",
-      "published_date": "2026-03-17"
-    }
-  ],
+  "available_from_rss": [],
   "rss_filter_criteria": {
     "cutoff_date": "2026-02-01",
     "approval": "Feed list is the filter. If a feed is in podcast_feeds.txt, all its episodes (within window) are approved. No per-episode relevance score.",
