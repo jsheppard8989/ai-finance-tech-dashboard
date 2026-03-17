@@ -9592,3 +9592,140 @@ ModuleNotFoundError: No module named 'yfinance'
 ============================================================
 STEP: Auto-Curate Terms
 ============================================================
+rent regions to mitigate potential disrupti...
+
+• Trump Accounts
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A financial instrument mentioned in the podcast that allows for direct ownership of companies, aimin...
+
+• Coding Assistance
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: The use of AI to assist in the development of software code, which can increase efficiency and reduc...
+
+• Wealth Tax
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A tax on an individual's total wealth, including assets such as real estate, vehicles, and investmen...
+
+• Hybrid Precious and Industrial Metals
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: Metals that have characteristics of both precious metals, used as stores of value, and industrial me...
+
+• Store of Value
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: An asset that maintains its value over time and is preserved as a form of wealth for the future....
+
+• Founder's Mindset
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A mindset focused on building and creating new things rather than introspection or dwelling on the p...
+
+• Technology-Driven Businesses
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: Businesses that are powered by technology and innovation, often disrupting traditional industries an...
+
+• Agent Company
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A company that utilizes AI to act on behalf of users, automating tasks and decision-making processes...
+
+• AI Social
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: The application of AI in social contexts, potentially leading to new forms of interaction and commun...
+
+• Safe Superintelligence (SSI)
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: An approach to AI development that prioritizes safety to prevent unintended consequences from advanc...
+
+• Compute as moat
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: The idea that access to significant computing power, particularly GPUs, is becoming a key differenti...
+
+• AI Agent Orchestration
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: The process of managing and coordinating multiple AI systems to work together efficiently....
+
+• Vertical Integration in AI
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: The control of multiple stages in the production of AI, from model development to orchestration....
+
+• 400x Cost Collapse
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A significant reduction in the cost of AI inference, allowing for broader and more affordable deploy...
+
+• AI CEO
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: An artificial intelligence entity that could potentially lead a company, making strategic decisions ...
+
+• Time Dilation in Strategy
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: The concept that in the age of advanced general AI, strategic course corrections could occur more fr...
+
+✓ Auto-Curate Terms completed
+
+============================================================
+STEP: Extract Podcast Guests
+============================================================
+============================================================
+Extract Podcast Guests
+============================================================
+Processing 46 processed episodes
+  ✓ Investing in Capitalism ← All-In with Chamath, Jason, Sacks & Friedberg (2026-03-13)
+  ✓ Harvard Professor Graham Allison ← All-In with Chamath, Jason, Sacks & Friedberg (2026-03-09)
+  ✓ Andrew Yang ← Moonshots with Peter Diamandis (2026-03-07)
+  ✓ Ray Dalio ← All-In with Chamath, Jason, Sacks & Friedberg (2026-03-03)
+  ✓ Ben Horowitz ← Moonshots with Peter Diamandis (2026-02-19)
+  ✓ Milton Berg ← Monetary Matters with Jack Farley (2026-02-06)
+
+✓ Done. 6 guest(s) in database.
+
+✓ Extract Podcast Guests completed
+
+============================================================
+STEP: Export Website Data
+============================================================
+============================================================
+Exporting Website Data
+============================================================
+✓ Exported website data to /Users/jaredsheppard/.openclaw/workspace/site/data
+✓ Exported: {'ticker_scores': 42, 'podcast_summaries': 3, 'archive_items': 78, 'podcast_guests': 6, 'pundits': 19}
+  ✓ Exported episode status: 2 in pipeline, 0 last completed, 0 available from RSS
+
+============================================================
+Generating Website JavaScript
+============================================================
+✓ Generated data.js with 42 tickers, 78 archive items, 62 deep dives, 4 suggested terms, 6 legacy guests, 19 pundits; chartsVersion=2026-03-16T16:44:54.603367
+✓ Bumped data.js cache-buster to v=1773716738
+
+============================================================
+STEP: Push to GitHub
+============================================================
+✓ Pushed to GitHub: Pipeline update 2026-03-16 22:05: 1 podcasts, 1 insights, 0 newsletters
+
+============================================================
+PIPELINE COMPLETE
+Finished: 2026-03-16 22:05:41.178659
+============================================================
+📊 Pipeline Complete
+
+🎙️ 1 new podcast(s) analyzed
+📈 2 tickers scored
+
+Top tickers today:
+  GOLD: score 64
+  T: score 60
+
+🌐 Website updated

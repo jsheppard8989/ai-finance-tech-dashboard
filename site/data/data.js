@@ -3,8 +3,8 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-03-16T22:05:38.889672",
-  chartsVersion: "2026-03-16T16:44:54.603367",
+  generatedAt: "2026-03-17T04:08:45.855132",
+  chartsVersion: "2026-03-17T04:08:35.957407",
   tickerScores: [
   {
     "ticker": "GOOGL",
@@ -6639,7 +6639,7 @@ const dashboardData = {
 ],
   podcastGuests: [
   {
-    "id": 180,
+    "id": 186,
     "name": "Investing in Capitalism",
     "slug": "investing-in-capitalism",
     "bio": null,
@@ -6651,7 +6651,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 181,
+    "id": 187,
     "name": "Harvard Professor Graham Allison",
     "slug": "harvard-professor-graham-allison",
     "bio": null,
@@ -6663,7 +6663,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 182,
+    "id": 188,
     "name": "Andrew Yang",
     "slug": "andrew-yang",
     "bio": "Andrew Yang is an entrepreneur and political leader who popularized universal basic income in U.S. politics through his 2020 presidential campaign.",
@@ -6675,7 +6675,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 183,
+    "id": 189,
     "name": "Ray Dalio",
     "slug": "ray-dalio",
     "bio": "Ray Dalio is the founder of Bridgewater Associates and a macro investor known for his 'Principles' framework and work on long-term debt cycles.",
@@ -6687,7 +6687,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 184,
+    "id": 190,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -6699,7 +6699,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 185,
+    "id": 191,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -6723,18 +6723,6 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2027-01-01",
     "last_main_idea": "Invest in AI and automation technologies that are driving the shift towards AI governance and efficiency in business operations."
-  },
-  {
-    "id": 69,
-    "name": "Ben Horowitz",
-    "slug": "ben-horowitz",
-    "bio": "Ben Horowitz is a co-founder of the venture capital firm Andreessen Horowitz (a16z).",
-    "known_for": "Co-founder of a16z",
-    "last_seen": "2026-03-16 19:37:22",
-    "last_episode_title": "Moonshots Podcast Episode #231 - OpenAI Acquires OpenClaw, 400x Cost Collapse, & Why India Wins the Talent War",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-02-18",
-    "last_main_idea": "Invest in the vertical integration of AI, the rise of India as a global AI hub, and the shift towards agent-based interactions."
   },
   {
     "id": 70,
@@ -6766,6 +6754,18 @@ const dashboardData = {
     "slug": "alexander-wissner-gross",
     "bio": null,
     "known_for": null,
+    "last_seen": "2026-03-16 19:37:22",
+    "last_episode_title": "Moonshots Podcast Episode #231 - OpenAI Acquires OpenClaw, 400x Cost Collapse, & Why India Wins the Talent War",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-02-18",
+    "last_main_idea": "Invest in the vertical integration of AI, the rise of India as a global AI hub, and the shift towards agent-based interactions."
+  },
+  {
+    "id": 69,
+    "name": "Ben Horowitz",
+    "slug": "ben-horowitz",
+    "bio": "Ben Horowitz is a co-founder of the venture capital firm Andreessen Horowitz (a16z).",
+    "known_for": "Co-founder of a16z",
     "last_seen": "2026-03-16 19:37:22",
     "last_episode_title": "Moonshots Podcast Episode #231 - OpenAI Acquires OpenClaw, 400x Cost Collapse, & Why India Wins the Talent War",
     "last_podcast_name": "Moonshots with Peter Diamandis",

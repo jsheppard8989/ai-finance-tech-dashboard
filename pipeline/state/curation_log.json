@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-03-16T22:01:40.458317",
-  "total_feed_episodes": 2,
-  "approved_for_transcription": 2,
+  "timestamp": "2026-03-17T04:04:34.266022",
+  "total_feed_episodes": 3,
+  "approved_for_transcription": 3,
   "episodes": [
     {
       "podcast": "The a16z Show",
@@ -13,6 +13,19 @@
       "rss_guid": "1a7873e6-52cf-493d-a1a1-360a49324923",
       "status": "APPROVED",
       "matched_keywords": []
+    },
+    {
+      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "title": "Travis Kalanick & Michael Dell Live from Austin, Texas",
+      "description": "<p>(0:00) Travis Kalanick: Officially exiting stealth mode, what he's been working on</p> <p>(5:52) How to automate the physical world, markets to go after</p> <p>(11:00) Return to self-driving: Tesla, Waymo, and the autonomous race</p> <p>(16:17) Leaving Los Angeles for Austin, the decline of truth and justice in California</p> <p>(25:51) Actuators, robot hands, \"Capital as a weapon,\" Middle East SWF impacted by Iran War</p> <p>(36:00) Michael Dell: Dorm room to $140B in annual revenue, why Tex",
+      "audio_url": "https://dts.podtrac.com/redirect.mp3/traffic.libsyn.com/secure/allinchamathjason/ALLIN-ATX_Ch.mp3?dest-id=1928300",
+      "published": "Tue, 17 Mar 2026 04:11:00 +0000",
+      "published_date": "2026-03-17",
+      "rss_guid": "f622d55b-b318-4f88-acc3-6e4888db8d51",
+      "status": "APPROVED",
+      "matched_keywords": [],
+      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/all_in_with_chamath__jason__sacks___frie_travis_kalanick___michael_dell_live_from_austin__texas_24714842.mp3",
+      "filename": "all_in_with_chamath__jason__sacks___frie_travis_kalanick___michael_dell_live_from_austin__texas_24714842.mp3"
     },
     {
       "podcast": "Dwarkesh Podcast",
