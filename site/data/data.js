@@ -3,7 +3,7 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-03-16T16:44:57.376078",
+  generatedAt: "2026-03-16T22:05:38.889672",
   chartsVersion: "2026-03-16T16:44:54.603367",
   tickerScores: [
   {
@@ -640,6 +640,29 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 87,
+      "title": "The AI CEO Arrives: Sam Altman's Succession Plan, Job Loss Continues, and Our 2027 'Solve Everything' Paper",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2027-01-01",
+      "summary": "In this episode of 'Moonshots with Peter Diamandis', the panel discusses the increasing role of AI in corporate governance and the potential for AI CEOs. They also touch on the rapid job displacement due to automation and the implications for the social contract. The second half of the episode is dedicated to unveiling a paper titled 'Solve Everything', which outlines a vision for achieving abundance by 2035. The discussion covers the acceleration of AI in business strategy and decision-making, suggesting that AI could soon be capable of running significant economic engines.",
+      "key_takeaway": "Invest in AI and automation technologies that are driving the shift towards AI governance and efficiency in business operations.",
+      "tickers_mentioned": [
+        "AAPL",
+        "NVDA",
+        "GOOGL",
+        "MSFT",
+        "TSLA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-16",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 70
+    },
+    {
       "id": 84,
       "title": "AI Startups and the Future of Technology",
       "source_type": "podcast",
@@ -831,11 +854,11 @@ const dashboardData = {
         "PLTR"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-12",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-17",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 58
     },
     {
@@ -2148,6 +2171,26 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 87,
+      "title": "The AI CEO Arrives: Sam Altman's Succession Plan, Job Loss Continues, and Our 2027 'Solve Everything' Paper",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2027-01-01",
+      "summary": "In this episode of 'Moonshots with Peter Diamandis', the panel discusses the increasing role of AI in corporate governance and the potential for AI CEOs. They also touch on the rapid job displacement due to automation and the implications for the social contract. The second half of the episode is dedicated to unveiling a paper titled 'Solve Everything', which outlines a vision for achieving abundance by 2035. The discussion covers the acceleration of AI in business strategy and decision-making, suggesting that AI could soon be capable of running significant economic engines.",
+      "key_takeaway": "Invest in AI and automation technologies that are driving the shift towards AI governance and efficiency in business operations.",
+      "tickers_mentioned": "[\"AAPL\", \"NVDA\", \"GOOGL\", \"MSFT\", \"TSLA\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-16",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 70,
+      "episode_release_date": "2027-01-01",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 84,
       "title": "AI Startups and the Future of Technology",
       "source_type": "podcast",
@@ -2300,28 +2343,6 @@ const dashboardData = {
       "episode_release_date": "2026-03-13",
       "guest_name": "Investing in Capitalism",
       "key_tickers": []
-    },
-    {
-      "id": 76,
-      "title": "The Intersection of Technology, Geopolitics, and National Defense",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-03-12",
-      "summary": "In this episode of the a16z Show, Alex Carp, co-founder and CEO of Palantir, discusses the critical role of technology in modern warfare and the importance of maintaining American military superiority. Carp argues that Silicon Valley's belief in operating outside of geopolitics is a fallacy and that AI companies must collaborate with the defense establishment to prevent nationalization. He also touches on the broader implications of technology on society, including the protection of individual rights and the potential for technology to exacerbate wealth inequality.",
-      "key_takeaway": "Investing in companies that leverage technology to enhance national defense and security could yield significant returns, especially if they align with the interests of the defense establishment.",
-      "tickers_mentioned": "[\"PLTR\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-03-12",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 58,
-      "episode_release_date": "2026-03-12",
-      "guest_name": null,
-      "key_tickers": [
-        "PLTR"
-      ]
     }
   ],
   "definitions": [
@@ -6493,6 +6514,77 @@ const dashboardData = {
     "key_tickers": [
       "INDA"
     ]
+  },
+  "87": {
+    "id": 78,
+    "insight_id": 87,
+    "podcast_episode_id": 70,
+    "overview": "The rapid advancement of AI technology is poised to disrupt traditional business models and leadership structures. The podcast 'Moonshots with Peter Diamandis' discusses the potential for AI CEOs and the impact of AI on job displacement. This analysis focuses on the investment implications of AI's growing role in corporate governance and strategy, suggesting that companies embracing AI will have a competitive edge. The investment thesis is centered around identifying firms that are at the forefront of AI integration and those that are likely to benefit from the shift towards AI-led decision-making.",
+    "key_takeaways_detailed": [
+      "AI is transitioning from a tool to a governance actor, with potential implications for corporate boards and executive teams.",
+      "The shift towards AI in corporate governance could lead to more efficient and data-driven decision-making processes.",
+      "Investors should monitor companies that are actively integrating AI into their strategic planning and operations.",
+      "The potential for AI-led organizations to outcompete traditional firms due to 'time dilation' in strategy adjustments.",
+      "The importance of tracking the development of AI within public companies, as it may signal a competitive advantage."
+    ],
+    "investment_thesis": "The core investment logic is that AI integration in corporate governance and strategy will become a key differentiator for companies. Catalysts include technological advancements in AI, regulatory changes that encourage AI adoption, and the increasing recognition of AI's potential to streamline operations and enhance decision-making. The timeframe for this thesis is medium to long-term, as the full impact of AI on corporate governance is likely to unfold over the next 3-10 years.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's significant investment in AI for its products and services positions it well to benefit from the AI-driven corporate governance trend.",
+        "positioning": "Long-term strategic position, as Apple's AI capabilities are expected to enhance its competitive edge.",
+        "risk": "Regulatory hurdles or consumer pushback against AI integration could pose risks."
+      },
+      "NVDA": {
+        "rationale": "NVIDIA is a leader in AI chip technology, which is fundamental to the operation of AI systems in corporate governance.",
+        "positioning": "Strategic long position, as demand for AI chips is expected to grow with the adoption of AI in corporate settings.",
+        "risk": "Technological disruptions or delays in AI chip development could impact NVIDIA's market position."
+      },
+      "GOOGL": {
+        "rationale": "Google's parent company, Alphabet, is at the forefront of AI research and has the potential to leverage AI in its diverse business operations.",
+        "positioning": "Medium to long-term strategic position, considering Google's broad AI applications.",
+        "risk": "Ethical concerns and regulatory scrutiny over AI use could affect Alphabet's operations."
+      },
+      "MSFT": {
+        "rationale": "Microsoft's cloud services and AI tools are integral to the digital transformation of many companies, positioning it to benefit from AI integration in corporate governance.",
+        "positioning": "Long-term strategic position, as Microsoft's AI offerings are expected to be in high demand.",
+        "risk": "Increased competition in the AI space could challenge Microsoft's market share."
+      },
+      "TSLA": {
+        "rationale": "Tesla's use of AI in its electric vehicles and energy products could serve as a model for AI integration in corporate operations.",
+        "positioning": "Medium-term tactical position, as Tesla's AI advancements could provide short-term gains.",
+        "risk": "Production delays or safety concerns related to AI could impact Tesla's stock performance."
+      }
+    },
+    "positioning_guidance": "Investors should consider a balanced portfolio with a mix of long-term strategic positions in companies leading in AI technology (e.g., NVDA, MSFT) and medium-term tactical positions in companies that are rapidly integrating AI into their operations (e.g., TSLA). Entry points should be based on market conditions and company-specific catalysts. Investors should also consider hedging against potential regulatory risks associated with AI adoption.",
+    "risk_factors": [
+      "Regulatory changes that restrict AI use in corporate governance.",
+      "Ethical concerns and public backlash against AI, potentially slowing adoption.",
+      "Technological disruptions that could render current AI investments obsolete.",
+      "Increased competition in the AI space, affecting the profitability of AI-focused companies.",
+      "Economic downturns that could reduce corporate spending on AI integration."
+    ],
+    "contrarian_signals": [
+      "The potential for AI to create new job categories and opportunities, mitigating job loss concerns.",
+      "The possibility that human-led governance remains preferable for certain aspects of corporate decision-making.",
+      "The risk of over-reliance on AI, leading to complacency and reduced innovation in corporate strategy."
+    ],
+    "catalysts": [
+      "Upcoming AI-related legislation or regulatory changes that could accelerate AI adoption in corporate governance.",
+      "Major AI breakthroughs or product launches by leading tech companies.",
+      "Corporate earnings reports highlighting the impact of AI integration on operational efficiency and profitability.",
+      "AI-focused conferences and events that could showcase new applications of AI in business.",
+      "Economic indicators that signal a recovery or downturn, influencing corporate investment in AI technology."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-03-16T22:05:18.301434",
+    "updated_at": "2026-03-17 03:05:18",
+    "insight_title": "The AI CEO Arrives: Sam Altman's Succession Plan, Job Loss Continues, and Our 2027 'Solve Everything' Paper",
+    "source_name": "Moonshots with Peter Diamandis",
+    "source_date": "2027-01-01",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
@@ -6547,7 +6639,7 @@ const dashboardData = {
 ],
   podcastGuests: [
   {
-    "id": 174,
+    "id": 180,
     "name": "Investing in Capitalism",
     "slug": "investing-in-capitalism",
     "bio": null,
@@ -6559,7 +6651,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 175,
+    "id": 181,
     "name": "Harvard Professor Graham Allison",
     "slug": "harvard-professor-graham-allison",
     "bio": null,
@@ -6571,7 +6663,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 176,
+    "id": 182,
     "name": "Andrew Yang",
     "slug": "andrew-yang",
     "bio": "Andrew Yang is an entrepreneur and political leader who popularized universal basic income in U.S. politics through his 2020 presidential campaign.",
@@ -6583,7 +6675,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 177,
+    "id": 183,
     "name": "Ray Dalio",
     "slug": "ray-dalio",
     "bio": "Ray Dalio is the founder of Bridgewater Associates and a macro investor known for his 'Principles' framework and work on long-term debt cycles.",
@@ -6595,7 +6687,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 178,
+    "id": 184,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -6607,7 +6699,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 179,
+    "id": 185,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -6620,6 +6712,30 @@ const dashboardData = {
   }
 ],
   pundits: [
+  {
+    "id": 73,
+    "name": "Sam Altman",
+    "slug": "sam-altman",
+    "bio": "President of Y Combinator and Co-Chair of OpenAI.",
+    "known_for": "His work in startup incubation and contributions to the field of artificial intelligence.",
+    "last_seen": "2026-03-17 03:03:31",
+    "last_episode_title": "The AI CEO Arrives: Sam Altman's Succession Plan, Job Loss Continues, and Our 2027 'Solve Everything' Paper",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2027-01-01",
+    "last_main_idea": "Invest in AI and automation technologies that are driving the shift towards AI governance and efficiency in business operations."
+  },
+  {
+    "id": 69,
+    "name": "Ben Horowitz",
+    "slug": "ben-horowitz",
+    "bio": "Ben Horowitz is a co-founder of the venture capital firm Andreessen Horowitz (a16z).",
+    "known_for": "Co-founder of a16z",
+    "last_seen": "2026-03-16 19:37:22",
+    "last_episode_title": "Moonshots Podcast Episode #231 - OpenAI Acquires OpenClaw, 400x Cost Collapse, & Why India Wins the Talent War",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-02-18",
+    "last_main_idea": "Invest in the vertical integration of AI, the rise of India as a global AI hub, and the shift towards agent-based interactions."
+  },
   {
     "id": 70,
     "name": "Salim Ismail",
@@ -6650,18 +6766,6 @@ const dashboardData = {
     "slug": "alexander-wissner-gross",
     "bio": null,
     "known_for": null,
-    "last_seen": "2026-03-16 19:37:22",
-    "last_episode_title": "Moonshots Podcast Episode #231 - OpenAI Acquires OpenClaw, 400x Cost Collapse, & Why India Wins the Talent War",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-02-18",
-    "last_main_idea": "Invest in the vertical integration of AI, the rise of India as a global AI hub, and the shift towards agent-based interactions."
-  },
-  {
-    "id": 69,
-    "name": "Ben Horowitz",
-    "slug": "ben-horowitz",
-    "bio": "Ben Horowitz is a co-founder of the venture capital firm Andreessen Horowitz (a16z).",
-    "known_for": "Co-founder of a16z",
     "last_seen": "2026-03-16 19:37:22",
     "last_episode_title": "Moonshots Podcast Episode #231 - OpenAI Acquires OpenClaw, 400x Cost Collapse, & Why India Wins the Talent War",
     "last_podcast_name": "Moonshots with Peter Diamandis",
@@ -6835,18 +6939,6 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-11",
     "last_main_idea": "The current geopolitical tensions and the rise of AI technology present both risks and opportunities, with the potential for economic disruption and the need for strategic investment in sectors less affected by AI."
-  },
-  {
-    "id": 33,
-    "name": "Paul Ackens",
-    "slug": "paul-ackens",
-    "bio": "SEC chair with a history in corporation finance work.",
-    "known_for": "Shaping capital markets and regulatory oversight.",
-    "last_seen": "2026-03-12 19:38:22",
-    "last_episode_title": "Capital Markets Evolution and the Future of IPOs",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-03-11",
-    "last_main_idea": "The shift towards private markets and the potential for changing reporting cadence could redefine the landscape for early-stage investment opportunities and public market participation."
   }
 ]
 };

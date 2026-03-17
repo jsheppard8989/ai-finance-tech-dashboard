@@ -1,6 +1,29 @@
 {
   "insights": [
     {
+      "id": 87,
+      "title": "The AI CEO Arrives: Sam Altman's Succession Plan, Job Loss Continues, and Our 2027 'Solve Everything' Paper",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2027-01-01",
+      "summary": "In this episode of 'Moonshots with Peter Diamandis', the panel discusses the increasing role of AI in corporate governance and the potential for AI CEOs. They also touch on the rapid job displacement due to automation and the implications for the social contract. The second half of the episode is dedicated to unveiling a paper titled 'Solve Everything', which outlines a vision for achieving abundance by 2035. The discussion covers the acceleration of AI in business strategy and decision-making, suggesting that AI could soon be capable of running significant economic engines.",
+      "key_takeaway": "Invest in AI and automation technologies that are driving the shift towards AI governance and efficiency in business operations.",
+      "tickers_mentioned": [
+        "AAPL",
+        "NVDA",
+        "GOOGL",
+        "MSFT",
+        "TSLA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-16",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 70
+    },
+    {
       "id": 84,
       "title": "AI Startups and the Future of Technology",
       "source_type": "podcast",
@@ -192,11 +215,11 @@
         "PLTR"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-12",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-17",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 58
     },
     {

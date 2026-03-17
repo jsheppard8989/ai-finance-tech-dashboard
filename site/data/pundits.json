@@ -1,5 +1,29 @@
 [
   {
+    "id": 73,
+    "name": "Sam Altman",
+    "slug": "sam-altman",
+    "bio": "President of Y Combinator and Co-Chair of OpenAI.",
+    "known_for": "His work in startup incubation and contributions to the field of artificial intelligence.",
+    "last_seen": "2026-03-17 03:03:31",
+    "last_episode_title": "The AI CEO Arrives: Sam Altman's Succession Plan, Job Loss Continues, and Our 2027 'Solve Everything' Paper",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2027-01-01",
+    "last_main_idea": "Invest in AI and automation technologies that are driving the shift towards AI governance and efficiency in business operations."
+  },
+  {
+    "id": 69,
+    "name": "Ben Horowitz",
+    "slug": "ben-horowitz",
+    "bio": "Ben Horowitz is a co-founder of the venture capital firm Andreessen Horowitz (a16z).",
+    "known_for": "Co-founder of a16z",
+    "last_seen": "2026-03-16 19:37:22",
+    "last_episode_title": "Moonshots Podcast Episode #231 - OpenAI Acquires OpenClaw, 400x Cost Collapse, & Why India Wins the Talent War",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-02-18",
+    "last_main_idea": "Invest in the vertical integration of AI, the rise of India as a global AI hub, and the shift towards agent-based interactions."
+  },
+  {
     "id": 70,
     "name": "Salim Ismail",
     "slug": "salim-ismail",
@@ -29,18 +53,6 @@
     "slug": "alexander-wissner-gross",
     "bio": null,
     "known_for": null,
-    "last_seen": "2026-03-16 19:37:22",
-    "last_episode_title": "Moonshots Podcast Episode #231 - OpenAI Acquires OpenClaw, 400x Cost Collapse, & Why India Wins the Talent War",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-02-18",
-    "last_main_idea": "Invest in the vertical integration of AI, the rise of India as a global AI hub, and the shift towards agent-based interactions."
-  },
-  {
-    "id": 69,
-    "name": "Ben Horowitz",
-    "slug": "ben-horowitz",
-    "bio": "Ben Horowitz is a co-founder of the venture capital firm Andreessen Horowitz (a16z).",
-    "known_for": "Co-founder of a16z",
     "last_seen": "2026-03-16 19:37:22",
     "last_episode_title": "Moonshots Podcast Episode #231 - OpenAI Acquires OpenClaw, 400x Cost Collapse, & Why India Wins the Talent War",
     "last_podcast_name": "Moonshots with Peter Diamandis",
@@ -214,17 +226,5 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-11",
     "last_main_idea": "The current geopolitical tensions and the rise of AI technology present both risks and opportunities, with the potential for economic disruption and the need for strategic investment in sectors less affected by AI."
-  },
-  {
-    "id": 33,
-    "name": "Paul Ackens",
-    "slug": "paul-ackens",
-    "bio": "SEC chair with a history in corporation finance work.",
-    "known_for": "Shaping capital markets and regulatory oversight.",
-    "last_seen": "2026-03-12 19:38:22",
-    "last_episode_title": "Capital Markets Evolution and the Future of IPOs",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-03-11",
-    "last_main_idea": "The shift towards private markets and the potential for changing reporting cadence could redefine the landscape for early-stage investment opportunities and public market participation."
   }
 ]
