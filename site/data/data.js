@@ -3,8 +3,8 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-03-17T16:45:11.295639",
-  chartsVersion: "2026-03-17T16:45:07.721710",
+  generatedAt: "2026-03-17T17:18:41.937615",
+  chartsVersion: "2026-03-17T17:18:39.116259",
   tickerScores: [
   {
     "ticker": "GOOGL",
@@ -262,14 +262,14 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "ARBOMB",
-    "total_score": 72.0,
+    "ticker": "TSLA",
+    "total_score": 74.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
     "rank": 18,
-    "score": 72.0,
+    "score": 74.0,
     "mentions": 1,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
@@ -277,7 +277,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "CROWD",
+    "ticker": "ARBOMB",
     "total_score": 72.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -292,7 +292,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "WORK",
+    "ticker": "CROWD",
     "total_score": 72.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -307,7 +307,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "ZEN",
+    "ticker": "WORK",
     "total_score": 72.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -322,14 +322,14 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "ARBOB GASOLINE",
-    "total_score": 70.0,
+    "ticker": "ZEN",
+    "total_score": 72.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
     "rank": 22,
-    "score": 70.0,
+    "score": 72.0,
     "mentions": 1,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
@@ -337,7 +337,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "DELL",
+    "ticker": "ARBOB GASOLINE",
     "total_score": 70.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -352,7 +352,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "EMAX",
+    "ticker": "DELL",
     "total_score": 70.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -367,7 +367,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "NOW",
+    "ticker": "EMAX",
     "total_score": 70.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -382,14 +382,14 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "CRM",
-    "total_score": 68.0,
+    "ticker": "NOW",
+    "total_score": 70.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
     "rank": 26,
-    "score": 68.0,
+    "score": 70.0,
     "mentions": 1,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
@@ -397,7 +397,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "MINE",
+    "ticker": "CRM",
     "total_score": 68.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -412,14 +412,14 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "ILMN",
-    "total_score": 66.0,
+    "ticker": "MINE",
+    "total_score": 68.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
     "rank": 28,
-    "score": 66.0,
+    "score": 68.0,
     "mentions": 1,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
@@ -427,7 +427,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "PLTR",
+    "ticker": "ILMN",
     "total_score": 66.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -442,14 +442,14 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "CRSP",
-    "total_score": 64.0,
+    "ticker": "PLTR",
+    "total_score": 66.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
     "rank": 30,
-    "score": 64.0,
+    "score": 66.0,
     "mentions": 1,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
@@ -457,7 +457,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "GOOG",
+    "ticker": "CRSP",
     "total_score": 64.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -472,7 +472,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "HOOD",
+    "ticker": "GOOG",
     "total_score": 64.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -487,7 +487,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "SF",
+    "ticker": "HOOD",
     "total_score": 64.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -502,7 +502,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "URANIUM",
+    "ticker": "SF",
     "total_score": 64.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -517,14 +517,14 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "T",
-    "total_score": 60.0,
+    "ticker": "URANIUM",
+    "total_score": 64.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
     "rank": 35,
-    "score": 60.0,
+    "score": 64.0,
     "mentions": 1,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
@@ -532,7 +532,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "TLT",
+    "ticker": "T",
     "total_score": 60.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -547,13 +547,28 @@ const dashboardData = {
     "contexts": []
   },
   {
+    "ticker": "TLT",
+    "total_score": 60.0,
+    "raw_mention_count": 1,
+    "unique_sources": 1,
+    "podcast_mentions": 1,
+    "newsletter_mentions": 0,
+    "rank": 37,
+    "score": 60.0,
+    "mentions": 1,
+    "conviction_level": "medium",
+    "contrarian_signal": "neutral",
+    "timeframe": "long_term",
+    "contexts": []
+  },
+  {
     "ticker": "QQQ",
     "total_score": 48.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 37,
+    "rank": 38,
     "score": 48.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -568,7 +583,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 38,
+    "rank": 39,
     "score": 40.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -583,7 +598,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 39,
+    "rank": 40,
     "score": 32.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -598,7 +613,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 40,
+    "rank": 41,
     "score": 24.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -613,7 +628,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 41,
+    "rank": 42,
     "score": 20.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -628,7 +643,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 42,
+    "rank": 43,
     "score": 20.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -643,7 +658,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 43,
+    "rank": 44,
     "score": 16.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -762,6 +777,25 @@ const dashboardData = {
       "podcast_episode_id": 74
     },
     {
+      "id": 92,
+      "title": "Elon Musk on Moonshots: Discussing AI, Robotics, and Future Technologies",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-03-17",
+      "summary": "In this episode of Moonshots with Peter Diamandis, Elon Musk discusses a range of topics including the merger of SpaceX and XAI, the timeline for launching data centers, the progression towards AGI and ASI, and the future of robotics. Musk also shares his thoughts on the potential for extended longevity, the harnessing of solar energy, and the economic implications of advanced AI and robotics. The conversation touches on the future of work, universal high income, and the potential for human trials in genetic reprogramming.",
+      "key_takeaway": "Invest in companies at the forefront of AI, robotics, and space technology, as these sectors are poised for significant growth and disruption.",
+      "tickers_mentioned": [
+        "TSLA"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-17",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 75
+    },
+    {
       "id": 84,
       "title": "AI Startups and the Future of Technology",
       "source_type": "podcast",
@@ -797,11 +831,11 @@ const dashboardData = {
         "T"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-16",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-17",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 66
     },
     {
@@ -2376,6 +2410,28 @@ const dashboardData = {
       ]
     },
     {
+      "id": 92,
+      "title": "Elon Musk on Moonshots: Discussing AI, Robotics, and Future Technologies",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-03-17",
+      "summary": "In this episode of Moonshots with Peter Diamandis, Elon Musk discusses a range of topics including the merger of SpaceX and XAI, the timeline for launching data centers, the progression towards AGI and ASI, and the future of robotics. Musk also shares his thoughts on the potential for extended longevity, the harnessing of solar energy, and the economic implications of advanced AI and robotics. The conversation touches on the future of work, universal high income, and the potential for human trials in genetic reprogramming.",
+      "key_takeaway": "Invest in companies at the forefront of AI, robotics, and space technology, as these sectors are poised for significant growth and disruption.",
+      "tickers_mentioned": "[\"TSLA\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-17",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 75,
+      "episode_release_date": "2026-03-17",
+      "guest_name": "Elon Musk on Moonshots",
+      "key_tickers": [
+        "TSLA"
+      ]
+    },
+    {
       "id": 84,
       "title": "AI Startups and the Future of Technology",
       "source_type": "podcast",
@@ -2394,29 +2450,6 @@ const dashboardData = {
       "episode_release_date": "2026-03-16",
       "guest_name": null,
       "key_tickers": []
-    },
-    {
-      "id": 82,
-      "title": "The Intersection of Technology, Entrepreneurship, and the Future",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-03-15",
-      "summary": "In this episode of 'The a16z Show', the guest discusses the powerful role of technology in driving the world forward and the importance of entrepreneurship in creating new opportunities. The conversation delves into patterns observed among successful founders, the focus on building rather than introspection, and the impact of technology and entrepreneurship on the future. The guest also shares insights on the importance of recruiting in the early stages of a company and the challenges faced by ambitious builders. The discussion touches on the historical context of technology-driven businesses, such as Nintendo and Starlink, and their influence on shaping the future.",
-      "key_takeaway": "Invest in technology-driven businesses with a strong founder's mindset that focus on building and scaling rather than introspection, as they are more likely to shape the future and create significant value.",
-      "tickers_mentioned": "[\"NINT\", \"T\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-03-16",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 66,
-      "episode_release_date": "2026-03-15",
-      "guest_name": null,
-      "key_tickers": [
-        "NINT",
-        "T"
-      ]
     },
     {
       "id": 83,
@@ -6958,6 +6991,74 @@ const dashboardData = {
     "key_tickers": [
       "SOYB"
     ]
+  },
+  "92": {
+    "id": 83,
+    "insight_id": 92,
+    "podcast_episode_id": 75,
+    "overview": "In this podcast, Elon Musk discusses a range of futuristic technologies, including AI, robotics, and space exploration. He highlights the rapid progress in AI, with recursive self-improvement potentially leading to AGI (Artificial General Intelligence) within the next year. Musk also envisions a future where robots significantly increase economic output and humanity becomes a minority of intelligence on Earth. These developments have profound implications for investors, as they could disrupt traditional industries and create new investment opportunities in cutting-edge technologies.",
+    "key_takeaways_detailed": [
+      "Elon Musk expects AGI to be achieved within the next year, which could lead to exponential growth in AI capabilities.",
+      "Robotics and AI are poised to significantly increase economic output, creating investment opportunities in companies at the forefront of these technologies.",
+      "Musk envisions humanity becoming a minority of intelligence on Earth, implying that AI and robotics could dominate future economic activity.",
+      "SpaceX's merger with XAI could accelerate the development of space-based data centers, opening up new investment opportunities in space technology.",
+      "Musk predicts the economy will be 10 times its current size in 10 years, driven by advancements in AI, robotics, and space exploration."
+    ],
+    "investment_thesis": "The rapid progress in AI and robotics, as discussed by Elon Musk, suggests that these technologies will disrupt traditional industries and create new investment opportunities. Companies at the forefront of AI, robotics, and space exploration are poised to benefit from these developments. We believe that investing in these companies offers significant growth potential over the next 1-3 years. Key catalysts include the achievement of AGI, the commercialization of advanced robotics, and the development of space-based technologies.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple is a leader in AI and has been investing heavily in the development of AI technologies. The company's AI capabilities are integral to its products and services, making it well-positioned to benefit from the AI revolution.",
+        "positioning": "Long-term strategic position, as Apple's AI capabilities are expected to drive growth over the next 1-3 years.",
+        "risk": "Key risks include increased competition in the AI space and potential regulatory challenges related to data privacy."
+      },
+      "NVDA": {
+        "rationale": "NVIDIA is a leading provider of AI chips and has been at the forefront of AI hardware development. The company's GPUs are essential for training and deploying AI models, making it well-positioned to benefit from the AI revolution.",
+        "positioning": "Medium-term tactical position, as NVIDIA's AI chip sales are expected to grow rapidly over the next 1-2 years.",
+        "risk": "Key risks include increased competition in the AI chip market and potential disruptions in global semiconductor supply chains."
+      },
+      "TSLA": {
+        "rationale": "Tesla is a leader in electric vehicles and has been investing in AI and robotics for its autonomous driving technology. The company's AI capabilities are integral to its future growth, making it well-positioned to benefit from the AI revolution.",
+        "positioning": "Long-term strategic position, as Tesla's AI capabilities are expected to drive growth over the next 1-3 years.",
+        "risk": "Key risks include increased competition in the electric vehicle market and potential disruptions in global supply chains."
+      },
+      "SPY": {
+        "rationale": "The S&P 500 ETF (SPY) provides exposure to the broader U.S. stock market, which is expected to benefit from the AI revolution and increased economic output.",
+        "positioning": "Long-term strategic position, as the S&P 500 is expected to grow over the next 1-3 years due to advancements in AI, robotics, and space exploration.",
+        "risk": "Key risks include economic downturns, geopolitical tensions, and potential regulatory challenges related to AI and data privacy."
+      }
+    },
+    "positioning_guidance": "Investors should consider a diversified approach to capitalizing on the AI revolution and future technologies. A long-term strategic position in companies like Apple and Tesla can provide exposure to AI and robotics advancements. A medium-term tactical position in NVIDIA can benefit from the rapid growth in AI chip sales. Additionally, investors can gain broad exposure to the U.S. stock market through the S&P 500 ETF (SPY). Position sizing should be based on individual risk tolerance and investment objectives, with a focus on maintaining a balanced portfolio. Entry points should be based on market conditions and technical analysis, with a focus on long-term growth potential. Investors should monitor the progress of AI, robotics, and space exploration to adjust their positions accordingly.",
+    "risk_factors": [
+      "Increased competition in the AI and robotics space could disrupt the growth prospects of companies like Apple, NVIDIA, and Tesla.",
+      "Potential regulatory challenges related to data privacy and AI ethics could hinder the development and deployment of AI technologies.",
+      "Geopolitical tensions and economic downturns could impact the growth of the broader stock market and individual companies.",
+      "Disruptions in global supply chains could negatively impact the production and sales of AI chips, electric vehicles, and other technologies.",
+      "Unexpected breakthroughs in AI could lead to rapid advancements that disrupt traditional industries and create new investment opportunities."
+    ],
+    "contrarian_signals": [
+      "Some investors may argue that the AI revolution is overhyped and that traditional industries will continue to dominate the economy.",
+      "Others may contend that the potential risks and ethical concerns surrounding AI and robotics outweigh the potential benefits.",
+      "Some may believe that the growth prospects of companies like Apple, NVIDIA, and Tesla are already priced into their stock valuations, limiting future upside potential."
+    ],
+    "catalysts": [
+      "Achievement of AGI within the next year, as predicted by Elon Musk, could accelerate the AI revolution and create new investment opportunities.",
+      "Commercialization of advanced robotics, such as Tesla's Optimus, could drive growth in the robotics sector and create new investment opportunities.",
+      "Development of space-based technologies, such as SpaceX's data centers and mass drivers on the moon, could create new investment opportunities in the space exploration sector.",
+      "Economic growth and increased output driven by AI and robotics advancements could lead to a re-rating of the broader stock market and individual companies.",
+      "Regulatory developments related to AI, data privacy, and robotics could create new investment opportunities or pose risks to existing positions."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-03-17T17:18:08.694627",
+    "updated_at": "2026-03-17 22:18:08",
+    "insight_title": "Elon Musk on Moonshots: Discussing AI, Robotics, and Future Technologies",
+    "source_name": "Moonshots with Peter Diamandis",
+    "source_date": "2026-03-17",
+    "key_tickers": [
+      "TSLA"
+    ]
   }
 },
   suggestedTerms: [
@@ -7012,7 +7113,19 @@ const dashboardData = {
 ],
   podcastGuests: [
   {
-    "id": 318,
+    "id": 324,
+    "name": "Elon Musk on Moonshots",
+    "slug": "elon-musk-on-moonshots",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Invest in companies at the forefront of AI, robotics, and space technology, as these sectors are poised for significant growth and disruption.",
+    "last_episode_title": "Elon Musk on Moonshots: Discussing AI, Robotics, and Future Technologies",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-03-17",
+    "appearance_count": 1
+  },
+  {
+    "id": 325,
     "name": "Investing in Capitalism",
     "slug": "investing-in-capitalism",
     "bio": null,
@@ -7024,7 +7137,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 319,
+    "id": 326,
     "name": "Harvard Professor Graham Allison",
     "slug": "harvard-professor-graham-allison",
     "bio": null,
@@ -7036,7 +7149,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 320,
+    "id": 327,
     "name": "Andrew Yang",
     "slug": "andrew-yang",
     "bio": "Andrew Yang is an entrepreneur and political leader who popularized universal basic income in U.S. politics through his 2020 presidential campaign.",
@@ -7048,7 +7161,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 321,
+    "id": 328,
     "name": "Ray Dalio",
     "slug": "ray-dalio",
     "bio": "Ray Dalio is the founder of Bridgewater Associates and a macro investor known for his 'Principles' framework and work on long-term debt cycles.",
@@ -7060,7 +7173,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 322,
+    "id": 329,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -7072,7 +7185,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 323,
+    "id": 330,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -7085,6 +7198,18 @@ const dashboardData = {
   }
 ],
   pundits: [
+  {
+    "id": 81,
+    "name": "Elon Musk",
+    "slug": "elon-musk",
+    "bio": "CEO of Tesla and SpaceX, known for his work in electric vehicles and space exploration.",
+    "known_for": "Innovative technologies and ambitious projects in sustainable energy and space travel.",
+    "last_seen": "2026-03-17 22:17:06",
+    "last_episode_title": "Elon Musk on Moonshots: Discussing AI, Robotics, and Future Technologies",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-03-17",
+    "last_main_idea": "Invest in companies at the forefront of AI, robotics, and space technology, as these sectors are poised for significant growth and disruption."
+  },
   {
     "id": 79,
     "name": "Chris Morris",
@@ -7300,18 +7425,6 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-12",
     "last_main_idea": "Investing in companies that leverage technology to enhance national defense and security could yield significant returns, especially if they align with the interests of the defense establishment."
-  },
-  {
-    "id": 48,
-    "name": "Graham Allison",
-    "slug": "graham-allison",
-    "bio": "Founding dean of the Harvard Kennedy School, advisor to U.S. Secretaries of Defense, and author of 'Destined For War'.",
-    "known_for": "Expertise on U.S.-China relations and nuclear security.",
-    "last_seen": "2026-03-12 19:39:13",
-    "last_episode_title": "All-In with Chamath, Jason, Sacks & Friedberg - Discussion with Graham Allison",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-03-09",
-    "last_main_idea": "The global semiconductor supply chain, with a focus on Taiwan's TSMC, presents both risks and opportunities in the context of U.S.-China relations and economic inequality."
   }
 ]
 };

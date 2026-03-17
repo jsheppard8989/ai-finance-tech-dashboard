@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-17T16:42:40.923136",
+  "timestamp": "2026-03-17T17:15:31.378352",
   "total_feed_episodes": 4,
   "approved_for_transcription": 4,
   "episodes": [
@@ -11,10 +11,10 @@
       "published": "Tue, 17 Mar 2026 21:26:00 -0000",
       "published_date": "2026-03-17",
       "rss_guid": "bd810750-2231-11f1-aa23-db71bdf51283",
+      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/DVVTS8312872277.mp3",
+      "filename": "DVVTS8312872277.mp3",
       "status": "APPROVED",
-      "matched_keywords": [],
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/moonshots_with_peter_diamandis_elon_musk__optimus_3_is_coming__recursive_self_improvement_i_04207771.mp3",
-      "filename": "moonshots_with_peter_diamandis_elon_musk__optimus_3_is_coming__recursive_self_improvement_i_04207771.mp3"
+      "matched_keywords": []
     },
     {
       "podcast": "Moonshots with Peter Diamandis",

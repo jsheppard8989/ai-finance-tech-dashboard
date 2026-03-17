@@ -1,5 +1,17 @@
 [
   {
+    "id": 81,
+    "name": "Elon Musk",
+    "slug": "elon-musk",
+    "bio": "CEO of Tesla and SpaceX, known for his work in electric vehicles and space exploration.",
+    "known_for": "Innovative technologies and ambitious projects in sustainable energy and space travel.",
+    "last_seen": "2026-03-17 22:17:06",
+    "last_episode_title": "Elon Musk on Moonshots: Discussing AI, Robotics, and Future Technologies",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-03-17",
+    "last_main_idea": "Invest in companies at the forefront of AI, robotics, and space technology, as these sectors are poised for significant growth and disruption."
+  },
+  {
     "id": 79,
     "name": "Chris Morris",
     "slug": "chris-morris",
@@ -214,17 +226,5 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-12",
     "last_main_idea": "Investing in companies that leverage technology to enhance national defense and security could yield significant returns, especially if they align with the interests of the defense establishment."
-  },
-  {
-    "id": 48,
-    "name": "Graham Allison",
-    "slug": "graham-allison",
-    "bio": "Founding dean of the Harvard Kennedy School, advisor to U.S. Secretaries of Defense, and author of 'Destined For War'.",
-    "known_for": "Expertise on U.S.-China relations and nuclear security.",
-    "last_seen": "2026-03-12 19:39:13",
-    "last_episode_title": "All-In with Chamath, Jason, Sacks & Friedberg - Discussion with Graham Allison",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-03-09",
-    "last_main_idea": "The global semiconductor supply chain, with a focus on Taiwan's TSMC, presents both risks and opportunities in the context of U.S.-China relations and economic inequality."
   }
 ]
