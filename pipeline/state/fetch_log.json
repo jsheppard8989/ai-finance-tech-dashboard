@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-03-17T05:48:31.402372",
+  "timestamp": "2026-03-17T06:23:27.365846",
   "results": [
     {
-      "podcast": "The Jack Mallers Show",
-      "title": "Uncle, Not TACO: Bitcoin in a World on Fire",
-      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-2-17%2F420183613-44100-2-51f32eb2f8dfd.mp3",
-      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-2-17%2F420183613-44100-2-51f32eb2f8dfd.txt",
-      "success": true
+      "podcast": "The a16z Show",
+      "title": "What's Missing Between LLMs and AGI - Vishal Misra & Martin Casado",
+      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_20260317_6d0a2893_0cf5_47c4_87f9_7bf5db7a.mp3",
+      "transcript_path": null,
+      "success": false
     }
   ]
 }

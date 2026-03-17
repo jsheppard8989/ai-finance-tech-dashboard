@@ -41,7 +41,14 @@
       "status": "needs_analysis"
     }
   ],
-  "available_from_rss": [],
+  "available_from_rss": [
+    {
+      "podcast": "The a16z Show",
+      "title": "What's Missing Between LLMs and AGI - Vishal Misra & Martin Casado",
+      "published": "Tue, 17 Mar 2026 11:05:23 +0000",
+      "published_date": "2026-03-17"
+    }
+  ],
   "rss_filter_criteria": {
     "cutoff_date": "2026-02-01",
     "approval": "Feed list is the filter. If a feed is in podcast_feeds.txt, all its episodes (within window) are approved. No per-episode relevance score.",

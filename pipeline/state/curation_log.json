@@ -1,8 +1,19 @@
 {
-  "timestamp": "2026-03-17T05:48:02.720073",
+  "timestamp": "2026-03-17T06:23:21.269141",
   "total_feed_episodes": 3,
   "approved_for_transcription": 3,
   "episodes": [
+    {
+      "podcast": "The a16z Show",
+      "title": "What's Missing Between LLMs and AGI - Vishal Misra & Martin Casado",
+      "description": "<p>Vishal Misra returns to explain his latest research on how LLMs actually work under the hood. He walks through experiments showing that transformers update their predictions in a precise, mathematically predictable way as they process new information, explains why this still doesn't mean they're conscious, and describes what's actually required for AGI: the ability to keep learning after training and the move from pattern matching to understanding cause and effect.</p>\n<p>\u00a0</p>\n<p>Resources:<",
+      "audio_url": "https://mgln.ai/e/1344/afp-848985-injected.calisto.simplecastaudio.com/3f86df7b-51c6-4101-88a2-550dba782de8/episodes/69d41c00-0963-4d43-9837-7a8718959ebc/audio/128/default.mp3?aid=rss_feed&awCollectionId=3f86df7b-51c6-4101-88a2-550dba782de8&awEpisodeId=69d41c00-0963-4d43-9837-7a8718959ebc&feed=JGE3yC0V",
+      "published": "Tue, 17 Mar 2026 11:05:23 +0000",
+      "published_date": "2026-03-17",
+      "rss_guid": "6d0a2893-0cf5-47c4-87f9-7bf5db7a7888",
+      "status": "APPROVED",
+      "matched_keywords": []
+    },
     {
       "podcast": "The a16z Show",
       "title": "Chris Dixon: From Quant Trading to Building a16z Crypto",
@@ -11,19 +22,6 @@
       "published": "Mon, 2 Mar 2026 11:00:00 +0000",
       "published_date": "2026-03-02",
       "rss_guid": "1a7873e6-52cf-493d-a1a1-360a49324923",
-      "status": "APPROVED",
-      "matched_keywords": []
-    },
-    {
-      "podcast": "The Jack Mallers Show",
-      "title": "Uncle, Not TACO: Bitcoin in a World on Fire",
-      "description": "<p>Streaming live Mondays at 6pm ET on The Jack Mallers Show YouTube channel.</p>\n",
-      "audio_url": "https://anchor.fm/s/e29097f4/podcast/play/117047877/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-2-17%2F420183613-44100-2-51f32eb2f8dfd.mp3",
-      "published": "Tue, 17 Mar 2026 07:04:50 GMT",
-      "published_date": "2026-03-17",
-      "rss_guid": "658cf0bd-13e6-4071-91ff-91eec75f879b",
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-2-17%2F420183613-44100-2-51f32eb2f8dfd.mp3",
-      "filename": "https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-2-17%2F420183613-44100-2-51f32eb2f8dfd.mp3",
       "status": "APPROVED",
       "matched_keywords": []
     },
