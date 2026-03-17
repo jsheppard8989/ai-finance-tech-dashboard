@@ -1,12 +1,4 @@
 {
-  "timestamp": "2026-03-17T06:57:18.393485",
-  "results": [
-    {
-      "podcast": "The a16z Show",
-      "title": "What's Missing Between LLMs and AGI - Vishal Misra & Martin Casado",
-      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_20260317_6d0a2893_0cf5_47c4_87f9_7bf5db7a.mp3",
-      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/the_a16z_show_20260317_6d0a2893_0cf5_47c4_87f9_7bf5db7a.txt",
-      "success": true
-    }
-  ]
+  "timestamp": "2026-03-17T07:31:25.577806",
+  "results": []
 }
