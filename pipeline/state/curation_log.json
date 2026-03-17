@@ -1,21 +1,8 @@
 {
-  "timestamp": "2026-03-17T17:15:31.378352",
-  "total_feed_episodes": 4,
-  "approved_for_transcription": 4,
+  "timestamp": "2026-03-17T17:48:52.972681",
+  "total_feed_episodes": 3,
+  "approved_for_transcription": 3,
   "episodes": [
-    {
-      "podcast": "Moonshots with Peter Diamandis",
-      "title": "Elon Musk: Optimus 3 Is Coming, Recursive Self-Improvement Is Already Here, and the Singularity | #239",
-      "description": "\n        <p>Recorded live at https://www.abundance360.com/ \n\nPeter H. Diamandis, MD, is the Founder of XPRIZE, Singularity University, ZeroG, and A360\n\nElon Musk is the cofounder and CEO of Tesla, cofounder of SpaceX, and xAI.\n\n\u2013\n\nMy companies:\n\nApply to Dave's and my new fund: https://qr.diamandis.com/linkventures...  \n\nGo to Blitzy to book a free demo and start building today: https://qr.diamandis.com/blitzy \n_\n\n<a href=\"https://solveeverything.org/%20\">Read the Solve Everything Paper</a>\n\nGet",
-      "audio_url": "https://traffic.megaphone.fm/DVVTS8312872277.mp3",
-      "published": "Tue, 17 Mar 2026 21:26:00 -0000",
-      "published_date": "2026-03-17",
-      "rss_guid": "bd810750-2231-11f1-aa23-db71bdf51283",
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/DVVTS8312872277.mp3",
-      "filename": "DVVTS8312872277.mp3",
-      "status": "APPROVED",
-      "matched_keywords": []
-    },
     {
       "podcast": "Moonshots with Peter Diamandis",
       "title": "Meta Buys Moltbook, GPT 5.4, and Fruitfly Brain Upload | Moonshots Live at The Abundance Summit 238",

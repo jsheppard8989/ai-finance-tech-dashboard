@@ -1,12 +1,4 @@
 {
-  "timestamp": "2026-03-17T17:15:34.120079",
-  "results": [
-    {
-      "podcast": "Moonshots with Peter Diamandis",
-      "title": "Elon Musk: Optimus 3 Is Coming, Recursive Self-Improvement Is Already Here, and the Singularity | #239",
-      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/DVVTS8312872277.mp3",
-      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/DVVTS8312872277.txt",
-      "success": true
-    }
-  ]
+  "timestamp": "2026-03-17T17:48:54.941888",
+  "results": []
 }
