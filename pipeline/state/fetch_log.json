@@ -1,4 +1,12 @@
 {
-  "timestamp": "2026-03-17T07:31:25.577806",
-  "results": []
+  "timestamp": "2026-03-17T08:04:49.593820",
+  "results": [
+    {
+      "podcast": "Monetary Matters with Jack Farley",
+      "title": "The Ultimate Hard Asset: American Farmland and The 300-Year Water Supply Hidden Underneath It | Chris Morris LandFund Partners",
+      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/EWWMN5207402580.mp3",
+      "transcript_path": null,
+      "success": false
+    }
+  ]
 }
