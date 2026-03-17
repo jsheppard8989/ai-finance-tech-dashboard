@@ -1,8 +1,34 @@
 {
-  "timestamp": "2026-03-17T16:10:00.617508",
-  "total_feed_episodes": 2,
-  "approved_for_transcription": 2,
+  "timestamp": "2026-03-17T16:42:40.923136",
+  "total_feed_episodes": 4,
+  "approved_for_transcription": 4,
   "episodes": [
+    {
+      "podcast": "Moonshots with Peter Diamandis",
+      "title": "Elon Musk: Optimus 3 Is Coming, Recursive Self-Improvement Is Already Here, and the Singularity | #239",
+      "description": "\n        <p>Recorded live at https://www.abundance360.com/ \n\nPeter H. Diamandis, MD, is the Founder of XPRIZE, Singularity University, ZeroG, and A360\n\nElon Musk is the cofounder and CEO of Tesla, cofounder of SpaceX, and xAI.\n\n\u2013\n\nMy companies:\n\nApply to Dave's and my new fund: https://qr.diamandis.com/linkventures...  \n\nGo to Blitzy to book a free demo and start building today: https://qr.diamandis.com/blitzy \n_\n\n<a href=\"https://solveeverything.org/%20\">Read the Solve Everything Paper</a>\n\nGet",
+      "audio_url": "https://traffic.megaphone.fm/DVVTS8312872277.mp3",
+      "published": "Tue, 17 Mar 2026 21:26:00 -0000",
+      "published_date": "2026-03-17",
+      "rss_guid": "bd810750-2231-11f1-aa23-db71bdf51283",
+      "status": "APPROVED",
+      "matched_keywords": [],
+      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/moonshots_with_peter_diamandis_elon_musk__optimus_3_is_coming__recursive_self_improvement_i_04207771.mp3",
+      "filename": "moonshots_with_peter_diamandis_elon_musk__optimus_3_is_coming__recursive_self_improvement_i_04207771.mp3"
+    },
+    {
+      "podcast": "Moonshots with Peter Diamandis",
+      "title": "Meta Buys Moltbook, GPT 5.4, and Fruitfly Brain Upload | Moonshots Live at The Abundance Summit 238",
+      "description": "\n        <p>Peter H. Diamandis, MD, is the Founder of XPRIZE, Singularity University, ZeroG, and A360\n\nSalim Ismail is the founder of OpenExO\n\nDave Blundin is the founder &amp; GP of Link Ventures\n\nDr. Alexander Wissner-Gross is a computer scientist and founder of Reified\n\nEmad Mostaque is the founder of Intelligent Internet\n\n\u2013\n\nMy companies:\n\nApply to Dave's and my new fund: https://qr.diamandis.com/linkventures...  \n\nGo to Blitzy to book a free demo and start building today: https://qr.diamand",
+      "audio_url": "https://traffic.megaphone.fm/DVVTS1697513973.mp3",
+      "published": "Tue, 17 Mar 2026 21:22:00 -0000",
+      "published_date": "2026-03-17",
+      "rss_guid": "e1cac66e-2231-11f1-82c3-c7e649c4b364",
+      "status": "APPROVED",
+      "matched_keywords": [],
+      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/moonshots_with_peter_diamandis_meta_buys_moltbook__gpt_5_4__and_fruitfly_brain_upload___moo_609f0b8d.mp3",
+      "filename": "moonshots_with_peter_diamandis_meta_buys_moltbook__gpt_5_4__and_fruitfly_brain_upload___moo_609f0b8d.mp3"
+    },
     {
       "podcast": "The a16z Show",
       "title": "Chris Dixon: From Quant Trading to Building a16z Crypto",

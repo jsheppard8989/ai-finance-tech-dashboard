@@ -41,7 +41,20 @@
       "status": "needs_analysis"
     }
   ],
-  "available_from_rss": [],
+  "available_from_rss": [
+    {
+      "podcast": "Moonshots with Peter Diamandis",
+      "title": "Elon Musk: Optimus 3 Is Coming, Recursive Self-Improvement Is Already Here, and the Singularity | #239",
+      "published": "Tue, 17 Mar 2026 21:26:00 -0000",
+      "published_date": "2026-03-17"
+    },
+    {
+      "podcast": "Moonshots with Peter Diamandis",
+      "title": "Meta Buys Moltbook, GPT 5.4, and Fruitfly Brain Upload | Moonshots Live at The Abundance Summit 238",
+      "published": "Tue, 17 Mar 2026 21:22:00 -0000",
+      "published_date": "2026-03-17"
+    }
+  ],
   "rss_filter_criteria": {
     "cutoff_date": "2026-02-01",
     "approval": "Feed list is the filter. If a feed is in podcast_feeds.txt, all its episodes (within window) are approved. No per-episode relevance score.",

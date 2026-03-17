@@ -3,60 +3,60 @@
     "price": 310.92,
     "change_pct": 1.22,
     "name": "GOOGL",
-    "updated_at": "2026-03-17T16:12:25.192124"
+    "updated_at": "2026-03-17T16:45:07.720603"
   },
   "MSFT": {
     "price": 399.41,
     "change_pct": -0.58,
     "name": "MSFT",
-    "updated_at": "2026-03-17T16:12:25.192141"
+    "updated_at": "2026-03-17T16:45:07.720622"
   },
   "BTC-USD": {
-    "price": 74548.79,
-    "change_pct": 2.53,
+    "price": 74769.88,
+    "change_pct": 2.83,
     "name": "BTC",
-    "updated_at": "2026-03-17T16:12:25.192148"
+    "updated_at": "2026-03-17T16:45:07.720630"
   },
   "NVDA": {
     "price": 181.93,
     "change_pct": -1.6,
     "name": "NVDA",
-    "updated_at": "2026-03-17T16:12:25.192153"
+    "updated_at": "2026-03-17T16:45:07.720639"
   },
   "META": {
     "price": 622.66,
     "change_pct": -5.15,
     "name": "META",
-    "updated_at": "2026-03-17T16:12:25.192159"
+    "updated_at": "2026-03-17T16:45:07.720646"
   },
   "AMZN": {
     "price": 215.2,
     "change_pct": 3.5,
     "name": "AMZN",
-    "updated_at": "2026-03-17T16:12:25.192165"
+    "updated_at": "2026-03-17T16:45:07.720655"
   },
   "WTI": {
     "price": 3.12,
     "change_pct": 21.87,
     "name": "WTI",
-    "updated_at": "2026-03-17T16:12:25.192171"
+    "updated_at": "2026-03-17T16:45:07.720663"
   },
   "MSTR": {
     "price": 150.28,
     "change_pct": 12.65,
     "name": "MSTR",
-    "updated_at": "2026-03-17T16:12:25.192176"
+    "updated_at": "2026-03-17T16:45:07.720671"
   },
   "COIN": {
     "price": 210.23,
     "change_pct": 16.11,
     "name": "COIN",
-    "updated_at": "2026-03-17T16:12:25.192181"
+    "updated_at": "2026-03-17T16:45:07.720678"
   },
   "QQQ": {
     "price": 603.31,
     "change_pct": -0.97,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-03-17T16:12:25.192186"
+    "updated_at": "2026-03-17T16:45:07.720685"
   }
 }
