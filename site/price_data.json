@@ -1,62 +1,62 @@
 {
   "GOOGL": {
-    "price": 306.15,
-    "change_pct": -0.33,
-    "name": "GOOGL",
-    "updated_at": "2026-03-17T08:43:12.175878"
-  },
-  "MSFT": {
-    "price": 402.42,
-    "change_pct": 0.17,
-    "name": "MSFT",
-    "updated_at": "2026-03-17T08:43:12.175894"
-  },
-  "BTC-USD": {
-    "price": 74028.95,
-    "change_pct": 1.81,
-    "name": "BTC",
-    "updated_at": "2026-03-17T08:43:12.175901"
-  },
-  "NVDA": {
-    "price": 183.67,
-    "change_pct": -0.66,
-    "name": "NVDA",
-    "updated_at": "2026-03-17T08:43:12.175907"
-  },
-  "META": {
-    "price": 635.76,
-    "change_pct": -3.15,
-    "name": "META",
-    "updated_at": "2026-03-17T08:43:12.175913"
-  },
-  "AMZN": {
-    "price": 213.79,
-    "change_pct": 2.82,
-    "name": "AMZN",
-    "updated_at": "2026-03-17T08:43:12.175918"
-  },
-  "WTI": {
-    "price": 3.23,
-    "change_pct": 26.17,
-    "name": "WTI",
-    "updated_at": "2026-03-17T08:43:12.175925"
-  },
-  "MSTR": {
-    "price": 147.9,
-    "change_pct": 10.87,
-    "name": "MSTR",
-    "updated_at": "2026-03-17T08:43:12.175931"
-  },
-  "COIN": {
     "price": NaN,
     "change_pct": NaN,
+    "name": "GOOGL",
+    "updated_at": "2026-03-17T09:16:54.271452"
+  },
+  "MSFT": {
+    "price": 399.48,
+    "change_pct": -0.56,
+    "name": "MSFT",
+    "updated_at": "2026-03-17T09:16:54.271472"
+  },
+  "BTC-USD": {
+    "price": 73780.61,
+    "change_pct": 1.47,
+    "name": "BTC",
+    "updated_at": "2026-03-17T09:16:54.271479"
+  },
+  "NVDA": {
+    "price": NaN,
+    "change_pct": NaN,
+    "name": "NVDA",
+    "updated_at": "2026-03-17T09:16:54.271484"
+  },
+  "META": {
+    "price": NaN,
+    "change_pct": NaN,
+    "name": "META",
+    "updated_at": "2026-03-17T09:16:54.271489"
+  },
+  "AMZN": {
+    "price": 213.83,
+    "change_pct": 2.84,
+    "name": "AMZN",
+    "updated_at": "2026-03-17T09:16:54.271494"
+  },
+  "WTI": {
+    "price": 3.27,
+    "change_pct": 27.73,
+    "name": "WTI",
+    "updated_at": "2026-03-17T09:16:54.271500"
+  },
+  "MSTR": {
+    "price": 148.68,
+    "change_pct": 11.45,
+    "name": "MSTR",
+    "updated_at": "2026-03-17T09:16:54.271506"
+  },
+  "COIN": {
+    "price": 205.92,
+    "change_pct": 13.73,
     "name": "COIN",
-    "updated_at": "2026-03-17T08:43:12.175935"
+    "updated_at": "2026-03-17T09:16:54.271511"
   },
   "QQQ": {
-    "price": 604.66,
-    "change_pct": -0.75,
+    "price": 603.78,
+    "change_pct": -0.9,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-03-17T08:43:12.175941"
+    "updated_at": "2026-03-17T09:16:54.271516"
   }
 }

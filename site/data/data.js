@@ -3,8 +3,8 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-03-17T08:43:16.436502",
-  chartsVersion: "2026-03-17T08:43:12.176687",
+  generatedAt: "2026-03-17T09:16:57.640030",
+  chartsVersion: "2026-03-17T09:16:54.272265",
   tickerScores: [
   {
     "ticker": "GOOGL",
@@ -7012,7 +7012,7 @@ const dashboardData = {
 ],
   podcastGuests: [
   {
-    "id": 234,
+    "id": 240,
     "name": "Investing in Capitalism",
     "slug": "investing-in-capitalism",
     "bio": null,
@@ -7024,7 +7024,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 235,
+    "id": 241,
     "name": "Harvard Professor Graham Allison",
     "slug": "harvard-professor-graham-allison",
     "bio": null,
@@ -7036,7 +7036,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 236,
+    "id": 242,
     "name": "Andrew Yang",
     "slug": "andrew-yang",
     "bio": "Andrew Yang is an entrepreneur and political leader who popularized universal basic income in U.S. politics through his 2020 presidential campaign.",
@@ -7048,7 +7048,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 237,
+    "id": 243,
     "name": "Ray Dalio",
     "slug": "ray-dalio",
     "bio": "Ray Dalio is the founder of Bridgewater Associates and a macro investor known for his 'Principles' framework and work on long-term debt cycles.",
@@ -7060,7 +7060,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 238,
+    "id": 244,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -7072,7 +7072,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 239,
+    "id": 245,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
