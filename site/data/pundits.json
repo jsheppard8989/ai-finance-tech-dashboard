@@ -1,5 +1,17 @@
 [
   {
+    "id": 77,
+    "name": "Shal Misra",
+    "slug": "shal-misra",
+    "bio": "Professor and Vice Dean of Computing at Columbia University, known for his work on mathematically modeling the function of LLMs.",
+    "known_for": "Publishing a series of papers explaining the mechanics of LLMs and their limitations in achieving AGI.",
+    "last_seen": "2026-03-17 11:58:39",
+    "last_episode_title": "Understanding the Mechanics of Large Language Models (LLMs) and the Path to AGI",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-03-17",
+    "last_main_idea": "Investing in companies and technologies that are advancing the understanding and capabilities of LLMs could be a pathway to participate in the development of AGI."
+  },
+  {
     "id": 74,
     "name": "Travis Kalanick",
     "slug": "travis-kalanick",
@@ -214,17 +226,5 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-09",
     "last_main_idea": "As the global liquidity cycle peaks, investors should consider rotating their asset allocation towards more defensive areas and higher yielding assets like private credit."
-  },
-  {
-    "id": 45,
-    "name": "Alex Finn",
-    "slug": "alex-finn",
-    "bio": "Alex Finn is an AI enthusiast and expert who has been following the development of AI for a long time.",
-    "known_for": "His expertise and hands-on experience with AI, particularly with OpenClaw.",
-    "last_seen": "2026-03-12 19:38:58",
-    "last_episode_title": "The Future of Personal AI Agents with OpenClaw",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-03-09",
-    "last_main_idea": "Investment in AI technology, particularly in personal AI agents like OpenClaw, could offer substantial returns as the technology matures and becomes more integrated into daily life."
   }
 ]

@@ -3,8 +3,8 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-03-17T06:27:04.360484",
-  chartsVersion: "2026-03-17T06:26:48.193042",
+  generatedAt: "2026-03-17T07:00:44.814094",
+  chartsVersion: "2026-03-17T07:00:36.782473",
   tickerScores: [
   {
     "ticker": "GOOGL",
@@ -721,6 +721,28 @@ const dashboardData = {
       "podcast_episode_id": 72
     },
     {
+      "id": 90,
+      "title": "Understanding the Mechanics of Large Language Models (LLMs) and the Path to AGI",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-03-17",
+      "summary": "The podcast episode features a discussion with Shal Misra, a Professor and Vice Dean of Computing at Columbia University, who has been researching the inner workings of Large Language Models (LLMs). The conversation delves into the mathematical models that explain how LLMs function, the difference between pattern matching and true intelligence, and the challenges in moving from correlation to causation for achieving Artificial General Intelligence (AGI). The episode also touches on the limitations of current LLMs and the potential paths for future development.",
+      "key_takeaway": "Investing in companies and technologies that are advancing the understanding and capabilities of LLMs could be a pathway to participate in the development of AGI.",
+      "tickers_mentioned": [
+        "AAPL",
+        "NVDA",
+        "GOOGL",
+        "MSFT"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-17",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 73
+    },
+    {
       "id": 84,
       "title": "AI Startups and the Future of Technology",
       "source_type": "podcast",
@@ -847,11 +869,11 @@ const dashboardData = {
         "SPY"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-13",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-17",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 61
     },
     {
@@ -2293,6 +2315,26 @@ const dashboardData = {
       "key_tickers": []
     },
     {
+      "id": 90,
+      "title": "Understanding the Mechanics of Large Language Models (LLMs) and the Path to AGI",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-03-17",
+      "summary": "The podcast episode features a discussion with Shal Misra, a Professor and Vice Dean of Computing at Columbia University, who has been researching the inner workings of Large Language Models (LLMs). The conversation delves into the mathematical models that explain how LLMs function, the difference between pattern matching and true intelligence, and the challenges in moving from correlation to causation for achieving Artificial General Intelligence (AGI). The episode also touches on the limitations of current LLMs and the potential paths for future development.",
+      "key_takeaway": "Investing in companies and technologies that are advancing the understanding and capabilities of LLMs could be a pathway to participate in the development of AGI.",
+      "tickers_mentioned": "[\"AAPL\", \"NVDA\", \"GOOGL\", \"MSFT\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-17",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 73,
+      "episode_release_date": "2026-03-17",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 84,
       "title": "AI Startups and the Future of Technology",
       "source_type": "podcast",
@@ -2358,26 +2400,6 @@ const dashboardData = {
         "PALL",
         "GOLD"
       ]
-    },
-    {
-      "id": 80,
-      "title": "Monetary Matters: The Impact of US-Iran Conflict on the World Economy",
-      "source_type": "podcast",
-      "source_name": "Monetary Matters with Jack Farley",
-      "source_date": "2026-03-13",
-      "summary": "In this episode of Monetary Matters, host Jack Farley interviews Martin Wolff, Chief Economics Commentator for the Financial Times, to discuss the economic implications of the ongoing conflict between the US and Iran. The conversation centers around the potential disruption to global oil supply, the strategic importance of the Gulf region, and the broader geopolitical ramifications. Wolff also touches on the future of energy-intensive industries and the shift towards renewable energy in Europe.",
-      "key_takeaway": "Investors should consider the geopolitical risks associated with the US-Iran conflict and the potential impact on global oil supply, as well as the long-term shift towards renewable energy sources.",
-      "tickers_mentioned": "[\"AAPL\", \"NVDA\", \"XOM\", \"BP\", \"SPY\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-03-13",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 61,
-      "episode_release_date": "2026-03-13",
-      "guest_name": null,
-      "key_tickers": []
     },
     {
       "id": 81,
@@ -6781,6 +6803,72 @@ const dashboardData = {
     "source_name": "The Jack Mallers Show",
     "source_date": "2026-03-17",
     "key_tickers": []
+  },
+  "90": {
+    "id": 81,
+    "insight_id": 90,
+    "podcast_episode_id": 73,
+    "overview": "The investment thesis revolves around the transformative potential of Large Language Models (LLMs) and their progression towards Artificial General Intelligence (AGI). The recent advancements in understanding the mechanics of LLMs, as highlighted by the work of Vishal Misra, provide a unique opportunity for investors to capitalize on the companies at the forefront of this technology. The ability of LLMs to learn and adapt post-training, moving from correlation to causation, is a critical milestone for AGI. This deep dive analysis explores the investment implications, key takeaways, and potential risks associated with the development and deployment of LLMs and AGI technologies.",
+    "key_takeaways_detailed": [
+      "LLMs function by updating their predictions in a mathematically predictable way, which can be modeled and understood, providing insights into their performance and potential improvements.",
+      "The transition from pattern matching to understanding cause and effect is essential for AGI, representing a significant step change in AI capabilities and a potential investment opportunity.",
+      "Investors should monitor the progress of companies involved in the development of LLMs and AGI, as these technologies could disrupt various industries and create new market leaders.",
+      "The ability to perform in-context learning and adapt to new domains without additional training is a key differentiator for LLMs and could be a competitive advantage for companies that can leverage this capability.",
+      "The path to AGI is still uncertain, and investors should be aware of the risks associated with the development timeline and the potential for regulatory hurdles."
+    ],
+    "investment_thesis": "The core investment logic is centered on the belief that the companies that can successfully harness and advance LLMs towards AGI will capture significant value in the coming years. Catalysts for this thesis include breakthroughs in understanding LLM mechanics, the development of new applications for LLMs, and the potential for regulatory clarity that could accelerate the adoption of these technologies. The timeframe for this thesis is medium to long-term, as the development and commercialization of AGI are likely to be gradual processes.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's significant investment in AI and machine learning, along with its vast resources, positions it well to integrate and advance LLMs in its products and services.",
+        "positioning": "Long-term strategic position, as Apple's integration of LLMs could enhance its competitive position in consumer electronics and services.",
+        "risk": "Regulatory risks and potential delays in AI development could impact Apple's ability to capitalize on LLM advancements."
+      },
+      "NVDA": {
+        "rationale": "NVIDIA's leadership in GPU technology is crucial for the training and deployment of LLMs, providing a foundational role in the development of AGI.",
+        "positioning": "Strategic long position, as NVIDIA's technology is likely to be in high demand as LLMs and AGI technologies mature.",
+        "risk": "The risk of new competitors in the GPU market or a slowdown in AI research and development could affect NVIDIA's growth prospects."
+      },
+      "GOOGL": {
+        "rationale": "Google's DeepMind and its investment in AI research place it at the forefront of understanding and developing LLMs and AGI.",
+        "positioning": "Medium to long-term strategic position, as Google's advancements in AI could lead to new revenue streams and market opportunities.",
+        "risk": "The risk of regulatory challenges and the high costs associated with AI research and development could impact Google's returns on investment."
+      },
+      "MSFT": {
+        "rationale": "Microsoft's Azure cloud platform and AI investments position it to leverage LLMs across a wide range of applications, from productivity to cloud services.",
+        "positioning": "Medium-term tactical to long-term strategic position, as Microsoft's integration of LLMs could enhance its cloud offerings and enterprise solutions.",
+        "risk": "Increased competition in the cloud market and potential delays in AI development could affect Microsoft's growth in this area."
+      }
+    },
+    "positioning_guidance": "Investors should consider a diversified approach to portfolio positioning, with a mix of long-term strategic positions in companies with strong AI capabilities and shorter-term tactical positions in companies that are expected to benefit from near-term advancements in LLMs. Entry points should be based on market conditions and the specific catalysts related to each company. Timeframes for these positions should align with the expected development and commercialization timelines of LLMs and AGI technologies, with a focus on the medium to long term.",
+    "risk_factors": [
+      "The development of AGI could be slower than expected, affecting the timeline for returns on investment.",
+      "Regulatory hurdles could slow down or limit the deployment of LLMs and AGI technologies.",
+      "New competitors could emerge, disrupting the current landscape and affecting the competitive position of established players.",
+      "Technological failures or ethical concerns could lead to a backlash against LLMs and AGI, impacting their adoption.",
+      "Economic downturns could reduce the resources available for investment in AI research and development."
+    ],
+    "contrarian_signals": [
+      "The potential for overinvestment in AI without clear commercial applications could lead to a market correction.",
+      "The focus on AGI could divert resources from more immediate and profitable AI applications, affecting short-term profitability.",
+      "The possibility that AGI may not deliver on its promises, leading to disillusionment and a pullback in investment."
+    ],
+    "catalysts": [
+      "Publications of new research papers that further our understanding of LLMs and their capabilities.",
+      "Announcements of new products or services that leverage LLMs, indicating a move towards commercialization.",
+      "Regulatory decisions that provide clarity or support for the development and deployment of LLMs and AGI technologies.",
+      "Partnerships between tech companies and academic institutions that accelerate the development of AGI.",
+      "Conferences and industry events that showcase the latest advancements in LLMs and AGI, potentially driving investor interest."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-03-17T06:59:59.014082",
+    "updated_at": "2026-03-17 11:59:59",
+    "insight_title": "Understanding the Mechanics of Large Language Models (LLMs) and the Path to AGI",
+    "source_name": "The a16z Show",
+    "source_date": "2026-03-17",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
@@ -6835,7 +6923,7 @@ const dashboardData = {
 ],
   podcastGuests: [
   {
-    "id": 210,
+    "id": 216,
     "name": "Investing in Capitalism",
     "slug": "investing-in-capitalism",
     "bio": null,
@@ -6847,7 +6935,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 211,
+    "id": 217,
     "name": "Harvard Professor Graham Allison",
     "slug": "harvard-professor-graham-allison",
     "bio": null,
@@ -6859,7 +6947,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 212,
+    "id": 218,
     "name": "Andrew Yang",
     "slug": "andrew-yang",
     "bio": "Andrew Yang is an entrepreneur and political leader who popularized universal basic income in U.S. politics through his 2020 presidential campaign.",
@@ -6871,7 +6959,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 213,
+    "id": 219,
     "name": "Ray Dalio",
     "slug": "ray-dalio",
     "bio": "Ray Dalio is the founder of Bridgewater Associates and a macro investor known for his 'Principles' framework and work on long-term debt cycles.",
@@ -6883,7 +6971,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 214,
+    "id": 220,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -6895,7 +6983,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 215,
+    "id": 221,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -6908,6 +6996,18 @@ const dashboardData = {
   }
 ],
   pundits: [
+  {
+    "id": 77,
+    "name": "Shal Misra",
+    "slug": "shal-misra",
+    "bio": "Professor and Vice Dean of Computing at Columbia University, known for his work on mathematically modeling the function of LLMs.",
+    "known_for": "Publishing a series of papers explaining the mechanics of LLMs and their limitations in achieving AGI.",
+    "last_seen": "2026-03-17 11:58:39",
+    "last_episode_title": "Understanding the Mechanics of Large Language Models (LLMs) and the Path to AGI",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-03-17",
+    "last_main_idea": "Investing in companies and technologies that are advancing the understanding and capabilities of LLMs could be a pathway to participate in the development of AGI."
+  },
   {
     "id": 74,
     "name": "Travis Kalanick",
@@ -7123,18 +7223,6 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-09",
     "last_main_idea": "As the global liquidity cycle peaks, investors should consider rotating their asset allocation towards more defensive areas and higher yielding assets like private credit."
-  },
-  {
-    "id": 45,
-    "name": "Alex Finn",
-    "slug": "alex-finn",
-    "bio": "Alex Finn is an AI enthusiast and expert who has been following the development of AI for a long time.",
-    "known_for": "His expertise and hands-on experience with AI, particularly with OpenClaw.",
-    "last_seen": "2026-03-12 19:38:58",
-    "last_episode_title": "The Future of Personal AI Agents with OpenClaw",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-03-09",
-    "last_main_idea": "Investment in AI technology, particularly in personal AI agents like OpenClaw, could offer substantial returns as the technology matures and becomes more integrated into daily life."
   }
 ]
 };

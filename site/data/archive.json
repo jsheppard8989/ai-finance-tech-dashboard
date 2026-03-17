@@ -67,6 +67,28 @@
       "podcast_episode_id": 72
     },
     {
+      "id": 90,
+      "title": "Understanding the Mechanics of Large Language Models (LLMs) and the Path to AGI",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-03-17",
+      "summary": "The podcast episode features a discussion with Shal Misra, a Professor and Vice Dean of Computing at Columbia University, who has been researching the inner workings of Large Language Models (LLMs). The conversation delves into the mathematical models that explain how LLMs function, the difference between pattern matching and true intelligence, and the challenges in moving from correlation to causation for achieving Artificial General Intelligence (AGI). The episode also touches on the limitations of current LLMs and the potential paths for future development.",
+      "key_takeaway": "Investing in companies and technologies that are advancing the understanding and capabilities of LLMs could be a pathway to participate in the development of AGI.",
+      "tickers_mentioned": [
+        "AAPL",
+        "NVDA",
+        "GOOGL",
+        "MSFT"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-17",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 73
+    },
+    {
       "id": 84,
       "title": "AI Startups and the Future of Technology",
       "source_type": "podcast",
@@ -193,11 +215,11 @@
         "SPY"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-13",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-17",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 61
     },
     {
