@@ -45,6 +45,28 @@
       "podcast_episode_id": 71
     },
     {
+      "id": 89,
+      "title": "Bitcoin in a World That Can't Be Reversed with a Tweet",
+      "source_type": "podcast",
+      "source_name": "The Jack Mallers Show",
+      "source_date": "2026-03-17",
+      "summary": "In this episode of 'The Jack Mallers Show', Jack Mallers discusses Bitcoin's market dynamics and its potential as a leading indicator in the financial markets. He explores the concept of Bitcoin exhaustion of sellers, the impact of structural flows into Bitcoin, and its finite supply. Jack also touches on Bitcoin's efficiency in a free market context, its comparison to gold, and potential capital flight implications. He shares insights on Bitcoin's resilience and the anticipation of large-scale money printing, hinting at Bitcoin's role as a hedge against inflation and economic uncertainty.",
+      "key_takeaway": "Bitcoin's finite supply and increasing institutional interest position it as a potential hedge against inflation and a leading indicator for market movements.",
+      "tickers_mentioned": [
+        "AAPL",
+        "NVDA",
+        "SPY",
+        "TSLA"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-17",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 72
+    },
+    {
       "id": 84,
       "title": "AI Startups and the Future of Technology",
       "source_type": "podcast",
@@ -148,11 +170,11 @@
         "AMZN"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-13",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-17",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 62
     },
     {

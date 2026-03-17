@@ -3,8 +3,8 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-03-17T05:17:42.334389",
-  chartsVersion: "2026-03-17T05:17:33.125009",
+  generatedAt: "2026-03-17T05:51:50.311777",
+  chartsVersion: "2026-03-17T05:51:45.045003",
   tickerScores: [
   {
     "ticker": "GOOGL",
@@ -699,6 +699,28 @@ const dashboardData = {
       "podcast_episode_id": 71
     },
     {
+      "id": 89,
+      "title": "Bitcoin in a World That Can't Be Reversed with a Tweet",
+      "source_type": "podcast",
+      "source_name": "The Jack Mallers Show",
+      "source_date": "2026-03-17",
+      "summary": "In this episode of 'The Jack Mallers Show', Jack Mallers discusses Bitcoin's market dynamics and its potential as a leading indicator in the financial markets. He explores the concept of Bitcoin exhaustion of sellers, the impact of structural flows into Bitcoin, and its finite supply. Jack also touches on Bitcoin's efficiency in a free market context, its comparison to gold, and potential capital flight implications. He shares insights on Bitcoin's resilience and the anticipation of large-scale money printing, hinting at Bitcoin's role as a hedge against inflation and economic uncertainty.",
+      "key_takeaway": "Bitcoin's finite supply and increasing institutional interest position it as a potential hedge against inflation and a leading indicator for market movements.",
+      "tickers_mentioned": [
+        "AAPL",
+        "NVDA",
+        "SPY",
+        "TSLA"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-17",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 72
+    },
+    {
       "id": 84,
       "title": "AI Startups and the Future of Technology",
       "source_type": "podcast",
@@ -802,11 +824,11 @@ const dashboardData = {
         "AMZN"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-13",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-17",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 62
     },
     {
@@ -2251,6 +2273,26 @@ const dashboardData = {
       ]
     },
     {
+      "id": 89,
+      "title": "Bitcoin in a World That Can't Be Reversed with a Tweet",
+      "source_type": "podcast",
+      "source_name": "The Jack Mallers Show",
+      "source_date": "2026-03-17",
+      "summary": "In this episode of 'The Jack Mallers Show', Jack Mallers discusses Bitcoin's market dynamics and its potential as a leading indicator in the financial markets. He explores the concept of Bitcoin exhaustion of sellers, the impact of structural flows into Bitcoin, and its finite supply. Jack also touches on Bitcoin's efficiency in a free market context, its comparison to gold, and potential capital flight implications. He shares insights on Bitcoin's resilience and the anticipation of large-scale money printing, hinting at Bitcoin's role as a hedge against inflation and economic uncertainty.",
+      "key_takeaway": "Bitcoin's finite supply and increasing institutional interest position it as a potential hedge against inflation and a leading indicator for market movements.",
+      "tickers_mentioned": "[\"AAPL\", \"NVDA\", \"SPY\", \"TSLA\"]",
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-17",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 72,
+      "episode_release_date": "2026-03-17",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 84,
       "title": "AI Startups and the Future of Technology",
       "source_type": "podcast",
@@ -2316,26 +2358,6 @@ const dashboardData = {
         "PALL",
         "GOLD"
       ]
-    },
-    {
-      "id": 79,
-      "title": "AI in Defense and the Future of Military Technology",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-03-13",
-      "summary": "The a16z Show podcast features an in-depth discussion with Michael Griffin, Under Secretary of Defense for Research and Engineering, on the integration of artificial intelligence (AI) within the US Department of Defense. Griffin highlights the transformation of the department's approach to technology, reducing critical priority areas from 14 to 6, with AI becoming a top priority. The conversation delves into the challenges of using commercial AI models in military applications, the importance of democratic oversight in AI deployment, and the need for technology that aligns with American command and control standards.",
-      "key_takeaway": "Investment in AI technology within the defense sector is critical for maintaining national security and ensuring operational effectiveness.",
-      "tickers_mentioned": "[\"AAPL\", \"NVDA\", \"GOOGL\", \"MSFT\", \"AMZN\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-03-13",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 62,
-      "episode_release_date": "2026-03-13",
-      "guest_name": null,
-      "key_tickers": []
     },
     {
       "id": 80,
@@ -6693,6 +6715,72 @@ const dashboardData = {
       "NVDA",
       "WMT"
     ]
+  },
+  "89": {
+    "id": 80,
+    "insight_id": 89,
+    "podcast_episode_id": 72,
+    "overview": "In this deep dive analysis, we explore the investment implications of Bitcoin in a geopolitical landscape where traditional negotiation tactics, such as those employed by former President Trump, are no longer effective. The podcast 'Jack Mallors Show' highlights the current situation with Iran and the Strait of Hormuz, emphasizing the disruption to global oil supply chains and the potential for inflation. This analysis will focus on how these geopolitical tensions can impact Bitcoin and related technology stocks, providing actionable insights for investors.",
+    "key_takeaways_detailed": [
+      "Geopolitical tensions, particularly in the Strait of Hormuz, can significantly disrupt global oil supply chains, affecting inflation and potentially benefiting Bitcoin as a hedge against inflation.",
+      "The changing dynamics of global power, with the rise of China and the impact on U.S. industrial capabilities, may influence the tech sector, creating opportunities and risks for tech stocks.",
+      "Investors should monitor the transit of ships through the Strait of Hormuz as an indicator of the effectiveness of U.S. military power and a potential catalyst for market movements.",
+      "Bitcoin's market cap is at an all-time high, and its price is closely watched as an indicator of market sentiment and potential shifts in global finance.",
+      "The technology behind Bitcoin, such as blockchain and AI, is becoming increasingly relevant in global trade and finance, presenting investment opportunities in tech companies."
+    ],
+    "investment_thesis": "The core investment thesis is that Bitcoin and related technology stocks will be significantly impacted by ongoing geopolitical tensions, particularly those affecting global oil supply chains. As the U.S. faces challenges in maintaining its influence in regions like the Strait of Hormuz, the potential for inflation and the need for alternative financial systems like Bitcoin will increase. This thesis is based on the catalysts of disrupted supply chains, inflation, and the growing relevance of blockchain technology in global finance. The timeframe for this thesis is medium to long-term, as geopolitical tensions and technological adoption are slow-moving but have lasting impacts.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's vast supply chain and reliance on global trade make it sensitive to geopolitical tensions and disruptions in oil supply chains, which can affect production and costs.",
+        "positioning": "Position tactically short in the short term due to potential supply chain disruptions, but consider a long-term strategic position as Apple's technology and market dominance can weather short-term volatility.",
+        "risk": "Key risks include supply chain disruptions, geopolitical tensions escalating, and potential inflation affecting consumer spending."
+      },
+      "NVDA": {
+        "rationale": "Nvidia is a leader in AI and GPU technology, which are foundational to blockchain and cryptocurrency operations, making it a beneficiary of increased interest in Bitcoin and related technologies.",
+        "positioning": "Position long-term strategic as the company's technology is likely to be in high demand as blockchain and AI applications expand.",
+        "risk": "Key risks include regulatory changes affecting cryptocurrency, technological obsolescence, and competition from other tech giants."
+      },
+      "SPY": {
+        "rationale": "SPY, as an ETF tracking the S&P 500, provides broad market exposure and can be used to gauge the overall market sentiment and the impact of geopolitical events on U.S. equities.",
+        "positioning": "Position tactically based on market sentiment and geopolitical developments, with a focus on hedging against potential market volatility.",
+        "risk": "Key risks include market-wide sell-offs due to geopolitical tensions and economic disruptions."
+      },
+      "TSLA": {
+        "rationale": "Tesla's involvement in Bitcoin and its focus on sustainable energy solutions position it to benefit from a world where traditional energy sources are disrupted and alternative financial systems gain prominence.",
+        "positioning": "Position long-term strategic as Tesla's innovative approach aligns with the thesis of a shift towards alternative energy and financial systems.",
+        "risk": "Key risks include regulatory challenges to Bitcoin, competition in the electric vehicle market, and potential disruptions to Tesla's production capabilities."
+      }
+    },
+    "positioning_guidance": "Investors should consider a diversified approach, with a mix of tactical and strategic positions across the identified tickers. Sizing should reflect the individual's risk tolerance and belief in the thesis. Entry points should be based on market sentiment and geopolitical developments, with a focus on hedging against potential volatility. Timeframes should align with the medium to long-term nature of the thesis, and investors should be prepared to adjust positions as new information emerges.",
+    "risk_factors": [
+      "Escalating geopolitical tensions leading to broader market sell-offs.",
+      "Regulatory changes affecting the cryptocurrency market, particularly Bitcoin.",
+      "Technological advancements rendering current tech stocks obsolete.",
+      "Supply chain disruptions affecting production and costs for companies like Apple.",
+      "Inflationary pressures affecting consumer spending and economic stability."
+    ],
+    "contrarian_signals": [
+      "The potential for a swift resolution to geopolitical tensions, reducing the need for alternative financial systems.",
+      "The possibility of technological advancements mitigating the impact of supply chain disruptions.",
+      "Regulatory environments becoming more favorable for traditional financial systems, reducing the appeal of Bitcoin and blockchain technology."
+    ],
+    "catalysts": [
+      "Developments in the Strait of Hormuz and the status of oil supply chains.",
+      "Geopolitical events affecting the U.S.'s global influence and military capabilities.",
+      "Regulatory announcements or changes affecting Bitcoin and blockchain technology.",
+      "Technological breakthroughs in AI, blockchain, and sustainable energy solutions.",
+      "Economic indicators reflecting the impact of inflation and supply chain disruptions on global markets."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-03-17T05:51:03.578477",
+    "updated_at": "2026-03-17 10:51:03",
+    "insight_title": "Bitcoin in a World That Can't Be Reversed with a Tweet",
+    "source_name": "The Jack Mallers Show",
+    "source_date": "2026-03-17",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
@@ -6747,7 +6835,7 @@ const dashboardData = {
 ],
   podcastGuests: [
   {
-    "id": 198,
+    "id": 204,
     "name": "Investing in Capitalism",
     "slug": "investing-in-capitalism",
     "bio": null,
@@ -6759,7 +6847,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 199,
+    "id": 205,
     "name": "Harvard Professor Graham Allison",
     "slug": "harvard-professor-graham-allison",
     "bio": null,
@@ -6771,7 +6859,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 200,
+    "id": 206,
     "name": "Andrew Yang",
     "slug": "andrew-yang",
     "bio": "Andrew Yang is an entrepreneur and political leader who popularized universal basic income in U.S. politics through his 2020 presidential campaign.",
@@ -6783,7 +6871,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 201,
+    "id": 207,
     "name": "Ray Dalio",
     "slug": "ray-dalio",
     "bio": "Ray Dalio is the founder of Bridgewater Associates and a macro investor known for his 'Principles' framework and work on long-term debt cycles.",
@@ -6795,7 +6883,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 202,
+    "id": 208,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -6807,7 +6895,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 203,
+    "id": 209,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",

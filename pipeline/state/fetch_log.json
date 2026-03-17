@@ -1,19 +1,12 @@
 {
-  "timestamp": "2026-03-17T05:13:40.059142",
+  "timestamp": "2026-03-17T05:48:31.402372",
   "results": [
-    {
-      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "title": "Travis Kalanick & Michael Dell Live from Austin, Texas",
-      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/ALLIN-ATX_Ch.mp3",
-      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/ALLIN-ATX_Ch.txt",
-      "success": true
-    },
     {
       "podcast": "The Jack Mallers Show",
       "title": "Uncle, Not TACO: Bitcoin in a World on Fire",
       "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-2-17%2F420183613-44100-2-51f32eb2f8dfd.mp3",
-      "transcript_path": null,
-      "success": false
+      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-2-17%2F420183613-44100-2-51f32eb2f8dfd.txt",
+      "success": true
     }
   ]
 }
