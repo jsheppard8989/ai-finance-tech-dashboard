@@ -83,7 +83,11 @@ def build_contract() -> dict:
     Build the single contract that the debate is about.
     For now, we use a stable default. Later we’ll generate this from pipeline exports.
     """
-    prompt = "Is AI-driven abundance real, or is it the same old cycle wearing a new mask?"
+    prompt = (
+        "Will S&P 500 companies announce at least 50,000 net layoffs explicitly "
+        "attributed to automation or AI in public filings, press releases, or verified "
+        "corporate social posts within the next 42 days?"
+    )
     return {
         "prompt": prompt,
         "generated_at": datetime.now().isoformat(),
