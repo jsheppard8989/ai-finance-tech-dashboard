@@ -1584,7 +1584,7 @@
   </div>
 
   <!-- Load dashboard data from pipeline (if available) -->
-  <script src="./data/data.js?v=1773809906-1"></script>
+  <script src="./data/data.js?v=1773812144-1"></script>
   <script src="./js/common.js"></script>
   
   <script>
@@ -1786,8 +1786,7 @@
         var name = (item.name || 'Guest').replace(/</g, '&lt;').replace(/>/g, '&gt;');
         var known = (item.known_for || '').replace(/</g, '&lt;').replace(/>/g, '&gt;');
         var bio = (item.bio || '').replace(/</g, '&lt;').replace(/>/g, '&gt;');
-        // Legacy guests carry last_main_idea + last_podcast_name/date; pundits currently don't
-        var idea = (item.last_main_idea || '—').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+        var idea = (item.last_main_idea || '').replace(/</g, '&lt;').replace(/>/g, '&gt;');
         var src = '';
         if (item.last_podcast_name || item.last_episode_date) {
           var epDateStr = item.last_episode_date ? (function(d) {
@@ -1795,27 +1794,31 @@
           })(item.last_episode_date) : '';
           src = (item.last_podcast_name || '') + (epDateStr ? ' • ' + epDateStr : '');
         } else if (item.last_seen) {
-          src = 'Last seen • ' + String(item.last_seen).substring(0, 10);
+          src = String(item.last_seen).substring(0, 10);
         }
 
         var mentionScore = item.mention_score || item.appearance_count || 0;
-        var mentionScoreDecayed = (typeof item.mention_score_decayed === 'number')
-          ? item.mention_score_decayed
-          : mentionScore;
 
-        var whoText = known || bio || '';
-        if (!whoText && src) {
-          whoText = src;
+        // Who: short, factual identity line
+        var whoText = '';
+        if (known) {
+          whoText = known;
+        } else if (bio) {
+          whoText = bio;
         }
-        var whyParts = [];
+
+        // Why: why this voice is on our page right now
+        var whyBits = [];
         if (mentionScore) {
-          whyParts.push('Appears in ' + mentionScore + ' episode' + (mentionScore > 1 ? 's' : '') + '.');
+          whyBits.push('Featured in ' + mentionScore + ' episode' + (mentionScore > 1 ? 's' : '') + ' we analyzed');
         }
         if (src) {
-          whyParts.push('Last seen: ' + src + '.');
+          whyBits.push('most recently on ' + src);
         }
-        var whyText = whyParts.join(' ');
-        var whatText = idea;
+        var whyText = whyBits.join('; ');
+
+        // What: last main idea we extracted
+        var whatText = idea || 'Latest thesis not yet extracted from transcripts.';
 
         return '' +
           '<div class="guest-item">' +
@@ -1823,7 +1826,7 @@
             '<div class="guest-extra">' +
               (whoText ? '<div class="guest-bio"><strong>Who:</strong> ' + whoText + '</div>' : '') +
               (whyText ? '<div class="guest-idea"><strong>Why now:</strong> ' + whyText + '</div>' : '') +
-              '<div class="guest-idea"><strong>What (last main idea):</strong> ' + whatText + '</div>' +
+              '<div class="guest-idea"><strong>What:</strong> ' + whatText + '</div>' +
             '</div>' +
           '</div>';
       }).join('');
