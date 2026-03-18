@@ -2,6 +2,11 @@
 """
 Generate a multi-voice debate audio track using ElevenLabs.
 
+Debate generation note (substance over semantics):
+- Focus on the crux of the issue (e.g. whether AI/automation is materially driving
+  layoffs at scale), not on parsing the contract’s legal wording.
+- Debaters should not re-read the full prompt; the host states it once.
+
 We deliberately avoid impersonating real people. Provide 3 distinct synthetic voices:
 - Host
 - Debater A
@@ -131,48 +136,39 @@ def build_script(contract: dict) -> dict:
     seed_partB = f"Seed: {seedB}\n\n" if seedB else ""
 
     host = (
-        "Welcome to Emp(ai)thy is the Edge.\n"
-        "Today we debate one contract. The bet is the question itself.\n\n"
-        f"Contract:\n{prompt}\n\n"
-        f"{nameA} argues the affirmative of the contract.\n"
-        f"{nameB} argues the negative of the contract.\n\n"
-        "Listen for evidence, and update your beliefs."
+        "Welcome to The Long and Short of It.\n"
+        "Here is this week’s contract—the full question, stated once:\n"
+        f"{prompt}\n\n"
+        f"{nameA} argues yes.\n"
+        f"{nameB} argues no.\n"
+        "You’ve both heard the contract—do not read it back. "
+        "Argue the substance: is real, material job displacement from AI and automation already here at scale, "
+        "or is that mostly narrative? Skip lawyer-style technicalities about wording."
     )
 
     a = (
-        f"{nameA} — Affirmative (YES).\n"
+        f"{nameA}. You argue yes.\n"
         f"{seed_partA}"
-        "I argue YES. In the next forty-two days, enough S and P five hundred companies will "
-        "publicly announce at least fifty thousand net layoffs that explicitly tie the action to "
-        "automation or AI.\n\n"
-        "Why.\n"
-        "Automation and AI initiatives have moved from pilots into operational cost reductions. "
-        "When deployments are measurable, workforce actions become more likely and easier to justify.\n"
-        "Second, large firms often communicate staffing changes through filings, press releases, and "
-        "verified corporate channels.\n"
-        "Third, the threshold can be reached by aggregation: if multiple large events occur, the total stacks fast.\n\n"
-        "Concession.\n"
-        "The contract requires explicit attribution. Companies could still describe cuts as restructuring "
-        "without naming AI. So YES depends on clarity—language that points directly to automation or AI."
+        "On the merits—the wave is real. Copilots, workflow automation, and customer-facing bots are past the pilot stage; "
+        "they show up in operating plans. When the same work needs fewer people, headcount pressure follows.\n\n"
+        "Second, this pattern compounds across big employers. Finance, operations, support—similar playbooks roll out firm by firm.\n\n"
+        "Third, leadership is already framing efficiency programs around tools that replace tasks, not just trim perks.\n\n"
+        "Concession. Not every displacement happens as a neat headline; some shows up as slower hiring or role churn. "
+        "Still, the directional force is toward fewer bodies for the same output where AI lands hardest."
     )
 
     b = (
-        f"{nameB} — Negative (NO).\n"
+        f"{nameB}. You argue no.\n"
         f"{seed_partB}"
-        "I argue NO. In the next forty-two days, the S and P five hundred will not reach "
-        "fifty thousand net layoffs with explicit attribution to automation or AI.\n\n"
-        "Why.\n"
-        "Attribution is the constraint. Workforce changes are frequently framed as efficiency or restructuring "
-        "without explicitly linking them to AI.\n"
-        "Second, the timeline is tight. Even when capability gains arrive, public communication and "
-        "reporting cycles can lag.\n"
-        "Third, the contract is strict: it demands both scale and explicit linkage, which reduces the probability.\n\n"
-        "Concession.\n"
-        "Even if AI contributes, the contract can still resolve NO if the language is not explicit, "
-        "or if the net figure falls short within the window."
+        "On the merits—the AI-layoff story is still overstated. A lot of announced cuts are ordinary restructuring, "
+        "mergers, or margin pressure that would exist without a single new model.\n\n"
+        "Second, in most shops the tools augment before they eliminate; the loudest anecdotes are not the whole labor market.\n\n"
+        "Third, calling something AI in a memo is cheap; it does not prove that automation caused the cut.\n\n"
+        "Concession. Capabilities are improving fast—the long run may look different. "
+        "The honest debate is whether broad, material displacement is already the baseline, not whether it might arrive someday."
     )
 
-    close = "Your job is not to choose a tribe. Your job is to choose evidence."
+    close = "This has been The Long and Short of It. Choose evidence over tribe."
 
     return {"prompt": prompt, "host": host, "a": a, "b": b, "close": close}
 
