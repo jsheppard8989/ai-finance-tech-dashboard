@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>debAIt · AI Market Debates</title>
+  <title>M(ai) Empathy Engine · AI Debates</title>
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body {
@@ -160,8 +160,8 @@
 <body>
   <div class="container">
     <header>
-      <h1>debAIt</h1>
-      <p class="subtitle">Framing the next argument about AI, markets, and scarcity vs. abundance.</p>
+      <h1>M(ai) Empathy Engine</h1>
+      <p class="subtitle">Using AI-powered debate to steel‑man opposing views, practice empathy, and get closer to the truth.</p>
       <div class="back-link">
         <a href="index.html">← Back to main dashboard</a>
       </div>
@@ -182,7 +182,7 @@
     <div class="card">
       <h2>Opening arguments</h2>
       <p class="tagline" id="opening-tagline">
-        Two sides of the same disruption: we assign our pundits to argue positions, regardless of their real-world politics.
+        Two sides, no safe defaults: we assign our pundits to argue positions they may not agree with in real life, to practice empathy and stress‑test ideas.
       </p>
       <div class="columns" id="debate-columns">
         <!-- Filled by JavaScript -->
@@ -210,12 +210,6 @@
         const overton = main.overton || [];
         if (!overton.length) return null;
         return overton[0];
-      }
-
-      function chooseAnchorTicker() {
-        const scores = Array.isArray(data && data.tickerScores) ? data.tickerScores : [];
-        if (!scores.length) return null;
-        return scores[0];
       }
 
       function chooseRecentInsight() {
@@ -247,7 +241,6 @@
 
       function initDebate() {
         const term = chooseOvertonTerm();
-        const ticker = chooseAnchorTicker();
         const insight = chooseRecentInsight();
         const pundits = choosePundits();
 
@@ -260,17 +253,13 @@
         const genAt = data && data.generatedAt ? formatDate(data.generatedAt) : '—';
         dateEl.textContent = genAt === '—' ? '' : `· ${genAt}`;
 
-        const termLabel = term ? (term.term || term.name || '').trim() : 'AI capital allocation';
-        const tickerLabel = ticker ? ticker.ticker : 'QQQ';
+        const termLabel = term ? (term.term || term.name || '').trim() : 'AI mega‑cap dominance';
 
-        qEl.textContent = `Is ${termLabel} about to create a durable edge in ${tickerLabel}, or is the market already pricing it in?`;
+        qEl.textContent = `Is ${termLabel} pushing us toward an age of AI‑driven abundance, or just amplifying the same old cycles under a new name?`;
 
         const sourceBits = [];
         if (insight) {
           sourceBits.push(`latest insight: “${insight.title || ''}”`);
-        }
-        if (ticker) {
-          sourceBits.push(`top-scored ticker: ${tickerLabel}`);
         }
         if (term) {
           sourceBits.push(`Overton term: ${termLabel}`);
