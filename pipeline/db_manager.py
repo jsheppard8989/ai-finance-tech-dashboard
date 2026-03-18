@@ -436,9 +436,16 @@ class DashboardDB:
                     pe.podcast_name AS last_podcast_name,
                     pe.episode_date AS last_episode_date,
                     pe.investment_thesis,
-                    pe.key_takeaways
+                    pe.key_takeaways,
+                    agg.appearance_count
                 FROM entities e
                 JOIN appearances a ON a.entity_id = e.id AND LOWER(a.role) = 'guest_primary' AND a.source_type = 'podcast'
+                JOIN (
+                    SELECT entity_id, COUNT(*) AS appearance_count
+                    FROM appearances
+                    WHERE LOWER(role) = 'guest_primary' AND source_type = 'podcast'
+                    GROUP BY entity_id
+                ) agg ON agg.entity_id = e.id
                 JOIN (
                     SELECT entity_id, MAX(id) AS mid
                     FROM appearances
@@ -454,11 +461,37 @@ class DashboardDB:
             rows = [dict(row) for row in cursor.fetchall()]
 
             pundits = []
+            # Names to exclude from pundits export (recurring co-hosts / hosts)
+            excluded_pundit_names = {
+                'Dylan',
+                'Moonshots',
+                'Alexander Wissner-Gross',
+                'Salim Ismail',
+                'Dave Blundin',
+            }
             for row in rows:
-                # Filter out known non-pundit co-hosts (e.g. Dwarkesh co-host "Dylan")
+                # Filter out known non-pundit co-hosts / recurring hosts
                 name = (row.get('name') or '').strip()
-                if name == 'Dylan':
+                if name in excluded_pundit_names:
                     continue
+                appearance_count = row.get('appearance_count') or 1
+                # Simple exponential decay on appearances based on last_seen timestamp
+                decayed_score = appearance_count
+                last_seen_raw = row.get('last_seen')
+                if last_seen_raw:
+                    try:
+                        from math import exp, log
+                        # Half-life of 30 days
+                        half_life_days = 30.0
+                        lam = log(2.0) / half_life_days
+                        from datetime import datetime as _dt
+                        last_dt = _dt.fromisoformat(str(last_seen_raw))
+                        days_since = ( _dt.utcnow() - last_dt ).days
+                        if days_since > 0:
+                            decayed_score = appearance_count * exp(-lam * days_since)
+                    except Exception:
+                        decayed_score = appearance_count
+
                 p = {
                     'id': row['id'],
                     'name': row['name'],
@@ -469,6 +502,8 @@ class DashboardDB:
                     'last_episode_title': row['last_episode_title'],
                     'last_podcast_name': row['last_podcast_name'],
                     'last_episode_date': row['last_episode_date'],
+                    'mention_score': appearance_count,
+                    'mention_score_decayed': round(decayed_score, 2),
                 }
                 # Last main idea: from that episode's investment_thesis or first key_takeaway (AI JSON)
                 thesis = (row.get('investment_thesis') or '').strip()

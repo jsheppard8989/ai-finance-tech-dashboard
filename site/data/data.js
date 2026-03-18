@@ -3,7 +3,7 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-03-17T23:58:26.520373",
+  generatedAt: "2026-03-18T00:21:56.199993",
   chartsVersion: "2026-03-17T23:58:23.259189",
   tickerScores: [
   {
@@ -7208,6 +7208,8 @@ const dashboardData = {
     "last_episode_title": "Elon Musk on Moonshots: Discussing AI, Robotics, and Future Technologies",
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-03-17",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
     "last_main_idea": "Invest in companies at the forefront of AI, robotics, and space technology, as these sectors are poised for significant growth and disruption."
   },
   {
@@ -7220,6 +7222,8 @@ const dashboardData = {
     "last_episode_title": "Monetary Matters with Jack Farley: Farmland Investment Insights",
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-17",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
     "last_main_idea": "Farmland represents an underutilized asset class with diversification benefits and potential for strong returns, particularly in the context of water scarcity and aging farmer demographics."
   },
   {
@@ -7232,6 +7236,8 @@ const dashboardData = {
     "last_episode_title": "Understanding the Mechanics of Large Language Models (LLMs) and the Path to AGI",
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-17",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
     "last_main_idea": "Investing in companies and technologies that are advancing the understanding and capabilities of LLMs could be a pathway to participate in the development of AGI."
   },
   {
@@ -7244,6 +7250,8 @@ const dashboardData = {
     "last_episode_title": "Stealth Startups and the Digitization of the Physical World",
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-17",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
     "last_main_idea": "Invest in companies that are digitizing the physical world and transforming traditional industries through technology."
   },
   {
@@ -7256,6 +7264,8 @@ const dashboardData = {
     "last_episode_title": "Stealth Startups and the Digitization of the Physical World",
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-17",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
     "last_main_idea": "Invest in companies that are digitizing the physical world and transforming traditional industries through technology."
   },
   {
@@ -7268,43 +7278,9 @@ const dashboardData = {
     "last_episode_title": "The AI CEO Arrives: Sam Altman's Succession Plan, Job Loss Continues, and Our 2027 'Solve Everything' Paper",
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2027-01-01",
+    "mention_score": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Invest in AI and automation technologies that are driving the shift towards AI governance and efficiency in business operations."
-  },
-  {
-    "id": 70,
-    "name": "Salim Ismail",
-    "slug": "salim-ismail",
-    "bio": "Salim Ismail is a well-known futurist and author, known for his work on exponential technologies.",
-    "known_for": "Futurist and author",
-    "last_seen": "2026-03-16 19:37:22",
-    "last_episode_title": "Moonshots Podcast Episode #231 - OpenAI Acquires OpenClaw, 400x Cost Collapse, & Why India Wins the Talent War",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-02-18",
-    "last_main_idea": "Invest in the vertical integration of AI, the rise of India as a global AI hub, and the shift towards agent-based interactions."
-  },
-  {
-    "id": 71,
-    "name": "Dave Blundin",
-    "slug": "dave-blundin",
-    "bio": null,
-    "known_for": null,
-    "last_seen": "2026-03-16 19:37:22",
-    "last_episode_title": "Moonshots Podcast Episode #231 - OpenAI Acquires OpenClaw, 400x Cost Collapse, & Why India Wins the Talent War",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-02-18",
-    "last_main_idea": "Invest in the vertical integration of AI, the rise of India as a global AI hub, and the shift towards agent-based interactions."
-  },
-  {
-    "id": 72,
-    "name": "Alexander Wissner-Gross",
-    "slug": "alexander-wissner-gross",
-    "bio": null,
-    "known_for": null,
-    "last_seen": "2026-03-16 19:37:22",
-    "last_episode_title": "Moonshots Podcast Episode #231 - OpenAI Acquires OpenClaw, 400x Cost Collapse, & Why India Wins the Talent War",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-02-18",
-    "last_main_idea": "Invest in the vertical integration of AI, the rise of India as a global AI hub, and the shift towards agent-based interactions."
   },
   {
     "id": 69,
@@ -7316,6 +7292,8 @@ const dashboardData = {
     "last_episode_title": "Moonshots Podcast Episode #231 - OpenAI Acquires OpenClaw, 400x Cost Collapse, & Why India Wins the Talent War",
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-02-18",
+    "mention_score": 2,
+    "mention_score_decayed": 1.95,
     "last_main_idea": "Invest in the vertical integration of AI, the rise of India as a global AI hub, and the shift towards agent-based interactions."
   },
   {
@@ -7328,6 +7306,8 @@ const dashboardData = {
     "last_episode_title": "AI Startups and the Future of Technology",
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-16",
+    "mention_score": 2,
+    "mention_score_decayed": 1.95,
     "last_main_idea": "Invest in AI startups that focus on specific niches and use cases, as they can compete effectively against larger AI companies by capitalizing on the gaps between platforms."
   },
   {
@@ -7340,6 +7320,8 @@ const dashboardData = {
     "last_episode_title": "The Intersection of Technology, Entrepreneurship, and the Future",
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-15",
+    "mention_score": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Invest in technology-driven businesses with a strong founder's mindset that focus on building and scaling rather than introspection, as they are more likely to shape the future and create significant value."
   },
   {
@@ -7352,6 +7334,8 @@ const dashboardData = {
     "last_episode_title": "Monetary Matters with Jack Farley: Precious Metals, Bonds, and Economic Cycles",
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-15",
+    "mention_score": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Invest in platinum as a hybrid precious and industrial metal with potential for growth outside of traditional economic cycles, and consider the impact of AI on productivity and government deficits on interest rates."
   },
   {
@@ -7364,6 +7348,8 @@ const dashboardData = {
     "last_episode_title": "Investing in Capitalism: Trump Accounts, AI, and the Future of Wealth",
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-13",
+    "mention_score": 1,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Invest in technologies and platforms that democratize capitalism and leverage AI to create scalable solutions in coding and product development."
   },
   {
@@ -7376,6 +7362,8 @@ const dashboardData = {
     "last_episode_title": "AI in Defense and the Future of Military Technology",
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-13",
+    "mention_score": 1,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Investment in AI technology within the defense sector is critical for maintaining national security and ensuring operational effectiveness."
   },
   {
@@ -7388,6 +7376,8 @@ const dashboardData = {
     "last_episode_title": "Monetary Matters: The Impact of US-Iran Conflict on the World Economy",
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-13",
+    "mention_score": 1,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Investors should consider the geopolitical risks associated with the US-Iran conflict and the potential impact on global oil supply, as well as the long-term shift towards renewable energy sources."
   },
   {
@@ -7400,6 +7390,8 @@ const dashboardData = {
     "last_episode_title": "Macro Voices Episode 523: Geopolitical Situation in Iran, Oil Prices, Precious Metals, and Market Analysis",
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-03-12",
+    "mention_score": 1,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "The current geopolitical tensions, particularly in Iran, are creating significant market volatility, especially in oil prices, which presents both risks and opportunities for investors."
   },
   {
@@ -7412,6 +7404,8 @@ const dashboardData = {
     "last_episode_title": "Macro Voices Episode 523: Geopolitical Situation in Iran, Oil Prices, Precious Metals, and Market Analysis",
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-03-12",
+    "mention_score": 1,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "The current geopolitical tensions, particularly in Iran, are creating significant market volatility, especially in oil prices, which presents both risks and opportunities for investors."
   },
   {
@@ -7424,6 +7418,8 @@ const dashboardData = {
     "last_episode_title": "The Intersection of Technology, Geopolitics, and National Defense",
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-12",
+    "mention_score": 1,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "Investing in companies that leverage technology to enhance national defense and security could yield significant returns, especially if they align with the interests of the defense establishment."
   }
 ]

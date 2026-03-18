@@ -1533,7 +1533,7 @@
         <a href="archive.html" style="color: #00d4ff; text-decoration: none;">📚 Archive</a> • 
         <a href="index.html" style="color: #00d4ff; text-decoration: none;">🏠 Dashboard</a> • 
         <a href="pipeline-health.html" style="color: #00d4ff; text-decoration: none;">⚙️ Pipeline Health</a> • 
-        <a href="debait.html" style="color: #00d4ff; text-decoration: none;">🧠 M(ai) Empathy Engine</a>
+        <a href="debait.html" style="color: #00d4ff; text-decoration: none;">🧠 Emp(ai) thē Engine</a>
       </div>
     </footer>
   </div>
@@ -1797,16 +1797,34 @@
         } else if (item.last_seen) {
           src = 'Last seen • ' + String(item.last_seen).substring(0, 10);
         }
-        var showKnown = known ? '<div class="guest-known-for">' + known + '</div>' : '';
-        var showBio = bio ? '<div class="guest-bio">' + bio + '</div>' : '';
-        return '<div class="guest-item">' +
-          '<div class="guest-name">' + name + '</div>' +
-          showKnown +
-          '<div class="guest-source">' + src + '</div>' +
-          '<div class="guest-extra">' +
-            showBio +
-            '<div class="guest-idea"><strong>Last main idea:</strong> ' + idea + '</div>' +
-          '</div>' +
+
+        var mentionScore = item.mention_score || item.appearance_count || 0;
+        var mentionScoreDecayed = (typeof item.mention_score_decayed === 'number')
+          ? item.mention_score_decayed
+          : mentionScore;
+
+        var whoText = known || bio || '';
+        if (!whoText && src) {
+          whoText = src;
+        }
+        var whyParts = [];
+        if (mentionScore) {
+          whyParts.push('Appears in ' + mentionScore + ' episode' + (mentionScore > 1 ? 's' : '') + '.');
+        }
+        if (src) {
+          whyParts.push('Last seen: ' + src + '.');
+        }
+        var whyText = whyParts.join(' ');
+        var whatText = idea;
+
+        return '' +
+          '<div class="guest-item">' +
+            '<div class="guest-name">' + name + '</div>' +
+            '<div class="guest-extra">' +
+              (whoText ? '<div class="guest-bio"><strong>Who:</strong> ' + whoText + '</div>' : '') +
+              (whyText ? '<div class="guest-idea"><strong>Why now:</strong> ' + whyText + '</div>' : '') +
+              '<div class="guest-idea"><strong>What (last main idea):</strong> ' + whatText + '</div>' +
+            '</div>' +
           '</div>';
       }).join('');
     }
