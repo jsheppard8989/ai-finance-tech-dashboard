@@ -5,7 +5,9 @@ Generate a multi-voice debate audio track using ElevenLabs.
 Debate generation note (substance over semantics):
 - Focus on the crux of the issue (e.g. whether AI/automation is materially driving
   layoffs at scale), not on parsing the contract’s legal wording.
-- Debaters should not re-read the full prompt; the host states it once.
+- Host reads the contract topic once, plainly. Pundit bios/seeds stay off-mic—
+  they appear on the page under “This week’s debaters.”
+- Do not put production prompts (“don’t read the contract back,” etc.) in host TTS.
 
 We deliberately avoid impersonating real people. Provide 3 distinct synthetic voices:
 - Host
@@ -130,25 +132,16 @@ def build_script(contract: dict) -> dict:
     nameA = (pA.get("name") or "Pundit A").strip()
     nameB = (pB.get("name") or "Pundit B").strip()
 
-    seedA = (pA.get("known_for") or pA.get("bio") or "").strip()
-    seedB = (pB.get("known_for") or pB.get("bio") or "").strip()
-    seed_partA = f"Seed: {seedA}\n\n" if seedA else ""
-    seed_partB = f"Seed: {seedB}\n\n" if seedB else ""
-
     host = (
         "Welcome to The Long and Short of It.\n"
-        "Here is this week’s contract—the full question, stated once:\n"
+        "Today’s contract debate topic is:\n"
         f"{prompt}\n\n"
-        f"{nameA} argues yes.\n"
-        f"{nameB} argues no.\n"
-        "You’ve both heard the contract—do not read it back. "
-        "Argue the substance: is real, material job displacement from AI and automation already here at scale, "
-        "or is that mostly narrative? Skip lawyer-style technicalities about wording."
+        f"{nameA} will make the case for yes.\n"
+        f"{nameB} will make the case for no."
     )
 
     a = (
-        f"{nameA}. You argue yes.\n"
-        f"{seed_partA}"
+        f"{nameA}.\n\n"
         "On the merits—the wave is real. Copilots, workflow automation, and customer-facing bots are past the pilot stage; "
         "they show up in operating plans. When the same work needs fewer people, headcount pressure follows.\n\n"
         "Second, this pattern compounds across big employers. Finance, operations, support—similar playbooks roll out firm by firm.\n\n"
@@ -158,8 +151,7 @@ def build_script(contract: dict) -> dict:
     )
 
     b = (
-        f"{nameB}. You argue no.\n"
-        f"{seed_partB}"
+        f"{nameB}.\n\n"
         "On the merits—the AI-layoff story is still overstated. A lot of announced cuts are ordinary restructuring, "
         "mergers, or margin pressure that would exist without a single new model.\n\n"
         "Second, in most shops the tools augment before they eliminate; the loudest anecdotes are not the whole labor market.\n\n"

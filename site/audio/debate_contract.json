@@ -1,6 +1,6 @@
 {
   "prompt": "Will S&P 500 companies announce at least 50,000 net layoffs explicitly attributed to automation or AI in public filings, press releases, or verified corporate social posts within the next 42 days?",
-  "generated_at": "2026-03-18T10:36:26.659950",
+  "generated_at": "2026-03-18T10:56:35.213499",
   "expires_rule": "42-day Friday-noon CST (to be enforced by scheduler)",
   "resolution_clarity": {
     "source_of_truth": "Capitalist Compass (the line / crowd signal)",
