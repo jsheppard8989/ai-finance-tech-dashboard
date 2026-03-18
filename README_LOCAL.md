@@ -11,6 +11,10 @@ This is the “clean desk” view for working with 6AIndolf in Cursor.
   - `HEARTBEAT.md` – what Clawbot should do each heartbeat.
   - `MODELS.md` – which LLMs are used where (and cost guardrails).
 
+- **Weekly debate (The Long and Short of It)**
+  - `pipeline/debate_weekly.py` – Friday: new LLM contract + speeches + pundit rotation + ElevenLabs; archives last week to `site/debate_history.json` + `site/audio/archive/`.
+  - `docs/DEBATE_WEEKLY.md` – cron, CLI, resolving bets.
+
 - **Pipeline core**
   - `pipeline/auto_pipeline.py` – main orchestrator (full pipeline).
   - `pipeline/analyze_transcript.py` – AI analysis of transcripts.

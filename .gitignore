@@ -69,3 +69,6 @@ pipeline/inbox/
 
 # Generated site data (JSON/JS exported from pipeline)
 site/data/
+
+# Weekly debate archives (large MP3s)
+site/audio/archive/
