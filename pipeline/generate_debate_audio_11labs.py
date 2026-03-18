@@ -29,6 +29,7 @@ WORKSPACE = Path.home() / ".openclaw/workspace"
 SITE_AUDIO = WORKSPACE / "site" / "audio"
 OUT_PATH = SITE_AUDIO / "emp_ai_the_debate_11labs.mp3"
 META_PATH = SITE_AUDIO / "debate_contract.json"
+PUNDITS_PATH = WORKSPACE / "site" / "data" / "pundits.json"
 
 
 def load_env_file(path: Path) -> None:
@@ -98,41 +99,82 @@ def build_contract() -> dict:
             "resolution_criteria": ["TBD"],
         },
         "sides": {
-            "a": "Abundance case",
-            "b": "Cycle case",
+            "a": "Affirmative (YES)",
+            "b": "Negative (NO)",
         },
     }
 
 
 def build_script(contract: dict) -> dict:
     prompt = contract["prompt"]
-    return {
-        "prompt": prompt,
-        "host": (
-            "Host.\n"
-            "Rules: one prompt, two steel-manned sides, one concession each, one forty-two day wager each.\n"
-            f"Prompt: {prompt}"
-        ),
-        "a": (
-            "Debater A.\n"
-            "Steel-man: the abundance case.\n"
-            "The best version says intelligence is becoming cheap, and when intelligence is cheap, bottlenecks move. "
-            "Coordination, design, diagnosis, and research become radically more productive. "
-            "Abundance is not the absence of scarcity; it is an expanding frontier.\n\n"
-            "Concession: Even if abundance is real, power can concentrate during the transition.\n\n"
-            "42-day wager: By expiry, we will see a mainstream AI system replace a full workflow, not just assist a task."
-        ),
-        "b": (
-            "Debater B.\n"
-            "Steel-man: the cycle case.\n"
-            "The best version says every era sells a new story, but the old mechanics remain. "
-            "Capital clusters. Insiders win. Productivity gains are uneven. "
-            "AI may increase output, but it can also increase surveillance, fragility, and monopoly rents.\n\n"
-            "Concession: Even if this is a cycle, capabilities are improving, and some productivity gains are unavoidable.\n\n"
-            "42-day wager: By expiry, we will see a public tightening signal—regulation, litigation, or a high-profile failure—that slows adoption."
-        ),
-        "close": "Your job is not to choose a tribe. Your job is to choose evidence.",
-    }
+
+    # Seed with exported pundit backgrounds (no impersonation; just persona context).
+    pundits = []
+    try:
+        import json
+        if PUNDITS_PATH.exists():
+            pundits = json.loads(PUNDITS_PATH.read_text(encoding="utf-8"))
+    except Exception:
+        pundits = []
+    if not isinstance(pundits, list):
+        pundits = []
+
+    pA = pundits[0] if len(pundits) > 0 else {"name": "Pundit A", "known_for": "", "bio": ""}
+    pB = pundits[1] if len(pundits) > 1 else {"name": "Pundit B", "known_for": "", "bio": ""}
+
+    nameA = (pA.get("name") or "Pundit A").strip()
+    nameB = (pB.get("name") or "Pundit B").strip()
+
+    seedA = (pA.get("known_for") or pA.get("bio") or "").strip()
+    seedB = (pB.get("known_for") or pB.get("bio") or "").strip()
+    seed_partA = f"Seed: {seedA}\n\n" if seedA else ""
+    seed_partB = f"Seed: {seedB}\n\n" if seedB else ""
+
+    host = (
+        "Welcome to Emp(ai)thy is the Edge.\n"
+        "Today we debate one contract. The bet is the question itself.\n\n"
+        f"Contract:\n{prompt}\n\n"
+        f"{nameA} argues the affirmative of the contract.\n"
+        f"{nameB} argues the negative of the contract.\n\n"
+        "Listen for evidence, and update your beliefs."
+    )
+
+    a = (
+        f"{nameA} — Affirmative (YES).\n"
+        f"{seed_partA}"
+        "I argue YES. In the next forty-two days, enough S and P five hundred companies will "
+        "publicly announce at least fifty thousand net layoffs that explicitly tie the action to "
+        "automation or AI.\n\n"
+        "Why.\n"
+        "Automation and AI initiatives have moved from pilots into operational cost reductions. "
+        "When deployments are measurable, workforce actions become more likely and easier to justify.\n"
+        "Second, large firms often communicate staffing changes through filings, press releases, and "
+        "verified corporate channels.\n"
+        "Third, the threshold can be reached by aggregation: if multiple large events occur, the total stacks fast.\n\n"
+        "Concession.\n"
+        "The contract requires explicit attribution. Companies could still describe cuts as restructuring "
+        "without naming AI. So YES depends on clarity—language that points directly to automation or AI."
+    )
+
+    b = (
+        f"{nameB} — Negative (NO).\n"
+        f"{seed_partB}"
+        "I argue NO. In the next forty-two days, the S and P five hundred will not reach "
+        "fifty thousand net layoffs with explicit attribution to automation or AI.\n\n"
+        "Why.\n"
+        "Attribution is the constraint. Workforce changes are frequently framed as efficiency or restructuring "
+        "without explicitly linking them to AI.\n"
+        "Second, the timeline is tight. Even when capability gains arrive, public communication and "
+        "reporting cycles can lag.\n"
+        "Third, the contract is strict: it demands both scale and explicit linkage, which reduces the probability.\n\n"
+        "Concession.\n"
+        "Even if AI contributes, the contract can still resolve NO if the language is not explicit, "
+        "or if the net figure falls short within the window."
+    )
+
+    close = "Your job is not to choose a tribe. Your job is to choose evidence."
+
+    return {"prompt": prompt, "host": host, "a": a, "b": b, "close": close}
 
 
 def main() -> int:
