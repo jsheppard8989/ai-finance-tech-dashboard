@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>debAIt · AI Market Debates</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+      min-height: 100vh;
+      color: #e8e8e8;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 1.25rem;
+    }
+    header {
+      text-align: center;
+      padding: 1.5rem 1rem;
+      background: rgba(0, 0, 0, 0.35);
+      border-radius: 16px;
+      margin-bottom: 1.25rem;
+      border: 1px solid rgba(255, 255, 255, 0.12);
+    }
+    h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, #00d4ff 0%, #f97316 50%, #7b2cbf 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin-bottom: 0.4rem;
+    }
+    .subtitle {
+      color: #8892b0;
+      font-size: 0.95rem;
+    }
+    .back-link {
+      margin-top: 0.6rem;
+      font-size: 0.85rem;
+      color: #8892b0;
+    }
+    a { color: #00d4ff; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.3rem;
+      padding: 0.25rem 0.6rem;
+      border-radius: 999px;
+      font-size: 0.75rem;
+      border: 1px solid rgba(255,255,255,0.2);
+      background: rgba(0,0,0,0.3);
+      color: #a8b2d1;
+    }
+    .pill strong { color: #00d4ff; }
+    .card {
+      background: rgba(0, 0, 0, 0.27);
+      border-radius: 14px;
+      padding: 1.1rem 1.2rem;
+      margin-bottom: 1rem;
+      border: 1px solid rgba(255, 255, 255, 0.10);
+    }
+    .card h2 {
+      font-size: 1.2rem;
+      color: #b8c5d6;
+      margin-bottom: 0.5rem;
+    }
+    .debate-question {
+      font-size: 1.4rem;
+      font-weight: 600;
+      line-height: 1.4;
+      margin-bottom: 0.4rem;
+    }
+    .debate-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+      margin-bottom: 0.75rem;
+      font-size: 0.8rem;
+      color: #8892b0;
+    }
+    .methodology {
+      font-size: 0.95rem;
+      color: #cbd5f5;
+    }
+    .methodology span.highlight {
+      color: #f97316;
+      font-weight: 600;
+    }
+    .columns {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 0.75rem;
+      margin-top: 0.75rem;
+    }
+    @media (max-width: 768px) {
+      .columns { grid-template-columns: 1fr; }
+    }
+    .side-card {
+      background: rgba(15, 52, 96, 0.9);
+      border-radius: 10px;
+      border: 1px solid rgba(255,255,255,0.12);
+      padding: 0.85rem 0.9rem;
+    }
+    .side-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 0.4rem;
+      font-size: 0.9rem;
+    }
+    .side-name {
+      font-weight: 600;
+      color: #e5e7ff;
+    }
+    .side-tag {
+      font-size: 0.75rem;
+      padding: 0.15rem 0.55rem;
+      border-radius: 999px;
+      border: 1px solid rgba(255,255,255,0.2);
+    }
+    .side-tag.long { color: #22c55e; border-color: rgba(34,197,94,0.4); }
+    .side-tag.short { color: #f97373; border-color: rgba(248,113,113,0.4); }
+    .side-body {
+      font-size: 0.86rem;
+      color: #c7d2fe;
+      line-height: 1.5;
+    }
+    .pundit-meta {
+      font-size: 0.76rem;
+      color: #9ca3af;
+      margin-top: 0.35rem;
+    }
+    .pundit-list {
+      margin-top: 0.4rem;
+      font-size: 0.86rem;
+      color: #cbd5f5;
+    }
+    .pundit-list strong {
+      color: #e5e7ff;
+    }
+    .tagline {
+      font-size: 0.87rem;
+      color: #a8b2d1;
+      margin-top: 0.4rem;
+    }
+    .future-note {
+      font-size: 0.8rem;
+      color: #9ca3af;
+      margin-top: 0.6rem;
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>debAIt</h1>
+      <p class="subtitle">Framing the next argument about AI, markets, and scarcity vs. abundance.</p>
+      <div class="back-link">
+        <a href="index.html">← Back to main dashboard</a>
+      </div>
+    </header>
+
+    <div class="card" id="debate-hero">
+      <div class="pill"><strong>Today’s prompt</strong><span id="hero-date">—</span></div>
+      <div class="debate-question" id="debate-question">
+        Loading debate topic…
+      </div>
+      <div class="debate-meta" id="debate-meta"></div>
+      <div class="methodology" id="debate-methodology">
+        This debate topic is generated from the same pipeline that powers the homepage:
+        Overton terms, podcast insights, and live ticker scores.
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Opening arguments</h2>
+      <p class="tagline" id="opening-tagline">
+        Two sides of the same disruption: we assign our pundits to argue positions, regardless of their real-world politics.
+      </p>
+      <div class="columns" id="debate-columns">
+        <!-- Filled by JavaScript -->
+      </div>
+      <p class="future-note">
+        Future: promote the strongest prompts here to voice debates, with synthesized arguments read aloud by AI.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>Pundit roster for this debate</h2>
+      <div id="pundit-roster" class="pundit-list">
+        <!-- Filled by JavaScript -->
+      </div>
+    </div>
+  </div>
+
+  <script src="./data/data.js"></script>
+  <script>
+    (function() {
+      const data = (typeof dashboardData !== 'undefined') ? dashboardData : null;
+      const main = data && data.mainContent ? data.mainContent : {};
+
+      function chooseOvertonTerm() {
+        const overton = main.overton || [];
+        if (!overton.length) return null;
+        return overton[0];
+      }
+
+      function chooseAnchorTicker() {
+        const scores = Array.isArray(data && data.tickerScores) ? data.tickerScores : [];
+        if (!scores.length) return null;
+        return scores[0];
+      }
+
+      function chooseRecentInsight() {
+        const ins = Array.isArray(main.insights) ? main.insights.slice() : [];
+        if (!ins.length) return null;
+        ins.sort((a,b) => new Date(b.source_date || b.added_date || 0) - new Date(a.source_date || a.added_date || 0));
+        return ins[0];
+      }
+
+      function choosePundits() {
+        let pundits = Array.isArray(data && data.pundits) ? data.pundits : [];
+        if (pundits.length === 0 && Array.isArray(data && data.podcastGuests)) {
+          pundits = data.podcastGuests;
+        }
+        if (!pundits.length) return [];
+        // Filter out Dylan if present (mirrors export rule)
+        pundits = pundits.filter(p => (p.name || '').trim() !== 'Dylan');
+        return pundits.slice(0, 4);
+      }
+
+      function formatDate(iso) {
+        if (!iso) return '—';
+        try {
+          return new Date(iso).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+        } catch {
+          return iso;
+        }
+      }
+
+      function initDebate() {
+        const term = chooseOvertonTerm();
+        const ticker = chooseAnchorTicker();
+        const insight = chooseRecentInsight();
+        const pundits = choosePundits();
+
+        // Hero question
+        const qEl = document.getElementById('debate-question');
+        const metaEl = document.getElementById('debate-meta');
+        const dateEl = document.getElementById('hero-date');
+        const methEl = document.getElementById('debate-methodology');
+
+        const genAt = data && data.generatedAt ? formatDate(data.generatedAt) : '—';
+        dateEl.textContent = genAt === '—' ? '' : `· ${genAt}`;
+
+        const termLabel = term ? (term.term || term.name || '').trim() : 'AI capital allocation';
+        const tickerLabel = ticker ? ticker.ticker : 'QQQ';
+
+        qEl.textContent = `Is ${termLabel} about to create a durable edge in ${tickerLabel}, or is the market already pricing it in?`;
+
+        const sourceBits = [];
+        if (insight) {
+          sourceBits.push(`latest insight: “${insight.title || ''}”`);
+        }
+        if (ticker) {
+          sourceBits.push(`top-scored ticker: ${tickerLabel}`);
+        }
+        if (term) {
+          sourceBits.push(`Overton term: ${termLabel}`);
+        }
+
+        metaEl.innerHTML = sourceBits.map(b => `<span class="pill">${b}</span>`).join(' ');
+
+        methEl.innerHTML = `
+          We scan AI-analyzed podcasts, newsletters, and ticker scores to surface a single
+          <span class="highlight">friction point</span> between scarcity and abundance. This page
+          is where we frame that friction as a debate topic instead of a forecast.
+        `;
+
+        // Opening arguments
+        const colsEl = document.getElementById('debate-columns');
+        colsEl.innerHTML = '';
+        if (!pundits.length) {
+          colsEl.innerHTML = '<p style="color:#9ca3af; font-size:0.85rem;">No pundit data exported yet. Run the pipeline to see persona-based arguments here.</p>';
+        } else {
+          const sides = [
+            { dir: 'long', label: 'Pro Disruption' },
+            { dir: 'short', label: 'Skeptical Side' }
+          ];
+
+          sides.forEach((side, idx) => {
+            const p = pundits[idx % pundits.length];
+            const name = (p.name || 'Pundit').trim();
+            const known = p.known_for || p.bio || '';
+            const idea = p.last_main_idea || '';
+            const epiDate = p.last_episode_date || p.last_seen || '';
+            const epiStr = epiDate ? formatDate(epiDate) : '';
+
+            const bodyBits = [];
+            if (known) {
+              bodyBits.push(`${name} is best known for ${known.toLowerCase()}.`);
+            }
+            if (idea) {
+              bodyBits.push(`Their last big idea here: “${idea}”.`);
+            }
+            if (side.dir === 'long') {
+              bodyBits.push(`From the long side, they would argue that ${termLabel.toLowerCase()} is an underpriced structural force pushing capital toward ${tickerLabel}.`);
+            } else {
+              bodyBits.push(`From the short side, they would argue that narrative around ${termLabel.toLowerCase()} has already been monetized, and ${tickerLabel} is closer to crowded than scarce.`);
+            }
+
+            const metaLine = epiStr
+              ? `${name} · last seen ${epiStr}`
+              : name;
+
+            const card = document.createElement('div');
+            card.className = 'side-card';
+            card.innerHTML = `
+              <div class="side-header">
+                <div class="side-name">${name}</div>
+                <div class="side-tag ${side.dir}">${side.label}</div>
+              </div>
+              <div class="side-body">
+                ${bodyBits.join(' ')}
+              </div>
+              <div class="pundit-meta">
+                ${metaLine}
+              </div>
+            `;
+            colsEl.appendChild(card);
+          });
+        }
+
+        // Roster
+        const rosterEl = document.getElementById('pundit-roster');
+        if (!pundits.length) {
+          rosterEl.textContent = 'No pundits exported yet. Once entity analysis runs, this section will describe who is actually driving the arguments.';
+        } else {
+          rosterEl.innerHTML = pundits.map(p => {
+            const name = (p.name || 'Pundit').trim();
+            const known = p.known_for || '';
+            const bio = p.bio || '';
+            const idea = p.last_main_idea || '';
+            const epiDate = p.last_episode_date || p.last_seen || '';
+            const epiStr = epiDate ? formatDate(epiDate) : '';
+            const pieces = [];
+            if (known) pieces.push(known);
+            if (bio) pieces.push(bio);
+            if (idea) pieces.push(`Last big idea: “${idea}”`);
+            if (epiStr) pieces.push(`Last seen: ${epiStr}`);
+            return `<p><strong>${name}</strong> — ${pieces.join(' · ')}</p>`;
+          }).join('');
+        }
+      }
+
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initDebate);
+      } else {
+        initDebate();
+      }
+    })();
+  </script>
+</body>
+</html>
+
