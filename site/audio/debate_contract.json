@@ -1,0 +1,18 @@
+{
+  "prompt": "Is AI-driven abundance real, or is it the same old cycle wearing a new mask?",
+  "generated_at": "2026-03-18T07:46:37.991629",
+  "expires_rule": "42-day Friday-noon CST (to be enforced by scheduler)",
+  "resolution_clarity": {
+    "source_of_truth": "Capitalist Compass (the line / crowd signal)",
+    "resolution_sources": [
+      "TBD"
+    ],
+    "resolution_criteria": [
+      "TBD"
+    ]
+  },
+  "sides": {
+    "a": "Abundance case",
+    "b": "Cycle case"
+  }
+}

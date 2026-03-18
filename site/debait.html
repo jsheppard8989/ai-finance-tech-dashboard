@@ -255,10 +255,14 @@
       const data = (typeof dashboardData !== 'undefined') ? dashboardData : null;
       const main = data && data.mainContent ? data.mainContent : {};
 
-      function chooseOvertonTerm() {
-        const overton = main.overton || [];
-        if (!overton.length) return null;
-        return overton[0];
+      async function loadDebateContract() {
+        try {
+          const resp = await fetch('./audio/debate_contract.json?v=' + Date.now(), { cache: 'no-cache' });
+          if (!resp.ok) return null;
+          return await resp.json();
+        } catch(e) {
+          return null;
+        }
       }
 
       function chooseRecentInsight() {
@@ -288,8 +292,7 @@
         }
       }
 
-      function initDebate() {
-        const term = chooseOvertonTerm();
+      async function initDebate() {
         const insight = chooseRecentInsight();
         const pundits = choosePundits();
 
@@ -302,16 +305,16 @@
         const genAt = data && data.generatedAt ? formatDate(data.generatedAt) : '—';
         dateEl.textContent = genAt === '—' ? '' : `· ${genAt}`;
 
-        const termLabel = term ? (term.term || term.name || '').trim() : 'AI mega‑cap dominance';
-
-        qEl.textContent = `Is ${termLabel} pushing us toward an age of AI‑driven abundance, or just amplifying the same old cycles under a new name?`;
+        const contract = await loadDebateContract();
+        const prompt = contract && contract.prompt ? String(contract.prompt).trim() : '';
+        qEl.textContent = prompt || 'No contract yet. Generate the weekly debate contract to begin.';
 
         const sourceBits = [];
         if (insight) {
           sourceBits.push(`latest insight: “${insight.title || ''}”`);
         }
-        if (term) {
-          sourceBits.push(`Overton term: ${termLabel}`);
+        if (contract && contract.expires_rule) {
+          sourceBits.push(`Contract: ${contract.expires_rule}`);
         }
 
         metaEl.innerHTML = sourceBits.map(b => `<span class="pill">${b}</span>`).join(' ');

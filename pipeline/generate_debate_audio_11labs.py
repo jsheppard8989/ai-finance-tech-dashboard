@@ -28,6 +28,7 @@ import requests
 WORKSPACE = Path.home() / ".openclaw/workspace"
 SITE_AUDIO = WORKSPACE / "site" / "audio"
 OUT_PATH = SITE_AUDIO / "emp_ai_the_debate_11labs.mp3"
+META_PATH = SITE_AUDIO / "debate_contract.json"
 
 
 def load_env_file(path: Path) -> None:
@@ -77,9 +78,30 @@ def tts(voice_id: str, text: str) -> bytes:
     return r.content
 
 
-def build_script() -> dict:
-    # For now, a stable default. Later we’ll generate this from exported debate topic + contracts.
+def build_contract() -> dict:
+    """
+    Build the single contract that the debate is about.
+    For now, we use a stable default. Later we’ll generate this from pipeline exports.
+    """
     prompt = "Is AI-driven abundance real, or is it the same old cycle wearing a new mask?"
+    return {
+        "prompt": prompt,
+        "generated_at": datetime.now().isoformat(),
+        "expires_rule": "42-day Friday-noon CST (to be enforced by scheduler)",
+        "resolution_clarity": {
+            "source_of_truth": "Capitalist Compass (the line / crowd signal)",
+            "resolution_sources": ["TBD"],
+            "resolution_criteria": ["TBD"],
+        },
+        "sides": {
+            "a": "Abundance case",
+            "b": "Cycle case",
+        },
+    }
+
+
+def build_script(contract: dict) -> dict:
+    prompt = contract["prompt"]
     return {
         "prompt": prompt,
         "host": (
@@ -122,7 +144,13 @@ def main() -> int:
         raise RuntimeError("Missing one or more ELEVENLABS_*_VOICE_ID env vars")
 
     SITE_AUDIO.mkdir(parents=True, exist_ok=True)
-    script = build_script()
+    contract = build_contract()
+    script = build_script(contract)
+
+    # Write contract metadata so the website prompt matches the audio.
+    import json
+
+    META_PATH.write_text(json.dumps(contract, indent=2), encoding="utf-8")
 
     # Generate each segment
     host_audio = tts(host_voice, script["host"])
