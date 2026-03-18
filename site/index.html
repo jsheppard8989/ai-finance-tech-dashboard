@@ -1045,6 +1045,61 @@
       display: flex;
     }
 
+    /* Pundit net worth modal */
+    .networth-modal {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.9);
+      z-index: 1002;
+      justify-content: center;
+      align-items: center;
+      padding: 2rem;
+    }
+    .networth-modal.active { display: flex; }
+    .networth-container {
+      background: rgba(26, 26, 46, 0.98);
+      border-radius: 16px;
+      padding: 1.5rem 2rem;
+      width: 100%;
+      max-width: 620px;
+      border: 1px solid rgba(0, 212, 255, 0.2);
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+    }
+    .networth-title {
+      color: #00d4ff;
+      font-size: 1.2rem;
+      font-weight: 700;
+      margin-bottom: 0.35rem;
+    }
+    .networth-value {
+      font-size: 2rem;
+      font-weight: 800;
+      color: #e8e8e8;
+      letter-spacing: -0.5px;
+      margin: 0.5rem 0 0.75rem;
+    }
+    .networth-sub {
+      color: #8892b0;
+      font-size: 0.9rem;
+      line-height: 1.5;
+    }
+    .networth-actions {
+      display: flex;
+      justify-content: flex-end;
+      gap: 0.5rem;
+      margin-top: 1rem;
+    }
+    .networth-actions .close-btn {
+      background: none;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      color: #fff;
+      padding: 0.5rem 1rem;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+
     .podcast-container {
       background: rgba(26, 26, 46, 0.98);
       border-radius: 16px;
@@ -1622,6 +1677,18 @@
     </div>
   </div>
 
+  <!-- Net Worth Modal (Pundits) -->
+  <div id="netWorthModal" class="networth-modal">
+    <div class="networth-container">
+      <div class="networth-title" id="netWorthTitle">Net Worth</div>
+      <div class="networth-value" id="netWorthValue">—</div>
+      <div class="networth-sub" id="netWorthSub"></div>
+      <div class="networth-actions">
+        <button class="close-btn" onclick="closeNetWorthModal()">✕ Close</button>
+      </div>
+    </div>
+  </div>
+
   <!-- Load dashboard data from pipeline (if available) -->
   <script src="./data/data.js?v=1773816435-1"></script>
   <script src="./js/common.js"></script>
@@ -1879,13 +1946,22 @@
 
         var thesis = whatText ? ('<div class="last-thesis">“' + whatText + '”</div>') : '';
 
+        // Net worth may be enriched later (e.g. Grokopedia). Keep data attrs for modal.
+        var netWorth = item.net_worth_usd || item.net_worth || '';
+        var netWorthSrc = item.net_worth_source || '';
+
         return '' +
-          '<div class="guest-item">' +
+          '<div class="guest-item" data-name="' + name.replace(/"/g, '&quot;') + '" data-networth="' + String(netWorth).replace(/"/g, '&quot;') + '" data-networthsrc="' + String(netWorthSrc).replace(/"/g, '&quot;') + '">' +
             '<div class="guest-name">' + name + '</div>' +
             inline +
             thesis +
           '</div>';
       }).join('');
+
+      // Ensure click handler is attached even if guests load after tickers.
+      container.querySelectorAll('.guest-item').forEach(function(card) {
+        card.addEventListener('click', handleCardClick);
+      });
     }
 
     // Chart modal functions — reset container so img is always present after placeholder
@@ -2202,6 +2278,13 @@
     document.getElementById('podcastModal').addEventListener('click', function(e) {
       if (e.target === this) {
         closePodcastSummary();
+      }
+    });
+
+    // Close net worth modal on outside click
+    document.getElementById('netWorthModal').addEventListener('click', function(e) {
+      if (e.target === this) {
+        closeNetWorthModal();
       }
     });
 
@@ -2532,6 +2615,15 @@
 
       setTimeout(() => ripple.remove(), 600);
 
+      // Pundits: show net worth modal instead of expanding
+      if (card.classList.contains('guest-item')) {
+        const name = card.getAttribute('data-name') || 'Pundit';
+        const nw = card.getAttribute('data-networth') || '';
+        const src = card.getAttribute('data-networthsrc') || '';
+        showNetWorthModal(name, nw, src);
+        return;
+      }
+
       // Toggle active state
       if (activeCard && activeCard !== card) {
         activeCard.classList.remove('active');
@@ -2539,6 +2631,32 @@
 
       card.classList.toggle('active');
       activeCard = card.classList.contains('active') ? card : null;
+    }
+
+    function showNetWorthModal(name, netWorth, netWorthSrc) {
+      const modal = document.getElementById('netWorthModal');
+      const title = document.getElementById('netWorthTitle');
+      const value = document.getElementById('netWorthValue');
+      const sub = document.getElementById('netWorthSub');
+      if (!modal || !title || !value || !sub) return;
+
+      title.textContent = name + ' — Net Worth';
+
+      const clean = (netWorth || '').trim();
+      if (clean) {
+        value.textContent = clean;
+        sub.textContent = netWorthSrc ? ('Source: ' + netWorthSrc) : 'Source: (not recorded)';
+      } else {
+        value.textContent = '—';
+        sub.textContent = 'Net worth not yet sourced. Enable Grokopedia enrichment to populate this field.';
+      }
+
+      modal.classList.add('active');
+    }
+
+    function closeNetWorthModal() {
+      const modal = document.getElementById('netWorthModal');
+      if (modal) modal.classList.remove('active');
     }
 
     // Show chart or "Deep Dive" placeholder for a ticker (from ticker cards)
