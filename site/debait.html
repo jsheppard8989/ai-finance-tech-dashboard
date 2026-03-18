@@ -172,6 +172,15 @@
       <div class="debate-question" id="debate-question">
         Loading debate topic…
       </div>
+      <div style="display:flex; align-items:center; gap:0.5rem; margin: 0.6rem 0 0.25rem; flex-wrap: wrap;">
+        <button id="vote-up" class="pill" style="cursor:pointer; user-select:none; border-color: rgba(34,197,94,0.5);">
+          <strong style="color:#22c55e;">👍</strong> <span>Up</span> <span id="vote-up-count" style="opacity:0.9;">0</span>
+        </button>
+        <button id="vote-down" class="pill" style="cursor:pointer; user-select:none; border-color: rgba(248,113,113,0.55);">
+          <strong style="color:#f87171;">👎</strong> <span>Down</span> <span id="vote-down-count" style="opacity:0.9;">0</span>
+        </button>
+        <span style="color:#8892b0; font-size:0.8rem;">Quick signal only. (Shared voting backend coming.)</span>
+      </div>
       <div class="debate-meta" id="debate-meta"></div>
       <div class="methodology" id="debate-methodology">
         We fight the real villains: stale consensus, tribal certainty, narrative capture, and “ceteris paribus” thinking.
@@ -294,6 +303,38 @@
         }
 
         metaEl.innerHTML = sourceBits.map(b => `<span class="pill">${b}</span>`).join(' ');
+
+        // Simple thumbs up/down (local-only for now; shared backend comes later)
+        try {
+          const key = 'debate_prompt_votes_v1';
+          const store = JSON.parse(localStorage.getItem(key) || '{}') || {};
+          const promptText = (qEl && qEl.textContent) ? qEl.textContent.trim() : 'prompt';
+          const pid = 'p:' + promptText.slice(0, 180);
+          if (!store[pid]) store[pid] = { up: 0, down: 0 };
+
+          const upEl = document.getElementById('vote-up-count');
+          const downEl = document.getElementById('vote-down-count');
+          const renderVotes = function() {
+            if (upEl) upEl.textContent = String(store[pid].up || 0);
+            if (downEl) downEl.textContent = String(store[pid].down || 0);
+          };
+          renderVotes();
+
+          const upBtn = document.getElementById('vote-up');
+          const downBtn = document.getElementById('vote-down');
+          if (upBtn) upBtn.onclick = function(ev) {
+            ev.preventDefault();
+            store[pid].up = (store[pid].up || 0) + 1;
+            localStorage.setItem(key, JSON.stringify(store));
+            renderVotes();
+          };
+          if (downBtn) downBtn.onclick = function(ev) {
+            ev.preventDefault();
+            store[pid].down = (store[pid].down || 0) + 1;
+            localStorage.setItem(key, JSON.stringify(store));
+            renderVotes();
+          };
+        } catch(e) {}
 
         methEl.innerHTML = `
           We scan AI-analyzed podcasts, newsletters, and ticker scores to surface a single
