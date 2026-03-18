@@ -83,17 +83,13 @@ def build_script() -> dict:
     return {
         "prompt": prompt,
         "host": (
-            "Welcome to Emp(ai)thy is the Edge.\n"
-            "Debate isn’t winning. It’s empathy under pressure — in search of truth.\n\n"
-            "Rules:\n"
-            "One prompt.\n"
-            "Two steel-manned sides.\n"
-            "Each side must concede one point.\n"
-            "Each side must make one 42-day wager.\n\n"
-            f"Today’s prompt: {prompt}"
+            "Host.\n"
+            "Rules: one prompt, two steel-manned sides, one concession each, one forty-two day wager each.\n"
+            f"Prompt: {prompt}"
         ),
         "a": (
-            "Steel-man side A, the abundance case.\n"
+            "Debater A.\n"
+            "Steel-man: the abundance case.\n"
             "The best version says intelligence is becoming cheap, and when intelligence is cheap, bottlenecks move. "
             "Coordination, design, diagnosis, and research become radically more productive. "
             "Abundance is not the absence of scarcity; it is an expanding frontier.\n\n"
@@ -101,14 +97,15 @@ def build_script() -> dict:
             "42-day wager: By expiry, we will see a mainstream AI system replace a full workflow, not just assist a task."
         ),
         "b": (
-            "Steel-man side B, the cycle case.\n"
+            "Debater B.\n"
+            "Steel-man: the cycle case.\n"
             "The best version says every era sells a new story, but the old mechanics remain. "
             "Capital clusters. Insiders win. Productivity gains are uneven. "
             "AI may increase output, but it can also increase surveillance, fragility, and monopoly rents.\n\n"
             "Concession: Even if this is a cycle, capabilities are improving, and some productivity gains are unavoidable.\n\n"
             "42-day wager: By expiry, we will see a public tightening signal—regulation, litigation, or a high-profile failure—that slows adoption."
         ),
-        "close": "Close: Your job is not to choose a tribe. Your job is to choose evidence.",
+        "close": "Your job is not to choose a tribe. Your job is to choose evidence.",
     }
 
 
