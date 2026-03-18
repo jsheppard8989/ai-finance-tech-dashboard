@@ -3,8 +3,8 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-03-18T01:12:31.620028",
-  chartsVersion: "2026-03-18T01:12:28.360555",
+  generatedAt: "2026-03-18T01:47:15.280407",
+  chartsVersion: "2026-03-18T01:47:10.173966",
   tickerScores: [
   {
     "ticker": "GOOGL",
@@ -7113,7 +7113,7 @@ const dashboardData = {
 ],
   podcastGuests: [
   {
-    "id": 422,
+    "id": 429,
     "name": "Elon Musk on Moonshots",
     "slug": "elon-musk-on-moonshots",
     "bio": null,
@@ -7125,7 +7125,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 423,
+    "id": 430,
     "name": "Investing in Capitalism",
     "slug": "investing-in-capitalism",
     "bio": null,
@@ -7137,7 +7137,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 424,
+    "id": 431,
     "name": "Harvard Professor Graham Allison",
     "slug": "harvard-professor-graham-allison",
     "bio": null,
@@ -7149,7 +7149,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 425,
+    "id": 432,
     "name": "Andrew Yang",
     "slug": "andrew-yang",
     "bio": "Andrew Yang is an entrepreneur and political leader who popularized universal basic income in U.S. politics through his 2020 presidential campaign.",
@@ -7161,7 +7161,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 426,
+    "id": 433,
     "name": "Ray Dalio",
     "slug": "ray-dalio",
     "bio": "Ray Dalio is the founder of Bridgewater Associates and a macro investor known for his 'Principles' framework and work on long-term debt cycles.",
@@ -7173,7 +7173,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 427,
+    "id": 434,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -7185,7 +7185,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 428,
+    "id": 435,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
