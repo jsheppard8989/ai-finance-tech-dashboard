@@ -33,11 +33,16 @@ Thumbs.db
 # Large files (don't commit audio/transcripts to git)
 audio/
 whisper_queue/
-transcripts/*.txt
-!transcripts/.gitkeep
+whisper_done/
+pipeline/audio/
+pipeline/whisper_queue/
+pipeline/whisper_done/
+pipeline/transcripts/*.txt
+!pipeline/transcripts/.gitkeep
 
 # Logs
 *.log
+pipeline/logs/
 
 # Pipeline state (lock files, etc.)
 pipeline/state/auto_pipeline.lock
@@ -58,6 +63,9 @@ memory/
 bip39.txt
 pending_contacts.json
 
-# Pipeline state & inbox (optional: uncomment to stop committing these too)
-# pipeline/state/
-# pipeline/inbox/
+# Pipeline state & inbox (hide from explorer; keep in local git if needed)
+pipeline/state/
+pipeline/inbox/
+
+# Generated site data (JSON/JS exported from pipeline)
+site/data/
