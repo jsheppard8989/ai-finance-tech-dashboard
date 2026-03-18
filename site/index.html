@@ -348,6 +348,45 @@
     .guest-item .guest-name { font-weight: 700; color: #00d4ff; font-size: 0.95rem; margin-bottom: 0.25rem; }
     .guest-item .guest-known-for { font-size: 0.8rem; color: #8892b0; font-style: italic; margin-bottom: 0.25rem; line-height: 1.35; }
     .guest-item .guest-source { font-size: 0.7rem; color: #8892b0; margin-top: 0.15rem; }
+    .guest-inline {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 0.25rem 0.75rem;
+      align-items: center;
+    }
+    .guest-inline .inline-tagline {
+      color: #a8b2d1;
+      font-size: 0.85rem;
+    }
+    .presence {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      font-size: 0.75rem;
+      color: #8892b0;
+    }
+    .presence-bar {
+      width: 72px;
+      height: 6px;
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.12);
+      border-radius: 999px;
+      overflow: hidden;
+    }
+    .presence-bar > span {
+      display: block;
+      height: 100%;
+      background: linear-gradient(90deg, #00d4ff, #7b2cbf);
+    }
+    .latest-arena {
+      color: #8892b0;
+      font-size: 0.75rem;
+    }
+    .last-thesis {
+      color: #e8e8e8;
+      font-size: 0.85rem;
+      margin-top: 0.25rem;
+    }
     .guest-extra {
       max-height: 0;
       overflow: hidden;
@@ -1584,7 +1623,7 @@
   </div>
 
   <!-- Load dashboard data from pipeline (if available) -->
-  <script src="./data/data.js?v=1773812144-1"></script>
+  <script src="./data/data.js?v=1773814351-1"></script>
   <script src="./js/common.js"></script>
   
   <script>
@@ -1798,6 +1837,13 @@
         }
 
         var mentionScore = item.mention_score || item.appearance_count || 0;
+        var decayed = (typeof item.mention_score_decayed === 'number') ? item.mention_score_decayed : mentionScore;
+        // Normalize decayed to 0..1 for a tiny bar (cap at e.g., 4)
+        var norm = 0;
+        try {
+          var cap = 4.0;
+          norm = Math.max(0, Math.min(1, (decayed || 0) / cap));
+        } catch(e) { norm = 0; }
 
         // Who: short, factual identity line
         var whoText = '';
@@ -1820,14 +1866,24 @@
         // What: last main idea we extracted
         var whatText = idea || 'Latest thesis not yet extracted from transcripts.';
 
+        // Inline (always-visible) summary block
+        var inline = '' +
+          '<div class="guest-inline">' +
+            '<div class="inline-tagline">' + (whoText || '') + '</div>' +
+            '<div class="presence">' +
+              '<span>Presence</span>' +
+              '<span class="presence-bar"><span style="width:' + Math.round(norm * 100) + '%;"></span></span>' +
+            '</div>' +
+            '<div class="latest-arena">' + (whyText || '') + '</div>' +
+          '</div>';
+
+        var thesis = whatText ? ('<div class="last-thesis">“' + whatText + '”</div>') : '';
+
         return '' +
           '<div class="guest-item">' +
             '<div class="guest-name">' + name + '</div>' +
-            '<div class="guest-extra">' +
-              (whoText ? '<div class="guest-bio"><strong>Who:</strong> ' + whoText + '</div>' : '') +
-              (whyText ? '<div class="guest-idea"><strong>Why now:</strong> ' + whyText + '</div>' : '') +
-              '<div class="guest-idea"><strong>What:</strong> ' + whatText + '</div>' +
-            '</div>' +
+            inline +
+            thesis +
           '</div>';
       }).join('');
     }
