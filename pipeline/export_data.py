@@ -152,10 +152,21 @@ def _export_pipeline_state(site_dir: Path):
 
             db = get_db()
             main_content = db.get_main_page_content()
+            pundits_count = 0
+            # Prefer the exact list exported for the site so Pipeline Health tie-out matches.
+            try:
+                pundits_path = site_dir / "pundits.json"
+                if pundits_path.exists():
+                    with open(pundits_path, "r", encoding="utf-8") as f:
+                        pundits = json.load(f)
+                    pundits_count = len(pundits) if isinstance(pundits, list) else 0
+            except Exception:
+                pundits_count = main_content.get("pundits", 0)
+
             main_page = {
                 "overton": len(main_content.get("overton", [])),
                 "insights": len(main_content.get("insights", [])),
-                "pundits": main_content.get("pundits", 0),
+                "pundits": pundits_count,
             }
             counts = db.get_stats()
             counts["podcasts_analyzed"] = _count_podcasts_analyzed_today()
@@ -410,10 +421,20 @@ def _export_pipeline_state(site_dir: Path):
     # main-page tie-out and counts (keep dashboard consistent)
     try:
         main_content = db.get_main_page_content()
+        pundits_count = 0
+        # Prefer the exact list exported for the site so Pipeline Health tie-out matches.
+        try:
+            pundits_path = site_dir / "pundits.json"
+            if pundits_path.exists():
+                with open(pundits_path, "r", encoding="utf-8") as f:
+                    pundits = json.load(f)
+                pundits_count = len(pundits) if isinstance(pundits, list) else 0
+        except Exception:
+            pundits_count = main_content.get("pundits", 0)
         main_page = {
             "overton": len(main_content.get("overton", [])),
             "insights": len(main_content.get("insights", [])),
-            "pundits": main_content.get("pundits", 0),
+            "pundits": pundits_count,
         }
     except Exception:
         main_page = {"overton": 0, "insights": 0, "pundits": 0}
