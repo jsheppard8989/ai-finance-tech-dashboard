@@ -143,7 +143,7 @@
         <p class="muted" style="font-size: 0.8rem; margin-bottom: 0.35rem;">These have been incomplete beyond the stale threshold and likely need manual intervention.</p>
         <table id="stale-table">
           <thead>
-            <tr><th>Podcast</th><th>Title</th><th>Age (days)</th><th>Blocker</th><th>Status</th></tr>
+            <tr><th>Podcast</th><th>Title</th><th>Age (days)</th><th>Suggested action</th><th>Status</th></tr>
           </thead>
           <tbody></tbody>
         </table>
@@ -395,12 +395,30 @@
       staleBody.innerHTML = '';
       if (stale.length) {
         staleWrap.style.display = 'block';
+
+        function actionForNextBlocker(nextBlocker) {
+          switch (nextBlocker) {
+            case 'downloaded':
+              return 'Run fetch/download step';
+            case 'transcribed':
+              return 'Run transcribe step';
+            case 'analyzed':
+              return 'Run transcript analyze step';
+            case 'insight_created':
+              return 'Run insight promotion step';
+            case 'published':
+              return 'Run site export/publish step';
+            default:
+              return 'Check pipeline logs / rerun pipeline';
+          }
+        }
+
         stale.forEach(function(ep) {
           const tr = document.createElement('tr');
           tr.innerHTML = '<td>' + (ep.podcast || '').substring(0, 28) + '</td>'
             + '<td>' + (ep.title || '').substring(0, 52) + '</td>'
             + '<td>' + (ep.age_days == null ? '—' : ep.age_days) + '</td>'
-            + '<td>' + (ep.next_blocker || 'unknown') + '</td>'
+            + '<td>' + actionForNextBlocker(ep.next_blocker) + '</td>'
             + '<td>' + (ep.status || 'unknown') + '</td>';
           staleBody.appendChild(tr);
         });
