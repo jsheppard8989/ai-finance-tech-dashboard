@@ -183,6 +183,11 @@
 
   <script>
     const stepLabels = {
+      downloaded: 'Downloaded',
+      transcribed: 'Transcribed',
+      analyzed: 'Analyzed',
+      insight_created: 'Insight created',
+      published: 'Published',
       curate: 'Podcast curation',
       fetch: 'Fetch & transcribe',
       ingest: 'Newsletter ingestion',
@@ -207,46 +212,40 @@
     }
 
     async function load() {
-      let status = {};
-      let report = null;
-
+      let pipelineState = {};
       try {
-        const s = await fetch('./data/status.json', { cache: 'no-cache' });
-        if (s.ok) status = await s.json();
+        const s = await fetch('./data/pipeline_state.json', { cache: 'no-cache' });
+        if (s.ok) pipelineState = await s.json();
       } catch (e) {
-        document.getElementById('last-run').textContent = 'Could not load status.json';
+        document.getElementById('last-run').textContent = 'Could not load pipeline_state.json';
         document.getElementById('loading').style.display = 'none';
         return;
       }
 
-      const runTs = status.last_pipeline_run || report?.last_run_iso;
+      const runTs = pipelineState.last_pipeline_run || pipelineState.generated_at;
       document.getElementById('last-run').textContent = formatDate(runTs);
-
-      try {
-        const r = await fetch('./data/pipeline_report.json', { cache: 'no-cache' });
-        if (r.ok) report = await r.json();
-      } catch (_) {}
 
       const loadingEl = document.getElementById('loading');
       const tableEl = document.getElementById('steps-table');
       const noReportEl = document.getElementById('no-report');
       const errorsEl = document.getElementById('errors');
 
-      if (report && report.step_results) {
+      // Step table now reflects deterministic stage completion counts.
+      if (pipelineState && pipelineState.step_results) {
         loadingEl.style.display = 'none';
         noReportEl.style.display = 'none';
         tableEl.style.display = 'table';
         const tbody = tableEl.querySelector('tbody');
         tbody.innerHTML = '';
-        for (const [key, value] of Object.entries(report.step_results)) {
+        for (const [key, value] of Object.entries(pipelineState.step_results)) {
           const label = stepLabels[key] || key;
-          const ok = value === true || (typeof value === 'number' && value >= 0);
+          const ok = value === true || (typeof value === 'number' && value > 0);
           const tr = document.createElement('tr');
           tr.innerHTML = '<td>' + label + '</td><td class="' + (ok ? 'ok' : 'fail') + '">' + (ok ? '✓' : '✗') + '</td><td>' + (typeof value === 'number' ? value : (value ? '—' : '—')) + '</td>';
           tbody.appendChild(tr);
         }
-        if (report.errors && report.errors.length) {
-          errorsEl.textContent = 'Failed steps: ' + report.errors.join(', ');
+        if (pipelineState.errors && pipelineState.errors.length) {
+          errorsEl.textContent = 'Failed steps: ' + pipelineState.errors.join(', ');
         }
       } else {
         loadingEl.style.display = 'none';
@@ -254,7 +253,7 @@
       }
 
       // Main page section counts (tie-out)
-      const mainPage = status?.main_page || {};
+      const mainPage = pipelineState?.main_page || {};
       const mainPageTbody = document.getElementById('main-page-table').querySelector('tbody');
       mainPageTbody.innerHTML = '';
       for (const [key, value] of Object.entries(mainPage)) {
@@ -264,22 +263,17 @@
         mainPageTbody.appendChild(tr);
       }
       if (Object.keys(mainPage).length === 0) {
-        mainPageTbody.innerHTML = '<tr><td colspan="2" class="muted">No main_page in status.json (re-run export).</td></tr>';
+        mainPageTbody.innerHTML = '<tr><td colspan="2" class="muted">No main_page in pipeline_state.json (re-run export).</td></tr>';
       }
 
-      // Episodes in pipeline (load once so we have episodes + available_from_rss + rss_filter_criteria)
-      let episodeStatus = { last_updated: null, episodes: [], last_3_completed: [], available_from_rss: [], rss_filter_criteria: {}, note: '' };
-      try {
-        const epResp = await fetch('./data/episode_status.json', { cache: 'no-cache' });
-        if (epResp.ok) episodeStatus = await epResp.json();
-      } catch (_) {}
-      const episodes = episodeStatus.episodes || [];
-      const availableRss = episodeStatus.available_from_rss || [];
+      // Episodes in pipeline (single source)
+      const episodes = pipelineState.episodes || [];
+      const availableRss = pipelineState.available_from_rss || [];
       const stageKeys = ['downloaded', 'transcribed', 'analyzed', 'insight_created', 'published'];
       const stageLabels = { downloaded: 'Downloaded', transcribed: 'Transcribed', analyzed: 'Analyzed', insight_created: 'Insight created', published: 'On site' };
 
       // RSS filter criteria table
-      const rssCriteria = episodeStatus.rss_filter_criteria || {};
+      const rssCriteria = pipelineState.rss_filter_criteria || {};
       const criteriaTbody = document.getElementById('rss-criteria-table').querySelector('tbody');
       criteriaTbody.innerHTML = '';
       if (Object.keys(rssCriteria).length) {
@@ -384,8 +378,8 @@
       const episodeSummaryEl = document.getElementById('episode-summary');
       episodeSummaryEl.textContent = episodes.length === 0 && availableRss.length === 0
         ? 'No episodes in pipeline yet. Run curate → fetch so approved episodes appear here.'
-        : (inPipelineTracked.length + ' in pipeline · ' + completedCount + ' completed · ' + availableRss.length + ' available from RSS (not processed)' + (feedPlaceholders > 0 ? ' · ' + feedPlaceholders + ' feed placeholders in stage table' : '') + '. Status: ' + (episodeStatus.last_updated ? formatDate(episodeStatus.last_updated) : '—'));
-      document.getElementById('episode-note').textContent = episodeStatus.note || '';
+        : (inPipelineTracked.length + ' in pipeline · ' + completedCount + ' completed · ' + availableRss.length + ' available from RSS (not processed)' + (feedPlaceholders > 0 ? ' · ' + feedPlaceholders + ' feed placeholders in stage table' : '') + '. Status: ' + (pipelineState.last_updated ? formatDate(pipelineState.last_updated) : '—'));
+      document.getElementById('episode-note').textContent = pipelineState.note || '';
 
       const healthEl = document.getElementById('pipeline-health-check');
       if (episodes.length === completedCount && availableRss.length === 0 && episodes.length > 0) {
@@ -397,7 +391,7 @@
       }
 
       // Stale episode panel
-      const stale = episodeStatus.stale_episodes || [];
+      const stale = pipelineState.stale_episodes || [];
       const staleWrap = document.getElementById('stale-wrap');
       const staleBody = document.getElementById('stale-table').querySelector('tbody');
       staleBody.innerHTML = '';
@@ -416,7 +410,7 @@
         staleWrap.style.display = 'none';
       }
 
-      const counts = report?.counts || { ...(status?.counts || {}), ...(status?.last_steps || {}) };
+      const counts = pipelineState.counts || {};
       const countsOrder = ['podcast_episodes', 'podcasts_analyzed', 'latest_insights_total', 'overton_terms_total', 'ticker_mentions', 'pundits', 'newsletters', 'daily_scores'];
       const countLabels = { podcast_episodes: 'Podcast episodes', podcasts_analyzed: 'Podcasts analyzed today', latest_insights_total: 'Latest insights', overton_terms_total: 'Overton terms', ticker_mentions: 'Ticker mentions', pundits: 'Pundits', newsletters: 'Newsletters', daily_scores: 'Daily scores' };
       const tbodyCounts = document.getElementById('counts-table').querySelector('tbody');

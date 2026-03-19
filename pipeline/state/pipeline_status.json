@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-19T08:29:03.086941",
+  "last_updated": "2026-03-19T10:26:46.549782",
   "episodes": {
     "moonshots_with_peter_diamandis_meta_buys_moltbook,_gpt_5.4,_a": {
       "info": {
@@ -39,7 +39,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-19T08:29:03.037554",
+      "first_seen": "2026-03-19T10:26:46.487404",
       "status": "needs_transcription"
     },
     "monetary_matters_with_jack_farley_stock_market_on_shaky_foundati": {
@@ -80,7 +80,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-19T08:29:03.061462",
+      "first_seen": "2026-03-19T10:26:46.522631",
       "status": "needs_transcription"
     },
     "the_a16z_show_chris_dixon:_from_quant_tradin": {
@@ -121,7 +121,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-19T08:29:03.070490",
+      "first_seen": "2026-03-19T10:26:46.532701",
       "status": "needs_download"
     },
     "dwarkesh_podcast_why_leonardo_was_a_saboteur,_g": {
@@ -162,7 +162,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-19T08:29:03.078480",
+      "first_seen": "2026-03-19T10:26:46.541287",
       "status": "needs_download"
     }
   }

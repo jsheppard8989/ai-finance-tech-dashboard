@@ -1,0 +1,185 @@
+{
+  "generated_at": "2026-03-19T10:26:48.803203",
+  "last_updated": "2026-03-19T10:26:48.803203",
+  "last_pipeline_run": "2026-03-19T10:26:48.803203",
+  "main_page": {
+    "overton": 8,
+    "insights": 8,
+    "pundits": 0
+  },
+  "counts": {
+    "ticker_mentions": 136,
+    "podcast_episodes": 54,
+    "newsletters": 7,
+    "daily_scores": 74,
+    "overton_terms_total": 16,
+    "latest_insights_total": 70,
+    "today_mentions": {},
+    "podcasts_analyzed": 0
+  },
+  "step_results": {
+    "downloaded": 0,
+    "transcribed": 0,
+    "analyzed": 0,
+    "insight_created": 0,
+    "published": 0,
+    "total": 4
+  },
+  "episodes": [
+    {
+      "id": "e1cac66e-2231-11f1-82c3-c7e649c4b364",
+      "podcast": "Moonshots with Peter Diamandis",
+      "title": "Meta Buys Moltbook, GPT 5.4, and Fruitfly Brain Upload | Moonshots Live at The Abundance Summit 238",
+      "published": "2026-03-17",
+      "rss_guid": "e1cac66e-2231-11f1-82c3-c7e649c4b364",
+      "stages": {
+        "downloaded": false,
+        "transcribed": false,
+        "analyzed": false,
+        "insight_created": false,
+        "published": false
+      },
+      "stage_reasons": {
+        "downloaded": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "transcribed": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "analyzed": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "insight_created": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
+      },
+      "status": "needs_download"
+    },
+    {
+      "id": "e3ce0ba4-22dd-11f1-b3e1-ef93882cc84d",
+      "podcast": "Monetary Matters with Jack Farley",
+      "title": "Stock Market on Shaky Foundations | Blind Squirrel Macro\u2019s Rupert Mitchell on IPO Supply, Oil, and Private Credit",
+      "published": "2026-03-18",
+      "rss_guid": "e3ce0ba4-22dd-11f1-b3e1-ef93882cc84d",
+      "stages": {
+        "downloaded": false,
+        "transcribed": false,
+        "analyzed": false,
+        "insight_created": false,
+        "published": false
+      },
+      "stage_reasons": {
+        "downloaded": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "transcribed": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "analyzed": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "insight_created": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
+      },
+      "status": "needs_download"
+    },
+    {
+      "id": "1a7873e6-52cf-493d-a1a1-360a49324923",
+      "podcast": "The a16z Show",
+      "title": "Chris Dixon: From Quant Trading to Building a16z Crypto",
+      "published": "2026-03-02",
+      "rss_guid": "1a7873e6-52cf-493d-a1a1-360a49324923",
+      "stages": {
+        "downloaded": false,
+        "transcribed": false,
+        "analyzed": false,
+        "insight_created": false,
+        "published": false
+      },
+      "stage_reasons": {
+        "downloaded": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "transcribed": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "analyzed": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "insight_created": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
+      },
+      "status": "needs_download"
+    },
+    {
+      "id": "substack:post:190118311",
+      "podcast": "Dwarkesh Podcast",
+      "title": "Why Leonardo was a saboteur, Gutenberg went broke, and Florence was weird \u2013 Ada Palmer",
+      "published": "2026-03-06",
+      "rss_guid": "substack:post:190118311",
+      "stages": {
+        "downloaded": false,
+        "transcribed": false,
+        "analyzed": false,
+        "insight_created": false,
+        "published": false
+      },
+      "stage_reasons": {
+        "downloaded": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "transcribed": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "analyzed": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "insight_created": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
+      },
+      "status": "needs_download"
+    }
+  ],
+  "available_from_rss": [
+    {
+      "podcast": "The a16z Show",
+      "title": "AI Just Gave You Superpowers \u2014 Now What?",
+      "published": "Thu, 19 Mar 2026 10:00:00 +0000",
+      "published_date": "2026-03-19",
+      "rss_guid": ""
+    },
+    {
+      "podcast": "Monetary Matters with Jack Farley",
+      "title": "Stock Market on Shaky Foundations | Blind Squirrel Macro\u2019s Rupert Mitchell on IPO Supply, Oil, and Private Credit",
+      "published": "Wed, 18 Mar 2026 15:19:00 -0000",
+      "published_date": "2026-03-18",
+      "rss_guid": ""
+    },
+    {
+      "podcast": "Moonshots with Peter Diamandis",
+      "title": "Meta Buys Moltbook, GPT 5.4, and Fruitfly Brain Upload | Moonshots Live at The Abundance Summit 238",
+      "published": "Tue, 17 Mar 2026 21:22:00 -0000",
+      "published_date": "2026-03-17",
+      "rss_guid": ""
+    },
+    {
+      "podcast": "Dwarkesh Podcast",
+      "title": "Why Leonardo was a saboteur, Gutenberg went broke, and Florence was weird \u2013 Ada Palmer",
+      "published": "Fri, 06 Mar 2026 17:14:20 GMT",
+      "published_date": "2026-03-06",
+      "rss_guid": ""
+    }
+  ],
+  "stale_episodes": [
+    {
+      "id": "e1cac66e-2231-11f1-82c3-c7e649c4b364",
+      "podcast": "Moonshots with Peter Diamandis",
+      "title": "Meta Buys Moltbook, GPT 5.4, and Fruitfly Brain Upload | Moonshots Live at The Abundance Summit 238",
+      "status": "needs_download",
+      "published": "2026-03-17",
+      "age_days": 2,
+      "next_blocker": "downloaded"
+    },
+    {
+      "id": "1a7873e6-52cf-493d-a1a1-360a49324923",
+      "podcast": "The a16z Show",
+      "title": "Chris Dixon: From Quant Trading to Building a16z Crypto",
+      "status": "needs_download",
+      "published": "2026-03-02",
+      "age_days": 17,
+      "next_blocker": "downloaded"
+    },
+    {
+      "id": "substack:post:190118311",
+      "podcast": "Dwarkesh Podcast",
+      "title": "Why Leonardo was a saboteur, Gutenberg went broke, and Florence was weird \u2013 Ada Palmer",
+      "status": "needs_download",
+      "published": "2026-03-06",
+      "age_days": 13,
+      "next_blocker": "downloaded"
+    }
+  ],
+  "stale_threshold_days": 2,
+  "rss_filter_criteria": {
+    "cutoff_date": "2026-02-01",
+    "approval": "Feed list is the filter. If a feed is in podcast_feeds.txt, all its episodes (within window) are approved. No per-episode relevance score.",
+    "feeds": "podcast_feeds.txt; episodes already in DB (by rss_guid) are skipped.",
+    "window": "Current calendar month only (forward-looking; no backfill of prior months)."
+  },
+  "note": "Canonical pipeline_state built from DB rows + curation approvals. Stage completion is deterministic."
+}

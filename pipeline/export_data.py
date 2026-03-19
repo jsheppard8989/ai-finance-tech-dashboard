@@ -88,10 +88,314 @@ def export_website_data():
     with open(site_dir / "status.json", "w") as f:
         json.dump(status, f, indent=2, default=str)
 
-    # Export episode pipeline status for Pipeline Health (sanitized: no local paths)
+    # Export episode pipeline status for Pipeline Health (legacy file).
     _export_episode_status(site_dir)
 
+    # Export canonical pipeline state used by Pipeline Health (single source).
+    _export_pipeline_state(site_dir)
+
     return stats
+
+
+def _parse_iso_date_prefix(s: str):
+    """Extract YYYY-MM-DD from many possible date strings."""
+    if not s:
+        return None
+    s = str(s).strip()
+    m = re.search(r"(\d{4})-(\d{2})-(\d{2})", s)
+    if m:
+        try:
+            return (int(m.group(1)), int(m.group(2)), int(m.group(3)))
+        except Exception:
+            return None
+    return None
+
+
+def _export_pipeline_state(site_dir: Path):
+    """
+    Canonical pipeline export consumed by `site/pipeline-health.html`.
+
+    Design goal:
+    - Episodes selection comes from `pipeline/state/curation_log.json` approvals.
+    - Stage completion comes ONLY from DB rows (`podcast_episodes`, `latest_insights`).
+    - No artifact-based inference (no substring search in data.js, no tracker snapshot dependency).
+    """
+    from db_manager import get_db
+
+    state_dir = Path(__file__).parent / "state"
+    curated_path = state_dir / "curation_log.json"
+    rss_filter_criteria = _rss_filter_criteria()
+
+    generated_at = datetime.now().isoformat()
+    last_updated = generated_at
+
+    # Load curated approvals (episodes Clawbot should be processing).
+    curated_eps = []
+    if curated_path.exists():
+        try:
+            curated = json.loads(curated_path.read_text(encoding="utf-8"))
+            for ep in curated.get("episodes", []):
+                if ep.get("status") != "APPROVED":
+                    continue
+                curated_eps.append(ep)
+        except Exception:
+            curated_eps = []
+
+    # DB lookups
+    db = get_db()
+    episode_rows_by_guid = {}
+    insights_by_episode_id = {}
+    try:
+        with db._get_connection() as conn:
+            # Fetch all podcast_episodes rows for curated rss_guids in one shot.
+            guids = [str(ep.get("rss_guid") or "").strip() for ep in curated_eps if ep.get("rss_guid")]
+            guids = sorted(set([g for g in guids if g]))
+            if guids:
+                # SQLite parameter limit safety not needed for small windows.
+                q_marks = ",".join(["?"] * len(guids))
+                cur = conn.execute(
+                    f"""
+                    SELECT id, rss_guid, podcast_name, episode_title, episode_date,
+                           audio_url, transcript_path, is_processed, added_to_site
+                    FROM podcast_episodes
+                    WHERE rss_guid IN ({q_marks})
+                    """,
+                    guids,
+                )
+                for row in cur.fetchall():
+                    r = dict(row)
+                    episode_rows_by_guid[str(r.get("rss_guid") or "")] = r
+
+                # Fetch insight existence for all matched episode ids.
+                ep_ids = [int(r["id"]) for r in episode_rows_by_guid.values() if r.get("id") is not None]
+                if ep_ids:
+                    q_marks = ",".join(["?"] * len(ep_ids))
+                    cur2 = conn.execute(
+                        f"""
+                        SELECT podcast_episode_id, COUNT(*) as c
+                        FROM latest_insights
+                        WHERE podcast_episode_id IN ({q_marks})
+                        GROUP BY podcast_episode_id
+                        """,
+                        ep_ids,
+                    )
+                    for row2 in cur2.fetchall():
+                        rr = dict(row2)
+                        insights_by_episode_id[int(rr["podcast_episode_id"])] = int(rr["c"] or 0)
+    except Exception as e:
+        print(f"  ⚠ Could not build pipeline_state from DB: {e}")
+
+    def derive_status(downloaded: bool, transcribed: bool, analyzed: bool, insight_created: bool, published: bool) -> str:
+        if not downloaded:
+            return "needs_download"
+        if not transcribed:
+            return "needs_transcription"
+        if not analyzed:
+            return "needs_analysis"
+        if not insight_created:
+            return "needs_insight"
+        if not published:
+            return "needs_export"
+        return "complete"
+
+    def stage_reason_missing(missing_stage: str, has_db_row: bool) -> str:
+        if not has_db_row:
+            return "Not in DB yet (approved, but not pulled into pipeline DB)."
+        # DB row exists; reason depends on stage.
+        mapping = {
+            "downloaded": "audio_url missing (fetch step not reflected in DB yet).",
+            "transcribed": "transcript_path missing (transcribe step not reflected in DB yet).",
+            "analyzed": "is_processed=0 (analysis step not reflected in DB yet).",
+            "insight_created": "No latest_insights row for this episode (insight step not reflected in DB yet).",
+            "published": "added_to_site=0 (export/publish step not reflected in DB yet).",
+        }
+        return mapping.get(missing_stage, "Missing stage.")
+
+    # Build episode objects
+    episodes_out = []
+    stale_threshold_days = 2
+    stale_episodes = []
+
+    def compute_age_days(pub_str: str):
+        tup = _parse_iso_date_prefix(pub_str)
+        if not tup:
+            return None
+        try:
+            from datetime import date
+
+            pub_d = date(tup[0], tup[1], tup[2])
+            return (date.today() - pub_d).days
+        except Exception:
+            return None
+
+    stage_counts = {
+        "downloaded": 0,
+        "transcribed": 0,
+        "analyzed": 0,
+        "insight_created": 0,
+        "published": 0,
+        "total": len(curated_eps),
+    }
+
+    for ep in curated_eps:
+        podcast = ep.get("podcast", "") or ""
+        title = ep.get("title", "") or ""
+        rss_guid = (ep.get("rss_guid") or "").strip()
+        published_str = ep.get("published_date") or ep.get("published") or ""
+        age_days = compute_age_days(published_str)
+
+        pe = episode_rows_by_guid.get(rss_guid) if rss_guid else None
+        has_db_row = bool(pe)
+        podcast_episode_id = int(pe["id"]) if pe and pe.get("id") is not None else None
+
+        audio_url = (pe.get("audio_url") or "") if pe else ""
+        transcript_path = (pe.get("transcript_path") or "") if pe else ""
+        is_processed = bool(pe.get("is_processed")) if pe else False
+        added_to_site = bool(pe.get("added_to_site")) if pe else False
+
+        downloaded = bool(audio_url) or bool(transcript_path)
+        transcribed = bool(transcript_path)
+        analyzed = is_processed
+        insight_created = False
+        if podcast_episode_id is not None:
+            insight_created = bool(insights_by_episode_id.get(podcast_episode_id, 0) > 0)
+        published = added_to_site
+
+        # Stage reasons (deterministic, DB-based)
+        st_reasons = {}
+        if not downloaded:
+            st_reasons["downloaded"] = stage_reason_missing("downloaded", has_db_row)
+        if not transcribed:
+            st_reasons["transcribed"] = stage_reason_missing("transcribed", has_db_row)
+        if not analyzed:
+            st_reasons["analyzed"] = stage_reason_missing("analyzed", has_db_row)
+        if not insight_created:
+            st_reasons["insight_created"] = stage_reason_missing("insight_created", has_db_row)
+        if not published:
+            st_reasons["published"] = stage_reason_missing("published", has_db_row)
+
+        status = derive_status(downloaded, transcribed, analyzed, insight_created, published)
+        ep_key = rss_guid if rss_guid else f"{podcast}_{title[:40]}".replace(" ", "_").lower()
+
+        # Increment stage counts
+        if downloaded:
+            stage_counts["downloaded"] += 1
+        if transcribed:
+            stage_counts["transcribed"] += 1
+        if analyzed:
+            stage_counts["analyzed"] += 1
+        if insight_created:
+            stage_counts["insight_created"] += 1
+        if published:
+            stage_counts["published"] += 1
+
+        episodes_out.append(
+            {
+                "id": ep_key,
+                "podcast": podcast,
+                "title": pe.get("episode_title") if pe and pe.get("episode_title") else title,
+                "published": published_str,
+                "rss_guid": rss_guid,
+                "stages": {
+                    "downloaded": downloaded,
+                    "transcribed": transcribed,
+                    "analyzed": analyzed,
+                    "insight_created": insight_created,
+                    "published": published,
+                },
+                "stage_reasons": st_reasons,
+                "status": status,
+            }
+        )
+
+        if status != "complete" and age_days is not None and age_days >= stale_threshold_days:
+            blocker = next((k for k in ["downloaded", "transcribed", "analyzed", "insight_created", "published"] if not (episodes_out[-1]["stages"].get(k))), "unknown")
+            stale_episodes.append(
+                {
+                    "id": ep_key,
+                    "podcast": podcast,
+                    "title": episodes_out[-1]["title"],
+                    "status": status,
+                    "published": published_str,
+                    "age_days": age_days,
+                    "next_blocker": blocker,
+                }
+            )
+
+    # New on feeds: RSS-only episodes not yet in curation/db pipeline selection.
+    # We preserve existing curate/filter logic (window + feeds list) by using the helper.
+    curated_guid_set = {str(ep.get("rss_guid") or "").strip() for ep in curated_eps if ep.get("rss_guid")}
+    try:
+        from curate import get_feed_episodes_not_in_db
+
+        raw_available = get_feed_episodes_not_in_db()
+        available_from_rss = []
+        for ep in raw_available:
+            g = (ep.get("rss_guid") or "").strip() if isinstance(ep, dict) else ""
+            if g and g in curated_guid_set:
+                continue
+            available_from_rss.append(
+                {
+                    "podcast": ep.get("podcast", ""),
+                    "title": ep.get("title", ""),
+                    "published": ep.get("published", "") or ep.get("published_date", ""),
+                    "published_date": ep.get("published_date", ""),
+                    "rss_guid": ep.get("rss_guid", ""),
+                }
+            )
+    except Exception:
+        available_from_rss = []
+
+    # main-page tie-out and counts (keep dashboard consistent)
+    try:
+        main_content = db.get_main_page_content()
+        main_page = {
+            "overton": len(main_content.get("overton", [])),
+            "insights": len(main_content.get("insights", [])),
+            "pundits": main_content.get("pundits", 0),
+        }
+    except Exception:
+        main_page = {"overton": 0, "insights": 0, "pundits": 0}
+
+    try:
+        counts = db.get_stats()
+    except Exception:
+        counts = {}
+    # Health dashboard expects a "podcasts_analyzed" key for tie-out counts.
+    # This should be a per-day signal (not lifetime totals).
+    try:
+        counts["podcasts_analyzed"] = _count_podcasts_analyzed_today()
+    except Exception:
+        counts["podcasts_analyzed"] = 0
+
+    payload = {
+        "generated_at": generated_at,
+        "last_updated": last_updated,
+        "last_pipeline_run": generated_at,
+        "main_page": main_page,
+        "counts": counts,
+        "step_results": {
+            # stage_counts as integers
+            "downloaded": stage_counts["downloaded"],
+            "transcribed": stage_counts["transcribed"],
+            "analyzed": stage_counts["analyzed"],
+            "insight_created": stage_counts["insight_created"],
+            "published": stage_counts["published"],
+            "total": stage_counts["total"],
+        },
+        "episodes": episodes_out,
+        "available_from_rss": available_from_rss,
+        "stale_episodes": stale_episodes,
+        "stale_threshold_days": stale_threshold_days,
+        "rss_filter_criteria": rss_filter_criteria,
+        "note": "Canonical pipeline_state built from DB rows + curation approvals. Stage completion is deterministic.",
+    }
+
+    site_dir.mkdir(parents=True, exist_ok=True)
+    out_path = site_dir / "pipeline_state.json"
+    with open(out_path, "w", encoding="utf-8") as f:
+        json.dump(payload, f, indent=2, default=str)
+    print(f"  ✓ Exported pipeline_state.json: {len(episodes_out)} tracked · {len(available_from_rss)} rss-only")
 
 
 def _rss_filter_criteria():
