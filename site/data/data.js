@@ -3,8 +3,8 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-03-18T22:07:03.487547",
-  chartsVersion: "2026-03-18T19:45:44.639651",
+  generatedAt: "2026-03-19T03:49:48.781924",
+  chartsVersion: "2026-03-19T03:49:45.820921",
   tickerScores: [
   {
     "ticker": "GOOGL",
@@ -7326,6 +7326,30 @@ const dashboardData = {
 },
   suggestedTerms: [
   {
+    "id": 50,
+    "term": "Democratic Party",
+    "definition": null,
+    "investment_implications": null,
+    "source_type": "auto_extracted",
+    "mention_count": 3,
+    "source_diversity": 2,
+    "relevance_score": 35,
+    "submitted_date": "2026-03-19 03:07:00",
+    "priority_score": 105
+  },
+  {
+    "id": 51,
+    "term": "Federal Reserve",
+    "definition": null,
+    "investment_implications": null,
+    "source_type": "auto_extracted",
+    "mention_count": 3,
+    "source_diversity": 2,
+    "relevance_score": 35,
+    "submitted_date": "2026-03-19 03:07:00",
+    "priority_score": 105
+  },
+  {
     "id": 16,
     "term": "Memory Crunch",
     "definition": "A situation where the demand for memory outpaces supply, leading to potential shortages and increased prices.",
@@ -7348,35 +7372,11 @@ const dashboardData = {
     "relevance_score": 50,
     "submitted_date": "2026-03-14 03:04:09",
     "priority_score": 80
-  },
-  {
-    "id": 18,
-    "term": "Trump Accounts",
-    "definition": "A financial instrument mentioned in the podcast that allows for direct ownership of companies, aiming to democratize capitalism.",
-    "investment_implications": "Investors should consider the potential for such accounts to increase retail investor participation in the market.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-03-14 10:01:17",
-    "priority_score": 80
-  },
-  {
-    "id": 19,
-    "term": "Coding Assistance",
-    "definition": "The use of AI to assist in the development of software code, which can increase efficiency and reduce the need for human engineers.",
-    "investment_implications": "Investors should monitor the growth of AI in enterprise software development as a potential disruptor in the tech industry.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-03-14 10:01:17",
-    "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 471,
+    "id": 479,
     "name": "Senator John Fetterman on Voting Rights",
     "slug": "senator-john-fetterman-on-voting-rights",
     "bio": null,
@@ -7388,7 +7388,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 472,
+    "id": 480,
     "name": "Elon Musk on Moonshots",
     "slug": "elon-musk-on-moonshots",
     "bio": null,
@@ -7400,7 +7400,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 473,
+    "id": 481,
     "name": "Investing in Capitalism",
     "slug": "investing-in-capitalism",
     "bio": null,
@@ -7412,7 +7412,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 474,
+    "id": 482,
     "name": "Harvard Professor Graham Allison",
     "slug": "harvard-professor-graham-allison",
     "bio": null,
@@ -7424,7 +7424,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 475,
+    "id": 483,
     "name": "Andrew Yang",
     "slug": "andrew-yang",
     "bio": "Andrew Yang is an entrepreneur and political leader who popularized universal basic income in U.S. politics through his 2020 presidential campaign.",
@@ -7436,7 +7436,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 476,
+    "id": 484,
     "name": "Ray Dalio",
     "slug": "ray-dalio",
     "bio": "Ray Dalio is the founder of Bridgewater Associates and a macro investor known for his 'Principles' framework and work on long-term debt cycles.",
@@ -7448,7 +7448,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 477,
+    "id": 485,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -7460,7 +7460,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 478,
+    "id": 486,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",

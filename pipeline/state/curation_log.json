@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-03-18T22:01:11.380120",
-  "total_feed_episodes": 7,
-  "approved_for_transcription": 7,
+  "timestamp": "2026-03-19T03:46:16.539885",
+  "total_feed_episodes": 4,
+  "approved_for_transcription": 4,
   "episodes": [
     {
       "podcast": "Moonshots with Peter Diamandis",
@@ -18,19 +18,6 @@
     },
     {
       "podcast": "Monetary Matters with Jack Farley",
-      "title": "\u201cWe\u2019re Just Getting Started\u201d | Bob Elliott on Why The Oil Shock Is Not Fully Priced In To Markets",
-      "description": "\n        <p>Learn More About Unlimited HFGM Global Macro ETF $HFGM: <a href=\"https://unlimitedetfs.com/hfgm\"><u>https://unlimitedetfs.com/hfgm</u></a></p>\n<p><br></p>\n<p>In this episode of Monetary Matters, Jack Farley and Max Wiethe are joined by Bob Elliott, Chief Investment Officer at Unlimited Funds, to discuss the economic fallout of the recent conflict and surging oil prices. Elliott explains that the massive spike in oil prices\u2014which recently topped $110 for Brent and $150 in Oman\u2014will in",
-      "audio_url": "https://traffic.megaphone.fm/EWWMN7309878526.mp3",
-      "published": "Thu, 19 Mar 2026 00:23:00 -0000",
-      "published_date": "2026-03-19",
-      "rss_guid": "169e3044-2325-11f1-826a-13927ba8f9fe",
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/EWWMN7309878526.mp3",
-      "filename": "EWWMN7309878526.mp3",
-      "status": "APPROVED",
-      "matched_keywords": []
-    },
-    {
-      "podcast": "Monetary Matters with Jack Farley",
       "title": "Stock Market on Shaky Foundations | Blind Squirrel Macro\u2019s Rupert Mitchell on IPO Supply, Oil, and Private Credit",
       "description": "\n        <p>Learn more about Teucrium\u2019s Soybean ETF (SOYB) here: <a href=\"https://teucrium.com/soyb\"><u>https://teucrium.com/soyb</u><br></a></p>\n<p>In this episode of Monetary Matters, Jack sits down with Rupert Mitchell of Blind Squirrel Macro to unpack why the foundations of the current US stock market bull run might be crumbling. Mitchell details his transition to a 50% cash and gold portfolio, warning that a looming wave of jumbo IPOs and cracks in the private credit markets could severely ",
       "audio_url": "https://traffic.megaphone.fm/EWWMN5922696172.mp3",
@@ -44,36 +31,12 @@
     },
     {
       "podcast": "The a16z Show",
-      "title": "AI, Supply Chains, and the Future of Economic Power",
-      "description": "<p>Erik Torenberg sits down with Jacob Helberg to discuss AI, manufacturing, supply chains, and the new geopolitics of technology. Drawing on themes from Helberg\u2019s book The Wires of War, they explore why hardware, industrial capacity, and secure supply chains have become central to both economic strength and national security.</p>\n<p>They also unpack what it means to \u201cwin the AI race\u201d \u2014 from model leadership and global adoption to energy, compute, tariffs, and reindustrialization in the U.S.</p>",
-      "audio_url": "https://mgln.ai/e/1344/afp-848985-injected.calisto.simplecastaudio.com/3f86df7b-51c6-4101-88a2-550dba782de8/episodes/c909109d-ee0e-4f17-ae99-622f1fc627f7/audio/128/default.mp3?aid=rss_feed&awCollectionId=3f86df7b-51c6-4101-88a2-550dba782de8&awEpisodeId=c909109d-ee0e-4f17-ae99-622f1fc627f7&feed=JGE3yC0V",
-      "published": "Wed, 18 Mar 2026 10:00:00 +0000",
-      "published_date": "2026-03-18",
-      "rss_guid": "8a933596-ade2-4914-b13e-375c5ac0fa41",
-      "status": "APPROVED",
-      "matched_keywords": []
-    },
-    {
-      "podcast": "The a16z Show",
       "title": "Chris Dixon: From Quant Trading to Building a16z Crypto",
       "description": "<p>In this feed drop from the Internet History Podcast, host Brian McCullough speaks with Chris Dixon, general partner at a16z, about his path from 1980s hobbyist programmer to one of the most prominent venture capitalists in tech. Chris traces his career from quantitative finance to founding SiteAdvisor, cofounding Founder Collective, starting an early machine learning company, and eventually building a16z's crypto practice from the ground up. They also discuss his framework for spotting unconv",
       "audio_url": "https://mgln.ai/e/1344/afp-848985-injected.calisto.simplecastaudio.com/3f86df7b-51c6-4101-88a2-550dba782de8/episodes/570e2e70-58d1-4291-aa63-e4512d6e78cf/audio/128/default.mp3?aid=rss_feed&awCollectionId=3f86df7b-51c6-4101-88a2-550dba782de8&awEpisodeId=570e2e70-58d1-4291-aa63-e4512d6e78cf&feed=JGE3yC0V",
       "published": "Mon, 2 Mar 2026 11:00:00 +0000",
       "published_date": "2026-03-02",
       "rss_guid": "1a7873e6-52cf-493d-a1a1-360a49324923",
-      "status": "APPROVED",
-      "matched_keywords": []
-    },
-    {
-      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "title": "John Fetterman: The Rogue Democrat Who Broke Party Ranks",
-      "description": "<p>(0:00) David Friedberg welcomes Senator John Fetterman; SAVE Act thoughts</p> <p>(1:08) The broken Democratic Party: TDS, what he stands for, why the party changed, losing bipartisanship, popularity with Republicans</p> <p>(11:42) Iran exit strategy, NATO allies bail on the US</p> <p>(17:42) Israel's influence, AIPAC, growing anti-Israel sentiment</p> <p>(20:16) SAVE Act, why he supports voter ID but not this bill, election fraud</p> <p>(26:41) Government shutdown, red lines with ICE and immi",
-      "audio_url": "https://dts.podtrac.com/redirect.mp3/traffic.libsyn.com/secure/allinchamathjason/ALLIN-INTV_Fetterman_Ch.mp3?dest-id=1928300",
-      "published": "Wed, 18 Mar 2026 11:35:00 +0000",
-      "published_date": "2026-03-18",
-      "rss_guid": "32691806-7703-4dd9-aa75-bbd3a19edc14",
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/ALLIN-INTV_Fetterman_Ch.mp3",
-      "filename": "ALLIN-INTV_Fetterman_Ch.mp3",
       "status": "APPROVED",
       "matched_keywords": []
     },
