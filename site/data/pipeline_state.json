@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-03-19T10:26:48.803203",
-  "last_updated": "2026-03-19T10:26:48.803203",
-  "last_pipeline_run": "2026-03-19T10:26:48.803203",
+  "generated_at": "2026-03-19T10:33:38.640415",
+  "last_updated": "2026-03-19T10:33:38.640415",
+  "last_pipeline_run": "2026-03-19T10:33:38.640415",
   "main_page": {
     "overton": 8,
     "insights": 8,
@@ -18,86 +18,59 @@
     "podcasts_analyzed": 0
   },
   "step_results": {
-    "downloaded": 0,
+    "downloaded": 2,
     "transcribed": 0,
     "analyzed": 0,
     "insight_created": 0,
     "published": 0,
-    "total": 4
+    "total": 5
   },
   "episodes": [
     {
-      "id": "e1cac66e-2231-11f1-82c3-c7e649c4b364",
-      "podcast": "Moonshots with Peter Diamandis",
-      "title": "Meta Buys Moltbook, GPT 5.4, and Fruitfly Brain Upload | Moonshots Live at The Abundance Summit 238",
-      "published": "2026-03-17",
-      "rss_guid": "e1cac66e-2231-11f1-82c3-c7e649c4b364",
-      "stages": {
-        "downloaded": false,
-        "transcribed": false,
-        "analyzed": false,
-        "insight_created": false,
-        "published": false
-      },
-      "stage_reasons": {
-        "downloaded": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "transcribed": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "analyzed": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "insight_created": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
-      },
-      "status": "needs_download"
-    },
-    {
-      "id": "e3ce0ba4-22dd-11f1-b3e1-ef93882cc84d",
+      "id": "monetary_matters_with_jack_farley_stock_market_on_shaky_foundati",
       "podcast": "Monetary Matters with Jack Farley",
       "title": "Stock Market on Shaky Foundations | Blind Squirrel Macro\u2019s Rupert Mitchell on IPO Supply, Oil, and Private Credit",
-      "published": "2026-03-18",
-      "rss_guid": "e3ce0ba4-22dd-11f1-b3e1-ef93882cc84d",
+      "published": "Wed, 18 Mar 2026 15:19:00 -0000",
       "stages": {
-        "downloaded": false,
+        "downloaded": true,
         "transcribed": false,
         "analyzed": false,
         "insight_created": false,
         "published": false
       },
       "stage_reasons": {
-        "downloaded": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "transcribed": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "analyzed": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "insight_created": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
+        "transcribed": "Waiting for fetch/transcribe step",
+        "analyzed": "Waiting for next analyze run (transcript \u2192 DB).",
+        "insight_created": "Depends on analyze step first.",
+        "published": "Not in data.js yet (run export and push to site)."
       },
-      "status": "needs_download"
+      "status": "needs_transcription"
     },
     {
-      "id": "1a7873e6-52cf-493d-a1a1-360a49324923",
-      "podcast": "The a16z Show",
-      "title": "Chris Dixon: From Quant Trading to Building a16z Crypto",
-      "published": "2026-03-02",
-      "rss_guid": "1a7873e6-52cf-493d-a1a1-360a49324923",
+      "id": "moonshots_with_peter_diamandis_meta_buys_moltbook,_gpt_5.4,_a",
+      "podcast": "Moonshots with Peter Diamandis",
+      "title": "Meta Buys Moltbook, GPT 5.4, and Fruitfly Brain Upload | Moonshots Live at The Abundance Summit 238",
+      "published": "Tue, 17 Mar 2026 21:22:00 -0000",
       "stages": {
-        "downloaded": false,
+        "downloaded": true,
         "transcribed": false,
         "analyzed": false,
         "insight_created": false,
         "published": false
       },
       "stage_reasons": {
-        "downloaded": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "transcribed": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "analyzed": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "insight_created": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
+        "transcribed": "Waiting for fetch/transcribe step",
+        "analyzed": "Waiting for next analyze run (transcript \u2192 DB).",
+        "insight_created": "Depends on analyze step first.",
+        "published": "Not in data.js yet (run export and push to site)."
       },
-      "status": "needs_download"
+      "status": "needs_transcription"
     },
     {
-      "id": "substack:post:190118311",
+      "id": "dwarkesh_podcast_why_leonardo_was_a_saboteur,_g",
       "podcast": "Dwarkesh Podcast",
       "title": "Why Leonardo was a saboteur, Gutenberg went broke, and Florence was weird \u2013 Ada Palmer",
-      "published": "2026-03-06",
-      "rss_guid": "substack:post:190118311",
+      "published": "Fri, 06 Mar 2026 17:14:20 GMT",
       "stages": {
         "downloaded": false,
         "transcribed": false,
@@ -106,11 +79,53 @@
         "published": false
       },
       "stage_reasons": {
-        "downloaded": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "transcribed": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "analyzed": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "insight_created": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
+        "downloaded": "Audio file missing or not found",
+        "transcribed": "No transcript until audio is downloaded.",
+        "analyzed": "Waiting for next analyze run (transcript \u2192 DB).",
+        "insight_created": "Depends on analyze step first.",
+        "published": "Not in data.js yet (run export and push to site)."
+      },
+      "status": "needs_download"
+    },
+    {
+      "id": "the_a16z_show_chris_dixon:_from_quant_tradin",
+      "podcast": "The a16z Show",
+      "title": "Chris Dixon: From Quant Trading to Building a16z Crypto",
+      "published": "Mon, 2 Mar 2026 11:00:00 +0000",
+      "stages": {
+        "downloaded": false,
+        "transcribed": false,
+        "analyzed": false,
+        "insight_created": false,
+        "published": false
+      },
+      "stage_reasons": {
+        "downloaded": "Audio file missing or not found",
+        "transcribed": "No transcript until audio is downloaded.",
+        "analyzed": "Waiting for next analyze run (transcript \u2192 DB).",
+        "insight_created": "Depends on analyze step first.",
+        "published": "Not in data.js yet (run export and push to site)."
+      },
+      "status": "needs_download"
+    },
+    {
+      "id": "rss::the a16z show::ai just gave you superpowers \u2014 now what?",
+      "podcast": "The a16z Show",
+      "title": "AI Just Gave You Superpowers \u2014 Now What?",
+      "published": "Thu, 19 Mar 2026 10:00:00 +0000",
+      "stages": {
+        "downloaded": false,
+        "transcribed": false,
+        "analyzed": false,
+        "insight_created": false,
+        "published": false
+      },
+      "stage_reasons": {
+        "downloaded": "Discovered on RSS feed; not yet pulled into curation/pipeline state.",
+        "transcribed": "Waiting for download first.",
+        "analyzed": "Waiting for transcript first.",
+        "insight_created": "Depends on analyze step first.",
+        "published": "Not on site until export after analysis and insight promotion."
       },
       "status": "needs_download"
     }
@@ -120,57 +135,35 @@
       "podcast": "The a16z Show",
       "title": "AI Just Gave You Superpowers \u2014 Now What?",
       "published": "Thu, 19 Mar 2026 10:00:00 +0000",
-      "published_date": "2026-03-19",
-      "rss_guid": ""
-    },
-    {
-      "podcast": "Monetary Matters with Jack Farley",
-      "title": "Stock Market on Shaky Foundations | Blind Squirrel Macro\u2019s Rupert Mitchell on IPO Supply, Oil, and Private Credit",
-      "published": "Wed, 18 Mar 2026 15:19:00 -0000",
-      "published_date": "2026-03-18",
-      "rss_guid": ""
-    },
-    {
-      "podcast": "Moonshots with Peter Diamandis",
-      "title": "Meta Buys Moltbook, GPT 5.4, and Fruitfly Brain Upload | Moonshots Live at The Abundance Summit 238",
-      "published": "Tue, 17 Mar 2026 21:22:00 -0000",
-      "published_date": "2026-03-17",
-      "rss_guid": ""
-    },
-    {
-      "podcast": "Dwarkesh Podcast",
-      "title": "Why Leonardo was a saboteur, Gutenberg went broke, and Florence was weird \u2013 Ada Palmer",
-      "published": "Fri, 06 Mar 2026 17:14:20 GMT",
-      "published_date": "2026-03-06",
-      "rss_guid": ""
+      "published_date": "2026-03-19"
     }
   ],
   "stale_episodes": [
     {
-      "id": "e1cac66e-2231-11f1-82c3-c7e649c4b364",
+      "id": "moonshots_with_peter_diamandis_meta_buys_moltbook,_gpt_5.4,_a",
       "podcast": "Moonshots with Peter Diamandis",
       "title": "Meta Buys Moltbook, GPT 5.4, and Fruitfly Brain Upload | Moonshots Live at The Abundance Summit 238",
-      "status": "needs_download",
-      "published": "2026-03-17",
+      "status": "needs_transcription",
+      "published": "Tue, 17 Mar 2026 21:22:00 -0000",
       "age_days": 2,
-      "next_blocker": "downloaded"
+      "next_blocker": "transcribed"
     },
     {
-      "id": "1a7873e6-52cf-493d-a1a1-360a49324923",
-      "podcast": "The a16z Show",
-      "title": "Chris Dixon: From Quant Trading to Building a16z Crypto",
-      "status": "needs_download",
-      "published": "2026-03-02",
-      "age_days": 17,
-      "next_blocker": "downloaded"
-    },
-    {
-      "id": "substack:post:190118311",
+      "id": "dwarkesh_podcast_why_leonardo_was_a_saboteur,_g",
       "podcast": "Dwarkesh Podcast",
       "title": "Why Leonardo was a saboteur, Gutenberg went broke, and Florence was weird \u2013 Ada Palmer",
       "status": "needs_download",
-      "published": "2026-03-06",
+      "published": "Fri, 06 Mar 2026 17:14:20 GMT",
       "age_days": 13,
+      "next_blocker": "downloaded"
+    },
+    {
+      "id": "the_a16z_show_chris_dixon:_from_quant_tradin",
+      "podcast": "The a16z Show",
+      "title": "Chris Dixon: From Quant Trading to Building a16z Crypto",
+      "status": "needs_download",
+      "published": "Mon, 2 Mar 2026 11:00:00 +0000",
+      "age_days": 17,
       "next_blocker": "downloaded"
     }
   ],
@@ -181,5 +174,5 @@
     "feeds": "podcast_feeds.txt; episodes already in DB (by rss_guid) are skipped.",
     "window": "Current calendar month only (forward-looking; no backfill of prior months)."
   },
-  "note": "Canonical pipeline_state built from DB rows + curation approvals. Stage completion is deterministic."
+  "note": "Episodes from curation (approved). Pipeline: curate \u2192 fetch \u2192 analyze \u2192 export. RSS list = live on feeds, not in DB yet."
 }

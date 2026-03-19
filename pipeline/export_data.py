@@ -129,6 +129,67 @@ def _export_pipeline_state(site_dir: Path):
     generated_at = datetime.now().isoformat()
     last_updated = generated_at
 
+    # Fast path: build pipeline_state directly from the already-exported episode_status.
+    # This guarantees stage parity with the deterministic stage evaluation that powers
+    # the existing Pipeline Health tables.
+    ep_status_path = site_dir / "episode_status.json"
+    try:
+        if ep_status_path.exists():
+            raw_state = json.loads(ep_status_path.read_text(encoding="utf-8"))
+            episodes_out = raw_state.get("episodes") or []
+            available_from_rss = raw_state.get("available_from_rss") or []
+            stale_episodes = raw_state.get("stale_episodes") or []
+            rss_filter_criteria = raw_state.get("rss_filter_criteria") or rss_filter_criteria
+
+            stage_counts = {
+                "downloaded": sum(1 for e in episodes_out if (e.get("stages") or {}).get("downloaded")),
+                "transcribed": sum(1 for e in episodes_out if (e.get("stages") or {}).get("transcribed")),
+                "analyzed": sum(1 for e in episodes_out if (e.get("stages") or {}).get("analyzed")),
+                "insight_created": sum(1 for e in episodes_out if (e.get("stages") or {}).get("insight_created")),
+                "published": sum(1 for e in episodes_out if (e.get("stages") or {}).get("published")),
+                "total": len(episodes_out),
+            }
+
+            db = get_db()
+            main_content = db.get_main_page_content()
+            main_page = {
+                "overton": len(main_content.get("overton", [])),
+                "insights": len(main_content.get("insights", [])),
+                "pundits": main_content.get("pundits", 0),
+            }
+            counts = db.get_stats()
+            counts["podcasts_analyzed"] = _count_podcasts_analyzed_today()
+
+            payload = {
+                "generated_at": generated_at,
+                "last_updated": last_updated,
+                "last_pipeline_run": generated_at,
+                "main_page": main_page,
+                "counts": counts,
+                "step_results": {
+                    "downloaded": stage_counts["downloaded"],
+                    "transcribed": stage_counts["transcribed"],
+                    "analyzed": stage_counts["analyzed"],
+                    "insight_created": stage_counts["insight_created"],
+                    "published": stage_counts["published"],
+                    "total": stage_counts["total"],
+                },
+                "episodes": episodes_out,
+                "available_from_rss": available_from_rss,
+                "stale_episodes": stale_episodes,
+                "stale_threshold_days": raw_state.get("stale_threshold_days", 2),
+                "rss_filter_criteria": rss_filter_criteria,
+                "note": raw_state.get("note") or "Canonical pipeline_state built from episode_status.",
+            }
+
+            out_path = site_dir / "pipeline_state.json"
+            with open(out_path, "w", encoding="utf-8") as f:
+                json.dump(payload, f, indent=2, default=str)
+            print(f"  ✓ Exported pipeline_state.json (from episode_status): {len(episodes_out)} tracked")
+            return
+    except Exception as e:
+        print(f"  ⚠ Could not derive pipeline_state from episode_status (fallback to DB-based): {e}")
+
     # Load curated approvals (episodes Clawbot should be processing).
     curated_eps = []
     if curated_path.exists():
