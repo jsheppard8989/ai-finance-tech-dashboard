@@ -248,6 +248,8 @@ def generate_speeches(
 
 Rules:
 - Start each speech with only the speaker's first line as their name plus period, e.g. "Sam." then blank line, then body. Use the exact names given.
+- The first sentence of YES body must begin with "The long of it".
+- The first sentence of NO body must begin with "The short of it".
 - Three substantive paragraphs (or sections) plus a short "Concession." paragraph.
 - Argue the CRUX of the issue (e.g. real economic force vs narrative). Do NOT nitpick the contract wording or hide behind legal parsing.
 - Do NOT repeat or quote the full Yes/No question; the listener already heard it from the host.

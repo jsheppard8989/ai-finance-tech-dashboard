@@ -22,7 +22,7 @@ import os
 import sys
 import textwrap
 from datetime import datetime
-from typing import Optional
+from typing import Optional, Tuple
 
 try:
     import requests  # type: ignore
@@ -101,6 +101,92 @@ def call_grok_for_bio(name: str) -> Optional[dict]:
         return None
 
 
+def _wikidata_search_entity_id(name: str) -> Optional[str]:
+    """Find likely Wikidata entity id for a person name."""
+    if not requests:
+        return None
+    try:
+        resp = requests.get(
+            "https://www.wikidata.org/w/api.php",
+            params={
+                "action": "wbsearchentities",
+                "format": "json",
+                "language": "en",
+                "type": "item",
+                "search": name,
+                "limit": 5,
+            },
+            timeout=20,
+        )
+        resp.raise_for_status()
+        data = resp.json()
+        results = data.get("search", []) or []
+        if not results:
+            return None
+        # Prefer obvious human profiles first.
+        for r in results:
+            desc = (r.get("description") or "").lower()
+            if any(k in desc for k in ["entrepreneur", "investor", "business", "american", "ceo", "founder"]):
+                return r.get("id")
+        return results[0].get("id")
+    except Exception:
+        return None
+
+
+def _wikidata_net_worth_usd(entity_id: str) -> Tuple[Optional[float], Optional[str]]:
+    """
+    Read net worth from Wikidata property P2218.
+    Returns (usd_value, source_url).
+    """
+    if not requests or not entity_id:
+        return None, None
+    try:
+        resp = requests.get(
+            "https://www.wikidata.org/w/api.php",
+            params={
+                "action": "wbgetentities",
+                "format": "json",
+                "ids": entity_id,
+                "languages": "en",
+            },
+            timeout=20,
+        )
+        resp.raise_for_status()
+        data = resp.json()
+        ent = ((data.get("entities") or {}).get(entity_id) or {})
+        claims = ent.get("claims") or {}
+        networth_claims = claims.get("P2218") or []
+        if not networth_claims:
+            return None, f"https://www.wikidata.org/wiki/{entity_id}"
+
+        best_amount = None
+        for c in networth_claims:
+            dv = (((c.get("mainsnak") or {}).get("datavalue") or {}).get("value") or {})
+            amount_raw = dv.get("amount")
+            unit = dv.get("unit") or ""
+            if not amount_raw:
+                continue
+            try:
+                amount = abs(float(str(amount_raw)))
+            except Exception:
+                continue
+            # P2218 is often in USD; unit Q4917 means US dollar.
+            if unit and "Q4917" in unit:
+                if best_amount is None or amount > best_amount:
+                    best_amount = amount
+        return best_amount, f"https://www.wikidata.org/wiki/{entity_id}"
+    except Exception:
+        return None, None
+
+
+def fetch_net_worth_from_web(name: str) -> Tuple[Optional[float], Optional[str]]:
+    """Best-effort structured net worth lookup from public web data (Wikidata)."""
+    entity_id = _wikidata_search_entity_id(name)
+    if not entity_id:
+        return None, None
+    return _wikidata_net_worth_usd(entity_id)
+
+
 def enrich_pundits(max_pundits: int = 20) -> int:
     """
     Fetch Pundits from the semantic layer and enrich missing/short bios/known_for fields.
@@ -112,7 +198,7 @@ def enrich_pundits(max_pundits: int = 20) -> int:
     with db._get_connection() as conn:  # type: ignore[attr-defined]
         cursor = conn.execute(
             """
-            SELECT id, name, bio, known_for
+            SELECT id, name, bio, known_for, net_worth_usd, net_worth_source
             FROM entities
             WHERE type = 'person'
             ORDER BY updated_at DESC
@@ -127,29 +213,58 @@ def enrich_pundits(max_pundits: int = 20) -> int:
             name = (row["name"] or "").strip()
             bio = (row["bio"] or "").strip()
             known_for = (row["known_for"] or "").strip()
+            net_worth_usd = row["net_worth_usd"]
+            net_worth_source = (row["net_worth_source"] or "").strip()
 
-            # Only enrich if both are missing or extremely short
-            if len(bio) >= 40 and len(known_for) >= 20:
+            need_profile = not (len(bio) >= 40 and len(known_for) >= 20)
+            need_net_worth = not (isinstance(net_worth_usd, (int, float)) and net_worth_usd > 0 and net_worth_source)
+
+            info = None
+            if need_profile:
+                info = call_grok_for_bio(name)
+
+            new_bio = (info or {}).get("bio") or bio
+            new_known_for = (info or {}).get("known_for") or known_for
+            new_net_worth = net_worth_usd
+            new_net_source = net_worth_source
+            new_net_updated = None
+
+            if need_net_worth:
+                nw, src = fetch_net_worth_from_web(name)
+                if isinstance(nw, (int, float)) and nw > 0:
+                    new_net_worth = float(nw)
+                    new_net_source = src or "wikidata"
+                    new_net_updated = datetime.now().isoformat()
+
+            # Skip if nothing changed.
+            if (
+                new_bio == bio
+                and new_known_for == known_for
+                and (new_net_worth == net_worth_usd or (new_net_worth is None and net_worth_usd is None))
+                and new_net_source == net_worth_source
+            ):
                 continue
-
-            info = call_grok_for_bio(name)
-            if not info:
-                continue
-
-            new_bio = info.get("bio") or bio
-            new_known_for = info.get("known_for") or known_for
 
             conn.execute(
                 """
                 UPDATE entities
-                SET bio = ?, known_for = ?, updated_at = ?
+                SET bio = ?, known_for = ?, net_worth_usd = ?, net_worth_source = ?,
+                    net_worth_updated_at = COALESCE(?, net_worth_updated_at), updated_at = ?
                 WHERE id = ?
                 """,
-                (new_bio, new_known_for, datetime.now().isoformat(), ent_id),
+                (
+                    new_bio,
+                    new_known_for,
+                    new_net_worth,
+                    new_net_source,
+                    new_net_updated,
+                    datetime.now().isoformat(),
+                    ent_id,
+                ),
             )
             updated += 1
 
-    print(f"✓ Enriched {updated} pundit(s) with Grok/Grokopedia bios")
+    print(f"✓ Enriched {updated} pundit(s) with profile/net-worth data")
     return updated
 
 

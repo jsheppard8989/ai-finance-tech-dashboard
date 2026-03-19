@@ -3,7 +3,7 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-03-19T04:23:19.669019",
+  generatedAt: "2026-03-19T08:29:05.075824",
   chartsVersion: "2026-03-19T04:23:16.765044",
   tickerScores: [
   {
@@ -669,29 +669,6 @@ const dashboardData = {
 ],
   archive: {
   "insights": [
-    {
-      "id": 87,
-      "title": "The AI CEO Arrives: Sam Altman's Succession Plan, Job Loss Continues, and Our 2027 'Solve Everything' Paper",
-      "source_type": "podcast",
-      "source_name": "Moonshots with Peter Diamandis",
-      "source_date": "2027-01-01",
-      "summary": "In this episode of 'Moonshots with Peter Diamandis', the panel discusses the increasing role of AI in corporate governance and the potential for AI CEOs. They also touch on the rapid job displacement due to automation and the implications for the social contract. The second half of the episode is dedicated to unveiling a paper titled 'Solve Everything', which outlines a vision for achieving abundance by 2035. The discussion covers the acceleration of AI in business strategy and decision-making, suggesting that AI could soon be capable of running significant economic engines.",
-      "key_takeaway": "Invest in AI and automation technologies that are driving the shift towards AI governance and efficiency in business operations.",
-      "tickers_mentioned": [
-        "AAPL",
-        "NVDA",
-        "GOOGL",
-        "MSFT",
-        "TSLA"
-      ],
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-03-16",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 70
-    },
     {
       "id": 93,
       "title": "Monetary Matters with Jack Farley: Oil Shocks, Inflation, and Market Reactions",
@@ -1792,6 +1769,29 @@ const dashboardData = {
       "podcast_episode_id": 69
     },
     {
+      "id": 87,
+      "title": "The AI CEO Arrives: Sam Altman's Succession Plan, Job Loss Continues, and Our 2027 'Solve Everything' Paper",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-02-17",
+      "summary": "In this episode of 'Moonshots with Peter Diamandis', the panel discusses the increasing role of AI in corporate governance and the potential for AI CEOs. They also touch on the rapid job displacement due to automation and the implications for the social contract. The second half of the episode is dedicated to unveiling a paper titled 'Solve Everything', which outlines a vision for achieving abundance by 2035. The discussion covers the acceleration of AI in business strategy and decision-making, suggesting that AI could soon be capable of running significant economic engines.",
+      "key_takeaway": "Invest in AI and automation technologies that are driving the shift towards AI governance and efficiency in business operations.",
+      "tickers_mentioned": [
+        "AAPL",
+        "NVDA",
+        "GOOGL",
+        "MSFT",
+        "TSLA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-16",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 70
+    },
+    {
       "id": 1,
       "title": "SpaceX/xAI $1.25T Super-Entity",
       "source_type": "podcast",
@@ -2368,26 +2368,6 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
-      "id": 87,
-      "title": "The AI CEO Arrives: Sam Altman's Succession Plan, Job Loss Continues, and Our 2027 'Solve Everything' Paper",
-      "source_type": "podcast",
-      "source_name": "Moonshots with Peter Diamandis",
-      "source_date": "2027-01-01",
-      "summary": "In this episode of 'Moonshots with Peter Diamandis', the panel discusses the increasing role of AI in corporate governance and the potential for AI CEOs. They also touch on the rapid job displacement due to automation and the implications for the social contract. The second half of the episode is dedicated to unveiling a paper titled 'Solve Everything', which outlines a vision for achieving abundance by 2035. The discussion covers the acceleration of AI in business strategy and decision-making, suggesting that AI could soon be capable of running significant economic engines.",
-      "key_takeaway": "Invest in AI and automation technologies that are driving the shift towards AI governance and efficiency in business operations.",
-      "tickers_mentioned": "[\"AAPL\", \"NVDA\", \"GOOGL\", \"MSFT\", \"TSLA\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-03-16",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 70,
-      "episode_release_date": "2027-01-01",
-      "guest_name": null,
-      "key_tickers": []
-    },
-    {
       "id": 93,
       "title": "Monetary Matters with Jack Farley: Oil Shocks, Inflation, and Market Reactions",
       "source_type": "podcast",
@@ -2532,6 +2512,26 @@ const dashboardData = {
       "key_tickers": [
         "TSLA"
       ]
+    },
+    {
+      "id": 87,
+      "title": "The AI CEO Arrives: Sam Altman's Succession Plan, Job Loss Continues, and Our 2027 'Solve Everything' Paper",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-02-17",
+      "summary": "In this episode of 'Moonshots with Peter Diamandis', the panel discusses the increasing role of AI in corporate governance and the potential for AI CEOs. They also touch on the rapid job displacement due to automation and the implications for the social contract. The second half of the episode is dedicated to unveiling a paper titled 'Solve Everything', which outlines a vision for achieving abundance by 2035. The discussion covers the acceleration of AI in business strategy and decision-making, suggesting that AI could soon be capable of running significant economic engines.",
+      "key_takeaway": "Invest in AI and automation technologies that are driving the shift towards AI governance and efficiency in business operations.",
+      "tickers_mentioned": "[\"AAPL\", \"NVDA\", \"GOOGL\", \"MSFT\", \"TSLA\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-16",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 70,
+      "episode_release_date": "2026-02-17",
+      "guest_name": null,
+      "key_tickers": []
     }
   ],
   "definitions": [
@@ -6772,7 +6772,7 @@ const dashboardData = {
     "updated_at": "2026-03-17 03:05:18",
     "insight_title": "The AI CEO Arrives: Sam Altman's Succession Plan, Job Loss Continues, and Our 2027 'Solve Everything' Paper",
     "source_name": "Moonshots with Peter Diamandis",
-    "source_date": "2027-01-01",
+    "source_date": "2026-02-17",
     "key_tickers": []
   },
   "88": {
@@ -7554,7 +7554,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Investing in companies and technologies that are advancing the understanding and capabilities of LLMs could be a pathway to participate in the development of AGI."
   },
   {
@@ -7568,7 +7568,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Invest in companies that are digitizing the physical world and transforming traditional industries through technology."
   },
   {
@@ -7582,7 +7582,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Invest in companies that are digitizing the physical world and transforming traditional industries through technology."
   },
   {
@@ -7594,7 +7594,7 @@ const dashboardData = {
     "last_seen": "2026-03-17 03:03:31",
     "last_episode_title": "The AI CEO Arrives: Sam Altman's Succession Plan, Job Loss Continues, and Our 2027 'Solve Everything' Paper",
     "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2027-01-01",
+    "last_episode_date": "2026-02-17",
     "mention_score": 1,
     "mention_score_decayed": 0.95,
     "last_main_idea": "Invest in AI and automation technologies that are driving the shift towards AI governance and efficiency in business operations."
@@ -7624,7 +7624,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-16",
     "mention_score": 2,
-    "mention_score_decayed": 1.91,
+    "mention_score_decayed": 1.87,
     "last_main_idea": "Invest in AI startups that focus on specific niches and use cases, as they can compete effectively against larger AI companies by capitalizing on the gaps between platforms."
   },
   {
@@ -7638,7 +7638,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Invest in technology-driven businesses with a strong founder's mindset that focus on building and scaling rather than introspection, as they are more likely to shape the future and create significant value."
   },
   {
@@ -7652,7 +7652,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Invest in platinum as a hybrid precious and industrial metal with potential for growth outside of traditional economic cycles, and consider the impact of AI on productivity and government deficits on interest rates."
   },
   {
@@ -7666,7 +7666,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "Invest in technologies and platforms that democratize capitalism and leverage AI to create scalable solutions in coding and product development."
   },
   {

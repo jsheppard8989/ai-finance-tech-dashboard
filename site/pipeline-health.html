@@ -153,6 +153,16 @@
       <p id="available-rss-empty" class="muted" style="display: none; margin-top: 0.25rem;">None. All feed episodes in the window are already in the pipeline or on Main.</p>
       <p id="episode-note" class="muted" style="margin-top: 0.5rem; font-size: 0.8rem;"></p>
       <p id="pipeline-health-check" class="muted" style="margin-top: 0.5rem; font-size: 0.85rem;"></p>
+      <div id="stale-wrap" style="display:none; margin-top:0.75rem;">
+        <h3 style="font-size: 0.95rem; color: #f59e0b; margin: 0 0 0.35rem;">Stuck episodes (no movement)</h3>
+        <p class="muted" style="font-size: 0.8rem; margin-bottom: 0.35rem;">These have been incomplete beyond the stale threshold and likely need manual intervention.</p>
+        <table id="stale-table">
+          <thead>
+            <tr><th>Podcast</th><th>Title</th><th>Age (days)</th><th>Blocker</th><th>Status</th></tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
     </div>
 
     <div id="stage-reason-modal" onclick="if(event.target===this) closeStageReasonModal()">
@@ -368,11 +378,13 @@
         const st = ep.stages || {};
         return stageKeys.every(function(k) { return !!st[k]; });
       }).length;
+      const inPipelineTracked = episodes.filter(function(ep) { return !(ep.id || '').startsWith('rss::'); });
+      const feedPlaceholders = episodes.length - inPipelineTracked.length;
 
       const episodeSummaryEl = document.getElementById('episode-summary');
       episodeSummaryEl.textContent = episodes.length === 0 && availableRss.length === 0
         ? 'No episodes in pipeline yet. Run curate → fetch so approved episodes appear here.'
-        : (episodes.length + ' in pipeline · ' + completedCount + ' completed · ' + availableRss.length + ' available from RSS (not processed). Status: ' + (episodeStatus.last_updated ? formatDate(episodeStatus.last_updated) : '—'));
+        : (inPipelineTracked.length + ' in pipeline · ' + completedCount + ' completed · ' + availableRss.length + ' available from RSS (not processed)' + (feedPlaceholders > 0 ? ' · ' + feedPlaceholders + ' feed placeholders in stage table' : '') + '. Status: ' + (episodeStatus.last_updated ? formatDate(episodeStatus.last_updated) : '—'));
       document.getElementById('episode-note').textContent = episodeStatus.note || '';
 
       const healthEl = document.getElementById('pipeline-health-check');
@@ -384,9 +396,29 @@
         healthEl.textContent = '⬜ Pipeline has work remaining: use the stage checkmarks above and the legend to decide the next step for Clawbot.';
       }
 
+      // Stale episode panel
+      const stale = episodeStatus.stale_episodes || [];
+      const staleWrap = document.getElementById('stale-wrap');
+      const staleBody = document.getElementById('stale-table').querySelector('tbody');
+      staleBody.innerHTML = '';
+      if (stale.length) {
+        staleWrap.style.display = 'block';
+        stale.forEach(function(ep) {
+          const tr = document.createElement('tr');
+          tr.innerHTML = '<td>' + (ep.podcast || '').substring(0, 28) + '</td>'
+            + '<td>' + (ep.title || '').substring(0, 52) + '</td>'
+            + '<td>' + (ep.age_days == null ? '—' : ep.age_days) + '</td>'
+            + '<td>' + (ep.next_blocker || 'unknown') + '</td>'
+            + '<td>' + (ep.status || 'unknown') + '</td>';
+          staleBody.appendChild(tr);
+        });
+      } else {
+        staleWrap.style.display = 'none';
+      }
+
       const counts = report?.counts || { ...(status?.counts || {}), ...(status?.last_steps || {}) };
       const countsOrder = ['podcast_episodes', 'podcasts_analyzed', 'latest_insights_total', 'overton_terms_total', 'ticker_mentions', 'pundits', 'newsletters', 'daily_scores'];
-      const countLabels = { podcast_episodes: 'Podcast episodes', podcasts_analyzed: 'Podcasts (exported)', latest_insights_total: 'Latest insights', overton_terms_total: 'Overton terms', ticker_mentions: 'Ticker mentions', pundits: 'Pundits', newsletters: 'Newsletters', daily_scores: 'Daily scores' };
+      const countLabels = { podcast_episodes: 'Podcast episodes', podcasts_analyzed: 'Podcasts analyzed today', latest_insights_total: 'Latest insights', overton_terms_total: 'Overton terms', ticker_mentions: 'Ticker mentions', pundits: 'Pundits', newsletters: 'Newsletters', daily_scores: 'Daily scores' };
       const tbodyCounts = document.getElementById('counts-table').querySelector('tbody');
       tbodyCounts.innerHTML = '';
       for (const k of countsOrder) {

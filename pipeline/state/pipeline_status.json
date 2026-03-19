@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-03-16T15:34:08.650443",
+  "last_updated": "2026-03-19T08:29:03.086941",
   "episodes": {
-    "the_a16z_show_chris_dixon:_from_quant_tradin": {
+    "moonshots_with_peter_diamandis_meta_buys_moltbook,_gpt_5.4,_a": {
       "info": {
-        "podcast": "The a16z Show",
-        "title": "Chris Dixon: From Quant Trading to Building a16z Crypto",
-        "published": "Mon, 2 Mar 2026 11:00:00 +0000",
-        "audio_file": "",
+        "podcast": "Moonshots with Peter Diamandis",
+        "title": "Meta Buys Moltbook, GPT 5.4, and Fruitfly Brain Upload | Moonshots Live at The Abundance Summit 238",
+        "published": "Tue, 17 Mar 2026 21:22:00 -0000",
+        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/moonshots_with_peter_diamandis_meta_buys_moltbook__gpt_5_4__and_fruitfly_brain_upload___moo_609f0b8d.mp3",
         "keywords": [],
-        "rss_guid": "1a7873e6-52cf-493d-a1a1-360a49324923"
+        "rss_guid": "e1cac66e-2231-11f1-82c3-c7e649c4b364"
       },
       "stages": {
         "downloaded": {
@@ -17,10 +17,10 @@
           "reason": null
         },
         "transcribed": {
-          "complete": true,
-          "file": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/DVVTS4101423217.txt",
+          "complete": false,
+          "file": null,
           "timestamp": null,
-          "reason": null
+          "reason": "Waiting for fetch/transcribe step"
         },
         "analyzed": {
           "complete": false,
@@ -39,8 +39,90 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-16T15:34:08.631596",
-      "status": "needs_analysis"
+      "first_seen": "2026-03-19T08:29:03.037554",
+      "status": "needs_transcription"
+    },
+    "monetary_matters_with_jack_farley_stock_market_on_shaky_foundati": {
+      "info": {
+        "podcast": "Monetary Matters with Jack Farley",
+        "title": "Stock Market on Shaky Foundations | Blind Squirrel Macro\u2019s Rupert Mitchell on IPO Supply, Oil, and Private Credit",
+        "published": "Wed, 18 Mar 2026 15:19:00 -0000",
+        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/monetary_matters_with_jack_farley_stock_market_on_shaky_foundations___blind_squirrel_macro_s_r_12c3cce4.mp3",
+        "keywords": [],
+        "rss_guid": "e3ce0ba4-22dd-11f1-b3e1-ef93882cc84d"
+      },
+      "stages": {
+        "downloaded": {
+          "complete": true,
+          "timestamp": null,
+          "reason": null
+        },
+        "transcribed": {
+          "complete": false,
+          "file": null,
+          "timestamp": null,
+          "reason": "Waiting for fetch/transcribe step"
+        },
+        "analyzed": {
+          "complete": false,
+          "episode_id": null,
+          "timestamp": null,
+          "reason": "Waiting for next analyze run (transcript \u2192 DB)."
+        },
+        "insight_created": {
+          "complete": false,
+          "timestamp": null,
+          "reason": "Depends on analyze step first."
+        },
+        "published": {
+          "complete": false,
+          "timestamp": null,
+          "reason": "Not in data.js yet (run export and push to site)."
+        }
+      },
+      "first_seen": "2026-03-19T08:29:03.061462",
+      "status": "needs_transcription"
+    },
+    "the_a16z_show_chris_dixon:_from_quant_tradin": {
+      "info": {
+        "podcast": "The a16z Show",
+        "title": "Chris Dixon: From Quant Trading to Building a16z Crypto",
+        "published": "Mon, 2 Mar 2026 11:00:00 +0000",
+        "audio_file": "",
+        "keywords": [],
+        "rss_guid": "1a7873e6-52cf-493d-a1a1-360a49324923"
+      },
+      "stages": {
+        "downloaded": {
+          "complete": false,
+          "timestamp": null,
+          "reason": "Audio file missing or not found"
+        },
+        "transcribed": {
+          "complete": false,
+          "file": null,
+          "timestamp": null,
+          "reason": "No transcript until audio is downloaded."
+        },
+        "analyzed": {
+          "complete": false,
+          "episode_id": null,
+          "timestamp": null,
+          "reason": "Waiting for next analyze run (transcript \u2192 DB)."
+        },
+        "insight_created": {
+          "complete": false,
+          "timestamp": null,
+          "reason": "Depends on analyze step first."
+        },
+        "published": {
+          "complete": false,
+          "timestamp": null,
+          "reason": "Not in data.js yet (run export and push to site)."
+        }
+      },
+      "first_seen": "2026-03-19T08:29:03.070490",
+      "status": "needs_download"
     },
     "dwarkesh_podcast_why_leonardo_was_a_saboteur,_g": {
       "info": {
@@ -53,15 +135,15 @@
       },
       "stages": {
         "downloaded": {
-          "complete": true,
+          "complete": false,
           "timestamp": null,
-          "reason": null
+          "reason": "Audio file missing or not found"
         },
         "transcribed": {
-          "complete": true,
-          "file": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/DVVTS4101423217.txt",
+          "complete": false,
+          "file": null,
           "timestamp": null,
-          "reason": null
+          "reason": "No transcript until audio is downloaded."
         },
         "analyzed": {
           "complete": false,
@@ -80,8 +162,8 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-16T15:34:08.647986",
-      "status": "needs_analysis"
+      "first_seen": "2026-03-19T08:29:03.078480",
+      "status": "needs_download"
     }
   }
 }

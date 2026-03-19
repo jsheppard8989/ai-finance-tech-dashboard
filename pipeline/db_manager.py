@@ -118,12 +118,25 @@ class DashboardDB:
                     slug TEXT UNIQUE,
                     bio TEXT,
                     known_for TEXT,
+                    net_worth_usd REAL,
+                    net_worth_source TEXT,
+                    net_worth_updated_at TIMESTAMP,
                     source_url TEXT,
                     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
                     updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
                 )
             """)
             conn.execute("CREATE INDEX IF NOT EXISTS idx_entities_name ON entities(LOWER(name))")
+            # Backfill columns for existing DBs
+            for col_sql in [
+                "ALTER TABLE entities ADD COLUMN net_worth_usd REAL",
+                "ALTER TABLE entities ADD COLUMN net_worth_source TEXT",
+                "ALTER TABLE entities ADD COLUMN net_worth_updated_at TIMESTAMP",
+            ]:
+                try:
+                    conn.execute(col_sql)
+                except sqlite3.OperationalError:
+                    pass
 
             conn.execute("""
                 CREATE TABLE IF NOT EXISTS appearances (
@@ -431,6 +444,9 @@ class DashboardDB:
                     e.slug,
                     e.bio,
                     e.known_for,
+                    e.net_worth_usd,
+                    e.net_worth_source,
+                    e.net_worth_updated_at,
                     a.created_at AS last_seen,
                     pe.episode_title AS last_episode_title,
                     pe.podcast_name AS last_podcast_name,
@@ -498,6 +514,9 @@ class DashboardDB:
                     'slug': row['slug'],
                     'bio': row['bio'],
                     'known_for': row['known_for'],
+                    'net_worth_usd': row.get('net_worth_usd'),
+                    'net_worth_source': row.get('net_worth_source'),
+                    'net_worth_updated_at': row.get('net_worth_updated_at'),
                     'last_seen': row['last_seen'],
                     'last_episode_title': row['last_episode_title'],
                     'last_podcast_name': row['last_podcast_name'],
@@ -521,6 +540,15 @@ class DashboardDB:
                     p['last_main_idea'] = (takeaways[0] or '')[:500]
                 else:
                     p['last_main_idea'] = None
+                # Friendly display string for popup.
+                nw = p.get('net_worth_usd')
+                if isinstance(nw, (int, float)) and nw > 0:
+                    if nw >= 1_000_000_000:
+                        p['net_worth'] = f"${nw / 1_000_000_000:.2f}B"
+                    elif nw >= 1_000_000:
+                        p['net_worth'] = f"${nw / 1_000_000:.1f}M"
+                    else:
+                        p['net_worth'] = f"${nw:,.0f}"
                 pundits.append(p)
 
         with open(output_dir / 'pundits.json', 'w') as f:

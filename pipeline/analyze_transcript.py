@@ -489,13 +489,19 @@ def process_transcript_file(transcript_path: Path, client_info, db) -> Optional[
         mark_transcript_processed(transcript_path, -1)
         return None
     
-    # Use published_date from sidecar if available (more accurate than AI-extracted date)
-    published_date = sidecar.get('published_date', '')
-    if published_date:
+    # Use published date from sidecar if available (more accurate than AI-extracted date).
+    # We support both \"published_date\" (YYYY-MM-DD) and \"published\" (full timestamp) keys.
+    published_raw = sidecar.get('published_date') or sidecar.get('published') or ''
+    if published_raw:
         try:
-            episode_date = datetime.strptime(published_date, '%Y-%m-%d').date()
+            # Normalise to YYYY-MM-DD first when possible
+            s = str(published_raw).strip()
+            if len(s) >= 10:
+                s = s[:10]
+            episode_date = datetime.strptime(s, '%Y-%m-%d').date()
         except Exception:
-            pass  # keep AI-extracted date
+            # If parsing fails, keep the previously derived episode_date
+            pass
 
     # Hard stop: do not analyze or add to DB anything before Feb 2026
     try:

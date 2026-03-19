@@ -123,15 +123,35 @@ class PodcastPipelineTracker:
         transcript_found = False
         transcript_file = None
         
-        # Try to match by filename patterns
+        # Try to match transcript using strong signals only.
+        # Avoid loose title-substring matching against transcript filename; it can create false positives.
         audio_filename = Path(audio_file).stem if audio_file else ''
         for transcript in TRANSCRIPT_DIR.glob('*.txt'):
-            # Check if transcript matches audio file or normalized title
-            if audio_filename in transcript.name or \
-               self._normalize_name(episode_info['title']) in self._normalize_name(transcript.name):
+            # Strong signal #1: transcript filename contains exact audio stem
+            if audio_filename and audio_filename in transcript.name:
                 transcript_found = True
                 transcript_file = str(transcript)
                 break
+
+            # Strong signal #2: sidecar metadata matches podcast + title
+            meta_path = transcript.with_suffix('.meta.json')
+            if meta_path.exists():
+                try:
+                    with open(meta_path, 'r', encoding='utf-8') as mf:
+                        meta = json.load(mf)
+                    m_podcast = (meta.get('podcast_name') or '').strip().lower()
+                    m_title = (meta.get('episode_title') or '').strip().lower()
+                    e_podcast = (episode_info.get('podcast') or '').strip().lower()
+                    e_title = (episode_info.get('title') or '').strip().lower()
+                    podcast_match = bool(m_podcast and e_podcast and (m_podcast == e_podcast or m_podcast in e_podcast or e_podcast in m_podcast))
+                    # Use a modest prefix check to avoid cross-episode collisions with generic names.
+                    title_match = bool(m_title and e_title and (m_title[:36] == e_title[:36]))
+                    if podcast_match and title_match:
+                        transcript_found = True
+                        transcript_file = str(transcript)
+                        break
+                except Exception:
+                    pass
         
         # Logical consistency: if we have a transcript, we must have had audio at some point.
         if transcript_found and not downloaded_ok:
