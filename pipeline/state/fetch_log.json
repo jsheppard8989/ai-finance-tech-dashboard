@@ -1,4 +1,26 @@
 {
-  "timestamp": "2026-03-18T04:05:25.673223",
-  "results": []
+  "timestamp": "2026-03-18T19:42:55.639659",
+  "results": [
+    {
+      "podcast": "Monetary Matters with Jack Farley",
+      "title": "\u201cWe\u2019re Just Getting Started\u201d | Bob Elliott on Why The Oil Shock Is Not Fully Priced In To Markets",
+      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/EWWMN7309878526.mp3",
+      "transcript_path": null,
+      "success": false
+    },
+    {
+      "podcast": "The a16z Show",
+      "title": "AI, Supply Chains, and the Future of Economic Power",
+      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_20260318_8a933596_ade2_4914_b13e_375c5ac0.mp3",
+      "transcript_path": null,
+      "success": false
+    },
+    {
+      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "title": "John Fetterman: The Rogue Democrat Who Broke Party Ranks",
+      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/ALLIN-INTV_Fetterman_Ch.mp3",
+      "transcript_path": null,
+      "success": false
+    }
+  ]
 }
