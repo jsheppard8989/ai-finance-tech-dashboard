@@ -24,6 +24,70 @@
       "podcast_episode_id": 70
     },
     {
+      "id": 93,
+      "title": "Monetary Matters with Jack Farley: Oil Shocks, Inflation, and Market Reactions",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-03-19",
+      "summary": "In this episode of Monetary Matters, host Jack Farley interviews Bob Elliott, Chief Investment Officer at Unlimited Funds and former member of the Investment Committee at Bridgewater. They discuss the impact of elevated oil prices on the economy, stock market, bond market, and Federal Reserve's reaction function. The conversation covers the inflationary effects of oil shocks, the potential for a recession, and the implications for investors. Bob shares his insights on the current market dynamics, including his views on the Federal Reserve's stance, the impact on stocks and bonds, and potential trading opportunities in commodities and other asset classes.",
+      "key_takeaway": "The current elevated oil prices and their subsequent impact on inflation and growth present a complex investment landscape, with stocks and bonds being particularly at risk. Investors should consider packaging trades to navigate these dynamics.",
+      "tickers_mentioned": [
+        "HFGM"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-18",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 76
+    },
+    {
+      "id": 94,
+      "title": "Interview with Senator John Fetterman on Voting Rights, Policy Decisions, and the Democratic Party",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-03-18",
+      "summary": "In this episode of 'All-In with Chamath, Jason, Sacks & Friedberg', Senator John Fetterman discusses the Save America Act, his policy decisions, and the current state of the Democratic Party. The conversation covers voting rights, the influence of party politics on policy, and Fetterman's views on the Democratic Party's evolution and its core values. Fetterman emphasizes the importance of moral clarity and country over party, sharing his stance on issues like voting by mail and the role of the Department of Homeland Security.",
+      "key_takeaway": "While not directly investment-focused, the episode provides insights into the political climate and potential policy directions that could indirectly affect various sectors and investment strategies.",
+      "tickers_mentioned": [
+        "AAPL",
+        "NVDA",
+        "SPY",
+        "TSLA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-18",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 78
+    },
+    {
+      "id": 95,
+      "title": "The Geopolitics of Technology and the Future Economy",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-03-18",
+      "summary": "In this episode of the a16z Show, the host sits down with Jacob Helbert, Under Secretary of State for Economic Affairs, to discuss the future of the economy, AI, manufacturing, supply chains, and the new geopolitics of technology. Helbert's insights are drawn from his book 'The Wires of War', where he argues that the technology world is in the grips of a two-front geopolitical technology war, with hardware being the decisive battlefield. The conversation covers the importance of AI innovation, the significance of industrial capacity, secure supply chains, and the reindustrialization of the US.",
+      "key_takeaway": "Invest in companies that are at the forefront of AI innovation, hardware manufacturing, and secure supply chain management to capitalize on the new geopolitics of technology and the reindustrialization of the US.",
+      "tickers_mentioned": [
+        "AAPL",
+        "NVDA",
+        "MSFT",
+        "GOOGL",
+        "TSLA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-18",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 77
+    },
+    {
       "id": 88,
       "title": "Stealth Startups and the Digitization of the Physical World",
       "source_type": "podcast",
@@ -37,11 +101,11 @@
         "WMT"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-17",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-19",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 71
     },
     {
@@ -142,11 +206,11 @@
         "TSLA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-16",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-19",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 67
     },
     {
@@ -183,11 +247,11 @@
         "GOLD"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-16",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-19",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 65
     },
     {

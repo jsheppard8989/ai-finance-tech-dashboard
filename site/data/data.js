@@ -3,7 +3,7 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-03-18T19:45:48.610413",
+  generatedAt: "2026-03-18T22:07:03.487547",
   chartsVersion: "2026-03-18T19:45:44.639651",
   tickerScores: [
   {
@@ -693,6 +693,70 @@ const dashboardData = {
       "podcast_episode_id": 70
     },
     {
+      "id": 93,
+      "title": "Monetary Matters with Jack Farley: Oil Shocks, Inflation, and Market Reactions",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-03-19",
+      "summary": "In this episode of Monetary Matters, host Jack Farley interviews Bob Elliott, Chief Investment Officer at Unlimited Funds and former member of the Investment Committee at Bridgewater. They discuss the impact of elevated oil prices on the economy, stock market, bond market, and Federal Reserve's reaction function. The conversation covers the inflationary effects of oil shocks, the potential for a recession, and the implications for investors. Bob shares his insights on the current market dynamics, including his views on the Federal Reserve's stance, the impact on stocks and bonds, and potential trading opportunities in commodities and other asset classes.",
+      "key_takeaway": "The current elevated oil prices and their subsequent impact on inflation and growth present a complex investment landscape, with stocks and bonds being particularly at risk. Investors should consider packaging trades to navigate these dynamics.",
+      "tickers_mentioned": [
+        "HFGM"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-18",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 76
+    },
+    {
+      "id": 94,
+      "title": "Interview with Senator John Fetterman on Voting Rights, Policy Decisions, and the Democratic Party",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-03-18",
+      "summary": "In this episode of 'All-In with Chamath, Jason, Sacks & Friedberg', Senator John Fetterman discusses the Save America Act, his policy decisions, and the current state of the Democratic Party. The conversation covers voting rights, the influence of party politics on policy, and Fetterman's views on the Democratic Party's evolution and its core values. Fetterman emphasizes the importance of moral clarity and country over party, sharing his stance on issues like voting by mail and the role of the Department of Homeland Security.",
+      "key_takeaway": "While not directly investment-focused, the episode provides insights into the political climate and potential policy directions that could indirectly affect various sectors and investment strategies.",
+      "tickers_mentioned": [
+        "AAPL",
+        "NVDA",
+        "SPY",
+        "TSLA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-18",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 78
+    },
+    {
+      "id": 95,
+      "title": "The Geopolitics of Technology and the Future Economy",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-03-18",
+      "summary": "In this episode of the a16z Show, the host sits down with Jacob Helbert, Under Secretary of State for Economic Affairs, to discuss the future of the economy, AI, manufacturing, supply chains, and the new geopolitics of technology. Helbert's insights are drawn from his book 'The Wires of War', where he argues that the technology world is in the grips of a two-front geopolitical technology war, with hardware being the decisive battlefield. The conversation covers the importance of AI innovation, the significance of industrial capacity, secure supply chains, and the reindustrialization of the US.",
+      "key_takeaway": "Invest in companies that are at the forefront of AI innovation, hardware manufacturing, and secure supply chain management to capitalize on the new geopolitics of technology and the reindustrialization of the US.",
+      "tickers_mentioned": [
+        "AAPL",
+        "NVDA",
+        "MSFT",
+        "GOOGL",
+        "TSLA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-18",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 77
+    },
+    {
       "id": 88,
       "title": "Stealth Startups and the Digitization of the Physical World",
       "source_type": "podcast",
@@ -706,11 +770,11 @@ const dashboardData = {
         "WMT"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-17",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-19",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 71
     },
     {
@@ -811,11 +875,11 @@ const dashboardData = {
         "TSLA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-16",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-19",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 67
     },
     {
@@ -852,11 +916,11 @@ const dashboardData = {
         "GOLD"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-16",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-19",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 65
     },
     {
@@ -2324,28 +2388,66 @@ const dashboardData = {
       "key_tickers": []
     },
     {
-      "id": 88,
-      "title": "Stealth Startups and the Digitization of the Physical World",
+      "id": 93,
+      "title": "Monetary Matters with Jack Farley: Oil Shocks, Inflation, and Market Reactions",
       "source_type": "podcast",
-      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "source_date": "2026-03-17",
-      "summary": "In this episode, the hosts discuss the concept of digitizing the physical world, treating atoms like bits, and the implications for various industries. They interview Travis Kalanick, the founder of Cloud Kitchens, who shares his journey of building a stealth startup and the challenges faced by employees during the stealth phase. The conversation also touches on the benefits of operating in Texas, with its pro-business climate and low taxes, and the potential for a new social security model that empowers individuals through direct investment.",
-      "key_takeaway": "Invest in companies that are digitizing the physical world and transforming traditional industries through technology.",
-      "tickers_mentioned": "[\"DELL\", \"NVDA\", \"WMT\"]",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-03-19",
+      "summary": "In this episode of Monetary Matters, host Jack Farley interviews Bob Elliott, Chief Investment Officer at Unlimited Funds and former member of the Investment Committee at Bridgewater. They discuss the impact of elevated oil prices on the economy, stock market, bond market, and Federal Reserve's reaction function. The conversation covers the inflationary effects of oil shocks, the potential for a recession, and the implications for investors. Bob shares his insights on the current market dynamics, including his views on the Federal Reserve's stance, the impact on stocks and bonds, and potential trading opportunities in commodities and other asset classes.",
+      "key_takeaway": "The current elevated oil prices and their subsequent impact on inflation and growth present a complex investment landscape, with stocks and bonds being particularly at risk. Investors should consider packaging trades to navigate these dynamics.",
+      "tickers_mentioned": "[\"HFGM\"]",
       "sentiment": "neutral",
       "display_on_main": 1,
       "display_order": 0,
-      "added_date": "2026-03-17",
+      "added_date": "2026-03-18",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 71,
-      "episode_release_date": "2026-03-17",
+      "podcast_episode_id": 76,
+      "episode_release_date": "2026-03-19",
       "guest_name": null,
       "key_tickers": [
-        "DELL",
-        "NVDA",
-        "WMT"
+        "HFGM"
       ]
+    },
+    {
+      "id": 94,
+      "title": "Interview with Senator John Fetterman on Voting Rights, Policy Decisions, and the Democratic Party",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-03-18",
+      "summary": "In this episode of 'All-In with Chamath, Jason, Sacks & Friedberg', Senator John Fetterman discusses the Save America Act, his policy decisions, and the current state of the Democratic Party. The conversation covers voting rights, the influence of party politics on policy, and Fetterman's views on the Democratic Party's evolution and its core values. Fetterman emphasizes the importance of moral clarity and country over party, sharing his stance on issues like voting by mail and the role of the Department of Homeland Security.",
+      "key_takeaway": "While not directly investment-focused, the episode provides insights into the political climate and potential policy directions that could indirectly affect various sectors and investment strategies.",
+      "tickers_mentioned": "[\"AAPL\", \"NVDA\", \"SPY\", \"TSLA\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-18",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 78,
+      "episode_release_date": "2026-03-18",
+      "guest_name": "Senator John Fetterman on Voting Rights",
+      "key_tickers": []
+    },
+    {
+      "id": 95,
+      "title": "The Geopolitics of Technology and the Future Economy",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-03-18",
+      "summary": "In this episode of the a16z Show, the host sits down with Jacob Helbert, Under Secretary of State for Economic Affairs, to discuss the future of the economy, AI, manufacturing, supply chains, and the new geopolitics of technology. Helbert's insights are drawn from his book 'The Wires of War', where he argues that the technology world is in the grips of a two-front geopolitical technology war, with hardware being the decisive battlefield. The conversation covers the importance of AI innovation, the significance of industrial capacity, secure supply chains, and the reindustrialization of the US.",
+      "key_takeaway": "Invest in companies that are at the forefront of AI innovation, hardware manufacturing, and secure supply chain management to capitalize on the new geopolitics of technology and the reindustrialization of the US.",
+      "tickers_mentioned": "[\"AAPL\", \"NVDA\", \"MSFT\", \"GOOGL\", \"TSLA\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-18",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 77,
+      "episode_release_date": "2026-03-18",
+      "guest_name": null,
+      "key_tickers": []
     },
     {
       "id": 89,
@@ -2429,50 +2531,6 @@ const dashboardData = {
       "guest_name": "Elon Musk on Moonshots",
       "key_tickers": [
         "TSLA"
-      ]
-    },
-    {
-      "id": 84,
-      "title": "AI Startups and the Future of Technology",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-03-16",
-      "summary": "In this episode of the a16z Show, Olivia Moore, partner at A16Z, discusses the future of AI and its impact on the technology industry. Moore suggests that every tech company will eventually become an AI company, and every AI company will become an agent company. She emphasizes the importance of understanding and leveraging AI for businesses and individuals. The conversation also touches on the challenges of AI social, the potential for AI to reinvent the technology industry, and the competitive landscape for AI startups against big players like ChatGPT. Moore highlights the opportunities for AI startups in specific niches and the potential for AI to transform various sectors.",
-      "key_takeaway": "Invest in AI startups that focus on specific niches and use cases, as they can compete effectively against larger AI companies by capitalizing on the gaps between platforms.",
-      "tickers_mentioned": "[\"AAPL\", \"NVDA\", \"GOOGL\", \"MSFT\", \"TSLA\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-03-16",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 67,
-      "episode_release_date": "2026-03-16",
-      "guest_name": null,
-      "key_tickers": []
-    },
-    {
-      "id": 83,
-      "title": "Monetary Matters with Jack Farley: Precious Metals, Bonds, and Economic Cycles",
-      "source_type": "podcast",
-      "source_name": "Monetary Matters with Jack Farley",
-      "source_date": "2026-03-15",
-      "summary": "In this episode of Monetary Matters, host Jack Farley interviews Alex Gorovich, founder and CIO at Hauntay Asset Management and author of 'The Next Perfect Trade: The Magic Sword of Necessity'. They discuss Gorovich's views on palladium and platinum, precious metals, and their cycles. Gorovich shares his insights on the volatility of precious metals, the difficulty in pinpointing their value, and their correlation with real rates and economic performance. Additionally, they touch upon the potential for inflation due to government stimulus and the impact of AI on productivity and deficits. Gorovich also reflects on his past predictions and their outcomes, providing a retrospective on his investment strategies.",
-      "key_takeaway": "Invest in platinum as a hybrid precious and industrial metal with potential for growth outside of traditional economic cycles, and consider the impact of AI on productivity and government deficits on interest rates.",
-      "tickers_mentioned": "[\"PLTM\", \"PALL\", \"GOLD\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-03-16",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 65,
-      "episode_release_date": "2026-03-15",
-      "guest_name": null,
-      "key_tickers": [
-        "PLTM",
-        "PALL",
-        "GOLD"
       ]
     }
   ],
@@ -7059,6 +7117,211 @@ const dashboardData = {
     "key_tickers": [
       "TSLA"
     ]
+  },
+  "93": {
+    "id": 84,
+    "insight_id": 93,
+    "podcast_episode_id": 76,
+    "overview": "The current elevated price of oil, now over $100, has significant implications for the global economy, stock market, bond market, and Federal Reserve policy. This deep dive analysis explores the impact of oil shocks on inflation, real growth, and the Fed's reaction function. With oil prices nearly doubling in a matter of weeks, the potential for higher inflation and lower real growth is a pressing concern for investors. The analysis also considers the market's current expectations for a swift return to normalcy and the potential risks and opportunities for specific tickers in this environment.",
+    "key_takeaways_detailed": [
+      "Oil shocks lead to higher inflation and lower real growth, impacting the economy and markets.",
+      "The Fed's reaction function is complicated by oil shocks, as they put pressure on both the inflation and growth mandates.",
+      "Investors should monitor the Fed's policy response and the potential for policy uncertainty to impact stocks and bonds.",
+      "Energy prices are a key driver of inflation, and rising oil prices can lead to a significant increase in consumer price index.",
+      "Investors should consider the potential for a negative shock to the economy from elevated oil prices and the resulting impact on stocks."
+    ],
+    "investment_thesis": "The investment thesis centers around the impact of elevated oil prices on the economy and markets. With oil prices nearly doubling in a matter of weeks, the potential for higher inflation and lower real growth is a pressing concern. Investors should position their portfolios to navigate this environment, focusing on companies that can withstand higher input costs and potential economic slowdowns. The catalysts for this thesis include the ongoing conflict in Ukraine, the resulting supply disruptions, and the Fed's policy response. The timeframe for this thesis is medium to long-term, as the full impact of elevated oil prices on the economy and markets may take time to materialize.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple is a global technology leader with a diversified product portfolio. The company's strong balance sheet and cash reserves allow it to weather economic downturns and invest in growth opportunities. However, higher input costs and potential economic slowdowns could impact demand for Apple's products.",
+        "positioning": "Investors should position tactically in Apple, monitoring the company's ability to navigate the current environment and maintain growth. A long position may be appropriate for investors with a medium to long-term horizon.",
+        "risk": "Key risks for Apple include a slowdown in global economic growth, which could impact demand for its products, and potential supply chain disruptions due to the ongoing conflict in Ukraine."
+      },
+      "NVDA": {
+        "rationale": "Nvidia is a leading provider of graphics processing units (GPUs) and artificial intelligence (AI) technologies. The company's products are used in a wide range of applications, from gaming to data centers. While higher input costs could impact Nvidia's margins, the company's strong competitive position and growth prospects make it a potential beneficiary of the ongoing digital transformation.",
+        "positioning": "Investors should consider a strategic long position in Nvidia, as the company's growth prospects and competitive position are likely to drive long-term value creation. However, investors should monitor the company's ability to navigate the current environment and maintain growth.",
+        "risk": "Key risks for Nvidia include potential supply chain disruptions due to the ongoing conflict in Ukraine, as well as the impact of higher input costs on the company's margins and growth prospects."
+      },
+      "SPY": {
+        "rationale": "The SPDR S&P 500 ETF Trust (SPY) is a widely-held ETF that tracks the performance of the S&P 500 Index. As a broad market exposure, SPY provides investors with a way to gain exposure to the overall U.S. equity market. In the current environment, investors should consider the impact of elevated oil prices on the broader market and potential shifts in market leadership.",
+        "positioning": "Investors should position tactically in SPY, monitoring the market's reaction to elevated oil prices and potential shifts in market leadership. A long position may be appropriate for investors with a medium to long-term horizon, but investors should be prepared to adjust their positions in response to changing market conditions.",
+        "risk": "Key risks for SPY include the impact of elevated oil prices on the broader market, potential shifts in market leadership, and the ongoing conflict in Ukraine."
+      },
+      "TSLA": {
+        "rationale": "Tesla is a leading electric vehicle (EV) manufacturer and clean energy company. The company's strong growth prospects and competitive position make it a potential beneficiary of the ongoing energy transition. However, higher input costs and potential economic slowdowns could impact demand for Tesla's products.",
+        "positioning": "Investors should consider a strategic long position in Tesla, as the company's growth prospects and competitive position are likely to drive long-term value creation. However, investors should monitor the company's ability to navigate the current environment and maintain growth.",
+        "risk": "Key risks for Tesla include potential supply chain disruptions due to the ongoing conflict in Ukraine, as well as the impact of higher input costs on the company's margins and growth prospects."
+      }
+    },
+    "positioning_guidance": "Investors should position their portfolios to navigate the current environment, focusing on companies that can withstand higher input costs and potential economic slowdowns. A balanced approach, with a mix of tactical and strategic positions, may be appropriate. Investors should consider sizing their positions based on their risk tolerance and investment horizon, with a focus on companies with strong competitive positions and growth prospects. Entry points should be based on market conditions and individual company fundamentals, with a focus on companies that can weather the current environment. Investors should also consider hedging their positions to protect against potential market volatility.",
+    "risk_factors": [
+      "The ongoing conflict in Ukraine and its impact on global energy markets.",
+      "Potential supply chain disruptions due to the conflict and resulting sanctions.",
+      "The impact of elevated oil prices on global economic growth and corporate earnings.",
+      "The Fed's policy response to elevated inflation and potential economic slowdowns.",
+      "Geopolitical risks and their potential impact on global markets and investor sentiment."
+    ],
+    "contrarian_signals": [
+      "The market's current expectations for a swift return to normalcy may be overly optimistic, given the ongoing conflict and its potential impact on global energy markets.",
+      "Investors may be underestimating the potential for elevated oil prices to lead to a more prolonged period of higher inflation and lower real growth.",
+      "The potential for a more aggressive Fed policy response to elevated inflation may not be fully priced into markets, leading to potential market volatility and shifts in leadership."
+    ],
+    "catalysts": [
+      "Developments in the ongoing conflict in Ukraine and its impact on global energy markets.",
+      "The Fed's policy response to elevated inflation and potential economic slowdowns.",
+      "Corporate earnings reports and guidance, which may provide insight into the impact of elevated oil prices on individual companies and sectors.",
+      "Geopolitical events and their potential impact on global markets and investor sentiment.",
+      "Economic data releases, which may provide insight into the impact of elevated oil prices on global economic growth and inflation."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-03-18T22:05:41.169083",
+    "updated_at": "2026-03-19 03:05:41",
+    "insight_title": "Monetary Matters with Jack Farley: Oil Shocks, Inflation, and Market Reactions",
+    "source_name": "Monetary Matters with Jack Farley",
+    "source_date": "2026-03-19",
+    "key_tickers": [
+      "HFGM"
+    ]
+  },
+  "94": {
+    "id": 85,
+    "insight_id": 94,
+    "podcast_episode_id": 78,
+    "overview": "In this deep dive analysis, we explore the implications of Senator John Fetterman's insights on voting rights, policy decisions, and the current state of the Democratic Party. Fetterman's perspective on the Save America Act, his evolving political identity, and his views on the Democratic Party's core values offer a unique lens through which to assess potential shifts in political dynamics and their impact on the market. Understanding these nuances is crucial for investors as they navigate the complex interplay between politics and the economy, particularly in the context of midterm elections and potential policy changes.",
+    "key_takeaways_detailed": [
+      "Senator Fetterman's uncertainty about the Save America Act's passage suggests potential volatility in political outcomes, which could impact market sentiment and specific sectors.",
+      "His shift from identifying as a progressive to a Democrat reflects broader ideological changes within the party, which may influence policy priorities and have investment implications.",
+      "Fetterman's stance on Israel and his criticism of certain Democratic candidates' positions could signal a rift within the party, affecting political stability and potentially impacting defense and international relations.",
+      "His emphasis on securing borders and deporting criminals without causing tragedies like in Minneapolis hints at a potential focus on law enforcement and immigration policies, which could affect related industries.",
+      "The lack of a clear leader in the Democratic Party, as Fetterman suggests, may lead to policy incoherence, creating uncertainty in the market and affecting investor confidence."
+    ],
+    "investment_thesis": "The core investment thesis revolves around the potential for increased political polarization and the implications of the Democratic Party's ideological shift on market dynamics. As the party grapples with its identity and policy priorities, sectors such as defense, technology, and immigration-related industries could face significant challenges or opportunities. Investors should monitor political developments closely, as they may act as catalysts for market movements. The timeframe for this thesis is medium to long-term, as policy changes and their effects typically unfold over several quarters to years.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's (AAPL) business spans multiple sectors, including technology and international trade, making it sensitive to political and policy shifts. Changes in international relations or technology regulations could impact AAPL's global operations.",
+        "positioning": "Position tactically long, as political stability or favorable policy outcomes could boost AAPL's growth prospects, but maintain a hedge against potential policy risks.",
+        "risk": "Key risks include increased trade tensions, technology regulation, and potential boycotts due to political controversies."
+      },
+      "NVDA": {
+        "rationale": "Nvidia (NVDA) is a leader in AI and technology, which could be significantly affected by changes in technology policy and international relations, especially with regards to China.",
+        "positioning": "Consider a strategic long position in NVDA, anticipating growth in the technology sector, but be prepared to adjust for political risks that could disrupt supply chains or limit international collaboration.",
+        "risk": "The primary risk is the potential for increased regulatory scrutiny or trade restrictions that could hinder NVDA's global expansion and research partnerships."
+      },
+      "SPY": {
+        "rationale": "The SPDR S&P 500 ETF Trust (SPY) offers broad market exposure, making it a key indicator of the overall market's reaction to political developments.",
+        "positioning": "Maintain a medium-term strategic long position in SPY, as it benefits from a diversified portfolio that can weather sector-specific volatility, but monitor political events for potential market-wide impacts.",
+        "risk": "The risk lies in unforeseen political events that could lead to market-wide sell-offs or increased volatility."
+      },
+      "TSLA": {
+        "rationale": "Tesla (TSLA) is a bellwether for the electric vehicle and clean energy sectors, which could be influenced by policy changes related to environmental regulations and infrastructure spending.",
+        "positioning": "Position long in TSLA for investors with a long-term view, as the company is poised to benefit from a potential shift towards sustainable energy policies, but be cautious of short-term political headwinds.",
+        "risk": "Key risks include policy delays or reversals that could slow the adoption of electric vehicles and renewable energy technologies."
+      }
+    },
+    "positioning_guidance": "Investors should maintain a balanced portfolio with a mix of tactical and strategic positions, considering the potential for political volatility. Entry points should be based on market reactions to key political events, and investors should be prepared to adjust positions in response to policy developments. Consider hedging strategies to mitigate risks associated with political uncertainty.",
+    "risk_factors": [
+      "Unexpected political outcomes that could derail policy expectations.",
+      "Increased market volatility due to political polarization and uncertainty.",
+      "Potential policy changes that could negatively impact specific sectors or companies.",
+      "International relations tensions that could affect global operations of multinational corporations.",
+      "Economic repercussions from policy incoherence or delays."
+    ],
+    "contrarian_signals": [
+      "The potential for a political realignment that could lead to unexpected policy outcomes and market opportunities.",
+      "The possibility that market expectations of political polarization may be overblown, leading to undervalued assets in certain sectors.",
+      "The underestimated resilience of the economy and markets to navigate through political turbulence."
+    ],
+    "catalysts": [
+      "Upcoming midterm elections and their potential to shift the balance of power in Congress.",
+      "Key policy debates and votes in Congress, such as the Save America Act, that could signal the direction of future legislation.",
+      "International events and diplomatic developments that could influence domestic policy and market sentiment.",
+      "Economic indicators that may influence political priorities and policy decisions.",
+      "Unexpected political scandals or events that could alter the political landscape and market expectations."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-03-18T22:06:13.510211",
+    "updated_at": "2026-03-19 03:06:13",
+    "insight_title": "Interview with Senator John Fetterman on Voting Rights, Policy Decisions, and the Democratic Party",
+    "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "source_date": "2026-03-18",
+    "key_tickers": []
+  },
+  "95": {
+    "id": 86,
+    "insight_id": 95,
+    "podcast_episode_id": 77,
+    "overview": "The investment thesis revolves around the geopolitical technology war, with a focus on AI innovation, market share, and secure supply chains. As the world transitions into an AI-driven economy, the US aims to maintain its lead in technology and secure its economic and national security. This analysis underscores the importance of hardware, industrial capacity, and the reindustrialization of the US. The current geopolitical landscape demands a strategic approach to investments, focusing on companies that are at the forefront of AI innovation and have robust supply chains. The urgency is heightened by the recognition that AI will redefine economic and military power, making it a critical area for investment now.",
+    "key_takeaways_detailed": [
+      "Invest in companies with superior AI models to ensure qualitative leadership in the technology race.",
+      "Seek out firms with significant market share to capitalize on global adoption of AI technologies.",
+      "Prioritize investments in companies with secure and reliable supply chains to mitigate geopolitical risks.",
+      "Consider the impact of model distillation on intellectual property and the value of AI companies.",
+      "Monitor government policies and international relations that could influence the AI technology landscape."
+    ],
+    "investment_thesis": "The core investment logic is centered on the US's strategic position in the AI revolution, emphasizing the need for qualitatively superior AI models, substantial market share, and secure supply chains. Catalysts include advancements in AI technology, government policies supporting AI innovation, and the reindustrialization of the US. The timeframe for this thesis is medium to long-term, as the full impact of AI on the economy and national security is expected to unfold over the next 3-10 years.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's significant investment in AI and its broad consumer reach position it well to capitalize on the AI revolution.",
+        "positioning": "Long-term strategic position due to Apple's continuous innovation and market dominance.",
+        "risk": "Regulatory challenges and potential supply chain disruptions could impact Apple's growth."
+      },
+      "NVDA": {
+        "rationale": "Nvidia's leadership in GPU technology is crucial for AI model training and deployment.",
+        "positioning": "Long-term strategic position, considering the company's integral role in the AI ecosystem.",
+        "risk": "High valuation multiples and competition from other chip manufacturers could pose risks."
+      },
+      "MSFT": {
+        "rationale": "Microsoft's cloud services and AI investments make it a key player in the AI technology race.",
+        "positioning": "Strategic long-term hold, leveraging Microsoft's diversified portfolio and cloud leadership.",
+        "risk": "Dependency on economic cycles and potential antitrust actions could affect the stock."
+      },
+      "GOOGL": {
+        "rationale": "Google's deep expertise in AI and vast data resources give it a competitive edge in model development.",
+        "positioning": "Long-term strategic investment, reflecting Google's potential to shape the AI landscape.",
+        "risk": "Privacy concerns and regulatory scrutiny may hinder Google's AI initiatives."
+      },
+      "TSLA": {
+        "rationale": "Tesla's use of AI in autonomous driving technology positions it at the forefront of AI applications.",
+        "positioning": "Medium to long-term investment, considering the company's innovation and growth prospects.",
+        "risk": "Production challenges and increased competition in the electric vehicle market could impact Tesla's performance."
+      }
+    },
+    "positioning_guidance": "Allocate a portion of the portfolio to each of these tickers, with an emphasis on long-term strategic positions. Consider entry points based on market volatility and economic indicators. Diversify to mitigate risks associated with individual companies or sectors. Use options or other derivatives for hedging against short-term market fluctuations.",
+    "risk_factors": [
+      "Escalating geopolitical tensions could disrupt global supply chains and hinder AI development.",
+      "Regulatory actions against tech giants might impede innovation and market expansion.",
+      "Rapid technological changes could render current AI models and hardware obsolete.",
+      "Economic downturns can reduce investment in AI research and development.",
+      "Cybersecurity threats targeting AI systems could lead to significant financial and reputational damage."
+    ],
+    "contrarian_signals": [
+      "The potential for other nations to close the technology gap by investing heavily in AI research.",
+      "The possibility of a market overestimating the short-term impact of AI on certain industries.",
+      "The risk of AI development being slowed by ethical concerns and societal pushback against automation."
+    ],
+    "catalysts": [
+      "Upcoming AI-related legislation and policy changes in the US and abroad.",
+      "Major AI breakthroughs or product launches by leading tech companies.",
+      "Global economic indicators that signal a shift towards technology-driven growth.",
+      "International trade agreements that could impact the flow of technology and AI components.",
+      "Scheduled earnings reports and product announcements from key AI-focused companies."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-03-18T22:06:41.681627",
+    "updated_at": "2026-03-19 03:06:41",
+    "insight_title": "The Geopolitics of Technology and the Future Economy",
+    "source_name": "The a16z Show",
+    "source_date": "2026-03-18",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
@@ -7113,7 +7376,19 @@ const dashboardData = {
 ],
   podcastGuests: [
   {
-    "id": 464,
+    "id": 471,
+    "name": "Senator John Fetterman on Voting Rights",
+    "slug": "senator-john-fetterman-on-voting-rights",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "While not directly investment-focused, the episode provides insights into the political climate and potential policy directions that could indirectly affect various sectors and investment strategies.",
+    "last_episode_title": "Interview with Senator John Fetterman on Voting Rights, Policy Decisions, and the Democratic Party",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-03-18",
+    "appearance_count": 1
+  },
+  {
+    "id": 472,
     "name": "Elon Musk on Moonshots",
     "slug": "elon-musk-on-moonshots",
     "bio": null,
@@ -7125,7 +7400,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 465,
+    "id": 473,
     "name": "Investing in Capitalism",
     "slug": "investing-in-capitalism",
     "bio": null,
@@ -7137,7 +7412,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 466,
+    "id": 474,
     "name": "Harvard Professor Graham Allison",
     "slug": "harvard-professor-graham-allison",
     "bio": null,
@@ -7149,7 +7424,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 467,
+    "id": 475,
     "name": "Andrew Yang",
     "slug": "andrew-yang",
     "bio": "Andrew Yang is an entrepreneur and political leader who popularized universal basic income in U.S. politics through his 2020 presidential campaign.",
@@ -7161,7 +7436,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 468,
+    "id": 476,
     "name": "Ray Dalio",
     "slug": "ray-dalio",
     "bio": "Ray Dalio is the founder of Bridgewater Associates and a macro investor known for his 'Principles' framework and work on long-term debt cycles.",
@@ -7173,7 +7448,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 469,
+    "id": 477,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -7185,7 +7460,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 470,
+    "id": 478,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -7198,6 +7473,48 @@ const dashboardData = {
   }
 ],
   pundits: [
+  {
+    "id": 84,
+    "name": "John Fetterman",
+    "slug": "john-fetterman",
+    "bio": "Senator from Pennsylvania, known for his pragmatic approach to policy and bipartisan appeal.",
+    "known_for": "His stance on voting rights, support for Israel, and refusal to shut down the Department of Homeland Security.",
+    "last_seen": "2026-03-19 03:04:44",
+    "last_episode_title": "Interview with Senator John Fetterman on Voting Rights, Policy Decisions, and the Democratic Party",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-03-18",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "While not directly investment-focused, the episode provides insights into the political climate and potential policy directions that could indirectly affect various sectors and investment strategies."
+  },
+  {
+    "id": 83,
+    "name": "Jacob Helbert",
+    "slug": "jacob-helbert",
+    "bio": "Under Secretary of State for Economic Affairs",
+    "known_for": "Author of 'The Wires of War' and his work on AI, manufacturing, and supply chains",
+    "last_seen": "2026-03-19 03:02:43",
+    "last_episode_title": "The Geopolitics of Technology and the Future Economy",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-03-18",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in companies that are at the forefront of AI innovation, hardware manufacturing, and secure supply chain management to capitalize on the new geopolitics of technology and the reindustrialization of the US."
+  },
+  {
+    "id": 82,
+    "name": "Bob Elliott",
+    "slug": "bob-elliott",
+    "bio": "Chief Investment Officer at Unlimited Funds and former member of the Investment Committee at Bridgewater.",
+    "known_for": "Expertise in macroeconomic trading and investment strategy.",
+    "last_seen": "2026-03-19 03:02:29",
+    "last_episode_title": "Monetary Matters with Jack Farley: Oil Shocks, Inflation, and Market Reactions",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-03-19",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "The current elevated oil prices and their subsequent impact on inflation and growth present a complex investment landscape, with stocks and bonds being particularly at risk. Investors should consider packaging trades to navigate these dynamics."
+  },
   {
     "id": 81,
     "name": "Elon Musk",
@@ -7279,7 +7596,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2027-01-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Invest in AI and automation technologies that are driving the shift towards AI governance and efficiency in business operations."
   },
   {
@@ -7379,48 +7696,6 @@ const dashboardData = {
     "mention_score": 1,
     "mention_score_decayed": 0.89,
     "last_main_idea": "Investors should consider the geopolitical risks associated with the US-Iran conflict and the potential impact on global oil supply, as well as the long-term shift towards renewable energy sources."
-  },
-  {
-    "id": 54,
-    "name": "Jim Bianco",
-    "slug": "jim-bianco",
-    "bio": "Founder of Bianco Research, a provider of institutional research.",
-    "known_for": "In-depth analysis of financial markets and macroeconomic trends.",
-    "last_seen": "2026-03-12 20:30:09",
-    "last_episode_title": "Macro Voices Episode 523: Geopolitical Situation in Iran, Oil Prices, Precious Metals, and Market Analysis",
-    "last_podcast_name": "Macro Voices",
-    "last_episode_date": "2026-03-12",
-    "mention_score": 1,
-    "mention_score_decayed": 0.87,
-    "last_main_idea": "The current geopolitical tensions, particularly in Iran, are creating significant market volatility, especially in oil prices, which presents both risks and opportunities for investors."
-  },
-  {
-    "id": 55,
-    "name": "Dr. Onus Alhajji",
-    "slug": "dr-onus-alhajji",
-    "bio": "Expert commentator on energy markets and geopolitical conflicts.",
-    "known_for": "Analysis of the impact of geopolitical events on oil markets.",
-    "last_seen": "2026-03-12 20:30:09",
-    "last_episode_title": "Macro Voices Episode 523: Geopolitical Situation in Iran, Oil Prices, Precious Metals, and Market Analysis",
-    "last_podcast_name": "Macro Voices",
-    "last_episode_date": "2026-03-12",
-    "mention_score": 1,
-    "mention_score_decayed": 0.87,
-    "last_main_idea": "The current geopolitical tensions, particularly in Iran, are creating significant market volatility, especially in oil prices, which presents both risks and opportunities for investors."
-  },
-  {
-    "id": 52,
-    "name": "Alex Carp",
-    "slug": "alex-carp",
-    "bio": "Co-founder and CEO of Palantir, a company that specializes in big data analytics.",
-    "known_for": "Building technology deployed on battlefields and analytics infrastructure embedded in the Department of Defense.",
-    "last_seen": "2026-03-12 20:29:53",
-    "last_episode_title": "The Intersection of Technology, Geopolitics, and National Defense",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-03-12",
-    "mention_score": 1,
-    "mention_score_decayed": 0.87,
-    "last_main_idea": "Investing in companies that leverage technology to enhance national defense and security could yield significant returns, especially if they align with the interests of the defense establishment."
   }
 ]
 };

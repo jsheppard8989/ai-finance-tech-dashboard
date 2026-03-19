@@ -9729,3 +9729,374 @@ Top tickers today:
   T: score 60
 
 🌐 Website updated
+2026-03-18T22:01:08-05:00 run_if_scheduled: in window, running pipeline
+============================================================
+AUTO PIPELINE
+Mode: full
+Started: 2026-03-18 22:01:09.018160
+============================================================
+
+============================================================
+STEP: Podcast Curation
+============================================================
+)...
+  ↓ Downloading audio: The a16z Show – AI, Supply Chains, and the Future of Economic Power
+  ⚠ Failed to download audio for 'AI, Supply Chains, and the Future of Economic Power': HTTP Error 403: Forbidden
+  ↓ Downloading audio: The a16z Show – Chris Dixon: From Quant Trading to Building a16z Crypto
+  ⚠ Failed to download audio for 'Chris Dixon: From Quant Trading to Building a16z Crypto': HTTP Error 403: Forbidden
+  ↓ Downloading audio: Dwarkesh Podcast – Why Leonardo was a saboteur, Gutenberg went broke, and Flore
+  ⚠ Failed to download audio for 'Why Leonardo was a saboteur, Gutenberg went broke, and Flore': HTTP Error 403: Forbidden
+  ✓ Downloaded audio for 0 approved episode(s)
+
+  APPROVED (will transcribe or download): 7
+  🎧 Approved episodes with audio after auto-download: 4
+
+======================================================================
+CURATION RESULTS
+======================================================================
+
+📌 APPROVED (will transcribe or download):
+
+  ✓ Moonshots with Peter Diamandis
+    Title: Meta Buys Moltbook, GPT 5.4, and Fruitfly Brain Upload | Moonshots Liv
+    File: moonshots_with_peter_diamandis_meta_buys_moltbook__gpt_5_4__and_fruitfly_brain_upload___moo_609f0b8d.mp3
+
+  ✓ Monetary Matters with Jack Farley
+    Title: “We’re Just Getting Started” | Bob Elliott on Why The Oil Shock Is Not
+    File: EWWMN7309878526.mp3
+
+  ✓ Monetary Matters with Jack Farley
+    Title: Stock Market on Shaky Foundations | Blind Squirrel Macro’s Rupert Mitc
+    File: monetary_matters_with_jack_farley_stock_market_on_shaky_foundations___blind_squirrel_macro_s_r_12c3cce4.mp3
+
+  ✓ The a16z Show
+    Title: AI, Supply Chains, and the Future of Economic Power
+    File: (pending download)
+
+  ✓ The a16z Show
+    Title: Chris Dixon: From Quant Trading to Building a16z Crypto
+    File: (pending download)
+
+  ✓ All-In with Chamath, Jason, Sacks & Friedberg
+    Title: John Fetterman: The Rogue Democrat Who Broke Party Ranks
+    File: ALLIN-INTV_Fetterman_Ch.mp3
+
+  ✓ Dwarkesh Podcast
+    Title: Why Leonardo was a saboteur, Gutenberg went broke, and Florence was we
+    File: (pending download)
+
+
+✓ Curation log saved: /Users/jaredsheppard/.openclaw/workspace/pipeline/state/curation_log.json
+
+======================================================================
+NEXT STEPS
+======================================================================
+
+1. Review approved episodes above
+2. To transcribe approved episodes, run:
+   python3 transcribe_curated.py
+
+3. Or manually transcribe specific files (only for episodes that have audio):
+   whisper 'moonshots_with_peter_diamandis_meta_buys_moltbook__gpt_5_4__and_fruitfly_brain_upload___moo_609f0b8d.mp3' --model tiny --language en
+   whisper 'EWWMN7309878526.mp3' --model tiny --language en
+   whisper 'monetary_matters_with_jack_farley_stock_market_on_shaky_foundations___blind_squirrel_macro_s_r_12c3cce4.mp3' --model tiny --language en
+   whisper 'ALLIN-INTV_Fetterman_Ch.mp3' --model tiny --language en
+
+✓ Podcast Curation completed
+
+============================================================
+STEP: Fetch & Transcribe
+============================================================
+
+Fetch & Transcribe Latest Podcast Episodes
+======================================================================
+  ✓ Swept 6 completed transcript file(s) from whisper_done into transcripts
+
+Found 7 podcast feeds
+
+📻 Processing: https://feeds.megaphone.fm/DVVTS2890392624...
+  ⏭ Already have 'Elon Musk: Optimus 3 Is Coming, Recursive Self-Imp' (guid match, ep_id=75)
+  ✗ No episode found
+
+📻 Processing: https://feeds.megaphone.fm/EWWMN1909747317...
+  📋 Latest: “We’re Just Getting Started” | Bob Elliott on Why The Oil Sh...
+  ⬇️  Downloading: EWWMN7309878526.mp3
+     Title: “We’re Just Getting Started” | Bob Elliott on Why The Oil Sh...
+     ✓ Downloaded to /Users/jaredsheppard/.openclaw/workspace/audio/EWWMN7309878526.mp3
+  🎙️  Transcribing: EWWMN7309878526.mp3
+  ✓ Already transcribed: EWWMN7309878526.txt
+
+📻 Processing: https://feeds.simplecast.com/JGE3yC0V...
+  📋 Latest: AI, Supply Chains, and the Future of Economic Power...
+  ⬇️  Downloading: the_a16z_show_20260318_8a933596_ade2_4914_b13e_375c5ac0.mp3
+     Title: AI, Supply Chains, and the Future of Economic Power...
+     ✓ Downloaded to /Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_20260318_8a933596_ade2_4914_b13e_375c5ac0.mp3
+  🎙️  Transcribing: the_a16z_show_20260318_8a933596_ade2_4914_b13e_375c5ac0.mp3
+  ✓ Already transcribed: the_a16z_show_20260318_8a933596_ade2_4914_b13e_375c5ac0.txt
+
+📻 Processing: https://rss.libsyn.com/shows/254861/destinations/1...
+  📋 Latest: John Fetterman: The Rogue Democrat Who Broke Party Ranks...
+  ⬇️  Downloading: ALLIN-INTV_Fetterman_Ch.mp3
+     Title: John Fetterman: The Rogue Democrat Who Broke Party Ranks...
+     ✓ Downloaded to /Users/jaredsheppard/.openclaw/workspace/audio/ALLIN-INTV_Fetterman_Ch.mp3
+  🎙️  Transcribing: ALLIN-INTV_Fetterman_Ch.mp3
+  ✓ Already transcribed: ALLIN-INTV_Fetterman_Ch.txt
+
+📻 Processing: https://anchor.fm/s/e29097f4/podcast/rss...
+  ⏭ Already have 'Uncle, Not TACO: Bitcoin in a World on Fire' (guid match, ep_id=72)
+  ✗ No episode found
+
+📻 Processing: https://feed.podbean.com/macrovoices/feed.xml...
+  ⏭ Already have 'MacroVoices #523 Jim Bianco: Energy, FED & Economy' (guid match, ep_id=59)
+  ✗ No episode found
+
+📻 Processing: https://api.substack.com/feed/podcast/69345.rss...
+  ⏭ Already have 'Dylan Patel — Deep dive on the 3 big bottlenecks t' (guid match, ep_id=63)
+  ✗ No episode found
+
+✓ Log saved: /Users/jaredsheppard/.openclaw/workspace/pipeline/state/fetch_log.json
+
+======================================================================
+SUMMARY
+======================================================================
+Total feeds: 7
+Successfully transcribed: 3
+Failed: 0
+
+Completed episodes:
+  ✓ Monetary Matters with Jack Farley: “We’re Just Getting Started” | Bob Elliott on Why ...
+  ✓ The a16z Show: AI, Supply Chains, and the Future of Economic Powe...
+  ✓ All-In with Chamath, Jason, Sacks & Friedberg: John Fetterman: The Rogue Democrat Who Broke Party...
+
+
+Next step: Run 'python3 research.py' to analyze transcripts
+
+✓ Fetch & Transcribe completed
+
+============================================================
+STEP: Newsletter Ingestion
+============================================================
+==================================================
+Newsletter Ingestion Pipeline
+==================================================
+
+Connecting to Gmail...
+Connecting to Gmail at imap.gmail.com:993...
+Logging in as jsheppard8989@gmail.com...
+Selecting folder: NEWSLETTERS...
+Found 0 unread emails
+
+No emails fetched from Gmail.
+
+✓ Processed 0 emails
+
+Files saved to: /Users/jaredsheppard/.openclaw/workspace/pipeline/inbox
+
+Next step: Run analysis to score stock mentions
+
+✓ Newsletter Ingestion completed
+  ✓ Cleaned up 3 orphan audio file(s) (transcript already exists)
+
+============================================================
+STEP: Transcript AI Analysis
+============================================================
+  ⚠ Google Generative AI library not installed. Run: pip install google-generativeai
+
+============================================================
+Processing Podcast Transcripts with AI
+============================================================
+  Using Moonshot/Kimi API (primary)
+Found 66 transcript files
+  Processing DVVTS4101423217.txt...
+    ⏭ Skipping (published 2023-12-18 is before Feb 2026 cutoff)
+  Processing EWWMN3482909708.txt...
+    ⏭ Skipping (published 2023-12-18 is before Feb 2026 cutoff)
+  Processing EWWMN2965097612.txt...
+    ⏭ Skipping (published 2023-03-01 is before Feb 2026 cutoff)
+  Processing e3c75a06762af10f374661e8af1d1af6.txt...
+    ⏭ Episode already in database (duplicate), skipping
+  Processing EWWMN7309878526.txt...
+    ✓ Added episode (ID: 76)
+    + Emerging term: Oil Shock
+    ⚠ Failed to add mention for HFGM: CHECK constraint failed: timeframe IN ('short_term', 'long_term', 'unspecified')
+    ✓ Added 0 ticker mentions
+  Processing dario_amodei.txt...
+    ⏭ Too short, skipping
+  Processing the_a16z_show_20260318_8a933596_ade2_4914_b13e_375c5ac0.txt...
+    ✓ Added episode (ID: 77)
+    + Emerging term: Geopolitical Technology War
+    + Emerging term: Hardware End
+    + Emerging term: Secure Supply Chains
+    ✓ Added 0 ticker mentions
+  Processing cecdbe38125e2786cbfebe31dd083d4f.txt...
+    ⏭ Skipping (published 2023-12-07 is before Feb 2026 cutoff)
+  Processing DVVTS5786783285.txt...
+    ⏭ Skipping (published 2023-11-28 is before Feb 2026 cutoff)
+  Processing https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-10%2F417811310-44100-2-5be9b2c9f29f2.txt...
+    ⏭ Skipping (published 2023-11-07 is before Feb 2026 cutoff)
+  Processing elon_musk.txt...
+    ⏭ Too short, skipping
+  Processing default.txt...
+    ⏭ Skipping (published 2023-12-20 is before Feb 2026 cutoff)
+  Processing https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-17%2F418255357-44100-2-b07eb0f35b621.txt...
+    ⏭ Skipping (published 2023-04-05 is before Feb 2026 cutoff)
+  Processing peter_diamandis_brett_adcock_ep229.txt...
+    ⏭ Skipping (published 2023-11-23 is before Feb 2026 cutoff)
+  Processing https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-0-13%2F202cb903-9237-cf95-362f-50770b90d121.txt...
+    ⏭ Skipping (published 2023-10-04 is before Feb 2026 cutoff)
+  Processing ALLIN-INTV_Fetterman_Ch.txt...
+    ✓ Added episode (ID: 78)
+    + Emerging term: Moral Clarity
+    + Emerging term: Voting by Mail
+    ✓ Added 0 ticker mentions
+  Processing https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-18%2Fdff54dee-2ba4-02bd-9c43-d935696550da.txt...
+    ⏭ Skipping (published 2023-11-22 is before Feb 2026 cutoff)
+
+✓ Transcript processing complete: 3 new, 49 skipped, 0 errors
+✓ Analyzed 3 new transcripts
+
+============================================================
+STEP: Newsletter Import
+============================================================
+✓ Total newsletters imported: 0
+
+============================================================
+STEP: Promote Episodes to Insights
+============================================================
+Found 3 processed episodes not yet in insights
+  ✓ Promoted: 'Monetary Matters with Jack Farley: Oil Shocks, Inflation, an' (sentiment=neutral)
+  ✓ Promoted: 'Interview with Senator John Fetterman on Voting Rights, Poli' (sentiment=neutral)
+  ✓ Promoted: 'The Geopolitics of Technology and the Future Economy' (sentiment=neutral)
+  ✓ Auto-archived 3 older insights
+✓ Promoted 3 new insight(s) to website
+
+============================================================
+STEP: Promote Newsletters to Insights
+============================================================
+Found 0 newsletters not yet on site
+
+============================================================
+STEP: Aggregate Daily Scores
+============================================================
+✓ Saved 0 daily scores
+
+============================================================
+STEP: Generate Deep Dives
+============================================================
+Generating Deep Dives for 3 insights...
+
+  Using Moonshot/Kimi API
+[93] Monetary Matters with Jack Farley: Oil Shocks, Inflation, an
+  ✓ Deep Dive stored
+[94] Interview with Senator John Fetterman on Voting Rights, Poli
+  ✓ Deep Dive stored
+[95] The Geopolitics of Technology and the Future Economy
+  ✓ Deep Dive stored
+
+✓ Generated 3/3 Deep Dives
+
+✓ Generate Deep Dives completed
+
+============================================================
+STEP: Fetch Prices
+============================================================
+04: Not Found
+Failed
+  Fetching DELL... $149.21 (-2.83%)
+  Fetching DIS... $99.42 (-4.71%)
+  Fetching DOCS... $24.79 (-3.54%)
+  Fetching EMAX... $0.00 (-0.00%)
+  Fetching ETH-USD... $2197.98 (+11.60%)
+  Fetching FB... $42.29 (-0.66%)
+  Fetching GLD... $444.74 (-9.24%)
+  Fetching GOLD... $46.01 (-19.08%)
+  Fetching GOOG... $306.30 (-0.02%)
+  Fetching GOOGL... $307.69 (+0.38%)
+  Fetching GS... $805.48 (-6.52%)
+  Fetching Gold... $46.01 (-19.08%)
+  Fetching HFGM... $32.98 (-2.80%)
+  Fetching HOOD... $74.90 (-4.93%)
+  Fetching IBM... $251.60 (+5.11%)
+  Fetching IEF... $95.75 (-1.41%)
+  Fetching ILMN... $122.95 (-7.48%)
+  Fetching INDA... $47.72 (-6.34%)
+  Fetching INFY... $12.92 (-8.95%)
+  Fetching IWM... $246.02 (-6.74%)
+  Fetching JNJ... $237.28 (-4.54%)
+  Fetching LLY... $918.05 (-9.82%)
+  Fetching META... $615.68 (-5.80%)
+  Fetching MINE... $3.26 (-19.90%)
+  Fetching MSFT... $391.79 (-1.70%)
+  Fetching MSTR... $140.56 (+2.11%)
+  Fetching NEE... $90.96 (-1.89%)
+  Fetching NINT...     Error fetching NINT: HTTP Error 404: Not Found
+Failed
+  Fetching NOW... $113.71 (+3.92%)
+  Fetching NVDA... $180.40 (-1.14%)
+  Fetching Nasdaq... $594.90 (-2.17%)
+  Fetching OKLO... $56.70 (-12.34%)
+  Fetching PALL... $135.34 (-15.92%)
+  Fetching PLTM... $19.49 (-12.09%)
+  Fetching PLTR... $152.77 (+5.24%)
+  Fetching PQNT... $20.92 (-6.55%)
+  Fetching PYPL... $44.59 (-2.28%)
+  Fetching QQQ... $594.90 (-2.17%)
+  Fetching Russell... $246.02 (-6.74%)
+  Fetching S&P... $661.43 (-3.64%)
+  Fetching S&P 500... $661.43 (-3.64%)
+  Fetching SF... $70.15 (-7.17%)
+  Fetching SLV... $68.70 (-15.78%)
+  Fetching SMR... $12.03 (-7.82%)
+  Fetching SNAP... $4.62 (-12.17%)
+  Fetching SNWGF... $10.62 (-22.43%)
+  Fetching SOYB... $24.18 (+2.07%)
+  Fetching SPY... $661.43 (-3.64%)
+  Fetching SQ... Failed
+  Fetching SQQQ... $75.21 (+6.54%)
+  Fetching Semiconductors... $393.67 (-3.13%)
+  Fetching T... $27.41 (-2.14%)
+  Fetching TDOC... $5.42 (+5.04%)
+  Fetching TLT... $86.95 (-2.96%)
+  Fetching TSLA... $392.78 (-2.61%)
+  Fetching TSM... $339.57 (-8.00%)
+  Fetching TWTR...     Error fetching TWTR: HTTP Error 404: Not Found
+Failed
+  Fetching UNG... $12.67 (+5.58%)
+  Fetching URANIUM...     Error fetching URANIUM: HTTP Error 404: Not Found
+Failed
+  Fetching US 10 year Treasury...     Error fetching US 10 year Treasury: URL can't contain control characters. '/v8/finance/chart/US 
+Failed
+  Fetching USO... $121.67 (+39.55%)
+  Fetching Uranium...     Error fetching Uranium: HTTP Error 404: Not Found
+Failed
+  Fetching VEEV... $184.03 (+1.42%)
+  Fetching VIX... $25.09 (+17.02%)
+  Fetching WIT... $2.19 (+1.39%)
+  Fetching WMT... $121.98 (-4.03%)
+  Fetching WORK... Failed
+  Fetching WTBN... $25.34 (-1.25%)
+  Fetching WTI... $3.00 (+0.00%)
+  Fetching XAU-USD... $0.00 (+0.00%)
+  Fetching XOM... $157.59 (+2.19%)
+  Fetching ZEN...     Error fetching ZEN: HTTP Error 404: Not Found
+Failed
+
+✓ Saved 78 prices to /Users/jaredsheppard/.openclaw/workspace/site/price_data.json
+Finished: 2026-03-18 22:07:00.336001
+
+✓ Fetch Prices completed
+
+============================================================
+STEP: Generate Charts
+============================================================
+
+STDERR: Traceback (most recent call last):
+  File "/Users/jaredsheppard/.openclaw/workspace/pipeline/generate_charts.py", line 7, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+
+✗ Generate Charts failed
+
+============================================================
+STEP: Auto-Curate Terms
+============================================================

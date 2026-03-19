@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-18T19:42:48.829185",
+  "timestamp": "2026-03-18T22:01:11.380120",
   "total_feed_episodes": 7,
   "approved_for_transcription": 7,
   "episodes": [
@@ -24,10 +24,10 @@
       "published": "Thu, 19 Mar 2026 00:23:00 -0000",
       "published_date": "2026-03-19",
       "rss_guid": "169e3044-2325-11f1-826a-13927ba8f9fe",
+      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/EWWMN7309878526.mp3",
+      "filename": "EWWMN7309878526.mp3",
       "status": "APPROVED",
-      "matched_keywords": [],
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/monetary_matters_with_jack_farley__we_re_just_getting_started____bob_elliott_on_why_the_oil_sh_5dee786d.mp3",
-      "filename": "monetary_matters_with_jack_farley__we_re_just_getting_started____bob_elliott_on_why_the_oil_sh_5dee786d.mp3"
+      "matched_keywords": []
     },
     {
       "podcast": "Monetary Matters with Jack Farley",
@@ -72,10 +72,10 @@
       "published": "Wed, 18 Mar 2026 11:35:00 +0000",
       "published_date": "2026-03-18",
       "rss_guid": "32691806-7703-4dd9-aa75-bbd3a19edc14",
+      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/ALLIN-INTV_Fetterman_Ch.mp3",
+      "filename": "ALLIN-INTV_Fetterman_Ch.mp3",
       "status": "APPROVED",
-      "matched_keywords": [],
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/all_in_with_chamath__jason__sacks___frie_john_fetterman__the_rogue_democrat_who_broke_party_ranks_076e06ae.mp3",
-      "filename": "all_in_with_chamath__jason__sacks___frie_john_fetterman__the_rogue_democrat_who_broke_party_ranks_076e06ae.mp3"
+      "matched_keywords": []
     },
     {
       "podcast": "Dwarkesh Podcast",

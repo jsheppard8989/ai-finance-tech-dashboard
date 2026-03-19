@@ -1,5 +1,47 @@
 [
   {
+    "id": 84,
+    "name": "John Fetterman",
+    "slug": "john-fetterman",
+    "bio": "Senator from Pennsylvania, known for his pragmatic approach to policy and bipartisan appeal.",
+    "known_for": "His stance on voting rights, support for Israel, and refusal to shut down the Department of Homeland Security.",
+    "last_seen": "2026-03-19 03:04:44",
+    "last_episode_title": "Interview with Senator John Fetterman on Voting Rights, Policy Decisions, and the Democratic Party",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-03-18",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "While not directly investment-focused, the episode provides insights into the political climate and potential policy directions that could indirectly affect various sectors and investment strategies."
+  },
+  {
+    "id": 83,
+    "name": "Jacob Helbert",
+    "slug": "jacob-helbert",
+    "bio": "Under Secretary of State for Economic Affairs",
+    "known_for": "Author of 'The Wires of War' and his work on AI, manufacturing, and supply chains",
+    "last_seen": "2026-03-19 03:02:43",
+    "last_episode_title": "The Geopolitics of Technology and the Future Economy",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-03-18",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in companies that are at the forefront of AI innovation, hardware manufacturing, and secure supply chain management to capitalize on the new geopolitics of technology and the reindustrialization of the US."
+  },
+  {
+    "id": 82,
+    "name": "Bob Elliott",
+    "slug": "bob-elliott",
+    "bio": "Chief Investment Officer at Unlimited Funds and former member of the Investment Committee at Bridgewater.",
+    "known_for": "Expertise in macroeconomic trading and investment strategy.",
+    "last_seen": "2026-03-19 03:02:29",
+    "last_episode_title": "Monetary Matters with Jack Farley: Oil Shocks, Inflation, and Market Reactions",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-03-19",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "The current elevated oil prices and their subsequent impact on inflation and growth present a complex investment landscape, with stocks and bonds being particularly at risk. Investors should consider packaging trades to navigate these dynamics."
+  },
+  {
     "id": 81,
     "name": "Elon Musk",
     "slug": "elon-musk",
@@ -80,7 +122,7 @@
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2027-01-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Invest in AI and automation technologies that are driving the shift towards AI governance and efficiency in business operations."
   },
   {
@@ -180,47 +222,5 @@
     "mention_score": 1,
     "mention_score_decayed": 0.89,
     "last_main_idea": "Investors should consider the geopolitical risks associated with the US-Iran conflict and the potential impact on global oil supply, as well as the long-term shift towards renewable energy sources."
-  },
-  {
-    "id": 54,
-    "name": "Jim Bianco",
-    "slug": "jim-bianco",
-    "bio": "Founder of Bianco Research, a provider of institutional research.",
-    "known_for": "In-depth analysis of financial markets and macroeconomic trends.",
-    "last_seen": "2026-03-12 20:30:09",
-    "last_episode_title": "Macro Voices Episode 523: Geopolitical Situation in Iran, Oil Prices, Precious Metals, and Market Analysis",
-    "last_podcast_name": "Macro Voices",
-    "last_episode_date": "2026-03-12",
-    "mention_score": 1,
-    "mention_score_decayed": 0.87,
-    "last_main_idea": "The current geopolitical tensions, particularly in Iran, are creating significant market volatility, especially in oil prices, which presents both risks and opportunities for investors."
-  },
-  {
-    "id": 55,
-    "name": "Dr. Onus Alhajji",
-    "slug": "dr-onus-alhajji",
-    "bio": "Expert commentator on energy markets and geopolitical conflicts.",
-    "known_for": "Analysis of the impact of geopolitical events on oil markets.",
-    "last_seen": "2026-03-12 20:30:09",
-    "last_episode_title": "Macro Voices Episode 523: Geopolitical Situation in Iran, Oil Prices, Precious Metals, and Market Analysis",
-    "last_podcast_name": "Macro Voices",
-    "last_episode_date": "2026-03-12",
-    "mention_score": 1,
-    "mention_score_decayed": 0.87,
-    "last_main_idea": "The current geopolitical tensions, particularly in Iran, are creating significant market volatility, especially in oil prices, which presents both risks and opportunities for investors."
-  },
-  {
-    "id": 52,
-    "name": "Alex Carp",
-    "slug": "alex-carp",
-    "bio": "Co-founder and CEO of Palantir, a company that specializes in big data analytics.",
-    "known_for": "Building technology deployed on battlefields and analytics infrastructure embedded in the Department of Defense.",
-    "last_seen": "2026-03-12 20:29:53",
-    "last_episode_title": "The Intersection of Technology, Geopolitics, and National Defense",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-03-12",
-    "mention_score": 1,
-    "mention_score_decayed": 0.87,
-    "last_main_idea": "Investing in companies that leverage technology to enhance national defense and security could yield significant returns, especially if they align with the interests of the defense establishment."
   }
 ]
