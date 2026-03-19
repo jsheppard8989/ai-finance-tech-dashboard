@@ -14,7 +14,9 @@ from db_manager import get_db
 
 
 def upsert_entity(name: str, type_: str = "person", bio: str | None = None,
-                  known_for: str | None = None, source_url: str | None = None) -> int:
+                  known_for: str | None = None, source_url: str | None = None,
+                  voice_tone: str | None = None, voice_style: str | None = None,
+                  voice_delivery_notes: str | None = None) -> int:
     """
     Upsert an entity by name + type. Returns entity_id.
     """
@@ -25,7 +27,11 @@ def upsert_entity(name: str, type_: str = "person", bio: str | None = None,
 
     with db._get_connection() as conn:
         row = conn.execute(
-            "SELECT id, bio, known_for, source_url FROM entities WHERE LOWER(name) = LOWER(?) AND type = ?",
+            """
+            SELECT id, bio, known_for, source_url, voice_tone, voice_style, voice_delivery_notes
+            FROM entities
+            WHERE LOWER(name) = LOWER(?) AND type = ?
+            """,
             (name_clean, type_),
         ).fetchone()
         if row:
@@ -33,13 +39,27 @@ def upsert_entity(name: str, type_: str = "person", bio: str | None = None,
             new_bio = bio or row["bio"]
             new_known_for = known_for or row["known_for"]
             new_source_url = source_url or row["source_url"]
+            new_voice_tone = voice_tone or row["voice_tone"]
+            new_voice_style = voice_style or row["voice_style"]
+            new_voice_delivery = voice_delivery_notes or row["voice_delivery_notes"]
             conn.execute(
                 """
                 UPDATE entities
-                SET bio = ?, known_for = ?, source_url = ?, updated_at = CURRENT_TIMESTAMP
+                SET bio = ?, known_for = ?, source_url = ?,
+                    voice_tone = ?, voice_style = ?, voice_delivery_notes = ?,
+                    voice_profile_updated_at = CASE
+                      WHEN ? IS NOT NULL OR ? IS NOT NULL OR ? IS NOT NULL THEN CURRENT_TIMESTAMP
+                      ELSE voice_profile_updated_at
+                    END,
+                    updated_at = CURRENT_TIMESTAMP
                 WHERE id = ?
                 """,
-                (new_bio, new_known_for, new_source_url, row["id"]),
+                (
+                    new_bio, new_known_for, new_source_url,
+                    new_voice_tone, new_voice_style, new_voice_delivery,
+                    voice_tone, voice_style, voice_delivery_notes,
+                    row["id"],
+                ),
             )
             return row["id"]
 
@@ -49,10 +69,20 @@ def upsert_entity(name: str, type_: str = "person", bio: str | None = None,
         slug = re.sub(r"[^\w\s-]", "", name_clean).strip().lower().replace(" ", "-")[:80] or "entity"
         cursor = conn.execute(
             """
-            INSERT INTO entities (name, type, slug, bio, known_for, source_url)
-            VALUES (?, ?, ?, ?, ?, ?)
+            INSERT INTO entities (
+              name, type, slug, bio, known_for, source_url,
+              voice_tone, voice_style, voice_delivery_notes, voice_profile_updated_at
+            )
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, CASE
+              WHEN ? IS NOT NULL OR ? IS NOT NULL OR ? IS NOT NULL THEN CURRENT_TIMESTAMP
+              ELSE NULL
+            END)
             """,
-            (name_clean, type_, slug, bio, known_for, source_url),
+            (
+                name_clean, type_, slug, bio, known_for, source_url,
+                voice_tone, voice_style, voice_delivery_notes,
+                voice_tone, voice_style, voice_delivery_notes,
+            ),
         )
         return cursor.lastrowid
 
@@ -152,8 +182,19 @@ def ingest_ai_result(
         bio = p.get("bio") or None
         known_for = p.get("known_for") or None
         prominence = int(p.get("prominence") or 1)
+        voice_tone = p.get("voice_tone") or None
+        voice_style = p.get("voice_style") or None
+        voice_delivery_notes = p.get("voice_delivery_notes") or None
 
-        entity_id = upsert_entity(name=name, type_="person", bio=bio, known_for=known_for)
+        entity_id = upsert_entity(
+            name=name,
+            type_="person",
+            bio=bio,
+            known_for=known_for,
+            voice_tone=voice_tone,
+            voice_style=voice_style,
+            voice_delivery_notes=voice_delivery_notes,
+        )
         insert_appearance(
             entity_id=entity_id,
             source_type=source_type,

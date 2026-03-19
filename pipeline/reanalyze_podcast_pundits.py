@@ -72,7 +72,18 @@ def ingest_guests_and_hosts(episode_id: int, podcast_name: str, analysis: dict) 
             continue
         bio = g.get("bio") or None
         known_for = g.get("known_for") or None
-        entity_id = upsert_entity(name=name, type_="person", bio=bio, known_for=known_for)
+        voice_tone = g.get("voice_tone") or None
+        voice_style = g.get("voice_style") or None
+        voice_delivery_notes = g.get("voice_delivery_notes") or None
+        entity_id = upsert_entity(
+            name=name,
+            type_="person",
+            bio=bio,
+            known_for=known_for,
+            voice_tone=voice_tone,
+            voice_style=voice_style,
+            voice_delivery_notes=voice_delivery_notes,
+        )
         insert_appearance(
             entity_id=entity_id,
             source_type="podcast",

@@ -1,4 +1,17 @@
 {
-  "rotation_index": 0,
-  "weeks": []
+  "rotation_index": 1,
+  "weeks": [
+    {
+      "friday_iso": "2026-03-18",
+      "week_label": "Week of 2026-03-18",
+      "prompt": "Will S&P 500 companies announce at least 50,000 net layoffs explicitly attributed to automation or AI in public filings, press releases, or verified corporate social posts within the next 42 days?",
+      "debater_a": "",
+      "debater_b": "",
+      "expires_rule": "42-day Friday-noon CST (to be enforced by scheduler)",
+      "resolution_status": "pending",
+      "resolution_notes": "",
+      "archived_at": "2026-03-19T16:41:25.173387",
+      "audio_href": "./audio/archive/debate_2026-03-18.mp3"
+    }
+  ]
 }

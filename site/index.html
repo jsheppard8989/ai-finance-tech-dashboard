@@ -1947,7 +1947,8 @@
         var thesis = whatText ? ('<div class="last-thesis">“' + whatText + '”</div>') : '';
 
         // Net worth may be enriched later (e.g. Grokopedia). Keep data attrs for modal.
-        var netWorth = item.net_worth_usd || item.net_worth || '';
+        // Prefer pre-formatted display string when available.
+        var netWorth = item.net_worth || item.net_worth_usd || '';
         var netWorthSrc = item.net_worth_source || '';
 
         return '' +
@@ -2633,6 +2634,19 @@
       activeCard = card.classList.contains('active') ? card : null;
     }
 
+    function formatNetWorthDisplay(raw) {
+      const clean = String(raw || '').trim();
+      if (!clean) return '';
+      // Keep already human-formatted values like "$12.4B".
+      if (/[a-zA-Z]/.test(clean)) return clean;
+      // Numeric-ish input → currency with commas.
+      const numeric = Number(clean.replace(/[$,\s]/g, ''));
+      if (Number.isFinite(numeric) && numeric > 0) {
+        return '$' + numeric.toLocaleString('en-US', { maximumFractionDigits: 0 });
+      }
+      return clean;
+    }
+
     function showNetWorthModal(name, netWorth, netWorthSrc) {
       const modal = document.getElementById('netWorthModal');
       const title = document.getElementById('netWorthTitle');
@@ -2642,7 +2656,7 @@
 
       title.textContent = name + ' — Net Worth';
 
-      const clean = (netWorth || '').trim();
+      const clean = formatNetWorthDisplay(netWorth);
       if (clean) {
         value.textContent = clean;
         sub.textContent = netWorthSrc ? ('Source: ' + netWorthSrc) : 'Source: (not recorded)';

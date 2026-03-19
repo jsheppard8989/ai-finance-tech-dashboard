@@ -74,7 +74,7 @@ Sorting on the front page uses these scores; Overton will get a 30‑day half‑
   - Scheduled jobs (midnight, 4am, 7am, 10pm), and
   - Explicit commands when something is clearly stale/broken.
 - Heartbeats:
-  - Read `status.json` / `episode_status.json`.  
+  - Read `status.json` / `pipeline_state.json`.  
   - Only trigger `auto_pipeline.py` when `last_pipeline_run` is past the configured threshold.  
   - Notify Jared only on `blocked_*` states or stuck episodes, not on normal in‑flight work.
 

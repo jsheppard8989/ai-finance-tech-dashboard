@@ -22,4 +22,4 @@ Details and rationale are in `memory/2025-02-12.md`.
 To see how well episodes are being picked up, processed, and posted **without asking each time**:
 
 - **On the site:** Open **Pipeline health** (link next to “Last updated” in the header) or go to `pipeline-health.html`. It shows last run time, step pass/fail, and key counts (episodes, insights, Overton terms, pundits).
-- **Data sources:** `site/data/status.json` (updated on every export) and `site/data/pipeline_report.json` (written when the full pipeline runs). Local copy: `pipeline/state/last_run_report.json`.
+- **Data sources:** `site/data/status.json` and `site/data/pipeline_state.json` (both updated on export). Local debug copy: `pipeline/state/last_run_report.json`.

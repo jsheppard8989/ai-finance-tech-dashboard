@@ -851,7 +851,7 @@ def main():
         print("="*60)
         print(summary)
 
-        # Write pipeline run report for health dashboard (same shape as run_pipeline)
+        # Write local run report for debugging/ops.
         try:
             db = get_db()
             stats = db.get_stats() if hasattr(db, "get_stats") else {}
@@ -868,16 +868,10 @@ def main():
             }
             state_dir = STATE_DIR
             state_dir.mkdir(parents=True, exist_ok=True)
-            site_data_dir = SITE_DIR / "data"
-            site_data_dir.mkdir(parents=True, exist_ok=True)
-            # Local copy for debugging
             with open(state_dir / "last_run_report.json", "w") as f:
                 json.dump(report, f, indent=2, default=str)
-            # Copy for website (Pipeline Health → Step results)
-            with open(site_data_dir / "pipeline_report.json", "w") as f:
-                json.dump(report, f, indent=2, default=str)
         except Exception as e:
-            print(f"  ⚠ Could not write pipeline report: {e}")
+            print(f"  ⚠ Could not write local run report: {e}")
 
         # Mark successful run for catch-up logic (so "run on wake" knows we ran today)
         try:

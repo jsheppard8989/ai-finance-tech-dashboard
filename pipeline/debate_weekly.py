@@ -20,6 +20,7 @@ Env: same as pipeline (Moonshot/OpenAI) + ELEVENLABS_* for audio.
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 import os
 import re
@@ -41,6 +42,7 @@ HISTORY_PATH = WORKSPACE / "site" / "debate_history.json"
 SCRIPTS_STATE = PIPELINE / "state" / "last_debate_scripts.json"
 ARCHIVE_DIR = SITE_AUDIO / "archive"
 OUT_MP3 = SITE_AUDIO / "emp_ai_the_debate_11labs.mp3"
+AUDIO_META_PATH = SITE_AUDIO / "debate_audio_meta.json"
 
 EXCLUDE_PUNDITS = frozenset(
     {"Dylan", "Moonshots", "Alexander Wissner-Gross", "Salim Ismail", "Dave Blundin"}
@@ -241,6 +243,8 @@ def generate_speeches(
     crux: str,
     name_yes: str,
     name_no: str,
+    voice_yes: str = "",
+    voice_no: str = "",
 ) -> Tuple[str, str]:
     system = """Return ONLY valid JSON:
   "yes_speech": string — plain text for text-to-speech. Speaker is arguing YES on the contract.
@@ -262,6 +266,8 @@ Crux theme: {crux or "general"}
 
 YES speaker display name: {name_yes}
 NO speaker display name: {name_no}
+YES speaker style notes: {voice_yes or "(none)"}
+NO speaker style notes: {voice_no or "(none)"}
 
 Write yes_speech and no_speech."""
 
@@ -281,6 +287,20 @@ def build_host_script(prompt: str, name_a: str, name_b: str) -> str:
         f"{name_a} will make the case for yes.\n"
         f"{name_b} will make the case for no."
     )
+
+
+def _voice_profile_line(p: Dict[str, Any]) -> str:
+    tone = (p.get("voice_tone") or "").strip()
+    style = (p.get("voice_style") or "").strip()
+    notes = (p.get("voice_delivery_notes") or "").strip()
+    parts = []
+    if tone:
+        parts.append(f"tone={tone}")
+    if style:
+        parts.append(f"style={style}")
+    if notes:
+        parts.append(f"delivery={notes}")
+    return "; ".join(parts)
 
 
 def archive_current_week(history: Dict[str, Any], prev_contract: Optional[Dict]) -> None:
@@ -332,11 +352,39 @@ def write_scripts_state(host: str, yes_s: str, no_s: str) -> None:
     )
 
 
-def run_tts() -> None:
+def _first_line_name(speech: str) -> str:
+    line = (speech or "").strip().splitlines()[0].strip() if (speech or "").strip() else ""
+    if line.endswith("."):
+        line = line[:-1]
+    return line.strip()
+
+
+def validate_speeches(yes_s: str, no_s: str, expected_yes: str, expected_no: str) -> None:
+    got_yes = _first_line_name(yes_s)
+    got_no = _first_line_name(no_s)
+    if got_yes.lower() != (expected_yes or "").strip().lower():
+        raise ValueError(f"YES speech speaker mismatch: expected '{expected_yes}', got '{got_yes}'")
+    if got_no.lower() != (expected_no or "").strip().lower():
+        raise ValueError(f"NO speech speaker mismatch: expected '{expected_no}', got '{got_no}'")
+
+
+def run_tts(
+    friday_iso: str = "",
+    expected_yes: str = "",
+    expected_no: str = "",
+    prompt: str = "",
+) -> Dict[str, Any]:
     from generate_debate_audio_11labs import tts
 
     load_env()
     bundle = json.loads(SCRIPTS_STATE.read_text(encoding="utf-8"))
+    yes_name = _first_line_name(bundle.get("yes", ""))
+    no_name = _first_line_name(bundle.get("no", ""))
+    if expected_yes and yes_name.lower() != expected_yes.strip().lower():
+        raise RuntimeError(f"Audio safety check failed: YES speaker in script is '{yes_name}', expected '{expected_yes}'")
+    if expected_no and no_name.lower() != expected_no.strip().lower():
+        raise RuntimeError(f"Audio safety check failed: NO speaker in script is '{no_name}', expected '{expected_no}'")
+
     host_v = os.getenv("ELEVENLABS_HOST_VOICE_ID", "").strip()
     a_v = os.getenv("ELEVENLABS_A_VOICE_ID", "").strip()
     b_v = os.getenv("ELEVENLABS_B_VOICE_ID", "").strip()
@@ -351,6 +399,19 @@ def run_tts() -> None:
     )
     OUT_MP3.write_bytes(audio)
     print(f"✓ Wrote {OUT_MP3} ({len(audio)} bytes)")
+    prompt_hash = hashlib.sha256((prompt or "").encode("utf-8")).hexdigest()[:16] if prompt else ""
+    meta = {
+        "generated_at": datetime.now().isoformat(),
+        "friday_iso": friday_iso or "",
+        "debater_a": yes_name,
+        "debater_b": no_name,
+        "prompt_hash": prompt_hash,
+        "audio_file": OUT_MP3.name,
+        "bytes": len(audio),
+    }
+    AUDIO_META_PATH.write_text(json.dumps(meta, indent=2), encoding="utf-8")
+    print(f"✓ Wrote {AUDIO_META_PATH}")
+    return meta
 
 
 def public_contract(
@@ -368,6 +429,20 @@ def public_contract(
     out["bet_status"] = "open"
     out["audio_href"] = "./audio/emp_ai_the_debate_11labs.mp3"
     return out
+
+
+def validate_contract_audio_match(contract: Dict[str, Any], audio_meta: Dict[str, Any]) -> None:
+    if not audio_meta:
+        raise RuntimeError("Audio metadata missing; refusing to publish contract.")
+    for k in ("friday_iso", "debater_a", "debater_b"):
+        cv = (contract.get(k) or "").strip().lower()
+        av = (audio_meta.get(k) or "").strip().lower()
+        if cv != av:
+            raise RuntimeError(f"Publish safety check failed: contract {k}='{contract.get(k)}' != audio {k}='{audio_meta.get(k)}'")
+    ch = (contract.get("prompt_hash") or "").strip().lower()
+    ah = (audio_meta.get("prompt_hash") or "").strip().lower()
+    if ch and ah and ch != ah:
+        raise RuntimeError("Publish safety check failed: contract/audio prompt hashes differ.")
 
 
 def cmd_mark_resolved(friday_iso: str, status: str, notes: str) -> int:
@@ -410,7 +485,19 @@ def main() -> int:
         if not SCRIPTS_STATE.exists():
             print("No last_debate_scripts.json — run full weekly generation first.")
             return 1
-        run_tts()
+        # Best-effort metadata from current contract, if present.
+        c = {}
+        if CONTRACT_PATH.exists():
+            try:
+                c = json.loads(CONTRACT_PATH.read_text(encoding="utf-8"))
+            except Exception:
+                c = {}
+        run_tts(
+            friday_iso=(c.get("friday_iso") or ""),
+            expected_yes=(c.get("debater_a") or ""),
+            expected_no=(c.get("debater_b") or ""),
+            prompt=(c.get("prompt") or ""),
+        )
         return 0
 
     friday = friday_iso_cst()
@@ -445,21 +532,6 @@ def main() -> int:
         print(json.dumps(c, indent=2))
         return 0
 
-    if prev:
-        arch = dict(prev)
-        if not arch.get("friday_iso"):
-            ga = arch.get("generated_at") or ""
-            arch["friday_iso"] = ga[:10] if len(ga) >= 10 else "legacy-pre-weekly"
-        arch.setdefault("debater_a", "")
-        arch.setdefault("debater_b", "")
-        arch.setdefault("prompt", arch.get("prompt", ""))
-        same_week_force = bool(args.force and prev_friday == friday)
-        new_week = arch.get("friday_iso") != friday
-        legacy_migrate = not prev_friday
-        if not same_week_force and (new_week or legacy_migrate):
-            archive_current_week(history, arch)
-            save_history(history)
-
     contract_core = generate_contract(kind, client, overton, insights, avoid)
     rotation = history["rotation_index"]
     pundits = load_pundits()
@@ -474,22 +546,50 @@ def main() -> int:
         contract_core.get("crux_theme") or "",
         name_a,
         name_b,
+        _voice_profile_line(p_a),
+        _voice_profile_line(p_b),
     )
+    validate_speeches(yes_speech, no_speech, name_a, name_b)
     host_s = build_host_script(contract_core["prompt"], name_a, name_b)
     write_scripts_state(host_s, yes_speech, no_speech)
 
-    full_public = public_contract(contract_core, friday, name_a, name_b)
-    SITE_AUDIO.mkdir(parents=True, exist_ok=True)
-    CONTRACT_PATH.write_text(json.dumps(full_public, indent=2), encoding="utf-8")
+    # Archive old week audio into history snapshot before overwriting current MP3.
+    history_next = dict(history)
+    history_next["weeks"] = list(history.get("weeks", []))
+    if prev:
+        arch = dict(prev)
+        if not arch.get("friday_iso"):
+            ga = arch.get("generated_at") or ""
+            arch["friday_iso"] = ga[:10] if len(ga) >= 10 else "legacy-pre-weekly"
+        arch.setdefault("debater_a", "")
+        arch.setdefault("debater_b", "")
+        arch.setdefault("prompt", arch.get("prompt", ""))
+        same_week_force = bool(args.force and prev_friday == friday)
+        new_week = arch.get("friday_iso") != friday
+        legacy_migrate = not prev_friday
+        if not same_week_force and (new_week or legacy_migrate):
+            archive_current_week(history_next, arch)
 
-    history["rotation_index"] = rotation + 1
-    save_history(history)
+    prompt_hash = hashlib.sha256(contract_core["prompt"].encode("utf-8")).hexdigest()[:16]
+    full_public = public_contract(contract_core, friday, name_a, name_b)
+    full_public["prompt_hash"] = prompt_hash
+    SITE_AUDIO.mkdir(parents=True, exist_ok=True)
 
     try:
-        run_tts()
+        audio_meta = run_tts(
+            friday_iso=friday,
+            expected_yes=name_a,
+            expected_no=name_b,
+            prompt=contract_core["prompt"],
+        )
     except Exception as e:
-        print(f"⚠ Audio failed (contract saved): {e}")
+        print(f"⚠ Audio failed (contract not published): {e}")
         return 1
+
+    validate_contract_audio_match(full_public, audio_meta)
+    CONTRACT_PATH.write_text(json.dumps(full_public, indent=2), encoding="utf-8")
+    history_next["rotation_index"] = rotation + 1
+    save_history(history_next)
 
     print(f"✓ Week {friday} | {name_a} vs {name_b}")
     return 0

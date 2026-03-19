@@ -1,18 +1,28 @@
 {
-  "prompt": "Will S&P 500 companies announce at least 50,000 net layoffs explicitly attributed to automation or AI in public filings, press releases, or verified corporate social posts within the next 42 days?",
-  "generated_at": "2026-03-18T10:56:35.213499",
-  "expires_rule": "42-day Friday-noon CST (to be enforced by scheduler)",
+  "prompt": "Will Bitcoin's price exceed $50,000 per coin within the next 42 days?",
+  "expires_rule": "Resolves Friday 12:00 PM CST 2023-05-19",
+  "crux_theme": "Cryptocurrency price movement",
   "resolution_clarity": {
-    "source_of_truth": "Capitalist Compass (the line / crowd signal)",
+    "source_of_truth": "Price data from a reputable cryptocurrency exchange",
     "resolution_sources": [
-      "TBD"
+      "Coinbase",
+      "Binance",
+      "Kraken"
     ],
     "resolution_criteria": [
-      "TBD"
+      "The highest price recorded during the 42-day period"
     ]
   },
   "sides": {
     "a": "Affirmative (YES)",
     "b": "Negative (NO)"
-  }
+  },
+  "friday_iso": "2026-03-20",
+  "week_label": "Week of 2026-03-20",
+  "debater_a": "John Fetterman",
+  "debater_b": "Jacob Helbert",
+  "generated_at": "2026-03-19T16:41:25.173456",
+  "bet_status": "open",
+  "audio_href": "./audio/emp_ai_the_debate_11labs.mp3",
+  "prompt_hash": "8185607f2034858e"
 }

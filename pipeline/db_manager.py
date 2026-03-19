@@ -121,6 +121,10 @@ class DashboardDB:
                     net_worth_usd REAL,
                     net_worth_source TEXT,
                     net_worth_updated_at TIMESTAMP,
+                    voice_tone TEXT,
+                    voice_style TEXT,
+                    voice_delivery_notes TEXT,
+                    voice_profile_updated_at TIMESTAMP,
                     source_url TEXT,
                     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
                     updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
@@ -132,6 +136,10 @@ class DashboardDB:
                 "ALTER TABLE entities ADD COLUMN net_worth_usd REAL",
                 "ALTER TABLE entities ADD COLUMN net_worth_source TEXT",
                 "ALTER TABLE entities ADD COLUMN net_worth_updated_at TIMESTAMP",
+                "ALTER TABLE entities ADD COLUMN voice_tone TEXT",
+                "ALTER TABLE entities ADD COLUMN voice_style TEXT",
+                "ALTER TABLE entities ADD COLUMN voice_delivery_notes TEXT",
+                "ALTER TABLE entities ADD COLUMN voice_profile_updated_at TIMESTAMP",
             ]:
                 try:
                     conn.execute(col_sql)
@@ -447,6 +455,10 @@ class DashboardDB:
                     e.net_worth_usd,
                     e.net_worth_source,
                     e.net_worth_updated_at,
+                    e.voice_tone,
+                    e.voice_style,
+                    e.voice_delivery_notes,
+                    e.voice_profile_updated_at,
                     a.created_at AS last_seen,
                     pe.episode_title AS last_episode_title,
                     pe.podcast_name AS last_podcast_name,
@@ -517,6 +529,10 @@ class DashboardDB:
                     'net_worth_usd': row.get('net_worth_usd'),
                     'net_worth_source': row.get('net_worth_source'),
                     'net_worth_updated_at': row.get('net_worth_updated_at'),
+                    'voice_tone': row.get('voice_tone'),
+                    'voice_style': row.get('voice_style'),
+                    'voice_delivery_notes': row.get('voice_delivery_notes'),
+                    'voice_profile_updated_at': row.get('voice_profile_updated_at'),
                     'last_seen': row['last_seen'],
                     'last_episode_title': row['last_episode_title'],
                     'last_podcast_name': row['last_podcast_name'],

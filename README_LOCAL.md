@@ -29,7 +29,7 @@ These are operational folders; they’re ignored in git so Cursor can hide them:
 - `pipeline/state/` – pipeline_status, curation logs, analysis failures, last run reports.
 - `pipeline/logs/` – long pipeline log output.
 - `pipeline/audio/`, `pipeline/transcripts/`, `pipeline/whisper_queue/`, `pipeline/whisper_done/` – raw/derived audio + text.
-- `site/data/` – generated JSON/JS that the site reads (`status.json`, `episode_status.json`, `data.js`, etc.).
+- `site/data/` – generated JSON/JS that the site reads (`status.json`, `pipeline_state.json`, `data.js`, etc.).
 
 You almost never need to open these by hand; the pipeline and Clawbot manage them.
 

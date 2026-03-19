@@ -240,6 +240,16 @@
     .res-void { color: #a78bfa; }
     .history-prompt { color: #cbd5f5; max-width: 280px; line-height: 1.35; }
     .history-audio { font-size: 0.75rem; }
+    .audio-warning {
+      margin-top: 0.55rem;
+      font-size: 0.82rem;
+      color: #fca5a5;
+      border: 1px solid rgba(248, 113, 113, 0.45);
+      background: rgba(127, 29, 29, 0.25);
+      border-radius: 8px;
+      padding: 0.5rem 0.65rem;
+      display: none;
+    }
   </style>
 </head>
 <body>
@@ -292,6 +302,7 @@
         <source id="debate-audio-src" src="./audio/emp_ai_the_debate_11labs.mp3" type="audio/mpeg">
         Your browser does not support the audio element.
       </audio>
+      <div id="audio-mismatch-warning" class="audio-warning"></div>
       <p class="future-note" style="margin-top: 0.6rem;">
         Note: Pundit personas are assigned to debate sides randomly for color and depth, and (by design) are not meant to reflect how someone actually feels about the topic. Voices are synthetic, not impersonations.
       </p>
@@ -348,6 +359,16 @@
           return await resp.json();
         } catch(e) {
           return { weeks: [] };
+        }
+      }
+
+      async function loadDebateAudioMeta() {
+        try {
+          const resp = await fetch('./audio/debate_audio_meta.json?v=' + Date.now(), { cache: 'no-cache' });
+          if (!resp.ok) return null;
+          return await resp.json();
+        } catch(e) {
+          return null;
         }
       }
 
@@ -468,9 +489,12 @@
         const weekLabelEl = document.getElementById('week-label');
         const betRow = document.getElementById('bet-status-row');
         const audioSrc = document.getElementById('debate-audio-src');
+        const audioEl = document.getElementById('debate-audio');
+        const warnEl = document.getElementById('audio-mismatch-warning');
 
         const contract = await loadDebateContract();
         const hist = await loadDebateHistory();
+        const audioMeta = await loadDebateAudioMeta();
 
         const genAt = contract && contract.generated_at ? formatDate(contract.generated_at) : (data && data.generatedAt ? formatDate(data.generatedAt) : '—');
         dateEl.textContent = genAt === '—' ? '' : ` · ${genAt}`;
@@ -490,8 +514,34 @@
 
         if (audioSrc && contract && contract.generated_at) {
           audioSrc.src = './audio/emp_ai_the_debate_11labs.mp3?v=' + encodeURIComponent(contract.generated_at);
-          var aud = document.getElementById('debate-audio');
-          if (aud) try { aud.load(); } catch(e) {}
+          if (audioEl) try { audioEl.load(); } catch(e) {}
+        }
+
+        // Safety check: current audio metadata must match contract debaters + week.
+        if (warnEl) {
+          warnEl.style.display = 'none';
+          warnEl.textContent = '';
+          if (contract && audioMeta) {
+            const mismatch = [];
+            const ck = (k) => String(contract[k] || '').trim().toLowerCase();
+            const ak = (k) => String(audioMeta[k] || '').trim().toLowerCase();
+            ['friday_iso', 'debater_a', 'debater_b'].forEach(function(k) {
+              if (ck(k) && ak(k) && ck(k) !== ak(k)) mismatch.push(k);
+            });
+            if (mismatch.length) {
+              warnEl.style.display = 'block';
+              warnEl.textContent = 'Warning: audio metadata does not match current listed debaters/week (' + mismatch.join(', ') + '). Please regenerate this week\'s debate audio.';
+              if (audioEl) audioEl.controls = false;
+            } else if (audioEl) {
+              audioEl.controls = true;
+            }
+          } else if (contract && (!audioMeta || !audioMeta.debater_a)) {
+            warnEl.style.display = 'block';
+            warnEl.textContent = 'Warning: no debate_audio_meta.json found, so we cannot verify that the audio matches this week\'s debaters.';
+            if (audioEl) audioEl.controls = false;
+          } else if (audioEl) {
+            audioEl.controls = true;
+          }
         }
 
         const sourceBits = [];

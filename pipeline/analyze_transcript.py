@@ -287,7 +287,10 @@ def analyze_transcript_with_ai(client_info, transcript_content: str, podcast_nam
         "      \"name\": \"Full name of a main guest/interviewee\",\n"
         "      \"role\": \"guest\",\n"
         "      \"bio\": \"1-2 sentence bio (optional, only for important guests)\",\n"
-        "      \"known_for\": \"Short 'known for' line for investors (optional)\"\n"
+        "      \"known_for\": \"Short 'known for' line for investors (optional)\",\n"
+        "      \"voice_tone\": \"Short phrase about speaking tone from this transcript only (optional)\",\n"
+        "      \"voice_style\": \"One sentence on argument/rhetorical style from this transcript only (optional)\",\n"
+        "      \"voice_delivery_notes\": \"One sentence with pacing/emphasis guidance for TTS scripts (optional)\"\n"
         "    }\n"
         "  ],\n"
         "  \"hosts\": [\n"
@@ -560,7 +563,18 @@ def process_transcript_file(transcript_path: Path, client_info, db) -> Optional[
             continue
         bio = g.get('bio') or None
         known_for = g.get('known_for') or None
-        entity_id = upsert_entity(name=name, type_='person', bio=bio, known_for=known_for)
+        voice_tone = g.get('voice_tone') or None
+        voice_style = g.get('voice_style') or None
+        voice_delivery_notes = g.get('voice_delivery_notes') or None
+        entity_id = upsert_entity(
+            name=name,
+            type_='person',
+            bio=bio,
+            known_for=known_for,
+            voice_tone=voice_tone,
+            voice_style=voice_style,
+            voice_delivery_notes=voice_delivery_notes,
+        )
         insert_appearance(
             entity_id=entity_id,
             source_type='podcast',
