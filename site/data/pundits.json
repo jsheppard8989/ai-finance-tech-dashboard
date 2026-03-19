@@ -56,16 +56,17 @@
     "slug": "elon-musk",
     "bio": "CEO of Tesla and SpaceX, known for his work in electric vehicles and space exploration.",
     "known_for": "Innovative technologies and ambitious projects in sustainable energy and space travel.",
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
+    "net_worth_usd": 270100000000.0,
+    "net_worth_source": "https://www.wikidata.org/wiki/Q317521",
+    "net_worth_updated_at": "2026-03-19T15:06:00.316451",
     "last_seen": "2026-03-17 22:17:06",
     "last_episode_title": "Elon Musk on Moonshots: Discussing AI, Robotics, and Future Technologies",
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-03-17",
     "mention_score": 1,
     "mention_score_decayed": 0.98,
-    "last_main_idea": "Invest in companies at the forefront of AI, robotics, and space technology, as these sectors are poised for significant growth and disruption."
+    "last_main_idea": "Invest in companies at the forefront of AI, robotics, and space technology, as these sectors are poised for significant growth and disruption.",
+    "net_worth": "$270.10B"
   },
   {
     "id": 79,
@@ -124,16 +125,17 @@
     "slug": "michael-dell",
     "bio": "Founder and CEO of Dell Technologies.",
     "known_for": "Building one of the world's largest technology infrastructure companies.",
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
+    "net_worth_usd": 37600000000.0,
+    "net_worth_source": "https://www.wikidata.org/wiki/Q218630",
+    "net_worth_updated_at": "2026-03-19T15:06:02.916452",
     "last_seen": "2026-03-17 10:15:16",
     "last_episode_title": "Stealth Startups and the Digitization of the Physical World",
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-17",
     "mention_score": 1,
     "mention_score_decayed": 0.95,
-    "last_main_idea": "Invest in companies that are digitizing the physical world and transforming traditional industries through technology."
+    "last_main_idea": "Invest in companies that are digitizing the physical world and transforming traditional industries through technology.",
+    "net_worth": "$37.60B"
   },
   {
     "id": 73,
@@ -166,7 +168,7 @@
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-02-18",
     "mention_score": 2,
-    "mention_score_decayed": 1.91,
+    "mention_score_decayed": 1.87,
     "last_main_idea": "Invest in the vertical integration of AI, the rise of India as a global AI hub, and the shift towards agent-based interactions."
   },
   {

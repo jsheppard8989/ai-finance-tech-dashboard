@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-19T14:06:22.105396",
+  "last_updated": "2026-03-19T15:06:19.490875",
   "episodes": {
     "moonshots_with_peter_diamandis_meta_buys_moltbook,_gpt_5.4,_a": {
       "info": {
@@ -39,7 +39,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-19T14:06:22.006244",
+      "first_seen": "2026-03-19T15:06:19.369577",
       "status": "needs_transcription"
     },
     "monetary_matters_with_jack_farley_stock_market_on_shaky_foundati": {
@@ -80,7 +80,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-19T14:06:22.024896",
+      "first_seen": "2026-03-19T15:06:19.395041",
       "status": "needs_transcription"
     },
     "the_a16z_show_ai_just_gave_you_superpowers_\u2014": {
@@ -121,7 +121,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-19T14:06:22.041326",
+      "first_seen": "2026-03-19T15:06:19.414626",
       "status": "needs_transcription"
     },
     "the_a16z_show_chris_dixon:_from_quant_tradin": {
@@ -162,7 +162,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-19T14:06:22.057691",
+      "first_seen": "2026-03-19T15:06:19.432712",
       "status": "needs_transcription"
     },
     "all-in_with_chamath,_jason,_sacks_&_friedberg_jensen_huang_live:_nvidia's_fu": {
@@ -203,7 +203,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-19T14:06:22.073572",
+      "first_seen": "2026-03-19T15:06:19.451483",
       "status": "needs_transcription"
     },
     "dwarkesh_podcast_why_leonardo_was_a_saboteur,_g": {
@@ -244,7 +244,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-19T14:06:22.090253",
+      "first_seen": "2026-03-19T15:06:19.471011",
       "status": "needs_transcription"
     }
   }

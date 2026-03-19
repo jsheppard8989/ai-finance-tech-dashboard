@@ -108,6 +108,7 @@ def _wikidata_search_entity_id(name: str) -> Optional[str]:
     try:
         resp = requests.get(
             "https://www.wikidata.org/w/api.php",
+            headers={"User-Agent": "OpenClaw/1.0 (ai-finance-tech-dashboard; no-reply)"},  # Wikidata requires UA
             params={
                 "action": "wbsearchentities",
                 "format": "json",
@@ -143,6 +144,7 @@ def _wikidata_net_worth_usd(entity_id: str) -> Tuple[Optional[float], Optional[s
     try:
         resp = requests.get(
             "https://www.wikidata.org/w/api.php",
+            headers={"User-Agent": "OpenClaw/1.0 (ai-finance-tech-dashboard; no-reply)"},  # Wikidata requires UA
             params={
                 "action": "wbgetentities",
                 "format": "json",

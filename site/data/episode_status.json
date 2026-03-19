@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-19T14:06:22.105396",
+  "last_updated": "2026-03-19T15:06:19.490875",
   "last_3_completed": [],
   "episodes": [
     {
@@ -121,9 +121,64 @@
         "published": "Not in data.js yet (run export and push to site)."
       },
       "status": "needs_transcription"
+    },
+    {
+      "id": "rss::monetary matters with jack farley::\u201cthis is the end of the oil market as we know it\u201d | rory johnston on how $300 oil could trigger depression if de-escalation does not occur i",
+      "podcast": "Monetary Matters with Jack Farley",
+      "title": "\u201cThis Is The End of The Oil Market As We Know It\u201d | Rory Johnston on How $300 Oil Could Trigger Depression If De-Escalation Does Not Occur In Iran War",
+      "published": "Thu, 19 Mar 2026 19:50:00 -0000",
+      "stages": {
+        "downloaded": false,
+        "transcribed": false,
+        "analyzed": false,
+        "insight_created": false,
+        "published": false
+      },
+      "stage_reasons": {
+        "downloaded": "Discovered on RSS feed; not yet pulled into curation/pipeline state.",
+        "transcribed": "Waiting for download first.",
+        "analyzed": "Waiting for transcript first.",
+        "insight_created": "Depends on analyze step first.",
+        "published": "Not on site until export after analysis and insight promotion."
+      },
+      "status": "needs_download"
+    },
+    {
+      "id": "rss::macro voices::macrovoices #524 simon white: war + inflation = more inflation",
+      "podcast": "Macro Voices",
+      "title": "MacroVoices #524 Simon White: War + Inflation = More Inflation",
+      "published": "Thu, 19 Mar 2026 14:08:42 -0500",
+      "stages": {
+        "downloaded": false,
+        "transcribed": false,
+        "analyzed": false,
+        "insight_created": false,
+        "published": false
+      },
+      "stage_reasons": {
+        "downloaded": "Discovered on RSS feed; not yet pulled into curation/pipeline state.",
+        "transcribed": "Waiting for download first.",
+        "analyzed": "Waiting for transcript first.",
+        "insight_created": "Depends on analyze step first.",
+        "published": "Not on site until export after analysis and insight promotion."
+      },
+      "status": "needs_download"
     }
   ],
-  "available_from_rss": [],
+  "available_from_rss": [
+    {
+      "podcast": "Monetary Matters with Jack Farley",
+      "title": "\u201cThis Is The End of The Oil Market As We Know It\u201d | Rory Johnston on How $300 Oil Could Trigger Depression If De-Escalation Does Not Occur In Iran War",
+      "published": "Thu, 19 Mar 2026 19:50:00 -0000",
+      "published_date": "2026-03-19"
+    },
+    {
+      "podcast": "Macro Voices",
+      "title": "MacroVoices #524 Simon White: War + Inflation = More Inflation",
+      "published": "Thu, 19 Mar 2026 14:08:42 -0500",
+      "published_date": "2026-03-19"
+    }
+  ],
   "stale_episodes": [
     {
       "id": "moonshots_with_peter_diamandis_meta_buys_moltbook,_gpt_5.4,_a",
