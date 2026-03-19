@@ -812,6 +812,15 @@ def main():
         results['insights_promoted'] += promote_newsletters_to_insights()
         results['scores'] = aggregate_scores()
 
+        # Opportunistic semantic-layer enrichment for pundits (net worth, bios).
+        # Script is idempotent and conservative; safe to run before exporting site JSON.
+        try:
+            from enrich_pundits import enrich_pundits
+            results['pundits_enriched'] = enrich_pundits(max_pundits=20)
+        except Exception as e:
+            print(f"  ⚠ Pundit enrichment skipped: {e}")
+            results['pundits_enriched'] = 0
+
         # Generate Deep Dives for any insights that don't have one (so site always has full content)
         run_script("Generate Deep Dives", "generate_deepdives.py", timeout=900)
 
