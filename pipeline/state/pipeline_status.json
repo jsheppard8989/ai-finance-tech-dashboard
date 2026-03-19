@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-19T10:33:36.503304",
+  "last_updated": "2026-03-19T13:31:39.466166",
   "episodes": {
     "moonshots_with_peter_diamandis_meta_buys_moltbook,_gpt_5.4,_a": {
       "info": {
@@ -39,7 +39,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-19T10:33:36.447143",
+      "first_seen": "2026-03-19T13:31:39.415787",
       "status": "needs_transcription"
     },
     "monetary_matters_with_jack_farley_stock_market_on_shaky_foundati": {
@@ -80,7 +80,48 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-19T10:33:36.480792",
+      "first_seen": "2026-03-19T13:31:39.426307",
+      "status": "needs_transcription"
+    },
+    "the_a16z_show_ai_just_gave_you_superpowers_\u2014": {
+      "info": {
+        "podcast": "The a16z Show",
+        "title": "AI Just Gave You Superpowers \u2014 Now What?",
+        "published": "Thu, 19 Mar 2026 10:00:00 +0000",
+        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_ai_just_gave_you_superpowers___now_what__ccf57061.mp3",
+        "keywords": [],
+        "rss_guid": "1e92a9dd-78da-4417-b1ce-4b4318d1f8c4"
+      },
+      "stages": {
+        "downloaded": {
+          "complete": true,
+          "timestamp": null,
+          "reason": null
+        },
+        "transcribed": {
+          "complete": false,
+          "file": null,
+          "timestamp": null,
+          "reason": "Waiting for fetch/transcribe step"
+        },
+        "analyzed": {
+          "complete": false,
+          "episode_id": null,
+          "timestamp": null,
+          "reason": "Waiting for next analyze run (transcript \u2192 DB)."
+        },
+        "insight_created": {
+          "complete": false,
+          "timestamp": null,
+          "reason": "Depends on analyze step first."
+        },
+        "published": {
+          "complete": false,
+          "timestamp": null,
+          "reason": "Not in data.js yet (run export and push to site)."
+        }
+      },
+      "first_seen": "2026-03-19T13:31:39.434700",
       "status": "needs_transcription"
     },
     "the_a16z_show_chris_dixon:_from_quant_tradin": {
@@ -88,21 +129,21 @@
         "podcast": "The a16z Show",
         "title": "Chris Dixon: From Quant Trading to Building a16z Crypto",
         "published": "Mon, 2 Mar 2026 11:00:00 +0000",
-        "audio_file": "",
+        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_chris_dixon__from_quant_trading_to_building_a16z_crypto_be2e5b4b.mp3",
         "keywords": [],
         "rss_guid": "1a7873e6-52cf-493d-a1a1-360a49324923"
       },
       "stages": {
         "downloaded": {
-          "complete": false,
+          "complete": true,
           "timestamp": null,
-          "reason": "Audio file missing or not found"
+          "reason": null
         },
         "transcribed": {
           "complete": false,
           "file": null,
           "timestamp": null,
-          "reason": "No transcript until audio is downloaded."
+          "reason": "Waiting for fetch/transcribe step"
         },
         "analyzed": {
           "complete": false,
@@ -121,29 +162,70 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-19T10:33:36.488248",
-      "status": "needs_download"
+      "first_seen": "2026-03-19T13:31:39.442352",
+      "status": "needs_transcription"
+    },
+    "all-in_with_chamath,_jason,_sacks_&_friedberg_jensen_huang_live:_nvidia's_fu": {
+      "info": {
+        "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+        "title": "Jensen Huang LIVE: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
+        "published": "Thu, 19 Mar 2026 18:05:00 +0000",
+        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/all_in_with_chamath__jason__sacks___frie_jensen_huang_live__nvidia_s_future__physical_ai__rise_of_the_03b9c382.mp3",
+        "keywords": [],
+        "rss_guid": "b9112fca-9ebf-47e8-a8a1-9bcbcf39cf84"
+      },
+      "stages": {
+        "downloaded": {
+          "complete": true,
+          "timestamp": null,
+          "reason": null
+        },
+        "transcribed": {
+          "complete": false,
+          "file": null,
+          "timestamp": null,
+          "reason": "Waiting for fetch/transcribe step"
+        },
+        "analyzed": {
+          "complete": false,
+          "episode_id": null,
+          "timestamp": null,
+          "reason": "Waiting for next analyze run (transcript \u2192 DB)."
+        },
+        "insight_created": {
+          "complete": false,
+          "timestamp": null,
+          "reason": "Depends on analyze step first."
+        },
+        "published": {
+          "complete": false,
+          "timestamp": null,
+          "reason": "Not in data.js yet (run export and push to site)."
+        }
+      },
+      "first_seen": "2026-03-19T13:31:39.450173",
+      "status": "needs_transcription"
     },
     "dwarkesh_podcast_why_leonardo_was_a_saboteur,_g": {
       "info": {
         "podcast": "Dwarkesh Podcast",
         "title": "Why Leonardo was a saboteur, Gutenberg went broke, and Florence was weird \u2013 Ada Palmer",
         "published": "Fri, 06 Mar 2026 17:14:20 GMT",
-        "audio_file": "",
+        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/dwarkesh_podcast_why_leonardo_was_a_saboteur__gutenberg_went_broke__and_flore_d121fb5b.mp3",
         "keywords": [],
         "rss_guid": "substack:post:190118311"
       },
       "stages": {
         "downloaded": {
-          "complete": false,
+          "complete": true,
           "timestamp": null,
-          "reason": "Audio file missing or not found"
+          "reason": null
         },
         "transcribed": {
           "complete": false,
           "file": null,
           "timestamp": null,
-          "reason": "No transcript until audio is downloaded."
+          "reason": "Waiting for fetch/transcribe step"
         },
         "analyzed": {
           "complete": false,
@@ -162,8 +244,8 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-19T10:33:36.495852",
-      "status": "needs_download"
+      "first_seen": "2026-03-19T13:31:39.457696",
+      "status": "needs_transcription"
     }
   }
 }

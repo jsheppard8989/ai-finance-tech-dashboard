@@ -274,7 +274,13 @@ def download_audio_for_approved(episodes):
 
         try:
             print(f"  ↓ Downloading audio: {ep.get('podcast','')[:40]} – {ep.get('title','')[:60]}")
-            with urllib.request.urlopen(audio_url, timeout=120) as resp, open(path, 'wb') as out:
+            # Some podcast hosts reject requests that look like "anonymous" (no UA).
+            # Adding a conservative User-Agent keeps other downloads working.
+            req = urllib.request.Request(
+                audio_url,
+                headers={"User-Agent": "Mozilla/5.0"},
+            )
+            with urllib.request.urlopen(req, timeout=120) as resp, open(path, 'wb') as out:
                 shutil.copyfileobj(resp, out)
             ep['audio_file'] = str(path)
             ep['filename'] = filename

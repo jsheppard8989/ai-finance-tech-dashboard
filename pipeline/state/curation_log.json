@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-03-19T04:20:07.523630",
-  "total_feed_episodes": 4,
-  "approved_for_transcription": 4,
+  "timestamp": "2026-03-19T13:31:28.942207",
+  "total_feed_episodes": 6,
+  "approved_for_transcription": 6,
   "episodes": [
     {
       "podcast": "Moonshots with Peter Diamandis",
@@ -31,6 +31,19 @@
     },
     {
       "podcast": "The a16z Show",
+      "title": "AI Just Gave You Superpowers \u2014 Now What?",
+      "description": "<p>A new paper, \u201cSome Simple Economics of AGI,\u201d is making the rounds\u2014Web3 with a16z we sat down with author Christian Catalini (MIT Crypto Economics Lab) and Eddy Lazzarin (CTO of a16z crypto), in conversation with Robert Hackett, to unpack what AGI could mean for work and markets.</p>\n<p>EPISODE NOTES:\u00a0</p>\n<p>A hot paper \u2014 \"Some Simple Economics of AGI\" \u2014 has been making the rounds, so we sat down with the author, covering:\u00a0</p>\n<ul>\n <li>Automation vs. verification: the key economic split\u00a0</l",
+      "audio_url": "https://mgln.ai/e/1344/afp-848985-injected.calisto.simplecastaudio.com/3f86df7b-51c6-4101-88a2-550dba782de8/episodes/0911ade7-ebb7-42bd-9dc0-25e9d5bb9181/audio/128/default.mp3?aid=rss_feed&awCollectionId=3f86df7b-51c6-4101-88a2-550dba782de8&awEpisodeId=0911ade7-ebb7-42bd-9dc0-25e9d5bb9181&feed=JGE3yC0V",
+      "published": "Thu, 19 Mar 2026 10:00:00 +0000",
+      "published_date": "2026-03-19",
+      "rss_guid": "1e92a9dd-78da-4417-b1ce-4b4318d1f8c4",
+      "status": "APPROVED",
+      "matched_keywords": [],
+      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_ai_just_gave_you_superpowers___now_what__ccf57061.mp3",
+      "filename": "the_a16z_show_ai_just_gave_you_superpowers___now_what__ccf57061.mp3"
+    },
+    {
+      "podcast": "The a16z Show",
       "title": "Chris Dixon: From Quant Trading to Building a16z Crypto",
       "description": "<p>In this feed drop from the Internet History Podcast, host Brian McCullough speaks with Chris Dixon, general partner at a16z, about his path from 1980s hobbyist programmer to one of the most prominent venture capitalists in tech. Chris traces his career from quantitative finance to founding SiteAdvisor, cofounding Founder Collective, starting an early machine learning company, and eventually building a16z's crypto practice from the ground up. They also discuss his framework for spotting unconv",
       "audio_url": "https://mgln.ai/e/1344/afp-848985-injected.calisto.simplecastaudio.com/3f86df7b-51c6-4101-88a2-550dba782de8/episodes/570e2e70-58d1-4291-aa63-e4512d6e78cf/audio/128/default.mp3?aid=rss_feed&awCollectionId=3f86df7b-51c6-4101-88a2-550dba782de8&awEpisodeId=570e2e70-58d1-4291-aa63-e4512d6e78cf&feed=JGE3yC0V",
@@ -38,7 +51,22 @@
       "published_date": "2026-03-02",
       "rss_guid": "1a7873e6-52cf-493d-a1a1-360a49324923",
       "status": "APPROVED",
-      "matched_keywords": []
+      "matched_keywords": [],
+      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_chris_dixon__from_quant_trading_to_building_a16z_crypto_be2e5b4b.mp3",
+      "filename": "the_a16z_show_chris_dixon__from_quant_trading_to_building_a16z_crypto_be2e5b4b.mp3"
+    },
+    {
+      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "title": "Jensen Huang LIVE: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
+      "description": "<p>(0:00) Jensen Huang joins the show!</p> <p>(1:00) Acquiring Groq and the inference explosion</p> <p>(9:27) Decision making at the world's most valuable company</p> <p>(11:22) Physical AI's $50T market, OpenClaw's future, the new operating system for modern AI computing</p> <p>(17:12) AI's PR crisis, refuting doomer narratives, Anthropic's comms mistakes</p> <p>(21:22) Revenue capacity, token allocation for employees, Karpathy's autoresearch, agentic future</p> <p>(31:24) Open source, global d",
+      "audio_url": "https://dts.podtrac.com/redirect.mp3/traffic.libsyn.com/secure/allinchamathjason/ALLIN_INTV_Jensen_GTC_Ch.mp3?dest-id=1928300",
+      "published": "Thu, 19 Mar 2026 18:05:00 +0000",
+      "published_date": "2026-03-19",
+      "rss_guid": "b9112fca-9ebf-47e8-a8a1-9bcbcf39cf84",
+      "status": "APPROVED",
+      "matched_keywords": [],
+      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/all_in_with_chamath__jason__sacks___frie_jensen_huang_live__nvidia_s_future__physical_ai__rise_of_the_03b9c382.mp3",
+      "filename": "all_in_with_chamath__jason__sacks___frie_jensen_huang_live__nvidia_s_future__physical_ai__rise_of_the_03b9c382.mp3"
     },
     {
       "podcast": "Dwarkesh Podcast",
@@ -49,7 +77,9 @@
       "published_date": "2026-03-06",
       "rss_guid": "substack:post:190118311",
       "status": "APPROVED",
-      "matched_keywords": []
+      "matched_keywords": [],
+      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/dwarkesh_podcast_why_leonardo_was_a_saboteur__gutenberg_went_broke__and_flore_d121fb5b.mp3",
+      "filename": "dwarkesh_podcast_why_leonardo_was_a_saboteur__gutenberg_went_broke__and_flore_d121fb5b.mp3"
     }
   ]
 }

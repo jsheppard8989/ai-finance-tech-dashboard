@@ -1,7 +1,47 @@
 {
-  "last_updated": "2026-03-19T10:33:36.503304",
+  "last_updated": "2026-03-19T13:31:39.466166",
   "last_3_completed": [],
   "episodes": [
+    {
+      "id": "the_a16z_show_ai_just_gave_you_superpowers_\u2014",
+      "podcast": "The a16z Show",
+      "title": "AI Just Gave You Superpowers \u2014 Now What?",
+      "published": "Thu, 19 Mar 2026 10:00:00 +0000",
+      "stages": {
+        "downloaded": true,
+        "transcribed": false,
+        "analyzed": false,
+        "insight_created": false,
+        "published": false
+      },
+      "stage_reasons": {
+        "transcribed": "Waiting for fetch/transcribe step",
+        "analyzed": "Waiting for next analyze run (transcript \u2192 DB).",
+        "insight_created": "Depends on analyze step first.",
+        "published": "Not in data.js yet (run export and push to site)."
+      },
+      "status": "needs_transcription"
+    },
+    {
+      "id": "all-in_with_chamath,_jason,_sacks_&_friedberg_jensen_huang_live:_nvidia's_fu",
+      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "title": "Jensen Huang LIVE: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
+      "published": "Thu, 19 Mar 2026 18:05:00 +0000",
+      "stages": {
+        "downloaded": true,
+        "transcribed": false,
+        "analyzed": false,
+        "insight_created": false,
+        "published": false
+      },
+      "stage_reasons": {
+        "transcribed": "Waiting for fetch/transcribe step",
+        "analyzed": "Waiting for next analyze run (transcript \u2192 DB).",
+        "insight_created": "Depends on analyze step first.",
+        "published": "Not in data.js yet (run export and push to site)."
+      },
+      "status": "needs_transcription"
+    },
     {
       "id": "monetary_matters_with_jack_farley_stock_market_on_shaky_foundati",
       "podcast": "Monetary Matters with Jack Farley",
@@ -48,20 +88,19 @@
       "title": "Why Leonardo was a saboteur, Gutenberg went broke, and Florence was weird \u2013 Ada Palmer",
       "published": "Fri, 06 Mar 2026 17:14:20 GMT",
       "stages": {
-        "downloaded": false,
+        "downloaded": true,
         "transcribed": false,
         "analyzed": false,
         "insight_created": false,
         "published": false
       },
       "stage_reasons": {
-        "downloaded": "Audio file missing or not found",
-        "transcribed": "No transcript until audio is downloaded.",
+        "transcribed": "Waiting for fetch/transcribe step",
         "analyzed": "Waiting for next analyze run (transcript \u2192 DB).",
         "insight_created": "Depends on analyze step first.",
         "published": "Not in data.js yet (run export and push to site)."
       },
-      "status": "needs_download"
+      "status": "needs_transcription"
     },
     {
       "id": "the_a16z_show_chris_dixon:_from_quant_tradin",
@@ -69,51 +108,22 @@
       "title": "Chris Dixon: From Quant Trading to Building a16z Crypto",
       "published": "Mon, 2 Mar 2026 11:00:00 +0000",
       "stages": {
-        "downloaded": false,
+        "downloaded": true,
         "transcribed": false,
         "analyzed": false,
         "insight_created": false,
         "published": false
       },
       "stage_reasons": {
-        "downloaded": "Audio file missing or not found",
-        "transcribed": "No transcript until audio is downloaded.",
+        "transcribed": "Waiting for fetch/transcribe step",
         "analyzed": "Waiting for next analyze run (transcript \u2192 DB).",
         "insight_created": "Depends on analyze step first.",
         "published": "Not in data.js yet (run export and push to site)."
       },
-      "status": "needs_download"
-    },
-    {
-      "id": "rss::the a16z show::ai just gave you superpowers \u2014 now what?",
-      "podcast": "The a16z Show",
-      "title": "AI Just Gave You Superpowers \u2014 Now What?",
-      "published": "Thu, 19 Mar 2026 10:00:00 +0000",
-      "stages": {
-        "downloaded": false,
-        "transcribed": false,
-        "analyzed": false,
-        "insight_created": false,
-        "published": false
-      },
-      "stage_reasons": {
-        "downloaded": "Discovered on RSS feed; not yet pulled into curation/pipeline state.",
-        "transcribed": "Waiting for download first.",
-        "analyzed": "Waiting for transcript first.",
-        "insight_created": "Depends on analyze step first.",
-        "published": "Not on site until export after analysis and insight promotion."
-      },
-      "status": "needs_download"
+      "status": "needs_transcription"
     }
   ],
-  "available_from_rss": [
-    {
-      "podcast": "The a16z Show",
-      "title": "AI Just Gave You Superpowers \u2014 Now What?",
-      "published": "Thu, 19 Mar 2026 10:00:00 +0000",
-      "published_date": "2026-03-19"
-    }
-  ],
+  "available_from_rss": [],
   "stale_episodes": [
     {
       "id": "moonshots_with_peter_diamandis_meta_buys_moltbook,_gpt_5.4,_a",
@@ -128,19 +138,19 @@
       "id": "dwarkesh_podcast_why_leonardo_was_a_saboteur,_g",
       "podcast": "Dwarkesh Podcast",
       "title": "Why Leonardo was a saboteur, Gutenberg went broke, and Florence was weird \u2013 Ada Palmer",
-      "status": "needs_download",
+      "status": "needs_transcription",
       "published": "Fri, 06 Mar 2026 17:14:20 GMT",
       "age_days": 13,
-      "next_blocker": "downloaded"
+      "next_blocker": "transcribed"
     },
     {
       "id": "the_a16z_show_chris_dixon:_from_quant_tradin",
       "podcast": "The a16z Show",
       "title": "Chris Dixon: From Quant Trading to Building a16z Crypto",
-      "status": "needs_download",
+      "status": "needs_transcription",
       "published": "Mon, 2 Mar 2026 11:00:00 +0000",
       "age_days": 17,
-      "next_blocker": "downloaded"
+      "next_blocker": "transcribed"
     }
   ],
   "stale_threshold_days": 2,
