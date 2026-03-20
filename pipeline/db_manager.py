@@ -511,6 +511,7 @@ class DashboardDB:
                 'Moonshots',
                 'Alexander Wissner-Gross',
                 'Salim Ismail',
+                'Dave Blund',
                 'Dave Blundin',
             }
             for row in rows:

@@ -3,7 +3,7 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-03-20T10:25:44.429314",
+  generatedAt: "2026-03-20T11:43:18.226757",
   chartsVersion: "2026-03-19T04:23:16.765044",
   tickerScores: [
   {
@@ -8570,30 +8570,6 @@ const dashboardData = {
     "voice_tone": "Confident and knowledgeable.",
     "voice_style": "Assertive, with a focus on the potential of generative models.",
     "voice_delivery_notes": "Speaks with conviction, emphasizing the importance of adaptability.",
-    "voice_profile_updated_at": "2026-03-20 14:08:13",
-    "last_seen": "2026-03-20 14:08:13",
-    "last_episode_title": "Meta Buys Moltbook GPT 5.4 and Fruitfly Brain Upload",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-03-17",
-    "mention_score": 1,
-    "mention_score_decayed": 1,
-    "last_main_idea": "Invest in AI and exponential technologies that are driving the next wave of wealth creation and leadership, focusing on adaptability and creativity.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
-    "id": 100,
-    "name": "Dave Blund",
-    "slug": "dave-blund",
-    "bio": "Brilliant individual working with Peter Diamandis.",
-    "known_for": "Contributing to the Moonshot podcast.",
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": "Enthusiastic and supportive.",
-    "voice_style": "Encourages discussion and collaboration.",
-    "voice_delivery_notes": "Speaks with excitement, highlighting the importance of community.",
     "voice_profile_updated_at": "2026-03-20 14:08:13",
     "last_seen": "2026-03-20 14:08:13",
     "last_episode_title": "Meta Buys Moltbook GPT 5.4 and Fruitfly Brain Upload",

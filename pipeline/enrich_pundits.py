@@ -52,6 +52,7 @@ _EXCLUDED_PUNDIT_NAMES = frozenset(
         "Moonshots",
         "Alexander Wissner-Gross",
         "Salim Ismail",
+        "Dave Blund",
         "Dave Blundin",
     }
 )

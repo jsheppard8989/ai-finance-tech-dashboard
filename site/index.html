@@ -350,24 +350,37 @@
     .guest-item .guest-source { font-size: 0.7rem; color: #8892b0; margin-top: 0.15rem; }
     .guest-inline {
       display: grid;
-      grid-template-columns: 1fr auto;
+      grid-template-columns: 1fr;
       gap: 0.25rem 0.75rem;
       align-items: center;
+      position: relative;
+      padding-right: 7rem; /* room for the upper-right Presence indicator */
     }
     .guest-inline .inline-tagline {
       color: #a8b2d1;
       font-size: 0.85rem;
     }
     .presence {
+      position: absolute;
+      top: 0.05rem;
+      right: 0;
       display: inline-flex;
       align-items: center;
-      gap: 0.35rem;
+      justify-content: flex-end;
+      gap: 0.25rem;
       font-size: 0.75rem;
       color: #8892b0;
     }
+    .presence-value {
+      font-weight: 700;
+      color: #a8b2d1;
+      font-size: 0.75rem;
+      min-width: 2.6rem;
+      text-align: right;
+    }
     .presence-bar {
-      width: 72px;
-      height: 6px;
+      width: 46px;
+      height: 5px;
       background: rgba(255,255,255,0.08);
       border: 1px solid rgba(255,255,255,0.12);
       border-radius: 999px;
@@ -1971,6 +1984,7 @@
           var cap = 4.0;
           norm = Math.max(0, Math.min(1, (decayed || 0) / cap));
         } catch(e) { norm = 0; }
+        var presencePct = Math.max(0, Math.min(100, Math.round(norm * 100)));
 
         // Who: short, factual identity line
         var whoText = '';
@@ -1983,7 +1997,7 @@
         // Why: why this voice is on our page right now
         var whyBits = [];
         if (mentionScore) {
-          whyBits.push('Featured in ' + mentionScore + ' episode' + (mentionScore > 1 ? 's' : '') + ' we analyzed');
+          whyBits.push('Appearance Count: ' + mentionScore);
         }
         if (src) {
           whyBits.push('most recently on ' + src);
@@ -1998,8 +2012,9 @@
           '<div class="guest-inline">' +
             '<div class="inline-tagline">' + (whoText || '') + '</div>' +
             '<div class="presence">' +
-              '<span>Presence</span>' +
-              '<span class="presence-bar"><span style="width:' + Math.round(norm * 100) + '%;"></span></span>' +
+              '<span class="presence-label">Presence</span>' +
+              '<span class="presence-value">' + presencePct + '%</span>' +
+              '<span class="presence-bar"><span style="width:' + presencePct + '%;"></span></span>' +
             '</div>' +
             '<div class="latest-arena">' + (whyText || '') + '</div>' +
           '</div>';
