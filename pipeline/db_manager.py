@@ -432,6 +432,12 @@ class DashboardDB:
             self.cleanup_placeholder_entities()
         except Exception as e:
             print(f"  ⚠ Placeholder cleanup skipped: {e}")
+        try:
+            n_ex = self.cleanup_excluded_pundit_entities()
+            if n_ex:
+                print(f"  ✓ Removed {n_ex} excluded co-host / non-pundit entity row(s)")
+        except Exception as e:
+            print(f"  ⚠ Excluded pundit cleanup skipped: {e}")
         
         # Export all tickers ranked by total weighted score from ticker_mentions
         scores = self.get_all_ticker_scores()
@@ -503,22 +509,13 @@ class DashboardDB:
             rows = [dict(row) for row in cursor.fetchall()]
 
             from person_name_safety import is_placeholder_person_name
+            from pundit_exclusions import is_excluded_pundit_name
 
             pundits = []
-            # Names to exclude from pundits export (recurring co-hosts / hosts)
-            excluded_pundit_names = {
-                'Dylan',
-                'Moonshots',
-                'Alexander Wissner-Gross',
-                'Salim Ismail',
-                'E-Modemustock',
-                'Dave Blund',
-                'Dave Blundin',
-            }
             for row in rows:
                 # Filter out known non-pundit co-hosts / recurring hosts
                 name = (row.get('name') or '').strip()
-                if name in excluded_pundit_names:
+                if is_excluded_pundit_name(name):
                     continue
                 if is_placeholder_person_name(name):
                     continue
@@ -672,7 +669,42 @@ class DashboardDB:
                 bad_ids,
             )
             return len(bad_ids)
-    
+
+    def cleanup_excluded_pundit_entities(self) -> int:
+        """
+        Delete person entities whose names are on the non-pundit exclusion list
+        (co-hosts, ASR manglings, etc.) and their appearances.
+        """
+        from pundit_exclusions import is_excluded_pundit_name
+
+        with self._get_connection() as conn:
+            cur = conn.execute(
+                """
+                SELECT id, name
+                FROM entities
+                WHERE type = 'person'
+                """
+            )
+            bad_ids: list[int] = []
+            for r in cur.fetchall():
+                name = (r["name"] or "").strip()
+                if is_excluded_pundit_name(name):
+                    bad_ids.append(int(r["id"]))
+
+            if not bad_ids:
+                return 0
+
+            placeholders = ",".join("?" * len(bad_ids))
+            conn.execute(
+                f"DELETE FROM appearances WHERE entity_id IN ({placeholders})",
+                bad_ids,
+            )
+            conn.execute(
+                f"DELETE FROM entities WHERE id IN ({placeholders})",
+                bad_ids,
+            )
+            return len(bad_ids)
+
     # === Archive Management ===
     
     def export_archive_data(self) -> Dict:

@@ -15,6 +15,7 @@ from typing import List, Dict, Optional, Tuple
 sys.path.insert(0, str(Path(__file__).parent))
 from db_manager import get_db, PodcastEpisode, TickerMention
 from person_name_safety import is_placeholder_person_name
+from pundit_exclusions import is_excluded_pundit_name
 
 # Try to import OpenAI
 try:
@@ -599,6 +600,8 @@ def process_transcript_file(transcript_path: Path, client_info, db) -> Optional[
         # Skip clearly placeholder-ish names (LLM extraction artifacts).
         if is_placeholder_person_name(name):
             continue
+        if is_excluded_pundit_name(name):
+            continue
         bio = g.get('bio') or None
         known_for = g.get('known_for') or None
         voice_tone = g.get('voice_tone') or None
@@ -627,6 +630,8 @@ def process_transcript_file(transcript_path: Path, client_info, db) -> Optional[
             continue
         # Skip placeholders for hosts too (prevents bogus pundits).
         if is_placeholder_person_name(name):
+            continue
+        if is_excluded_pundit_name(name):
             continue
         entity_id = upsert_entity(name=name, type_='person')
         insert_appearance(

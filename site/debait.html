@@ -402,8 +402,13 @@
         if (pundits.length === 0 && Array.isArray(data && data.podcastGuests)) {
           pundits = data.podcastGuests;
         }
-        const EXCLUDE = new Set(['Dylan', 'Moonshots', 'Alexander Wissner-Gross', 'Salim Ismail', 'Dave Blund', 'Dave Blundin']);
-        return pundits.filter(p => !EXCLUDE.has((p.name || '').trim()));
+        // Keep in sync with pipeline/pundit_exclusions.py EXCLUDED_PUNDIT_NAMES (case-insensitive)
+        const EXCLUDE_LOWER = new Set([
+          'dylan', 'moonshots', 'salim ismail', 'dave blund', 'dave blundin',
+          'alexander wissner-gross', 'alex wissner-gross', 'alex wissne-gross',
+          'alex wey', 'awg', 'e-modemustock'
+        ]);
+        return pundits.filter(p => !EXCLUDE_LOWER.has((p.name || '').trim().toLowerCase()));
       }
 
       function formatDate(iso) {

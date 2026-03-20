@@ -45,18 +45,7 @@ except ImportError:
 WORKSPACE = Path.home() / ".openclaw/workspace"
 PIPELINE = WORKSPACE / "pipeline"
 
-# Must match db_manager.export_for_website excluded pundit names
-_EXCLUDED_PUNDIT_NAMES = frozenset(
-    {
-        "Dylan",
-        "Moonshots",
-        "Alexander Wissner-Gross",
-        "Salim Ismail",
-        "E-Modemustock",
-        "Dave Blund",
-        "Dave Blundin",
-    }
-)
+from pundit_exclusions import is_excluded_pundit_name
 
 
 def fetch_top_pundit_entity_ids(conn, limit: int = 10) -> List[int]:
@@ -86,7 +75,7 @@ def fetch_top_pundit_entity_ids(conn, limit: int = 10) -> List[int]:
     ids: List[int] = []
     for row in cur.fetchall():
         name = (row["name"] or "").strip()
-        if name in _EXCLUDED_PUNDIT_NAMES:
+        if is_excluded_pundit_name(name):
             continue
         if is_placeholder_person_name(name):
             continue

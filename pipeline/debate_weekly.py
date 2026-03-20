@@ -44,11 +44,9 @@ ARCHIVE_DIR = SITE_AUDIO / "archive"
 OUT_MP3 = SITE_AUDIO / "emp_ai_the_debate_11labs.mp3"
 AUDIO_META_PATH = SITE_AUDIO / "debate_audio_meta.json"
 
-EXCLUDE_PUNDITS = frozenset(
-    {"Dylan", "Moonshots", "Alexander Wissner-Gross", "Salim Ismail", "Dave Blundin"}
-)
-
 sys.path.insert(0, str(PIPELINE))
+
+from pundit_exclusions import is_excluded_pundit_name
 
 try:
     from polymarket_debate_context import fetch_polymarket_debate_context
@@ -97,7 +95,7 @@ def load_pundits() -> List[Dict[str, Any]]:
         return []
     if not isinstance(rows, list):
         return []
-    out = [r for r in rows if (r.get("name") or "").strip() not in EXCLUDE_PUNDITS]
+    out = [r for r in rows if not is_excluded_pundit_name((r.get("name") or ""))]
     return out
 
 

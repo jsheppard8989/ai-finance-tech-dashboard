@@ -15,6 +15,8 @@ from typing import List, Tuple
 from db_manager import DB_PATH
 import analyze_transcript as at
 from ingest_ai_analysis import upsert_entity, insert_appearance
+from person_name_safety import is_placeholder_person_name
+from pundit_exclusions import is_excluded_pundit_name
 
 
 def purge_podcast_pundits() -> None:
@@ -70,6 +72,8 @@ def ingest_guests_and_hosts(episode_id: int, podcast_name: str, analysis: dict) 
         name = (g.get("name") or "").strip()
         if not name:
             continue
+        if is_placeholder_person_name(name) or is_excluded_pundit_name(name):
+            continue
         bio = g.get("bio") or None
         known_for = g.get("known_for") or None
         voice_tone = g.get("voice_tone") or None
@@ -95,6 +99,8 @@ def ingest_guests_and_hosts(episode_id: int, podcast_name: str, analysis: dict) 
     for h in hosts:
         name = (h.get("name") or "").strip()
         if not name:
+            continue
+        if is_placeholder_person_name(name) or is_excluded_pundit_name(name):
             continue
         entity_id = upsert_entity(name=name, type_="person")
         insert_appearance(
