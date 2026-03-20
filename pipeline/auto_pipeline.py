@@ -405,6 +405,12 @@ def promote_episodes_to_insights() -> int:
                 str(date.today()),
                 ep['id']
             ))
+            # When an episode gets a promoted "latest_insights" card, it's considered
+            # "published" for the site until exported/marked in pipeline_state.json.
+            conn.execute(
+                "UPDATE podcast_episodes SET added_to_site = 1 WHERE id = ?",
+                (ep['id'],),
+            )
             promoted += 1
             print(f"  ✓ Promoted: '{ep['episode_title'][:60]}' (sentiment={sentiment})")
 
@@ -427,6 +433,24 @@ def promote_episodes_to_insights() -> int:
                     WHERE id = ?
                 """, (insight_id,))
             print(f"  ✓ Auto-archived {len(to_archive)} older insights")
+
+        # Keep the Pipeline Health "Site" stage aligned with what is actually
+        # on the main page (active insights). This controls when episodes drop off
+        # the "Episodes In Pipeline" dashboard.
+        to_add = conn.execute("""
+            SELECT COUNT(*) AS c
+            FROM podcast_episodes
+            WHERE added_to_site = 0
+              AND id IN (SELECT DISTINCT podcast_episode_id FROM latest_insights WHERE display_on_main = 1)
+        """).fetchone()['c']
+        if to_add:
+            conn.execute("""
+                UPDATE podcast_episodes
+                SET added_to_site = 1
+                WHERE added_to_site = 0
+                  AND id IN (SELECT DISTINCT podcast_episode_id FROM latest_insights WHERE display_on_main = 1)
+            """)
+            print(f"  ✓ Marked {to_add} episode(s) added_to_site for active main insights")
 
     print(f"✓ Promoted {promoted} new insight(s) to website")
     return promoted

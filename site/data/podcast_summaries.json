@@ -1,5 +1,147 @@
 [
   {
+    "id": 91,
+    "podcast_name": "Macro Voices",
+    "episode_title": "Macro Voices: The Iran Conflict's Impact on Inflation and Energy Markets",
+    "episode_date": "2026-03-19",
+    "summary": "In this episode of Macro Voices, hosts Eric Townsend and Patrick Suresne discuss the market implications of the ongoing Iran conflict and the potential for secular inflation. They are joined by Bloomberg Macro strategist Simon White, who shares insights on the risk of renewed inflation, parallels to 1970s stagflation, and how shifts in commodities, credit, and the yield curve could reshape the macro outlook. Rory Johnston, founder of Commodity Context, provides an additional perspective on the conflict's impact on energy markets, particularly the oil sector.",
+    "key_takeaways": [
+      "The Iran conflict has dragged on longer than expected, leading to market sell-offs across various assets.",
+      "The lack of a rate cut by the Fed accelerated selling, indicating a potential for more downside in the absence of bullish news.",
+      "Simon White suggests that the oil price surge could be a catalyst for secular inflation.",
+      "Markets may be underpricing the second-order effects of the Iran conflict, which could lead to stagflation similar to the 1970s.",
+      "Shifts in commodities credit and the yield curve could significantly impact the macroeconomic outlook."
+    ],
+    "investment_thesis": "The ongoing Iran conflict may lead to a secular inflation cycle, with oil prices being a key catalyst. Investors should monitor shifts in commodities, credit, and the yield curve for potential macroeconomic impacts.",
+    "key_tickers": [
+      "S&P 500",
+      "WTI CRUDE OIL"
+    ]
+  },
+  {
+    "id": 90,
+    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "episode_title": "AI Factory and the Future of Computing",
+    "episode_date": "2026-03-19",
+    "summary": "In this special episode of 'All-In with Chamath, Jason, Sacks & Friedberg', the hosts discuss the significant strides in the AI industry, with a focus on NVIDIA's strategic moves and the broader implications for the tech landscape. The conversation touches on NVIDIA's acquisition of Grok, the evolution of AI computing, and the importance of disaggregated inference. They also delve into the role of open source in AI development and the global diffusion of AI technology. The discussion concludes with advice for young people on education and the future of work in the context of AI.",
+    "key_takeaways": [
+      "NVIDIA's acquisition of Grok marks a significant shift towards an AI factory model.",
+      "Disaggregated inference is identified as the most complicated computing problem today, with potential to revolutionize AI processing.",
+      "The hosts discuss the transformation of NVIDIA from a GPU company to an AI factory company.",
+      "Open source models and proprietary models are seen as complementary in the AI industry.",
+      "Global diffusion of US AI technology is a key focus, with a discussion on the political and regulatory challenges.",
+      "Education in AI and deep science is emphasized as crucial for the next generation."
+    ],
+    "investment_thesis": "NVIDIA's strategic acquisitions and technological advancements position it as a leader in the AI revolution, offering investors exposure to the growing AI factory industry.",
+    "key_tickers": [
+      "NVDA"
+    ]
+  },
+  {
+    "id": 89,
+    "podcast_name": "Monetary Matters with Jack Farley",
+    "episode_title": "Monetary Matters: Geopolitical Impact on Oil Markets with Roy Johnson",
+    "episode_date": "2026-03-19",
+    "summary": "In this special episode of Monetary Matters, host Jack Farley interviews Roy Johnson of Commodity Context to discuss the geopolitical crisis in the Middle East and its impact on oil markets. Johnson emphasizes that even if there's geopolitical de-escalation, the crisis is likely to be protracted, with severe implications for the oil market and global economy if the flow of oil through the Strait of Hormuz does not resume. The conversation covers the potential for a price spike in oil, the role of the United States and President Trump in resolving the crisis, and the concept of spare capacity in the oil market.",
+    "key_takeaways": [
+      "The Strait of Hormuz crisis could lead to a significant disruption in oil supply, with severe global economic consequences if not resolved.",
+      "Johnson believes the crisis is likely to be protracted, even with geopolitical de-escalation.",
+      "The United States, and specifically President Trump, may be the most movable party in the crisis and could play a key role in resolving it.",
+      "Spare capacity in the oil market is functionally zero, which exacerbates the potential impact of the Strait of Hormuz crisis on oil prices and supply.",
+      "Johnson suggests that even in an optimistic scenario where the crisis is resolved, oil prices are likely to remain structurally higher than pre-crisis levels."
+    ],
+    "investment_thesis": "The ongoing geopolitical crisis in the Middle East, particularly the situation in the Strait of Hormuz, presents a significant risk to the global oil supply and could lead to a structural increase in oil prices.",
+    "key_tickers": null
+  },
+  {
+    "id": 76,
+    "podcast_name": "Monetary Matters with Jack Farley",
+    "episode_title": "Monetary Matters with Jack Farley: Oil Shocks, Inflation, and Market Reactions",
+    "episode_date": "2026-03-19",
+    "summary": "In this episode of Monetary Matters, host Jack Farley interviews Bob Elliott, Chief Investment Officer at Unlimited Funds and former member of the Investment Committee at Bridgewater. They discuss the impact of elevated oil prices on the economy, stock market, bond market, and Federal Reserve's reaction function. The conversation covers the inflationary effects of oil shocks, the potential for a recession, and the implications for investors. Bob shares his insights on the current market dynamics, including his views on the Federal Reserve's stance, the impact on stocks and bonds, and potential trading opportunities in commodities and other asset classes.",
+    "key_takeaways": [
+      "Elevated oil prices lead to higher inflation and lower real growth, putting pressure on the Federal Reserve's dual mandate.",
+      "The immediate impact of an oil shock is inflationary, but over time it could lead to a negative shock on the economy.",
+      "Stocks are particularly at risk due to the dual impact of higher discount rates and declining real demand.",
+      "Initial market reactions to oil shocks typically see both stocks and bonds decline in price.",
+      "There may be opportunities in packaging trades to neutralize oil sensitivity while shorting stocks and bonds.",
+      "Commodity trading requires a differentiated view on geopolitical events and market dynamics to be successful."
+    ],
+    "investment_thesis": "The current elevated oil prices and their subsequent impact on inflation and growth present a complex investment landscape, with stocks and bonds being particularly at risk. Investors should consider packaging trades to navigate these dynamics.",
+    "key_tickers": [
+      "HFGM"
+    ]
+  },
+  {
+    "id": 78,
+    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "episode_title": "Interview with Senator John Fetterman on Voting Rights, Policy Decisions, and the Democratic Party",
+    "episode_date": "2026-03-18",
+    "summary": "In this episode of 'All-In with Chamath, Jason, Sacks & Friedberg', Senator John Fetterman discusses the Save America Act, his policy decisions, and the current state of the Democratic Party. The conversation covers voting rights, the influence of party politics on policy, and Fetterman's views on the Democratic Party's evolution and its core values. Fetterman emphasizes the importance of moral clarity and country over party, sharing his stance on issues like voting by mail and the role of the Department of Homeland Security.",
+    "key_takeaways": [
+      "Senator John Fetterman believes the Save America Act has turned into a 'Christmas tree' with too many unrelated issues attached.",
+      "Fetterman has a unique perspective, being popular among Republicans while maintaining his Democratic affiliation.",
+      "He distinguishes himself from the progressive wing of the Democratic Party, focusing on core principles and moral clarity.",
+      "Fetterman supports voting by mail and sees it as a secure method, contrary to some Democratic narratives.",
+      "He emphasizes the importance of showing ID for voting, suggesting that it should be the focus of election security discussions rather than peripheral issues.",
+      "There is a concern about non-citizen voting, but Fetterman points to data showing it is minimal, citing the Heritage Foundation's findings."
+    ],
+    "investment_thesis": "While not directly investment-focused, the episode provides insights into the political climate and potential policy directions that could indirectly affect various sectors and investment strategies.",
+    "key_tickers": null
+  },
+  {
+    "id": 77,
+    "podcast_name": "The a16z Show",
+    "episode_title": "The Geopolitics of Technology and the Future Economy",
+    "episode_date": "2026-03-18",
+    "summary": "In this episode of the a16z Show, the host sits down with Jacob Helbert, Under Secretary of State for Economic Affairs, to discuss the future of the economy, AI, manufacturing, supply chains, and the new geopolitics of technology. Helbert's insights are drawn from his book 'The Wires of War', where he argues that the technology world is in the grips of a two-front geopolitical technology war, with hardware being the decisive battlefield. The conversation covers the importance of AI innovation, the significance of industrial capacity, secure supply chains, and the reindustrialization of the US.",
+    "key_takeaways": [
+      "The US needs superior AI models and the largest market share to remain relevant in the global AI race.",
+      "Helbert emphasizes the importance of hardware in the geopolitical technology war and the control over the internet's infrastructure.",
+      "Secure supply chains and industrial capacity are now essential to economic strength and national security.",
+      "Helbert discusses the impact of tariffs on the economics of building, making it more competitive to build in America.",
+      "The conversation highlights the challenges Europe faces in fostering a risk-taking culture and the high costs associated with building due to energy prices and regulations."
+    ],
+    "investment_thesis": "Invest in companies that are at the forefront of AI innovation, hardware manufacturing, and secure supply chain management to capitalize on the new geopolitics of technology and the reindustrialization of the US.",
+    "key_tickers": null
+  },
+  {
+    "id": 75,
+    "podcast_name": "Moonshots with Peter Diamandis",
+    "episode_title": "Elon Musk on Moonshots: Discussing AI, Robotics, and Future Technologies",
+    "episode_date": "2026-03-17",
+    "summary": "In this episode of Moonshots with Peter Diamandis, Elon Musk discusses a range of topics including the merger of SpaceX and XAI, the timeline for launching data centers, the progression towards AGI and ASI, and the future of robotics. Musk also shares his thoughts on the potential for extended longevity, the harnessing of solar energy, and the economic implications of advanced AI and robotics. The conversation touches on the future of work, universal high income, and the potential for human trials in genetic reprogramming.",
+    "key_takeaways": [
+      "Elon Musk expects AGI and ASI to reach a point of no human intervention in recursive self-improvement within a year.",
+      "SpaceX is in a quiet period, with Musk unable to disclose specific timelines for launching data centers.",
+      "Musk anticipates a significant increase in Earth's economy through the harnessing of solar energy, suggesting an economy a million times larger than current electricity usage.",
+      "Optimus 3, a highly advanced robot, is expected to start production in the summer with high volume production around 2024.",
+      "Musk foresees a future with universal high income due to the output of goods and services far exceeding the money supply, leading to deflation."
+    ],
+    "investment_thesis": "Invest in companies at the forefront of AI, robotics, and space technology, as these sectors are poised for significant growth and disruption.",
+    "key_tickers": [
+      "TSLA"
+    ]
+  },
+  {
+    "id": 74,
+    "podcast_name": "Monetary Matters with Jack Farley",
+    "episode_title": "Monetary Matters with Jack Farley: Farmland Investment Insights",
+    "episode_date": "2026-03-17",
+    "summary": "In this episode of 'Other People's Money', host Max interviews Chris Morris, President of Lampun Partners, an institutional farmland investment firm. They discuss the firm's focus on acquiring and managing high-quality irrigated row crop farmland in the mid-South region of the United States. Key themes include the diversification benefits of farmland as an alternative asset class, the impact of water scarcity on farmland value, and the potential for professional management and ownership of farmland assets as the average age of farmers increases.",
+    "key_takeaways": [
+      "Farmland investing is a new asset class for many investors, with low institutional ownership.",
+      "Lampun Partners has achieved mid-teen net returns with its Soil Enrichment Fund, outperforming the S&P 500 since inception.",
+      "Farmland provides diversification benefits, with low correlations to traditional asset classes like equities.",
+      "Water scarcity is becoming a significant factor in farmland value, with the mid-South region benefiting from shifts in water-intensive agriculture.",
+      "Professional management and ownership of farmland assets are expected to grow as the average age of farmers increases and succession planning becomes more critical."
+    ],
+    "investment_thesis": "Farmland represents an underutilized asset class with diversification benefits and potential for strong returns, particularly in the context of water scarcity and aging farmer demographics.",
+    "key_tickers": [
+      "SOYB"
+    ]
+  },
+  {
     "id": 23,
     "podcast_name": "Moonshots with Peter Diamandis",
     "episode_title": "Ben Horowitz: xAI Executive Exodus, Ilya's $5B SSI Valuation, Apple's AI Crisis, The Pace of AI | #232",

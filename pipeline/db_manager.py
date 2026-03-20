@@ -511,6 +511,7 @@ class DashboardDB:
                 'Moonshots',
                 'Alexander Wissner-Gross',
                 'Salim Ismail',
+                'E-Modemustock',
                 'Dave Blund',
                 'Dave Blundin',
             }

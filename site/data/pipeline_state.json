@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-03-20T11:43:16.646901",
-  "last_updated": "2026-03-20T11:43:16.646901",
-  "last_pipeline_run": "2026-03-20T11:43:16.646901",
+  "generated_at": "2026-03-20T12:10:12.920815",
+  "last_updated": "2026-03-20T12:10:12.920815",
+  "last_pipeline_run": "2026-03-20T12:10:12.920815",
   "main_page": {
     "overton": 8,
     "insights": 8,
-    "pundits": 18
+    "pundits": 17
   },
   "counts": {
     "ticker_mentions": 139,
@@ -24,7 +24,7 @@
     "transcribed": 5,
     "analyzed": 5,
     "insight_created": 3,
-    "published": 0,
+    "published": 3,
     "total": 10
   },
   "episodes": [
@@ -58,12 +58,10 @@
         "transcribed": true,
         "analyzed": true,
         "insight_created": true,
-        "published": false
+        "published": true
       },
-      "stage_reasons": {
-        "published": "added_to_site=0 (export/publish step not reflected in DB yet)."
-      },
-      "status": "needs_export"
+      "stage_reasons": {},
+      "status": "complete"
     },
     {
       "id": "e3ce0ba4-22dd-11f1-b3e1-ef93882cc84d",
@@ -139,12 +137,10 @@
         "transcribed": true,
         "analyzed": true,
         "insight_created": true,
-        "published": false
+        "published": true
       },
-      "stage_reasons": {
-        "published": "added_to_site=0 (export/publish step not reflected in DB yet)."
-      },
-      "status": "needs_export"
+      "stage_reasons": {},
+      "status": "complete"
     },
     {
       "id": "macrovoices.podbean.com/50fdd645-b02f-394a-b564-556f8054273e",
@@ -157,12 +153,10 @@
         "transcribed": true,
         "analyzed": true,
         "insight_created": true,
-        "published": false
+        "published": true
       },
-      "stage_reasons": {
-        "published": "added_to_site=0 (export/publish step not reflected in DB yet)."
-      },
-      "status": "needs_export"
+      "stage_reasons": {},
+      "status": "complete"
     },
     {
       "id": "substack:post:190118311",
