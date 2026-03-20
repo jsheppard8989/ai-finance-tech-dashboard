@@ -1806,22 +1806,8 @@
             return t && !nameSet.has(t);
           });
         }
-
-        // Additional heuristic: drop terms that look like personal names
-        suggestions = suggestions.filter(function(s) {
-          var t = (s && s.term) ? String(s.term).trim() : '';
-          if (!t) return false;
-          // If it contains a space and both first + last start uppercase, treat as a person
-          var parts = t.split(/\s+/);
-          if (parts.length >= 2) {
-            var first = parts[0];
-            var second = parts[1];
-            if (/^[A-Z][a-z]+$/.test(first) && /^[A-Z][a-z]+$/.test(second)) {
-              return false;
-            }
-          }
-          return true;
-        });
+        // Do NOT treat "Two Title Case Words" as a person: that hides real concepts
+        // (e.g. "Democratic Party", "Federal Reserve", "Memory Crunch") and emptied the box.
       } catch (e) {
         if (DEBUG_SITE) {
           console.warn('Emerging terms filter error:', e);

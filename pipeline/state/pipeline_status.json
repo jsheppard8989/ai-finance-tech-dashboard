@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-20T14:43:18.774417",
+  "last_updated": "2026-03-20T15:23:37.931556",
   "episodes": {
     "moonshots_with_peter_diamandis_meta_buys_moltbook,_gpt_5.4,_a": {
       "info": {
@@ -39,7 +39,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-20T14:43:18.721376",
+      "first_seen": "2026-03-20T15:23:37.870075",
       "status": "needs_analysis"
     },
     "monetary_matters_with_jack_farley_\u201cthis_is_the_end_of_the_oil_ma": {
@@ -82,7 +82,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-20T14:43:18.727602",
+      "first_seen": "2026-03-20T15:23:37.877342",
       "status": "needs_transcription"
     },
     "monetary_matters_with_jack_farley_stock_market_on_shaky_foundati": {
@@ -123,7 +123,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-20T14:43:18.736497",
+      "first_seen": "2026-03-20T15:23:37.888223",
       "status": "needs_analysis"
     },
     "the_a16z_show_ai_just_gave_you_superpowers_\u2014": {
@@ -164,7 +164,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-20T14:43:18.743377",
+      "first_seen": "2026-03-20T15:23:37.895816",
       "status": "needs_analysis"
     },
     "the_a16z_show_chris_dixon:_from_quant_tradin": {
@@ -205,7 +205,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-20T14:43:18.747589",
+      "first_seen": "2026-03-20T15:23:37.901192",
       "status": "needs_analysis"
     },
     "all-in_with_chamath,_jason,_sacks_&_friedberg_jensen_huang_live:_nvidia's_fu": {
@@ -248,7 +248,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-20T14:43:18.754473",
+      "first_seen": "2026-03-20T15:23:37.908578",
       "status": "needs_transcription"
     },
     "macro_voices_macrovoices_#524_simon_white:_": {
@@ -291,7 +291,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-20T14:43:18.762657",
+      "first_seen": "2026-03-20T15:23:37.918280",
       "status": "needs_transcription"
     },
     "dwarkesh_podcast_why_leonardo_was_a_saboteur,_g": {
@@ -332,7 +332,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-20T14:43:18.771412",
+      "first_seen": "2026-03-20T15:23:37.927837",
       "status": "needs_analysis"
     }
   }

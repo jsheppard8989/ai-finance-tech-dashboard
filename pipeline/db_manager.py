@@ -926,12 +926,38 @@ class DashboardDB:
     # === Suggested Terms ===
     
     def get_suggested_terms_for_website(self, limit: int = 4) -> List[Dict]:
-        """Get top suggested terms to display on website (Emerging Terms box)."""
+        """Get suggested terms for the Emerging Terms box (pending only).
+
+        Uses **recency first** (newest `submitted_date`), then priority score, so the
+        box reflects fresh transcript extractions—not only the highest mention_count
+        generics. (Promoted terms use status != pending and are excluded here; they
+        move to Definitions / Overton via auto_curate_terms.)
+
+        Note: SQLite ignores ORDER BY inside simple views when the outer query has no
+        ORDER BY; this query is explicit and deterministic.
+        """
         with self._get_connection() as conn:
-            cursor = conn.execute("""
-                SELECT * FROM v_priority_suggestions
+            cursor = conn.execute(
+                """
+                SELECT
+                    id,
+                    term,
+                    definition,
+                    investment_implications,
+                    source_type,
+                    mention_count,
+                    source_diversity,
+                    relevance_score,
+                    submitted_date,
+                    (mention_count * 10 + source_diversity * 20 + relevance_score)
+                        AS priority_score
+                FROM suggested_terms
+                WHERE status = 'pending'
+                ORDER BY datetime(submitted_date) DESC, priority_score DESC
                 LIMIT ?
-            """, (limit,))
+                """,
+                (limit,),
+            )
             return [dict(row) for row in cursor.fetchall()]
     
     def get_all_pending_suggestions(self) -> List[Dict]:

@@ -3,7 +3,7 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-03-20T14:43:20.303162",
+  generatedAt: "2026-03-20T15:23:39.561757",
   chartsVersion: "2026-03-19T04:23:16.765044",
   tickerScores: [
   {
@@ -8375,51 +8375,51 @@ const dashboardData = {
 },
   suggestedTerms: [
   {
-    "id": 50,
-    "term": "Democratic Party",
-    "definition": null,
-    "investment_implications": null,
-    "source_type": "auto_extracted",
-    "mention_count": 5,
-    "source_diversity": 4,
-    "relevance_score": 45,
-    "submitted_date": "2026-03-19 03:07:00",
-    "priority_score": 175
-  },
-  {
-    "id": 51,
-    "term": "Federal Reserve",
-    "definition": null,
-    "investment_implications": null,
-    "source_type": "auto_extracted",
-    "mention_count": 5,
-    "source_diversity": 4,
-    "relevance_score": 45,
-    "submitted_date": "2026-03-19 03:07:00",
-    "priority_score": 175
-  },
-  {
-    "id": 16,
-    "term": "Memory Crunch",
-    "definition": "A situation where the demand for memory outpaces supply, leading to potential shortages and increased prices.",
-    "investment_implications": "Investors should monitor memory supply chains for potential disruptions and investment opportunities.",
+    "id": 74,
+    "term": "Generative Models",
+    "definition": "Models that generate new tokens or data, currently seen as a key pathway to scalable super intelligence.",
+    "investment_implications": "Invest in companies and technologies that are advancing generative models for AI.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-03-14 03:04:09",
+    "submitted_date": "2026-03-20 14:08:13",
     "priority_score": 80
   },
   {
-    "id": 17,
-    "term": "Geopolitical Diversification",
-    "definition": "The strategy of spreading geopolitical risks across different regions to mitigate potential disruptions.",
-    "investment_implications": "Investors should consider the geopolitical risks in their supply chain and diversify accordingly.",
+    "id": 75,
+    "term": "Adaptability",
+    "definition": "The ability to adjust and respond effectively to new conditions or challenges, seen as key to survival and success in the age of AI.",
+    "investment_implications": "Look for companies that demonstrate high levels of adaptability in their business models and strategies.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-03-14 03:04:09",
+    "submitted_date": "2026-03-20 14:08:13",
+    "priority_score": 80
+  },
+  {
+    "id": 76,
+    "term": "Exponential Organizations",
+    "definition": "Organizations that leverage new technologies and strategies to grow at an exponential rate, rather than a linear one.",
+    "investment_implications": "Invest in companies that are adopting exponential growth strategies and leveraging new technologies.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-03-20 14:08:13",
+    "priority_score": 80
+  },
+  {
+    "id": 72,
+    "term": "Secular Inflation",
+    "definition": "A long-term increase in the general price level of goods and services in an economy.",
+    "investment_implications": "Investors should consider the potential for sustained inflation and its impact on asset classes.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-03-20 09:28:08",
     "priority_score": 80
   }
 ],
