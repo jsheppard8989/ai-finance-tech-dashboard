@@ -352,6 +352,7 @@
     </div>
   </div>
 
+  <script src="./js/common.js"></script>
   <script src="./data/data.js"></script>
   <script>
     (function() {
@@ -412,12 +413,7 @@
       }
 
       function formatDate(iso) {
-        if (!iso) return '—';
-        try {
-          return new Date(iso).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
-        } catch {
-          return iso;
-        }
+        return formatSiteCalendarDate(iso, { month: 'short', day: 'numeric', year: 'numeric' });
       }
 
       function punditCardHtml(p, pillClass, pillText) {

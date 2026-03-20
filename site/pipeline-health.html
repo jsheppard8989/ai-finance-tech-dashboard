@@ -157,6 +157,7 @@
     </div>
   </div>
 
+  <script src="./js/common.js"></script>
   <script>
     const stepLabels = {
       downloaded: 'Downloaded',
@@ -260,7 +261,11 @@
           const monthIdx = months[mRss[2].toLowerCase().slice(0, 3)];
           if (monthIdx !== undefined) {
             const d = new Date(Number(mRss[3]), monthIdx, Number(mRss[1]));
-            return d.toISOString().slice(0, 10);
+            // Local calendar YYYY-MM-DD — do not use toISOString() (UTC can shift the day).
+            const yy = d.getFullYear();
+            const mm = String(d.getMonth() + 1).padStart(2, '0');
+            const dd = String(d.getDate()).padStart(2, '0');
+            return yy + '-' + mm + '-' + dd;
           }
         }
         return null;
@@ -303,25 +308,34 @@
             const monthIdx = months[mRss[2].toLowerCase().slice(0, 3)];
             if (monthIdx !== undefined) {
               const d = new Date(Number(mRss[3]), monthIdx, Number(mRss[1]));
-              iso = d.toISOString().slice(0, 10);
+              const yy = d.getFullYear();
+              const mm = String(d.getMonth() + 1).padStart(2, '0');
+              const dd = String(d.getDate()).padStart(2, '0');
+              iso = yy + '-' + mm + '-' + dd;
             }
           }
         }
         if (!iso) return null;
+        const parts = iso.split('-').map(Number);
+        if (parts.length !== 3) return null;
+        const pub = new Date(parts[0], parts[1] - 1, parts[2]);
         const today = new Date();
-        const pub = new Date(iso + 'T00:00:00Z');
-        const diffMs = today - pub;
-        return Math.floor(diffMs / (1000 * 60 * 60 * 24));
+        const startOfToday = new Date(today.getFullYear(), today.getMonth(), today.getDate());
+        return Math.floor((startOfToday - pub) / (1000 * 60 * 60 * 24));
       }
 
       function renderStageRow(ep) {
         const st = ep.stages || {};
         const reasons = ep.stage_reasons || {};
         const ageDays = getAgeDays(ep);
+        const pubIso = getPublishedIso(ep);
+        const pubCell = pubIso
+          ? formatSiteCalendarDate(pubIso, { month: 'short', day: 'numeric', year: 'numeric' })
+          : String(ep.published || '').substring(0, 22);
         const cells = [
           (ep.podcast || '').substring(0, 28) + (ep.podcast && ep.podcast.length > 28 ? '…' : ''),
           (ep.title || '').substring(0, 45) + (ep.title && ep.title.length > 45 ? '…' : ''),
-          (ep.published || '').substring(0, 22),
+          pubCell,
           ageDays == null ? '—' : String(ageDays)
         ];
         stageKeys.forEach(function(k) {

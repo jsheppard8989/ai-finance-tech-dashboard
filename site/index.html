@@ -1970,9 +1970,7 @@
         var idea = (item.last_main_idea || '').replace(/</g, '&lt;').replace(/>/g, '&gt;');
         var src = '';
         if (item.last_podcast_name || item.last_episode_date) {
-          var epDateStr = item.last_episode_date ? (function(d) {
-            try { return new Date(d).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }); } catch(e) { return d; }
-          })(item.last_episode_date) : '';
+          var epDateStr = item.last_episode_date ? formatSiteCalendarDate(item.last_episode_date, { month: 'short', day: 'numeric', year: 'numeric' }) : '';
           src = (item.last_podcast_name || '') + (epDateStr ? ' • ' + epDateStr : '');
         } else if (item.last_seen) {
           src = String(item.last_seen).substring(0, 10);
@@ -2209,8 +2207,8 @@
       if (typeof dashboardData !== 'undefined' && dashboardData.mainContent && dashboardData.mainContent.insights) {
         insights = dashboardData.mainContent.insights.filter(i => i.display_on_main === 1);
         insights.sort((a, b) => {
-          const dateA = new Date(a.source_date || a.added_date);
-          const dateB = new Date(b.source_date || b.added_date);
+          const dateA = parseSiteDateForSort(a.source_date || a.added_date);
+          const dateB = parseSiteDateForSort(b.source_date || b.added_date);
           return dateB - dateA;
         });
         insights = insights.slice(0, 8);
@@ -2234,7 +2232,7 @@
       let html = '';
       for (const insight of insights) {
         const episodeDate = insight.episode_release_date || insight.source_date;
-        const dateStr = episodeDate ? new Date(episodeDate).toLocaleDateString('en-US', dateOpts) : '—';
+        const dateStr = episodeDate ? formatSiteCalendarDate(episodeDate, dateOpts) : '—';
         // Key tickers come directly from structured AI output (podcast_episodes.key_tickers)
         // Parse tickers — handle array, JSON string, or plain string
         let tickerArr = insight.key_tickers;
@@ -2292,7 +2290,7 @@
         
         formatted[id] = {
           title: episode.episode_title,
-          source: `${episode.podcast_name} • ${new Date(episode.episode_date).toLocaleDateString()}`,
+          source: `${episode.podcast_name} • ${formatSiteCalendarDate(episode.episode_date, { month: 'short', day: 'numeric', year: 'numeric' })}`,
           content: episode.summary || generateDefaultSummary(episode)
         };
       });

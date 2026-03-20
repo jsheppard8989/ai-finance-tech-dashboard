@@ -1,4 +1,40 @@
 /**
+ * Shared site utilities: Deep Dive HTML + calendar-safe date formatting
+ * (index, archive, debait, pipeline-health).
+ *
+ * One source of truth for *display*: episode/insight dates from the API are
+ * calendar dates (often `YYYY-MM-DD`). `new Date('2026-03-19')` parses as UTC
+ * midnight, so `toLocaleDateString` shows Mar 18 in US timezones — wrong.
+ */
+function formatSiteCalendarDate(isoOrStr, opts) {
+  opts = opts || { month: 'short', day: 'numeric', year: 'numeric' };
+  if (isoOrStr == null || isoOrStr === '') return '—';
+  var s = String(isoOrStr).trim();
+  var m = s.match(/^(\d{4})-(\d{2})-(\d{2})(?:$|[^0-9])/);
+  if (m) {
+    var y = parseInt(m[1], 10);
+    var mo = parseInt(m[2], 10) - 1;
+    var d = parseInt(m[3], 10);
+    return new Date(y, mo, d).toLocaleDateString('en-US', opts);
+  }
+  var dt = new Date(s);
+  if (isNaN(dt.getTime())) return s;
+  return dt.toLocaleDateString('en-US', opts);
+}
+
+/** Sort key (ms): local calendar day for YYYY-MM-DD, else Date.parse. */
+function parseSiteDateForSort(isoOrStr) {
+  if (isoOrStr == null || isoOrStr === '') return 0;
+  var s = String(isoOrStr).trim();
+  var m = s.match(/^(\d{4})-(\d{2})-(\d{2})(?:$|[^0-9])/);
+  if (m) {
+    return new Date(parseInt(m[1], 10), parseInt(m[2], 10) - 1, parseInt(m[3], 10)).getTime();
+  }
+  var dt = new Date(s);
+  return isNaN(dt.getTime()) ? 0 : dt.getTime();
+}
+
+/**
  * Shared script for index.html and archive.html.
  * Provides generateDeepDiveHTML(dd) for Deep Dive modal content.
  */

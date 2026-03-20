@@ -95,10 +95,8 @@
     
     function formatDate(dateStr) {
       if (!dateStr) return 'Unknown date';
-      try {
-        const date = new Date(dateStr);
-        return date.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
-      } catch { return dateStr; }
+      const s = formatSiteCalendarDate(dateStr, { month: 'short', day: 'numeric', year: 'numeric' });
+      return s === '—' ? String(dateStr) : s;
     }
     
     function loadData() {
