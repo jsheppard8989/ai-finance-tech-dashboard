@@ -3,7 +3,7 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-03-20T12:10:15.324414",
+  generatedAt: "2026-03-20T14:37:44.237840",
   chartsVersion: "2026-03-19T04:23:16.765044",
   tickerScores: [
   {
@@ -759,11 +759,11 @@ const dashboardData = {
     },
     {
       "id": 107,
-      "title": "Monetary Matters: Geopolitical Impact on Oil Markets with Roy Johnson",
+      "title": "Monetary Matters: Geopolitical Impact on Oil Markets with Rory Johnston",
       "source_type": "podcast",
       "source_name": "Monetary Matters with Jack Farley",
       "source_date": "2026-03-19",
-      "summary": "In this special episode of Monetary Matters, host Jack Farley interviews Roy Johnson of Commodity Context to discuss the geopolitical crisis in the Middle East and its impact on oil markets. Johnson emphasizes that even if there's geopolitical de-escalation, the crisis is likely to be protracted, with severe implications for the oil market and global economy if the flow of oil through the Strait of Hormuz does not resume. The conversation covers the potential for a price spike in oil, the role of the United States and President Trump in resolving the crisis, and the concept of spare capacity in the oil market.",
+      "summary": "In this special episode of Monetary Matters, host Jack Farley interviews Rory Johnston of Commodity Context to discuss the geopolitical crisis in the Middle East and its impact on oil markets. Johnston emphasizes that even if there's geopolitical de-escalation, the crisis is likely to be protracted, with severe implications for the oil market and global economy if the flow of oil through the Strait of Hormuz does not resume. The conversation covers the potential for a price spike in oil, the role of the United States and President Trump in resolving the crisis, and the concept of spare capacity in the oil market.",
       "key_takeaway": "The ongoing geopolitical crisis in the Middle East, particularly the situation in the Strait of Hormuz, presents a significant risk to the global oil supply and could lead to a structural increase in oil prices.",
       "tickers_mentioned": [
         "AAPL",
@@ -2719,11 +2719,11 @@ const dashboardData = {
     },
     {
       "id": 107,
-      "title": "Monetary Matters: Geopolitical Impact on Oil Markets with Roy Johnson",
+      "title": "Monetary Matters: Geopolitical Impact on Oil Markets with Rory Johnston",
       "source_type": "podcast",
       "source_name": "Monetary Matters with Jack Farley",
       "source_date": "2026-03-19",
-      "summary": "In this special episode of Monetary Matters, host Jack Farley interviews Roy Johnson of Commodity Context to discuss the geopolitical crisis in the Middle East and its impact on oil markets. Johnson emphasizes that even if there's geopolitical de-escalation, the crisis is likely to be protracted, with severe implications for the oil market and global economy if the flow of oil through the Strait of Hormuz does not resume. The conversation covers the potential for a price spike in oil, the role of the United States and President Trump in resolving the crisis, and the concept of spare capacity in the oil market.",
+      "summary": "In this special episode of Monetary Matters, host Jack Farley interviews Rory Johnston of Commodity Context to discuss the geopolitical crisis in the Middle East and its impact on oil markets. Johnston emphasizes that even if there's geopolitical de-escalation, the crisis is likely to be protracted, with severe implications for the oil market and global economy if the flow of oil through the Strait of Hormuz does not resume. The conversation covers the potential for a price spike in oil, the role of the United States and President Trump in resolving the crisis, and the concept of spare capacity in the oil market.",
       "key_takeaway": "The ongoing geopolitical crisis in the Middle East, particularly the situation in the Strait of Hormuz, presents a significant risk to the global oil supply and could lead to a structural increase in oil prices.",
       "tickers_mentioned": "[\"AAPL\", \"NVDA\", \"SPY\", \"TSLA\", \"XOM\"]",
       "sentiment": "bearish",
@@ -8305,7 +8305,7 @@ const dashboardData = {
     "id": 98,
     "insight_id": 107,
     "podcast_episode_id": 89,
-    "overview": "The current geopolitical tensions, particularly the Iran oil shock, are creating a protracted crisis in the oil market with significant implications for the global economy. Roy Johnson of Commodity Context emphasizes that even if geopolitical de-escalation occurs, the crisis is likely to persist, affecting oil flow through the Strait of Hormuz, a critical chokepoint for global oil supply. The disruption could lead to a loss of 15-20 million barrels per day, a shock that the market may not be able to absorb without severe economic repercussions. This analysis is crucial for investors to understand the potential impact on energy markets and the broader economy, especially in 2026 when the situation could be particularly acute.",
+    "overview": "The current geopolitical tensions, particularly the Iran oil shock, are creating a protracted crisis in the oil market with significant implications for the global economy. Rory Johnston of Commodity Context emphasizes that even if geopolitical de-escalation occurs, the crisis is likely to persist, affecting oil flow through the Strait of Hormuz, a critical chokepoint for global oil supply. The disruption could lead to a loss of 15-20 million barrels per day, a shock that the market may not be able to absorb without severe economic repercussions. This analysis is crucial for investors to understand the potential impact on energy markets and the broader economy, especially in 2026 when the situation could be particularly acute.",
     "key_takeaways_detailed": [
       "The Strait of Hormuz crisis could lead to a loss of 15-20 million barrels per day, a supply shock unprecedented in history.",
       "Market mechanisms, including the Strategic Petroleum Reserve (SPR) releases and US shale production, may not be sufficient to offset the loss.",
@@ -8367,7 +8367,7 @@ const dashboardData = {
     "transcript_excerpt": null,
     "created_at": "2026-03-20T04:53:06.393096",
     "updated_at": "2026-03-20 09:53:06",
-    "insight_title": "Monetary Matters: Geopolitical Impact on Oil Markets with Roy Johnson",
+    "insight_title": "Monetary Matters: Geopolitical Impact on Oil Markets with Rory Johnston",
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-03-19",
     "key_tickers": []
@@ -8655,8 +8655,8 @@ const dashboardData = {
     "last_episode_title": "Macro Voices: The Iran Conflict's Impact on Inflation and Energy Markets",
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-03-19",
-    "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score": 2,
+    "mention_score_decayed": 2,
     "last_main_idea": "The ongoing Iran conflict may lead to a secular inflation cycle, with oil prices being a key catalyst. Investors should monitor shifts in commodities, credit, and the yield curve for potential macroeconomic impacts.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:36:30.218908",
@@ -8755,64 +8755,6 @@ const dashboardData = {
       ]
     },
     "net_worth": "$151.00B"
-  },
-  {
-    "id": 95,
-    "name": "Roy Johnson",
-    "slug": "roy-johnson",
-    "bio": "Roy Johnson is an independent oil and energy analyst and the expert behind Commodity Context. He is known for his fundamental analysis of oil and energy markets, providing valuable insights to navigate the complexities of the industry, especially during geopolitical crises like the Iran oil shock.",
-    "known_for": "His in-depth analysis and insights into the oil and energy markets, particularly during times of geopolitical tension and market disruption.",
-    "net_worth_usd": 49000000.0,
-    "net_worth_source": "https://www.gurufocus.com/insider/97091/roy-e-johnson",
-    "net_worth_updated_at": "2026-03-20T04:41:30.534445",
-    "voice_tone": "Matter-of-fact and concerned",
-    "voice_style": "Factual and data-driven, with a focus on the potential economic impacts of geopolitical events",
-    "voice_delivery_notes": "Delivers information with a steady pace, emphasizing key points with a slight increase in volume",
-    "voice_profile_updated_at": "2026-03-20 09:25:46",
-    "last_seen": "2026-03-20 09:25:46",
-    "last_episode_title": "Monetary Matters: Geopolitical Impact on Oil Markets with Roy Johnson",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-03-19",
-    "mention_score": 1,
-    "mention_score_decayed": 1,
-    "last_main_idea": "The ongoing geopolitical crisis in the Middle East, particularly the situation in the Strait of Hormuz, presents a significant risk to the global oil supply and could lead to a structural increase in oil prices.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-20T04:41:27.493458",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Roy Johnson",
-      "fetched_at": "2026-03-20T09:41:27.493296+00:00",
-      "cliff_notes": "Roy Johnson is recognized as an independent oil and energy analyst, providing expert insights through his platform, Commodity Context. His career has been dedicated to understanding and analyzing the intricacies of the oil and energy markets, with a focus on fundamental analysis. Johnson's work is particularly valued during times of geopolitical tension, such as the Iran oil shock, where his analysis helps investors and market participants navigate the disruptions and confusion. His contributions to the field have made him a go-to resource for those seeking to understand the impact of global events on the oil and energy sectors.",
-      "derived": {
-        "current_role": "Independent Oil and Energy Analyst at Commodity Context",
-        "political_affiliation": "Independent"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Roy Johnson is recognized as an independent oil and energy analyst, providing expert insights through his platform, Commodity Context. His career has been dedicated to understanding and analyzing the intricacies of the oil and energy markets, with a focus on fundamental analysis. Johnson's work is particularly valued during times of geopolitical tension, such as the Iran oil shock, where his analysis helps investors and market participants navigate the disruptions and confusion.",
-        "His contributions to the field have made him a go-to resource for those seeking to understand the impact of global events on the oil and energy sectors."
-      ],
-      "sections": [
-        {
-          "heading": "Fundamental Analysis",
-          "body": "Roy Johnson is renowned for his fundamental analysis of the oil and energy markets, dissecting the underlying economic, political, and market factors that influence prices and trends."
-        },
-        {
-          "heading": "Geopolitical Impact",
-          "body": "Johnson's expertise extends to understanding the geopolitical implications on oil and energy markets, such as the Iran oil shock, and how these events can create market disruptions."
-        },
-        {
-          "heading": "Market Disruptions",
-          "body": "He provides critical insights during times of market disruption, helping investors and analysts make sense of the changing landscape of the oil and energy sectors."
-        }
-      ]
-    },
-    "net_worth": "$49.0M"
   },
   {
     "id": 94,
@@ -9536,6 +9478,64 @@ const dashboardData = {
       ]
     },
     "net_worth": "$3.60B"
+  },
+  {
+    "id": 75,
+    "name": "Michael Dell",
+    "slug": "michael-dell",
+    "bio": "Michael Dell is an American businessman and philanthropist, best known as the founder and CEO of Dell Technologies, one of the world's largest technology infrastructure companies.",
+    "known_for": "Building one of the world's largest technology infrastructure companies and being an influential figure in the tech industry.",
+    "net_worth_usd": 37600000000.0,
+    "net_worth_source": "https://www.wikidata.org/wiki/Q218630",
+    "net_worth_updated_at": "2026-03-19T15:06:02.916452",
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-03-17 10:15:16",
+    "last_episode_title": "Stealth Startups and the Digitization of the Physical World",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-03-17",
+    "mention_score": 1,
+    "mention_score_decayed": 0.93,
+    "last_main_idea": "Invest in companies that are digitizing the physical world and transforming traditional industries through technology.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-19T21:22:53.714266",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Michael Dell",
+      "fetched_at": "2026-03-20T02:22:53.714063+00:00",
+      "cliff_notes": "Michael Dell founded Dell Technologies in 1984, originally named PCs Limited, at the age of 19. The company quickly grew to become one of the leading computer technology providers, specializing in manufacturing and selling personal computers, servers, and storage devices. Dell's innovative direct-sales model allowed customers to order custom-configured PCs, which streamlined the supply chain and reduced costs. Over the years, Dell Technologies expanded through acquisitions and strategic partnerships, becoming a multinational technology giant. Michael Dell's leadership and vision have been instrumental in shaping the company's success and its impact on the tech industry.",
+      "derived": {
+        "current_role": "Founder and CEO of Dell Technologies",
+        "education": "University of Texas at Austin; dropped out to focus on his business"
+      },
+      "infobox": {
+        "Born": "February 23, 1965",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Michael Dell founded Dell Technologies in 1984, originally named PCs Limited, at the age of 19. The company quickly grew to become one of the leading computer technology providers, specializing in manufacturing and selling personal computers, servers, and storage devices. Dell's innovative direct-sales model allowed customers to order custom-configured PCs, which streamlined the supply chain and reduced costs.",
+        "Over the years, Dell Technologies expanded through acquisitions and strategic partnerships, becoming a multinational technology giant. Michael Dell's leadership and vision have been instrumental in shaping the company's success and its impact on the tech industry."
+      ],
+      "sections": [
+        {
+          "heading": "Dell Technologies",
+          "body": "Michael Dell founded Dell Technologies in 1984, which grew to become one of the world's largest technology infrastructure companies. The company is known for its innovative direct-sales model and its wide range of computer technology products."
+        },
+        {
+          "heading": "Innovation and Growth",
+          "body": "Under Michael Dell's leadership, Dell Technologies has been at the forefront of technological innovation, constantly expanding its product offerings and market reach. The company's growth has been driven by strategic acquisitions, such as the acquisition of EMC Corporation in 2016, which significantly broadened its portfolio."
+        },
+        {
+          "heading": "Philanthropy",
+          "body": "Michael Dell is also known for his philanthropic efforts. Through the Michael & Susan Dell Foundation, he has made significant contributions to various causes, including education, urban health, and family economic stability."
+        }
+      ]
+    },
+    "net_worth": "$37.60B"
   }
 ]
 };

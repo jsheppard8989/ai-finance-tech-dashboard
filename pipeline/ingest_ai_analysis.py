@@ -11,7 +11,7 @@ from pathlib import Path
 from typing import Dict, List, Any
 
 from db_manager import get_db
-from person_name_safety import is_placeholder_person_name
+from person_name_safety import canonicalize_person_name, is_placeholder_person_name
 
 
 def upsert_entity(name: str, type_: str = "person", bio: str | None = None,
@@ -22,7 +22,7 @@ def upsert_entity(name: str, type_: str = "person", bio: str | None = None,
     Upsert an entity by name + type. Returns entity_id.
     """
     db = get_db()
-    name_clean = (name or "").strip()
+    name_clean = canonicalize_person_name((name or "").strip())
     if not name_clean:
         raise ValueError("Entity name cannot be empty")
 

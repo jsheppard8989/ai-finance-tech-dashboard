@@ -12,6 +12,27 @@ import re
 from typing import List
 
 
+# Known ASR / extraction errors: map mistaken name -> canonical display name.
+# Keep this list small and high-confidence only (wrong merges are worse than duplicates).
+_TRANSCRIPTION_CANONICAL_NAMES: dict[str, str] = {
+    # Same person (Commodity Context); "Roy Johnson" is a recurring transcript mistake.
+    "roy johnson": "Rory Johnston",
+}
+
+
+def canonicalize_person_name(name: str) -> str:
+    """
+    Normalize known mistaken person names to a single canonical entity name.
+
+    Used at entity upsert time so future pipeline runs don't recreate the bad alias.
+    """
+    s = _normalize_name(name)
+    if not s:
+        return s
+    key = s.lower()
+    return _TRANSCRIPTION_CANONICAL_NAMES.get(key, s)
+
+
 def _normalize_name(name: str) -> str:
     s = (name or "").strip()
     s = re.sub(r"\s+", " ", s)
