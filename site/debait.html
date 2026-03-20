@@ -174,21 +174,23 @@
       grid-template-columns: 1fr;
       gap: 0.25rem;
       align-items: start;
-      padding-right: 7rem; /* room for upper-right Presence indicator */
     }
     .inline-tagline {
       color: #a8b2d1;
       font-size: 0.85rem;
       line-height: 1.35;
+      padding-right: 7rem; /* keep tagline clear of the upper-right Presence */
     }
     .presence {
       position: absolute;
       top: 0.25rem;
       right: 0.6rem;
-      display: inline-flex;
-      align-items: center;
-      justify-content: flex-end;
-      gap: 0.25rem;
+      z-index: 5;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      justify-content: flex-start;
+      gap: 0.15rem;
       font-size: 0.75rem;
       color: #8892b0;
     }
@@ -196,7 +198,6 @@
       font-weight: 700;
       color: #a8b2d1;
       font-size: 0.75rem;
-      min-width: 2.6rem;
       text-align: right;
     }
     .presence-bar {
@@ -215,6 +216,7 @@
     .latest-arena {
       color: #8892b0;
       font-size: 0.75rem;
+      width: 100%;
     }
     .last-thesis {
       color: #e8e8e8;
