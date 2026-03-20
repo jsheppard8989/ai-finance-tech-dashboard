@@ -20,6 +20,68 @@
       "podcast_episode_id": 76
     },
     {
+      "id": 105,
+      "title": "Macro Voices: The Iran Conflict's Impact on Inflation and Energy Markets",
+      "source_type": "podcast",
+      "source_name": "Macro Voices",
+      "source_date": "2026-03-19",
+      "summary": "In this episode of Macro Voices, hosts Eric Townsend and Patrick Suresne discuss the market implications of the ongoing Iran conflict and the potential for secular inflation. They are joined by Bloomberg Macro strategist Simon White, who shares insights on the risk of renewed inflation, parallels to 1970s stagflation, and how shifts in commodities, credit, and the yield curve could reshape the macro outlook. Rory Johnston, founder of Commodity Context, provides an additional perspective on the conflict's impact on energy markets, particularly the oil sector.",
+      "key_takeaway": "The ongoing Iran conflict may lead to a secular inflation cycle, with oil prices being a key catalyst. Investors should monitor shifts in commodities, credit, and the yield curve for potential macroeconomic impacts.",
+      "tickers_mentioned": [
+        "S&P 500",
+        "WTI CRUDE OIL"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-20",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 91
+    },
+    {
+      "id": 106,
+      "title": "AI Factory and the Future of Computing",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-03-19",
+      "summary": "In this special episode of 'All-In with Chamath, Jason, Sacks & Friedberg', the hosts discuss the significant strides in the AI industry, with a focus on NVIDIA's strategic moves and the broader implications for the tech landscape. The conversation touches on NVIDIA's acquisition of Grok, the evolution of AI computing, and the importance of disaggregated inference. They also delve into the role of open source in AI development and the global diffusion of AI technology. The discussion concludes with advice for young people on education and the future of work in the context of AI.",
+      "key_takeaway": "NVIDIA's strategic acquisitions and technological advancements position it as a leader in the AI revolution, offering investors exposure to the growing AI factory industry.",
+      "tickers_mentioned": [
+        "NVDA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-20",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 90
+    },
+    {
+      "id": 107,
+      "title": "Monetary Matters: Geopolitical Impact on Oil Markets with Roy Johnson",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-03-19",
+      "summary": "In this special episode of Monetary Matters, host Jack Farley interviews Roy Johnson of Commodity Context to discuss the geopolitical crisis in the Middle East and its impact on oil markets. Johnson emphasizes that even if there's geopolitical de-escalation, the crisis is likely to be protracted, with severe implications for the oil market and global economy if the flow of oil through the Strait of Hormuz does not resume. The conversation covers the potential for a price spike in oil, the role of the United States and President Trump in resolving the crisis, and the concept of spare capacity in the oil market.",
+      "key_takeaway": "The ongoing geopolitical crisis in the Middle East, particularly the situation in the Strait of Hormuz, presents a significant risk to the global oil supply and could lead to a structural increase in oil prices.",
+      "tickers_mentioned": [
+        "AAPL",
+        "NVDA",
+        "SPY",
+        "TSLA",
+        "XOM"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-20",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 89
+    },
+    {
       "id": 94,
       "title": "Interview with Senator John Fetterman on Voting Rights, Policy Decisions, and the Democratic Party",
       "source_type": "podcast",
@@ -100,11 +162,11 @@
         "TSLA"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-17",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-20",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 72
     },
     {
@@ -122,11 +184,11 @@
         "MSFT"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-17",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-20",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 73
     },
     {
@@ -1101,26 +1163,6 @@
       "podcast_episode_id": 85
     },
     {
-      "id": 98,
-      "title": "AI Disruption and the Future of Society",
-      "source_type": "podcast",
-      "source_name": "Moonshots with Peter Diamandis",
-      "source_date": "2026-02-19",
-      "summary": "In this episode of 'Moonshots with Peter Diamandis', the discussion revolves around the rapid advancements in AI technology and its potential impact on society and the economy. The guests delve into the concept of recursive self-improvement in AI, its implications for the singularity, and the societal changes that may accompany these technological leaps. They also touch upon the potential for AI to revolutionize industries, the concentration of wealth, and the importance of entrepreneurship in the future landscape.",
-      "key_takeaway": "Investing in AI technology and companies that are at the forefront of AI development could yield significant returns as these technologies become more integrated into society and drive economic growth.",
-      "tickers_mentioned": [
-        "OPEN AI",
-        "MCCOR"
-      ],
-      "sentiment": "bullish",
-      "display_on_main": 0,
-      "display_order": 0,
-      "added_date": "2026-03-19",
-      "archived_date": "2026-03-20",
-      "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 82
-    },
-    {
       "id": 99,
       "title": "The Future of Technology and Investment in AI",
       "source_type": "podcast",
@@ -1174,11 +1216,11 @@
         "TSLA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-19",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-20",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 79
     },
     {
@@ -1254,7 +1296,13 @@
       "source_date": "2026-02-17",
       "summary": "In this episode of 'Moonshots with Peter Diamandis', host Peter Diamandis interviews Brett Adcock, discussing advancements in robotics and AI, particularly focusing on neural networks and their impact on manufacturing and services. They delve into the rapid evolution of AI, the potential for a $50T market, and the shift from traditional coding to neural nets for robot learning and operation. The conversation also touches on the implications of robots building robots and the future of autonomous manufacturing.",
       "key_takeaway": "Investing in AI and robotics companies that leverage neural networks for autonomous manufacturing could yield significant returns as this market is expected to become the largest economy globally.",
-      "tickers_mentioned": [],
+      "tickers_mentioned": [
+        "AAPL",
+        "NVDA",
+        "TSLA",
+        "GOOGL",
+        "AMZN"
+      ],
       "sentiment": "neutral",
       "display_on_main": 0,
       "display_order": 0,
@@ -1271,7 +1319,13 @@
       "source_date": "2026-02-15",
       "summary": "In this episode of a16z Live, Meta CTO Andrew 'Boz' Bosworth discusses the future of consumer technology with A16z's David George. Boz shares his insights on the potential shift from an app-centric world to a new AI-enabled computing experience that is more agentic, adaptive, and immersive. The conversation covers the evolution of interfaces, the role of augmented reality glasses, and the impact of AI on the existing app model. Boz also touches on the challenges of building a developer ecosystem and the importance of aligning with consumer intent rather than app orchestration.",
       "key_takeaway": "Invest in companies that are at the forefront of developing AI-enabled, immersive technologies that can redefine consumer interactions beyond the current app-centric model.",
-      "tickers_mentioned": [],
+      "tickers_mentioned": [
+        "AAPL",
+        "NVDA",
+        "FB",
+        "GOOGL",
+        "MSFT"
+      ],
       "sentiment": "neutral",
       "display_on_main": 0,
       "display_order": 0,
@@ -1288,7 +1342,12 @@
       "source_date": "2026-02-15",
       "summary": "In this episode, host Jack Mallers discusses Bitcoin's recent price drop and its implications. He posits that Bitcoin, despite being the best money ever invented, has been treated like a software stock by the market. Mallers argues that the recent dip may be a pivotal moment for Bitcoin to transition from being perceived as a tech stock to a hard asset. He emphasizes Bitcoin's intrinsic value, its fixed supply, and its superiority over fiat and gold. Mallers also touches on broader macroeconomic factors influencing Bitcoin's price and suggests that the current market conditions might be signaling a bottom for Bitcoin, presenting a buying opportunity.",
       "key_takeaway": "Bitcoin's recent dip may be a catalyst for it to stop trading like a tech stock and start trading like a hard asset, presenting an investment opportunity.",
-      "tickers_mentioned": [],
+      "tickers_mentioned": [
+        "AAPL",
+        "NVDA",
+        "SPY",
+        "TSLA"
+      ],
       "sentiment": "bullish",
       "display_on_main": 0,
       "display_order": 0,
@@ -1296,6 +1355,25 @@
       "archived_date": "2026-03-20",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 83
+    },
+    {
+      "id": 108,
+      "title": "Monetary Matters with Jack Farley: Short Selling Insights and AI in Investing",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-02-15",
+      "summary": "In this episode of Monetary Matters, host Jack Farley interviews Carson Block, the founder of Muddy Waters Capital, a leading activist short seller hedge fund. They discuss the fertile ground for short selling in the tech sector, particularly in AI and AI-adjacent industries, where there is a proliferation of pretenders. The conversation also touches on the potential for mean reversion in semiconductors and the opportunities in junior mining due to under allocation of human capital. Carson shares insights on precious metals investing and the differentiation between beta and alpha in stock selection. The episode concludes with a discussion on combining long side exposure with short selling strategies.",
+      "key_takeaway": "Invest in sectors with fertile ground for short selling, such as tech and AI, and consider undervalued areas like junior mining for potential alpha.",
+      "tickers_mentioned": [
+        "PQNT"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 0,
+      "display_order": 0,
+      "added_date": "2026-03-20",
+      "archived_date": "2026-03-20",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
+      "podcast_episode_id": 88
     },
     {
       "id": 1,

@@ -14,6 +14,7 @@ from typing import List, Dict, Optional, Tuple
 
 sys.path.insert(0, str(Path(__file__).parent))
 from db_manager import get_db, PodcastEpisode, TickerMention
+from person_name_safety import is_placeholder_person_name
 
 # Try to import OpenAI
 try:
@@ -284,7 +285,7 @@ def analyze_transcript_with_ai(client_info, transcript_content: str, podcast_nam
         "  \"investment_thesis\": \"1-2 sentence summary of the core investment opportunity or thesis presented\",\n"
         "  \"guests\": [\n"
         "    {\n"
-        "      \"name\": \"Full name of a main guest/interviewee\",\n"
+        "      \"name\": \"Full name of a main guest/interviewee (must be confidently extractable from the intro; at least 2 tokens like First Last). If you are NOT confident, omit this guest entirely (do not use placeholders like 'Guest Expert' or single-token names).\",\n"
         "      \"role\": \"guest\",\n"
         "      \"bio\": \"1-2 sentence bio (optional, only for important guests)\",\n"
         "      \"known_for\": \"Short 'known for' line for investors (optional)\",\n"
@@ -463,9 +464,13 @@ def process_transcript_file(transcript_path: Path, client_info, db) -> Optional[
 
     # Get a preview of the episode title from the first line
     first_line = content.strip().split('\n')[0][:100] if content else episode_slug
+    # If we don't have a stable rss_guid from the sidecar, the first transcript line
+    # may be generic (and can trigger false duplicate matches). In that case, prefer
+    # the filename-derived slug as the dedupe key so we don't accidentally skip.
+    lookup_title_for_dedupe = first_line if rss_guid else episode_slug
     
     # Check if this episode already exists in database (guid first, then title)
-    if episode_exists_in_db(db, podcast_name, first_line, rss_guid):
+    if episode_exists_in_db(db, podcast_name, lookup_title_for_dedupe, rss_guid):
         print(f"    ⏭ Episode already in database (duplicate), skipping")
         mark_transcript_processed(transcript_path, -1)  # Mark as processed to avoid re-checking
         return None
@@ -483,8 +488,26 @@ def process_transcript_file(transcript_path: Path, client_info, db) -> Optional[
     except (ValueError, TypeError):
         episode_date = extract_date_from_content(content) or date.today()
     
-    # Extract episode title from AI analysis
-    episode_title = analysis.get('episode_title', episode_slug.replace('_', ' ').title())
+    # Extract episode title from AI analysis.
+    # If we are missing RSS sidecar meta entirely, the AI sometimes infers a
+    # generic title; in that case we derive a title from the transcript
+    # filename slug (much closer to the curated title we show in pipeline).
+    episode_title_ai = analysis.get('episode_title', episode_slug.replace('_', ' ').title())
+    episode_title = episode_title_ai
+    if not rss_guid and not sidecar_has_date:
+        # Derive from filename stem: strip "podcast name" slug prefix if present.
+        podcast_slug = re.sub(r'[^a-z0-9]+', '_', (podcast_name or '').lower()).strip('_')
+        derived = episode_slug
+        if podcast_slug and derived.lower().startswith(podcast_slug):
+            derived = derived[len(podcast_slug):].lstrip('_')
+
+        derived = derived.replace('_', ' ')
+        # File stems often include an audio hash like "...___moo_609f0b8d" which we drop.
+        derived = re.sub(r'\bmoo[\s_]*[a-z0-9]+\b', '', derived, flags=re.IGNORECASE)
+        derived = re.sub(r'\s+', ' ', derived).strip()
+        # Common token fix: "gpt 5 4" => "GPT 5.4"
+        derived = re.sub(r'\bgpt\s+(\d+)\s+(\d+)\b', r'GPT \\1.\\2', derived, flags=re.IGNORECASE)
+        episode_title = derived if derived else episode_title_ai
     
     # CRITICAL: Check database again with the AI-extracted title (more accurate)
     if episode_exists_in_db(db, podcast_name, episode_title, rss_guid):
@@ -495,6 +518,7 @@ def process_transcript_file(transcript_path: Path, client_info, db) -> Optional[
     # Use published date from sidecar if available (more accurate than AI-extracted date).
     # We support both \"published_date\" (YYYY-MM-DD) and \"published\" (full timestamp) keys.
     published_raw = sidecar.get('published_date') or sidecar.get('published') or ''
+    sidecar_has_date = bool(published_raw)
     if published_raw:
         try:
             # Normalise to YYYY-MM-DD first when possible
@@ -506,15 +530,26 @@ def process_transcript_file(transcript_path: Path, client_info, db) -> Optional[
             # If parsing fails, keep the previously derived episode_date
             pass
 
-    # Hard stop: do not analyze or add to DB anything before Feb 2026
+    # Hard stop: do not analyze or add to DB anything before Feb 2026.
+    # If we don't have a sidecar published date, the AI-derived date can be wrong
+    # (we'd otherwise skip legitimate recent episodes and then pipeline-health
+    # will forever show "Not in DB yet" for that RSS item).
     try:
         from cutoff_date import CUTOFF_DATE_ISO
         from datetime import date as _date
         cutoff = _date.fromisoformat(CUTOFF_DATE_ISO)
         if episode_date < cutoff:
-            print(f"    ⏭ Skipping (published {episode_date} is before Feb 2026 cutoff)")
-            mark_transcript_processed(transcript_path, -1)
-            return None
+            if sidecar_has_date:
+                print(
+                    f"    ⏭ Skipping (published {episode_date} is before Feb 2026 cutoff; sidecar date present)"
+                )
+                mark_transcript_processed(transcript_path, -1)
+                return None
+            # Clamp: trust "recentness" more than AI date when we have no sidecar.
+            episode_date = date.today()
+            print(
+                f"    ⚠ Clamping episode_date to {episode_date} (AI inferred {analysis.get('episode_date','')} < cutoff; no sidecar date)"
+            )
     except Exception:
         pass
 
@@ -561,6 +596,9 @@ def process_transcript_file(transcript_path: Path, client_info, db) -> Optional[
         name = (g.get('name') or '').strip()
         if not name:
             continue
+        # Skip clearly placeholder-ish names (LLM extraction artifacts).
+        if is_placeholder_person_name(name):
+            continue
         bio = g.get('bio') or None
         known_for = g.get('known_for') or None
         voice_tone = g.get('voice_tone') or None
@@ -586,6 +624,9 @@ def process_transcript_file(transcript_path: Path, client_info, db) -> Optional[
     for h in hosts:
         name = (h.get('name') or '').strip()
         if not name:
+            continue
+        # Skip placeholders for hosts too (prevents bogus pundits).
+        if is_placeholder_person_name(name):
             continue
         entity_id = upsert_entity(name=name, type_='person')
         insert_appearance(

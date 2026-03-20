@@ -30,6 +30,7 @@ from pathlib import Path
 
 sys.path.append(str(Path(__file__).parent))
 from db_manager import get_db  # type: ignore
+from person_name_safety import is_placeholder_person_name
 
 try:
     from grokipedia_client import fetch_pundit_profile_from_grokipedia  # type: ignore
@@ -84,6 +85,8 @@ def fetch_top_pundit_entity_ids(conn, limit: int = 10) -> List[int]:
     for row in cur.fetchall():
         name = (row["name"] or "").strip()
         if name in _EXCLUDED_PUNDIT_NAMES:
+            continue
+        if is_placeholder_person_name(name):
             continue
         ids.append(int(row["id"]))
         if len(ids) >= limit:
@@ -503,6 +506,9 @@ def enrich_pundits(
         for row in rows:
             ent_id = row["id"]
             name = (row["name"] or "").strip()
+            # Never enrich placeholders; keep them out of DB-derived pundit UI.
+            if is_placeholder_person_name(name):
+                continue
             bio = (row["bio"] or "").strip()
             known_for = (row["known_for"] or "").strip()
             net_worth_usd = row["net_worth_usd"]

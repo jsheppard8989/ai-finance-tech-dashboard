@@ -1,74 +1,69 @@
 {
-  "generated_at": "2026-03-19T22:24:57.749445",
-  "last_updated": "2026-03-19T22:24:57.749445",
-  "last_pipeline_run": "2026-03-19T22:24:57.749445",
+  "generated_at": "2026-03-20T10:25:42.919116",
+  "last_updated": "2026-03-20T10:25:42.919116",
+  "last_pipeline_run": "2026-03-20T10:25:42.919116",
   "main_page": {
     "overton": 8,
     "insights": 8,
-    "pundits": 17
+    "pundits": 19
   },
   "counts": {
-    "ticker_mentions": 136,
-    "podcast_episodes": 63,
+    "ticker_mentions": 139,
+    "podcast_episodes": 67,
     "newsletters": 7,
-    "daily_scores": 74,
+    "daily_scores": 77,
     "overton_terms_total": 16,
-    "latest_insights_total": 79,
-    "today_mentions": {},
-    "podcasts_analyzed": 9
+    "latest_insights_total": 82,
+    "today_mentions": {
+      "podcast": 3
+    },
+    "podcasts_analyzed": 5
   },
   "step_results": {
-    "downloaded": 0,
-    "transcribed": 0,
-    "analyzed": 0,
-    "insight_created": 0,
+    "downloaded": 5,
+    "transcribed": 5,
+    "analyzed": 5,
+    "insight_created": 3,
     "published": 0,
-    "total": 15
+    "total": 9
   },
   "episodes": [
     {
       "id": "e1cac66e-2231-11f1-82c3-c7e649c4b364",
       "podcast": "Moonshots with Peter Diamandis",
-      "title": "Meta Buys Moltbook, GPT 5.4, and Fruitfly Brain Upload | Moonshots Live at The Abundance Summit 238",
+      "title": "Meta Buys Moltbook GPT 5.4 and Fruitfly Brain Upload",
       "published": "2026-03-17",
       "rss_guid": "e1cac66e-2231-11f1-82c3-c7e649c4b364",
       "stages": {
-        "downloaded": false,
-        "transcribed": false,
-        "analyzed": false,
+        "downloaded": true,
+        "transcribed": true,
+        "analyzed": true,
         "insight_created": false,
         "published": false
       },
       "stage_reasons": {
-        "downloaded": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "transcribed": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "analyzed": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "insight_created": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
+        "insight_created": "No latest_insights row for this episode (insight step not reflected in DB yet).",
+        "published": "added_to_site=0 (export/publish step not reflected in DB yet)."
       },
-      "status": "needs_download"
+      "status": "needs_insight"
     },
     {
       "id": "e50ec482-23cc-11f1-a0f2-b7965cafb38b",
       "podcast": "Monetary Matters with Jack Farley",
-      "title": "\u201cThis Is The End of The Oil Market As We Know It\u201d | Rory Johnston on How $300 Oil Could Trigger Depression If De-Escalation Does Not Occur In Iran War",
+      "title": "Monetary Matters: Geopolitical Impact on Oil Markets with Roy Johnson",
       "published": "2026-03-19",
       "rss_guid": "e50ec482-23cc-11f1-a0f2-b7965cafb38b",
       "stages": {
-        "downloaded": false,
-        "transcribed": false,
-        "analyzed": false,
-        "insight_created": false,
+        "downloaded": true,
+        "transcribed": true,
+        "analyzed": true,
+        "insight_created": true,
         "published": false
       },
       "stage_reasons": {
-        "downloaded": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "transcribed": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "analyzed": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "insight_created": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
+        "published": "added_to_site=0 (export/publish step not reflected in DB yet)."
       },
-      "status": "needs_download"
+      "status": "needs_export"
     },
     {
       "id": "e3ce0ba4-22dd-11f1-b3e1-ef93882cc84d",
@@ -95,24 +90,21 @@
     {
       "id": "1e92a9dd-78da-4417-b1ce-4b4318d1f8c4",
       "podcast": "The a16z Show",
-      "title": "AI Just Gave You Superpowers \u2014 Now What?",
+      "title": "AI Startups and the Future of Technology",
       "published": "2026-03-19",
       "rss_guid": "1e92a9dd-78da-4417-b1ce-4b4318d1f8c4",
       "stages": {
-        "downloaded": false,
-        "transcribed": false,
-        "analyzed": false,
+        "downloaded": true,
+        "transcribed": true,
+        "analyzed": true,
         "insight_created": false,
         "published": false
       },
       "stage_reasons": {
-        "downloaded": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "transcribed": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "analyzed": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "insight_created": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
+        "insight_created": "No latest_insights row for this episode (insight step not reflected in DB yet).",
+        "published": "added_to_site=0 (export/publish step not reflected in DB yet)."
       },
-      "status": "needs_download"
+      "status": "needs_insight"
     },
     {
       "id": "1a7873e6-52cf-493d-a1a1-360a49324923",
@@ -139,46 +131,38 @@
     {
       "id": "b9112fca-9ebf-47e8-a8a1-9bcbcf39cf84",
       "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "title": "Jensen Huang LIVE: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
+      "title": "AI Factory and the Future of Computing",
       "published": "2026-03-19",
       "rss_guid": "b9112fca-9ebf-47e8-a8a1-9bcbcf39cf84",
       "stages": {
-        "downloaded": false,
-        "transcribed": false,
-        "analyzed": false,
-        "insight_created": false,
+        "downloaded": true,
+        "transcribed": true,
+        "analyzed": true,
+        "insight_created": true,
         "published": false
       },
       "stage_reasons": {
-        "downloaded": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "transcribed": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "analyzed": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "insight_created": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
+        "published": "added_to_site=0 (export/publish step not reflected in DB yet)."
       },
-      "status": "needs_download"
+      "status": "needs_export"
     },
     {
       "id": "macrovoices.podbean.com/50fdd645-b02f-394a-b564-556f8054273e",
       "podcast": "Macro Voices",
-      "title": "MacroVoices #524 Simon White: War + Inflation = More Inflation",
+      "title": "Macro Voices: The Iran Conflict's Impact on Inflation and Energy Markets",
       "published": "2026-03-19",
       "rss_guid": "macrovoices.podbean.com/50fdd645-b02f-394a-b564-556f8054273e",
       "stages": {
-        "downloaded": false,
-        "transcribed": false,
-        "analyzed": false,
-        "insight_created": false,
+        "downloaded": true,
+        "transcribed": true,
+        "analyzed": true,
+        "insight_created": true,
         "published": false
       },
       "stage_reasons": {
-        "downloaded": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "transcribed": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "analyzed": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "insight_created": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
+        "published": "added_to_site=0 (export/publish step not reflected in DB yet)."
       },
-      "status": "needs_download"
+      "status": "needs_export"
     },
     {
       "id": "substack:post:190118311",
@@ -203,142 +187,11 @@
       "status": "needs_download"
     },
     {
-      "id": "rss::monetary matters with jack farley::\u201cthis is the end of the oil market as we know it\u201d | rory johnston on how $300 oil could trigger depression if de-escalation does not occur i",
-      "podcast": "Monetary Matters with Jack Farley",
-      "title": "\u201cThis Is The End of The Oil Market As We Know It\u201d | Rory Johnston on How $300 Oil Could Trigger Depression If De-Escalation Does Not Occur In Iran War",
-      "published": "Thu, 19 Mar 2026 19:50:00 -0000",
-      "rss_guid": "",
-      "stages": {
-        "downloaded": false,
-        "transcribed": false,
-        "analyzed": false,
-        "insight_created": false,
-        "published": false
-      },
-      "stage_reasons": {
-        "downloaded": "Discovered on RSS feed; not yet pulled into curation/pipeline state.",
-        "transcribed": "Waiting for download first.",
-        "analyzed": "Waiting for transcript first.",
-        "insight_created": "Depends on analyze step first.",
-        "published": "Not on site until export after analysis and insight promotion."
-      },
-      "status": "needs_download"
-    },
-    {
-      "id": "rss::the a16z show::ai just gave you superpowers \u2014 now what?",
+      "id": "rss::the a16z show::inside palantir: building software that matters with shyam sankar",
       "podcast": "The a16z Show",
-      "title": "AI Just Gave You Superpowers \u2014 Now What?",
-      "published": "Thu, 19 Mar 2026 10:00:00 +0000",
-      "rss_guid": "",
-      "stages": {
-        "downloaded": false,
-        "transcribed": false,
-        "analyzed": false,
-        "insight_created": false,
-        "published": false
-      },
-      "stage_reasons": {
-        "downloaded": "Discovered on RSS feed; not yet pulled into curation/pipeline state.",
-        "transcribed": "Waiting for download first.",
-        "analyzed": "Waiting for transcript first.",
-        "insight_created": "Depends on analyze step first.",
-        "published": "Not on site until export after analysis and insight promotion."
-      },
-      "status": "needs_download"
-    },
-    {
-      "id": "rss::all-in with chamath, jason, sacks & friedberg::jensen huang live: nvidia's future, physical ai, rise of the agent, inference explosion, ai pr crisis",
-      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "title": "Jensen Huang LIVE: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
-      "published": "Thu, 19 Mar 2026 20:42:00 +0000",
-      "rss_guid": "",
-      "stages": {
-        "downloaded": false,
-        "transcribed": false,
-        "analyzed": false,
-        "insight_created": false,
-        "published": false
-      },
-      "stage_reasons": {
-        "downloaded": "Discovered on RSS feed; not yet pulled into curation/pipeline state.",
-        "transcribed": "Waiting for download first.",
-        "analyzed": "Waiting for transcript first.",
-        "insight_created": "Depends on analyze step first.",
-        "published": "Not on site until export after analysis and insight promotion."
-      },
-      "status": "needs_download"
-    },
-    {
-      "id": "rss::macro voices::macrovoices #524 simon white: war + inflation = more inflation",
-      "podcast": "Macro Voices",
-      "title": "MacroVoices #524 Simon White: War + Inflation = More Inflation",
-      "published": "Thu, 19 Mar 2026 14:08:42 -0500",
-      "rss_guid": "",
-      "stages": {
-        "downloaded": false,
-        "transcribed": false,
-        "analyzed": false,
-        "insight_created": false,
-        "published": false
-      },
-      "stage_reasons": {
-        "downloaded": "Discovered on RSS feed; not yet pulled into curation/pipeline state.",
-        "transcribed": "Waiting for download first.",
-        "analyzed": "Waiting for transcript first.",
-        "insight_created": "Depends on analyze step first.",
-        "published": "Not on site until export after analysis and insight promotion."
-      },
-      "status": "needs_download"
-    },
-    {
-      "id": "rss::monetary matters with jack farley::stock market on shaky foundations | blind squirrel macro\u2019s rupert mitchell on ipo supply, oil, and private credit",
-      "podcast": "Monetary Matters with Jack Farley",
-      "title": "Stock Market on Shaky Foundations | Blind Squirrel Macro\u2019s Rupert Mitchell on IPO Supply, Oil, and Private Credit",
-      "published": "Wed, 18 Mar 2026 15:19:00 -0000",
-      "rss_guid": "",
-      "stages": {
-        "downloaded": false,
-        "transcribed": false,
-        "analyzed": false,
-        "insight_created": false,
-        "published": false
-      },
-      "stage_reasons": {
-        "downloaded": "Discovered on RSS feed; not yet pulled into curation/pipeline state.",
-        "transcribed": "Waiting for download first.",
-        "analyzed": "Waiting for transcript first.",
-        "insight_created": "Depends on analyze step first.",
-        "published": "Not on site until export after analysis and insight promotion."
-      },
-      "status": "needs_download"
-    },
-    {
-      "id": "rss::moonshots with peter diamandis::meta buys moltbook, gpt 5.4, and fruitfly brain upload | moonshots live at the abundance summit 238",
-      "podcast": "Moonshots with Peter Diamandis",
-      "title": "Meta Buys Moltbook, GPT 5.4, and Fruitfly Brain Upload | Moonshots Live at The Abundance Summit 238",
-      "published": "Tue, 17 Mar 2026 21:22:00 -0000",
-      "rss_guid": "",
-      "stages": {
-        "downloaded": false,
-        "transcribed": false,
-        "analyzed": false,
-        "insight_created": false,
-        "published": false
-      },
-      "stage_reasons": {
-        "downloaded": "Discovered on RSS feed; not yet pulled into curation/pipeline state.",
-        "transcribed": "Waiting for download first.",
-        "analyzed": "Waiting for transcript first.",
-        "insight_created": "Depends on analyze step first.",
-        "published": "Not on site until export after analysis and insight promotion."
-      },
-      "status": "needs_download"
-    },
-    {
-      "id": "rss::dwarkesh podcast::why leonardo was a saboteur, gutenberg went broke, and florence was weird \u2013 ada palmer",
-      "podcast": "Dwarkesh Podcast",
-      "title": "Why Leonardo was a saboteur, Gutenberg went broke, and Florence was weird \u2013 Ada Palmer",
-      "published": "Fri, 06 Mar 2026 17:14:20 GMT",
+      "title": "Inside Palantir: Building Software That Matters with Shyam Sankar",
+      "published": "2026-03-20",
+      "published_date": "2026-03-20",
       "rss_guid": "",
       "stages": {
         "downloaded": false,
@@ -359,30 +212,16 @@
   ],
   "available_from_rss": [
     {
-      "podcast": "Monetary Matters with Jack Farley",
-      "title": "\u201cThis Is The End of The Oil Market As We Know It\u201d | Rory Johnston on How $300 Oil Could Trigger Depression If De-Escalation Does Not Occur In Iran War",
-      "published": "Thu, 19 Mar 2026 19:50:00 -0000",
-      "published_date": "2026-03-19",
+      "podcast": "The a16z Show",
+      "title": "Inside Palantir: Building Software That Matters with Shyam Sankar",
+      "published": "Fri, 20 Mar 2026 10:00:00 +0000",
+      "published_date": "2026-03-20",
       "rss_guid": ""
     },
     {
       "podcast": "The a16z Show",
       "title": "AI Just Gave You Superpowers \u2014 Now What?",
       "published": "Thu, 19 Mar 2026 10:00:00 +0000",
-      "published_date": "2026-03-19",
-      "rss_guid": ""
-    },
-    {
-      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "title": "Jensen Huang LIVE: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
-      "published": "Thu, 19 Mar 2026 20:42:00 +0000",
-      "published_date": "2026-03-19",
-      "rss_guid": ""
-    },
-    {
-      "podcast": "Macro Voices",
-      "title": "MacroVoices #524 Simon White: War + Inflation = More Inflation",
-      "published": "Thu, 19 Mar 2026 14:08:42 -0500",
       "published_date": "2026-03-19",
       "rss_guid": ""
     },
@@ -412,9 +251,18 @@
     {
       "id": "e1cac66e-2231-11f1-82c3-c7e649c4b364",
       "podcast": "Moonshots with Peter Diamandis",
-      "title": "Meta Buys Moltbook, GPT 5.4, and Fruitfly Brain Upload | Moonshots Live at The Abundance Summit 238",
-      "status": "needs_download",
+      "title": "Meta Buys Moltbook GPT 5.4 and Fruitfly Brain Upload",
+      "status": "needs_insight",
       "published": "2026-03-17",
+      "age_days": 3,
+      "next_blocker": "insight_created"
+    },
+    {
+      "id": "e3ce0ba4-22dd-11f1-b3e1-ef93882cc84d",
+      "podcast": "Monetary Matters with Jack Farley",
+      "title": "Stock Market on Shaky Foundations | Blind Squirrel Macro\u2019s Rupert Mitchell on IPO Supply, Oil, and Private Credit",
+      "status": "needs_download",
+      "published": "2026-03-18",
       "age_days": 2,
       "next_blocker": "downloaded"
     },
@@ -424,7 +272,7 @@
       "title": "Chris Dixon: From Quant Trading to Building a16z Crypto",
       "status": "needs_download",
       "published": "2026-03-02",
-      "age_days": 17,
+      "age_days": 18,
       "next_blocker": "downloaded"
     },
     {
@@ -433,7 +281,7 @@
       "title": "Why Leonardo was a saboteur, Gutenberg went broke, and Florence was weird \u2013 Ada Palmer",
       "status": "needs_download",
       "published": "2026-03-06",
-      "age_days": 13,
+      "age_days": 14,
       "next_blocker": "downloaded"
     }
   ],

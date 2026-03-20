@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-03-19T16:42:05.397105",
+  "generated_at": "2026-03-20T11:09:46.613270",
   "friday_iso": "2026-03-20",
-  "debater_a": "John Fetterman",
-  "debater_b": "Jacob Helbert",
-  "prompt_hash": "8185607f2034858e",
+  "debater_a": "Ben Harwitz",
+  "debater_b": "Paul Krugman",
+  "prompt_hash": "8b30dfc35a0d353d",
   "audio_file": "emp_ai_the_debate_11labs.mp3",
-  "bytes": 3909764
+  "bytes": 3111044
 }

@@ -95,7 +95,8 @@ class PodcastPipelineTracker:
             episodes[ep_id] = {
                 'podcast': ep['podcast'],
                 'title': ep['title'],
-                'published': ep.get('published', 'Unknown'),
+                # Prefer ISO date for display consistency (avoid raw RSS timestamps).
+                'published': ep.get('published_date') or ep.get('published', 'Unknown'),
                 'audio_file': ep.get('audio_file', ''),
                 'keywords': ep.get('matched_keywords', []),
                 'rss_guid': ep.get('rss_guid', '')

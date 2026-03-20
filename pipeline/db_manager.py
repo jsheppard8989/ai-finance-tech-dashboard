@@ -424,6 +424,14 @@ class DashboardDB:
         """Export all data needed for website to JSON files."""
         output_dir = Path(output_dir)
         output_dir.mkdir(parents=True, exist_ok=True)
+
+        # Hard-delete placeholder-ish pundit entities before any export happens.
+        # This ensures old/bad entities can't linger in the UI even if they were
+        # created before the placeholder filters were added.
+        try:
+            self.cleanup_placeholder_entities()
+        except Exception as e:
+            print(f"  ⚠ Placeholder cleanup skipped: {e}")
         
         # Export all tickers ranked by total weighted score from ticker_mentions
         scores = self.get_all_ticker_scores()
@@ -494,6 +502,8 @@ class DashboardDB:
             )
             rows = [dict(row) for row in cursor.fetchall()]
 
+            from person_name_safety import is_placeholder_person_name
+
             pundits = []
             # Names to exclude from pundits export (recurring co-hosts / hosts)
             excluded_pundit_names = {
@@ -508,6 +518,9 @@ class DashboardDB:
                 name = (row.get('name') or '').strip()
                 if name in excluded_pundit_names:
                     continue
+                if is_placeholder_person_name(name):
+                    continue
+
                 appearance_count = row.get('appearance_count') or 1
                 # Simple exponential decay on appearances based on last_seen timestamp
                 decayed_score = appearance_count
@@ -620,6 +633,43 @@ class DashboardDB:
             'podcast_guests': len(guests),
             'pundits': len(pundits),
         }
+
+    def cleanup_placeholder_entities(self) -> int:
+        """
+        Delete placeholder-ish person entities and their appearances.
+
+        This is a safety net for past data drift (before we added ingestion/enrichment
+        filters). It should be conservative but aligned with `person_name_safety`.
+        """
+        from person_name_safety import is_placeholder_person_name
+
+        with self._get_connection() as conn:
+            cur = conn.execute(
+                """
+                SELECT id, name
+                FROM entities
+                WHERE type = 'person'
+                """
+            )
+            bad_ids = []
+            for r in cur.fetchall():
+                name = (r["name"] or "").strip()
+                if is_placeholder_person_name(name):
+                    bad_ids.append(int(r["id"]))
+
+            if not bad_ids:
+                return 0
+
+            placeholders = ",".join("?" * len(bad_ids))
+            conn.execute(
+                f"DELETE FROM appearances WHERE entity_id IN ({placeholders})",
+                bad_ids,
+            )
+            conn.execute(
+                f"DELETE FROM entities WHERE id IN ({placeholders})",
+                bad_ids,
+            )
+            return len(bad_ids)
     
     # === Archive Management ===
     

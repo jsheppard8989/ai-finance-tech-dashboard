@@ -138,16 +138,7 @@
 
       <p id="episode-note" class="muted" style="margin-top: 0.5rem; font-size: 0.8rem;"></p>
       <p id="pipeline-health-check" class="muted" style="margin-top: 0.5rem; font-size: 0.85rem;"></p>
-      <div id="stale-wrap" style="display:none; margin-top:0.75rem;">
-        <h3 style="font-size: 0.95rem; color: #f59e0b; margin: 0 0 0.35rem;">Stuck episodes (no movement)</h3>
-        <p class="muted" style="font-size: 0.8rem; margin-bottom: 0.35rem;">These have been incomplete beyond the stale threshold and likely need manual intervention.</p>
-        <table id="stale-table">
-          <thead>
-            <tr><th>Podcast</th><th>Title</th><th>Age (days)</th><th>Suggested action</th><th>Status</th></tr>
-          </thead>
-          <tbody></tbody>
-        </table>
-      </div>
+      <!-- Redundant: the "stuck episodes" list is already implied by the stage view above. -->
     </div>
 
     <div id="stage-reason-modal" onclick="if(event.target===this) closeStageReasonModal()">
@@ -388,43 +379,7 @@
         healthEl.textContent = '⬜ Pipeline has work remaining: use the stage checkmarks above and the legend to decide the next step for Clawbot.';
       }
 
-      // Stale episode panel
-      const stale = pipelineState.stale_episodes || [];
-      const staleWrap = document.getElementById('stale-wrap');
-      const staleBody = document.getElementById('stale-table').querySelector('tbody');
-      staleBody.innerHTML = '';
-      if (stale.length) {
-        staleWrap.style.display = 'block';
-
-        function actionForNextBlocker(nextBlocker) {
-          switch (nextBlocker) {
-            case 'downloaded':
-              return 'Run fetch/download step';
-            case 'transcribed':
-              return 'Run transcribe step';
-            case 'analyzed':
-              return 'Run transcript analyze step';
-            case 'insight_created':
-              return 'Run insight promotion step';
-            case 'published':
-              return 'Run site export/publish step';
-            default:
-              return 'Check pipeline logs / rerun pipeline';
-          }
-        }
-
-        stale.forEach(function(ep) {
-          const tr = document.createElement('tr');
-          tr.innerHTML = '<td>' + (ep.podcast || '').substring(0, 28) + '</td>'
-            + '<td>' + (ep.title || '').substring(0, 52) + '</td>'
-            + '<td>' + (ep.age_days == null ? '—' : ep.age_days) + '</td>'
-            + '<td>' + actionForNextBlocker(ep.next_blocker) + '</td>'
-            + '<td>' + (ep.status || 'unknown') + '</td>';
-          staleBody.appendChild(tr);
-        });
-      } else {
-        staleWrap.style.display = 'none';
-      }
+      // (Removed) Stale episode panel: duplicated by the deterministic stage table above.
 
       const counts = pipelineState.counts || {};
       const countsOrder = ['podcast_episodes', 'podcasts_analyzed', 'latest_insights_total', 'overton_terms_total', 'ticker_mentions', 'pundits', 'newsletters', 'daily_scores'];

@@ -183,7 +183,7 @@ def llm_chat_json(client_kind: str, client: Any, system: str, user: str) -> Dict
         model = os.getenv("DEBATE_LLM_MODEL", "moonshot-v1-8k")
         if client_kind == "openai" and "moonshot" in model:
             model = os.getenv("OPENAI_DEBATE_MODEL", "gpt-4o-mini")
-        r = client.chat.completions.create(
+        common = dict(
             model=model,
             messages=[
                 {"role": "system", "content": system},
@@ -192,6 +192,13 @@ def llm_chat_json(client_kind: str, client: Any, system: str, user: str) -> Dict
             temperature=0.75,
             max_tokens=2000,
         )
+        # Best-effort: force strict JSON output (prevents parse crashes).
+        try:
+            r = client.chat.completions.create(
+                **common, response_format={"type": "json_object"}
+            )
+        except Exception:
+            r = client.chat.completions.create(**common)
         text = (r.choices[0].message.content or "").strip()
     elif client_kind == "gemini":
         import google.generativeai as genai
@@ -207,7 +214,16 @@ def llm_chat_json(client_kind: str, client: Any, system: str, user: str) -> Dict
     else:
         raise RuntimeError("No LLM client")
     raw = _strip_json_fence(text)
-    return json.loads(raw)
+    try:
+        return json.loads(raw)
+    except json.JSONDecodeError:
+        # Fallback: try to extract the first JSON object substring.
+        start = raw.find("{")
+        end = raw.rfind("}")
+        if start != -1 and end != -1 and end > start:
+            raw2 = raw[start : end + 1]
+            return json.loads(raw2)
+        raise
 
 
 def _banned_numeric_anchors(avoid_prompts: List[str]) -> str:
@@ -531,6 +547,126 @@ def validate_contract_audio_match(contract: Dict[str, Any], audio_meta: Dict[str
         raise RuntimeError("Publish safety check failed: contract/audio prompt hashes differ.")
 
 
+def _enforce_contract_resolution_dates(contract: Dict[str, Any], friday_iso: str) -> Dict[str, Any]:
+    """
+    Deterministically enforce the resolution/expiration date based on friday_iso + 42 days.
+
+    The LLM may pick an incorrect YEAR when generating the prompt/criteria. We overwrite the relevant
+    fields so they are consistent for the given contract friday.
+    """
+    if not contract or not friday_iso:
+        return contract
+
+    try:
+        friday_date = datetime.strptime(friday_iso[:10], "%Y-%m-%d").date()
+    except Exception:
+        return contract
+
+    resolution_date = friday_date + timedelta(days=42)
+    date_iso = resolution_date.isoformat()  # YYYY-MM-DD
+    date_long = resolution_date.strftime("%b %d, %Y")  # May 31, 2025
+    day_name = resolution_date.strftime("%A")  # Should be Friday
+
+    # expires_rule
+    contract["expires_rule"] = f"Resolves {day_name} 12:00 PM CST {date_iso}"
+
+    # resolution_clarity.resolution_criteria
+    rc = contract.get("resolution_clarity") or {}
+    if isinstance(rc, dict):
+        criteria = rc.get("resolution_criteria")
+        if isinstance(criteria, list):
+            month_name_re = re.compile(
+                r"\b(?:Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|Jul(?:y)?|"
+                r"Aug(?:ust)?|Sep(?:tember)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)"
+                r"\s+\d{1,2},\s+\d{4}\b",
+                flags=re.IGNORECASE,
+            )
+            iso_re = re.compile(r"\b\d{4}-\d{2}-\d{2}\b")
+
+            new_criteria: List[str] = []
+            for s in criteria:
+                if not isinstance(s, str):
+                    new_criteria.append(s)
+                    continue
+                s2 = month_name_re.sub(date_long, s)
+                s2 = iso_re.sub(date_iso, s2)
+                new_criteria.append(s2)
+            rc["resolution_criteria"] = new_criteria
+        contract["resolution_clarity"] = rc
+
+    # contract prompt: normalize any "by ..." anchor to the deterministic resolution_date.
+    prompt = contract.get("prompt")
+    if isinstance(prompt, str):
+        # Handle common phrasings that omit the exact day.
+        prompt = re.sub(
+            r"\bwithin\s+the\s+next\s+\d+\s+days\b",
+            f"by {date_long}",
+            prompt,
+            flags=re.IGNORECASE,
+        )
+        prompt = re.sub(
+            r"\bby\s+the\s+end\s+of\s+"
+            r"(?:Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|Jul(?:y)?|"
+            r"Aug(?:ust)?|Sep(?:tember)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)\s+"
+            r"\d{4}\b",
+            f"by {date_long}",
+            prompt,
+            flags=re.IGNORECASE,
+        )
+        prompt = re.sub(
+            r"\bbefore\s+the\s+end\s+of\s+"
+            r"(?:Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|Jul(?:y)?|"
+            r"Aug(?:ust)?|Sep(?:tember)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)\s+"
+            r"\d{4}\b",
+            f"by {date_long}",
+            prompt,
+            flags=re.IGNORECASE,
+        )
+        # Handle quarter anchors like "by the end of Q2 2023".
+        prompt = re.sub(
+            r"\bby\s+the\s+end\s+of\s+Q[1-4]\s+\d{4}\b",
+            f"by {date_long}",
+            prompt,
+            flags=re.IGNORECASE,
+        )
+        prompt = re.sub(
+            r"\bbefore\s+the\s+end\s+of\s+Q[1-4]\s+\d{4}\b",
+            f"by {date_long}",
+            prompt,
+            flags=re.IGNORECASE,
+        )
+        prompt = re.sub(
+            r"\bbefore\s+the\s+end\s+of\s+\d{4}\b",
+            f"by {date_long}",
+            prompt,
+            flags=re.IGNORECASE,
+        )
+        # Replace ISO date anchors like "by 2025-05-30".
+        prompt = re.sub(
+            r"\bby\s+\d{4}-\d{2}-\d{2}\b",
+            f"by {date_iso}",
+            prompt,
+            flags=re.IGNORECASE,
+        )
+
+        by_date_re = re.compile(
+            r"\bby\s+"
+            r"(?:"
+            r"(?:Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|Jul(?:y)?|"
+            r"Aug(?:ust)?|Sep(?:tember)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)"
+            r"\s+\d{1,2},\s+\d{4}"
+            r"|(?:\d{4}-\d{2}-\d{2})"
+            r")\b",
+            flags=re.IGNORECASE,
+        )
+        if by_date_re.search(prompt):
+            prompt = by_date_re.sub(f"by {date_long}", prompt)
+
+        contract["prompt"] = prompt
+
+    return contract
+
+
 def cmd_mark_resolved(friday_iso: str, status: str, notes: str) -> int:
     load_env()
     h = load_history()
@@ -620,16 +756,17 @@ def main() -> int:
     else:
         poly = "(Polymarket module not available.)"
 
-    if args.dry_run:
-        print(f"Friday (CST): {friday}")
-        print(f"Context terms: {overton[:5]}...")
-        c = generate_contract(kind, client, overton, insights, avoid, polymarket_context=poly)
-        print(json.dumps(c, indent=2))
-        return 0
-
     contract_core = generate_contract(
         kind, client, overton, insights, avoid, polymarket_context=poly
     )
+    # Deterministic enforcement: friday_iso + 42 days (fixes wrong YEAR issues).
+    contract_core = _enforce_contract_resolution_dates(contract_core, friday)
+
+    if args.dry_run:
+        print(f"Friday (CST): {friday}")
+        print(f"Context terms: {overton[:5]}...")
+        print(json.dumps(contract_core, indent=2))
+        return 0
     rotation = history["rotation_index"]
     pundits = load_pundits()
     p_a, p_b = pick_debaters(pundits, rotation)

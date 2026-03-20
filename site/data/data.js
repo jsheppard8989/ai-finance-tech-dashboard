@@ -3,7 +3,7 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-03-19T22:25:00.523595",
+  generatedAt: "2026-03-20T10:25:44.429314",
   chartsVersion: "2026-03-19T04:23:16.765044",
   tickerScores: [
   {
@@ -67,13 +67,28 @@ const dashboardData = {
     "contexts": []
   },
   {
+    "ticker": "S&P 500",
+    "total_score": 208.0,
+    "raw_mention_count": 3,
+    "unique_sources": 1,
+    "podcast_mentions": 3,
+    "newsletter_mentions": 0,
+    "rank": 5,
+    "score": 208.0,
+    "mentions": 3,
+    "conviction_level": "medium",
+    "contrarian_signal": "neutral",
+    "timeframe": "long_term",
+    "contexts": []
+  },
+  {
     "ticker": "META",
     "total_score": 177.0,
     "raw_mention_count": 14,
     "unique_sources": 2,
     "podcast_mentions": 2,
     "newsletter_mentions": 12,
-    "rank": 5,
+    "rank": 6,
     "score": 177.0,
     "mentions": 14,
     "conviction_level": "medium",
@@ -88,7 +103,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 3,
     "newsletter_mentions": 0,
-    "rank": 6,
+    "rank": 7,
     "score": 174.0,
     "mentions": 3,
     "conviction_level": "medium",
@@ -103,7 +118,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 2,
     "newsletter_mentions": 0,
-    "rank": 7,
+    "rank": 8,
     "score": 144.0,
     "mentions": 2,
     "conviction_level": "medium",
@@ -118,23 +133,8 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 2,
     "newsletter_mentions": 0,
-    "rank": 8,
-    "score": 142.0,
-    "mentions": 2,
-    "conviction_level": "medium",
-    "contrarian_signal": "neutral",
-    "timeframe": "long_term",
-    "contexts": []
-  },
-  {
-    "ticker": "S&P 500",
-    "total_score": 134.0,
-    "raw_mention_count": 2,
-    "unique_sources": 1,
-    "podcast_mentions": 2,
-    "newsletter_mentions": 0,
     "rank": 9,
-    "score": 134.0,
+    "score": 142.0,
     "mentions": 2,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
@@ -322,7 +322,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "ZEN",
+    "ticker": "WTI CRUDE OIL",
     "total_score": 72.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -337,14 +337,14 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "ARBOB GASOLINE",
-    "total_score": 70.0,
+    "ticker": "ZEN",
+    "total_score": 72.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
     "rank": 23,
-    "score": 70.0,
+    "score": 72.0,
     "mentions": 1,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
@@ -352,7 +352,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "DELL",
+    "ticker": "ARBOB GASOLINE",
     "total_score": 70.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -367,7 +367,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "EMAX",
+    "ticker": "DELL",
     "total_score": 70.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -382,7 +382,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "NOW",
+    "ticker": "EMAX",
     "total_score": 70.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -397,14 +397,14 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "CRM",
-    "total_score": 68.0,
+    "ticker": "NOW",
+    "total_score": 70.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
     "rank": 27,
-    "score": 68.0,
+    "score": 70.0,
     "mentions": 1,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
@@ -412,7 +412,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "MINE",
+    "ticker": "CRM",
     "total_score": 68.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -427,14 +427,14 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "ILMN",
-    "total_score": 66.0,
+    "ticker": "MINE",
+    "total_score": 68.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
     "rank": 29,
-    "score": 66.0,
+    "score": 68.0,
     "mentions": 1,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
@@ -442,7 +442,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "PLTR",
+    "ticker": "ILMN",
     "total_score": 66.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -457,14 +457,14 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "CRSP",
-    "total_score": 64.0,
+    "ticker": "PLTR",
+    "total_score": 66.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
     "rank": 31,
-    "score": 64.0,
+    "score": 66.0,
     "mentions": 1,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
@@ -472,7 +472,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "GOOG",
+    "ticker": "CRSP",
     "total_score": 64.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -487,7 +487,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "HOOD",
+    "ticker": "GOOG",
     "total_score": 64.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -502,7 +502,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "SF",
+    "ticker": "HOOD",
     "total_score": 64.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -517,7 +517,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "URANIUM",
+    "ticker": "SF",
     "total_score": 64.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -532,14 +532,14 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "T",
-    "total_score": 60.0,
+    "ticker": "URANIUM",
+    "total_score": 64.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
     "rank": 36,
-    "score": 60.0,
+    "score": 64.0,
     "mentions": 1,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
@@ -547,7 +547,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "TLT",
+    "ticker": "PQNT",
     "total_score": 60.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -562,13 +562,43 @@ const dashboardData = {
     "contexts": []
   },
   {
+    "ticker": "T",
+    "total_score": 60.0,
+    "raw_mention_count": 1,
+    "unique_sources": 1,
+    "podcast_mentions": 1,
+    "newsletter_mentions": 0,
+    "rank": 38,
+    "score": 60.0,
+    "mentions": 1,
+    "conviction_level": "medium",
+    "contrarian_signal": "neutral",
+    "timeframe": "long_term",
+    "contexts": []
+  },
+  {
+    "ticker": "TLT",
+    "total_score": 60.0,
+    "raw_mention_count": 1,
+    "unique_sources": 1,
+    "podcast_mentions": 1,
+    "newsletter_mentions": 0,
+    "rank": 39,
+    "score": 60.0,
+    "mentions": 1,
+    "conviction_level": "medium",
+    "contrarian_signal": "neutral",
+    "timeframe": "long_term",
+    "contexts": []
+  },
+  {
     "ticker": "QQQ",
     "total_score": 48.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 38,
+    "rank": 40,
     "score": 48.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -583,7 +613,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 39,
+    "rank": 41,
     "score": 40.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -598,7 +628,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 40,
+    "rank": 42,
     "score": 32.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -613,7 +643,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 41,
+    "rank": 43,
     "score": 24.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -628,7 +658,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 42,
+    "rank": 44,
     "score": 20.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -643,7 +673,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 43,
+    "rank": 45,
     "score": 20.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -658,7 +688,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 44,
+    "rank": 46,
     "score": 16.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -687,6 +717,68 @@ const dashboardData = {
       "archived_date": null,
       "archived_reason": null,
       "podcast_episode_id": 76
+    },
+    {
+      "id": 105,
+      "title": "Macro Voices: The Iran Conflict's Impact on Inflation and Energy Markets",
+      "source_type": "podcast",
+      "source_name": "Macro Voices",
+      "source_date": "2026-03-19",
+      "summary": "In this episode of Macro Voices, hosts Eric Townsend and Patrick Suresne discuss the market implications of the ongoing Iran conflict and the potential for secular inflation. They are joined by Bloomberg Macro strategist Simon White, who shares insights on the risk of renewed inflation, parallels to 1970s stagflation, and how shifts in commodities, credit, and the yield curve could reshape the macro outlook. Rory Johnston, founder of Commodity Context, provides an additional perspective on the conflict's impact on energy markets, particularly the oil sector.",
+      "key_takeaway": "The ongoing Iran conflict may lead to a secular inflation cycle, with oil prices being a key catalyst. Investors should monitor shifts in commodities, credit, and the yield curve for potential macroeconomic impacts.",
+      "tickers_mentioned": [
+        "S&P 500",
+        "WTI CRUDE OIL"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-20",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 91
+    },
+    {
+      "id": 106,
+      "title": "AI Factory and the Future of Computing",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-03-19",
+      "summary": "In this special episode of 'All-In with Chamath, Jason, Sacks & Friedberg', the hosts discuss the significant strides in the AI industry, with a focus on NVIDIA's strategic moves and the broader implications for the tech landscape. The conversation touches on NVIDIA's acquisition of Grok, the evolution of AI computing, and the importance of disaggregated inference. They also delve into the role of open source in AI development and the global diffusion of AI technology. The discussion concludes with advice for young people on education and the future of work in the context of AI.",
+      "key_takeaway": "NVIDIA's strategic acquisitions and technological advancements position it as a leader in the AI revolution, offering investors exposure to the growing AI factory industry.",
+      "tickers_mentioned": [
+        "NVDA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-20",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 90
+    },
+    {
+      "id": 107,
+      "title": "Monetary Matters: Geopolitical Impact on Oil Markets with Roy Johnson",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-03-19",
+      "summary": "In this special episode of Monetary Matters, host Jack Farley interviews Roy Johnson of Commodity Context to discuss the geopolitical crisis in the Middle East and its impact on oil markets. Johnson emphasizes that even if there's geopolitical de-escalation, the crisis is likely to be protracted, with severe implications for the oil market and global economy if the flow of oil through the Strait of Hormuz does not resume. The conversation covers the potential for a price spike in oil, the role of the United States and President Trump in resolving the crisis, and the concept of spare capacity in the oil market.",
+      "key_takeaway": "The ongoing geopolitical crisis in the Middle East, particularly the situation in the Strait of Hormuz, presents a significant risk to the global oil supply and could lead to a structural increase in oil prices.",
+      "tickers_mentioned": [
+        "AAPL",
+        "NVDA",
+        "SPY",
+        "TSLA",
+        "XOM"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-20",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 89
     },
     {
       "id": 94,
@@ -769,11 +861,11 @@ const dashboardData = {
         "TSLA"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-17",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-20",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 72
     },
     {
@@ -791,11 +883,11 @@ const dashboardData = {
         "MSFT"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-17",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-20",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 73
     },
     {
@@ -1770,26 +1862,6 @@ const dashboardData = {
       "podcast_episode_id": 85
     },
     {
-      "id": 98,
-      "title": "AI Disruption and the Future of Society",
-      "source_type": "podcast",
-      "source_name": "Moonshots with Peter Diamandis",
-      "source_date": "2026-02-19",
-      "summary": "In this episode of 'Moonshots with Peter Diamandis', the discussion revolves around the rapid advancements in AI technology and its potential impact on society and the economy. The guests delve into the concept of recursive self-improvement in AI, its implications for the singularity, and the societal changes that may accompany these technological leaps. They also touch upon the potential for AI to revolutionize industries, the concentration of wealth, and the importance of entrepreneurship in the future landscape.",
-      "key_takeaway": "Investing in AI technology and companies that are at the forefront of AI development could yield significant returns as these technologies become more integrated into society and drive economic growth.",
-      "tickers_mentioned": [
-        "OPEN AI",
-        "MCCOR"
-      ],
-      "sentiment": "bullish",
-      "display_on_main": 0,
-      "display_order": 0,
-      "added_date": "2026-03-19",
-      "archived_date": "2026-03-20",
-      "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 82
-    },
-    {
       "id": 99,
       "title": "The Future of Technology and Investment in AI",
       "source_type": "podcast",
@@ -1843,11 +1915,11 @@ const dashboardData = {
         "TSLA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-19",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-20",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 79
     },
     {
@@ -1923,7 +1995,13 @@ const dashboardData = {
       "source_date": "2026-02-17",
       "summary": "In this episode of 'Moonshots with Peter Diamandis', host Peter Diamandis interviews Brett Adcock, discussing advancements in robotics and AI, particularly focusing on neural networks and their impact on manufacturing and services. They delve into the rapid evolution of AI, the potential for a $50T market, and the shift from traditional coding to neural nets for robot learning and operation. The conversation also touches on the implications of robots building robots and the future of autonomous manufacturing.",
       "key_takeaway": "Investing in AI and robotics companies that leverage neural networks for autonomous manufacturing could yield significant returns as this market is expected to become the largest economy globally.",
-      "tickers_mentioned": [],
+      "tickers_mentioned": [
+        "AAPL",
+        "NVDA",
+        "TSLA",
+        "GOOGL",
+        "AMZN"
+      ],
       "sentiment": "neutral",
       "display_on_main": 0,
       "display_order": 0,
@@ -1940,7 +2018,13 @@ const dashboardData = {
       "source_date": "2026-02-15",
       "summary": "In this episode of a16z Live, Meta CTO Andrew 'Boz' Bosworth discusses the future of consumer technology with A16z's David George. Boz shares his insights on the potential shift from an app-centric world to a new AI-enabled computing experience that is more agentic, adaptive, and immersive. The conversation covers the evolution of interfaces, the role of augmented reality glasses, and the impact of AI on the existing app model. Boz also touches on the challenges of building a developer ecosystem and the importance of aligning with consumer intent rather than app orchestration.",
       "key_takeaway": "Invest in companies that are at the forefront of developing AI-enabled, immersive technologies that can redefine consumer interactions beyond the current app-centric model.",
-      "tickers_mentioned": [],
+      "tickers_mentioned": [
+        "AAPL",
+        "NVDA",
+        "FB",
+        "GOOGL",
+        "MSFT"
+      ],
       "sentiment": "neutral",
       "display_on_main": 0,
       "display_order": 0,
@@ -1957,7 +2041,12 @@ const dashboardData = {
       "source_date": "2026-02-15",
       "summary": "In this episode, host Jack Mallers discusses Bitcoin's recent price drop and its implications. He posits that Bitcoin, despite being the best money ever invented, has been treated like a software stock by the market. Mallers argues that the recent dip may be a pivotal moment for Bitcoin to transition from being perceived as a tech stock to a hard asset. He emphasizes Bitcoin's intrinsic value, its fixed supply, and its superiority over fiat and gold. Mallers also touches on broader macroeconomic factors influencing Bitcoin's price and suggests that the current market conditions might be signaling a bottom for Bitcoin, presenting a buying opportunity.",
       "key_takeaway": "Bitcoin's recent dip may be a catalyst for it to stop trading like a tech stock and start trading like a hard asset, presenting an investment opportunity.",
-      "tickers_mentioned": [],
+      "tickers_mentioned": [
+        "AAPL",
+        "NVDA",
+        "SPY",
+        "TSLA"
+      ],
       "sentiment": "bullish",
       "display_on_main": 0,
       "display_order": 0,
@@ -1965,6 +2054,25 @@ const dashboardData = {
       "archived_date": "2026-03-20",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 83
+    },
+    {
+      "id": 108,
+      "title": "Monetary Matters with Jack Farley: Short Selling Insights and AI in Investing",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-02-15",
+      "summary": "In this episode of Monetary Matters, host Jack Farley interviews Carson Block, the founder of Muddy Waters Capital, a leading activist short seller hedge fund. They discuss the fertile ground for short selling in the tech sector, particularly in AI and AI-adjacent industries, where there is a proliferation of pretenders. The conversation also touches on the potential for mean reversion in semiconductors and the opportunities in junior mining due to under allocation of human capital. Carson shares insights on precious metals investing and the differentiation between beta and alpha in stock selection. The episode concludes with a discussion on combining long side exposure with short selling strategies.",
+      "key_takeaway": "Invest in sectors with fertile ground for short selling, such as tech and AI, and consider undervalued areas like junior mining for potential alpha.",
+      "tickers_mentioned": [
+        "PQNT"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 0,
+      "display_order": 0,
+      "added_date": "2026-03-20",
+      "archived_date": "2026-03-20",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
+      "podcast_episode_id": 88
     },
     {
       "id": 1,
@@ -2565,6 +2673,71 @@ const dashboardData = {
       ]
     },
     {
+      "id": 105,
+      "title": "Macro Voices: The Iran Conflict's Impact on Inflation and Energy Markets",
+      "source_type": "podcast",
+      "source_name": "Macro Voices",
+      "source_date": "2026-03-19",
+      "summary": "In this episode of Macro Voices, hosts Eric Townsend and Patrick Suresne discuss the market implications of the ongoing Iran conflict and the potential for secular inflation. They are joined by Bloomberg Macro strategist Simon White, who shares insights on the risk of renewed inflation, parallels to 1970s stagflation, and how shifts in commodities, credit, and the yield curve could reshape the macro outlook. Rory Johnston, founder of Commodity Context, provides an additional perspective on the conflict's impact on energy markets, particularly the oil sector.",
+      "key_takeaway": "The ongoing Iran conflict may lead to a secular inflation cycle, with oil prices being a key catalyst. Investors should monitor shifts in commodities, credit, and the yield curve for potential macroeconomic impacts.",
+      "tickers_mentioned": "[\"S&P 500\", \"WTI CRUDE OIL\"]",
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-20",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 91,
+      "episode_release_date": "2026-03-19",
+      "guest_name": null,
+      "key_tickers": [
+        "S&P 500",
+        "WTI CRUDE OIL"
+      ]
+    },
+    {
+      "id": 106,
+      "title": "AI Factory and the Future of Computing",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-03-19",
+      "summary": "In this special episode of 'All-In with Chamath, Jason, Sacks & Friedberg', the hosts discuss the significant strides in the AI industry, with a focus on NVIDIA's strategic moves and the broader implications for the tech landscape. The conversation touches on NVIDIA's acquisition of Grok, the evolution of AI computing, and the importance of disaggregated inference. They also delve into the role of open source in AI development and the global diffusion of AI technology. The discussion concludes with advice for young people on education and the future of work in the context of AI.",
+      "key_takeaway": "NVIDIA's strategic acquisitions and technological advancements position it as a leader in the AI revolution, offering investors exposure to the growing AI factory industry.",
+      "tickers_mentioned": "[\"NVDA\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-20",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 90,
+      "episode_release_date": "2026-03-19",
+      "guest_name": null,
+      "key_tickers": [
+        "NVDA"
+      ]
+    },
+    {
+      "id": 107,
+      "title": "Monetary Matters: Geopolitical Impact on Oil Markets with Roy Johnson",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-03-19",
+      "summary": "In this special episode of Monetary Matters, host Jack Farley interviews Roy Johnson of Commodity Context to discuss the geopolitical crisis in the Middle East and its impact on oil markets. Johnson emphasizes that even if there's geopolitical de-escalation, the crisis is likely to be protracted, with severe implications for the oil market and global economy if the flow of oil through the Strait of Hormuz does not resume. The conversation covers the potential for a price spike in oil, the role of the United States and President Trump in resolving the crisis, and the concept of spare capacity in the oil market.",
+      "key_takeaway": "The ongoing geopolitical crisis in the Middle East, particularly the situation in the Strait of Hormuz, presents a significant risk to the global oil supply and could lead to a structural increase in oil prices.",
+      "tickers_mentioned": "[\"AAPL\", \"NVDA\", \"SPY\", \"TSLA\", \"XOM\"]",
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-20",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 89,
+      "episode_release_date": "2026-03-19",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 94,
       "title": "Interview with Senator John Fetterman on Voting Rights, Policy Decisions, and the Democratic Party",
       "source_type": "podcast",
@@ -2601,46 +2774,6 @@ const dashboardData = {
       "archived_reason": null,
       "podcast_episode_id": 77,
       "episode_release_date": "2026-03-18",
-      "guest_name": null,
-      "key_tickers": []
-    },
-    {
-      "id": 89,
-      "title": "Bitcoin in a World That Can't Be Reversed with a Tweet",
-      "source_type": "podcast",
-      "source_name": "The Jack Mallers Show",
-      "source_date": "2026-03-17",
-      "summary": "In this episode of 'The Jack Mallers Show', Jack Mallers discusses Bitcoin's market dynamics and its potential as a leading indicator in the financial markets. He explores the concept of Bitcoin exhaustion of sellers, the impact of structural flows into Bitcoin, and its finite supply. Jack also touches on Bitcoin's efficiency in a free market context, its comparison to gold, and potential capital flight implications. He shares insights on Bitcoin's resilience and the anticipation of large-scale money printing, hinting at Bitcoin's role as a hedge against inflation and economic uncertainty.",
-      "key_takeaway": "Bitcoin's finite supply and increasing institutional interest position it as a potential hedge against inflation and a leading indicator for market movements.",
-      "tickers_mentioned": "[\"AAPL\", \"NVDA\", \"SPY\", \"TSLA\"]",
-      "sentiment": "bearish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-03-17",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 72,
-      "episode_release_date": "2026-03-17",
-      "guest_name": null,
-      "key_tickers": []
-    },
-    {
-      "id": 90,
-      "title": "Understanding the Mechanics of Large Language Models (LLMs) and the Path to AGI",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-03-17",
-      "summary": "The podcast episode features a discussion with Shal Misra, a Professor and Vice Dean of Computing at Columbia University, who has been researching the inner workings of Large Language Models (LLMs). The conversation delves into the mathematical models that explain how LLMs function, the difference between pattern matching and true intelligence, and the challenges in moving from correlation to causation for achieving Artificial General Intelligence (AGI). The episode also touches on the limitations of current LLMs and the potential paths for future development.",
-      "key_takeaway": "Investing in companies and technologies that are advancing the understanding and capabilities of LLMs could be a pathway to participate in the development of AGI.",
-      "tickers_mentioned": "[\"AAPL\", \"NVDA\", \"GOOGL\", \"MSFT\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-03-17",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 73,
-      "episode_release_date": "2026-03-17",
       "guest_name": null,
       "key_tickers": []
     },
@@ -2687,26 +2820,6 @@ const dashboardData = {
       "key_tickers": [
         "TSLA"
       ]
-    },
-    {
-      "id": 101,
-      "title": "Moonshots with Peter Diamandis: AI, Automation, and the Path to Abundance by 2035",
-      "source_type": "podcast",
-      "source_name": "Moonshots with Peter Diamandis",
-      "source_date": "2026-02-19",
-      "summary": "In this episode of Moonshots with Peter Diamandis, the focus is on the rapid advancements in AI and automation, and their profound impact on jobs, economies, and the future of capitalism. The discussion also includes the unveiling of a paper titled 'Soled Everything,' which outlines a vision for achieving abundance by 2035. Key themes include the potential for AI CEOs, the disappearance of jobs due to automation, and the social contract being redefined. The conversation also touches on the acceleration of technological advancements and their implications for policy, civil unrest, and the future of work.",
-      "key_takeaway": "Invest in AI and automation technologies that are driving the transformation of industries and the creation of new economic opportunities, while also considering the social and policy implications of these changes.",
-      "tickers_mentioned": "[\"AAPL\", \"NVDA\", \"GOOGL\", \"MSFT\", \"TSLA\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-03-19",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 79,
-      "episode_release_date": "2026-02-19",
-      "guest_name": null,
-      "key_tickers": []
     }
   ],
   "definitions": [
@@ -7626,81 +7739,6 @@ const dashboardData = {
     "source_date": "2026-02-19",
     "key_tickers": []
   },
-  "98": {
-    "id": 89,
-    "insight_id": 98,
-    "podcast_episode_id": 82,
-    "overview": "The rapid advancement of AI technology is poised to disrupt various sectors of the economy, leading to a transformative shift in societal structures and business models. The departures from the founding team of X-A-I, as mentioned in the podcast, signify a potential shift in the AI landscape. Investors must be prepared for the implications of AI's recursive self-improvement and its impact on global mortality rates, as well as the control it may exert over societal functions. This deep dive analysis will explore the investment thesis surrounding AI disruption, its potential catalysts, and the timeframes within which these changes may occur, providing actionable insights for investors to navigate this new world order.",
-    "key_takeaways_detailed": [
-      "AI's recursive self-improvement capability is a significant trigger for the singularity, which could redefine societal and economic structures.",
-      "Investors should monitor the departures and shifts within AI founding teams as potential indicators of market direction and technology maturity.",
-      "AI's potential to reduce global mortality rates presents a moral and ethical investment consideration, alongside traditional financial metrics.",
-      "The control exerted by AI developers over societal functions suggests a need for investors to consider the ethical implications of their investments.",
-      "The unpredictable yet accelerating timeline of AI development requires investors to be agile and responsive to emerging trends and technologies."
-    ],
-    "investment_thesis": "The core investment logic revolves around the inevitability of AI-driven disruption across industries. As AI technology advances, it will lead to increased productivity, potentially reducing the need for human labor and\u91cd\u5851ing business models. Catalysts for this thesis include advancements in AI algorithms, the development of AI-specific hardware, and the increasing adoption of AI in decision-making processes. The timeframe for this thesis is medium to long-term, as the full impact of AI on society and the economy is expected to unfold over the next 3-10 years.",
-    "ticker_analysis": {
-      "AAPL": {
-        "rationale": "Apple's significant investment in AI for its products and services positions it to benefit from the AI-driven disruption.",
-        "positioning": "Long-term strategic position, as Apple's ecosystem can leverage AI to enhance user experience and drive innovation.",
-        "risk": "Regulatory challenges to data privacy and potential slowdowns in AI adoption could impact Apple's growth in this area."
-      },
-      "NVDA": {
-        "rationale": "Nvidia's leadership in GPU technology, which is fundamental to AI and deep learning, makes it a key player in the AI revolution.",
-        "positioning": "Strategic long position, considering the company's potential to benefit from increased demand for AI processing power.",
-        "risk": "High competition in the semiconductor market and potential disruptions in global supply chains could affect Nvidia's performance."
-      },
-      "GOOGL": {
-        "rationale": "Google's extensive research and development in AI, along with its cloud services, places it at the forefront of AI innovation.",
-        "positioning": "Long-term strategic position, as Google's AI capabilities are integral to its growth and competitive advantage.",
-        "risk": "Regulatory scrutiny over data usage and potential backlash against AI ethics could hinder Google's AI initiatives."
-      },
-      "MSFT": {
-        "rationale": "Microsoft's broad portfolio, including AI tools and cloud services, positions it to capitalize on the AI-driven transformation.",
-        "positioning": "Medium to long-term strategic position, as Microsoft can leverage AI to enhance its product offerings and services.",
-        "risk": "Intense competition in the cloud and AI sectors, along with potential regulatory hurdles, could challenge Microsoft's progress."
-      },
-      "TSLA": {
-        "rationale": "Tesla's use of AI in its autonomous driving technology and manufacturing processes makes it a unique beneficiary of AI advancements.",
-        "positioning": "Long-term strategic position, considering the potential for Tesla to disrupt the automotive industry with AI.",
-        "risk": "Technological setbacks in autonomous driving and potential regulatory obstacles could impact Tesla's AI initiatives."
-      }
-    },
-    "positioning_guidance": "Investors should consider a diversified approach to AI investments, with a mix of long-term strategic positions in companies leading in AI technology and applications. Entry points should be based on market volatility and company-specific catalysts. Investors should be prepared to adjust positions in response to rapid changes in the AI landscape and maintain a long-term perspective, as the full impact of AI is expected to unfold over several years. Consider hedging against potential regulatory and ethical risks associated with AI advancements.",
-    "risk_factors": [
-      "Regulatory changes that could limit the development or use of AI technologies.",
-      "Ethical concerns surrounding AI's impact on privacy, job displacement, and societal control.",
-      "Technological setbacks or failures in AI that could slow down the adoption of these technologies.",
-      "Intense competition in the AI space that could erode the competitive advantage of leading companies.",
-      "Global economic downturns or geopolitical events that could disrupt the investment in and development of AI technologies."
-    ],
-    "contrarian_signals": [
-      "The potential for AI to create new job opportunities and industries, offsetting job displacement concerns.",
-      "The possibility that AI advancements may not occur as rapidly as predicted, leading to a slower societal and economic transformation.",
-      "The emergence of new AI players that could disrupt the current market leaders and change the competitive landscape.",
-      "The potential for AI to be regulated in a way that promotes ethical use and mitigates societal risks, reducing the perceived dangers of AI advancement."
-    ],
-    "catalysts": [
-      "Upcoming AI-related legislation and regulatory decisions that could shape the future of AI development and use.",
-      "Major AI conferences and events where new advancements and partnerships are announced, signaling the direction of the industry.",
-      "Earnings reports and product launches from key AI companies that can provide insights into the commercial viability of AI technologies.",
-      "Global economic indicators that could influence investment in AI research and development.",
-      "Technological milestones, such as breakthroughs in AI algorithms or hardware, that could accelerate the adoption of AI across industries."
-    ],
-    "related_insights": null,
-    "audio_timestamp_start": null,
-    "audio_timestamp_end": null,
-    "transcript_excerpt": null,
-    "created_at": "2026-03-19T22:21:48.670369",
-    "updated_at": "2026-03-20 03:21:48",
-    "insight_title": "AI Disruption and the Future of Society",
-    "source_name": "Moonshots with Peter Diamandis",
-    "source_date": "2026-02-19",
-    "key_tickers": [
-      "OPEN AI",
-      "MCCOR"
-    ]
-  },
   "99": {
     "id": 90,
     "insight_id": 99,
@@ -7912,6 +7950,427 @@ const dashboardData = {
     "source_name": "Moonshots with Peter Diamandis",
     "source_date": "2026-02-19",
     "key_tickers": []
+  },
+  "102": {
+    "id": 93,
+    "insight_id": 102,
+    "podcast_episode_id": 86,
+    "overview": "The rapid advancement in neural network technology is revolutionizing the field of robotics and autonomous manufacturing. Brett Adcock's Figure Technologies is at the forefront of this transformation, with their humanoid robots running on neural nets, capable of learning tasks and sharing knowledge across the fleet. This technology not only has the potential to disrupt traditional manufacturing but also to create a new $50 trillion market. The investment thesis revolves around the shift from traditional coding to neural net-based learning, which offers significant advantages in terms of scalability, adaptability, and cost efficiency. The implications of this technology are vast, affecting industries from manufacturing to logistics to household services.",
+    "key_takeaways_detailed": [
+      "Neural net-based robots can learn tasks and share knowledge across the fleet, creating a significant barrier to entry and a valuable data asset.",
+      "The transition from C++ to neural nets reduces development time and cost, and increases the adaptability of robots to new tasks.",
+      "Figure Technologies' Helix 2 represents a significant leap in full-body neural net control, enabling more complex and unscripted behaviors.",
+      "The market potential for autonomous manufacturing and humanoid robots is enormous, with the potential to create a new $50 trillion market.",
+      "Investors should monitor the progress of neural net technology in robotics and its impact on traditional manufacturing and service industries."
+    ],
+    "investment_thesis": "The core investment logic is centered around the disruptive potential of neural net technology in robotics, which is set to revolutionize autonomous manufacturing and create new market opportunities. The catalysts for this thesis include the continued advancement in neural net capabilities, the reduction in manufacturing costs, and the increasing adoption of robots in various industries. The timeframe for this thesis is medium to long-term, as the technology matures and adoption accelerates.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's significant investment in AI and machine learning, along with its potential to integrate advanced robotics into its supply chain and product offerings, makes it relevant to this thesis.",
+        "positioning": "Position long on AAPL as a strategic investment, given its potential to benefit from the shift towards neural net-based robotics and autonomous manufacturing.",
+        "risk": "Key risks include increased competition, regulatory hurdles, and potential delays in technology development and adoption."
+      },
+      "NVDA": {
+        "rationale": "NVIDIA's leadership in AI and GPU technology positions it well to benefit from the growth in neural net-based robotics.",
+        "positioning": "Consider a long position in NVDA as a tactical investment to capitalize on the immediate demand for advanced computing power in neural net applications.",
+        "risk": "The risk includes reliance on the overall growth of the AI market and potential disruptions from new competitors in the AI hardware space."
+      },
+      "TSLA": {
+        "rationale": "Tesla's experience with autonomous vehicles and its investment in AI could allow it to leverage neural net technology in new areas, such as robotics.",
+        "positioning": "Hold a long position in TSLA as a strategic investment to benefit from its potential expansion into the robotics sector using neural net technology.",
+        "risk": "Risks include the company's ability to successfully transition from automotive to robotics, as well as the overall market acceptance of autonomous technologies."
+      },
+      "GOOGL": {
+        "rationale": "Google's deep investments in AI research and its potential to apply neural net technology across its broad range of products make it a key player in this space.",
+        "positioning": "Maintain a long position in GOOGL as a strategic investment to capture the long-term benefits of AI and neural net advancements.",
+        "risk": "The risk includes the potential for regulatory challenges and the possibility that Google may not successfully monetize its AI investments."
+      },
+      "AMZN": {
+        "rationale": "Amazon's extensive logistics network and its push towards automation make it a prime candidate to adopt neural net-based robotics for efficiency gains.",
+        "positioning": "Consider a long position in AMZN as a tactical investment to benefit from immediate applications of neural net technology in logistics and warehousing.",
+        "risk": "Key risks include the speed of technology adoption, potential labor pushback, and competition from other tech giants in the logistics space."
+      }
+    },
+    "positioning_guidance": "Investors should consider a balanced portfolio with a mix of strategic and tactical positions in companies that are poised to benefit from the shift towards neural net-based robotics. Sizing should reflect the potential impact of this technology on each company's core business, with an emphasis on those with strong AI capabilities. Entry points should be considered in the context of the overall market conditions and the specific catalysts related to each company. Timeframes for these investments should align with the expected adoption curve of neural net technology, with a focus on medium to long-term growth.",
+    "risk_factors": [
+      "The pace of technological advancement may not meet market expectations, leading to slower adoption than anticipated.",
+      "There is a risk of regulatory hurdles that could slow down the deployment of autonomous robots in various industries.",
+      "The potential for market over saturation as more companies enter the space, leading to increased competition and potentially lower profit margins.",
+      "The possibility that the cost benefits of neural net-based robots may not materialize as quickly as expected, affecting the return on investment.",
+      "Security and privacy concerns related to the data generated by these robots could lead to delays or restrictions on their use."
+    ],
+    "contrarian_signals": [
+      "Despite the hype, some industry experts argue that the cost of developing and maintaining neural net-based robots may remain prohibitively high for widespread adoption.",
+      "There is a risk that the complexity of neural net algorithms could lead to unpredictable behaviors, potentially causing safety concerns and public resistance.",
+      "Traditional manufacturing methods may continue to be more cost-effective in certain scenarios, limiting the immediate displacement by neural net-based robots."
+    ],
+    "catalysts": [
+      "The release of Helix 3, which is expected to further advance the capabilities of neural net-based robots.",
+      "Figure Technologies' announcement of new partnerships or acquisitions that could accelerate the adoption of their technology.",
+      "Regulatory approvals that pave the way for increased use of autonomous robots in industries such as manufacturing and logistics.",
+      "Breakthroughs in AI research that enhance the learning capabilities and efficiency of neural net-based systems.",
+      "Economic shifts that increase the cost of traditional labor, making the adoption of autonomous robots more economically viable."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-03-20T04:43:57.623158",
+    "updated_at": "2026-03-20 09:43:57",
+    "insight_title": "Humanoid Run on Neural Net, Autonomous Manufacturing, $50T Market #229",
+    "source_name": "Moonshots with Peter Diamandis",
+    "source_date": "2026-02-17",
+    "key_tickers": []
+  },
+  "103": {
+    "id": 94,
+    "insight_id": 103,
+    "podcast_episode_id": 84,
+    "overview": "The investment thesis revolves around the imminent shift from the app-centric, smartphone-dominated era to a new paradigm of consumer technology, potentially led by augmented reality (AR), virtual reality (VR), and AI-enabled interfaces. This transition could disrupt traditional computing experiences, creating new market opportunities and challenges for established players. The significance lies in the potential for substantial growth in companies that can successfully navigate and capitalize on these emerging technologies, while also presenting risks for those unable to adapt.",
+    "key_takeaways_detailed": [
+      "Invest in companies at the forefront of AR/VR and AI development, as they are likely to shape the post-mobile phone era.",
+      "Monitor the development of new interfaces and marketplaces that could replace or supplement the current app model.",
+      "Assess the potential impact on brand value as a competitive moat in a world where user interaction shifts from taps and swipes to intent-driven experiences.",
+      "Consider the short-term risks of high-end, expensive AR/VR products not being widely adopted, versus the long-term potential of more accessible, immersive experiences.",
+      "Stay abreast of technological breakthroughs in hardware that could accelerate the adoption of new computing experiences."
+    ],
+    "investment_thesis": "The core investment logic is that the next wave of consumer technology will be characterized by a move away from the current app-centric model to more immersive, AI-driven experiences. Catalysts for this shift include advancements in AI, improvements in hardware capabilities, and the development of new interfaces that enhance user engagement. The timeframe for significant changes is expected to be within the next 5 to 10 years, with the potential for early adopters and innovators to gain a competitive edge. This thesis is based on the belief that the current smartphone form factor has reached a saturation point, and there is a growing demand for more engaging and socially interactive experiences.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's investment in AR and its potential to integrate new technologies into its ecosystem makes it a key player in the post-mobile phone era.",
+        "positioning": "Position long-term as Apple is likely to leverage its brand strength and user base to lead in the adoption of new consumer tech experiences.",
+        "risk": "The risk lies in Apple's ability to innovate quickly enough to stay ahead of competitors in a rapidly changing tech landscape."
+      },
+      "NVDA": {
+        "rationale": "Nvidia's expertise in GPU technology positions it well to support the computational demands of AR/VR and AI applications.",
+        "positioning": "Consider a strategic long position as the demand for advanced graphics processing is expected to grow with the adoption of new consumer tech.",
+        "risk": "The risk is tied to the company's ability to maintain its technological edge in a competitive market and to adapt to shifting consumer preferences."
+      },
+      "FB": {
+        "rationale": "Meta Platforms (Facebook) has shown a commitment to developing new interfaces and has a history of innovation in consumer tech.",
+        "positioning": "Position tactically as the company's success in the new era will depend on its ability to translate emerging technologies into consumer products.",
+        "risk": "The risk is associated with the company's ability to successfully navigate the regulatory environment and maintain user trust."
+      },
+      "GOOGL": {
+        "rationale": "Google's broad technology portfolio and investments in AI and AR/VR make it a significant player in shaping the future of consumer technology.",
+        "positioning": "Hold a long position as Google's diverse offerings could benefit from the shift towards more immersive computing experiences.",
+        "risk": "The risk includes the potential for Google to face increased regulatory scrutiny and the challenge of integrating disparate technologies into a cohesive user experience."
+      },
+      "MSFT": {
+        "rationale": "Microsoft's HoloLens and other AR/VR initiatives, along with its cloud computing services, align with the\u53d1\u5c55\u8d8b\u52bf towards new computing experiences.",
+        "positioning": "Maintain a strategic long position as Microsoft's enterprise focus could provide stability in the face of consumer tech volatility.",
+        "risk": "The risk is in the company's ability to compete effectively in the consumer market against more established players in the AR/VR space."
+      }
+    },
+    "positioning_guidance": "Allocate a portion of the portfolio to companies leading in AR/VR and AI development, with a focus on both short-term tactical plays and long-term strategic investments. Consider entry points based on technological milestones and market adoption rates, with an eye on the 5 to 10-year timeframe. Diversify to hedge against the risks associated with rapid technological change and market volatility.",
+    "risk_factors": [
+      "The pace of technological advancement may not meet market expectations, leading to overvaluation of early-stage companies.",
+      "Regulatory changes could significantly impact the development and adoption of new technologies, particularly in areas like data privacy and user protection.",
+      "There is a risk that consumer preferences may not align with the predicted shift towards more immersive experiences, leading to slower adoption rates.",
+      "The potential for new entrants to disrupt the market with innovative solutions that render current investments obsolete.",
+      "Economic downturns or market volatility could affect the funding and development of new technologies, delaying or derailing the anticipated shift in consumer technology."
+    ],
+    "contrarian_signals": [
+      "The possibility that the current app model may continue to evolve and remain dominant, with incremental improvements rather than a complete paradigm shift.",
+      "The risk that high costs and technical complexities of AR/VR and AI technologies may limit widespread adoption, particularly in the short to medium term.",
+      "The potential for established players to successfully adapt to new technologies, maintaining their market dominance and reducing the impact of disruptive innovations."
+    ],
+    "catalysts": [
+      "The launch of new AR/VR products and services by major tech companies, which could accelerate market adoption.",
+      "Advancements in AI that enable more natural and intuitive user interfaces, potentially replacing traditional touchscreen interactions.",
+      "The development of new standards and platforms that facilitate the creation and distribution of immersive content.",
+      "Regulatory decisions that either support or hinder the development and adoption of new technologies, particularly in areas like data privacy and user protection.",
+      "Economic indicators that signal the health of the consumer tech market and the potential for investment in new technologies."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-03-20T04:45:43.602029",
+    "updated_at": "2026-03-20 09:45:43",
+    "insight_title": "The Future of Consumer Technology and the Post-Mobile Phone Era",
+    "source_name": "a16z Live",
+    "source_date": "2026-02-15",
+    "key_tickers": []
+  },
+  "104": {
+    "id": 95,
+    "insight_id": 104,
+    "podcast_episode_id": 83,
+    "overview": "The investment thesis presented in this deep dive analysis revolves around the evolving perception of Bitcoin as it transitions from being treated as a software stock to a hard asset. This shift is critical as it reflects a broader change in liquidity regimes, with capital reallocating from software technology to more traditional hard assets such as energy, infrastructure, and critical minerals. The analysis suggests that despite Bitcoin's intrinsic qualities as a superior store of value, it has been trading in correlation with software stocks, which is set to change. This repricing could be painful in the short term but is necessary for Bitcoin to mature as an asset class and achieve its potential as the ultimate hard asset in the long term.",
+    "key_takeaways_detailed": [
+      "Bitcoin's price correlation with software stocks is high, indicating similar asset ownership dynamics.",
+      "The US policy shift towards domestic investment in infrastructure and energy is prompting a capital reallocation away from software stocks.",
+      "Bitcoin's dip may signal a healthy transition towards trading more like a hard asset, aligning with its intrinsic properties as a store of value.",
+      "Investors should monitor the correlation between Bitcoin and software stocks to gauge the market's perception of Bitcoin.",
+      "Diversification into hard assets could provide a hedge against the current volatility in the software sector."
+    ],
+    "investment_thesis": "The core investment logic is that Bitcoin, despite its attributes as a hard asset and a superior form of money, has been incorrectly priced alongside software stocks. As global liquidity shifts towards more traditional hard assets, Bitcoin is poised to decouple from software stocks and reprice based on its own fundamentals. This thesis is supported by the current market dynamics, where capital is moving away from tech multiples towards sectors that align with national interests and infrastructure development. The catalyst for this shift is the changing macroeconomic landscape and policy\u5bfc\u5411, with a timeframe that could span from the short to medium term as market participants adjust their perceptions and holdings accordingly.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple Inc. is included as it represents a significant player in the technology sector, and its stock performance can indicate broader market sentiment towards tech stocks, which is crucial for understanding Bitcoin's current market behavior.",
+        "positioning": "Positioning in AAPL should be strategic and long-term, as the company's diversification and strong balance sheet can provide stability amidst the tech sector's volatility.",
+        "risk": "Key risks include increased regulatory scrutiny on tech companies and a potential slowdown in consumer spending, which could affect Apple's growth prospects."
+      },
+      "NVDA": {
+        "rationale": "Nvidia Corporation is a leading semiconductor and technology company, and its stock performance is indicative of the health of the software and tech sector, which is highly correlated with Bitcoin's price movements.",
+        "positioning": "Investors should consider a tactical short position in NVDA if they believe the correlation with Bitcoin will continue and capital will exit the software sector.",
+        "risk": "The risk lies in the rapid pace of innovation in the semiconductor industry and the potential for Nvidia to outperform if the market remains focused on tech growth narratives."
+      },
+      "SPY": {
+        "rationale": "The S&P 500 ETF (SPY) provides broad market exposure and can serve as a benchmark for understanding the overall market's shift in capital allocation between sectors.",
+        "positioning": "A strategic long position in SPY can offer diversification and capture the potential benefits of a broader market shift towards hard assets.",
+        "risk": "Market risks include economic downturns, geopolitical tensions, and changes in monetary policy that could affect the performance of the S&P 500 index."
+      },
+      "TSLA": {
+        "rationale": "Tesla Inc. is a disruptor in the automotive and energy sectors, and its stock performance can reflect the market's appetite for innovative technology companies, which is relevant to Bitcoin's status as a technological asset.",
+        "positioning": "A tactical long position in TSLA could be considered if investors believe in the company's growth potential and its ability to lead in the electric vehicle and renewable energy markets.",
+        "risk": "Key risks include increased competition in the electric vehicle market, supply chain disruptions, and potential regulatory hurdles."
+      }
+    },
+    "positioning_guidance": "Investors should consider a balanced portfolio approach, with a strategic allocation to hard assets and a tactical allocation to technology stocks. Entry points should be considered in the context of market volatility, with a focus on long-term growth prospects. Timeframes for strategic positions should be medium to long term, while tactical positions may be more short term, reacting to market shifts. Hedges can be established through inverse ETFs or options strategies to protect against potential drawdowns in the software sector.",
+    "risk_factors": [
+      "Continued strong performance in the technology sector could maintain the correlation between Bitcoin and software stocks.",
+      "Regulatory changes targeting cryptocurrencies could negatively impact Bitcoin's price.",
+      "A global economic downturn could lead to a flight to safety, affecting all risk assets, including Bitcoin.",
+      "Technological advancements in the financial sector could introduce competitors to Bitcoin as a store of value.",
+      "Geopolitical tensions escalating could lead to increased demand for traditional safe-haven assets like gold, overshadowing Bitcoin."
+    ],
+    "contrarian_signals": [
+      "Institutional investors may continue to view Bitcoin as a digital gold, maintaining its correlation with tech stocks.",
+      "The potential for a rapid recovery in the software sector could draw capital back, reducing the liquidity shift towards hard assets.",
+      "Bitcoin's technological advancements and increasing adoption as a payment method could reinforce its status as a tech asset."
+    ],
+    "catalysts": [
+      "Upcoming earnings reports from major tech companies like AAPL and NVDA could indicate the direction of capital flows.",
+      "Policy announcements from the US government regarding infrastructure and energy investments.",
+      "Global economic indicators that signal a shift in market sentiment towards hard assets or a continued focus on tech growth.",
+      "Bitcoin's halving event and its impact on supply dynamics, which could influence its price and market perception.",
+      "Developments in the US-China trade relations, which could affect the global technology supply chain and, by extension, Bitcoin's market behavior."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-03-20T04:47:25.287193",
+    "updated_at": "2026-03-20 09:47:25",
+    "insight_title": "From Software to Hard Asset: Bitcoin and the New Liquidity Regime",
+    "source_name": "The Jack Mallers Show",
+    "source_date": "2026-02-15",
+    "key_tickers": []
+  },
+  "105": {
+    "id": 96,
+    "insight_id": 105,
+    "podcast_episode_id": 91,
+    "overview": "The ongoing Iran conflict and the Federal Reserve's decision not to cut rates have created a volatile market environment, with significant implications for inflation and energy markets. This deep dive analysis explores the potential for a secular inflation cycle, the impact on commodities, and the investment opportunities that arise from these macroeconomic shifts. Understanding these dynamics is crucial for investors to navigate the current market turbulence and position their portfolios accordingly.",
+    "key_takeaways_detailed": [
+      "The Iran conflict has prolonged, exacerbating market sell-offs and suggesting a higher likelihood of further downside in the absence of major bullish news.",
+      "Inflation expectations have been rekindled, with the potential for a secular inflation cycle similar to the 1970s, which could significantly impact asset prices.",
+      "Energy markets, particularly crude oil, are experiencing a 'war premium' with prices at multi-month highs, indicating the conflict's direct impact on commodity prices.",
+      "The breakdown in private credit and shifts in the yield curve could reshape the macro outlook, affecting investment strategies across asset classes."
+    ],
+    "investment_thesis": "The core investment logic is centered around the Iran conflict's prolonged duration and its impact on inflation expectations and energy markets. We believe that the market is underpricing the second-order effects of the conflict, which could lead to a secular inflation cycle. This thesis is supported by the historical parallels to the 1970s, where inflation became entrenched due to similar geopolitical tensions and fiscal policies. The catalysts for this thesis include the ongoing conflict, the Federal Reserve's stance on rates, and the potential for food price inflation. The timeframe for this thesis is medium to long-term, as the full impact of these macroeconomic shifts will likely unfold over the next 3-12 months and beyond.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple Inc. (AAPL) is a technology giant with a global supply chain that could be affected by inflationary pressures and geopolitical tensions. Higher inflation could increase production costs, while geopolitical risks might disrupt supply chains.",
+        "positioning": "Positioning in AAPL should be strategic and long-term, focusing on the company's ability to navigate supply chain disruptions and pass on cost increases to consumers.",
+        "risk": "Key risks include supply chain disruptions due to geopolitical tensions and the potential for reduced consumer spending due to inflation."
+      },
+      "NVDA": {
+        "rationale": "NVIDIA Corporation (NVDA) is a leading technology company in the graphics processing unit (GPU) market, which could benefit from increased demand for GPUs in various sectors, including gaming, AI, and cryptocurrency mining, potentially offsetting inflationary pressures.",
+        "positioning": "NVDA can be positioned long-term, as the company's innovative products and strong market position may allow it to weather inflationary headwinds.",
+        "risk": "The risk lies in the potential for reduced consumer and corporate spending on GPUs due to economic downturns or shifts in technology trends."
+      },
+      "SPY": {
+        "rationale": "SPDR S&P 500 ETF Trust (SPY) is a broad market index that provides exposure to the S&P 500, making it a key indicator of market sentiment and performance.",
+        "positioning": "Given the current market volatility, a tactical approach to SPY may be appropriate, with a focus on market timing and hedging strategies.",
+        "risk": "The risk is the potential for further market declines due to unresolved geopolitical tensions and inflationary pressures."
+      },
+      "TSLA": {
+        "rationale": "Tesla Inc. (TSLA) is a leader in electric vehicles and clean energy, which could benefit from increased demand for alternative energy sources in response to rising oil prices and environmental concerns.",
+        "positioning": "TSLA can be positioned long-term, as the company's growth prospects are likely to be less affected by short-term market volatility and more by the long-term transition to renewable energy.",
+        "risk": "The risk is the potential for reduced consumer spending on electric vehicles due to economic downturns or changes in government policies supporting clean energy."
+      }
+    },
+    "positioning_guidance": "Investors should consider a balanced portfolio approach, with a mix of defensive and growth-oriented positions. Given the potential for secular inflation, investors may want to overweight sectors that are less sensitive to inflation, such as technology and healthcare, while underweighting sectors that are more exposed to inflationary pressures, such as consumer staples. Entry points should be carefully considered, with a focus on market dips as potential buying opportunities. Timeframes should be medium to long-term, as the full impact of the Iran conflict and inflationary pressures will likely unfold over an extended period. Hedging strategies, such as options or inverse ETFs, may be employed to protect against market volatility.",
+    "risk_factors": [
+      "The Iran conflict could be resolved more quickly than expected, reducing the 'war premium' on oil and other commodities.",
+      "The Federal Reserve could change its stance and cut rates, potentially easing inflationary pressures.",
+      "A global economic downturn could reduce demand for commodities and technology products, affecting the performance of related stocks.",
+      "Unexpected shifts in consumer behavior or technological advancements could disrupt the growth prospects of companies like TSLA and NVDA.",
+      "Geopolitical tensions could escalate, leading to broader market sell-offs and increased volatility."
+    ],
+    "contrarian_signals": [
+      "Despite the current market sentiment, some analysts argue that inflation may remain transitory due to technological advancements and global supply chain efficiencies.",
+      "There is a possibility that the market has overreacted to the Iran conflict, and a resolution could lead to a rapid recovery in asset prices.",
+      "Long-term investors may view the current market volatility as a buying opportunity, focusing on the underlying fundamentals of companies rather than short-term geopolitical events."
+    ],
+    "catalysts": [
+      "The outcome of the Iran conflict and any potential peace negotiations.",
+      "Federal Reserve meetings and statements regarding interest rate policy.",
+      "Economic data releases, including inflation metrics and employment figures, which could influence market expectations.",
+      "Corporate earnings reports, particularly from companies in the technology and energy sectors, which could provide insights into the impact of inflation and geopolitical tensions on business performance.",
+      "Global events, such as climate change conferences or technological breakthroughs, which could influence the demand for renewable energy and technology products."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-03-20T04:49:24.588084",
+    "updated_at": "2026-03-20 09:49:24",
+    "insight_title": "Macro Voices: The Iran Conflict's Impact on Inflation and Energy Markets",
+    "source_name": "Macro Voices",
+    "source_date": "2026-03-19",
+    "key_tickers": [
+      "S&P 500",
+      "WTI CRUDE OIL"
+    ]
+  },
+  "106": {
+    "id": 97,
+    "insight_id": 106,
+    "podcast_episode_id": 90,
+    "overview": "The investment thesis revolves around the transformation of the computing industry, driven by the advent of AI and the shift towards disaggregated computing. NVIDIA's (NVDA) acquisition of Grok and the development of its AI operating system, Dynamo, signify a strategic pivot from a GPU company to an AI factory company. This shift is crucial as it addresses the most complex computing problem today\u2014aggregated inference\u2014which requires handling different shapes and sizes of data with incredible scale and mathematical complexity. The move towards disaggregated inference, where different parts of the processing can run on various GPUs or even different types of chips, is set to redefine the industry. This analysis explores the implications for investors, focusing on the transition to AI-centric computing and the potential for significant returns in this new era of technology.",
+    "key_takeaways_detailed": [
+      "NVIDIA's (NVDA) strategic move to an AI factory model positions it at the forefront of the next industrial revolution in computing.",
+      "The disaggregation of inference processing could lead to significant efficiency gains and cost reductions in data centers, benefiting companies like NVIDIA that can deliver these solutions.",
+      "The acquisition of Grok by NVIDIA suggests a move towards specialized processors for AI, which could disrupt traditional data center architectures and create new market opportunities.",
+      "Investors should monitor the development of NVIDIA's Dynamo OS as it could become a key differentiator in the AI factory space.",
+      "The potential for NVIDIA to capture a significant share of the data center market with its AI-centric solutions is a key driver for future growth."
+    ],
+    "investment_thesis": "The core investment logic is centered on the rapid growth of AI and the need for advanced, specialized computing solutions. NVIDIA's (NVDA) leadership in GPU technology, coupled with its strategic acquisitions and the development of an AI-focused operating system, positions the company to capitalize on this growth. Catalysts include the commercial success of Grok and Dynamo, as well as the increasing demand for AI in data centers. The timeframe for this thesis is medium to long-term, as the full realization of AI's potential in computing is expected to unfold over the next 3-10 years.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple (AAPL) is relevant due to its significant investments in AI and potential to leverage NVIDIA's technology for its products, including potential integration in iPhones or other devices.",
+        "positioning": "Strategic long position, as Apple's adoption of advanced AI technologies could drive demand for NVIDIA's products.",
+        "risk": "Key risks include competition from other chip manufacturers and potential delays in AI technology adoption by consumers."
+      },
+      "NVDA": {
+        "rationale": "NVIDIA (NVDA) is at the core of this thesis, as the company's transition to an AI factory model could significantly impact its future growth and profitability.",
+        "positioning": "Strategic long position, with a focus on the company's ability to disrupt the data center market with its AI solutions.",
+        "risk": "The primary risk is the potential for technological disruptions or delays in the development and adoption of AI technologies."
+      },
+      "MSFT": {
+        "rationale": "Microsoft (MSFT) is a key player in the cloud computing space, which is integral to the deployment of AI and could benefit from NVIDIA's AI factory solutions.",
+        "positioning": "Strategic long position, as Microsoft's cloud services could see increased demand due to the adoption of AI technologies.",
+        "risk": "Risks include competition from other cloud providers and potential security concerns related to AI technologies."
+      },
+      "AMZN": {
+        "rationale": "Amazon (AMZN), through its AWS cloud platform, is another significant player in the cloud computing market that could leverage NVIDIA's AI capabilities.",
+        "positioning": "Strategic long position, with the potential for increased demand for AWS services as AI adoption grows.",
+        "risk": "Key risks include regulatory challenges and competition from other cloud service providers."
+      },
+      "GOOGL": {
+        "rationale": "Google (GOOGL) has a strong presence in AI research and cloud services, making it a relevant player in the AI factory ecosystem.",
+        "positioning": "Strategic long position, as Google's AI and cloud initiatives could benefit from the advancements in AI factory technology.",
+        "risk": "Risks include the potential for AI technology to disrupt Google's ad-based business model and competition in the AI space."
+      }
+    },
+    "positioning_guidance": "Investors should consider a diversified approach, with a strategic long position in NVIDIA (NVDA) as the core holding, complemented by positions in other tech giants like Apple (AAPL), Microsoft (MSFT), Amazon (AMZN), and Google (GOOGL). Sizing should reflect the potential impact of AI on each company's business model, with a focus on the medium to long-term timeframe. Entry points should be considered in the context of broader market trends and company-specific catalysts, such as product launches or earnings reports.",
+    "risk_factors": [
+      "The pace of AI adoption could be slower than expected, impacting the demand for AI-focused computing solutions.",
+      "Technological disruptions or new entrants in the AI space could challenge NVIDIA's (NVDA) market position.",
+      "Regulatory challenges, particularly around data privacy and security, could hinder the growth of AI technologies.",
+      "Economic downturns could reduce corporate spending on AI and data center infrastructure.",
+      "Potential for overvaluation in the tech sector, which could lead to a correction and impact investment returns."
+    ],
+    "contrarian_signals": [
+      "The high valuation of tech stocks, including NVIDIA (NVDA), could lead to a market correction, impacting investment returns.",
+      "The potential for custom ASICs to compete with NVIDIA's (NVDA) offerings on price and performance.",
+      "The possibility that the benefits of disaggregated computing may not materialize as quickly as expected, leading to slower adoption rates.",
+      "Concerns over the environmental impact of increased data center usage and energy consumption related to AI technologies."
+    ],
+    "catalysts": [
+      "NVIDIA's (NVDA) next earnings report, which could provide insights into the success of its AI factory model and the performance of Grok.",
+      "Upcoming AI and technology conferences where NVIDIA (NVDA) and other tech giants may announce new products or partnerships.",
+      "Regulatory decisions that could impact the deployment of AI technologies, such as data privacy laws or trade agreements.",
+      "Technological breakthroughs in AI that could accelerate the adoption of AI factory solutions.",
+      "Economic indicators that signal the health of the tech sector and the potential for increased spending on AI and data center infrastructure."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-03-20T04:51:29.724687",
+    "updated_at": "2026-03-20 09:51:29",
+    "insight_title": "AI Factory and the Future of Computing",
+    "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "source_date": "2026-03-19",
+    "key_tickers": [
+      "NVDA"
+    ]
+  },
+  "107": {
+    "id": 98,
+    "insight_id": 107,
+    "podcast_episode_id": 89,
+    "overview": "The current geopolitical tensions, particularly the Iran oil shock, are creating a protracted crisis in the oil market with significant implications for the global economy. Roy Johnson of Commodity Context emphasizes that even if geopolitical de-escalation occurs, the crisis is likely to persist, affecting oil flow through the Strait of Hormuz, a critical chokepoint for global oil supply. The disruption could lead to a loss of 15-20 million barrels per day, a shock that the market may not be able to absorb without severe economic repercussions. This analysis is crucial for investors to understand the potential impact on energy markets and the broader economy, especially in 2026 when the situation could be particularly acute.",
+    "key_takeaways_detailed": [
+      "The Strait of Hormuz crisis could lead to a loss of 15-20 million barrels per day, a supply shock unprecedented in history.",
+      "Market mechanisms, including the Strategic Petroleum Reserve (SPR) releases and US shale production, may not be sufficient to offset the loss.",
+      "The crisis could lead to a demand destruction scenario similar to the peak of COVID-19, but without the pandemic as a catalyst.",
+      "Investors should monitor the situation in the Middle East closely, as it could lead to a significant price shock in the global oil market.",
+      "The crisis may disproportionately affect poorer countries in the global south, leading to fuel shortages, while advanced economies could face recessionary or even depressionary conditions."
+    ],
+    "investment_thesis": "The geopolitical crisis in the Middle East, particularly the Iran oil shock, poses a significant risk to the global oil supply. If the Strait of Hormuz remains disrupted, the loss of 15-20 million barrels per day could lead to a supply shock that the market is ill-equipped to handle. This thesis suggests that investors should position for a potential spike in oil prices and consider the broader economic implications, including the potential for a global recession. The catalyst for this thesis is the ongoing geopolitical tension and the inability to normalize oil flow through the Strait of Hormuz. The timeframe for this thesis is immediate to short-term, as the crisis is already impacting the market and could escalate further.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple Inc. (AAPL) is included as it represents a significant consumer technology company that could be affected by a global economic slowdown due to high oil prices.",
+        "positioning": "Positioning should be cautious, potentially short-term, as a potential economic slowdown could negatively impact consumer spending on technology.",
+        "risk": "Key risks include a faster than expected resolution of the geopolitical crisis, which could alleviate economic pressures, and technological disruptions within the industry."
+      },
+      "NVDA": {
+        "rationale": "NVIDIA Corporation (NVDA) is a leading technology company in the graphics processing unit (GPU) market, which could be affected by a global economic downturn due to high oil prices.",
+        "positioning": "Investors should consider a tactical short position, as the company's performance is tied to the health of the global economy and consumer spending.",
+        "risk": "The risk includes technological advancements that could drive demand for GPUs, despite economic headwinds."
+      },
+      "SPY": {
+        "rationale": "SPDR S&P 500 ETF Trust (SPY) is a broad market index that reflects the performance of the S&P 500 Index, making it a key indicator of the overall health of the U.S. stock market.",
+        "positioning": "Investors should consider a defensive positioning in SPY, potentially reducing exposure to cyclical stocks and increasing allocation to defensive sectors.",
+        "risk": "The risk includes a faster resolution of geopolitical tensions or a more resilient economy than anticipated, which could lead to a rebound in cyclical stocks."
+      },
+      "TSLA": {
+        "rationale": "Tesla Inc. (TSLA) is included as it is a leading electric vehicle (EV) manufacturer, which could benefit from a shift towards alternative energy sources in response to high oil prices.",
+        "positioning": "Investors should consider a long position in TSLA as a potential hedge against the oil crisis, especially if there is a push towards renewable energy.",
+        "risk": "The risk includes potential supply chain disruptions, regulatory changes, and competition in the EV market."
+      },
+      "XOM": {
+        "rationale": "Exxon Mobil Corporation (XOM) is a major oil and gas company that could benefit from higher oil prices, but also faces risks due to the geopolitical crisis.",
+        "positioning": "Investors should consider a tactical long position in XOM, as the company could benefit from higher oil prices, but also be prepared to exit if geopolitical tensions escalate further.",
+        "risk": "The risk includes a sudden drop in oil prices due to a resolution of the crisis or a global economic downturn affecting demand."
+      }
+    },
+    "positioning_guidance": "Investors should consider a balanced portfolio approach, with a mix of defensive and cyclical stocks. Position sizing should reflect the potential for economic volatility, with a focus on liquidity and the ability to adjust positions quickly. Entry points should be considered in the context of market volatility, with a focus on risk management. Timeframes should be short to medium-term, as the geopolitical situation is fluid and could change rapidly. Hedges should be considered, particularly in the form of investments in alternative energy and technology companies that could benefit from a shift away from fossil fuels.",
+    "risk_factors": [
+      "A rapid resolution of the geopolitical crisis that normalizes oil flow through the Strait of Hormuz.",
+      "A global economic downturn that affects consumer spending and corporate earnings more severely than anticipated.",
+      "Technological disruptions or regulatory changes that affect the performance of specific sectors or companies.",
+      "A shift in global energy policy that accelerates the transition to renewable energy sources, potentially affecting the demand for oil.",
+      "Unexpected supply disruptions or discoveries that could alter the global oil supply dynamics."
+    ],
+    "contrarian_signals": [
+      "The potential for a swift resolution of the geopolitical crisis that could lead to a rapid normalization of oil prices.",
+      "The possibility that the global economy could weather the oil price shock without entering a recession, particularly if there is a significant shift towards renewable energy.",
+      "The risk that high oil prices could accelerate technological advancements in energy efficiency and renewable energy, potentially mitigating the impact on the economy."
+    ],
+    "catalysts": [
+      "Geopolitical developments, including any signs of de-escalation or escalation in the Middle East.",
+      "OPEC+ meetings and decisions regarding oil production levels.",
+      "Global economic indicators, such as GDP growth, employment figures, and consumer spending, which could signal the health of the economy and its ability to withstand the oil price shock.",
+      "Technological advancements in renewable energy and energy efficiency that could shift the global energy landscape.",
+      "Policy changes or announcements from governments regarding energy policy, which could impact the demand for oil and the transition to alternative energy sources."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-03-20T04:53:06.393096",
+    "updated_at": "2026-03-20 09:53:06",
+    "insight_title": "Monetary Matters: Geopolitical Impact on Oil Markets with Roy Johnson",
+    "source_name": "Monetary Matters with Jack Farley",
+    "source_date": "2026-03-19",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
@@ -8100,64 +8559,370 @@ const dashboardData = {
 ],
   pundits: [
   {
-    "id": 92,
-    "name": "Guest Expert",
-    "slug": "guest-expert",
-    "bio": "Guest Expert is a renowned professional in the field of genomic screening, with a particular focus on the ethical and societal implications of such technologies. They have been invited to speak on the Denver State podcast to discuss the intersection of technology, ethics, and personal choice in reproduction, providing insights into the broader implications of genomic screening on society.",
-    "known_for": "Discussing the ethical and societal implications of genomic screening and its impact on personal choice in reproduction.",
+    "id": 99,
+    "name": "Alex Wey",
+    "slug": "alex-wey",
+    "bio": "Resident genius at Moonshot.",
+    "known_for": "Discussing the future of AI and generative models.",
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": "Confident and knowledgeable.",
+    "voice_style": "Assertive, with a focus on the potential of generative models.",
+    "voice_delivery_notes": "Speaks with conviction, emphasizing the importance of adaptability.",
+    "voice_profile_updated_at": "2026-03-20 14:08:13",
+    "last_seen": "2026-03-20 14:08:13",
+    "last_episode_title": "Meta Buys Moltbook GPT 5.4 and Fruitfly Brain Upload",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-03-17",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in AI and exponential technologies that are driving the next wave of wealth creation and leadership, focusing on adaptability and creativity.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
+    "id": 100,
+    "name": "Dave Blund",
+    "slug": "dave-blund",
+    "bio": "Brilliant individual working with Peter Diamandis.",
+    "known_for": "Contributing to the Moonshot podcast.",
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": "Enthusiastic and supportive.",
+    "voice_style": "Encourages discussion and collaboration.",
+    "voice_delivery_notes": "Speaks with excitement, highlighting the importance of community.",
+    "voice_profile_updated_at": "2026-03-20 14:08:13",
+    "last_seen": "2026-03-20 14:08:13",
+    "last_episode_title": "Meta Buys Moltbook GPT 5.4 and Fruitfly Brain Upload",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-03-17",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in AI and exponential technologies that are driving the next wave of wealth creation and leadership, focusing on adaptability and creativity.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
+    "id": 101,
+    "name": "E-Modemustock",
+    "slug": "e-modemustock",
+    "bio": "Live from London, contributing to the Moonshot podcast.",
+    "known_for": "Discussing AI and exponential technologies.",
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": "Inquisitive and insightful.",
+    "voice_style": "Asks probing questions, seeking to understand the implications of AI.",
+    "voice_delivery_notes": "Speaks with curiosity, encouraging a deeper exploration of the topic.",
+    "voice_profile_updated_at": "2026-03-20 14:08:13",
+    "last_seen": "2026-03-20 14:08:13",
+    "last_episode_title": "Meta Buys Moltbook GPT 5.4 and Fruitfly Brain Upload",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-03-17",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in AI and exponential technologies that are driving the next wave of wealth creation and leadership, focusing on adaptability and creativity.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
+    "id": 97,
+    "name": "Simon White",
+    "slug": "simon-white",
+    "bio": "Simon White is a Bloomberg Macro strategist known for his expertise in macroeconomic trends and market analysis. He is a featured guest on the Macrovoisers podcast, discussing topics such as secular inflation and its implications for the financial markets.",
+    "known_for": "His insights into macroeconomic trends and their impact on financial markets.",
     "net_worth_usd": null,
     "net_worth_source": "",
     "net_worth_updated_at": null,
-    "voice_tone": "Informed and passionate about the potential of genomic screening.",
-    "voice_style": "Logical and persuasive, presenting a strong case for the benefits of genomic screening.",
-    "voice_delivery_notes": "Clear and deliberate, with an emphasis on the importance of personal choice and autonomy.",
-    "voice_profile_updated_at": "2026-03-20 03:13:11",
-    "last_seen": "2026-03-20 03:13:11",
-    "last_episode_title": "Genomic Screening and Ethical Considerations",
-    "last_podcast_name": "Network State Podcast",
-    "last_episode_date": "2026-02-19",
+    "voice_tone": "Analytical and cautious",
+    "voice_style": "Factual and data-driven",
+    "voice_delivery_notes": "Paced with emphasis on economic data points",
+    "voice_profile_updated_at": "2026-03-20 09:28:08",
+    "last_seen": "2026-03-20 09:28:08",
+    "last_episode_title": "Macro Voices: The Iran Conflict's Impact on Inflation and Energy Markets",
+    "last_podcast_name": "Macro Voices",
+    "last_episode_date": "2026-03-19",
     "mention_score": 1,
     "mention_score_decayed": 1,
-    "last_main_idea": "Investment in genomic screening technology presents an opportunity to mitigate genetic diseases, with potential for significant ethical and societal impact.",
+    "last_main_idea": "The ongoing Iran conflict may lead to a secular inflation cycle, with oil prices being a key catalyst. Investors should monitor shifts in commodities, credit, and the yield curve for potential macroeconomic impacts.",
     "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-19T22:14:34.749567",
+    "grokipedia_fetched_at": "2026-03-20T04:35:48.845381",
     "pundit_profile": {
       "source": "llm",
       "source_model": "moonshot:moonshot-v1-8k",
       "source_url": "",
-      "page_title": "Guest Expert",
-      "fetched_at": "2026-03-20T03:14:34.749143+00:00",
-      "cliff_notes": "Guest Expert has established a career at the intersection of technology and ethics, with a particular emphasis on genomic screening. Their work is significant as it addresses the complex ethical questions that arise from advances in reproductive technologies. By engaging in public discourse, such as their appearance on the Denver State podcast, they help to educate and inform a broader audience about the implications of these technologies on personal choice and societal norms. Their expertise is crucial in navigating the moral and ethical landscape of genomic screening, ensuring that discussions around technology are grounded in a broader understanding of its impact on society.",
+      "page_title": "Simon White",
+      "fetched_at": "2026-03-20T09:35:48.845223+00:00",
+      "cliff_notes": "Simon White is recognized for his deep understanding of macroeconomic trends and their influence on global financial markets. As a Bloomberg Macro strategist, he provides critical analysis and forecasts that help investors navigate market volatility. His expertise is sought after in professional finance circles, particularly among high-net-worth individuals, family offices, and sophisticated investors. White's contributions to the Macrovoisers podcast further highlight his thought leadership in the field, where he discusses pressing issues such as secular inflation and its potential effects on economic outlooks.",
       "derived": {
-        "current_role": "Expert in Genomic Screening; Speaker on Denver State Podcast"
+        "current_role": "Bloomberg Macro strategist"
       },
       "infobox": {
         "Born": "",
         "Nationality": ""
       },
       "lead_paragraphs": [
-        "Guest Expert has established a career at the intersection of technology and ethics, with a particular emphasis on genomic screening. Their work is significant as it addresses the complex ethical questions that arise from advances in reproductive technologies. By engaging in public discourse, such as their appearance on the Denver State podcast, they help to educate and inform a broader audience about the implications of these technologies on personal choice and societal norms.",
-        "Their expertise is crucial in navigating the moral and ethical landscape of genomic screening, ensuring that discussions around technology are grounded in a broader understanding of its impact on society."
+        "Simon White is recognized for his deep understanding of macroeconomic trends and their influence on global financial markets. As a Bloomberg Macro strategist, he provides critical analysis and forecasts that help investors navigate market volatility. His expertise is sought after in professional finance circles, particularly among high-net-worth individuals, family offices, and sophisticated investors.",
+        "White's contributions to the Macrovoisers podcast further highlight his thought leadership in the field, where he discusses pressing issues such as secular inflation and its potential effects on economic outlooks."
       ],
       "sections": [
         {
-          "heading": "Genomic Screening",
-          "body": "Guest Expert discusses the basics of genomic screening, including what it is and its implications for individuals and society."
+          "heading": "Market Analysis",
+          "body": "Simon White is known for his detailed market analysis, providing insights into how macroeconomic trends can affect investment strategies."
         },
         {
-          "heading": "Ethical Implications",
-          "body": "They explore the ethical considerations surrounding genomic screening, emphasizing the importance of personal choice and societal norms."
+          "heading": "Secular Inflation",
+          "body": "In his discussions, White often addresses secular inflation, explaining its potential impact on long-term economic growth and market performance."
         },
         {
-          "heading": "Intersection of Technology and Ethics",
-          "body": "Guest Expert highlights the intersection of technology, ethics, and personal choice in reproduction, advocating for a nuanced understanding of these complex issues."
-        },
-        {
-          "heading": "Societal Impact",
-          "body": "They address how genomic screening technologies can influence societal structures and personal autonomy, urging for a broader conversation on the subject."
+          "heading": "Financial Market Trends",
+          "body": "White's expertise extends to identifying and interpreting trends within the financial markets, offering valuable perspectives to investors."
         }
       ]
     }
+  },
+  {
+    "id": 98,
+    "name": "Rory Johnston",
+    "slug": "rory-johnston",
+    "bio": "Rory Johnston is the founder of Commodity Context, a firm specializing in energy market analysis. He is recognized for his expertise in commodities and macroeconomics, and his insights are sought after by investors and financial professionals.",
+    "known_for": "His deep understanding of energy markets and their impact on global macroeconomic trends.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Informed and assertive",
+    "voice_style": "Direct and focused on energy market dynamics",
+    "voice_delivery_notes": "Confident with a clear emphasis on market implications",
+    "voice_profile_updated_at": "2026-03-20 09:28:08",
+    "last_seen": "2026-03-20 09:28:08",
+    "last_episode_title": "Macro Voices: The Iran Conflict's Impact on Inflation and Energy Markets",
+    "last_podcast_name": "Macro Voices",
+    "last_episode_date": "2026-03-19",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "The ongoing Iran conflict may lead to a secular inflation cycle, with oil prices being a key catalyst. Investors should monitor shifts in commodities, credit, and the yield curve for potential macroeconomic impacts.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-20T04:36:30.218908",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Rory Johnston",
+      "fetched_at": "2026-03-20T09:36:30.218739+00:00",
+      "cliff_notes": "Rory Johnston is a prominent figure in the field of energy market analysis, having founded Commodity Context, a company dedicated to providing in-depth analysis of commodity markets. His work is particularly relevant to investors and financial professionals who need to understand the intricacies of energy markets and their broader implications on the global economy. Johnston's expertise extends to commodities and macroeconomics, making him a valuable resource for those navigating the complexities of financial markets. His insights are regularly featured in discussions and analyses that aim to predict market trends and inform investment strategies.",
+      "derived": {
+        "current_role": "Founder, Commodity Context"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Rory Johnston is a prominent figure in the field of energy market analysis, having founded Commodity Context, a company dedicated to providing in-depth analysis of commodity markets. His work is particularly relevant to investors and financial professionals who need to understand the intricacies of energy markets and their broader implications on the global economy.",
+        "Johnston's expertise extends to commodities and macroeconomics, making him a valuable resource for those navigating the complexities of financial markets. His insights are regularly featured in discussions and analyses that aim to predict market trends and inform investment strategies."
+      ],
+      "sections": [
+        {
+          "heading": "Energy Market Analysis",
+          "body": "Rory Johnston is well-known for his detailed analysis of energy markets, providing investors with critical insights into market dynamics and trends."
+        },
+        {
+          "heading": "Macroeconomic Trends",
+          "body": "Johnston's work often intersects with macroeconomic trends, offering a unique perspective on how energy markets influence and are influenced by broader economic factors."
+        },
+        {
+          "heading": "Investment Strategy",
+          "body": "His expertise is highly valued by investors looking to make informed decisions in a volatile market, particularly in the context of commodities and energy."
+        }
+      ]
+    }
+  },
+  {
+    "id": 96,
+    "name": "Jensen Huang",
+    "slug": "jensen-huang",
+    "bio": "Jensen Huang is the co-founder and CEO of NVIDIA, a leading technology company in the field of AI and GPU technology. Under his leadership, NVIDIA has become a powerhouse in AI computing, transforming the way industries approach technology and innovation.",
+    "known_for": "Driving NVIDIA's transformation into an AI computing powerhouse.",
+    "net_worth_usd": 151000000000.0,
+    "net_worth_source": "https://www.wikidata.org/wiki/Q305177",
+    "net_worth_updated_at": "2026-03-20T04:40:55.469936",
+    "voice_tone": "Confident and visionary.",
+    "voice_style": "Factual and future-oriented, with a focus on technological progress.",
+    "voice_delivery_notes": "Paced with emphasis on key technological advancements and market opportunities.",
+    "voice_profile_updated_at": "2026-03-20 09:26:57",
+    "last_seen": "2026-03-20 09:26:57",
+    "last_episode_title": "AI Factory and the Future of Computing",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-03-19",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "NVIDIA's strategic acquisitions and technological advancements position it as a leader in the AI revolution, offering investors exposure to the growing AI factory industry.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-20T04:40:52.368193",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Jensen Huang",
+      "fetched_at": "2026-03-20T09:40:52.368095+00:00",
+      "cliff_notes": "Jensen Huang co-founded NVIDIA in 1993 with Curtis Priem and Chris Malachowsky. Huang's vision and leadership have been pivotal in NVIDIA's growth and transformation into a dominant player in the AI and GPU technology sector. His focus on innovation and technological advancement has positioned NVIDIA at the forefront of the AI revolution, influencing industries from gaming to data centers and autonomous vehicles. Huang's strategic foresight and commitment to research and development have made NVIDIA a household name in tech and a key player in the future of computing.",
+      "derived": {
+        "current_role": "Co-founder and CEO of NVIDIA",
+        "education": "Stanford University, Master's in Electrical Engineering"
+      },
+      "infobox": {
+        "Born": "1963",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Jensen Huang co-founded NVIDIA in 1993 with Curtis Priem and Chris Malachowsky. Huang's vision and leadership have been pivotal in NVIDIA's growth and transformation into a dominant player in the AI and GPU technology sector. His focus on innovation and technological advancement has positioned NVIDIA at the forefront of the AI revolution, influencing industries from gaming to data centers and autonomous vehicles.",
+        "Huang's strategic foresight and commitment to research and development have made NVIDIA a household name in tech and a key player in the future of computing."
+      ],
+      "sections": [
+        {
+          "heading": "NVIDIA's AI Transformation",
+          "body": "Jensen Huang has been instrumental in steering NVIDIA towards becoming a leader in AI computing, leveraging the company's expertise in GPUs to power AI applications across various industries."
+        },
+        {
+          "heading": "GPU Technology",
+          "body": "NVIDIA's GPUs have become the backbone of modern AI and deep learning, with Huang's leadership ensuring the company stays at the cutting edge of this technology."
+        },
+        {
+          "heading": "Strategic Acquisitions",
+          "body": "Huang's strategic vision includes acquisitions like Grok, which has further expanded NVIDIA's capabilities in AI and data analytics, showcasing his ability to anticipate and capitalize on emerging tech trends."
+        },
+        {
+          "heading": "Innovation and Future Vision",
+          "body": "Jensen Huang is known for his forward-thinking approach, with NVIDIA often introducing new technologies and strategies years in advance, setting the pace for the tech industry."
+        }
+      ]
+    },
+    "net_worth": "$151.00B"
+  },
+  {
+    "id": 95,
+    "name": "Roy Johnson",
+    "slug": "roy-johnson",
+    "bio": "Roy Johnson is an independent oil and energy analyst and the expert behind Commodity Context. He is known for his fundamental analysis of oil and energy markets, providing valuable insights to navigate the complexities of the industry, especially during geopolitical crises like the Iran oil shock.",
+    "known_for": "His in-depth analysis and insights into the oil and energy markets, particularly during times of geopolitical tension and market disruption.",
+    "net_worth_usd": 49000000.0,
+    "net_worth_source": "https://www.gurufocus.com/insider/97091/roy-e-johnson",
+    "net_worth_updated_at": "2026-03-20T04:41:30.534445",
+    "voice_tone": "Matter-of-fact and concerned",
+    "voice_style": "Factual and data-driven, with a focus on the potential economic impacts of geopolitical events",
+    "voice_delivery_notes": "Delivers information with a steady pace, emphasizing key points with a slight increase in volume",
+    "voice_profile_updated_at": "2026-03-20 09:25:46",
+    "last_seen": "2026-03-20 09:25:46",
+    "last_episode_title": "Monetary Matters: Geopolitical Impact on Oil Markets with Roy Johnson",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-03-19",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "The ongoing geopolitical crisis in the Middle East, particularly the situation in the Strait of Hormuz, presents a significant risk to the global oil supply and could lead to a structural increase in oil prices.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-20T04:41:27.493458",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Roy Johnson",
+      "fetched_at": "2026-03-20T09:41:27.493296+00:00",
+      "cliff_notes": "Roy Johnson is recognized as an independent oil and energy analyst, providing expert insights through his platform, Commodity Context. His career has been dedicated to understanding and analyzing the intricacies of the oil and energy markets, with a focus on fundamental analysis. Johnson's work is particularly valued during times of geopolitical tension, such as the Iran oil shock, where his analysis helps investors and market participants navigate the disruptions and confusion. His contributions to the field have made him a go-to resource for those seeking to understand the impact of global events on the oil and energy sectors.",
+      "derived": {
+        "current_role": "Independent Oil and Energy Analyst at Commodity Context",
+        "political_affiliation": "Independent"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Roy Johnson is recognized as an independent oil and energy analyst, providing expert insights through his platform, Commodity Context. His career has been dedicated to understanding and analyzing the intricacies of the oil and energy markets, with a focus on fundamental analysis. Johnson's work is particularly valued during times of geopolitical tension, such as the Iran oil shock, where his analysis helps investors and market participants navigate the disruptions and confusion.",
+        "His contributions to the field have made him a go-to resource for those seeking to understand the impact of global events on the oil and energy sectors."
+      ],
+      "sections": [
+        {
+          "heading": "Fundamental Analysis",
+          "body": "Roy Johnson is renowned for his fundamental analysis of the oil and energy markets, dissecting the underlying economic, political, and market factors that influence prices and trends."
+        },
+        {
+          "heading": "Geopolitical Impact",
+          "body": "Johnson's expertise extends to understanding the geopolitical implications on oil and energy markets, such as the Iran oil shock, and how these events can create market disruptions."
+        },
+        {
+          "heading": "Market Disruptions",
+          "body": "He provides critical insights during times of market disruption, helping investors and analysts make sense of the changing landscape of the oil and energy sectors."
+        }
+      ]
+    },
+    "net_worth": "$49.0M"
+  },
+  {
+    "id": 94,
+    "name": "Carson Block",
+    "slug": "carson-block",
+    "bio": "Carson Block is the founder of Muddy Waters Capital, a leading activist short seller hedge fund. He is known for his deep research and activism in short selling, particularly targeting companies with overpromised or fraudulent practices.",
+    "known_for": "His activist short selling and deep research exposing fraudulent companies.",
+    "net_worth_usd": 200000000.0,
+    "net_worth_source": "https://www.publicfigurenetworth.com/carson-block-net-worth/",
+    "net_worth_updated_at": "2026-03-20T04:42:12.912511",
+    "voice_tone": "Knowledgeable and cautious about market conditions.",
+    "voice_style": "Analytical and focused on identifying overpromise and speculation in the market.",
+    "voice_delivery_notes": "Speaks with a measured pace, emphasizing key points about market sectors and investment strategies.",
+    "voice_profile_updated_at": "2026-03-20 09:25:12",
+    "last_seen": "2026-03-20 09:25:12",
+    "last_episode_title": "Monetary Matters with Jack Farley: Short Selling Insights and AI in Investing",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-02-15",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in sectors with fertile ground for short selling, such as tech and AI, and consider undervalued areas like junior mining for potential alpha.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-20T04:42:09.376490",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Carson Block",
+      "fetched_at": "2026-03-20T09:42:09.376380+00:00",
+      "cliff_notes": "Carson Block is an American investor and the founder of Muddy Waters Capital, an investment firm known for its activist short selling approach. Block's career in finance began after he graduated from law school and moved to China, where he worked as an attorney and later in private equity. His experiences in China, particularly witnessing corporate fraud, inspired him to start Muddy Waters Research in 2010, which would later become Muddy Waters Capital. The firm is renowned for its deep research into companies, often uncovering fraudulent practices or overpromised business models, leading to significant market impact when they release their findings. Block's work has been influential in the tech and finance sectors, as his exposes often lead to substantial stock price movements and regulatory scrutiny.",
+      "derived": {
+        "current_role": "Founder of Muddy Waters Capital",
+        "education": "Bachelor's degree in International Relations from Southern Methodist University; Juris Doctor from the University of Chicago Law School"
+      },
+      "infobox": {
+        "Born": "1980",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Carson Block is an American investor and the founder of Muddy Waters Capital, an investment firm known for its activist short selling approach. Block's career in finance began after he graduated from law school and moved to China, where he worked as an attorney and later in private equity. His experiences in China, particularly witnessing corporate fraud, inspired him to start Muddy Waters Research in 2010, which would later become Muddy Waters Capital.",
+        "The firm is renowned for its deep research into companies, often uncovering fraudulent practices or overpromised business models, leading to significant market impact when they release their findings. Block's work has been influential in the tech and finance sectors, as his exposes often lead to substantial stock price movements and regulatory scrutiny."
+      ],
+      "sections": [
+        {
+          "heading": "Activist Short Selling",
+          "body": "Carson Block is recognized for his activist short selling approach, where he not only bets against companies but also actively researches and exposes fraudulent practices or overpromised business models."
+        },
+        {
+          "heading": "Muddy Waters Capital",
+          "body": "Muddy Waters Capital, founded by Block, is a hedge fund that specializes in short selling and has been influential in exposing corporate frauds, particularly in the tech sector."
+        },
+        {
+          "heading": "Market Impact",
+          "body": "Block's research and activism have had significant market impact, leading to substantial stock price movements and regulatory scrutiny for the companies targeted by Muddy Waters Capital."
+        },
+        {
+          "heading": "Fraud Exposure",
+          "body": "Carson Block has been instrumental in exposing corporate frauds, particularly in sectors like electric vehicles and green energy, where companies have been known to overpromise on their capabilities."
+        }
+      ]
+    },
+    "net_worth": "$200.0M"
   },
   {
     "id": 91,
@@ -8293,12 +9058,12 @@ const dashboardData = {
     "voice_delivery_notes": "Speaks with measured pace, emphasizing key points about AI's potential",
     "voice_profile_updated_at": "2026-03-20 03:07:23",
     "last_seen": "2026-03-20 03:07:23",
-    "last_episode_title": "AI Disruption and the Future of Society",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-02-19",
+    "last_episode_title": null,
+    "last_podcast_name": null,
+    "last_episode_date": null,
     "mention_score": 1,
     "mention_score_decayed": 1,
-    "last_main_idea": "Investing in AI technology and companies that are at the forefront of AI development could yield significant returns as these technologies become more integrated into society and drive economic growth.",
+    "last_main_idea": null,
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-19T22:17:58.321307",
     "pundit_profile": {
@@ -8332,61 +9097,6 @@ const dashboardData = {
       ]
     },
     "net_worth": "$3.50B"
-  },
-  {
-    "id": 87,
-    "name": "Dr. Cash",
-    "slug": "dr-cash",
-    "bio": "Dr. Cash is a thought leader in the field of AI and technology's impact on the economy and investments. He is recognized for his insights into the future of technology and its influence on investment strategies. Dr. Cash has been tracking the exponential growth of technology and its implications for the future.",
-    "known_for": "His expertise in understanding the implications of AI and technology on economic and investment trends.",
-    "net_worth_usd": 30000000.0,
-    "net_worth_source": "https://www.cinenetworth.com/johnny-cash-net-worth-2/",
-    "net_worth_updated_at": "2026-03-19T22:18:38.378557",
-    "voice_tone": "Inquisitive and analytical.",
-    "voice_style": "Dr. Cash presents a structured argument with a focus on the exponential growth of technology and its implications.",
-    "voice_delivery_notes": "Dr. Cash's delivery is measured, with emphasis on key points regarding technology growth and economic impact.",
-    "voice_profile_updated_at": "2026-03-20 03:06:17",
-    "last_seen": "2026-03-20 03:06:17",
-    "last_episode_title": "The Future of Technology and Investment in AI",
-    "last_podcast_name": "Dwarkesh Podcast",
-    "last_episode_date": "2026-02-19",
-    "mention_score": 1,
-    "mention_score_decayed": 1,
-    "last_main_idea": "Investing in AI requires a deep understanding of the technology's exponential growth, the scaling laws governing its development, and the potential economic impact on global growth rates.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-19T22:18:35.594569",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Dr. Cash",
-      "fetched_at": "2026-03-20T03:18:35.594364+00:00",
-      "cliff_notes": "Dr. Cash has made a career out of analyzing the rapid advancements in technology and their effects on economic and investment landscapes. His work is centered around understanding the exponential growth of technology and forecasting its impact on various sectors. He has been particularly vocal about the lack of public recognition concerning the proximity of reaching the end of the exponential growth curve in technology. Dr. Cash's contributions to the discourse on technology and its economic implications have made him a respected voice in the field.",
-      "derived": {},
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Dr. Cash has made a career out of analyzing the rapid advancements in technology and their effects on economic and investment landscapes. His work is centered around understanding the exponential growth of technology and forecasting its impact on various sectors. He has been particularly vocal about the lack of public recognition concerning the proximity of reaching the end of the exponential growth curve in technology.",
-        "Dr. Cash's contributions to the discourse on technology and its economic implications have made him a respected voice in the field."
-      ],
-      "sections": [
-        {
-          "heading": "Technology and Economy",
-          "body": "Dr. Cash discusses the intersection of technology and economic growth, focusing on how advancements in AI and other technologies are shaping the future of investments."
-        },
-        {
-          "heading": "Exponential Growth",
-          "body": "He has been tracking the exponential growth of technology, noting that while the pace has been roughly as expected, the public seems largely unaware of how close we are to reaching the end of this growth phase."
-        },
-        {
-          "heading": "Investment Strategies",
-          "body": "Dr. Cash's insights into the future of technology have significant implications for investment strategies, as he suggests that understanding technological trends is crucial for making informed investment decisions."
-        }
-      ]
-    },
-    "net_worth": "$30.0M"
   },
   {
     "id": 86,
@@ -8454,60 +9164,6 @@ const dashboardData = {
       ]
     },
     "net_worth": "$2.5M"
-  },
-  {
-    "id": 85,
-    "name": "Alex",
-    "slug": "alex",
-    "bio": "Alex is a thought leader in the field of AI, policy, and the future of capitalism. He is known for co-authoring the 'Soled Everything' paper, which outlines a path to abundance by 2035. Alex frequently discusses the implications of AI on jobs and the social contract.",
-    "known_for": "Contributions to discussions on AI, policy, and the future of capitalism.",
-    "net_worth_usd": 3600000000.0,
-    "net_worth_source": "https://en.wikipedia.org/wiki/Alexandr_Wang",
-    "net_worth_updated_at": "2026-03-19T22:19:32.225554",
-    "voice_tone": "Thoughtful and analytical.",
-    "voice_style": "Alex presents a structured argument with a focus on the long-term implications of AI and automation.",
-    "voice_delivery_notes": "Speaks with a measured pace, emphasizing key points about the future of work and policy.",
-    "voice_profile_updated_at": "2026-03-20 03:03:12",
-    "last_seen": "2026-03-20 03:03:12",
-    "last_episode_title": "Moonshots with Peter Diamandis: AI, Automation, and the Path to Abundance by 2035",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-02-19",
-    "mention_score": 1,
-    "mention_score_decayed": 1,
-    "last_main_idea": "Invest in AI and automation technologies that are driving the transformation of industries and the creation of new economic opportunities, while also considering the social and policy implications of these changes.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-19T22:19:28.331039",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Alex",
-      "fetched_at": "2026-03-20T03:19:28.330840+00:00",
-      "cliff_notes": "Alex is a prominent figure in discussions surrounding the impact of AI on policy and the future of capitalism. He is best known for co-authoring the 'Soled Everything' paper, which proposes a path to achieve abundance by 2035. Alex frequently speaks on the implications of AI on jobs, the social contract, and the potential for AI CEOs to run billion-dollar companies. His work focuses on the intersection of technology, economics, and society, and he is committed to shaping the rules that will govern the next century.",
-      "derived": {
-        "books_or_works": "Soled Everything paper"
-      },
-      "infobox": {},
-      "lead_paragraphs": [
-        "Alex is a prominent figure in discussions surrounding the impact of AI on policy and the future of capitalism. He is best known for co-authoring the 'Soled Everything' paper, which proposes a path to achieve abundance by 2035. Alex frequently speaks on the implications of AI on jobs, the social contract, and the potential for AI CEOs to run billion-dollar companies.",
-        "His work focuses on the intersection of technology, economics, and society, and he is committed to shaping the rules that will govern the next century."
-      ],
-      "sections": [
-        {
-          "heading": "AI and Jobs",
-          "body": "Alex discusses the rapid disappearance of jobs due to AI and automation, arguing that this is not a recession but rather tasks being evaporated in front of our eyes."
-        },
-        {
-          "heading": "Soled Everything Paper",
-          "body": "Alex co-authored the 'Soled Everything' paper, which outlines a path to achieve abundance by 2035. The paper is divided into nine chapters and aims to set the rules for the next century."
-        },
-        {
-          "heading": "Social Contract",
-          "body": "Alex believes that the social contract is disappearing as jobs are replaced by automation, with capitalists being the first in line to be replaced."
-        }
-      ]
-    },
-    "net_worth": "$3.60B"
   },
   {
     "id": 84,
@@ -8774,7 +9430,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Farmland represents an underutilized asset class with diversification benefits and potential for strong returns, particularly in the context of water scarcity and aging farmer demographics.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-19T21:21:47.025691",
@@ -8830,7 +9486,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Investing in companies and technologies that are advancing the understanding and capabilities of LLMs could be a pathway to participate in the development of AGI.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-19T21:22:07.856822",
@@ -8888,7 +9544,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Invest in companies that are digitizing the physical world and transforming traditional industries through technology.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-19T21:22:31.110715",
@@ -8928,186 +9584,6 @@ const dashboardData = {
       ]
     },
     "net_worth": "$3.60B"
-  },
-  {
-    "id": 75,
-    "name": "Michael Dell",
-    "slug": "michael-dell",
-    "bio": "Michael Dell is an American businessman and philanthropist, best known as the founder and CEO of Dell Technologies, one of the world's largest technology infrastructure companies.",
-    "known_for": "Building one of the world's largest technology infrastructure companies and being an influential figure in the tech industry.",
-    "net_worth_usd": 37600000000.0,
-    "net_worth_source": "https://www.wikidata.org/wiki/Q218630",
-    "net_worth_updated_at": "2026-03-19T15:06:02.916452",
-    "voice_tone": "",
-    "voice_style": "",
-    "voice_delivery_notes": "",
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-03-17 10:15:16",
-    "last_episode_title": "Stealth Startups and the Digitization of the Physical World",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-03-17",
-    "mention_score": 1,
-    "mention_score_decayed": 0.95,
-    "last_main_idea": "Invest in companies that are digitizing the physical world and transforming traditional industries through technology.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-19T21:22:53.714266",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Michael Dell",
-      "fetched_at": "2026-03-20T02:22:53.714063+00:00",
-      "cliff_notes": "Michael Dell founded Dell Technologies in 1984, originally named PCs Limited, at the age of 19. The company quickly grew to become one of the leading computer technology providers, specializing in manufacturing and selling personal computers, servers, and storage devices. Dell's innovative direct-sales model allowed customers to order custom-configured PCs, which streamlined the supply chain and reduced costs. Over the years, Dell Technologies expanded through acquisitions and strategic partnerships, becoming a multinational technology giant. Michael Dell's leadership and vision have been instrumental in shaping the company's success and its impact on the tech industry.",
-      "derived": {
-        "current_role": "Founder and CEO of Dell Technologies",
-        "education": "University of Texas at Austin; dropped out to focus on his business"
-      },
-      "infobox": {
-        "Born": "February 23, 1965",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Michael Dell founded Dell Technologies in 1984, originally named PCs Limited, at the age of 19. The company quickly grew to become one of the leading computer technology providers, specializing in manufacturing and selling personal computers, servers, and storage devices. Dell's innovative direct-sales model allowed customers to order custom-configured PCs, which streamlined the supply chain and reduced costs.",
-        "Over the years, Dell Technologies expanded through acquisitions and strategic partnerships, becoming a multinational technology giant. Michael Dell's leadership and vision have been instrumental in shaping the company's success and its impact on the tech industry."
-      ],
-      "sections": [
-        {
-          "heading": "Dell Technologies",
-          "body": "Michael Dell founded Dell Technologies in 1984, which grew to become one of the world's largest technology infrastructure companies. The company is known for its innovative direct-sales model and its wide range of computer technology products."
-        },
-        {
-          "heading": "Innovation and Growth",
-          "body": "Under Michael Dell's leadership, Dell Technologies has been at the forefront of technological innovation, constantly expanding its product offerings and market reach. The company's growth has been driven by strategic acquisitions, such as the acquisition of EMC Corporation in 2016, which significantly broadened its portfolio."
-        },
-        {
-          "heading": "Philanthropy",
-          "body": "Michael Dell is also known for his philanthropic efforts. Through the Michael & Susan Dell Foundation, he has made significant contributions to various causes, including education, urban health, and family economic stability."
-        }
-      ]
-    },
-    "net_worth": "$37.60B"
-  },
-  {
-    "id": 73,
-    "name": "Sam Altman",
-    "slug": "sam-altman",
-    "bio": "Sam Altman is a prominent figure in the tech industry, known for his work in startup incubation and contributions to artificial intelligence. He is currently the President of Y Combinator and Co-Chair of OpenAI. Altman has been influential in shaping the future of technology and entrepreneurship.",
-    "known_for": "His leadership in startup incubation and his role in advancing artificial intelligence through OpenAI.",
-    "net_worth_usd": 2100000000.0,
-    "net_worth_source": "https://en.wikipedia.org/wiki/Sam_Altman",
-    "net_worth_updated_at": "2026-03-19T15:49:02.565192",
-    "voice_tone": "",
-    "voice_style": "",
-    "voice_delivery_notes": "",
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-03-17 03:03:31",
-    "last_episode_title": "The AI CEO Arrives: Sam Altman's Succession Plan, Job Loss Continues, and Our 2027 'Solve Everything' Paper",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-02-17",
-    "mention_score": 1,
-    "mention_score_decayed": 0.93,
-    "last_main_idea": "Invest in AI and automation technologies that are driving the shift towards AI governance and efficiency in business operations.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-19T21:23:16.367259",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Sam Altman",
-      "fetched_at": "2026-03-20T02:23:16.367009+00:00",
-      "cliff_notes": "Sam Altman is an American entrepreneur and investor who has made significant contributions to the fields of startup incubation and artificial intelligence. He began his career in tech by founding Loopt, a location-based social network, which was later sold. Altman then joined Y Combinator, a startup accelerator, where he rose to become its President. In this role, he has been instrumental in nurturing and launching numerous successful startups. Concurrently, Altman co-founded OpenAI, a research laboratory focused on ensuring that artificial general intelligence benefits humanity. His work in both these domains has positioned him as a key player in the tech industry, influencing the trajectory of entrepreneurship and AI development.",
-      "derived": {
-        "current_role": "President of Y Combinator; Co-Chair of OpenAI",
-        "former_positions": "President of Y Combinator; Co-Chair of OpenAI",
-        "education": "Stanford University; dropout"
-      },
-      "infobox": {
-        "Born": "1985",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Sam Altman is an American entrepreneur and investor who has made significant contributions to the fields of startup incubation and artificial intelligence. He began his career in tech by founding Loopt, a location-based social network, which was later sold. Altman then joined Y Combinator, a startup accelerator, where he rose to become its President.",
-        "In this role, he has been instrumental in nurturing and launching numerous successful startups. Concurrently, Altman co-founded OpenAI, a research laboratory focused on ensuring that artificial general intelligence benefits humanity. His work in both these domains has positioned him as a key player in the tech industry, influencing the trajectory of entrepreneurship and AI development."
-      ],
-      "sections": [
-        {
-          "heading": "Startup Incubation",
-          "body": "Sam Altman has been a driving force in the startup ecosystem, particularly through his leadership at Y Combinator, which has helped launch and scale many successful companies."
-        },
-        {
-          "heading": "Artificial Intelligence",
-          "body": "Altman co-founded OpenAI, a research organization dedicated to the responsible development and application of AI technologies, ensuring they are aligned with the interests of humanity."
-        },
-        {
-          "heading": "Future of Work",
-          "body": "Altman has expressed views on the future of work, particularly in relation to AI and automation, suggesting that the next few years will be pivotal in setting the course for the next century."
-        }
-      ]
-    },
-    "net_worth": "$2.10B"
-  },
-  {
-    "id": 69,
-    "name": "Ben Horowitz",
-    "slug": "ben-horowitz",
-    "bio": "Ben Horowitz is a prominent venture capitalist and co-founder of Andreessen Horowitz (a16z), a leading venture capital firm in Silicon Valley. He has been instrumental in shaping the tech industry through his investments and insights.",
-    "known_for": "Co-founding Andreessen Horowitz and shaping the tech industry through strategic investments and influential thought leadership.",
-    "net_worth_usd": 2000000000.0,
-    "net_worth_source": "https://www.cinenetworth.com/ben-horowitz-net-worth/",
-    "net_worth_updated_at": "2026-03-19T21:23:34.764792",
-    "voice_tone": "",
-    "voice_style": "",
-    "voice_delivery_notes": "",
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-03-16 19:37:22",
-    "last_episode_title": "Moonshots Podcast Episode #231 - OpenAI Acquires OpenClaw, 400x Cost Collapse, & Why India Wins the Talent War",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-02-18",
-    "mention_score": 2,
-    "mention_score_decayed": 1.87,
-    "last_main_idea": "Invest in the vertical integration of AI, the rise of India as a global AI hub, and the shift towards agent-based interactions.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-19T21:23:33.038094",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Ben Horowitz",
-      "fetched_at": "2026-03-20T02:23:33.037970+00:00",
-      "cliff_notes": "Ben Horowitz is a renowned venture capitalist and entrepreneur. He co-founded Andreessen Horowitz (a16z) with Marc Andreessen in 2009, which has since become one of the most influential venture capital firms in Silicon Valley. Prior to a16z, Horowitz was a general partner at the venture capital firm Opsware, which was acquired by Hewlett-Packard for $1.6 billion in 2007. Before his venture capital career, Horowitz was a software engineer and entrepreneur, founding several companies including Loudcloud and Opsware. He has been a driving force in the tech industry, investing in and advising numerous successful startups. Horowitz is also known for his bestselling book, 'The Hard Thing About Hard Things,' which offers insights into the challenges of building and running a startup.",
-      "derived": {
-        "current_role": "Co-founder of Andreessen Horowitz",
-        "education": "Bachelor's degree in Computer Science from Columbia University; Master's degree in Computer Science from UCLA",
-        "books_or_works": "The Hard Thing About Hard Things: Building a Business When There Are No Easy Answers"
-      },
-      "infobox": {
-        "Born": "1973",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Ben Horowitz is a renowned venture capitalist and entrepreneur. He co-founded Andreessen Horowitz (a16z) with Marc Andreessen in 2009, which has since become one of the most influential venture capital firms in Silicon Valley. Prior to a16z, Horowitz was a general partner at the venture capital firm Opsware, which was acquired by Hewlett-Packard for $1.6 billion in 2007.",
-        "Before his venture capital career, Horowitz was a software engineer and entrepreneur, founding several companies including Loudcloud and Opsware. He has been a driving force in the tech industry, investing in and advising numerous successful startups. Horowitz is also known for his bestselling book, 'The Hard Thing About Hard Things,' which offers insights into the challenges of building and running a startup."
-      ],
-      "sections": [
-        {
-          "heading": "Venture Capital",
-          "body": "Ben Horowitz is a leading figure in the venture capital industry, co-founding Andreessen Horowitz and investing in numerous successful startups."
-        },
-        {
-          "heading": "Tech Industry Influence",
-          "body": "Horowitz has been instrumental in shaping the tech industry through his strategic investments and influential thought leadership."
-        },
-        {
-          "heading": "Entrepreneurship",
-          "body": "Before his venture capital career, Horowitz was an entrepreneur, founding companies such as Loudcloud and Opsware."
-        },
-        {
-          "heading": "Thought Leadership",
-          "body": "Horowitz is known for his bestselling book, 'The Hard Thing About Hard Things,' which offers insights into the challenges of building and running a startup."
-        }
-      ]
-    },
-    "net_worth": "$2.00B"
   }
 ]
 };

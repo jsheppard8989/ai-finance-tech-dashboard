@@ -1,16 +1,18 @@
 {
-  "prompt": "Will Bitcoin's price exceed $50,000 per coin within the next 42 days?",
-  "expires_rule": "Resolves Friday 12:00 PM CST 2023-05-19",
-  "crux_theme": "Cryptocurrency price movement",
+  "prompt": "Will a majority of G20 nations announce new policy frameworks aimed at curbing crypto transaction activities by May 01, 2026?",
+  "expires_rule": "Resolves Friday 12:00 PM CST 2026-05-01",
+  "crux_theme": "Regulatory Moat",
   "resolution_clarity": {
-    "source_of_truth": "Price data from a reputable cryptocurrency exchange",
+    "source_of_truth": "Official press releases, verified statements from regulatory bodies, and official government communications",
     "resolution_sources": [
-      "Coinbase",
-      "Binance",
-      "Kraken"
+      "Press releases from G20 member countries' central banks and financial regulatory agencies",
+      "Official statements from G20 leaders or designated representatives",
+      "International financial news outlets like Bloomberg, Reuters, and Financial Times"
     ],
     "resolution_criteria": [
-      "The highest price recorded during the 42-day period"
+      "Announcement of new policies or frameworks that directly address restrictions or regulations on cryptocurrency transactions",
+      "The policy or framework must specifically target cryptocurrency activities, such as trading, transfers, or wallet usage",
+      "The announcement must come from an official government body or a representative thereof"
     ]
   },
   "sides": {
@@ -19,10 +21,10 @@
   },
   "friday_iso": "2026-03-20",
   "week_label": "Week of 2026-03-20",
-  "debater_a": "John Fetterman",
-  "debater_b": "Jacob Helbert",
-  "generated_at": "2026-03-19T16:41:25.173456",
+  "debater_a": "Ben Harwitz",
+  "debater_b": "Paul Krugman",
+  "generated_at": "2026-03-20T11:09:15.214327",
   "bet_status": "open",
   "audio_href": "./audio/emp_ai_the_debate_11labs.mp3",
-  "prompt_hash": "8185607f2034858e"
+  "prompt_hash": "8b30dfc35a0d353d"
 }

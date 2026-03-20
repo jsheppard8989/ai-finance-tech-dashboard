@@ -11,6 +11,7 @@ from pathlib import Path
 from typing import Dict, List, Any
 
 from db_manager import get_db
+from person_name_safety import is_placeholder_person_name
 
 
 def upsert_entity(name: str, type_: str = "person", bio: str | None = None,
@@ -177,6 +178,9 @@ def ingest_ai_result(
     for p in people:
         name = (p.get("name") or "").strip()
         if not name:
+            continue
+        # Skip clearly placeholder-ish extraction artifacts.
+        if is_placeholder_person_name(name):
             continue
         role = (p.get("role") or "guest").strip().lower()
         bio = p.get("bio") or None

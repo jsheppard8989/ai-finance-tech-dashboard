@@ -235,6 +235,8 @@ def _export_pipeline_state(site_dir: Path):
         "total": 0,
     }
 
+    fallback_cache = {}
+
     for ep in curated_eps:
         podcast = ep.get("podcast", "") or ""
         title = ep.get("title", "") or ""
@@ -243,6 +245,53 @@ def _export_pipeline_state(site_dir: Path):
         age_days = compute_age_days(published_str)
 
         pe = episode_rows_by_guid.get(rss_guid) if rss_guid else None
+        # Fallback: sometimes rss_guid isn't persisted into podcast_episodes
+        # (e.g. missing transcript sidecar meta). If so, match by podcast + title
+        # prefix so pipeline-health isn't permanently stuck on "Not in DB yet".
+        if pe is None and rss_guid:
+            cache_key = f"{podcast}::{str(title)[:40].lower()}"
+            if cache_key in fallback_cache:
+                pe = fallback_cache[cache_key]
+            else:
+                try:
+                    import difflib
+
+                    def _norm(s: str) -> str:
+                        # Strip punctuation/whitespace; keep alnum only.
+                        return re.sub(r"[^a-z0-9]+", "", (s or "").lower())
+
+                    target_norm = _norm(title)[:120]
+
+                    best_ratio = 0.0
+                    best_row = None
+
+                    with db._get_connection() as conn2:
+                        cur = conn2.execute(
+                            """
+                            SELECT id, rss_guid, podcast_name, episode_title, episode_date,
+                                   audio_url, transcript_path, is_processed, added_to_site
+                            FROM podcast_episodes
+                            WHERE podcast_name = ?
+                            ORDER BY episode_date DESC, id DESC
+                            LIMIT 25
+                            """,
+                            (podcast,),
+                        )
+                        for row in cur.fetchall():
+                            cand = dict(row)
+                            cand_norm = _norm(cand.get("episode_title") or "")[:120]
+                            if not cand_norm:
+                                continue
+                            ratio = difflib.SequenceMatcher(None, target_norm, cand_norm).ratio()
+                            if ratio > best_ratio:
+                                best_ratio = ratio
+                                best_row = cand
+
+                    # Threshold intentionally low because episode_title may be AI-inferred or slug-derived.
+                    pe = best_row if best_ratio >= 0.35 else None
+                except Exception:
+                    pe = None
+                fallback_cache[cache_key] = pe
         has_db_row = bool(pe)
         podcast_episode_id = int(pe["id"]) if pe and pe.get("id") is not None else None
 
@@ -323,6 +372,19 @@ def _export_pipeline_state(site_dir: Path):
     # New on feeds: RSS-only episodes not yet in curation/db pipeline selection.
     # We preserve existing curate/filter logic (window + feeds list) by using the helper.
     curated_guid_set = {str(ep.get("rss_guid") or "").strip() for ep in curated_eps if ep.get("rss_guid")}
+
+    def _norm(s: str) -> str:
+        # Normalize for identity matching regardless of punctuation/typography.
+        return re.sub(r"[^a-z0-9]+", "", (s or "").lower())
+
+    def _episode_identity_key(podcast: str, title: str) -> str:
+        # Use a prefix of title so minor truncation doesn't break matching.
+        return f"{_norm(podcast)}::{_norm(title)[:120]}"
+
+    curated_identity_set = {
+        _episode_identity_key(str(ep.get("podcast") or ""), str(ep.get("title") or ""))
+        for ep in curated_eps
+    }
     try:
         from curate import get_feed_episodes_not_in_db
 
@@ -348,12 +410,22 @@ def _export_pipeline_state(site_dir: Path):
     tracked_feed_placeholders = []
     for ep in available_from_rss:
         ep_id = f"rss::{(ep.get('podcast', '') or '').strip().lower()}::{(ep.get('title', '') or '').strip().lower()}"[:180]
+        placeholder_published_date = ep.get("published_date", "") or ""
+
+        # If this RSS item is already in the curated selection, don't show it
+        # again as an "RSS-only placeholder" (common when rss_guid is missing/blank).
+        if _episode_identity_key(str(ep.get("podcast") or ""), str(ep.get("title") or "")) in curated_identity_set:
+            continue
+
         tracked_feed_placeholders.append(
             {
                 "id": ep_id,
                 "podcast": ep.get("podcast", ""),
                 "title": ep.get("title", ""),
-                "published": ep.get("published", "") or ep.get("published_date", ""),
+                # Prefer ISO date for sorting/display so placeholders don't
+                # look like "different episodes" just due to RSS timestamp formatting.
+                "published": placeholder_published_date or (ep.get("published", "") or ""),
+                "published_date": placeholder_published_date,
                 "rss_guid": ep.get("rss_guid", ""),
                 "stages": {
                     "downloaded": False,
@@ -378,7 +450,7 @@ def _export_pipeline_state(site_dir: Path):
 
     # Also include old RSS placeholders in stale list if past threshold.
     for ep in tracked_feed_placeholders:
-        age_days = compute_age_days(ep.get("published", ""))
+        age_days = compute_age_days(ep.get("published_date", "") or ep.get("published", ""))
         if age_days is not None and age_days >= stale_threshold_days:
             stale_episodes.append(
                 {
