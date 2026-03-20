@@ -140,6 +140,9 @@ class DashboardDB:
                 "ALTER TABLE entities ADD COLUMN voice_style TEXT",
                 "ALTER TABLE entities ADD COLUMN voice_delivery_notes TEXT",
                 "ALTER TABLE entities ADD COLUMN voice_profile_updated_at TIMESTAMP",
+                "ALTER TABLE entities ADD COLUMN grokipedia_url TEXT",
+                "ALTER TABLE entities ADD COLUMN grokipedia_fetched_at TIMESTAMP",
+                "ALTER TABLE entities ADD COLUMN pundit_profile_json TEXT",
             ]:
                 try:
                     conn.execute(col_sql)
@@ -459,6 +462,9 @@ class DashboardDB:
                     e.voice_style,
                     e.voice_delivery_notes,
                     e.voice_profile_updated_at,
+                    e.grokipedia_url,
+                    e.grokipedia_fetched_at,
+                    e.pundit_profile_json,
                     a.created_at AS last_seen,
                     pe.episode_title AS last_episode_title,
                     pe.podcast_name AS last_podcast_name,
@@ -556,6 +562,42 @@ class DashboardDB:
                     p['last_main_idea'] = (takeaways[0] or '')[:500]
                 else:
                     p['last_main_idea'] = None
+                # Grokipedia-sourced micro-profile (trimmed for browser JSON size)
+                raw_prof = row.get("pundit_profile_json")
+                p["grokipedia_url"] = row.get("grokipedia_url")
+                p["grokipedia_fetched_at"] = row.get("grokipedia_fetched_at")
+                p["pundit_profile"] = None
+                if raw_prof:
+                    try:
+                        full = json.loads(raw_prof) if isinstance(raw_prof, str) else raw_prof
+                    except Exception:
+                        full = None
+                    if isinstance(full, dict):
+                        sections = full.get("sections") or []
+                        slim_sections = []
+                        if isinstance(sections, list):
+                            for s in sections[:10]:
+                                if not isinstance(s, dict):
+                                    continue
+                                body = (s.get("body") or "")[:520]
+                                slim_sections.append(
+                                    {"heading": s.get("heading") or "", "body": body}
+                                )
+                        leads = full.get("lead_paragraphs") or []
+                        if not isinstance(leads, list):
+                            leads = []
+                        p["pundit_profile"] = {
+                            "source": full.get("source"),
+                            "source_model": full.get("source_model"),
+                            "source_url": full.get("source_url"),
+                            "page_title": full.get("page_title"),
+                            "fetched_at": full.get("fetched_at"),
+                            "cliff_notes": (full.get("cliff_notes") or "")[:3200],
+                            "derived": full.get("derived") or {},
+                            "infobox": full.get("infobox") or {},
+                            "lead_paragraphs": [str(x)[:900] for x in leads[:6]],
+                            "sections": slim_sections,
+                        }
                 # Friendly display string for popup.
                 nw = p.get('net_worth_usd')
                 if isinstance(nw, (int, float)) and nw > 0:

@@ -1,4 +1,33 @@
 {
-  "timestamp": "2026-03-19T04:20:09.430088",
-  "results": []
+  "timestamp": "2026-03-19T22:02:47.860750",
+  "results": [
+    {
+      "podcast": "Monetary Matters with Jack Farley",
+      "title": "\u201cThis Is The End of The Oil Market As We Know It\u201d | Rory Johnston on How $300 Oil Could Trigger Depression If De-Escalation Does Not Occur In Iran War",
+      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/EWWMN9153105374.mp3",
+      "transcript_path": null,
+      "success": false
+    },
+    {
+      "podcast": "The a16z Show",
+      "title": "AI Just Gave You Superpowers \u2014 Now What?",
+      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_20260319_1e92a9dd_78da_4417_b1ce_4b4318d1.mp3",
+      "transcript_path": null,
+      "success": false
+    },
+    {
+      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "title": "Jensen Huang LIVE: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
+      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/ALLIN-INTV_Jensen_V2_Ch.mp3",
+      "transcript_path": null,
+      "success": false
+    },
+    {
+      "podcast": "Macro Voices",
+      "title": "MacroVoices #524 Simon White: War + Inflation = More Inflation",
+      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/MacroVoices-2026-03-19-Simon-White.mp3",
+      "transcript_path": null,
+      "success": false
+    }
+  ]
 }

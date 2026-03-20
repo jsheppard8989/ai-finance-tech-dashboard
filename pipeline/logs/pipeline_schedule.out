@@ -10232,3 +10232,530 @@ Finished: 2026-03-18 22:07:05.981811
 🎙️ 3 new podcast(s) analyzed
 
 🌐 Website updated
+2026-03-19T22:02:20-05:00 run_if_scheduled: in window, running pipeline
+============================================================
+AUTO PIPELINE
+Mode: full
+Started: 2026-03-19 22:02:21.099090
+============================================================
+
+============================================================
+STEP: Podcast Curation
+============================================================
+moo_609f0b8d.mp3
+
+  ✓ Monetary Matters with Jack Farley
+    Title: “This Is The End of The Oil Market As We Know It” | Rory Johnston on H
+    File: monetary_matters_with_jack_farley__this_is_the_end_of_the_oil_market_as_we_know_it____rory_joh_c58dc548.mp3
+
+  ✓ Monetary Matters with Jack Farley
+    Title: Stock Market on Shaky Foundations | Blind Squirrel Macro’s Rupert Mitc
+    File: monetary_matters_with_jack_farley_stock_market_on_shaky_foundations___blind_squirrel_macro_s_r_12c3cce4.mp3
+
+  ✓ The a16z Show
+    Title: AI Just Gave You Superpowers — Now What?
+    File: the_a16z_show_ai_just_gave_you_superpowers___now_what__ccf57061.mp3
+
+  ✓ The a16z Show
+    Title: Chris Dixon: From Quant Trading to Building a16z Crypto
+    File: the_a16z_show_chris_dixon__from_quant_trading_to_building_a16z_crypto_be2e5b4b.mp3
+
+  ✓ All-In with Chamath, Jason, Sacks & Friedberg
+    Title: Jensen Huang LIVE: Nvidia's Future, Physical AI, Rise of the Agent, In
+    File: all_in_with_chamath__jason__sacks___frie_jensen_huang_live__nvidia_s_future__physical_ai__rise_of_the_a8a06099.mp3
+
+  ✓ Macro Voices
+    Title: MacroVoices #524 Simon White: War + Inflation = More Inflation
+    File: macro_voices_macrovoices__524_simon_white__war___inflation___more_inflati_97ebbf1c.mp3
+
+  ✓ Dwarkesh Podcast
+    Title: Why Leonardo was a saboteur, Gutenberg went broke, and Florence was we
+    File: dwarkesh_podcast_why_leonardo_was_a_saboteur__gutenberg_went_broke__and_flore_d121fb5b.mp3
+
+
+✓ Curation log saved: /Users/jaredsheppard/.openclaw/workspace/pipeline/state/curation_log.json
+
+======================================================================
+NEXT STEPS
+======================================================================
+
+1. Review approved episodes above
+2. To transcribe approved episodes, run:
+   python3 transcribe_curated.py
+
+3. Or manually transcribe specific files (only for episodes that have audio):
+   whisper 'moonshots_with_peter_diamandis_meta_buys_moltbook__gpt_5_4__and_fruitfly_brain_upload___moo_609f0b8d.mp3' --model tiny --language en
+   whisper 'monetary_matters_with_jack_farley__this_is_the_end_of_the_oil_market_as_we_know_it____rory_joh_c58dc548.mp3' --model tiny --language en
+   whisper 'monetary_matters_with_jack_farley_stock_market_on_shaky_foundations___blind_squirrel_macro_s_r_12c3cce4.mp3' --model tiny --language en
+   whisper 'the_a16z_show_ai_just_gave_you_superpowers___now_what__ccf57061.mp3' --model tiny --language en
+   whisper 'the_a16z_show_chris_dixon__from_quant_trading_to_building_a16z_crypto_be2e5b4b.mp3' --model tiny --language en
+   whisper 'all_in_with_chamath__jason__sacks___frie_jensen_huang_live__nvidia_s_future__physical_ai__rise_of_the_a8a06099.mp3' --model tiny --language en
+   whisper 'macro_voices_macrovoices__524_simon_white__war___inflation___more_inflati_97ebbf1c.mp3' --model tiny --language en
+   whisper 'dwarkesh_podcast_why_leonardo_was_a_saboteur__gutenberg_went_broke__and_flore_d121fb5b.mp3' --model tiny --language en
+
+✓ Podcast Curation completed
+
+============================================================
+STEP: Fetch & Transcribe
+============================================================
+o episode found
+
+📻 Processing: https://feeds.megaphone.fm/EWWMN1909747317...
+  📋 Latest: “This Is The End of The Oil Market As We Know It” | Rory Joh...
+  ⬇️  Downloading: EWWMN9153105374.mp3
+     Title: “This Is The End of The Oil Market As We Know It” | Rory Joh...
+     ✓ Downloaded to /Users/jaredsheppard/.openclaw/workspace/audio/EWWMN9153105374.mp3
+  🎙️  Transcribing: EWWMN9153105374.mp3
+  📥 Submitted to whisper queue: EWWMN9153105374.mp3
+  ⏭ Queue-only mode: not waiting. Run pipeline again after worker finishes.
+
+📻 Processing: https://feeds.simplecast.com/JGE3yC0V...
+  📋 Latest: AI Just Gave You Superpowers — Now What?...
+  ⬇️  Downloading: the_a16z_show_20260319_1e92a9dd_78da_4417_b1ce_4b4318d1.mp3
+     Title: AI Just Gave You Superpowers — Now What?...
+     ✓ Downloaded to /Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_20260319_1e92a9dd_78da_4417_b1ce_4b4318d1.mp3
+  🎙️  Transcribing: the_a16z_show_20260319_1e92a9dd_78da_4417_b1ce_4b4318d1.mp3
+  📥 Submitted to whisper queue: the_a16z_show_20260319_1e92a9dd_78da_4417_b1ce_4b4318d1.mp3
+  ⏭ Queue-only mode: not waiting. Run pipeline again after worker finishes.
+
+📻 Processing: https://rss.libsyn.com/shows/254861/destinations/1...
+  📋 Latest: Jensen Huang LIVE: Nvidia's Future, Physical AI, Rise of the...
+  ⬇️  Downloading: ALLIN-INTV_Jensen_V2_Ch.mp3
+     Title: Jensen Huang LIVE: Nvidia's Future, Physical AI, Rise of the...
+     ✓ Downloaded to /Users/jaredsheppard/.openclaw/workspace/audio/ALLIN-INTV_Jensen_V2_Ch.mp3
+  🎙️  Transcribing: ALLIN-INTV_Jensen_V2_Ch.mp3
+  📥 Submitted to whisper queue: ALLIN-INTV_Jensen_V2_Ch.mp3
+  ⏭ Queue-only mode: not waiting. Run pipeline again after worker finishes.
+
+📻 Processing: https://anchor.fm/s/e29097f4/podcast/rss...
+  ⏭ Already have 'Uncle, Not TACO: Bitcoin in a World on Fire' (guid match, ep_id=72)
+  ✗ No episode found
+
+📻 Processing: https://feed.podbean.com/macrovoices/feed.xml...
+  📋 Latest: MacroVoices #524 Simon White: War + Inflation = More Inflati...
+  ⬇️  Downloading: MacroVoices-2026-03-19-Simon-White.mp3
+     Title: MacroVoices #524 Simon White: War + Inflation = More Inflati...
+     ✓ Downloaded to /Users/jaredsheppard/.openclaw/workspace/audio/MacroVoices-2026-03-19-Simon-White.mp3
+  🎙️  Transcribing: MacroVoices-2026-03-19-Simon-White.mp3
+  📥 Submitted to whisper queue: MacroVoices-2026-03-19-Simon-White.mp3
+  ⏭ Queue-only mode: not waiting. Run pipeline again after worker finishes.
+
+📻 Processing: https://api.substack.com/feed/podcast/69345.rss...
+  ⏭ Already have 'Dylan Patel — Deep dive on the 3 big bottlenecks t' (guid match, ep_id=63)
+  ✗ No episode found
+
+✓ Log saved: /Users/jaredsheppard/.openclaw/workspace/pipeline/state/fetch_log.json
+
+======================================================================
+SUMMARY
+======================================================================
+Total feeds: 7
+Successfully transcribed: 0
+Failed: 4
+
+Completed episodes:
+
+
+Next step: Run 'python3 research.py' to analyze transcripts
+
+✓ Fetch & Transcribe completed
+
+============================================================
+STEP: Newsletter Ingestion
+============================================================
+==================================================
+Newsletter Ingestion Pipeline
+==================================================
+
+Connecting to Gmail...
+Connecting to Gmail at imap.gmail.com:993...
+Logging in as jsheppard8989@gmail.com...
+Selecting folder: NEWSLETTERS...
+Found 0 unread emails
+
+No emails fetched from Gmail.
+
+✓ Processed 0 emails
+
+Files saved to: /Users/jaredsheppard/.openclaw/workspace/pipeline/inbox
+
+Next step: Run analysis to score stock mentions
+
+✓ Newsletter Ingestion completed
+
+============================================================
+STEP: Transcript AI Analysis
+============================================================
+  ⚠ Google Generative AI library not installed. Run: pip install google-generativeai
+
+============================================================
+Processing Podcast Transcripts with AI
+============================================================
+  Using Moonshot/Kimi API (primary)
+Found 72 transcript files
+  Processing DVVTS4101423217.txt...
+    ✓ Added episode (ID: 79)
+    + Emerging term: Soled Everything
+    ✓ Added 0 ticker mentions
+  Processing EWWMN3482909708.txt...
+    ✓ Added episode (ID: 80)
+    + Emerging term: R-star
+    ⚠ Failed to add mention for PQNT: CHECK constraint failed: timeframe IN ('short_term', 'long_term', 'unspecified')
+    ✓ Added 0 ticker mentions
+  Processing EWWMN2965097612.txt...
+    ⚠ AI analysis failed: Error code: 429 - {'error': {'message': 'The engine is currently overloaded, please try again later', 'type': 'engine_overloaded_error'}}
+    ✗ AI analysis failed
+  Processing e3c75a06762af10f374661e8af1d1af6.txt...
+    ⏭ Episode already in database (duplicate), skipping
+  Processing dwarkesh_podcast_why_leonardo_was_a_saboteur__gutenberg_went_broke__and_flore_d121fb5b.txt...
+    ⏭ Skipping (published 2023-11-01 is before Feb 2026 cutoff)
+  Processing dario_amodei.txt...
+    ⏭ Too short, skipping
+  Processing the_a16z_show_ai_just_gave_you_superpowers___now_what__ccf57061.txt...
+    ⏭ Skipping (published 2023-12-31 is before Feb 2026 cutoff)
+  Processing cecdbe38125e2786cbfebe31dd083d4f.txt...
+    ✓ Added episode (ID: 81)
+    + Emerging term: Big Blob of Compute Hypothesis
+    ⚠ Failed to add mention for N/A: CHECK constraint failed: timeframe IN ('short_term', 'long_term', 'unspecified')
+    ✓ Added 0 ticker mentions
+  Processing DVVTS5786783285.txt...
+    ✓ Added episode (ID: 82)
+    + Emerging term: Recursive Self-Improvement (RSI)
+    + Emerging term: Singularity
+    ⚠ Failed to add mention for OPEN AI: CHECK constraint failed: timeframe IN ('short_term', 'long_term', 'unspecified')
+    ⚠ Failed to add mention for MCCOR: CHECK constraint failed: timeframe IN ('short_term', 'long_term', 'unspecified')
+    ✓ Added 0 ticker mentions
+  Processing moonshots_with_peter_diamandis_meta_buys_moltbook__gpt_5_4__and_fruitfly_brain_upload___moo_609f0b8d.txt...
+    ⏭ Skipping (published 2023-10-04 is before Feb 2026 cutoff)
+  Processing https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-10%2F417811310-44100-2-5be9b2c9f29f2.txt...
+    ✓ Added episode (ID: 83)
+    + Emerging term: Macro Asset
+    + Emerging term: Liquidity Regime
+    ✓ Added 0 ticker mentions
+  Processing elon_musk.txt...
+    ⏭ Too short, skipping
+  Processing default.txt...
+    ✓ Added episode (ID: 84)
+    + Emerging term: Intent-Driven Computing
+    + Emerging term: Agentic Computing
+    ✓ Added 0 ticker mentions
+  Processing monetary_matters_with_jack_farley_stock_market_on_shaky_foundations___blind_squirrel_macro_s_r_12c3cce4.txt...
+    ⏭ Skipping (published 2023-12-07 is before Feb 2026 cutoff)
+  Processing https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-17%2F418255357-44100-2-b07eb0f35b621.txt...
+    ✓ Added episode (ID: 85)
+    + Emerging term: Liquidity Smoke Alarm
+    + Emerging term: Creative Expression of Being Human
+    ✓ Added 0 ticker mentions
+  Processing peter_diamandis_brett_adcock_ep229.txt...
+    ✓ Added episode (ID: 86)
+    + Emerging term: Neural Nets
+    + Emerging term: Autonomous Manufacturing
+    ✓ Added 0 ticker mentions
+  Processing the_a16z_show_chris_dixon__from_quant_trading_to_building_a16z_crypto_be2e5b4b.txt...
+    ⏭ Skipping (published 2023-11-20 is before Feb 2026 cutoff)
+  Processing all_in_with_chamath__jason__sacks___frie_jensen_huang_live__nvidia_s_future__physical_ai__rise_of_the_03b9c382.txt...
+    ⏭ Skipping (published 2023-10-01 is before Feb 2026 cutoff)
+  Processing https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-0-13%2F202cb903-9237-cf95-362f-50770b90d121.txt...
+    ✓ Added episode (ID: 87)
+    + Emerging term: Embryo Screening
+    + Emerging term: Genomic Information
+    ✓ Added 0 ticker mentions
+  Processing https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-18%2Fdff54dee-2ba4-02bd-9c43-d935696550da.txt...
+    ⏭ Skipping (published 2023-11-22 is before Feb 2026 cutoff)
+
+✓ Transcript processing complete: 9 new, 52 skipped, 0 errors
+✓ Analyzed 9 new transcripts
+
+============================================================
+STEP: Newsletter Import
+============================================================
+✓ Total newsletters imported: 0
+
+============================================================
+STEP: Promote Episodes to Insights
+============================================================
+Found 9 processed episodes not yet in insights
+  ✓ Promoted: 'Genomic Screening and Ethical Considerations' (sentiment=neutral)
+  ✓ Promoted: 'Japan AI and the Next Liquidity Shock: Why Bitcoin's Weaknes' (sentiment=neutral)
+  ✓ Promoted: 'AI Disruption and the Future of Society' (sentiment=bullish)
+  ✓ Promoted: 'The Future of Technology and Investment in AI' (sentiment=bullish)
+  ✓ Promoted: 'Monetary Matters with Jack Farley: The US Dollar, Trade Defi' (sentiment=neutral)
+  ✓ Promoted: 'Moonshots with Peter Diamandis: AI, Automation, and the Path' (sentiment=neutral)
+  ✓ Promoted: 'Humanoid Run on Neural Net, Autonomous Manufacturing, $50T M' (sentiment=neutral)
+  ✓ Promoted: 'The Future of Consumer Technology and the Post-Mobile Phone ' (sentiment=neutral)
+  ✓ Promoted: 'From Software to Hard Asset: Bitcoin and the New Liquidity R' (sentiment=bullish)
+  ✓ Auto-archived 9 older insights
+✓ Promoted 9 new insight(s) to website
+
+============================================================
+STEP: Promote Newsletters to Insights
+============================================================
+Found 0 newsletters not yet on site
+
+============================================================
+STEP: Aggregate Daily Scores
+============================================================
+✓ Saved 0 daily scores
+  Using Moonshot/Kimi API (primary)
+  Using Moonshot/Kimi API (primary)
+  Using Moonshot/Kimi API (primary)
+  Using Moonshot/Kimi API (primary)
+  Using Moonshot/Kimi API (primary)
+  Using Moonshot/Kimi API (primary)
+  Using Moonshot/Kimi API (primary)
+  Using Moonshot/Kimi API (primary)
+  Using Moonshot/Kimi API (primary)
+  Using Moonshot/Kimi API (primary)
+  Using Moonshot/Kimi API (primary)
+  Using Moonshot/Kimi API (primary)
+  Using Moonshot/Kimi API (primary)
+✓ Enriched 13 pundit(s) (LLM/Grokipedia profile + net worth + optional Grok)
+
+============================================================
+STEP: Generate Deep Dives
+============================================================
+Generating Deep Dives for 9 insights...
+
+  Using Moonshot/Kimi API
+[96] Genomic Screening and Ethical Considerations
+  ✓ Deep Dive stored
+[97] Japan AI and the Next Liquidity Shock: Why Bitcoin's Weaknes
+  ✓ Deep Dive stored
+[98] AI Disruption and the Future of Society
+  ✓ Deep Dive stored
+[99] The Future of Technology and Investment in AI
+  ✓ Deep Dive stored
+[100] Monetary Matters with Jack Farley: The US Dollar, Trade Defi
+  ✓ Deep Dive stored
+[101] Moonshots with Peter Diamandis: AI, Automation, and the Path
+  ✓ Deep Dive stored
+[102] Humanoid Run on Neural Net, Autonomous Manufacturing, $50T M
+    ✗ AI generation failed: Error code: 429 - {'error': {'message': 'The engine is currently overloaded, please try again later', 'type': 'engine_overloaded_error'}}
+  ✗ Generation failed
+[103] The Future of Consumer Technology and the Post-Mobile Phone 
+    ✗ AI generation failed: Error code: 429 - {'error': {'message': 'The engine is currently overloaded, please try again later', 'type': 'engine_overloaded_error'}}
+  ✗ Generation failed
+[104] From Software to Hard Asset: Bitcoin and the New Liquidity R
+    ✗ AI generation failed: Error code: 429 - {'error': {'message': 'The engine is currently overloaded, please try again later', 'type': 'engine_overloaded_error'}}
+  ✗ Generation failed
+
+✓ Generated 6/9 Deep Dives
+
+✓ Generate Deep Dives completed
+
+============================================================
+STEP: Fetch Prices
+============================================================
+1.01%)
+  Fetching FB... $42.34 (-0.42%)
+  Fetching GLD... $426.41 (-8.91%)
+  Fetching GOLD... $43.97 (-22.01%)
+  Fetching GOOG... $305.73 (+0.71%)
+  Fetching GOOGL... $307.13 (+1.17%)
+  Fetching GS... $809.50 (-6.15%)
+  Fetching Gold... $43.97 (-22.01%)
+  Fetching HFGM... $32.55 (-1.03%)
+  Fetching HOOD... $74.16 (-2.51%)
+  Fetching IBM... $250.37 (+2.08%)
+  Fetching IEF... $95.74 (-1.31%)
+  Fetching ILMN... $126.59 (-2.29%)
+  Fetching INDA... $47.52 (-5.38%)
+  Fetching INFY... $13.05 (-8.23%)
+  Fetching IWM... $247.63 (-4.48%)
+  Fetching JNJ... $237.60 (-3.71%)
+  Fetching LLY... $917.50 (-8.95%)
+  Fetching MCCOR...     Error fetching MCCOR: HTTP Error 404: Not Found
+Failed
+  Fetching META... $606.70 (-7.39%)
+  Fetching MINE... $2.95 (-23.58%)
+  Fetching MSFT... $389.02 (-3.69%)
+  Fetching MSTR... $138.24 (+4.19%)
+  Fetching NEE... $92.41 (-0.19%)
+  Fetching NINT...     Error fetching NINT: HTTP Error 404: Not Found
+Failed
+  Fetching NOW... $113.27 (+0.07%)
+  Fetching NVDA... $178.56 (-0.83%)
+  Fetching Nasdaq... $593.02 (-1.42%)
+  Fetching OKLO... $54.69 (-13.60%)
+  Fetching OPEN AI...     Error fetching OPEN AI: URL can't contain control characters. '/v8/finance/chart/OPE
+Failed
+  Fetching PALL... $131.59 (-12.24%)
+  Fetching PLTM... $18.90 (-6.44%)
+  Fetching PLTR... $155.68 (+5.75%)
+  Fetching PQNT... $20.90 (-6.65%)
+  Fetching PYPL... $44.19 (-4.72%)
+  Fetching QQQ... $593.02 (-1.42%)
+  Fetching Russell... $247.63 (-4.48%)
+  Fetching S&P... $659.80 (-3.02%)
+  Fetching S&P 500... $659.80 (-3.02%)
+  Fetching SF... $70.31 (-5.93%)
+  Fetching SLV... $65.68 (-12.05%)
+  Fetching SMR... $11.99 (-4.31%)
+  Fetching SNAP... $4.56 (-13.14%)
+  Fetching SNWGF... $9.96 (-21.57%)
+  Fetching SOYB... $24.22 (+1.17%)
+  Fetching SPY... $659.80 (-3.02%)
+  Fetching SQ... Failed
+  Fetching SQQQ... $75.91 (+4.17%)
+  Fetching Semiconductors... $394.92 (+0.99%)
+  Fetching T... $27.74 (-3.24%)
+  Fetching TDOC... $5.52 (+8.24%)
+  Fetching TLT... $87.49 (-2.17%)
+  Fetching TSLA... $380.30 (-3.09%)
+  Fetching TSM... $338.79 (-4.06%)
+  Fetching TWTR...     Error fetching TWTR: HTTP Error 404: Not Found
+Failed
+  Fetching UNG... $12.56 (+2.28%)
+  Fetching URANIUM...     Error fetching URANIUM: HTTP Error 404: Not Found
+Failed
+  Fetching US 10 year Treasury...     Error fetching US 10 year Treasury: URL can't contain control characters. '/v8/finance/chart/US 
+Failed
+  Fetching USO... $117.36 (+30.11%)
+  Fetching Uranium...     Error fetching Uranium: HTTP Error 404: Not Found
+Failed
+  Fetching VEEV... $185.59 (-0.17%)
+  Fetching VIX... $24.06 (+2.08%)
+  Fetching WIT... $2.19 (-0.45%)
+  Fetching WMT... $121.09 (-5.33%)
+  Fetching WORK... Failed
+  Fetching WTBN... $25.37 (-0.99%)
+  Fetching WTI... $3.01 (-2.90%)
+  Fetching XAU-USD... $0.00 (+0.00%)
+  Fetching XOM... $158.16 (+4.17%)
+  Fetching ZEN...     Error fetching ZEN: HTTP Error 404: Not Found
+Failed
+
+✓ Saved 78 prices to /Users/jaredsheppard/.openclaw/workspace/site/price_data.json
+Finished: 2026-03-19 22:24:56.683333
+
+✓ Fetch Prices completed
+
+============================================================
+STEP: Generate Charts
+============================================================
+
+STDERR: Traceback (most recent call last):
+  File "/Users/jaredsheppard/.openclaw/workspace/pipeline/generate_charts.py", line 7, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+
+✗ Generate Charts failed
+
+============================================================
+STEP: Auto-Curate Terms
+============================================================
+liti...
+
+• Voting by Mail
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A method of voting where ballots are sent to voters through the mail, allowing them to cast their vo...
+
+• Soled Everything
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A paper that outlines a vision for achieving abundance by 2035 through the use of AI and exponential...
+
+• R-star
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: The theoretical neutral real interest rate that is neither expansionary nor contractionary for the e...
+
+• Big Blob of Compute Hypothesis
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A concept suggesting that the exponential growth in AI and technology is primarily driven by increas...
+
+• Recursive Self-Improvement (RSI)
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: The ability of AI systems to improve their own algorithms and learning processes, leading to rapid a...
+
+• Singularity
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: The theoretical point at which AI intelligence surpasses human intelligence, leading to rapid techno...
+
+• Macro Asset
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: An investment asset whose price is highly influenced by broad economic factors, such as GDP, interes...
+
+• Liquidity Regime
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: The prevailing conditions in financial markets regarding the ease with which assets can be bought or...
+
+• Intent-Driven Computing
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A computing paradigm where systems anticipate and respond to user intent without the need for explic...
+
+• Agentic Computing
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A form of computing where systems are designed to be proactive, taking actions on behalf of the user...
+
+• Liquidity Smoke Alarm
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A metaphor for Bitcoin's role as an indicator of market liquidity, being the first asset to react to...
+
+• Creative Expression of Being Human
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: The idea that as AI reduces the need for mundane labor, humans will be empowered to focus on creativ...
+
+• Neural Nets
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A type of artificial neural network loosely modeled after the human brain that is used to identify p...
+
+• Autonomous Manufacturing
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: The use of robots and AI to perform manufacturing tasks with minimal human intervention....
+
+• Embryo Screening
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A process of testing embryos for genetic diseases or conditions before implantation....
+
+• Genomic Information
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: Information derived from an individual's complete set of DNA, including all genes....
+
+• Democratic Party
+  Relevance: 45
+  Mentions: 5 in 4 source(s)
+
+STDERR: Traceback (most recent call last):
+  File "/Users/jaredsheppard/.openclaw/workspace/pipeline/auto_curate_terms.py", line 252, in <module>
+    print(f"  Definition: {term.get('definition', 'N/A')[:100]}...")
+TypeError: 'NoneType' object is not subscriptable
+
+✗ Auto-Curate Terms failed
+
+============================================================
+STEP: Extract Podcast Guests
+============================================================
+============================================================
+Extract Podcast Guests
+============================================================
+Processing 63 processed episodes
+  ✓ Senator John Fetterman on Voting Rights ← All-In with Chamath, Jason, Sacks & Friedberg (2026-03-18)
+  ✓ Elon Musk on Moonshots ← Moonshots with Peter Diamandis (2026-03-17)
+  ✓ Investing in Capitalism ← All-In with Chamath, Jason, Sacks & Friedberg (2026-03-13)
+  ✓ Harvard Professor Graham Allison ← All-In with Chamath, Jason, Sacks & Friedberg (2026-03-09)
+  ✓ Andrew Yang ← Moonshots with Peter Diamandis (2026-03-07)
+  ✓ Ray Dalio ← All-In with Chamath, Jason, Sacks & Friedberg (2026-03-03)
+  ✓ Nobel Prize-winning economist Paul Krugman ← Monetary Matters with Jack Farley (2026-02-19)
+  ✓ host Jack Mallers ← The Jack Mallers Show (2026-02-19)
+  ✓ Ben Horowitz ← Moonshots with Peter Diamandis (2026-02-19)
+  ✓ Bosworth ← a16z Live (2026-02-15)
+  ✓ Milton Berg ← Monetary Matters with Jack Farley (2026-02-06)
+
+✓ Done. 11 guest(s) in database.
+
+✓ Extract Podcast Guests completed

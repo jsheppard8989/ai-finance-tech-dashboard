@@ -1062,7 +1062,9 @@
       border-radius: 16px;
       padding: 1.5rem 2rem;
       width: 100%;
-      max-width: 620px;
+      max-width: 720px;
+      max-height: 88vh;
+      overflow-y: auto;
       border: 1px solid rgba(0, 212, 255, 0.2);
       box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
     }
@@ -1098,6 +1100,63 @@
       border-radius: 6px;
       cursor: pointer;
       font-size: 1rem;
+    }
+    .networth-profile {
+      margin-top: 1.25rem;
+      padding-top: 1rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+      color: #c5cee0;
+      font-size: 0.88rem;
+      line-height: 1.55;
+    }
+    .networth-profile h4 {
+      color: #00d4ff;
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      margin: 1rem 0 0.35rem;
+      font-weight: 700;
+    }
+    .networth-profile h4:first-child { margin-top: 0; }
+    .networth-profile .profile-dl {
+      display: grid;
+      grid-template-columns: minmax(0, 34%) 1fr;
+      gap: 0.35rem 0.75rem;
+      margin: 0.25rem 0 0.5rem;
+    }
+    .networth-profile .profile-dl dt {
+      color: #8892b0;
+      font-weight: 600;
+      font-size: 0.8rem;
+    }
+    .networth-profile .profile-dl dd {
+      margin: 0;
+      color: #e8e8e8;
+    }
+    .networth-profile .cliff-notes {
+      color: #e8e8e8;
+      white-space: pre-wrap;
+      margin: 0.35rem 0 0.75rem;
+    }
+    .networth-profile .section-block {
+      margin-bottom: 0.65rem;
+    }
+    .networth-profile .section-block .sec-title {
+      color: #a8b2d1;
+      font-weight: 600;
+      font-size: 0.82rem;
+      margin-bottom: 0.2rem;
+    }
+    .networth-profile .section-block .sec-body {
+      color: #b8c0d4;
+      font-size: 0.84rem;
+    }
+    .networth-profile a.grokipedia-link {
+      color: #00d4ff;
+      text-decoration: underline;
+      font-size: 0.85rem;
+      display: inline-block;
+      margin-top: 0.5rem;
     }
 
     .podcast-container {
@@ -1683,6 +1742,7 @@
       <div class="networth-title" id="netWorthTitle">Net Worth</div>
       <div class="networth-value" id="netWorthValue">—</div>
       <div class="networth-sub" id="netWorthSub"></div>
+      <div class="networth-profile" id="netWorthProfile" style="display: none;"></div>
       <div class="networth-actions">
         <button class="close-btn" onclick="closeNetWorthModal()">✕ Close</button>
       </div>
@@ -1690,7 +1750,7 @@
   </div>
 
   <!-- Load dashboard data from pipeline (if available) -->
-  <script src="./data/data.js?v=1773912199-1"></script>
+  <script src="./data/data.js?v=1773977100-1"></script>
   <script src="./js/common.js"></script>
   
   <script>
@@ -1950,9 +2010,15 @@
         // Prefer pre-formatted display string when available.
         var netWorth = item.net_worth || item.net_worth_usd || '';
         var netWorthSrc = item.net_worth_source || '';
+        var profileB64 = '';
+        if (item.pundit_profile && typeof item.pundit_profile === 'object') {
+          try {
+            profileB64 = btoa(unescape(encodeURIComponent(JSON.stringify(item.pundit_profile))));
+          } catch (err) { profileB64 = ''; }
+        }
 
         return '' +
-          '<div class="guest-item" data-name="' + name.replace(/"/g, '&quot;') + '" data-networth="' + String(netWorth).replace(/"/g, '&quot;') + '" data-networthsrc="' + String(netWorthSrc).replace(/"/g, '&quot;') + '">' +
+          '<div class="guest-item" data-name="' + name.replace(/"/g, '&quot;') + '" data-networth="' + String(netWorth).replace(/"/g, '&quot;') + '" data-networthsrc="' + String(netWorthSrc).replace(/"/g, '&quot;') + '" data-profile-b64="' + profileB64.replace(/"/g, '') + '">' +
             '<div class="guest-name">' + name + '</div>' +
             inline +
             thesis +
@@ -2621,7 +2687,8 @@
         const name = card.getAttribute('data-name') || 'Pundit';
         const nw = card.getAttribute('data-networth') || '';
         const src = card.getAttribute('data-networthsrc') || '';
-        showNetWorthModal(name, nw, src);
+        const pb64 = card.getAttribute('data-profile-b64') || '';
+        showNetWorthModal(name, nw, src, pb64);
         return;
       }
 
@@ -2647,11 +2714,91 @@
       return clean;
     }
 
-    function showNetWorthModal(name, netWorth, netWorthSrc) {
+    function decodePunditProfileB64(b64) {
+      if (!b64 || typeof b64 !== 'string') return null;
+      try {
+        const json = decodeURIComponent(escape(atob(b64)));
+        const o = JSON.parse(json);
+        return (o && typeof o === 'object') ? o : null;
+      } catch (err) {
+        return null;
+      }
+    }
+
+    function escapeHtmlText(s) {
+      if (s === null || s === undefined) return '';
+      const d = document.createElement('div');
+      d.textContent = String(s);
+      return d.innerHTML;
+    }
+
+    function renderPunditProfileHtml(profile) {
+      if (!profile) return '';
+      const derived = profile.derived && typeof profile.derived === 'object' ? profile.derived : {};
+      const labels = {
+        current_role: 'Current role',
+        former_positions: 'Former positions',
+        boards: 'Boards & memberships',
+        education: 'Education',
+        political_affiliation: 'Political affiliation',
+        political_summary: 'Political (summary)',
+        books_or_works: 'Books & notable works',
+        teaching_summary: 'Teaching & academia'
+      };
+      let dlParts = [];
+      Object.keys(labels).forEach(function (key) {
+        const v = derived[key];
+        if (v && String(v).trim()) {
+          dlParts.push('<dt>' + escapeHtmlText(labels[key]) + '</dt><dd>' + escapeHtmlText(String(v)) + '</dd>');
+        }
+      });
+      let html = '';
+      if (profile.source_url) {
+        html += '<a class="grokipedia-link" href="' + escapeHtmlText(profile.source_url) + '" target="_blank" rel="noopener noreferrer">Read full article on Grokipedia →</a>';
+        html += '<p style="color:#8892b0;font-size:0.78rem;margin:0.35rem 0 0;">Micro-biography below is excerpted from Grokipedia. Net worth above may use Wikidata/Brave separately.</p>';
+      } else if (profile.source === 'llm') {
+        html += '<p style="color:#8892b0;font-size:0.78rem;margin:0 0 0.35rem;">Structured profile from an LLM using public biographical knowledge — verify important facts at primary sources. Net worth above may use Wikidata/Brave separately.</p>';
+        if (profile.source_model) {
+          html += '<p style="color:#6b7280;font-size:0.72rem;margin:0 0 0.35rem;">Source: ' + escapeHtmlText(String(profile.source_model)) + '</p>';
+        }
+      }
+      if (dlParts.length) {
+        html += '<h4>At a glance</h4><dl class="profile-dl">' + dlParts.join('') + '</dl>';
+      }
+      const cliff = (profile.cliff_notes || '').trim();
+      if (cliff) {
+        html += '<h4>Cliff notes</h4><div class="cliff-notes">' + escapeHtmlText(cliff) + '</div>';
+      }
+      const sections = Array.isArray(profile.sections) ? profile.sections : [];
+      if (sections.length) {
+        html += '<h4>Topic highlights</h4>';
+        sections.forEach(function (sec) {
+          const h = (sec && sec.heading) ? String(sec.heading) : '';
+          const b = (sec && sec.body) ? String(sec.body) : '';
+          if (!h && !b) return;
+          html += '<div class="section-block"><div class="sec-title">' + escapeHtmlText(h) + '</div><div class="sec-body">' + escapeHtmlText(b) + '</div></div>';
+        });
+      }
+      const box = profile.infobox && typeof profile.infobox === 'object' ? profile.infobox : null;
+      if (box) {
+        const keys = Object.keys(box).slice(0, 14);
+        if (keys.length) {
+          html += '<h4>' + (profile.source === 'llm' ? 'Extra facts' : 'Infobox (Grokipedia)') + '</h4><dl class="profile-dl">';
+          keys.forEach(function (k) {
+            html += '<dt>' + escapeHtmlText(k) + '</dt><dd>' + escapeHtmlText(String(box[k])) + '</dd>';
+          });
+          html += '</dl>';
+        }
+      }
+      return html;
+    }
+
+    function showNetWorthModal(name, netWorth, netWorthSrc, profileB64) {
       const modal = document.getElementById('netWorthModal');
       const title = document.getElementById('netWorthTitle');
       const value = document.getElementById('netWorthValue');
       const sub = document.getElementById('netWorthSub');
+      const profEl = document.getElementById('netWorthProfile');
       if (!modal || !title || !value || !sub) return;
 
       title.textContent = name + ' — Net Worth';
@@ -2662,7 +2809,19 @@
         sub.textContent = netWorthSrc ? ('Source: ' + netWorthSrc) : 'Source: (not recorded)';
       } else {
         value.textContent = '—';
-        sub.textContent = 'Net worth not yet sourced. Enable Grokopedia enrichment to populate this field.';
+        sub.textContent = 'Net worth not yet sourced. Run pipeline enrich (Wikidata / Brave).';
+      }
+
+      if (profEl) {
+        const p = decodePunditProfileB64(profileB64 || '');
+        const inner = renderPunditProfileHtml(p);
+        if (inner) {
+          profEl.innerHTML = inner;
+          profEl.style.display = 'block';
+        } else {
+          profEl.innerHTML = '';
+          profEl.style.display = 'none';
+        }
       }
 
       modal.classList.add('active');

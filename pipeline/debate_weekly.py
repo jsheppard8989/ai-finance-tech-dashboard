@@ -5,7 +5,7 @@ Weekly debate orchestrator — The Long and Short of It
 Runs each Friday (cron): archives last week → LLM new Yes/No contract from DB context
 → LLM debater speeches → rotates pundit pair → ElevenLabs audio → writes public JSON.
 
-No hardcoded weekly topic; contract + arguments come from the model + live Overton/insights.
+No hardcoded weekly topic; contract uses Overton/insights + live Polymarket Gamma themes (filtered, volume-weighted) + anti-repeat rules; speeches use full pundit profiles from `pundits.json`.
 
 Usage:
   python3 debate_weekly.py              # full run if new week (America/Chicago Friday)
@@ -49,6 +49,11 @@ EXCLUDE_PUNDITS = frozenset(
 )
 
 sys.path.insert(0, str(PIPELINE))
+
+try:
+    from polymarket_debate_context import fetch_polymarket_debate_context
+except ImportError:
+    fetch_polymarket_debate_context = None  # type: ignore
 
 
 def load_env() -> None:
@@ -205,23 +210,58 @@ def llm_chat_json(client_kind: str, client: Any, system: str, user: str) -> Dict
     return json.loads(raw)
 
 
+def _banned_numeric_anchors(avoid_prompts: List[str]) -> str:
+    """Surface numbers from prior contracts so the model avoids repeating the same thresholds (e.g. 50k twice)."""
+    found: set = set()
+    for p in avoid_prompts:
+        if not p:
+            continue
+        for m in re.finditer(r"\b\d{1,3}(?:,\d{3})+(?:\.\d+)?\b|\b\d{4,}\b|\b\d+\.\d+\b", p):
+            found.add(m.group(0).strip())
+    if not found:
+        return ""
+    sample = sorted(found, key=len, reverse=True)[:24]
+    return (
+        "Banned numeric anchors from prior contracts (do NOT reuse these exact figures or the same "
+        "round-number pattern on a different topic — e.g. if last week used 50,000 layoffs, do not use "
+        "$50,000 BTC or any other 50,000 this week):\n"
+        + ", ".join(sample)
+    )
+
+
 def generate_contract(
-    client_kind: str, client: Any, overton: List[str], insights: List[str], avoid_prompts: List[str]
+    client_kind: str,
+    client: Any,
+    overton: List[str],
+    insights: List[str],
+    avoid_prompts: List[str],
+    polymarket_context: str = "",
 ) -> Dict[str, Any]:
     system = """You are the editorial brain for a weekly investor debate show.
 Return ONLY valid JSON with keys:
-  "prompt": string — one clear Yes/No question, falsifiable within ~42 days, no single-stock tickers (no AAPL, NVDA, etc.); themes like AI, rates, labor, policy, indices OK.
-  "expires_rule": string — human-readable e.g. "Resolves Friday 12:00 PM CST YYYY-MM-DD" (pick date = contract Friday + 42 days).
+  "prompt": string — one clear Yes/No question, falsifiable within ~42 days, no single-stock tickers (no AAPL, NVDA, etc.); themes like AI, rates, labor, policy, indices, macro, crypto (as themes) OK.
+  "expires_rule": string — human-readable e.g. "Resolves Friday 12:00 PM CST YYYY-MM-DD" (pick date = contract Friday + 42 days). Use the CURRENT calendar year from context.
   "crux_theme": short label for the substance (e.g. "AI labor", "rates path").
-  "resolution_clarity": { "source_of_truth": string, "resolution_sources": [string], "resolution_criteria": [string] } — brief, practical."""
+  "resolution_clarity": { "source_of_truth": string, "resolution_sources": [string], "resolution_criteria": [string] } — concrete enough to settle the bet (feeds, agencies, official data), not vague.
 
-    avoid = "\n".join(f"- {p[:200]}" for p in avoid_prompts[-5:]) or "(none yet)"
+Anti-stale rules:
+- Each week must feel NEW: different theme AND different numeric thresholds than recent weeks unless unavoidable.
+- Prefer specific resolution metrics (what data source, what counts as Yes) inspired by prediction-market style clarity, but write an ORIGINAL question — do not copy Polymarket wording.
+- Avoid lazy round-number reuse (e.g. repeating "50,000" across unrelated topics)."""
+
+    avoid_tail = avoid_prompts[-15:] if avoid_prompts else []
+    avoid = "\n".join(f"- {p[:400]}" for p in avoid_tail) or "(none yet)"
+    banned_nums = _banned_numeric_anchors(avoid_tail)
     ctx = f"Overton-style terms:\n{', '.join(overton) or '(none)'}\n\nRecent insight titles:\n" + "\n".join(
         f"- {t}" for t in insights
     ) or "- (none)"
+    poly = (polymarket_context or "").strip() or "(Polymarket context not loaded.)"
+    banned_block = f"\n\n{banned_nums}\n" if banned_nums else "\n"
     user = f"""{ctx}
 
-Avoid repeating these past prompts:
+{poly}
+{banned_block}
+Avoid repeating or lightly paraphrasing these past prompts (full text matters — stay distinct):
 {avoid}
 
 Produce ONE fresh contract JSON. The question must be specific enough to argue yes/no on substance, not philosophy."""
@@ -243,8 +283,8 @@ def generate_speeches(
     crux: str,
     name_yes: str,
     name_no: str,
-    voice_yes: str = "",
-    voice_no: str = "",
+    context_yes: str = "",
+    context_no: str = "",
 ) -> Tuple[str, str]:
     system = """Return ONLY valid JSON:
   "yes_speech": string — plain text for text-to-speech. Speaker is arguing YES on the contract.
@@ -257,6 +297,7 @@ Rules:
 - Three substantive paragraphs (or sections) plus a short "Concession." paragraph.
 - Argue the CRUX of the issue (e.g. real economic force vs narrative). Do NOT nitpick the contract wording or hide behind legal parsing.
 - Do NOT repeat or quote the full Yes/No question; the listener already heard it from the host.
+- Each speaker's argument should reflect their real background and rhetorical style as described in their profile — without caricature.
 - No stage directions, no markdown."""
 
     user = f"""Contract question (for your reasoning only — do not read it back verbatim in the speeches):
@@ -264,10 +305,11 @@ Rules:
 
 Crux theme: {crux or "general"}
 
-YES speaker display name: {name_yes}
-NO speaker display name: {name_no}
-YES speaker style notes: {voice_yes or "(none)"}
-NO speaker style notes: {voice_no or "(none)"}
+--- YES speaker ({name_yes}) — use background and voice to shape the argument ---
+{context_yes or "(minimal profile)"}
+
+--- NO speaker ({name_no}) — use background and voice to shape the argument ---
+{context_no or "(minimal profile)"}
 
 Write yes_speech and no_speech."""
 
@@ -289,18 +331,62 @@ def build_host_script(prompt: str, name_a: str, name_b: str) -> str:
     )
 
 
-def _voice_profile_line(p: Dict[str, Any]) -> str:
-    tone = (p.get("voice_tone") or "").strip()
-    style = (p.get("voice_style") or "").strip()
-    notes = (p.get("voice_delivery_notes") or "").strip()
-    parts = []
-    if tone:
-        parts.append(f"tone={tone}")
-    if style:
-        parts.append(f"style={style}")
-    if notes:
-        parts.append(f"delivery={notes}")
-    return "; ".join(parts)
+def _debater_llm_context(p: Dict[str, Any]) -> str:
+    """
+    Everything we have on a pundit for speech generation: identity, bio, voice notes,
+    recent thesis, optional structured profile (from Grokipedia or LLM enrichment).
+    """
+    lines: List[str] = []
+    name = (p.get("name") or "").strip() or "Debater"
+    lines.append(f"Speaker display name: {name}")
+    if (p.get("known_for") or "").strip():
+        lines.append(f"Known for: {(p.get('known_for') or '').strip()}")
+    if (p.get("bio") or "").strip():
+        lines.append(f"Bio: {(p.get('bio') or '').strip()[:1400]}")
+    vp: List[str] = []
+    if (p.get("voice_tone") or "").strip():
+        vp.append(f"Tone: {(p.get('voice_tone') or '').strip()}")
+    if (p.get("voice_style") or "").strip():
+        vp.append(f"Speaking style: {(p.get('voice_style') or '').strip()}")
+    if (p.get("voice_delivery_notes") or "").strip():
+        vp.append(f"TTS / delivery: {(p.get('voice_delivery_notes') or '').strip()}")
+    if vp:
+        lines.append("Voice and debate delivery (honor these in word choice and rhythm):\n" + "\n".join(vp))
+    if (p.get("last_main_idea") or "").strip():
+        lines.append(
+            f"Recent thesis on our dashboard (their last appearance): {(p.get('last_main_idea') or '').strip()[:700]}"
+        )
+    if (p.get("last_episode_title") or "").strip():
+        ep = (p.get("last_podcast_name") or "").strip()
+        dt = (p.get("last_episode_date") or "").strip()
+        lines.append(
+            f"Last episode context: {(p.get('last_episode_title') or '').strip()}"
+            + (f" — {ep}" if ep else "")
+            + (f" ({dt})" if dt else "")
+        )
+    prof = p.get("pundit_profile")
+    if isinstance(prof, dict):
+        der = prof.get("derived") if isinstance(prof.get("derived"), dict) else {}
+        bits: List[str] = []
+        for key in (
+            "current_role",
+            "former_positions",
+            "boards",
+            "education",
+            "political_affiliation",
+            "political_summary",
+            "books_or_works",
+            "teaching_summary",
+        ):
+            v = der.get(key) if isinstance(der, dict) else None
+            if v and str(v).strip():
+                bits.append(f"{key}: {str(v).strip()[:450]}")
+        if bits:
+            lines.append("Structured background:\n" + "\n".join(bits))
+        cliff = (prof.get("cliff_notes") or "").strip()
+        if cliff:
+            lines.append(f"Expanded background (excerpt): {cliff[:1100]}")
+    return "\n\n".join(lines) if lines else f"Speaker: {name} (no extended profile yet)."
 
 
 def archive_current_week(history: Dict[str, Any], prev_contract: Optional[Dict]) -> None:
@@ -521,18 +607,29 @@ def main() -> int:
     kind, client = ai
 
     overton, insights = load_context_from_db()
-    avoid = [w.get("prompt", "") for w in history.get("weeks", [])]
+    avoid = [w.get("prompt", "") for w in history.get("weeks", []) if w.get("prompt")]
     if prev and prev.get("prompt"):
         avoid.append(prev["prompt"])
+
+    poly = ""
+    if fetch_polymarket_debate_context:
+        try:
+            poly = fetch_polymarket_debate_context()
+        except Exception as e:
+            poly = f"(Polymarket context failed: {type(e).__name__}: {e})"
+    else:
+        poly = "(Polymarket module not available.)"
 
     if args.dry_run:
         print(f"Friday (CST): {friday}")
         print(f"Context terms: {overton[:5]}...")
-        c = generate_contract(kind, client, overton, insights, avoid)
+        c = generate_contract(kind, client, overton, insights, avoid, polymarket_context=poly)
         print(json.dumps(c, indent=2))
         return 0
 
-    contract_core = generate_contract(kind, client, overton, insights, avoid)
+    contract_core = generate_contract(
+        kind, client, overton, insights, avoid, polymarket_context=poly
+    )
     rotation = history["rotation_index"]
     pundits = load_pundits()
     p_a, p_b = pick_debaters(pundits, rotation)
@@ -546,8 +643,8 @@ def main() -> int:
         contract_core.get("crux_theme") or "",
         name_a,
         name_b,
-        _voice_profile_line(p_a),
-        _voice_profile_line(p_b),
+        _debater_llm_context(p_a),
+        _debater_llm_context(p_b),
     )
     validate_speeches(yes_speech, no_speech, name_a, name_b)
     host_s = build_host_script(contract_core["prompt"], name_a, name_b)

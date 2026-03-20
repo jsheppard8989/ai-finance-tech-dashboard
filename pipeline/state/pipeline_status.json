@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-19T16:24:38.961704",
+  "last_updated": "2026-03-19T22:24:57.866826",
   "episodes": {
     "moonshots_with_peter_diamandis_meta_buys_moltbook,_gpt_5.4,_a": {
       "info": {
@@ -9,6 +9,47 @@
         "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/moonshots_with_peter_diamandis_meta_buys_moltbook__gpt_5_4__and_fruitfly_brain_upload___moo_609f0b8d.mp3",
         "keywords": [],
         "rss_guid": "e1cac66e-2231-11f1-82c3-c7e649c4b364"
+      },
+      "stages": {
+        "downloaded": {
+          "complete": true,
+          "timestamp": null,
+          "reason": null
+        },
+        "transcribed": {
+          "complete": true,
+          "file": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/moonshots_with_peter_diamandis_meta_buys_moltbook__gpt_5_4__and_fruitfly_brain_upload___moo_609f0b8d.txt",
+          "timestamp": null,
+          "reason": null
+        },
+        "analyzed": {
+          "complete": false,
+          "episode_id": null,
+          "timestamp": null,
+          "reason": "Waiting for next analyze run (transcript \u2192 DB)."
+        },
+        "insight_created": {
+          "complete": false,
+          "timestamp": null,
+          "reason": "Depends on analyze step first."
+        },
+        "published": {
+          "complete": false,
+          "timestamp": null,
+          "reason": "Not in data.js yet (run export and push to site)."
+        }
+      },
+      "first_seen": "2026-03-19T22:24:57.763955",
+      "status": "needs_analysis"
+    },
+    "monetary_matters_with_jack_farley_\u201cthis_is_the_end_of_the_oil_ma": {
+      "info": {
+        "podcast": "Monetary Matters with Jack Farley",
+        "title": "\u201cThis Is The End of The Oil Market As We Know It\u201d | Rory Johnston on How $300 Oil Could Trigger Depression If De-Escalation Does Not Occur In Iran War",
+        "published": "Thu, 19 Mar 2026 19:50:00 -0000",
+        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/monetary_matters_with_jack_farley__this_is_the_end_of_the_oil_market_as_we_know_it____rory_joh_c58dc548.mp3",
+        "keywords": [],
+        "rss_guid": "e50ec482-23cc-11f1-a0f2-b7965cafb38b"
       },
       "stages": {
         "downloaded": {
@@ -39,7 +80,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-19T16:24:38.856821",
+      "first_seen": "2026-03-19T22:24:57.775548",
       "status": "needs_transcription"
     },
     "monetary_matters_with_jack_farley_stock_market_on_shaky_foundati": {
@@ -58,10 +99,10 @@
           "reason": null
         },
         "transcribed": {
-          "complete": false,
-          "file": null,
+          "complete": true,
+          "file": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/monetary_matters_with_jack_farley_stock_market_on_shaky_foundations___blind_squirrel_macro_s_r_12c3cce4.txt",
           "timestamp": null,
-          "reason": "Waiting for fetch/transcribe step"
+          "reason": null
         },
         "analyzed": {
           "complete": false,
@@ -80,8 +121,8 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-19T16:24:38.880254",
-      "status": "needs_transcription"
+      "first_seen": "2026-03-19T22:24:57.797014",
+      "status": "needs_analysis"
     },
     "the_a16z_show_ai_just_gave_you_superpowers_\u2014": {
       "info": {
@@ -99,10 +140,10 @@
           "reason": null
         },
         "transcribed": {
-          "complete": false,
-          "file": null,
+          "complete": true,
+          "file": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/the_a16z_show_ai_just_gave_you_superpowers___now_what__ccf57061.txt",
           "timestamp": null,
-          "reason": "Waiting for fetch/transcribe step"
+          "reason": null
         },
         "analyzed": {
           "complete": false,
@@ -121,8 +162,8 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-19T16:24:38.897857",
-      "status": "needs_transcription"
+      "first_seen": "2026-03-19T22:24:57.812214",
+      "status": "needs_analysis"
     },
     "the_a16z_show_chris_dixon:_from_quant_tradin": {
       "info": {
@@ -140,10 +181,10 @@
           "reason": null
         },
         "transcribed": {
-          "complete": false,
-          "file": null,
+          "complete": true,
+          "file": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/the_a16z_show_chris_dixon__from_quant_trading_to_building_a16z_crypto_be2e5b4b.txt",
           "timestamp": null,
-          "reason": "Waiting for fetch/transcribe step"
+          "reason": null
         },
         "analyzed": {
           "complete": false,
@@ -162,15 +203,15 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-19T16:24:38.914858",
-      "status": "needs_transcription"
+      "first_seen": "2026-03-19T22:24:57.820689",
+      "status": "needs_analysis"
     },
     "all-in_with_chamath,_jason,_sacks_&_friedberg_jensen_huang_live:_nvidia's_fu": {
       "info": {
         "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
         "title": "Jensen Huang LIVE: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
-        "published": "Thu, 19 Mar 2026 18:05:00 +0000",
-        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/all_in_with_chamath__jason__sacks___frie_jensen_huang_live__nvidia_s_future__physical_ai__rise_of_the_03b9c382.mp3",
+        "published": "Thu, 19 Mar 2026 20:42:00 +0000",
+        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/all_in_with_chamath__jason__sacks___frie_jensen_huang_live__nvidia_s_future__physical_ai__rise_of_the_a8a06099.mp3",
         "keywords": [],
         "rss_guid": "b9112fca-9ebf-47e8-a8a1-9bcbcf39cf84"
       },
@@ -203,17 +244,17 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-19T16:24:38.930344",
+      "first_seen": "2026-03-19T22:24:57.833148",
       "status": "needs_transcription"
     },
-    "dwarkesh_podcast_why_leonardo_was_a_saboteur,_g": {
+    "macro_voices_macrovoices_#524_simon_white:_": {
       "info": {
-        "podcast": "Dwarkesh Podcast",
-        "title": "Why Leonardo was a saboteur, Gutenberg went broke, and Florence was weird \u2013 Ada Palmer",
-        "published": "Fri, 06 Mar 2026 17:14:20 GMT",
-        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/dwarkesh_podcast_why_leonardo_was_a_saboteur__gutenberg_went_broke__and_flore_d121fb5b.mp3",
+        "podcast": "Macro Voices",
+        "title": "MacroVoices #524 Simon White: War + Inflation = More Inflation",
+        "published": "Thu, 19 Mar 2026 14:08:42 -0500",
+        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/macro_voices_macrovoices__524_simon_white__war___inflation___more_inflati_97ebbf1c.mp3",
         "keywords": [],
-        "rss_guid": "substack:post:190118311"
+        "rss_guid": "macrovoices.podbean.com/50fdd645-b02f-394a-b564-556f8054273e"
       },
       "stages": {
         "downloaded": {
@@ -244,8 +285,49 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-19T16:24:38.945398",
+      "first_seen": "2026-03-19T22:24:57.846009",
       "status": "needs_transcription"
+    },
+    "dwarkesh_podcast_why_leonardo_was_a_saboteur,_g": {
+      "info": {
+        "podcast": "Dwarkesh Podcast",
+        "title": "Why Leonardo was a saboteur, Gutenberg went broke, and Florence was weird \u2013 Ada Palmer",
+        "published": "Fri, 06 Mar 2026 17:14:20 GMT",
+        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/dwarkesh_podcast_why_leonardo_was_a_saboteur__gutenberg_went_broke__and_flore_d121fb5b.mp3",
+        "keywords": [],
+        "rss_guid": "substack:post:190118311"
+      },
+      "stages": {
+        "downloaded": {
+          "complete": true,
+          "timestamp": null,
+          "reason": null
+        },
+        "transcribed": {
+          "complete": true,
+          "file": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/dwarkesh_podcast_why_leonardo_was_a_saboteur__gutenberg_went_broke__and_flore_d121fb5b.txt",
+          "timestamp": null,
+          "reason": null
+        },
+        "analyzed": {
+          "complete": false,
+          "episode_id": null,
+          "timestamp": null,
+          "reason": "Waiting for next analyze run (transcript \u2192 DB)."
+        },
+        "insight_created": {
+          "complete": false,
+          "timestamp": null,
+          "reason": "Depends on analyze step first."
+        },
+        "published": {
+          "complete": false,
+          "timestamp": null,
+          "reason": "Not in data.js yet (run export and push to site)."
+        }
+      },
+      "first_seen": "2026-03-19T22:24:57.860979",
+      "status": "needs_analysis"
     }
   }
 }

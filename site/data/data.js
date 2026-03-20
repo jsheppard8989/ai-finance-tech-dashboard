@@ -3,7 +3,7 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-03-19T16:24:41.168406",
+  generatedAt: "2026-03-19T22:25:00.523595",
   chartsVersion: "2026-03-19T04:23:16.765044",
   tickerScores: [
   {
@@ -1727,6 +1727,130 @@ const dashboardData = {
       "podcast_episode_id": 68
     },
     {
+      "id": 96,
+      "title": "Genomic Screening and Ethical Considerations",
+      "source_type": "podcast",
+      "source_name": "Network State Podcast",
+      "source_date": "2026-02-19",
+      "summary": "The podcast episode delves into the technology and ethical considerations surrounding orchard, a genomic screening process for embryos. The discussion highlights the ability of this technology to screen for thousands of diseases at the earliest possible stage, allowing parents to make informed decisions. The episode also touches on the moral implications of such technology, linking it to broader societal beliefs about body autonomy and personal choice. The conversation further explores the potential reduction in disease risks and the implications for different ethnic populations, particularly South Asians, who face higher rates of certain conditions.",
+      "key_takeaway": "Investment in genomic screening technology presents an opportunity to mitigate genetic diseases, with potential for significant ethical and societal impact.",
+      "tickers_mentioned": [
+        "AAPL",
+        "NVDA",
+        "TSLA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 0,
+      "display_order": 0,
+      "added_date": "2026-03-19",
+      "archived_date": "2026-03-20",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
+      "podcast_episode_id": 87
+    },
+    {
+      "id": 97,
+      "title": "Japan AI and the Next Liquidity Shock: Why Bitcoin's Weakness is an Early Warning",
+      "source_type": "podcast",
+      "source_name": "The Jack Mallers Show",
+      "source_date": "2026-02-19",
+      "summary": "In this episode, host Jack Mallers discusses the current state of the Bitcoin market, highlighting its price and market cap. He emphasizes Bitcoin's sensitivity to liquidity conditions, positing it as a leading indicator for market trends. Mallers also delves into the macroeconomic implications of developments in Japan and the rise of AI, suggesting these could lead to significant unemployment and economic upheaval. He argues for Bitcoin's role in a future where AI reduces the need for mundane white-collar labor, empowering individuals to focus on creative expression.",
+      "key_takeaway": "Bitcoin serves as an early warning system for liquidity conditions and economic shifts, with potential to empower individuals in an AI-driven future.",
+      "tickers_mentioned": [
+        "AAPL",
+        "NVDA",
+        "SPY",
+        "TSLA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 0,
+      "display_order": 0,
+      "added_date": "2026-03-19",
+      "archived_date": "2026-03-20",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
+      "podcast_episode_id": 85
+    },
+    {
+      "id": 98,
+      "title": "AI Disruption and the Future of Society",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-02-19",
+      "summary": "In this episode of 'Moonshots with Peter Diamandis', the discussion revolves around the rapid advancements in AI technology and its potential impact on society and the economy. The guests delve into the concept of recursive self-improvement in AI, its implications for the singularity, and the societal changes that may accompany these technological leaps. They also touch upon the potential for AI to revolutionize industries, the concentration of wealth, and the importance of entrepreneurship in the future landscape.",
+      "key_takeaway": "Investing in AI technology and companies that are at the forefront of AI development could yield significant returns as these technologies become more integrated into society and drive economic growth.",
+      "tickers_mentioned": [
+        "OPEN AI",
+        "MCCOR"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 0,
+      "display_order": 0,
+      "added_date": "2026-03-19",
+      "archived_date": "2026-03-20",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
+      "podcast_episode_id": 82
+    },
+    {
+      "id": 99,
+      "title": "The Future of Technology and Investment in AI",
+      "source_type": "podcast",
+      "source_name": "Dwarkesh Podcast",
+      "source_date": "2026-02-19",
+      "summary": "In this episode of the Dwarkesh Podcast, the host discusses the exponential growth of technology, particularly in AI, and its impact on investment strategies. The guest highlights the lack of public recognition of the nearing end of the exponential growth phase in technology. They delve into the scaling hypothesis, emphasizing the importance of raw compute, data quantity and quality, training duration, and scalable objective functions. The conversation also touches on the economic implications of AI, suggesting that while the economy will grow faster with AI, it won't grow at the pace of compute advancements. The guest also discusses the importance of company culture and direct communication within a growing organization.",
+      "key_takeaway": "Investing in AI requires a deep understanding of the technology's exponential growth, the scaling laws governing its development, and the potential economic impact on global growth rates.",
+      "tickers_mentioned": [
+        "N/A"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 0,
+      "display_order": 0,
+      "added_date": "2026-03-19",
+      "archived_date": "2026-03-20",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
+      "podcast_episode_id": 81
+    },
+    {
+      "id": 100,
+      "title": "Monetary Matters with Jack Farley: The US Dollar, Trade Deficits, and the Role of AI in Finance",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-02-19",
+      "summary": "In this episode of Monetary Matters, host Jack Farley interviews Nobel Prize-winning economist Paul Krugman. They discuss the US dollar's resilience despite chronic current account deficits, the role of the dollar in international finance, the concept of R-star and its recent movements, and the impact of tariffs on inflation. Krugman shares his insights on the complexities of the US balance of payments, the international role of the dollar, and the potential inflationary effects of tariffs.",
+      "key_takeaway": "The Picta AI Enhanced International Equity ETF (PQNT) uses AI to enhance international equity returns, suggesting a potential for outperformance through technology-driven investment strategies.",
+      "tickers_mentioned": [
+        "PQNT"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 0,
+      "display_order": 0,
+      "added_date": "2026-03-19",
+      "archived_date": "2026-03-20",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
+      "podcast_episode_id": 80
+    },
+    {
+      "id": 101,
+      "title": "Moonshots with Peter Diamandis: AI, Automation, and the Path to Abundance by 2035",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-02-19",
+      "summary": "In this episode of Moonshots with Peter Diamandis, the focus is on the rapid advancements in AI and automation, and their profound impact on jobs, economies, and the future of capitalism. The discussion also includes the unveiling of a paper titled 'Soled Everything,' which outlines a vision for achieving abundance by 2035. Key themes include the potential for AI CEOs, the disappearance of jobs due to automation, and the social contract being redefined. The conversation also touches on the acceleration of technological advancements and their implications for policy, civil unrest, and the future of work.",
+      "key_takeaway": "Invest in AI and automation technologies that are driving the transformation of industries and the creation of new economic opportunities, while also considering the social and policy implications of these changes.",
+      "tickers_mentioned": [
+        "AAPL",
+        "NVDA",
+        "GOOGL",
+        "MSFT",
+        "TSLA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-19",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 79
+    },
+    {
       "id": 17,
       "title": "Moonshots #231: 400x AI Cost Collapse & India's Talent Decade",
       "source_type": "podcast",
@@ -1784,12 +1908,63 @@ const dashboardData = {
         "TSLA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-16",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-20",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 70
+    },
+    {
+      "id": 102,
+      "title": "Humanoid Run on Neural Net, Autonomous Manufacturing, $50T Market #229",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-02-17",
+      "summary": "In this episode of 'Moonshots with Peter Diamandis', host Peter Diamandis interviews Brett Adcock, discussing advancements in robotics and AI, particularly focusing on neural networks and their impact on manufacturing and services. They delve into the rapid evolution of AI, the potential for a $50T market, and the shift from traditional coding to neural nets for robot learning and operation. The conversation also touches on the implications of robots building robots and the future of autonomous manufacturing.",
+      "key_takeaway": "Investing in AI and robotics companies that leverage neural networks for autonomous manufacturing could yield significant returns as this market is expected to become the largest economy globally.",
+      "tickers_mentioned": [],
+      "sentiment": "neutral",
+      "display_on_main": 0,
+      "display_order": 0,
+      "added_date": "2026-03-19",
+      "archived_date": "2026-03-20",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
+      "podcast_episode_id": 86
+    },
+    {
+      "id": 103,
+      "title": "The Future of Consumer Technology and the Post-Mobile Phone Era",
+      "source_type": "podcast",
+      "source_name": "a16z Live",
+      "source_date": "2026-02-15",
+      "summary": "In this episode of a16z Live, Meta CTO Andrew 'Boz' Bosworth discusses the future of consumer technology with A16z's David George. Boz shares his insights on the potential shift from an app-centric world to a new AI-enabled computing experience that is more agentic, adaptive, and immersive. The conversation covers the evolution of interfaces, the role of augmented reality glasses, and the impact of AI on the existing app model. Boz also touches on the challenges of building a developer ecosystem and the importance of aligning with consumer intent rather than app orchestration.",
+      "key_takeaway": "Invest in companies that are at the forefront of developing AI-enabled, immersive technologies that can redefine consumer interactions beyond the current app-centric model.",
+      "tickers_mentioned": [],
+      "sentiment": "neutral",
+      "display_on_main": 0,
+      "display_order": 0,
+      "added_date": "2026-03-19",
+      "archived_date": "2026-03-20",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
+      "podcast_episode_id": 84
+    },
+    {
+      "id": 104,
+      "title": "From Software to Hard Asset: Bitcoin and the New Liquidity Regime",
+      "source_type": "podcast",
+      "source_name": "The Jack Mallers Show",
+      "source_date": "2026-02-15",
+      "summary": "In this episode, host Jack Mallers discusses Bitcoin's recent price drop and its implications. He posits that Bitcoin, despite being the best money ever invented, has been treated like a software stock by the market. Mallers argues that the recent dip may be a pivotal moment for Bitcoin to transition from being perceived as a tech stock to a hard asset. He emphasizes Bitcoin's intrinsic value, its fixed supply, and its superiority over fiat and gold. Mallers also touches on broader macroeconomic factors influencing Bitcoin's price and suggests that the current market conditions might be signaling a bottom for Bitcoin, presenting a buying opportunity.",
+      "key_takeaway": "Bitcoin's recent dip may be a catalyst for it to stop trading like a tech stock and start trading like a hard asset, presenting an investment opportunity.",
+      "tickers_mentioned": [],
+      "sentiment": "bullish",
+      "display_on_main": 0,
+      "display_order": 0,
+      "added_date": "2026-03-19",
+      "archived_date": "2026-03-20",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
+      "podcast_episode_id": 83
     },
     {
       "id": 1,
@@ -2514,22 +2689,22 @@ const dashboardData = {
       ]
     },
     {
-      "id": 87,
-      "title": "The AI CEO Arrives: Sam Altman's Succession Plan, Job Loss Continues, and Our 2027 'Solve Everything' Paper",
+      "id": 101,
+      "title": "Moonshots with Peter Diamandis: AI, Automation, and the Path to Abundance by 2035",
       "source_type": "podcast",
       "source_name": "Moonshots with Peter Diamandis",
-      "source_date": "2026-02-17",
-      "summary": "In this episode of 'Moonshots with Peter Diamandis', the panel discusses the increasing role of AI in corporate governance and the potential for AI CEOs. They also touch on the rapid job displacement due to automation and the implications for the social contract. The second half of the episode is dedicated to unveiling a paper titled 'Solve Everything', which outlines a vision for achieving abundance by 2035. The discussion covers the acceleration of AI in business strategy and decision-making, suggesting that AI could soon be capable of running significant economic engines.",
-      "key_takeaway": "Invest in AI and automation technologies that are driving the shift towards AI governance and efficiency in business operations.",
+      "source_date": "2026-02-19",
+      "summary": "In this episode of Moonshots with Peter Diamandis, the focus is on the rapid advancements in AI and automation, and their profound impact on jobs, economies, and the future of capitalism. The discussion also includes the unveiling of a paper titled 'Soled Everything,' which outlines a vision for achieving abundance by 2035. Key themes include the potential for AI CEOs, the disappearance of jobs due to automation, and the social contract being redefined. The conversation also touches on the acceleration of technological advancements and their implications for policy, civil unrest, and the future of work.",
+      "key_takeaway": "Invest in AI and automation technologies that are driving the transformation of industries and the creation of new economic opportunities, while also considering the social and policy implications of these changes.",
       "tickers_mentioned": "[\"AAPL\", \"NVDA\", \"GOOGL\", \"MSFT\", \"TSLA\"]",
       "sentiment": "neutral",
       "display_on_main": 1,
       "display_order": 0,
-      "added_date": "2026-03-16",
+      "added_date": "2026-03-19",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 70,
-      "episode_release_date": "2026-02-17",
+      "podcast_episode_id": 79,
+      "episode_release_date": "2026-02-19",
       "guest_name": null,
       "key_tickers": []
     }
@@ -7322,6 +7497,421 @@ const dashboardData = {
     "source_name": "The a16z Show",
     "source_date": "2026-03-18",
     "key_tickers": []
+  },
+  "96": {
+    "id": 87,
+    "insight_id": 96,
+    "podcast_episode_id": 87,
+    "overview": "Orchard, a company specializing in embryo screening, is at the forefront of a technological revolution in genetic testing. By screening the entire genome of an embryo for thousands of diseases, Orchard is providing parents with unprecedented information at the earliest possible stage, allowing them to make informed decisions about their future children's health. This technology not only has significant medical implications but also raises ethical and societal questions. The investment thesis revolves around the potential for rapid growth in the genetic testing market, driven by technological advancements and increasing consumer demand for personalized healthcare solutions. The ethical considerations and societal impact of such technology are also crucial for investors to understand, as they could influence public perception and regulatory landscapes.",
+    "key_takeaways_detailed": [
+      "Orchard's technology allows for the screening of the entire genome of an embryo, providing detailed genetic information that was previously unavailable.",
+      "The ethical debate surrounding embryo screening is complex and varies based on individual and societal beliefs about the definition of human life and the right to genetic information.",
+      "Investors should consider the potential for regulatory changes that could impact the adoption and growth of embryo screening technologies.",
+      "The market for genetic testing is expected to grow as consumer awareness and demand for personalized healthcare solutions increase.",
+      "Investors should monitor public sentiment and ethical debates as they can significantly influence the adoption rate and market potential of such technologies."
+    ],
+    "investment_thesis": "The core investment logic is centered on the rapid advancement in genetic testing technologies and the increasing consumer demand for personalized healthcare. Orchard's ability to provide comprehensive genetic information at an early stage presents a significant value proposition for parents and healthcare providers. Catalysts for investment include technological breakthroughs, regulatory approvals, and shifts in public perception towards genetic testing. The timeframe for this investment thesis is medium to long-term, as the market for genetic testing is expected to grow steadily over the next 3-10 years, with potential for exponential growth if societal acceptance and regulatory environments become more favorable.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's investment in health technology and its focus on personal health data through devices like the Apple Watch make it relevant to the genetic testing space. Apple's potential to integrate such technologies into its ecosystem could drive demand for genetic testing services.",
+        "positioning": "Long-term strategic position, as Apple's foray into health tech is expected to be a gradual process with significant long-term potential.",
+        "risk": "Key risks include regulatory hurdles and potential pushback from privacy advocates."
+      },
+      "NVDA": {
+        "rationale": "NVIDIA's advanced AI and machine learning technologies are crucial for processing the vast amounts of data generated by genomic screening. NVIDIA's GPUs are used in genomic research and could benefit from the growth in genetic testing.",
+        "positioning": "Medium-term tactical position, as the immediate demand for processing power in genetic testing is high, but subject to rapid changes in technology.",
+        "risk": "The risk lies in the rapid evolution of AI technology and potential competition from other chip manufacturers."
+      },
+      "TSLA": {
+        "rationale": "While Tesla is not directly involved in genetic testing, its focus on innovation and technology could position it to explore or invest in health tech in the future, given its CEO's history of\u8de8\u754c\u6295\u8d44.",
+        "positioning": "Speculative long-term position, as any involvement in genetic testing would be a significant departure from current business operations.",
+        "risk": "The risk is high due to the speculative nature of Tesla's potential involvement in the genetic testing space."
+      }
+    },
+    "positioning_guidance": "Investors should consider a diversified approach to portfolio positioning in the genetic testing space. Allocations should be made based on the expected growth trajectory and risk tolerance. Entry points should be strategic, with a focus on companies that have established positions in the market or show strong potential for innovation. Timeframes for investments should align with the expected growth of the market, with a medium to long-term outlook. Hedges may be considered against potential regulatory risks or technological disruptions.",
+    "risk_factors": [
+      "Regulatory changes that could limit or restrict the use of genetic testing technologies.",
+      "Ethical debates that could influence public perception and acceptance of genetic testing, affecting market demand.",
+      "Technological disruptions that could render current genetic testing methods obsolete.",
+      "Competition from new entrants in the genetic testing market that could disrupt existing business models.",
+      "Potential data privacy concerns that could arise from the handling and storage of sensitive genetic information."
+    ],
+    "contrarian_signals": [
+      "The potential for overregulation that could stifle innovation in the genetic testing space.",
+      "The possibility that genetic testing may not be as widely adopted as expected due to cost or accessibility issues.",
+      "The risk that advances in other areas of healthcare, such as gene editing, could overshadow the importance of genetic testing.",
+      "The potential for societal backlash against genetic testing due to concerns about 'designer babies' or eugenics."
+    ],
+    "catalysts": [
+      "Upcoming clinical trials and studies that demonstrate the efficacy and safety of genetic testing technologies.",
+      "Regulatory approvals for new genetic testing methods or expanded uses of existing technologies.",
+      "Partnerships between genetic testing companies and healthcare providers that could accelerate adoption.",
+      "Advancements in AI and machine learning that enhance the capabilities of genetic testing.",
+      "Public awareness campaigns that educate consumers about the benefits of genetic testing and contribute to a more favorable societal view."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-03-19T22:20:10.107506",
+    "updated_at": "2026-03-20 03:20:10",
+    "insight_title": "Genomic Screening and Ethical Considerations",
+    "source_name": "Network State Podcast",
+    "source_date": "2026-02-19",
+    "key_tickers": []
+  },
+  "97": {
+    "id": 88,
+    "insight_id": 97,
+    "podcast_episode_id": 85,
+    "overview": "The investment thesis revolves around the convergence of three major factors: sovereign debt, AI deflation, and tight liquidity, which are creating a perfect storm that could lead to a liquidity shock. Bitcoin's recent weakness is seen as an early warning signal of these impending economic challenges. With Japan's high debt-to-GDP ratio and the rapid advancement of AI technologies displacing white-collar jobs in the US, the stage is set for a significant market disruption. This analysis is particularly pertinent now as global uncertainty is at an all-time high, surpassing even the peaks seen during the COVID-19 pandemic and other historical crises.",
+    "key_takeaways_detailed": [
+      "Bitcoin's price movements are indicative of broader market liquidity, serving as a leading indicator of economic stress.",
+      "Japan's high sovereign debt, coupled with advancements in AI, could exacerbate global economic instability.",
+      "Investors should monitor the debt-to-GDP ratios of major economies and the impact of AI on the job market.",
+      "Prepare for a potential liquidity crunch by diversifying investments and considering assets that may act as hedges against economic downturns.",
+      "Stay vigilant on central bank policies, particularly the Federal Reserve's approach to interest rates and balance sheet management."
+    ],
+    "investment_thesis": "The core investment logic is that the intersection of high sovereign debt, particularly in Japan, the deflationary impact of AI on the job market, and tight liquidity conditions will lead to a liquidity shock. This shock could manifest in a crisis, which Bitcoin is signaling through its price weakness. The catalysts for this thesis include escalating global uncertainty, the Federal Reserve's monetary policy, and the rate of AI adoption. The timeframe for this thesis is medium to long-term, as these macroeconomic trends play out over quarters and years.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple is a bellwether for consumer technology and is heavily invested in AI development. Its performance can reflect the broader impact of AI on the economy.",
+        "positioning": "Position long on AAPL as a strategic play on the continued advancement of AI, but be prepared to take a short-term tactical position if economic indicators worsen.",
+        "risk": "Key risks include a slowdown in consumer spending due to economic uncertainty and potential disruptions in the global supply chain."
+      },
+      "NVDA": {
+        "rationale": "Nvidia is a leader in AI technology and GPU manufacturing, which are critical for AI advancements. Its performance can indicate the pace of AI adoption.",
+        "positioning": "Consider a long position in NVDA for investors with a medium to long-term horizon, as AI technology is expected to grow despite economic headwinds.",
+        "risk": "The risk lies in the potential for reduced demand for AI services and products in the event of an economic downturn."
+      },
+      "SPY": {
+        "rationale": "The S&P 500 ETF represents a broad swath of the US market and can serve as a proxy for market sentiment and liquidity conditions.",
+        "positioning": "Maintain a balanced position in SPY, with the flexibility to adjust based on changes in liquidity and economic indicators.",
+        "risk": "Risks include a broad market sell-off due to liquidity crunch and economic downturn."
+      },
+      "TSLA": {
+        "rationale": "Tesla is at the forefront of AI and automation in the automotive industry, making it a key player in the AI-driven economy.",
+        "positioning": "A long position in TSLA could be strategic for investors bullish on AI and its impact on specific industries.",
+        "risk": "The risk is that Tesla's valuation may be sensitive to changes in economic conditions and consumer spending."
+      }
+    },
+    "positioning_guidance": "Investors should maintain a diversified portfolio with a mix of long and short positions to hedge against potential economic downturns. Consider allocating a portion of the portfolio to assets that are less sensitive to liquidity shocks, such as certain commodities or defensive stocks. Entry points should be based on economic indicators and market sentiment, with an eye on central bank policies and global debt levels. Timeframes for positions should align with the expected duration of the economic trends outlined in the thesis.",
+    "risk_factors": [
+      "A sudden change in Federal Reserve policy could alter liquidity conditions.",
+      "Unexpected advancements in AI could accelerate job displacement and economic disruption.",
+      "Geopolitical tensions, particularly with Japan and China, could exacerbate global economic instability.",
+      "A rapid increase in global debt levels could lead to a sovereign debt crisis.",
+      "A failure of AI to deliver on productivity gains could lead to a slowdown in technological advancement and economic growth."
+    ],
+    "contrarian_signals": [
+      "Despite high global uncertainty, there may be sectors of the economy that continue to grow, such as renewable energy and healthcare.",
+      "The potential for AI to create new jobs and industries that could offset job losses in traditional sectors.",
+      "The possibility of a coordinated global response to economic challenges, which could mitigate the impact of a liquidity shock."
+    ],
+    "catalysts": [
+      "Federal Reserve's next policy meeting and any changes to interest rates or balance sheet.",
+      "Economic data releases, such as employment figures and GDP growth, which can indicate the health of the economy.",
+      "Advancements in AI technology and their impact on productivity and the job market.",
+      "Geopolitical events, such as trade agreements or conflicts, which can influence global economic stability.",
+      "Any significant shifts in global debt levels or sovereign debt crises, particularly in Japan and the US."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-03-19T22:21:01.516525",
+    "updated_at": "2026-03-20 03:21:01",
+    "insight_title": "Japan AI and the Next Liquidity Shock: Why Bitcoin's Weakness is an Early Warning",
+    "source_name": "The Jack Mallers Show",
+    "source_date": "2026-02-19",
+    "key_tickers": []
+  },
+  "98": {
+    "id": 89,
+    "insight_id": 98,
+    "podcast_episode_id": 82,
+    "overview": "The rapid advancement of AI technology is poised to disrupt various sectors of the economy, leading to a transformative shift in societal structures and business models. The departures from the founding team of X-A-I, as mentioned in the podcast, signify a potential shift in the AI landscape. Investors must be prepared for the implications of AI's recursive self-improvement and its impact on global mortality rates, as well as the control it may exert over societal functions. This deep dive analysis will explore the investment thesis surrounding AI disruption, its potential catalysts, and the timeframes within which these changes may occur, providing actionable insights for investors to navigate this new world order.",
+    "key_takeaways_detailed": [
+      "AI's recursive self-improvement capability is a significant trigger for the singularity, which could redefine societal and economic structures.",
+      "Investors should monitor the departures and shifts within AI founding teams as potential indicators of market direction and technology maturity.",
+      "AI's potential to reduce global mortality rates presents a moral and ethical investment consideration, alongside traditional financial metrics.",
+      "The control exerted by AI developers over societal functions suggests a need for investors to consider the ethical implications of their investments.",
+      "The unpredictable yet accelerating timeline of AI development requires investors to be agile and responsive to emerging trends and technologies."
+    ],
+    "investment_thesis": "The core investment logic revolves around the inevitability of AI-driven disruption across industries. As AI technology advances, it will lead to increased productivity, potentially reducing the need for human labor and\u91cd\u5851ing business models. Catalysts for this thesis include advancements in AI algorithms, the development of AI-specific hardware, and the increasing adoption of AI in decision-making processes. The timeframe for this thesis is medium to long-term, as the full impact of AI on society and the economy is expected to unfold over the next 3-10 years.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's significant investment in AI for its products and services positions it to benefit from the AI-driven disruption.",
+        "positioning": "Long-term strategic position, as Apple's ecosystem can leverage AI to enhance user experience and drive innovation.",
+        "risk": "Regulatory challenges to data privacy and potential slowdowns in AI adoption could impact Apple's growth in this area."
+      },
+      "NVDA": {
+        "rationale": "Nvidia's leadership in GPU technology, which is fundamental to AI and deep learning, makes it a key player in the AI revolution.",
+        "positioning": "Strategic long position, considering the company's potential to benefit from increased demand for AI processing power.",
+        "risk": "High competition in the semiconductor market and potential disruptions in global supply chains could affect Nvidia's performance."
+      },
+      "GOOGL": {
+        "rationale": "Google's extensive research and development in AI, along with its cloud services, places it at the forefront of AI innovation.",
+        "positioning": "Long-term strategic position, as Google's AI capabilities are integral to its growth and competitive advantage.",
+        "risk": "Regulatory scrutiny over data usage and potential backlash against AI ethics could hinder Google's AI initiatives."
+      },
+      "MSFT": {
+        "rationale": "Microsoft's broad portfolio, including AI tools and cloud services, positions it to capitalize on the AI-driven transformation.",
+        "positioning": "Medium to long-term strategic position, as Microsoft can leverage AI to enhance its product offerings and services.",
+        "risk": "Intense competition in the cloud and AI sectors, along with potential regulatory hurdles, could challenge Microsoft's progress."
+      },
+      "TSLA": {
+        "rationale": "Tesla's use of AI in its autonomous driving technology and manufacturing processes makes it a unique beneficiary of AI advancements.",
+        "positioning": "Long-term strategic position, considering the potential for Tesla to disrupt the automotive industry with AI.",
+        "risk": "Technological setbacks in autonomous driving and potential regulatory obstacles could impact Tesla's AI initiatives."
+      }
+    },
+    "positioning_guidance": "Investors should consider a diversified approach to AI investments, with a mix of long-term strategic positions in companies leading in AI technology and applications. Entry points should be based on market volatility and company-specific catalysts. Investors should be prepared to adjust positions in response to rapid changes in the AI landscape and maintain a long-term perspective, as the full impact of AI is expected to unfold over several years. Consider hedging against potential regulatory and ethical risks associated with AI advancements.",
+    "risk_factors": [
+      "Regulatory changes that could limit the development or use of AI technologies.",
+      "Ethical concerns surrounding AI's impact on privacy, job displacement, and societal control.",
+      "Technological setbacks or failures in AI that could slow down the adoption of these technologies.",
+      "Intense competition in the AI space that could erode the competitive advantage of leading companies.",
+      "Global economic downturns or geopolitical events that could disrupt the investment in and development of AI technologies."
+    ],
+    "contrarian_signals": [
+      "The potential for AI to create new job opportunities and industries, offsetting job displacement concerns.",
+      "The possibility that AI advancements may not occur as rapidly as predicted, leading to a slower societal and economic transformation.",
+      "The emergence of new AI players that could disrupt the current market leaders and change the competitive landscape.",
+      "The potential for AI to be regulated in a way that promotes ethical use and mitigates societal risks, reducing the perceived dangers of AI advancement."
+    ],
+    "catalysts": [
+      "Upcoming AI-related legislation and regulatory decisions that could shape the future of AI development and use.",
+      "Major AI conferences and events where new advancements and partnerships are announced, signaling the direction of the industry.",
+      "Earnings reports and product launches from key AI companies that can provide insights into the commercial viability of AI technologies.",
+      "Global economic indicators that could influence investment in AI research and development.",
+      "Technological milestones, such as breakthroughs in AI algorithms or hardware, that could accelerate the adoption of AI across industries."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-03-19T22:21:48.670369",
+    "updated_at": "2026-03-20 03:21:48",
+    "insight_title": "AI Disruption and the Future of Society",
+    "source_name": "Moonshots with Peter Diamandis",
+    "source_date": "2026-02-19",
+    "key_tickers": [
+      "OPEN AI",
+      "MCCOR"
+    ]
+  },
+  "99": {
+    "id": 90,
+    "insight_id": 99,
+    "podcast_episode_id": 81,
+    "overview": "The exponential growth in AI technology over the past three years has been significant, yet the public's recognition of its implications remains limited. This deep dive analysis explores the investment thesis in AI, focusing on the scaling of technology and its impact on various sectors. The investment thesis is centered around the 'Big Blob of Compute Hypothesis,' which posits that raw compute, data quantity and quality, training duration, and scalable objective functions are the key drivers of AI progress. Given the current trajectory, we believe that AI technology is approaching a critical inflection point, which presents both substantial opportunities and risks for investors. This analysis is particularly relevant now as we stand on the brink of a new era in AI, with potential to disrupt traditional industries and create new ones.",
+    "key_takeaways_detailed": [
+      "Invest in companies with significant investments in AI and machine learning, as they are likely to benefit from the ongoing exponential growth in technology.",
+      "Monitor the development of new AI techniques and scaling laws, as these will dictate the pace of technological advancement and potential investment opportunities.",
+      "Consider the quality and distribution of data as a key differentiator; companies with access to diverse and high-quality data sets will have a competitive edge.",
+      "Be aware of the computational requirements of AI models; the need for raw compute power suggests opportunities in semiconductor and cloud computing sectors.",
+      "Keep an eye on regulatory developments, as AI's rapid advancement may lead to new policies affecting the industry."
+    ],
+    "investment_thesis": "Our core investment logic is that the 'Big Blob of Compute Hypothesis' will continue to drive advancements in AI, leading to significant disruptions across various industries. We expect companies that can leverage large-scale compute and data to develop and train advanced AI models to outperform. Catalysts for this thesis include breakthroughs in AI scaling laws, increased investment in AI research and development, and the commercialization of AI applications. The timeframe for this thesis is medium to long-term, as the full realization of AI's potential is likely to take several years.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's significant investment in AI, particularly in areas like Siri and machine learning, positions it well to capitalize on the ongoing AI revolution. Its robust ecosystem and user base provide a wealth of data to train and improve its AI models.",
+        "positioning": "Long-term strategic position, as Apple's AI advancements are likely to contribute to its competitive advantage and drive growth over the medium to long term.",
+        "risk": "Key risks include increased competition in the AI space, potential regulatory hurdles, and the possibility that AI advancements may not translate into significant revenue growth."
+      },
+      "NVDA": {
+        "rationale": "NVIDIA is a leader in the GPU market, which is crucial for the compute power required to train and run advanced AI models. Its continued innovation in AI-specific hardware positions it to benefit from the ongoing AI boom.",
+        "positioning": "Long-term strategic position, as NVIDIA's role in providing the hardware necessary for AI advancements is expected to drive consistent growth.",
+        "risk": "Risks include potential disruptions in the semiconductor supply chain, increased competition in the AI hardware space, and the possibility that alternative computing technologies could emerge."
+      },
+      "GOOGL": {
+        "rationale": "Google's deep investments in AI research and development, as well as its vast data resources, make it a key player in the AI space. Its AI advancements have the potential to disrupt search, advertising, and cloud computing.",
+        "positioning": "Long-term strategic position, as Google's AI capabilities are expected to reinforce its dominance in key markets and drive new growth opportunities.",
+        "risk": "Risks include regulatory challenges, particularly around data privacy and antitrust concerns, as well as the potential for AI to disrupt Google's core business models."
+      },
+      "MSFT": {
+        "rationale": "Microsoft's investments in AI, particularly through its Azure cloud platform and AI research, position it to benefit from the growing demand for AI services and solutions.",
+        "positioning": "Medium to long-term strategic position, as Microsoft's AI offerings are expected to drive growth in its cloud business and create new revenue streams.",
+        "risk": "Risks include increased competition in the cloud and AI markets, as well as the potential for AI to disrupt traditional software licensing models."
+      },
+      "TSLA": {
+        "rationale": "Tesla's use of AI in its autonomous driving technology positions it at the forefront of AI applications in the automotive industry. Its data collection from vehicles on the road provides a unique advantage in training its AI models.",
+        "positioning": "Medium-term tactical position, as Tesla's AI advancements are expected to drive growth in its automotive business and potentially create new opportunities in autonomous transportation.",
+        "risk": "Risks include regulatory hurdles for autonomous vehicles, increased competition in the electric vehicle market, and the potential for AI advancements to not meet market expectations."
+      }
+    },
+    "positioning_guidance": "Given the medium to long-term nature of the AI investment thesis, investors should consider a strategic position in companies with significant AI exposure. Sizing should reflect the potential impact of AI on each company's business model and growth prospects. Entry points should be considered in the context of broader market trends and company-specific catalysts. Investors should also consider hedging against potential risks, such as regulatory changes or technological disruptions.",
+    "risk_factors": [
+      "Regulatory changes could significantly impact the development and deployment of AI technologies.",
+      "Technological disruptions, such as the emergence of new computing paradigms, could render current AI investments obsolete.",
+      "Increased competition in the AI space could lead to a race to the bottom in terms of pricing and profitability.",
+      "AI advancements may not translate into significant revenue growth for companies, as the commercialization of AI applications remains uncertain.",
+      "Ethical concerns around AI, such as bias and job displacement, could lead to public backlash and hinder the adoption of AI technologies."
+    ],
+    "contrarian_signals": [
+      "Despite the hype around AI, some argue that the current advancements are incremental rather than revolutionary, suggesting that the AI boom may be overhyped.",
+      "There is a risk that the current focus on AI scaling may be misguided, as the true core of human learning may not require the massive amounts of data and compute currently being used.",
+      "The potential for AI to disrupt traditional industries could lead to significant job losses and social unrest, creating a backlash against AI adoption."
+    ],
+    "catalysts": [
+      "Breakthroughs in AI scaling laws and the development of new techniques could accelerate the pace of AI advancements.",
+      "Increased investment in AI research and development by governments and private companies could drive new innovations and applications.",
+      "The commercialization of AI applications in areas like autonomous driving, healthcare, and finance could create new growth opportunities.",
+      "Regulatory developments, such as the establishment of AI ethics guidelines or the relaxation of restrictions on data usage, could impact the AI landscape.",
+      "Technological milestones, such as the development of AI models that can perform complex tasks with minimal supervision, could signal a new era in AI capabilities."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-03-19T22:22:44.400449",
+    "updated_at": "2026-03-20 03:22:44",
+    "insight_title": "The Future of Technology and Investment in AI",
+    "source_name": "Dwarkesh Podcast",
+    "source_date": "2026-02-19",
+    "key_tickers": [
+      "N/A"
+    ]
+  },
+  "100": {
+    "id": 91,
+    "insight_id": 100,
+    "podcast_episode_id": 80,
+    "overview": "In this episode of Monetary Matters, Nobel Prize-winning economist Paul Krugman discusses the US dollar's resilience despite chronic current account deficits. Krugman highlights the dollar's unique role as the 'money of money' in international finance and the challenges of replacing it. The conversation underscores the importance of understanding the dollar's position in the global economy, especially for investors with international exposure. Given the dollar's status and the complexities of currency movements, this analysis aims to provide actionable insights for investors navigating the current financial landscape.",
+    "key_takeaways_detailed": [
+      "The US dollar's strength is not solely due to trade balances but also its role as the international medium of exchange and store of value.",
+      "Current account deficits can be sustained as long as they do not worsen as a share of GDP, suggesting the dollar's position is not immediately threatened.",
+      "The dollar's international role is difficult to erode due to network effects and a lack of viable alternatives.",
+      "Uncertainties about US domestic policy and the potential weaponization of the dollar could lead to a marginal shift away from it in international transactions.",
+      "Market expectations, rather than just economic models, significantly influence currency movements, implying a higher degree of unpredictability."
+    ],
+    "investment_thesis": "The investment thesis revolves around the enduring dominance of the US dollar in global finance despite large trade deficits. While the dollar's position is not without challenges, its replacement is unlikely in the short to medium term due to entrenched global reliance and a lack of viable alternatives. Investors should consider the dollar's strength when allocating to international assets and hedge against potential shifts in currency preferences. The catalyst for significant change would be a sustained campaign of US policy self-destruction or a major geopolitical event that undermines trust in the dollar.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's significant international revenue exposure makes it sensitive to currency fluctuations, particularly the strength of the US dollar.",
+        "positioning": "Position long on AAPL as a strategic play on the enduring strength of the US dollar and Apple's robust international business.",
+        "risk": "Key risks include changes in US trade policy and global economic downturns affecting Apple's international sales."
+      },
+      "NVDA": {
+        "rationale": "Nvidia's global semiconductor sales are influenced by currency movements, with the US dollar's strength impacting its competitive position.",
+        "positioning": "Consider a tactical long position in NVDA to capitalize on the dollar's resilience and Nvidia's market leadership.",
+        "risk": "Risks include increased competition and potential disruptions in global supply chains affecting Nvidia's operations."
+      },
+      "SPY": {
+        "rationale": "As an ETF representing the S&P 500, SPY provides broad exposure to US equities, which are influenced by the dollar's strength.",
+        "positioning": "Hold a strategic long position in SPY to benefit from the overall performance of the US market, which is positively correlated with the dollar's strength.",
+        "risk": "Risks include market volatility and changes in US monetary policy that could affect the dollar's value."
+      },
+      "TSLA": {
+        "rationale": "Tesla's global operations and revenue streams are affected by the strength of the US dollar, impacting its international competitiveness.",
+        "positioning": "Maintain a long position in TSLA as a strategic investment in the electric vehicle market leader, considering the dollar's resilience.",
+        "risk": "Key risks include regulatory changes affecting the EV industry and potential shifts in consumer preferences."
+      }
+    },
+    "positioning_guidance": "Investors should maintain a diversified portfolio with a strategic long bias on US equities, represented by tickers like AAPL, NVDA, SPY, and TSLA, to capitalize on the enduring strength of the US dollar. Consider hedging with derivatives or other currencies to mitigate risks associated with potential dollar fluctuations. Entry points should be based on market valuations and economic indicators, with a medium to long-term investment horizon.",
+    "risk_factors": [
+      "A significant shift in US monetary policy could undermine the dollar's strength.",
+      "Geopolitical events or trade wars could lead to a rapid devaluation of the dollar.",
+      "The emergence of a viable alternative to the dollar in international transactions.",
+      "A global economic downturn affecting international sales of US companies.",
+      "Unexpected changes in US domestic policy that could destabilize the dollar's role in global finance."
+    ],
+    "contrarian_signals": [
+      "The potential for other currencies, such as the euro or the Chinese yuan, to gain ground as alternatives to the dollar.",
+      "The rise of digital currencies as a means to bypass traditional currency systems.",
+      "The possibility of a coordinated international effort to reduce reliance on the US dollar."
+    ],
+    "catalysts": [
+      "Upcoming US Federal Reserve meetings and decisions on interest rates.",
+      "Global economic reports and indicators that could influence the dollar's value.",
+      "Major geopolitical events or trade agreements that could affect the dollar's role in international transactions.",
+      "Technological advancements or regulatory changes that could disrupt the current financial system.",
+      "Shifts in global investor sentiment towards or away from the US dollar as a store of value."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-03-19T22:23:20.884908",
+    "updated_at": "2026-03-20 03:23:20",
+    "insight_title": "Monetary Matters with Jack Farley: The US Dollar, Trade Deficits, and the Role of AI in Finance",
+    "source_name": "Monetary Matters with Jack Farley",
+    "source_date": "2026-02-19",
+    "key_tickers": [
+      "PQNT"
+    ]
+  },
+  "101": {
+    "id": 92,
+    "insight_id": 101,
+    "podcast_episode_id": 79,
+    "overview": "The investment thesis revolves around the rapid advancement of AI and automation technologies, which are poised to disrupt traditional business models and create new opportunities for wealth generation. The podcast 'Moonshots with Peter Diamandis' highlights the potential for AI to take on executive roles, such as CEO, and the implications this has for the future of work and wealth creation. This analysis focuses on the investment opportunities arising from the shift towards AI-driven businesses and the path to abundance by 2035, as discussed in the paper 'Soled Everything'. The urgency of this thesis is underscored by the current economic climate, where tasks are being automated at an unprecedented rate, leading to a reevaluation of the social contract and the potential for a new era of capitalist efficiency.",
+    "key_takeaways_detailed": [
+      "AI is becoming capable of handling a significant portion of CEO responsibilities, including strategy setting and information routing, which could lead to more efficient and effective corporate governance.",
+      "The transition to AI-driven organizations could result in 'time dilation', where strategic course corrections occur at a much faster pace, necessitating rapid assimilation of vast amounts of information.",
+      "Investors should consider companies at the forefront of AI development and those poised to benefit from the automation of tasks, as these may offer significant growth potential.",
+      "The next 18 months to two years are critical in setting the rules for the next century, implying that early adopters and innovators in AI could establish a lasting competitive advantage.",
+      "The social and economic implications of AI and automation are vast, suggesting that investors should also consider the broader societal trends and potential regulatory responses to these technologies."
+    ],
+    "investment_thesis": "The core investment logic is that AI and automation technologies are on the cusp of transforming the global economy, leading to increased efficiency and the potential for new wealth creation. Catalysts for this thesis include advancements in AI capabilities, the acceleration of automation in the workplace, and the potential for AI to take on executive roles within companies. The timeframe for this thesis is medium to long-term, as the full realization of AI's potential in business operations and governance is likely to unfold over the next decade, with significant milestones expected by 2035.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple is a leader in consumer technology and has a strong focus on AI and machine learning, which are integral to its product development and services. The company's ability to leverage AI for innovation could drive future growth.",
+        "positioning": "Long-term strategic position, as Apple's investments in AI are likely to pay off in the coming years, particularly in areas like augmented reality and autonomous systems.",
+        "risk": "Key risks include increased competition in the AI space and potential regulatory hurdles that could slow down the deployment of AI technologies."
+      },
+      "NVDA": {
+        "rationale": "Nvidia is a key player in the development of AI hardware, particularly GPUs that are essential for training and running AI models. The company's technology is at the heart of many AI applications.",
+        "positioning": "Medium to long-term strategic position, as the demand for AI hardware is expected to grow significantly with the expansion of AI applications.",
+        "risk": "The risk of technological obsolescence if new types of AI hardware become dominant, as well as potential supply chain disruptions."
+      },
+      "GOOGL": {
+        "rationale": "Google, through its parent company Alphabet, is heavily invested in AI research and development, with applications across its various services, including search, advertising, and cloud computing.",
+        "positioning": "Long-term strategic position, as Google's AI capabilities are deeply integrated into its business model and are expected to drive future growth.",
+        "risk": "Regulatory risks related to data privacy and potential backlash against tech giants could impact Google's AI initiatives."
+      },
+      "MSFT": {
+        "rationale": "Microsoft has a broad portfolio of AI technologies and services, including Azure AI, which provides cloud-based AI capabilities to businesses.",
+        "positioning": "Medium to long-term strategic position, as Microsoft's AI offerings are likely to benefit from the growing trend of businesses adopting AI solutions.",
+        "risk": "Competition from other cloud providers and the potential for market saturation in the AI space."
+      },
+      "TSLA": {
+        "rationale": "Tesla is at the forefront of AI applications in the automotive industry, particularly with its development of autonomous driving technology.",
+        "positioning": "Medium-term tactical position, as the adoption of autonomous vehicles is expected to accelerate in the coming years, providing a potential catalyst for Tesla's growth.",
+        "risk": "Regulatory hurdles and technological challenges related to the widespread adoption of autonomous vehicles."
+      }
+    },
+    "positioning_guidance": "Investors should consider a diversified approach to positioning in AI and automation, with a mix of long-term strategic positions in companies leading in AI development and shorter-term tactical positions in companies that are expected to benefit from near-term advancements. Entry points should be considered in the context of broader market trends and company-specific catalysts. Investors should also consider hedging against potential regulatory risks and technological disruptions.",
+    "risk_factors": [
+      "Regulatory changes that could slow the deployment of AI technologies.",
+      "Technological obsolescence as new AI technologies emerge and replace existing solutions.",
+      "Ethical concerns and societal pushback against AI and automation, potentially leading to restrictions on their use.",
+      "Cybersecurity risks associated with the increased reliance on AI and digital systems.",
+      "Economic downturns that could reduce the demand for AI solutions and services."
+    ],
+    "contrarian_signals": [
+      "The potential for AI to create new jobs and industries, offsetting the loss of jobs due to automation.",
+      "The possibility that AI development may not progress as quickly as expected, due to technical challenges or ethical considerations.",
+      "The argument that human oversight and decision-making will remain essential in the business world, limiting the extent to which AI can take on executive roles."
+    ],
+    "catalysts": [
+      "The release of 'Soled Everything', which could provide a roadmap for investors to understand the trajectory of AI and automation.",
+      "Key AI conferences and events, where new advancements and partnerships in the field are often announced.",
+      "Regulatory decisions and policy changes related to AI and automation, which can significantly impact the industry's growth.",
+      "Economic indicators that signal a shift towards a more technology-driven economy, potentially accelerating the adoption of AI solutions.",
+      "Major AI-related product launches or breakthroughs from leading tech companies, which can serve as a catalyst for market interest in AI stocks."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-03-19T22:24:02.888130",
+    "updated_at": "2026-03-20 03:24:02",
+    "insight_title": "Moonshots with Peter Diamandis: AI, Automation, and the Path to Abundance by 2035",
+    "source_name": "Moonshots with Peter Diamandis",
+    "source_date": "2026-02-19",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
@@ -7331,11 +7921,11 @@ const dashboardData = {
     "definition": null,
     "investment_implications": null,
     "source_type": "auto_extracted",
-    "mention_count": 4,
-    "source_diversity": 3,
-    "relevance_score": 40,
+    "mention_count": 5,
+    "source_diversity": 4,
+    "relevance_score": 45,
     "submitted_date": "2026-03-19 03:07:00",
-    "priority_score": 140
+    "priority_score": 175
   },
   {
     "id": 51,
@@ -7343,11 +7933,11 @@ const dashboardData = {
     "definition": null,
     "investment_implications": null,
     "source_type": "auto_extracted",
-    "mention_count": 4,
-    "source_diversity": 3,
-    "relevance_score": 40,
+    "mention_count": 5,
+    "source_diversity": 4,
+    "relevance_score": 45,
     "submitted_date": "2026-03-19 03:07:00",
-    "priority_score": 140
+    "priority_score": 175
   },
   {
     "id": 16,
@@ -7376,7 +7966,7 @@ const dashboardData = {
 ],
   podcastGuests: [
   {
-    "id": 487,
+    "id": 495,
     "name": "Senator John Fetterman on Voting Rights",
     "slug": "senator-john-fetterman-on-voting-rights",
     "bio": null,
@@ -7388,7 +7978,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 488,
+    "id": 496,
     "name": "Elon Musk on Moonshots",
     "slug": "elon-musk-on-moonshots",
     "bio": null,
@@ -7400,7 +7990,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 489,
+    "id": 497,
     "name": "Investing in Capitalism",
     "slug": "investing-in-capitalism",
     "bio": null,
@@ -7412,7 +8002,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 490,
+    "id": 498,
     "name": "Harvard Professor Graham Allison",
     "slug": "harvard-professor-graham-allison",
     "bio": null,
@@ -7424,7 +8014,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 491,
+    "id": 499,
     "name": "Andrew Yang",
     "slug": "andrew-yang",
     "bio": "Andrew Yang is an entrepreneur and political leader who popularized universal basic income in U.S. politics through his 2020 presidential campaign.",
@@ -7436,7 +8026,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 492,
+    "id": 500,
     "name": "Ray Dalio",
     "slug": "ray-dalio",
     "bio": "Ray Dalio is the founder of Bridgewater Associates and a macro investor known for his 'Principles' framework and work on long-term debt cycles.",
@@ -7448,7 +8038,31 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 493,
+    "id": 501,
+    "name": "Nobel Prize-winning economist Paul Krugman",
+    "slug": "nobel-prize-winning-economist-paul-krugman",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "The Picta AI Enhanced International Equity ETF (PQNT) uses AI to enhance international equity returns, suggesting a potential for outperformance through technology-driven investment strategies.",
+    "last_episode_title": "Monetary Matters with Jack Farley: The US Dollar, Trade Deficits, and the Role of AI in Finance",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-02-19",
+    "appearance_count": 1
+  },
+  {
+    "id": 502,
+    "name": "host Jack Mallers",
+    "slug": "host-jack-mallers",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Bitcoin serves as an early warning system for liquidity conditions and economic shifts, with potential to empower individuals in an AI-driven future.",
+    "last_episode_title": "Japan AI and the Next Liquidity Shock: Why Bitcoin's Weakness is an Early Warning",
+    "last_podcast_name": "The Jack Mallers Show",
+    "last_episode_date": "2026-02-19",
+    "appearance_count": 1
+  },
+  {
+    "id": 503,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -7460,7 +8074,19 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 494,
+    "id": 504,
+    "name": "Bosworth",
+    "slug": "bosworth",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Invest in companies that are at the forefront of developing AI-enabled, immersive technologies that can redefine consumer interactions beyond the current app-centric model.",
+    "last_episode_title": "The Future of Consumer Technology and the Post-Mobile Phone Era",
+    "last_podcast_name": "a16z Live",
+    "last_episode_date": "2026-02-15",
+    "appearance_count": 1
+  },
+  {
+    "id": 505,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -7474,11 +8100,421 @@ const dashboardData = {
 ],
   pundits: [
   {
+    "id": 92,
+    "name": "Guest Expert",
+    "slug": "guest-expert",
+    "bio": "Guest Expert is a renowned professional in the field of genomic screening, with a particular focus on the ethical and societal implications of such technologies. They have been invited to speak on the Denver State podcast to discuss the intersection of technology, ethics, and personal choice in reproduction, providing insights into the broader implications of genomic screening on society.",
+    "known_for": "Discussing the ethical and societal implications of genomic screening and its impact on personal choice in reproduction.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Informed and passionate about the potential of genomic screening.",
+    "voice_style": "Logical and persuasive, presenting a strong case for the benefits of genomic screening.",
+    "voice_delivery_notes": "Clear and deliberate, with an emphasis on the importance of personal choice and autonomy.",
+    "voice_profile_updated_at": "2026-03-20 03:13:11",
+    "last_seen": "2026-03-20 03:13:11",
+    "last_episode_title": "Genomic Screening and Ethical Considerations",
+    "last_podcast_name": "Network State Podcast",
+    "last_episode_date": "2026-02-19",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investment in genomic screening technology presents an opportunity to mitigate genetic diseases, with potential for significant ethical and societal impact.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-19T22:14:34.749567",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Guest Expert",
+      "fetched_at": "2026-03-20T03:14:34.749143+00:00",
+      "cliff_notes": "Guest Expert has established a career at the intersection of technology and ethics, with a particular emphasis on genomic screening. Their work is significant as it addresses the complex ethical questions that arise from advances in reproductive technologies. By engaging in public discourse, such as their appearance on the Denver State podcast, they help to educate and inform a broader audience about the implications of these technologies on personal choice and societal norms. Their expertise is crucial in navigating the moral and ethical landscape of genomic screening, ensuring that discussions around technology are grounded in a broader understanding of its impact on society.",
+      "derived": {
+        "current_role": "Expert in Genomic Screening; Speaker on Denver State Podcast"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Guest Expert has established a career at the intersection of technology and ethics, with a particular emphasis on genomic screening. Their work is significant as it addresses the complex ethical questions that arise from advances in reproductive technologies. By engaging in public discourse, such as their appearance on the Denver State podcast, they help to educate and inform a broader audience about the implications of these technologies on personal choice and societal norms.",
+        "Their expertise is crucial in navigating the moral and ethical landscape of genomic screening, ensuring that discussions around technology are grounded in a broader understanding of its impact on society."
+      ],
+      "sections": [
+        {
+          "heading": "Genomic Screening",
+          "body": "Guest Expert discusses the basics of genomic screening, including what it is and its implications for individuals and society."
+        },
+        {
+          "heading": "Ethical Implications",
+          "body": "They explore the ethical considerations surrounding genomic screening, emphasizing the importance of personal choice and societal norms."
+        },
+        {
+          "heading": "Intersection of Technology and Ethics",
+          "body": "Guest Expert highlights the intersection of technology, ethics, and personal choice in reproduction, advocating for a nuanced understanding of these complex issues."
+        },
+        {
+          "heading": "Societal Impact",
+          "body": "They address how genomic screening technologies can influence societal structures and personal autonomy, urging for a broader conversation on the subject."
+        }
+      ]
+    }
+  },
+  {
+    "id": 91,
+    "name": "Brett Adcock",
+    "slug": "brett-adcock",
+    "bio": "Brett Adcock is an entrepreneur and investor with a background in software and VTOL companies. He is known for his work at the forefront of AI and robotics development, focusing on autonomous manufacturing and the potential for a $50T market.",
+    "known_for": "Being at the forefront of AI and robotics development, focusing on autonomous manufacturing and the potential for a $50T market.",
+    "net_worth_usd": 19000000000.0,
+    "net_worth_source": "https://en.wikipedia.org/wiki/Brett_Adcock",
+    "net_worth_updated_at": "2026-03-19T22:16:05.781854",
+    "voice_tone": "Amazed and enthusiastic about the advancements in AI and robotics.",
+    "voice_style": "Descriptive and forward-looking, with a focus on the transformative impact of technology.",
+    "voice_delivery_notes": "Speak with excitement and a sense of urgency to convey the rapid pace of change in the industry.",
+    "voice_profile_updated_at": "2026-03-20 03:11:05",
+    "last_seen": "2026-03-20 03:11:05",
+    "last_episode_title": "Humanoid Run on Neural Net, Autonomous Manufacturing, $50T Market #229",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-02-17",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investing in AI and robotics companies that leverage neural networks for autonomous manufacturing could yield significant returns as this market is expected to become the largest economy globally.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-19T22:16:04.041005",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Brett Adcock",
+      "fetched_at": "2026-03-20T03:16:04.040798+00:00",
+      "cliff_notes": "Brett Adcock is an entrepreneur and investor with a focus on software and VTOL companies. His work in AI and robotics development has positioned him as a key figure in the industry, particularly in the areas of autonomous manufacturing and the potential for a $50 trillion market. Adcock's insights into the rapid advancements in neural nets and the accumulation of data as a barrier to entry and asset have been influential. His vision for a future where robots build robots and the impact on the economy and society is a testament to his forward-thinking approach in the tech industry.",
+      "derived": {
+        "current_role": "Entrepreneur and Investor"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Brett Adcock is an entrepreneur and investor with a focus on software and VTOL companies. His work in AI and robotics development has positioned him as a key figure in the industry, particularly in the areas of autonomous manufacturing and the potential for a $50 trillion market. Adcock's insights into the rapid advancements in neural nets and the accumulation of data as a barrier to entry and asset have been influential.",
+        "His vision for a future where robots build robots and the impact on the economy and society is a testament to his forward-thinking approach in the tech industry."
+      ],
+      "sections": [
+        {
+          "heading": "AI and Robotics",
+          "body": "Brett Adcock is recognized for his contributions to AI and robotics, particularly in the development of autonomous manufacturing and the use of neural nets."
+        },
+        {
+          "heading": "Neural Nets",
+          "body": "Adcock is amazed by the advancements in neural nets and how they have transformed the business landscape, allowing for the rapid accumulation of data and the sharing of knowledge across a fleet of robots."
+        },
+        {
+          "heading": "Autonomous Manufacturing",
+          "body": "Adcock\u9884\u89c1\u5230\u81ea\u4e3b\u5236\u9020\u5c06\u6210\u4e3a\u4e16\u754c\u4e0a\u6700\u5927\u7684\u7ecf\u6d4e\u4f53\u4e4b\u4e00\uff0c\u5f15\u9886\u7740\u666e\u904d\u7684\u5546\u54c1\u548c\u670d\u52a1\uff0c\u4e3a\u6240\u6709\u4eba\u5e26\u6765\u4e30\u5bcc\u7684\u65f6\u4ee3\uff0c\u5e76\u6784\u5efa\u6211\u4eec\u6240\u6709\u4eba\u90fd\u671f\u5f85\u7684\u79d1\u5e7b\u672a\u6765\u3002"
+        },
+        {
+          "heading": "Market Potential",
+          "body": "He estimates the market potential in this space to be a staggering $50 trillion, indicating a significant impact on the global economy."
+        }
+      ]
+    },
+    "net_worth": "$19.00B"
+  },
+  {
+    "id": 89,
+    "name": "Andrew 'Boz' Bosworth",
+    "slug": "andrew-boz-bosworth",
+    "bio": "Andrew 'Boz' Bosworth is a prominent figure in the tech industry, known for his work at Meta, where he has spent nearly two decades shaping consumer interaction. As the company's CTO, he has been instrumental in the development of smart glasses and AR headsets, pushing the boundaries of consumer technology.",
+    "known_for": "His influential role in shaping Meta's technology strategy and the development of smart glasses and AR headsets.",
+    "net_worth_usd": 46000000.0,
+    "net_worth_source": "https://www.gurufocus.com/insider/170430/andrew-bosworth",
+    "net_worth_updated_at": "2026-03-19T22:17:08.863199",
+    "voice_tone": "Confident and visionary.",
+    "voice_style": "Boz presents a future-oriented perspective with a focus on the transformative potential of AI and AR.",
+    "voice_delivery_notes": "Pacing is steady with emphasis on the importance of AI and the shift towards intent-driven computing.",
+    "voice_profile_updated_at": "2026-03-20 03:09:39",
+    "last_seen": "2026-03-20 03:09:39",
+    "last_episode_title": "The Future of Consumer Technology and the Post-Mobile Phone Era",
+    "last_podcast_name": "a16z Live",
+    "last_episode_date": "2026-02-15",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in companies that are at the forefront of developing AI-enabled, immersive technologies that can redefine consumer interactions beyond the current app-centric model.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-19T22:17:07.326933",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Andrew 'Boz' Bosworth",
+      "fetched_at": "2026-03-20T03:17:07.326714+00:00",
+      "cliff_notes": "Andrew 'Boz' Bosworth has been with Meta (formerly Facebook) for nearly two decades, starting as a software engineer and rising through the ranks to become the company's CTO. His tenure has seen him play a pivotal role in the evolution of consumer interaction, from the Facebook News Feed to the development of smart glasses and AR headsets. Bosworth's work has been central to Meta's technological advancements, particularly in the realms of AI and hardware. His vision for a post-phone world, where AI-enabled technology creates more immersive and adaptive computing experiences, has positioned him as a key influencer in the tech industry's future.",
+      "derived": {
+        "current_role": "CTO at Meta",
+        "former_positions": "Director of Engineering at Facebook; Manager of Facebook's News Feed team",
+        "education": "Bachelor's degree in Computer Science from Harvard University"
+      },
+      "infobox": {
+        "Born": "Unknown",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Andrew 'Boz' Bosworth has been with Meta (formerly Facebook) for nearly two decades, starting as a software engineer and rising through the ranks to become the company's CTO. His tenure has seen him play a pivotal role in the evolution of consumer interaction, from the Facebook News Feed to the development of smart glasses and AR headsets.",
+        "Bosworth's work has been central to Meta's technological advancements, particularly in the realms of AI and hardware. His vision for a post-phone world, where AI-enabled technology creates more immersive and adaptive computing experiences, has positioned him as a key influencer in the tech industry's future."
+      ],
+      "sections": [
+        {
+          "heading": "Meta's Technology Strategy",
+          "body": "Bosworth has been a driving force behind Meta's technology strategy, focusing on the development of smart glasses and AR headsets that aim to redefine consumer interaction."
+        },
+        {
+          "heading": "AI and Hardware Breakthroughs",
+          "body": "His work emphasizes the potential of AI and hardware breakthroughs to revolutionize the tech landscape, moving towards a more agentic, adaptive, and immersive computing experience."
+        },
+        {
+          "heading": "Post-Phone World Vision",
+          "body": "Bosworth envisions a future where the app-centric world of smartphones is replaced by a new computing paradigm, one that is more integrated and intuitive, potentially led by AI advancements."
+        }
+      ]
+    },
+    "net_worth": "$46.0M"
+  },
+  {
+    "id": 88,
+    "name": "Ben Harwitz",
+    "slug": "ben-harwitz",
+    "bio": "Ben Harwitz is a guest on the 'Moonshots with Peter Diamandis' podcast, where he discusses the societal impact of AI. He has expressed concerns about the departures from X-A-I from the founding team and the potential dangers of attempting to pause AI development.",
+    "known_for": "His insights on AI's societal impact and the potential for AI to address global issues.",
+    "net_worth_usd": 3500000000.0,
+    "net_worth_source": "https://finty.com/us/net-worth/ben-horowitz/",
+    "net_worth_updated_at": "2026-03-19T22:17:59.756579",
+    "voice_tone": "Cautiously optimistic",
+    "voice_style": "Analytical with a focus on positive outcomes",
+    "voice_delivery_notes": "Speaks with measured pace, emphasizing key points about AI's potential",
+    "voice_profile_updated_at": "2026-03-20 03:07:23",
+    "last_seen": "2026-03-20 03:07:23",
+    "last_episode_title": "AI Disruption and the Future of Society",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-02-19",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investing in AI technology and companies that are at the forefront of AI development could yield significant returns as these technologies become more integrated into society and drive economic growth.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-19T22:17:58.321307",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Ben Harwitz",
+      "fetched_at": "2026-03-20T03:17:58.321048+00:00",
+      "cliff_notes": "Ben Harwitz is a commentator and guest on the 'Moonshots with Peter Diamandis' podcast, where he shares his thoughts on the impact of artificial intelligence on society. He has expressed concerns about the departures from X-A-I from the founding team and the potential dangers of attempting to pause AI development. Harwitz believes that AI is the best chance we have at stopping the high number of deaths on Earth daily and that whoever is building the AI has a lot of control about how society is going to work. His views on AI's societal impact and its potential to address global issues make him a notable figure in discussions about the future of technology and its implications for humanity.",
+      "derived": {},
+      "infobox": {
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Ben Harwitz is a commentator and guest on the 'Moonshots with Peter Diamandis' podcast, where he shares his thoughts on the impact of artificial intelligence on society. He has expressed concerns about the departures from X-A-I from the founding team and the potential dangers of attempting to pause AI development. Harwitz believes that AI is the best chance we have at stopping the high number of deaths on Earth daily and that whoever is building the AI has a lot of control about how society is going to work.",
+        "His views on AI's societal impact and its potential to address global issues make him a notable figure in discussions about the future of technology and its implications for humanity."
+      ],
+      "sections": [
+        {
+          "heading": "AI's Societal Impact",
+          "body": "Ben Harwitz discusses the societal impact of AI on the 'Moonshots with Peter Diamandis' podcast, expressing concerns about the departures from X-A-I from the founding team and the potential dangers of attempting to pause AI development."
+        },
+        {
+          "heading": "AI and Global Issues",
+          "body": "Harwitz believes that AI is the best chance we have at stopping the high number of deaths on Earth daily and that whoever is building the AI has a lot of control about how society is going to work."
+        },
+        {
+          "heading": "AI Development",
+          "body": "Harwitz has expressed concerns about the departures from X-A-I from the founding team and the potential dangers of attempting to pause AI development, highlighting the importance of continued progress in AI technology."
+        }
+      ]
+    },
+    "net_worth": "$3.50B"
+  },
+  {
+    "id": 87,
+    "name": "Dr. Cash",
+    "slug": "dr-cash",
+    "bio": "Dr. Cash is a thought leader in the field of AI and technology's impact on the economy and investments. He is recognized for his insights into the future of technology and its influence on investment strategies. Dr. Cash has been tracking the exponential growth of technology and its implications for the future.",
+    "known_for": "His expertise in understanding the implications of AI and technology on economic and investment trends.",
+    "net_worth_usd": 30000000.0,
+    "net_worth_source": "https://www.cinenetworth.com/johnny-cash-net-worth-2/",
+    "net_worth_updated_at": "2026-03-19T22:18:38.378557",
+    "voice_tone": "Inquisitive and analytical.",
+    "voice_style": "Dr. Cash presents a structured argument with a focus on the exponential growth of technology and its implications.",
+    "voice_delivery_notes": "Dr. Cash's delivery is measured, with emphasis on key points regarding technology growth and economic impact.",
+    "voice_profile_updated_at": "2026-03-20 03:06:17",
+    "last_seen": "2026-03-20 03:06:17",
+    "last_episode_title": "The Future of Technology and Investment in AI",
+    "last_podcast_name": "Dwarkesh Podcast",
+    "last_episode_date": "2026-02-19",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investing in AI requires a deep understanding of the technology's exponential growth, the scaling laws governing its development, and the potential economic impact on global growth rates.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-19T22:18:35.594569",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Dr. Cash",
+      "fetched_at": "2026-03-20T03:18:35.594364+00:00",
+      "cliff_notes": "Dr. Cash has made a career out of analyzing the rapid advancements in technology and their effects on economic and investment landscapes. His work is centered around understanding the exponential growth of technology and forecasting its impact on various sectors. He has been particularly vocal about the lack of public recognition concerning the proximity of reaching the end of the exponential growth curve in technology. Dr. Cash's contributions to the discourse on technology and its economic implications have made him a respected voice in the field.",
+      "derived": {},
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Dr. Cash has made a career out of analyzing the rapid advancements in technology and their effects on economic and investment landscapes. His work is centered around understanding the exponential growth of technology and forecasting its impact on various sectors. He has been particularly vocal about the lack of public recognition concerning the proximity of reaching the end of the exponential growth curve in technology.",
+        "Dr. Cash's contributions to the discourse on technology and its economic implications have made him a respected voice in the field."
+      ],
+      "sections": [
+        {
+          "heading": "Technology and Economy",
+          "body": "Dr. Cash discusses the intersection of technology and economic growth, focusing on how advancements in AI and other technologies are shaping the future of investments."
+        },
+        {
+          "heading": "Exponential Growth",
+          "body": "He has been tracking the exponential growth of technology, noting that while the pace has been roughly as expected, the public seems largely unaware of how close we are to reaching the end of this growth phase."
+        },
+        {
+          "heading": "Investment Strategies",
+          "body": "Dr. Cash's insights into the future of technology have significant implications for investment strategies, as he suggests that understanding technological trends is crucial for making informed investment decisions."
+        }
+      ]
+    },
+    "net_worth": "$30.0M"
+  },
+  {
+    "id": 86,
+    "name": "Paul Krugman",
+    "slug": "paul-krugman",
+    "bio": "Paul Krugman is a Nobel Prize-winning economist, distinguished professor, and publisher of the Paul Krugman Substack. Known for his work in international trade and economic geography, Krugman has significantly influenced economic thought and policy.",
+    "known_for": "His insights into international trade, economic geography, and the global economy.",
+    "net_worth_usd": 2500000.0,
+    "net_worth_source": "https://www.therichest.com/celebnetworth/celeb/authors/paul-krugman-net-worth/",
+    "net_worth_updated_at": "2026-03-19T22:19:15.366353",
+    "voice_tone": "Analytical and measured.",
+    "voice_style": "Factual and explanatory, with a focus on economic theory and data.",
+    "voice_delivery_notes": "Delivers complex economic theories in a digestible manner.",
+    "voice_profile_updated_at": "2026-03-20 03:03:32",
+    "last_seen": "2026-03-20 03:03:32",
+    "last_episode_title": "Monetary Matters with Jack Farley: The US Dollar, Trade Deficits, and the Role of AI in Finance",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-02-19",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "The Picta AI Enhanced International Equity ETF (PQNT) uses AI to enhance international equity returns, suggesting a potential for outperformance through technology-driven investment strategies.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-19T22:19:12.461398",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Paul Krugman",
+      "fetched_at": "2026-03-20T03:19:12.461160+00:00",
+      "cliff_notes": "Paul Krugman is a renowned economist who has made significant contributions to the fields of international trade and economic geography. He began his career as an assistant professor at MIT, later moving to Yale and then Stanford. Krugman's work has been influential in shaping economic policy and understanding global economic trends. He has also been a prolific writer, contributing columns to The New York Times and publishing several influential books. His insights into economic theory and policy have made him a respected voice in both academic and public discourse.",
+      "derived": {
+        "current_role": "Distinguished Professor at the Graduate Center of the City University of New York",
+        "former_positions": "Professor of Economics and International Affairs at Princeton University; Columnist for The New York Times",
+        "education": "Ph.D. in Economics from MIT; M.Phil. in Economics from Yale University; B.A. in Economics from Yale University",
+        "political_affiliation": "Independent",
+        "political_summary": "While not directly involved in politics, Krugman is known for his political commentary and has advised policymakers on economic issues.",
+        "books_or_works": "The Return of Depression Economics and the Crisis of 2008; The Conscience of a Liberal; Development, Geography, and Economic Theory",
+        "teaching_summary": "Professor of Economics and International Affairs at Princeton University; Distinguished Professor at the Graduate Center of the City University of New York"
+      },
+      "infobox": {
+        "Born": "February 28, 1953",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Paul Krugman is a renowned economist who has made significant contributions to the fields of international trade and economic geography. He began his career as an assistant professor at MIT, later moving to Yale and then Stanford. Krugman's work has been influential in shaping economic policy and understanding global economic trends.",
+        "He has also been a prolific writer, contributing columns to The New York Times and publishing several influential books. His insights into economic theory and policy have made him a respected voice in both academic and public discourse."
+      ],
+      "sections": [
+        {
+          "heading": "International Trade",
+          "body": "Krugman's work on international trade has been groundbreaking, challenging traditional models and providing new insights into trade patterns and economic development."
+        },
+        {
+          "heading": "Economic Geography",
+          "body": "Krugman's research on economic geography has helped to explain the distribution of economic activity across different regions and the factors that influence this distribution."
+        },
+        {
+          "heading": "Global Economy",
+          "body": "Krugman has been a leading voice in discussions about the global economy, offering insights into currency fluctuations, trade imbalances, and the impacts of globalization."
+        },
+        {
+          "heading": "Economic Policy",
+          "body": "Throughout his career, Krugman has advised policymakers and provided commentary on economic policy, influencing debates on fiscal and monetary policy."
+        }
+      ]
+    },
+    "net_worth": "$2.5M"
+  },
+  {
+    "id": 85,
+    "name": "Alex",
+    "slug": "alex",
+    "bio": "Alex is a thought leader in the field of AI, policy, and the future of capitalism. He is known for co-authoring the 'Soled Everything' paper, which outlines a path to abundance by 2035. Alex frequently discusses the implications of AI on jobs and the social contract.",
+    "known_for": "Contributions to discussions on AI, policy, and the future of capitalism.",
+    "net_worth_usd": 3600000000.0,
+    "net_worth_source": "https://en.wikipedia.org/wiki/Alexandr_Wang",
+    "net_worth_updated_at": "2026-03-19T22:19:32.225554",
+    "voice_tone": "Thoughtful and analytical.",
+    "voice_style": "Alex presents a structured argument with a focus on the long-term implications of AI and automation.",
+    "voice_delivery_notes": "Speaks with a measured pace, emphasizing key points about the future of work and policy.",
+    "voice_profile_updated_at": "2026-03-20 03:03:12",
+    "last_seen": "2026-03-20 03:03:12",
+    "last_episode_title": "Moonshots with Peter Diamandis: AI, Automation, and the Path to Abundance by 2035",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-02-19",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in AI and automation technologies that are driving the transformation of industries and the creation of new economic opportunities, while also considering the social and policy implications of these changes.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-19T22:19:28.331039",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Alex",
+      "fetched_at": "2026-03-20T03:19:28.330840+00:00",
+      "cliff_notes": "Alex is a prominent figure in discussions surrounding the impact of AI on policy and the future of capitalism. He is best known for co-authoring the 'Soled Everything' paper, which proposes a path to achieve abundance by 2035. Alex frequently speaks on the implications of AI on jobs, the social contract, and the potential for AI CEOs to run billion-dollar companies. His work focuses on the intersection of technology, economics, and society, and he is committed to shaping the rules that will govern the next century.",
+      "derived": {
+        "books_or_works": "Soled Everything paper"
+      },
+      "infobox": {},
+      "lead_paragraphs": [
+        "Alex is a prominent figure in discussions surrounding the impact of AI on policy and the future of capitalism. He is best known for co-authoring the 'Soled Everything' paper, which proposes a path to achieve abundance by 2035. Alex frequently speaks on the implications of AI on jobs, the social contract, and the potential for AI CEOs to run billion-dollar companies.",
+        "His work focuses on the intersection of technology, economics, and society, and he is committed to shaping the rules that will govern the next century."
+      ],
+      "sections": [
+        {
+          "heading": "AI and Jobs",
+          "body": "Alex discusses the rapid disappearance of jobs due to AI and automation, arguing that this is not a recession but rather tasks being evaporated in front of our eyes."
+        },
+        {
+          "heading": "Soled Everything Paper",
+          "body": "Alex co-authored the 'Soled Everything' paper, which outlines a path to achieve abundance by 2035. The paper is divided into nine chapters and aims to set the rules for the next century."
+        },
+        {
+          "heading": "Social Contract",
+          "body": "Alex believes that the social contract is disappearing as jobs are replaced by automation, with capitalists being the first in line to be replaced."
+        }
+      ]
+    },
+    "net_worth": "$3.60B"
+  },
+  {
     "id": 84,
     "name": "John Fetterman",
     "slug": "john-fetterman",
-    "bio": "Senator from Pennsylvania, known for his pragmatic approach to policy and bipartisan appeal.",
-    "known_for": "His stance on voting rights, support for Israel, and refusal to shut down the Department of Homeland Security.",
+    "bio": "John Fetterman is a Senator from Pennsylvania, recognized for his pragmatic approach to policy and bipartisan appeal. He is known for his stance on voting rights, support for Israel, and refusal to shut down the Department of Homeland Security.",
+    "known_for": "His pragmatic policy approach and bipartisan appeal, particularly in areas of voting rights and national security.",
     "net_worth_usd": 95000000000.0,
     "net_worth_source": "https://www.wsws.org/en/articles/2025/03/27/yykn-m27.html",
     "net_worth_updated_at": "2026-03-19T15:48:49.103847",
@@ -7491,37 +8527,118 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-18",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "While not directly investment-focused, the episode provides insights into the political climate and potential policy directions that could indirectly affect various sectors and investment strategies.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-19T21:20:25.000396",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "John Fetterman",
+      "fetched_at": "2026-03-20T02:20:25.000069+00:00",
+      "cliff_notes": "John Fetterman, a Democratic Party member, began his career in public service as the Mayor of Braddock, Pennsylvania, where he gained recognition for his efforts to revitalize the town. His pragmatic approach to policy and commitment to bipartisanship led him to be elected as a Senator from Pennsylvania. In the Senate, Fetterman has been a vocal advocate for voting rights and has taken stances that reflect his progressive values while maintaining a broad appeal. His refusal to shut down the Department of Homeland Security and his support for Israel are also part of his political profile. Fetterman's role in the Senate is significant as he navigates the complex political landscape, striving to represent his constituents while pushing for policy changes that align with his values.",
+      "derived": {
+        "current_role": "Senator from Pennsylvania",
+        "political_affiliation": "Democratic Party",
+        "political_summary": "Senator John Fetterman has been involved in politics, serving as the Mayor of Braddock, Pennsylvania, before being elected to the Senate. He is known for his progressive stances and efforts to bridge the partisan divide."
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "John Fetterman, a Democratic Party member, began his career in public service as the Mayor of Braddock, Pennsylvania, where he gained recognition for his efforts to revitalize the town. His pragmatic approach to policy and commitment to bipartisanship led him to be elected as a Senator from Pennsylvania. In the Senate, Fetterman has been a vocal advocate for voting rights and has taken stances that reflect his progressive values while maintaining a broad appeal.",
+        "His refusal to shut down the Department of Homeland Security and his support for Israel are also part of his political profile. Fetterman's role in the Senate is significant as he navigates the complex political landscape, striving to represent his constituents while pushing for policy changes that align with his values."
+      ],
+      "sections": [
+        {
+          "heading": "Voting Rights",
+          "body": "Senator Fetterman is a staunch advocate for voting rights, pushing for legislation that protects and expands access to voting for all citizens."
+        },
+        {
+          "heading": "Bipartisanship",
+          "body": "Fetterman is known for his efforts to work across party lines, seeking common ground on issues to achieve legislative success."
+        },
+        {
+          "heading": "National Security",
+          "body": "He has been vocal in his support for the Department of Homeland Security, emphasizing the importance of national security in the modern era."
+        },
+        {
+          "heading": "Progressive Values",
+          "body": "Senator Fetterman often champions progressive policies, reflecting his commitment to social justice and equality."
+        }
+      ]
+    },
     "net_worth": "$95.00B"
   },
   {
     "id": 83,
     "name": "Jacob Helbert",
     "slug": "jacob-helbert",
-    "bio": "Under Secretary of State for Economic Affairs",
-    "known_for": "Author of 'The Wires of War' and his work on AI, manufacturing, and supply chains",
+    "bio": "Jacob Helbert is the Under Secretary of State for Economic Affairs, known for his work on AI, manufacturing, and supply chains. He is the author of 'The Wires of War' and has been influential in discussions on the geopolitics of technology and the importance of hardware, industrial capacity, and secure supply chains for economic strength and national security.",
+    "known_for": "His insights on AI innovation, manufacturing, and supply chains' role in geopolitics and national security.",
     "net_worth_usd": null,
-    "net_worth_source": null,
+    "net_worth_source": "",
     "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
     "voice_profile_updated_at": null,
     "last_seen": "2026-03-19 03:02:43",
     "last_episode_title": "The Geopolitics of Technology and the Future Economy",
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-18",
     "mention_score": 1,
-    "mention_score_decayed": 1,
-    "last_main_idea": "Invest in companies that are at the forefront of AI innovation, hardware manufacturing, and secure supply chain management to capitalize on the new geopolitics of technology and the reindustrialization of the US."
+    "mention_score_decayed": 0.98,
+    "last_main_idea": "Invest in companies that are at the forefront of AI innovation, hardware manufacturing, and secure supply chain management to capitalize on the new geopolitics of technology and the reindustrialization of the US.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-19T21:20:41.027940",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Jacob Helbert",
+      "fetched_at": "2026-03-20T02:20:41.027811+00:00",
+      "cliff_notes": "Jacob Helbert serves as the Under Secretary of State for Economic Affairs, where he plays a pivotal role in shaping economic policies that intersect with technology and national security. His expertise in AI, manufacturing, and supply chains has made him a key figure in discussions about the future of technology's role in global economics and geopolitics. Helbert's work extends beyond policy-making; he is also an author, with his book 'The Wires of War' providing a framework for understanding the critical importance of hardware, industrial capacity, and secure supply chains in today's interconnected world. His contributions to the discourse on AI and its implications for economic and national security have positioned him as a thought leader in the field.",
+      "derived": {
+        "current_role": "Under Secretary of State for Economic Affairs",
+        "books_or_works": "The Wires of War"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Jacob Helbert serves as the Under Secretary of State for Economic Affairs, where he plays a pivotal role in shaping economic policies that intersect with technology and national security. His expertise in AI, manufacturing, and supply chains has made him a key figure in discussions about the future of technology's role in global economics and geopolitics.",
+        "Helbert's work extends beyond policy-making; he is also an author, with his book 'The Wires of War' providing a framework for understanding the critical importance of hardware, industrial capacity, and secure supply chains in today's interconnected world. His contributions to the discourse on AI and its implications for economic and national security have positioned him as a thought leader in the field."
+      ],
+      "sections": [
+        {
+          "heading": "AI and National Security",
+          "body": "Jacob Helbert emphasizes the importance of AI innovation for national security, advocating for the development of superior AI models to maintain a competitive edge globally."
+        },
+        {
+          "heading": "Manufacturing and Supply Chains",
+          "body": "Helbert discusses the significance of robust manufacturing capabilities and secure supply chains for both economic strength and national security in the modern era."
+        },
+        {
+          "heading": "Geopolitics of Technology",
+          "body": "In his book 'The Wires of War' and various discussions, Helbert explores how technology, particularly in hardware and industrial capacity, has become a central aspect of global politics and power dynamics."
+        },
+        {
+          "heading": "Economic Growth",
+          "body": "Helbert believes in the expansionist view of economics, where the 'pie expands', fostering an environment conducive to starting businesses and driving economic growth."
+        }
+      ]
+    }
   },
   {
     "id": 82,
     "name": "Bob Elliott",
     "slug": "bob-elliott",
-    "bio": "Chief Investment Officer at Unlimited Funds and former member of the Investment Committee at Bridgewater.",
-    "known_for": "Expertise in macroeconomic trading and investment strategy.",
+    "bio": "Bob Elliott is the Chief Investment Officer at Unlimited Funds and a former member of the Investment Committee at Bridgewater. With expertise in macroeconomic trading and investment strategy, Elliott has been influential in the financial sector, particularly in the U.S. macro trading category.",
+    "known_for": "His leadership in macroeconomic trading and investment strategy, and his role in developing the HFGM global macro ETF.",
     "net_worth_usd": 760000.0,
     "net_worth_source": "https://www.gurufocus.com/insider/69270/robert-elliott",
     "net_worth_updated_at": "2026-03-19T15:48:52.999309",
@@ -7534,38 +8651,117 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-19",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "The current elevated oil prices and their subsequent impact on inflation and growth present a complex investment landscape, with stocks and bonds being particularly at risk. Investors should consider packaging trades to navigate these dynamics.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-19T21:21:05.284882",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Bob Elliott",
+      "fetched_at": "2026-03-20T02:21:05.284761+00:00",
+      "cliff_notes": "Bob Elliott is a prominent figure in the financial industry, known for his expertise in macroeconomic trading and investment strategy. He currently serves as the Chief Investment Officer at Unlimited Funds, where he oversees the investment strategies and operations. Previously, Elliott was a member of the Investment Committee at Bridgewater, one of the world's largest hedge funds. His contributions to the development and management of the HFGM global macro ETF have been particularly noteworthy, as it has become the number one Morningstar-rated fund in its category since its inception. Elliott's insights into the impact of oil prices on the economy, stock market, bond market, and Federal Reserve reaction function have been highly sought after, reflecting his deep understanding of the interconnectedness of global financial markets.",
+      "derived": {
+        "current_role": "Chief Investment Officer at Unlimited Funds",
+        "former_positions": "Member of the Investment Committee at Bridgewater"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Bob Elliott is a prominent figure in the financial industry, known for his expertise in macroeconomic trading and investment strategy. He currently serves as the Chief Investment Officer at Unlimited Funds, where he oversees the investment strategies and operations. Previously, Elliott was a member of the Investment Committee at Bridgewater, one of the world's largest hedge funds.",
+        "His contributions to the development and management of the HFGM global macro ETF have been particularly noteworthy, as it has become the number one Morningstar-rated fund in its category since its inception. Elliott's insights into the impact of oil prices on the economy, stock market, bond market, and Federal Reserve reaction function have been highly sought after, reflecting his deep understanding of the interconnectedness of global financial markets."
+      ],
+      "sections": [
+        {
+          "heading": "Macroeconomic Trading",
+          "body": "Bob Elliott is recognized for his deep understanding of macroeconomic trading, which involves large-scale investments based on global economic trends and events."
+        },
+        {
+          "heading": "Investment Strategy",
+          "body": "Elliott's investment strategy expertise has been pivotal in guiding Unlimited Funds and shaping the investment direction of the HFGM global macro ETF."
+        },
+        {
+          "heading": "Impact of Oil Prices",
+          "body": "Elliott has provided insightful commentary on how elevated oil prices impact various economic sectors, including households, stock markets, and monetary policy."
+        },
+        {
+          "heading": "ETF Development",
+          "body": "As a key figure in the development of the HFGM global macro ETF, Elliott has contributed to its success and recognition in the U.S. macro trading category."
+        }
+      ]
+    },
     "net_worth": "$760,000"
   },
   {
     "id": 81,
     "name": "Elon Musk",
     "slug": "elon-musk",
-    "bio": "CEO of Tesla and SpaceX, known for his work in electric vehicles and space exploration.",
-    "known_for": "Innovative technologies and ambitious projects in sustainable energy and space travel.",
+    "bio": "Elon Musk is an entrepreneur and CEO known for his work in electric vehicles and space exploration. He is the CEO of Tesla, an electric car manufacturer, and SpaceX, a space exploration company. Musk is recognized for his innovative technologies and ambitious projects in sustainable energy and space travel.",
+    "known_for": "Elon Musk is known for his leadership in electric vehicles and space exploration, revolutionizing sustainable energy and pushing the boundaries of space technology.",
     "net_worth_usd": 270100000000.0,
     "net_worth_source": "https://www.wikidata.org/wiki/Q317521",
     "net_worth_updated_at": "2026-03-19T15:06:00.316451",
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
     "voice_profile_updated_at": null,
     "last_seen": "2026-03-17 22:17:06",
     "last_episode_title": "Elon Musk on Moonshots: Discussing AI, Robotics, and Future Technologies",
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-03-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Invest in companies at the forefront of AI, robotics, and space technology, as these sectors are poised for significant growth and disruption.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-19T21:21:32.334592",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Elon Musk",
+      "fetched_at": "2026-03-20T02:21:32.334474+00:00",
+      "cliff_notes": "Elon Musk is a South African-born entrepreneur who has made significant contributions to the fields of electric vehicles and space exploration. He co-founded Zip2, a web software company, which was acquired by Compaq for nearly $300 million. Musk then co-founded X.com, which later became PayPal and was acquired by eBay for $1.5 billion. He then founded SpaceX in 2002, with the goal of reducing space transportation costs and enabling the colonization of Mars. In 2004, Musk became an early investor in Tesla, which he later took over as CEO, transforming the electric vehicle industry. Musk's companies have disrupted traditional industries and have a significant impact on sustainable energy and space travel.",
+      "derived": {
+        "current_role": "CEO of Tesla and SpaceX",
+        "former_positions": "CEO of SolarCity; CEO of Zip2; Co-founder of PayPal",
+        "boards": "Tesla, SpaceX, Neuralink, The Boring Company",
+        "education": "Bachelor of Science in Physics and Economics from the University of Pennsylvania; Attended Stanford University for Ph.D. in Physics",
+        "political_affiliation": "Independent"
+      },
+      "infobox": {
+        "Born": "June 28, 1971",
+        "Nationality": "South African-American"
+      },
+      "lead_paragraphs": [
+        "Elon Musk is a South African-born entrepreneur who has made significant contributions to the fields of electric vehicles and space exploration. He co-founded Zip2, a web software company, which was acquired by Compaq for nearly $300 million. Musk then co-founded X.com, which later became PayPal and was acquired by eBay for $1.5 billion.",
+        "He then founded SpaceX in 2002, with the goal of reducing space transportation costs and enabling the colonization of Mars. In 2004, Musk became an early investor in Tesla, which he later took over as CEO, transforming the electric vehicle industry. Musk's companies have disrupted traditional industries and have a significant impact on sustainable energy and space travel."
+      ],
+      "sections": [
+        {
+          "heading": "Tesla",
+          "body": "Tesla, founded by Elon Musk, is an electric vehicle and clean energy company that designs, manufactures, and sells electric cars, solar energy generation systems, and energy storage products. Tesla has revolutionized the electric vehicle industry and is a leader in sustainable energy solutions."
+        },
+        {
+          "heading": "SpaceX",
+          "body": "Space Exploration Technologies Corp. (SpaceX) is a private aerospace manufacturer and space transportation company founded by Elon Musk. SpaceX has developed the Falcon 1, Falcon 9, and Falcon Heavy rockets, and the Dragon spacecraft, aiming to reduce space transportation costs and enable the colonization of Mars."
+        },
+        {
+          "heading": "Sustainable Energy",
+          "body": "Elon Musk's companies, Tesla and SolarCity, have been instrumental in the development and deployment of sustainable energy solutions. Tesla's electric vehicles and SolarCity's solar energy generation systems have contributed significantly to the transition towards renewable energy sources."
+        }
+      ]
+    },
     "net_worth": "$270.10B"
   },
   {
     "id": 79,
     "name": "Chris Morris",
     "slug": "chris-morris",
-    "bio": "President of Lampun Partners, an institutional farmland investment firm focused on acquiring and managing high-quality irrigated row crop farmland in the mid-South region of the United States.",
-    "known_for": "Overseeing the management of over $400 million in farmland assets and delivering strong returns through Lampun Partners' Soil Enrichment Fund.",
+    "bio": "Chris Morris is the President of Lampun Partners, an institutional farmland investment firm specializing in acquiring and managing high-quality irrigated row crop farmland in the mid-South region of the United States. He oversees the management of over $400 million in farmland assets and has delivered strong returns through Lampun Partners' Soil Enrichment Fund.",
+    "known_for": "Delivering strong returns through Lampun Partners' Soil Enrichment Fund and managing over $400 million in farmland assets.",
     "net_worth_usd": 39218.0,
     "net_worth_source": "https://www.gurufocus.com/insider/244914/christopher-morris",
     "net_worth_updated_at": "2026-03-19T15:48:55.367811",
@@ -7580,20 +8776,54 @@ const dashboardData = {
     "mention_score": 1,
     "mention_score_decayed": 0.95,
     "last_main_idea": "Farmland represents an underutilized asset class with diversification benefits and potential for strong returns, particularly in the context of water scarcity and aging farmer demographics.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-19T21:21:47.025691",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Chris Morris",
+      "fetched_at": "2026-03-20T02:21:47.025574+00:00",
+      "cliff_notes": "Chris Morris serves as the President of Lampun Partners, an institutional farmland investment firm that focuses on acquiring and managing high-quality irrigated row crop farmland in the mid-South region of the United States. His leadership has been instrumental in overseeing the management of over $400 million in farmland assets, with a particular emphasis on the Soil Enrichment Fund, which has outperformed the S&P 500 since its inception in October 2021. Morris's expertise in the alternative asset class of farmland investment has positioned Lampun Partners as a significant player in the real assets market, contributing to the diversification of investment portfolios and providing investors with access to a traditionally stable and lucrative sector.",
+      "derived": {
+        "current_role": "President of Lampun Partners"
+      },
+      "infobox": {
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Chris Morris serves as the President of Lampun Partners, an institutional farmland investment firm that focuses on acquiring and managing high-quality irrigated row crop farmland in the mid-South region of the United States. His leadership has been instrumental in overseeing the management of over $400 million in farmland assets, with a particular emphasis on the Soil Enrichment Fund, which has outperformed the S&P 500 since its inception in October 2021.",
+        "Morris's expertise in the alternative asset class of farmland investment has positioned Lampun Partners as a significant player in the real assets market, contributing to the diversification of investment portfolios and providing investors with access to a traditionally stable and lucrative sector."
+      ],
+      "sections": [
+        {
+          "heading": "Farmland Investment",
+          "body": "Chris Morris is recognized for his role in farmland investment, particularly through Lampun Partners, where he manages over $400 million in assets."
+        },
+        {
+          "heading": "Soil Enrichment Fund",
+          "body": "Morris is known for the success of Lampun Partners' Soil Enrichment Fund, which has delivered mid-teen net returns and outperformed the S&P 500 since its inception."
+        },
+        {
+          "heading": "Alternative Assets",
+          "body": "He has contributed to the understanding and growth of farmland as an alternative asset class, providing insights into this sector's potential for investors."
+        }
+      ]
+    },
     "net_worth": "$39,218"
   },
   {
     "id": 77,
     "name": "Shal Misra",
     "slug": "shal-misra",
-    "bio": "Professor and Vice Dean of Computing at Columbia University, known for his work on mathematically modeling the function of LLMs.",
-    "known_for": "Publishing a series of papers explaining the mechanics of LLMs and their limitations in achieving AGI.",
+    "bio": "Shal Misra is a Professor and Vice Dean of Computing at Columbia University. He is recognized for his work on mathematically modeling the function of Large Language Models (LLMs) and exploring their limitations in achieving Artificial General Intelligence (AGI).",
+    "known_for": "His research on the mechanics of LLMs and their limitations in achieving AGI.",
     "net_worth_usd": null,
-    "net_worth_source": null,
+    "net_worth_source": "",
     "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
     "voice_profile_updated_at": null,
     "last_seen": "2026-03-17 11:58:39",
     "last_episode_title": "Understanding the Mechanics of Large Language Models (LLMs) and the Path to AGI",
@@ -7601,14 +8831,51 @@ const dashboardData = {
     "last_episode_date": "2026-03-17",
     "mention_score": 1,
     "mention_score_decayed": 0.95,
-    "last_main_idea": "Investing in companies and technologies that are advancing the understanding and capabilities of LLMs could be a pathway to participate in the development of AGI."
+    "last_main_idea": "Investing in companies and technologies that are advancing the understanding and capabilities of LLMs could be a pathway to participate in the development of AGI.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-19T21:22:07.856822",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Shal Misra",
+      "fetched_at": "2026-03-20T02:22:07.856697+00:00",
+      "cliff_notes": "Shal Misra is a distinguished academic in the field of computing, currently serving as a Professor and Vice Dean of Computing at Columbia University. His research primarily focuses on understanding the mechanics of Large Language Models (LLMs) and their limitations in achieving Artificial General Intelligence (AGI). Misra's work involves mathematically modeling the function of LLMs, showing how they update their predictions in a precise, mathematically predictable way. His research has demonstrated that while LLMs excel at pattern matching, they do not build models of cause and effect, a critical distinction from true intelligence. Misra's contributions to the understanding of LLMs are significant, as they provide a deeper insight into the capabilities and limitations of current AI technology, shaping the discourse around the development of AGI.",
+      "derived": {
+        "current_role": "Professor and Vice Dean of Computing at Columbia University",
+        "books_or_works": "Series of papers on the mechanics of LLMs and their limitations in achieving AGI",
+        "teaching_summary": "Professorship in Computing at Columbia University"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Shal Misra is a distinguished academic in the field of computing, currently serving as a Professor and Vice Dean of Computing at Columbia University. His research primarily focuses on understanding the mechanics of Large Language Models (LLMs) and their limitations in achieving Artificial General Intelligence (AGI). Misra's work involves mathematically modeling the function of LLMs, showing how they update their predictions in a precise, mathematically predictable way.",
+        "His research has demonstrated that while LLMs excel at pattern matching, they do not build models of cause and effect, a critical distinction from true intelligence. Misra's contributions to the understanding of LLMs are significant, as they provide a deeper insight into the capabilities and limitations of current AI technology, shaping the discourse around the development of AGI."
+      ],
+      "sections": [
+        {
+          "heading": "LLMs and AGI",
+          "body": "Shal Misra is known for his research into the mechanics of Large Language Models and their limitations in achieving Artificial General Intelligence. His work involves mathematically modeling how LLMs function and predicting their limitations in understanding cause and effect."
+        },
+        {
+          "heading": "Pattern Matching vs Intelligence",
+          "body": "Misra argues that while LLMs are adept at pattern matching, they do not possess true intelligence as they fail to build models of cause and effect. This distinction is crucial in understanding the capabilities and limitations of current AI technology."
+        },
+        {
+          "heading": "Mathematical Modeling",
+          "body": "Misra's research involves creating mathematical models to understand how LLMs function. His models have shown that in controlled experiments, LLMs can match the theoretically correct answer almost perfectly, highlighting their proficiency in pattern recognition."
+        }
+      ]
+    }
   },
   {
     "id": 74,
     "name": "Travis Kalanick",
     "slug": "travis-kalanick",
-    "bio": "Founder of Cloud Kitchens and former CEO of Uber.",
-    "known_for": "His work in the transportation and food delivery sectors.",
+    "bio": "Travis Kalanick is an entrepreneur known for his work in the transportation and food delivery sectors. He is the founder of Cloud Kitchens and the former CEO of Uber. Kalanick has been an influential figure in the tech industry, particularly in the sharing economy.",
+    "known_for": "His role in revolutionizing transportation and food delivery through Uber and Cloud Kitchens.",
     "net_worth_usd": 3600000000.0,
     "net_worth_source": "https://finance.yahoo.com/news/uber-founder-travis-kalanick-becomes-201906670.html",
     "net_worth_updated_at": "2026-03-19T15:49:00.323498",
@@ -7623,20 +8890,57 @@ const dashboardData = {
     "mention_score": 1,
     "mention_score_decayed": 0.95,
     "last_main_idea": "Invest in companies that are digitizing the physical world and transforming traditional industries through technology.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-19T21:22:31.110715",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Travis Kalanick",
+      "fetched_at": "2026-03-20T02:22:31.110604+00:00",
+      "cliff_notes": "Travis Kalanick is an American entrepreneur who co-founded Uber, a ridesharing company that revolutionized urban transportation. Born in Los Angeles, Kalanick studied computer engineering at UCLA before dropping out to pursue his entrepreneurial ambitions. He founded Scour, a file-sharing service, and later Red Swoosh, a content delivery network. After selling Red Swoosh, Kalanick co-founded Uber in 2009, which grew to become a global transportation giant. Despite stepping down as CEO in 2017, he remained on the board until 2019. Kalanick then founded Cloud Kitchens, a company that operates delivery-only kitchens for restaurants. His ventures have significantly impacted the tech and transportation sectors, shaping the modern sharing economy.",
+      "derived": {
+        "current_role": "Founder of Cloud Kitchens",
+        "former_positions": "Co-founder and CEO of Uber",
+        "education": "Bachelor's degree in Computer Engineering from the University of California, Los Angeles (UCLA)"
+      },
+      "infobox": {
+        "Born": "1976",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Travis Kalanick is an American entrepreneur who co-founded Uber, a ridesharing company that revolutionized urban transportation. Born in Los Angeles, Kalanick studied computer engineering at UCLA before dropping out to pursue his entrepreneurial ambitions. He founded Scour, a file-sharing service, and later Red Swoosh, a content delivery network.",
+        "After selling Red Swoosh, Kalanick co-founded Uber in 2009, which grew to become a global transportation giant. Despite stepping down as CEO in 2017, he remained on the board until 2019. Kalanick then founded Cloud Kitchens, a company that operates delivery-only kitchens for restaurants. His ventures have significantly impacted the tech and transportation sectors, shaping the modern sharing economy."
+      ],
+      "sections": [
+        {
+          "heading": "Uber",
+          "body": "Kalanick co-founded Uber in 2009, which grew to become a global transportation giant, transforming urban mobility and the gig economy."
+        },
+        {
+          "heading": "Cloud Kitchens",
+          "body": "After leaving Uber, Kalanick founded Cloud Kitchens, a company that operates delivery-only kitchens for restaurants, further disrupting the food delivery sector."
+        },
+        {
+          "heading": "Influence on Sharing Economy",
+          "body": "Travis Kalanick's ventures have had a significant impact on the sharing economy, influencing the way people think about transportation and food delivery services."
+        }
+      ]
+    },
     "net_worth": "$3.60B"
   },
   {
     "id": 75,
     "name": "Michael Dell",
     "slug": "michael-dell",
-    "bio": "Founder and CEO of Dell Technologies.",
-    "known_for": "Building one of the world's largest technology infrastructure companies.",
+    "bio": "Michael Dell is an American businessman and philanthropist, best known as the founder and CEO of Dell Technologies, one of the world's largest technology infrastructure companies.",
+    "known_for": "Building one of the world's largest technology infrastructure companies and being an influential figure in the tech industry.",
     "net_worth_usd": 37600000000.0,
     "net_worth_source": "https://www.wikidata.org/wiki/Q218630",
     "net_worth_updated_at": "2026-03-19T15:06:02.916452",
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
     "voice_profile_updated_at": null,
     "last_seen": "2026-03-17 10:15:16",
     "last_episode_title": "Stealth Startups and the Digitization of the Physical World",
@@ -7645,14 +8949,50 @@ const dashboardData = {
     "mention_score": 1,
     "mention_score_decayed": 0.95,
     "last_main_idea": "Invest in companies that are digitizing the physical world and transforming traditional industries through technology.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-19T21:22:53.714266",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Michael Dell",
+      "fetched_at": "2026-03-20T02:22:53.714063+00:00",
+      "cliff_notes": "Michael Dell founded Dell Technologies in 1984, originally named PCs Limited, at the age of 19. The company quickly grew to become one of the leading computer technology providers, specializing in manufacturing and selling personal computers, servers, and storage devices. Dell's innovative direct-sales model allowed customers to order custom-configured PCs, which streamlined the supply chain and reduced costs. Over the years, Dell Technologies expanded through acquisitions and strategic partnerships, becoming a multinational technology giant. Michael Dell's leadership and vision have been instrumental in shaping the company's success and its impact on the tech industry.",
+      "derived": {
+        "current_role": "Founder and CEO of Dell Technologies",
+        "education": "University of Texas at Austin; dropped out to focus on his business"
+      },
+      "infobox": {
+        "Born": "February 23, 1965",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Michael Dell founded Dell Technologies in 1984, originally named PCs Limited, at the age of 19. The company quickly grew to become one of the leading computer technology providers, specializing in manufacturing and selling personal computers, servers, and storage devices. Dell's innovative direct-sales model allowed customers to order custom-configured PCs, which streamlined the supply chain and reduced costs.",
+        "Over the years, Dell Technologies expanded through acquisitions and strategic partnerships, becoming a multinational technology giant. Michael Dell's leadership and vision have been instrumental in shaping the company's success and its impact on the tech industry."
+      ],
+      "sections": [
+        {
+          "heading": "Dell Technologies",
+          "body": "Michael Dell founded Dell Technologies in 1984, which grew to become one of the world's largest technology infrastructure companies. The company is known for its innovative direct-sales model and its wide range of computer technology products."
+        },
+        {
+          "heading": "Innovation and Growth",
+          "body": "Under Michael Dell's leadership, Dell Technologies has been at the forefront of technological innovation, constantly expanding its product offerings and market reach. The company's growth has been driven by strategic acquisitions, such as the acquisition of EMC Corporation in 2016, which significantly broadened its portfolio."
+        },
+        {
+          "heading": "Philanthropy",
+          "body": "Michael Dell is also known for his philanthropic efforts. Through the Michael & Susan Dell Foundation, he has made significant contributions to various causes, including education, urban health, and family economic stability."
+        }
+      ]
+    },
     "net_worth": "$37.60B"
   },
   {
     "id": 73,
     "name": "Sam Altman",
     "slug": "sam-altman",
-    "bio": "President of Y Combinator and Co-Chair of OpenAI.",
-    "known_for": "His work in startup incubation and contributions to the field of artificial intelligence.",
+    "bio": "Sam Altman is a prominent figure in the tech industry, known for his work in startup incubation and contributions to artificial intelligence. He is currently the President of Y Combinator and Co-Chair of OpenAI. Altman has been influential in shaping the future of technology and entrepreneurship.",
+    "known_for": "His leadership in startup incubation and his role in advancing artificial intelligence through OpenAI.",
     "net_worth_usd": 2100000000.0,
     "net_worth_source": "https://en.wikipedia.org/wiki/Sam_Altman",
     "net_worth_updated_at": "2026-03-19T15:49:02.565192",
@@ -7665,22 +9005,59 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-02-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Invest in AI and automation technologies that are driving the shift towards AI governance and efficiency in business operations.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-19T21:23:16.367259",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Sam Altman",
+      "fetched_at": "2026-03-20T02:23:16.367009+00:00",
+      "cliff_notes": "Sam Altman is an American entrepreneur and investor who has made significant contributions to the fields of startup incubation and artificial intelligence. He began his career in tech by founding Loopt, a location-based social network, which was later sold. Altman then joined Y Combinator, a startup accelerator, where he rose to become its President. In this role, he has been instrumental in nurturing and launching numerous successful startups. Concurrently, Altman co-founded OpenAI, a research laboratory focused on ensuring that artificial general intelligence benefits humanity. His work in both these domains has positioned him as a key player in the tech industry, influencing the trajectory of entrepreneurship and AI development.",
+      "derived": {
+        "current_role": "President of Y Combinator; Co-Chair of OpenAI",
+        "former_positions": "President of Y Combinator; Co-Chair of OpenAI",
+        "education": "Stanford University; dropout"
+      },
+      "infobox": {
+        "Born": "1985",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Sam Altman is an American entrepreneur and investor who has made significant contributions to the fields of startup incubation and artificial intelligence. He began his career in tech by founding Loopt, a location-based social network, which was later sold. Altman then joined Y Combinator, a startup accelerator, where he rose to become its President.",
+        "In this role, he has been instrumental in nurturing and launching numerous successful startups. Concurrently, Altman co-founded OpenAI, a research laboratory focused on ensuring that artificial general intelligence benefits humanity. His work in both these domains has positioned him as a key player in the tech industry, influencing the trajectory of entrepreneurship and AI development."
+      ],
+      "sections": [
+        {
+          "heading": "Startup Incubation",
+          "body": "Sam Altman has been a driving force in the startup ecosystem, particularly through his leadership at Y Combinator, which has helped launch and scale many successful companies."
+        },
+        {
+          "heading": "Artificial Intelligence",
+          "body": "Altman co-founded OpenAI, a research organization dedicated to the responsible development and application of AI technologies, ensuring they are aligned with the interests of humanity."
+        },
+        {
+          "heading": "Future of Work",
+          "body": "Altman has expressed views on the future of work, particularly in relation to AI and automation, suggesting that the next few years will be pivotal in setting the course for the next century."
+        }
+      ]
+    },
     "net_worth": "$2.10B"
   },
   {
     "id": 69,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
-    "bio": "Ben Horowitz is a co-founder of the venture capital firm Andreessen Horowitz (a16z).",
-    "known_for": "Co-founder of a16z",
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
+    "bio": "Ben Horowitz is a prominent venture capitalist and co-founder of Andreessen Horowitz (a16z), a leading venture capital firm in Silicon Valley. He has been instrumental in shaping the tech industry through his investments and insights.",
+    "known_for": "Co-founding Andreessen Horowitz and shaping the tech industry through strategic investments and influential thought leadership.",
+    "net_worth_usd": 2000000000.0,
+    "net_worth_source": "https://www.cinenetworth.com/ben-horowitz-net-worth/",
+    "net_worth_updated_at": "2026-03-19T21:23:34.764792",
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
     "voice_profile_updated_at": null,
     "last_seen": "2026-03-16 19:37:22",
     "last_episode_title": "Moonshots Podcast Episode #231 - OpenAI Acquires OpenClaw, 400x Cost Collapse, & Why India Wins the Talent War",
@@ -7688,133 +9065,49 @@ const dashboardData = {
     "last_episode_date": "2026-02-18",
     "mention_score": 2,
     "mention_score_decayed": 1.87,
-    "last_main_idea": "Invest in the vertical integration of AI, the rise of India as a global AI hub, and the shift towards agent-based interactions."
-  },
-  {
-    "id": 43,
-    "name": "Olivia Moore",
-    "slug": "olivia-moore",
-    "bio": "Olivia Moore is a partner at A16Z, focusing on AI applications.",
-    "known_for": "Her expertise in AI and its applications in various sectors.",
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-03-16 13:08:23",
-    "last_episode_title": "AI Startups and the Future of Technology",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-03-16",
-    "mention_score": 2,
-    "mention_score_decayed": 1.87,
-    "last_main_idea": "Invest in AI startups that focus on specific niches and use cases, as they can compete effectively against larger AI companies by capitalizing on the gaps between platforms."
-  },
-  {
-    "id": 66,
-    "name": "Mark Suster",
-    "slug": "mark-suster",
-    "bio": "Mark Suster is a venture capitalist and entrepreneur, known for his work at Upfront Ventures and his blog BothSidesoftheTable.com.",
-    "known_for": "Venture Capital, Entrepreneurship, and Startup Advice",
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-03-16 10:04:45",
-    "last_episode_title": "The Intersection of Technology, Entrepreneurship, and the Future",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-03-15",
-    "mention_score": 1,
-    "mention_score_decayed": 0.93,
-    "last_main_idea": "Invest in technology-driven businesses with a strong founder's mindset that focus on building and scaling rather than introspection, as they are more likely to shape the future and create significant value."
-  },
-  {
-    "id": 65,
-    "name": "Alex Gorovich",
-    "slug": "alex-gorovich",
-    "bio": "Founder and Chief Investment Officer at Hauntay Asset Management, author of 'The Next Perfect Trade: The Magic Sword of Necessity'.",
-    "known_for": "His views on precious metals and long-term trading strategies.",
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-03-16 10:04:22",
-    "last_episode_title": "Monetary Matters with Jack Farley: Precious Metals, Bonds, and Economic Cycles",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-03-15",
-    "mention_score": 1,
-    "mention_score_decayed": 0.93,
-    "last_main_idea": "Invest in platinum as a hybrid precious and industrial metal with potential for growth outside of traditional economic cycles, and consider the impact of AI on productivity and government deficits on interest rates."
-  },
-  {
-    "id": 64,
-    "name": "Brad Gersner",
-    "slug": "brad-gersner",
-    "bio": "Brad Gersner, a guest on the podcast, is known for his involvement in Trump accounts and his insights into the intersection of politics and finance.",
-    "known_for": "Trump accounts and financial market commentary",
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-03-14 10:01:17",
-    "last_episode_title": "Investing in Capitalism: Trump Accounts, AI, and the Future of Wealth",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-03-13",
-    "mention_score": 1,
-    "mention_score_decayed": 0.89,
-    "last_main_idea": "Invest in technologies and platforms that democratize capitalism and leverage AI to create scalable solutions in coding and product development."
-  },
-  {
-    "id": 60,
-    "name": "Michael Griffin",
-    "slug": "michael-griffin",
-    "bio": "Under Secretary of Defense for Research and Engineering, and acting director of the Defense Innovation Unit.",
-    "known_for": "Prior experience as a Silicon Valley executive and public servant.",
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-03-13 18:27:45",
-    "last_episode_title": "AI in Defense and the Future of Military Technology",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-03-13",
-    "mention_score": 1,
-    "mention_score_decayed": 0.87,
-    "last_main_idea": "Investment in AI technology within the defense sector is critical for maintaining national security and ensuring operational effectiveness."
-  },
-  {
-    "id": 59,
-    "name": "Martin Wolff",
-    "slug": "martin-wolff",
-    "bio": "Chief Economics Commentator for the Financial Times",
-    "known_for": "Expert analysis on global economic and political issues",
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-03-13 18:27:35",
-    "last_episode_title": "Monetary Matters: The Impact of US-Iran Conflict on the World Economy",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-03-13",
-    "mention_score": 1,
-    "mention_score_decayed": 0.87,
-    "last_main_idea": "Investors should consider the geopolitical risks associated with the US-Iran conflict and the potential impact on global oil supply, as well as the long-term shift towards renewable energy sources."
+    "last_main_idea": "Invest in the vertical integration of AI, the rise of India as a global AI hub, and the shift towards agent-based interactions.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-19T21:23:33.038094",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Ben Horowitz",
+      "fetched_at": "2026-03-20T02:23:33.037970+00:00",
+      "cliff_notes": "Ben Horowitz is a renowned venture capitalist and entrepreneur. He co-founded Andreessen Horowitz (a16z) with Marc Andreessen in 2009, which has since become one of the most influential venture capital firms in Silicon Valley. Prior to a16z, Horowitz was a general partner at the venture capital firm Opsware, which was acquired by Hewlett-Packard for $1.6 billion in 2007. Before his venture capital career, Horowitz was a software engineer and entrepreneur, founding several companies including Loudcloud and Opsware. He has been a driving force in the tech industry, investing in and advising numerous successful startups. Horowitz is also known for his bestselling book, 'The Hard Thing About Hard Things,' which offers insights into the challenges of building and running a startup.",
+      "derived": {
+        "current_role": "Co-founder of Andreessen Horowitz",
+        "education": "Bachelor's degree in Computer Science from Columbia University; Master's degree in Computer Science from UCLA",
+        "books_or_works": "The Hard Thing About Hard Things: Building a Business When There Are No Easy Answers"
+      },
+      "infobox": {
+        "Born": "1973",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Ben Horowitz is a renowned venture capitalist and entrepreneur. He co-founded Andreessen Horowitz (a16z) with Marc Andreessen in 2009, which has since become one of the most influential venture capital firms in Silicon Valley. Prior to a16z, Horowitz was a general partner at the venture capital firm Opsware, which was acquired by Hewlett-Packard for $1.6 billion in 2007.",
+        "Before his venture capital career, Horowitz was a software engineer and entrepreneur, founding several companies including Loudcloud and Opsware. He has been a driving force in the tech industry, investing in and advising numerous successful startups. Horowitz is also known for his bestselling book, 'The Hard Thing About Hard Things,' which offers insights into the challenges of building and running a startup."
+      ],
+      "sections": [
+        {
+          "heading": "Venture Capital",
+          "body": "Ben Horowitz is a leading figure in the venture capital industry, co-founding Andreessen Horowitz and investing in numerous successful startups."
+        },
+        {
+          "heading": "Tech Industry Influence",
+          "body": "Horowitz has been instrumental in shaping the tech industry through his strategic investments and influential thought leadership."
+        },
+        {
+          "heading": "Entrepreneurship",
+          "body": "Before his venture capital career, Horowitz was an entrepreneur, founding companies such as Loudcloud and Opsware."
+        },
+        {
+          "heading": "Thought Leadership",
+          "body": "Horowitz is known for his bestselling book, 'The Hard Thing About Hard Things,' which offers insights into the challenges of building and running a startup."
+        }
+      ]
+    },
+    "net_worth": "$2.00B"
   }
 ]
 };

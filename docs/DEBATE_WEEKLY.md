@@ -4,7 +4,8 @@
 
 | Piece | Role |
 |-------|------|
-| `pipeline/debate_weekly.py` | Friday job: archive last week → LLM new Yes/No contract (from DB Overton + insights) → LLM debater speeches → rotate pundit pair → ElevenLabs MP3 |
+| `pipeline/debate_weekly.py` | Friday job: archive last week → LLM Yes/No contract (Overton + insights + **live Polymarket Gamma themes** + anti-repeat / banned numerics) → LLM speeches (**full pundit profile** per debater) → rotate pair → ElevenLabs MP3 |
+| `pipeline/polymarket_debate_context.py` | Fetches public [Gamma API](https://gamma-api.polymarket.com) events (no auth), filters out sports/pop noise, sorts by volume + relevance for macro/policy/crypto/tech ideas only. |
 | `site/audio/debate_contract.json` | **Current week** (prompt, debaters, expiry, bet status). Often gitignored; push with `-f` for Pages. |
 | `site/debate_history.json` | **Prior weeks** + `rotation_index`. Commit so the site shows history and resolution. |
 | `pipeline/state/last_debate_scripts.json` | Last TTS scripts (local). `generate_debate_audio_11labs.py` / `--audio-only` reuse this. |
@@ -42,6 +43,7 @@ Update `site/debate_history.json` via `--mark-resolved`, or edit the matching `w
 - ElevenLabs: `ELEVENLABS_*` in `.env`.
 - `site/data/pundits.json` from export (debater rotation).
 - `pipeline/dashboard.db` with Overton + insights for topic context.
+- Network (optional): Polymarket Gamma for fresh market themes; `requests` in env.
 
 ## Archived audio
 
