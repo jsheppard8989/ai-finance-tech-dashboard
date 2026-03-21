@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-03-20T15:23:37.868769",
-  "last_updated": "2026-03-20T15:23:37.868769",
-  "last_pipeline_run": "2026-03-20T15:23:37.868769",
+  "generated_at": "2026-03-20T22:09:56.440661",
+  "last_updated": "2026-03-20T22:09:56.440661",
+  "last_pipeline_run": "2026-03-20T22:09:56.440661",
   "main_page": {
     "overton": 8,
     "insights": 8,
@@ -13,19 +13,17 @@
     "newsletters": 7,
     "daily_scores": 77,
     "overton_terms_total": 16,
-    "latest_insights_total": 82,
-    "today_mentions": {
-      "podcast": 3
-    },
+    "latest_insights_total": 83,
+    "today_mentions": {},
     "podcasts_analyzed": 5
   },
   "step_results": {
-    "downloaded": 5,
-    "transcribed": 5,
-    "analyzed": 5,
-    "insight_created": 3,
-    "published": 3,
-    "total": 10
+    "downloaded": 4,
+    "transcribed": 4,
+    "analyzed": 4,
+    "insight_created": 0,
+    "published": 1,
+    "total": 7
   },
   "episodes": [
     {
@@ -39,29 +37,12 @@
         "transcribed": true,
         "analyzed": true,
         "insight_created": false,
-        "published": false
-      },
-      "stage_reasons": {
-        "insight_created": "No latest_insights row for this episode (insight step not reflected in DB yet).",
-        "published": "added_to_site=0 (export/publish step not reflected in DB yet)."
-      },
-      "status": "needs_insight"
-    },
-    {
-      "id": "e50ec482-23cc-11f1-a0f2-b7965cafb38b",
-      "podcast": "Monetary Matters with Jack Farley",
-      "title": "Monetary Matters: Geopolitical Impact on Oil Markets with Rory Johnston",
-      "published": "2026-03-19",
-      "rss_guid": "e50ec482-23cc-11f1-a0f2-b7965cafb38b",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
         "published": true
       },
-      "stage_reasons": {},
-      "status": "complete"
+      "stage_reasons": {
+        "insight_created": "No latest_insights row for this episode (insight step not reflected in DB yet)."
+      },
+      "status": "needs_insight"
     },
     {
       "id": "e3ce0ba4-22dd-11f1-b3e1-ef93882cc84d",
@@ -84,6 +65,25 @@
         "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
       },
       "status": "needs_download"
+    },
+    {
+      "id": "5f117324-ba75-4af2-b75f-a419a177b639",
+      "podcast": "The a16z Show",
+      "title": "Understanding the Mechanics of Large Language Models (LLMs) and the Path to AGI",
+      "published": "2026-03-20",
+      "rss_guid": "5f117324-ba75-4af2-b75f-a419a177b639",
+      "stages": {
+        "downloaded": true,
+        "transcribed": true,
+        "analyzed": true,
+        "insight_created": false,
+        "published": false
+      },
+      "stage_reasons": {
+        "insight_created": "No latest_insights row for this episode (insight step not reflected in DB yet).",
+        "published": "added_to_site=0 (export/publish step not reflected in DB yet)."
+      },
+      "status": "needs_insight"
     },
     {
       "id": "1e92a9dd-78da-4417-b1ce-4b4318d1f8c4",
@@ -127,36 +127,23 @@
       "status": "needs_download"
     },
     {
-      "id": "b9112fca-9ebf-47e8-a8a1-9bcbcf39cf84",
-      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "title": "AI Factory and the Future of Computing",
-      "published": "2026-03-19",
-      "rss_guid": "b9112fca-9ebf-47e8-a8a1-9bcbcf39cf84",
+      "id": "substack:post:191582481",
+      "podcast": "Dwarkesh Podcast",
+      "title": "Semiconductors and the Future of Compute",
+      "published": "2026-03-20",
+      "rss_guid": "substack:post:191582481",
       "stages": {
         "downloaded": true,
         "transcribed": true,
         "analyzed": true,
-        "insight_created": true,
-        "published": true
+        "insight_created": false,
+        "published": false
       },
-      "stage_reasons": {},
-      "status": "complete"
-    },
-    {
-      "id": "macrovoices.podbean.com/50fdd645-b02f-394a-b564-556f8054273e",
-      "podcast": "Macro Voices",
-      "title": "Macro Voices: The Iran Conflict's Impact on Inflation and Energy Markets",
-      "published": "2026-03-19",
-      "rss_guid": "macrovoices.podbean.com/50fdd645-b02f-394a-b564-556f8054273e",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
+      "stage_reasons": {
+        "insight_created": "No latest_insights row for this episode (insight step not reflected in DB yet).",
+        "published": "added_to_site=0 (export/publish step not reflected in DB yet)."
       },
-      "stage_reasons": {},
-      "status": "complete"
+      "status": "needs_insight"
     },
     {
       "id": "substack:post:190118311",
@@ -177,52 +164,6 @@
         "analyzed": "Not in DB yet (approved, but not pulled into pipeline DB).",
         "insight_created": "Not in DB yet (approved, but not pulled into pipeline DB).",
         "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
-      },
-      "status": "needs_download"
-    },
-    {
-      "id": "rss::the a16z show::inside palantir: building software that matters with shyam sankar",
-      "podcast": "The a16z Show",
-      "title": "Inside Palantir: Building Software That Matters with Shyam Sankar",
-      "published": "2026-03-20",
-      "published_date": "2026-03-20",
-      "rss_guid": "",
-      "stages": {
-        "downloaded": false,
-        "transcribed": false,
-        "analyzed": false,
-        "insight_created": false,
-        "published": false
-      },
-      "stage_reasons": {
-        "downloaded": "Discovered on RSS feed; not yet pulled into curation/pipeline state.",
-        "transcribed": "Waiting for download first.",
-        "analyzed": "Waiting for transcript first.",
-        "insight_created": "Depends on analyze step first.",
-        "published": "Not on site until export after analysis and insight promotion."
-      },
-      "status": "needs_download"
-    },
-    {
-      "id": "rss::dwarkesh podcast::terence tao \u2013 kepler, newton, and the true nature of mathematical discovery",
-      "podcast": "Dwarkesh Podcast",
-      "title": "Terence Tao \u2013 Kepler, Newton, and the true nature of mathematical discovery",
-      "published": "2026-03-20",
-      "published_date": "2026-03-20",
-      "rss_guid": "",
-      "stages": {
-        "downloaded": false,
-        "transcribed": false,
-        "analyzed": false,
-        "insight_created": false,
-        "published": false
-      },
-      "stage_reasons": {
-        "downloaded": "Discovered on RSS feed; not yet pulled into curation/pipeline state.",
-        "transcribed": "Waiting for download first.",
-        "analyzed": "Waiting for transcript first.",
-        "insight_created": "Depends on analyze step first.",
-        "published": "Not on site until export after analysis and insight promotion."
       },
       "status": "needs_download"
     }

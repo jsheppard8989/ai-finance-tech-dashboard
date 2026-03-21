@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-03-19T22:02:32.392969",
-  "total_feed_episodes": 8,
-  "approved_for_transcription": 8,
+  "timestamp": "2026-03-20T22:00:32.936894",
+  "total_feed_episodes": 7,
+  "approved_for_transcription": 7,
   "episodes": [
     {
       "podcast": "Moonshots with Peter Diamandis",
@@ -18,19 +18,6 @@
     },
     {
       "podcast": "Monetary Matters with Jack Farley",
-      "title": "\u201cThis Is The End of The Oil Market As We Know It\u201d | Rory Johnston on How $300 Oil Could Trigger Depression If De-Escalation Does Not Occur In Iran War",
-      "description": "\n        <p>20% discount to annual subscription to Rory Johnston\u2019s Commodity Context: <a href=\"https://www.commoditycontext.com/monetarymatters\"><u>https://www.commoditycontext.com/monetarymatters</u></a></p>\n<p><br></p>\n<p>In this urgent episode of Monetary Matters Today, Jack sits down with Rory Johnston of Commodity Context to break down the unprecedented global oil shock caused by the ongoing war in Iran and the closure of the Strait of Hormuz. With 20 million barrels of daily flow disrupted",
-      "audio_url": "https://traffic.megaphone.fm/EWWMN9153105374.mp3",
-      "published": "Thu, 19 Mar 2026 19:50:00 -0000",
-      "published_date": "2026-03-19",
-      "rss_guid": "e50ec482-23cc-11f1-a0f2-b7965cafb38b",
-      "status": "APPROVED",
-      "matched_keywords": [],
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/monetary_matters_with_jack_farley__this_is_the_end_of_the_oil_market_as_we_know_it____rory_joh_c58dc548.mp3",
-      "filename": "monetary_matters_with_jack_farley__this_is_the_end_of_the_oil_market_as_we_know_it____rory_joh_c58dc548.mp3"
-    },
-    {
-      "podcast": "Monetary Matters with Jack Farley",
       "title": "Stock Market on Shaky Foundations | Blind Squirrel Macro\u2019s Rupert Mitchell on IPO Supply, Oil, and Private Credit",
       "description": "\n        <p>Learn more about Teucrium\u2019s Soybean ETF (SOYB) here: <a href=\"https://teucrium.com/soyb\"><u>https://teucrium.com/soyb</u><br></a></p>\n<p>In this episode of Monetary Matters, Jack sits down with Rupert Mitchell of Blind Squirrel Macro to unpack why the foundations of the current US stock market bull run might be crumbling. Mitchell details his transition to a 50% cash and gold portfolio, warning that a looming wave of jumbo IPOs and cracks in the private credit markets could severely ",
       "audio_url": "https://traffic.megaphone.fm/EWWMN5922696172.mp3",
@@ -41,6 +28,19 @@
       "matched_keywords": [],
       "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/monetary_matters_with_jack_farley_stock_market_on_shaky_foundations___blind_squirrel_macro_s_r_12c3cce4.mp3",
       "filename": "monetary_matters_with_jack_farley_stock_market_on_shaky_foundations___blind_squirrel_macro_s_r_12c3cce4.mp3"
+    },
+    {
+      "podcast": "The a16z Show",
+      "title": "Inside Palantir: Building Software That Matters with Shyam Sankar",
+      "description": "<p>In this conversation, Shyam Sankar, chief technology officer at Palantir Technologies, discusses his new book Mobilize, his commission in the U.S. Army, and why he believes the most important thing America can do right now is inspire its latent heretics to step forward. He also breaks down how he thinks about the SaaS market under AI pressure, what the \"alpha versus beta software\" distinction means for which companies survive, and why he started a film production company.</p>\n<p><p><strong>St",
+      "audio_url": "https://mgln.ai/e/1344/afp-848985-injected.calisto.simplecastaudio.com/3f86df7b-51c6-4101-88a2-550dba782de8/episodes/424ce8dd-ed62-4972-a5cb-cfa0cf910ab1/audio/128/default.mp3?aid=rss_feed&awCollectionId=3f86df7b-51c6-4101-88a2-550dba782de8&awEpisodeId=424ce8dd-ed62-4972-a5cb-cfa0cf910ab1&feed=JGE3yC0V",
+      "published": "Fri, 20 Mar 2026 10:00:00 +0000",
+      "published_date": "2026-03-20",
+      "rss_guid": "5f117324-ba75-4af2-b75f-a419a177b639",
+      "status": "APPROVED",
+      "matched_keywords": [],
+      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_inside_palantir__building_software_that_matters_with_shyam_s_fdfefe2b.mp3",
+      "filename": "the_a16z_show_inside_palantir__building_software_that_matters_with_shyam_s_fdfefe2b.mp3"
     },
     {
       "podcast": "The a16z Show",
@@ -69,30 +69,17 @@
       "filename": "the_a16z_show_chris_dixon__from_quant_trading_to_building_a16z_crypto_be2e5b4b.mp3"
     },
     {
-      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "title": "Jensen Huang LIVE: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
-      "description": "<p>(0:00) Jensen Huang joins the show!</p> <p>(0:26) Acquiring Groq and the inference explosion</p> <p>(8:53) Decision making at the world's most valuable company</p> <p>(10:47) Physical AI's $50T market, OpenClaw's future, the new operating system for modern AI computing</p> <p>(16:38) AI's PR crisis, refuting doomer narratives, Anthropic's comms mistakes</p> <p>(20:48) Revenue capacity, token allocation for employees, Karpathy's autoresearch, agentic future</p> <p>(30:50) Open source, global d",
-      "audio_url": "https://dts.podtrac.com/redirect.mp3/traffic.libsyn.com/secure/allinchamathjason/ALLIN-INTV_Jensen_V2_Ch.mp3?dest-id=1928300",
-      "published": "Thu, 19 Mar 2026 20:42:00 +0000",
-      "published_date": "2026-03-19",
-      "rss_guid": "b9112fca-9ebf-47e8-a8a1-9bcbcf39cf84",
+      "podcast": "Dwarkesh Podcast",
+      "title": "Terence Tao \u2013 Kepler, Newton, and the true nature of mathematical discovery",
+      "description": "<p>We begin the episode with the absolutely ingenious and surprising way in which Kepler discovered the laws of planetary motion.</p><p>People sometimes say that AI will make especially fast progress at scientific discovery because of tight verification loops.</p><p>But the story of how we discovered the shape of our solar system shows how the verification loop for correct ideas can be decades (or even millennia) long.</p><p>During this time, what we know today as the better theory can actually ",
+      "audio_url": "https://api.substack.com/feed/podcast/191582481/09bfc20781f3d248e53c5f3350823514.mp3",
+      "published": "Fri, 20 Mar 2026 16:00:55 GMT",
+      "published_date": "2026-03-20",
+      "rss_guid": "substack:post:191582481",
       "status": "APPROVED",
       "matched_keywords": [],
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/all_in_with_chamath__jason__sacks___frie_jensen_huang_live__nvidia_s_future__physical_ai__rise_of_the_a8a06099.mp3",
-      "filename": "all_in_with_chamath__jason__sacks___frie_jensen_huang_live__nvidia_s_future__physical_ai__rise_of_the_a8a06099.mp3"
-    },
-    {
-      "podcast": "Macro Voices",
-      "title": "MacroVoices #524 Simon White: War + Inflation = More Inflation",
-      "description": "<p class=\"p1\">MacroVoices Erik Townsend &amp; Patrick Ceresna welcome, Simon White. They discuss the risk-off playbook, food price inflation, the breakdown in private credit, and much more. <a href='https://bit.ly/3PukOlC'>https://bit.ly/3PukOlC</a></p>\n<p class=\"p2\">\u00a0</p>\n<p class=\"p1\">\u00a0\ud83d\udd3bDownload Big Picture Trading Chartbook \ud83d\udcc8\ud83d\udcc9: <a href='https://bit.ly/4sQKUO3'>https://bit.ly/4sQKUO3</a></p>\n<p class=\"p2\">\u00a0</p>\n<p class=\"p1\">\u2705Sign up for a FREE 14-day trial at Big Picture Trading: <a href='htt",
-      "audio_url": "https://dts.podtrac.com/redirect.mp3/mcdn.podbean.com/mf/web/e3x29sj2cyqhndd4/MacroVoices-2026-03-19-Simon-White.mp3",
-      "published": "Thu, 19 Mar 2026 14:08:42 -0500",
-      "published_date": "2026-03-19",
-      "rss_guid": "macrovoices.podbean.com/50fdd645-b02f-394a-b564-556f8054273e",
-      "status": "APPROVED",
-      "matched_keywords": [],
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/macro_voices_macrovoices__524_simon_white__war___inflation___more_inflati_97ebbf1c.mp3",
-      "filename": "macro_voices_macrovoices__524_simon_white__war___inflation___more_inflati_97ebbf1c.mp3"
+      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/dwarkesh_podcast_terence_tao___kepler__newton__and_the_true_nature_of_mathema_fab7185f.mp3",
+      "filename": "dwarkesh_podcast_terence_tao___kepler__newton__and_the_true_nature_of_mathema_fab7185f.mp3"
     },
     {
       "podcast": "Dwarkesh Podcast",

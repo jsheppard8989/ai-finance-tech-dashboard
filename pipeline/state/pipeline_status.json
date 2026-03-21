@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-20T15:23:37.931556",
+  "last_updated": "2026-03-20T22:09:56.567046",
   "episodes": {
     "moonshots_with_peter_diamandis_meta_buys_moltbook,_gpt_5.4,_a": {
       "info": {
@@ -26,7 +26,7 @@
           "complete": false,
           "episode_id": null,
           "timestamp": null,
-          "reason": "Waiting for next analyze run (transcript \u2192 DB)."
+          "reason": "Analysis failed: analysis_error"
         },
         "insight_created": {
           "complete": false,
@@ -39,51 +39,8 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-20T15:23:37.870075",
-      "status": "needs_analysis"
-    },
-    "monetary_matters_with_jack_farley_\u201cthis_is_the_end_of_the_oil_ma": {
-      "info": {
-        "podcast": "Monetary Matters with Jack Farley",
-        "title": "\u201cThis Is The End of The Oil Market As We Know It\u201d | Rory Johnston on How $300 Oil Could Trigger Depression If De-Escalation Does Not Occur In Iran War",
-        "published": "2026-03-19",
-        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/monetary_matters_with_jack_farley__this_is_the_end_of_the_oil_market_as_we_know_it____rory_joh_c58dc548.mp3",
-        "keywords": [],
-        "rss_guid": "e50ec482-23cc-11f1-a0f2-b7965cafb38b"
-      },
-      "stages": {
-        "downloaded": {
-          "complete": true,
-          "timestamp": null,
-          "reason": null
-        },
-        "transcribed": {
-          "complete": false,
-          "file": null,
-          "timestamp": null,
-          "reason": "Waiting for fetch/transcribe step"
-        },
-        "analyzed": {
-          "complete": true,
-          "episode_id": 89,
-          "timestamp": null,
-          "reason": null
-        },
-        "insight_created": {
-          "complete": true,
-          "insight_id": 26,
-          "insight_title": "Milton Berg: Rare Signal \u2014 Local Bottom or Major Top Ahead",
-          "timestamp": null,
-          "reason": null
-        },
-        "published": {
-          "complete": false,
-          "timestamp": null,
-          "reason": "Not in data.js yet (run export and push to site)."
-        }
-      },
-      "first_seen": "2026-03-20T15:23:37.877342",
-      "status": "needs_transcription"
+      "first_seen": "2026-03-20T22:09:56.453738",
+      "status": "blocked_analysis"
     },
     "monetary_matters_with_jack_farley_stock_market_on_shaky_foundati": {
       "info": {
@@ -110,6 +67,47 @@
           "complete": false,
           "episode_id": null,
           "timestamp": null,
+          "reason": "Analysis failed: analysis_error"
+        },
+        "insight_created": {
+          "complete": false,
+          "timestamp": null,
+          "reason": "Depends on analyze step first."
+        },
+        "published": {
+          "complete": false,
+          "timestamp": null,
+          "reason": "Not in data.js yet (run export and push to site)."
+        }
+      },
+      "first_seen": "2026-03-20T22:09:56.476862",
+      "status": "blocked_analysis"
+    },
+    "the_a16z_show_inside_palantir:_building_soft": {
+      "info": {
+        "podcast": "The a16z Show",
+        "title": "Inside Palantir: Building Software That Matters with Shyam Sankar",
+        "published": "2026-03-20",
+        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_inside_palantir__building_software_that_matters_with_shyam_s_fdfefe2b.mp3",
+        "keywords": [],
+        "rss_guid": "5f117324-ba75-4af2-b75f-a419a177b639"
+      },
+      "stages": {
+        "downloaded": {
+          "complete": true,
+          "timestamp": null,
+          "reason": null
+        },
+        "transcribed": {
+          "complete": false,
+          "file": null,
+          "timestamp": null,
+          "reason": "Waiting for fetch/transcribe step"
+        },
+        "analyzed": {
+          "complete": false,
+          "episode_id": null,
+          "timestamp": null,
           "reason": "Waiting for next analyze run (transcript \u2192 DB)."
         },
         "insight_created": {
@@ -123,8 +121,8 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-20T15:23:37.888223",
-      "status": "needs_analysis"
+      "first_seen": "2026-03-20T22:09:56.498643",
+      "status": "needs_transcription"
     },
     "the_a16z_show_ai_just_gave_you_superpowers_\u2014": {
       "info": {
@@ -151,7 +149,7 @@
           "complete": false,
           "episode_id": null,
           "timestamp": null,
-          "reason": "Waiting for next analyze run (transcript \u2192 DB)."
+          "reason": "Analysis failed: analysis_error"
         },
         "insight_created": {
           "complete": false,
@@ -164,8 +162,8 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-20T15:23:37.895816",
-      "status": "needs_analysis"
+      "first_seen": "2026-03-20T22:09:56.522099",
+      "status": "blocked_analysis"
     },
     "the_a16z_show_chris_dixon:_from_quant_tradin": {
       "info": {
@@ -192,6 +190,47 @@
           "complete": false,
           "episode_id": null,
           "timestamp": null,
+          "reason": "Analysis failed: analysis_error"
+        },
+        "insight_created": {
+          "complete": false,
+          "timestamp": null,
+          "reason": "Depends on analyze step first."
+        },
+        "published": {
+          "complete": false,
+          "timestamp": null,
+          "reason": "Not in data.js yet (run export and push to site)."
+        }
+      },
+      "first_seen": "2026-03-20T22:09:56.530603",
+      "status": "blocked_analysis"
+    },
+    "dwarkesh_podcast_terence_tao_\u2013_kepler,_newton,_": {
+      "info": {
+        "podcast": "Dwarkesh Podcast",
+        "title": "Terence Tao \u2013 Kepler, Newton, and the true nature of mathematical discovery",
+        "published": "2026-03-20",
+        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/dwarkesh_podcast_terence_tao___kepler__newton__and_the_true_nature_of_mathema_fab7185f.mp3",
+        "keywords": [],
+        "rss_guid": "substack:post:191582481"
+      },
+      "stages": {
+        "downloaded": {
+          "complete": true,
+          "timestamp": null,
+          "reason": null
+        },
+        "transcribed": {
+          "complete": false,
+          "file": null,
+          "timestamp": null,
+          "reason": "Waiting for fetch/transcribe step"
+        },
+        "analyzed": {
+          "complete": false,
+          "episode_id": null,
+          "timestamp": null,
           "reason": "Waiting for next analyze run (transcript \u2192 DB)."
         },
         "insight_created": {
@@ -205,93 +244,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-20T15:23:37.901192",
-      "status": "needs_analysis"
-    },
-    "all-in_with_chamath,_jason,_sacks_&_friedberg_jensen_huang_live:_nvidia's_fu": {
-      "info": {
-        "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-        "title": "Jensen Huang LIVE: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
-        "published": "2026-03-19",
-        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/all_in_with_chamath__jason__sacks___frie_jensen_huang_live__nvidia_s_future__physical_ai__rise_of_the_a8a06099.mp3",
-        "keywords": [],
-        "rss_guid": "b9112fca-9ebf-47e8-a8a1-9bcbcf39cf84"
-      },
-      "stages": {
-        "downloaded": {
-          "complete": true,
-          "timestamp": null,
-          "reason": null
-        },
-        "transcribed": {
-          "complete": false,
-          "file": null,
-          "timestamp": null,
-          "reason": "Waiting for fetch/transcribe step"
-        },
-        "analyzed": {
-          "complete": true,
-          "episode_id": 90,
-          "timestamp": null,
-          "reason": null
-        },
-        "insight_created": {
-          "complete": true,
-          "insight_id": 44,
-          "insight_title": "The Epstein Saga: Diverse Perspectives and Investment Implications",
-          "timestamp": null,
-          "reason": null
-        },
-        "published": {
-          "complete": false,
-          "timestamp": null,
-          "reason": "Not in data.js yet (run export and push to site)."
-        }
-      },
-      "first_seen": "2026-03-20T15:23:37.908578",
-      "status": "needs_transcription"
-    },
-    "macro_voices_macrovoices_#524_simon_white:_": {
-      "info": {
-        "podcast": "Macro Voices",
-        "title": "MacroVoices #524 Simon White: War + Inflation = More Inflation",
-        "published": "2026-03-19",
-        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/macro_voices_macrovoices__524_simon_white__war___inflation___more_inflati_97ebbf1c.mp3",
-        "keywords": [],
-        "rss_guid": "macrovoices.podbean.com/50fdd645-b02f-394a-b564-556f8054273e"
-      },
-      "stages": {
-        "downloaded": {
-          "complete": true,
-          "timestamp": null,
-          "reason": null
-        },
-        "transcribed": {
-          "complete": false,
-          "file": null,
-          "timestamp": null,
-          "reason": "Waiting for fetch/transcribe step"
-        },
-        "analyzed": {
-          "complete": true,
-          "episode_id": 91,
-          "timestamp": null,
-          "reason": null
-        },
-        "insight_created": {
-          "complete": true,
-          "insight_id": 58,
-          "insight_title": "The Future of Advanced Nuclear Energy and its Impact on Markets",
-          "timestamp": null,
-          "reason": null
-        },
-        "published": {
-          "complete": false,
-          "timestamp": null,
-          "reason": "Not in data.js yet (run export and push to site)."
-        }
-      },
-      "first_seen": "2026-03-20T15:23:37.918280",
+      "first_seen": "2026-03-20T22:09:56.543827",
       "status": "needs_transcription"
     },
     "dwarkesh_podcast_why_leonardo_was_a_saboteur,_g": {
@@ -319,7 +272,7 @@
           "complete": false,
           "episode_id": null,
           "timestamp": null,
-          "reason": "Waiting for next analyze run (transcript \u2192 DB)."
+          "reason": "Analysis failed: analysis_error"
         },
         "insight_created": {
           "complete": false,
@@ -332,8 +285,8 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-20T15:23:37.927837",
-      "status": "needs_analysis"
+      "first_seen": "2026-03-20T22:09:56.560042",
+      "status": "blocked_analysis"
     }
   }
 }

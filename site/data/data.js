@@ -3,7 +3,7 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-03-20T15:23:39.561757",
+  generatedAt: "2026-03-20T22:09:59.118062",
   chartsVersion: "2026-03-19T04:23:16.765044",
   tickerScores: [
   {
@@ -902,11 +902,11 @@ const dashboardData = {
         "SOYB"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-17",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-21",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 74
     },
     {
@@ -927,6 +927,29 @@ const dashboardData = {
       "archived_date": null,
       "archived_reason": null,
       "podcast_episode_id": 75
+    },
+    {
+      "id": 109,
+      "title": "Meta Buys Moltbook GPT 5.4 and Fruitfly Brain Upload",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-03-17",
+      "summary": "This episode of 'Moonshots with Peter Diamandis' discusses the impact of AI and exponential technologies on investment strategies. The podcast highlights the importance of data and cost reduction in making AI more accessible, the anticipation of GPD5's launch, and the increasing cost of talent. The conversation also touches on the rise of generative models, the value of ingenuity and creativity in the age of AI, and the need for adaptability in the face of exponential growth and change. The guests emphasize the potential for wealth creation and leadership in these emerging fields, as well as the challenges and disruptions that come with them.",
+      "key_takeaway": "Invest in AI and exponential technologies that are driving the next wave of wealth creation and leadership, focusing on adaptability and creativity.",
+      "tickers_mentioned": [
+        "AAPL",
+        "NVDA",
+        "GOOGL",
+        "MSFT",
+        "TSLA"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-20",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 92
     },
     {
       "id": 84,
@@ -2734,7 +2757,7 @@ const dashboardData = {
       "archived_reason": null,
       "podcast_episode_id": 89,
       "episode_release_date": "2026-03-19",
-      "guest_name": null,
+      "guest_name": "Rory Johnston",
       "key_tickers": []
     },
     {
@@ -2778,28 +2801,6 @@ const dashboardData = {
       "key_tickers": []
     },
     {
-      "id": 91,
-      "title": "Monetary Matters with Jack Farley: Farmland Investment Insights",
-      "source_type": "podcast",
-      "source_name": "Monetary Matters with Jack Farley",
-      "source_date": "2026-03-17",
-      "summary": "In this episode of 'Other People's Money', host Max interviews Chris Morris, President of Lampun Partners, an institutional farmland investment firm. They discuss the firm's focus on acquiring and managing high-quality irrigated row crop farmland in the mid-South region of the United States. Key themes include the diversification benefits of farmland as an alternative asset class, the impact of water scarcity on farmland value, and the potential for professional management and ownership of farmland assets as the average age of farmers increases.",
-      "key_takeaway": "Farmland represents an underutilized asset class with diversification benefits and potential for strong returns, particularly in the context of water scarcity and aging farmer demographics.",
-      "tickers_mentioned": "[\"SOYB\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-03-17",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 74,
-      "episode_release_date": "2026-03-17",
-      "guest_name": null,
-      "key_tickers": [
-        "SOYB"
-      ]
-    },
-    {
       "id": 92,
       "title": "Elon Musk on Moonshots: Discussing AI, Robotics, and Future Technologies",
       "source_type": "podcast",
@@ -2820,6 +2821,26 @@ const dashboardData = {
       "key_tickers": [
         "TSLA"
       ]
+    },
+    {
+      "id": 109,
+      "title": "Meta Buys Moltbook GPT 5.4 and Fruitfly Brain Upload",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-03-17",
+      "summary": "This episode of 'Moonshots with Peter Diamandis' discusses the impact of AI and exponential technologies on investment strategies. The podcast highlights the importance of data and cost reduction in making AI more accessible, the anticipation of GPD5's launch, and the increasing cost of talent. The conversation also touches on the rise of generative models, the value of ingenuity and creativity in the age of AI, and the need for adaptability in the face of exponential growth and change. The guests emphasize the potential for wealth creation and leadership in these emerging fields, as well as the challenges and disruptions that come with them.",
+      "key_takeaway": "Invest in AI and exponential technologies that are driving the next wave of wealth creation and leadership, focusing on adaptability and creativity.",
+      "tickers_mentioned": "[\"AAPL\", \"NVDA\", \"GOOGL\", \"MSFT\", \"TSLA\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-20",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 92,
+      "episode_release_date": "2026-03-17",
+      "guest_name": null,
+      "key_tickers": []
     }
   ],
   "definitions": [
@@ -8371,6 +8392,150 @@ const dashboardData = {
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-03-19",
     "key_tickers": []
+  },
+  "108": {
+    "id": 99,
+    "insight_id": 108,
+    "podcast_episode_id": 88,
+    "overview": "In this episode of Monetary Matters with Jack Farley, Carson Block, founder of Muddy Waters Capital, discusses the fertile ground for short selling in the tech sector, particularly in AI and AI-adjacent industries. Block highlights the overvaluation and speculative nature of many companies claiming to be AI-related, suggesting that the current market momentum makes short selling risky. The conversation underscores the importance of timing in short selling and the potential for significant returns when market conditions are right. This analysis provides investors with insights into the current market dynamics and the potential for short selling opportunities in the tech sector.",
+    "key_takeaways_detailed": [
+      "Identify companies in the tech sector that claim to be AI-related but have flat revenues and are losing money.",
+      "Monitor the semiconductor industry for potential overvaluation and cyclical risks.",
+      "Be cautious of companies that are new to the AI space and may be overhyped.",
+      "Wait for market conditions that favor short selling, such as a decrease in market momentum or an oversupply of speculative companies.",
+      "Consider diversifying investment strategies to include both short selling and quantitative momentum strategies."
+    ],
+    "investment_thesis": "The core investment thesis is that the tech sector, particularly AI and AI-adjacent industries, is overvalued and ripe for short selling opportunities. However, the current strong market momentum makes short selling risky. Investors should wait for market conditions that favor short selling, such as a decrease in demand for speculative companies or an oversupply of these companies. The catalysts for this thesis include a potential market correction, a decrease in market momentum, or a shift in investor sentiment towards more value-oriented investments. The timeframe for this thesis is medium to long-term, as market conditions and investor sentiment can change over several months to a year.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple is a major player in the tech sector and has made significant investments in AI. However, its valuation may be affected by the broader market dynamics in the tech sector.",
+        "positioning": "Position tactically short if market conditions favor short selling, but be prepared to cover positions if market momentum remains strong.",
+        "risk": "Key risks include strong market momentum and potential for further growth in the AI space."
+      },
+      "NVDA": {
+        "rationale": "Nvidia is a leader in the semiconductor industry and has significant exposure to the AI space. Its valuation may be affected by the broader market dynamics in the tech sector.",
+        "positioning": "Position strategically short if market conditions favor short selling, but be prepared to cover positions if market momentum remains strong.",
+        "risk": "Key risks include strong market momentum and potential for further growth in the AI space."
+      },
+      "SPY": {
+        "rationale": "The S&P 500 index includes many tech companies that may be overvalued and ripe for short selling opportunities.",
+        "positioning": "Position tactically short on select names within the index if market conditions favor short selling.",
+        "risk": "Key risks include strong market momentum and potential for further growth in the AI space."
+      },
+      "TSLA": {
+        "rationale": "Tesla is a major player in the electric vehicle and AI space. Its valuation may be affected by the broader market dynamics in the tech sector.",
+        "positioning": "Position tactically short if market conditions favor short selling, but be prepared to cover positions if market momentum remains strong.",
+        "risk": "Key risks include strong market momentum and potential for further growth in the AI space."
+      },
+      "PQNT": {
+        "rationale": "The PICTEA AI Enhance International Equity ETF invests in international equities using AI to enhance returns. Its performance may be affected by the broader market dynamics in the tech sector.",
+        "positioning": "Position tactically short if market conditions favor short selling, but be prepared to cover positions if market momentum remains strong.",
+        "risk": "Key risks include strong market momentum and potential for further growth in the AI space."
+      }
+    },
+    "positioning_guidance": "Investors should position their portfolios tactically short on select names within the tech sector if market conditions favor short selling. However, they should be prepared to cover positions if market momentum remains strong. Investors should also consider diversifying their investment strategies to include both short selling and quantitative momentum strategies to capitalize on market opportunities.",
+    "risk_factors": [
+      "Strong market momentum in the tech sector.",
+      "Potential for further growth in the AI space.",
+      "Shifts in investor sentiment towards more value-oriented investments.",
+      "Market corrections that may affect the valuation of tech companies.",
+      "Regulatory changes that may impact the tech sector."
+    ],
+    "contrarian_signals": [
+      "Many tech companies claiming to be AI-related may actually have legitimate growth prospects and strong fundamentals.",
+      "The semiconductor industry may continue to benefit from supply chain bottlenecks and increased demand.",
+      "Investor sentiment may shift towards more speculative investments, driving up valuations in the tech sector."
+    ],
+    "catalysts": [
+      "Market corrections that may affect the valuation of tech companies.",
+      "Shifts in investor sentiment towards more value-oriented investments.",
+      "Regulatory changes that may impact the tech sector.",
+      "Economic indicators that signal a slowdown in the economy or a potential recession.",
+      "New technological breakthroughs in the AI space that may drive further growth in the sector."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-03-20T22:09:05.740446",
+    "updated_at": "2026-03-21 03:09:05",
+    "insight_title": "Monetary Matters with Jack Farley: Short Selling Insights and AI in Investing",
+    "source_name": "Monetary Matters with Jack Farley",
+    "source_date": "2026-02-15",
+    "key_tickers": [
+      "PQNT"
+    ]
+  },
+  "109": {
+    "id": 100,
+    "insight_id": 109,
+    "podcast_episode_id": 92,
+    "overview": "The investment thesis revolves around the convergence of AI, robotics, and exponential technologies, exemplified by the anticipated launch of GPD5 and the Moonshot Gathering. These events signify a platform shift in everyday life, with AI and robotics becoming increasingly accessible and integral to various industries. The focus is on companies that are at the forefront of this technological revolution, poised to benefit from the anticipated cost drop and increased accessibility of advanced AI models. This shift is expected to force frontier labs to compete based on algorithmic insights and ideas, creating a new landscape for technology investments.",
+    "key_takeaways_detailed": [
+      "Invest in companies that are developing or leveraging advanced AI models, as the cost drop will make these technologies more accessible and potentially disruptive.",
+      "Look for opportunities in sectors that are expected to be significantly impacted by AI and robotics, such as healthcare, transportation, and manufacturing.",
+      "Consider the potential for increased competition in the tech industry as companies vie for dominance in the AI space, leading to potential M&A activity and market consolidation.",
+      "Monitor the progress and outcomes of global competitions like the Future Vision X-Prize, which could indicate the direction of future technological advancements and investment opportunities.",
+      "Be aware of the potential for regulatory changes that could impact the development and deployment of AI and robotics technologies."
+    ],
+    "investment_thesis": "The core investment logic is centered on the anticipated acceleration of AI and robotics technologies, driven by the launch of advanced models like GPD5 and the Moonshot Gathering's focus on fostering innovation. These events are seen as catalysts for a new wave of technological advancements that will disrupt traditional industries and create new investment opportunities. The timeframe for this thesis is medium to long-term, as the full impact of these technologies will likely unfold over the next 3-12 months and beyond, as the cost of these technologies decreases and they become more widely adopted.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple is a key player in the technology sector with a strong focus on AI and machine learning. Its investments in these areas position it to benefit from the anticipated advancements in AI and robotics.",
+        "positioning": "Long-term strategic position, as Apple's ecosystem and R&D investments are likely to yield dividends in the AI space.",
+        "risk": "Regulatory changes could impact Apple's ability to innovate and deploy AI technologies, and increased competition in the AI space could affect its market share."
+      },
+      "NVDA": {
+        "rationale": "Nvidia is a leader in GPU technology, which is fundamental to the development and deployment of advanced AI models. Its technology is at the core of many AI applications.",
+        "positioning": "Medium-term tactical position, as the anticipated cost drop in AI models could increase demand for Nvidia's GPUs.",
+        "risk": "Technological obsolescence and competition from other chip manufacturers could erode Nvidia's market position."
+      },
+      "GOOGL": {
+        "rationale": "Google, through its parent company Alphabet, is heavily invested in AI research and development, with a strong focus on machine learning and autonomous technologies.",
+        "positioning": "Long-term strategic position, as Google's AI initiatives are expected to drive future growth and innovation.",
+        "risk": "Regulatory scrutiny and potential backlash against tech giants could impact Google's AI ambitions."
+      },
+      "MSFT": {
+        "rationale": "Microsoft has a significant presence in the cloud computing and AI sectors, with its Azure platform and AI research initiatives.",
+        "positioning": "Medium to long-term strategic position, as Microsoft's cloud services and AI offerings are poised to benefit from the growing demand for AI technologies.",
+        "risk": "Increased competition in the cloud and AI sectors could challenge Microsoft's market position."
+      },
+      "TSLA": {
+        "rationale": "Tesla is at the forefront of AI applications in the automotive industry, with its focus on autonomous driving technologies.",
+        "positioning": "Medium-term tactical position, as advancements in AI could accelerate the development and adoption of autonomous vehicles.",
+        "risk": "Regulatory hurdles and safety concerns could slow the adoption of autonomous driving technologies."
+      }
+    },
+    "positioning_guidance": "Investors should consider a diversified approach, allocating a portion of their portfolio to companies that are directly involved in the development of AI and robotics technologies, as well as those that are poised to benefit from these advancements. Entry points should be considered in the context of the broader market trends and the specific catalysts related to each company. A medium to long-term timeframe is appropriate, given the anticipated trajectory of AI and robotics technologies.",
+    "risk_factors": [
+      "Regulatory changes that could impede the development and deployment of AI and robotics technologies.",
+      "Technological obsolescence and the rapid pace of innovation, which could render current technologies obsolete.",
+      "Increased competition in the AI space, which could lead to market consolidation and reduced profitability for some companies.",
+      "Ethical concerns and societal pushback against AI and robotics, which could impact public perception and adoption.",
+      "Potential security vulnerabilities associated with the increased reliance on AI and robotics technologies."
+    ],
+    "contrarian_signals": [
+      "The potential for AI and robotics to displace jobs and create social unrest, which could lead to a backlash against these technologies.",
+      "The possibility that the anticipated cost drop in AI models may not materialize as quickly as expected, slowing the adoption of these technologies.",
+      "The risk that the anticipated benefits of AI and robotics may be oversold, leading to a disappointment in their actual impact on productivity and efficiency."
+    ],
+    "catalysts": [
+      "The launch of GPD5 and its potential impact on the accessibility and adoption of AI technologies.",
+      "The Moonshot Gathering in September, which will showcase the latest advancements in AI and robotics and potentially announce new partnerships and initiatives.",
+      "Global competitions like the Future Vision X-Prize, which could highlight new directions in AI and robotics and inspire further innovation.",
+      "Regulatory decisions and policy changes that could either support or hinder the development and deployment of AI and robotics technologies.",
+      "Technological breakthroughs in AI and robotics that could accelerate their adoption and impact on various industries."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-03-20T22:09:34.587850",
+    "updated_at": "2026-03-21 03:09:34",
+    "insight_title": "Meta Buys Moltbook GPT 5.4 and Fruitfly Brain Upload",
+    "source_name": "Moonshots with Peter Diamandis",
+    "source_date": "2026-03-17",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
@@ -8425,7 +8590,19 @@ const dashboardData = {
 ],
   podcastGuests: [
   {
-    "id": 495,
+    "id": 506,
+    "name": "Rory Johnston",
+    "slug": "rory-johnston",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "The ongoing geopolitical crisis in the Middle East, particularly the situation in the Strait of Hormuz, presents a significant risk to the global oil supply and could lead to a structural increase in oil prices.",
+    "last_episode_title": "Monetary Matters: Geopolitical Impact on Oil Markets with Rory Johnston",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-03-19",
+    "appearance_count": 1
+  },
+  {
+    "id": 507,
     "name": "Senator John Fetterman on Voting Rights",
     "slug": "senator-john-fetterman-on-voting-rights",
     "bio": null,
@@ -8437,7 +8614,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 496,
+    "id": 508,
     "name": "Elon Musk on Moonshots",
     "slug": "elon-musk-on-moonshots",
     "bio": null,
@@ -8449,7 +8626,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 497,
+    "id": 509,
     "name": "Investing in Capitalism",
     "slug": "investing-in-capitalism",
     "bio": null,
@@ -8461,7 +8638,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 498,
+    "id": 510,
     "name": "Harvard Professor Graham Allison",
     "slug": "harvard-professor-graham-allison",
     "bio": null,
@@ -8473,7 +8650,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 499,
+    "id": 511,
     "name": "Andrew Yang",
     "slug": "andrew-yang",
     "bio": "Andrew Yang is an entrepreneur and political leader who popularized universal basic income in U.S. politics through his 2020 presidential campaign.",
@@ -8485,7 +8662,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 500,
+    "id": 512,
     "name": "Ray Dalio",
     "slug": "ray-dalio",
     "bio": "Ray Dalio is the founder of Bridgewater Associates and a macro investor known for his 'Principles' framework and work on long-term debt cycles.",
@@ -8497,7 +8674,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 501,
+    "id": 513,
     "name": "Nobel Prize-winning economist Paul Krugman",
     "slug": "nobel-prize-winning-economist-paul-krugman",
     "bio": null,
@@ -8509,7 +8686,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 502,
+    "id": 514,
     "name": "host Jack Mallers",
     "slug": "host-jack-mallers",
     "bio": null,
@@ -8521,7 +8698,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 503,
+    "id": 515,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -8533,7 +8710,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 504,
+    "id": 516,
     "name": "Bosworth",
     "slug": "bosworth",
     "bio": null,
@@ -8545,7 +8722,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 505,
+    "id": 517,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -8564,9 +8741,9 @@ const dashboardData = {
     "slug": "simon-white",
     "bio": "Simon White is a Bloomberg Macro strategist known for his expertise in macroeconomic trends and market analysis. He is a featured guest on the Macrovoisers podcast, discussing topics such as secular inflation and its implications for the financial markets.",
     "known_for": "His insights into macroeconomic trends and their impact on financial markets.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
+    "net_worth_usd": 112000000.0,
+    "net_worth_source": "https://www.gurufocus.com/insider/44/william-s-simon",
+    "net_worth_updated_at": "2026-03-20T22:08:35.505085",
     "voice_tone": "Analytical and cautious",
     "voice_style": "Factual and data-driven",
     "voice_delivery_notes": "Paced with emphasis on economic data points",
@@ -8612,7 +8789,8 @@ const dashboardData = {
           "body": "White's expertise extends to identifying and interpreting trends within the financial markets, offering valuable perspectives to investors."
         }
       ]
-    }
+    },
+    "net_worth": "$112.0M"
   },
   {
     "id": 98,
@@ -8873,7 +9051,7 @@ const dashboardData = {
     "last_podcast_name": "a16z Live",
     "last_episode_date": "2026-02-15",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Invest in companies that are at the forefront of developing AI-enabled, immersive technologies that can redefine consumer interactions beyond the current app-centric model.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-19T22:17:07.326933",
@@ -8932,7 +9110,7 @@ const dashboardData = {
     "last_podcast_name": null,
     "last_episode_date": null,
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": null,
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-19T22:17:58.321307",
@@ -8986,7 +9164,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-02-19",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "The Picta AI Enhanced International Equity ETF (PQNT) uses AI to enhance international equity returns, suggesting a potential for outperformance through technology-driven investment strategies.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-19T22:19:12.461398",
@@ -9053,7 +9231,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "While not directly investment-focused, the episode provides insights into the political climate and potential policy directions that could indirectly affect various sectors and investment strategies.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-19T21:20:25.000396",
@@ -9116,7 +9294,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Invest in companies that are at the forefront of AI innovation, hardware manufacturing, and secure supply chain management to capitalize on the new geopolitics of technology and the reindustrialization of the US.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-19T21:20:41.027940",
@@ -9177,7 +9355,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "The current elevated oil prices and their subsequent impact on inflation and growth present a complex investment landscape, with stocks and bonds being particularly at risk. Investors should consider packaging trades to navigate these dynamics.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-19T21:21:05.284882",
@@ -9239,7 +9417,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-03-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Invest in companies at the forefront of AI, robotics, and space technology, as these sectors are poised for significant growth and disruption.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-19T21:21:32.334592",
@@ -9531,7 +9709,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-02-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Invest in AI and automation technologies that are driving the shift towards AI governance and efficiency in business operations.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-19T21:23:16.367259",

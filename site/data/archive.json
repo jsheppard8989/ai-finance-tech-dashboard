@@ -203,11 +203,11 @@
         "SOYB"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-17",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-21",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 74
     },
     {
@@ -228,6 +228,29 @@
       "archived_date": null,
       "archived_reason": null,
       "podcast_episode_id": 75
+    },
+    {
+      "id": 109,
+      "title": "Meta Buys Moltbook GPT 5.4 and Fruitfly Brain Upload",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-03-17",
+      "summary": "This episode of 'Moonshots with Peter Diamandis' discusses the impact of AI and exponential technologies on investment strategies. The podcast highlights the importance of data and cost reduction in making AI more accessible, the anticipation of GPD5's launch, and the increasing cost of talent. The conversation also touches on the rise of generative models, the value of ingenuity and creativity in the age of AI, and the need for adaptability in the face of exponential growth and change. The guests emphasize the potential for wealth creation and leadership in these emerging fields, as well as the challenges and disruptions that come with them.",
+      "key_takeaway": "Invest in AI and exponential technologies that are driving the next wave of wealth creation and leadership, focusing on adaptability and creativity.",
+      "tickers_mentioned": [
+        "AAPL",
+        "NVDA",
+        "GOOGL",
+        "MSFT",
+        "TSLA"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-20",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 92
     },
     {
       "id": 84,

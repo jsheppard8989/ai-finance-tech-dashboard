@@ -10759,3 +10759,342 @@ Processing 63 processed episodes
 ✓ Done. 11 guest(s) in database.
 
 ✓ Extract Podcast Guests completed
+2026-03-20T22:00:18-05:00 run_if_scheduled: in window, running pipeline
+⚠ Stale lock detected (older than 6h); removing and continuing.
+============================================================
+AUTO PIPELINE
+Mode: full
+Started: 2026-03-20 22:00:18.452131
+============================================================
+
+============================================================
+STEP: Podcast Curation
+============================================================
+odes with audio after auto-download: 7
+
+======================================================================
+CURATION RESULTS
+======================================================================
+
+📌 APPROVED (will transcribe or download):
+
+  ✓ Moonshots with Peter Diamandis
+    Title: Meta Buys Moltbook, GPT 5.4, and Fruitfly Brain Upload | Moonshots Liv
+    File: moonshots_with_peter_diamandis_meta_buys_moltbook__gpt_5_4__and_fruitfly_brain_upload___moo_609f0b8d.mp3
+
+  ✓ Monetary Matters with Jack Farley
+    Title: Stock Market on Shaky Foundations | Blind Squirrel Macro’s Rupert Mitc
+    File: monetary_matters_with_jack_farley_stock_market_on_shaky_foundations___blind_squirrel_macro_s_r_12c3cce4.mp3
+
+  ✓ The a16z Show
+    Title: Inside Palantir: Building Software That Matters with Shyam Sankar
+    File: the_a16z_show_inside_palantir__building_software_that_matters_with_shyam_s_fdfefe2b.mp3
+
+  ✓ The a16z Show
+    Title: AI Just Gave You Superpowers — Now What?
+    File: the_a16z_show_ai_just_gave_you_superpowers___now_what__ccf57061.mp3
+
+  ✓ The a16z Show
+    Title: Chris Dixon: From Quant Trading to Building a16z Crypto
+    File: the_a16z_show_chris_dixon__from_quant_trading_to_building_a16z_crypto_be2e5b4b.mp3
+
+  ✓ Dwarkesh Podcast
+    Title: Terence Tao – Kepler, Newton, and the true nature of mathematical disc
+    File: dwarkesh_podcast_terence_tao___kepler__newton__and_the_true_nature_of_mathema_fab7185f.mp3
+
+  ✓ Dwarkesh Podcast
+    Title: Why Leonardo was a saboteur, Gutenberg went broke, and Florence was we
+    File: dwarkesh_podcast_why_leonardo_was_a_saboteur__gutenberg_went_broke__and_flore_d121fb5b.mp3
+
+
+✓ Curation log saved: /Users/jaredsheppard/.openclaw/workspace/pipeline/state/curation_log.json
+
+======================================================================
+NEXT STEPS
+======================================================================
+
+1. Review approved episodes above
+2. To transcribe approved episodes, run:
+   python3 transcribe_curated.py
+
+3. Or manually transcribe specific files (only for episodes that have audio):
+   whisper 'moonshots_with_peter_diamandis_meta_buys_moltbook__gpt_5_4__and_fruitfly_brain_upload___moo_609f0b8d.mp3' --model tiny --language en
+   whisper 'monetary_matters_with_jack_farley_stock_market_on_shaky_foundations___blind_squirrel_macro_s_r_12c3cce4.mp3' --model tiny --language en
+   whisper 'the_a16z_show_inside_palantir__building_software_that_matters_with_shyam_s_fdfefe2b.mp3' --model tiny --language en
+   whisper 'the_a16z_show_ai_just_gave_you_superpowers___now_what__ccf57061.mp3' --model tiny --language en
+   whisper 'the_a16z_show_chris_dixon__from_quant_trading_to_building_a16z_crypto_be2e5b4b.mp3' --model tiny --language en
+   whisper 'dwarkesh_podcast_terence_tao___kepler__newton__and_the_true_nature_of_mathema_fab7185f.mp3' --model tiny --language en
+   whisper 'dwarkesh_podcast_why_leonardo_was_a_saboteur__gutenberg_went_broke__and_flore_d121fb5b.mp3' --model tiny --language en
+
+✓ Podcast Curation completed
+
+============================================================
+STEP: Fetch & Transcribe
+============================================================
+======================================================================
+Fetch & Transcribe Latest Podcast Episodes
+======================================================================
+  ✓ Cleaned up 5 orphan audio file(s) (transcript already exists)
+
+Found 7 podcast feeds
+
+📻 Processing: https://feeds.megaphone.fm/DVVTS2890392624...
+  ⏭ Already have 'Elon Musk: Optimus 3 Is Coming, Recursive Self-Imp' (guid match, ep_id=75)
+  ✗ No episode found
+
+📻 Processing: https://feeds.megaphone.fm/EWWMN1909747317...
+  ⏭ Already have '“This Is The End of The Oil Market As We Know It” ' (guid match, ep_id=89)
+  ✗ No episode found
+
+📻 Processing: https://feeds.simplecast.com/JGE3yC0V...
+  📋 Latest: Inside Palantir: Building Software That Matters with Shyam S...
+  ⬇️  Downloading: the_a16z_show_20260320_5f117324_ba75_4af2_b75f_a419a177.mp3
+     Title: Inside Palantir: Building Software That Matters with Shyam S...
+     ✓ Downloaded to /Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_20260320_5f117324_ba75_4af2_b75f_a419a177.mp3
+  🎙️  Transcribing: the_a16z_show_20260320_5f117324_ba75_4af2_b75f_a419a177.mp3
+  📥 Submitted to whisper queue: the_a16z_show_20260320_5f117324_ba75_4af2_b75f_a419a177.mp3
+  ⏭ Queue-only mode: not waiting. Run pipeline again after worker finishes.
+
+📻 Processing: https://rss.libsyn.com/shows/254861/destinations/1...
+  ⏭ Already have 'Jensen Huang LIVE: Nvidia's Future, Physical AI, R' (guid match, ep_id=90)
+  ✗ No episode found
+
+📻 Processing: https://anchor.fm/s/e29097f4/podcast/rss...
+  ⏭ Already have 'Uncle, Not TACO: Bitcoin in a World on Fire' (guid match, ep_id=72)
+  ✗ No episode found
+
+📻 Processing: https://feed.podbean.com/macrovoices/feed.xml...
+  ⏭ Already have 'MacroVoices #524 Simon White: War + Inflation = Mo' (guid match, ep_id=91)
+  ✗ No episode found
+
+📻 Processing: https://api.substack.com/feed/podcast/69345.rss...
+  📋 Latest: Terence Tao – Kepler, Newton, and the true nature of mathema...
+  ⬇️  Downloading: 09bfc20781f3d248e53c5f3350823514.mp3
+     Title: Terence Tao – Kepler, Newton, and the true nature of mathema...
+     ✓ Downloaded to /Users/jaredsheppard/.openclaw/workspace/audio/09bfc20781f3d248e53c5f3350823514.mp3
+  🎙️  Transcribing: 09bfc20781f3d248e53c5f3350823514.mp3
+  📥 Submitted to whisper queue: 09bfc20781f3d248e53c5f3350823514.mp3
+  ⏭ Queue-only mode: not waiting. Run pipeline again after worker finishes.
+
+✓ Log saved: /Users/jaredsheppard/.openclaw/workspace/pipeline/state/fetch_log.json
+
+======================================================================
+SUMMARY
+======================================================================
+Total feeds: 7
+Successfully transcribed: 0
+Failed: 2
+
+Completed episodes:
+
+
+Next step: Run 'python3 research.py' to analyze transcripts
+
+✓ Fetch & Transcribe completed
+
+============================================================
+STEP: Newsletter Ingestion
+============================================================
+==================================================
+Newsletter Ingestion Pipeline
+==================================================
+
+Connecting to Gmail...
+Connecting to Gmail at imap.gmail.com:993...
+Logging in as jsheppard8989@gmail.com...
+Selecting folder: NEWSLETTERS...
+Found 0 unread emails
+
+No emails fetched from Gmail.
+
+✓ Processed 0 emails
+
+Files saved to: /Users/jaredsheppard/.openclaw/workspace/pipeline/inbox
+
+Next step: Run analysis to score stock mentions
+
+✓ Newsletter Ingestion completed
+
+============================================================
+STEP: Transcript AI Analysis
+============================================================
+  ⚠ Google Generative AI library not installed. Run: pip install google-generativeai
+
+============================================================
+Processing Podcast Transcripts with AI
+============================================================
+  Using Moonshot/Kimi API (primary)
+Found 76 transcript files
+  Processing EWWMN2965097612.txt...
+  ✗ Error processing EWWMN2965097612.txt: UnboundLocalError: local variable 'sidecar_has_date' referenced before assignment
+  Processing EWWMN9153105374.txt...
+  ✗ Error processing EWWMN9153105374.txt: UnboundLocalError: local variable 'sidecar_has_date' referenced before assignment
+  Processing e3c75a06762af10f374661e8af1d1af6.txt...
+    ⏭ Episode already in database (duplicate), skipping
+  Processing dwarkesh_podcast_why_leonardo_was_a_saboteur__gutenberg_went_broke__and_flore_d121fb5b.txt...
+  ✗ Error processing dwarkesh_podcast_why_leonardo_was_a_saboteur__gutenberg_went_broke__and_flore_d121fb5b.txt: UnboundLocalError: local variable 'sidecar_has_date' referenced before assignment
+  Processing the_a16z_show_20260319_1e92a9dd_78da_4417_b1ce_4b4318d1.txt...
+  ✗ Error processing the_a16z_show_20260319_1e92a9dd_78da_4417_b1ce_4b4318d1.txt: UnboundLocalError: local variable 'sidecar_has_date' referenced before assignment
+  Processing dario_amodei.txt...
+    ⏭ Too short, skipping
+  Processing ALLIN-INTV_Jensen_V2_Ch.txt...
+  ✗ Error processing ALLIN-INTV_Jensen_V2_Ch.txt: UnboundLocalError: local variable 'sidecar_has_date' referenced before assignment
+  Processing MacroVoices-2026-03-19-Simon-White.txt...
+  ✗ Error processing MacroVoices-2026-03-19-Simon-White.txt: UnboundLocalError: local variable 'sidecar_has_date' referenced before assignment
+  Processing the_a16z_show_ai_just_gave_you_superpowers___now_what__ccf57061.txt...
+  ✗ Error processing the_a16z_show_ai_just_gave_you_superpowers___now_what__ccf57061.txt: UnboundLocalError: local variable 'sidecar_has_date' referenced before assignment
+  Processing DVVTS5786783285.txt...
+  ✗ Error processing DVVTS5786783285.txt: UnboundLocalError: local variable 'sidecar_has_date' referenced before assignment
+  Processing moonshots_with_peter_diamandis_meta_buys_moltbook__gpt_5_4__and_fruitfly_brain_upload___moo_609f0b8d.txt...
+  ✗ Error processing moonshots_with_peter_diamandis_meta_buys_moltbook__gpt_5_4__and_fruitfly_brain_upload___moo_609f0b8d.txt: UnboundLocalError: local variable 'sidecar_has_date' referenced before assignment
+  Processing elon_musk.txt...
+    ⏭ Too short, skipping
+  Processing monetary_matters_with_jack_farley_stock_market_on_shaky_foundations___blind_squirrel_macro_s_r_12c3cce4.txt...
+  ✗ Error processing monetary_matters_with_jack_farley_stock_market_on_shaky_foundations___blind_squirrel_macro_s_r_12c3cce4.txt: UnboundLocalError: local variable 'sidecar_has_date' referenced before assignment
+  Processing the_a16z_show_chris_dixon__from_quant_trading_to_building_a16z_crypto_be2e5b4b.txt...
+  ✗ Error processing the_a16z_show_chris_dixon__from_quant_trading_to_building_a16z_crypto_be2e5b4b.txt: UnboundLocalError: local variable 'sidecar_has_date' referenced before assignment
+  Processing all_in_with_chamath__jason__sacks___frie_jensen_huang_live__nvidia_s_future__physical_ai__rise_of_the_03b9c382.txt...
+  ✗ Error processing all_in_with_chamath__jason__sacks___frie_jensen_huang_live__nvidia_s_future__physical_ai__rise_of_the_03b9c382.txt: UnboundLocalError: local variable 'sidecar_has_date' referenced before assignment
+  Processing https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-18%2Fdff54dee-2ba4-02bd-9c43-d935696550da.txt...
+  ✗ Error processing https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-18%2Fdff54dee-2ba4-02bd-9c43-d935696550da.txt: UnboundLocalError: local variable 'sidecar_has_date' referenced before assignment
+
+✓ Transcript processing complete: 0 new, 60 skipped, 13 errors
+✓ Analyzed 0 new transcripts
+
+============================================================
+STEP: Newsletter Import
+============================================================
+✓ Total newsletters imported: 0
+
+============================================================
+STEP: Promote Episodes to Insights
+============================================================
+Found 1 processed episodes not yet in insights
+  ✓ Promoted: 'Meta Buys Moltbook GPT 5.4 and Fruitfly Brain Upload' (sentiment=bullish)
+  ✓ Auto-archived 1 older insights
+✓ Promoted 1 new insight(s) to website
+
+============================================================
+STEP: Promote Newsletters to Insights
+============================================================
+Found 0 newsletters not yet on site
+
+============================================================
+STEP: Aggregate Daily Scores
+============================================================
+✓ Saved 3 daily scores
+✓ Enriched 1 pundit(s) (LLM/Grokipedia profile + net worth + optional Grok)
+
+============================================================
+STEP: Generate Deep Dives
+============================================================
+Generating Deep Dives for 2 insights...
+
+  Using Moonshot/Kimi API
+[108] Monetary Matters with Jack Farley: Short Selling Insights an
+  ✓ Deep Dive stored
+[109] Meta Buys Moltbook GPT 5.4 and Fruitfly Brain Upload
+  ✓ Deep Dive stored
+
+✓ Generated 2/2 Deep Dives
+
+✓ Generate Deep Dives completed
+
+============================================================
+STEP: Fetch Prices
+============================================================
+hing EMAX... $0.00 (-0.00%)
+  Fetching ETH-USD... $2153.31 (+8.05%)
+  Fetching FB... $42.22 (-0.91%)
+  Fetching GLD... $413.38 (-12.38%)
+  Fetching GOLD... $42.26 (-24.55%)
+  Fetching GOOG... $298.79 (-1.54%)
+  Fetching GOOGL... $301.00 (-0.70%)
+  Fetching GS... $813.53 (-6.19%)
+  Fetching Gold... $42.26 (-24.55%)
+  Fetching HFGM... $31.50 (-6.42%)
+  Fetching HOOD... $70.89 (-13.77%)
+  Fetching IBM... $241.77 (-3.32%)
+  Fetching IEF... $94.88 (-1.99%)
+  Fetching ILMN... $124.33 (-3.60%)
+  Fetching INDA... $46.59 (-7.32%)
+  Fetching INFY... $13.12 (-8.44%)
+  Fetching IWM... $242.22 (-7.46%)
+  Fetching JNJ... $235.37 (-4.05%)
+  Fetching LLY... $906.70 (-9.65%)
+  Fetching META... $593.66 (-11.09%)
+  Fetching MINE... $2.82 (-26.75%)
+  Fetching MSFT... $381.87 (-5.76%)
+  Fetching MSTR... $135.66 (-7.36%)
+  Fetching NEE... $89.50 (-3.35%)
+  Fetching NINT...     Error fetching NINT: HTTP Error 404: Not Found
+Failed
+  Fetching NOW... $110.38 (-3.06%)
+  Fetching NVDA... $172.70 (-5.65%)
+  Fetching Nasdaq... $582.06 (-4.70%)
+  Fetching OKLO... $53.97 (-17.79%)
+  Fetching PALL... $127.96 (-15.62%)
+  Fetching PLTM... $18.44 (-10.92%)
+  Fetching PLTR... $150.68 (-1.64%)
+  Fetching PQNT... $20.29 (-7.61%)
+  Fetching PYPL... $44.01 (-5.86%)
+  Fetching QQQ... $582.06 (-4.70%)
+  Fetching Russell... $242.22 (-7.46%)
+  Fetching S&P... $648.57 (-5.34%)
+  Fetching S&P 500... $648.57 (-5.34%)
+  Fetching SF... $70.77 (-5.89%)
+  Fetching SLV... $61.52 (-18.34%)
+  Fetching SMR... $11.44 (-8.77%)
+  Fetching SNAP... $4.48 (-16.57%)
+  Fetching SNWGF... $9.95 (-21.65%)
+  Fetching SOYB... $24.08 (+1.22%)
+  Fetching SPY... $648.57 (-5.34%)
+  Fetching SQ... Failed
+  Fetching SQQQ... $80.25 (+15.27%)
+  Fetching Semiconductors... $384.74 (-3.60%)
+  Fetching T... $28.31 (-2.31%)
+  Fetching TDOC... $5.35 (+4.29%)
+  Fetching TLT... $85.83 (-3.72%)
+  Fetching TSLA... $367.96 (-9.36%)
+  Fetching TSM... $329.24 (-7.89%)
+  Fetching TWTR...     Error fetching TWTR: HTTP Error 404: Not Found
+Failed
+  Fetching UNG... $12.39 (+5.18%)
+  Fetching URANIUM...     Error fetching URANIUM: HTTP Error 404: Not Found
+Failed
+  Fetching US 10 year Treasury...     Error fetching US 10 year Treasury: URL can't contain control characters. '/v8/finance/chart/US 
+Failed
+  Fetching USO... $121.43 (+32.62%)
+  Fetching Uranium...     Error fetching Uranium: HTTP Error 404: Not Found
+Failed
+  Fetching VEEV... $184.07 (-2.34%)
+  Fetching VIX... $26.78 (+26.62%)
+  Fetching WIT... $2.15 (-2.27%)
+  Fetching WMT... $119.02 (-6.88%)
+  Fetching WORK... Failed
+  Fetching WTBN... $25.17 (-1.71%)
+  Fetching WTI... $3.10 (+5.80%)
+  Fetching WTI CRUDE OIL...     Error fetching WTI CRUDE OIL: URL can't contain control characters. '/v8/finance/chart/WTI
+Failed
+  Fetching XAU-USD... $0.00 (+0.00%)
+  Fetching XOM... $159.67 (+6.57%)
+  Fetching ZEN...     Error fetching ZEN: HTTP Error 404: Not Found
+Failed
+
+✓ Saved 78 prices to /Users/jaredsheppard/.openclaw/workspace/site/price_data.json
+Finished: 2026-03-20 22:09:55.311925
+
+✓ Fetch Prices completed
+
+============================================================
+STEP: Generate Charts
+============================================================
+
+STDERR: Traceback (most recent call last):
+  File "/Users/jaredsheppard/.openclaw/workspace/pipeline/generate_charts.py", line 7, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+
+✗ Generate Charts failed
+
+============================================================

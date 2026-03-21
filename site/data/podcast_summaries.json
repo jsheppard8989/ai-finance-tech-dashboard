@@ -106,6 +106,23 @@
     "key_tickers": null
   },
   {
+    "id": 92,
+    "podcast_name": "Moonshots with Peter Diamandis",
+    "episode_title": "Meta Buys Moltbook GPT 5.4 and Fruitfly Brain Upload",
+    "episode_date": "2026-03-17",
+    "summary": "This episode of 'Moonshots with Peter Diamandis' discusses the impact of AI and exponential technologies on investment strategies. The podcast highlights the importance of data and cost reduction in making AI more accessible, the anticipation of GPD5's launch, and the increasing cost of talent. The conversation also touches on the rise of generative models, the value of ingenuity and creativity in the age of AI, and the need for adaptability in the face of exponential growth and change. The guests emphasize the potential for wealth creation and leadership in these emerging fields, as well as the challenges and disruptions that come with them.",
+    "key_takeaways": [
+      "AI and exponential technologies are poised to create a divergent group of wealth creators and leaders.",
+      "GPD5's launch is anticipated to be among the top three product launches of all time.",
+      "The cost of talent is increasing, which will force frontier labs to compete based on algorithmic insights and ideas.",
+      "Generative models are currently the most efficient way to achieve superhuman capabilities, despite some disagreements on the best path to scalable super intelligence.",
+      "Adaptability, not scalability and efficiency, is key to survival and success in the age of AI.",
+      "The rise of AI is likely to create disruptions, particularly for those who are not shareholders or creatives."
+    ],
+    "investment_thesis": "Invest in AI and exponential technologies that are driving the next wave of wealth creation and leadership, focusing on adaptability and creativity.",
+    "key_tickers": null
+  },
+  {
     "id": 75,
     "podcast_name": "Moonshots with Peter Diamandis",
     "episode_title": "Elon Musk on Moonshots: Discussing AI, Robotics, and Future Technologies",
