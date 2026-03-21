@@ -1,6 +1,48 @@
 {
   "insights": [
     {
+      "id": 110,
+      "title": "The Impact of AI on Mathematics and Scientific Discovery",
+      "source_type": "podcast",
+      "source_name": "Dwarkesh Podcast",
+      "source_date": "2026-03-20",
+      "summary": "In this episode, the host interviews Terrence Tau, discussing the historical context of Kepler's discovery of the laws of planetary motion and drawing parallels to the current impact of AI on mathematics. The conversation explores how AI can revolutionize the experimental side of mathematics, the potential for AI to solve complex problems, and the implications for careers in mathematics in light of AI advancements.",
+      "key_takeaway": "The integration of AI into mathematics can accelerate discovery and problem-solving, presenting opportunities for investment in AI technology and its applications in scientific research.",
+      "tickers_mentioned": [
+        "AAPL",
+        "NVDA",
+        "GOOGL",
+        "MSFT",
+        "TSLA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-21",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 94
+    },
+    {
+      "id": 111,
+      "title": "The A16z Show: Winning the AI Race and American Competitiveness",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-03-20",
+      "summary": "In this episode of The A16z Show, guest Shamsankar and host Katherine Boyle discuss the importance of American competitiveness in the AI race, particularly as it moves towards more physical AI and robotics. They explore the historical context of American innovation during World War II and how the shift in defense spending has affected national security. The conversation also touches on the software industry's focus on sales over value, the impact of COVID on software usage, and the potential for AI infrastructure and chips to accrue value in the future.",
+      "key_takeaway": "Invest in companies and technologies that contribute to American competitiveness and national security, especially in AI and defense-related sectors.",
+      "tickers_mentioned": [
+        "PLTR"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-21",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 93
+    },
+    {
       "id": 93,
       "title": "Monetary Matters with Jack Farley: Oil Shocks, Inflation, and Market Reactions",
       "source_type": "podcast",
@@ -222,11 +264,11 @@
         "TSLA"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-17",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-21",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 75
     },
     {
@@ -245,11 +287,11 @@
         "TSLA"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-20",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-21",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 92
     },
     {

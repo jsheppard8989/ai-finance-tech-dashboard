@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-20T22:09:56.567046",
+  "last_updated": "2026-03-21T04:35:53.831072",
   "episodes": {
     "moonshots_with_peter_diamandis_meta_buys_moltbook,_gpt_5.4,_a": {
       "info": {
@@ -39,7 +39,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-20T22:09:56.453738",
+      "first_seen": "2026-03-21T04:35:53.744327",
       "status": "blocked_analysis"
     },
     "monetary_matters_with_jack_farley_stock_market_on_shaky_foundati": {
@@ -80,7 +80,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-20T22:09:56.476862",
+      "first_seen": "2026-03-21T04:35:53.765129",
       "status": "blocked_analysis"
     },
     "the_a16z_show_inside_palantir:_building_soft": {
@@ -99,21 +99,23 @@
           "reason": null
         },
         "transcribed": {
-          "complete": false,
-          "file": null,
+          "complete": true,
+          "file": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/the_a16z_show_20260320_5f117324_ba75_4af2_b75f_a419a177.txt",
           "timestamp": null,
-          "reason": "Waiting for fetch/transcribe step"
+          "reason": null
         },
         "analyzed": {
-          "complete": false,
-          "episode_id": null,
+          "complete": true,
+          "episode_id": 93,
           "timestamp": null,
-          "reason": "Waiting for next analyze run (transcript \u2192 DB)."
+          "reason": null
         },
         "insight_created": {
-          "complete": false,
+          "complete": true,
+          "insight_id": 50,
+          "insight_title": "The a16z Show: New Media Strategy and Investment Insights",
           "timestamp": null,
-          "reason": "Depends on analyze step first."
+          "reason": null
         },
         "published": {
           "complete": false,
@@ -121,8 +123,8 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-20T22:09:56.498643",
-      "status": "needs_transcription"
+      "first_seen": "2026-03-21T04:35:53.785651",
+      "status": "needs_export"
     },
     "the_a16z_show_ai_just_gave_you_superpowers_\u2014": {
       "info": {
@@ -162,7 +164,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-20T22:09:56.522099",
+      "first_seen": "2026-03-21T04:35:53.794754",
       "status": "blocked_analysis"
     },
     "the_a16z_show_chris_dixon:_from_quant_tradin": {
@@ -203,7 +205,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-20T22:09:56.530603",
+      "first_seen": "2026-03-21T04:35:53.801199",
       "status": "blocked_analysis"
     },
     "dwarkesh_podcast_terence_tao_\u2013_kepler,_newton,_": {
@@ -211,7 +213,7 @@
         "podcast": "Dwarkesh Podcast",
         "title": "Terence Tao \u2013 Kepler, Newton, and the true nature of mathematical discovery",
         "published": "2026-03-20",
-        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/dwarkesh_podcast_terence_tao___kepler__newton__and_the_true_nature_of_mathema_fab7185f.mp3",
+        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/09bfc20781f3d248e53c5f3350823514.mp3",
         "keywords": [],
         "rss_guid": "substack:post:191582481"
       },
@@ -222,21 +224,23 @@
           "reason": null
         },
         "transcribed": {
-          "complete": false,
-          "file": null,
+          "complete": true,
+          "file": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/09bfc20781f3d248e53c5f3350823514.txt",
           "timestamp": null,
-          "reason": "Waiting for fetch/transcribe step"
+          "reason": null
         },
         "analyzed": {
-          "complete": false,
-          "episode_id": null,
+          "complete": true,
+          "episode_id": 94,
           "timestamp": null,
-          "reason": "Waiting for next analyze run (transcript \u2192 DB)."
+          "reason": null
         },
         "insight_created": {
-          "complete": false,
+          "complete": true,
+          "insight_id": 77,
+          "insight_title": "AI and the Future of Warfare: The Department of War vs. Anthropic",
           "timestamp": null,
-          "reason": "Depends on analyze step first."
+          "reason": null
         },
         "published": {
           "complete": false,
@@ -244,8 +248,8 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-20T22:09:56.543827",
-      "status": "needs_transcription"
+      "first_seen": "2026-03-21T04:35:53.815642",
+      "status": "needs_export"
     },
     "dwarkesh_podcast_why_leonardo_was_a_saboteur,_g": {
       "info": {
@@ -285,7 +289,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-20T22:09:56.560042",
+      "first_seen": "2026-03-21T04:35:53.826201",
       "status": "blocked_analysis"
     }
   }

@@ -3,8 +3,8 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-03-20T22:09:59.118062",
-  chartsVersion: "2026-03-19T04:23:16.765044",
+  generatedAt: "2026-03-21T04:35:55.440401",
+  chartsVersion: "2026-03-21T04:35:52.888190",
   tickerScores: [
   {
     "ticker": "GOOGL",
@@ -700,6 +700,48 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 110,
+      "title": "The Impact of AI on Mathematics and Scientific Discovery",
+      "source_type": "podcast",
+      "source_name": "Dwarkesh Podcast",
+      "source_date": "2026-03-20",
+      "summary": "In this episode, the host interviews Terrence Tau, discussing the historical context of Kepler's discovery of the laws of planetary motion and drawing parallels to the current impact of AI on mathematics. The conversation explores how AI can revolutionize the experimental side of mathematics, the potential for AI to solve complex problems, and the implications for careers in mathematics in light of AI advancements.",
+      "key_takeaway": "The integration of AI into mathematics can accelerate discovery and problem-solving, presenting opportunities for investment in AI technology and its applications in scientific research.",
+      "tickers_mentioned": [
+        "AAPL",
+        "NVDA",
+        "GOOGL",
+        "MSFT",
+        "TSLA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-21",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 94
+    },
+    {
+      "id": 111,
+      "title": "The A16z Show: Winning the AI Race and American Competitiveness",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-03-20",
+      "summary": "In this episode of The A16z Show, guest Shamsankar and host Katherine Boyle discuss the importance of American competitiveness in the AI race, particularly as it moves towards more physical AI and robotics. They explore the historical context of American innovation during World War II and how the shift in defense spending has affected national security. The conversation also touches on the software industry's focus on sales over value, the impact of COVID on software usage, and the potential for AI infrastructure and chips to accrue value in the future.",
+      "key_takeaway": "Invest in companies and technologies that contribute to American competitiveness and national security, especially in AI and defense-related sectors.",
+      "tickers_mentioned": [
+        "PLTR"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-21",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 93
+    },
+    {
       "id": 93,
       "title": "Monetary Matters with Jack Farley: Oil Shocks, Inflation, and Market Reactions",
       "source_type": "podcast",
@@ -921,11 +963,11 @@ const dashboardData = {
         "TSLA"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-17",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-21",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 75
     },
     {
@@ -944,11 +986,11 @@ const dashboardData = {
         "TSLA"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-20",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-21",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 92
     },
     {
@@ -2674,6 +2716,48 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 110,
+      "title": "The Impact of AI on Mathematics and Scientific Discovery",
+      "source_type": "podcast",
+      "source_name": "Dwarkesh Podcast",
+      "source_date": "2026-03-20",
+      "summary": "In this episode, the host interviews Terrence Tau, discussing the historical context of Kepler's discovery of the laws of planetary motion and drawing parallels to the current impact of AI on mathematics. The conversation explores how AI can revolutionize the experimental side of mathematics, the potential for AI to solve complex problems, and the implications for careers in mathematics in light of AI advancements.",
+      "key_takeaway": "The integration of AI into mathematics can accelerate discovery and problem-solving, presenting opportunities for investment in AI technology and its applications in scientific research.",
+      "tickers_mentioned": "[\"AAPL\", \"NVDA\", \"GOOGL\", \"MSFT\", \"TSLA\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-21",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 94,
+      "episode_release_date": "2026-03-20",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
+      "id": 111,
+      "title": "The A16z Show: Winning the AI Race and American Competitiveness",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-03-20",
+      "summary": "In this episode of The A16z Show, guest Shamsankar and host Katherine Boyle discuss the importance of American competitiveness in the AI race, particularly as it moves towards more physical AI and robotics. They explore the historical context of American innovation during World War II and how the shift in defense spending has affected national security. The conversation also touches on the software industry's focus on sales over value, the impact of COVID on software usage, and the potential for AI infrastructure and chips to accrue value in the future.",
+      "key_takeaway": "Invest in companies and technologies that contribute to American competitiveness and national security, especially in AI and defense-related sectors.",
+      "tickers_mentioned": "[\"PLTR\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-21",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 93,
+      "episode_release_date": "2026-03-20",
+      "guest_name": null,
+      "key_tickers": [
+        "PLTR"
+      ]
+    },
+    {
       "id": 93,
       "title": "Monetary Matters with Jack Farley: Oil Shocks, Inflation, and Market Reactions",
       "source_type": "podcast",
@@ -2797,48 +2881,6 @@ const dashboardData = {
       "archived_reason": null,
       "podcast_episode_id": 77,
       "episode_release_date": "2026-03-18",
-      "guest_name": null,
-      "key_tickers": []
-    },
-    {
-      "id": 92,
-      "title": "Elon Musk on Moonshots: Discussing AI, Robotics, and Future Technologies",
-      "source_type": "podcast",
-      "source_name": "Moonshots with Peter Diamandis",
-      "source_date": "2026-03-17",
-      "summary": "In this episode of Moonshots with Peter Diamandis, Elon Musk discusses a range of topics including the merger of SpaceX and XAI, the timeline for launching data centers, the progression towards AGI and ASI, and the future of robotics. Musk also shares his thoughts on the potential for extended longevity, the harnessing of solar energy, and the economic implications of advanced AI and robotics. The conversation touches on the future of work, universal high income, and the potential for human trials in genetic reprogramming.",
-      "key_takeaway": "Invest in companies at the forefront of AI, robotics, and space technology, as these sectors are poised for significant growth and disruption.",
-      "tickers_mentioned": "[\"TSLA\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-03-17",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 75,
-      "episode_release_date": "2026-03-17",
-      "guest_name": "Elon Musk on Moonshots",
-      "key_tickers": [
-        "TSLA"
-      ]
-    },
-    {
-      "id": 109,
-      "title": "Meta Buys Moltbook GPT 5.4 and Fruitfly Brain Upload",
-      "source_type": "podcast",
-      "source_name": "Moonshots with Peter Diamandis",
-      "source_date": "2026-03-17",
-      "summary": "This episode of 'Moonshots with Peter Diamandis' discusses the impact of AI and exponential technologies on investment strategies. The podcast highlights the importance of data and cost reduction in making AI more accessible, the anticipation of GPD5's launch, and the increasing cost of talent. The conversation also touches on the rise of generative models, the value of ingenuity and creativity in the age of AI, and the need for adaptability in the face of exponential growth and change. The guests emphasize the potential for wealth creation and leadership in these emerging fields, as well as the challenges and disruptions that come with them.",
-      "key_takeaway": "Invest in AI and exponential technologies that are driving the next wave of wealth creation and leadership, focusing on adaptability and creativity.",
-      "tickers_mentioned": "[\"AAPL\", \"NVDA\", \"GOOGL\", \"MSFT\", \"TSLA\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-03-20",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 92,
-      "episode_release_date": "2026-03-17",
       "guest_name": null,
       "key_tickers": []
     }
@@ -8536,61 +8578,205 @@ const dashboardData = {
     "source_name": "Moonshots with Peter Diamandis",
     "source_date": "2026-03-17",
     "key_tickers": []
+  },
+  "110": {
+    "id": 101,
+    "insight_id": 110,
+    "podcast_episode_id": 94,
+    "overview": "The intersection of artificial intelligence (AI) and mathematics is poised to revolutionize scientific discovery, much like Johannes Kepler's empirical approach to understanding planetary motion. AI's ability to analyze vast datasets and identify patterns can accelerate hypothesis generation and validation, potentially leading to breakthroughs in various scientific fields. This deep dive analysis explores the investment implications of AI's role in scientific discovery, focusing on companies at the forefront of AI technology and its applications in research and data analysis.",
+    "key_takeaways_detailed": [
+      "AI's capacity to process large datasets can lead to faster hypothesis generation and validation, potentially accelerating scientific progress.",
+      "Investment in companies developing advanced AI algorithms and computational power is crucial for capturing the benefits of AI in scientific research.",
+      "The accuracy and quality of data are paramount for AI-driven insights, emphasizing the importance of companies with robust data infrastructure.",
+      "AI applications in scientific discovery are not limited to one field, offering a broad range of investment opportunities across various sectors.",
+      "The convergence of AI and scientific research could lead to new industries and market leaders, presenting both opportunities and risks for investors."
+    ],
+    "investment_thesis": "The investment thesis centers on the transformative impact of AI on scientific discovery, particularly in mathematics and data analysis. As AI technology matures, it is expected to play a pivotal role in hypothesis generation, data analysis, and pattern recognition, thereby accelerating scientific progress. Companies that are leaders in AI development and application, especially those with a focus on scientific research, are poised to benefit from this trend. The catalysts for this thesis include advancements in AI algorithms, increased computational power, and the growing availability of high-quality data. The timeframe for this thesis is medium to long-term, as the integration of AI into scientific research is an ongoing process with significant potential for future growth.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's investment in AI technology, particularly in data analysis and machine learning, positions the company to leverage AI in various scientific applications, from health research to materials science.",
+        "positioning": "Long-term strategic position, as Apple's R&D in AI is expected to yield dividends in scientific discovery and data analysis.",
+        "risk": "The risk lies in the competitive landscape of AI and the potential for slower-than-expected integration of AI into scientific research."
+      },
+      "NVDA": {
+        "rationale": "NVIDIA is a leader in GPU technology, which is fundamental for the computational power required to run complex AI algorithms, making it integral to AI-driven scientific discovery.",
+        "positioning": "Long-term strategic position, as the demand for GPUs in AI applications is expected to grow.",
+        "risk": "The risk includes technological obsolescence and increased competition in the GPU market."
+      },
+      "GOOGL": {
+        "rationale": "Google's deep investment in AI research and development, including its TensorFlow platform, positions it to contribute significantly to AI-driven scientific discovery.",
+        "positioning": "Long-term strategic position, as Google's AI technology is expected to be at the forefront of scientific research.",
+        "risk": "Regulatory risks related to data privacy and potential backlash against tech giants could impact Google's AI initiatives."
+      },
+      "MSFT": {
+        "rationale": "Microsoft's AI initiatives, including its Azure cloud platform and AI research, make it a key player in the application of AI in scientific discovery.",
+        "positioning": "Medium to long-term strategic position, as Microsoft's cloud services and AI tools are expected to be widely adopted in scientific research.",
+        "risk": "The risk includes competition from other cloud providers and potential disruptions in the AI space."
+      },
+      "TSLA": {
+        "rationale": "Tesla's use of AI in areas such as autonomous driving and battery technology could have applications in scientific research, particularly in data analysis and simulation.",
+        "positioning": "Medium-term tactical position, as Tesla's AI technology is still in the growth phase and could be leveraged in scientific research.",
+        "risk": "The risk includes the high volatility of the automotive and tech sectors, as well as the potential for delays in AI technology development."
+      }
+    },
+    "positioning_guidance": "Investors should consider a diversified approach to portfolio positioning, with a mix of long-term strategic positions in companies leading AI development and medium-term tactical positions in companies with emerging AI applications. Entry points should be based on market conditions and company-specific catalysts. Timeframes for these positions should align with the expected development and adoption of AI in scientific research. Investors may also consider hedging against risks associated with regulatory changes and technological disruptions.",
+    "risk_factors": [
+      "The pace of AI development may not meet market expectations, leading to underperformance of AI-focused companies.",
+      "Increased regulatory scrutiny on data privacy and AI ethics could hinder the development and application of AI in scientific research.",
+      "The potential for AI to be misused or cause unintended consequences could lead to public backlash and regulatory action.",
+      "Technological disruptions, such as new AI algorithms or computational methods, could render current AI technologies obsolete.",
+      "Economic downturns or market volatility could impact the funding and development of AI initiatives in scientific research."
+    ],
+    "contrarian_signals": [
+      "The belief that AI will not significantly accelerate scientific discovery due to the complexity and unpredictability of scientific problems.",
+      "Concerns that the integration of AI into scientific research could lead to job displacement and ethical dilemmas, slowing adoption.",
+      "The possibility that AI-driven insights may be overhyped, with actual benefits being incremental rather than revolutionary."
+    ],
+    "catalysts": [
+      "Advancements in AI algorithms and computational power, which could significantly improve the capabilities of AI in scientific research.",
+      "The release of new AI tools and platforms by tech giants, which could accelerate the adoption of AI in scientific research.",
+      "Major scientific discoveries or breakthroughs attributed to AI-driven analysis, which could validate the investment thesis and attract further investment.",
+      "Regulatory developments that either support or hinder the use of AI in scientific research, impacting the pace of adoption.",
+      "Collaborations between tech companies and scientific institutions, which could lead to innovative applications of AI in research."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-03-21T04:34:00.345546",
+    "updated_at": "2026-03-21 09:34:00",
+    "insight_title": "The Impact of AI on Mathematics and Scientific Discovery",
+    "source_name": "Dwarkesh Podcast",
+    "source_date": "2026-03-20",
+    "key_tickers": []
+  },
+  "111": {
+    "id": 102,
+    "insight_id": 111,
+    "podcast_episode_id": 93,
+    "overview": "The investment thesis revolves around the critical need for the United States to regain its competitive edge in the AI and robotics race, which is essential for national security and economic prosperity. The podcast highlights the shift from a military-centric to a more civilian-integrated approach to national defense, emphasizing the importance of private sector innovation in areas like AI. This analysis underscores the urgency of this transition, given the escalating global tensions and the risk of complacency in the face of emerging threats. The focus is on identifying companies that are poised to benefit from this renaissance in American competitiveness and the technologies that will drive it.",
+    "key_takeaways_detailed": [
+      "Invest in companies that are at the forefront of AI and robotics development, as they are likely to be key beneficiaries of the renewed focus on national security and competitiveness.",
+      "Consider the historical precedent of World War II, where civilian industries played a crucial role in national defense, and look for modern equivalents in the tech sector.",
+      "Monitor the allocation of defense spending, as a shift from dedicated defense contractors to broader industry players could signal a significant opportunity.",
+      "Assess the potential for companies to 'reclaim' their role in national security, as the podcast suggests a return to a model where technology companies contribute to national interests.",
+      "Keep an eye on policy changes and leadership within the Pentagon, as these can be strong indicators of the direction and pace of defense innovation and spending."
+    ],
+    "investment_thesis": "The core investment logic is that the U.S. must revitalize its approach to national security by integrating advanced technologies, particularly AI and robotics, into both military and civilian sectors. This will require significant investment in technology companies that can deliver cutting-edge solutions. Catalysts for this thesis include changes in defense spending allocation, policy shifts towards technology-driven security, and the emergence of new threats that demand a swift and innovative response. The timeframe for this thesis is medium to long-term, as the development and deployment of such technologies typically require substantial time and resources.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's vast resources and investment in AI research position it to contribute to and benefit from advancements in AI technology, which are critical for the U.S.'s competitiveness.",
+        "positioning": "Long-term strategic position, as Apple's R&D and market influence can lead to significant gains in the AI sector.",
+        "risk": "Regulatory changes that could hinder AI development and potential missteps in new technology integration."
+      },
+      "GOOGL": {
+        "rationale": "Google, through its AI research and cloud computing services, is well-positioned to support and benefit from the increased demand for AI in national security.",
+        "positioning": "Long-term strategic position, considering Google's leadership in AI and potential contracts with the U.S. government.",
+        "risk": "Intense competition in the AI space and the possibility of missing out on significant government contracts."
+      },
+      "MSFT": {
+        "rationale": "Microsoft's cloud services and AI capabilities make it a key player in the national security technology sector, with potential for substantial growth.",
+        "positioning": "Medium to long-term strategic position, given Microsoft's broad technology offerings and government partnerships.",
+        "risk": "Cybersecurity threats and the risk of losing out to competitors in securing government contracts."
+      },
+      "TSLA": {
+        "rationale": "Tesla's expertise in electric vehicles and energy technology could be leveraged for military applications, contributing to the U.S.'s strategic advantage.",
+        "positioning": "Medium-term tactical position, as Tesla's technology could be adapted for military use, offering short-term gains.",
+        "risk": "High volatility in the automotive sector and the risk that Tesla's technology may not align with military needs."
+      },
+      "PLTR": {
+        "rationale": "As a company with a focus on big data analytics and AI, Palantir is directly involved in national security and could see significant growth due to increased defense spending.",
+        "positioning": "Long-term strategic position, given Palantir's direct involvement in national security and potential for government contracts.",
+        "risk": "Dependence on government contracts and the risk of losing out to competitors in the AI space."
+      }
+    },
+    "positioning_guidance": "Investors should consider a balanced portfolio with a mix of long-term strategic positions in companies like AAPL, GOOGL, and MSFT, which are well-positioned to benefit from the AI and national security trends. Medium-term tactical positions in companies like TSLA and PLTR could offer exposure to specific areas of innovation. Entry points should be considered in the context of broader market trends and company-specific catalysts. Investors should also consider hedging against geopolitical risks and regulatory changes that could impact the AI sector.",
+    "risk_factors": [
+      "Geopolitical tensions escalating beyond current predictions, which could either accelerate or derail the investment thesis.",
+      "Unexpected shifts in U.S. defense policy that may not prioritize AI and technology as anticipated.",
+      "Rapid changes in technology that could render current investments obsolete or less competitive.",
+      "Regulatory hurdles that could impede the development and deployment of AI technologies.",
+      "Economic downturns that could reduce defense spending and affect the overall investment landscape."
+    ],
+    "contrarian_signals": [
+      "The belief that current defense spending is sufficient and that the U.S. does not need to increase its focus on AI and technology.",
+      "The view that the private sector is already sufficiently contributing to national security without additional incentives or changes in policy.",
+      "Concerns that increased defense spending could divert resources from other critical areas, such as education and healthcare."
+    ],
+    "catalysts": [
+      "Upcoming defense budget announcements and policy changes that could signal a shift towards technology-focused national security.",
+      "Major AI and technology conferences where breakthroughs or partnerships could be announced, impacting the sector.",
+      "Election cycles and changes in political leadership that could influence the direction of national security policy.",
+      "International incidents or conflicts that highlight the need for advanced technology in national defense.",
+      "Technological milestones achieved by companies in the AI space, which could drive investor interest and government attention."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-03-21T04:35:15.645265",
+    "updated_at": "2026-03-21 09:35:15",
+    "insight_title": "The A16z Show: Winning the AI Race and American Competitiveness",
+    "source_name": "The a16z Show",
+    "source_date": "2026-03-20",
+    "key_tickers": [
+      "PLTR"
+    ]
   }
 },
   suggestedTerms: [
   {
-    "id": 74,
-    "term": "Generative Models",
-    "definition": "Models that generate new tokens or data, currently seen as a key pathway to scalable super intelligence.",
-    "investment_implications": "Invest in companies and technologies that are advancing generative models for AI.",
+    "id": 79,
+    "term": "Experimental Mathematics",
+    "definition": "The application of empirical and computational methods to mathematical problems, often involving large-scale data analysis.",
+    "investment_implications": "Investors should consider companies developing AI tools for data-driven mathematical research.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-03-20 14:08:13",
+    "submitted_date": "2026-03-21 09:30:48",
     "priority_score": 80
   },
   {
-    "id": 75,
-    "term": "Adaptability",
-    "definition": "The ability to adjust and respond effectively to new conditions or challenges, seen as key to survival and success in the age of AI.",
-    "investment_implications": "Look for companies that demonstrate high levels of adaptability in their business models and strategies.",
+    "id": 80,
+    "term": "Hybrid Human-AI Approach",
+    "definition": "A collaborative model where human mathematicians and AI systems work together to solve complex problems.",
+    "investment_implications": "Look for opportunities in companies that facilitate the integration of AI with human expertise in scientific research.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-03-20 14:08:13",
+    "submitted_date": "2026-03-21 09:30:48",
     "priority_score": 80
   },
   {
-    "id": 76,
-    "term": "Exponential Organizations",
-    "definition": "Organizations that leverage new technologies and strategies to grow at an exponential rate, rather than a linear one.",
-    "investment_implications": "Invest in companies that are adopting exponential growth strategies and leveraging new technologies.",
+    "id": 77,
+    "term": "Defense Reformation",
+    "definition": "The shift in defense strategy and spending towards more technology and AI-focused solutions.",
+    "investment_implications": "Invest in companies that are at the forefront of defense technology and AI.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-03-20 14:08:13",
+    "submitted_date": "2026-03-21 09:29:46",
     "priority_score": 80
   },
   {
-    "id": 72,
-    "term": "Secular Inflation",
-    "definition": "A long-term increase in the general price level of goods and services in an economy.",
-    "investment_implications": "Investors should consider the potential for sustained inflation and its impact on asset classes.",
+    "id": 78,
+    "term": "AI Infrastructure",
+    "definition": "The underlying technology and systems that support AI applications, including hardware and software.",
+    "investment_implications": "Consider investments in companies that provide the backbone for AI applications.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-03-20 09:28:08",
+    "submitted_date": "2026-03-21 09:29:46",
     "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 506,
+    "id": 518,
     "name": "Rory Johnston",
     "slug": "rory-johnston",
     "bio": null,
@@ -8602,7 +8788,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 507,
+    "id": 519,
     "name": "Senator John Fetterman on Voting Rights",
     "slug": "senator-john-fetterman-on-voting-rights",
     "bio": null,
@@ -8614,7 +8800,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 508,
+    "id": 520,
     "name": "Elon Musk on Moonshots",
     "slug": "elon-musk-on-moonshots",
     "bio": null,
@@ -8626,7 +8812,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 509,
+    "id": 521,
     "name": "Investing in Capitalism",
     "slug": "investing-in-capitalism",
     "bio": null,
@@ -8638,7 +8824,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 510,
+    "id": 522,
     "name": "Harvard Professor Graham Allison",
     "slug": "harvard-professor-graham-allison",
     "bio": null,
@@ -8650,7 +8836,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 511,
+    "id": 523,
     "name": "Andrew Yang",
     "slug": "andrew-yang",
     "bio": "Andrew Yang is an entrepreneur and political leader who popularized universal basic income in U.S. politics through his 2020 presidential campaign.",
@@ -8662,7 +8848,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 512,
+    "id": 524,
     "name": "Ray Dalio",
     "slug": "ray-dalio",
     "bio": "Ray Dalio is the founder of Bridgewater Associates and a macro investor known for his 'Principles' framework and work on long-term debt cycles.",
@@ -8674,7 +8860,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 513,
+    "id": 525,
     "name": "Nobel Prize-winning economist Paul Krugman",
     "slug": "nobel-prize-winning-economist-paul-krugman",
     "bio": null,
@@ -8686,7 +8872,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 514,
+    "id": 526,
     "name": "host Jack Mallers",
     "slug": "host-jack-mallers",
     "bio": null,
@@ -8698,7 +8884,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 515,
+    "id": 527,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -8710,7 +8896,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 516,
+    "id": 528,
     "name": "Bosworth",
     "slug": "bosworth",
     "bio": null,
@@ -8722,7 +8908,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 517,
+    "id": 529,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -8735,6 +8921,61 @@ const dashboardData = {
   }
 ],
   pundits: [
+  {
+    "id": 103,
+    "name": "Terrence Tau",
+    "slug": "terrence-tau",
+    "bio": "Terrence Tau is an amateur astronomer with a deep interest in the history of astronomy and the application of AI in mathematics. He is known for his insights on the parallels between historical astronomical discoveries and modern AI applications in mathematics.",
+    "known_for": "His expertise in drawing parallels between historical astronomical discoveries and modern AI applications in mathematics.",
+    "net_worth_usd": 3000000.0,
+    "net_worth_source": "https://capitalmaniacs.com/terence-tao-net-worth-a-math-genius/",
+    "net_worth_updated_at": "2026-03-21T04:32:04.978250",
+    "voice_tone": "Inquisitive and informative",
+    "voice_style": "Narrative and explanatory, with a focus on historical context",
+    "voice_delivery_notes": "Speaks with a measured pace, emphasizing key points in the historical narrative",
+    "voice_profile_updated_at": "2026-03-21 09:30:48",
+    "last_seen": "2026-03-21 09:30:48",
+    "last_episode_title": "The Impact of AI on Mathematics and Scientific Discovery",
+    "last_podcast_name": "Dwarkesh Podcast",
+    "last_episode_date": "2026-03-20",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "The integration of AI into mathematics can accelerate discovery and problem-solving, presenting opportunities for investment in AI technology and its applications in scientific research.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-21T04:32:04.005767",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Terrence Tau",
+      "fetched_at": "2026-03-21T09:32:04.005404+00:00",
+      "cliff_notes": "Terrence Tau is an amateur astronomer with a profound interest in the history of astronomy and its intersection with modern AI applications in mathematics. He has dedicated his time to understanding the evolution of astronomical theories and their relevance to contemporary mathematical AI. Tau's work focuses on the historical context of astronomical discoveries, such as Kepler's laws of planetary motion, and how these can inform and inspire current AI-driven mathematical research. His contributions to the field are significant, as they bridge the gap between historical knowledge and cutting-edge technology, offering a unique perspective on the development of AI in mathematics.",
+      "derived": {},
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Terrence Tau is an amateur astronomer with a profound interest in the history of astronomy and its intersection with modern AI applications in mathematics. He has dedicated his time to understanding the evolution of astronomical theories and their relevance to contemporary mathematical AI. Tau's work focuses on the historical context of astronomical discoveries, such as Kepler's laws of planetary motion, and how these can inform and inspire current AI-driven mathematical research.",
+        "His contributions to the field are significant, as they bridge the gap between historical knowledge and cutting-edge technology, offering a unique perspective on the development of AI in mathematics."
+      ],
+      "sections": [
+        {
+          "heading": "Historical Astronomy",
+          "body": "Terrence Tau is deeply interested in the history of astronomy, particularly the contributions of early astronomers like Copernicus and Kepler."
+        },
+        {
+          "heading": "AI in Mathematics",
+          "body": "Tau explores the application of AI in mathematics, drawing parallels with historical astronomical discoveries to understand modern AI's potential."
+        },
+        {
+          "heading": "Kepler's Laws",
+          "body": "He is particularly fascinated by Kepler's laws of planetary motion and how they can be used as a metaphor for understanding AI's role in mathematics."
+        }
+      ]
+    },
+    "net_worth": "$3.0M"
+  },
   {
     "id": 97,
     "name": "Simon White",
@@ -8753,7 +8994,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-03-19",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "The ongoing Iran conflict may lead to a secular inflation cycle, with oil prices being a key catalyst. Investors should monitor shifts in commodities, credit, and the yield curve for potential macroeconomic impacts.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:35:48.845381",
@@ -8810,7 +9051,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-03-19",
     "mention_score": 2,
-    "mention_score_decayed": 2,
+    "mention_score_decayed": 1.95,
     "last_main_idea": "The ongoing Iran conflict may lead to a secular inflation cycle, with oil prices being a key catalyst. Investors should monitor shifts in commodities, credit, and the yield curve for potential macroeconomic impacts.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:36:30.218908",
@@ -8866,7 +9107,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-19",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "NVIDIA's strategic acquisitions and technological advancements position it as a leader in the AI revolution, offering investors exposure to the growing AI factory industry.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:40:52.368193",
@@ -8928,7 +9169,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-02-15",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Invest in sectors with fertile ground for short selling, such as tech and AI, and consider undervalued areas like junior mining for potential alpha.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:42:09.376490",
@@ -8990,7 +9231,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-02-17",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Investing in AI and robotics companies that leverage neural networks for autonomous manufacturing could yield significant returns as this market is expected to become the largest economy globally.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-19T22:16:04.041005",
@@ -9833,30 +10074,6 @@ const dashboardData = {
     "mention_score": 2,
     "mention_score_decayed": 1.82,
     "last_main_idea": "Invest in AI startups that focus on specific niches and use cases, as they can compete effectively against larger AI companies by capitalizing on the gaps between platforms.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
-    "id": 66,
-    "name": "Mark Suster",
-    "slug": "mark-suster",
-    "bio": "Mark Suster is a venture capitalist and entrepreneur, known for his work at Upfront Ventures and his blog BothSidesoftheTable.com.",
-    "known_for": "Venture Capital, Entrepreneurship, and Startup Advice",
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-03-16 10:04:45",
-    "last_episode_title": "The Intersection of Technology, Entrepreneurship, and the Future",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-03-15",
-    "mention_score": 1,
-    "mention_score_decayed": 0.91,
-    "last_main_idea": "Invest in technology-driven businesses with a strong founder's mindset that focus on building and scaling rather than introspection, as they are more likely to shape the future and create significant value.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null

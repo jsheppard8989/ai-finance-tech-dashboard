@@ -1,5 +1,41 @@
 [
   {
+    "id": 94,
+    "podcast_name": "Dwarkesh Podcast",
+    "episode_title": "The Impact of AI on Mathematics and Scientific Discovery",
+    "episode_date": "2026-03-20",
+    "summary": "In this episode, the host interviews Terrence Tau, discussing the historical context of Kepler's discovery of the laws of planetary motion and drawing parallels to the current impact of AI on mathematics. The conversation explores how AI can revolutionize the experimental side of mathematics, the potential for AI to solve complex problems, and the implications for careers in mathematics in light of AI advancements.",
+    "key_takeaways": [
+      "AI has the potential to revolutionize the experimental side of mathematics by allowing for large-scale data analysis.",
+      "The application of AI in mathematics could lead to new discoveries and breakthroughs more quickly than traditional methods.",
+      "AI tools are adept at applying existing techniques to problems, potentially leading to significant advancements in mathematical knowledge.",
+      "There is a debate on whether AI will replace human mathematicians or serve as a complementary tool, with a belief that a hybrid approach will dominate for the foreseeable future.",
+      "Careers in mathematics may change due to AI, with non-traditional opportunities for contribution and a need for adaptability and continuous learning.",
+      "The future of AI in mathematics is unpredictable, with the potential for both positive advancements and unforeseen consequences."
+    ],
+    "investment_thesis": "The integration of AI into mathematics can accelerate discovery and problem-solving, presenting opportunities for investment in AI technology and its applications in scientific research.",
+    "key_tickers": null
+  },
+  {
+    "id": 93,
+    "podcast_name": "The a16z Show",
+    "episode_title": "The A16z Show: Winning the AI Race and American Competitiveness",
+    "episode_date": "2026-03-20",
+    "summary": "In this episode of The A16z Show, guest Shamsankar and host Katherine Boyle discuss the importance of American competitiveness in the AI race, particularly as it moves towards more physical AI and robotics. They explore the historical context of American innovation during World War II and how the shift in defense spending has affected national security. The conversation also touches on the software industry's focus on sales over value, the impact of COVID on software usage, and the potential for AI infrastructure and chips to accrue value in the future.",
+    "key_takeaways": [
+      "The risk to America is not external threats like China, but losing the will to compete.",
+      "Defense spending has shifted dramatically from consumer products subsidizing national security to a focus on dedicated defense contractors.",
+      "The software industry has been critiqued for prioritizing sales over whether the software adds value.",
+      "COVID highlighted the shortcomings of large ERP implementations and the importance of remote work tools.",
+      "AI infrastructure and chips are seen as areas where value will accrue in the future.",
+      "American competitiveness is tied to both soft power and hard power, including deterrence of adversaries."
+    ],
+    "investment_thesis": "Invest in companies and technologies that contribute to American competitiveness and national security, especially in AI and defense-related sectors.",
+    "key_tickers": [
+      "PLTR"
+    ]
+  },
+  {
     "id": 91,
     "podcast_name": "Macro Voices",
     "episode_title": "Macro Voices: The Iran Conflict's Impact on Inflation and Energy Markets",

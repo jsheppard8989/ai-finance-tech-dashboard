@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-03-20T22:09:56.440661",
-  "last_updated": "2026-03-20T22:09:56.440661",
-  "last_pipeline_run": "2026-03-20T22:09:56.440661",
+  "generated_at": "2026-03-21T04:35:53.740954",
+  "last_updated": "2026-03-21T04:35:53.740954",
+  "last_pipeline_run": "2026-03-21T04:35:53.740954",
   "main_page": {
     "overton": 8,
     "insights": 8,
@@ -9,20 +9,20 @@
   },
   "counts": {
     "ticker_mentions": 139,
-    "podcast_episodes": 67,
+    "podcast_episodes": 69,
     "newsletters": 7,
     "daily_scores": 77,
     "overton_terms_total": 16,
-    "latest_insights_total": 83,
+    "latest_insights_total": 85,
     "today_mentions": {},
-    "podcasts_analyzed": 5
+    "podcasts_analyzed": 2
   },
   "step_results": {
     "downloaded": 4,
     "transcribed": 4,
     "analyzed": 4,
-    "insight_created": 0,
-    "published": 1,
+    "insight_created": 2,
+    "published": 3,
     "total": 7
   },
   "episodes": [
@@ -69,21 +69,18 @@
     {
       "id": "5f117324-ba75-4af2-b75f-a419a177b639",
       "podcast": "The a16z Show",
-      "title": "Understanding the Mechanics of Large Language Models (LLMs) and the Path to AGI",
+      "title": "The A16z Show: Winning the AI Race and American Competitiveness",
       "published": "2026-03-20",
       "rss_guid": "5f117324-ba75-4af2-b75f-a419a177b639",
       "stages": {
         "downloaded": true,
         "transcribed": true,
         "analyzed": true,
-        "insight_created": false,
-        "published": false
+        "insight_created": true,
+        "published": true
       },
-      "stage_reasons": {
-        "insight_created": "No latest_insights row for this episode (insight step not reflected in DB yet).",
-        "published": "added_to_site=0 (export/publish step not reflected in DB yet)."
-      },
-      "status": "needs_insight"
+      "stage_reasons": {},
+      "status": "complete"
     },
     {
       "id": "1e92a9dd-78da-4417-b1ce-4b4318d1f8c4",
@@ -129,21 +126,18 @@
     {
       "id": "substack:post:191582481",
       "podcast": "Dwarkesh Podcast",
-      "title": "Semiconductors and the Future of Compute",
+      "title": "The Impact of AI on Mathematics and Scientific Discovery",
       "published": "2026-03-20",
       "rss_guid": "substack:post:191582481",
       "stages": {
         "downloaded": true,
         "transcribed": true,
         "analyzed": true,
-        "insight_created": false,
-        "published": false
+        "insight_created": true,
+        "published": true
       },
-      "stage_reasons": {
-        "insight_created": "No latest_insights row for this episode (insight step not reflected in DB yet).",
-        "published": "added_to_site=0 (export/publish step not reflected in DB yet)."
-      },
-      "status": "needs_insight"
+      "stage_reasons": {},
+      "status": "complete"
     },
     {
       "id": "substack:post:190118311",
@@ -169,20 +163,6 @@
     }
   ],
   "available_from_rss": [
-    {
-      "podcast": "The a16z Show",
-      "title": "Inside Palantir: Building Software That Matters with Shyam Sankar",
-      "published": "Fri, 20 Mar 2026 10:00:00 +0000",
-      "published_date": "2026-03-20",
-      "rss_guid": ""
-    },
-    {
-      "podcast": "Dwarkesh Podcast",
-      "title": "Terence Tao \u2013 Kepler, Newton, and the true nature of mathematical discovery",
-      "published": "Fri, 20 Mar 2026 16:00:55 GMT",
-      "published_date": "2026-03-20",
-      "rss_guid": ""
-    },
     {
       "podcast": "The a16z Show",
       "title": "AI Just Gave You Superpowers \u2014 Now What?",
@@ -219,7 +199,7 @@
       "title": "Meta Buys Moltbook GPT 5.4 and Fruitfly Brain Upload",
       "status": "needs_insight",
       "published": "2026-03-17",
-      "age_days": 3,
+      "age_days": 4,
       "next_blocker": "insight_created"
     },
     {
@@ -228,8 +208,17 @@
       "title": "Stock Market on Shaky Foundations | Blind Squirrel Macro\u2019s Rupert Mitchell on IPO Supply, Oil, and Private Credit",
       "status": "needs_download",
       "published": "2026-03-18",
-      "age_days": 2,
+      "age_days": 3,
       "next_blocker": "downloaded"
+    },
+    {
+      "id": "1e92a9dd-78da-4417-b1ce-4b4318d1f8c4",
+      "podcast": "The a16z Show",
+      "title": "AI Startups and the Future of Technology",
+      "status": "needs_insight",
+      "published": "2026-03-19",
+      "age_days": 2,
+      "next_blocker": "insight_created"
     },
     {
       "id": "1a7873e6-52cf-493d-a1a1-360a49324923",
@@ -237,7 +226,7 @@
       "title": "Chris Dixon: From Quant Trading to Building a16z Crypto",
       "status": "needs_download",
       "published": "2026-03-02",
-      "age_days": 18,
+      "age_days": 19,
       "next_blocker": "downloaded"
     },
     {
@@ -246,7 +235,7 @@
       "title": "Why Leonardo was a saboteur, Gutenberg went broke, and Florence was weird \u2013 Ada Palmer",
       "status": "needs_download",
       "published": "2026-03-06",
-      "age_days": 14,
+      "age_days": 15,
       "next_blocker": "downloaded"
     }
   ],

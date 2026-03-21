@@ -1,5 +1,60 @@
 [
   {
+    "id": 103,
+    "name": "Terrence Tau",
+    "slug": "terrence-tau",
+    "bio": "Terrence Tau is an amateur astronomer with a deep interest in the history of astronomy and the application of AI in mathematics. He is known for his insights on the parallels between historical astronomical discoveries and modern AI applications in mathematics.",
+    "known_for": "His expertise in drawing parallels between historical astronomical discoveries and modern AI applications in mathematics.",
+    "net_worth_usd": 3000000.0,
+    "net_worth_source": "https://capitalmaniacs.com/terence-tao-net-worth-a-math-genius/",
+    "net_worth_updated_at": "2026-03-21T04:32:04.978250",
+    "voice_tone": "Inquisitive and informative",
+    "voice_style": "Narrative and explanatory, with a focus on historical context",
+    "voice_delivery_notes": "Speaks with a measured pace, emphasizing key points in the historical narrative",
+    "voice_profile_updated_at": "2026-03-21 09:30:48",
+    "last_seen": "2026-03-21 09:30:48",
+    "last_episode_title": "The Impact of AI on Mathematics and Scientific Discovery",
+    "last_podcast_name": "Dwarkesh Podcast",
+    "last_episode_date": "2026-03-20",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "The integration of AI into mathematics can accelerate discovery and problem-solving, presenting opportunities for investment in AI technology and its applications in scientific research.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-21T04:32:04.005767",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Terrence Tau",
+      "fetched_at": "2026-03-21T09:32:04.005404+00:00",
+      "cliff_notes": "Terrence Tau is an amateur astronomer with a profound interest in the history of astronomy and its intersection with modern AI applications in mathematics. He has dedicated his time to understanding the evolution of astronomical theories and their relevance to contemporary mathematical AI. Tau's work focuses on the historical context of astronomical discoveries, such as Kepler's laws of planetary motion, and how these can inform and inspire current AI-driven mathematical research. His contributions to the field are significant, as they bridge the gap between historical knowledge and cutting-edge technology, offering a unique perspective on the development of AI in mathematics.",
+      "derived": {},
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Terrence Tau is an amateur astronomer with a profound interest in the history of astronomy and its intersection with modern AI applications in mathematics. He has dedicated his time to understanding the evolution of astronomical theories and their relevance to contemporary mathematical AI. Tau's work focuses on the historical context of astronomical discoveries, such as Kepler's laws of planetary motion, and how these can inform and inspire current AI-driven mathematical research.",
+        "His contributions to the field are significant, as they bridge the gap between historical knowledge and cutting-edge technology, offering a unique perspective on the development of AI in mathematics."
+      ],
+      "sections": [
+        {
+          "heading": "Historical Astronomy",
+          "body": "Terrence Tau is deeply interested in the history of astronomy, particularly the contributions of early astronomers like Copernicus and Kepler."
+        },
+        {
+          "heading": "AI in Mathematics",
+          "body": "Tau explores the application of AI in mathematics, drawing parallels with historical astronomical discoveries to understand modern AI's potential."
+        },
+        {
+          "heading": "Kepler's Laws",
+          "body": "He is particularly fascinated by Kepler's laws of planetary motion and how they can be used as a metaphor for understanding AI's role in mathematics."
+        }
+      ]
+    },
+    "net_worth": "$3.0M"
+  },
+  {
     "id": 97,
     "name": "Simon White",
     "slug": "simon-white",
@@ -17,7 +72,7 @@
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-03-19",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "The ongoing Iran conflict may lead to a secular inflation cycle, with oil prices being a key catalyst. Investors should monitor shifts in commodities, credit, and the yield curve for potential macroeconomic impacts.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:35:48.845381",
@@ -74,7 +129,7 @@
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-03-19",
     "mention_score": 2,
-    "mention_score_decayed": 2,
+    "mention_score_decayed": 1.95,
     "last_main_idea": "The ongoing Iran conflict may lead to a secular inflation cycle, with oil prices being a key catalyst. Investors should monitor shifts in commodities, credit, and the yield curve for potential macroeconomic impacts.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:36:30.218908",
@@ -130,7 +185,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-19",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "NVIDIA's strategic acquisitions and technological advancements position it as a leader in the AI revolution, offering investors exposure to the growing AI factory industry.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:40:52.368193",
@@ -192,7 +247,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-02-15",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Invest in sectors with fertile ground for short selling, such as tech and AI, and consider undervalued areas like junior mining for potential alpha.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:42:09.376490",
@@ -254,7 +309,7 @@
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-02-17",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Investing in AI and robotics companies that leverage neural networks for autonomous manufacturing could yield significant returns as this market is expected to become the largest economy globally.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-19T22:16:04.041005",
@@ -1097,30 +1152,6 @@
     "mention_score": 2,
     "mention_score_decayed": 1.82,
     "last_main_idea": "Invest in AI startups that focus on specific niches and use cases, as they can compete effectively against larger AI companies by capitalizing on the gaps between platforms.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
-    "id": 66,
-    "name": "Mark Suster",
-    "slug": "mark-suster",
-    "bio": "Mark Suster is a venture capitalist and entrepreneur, known for his work at Upfront Ventures and his blog BothSidesoftheTable.com.",
-    "known_for": "Venture Capital, Entrepreneurship, and Startup Advice",
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-03-16 10:04:45",
-    "last_episode_title": "The Intersection of Technology, Entrepreneurship, and the Future",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-03-15",
-    "mention_score": 1,
-    "mention_score_decayed": 0.91,
-    "last_main_idea": "Invest in technology-driven businesses with a strong founder's mindset that focus on building and scaling rather than introspection, as they are more likely to shape the future and create significant value.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
