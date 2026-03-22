@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-03-21T22:00:46.251816",
+  "timestamp": "2026-03-22T04:06:44.093033",
   "results": [
     {
       "podcast": "Moonshots with Peter Diamandis",
       "title": "NVIDIA's $1 Trillion Prediction, Anthropic Beats OpenAI, Tesla vs. TSMC & The CS Job Collapse | 240",
       "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/DVVTS6372073266.mp3",
-      "transcript_path": null,
-      "success": false
+      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/DVVTS6372073266.txt",
+      "success": true
     }
   ]
 }

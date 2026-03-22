@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-03-21T22:07:29.956871",
-  "last_updated": "2026-03-21T22:07:29.956871",
-  "last_pipeline_run": "2026-03-21T22:07:29.956871",
+  "generated_at": "2026-03-22T04:10:57.257828",
+  "last_updated": "2026-03-22T04:10:57.257828",
+  "last_pipeline_run": "2026-03-22T04:10:57.257828",
   "main_page": {
     "overton": 8,
     "insights": 8,
@@ -15,7 +15,7 @@
     "overton_terms_total": 16,
     "latest_insights_total": 85,
     "today_mentions": {},
-    "podcasts_analyzed": 2
+    "podcasts_analyzed": 0
   },
   "step_results": {
     "downloaded": 3,
@@ -193,7 +193,7 @@
       "title": "Meta Buys Moltbook GPT 5.4 and Fruitfly Brain Upload",
       "status": "needs_insight",
       "published": "2026-03-17",
-      "age_days": 4,
+      "age_days": 5,
       "next_blocker": "insight_created"
     },
     {
@@ -202,7 +202,7 @@
       "title": "Stock Market on Shaky Foundations | Blind Squirrel Macro\u2019s Rupert Mitchell on IPO Supply, Oil, and Private Credit",
       "status": "needs_download",
       "published": "2026-03-18",
-      "age_days": 3,
+      "age_days": 4,
       "next_blocker": "downloaded"
     },
     {
@@ -211,7 +211,7 @@
       "title": "AI Startups and the Future of Technology",
       "status": "needs_insight",
       "published": "2026-03-19",
-      "age_days": 2,
+      "age_days": 3,
       "next_blocker": "insight_created"
     },
     {
@@ -220,7 +220,7 @@
       "title": "Chris Dixon: From Quant Trading to Building a16z Crypto",
       "status": "needs_download",
       "published": "2026-03-02",
-      "age_days": 19,
+      "age_days": 20,
       "next_blocker": "downloaded"
     },
     {
@@ -229,7 +229,7 @@
       "title": "Why Leonardo was a saboteur, Gutenberg went broke, and Florence was weird \u2013 Ada Palmer",
       "status": "needs_download",
       "published": "2026-03-06",
-      "age_days": 15,
+      "age_days": 16,
       "next_blocker": "downloaded"
     }
   ],

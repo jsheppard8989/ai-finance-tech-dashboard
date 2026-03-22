@@ -3,8 +3,8 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-03-21T22:07:31.960750",
-  chartsVersion: "2026-03-21T04:35:52.888190",
+  generatedAt: "2026-03-22T04:10:58.862835",
+  chartsVersion: "2026-03-22T04:10:56.449441",
   tickerScores: [
   {
     "ticker": "GOOGL",
@@ -8776,7 +8776,7 @@ const dashboardData = {
 ],
   podcastGuests: [
   {
-    "id": 530,
+    "id": 542,
     "name": "Rory Johnston",
     "slug": "rory-johnston",
     "bio": null,
@@ -8788,7 +8788,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 531,
+    "id": 543,
     "name": "Senator John Fetterman on Voting Rights",
     "slug": "senator-john-fetterman-on-voting-rights",
     "bio": null,
@@ -8800,7 +8800,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 532,
+    "id": 544,
     "name": "Elon Musk on Moonshots",
     "slug": "elon-musk-on-moonshots",
     "bio": null,
@@ -8812,7 +8812,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 533,
+    "id": 545,
     "name": "Investing in Capitalism",
     "slug": "investing-in-capitalism",
     "bio": null,
@@ -8824,7 +8824,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 534,
+    "id": 546,
     "name": "Harvard Professor Graham Allison",
     "slug": "harvard-professor-graham-allison",
     "bio": null,
@@ -8836,7 +8836,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 535,
+    "id": 547,
     "name": "Andrew Yang",
     "slug": "andrew-yang",
     "bio": "Andrew Yang is an entrepreneur and political leader who popularized universal basic income in U.S. politics through his 2020 presidential campaign.",
@@ -8848,7 +8848,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 536,
+    "id": 548,
     "name": "Ray Dalio",
     "slug": "ray-dalio",
     "bio": "Ray Dalio is the founder of Bridgewater Associates and a macro investor known for his 'Principles' framework and work on long-term debt cycles.",
@@ -8860,7 +8860,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 537,
+    "id": 549,
     "name": "Nobel Prize-winning economist Paul Krugman",
     "slug": "nobel-prize-winning-economist-paul-krugman",
     "bio": null,
@@ -8872,7 +8872,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 538,
+    "id": 550,
     "name": "host Jack Mallers",
     "slug": "host-jack-mallers",
     "bio": null,
@@ -8884,7 +8884,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 539,
+    "id": 551,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -8896,7 +8896,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 540,
+    "id": 552,
     "name": "Bosworth",
     "slug": "bosworth",
     "bio": null,
@@ -8908,7 +8908,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 541,
+    "id": 553,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -9231,7 +9231,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-02-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Investing in AI and robotics companies that leverage neural networks for autonomous manufacturing could yield significant returns as this market is expected to become the largest economy globally.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-19T22:16:04.041005",
@@ -9292,7 +9292,7 @@ const dashboardData = {
     "last_podcast_name": "a16z Live",
     "last_episode_date": "2026-02-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Invest in companies that are at the forefront of developing AI-enabled, immersive technologies that can redefine consumer interactions beyond the current app-centric model.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-19T22:17:07.326933",
