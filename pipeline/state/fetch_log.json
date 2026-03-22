@@ -1,19 +1,12 @@
 {
-  "timestamp": "2026-03-21T04:24:05.313603",
+  "timestamp": "2026-03-21T22:00:46.251816",
   "results": [
     {
-      "podcast": "The a16z Show",
-      "title": "Inside Palantir: Building Software That Matters with Shyam Sankar",
-      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_20260320_5f117324_ba75_4af2_b75f_a419a177.mp3",
-      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/the_a16z_show_20260320_5f117324_ba75_4af2_b75f_a419a177.txt",
-      "success": true
-    },
-    {
-      "podcast": "Dwarkesh Podcast",
-      "title": "Terence Tao \u2013 Kepler, Newton, and the true nature of mathematical discovery",
-      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/09bfc20781f3d248e53c5f3350823514.mp3",
-      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/09bfc20781f3d248e53c5f3350823514.txt",
-      "success": true
+      "podcast": "Moonshots with Peter Diamandis",
+      "title": "NVIDIA's $1 Trillion Prediction, Anthropic Beats OpenAI, Tesla vs. TSMC & The CS Job Collapse | 240",
+      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/DVVTS6372073266.mp3",
+      "transcript_path": null,
+      "success": false
     }
   ]
 }

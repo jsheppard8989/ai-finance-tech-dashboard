@@ -1,8 +1,21 @@
 {
-  "timestamp": "2026-03-21T04:24:01.262418",
-  "total_feed_episodes": 7,
-  "approved_for_transcription": 7,
+  "timestamp": "2026-03-21T22:00:36.030950",
+  "total_feed_episodes": 6,
+  "approved_for_transcription": 6,
   "episodes": [
+    {
+      "podcast": "Moonshots with Peter Diamandis",
+      "title": "NVIDIA's $1 Trillion Prediction, Anthropic Beats OpenAI, Tesla vs. TSMC & The CS Job Collapse | 240",
+      "description": "\n        <p>Mates recap Nvidia GTC madness - Jensen's $1T revenue blitz fueling robots, robocabs, orbital fabs, and NemoClaw - while unpacking OpenClaw's GitHub supernova, Anthropic's enterprise crush on OpenAI, Elon's TerraFab TSMC-killer, and inference deflation exploding abundance.</p>\n<p><br></p>\n<p>Get access to metatrends 10+ years before anyone else - <a href=\"https://qr.diamandis.com/metatrends\"><u>https://qr.diamandis.com/metatrends</u></a>\u00a0\u00a0</p>\n<p><br></p>\n<p>Peter H. Diamandis, MD, i",
+      "audio_url": "https://traffic.megaphone.fm/DVVTS6372073266.mp3?updated=1774091947",
+      "published": "Sat, 21 Mar 2026 14:35:00 -0000",
+      "published_date": "2026-03-21",
+      "rss_guid": "b1b247d2-249c-11f1-b4ca-131c5ebeca2c",
+      "status": "APPROVED",
+      "matched_keywords": [],
+      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/moonshots_with_peter_diamandis_nvidia_s__1_trillion_prediction__anthropic_beats_openai__tes_c82c7892.mp3",
+      "filename": "moonshots_with_peter_diamandis_nvidia_s__1_trillion_prediction__anthropic_beats_openai__tes_c82c7892.mp3"
+    },
     {
       "podcast": "Moonshots with Peter Diamandis",
       "title": "Meta Buys Moltbook, GPT 5.4, and Fruitfly Brain Upload | Moonshots Live at The Abundance Summit 238",
@@ -31,19 +44,6 @@
     },
     {
       "podcast": "The a16z Show",
-      "title": "Inside Palantir: Building Software That Matters with Shyam Sankar",
-      "description": "<p>In this conversation, Shyam Sankar, chief technology officer at Palantir Technologies, discusses his new book Mobilize, his commission in the U.S. Army, and why he believes the most important thing America can do right now is inspire its latent heretics to step forward. He also breaks down how he thinks about the SaaS market under AI pressure, what the \"alpha versus beta software\" distinction means for which companies survive, and why he started a film production company.</p>\n<p><p><strong>St",
-      "audio_url": "https://mgln.ai/e/1344/afp-848985-injected.calisto.simplecastaudio.com/3f86df7b-51c6-4101-88a2-550dba782de8/episodes/424ce8dd-ed62-4972-a5cb-cfa0cf910ab1/audio/128/default.mp3?aid=rss_feed&awCollectionId=3f86df7b-51c6-4101-88a2-550dba782de8&awEpisodeId=424ce8dd-ed62-4972-a5cb-cfa0cf910ab1&feed=JGE3yC0V",
-      "published": "Fri, 20 Mar 2026 10:00:00 +0000",
-      "published_date": "2026-03-20",
-      "rss_guid": "5f117324-ba75-4af2-b75f-a419a177b639",
-      "status": "APPROVED",
-      "matched_keywords": [],
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_inside_palantir__building_software_that_matters_with_shyam_s_fdfefe2b.mp3",
-      "filename": "the_a16z_show_inside_palantir__building_software_that_matters_with_shyam_s_fdfefe2b.mp3"
-    },
-    {
-      "podcast": "The a16z Show",
       "title": "AI Just Gave You Superpowers \u2014 Now What?",
       "description": "<p>A new paper, \u201cSome Simple Economics of AGI,\u201d is making the rounds\u2014Web3 with a16z we sat down with author Christian Catalini (MIT Crypto Economics Lab) and Eddy Lazzarin (CTO of a16z crypto), in conversation with Robert Hackett, to unpack what AGI could mean for work and markets.</p>\n<p>EPISODE NOTES:\u00a0</p>\n<p>A hot paper \u2014 \"Some Simple Economics of AGI\" \u2014 has been making the rounds, so we sat down with the author, covering:\u00a0</p>\n<ul>\n <li>Automation vs. verification: the key economic split\u00a0</l",
       "audio_url": "https://mgln.ai/e/1344/afp-848985-injected.calisto.simplecastaudio.com/3f86df7b-51c6-4101-88a2-550dba782de8/episodes/0911ade7-ebb7-42bd-9dc0-25e9d5bb9181/audio/128/default.mp3?aid=rss_feed&awCollectionId=3f86df7b-51c6-4101-88a2-550dba782de8&awEpisodeId=0911ade7-ebb7-42bd-9dc0-25e9d5bb9181&feed=JGE3yC0V",
@@ -67,19 +67,6 @@
       "matched_keywords": [],
       "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_chris_dixon__from_quant_trading_to_building_a16z_crypto_be2e5b4b.mp3",
       "filename": "the_a16z_show_chris_dixon__from_quant_trading_to_building_a16z_crypto_be2e5b4b.mp3"
-    },
-    {
-      "podcast": "Dwarkesh Podcast",
-      "title": "Terence Tao \u2013 Kepler, Newton, and the true nature of mathematical discovery",
-      "description": "<p>We begin the episode with the absolutely ingenious and surprising way in which Kepler discovered the laws of planetary motion.</p><p>People sometimes say that AI will make especially fast progress at scientific discovery because of tight verification loops.</p><p>But the story of how we discovered the shape of our solar system shows how the verification loop for correct ideas can be decades (or even millennia) long.</p><p>During this time, what we know today as the better theory can actually ",
-      "audio_url": "https://api.substack.com/feed/podcast/191582481/09bfc20781f3d248e53c5f3350823514.mp3",
-      "published": "Fri, 20 Mar 2026 16:00:55 GMT",
-      "published_date": "2026-03-20",
-      "rss_guid": "substack:post:191582481",
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/09bfc20781f3d248e53c5f3350823514.mp3",
-      "filename": "09bfc20781f3d248e53c5f3350823514.mp3",
-      "status": "APPROVED",
-      "matched_keywords": []
     },
     {
       "podcast": "Dwarkesh Podcast",

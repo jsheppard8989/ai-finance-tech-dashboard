@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-03-21T04:35:53.740954",
-  "last_updated": "2026-03-21T04:35:53.740954",
-  "last_pipeline_run": "2026-03-21T04:35:53.740954",
+  "generated_at": "2026-03-21T22:07:29.956871",
+  "last_updated": "2026-03-21T22:07:29.956871",
+  "last_pipeline_run": "2026-03-21T22:07:29.956871",
   "main_page": {
     "overton": 8,
     "insights": 8,
@@ -18,14 +18,33 @@
     "podcasts_analyzed": 2
   },
   "step_results": {
-    "downloaded": 4,
-    "transcribed": 4,
-    "analyzed": 4,
-    "insight_created": 2,
-    "published": 3,
-    "total": 7
+    "downloaded": 3,
+    "transcribed": 3,
+    "analyzed": 3,
+    "insight_created": 0,
+    "published": 1,
+    "total": 6
   },
   "episodes": [
+    {
+      "id": "b1b247d2-249c-11f1-b4ca-131c5ebeca2c",
+      "podcast": "Moonshots with Peter Diamandis",
+      "title": "Moonshots Podcast Episode #231 - OpenAI Acquires OpenClaw, 400x Cost Collapse, & Why India Wins the Talent War",
+      "published": "2026-03-21",
+      "rss_guid": "b1b247d2-249c-11f1-b4ca-131c5ebeca2c",
+      "stages": {
+        "downloaded": true,
+        "transcribed": true,
+        "analyzed": true,
+        "insight_created": false,
+        "published": false
+      },
+      "stage_reasons": {
+        "insight_created": "No latest_insights row for this episode (insight step not reflected in DB yet).",
+        "published": "added_to_site=0 (export/publish step not reflected in DB yet)."
+      },
+      "status": "needs_insight"
+    },
     {
       "id": "e1cac66e-2231-11f1-82c3-c7e649c4b364",
       "podcast": "Moonshots with Peter Diamandis",
@@ -65,22 +84,6 @@
         "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
       },
       "status": "needs_download"
-    },
-    {
-      "id": "5f117324-ba75-4af2-b75f-a419a177b639",
-      "podcast": "The a16z Show",
-      "title": "The A16z Show: Winning the AI Race and American Competitiveness",
-      "published": "2026-03-20",
-      "rss_guid": "5f117324-ba75-4af2-b75f-a419a177b639",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "status": "complete"
     },
     {
       "id": "1e92a9dd-78da-4417-b1ce-4b4318d1f8c4",
@@ -124,22 +127,6 @@
       "status": "needs_download"
     },
     {
-      "id": "substack:post:191582481",
-      "podcast": "Dwarkesh Podcast",
-      "title": "The Impact of AI on Mathematics and Scientific Discovery",
-      "published": "2026-03-20",
-      "rss_guid": "substack:post:191582481",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "status": "complete"
-    },
-    {
       "id": "substack:post:190118311",
       "podcast": "Dwarkesh Podcast",
       "title": "Why Leonardo was a saboteur, Gutenberg went broke, and Florence was weird \u2013 Ada Palmer",
@@ -163,6 +150,13 @@
     }
   ],
   "available_from_rss": [
+    {
+      "podcast": "Moonshots with Peter Diamandis",
+      "title": "NVIDIA's $1 Trillion Prediction, Anthropic Beats OpenAI, Tesla vs. TSMC & The CS Job Collapse | 240",
+      "published": "Sat, 21 Mar 2026 14:35:00 -0000",
+      "published_date": "2026-03-21",
+      "rss_guid": ""
+    },
     {
       "podcast": "The a16z Show",
       "title": "AI Just Gave You Superpowers \u2014 Now What?",
