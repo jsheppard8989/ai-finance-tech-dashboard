@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-03-22T04:10:57.257828",
-  "last_updated": "2026-03-22T04:10:57.257828",
-  "last_pipeline_run": "2026-03-22T04:10:57.257828",
+  "generated_at": "2026-03-22T22:15:05.332263",
+  "last_updated": "2026-03-22T22:15:05.332263",
+  "last_pipeline_run": "2026-03-22T22:15:05.332263",
   "main_page": {
     "overton": 8,
     "insights": 8,
@@ -23,7 +23,7 @@
     "analyzed": 3,
     "insight_created": 0,
     "published": 1,
-    "total": 6
+    "total": 8
   },
   "episodes": [
     {
@@ -62,6 +62,28 @@
         "insight_created": "No latest_insights row for this episode (insight step not reflected in DB yet)."
       },
       "status": "needs_insight"
+    },
+    {
+      "id": "7409ff42-25ff-11f1-87be-bb3985a0a1b7",
+      "podcast": "Monetary Matters with Jack Farley",
+      "title": "A Fertilizer Crisis is Brewing (Quickly) | StoneX\u2019s Josh Linville on How Iran War & Strait of Hormuz Closure Has Shut of Critical Fertilizer Chemical Feedstocks That Threaten Global Grain Supply ",
+      "published": "2026-03-22",
+      "rss_guid": "7409ff42-25ff-11f1-87be-bb3985a0a1b7",
+      "stages": {
+        "downloaded": false,
+        "transcribed": false,
+        "analyzed": false,
+        "insight_created": false,
+        "published": false
+      },
+      "stage_reasons": {
+        "downloaded": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "transcribed": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "analyzed": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "insight_created": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
+      },
+      "status": "needs_download"
     },
     {
       "id": "e3ce0ba4-22dd-11f1-b3e1-ef93882cc84d",
@@ -127,6 +149,28 @@
       "status": "needs_download"
     },
     {
+      "id": "68a689ad-9d04-4a49-95eb-aaa47a714117",
+      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "title": "How Matt Mahan Thinks He Can Save California",
+      "published": "2026-03-23",
+      "rss_guid": "68a689ad-9d04-4a49-95eb-aaa47a714117",
+      "stages": {
+        "downloaded": false,
+        "transcribed": false,
+        "analyzed": false,
+        "insight_created": false,
+        "published": false
+      },
+      "stage_reasons": {
+        "downloaded": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "transcribed": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "analyzed": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "insight_created": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
+      },
+      "status": "needs_download"
+    },
+    {
       "id": "substack:post:190118311",
       "podcast": "Dwarkesh Podcast",
       "title": "Why Leonardo was a saboteur, Gutenberg went broke, and Florence was weird \u2013 Ada Palmer",
@@ -150,6 +194,20 @@
     }
   ],
   "available_from_rss": [
+    {
+      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "title": "How Matt Mahan Thinks He Can Save California",
+      "published": "Mon, 23 Mar 2026 01:03:00 +0000",
+      "published_date": "2026-03-23",
+      "rss_guid": ""
+    },
+    {
+      "podcast": "Monetary Matters with Jack Farley",
+      "title": "A Fertilizer Crisis is Brewing (Quickly) | StoneX\u2019s Josh Linville on How Iran War & Strait of Hormuz Closure Has Shut of Critical Fertilizer Chemical Feedstocks That Threaten Global Grain Supply ",
+      "published": "Sun, 22 Mar 2026 14:56:00 -0000",
+      "published_date": "2026-03-22",
+      "rss_guid": ""
+    },
     {
       "podcast": "Moonshots with Peter Diamandis",
       "title": "NVIDIA's $1 Trillion Prediction, Anthropic Beats OpenAI, Tesla vs. TSMC & The CS Job Collapse | 240",

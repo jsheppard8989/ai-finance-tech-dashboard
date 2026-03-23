@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-03-22T04:06:36.948788",
-  "total_feed_episodes": 6,
-  "approved_for_transcription": 6,
+  "timestamp": "2026-03-22T22:03:46.066957",
+  "total_feed_episodes": 8,
+  "approved_for_transcription": 8,
   "episodes": [
     {
       "podcast": "Moonshots with Peter Diamandis",
@@ -11,10 +11,10 @@
       "published": "Sat, 21 Mar 2026 14:35:00 -0000",
       "published_date": "2026-03-21",
       "rss_guid": "b1b247d2-249c-11f1-b4ca-131c5ebeca2c",
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/DVVTS6372073266.mp3",
-      "filename": "DVVTS6372073266.mp3",
       "status": "APPROVED",
-      "matched_keywords": []
+      "matched_keywords": [],
+      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/moonshots_with_peter_diamandis_nvidia_s__1_trillion_prediction__anthropic_beats_openai__tes_c82c7892.mp3",
+      "filename": "moonshots_with_peter_diamandis_nvidia_s__1_trillion_prediction__anthropic_beats_openai__tes_c82c7892.mp3"
     },
     {
       "podcast": "Moonshots with Peter Diamandis",
@@ -28,6 +28,19 @@
       "matched_keywords": [],
       "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/moonshots_with_peter_diamandis_meta_buys_moltbook__gpt_5_4__and_fruitfly_brain_upload___moo_609f0b8d.mp3",
       "filename": "moonshots_with_peter_diamandis_meta_buys_moltbook__gpt_5_4__and_fruitfly_brain_upload___moo_609f0b8d.mp3"
+    },
+    {
+      "podcast": "Monetary Matters with Jack Farley",
+      "title": "A Fertilizer Crisis is Brewing (Quickly) | StoneX\u2019s Josh Linville on How Iran War & Strait of Hormuz Closure Has Shut of Critical Fertilizer Chemical Feedstocks That Threaten Global Grain Supply ",
+      "description": "\n        <p>Sponsor: Teucrium Corn Fund (NYSE Arca: CORN):</p>\n<p>https://teucrium.com/corn</p>\n<p><br></p>\n<p>In this episode of <em>Monetary Matters</em>, StoneX Vice President Josh Linville explains how the Iran War and the closure of the Strait of Hormuz have triggered a global fertilizer crisis that is currently crippling agricultural economics. With urea prices effectively doubling in just a few months, Josh warns that the market is facing a supply shock far more severe than the 2022 crisi",
+      "audio_url": "https://traffic.megaphone.fm/EWWMN4403315202.mp3",
+      "published": "Sun, 22 Mar 2026 14:56:00 -0000",
+      "published_date": "2026-03-22",
+      "rss_guid": "7409ff42-25ff-11f1-87be-bb3985a0a1b7",
+      "status": "APPROVED",
+      "matched_keywords": [],
+      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/monetary_matters_with_jack_farley_a_fertilizer_crisis_is_brewing__quickly____stonex_s_josh_lin_56ca7b2b.mp3",
+      "filename": "monetary_matters_with_jack_farley_a_fertilizer_crisis_is_brewing__quickly____stonex_s_josh_lin_56ca7b2b.mp3"
     },
     {
       "podcast": "Monetary Matters with Jack Farley",
@@ -67,6 +80,19 @@
       "matched_keywords": [],
       "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_chris_dixon__from_quant_trading_to_building_a16z_crypto_be2e5b4b.mp3",
       "filename": "the_a16z_show_chris_dixon__from_quant_trading_to_building_a16z_crypto_be2e5b4b.mp3"
+    },
+    {
+      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "title": "How Matt Mahan Thinks He Can Save California",
+      "description": "<p dir=\"ltr\">(0:00) Matt Mahan: Why He's Running for Governor</p> <p dir=\"ltr\">(1:51) How California Went From Bad to Worse</p> <p dir=\"ltr\">(12:05) Public Sector Unions & Lobbying in Sacramento</p> <p dir=\"ltr\">(19:05) California's Housing Crisis: Regulation & Fees</p> <p dir=\"ltr\">(34:52) California Energy Crisis: Gas Taxes & Green Policy</p> <p dir=\"ltr\">(43:57) The $1 Trillion Pension Time Bomb</p> <p dir=\"ltr\">(1:02:37) Trump, Tariffs & the Rise of Dangerous Populism</p> <p dir=\"ltr\">(1:09:",
+      "audio_url": "https://dts.podtrac.com/redirect.mp3/traffic.libsyn.com/secure/allinchamathjason/ALLIN_INTV_MAHAN_Ch.mp3?dest-id=1928300",
+      "published": "Mon, 23 Mar 2026 01:03:00 +0000",
+      "published_date": "2026-03-23",
+      "rss_guid": "68a689ad-9d04-4a49-95eb-aaa47a714117",
+      "status": "APPROVED",
+      "matched_keywords": [],
+      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/all_in_with_chamath__jason__sacks___frie_how_matt_mahan_thinks_he_can_save_california_8dc900a2.mp3",
+      "filename": "all_in_with_chamath__jason__sacks___frie_how_matt_mahan_thinks_he_can_save_california_8dc900a2.mp3"
     },
     {
       "podcast": "Dwarkesh Podcast",

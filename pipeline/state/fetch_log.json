@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-22T04:06:44.093033",
+  "timestamp": "2026-03-22T22:04:00.592433",
   "results": [
     {
       "podcast": "Moonshots with Peter Diamandis",
@@ -7,6 +7,20 @@
       "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/DVVTS6372073266.mp3",
       "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/DVVTS6372073266.txt",
       "success": true
+    },
+    {
+      "podcast": "Monetary Matters with Jack Farley",
+      "title": "A Fertilizer Crisis is Brewing (Quickly) | StoneX\u2019s Josh Linville on How Iran War & Strait of Hormuz Closure Has Shut of Critical Fertilizer Chemical Feedstocks That Threaten Global Grain Supply ",
+      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/EWWMN4403315202.mp3",
+      "transcript_path": null,
+      "success": false
+    },
+    {
+      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "title": "How Matt Mahan Thinks He Can Save California",
+      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/ALLIN_INTV_MAHAN_Ch.mp3",
+      "transcript_path": null,
+      "success": false
     }
   ]
 }

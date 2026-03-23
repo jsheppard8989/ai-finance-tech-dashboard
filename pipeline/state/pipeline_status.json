@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-22T04:10:57.334832",
+  "last_updated": "2026-03-22T22:15:05.468189",
   "episodes": {
     "moonshots_with_peter_diamandis_nvidia's_$1_trillion_predictio": {
       "info": {
         "podcast": "Moonshots with Peter Diamandis",
         "title": "NVIDIA's $1 Trillion Prediction, Anthropic Beats OpenAI, Tesla vs. TSMC & The CS Job Collapse | 240",
         "published": "2026-03-21",
-        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/DVVTS6372073266.mp3",
+        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/moonshots_with_peter_diamandis_nvidia_s__1_trillion_prediction__anthropic_beats_openai__tes_c82c7892.mp3",
         "keywords": [],
         "rss_guid": "b1b247d2-249c-11f1-b4ca-131c5ebeca2c"
       },
@@ -39,7 +39,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-22T04:10:57.261251",
+      "first_seen": "2026-03-22T22:15:05.335954",
       "status": "needs_analysis"
     },
     "moonshots_with_peter_diamandis_meta_buys_moltbook,_gpt_5.4,_a": {
@@ -80,8 +80,49 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-22T04:10:57.296822",
+      "first_seen": "2026-03-22T22:15:05.378439",
       "status": "blocked_analysis"
+    },
+    "monetary_matters_with_jack_farley_a_fertilizer_crisis_is_brewing": {
+      "info": {
+        "podcast": "Monetary Matters with Jack Farley",
+        "title": "A Fertilizer Crisis is Brewing (Quickly) | StoneX\u2019s Josh Linville on How Iran War & Strait of Hormuz Closure Has Shut of Critical Fertilizer Chemical Feedstocks That Threaten Global Grain Supply ",
+        "published": "2026-03-22",
+        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/monetary_matters_with_jack_farley_a_fertilizer_crisis_is_brewing__quickly____stonex_s_josh_lin_56ca7b2b.mp3",
+        "keywords": [],
+        "rss_guid": "7409ff42-25ff-11f1-87be-bb3985a0a1b7"
+      },
+      "stages": {
+        "downloaded": {
+          "complete": true,
+          "timestamp": null,
+          "reason": null
+        },
+        "transcribed": {
+          "complete": false,
+          "file": null,
+          "timestamp": null,
+          "reason": "Waiting for fetch/transcribe step"
+        },
+        "analyzed": {
+          "complete": false,
+          "episode_id": null,
+          "timestamp": null,
+          "reason": "Waiting for next analyze run (transcript \u2192 DB)."
+        },
+        "insight_created": {
+          "complete": false,
+          "timestamp": null,
+          "reason": "Depends on analyze step first."
+        },
+        "published": {
+          "complete": false,
+          "timestamp": null,
+          "reason": "Not in data.js yet (run export and push to site)."
+        }
+      },
+      "first_seen": "2026-03-22T22:15:05.388693",
+      "status": "needs_transcription"
     },
     "monetary_matters_with_jack_farley_stock_market_on_shaky_foundati": {
       "info": {
@@ -121,7 +162,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-22T04:10:57.302671",
+      "first_seen": "2026-03-22T22:15:05.409771",
       "status": "blocked_analysis"
     },
     "the_a16z_show_ai_just_gave_you_superpowers_\u2014": {
@@ -162,7 +203,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-22T04:10:57.313212",
+      "first_seen": "2026-03-22T22:15:05.423055",
       "status": "blocked_analysis"
     },
     "the_a16z_show_chris_dixon:_from_quant_tradin": {
@@ -203,8 +244,49 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-22T04:10:57.319337",
+      "first_seen": "2026-03-22T22:15:05.431443",
       "status": "blocked_analysis"
+    },
+    "all-in_with_chamath,_jason,_sacks_&_friedberg_how_matt_mahan_thinks_he_can_s": {
+      "info": {
+        "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+        "title": "How Matt Mahan Thinks He Can Save California",
+        "published": "2026-03-23",
+        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/all_in_with_chamath__jason__sacks___frie_how_matt_mahan_thinks_he_can_save_california_8dc900a2.mp3",
+        "keywords": [],
+        "rss_guid": "68a689ad-9d04-4a49-95eb-aaa47a714117"
+      },
+      "stages": {
+        "downloaded": {
+          "complete": true,
+          "timestamp": null,
+          "reason": null
+        },
+        "transcribed": {
+          "complete": false,
+          "file": null,
+          "timestamp": null,
+          "reason": "Waiting for fetch/transcribe step"
+        },
+        "analyzed": {
+          "complete": false,
+          "episode_id": null,
+          "timestamp": null,
+          "reason": "Waiting for next analyze run (transcript \u2192 DB)."
+        },
+        "insight_created": {
+          "complete": false,
+          "timestamp": null,
+          "reason": "Depends on analyze step first."
+        },
+        "published": {
+          "complete": false,
+          "timestamp": null,
+          "reason": "Not in data.js yet (run export and push to site)."
+        }
+      },
+      "first_seen": "2026-03-22T22:15:05.445984",
+      "status": "needs_transcription"
     },
     "dwarkesh_podcast_why_leonardo_was_a_saboteur,_g": {
       "info": {
@@ -244,7 +326,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-22T04:10:57.330015",
+      "first_seen": "2026-03-22T22:15:05.461598",
       "status": "blocked_analysis"
     }
   }
