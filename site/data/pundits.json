@@ -1,5 +1,120 @@
 [
   {
+    "id": 105,
+    "name": "Josh Lindville",
+    "slug": "josh-lindville",
+    "bio": "Josh Lindville is the Vice President of Fertilizer at Stone X, where he specializes in trading fertilizer futures and OTC products. He provides market insights and information to the agricultural industry, with a focus on the impact of global events on fertilizer prices.",
+    "known_for": "His expertise in analyzing the effects of geopolitical events on fertilizer prices and their implications for agriculture and food prices.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Knowledgeable and concerned about the impact of geopolitical events on fertilizer prices.",
+    "voice_style": "Factual and data-driven, with a focus on the implications for the agriculture industry.",
+    "voice_delivery_notes": "Speaks with a sense of urgency, emphasizing the severity of the situation.",
+    "voice_profile_updated_at": "2026-03-23 09:21:03",
+    "last_seen": "2026-03-23 09:21:03",
+    "last_episode_title": "Monetary Matters with Jack Farley: Impact of Iran War on Fertilizer Prices and Agriculture",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-03-22",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "The disruption in fertilizer supply due to geopolitical tensions presents an opportunity in agricultural commodities, particularly corn, which is heavily impacted by rising input costs and could see price support from tightened supply.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-23T04:22:03.060297",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Josh Lindville",
+      "fetched_at": "2026-03-23T09:22:03.060082+00:00",
+      "cliff_notes": "Josh Lindville serves as the Vice President of Fertilizer at Stone X, where he is responsible for trading in fertilizer futures and over-the-counter products. His role is pivotal in understanding and communicating the market dynamics of fertilizers, particularly in the context of global events such as the Iran war. Lindville's work is significant as it influences the agricultural sector by providing insights into how geopolitical tensions can affect the availability and pricing of essential fertilizers, which in turn impact crop yields and food prices worldwide.",
+      "derived": {
+        "current_role": "Vice President of Fertilizer at Stone X"
+      },
+      "infobox": {
+        "Industry": "Agriculture"
+      },
+      "lead_paragraphs": [
+        "Josh Lindville serves as the Vice President of Fertilizer at Stone X, where he is responsible for trading in fertilizer futures and over-the-counter products. His role is pivotal in understanding and communicating the market dynamics of fertilizers, particularly in the context of global events such as the Iran war. Lindville's work is significant as it influences the agricultural sector by providing insights into how geopolitical tensions can affect the availability and pricing of essential fertilizers, which in turn impact crop yields and food prices worldwide."
+      ],
+      "sections": [
+        {
+          "heading": "Fertilizer Market Dynamics",
+          "body": "Josh Lindville is known for his analysis of how geopolitical events, such as the Iran war, impact the global supply of nitrogen and phosphate fertilizers, which are critical for crop yields and food production."
+        },
+        {
+          "heading": "Agricultural Impact",
+          "body": "Lindville's insights are valuable for the agricultural industry as they help predict and understand the ripple effects of global events on fertilizer prices, which directly influence farming costs and food supply."
+        },
+        {
+          "heading": "Food Prices",
+          "body": "His expertise extends to the implications of fertilizer market fluctuations on food prices, a critical area of concern for global food security and economic stability."
+        }
+      ]
+    }
+  },
+  {
+    "id": 104,
+    "name": "Matt Mayhand",
+    "slug": "matt-mayhand",
+    "bio": "Matt Mayhand is a candidate for Governor of California with a background in civic tech and city council experience. He grew up in Watsonville, California, and has a history of working in education and technology sectors.",
+    "known_for": "Focusing on fiscal responsibility and pragmatic policy solutions in his gubernatorial campaign.",
+    "net_worth_usd": 1000000000.0,
+    "net_worth_source": "https://spearswms.com/wealth/matt-mahan/",
+    "net_worth_updated_at": "2026-03-23T04:22:22.883231",
+    "voice_tone": "Frustration with the state's financial mismanagement.",
+    "voice_style": "Calls for accountability and transparency in government spending.",
+    "voice_delivery_notes": "Pacing is steady with emphasis on key points of fiscal responsibility and policy pragmatism.",
+    "voice_profile_updated_at": "2026-03-23 09:18:22",
+    "last_seen": "2026-03-23 09:18:22",
+    "last_episode_title": "California's Spending Woes and the Governor's Race",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-03-23",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in innovation and infrastructure to create a smarter grid and incentivize clean energy adoption, while avoiding over-regulation that leads to unintended economic and environmental consequences.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-23T04:22:21.245588",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Matt Mayhand",
+      "fetched_at": "2026-03-23T09:22:21.245480+00:00",
+      "cliff_notes": "Matt Mayhand hails from Watsonville, California, a small farming town known for its strawberries. Coming from a working-class family, his mother was a teacher and his father a letter carrier. Mayhand's educational journey began with a college prep high school and a work study scholarship, which involved a two-hour bus commute each way. After working his way through high school and college, he returned to education as a public school teacher through the Teach for America program. His interest in politics and making a difference led him to the tech sector, where he spent a decade developing civic tech tools aimed at helping people navigate democracy. His pragmatic approach to governance and commitment to fiscal responsibility are central to his campaign for Governor of California.",
+      "derived": {
+        "current_role": "Candidate for Governor of California",
+        "former_positions": "Public School Teacher; Civic Tech Developer",
+        "education": "College Prep High School; Work Study Scholarship",
+        "political_summary": "Matt Mayhand is running for Governor of California, emphasizing fiscal responsibility and pragmatic policy solutions. His campaign is a response to his frustration with the state's spending and diminishing returns.",
+        "teaching_summary": "Public School Teacher"
+      },
+      "infobox": {
+        "Born": "Watsonville, California",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Matt Mayhand hails from Watsonville, California, a small farming town known for its strawberries. Coming from a working-class family, his mother was a teacher and his father a letter carrier. Mayhand's educational journey began with a college prep high school and a work study scholarship, which involved a two-hour bus commute each way.",
+        "After working his way through high school and college, he returned to education as a public school teacher through the Teach for America program. His interest in politics and making a difference led him to the tech sector, where he spent a decade developing civic tech tools aimed at helping people navigate democracy. His pragmatic approach to governance and commitment to fiscal responsibility are central to his campaign for Governor of California."
+      ],
+      "sections": [
+        {
+          "heading": "Education",
+          "body": "Matt Mayhand's educational journey began with a college prep high school and a work study scholarship, which involved a two-hour bus commute each way. He later worked his way through college and became a public school teacher through the Teach for America program."
+        },
+        {
+          "heading": "Civic Tech",
+          "body": "Mayhand spent a decade in the tech sector, building civic tech tools designed to help people navigate their democracy more effectively, reflecting his commitment to making the city and world a better place."
+        },
+        {
+          "heading": "Governor Campaign",
+          "body": "Running for Governor of California, Mayhand emphasizes fiscal responsibility and pragmatic policy solutions, aiming to address the state's spending issues and the diminishing returns on investment."
+        }
+      ]
+    },
+    "net_worth": "$1.00B"
+  },
+  {
     "id": 103,
     "name": "Terrence Tau",
     "slug": "terrence-tau",
@@ -1068,92 +1183,5 @@
       ]
     },
     "net_worth": "$2.10B"
-  },
-  {
-    "id": 69,
-    "name": "Ben Horowitz",
-    "slug": "ben-horowitz",
-    "bio": "Ben Horowitz is a prominent venture capitalist and co-founder of Andreessen Horowitz (a16z), a leading venture capital firm in Silicon Valley. He has been instrumental in shaping the tech industry through his investments and insights.",
-    "known_for": "Co-founding Andreessen Horowitz and shaping the tech industry through strategic investments and influential thought leadership.",
-    "net_worth_usd": 2000000000.0,
-    "net_worth_source": "https://www.cinenetworth.com/ben-horowitz-net-worth/",
-    "net_worth_updated_at": "2026-03-19T21:23:34.764792",
-    "voice_tone": "",
-    "voice_style": "",
-    "voice_delivery_notes": "",
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-03-16 19:37:22",
-    "last_episode_title": "Moonshots Podcast Episode #231 - OpenAI Acquires OpenClaw, 400x Cost Collapse, & Why India Wins the Talent War",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-02-18",
-    "mention_score": 2,
-    "mention_score_decayed": 1.74,
-    "last_main_idea": "Invest in the vertical integration of AI, the rise of India as a global AI hub, and the shift towards agent-based interactions.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-19T21:23:33.038094",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Ben Horowitz",
-      "fetched_at": "2026-03-20T02:23:33.037970+00:00",
-      "cliff_notes": "Ben Horowitz is a renowned venture capitalist and entrepreneur. He co-founded Andreessen Horowitz (a16z) with Marc Andreessen in 2009, which has since become one of the most influential venture capital firms in Silicon Valley. Prior to a16z, Horowitz was a general partner at the venture capital firm Opsware, which was acquired by Hewlett-Packard for $1.6 billion in 2007. Before his venture capital career, Horowitz was a software engineer and entrepreneur, founding several companies including Loudcloud and Opsware. He has been a driving force in the tech industry, investing in and advising numerous successful startups. Horowitz is also known for his bestselling book, 'The Hard Thing About Hard Things,' which offers insights into the challenges of building and running a startup.",
-      "derived": {
-        "current_role": "Co-founder of Andreessen Horowitz",
-        "education": "Bachelor's degree in Computer Science from Columbia University; Master's degree in Computer Science from UCLA",
-        "books_or_works": "The Hard Thing About Hard Things: Building a Business When There Are No Easy Answers"
-      },
-      "infobox": {
-        "Born": "1973",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Ben Horowitz is a renowned venture capitalist and entrepreneur. He co-founded Andreessen Horowitz (a16z) with Marc Andreessen in 2009, which has since become one of the most influential venture capital firms in Silicon Valley. Prior to a16z, Horowitz was a general partner at the venture capital firm Opsware, which was acquired by Hewlett-Packard for $1.6 billion in 2007.",
-        "Before his venture capital career, Horowitz was a software engineer and entrepreneur, founding several companies including Loudcloud and Opsware. He has been a driving force in the tech industry, investing in and advising numerous successful startups. Horowitz is also known for his bestselling book, 'The Hard Thing About Hard Things,' which offers insights into the challenges of building and running a startup."
-      ],
-      "sections": [
-        {
-          "heading": "Venture Capital",
-          "body": "Ben Horowitz is a leading figure in the venture capital industry, co-founding Andreessen Horowitz and investing in numerous successful startups."
-        },
-        {
-          "heading": "Tech Industry Influence",
-          "body": "Horowitz has been instrumental in shaping the tech industry through his strategic investments and influential thought leadership."
-        },
-        {
-          "heading": "Entrepreneurship",
-          "body": "Before his venture capital career, Horowitz was an entrepreneur, founding companies such as Loudcloud and Opsware."
-        },
-        {
-          "heading": "Thought Leadership",
-          "body": "Horowitz is known for his bestselling book, 'The Hard Thing About Hard Things,' which offers insights into the challenges of building and running a startup."
-        }
-      ]
-    },
-    "net_worth": "$2.00B"
-  },
-  {
-    "id": 43,
-    "name": "Olivia Moore",
-    "slug": "olivia-moore",
-    "bio": "Olivia Moore is a partner at A16Z, focusing on AI applications.",
-    "known_for": "Her expertise in AI and its applications in various sectors.",
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-03-16 13:08:23",
-    "last_episode_title": "AI Startups and the Future of Technology",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-03-16",
-    "mention_score": 2,
-    "mention_score_decayed": 1.74,
-    "last_main_idea": "Invest in AI startups that focus on specific niches and use cases, as they can compete effectively against larger AI companies by capitalizing on the gaps between platforms.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
   }
 ]

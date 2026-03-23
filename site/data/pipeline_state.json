@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-03-22T22:15:05.332263",
-  "last_updated": "2026-03-22T22:15:05.332263",
-  "last_pipeline_run": "2026-03-22T22:15:05.332263",
+  "generated_at": "2026-03-23T04:24:32.624810",
+  "last_updated": "2026-03-23T04:24:32.624810",
+  "last_pipeline_run": "2026-03-23T04:24:32.624810",
   "main_page": {
     "overton": 8,
     "insights": 8,
@@ -9,20 +9,20 @@
   },
   "counts": {
     "ticker_mentions": 139,
-    "podcast_episodes": 69,
+    "podcast_episodes": 71,
     "newsletters": 7,
     "daily_scores": 77,
     "overton_terms_total": 16,
-    "latest_insights_total": 85,
+    "latest_insights_total": 87,
     "today_mentions": {},
-    "podcasts_analyzed": 0
+    "podcasts_analyzed": 2
   },
   "step_results": {
-    "downloaded": 3,
-    "transcribed": 3,
-    "analyzed": 3,
-    "insight_created": 0,
-    "published": 1,
+    "downloaded": 5,
+    "transcribed": 5,
+    "analyzed": 5,
+    "insight_created": 2,
+    "published": 3,
     "total": 8
   },
   "episodes": [
@@ -66,24 +66,18 @@
     {
       "id": "7409ff42-25ff-11f1-87be-bb3985a0a1b7",
       "podcast": "Monetary Matters with Jack Farley",
-      "title": "A Fertilizer Crisis is Brewing (Quickly) | StoneX\u2019s Josh Linville on How Iran War & Strait of Hormuz Closure Has Shut of Critical Fertilizer Chemical Feedstocks That Threaten Global Grain Supply ",
+      "title": "Monetary Matters with Jack Farley: Impact of Iran War on Fertilizer Prices and Agriculture",
       "published": "2026-03-22",
       "rss_guid": "7409ff42-25ff-11f1-87be-bb3985a0a1b7",
       "stages": {
-        "downloaded": false,
-        "transcribed": false,
-        "analyzed": false,
-        "insight_created": false,
-        "published": false
+        "downloaded": true,
+        "transcribed": true,
+        "analyzed": true,
+        "insight_created": true,
+        "published": true
       },
-      "stage_reasons": {
-        "downloaded": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "transcribed": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "analyzed": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "insight_created": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
-      },
-      "status": "needs_download"
+      "stage_reasons": {},
+      "status": "complete"
     },
     {
       "id": "e3ce0ba4-22dd-11f1-b3e1-ef93882cc84d",
@@ -151,24 +145,18 @@
     {
       "id": "68a689ad-9d04-4a49-95eb-aaa47a714117",
       "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "title": "How Matt Mahan Thinks He Can Save California",
+      "title": "California's Spending Woes and the Governor's Race",
       "published": "2026-03-23",
       "rss_guid": "68a689ad-9d04-4a49-95eb-aaa47a714117",
       "stages": {
-        "downloaded": false,
-        "transcribed": false,
-        "analyzed": false,
-        "insight_created": false,
-        "published": false
+        "downloaded": true,
+        "transcribed": true,
+        "analyzed": true,
+        "insight_created": true,
+        "published": true
       },
-      "stage_reasons": {
-        "downloaded": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "transcribed": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "analyzed": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "insight_created": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
-      },
-      "status": "needs_download"
+      "stage_reasons": {},
+      "status": "complete"
     },
     {
       "id": "substack:post:190118311",
@@ -194,20 +182,6 @@
     }
   ],
   "available_from_rss": [
-    {
-      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "title": "How Matt Mahan Thinks He Can Save California",
-      "published": "Mon, 23 Mar 2026 01:03:00 +0000",
-      "published_date": "2026-03-23",
-      "rss_guid": ""
-    },
-    {
-      "podcast": "Monetary Matters with Jack Farley",
-      "title": "A Fertilizer Crisis is Brewing (Quickly) | StoneX\u2019s Josh Linville on How Iran War & Strait of Hormuz Closure Has Shut of Critical Fertilizer Chemical Feedstocks That Threaten Global Grain Supply ",
-      "published": "Sun, 22 Mar 2026 14:56:00 -0000",
-      "published_date": "2026-03-22",
-      "rss_guid": ""
-    },
     {
       "podcast": "Moonshots with Peter Diamandis",
       "title": "NVIDIA's $1 Trillion Prediction, Anthropic Beats OpenAI, Tesla vs. TSMC & The CS Job Collapse | 240",
@@ -246,12 +220,21 @@
   ],
   "stale_episodes": [
     {
+      "id": "b1b247d2-249c-11f1-b4ca-131c5ebeca2c",
+      "podcast": "Moonshots with Peter Diamandis",
+      "title": "Moonshots Podcast Episode #231 - OpenAI Acquires OpenClaw, 400x Cost Collapse, & Why India Wins the Talent War",
+      "status": "needs_insight",
+      "published": "2026-03-21",
+      "age_days": 2,
+      "next_blocker": "insight_created"
+    },
+    {
       "id": "e1cac66e-2231-11f1-82c3-c7e649c4b364",
       "podcast": "Moonshots with Peter Diamandis",
       "title": "Meta Buys Moltbook GPT 5.4 and Fruitfly Brain Upload",
       "status": "needs_insight",
       "published": "2026-03-17",
-      "age_days": 5,
+      "age_days": 6,
       "next_blocker": "insight_created"
     },
     {
@@ -260,7 +243,7 @@
       "title": "Stock Market on Shaky Foundations | Blind Squirrel Macro\u2019s Rupert Mitchell on IPO Supply, Oil, and Private Credit",
       "status": "needs_download",
       "published": "2026-03-18",
-      "age_days": 4,
+      "age_days": 5,
       "next_blocker": "downloaded"
     },
     {
@@ -269,7 +252,7 @@
       "title": "AI Startups and the Future of Technology",
       "status": "needs_insight",
       "published": "2026-03-19",
-      "age_days": 3,
+      "age_days": 4,
       "next_blocker": "insight_created"
     },
     {
@@ -278,7 +261,7 @@
       "title": "Chris Dixon: From Quant Trading to Building a16z Crypto",
       "status": "needs_download",
       "published": "2026-03-02",
-      "age_days": 20,
+      "age_days": 21,
       "next_blocker": "downloaded"
     },
     {
@@ -287,7 +270,7 @@
       "title": "Why Leonardo was a saboteur, Gutenberg went broke, and Florence was weird \u2013 Ada Palmer",
       "status": "needs_download",
       "published": "2026-03-06",
-      "age_days": 16,
+      "age_days": 17,
       "next_blocker": "downloaded"
     }
   ],

@@ -3,8 +3,8 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-03-22T22:15:07.589048",
-  chartsVersion: "2026-03-22T04:10:56.449441",
+  generatedAt: "2026-03-23T04:24:34.293110",
+  chartsVersion: "2026-03-23T04:24:32.074856",
   tickerScores: [
   {
     "ticker": "GOOGL",
@@ -700,6 +700,48 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 112,
+      "title": "California's Spending Woes and the Governor's Race",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-03-23",
+      "summary": "In this episode of 'All-In with Chamath, Jason, Sacks & Friedberg', guest Matt Mayhand, a candidate for Governor of California, discusses the state's financial mismanagement, lack of accountability, and the impact of regulations on various sectors such as high-speed rail, housing, and energy. Mayhand emphasizes the need for pragmatic solutions, focusing on results and measurable outcomes, rather than increasing revenue and government programs.",
+      "key_takeaway": "Invest in innovation and infrastructure to create a smarter grid and incentivize clean energy adoption, while avoiding over-regulation that leads to unintended economic and environmental consequences.",
+      "tickers_mentioned": [
+        "AAPL",
+        "NVDA",
+        "TSLA",
+        "LMT",
+        "V"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-23",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 95
+    },
+    {
+      "id": 113,
+      "title": "Monetary Matters with Jack Farley: Impact of Iran War on Fertilizer Prices and Agriculture",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-03-22",
+      "summary": "In this episode of Monetary Matters, host Jack Farley interviews Josh Lindville, Vice President of Fertilizer at Stone X, to discuss the impact of the Iran war on fertilizer prices and its implications on agriculture and food prices. They delve into the drastic increase in fertilizer prices, particularly nitrogen, and the potential for further price increases. The conversation also touches on the role of government intervention in the market and the importance of letting free markets operate.",
+      "key_takeaway": "The disruption in fertilizer supply due to geopolitical tensions presents an opportunity in agricultural commodities, particularly corn, which is heavily impacted by rising input costs and could see price support from tightened supply.",
+      "tickers_mentioned": [
+        "CORN"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-23",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 96
+    },
+    {
       "id": 110,
       "title": "The Impact of AI on Mathematics and Scientific Discovery",
       "source_type": "podcast",
@@ -837,11 +879,11 @@ const dashboardData = {
         "TSLA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-18",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-23",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 78
     },
     {
@@ -860,11 +902,11 @@ const dashboardData = {
         "TSLA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-18",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-23",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 77
     },
     {
@@ -2716,6 +2758,48 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 112,
+      "title": "California's Spending Woes and the Governor's Race",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-03-23",
+      "summary": "In this episode of 'All-In with Chamath, Jason, Sacks & Friedberg', guest Matt Mayhand, a candidate for Governor of California, discusses the state's financial mismanagement, lack of accountability, and the impact of regulations on various sectors such as high-speed rail, housing, and energy. Mayhand emphasizes the need for pragmatic solutions, focusing on results and measurable outcomes, rather than increasing revenue and government programs.",
+      "key_takeaway": "Invest in innovation and infrastructure to create a smarter grid and incentivize clean energy adoption, while avoiding over-regulation that leads to unintended economic and environmental consequences.",
+      "tickers_mentioned": "[\"AAPL\", \"NVDA\", \"TSLA\", \"LMT\", \"V\"]",
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-23",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 95,
+      "episode_release_date": "2026-03-23",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
+      "id": 113,
+      "title": "Monetary Matters with Jack Farley: Impact of Iran War on Fertilizer Prices and Agriculture",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-03-22",
+      "summary": "In this episode of Monetary Matters, host Jack Farley interviews Josh Lindville, Vice President of Fertilizer at Stone X, to discuss the impact of the Iran war on fertilizer prices and its implications on agriculture and food prices. They delve into the drastic increase in fertilizer prices, particularly nitrogen, and the potential for further price increases. The conversation also touches on the role of government intervention in the market and the importance of letting free markets operate.",
+      "key_takeaway": "The disruption in fertilizer supply due to geopolitical tensions presents an opportunity in agricultural commodities, particularly corn, which is heavily impacted by rising input costs and could see price support from tightened supply.",
+      "tickers_mentioned": "[\"CORN\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-23",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 96,
+      "episode_release_date": "2026-03-22",
+      "guest_name": null,
+      "key_tickers": [
+        "CORN"
+      ]
+    },
+    {
       "id": 110,
       "title": "The Impact of AI on Mathematics and Scientific Discovery",
       "source_type": "podcast",
@@ -2842,46 +2926,6 @@ const dashboardData = {
       "podcast_episode_id": 89,
       "episode_release_date": "2026-03-19",
       "guest_name": "Rory Johnston",
-      "key_tickers": []
-    },
-    {
-      "id": 94,
-      "title": "Interview with Senator John Fetterman on Voting Rights, Policy Decisions, and the Democratic Party",
-      "source_type": "podcast",
-      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "source_date": "2026-03-18",
-      "summary": "In this episode of 'All-In with Chamath, Jason, Sacks & Friedberg', Senator John Fetterman discusses the Save America Act, his policy decisions, and the current state of the Democratic Party. The conversation covers voting rights, the influence of party politics on policy, and Fetterman's views on the Democratic Party's evolution and its core values. Fetterman emphasizes the importance of moral clarity and country over party, sharing his stance on issues like voting by mail and the role of the Department of Homeland Security.",
-      "key_takeaway": "While not directly investment-focused, the episode provides insights into the political climate and potential policy directions that could indirectly affect various sectors and investment strategies.",
-      "tickers_mentioned": "[\"AAPL\", \"NVDA\", \"SPY\", \"TSLA\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-03-18",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 78,
-      "episode_release_date": "2026-03-18",
-      "guest_name": "Senator John Fetterman on Voting Rights",
-      "key_tickers": []
-    },
-    {
-      "id": 95,
-      "title": "The Geopolitics of Technology and the Future Economy",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-03-18",
-      "summary": "In this episode of the a16z Show, the host sits down with Jacob Helbert, Under Secretary of State for Economic Affairs, to discuss the future of the economy, AI, manufacturing, supply chains, and the new geopolitics of technology. Helbert's insights are drawn from his book 'The Wires of War', where he argues that the technology world is in the grips of a two-front geopolitical technology war, with hardware being the decisive battlefield. The conversation covers the importance of AI innovation, the significance of industrial capacity, secure supply chains, and the reindustrialization of the US.",
-      "key_takeaway": "Invest in companies that are at the forefront of AI innovation, hardware manufacturing, and secure supply chain management to capitalize on the new geopolitics of technology and the reindustrialization of the US.",
-      "tickers_mentioned": "[\"AAPL\", \"NVDA\", \"MSFT\", \"GOOGL\", \"TSLA\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-03-18",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 77,
-      "episode_release_date": "2026-03-18",
-      "guest_name": null,
       "key_tickers": []
     }
   ],
@@ -8722,9 +8766,179 @@ const dashboardData = {
     "key_tickers": [
       "PLTR"
     ]
+  },
+  "112": {
+    "id": 103,
+    "insight_id": 112,
+    "podcast_episode_id": 95,
+    "overview": "The investment thesis revolves around the fiscal challenges and inefficiencies within California's state government, as highlighted by gubernatorial candidate Matt Mayhand. The state's spending has increased by 75%, or $150 billion more than six years ago, without corresponding improvements in outcomes. This inefficiency, coupled with a lack of accountability and a bloated bureaucracy, presents both risks and opportunities for investors. The upcoming governor's race could be a catalyst for change, potentially impacting companies that rely on state contracts or are heavily influenced by state policies. Understanding these dynamics is crucial for investors with exposure to California-based companies or those sensitive to state fiscal health.",
+    "key_takeaways_detailed": [
+      "California's state government spending has surged without tangible improvements, indicating potential mismanagement and inefficiency.",
+      "The high-speed rail project serves as a case study for waste, with $14 billion spent without significant progress, affecting contractors and related industries.",
+      "Fraudulent unemployment claims during the pandemic totaled over $30 billion, underscoring the need for better oversight and potentially impacting insurance and tech companies involved in fraud detection.",
+      "The inefficiencies in housing production and the associated costs could affect real estate and construction companies operating in California.",
+      "The governor's race could lead to policy changes that impact tech companies and those reliant on state contracts or regulations."
+    ],
+    "investment_thesis": "Investors should consider the impact of California's fiscal policies and the upcoming governor's race on their portfolios. The potential for increased accountability and changes in spending priorities could significantly affect companies that rely on state contracts or are influenced by state regulations. We expect a medium-term catalyst for change, as the new governor may implement reforms that could either improve efficiency or create uncertainty. Investors should position their portfolios to capitalize on companies that could benefit from increased efficiency and avoid those that may be adversely affected by potential policy changes.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple, being a major tech company headquartered in California, could be affected by state policies on tech regulation and potential changes in the business environment.",
+        "positioning": "Position long on AAPL if you believe the company can navigate potential policy changes and continue to innovate, or short if you expect significant disruptions.",
+        "risk": "Key risks include increased regulatory scrutiny and potential changes in the state's business-friendly policies."
+      },
+      "NVDA": {
+        "rationale": "Nvidia, a leading tech company in California, could be impacted by state policies on tech and potential shifts in the regulatory environment.",
+        "positioning": "Position long on NVDA if you expect the company to benefit from the state's focus on tech innovation; consider a short position if regulatory risks are high.",
+        "risk": "Regulatory changes and potential shifts in the state's support for the tech industry pose significant risks."
+      },
+      "TSLA": {
+        "rationale": "Tesla, with its significant operations in California, could be affected by state policies on electric vehicles, infrastructure, and environmental regulations.",
+        "positioning": "Position long on TSLA if you believe the company can leverage state policies to its advantage; consider a short position if policy changes threaten its operations.",
+        "risk": "Changes in state support for electric vehicles and potential regulatory hurdles pose significant risks."
+      },
+      "LMT": {
+        "rationale": "Lockheed Martin, as a defense contractor, could be impacted by state policies on defense spending and procurement.",
+        "positioning": "Position long on LMT if you expect continued state defense spending; consider a short position if budget cuts are likely.",
+        "risk": "State budget constraints and potential shifts in defense spending priorities pose risks."
+      },
+      "V": {
+        "rationale": "Visa, with its headquarters in California, could be affected by state policies on financial services and fraud detection.",
+        "positioning": "Position long on V if you expect the company to benefit from increased demand for secure payment solutions; consider a short position if regulatory risks are high.",
+        "risk": "Regulatory changes and potential shifts in the state's support for the financial services industry pose significant risks."
+      }
+    },
+    "positioning_guidance": "Investors should size their positions based on their exposure to California's fiscal policies and the potential impact on their portfolio companies. Entry points should be considered in light of the upcoming governor's race and potential policy changes. Timeframes should be medium to long-term, as significant policy changes may take time to implement and affect companies. Consider hedging positions with companies that could benefit from increased efficiency or are less sensitive to state policies.",
+    "risk_factors": [
+      "Potential policy changes that could adversely affect companies reliant on state contracts or regulations.",
+      "Increased regulatory scrutiny on tech companies headquartered or operating in California.",
+      "State budget constraints that could lead to reduced spending on projects and services.",
+      "Potential fraud and inefficiencies that could lead to increased costs and reduced revenues for companies.",
+      "Political uncertainty surrounding the governor's race and its impact on state policies."
+    ],
+    "contrarian_signals": [
+      "The potential for new leadership to bring about positive change and increased efficiency in state spending.",
+      "The possibility that increased scrutiny could lead to better fraud detection and reduced waste, benefiting companies involved in security and fraud prevention.",
+      "The potential for state policies to foster innovation and support for tech and clean energy companies, despite inefficiencies."
+    ],
+    "catalysts": [
+      "The outcome of the California governor's race, which could significantly impact state policies and spending priorities.",
+      "State budget discussions and potential changes in spending allocations.",
+      "Legislative actions that could affect tech regulation and support for innovation.",
+      "Economic indicators that could influence state fiscal policies and spending decisions.",
+      "Public sentiment and voter priorities that could shape the governor's policy agenda."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-03-23T04:23:14.206794",
+    "updated_at": "2026-03-23 09:23:14",
+    "insight_title": "California's Spending Woes and the Governor's Race",
+    "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "source_date": "2026-03-23",
+    "key_tickers": []
+  },
+  "113": {
+    "id": 104,
+    "insight_id": 113,
+    "podcast_episode_id": 96,
+    "overview": "The ongoing conflict in Iran has significant implications for the global fertilizer market, particularly nitrogen and phosphate fertilizers, which are crucial for agriculture and food production. The conflict has disrupted global supplies, leading to a doubling of Urea prices since December, with further increases expected. This situation underscores the importance of fertilizers in food production, which is often overshadowed by the focus on oil and gas. The impact on agriculture could be severe, with potential price increases and supply shortages affecting global food security. Understanding these dynamics is critical for investors looking to navigate the agricultural and commodities markets in the current geopolitical climate.",
+    "key_takeaways_detailed": [
+      "Fertilizer prices, particularly Urea, have doubled since December and are expected to rise further, significantly impacting agricultural costs and food prices.",
+      "The conflict in Iran has disrupted global fertilizer supplies, with key exporting nations like Qatar, Saudi Arabia, and Iran affected by the closure of the Strait of Hormuz.",
+      "The US, despite being a net-importer of Urea, is currently underpriced relative to global markets, presenting a potential arbitrage opportunity.",
+      "There is a lack of strategic reserves for Urea, exacerbating the impact of supply disruptions and leading to higher volatility and prices.",
+      "The situation in Iran is not isolated; it intersects with other geopolitical and economic factors, such as high gas costs in Europe and China's Urea export policies."
+    ],
+    "investment_thesis": "The investment thesis centers on the significant disruption to global fertilizer supplies due to the Iran conflict, which is driving up prices and creating potential investment opportunities. Investors should consider positions in companies that are well-positioned to benefit from higher fertilizer prices or those that can mitigate the impact of these increases. Catalysts include ongoing geopolitical tensions, supply chain disruptions, and the potential for further price increases. The timeframe for this thesis is medium to long-term, as the resolution of the conflict and the restoration of supply chains are likely to be protracted.",
+    "ticker_analysis": {
+      "MOS": {
+        "rationale": "The Mosaic Company is a leading global producer of potash and phosphate-based fertilizers, which are essential for agriculture. With the potential for increased fertilizer prices, MOS is well-positioned to benefit from higher revenues.",
+        "positioning": "Long-term strategic position, as the company is likely to see sustained benefits from the current market dynamics.",
+        "risk": "Key risks include a rapid resolution of the Iran conflict, which could lead to a drop in fertilizer prices, and increased competition in the fertilizer market."
+      },
+      "NTR": {
+        "rationale": "Nutrien is the world's largest crop input company, offering a wide range of products and services, including fertilizers. The company is poised to capitalize on increased demand and higher prices for fertilizers.",
+        "positioning": "Medium to long-term strategic position, as Nutrien's diversified offerings can help shield against volatility while benefiting from the overall trend.",
+        "risk": "Risks include potential oversupply in the market once the conflict is resolved and changes in agricultural commodity prices that could affect demand for fertilizers."
+      },
+      "CF": {
+        "rationale": "CF Industries Holdings, Inc. is a leading manufacturer of hydrogen and nitrogen products, including nitrogen-based fertilizers. The company could see increased demand and higher prices for its products due to the conflict in Iran.",
+        "positioning": "Medium-term tactical position, as the company may benefit from short-term price spikes but could be vulnerable to rapid market changes.",
+        "risk": "Key risks include a swift resolution of the Iran conflict, leading to a drop in nitrogen prices, and potential regulatory changes affecting the production and sale of nitrogen fertilizers."
+      }
+    },
+    "positioning_guidance": "Investors should consider a balanced approach, with a mix of long-term strategic positions in companies like MOS and NTR, and medium-term tactical positions in companies like CF. Entry points should be considered in relation to current market volatility, with a focus on companies that have demonstrated resilience and growth potential. Investors should also consider hedging strategies to mitigate the risk of sudden market shifts due to geopolitical developments.",
+    "risk_factors": [
+      "A rapid resolution of the Iran conflict could lead to a swift drop in fertilizer prices, affecting the profitability of companies in the sector.",
+      "Changes in agricultural commodity prices could impact the demand for fertilizers, potentially leading to oversupply and price declines.",
+      "Regulatory changes or environmental policies could affect the production and sale of fertilizers, impacting company revenues.",
+      "Geopolitical tensions in other regions could disrupt global fertilizer supplies, further complicating the market dynamics.",
+      "Economic downturns or changes in global trade policies could affect the demand for agricultural products and, by extension, the demand for fertilizers."
+    ],
+    "contrarian_signals": [
+      "The potential for a swift resolution of the Iran conflict could lead to a rapid return to normalcy in fertilizer supply chains, negating the current price increases.",
+      "The possibility of new entrants in the fertilizer market or technological advancements could increase supply and put downward pressure on prices.",
+      "A shift in global agricultural practices towards more sustainable or organic methods could reduce the overall demand for chemical fertilizers."
+    ],
+    "catalysts": [
+      "Ongoing developments in the Iran conflict and its impact on the Strait of Hormuz, which could further disrupt global fertilizer supplies.",
+      "Global agricultural reports and forecasts that could indicate changes in demand for fertilizers and affect market expectations.",
+      "Policy announcements or regulatory changes affecting the production, sale, or use of fertilizers, which could have a significant impact on the market.",
+      "Economic indicators and trade policies that could affect the global demand for agricultural products and, by extension, the demand for fertilizers.",
+      "Technological advancements or new market entrants that could disrupt the current fertilizer market dynamics."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-03-23T04:23:57.704873",
+    "updated_at": "2026-03-23 09:23:57",
+    "insight_title": "Monetary Matters with Jack Farley: Impact of Iran War on Fertilizer Prices and Agriculture",
+    "source_name": "Monetary Matters with Jack Farley",
+    "source_date": "2026-03-22",
+    "key_tickers": [
+      "CORN"
+    ]
   }
 },
   suggestedTerms: [
+  {
+    "id": 83,
+    "term": "Arbitrage Opportunity",
+    "definition": "A situation where the same or similar assets or property sell for two different prices, creating a chance to profit from the price difference.",
+    "investment_implications": "Investors can look for opportunities where the price discrepancy between regions can be exploited for profit.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-03-23 09:21:03",
+    "priority_score": 80
+  },
+  {
+    "id": 81,
+    "term": "Grassroots Power",
+    "definition": "Building bottom-up power by connecting voters around issues they are passionate about and helping them organize to hold elected officials accountable.",
+    "investment_implications": "Investors can look for companies or platforms that empower grassroots movements and enhance civic engagement.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-03-23 09:18:22",
+    "priority_score": 80
+  },
+  {
+    "id": 82,
+    "term": "Smart Grid",
+    "definition": "An electrical grid that uses digital technology to monitor and manage the transport of electricity from all generation sources to meet the varying electricity demands of end users.",
+    "investment_implications": "Investors should consider companies involved in the development and deployment of smart grid technologies for more efficient energy management.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-03-23 09:18:22",
+    "priority_score": 80
+  },
   {
     "id": 79,
     "term": "Experimental Mathematics",
@@ -8736,47 +8950,11 @@ const dashboardData = {
     "relevance_score": 50,
     "submitted_date": "2026-03-21 09:30:48",
     "priority_score": 80
-  },
-  {
-    "id": 80,
-    "term": "Hybrid Human-AI Approach",
-    "definition": "A collaborative model where human mathematicians and AI systems work together to solve complex problems.",
-    "investment_implications": "Look for opportunities in companies that facilitate the integration of AI with human expertise in scientific research.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-03-21 09:30:48",
-    "priority_score": 80
-  },
-  {
-    "id": 77,
-    "term": "Defense Reformation",
-    "definition": "The shift in defense strategy and spending towards more technology and AI-focused solutions.",
-    "investment_implications": "Invest in companies that are at the forefront of defense technology and AI.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-03-21 09:29:46",
-    "priority_score": 80
-  },
-  {
-    "id": 78,
-    "term": "AI Infrastructure",
-    "definition": "The underlying technology and systems that support AI applications, including hardware and software.",
-    "investment_implications": "Consider investments in companies that provide the backbone for AI applications.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-03-21 09:29:46",
-    "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 554,
+    "id": 566,
     "name": "Rory Johnston",
     "slug": "rory-johnston",
     "bio": null,
@@ -8788,7 +8966,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 555,
+    "id": 567,
     "name": "Senator John Fetterman on Voting Rights",
     "slug": "senator-john-fetterman-on-voting-rights",
     "bio": null,
@@ -8800,7 +8978,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 556,
+    "id": 568,
     "name": "Elon Musk on Moonshots",
     "slug": "elon-musk-on-moonshots",
     "bio": null,
@@ -8812,7 +8990,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 557,
+    "id": 569,
     "name": "Investing in Capitalism",
     "slug": "investing-in-capitalism",
     "bio": null,
@@ -8824,7 +9002,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 558,
+    "id": 570,
     "name": "Harvard Professor Graham Allison",
     "slug": "harvard-professor-graham-allison",
     "bio": null,
@@ -8836,7 +9014,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 559,
+    "id": 571,
     "name": "Andrew Yang",
     "slug": "andrew-yang",
     "bio": "Andrew Yang is an entrepreneur and political leader who popularized universal basic income in U.S. politics through his 2020 presidential campaign.",
@@ -8848,7 +9026,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 560,
+    "id": 572,
     "name": "Ray Dalio",
     "slug": "ray-dalio",
     "bio": "Ray Dalio is the founder of Bridgewater Associates and a macro investor known for his 'Principles' framework and work on long-term debt cycles.",
@@ -8860,7 +9038,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 561,
+    "id": 573,
     "name": "Nobel Prize-winning economist Paul Krugman",
     "slug": "nobel-prize-winning-economist-paul-krugman",
     "bio": null,
@@ -8872,7 +9050,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 562,
+    "id": 574,
     "name": "host Jack Mallers",
     "slug": "host-jack-mallers",
     "bio": null,
@@ -8884,7 +9062,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 563,
+    "id": 575,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -8896,7 +9074,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 564,
+    "id": 576,
     "name": "Bosworth",
     "slug": "bosworth",
     "bio": null,
@@ -8908,7 +9086,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 565,
+    "id": 577,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -8921,6 +9099,121 @@ const dashboardData = {
   }
 ],
   pundits: [
+  {
+    "id": 105,
+    "name": "Josh Lindville",
+    "slug": "josh-lindville",
+    "bio": "Josh Lindville is the Vice President of Fertilizer at Stone X, where he specializes in trading fertilizer futures and OTC products. He provides market insights and information to the agricultural industry, with a focus on the impact of global events on fertilizer prices.",
+    "known_for": "His expertise in analyzing the effects of geopolitical events on fertilizer prices and their implications for agriculture and food prices.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Knowledgeable and concerned about the impact of geopolitical events on fertilizer prices.",
+    "voice_style": "Factual and data-driven, with a focus on the implications for the agriculture industry.",
+    "voice_delivery_notes": "Speaks with a sense of urgency, emphasizing the severity of the situation.",
+    "voice_profile_updated_at": "2026-03-23 09:21:03",
+    "last_seen": "2026-03-23 09:21:03",
+    "last_episode_title": "Monetary Matters with Jack Farley: Impact of Iran War on Fertilizer Prices and Agriculture",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-03-22",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "The disruption in fertilizer supply due to geopolitical tensions presents an opportunity in agricultural commodities, particularly corn, which is heavily impacted by rising input costs and could see price support from tightened supply.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-23T04:22:03.060297",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Josh Lindville",
+      "fetched_at": "2026-03-23T09:22:03.060082+00:00",
+      "cliff_notes": "Josh Lindville serves as the Vice President of Fertilizer at Stone X, where he is responsible for trading in fertilizer futures and over-the-counter products. His role is pivotal in understanding and communicating the market dynamics of fertilizers, particularly in the context of global events such as the Iran war. Lindville's work is significant as it influences the agricultural sector by providing insights into how geopolitical tensions can affect the availability and pricing of essential fertilizers, which in turn impact crop yields and food prices worldwide.",
+      "derived": {
+        "current_role": "Vice President of Fertilizer at Stone X"
+      },
+      "infobox": {
+        "Industry": "Agriculture"
+      },
+      "lead_paragraphs": [
+        "Josh Lindville serves as the Vice President of Fertilizer at Stone X, where he is responsible for trading in fertilizer futures and over-the-counter products. His role is pivotal in understanding and communicating the market dynamics of fertilizers, particularly in the context of global events such as the Iran war. Lindville's work is significant as it influences the agricultural sector by providing insights into how geopolitical tensions can affect the availability and pricing of essential fertilizers, which in turn impact crop yields and food prices worldwide."
+      ],
+      "sections": [
+        {
+          "heading": "Fertilizer Market Dynamics",
+          "body": "Josh Lindville is known for his analysis of how geopolitical events, such as the Iran war, impact the global supply of nitrogen and phosphate fertilizers, which are critical for crop yields and food production."
+        },
+        {
+          "heading": "Agricultural Impact",
+          "body": "Lindville's insights are valuable for the agricultural industry as they help predict and understand the ripple effects of global events on fertilizer prices, which directly influence farming costs and food supply."
+        },
+        {
+          "heading": "Food Prices",
+          "body": "His expertise extends to the implications of fertilizer market fluctuations on food prices, a critical area of concern for global food security and economic stability."
+        }
+      ]
+    }
+  },
+  {
+    "id": 104,
+    "name": "Matt Mayhand",
+    "slug": "matt-mayhand",
+    "bio": "Matt Mayhand is a candidate for Governor of California with a background in civic tech and city council experience. He grew up in Watsonville, California, and has a history of working in education and technology sectors.",
+    "known_for": "Focusing on fiscal responsibility and pragmatic policy solutions in his gubernatorial campaign.",
+    "net_worth_usd": 1000000000.0,
+    "net_worth_source": "https://spearswms.com/wealth/matt-mahan/",
+    "net_worth_updated_at": "2026-03-23T04:22:22.883231",
+    "voice_tone": "Frustration with the state's financial mismanagement.",
+    "voice_style": "Calls for accountability and transparency in government spending.",
+    "voice_delivery_notes": "Pacing is steady with emphasis on key points of fiscal responsibility and policy pragmatism.",
+    "voice_profile_updated_at": "2026-03-23 09:18:22",
+    "last_seen": "2026-03-23 09:18:22",
+    "last_episode_title": "California's Spending Woes and the Governor's Race",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-03-23",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in innovation and infrastructure to create a smarter grid and incentivize clean energy adoption, while avoiding over-regulation that leads to unintended economic and environmental consequences.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-23T04:22:21.245588",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Matt Mayhand",
+      "fetched_at": "2026-03-23T09:22:21.245480+00:00",
+      "cliff_notes": "Matt Mayhand hails from Watsonville, California, a small farming town known for its strawberries. Coming from a working-class family, his mother was a teacher and his father a letter carrier. Mayhand's educational journey began with a college prep high school and a work study scholarship, which involved a two-hour bus commute each way. After working his way through high school and college, he returned to education as a public school teacher through the Teach for America program. His interest in politics and making a difference led him to the tech sector, where he spent a decade developing civic tech tools aimed at helping people navigate democracy. His pragmatic approach to governance and commitment to fiscal responsibility are central to his campaign for Governor of California.",
+      "derived": {
+        "current_role": "Candidate for Governor of California",
+        "former_positions": "Public School Teacher; Civic Tech Developer",
+        "education": "College Prep High School; Work Study Scholarship",
+        "political_summary": "Matt Mayhand is running for Governor of California, emphasizing fiscal responsibility and pragmatic policy solutions. His campaign is a response to his frustration with the state's spending and diminishing returns.",
+        "teaching_summary": "Public School Teacher"
+      },
+      "infobox": {
+        "Born": "Watsonville, California",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Matt Mayhand hails from Watsonville, California, a small farming town known for its strawberries. Coming from a working-class family, his mother was a teacher and his father a letter carrier. Mayhand's educational journey began with a college prep high school and a work study scholarship, which involved a two-hour bus commute each way.",
+        "After working his way through high school and college, he returned to education as a public school teacher through the Teach for America program. His interest in politics and making a difference led him to the tech sector, where he spent a decade developing civic tech tools aimed at helping people navigate democracy. His pragmatic approach to governance and commitment to fiscal responsibility are central to his campaign for Governor of California."
+      ],
+      "sections": [
+        {
+          "heading": "Education",
+          "body": "Matt Mayhand's educational journey began with a college prep high school and a work study scholarship, which involved a two-hour bus commute each way. He later worked his way through college and became a public school teacher through the Teach for America program."
+        },
+        {
+          "heading": "Civic Tech",
+          "body": "Mayhand spent a decade in the tech sector, building civic tech tools designed to help people navigate their democracy more effectively, reflecting his commitment to making the city and world a better place."
+        },
+        {
+          "heading": "Governor Campaign",
+          "body": "Running for Governor of California, Mayhand emphasizes fiscal responsibility and pragmatic policy solutions, aiming to address the state's spending issues and the diminishing returns on investment."
+        }
+      ]
+    },
+    "net_worth": "$1.00B"
+  },
   {
     "id": 103,
     "name": "Terrence Tau",
@@ -9990,93 +10283,6 @@ const dashboardData = {
       ]
     },
     "net_worth": "$2.10B"
-  },
-  {
-    "id": 69,
-    "name": "Ben Horowitz",
-    "slug": "ben-horowitz",
-    "bio": "Ben Horowitz is a prominent venture capitalist and co-founder of Andreessen Horowitz (a16z), a leading venture capital firm in Silicon Valley. He has been instrumental in shaping the tech industry through his investments and insights.",
-    "known_for": "Co-founding Andreessen Horowitz and shaping the tech industry through strategic investments and influential thought leadership.",
-    "net_worth_usd": 2000000000.0,
-    "net_worth_source": "https://www.cinenetworth.com/ben-horowitz-net-worth/",
-    "net_worth_updated_at": "2026-03-19T21:23:34.764792",
-    "voice_tone": "",
-    "voice_style": "",
-    "voice_delivery_notes": "",
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-03-16 19:37:22",
-    "last_episode_title": "Moonshots Podcast Episode #231 - OpenAI Acquires OpenClaw, 400x Cost Collapse, & Why India Wins the Talent War",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-02-18",
-    "mention_score": 2,
-    "mention_score_decayed": 1.74,
-    "last_main_idea": "Invest in the vertical integration of AI, the rise of India as a global AI hub, and the shift towards agent-based interactions.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-19T21:23:33.038094",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Ben Horowitz",
-      "fetched_at": "2026-03-20T02:23:33.037970+00:00",
-      "cliff_notes": "Ben Horowitz is a renowned venture capitalist and entrepreneur. He co-founded Andreessen Horowitz (a16z) with Marc Andreessen in 2009, which has since become one of the most influential venture capital firms in Silicon Valley. Prior to a16z, Horowitz was a general partner at the venture capital firm Opsware, which was acquired by Hewlett-Packard for $1.6 billion in 2007. Before his venture capital career, Horowitz was a software engineer and entrepreneur, founding several companies including Loudcloud and Opsware. He has been a driving force in the tech industry, investing in and advising numerous successful startups. Horowitz is also known for his bestselling book, 'The Hard Thing About Hard Things,' which offers insights into the challenges of building and running a startup.",
-      "derived": {
-        "current_role": "Co-founder of Andreessen Horowitz",
-        "education": "Bachelor's degree in Computer Science from Columbia University; Master's degree in Computer Science from UCLA",
-        "books_or_works": "The Hard Thing About Hard Things: Building a Business When There Are No Easy Answers"
-      },
-      "infobox": {
-        "Born": "1973",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Ben Horowitz is a renowned venture capitalist and entrepreneur. He co-founded Andreessen Horowitz (a16z) with Marc Andreessen in 2009, which has since become one of the most influential venture capital firms in Silicon Valley. Prior to a16z, Horowitz was a general partner at the venture capital firm Opsware, which was acquired by Hewlett-Packard for $1.6 billion in 2007.",
-        "Before his venture capital career, Horowitz was a software engineer and entrepreneur, founding several companies including Loudcloud and Opsware. He has been a driving force in the tech industry, investing in and advising numerous successful startups. Horowitz is also known for his bestselling book, 'The Hard Thing About Hard Things,' which offers insights into the challenges of building and running a startup."
-      ],
-      "sections": [
-        {
-          "heading": "Venture Capital",
-          "body": "Ben Horowitz is a leading figure in the venture capital industry, co-founding Andreessen Horowitz and investing in numerous successful startups."
-        },
-        {
-          "heading": "Tech Industry Influence",
-          "body": "Horowitz has been instrumental in shaping the tech industry through his strategic investments and influential thought leadership."
-        },
-        {
-          "heading": "Entrepreneurship",
-          "body": "Before his venture capital career, Horowitz was an entrepreneur, founding companies such as Loudcloud and Opsware."
-        },
-        {
-          "heading": "Thought Leadership",
-          "body": "Horowitz is known for his bestselling book, 'The Hard Thing About Hard Things,' which offers insights into the challenges of building and running a startup."
-        }
-      ]
-    },
-    "net_worth": "$2.00B"
-  },
-  {
-    "id": 43,
-    "name": "Olivia Moore",
-    "slug": "olivia-moore",
-    "bio": "Olivia Moore is a partner at A16Z, focusing on AI applications.",
-    "known_for": "Her expertise in AI and its applications in various sectors.",
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-03-16 13:08:23",
-    "last_episode_title": "AI Startups and the Future of Technology",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-03-16",
-    "mention_score": 2,
-    "mention_score_decayed": 1.74,
-    "last_main_idea": "Invest in AI startups that focus on specific niches and use cases, as they can compete effectively against larger AI companies by capitalizing on the gaps between platforms.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
   }
 ]
 };

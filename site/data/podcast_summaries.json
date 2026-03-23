@@ -1,5 +1,41 @@
 [
   {
+    "id": 95,
+    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "episode_title": "California's Spending Woes and the Governor's Race",
+    "episode_date": "2026-03-23",
+    "summary": "In this episode of 'All-In with Chamath, Jason, Sacks & Friedberg', guest Matt Mayhand, a candidate for Governor of California, discusses the state's financial mismanagement, lack of accountability, and the impact of regulations on various sectors such as high-speed rail, housing, and energy. Mayhand emphasizes the need for pragmatic solutions, focusing on results and measurable outcomes, rather than increasing revenue and government programs.",
+    "key_takeaways": [
+      "California's state government spending has increased by 75%, with no corresponding improvement in outcomes.",
+      "High-speed rail project has spent $14 billion without delivering a product, highlighting a lack of accountability in state government.",
+      "California's regulations have unintentionally led to the loss of refineries, increasing carbon footprint and hurting the economy.",
+      "The state's housing crisis is exacerbated by fees that can add up to 20% to the cost of a project.",
+      "Matt Mayhand proposes temporarily suspending the gas tax to provide relief to working families and shifting towards a user fee system for road maintenance as EV adoption increases.",
+      "Mayhand advocates for a pragmatic approach to politics, focusing on problem-solving and measurable outcomes."
+    ],
+    "investment_thesis": "Invest in innovation and infrastructure to create a smarter grid and incentivize clean energy adoption, while avoiding over-regulation that leads to unintended economic and environmental consequences.",
+    "key_tickers": null
+  },
+  {
+    "id": 96,
+    "podcast_name": "Monetary Matters with Jack Farley",
+    "episode_title": "Monetary Matters with Jack Farley: Impact of Iran War on Fertilizer Prices and Agriculture",
+    "episode_date": "2026-03-22",
+    "summary": "In this episode of Monetary Matters, host Jack Farley interviews Josh Lindville, Vice President of Fertilizer at Stone X, to discuss the impact of the Iran war on fertilizer prices and its implications on agriculture and food prices. They delve into the drastic increase in fertilizer prices, particularly nitrogen, and the potential for further price increases. The conversation also touches on the role of government intervention in the market and the importance of letting free markets operate.",
+    "key_takeaways": [
+      "Fertilizer prices, especially nitrogen, have doubled since December, with Urea prices nearing $700 per short ton from $350.",
+      "Despite the price surge, U.S. nitrogen fertilizers are still some of the cheapest in the world, creating an arbitrage opportunity.",
+      "The situation is more severe than in 2020, with European production falling drastically and Russia's exports not being lost as initially feared.",
+      "Farmers are currently not profitable, which is suppressing demand for fertilizers and could lead to a significant impact on agricultural yields and prices.",
+      "Government intervention, while sometimes necessary, often complicates the market and can lead to higher prices.",
+      "The long-term story could involve farmers reducing fertilizer application, potentially leading to lower yields or switching to other crops, which might tighten corn supply and be price supportive."
+    ],
+    "investment_thesis": "The disruption in fertilizer supply due to geopolitical tensions presents an opportunity in agricultural commodities, particularly corn, which is heavily impacted by rising input costs and could see price support from tightened supply.",
+    "key_tickers": [
+      "CORN"
+    ]
+  },
+  {
     "id": 94,
     "podcast_name": "Dwarkesh Podcast",
     "episode_title": "The Impact of AI on Mathematics and Scientific Discovery",

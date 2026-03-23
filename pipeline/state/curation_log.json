@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-22T22:03:46.066957",
+  "timestamp": "2026-03-23T04:11:24.909914",
   "total_feed_episodes": 8,
   "approved_for_transcription": 8,
   "episodes": [
@@ -37,10 +37,10 @@
       "published": "Sun, 22 Mar 2026 14:56:00 -0000",
       "published_date": "2026-03-22",
       "rss_guid": "7409ff42-25ff-11f1-87be-bb3985a0a1b7",
+      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/EWWMN4403315202.mp3",
+      "filename": "EWWMN4403315202.mp3",
       "status": "APPROVED",
-      "matched_keywords": [],
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/monetary_matters_with_jack_farley_a_fertilizer_crisis_is_brewing__quickly____stonex_s_josh_lin_56ca7b2b.mp3",
-      "filename": "monetary_matters_with_jack_farley_a_fertilizer_crisis_is_brewing__quickly____stonex_s_josh_lin_56ca7b2b.mp3"
+      "matched_keywords": []
     },
     {
       "podcast": "Monetary Matters with Jack Farley",
@@ -89,10 +89,10 @@
       "published": "Mon, 23 Mar 2026 01:03:00 +0000",
       "published_date": "2026-03-23",
       "rss_guid": "68a689ad-9d04-4a49-95eb-aaa47a714117",
+      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/ALLIN_INTV_MAHAN_Ch.mp3",
+      "filename": "ALLIN_INTV_MAHAN_Ch.mp3",
       "status": "APPROVED",
-      "matched_keywords": [],
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/all_in_with_chamath__jason__sacks___frie_how_matt_mahan_thinks_he_can_save_california_8dc900a2.mp3",
-      "filename": "all_in_with_chamath__jason__sacks___frie_how_matt_mahan_thinks_he_can_save_california_8dc900a2.mp3"
+      "matched_keywords": []
     },
     {
       "podcast": "Dwarkesh Podcast",

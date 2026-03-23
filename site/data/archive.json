@@ -1,6 +1,48 @@
 {
   "insights": [
     {
+      "id": 112,
+      "title": "California's Spending Woes and the Governor's Race",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-03-23",
+      "summary": "In this episode of 'All-In with Chamath, Jason, Sacks & Friedberg', guest Matt Mayhand, a candidate for Governor of California, discusses the state's financial mismanagement, lack of accountability, and the impact of regulations on various sectors such as high-speed rail, housing, and energy. Mayhand emphasizes the need for pragmatic solutions, focusing on results and measurable outcomes, rather than increasing revenue and government programs.",
+      "key_takeaway": "Invest in innovation and infrastructure to create a smarter grid and incentivize clean energy adoption, while avoiding over-regulation that leads to unintended economic and environmental consequences.",
+      "tickers_mentioned": [
+        "AAPL",
+        "NVDA",
+        "TSLA",
+        "LMT",
+        "V"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-23",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 95
+    },
+    {
+      "id": 113,
+      "title": "Monetary Matters with Jack Farley: Impact of Iran War on Fertilizer Prices and Agriculture",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-03-22",
+      "summary": "In this episode of Monetary Matters, host Jack Farley interviews Josh Lindville, Vice President of Fertilizer at Stone X, to discuss the impact of the Iran war on fertilizer prices and its implications on agriculture and food prices. They delve into the drastic increase in fertilizer prices, particularly nitrogen, and the potential for further price increases. The conversation also touches on the role of government intervention in the market and the importance of letting free markets operate.",
+      "key_takeaway": "The disruption in fertilizer supply due to geopolitical tensions presents an opportunity in agricultural commodities, particularly corn, which is heavily impacted by rising input costs and could see price support from tightened supply.",
+      "tickers_mentioned": [
+        "CORN"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-23",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 96
+    },
+    {
       "id": 110,
       "title": "The Impact of AI on Mathematics and Scientific Discovery",
       "source_type": "podcast",
@@ -138,11 +180,11 @@
         "TSLA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-18",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-23",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 78
     },
     {
@@ -161,11 +203,11 @@
         "TSLA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-18",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-23",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 77
     },
     {

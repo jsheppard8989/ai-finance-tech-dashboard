@@ -12104,3 +12104,177 @@ ModuleNotFoundError: No module named 'yfinance'
 ✗ Generate Charts failed
 
 ============================================================
+STEP: Auto-Curate Terms
+============================================================
+on: The use of robots and AI to perform manufacturing tasks with minimal human intervention....
+
+• Embryo Screening
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A process of testing embryos for genetic diseases or conditions before implantation....
+
+• Genomic Information
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: Information derived from an individual's complete set of DNA, including all genes....
+
+• Activist Short Selling
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A strategy where investors take short positions in stocks they believe are overvalued and engage in ...
+
+• Mean Reversion
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A theory in finance that suggests that asset prices and historical returns will eventually return to...
+
+• Spare Capacity
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: Spare capacity refers to the amount of oil production that can be quickly brought online in response...
+
+• Disaggregated Inference
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: The process of breaking down the complex computing problem of AI inference across different types of...
+
+• AI Factory
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A concept where AI operations are centralized and optimized in a factory-like setting, emphasizing e...
+
+• Secular Inflation
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A long-term increase in the general price level of goods and services in an economy....
+
+• Risk Off Playbook
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A strategy employed by investors to reduce risk in their portfolios during times of market uncertain...
+
+• Generative Models
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: Models that generate new tokens or data, currently seen as a key pathway to scalable super intellige...
+
+• Adaptability
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: The ability to adjust and respond effectively to new conditions or challenges, seen as key to surviv...
+
+• Exponential Organizations
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: Organizations that leverage new technologies and strategies to grow at an exponential rate, rather t...
+
+• Defense Reformation
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: The shift in defense strategy and spending towards more technology and AI-focused solutions....
+
+• AI Infrastructure
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: The underlying technology and systems that support AI applications, including hardware and software....
+
+• Experimental Mathematics
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: The application of empirical and computational methods to mathematical problems, often involving lar...
+
+• Hybrid Human-AI Approach
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A collaborative model where human mathematicians and AI systems work together to solve complex probl...
+
+✓ Auto-Curate Terms completed
+
+============================================================
+STEP: Extract Podcast Guests
+============================================================
+============================================================
+Extract Podcast Guests
+============================================================
+Processing 69 processed episodes
+  ✓ Rory Johnston ← Monetary Matters with Jack Farley (2026-03-19)
+  ✓ Senator John Fetterman on Voting Rights ← All-In with Chamath, Jason, Sacks & Friedberg (2026-03-18)
+  ✓ Elon Musk on Moonshots ← Moonshots with Peter Diamandis (2026-03-17)
+  ✓ Investing in Capitalism ← All-In with Chamath, Jason, Sacks & Friedberg (2026-03-13)
+  ✓ Harvard Professor Graham Allison ← All-In with Chamath, Jason, Sacks & Friedberg (2026-03-09)
+  ✓ Andrew Yang ← Moonshots with Peter Diamandis (2026-03-07)
+  ✓ Ray Dalio ← All-In with Chamath, Jason, Sacks & Friedberg (2026-03-03)
+  ✓ Nobel Prize-winning economist Paul Krugman ← Monetary Matters with Jack Farley (2026-02-19)
+  ✓ host Jack Mallers ← The Jack Mallers Show (2026-02-19)
+  ✓ Ben Horowitz ← Moonshots with Peter Diamandis (2026-02-19)
+  ✓ Bosworth ← a16z Live (2026-02-15)
+  ✓ Milton Berg ← Monetary Matters with Jack Farley (2026-02-06)
+
+✓ Done. 12 guest(s) in database.
+
+✓ Extract Podcast Guests completed
+
+============================================================
+STEP: Export Website Data
+============================================================
+============================================================
+Exporting Website Data
+============================================================
+✓ Exported website data to /Users/jaredsheppard/.openclaw/workspace/site/data
+✓ Exported: {'ticker_scores': 46, 'podcast_summaries': 14, 'archive_items': 101, 'podcast_guests': 12, 'pundits': 20}
+🔍 Scanning podcast pipeline...
+
+
+================================================================================
+📊 PODCAST PIPELINE STATUS
+================================================================================
+
+📈 Pipeline Summary (8 total episodes tracked):
+  ✅ Downloaded:       8 / 8
+  ✅ Transcribed:      6 / 8
+  ✅ Analyzed:         0 / 8
+  ✅ Insight Created:  0 / 8
+  ✅ Published:        0 / 8
+
+🔍 Episodes Needing Attention:
+
+  📝 Pending Transcription (2):
+    - A Fertilizer Crisis is Brewing (Quickly) | StoneX’
+    - How Matt Mahan Thinks He Can Save California
+
+  🔬 Pending Analysis (6):
+    - NVIDIA's $1 Trillion Prediction, Anthropic Beats O
+    - Meta Buys Moltbook, GPT 5.4, and Fruitfly Brain Up
+    - Stock Market on Shaky Foundations | Blind Squirrel
+    - AI Just Gave You Superpowers — Now What?
+    - Chris Dixon: From Quant Trading to Building a16z C
+    - Why Leonardo was a saboteur, Gutenberg went broke,
+
+✅ Complete Episodes (All Stages):
+    (None yet)
+
+📅 Last Updated: 2026-03-22T22:15:05.468189
+📁 Status file: /Users/jaredsheppard/.openclaw/workspace/pipeline/state/pipeline_status.json
+================================================================================
+  ✓ Exported pipeline_state.json: 8 tracked
+
+============================================================
+Generating Website JavaScript
+============================================================
+✓ Generated data.js with 46 tickers, 101 archive items, 85 deep dives, 4 suggested terms, 12 legacy guests, 20 pundits; chartsVersion=2026-03-22T04:10:56.449441
+✓ Bumped data.js cache-buster to v=1774235707
+
+============================================================
+STEP: Push to GitHub
+============================================================
+✓ Pushed to GitHub: Pipeline update 2026-03-22 22:15: 0 podcasts, 0 insights, 0 newsletters
+Nothing new — skipping notification
+
+============================================================
+PIPELINE COMPLETE
+Finished: 2026-03-22 22:15:09.346771
+============================================================
+📊 Pipeline Complete
+
+
+🌐 Website updated

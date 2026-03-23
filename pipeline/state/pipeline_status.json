@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-22T22:15:05.468189",
+  "last_updated": "2026-03-23T04:24:32.694741",
   "episodes": {
     "moonshots_with_peter_diamandis_nvidia's_$1_trillion_predictio": {
       "info": {
@@ -39,7 +39,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-22T22:15:05.335954",
+      "first_seen": "2026-03-23T04:24:32.626815",
       "status": "needs_analysis"
     },
     "moonshots_with_peter_diamandis_meta_buys_moltbook,_gpt_5.4,_a": {
@@ -80,7 +80,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-22T22:15:05.378439",
+      "first_seen": "2026-03-23T04:24:32.656057",
       "status": "blocked_analysis"
     },
     "monetary_matters_with_jack_farley_a_fertilizer_crisis_is_brewing": {
@@ -88,7 +88,7 @@
         "podcast": "Monetary Matters with Jack Farley",
         "title": "A Fertilizer Crisis is Brewing (Quickly) | StoneX\u2019s Josh Linville on How Iran War & Strait of Hormuz Closure Has Shut of Critical Fertilizer Chemical Feedstocks That Threaten Global Grain Supply ",
         "published": "2026-03-22",
-        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/monetary_matters_with_jack_farley_a_fertilizer_crisis_is_brewing__quickly____stonex_s_josh_lin_56ca7b2b.mp3",
+        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/EWWMN4403315202.mp3",
         "keywords": [],
         "rss_guid": "7409ff42-25ff-11f1-87be-bb3985a0a1b7"
       },
@@ -99,21 +99,23 @@
           "reason": null
         },
         "transcribed": {
-          "complete": false,
-          "file": null,
+          "complete": true,
+          "file": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/EWWMN4403315202.txt",
           "timestamp": null,
-          "reason": "Waiting for fetch/transcribe step"
+          "reason": null
         },
         "analyzed": {
-          "complete": false,
-          "episode_id": null,
+          "complete": true,
+          "episode_id": 96,
           "timestamp": null,
-          "reason": "Waiting for next analyze run (transcript \u2192 DB)."
+          "reason": null
         },
         "insight_created": {
-          "complete": false,
+          "complete": true,
+          "insight_id": 26,
+          "insight_title": "Milton Berg: Rare Signal \u2014 Local Bottom or Major Top Ahead",
           "timestamp": null,
-          "reason": "Depends on analyze step first."
+          "reason": null
         },
         "published": {
           "complete": false,
@@ -121,8 +123,8 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-22T22:15:05.388693",
-      "status": "needs_transcription"
+      "first_seen": "2026-03-23T04:24:32.660260",
+      "status": "needs_export"
     },
     "monetary_matters_with_jack_farley_stock_market_on_shaky_foundati": {
       "info": {
@@ -162,7 +164,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-22T22:15:05.409771",
+      "first_seen": "2026-03-23T04:24:32.670151",
       "status": "blocked_analysis"
     },
     "the_a16z_show_ai_just_gave_you_superpowers_\u2014": {
@@ -203,7 +205,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-22T22:15:05.423055",
+      "first_seen": "2026-03-23T04:24:32.676493",
       "status": "blocked_analysis"
     },
     "the_a16z_show_chris_dixon:_from_quant_tradin": {
@@ -244,7 +246,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-22T22:15:05.431443",
+      "first_seen": "2026-03-23T04:24:32.680440",
       "status": "blocked_analysis"
     },
     "all-in_with_chamath,_jason,_sacks_&_friedberg_how_matt_mahan_thinks_he_can_s": {
@@ -252,7 +254,7 @@
         "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
         "title": "How Matt Mahan Thinks He Can Save California",
         "published": "2026-03-23",
-        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/all_in_with_chamath__jason__sacks___frie_how_matt_mahan_thinks_he_can_save_california_8dc900a2.mp3",
+        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/ALLIN_INTV_MAHAN_Ch.mp3",
         "keywords": [],
         "rss_guid": "68a689ad-9d04-4a49-95eb-aaa47a714117"
       },
@@ -263,21 +265,23 @@
           "reason": null
         },
         "transcribed": {
-          "complete": false,
-          "file": null,
+          "complete": true,
+          "file": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/ALLIN_INTV_MAHAN_Ch.txt",
           "timestamp": null,
-          "reason": "Waiting for fetch/transcribe step"
+          "reason": null
         },
         "analyzed": {
-          "complete": false,
-          "episode_id": null,
+          "complete": true,
+          "episode_id": 95,
           "timestamp": null,
-          "reason": "Waiting for next analyze run (transcript \u2192 DB)."
+          "reason": null
         },
         "insight_created": {
-          "complete": false,
+          "complete": true,
+          "insight_id": 44,
+          "insight_title": "The Epstein Saga: Diverse Perspectives and Investment Implications",
           "timestamp": null,
-          "reason": "Depends on analyze step first."
+          "reason": null
         },
         "published": {
           "complete": false,
@@ -285,8 +289,8 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-22T22:15:05.445984",
-      "status": "needs_transcription"
+      "first_seen": "2026-03-23T04:24:32.687014",
+      "status": "needs_export"
     },
     "dwarkesh_podcast_why_leonardo_was_a_saboteur,_g": {
       "info": {
@@ -326,7 +330,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-22T22:15:05.461598",
+      "first_seen": "2026-03-23T04:24:32.691763",
       "status": "blocked_analysis"
     }
   }
