@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-03-23T04:11:24.909914",
-  "total_feed_episodes": 8,
-  "approved_for_transcription": 8,
+  "timestamp": "2026-03-23T22:00:37.118170",
+  "total_feed_episodes": 9,
+  "approved_for_transcription": 9,
   "episodes": [
     {
       "podcast": "Moonshots with Peter Diamandis",
@@ -31,16 +31,16 @@
     },
     {
       "podcast": "Monetary Matters with Jack Farley",
-      "title": "A Fertilizer Crisis is Brewing (Quickly) | StoneX\u2019s Josh Linville on How Iran War & Strait of Hormuz Closure Has Shut of Critical Fertilizer Chemical Feedstocks That Threaten Global Grain Supply ",
-      "description": "\n        <p>Sponsor: Teucrium Corn Fund (NYSE Arca: CORN):</p>\n<p>https://teucrium.com/corn</p>\n<p><br></p>\n<p>In this episode of <em>Monetary Matters</em>, StoneX Vice President Josh Linville explains how the Iran War and the closure of the Strait of Hormuz have triggered a global fertilizer crisis that is currently crippling agricultural economics. With urea prices effectively doubling in just a few months, Josh warns that the market is facing a supply shock far more severe than the 2022 crisi",
-      "audio_url": "https://traffic.megaphone.fm/EWWMN4403315202.mp3",
-      "published": "Sun, 22 Mar 2026 14:56:00 -0000",
-      "published_date": "2026-03-22",
-      "rss_guid": "7409ff42-25ff-11f1-87be-bb3985a0a1b7",
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/EWWMN4403315202.mp3",
-      "filename": "EWWMN4403315202.mp3",
+      "title": "\u201cNot Until May\u201d The Real Timeline for Controlling the Strait of Hormuz | Nadia Martin Wiggen Svelland Capital",
+      "description": "\n        <p>Learn more about Teucrium\u2019s CORN ETF (CORN) here: https://teucrium.com/corn</p>\n<p><br></p>\n<p>Nadia Martin Wiggen, Director at Svelland Capital joins Other People\u2019s Money for a timely update on energy and shipping markets in light of the \u201c5-day pause\u201d Truth Social post that sent equity markets ripping higher and oil prices dipping lower. She explains why Svelland Capital believes May is the real timeline for controlling the Strait, how refining margins and refined product hoarding c",
+      "audio_url": "https://traffic.megaphone.fm/EWWMN4705722225.mp3",
+      "published": "Mon, 23 Mar 2026 23:38:00 -0000",
+      "published_date": "2026-03-23",
+      "rss_guid": "76483734-2711-11f1-aa51-0f5a5325be52",
       "status": "APPROVED",
-      "matched_keywords": []
+      "matched_keywords": [],
+      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/monetary_matters_with_jack_farley__not_until_may__the_real_timeline_for_controlling_the_strait_681c6faa.mp3",
+      "filename": "monetary_matters_with_jack_farley__not_until_may__the_real_timeline_for_controlling_the_strait_681c6faa.mp3"
     },
     {
       "podcast": "Monetary Matters with Jack Farley",
@@ -54,6 +54,19 @@
       "matched_keywords": [],
       "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/monetary_matters_with_jack_farley_stock_market_on_shaky_foundations___blind_squirrel_macro_s_r_12c3cce4.mp3",
       "filename": "monetary_matters_with_jack_farley_stock_market_on_shaky_foundations___blind_squirrel_macro_s_r_12c3cce4.mp3"
+    },
+    {
+      "podcast": "The a16z Show",
+      "title": "Why Every Satellite Needs Earth | Northwood CEO on a16z",
+      "description": "<p>Bridgit Mendler, Co-founder and CEO of Northwood, joins a16z\u2019s Erik Torenberg to discuss the critical but overlooked bottleneck in space: ground infrastructure. Northwood is building the systems that connect satellites back to Earth, enabling faster, more scalable space missions.</p>\n<p>They cover Bridgit\u2019s unconventional path to founding a space company, why vertical integration matters in hard tech, and how modern ground networks could unlock the next wave of innovation in the space economy",
+      "audio_url": "https://mgln.ai/e/1344/afp-848985-injected.calisto.simplecastaudio.com/3f86df7b-51c6-4101-88a2-550dba782de8/episodes/2267a36c-34cb-46b4-b7bf-a22d2eadc73c/audio/128/default.mp3?aid=rss_feed&awCollectionId=3f86df7b-51c6-4101-88a2-550dba782de8&awEpisodeId=2267a36c-34cb-46b4-b7bf-a22d2eadc73c&feed=JGE3yC0V",
+      "published": "Mon, 23 Mar 2026 20:02:21 +0000",
+      "published_date": "2026-03-23",
+      "rss_guid": "6cadc4a7-084f-42d7-900b-567c96cb425b",
+      "status": "APPROVED",
+      "matched_keywords": [],
+      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_why_every_satellite_needs_earth___northwood_ceo_on_a16z_78bb42e3.mp3",
+      "filename": "the_a16z_show_why_every_satellite_needs_earth___northwood_ceo_on_a16z_78bb42e3.mp3"
     },
     {
       "podcast": "The a16z Show",
@@ -83,16 +96,16 @@
     },
     {
       "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "title": "How Matt Mahan Thinks He Can Save California",
-      "description": "<p dir=\"ltr\">(0:00) Matt Mahan: Why He's Running for Governor</p> <p dir=\"ltr\">(1:51) How California Went From Bad to Worse</p> <p dir=\"ltr\">(12:05) Public Sector Unions & Lobbying in Sacramento</p> <p dir=\"ltr\">(19:05) California's Housing Crisis: Regulation & Fees</p> <p dir=\"ltr\">(34:52) California Energy Crisis: Gas Taxes & Green Policy</p> <p dir=\"ltr\">(43:57) The $1 Trillion Pension Time Bomb</p> <p dir=\"ltr\">(1:02:37) Trump, Tariffs & the Rise of Dangerous Populism</p> <p dir=\"ltr\">(1:09:",
-      "audio_url": "https://dts.podtrac.com/redirect.mp3/traffic.libsyn.com/secure/allinchamathjason/ALLIN_INTV_MAHAN_Ch.mp3?dest-id=1928300",
-      "published": "Mon, 23 Mar 2026 01:03:00 +0000",
+      "title": "Four CEOs on the Future of AI: CoreWeave, Perplexity, Mistral, and IREN",
+      "description": "<p>(0:00) Intro live from Nvidia GTC</p> <p>(0:37) CoreWeave CEO, Michael Intrator</p> <p>(32:58) Perplexity CEO, Aravind Srinivas</p> <p>(1:07:11) Mistral CEO, Arthur Mensch</p> <p>(1:18:57) IREN CEO, Daniel Roberts</p> <p>Our episode is sponsored by the New York Stock Exchange - a modern marketplace and exchange for building the future. It all happens at the NYSE - <a href= \"https://nyse.com\">https://nyse.com</a></p> <p>Follow the besties: </p> <p><a href=\"https://x.com/chamath\">https://x.com/",
+      "audio_url": "https://dts.podtrac.com/redirect.mp3/traffic.libsyn.com/secure/allinchamathjason/GTC_CEOs_F1AUDIO_Ch.mp3?dest-id=1928300",
+      "published": "Mon, 23 Mar 2026 18:07:00 +0000",
       "published_date": "2026-03-23",
-      "rss_guid": "68a689ad-9d04-4a49-95eb-aaa47a714117",
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/ALLIN_INTV_MAHAN_Ch.mp3",
-      "filename": "ALLIN_INTV_MAHAN_Ch.mp3",
+      "rss_guid": "d11608c8-9fb6-4efc-9917-36ead826d1f1",
       "status": "APPROVED",
-      "matched_keywords": []
+      "matched_keywords": [],
+      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/all_in_with_chamath__jason__sacks___frie_four_ceos_on_the_future_of_ai__coreweave__perplexity__mistra_ea16357e.mp3",
+      "filename": "all_in_with_chamath__jason__sacks___frie_four_ceos_on_the_future_of_ai__coreweave__perplexity__mistra_ea16357e.mp3"
     },
     {
       "podcast": "Dwarkesh Podcast",
