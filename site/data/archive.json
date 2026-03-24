@@ -1,6 +1,28 @@
 {
   "insights": [
     {
+      "id": 117,
+      "title": "When the Music Stops: Why Bitcoin is Next",
+      "source_type": "podcast",
+      "source_name": "The Jack Mallers Show",
+      "source_date": "2026-03-24",
+      "summary": "In this episode of The Jack Mallers Show, host Jack Mallers discusses Bitcoin, macroeconomics, and culture, focusing on the current geopolitical tensions and their impact on financial markets. He analyzes the U.S. fiscal position, the energy shock from conflicts in the Middle East, and the disruptive potential of AI on the job market. Jack also touches on Bitcoin's performance relative to gold and its potential as a store of value at the sovereign level.",
+      "key_takeaway": "Bitcoin is positioned to potentially act as a hedge against fiscal crises and geopolitical tensions, outperforming traditional assets like gold in times of conflict.",
+      "tickers_mentioned": [
+        "AAPL",
+        "NVDA",
+        "SPY",
+        "TSLA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-24",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 100
+    },
+    {
       "id": 112,
       "title": "California's Spending Woes and the Governor's Race",
       "source_type": "podcast",
@@ -218,11 +240,11 @@
         "XOM"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-20",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-24",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 89
     },
     {

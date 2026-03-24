@@ -1,6 +1,18 @@
 [
   {
-    "id": 590,
+    "id": 603,
+    "name": "When the Music Stops",
+    "slug": "when-the-music-stops",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Bitcoin is positioned to potentially act as a hedge against fiscal crises and geopolitical tensions, outperforming traditional assets like gold in times of conflict.",
+    "last_episode_title": "When the Music Stops: Why Bitcoin is Next",
+    "last_podcast_name": "The Jack Mallers Show",
+    "last_episode_date": "2026-03-24",
+    "appearance_count": 1
+  },
+  {
+    "id": 604,
     "name": "Ground Infrastructure",
     "slug": "ground-infrastructure",
     "bio": null,
@@ -12,7 +24,7 @@
     "appearance_count": 1
   },
   {
-    "id": 591,
+    "id": 605,
     "name": "Rory Johnston",
     "slug": "rory-johnston",
     "bio": null,
@@ -24,7 +36,7 @@
     "appearance_count": 1
   },
   {
-    "id": 592,
+    "id": 606,
     "name": "Senator John Fetterman on Voting Rights",
     "slug": "senator-john-fetterman-on-voting-rights",
     "bio": null,
@@ -36,7 +48,7 @@
     "appearance_count": 1
   },
   {
-    "id": 593,
+    "id": 607,
     "name": "Elon Musk on Moonshots",
     "slug": "elon-musk-on-moonshots",
     "bio": null,
@@ -48,7 +60,7 @@
     "appearance_count": 1
   },
   {
-    "id": 594,
+    "id": 608,
     "name": "Investing in Capitalism",
     "slug": "investing-in-capitalism",
     "bio": null,
@@ -60,7 +72,7 @@
     "appearance_count": 1
   },
   {
-    "id": 595,
+    "id": 609,
     "name": "Harvard Professor Graham Allison",
     "slug": "harvard-professor-graham-allison",
     "bio": null,
@@ -72,7 +84,7 @@
     "appearance_count": 1
   },
   {
-    "id": 596,
+    "id": 610,
     "name": "Andrew Yang",
     "slug": "andrew-yang",
     "bio": "Andrew Yang is an entrepreneur and political leader who popularized universal basic income in U.S. politics through his 2020 presidential campaign.",
@@ -84,7 +96,7 @@
     "appearance_count": 1
   },
   {
-    "id": 597,
+    "id": 611,
     "name": "Ray Dalio",
     "slug": "ray-dalio",
     "bio": "Ray Dalio is the founder of Bridgewater Associates and a macro investor known for his 'Principles' framework and work on long-term debt cycles.",
@@ -96,7 +108,7 @@
     "appearance_count": 1
   },
   {
-    "id": 598,
+    "id": 612,
     "name": "Nobel Prize-winning economist Paul Krugman",
     "slug": "nobel-prize-winning-economist-paul-krugman",
     "bio": null,
@@ -108,7 +120,7 @@
     "appearance_count": 1
   },
   {
-    "id": 599,
+    "id": 613,
     "name": "host Jack Mallers",
     "slug": "host-jack-mallers",
     "bio": null,
@@ -120,7 +132,7 @@
     "appearance_count": 1
   },
   {
-    "id": 600,
+    "id": 614,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -132,7 +144,7 @@
     "appearance_count": 1
   },
   {
-    "id": 601,
+    "id": 615,
     "name": "Bosworth",
     "slug": "bosworth",
     "bio": null,
@@ -144,7 +156,7 @@
     "appearance_count": 1
   },
   {
-    "id": 602,
+    "id": 616,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",

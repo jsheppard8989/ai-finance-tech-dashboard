@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-24T04:50:30.625530",
+  "last_updated": "2026-03-24T05:35:55.419325",
   "episodes": {
     "moonshots_with_peter_diamandis_nvidia's_$1_trillion_predictio": {
       "info": {
@@ -39,7 +39,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-24T04:50:30.456859",
+      "first_seen": "2026-03-24T05:35:55.317865",
       "status": "needs_analysis"
     },
     "moonshots_with_peter_diamandis_meta_buys_moltbook,_gpt_5.4,_a": {
@@ -80,51 +80,8 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-24T04:50:30.503162",
+      "first_seen": "2026-03-24T05:35:55.334998",
       "status": "blocked_analysis"
-    },
-    "monetary_matters_with_jack_farley_\u201cnot_until_may\u201d_the_real_timel": {
-      "info": {
-        "podcast": "Monetary Matters with Jack Farley",
-        "title": "\u201cNot Until May\u201d The Real Timeline for Controlling the Strait of Hormuz | Nadia Martin Wiggen Svelland Capital",
-        "published": "2026-03-23",
-        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/EWWMN4705722225.mp3",
-        "keywords": [],
-        "rss_guid": "76483734-2711-11f1-aa51-0f5a5325be52"
-      },
-      "stages": {
-        "downloaded": {
-          "complete": true,
-          "timestamp": null,
-          "reason": null
-        },
-        "transcribed": {
-          "complete": true,
-          "file": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/EWWMN4705722225.txt",
-          "timestamp": null,
-          "reason": null
-        },
-        "analyzed": {
-          "complete": true,
-          "episode_id": 97,
-          "timestamp": null,
-          "reason": null
-        },
-        "insight_created": {
-          "complete": true,
-          "insight_id": 26,
-          "insight_title": "Milton Berg: Rare Signal \u2014 Local Bottom or Major Top Ahead",
-          "timestamp": null,
-          "reason": null
-        },
-        "published": {
-          "complete": false,
-          "timestamp": null,
-          "reason": "Not in data.js yet (run export and push to site)."
-        }
-      },
-      "first_seen": "2026-03-24T04:50:30.513150",
-      "status": "needs_export"
     },
     "monetary_matters_with_jack_farley_stock_market_on_shaky_foundati": {
       "info": {
@@ -164,17 +121,17 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-24T04:50:30.516649",
+      "first_seen": "2026-03-24T05:35:55.342835",
       "status": "blocked_analysis"
     },
-    "the_a16z_show_why_every_satellite_needs_eart": {
+    "the_a16z_show_the_missing_power_layer_of_mod": {
       "info": {
         "podcast": "The a16z Show",
-        "title": "Why Every Satellite Needs Earth | Northwood CEO on a16z",
-        "published": "2026-03-23",
-        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_why_every_satellite_needs_earth___northwood_ceo_on_a16z_78bb42e3.mp3",
+        "title": "The Missing Power Layer of Modern Warfare",
+        "published": "2026-03-24",
+        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_the_missing_power_layer_of_modern_warfare_3a79a1b2.mp3",
         "keywords": [],
-        "rss_guid": "6cadc4a7-084f-42d7-900b-567c96cb425b"
+        "rss_guid": "f3b05bf0-1952-46a7-8a05-23946f55f67a"
       },
       "stages": {
         "downloaded": {
@@ -183,23 +140,21 @@
           "reason": null
         },
         "transcribed": {
-          "complete": true,
-          "file": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/the_a16z_show_20260323_6cadc4a7_084f_42d7_900b_567c96cb.txt",
+          "complete": false,
+          "file": null,
           "timestamp": null,
-          "reason": null
+          "reason": "Waiting for fetch/transcribe step"
         },
         "analyzed": {
-          "complete": true,
-          "episode_id": 99,
+          "complete": false,
+          "episode_id": null,
           "timestamp": null,
-          "reason": null
+          "reason": "Waiting for next analyze run (transcript \u2192 DB)."
         },
         "insight_created": {
-          "complete": true,
-          "insight_id": 50,
-          "insight_title": "The a16z Show: New Media Strategy and Investment Insights",
+          "complete": false,
           "timestamp": null,
-          "reason": null
+          "reason": "Depends on analyze step first."
         },
         "published": {
           "complete": false,
@@ -207,8 +162,8 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-24T04:50:30.533626",
-      "status": "needs_export"
+      "first_seen": "2026-03-24T05:35:55.354811",
+      "status": "needs_transcription"
     },
     "the_a16z_show_ai_just_gave_you_superpowers_\u2014": {
       "info": {
@@ -248,7 +203,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-24T04:50:30.550077",
+      "first_seen": "2026-03-24T05:35:55.374335",
       "status": "blocked_analysis"
     },
     "the_a16z_show_chris_dixon:_from_quant_tradin": {
@@ -289,58 +244,15 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-24T04:50:30.560626",
+      "first_seen": "2026-03-24T05:35:55.384422",
       "status": "blocked_analysis"
-    },
-    "all-in_with_chamath,_jason,_sacks_&_friedberg_four_ceos_on_the_future_of_ai:": {
-      "info": {
-        "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-        "title": "Four CEOs on the Future of AI: CoreWeave, Perplexity, Mistral, and IREN",
-        "published": "2026-03-23",
-        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/GTC_CEOs_F1AUDIO_Ch.mp3",
-        "keywords": [],
-        "rss_guid": "d11608c8-9fb6-4efc-9917-36ead826d1f1"
-      },
-      "stages": {
-        "downloaded": {
-          "complete": true,
-          "timestamp": null,
-          "reason": null
-        },
-        "transcribed": {
-          "complete": true,
-          "file": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/GTC_CEOs_F1AUDIO_Ch.txt",
-          "timestamp": null,
-          "reason": null
-        },
-        "analyzed": {
-          "complete": true,
-          "episode_id": 98,
-          "timestamp": null,
-          "reason": null
-        },
-        "insight_created": {
-          "complete": true,
-          "insight_id": 44,
-          "insight_title": "The Epstein Saga: Diverse Perspectives and Investment Implications",
-          "timestamp": null,
-          "reason": null
-        },
-        "published": {
-          "complete": false,
-          "timestamp": null,
-          "reason": "Not in data.js yet (run export and push to site)."
-        }
-      },
-      "first_seen": "2026-03-24T04:50:30.577958",
-      "status": "needs_export"
     },
     "the_jack_mallers_show_when_the_music_stops:_why_bitc": {
       "info": {
         "podcast": "The Jack Mallers Show",
         "title": "When the Music Stops: Why Bitcoin Is Next",
         "published": "2026-03-24",
-        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/the_jack_mallers_show_when_the_music_stops__why_bitcoin_is_next_28977b47.mp3",
+        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-2-24%2F420652061-44100-2-d86731987406.mp3",
         "keywords": [],
         "rss_guid": "f489e0ff-a1d1-4857-806c-de656ae8a250"
       },
@@ -351,21 +263,23 @@
           "reason": null
         },
         "transcribed": {
-          "complete": false,
-          "file": null,
+          "complete": true,
+          "file": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-2-24%2F420652061-44100-2-d86731987406.txt",
           "timestamp": null,
-          "reason": "Waiting for fetch/transcribe step"
+          "reason": null
         },
         "analyzed": {
-          "complete": false,
-          "episode_id": null,
+          "complete": true,
+          "episode_id": 100,
           "timestamp": null,
-          "reason": "Waiting for next analyze run (transcript \u2192 DB)."
+          "reason": null
         },
         "insight_created": {
-          "complete": false,
+          "complete": true,
+          "insight_id": 46,
+          "insight_title": "AI Breaking the System and What It Means for Bitcoin",
           "timestamp": null,
-          "reason": "Depends on analyze step first."
+          "reason": null
         },
         "published": {
           "complete": false,
@@ -373,8 +287,8 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-24T04:50:30.591961",
-      "status": "needs_transcription"
+      "first_seen": "2026-03-24T05:35:55.398281",
+      "status": "needs_export"
     },
     "dwarkesh_podcast_why_leonardo_was_a_saboteur,_g": {
       "info": {
@@ -414,7 +328,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-24T04:50:30.618093",
+      "first_seen": "2026-03-24T05:35:55.412617",
       "status": "blocked_analysis"
     }
   }

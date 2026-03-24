@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-03-24T04:50:30.453542",
-  "last_updated": "2026-03-24T04:50:30.453542",
-  "last_pipeline_run": "2026-03-24T04:50:30.453542",
+  "generated_at": "2026-03-24T05:35:55.314904",
+  "last_updated": "2026-03-24T05:35:55.314904",
+  "last_pipeline_run": "2026-03-24T05:35:55.314904",
   "main_page": {
     "overton": 8,
     "insights": 8,
@@ -9,23 +9,23 @@
   },
   "counts": {
     "ticker_mentions": 140,
-    "podcast_episodes": 74,
+    "podcast_episodes": 75,
     "newsletters": 7,
     "daily_scores": 78,
     "overton_terms_total": 16,
-    "latest_insights_total": 90,
+    "latest_insights_total": 91,
     "today_mentions": {
       "podcast": 1
     },
-    "podcasts_analyzed": 3
+    "podcasts_analyzed": 4
   },
   "step_results": {
-    "downloaded": 7,
-    "transcribed": 7,
-    "analyzed": 7,
-    "insight_created": 3,
-    "published": 4,
-    "total": 10
+    "downloaded": 5,
+    "transcribed": 5,
+    "analyzed": 5,
+    "insight_created": 1,
+    "published": 3,
+    "total": 8
   },
   "episodes": [
     {
@@ -66,22 +66,6 @@
       "status": "needs_insight"
     },
     {
-      "id": "76483734-2711-11f1-aa51-0f5a5325be52",
-      "podcast": "Monetary Matters with Jack Farley",
-      "title": "Monetary Matters: Middle East Crisis and Global Market Impact",
-      "published": "2026-03-23",
-      "rss_guid": "76483734-2711-11f1-aa51-0f5a5325be52",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "status": "complete"
-    },
-    {
       "id": "e3ce0ba4-22dd-11f1-b3e1-ef93882cc84d",
       "podcast": "Monetary Matters with Jack Farley",
       "title": "Stock Market on Shaky Foundations | Blind Squirrel Macro\u2019s Rupert Mitchell on IPO Supply, Oil, and Private Credit",
@@ -104,20 +88,22 @@
       "status": "needs_download"
     },
     {
-      "id": "6cadc4a7-084f-42d7-900b-567c96cb425b",
+      "id": "f3b05bf0-1952-46a7-8a05-23946f55f67a",
       "podcast": "The a16z Show",
-      "title": "Ground Infrastructure: The Overlooked Bottleneck in the Space Economy",
-      "published": "2026-03-23",
-      "rss_guid": "6cadc4a7-084f-42d7-900b-567c96cb425b",
+      "title": "The Geopolitics of Technology and the Future Economy",
+      "published": "2026-03-24",
+      "rss_guid": "f3b05bf0-1952-46a7-8a05-23946f55f67a",
       "stages": {
         "downloaded": true,
         "transcribed": true,
         "analyzed": true,
-        "insight_created": true,
+        "insight_created": false,
         "published": true
       },
-      "stage_reasons": {},
-      "status": "complete"
+      "stage_reasons": {
+        "insight_created": "No latest_insights row for this episode (insight step not reflected in DB yet)."
+      },
+      "status": "needs_insight"
     },
     {
       "id": "1e92a9dd-78da-4417-b1ce-4b4318d1f8c4",
@@ -161,11 +147,11 @@
       "status": "needs_download"
     },
     {
-      "id": "d11608c8-9fb6-4efc-9917-36ead826d1f1",
-      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "title": "Interview with Michael Intrader at Nvidia's GTC Conference",
-      "published": "2026-03-23",
-      "rss_guid": "d11608c8-9fb6-4efc-9917-36ead826d1f1",
+      "id": "f489e0ff-a1d1-4857-806c-de656ae8a250",
+      "podcast": "The Jack Mallers Show",
+      "title": "When the Music Stops: Why Bitcoin is Next",
+      "published": "2026-03-24",
+      "rss_guid": "f489e0ff-a1d1-4857-806c-de656ae8a250",
       "stages": {
         "downloaded": true,
         "transcribed": true,
@@ -175,25 +161,6 @@
       },
       "stage_reasons": {},
       "status": "complete"
-    },
-    {
-      "id": "f489e0ff-a1d1-4857-806c-de656ae8a250",
-      "podcast": "The Jack Mallers Show",
-      "title": "AI Breaking the System and What It Means for Bitcoin",
-      "published": "2026-03-24",
-      "rss_guid": "f489e0ff-a1d1-4857-806c-de656ae8a250",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": false,
-        "published": false
-      },
-      "stage_reasons": {
-        "insight_created": "No latest_insights row for this episode (insight step not reflected in DB yet).",
-        "published": "added_to_site=0 (export/publish step not reflected in DB yet)."
-      },
-      "status": "needs_insight"
     },
     {
       "id": "substack:post:190118311",
@@ -220,9 +187,9 @@
   ],
   "available_from_rss": [
     {
-      "podcast": "The Jack Mallers Show",
-      "title": "When the Music Stops: Why Bitcoin Is Next",
-      "published": "Tue, 24 Mar 2026 07:54:42 GMT",
+      "podcast": "The a16z Show",
+      "title": "The Missing Power Layer of Modern Warfare",
+      "published": "Tue, 24 Mar 2026 10:00:55 +0000",
       "published_date": "2026-03-24",
       "rss_guid": ""
     },

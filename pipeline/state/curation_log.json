@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-03-24T04:25:05.888172",
-  "total_feed_episodes": 10,
-  "approved_for_transcription": 10,
+  "timestamp": "2026-03-24T05:21:08.011173",
+  "total_feed_episodes": 8,
+  "approved_for_transcription": 8,
   "episodes": [
     {
       "podcast": "Moonshots with Peter Diamandis",
@@ -31,19 +31,6 @@
     },
     {
       "podcast": "Monetary Matters with Jack Farley",
-      "title": "\u201cNot Until May\u201d The Real Timeline for Controlling the Strait of Hormuz | Nadia Martin Wiggen Svelland Capital",
-      "description": "\n        <p>Learn more about Teucrium\u2019s CORN ETF (CORN) here: https://teucrium.com/corn</p>\n<p><br></p>\n<p>Nadia Martin Wiggen, Director at Svelland Capital joins Other People\u2019s Money for a timely update on energy and shipping markets in light of the \u201c5-day pause\u201d Truth Social post that sent equity markets ripping higher and oil prices dipping lower. She explains why Svelland Capital believes May is the real timeline for controlling the Strait, how refining margins and refined product hoarding c",
-      "audio_url": "https://traffic.megaphone.fm/EWWMN4705722225.mp3",
-      "published": "Mon, 23 Mar 2026 23:38:00 -0000",
-      "published_date": "2026-03-23",
-      "rss_guid": "76483734-2711-11f1-aa51-0f5a5325be52",
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/EWWMN4705722225.mp3",
-      "filename": "EWWMN4705722225.mp3",
-      "status": "APPROVED",
-      "matched_keywords": []
-    },
-    {
-      "podcast": "Monetary Matters with Jack Farley",
       "title": "Stock Market on Shaky Foundations | Blind Squirrel Macro\u2019s Rupert Mitchell on IPO Supply, Oil, and Private Credit",
       "description": "\n        <p>Learn more about Teucrium\u2019s Soybean ETF (SOYB) here: <a href=\"https://teucrium.com/soyb\"><u>https://teucrium.com/soyb</u><br></a></p>\n<p>In this episode of Monetary Matters, Jack sits down with Rupert Mitchell of Blind Squirrel Macro to unpack why the foundations of the current US stock market bull run might be crumbling. Mitchell details his transition to a 50% cash and gold portfolio, warning that a looming wave of jumbo IPOs and cracks in the private credit markets could severely ",
       "audio_url": "https://traffic.megaphone.fm/EWWMN5922696172.mp3",
@@ -57,16 +44,16 @@
     },
     {
       "podcast": "The a16z Show",
-      "title": "Why Every Satellite Needs Earth | Northwood CEO on a16z",
-      "description": "<p>Bridgit Mendler, Co-founder and CEO of Northwood, joins a16z\u2019s Erik Torenberg to discuss the critical but overlooked bottleneck in space: ground infrastructure. Northwood is building the systems that connect satellites back to Earth, enabling faster, more scalable space missions.</p>\n<p>They cover Bridgit\u2019s unconventional path to founding a space company, why vertical integration matters in hard tech, and how modern ground networks could unlock the next wave of innovation in the space economy",
-      "audio_url": "https://mgln.ai/e/1344/afp-848985-injected.calisto.simplecastaudio.com/3f86df7b-51c6-4101-88a2-550dba782de8/episodes/2267a36c-34cb-46b4-b7bf-a22d2eadc73c/audio/128/default.mp3?aid=rss_feed&awCollectionId=3f86df7b-51c6-4101-88a2-550dba782de8&awEpisodeId=2267a36c-34cb-46b4-b7bf-a22d2eadc73c&feed=JGE3yC0V",
-      "published": "Mon, 23 Mar 2026 20:02:21 +0000",
-      "published_date": "2026-03-23",
-      "rss_guid": "6cadc4a7-084f-42d7-900b-567c96cb425b",
+      "title": "The Missing Power Layer of Modern Warfare",
+      "description": "<p>Erin Price-Wright speaks with Adam Warmoth, founder and CEO of Chariot Defense, and Alex Miller, CTO of the U.S. Army, about the power crisis at the heart of modern military operations. As the battlefield becomes more distributed and electronics-heavy, the Army's legacy power infrastructure, built around diesel generators and lead-acid batteries, is struggling to keep up. They examine how commercial breakthroughs in EV and aviation technology are being adapted for the front line, why fuel con",
+      "audio_url": "https://mgln.ai/e/1344/afp-848985-injected.calisto.simplecastaudio.com/3f86df7b-51c6-4101-88a2-550dba782de8/episodes/bd5c383e-1d2b-4fa7-a189-ac4e4fe869a5/audio/128/default.mp3?aid=rss_feed&awCollectionId=3f86df7b-51c6-4101-88a2-550dba782de8&awEpisodeId=bd5c383e-1d2b-4fa7-a189-ac4e4fe869a5&feed=JGE3yC0V",
+      "published": "Tue, 24 Mar 2026 10:00:55 +0000",
+      "published_date": "2026-03-24",
+      "rss_guid": "f3b05bf0-1952-46a7-8a05-23946f55f67a",
       "status": "APPROVED",
       "matched_keywords": [],
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_why_every_satellite_needs_earth___northwood_ceo_on_a16z_78bb42e3.mp3",
-      "filename": "the_a16z_show_why_every_satellite_needs_earth___northwood_ceo_on_a16z_78bb42e3.mp3"
+      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_the_missing_power_layer_of_modern_warfare_3a79a1b2.mp3",
+      "filename": "the_a16z_show_the_missing_power_layer_of_modern_warfare_3a79a1b2.mp3"
     },
     {
       "podcast": "The a16z Show",
@@ -95,19 +82,6 @@
       "filename": "the_a16z_show_chris_dixon__from_quant_trading_to_building_a16z_crypto_be2e5b4b.mp3"
     },
     {
-      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "title": "Four CEOs on the Future of AI: CoreWeave, Perplexity, Mistral, and IREN",
-      "description": "<p>(0:00) Intro live from Nvidia GTC</p> <p>(0:37) CoreWeave CEO, Michael Intrator</p> <p>(32:58) Perplexity CEO, Aravind Srinivas</p> <p>(1:07:11) Mistral CEO, Arthur Mensch</p> <p>(1:18:57) IREN CEO, Daniel Roberts</p> <p>Our episode is sponsored by the New York Stock Exchange - a modern marketplace and exchange for building the future. It all happens at the NYSE - <a href= \"https://nyse.com\">https://nyse.com</a></p> <p>Follow the besties: </p> <p><a href=\"https://x.com/chamath\">https://x.com/",
-      "audio_url": "https://dts.podtrac.com/redirect.mp3/traffic.libsyn.com/secure/allinchamathjason/GTC_CEOs_F1AUDIO_Ch.mp3?dest-id=1928300",
-      "published": "Mon, 23 Mar 2026 18:07:00 +0000",
-      "published_date": "2026-03-23",
-      "rss_guid": "d11608c8-9fb6-4efc-9917-36ead826d1f1",
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/GTC_CEOs_F1AUDIO_Ch.mp3",
-      "filename": "GTC_CEOs_F1AUDIO_Ch.mp3",
-      "status": "APPROVED",
-      "matched_keywords": []
-    },
-    {
       "podcast": "The Jack Mallers Show",
       "title": "When the Music Stops: Why Bitcoin Is Next",
       "description": "<p>Streaming live Mondays at 6pm ET on The Jack Mallers Show YouTube channel.</p>\n",
@@ -115,10 +89,10 @@
       "published": "Tue, 24 Mar 2026 07:54:42 GMT",
       "published_date": "2026-03-24",
       "rss_guid": "f489e0ff-a1d1-4857-806c-de656ae8a250",
+      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-2-24%2F420652061-44100-2-d86731987406.mp3",
+      "filename": "https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-2-24%2F420652061-44100-2-d86731987406.mp3",
       "status": "APPROVED",
-      "matched_keywords": [],
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/the_jack_mallers_show_when_the_music_stops__why_bitcoin_is_next_28977b47.mp3",
-      "filename": "the_jack_mallers_show_when_the_music_stops__why_bitcoin_is_next_28977b47.mp3"
+      "matched_keywords": []
     },
     {
       "podcast": "Dwarkesh Podcast",

@@ -3,8 +3,8 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-03-24T04:50:32.979404",
-  chartsVersion: "2026-03-24T04:50:29.136773",
+  generatedAt: "2026-03-24T05:35:57.455454",
+  chartsVersion: "2026-03-24T05:35:54.007043",
   tickerScores: [
   {
     "ticker": "GOOGL",
@@ -715,6 +715,28 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 117,
+      "title": "When the Music Stops: Why Bitcoin is Next",
+      "source_type": "podcast",
+      "source_name": "The Jack Mallers Show",
+      "source_date": "2026-03-24",
+      "summary": "In this episode of The Jack Mallers Show, host Jack Mallers discusses Bitcoin, macroeconomics, and culture, focusing on the current geopolitical tensions and their impact on financial markets. He analyzes the U.S. fiscal position, the energy shock from conflicts in the Middle East, and the disruptive potential of AI on the job market. Jack also touches on Bitcoin's performance relative to gold and its potential as a store of value at the sovereign level.",
+      "key_takeaway": "Bitcoin is positioned to potentially act as a hedge against fiscal crises and geopolitical tensions, outperforming traditional assets like gold in times of conflict.",
+      "tickers_mentioned": [
+        "AAPL",
+        "NVDA",
+        "SPY",
+        "TSLA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-24",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 100
+    },
+    {
       "id": 112,
       "title": "California's Spending Woes and the Governor's Race",
       "source_type": "podcast",
@@ -932,11 +954,11 @@ const dashboardData = {
         "XOM"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-20",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-24",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 89
     },
     {
@@ -2833,6 +2855,26 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 117,
+      "title": "When the Music Stops: Why Bitcoin is Next",
+      "source_type": "podcast",
+      "source_name": "The Jack Mallers Show",
+      "source_date": "2026-03-24",
+      "summary": "In this episode of The Jack Mallers Show, host Jack Mallers discusses Bitcoin, macroeconomics, and culture, focusing on the current geopolitical tensions and their impact on financial markets. He analyzes the U.S. fiscal position, the energy shock from conflicts in the Middle East, and the disruptive potential of AI on the job market. Jack also touches on Bitcoin's performance relative to gold and its potential as a store of value at the sovereign level.",
+      "key_takeaway": "Bitcoin is positioned to potentially act as a hedge against fiscal crises and geopolitical tensions, outperforming traditional assets like gold in times of conflict.",
+      "tickers_mentioned": "[\"AAPL\", \"NVDA\", \"SPY\", \"TSLA\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-24",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 100,
+      "episode_release_date": "2026-03-24",
+      "guest_name": "When the Music Stops",
+      "key_tickers": []
+    },
+    {
       "id": 112,
       "title": "California's Spending Woes and the Governor's Race",
       "source_type": "podcast",
@@ -2979,26 +3021,6 @@ const dashboardData = {
       "key_tickers": [
         "PLTR"
       ]
-    },
-    {
-      "id": 107,
-      "title": "Monetary Matters: Geopolitical Impact on Oil Markets with Rory Johnston",
-      "source_type": "podcast",
-      "source_name": "Monetary Matters with Jack Farley",
-      "source_date": "2026-03-19",
-      "summary": "In this special episode of Monetary Matters, host Jack Farley interviews Rory Johnston of Commodity Context to discuss the geopolitical crisis in the Middle East and its impact on oil markets. Johnston emphasizes that even if there's geopolitical de-escalation, the crisis is likely to be protracted, with severe implications for the oil market and global economy if the flow of oil through the Strait of Hormuz does not resume. The conversation covers the potential for a price spike in oil, the role of the United States and President Trump in resolving the crisis, and the concept of spare capacity in the oil market.",
-      "key_takeaway": "The ongoing geopolitical crisis in the Middle East, particularly the situation in the Strait of Hormuz, presents a significant risk to the global oil supply and could lead to a structural increase in oil prices.",
-      "tickers_mentioned": "[\"AAPL\", \"NVDA\", \"SPY\", \"TSLA\", \"XOM\"]",
-      "sentiment": "bearish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-03-20",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 89,
-      "episode_release_date": "2026-03-19",
-      "guest_name": "Rory Johnston",
-      "key_tickers": []
     }
   ],
   "definitions": [
@@ -9168,9 +9190,99 @@ const dashboardData = {
     "key_tickers": [
       "C.O.R.N"
     ]
+  },
+  "117": {
+    "id": 108,
+    "insight_id": 117,
+    "podcast_episode_id": 100,
+    "overview": "The investment thesis revolves around the current geopolitical tensions and their impact on global financial markets, with a particular focus on Bitcoin's role as a potential safe haven asset. Given the escalating tensions between the United States and Iran, and the subsequent market reactions, Bitcoin's decentralized nature positions it to potentially benefit from these events. The current macroeconomic backdrop, characterized by high inflation, significant debt levels, and potential yield curve control, suggests that traditional financial markets are vulnerable. This analysis explores the implications for investors, with Bitcoin emerging as a key asset to monitor in the short to medium term.",
+    "key_takeaways_detailed": [
+      "Bitcoin's market cap has reached $1.42 trillion, indicating growing acceptance and potential for price appreciation amidst global uncertainty.",
+      "Geopolitical tensions can lead to increased volatility in traditional markets, potentially driving capital towards alternative assets like Bitcoin.",
+      "The U.S.'s high debt levels and inflationary pressures suggest a weakening fiat currency, which could bolster Bitcoin's appeal as a store of value.",
+      "Iran's use of market manipulation as a form of retaliation highlights the interconnectedness of global financial markets and the potential for Bitcoin to act as a hedge against such geopolitical risks.",
+      "Investors should monitor the actions of key market participants, such as central banks and major economies, for signs of capitulation or support that could influence Bitcoin's price."
+    ],
+    "investment_thesis": "The core investment logic is that Bitcoin, with its decentralized nature and limited supply, could serve as a hedge against the current geopolitical and macroeconomic uncertainties. The catalysts for this thesis include ongoing tensions in the Middle East, escalating inflation, and the potential for a debt crisis. The timeframe for this thesis is short to medium term, as these events are unfolding rapidly and could significantly impact financial markets in the coming months.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's strong cash position and diversification across global markets make it a stable investment amidst geopolitical tensions. However, as a large-cap tech stock, it could be indirectly affected by market volatility.",
+        "positioning": "Position tactically long, with a focus on short-term gains, as market volatility may create opportunities for trading around earnings and product announcements.",
+        "risk": "Key risks include potential supply chain disruptions due to geopolitical tensions and a slowdown in consumer spending due to economic uncertainty."
+      },
+      "NVDA": {
+        "rationale": "Nvidia's exposure to the gaming, data center, and automotive markets positions it to benefit from the ongoing digital transformation, despite geopolitical risks.",
+        "positioning": "Consider a strategic long position, as the company's growth prospects are likely to outpace short-term market volatility.",
+        "risk": "The risk of increased tariffs or trade restrictions could impact Nvidia's global operations and supply chain."
+      },
+      "SPY": {
+        "rationale": "As an ETF representing the S&P 500, SPY provides broad market exposure and can be used to gauge the overall health of the U.S. stock market amidst geopolitical events.",
+        "positioning": "Position tactically, using options or short-term trades to capitalize on market volatility or as a hedge against a potential market downturn.",
+        "risk": "The risk of a broad market sell-off due to escalating tensions or economic indicators pointing to a recession."
+      },
+      "TSLA": {
+        "rationale": "Tesla's position as a leader in electric vehicles and renewable energy could be negatively impacted by geopolitical tensions affecting global supply chains and consumer confidence.",
+        "positioning": "Maintain a cautious long position, as the stock's high volatility and growth prospects could offer opportunities for significant gains or losses.",
+        "risk": "Key risks include potential disruptions to Tesla's production and delivery timelines due to geopolitical events and economic downturns affecting consumer demand."
+      }
+    },
+    "positioning_guidance": "Investors should consider a diversified approach, with a mix of tactical and strategic positions in both traditional and alternative assets. For Bitcoin, consider a medium-term investment horizon, with the potential for price appreciation in response to global uncertainties. For stocks like AAPL and NVDA, focus on short-term trading opportunities around earnings and product cycles, while maintaining a long-term view on their growth prospects. Use options and ETFs like SPY for tactical hedging against market volatility.",
+    "risk_factors": [
+      "Escalating geopolitical tensions leading to broader market sell-offs.",
+      "Regulatory changes affecting Bitcoin and other cryptocurrencies.",
+      "A potential economic recession that could impact consumer spending and corporate earnings.",
+      "Supply chain disruptions due to geopolitical events affecting global operations of companies like AAPL and TSLA.",
+      "Unexpected shifts in monetary policy by central banks that could influence interest rates and currency values."
+    ],
+    "contrarian_signals": [
+      "The potential for a swift resolution to geopolitical tensions that could lead to a rapid recovery in traditional markets and a decrease in Bitcoin's appeal.",
+      "The possibility that central banks may implement effective yield curve control measures, reducing the appeal of Bitcoin as a hedge against inflation.",
+      "A significant technological breakthrough or regulatory change that could disrupt the cryptocurrency market, affecting Bitcoin's price."
+    ],
+    "catalysts": [
+      "Upcoming economic data releases that could indicate the health of the U.S. and global economies.",
+      "Geopolitical events, such as peace talks or further escalations, that could significantly impact market sentiment.",
+      "Central bank meetings and announcements that could influence monetary policy and interest rates.",
+      "Bitcoin's halving event, which occurs approximately every four years and can influence its supply and price dynamics.",
+      "Earnings reports and product announcements from major companies like AAPL and NVDA that could drive stock price movements."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-03-24T05:35:17.001173",
+    "updated_at": "2026-03-24 10:35:17",
+    "insight_title": "When the Music Stops: Why Bitcoin is Next",
+    "source_name": "The Jack Mallers Show",
+    "source_date": "2026-03-24",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
+  {
+    "id": 89,
+    "term": "True Interest Expense",
+    "definition": "The actual cost of borrowing for the U.S. government, which is currently more than the tax receipts it receives, indicating a fiscal imbalance.",
+    "investment_implications": "Investors should monitor true interest expense as an indicator of fiscal health and potential market instability.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-03-24 10:30:37",
+    "priority_score": 80
+  },
+  {
+    "id": 90,
+    "term": "Deflationary Technology Force",
+    "definition": "A technology, like AI, that has the potential to reduce prices by increasing efficiency and productivity, which can disrupt traditional economic models.",
+    "investment_implications": "Investors should consider the impact of deflationary technologies on inflation expectations and asset valuations.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-03-24 10:30:37",
+    "priority_score": 80
+  },
   {
     "id": 87,
     "term": "Space Mesh",
@@ -9194,35 +9306,23 @@ const dashboardData = {
     "relevance_score": 50,
     "submitted_date": "2026-03-24 09:39:24",
     "priority_score": 80
-  },
-  {
-    "id": 86,
-    "term": "Model Specialization",
-    "definition": "The trend where AI models are becoming more specialized in their capabilities, catering to specific tasks rather than being generalized.",
-    "investment_implications": "Invest in platforms that can leverage the strengths of specialized AI models and provide an orchestration layer for diverse applications.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-03-24 09:37:15",
-    "priority_score": 80
-  },
-  {
-    "id": 84,
-    "term": "Strait of Hormuz",
-    "definition": "A narrow strait between Iran and Oman through which a significant portion of the world's oil passes.",
-    "investment_implications": "Control and security of this strait are critical for global oil markets and shipping.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-03-24 09:26:22",
-    "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 590,
+    "id": 603,
+    "name": "When the Music Stops",
+    "slug": "when-the-music-stops",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Bitcoin is positioned to potentially act as a hedge against fiscal crises and geopolitical tensions, outperforming traditional assets like gold in times of conflict.",
+    "last_episode_title": "When the Music Stops: Why Bitcoin is Next",
+    "last_podcast_name": "The Jack Mallers Show",
+    "last_episode_date": "2026-03-24",
+    "appearance_count": 1
+  },
+  {
+    "id": 604,
     "name": "Ground Infrastructure",
     "slug": "ground-infrastructure",
     "bio": null,
@@ -9234,7 +9334,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 591,
+    "id": 605,
     "name": "Rory Johnston",
     "slug": "rory-johnston",
     "bio": null,
@@ -9246,7 +9346,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 592,
+    "id": 606,
     "name": "Senator John Fetterman on Voting Rights",
     "slug": "senator-john-fetterman-on-voting-rights",
     "bio": null,
@@ -9258,7 +9358,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 593,
+    "id": 607,
     "name": "Elon Musk on Moonshots",
     "slug": "elon-musk-on-moonshots",
     "bio": null,
@@ -9270,7 +9370,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 594,
+    "id": 608,
     "name": "Investing in Capitalism",
     "slug": "investing-in-capitalism",
     "bio": null,
@@ -9282,7 +9382,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 595,
+    "id": 609,
     "name": "Harvard Professor Graham Allison",
     "slug": "harvard-professor-graham-allison",
     "bio": null,
@@ -9294,7 +9394,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 596,
+    "id": 610,
     "name": "Andrew Yang",
     "slug": "andrew-yang",
     "bio": "Andrew Yang is an entrepreneur and political leader who popularized universal basic income in U.S. politics through his 2020 presidential campaign.",
@@ -9306,7 +9406,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 597,
+    "id": 611,
     "name": "Ray Dalio",
     "slug": "ray-dalio",
     "bio": "Ray Dalio is the founder of Bridgewater Associates and a macro investor known for his 'Principles' framework and work on long-term debt cycles.",
@@ -9318,7 +9418,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 598,
+    "id": 612,
     "name": "Nobel Prize-winning economist Paul Krugman",
     "slug": "nobel-prize-winning-economist-paul-krugman",
     "bio": null,
@@ -9330,7 +9430,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 599,
+    "id": 613,
     "name": "host Jack Mallers",
     "slug": "host-jack-mallers",
     "bio": null,
@@ -9342,7 +9442,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 600,
+    "id": 614,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -9354,7 +9454,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 601,
+    "id": 615,
     "name": "Bosworth",
     "slug": "bosworth",
     "bio": null,
@@ -9366,7 +9466,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 602,
+    "id": 616,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",

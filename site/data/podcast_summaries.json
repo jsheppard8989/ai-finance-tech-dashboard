@@ -1,5 +1,22 @@
 [
   {
+    "id": 100,
+    "podcast_name": "The Jack Mallers Show",
+    "episode_title": "When the Music Stops: Why Bitcoin is Next",
+    "episode_date": "2026-03-24",
+    "summary": "In this episode of The Jack Mallers Show, host Jack Mallers discusses Bitcoin, macroeconomics, and culture, focusing on the current geopolitical tensions and their impact on financial markets. He analyzes the U.S. fiscal position, the energy shock from conflicts in the Middle East, and the disruptive potential of AI on the job market. Jack also touches on Bitcoin's performance relative to gold and its potential as a store of value at the sovereign level.",
+    "key_takeaways": [
+      "Bitcoin's market cap is at $1.42 trillion, and its price is $70,810.",
+      "U.S. true interest expense is $408 billion, which is more than the tax receipts of $313 billion, indicating a fiscal crisis.",
+      "Iranian hostilities and potential Supreme Court rulings could exacerbate fiscal issues.",
+      "AI is seen as a deflationary technology force that could disrupt a highly leveraged economic system.",
+      "Bitcoin has outperformed gold since the beginning of the Middle East conflict.",
+      "Jack believes Bitcoin is still too small to be the world's store of value at the sovereign level but is growing into different use cases."
+    ],
+    "investment_thesis": "Bitcoin is positioned to potentially act as a hedge against fiscal crises and geopolitical tensions, outperforming traditional assets like gold in times of conflict.",
+    "key_tickers": null
+  },
+  {
     "id": 99,
     "podcast_name": "The a16z Show",
     "episode_title": "Ground Infrastructure: The Overlooked Bottleneck in the Space Economy",
