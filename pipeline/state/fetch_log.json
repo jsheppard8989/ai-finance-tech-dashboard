@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-23T22:00:54.228602",
+  "timestamp": "2026-03-24T04:25:19.193574",
   "results": [
     {
       "podcast": "Moonshots with Peter Diamandis",
@@ -12,20 +12,27 @@
       "podcast": "Monetary Matters with Jack Farley",
       "title": "\u201cNot Until May\u201d The Real Timeline for Controlling the Strait of Hormuz | Nadia Martin Wiggen Svelland Capital",
       "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/EWWMN4705722225.mp3",
-      "transcript_path": null,
-      "success": false
+      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/EWWMN4705722225.txt",
+      "success": true
     },
     {
       "podcast": "The a16z Show",
       "title": "Why Every Satellite Needs Earth | Northwood CEO on a16z",
       "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_20260323_6cadc4a7_084f_42d7_900b_567c96cb.mp3",
-      "transcript_path": null,
-      "success": false
+      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/the_a16z_show_20260323_6cadc4a7_084f_42d7_900b_567c96cb.txt",
+      "success": true
     },
     {
       "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
       "title": "Four CEOs on the Future of AI: CoreWeave, Perplexity, Mistral, and IREN",
       "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/GTC_CEOs_F1AUDIO_Ch.mp3",
+      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/GTC_CEOs_F1AUDIO_Ch.txt",
+      "success": true
+    },
+    {
+      "podcast": "The Jack Mallers Show",
+      "title": "When the Music Stops: Why Bitcoin Is Next",
+      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-2-24%2F420652061-44100-2-d86731987406.mp3",
       "transcript_path": null,
       "success": false
     }

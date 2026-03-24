@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-03-23T22:00:37.118170",
-  "total_feed_episodes": 9,
-  "approved_for_transcription": 9,
+  "timestamp": "2026-03-24T04:25:05.888172",
+  "total_feed_episodes": 10,
+  "approved_for_transcription": 10,
   "episodes": [
     {
       "podcast": "Moonshots with Peter Diamandis",
@@ -37,10 +37,10 @@
       "published": "Mon, 23 Mar 2026 23:38:00 -0000",
       "published_date": "2026-03-23",
       "rss_guid": "76483734-2711-11f1-aa51-0f5a5325be52",
+      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/EWWMN4705722225.mp3",
+      "filename": "EWWMN4705722225.mp3",
       "status": "APPROVED",
-      "matched_keywords": [],
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/monetary_matters_with_jack_farley__not_until_may__the_real_timeline_for_controlling_the_strait_681c6faa.mp3",
-      "filename": "monetary_matters_with_jack_farley__not_until_may__the_real_timeline_for_controlling_the_strait_681c6faa.mp3"
+      "matched_keywords": []
     },
     {
       "podcast": "Monetary Matters with Jack Farley",
@@ -102,10 +102,23 @@
       "published": "Mon, 23 Mar 2026 18:07:00 +0000",
       "published_date": "2026-03-23",
       "rss_guid": "d11608c8-9fb6-4efc-9917-36ead826d1f1",
+      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/GTC_CEOs_F1AUDIO_Ch.mp3",
+      "filename": "GTC_CEOs_F1AUDIO_Ch.mp3",
+      "status": "APPROVED",
+      "matched_keywords": []
+    },
+    {
+      "podcast": "The Jack Mallers Show",
+      "title": "When the Music Stops: Why Bitcoin Is Next",
+      "description": "<p>Streaming live Mondays at 6pm ET on The Jack Mallers Show YouTube channel.</p>\n",
+      "audio_url": "https://anchor.fm/s/e29097f4/podcast/play/117392450/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-2-24%2F420652061-44100-2-d86731987406.mp3",
+      "published": "Tue, 24 Mar 2026 07:54:42 GMT",
+      "published_date": "2026-03-24",
+      "rss_guid": "f489e0ff-a1d1-4857-806c-de656ae8a250",
       "status": "APPROVED",
       "matched_keywords": [],
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/all_in_with_chamath__jason__sacks___frie_four_ceos_on_the_future_of_ai__coreweave__perplexity__mistra_ea16357e.mp3",
-      "filename": "all_in_with_chamath__jason__sacks___frie_four_ceos_on_the_future_of_ai__coreweave__perplexity__mistra_ea16357e.mp3"
+      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/the_jack_mallers_show_when_the_music_stops__why_bitcoin_is_next_28977b47.mp3",
+      "filename": "the_jack_mallers_show_when_the_music_stops__why_bitcoin_is_next_28977b47.mp3"
     },
     {
       "podcast": "Dwarkesh Podcast",

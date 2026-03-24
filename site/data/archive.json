@@ -24,6 +24,66 @@
       "podcast_episode_id": 95
     },
     {
+      "id": 114,
+      "title": "Ground Infrastructure: The Overlooked Bottleneck in the Space Economy",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-03-23",
+      "summary": "In this episode of the a16z Show, Bridget Memplar, co-founder and CEO of Northwood, discusses the importance of ground infrastructure in the space economy. Northwood is a company that builds systems to connect satellites back to Earth, making space missions useful. Bridget shares her unconventional path into the space industry and how a modern, vertically integrated approach could unlock the next wave of innovation in space. The conversation touches on the importance of resilience in ground stations, the potential of inner satellite links, and the analogy of the space economy to the early internet.",
+      "key_takeaway": "Investing in ground infrastructure for space can unlock the next wave of innovation, making space missions more useful and efficient.",
+      "tickers_mentioned": [
+        "AAPL",
+        "TSLA",
+        "MSFT",
+        "AMZN"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-24",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 99
+    },
+    {
+      "id": 115,
+      "title": "Interview with Michael Intrader at Nvidia's GTC Conference",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-03-23",
+      "summary": "The podcast features an interview with Michael Intrader, CEO of Core Weave, at Nvidia's GTC conference. The discussion revolves around the evolution of Core Weave, its early foray into crypto mining, and the subsequent expansion into various use cases for GPUs, including CGI rendering, medical research, and neural networks. The conversation also touches on the company's approach to AI, the specialization of AI models, and the potential impact of new energy sources like nuclear power on the industry.",
+      "key_takeaway": "Invest in companies that can leverage the evolving landscape of AI and GPU computing, particularly those with the agility to adapt and scale in a rapidly changing market.",
+      "tickers_mentioned": [
+        "NVDA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-24",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 98
+    },
+    {
+      "id": 116,
+      "title": "Monetary Matters: Middle East Crisis and Global Market Impact",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-03-23",
+      "summary": "In this special edition of 'Other People's Money', host Jack Farley interviews Nadia Martin Wiggen, director at Svellen Capital, a hedge fund specializing in commodities and shipping markets. They discuss the impact of the Middle East crisis on global markets, focusing on oil prices, shipping logistics, and the potential for stagflation. Nadia provides insights into the practicality of Trump's announcements, the control of the Strait of Hormuz, and the market's reaction to escalating tensions. The conversation also touches on the behavior of different commodities, the potential for port congestion, and the implications for emerging markets.",
+      "key_takeaway": "Svellen Capital sees opportunities in commodities and shipping markets amidst the Middle East crisis, with a focus on the practical implications of geopolitical events on global trade and logistics.",
+      "tickers_mentioned": [
+        "C.O.R.N"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-24",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 97
+    },
+    {
       "id": 113,
       "title": "Monetary Matters with Jack Farley: Impact of Iran War on Fertilizer Prices and Agriculture",
       "source_type": "podcast",
@@ -96,11 +156,11 @@
         "HFGM"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-18",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-24",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 76
     },
     {
@@ -116,11 +176,11 @@
         "WTI CRUDE OIL"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-20",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-24",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 91
     },
     {
@@ -135,11 +195,11 @@
         "NVDA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-20",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-24",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 90
     },
     {

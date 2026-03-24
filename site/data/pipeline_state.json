@@ -1,29 +1,31 @@
 {
-  "generated_at": "2026-03-23T22:06:46.911392",
-  "last_updated": "2026-03-23T22:06:46.911392",
-  "last_pipeline_run": "2026-03-23T22:06:46.911392",
+  "generated_at": "2026-03-24T04:50:30.453542",
+  "last_updated": "2026-03-24T04:50:30.453542",
+  "last_pipeline_run": "2026-03-24T04:50:30.453542",
   "main_page": {
     "overton": 8,
     "insights": 8,
     "pundits": 20
   },
   "counts": {
-    "ticker_mentions": 139,
-    "podcast_episodes": 71,
+    "ticker_mentions": 140,
+    "podcast_episodes": 74,
     "newsletters": 7,
-    "daily_scores": 77,
+    "daily_scores": 78,
     "overton_terms_total": 16,
-    "latest_insights_total": 87,
-    "today_mentions": {},
-    "podcasts_analyzed": 2
+    "latest_insights_total": 90,
+    "today_mentions": {
+      "podcast": 1
+    },
+    "podcasts_analyzed": 3
   },
   "step_results": {
-    "downloaded": 6,
-    "transcribed": 6,
-    "analyzed": 6,
-    "insight_created": 0,
-    "published": 2,
-    "total": 9
+    "downloaded": 7,
+    "transcribed": 7,
+    "analyzed": 7,
+    "insight_created": 3,
+    "published": 4,
+    "total": 10
   },
   "episodes": [
     {
@@ -66,21 +68,18 @@
     {
       "id": "76483734-2711-11f1-aa51-0f5a5325be52",
       "podcast": "Monetary Matters with Jack Farley",
-      "title": "Monetary Matters: Economic Consequences of War and AI's Impact",
+      "title": "Monetary Matters: Middle East Crisis and Global Market Impact",
       "published": "2026-03-23",
       "rss_guid": "76483734-2711-11f1-aa51-0f5a5325be52",
       "stages": {
         "downloaded": true,
         "transcribed": true,
         "analyzed": true,
-        "insight_created": false,
-        "published": false
+        "insight_created": true,
+        "published": true
       },
-      "stage_reasons": {
-        "insight_created": "No latest_insights row for this episode (insight step not reflected in DB yet).",
-        "published": "added_to_site=0 (export/publish step not reflected in DB yet)."
-      },
-      "status": "needs_insight"
+      "stage_reasons": {},
+      "status": "complete"
     },
     {
       "id": "e3ce0ba4-22dd-11f1-b3e1-ef93882cc84d",
@@ -107,21 +106,18 @@
     {
       "id": "6cadc4a7-084f-42d7-900b-567c96cb425b",
       "podcast": "The a16z Show",
-      "title": "The Intersection of Technology, Geopolitics, and National Defense",
+      "title": "Ground Infrastructure: The Overlooked Bottleneck in the Space Economy",
       "published": "2026-03-23",
       "rss_guid": "6cadc4a7-084f-42d7-900b-567c96cb425b",
       "stages": {
         "downloaded": true,
         "transcribed": true,
         "analyzed": true,
-        "insight_created": false,
-        "published": false
+        "insight_created": true,
+        "published": true
       },
-      "stage_reasons": {
-        "insight_created": "No latest_insights row for this episode (insight step not reflected in DB yet).",
-        "published": "added_to_site=0 (export/publish step not reflected in DB yet)."
-      },
-      "status": "needs_insight"
+      "stage_reasons": {},
+      "status": "complete"
     },
     {
       "id": "1e92a9dd-78da-4417-b1ce-4b4318d1f8c4",
@@ -167,18 +163,35 @@
     {
       "id": "d11608c8-9fb6-4efc-9917-36ead826d1f1",
       "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "title": "AI Factory and the Future of Computing",
+      "title": "Interview with Michael Intrader at Nvidia's GTC Conference",
       "published": "2026-03-23",
       "rss_guid": "d11608c8-9fb6-4efc-9917-36ead826d1f1",
       "stages": {
         "downloaded": true,
         "transcribed": true,
         "analyzed": true,
-        "insight_created": false,
+        "insight_created": true,
         "published": true
       },
+      "stage_reasons": {},
+      "status": "complete"
+    },
+    {
+      "id": "f489e0ff-a1d1-4857-806c-de656ae8a250",
+      "podcast": "The Jack Mallers Show",
+      "title": "AI Breaking the System and What It Means for Bitcoin",
+      "published": "2026-03-24",
+      "rss_guid": "f489e0ff-a1d1-4857-806c-de656ae8a250",
+      "stages": {
+        "downloaded": true,
+        "transcribed": true,
+        "analyzed": true,
+        "insight_created": false,
+        "published": false
+      },
       "stage_reasons": {
-        "insight_created": "No latest_insights row for this episode (insight step not reflected in DB yet)."
+        "insight_created": "No latest_insights row for this episode (insight step not reflected in DB yet).",
+        "published": "added_to_site=0 (export/publish step not reflected in DB yet)."
       },
       "status": "needs_insight"
     },
@@ -207,24 +220,10 @@
   ],
   "available_from_rss": [
     {
-      "podcast": "Monetary Matters with Jack Farley",
-      "title": "\u201cNot Until May\u201d The Real Timeline for Controlling the Strait of Hormuz | Nadia Martin Wiggen Svelland Capital",
-      "published": "Mon, 23 Mar 2026 23:38:00 -0000",
-      "published_date": "2026-03-23",
-      "rss_guid": ""
-    },
-    {
-      "podcast": "The a16z Show",
-      "title": "Why Every Satellite Needs Earth | Northwood CEO on a16z",
-      "published": "Mon, 23 Mar 2026 20:02:21 +0000",
-      "published_date": "2026-03-23",
-      "rss_guid": ""
-    },
-    {
-      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "title": "Four CEOs on the Future of AI: CoreWeave, Perplexity, Mistral, and IREN",
-      "published": "Mon, 23 Mar 2026 18:07:00 +0000",
-      "published_date": "2026-03-23",
+      "podcast": "The Jack Mallers Show",
+      "title": "When the Music Stops: Why Bitcoin Is Next",
+      "published": "Tue, 24 Mar 2026 07:54:42 GMT",
+      "published_date": "2026-03-24",
       "rss_guid": ""
     },
     {
@@ -270,7 +269,7 @@
       "title": "Moonshots Podcast Episode #231 - OpenAI Acquires OpenClaw, 400x Cost Collapse, & Why India Wins the Talent War",
       "status": "needs_insight",
       "published": "2026-03-21",
-      "age_days": 2,
+      "age_days": 3,
       "next_blocker": "insight_created"
     },
     {
@@ -279,7 +278,7 @@
       "title": "Meta Buys Moltbook GPT 5.4 and Fruitfly Brain Upload",
       "status": "needs_insight",
       "published": "2026-03-17",
-      "age_days": 6,
+      "age_days": 7,
       "next_blocker": "insight_created"
     },
     {
@@ -288,7 +287,7 @@
       "title": "Stock Market on Shaky Foundations | Blind Squirrel Macro\u2019s Rupert Mitchell on IPO Supply, Oil, and Private Credit",
       "status": "needs_download",
       "published": "2026-03-18",
-      "age_days": 5,
+      "age_days": 6,
       "next_blocker": "downloaded"
     },
     {
@@ -297,7 +296,7 @@
       "title": "AI Startups and the Future of Technology",
       "status": "needs_insight",
       "published": "2026-03-19",
-      "age_days": 4,
+      "age_days": 5,
       "next_blocker": "insight_created"
     },
     {
@@ -306,7 +305,7 @@
       "title": "Chris Dixon: From Quant Trading to Building a16z Crypto",
       "status": "needs_download",
       "published": "2026-03-02",
-      "age_days": 21,
+      "age_days": 22,
       "next_blocker": "downloaded"
     },
     {
@@ -315,7 +314,7 @@
       "title": "Why Leonardo was a saboteur, Gutenberg went broke, and Florence was weird \u2013 Ada Palmer",
       "status": "needs_download",
       "published": "2026-03-06",
-      "age_days": 17,
+      "age_days": 18,
       "next_blocker": "downloaded"
     }
   ],

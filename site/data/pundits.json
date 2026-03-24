@@ -1,5 +1,180 @@
 [
   {
+    "id": 108,
+    "name": "Bridget Memplar",
+    "slug": "bridget-memplar",
+    "bio": "Bridget Memplar is the co-founder and CEO of Northwood, a company focused on building systems that connect satellites back to Earth. Her unconventional path into the space industry has led her to become a key player in addressing the overlooked bottleneck of ground infrastructure in space missions.",
+    "known_for": "Her leadership at Northwood and the development of systems that enable satellite connectivity back to Earth.",
+    "net_worth_usd": 50000000.0,
+    "net_worth_source": "https://www.celebritynetworth.com/richest-celebrities/actors/bridgit-mendler-net-worth/",
+    "net_worth_updated_at": "2026-03-24T04:43:12.487260",
+    "voice_tone": "Confident and determined.",
+    "voice_style": "Bridget speaks with a focus on innovation and the potential of space technology.",
+    "voice_delivery_notes": "Clear and concise, with an emphasis on the importance of ground infrastructure in space missions.",
+    "voice_profile_updated_at": "2026-03-24 09:39:24",
+    "last_seen": "2026-03-24 09:39:24",
+    "last_episode_title": "Ground Infrastructure: The Overlooked Bottleneck in the Space Economy",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-03-23",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investing in ground infrastructure for space can unlock the next wave of innovation, making space missions more useful and efficient.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-24T04:43:11.153707",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Bridget Memplar",
+      "fetched_at": "2026-03-24T09:43:11.153311+00:00",
+      "cliff_notes": "Bridget Memplar embarked on an unconventional path into the space industry, eventually becoming the co-founder and CEO of Northwood. Her company is dedicated to building systems that connect satellites back to Earth, a critical yet often overlooked aspect of space missions. Memplar's leadership at Northwood is focused on addressing the ground infrastructure bottleneck, which is essential for making space missions useful and effective. Her work is pivotal in the space economy, as it aims to provide a modern, vertically integrated approach to satellite connectivity, potentially unlocking the next wave of innovation in space.",
+      "derived": {
+        "current_role": "Co-founder and CEO of Northwood"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Bridget Memplar embarked on an unconventional path into the space industry, eventually becoming the co-founder and CEO of Northwood. Her company is dedicated to building systems that connect satellites back to Earth, a critical yet often overlooked aspect of space missions. Memplar's leadership at Northwood is focused on addressing the ground infrastructure bottleneck, which is essential for making space missions useful and effective.",
+        "Her work is pivotal in the space economy, as it aims to provide a modern, vertically integrated approach to satellite connectivity, potentially unlocking the next wave of innovation in space."
+      ],
+      "sections": [
+        {
+          "heading": "Northwood's Mission",
+          "body": "Northwood, under Memplar's leadership, is committed to building the systems that connect satellites back to Earth, which is crucial for the success of space missions."
+        },
+        {
+          "heading": "Ground Infrastructure",
+          "body": "Bridget Memplar has identified ground infrastructure as a significant bottleneck in the space economy and is working to modernize it through Northwood's innovative solutions."
+        },
+        {
+          "heading": "Innovation in Space",
+          "body": "Memplar's work at Northwood is aimed at not just incremental improvements but at achieving a categorical outcome in space mission capabilities through enhanced ground connectivity."
+        }
+      ]
+    },
+    "net_worth": "$50.0M"
+  },
+  {
+    "id": 107,
+    "name": "Michael Intrader",
+    "slug": "michael-intrader",
+    "bio": "Michael Intrader is the CEO of Core Weave, a company building infrastructure for hyper-scalers and adapting to the evolving needs of GPU computing. With a background in hedge fund algorithm development and early involvement in the crypto mining space, Intrader has been at the forefront of technological advancements in cloud computing and AI.",
+    "known_for": "Building massive infrastructure for hyper-scalers and being an early entrant in the crypto mining space.",
+    "net_worth_usd": 23.0,
+    "net_worth_source": "https://shadabchow.com/blogs/billionaire/michael-intrator",
+    "net_worth_updated_at": "2026-03-24T04:44:00.170439",
+    "voice_tone": "Confident and informative, with a focus on the company's strategic evolution.",
+    "voice_style": "Direct and factual, providing insights into the company's operations and market positioning.",
+    "voice_delivery_notes": "Paced with emphasis on the company's adaptability and future outlook.",
+    "voice_profile_updated_at": "2026-03-24 09:37:15",
+    "last_seen": "2026-03-24 09:37:15",
+    "last_episode_title": "Interview with Michael Intrader at Nvidia's GTC Conference",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-03-23",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in companies that can leverage the evolving landscape of AI and GPU computing, particularly those with the agility to adapt and scale in a rapidly changing market.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-24T04:43:59.032721",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Michael Intrader",
+      "fetched_at": "2026-03-24T09:43:59.032494+00:00",
+      "cliff_notes": "Michael Intrader began his career as an algorithm developer at a hedge fund focused on natural gas. With a significant amount of downtime after developing the algorithms, Intrader ventured into the crypto mining space, becoming an early entrant in the industry. Leveraging his experience in algorithm development and the growing need for GPU computing, Intrader founded Core Weave, a company that builds massive infrastructure for hyper-scalers. Core Weave has been instrumental in adapting to the evolving needs of GPU computing, particularly in the context of AI and cloud computing. Intrader's work at Core Weave has positioned him as a key player in the tech industry, shaping the future of cloud infrastructure and GPU computing.",
+      "derived": {
+        "current_role": "CEO of Core Weave",
+        "former_positions": "Algorithm Developer at Hedge Fund; Early Crypto Miner"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Michael Intrader began his career as an algorithm developer at a hedge fund focused on natural gas. With a significant amount of downtime after developing the algorithms, Intrader ventured into the crypto mining space, becoming an early entrant in the industry. Leveraging his experience in algorithm development and the growing need for GPU computing, Intrader founded Core Weave, a company that builds massive infrastructure for hyper-scalers.",
+        "Core Weave has been instrumental in adapting to the evolving needs of GPU computing, particularly in the context of AI and cloud computing. Intrader's work at Core Weave has positioned him as a key player in the tech industry, shaping the future of cloud infrastructure and GPU computing."
+      ],
+      "sections": [
+        {
+          "heading": "Early Crypto Mining",
+          "body": "Michael Intrader was an early entrant in the crypto mining space, leveraging his background in algorithm development to pioneer advancements in the industry."
+        },
+        {
+          "heading": "GPU Computing",
+          "body": "Intrader's work at Core Weave has been crucial in adapting to the evolving needs of GPU computing, particularly in the context of AI and cloud computing."
+        },
+        {
+          "heading": "Hyper-Scaler Infrastructure",
+          "body": "As CEO of Core Weave, Intrader has been instrumental in building massive infrastructure for hyper-scalers, shaping the future of cloud computing."
+        }
+      ]
+    },
+    "net_worth": "$23"
+  },
+  {
+    "id": 106,
+    "name": "Nadia Martin Wiggen",
+    "slug": "nadia-martin-wiggen",
+    "bio": "Nadia Martin Wiggen is a director at Svellen Capital, a hedge fund with a specialization in commodities and shipping markets. Her expertise is particularly relevant in times of global market fluctuations, such as during the Middle East crisis, where her insights are sought after for understanding market impacts.",
+    "known_for": "Expertise in commodities and shipping markets, especially during times of geopolitical tension.",
+    "net_worth_usd": 750000000.0,
+    "net_worth_source": "https://hedgenordic.com/2023/06/svelland-capital-hires-pareto-analyst/",
+    "net_worth_updated_at": "2026-03-24T04:44:37.173364",
+    "voice_tone": "Analytical and measured.",
+    "voice_style": "Factual and data-driven, with a focus on market reactions and practical implications.",
+    "voice_delivery_notes": "Paced, with emphasis on key market observations and potential outcomes.",
+    "voice_profile_updated_at": "2026-03-24 09:26:22",
+    "last_seen": "2026-03-24 09:26:22",
+    "last_episode_title": "Monetary Matters: Middle East Crisis and Global Market Impact",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-03-23",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Svellen Capital sees opportunities in commodities and shipping markets amidst the Middle East crisis, with a focus on the practical implications of geopolitical events on global trade and logistics.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-24T04:44:35.945959",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Nadia Martin Wiggen",
+      "fetched_at": "2026-03-24T09:44:35.945751+00:00",
+      "cliff_notes": "Nadia Martin Wiggen is recognized for her role as a director at Svellen Capital, a hedge fund that focuses on commodities and shipping markets. Her career has been marked by her ability to navigate and analyze the complexities of these markets, especially during times of geopolitical tension. Her insights are highly valued in the investment community, as they provide a lens through which to understand the broader impacts of global events on financial markets. As a specialist in her field, Wiggen's contributions are pivotal in shaping investment strategies and risk assessments in a rapidly changing economic landscape.",
+      "derived": {
+        "current_role": "Director at Svellen Capital"
+      },
+      "infobox": {
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Nadia Martin Wiggen is recognized for her role as a director at Svellen Capital, a hedge fund that focuses on commodities and shipping markets. Her career has been marked by her ability to navigate and analyze the complexities of these markets, especially during times of geopolitical tension. Her insights are highly valued in the investment community, as they provide a lens through which to understand the broader impacts of global events on financial markets.",
+        "As a specialist in her field, Wiggen's contributions are pivotal in shaping investment strategies and risk assessments in a rapidly changing economic landscape."
+      ],
+      "sections": [
+        {
+          "heading": "Commodities Expertise",
+          "body": "Nadia Martin Wiggen is known for her deep understanding of commodities markets, which is crucial for investors looking to understand and capitalize on global market trends."
+        },
+        {
+          "heading": "Shipping Markets",
+          "body": "Her expertise extends to shipping markets, a sector heavily influenced by geopolitical events, where her insights help navigate the complexities of supply chain disruptions."
+        },
+        {
+          "heading": "Geopolitical Impact",
+          "body": "Wiggen's role at Svellen Capital often involves analyzing the impact of geopolitical events, such as the Middle East crisis, on commodities and shipping markets."
+        },
+        {
+          "heading": "Market Analysis",
+          "body": "She provides critical analysis on how major announcements, like those from political leaders, can influence market dynamics in her area of expertise."
+        }
+      ]
+    },
+    "net_worth": "$750.0M"
+  },
+  {
     "id": 105,
     "name": "Josh Lindville",
     "slug": "josh-lindville",
@@ -17,7 +192,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-22",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "The disruption in fertilizer supply due to geopolitical tensions presents an opportunity in agricultural commodities, particularly corn, which is heavily impacted by rising input costs and could see price support from tightened supply.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-23T04:22:03.060297",
@@ -71,7 +246,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-23",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Invest in innovation and infrastructure to create a smarter grid and incentivize clean energy adoption, while avoiding over-regulation that leads to unintended economic and environmental consequences.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-23T04:22:21.245588",
@@ -132,7 +307,7 @@
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-03-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "The integration of AI into mathematics can accelerate discovery and problem-solving, presenting opportunities for investment in AI technology and its applications in scientific research.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-21T04:32:04.005767",
@@ -187,7 +362,7 @@
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-03-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "The ongoing Iran conflict may lead to a secular inflation cycle, with oil prices being a key catalyst. Investors should monitor shifts in commodities, credit, and the yield curve for potential macroeconomic impacts.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:35:48.845381",
@@ -244,7 +419,7 @@
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-03-19",
     "mention_score": 2,
-    "mention_score_decayed": 1.87,
+    "mention_score_decayed": 1.82,
     "last_main_idea": "The ongoing Iran conflict may lead to a secular inflation cycle, with oil prices being a key catalyst. Investors should monitor shifts in commodities, credit, and the yield curve for potential macroeconomic impacts.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:36:30.218908",
@@ -300,7 +475,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "NVIDIA's strategic acquisitions and technological advancements position it as a leader in the AI revolution, offering investors exposure to the growing AI factory industry.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:40:52.368193",
@@ -362,7 +537,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-02-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Invest in sectors with fertile ground for short selling, such as tech and AI, and consider undervalued areas like junior mining for potential alpha.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:42:09.376490",
@@ -424,7 +599,7 @@
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-02-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Investing in AI and robotics companies that leverage neural networks for autonomous manufacturing could yield significant returns as this market is expected to become the largest economy globally.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-19T22:16:04.041005",
@@ -485,7 +660,7 @@
     "last_podcast_name": "a16z Live",
     "last_episode_date": "2026-02-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Invest in companies that are at the forefront of developing AI-enabled, immersive technologies that can redefine consumer interactions beyond the current app-centric model.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-19T22:17:07.326933",
@@ -544,7 +719,7 @@
     "last_podcast_name": null,
     "last_episode_date": null,
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": null,
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-19T22:17:58.321307",
@@ -1007,181 +1182,5 @@
         }
       ]
     }
-  },
-  {
-    "id": 74,
-    "name": "Travis Kalanick",
-    "slug": "travis-kalanick",
-    "bio": "Travis Kalanick is an entrepreneur known for his work in the transportation and food delivery sectors. He is the founder of Cloud Kitchens and the former CEO of Uber. Kalanick has been an influential figure in the tech industry, particularly in the sharing economy.",
-    "known_for": "His role in revolutionizing transportation and food delivery through Uber and Cloud Kitchens.",
-    "net_worth_usd": 3600000000.0,
-    "net_worth_source": "https://finance.yahoo.com/news/uber-founder-travis-kalanick-becomes-201906670.html",
-    "net_worth_updated_at": "2026-03-19T15:49:00.323498",
-    "voice_tone": "",
-    "voice_style": "",
-    "voice_delivery_notes": "",
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-03-17 10:15:16",
-    "last_episode_title": "Stealth Startups and the Digitization of the Physical World",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-03-17",
-    "mention_score": 1,
-    "mention_score_decayed": 0.87,
-    "last_main_idea": "Invest in companies that are digitizing the physical world and transforming traditional industries through technology.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-19T21:22:31.110715",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Travis Kalanick",
-      "fetched_at": "2026-03-20T02:22:31.110604+00:00",
-      "cliff_notes": "Travis Kalanick is an American entrepreneur who co-founded Uber, a ridesharing company that revolutionized urban transportation. Born in Los Angeles, Kalanick studied computer engineering at UCLA before dropping out to pursue his entrepreneurial ambitions. He founded Scour, a file-sharing service, and later Red Swoosh, a content delivery network. After selling Red Swoosh, Kalanick co-founded Uber in 2009, which grew to become a global transportation giant. Despite stepping down as CEO in 2017, he remained on the board until 2019. Kalanick then founded Cloud Kitchens, a company that operates delivery-only kitchens for restaurants. His ventures have significantly impacted the tech and transportation sectors, shaping the modern sharing economy.",
-      "derived": {
-        "current_role": "Founder of Cloud Kitchens",
-        "former_positions": "Co-founder and CEO of Uber",
-        "education": "Bachelor's degree in Computer Engineering from the University of California, Los Angeles (UCLA)"
-      },
-      "infobox": {
-        "Born": "1976",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Travis Kalanick is an American entrepreneur who co-founded Uber, a ridesharing company that revolutionized urban transportation. Born in Los Angeles, Kalanick studied computer engineering at UCLA before dropping out to pursue his entrepreneurial ambitions. He founded Scour, a file-sharing service, and later Red Swoosh, a content delivery network.",
-        "After selling Red Swoosh, Kalanick co-founded Uber in 2009, which grew to become a global transportation giant. Despite stepping down as CEO in 2017, he remained on the board until 2019. Kalanick then founded Cloud Kitchens, a company that operates delivery-only kitchens for restaurants. His ventures have significantly impacted the tech and transportation sectors, shaping the modern sharing economy."
-      ],
-      "sections": [
-        {
-          "heading": "Uber",
-          "body": "Kalanick co-founded Uber in 2009, which grew to become a global transportation giant, transforming urban mobility and the gig economy."
-        },
-        {
-          "heading": "Cloud Kitchens",
-          "body": "After leaving Uber, Kalanick founded Cloud Kitchens, a company that operates delivery-only kitchens for restaurants, further disrupting the food delivery sector."
-        },
-        {
-          "heading": "Influence on Sharing Economy",
-          "body": "Travis Kalanick's ventures have had a significant impact on the sharing economy, influencing the way people think about transportation and food delivery services."
-        }
-      ]
-    },
-    "net_worth": "$3.60B"
-  },
-  {
-    "id": 75,
-    "name": "Michael Dell",
-    "slug": "michael-dell",
-    "bio": "Michael Dell is an American businessman and philanthropist, best known as the founder and CEO of Dell Technologies, one of the world's largest technology infrastructure companies.",
-    "known_for": "Building one of the world's largest technology infrastructure companies and being an influential figure in the tech industry.",
-    "net_worth_usd": 37600000000.0,
-    "net_worth_source": "https://www.wikidata.org/wiki/Q218630",
-    "net_worth_updated_at": "2026-03-19T15:06:02.916452",
-    "voice_tone": "",
-    "voice_style": "",
-    "voice_delivery_notes": "",
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-03-17 10:15:16",
-    "last_episode_title": "Stealth Startups and the Digitization of the Physical World",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-03-17",
-    "mention_score": 1,
-    "mention_score_decayed": 0.87,
-    "last_main_idea": "Invest in companies that are digitizing the physical world and transforming traditional industries through technology.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-19T21:22:53.714266",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Michael Dell",
-      "fetched_at": "2026-03-20T02:22:53.714063+00:00",
-      "cliff_notes": "Michael Dell founded Dell Technologies in 1984, originally named PCs Limited, at the age of 19. The company quickly grew to become one of the leading computer technology providers, specializing in manufacturing and selling personal computers, servers, and storage devices. Dell's innovative direct-sales model allowed customers to order custom-configured PCs, which streamlined the supply chain and reduced costs. Over the years, Dell Technologies expanded through acquisitions and strategic partnerships, becoming a multinational technology giant. Michael Dell's leadership and vision have been instrumental in shaping the company's success and its impact on the tech industry.",
-      "derived": {
-        "current_role": "Founder and CEO of Dell Technologies",
-        "education": "University of Texas at Austin; dropped out to focus on his business"
-      },
-      "infobox": {
-        "Born": "February 23, 1965",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Michael Dell founded Dell Technologies in 1984, originally named PCs Limited, at the age of 19. The company quickly grew to become one of the leading computer technology providers, specializing in manufacturing and selling personal computers, servers, and storage devices. Dell's innovative direct-sales model allowed customers to order custom-configured PCs, which streamlined the supply chain and reduced costs.",
-        "Over the years, Dell Technologies expanded through acquisitions and strategic partnerships, becoming a multinational technology giant. Michael Dell's leadership and vision have been instrumental in shaping the company's success and its impact on the tech industry."
-      ],
-      "sections": [
-        {
-          "heading": "Dell Technologies",
-          "body": "Michael Dell founded Dell Technologies in 1984, which grew to become one of the world's largest technology infrastructure companies. The company is known for its innovative direct-sales model and its wide range of computer technology products."
-        },
-        {
-          "heading": "Innovation and Growth",
-          "body": "Under Michael Dell's leadership, Dell Technologies has been at the forefront of technological innovation, constantly expanding its product offerings and market reach. The company's growth has been driven by strategic acquisitions, such as the acquisition of EMC Corporation in 2016, which significantly broadened its portfolio."
-        },
-        {
-          "heading": "Philanthropy",
-          "body": "Michael Dell is also known for his philanthropic efforts. Through the Michael & Susan Dell Foundation, he has made significant contributions to various causes, including education, urban health, and family economic stability."
-        }
-      ]
-    },
-    "net_worth": "$37.60B"
-  },
-  {
-    "id": 73,
-    "name": "Sam Altman",
-    "slug": "sam-altman",
-    "bio": "Sam Altman is a prominent figure in the tech industry, known for his work in startup incubation and contributions to artificial intelligence. He is currently the President of Y Combinator and Co-Chair of OpenAI. Altman has been influential in shaping the future of technology and entrepreneurship.",
-    "known_for": "His leadership in startup incubation and his role in advancing artificial intelligence through OpenAI.",
-    "net_worth_usd": 2100000000.0,
-    "net_worth_source": "https://en.wikipedia.org/wiki/Sam_Altman",
-    "net_worth_updated_at": "2026-03-19T15:49:02.565192",
-    "voice_tone": "",
-    "voice_style": "",
-    "voice_delivery_notes": "",
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-03-17 03:03:31",
-    "last_episode_title": "The AI CEO Arrives: Sam Altman's Succession Plan, Job Loss Continues, and Our 2027 'Solve Everything' Paper",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-02-17",
-    "mention_score": 1,
-    "mention_score_decayed": 0.85,
-    "last_main_idea": "Invest in AI and automation technologies that are driving the shift towards AI governance and efficiency in business operations.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-19T21:23:16.367259",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Sam Altman",
-      "fetched_at": "2026-03-20T02:23:16.367009+00:00",
-      "cliff_notes": "Sam Altman is an American entrepreneur and investor who has made significant contributions to the fields of startup incubation and artificial intelligence. He began his career in tech by founding Loopt, a location-based social network, which was later sold. Altman then joined Y Combinator, a startup accelerator, where he rose to become its President. In this role, he has been instrumental in nurturing and launching numerous successful startups. Concurrently, Altman co-founded OpenAI, a research laboratory focused on ensuring that artificial general intelligence benefits humanity. His work in both these domains has positioned him as a key player in the tech industry, influencing the trajectory of entrepreneurship and AI development.",
-      "derived": {
-        "current_role": "President of Y Combinator; Co-Chair of OpenAI",
-        "former_positions": "President of Y Combinator; Co-Chair of OpenAI",
-        "education": "Stanford University; dropout"
-      },
-      "infobox": {
-        "Born": "1985",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Sam Altman is an American entrepreneur and investor who has made significant contributions to the fields of startup incubation and artificial intelligence. He began his career in tech by founding Loopt, a location-based social network, which was later sold. Altman then joined Y Combinator, a startup accelerator, where he rose to become its President.",
-        "In this role, he has been instrumental in nurturing and launching numerous successful startups. Concurrently, Altman co-founded OpenAI, a research laboratory focused on ensuring that artificial general intelligence benefits humanity. His work in both these domains has positioned him as a key player in the tech industry, influencing the trajectory of entrepreneurship and AI development."
-      ],
-      "sections": [
-        {
-          "heading": "Startup Incubation",
-          "body": "Sam Altman has been a driving force in the startup ecosystem, particularly through his leadership at Y Combinator, which has helped launch and scale many successful companies."
-        },
-        {
-          "heading": "Artificial Intelligence",
-          "body": "Altman co-founded OpenAI, a research organization dedicated to the responsible development and application of AI technologies, ensuring they are aligned with the interests of humanity."
-        },
-        {
-          "heading": "Future of Work",
-          "body": "Altman has expressed views on the future of work, particularly in relation to AI and automation, suggesting that the next few years will be pivotal in setting the course for the next century."
-        }
-      ]
-    },
-    "net_worth": "$2.10B"
   }
 ]

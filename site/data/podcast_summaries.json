@@ -1,5 +1,60 @@
 [
   {
+    "id": 99,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Ground Infrastructure: The Overlooked Bottleneck in the Space Economy",
+    "episode_date": "2026-03-23",
+    "summary": "In this episode of the a16z Show, Bridget Memplar, co-founder and CEO of Northwood, discusses the importance of ground infrastructure in the space economy. Northwood is a company that builds systems to connect satellites back to Earth, making space missions useful. Bridget shares her unconventional path into the space industry and how a modern, vertically integrated approach could unlock the next wave of innovation in space. The conversation touches on the importance of resilience in ground stations, the potential of inner satellite links, and the analogy of the space economy to the early internet.",
+    "key_takeaways": [
+      "Ground infrastructure is a critical yet overlooked bottleneck in the space economy.",
+      "Northwood aims to modernize and vertically integrate ground systems to connect satellites back to Earth.",
+      "Bridget Memplar's career path was driven by curiosity and a pursuit of excellence in various domains.",
+      "Inner satellite links are seen as complementary to ground station business models, reducing latency and friction in data transmission.",
+      "Resilience in ground stations is addressed through proliferation, making them cheaper, faster to deploy, and more volume-manufactured.",
+      "The space economy is compared to the early internet, with the potential for significant innovation and disruption."
+    ],
+    "investment_thesis": "Investing in ground infrastructure for space can unlock the next wave of innovation, making space missions more useful and efficient.",
+    "key_tickers": null
+  },
+  {
+    "id": 98,
+    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "episode_title": "Interview with Michael Intrader at Nvidia's GTC Conference",
+    "episode_date": "2026-03-23",
+    "summary": "The podcast features an interview with Michael Intrader, CEO of Core Weave, at Nvidia's GTC conference. The discussion revolves around the evolution of Core Weave, its early foray into crypto mining, and the subsequent expansion into various use cases for GPUs, including CGI rendering, medical research, and neural networks. The conversation also touches on the company's approach to AI, the specialization of AI models, and the potential impact of new energy sources like nuclear power on the industry.",
+    "key_takeaways": [
+      "Core Weave started as a crypto mining company and evolved to offer various GPU-based services.",
+      "The company leverages its expertise in risk management from its hedge fund background to navigate volatility in crypto.",
+      "Core Weave expanded into CGI rendering and medical research before focusing on neural networks and AI.",
+      "AI models are specializing, and Core Weave's value proposition lies in its ability to orchestrate the best models for different tasks.",
+      "The company's philosophy is to move fast and maintain quality, leveraging its agility compared to larger companies.",
+      "The potential for small modular reactors to be located near data centers could unlock new opportunities in distributed computing."
+    ],
+    "investment_thesis": "Invest in companies that can leverage the evolving landscape of AI and GPU computing, particularly those with the agility to adapt and scale in a rapidly changing market.",
+    "key_tickers": [
+      "NVDA"
+    ]
+  },
+  {
+    "id": 97,
+    "podcast_name": "Monetary Matters with Jack Farley",
+    "episode_title": "Monetary Matters: Middle East Crisis and Global Market Impact",
+    "episode_date": "2026-03-23",
+    "summary": "In this special edition of 'Other People's Money', host Jack Farley interviews Nadia Martin Wiggen, director at Svellen Capital, a hedge fund specializing in commodities and shipping markets. They discuss the impact of the Middle East crisis on global markets, focusing on oil prices, shipping logistics, and the potential for stagflation. Nadia provides insights into the practicality of Trump's announcements, the control of the Strait of Hormuz, and the market's reaction to escalating tensions. The conversation also touches on the behavior of different commodities, the potential for port congestion, and the implications for emerging markets.",
+    "key_takeaways": [
+      "The market did not significantly react to Trump's announcements regarding Iran, as they were seen as not practically enforceable.",
+      "The Strait of Hormuz remains under Iranian control, and no significant change in shipping has been observed.",
+      "Markets are not pricing in a stagflation scenario or high oil prices similar to the 1970s.",
+      "Investors are taking profits from gold and silver and potentially reallocating to oil, causing increased volatility.",
+      "Emerging markets are subsidizing prices to manage the impact of rising oil prices on their populations.",
+      "The situation could lead to port congestion and higher shipping rates if the crisis continues, affecting the logistics chain."
+    ],
+    "investment_thesis": "Svellen Capital sees opportunities in commodities and shipping markets amidst the Middle East crisis, with a focus on the practical implications of geopolitical events on global trade and logistics.",
+    "key_tickers": [
+      "C.O.R.N"
+    ]
+  },
+  {
     "id": 95,
     "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "episode_title": "California's Spending Woes and the Governor's Race",

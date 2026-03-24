@@ -3,8 +3,8 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-03-23T22:06:48.943289",
-  chartsVersion: "2026-03-23T04:24:32.074856",
+  generatedAt: "2026-03-24T04:50:32.979404",
+  chartsVersion: "2026-03-24T04:50:29.136773",
   tickerScores: [
   {
     "ticker": "GOOGL",
@@ -547,7 +547,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "PQNT",
+    "ticker": "C.O.R.N",
     "total_score": 60.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -562,7 +562,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "T",
+    "ticker": "PQNT",
     "total_score": 60.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -577,7 +577,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "TLT",
+    "ticker": "T",
     "total_score": 60.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -592,13 +592,28 @@ const dashboardData = {
     "contexts": []
   },
   {
+    "ticker": "TLT",
+    "total_score": 60.0,
+    "raw_mention_count": 1,
+    "unique_sources": 1,
+    "podcast_mentions": 1,
+    "newsletter_mentions": 0,
+    "rank": 40,
+    "score": 60.0,
+    "mentions": 1,
+    "conviction_level": "medium",
+    "contrarian_signal": "neutral",
+    "timeframe": "long_term",
+    "contexts": []
+  },
+  {
     "ticker": "QQQ",
     "total_score": 48.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 40,
+    "rank": 41,
     "score": 48.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -613,7 +628,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 41,
+    "rank": 42,
     "score": 40.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -628,7 +643,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 42,
+    "rank": 43,
     "score": 32.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -643,7 +658,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 43,
+    "rank": 44,
     "score": 24.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -658,7 +673,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 44,
+    "rank": 45,
     "score": 20.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -673,7 +688,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 45,
+    "rank": 46,
     "score": 20.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -688,7 +703,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 46,
+    "rank": 47,
     "score": 16.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -721,6 +736,66 @@ const dashboardData = {
       "archived_date": null,
       "archived_reason": null,
       "podcast_episode_id": 95
+    },
+    {
+      "id": 114,
+      "title": "Ground Infrastructure: The Overlooked Bottleneck in the Space Economy",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-03-23",
+      "summary": "In this episode of the a16z Show, Bridget Memplar, co-founder and CEO of Northwood, discusses the importance of ground infrastructure in the space economy. Northwood is a company that builds systems to connect satellites back to Earth, making space missions useful. Bridget shares her unconventional path into the space industry and how a modern, vertically integrated approach could unlock the next wave of innovation in space. The conversation touches on the importance of resilience in ground stations, the potential of inner satellite links, and the analogy of the space economy to the early internet.",
+      "key_takeaway": "Investing in ground infrastructure for space can unlock the next wave of innovation, making space missions more useful and efficient.",
+      "tickers_mentioned": [
+        "AAPL",
+        "TSLA",
+        "MSFT",
+        "AMZN"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-24",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 99
+    },
+    {
+      "id": 115,
+      "title": "Interview with Michael Intrader at Nvidia's GTC Conference",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-03-23",
+      "summary": "The podcast features an interview with Michael Intrader, CEO of Core Weave, at Nvidia's GTC conference. The discussion revolves around the evolution of Core Weave, its early foray into crypto mining, and the subsequent expansion into various use cases for GPUs, including CGI rendering, medical research, and neural networks. The conversation also touches on the company's approach to AI, the specialization of AI models, and the potential impact of new energy sources like nuclear power on the industry.",
+      "key_takeaway": "Invest in companies that can leverage the evolving landscape of AI and GPU computing, particularly those with the agility to adapt and scale in a rapidly changing market.",
+      "tickers_mentioned": [
+        "NVDA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-24",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 98
+    },
+    {
+      "id": 116,
+      "title": "Monetary Matters: Middle East Crisis and Global Market Impact",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-03-23",
+      "summary": "In this special edition of 'Other People's Money', host Jack Farley interviews Nadia Martin Wiggen, director at Svellen Capital, a hedge fund specializing in commodities and shipping markets. They discuss the impact of the Middle East crisis on global markets, focusing on oil prices, shipping logistics, and the potential for stagflation. Nadia provides insights into the practicality of Trump's announcements, the control of the Strait of Hormuz, and the market's reaction to escalating tensions. The conversation also touches on the behavior of different commodities, the potential for port congestion, and the implications for emerging markets.",
+      "key_takeaway": "Svellen Capital sees opportunities in commodities and shipping markets amidst the Middle East crisis, with a focus on the practical implications of geopolitical events on global trade and logistics.",
+      "tickers_mentioned": [
+        "C.O.R.N"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-24",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 97
     },
     {
       "id": 113,
@@ -795,11 +870,11 @@ const dashboardData = {
         "HFGM"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-18",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-24",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 76
     },
     {
@@ -815,11 +890,11 @@ const dashboardData = {
         "WTI CRUDE OIL"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-20",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-24",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 91
     },
     {
@@ -834,11 +909,11 @@ const dashboardData = {
         "NVDA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-20",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-24",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 90
     },
     {
@@ -2778,6 +2853,70 @@ const dashboardData = {
       "key_tickers": []
     },
     {
+      "id": 114,
+      "title": "Ground Infrastructure: The Overlooked Bottleneck in the Space Economy",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-03-23",
+      "summary": "In this episode of the a16z Show, Bridget Memplar, co-founder and CEO of Northwood, discusses the importance of ground infrastructure in the space economy. Northwood is a company that builds systems to connect satellites back to Earth, making space missions useful. Bridget shares her unconventional path into the space industry and how a modern, vertically integrated approach could unlock the next wave of innovation in space. The conversation touches on the importance of resilience in ground stations, the potential of inner satellite links, and the analogy of the space economy to the early internet.",
+      "key_takeaway": "Investing in ground infrastructure for space can unlock the next wave of innovation, making space missions more useful and efficient.",
+      "tickers_mentioned": "[\"AAPL\", \"TSLA\", \"MSFT\", \"AMZN\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-24",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 99,
+      "episode_release_date": "2026-03-23",
+      "guest_name": "Ground Infrastructure",
+      "key_tickers": []
+    },
+    {
+      "id": 115,
+      "title": "Interview with Michael Intrader at Nvidia's GTC Conference",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-03-23",
+      "summary": "The podcast features an interview with Michael Intrader, CEO of Core Weave, at Nvidia's GTC conference. The discussion revolves around the evolution of Core Weave, its early foray into crypto mining, and the subsequent expansion into various use cases for GPUs, including CGI rendering, medical research, and neural networks. The conversation also touches on the company's approach to AI, the specialization of AI models, and the potential impact of new energy sources like nuclear power on the industry.",
+      "key_takeaway": "Invest in companies that can leverage the evolving landscape of AI and GPU computing, particularly those with the agility to adapt and scale in a rapidly changing market.",
+      "tickers_mentioned": "[\"NVDA\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-24",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 98,
+      "episode_release_date": "2026-03-23",
+      "guest_name": null,
+      "key_tickers": [
+        "NVDA"
+      ]
+    },
+    {
+      "id": 116,
+      "title": "Monetary Matters: Middle East Crisis and Global Market Impact",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-03-23",
+      "summary": "In this special edition of 'Other People's Money', host Jack Farley interviews Nadia Martin Wiggen, director at Svellen Capital, a hedge fund specializing in commodities and shipping markets. They discuss the impact of the Middle East crisis on global markets, focusing on oil prices, shipping logistics, and the potential for stagflation. Nadia provides insights into the practicality of Trump's announcements, the control of the Strait of Hormuz, and the market's reaction to escalating tensions. The conversation also touches on the behavior of different commodities, the potential for port congestion, and the implications for emerging markets.",
+      "key_takeaway": "Svellen Capital sees opportunities in commodities and shipping markets amidst the Middle East crisis, with a focus on the practical implications of geopolitical events on global trade and logistics.",
+      "tickers_mentioned": "[\"C.O.R.N\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-24",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 97,
+      "episode_release_date": "2026-03-23",
+      "guest_name": null,
+      "key_tickers": [
+        "C.O.R.N"
+      ]
+    },
+    {
       "id": 113,
       "title": "Monetary Matters with Jack Farley: Impact of Iran War on Fertilizer Prices and Agriculture",
       "source_type": "podcast",
@@ -2839,73 +2978,6 @@ const dashboardData = {
       "guest_name": null,
       "key_tickers": [
         "PLTR"
-      ]
-    },
-    {
-      "id": 93,
-      "title": "Monetary Matters with Jack Farley: Oil Shocks, Inflation, and Market Reactions",
-      "source_type": "podcast",
-      "source_name": "Monetary Matters with Jack Farley",
-      "source_date": "2026-03-19",
-      "summary": "In this episode of Monetary Matters, host Jack Farley interviews Bob Elliott, Chief Investment Officer at Unlimited Funds and former member of the Investment Committee at Bridgewater. They discuss the impact of elevated oil prices on the economy, stock market, bond market, and Federal Reserve's reaction function. The conversation covers the inflationary effects of oil shocks, the potential for a recession, and the implications for investors. Bob shares his insights on the current market dynamics, including his views on the Federal Reserve's stance, the impact on stocks and bonds, and potential trading opportunities in commodities and other asset classes.",
-      "key_takeaway": "The current elevated oil prices and their subsequent impact on inflation and growth present a complex investment landscape, with stocks and bonds being particularly at risk. Investors should consider packaging trades to navigate these dynamics.",
-      "tickers_mentioned": "[\"HFGM\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-03-18",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 76,
-      "episode_release_date": "2026-03-19",
-      "guest_name": null,
-      "key_tickers": [
-        "HFGM"
-      ]
-    },
-    {
-      "id": 105,
-      "title": "Macro Voices: The Iran Conflict's Impact on Inflation and Energy Markets",
-      "source_type": "podcast",
-      "source_name": "Macro Voices",
-      "source_date": "2026-03-19",
-      "summary": "In this episode of Macro Voices, hosts Eric Townsend and Patrick Suresne discuss the market implications of the ongoing Iran conflict and the potential for secular inflation. They are joined by Bloomberg Macro strategist Simon White, who shares insights on the risk of renewed inflation, parallels to 1970s stagflation, and how shifts in commodities, credit, and the yield curve could reshape the macro outlook. Rory Johnston, founder of Commodity Context, provides an additional perspective on the conflict's impact on energy markets, particularly the oil sector.",
-      "key_takeaway": "The ongoing Iran conflict may lead to a secular inflation cycle, with oil prices being a key catalyst. Investors should monitor shifts in commodities, credit, and the yield curve for potential macroeconomic impacts.",
-      "tickers_mentioned": "[\"S&P 500\", \"WTI CRUDE OIL\"]",
-      "sentiment": "bearish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-03-20",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 91,
-      "episode_release_date": "2026-03-19",
-      "guest_name": null,
-      "key_tickers": [
-        "S&P 500",
-        "WTI CRUDE OIL"
-      ]
-    },
-    {
-      "id": 106,
-      "title": "AI Factory and the Future of Computing",
-      "source_type": "podcast",
-      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "source_date": "2026-03-19",
-      "summary": "In this special episode of 'All-In with Chamath, Jason, Sacks & Friedberg', the hosts discuss the significant strides in the AI industry, with a focus on NVIDIA's strategic moves and the broader implications for the tech landscape. The conversation touches on NVIDIA's acquisition of Grok, the evolution of AI computing, and the importance of disaggregated inference. They also delve into the role of open source in AI development and the global diffusion of AI technology. The discussion concludes with advice for young people on education and the future of work in the context of AI.",
-      "key_takeaway": "NVIDIA's strategic acquisitions and technological advancements position it as a leader in the AI revolution, offering investors exposure to the growing AI factory industry.",
-      "tickers_mentioned": "[\"NVDA\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-03-20",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 90,
-      "episode_release_date": "2026-03-19",
-      "guest_name": null,
-      "key_tickers": [
-        "NVDA"
       ]
     },
     {
@@ -8900,61 +8972,269 @@ const dashboardData = {
     "key_tickers": [
       "CORN"
     ]
+  },
+  "114": {
+    "id": 105,
+    "insight_id": 114,
+    "podcast_episode_id": 99,
+    "overview": "The space economy is rapidly evolving, with a significant focus on satellite launches and space missions. However, a critical yet overlooked bottleneck is the ground infrastructure that connects these satellites back to Earth. Northwood, a company building these systems, is poised to unlock the next wave of innovation in space by modernizing ground infrastructure. This deep dive analysis explores the investment thesis in ground infrastructure, focusing on Northwood's role and the broader implications for the space economy. The current state of ground infrastructure lags behind the rapid advancements in satellite manufacturing and launch capabilities, creating a pressing need for modernization to support the growing space industry.",
+    "key_takeaways_detailed": [
+      "Ground infrastructure is a fundamental yet underdeveloped component of the space economy, acting as a critical connection point for satellites.",
+      "Northwood's vertically integrated approach aims to modernize ground infrastructure, addressing a significant bottleneck in satellite operations.",
+      "Investors should monitor the progress and adoption of Northwood's solutions as a proxy for the broader health and growth of the space economy.",
+      "The modernization of ground infrastructure could lead to increased efficiency and cost savings in satellite operations, benefiting the entire space industry.",
+      "Keep an eye on partnerships and contracts won by Northwood, as these will be indicators of market acceptance and company growth."
+    ],
+    "investment_thesis": "The investment thesis revolves around the modernization of ground infrastructure in the space economy, which is currently a bottleneck. Northwood, with its end-to-end solutions, is well-positioned to capitalize on this opportunity. The catalysts for this thesis include increasing satellite launches, the need for faster and more efficient data transmission, and the growing demand for space-based services. The timeframe for this thesis is medium to long-term, as the modernization of ground infrastructure is a gradual process that will align with the overall growth of the space industry.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's involvement in space technology, particularly with its satellite communication ambitions, makes it relevant to the ground infrastructure thesis.",
+        "positioning": "Position long-term as Apple's investments in space technology could benefit from the modernization of ground infrastructure.",
+        "risk": "Key risks include delays in Apple's satellite projects and competition from other tech giants in the space sector."
+      },
+      "TSLA": {
+        "rationale": "Tesla's SpaceX is a major player in satellite launches, and improvements in ground infrastructure would directly impact its operations.",
+        "positioning": "Consider a strategic long position as SpaceX benefits from advancements in ground infrastructure, enhancing its competitive edge.",
+        "risk": "Regulatory hurdles and launch failures could impact SpaceX's growth and, by extension, the demand for advanced ground infrastructure."
+      },
+      "MSFT": {
+        "rationale": "Microsoft's Azure Space platform relies on robust ground infrastructure to provide cloud services to space agencies and companies.",
+        "positioning": "A tactical long position could be considered due to the potential for increased demand for cloud services in the space industry.",
+        "risk": "The risk lies in the competition from other cloud providers and the potential for slower-than-expected adoption of cloud services in the space sector."
+      },
+      "AMZN": {
+        "rationale": "Amazon's Project Kuiper aims to launch a constellation of satellites, which would require advanced ground infrastructure for effective operation.",
+        "positioning": "A medium-term long position could be appropriate as Amazon's satellite project progresses and the need for ground infrastructure grows.",
+        "risk": "Project delays and increased competition in the satellite internet market could pose risks to Amazon's project and its reliance on ground infrastructure."
+      }
+    },
+    "positioning_guidance": "Investors should consider a diversified approach to portfolio positioning, with a mix of long-term strategic positions in companies directly involved in space operations and satellite launches, as well as tactical positions in companies providing enabling technologies and services. Entry points should be based on the progress of ground infrastructure modernization and the specific milestones of companies like Northwood. Timeframes should align with the expected growth of the space economy, with a focus on the medium to long term. Hedges could include positions in companies that could be disrupted by advancements in ground infrastructure.",
+    "risk_factors": [
+      "Regulatory hurdles that could slow down the deployment of new ground infrastructure technologies.",
+      "Technological challenges in developing and deploying advanced ground infrastructure systems.",
+      "Increased competition in the space industry that could lead to oversupply and reduced demand for ground infrastructure services.",
+      "Slow adoption of modern ground infrastructure by space agencies and companies due to cost or technological inertia.",
+      "Geopolitical tensions that could impact the global collaboration necessary for the development and operation of ground infrastructure."
+    ],
+    "contrarian_signals": [
+      "The possibility that advancements in satellite technology could reduce the need for ground infrastructure, such as through increased satellite autonomy.",
+      "The risk that the growth of the space economy could be slower than expected, reducing the demand for ground infrastructure modernization.",
+      "The potential for new entrants in the ground infrastructure market that could disrupt the current players and their business models."
+    ],
+    "catalysts": [
+      "Northwood securing additional contracts with space agencies and companies, indicating market acceptance and growth.",
+      "Successful launches and operations of satellite constellations by companies like SpaceX and Amazon, which would increase the demand for ground infrastructure.",
+      "Advancements in satellite technology that require more sophisticated ground infrastructure to support increased data transmission and control.",
+      "Regulatory changes that facilitate the deployment of new ground infrastructure technologies and services.",
+      "Global events or initiatives that increase the focus on space exploration and the use of space-based services, driving demand for improved ground infrastructure."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-03-24T04:46:31.075924",
+    "updated_at": "2026-03-24 09:46:31",
+    "insight_title": "Ground Infrastructure: The Overlooked Bottleneck in the Space Economy",
+    "source_name": "The a16z Show",
+    "source_date": "2026-03-23",
+    "key_tickers": []
+  },
+  "115": {
+    "id": 106,
+    "insight_id": 115,
+    "podcast_episode_id": 98,
+    "overview": "The investment thesis revolves around the rapid growth and expansion of AI and GPU computing, particularly in the context of Core Weave's journey from cryptocurrency mining to providing infrastructure for hyperscalers and AI research. This shift signifies a broader trend in the tech industry, where companies are leveraging GPUs for a variety of applications beyond traditional computing, from CGI rendering to medical research and neural networks. The importance of this trend is underscored by the increasing demand for specialized infrastructure to support AI models, which is expected to drive significant growth in the relevant tech sectors.",
+    "key_takeaways_detailed": [
+      "Core Weave's early entry into the GPU mining space provided a foundation for the company to pivot into AI infrastructure, highlighting the strategic importance of adaptability in tech investments.",
+      "The company's focus on risk management and capital allocation during crypto winters demonstrates the value of prudent financial stewardship in volatile markets.",
+      "The transition from crypto to CGI rendering and batch computing showcases the versatility of GPU technology and the potential for investors to capitalize on emerging use cases.",
+      "The company's approach to scaling and delivering computing power to clients, especially in the context of large-scale AI models, is a key differentiator in the market.",
+      "The increasing demand for inference compute indicates a shift from model development to deployment and monetization, which could signal a new phase of growth for AI-focused companies."
+    ],
+    "investment_thesis": "The core investment logic is centered on the secular growth of AI and GPU computing, driven by the increasing complexity and scale of AI models. Catalysts include the continued development of AI applications, the need for specialized infrastructure, and the potential for monetization through inference. The timeframe for this thesis is medium to long-term, as the full realization of AI's potential is expected to play out over several years, with significant milestones and growth opportunities along the way.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's investment in AI and GPU technology, particularly with its custom silicon like the M1 chip, positions it to benefit from the growing demand for AI capabilities in consumer electronics.",
+        "positioning": "Long-term strategic position, as Apple's AI investments are expected to pay off in the form of product differentiation and services.",
+        "risk": "Key risks include competition from other tech giants in AI and potential disruptions in the global supply chain affecting Apple's production capabilities."
+      },
+      "NVDA": {
+        "rationale": "Nvidia is a leader in GPU technology and stands to benefit significantly from the increased demand for AI infrastructure and computing power.",
+        "positioning": "Long-term strategic position, with a focus on Nvidia's ability to innovate and maintain its market leadership in GPUs.",
+        "risk": "Key risks include potential competition from other chip manufacturers and the cyclical nature of the semiconductor industry."
+      },
+      "GOOGL": {
+        "rationale": "Google's deep investments in AI research and cloud services make it a key player in the AI era, with potential to leverage its technology for a range of applications.",
+        "positioning": "Medium to long-term strategic position, considering Google's broad reach and potential for AI-driven growth across its business segments.",
+        "risk": "Key risks include regulatory challenges and the possibility of missing out on new AI opportunities due to internal bureaucracy."
+      },
+      "MSFT": {
+        "rationale": "Microsoft's cloud computing services, Azure, and AI investments position it to capitalize on the growing demand for AI infrastructure and services.",
+        "positioning": "Medium to long-term strategic position, as Microsoft's cloud services are expected to benefit from the AI boom.",
+        "risk": "Key risks include competition from other cloud providers and the potential for slower-than-expected adoption of AI services."
+      },
+      "AMZN": {
+        "rationale": "Amazon's AWS is a leading cloud service provider, and its investments in AI could drive further growth and differentiation in the market.",
+        "positioning": "Long-term strategic position, considering AWS's market leadership and Amazon's ability to innovate in AI.",
+        "risk": "Key risks include increased competition in the cloud space and potential disruptions to Amazon's supply chain or logistics operations."
+      }
+    },
+    "positioning_guidance": "Investors should consider a diversified approach to portfolio positioning, with a mix of long-term strategic positions in companies like NVDA, AAPL, GOOGL, MSFT, and AMZN. Entry points should be considered in the context of broader market trends and individual company performance. Timeframes for these positions should align with the expected growth trajectory of AI and GPU computing, with a focus on the medium to long term. Hedges may include positions in more cyclical or less AI-focused tech companies to balance potential risks.",
+    "risk_factors": [
+      "Regulatory challenges that could slow down AI development and deployment.",
+      "Increased competition in the AI space, potentially leading to price wars or reduced profitability.",
+      "Technological disruptions that could render current AI and GPU technologies obsolete.",
+      "Economic downturns that could reduce corporate spending on AI and cloud services.",
+      "Supply chain disruptions affecting the production and distribution of AI-related hardware."
+    ],
+    "contrarian_signals": [
+      "The potential for AI development to slow down due to ethical concerns or public backlash against AI-driven job displacement.",
+      "The possibility that the current AI boom is overhyped and that the technology may not live up to its promises, leading to a market correction.",
+      "The risk that smaller, more agile companies could disrupt the established tech giants by developing innovative AI solutions."
+    ],
+    "catalysts": [
+      "Upcoming AI conferences and events that could showcase new breakthroughs and drive investor interest.",
+      "Earnings reports from tech companies that could highlight the growing importance of AI to their bottom lines.",
+      "New product launches or partnerships in the AI space that could signal further market adoption.",
+      "Regulatory decisions that could either hinder or accelerate AI development, depending on their nature.",
+      "Technological milestones, such as the development of new AI models or the scaling of existing ones, which could drive further investment in AI infrastructure."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-03-24T04:48:27.783687",
+    "updated_at": "2026-03-24 09:48:27",
+    "insight_title": "Interview with Michael Intrader at Nvidia's GTC Conference",
+    "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "source_date": "2026-03-23",
+    "key_tickers": [
+      "NVDA"
+    ]
+  },
+  "116": {
+    "id": 107,
+    "insight_id": 116,
+    "podcast_episode_id": 97,
+    "overview": "The ongoing crisis in the Middle East, particularly the situation involving Iran, has significant implications for global markets, particularly in commodities and shipping. The recent announcements from President Trump and the subsequent denial from Iranian authorities have created a complex and fluid situation that is impacting oil prices and equity markets. This analysis will delve into the investment implications of these events, focusing on the potential risks and opportunities for investors in the short to medium term.",
+    "key_takeaways_detailed": [
+      "The crisis in the Middle East is driving global market movements, with a particular focus on commodities and shipping markets.",
+      "The Strait of Hormuz remains a critical point of contention, with the potential closure impacting 13 million barrels per day of oil production.",
+      "Markets are reacting to announcements and perceived threats, but practical considerations such as the US military's readiness and position in the region suggest a more complex situation.",
+      "Physical oil markets, particularly in Asia, are showing significant price movements, with term contracts and reliable supply chains being disrupted."
+    ],
+    "investment_thesis": "The investment thesis revolves around the impact of the Middle East crisis on global energy markets and the potential for further escalation or de-escalation. The core logic is that any significant disruption in the Strait of Hormuz or attacks on energy infrastructure could lead to a spike in oil prices, affecting energy companies and related sectors. Conversely, a de-escalation or resolution could lead to a correction in oil prices. The catalysts for this thesis include military actions, diplomatic developments, and changes in global energy supply and demand dynamics. The timeframe for this thesis is short to medium term, as the situation is highly dynamic and could change rapidly.",
+    "ticker_analysis": {
+      "XOM": {
+        "rationale": "Exxon Mobil is a major player in the oil and gas industry and would be directly impacted by changes in oil prices and global energy policies.",
+        "positioning": "Tactical long, as short-term price volatility could offer trading opportunities, but with a cautious approach due to the unpredictable nature of the crisis.",
+        "risk": "The risk of a prolonged conflict leading to sustained high oil prices, which could impact the company's profitability and growth prospects."
+      },
+      "VLO": {
+        "rationale": "Valero Energy, as a refiner and marketer of transportation fuels, is sensitive to changes in crude oil prices and supply.",
+        "positioning": "Strategic long, as the company could benefit from increased demand for alternative fuel sources if the crisis disrupts traditional oil supplies.",
+        "risk": "The risk of supply chain disruptions affecting the company's operations and profitability."
+      }
+    },
+    "positioning_guidance": "Investors should consider a diversified approach, with a mix of long and short positions in energy-related stocks to hedge against volatility. Entry points should be based on market reactions to new developments in the Middle East crisis, with a focus on short-term trading opportunities. Timeframes should be flexible, ready to adjust as the situation evolves. Consider hedging with inverse ETFs or options to protect against adverse price movements.",
+    "risk_factors": [
+      "Unexpected military escalation leading to a prolonged closure of the Strait of Hormuz.",
+      "Diplomatic resolutions that lead to a rapid de-escalation and a drop in oil prices.",
+      "Global economic slowdown affecting demand for oil and other commodities.",
+      "Supply chain disruptions causing operational challenges for energy companies.",
+      "Geopolitical events outside the Middle East impacting global energy markets."
+    ],
+    "contrarian_signals": [
+      "Signs of a potential resolution or de-escalation in the Middle East that could lead to a drop in oil prices.",
+      "Increased production from non-Middle Eastern sources, such as US shale oil, mitigating the impact of supply disruptions.",
+      "Global economic indicators showing resilience, suggesting that the crisis may have a limited impact on energy demand."
+    ],
+    "catalysts": [
+      "Announcements from the US or Iranian authorities regarding diplomatic progress or military actions.",
+      "Reports on the status of the Strait of Hormuz and its impact on oil shipments.",
+      "Global energy reports and forecasts that could influence market expectations.",
+      "Earnings reports from energy companies that could reflect the impact of the crisis on their operations.",
+      "Geopolitical events or changes in global energy policies that could affect the supply and demand dynamics."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-03-24T04:49:51.239104",
+    "updated_at": "2026-03-24 09:49:51",
+    "insight_title": "Monetary Matters: Middle East Crisis and Global Market Impact",
+    "source_name": "Monetary Matters with Jack Farley",
+    "source_date": "2026-03-23",
+    "key_tickers": [
+      "C.O.R.N"
+    ]
   }
 },
   suggestedTerms: [
   {
-    "id": 83,
-    "term": "Arbitrage Opportunity",
-    "definition": "A situation where the same or similar assets or property sell for two different prices, creating a chance to profit from the price difference.",
-    "investment_implications": "Investors can look for opportunities where the price discrepancy between regions can be exploited for profit.",
+    "id": 87,
+    "term": "Space Mesh",
+    "definition": "A network of satellites connected back to Earth, requiring ground infrastructure to function effectively.",
+    "investment_implications": "Investors should consider the role of ground infrastructure in the overall performance and utility of satellite networks.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-03-23 09:21:03",
+    "submitted_date": "2026-03-24 09:39:24",
     "priority_score": 80
   },
   {
-    "id": 81,
-    "term": "Grassroots Power",
-    "definition": "Building bottom-up power by connecting voters around issues they are passionate about and helping them organize to hold elected officials accountable.",
-    "investment_implications": "Investors can look for companies or platforms that empower grassroots movements and enhance civic engagement.",
+    "id": 88,
+    "term": "Inner Satellite Links",
+    "definition": "Links between satellites that reduce latency and improve data transmission efficiency in space.",
+    "investment_implications": "Inner satellite links could be a complementary technology to ground stations, enhancing overall space communication networks.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-03-23 09:18:22",
+    "submitted_date": "2026-03-24 09:39:24",
     "priority_score": 80
   },
   {
-    "id": 82,
-    "term": "Smart Grid",
-    "definition": "An electrical grid that uses digital technology to monitor and manage the transport of electricity from all generation sources to meet the varying electricity demands of end users.",
-    "investment_implications": "Investors should consider companies involved in the development and deployment of smart grid technologies for more efficient energy management.",
+    "id": 86,
+    "term": "Model Specialization",
+    "definition": "The trend where AI models are becoming more specialized in their capabilities, catering to specific tasks rather than being generalized.",
+    "investment_implications": "Invest in platforms that can leverage the strengths of specialized AI models and provide an orchestration layer for diverse applications.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-03-23 09:18:22",
+    "submitted_date": "2026-03-24 09:37:15",
     "priority_score": 80
   },
   {
-    "id": 79,
-    "term": "Experimental Mathematics",
-    "definition": "The application of empirical and computational methods to mathematical problems, often involving large-scale data analysis.",
-    "investment_implications": "Investors should consider companies developing AI tools for data-driven mathematical research.",
+    "id": 84,
+    "term": "Strait of Hormuz",
+    "definition": "A narrow strait between Iran and Oman through which a significant portion of the world's oil passes.",
+    "investment_implications": "Control and security of this strait are critical for global oil markets and shipping.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-03-21 09:30:48",
+    "submitted_date": "2026-03-24 09:26:22",
     "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 578,
+    "id": 590,
+    "name": "Ground Infrastructure",
+    "slug": "ground-infrastructure",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Investing in ground infrastructure for space can unlock the next wave of innovation, making space missions more useful and efficient.",
+    "last_episode_title": "Ground Infrastructure: The Overlooked Bottleneck in the Space Economy",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-03-23",
+    "appearance_count": 1
+  },
+  {
+    "id": 591,
     "name": "Rory Johnston",
     "slug": "rory-johnston",
     "bio": null,
@@ -8966,7 +9246,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 579,
+    "id": 592,
     "name": "Senator John Fetterman on Voting Rights",
     "slug": "senator-john-fetterman-on-voting-rights",
     "bio": null,
@@ -8978,7 +9258,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 580,
+    "id": 593,
     "name": "Elon Musk on Moonshots",
     "slug": "elon-musk-on-moonshots",
     "bio": null,
@@ -8990,7 +9270,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 581,
+    "id": 594,
     "name": "Investing in Capitalism",
     "slug": "investing-in-capitalism",
     "bio": null,
@@ -9002,7 +9282,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 582,
+    "id": 595,
     "name": "Harvard Professor Graham Allison",
     "slug": "harvard-professor-graham-allison",
     "bio": null,
@@ -9014,7 +9294,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 583,
+    "id": 596,
     "name": "Andrew Yang",
     "slug": "andrew-yang",
     "bio": "Andrew Yang is an entrepreneur and political leader who popularized universal basic income in U.S. politics through his 2020 presidential campaign.",
@@ -9026,7 +9306,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 584,
+    "id": 597,
     "name": "Ray Dalio",
     "slug": "ray-dalio",
     "bio": "Ray Dalio is the founder of Bridgewater Associates and a macro investor known for his 'Principles' framework and work on long-term debt cycles.",
@@ -9038,7 +9318,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 585,
+    "id": 598,
     "name": "Nobel Prize-winning economist Paul Krugman",
     "slug": "nobel-prize-winning-economist-paul-krugman",
     "bio": null,
@@ -9050,7 +9330,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 586,
+    "id": 599,
     "name": "host Jack Mallers",
     "slug": "host-jack-mallers",
     "bio": null,
@@ -9062,7 +9342,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 587,
+    "id": 600,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -9074,7 +9354,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 588,
+    "id": 601,
     "name": "Bosworth",
     "slug": "bosworth",
     "bio": null,
@@ -9086,7 +9366,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 589,
+    "id": 602,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -9099,6 +9379,181 @@ const dashboardData = {
   }
 ],
   pundits: [
+  {
+    "id": 108,
+    "name": "Bridget Memplar",
+    "slug": "bridget-memplar",
+    "bio": "Bridget Memplar is the co-founder and CEO of Northwood, a company focused on building systems that connect satellites back to Earth. Her unconventional path into the space industry has led her to become a key player in addressing the overlooked bottleneck of ground infrastructure in space missions.",
+    "known_for": "Her leadership at Northwood and the development of systems that enable satellite connectivity back to Earth.",
+    "net_worth_usd": 50000000.0,
+    "net_worth_source": "https://www.celebritynetworth.com/richest-celebrities/actors/bridgit-mendler-net-worth/",
+    "net_worth_updated_at": "2026-03-24T04:43:12.487260",
+    "voice_tone": "Confident and determined.",
+    "voice_style": "Bridget speaks with a focus on innovation and the potential of space technology.",
+    "voice_delivery_notes": "Clear and concise, with an emphasis on the importance of ground infrastructure in space missions.",
+    "voice_profile_updated_at": "2026-03-24 09:39:24",
+    "last_seen": "2026-03-24 09:39:24",
+    "last_episode_title": "Ground Infrastructure: The Overlooked Bottleneck in the Space Economy",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-03-23",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investing in ground infrastructure for space can unlock the next wave of innovation, making space missions more useful and efficient.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-24T04:43:11.153707",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Bridget Memplar",
+      "fetched_at": "2026-03-24T09:43:11.153311+00:00",
+      "cliff_notes": "Bridget Memplar embarked on an unconventional path into the space industry, eventually becoming the co-founder and CEO of Northwood. Her company is dedicated to building systems that connect satellites back to Earth, a critical yet often overlooked aspect of space missions. Memplar's leadership at Northwood is focused on addressing the ground infrastructure bottleneck, which is essential for making space missions useful and effective. Her work is pivotal in the space economy, as it aims to provide a modern, vertically integrated approach to satellite connectivity, potentially unlocking the next wave of innovation in space.",
+      "derived": {
+        "current_role": "Co-founder and CEO of Northwood"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Bridget Memplar embarked on an unconventional path into the space industry, eventually becoming the co-founder and CEO of Northwood. Her company is dedicated to building systems that connect satellites back to Earth, a critical yet often overlooked aspect of space missions. Memplar's leadership at Northwood is focused on addressing the ground infrastructure bottleneck, which is essential for making space missions useful and effective.",
+        "Her work is pivotal in the space economy, as it aims to provide a modern, vertically integrated approach to satellite connectivity, potentially unlocking the next wave of innovation in space."
+      ],
+      "sections": [
+        {
+          "heading": "Northwood's Mission",
+          "body": "Northwood, under Memplar's leadership, is committed to building the systems that connect satellites back to Earth, which is crucial for the success of space missions."
+        },
+        {
+          "heading": "Ground Infrastructure",
+          "body": "Bridget Memplar has identified ground infrastructure as a significant bottleneck in the space economy and is working to modernize it through Northwood's innovative solutions."
+        },
+        {
+          "heading": "Innovation in Space",
+          "body": "Memplar's work at Northwood is aimed at not just incremental improvements but at achieving a categorical outcome in space mission capabilities through enhanced ground connectivity."
+        }
+      ]
+    },
+    "net_worth": "$50.0M"
+  },
+  {
+    "id": 107,
+    "name": "Michael Intrader",
+    "slug": "michael-intrader",
+    "bio": "Michael Intrader is the CEO of Core Weave, a company building infrastructure for hyper-scalers and adapting to the evolving needs of GPU computing. With a background in hedge fund algorithm development and early involvement in the crypto mining space, Intrader has been at the forefront of technological advancements in cloud computing and AI.",
+    "known_for": "Building massive infrastructure for hyper-scalers and being an early entrant in the crypto mining space.",
+    "net_worth_usd": 23.0,
+    "net_worth_source": "https://shadabchow.com/blogs/billionaire/michael-intrator",
+    "net_worth_updated_at": "2026-03-24T04:44:00.170439",
+    "voice_tone": "Confident and informative, with a focus on the company's strategic evolution.",
+    "voice_style": "Direct and factual, providing insights into the company's operations and market positioning.",
+    "voice_delivery_notes": "Paced with emphasis on the company's adaptability and future outlook.",
+    "voice_profile_updated_at": "2026-03-24 09:37:15",
+    "last_seen": "2026-03-24 09:37:15",
+    "last_episode_title": "Interview with Michael Intrader at Nvidia's GTC Conference",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-03-23",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in companies that can leverage the evolving landscape of AI and GPU computing, particularly those with the agility to adapt and scale in a rapidly changing market.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-24T04:43:59.032721",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Michael Intrader",
+      "fetched_at": "2026-03-24T09:43:59.032494+00:00",
+      "cliff_notes": "Michael Intrader began his career as an algorithm developer at a hedge fund focused on natural gas. With a significant amount of downtime after developing the algorithms, Intrader ventured into the crypto mining space, becoming an early entrant in the industry. Leveraging his experience in algorithm development and the growing need for GPU computing, Intrader founded Core Weave, a company that builds massive infrastructure for hyper-scalers. Core Weave has been instrumental in adapting to the evolving needs of GPU computing, particularly in the context of AI and cloud computing. Intrader's work at Core Weave has positioned him as a key player in the tech industry, shaping the future of cloud infrastructure and GPU computing.",
+      "derived": {
+        "current_role": "CEO of Core Weave",
+        "former_positions": "Algorithm Developer at Hedge Fund; Early Crypto Miner"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Michael Intrader began his career as an algorithm developer at a hedge fund focused on natural gas. With a significant amount of downtime after developing the algorithms, Intrader ventured into the crypto mining space, becoming an early entrant in the industry. Leveraging his experience in algorithm development and the growing need for GPU computing, Intrader founded Core Weave, a company that builds massive infrastructure for hyper-scalers.",
+        "Core Weave has been instrumental in adapting to the evolving needs of GPU computing, particularly in the context of AI and cloud computing. Intrader's work at Core Weave has positioned him as a key player in the tech industry, shaping the future of cloud infrastructure and GPU computing."
+      ],
+      "sections": [
+        {
+          "heading": "Early Crypto Mining",
+          "body": "Michael Intrader was an early entrant in the crypto mining space, leveraging his background in algorithm development to pioneer advancements in the industry."
+        },
+        {
+          "heading": "GPU Computing",
+          "body": "Intrader's work at Core Weave has been crucial in adapting to the evolving needs of GPU computing, particularly in the context of AI and cloud computing."
+        },
+        {
+          "heading": "Hyper-Scaler Infrastructure",
+          "body": "As CEO of Core Weave, Intrader has been instrumental in building massive infrastructure for hyper-scalers, shaping the future of cloud computing."
+        }
+      ]
+    },
+    "net_worth": "$23"
+  },
+  {
+    "id": 106,
+    "name": "Nadia Martin Wiggen",
+    "slug": "nadia-martin-wiggen",
+    "bio": "Nadia Martin Wiggen is a director at Svellen Capital, a hedge fund with a specialization in commodities and shipping markets. Her expertise is particularly relevant in times of global market fluctuations, such as during the Middle East crisis, where her insights are sought after for understanding market impacts.",
+    "known_for": "Expertise in commodities and shipping markets, especially during times of geopolitical tension.",
+    "net_worth_usd": 750000000.0,
+    "net_worth_source": "https://hedgenordic.com/2023/06/svelland-capital-hires-pareto-analyst/",
+    "net_worth_updated_at": "2026-03-24T04:44:37.173364",
+    "voice_tone": "Analytical and measured.",
+    "voice_style": "Factual and data-driven, with a focus on market reactions and practical implications.",
+    "voice_delivery_notes": "Paced, with emphasis on key market observations and potential outcomes.",
+    "voice_profile_updated_at": "2026-03-24 09:26:22",
+    "last_seen": "2026-03-24 09:26:22",
+    "last_episode_title": "Monetary Matters: Middle East Crisis and Global Market Impact",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-03-23",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Svellen Capital sees opportunities in commodities and shipping markets amidst the Middle East crisis, with a focus on the practical implications of geopolitical events on global trade and logistics.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-24T04:44:35.945959",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Nadia Martin Wiggen",
+      "fetched_at": "2026-03-24T09:44:35.945751+00:00",
+      "cliff_notes": "Nadia Martin Wiggen is recognized for her role as a director at Svellen Capital, a hedge fund that focuses on commodities and shipping markets. Her career has been marked by her ability to navigate and analyze the complexities of these markets, especially during times of geopolitical tension. Her insights are highly valued in the investment community, as they provide a lens through which to understand the broader impacts of global events on financial markets. As a specialist in her field, Wiggen's contributions are pivotal in shaping investment strategies and risk assessments in a rapidly changing economic landscape.",
+      "derived": {
+        "current_role": "Director at Svellen Capital"
+      },
+      "infobox": {
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Nadia Martin Wiggen is recognized for her role as a director at Svellen Capital, a hedge fund that focuses on commodities and shipping markets. Her career has been marked by her ability to navigate and analyze the complexities of these markets, especially during times of geopolitical tension. Her insights are highly valued in the investment community, as they provide a lens through which to understand the broader impacts of global events on financial markets.",
+        "As a specialist in her field, Wiggen's contributions are pivotal in shaping investment strategies and risk assessments in a rapidly changing economic landscape."
+      ],
+      "sections": [
+        {
+          "heading": "Commodities Expertise",
+          "body": "Nadia Martin Wiggen is known for her deep understanding of commodities markets, which is crucial for investors looking to understand and capitalize on global market trends."
+        },
+        {
+          "heading": "Shipping Markets",
+          "body": "Her expertise extends to shipping markets, a sector heavily influenced by geopolitical events, where her insights help navigate the complexities of supply chain disruptions."
+        },
+        {
+          "heading": "Geopolitical Impact",
+          "body": "Wiggen's role at Svellen Capital often involves analyzing the impact of geopolitical events, such as the Middle East crisis, on commodities and shipping markets."
+        },
+        {
+          "heading": "Market Analysis",
+          "body": "She provides critical analysis on how major announcements, like those from political leaders, can influence market dynamics in her area of expertise."
+        }
+      ]
+    },
+    "net_worth": "$750.0M"
+  },
   {
     "id": 105,
     "name": "Josh Lindville",
@@ -9117,7 +9572,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-22",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "The disruption in fertilizer supply due to geopolitical tensions presents an opportunity in agricultural commodities, particularly corn, which is heavily impacted by rising input costs and could see price support from tightened supply.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-23T04:22:03.060297",
@@ -9171,7 +9626,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-23",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Invest in innovation and infrastructure to create a smarter grid and incentivize clean energy adoption, while avoiding over-regulation that leads to unintended economic and environmental consequences.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-23T04:22:21.245588",
@@ -9232,7 +9687,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-03-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "The integration of AI into mathematics can accelerate discovery and problem-solving, presenting opportunities for investment in AI technology and its applications in scientific research.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-21T04:32:04.005767",
@@ -9287,7 +9742,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-03-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "The ongoing Iran conflict may lead to a secular inflation cycle, with oil prices being a key catalyst. Investors should monitor shifts in commodities, credit, and the yield curve for potential macroeconomic impacts.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:35:48.845381",
@@ -9344,7 +9799,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-03-19",
     "mention_score": 2,
-    "mention_score_decayed": 1.87,
+    "mention_score_decayed": 1.82,
     "last_main_idea": "The ongoing Iran conflict may lead to a secular inflation cycle, with oil prices being a key catalyst. Investors should monitor shifts in commodities, credit, and the yield curve for potential macroeconomic impacts.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:36:30.218908",
@@ -9400,7 +9855,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "NVIDIA's strategic acquisitions and technological advancements position it as a leader in the AI revolution, offering investors exposure to the growing AI factory industry.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:40:52.368193",
@@ -9462,7 +9917,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-02-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Invest in sectors with fertile ground for short selling, such as tech and AI, and consider undervalued areas like junior mining for potential alpha.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:42:09.376490",
@@ -9524,7 +9979,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-02-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Investing in AI and robotics companies that leverage neural networks for autonomous manufacturing could yield significant returns as this market is expected to become the largest economy globally.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-19T22:16:04.041005",
@@ -9585,7 +10040,7 @@ const dashboardData = {
     "last_podcast_name": "a16z Live",
     "last_episode_date": "2026-02-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Invest in companies that are at the forefront of developing AI-enabled, immersive technologies that can redefine consumer interactions beyond the current app-centric model.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-19T22:17:07.326933",
@@ -9644,7 +10099,7 @@ const dashboardData = {
     "last_podcast_name": null,
     "last_episode_date": null,
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": null,
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-19T22:17:58.321307",
@@ -10107,182 +10562,6 @@ const dashboardData = {
         }
       ]
     }
-  },
-  {
-    "id": 74,
-    "name": "Travis Kalanick",
-    "slug": "travis-kalanick",
-    "bio": "Travis Kalanick is an entrepreneur known for his work in the transportation and food delivery sectors. He is the founder of Cloud Kitchens and the former CEO of Uber. Kalanick has been an influential figure in the tech industry, particularly in the sharing economy.",
-    "known_for": "His role in revolutionizing transportation and food delivery through Uber and Cloud Kitchens.",
-    "net_worth_usd": 3600000000.0,
-    "net_worth_source": "https://finance.yahoo.com/news/uber-founder-travis-kalanick-becomes-201906670.html",
-    "net_worth_updated_at": "2026-03-19T15:49:00.323498",
-    "voice_tone": "",
-    "voice_style": "",
-    "voice_delivery_notes": "",
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-03-17 10:15:16",
-    "last_episode_title": "Stealth Startups and the Digitization of the Physical World",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-03-17",
-    "mention_score": 1,
-    "mention_score_decayed": 0.87,
-    "last_main_idea": "Invest in companies that are digitizing the physical world and transforming traditional industries through technology.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-19T21:22:31.110715",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Travis Kalanick",
-      "fetched_at": "2026-03-20T02:22:31.110604+00:00",
-      "cliff_notes": "Travis Kalanick is an American entrepreneur who co-founded Uber, a ridesharing company that revolutionized urban transportation. Born in Los Angeles, Kalanick studied computer engineering at UCLA before dropping out to pursue his entrepreneurial ambitions. He founded Scour, a file-sharing service, and later Red Swoosh, a content delivery network. After selling Red Swoosh, Kalanick co-founded Uber in 2009, which grew to become a global transportation giant. Despite stepping down as CEO in 2017, he remained on the board until 2019. Kalanick then founded Cloud Kitchens, a company that operates delivery-only kitchens for restaurants. His ventures have significantly impacted the tech and transportation sectors, shaping the modern sharing economy.",
-      "derived": {
-        "current_role": "Founder of Cloud Kitchens",
-        "former_positions": "Co-founder and CEO of Uber",
-        "education": "Bachelor's degree in Computer Engineering from the University of California, Los Angeles (UCLA)"
-      },
-      "infobox": {
-        "Born": "1976",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Travis Kalanick is an American entrepreneur who co-founded Uber, a ridesharing company that revolutionized urban transportation. Born in Los Angeles, Kalanick studied computer engineering at UCLA before dropping out to pursue his entrepreneurial ambitions. He founded Scour, a file-sharing service, and later Red Swoosh, a content delivery network.",
-        "After selling Red Swoosh, Kalanick co-founded Uber in 2009, which grew to become a global transportation giant. Despite stepping down as CEO in 2017, he remained on the board until 2019. Kalanick then founded Cloud Kitchens, a company that operates delivery-only kitchens for restaurants. His ventures have significantly impacted the tech and transportation sectors, shaping the modern sharing economy."
-      ],
-      "sections": [
-        {
-          "heading": "Uber",
-          "body": "Kalanick co-founded Uber in 2009, which grew to become a global transportation giant, transforming urban mobility and the gig economy."
-        },
-        {
-          "heading": "Cloud Kitchens",
-          "body": "After leaving Uber, Kalanick founded Cloud Kitchens, a company that operates delivery-only kitchens for restaurants, further disrupting the food delivery sector."
-        },
-        {
-          "heading": "Influence on Sharing Economy",
-          "body": "Travis Kalanick's ventures have had a significant impact on the sharing economy, influencing the way people think about transportation and food delivery services."
-        }
-      ]
-    },
-    "net_worth": "$3.60B"
-  },
-  {
-    "id": 75,
-    "name": "Michael Dell",
-    "slug": "michael-dell",
-    "bio": "Michael Dell is an American businessman and philanthropist, best known as the founder and CEO of Dell Technologies, one of the world's largest technology infrastructure companies.",
-    "known_for": "Building one of the world's largest technology infrastructure companies and being an influential figure in the tech industry.",
-    "net_worth_usd": 37600000000.0,
-    "net_worth_source": "https://www.wikidata.org/wiki/Q218630",
-    "net_worth_updated_at": "2026-03-19T15:06:02.916452",
-    "voice_tone": "",
-    "voice_style": "",
-    "voice_delivery_notes": "",
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-03-17 10:15:16",
-    "last_episode_title": "Stealth Startups and the Digitization of the Physical World",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-03-17",
-    "mention_score": 1,
-    "mention_score_decayed": 0.87,
-    "last_main_idea": "Invest in companies that are digitizing the physical world and transforming traditional industries through technology.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-19T21:22:53.714266",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Michael Dell",
-      "fetched_at": "2026-03-20T02:22:53.714063+00:00",
-      "cliff_notes": "Michael Dell founded Dell Technologies in 1984, originally named PCs Limited, at the age of 19. The company quickly grew to become one of the leading computer technology providers, specializing in manufacturing and selling personal computers, servers, and storage devices. Dell's innovative direct-sales model allowed customers to order custom-configured PCs, which streamlined the supply chain and reduced costs. Over the years, Dell Technologies expanded through acquisitions and strategic partnerships, becoming a multinational technology giant. Michael Dell's leadership and vision have been instrumental in shaping the company's success and its impact on the tech industry.",
-      "derived": {
-        "current_role": "Founder and CEO of Dell Technologies",
-        "education": "University of Texas at Austin; dropped out to focus on his business"
-      },
-      "infobox": {
-        "Born": "February 23, 1965",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Michael Dell founded Dell Technologies in 1984, originally named PCs Limited, at the age of 19. The company quickly grew to become one of the leading computer technology providers, specializing in manufacturing and selling personal computers, servers, and storage devices. Dell's innovative direct-sales model allowed customers to order custom-configured PCs, which streamlined the supply chain and reduced costs.",
-        "Over the years, Dell Technologies expanded through acquisitions and strategic partnerships, becoming a multinational technology giant. Michael Dell's leadership and vision have been instrumental in shaping the company's success and its impact on the tech industry."
-      ],
-      "sections": [
-        {
-          "heading": "Dell Technologies",
-          "body": "Michael Dell founded Dell Technologies in 1984, which grew to become one of the world's largest technology infrastructure companies. The company is known for its innovative direct-sales model and its wide range of computer technology products."
-        },
-        {
-          "heading": "Innovation and Growth",
-          "body": "Under Michael Dell's leadership, Dell Technologies has been at the forefront of technological innovation, constantly expanding its product offerings and market reach. The company's growth has been driven by strategic acquisitions, such as the acquisition of EMC Corporation in 2016, which significantly broadened its portfolio."
-        },
-        {
-          "heading": "Philanthropy",
-          "body": "Michael Dell is also known for his philanthropic efforts. Through the Michael & Susan Dell Foundation, he has made significant contributions to various causes, including education, urban health, and family economic stability."
-        }
-      ]
-    },
-    "net_worth": "$37.60B"
-  },
-  {
-    "id": 73,
-    "name": "Sam Altman",
-    "slug": "sam-altman",
-    "bio": "Sam Altman is a prominent figure in the tech industry, known for his work in startup incubation and contributions to artificial intelligence. He is currently the President of Y Combinator and Co-Chair of OpenAI. Altman has been influential in shaping the future of technology and entrepreneurship.",
-    "known_for": "His leadership in startup incubation and his role in advancing artificial intelligence through OpenAI.",
-    "net_worth_usd": 2100000000.0,
-    "net_worth_source": "https://en.wikipedia.org/wiki/Sam_Altman",
-    "net_worth_updated_at": "2026-03-19T15:49:02.565192",
-    "voice_tone": "",
-    "voice_style": "",
-    "voice_delivery_notes": "",
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-03-17 03:03:31",
-    "last_episode_title": "The AI CEO Arrives: Sam Altman's Succession Plan, Job Loss Continues, and Our 2027 'Solve Everything' Paper",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-02-17",
-    "mention_score": 1,
-    "mention_score_decayed": 0.85,
-    "last_main_idea": "Invest in AI and automation technologies that are driving the shift towards AI governance and efficiency in business operations.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-19T21:23:16.367259",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Sam Altman",
-      "fetched_at": "2026-03-20T02:23:16.367009+00:00",
-      "cliff_notes": "Sam Altman is an American entrepreneur and investor who has made significant contributions to the fields of startup incubation and artificial intelligence. He began his career in tech by founding Loopt, a location-based social network, which was later sold. Altman then joined Y Combinator, a startup accelerator, where he rose to become its President. In this role, he has been instrumental in nurturing and launching numerous successful startups. Concurrently, Altman co-founded OpenAI, a research laboratory focused on ensuring that artificial general intelligence benefits humanity. His work in both these domains has positioned him as a key player in the tech industry, influencing the trajectory of entrepreneurship and AI development.",
-      "derived": {
-        "current_role": "President of Y Combinator; Co-Chair of OpenAI",
-        "former_positions": "President of Y Combinator; Co-Chair of OpenAI",
-        "education": "Stanford University; dropout"
-      },
-      "infobox": {
-        "Born": "1985",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Sam Altman is an American entrepreneur and investor who has made significant contributions to the fields of startup incubation and artificial intelligence. He began his career in tech by founding Loopt, a location-based social network, which was later sold. Altman then joined Y Combinator, a startup accelerator, where he rose to become its President.",
-        "In this role, he has been instrumental in nurturing and launching numerous successful startups. Concurrently, Altman co-founded OpenAI, a research laboratory focused on ensuring that artificial general intelligence benefits humanity. His work in both these domains has positioned him as a key player in the tech industry, influencing the trajectory of entrepreneurship and AI development."
-      ],
-      "sections": [
-        {
-          "heading": "Startup Incubation",
-          "body": "Sam Altman has been a driving force in the startup ecosystem, particularly through his leadership at Y Combinator, which has helped launch and scale many successful companies."
-        },
-        {
-          "heading": "Artificial Intelligence",
-          "body": "Altman co-founded OpenAI, a research organization dedicated to the responsible development and application of AI technologies, ensuring they are aligned with the interests of humanity."
-        },
-        {
-          "heading": "Future of Work",
-          "body": "Altman has expressed views on the future of work, particularly in relation to AI and automation, suggesting that the next few years will be pivotal in setting the course for the next century."
-        }
-      ]
-    },
-    "net_worth": "$2.10B"
   }
 ]
 };
