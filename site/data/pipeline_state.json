@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-03-24T05:35:55.314904",
-  "last_updated": "2026-03-24T05:35:55.314904",
-  "last_pipeline_run": "2026-03-24T05:35:55.314904",
+  "generated_at": "2026-03-24T22:06:20.089895",
+  "last_updated": "2026-03-24T22:06:20.089895",
+  "last_pipeline_run": "2026-03-24T22:06:20.089895",
   "main_page": {
     "overton": 8,
     "insights": 8,
@@ -14,20 +14,37 @@
     "daily_scores": 78,
     "overton_terms_total": 16,
     "latest_insights_total": 91,
-    "today_mentions": {
-      "podcast": 1
-    },
+    "today_mentions": {},
     "podcasts_analyzed": 4
   },
   "step_results": {
     "downloaded": 5,
     "transcribed": 5,
     "analyzed": 5,
-    "insight_created": 1,
-    "published": 3,
+    "insight_created": 0,
+    "published": 2,
     "total": 8
   },
   "episodes": [
+    {
+      "id": "261c3a60-2718-11f1-9826-0395fc50b1af",
+      "podcast": "Moonshots with Peter Diamandis",
+      "title": "The AI CEO Arrives: Sam Altman's Succession Plan, Job Loss Continues, and Our 2027 'Solve Everything' Paper",
+      "published": "2026-03-24",
+      "rss_guid": "261c3a60-2718-11f1-9826-0395fc50b1af",
+      "stages": {
+        "downloaded": true,
+        "transcribed": true,
+        "analyzed": true,
+        "insight_created": false,
+        "published": false
+      },
+      "stage_reasons": {
+        "insight_created": "No latest_insights row for this episode (insight step not reflected in DB yet).",
+        "published": "added_to_site=0 (export/publish step not reflected in DB yet)."
+      },
+      "status": "needs_insight"
+    },
     {
       "id": "b1b247d2-249c-11f1-b4ca-131c5ebeca2c",
       "podcast": "Moonshots with Peter Diamandis",
@@ -147,22 +164,6 @@
       "status": "needs_download"
     },
     {
-      "id": "f489e0ff-a1d1-4857-806c-de656ae8a250",
-      "podcast": "The Jack Mallers Show",
-      "title": "When the Music Stops: Why Bitcoin is Next",
-      "published": "2026-03-24",
-      "rss_guid": "f489e0ff-a1d1-4857-806c-de656ae8a250",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "status": "complete"
-    },
-    {
       "id": "substack:post:190118311",
       "podcast": "Dwarkesh Podcast",
       "title": "Why Leonardo was a saboteur, Gutenberg went broke, and Florence was weird \u2013 Ada Palmer",
@@ -186,6 +187,13 @@
     }
   ],
   "available_from_rss": [
+    {
+      "podcast": "Moonshots with Peter Diamandis",
+      "title": "Eric Schmidt: Singularity's Arrival, the 92-Gigawatt Problem, and Recursive Self-Improvement Timelines | 241",
+      "published": "Tue, 24 Mar 2026 15:50:00 -0000",
+      "published_date": "2026-03-24",
+      "rss_guid": ""
+    },
     {
       "podcast": "The a16z Show",
       "title": "The Missing Power Layer of Modern Warfare",

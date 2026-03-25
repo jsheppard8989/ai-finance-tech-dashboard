@@ -5,7 +5,7 @@
     "reason_detail": "UnboundLocalError: local variable 'sidecar_has_date' referenced before assignment"
   },
   "EWWMN9153105374": {
-    "last_failed_at": "2026-03-24T05:23:12.129121",
+    "last_failed_at": "2026-03-24T22:03:03.871042",
     "reason_code": "analysis_error",
     "reason_detail": "UnboundLocalError: local variable 'sidecar_has_date' referenced before assignment"
   },
@@ -20,7 +20,7 @@
     "reason_detail": "UnboundLocalError: local variable 'sidecar_has_date' referenced before assignment"
   },
   "ALLIN-INTV_Jensen_V2_Ch": {
-    "last_failed_at": "2026-03-24T05:25:39.481382",
+    "last_failed_at": "2026-03-24T22:03:41.932764",
     "reason_code": "analysis_error",
     "reason_detail": "UnboundLocalError: local variable 'sidecar_has_date' referenced before assignment"
   },
@@ -45,12 +45,12 @@
     "reason_detail": "UnboundLocalError: local variable 'sidecar_has_date' referenced before assignment"
   },
   "monetary_matters_with_jack_farley_stock_market_on_shaky_foundations___blind_squirrel_macro_s_r_12c3cce4": {
-    "last_failed_at": "2026-03-24T05:31:43.970897",
+    "last_failed_at": "2026-03-24T22:04:50.609507",
     "reason_code": "analysis_error",
     "reason_detail": "UnboundLocalError: local variable 'sidecar_has_date' referenced before assignment"
   },
   "the_a16z_show_chris_dixon__from_quant_trading_to_building_a16z_crypto_be2e5b4b": {
-    "last_failed_at": "2026-03-24T05:32:14.091250",
+    "last_failed_at": "2026-03-24T22:05:13.786554",
     "reason_code": "analysis_error",
     "reason_detail": "UnboundLocalError: local variable 'sidecar_has_date' referenced before assignment"
   },

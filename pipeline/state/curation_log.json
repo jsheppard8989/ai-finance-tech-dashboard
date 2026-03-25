@@ -1,8 +1,21 @@
 {
-  "timestamp": "2026-03-24T05:21:08.011173",
+  "timestamp": "2026-03-24T22:02:19.546329",
   "total_feed_episodes": 8,
   "approved_for_transcription": 8,
   "episodes": [
+    {
+      "podcast": "Moonshots with Peter Diamandis",
+      "title": "Eric Schmidt: Singularity's Arrival, the 92-Gigawatt Problem, and Recursive Self-Improvement Timelines | 241",
+      "description": "\n        <p>This episode was filmed at the 2026 Abundance360 Summit. Learn more at <a href=\"http://a360.com\"><u>a360.com</u></a></p>\n<p><br></p>\n<p>Eric Schmidt ignites Abundance Summit 2026: AI's reasoning boom crushes code (20-80 human split), scaling laws unbound, orbital data centers, China's robot edge, energy/power crunches, recursive self-improvement asymptote, and steering ASI to American values amid geopolitical races.</p>\n<p><br></p>\n<p>Get access to metatrends 10+ years before anyone ",
+      "audio_url": "https://traffic.megaphone.fm/DVVTS4069152448.mp3",
+      "published": "Tue, 24 Mar 2026 15:50:00 -0000",
+      "published_date": "2026-03-24",
+      "rss_guid": "261c3a60-2718-11f1-9826-0395fc50b1af",
+      "status": "APPROVED",
+      "matched_keywords": [],
+      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/moonshots_with_peter_diamandis_eric_schmidt__singularity_s_arrival__the_92_gigawatt_problem_6dda3692.mp3",
+      "filename": "moonshots_with_peter_diamandis_eric_schmidt__singularity_s_arrival__the_92_gigawatt_problem_6dda3692.mp3"
+    },
     {
       "podcast": "Moonshots with Peter Diamandis",
       "title": "NVIDIA's $1 Trillion Prediction, Anthropic Beats OpenAI, Tesla vs. TSMC & The CS Job Collapse | 240",
@@ -80,19 +93,6 @@
       "matched_keywords": [],
       "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_chris_dixon__from_quant_trading_to_building_a16z_crypto_be2e5b4b.mp3",
       "filename": "the_a16z_show_chris_dixon__from_quant_trading_to_building_a16z_crypto_be2e5b4b.mp3"
-    },
-    {
-      "podcast": "The Jack Mallers Show",
-      "title": "When the Music Stops: Why Bitcoin Is Next",
-      "description": "<p>Streaming live Mondays at 6pm ET on The Jack Mallers Show YouTube channel.</p>\n",
-      "audio_url": "https://anchor.fm/s/e29097f4/podcast/play/117392450/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-2-24%2F420652061-44100-2-d86731987406.mp3",
-      "published": "Tue, 24 Mar 2026 07:54:42 GMT",
-      "published_date": "2026-03-24",
-      "rss_guid": "f489e0ff-a1d1-4857-806c-de656ae8a250",
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-2-24%2F420652061-44100-2-d86731987406.mp3",
-      "filename": "https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-2-24%2F420652061-44100-2-d86731987406.mp3",
-      "status": "APPROVED",
-      "matched_keywords": []
     },
     {
       "podcast": "Dwarkesh Podcast",

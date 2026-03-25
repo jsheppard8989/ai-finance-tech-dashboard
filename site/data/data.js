@@ -3,7 +3,7 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-03-24T05:35:57.455454",
+  generatedAt: "2026-03-24T22:06:22.279644",
   chartsVersion: "2026-03-24T05:35:54.007043",
   tickerScores: [
   {
@@ -9310,7 +9310,7 @@ const dashboardData = {
 ],
   podcastGuests: [
   {
-    "id": 603,
+    "id": 617,
     "name": "When the Music Stops",
     "slug": "when-the-music-stops",
     "bio": null,
@@ -9322,7 +9322,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 604,
+    "id": 618,
     "name": "Ground Infrastructure",
     "slug": "ground-infrastructure",
     "bio": null,
@@ -9334,7 +9334,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 605,
+    "id": 619,
     "name": "Rory Johnston",
     "slug": "rory-johnston",
     "bio": null,
@@ -9346,7 +9346,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 606,
+    "id": 620,
     "name": "Senator John Fetterman on Voting Rights",
     "slug": "senator-john-fetterman-on-voting-rights",
     "bio": null,
@@ -9358,7 +9358,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 607,
+    "id": 621,
     "name": "Elon Musk on Moonshots",
     "slug": "elon-musk-on-moonshots",
     "bio": null,
@@ -9370,7 +9370,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 608,
+    "id": 622,
     "name": "Investing in Capitalism",
     "slug": "investing-in-capitalism",
     "bio": null,
@@ -9382,7 +9382,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 609,
+    "id": 623,
     "name": "Harvard Professor Graham Allison",
     "slug": "harvard-professor-graham-allison",
     "bio": null,
@@ -9394,7 +9394,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 610,
+    "id": 624,
     "name": "Andrew Yang",
     "slug": "andrew-yang",
     "bio": "Andrew Yang is an entrepreneur and political leader who popularized universal basic income in U.S. politics through his 2020 presidential campaign.",
@@ -9406,7 +9406,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 611,
+    "id": 625,
     "name": "Ray Dalio",
     "slug": "ray-dalio",
     "bio": "Ray Dalio is the founder of Bridgewater Associates and a macro investor known for his 'Principles' framework and work on long-term debt cycles.",
@@ -9418,7 +9418,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 612,
+    "id": 626,
     "name": "Nobel Prize-winning economist Paul Krugman",
     "slug": "nobel-prize-winning-economist-paul-krugman",
     "bio": null,
@@ -9430,7 +9430,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 613,
+    "id": 627,
     "name": "host Jack Mallers",
     "slug": "host-jack-mallers",
     "bio": null,
@@ -9442,7 +9442,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 614,
+    "id": 628,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -9454,7 +9454,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 615,
+    "id": 629,
     "name": "Bosworth",
     "slug": "bosworth",
     "bio": null,
@@ -9466,7 +9466,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 616,
+    "id": 630,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -10253,7 +10253,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-02-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "The Picta AI Enhanced International Equity ETF (PQNT) uses AI to enhance international equity returns, suggesting a potential for outperformance through technology-driven investment strategies.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-19T22:19:12.461398",
@@ -10320,7 +10320,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "While not directly investment-focused, the episode provides insights into the political climate and potential policy directions that could indirectly affect various sectors and investment strategies.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-19T21:20:25.000396",
@@ -10383,7 +10383,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Invest in companies that are at the forefront of AI innovation, hardware manufacturing, and secure supply chain management to capitalize on the new geopolitics of technology and the reindustrialization of the US.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-19T21:20:41.027940",
@@ -10444,7 +10444,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "The current elevated oil prices and their subsequent impact on inflation and growth present a complex investment landscape, with stocks and bonds being particularly at risk. Investors should consider packaging trades to navigate these dynamics.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-19T21:21:05.284882",
@@ -10506,7 +10506,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-03-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "Invest in companies at the forefront of AI, robotics, and space technology, as these sectors are poised for significant growth and disruption.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-19T21:21:32.334592",
@@ -10567,7 +10567,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "Farmland represents an underutilized asset class with diversification benefits and potential for strong returns, particularly in the context of water scarcity and aging farmer demographics.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-19T21:21:47.025691",
@@ -10623,7 +10623,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "Investing in companies and technologies that are advancing the understanding and capabilities of LLMs could be a pathway to participate in the development of AGI.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-19T21:22:07.856822",

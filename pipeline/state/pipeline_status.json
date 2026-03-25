@@ -1,6 +1,47 @@
 {
-  "last_updated": "2026-03-24T05:35:55.419325",
+  "last_updated": "2026-03-24T22:06:20.209782",
   "episodes": {
+    "moonshots_with_peter_diamandis_eric_schmidt:_singularity's_ar": {
+      "info": {
+        "podcast": "Moonshots with Peter Diamandis",
+        "title": "Eric Schmidt: Singularity's Arrival, the 92-Gigawatt Problem, and Recursive Self-Improvement Timelines | 241",
+        "published": "2026-03-24",
+        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/moonshots_with_peter_diamandis_eric_schmidt__singularity_s_arrival__the_92_gigawatt_problem_6dda3692.mp3",
+        "keywords": [],
+        "rss_guid": "261c3a60-2718-11f1-9826-0395fc50b1af"
+      },
+      "stages": {
+        "downloaded": {
+          "complete": true,
+          "timestamp": null,
+          "reason": null
+        },
+        "transcribed": {
+          "complete": false,
+          "file": null,
+          "timestamp": null,
+          "reason": "Waiting for fetch/transcribe step"
+        },
+        "analyzed": {
+          "complete": false,
+          "episode_id": null,
+          "timestamp": null,
+          "reason": "Waiting for next analyze run (transcript \u2192 DB)."
+        },
+        "insight_created": {
+          "complete": false,
+          "timestamp": null,
+          "reason": "Depends on analyze step first."
+        },
+        "published": {
+          "complete": false,
+          "timestamp": null,
+          "reason": "Not in data.js yet (run export and push to site)."
+        }
+      },
+      "first_seen": "2026-03-24T22:06:20.093163",
+      "status": "needs_transcription"
+    },
     "moonshots_with_peter_diamandis_nvidia's_$1_trillion_predictio": {
       "info": {
         "podcast": "Moonshots with Peter Diamandis",
@@ -39,7 +80,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-24T05:35:55.317865",
+      "first_seen": "2026-03-24T22:06:20.132150",
       "status": "needs_analysis"
     },
     "moonshots_with_peter_diamandis_meta_buys_moltbook,_gpt_5.4,_a": {
@@ -80,7 +121,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-24T05:35:55.334998",
+      "first_seen": "2026-03-24T22:06:20.143012",
       "status": "blocked_analysis"
     },
     "monetary_matters_with_jack_farley_stock_market_on_shaky_foundati": {
@@ -121,7 +162,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-24T05:35:55.342835",
+      "first_seen": "2026-03-24T22:06:20.150277",
       "status": "blocked_analysis"
     },
     "the_a16z_show_the_missing_power_layer_of_mod": {
@@ -140,10 +181,10 @@
           "reason": null
         },
         "transcribed": {
-          "complete": false,
-          "file": null,
+          "complete": true,
+          "file": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/the_a16z_show_20260324_f3b05bf0_1952_46a7_8a05_23946f55.txt",
           "timestamp": null,
-          "reason": "Waiting for fetch/transcribe step"
+          "reason": null
         },
         "analyzed": {
           "complete": false,
@@ -162,8 +203,8 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-24T05:35:55.354811",
-      "status": "needs_transcription"
+      "first_seen": "2026-03-24T22:06:20.164603",
+      "status": "needs_analysis"
     },
     "the_a16z_show_ai_just_gave_you_superpowers_\u2014": {
       "info": {
@@ -203,7 +244,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-24T05:35:55.374335",
+      "first_seen": "2026-03-24T22:06:20.180231",
       "status": "blocked_analysis"
     },
     "the_a16z_show_chris_dixon:_from_quant_tradin": {
@@ -244,51 +285,8 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-24T05:35:55.384422",
+      "first_seen": "2026-03-24T22:06:20.188072",
       "status": "blocked_analysis"
-    },
-    "the_jack_mallers_show_when_the_music_stops:_why_bitc": {
-      "info": {
-        "podcast": "The Jack Mallers Show",
-        "title": "When the Music Stops: Why Bitcoin Is Next",
-        "published": "2026-03-24",
-        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-2-24%2F420652061-44100-2-d86731987406.mp3",
-        "keywords": [],
-        "rss_guid": "f489e0ff-a1d1-4857-806c-de656ae8a250"
-      },
-      "stages": {
-        "downloaded": {
-          "complete": true,
-          "timestamp": null,
-          "reason": null
-        },
-        "transcribed": {
-          "complete": true,
-          "file": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-2-24%2F420652061-44100-2-d86731987406.txt",
-          "timestamp": null,
-          "reason": null
-        },
-        "analyzed": {
-          "complete": true,
-          "episode_id": 100,
-          "timestamp": null,
-          "reason": null
-        },
-        "insight_created": {
-          "complete": true,
-          "insight_id": 46,
-          "insight_title": "AI Breaking the System and What It Means for Bitcoin",
-          "timestamp": null,
-          "reason": null
-        },
-        "published": {
-          "complete": false,
-          "timestamp": null,
-          "reason": "Not in data.js yet (run export and push to site)."
-        }
-      },
-      "first_seen": "2026-03-24T05:35:55.398281",
-      "status": "needs_export"
     },
     "dwarkesh_podcast_why_leonardo_was_a_saboteur,_g": {
       "info": {
@@ -328,7 +326,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-24T05:35:55.412617",
+      "first_seen": "2026-03-24T22:06:20.203271",
       "status": "blocked_analysis"
     }
   }
