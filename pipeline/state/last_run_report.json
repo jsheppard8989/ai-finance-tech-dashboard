@@ -1,9 +1,9 @@
 {
-  "last_run_iso": "2026-03-24T05:36:01.464173",
+  "last_run_iso": "2026-03-24T22:06:25.120664",
   "step_results": {
-    "transcripts_analyzed": 1,
+    "transcripts_analyzed": 0,
     "newsletters_imported": 0,
-    "insights_promoted": 1,
+    "insights_promoted": 0,
     "scores": 1,
     "pundits_enriched": 0
   },
@@ -14,9 +14,7 @@
     "daily_scores": 78,
     "overton_terms_total": 16,
     "latest_insights_total": 91,
-    "today_mentions": {
-      "podcast": 1
-    }
+    "today_mentions": {}
   },
   "errors": []
 }

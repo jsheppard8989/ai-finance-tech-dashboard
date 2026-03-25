@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-03-24T22:06:20.089895",
-  "last_updated": "2026-03-24T22:06:20.089895",
-  "last_pipeline_run": "2026-03-24T22:06:20.089895",
+  "generated_at": "2026-03-25T04:12:41.976718",
+  "last_updated": "2026-03-25T04:12:41.976718",
+  "last_pipeline_run": "2026-03-25T04:12:41.976718",
   "main_page": {
     "overton": 8,
     "insights": 8,
@@ -9,41 +9,38 @@
   },
   "counts": {
     "ticker_mentions": 140,
-    "podcast_episodes": 75,
+    "podcast_episodes": 77,
     "newsletters": 7,
     "daily_scores": 78,
     "overton_terms_total": 16,
-    "latest_insights_total": 91,
+    "latest_insights_total": 93,
     "today_mentions": {},
-    "podcasts_analyzed": 4
+    "podcasts_analyzed": 2
   },
   "step_results": {
     "downloaded": 5,
     "transcribed": 5,
     "analyzed": 5,
-    "insight_created": 0,
-    "published": 2,
+    "insight_created": 2,
+    "published": 3,
     "total": 8
   },
   "episodes": [
     {
       "id": "261c3a60-2718-11f1-9826-0395fc50b1af",
       "podcast": "Moonshots with Peter Diamandis",
-      "title": "The AI CEO Arrives: Sam Altman's Succession Plan, Job Loss Continues, and Our 2027 'Solve Everything' Paper",
+      "title": "The Future of AI and its Impact on Society and Investment",
       "published": "2026-03-24",
       "rss_guid": "261c3a60-2718-11f1-9826-0395fc50b1af",
       "stages": {
         "downloaded": true,
         "transcribed": true,
         "analyzed": true,
-        "insight_created": false,
-        "published": false
+        "insight_created": true,
+        "published": true
       },
-      "stage_reasons": {
-        "insight_created": "No latest_insights row for this episode (insight step not reflected in DB yet).",
-        "published": "added_to_site=0 (export/publish step not reflected in DB yet)."
-      },
-      "status": "needs_insight"
+      "stage_reasons": {},
+      "status": "complete"
     },
     {
       "id": "b1b247d2-249c-11f1-b4ca-131c5ebeca2c",
@@ -107,20 +104,18 @@
     {
       "id": "f3b05bf0-1952-46a7-8a05-23946f55f67a",
       "podcast": "The a16z Show",
-      "title": "The Geopolitics of Technology and the Future Economy",
+      "title": "The Tactical Power Layer for Modern Warfare",
       "published": "2026-03-24",
       "rss_guid": "f3b05bf0-1952-46a7-8a05-23946f55f67a",
       "stages": {
         "downloaded": true,
         "transcribed": true,
         "analyzed": true,
-        "insight_created": false,
+        "insight_created": true,
         "published": true
       },
-      "stage_reasons": {
-        "insight_created": "No latest_insights row for this episode (insight step not reflected in DB yet)."
-      },
-      "status": "needs_insight"
+      "stage_reasons": {},
+      "status": "complete"
     },
     {
       "id": "1e92a9dd-78da-4417-b1ce-4b4318d1f8c4",
@@ -189,20 +184,6 @@
   "available_from_rss": [
     {
       "podcast": "Moonshots with Peter Diamandis",
-      "title": "Eric Schmidt: Singularity's Arrival, the 92-Gigawatt Problem, and Recursive Self-Improvement Timelines | 241",
-      "published": "Tue, 24 Mar 2026 15:50:00 -0000",
-      "published_date": "2026-03-24",
-      "rss_guid": ""
-    },
-    {
-      "podcast": "The a16z Show",
-      "title": "The Missing Power Layer of Modern Warfare",
-      "published": "Tue, 24 Mar 2026 10:00:55 +0000",
-      "published_date": "2026-03-24",
-      "rss_guid": ""
-    },
-    {
-      "podcast": "Moonshots with Peter Diamandis",
       "title": "NVIDIA's $1 Trillion Prediction, Anthropic Beats OpenAI, Tesla vs. TSMC & The CS Job Collapse | 240",
       "published": "Sat, 21 Mar 2026 14:35:00 -0000",
       "published_date": "2026-03-21",
@@ -244,7 +225,7 @@
       "title": "Moonshots Podcast Episode #231 - OpenAI Acquires OpenClaw, 400x Cost Collapse, & Why India Wins the Talent War",
       "status": "needs_insight",
       "published": "2026-03-21",
-      "age_days": 3,
+      "age_days": 4,
       "next_blocker": "insight_created"
     },
     {
@@ -253,7 +234,7 @@
       "title": "Meta Buys Moltbook GPT 5.4 and Fruitfly Brain Upload",
       "status": "needs_insight",
       "published": "2026-03-17",
-      "age_days": 7,
+      "age_days": 8,
       "next_blocker": "insight_created"
     },
     {
@@ -262,7 +243,7 @@
       "title": "Stock Market on Shaky Foundations | Blind Squirrel Macro\u2019s Rupert Mitchell on IPO Supply, Oil, and Private Credit",
       "status": "needs_download",
       "published": "2026-03-18",
-      "age_days": 6,
+      "age_days": 7,
       "next_blocker": "downloaded"
     },
     {
@@ -271,7 +252,7 @@
       "title": "AI Startups and the Future of Technology",
       "status": "needs_insight",
       "published": "2026-03-19",
-      "age_days": 5,
+      "age_days": 6,
       "next_blocker": "insight_created"
     },
     {
@@ -280,7 +261,7 @@
       "title": "Chris Dixon: From Quant Trading to Building a16z Crypto",
       "status": "needs_download",
       "published": "2026-03-02",
-      "age_days": 22,
+      "age_days": 23,
       "next_blocker": "downloaded"
     },
     {
@@ -289,7 +270,7 @@
       "title": "Why Leonardo was a saboteur, Gutenberg went broke, and Florence was weird \u2013 Ada Palmer",
       "status": "needs_download",
       "published": "2026-03-06",
-      "age_days": 18,
+      "age_days": 19,
       "next_blocker": "downloaded"
     }
   ],

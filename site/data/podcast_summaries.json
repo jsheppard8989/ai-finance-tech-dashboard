@@ -1,5 +1,40 @@
 [
   {
+    "id": 102,
+    "podcast_name": "The a16z Show",
+    "episode_title": "The Tactical Power Layer for Modern Warfare",
+    "episode_date": "2026-03-24",
+    "summary": "In this episode of 'The a16z Show', Aaron Price Wright speaks with Adam Warmouth, founder and CEO of Chariot Defense, and Alex Miller, CTO of the US Army, about the growing importance of power systems in modern warfare. They discuss the shift towards an electronic battlefield and the need for a tactical power layer that can support the increasing electronic capabilities of the military without giving away their position or becoming a liability. The conversation covers the inefficiencies of current power solutions and how Chariot Defense is addressing these challenges with innovative power systems that are more intelligent and tactical.",
+    "key_takeaways": [
+      "The modern battlefield is becoming increasingly electronic, necessitating a new power layer.",
+      "Current power solutions like diesel generators are inefficient and create a tactical signature, making them a liability.",
+      "Chariot Defense is building next-generation power systems that are more intelligent and tactical, aiming to make power invisible to the enemy.",
+      "The US Army is pushing for faster adoption of new technology to keep pace with the evolving battlefield.",
+      "The focus should be on powering the right things and making that power invisible, rather than just powering more things."
+    ],
+    "investment_thesis": "Investing in companies that can provide innovative power solutions for the modern, electronic battlefield can offer significant opportunities as military forces worldwide seek to upgrade their capabilities.",
+    "key_tickers": null
+  },
+  {
+    "id": 101,
+    "podcast_name": "Moonshots with Peter Diamandis",
+    "episode_title": "The Future of AI and its Impact on Society and Investment",
+    "episode_date": "2026-03-24",
+    "summary": "In this episode of Moonshots with Peter Diamandis, the discussion revolves around the historic moment we are living in, particularly focusing on the rapid advancements in AI and their implications on society and investment. The conversation covers the current state of AI, the potential for recursive self-improvement, the impact of AI on various industries, and the importance of aligning AI development with human values. The guests emphasize the need for a proactive approach to ensure that AI advancements contribute to abundance and are in alignment with humanity.",
+    "key_takeaways": [
+      "AI advancements are at a historic inflection point with significant impacts on society and investment.",
+      "Recursive self-improvement in AI is not yet realized, but its potential is both exciting and terrifying.",
+      "The US and China are seen as key competitors in the AI race, with China currently leading in robotic hardware.",
+      "AI's growth is exponential, and there is a consensus that 'agents' will play a significant role in the near future.",
+      "The discussion highlights the importance of aligning AI with human values to ensure its positive impact on society.",
+      "AI safety is a critical concern, and a tragic event may be necessary to awaken the world to the dangers of AI."
+    ],
+    "investment_thesis": "Invest in AI and robotics sectors as they are poised for significant growth and disruption, with a focus on companies that align with human values and contribute to abundance.",
+    "key_tickers": [
+      "NVDA"
+    ]
+  },
+  {
     "id": 100,
     "podcast_name": "The Jack Mallers Show",
     "episode_title": "When the Music Stops: Why Bitcoin is Next",

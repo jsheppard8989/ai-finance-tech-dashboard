@@ -3,8 +3,8 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-03-24T22:06:22.279644",
-  chartsVersion: "2026-03-24T05:35:54.007043",
+  generatedAt: "2026-03-25T04:12:43.629189",
+  chartsVersion: "2026-03-25T04:12:41.124509",
   tickerScores: [
   {
     "ticker": "GOOGL",
@@ -737,6 +737,48 @@ const dashboardData = {
       "podcast_episode_id": 100
     },
     {
+      "id": 118,
+      "title": "The Tactical Power Layer for Modern Warfare",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-03-24",
+      "summary": "In this episode of 'The a16z Show', Aaron Price Wright speaks with Adam Warmouth, founder and CEO of Chariot Defense, and Alex Miller, CTO of the US Army, about the growing importance of power systems in modern warfare. They discuss the shift towards an electronic battlefield and the need for a tactical power layer that can support the increasing electronic capabilities of the military without giving away their position or becoming a liability. The conversation covers the inefficiencies of current power solutions and how Chariot Defense is addressing these challenges with innovative power systems that are more intelligent and tactical.",
+      "key_takeaway": "Investing in companies that can provide innovative power solutions for the modern, electronic battlefield can offer significant opportunities as military forces worldwide seek to upgrade their capabilities.",
+      "tickers_mentioned": [
+        "AAPL",
+        "NVDA",
+        "TSLA",
+        "BA",
+        "LMT"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-25",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 102
+    },
+    {
+      "id": 119,
+      "title": "The Future of AI and its Impact on Society and Investment",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-03-24",
+      "summary": "In this episode of Moonshots with Peter Diamandis, the discussion revolves around the historic moment we are living in, particularly focusing on the rapid advancements in AI and their implications on society and investment. The conversation covers the current state of AI, the potential for recursive self-improvement, the impact of AI on various industries, and the importance of aligning AI development with human values. The guests emphasize the need for a proactive approach to ensure that AI advancements contribute to abundance and are in alignment with humanity.",
+      "key_takeaway": "Invest in AI and robotics sectors as they are poised for significant growth and disruption, with a focus on companies that align with human values and contribute to abundance.",
+      "tickers_mentioned": [
+        "NVDA"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-25",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 101
+    },
+    {
       "id": 112,
       "title": "California's Spending Woes and the Governor's Race",
       "source_type": "podcast",
@@ -854,11 +896,11 @@ const dashboardData = {
         "TSLA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-21",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-25",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 94
     },
     {
@@ -873,11 +915,11 @@ const dashboardData = {
         "PLTR"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-21",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-25",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 93
     },
     {
@@ -2875,6 +2917,48 @@ const dashboardData = {
       "key_tickers": []
     },
     {
+      "id": 118,
+      "title": "The Tactical Power Layer for Modern Warfare",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-03-24",
+      "summary": "In this episode of 'The a16z Show', Aaron Price Wright speaks with Adam Warmouth, founder and CEO of Chariot Defense, and Alex Miller, CTO of the US Army, about the growing importance of power systems in modern warfare. They discuss the shift towards an electronic battlefield and the need for a tactical power layer that can support the increasing electronic capabilities of the military without giving away their position or becoming a liability. The conversation covers the inefficiencies of current power solutions and how Chariot Defense is addressing these challenges with innovative power systems that are more intelligent and tactical.",
+      "key_takeaway": "Investing in companies that can provide innovative power solutions for the modern, electronic battlefield can offer significant opportunities as military forces worldwide seek to upgrade their capabilities.",
+      "tickers_mentioned": "[\"AAPL\", \"NVDA\", \"TSLA\", \"BA\", \"LMT\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-25",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 102,
+      "episode_release_date": "2026-03-24",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
+      "id": 119,
+      "title": "The Future of AI and its Impact on Society and Investment",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-03-24",
+      "summary": "In this episode of Moonshots with Peter Diamandis, the discussion revolves around the historic moment we are living in, particularly focusing on the rapid advancements in AI and their implications on society and investment. The conversation covers the current state of AI, the potential for recursive self-improvement, the impact of AI on various industries, and the importance of aligning AI development with human values. The guests emphasize the need for a proactive approach to ensure that AI advancements contribute to abundance and are in alignment with humanity.",
+      "key_takeaway": "Invest in AI and robotics sectors as they are poised for significant growth and disruption, with a focus on companies that align with human values and contribute to abundance.",
+      "tickers_mentioned": "[\"NVDA\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-25",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 101,
+      "episode_release_date": "2026-03-24",
+      "guest_name": null,
+      "key_tickers": [
+        "NVDA"
+      ]
+    },
+    {
       "id": 112,
       "title": "California's Spending Woes and the Governor's Race",
       "source_type": "podcast",
@@ -2978,48 +3062,6 @@ const dashboardData = {
       "guest_name": null,
       "key_tickers": [
         "CORN"
-      ]
-    },
-    {
-      "id": 110,
-      "title": "The Impact of AI on Mathematics and Scientific Discovery",
-      "source_type": "podcast",
-      "source_name": "Dwarkesh Podcast",
-      "source_date": "2026-03-20",
-      "summary": "In this episode, the host interviews Terrence Tau, discussing the historical context of Kepler's discovery of the laws of planetary motion and drawing parallels to the current impact of AI on mathematics. The conversation explores how AI can revolutionize the experimental side of mathematics, the potential for AI to solve complex problems, and the implications for careers in mathematics in light of AI advancements.",
-      "key_takeaway": "The integration of AI into mathematics can accelerate discovery and problem-solving, presenting opportunities for investment in AI technology and its applications in scientific research.",
-      "tickers_mentioned": "[\"AAPL\", \"NVDA\", \"GOOGL\", \"MSFT\", \"TSLA\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-03-21",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 94,
-      "episode_release_date": "2026-03-20",
-      "guest_name": null,
-      "key_tickers": []
-    },
-    {
-      "id": 111,
-      "title": "The A16z Show: Winning the AI Race and American Competitiveness",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-03-20",
-      "summary": "In this episode of The A16z Show, guest Shamsankar and host Katherine Boyle discuss the importance of American competitiveness in the AI race, particularly as it moves towards more physical AI and robotics. They explore the historical context of American innovation during World War II and how the shift in defense spending has affected national security. The conversation also touches on the software industry's focus on sales over value, the impact of COVID on software usage, and the potential for AI infrastructure and chips to accrue value in the future.",
-      "key_takeaway": "Invest in companies and technologies that contribute to American competitiveness and national security, especially in AI and defense-related sectors.",
-      "tickers_mentioned": "[\"PLTR\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-03-21",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 93,
-      "episode_release_date": "2026-03-20",
-      "guest_name": null,
-      "key_tickers": [
-        "PLTR"
       ]
     }
   ],
@@ -9256,61 +9298,132 @@ const dashboardData = {
     "source_name": "The Jack Mallers Show",
     "source_date": "2026-03-24",
     "key_tickers": []
+  },
+  "118": {
+    "id": 109,
+    "insight_id": 118,
+    "podcast_episode_id": 102,
+    "overview": "The modern battlefield is becoming increasingly electronic, with soldiers requiring 30-60 watts of power continuously, akin to a mid-tier laptop running all the time. This shift demands a new tactical power layer to support advanced capabilities like drones, sensors, and electronic warfare systems. The current power infrastructure, reliant on diesel generators and fixed bases, is inadequate for the distributed and contested nature of future warfare. Chariot Defense, led by Adam Warmouth, is addressing this gap by building next-generation power systems that are smart, tactical, and\u9690\u5f62 to the enemy. This analysis explores the investment implications of this power infrastructure transformation in the context of modern warfare.",
+    "key_takeaways_detailed": [
+      "The shift towards electronic warfare necessitates a new power infrastructure that is both efficient and tactically invisible.",
+      "Chariot Defense is pioneering the development of integrated battery, power electronics, and microcontroller systems for the battlefield.",
+      "Investment in companies with technologies that can support the new power requirements of modern warfare could yield significant returns.",
+      "The US Army's push for rapid tech deployment indicates a willingness to adopt innovative solutions, creating opportunities for tech providers.",
+      "The inefficiency of current power solutions, with generators often running at a fraction of their capacity, presents both a risk and an opportunity for improvement."
+    ],
+    "investment_thesis": "The core investment logic revolves around the urgent need for a new tactical power layer in modern warfare. As the US Army and other military forces global shift towards more electronic and distributed operations, there is a significant catalyst for companies that can provide efficient, reliable, and stealthy power solutions. The timeframe for this thesis is medium to long-term, as the development and deployment of such technologies will take time but will be a continuous need as technology advances. The catalysts include ongoing military modernization efforts, increased defense spending, and the proliferation of electronic warfare capabilities among global powers.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's technology and engineering prowess position it to potentially provide advanced power management solutions for military applications.",
+        "positioning": "Consider a long-term strategic position in AAPL, as their technology could be integral to the new power infrastructure.",
+        "risk": "The risk lies in Apple's potential lack of focus on military-specific solutions and the unpredictability of defense contracts."
+      },
+      "NVDA": {
+        "rationale": "Nvidia's expertise in GPUs and AI could be leveraged for edge AI and electronic warfare systems, which are power-intensive.",
+        "positioning": "A long-term strategic position in NVDA could be beneficial as their technology aligns with the power needs of advanced military systems.",
+        "risk": "The risk includes the company's heavy reliance on the consumer market and potential disruptions in the semiconductor supply chain."
+      },
+      "TSLA": {
+        "rationale": "Tesla's experience with battery technology and power management could translate into military applications, especially for electric vehicles and power storage.",
+        "positioning": "A medium-term tactical position in TSLA could be considered, as their technology might be adapted for military use.",
+        "risk": "The risk is associated with Tesla's primary focus on the automotive sector and the potential for military contracts to be less profitable."
+      },
+      "BA": {
+        "rationale": "Boeing's extensive experience in defense contracts and aircraft could position it to integrate new power systems into existing and future military platforms.",
+        "positioning": "A long-term strategic position in BA could be appropriate, given their established presence in the defense industry.",
+        "risk": "The risk includes the company's exposure to broader aerospace market fluctuations and the potential for delays in military procurement processes."
+      },
+      "LMT": {
+        "rationale": "Lockheed Martin's broad portfolio in defense technology makes it a key player in the development and integration of new power systems for various military applications.",
+        "positioning": "A long-term strategic position in LMT is recommended due to their significant role in modernizing military capabilities.",
+        "risk": "The risk is associated with the company's reliance on government contracts, which can be subject to budget cuts and political changes."
+      }
+    },
+    "positioning_guidance": "Investors should consider a diversified approach, with a mix of long-term strategic positions in companies with core technologies relevant to the new power infrastructure, and medium-term tactical positions in companies that may adapt their technologies for military use. Entry points should be based on market conditions and the specific development milestones of each company. Investors should also consider hedging against geopolitical risks and fluctuations in defense spending.",
+    "risk_factors": [
+      "The pace of military modernization and the adoption of new power technologies could be slower than expected.",
+      "There is a risk that current power solutions may be adapted to meet new requirements, reducing the need for entirely new systems.",
+      "Geopolitical tensions and budget constraints could impact defense spending and the procurement of new technologies.",
+      "Technological advancements by potential adversaries could render current power solutions obsolete.",
+      "Regulatory and ethical considerations could slow the deployment of new electronic warfare capabilities."
+    ],
+    "contrarian_signals": [
+      "Investors may underestimate the speed at which the battlefield is becoming electronic, leading to a delayed response to the need for new power solutions.",
+      "There is a potential overemphasis on high-tech solutions, while\u5ffd\u89c6ing the need for robust, reliable, and low-profile power systems that can operate in contested environments.",
+      "The focus on new power systems may overshadow the importance of improving the efficiency and stealth of existing power solutions."
+    ],
+    "catalysts": [
+      "Upcoming defense budget allocations and spending reviews in the US and other countries.",
+      "Military exercises and operations that highlight the need for new power solutions in real-world scenarios.",
+      "Technological breakthroughs in battery technology, power management, and energy efficiency.",
+      "New defense contracts awarded for the development and deployment of next-generation power systems.",
+      "International collaborations and partnerships aimed at advancing military power solutions."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-03-25T04:11:59.352669",
+    "updated_at": "2026-03-25 09:11:59",
+    "insight_title": "The Tactical Power Layer for Modern Warfare",
+    "source_name": "The a16z Show",
+    "source_date": "2026-03-24",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
   {
-    "id": 89,
-    "term": "True Interest Expense",
-    "definition": "The actual cost of borrowing for the U.S. government, which is currently more than the tax receipts it receives, indicating a fiscal imbalance.",
-    "investment_implications": "Investors should monitor true interest expense as an indicator of fiscal health and potential market instability.",
+    "id": 95,
+    "term": "Chariot Defense",
+    "definition": null,
+    "investment_implications": null,
+    "source_type": "auto_extracted",
+    "mention_count": 2,
+    "source_diversity": 1,
+    "relevance_score": 30,
+    "submitted_date": "2026-03-25 09:12:41",
+    "priority_score": 70
+  },
+  {
+    "id": 93,
+    "term": "Tactical Power Layer",
+    "definition": "A system designed to provide power to military operations in a way that is both efficient and does not compromise their position or\u5b89\u5168\u6027.",
+    "investment_implications": "Investors should look for companies developing solutions that can meet the growing demand for power in military operations without increasing risk.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-03-24 10:30:37",
+    "submitted_date": "2026-03-25 09:10:12",
     "priority_score": 80
   },
   {
-    "id": 90,
-    "term": "Deflationary Technology Force",
-    "definition": "A technology, like AI, that has the potential to reduce prices by increasing efficiency and productivity, which can disrupt traditional economic models.",
-    "investment_implications": "Investors should consider the impact of deflationary technologies on inflation expectations and asset valuations.",
+    "id": 94,
+    "term": "Electronic Battlefield",
+    "definition": "A modern battlefield that relies heavily on electronic systems such as drones, sensors, and electronic warfare systems, requiring a significant amount of power.",
+    "investment_implications": "The shift towards electronic battlefields presents an opportunity for companies that can provide reliable and tactical power solutions.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-03-24 10:30:37",
+    "submitted_date": "2026-03-25 09:10:12",
     "priority_score": 80
   },
   {
-    "id": 87,
-    "term": "Space Mesh",
-    "definition": "A network of satellites connected back to Earth, requiring ground infrastructure to function effectively.",
-    "investment_implications": "Investors should consider the role of ground infrastructure in the overall performance and utility of satellite networks.",
+    "id": 91,
+    "term": "Recursive Self-Improvement",
+    "definition": "The ability of a system to improve its own design and functionality autonomously.",
+    "investment_implications": "Investors should monitor companies at the forefront of developing self-improving AI systems.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-03-24 09:39:24",
-    "priority_score": 80
-  },
-  {
-    "id": 88,
-    "term": "Inner Satellite Links",
-    "definition": "Links between satellites that reduce latency and improve data transmission efficiency in space.",
-    "investment_implications": "Inner satellite links could be a complementary technology to ground stations, enhancing overall space communication networks.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-03-24 09:39:24",
+    "submitted_date": "2026-03-25 09:07:25",
     "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 617,
+    "id": 631,
     "name": "When the Music Stops",
     "slug": "when-the-music-stops",
     "bio": null,
@@ -9322,7 +9435,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 618,
+    "id": 632,
     "name": "Ground Infrastructure",
     "slug": "ground-infrastructure",
     "bio": null,
@@ -9334,7 +9447,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 619,
+    "id": 633,
     "name": "Rory Johnston",
     "slug": "rory-johnston",
     "bio": null,
@@ -9346,7 +9459,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 620,
+    "id": 634,
     "name": "Senator John Fetterman on Voting Rights",
     "slug": "senator-john-fetterman-on-voting-rights",
     "bio": null,
@@ -9358,7 +9471,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 621,
+    "id": 635,
     "name": "Elon Musk on Moonshots",
     "slug": "elon-musk-on-moonshots",
     "bio": null,
@@ -9370,7 +9483,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 622,
+    "id": 636,
     "name": "Investing in Capitalism",
     "slug": "investing-in-capitalism",
     "bio": null,
@@ -9382,7 +9495,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 623,
+    "id": 637,
     "name": "Harvard Professor Graham Allison",
     "slug": "harvard-professor-graham-allison",
     "bio": null,
@@ -9394,7 +9507,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 624,
+    "id": 638,
     "name": "Andrew Yang",
     "slug": "andrew-yang",
     "bio": "Andrew Yang is an entrepreneur and political leader who popularized universal basic income in U.S. politics through his 2020 presidential campaign.",
@@ -9406,7 +9519,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 625,
+    "id": 639,
     "name": "Ray Dalio",
     "slug": "ray-dalio",
     "bio": "Ray Dalio is the founder of Bridgewater Associates and a macro investor known for his 'Principles' framework and work on long-term debt cycles.",
@@ -9418,7 +9531,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 626,
+    "id": 640,
     "name": "Nobel Prize-winning economist Paul Krugman",
     "slug": "nobel-prize-winning-economist-paul-krugman",
     "bio": null,
@@ -9430,7 +9543,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 627,
+    "id": 641,
     "name": "host Jack Mallers",
     "slug": "host-jack-mallers",
     "bio": null,
@@ -9442,7 +9555,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 628,
+    "id": 642,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -9454,7 +9567,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 629,
+    "id": 643,
     "name": "Bosworth",
     "slug": "bosworth",
     "bio": null,
@@ -9466,7 +9579,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 630,
+    "id": 644,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -9479,6 +9592,189 @@ const dashboardData = {
   }
 ],
   pundits: [
+  {
+    "id": 110,
+    "name": "Adam Warmouth",
+    "slug": "adam-warmouth",
+    "bio": "Adam Warmouth is the Founder and CEO of Chariot Defense, a company that specializes in developing next-generation power systems for military operations. His focus is on creating innovative power solutions that enhance the capabilities of soldiers on the battlefield, especially in the context of an increasingly electronic warfare environment.",
+    "known_for": "Developing tactical power solutions for the modern battlefield, enhancing soldier capabilities and stealth.",
+    "net_worth_usd": 1200000000.0,
+    "net_worth_source": "https://explore.st-aug.edu/exp/adam-22s-net-worth-shocked-the-business-world-the-untold-secrets-behind-his-billionairestyle-wealth",
+    "net_worth_updated_at": "2026-03-25T04:10:45.707150",
+    "voice_tone": "Informed and solution-focused",
+    "voice_style": "Practical and results-oriented",
+    "voice_delivery_notes": "Clear and concise with a focus on the impact of their solutions",
+    "voice_profile_updated_at": "2026-03-25 09:10:12",
+    "last_seen": "2026-03-25 09:10:12",
+    "last_episode_title": "The Tactical Power Layer for Modern Warfare",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-03-24",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investing in companies that can provide innovative power solutions for the modern, electronic battlefield can offer significant opportunities as military forces worldwide seek to upgrade their capabilities.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-25T04:10:43.350646",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Adam Warmouth",
+      "fetched_at": "2026-03-25T09:10:43.350416+00:00",
+      "cliff_notes": "Adam Warmouth is recognized for his work in the field of military power solutions, particularly as the founder and CEO of Chariot Defense. His company is at the forefront of developing next-generation power systems designed to support soldiers in the field, focusing on the increasing electronic demands of modern warfare. Warmouth's innovations aim to provide soldiers with the necessary power to operate advanced equipment without compromising their position or safety. His work is crucial in addressing the power gap in military operations, ensuring that soldiers have the tools they need to succeed in a technologically advanced battlefield.",
+      "derived": {
+        "current_role": "Founder and CEO of Chariot Defense"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Adam Warmouth is recognized for his work in the field of military power solutions, particularly as the founder and CEO of Chariot Defense. His company is at the forefront of developing next-generation power systems designed to support soldiers in the field, focusing on the increasing electronic demands of modern warfare.",
+        "Warmouth's innovations aim to provide soldiers with the necessary power to operate advanced equipment without compromising their position or safety. His work is crucial in addressing the power gap in military operations, ensuring that soldiers have the tools they need to succeed in a technologically advanced battlefield."
+      ],
+      "sections": [
+        {
+          "heading": "Innovative Power Solutions",
+          "body": "Adam Warmouth is dedicated to creating power solutions that are both efficient and effective for military use, focusing on reducing the tactical signature and increasing the stealth capabilities of soldiers in the field."
+        },
+        {
+          "heading": "Electronic Battlefield",
+          "body": "Warmouth's work is crucial in the shift towards an electronic battlefield, where the demand for power is increasing and the need for stealth is paramount. His solutions aim to support soldiers with the power they need without compromising their safety."
+        },
+        {
+          "heading": "Tactical Power Layer",
+          "body": "Chariot Defense, under Warmouth's leadership, is building a tactical power layer that supports robotic workers in the field. This layer is designed to provide the necessary power for active operations while maintaining a low tactical signature."
+        }
+      ]
+    },
+    "net_worth": "$1.20B"
+  },
+  {
+    "id": 111,
+    "name": "Alex Miller",
+    "slug": "alex-miller",
+    "bio": "Alex Miller is the Chief Technology Officer (CTO) of the US Army, where he is instrumental in driving the adoption of new technologies in military operations. His focus is on enhancing soldier capabilities and efficiency through technological innovation, with a particular emphasis on power management and electronic battlefield strategies.",
+    "known_for": "Pioneering the integration of advanced technology to modernize military operations and improve soldier effectiveness.",
+    "net_worth_usd": 3.61,
+    "net_worth_source": "https://gb.youtubers.me/alex-miller-0ddce971-62a9-44a1-8903-ac7f890f556b/youtube-estimated-earnings",
+    "net_worth_updated_at": "2026-03-25T04:11:02.194518",
+    "voice_tone": "Authoritative and strategic",
+    "voice_style": "Direct and focused on outcomes",
+    "voice_delivery_notes": "Confident and assertive, emphasizing the need for change",
+    "voice_profile_updated_at": "2026-03-25 09:10:12",
+    "last_seen": "2026-03-25 09:10:12",
+    "last_episode_title": "The Tactical Power Layer for Modern Warfare",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-03-24",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investing in companies that can provide innovative power solutions for the modern, electronic battlefield can offer significant opportunities as military forces worldwide seek to upgrade their capabilities.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-25T04:10:59.120340",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Alex Miller",
+      "fetched_at": "2026-03-25T09:10:59.120234+00:00",
+      "cliff_notes": "Alex Miller serves as the Chief Technology Officer for the US Army, a role that places him at the forefront of military technological advancement. His career has been marked by a commitment to leveraging cutting-edge technology to enhance the capabilities of soldiers in the field. Miller's work is particularly focused on the development and implementation of power solutions that can support the increasing electronic demands of modern warfare. His efforts aim to reduce the tactical signature of military operations, thereby decreasing the risk of detection and targeting by adversaries. Miller's contributions are significant in shaping the future of military technology, emphasizing stealth, efficiency, and the empowerment of individual soldiers through technological advancements.",
+      "derived": {
+        "current_role": "CTO of the US Army"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Alex Miller serves as the Chief Technology Officer for the US Army, a role that places him at the forefront of military technological advancement. His career has been marked by a commitment to leveraging cutting-edge technology to enhance the capabilities of soldiers in the field. Miller's work is particularly focused on the development and implementation of power solutions that can support the increasing electronic demands of modern warfare.",
+        "His efforts aim to reduce the tactical signature of military operations, thereby decreasing the risk of detection and targeting by adversaries. Miller's contributions are significant in shaping the future of military technology, emphasizing stealth, efficiency, and the empowerment of individual soldiers through technological advancements."
+      ],
+      "sections": [
+        {
+          "heading": "Military Technology",
+          "body": "Alex Miller is dedicated to the advancement of military technology, focusing on how it can be used to improve soldier performance and safety."
+        },
+        {
+          "heading": "Power Management",
+          "body": "Miller emphasizes the importance of power management in military operations, working to create solutions that provide the necessary power without compromising operational secrecy."
+        },
+        {
+          "heading": "Electronic Battlefield",
+          "body": "He is a proponent of moving towards an electronic battlefield, where technology plays a central role in strategic operations and tactical advantages."
+        },
+        {
+          "heading": "Soldier Empowerment",
+          "body": "A key aspect of Miller's work is the empowerment of soldiers through technology, ensuring they have the tools they need to operate effectively in various conditions."
+        }
+      ]
+    },
+    "net_worth": "$4"
+  },
+  {
+    "id": 109,
+    "name": "Eric Schmidt",
+    "slug": "eric-schmidt",
+    "bio": "Eric Schmidt is a prominent figure in the technology industry, known for his leadership at Google and contributions to the tech sector. He served as CEO of Google and later as Chairman of Alphabet Inc., guiding the company through significant growth and innovation.",
+    "known_for": "His influential leadership at Google and shaping the direction of Alphabet Inc., impacting the global tech landscape.",
+    "net_worth_usd": 12900000000.0,
+    "net_worth_source": "https://www.wikidata.org/wiki/Q92747",
+    "net_worth_updated_at": "2026-03-25T04:11:28.701167",
+    "voice_tone": "Inquisitive and experienced.",
+    "voice_style": "Analytical with a focus on the big picture.",
+    "voice_delivery_notes": "Speaks with authority and a measured pace.",
+    "voice_profile_updated_at": "2026-03-25 09:07:25",
+    "last_seen": "2026-03-25 09:07:25",
+    "last_episode_title": "The Future of AI and its Impact on Society and Investment",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-03-24",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in AI and robotics sectors as they are poised for significant growth and disruption, with a focus on companies that align with human values and contribute to abundance.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-25T04:11:26.668471",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Eric Schmidt",
+      "fetched_at": "2026-03-25T09:11:26.668361+00:00",
+      "cliff_notes": "Eric Schmidt began his career in technology, moving through various roles before becoming the CEO of Novell. He later joined Google as its CEO, where he played a pivotal role in the company's rapid growth and expansion. Under his leadership, Google became a dominant force in the tech industry. After stepping down as CEO, Schmidt served as the Executive Chairman of Google, and later as Chairman of Alphabet Inc., the parent company of Google. He has also held a board seat at Apple Inc. and has been involved in various philanthropic endeavors. His insights into technology and its impact on society are highly regarded, and he continues to influence the tech world through his advisory roles and public commentary.",
+      "derived": {
+        "former_positions": "CEO of Google; Chairman of Alphabet Inc.; Board member of Apple Inc.; CEO of Novell",
+        "boards": "Alphabet Inc.; Apple Inc.",
+        "education": "Bachelor's degree in Electrical Engineering and Computer Science from Princeton University; Master's degree and Ph.D. in Computer Science from the University of California, Berkeley",
+        "books_or_works": "The New Digital Age: Reshaping the Future of People, Nations and Business (co-authored with Jared Cohen)",
+        "teaching_summary": "Guest lectures at Stanford University"
+      },
+      "infobox": {
+        "Born": "1955",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Eric Schmidt began his career in technology, moving through various roles before becoming the CEO of Novell. He later joined Google as its CEO, where he played a pivotal role in the company's rapid growth and expansion. Under his leadership, Google became a dominant force in the tech industry. After stepping down as CEO, Schmidt served as the Executive Chairman of Google, and later as Chairman of Alphabet Inc., the parent company of Google.",
+        "He has also held a board seat at Apple Inc. and has been involved in various philanthropic endeavors. His insights into technology and its impact on society are highly regarded, and he continues to influence the tech world through his advisory roles and public commentary."
+      ],
+      "sections": [
+        {
+          "heading": "Leadership at Google",
+          "body": "Eric Schmidt served as the CEO of Google from 2001 to 2011, overseeing the company's transformation into a global technology giant."
+        },
+        {
+          "heading": "Chairman of Alphabet Inc.",
+          "body": "Schmidt took on the role of Executive Chairman at Google following his tenure as CEO, and later became Chairman of Alphabet Inc., the parent company of Google."
+        },
+        {
+          "heading": "Contributions to Tech",
+          "body": "His leadership and strategic vision have been instrumental in shaping Google's technological advancements and its impact on the industry."
+        },
+        {
+          "heading": "Global Competition",
+          "body": "Schmidt has expressed concerns about global competition, particularly with China, and the importance of maintaining a competitive edge in key technological sectors."
+        }
+      ]
+    },
+    "net_worth": "$12.90B"
+  },
   {
     "id": 108,
     "name": "Bridget Memplar",
@@ -10079,7 +10375,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-02-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "Investing in AI and robotics companies that leverage neural networks for autonomous manufacturing could yield significant returns as this market is expected to become the largest economy globally.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-19T22:16:04.041005",
@@ -10140,7 +10436,7 @@ const dashboardData = {
     "last_podcast_name": "a16z Live",
     "last_episode_date": "2026-02-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "Invest in companies that are at the forefront of developing AI-enabled, immersive technologies that can redefine consumer interactions beyond the current app-centric model.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-19T22:17:07.326933",
@@ -10199,7 +10495,7 @@ const dashboardData = {
     "last_podcast_name": null,
     "last_episode_date": null,
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": null,
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-19T22:17:58.321307",
@@ -10487,181 +10783,6 @@ const dashboardData = {
       ]
     },
     "net_worth": "$760,000"
-  },
-  {
-    "id": 81,
-    "name": "Elon Musk",
-    "slug": "elon-musk",
-    "bio": "Elon Musk is an entrepreneur and CEO known for his work in electric vehicles and space exploration. He is the CEO of Tesla, an electric car manufacturer, and SpaceX, a space exploration company. Musk is recognized for his innovative technologies and ambitious projects in sustainable energy and space travel.",
-    "known_for": "Elon Musk is known for his leadership in electric vehicles and space exploration, revolutionizing sustainable energy and pushing the boundaries of space technology.",
-    "net_worth_usd": 270100000000.0,
-    "net_worth_source": "https://www.wikidata.org/wiki/Q317521",
-    "net_worth_updated_at": "2026-03-19T15:06:00.316451",
-    "voice_tone": "",
-    "voice_style": "",
-    "voice_delivery_notes": "",
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-03-17 22:17:06",
-    "last_episode_title": "Elon Musk on Moonshots: Discussing AI, Robotics, and Future Technologies",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-03-17",
-    "mention_score": 1,
-    "mention_score_decayed": 0.85,
-    "last_main_idea": "Invest in companies at the forefront of AI, robotics, and space technology, as these sectors are poised for significant growth and disruption.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-19T21:21:32.334592",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Elon Musk",
-      "fetched_at": "2026-03-20T02:21:32.334474+00:00",
-      "cliff_notes": "Elon Musk is a South African-born entrepreneur who has made significant contributions to the fields of electric vehicles and space exploration. He co-founded Zip2, a web software company, which was acquired by Compaq for nearly $300 million. Musk then co-founded X.com, which later became PayPal and was acquired by eBay for $1.5 billion. He then founded SpaceX in 2002, with the goal of reducing space transportation costs and enabling the colonization of Mars. In 2004, Musk became an early investor in Tesla, which he later took over as CEO, transforming the electric vehicle industry. Musk's companies have disrupted traditional industries and have a significant impact on sustainable energy and space travel.",
-      "derived": {
-        "current_role": "CEO of Tesla and SpaceX",
-        "former_positions": "CEO of SolarCity; CEO of Zip2; Co-founder of PayPal",
-        "boards": "Tesla, SpaceX, Neuralink, The Boring Company",
-        "education": "Bachelor of Science in Physics and Economics from the University of Pennsylvania; Attended Stanford University for Ph.D. in Physics",
-        "political_affiliation": "Independent"
-      },
-      "infobox": {
-        "Born": "June 28, 1971",
-        "Nationality": "South African-American"
-      },
-      "lead_paragraphs": [
-        "Elon Musk is a South African-born entrepreneur who has made significant contributions to the fields of electric vehicles and space exploration. He co-founded Zip2, a web software company, which was acquired by Compaq for nearly $300 million. Musk then co-founded X.com, which later became PayPal and was acquired by eBay for $1.5 billion.",
-        "He then founded SpaceX in 2002, with the goal of reducing space transportation costs and enabling the colonization of Mars. In 2004, Musk became an early investor in Tesla, which he later took over as CEO, transforming the electric vehicle industry. Musk's companies have disrupted traditional industries and have a significant impact on sustainable energy and space travel."
-      ],
-      "sections": [
-        {
-          "heading": "Tesla",
-          "body": "Tesla, founded by Elon Musk, is an electric vehicle and clean energy company that designs, manufactures, and sells electric cars, solar energy generation systems, and energy storage products. Tesla has revolutionized the electric vehicle industry and is a leader in sustainable energy solutions."
-        },
-        {
-          "heading": "SpaceX",
-          "body": "Space Exploration Technologies Corp. (SpaceX) is a private aerospace manufacturer and space transportation company founded by Elon Musk. SpaceX has developed the Falcon 1, Falcon 9, and Falcon Heavy rockets, and the Dragon spacecraft, aiming to reduce space transportation costs and enable the colonization of Mars."
-        },
-        {
-          "heading": "Sustainable Energy",
-          "body": "Elon Musk's companies, Tesla and SolarCity, have been instrumental in the development and deployment of sustainable energy solutions. Tesla's electric vehicles and SolarCity's solar energy generation systems have contributed significantly to the transition towards renewable energy sources."
-        }
-      ]
-    },
-    "net_worth": "$270.10B"
-  },
-  {
-    "id": 79,
-    "name": "Chris Morris",
-    "slug": "chris-morris",
-    "bio": "Chris Morris is the President of Lampun Partners, an institutional farmland investment firm specializing in acquiring and managing high-quality irrigated row crop farmland in the mid-South region of the United States. He oversees the management of over $400 million in farmland assets and has delivered strong returns through Lampun Partners' Soil Enrichment Fund.",
-    "known_for": "Delivering strong returns through Lampun Partners' Soil Enrichment Fund and managing over $400 million in farmland assets.",
-    "net_worth_usd": 39218.0,
-    "net_worth_source": "https://www.gurufocus.com/insider/244914/christopher-morris",
-    "net_worth_updated_at": "2026-03-19T15:48:55.367811",
-    "voice_tone": "",
-    "voice_style": "",
-    "voice_delivery_notes": "",
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-03-17 13:39:56",
-    "last_episode_title": "Monetary Matters with Jack Farley: Farmland Investment Insights",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-03-17",
-    "mention_score": 1,
-    "mention_score_decayed": 0.85,
-    "last_main_idea": "Farmland represents an underutilized asset class with diversification benefits and potential for strong returns, particularly in the context of water scarcity and aging farmer demographics.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-19T21:21:47.025691",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Chris Morris",
-      "fetched_at": "2026-03-20T02:21:47.025574+00:00",
-      "cliff_notes": "Chris Morris serves as the President of Lampun Partners, an institutional farmland investment firm that focuses on acquiring and managing high-quality irrigated row crop farmland in the mid-South region of the United States. His leadership has been instrumental in overseeing the management of over $400 million in farmland assets, with a particular emphasis on the Soil Enrichment Fund, which has outperformed the S&P 500 since its inception in October 2021. Morris's expertise in the alternative asset class of farmland investment has positioned Lampun Partners as a significant player in the real assets market, contributing to the diversification of investment portfolios and providing investors with access to a traditionally stable and lucrative sector.",
-      "derived": {
-        "current_role": "President of Lampun Partners"
-      },
-      "infobox": {
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Chris Morris serves as the President of Lampun Partners, an institutional farmland investment firm that focuses on acquiring and managing high-quality irrigated row crop farmland in the mid-South region of the United States. His leadership has been instrumental in overseeing the management of over $400 million in farmland assets, with a particular emphasis on the Soil Enrichment Fund, which has outperformed the S&P 500 since its inception in October 2021.",
-        "Morris's expertise in the alternative asset class of farmland investment has positioned Lampun Partners as a significant player in the real assets market, contributing to the diversification of investment portfolios and providing investors with access to a traditionally stable and lucrative sector."
-      ],
-      "sections": [
-        {
-          "heading": "Farmland Investment",
-          "body": "Chris Morris is recognized for his role in farmland investment, particularly through Lampun Partners, where he manages over $400 million in assets."
-        },
-        {
-          "heading": "Soil Enrichment Fund",
-          "body": "Morris is known for the success of Lampun Partners' Soil Enrichment Fund, which has delivered mid-teen net returns and outperformed the S&P 500 since its inception."
-        },
-        {
-          "heading": "Alternative Assets",
-          "body": "He has contributed to the understanding and growth of farmland as an alternative asset class, providing insights into this sector's potential for investors."
-        }
-      ]
-    },
-    "net_worth": "$39,218"
-  },
-  {
-    "id": 77,
-    "name": "Shal Misra",
-    "slug": "shal-misra",
-    "bio": "Shal Misra is a Professor and Vice Dean of Computing at Columbia University. He is recognized for his work on mathematically modeling the function of Large Language Models (LLMs) and exploring their limitations in achieving Artificial General Intelligence (AGI).",
-    "known_for": "His research on the mechanics of LLMs and their limitations in achieving AGI.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "",
-    "voice_style": "",
-    "voice_delivery_notes": "",
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-03-17 11:58:39",
-    "last_episode_title": "Understanding the Mechanics of Large Language Models (LLMs) and the Path to AGI",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-03-17",
-    "mention_score": 1,
-    "mention_score_decayed": 0.85,
-    "last_main_idea": "Investing in companies and technologies that are advancing the understanding and capabilities of LLMs could be a pathway to participate in the development of AGI.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-19T21:22:07.856822",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Shal Misra",
-      "fetched_at": "2026-03-20T02:22:07.856697+00:00",
-      "cliff_notes": "Shal Misra is a distinguished academic in the field of computing, currently serving as a Professor and Vice Dean of Computing at Columbia University. His research primarily focuses on understanding the mechanics of Large Language Models (LLMs) and their limitations in achieving Artificial General Intelligence (AGI). Misra's work involves mathematically modeling the function of LLMs, showing how they update their predictions in a precise, mathematically predictable way. His research has demonstrated that while LLMs excel at pattern matching, they do not build models of cause and effect, a critical distinction from true intelligence. Misra's contributions to the understanding of LLMs are significant, as they provide a deeper insight into the capabilities and limitations of current AI technology, shaping the discourse around the development of AGI.",
-      "derived": {
-        "current_role": "Professor and Vice Dean of Computing at Columbia University",
-        "books_or_works": "Series of papers on the mechanics of LLMs and their limitations in achieving AGI",
-        "teaching_summary": "Professorship in Computing at Columbia University"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Shal Misra is a distinguished academic in the field of computing, currently serving as a Professor and Vice Dean of Computing at Columbia University. His research primarily focuses on understanding the mechanics of Large Language Models (LLMs) and their limitations in achieving Artificial General Intelligence (AGI). Misra's work involves mathematically modeling the function of LLMs, showing how they update their predictions in a precise, mathematically predictable way.",
-        "His research has demonstrated that while LLMs excel at pattern matching, they do not build models of cause and effect, a critical distinction from true intelligence. Misra's contributions to the understanding of LLMs are significant, as they provide a deeper insight into the capabilities and limitations of current AI technology, shaping the discourse around the development of AGI."
-      ],
-      "sections": [
-        {
-          "heading": "LLMs and AGI",
-          "body": "Shal Misra is known for his research into the mechanics of Large Language Models and their limitations in achieving Artificial General Intelligence. His work involves mathematically modeling how LLMs function and predicting their limitations in understanding cause and effect."
-        },
-        {
-          "heading": "Pattern Matching vs Intelligence",
-          "body": "Misra argues that while LLMs are adept at pattern matching, they do not possess true intelligence as they fail to build models of cause and effect. This distinction is crucial in understanding the capabilities and limitations of current AI technology."
-        },
-        {
-          "heading": "Mathematical Modeling",
-          "body": "Misra's research involves creating mathematical models to understand how LLMs function. His models have shown that in controlled experiments, LLMs can match the theoretically correct answer almost perfectly, highlighting their proficiency in pattern recognition."
-        }
-      ]
-    }
   }
 ]
 };

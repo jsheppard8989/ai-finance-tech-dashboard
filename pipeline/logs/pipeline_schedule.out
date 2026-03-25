@@ -13115,4 +13115,191 @@ Finished: 2026-03-24 22:06:18.974417
 STEP: Generate Charts
 ============================================================
 
-STDERR: 
+STDERR: Traceback (most recent call last):
+  File "/Users/jaredsheppard/.openclaw/workspace/pipeline/generate_charts.py", line 7, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+
+✗ Generate Charts failed
+
+============================================================
+STEP: Auto-Curate Terms
+============================================================
+ a key pathway to scalable super intellige...
+
+• Adaptability
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: The ability to adjust and respond effectively to new conditions or challenges, seen as key to surviv...
+
+• Exponential Organizations
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: Organizations that leverage new technologies and strategies to grow at an exponential rate, rather t...
+
+• Defense Reformation
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: The shift in defense strategy and spending towards more technology and AI-focused solutions....
+
+• AI Infrastructure
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: The underlying technology and systems that support AI applications, including hardware and software....
+
+• Experimental Mathematics
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: The application of empirical and computational methods to mathematical problems, often involving lar...
+
+• Hybrid Human-AI Approach
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A collaborative model where human mathematicians and AI systems work together to solve complex probl...
+
+• Grassroots Power
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: Building bottom-up power by connecting voters around issues they are passionate about and helping th...
+
+• Smart Grid
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: An electrical grid that uses digital technology to monitor and manage the transport of electricity f...
+
+• Arbitrage Opportunity
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A situation where the same or similar assets or property sell for two different prices, creating a c...
+
+• Strait of Hormuz
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A narrow strait between Iran and Oman through which a significant portion of the world's oil passes....
+
+• Stagflation
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A situation in which the economy is stagnant while inflation is high, often due to high oil prices....
+
+• Model Specialization
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: The trend where AI models are becoming more specialized in their capabilities, catering to specific ...
+
+• Space Mesh
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A network of satellites connected back to Earth, requiring ground infrastructure to function effecti...
+
+• Inner Satellite Links
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: Links between satellites that reduce latency and improve data transmission efficiency in space....
+
+• True Interest Expense
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: The actual cost of borrowing for the U.S. government, which is currently more than the tax receipts ...
+
+• Deflationary Technology Force
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A technology, like AI, that has the potential to reduce prices by increasing efficiency and producti...
+
+✓ Auto-Curate Terms completed
+
+============================================================
+STEP: Extract Podcast Guests
+============================================================
+============================================================
+Extract Podcast Guests
+============================================================
+Processing 75 processed episodes
+  ✓ When the Music Stops ← The Jack Mallers Show (2026-03-24)
+  ✓ Ground Infrastructure ← The a16z Show (2026-03-23)
+  ✓ Rory Johnston ← Monetary Matters with Jack Farley (2026-03-19)
+  ✓ Senator John Fetterman on Voting Rights ← All-In with Chamath, Jason, Sacks & Friedberg (2026-03-18)
+  ✓ Elon Musk on Moonshots ← Moonshots with Peter Diamandis (2026-03-17)
+  ✓ Investing in Capitalism ← All-In with Chamath, Jason, Sacks & Friedberg (2026-03-13)
+  ✓ Harvard Professor Graham Allison ← All-In with Chamath, Jason, Sacks & Friedberg (2026-03-09)
+  ✓ Andrew Yang ← Moonshots with Peter Diamandis (2026-03-07)
+  ✓ Ray Dalio ← All-In with Chamath, Jason, Sacks & Friedberg (2026-03-03)
+  ✓ Nobel Prize-winning economist Paul Krugman ← Monetary Matters with Jack Farley (2026-02-19)
+  ✓ host Jack Mallers ← The Jack Mallers Show (2026-02-19)
+  ✓ Ben Horowitz ← Moonshots with Peter Diamandis (2026-02-19)
+  ✓ Bosworth ← a16z Live (2026-02-15)
+  ✓ Milton Berg ← Monetary Matters with Jack Farley (2026-02-06)
+
+✓ Done. 14 guest(s) in database.
+
+✓ Extract Podcast Guests completed
+
+============================================================
+STEP: Export Website Data
+============================================================
+============================================================
+Exporting Website Data
+============================================================
+✓ Exported website data to /Users/jaredsheppard/.openclaw/workspace/site/data
+✓ Exported: {'ticker_scores': 47, 'podcast_summaries': 20, 'archive_items': 107, 'podcast_guests': 14, 'pundits': 20}
+🔍 Scanning podcast pipeline...
+
+
+================================================================================
+📊 PODCAST PIPELINE STATUS
+================================================================================
+
+📈 Pipeline Summary (8 total episodes tracked):
+  ✅ Downloaded:       8 / 8
+  ✅ Transcribed:      7 / 8
+  ✅ Analyzed:         0 / 8
+  ✅ Insight Created:  0 / 8
+  ✅ Published:        0 / 8
+
+🔍 Episodes Needing Attention:
+
+  📝 Pending Transcription (1):
+    - Eric Schmidt: Singularity's Arrival, the 92-Gigawa
+
+  🔬 Pending Analysis (7):
+    - NVIDIA's $1 Trillion Prediction, Anthropic Beats O
+    - Meta Buys Moltbook, GPT 5.4, and Fruitfly Brain Up
+    - Stock Market on Shaky Foundations | Blind Squirrel
+    - The Missing Power Layer of Modern Warfare
+    - AI Just Gave You Superpowers — Now What?
+    - Chris Dixon: From Quant Trading to Building a16z C
+    - Why Leonardo was a saboteur, Gutenberg went broke,
+
+✅ Complete Episodes (All Stages):
+    (None yet)
+
+📅 Last Updated: 2026-03-24T22:06:20.209782
+📁 Status file: /Users/jaredsheppard/.openclaw/workspace/pipeline/state/pipeline_status.json
+================================================================================
+  ✓ Exported pipeline_state.json: 8 tracked
+
+============================================================
+Generating Website JavaScript
+============================================================
+✓ Generated data.js with 47 tickers, 107 archive items, 91 deep dives, 4 suggested terms, 14 legacy guests, 20 pundits; chartsVersion=2026-03-24T05:35:54.007043
+✓ Bumped data.js cache-buster to v=1774407982
+
+============================================================
+STEP: Push to GitHub
+============================================================
+✓ Pushed to GitHub: Pipeline update 2026-03-24 22:06: 0 podcasts, 0 insights, 0 newsletters
+Nothing new — skipping notification
+
+============================================================
+PIPELINE COMPLETE
+Finished: 2026-03-24 22:06:25.120664
+============================================================
+📊 Pipeline Complete
+
+📈 1 tickers scored
+
+Top tickers today:
+  C.O.R.N: score 60
+
+🌐 Website updated

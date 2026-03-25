@@ -23,6 +23,48 @@
       "podcast_episode_id": 100
     },
     {
+      "id": 118,
+      "title": "The Tactical Power Layer for Modern Warfare",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-03-24",
+      "summary": "In this episode of 'The a16z Show', Aaron Price Wright speaks with Adam Warmouth, founder and CEO of Chariot Defense, and Alex Miller, CTO of the US Army, about the growing importance of power systems in modern warfare. They discuss the shift towards an electronic battlefield and the need for a tactical power layer that can support the increasing electronic capabilities of the military without giving away their position or becoming a liability. The conversation covers the inefficiencies of current power solutions and how Chariot Defense is addressing these challenges with innovative power systems that are more intelligent and tactical.",
+      "key_takeaway": "Investing in companies that can provide innovative power solutions for the modern, electronic battlefield can offer significant opportunities as military forces worldwide seek to upgrade their capabilities.",
+      "tickers_mentioned": [
+        "AAPL",
+        "NVDA",
+        "TSLA",
+        "BA",
+        "LMT"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-25",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 102
+    },
+    {
+      "id": 119,
+      "title": "The Future of AI and its Impact on Society and Investment",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-03-24",
+      "summary": "In this episode of Moonshots with Peter Diamandis, the discussion revolves around the historic moment we are living in, particularly focusing on the rapid advancements in AI and their implications on society and investment. The conversation covers the current state of AI, the potential for recursive self-improvement, the impact of AI on various industries, and the importance of aligning AI development with human values. The guests emphasize the need for a proactive approach to ensure that AI advancements contribute to abundance and are in alignment with humanity.",
+      "key_takeaway": "Invest in AI and robotics sectors as they are poised for significant growth and disruption, with a focus on companies that align with human values and contribute to abundance.",
+      "tickers_mentioned": [
+        "NVDA"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-25",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 101
+    },
+    {
       "id": 112,
       "title": "California's Spending Woes and the Governor's Race",
       "source_type": "podcast",
@@ -140,11 +182,11 @@
         "TSLA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-21",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-25",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 94
     },
     {
@@ -159,11 +201,11 @@
         "PLTR"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-21",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-25",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 93
     },
     {

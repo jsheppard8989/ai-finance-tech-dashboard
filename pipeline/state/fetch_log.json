@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-03-24T22:02:24.876359",
+  "timestamp": "2026-03-25T04:06:21.449695",
   "results": [
     {
       "podcast": "Moonshots with Peter Diamandis",
       "title": "Eric Schmidt: Singularity's Arrival, the 92-Gigawatt Problem, and Recursive Self-Improvement Timelines | 241",
       "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/DVVTS4069152448.mp3",
-      "transcript_path": null,
-      "success": false
+      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/DVVTS4069152448.txt",
+      "success": true
     },
     {
       "podcast": "The a16z Show",
