@@ -3,7 +3,7 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-03-25T04:12:43.629189",
+  generatedAt: "2026-03-25T22:12:11.543583",
   chartsVersion: "2026-03-25T04:12:41.124509",
   tickerScores: [
   {
@@ -9369,6 +9369,79 @@ const dashboardData = {
     "source_name": "The a16z Show",
     "source_date": "2026-03-24",
     "key_tickers": []
+  },
+  "119": {
+    "id": 110,
+    "insight_id": 119,
+    "podcast_episode_id": 101,
+    "overview": "We are at the cusp of a historic moment in the evolution of artificial intelligence (AI), with significant implications for society and investment. The rapid advancement of AI, particularly in the areas of reasoning systems and recursive self-improvement, is poised to disrupt traditional industries and create new investment opportunities. The San Francisco consensus suggests that AI agents will proliferate and revolutionize various sectors within the next two to three years, leading to a potential super intelligence moment. This deep dive analysis explores the investment thesis, key takeaways, and specific tickers that are likely to be impacted by these developments.",
+    "key_takeaways_detailed": [
+      "AI advancements are accelerating, with hardware improvements outpacing software, suggesting a longer-term growth trajectory for robotics and digital systems.",
+      "Recursive self-improvement in AI, while not yet realized, is a critical area of development that could lead to exponential growth in AI capabilities.",
+      "The rise of AI agents as partners for human reasoning has profound implications for the workforce, potentially increasing the value of top-tier programmers and creating a bifurcated market with a few large companies and many small ones.",
+      "Investors should focus on companies at the forefront of AI development, as well as those poised to benefit from the AI-driven transformation of industries.",
+      "The geographic competition, particularly between the US and China, will shape the global landscape of AI, influencing where investments are best placed."
+    ],
+    "investment_thesis": "The core investment logic revolves around identifying and investing in companies that are leading the AI revolution or are well-positioned to capitalize on its transformative effects. Catalysts include technological breakthroughs in AI reasoning and self-improvement, as well as the adoption of AI by traditional industries. The timeframe for this thesis is medium to long-term, as the full impact of AI on society and the economy is expected to unfold over the next several years.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's significant investment in AI research and development, along with its vast resources, positions it to lead in the creation and application of advanced AI technologies.",
+        "positioning": "Long-term strategic position, as Apple's ecosystem and R&D capabilities are likely to yield sustained growth in the AI era.",
+        "risk": "Regulatory challenges and potential disruptions in the global supply chain could impact Apple's AI initiatives."
+      },
+      "NVDA": {
+        "rationale": "NVIDIA is a key player in the development of AI hardware, particularly GPUs, which are essential for training and running AI models.",
+        "positioning": "Medium to long-term strategic position, as demand for AI hardware is expected to grow exponentially.",
+        "risk": "Competition from other chip manufacturers and potential shifts in AI model requirements could affect NVIDIA's market position."
+      },
+      "GOOGL": {
+        "rationale": "Google's deep investment in AI research and its broad range of services make it a central player in the AI revolution.",
+        "positioning": "Long-term strategic position, with a focus on Google's ability to integrate AI across its product offerings.",
+        "risk": "Regulatory scrutiny over data privacy and potential backlash against tech monopolies could hinder Google's AI initiatives."
+      },
+      "TSLA": {
+        "rationale": "Tesla's leadership in electric vehicles and autonomous driving technology positions it to benefit from AI advancements.",
+        "positioning": "Medium-term tactical position, as Tesla's adoption of AI could drive near-term growth but is also subject to competitive pressures.",
+        "risk": "Technological setbacks in autonomous driving and increased competition in the EV market pose risks to Tesla's valuation."
+      },
+      "BIDU": {
+        "rationale": "Baidu's focus on AI, including autonomous driving and conversational AI, aligns with the growing importance of AI in various industries.",
+        "positioning": "Medium to long-term strategic position, as Baidu's AI initiatives in China could provide significant growth opportunities.",
+        "risk": "Geopolitical tensions and regulatory changes in China could impact Baidu's ability to capitalize on AI advancements."
+      }
+    },
+    "positioning_guidance": "Investors should consider a diversified approach, with a mix of long-term strategic positions in companies leading the AI revolution and medium-term tactical positions in companies poised to benefit from AI adoption. Entry points should be based on market conditions and individual risk tolerance, with a focus on companies demonstrating clear AI capabilities and a strategic vision. Hedges may include investments in companies that could be disrupted by AI, to balance potential risks.",
+    "risk_factors": [
+      "Regulatory changes that could impede AI development or limit data usage.",
+      "Technological setbacks or failures in AI systems that could slow down the adoption of AI.",
+      "Geopolitical tensions that could disrupt global AI supply chains or limit collaboration.",
+      "Ethical concerns surrounding AI, which could lead to public backlash and affect AI companies' reputations.",
+      "Rapid changes in AI technology that could render current investments obsolete."
+    ],
+    "contrarian_signals": [
+      "The potential for AI to create new jobs and industries, countering the narrative of widespread job displacement.",
+      "The possibility that AI development may not progress as quickly as expected, due to technical challenges or ethical considerations.",
+      "The emergence of new AI players that could disrupt the current market leaders, altering the competitive landscape."
+    ],
+    "catalysts": [
+      "Upcoming AI-related conferences and events that could showcase new technologies and drive investment interest.",
+      "Release of new AI products or services by leading companies, which could signal the next phase of AI adoption.",
+      "Regulatory decisions that could either support or hinder AI development, affecting the investment landscape.",
+      "Advancements in AI hardware, such as new chip designs, which could accelerate AI capabilities.",
+      "Global economic shifts that could influence the demand for AI solutions and the pace of AI adoption across industries."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-03-25T22:09:35.313097",
+    "updated_at": "2026-03-26 03:09:35",
+    "insight_title": "The Future of AI and its Impact on Society and Investment",
+    "source_name": "Moonshots with Peter Diamandis",
+    "source_date": "2026-03-24",
+    "key_tickers": [
+      "NVDA"
+    ]
   }
 },
   suggestedTerms: [
@@ -9378,11 +9451,11 @@ const dashboardData = {
     "definition": null,
     "investment_implications": null,
     "source_type": "auto_extracted",
-    "mention_count": 2,
-    "source_diversity": 1,
-    "relevance_score": 30,
+    "mention_count": 3,
+    "source_diversity": 2,
+    "relevance_score": 35,
     "submitted_date": "2026-03-25 09:12:41",
-    "priority_score": 70
+    "priority_score": 105
   },
   {
     "id": 93,
@@ -9423,7 +9496,7 @@ const dashboardData = {
 ],
   podcastGuests: [
   {
-    "id": 631,
+    "id": 645,
     "name": "When the Music Stops",
     "slug": "when-the-music-stops",
     "bio": null,
@@ -9435,7 +9508,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 632,
+    "id": 646,
     "name": "Ground Infrastructure",
     "slug": "ground-infrastructure",
     "bio": null,
@@ -9447,7 +9520,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 633,
+    "id": 647,
     "name": "Rory Johnston",
     "slug": "rory-johnston",
     "bio": null,
@@ -9459,7 +9532,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 634,
+    "id": 648,
     "name": "Senator John Fetterman on Voting Rights",
     "slug": "senator-john-fetterman-on-voting-rights",
     "bio": null,
@@ -9471,7 +9544,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 635,
+    "id": 649,
     "name": "Elon Musk on Moonshots",
     "slug": "elon-musk-on-moonshots",
     "bio": null,
@@ -9483,7 +9556,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 636,
+    "id": 650,
     "name": "Investing in Capitalism",
     "slug": "investing-in-capitalism",
     "bio": null,
@@ -9495,7 +9568,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 637,
+    "id": 651,
     "name": "Harvard Professor Graham Allison",
     "slug": "harvard-professor-graham-allison",
     "bio": null,
@@ -9507,7 +9580,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 638,
+    "id": 652,
     "name": "Andrew Yang",
     "slug": "andrew-yang",
     "bio": "Andrew Yang is an entrepreneur and political leader who popularized universal basic income in U.S. politics through his 2020 presidential campaign.",
@@ -9519,7 +9592,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 639,
+    "id": 653,
     "name": "Ray Dalio",
     "slug": "ray-dalio",
     "bio": "Ray Dalio is the founder of Bridgewater Associates and a macro investor known for his 'Principles' framework and work on long-term debt cycles.",
@@ -9531,7 +9604,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 640,
+    "id": 654,
     "name": "Nobel Prize-winning economist Paul Krugman",
     "slug": "nobel-prize-winning-economist-paul-krugman",
     "bio": null,
@@ -9543,7 +9616,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 641,
+    "id": 655,
     "name": "host Jack Mallers",
     "slug": "host-jack-mallers",
     "bio": null,
@@ -9555,7 +9628,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 642,
+    "id": 656,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -9567,7 +9640,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 643,
+    "id": 657,
     "name": "Bosworth",
     "slug": "bosworth",
     "bio": null,
@@ -9579,7 +9652,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 644,
+    "id": 658,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -9793,7 +9866,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-23",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Investing in ground infrastructure for space can unlock the next wave of innovation, making space missions more useful and efficient.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-24T04:43:11.153707",
@@ -9850,7 +9923,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-23",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Invest in companies that can leverage the evolving landscape of AI and GPU computing, particularly those with the agility to adapt and scale in a rapidly changing market.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-24T04:43:59.032721",
@@ -9908,7 +9981,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-23",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Svellen Capital sees opportunities in commodities and shipping markets amidst the Middle East crisis, with a focus on the practical implications of geopolitical events on global trade and logistics.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-24T04:44:35.945959",
@@ -9956,9 +10029,9 @@ const dashboardData = {
     "slug": "josh-lindville",
     "bio": "Josh Lindville is the Vice President of Fertilizer at Stone X, where he specializes in trading fertilizer futures and OTC products. He provides market insights and information to the agricultural industry, with a focus on the impact of global events on fertilizer prices.",
     "known_for": "His expertise in analyzing the effects of geopolitical events on fertilizer prices and their implications for agriculture and food prices.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
+    "net_worth_usd": 15000000000.0,
+    "net_worth_source": "https://www.linkedin.com/in/joshua-linville-9555a711/",
+    "net_worth_updated_at": "2026-03-25T22:09:09.372188",
     "voice_tone": "Knowledgeable and concerned about the impact of geopolitical events on fertilizer prices.",
     "voice_style": "Factual and data-driven, with a focus on the implications for the agriculture industry.",
     "voice_delivery_notes": "Speaks with a sense of urgency, emphasizing the severity of the situation.",
@@ -9968,7 +10041,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "The disruption in fertilizer supply due to geopolitical tensions presents an opportunity in agricultural commodities, particularly corn, which is heavily impacted by rising input costs and could see price support from tightened supply.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-23T04:22:03.060297",
@@ -10002,7 +10075,8 @@ const dashboardData = {
           "body": "His expertise extends to the implications of fertilizer market fluctuations on food prices, a critical area of concern for global food security and economic stability."
         }
       ]
-    }
+    },
+    "net_worth": "$15.00B"
   },
   {
     "id": 104,
@@ -10022,7 +10096,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Invest in innovation and infrastructure to create a smarter grid and incentivize clean energy adoption, while avoiding over-regulation that leads to unintended economic and environmental consequences.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-23T04:22:21.245588",
@@ -10083,7 +10157,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-03-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "The integration of AI into mathematics can accelerate discovery and problem-solving, presenting opportunities for investment in AI technology and its applications in scientific research.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-21T04:32:04.005767",
@@ -10138,7 +10212,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-03-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "The ongoing Iran conflict may lead to a secular inflation cycle, with oil prices being a key catalyst. Investors should monitor shifts in commodities, credit, and the yield curve for potential macroeconomic impacts.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:35:48.845381",
@@ -10195,7 +10269,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-03-19",
     "mention_score": 2,
-    "mention_score_decayed": 1.82,
+    "mention_score_decayed": 1.78,
     "last_main_idea": "The ongoing Iran conflict may lead to a secular inflation cycle, with oil prices being a key catalyst. Investors should monitor shifts in commodities, credit, and the yield curve for potential macroeconomic impacts.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:36:30.218908",
@@ -10251,7 +10325,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "NVIDIA's strategic acquisitions and technological advancements position it as a leader in the AI revolution, offering investors exposure to the growing AI factory industry.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:40:52.368193",
@@ -10313,7 +10387,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-02-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "Invest in sectors with fertile ground for short selling, such as tech and AI, and consider undervalued areas like junior mining for potential alpha.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:42:09.376490",
@@ -10436,7 +10510,7 @@ const dashboardData = {
     "last_podcast_name": "a16z Live",
     "last_episode_date": "2026-02-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Invest in companies that are at the forefront of developing AI-enabled, immersive technologies that can redefine consumer interactions beyond the current app-centric model.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-19T22:17:07.326933",
@@ -10495,7 +10569,7 @@ const dashboardData = {
     "last_podcast_name": null,
     "last_episode_date": null,
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": null,
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-19T22:17:58.321307",
@@ -10549,7 +10623,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-02-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "The Picta AI Enhanced International Equity ETF (PQNT) uses AI to enhance international equity returns, suggesting a potential for outperformance through technology-driven investment strategies.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-19T22:19:12.461398",
@@ -10616,7 +10690,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "While not directly investment-focused, the episode provides insights into the political climate and potential policy directions that could indirectly affect various sectors and investment strategies.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-19T21:20:25.000396",
@@ -10679,7 +10753,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "Invest in companies that are at the forefront of AI innovation, hardware manufacturing, and secure supply chain management to capitalize on the new geopolitics of technology and the reindustrialization of the US.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-19T21:20:41.027940",
@@ -10740,7 +10814,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "The current elevated oil prices and their subsequent impact on inflation and growth present a complex investment landscape, with stocks and bonds being particularly at risk. Investors should consider packaging trades to navigate these dynamics.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-19T21:21:05.284882",

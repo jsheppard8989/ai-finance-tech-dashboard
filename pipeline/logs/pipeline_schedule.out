@@ -13303,3 +13303,371 @@ Top tickers today:
   C.O.R.N: score 60
 
 🌐 Website updated
+2026-03-25T22:01:37-05:00 run_if_scheduled: in window, running pipeline
+============================================================
+AUTO PIPELINE
+Mode: full
+Started: 2026-03-25 22:01:37.706040
+============================================================
+
+============================================================
+STEP: Podcast Curation
+============================================================
+✗ Podcast Curation timed out after 120s
+
+============================================================
+STEP: Fetch & Transcribe
+============================================================
+======================================================================
+Fetch & Transcribe Latest Podcast Episodes
+======================================================================
+
+Found 7 podcast feeds
+
+📻 Processing: https://feeds.megaphone.fm/DVVTS2890392624...
+  ✗ Error fetching https://feeds.megaphone.fm/DVVTS2890392624: <urlopen error timed out>
+  ✗ No episode found
+
+📻 Processing: https://feeds.megaphone.fm/EWWMN1909747317...
+  ✗ Error fetching https://feeds.megaphone.fm/EWWMN1909747317: <urlopen error timed out>
+  ✗ No episode found
+
+📻 Processing: https://feeds.simplecast.com/JGE3yC0V...
+  📋 Latest: Submarines and the Future of Defense Manufacturing...
+  ⬇️  Downloading: the_a16z_show_20260325_be0495c3_f14a_446b_8eb9_afa200c4.mp3
+     Title: Submarines and the Future of Defense Manufacturing...
+     ✓ Downloaded to /Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_20260325_be0495c3_f14a_446b_8eb9_afa200c4.mp3
+  🎙️  Transcribing: the_a16z_show_20260325_be0495c3_f14a_446b_8eb9_afa200c4.mp3
+  📥 Submitted to whisper queue: the_a16z_show_20260325_be0495c3_f14a_446b_8eb9_afa200c4.mp3
+  ⏭ Queue-only mode: not waiting. Run pipeline again after worker finishes.
+
+📻 Processing: https://rss.libsyn.com/shows/254861/destinations/1...
+  📋 Latest: Are Psychedelics the Key to Living Forever? (ft. Bryan Johns...
+  ⬇️  Downloading: INTV_BJ_Ch_2.mp3
+     Title: Are Psychedelics the Key to Living Forever? (ft. Bryan Johns...
+     ✓ Downloaded to /Users/jaredsheppard/.openclaw/workspace/audio/INTV_BJ_Ch_2.mp3
+  🎙️  Transcribing: INTV_BJ_Ch_2.mp3
+  📥 Submitted to whisper queue: INTV_BJ_Ch_2.mp3
+  ⏭ Queue-only mode: not waiting. Run pipeline again after worker finishes.
+
+📻 Processing: https://anchor.fm/s/e29097f4/podcast/rss...
+  ⏭ Already have 'When the Music Stops: Why Bitcoin Is Next' (guid match, ep_id=100)
+  ✗ No episode found
+
+📻 Processing: https://feed.podbean.com/macrovoices/feed.xml...
+  ⏭ Already have 'MacroVoices #524 Simon White: War + Inflation = Mo' (guid match, ep_id=91)
+  ✗ No episode found
+
+📻 Processing: https://api.substack.com/feed/podcast/69345.rss...
+  ⏭ Already have 'Terence Tao – Kepler, Newton, and the true nature ' (guid match, ep_id=94)
+  ✗ No episode found
+
+✓ Log saved: /Users/jaredsheppard/.openclaw/workspace/pipeline/state/fetch_log.json
+
+======================================================================
+SUMMARY
+======================================================================
+Total feeds: 7
+Successfully transcribed: 0
+Failed: 2
+
+Completed episodes:
+
+
+Next step: Run 'python3 research.py' to analyze transcripts
+
+✓ Fetch & Transcribe completed
+
+============================================================
+STEP: Newsletter Ingestion
+============================================================
+==================================================
+Newsletter Ingestion Pipeline
+==================================================
+
+Connecting to Gmail...
+Connecting to Gmail at imap.gmail.com:993...
+Logging in as jsheppard8989@gmail.com...
+Selecting folder: NEWSLETTERS...
+Found 0 unread emails
+
+No emails fetched from Gmail.
+
+✓ Processed 0 emails
+
+Files saved to: /Users/jaredsheppard/.openclaw/workspace/pipeline/inbox
+
+Next step: Run analysis to score stock mentions
+
+✓ Newsletter Ingestion completed
+
+============================================================
+STEP: Transcript AI Analysis
+============================================================
+  ⚠ Google Generative AI library not installed. Run: pip install google-generativeai
+
+============================================================
+Processing Podcast Transcripts with AI
+============================================================
+  Using Moonshot/Kimi API (primary)
+Found 87 transcript files
+  Processing EWWMN2965097612.txt...
+  ✗ Error processing EWWMN2965097612.txt: UnboundLocalError: local variable 'sidecar_has_date' referenced before assignment
+  Processing EWWMN9153105374.txt...
+  ✗ Error processing EWWMN9153105374.txt: UnboundLocalError: local variable 'sidecar_has_date' referenced before assignment
+  Processing e3c75a06762af10f374661e8af1d1af6.txt...
+    ⏭ Episode already in database (duplicate), skipping
+  Processing dwarkesh_podcast_why_leonardo_was_a_saboteur__gutenberg_went_broke__and_flore_d121fb5b.txt...
+  ✗ Error processing dwarkesh_podcast_why_leonardo_was_a_saboteur__gutenberg_went_broke__and_flore_d121fb5b.txt: UnboundLocalError: local variable 'sidecar_has_date' referenced before assignment
+  Processing the_a16z_show_20260319_1e92a9dd_78da_4417_b1ce_4b4318d1.txt...
+  ✗ Error processing the_a16z_show_20260319_1e92a9dd_78da_4417_b1ce_4b4318d1.txt: UnboundLocalError: local variable 'sidecar_has_date' referenced before assignment
+  Processing dario_amodei.txt...
+    ⏭ Too short, skipping
+  Processing ALLIN-INTV_Jensen_V2_Ch.txt...
+  ✗ Error processing ALLIN-INTV_Jensen_V2_Ch.txt: UnboundLocalError: local variable 'sidecar_has_date' referenced before assignment
+  Processing MacroVoices-2026-03-19-Simon-White.txt...
+  ✗ Error processing MacroVoices-2026-03-19-Simon-White.txt: UnboundLocalError: local variable 'sidecar_has_date' referenced before assignment
+  Processing the_a16z_show_ai_just_gave_you_superpowers___now_what__ccf57061.txt...
+  ✗ Error processing the_a16z_show_ai_just_gave_you_superpowers___now_what__ccf57061.txt: UnboundLocalError: local variable 'sidecar_has_date' referenced before assignment
+  Processing DVVTS5786783285.txt...
+  ✗ Error processing DVVTS5786783285.txt: UnboundLocalError: local variable 'sidecar_has_date' referenced before assignment
+  Processing moonshots_with_peter_diamandis_meta_buys_moltbook__gpt_5_4__and_fruitfly_brain_upload___moo_609f0b8d.txt...
+  ✗ Error processing moonshots_with_peter_diamandis_meta_buys_moltbook__gpt_5_4__and_fruitfly_brain_upload___moo_609f0b8d.txt: UnboundLocalError: local variable 'sidecar_has_date' referenced before assignment
+  Processing elon_musk.txt...
+    ⏭ Too short, skipping
+  Processing monetary_matters_with_jack_farley_stock_market_on_shaky_foundations___blind_squirrel_macro_s_r_12c3cce4.txt...
+  ✗ Error processing monetary_matters_with_jack_farley_stock_market_on_shaky_foundations___blind_squirrel_macro_s_r_12c3cce4.txt: UnboundLocalError: local variable 'sidecar_has_date' referenced before assignment
+  Processing the_a16z_show_chris_dixon__from_quant_trading_to_building_a16z_crypto_be2e5b4b.txt...
+  ✗ Error processing the_a16z_show_chris_dixon__from_quant_trading_to_building_a16z_crypto_be2e5b4b.txt: UnboundLocalError: local variable 'sidecar_has_date' referenced before assignment
+  Processing all_in_with_chamath__jason__sacks___frie_jensen_huang_live__nvidia_s_future__physical_ai__rise_of_the_03b9c382.txt...
+  ✗ Error processing all_in_with_chamath__jason__sacks___frie_jensen_huang_live__nvidia_s_future__physical_ai__rise_of_the_03b9c382.txt: UnboundLocalError: local variable 'sidecar_has_date' referenced before assignment
+  Processing DVVTS6372073266.txt...
+    ⚠ AI analysis failed: Error code: 400 - {'error': {'code': 400, 'message': 'The request was rejected because it was considered high risk', 'param': 'prompt', 'type': 'content_filter'}}
+    ✗ AI analysis failed
+  Processing https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-18%2Fdff54dee-2ba4-02bd-9c43-d935696550da.txt...
+  ✗ Error processing https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-18%2Fdff54dee-2ba4-02bd-9c43-d935696550da.txt: UnboundLocalError: local variable 'sidecar_has_date' referenced before assignment
+
+✓ Transcript processing complete: 0 new, 70 skipped, 13 errors
+✓ Analyzed 0 new transcripts
+
+============================================================
+STEP: Newsletter Import
+============================================================
+✓ Total newsletters imported: 0
+
+============================================================
+STEP: Promote Episodes to Insights
+============================================================
+Found 0 processed episodes not yet in insights
+✓ Promoted 0 new insight(s) to website
+
+============================================================
+STEP: Promote Newsletters to Insights
+============================================================
+Found 0 newsletters not yet on site
+
+============================================================
+STEP: Aggregate Daily Scores
+============================================================
+✓ Saved 0 daily scores
+✓ Enriched 1 pundit(s) (LLM/Grokipedia profile + net worth + optional Grok)
+
+============================================================
+STEP: Generate Deep Dives
+============================================================
+Generating Deep Dives for 1 insights...
+
+  Using Moonshot/Kimi API
+[119] The Future of AI and its Impact on Society and Investment
+  ✓ Deep Dive stored
+
+✓ Generated 1/1 Deep Dives
+
+✓ Generate Deep Dives completed
+
+============================================================
+STEP: Fetch Prices
+============================================================
+%)
+  Fetching FB... $42.20 (-0.53%)
+  Fetching GLD... $416.29 (-11.90%)
+  Fetching GOLD... $43.13 (-13.91%)
+  Fetching GOOG... $289.59 (-5.37%)
+  Fetching GOOGL... $290.93 (-5.04%)
+  Fetching GS... $841.84 (+1.18%)
+  Fetching Gold... $43.13 (-13.91%)
+  Fetching HFGM... $32.28 (-6.24%)
+  Fetching HOOD... $72.54 (-8.58%)
+  Fetching IBM... $241.39 (-4.71%)
+  Fetching IEF... $95.36 (-1.44%)
+  Fetching ILMN... $126.20 (+1.54%)
+  Fetching INDA... $47.42 (-5.12%)
+  Fetching INFY... $13.17 (-8.67%)
+  Fetching IWM... $251.82 (-0.71%)
+  Fetching JNJ... $239.93 (-1.10%)
+  Fetching LLY... $916.31 (-9.13%)
+  Fetching LMT... $624.20 (-6.02%)
+  Fetching META... $594.89 (-8.11%)
+  Fetching MINE... $3.15 (-14.63%)
+  Fetching MSFT... $371.04 (-9.37%)
+  Fetching MSTR... $139.13 (+0.13%)
+  Fetching NEE... $91.16 (-0.92%)
+  Fetching NINT...     Error fetching NINT: HTTP Error 404: Not Found
+Failed
+  Fetching NOW... $103.06 (-15.48%)
+  Fetching NVDA... $178.68 (-2.17%)
+  Fetching Nasdaq... $587.82 (-3.28%)
+  Fetching OKLO... $55.27 (-10.54%)
+  Fetching PALL... $129.24 (-15.65%)
+  Fetching PLTM... $18.57 (-11.57%)
+  Fetching PLTR... $154.96 (-0.94%)
+  Fetching PQNT... $20.97 (-2.40%)
+  Fetching PYPL... $44.85 (-2.84%)
+  Fetching QQQ... $587.82 (-3.28%)
+  Fetching Russell... $251.82 (-0.71%)
+  Fetching S&P... $656.82 (-3.16%)
+  Fetching S&P 500... $656.82 (-3.16%)
+  Fetching SF... $72.53 (-0.71%)
+  Fetching SLV... $65.21 (-16.68%)
+  Fetching SMR... $11.69 (-3.87%)
+  Fetching SNAP... $4.49 (-12.48%)
+  Fetching SNWGF... $10.11 (-24.55%)
+  Fetching SOYB... $24.35 (+0.54%)
+  Fetching SPY... $656.82 (-3.16%)
+  Fetching SQ... Failed
+  Fetching SQQQ... $76.96 (+9.01%)
+  Fetching Semiconductors... $399.02 (+1.18%)
+  Fetching T... $28.81 (+4.65%)
+  Fetching TDOC... $5.57 (+5.09%)
+  Fetching TLT... $86.84 (-2.68%)
+  Fetching TSLA... $385.95 (-3.19%)
+  Fetching TSM... $347.75 (-0.27%)
+  Fetching TWTR...     Error fetching TWTR: HTTP Error 404: Not Found
+Failed
+  Fetching UNG... $11.86 (-3.66%)
+  Fetching URANIUM...     Error fetching URANIUM: HTTP Error 404: Not Found
+Failed
+  Fetching US 10 year Treasury...     Error fetching US 10 year Treasury: URL can't contain control characters. '/v8/finance/chart/US 
+Failed
+  Fetching USO... $113.39 (+8.68%)
+  Fetching Uranium...     Error fetching Uranium: HTTP Error 404: Not Found
+Failed
+  Fetching V... $304.91 (-3.50%)
+  Fetching VEEV... $178.11 (-8.93%)
+  Fetching VIX... $25.33 (-0.67%)
+  Fetching WIT... $2.09 (-9.52%)
+  Fetching WMT... $123.06 (-1.03%)
+  Fetching WORK... Failed
+  Fetching WTBN... $25.27 (-1.23%)
+  Fetching WTI... $3.00 (-2.91%)
+  Fetching WTI CRUDE OIL...     Error fetching WTI CRUDE OIL: URL can't contain control characters. '/v8/finance/chart/WTI
+Failed
+  Fetching XAU-USD... $0.00 (+0.00%)
+  Fetching XOM... $163.26 (+8.52%)
+  Fetching ZEN...     Error fetching ZEN: HTTP Error 404: Not Found
+Failed
+
+✓ Saved 82 prices to /Users/jaredsheppard/.openclaw/workspace/site/price_data.json
+Finished: 2026-03-25 22:10:08.496940
+
+✓ Fetch Prices completed
+
+============================================================
+STEP: Generate Charts
+============================================================
+
+STDERR: Traceback (most recent call last):
+  File "/Users/jaredsheppard/.openclaw/workspace/pipeline/generate_charts.py", line 7, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+
+✗ Generate Charts failed
+
+============================================================
+STEP: Auto-Curate Terms
+============================================================
+systems that support AI applications, including hardware and software....
+
+• Experimental Mathematics
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: The application of empirical and computational methods to mathematical problems, often involving lar...
+
+• Hybrid Human-AI Approach
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A collaborative model where human mathematicians and AI systems work together to solve complex probl...
+
+• Grassroots Power
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: Building bottom-up power by connecting voters around issues they are passionate about and helping th...
+
+• Smart Grid
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: An electrical grid that uses digital technology to monitor and manage the transport of electricity f...
+
+• Arbitrage Opportunity
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A situation where the same or similar assets or property sell for two different prices, creating a c...
+
+• Strait of Hormuz
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A narrow strait between Iran and Oman through which a significant portion of the world's oil passes....
+
+• Stagflation
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A situation in which the economy is stagnant while inflation is high, often due to high oil prices....
+
+• Model Specialization
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: The trend where AI models are becoming more specialized in their capabilities, catering to specific ...
+
+• Space Mesh
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A network of satellites connected back to Earth, requiring ground infrastructure to function effecti...
+
+• Inner Satellite Links
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: Links between satellites that reduce latency and improve data transmission efficiency in space....
+
+• True Interest Expense
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: The actual cost of borrowing for the U.S. government, which is currently more than the tax receipts ...
+
+• Deflationary Technology Force
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A technology, like AI, that has the potential to reduce prices by increasing efficiency and producti...
+
+• Recursive Self-Improvement
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: The ability of a system to improve its own design and functionality autonomously....
+
+• AI Race
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: The global competition between nations to lead in AI development and application....
+
+• Tactical Power Layer
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A system designed to provide power to military operations in a way that is both efficient and does n...
+
+• Electronic Battlefield
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A modern battlefield that relies heavily on electronic systems such as drones, sensors, and electron...
+
+✓ Auto-Curate Terms completed
+
+============================================================

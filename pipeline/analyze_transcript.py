@@ -325,6 +325,9 @@ def analyze_transcript_with_ai(client_info, transcript_content: str, podcast_nam
         "- sentiment: Use explicit statements from speakers, not your inference\n"
         "- is_contrarian: true if speaker explicitly mentions going against consensus, \"unloved\", \"underowned\"\n"
         "- is_disruption_focused: true if discussing paradigm shifts, game changers, industry transformation\n\n"
+        "FINAL CHECK (STRICT): Output must be English AND ASCII-only.\n"
+        "- Do not output any non-ASCII characters anywhere (no emojis, no smart quotes, no em dashes, no accented letters).\n"
+        "- If you would normally write characters like “ ” ’ — … or any non-English symbols, replace them with plain ASCII equivalents.\n\n"
         "Return ONLY valid JSON. No markdown, no explanations."
     )
 
@@ -375,8 +378,25 @@ def analyze_transcript_with_ai(client_info, transcript_content: str, podcast_nam
         if content.endswith('```'):
             content = content[:-3]
         content = content.strip()
-        
-        return json.loads(content)
+
+        parsed = json.loads(content)
+
+        def _has_non_ascii(obj) -> bool:
+            if obj is None:
+                return False
+            if isinstance(obj, str):
+                return any(ord(ch) > 127 for ch in obj)
+            if isinstance(obj, list):
+                return any(_has_non_ascii(x) for x in obj)
+            if isinstance(obj, dict):
+                # Keys should also be ASCII in our contract
+                return any(_has_non_ascii(k) or _has_non_ascii(v) for k, v in obj.items())
+            return False
+
+        if _has_non_ascii(parsed):
+            raise ValueError("AI output contains non-ASCII characters (rejecting).")
+
+        return parsed
         
     except Exception as e:
         print(f"    ⚠ AI analysis failed: {e}")

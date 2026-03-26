@@ -1,19 +1,19 @@
 {
-  "timestamp": "2026-03-25T04:06:21.449695",
+  "timestamp": "2026-03-25T22:05:41.343285",
   "results": [
     {
-      "podcast": "Moonshots with Peter Diamandis",
-      "title": "Eric Schmidt: Singularity's Arrival, the 92-Gigawatt Problem, and Recursive Self-Improvement Timelines | 241",
-      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/DVVTS4069152448.mp3",
-      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/DVVTS4069152448.txt",
-      "success": true
+      "podcast": "The a16z Show",
+      "title": "Submarines and the Future of Defense Manufacturing",
+      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_20260325_be0495c3_f14a_446b_8eb9_afa200c4.mp3",
+      "transcript_path": null,
+      "success": false
     },
     {
-      "podcast": "The a16z Show",
-      "title": "The Missing Power Layer of Modern Warfare",
-      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_20260324_f3b05bf0_1952_46a7_8a05_23946f55.mp3",
-      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/the_a16z_show_20260324_f3b05bf0_1952_46a7_8a05_23946f55.txt",
-      "success": true
+      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "title": "Are Psychedelics the Key to Living Forever? (ft. Bryan Johnson)",
+      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/INTV_BJ_Ch_2.mp3",
+      "transcript_path": null,
+      "success": false
     }
   ]
 }
