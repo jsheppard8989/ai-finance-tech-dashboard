@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-03-26T10:07:11.154518",
-  "last_updated": "2026-03-26T10:07:11.154518",
-  "last_pipeline_run": "2026-03-26T10:07:11.154518",
+  "generated_at": "2026-03-26T10:42:21.797736",
+  "last_updated": "2026-03-26T10:42:21.797736",
+  "last_pipeline_run": "2026-03-26T10:42:21.797736",
   "main_page": {
     "overton": 8,
     "insights": 8,
@@ -18,12 +18,12 @@
     "podcasts_analyzed": 3
   },
   "step_results": {
-    "downloaded": 4,
-    "transcribed": 4,
-    "analyzed": 4,
+    "downloaded": 5,
+    "transcribed": 5,
+    "analyzed": 5,
     "insight_created": 0,
     "published": 1,
-    "total": 7
+    "total": 8
   },
   "episodes": [
     {
@@ -105,6 +105,25 @@
       "status": "needs_download"
     },
     {
+      "id": "d895626e-79f5-47dc-9655-ac3085860003",
+      "podcast": "The a16z Show",
+      "title": "Real-time Crime Prevention and the Future of Policing",
+      "published": "2026-03-26",
+      "rss_guid": "d895626e-79f5-47dc-9655-ac3085860003",
+      "stages": {
+        "downloaded": true,
+        "transcribed": true,
+        "analyzed": true,
+        "insight_created": false,
+        "published": false
+      },
+      "stage_reasons": {
+        "insight_created": "No latest_insights row for this episode (insight step not reflected in DB yet).",
+        "published": "added_to_site=0 (export/publish step not reflected in DB yet)."
+      },
+      "status": "needs_insight"
+    },
+    {
       "id": "1e92a9dd-78da-4417-b1ce-4b4318d1f8c4",
       "podcast": "The a16z Show",
       "title": "AI Startups and the Future of Technology",
@@ -173,6 +192,13 @@
       "podcast": "Moonshots with Peter Diamandis",
       "title": "Elon's $5 Trillion Bet, the End of Human Drivers, and Chamath's Market Warning | EP #242",
       "published": "Thu, 26 Mar 2026 14:00:00 -0000",
+      "published_date": "2026-03-26",
+      "rss_guid": ""
+    },
+    {
+      "podcast": "The a16z Show",
+      "title": "Security, Resilience, and the Future of Mobile Infrastructure",
+      "published": "Thu, 26 Mar 2026 15:28:55 +0000",
       "published_date": "2026-03-26",
       "rss_guid": ""
     },

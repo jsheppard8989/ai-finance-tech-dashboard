@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-03-26T10:02:32.325088",
-  "total_feed_episodes": 7,
-  "approved_for_transcription": 7,
+  "timestamp": "2026-03-26T10:37:50.399161",
+  "total_feed_episodes": 8,
+  "approved_for_transcription": 8,
   "episodes": [
     {
       "podcast": "Moonshots with Peter Diamandis",
@@ -54,6 +54,19 @@
       "matched_keywords": [],
       "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/monetary_matters_with_jack_farley_stock_market_on_shaky_foundations___blind_squirrel_macro_s_r_12c3cce4.mp3",
       "filename": "monetary_matters_with_jack_farley_stock_market_on_shaky_foundations___blind_squirrel_macro_s_r_12c3cce4.mp3"
+    },
+    {
+      "podcast": "The a16z Show",
+      "title": "Security, Resilience, and the Future of Mobile Infrastructure",
+      "description": "<p>David Ulevitch speaks with Justin Fanelli, CTO of the Navy, and John Doyle, founder and CEO at Cape, about how the Navy is transforming its approach to technology adoption, from running bootcamps for program managers to piloting commercial solutions in months instead of years. They discuss the Salt Typhoon breach that exposed China's infiltration of American cellular networks, how Cape built a secure alternative, and what defense tech founders need to understand about selling to the governmen",
+      "audio_url": "https://mgln.ai/e/1344/afp-848985-injected.calisto.simplecastaudio.com/3f86df7b-51c6-4101-88a2-550dba782de8/episodes/cbd6f188-7d5d-4787-b251-39c8fbea6e89/audio/128/default.mp3?aid=rss_feed&awCollectionId=3f86df7b-51c6-4101-88a2-550dba782de8&awEpisodeId=cbd6f188-7d5d-4787-b251-39c8fbea6e89&feed=JGE3yC0V",
+      "published": "Thu, 26 Mar 2026 15:28:55 +0000",
+      "published_date": "2026-03-26",
+      "rss_guid": "d895626e-79f5-47dc-9655-ac3085860003",
+      "status": "APPROVED",
+      "matched_keywords": [],
+      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_security__resilience__and_the_future_of_mobile_infrastructur_da5609f7.mp3",
+      "filename": "the_a16z_show_security__resilience__and_the_future_of_mobile_infrastructur_da5609f7.mp3"
     },
     {
       "podcast": "The a16z Show",

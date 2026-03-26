@@ -1,10 +1,17 @@
 {
-  "timestamp": "2026-03-26T10:02:34.268211",
+  "timestamp": "2026-03-26T10:38:04.506372",
   "results": [
     {
       "podcast": "Moonshots with Peter Diamandis",
       "title": "Elon's $5 Trillion Bet, the End of Human Drivers, and Chamath's Market Warning | EP #242",
       "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/DVVTS3579530070.mp3",
+      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/DVVTS3579530070.txt",
+      "success": true
+    },
+    {
+      "podcast": "The a16z Show",
+      "title": "Security, Resilience, and the Future of Mobile Infrastructure",
+      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_20260326_d895626e_79f5_47dc_9655_ac308586.mp3",
       "transcript_path": null,
       "success": false
     }
