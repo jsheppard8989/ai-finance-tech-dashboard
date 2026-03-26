@@ -1,5 +1,38 @@
 [
   {
+    "id": 103,
+    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "episode_title": "Exploring Psychedelics for Longevity and Personal Growth",
+    "episode_date": "2026-03-26",
+    "summary": "In this episode, Brian Johnson, a longevity enthusiast, discusses his recent experience with 5-MEO-DMT, one of the most potent psychedelics known. Johnson shares insights into his motivations for trying psychedelics as part of a longevity experiment, drawing on preclinical evidence suggesting psilocybin's potential as a rejuvenation therapy. He details the profound impact of the 5-MEO-DMT experience on his consciousness and personal perspective, comparing its efficacy to other health and longevity practices. The conversation also touches on the broader implications of psychedelic use, including potential shifts in life priorities and the philosophical questions surrounding identity and personal change.",
+    "key_takeaways": [
+      "Brian Johnson views psychedelics as part of a longevity experiment, seeking scientific evidence for rejuvenation therapies.",
+      "Johnson's experience with 5-MEO-DMT was profound, leading to a significant personal reset and a renewed sense of purpose.",
+      "The discussion highlights the potential of psychedelics to induce dramatic shifts in perspective and values.",
+      "Psychedelic experiences can lead to life-altering decisions, affecting personal and professional relationships.",
+      "Johnson suggests that psychedelics might play a role in maintaining a youthful disposition and ambition as one ages."
+    ],
+    "investment_thesis": "Investment in psychedelics for longevity and personal growth is based on the potential for these substances to induce significant changes in consciousness and promote personal rejuvenation.",
+    "key_tickers": null
+  },
+  {
+    "id": 104,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Submarine Manufacturing and Advanced Factories",
+    "episode_date": "2026-03-25",
+    "summary": "This episode of 'The a16z Show' discusses the importance of revitalizing the submarine manufacturing industry in the United States. The conversation highlights the strategic advantages submarines offer, including stealth and access to global waters, and the need for advanced manufacturing to meet the Navy's capacity requirements. The guests emphasize the challenges of workforce development and the integration of software-driven manufacturing to increase productivity and efficiency in submarine production.",
+    "key_takeaways": [
+      "Submarines are crucial for strategic deterrence and ensuring global peace by carrying nuclear missiles.",
+      "The end of the Cold War led to a collapse in submarine production, resulting in a significant skills gap.",
+      "The Navy requires more than five times the capacity it had a decade ago, necessitating a massive increase in manufacturing capabilities.",
+      "Software-driven manufacturing could potentially compress a decade of training, enabling the country to scale up production.",
+      "Advanced factories are needed to increase productivity, combining workforce training with software to achieve a significant uplift in efficiency.",
+      "The modernization of submarine manufacturing is not just about automation but also about enhancing human productivity and precision."
+    ],
+    "investment_thesis": "Investing in advanced manufacturing and workforce development for submarine production could lead to increased efficiency and meet the growing demand for naval capabilities.",
+    "key_tickers": null
+  },
+  {
     "id": 102,
     "podcast_name": "The a16z Show",
     "episode_title": "The Tactical Power Layer for Modern Warfare",

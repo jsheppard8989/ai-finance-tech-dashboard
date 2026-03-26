@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-03-25T22:10:09.702663",
-  "last_updated": "2026-03-25T22:10:09.702663",
-  "last_pipeline_run": "2026-03-25T22:10:09.702663",
+  "generated_at": "2026-03-26T04:24:09.946056",
+  "last_updated": "2026-03-26T04:24:09.946056",
+  "last_pipeline_run": "2026-03-26T04:24:09.946056",
   "main_page": {
     "overton": 8,
     "insights": 8,
@@ -9,11 +9,11 @@
   },
   "counts": {
     "ticker_mentions": 140,
-    "podcast_episodes": 77,
+    "podcast_episodes": 79,
     "newsletters": 7,
     "daily_scores": 78,
     "overton_terms_total": 16,
-    "latest_insights_total": 93,
+    "latest_insights_total": 95,
     "today_mentions": {},
     "podcasts_analyzed": 2
   },
@@ -23,7 +23,7 @@
     "analyzed": 5,
     "insight_created": 2,
     "published": 3,
-    "total": 10
+    "total": 8
   },
   "episodes": [
     {
@@ -179,69 +179,9 @@
         "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
       },
       "status": "needs_download"
-    },
-    {
-      "id": "rss::all-in with chamath, jason, sacks & friedberg::are psychedelics the key to living forever? (ft. bryan johnson)",
-      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "title": "Are Psychedelics the Key to Living Forever? (ft. Bryan Johnson)",
-      "published": "2026-03-26",
-      "published_date": "2026-03-26",
-      "rss_guid": "",
-      "stages": {
-        "downloaded": false,
-        "transcribed": false,
-        "analyzed": false,
-        "insight_created": false,
-        "published": false
-      },
-      "stage_reasons": {
-        "downloaded": "Discovered on RSS feed; not yet pulled into curation/pipeline state.",
-        "transcribed": "Waiting for download first.",
-        "analyzed": "Waiting for transcript first.",
-        "insight_created": "Depends on analyze step first.",
-        "published": "Not on site until export after analysis and insight promotion."
-      },
-      "status": "needs_download"
-    },
-    {
-      "id": "rss::the a16z show::submarines and the future of defense manufacturing",
-      "podcast": "The a16z Show",
-      "title": "Submarines and the Future of Defense Manufacturing",
-      "published": "2026-03-25",
-      "published_date": "2026-03-25",
-      "rss_guid": "",
-      "stages": {
-        "downloaded": false,
-        "transcribed": false,
-        "analyzed": false,
-        "insight_created": false,
-        "published": false
-      },
-      "stage_reasons": {
-        "downloaded": "Discovered on RSS feed; not yet pulled into curation/pipeline state.",
-        "transcribed": "Waiting for download first.",
-        "analyzed": "Waiting for transcript first.",
-        "insight_created": "Depends on analyze step first.",
-        "published": "Not on site until export after analysis and insight promotion."
-      },
-      "status": "needs_download"
     }
   ],
   "available_from_rss": [
-    {
-      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "title": "Are Psychedelics the Key to Living Forever? (ft. Bryan Johnson)",
-      "published": "Thu, 26 Mar 2026 00:10:00 +0000",
-      "published_date": "2026-03-26",
-      "rss_guid": ""
-    },
-    {
-      "podcast": "The a16z Show",
-      "title": "Submarines and the Future of Defense Manufacturing",
-      "published": "Wed, 25 Mar 2026 10:00:00 +0000",
-      "published_date": "2026-03-25",
-      "rss_guid": ""
-    },
     {
       "podcast": "The a16z Show",
       "title": "AI Just Gave You Superpowers \u2014 Now What?",
@@ -264,7 +204,7 @@
       "title": "Moonshots Podcast Episode #231 - OpenAI Acquires OpenClaw, 400x Cost Collapse, & Why India Wins the Talent War",
       "status": "needs_insight",
       "published": "2026-03-21",
-      "age_days": 4,
+      "age_days": 5,
       "next_blocker": "insight_created"
     },
     {
@@ -273,7 +213,7 @@
       "title": "Meta Buys Moltbook GPT 5.4 and Fruitfly Brain Upload",
       "status": "needs_insight",
       "published": "2026-03-17",
-      "age_days": 8,
+      "age_days": 9,
       "next_blocker": "insight_created"
     },
     {
@@ -282,7 +222,7 @@
       "title": "Stock Market on Shaky Foundations | Blind Squirrel Macro\u2019s Rupert Mitchell on IPO Supply, Oil, and Private Credit",
       "status": "needs_download",
       "published": "2026-03-18",
-      "age_days": 7,
+      "age_days": 8,
       "next_blocker": "downloaded"
     },
     {
@@ -291,7 +231,7 @@
       "title": "AI Startups and the Future of Technology",
       "status": "needs_insight",
       "published": "2026-03-19",
-      "age_days": 6,
+      "age_days": 7,
       "next_blocker": "insight_created"
     },
     {
@@ -300,7 +240,7 @@
       "title": "Chris Dixon: From Quant Trading to Building a16z Crypto",
       "status": "needs_download",
       "published": "2026-03-02",
-      "age_days": 23,
+      "age_days": 24,
       "next_blocker": "downloaded"
     },
     {
@@ -309,7 +249,7 @@
       "title": "Why Leonardo was a saboteur, Gutenberg went broke, and Florence was weird \u2013 Ada Palmer",
       "status": "needs_download",
       "published": "2026-03-06",
-      "age_days": 19,
+      "age_days": 20,
       "next_blocker": "downloaded"
     }
   ],

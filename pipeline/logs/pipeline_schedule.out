@@ -13671,3 +13671,96 @@ systems that support AI applications, including hardware and software....
 ✓ Auto-Curate Terms completed
 
 ============================================================
+STEP: Extract Podcast Guests
+============================================================
+============================================================
+Extract Podcast Guests
+============================================================
+Processing 77 processed episodes
+  ✓ When the Music Stops ← The Jack Mallers Show (2026-03-24)
+  ✓ Ground Infrastructure ← The a16z Show (2026-03-23)
+  ✓ Rory Johnston ← Monetary Matters with Jack Farley (2026-03-19)
+  ✓ Senator John Fetterman on Voting Rights ← All-In with Chamath, Jason, Sacks & Friedberg (2026-03-18)
+  ✓ Elon Musk on Moonshots ← Moonshots with Peter Diamandis (2026-03-17)
+  ✓ Investing in Capitalism ← All-In with Chamath, Jason, Sacks & Friedberg (2026-03-13)
+  ✓ Harvard Professor Graham Allison ← All-In with Chamath, Jason, Sacks & Friedberg (2026-03-09)
+  ✓ Andrew Yang ← Moonshots with Peter Diamandis (2026-03-07)
+  ✓ Ray Dalio ← All-In with Chamath, Jason, Sacks & Friedberg (2026-03-03)
+  ✓ Nobel Prize-winning economist Paul Krugman ← Monetary Matters with Jack Farley (2026-02-19)
+  ✓ host Jack Mallers ← The Jack Mallers Show (2026-02-19)
+  ✓ Ben Horowitz ← Moonshots with Peter Diamandis (2026-02-19)
+  ✓ Bosworth ← a16z Live (2026-02-15)
+  ✓ Milton Berg ← Monetary Matters with Jack Farley (2026-02-06)
+
+✓ Done. 14 guest(s) in database.
+
+✓ Extract Podcast Guests completed
+
+============================================================
+STEP: Export Website Data
+============================================================
+============================================================
+Exporting Website Data
+============================================================
+✓ Exported website data to /Users/jaredsheppard/.openclaw/workspace/site/data
+✓ Exported: {'ticker_scores': 47, 'podcast_summaries': 22, 'archive_items': 109, 'podcast_guests': 14, 'pundits': 20}
+🔍 Scanning podcast pipeline...
+
+
+================================================================================
+📊 PODCAST PIPELINE STATUS
+================================================================================
+
+📈 Pipeline Summary (8 total episodes tracked):
+  ✅ Downloaded:       8 / 8
+  ✅ Transcribed:      8 / 8
+  ✅ Analyzed:         2 / 8
+  ✅ Insight Created:  2 / 8
+  ✅ Published:        0 / 8
+
+🔍 Episodes Needing Attention:
+
+  🔬 Pending Analysis (6):
+    - NVIDIA's $1 Trillion Prediction, Anthropic Beats O
+    - Meta Buys Moltbook, GPT 5.4, and Fruitfly Brain Up
+    - Stock Market on Shaky Foundations | Blind Squirrel
+    - AI Just Gave You Superpowers — Now What?
+    - Chris Dixon: From Quant Trading to Building a16z C
+    - Why Leonardo was a saboteur, Gutenberg went broke,
+
+  🌐 Pending Publishing (2):
+    - Eric Schmidt: Singularity's Arrival, the 92-Gigawa
+    - The Missing Power Layer of Modern Warfare
+
+✅ Complete Episodes (All Stages):
+    (None yet)
+
+📅 Last Updated: 2026-03-25T22:10:09.828336
+📁 Status file: /Users/jaredsheppard/.openclaw/workspace/pipeline/state/pipeline_status.json
+================================================================================
+Error fetching https://feeds.megaphone.fm/DVVTS2890392624: <urlopen error timed out>
+Error fetching https://feeds.megaphone.fm/EWWMN1909747317: <urlopen error timed out>
+  ✓ Exported pipeline_state.json: 10 tracked
+
+============================================================
+Generating Website JavaScript
+============================================================
+✓ Generated data.js with 47 tickers, 109 archive items, 93 deep dives, 4 suggested terms, 14 legacy guests, 20 pundits; chartsVersion=2026-03-25T04:12:41.124509
+✓ Bumped data.js cache-buster to v=1774494731
+
+============================================================
+STEP: Push to GitHub
+============================================================
+✓ Pushed to GitHub: Pipeline update 2026-03-25 22:12: 0 podcasts, 0 insights, 0 newsletters
+Nothing new — skipping notification
+
+============================================================
+PIPELINE COMPLETE
+Finished: 2026-03-25 22:12:13.461598
+============================================================
+📊 Pipeline Complete
+
+
+🌐 Website updated
+
+⚠ Non-fatal errors in: curation

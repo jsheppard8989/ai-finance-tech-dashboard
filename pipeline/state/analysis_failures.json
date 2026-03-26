@@ -1,21 +1,21 @@
 {
   "EWWMN2965097612": {
-    "last_failed_at": "2026-03-25T22:05:58.529941",
+    "last_failed_at": "2026-03-26T04:17:41.181508",
     "reason_code": "analysis_error",
     "reason_detail": "UnboundLocalError: local variable 'sidecar_has_date' referenced before assignment"
   },
   "EWWMN9153105374": {
-    "last_failed_at": "2026-03-25T22:06:09.141786",
+    "last_failed_at": "2026-03-26T04:17:52.652169",
     "reason_code": "analysis_error",
     "reason_detail": "UnboundLocalError: local variable 'sidecar_has_date' referenced before assignment"
   },
   "dwarkesh_podcast_why_leonardo_was_a_saboteur__gutenberg_went_broke__and_flore_d121fb5b": {
-    "last_failed_at": "2026-03-25T22:06:19.383431",
+    "last_failed_at": "2026-03-26T04:18:05.347174",
     "reason_code": "analysis_error",
     "reason_detail": "UnboundLocalError: local variable 'sidecar_has_date' referenced before assignment"
   },
   "the_a16z_show_20260319_1e92a9dd_78da_4417_b1ce_4b4318d1": {
-    "last_failed_at": "2026-03-25T22:06:36.280588",
+    "last_failed_at": "2026-03-26T04:18:21.030094",
     "reason_code": "analysis_error",
     "reason_detail": "UnboundLocalError: local variable 'sidecar_has_date' referenced before assignment"
   },
@@ -25,42 +25,42 @@
     "reason_detail": "UnboundLocalError: local variable 'sidecar_has_date' referenced before assignment"
   },
   "MacroVoices-2026-03-19-Simon-White": {
-    "last_failed_at": "2026-03-25T22:07:10.890765",
+    "last_failed_at": "2026-03-26T04:18:53.889457",
     "reason_code": "analysis_error",
     "reason_detail": "UnboundLocalError: local variable 'sidecar_has_date' referenced before assignment"
   },
   "the_a16z_show_ai_just_gave_you_superpowers___now_what__ccf57061": {
-    "last_failed_at": "2026-03-25T22:07:23.076798",
+    "last_failed_at": "2026-03-26T04:19:07.200291",
     "reason_code": "analysis_error",
     "reason_detail": "UnboundLocalError: local variable 'sidecar_has_date' referenced before assignment"
   },
   "DVVTS5786783285": {
-    "last_failed_at": "2026-03-25T22:07:38.241145",
+    "last_failed_at": "2026-03-26T04:19:19.283990",
     "reason_code": "analysis_error",
     "reason_detail": "UnboundLocalError: local variable 'sidecar_has_date' referenced before assignment"
   },
   "moonshots_with_peter_diamandis_meta_buys_moltbook__gpt_5_4__and_fruitfly_brain_upload___moo_609f0b8d": {
-    "last_failed_at": "2026-03-25T22:07:51.749064",
+    "last_failed_at": "2026-03-26T04:19:36.180689",
     "reason_code": "analysis_error",
     "reason_detail": "UnboundLocalError: local variable 'sidecar_has_date' referenced before assignment"
   },
   "monetary_matters_with_jack_farley_stock_market_on_shaky_foundations___blind_squirrel_macro_s_r_12c3cce4": {
-    "last_failed_at": "2026-03-25T22:08:09.260524",
+    "last_failed_at": "2026-03-26T04:19:52.770851",
     "reason_code": "analysis_error",
     "reason_detail": "UnboundLocalError: local variable 'sidecar_has_date' referenced before assignment"
   },
   "the_a16z_show_chris_dixon__from_quant_trading_to_building_a16z_crypto_be2e5b4b": {
-    "last_failed_at": "2026-03-25T22:08:21.339443",
+    "last_failed_at": "2026-03-26T04:20:03.441950",
     "reason_code": "analysis_error",
     "reason_detail": "UnboundLocalError: local variable 'sidecar_has_date' referenced before assignment"
   },
   "all_in_with_chamath__jason__sacks___frie_jensen_huang_live__nvidia_s_future__physical_ai__rise_of_the_03b9c382": {
-    "last_failed_at": "2026-03-25T22:08:34.758963",
+    "last_failed_at": "2026-03-26T04:20:29.428570",
     "reason_code": "analysis_error",
     "reason_detail": "UnboundLocalError: local variable 'sidecar_has_date' referenced before assignment"
   },
   "https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-18%2Fdff54dee-2ba4-02bd-9c43-d935696550da": {
-    "last_failed_at": "2026-03-25T22:08:48.067755",
+    "last_failed_at": "2026-03-26T04:20:45.026439",
     "reason_code": "analysis_error",
     "reason_detail": "UnboundLocalError: local variable 'sidecar_has_date' referenced before assignment"
   }

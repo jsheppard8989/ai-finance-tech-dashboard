@@ -3,8 +3,8 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-03-25T22:12:11.543583",
-  chartsVersion: "2026-03-25T04:12:41.124509",
+  generatedAt: "2026-03-26T04:26:11.419458",
+  chartsVersion: "2026-03-26T04:24:09.041298",
   tickerScores: [
   {
     "ticker": "GOOGL",
@@ -715,6 +715,51 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 120,
+      "title": "Exploring Psychedelics for Longevity and Personal Growth",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-03-26",
+      "summary": "In this episode, Brian Johnson, a longevity enthusiast, discusses his recent experience with 5-MEO-DMT, one of the most potent psychedelics known. Johnson shares insights into his motivations for trying psychedelics as part of a longevity experiment, drawing on preclinical evidence suggesting psilocybin's potential as a rejuvenation therapy. He details the profound impact of the 5-MEO-DMT experience on his consciousness and personal perspective, comparing its efficacy to other health and longevity practices. The conversation also touches on the broader implications of psychedelic use, including potential shifts in life priorities and the philosophical questions surrounding identity and personal change.",
+      "key_takeaway": "Investment in psychedelics for longevity and personal growth is based on the potential for these substances to induce significant changes in consciousness and promote personal rejuvenation.",
+      "tickers_mentioned": [
+        "AAPL",
+        "NVDA",
+        "SPY",
+        "TSLA"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-26",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 103
+    },
+    {
+      "id": 121,
+      "title": "Submarine Manufacturing and Advanced Factories",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-03-25",
+      "summary": "This episode of 'The a16z Show' discusses the importance of revitalizing the submarine manufacturing industry in the United States. The conversation highlights the strategic advantages submarines offer, including stealth and access to global waters, and the need for advanced manufacturing to meet the Navy's capacity requirements. The guests emphasize the challenges of workforce development and the integration of software-driven manufacturing to increase productivity and efficiency in submarine production.",
+      "key_takeaway": "Investing in advanced manufacturing and workforce development for submarine production could lead to increased efficiency and meet the growing demand for naval capabilities.",
+      "tickers_mentioned": [
+        "AAPL",
+        "NVDA",
+        "GD",
+        "NOC",
+        "LMT"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-26",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 104
+    },
+    {
       "id": 117,
       "title": "When the Music Stops: Why Bitcoin is Next",
       "source_type": "podcast",
@@ -794,11 +839,11 @@ const dashboardData = {
         "V"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-23",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-26",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 95
     },
     {
@@ -873,11 +918,11 @@ const dashboardData = {
         "CORN"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-23",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-26",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 96
     },
     {
@@ -2897,6 +2942,46 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 120,
+      "title": "Exploring Psychedelics for Longevity and Personal Growth",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-03-26",
+      "summary": "In this episode, Brian Johnson, a longevity enthusiast, discusses his recent experience with 5-MEO-DMT, one of the most potent psychedelics known. Johnson shares insights into his motivations for trying psychedelics as part of a longevity experiment, drawing on preclinical evidence suggesting psilocybin's potential as a rejuvenation therapy. He details the profound impact of the 5-MEO-DMT experience on his consciousness and personal perspective, comparing its efficacy to other health and longevity practices. The conversation also touches on the broader implications of psychedelic use, including potential shifts in life priorities and the philosophical questions surrounding identity and personal change.",
+      "key_takeaway": "Investment in psychedelics for longevity and personal growth is based on the potential for these substances to induce significant changes in consciousness and promote personal rejuvenation.",
+      "tickers_mentioned": "[\"AAPL\", \"NVDA\", \"SPY\", \"TSLA\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-26",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 103,
+      "episode_release_date": "2026-03-26",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
+      "id": 121,
+      "title": "Submarine Manufacturing and Advanced Factories",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-03-25",
+      "summary": "This episode of 'The a16z Show' discusses the importance of revitalizing the submarine manufacturing industry in the United States. The conversation highlights the strategic advantages submarines offer, including stealth and access to global waters, and the need for advanced manufacturing to meet the Navy's capacity requirements. The guests emphasize the challenges of workforce development and the integration of software-driven manufacturing to increase productivity and efficiency in submarine production.",
+      "key_takeaway": "Investing in advanced manufacturing and workforce development for submarine production could lead to increased efficiency and meet the growing demand for naval capabilities.",
+      "tickers_mentioned": "[\"AAPL\", \"NVDA\", \"GD\", \"NOC\", \"LMT\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-26",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 104,
+      "episode_release_date": "2026-03-25",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 117,
       "title": "When the Music Stops: Why Bitcoin is Next",
       "source_type": "podcast",
@@ -2957,26 +3042,6 @@ const dashboardData = {
       "key_tickers": [
         "NVDA"
       ]
-    },
-    {
-      "id": 112,
-      "title": "California's Spending Woes and the Governor's Race",
-      "source_type": "podcast",
-      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "source_date": "2026-03-23",
-      "summary": "In this episode of 'All-In with Chamath, Jason, Sacks & Friedberg', guest Matt Mayhand, a candidate for Governor of California, discusses the state's financial mismanagement, lack of accountability, and the impact of regulations on various sectors such as high-speed rail, housing, and energy. Mayhand emphasizes the need for pragmatic solutions, focusing on results and measurable outcomes, rather than increasing revenue and government programs.",
-      "key_takeaway": "Invest in innovation and infrastructure to create a smarter grid and incentivize clean energy adoption, while avoiding over-regulation that leads to unintended economic and environmental consequences.",
-      "tickers_mentioned": "[\"AAPL\", \"NVDA\", \"TSLA\", \"LMT\", \"V\"]",
-      "sentiment": "bearish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-03-23",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 95,
-      "episode_release_date": "2026-03-23",
-      "guest_name": null,
-      "key_tickers": []
     },
     {
       "id": 114,
@@ -3040,28 +3105,6 @@ const dashboardData = {
       "guest_name": null,
       "key_tickers": [
         "C.O.R.N"
-      ]
-    },
-    {
-      "id": 113,
-      "title": "Monetary Matters with Jack Farley: Impact of Iran War on Fertilizer Prices and Agriculture",
-      "source_type": "podcast",
-      "source_name": "Monetary Matters with Jack Farley",
-      "source_date": "2026-03-22",
-      "summary": "In this episode of Monetary Matters, host Jack Farley interviews Josh Lindville, Vice President of Fertilizer at Stone X, to discuss the impact of the Iran war on fertilizer prices and its implications on agriculture and food prices. They delve into the drastic increase in fertilizer prices, particularly nitrogen, and the potential for further price increases. The conversation also touches on the role of government intervention in the market and the importance of letting free markets operate.",
-      "key_takeaway": "The disruption in fertilizer supply due to geopolitical tensions presents an opportunity in agricultural commodities, particularly corn, which is heavily impacted by rising input costs and could see price support from tightened supply.",
-      "tickers_mentioned": "[\"CORN\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-03-23",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 96,
-      "episode_release_date": "2026-03-22",
-      "guest_name": null,
-      "key_tickers": [
-        "CORN"
       ]
     }
   ],
@@ -9442,61 +9485,200 @@ const dashboardData = {
     "key_tickers": [
       "NVDA"
     ]
+  },
+  "120": {
+    "id": 111,
+    "insight_id": 120,
+    "podcast_episode_id": 103,
+    "overview": "The investment thesis revolves around the emerging field of psychedelics and their potential applications in longevity and personal growth, which are gaining traction among tech CEOs and venture capitalists. The recent experiences with MEO DMT and psilocybin suggest that these substances could have profound effects on consciousness and neural plasticity, potentially leading to new therapeutic and wellness applications. This analysis explores the investment opportunities in companies that are at the forefront of this field, focusing on their potential to disrupt traditional healthcare and wellness markets.",
+    "key_takeaways_detailed": [
+      "Psychedelics are being researched for their potential in anti-aging and rejuvenation therapies, presenting a new frontier in longevity science.",
+      "Investors should monitor the regulatory landscape for psychedelics, as changes could significantly impact the market potential of related companies.",
+      "Consider the potential for technology companies to integrate or develop psychedelic-assisted therapies into their product offerings.",
+      "Look for companies with strong intellectual property and clinical trial data to mitigate the high-risk, high-reward nature of the psychedelics market.",
+      "Be aware of the ethical considerations and societal implications of investing in psychedelics, as public opinion can influence market acceptance."
+    ],
+    "investment_thesis": "The core investment logic is that the emerging field of psychedelics offers a unique opportunity for investors to capitalize on a new wave of therapeutic and wellness applications. As scientific evidence mounts and public perception shifts, companies involved in the research, development, and distribution of psychedelic substances could see significant growth. Catalysts for this thesis include positive clinical trial results, changes in regulatory frameworks, and increased adoption by mainstream healthcare providers. The timeframe for this thesis is medium to long-term, as the field is still in its early stages of development and acceptance.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's foray into health technology and wearables positions it to potentially integrate or develop psychedelic-assisted therapies into its product offerings, leveraging its existing user base and data collection capabilities.",
+        "positioning": "Consider a long-term strategic position in AAPL, as the company's innovation in health tech could align with the growing interest in psychedelic therapies.",
+        "risk": "Key risks include regulatory hurdles and potential public backlash against the use of psychedelics in mainstream products."
+      },
+      "NVDA": {
+        "rationale": "NVIDIA's advanced AI and machine learning technologies could be utilized in the analysis of data from psychedelic trials, potentially leading to breakthroughs in personalized medicine.",
+        "positioning": "A tactical long position in NVDA could be beneficial as the company's technology is likely to play a role in the advancement of psychedelic research.",
+        "risk": "The risk lies in the competitive landscape of AI and the potential for other companies to develop similar technologies."
+      },
+      "SPY": {
+        "rationale": "As an ETF that tracks the S&P 500, SPY offers exposure to a broad range of companies that may benefit from the growing interest in psychedelics, including those in the healthcare and technology sectors.",
+        "positioning": "A medium-term strategic position in SPY can provide diversification and exposure to the potential growth in the psychedelics market.",
+        "risk": "Market volatility and a potential downturn in the broader market could offset gains from the psychedelics sector."
+      },
+      "TSLA": {
+        "rationale": "Tesla's focus on innovation and technology could lead to exploration of psychedelics in areas such as brain-computer interfaces and neural lace technology, which may have applications in mental health and wellness.",
+        "positioning": "A long-term strategic position in TSLA could be considered, given the company's history of pushing the boundaries of technology and its potential interest in the psychedelics space.",
+        "risk": "The risk is high due to Tesla's volatile stock price and the speculative nature of its potential involvement in the psychedelics market."
+      }
+    },
+    "positioning_guidance": "Investors should consider a diversified approach to positioning in the psychedelics market, with a mix of long-term strategic holdings in companies with strong potential in the space, such as AAPL and NVDA, and a medium-term tactical position in broad market ETFs like SPY. Entry points should be considered in the context of broader market trends and company-specific catalysts. Investors should be prepared to hold positions for a medium to long-term timeframe, given the early stage of the psychedelics market.",
+    "risk_factors": [
+      "Regulatory changes that could restrict or prohibit the use of psychedelics in therapeutic settings.",
+      "Public perception and ethical concerns that could limit the acceptance and use of psychedelics.",
+      "Competition from other companies in the healthcare and technology sectors that could outpace or overshadow the companies in the psychedelics space.",
+      "Clinical trial failures that could setback the progress and acceptance of psychedelic therapies.",
+      "Economic downturns that could affect the overall market and investor sentiment towards high-risk, high-reward investments."
+    ],
+    "contrarian_signals": [
+      "The potential for overhyping the benefits of psychedelics, leading to a market bubble and subsequent crash.",
+      "The possibility that the therapeutic benefits of psychedelics may not be as widespread or effective as currently believed.",
+      "Concerns about the safety and side effects of psychedelic substances, which could limit their widespread use.",
+      "The risk that the current interest in psychedelics is a passing trend rather than a long-term shift in healthcare and wellness."
+    ],
+    "catalysts": [
+      "Positive results from ongoing clinical trials involving psychedelics, which could accelerate regulatory approval and market acceptance.",
+      "Changes in legislation that would legalize or decriminalize the use of psychedelics for therapeutic purposes.",
+      "High-profile endorsements or investments in the psychedelics space by well-known figures in tech and healthcare.",
+      "Publications of scientific research that further establish the potential benefits of psychedelics in longevity and personal growth.",
+      "Announcements of new partnerships or collaborations between tech companies and psychedelics research institutions."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-03-26T04:23:05.508547",
+    "updated_at": "2026-03-26 09:23:05",
+    "insight_title": "Exploring Psychedelics for Longevity and Personal Growth",
+    "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "source_date": "2026-03-26",
+    "key_tickers": []
+  },
+  "121": {
+    "id": 112,
+    "insight_id": 121,
+    "podcast_episode_id": 104,
+    "overview": "The investment thesis revolves around the resurgence of submarine manufacturing in the United States, driven by strategic deterrence needs and the necessity to replenish and modernize the Navy's fleet. The current geopolitical climate, coupled with the end of the Cold War's impact on manufacturing, has created a significant gap in industrial capacity and skilled workforce. The urgency is heightened by the requirement for approximately 70 million labor hours to build the new Columbia Class submarines, a stark contrast to the production levels of the past. This analysis underscores the importance of advanced manufacturing and software-driven productivity to meet these challenges, presenting opportunities for investors in companies that can contribute to this resurgence.",
+    "key_takeaways_detailed": [
+      "The U.S. Navy's need for submarines has increased fivefold in labor hours required for production in the last decade, indicating a massive scale-up in manufacturing capabilities.",
+      "The skilled workforce required for submarine production has been significantly reduced post-Cold War, presenting a human capital challenge that must be addressed.",
+      "Investments in advanced manufacturing facilities and software-driven productivity are crucial for compressing training times and scaling up production.",
+      "The focus on strategic deterrence and the nuclear triad emphasizes the importance of ballistic missile submarines, creating a stable long-term demand for such capabilities.",
+      "The creation of the 'submarine czar' role within the Pentagon signifies the high priority and potential for streamlined decision-making in submarine production."
+    ],
+    "investment_thesis": "The core investment logic is centered on the resurgence of U.S. submarine manufacturing, which is a critical component of national defense strategy. The catalysts for this investment include the need for strategic deterrence, the requirement to replace aging submarines, and the push for advanced manufacturing capabilities. The timeframe for this investment thesis is medium to long-term, as the construction and deployment of submarines are long-cycle projects. However, the immediate ramp-up in production and the need for skilled labor and advanced technology present short-term opportunities for companies involved in these areas.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's investment in advanced manufacturing and software could position the company to contribute to the software-driven productivity uplift needed in submarine manufacturing.",
+        "positioning": "Strategic long-term hold, as Apple's technology could be integral to the efficiency and effectiveness of submarine production.",
+        "risk": "The risk lies in Apple's ability to pivot from consumer electronics to defense contracting, which may face regulatory and competitive hurdles."
+      },
+      "NVDA": {
+        "rationale": "NVIDIA's expertise in AI and computing could be leveraged in the advanced software required for submarine production, particularly in areas like sonar and navigation systems.",
+        "positioning": "Tactical long position, as NVIDIA's technology could be rapidly integrated into new submarine programs, offering short-to-medium term gains.",
+        "risk": "The risk is tied to the company's ability to secure defense contracts and the potential for technological obsolescence in a rapidly evolving field."
+      },
+      "GD": {
+        "rationale": "General Dynamics is a major defense contractor with a history of submarine production, making it a key player in the resurgence of U.S. submarine manufacturing.",
+        "positioning": "Strategic long position, as the company is well-positioned to benefit from increased submarine production and modernization.",
+        "risk": "The risk includes potential cost overruns and delays in production, which are common in defense contracting and can impact profitability."
+      },
+      "NOC": {
+        "rationale": "Northrop Grumman's expertise in naval and maritime systems makes it a significant contributor to submarine technology and production.",
+        "positioning": "Medium-term hold, as the company's involvement in current and future submarine programs could yield significant returns.",
+        "risk": "The risk is associated with the company's reliance on government contracts, which are subject to budgetary constraints and political whims."
+      },
+      "LMT": {
+        "rationale": "Lockheed Martin's broad portfolio in defense technology, including missile systems and advanced manufacturing, aligns with the needs of the submarine manufacturing resurgence.",
+        "positioning": "Long-term strategic investment, as the company's diverse capabilities can support multiple aspects of submarine production and modernization.",
+        "risk": "The risk is the company's exposure to broader defense spending cuts and the potential for reduced demand for advanced missile systems."
+      }
+    },
+    "positioning_guidance": "Investors should consider a diversified approach, allocating a portion of their portfolio to companies with exposure to submarine manufacturing and advanced defense technologies. Entry points should be considered in the context of broader market trends and specific company performance. Timeframes for these investments should align with the long production cycles of submarines, with an eye on short-term catalysts such as contract awards and technological breakthroughs. Hedges may be considered against geopolitical risks and budgetary constraints.",
+    "risk_factors": [
+      "Geopolitical shifts that could reduce the urgency or funding for submarine production.",
+      "Technological disruptions that could render current submarine designs obsolete.",
+      "Regulatory and budgetary constraints that could slow down or halt production.",
+      "Workforce training and retention challenges that could impede the scaling of production.",
+      "International competition that could capture a portion of the submarine manufacturing market."
+    ],
+    "contrarian_signals": [
+      "The potential for a peace dividend that reduces defense spending, impacting the demand for new submarines.",
+      "The rise of alternative strategies for deterrence that do not rely as heavily on submarine capabilities.",
+      "The possibility of technological advancements that could make current submarine designs less effective or necessary.",
+      "Economic downturns that could lead to reduced defense budgets and affect submarine production schedules."
+    ],
+    "catalysts": [
+      "The awarding of new contracts for the Columbia Class submarine program.",
+      "Advancements in software and AI that can be applied to submarine production and operations.",
+      "The opening of new advanced manufacturing facilities dedicated to submarine production.",
+      "Changes in geopolitical tensions that underscore the need for strategic deterrence.",
+      "Budget allocations and policy decisions that prioritize submarine production and modernization."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-03-26T04:23:27.494093",
+    "updated_at": "2026-03-26 09:23:27",
+    "insight_title": "Submarine Manufacturing and Advanced Factories",
+    "source_name": "The a16z Show",
+    "source_date": "2026-03-25",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
   {
-    "id": 95,
-    "term": "Chariot Defense",
-    "definition": null,
-    "investment_implications": null,
-    "source_type": "auto_extracted",
-    "mention_count": 3,
-    "source_diversity": 2,
-    "relevance_score": 35,
-    "submitted_date": "2026-03-25 09:12:41",
-    "priority_score": 105
-  },
-  {
-    "id": 93,
-    "term": "Tactical Power Layer",
-    "definition": "A system designed to provide power to military operations in a way that is both efficient and does not compromise their position or\u5b89\u5168\u6027.",
-    "investment_implications": "Investors should look for companies developing solutions that can meet the growing demand for power in military operations without increasing risk.",
+    "id": 98,
+    "term": "Software-Driven Manufacturing",
+    "definition": "The integration of software and technology into traditional manufacturing processes to increase efficiency and productivity.",
+    "investment_implications": "Investors should consider companies that are at the forefront of software-driven manufacturing, particularly those in the defense and aerospace sectors.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-03-25 09:10:12",
+    "submitted_date": "2026-03-26 09:20:15",
     "priority_score": 80
   },
   {
-    "id": 94,
-    "term": "Electronic Battlefield",
-    "definition": "A modern battlefield that relies heavily on electronic systems such as drones, sensors, and electronic warfare systems, requiring a significant amount of power.",
-    "investment_implications": "The shift towards electronic battlefields presents an opportunity for companies that can provide reliable and tactical power solutions.",
+    "id": 99,
+    "term": "Workforce Trading",
+    "definition": "The strategic allocation and training of the workforce to enhance productivity and meet the demands of advanced manufacturing.",
+    "investment_implications": "Investors should look for companies that are investing in workforce development and training as a means to improve operational efficiency.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-03-25 09:10:12",
+    "submitted_date": "2026-03-26 09:20:15",
     "priority_score": 80
   },
   {
-    "id": 91,
-    "term": "Recursive Self-Improvement",
-    "definition": "The ability of a system to improve its own design and functionality autonomously.",
-    "investment_implications": "Investors should monitor companies at the forefront of developing self-improving AI systems.",
+    "id": 96,
+    "term": "Longevity Experiment",
+    "definition": "A systematic approach to exploring interventions, including psychedelics, that may extend healthspan and lifespan.",
+    "investment_implications": "Investors might consider the potential of psychedelics in the broader context of longevity and healthspan technologies.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-03-25 09:07:25",
+    "submitted_date": "2026-03-26 09:17:24",
+    "priority_score": 80
+  },
+  {
+    "id": 97,
+    "term": "Rejuvenation Protocol",
+    "definition": "A therapeutic approach aimed at restoring youthful biological functions and potentially reversing aging.",
+    "investment_implications": "Investors could look for companies developing rejuvenation therapies, including those involving psychedelics.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-03-26 09:17:24",
     "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 645,
+    "id": 659,
     "name": "When the Music Stops",
     "slug": "when-the-music-stops",
     "bio": null,
@@ -9508,7 +9690,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 646,
+    "id": 660,
     "name": "Ground Infrastructure",
     "slug": "ground-infrastructure",
     "bio": null,
@@ -9520,7 +9702,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 647,
+    "id": 661,
     "name": "Rory Johnston",
     "slug": "rory-johnston",
     "bio": null,
@@ -9532,7 +9714,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 648,
+    "id": 662,
     "name": "Senator John Fetterman on Voting Rights",
     "slug": "senator-john-fetterman-on-voting-rights",
     "bio": null,
@@ -9544,7 +9726,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 649,
+    "id": 663,
     "name": "Elon Musk on Moonshots",
     "slug": "elon-musk-on-moonshots",
     "bio": null,
@@ -9556,7 +9738,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 650,
+    "id": 664,
     "name": "Investing in Capitalism",
     "slug": "investing-in-capitalism",
     "bio": null,
@@ -9568,7 +9750,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 651,
+    "id": 665,
     "name": "Harvard Professor Graham Allison",
     "slug": "harvard-professor-graham-allison",
     "bio": null,
@@ -9580,7 +9762,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 652,
+    "id": 666,
     "name": "Andrew Yang",
     "slug": "andrew-yang",
     "bio": "Andrew Yang is an entrepreneur and political leader who popularized universal basic income in U.S. politics through his 2020 presidential campaign.",
@@ -9592,7 +9774,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 653,
+    "id": 667,
     "name": "Ray Dalio",
     "slug": "ray-dalio",
     "bio": "Ray Dalio is the founder of Bridgewater Associates and a macro investor known for his 'Principles' framework and work on long-term debt cycles.",
@@ -9604,7 +9786,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 654,
+    "id": 668,
     "name": "Nobel Prize-winning economist Paul Krugman",
     "slug": "nobel-prize-winning-economist-paul-krugman",
     "bio": null,
@@ -9616,7 +9798,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 655,
+    "id": 669,
     "name": "host Jack Mallers",
     "slug": "host-jack-mallers",
     "bio": null,
@@ -9628,7 +9810,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 656,
+    "id": 670,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -9640,7 +9822,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 657,
+    "id": 671,
     "name": "Bosworth",
     "slug": "bosworth",
     "bio": null,
@@ -9652,7 +9834,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 658,
+    "id": 672,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -9665,6 +9847,176 @@ const dashboardData = {
   }
 ],
   pundits: [
+  {
+    "id": 114,
+    "name": "Chris Power",
+    "slug": "chris-power",
+    "bio": "Chris Power is the founder and CEO of Hadrian, a company that specializes in advanced manufacturing for submarines. He is known for leading the development of a 2.25 million square foot advanced manufacturing facility for submarine programs, which is crucial for the United States Navy's submarine fleet modernization.",
+    "known_for": "Developing advanced manufacturing capabilities for the U.S. Navy's submarine programs.",
+    "net_worth_usd": 220000000.0,
+    "net_worth_source": "https://www.businessoffamily.net/chris-powers",
+    "net_worth_updated_at": "2026-03-26T04:21:15.715437",
+    "voice_tone": "Confident and solution-oriented",
+    "voice_style": "Factual and forward-looking",
+    "voice_delivery_notes": "Clear and assertive with a focus on the future of manufacturing",
+    "voice_profile_updated_at": "2026-03-26 09:20:15",
+    "last_seen": "2026-03-26 09:20:15",
+    "last_episode_title": "Submarine Manufacturing and Advanced Factories",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-03-25",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investing in advanced manufacturing and workforce development for submarine production could lead to increased efficiency and meet the growing demand for naval capabilities.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-26T04:20:54.928623",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Chris Power",
+      "fetched_at": "2026-03-26T09:20:54.928394+00:00",
+      "cliff_notes": "Chris Power is recognized for his work in the field of advanced manufacturing, particularly in the context of submarine production. As the CEO of Hadrian, he has been instrumental in the development of a large-scale manufacturing facility aimed at enhancing the capabilities of the U.S. Navy's submarine fleet. His efforts are focused on increasing productivity and efficiency in submarine manufacturing, which is critical for national defense and maintaining strategic advantages. Power's work bridges the gap between traditional manufacturing and modern technology, emphasizing the importance of advanced factories in achieving the necessary productivity uplift. His leadership in this field is significant for investors and tech listeners due to the implications for national security, economic growth, and the future of manufacturing.",
+      "derived": {
+        "current_role": "Founder and CEO of Hadrian"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Chris Power is recognized for his work in the field of advanced manufacturing, particularly in the context of submarine production. As the CEO of Hadrian, he has been instrumental in the development of a large-scale manufacturing facility aimed at enhancing the capabilities of the U.S. Navy's submarine fleet. His efforts are focused on increasing productivity and efficiency in submarine manufacturing, which is critical for national defense and maintaining strategic advantages.",
+        "Power's work bridges the gap between traditional manufacturing and modern technology, emphasizing the importance of advanced factories in achieving the necessary productivity uplift. His leadership in this field is significant for investors and tech listeners due to the implications for national security, economic growth, and the future of manufacturing."
+      ],
+      "sections": [
+        {
+          "heading": "Submarine Manufacturing",
+          "body": "Chris Power is leading the charge in advanced manufacturing for submarines, which is pivotal for the U.S. Navy's fleet modernization and maintaining strategic advantages at sea."
+        },
+        {
+          "heading": "Productivity and Efficiency",
+          "body": "Power emphasizes the need for a productivity uplift in submarine manufacturing, advocating for the fusion of workforce training and software to achieve higher production rates and meet the Navy's growing demands."
+        },
+        {
+          "heading": "Advanced Factories",
+          "body": "The development of Hadrian's 2.25 million square foot facility showcases Power's commitment to creating advanced factories that can significantly increase the production capacity for submarines, which is essential for national defense."
+        }
+      ]
+    },
+    "net_worth": "$220.0M"
+  },
+  {
+    "id": 115,
+    "name": "Robert Goucher",
+    "slug": "robert-goucher",
+    "bio": "Vice-Admiral Robert Goucher is responsible for overseeing the strategic and operational aspects of submarine production for the United States Navy. He is known for his expertise in maintaining the stealth capabilities and strategic deterrence provided by the Navy's submarine fleet.",
+    "known_for": "Leading the U.S. Navy's submarine production efforts and addressing the challenges of modernizing the fleet.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Authoritative and pragmatic",
+    "voice_style": "Strategic and solution-focused",
+    "voice_delivery_notes": "Deliberate with an emphasis on the importance of the mission",
+    "voice_profile_updated_at": "2026-03-26 09:20:15",
+    "last_seen": "2026-03-26 09:20:15",
+    "last_episode_title": "Submarine Manufacturing and Advanced Factories",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-03-25",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investing in advanced manufacturing and workforce development for submarine production could lead to increased efficiency and meet the growing demand for naval capabilities.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-26T04:21:24.879895",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Robert Goucher",
+      "fetched_at": "2026-03-26T09:21:24.879791+00:00",
+      "cliff_notes": "Vice-Admiral Robert Goucher has had a distinguished career in the United States Navy, with a focus on submarine production. His role involves overseeing the strategic and operational aspects of submarine production, ensuring the Navy maintains its stealth and access capabilities. Goucher has been at the forefront of efforts to modernize the Navy's fleet, addressing the challenges posed by the end of the Cold War and the subsequent collapse in submarine production. He has emphasized the importance of combining a new workforce, American software, steel, and spirit to achieve a productivity uplift in submarine manufacturing. His leadership is crucial in ensuring the United States maintains its strategic deterrence and peace through strength.",
+      "derived": {
+        "current_role": "Vice-Admiral in charge of all submarine production for the United States Navy"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Vice-Admiral Robert Goucher has had a distinguished career in the United States Navy, with a focus on submarine production. His role involves overseeing the strategic and operational aspects of submarine production, ensuring the Navy maintains its stealth and access capabilities. Goucher has been at the forefront of efforts to modernize the Navy's fleet, addressing the challenges posed by the end of the Cold War and the subsequent collapse in submarine production.",
+        "He has emphasized the importance of combining a new workforce, American software, steel, and spirit to achieve a productivity uplift in submarine manufacturing. His leadership is crucial in ensuring the United States maintains its strategic deterrence and peace through strength."
+      ],
+      "sections": [
+        {
+          "heading": "Submarine Production",
+          "body": "Vice-Admiral Robert Goucher is responsible for overseeing the strategic and operational aspects of submarine production for the United States Navy, ensuring the fleet's stealth and access capabilities are maintained."
+        },
+        {
+          "heading": "Modernizing the Fleet",
+          "body": "Goucher has been at the forefront of efforts to modernize the Navy's submarine fleet, addressing the challenges posed by the end of the Cold War and the subsequent collapse in submarine production."
+        },
+        {
+          "heading": "Productivity Uplift",
+          "body": "Emphasizing the importance of combining a new workforce, American software, steel, and spirit, Goucher is focused on achieving a productivity uplift in submarine manufacturing to meet the Navy's increased capacity needs."
+        }
+      ]
+    }
+  },
+  {
+    "id": 113,
+    "name": "Brian Johnson",
+    "slug": "brian-johnson",
+    "bio": "Brian Johnson is a longevity enthusiast and experimenter with psychedelics for health and longevity. He has dedicated his work to exploring scientific evidence for interventions that promote health and longevity.",
+    "known_for": "His work in exploring scientific evidence for interventions that promote health and longevity, particularly through the use of psychedelics.",
+    "net_worth_usd": 2000000.0,
+    "net_worth_source": "https://mynucleus.com/blog/bryan-johnson-net-worth",
+    "net_worth_updated_at": "2026-03-26T04:22:43.169270",
+    "voice_tone": "Calm and reflective, with a sense of awe and profundity.",
+    "voice_style": "Johnson speaks with a narrative style, sharing personal experiences and drawing on scientific evidence.",
+    "voice_delivery_notes": "Pacing is thoughtful, with emphasis on the transformative aspects of his psychedelic experiences.",
+    "voice_profile_updated_at": "2026-03-26 09:17:24",
+    "last_seen": "2026-03-26 09:17:24",
+    "last_episode_title": "Exploring Psychedelics for Longevity and Personal Growth",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-03-26",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investment in psychedelics for longevity and personal growth is based on the potential for these substances to induce significant changes in consciousness and promote personal rejuvenation.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-26T04:22:22.498838",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Brian Johnson",
+      "fetched_at": "2026-03-26T09:22:22.498676+00:00",
+      "cliff_notes": "Brian Johnson is a longevity enthusiast and experimenter with psychedelics for health and longevity. He has dedicated his work to exploring scientific evidence for interventions that promote health and longevity. Johnson started his project five years ago with the approach of going through all the scientific evidence ever published on health and longevity to find the interventions with the best evidence for effect size. His work has led him to experiment with psychedelics, such as MEO DMT, as part of his longevity experiments. Johnson's work is of interest to investors and tech listeners due to its potential implications for health and longevity in the tech industry.",
+      "derived": {
+        "current_role": "Longevity Enthusiast"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Brian Johnson is a longevity enthusiast and experimenter with psychedelics for health and longevity. He has dedicated his work to exploring scientific evidence for interventions that promote health and longevity. Johnson started his project five years ago with the approach of going through all the scientific evidence ever published on health and longevity to find the interventions with the best evidence for effect size.",
+        "His work has led him to experiment with psychedelics, such as MEO DMT, as part of his longevity experiments. Johnson's work is of interest to investors and tech listeners due to its potential implications for health and longevity in the tech industry."
+      ],
+      "sections": [
+        {
+          "heading": "Longevity Experiments",
+          "body": "Brian Johnson has been conducting longevity experiments, including the use of psychedelics like MEO DMT, to explore interventions that promote health and longevity."
+        },
+        {
+          "heading": "Scientific Evidence",
+          "body": "Johnson's approach to longevity involves going through all the scientific evidence ever published on health and longevity to find the interventions with the best evidence for effect size."
+        },
+        {
+          "heading": "Psychedelics for Health",
+          "body": "Johnson has experimented with psychedelics, such as MEO DMT, as part of his longevity experiments, exploring their potential benefits for health and longevity."
+        }
+      ]
+    },
+    "net_worth": "$2.0M"
+  },
   {
     "id": 110,
     "name": "Adam Warmouth",
@@ -9683,7 +10035,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-24",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Investing in companies that can provide innovative power solutions for the modern, electronic battlefield can offer significant opportunities as military forces worldwide seek to upgrade their capabilities.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-25T04:10:43.350646",
@@ -9740,7 +10092,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-24",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Investing in companies that can provide innovative power solutions for the modern, electronic battlefield can offer significant opportunities as military forces worldwide seek to upgrade their capabilities.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-25T04:10:59.120340",
@@ -9801,7 +10153,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-03-24",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Invest in AI and robotics sectors as they are poised for significant growth and disruption, with a focus on companies that align with human values and contribute to abundance.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-25T04:11:26.668471",
@@ -10041,7 +10393,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "The disruption in fertilizer supply due to geopolitical tensions presents an opportunity in agricultural commodities, particularly corn, which is heavily impacted by rising input costs and could see price support from tightened supply.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-23T04:22:03.060297",
@@ -10096,7 +10448,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Invest in innovation and infrastructure to create a smarter grid and incentivize clean energy adoption, while avoiding over-regulation that leads to unintended economic and environmental consequences.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-23T04:22:21.245588",
@@ -10449,7 +10801,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-02-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Investing in AI and robotics companies that leverage neural networks for autonomous manufacturing could yield significant returns as this market is expected to become the largest economy globally.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-19T22:16:04.041005",
@@ -10671,192 +11023,6 @@ const dashboardData = {
       ]
     },
     "net_worth": "$2.5M"
-  },
-  {
-    "id": 84,
-    "name": "John Fetterman",
-    "slug": "john-fetterman",
-    "bio": "John Fetterman is a Senator from Pennsylvania, recognized for his pragmatic approach to policy and bipartisan appeal. He is known for his stance on voting rights, support for Israel, and refusal to shut down the Department of Homeland Security.",
-    "known_for": "His pragmatic policy approach and bipartisan appeal, particularly in areas of voting rights and national security.",
-    "net_worth_usd": 95000000000.0,
-    "net_worth_source": "https://www.wsws.org/en/articles/2025/03/27/yykn-m27.html",
-    "net_worth_updated_at": "2026-03-19T15:48:49.103847",
-    "voice_tone": "",
-    "voice_style": "",
-    "voice_delivery_notes": "",
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-03-19 03:04:44",
-    "last_episode_title": "Interview with Senator John Fetterman on Voting Rights, Policy Decisions, and the Democratic Party",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-03-18",
-    "mention_score": 1,
-    "mention_score_decayed": 0.85,
-    "last_main_idea": "While not directly investment-focused, the episode provides insights into the political climate and potential policy directions that could indirectly affect various sectors and investment strategies.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-19T21:20:25.000396",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "John Fetterman",
-      "fetched_at": "2026-03-20T02:20:25.000069+00:00",
-      "cliff_notes": "John Fetterman, a Democratic Party member, began his career in public service as the Mayor of Braddock, Pennsylvania, where he gained recognition for his efforts to revitalize the town. His pragmatic approach to policy and commitment to bipartisanship led him to be elected as a Senator from Pennsylvania. In the Senate, Fetterman has been a vocal advocate for voting rights and has taken stances that reflect his progressive values while maintaining a broad appeal. His refusal to shut down the Department of Homeland Security and his support for Israel are also part of his political profile. Fetterman's role in the Senate is significant as he navigates the complex political landscape, striving to represent his constituents while pushing for policy changes that align with his values.",
-      "derived": {
-        "current_role": "Senator from Pennsylvania",
-        "political_affiliation": "Democratic Party",
-        "political_summary": "Senator John Fetterman has been involved in politics, serving as the Mayor of Braddock, Pennsylvania, before being elected to the Senate. He is known for his progressive stances and efforts to bridge the partisan divide."
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "John Fetterman, a Democratic Party member, began his career in public service as the Mayor of Braddock, Pennsylvania, where he gained recognition for his efforts to revitalize the town. His pragmatic approach to policy and commitment to bipartisanship led him to be elected as a Senator from Pennsylvania. In the Senate, Fetterman has been a vocal advocate for voting rights and has taken stances that reflect his progressive values while maintaining a broad appeal.",
-        "His refusal to shut down the Department of Homeland Security and his support for Israel are also part of his political profile. Fetterman's role in the Senate is significant as he navigates the complex political landscape, striving to represent his constituents while pushing for policy changes that align with his values."
-      ],
-      "sections": [
-        {
-          "heading": "Voting Rights",
-          "body": "Senator Fetterman is a staunch advocate for voting rights, pushing for legislation that protects and expands access to voting for all citizens."
-        },
-        {
-          "heading": "Bipartisanship",
-          "body": "Fetterman is known for his efforts to work across party lines, seeking common ground on issues to achieve legislative success."
-        },
-        {
-          "heading": "National Security",
-          "body": "He has been vocal in his support for the Department of Homeland Security, emphasizing the importance of national security in the modern era."
-        },
-        {
-          "heading": "Progressive Values",
-          "body": "Senator Fetterman often champions progressive policies, reflecting his commitment to social justice and equality."
-        }
-      ]
-    },
-    "net_worth": "$95.00B"
-  },
-  {
-    "id": 83,
-    "name": "Jacob Helbert",
-    "slug": "jacob-helbert",
-    "bio": "Jacob Helbert is the Under Secretary of State for Economic Affairs, known for his work on AI, manufacturing, and supply chains. He is the author of 'The Wires of War' and has been influential in discussions on the geopolitics of technology and the importance of hardware, industrial capacity, and secure supply chains for economic strength and national security.",
-    "known_for": "His insights on AI innovation, manufacturing, and supply chains' role in geopolitics and national security.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "",
-    "voice_style": "",
-    "voice_delivery_notes": "",
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-03-19 03:02:43",
-    "last_episode_title": "The Geopolitics of Technology and the Future Economy",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-03-18",
-    "mention_score": 1,
-    "mention_score_decayed": 0.85,
-    "last_main_idea": "Invest in companies that are at the forefront of AI innovation, hardware manufacturing, and secure supply chain management to capitalize on the new geopolitics of technology and the reindustrialization of the US.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-19T21:20:41.027940",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Jacob Helbert",
-      "fetched_at": "2026-03-20T02:20:41.027811+00:00",
-      "cliff_notes": "Jacob Helbert serves as the Under Secretary of State for Economic Affairs, where he plays a pivotal role in shaping economic policies that intersect with technology and national security. His expertise in AI, manufacturing, and supply chains has made him a key figure in discussions about the future of technology's role in global economics and geopolitics. Helbert's work extends beyond policy-making; he is also an author, with his book 'The Wires of War' providing a framework for understanding the critical importance of hardware, industrial capacity, and secure supply chains in today's interconnected world. His contributions to the discourse on AI and its implications for economic and national security have positioned him as a thought leader in the field.",
-      "derived": {
-        "current_role": "Under Secretary of State for Economic Affairs",
-        "books_or_works": "The Wires of War"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Jacob Helbert serves as the Under Secretary of State for Economic Affairs, where he plays a pivotal role in shaping economic policies that intersect with technology and national security. His expertise in AI, manufacturing, and supply chains has made him a key figure in discussions about the future of technology's role in global economics and geopolitics.",
-        "Helbert's work extends beyond policy-making; he is also an author, with his book 'The Wires of War' providing a framework for understanding the critical importance of hardware, industrial capacity, and secure supply chains in today's interconnected world. His contributions to the discourse on AI and its implications for economic and national security have positioned him as a thought leader in the field."
-      ],
-      "sections": [
-        {
-          "heading": "AI and National Security",
-          "body": "Jacob Helbert emphasizes the importance of AI innovation for national security, advocating for the development of superior AI models to maintain a competitive edge globally."
-        },
-        {
-          "heading": "Manufacturing and Supply Chains",
-          "body": "Helbert discusses the significance of robust manufacturing capabilities and secure supply chains for both economic strength and national security in the modern era."
-        },
-        {
-          "heading": "Geopolitics of Technology",
-          "body": "In his book 'The Wires of War' and various discussions, Helbert explores how technology, particularly in hardware and industrial capacity, has become a central aspect of global politics and power dynamics."
-        },
-        {
-          "heading": "Economic Growth",
-          "body": "Helbert believes in the expansionist view of economics, where the 'pie expands', fostering an environment conducive to starting businesses and driving economic growth."
-        }
-      ]
-    }
-  },
-  {
-    "id": 82,
-    "name": "Bob Elliott",
-    "slug": "bob-elliott",
-    "bio": "Bob Elliott is the Chief Investment Officer at Unlimited Funds and a former member of the Investment Committee at Bridgewater. With expertise in macroeconomic trading and investment strategy, Elliott has been influential in the financial sector, particularly in the U.S. macro trading category.",
-    "known_for": "His leadership in macroeconomic trading and investment strategy, and his role in developing the HFGM global macro ETF.",
-    "net_worth_usd": 760000.0,
-    "net_worth_source": "https://www.gurufocus.com/insider/69270/robert-elliott",
-    "net_worth_updated_at": "2026-03-19T15:48:52.999309",
-    "voice_tone": "",
-    "voice_style": "",
-    "voice_delivery_notes": "",
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-03-19 03:02:29",
-    "last_episode_title": "Monetary Matters with Jack Farley: Oil Shocks, Inflation, and Market Reactions",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-03-19",
-    "mention_score": 1,
-    "mention_score_decayed": 0.85,
-    "last_main_idea": "The current elevated oil prices and their subsequent impact on inflation and growth present a complex investment landscape, with stocks and bonds being particularly at risk. Investors should consider packaging trades to navigate these dynamics.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-19T21:21:05.284882",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Bob Elliott",
-      "fetched_at": "2026-03-20T02:21:05.284761+00:00",
-      "cliff_notes": "Bob Elliott is a prominent figure in the financial industry, known for his expertise in macroeconomic trading and investment strategy. He currently serves as the Chief Investment Officer at Unlimited Funds, where he oversees the investment strategies and operations. Previously, Elliott was a member of the Investment Committee at Bridgewater, one of the world's largest hedge funds. His contributions to the development and management of the HFGM global macro ETF have been particularly noteworthy, as it has become the number one Morningstar-rated fund in its category since its inception. Elliott's insights into the impact of oil prices on the economy, stock market, bond market, and Federal Reserve reaction function have been highly sought after, reflecting his deep understanding of the interconnectedness of global financial markets.",
-      "derived": {
-        "current_role": "Chief Investment Officer at Unlimited Funds",
-        "former_positions": "Member of the Investment Committee at Bridgewater"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Bob Elliott is a prominent figure in the financial industry, known for his expertise in macroeconomic trading and investment strategy. He currently serves as the Chief Investment Officer at Unlimited Funds, where he oversees the investment strategies and operations. Previously, Elliott was a member of the Investment Committee at Bridgewater, one of the world's largest hedge funds.",
-        "His contributions to the development and management of the HFGM global macro ETF have been particularly noteworthy, as it has become the number one Morningstar-rated fund in its category since its inception. Elliott's insights into the impact of oil prices on the economy, stock market, bond market, and Federal Reserve reaction function have been highly sought after, reflecting his deep understanding of the interconnectedness of global financial markets."
-      ],
-      "sections": [
-        {
-          "heading": "Macroeconomic Trading",
-          "body": "Bob Elliott is recognized for his deep understanding of macroeconomic trading, which involves large-scale investments based on global economic trends and events."
-        },
-        {
-          "heading": "Investment Strategy",
-          "body": "Elliott's investment strategy expertise has been pivotal in guiding Unlimited Funds and shaping the investment direction of the HFGM global macro ETF."
-        },
-        {
-          "heading": "Impact of Oil Prices",
-          "body": "Elliott has provided insightful commentary on how elevated oil prices impact various economic sectors, including households, stock markets, and monetary policy."
-        },
-        {
-          "heading": "ETF Development",
-          "body": "As a key figure in the development of the HFGM global macro ETF, Elliott has contributed to its success and recognition in the U.S. macro trading category."
-        }
-      ]
-    },
-    "net_worth": "$760,000"
   }
 ]
 };
