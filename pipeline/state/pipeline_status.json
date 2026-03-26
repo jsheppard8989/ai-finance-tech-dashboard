@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-26T05:05:36.819196",
+  "last_updated": "2026-03-26T05:46:56.206364",
   "episodes": {
     "moonshots_with_peter_diamandis_eric_schmidt:_singularity's_ar": {
       "info": {
@@ -41,7 +41,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-26T05:05:36.742664",
+      "first_seen": "2026-03-26T05:46:56.109481",
       "status": "needs_export"
     },
     "moonshots_with_peter_diamandis_nvidia's_$1_trillion_predictio": {
@@ -82,7 +82,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-26T05:05:36.749414",
+      "first_seen": "2026-03-26T05:46:56.120733",
       "status": "needs_analysis"
     },
     "moonshots_with_peter_diamandis_meta_buys_moltbook,_gpt_5.4,_a": {
@@ -123,7 +123,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-26T05:05:36.763250",
+      "first_seen": "2026-03-26T05:46:56.150091",
       "status": "blocked_analysis"
     },
     "monetary_matters_with_jack_farley_stock_market_on_shaky_foundati": {
@@ -164,7 +164,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-26T05:05:36.770805",
+      "first_seen": "2026-03-26T05:46:56.158178",
       "status": "blocked_analysis"
     },
     "the_a16z_show_the_missing_power_layer_of_mod": {
@@ -207,7 +207,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-26T05:05:36.781892",
+      "first_seen": "2026-03-26T05:46:56.169310",
       "status": "needs_export"
     },
     "the_a16z_show_ai_just_gave_you_superpowers_\u2014": {
@@ -248,7 +248,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-26T05:05:36.794523",
+      "first_seen": "2026-03-26T05:46:56.181566",
       "status": "blocked_analysis"
     },
     "the_a16z_show_chris_dixon:_from_quant_tradin": {
@@ -289,7 +289,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-26T05:05:36.801693",
+      "first_seen": "2026-03-26T05:46:56.188803",
       "status": "blocked_analysis"
     },
     "dwarkesh_podcast_why_leonardo_was_a_saboteur,_g": {
@@ -330,7 +330,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-26T05:05:36.813880",
+      "first_seen": "2026-03-26T05:46:56.201142",
       "status": "blocked_analysis"
     }
   }
