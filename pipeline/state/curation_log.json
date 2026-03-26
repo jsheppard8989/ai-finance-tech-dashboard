@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-03-26T12:23:09.925806",
-  "total_feed_episodes": 7,
-  "approved_for_transcription": 7,
+  "timestamp": "2026-03-26T13:37:37.112482",
+  "total_feed_episodes": 8,
+  "approved_for_transcription": 8,
   "episodes": [
     {
       "podcast": "Moonshots with Peter Diamandis",
@@ -80,6 +80,19 @@
       "matched_keywords": [],
       "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_chris_dixon__from_quant_trading_to_building_a16z_crypto_be2e5b4b.mp3",
       "filename": "the_a16z_show_chris_dixon__from_quant_trading_to_building_a16z_crypto_be2e5b4b.mp3"
+    },
+    {
+      "podcast": "Macro Voices",
+      "title": "MacroVoices #525 Lyn Alden: Iran Contagion, Inflation & Private Credit",
+      "description": "<p class=\"p1\">MacroVoices Erik Townsend &amp; Patrick Ceresna welcome, Lyn Alden. They will discuss the Iran conflict, the return to a multi-polar world order, the outlook for persistent inflation, the breakdown in private credit markets and much more. <a href='https://bit.ly/4rZghp4'>https://bit.ly/4rZghp4</a></p>\n<p class=\"p2\">\u00a0</p>\n<p class=\"p1\">\u00a0\ud83d\udd3bDownload Big Picture Trading Chartbook \ud83d\udcc8\ud83d\udcc9: <a href='https://bit.ly/4lT8ffT'>https://bit.ly/4lT8ffT</a></p>\n<p class=\"p2\">\u00a0</p>\n<p class=\"p1\">\u2705Sign ",
+      "audio_url": "https://dts.podtrac.com/redirect.mp3/mcdn.podbean.com/mf/web/faguk5aguqtnet9k/MacroVoices-2026-26-03-Lyn-Alden.mp3",
+      "published": "Thu, 26 Mar 2026 12:35:59 -0500",
+      "published_date": "2026-03-26",
+      "rss_guid": "macrovoices.podbean.com/ee99f7f6-d1f9-3a7a-8fbc-292076342b9a",
+      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/MacroVoices-2026-26-03-Lyn-Alden.mp3",
+      "filename": "MacroVoices-2026-26-03-Lyn-Alden.mp3",
+      "status": "APPROVED",
+      "matched_keywords": []
     },
     {
       "podcast": "Dwarkesh Podcast",

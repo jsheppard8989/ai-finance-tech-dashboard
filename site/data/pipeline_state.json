@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-03-26T13:07:08.243641",
-  "last_updated": "2026-03-26T13:07:08.243641",
-  "last_pipeline_run": "2026-03-26T13:07:08.243641",
+  "generated_at": "2026-03-26T13:41:15.915475",
+  "last_updated": "2026-03-26T13:41:15.915475",
+  "last_pipeline_run": "2026-03-26T13:41:15.915475",
   "main_page": {
     "overton": 8,
     "insights": 8,
@@ -18,11 +18,11 @@
     "podcasts_analyzed": 4
   },
   "step_results": {
-    "downloaded": 4,
-    "transcribed": 4,
-    "analyzed": 4,
+    "downloaded": 5,
+    "transcribed": 5,
+    "analyzed": 5,
     "insight_created": 0,
-    "published": 1,
+    "published": 2,
     "total": 8
   },
   "episodes": [
@@ -146,6 +146,24 @@
       "status": "needs_download"
     },
     {
+      "id": "macrovoices.podbean.com/ee99f7f6-d1f9-3a7a-8fbc-292076342b9a",
+      "podcast": "Macro Voices",
+      "title": "Macro Voices: The Iran Conflict's Impact on Inflation and Energy Markets",
+      "published": "2026-03-26",
+      "rss_guid": "macrovoices.podbean.com/ee99f7f6-d1f9-3a7a-8fbc-292076342b9a",
+      "stages": {
+        "downloaded": true,
+        "transcribed": true,
+        "analyzed": true,
+        "insight_created": false,
+        "published": true
+      },
+      "stage_reasons": {
+        "insight_created": "No latest_insights row for this episode (insight step not reflected in DB yet)."
+      },
+      "status": "needs_insight"
+    },
+    {
       "id": "substack:post:190118311",
       "podcast": "Dwarkesh Podcast",
       "title": "Why Leonardo was a saboteur, Gutenberg went broke, and Florence was weird \u2013 Ada Palmer",
@@ -164,29 +182,6 @@
         "analyzed": "Not in DB yet (approved, but not pulled into pipeline DB).",
         "insight_created": "Not in DB yet (approved, but not pulled into pipeline DB).",
         "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
-      },
-      "status": "needs_download"
-    },
-    {
-      "id": "rss::macro voices::macrovoices #525 lyn alden: iran contagion, inflation & private credit",
-      "podcast": "Macro Voices",
-      "title": "MacroVoices #525 Lyn Alden: Iran Contagion, Inflation & Private Credit",
-      "published": "2026-03-26",
-      "published_date": "2026-03-26",
-      "rss_guid": "",
-      "stages": {
-        "downloaded": false,
-        "transcribed": false,
-        "analyzed": false,
-        "insight_created": false,
-        "published": false
-      },
-      "stage_reasons": {
-        "downloaded": "Discovered on RSS feed; not yet pulled into curation/pipeline state.",
-        "transcribed": "Waiting for download first.",
-        "analyzed": "Waiting for transcript first.",
-        "insight_created": "Depends on analyze step first.",
-        "published": "Not on site until export after analysis and insight promotion."
       },
       "status": "needs_download"
     }
