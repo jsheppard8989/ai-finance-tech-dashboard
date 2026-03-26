@@ -1,49 +1,6 @@
 {
-  "last_updated": "2026-03-26T07:09:08.079235",
+  "last_updated": "2026-03-26T07:46:28.580965",
   "episodes": {
-    "moonshots_with_peter_diamandis_eric_schmidt:_singularity's_ar": {
-      "info": {
-        "podcast": "Moonshots with Peter Diamandis",
-        "title": "Eric Schmidt: Singularity's Arrival, the 92-Gigawatt Problem, and Recursive Self-Improvement Timelines | 241",
-        "published": "2026-03-24",
-        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/DVVTS4069152448.mp3",
-        "keywords": [],
-        "rss_guid": "261c3a60-2718-11f1-9826-0395fc50b1af"
-      },
-      "stages": {
-        "downloaded": {
-          "complete": true,
-          "timestamp": null,
-          "reason": null
-        },
-        "transcribed": {
-          "complete": true,
-          "file": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/DVVTS4069152448.txt",
-          "timestamp": null,
-          "reason": null
-        },
-        "analyzed": {
-          "complete": true,
-          "episode_id": 101,
-          "timestamp": null,
-          "reason": null
-        },
-        "insight_created": {
-          "complete": true,
-          "insight_id": 17,
-          "insight_title": "Moonshots #231: 400x AI Cost Collapse & India's Talent Decade",
-          "timestamp": null,
-          "reason": null
-        },
-        "published": {
-          "complete": false,
-          "timestamp": null,
-          "reason": "Not in data.js yet (run export and push to site)."
-        }
-      },
-      "first_seen": "2026-03-26T07:09:08.035359",
-      "status": "needs_export"
-    },
     "moonshots_with_peter_diamandis_nvidia's_$1_trillion_predictio": {
       "info": {
         "podcast": "Moonshots with Peter Diamandis",
@@ -82,7 +39,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-26T07:09:08.039516",
+      "first_seen": "2026-03-26T07:46:28.439624",
       "status": "needs_analysis"
     },
     "moonshots_with_peter_diamandis_meta_buys_moltbook,_gpt_5.4,_a": {
@@ -123,8 +80,49 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-26T07:09:08.047814",
+      "first_seen": "2026-03-26T07:46:28.497248",
       "status": "blocked_analysis"
+    },
+    "monetary_matters_with_jack_farley_headline_indices_are_masking_m": {
+      "info": {
+        "podcast": "Monetary Matters with Jack Farley",
+        "title": "Headline Indices Are Masking Market Stress | Liz Ann Sonders on the Case For Quality Stocks During An Oil Shock",
+        "published": "2026-03-25",
+        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/monetary_matters_with_jack_farley_headline_indices_are_masking_market_stress___liz_ann_sonders_620445ae.mp3",
+        "keywords": [],
+        "rss_guid": "2375f8e4-2855-11f1-b38f-d7b1dc26b39f"
+      },
+      "stages": {
+        "downloaded": {
+          "complete": true,
+          "timestamp": null,
+          "reason": null
+        },
+        "transcribed": {
+          "complete": false,
+          "file": null,
+          "timestamp": null,
+          "reason": "Waiting for fetch/transcribe step"
+        },
+        "analyzed": {
+          "complete": false,
+          "episode_id": null,
+          "timestamp": null,
+          "reason": "Waiting for next analyze run (transcript \u2192 DB)."
+        },
+        "insight_created": {
+          "complete": false,
+          "timestamp": null,
+          "reason": "Depends on analyze step first."
+        },
+        "published": {
+          "complete": false,
+          "timestamp": null,
+          "reason": "Not in data.js yet (run export and push to site)."
+        }
+      },
+      "first_seen": "2026-03-26T07:46:28.508353",
+      "status": "needs_transcription"
     },
     "monetary_matters_with_jack_farley_stock_market_on_shaky_foundati": {
       "info": {
@@ -164,51 +162,8 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-26T07:09:08.052285",
+      "first_seen": "2026-03-26T07:46:28.534984",
       "status": "blocked_analysis"
-    },
-    "the_a16z_show_the_missing_power_layer_of_mod": {
-      "info": {
-        "podcast": "The a16z Show",
-        "title": "The Missing Power Layer of Modern Warfare",
-        "published": "2026-03-24",
-        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_the_missing_power_layer_of_modern_warfare_3a79a1b2.mp3",
-        "keywords": [],
-        "rss_guid": "f3b05bf0-1952-46a7-8a05-23946f55f67a"
-      },
-      "stages": {
-        "downloaded": {
-          "complete": true,
-          "timestamp": null,
-          "reason": null
-        },
-        "transcribed": {
-          "complete": true,
-          "file": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/the_a16z_show_20260324_f3b05bf0_1952_46a7_8a05_23946f55.txt",
-          "timestamp": null,
-          "reason": null
-        },
-        "analyzed": {
-          "complete": true,
-          "episode_id": 102,
-          "timestamp": null,
-          "reason": null
-        },
-        "insight_created": {
-          "complete": true,
-          "insight_id": 50,
-          "insight_title": "The a16z Show: New Media Strategy and Investment Insights",
-          "timestamp": null,
-          "reason": null
-        },
-        "published": {
-          "complete": false,
-          "timestamp": null,
-          "reason": "Not in data.js yet (run export and push to site)."
-        }
-      },
-      "first_seen": "2026-03-26T07:09:08.058896",
-      "status": "needs_export"
     },
     "the_a16z_show_ai_just_gave_you_superpowers_\u2014": {
       "info": {
@@ -248,7 +203,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-26T07:09:08.065906",
+      "first_seen": "2026-03-26T07:46:28.549634",
       "status": "blocked_analysis"
     },
     "the_a16z_show_chris_dixon:_from_quant_tradin": {
@@ -289,7 +244,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-26T07:09:08.069716",
+      "first_seen": "2026-03-26T07:46:28.557548",
       "status": "blocked_analysis"
     },
     "dwarkesh_podcast_why_leonardo_was_a_saboteur,_g": {
@@ -330,7 +285,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-26T07:09:08.076399",
+      "first_seen": "2026-03-26T07:46:28.572852",
       "status": "blocked_analysis"
     }
   }

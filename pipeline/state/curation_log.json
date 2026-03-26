@@ -1,21 +1,8 @@
 {
-  "timestamp": "2026-03-25T04:06:17.193803",
-  "total_feed_episodes": 8,
-  "approved_for_transcription": 8,
+  "timestamp": "2026-03-26T07:42:47.142172",
+  "total_feed_episodes": 7,
+  "approved_for_transcription": 7,
   "episodes": [
-    {
-      "podcast": "Moonshots with Peter Diamandis",
-      "title": "Eric Schmidt: Singularity's Arrival, the 92-Gigawatt Problem, and Recursive Self-Improvement Timelines | 241",
-      "description": "\n        <p>This episode was filmed at the 2026 Abundance360 Summit. Learn more at <a href=\"http://a360.com\"><u>a360.com</u></a></p>\n<p><br></p>\n<p>Eric Schmidt ignites Abundance Summit 2026: AI's reasoning boom crushes code (20-80 human split), scaling laws unbound, orbital data centers, China's robot edge, energy/power crunches, recursive self-improvement asymptote, and steering ASI to American values amid geopolitical races.</p>\n<p><br></p>\n<p>Get access to metatrends 10+ years before anyone ",
-      "audio_url": "https://traffic.megaphone.fm/DVVTS4069152448.mp3",
-      "published": "Tue, 24 Mar 2026 15:50:00 -0000",
-      "published_date": "2026-03-24",
-      "rss_guid": "261c3a60-2718-11f1-9826-0395fc50b1af",
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/DVVTS4069152448.mp3",
-      "filename": "DVVTS4069152448.mp3",
-      "status": "APPROVED",
-      "matched_keywords": []
-    },
     {
       "podcast": "Moonshots with Peter Diamandis",
       "title": "NVIDIA's $1 Trillion Prediction, Anthropic Beats OpenAI, Tesla vs. TSMC & The CS Job Collapse | 240",
@@ -44,6 +31,19 @@
     },
     {
       "podcast": "Monetary Matters with Jack Farley",
+      "title": "Headline Indices Are Masking Market Stress | Liz Ann Sonders on the Case For Quality Stocks During An Oil Shock",
+      "description": "\n        <p>This episode is brought to you by the Pictet AI Enhanced International Equity ETF ($PQNT):\u00a0</p>\n<p><a href=\"https://etf.am.pictet.com/pqnt/?utm_campaign=usetf&amp;cid=2715538577&amp;utm_source=jfmv&amp;utm_content=pqnt&amp;utm_medium=podcast_02&amp;utm_term=noterm\"><u>https://etf.am.pictet.com/pqnt/?utm_campaign=usetf&amp;cid=2715538577&amp;utm_source=jfmv&amp;utm_content=pqnt&amp;utm_medium=podcast_02&amp;utm_term=noterm</u></a></p>\n<p><br></p>\n<p>In this episode of Monetary Matters",
+      "audio_url": "https://traffic.megaphone.fm/EWWMN1801736447.mp3",
+      "published": "Wed, 25 Mar 2026 14:36:00 -0000",
+      "published_date": "2026-03-25",
+      "rss_guid": "2375f8e4-2855-11f1-b38f-d7b1dc26b39f",
+      "status": "APPROVED",
+      "matched_keywords": [],
+      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/monetary_matters_with_jack_farley_headline_indices_are_masking_market_stress___liz_ann_sonders_620445ae.mp3",
+      "filename": "monetary_matters_with_jack_farley_headline_indices_are_masking_market_stress___liz_ann_sonders_620445ae.mp3"
+    },
+    {
+      "podcast": "Monetary Matters with Jack Farley",
       "title": "Stock Market on Shaky Foundations | Blind Squirrel Macro\u2019s Rupert Mitchell on IPO Supply, Oil, and Private Credit",
       "description": "\n        <p>Learn more about Teucrium\u2019s Soybean ETF (SOYB) here: <a href=\"https://teucrium.com/soyb\"><u>https://teucrium.com/soyb</u><br></a></p>\n<p>In this episode of Monetary Matters, Jack sits down with Rupert Mitchell of Blind Squirrel Macro to unpack why the foundations of the current US stock market bull run might be crumbling. Mitchell details his transition to a 50% cash and gold portfolio, warning that a looming wave of jumbo IPOs and cracks in the private credit markets could severely ",
       "audio_url": "https://traffic.megaphone.fm/EWWMN5922696172.mp3",
@@ -54,19 +54,6 @@
       "matched_keywords": [],
       "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/monetary_matters_with_jack_farley_stock_market_on_shaky_foundations___blind_squirrel_macro_s_r_12c3cce4.mp3",
       "filename": "monetary_matters_with_jack_farley_stock_market_on_shaky_foundations___blind_squirrel_macro_s_r_12c3cce4.mp3"
-    },
-    {
-      "podcast": "The a16z Show",
-      "title": "The Missing Power Layer of Modern Warfare",
-      "description": "<p>Erin Price-Wright speaks with Adam Warmoth, founder and CEO of Chariot Defense, and Alex Miller, CTO of the U.S. Army, about the power crisis at the heart of modern military operations. As the battlefield becomes more distributed and electronics-heavy, the Army's legacy power infrastructure, built around diesel generators and lead-acid batteries, is struggling to keep up. They examine how commercial breakthroughs in EV and aviation technology are being adapted for the front line, why fuel con",
-      "audio_url": "https://mgln.ai/e/1344/afp-848985-injected.calisto.simplecastaudio.com/3f86df7b-51c6-4101-88a2-550dba782de8/episodes/bd5c383e-1d2b-4fa7-a189-ac4e4fe869a5/audio/128/default.mp3?aid=rss_feed&awCollectionId=3f86df7b-51c6-4101-88a2-550dba782de8&awEpisodeId=bd5c383e-1d2b-4fa7-a189-ac4e4fe869a5&feed=JGE3yC0V",
-      "published": "Tue, 24 Mar 2026 10:00:55 +0000",
-      "published_date": "2026-03-24",
-      "rss_guid": "f3b05bf0-1952-46a7-8a05-23946f55f67a",
-      "status": "APPROVED",
-      "matched_keywords": [],
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_the_missing_power_layer_of_modern_warfare_3a79a1b2.mp3",
-      "filename": "the_a16z_show_the_missing_power_layer_of_modern_warfare_3a79a1b2.mp3"
     },
     {
       "podcast": "The a16z Show",
