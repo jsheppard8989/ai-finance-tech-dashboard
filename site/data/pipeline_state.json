@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-03-26T14:16:50.677289",
-  "last_updated": "2026-03-26T14:16:50.677289",
-  "last_pipeline_run": "2026-03-26T14:16:50.677289",
+  "generated_at": "2026-03-26T14:50:52.801403",
+  "last_updated": "2026-03-26T14:50:52.801403",
+  "last_pipeline_run": "2026-03-26T14:50:52.801403",
   "main_page": {
     "overton": 8,
     "insights": 8,
@@ -20,12 +20,12 @@
     "podcasts_analyzed": 5
   },
   "step_results": {
-    "downloaded": 5,
-    "transcribed": 5,
-    "analyzed": 5,
-    "insight_created": 1,
-    "published": 2,
-    "total": 8
+    "downloaded": 4,
+    "transcribed": 4,
+    "analyzed": 4,
+    "insight_created": 0,
+    "published": 1,
+    "total": 7
   },
   "episodes": [
     {
@@ -146,22 +146,6 @@
         "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
       },
       "status": "needs_download"
-    },
-    {
-      "id": "macrovoices.podbean.com/ee99f7f6-d1f9-3a7a-8fbc-292076342b9a",
-      "podcast": "Macro Voices",
-      "title": "Macro Voices Episode 525: Multi-Polar World Order, Iran Conflict, and Inflation Outlook",
-      "published": "2026-03-26",
-      "rss_guid": "macrovoices.podbean.com/ee99f7f6-d1f9-3a7a-8fbc-292076342b9a",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "status": "complete"
     },
     {
       "id": "substack:post:190118311",

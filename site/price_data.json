@@ -1,62 +1,62 @@
 {
   "GOOGL": {
-    "price": 281.12,
-    "change_pct": -8.24,
+    "price": NaN,
+    "change_pct": NaN,
     "name": "GOOGL",
-    "updated_at": "2026-03-26T14:16:49.789196"
+    "updated_at": "2026-03-26T14:50:51.914192"
   },
   "MSFT": {
-    "price": 365.65,
-    "change_pct": -10.69,
+    "price": 366.15,
+    "change_pct": -10.57,
     "name": "MSFT",
-    "updated_at": "2026-03-26T14:16:49.789213"
+    "updated_at": "2026-03-26T14:50:51.914212"
   },
   "BTC-USD": {
-    "price": 68400.95,
-    "change_pct": -3.62,
+    "price": 68621.55,
+    "change_pct": -3.31,
     "name": "BTC",
-    "updated_at": "2026-03-26T14:16:49.789220"
+    "updated_at": "2026-03-26T14:50:51.914220"
   },
   "NVDA": {
-    "price": 172.21,
-    "change_pct": -5.71,
+    "price": 171.68,
+    "change_pct": -6.0,
     "name": "NVDA",
-    "updated_at": "2026-03-26T14:16:49.789226"
+    "updated_at": "2026-03-26T14:50:51.914226"
   },
   "WTI": {
-    "price": 3.23,
-    "change_pct": 5.04,
+    "price": 3.27,
+    "change_pct": 6.18,
     "name": "WTI",
-    "updated_at": "2026-03-26T14:16:49.789236"
+    "updated_at": "2026-03-26T14:50:51.914231"
   },
   "META": {
-    "price": 548.92,
-    "change_pct": -15.14,
+    "price": 546.7,
+    "change_pct": -15.48,
     "name": "META",
-    "updated_at": "2026-03-26T14:16:49.789242"
+    "updated_at": "2026-03-26T14:50:51.914237"
   },
   "AMZN": {
-    "price": 208.15,
-    "change_pct": -2.5,
+    "price": 207.93,
+    "change_pct": -2.6,
     "name": "AMZN",
-    "updated_at": "2026-03-26T14:16:49.789249"
+    "updated_at": "2026-03-26T14:50:51.914243"
   },
   "MSTR": {
-    "price": 133.64,
-    "change_pct": -3.82,
+    "price": 133.11,
+    "change_pct": -4.2,
     "name": "MSTR",
-    "updated_at": "2026-03-26T14:16:49.789254"
+    "updated_at": "2026-03-26T14:50:51.914249"
   },
   "COIN": {
-    "price": 173.0,
-    "change_pct": -13.41,
+    "price": 173.75,
+    "change_pct": -13.03,
     "name": "COIN",
-    "updated_at": "2026-03-26T14:16:49.789259"
+    "updated_at": "2026-03-26T14:50:51.914254"
   },
   "QQQ": {
-    "price": 575.26,
-    "change_pct": -5.35,
+    "price": NaN,
+    "change_pct": NaN,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-03-26T14:16:49.789264"
+    "updated_at": "2026-03-26T14:50:51.914258"
   }
 }

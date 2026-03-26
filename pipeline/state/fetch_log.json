@@ -1,18 +1,11 @@
 {
-  "timestamp": "2026-03-26T14:12:01.186045",
+  "timestamp": "2026-03-26T14:47:30.158929",
   "results": [
     {
       "podcast": "Moonshots with Peter Diamandis",
       "title": "Elon's $5 Trillion Bet, the End of Human Drivers, and Chamath's Market Warning | EP #242",
       "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/DVVTS3579530070.mp3",
       "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/DVVTS3579530070.txt",
-      "success": true
-    },
-    {
-      "podcast": "Macro Voices",
-      "title": "MacroVoices #525 Lyn Alden: Iran Contagion, Inflation & Private Credit",
-      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/MacroVoices-2026-26-03-Lyn-Alden.mp3",
-      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/MacroVoices-2026-26-03-Lyn-Alden.txt",
       "success": true
     }
   ]
