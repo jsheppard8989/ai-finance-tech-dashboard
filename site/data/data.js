@@ -3,8 +3,8 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-03-26T04:26:11.419458",
-  chartsVersion: "2026-03-26T04:24:09.041298",
+  generatedAt: "2026-03-26T05:07:37.968872",
+  chartsVersion: "2026-03-26T05:05:35.872704",
   tickerScores: [
   {
     "ticker": "GOOGL",
@@ -9678,7 +9678,7 @@ const dashboardData = {
 ],
   podcastGuests: [
   {
-    "id": 659,
+    "id": 673,
     "name": "When the Music Stops",
     "slug": "when-the-music-stops",
     "bio": null,
@@ -9690,7 +9690,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 660,
+    "id": 674,
     "name": "Ground Infrastructure",
     "slug": "ground-infrastructure",
     "bio": null,
@@ -9702,7 +9702,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 661,
+    "id": 675,
     "name": "Rory Johnston",
     "slug": "rory-johnston",
     "bio": null,
@@ -9714,7 +9714,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 662,
+    "id": 676,
     "name": "Senator John Fetterman on Voting Rights",
     "slug": "senator-john-fetterman-on-voting-rights",
     "bio": null,
@@ -9726,7 +9726,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 663,
+    "id": 677,
     "name": "Elon Musk on Moonshots",
     "slug": "elon-musk-on-moonshots",
     "bio": null,
@@ -9738,7 +9738,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 664,
+    "id": 678,
     "name": "Investing in Capitalism",
     "slug": "investing-in-capitalism",
     "bio": null,
@@ -9750,7 +9750,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 665,
+    "id": 679,
     "name": "Harvard Professor Graham Allison",
     "slug": "harvard-professor-graham-allison",
     "bio": null,
@@ -9762,7 +9762,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 666,
+    "id": 680,
     "name": "Andrew Yang",
     "slug": "andrew-yang",
     "bio": "Andrew Yang is an entrepreneur and political leader who popularized universal basic income in U.S. politics through his 2020 presidential campaign.",
@@ -9774,7 +9774,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 667,
+    "id": 681,
     "name": "Ray Dalio",
     "slug": "ray-dalio",
     "bio": "Ray Dalio is the founder of Bridgewater Associates and a macro investor known for his 'Principles' framework and work on long-term debt cycles.",
@@ -9786,7 +9786,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 668,
+    "id": 682,
     "name": "Nobel Prize-winning economist Paul Krugman",
     "slug": "nobel-prize-winning-economist-paul-krugman",
     "bio": null,
@@ -9798,7 +9798,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 669,
+    "id": 683,
     "name": "host Jack Mallers",
     "slug": "host-jack-mallers",
     "bio": null,
@@ -9810,7 +9810,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 670,
+    "id": 684,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -9822,7 +9822,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 671,
+    "id": 685,
     "name": "Bosworth",
     "slug": "bosworth",
     "bio": null,
@@ -9834,7 +9834,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 672,
+    "id": 686,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -10218,7 +10218,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Investing in ground infrastructure for space can unlock the next wave of innovation, making space missions more useful and efficient.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-24T04:43:11.153707",
@@ -10275,7 +10275,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Invest in companies that can leverage the evolving landscape of AI and GPU computing, particularly those with the agility to adapt and scale in a rapidly changing market.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-24T04:43:59.032721",
@@ -10333,7 +10333,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Svellen Capital sees opportunities in commodities and shipping markets amidst the Middle East crisis, with a focus on the practical implications of geopolitical events on global trade and logistics.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-24T04:44:35.945959",
@@ -10509,7 +10509,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-03-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "The integration of AI into mathematics can accelerate discovery and problem-solving, presenting opportunities for investment in AI technology and its applications in scientific research.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-21T04:32:04.005767",
@@ -10564,7 +10564,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-03-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "The ongoing Iran conflict may lead to a secular inflation cycle, with oil prices being a key catalyst. Investors should monitor shifts in commodities, credit, and the yield curve for potential macroeconomic impacts.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:35:48.845381",
@@ -10621,7 +10621,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-03-19",
     "mention_score": 2,
-    "mention_score_decayed": 1.78,
+    "mention_score_decayed": 1.74,
     "last_main_idea": "The ongoing Iran conflict may lead to a secular inflation cycle, with oil prices being a key catalyst. Investors should monitor shifts in commodities, credit, and the yield curve for potential macroeconomic impacts.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:36:30.218908",
@@ -10677,7 +10677,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "NVIDIA's strategic acquisitions and technological advancements position it as a leader in the AI revolution, offering investors exposure to the growing AI factory industry.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:40:52.368193",
@@ -10739,7 +10739,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-02-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Invest in sectors with fertile ground for short selling, such as tech and AI, and consider undervalued areas like junior mining for potential alpha.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:42:09.376490",
