@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-03-26T12:26:43.106615",
-  "last_updated": "2026-03-26T12:26:43.106615",
-  "last_pipeline_run": "2026-03-26T12:26:43.106615",
+  "generated_at": "2026-03-26T13:07:08.243641",
+  "last_updated": "2026-03-26T13:07:08.243641",
+  "last_pipeline_run": "2026-03-26T13:07:08.243641",
   "main_page": {
     "overton": 8,
     "insights": 8,
@@ -23,7 +23,7 @@
     "analyzed": 4,
     "insight_created": 0,
     "published": 1,
-    "total": 7
+    "total": 8
   },
   "episodes": [
     {
@@ -166,6 +166,29 @@
         "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
       },
       "status": "needs_download"
+    },
+    {
+      "id": "rss::macro voices::macrovoices #525 lyn alden: iran contagion, inflation & private credit",
+      "podcast": "Macro Voices",
+      "title": "MacroVoices #525 Lyn Alden: Iran Contagion, Inflation & Private Credit",
+      "published": "2026-03-26",
+      "published_date": "2026-03-26",
+      "rss_guid": "",
+      "stages": {
+        "downloaded": false,
+        "transcribed": false,
+        "analyzed": false,
+        "insight_created": false,
+        "published": false
+      },
+      "stage_reasons": {
+        "downloaded": "Discovered on RSS feed; not yet pulled into curation/pipeline state.",
+        "transcribed": "Waiting for download first.",
+        "analyzed": "Waiting for transcript first.",
+        "insight_created": "Depends on analyze step first.",
+        "published": "Not on site until export after analysis and insight promotion."
+      },
+      "status": "needs_download"
     }
   ],
   "available_from_rss": [
@@ -173,6 +196,13 @@
       "podcast": "Moonshots with Peter Diamandis",
       "title": "Elon's $5 Trillion Bet, the End of Human Drivers, and Chamath's Market Warning | EP #242",
       "published": "Thu, 26 Mar 2026 14:00:00 -0000",
+      "published_date": "2026-03-26",
+      "rss_guid": ""
+    },
+    {
+      "podcast": "Macro Voices",
+      "title": "MacroVoices #525 Lyn Alden: Iran Contagion, Inflation & Private Credit",
+      "published": "Thu, 26 Mar 2026 12:35:59 -0500",
       "published_date": "2026-03-26",
       "rss_guid": ""
     },
