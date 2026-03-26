@@ -3,8 +3,8 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-03-26T13:41:18.402725",
-  chartsVersion: "2026-03-26T13:41:14.538461",
+  generatedAt: "2026-03-26T14:16:52.609435",
+  chartsVersion: "2026-03-26T14:16:49.790006",
   tickerScores: [
   {
     "ticker": "GOOGL",
@@ -67,13 +67,28 @@ const dashboardData = {
     "contexts": []
   },
   {
+    "ticker": "WTI",
+    "total_score": 216.0,
+    "raw_mention_count": 3,
+    "unique_sources": 1,
+    "podcast_mentions": 3,
+    "newsletter_mentions": 0,
+    "rank": 5,
+    "score": 216.0,
+    "mentions": 3,
+    "conviction_level": "medium",
+    "contrarian_signal": "neutral",
+    "timeframe": "long_term",
+    "contexts": []
+  },
+  {
     "ticker": "S&P 500",
     "total_score": 208.0,
     "raw_mention_count": 3,
     "unique_sources": 1,
     "podcast_mentions": 3,
     "newsletter_mentions": 0,
-    "rank": 5,
+    "rank": 6,
     "score": 208.0,
     "mentions": 3,
     "conviction_level": "medium",
@@ -88,7 +103,7 @@ const dashboardData = {
     "unique_sources": 2,
     "podcast_mentions": 2,
     "newsletter_mentions": 12,
-    "rank": 6,
+    "rank": 7,
     "score": 177.0,
     "mentions": 14,
     "conviction_level": "medium",
@@ -103,24 +118,9 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 3,
     "newsletter_mentions": 0,
-    "rank": 7,
+    "rank": 8,
     "score": 174.0,
     "mentions": 3,
-    "conviction_level": "medium",
-    "contrarian_signal": "neutral",
-    "timeframe": "long_term",
-    "contexts": []
-  },
-  {
-    "ticker": "WTI",
-    "total_score": 144.0,
-    "raw_mention_count": 2,
-    "unique_sources": 1,
-    "podcast_mentions": 2,
-    "newsletter_mentions": 0,
-    "rank": 8,
-    "score": 144.0,
-    "mentions": 2,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
     "timeframe": "long_term",
@@ -412,14 +412,14 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "CRM",
-    "total_score": 68.0,
+    "ticker": "SMP-500",
+    "total_score": 70.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
     "rank": 28,
-    "score": 68.0,
+    "score": 70.0,
     "mentions": 1,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
@@ -427,7 +427,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "MINE",
+    "ticker": "CRM",
     "total_score": 68.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -442,14 +442,14 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "ILMN",
-    "total_score": 66.0,
+    "ticker": "MINE",
+    "total_score": 68.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
     "rank": 30,
-    "score": 66.0,
+    "score": 68.0,
     "mentions": 1,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
@@ -457,7 +457,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "PLTR",
+    "ticker": "ILMN",
     "total_score": 66.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -472,14 +472,14 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "CRSP",
-    "total_score": 64.0,
+    "ticker": "PLTR",
+    "total_score": 66.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
     "rank": 32,
-    "score": 64.0,
+    "score": 66.0,
     "mentions": 1,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
@@ -487,7 +487,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "GOOG",
+    "ticker": "CRSP",
     "total_score": 64.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -502,7 +502,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "HOOD",
+    "ticker": "GOOG",
     "total_score": 64.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -517,7 +517,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "SF",
+    "ticker": "HOOD",
     "total_score": 64.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -532,7 +532,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "URANIUM",
+    "ticker": "SF",
     "total_score": 64.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -547,14 +547,14 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "C.O.R.N",
-    "total_score": 60.0,
+    "ticker": "URANIUM",
+    "total_score": 64.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
     "rank": 37,
-    "score": 60.0,
+    "score": 64.0,
     "mentions": 1,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
@@ -562,7 +562,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "PQNT",
+    "ticker": "C.O.R.N",
     "total_score": 60.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -577,7 +577,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "T",
+    "ticker": "PQNT",
     "total_score": 60.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -592,7 +592,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "TLT",
+    "ticker": "T",
     "total_score": 60.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -607,13 +607,28 @@ const dashboardData = {
     "contexts": []
   },
   {
+    "ticker": "TLT",
+    "total_score": 60.0,
+    "raw_mention_count": 1,
+    "unique_sources": 1,
+    "podcast_mentions": 1,
+    "newsletter_mentions": 0,
+    "rank": 41,
+    "score": 60.0,
+    "mentions": 1,
+    "conviction_level": "medium",
+    "contrarian_signal": "neutral",
+    "timeframe": "long_term",
+    "contexts": []
+  },
+  {
     "ticker": "QQQ",
     "total_score": 48.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 41,
+    "rank": 42,
     "score": 48.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -628,7 +643,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 42,
+    "rank": 43,
     "score": 40.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -643,7 +658,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 43,
+    "rank": 44,
     "score": 32.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -658,7 +673,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 44,
+    "rank": 45,
     "score": 24.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -673,7 +688,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 45,
+    "rank": 46,
     "score": 20.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -688,7 +703,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 46,
+    "rank": 47,
     "score": 20.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -703,7 +718,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 47,
+    "rank": 48,
     "score": 16.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -758,6 +773,27 @@ const dashboardData = {
       "archived_date": null,
       "archived_reason": null,
       "podcast_episode_id": 106
+    },
+    {
+      "id": 124,
+      "title": "Macro Voices Episode 525: Multi-Polar World Order, Iran Conflict, and Inflation Outlook",
+      "source_type": "podcast",
+      "source_name": "Macro Voices",
+      "source_date": "2026-03-26",
+      "summary": "In this episode of Macro Voices, hosts Eric Townsend and Patrick Suresne discuss the geopolitical situation in Iran, the shift towards a multi-polar world order, and the economic impacts of rising energy prices. They also cover the risks of second-round food inflation and the stresses in emerging markets and private credit. The show features interviews with Lynn Alden, founder of Lynn Alden Investment Strategy, and Michael Every, global strategist for economics and markets at Robo Banks, who provide insights into the Iran conflict and its broader macro implications.",
+      "key_takeaway": "Investors should consider the geopolitical risks and shifts in global power dynamics when constructing their portfolios, with a focus on sectors that may be affected by rising energy prices and inflation.",
+      "tickers_mentioned": [
+        "SMP-500",
+        "US DOLLAR INDEX",
+        "WTI"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-26",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 107
     },
     {
       "id": 121,
@@ -942,11 +978,11 @@ const dashboardData = {
         "C.O.R.N"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-24",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-26",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 97
     },
     {
@@ -3025,6 +3061,30 @@ const dashboardData = {
       "key_tickers": []
     },
     {
+      "id": 124,
+      "title": "Macro Voices Episode 525: Multi-Polar World Order, Iran Conflict, and Inflation Outlook",
+      "source_type": "podcast",
+      "source_name": "Macro Voices",
+      "source_date": "2026-03-26",
+      "summary": "In this episode of Macro Voices, hosts Eric Townsend and Patrick Suresne discuss the geopolitical situation in Iran, the shift towards a multi-polar world order, and the economic impacts of rising energy prices. They also cover the risks of second-round food inflation and the stresses in emerging markets and private credit. The show features interviews with Lynn Alden, founder of Lynn Alden Investment Strategy, and Michael Every, global strategist for economics and markets at Robo Banks, who provide insights into the Iran conflict and its broader macro implications.",
+      "key_takeaway": "Investors should consider the geopolitical risks and shifts in global power dynamics when constructing their portfolios, with a focus on sectors that may be affected by rising energy prices and inflation.",
+      "tickers_mentioned": "[\"SMP-500\", \"US DOLLAR INDEX\", \"WTI\"]",
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-26",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 107,
+      "episode_release_date": "2026-03-26",
+      "guest_name": null,
+      "key_tickers": [
+        "SMP-500",
+        "US DOLLAR INDEX",
+        "WTI"
+      ]
+    },
+    {
       "id": 121,
       "title": "Submarine Manufacturing and Advanced Factories",
       "source_type": "podcast",
@@ -3127,28 +3187,6 @@ const dashboardData = {
       "guest_name": null,
       "key_tickers": [
         "NVDA"
-      ]
-    },
-    {
-      "id": 116,
-      "title": "Monetary Matters: Middle East Crisis and Global Market Impact",
-      "source_type": "podcast",
-      "source_name": "Monetary Matters with Jack Farley",
-      "source_date": "2026-03-23",
-      "summary": "In this special edition of 'Other People's Money', host Jack Farley interviews Nadia Martin Wiggen, director at Svellen Capital, a hedge fund specializing in commodities and shipping markets. They discuss the impact of the Middle East crisis on global markets, focusing on oil prices, shipping logistics, and the potential for stagflation. Nadia provides insights into the practicality of Trump's announcements, the control of the Strait of Hormuz, and the market's reaction to escalating tensions. The conversation also touches on the behavior of different commodities, the potential for port congestion, and the implications for emerging markets.",
-      "key_takeaway": "Svellen Capital sees opportunities in commodities and shipping markets amidst the Middle East crisis, with a focus on the practical implications of geopolitical events on global trade and logistics.",
-      "tickers_mentioned": "[\"C.O.R.N\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-03-24",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 97,
-      "episode_release_date": "2026-03-23",
-      "guest_name": null,
-      "key_tickers": [
-        "C.O.R.N"
       ]
     }
   ],
@@ -9808,9 +9846,103 @@ const dashboardData = {
     "source_name": "The a16z Show",
     "source_date": "2026-03-26",
     "key_tickers": []
+  },
+  "124": {
+    "id": 115,
+    "insight_id": 124,
+    "podcast_episode_id": 107,
+    "overview": "In this episode of Macro Voices, the focus is on the evolving geopolitical landscape, particularly the Iran conflict, and its implications on the global economy and financial markets. The discussion highlights the shift towards a multi-polar world order, the impact of rising energy prices, and the potential for persistent inflation. This analysis is crucial for investors as it provides insights into how these macro trends could affect asset allocation and investment strategies in the short to medium term.",
+    "key_takeaways_detailed": [
+      "The Iran conflict is a symptom of the shift towards a multi-polar world, affecting global power dynamics and investment landscapes.",
+      "Rising energy prices, driven by geopolitical tensions, could lead to second-round effects on food inflation, impacting emerging markets significantly.",
+      "Persistent inflation is a growing concern, with potential implications for monetary policy and asset valuations.",
+      "The breakdown in private credit markets and the outlook for monetary policy under a new Fed Chair are critical factors for investors to monitor.",
+      "Investors should consider the impact of these macro trends on their portfolios, with a focus on sectors and regions most exposed to geopolitical risks and inflationary pressures."
+    ],
+    "investment_thesis": "The core investment thesis revolves around the impact of the multi-polar world order on global financial markets. As geopolitical tensions escalate, particularly in regions like the Middle East, we expect increased volatility in energy and commodity prices, which could lead to inflationary pressures. This, in turn, may influence central bank policies and affect asset valuations. Investors should position their portfolios to capitalize on these trends, focusing on sectors that could benefit from inflation and geopolitical shifts, while hedging against potential downside risks.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple Inc. (AAPL) is a global technology leader with significant exposure to international markets, including those affected by geopolitical tensions. Its supply chain is also vulnerable to disruptions caused by conflicts.",
+        "positioning": "Position tactically long on AAPL, as the company's strong balance sheet and innovation capabilities could allow it to navigate geopolitical risks and capitalize on new opportunities.",
+        "risk": "Key risks include supply chain disruptions, currency fluctuations, and potential consumer demand shifts due to economic instability in key markets."
+      },
+      "NVDA": {
+        "rationale": "Nvidia Corporation (NVDA) is a leading technology company with exposure to the semiconductor and AI sectors, which are critical for various industries, including defense and energy.",
+        "positioning": "Consider a strategic long position in NVDA, as the company's technology is likely to be in high demand in a world where technological prowess is a key differentiator in geopolitical competition.",
+        "risk": "The primary risk is regulatory scrutiny, particularly in export controls, which could impact NVDA's ability to sell its products in certain regions."
+      },
+      "SPY": {
+        "rationale": "The SPDR S&P 500 ETF Trust (SPY) provides broad exposure to the U.S. stock market, allowing investors to gain exposure to the overall market while hedging against sector-specific risks.",
+        "positioning": "Maintain a medium-term strategic position in SPY, with a focus on sectors that are less sensitive to geopolitical risks, such as healthcare and consumer staples.",
+        "risk": "The risk of a broad market sell-off due to escalating geopolitical tensions or a shift in monetary policy could impact SPY's performance."
+      },
+      "TSLA": {
+        "rationale": "Tesla Inc. (TSLA) is a leader in electric vehicles and renewable energy, positioning it to benefit from the global shift towards sustainable energy sources, which could be accelerated by geopolitical conflicts affecting fossil fuel supplies.",
+        "positioning": "Take a long-term strategic position in TSLA, as the company is well-positioned to capitalize on the transition to cleaner energy and could benefit from increased government spending on renewable infrastructure.",
+        "risk": "Key risks include regulatory changes, competition from traditional automakers, and potential supply chain disruptions due to geopolitical tensions."
+      }
+    },
+    "positioning_guidance": "Investors should consider a balanced portfolio approach, with a mix of tactical and strategic positions. Allocate a portion of the portfolio to sectors that are expected to benefit from the multi-polar world order and rising energy prices, such as technology and renewable energy. At the same time, maintain a defensive position in sectors that are less sensitive to geopolitical risks, such as healthcare and consumer staples. Entry points should be based on market volatility and technical analysis, with a focus on risk management and diversification. Timeframes should be medium to long-term, as the impacts of geopolitical shifts are likely to be felt over an extended period.",
+    "risk_factors": [
+      "Escalating geopolitical tensions leading to broader market sell-offs.",
+      "Unexpected shifts in monetary policy that could impact asset valuations.",
+      "Supply chain disruptions due to conflicts, affecting global companies.",
+      "Regulatory changes that could impact the technology sector.",
+      "Currency fluctuations affecting multinational companies' earnings."
+    ],
+    "contrarian_signals": [
+      "The potential for a de-escalation of geopolitical tensions, which could reduce the premium on energy prices and related assets.",
+      "The possibility of a coordinated global response to inflation, which could mitigate its impact on asset valuations.",
+      "The emergence of new technologies that could reduce the geopolitical importance of certain resources, such as oil."
+    ],
+    "catalysts": [
+      "Upcoming ISM manufacturing and services PMIs, retail sales, and jobs numbers, which could provide insights into the health of the global economy.",
+      "Developments in the Iran conflict and its impact on oil prices.",
+      "Central bank meetings and statements, particularly regarding monetary policy and inflation expectations.",
+      "Elections and policy changes in key countries that could influence the multi-polar world order.",
+      "Technological breakthroughs in renewable energy and AI, which could shift the global competitive landscape."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-03-26T14:16:15.026545",
+    "updated_at": "2026-03-26 19:16:15",
+    "insight_title": "Macro Voices Episode 525: Multi-Polar World Order, Iran Conflict, and Inflation Outlook",
+    "source_name": "Macro Voices",
+    "source_date": "2026-03-26",
+    "key_tickers": [
+      "SMP-500",
+      "US DOLLAR INDEX",
+      "WTI"
+    ]
   }
 },
   suggestedTerms: [
+  {
+    "id": 104,
+    "term": "Multi-Polar World Order",
+    "definition": "A geopolitical landscape where multiple nations or blocs have nearly equal influence and power, as opposed to a unipolar or bipolar world.",
+    "investment_implications": "Investors should consider the impact of a multi-polar world on global trade, currency valuations, and geopolitical risks.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-03-26 19:14:35",
+    "priority_score": 80
+  },
+  {
+    "id": 105,
+    "term": "Second-Round Food Inflation",
+    "definition": "Inflation that occurs after an initial round of price increases, often due to supply chain disruptions or increased costs of production.",
+    "investment_implications": "Investors should monitor the potential for second-round food inflation and its impact on consumer staples and agricultural commodities.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-03-26 19:14:35",
+    "priority_score": 80
+  },
   {
     "id": 102,
     "term": "Operation Salt Typhoon",
@@ -9834,35 +9966,11 @@ const dashboardData = {
     "relevance_score": 50,
     "submitted_date": "2026-03-26 16:16:20",
     "priority_score": 80
-  },
-  {
-    "id": 100,
-    "term": "Rotation and churn",
-    "definition": "A market condition where different sectors or stocks experience significant price movements, leading to shifts in market leadership.",
-    "investment_implications": "Investors should be aware of these shifts to identify potential opportunities or risks.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-03-26 13:18:11",
-    "priority_score": 80
-  },
-  {
-    "id": 101,
-    "term": "Index rebalancing",
-    "definition": "The process of adjusting the composition of an index to maintain its intended characteristics, which can significantly impact the performance and composition of related ETFs or funds.",
-    "investment_implications": "Understanding the rebalancing schedule and criteria of different indexes can help investors anticipate changes in fund performance.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-03-26 13:18:11",
-    "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 869,
+    "id": 883,
     "name": "When the Music Stops",
     "slug": "when-the-music-stops",
     "bio": null,
@@ -9874,7 +9982,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 870,
+    "id": 884,
     "name": "Ground Infrastructure",
     "slug": "ground-infrastructure",
     "bio": null,
@@ -9886,7 +9994,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 871,
+    "id": 885,
     "name": "Rory Johnston",
     "slug": "rory-johnston",
     "bio": null,
@@ -9898,7 +10006,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 872,
+    "id": 886,
     "name": "Senator John Fetterman on Voting Rights",
     "slug": "senator-john-fetterman-on-voting-rights",
     "bio": null,
@@ -9910,7 +10018,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 873,
+    "id": 887,
     "name": "Elon Musk on Moonshots",
     "slug": "elon-musk-on-moonshots",
     "bio": null,
@@ -9922,7 +10030,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 874,
+    "id": 888,
     "name": "Investing in Capitalism",
     "slug": "investing-in-capitalism",
     "bio": null,
@@ -9934,7 +10042,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 875,
+    "id": 889,
     "name": "Harvard Professor Graham Allison",
     "slug": "harvard-professor-graham-allison",
     "bio": null,
@@ -9946,7 +10054,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 876,
+    "id": 890,
     "name": "Andrew Yang",
     "slug": "andrew-yang",
     "bio": "Andrew Yang is an entrepreneur and political leader who popularized universal basic income in U.S. politics through his 2020 presidential campaign.",
@@ -9958,7 +10066,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 877,
+    "id": 891,
     "name": "Ray Dalio",
     "slug": "ray-dalio",
     "bio": "Ray Dalio is the founder of Bridgewater Associates and a macro investor known for his 'Principles' framework and work on long-term debt cycles.",
@@ -9970,7 +10078,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 878,
+    "id": 892,
     "name": "Nobel Prize-winning economist Paul Krugman",
     "slug": "nobel-prize-winning-economist-paul-krugman",
     "bio": null,
@@ -9982,7 +10090,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 879,
+    "id": 893,
     "name": "host Jack Mallers",
     "slug": "host-jack-mallers",
     "bio": null,
@@ -9994,7 +10102,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 880,
+    "id": 894,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -10006,7 +10114,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 881,
+    "id": 895,
     "name": "Bosworth",
     "slug": "bosworth",
     "bio": null,
@@ -10018,7 +10126,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 882,
+    "id": 896,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -10031,6 +10139,127 @@ const dashboardData = {
   }
 ],
   pundits: [
+  {
+    "id": 121,
+    "name": "Lynn Alden",
+    "slug": "lynn-alden",
+    "bio": "Lynn Alden is the founder of Lynn Alden Investment Strategy, a platform dedicated to providing insights into the transition into a multi-polar world. She is a sought-after commentator on finance and macroeconomics, particularly focusing on the geopolitical and economic shifts shaping global markets.",
+    "known_for": "Her analysis and commentary on the geopolitical and economic shifts towards a multi-polar world order.",
+    "net_worth_usd": 4600000.0,
+    "net_worth_source": "https://moolahtimes.com/lyn-alden/",
+    "net_worth_updated_at": "2026-03-26T14:15:42.441919",
+    "voice_tone": "Matter-of-fact and analytical",
+    "voice_style": "Factual and informative, providing insights into global macro trends",
+    "voice_delivery_notes": "Clear and steady pace, with emphasis on key economic indicators",
+    "voice_profile_updated_at": "2026-03-26 19:14:35",
+    "last_seen": "2026-03-26 19:14:35",
+    "last_episode_title": "Macro Voices Episode 525: Multi-Polar World Order, Iran Conflict, and Inflation Outlook",
+    "last_podcast_name": "Macro Voices",
+    "last_episode_date": "2026-03-26",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investors should consider the geopolitical risks and shifts in global power dynamics when constructing their portfolios, with a focus on sectors that may be affected by rising energy prices and inflation.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-26T14:15:41.620354",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Lynn Alden",
+      "fetched_at": "2026-03-26T19:15:41.619968+00:00",
+      "cliff_notes": "Lynn Alden is recognized for her expertise in macroeconomics and finance, with a particular focus on the geopolitical shifts leading to a multi-polar world. As the founder of Lynn Alden Investment Strategy, she provides in-depth analysis and commentary on these shifts and their implications for global markets. Alden's work is highly regarded among professional finance, high-net worth individuals, family offices, and other sophisticated investors. Her insights are regularly sought after for podcasts like Macrovoisers, where she discusses a range of topics from the Iran conflict to the outlook for persistent inflation and the future of monetary policy.",
+      "derived": {
+        "current_role": "Founder, Lynn Alden Investment Strategy"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Lynn Alden is recognized for her expertise in macroeconomics and finance, with a particular focus on the geopolitical shifts leading to a multi-polar world. As the founder of Lynn Alden Investment Strategy, she provides in-depth analysis and commentary on these shifts and their implications for global markets. Alden's work is highly regarded among professional finance, high-net worth individuals, family offices, and other sophisticated investors.",
+        "Her insights are regularly sought after for podcasts like Macrovoisers, where she discusses a range of topics from the Iran conflict to the outlook for persistent inflation and the future of monetary policy."
+      ],
+      "sections": [
+        {
+          "heading": "Multi-Polar World Order",
+          "body": "Lynn Alden is well-known for her analysis on the geopolitical and economic shifts towards a multi-polar world order, discussing the implications for global markets and investment strategies."
+        },
+        {
+          "heading": "Geopolitical Conflicts",
+          "body": "Alden frequently comments on geopolitical conflicts, such as the Iran situation, and their broader macroeconomic implications, providing insights into how these events can affect financial markets."
+        },
+        {
+          "heading": "Monetary Policy",
+          "body": "She offers perspectives on monetary policy, including the potential impact of leadership changes at central banks, like the anticipated transition with Kevin Wars as the new Fed Chair."
+        },
+        {
+          "heading": "Inflation Outlook",
+          "body": "Alden discusses the outlook for persistent inflation, analyzing its causes and potential effects on economies and investment strategies."
+        },
+        {
+          "heading": "Private Credit Markets",
+          "body": "She also addresses the breakdown in private credit markets, explaining how this can influence the overall health and stability of the financial system."
+        }
+      ]
+    },
+    "net_worth": "$4.6M"
+  },
+  {
+    "id": 122,
+    "name": "Michael Every",
+    "slug": "michael-every",
+    "bio": "Michael Every is a Global Strategist for Economics and Markets at Robo Banks, known for his exceptional ability to translate political statements into market implications. His insights are highly valued by professional finance, high-net worth individuals, family offices, and sophisticated investors.",
+    "known_for": "His ability to translate political statements into market implications and his expertise in macroeconomics.",
+    "net_worth_usd": 1500000.0,
+    "net_worth_source": "https://blogs.reinhardt.edu/unveiling-michael-knowles039-net-worth/130140450.html",
+    "net_worth_updated_at": "2026-03-26T14:15:51.557562",
+    "voice_tone": "Cautious and skeptical",
+    "voice_style": "Direct and candid, with a focus on the complexities of the current geopolitical situation",
+    "voice_delivery_notes": "Paced with pauses for emphasis, highlighting the uncertainty of the situation",
+    "voice_profile_updated_at": "2026-03-26 19:14:35",
+    "last_seen": "2026-03-26 19:14:35",
+    "last_episode_title": "Macro Voices Episode 525: Multi-Polar World Order, Iran Conflict, and Inflation Outlook",
+    "last_podcast_name": "Macro Voices",
+    "last_episode_date": "2026-03-26",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investors should consider the geopolitical risks and shifts in global power dynamics when constructing their portfolios, with a focus on sectors that may be affected by rising energy prices and inflation.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-26T14:15:50.429943",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Michael Every",
+      "fetched_at": "2026-03-26T19:15:50.429788+00:00",
+      "cliff_notes": "Michael Every is recognized for his exceptional track record in translating political statements into market implications. As a Global Strategist for Economics and Markets at Robo Banks, he provides valuable insights to professional finance, high-net worth individuals, family offices, and sophisticated investors. His expertise in macroeconomics and geopolitical analysis has made him a sought-after commentator in the world of finance. Every's ability to dissect complex political situations and predict their impact on the market has earned him a reputation as a trusted voice in the industry.",
+      "derived": {
+        "current_role": "Global Strategist for Economics and Markets at Robo Banks"
+      },
+      "infobox": {
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Michael Every is recognized for his exceptional track record in translating political statements into market implications. As a Global Strategist for Economics and Markets at Robo Banks, he provides valuable insights to professional finance, high-net worth individuals, family offices, and sophisticated investors. His expertise in macroeconomics and geopolitical analysis has made him a sought-after commentator in the world of finance.",
+        "Every's ability to dissect complex political situations and predict their impact on the market has earned him a reputation as a trusted voice in the industry."
+      ],
+      "sections": [
+        {
+          "heading": "Macroeconomics",
+          "body": "Michael Every is known for his expertise in macroeconomics, providing insights into the broader implications of political and economic events on the global market."
+        },
+        {
+          "heading": "Geopolitical Analysis",
+          "body": "Every's geopolitical analysis is highly regarded, as he is able to dissect complex political situations and predict their impact on the market."
+        },
+        {
+          "heading": "Market Implications",
+          "body": "His ability to translate political statements into market implications has made him a trusted voice in the world of finance, providing valuable insights to investors and financial professionals."
+        }
+      ]
+    },
+    "net_worth": "$1.5M"
+  },
   {
     "id": 118,
     "name": "Justin Finnelli",
@@ -11075,129 +11304,6 @@ const dashboardData = {
       ]
     },
     "net_worth": "$151.00B"
-  },
-  {
-    "id": 94,
-    "name": "Carson Block",
-    "slug": "carson-block",
-    "bio": "Carson Block is the founder of Muddy Waters Capital, a leading activist short seller hedge fund. He is known for his deep research and activism in short selling, particularly targeting companies with overpromised or fraudulent practices.",
-    "known_for": "His activist short selling and deep research exposing fraudulent companies.",
-    "net_worth_usd": 200000000.0,
-    "net_worth_source": "https://www.publicfigurenetworth.com/carson-block-net-worth/",
-    "net_worth_updated_at": "2026-03-20T04:42:12.912511",
-    "voice_tone": "Knowledgeable and cautious about market conditions.",
-    "voice_style": "Analytical and focused on identifying overpromise and speculation in the market.",
-    "voice_delivery_notes": "Speaks with a measured pace, emphasizing key points about market sectors and investment strategies.",
-    "voice_profile_updated_at": "2026-03-20 09:25:12",
-    "last_seen": "2026-03-20 09:25:12",
-    "last_episode_title": "Monetary Matters with Jack Farley: Short Selling Insights and AI in Investing",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-02-15",
-    "mention_score": 1,
-    "mention_score_decayed": 0.87,
-    "last_main_idea": "Invest in sectors with fertile ground for short selling, such as tech and AI, and consider undervalued areas like junior mining for potential alpha.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-20T04:42:09.376490",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Carson Block",
-      "fetched_at": "2026-03-20T09:42:09.376380+00:00",
-      "cliff_notes": "Carson Block is an American investor and the founder of Muddy Waters Capital, an investment firm known for its activist short selling approach. Block's career in finance began after he graduated from law school and moved to China, where he worked as an attorney and later in private equity. His experiences in China, particularly witnessing corporate fraud, inspired him to start Muddy Waters Research in 2010, which would later become Muddy Waters Capital. The firm is renowned for its deep research into companies, often uncovering fraudulent practices or overpromised business models, leading to significant market impact when they release their findings. Block's work has been influential in the tech and finance sectors, as his exposes often lead to substantial stock price movements and regulatory scrutiny.",
-      "derived": {
-        "current_role": "Founder of Muddy Waters Capital",
-        "education": "Bachelor's degree in International Relations from Southern Methodist University; Juris Doctor from the University of Chicago Law School"
-      },
-      "infobox": {
-        "Born": "1980",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Carson Block is an American investor and the founder of Muddy Waters Capital, an investment firm known for its activist short selling approach. Block's career in finance began after he graduated from law school and moved to China, where he worked as an attorney and later in private equity. His experiences in China, particularly witnessing corporate fraud, inspired him to start Muddy Waters Research in 2010, which would later become Muddy Waters Capital.",
-        "The firm is renowned for its deep research into companies, often uncovering fraudulent practices or overpromised business models, leading to significant market impact when they release their findings. Block's work has been influential in the tech and finance sectors, as his exposes often lead to substantial stock price movements and regulatory scrutiny."
-      ],
-      "sections": [
-        {
-          "heading": "Activist Short Selling",
-          "body": "Carson Block is recognized for his activist short selling approach, where he not only bets against companies but also actively researches and exposes fraudulent practices or overpromised business models."
-        },
-        {
-          "heading": "Muddy Waters Capital",
-          "body": "Muddy Waters Capital, founded by Block, is a hedge fund that specializes in short selling and has been influential in exposing corporate frauds, particularly in the tech sector."
-        },
-        {
-          "heading": "Market Impact",
-          "body": "Block's research and activism have had significant market impact, leading to substantial stock price movements and regulatory scrutiny for the companies targeted by Muddy Waters Capital."
-        },
-        {
-          "heading": "Fraud Exposure",
-          "body": "Carson Block has been instrumental in exposing corporate frauds, particularly in sectors like electric vehicles and green energy, where companies have been known to overpromise on their capabilities."
-        }
-      ]
-    },
-    "net_worth": "$200.0M"
-  },
-  {
-    "id": 91,
-    "name": "Brett Adcock",
-    "slug": "brett-adcock",
-    "bio": "Brett Adcock is an entrepreneur and investor with a background in software and VTOL companies. He is known for his work at the forefront of AI and robotics development, focusing on autonomous manufacturing and the potential for a $50T market.",
-    "known_for": "Being at the forefront of AI and robotics development, focusing on autonomous manufacturing and the potential for a $50T market.",
-    "net_worth_usd": 19000000000.0,
-    "net_worth_source": "https://en.wikipedia.org/wiki/Brett_Adcock",
-    "net_worth_updated_at": "2026-03-19T22:16:05.781854",
-    "voice_tone": "Amazed and enthusiastic about the advancements in AI and robotics.",
-    "voice_style": "Descriptive and forward-looking, with a focus on the transformative impact of technology.",
-    "voice_delivery_notes": "Speak with excitement and a sense of urgency to convey the rapid pace of change in the industry.",
-    "voice_profile_updated_at": "2026-03-20 03:11:05",
-    "last_seen": "2026-03-20 03:11:05",
-    "last_episode_title": "Humanoid Run on Neural Net, Autonomous Manufacturing, $50T Market #229",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-02-17",
-    "mention_score": 1,
-    "mention_score_decayed": 0.87,
-    "last_main_idea": "Investing in AI and robotics companies that leverage neural networks for autonomous manufacturing could yield significant returns as this market is expected to become the largest economy globally.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-19T22:16:04.041005",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Brett Adcock",
-      "fetched_at": "2026-03-20T03:16:04.040798+00:00",
-      "cliff_notes": "Brett Adcock is an entrepreneur and investor with a focus on software and VTOL companies. His work in AI and robotics development has positioned him as a key figure in the industry, particularly in the areas of autonomous manufacturing and the potential for a $50 trillion market. Adcock's insights into the rapid advancements in neural nets and the accumulation of data as a barrier to entry and asset have been influential. His vision for a future where robots build robots and the impact on the economy and society is a testament to his forward-thinking approach in the tech industry.",
-      "derived": {
-        "current_role": "Entrepreneur and Investor"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Brett Adcock is an entrepreneur and investor with a focus on software and VTOL companies. His work in AI and robotics development has positioned him as a key figure in the industry, particularly in the areas of autonomous manufacturing and the potential for a $50 trillion market. Adcock's insights into the rapid advancements in neural nets and the accumulation of data as a barrier to entry and asset have been influential.",
-        "His vision for a future where robots build robots and the impact on the economy and society is a testament to his forward-thinking approach in the tech industry."
-      ],
-      "sections": [
-        {
-          "heading": "AI and Robotics",
-          "body": "Brett Adcock is recognized for his contributions to AI and robotics, particularly in the development of autonomous manufacturing and the use of neural nets."
-        },
-        {
-          "heading": "Neural Nets",
-          "body": "Adcock is amazed by the advancements in neural nets and how they have transformed the business landscape, allowing for the rapid accumulation of data and the sharing of knowledge across a fleet of robots."
-        },
-        {
-          "heading": "Autonomous Manufacturing",
-          "body": "Adcock\u9884\u89c1\u5230\u81ea\u4e3b\u5236\u9020\u5c06\u6210\u4e3a\u4e16\u754c\u4e0a\u6700\u5927\u7684\u7ecf\u6d4e\u4f53\u4e4b\u4e00\uff0c\u5f15\u9886\u7740\u666e\u904d\u7684\u5546\u54c1\u548c\u670d\u52a1\uff0c\u4e3a\u6240\u6709\u4eba\u5e26\u6765\u4e30\u5bcc\u7684\u65f6\u4ee3\uff0c\u5e76\u6784\u5efa\u6211\u4eec\u6240\u6709\u4eba\u90fd\u671f\u5f85\u7684\u79d1\u5e7b\u672a\u6765\u3002"
-        },
-        {
-          "heading": "Market Potential",
-          "body": "He estimates the market potential in this space to be a staggering $50 trillion, indicating a significant impact on the global economy."
-        }
-      ]
-    },
-    "net_worth": "$19.00B"
   }
 ]
 };

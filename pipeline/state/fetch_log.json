@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-26T13:37:50.859437",
+  "timestamp": "2026-03-26T14:12:01.186045",
   "results": [
     {
       "podcast": "Moonshots with Peter Diamandis",
@@ -12,8 +12,8 @@
       "podcast": "Macro Voices",
       "title": "MacroVoices #525 Lyn Alden: Iran Contagion, Inflation & Private Credit",
       "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/MacroVoices-2026-26-03-Lyn-Alden.mp3",
-      "transcript_path": null,
-      "success": false
+      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/MacroVoices-2026-26-03-Lyn-Alden.txt",
+      "success": true
     }
   ]
 }

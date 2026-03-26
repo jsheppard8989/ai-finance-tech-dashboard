@@ -1,27 +1,29 @@
 {
-  "generated_at": "2026-03-26T13:41:15.915475",
-  "last_updated": "2026-03-26T13:41:15.915475",
-  "last_pipeline_run": "2026-03-26T13:41:15.915475",
+  "generated_at": "2026-03-26T14:16:50.677289",
+  "last_updated": "2026-03-26T14:16:50.677289",
+  "last_pipeline_run": "2026-03-26T14:16:50.677289",
   "main_page": {
     "overton": 8,
     "insights": 8,
     "pundits": 20
   },
   "counts": {
-    "ticker_mentions": 140,
-    "podcast_episodes": 81,
+    "ticker_mentions": 142,
+    "podcast_episodes": 82,
     "newsletters": 7,
-    "daily_scores": 78,
+    "daily_scores": 80,
     "overton_terms_total": 16,
-    "latest_insights_total": 97,
-    "today_mentions": {},
-    "podcasts_analyzed": 4
+    "latest_insights_total": 98,
+    "today_mentions": {
+      "podcast": 2
+    },
+    "podcasts_analyzed": 5
   },
   "step_results": {
     "downloaded": 5,
     "transcribed": 5,
     "analyzed": 5,
-    "insight_created": 0,
+    "insight_created": 1,
     "published": 2,
     "total": 8
   },
@@ -148,20 +150,18 @@
     {
       "id": "macrovoices.podbean.com/ee99f7f6-d1f9-3a7a-8fbc-292076342b9a",
       "podcast": "Macro Voices",
-      "title": "Macro Voices: The Iran Conflict's Impact on Inflation and Energy Markets",
+      "title": "Macro Voices Episode 525: Multi-Polar World Order, Iran Conflict, and Inflation Outlook",
       "published": "2026-03-26",
       "rss_guid": "macrovoices.podbean.com/ee99f7f6-d1f9-3a7a-8fbc-292076342b9a",
       "stages": {
         "downloaded": true,
         "transcribed": true,
         "analyzed": true,
-        "insight_created": false,
+        "insight_created": true,
         "published": true
       },
-      "stage_reasons": {
-        "insight_created": "No latest_insights row for this episode (insight step not reflected in DB yet)."
-      },
-      "status": "needs_insight"
+      "stage_reasons": {},
+      "status": "complete"
     },
     {
       "id": "substack:post:190118311",
@@ -191,13 +191,6 @@
       "podcast": "Moonshots with Peter Diamandis",
       "title": "Elon's $5 Trillion Bet, the End of Human Drivers, and Chamath's Market Warning | EP #242",
       "published": "Thu, 26 Mar 2026 14:00:00 -0000",
-      "published_date": "2026-03-26",
-      "rss_guid": ""
-    },
-    {
-      "podcast": "Macro Voices",
-      "title": "MacroVoices #525 Lyn Alden: Iran Contagion, Inflation & Private Credit",
-      "published": "Thu, 26 Mar 2026 12:35:59 -0500",
       "published_date": "2026-03-26",
       "rss_guid": ""
     },

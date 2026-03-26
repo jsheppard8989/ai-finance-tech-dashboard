@@ -1,5 +1,25 @@
 [
   {
+    "id": 107,
+    "podcast_name": "Macro Voices",
+    "episode_title": "Macro Voices Episode 525: Multi-Polar World Order, Iran Conflict, and Inflation Outlook",
+    "episode_date": "2026-03-26",
+    "summary": "In this episode of Macro Voices, hosts Eric Townsend and Patrick Suresne discuss the geopolitical situation in Iran, the shift towards a multi-polar world order, and the economic impacts of rising energy prices. They also cover the risks of second-round food inflation and the stresses in emerging markets and private credit. The show features interviews with Lynn Alden, founder of Lynn Alden Investment Strategy, and Michael Every, global strategist for economics and markets at Robo Banks, who provide insights into the Iran conflict and its broader macro implications.",
+    "key_takeaways": [
+      "The geopolitical situation in Iran is complex and has significant implications for global markets.",
+      "The world is transitioning into a multi-polar world, which has economic and investment implications.",
+      "Rising energy prices can significantly impact the global economy and investment strategies.",
+      "Second-round food inflation is a risk that investors should be aware of.",
+      "Stresses in emerging markets and private credit markets can shape the global macro outlook."
+    ],
+    "investment_thesis": "Investors should consider the geopolitical risks and shifts in global power dynamics when constructing their portfolios, with a focus on sectors that may be affected by rising energy prices and inflation.",
+    "key_tickers": [
+      "SMP-500",
+      "US DOLLAR INDEX",
+      "WTI"
+    ]
+  },
+  {
     "id": 106,
     "podcast_name": "The a16z Show",
     "episode_title": "Cybersecurity and National Security in the Telecommunications Sector",

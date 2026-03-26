@@ -1,5 +1,126 @@
 [
   {
+    "id": 121,
+    "name": "Lynn Alden",
+    "slug": "lynn-alden",
+    "bio": "Lynn Alden is the founder of Lynn Alden Investment Strategy, a platform dedicated to providing insights into the transition into a multi-polar world. She is a sought-after commentator on finance and macroeconomics, particularly focusing on the geopolitical and economic shifts shaping global markets.",
+    "known_for": "Her analysis and commentary on the geopolitical and economic shifts towards a multi-polar world order.",
+    "net_worth_usd": 4600000.0,
+    "net_worth_source": "https://moolahtimes.com/lyn-alden/",
+    "net_worth_updated_at": "2026-03-26T14:15:42.441919",
+    "voice_tone": "Matter-of-fact and analytical",
+    "voice_style": "Factual and informative, providing insights into global macro trends",
+    "voice_delivery_notes": "Clear and steady pace, with emphasis on key economic indicators",
+    "voice_profile_updated_at": "2026-03-26 19:14:35",
+    "last_seen": "2026-03-26 19:14:35",
+    "last_episode_title": "Macro Voices Episode 525: Multi-Polar World Order, Iran Conflict, and Inflation Outlook",
+    "last_podcast_name": "Macro Voices",
+    "last_episode_date": "2026-03-26",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investors should consider the geopolitical risks and shifts in global power dynamics when constructing their portfolios, with a focus on sectors that may be affected by rising energy prices and inflation.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-26T14:15:41.620354",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Lynn Alden",
+      "fetched_at": "2026-03-26T19:15:41.619968+00:00",
+      "cliff_notes": "Lynn Alden is recognized for her expertise in macroeconomics and finance, with a particular focus on the geopolitical shifts leading to a multi-polar world. As the founder of Lynn Alden Investment Strategy, she provides in-depth analysis and commentary on these shifts and their implications for global markets. Alden's work is highly regarded among professional finance, high-net worth individuals, family offices, and other sophisticated investors. Her insights are regularly sought after for podcasts like Macrovoisers, where she discusses a range of topics from the Iran conflict to the outlook for persistent inflation and the future of monetary policy.",
+      "derived": {
+        "current_role": "Founder, Lynn Alden Investment Strategy"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Lynn Alden is recognized for her expertise in macroeconomics and finance, with a particular focus on the geopolitical shifts leading to a multi-polar world. As the founder of Lynn Alden Investment Strategy, she provides in-depth analysis and commentary on these shifts and their implications for global markets. Alden's work is highly regarded among professional finance, high-net worth individuals, family offices, and other sophisticated investors.",
+        "Her insights are regularly sought after for podcasts like Macrovoisers, where she discusses a range of topics from the Iran conflict to the outlook for persistent inflation and the future of monetary policy."
+      ],
+      "sections": [
+        {
+          "heading": "Multi-Polar World Order",
+          "body": "Lynn Alden is well-known for her analysis on the geopolitical and economic shifts towards a multi-polar world order, discussing the implications for global markets and investment strategies."
+        },
+        {
+          "heading": "Geopolitical Conflicts",
+          "body": "Alden frequently comments on geopolitical conflicts, such as the Iran situation, and their broader macroeconomic implications, providing insights into how these events can affect financial markets."
+        },
+        {
+          "heading": "Monetary Policy",
+          "body": "She offers perspectives on monetary policy, including the potential impact of leadership changes at central banks, like the anticipated transition with Kevin Wars as the new Fed Chair."
+        },
+        {
+          "heading": "Inflation Outlook",
+          "body": "Alden discusses the outlook for persistent inflation, analyzing its causes and potential effects on economies and investment strategies."
+        },
+        {
+          "heading": "Private Credit Markets",
+          "body": "She also addresses the breakdown in private credit markets, explaining how this can influence the overall health and stability of the financial system."
+        }
+      ]
+    },
+    "net_worth": "$4.6M"
+  },
+  {
+    "id": 122,
+    "name": "Michael Every",
+    "slug": "michael-every",
+    "bio": "Michael Every is a Global Strategist for Economics and Markets at Robo Banks, known for his exceptional ability to translate political statements into market implications. His insights are highly valued by professional finance, high-net worth individuals, family offices, and sophisticated investors.",
+    "known_for": "His ability to translate political statements into market implications and his expertise in macroeconomics.",
+    "net_worth_usd": 1500000.0,
+    "net_worth_source": "https://blogs.reinhardt.edu/unveiling-michael-knowles039-net-worth/130140450.html",
+    "net_worth_updated_at": "2026-03-26T14:15:51.557562",
+    "voice_tone": "Cautious and skeptical",
+    "voice_style": "Direct and candid, with a focus on the complexities of the current geopolitical situation",
+    "voice_delivery_notes": "Paced with pauses for emphasis, highlighting the uncertainty of the situation",
+    "voice_profile_updated_at": "2026-03-26 19:14:35",
+    "last_seen": "2026-03-26 19:14:35",
+    "last_episode_title": "Macro Voices Episode 525: Multi-Polar World Order, Iran Conflict, and Inflation Outlook",
+    "last_podcast_name": "Macro Voices",
+    "last_episode_date": "2026-03-26",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investors should consider the geopolitical risks and shifts in global power dynamics when constructing their portfolios, with a focus on sectors that may be affected by rising energy prices and inflation.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-26T14:15:50.429943",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Michael Every",
+      "fetched_at": "2026-03-26T19:15:50.429788+00:00",
+      "cliff_notes": "Michael Every is recognized for his exceptional track record in translating political statements into market implications. As a Global Strategist for Economics and Markets at Robo Banks, he provides valuable insights to professional finance, high-net worth individuals, family offices, and sophisticated investors. His expertise in macroeconomics and geopolitical analysis has made him a sought-after commentator in the world of finance. Every's ability to dissect complex political situations and predict their impact on the market has earned him a reputation as a trusted voice in the industry.",
+      "derived": {
+        "current_role": "Global Strategist for Economics and Markets at Robo Banks"
+      },
+      "infobox": {
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Michael Every is recognized for his exceptional track record in translating political statements into market implications. As a Global Strategist for Economics and Markets at Robo Banks, he provides valuable insights to professional finance, high-net worth individuals, family offices, and sophisticated investors. His expertise in macroeconomics and geopolitical analysis has made him a sought-after commentator in the world of finance.",
+        "Every's ability to dissect complex political situations and predict their impact on the market has earned him a reputation as a trusted voice in the industry."
+      ],
+      "sections": [
+        {
+          "heading": "Macroeconomics",
+          "body": "Michael Every is known for his expertise in macroeconomics, providing insights into the broader implications of political and economic events on the global market."
+        },
+        {
+          "heading": "Geopolitical Analysis",
+          "body": "Every's geopolitical analysis is highly regarded, as he is able to dissect complex political situations and predict their impact on the market."
+        },
+        {
+          "heading": "Market Implications",
+          "body": "His ability to translate political statements into market implications has made him a trusted voice in the world of finance, providing valuable insights to investors and financial professionals."
+        }
+      ]
+    },
+    "net_worth": "$1.5M"
+  },
+  {
     "id": 118,
     "name": "Justin Finnelli",
     "slug": "justin-finnelli",
@@ -1043,128 +1164,5 @@
       ]
     },
     "net_worth": "$151.00B"
-  },
-  {
-    "id": 94,
-    "name": "Carson Block",
-    "slug": "carson-block",
-    "bio": "Carson Block is the founder of Muddy Waters Capital, a leading activist short seller hedge fund. He is known for his deep research and activism in short selling, particularly targeting companies with overpromised or fraudulent practices.",
-    "known_for": "His activist short selling and deep research exposing fraudulent companies.",
-    "net_worth_usd": 200000000.0,
-    "net_worth_source": "https://www.publicfigurenetworth.com/carson-block-net-worth/",
-    "net_worth_updated_at": "2026-03-20T04:42:12.912511",
-    "voice_tone": "Knowledgeable and cautious about market conditions.",
-    "voice_style": "Analytical and focused on identifying overpromise and speculation in the market.",
-    "voice_delivery_notes": "Speaks with a measured pace, emphasizing key points about market sectors and investment strategies.",
-    "voice_profile_updated_at": "2026-03-20 09:25:12",
-    "last_seen": "2026-03-20 09:25:12",
-    "last_episode_title": "Monetary Matters with Jack Farley: Short Selling Insights and AI in Investing",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-02-15",
-    "mention_score": 1,
-    "mention_score_decayed": 0.87,
-    "last_main_idea": "Invest in sectors with fertile ground for short selling, such as tech and AI, and consider undervalued areas like junior mining for potential alpha.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-20T04:42:09.376490",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Carson Block",
-      "fetched_at": "2026-03-20T09:42:09.376380+00:00",
-      "cliff_notes": "Carson Block is an American investor and the founder of Muddy Waters Capital, an investment firm known for its activist short selling approach. Block's career in finance began after he graduated from law school and moved to China, where he worked as an attorney and later in private equity. His experiences in China, particularly witnessing corporate fraud, inspired him to start Muddy Waters Research in 2010, which would later become Muddy Waters Capital. The firm is renowned for its deep research into companies, often uncovering fraudulent practices or overpromised business models, leading to significant market impact when they release their findings. Block's work has been influential in the tech and finance sectors, as his exposes often lead to substantial stock price movements and regulatory scrutiny.",
-      "derived": {
-        "current_role": "Founder of Muddy Waters Capital",
-        "education": "Bachelor's degree in International Relations from Southern Methodist University; Juris Doctor from the University of Chicago Law School"
-      },
-      "infobox": {
-        "Born": "1980",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Carson Block is an American investor and the founder of Muddy Waters Capital, an investment firm known for its activist short selling approach. Block's career in finance began after he graduated from law school and moved to China, where he worked as an attorney and later in private equity. His experiences in China, particularly witnessing corporate fraud, inspired him to start Muddy Waters Research in 2010, which would later become Muddy Waters Capital.",
-        "The firm is renowned for its deep research into companies, often uncovering fraudulent practices or overpromised business models, leading to significant market impact when they release their findings. Block's work has been influential in the tech and finance sectors, as his exposes often lead to substantial stock price movements and regulatory scrutiny."
-      ],
-      "sections": [
-        {
-          "heading": "Activist Short Selling",
-          "body": "Carson Block is recognized for his activist short selling approach, where he not only bets against companies but also actively researches and exposes fraudulent practices or overpromised business models."
-        },
-        {
-          "heading": "Muddy Waters Capital",
-          "body": "Muddy Waters Capital, founded by Block, is a hedge fund that specializes in short selling and has been influential in exposing corporate frauds, particularly in the tech sector."
-        },
-        {
-          "heading": "Market Impact",
-          "body": "Block's research and activism have had significant market impact, leading to substantial stock price movements and regulatory scrutiny for the companies targeted by Muddy Waters Capital."
-        },
-        {
-          "heading": "Fraud Exposure",
-          "body": "Carson Block has been instrumental in exposing corporate frauds, particularly in sectors like electric vehicles and green energy, where companies have been known to overpromise on their capabilities."
-        }
-      ]
-    },
-    "net_worth": "$200.0M"
-  },
-  {
-    "id": 91,
-    "name": "Brett Adcock",
-    "slug": "brett-adcock",
-    "bio": "Brett Adcock is an entrepreneur and investor with a background in software and VTOL companies. He is known for his work at the forefront of AI and robotics development, focusing on autonomous manufacturing and the potential for a $50T market.",
-    "known_for": "Being at the forefront of AI and robotics development, focusing on autonomous manufacturing and the potential for a $50T market.",
-    "net_worth_usd": 19000000000.0,
-    "net_worth_source": "https://en.wikipedia.org/wiki/Brett_Adcock",
-    "net_worth_updated_at": "2026-03-19T22:16:05.781854",
-    "voice_tone": "Amazed and enthusiastic about the advancements in AI and robotics.",
-    "voice_style": "Descriptive and forward-looking, with a focus on the transformative impact of technology.",
-    "voice_delivery_notes": "Speak with excitement and a sense of urgency to convey the rapid pace of change in the industry.",
-    "voice_profile_updated_at": "2026-03-20 03:11:05",
-    "last_seen": "2026-03-20 03:11:05",
-    "last_episode_title": "Humanoid Run on Neural Net, Autonomous Manufacturing, $50T Market #229",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-02-17",
-    "mention_score": 1,
-    "mention_score_decayed": 0.87,
-    "last_main_idea": "Investing in AI and robotics companies that leverage neural networks for autonomous manufacturing could yield significant returns as this market is expected to become the largest economy globally.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-19T22:16:04.041005",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Brett Adcock",
-      "fetched_at": "2026-03-20T03:16:04.040798+00:00",
-      "cliff_notes": "Brett Adcock is an entrepreneur and investor with a focus on software and VTOL companies. His work in AI and robotics development has positioned him as a key figure in the industry, particularly in the areas of autonomous manufacturing and the potential for a $50 trillion market. Adcock's insights into the rapid advancements in neural nets and the accumulation of data as a barrier to entry and asset have been influential. His vision for a future where robots build robots and the impact on the economy and society is a testament to his forward-thinking approach in the tech industry.",
-      "derived": {
-        "current_role": "Entrepreneur and Investor"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Brett Adcock is an entrepreneur and investor with a focus on software and VTOL companies. His work in AI and robotics development has positioned him as a key figure in the industry, particularly in the areas of autonomous manufacturing and the potential for a $50 trillion market. Adcock's insights into the rapid advancements in neural nets and the accumulation of data as a barrier to entry and asset have been influential.",
-        "His vision for a future where robots build robots and the impact on the economy and society is a testament to his forward-thinking approach in the tech industry."
-      ],
-      "sections": [
-        {
-          "heading": "AI and Robotics",
-          "body": "Brett Adcock is recognized for his contributions to AI and robotics, particularly in the development of autonomous manufacturing and the use of neural nets."
-        },
-        {
-          "heading": "Neural Nets",
-          "body": "Adcock is amazed by the advancements in neural nets and how they have transformed the business landscape, allowing for the rapid accumulation of data and the sharing of knowledge across a fleet of robots."
-        },
-        {
-          "heading": "Autonomous Manufacturing",
-          "body": "Adcock\u9884\u89c1\u5230\u81ea\u4e3b\u5236\u9020\u5c06\u6210\u4e3a\u4e16\u754c\u4e0a\u6700\u5927\u7684\u7ecf\u6d4e\u4f53\u4e4b\u4e00\uff0c\u5f15\u9886\u7740\u666e\u904d\u7684\u5546\u54c1\u548c\u670d\u52a1\uff0c\u4e3a\u6240\u6709\u4eba\u5e26\u6765\u4e30\u5bcc\u7684\u65f6\u4ee3\uff0c\u5e76\u6784\u5efa\u6211\u4eec\u6240\u6709\u4eba\u90fd\u671f\u5f85\u7684\u79d1\u5e7b\u672a\u6765\u3002"
-        },
-        {
-          "heading": "Market Potential",
-          "body": "He estimates the market potential in this space to be a staggering $50 trillion, indicating a significant impact on the global economy."
-        }
-      ]
-    },
-    "net_worth": "$19.00B"
   }
 ]

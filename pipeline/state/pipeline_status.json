@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-26T13:41:16.052728",
+  "last_updated": "2026-03-26T14:16:50.763363",
   "episodes": {
     "moonshots_with_peter_diamandis_elon's_$5_trillion_bet,_the_en": {
       "info": {
@@ -39,7 +39,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-26T13:41:15.918247",
+      "first_seen": "2026-03-26T14:16:50.679113",
       "status": "needs_analysis"
     },
     "moonshots_with_peter_diamandis_nvidia's_$1_trillion_predictio": {
@@ -80,7 +80,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-26T13:41:15.944132",
+      "first_seen": "2026-03-26T14:16:50.697683",
       "status": "needs_analysis"
     },
     "moonshots_with_peter_diamandis_meta_buys_moltbook,_gpt_5.4,_a": {
@@ -121,7 +121,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-26T13:41:15.963564",
+      "first_seen": "2026-03-26T14:16:50.711317",
       "status": "blocked_analysis"
     },
     "monetary_matters_with_jack_farley_stock_market_on_shaky_foundati": {
@@ -162,7 +162,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-26T13:41:15.975504",
+      "first_seen": "2026-03-26T14:16:50.718872",
       "status": "blocked_analysis"
     },
     "the_a16z_show_ai_just_gave_you_superpowers_\u2014": {
@@ -203,7 +203,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-26T13:41:15.992004",
+      "first_seen": "2026-03-26T14:16:50.730010",
       "status": "blocked_analysis"
     },
     "the_a16z_show_chris_dixon:_from_quant_tradin": {
@@ -244,7 +244,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-26T13:41:16.002131",
+      "first_seen": "2026-03-26T14:16:50.736811",
       "status": "blocked_analysis"
     },
     "macro_voices_macrovoices_#525_lyn_alden:_ir": {
@@ -263,21 +263,23 @@
           "reason": null
         },
         "transcribed": {
-          "complete": false,
-          "file": null,
+          "complete": true,
+          "file": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/MacroVoices-2026-26-03-Lyn-Alden.txt",
           "timestamp": null,
-          "reason": "Waiting for fetch/transcribe step"
+          "reason": null
         },
         "analyzed": {
-          "complete": false,
-          "episode_id": null,
+          "complete": true,
+          "episode_id": 107,
           "timestamp": null,
-          "reason": "Waiting for next analyze run (transcript \u2192 DB)."
+          "reason": null
         },
         "insight_created": {
-          "complete": false,
+          "complete": true,
+          "insight_id": 58,
+          "insight_title": "The Future of Advanced Nuclear Energy and its Impact on Markets",
           "timestamp": null,
-          "reason": "Depends on analyze step first."
+          "reason": null
         },
         "published": {
           "complete": false,
@@ -285,8 +287,8 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-26T13:41:16.020727",
-      "status": "needs_transcription"
+      "first_seen": "2026-03-26T14:16:50.749079",
+      "status": "needs_export"
     },
     "dwarkesh_podcast_why_leonardo_was_a_saboteur,_g": {
       "info": {
@@ -326,7 +328,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-26T13:41:16.044953",
+      "first_seen": "2026-03-26T14:16:50.758181",
       "status": "blocked_analysis"
     }
   }
