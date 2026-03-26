@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-26T11:18:06.283069",
+  "last_updated": "2026-03-26T11:52:34.772334",
   "episodes": {
     "moonshots_with_peter_diamandis_elon's_$5_trillion_bet,_the_en": {
       "info": {
@@ -39,7 +39,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-26T11:18:06.194954",
+      "first_seen": "2026-03-26T11:52:34.698623",
       "status": "needs_analysis"
     },
     "moonshots_with_peter_diamandis_nvidia's_$1_trillion_predictio": {
@@ -80,7 +80,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-26T11:18:06.213483",
+      "first_seen": "2026-03-26T11:52:34.716757",
       "status": "needs_analysis"
     },
     "moonshots_with_peter_diamandis_meta_buys_moltbook,_gpt_5.4,_a": {
@@ -121,7 +121,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-26T11:18:06.226403",
+      "first_seen": "2026-03-26T11:52:34.729502",
       "status": "blocked_analysis"
     },
     "monetary_matters_with_jack_farley_stock_market_on_shaky_foundati": {
@@ -162,51 +162,8 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-26T11:18:06.233985",
+      "first_seen": "2026-03-26T11:52:34.737132",
       "status": "blocked_analysis"
-    },
-    "the_a16z_show_security,_resilience,_and_the_": {
-      "info": {
-        "podcast": "The a16z Show",
-        "title": "Security, Resilience, and the Future of Mobile Infrastructure",
-        "published": "2026-03-26",
-        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_security__resilience__and_the_future_of_mobile_infrastructur_da5609f7.mp3",
-        "keywords": [],
-        "rss_guid": "d895626e-79f5-47dc-9655-ac3085860003"
-      },
-      "stages": {
-        "downloaded": {
-          "complete": true,
-          "timestamp": null,
-          "reason": null
-        },
-        "transcribed": {
-          "complete": true,
-          "file": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/the_a16z_show_20260326_d895626e_79f5_47dc_9655_ac308586.txt",
-          "timestamp": null,
-          "reason": null
-        },
-        "analyzed": {
-          "complete": true,
-          "episode_id": 106,
-          "timestamp": null,
-          "reason": null
-        },
-        "insight_created": {
-          "complete": true,
-          "insight_id": 50,
-          "insight_title": "The a16z Show: New Media Strategy and Investment Insights",
-          "timestamp": null,
-          "reason": null
-        },
-        "published": {
-          "complete": false,
-          "timestamp": null,
-          "reason": "Not in data.js yet (run export and push to site)."
-        }
-      },
-      "first_seen": "2026-03-26T11:18:06.245262",
-      "status": "needs_export"
     },
     "the_a16z_show_ai_just_gave_you_superpowers_\u2014": {
       "info": {
@@ -246,7 +203,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-26T11:18:06.258169",
+      "first_seen": "2026-03-26T11:52:34.748157",
       "status": "blocked_analysis"
     },
     "the_a16z_show_chris_dixon:_from_quant_tradin": {
@@ -287,7 +244,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-26T11:18:06.264893",
+      "first_seen": "2026-03-26T11:52:34.755027",
       "status": "blocked_analysis"
     },
     "dwarkesh_podcast_why_leonardo_was_a_saboteur,_g": {
@@ -328,7 +285,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-26T11:18:06.277167",
+      "first_seen": "2026-03-26T11:52:34.767178",
       "status": "blocked_analysis"
     }
   }

@@ -3,8 +3,8 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-03-26T11:18:08.306697",
-  chartsVersion: "2026-03-26T11:18:05.317814",
+  generatedAt: "2026-03-26T11:52:36.686266",
+  chartsVersion: "2026-03-26T11:52:33.812745",
   tickerScores: [
   {
     "ticker": "GOOGL",
@@ -9862,7 +9862,7 @@ const dashboardData = {
 ],
   podcastGuests: [
   {
-    "id": 813,
+    "id": 827,
     "name": "When the Music Stops",
     "slug": "when-the-music-stops",
     "bio": null,
@@ -9874,7 +9874,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 814,
+    "id": 828,
     "name": "Ground Infrastructure",
     "slug": "ground-infrastructure",
     "bio": null,
@@ -9886,7 +9886,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 815,
+    "id": 829,
     "name": "Rory Johnston",
     "slug": "rory-johnston",
     "bio": null,
@@ -9898,7 +9898,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 816,
+    "id": 830,
     "name": "Senator John Fetterman on Voting Rights",
     "slug": "senator-john-fetterman-on-voting-rights",
     "bio": null,
@@ -9910,7 +9910,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 817,
+    "id": 831,
     "name": "Elon Musk on Moonshots",
     "slug": "elon-musk-on-moonshots",
     "bio": null,
@@ -9922,7 +9922,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 818,
+    "id": 832,
     "name": "Investing in Capitalism",
     "slug": "investing-in-capitalism",
     "bio": null,
@@ -9934,7 +9934,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 819,
+    "id": 833,
     "name": "Harvard Professor Graham Allison",
     "slug": "harvard-professor-graham-allison",
     "bio": null,
@@ -9946,7 +9946,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 820,
+    "id": 834,
     "name": "Andrew Yang",
     "slug": "andrew-yang",
     "bio": "Andrew Yang is an entrepreneur and political leader who popularized universal basic income in U.S. politics through his 2020 presidential campaign.",
@@ -9958,7 +9958,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 821,
+    "id": 835,
     "name": "Ray Dalio",
     "slug": "ray-dalio",
     "bio": "Ray Dalio is the founder of Bridgewater Associates and a macro investor known for his 'Principles' framework and work on long-term debt cycles.",
@@ -9970,7 +9970,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 822,
+    "id": 836,
     "name": "Nobel Prize-winning economist Paul Krugman",
     "slug": "nobel-prize-winning-economist-paul-krugman",
     "bio": null,
@@ -9982,7 +9982,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 823,
+    "id": 837,
     "name": "host Jack Mallers",
     "slug": "host-jack-mallers",
     "bio": null,
@@ -9994,7 +9994,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 824,
+    "id": 838,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -10006,7 +10006,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 825,
+    "id": 839,
     "name": "Bosworth",
     "slug": "bosworth",
     "bio": null,
@@ -10018,7 +10018,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 826,
+    "id": 840,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -10037,9 +10037,9 @@ const dashboardData = {
     "slug": "justin-finnelli",
     "bio": "Justin Finnelli is the Chief Technology Officer (CTO) of the U.S. Navy, tasked with identifying technological needs and gaps, and connecting with innovators to bring about improvements or breakthroughs. His work is pivotal in signal to noise detection and catalyzing innovation within the Navy.",
     "known_for": "His role in enhancing the Navy's technological capabilities and his insights into cybersecurity threats, particularly regarding telecommunications infiltration.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
+    "net_worth_usd": 3000000000.0,
+    "net_worth_source": "https://www.businesswire.com/news/home/20250820740989/en/U.S.-Navy-CTO-Justin-Fanelli-Joins-Hupside-to-Champion-Human-Originality-in-the-Age-of-AI",
+    "net_worth_updated_at": "2026-03-26T11:51:58.064732",
     "voice_tone": "Informative and solution-oriented",
     "voice_style": "Focuses on the importance of innovation and collaboration",
     "voice_delivery_notes": "Speaks with a clear emphasis on the necessity of addressing cybersecurity threats",
@@ -10085,7 +10085,8 @@ const dashboardData = {
           "body": "As CTO, Finnelli connects with innovators to bring about technological improvements and breakthroughs, which are vital for the advancement of the Navy's operational capabilities."
         }
       ]
-    }
+    },
+    "net_worth": "$3.00B"
   },
   {
     "id": 119,

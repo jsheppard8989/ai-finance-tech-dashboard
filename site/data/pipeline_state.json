@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-03-26T11:18:06.193130",
-  "last_updated": "2026-03-26T11:18:06.193130",
-  "last_pipeline_run": "2026-03-26T11:18:06.193130",
+  "generated_at": "2026-03-26T11:52:34.696801",
+  "last_updated": "2026-03-26T11:52:34.696801",
+  "last_pipeline_run": "2026-03-26T11:52:34.696801",
   "main_page": {
     "overton": 8,
     "insights": 8,
@@ -18,12 +18,12 @@
     "podcasts_analyzed": 4
   },
   "step_results": {
-    "downloaded": 5,
-    "transcribed": 5,
-    "analyzed": 5,
-    "insight_created": 1,
-    "published": 2,
-    "total": 8
+    "downloaded": 4,
+    "transcribed": 4,
+    "analyzed": 4,
+    "insight_created": 0,
+    "published": 1,
+    "total": 7
   },
   "episodes": [
     {
@@ -103,22 +103,6 @@
         "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
       },
       "status": "needs_download"
-    },
-    {
-      "id": "d895626e-79f5-47dc-9655-ac3085860003",
-      "podcast": "The a16z Show",
-      "title": "Cybersecurity and National Security in the Telecommunications Sector",
-      "published": "2026-03-26",
-      "rss_guid": "d895626e-79f5-47dc-9655-ac3085860003",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "status": "complete"
     },
     {
       "id": "1e92a9dd-78da-4417-b1ce-4b4318d1f8c4",

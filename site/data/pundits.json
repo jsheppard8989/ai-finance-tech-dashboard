@@ -5,9 +5,9 @@
     "slug": "justin-finnelli",
     "bio": "Justin Finnelli is the Chief Technology Officer (CTO) of the U.S. Navy, tasked with identifying technological needs and gaps, and connecting with innovators to bring about improvements or breakthroughs. His work is pivotal in signal to noise detection and catalyzing innovation within the Navy.",
     "known_for": "His role in enhancing the Navy's technological capabilities and his insights into cybersecurity threats, particularly regarding telecommunications infiltration.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
+    "net_worth_usd": 3000000000.0,
+    "net_worth_source": "https://www.businesswire.com/news/home/20250820740989/en/U.S.-Navy-CTO-Justin-Fanelli-Joins-Hupside-to-Champion-Human-Originality-in-the-Age-of-AI",
+    "net_worth_updated_at": "2026-03-26T11:51:58.064732",
     "voice_tone": "Informative and solution-oriented",
     "voice_style": "Focuses on the importance of innovation and collaboration",
     "voice_delivery_notes": "Speaks with a clear emphasis on the necessity of addressing cybersecurity threats",
@@ -53,7 +53,8 @@
           "body": "As CTO, Finnelli connects with innovators to bring about technological improvements and breakthroughs, which are vital for the advancement of the Navy's operational capabilities."
         }
       ]
-    }
+    },
+    "net_worth": "$3.00B"
   },
   {
     "id": 119,
