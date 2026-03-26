@@ -1,4 +1,12 @@
 {
-  "timestamp": "2026-03-26T08:53:02.413934",
-  "results": []
+  "timestamp": "2026-03-26T09:27:44.078846",
+  "results": [
+    {
+      "podcast": "Moonshots with Peter Diamandis",
+      "title": "Elon's $5 Trillion Bet, the End of Human Drivers, and Chamath's Market Warning | EP #242",
+      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/DVVTS3579530070.mp3",
+      "transcript_path": null,
+      "success": false
+    }
+  ]
 }

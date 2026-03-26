@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-03-26T08:57:08.046395",
-  "last_updated": "2026-03-26T08:57:08.046395",
-  "last_pipeline_run": "2026-03-26T08:57:08.046395",
+  "generated_at": "2026-03-26T09:31:50.408032",
+  "last_updated": "2026-03-26T09:31:50.408032",
+  "last_pipeline_run": "2026-03-26T09:31:50.408032",
   "main_page": {
     "overton": 8,
     "insights": 8,
@@ -18,14 +18,33 @@
     "podcasts_analyzed": 3
   },
   "step_results": {
-    "downloaded": 3,
-    "transcribed": 3,
-    "analyzed": 3,
+    "downloaded": 4,
+    "transcribed": 4,
+    "analyzed": 4,
     "insight_created": 0,
     "published": 1,
-    "total": 6
+    "total": 7
   },
   "episodes": [
+    {
+      "id": "a89282e6-289a-11f1-89d6-ff90d5551e89",
+      "podcast": "Moonshots with Peter Diamandis",
+      "title": "Moonshots with Peter Diamandis: AI, Automation, and the Path to Abundance by 2035",
+      "published": "2026-03-26",
+      "rss_guid": "a89282e6-289a-11f1-89d6-ff90d5551e89",
+      "stages": {
+        "downloaded": true,
+        "transcribed": true,
+        "analyzed": true,
+        "insight_created": false,
+        "published": false
+      },
+      "stage_reasons": {
+        "insight_created": "No latest_insights row for this episode (insight step not reflected in DB yet).",
+        "published": "added_to_site=0 (export/publish step not reflected in DB yet)."
+      },
+      "status": "needs_insight"
+    },
     {
       "id": "b1b247d2-249c-11f1-b4ca-131c5ebeca2c",
       "podcast": "Moonshots with Peter Diamandis",
@@ -150,6 +169,13 @@
     }
   ],
   "available_from_rss": [
+    {
+      "podcast": "Moonshots with Peter Diamandis",
+      "title": "Elon's $5 Trillion Bet, the End of Human Drivers, and Chamath's Market Warning | EP #242",
+      "published": "Thu, 26 Mar 2026 14:00:00 -0000",
+      "published_date": "2026-03-26",
+      "rss_guid": ""
+    },
     {
       "podcast": "Moonshots with Peter Diamandis",
       "title": "NVIDIA's $1 Trillion Prediction, Anthropic Beats OpenAI, Tesla vs. TSMC & The CS Job Collapse | 240",

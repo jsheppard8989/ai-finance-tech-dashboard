@@ -1,8 +1,21 @@
 {
-  "timestamp": "2026-03-26T08:53:00.827336",
-  "total_feed_episodes": 6,
-  "approved_for_transcription": 6,
+  "timestamp": "2026-03-26T09:27:37.454553",
+  "total_feed_episodes": 7,
+  "approved_for_transcription": 7,
   "episodes": [
+    {
+      "podcast": "Moonshots with Peter Diamandis",
+      "title": "Elon's $5 Trillion Bet, the End of Human Drivers, and Chamath's Market Warning | EP #242",
+      "description": "\n        <p>In this episode, the mates discuss Elon\u2019s TeraFab: 1 terawatt/year chip factory (50x global AI compute), CyberCab fleets crushing rideshares, eVTOLs redesigning cities, garages-to-gyms real estate pivot, and moon disassembly for Dyson swarms amid robotaxi abundance.</p>\n<p><br></p>\n<p>Get access to metatrends 10+ years before anyone else - <a href=\"https://qr.diamandis.com/metatrends\"><u>https://qr.diamandis.com/metatrends</u></a>\u00a0\u00a0</p>\n<p><br></p>\n<p>Peter H. Diamandis, MD, is the F",
+      "audio_url": "https://traffic.megaphone.fm/DVVTS3579530070.mp3?updated=1774528986",
+      "published": "Thu, 26 Mar 2026 14:00:00 -0000",
+      "published_date": "2026-03-26",
+      "rss_guid": "a89282e6-289a-11f1-89d6-ff90d5551e89",
+      "status": "APPROVED",
+      "matched_keywords": [],
+      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/moonshots_with_peter_diamandis_elon_s__5_trillion_bet__the_end_of_human_drivers__and_chamat_28161dc4.mp3",
+      "filename": "moonshots_with_peter_diamandis_elon_s__5_trillion_bet__the_end_of_human_drivers__and_chamat_28161dc4.mp3"
+    },
     {
       "podcast": "Moonshots with Peter Diamandis",
       "title": "NVIDIA's $1 Trillion Prediction, Anthropic Beats OpenAI, Tesla vs. TSMC & The CS Job Collapse | 240",
