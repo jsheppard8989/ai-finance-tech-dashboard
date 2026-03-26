@@ -16,6 +16,26 @@
     "key_tickers": null
   },
   {
+    "id": 105,
+    "podcast_name": "Monetary Matters with Jack Farley",
+    "episode_title": "Monetary Matters: Analyzing Market Stress and the Impact of Oil Prices",
+    "episode_date": "2026-03-25",
+    "summary": "In this episode of Monetary Matters with Jack Farley, Chief Investment Strategist at Charles Schwab, Liz Ann Saunders, discusses the complexities of the current market environment, highlighting that headline indices are masking underlying stress. Saunders points out the discrepancy between index-level drawdowns and individual stock performance, emphasizing the rotation and churn in the market. The conversation also touches on the impact of oil prices on the economy and markets, with Saunders noting that while the energy sector is poised to benefit, the overall market has not reacted as severely as one might expect given an oil shock. The discussion delves into the nuances of growth and value factors, the differences in index rebalancing, and the potential parallels between the current situation and historical periods like the early 1990s.",
+    "key_takeaways": [
+      "The S&P 500 and NASDAQ have seen maximum drawdowns of 7% and 9% respectively, but individual stock analysis shows an average maximum drawdown of -17% for S&P 500 and -31% for NASDAQ.",
+      "Market rotation and churn are masking underlying weaknesses in certain sectors and stocks.",
+      "The impact of oil prices on the economy and markets is significant, but the market's reaction has been more muted than expected.",
+      "Investors are navigating the market with a mix of strategies, including seeking shelter in less impacted stocks, taking profits, and looking for opportunities in damaged stocks.",
+      "Growth and value factors can be misleading, as the composition of indexes labeled as such can vary greatly depending on the rebalancing dates and criteria of different index providers.",
+      "There are potential parallels between the current market environment and the early 1990s, with a spike in oil prices and geopolitical tensions."
+    ],
+    "investment_thesis": "The market is experiencing underlying stress that is not reflected in headline indices, suggesting a need for a more nuanced approach to investment decisions.",
+    "key_tickers": [
+      "PQT",
+      "PQUS"
+    ]
+  },
+  {
     "id": 104,
     "podcast_name": "The a16z Show",
     "episode_title": "Submarine Manufacturing and Advanced Factories",

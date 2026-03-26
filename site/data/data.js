@@ -3,8 +3,8 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-03-26T07:46:31.017059",
-  chartsVersion: "2026-03-26T07:46:27.223462",
+  generatedAt: "2026-03-26T08:22:31.740957",
+  chartsVersion: "2026-03-26T08:22:29.100347",
   tickerScores: [
   {
     "ticker": "GOOGL",
@@ -760,6 +760,26 @@ const dashboardData = {
       "podcast_episode_id": 104
     },
     {
+      "id": 122,
+      "title": "Monetary Matters: Analyzing Market Stress and the Impact of Oil Prices",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-03-25",
+      "summary": "In this episode of Monetary Matters with Jack Farley, Chief Investment Strategist at Charles Schwab, Liz Ann Saunders, discusses the complexities of the current market environment, highlighting that headline indices are masking underlying stress. Saunders points out the discrepancy between index-level drawdowns and individual stock performance, emphasizing the rotation and churn in the market. The conversation also touches on the impact of oil prices on the economy and markets, with Saunders noting that while the energy sector is poised to benefit, the overall market has not reacted as severely as one might expect given an oil shock. The discussion delves into the nuances of growth and value factors, the differences in index rebalancing, and the potential parallels between the current situation and historical periods like the early 1990s.",
+      "key_takeaway": "The market is experiencing underlying stress that is not reflected in headline indices, suggesting a need for a more nuanced approach to investment decisions.",
+      "tickers_mentioned": [
+        "PQT",
+        "PQUS"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-26",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 105
+    },
+    {
       "id": 117,
       "title": "When the Music Stops: Why Bitcoin is Next",
       "source_type": "podcast",
@@ -861,11 +881,11 @@ const dashboardData = {
         "AMZN"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-24",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-26",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 99
     },
     {
@@ -2982,6 +3002,29 @@ const dashboardData = {
       "key_tickers": []
     },
     {
+      "id": 122,
+      "title": "Monetary Matters: Analyzing Market Stress and the Impact of Oil Prices",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-03-25",
+      "summary": "In this episode of Monetary Matters with Jack Farley, Chief Investment Strategist at Charles Schwab, Liz Ann Saunders, discusses the complexities of the current market environment, highlighting that headline indices are masking underlying stress. Saunders points out the discrepancy between index-level drawdowns and individual stock performance, emphasizing the rotation and churn in the market. The conversation also touches on the impact of oil prices on the economy and markets, with Saunders noting that while the energy sector is poised to benefit, the overall market has not reacted as severely as one might expect given an oil shock. The discussion delves into the nuances of growth and value factors, the differences in index rebalancing, and the potential parallels between the current situation and historical periods like the early 1990s.",
+      "key_takeaway": "The market is experiencing underlying stress that is not reflected in headline indices, suggesting a need for a more nuanced approach to investment decisions.",
+      "tickers_mentioned": "[\"PQT\", \"PQUS\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-26",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 105,
+      "episode_release_date": "2026-03-25",
+      "guest_name": null,
+      "key_tickers": [
+        "PQT",
+        "PQUS"
+      ]
+    },
+    {
       "id": 117,
       "title": "When the Music Stops: Why Bitcoin is Next",
       "source_type": "podcast",
@@ -3042,26 +3085,6 @@ const dashboardData = {
       "key_tickers": [
         "NVDA"
       ]
-    },
-    {
-      "id": 114,
-      "title": "Ground Infrastructure: The Overlooked Bottleneck in the Space Economy",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-03-23",
-      "summary": "In this episode of the a16z Show, Bridget Memplar, co-founder and CEO of Northwood, discusses the importance of ground infrastructure in the space economy. Northwood is a company that builds systems to connect satellites back to Earth, making space missions useful. Bridget shares her unconventional path into the space industry and how a modern, vertically integrated approach could unlock the next wave of innovation in space. The conversation touches on the importance of resilience in ground stations, the potential of inner satellite links, and the analogy of the space economy to the early internet.",
-      "key_takeaway": "Investing in ground infrastructure for space can unlock the next wave of innovation, making space missions more useful and efficient.",
-      "tickers_mentioned": "[\"AAPL\", \"TSLA\", \"MSFT\", \"AMZN\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-03-24",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 99,
-      "episode_release_date": "2026-03-23",
-      "guest_name": "Ground Infrastructure",
-      "key_tickers": []
     },
     {
       "id": 115,
@@ -9624,9 +9647,102 @@ const dashboardData = {
     "source_name": "The a16z Show",
     "source_date": "2026-03-25",
     "key_tickers": []
+  },
+  "122": {
+    "id": 113,
+    "insight_id": 122,
+    "podcast_episode_id": 105,
+    "overview": "The current market environment is characterized by underlying stress that is obscured by headline indices, creating a complex investment landscape. The S&P 500 and NASDAQ have experienced maximum drawdowns of 7% and 9% respectively, but the average member level maximum drawdown is significantly higher at -17% for the S&P 500 and -31% for the NASDAQ. This suggests pockets of weakness that are masked by the overall stability of the indices. The impact of oil prices, particularly due to geopolitical tensions, adds another layer of complexity. The market's resilience in the face of an oil shock is surprising, and the upcoming earnings season will be crucial in determining the market's direction. This analysis aims to provide a deep dive into these dynamics and their investment implications.",
+    "key_takeaways_detailed": [
+      "Headline indices mask significant underlying stress with individual stock drawdowns far exceeding index levels.",
+      "Rotation and churn in the market are creating pockets of weakness, particularly in sectors like software.",
+      "The resilience of the S&P 500 and NASDAQ to an oil shock may be due to sector-specific strength offsetting weakness elsewhere.",
+      "Earnings season will be a critical test for the market, as forward-looking earnings estimates have not yet reflected the impact of oil price spikes.",
+      "The impact of oil prices on the economy is multifaceted, affecting consumer sentiment, business costs, and global trade, with potential long-term effects on demand and economic growth."
+    ],
+    "investment_thesis": "The investment thesis is centered around the disconnect between headline indices and underlying market stress, with a focus on the impact of oil prices on the economy and market. We believe that the resilience of the market in the face of an oil shock is temporary and that the true impact will become apparent in the upcoming earnings season. Sectors less exposed to oil price volatility, such as technology, may offer relative safety, while those directly impacted, like airlines and energy-intensive industries, could face headwinds. The catalyst for this thesis is the upcoming earnings reports, which will provide clarity on the financial impact of oil price spikes and geopolitical tensions.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple is a technology giant with a significant market presence and is less directly impacted by oil prices. Its strong brand and diversified product line offer a defensive play in a volatile market.",
+        "positioning": "Long-term strategic position due to its resilience and growth potential.",
+        "risk": "Supply chain disruptions and potential consumer spending shifts due to economic pressures."
+      },
+      "NVDA": {
+        "rationale": "Nvidia is a leader in the semiconductor and AI space, with products that are in high demand across various industries. Its exposure to the technology sector could provide a buffer against oil price volatility.",
+        "positioning": "Medium-term tactical position to capitalize on sector-specific strength.",
+        "risk": "Dependency on global supply chains and potential slowdown in tech spending due to economic uncertainty."
+      },
+      "SPY": {
+        "rationale": "SPY is an ETF that tracks the S&P 500, providing broad market exposure. It is relevant for understanding the overall market dynamics and the impact of headline indices on investor sentiment.",
+        "positioning": "Use as a benchmark for market exposure and as a hedging tool against sector-specific risks.",
+        "risk": "Underperformance due to the hidden market stress and potential earnings downgrades."
+      },
+      "TSLA": {
+        "rationale": "Tesla is a disruptor in the automotive and energy sectors, with a focus on electric vehicles and renewable energy. Its exposure to both technology and energy markets makes it a unique play in the current environment.",
+        "positioning": "Long-term strategic position due to its growth potential and alignment with global energy transition.",
+        "risk": "Volatility due to its high valuation and potential disruptions in the energy market."
+      }
+    },
+    "positioning_guidance": "Investors should consider a balanced portfolio with a mix of defensive and growth-oriented positions. Sectors less exposed to oil price volatility, such as technology, should be overweighted, while those directly impacted, like energy-intensive industries, should be underweighted. Diversification across different market caps and price points can help mitigate risk. Entry points should be considered in the context of the upcoming earnings season, with a focus on companies that are expected to report strong earnings despite the challenging environment. Timeframes should be aligned with the expected duration of the current market stress, with a medium to long-term outlook.",
+    "risk_factors": [
+      "Unexpected deterioration in forward-looking earnings estimates due to the impact of oil prices.",
+      "Geopolitical tensions escalating further, leading to more significant disruptions in oil supply.",
+      "A rapid shift in consumer sentiment and spending habits in response to higher oil prices and economic uncertainty.",
+      "Supply chain disruptions affecting technology and other less oil-exposed sectors.",
+      "Central bank policies that may not adequately address the economic impact of higher oil prices."
+    ],
+    "contrarian_signals": [
+      "The potential for a rapid resolution of geopolitical tensions leading to a drop in oil prices and a market rebound.",
+      "The possibility that the market has already priced in the worst-case scenario regarding oil prices, leading to a relief rally.",
+      "The emergence of new technologies or alternative energy sources that could mitigate the impact of high oil prices on the economy and markets."
+    ],
+    "catalysts": [
+      "The upcoming earnings season, which will provide clarity on the financial impact of oil price spikes and geopolitical tensions.",
+      "Geopolitical developments, including the progress of peace talks or the escalation of conflicts, which could significantly affect oil prices.",
+      "Central bank meetings and policy announcements that could influence market sentiment and economic conditions.",
+      "Economic data releases, such as inflation and employment figures, which could indicate the extent of the impact of oil prices on the economy.",
+      "Technological breakthroughs or policy changes that could alter the energy landscape and reduce the market's reliance on oil."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-03-26T08:21:54.117611",
+    "updated_at": "2026-03-26 13:21:54",
+    "insight_title": "Monetary Matters: Analyzing Market Stress and the Impact of Oil Prices",
+    "source_name": "Monetary Matters with Jack Farley",
+    "source_date": "2026-03-25",
+    "key_tickers": [
+      "PQT",
+      "PQUS"
+    ]
   }
 },
   suggestedTerms: [
+  {
+    "id": 100,
+    "term": "Rotation and churn",
+    "definition": "A market condition where different sectors or stocks experience significant price movements, leading to shifts in market leadership.",
+    "investment_implications": "Investors should be aware of these shifts to identify potential opportunities or risks.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-03-26 13:18:11",
+    "priority_score": 80
+  },
+  {
+    "id": 101,
+    "term": "Index rebalancing",
+    "definition": "The process of adjusting the composition of an index to maintain its intended characteristics, which can significantly impact the performance and composition of related ETFs or funds.",
+    "investment_implications": "Understanding the rebalancing schedule and criteria of different indexes can help investors anticipate changes in fund performance.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-03-26 13:18:11",
+    "priority_score": 80
+  },
   {
     "id": 98,
     "term": "Software-Driven Manufacturing",
@@ -9650,35 +9766,11 @@ const dashboardData = {
     "relevance_score": 50,
     "submitted_date": "2026-03-26 09:20:15",
     "priority_score": 80
-  },
-  {
-    "id": 96,
-    "term": "Longevity Experiment",
-    "definition": "A systematic approach to exploring interventions, including psychedelics, that may extend healthspan and lifespan.",
-    "investment_implications": "Investors might consider the potential of psychedelics in the broader context of longevity and healthspan technologies.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-03-26 09:17:24",
-    "priority_score": 80
-  },
-  {
-    "id": 97,
-    "term": "Rejuvenation Protocol",
-    "definition": "A therapeutic approach aimed at restoring youthful biological functions and potentially reversing aging.",
-    "investment_implications": "Investors could look for companies developing rejuvenation therapies, including those involving psychedelics.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-03-26 09:17:24",
-    "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 729,
+    "id": 743,
     "name": "When the Music Stops",
     "slug": "when-the-music-stops",
     "bio": null,
@@ -9690,7 +9782,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 730,
+    "id": 744,
     "name": "Ground Infrastructure",
     "slug": "ground-infrastructure",
     "bio": null,
@@ -9702,7 +9794,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 731,
+    "id": 745,
     "name": "Rory Johnston",
     "slug": "rory-johnston",
     "bio": null,
@@ -9714,7 +9806,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 732,
+    "id": 746,
     "name": "Senator John Fetterman on Voting Rights",
     "slug": "senator-john-fetterman-on-voting-rights",
     "bio": null,
@@ -9726,7 +9818,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 733,
+    "id": 747,
     "name": "Elon Musk on Moonshots",
     "slug": "elon-musk-on-moonshots",
     "bio": null,
@@ -9738,7 +9830,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 734,
+    "id": 748,
     "name": "Investing in Capitalism",
     "slug": "investing-in-capitalism",
     "bio": null,
@@ -9750,7 +9842,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 735,
+    "id": 749,
     "name": "Harvard Professor Graham Allison",
     "slug": "harvard-professor-graham-allison",
     "bio": null,
@@ -9762,7 +9854,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 736,
+    "id": 750,
     "name": "Andrew Yang",
     "slug": "andrew-yang",
     "bio": "Andrew Yang is an entrepreneur and political leader who popularized universal basic income in U.S. politics through his 2020 presidential campaign.",
@@ -9774,7 +9866,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 737,
+    "id": 751,
     "name": "Ray Dalio",
     "slug": "ray-dalio",
     "bio": "Ray Dalio is the founder of Bridgewater Associates and a macro investor known for his 'Principles' framework and work on long-term debt cycles.",
@@ -9786,7 +9878,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 738,
+    "id": 752,
     "name": "Nobel Prize-winning economist Paul Krugman",
     "slug": "nobel-prize-winning-economist-paul-krugman",
     "bio": null,
@@ -9798,7 +9890,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 739,
+    "id": 753,
     "name": "host Jack Mallers",
     "slug": "host-jack-mallers",
     "bio": null,
@@ -9810,7 +9902,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 740,
+    "id": 754,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -9822,7 +9914,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 741,
+    "id": 755,
     "name": "Bosworth",
     "slug": "bosworth",
     "bio": null,
@@ -9834,7 +9926,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 742,
+    "id": 756,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -9847,6 +9939,63 @@ const dashboardData = {
   }
 ],
   pundits: [
+  {
+    "id": 117,
+    "name": "Liz Ann Saunders",
+    "slug": "liz-ann-saunders",
+    "bio": "Liz Ann Saunders is the Chief Investment Strategist at Charles Schwab, where she provides investment insights and analysis. She has been recognized for her expertise in understanding complex market environments and her ability to interpret underlying stresses in the market that are often obscured by headline indices.",
+    "known_for": "Her analytical prowess in deciphering market trends and her role in guiding investment strategies at Charles Schwab.",
+    "net_worth_usd": 5000000.0,
+    "net_worth_source": "https://noteablebio.com/the-remarkable-journey-of-liz-ann-sonders-and-her-net-worth/",
+    "net_worth_updated_at": "2026-03-26T08:21:27.303779",
+    "voice_tone": "Analytical and informative",
+    "voice_style": "Factual and data-driven",
+    "voice_delivery_notes": "Paced with emphasis on key data points",
+    "voice_profile_updated_at": "2026-03-26 13:18:11",
+    "last_seen": "2026-03-26 13:18:11",
+    "last_episode_title": "Monetary Matters: Analyzing Market Stress and the Impact of Oil Prices",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-03-25",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "The market is experiencing underlying stress that is not reflected in headline indices, suggesting a need for a more nuanced approach to investment decisions.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-26T08:21:26.552392",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Liz Ann Saunders",
+      "fetched_at": "2026-03-26T13:21:26.552175+00:00",
+      "cliff_notes": "Liz Ann Saunders has established herself as a prominent figure in the investment strategy space, particularly within the context of Charles Schwab. Her career has been marked by a deep understanding of market dynamics and the ability to provide clear insights into what the headline indices might not fully reveal. Saunders' work has been pivotal in helping investors navigate complex market environments, where she has demonstrated an analytical richness that goes beyond surface-level indices to uncover underlying market stress. Her contributions to the field have made her a respected voice in the investment community, and her insights are sought after for their clarity and depth.",
+      "derived": {
+        "current_role": "Chief Investment Strategist at Charles Schwab"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Liz Ann Saunders has established herself as a prominent figure in the investment strategy space, particularly within the context of Charles Schwab. Her career has been marked by a deep understanding of market dynamics and the ability to provide clear insights into what the headline indices might not fully reveal. Saunders' work has been pivotal in helping investors navigate complex market environments, where she has demonstrated an analytical richness that goes beyond surface-level indices to uncover underlying market stress.",
+        "Her contributions to the field have made her a respected voice in the investment community, and her insights are sought after for their clarity and depth."
+      ],
+      "sections": [
+        {
+          "heading": "Market Analysis",
+          "body": "Liz Ann Saunders is known for her in-depth analysis of market trends, particularly how headline indices can mask the true nature of market stress."
+        },
+        {
+          "heading": "Investment Strategy",
+          "body": "As Chief Investment Strategist at Charles Schwab, Saunders plays a critical role in shaping the firm's investment strategies and providing guidance to clients."
+        },
+        {
+          "heading": "Market Education",
+          "body": "Saunders is also recognized for her efforts in educating investors about the intricacies of the market, helping them make more informed decisions."
+        }
+      ]
+    },
+    "net_worth": "$5.0M"
+  },
   {
     "id": 114,
     "name": "Chris Power",
@@ -10956,73 +11105,6 @@ const dashboardData = {
       ]
     },
     "net_worth": "$3.50B"
-  },
-  {
-    "id": 86,
-    "name": "Paul Krugman",
-    "slug": "paul-krugman",
-    "bio": "Paul Krugman is a Nobel Prize-winning economist, distinguished professor, and publisher of the Paul Krugman Substack. Known for his work in international trade and economic geography, Krugman has significantly influenced economic thought and policy.",
-    "known_for": "His insights into international trade, economic geography, and the global economy.",
-    "net_worth_usd": 2500000.0,
-    "net_worth_source": "https://www.therichest.com/celebnetworth/celeb/authors/paul-krugman-net-worth/",
-    "net_worth_updated_at": "2026-03-19T22:19:15.366353",
-    "voice_tone": "Analytical and measured.",
-    "voice_style": "Factual and explanatory, with a focus on economic theory and data.",
-    "voice_delivery_notes": "Delivers complex economic theories in a digestible manner.",
-    "voice_profile_updated_at": "2026-03-20 03:03:32",
-    "last_seen": "2026-03-20 03:03:32",
-    "last_episode_title": "Monetary Matters with Jack Farley: The US Dollar, Trade Deficits, and the Role of AI in Finance",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-02-19",
-    "mention_score": 1,
-    "mention_score_decayed": 0.87,
-    "last_main_idea": "The Picta AI Enhanced International Equity ETF (PQNT) uses AI to enhance international equity returns, suggesting a potential for outperformance through technology-driven investment strategies.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-19T22:19:12.461398",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Paul Krugman",
-      "fetched_at": "2026-03-20T03:19:12.461160+00:00",
-      "cliff_notes": "Paul Krugman is a renowned economist who has made significant contributions to the fields of international trade and economic geography. He began his career as an assistant professor at MIT, later moving to Yale and then Stanford. Krugman's work has been influential in shaping economic policy and understanding global economic trends. He has also been a prolific writer, contributing columns to The New York Times and publishing several influential books. His insights into economic theory and policy have made him a respected voice in both academic and public discourse.",
-      "derived": {
-        "current_role": "Distinguished Professor at the Graduate Center of the City University of New York",
-        "former_positions": "Professor of Economics and International Affairs at Princeton University; Columnist for The New York Times",
-        "education": "Ph.D. in Economics from MIT; M.Phil. in Economics from Yale University; B.A. in Economics from Yale University",
-        "political_affiliation": "Independent",
-        "political_summary": "While not directly involved in politics, Krugman is known for his political commentary and has advised policymakers on economic issues.",
-        "books_or_works": "The Return of Depression Economics and the Crisis of 2008; The Conscience of a Liberal; Development, Geography, and Economic Theory",
-        "teaching_summary": "Professor of Economics and International Affairs at Princeton University; Distinguished Professor at the Graduate Center of the City University of New York"
-      },
-      "infobox": {
-        "Born": "February 28, 1953",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Paul Krugman is a renowned economist who has made significant contributions to the fields of international trade and economic geography. He began his career as an assistant professor at MIT, later moving to Yale and then Stanford. Krugman's work has been influential in shaping economic policy and understanding global economic trends.",
-        "He has also been a prolific writer, contributing columns to The New York Times and publishing several influential books. His insights into economic theory and policy have made him a respected voice in both academic and public discourse."
-      ],
-      "sections": [
-        {
-          "heading": "International Trade",
-          "body": "Krugman's work on international trade has been groundbreaking, challenging traditional models and providing new insights into trade patterns and economic development."
-        },
-        {
-          "heading": "Economic Geography",
-          "body": "Krugman's research on economic geography has helped to explain the distribution of economic activity across different regions and the factors that influence this distribution."
-        },
-        {
-          "heading": "Global Economy",
-          "body": "Krugman has been a leading voice in discussions about the global economy, offering insights into currency fluctuations, trade imbalances, and the impacts of globalization."
-        },
-        {
-          "heading": "Economic Policy",
-          "body": "Throughout his career, Krugman has advised policymakers and provided commentary on economic policy, influencing debates on fiscal and monetary policy."
-        }
-      ]
-    },
-    "net_worth": "$2.5M"
   }
 ]
 };

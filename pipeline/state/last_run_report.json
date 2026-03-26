@@ -1,5 +1,5 @@
 {
-  "last_run_iso": "2026-03-26T07:12:09.941708",
+  "last_run_iso": "2026-03-26T07:46:33.572076",
   "step_results": {
     "transcripts_analyzed": 0,
     "newsletters_imported": 0,
@@ -16,7 +16,5 @@
     "latest_insights_total": 95,
     "today_mentions": {}
   },
-  "errors": [
-    "curation"
-  ]
+  "errors": []
 }

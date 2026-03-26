@@ -46,6 +46,26 @@
       "podcast_episode_id": 104
     },
     {
+      "id": 122,
+      "title": "Monetary Matters: Analyzing Market Stress and the Impact of Oil Prices",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-03-25",
+      "summary": "In this episode of Monetary Matters with Jack Farley, Chief Investment Strategist at Charles Schwab, Liz Ann Saunders, discusses the complexities of the current market environment, highlighting that headline indices are masking underlying stress. Saunders points out the discrepancy between index-level drawdowns and individual stock performance, emphasizing the rotation and churn in the market. The conversation also touches on the impact of oil prices on the economy and markets, with Saunders noting that while the energy sector is poised to benefit, the overall market has not reacted as severely as one might expect given an oil shock. The discussion delves into the nuances of growth and value factors, the differences in index rebalancing, and the potential parallels between the current situation and historical periods like the early 1990s.",
+      "key_takeaway": "The market is experiencing underlying stress that is not reflected in headline indices, suggesting a need for a more nuanced approach to investment decisions.",
+      "tickers_mentioned": [
+        "PQT",
+        "PQUS"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-26",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 105
+    },
+    {
       "id": 117,
       "title": "When the Music Stops: Why Bitcoin is Next",
       "source_type": "podcast",
@@ -147,11 +167,11 @@
         "AMZN"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-24",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-26",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 99
     },
     {

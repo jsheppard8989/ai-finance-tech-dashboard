@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-03-26T07:46:28.435332",
-  "last_updated": "2026-03-26T07:46:28.435332",
-  "last_pipeline_run": "2026-03-26T07:46:28.435332",
+  "generated_at": "2026-03-26T08:22:29.966845",
+  "last_updated": "2026-03-26T08:22:29.966845",
+  "last_pipeline_run": "2026-03-26T08:22:29.966845",
   "main_page": {
     "overton": 8,
     "insights": 8,
@@ -9,19 +9,19 @@
   },
   "counts": {
     "ticker_mentions": 140,
-    "podcast_episodes": 79,
+    "podcast_episodes": 80,
     "newsletters": 7,
     "daily_scores": 78,
     "overton_terms_total": 16,
-    "latest_insights_total": 95,
+    "latest_insights_total": 96,
     "today_mentions": {},
-    "podcasts_analyzed": 2
+    "podcasts_analyzed": 3
   },
   "step_results": {
     "downloaded": 4,
     "transcribed": 4,
     "analyzed": 4,
-    "insight_created": 0,
+    "insight_created": 1,
     "published": 2,
     "total": 7
   },
@@ -66,20 +66,18 @@
     {
       "id": "2375f8e4-2855-11f1-b38f-d7b1dc26b39f",
       "podcast": "Monetary Matters with Jack Farley",
-      "title": "Monetary Matters: Geopolitical Impact on Oil Markets with Rory Johnston",
+      "title": "Monetary Matters: Analyzing Market Stress and the Impact of Oil Prices",
       "published": "2026-03-25",
       "rss_guid": "2375f8e4-2855-11f1-b38f-d7b1dc26b39f",
       "stages": {
         "downloaded": true,
         "transcribed": true,
         "analyzed": true,
-        "insight_created": false,
+        "insight_created": true,
         "published": true
       },
-      "stage_reasons": {
-        "insight_created": "No latest_insights row for this episode (insight step not reflected in DB yet)."
-      },
-      "status": "needs_insight"
+      "stage_reasons": {},
+      "status": "complete"
     },
     {
       "id": "e3ce0ba4-22dd-11f1-b3e1-ef93882cc84d",
@@ -168,13 +166,6 @@
     }
   ],
   "available_from_rss": [
-    {
-      "podcast": "Monetary Matters with Jack Farley",
-      "title": "Headline Indices Are Masking Market Stress | Liz Ann Sonders on the Case For Quality Stocks During An Oil Shock",
-      "published": "Wed, 25 Mar 2026 14:36:00 -0000",
-      "published_date": "2026-03-25",
-      "rss_guid": ""
-    },
     {
       "podcast": "Moonshots with Peter Diamandis",
       "title": "NVIDIA's $1 Trillion Prediction, Anthropic Beats OpenAI, Tesla vs. TSMC & The CS Job Collapse | 240",

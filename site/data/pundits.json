@@ -1,5 +1,62 @@
 [
   {
+    "id": 117,
+    "name": "Liz Ann Saunders",
+    "slug": "liz-ann-saunders",
+    "bio": "Liz Ann Saunders is the Chief Investment Strategist at Charles Schwab, where she provides investment insights and analysis. She has been recognized for her expertise in understanding complex market environments and her ability to interpret underlying stresses in the market that are often obscured by headline indices.",
+    "known_for": "Her analytical prowess in deciphering market trends and her role in guiding investment strategies at Charles Schwab.",
+    "net_worth_usd": 5000000.0,
+    "net_worth_source": "https://noteablebio.com/the-remarkable-journey-of-liz-ann-sonders-and-her-net-worth/",
+    "net_worth_updated_at": "2026-03-26T08:21:27.303779",
+    "voice_tone": "Analytical and informative",
+    "voice_style": "Factual and data-driven",
+    "voice_delivery_notes": "Paced with emphasis on key data points",
+    "voice_profile_updated_at": "2026-03-26 13:18:11",
+    "last_seen": "2026-03-26 13:18:11",
+    "last_episode_title": "Monetary Matters: Analyzing Market Stress and the Impact of Oil Prices",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-03-25",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "The market is experiencing underlying stress that is not reflected in headline indices, suggesting a need for a more nuanced approach to investment decisions.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-26T08:21:26.552392",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Liz Ann Saunders",
+      "fetched_at": "2026-03-26T13:21:26.552175+00:00",
+      "cliff_notes": "Liz Ann Saunders has established herself as a prominent figure in the investment strategy space, particularly within the context of Charles Schwab. Her career has been marked by a deep understanding of market dynamics and the ability to provide clear insights into what the headline indices might not fully reveal. Saunders' work has been pivotal in helping investors navigate complex market environments, where she has demonstrated an analytical richness that goes beyond surface-level indices to uncover underlying market stress. Her contributions to the field have made her a respected voice in the investment community, and her insights are sought after for their clarity and depth.",
+      "derived": {
+        "current_role": "Chief Investment Strategist at Charles Schwab"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Liz Ann Saunders has established herself as a prominent figure in the investment strategy space, particularly within the context of Charles Schwab. Her career has been marked by a deep understanding of market dynamics and the ability to provide clear insights into what the headline indices might not fully reveal. Saunders' work has been pivotal in helping investors navigate complex market environments, where she has demonstrated an analytical richness that goes beyond surface-level indices to uncover underlying market stress.",
+        "Her contributions to the field have made her a respected voice in the investment community, and her insights are sought after for their clarity and depth."
+      ],
+      "sections": [
+        {
+          "heading": "Market Analysis",
+          "body": "Liz Ann Saunders is known for her in-depth analysis of market trends, particularly how headline indices can mask the true nature of market stress."
+        },
+        {
+          "heading": "Investment Strategy",
+          "body": "As Chief Investment Strategist at Charles Schwab, Saunders plays a critical role in shaping the firm's investment strategies and providing guidance to clients."
+        },
+        {
+          "heading": "Market Education",
+          "body": "Saunders is also recognized for her efforts in educating investors about the intricacies of the market, helping them make more informed decisions."
+        }
+      ]
+    },
+    "net_worth": "$5.0M"
+  },
+  {
     "id": 114,
     "name": "Chris Power",
     "slug": "chris-power",
@@ -1108,72 +1165,5 @@
       ]
     },
     "net_worth": "$3.50B"
-  },
-  {
-    "id": 86,
-    "name": "Paul Krugman",
-    "slug": "paul-krugman",
-    "bio": "Paul Krugman is a Nobel Prize-winning economist, distinguished professor, and publisher of the Paul Krugman Substack. Known for his work in international trade and economic geography, Krugman has significantly influenced economic thought and policy.",
-    "known_for": "His insights into international trade, economic geography, and the global economy.",
-    "net_worth_usd": 2500000.0,
-    "net_worth_source": "https://www.therichest.com/celebnetworth/celeb/authors/paul-krugman-net-worth/",
-    "net_worth_updated_at": "2026-03-19T22:19:15.366353",
-    "voice_tone": "Analytical and measured.",
-    "voice_style": "Factual and explanatory, with a focus on economic theory and data.",
-    "voice_delivery_notes": "Delivers complex economic theories in a digestible manner.",
-    "voice_profile_updated_at": "2026-03-20 03:03:32",
-    "last_seen": "2026-03-20 03:03:32",
-    "last_episode_title": "Monetary Matters with Jack Farley: The US Dollar, Trade Deficits, and the Role of AI in Finance",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-02-19",
-    "mention_score": 1,
-    "mention_score_decayed": 0.87,
-    "last_main_idea": "The Picta AI Enhanced International Equity ETF (PQNT) uses AI to enhance international equity returns, suggesting a potential for outperformance through technology-driven investment strategies.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-19T22:19:12.461398",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Paul Krugman",
-      "fetched_at": "2026-03-20T03:19:12.461160+00:00",
-      "cliff_notes": "Paul Krugman is a renowned economist who has made significant contributions to the fields of international trade and economic geography. He began his career as an assistant professor at MIT, later moving to Yale and then Stanford. Krugman's work has been influential in shaping economic policy and understanding global economic trends. He has also been a prolific writer, contributing columns to The New York Times and publishing several influential books. His insights into economic theory and policy have made him a respected voice in both academic and public discourse.",
-      "derived": {
-        "current_role": "Distinguished Professor at the Graduate Center of the City University of New York",
-        "former_positions": "Professor of Economics and International Affairs at Princeton University; Columnist for The New York Times",
-        "education": "Ph.D. in Economics from MIT; M.Phil. in Economics from Yale University; B.A. in Economics from Yale University",
-        "political_affiliation": "Independent",
-        "political_summary": "While not directly involved in politics, Krugman is known for his political commentary and has advised policymakers on economic issues.",
-        "books_or_works": "The Return of Depression Economics and the Crisis of 2008; The Conscience of a Liberal; Development, Geography, and Economic Theory",
-        "teaching_summary": "Professor of Economics and International Affairs at Princeton University; Distinguished Professor at the Graduate Center of the City University of New York"
-      },
-      "infobox": {
-        "Born": "February 28, 1953",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Paul Krugman is a renowned economist who has made significant contributions to the fields of international trade and economic geography. He began his career as an assistant professor at MIT, later moving to Yale and then Stanford. Krugman's work has been influential in shaping economic policy and understanding global economic trends.",
-        "He has also been a prolific writer, contributing columns to The New York Times and publishing several influential books. His insights into economic theory and policy have made him a respected voice in both academic and public discourse."
-      ],
-      "sections": [
-        {
-          "heading": "International Trade",
-          "body": "Krugman's work on international trade has been groundbreaking, challenging traditional models and providing new insights into trade patterns and economic development."
-        },
-        {
-          "heading": "Economic Geography",
-          "body": "Krugman's research on economic geography has helped to explain the distribution of economic activity across different regions and the factors that influence this distribution."
-        },
-        {
-          "heading": "Global Economy",
-          "body": "Krugman has been a leading voice in discussions about the global economy, offering insights into currency fluctuations, trade imbalances, and the impacts of globalization."
-        },
-        {
-          "heading": "Economic Policy",
-          "body": "Throughout his career, Krugman has advised policymakers and provided commentary on economic policy, influencing debates on fiscal and monetary policy."
-        }
-      ]
-    },
-    "net_worth": "$2.5M"
   }
 ]
