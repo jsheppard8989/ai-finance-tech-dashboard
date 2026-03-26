@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-26T18:07:25.262745",
+  "last_updated": "2026-03-26T18:41:33.777185",
   "episodes": {
     "moonshots_with_peter_diamandis_elon's_$5_trillion_bet,_the_en": {
       "info": {
@@ -39,7 +39,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-26T18:07:25.188640",
+      "first_seen": "2026-03-26T18:41:33.702607",
       "status": "needs_analysis"
     },
     "moonshots_with_peter_diamandis_nvidia's_$1_trillion_predictio": {
@@ -80,7 +80,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-26T18:07:25.206741",
+      "first_seen": "2026-03-26T18:41:33.720297",
       "status": "needs_analysis"
     },
     "moonshots_with_peter_diamandis_meta_buys_moltbook,_gpt_5.4,_a": {
@@ -121,7 +121,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-26T18:07:25.220014",
+      "first_seen": "2026-03-26T18:41:33.733230",
       "status": "blocked_analysis"
     },
     "monetary_matters_with_jack_farley_stock_market_on_shaky_foundati": {
@@ -162,7 +162,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-26T18:07:25.227533",
+      "first_seen": "2026-03-26T18:41:33.740838",
       "status": "blocked_analysis"
     },
     "the_a16z_show_ai_just_gave_you_superpowers_\u2014": {
@@ -203,7 +203,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-26T18:07:25.238601",
+      "first_seen": "2026-03-26T18:41:33.752083",
       "status": "blocked_analysis"
     },
     "the_a16z_show_chris_dixon:_from_quant_tradin": {
@@ -244,7 +244,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-26T18:07:25.245354",
+      "first_seen": "2026-03-26T18:41:33.759254",
       "status": "blocked_analysis"
     },
     "dwarkesh_podcast_why_leonardo_was_a_saboteur,_g": {
@@ -285,7 +285,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-26T18:07:25.257677",
+      "first_seen": "2026-03-26T18:41:33.771857",
       "status": "blocked_analysis"
     }
   }
