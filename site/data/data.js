@@ -3,8 +3,8 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-03-26T10:42:24.120084",
-  chartsVersion: "2026-03-26T10:42:20.432537",
+  generatedAt: "2026-03-26T11:18:08.306697",
+  chartsVersion: "2026-03-26T11:18:05.317814",
   tickerScores: [
   {
     "ticker": "GOOGL",
@@ -737,6 +737,29 @@ const dashboardData = {
       "podcast_episode_id": 103
     },
     {
+      "id": 123,
+      "title": "Cybersecurity and National Security in the Telecommunications Sector",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-03-26",
+      "summary": "This episode of the a16z Show discusses the infiltration of major US telecommunications carriers by Chinese hackers, known as Operation Salt Typhoon, which compromised the X1 interface and gave China access to lawful intercept systems, live phone calls, and communications of senior government officials. The podcast highlights the importance of building secure networks on top of compromised physical infrastructure and the role of the Navy in testing new technologies. The discussion also touches on the challenges of cybersecurity in the telecommunications industry and the need for increased collaboration between the public and private sectors for national security and economic prosperity.",
+      "key_takeaway": "Investing in cybersecurity solutions that can secure networks on top of compromised physical infrastructure is crucial for national security and economic prosperity.",
+      "tickers_mentioned": [
+        "AAPL",
+        "NVDA",
+        "GOOGL",
+        "MSFT",
+        "TSLA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-26",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 106
+    },
+    {
       "id": 121,
       "title": "Submarine Manufacturing and Advanced Factories",
       "source_type": "podcast",
@@ -900,11 +923,11 @@ const dashboardData = {
         "NVDA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-24",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-26",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 98
     },
     {
@@ -2982,6 +3005,26 @@ const dashboardData = {
       "key_tickers": []
     },
     {
+      "id": 123,
+      "title": "Cybersecurity and National Security in the Telecommunications Sector",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-03-26",
+      "summary": "This episode of the a16z Show discusses the infiltration of major US telecommunications carriers by Chinese hackers, known as Operation Salt Typhoon, which compromised the X1 interface and gave China access to lawful intercept systems, live phone calls, and communications of senior government officials. The podcast highlights the importance of building secure networks on top of compromised physical infrastructure and the role of the Navy in testing new technologies. The discussion also touches on the challenges of cybersecurity in the telecommunications industry and the need for increased collaboration between the public and private sectors for national security and economic prosperity.",
+      "key_takeaway": "Investing in cybersecurity solutions that can secure networks on top of compromised physical infrastructure is crucial for national security and economic prosperity.",
+      "tickers_mentioned": "[\"AAPL\", \"NVDA\", \"GOOGL\", \"MSFT\", \"TSLA\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-26",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 106,
+      "episode_release_date": "2026-03-26",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 121,
       "title": "Submarine Manufacturing and Advanced Factories",
       "source_type": "podcast",
@@ -3081,28 +3124,6 @@ const dashboardData = {
       "archived_reason": null,
       "podcast_episode_id": 101,
       "episode_release_date": "2026-03-24",
-      "guest_name": null,
-      "key_tickers": [
-        "NVDA"
-      ]
-    },
-    {
-      "id": 115,
-      "title": "Interview with Michael Intrader at Nvidia's GTC Conference",
-      "source_type": "podcast",
-      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "source_date": "2026-03-23",
-      "summary": "The podcast features an interview with Michael Intrader, CEO of Core Weave, at Nvidia's GTC conference. The discussion revolves around the evolution of Core Weave, its early foray into crypto mining, and the subsequent expansion into various use cases for GPUs, including CGI rendering, medical research, and neural networks. The conversation also touches on the company's approach to AI, the specialization of AI models, and the potential impact of new energy sources like nuclear power on the industry.",
-      "key_takeaway": "Invest in companies that can leverage the evolving landscape of AI and GPU computing, particularly those with the agility to adapt and scale in a rapidly changing market.",
-      "tickers_mentioned": "[\"NVDA\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-03-24",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 98,
-      "episode_release_date": "2026-03-23",
       "guest_name": null,
       "key_tickers": [
         "NVDA"
@@ -9716,9 +9737,104 @@ const dashboardData = {
       "PQT",
       "PQUS"
     ]
+  },
+  "123": {
+    "id": 114,
+    "insight_id": 123,
+    "podcast_episode_id": 106,
+    "overview": "The telecommunications sector is at the forefront of a new era of cybersecurity threats, with the 'Salt Typhoon' incident highlighting the infiltration of Chinese hackers into major US cellular carriers. This breach underscores the urgent need for secure and resilient communication networks. The investment thesis revolves around companies that can provide advanced cybersecurity solutions and build secure communication infrastructure. Given the increasing reliance on mobile devices for personal and professional activities, the stakes for national security and economic prosperity are high. The current geopolitical climate and the rapid advancement of technology make this a critical and timely investment focus.",
+    "key_takeaways_detailed": [
+      "Invest in companies with proven cybersecurity solutions that can protect against sophisticated cyber threats.",
+      "Look for firms that are partnering with government agencies, as they are more likely to receive funding and support in the wake of high-profile cyber attacks.",
+      "Consider the potential for increased government spending on cybersecurity, which could benefit companies in the telecommunications and defense sectors.",
+      "Monitor the development of new technologies that can operate securely on compromised infrastructure, as these could offer a significant advantage in the market.",
+      "Be aware of the risks associated with geopolitical tensions, as these can influence the demand for cybersecurity solutions and the regulatory environment."
+    ],
+    "investment_thesis": "The core investment logic is centered on the increasing demand for secure communication networks due to escalating cyber threats. The catalysts include the 'Salt Typhoon' incident, which has heightened awareness of vulnerabilities in the telecommunications sector, and the potential for increased government spending on cybersecurity. The timeframe for this thesis is medium to long-term, as the development and deployment of secure communication infrastructure are complex processes that require significant time and investment.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's focus on privacy and security, including the rotation of identifiers on iPhones, aligns with the growing need for secure communication. Their technology could be leveraged in the development of more secure networks.",
+        "positioning": "Position long on AAPL as a strategic investment, given their potential to benefit from the increased demand for secure communication solutions.",
+        "risk": "Key risks include potential regulatory challenges and the possibility that Apple's security measures may not be as effective against future cyber threats."
+      },
+      "NVDA": {
+        "rationale": "Nvidia's expertise in AI and GPU technology positions them to contribute to advanced cybersecurity solutions, which are critical in detecting and preventing cyber attacks.",
+        "positioning": "Consider a long position in NVDA as a tactical investment, given their potential to provide cutting-edge technology in the cybersecurity space.",
+        "risk": "The risk lies in the rapid evolution of cyber threats, which could outpace Nvidia's ability to develop effective countermeasures."
+      },
+      "GOOGL": {
+        "rationale": "Google's extensive reach in cloud services and AI could be instrumental in developing secure communication platforms that are resilient to cyber attacks.",
+        "positioning": "A strategic long position in GOOGL could be beneficial, as their technology and services are likely to be in high demand.",
+        "risk": "Regulatory scrutiny over data privacy and potential breaches could impact Google's position in the market."
+      },
+      "MSFT": {
+        "rationale": "Microsoft's cybersecurity solutions and cloud services are crucial in the fight against cyber threats, and their Azure platform could play a significant role in securing communication networks.",
+        "positioning": "A long-term strategic position in MSFT is recommended, as their products and services are likely to be integral to the security of communication infrastructure.",
+        "risk": "The risk includes competition from other tech giants and the potential for Microsoft's solutions to be bypassed by new types of cyber attacks."
+      },
+      "TSLA": {
+        "rationale": "Tesla's involvement in advanced technology and potential forays into secure communication systems could position them as a player in this space, especially with their focus on innovation and technology.",
+        "positioning": "A speculative long position in TSLA could be considered, as their technology might be adapted to secure communication needs.",
+        "risk": "Tesla's primary focus is on electric vehicles and energy, which means their involvement in secure communication could be limited or delayed."
+      }
+    },
+    "positioning_guidance": "Investors should consider a diversified approach, with a mix of strategic and tactical positions in companies that are at the forefront of cybersecurity and secure communication. Sizing should reflect the potential impact of each company on the telecommunications sector, with larger allocations for companies with more established positions. Entry points should be based on market conditions and the companies' financial performance, with a focus on long-term growth potential. Hedges could include investments in companies that provide alternative communication technologies or those that are less exposed to cyber threats.",
+    "risk_factors": [
+      "The rapid evolution of cyber threats could outpace the development of security solutions.",
+      "Geopolitical tensions could lead to regulatory changes that impact the telecommunications sector.",
+      "The potential for new entrants in the market could disrupt the current landscape and affect established players.",
+      "The possibility of a cyber attack that significantly impacts public trust in the security of communication networks.",
+      "Technological obsolescence, where current solutions become ineffective against advanced cyber threats."
+    ],
+    "contrarian_signals": [
+      "The belief that current cybersecurity measures are sufficient to protect against threats, which could lead to underinvestment in new solutions.",
+      "The potential for overregulation that stifles innovation in the cybersecurity space.",
+      "The possibility that the focus on cybersecurity could lead to a trade-off with other important aspects of communication technology, such as speed and cost-effectiveness."
+    ],
+    "catalysts": [
+      "The upcoming release of new cybersecurity regulations and standards that could drive demand for advanced solutions.",
+      "The announcement of new partnerships between government agencies and technology companies to develop secure communication infrastructure.",
+      "The launch of new products or services by companies in the cybersecurity space that could significantly improve the security of communication networks.",
+      "The occurrence of high-profile cyber attacks that highlight the need for more robust security measures.",
+      "The development of new technologies that can operate securely on compromised infrastructure, which could offer a significant advantage in the market."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-03-26T11:17:29.311744",
+    "updated_at": "2026-03-26 16:17:29",
+    "insight_title": "Cybersecurity and National Security in the Telecommunications Sector",
+    "source_name": "The a16z Show",
+    "source_date": "2026-03-26",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
+  {
+    "id": 102,
+    "term": "Operation Salt Typhoon",
+    "definition": "A cyber-espionage operation by Chinese hackers that infiltrated every major American cellular carrier, compromising the X1 interface and giving China access to lawful intercept systems.",
+    "investment_implications": "Investors should be aware of the cybersecurity risks in the telecommunications sector and consider investing in companies that offer secure network solutions.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-03-26 16:16:20",
+    "priority_score": 80
+  },
+  {
+    "id": 103,
+    "term": "Self-Network",
+    "definition": "A new kind of network designed to operate securely on top of compromised physical infrastructure, providing a layer of security against cyber threats.",
+    "investment_implications": "Investors may look for opportunities in companies developing self-network technologies to mitigate the risks of cyber-espionage and protect critical infrastructure.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-03-26 16:16:20",
+    "priority_score": 80
+  },
   {
     "id": 100,
     "term": "Rotation and churn",
@@ -9742,35 +9858,11 @@ const dashboardData = {
     "relevance_score": 50,
     "submitted_date": "2026-03-26 13:18:11",
     "priority_score": 80
-  },
-  {
-    "id": 98,
-    "term": "Software-Driven Manufacturing",
-    "definition": "The integration of software and technology into traditional manufacturing processes to increase efficiency and productivity.",
-    "investment_implications": "Investors should consider companies that are at the forefront of software-driven manufacturing, particularly those in the defense and aerospace sectors.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-03-26 09:20:15",
-    "priority_score": 80
-  },
-  {
-    "id": 99,
-    "term": "Workforce Trading",
-    "definition": "The strategic allocation and training of the workforce to enhance productivity and meet the demands of advanced manufacturing.",
-    "investment_implications": "Investors should look for companies that are investing in workforce development and training as a means to improve operational efficiency.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-03-26 09:20:15",
-    "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 799,
+    "id": 813,
     "name": "When the Music Stops",
     "slug": "when-the-music-stops",
     "bio": null,
@@ -9782,7 +9874,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 800,
+    "id": 814,
     "name": "Ground Infrastructure",
     "slug": "ground-infrastructure",
     "bio": null,
@@ -9794,7 +9886,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 801,
+    "id": 815,
     "name": "Rory Johnston",
     "slug": "rory-johnston",
     "bio": null,
@@ -9806,7 +9898,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 802,
+    "id": 816,
     "name": "Senator John Fetterman on Voting Rights",
     "slug": "senator-john-fetterman-on-voting-rights",
     "bio": null,
@@ -9818,7 +9910,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 803,
+    "id": 817,
     "name": "Elon Musk on Moonshots",
     "slug": "elon-musk-on-moonshots",
     "bio": null,
@@ -9830,7 +9922,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 804,
+    "id": 818,
     "name": "Investing in Capitalism",
     "slug": "investing-in-capitalism",
     "bio": null,
@@ -9842,7 +9934,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 805,
+    "id": 819,
     "name": "Harvard Professor Graham Allison",
     "slug": "harvard-professor-graham-allison",
     "bio": null,
@@ -9854,7 +9946,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 806,
+    "id": 820,
     "name": "Andrew Yang",
     "slug": "andrew-yang",
     "bio": "Andrew Yang is an entrepreneur and political leader who popularized universal basic income in U.S. politics through his 2020 presidential campaign.",
@@ -9866,7 +9958,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 807,
+    "id": 821,
     "name": "Ray Dalio",
     "slug": "ray-dalio",
     "bio": "Ray Dalio is the founder of Bridgewater Associates and a macro investor known for his 'Principles' framework and work on long-term debt cycles.",
@@ -9878,7 +9970,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 808,
+    "id": 822,
     "name": "Nobel Prize-winning economist Paul Krugman",
     "slug": "nobel-prize-winning-economist-paul-krugman",
     "bio": null,
@@ -9890,7 +9982,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 809,
+    "id": 823,
     "name": "host Jack Mallers",
     "slug": "host-jack-mallers",
     "bio": null,
@@ -9902,7 +9994,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 810,
+    "id": 824,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -9914,7 +10006,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 811,
+    "id": 825,
     "name": "Bosworth",
     "slug": "bosworth",
     "bio": null,
@@ -9926,7 +10018,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 812,
+    "id": 826,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -9939,6 +10031,119 @@ const dashboardData = {
   }
 ],
   pundits: [
+  {
+    "id": 118,
+    "name": "Justin Finnelli",
+    "slug": "justin-finnelli",
+    "bio": "Justin Finnelli is the Chief Technology Officer (CTO) of the U.S. Navy, tasked with identifying technological needs and gaps, and connecting with innovators to bring about improvements or breakthroughs. His work is pivotal in signal to noise detection and catalyzing innovation within the Navy.",
+    "known_for": "His role in enhancing the Navy's technological capabilities and his insights into cybersecurity threats, particularly regarding telecommunications infiltration.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Informative and solution-oriented",
+    "voice_style": "Focuses on the importance of innovation and collaboration",
+    "voice_delivery_notes": "Speaks with a clear emphasis on the necessity of addressing cybersecurity threats",
+    "voice_profile_updated_at": "2026-03-26 16:16:20",
+    "last_seen": "2026-03-26 16:16:20",
+    "last_episode_title": "Cybersecurity and National Security in the Telecommunications Sector",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-03-26",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investing in cybersecurity solutions that can secure networks on top of compromised physical infrastructure is crucial for national security and economic prosperity.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-26T11:16:44.078788",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Justin Finnelli",
+      "fetched_at": "2026-03-26T16:16:44.078427+00:00",
+      "cliff_notes": "Justin Finnelli serves as the Chief Technology Officer of the U.S. Navy, where he is responsible for recognizing the technological requirements and shortcomings of the Navy's operations. His role involves liaising with innovators to address these gaps, thereby enhancing the Navy's technological edge. Finnelli's expertise extends to cybersecurity, where he has been vocal about the threats posed by foreign infiltration of telecommunications infrastructure, as evidenced by his discussions on the 'Salt Typhoon' incident. His work is crucial in ensuring the Navy's technological readiness and in safeguarding national security interests in the digital age.",
+      "derived": {
+        "current_role": "CTO of the Navy"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Justin Finnelli serves as the Chief Technology Officer of the U.S. Navy, where he is responsible for recognizing the technological requirements and shortcomings of the Navy's operations. His role involves liaising with innovators to address these gaps, thereby enhancing the Navy's technological edge. Finnelli's expertise extends to cybersecurity, where he has been vocal about the threats posed by foreign infiltration of telecommunications infrastructure, as evidenced by his discussions on the 'Salt Typhoon' incident.",
+        "His work is crucial in ensuring the Navy's technological readiness and in safeguarding national security interests in the digital age."
+      ],
+      "sections": [
+        {
+          "heading": "Naval Technology",
+          "body": "Justin Finnelli plays a critical role in identifying and bridging technological gaps within the U.S. Navy, ensuring that the force remains at the forefront of modern military capabilities."
+        },
+        {
+          "heading": "Cybersecurity",
+          "body": "Finnelli has been instrumental in raising awareness about the infiltration of major U.S. telecommunications carriers by foreign entities, emphasizing the importance of cybersecurity in national defense."
+        },
+        {
+          "heading": "Innovation Catalyst",
+          "body": "As CTO, Finnelli connects with innovators to bring about technological improvements and breakthroughs, which are vital for the advancement of the Navy's operational capabilities."
+        }
+      ]
+    }
+  },
+  {
+    "id": 119,
+    "name": "John Doyle",
+    "slug": "john-doyle",
+    "bio": "John Doyle is the Founder and CEO of a company focused on developing secure networks that operate on compromised physical infrastructure. His work is pivotal in addressing cybersecurity threats and ensuring secure communication in the digital age.",
+    "known_for": "Creating secure networks that can operate on compromised physical infrastructure, crucial in the face of increasing cybersecurity threats.",
+    "net_worth_usd": 27500000.0,
+    "net_worth_source": "https://www.quiverquant.com/insiders/1580963/John-Q-Doyle",
+    "net_worth_updated_at": "2026-03-26T11:16:53.602329",
+    "voice_tone": "Confident and solution-focused",
+    "voice_style": "Discusses the practical applications of secure network technology",
+    "voice_delivery_notes": "Speaks with conviction about the importance of secure networks in the telecommunications sector",
+    "voice_profile_updated_at": "2026-03-26 16:16:20",
+    "last_seen": "2026-03-26 16:16:20",
+    "last_episode_title": "Cybersecurity and National Security in the Telecommunications Sector",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-03-26",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investing in cybersecurity solutions that can secure networks on top of compromised physical infrastructure is crucial for national security and economic prosperity.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-26T11:16:52.472386",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "John Doyle",
+      "fetched_at": "2026-03-26T16:16:52.472220+00:00",
+      "cliff_notes": "John Doyle is recognized for his work in cybersecurity, particularly in creating secure networks that can operate securely on top of compromised physical infrastructure. As the CEO of his own company, he has been at the forefront of developing solutions to protect against cyber threats. His insights into the vulnerabilities of major telecommunications carriers, as highlighted in his Davos appearance, underscore the importance of his work. Doyle's contributions to the field are significant, as they address the fundamental security of digital communications, which is critical in an era where personal and business data is increasingly targeted by cybercriminals.",
+      "derived": {
+        "current_role": "Founder and CEO of a secure network company"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "John Doyle is recognized for his work in cybersecurity, particularly in creating secure networks that can operate securely on top of compromised physical infrastructure. As the CEO of his own company, he has been at the forefront of developing solutions to protect against cyber threats. His insights into the vulnerabilities of major telecommunications carriers, as highlighted in his Davos appearance, underscore the importance of his work.",
+        "Doyle's contributions to the field are significant, as they address the fundamental security of digital communications, which is critical in an era where personal and business data is increasingly targeted by cybercriminals."
+      ],
+      "sections": [
+        {
+          "heading": "Secure Networks",
+          "body": "John Doyle is known for his innovative approach to creating secure networks that can operate even when the underlying physical infrastructure is compromised."
+        },
+        {
+          "heading": "Cybersecurity Threats",
+          "body": "His work is vital in the face of increasing cybersecurity threats, particularly those posed by state-sponsored actors like China, as evidenced by the Salt Typhoon incident."
+        },
+        {
+          "heading": "Communications Infrastructure",
+          "body": "Doyle's expertise lies in securing telecommunications infrastructure, a critical component of modern society where much of life and business is conducted through digital means."
+        }
+      ]
+    },
+    "net_worth": "$27.5M"
+  },
   {
     "id": 117,
     "name": "Liz Ann Saunders",
@@ -10992,119 +11197,6 @@ const dashboardData = {
       ]
     },
     "net_worth": "$19.00B"
-  },
-  {
-    "id": 89,
-    "name": "Andrew 'Boz' Bosworth",
-    "slug": "andrew-boz-bosworth",
-    "bio": "Andrew 'Boz' Bosworth is a prominent figure in the tech industry, known for his work at Meta, where he has spent nearly two decades shaping consumer interaction. As the company's CTO, he has been instrumental in the development of smart glasses and AR headsets, pushing the boundaries of consumer technology.",
-    "known_for": "His influential role in shaping Meta's technology strategy and the development of smart glasses and AR headsets.",
-    "net_worth_usd": 46000000.0,
-    "net_worth_source": "https://www.gurufocus.com/insider/170430/andrew-bosworth",
-    "net_worth_updated_at": "2026-03-19T22:17:08.863199",
-    "voice_tone": "Confident and visionary.",
-    "voice_style": "Boz presents a future-oriented perspective with a focus on the transformative potential of AI and AR.",
-    "voice_delivery_notes": "Pacing is steady with emphasis on the importance of AI and the shift towards intent-driven computing.",
-    "voice_profile_updated_at": "2026-03-20 03:09:39",
-    "last_seen": "2026-03-20 03:09:39",
-    "last_episode_title": "The Future of Consumer Technology and the Post-Mobile Phone Era",
-    "last_podcast_name": "a16z Live",
-    "last_episode_date": "2026-02-15",
-    "mention_score": 1,
-    "mention_score_decayed": 0.87,
-    "last_main_idea": "Invest in companies that are at the forefront of developing AI-enabled, immersive technologies that can redefine consumer interactions beyond the current app-centric model.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-19T22:17:07.326933",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Andrew 'Boz' Bosworth",
-      "fetched_at": "2026-03-20T03:17:07.326714+00:00",
-      "cliff_notes": "Andrew 'Boz' Bosworth has been with Meta (formerly Facebook) for nearly two decades, starting as a software engineer and rising through the ranks to become the company's CTO. His tenure has seen him play a pivotal role in the evolution of consumer interaction, from the Facebook News Feed to the development of smart glasses and AR headsets. Bosworth's work has been central to Meta's technological advancements, particularly in the realms of AI and hardware. His vision for a post-phone world, where AI-enabled technology creates more immersive and adaptive computing experiences, has positioned him as a key influencer in the tech industry's future.",
-      "derived": {
-        "current_role": "CTO at Meta",
-        "former_positions": "Director of Engineering at Facebook; Manager of Facebook's News Feed team",
-        "education": "Bachelor's degree in Computer Science from Harvard University"
-      },
-      "infobox": {
-        "Born": "Unknown",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Andrew 'Boz' Bosworth has been with Meta (formerly Facebook) for nearly two decades, starting as a software engineer and rising through the ranks to become the company's CTO. His tenure has seen him play a pivotal role in the evolution of consumer interaction, from the Facebook News Feed to the development of smart glasses and AR headsets.",
-        "Bosworth's work has been central to Meta's technological advancements, particularly in the realms of AI and hardware. His vision for a post-phone world, where AI-enabled technology creates more immersive and adaptive computing experiences, has positioned him as a key influencer in the tech industry's future."
-      ],
-      "sections": [
-        {
-          "heading": "Meta's Technology Strategy",
-          "body": "Bosworth has been a driving force behind Meta's technology strategy, focusing on the development of smart glasses and AR headsets that aim to redefine consumer interaction."
-        },
-        {
-          "heading": "AI and Hardware Breakthroughs",
-          "body": "His work emphasizes the potential of AI and hardware breakthroughs to revolutionize the tech landscape, moving towards a more agentic, adaptive, and immersive computing experience."
-        },
-        {
-          "heading": "Post-Phone World Vision",
-          "body": "Bosworth envisions a future where the app-centric world of smartphones is replaced by a new computing paradigm, one that is more integrated and intuitive, potentially led by AI advancements."
-        }
-      ]
-    },
-    "net_worth": "$46.0M"
-  },
-  {
-    "id": 88,
-    "name": "Ben Harwitz",
-    "slug": "ben-harwitz",
-    "bio": "Ben Harwitz is a guest on the 'Moonshots with Peter Diamandis' podcast, where he discusses the societal impact of AI. He has expressed concerns about the departures from X-A-I from the founding team and the potential dangers of attempting to pause AI development.",
-    "known_for": "His insights on AI's societal impact and the potential for AI to address global issues.",
-    "net_worth_usd": 3500000000.0,
-    "net_worth_source": "https://finty.com/us/net-worth/ben-horowitz/",
-    "net_worth_updated_at": "2026-03-19T22:17:59.756579",
-    "voice_tone": "Cautiously optimistic",
-    "voice_style": "Analytical with a focus on positive outcomes",
-    "voice_delivery_notes": "Speaks with measured pace, emphasizing key points about AI's potential",
-    "voice_profile_updated_at": "2026-03-20 03:07:23",
-    "last_seen": "2026-03-20 03:07:23",
-    "last_episode_title": null,
-    "last_podcast_name": null,
-    "last_episode_date": null,
-    "mention_score": 1,
-    "mention_score_decayed": 0.87,
-    "last_main_idea": null,
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-19T22:17:58.321307",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Ben Harwitz",
-      "fetched_at": "2026-03-20T03:17:58.321048+00:00",
-      "cliff_notes": "Ben Harwitz is a commentator and guest on the 'Moonshots with Peter Diamandis' podcast, where he shares his thoughts on the impact of artificial intelligence on society. He has expressed concerns about the departures from X-A-I from the founding team and the potential dangers of attempting to pause AI development. Harwitz believes that AI is the best chance we have at stopping the high number of deaths on Earth daily and that whoever is building the AI has a lot of control about how society is going to work. His views on AI's societal impact and its potential to address global issues make him a notable figure in discussions about the future of technology and its implications for humanity.",
-      "derived": {},
-      "infobox": {
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Ben Harwitz is a commentator and guest on the 'Moonshots with Peter Diamandis' podcast, where he shares his thoughts on the impact of artificial intelligence on society. He has expressed concerns about the departures from X-A-I from the founding team and the potential dangers of attempting to pause AI development. Harwitz believes that AI is the best chance we have at stopping the high number of deaths on Earth daily and that whoever is building the AI has a lot of control about how society is going to work.",
-        "His views on AI's societal impact and its potential to address global issues make him a notable figure in discussions about the future of technology and its implications for humanity."
-      ],
-      "sections": [
-        {
-          "heading": "AI's Societal Impact",
-          "body": "Ben Harwitz discusses the societal impact of AI on the 'Moonshots with Peter Diamandis' podcast, expressing concerns about the departures from X-A-I from the founding team and the potential dangers of attempting to pause AI development."
-        },
-        {
-          "heading": "AI and Global Issues",
-          "body": "Harwitz believes that AI is the best chance we have at stopping the high number of deaths on Earth daily and that whoever is building the AI has a lot of control about how society is going to work."
-        },
-        {
-          "heading": "AI Development",
-          "body": "Harwitz has expressed concerns about the departures from X-A-I from the founding team and the potential dangers of attempting to pause AI development, highlighting the importance of continued progress in AI technology."
-        }
-      ]
-    },
-    "net_worth": "$3.50B"
   }
 ]
 };

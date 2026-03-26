@@ -1,5 +1,22 @@
 [
   {
+    "id": 106,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Cybersecurity and National Security in the Telecommunications Sector",
+    "episode_date": "2026-03-26",
+    "summary": "This episode of the a16z Show discusses the infiltration of major US telecommunications carriers by Chinese hackers, known as Operation Salt Typhoon, which compromised the X1 interface and gave China access to lawful intercept systems, live phone calls, and communications of senior government officials. The podcast highlights the importance of building secure networks on top of compromised physical infrastructure and the role of the Navy in testing new technologies. The discussion also touches on the challenges of cybersecurity in the telecommunications industry and the need for increased collaboration between the public and private sectors for national security and economic prosperity.",
+    "key_takeaways": [
+      "China infiltrated major US telecommunications carriers, compromising the X1 interface and gaining access to lawful intercept systems.",
+      "The infiltration was not a one-time breach but a result of an industry-wide failure in cybersecurity.",
+      "A former Green Beret and Palantir executive started building a secure self-network to operate on compromised physical infrastructure.",
+      "The Navy was an early partner in testing this technology on Guam before the scale of the threat was fully understood.",
+      "The discussion emphasizes the need for increased collaboration between the public and private sectors for national security and economic prosperity.",
+      "The podcast highlights the importance of speaking the same language and connecting the dots for better national security and economic outcomes."
+    ],
+    "investment_thesis": "Investing in cybersecurity solutions that can secure networks on top of compromised physical infrastructure is crucial for national security and economic prosperity.",
+    "key_tickers": null
+  },
+  {
     "id": 103,
     "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "episode_title": "Exploring Psychedelics for Longevity and Personal Growth",

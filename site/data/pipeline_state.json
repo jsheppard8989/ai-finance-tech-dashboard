@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-03-26T10:42:21.797736",
-  "last_updated": "2026-03-26T10:42:21.797736",
-  "last_pipeline_run": "2026-03-26T10:42:21.797736",
+  "generated_at": "2026-03-26T11:18:06.193130",
+  "last_updated": "2026-03-26T11:18:06.193130",
+  "last_pipeline_run": "2026-03-26T11:18:06.193130",
   "main_page": {
     "overton": 8,
     "insights": 8,
@@ -9,20 +9,20 @@
   },
   "counts": {
     "ticker_mentions": 140,
-    "podcast_episodes": 80,
+    "podcast_episodes": 81,
     "newsletters": 7,
     "daily_scores": 78,
     "overton_terms_total": 16,
-    "latest_insights_total": 96,
+    "latest_insights_total": 97,
     "today_mentions": {},
-    "podcasts_analyzed": 3
+    "podcasts_analyzed": 4
   },
   "step_results": {
     "downloaded": 5,
     "transcribed": 5,
     "analyzed": 5,
-    "insight_created": 0,
-    "published": 1,
+    "insight_created": 1,
+    "published": 2,
     "total": 8
   },
   "episodes": [
@@ -107,21 +107,18 @@
     {
       "id": "d895626e-79f5-47dc-9655-ac3085860003",
       "podcast": "The a16z Show",
-      "title": "Real-time Crime Prevention and the Future of Policing",
+      "title": "Cybersecurity and National Security in the Telecommunications Sector",
       "published": "2026-03-26",
       "rss_guid": "d895626e-79f5-47dc-9655-ac3085860003",
       "stages": {
         "downloaded": true,
         "transcribed": true,
         "analyzed": true,
-        "insight_created": false,
-        "published": false
+        "insight_created": true,
+        "published": true
       },
-      "stage_reasons": {
-        "insight_created": "No latest_insights row for this episode (insight step not reflected in DB yet).",
-        "published": "added_to_site=0 (export/publish step not reflected in DB yet)."
-      },
-      "status": "needs_insight"
+      "stage_reasons": {},
+      "status": "complete"
     },
     {
       "id": "1e92a9dd-78da-4417-b1ce-4b4318d1f8c4",
@@ -192,13 +189,6 @@
       "podcast": "Moonshots with Peter Diamandis",
       "title": "Elon's $5 Trillion Bet, the End of Human Drivers, and Chamath's Market Warning | EP #242",
       "published": "Thu, 26 Mar 2026 14:00:00 -0000",
-      "published_date": "2026-03-26",
-      "rss_guid": ""
-    },
-    {
-      "podcast": "The a16z Show",
-      "title": "Security, Resilience, and the Future of Mobile Infrastructure",
-      "published": "Thu, 26 Mar 2026 15:28:55 +0000",
       "published_date": "2026-03-26",
       "rss_guid": ""
     },

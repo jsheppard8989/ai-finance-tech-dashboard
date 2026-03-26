@@ -1,5 +1,118 @@
 [
   {
+    "id": 118,
+    "name": "Justin Finnelli",
+    "slug": "justin-finnelli",
+    "bio": "Justin Finnelli is the Chief Technology Officer (CTO) of the U.S. Navy, tasked with identifying technological needs and gaps, and connecting with innovators to bring about improvements or breakthroughs. His work is pivotal in signal to noise detection and catalyzing innovation within the Navy.",
+    "known_for": "His role in enhancing the Navy's technological capabilities and his insights into cybersecurity threats, particularly regarding telecommunications infiltration.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Informative and solution-oriented",
+    "voice_style": "Focuses on the importance of innovation and collaboration",
+    "voice_delivery_notes": "Speaks with a clear emphasis on the necessity of addressing cybersecurity threats",
+    "voice_profile_updated_at": "2026-03-26 16:16:20",
+    "last_seen": "2026-03-26 16:16:20",
+    "last_episode_title": "Cybersecurity and National Security in the Telecommunications Sector",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-03-26",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investing in cybersecurity solutions that can secure networks on top of compromised physical infrastructure is crucial for national security and economic prosperity.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-26T11:16:44.078788",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Justin Finnelli",
+      "fetched_at": "2026-03-26T16:16:44.078427+00:00",
+      "cliff_notes": "Justin Finnelli serves as the Chief Technology Officer of the U.S. Navy, where he is responsible for recognizing the technological requirements and shortcomings of the Navy's operations. His role involves liaising with innovators to address these gaps, thereby enhancing the Navy's technological edge. Finnelli's expertise extends to cybersecurity, where he has been vocal about the threats posed by foreign infiltration of telecommunications infrastructure, as evidenced by his discussions on the 'Salt Typhoon' incident. His work is crucial in ensuring the Navy's technological readiness and in safeguarding national security interests in the digital age.",
+      "derived": {
+        "current_role": "CTO of the Navy"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Justin Finnelli serves as the Chief Technology Officer of the U.S. Navy, where he is responsible for recognizing the technological requirements and shortcomings of the Navy's operations. His role involves liaising with innovators to address these gaps, thereby enhancing the Navy's technological edge. Finnelli's expertise extends to cybersecurity, where he has been vocal about the threats posed by foreign infiltration of telecommunications infrastructure, as evidenced by his discussions on the 'Salt Typhoon' incident.",
+        "His work is crucial in ensuring the Navy's technological readiness and in safeguarding national security interests in the digital age."
+      ],
+      "sections": [
+        {
+          "heading": "Naval Technology",
+          "body": "Justin Finnelli plays a critical role in identifying and bridging technological gaps within the U.S. Navy, ensuring that the force remains at the forefront of modern military capabilities."
+        },
+        {
+          "heading": "Cybersecurity",
+          "body": "Finnelli has been instrumental in raising awareness about the infiltration of major U.S. telecommunications carriers by foreign entities, emphasizing the importance of cybersecurity in national defense."
+        },
+        {
+          "heading": "Innovation Catalyst",
+          "body": "As CTO, Finnelli connects with innovators to bring about technological improvements and breakthroughs, which are vital for the advancement of the Navy's operational capabilities."
+        }
+      ]
+    }
+  },
+  {
+    "id": 119,
+    "name": "John Doyle",
+    "slug": "john-doyle",
+    "bio": "John Doyle is the Founder and CEO of a company focused on developing secure networks that operate on compromised physical infrastructure. His work is pivotal in addressing cybersecurity threats and ensuring secure communication in the digital age.",
+    "known_for": "Creating secure networks that can operate on compromised physical infrastructure, crucial in the face of increasing cybersecurity threats.",
+    "net_worth_usd": 27500000.0,
+    "net_worth_source": "https://www.quiverquant.com/insiders/1580963/John-Q-Doyle",
+    "net_worth_updated_at": "2026-03-26T11:16:53.602329",
+    "voice_tone": "Confident and solution-focused",
+    "voice_style": "Discusses the practical applications of secure network technology",
+    "voice_delivery_notes": "Speaks with conviction about the importance of secure networks in the telecommunications sector",
+    "voice_profile_updated_at": "2026-03-26 16:16:20",
+    "last_seen": "2026-03-26 16:16:20",
+    "last_episode_title": "Cybersecurity and National Security in the Telecommunications Sector",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-03-26",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investing in cybersecurity solutions that can secure networks on top of compromised physical infrastructure is crucial for national security and economic prosperity.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-26T11:16:52.472386",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "John Doyle",
+      "fetched_at": "2026-03-26T16:16:52.472220+00:00",
+      "cliff_notes": "John Doyle is recognized for his work in cybersecurity, particularly in creating secure networks that can operate securely on top of compromised physical infrastructure. As the CEO of his own company, he has been at the forefront of developing solutions to protect against cyber threats. His insights into the vulnerabilities of major telecommunications carriers, as highlighted in his Davos appearance, underscore the importance of his work. Doyle's contributions to the field are significant, as they address the fundamental security of digital communications, which is critical in an era where personal and business data is increasingly targeted by cybercriminals.",
+      "derived": {
+        "current_role": "Founder and CEO of a secure network company"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "John Doyle is recognized for his work in cybersecurity, particularly in creating secure networks that can operate securely on top of compromised physical infrastructure. As the CEO of his own company, he has been at the forefront of developing solutions to protect against cyber threats. His insights into the vulnerabilities of major telecommunications carriers, as highlighted in his Davos appearance, underscore the importance of his work.",
+        "Doyle's contributions to the field are significant, as they address the fundamental security of digital communications, which is critical in an era where personal and business data is increasingly targeted by cybercriminals."
+      ],
+      "sections": [
+        {
+          "heading": "Secure Networks",
+          "body": "John Doyle is known for his innovative approach to creating secure networks that can operate even when the underlying physical infrastructure is compromised."
+        },
+        {
+          "heading": "Cybersecurity Threats",
+          "body": "His work is vital in the face of increasing cybersecurity threats, particularly those posed by state-sponsored actors like China, as evidenced by the Salt Typhoon incident."
+        },
+        {
+          "heading": "Communications Infrastructure",
+          "body": "Doyle's expertise lies in securing telecommunications infrastructure, a critical component of modern society where much of life and business is conducted through digital means."
+        }
+      ]
+    },
+    "net_worth": "$27.5M"
+  },
+  {
     "id": 117,
     "name": "Liz Ann Saunders",
     "slug": "liz-ann-saunders",
@@ -1052,118 +1165,5 @@
       ]
     },
     "net_worth": "$19.00B"
-  },
-  {
-    "id": 89,
-    "name": "Andrew 'Boz' Bosworth",
-    "slug": "andrew-boz-bosworth",
-    "bio": "Andrew 'Boz' Bosworth is a prominent figure in the tech industry, known for his work at Meta, where he has spent nearly two decades shaping consumer interaction. As the company's CTO, he has been instrumental in the development of smart glasses and AR headsets, pushing the boundaries of consumer technology.",
-    "known_for": "His influential role in shaping Meta's technology strategy and the development of smart glasses and AR headsets.",
-    "net_worth_usd": 46000000.0,
-    "net_worth_source": "https://www.gurufocus.com/insider/170430/andrew-bosworth",
-    "net_worth_updated_at": "2026-03-19T22:17:08.863199",
-    "voice_tone": "Confident and visionary.",
-    "voice_style": "Boz presents a future-oriented perspective with a focus on the transformative potential of AI and AR.",
-    "voice_delivery_notes": "Pacing is steady with emphasis on the importance of AI and the shift towards intent-driven computing.",
-    "voice_profile_updated_at": "2026-03-20 03:09:39",
-    "last_seen": "2026-03-20 03:09:39",
-    "last_episode_title": "The Future of Consumer Technology and the Post-Mobile Phone Era",
-    "last_podcast_name": "a16z Live",
-    "last_episode_date": "2026-02-15",
-    "mention_score": 1,
-    "mention_score_decayed": 0.87,
-    "last_main_idea": "Invest in companies that are at the forefront of developing AI-enabled, immersive technologies that can redefine consumer interactions beyond the current app-centric model.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-19T22:17:07.326933",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Andrew 'Boz' Bosworth",
-      "fetched_at": "2026-03-20T03:17:07.326714+00:00",
-      "cliff_notes": "Andrew 'Boz' Bosworth has been with Meta (formerly Facebook) for nearly two decades, starting as a software engineer and rising through the ranks to become the company's CTO. His tenure has seen him play a pivotal role in the evolution of consumer interaction, from the Facebook News Feed to the development of smart glasses and AR headsets. Bosworth's work has been central to Meta's technological advancements, particularly in the realms of AI and hardware. His vision for a post-phone world, where AI-enabled technology creates more immersive and adaptive computing experiences, has positioned him as a key influencer in the tech industry's future.",
-      "derived": {
-        "current_role": "CTO at Meta",
-        "former_positions": "Director of Engineering at Facebook; Manager of Facebook's News Feed team",
-        "education": "Bachelor's degree in Computer Science from Harvard University"
-      },
-      "infobox": {
-        "Born": "Unknown",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Andrew 'Boz' Bosworth has been with Meta (formerly Facebook) for nearly two decades, starting as a software engineer and rising through the ranks to become the company's CTO. His tenure has seen him play a pivotal role in the evolution of consumer interaction, from the Facebook News Feed to the development of smart glasses and AR headsets.",
-        "Bosworth's work has been central to Meta's technological advancements, particularly in the realms of AI and hardware. His vision for a post-phone world, where AI-enabled technology creates more immersive and adaptive computing experiences, has positioned him as a key influencer in the tech industry's future."
-      ],
-      "sections": [
-        {
-          "heading": "Meta's Technology Strategy",
-          "body": "Bosworth has been a driving force behind Meta's technology strategy, focusing on the development of smart glasses and AR headsets that aim to redefine consumer interaction."
-        },
-        {
-          "heading": "AI and Hardware Breakthroughs",
-          "body": "His work emphasizes the potential of AI and hardware breakthroughs to revolutionize the tech landscape, moving towards a more agentic, adaptive, and immersive computing experience."
-        },
-        {
-          "heading": "Post-Phone World Vision",
-          "body": "Bosworth envisions a future where the app-centric world of smartphones is replaced by a new computing paradigm, one that is more integrated and intuitive, potentially led by AI advancements."
-        }
-      ]
-    },
-    "net_worth": "$46.0M"
-  },
-  {
-    "id": 88,
-    "name": "Ben Harwitz",
-    "slug": "ben-harwitz",
-    "bio": "Ben Harwitz is a guest on the 'Moonshots with Peter Diamandis' podcast, where he discusses the societal impact of AI. He has expressed concerns about the departures from X-A-I from the founding team and the potential dangers of attempting to pause AI development.",
-    "known_for": "His insights on AI's societal impact and the potential for AI to address global issues.",
-    "net_worth_usd": 3500000000.0,
-    "net_worth_source": "https://finty.com/us/net-worth/ben-horowitz/",
-    "net_worth_updated_at": "2026-03-19T22:17:59.756579",
-    "voice_tone": "Cautiously optimistic",
-    "voice_style": "Analytical with a focus on positive outcomes",
-    "voice_delivery_notes": "Speaks with measured pace, emphasizing key points about AI's potential",
-    "voice_profile_updated_at": "2026-03-20 03:07:23",
-    "last_seen": "2026-03-20 03:07:23",
-    "last_episode_title": null,
-    "last_podcast_name": null,
-    "last_episode_date": null,
-    "mention_score": 1,
-    "mention_score_decayed": 0.87,
-    "last_main_idea": null,
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-19T22:17:58.321307",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Ben Harwitz",
-      "fetched_at": "2026-03-20T03:17:58.321048+00:00",
-      "cliff_notes": "Ben Harwitz is a commentator and guest on the 'Moonshots with Peter Diamandis' podcast, where he shares his thoughts on the impact of artificial intelligence on society. He has expressed concerns about the departures from X-A-I from the founding team and the potential dangers of attempting to pause AI development. Harwitz believes that AI is the best chance we have at stopping the high number of deaths on Earth daily and that whoever is building the AI has a lot of control about how society is going to work. His views on AI's societal impact and its potential to address global issues make him a notable figure in discussions about the future of technology and its implications for humanity.",
-      "derived": {},
-      "infobox": {
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Ben Harwitz is a commentator and guest on the 'Moonshots with Peter Diamandis' podcast, where he shares his thoughts on the impact of artificial intelligence on society. He has expressed concerns about the departures from X-A-I from the founding team and the potential dangers of attempting to pause AI development. Harwitz believes that AI is the best chance we have at stopping the high number of deaths on Earth daily and that whoever is building the AI has a lot of control about how society is going to work.",
-        "His views on AI's societal impact and its potential to address global issues make him a notable figure in discussions about the future of technology and its implications for humanity."
-      ],
-      "sections": [
-        {
-          "heading": "AI's Societal Impact",
-          "body": "Ben Harwitz discusses the societal impact of AI on the 'Moonshots with Peter Diamandis' podcast, expressing concerns about the departures from X-A-I from the founding team and the potential dangers of attempting to pause AI development."
-        },
-        {
-          "heading": "AI and Global Issues",
-          "body": "Harwitz believes that AI is the best chance we have at stopping the high number of deaths on Earth daily and that whoever is building the AI has a lot of control about how society is going to work."
-        },
-        {
-          "heading": "AI Development",
-          "body": "Harwitz has expressed concerns about the departures from X-A-I from the founding team and the potential dangers of attempting to pause AI development, highlighting the importance of continued progress in AI technology."
-        }
-      ]
-    },
-    "net_worth": "$3.50B"
   }
 ]
