@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-26T08:22:30.032569",
+  "last_updated": "2026-03-26T08:57:08.107317",
   "episodes": {
     "moonshots_with_peter_diamandis_nvidia's_$1_trillion_predictio": {
       "info": {
@@ -39,7 +39,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-26T08:22:29.968718",
+      "first_seen": "2026-03-26T08:57:08.048218",
       "status": "needs_analysis"
     },
     "moonshots_with_peter_diamandis_meta_buys_moltbook,_gpt_5.4,_a": {
@@ -80,51 +80,8 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-26T08:22:29.984686",
+      "first_seen": "2026-03-26T08:57:08.063588",
       "status": "blocked_analysis"
-    },
-    "monetary_matters_with_jack_farley_headline_indices_are_masking_m": {
-      "info": {
-        "podcast": "Monetary Matters with Jack Farley",
-        "title": "Headline Indices Are Masking Market Stress | Liz Ann Sonders on the Case For Quality Stocks During An Oil Shock",
-        "published": "2026-03-25",
-        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/EWWMN1801736447.mp3",
-        "keywords": [],
-        "rss_guid": "2375f8e4-2855-11f1-b38f-d7b1dc26b39f"
-      },
-      "stages": {
-        "downloaded": {
-          "complete": true,
-          "timestamp": null,
-          "reason": null
-        },
-        "transcribed": {
-          "complete": true,
-          "file": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/EWWMN1801736447.txt",
-          "timestamp": null,
-          "reason": null
-        },
-        "analyzed": {
-          "complete": true,
-          "episode_id": 105,
-          "timestamp": null,
-          "reason": null
-        },
-        "insight_created": {
-          "complete": true,
-          "insight_id": 26,
-          "insight_title": "Milton Berg: Rare Signal \u2014 Local Bottom or Major Top Ahead",
-          "timestamp": null,
-          "reason": null
-        },
-        "published": {
-          "complete": false,
-          "timestamp": null,
-          "reason": "Not in data.js yet (run export and push to site)."
-        }
-      },
-      "first_seen": "2026-03-26T08:22:29.992231",
-      "status": "needs_export"
     },
     "monetary_matters_with_jack_farley_stock_market_on_shaky_foundati": {
       "info": {
@@ -164,7 +121,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-26T08:22:29.997551",
+      "first_seen": "2026-03-26T08:57:08.070941",
       "status": "blocked_analysis"
     },
     "the_a16z_show_ai_just_gave_you_superpowers_\u2014": {
@@ -205,7 +162,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-26T08:22:30.008413",
+      "first_seen": "2026-03-26T08:57:08.083024",
       "status": "blocked_analysis"
     },
     "the_a16z_show_chris_dixon:_from_quant_tradin": {
@@ -246,7 +203,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-26T08:22:30.015613",
+      "first_seen": "2026-03-26T08:57:08.090158",
       "status": "blocked_analysis"
     },
     "dwarkesh_podcast_why_leonardo_was_a_saboteur,_g": {
@@ -287,7 +244,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-26T08:22:30.027550",
+      "first_seen": "2026-03-26T08:57:08.102080",
       "status": "blocked_analysis"
     }
   }

@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-03-26T08:17:07.860457",
-  "total_feed_episodes": 7,
-  "approved_for_transcription": 7,
+  "timestamp": "2026-03-26T08:53:00.827336",
+  "total_feed_episodes": 6,
+  "approved_for_transcription": 6,
   "episodes": [
     {
       "podcast": "Moonshots with Peter Diamandis",
@@ -28,19 +28,6 @@
       "matched_keywords": [],
       "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/moonshots_with_peter_diamandis_meta_buys_moltbook__gpt_5_4__and_fruitfly_brain_upload___moo_609f0b8d.mp3",
       "filename": "moonshots_with_peter_diamandis_meta_buys_moltbook__gpt_5_4__and_fruitfly_brain_upload___moo_609f0b8d.mp3"
-    },
-    {
-      "podcast": "Monetary Matters with Jack Farley",
-      "title": "Headline Indices Are Masking Market Stress | Liz Ann Sonders on the Case For Quality Stocks During An Oil Shock",
-      "description": "\n        <p>This episode is brought to you by the Pictet AI Enhanced International Equity ETF ($PQNT):\u00a0</p>\n<p><a href=\"https://etf.am.pictet.com/pqnt/?utm_campaign=usetf&amp;cid=2715538577&amp;utm_source=jfmv&amp;utm_content=pqnt&amp;utm_medium=podcast_02&amp;utm_term=noterm\"><u>https://etf.am.pictet.com/pqnt/?utm_campaign=usetf&amp;cid=2715538577&amp;utm_source=jfmv&amp;utm_content=pqnt&amp;utm_medium=podcast_02&amp;utm_term=noterm</u></a></p>\n<p><br></p>\n<p>In this episode of Monetary Matters",
-      "audio_url": "https://traffic.megaphone.fm/EWWMN1801736447.mp3",
-      "published": "Wed, 25 Mar 2026 14:36:00 -0000",
-      "published_date": "2026-03-25",
-      "rss_guid": "2375f8e4-2855-11f1-b38f-d7b1dc26b39f",
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/EWWMN1801736447.mp3",
-      "filename": "EWWMN1801736447.mp3",
-      "status": "APPROVED",
-      "matched_keywords": []
     },
     {
       "podcast": "Monetary Matters with Jack Farley",

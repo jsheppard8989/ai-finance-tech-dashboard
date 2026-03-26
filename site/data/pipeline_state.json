@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-03-26T08:22:29.966845",
-  "last_updated": "2026-03-26T08:22:29.966845",
-  "last_pipeline_run": "2026-03-26T08:22:29.966845",
+  "generated_at": "2026-03-26T08:57:08.046395",
+  "last_updated": "2026-03-26T08:57:08.046395",
+  "last_pipeline_run": "2026-03-26T08:57:08.046395",
   "main_page": {
     "overton": 8,
     "insights": 8,
@@ -18,12 +18,12 @@
     "podcasts_analyzed": 3
   },
   "step_results": {
-    "downloaded": 4,
-    "transcribed": 4,
-    "analyzed": 4,
-    "insight_created": 1,
-    "published": 2,
-    "total": 7
+    "downloaded": 3,
+    "transcribed": 3,
+    "analyzed": 3,
+    "insight_created": 0,
+    "published": 1,
+    "total": 6
   },
   "episodes": [
     {
@@ -62,22 +62,6 @@
         "insight_created": "No latest_insights row for this episode (insight step not reflected in DB yet)."
       },
       "status": "needs_insight"
-    },
-    {
-      "id": "2375f8e4-2855-11f1-b38f-d7b1dc26b39f",
-      "podcast": "Monetary Matters with Jack Farley",
-      "title": "Monetary Matters: Analyzing Market Stress and the Impact of Oil Prices",
-      "published": "2026-03-25",
-      "rss_guid": "2375f8e4-2855-11f1-b38f-d7b1dc26b39f",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "status": "complete"
     },
     {
       "id": "e3ce0ba4-22dd-11f1-b3e1-ef93882cc84d",
