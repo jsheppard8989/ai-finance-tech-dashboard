@@ -3,8 +3,8 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-03-26T19:15:49.440990",
-  chartsVersion: "2026-03-26T19:15:46.738627",
+  generatedAt: "2026-03-26T19:50:22.034901",
+  chartsVersion: "2026-03-26T19:50:18.856753",
   tickerScores: [
   {
     "ticker": "GOOGL",
@@ -9970,7 +9970,7 @@ const dashboardData = {
 ],
   podcastGuests: [
   {
-    "id": 981,
+    "id": 995,
     "name": "When the Music Stops",
     "slug": "when-the-music-stops",
     "bio": null,
@@ -9982,7 +9982,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 982,
+    "id": 996,
     "name": "Ground Infrastructure",
     "slug": "ground-infrastructure",
     "bio": null,
@@ -9994,7 +9994,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 983,
+    "id": 997,
     "name": "Rory Johnston",
     "slug": "rory-johnston",
     "bio": null,
@@ -10006,7 +10006,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 984,
+    "id": 998,
     "name": "Senator John Fetterman on Voting Rights",
     "slug": "senator-john-fetterman-on-voting-rights",
     "bio": null,
@@ -10018,7 +10018,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 985,
+    "id": 999,
     "name": "Elon Musk on Moonshots",
     "slug": "elon-musk-on-moonshots",
     "bio": null,
@@ -10030,7 +10030,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 986,
+    "id": 1000,
     "name": "Investing in Capitalism",
     "slug": "investing-in-capitalism",
     "bio": null,
@@ -10042,7 +10042,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 987,
+    "id": 1001,
     "name": "Harvard Professor Graham Allison",
     "slug": "harvard-professor-graham-allison",
     "bio": null,
@@ -10054,7 +10054,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 988,
+    "id": 1002,
     "name": "Andrew Yang",
     "slug": "andrew-yang",
     "bio": "Andrew Yang is an entrepreneur and political leader who popularized universal basic income in U.S. politics through his 2020 presidential campaign.",
@@ -10066,7 +10066,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 989,
+    "id": 1003,
     "name": "Ray Dalio",
     "slug": "ray-dalio",
     "bio": "Ray Dalio is the founder of Bridgewater Associates and a macro investor known for his 'Principles' framework and work on long-term debt cycles.",
@@ -10078,7 +10078,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 990,
+    "id": 1004,
     "name": "Nobel Prize-winning economist Paul Krugman",
     "slug": "nobel-prize-winning-economist-paul-krugman",
     "bio": null,
@@ -10090,7 +10090,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 991,
+    "id": 1005,
     "name": "host Jack Mallers",
     "slug": "host-jack-mallers",
     "bio": null,
@@ -10102,7 +10102,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 992,
+    "id": 1006,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -10114,7 +10114,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 993,
+    "id": 1007,
     "name": "Bosworth",
     "slug": "bosworth",
     "bio": null,
@@ -10126,7 +10126,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 994,
+    "id": 1008,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",

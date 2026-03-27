@@ -1,5 +1,5 @@
 {
-  "last_run_iso": "2026-03-26T18:41:37.110278",
+  "last_run_iso": "2026-03-26T19:15:50.960844",
   "step_results": {
     "transcripts_analyzed": 0,
     "newsletters_imported": 0,
@@ -14,9 +14,7 @@
     "daily_scores": 80,
     "overton_terms_total": 16,
     "latest_insights_total": 98,
-    "today_mentions": {
-      "podcast": 2
-    }
+    "today_mentions": {}
   },
   "errors": []
 }
