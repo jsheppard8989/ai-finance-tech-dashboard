@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-03-26T23:58:38.389171",
-  "last_updated": "2026-03-26T23:58:38.389171",
-  "last_pipeline_run": "2026-03-26T23:58:38.389171",
+  "generated_at": "2026-03-27T00:32:51.474680",
+  "last_updated": "2026-03-27T00:32:51.474680",
+  "last_pipeline_run": "2026-03-27T00:32:51.474680",
   "main_page": {
     "overton": 8,
     "insights": 8,
@@ -15,7 +15,7 @@
     "overton_terms_total": 16,
     "latest_insights_total": 98,
     "today_mentions": {},
-    "podcasts_analyzed": 5
+    "podcasts_analyzed": 0
   },
   "step_results": {
     "downloaded": 4,
@@ -219,7 +219,7 @@
       "title": "Moonshots Podcast Episode #231 - OpenAI Acquires OpenClaw, 400x Cost Collapse, & Why India Wins the Talent War",
       "status": "needs_insight",
       "published": "2026-03-21",
-      "age_days": 5,
+      "age_days": 6,
       "next_blocker": "insight_created"
     },
     {
@@ -228,7 +228,7 @@
       "title": "Meta Buys Moltbook GPT 5.4 and Fruitfly Brain Upload",
       "status": "needs_insight",
       "published": "2026-03-17",
-      "age_days": 9,
+      "age_days": 10,
       "next_blocker": "insight_created"
     },
     {
@@ -237,7 +237,7 @@
       "title": "Stock Market on Shaky Foundations | Blind Squirrel Macro\u2019s Rupert Mitchell on IPO Supply, Oil, and Private Credit",
       "status": "needs_download",
       "published": "2026-03-18",
-      "age_days": 8,
+      "age_days": 9,
       "next_blocker": "downloaded"
     },
     {
@@ -246,7 +246,7 @@
       "title": "AI Startups and the Future of Technology",
       "status": "needs_insight",
       "published": "2026-03-19",
-      "age_days": 7,
+      "age_days": 8,
       "next_blocker": "insight_created"
     },
     {
@@ -255,7 +255,7 @@
       "title": "Chris Dixon: From Quant Trading to Building a16z Crypto",
       "status": "needs_download",
       "published": "2026-03-02",
-      "age_days": 24,
+      "age_days": 25,
       "next_blocker": "downloaded"
     },
     {
@@ -264,7 +264,7 @@
       "title": "Why Leonardo was a saboteur, Gutenberg went broke, and Florence was weird \u2013 Ada Palmer",
       "status": "needs_download",
       "published": "2026-03-06",
-      "age_days": 20,
+      "age_days": 21,
       "next_blocker": "downloaded"
     }
   ],
