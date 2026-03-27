@@ -1,66 +1,66 @@
 {
   "EWWMN2965097612": {
-    "last_failed_at": "2026-03-27T02:47:33.038622",
+    "last_failed_at": "2026-03-27T03:22:25.355174",
     "reason_code": "analysis_error",
     "reason_detail": "UnboundLocalError: local variable 'sidecar_has_date' referenced before assignment"
   },
   "EWWMN9153105374": {
-    "last_failed_at": "2026-03-27T02:47:47.331041",
+    "last_failed_at": "2026-03-27T03:22:38.361824",
     "reason_code": "analysis_error",
     "reason_detail": "UnboundLocalError: local variable 'sidecar_has_date' referenced before assignment"
   },
   "dwarkesh_podcast_why_leonardo_was_a_saboteur__gutenberg_went_broke__and_flore_d121fb5b": {
-    "last_failed_at": "2026-03-27T02:48:00.356569",
+    "last_failed_at": "2026-03-27T03:22:52.175141",
     "reason_code": "analysis_error",
     "reason_detail": "UnboundLocalError: local variable 'sidecar_has_date' referenced before assignment"
   },
   "the_a16z_show_20260319_1e92a9dd_78da_4417_b1ce_4b4318d1": {
-    "last_failed_at": "2026-03-27T02:48:16.437183",
+    "last_failed_at": "2026-03-27T03:23:04.660618",
     "reason_code": "analysis_error",
     "reason_detail": "UnboundLocalError: local variable 'sidecar_has_date' referenced before assignment"
   },
   "ALLIN-INTV_Jensen_V2_Ch": {
-    "last_failed_at": "2026-03-27T02:48:31.490499",
+    "last_failed_at": "2026-03-27T03:23:19.615109",
     "reason_code": "analysis_error",
     "reason_detail": "UnboundLocalError: local variable 'sidecar_has_date' referenced before assignment"
   },
   "MacroVoices-2026-03-19-Simon-White": {
-    "last_failed_at": "2026-03-27T02:48:54.325179",
+    "last_failed_at": "2026-03-27T03:23:42.860351",
     "reason_code": "analysis_error",
     "reason_detail": "UnboundLocalError: local variable 'sidecar_has_date' referenced before assignment"
   },
   "the_a16z_show_ai_just_gave_you_superpowers___now_what__ccf57061": {
-    "last_failed_at": "2026-03-27T02:49:08.251691",
+    "last_failed_at": "2026-03-27T03:23:56.578788",
     "reason_code": "analysis_error",
     "reason_detail": "UnboundLocalError: local variable 'sidecar_has_date' referenced before assignment"
   },
   "DVVTS5786783285": {
-    "last_failed_at": "2026-03-27T02:49:26.378781",
+    "last_failed_at": "2026-03-27T03:24:11.938577",
     "reason_code": "analysis_error",
     "reason_detail": "UnboundLocalError: local variable 'sidecar_has_date' referenced before assignment"
   },
   "moonshots_with_peter_diamandis_meta_buys_moltbook__gpt_5_4__and_fruitfly_brain_upload___moo_609f0b8d": {
-    "last_failed_at": "2026-03-27T02:49:47.081137",
+    "last_failed_at": "2026-03-27T03:24:39.180722",
     "reason_code": "analysis_error",
     "reason_detail": "UnboundLocalError: local variable 'sidecar_has_date' referenced before assignment"
   },
   "monetary_matters_with_jack_farley_stock_market_on_shaky_foundations___blind_squirrel_macro_s_r_12c3cce4": {
-    "last_failed_at": "2026-03-27T02:50:07.852530",
+    "last_failed_at": "2026-03-27T03:25:03.667459",
     "reason_code": "analysis_error",
     "reason_detail": "UnboundLocalError: local variable 'sidecar_has_date' referenced before assignment"
   },
   "the_a16z_show_chris_dixon__from_quant_trading_to_building_a16z_crypto_be2e5b4b": {
-    "last_failed_at": "2026-03-27T02:50:21.059170",
+    "last_failed_at": "2026-03-27T03:25:20.651909",
     "reason_code": "analysis_error",
     "reason_detail": "UnboundLocalError: local variable 'sidecar_has_date' referenced before assignment"
   },
   "all_in_with_chamath__jason__sacks___frie_jensen_huang_live__nvidia_s_future__physical_ai__rise_of_the_03b9c382": {
-    "last_failed_at": "2026-03-27T02:50:36.319909",
+    "last_failed_at": "2026-03-27T03:25:38.163797",
     "reason_code": "analysis_error",
     "reason_detail": "UnboundLocalError: local variable 'sidecar_has_date' referenced before assignment"
   },
   "https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-18%2Fdff54dee-2ba4-02bd-9c43-d935696550da": {
-    "last_failed_at": "2026-03-27T02:50:51.578428",
+    "last_failed_at": "2026-03-27T03:25:52.499915",
     "reason_code": "analysis_error",
     "reason_detail": "UnboundLocalError: local variable 'sidecar_has_date' referenced before assignment"
   }
