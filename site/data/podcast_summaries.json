@@ -1,5 +1,44 @@
 [
   {
+    "id": 109,
+    "podcast_name": "Monetary Matters with Jack Farley",
+    "episode_title": "Investing in Sovereign Credit with Lupin Ramon",
+    "episode_date": "2026-03-27",
+    "summary": "In this episode of Monetary Matters with Jack Farley, independent sovereign debt specialist Lupin Ramon discusses the nuances of investing in sovereign credit compared to corporate debt. They explore the unique risks associated with sovereign debt, including the willingness and ability of governments to repay, and the impact of geopolitical events on emerging market economies. Ramon also shares insights on the differences between investing in hard currency bonds and local currency bonds, and the implications of rising energy prices on various countries.",
+    "key_takeaways": [
+      "Sovereign debt investing involves a complex interplay of economics, political economics, geopolitics, and financial markets.",
+      "Investors in sovereign debt must consider both the ability and willingness of governments to repay, which can be influenced by a multitude of qualitative factors.",
+      "FX currency risk is a significant consideration in sovereign debt, particularly for emerging markets issuing in a currency that's not their local currency.",
+      "The impact of geopolitical events, such as potential Middle East conflicts and sustained high oil prices, can significantly affect emerging market economies.",
+      "Energy exporters may fare better than importers in the face of rising energy prices, with the latter facing potential stagflationary shocks.",
+      "Active management is crucial in emerging markets due to the diverse risks and countries within the asset class."
+    ],
+    "investment_thesis": "Sovereign credit investing requires a deep understanding of the unique risks and dynamics of lending to governments, which can offer significant returns but also carries substantial risks, particularly in the current geopolitical climate.",
+    "key_tickers": [
+      "HFGM"
+    ]
+  },
+  {
+    "id": 108,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Lessons from SpaceX and Tesla: Building for the Physical Economy",
+    "episode_date": "2026-03-27",
+    "summary": "This episode of the a16z Show features a conversation with Chandler Lujica, CEO of Galladine, and Turner Caldwell, CEO of Mariana Minerals, both alumni of SpaceX and Tesla respectively. They discuss the lessons they learned from their time at these companies and how they're applying those lessons to their current ventures in missile propulsion and critical mineral supply chains. The discussion covers the importance of setting aggressive targets, preventing data silos, and the value of having a strong technical foundation when starting a company.",
+    "key_takeaways": [
+      "The companies that define an era produce founders, not just products.",
+      "Preventing data silos and fostering communication is crucial for scaling.",
+      "Vertical integration is not an ideology but a survival question for some companies.",
+      "The gap between mythology and method is where useful knowledge lies.",
+      "Having a strong technical foundation is key before venturing into company building.",
+      "Exceptional teams build with a clear intention and question every requirement."
+    ],
+    "investment_thesis": "Investing in companies that apply lessons from SpaceX and Tesla can lead to innovation in the physical economy, focusing on scalability, communication, and technical expertise.",
+    "key_tickers": [
+      "TSLA",
+      "SPCE"
+    ]
+  },
+  {
     "id": 107,
     "podcast_name": "Macro Voices",
     "episode_title": "Macro Voices Episode 525: Multi-Polar World Order, Iran Conflict, and Inflation Outlook",

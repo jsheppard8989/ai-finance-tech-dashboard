@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-27T22:06:43.544352",
+  "last_updated": "2026-03-28T04:08:28.543199",
   "episodes": {
     "moonshots_with_peter_diamandis_elon's_$5_trillion_bet,_the_en": {
       "info": {
@@ -39,7 +39,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-27T22:06:43.384253",
+      "first_seen": "2026-03-28T04:08:28.405196",
       "status": "needs_analysis"
     },
     "moonshots_with_peter_diamandis_nvidia's_$1_trillion_predictio": {
@@ -80,7 +80,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-27T22:06:43.427031",
+      "first_seen": "2026-03-28T04:08:28.455039",
       "status": "needs_analysis"
     },
     "moonshots_with_peter_diamandis_meta_buys_moltbook,_gpt_5.4,_a": {
@@ -121,7 +121,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-27T22:06:43.438499",
+      "first_seen": "2026-03-28T04:08:28.469454",
       "status": "blocked_analysis"
     },
     "monetary_matters_with_jack_farley_how_the_iran_war_reshapes_the_": {
@@ -129,7 +129,7 @@
         "podcast": "Monetary Matters with Jack Farley",
         "title": "How the Iran War Reshapes the Sovereign Debt Landscape | Sovereign Debt Expert Lupin Rahman",
         "published": "2026-03-27",
-        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/monetary_matters_with_jack_farley_how_the_iran_war_reshapes_the_sovereign_debt_landscape___sov_80c7b80d.mp3",
+        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/EWWMN1195670071.mp3",
         "keywords": [],
         "rss_guid": "110b8442-29f6-11f1-a6ee-277ab7a5a2ba"
       },
@@ -140,21 +140,23 @@
           "reason": null
         },
         "transcribed": {
-          "complete": false,
-          "file": null,
+          "complete": true,
+          "file": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/EWWMN1195670071.txt",
           "timestamp": null,
-          "reason": "Waiting for fetch/transcribe step"
+          "reason": null
         },
         "analyzed": {
-          "complete": false,
-          "episode_id": null,
+          "complete": true,
+          "episode_id": 109,
           "timestamp": null,
-          "reason": "Waiting for next analyze run (transcript \u2192 DB)."
+          "reason": null
         },
         "insight_created": {
-          "complete": false,
+          "complete": true,
+          "insight_id": 26,
+          "insight_title": "Milton Berg: Rare Signal \u2014 Local Bottom or Major Top Ahead",
           "timestamp": null,
-          "reason": "Depends on analyze step first."
+          "reason": null
         },
         "published": {
           "complete": false,
@@ -162,8 +164,8 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-27T22:06:43.444942",
-      "status": "needs_transcription"
+      "first_seen": "2026-03-28T04:08:28.477508",
+      "status": "needs_export"
     },
     "monetary_matters_with_jack_farley_stock_market_on_shaky_foundati": {
       "info": {
@@ -203,7 +205,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-27T22:06:43.459330",
+      "first_seen": "2026-03-28T04:08:28.484892",
       "status": "blocked_analysis"
     },
     "the_a16z_show_the_spacex_and_tesla_playbook_": {
@@ -222,21 +224,23 @@
           "reason": null
         },
         "transcribed": {
-          "complete": false,
-          "file": null,
+          "complete": true,
+          "file": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/the_a16z_show_20260327_0e782201_44f6_4ff3_99b0_ffc1a86a.txt",
           "timestamp": null,
-          "reason": "Waiting for fetch/transcribe step"
+          "reason": null
         },
         "analyzed": {
-          "complete": false,
-          "episode_id": null,
+          "complete": true,
+          "episode_id": 108,
           "timestamp": null,
-          "reason": "Waiting for next analyze run (transcript \u2192 DB)."
+          "reason": null
         },
         "insight_created": {
-          "complete": false,
+          "complete": true,
+          "insight_id": 50,
+          "insight_title": "The a16z Show: New Media Strategy and Investment Insights",
           "timestamp": null,
-          "reason": "Depends on analyze step first."
+          "reason": null
         },
         "published": {
           "complete": false,
@@ -244,8 +248,8 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-27T22:06:43.473282",
-      "status": "needs_transcription"
+      "first_seen": "2026-03-28T04:08:28.496839",
+      "status": "needs_export"
     },
     "the_a16z_show_ai_just_gave_you_superpowers_\u2014": {
       "info": {
@@ -285,7 +289,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-27T22:06:43.492124",
+      "first_seen": "2026-03-28T04:08:28.504188",
       "status": "blocked_analysis"
     },
     "the_a16z_show_chris_dixon:_from_quant_tradin": {
@@ -326,7 +330,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-27T22:06:43.502982",
+      "first_seen": "2026-03-28T04:08:28.511488",
       "status": "blocked_analysis"
     },
     "all-in_with_chamath,_jason,_sacks_&_friedberg_anthropic's_generational_run,_": {
@@ -334,7 +338,7 @@
         "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
         "title": "Anthropic's Generational Run, OpenAI Panics, AI Moats, Meta Loses Lawsuits",
         "published": "2026-03-27",
-        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/all_in_with_chamath__jason__sacks___frie_anthropic_s_generational_run__openai_panics__ai_moats__meta__028be5c3.mp3",
+        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/ALLIN-E266_Ch.mp3",
         "keywords": [],
         "rss_guid": "4a43da89-9d1a-4b9e-9304-aa9ab4a1ee97"
       },
@@ -345,10 +349,10 @@
           "reason": null
         },
         "transcribed": {
-          "complete": false,
-          "file": null,
+          "complete": true,
+          "file": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/ALLIN-E266_Ch.txt",
           "timestamp": null,
-          "reason": "Waiting for fetch/transcribe step"
+          "reason": null
         },
         "analyzed": {
           "complete": false,
@@ -367,8 +371,8 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-27T22:06:43.517524",
-      "status": "needs_transcription"
+      "first_seen": "2026-03-28T04:08:28.524545",
+      "status": "needs_analysis"
     },
     "dwarkesh_podcast_why_leonardo_was_a_saboteur,_g": {
       "info": {
@@ -408,7 +412,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-27T22:06:43.537308",
+      "first_seen": "2026-03-28T04:08:28.537763",
       "status": "blocked_analysis"
     }
   }

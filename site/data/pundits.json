@@ -1,5 +1,191 @@
 [
   {
+    "id": 125,
+    "name": "Lupin Ramon",
+    "slug": "lupin-ramon",
+    "bio": "Lupin Ramon is an independent sovereign debt specialist with extensive experience in global finance. He has worked at the World Bank, IMF, and most recently as head of sovereign credit at PIMCO. Ramon is also the author of 'The Sovereign Debt Investor: An Essential Guide to Returns, Defaults, and Government Bond Investing'.",
+    "known_for": "His expertise in sovereign debt and his influential book on the subject.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Informed and analytical.",
+    "voice_style": "Factual and educational, providing detailed explanations of complex concepts.",
+    "voice_delivery_notes": "Clear and measured pace with emphasis on key points.",
+    "voice_profile_updated_at": "2026-03-28 09:04:34",
+    "last_seen": "2026-03-28 09:04:34",
+    "last_episode_title": "Investing in Sovereign Credit with Lupin Ramon",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-03-27",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Sovereign credit investing requires a deep understanding of the unique risks and dynamics of lending to governments, which can offer significant returns but also carries substantial risks, particularly in the current geopolitical climate.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-28T04:06:45.925345",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Lupin Ramon",
+      "fetched_at": "2026-03-28T09:06:45.924969+00:00",
+      "cliff_notes": "Lupin Ramon has had a distinguished career in global finance, starting as an economist at the World Bank and the International Monetary Fund. His expertise in sovereign debt grew as he took on the role of head of sovereign credit at PIMCO, one of the world's leading investment management firms. Ramon's insights into the complexities of sovereign debt investing have been widely recognized, leading him to author 'The Sovereign Debt Investor', a comprehensive guide that has become a valuable resource for investors. His work bridges the gap between academic understanding and practical investment strategies, making him a sought-after voice in the field of global macroeconomics.",
+      "derived": {
+        "current_role": "Independent sovereign debt specialist",
+        "former_positions": "Economist at the World Bank; Economist at the International Monetary Fund; Head of Sovereign Credit at PIMCO",
+        "books_or_works": "The Sovereign Debt Investor: An Essential Guide to Returns, Defaults, and Government Bond Investing"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Lupin Ramon has had a distinguished career in global finance, starting as an economist at the World Bank and the International Monetary Fund. His expertise in sovereign debt grew as he took on the role of head of sovereign credit at PIMCO, one of the world's leading investment management firms. Ramon's insights into the complexities of sovereign debt investing have been widely recognized, leading him to author 'The Sovereign Debt Investor', a comprehensive guide that has become a valuable resource for investors.",
+        "His work bridges the gap between academic understanding and practical investment strategies, making him a sought-after voice in the field of global macroeconomics."
+      ],
+      "sections": [
+        {
+          "heading": "Sovereign Debt",
+          "body": "Lupin Ramon has deep knowledge in sovereign debt, having worked at the World Bank and IMF, and later leading sovereign credit at PIMCO."
+        },
+        {
+          "heading": "Global Finance",
+          "body": "His career has been dedicated to understanding and navigating the intricacies of global finance, with a particular focus on sovereign debt."
+        },
+        {
+          "heading": "Investment Strategy",
+          "body": "Ramon's book provides investors with a guide to understanding returns, defaults, and strategies in government bond investing."
+        },
+        {
+          "heading": "Economic Policy",
+          "body": "His work at international financial institutions has given him a unique perspective on economic policy and its impact on sovereign debt."
+        }
+      ]
+    }
+  },
+  {
+    "id": 123,
+    "name": "Chandler Lujica",
+    "slug": "chandler-lujica",
+    "bio": "Chandler Lujica is the CEO of Galladine, a next-generation missile propulsion company. With a background in propulsion engineering, Lujica has interned at SpaceX four times and spent a decade at Tesla, contributing to the development of battery technology.",
+    "known_for": "Being the CEO of Galladine and a former lead propulsion engineer on Starship at SpaceX.",
+    "net_worth_usd": 160000.0,
+    "net_worth_source": "https://www.quora.com/What-is-the-salary-of-a-SpaceX-engineer",
+    "net_worth_updated_at": "2026-03-28T04:06:59.917845",
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-03-28 09:04:18",
+    "last_episode_title": "Lessons from SpaceX and Tesla: Building for the Physical Economy",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-03-27",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investing in companies that apply lessons from SpaceX and Tesla can lead to innovation in the physical economy, focusing on scalability, communication, and technical expertise.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-28T04:06:58.025543",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Chandler Lujica",
+      "fetched_at": "2026-03-28T09:06:58.025367+00:00",
+      "cliff_notes": "Chandler Lujica is a seasoned engineer with a focus on propulsion systems. He began his career with multiple internships at SpaceX, where he eventually became a lead propulsion engineer on the Starship project. After gaining invaluable experience in space propulsion, Lujica moved to Tesla, where he spent a decade working on battery technology. His expertise in propulsion and energy systems led him to found Galladine, a company that specializes in next-generation missile propulsion. Lujica's work at both SpaceX and Tesla has been instrumental in shaping the future of space exploration and sustainable energy, and his current role at Galladine continues to push the boundaries of propulsion technology.",
+      "derived": {
+        "current_role": "CEO of Galladine",
+        "former_positions": "Lead propulsion engineer on Starship at SpaceX; various roles at Tesla"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Chandler Lujica is a seasoned engineer with a focus on propulsion systems. He began his career with multiple internships at SpaceX, where he eventually became a lead propulsion engineer on the Starship project. After gaining invaluable experience in space propulsion, Lujica moved to Tesla, where he spent a decade working on battery technology.",
+        "His expertise in propulsion and energy systems led him to found Galladine, a company that specializes in next-generation missile propulsion. Lujica's work at both SpaceX and Tesla has been instrumental in shaping the future of space exploration and sustainable energy, and his current role at Galladine continues to push the boundaries of propulsion technology."
+      ],
+      "sections": [
+        {
+          "heading": "SpaceX Internships",
+          "body": "Chandler Lujica interned at SpaceX four times, gaining extensive experience in propulsion engineering and contributing to the development of the Starship project."
+        },
+        {
+          "heading": "Tesla Tenure",
+          "body": "Lujica spent a decade at Tesla, where he was involved in the development and management of battery technology, a critical component of electric vehicles and renewable energy storage."
+        },
+        {
+          "heading": "Galladine Founding",
+          "body": "Drawing from his experience at SpaceX and Tesla, Lujica founded Galladine to focus on next-generation missile propulsion systems, aiming to innovate in the defense and aerospace industries."
+        },
+        {
+          "heading": "Innovation in Propulsion",
+          "body": "Lujica's work has consistently been at the forefront of propulsion technology, from space exploration with SpaceX to electric vehicle advancements at Tesla, and now missile propulsion at Galladine."
+        }
+      ]
+    },
+    "net_worth": "$160,000"
+  },
+  {
+    "id": 124,
+    "name": "Turner Caldwell",
+    "slug": "turner-caldwell",
+    "bio": "Turner Caldwell is the CEO of Mariana Minerals, a company focused on critical mineral supply chains. With a background in battery minerals and metals at Tesla, Caldwell has extensive experience in the energy sector. He has also interned at SpaceX multiple times, contributing to his expertise in the field.",
+    "known_for": "Leading critical mineral supply chains and his experience in battery minerals and metals at Tesla.",
+    "net_worth_usd": 10000000000.0,
+    "net_worth_source": "https://americanbatterytechnology.com/how-a-network-of-ex-tesla-employees-created-10-billion-worth-of-u-s-clean-energy-investments/",
+    "net_worth_updated_at": "2026-03-28T04:07:10.977752",
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-03-28 09:04:18",
+    "last_episode_title": "Lessons from SpaceX and Tesla: Building for the Physical Economy",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-03-27",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investing in companies that apply lessons from SpaceX and Tesla can lead to innovation in the physical economy, focusing on scalability, communication, and technical expertise.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-28T04:07:10.077867",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Turner Caldwell",
+      "fetched_at": "2026-03-28T09:07:10.077689+00:00",
+      "cliff_notes": "Turner Caldwell is a seasoned professional in the energy sector, with a focus on critical mineral supply chains. He has held a significant role in leading battery minerals and metals at Tesla, contributing to the company's advancements in energy storage technology. Caldwell's career has been marked by his dedication to innovation and sustainability in the energy industry. His tenure at Tesla, along with multiple internships at SpaceX, has provided him with a unique perspective on the intersection of technology and energy. As the CEO of Mariana Minerals, Caldwell continues to drive the industry forward, focusing on the critical minerals that power the clean energy transition.",
+      "derived": {
+        "current_role": "CEO of Mariana Minerals",
+        "former_positions": "Led battery minerals and metals at Tesla; Intern at SpaceX"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Turner Caldwell is a seasoned professional in the energy sector, with a focus on critical mineral supply chains. He has held a significant role in leading battery minerals and metals at Tesla, contributing to the company's advancements in energy storage technology. Caldwell's career has been marked by his dedication to innovation and sustainability in the energy industry.",
+        "His tenure at Tesla, along with multiple internships at SpaceX, has provided him with a unique perspective on the intersection of technology and energy. As the CEO of Mariana Minerals, Caldwell continues to drive the industry forward, focusing on the critical minerals that power the clean energy transition."
+      ],
+      "sections": [
+        {
+          "heading": "Energy Sector Experience",
+          "body": "Turner Caldwell has extensive experience in the energy sector, particularly in battery minerals and metals, which are crucial for the development of sustainable energy solutions."
+        },
+        {
+          "heading": "Tesla Tenure",
+          "body": "At Tesla, Caldwell played a key role in managing the supply chain of battery minerals and metals, which are essential components in electric vehicle and energy storage technologies."
+        },
+        {
+          "heading": "SpaceX Internships",
+          "body": "Caldwell interned at SpaceX multiple times, gaining valuable insights into the space and technology industries that have informed his approach to leadership and innovation."
+        },
+        {
+          "heading": "Leadership at Mariana Minerals",
+          "body": "As the CEO of Mariana Minerals, Caldwell is at the forefront of ensuring the supply of critical minerals necessary for the clean energy transition and the development of next-generation technologies."
+        }
+      ]
+    },
+    "net_worth": "$10.00B"
+  },
+  {
     "id": 121,
     "name": "Lynn Alden",
     "slug": "lynn-alden",
@@ -597,7 +783,7 @@
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-03-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Invest in AI and robotics sectors as they are poised for significant growth and disruption, with a focus on companies that align with human values and contribute to abundance.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-25T04:11:26.668471",
@@ -989,180 +1175,5 @@
       ]
     },
     "net_worth": "$3.0M"
-  },
-  {
-    "id": 97,
-    "name": "Simon White",
-    "slug": "simon-white",
-    "bio": "Simon White is a Bloomberg Macro strategist known for his expertise in macroeconomic trends and market analysis. He is a featured guest on the Macrovoisers podcast, discussing topics such as secular inflation and its implications for the financial markets.",
-    "known_for": "His insights into macroeconomic trends and their impact on financial markets.",
-    "net_worth_usd": 112000000.0,
-    "net_worth_source": "https://www.gurufocus.com/insider/44/william-s-simon",
-    "net_worth_updated_at": "2026-03-20T22:08:35.505085",
-    "voice_tone": "Analytical and cautious",
-    "voice_style": "Factual and data-driven",
-    "voice_delivery_notes": "Paced with emphasis on economic data points",
-    "voice_profile_updated_at": "2026-03-20 09:28:08",
-    "last_seen": "2026-03-20 09:28:08",
-    "last_episode_title": "Macro Voices: The Iran Conflict's Impact on Inflation and Energy Markets",
-    "last_podcast_name": "Macro Voices",
-    "last_episode_date": "2026-03-19",
-    "mention_score": 1,
-    "mention_score_decayed": 0.85,
-    "last_main_idea": "The ongoing Iran conflict may lead to a secular inflation cycle, with oil prices being a key catalyst. Investors should monitor shifts in commodities, credit, and the yield curve for potential macroeconomic impacts.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-20T04:35:48.845381",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Simon White",
-      "fetched_at": "2026-03-20T09:35:48.845223+00:00",
-      "cliff_notes": "Simon White is recognized for his deep understanding of macroeconomic trends and their influence on global financial markets. As a Bloomberg Macro strategist, he provides critical analysis and forecasts that help investors navigate market volatility. His expertise is sought after in professional finance circles, particularly among high-net-worth individuals, family offices, and sophisticated investors. White's contributions to the Macrovoisers podcast further highlight his thought leadership in the field, where he discusses pressing issues such as secular inflation and its potential effects on economic outlooks.",
-      "derived": {
-        "current_role": "Bloomberg Macro strategist"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Simon White is recognized for his deep understanding of macroeconomic trends and their influence on global financial markets. As a Bloomberg Macro strategist, he provides critical analysis and forecasts that help investors navigate market volatility. His expertise is sought after in professional finance circles, particularly among high-net-worth individuals, family offices, and sophisticated investors.",
-        "White's contributions to the Macrovoisers podcast further highlight his thought leadership in the field, where he discusses pressing issues such as secular inflation and its potential effects on economic outlooks."
-      ],
-      "sections": [
-        {
-          "heading": "Market Analysis",
-          "body": "Simon White is known for his detailed market analysis, providing insights into how macroeconomic trends can affect investment strategies."
-        },
-        {
-          "heading": "Secular Inflation",
-          "body": "In his discussions, White often addresses secular inflation, explaining its potential impact on long-term economic growth and market performance."
-        },
-        {
-          "heading": "Financial Market Trends",
-          "body": "White's expertise extends to identifying and interpreting trends within the financial markets, offering valuable perspectives to investors."
-        }
-      ]
-    },
-    "net_worth": "$112.0M"
-  },
-  {
-    "id": 98,
-    "name": "Rory Johnston",
-    "slug": "rory-johnston",
-    "bio": "Rory Johnston is the founder of Commodity Context, a firm specializing in energy market analysis. He is recognized for his expertise in commodities and macroeconomics, and his insights are sought after by investors and financial professionals.",
-    "known_for": "His deep understanding of energy markets and their impact on global macroeconomic trends.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Informed and assertive",
-    "voice_style": "Direct and focused on energy market dynamics",
-    "voice_delivery_notes": "Confident with a clear emphasis on market implications",
-    "voice_profile_updated_at": "2026-03-20 09:28:08",
-    "last_seen": "2026-03-20 09:28:08",
-    "last_episode_title": "Macro Voices: The Iran Conflict's Impact on Inflation and Energy Markets",
-    "last_podcast_name": "Macro Voices",
-    "last_episode_date": "2026-03-19",
-    "mention_score": 2,
-    "mention_score_decayed": 1.7,
-    "last_main_idea": "The ongoing Iran conflict may lead to a secular inflation cycle, with oil prices being a key catalyst. Investors should monitor shifts in commodities, credit, and the yield curve for potential macroeconomic impacts.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-20T04:36:30.218908",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Rory Johnston",
-      "fetched_at": "2026-03-20T09:36:30.218739+00:00",
-      "cliff_notes": "Rory Johnston is a prominent figure in the field of energy market analysis, having founded Commodity Context, a company dedicated to providing in-depth analysis of commodity markets. His work is particularly relevant to investors and financial professionals who need to understand the intricacies of energy markets and their broader implications on the global economy. Johnston's expertise extends to commodities and macroeconomics, making him a valuable resource for those navigating the complexities of financial markets. His insights are regularly featured in discussions and analyses that aim to predict market trends and inform investment strategies.",
-      "derived": {
-        "current_role": "Founder, Commodity Context"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Rory Johnston is a prominent figure in the field of energy market analysis, having founded Commodity Context, a company dedicated to providing in-depth analysis of commodity markets. His work is particularly relevant to investors and financial professionals who need to understand the intricacies of energy markets and their broader implications on the global economy.",
-        "Johnston's expertise extends to commodities and macroeconomics, making him a valuable resource for those navigating the complexities of financial markets. His insights are regularly featured in discussions and analyses that aim to predict market trends and inform investment strategies."
-      ],
-      "sections": [
-        {
-          "heading": "Energy Market Analysis",
-          "body": "Rory Johnston is well-known for his detailed analysis of energy markets, providing investors with critical insights into market dynamics and trends."
-        },
-        {
-          "heading": "Macroeconomic Trends",
-          "body": "Johnston's work often intersects with macroeconomic trends, offering a unique perspective on how energy markets influence and are influenced by broader economic factors."
-        },
-        {
-          "heading": "Investment Strategy",
-          "body": "His expertise is highly valued by investors looking to make informed decisions in a volatile market, particularly in the context of commodities and energy."
-        }
-      ]
-    }
-  },
-  {
-    "id": 96,
-    "name": "Jensen Huang",
-    "slug": "jensen-huang",
-    "bio": "Jensen Huang is the co-founder and CEO of NVIDIA, a leading technology company in the field of AI and GPU technology. Under his leadership, NVIDIA has become a powerhouse in AI computing, transforming the way industries approach technology and innovation.",
-    "known_for": "Driving NVIDIA's transformation into an AI computing powerhouse.",
-    "net_worth_usd": 151000000000.0,
-    "net_worth_source": "https://www.wikidata.org/wiki/Q305177",
-    "net_worth_updated_at": "2026-03-20T04:40:55.469936",
-    "voice_tone": "Confident and visionary.",
-    "voice_style": "Factual and future-oriented, with a focus on technological progress.",
-    "voice_delivery_notes": "Paced with emphasis on key technological advancements and market opportunities.",
-    "voice_profile_updated_at": "2026-03-20 09:26:57",
-    "last_seen": "2026-03-20 09:26:57",
-    "last_episode_title": "AI Factory and the Future of Computing",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-03-19",
-    "mention_score": 1,
-    "mention_score_decayed": 0.85,
-    "last_main_idea": "NVIDIA's strategic acquisitions and technological advancements position it as a leader in the AI revolution, offering investors exposure to the growing AI factory industry.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-20T04:40:52.368193",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Jensen Huang",
-      "fetched_at": "2026-03-20T09:40:52.368095+00:00",
-      "cliff_notes": "Jensen Huang co-founded NVIDIA in 1993 with Curtis Priem and Chris Malachowsky. Huang's vision and leadership have been pivotal in NVIDIA's growth and transformation into a dominant player in the AI and GPU technology sector. His focus on innovation and technological advancement has positioned NVIDIA at the forefront of the AI revolution, influencing industries from gaming to data centers and autonomous vehicles. Huang's strategic foresight and commitment to research and development have made NVIDIA a household name in tech and a key player in the future of computing.",
-      "derived": {
-        "current_role": "Co-founder and CEO of NVIDIA",
-        "education": "Stanford University, Master's in Electrical Engineering"
-      },
-      "infobox": {
-        "Born": "1963",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Jensen Huang co-founded NVIDIA in 1993 with Curtis Priem and Chris Malachowsky. Huang's vision and leadership have been pivotal in NVIDIA's growth and transformation into a dominant player in the AI and GPU technology sector. His focus on innovation and technological advancement has positioned NVIDIA at the forefront of the AI revolution, influencing industries from gaming to data centers and autonomous vehicles.",
-        "Huang's strategic foresight and commitment to research and development have made NVIDIA a household name in tech and a key player in the future of computing."
-      ],
-      "sections": [
-        {
-          "heading": "NVIDIA's AI Transformation",
-          "body": "Jensen Huang has been instrumental in steering NVIDIA towards becoming a leader in AI computing, leveraging the company's expertise in GPUs to power AI applications across various industries."
-        },
-        {
-          "heading": "GPU Technology",
-          "body": "NVIDIA's GPUs have become the backbone of modern AI and deep learning, with Huang's leadership ensuring the company stays at the cutting edge of this technology."
-        },
-        {
-          "heading": "Strategic Acquisitions",
-          "body": "Huang's strategic vision includes acquisitions like Grok, which has further expanded NVIDIA's capabilities in AI and data analytics, showcasing his ability to anticipate and capitalize on emerging tech trends."
-        },
-        {
-          "heading": "Innovation and Future Vision",
-          "body": "Jensen Huang is known for his forward-thinking approach, with NVIDIA often introducing new technologies and strategies years in advance, setting the pace for the tech industry."
-        }
-      ]
-    },
-    "net_worth": "$151.00B"
   }
 ]

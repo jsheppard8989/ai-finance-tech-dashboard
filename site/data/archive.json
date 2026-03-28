@@ -1,6 +1,45 @@
 {
   "insights": [
     {
+      "id": 125,
+      "title": "Investing in Sovereign Credit with Lupin Ramon",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-03-27",
+      "summary": "In this episode of Monetary Matters with Jack Farley, independent sovereign debt specialist Lupin Ramon discusses the nuances of investing in sovereign credit compared to corporate debt. They explore the unique risks associated with sovereign debt, including the willingness and ability of governments to repay, and the impact of geopolitical events on emerging market economies. Ramon also shares insights on the differences between investing in hard currency bonds and local currency bonds, and the implications of rising energy prices on various countries.",
+      "key_takeaway": "Sovereign credit investing requires a deep understanding of the unique risks and dynamics of lending to governments, which can offer significant returns but also carries substantial risks, particularly in the current geopolitical climate.",
+      "tickers_mentioned": [
+        "HFGM"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-28",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 109
+    },
+    {
+      "id": 126,
+      "title": "Lessons from SpaceX and Tesla: Building for the Physical Economy",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-03-27",
+      "summary": "This episode of the a16z Show features a conversation with Chandler Lujica, CEO of Galladine, and Turner Caldwell, CEO of Mariana Minerals, both alumni of SpaceX and Tesla respectively. They discuss the lessons they learned from their time at these companies and how they're applying those lessons to their current ventures in missile propulsion and critical mineral supply chains. The discussion covers the importance of setting aggressive targets, preventing data silos, and the value of having a strong technical foundation when starting a company.",
+      "key_takeaway": "Investing in companies that apply lessons from SpaceX and Tesla can lead to innovation in the physical economy, focusing on scalability, communication, and technical expertise.",
+      "tickers_mentioned": [
+        "TSLA",
+        "SPCE"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-28",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 108
+    },
+    {
       "id": 120,
       "title": "Exploring Psychedelics for Longevity and Personal Growth",
       "source_type": "podcast",
@@ -124,11 +163,11 @@
         "TSLA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-24",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-28",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 100
     },
     {
@@ -147,11 +186,11 @@
         "LMT"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-25",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-28",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 102
     },
     {

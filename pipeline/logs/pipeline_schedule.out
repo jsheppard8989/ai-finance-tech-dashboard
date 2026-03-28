@@ -14084,4 +14084,189 @@ Finished: 2026-03-27 22:06:42.202721
 STEP: Generate Charts
 ============================================================
 
-STDERR: 
+STDERR: Traceback (most recent call last):
+  File "/Users/jaredsheppard/.openclaw/workspace/pipeline/generate_charts.py", line 7, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+
+✗ Generate Charts failed
+
+============================================================
+STEP: Auto-Curate Terms
+============================================================
+ansmission efficiency in space....
+
+• True Interest Expense
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: The actual cost of borrowing for the U.S. government, which is currently more than the tax receipts ...
+
+• Deflationary Technology Force
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A technology, like AI, that has the potential to reduce prices by increasing efficiency and producti...
+
+• Recursive Self-Improvement
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: The ability of a system to improve its own design and functionality autonomously....
+
+• AI Race
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: The global competition between nations to lead in AI development and application....
+
+• Tactical Power Layer
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A system designed to provide power to military operations in a way that is both efficient and does n...
+
+• Electronic Battlefield
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A modern battlefield that relies heavily on electronic systems such as drones, sensors, and electron...
+
+• Longevity Experiment
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A systematic approach to exploring interventions, including psychedelics, that may extend healthspan...
+
+• Rejuvenation Protocol
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A therapeutic approach aimed at restoring youthful biological functions and potentially reversing ag...
+
+• Software-Driven Manufacturing
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: The integration of software and technology into traditional manufacturing processes to increase effi...
+
+• Workforce Trading
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: The strategic allocation and training of the workforce to enhance productivity and meet the demands ...
+
+• Rotation and churn
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A market condition where different sectors or stocks experience significant price movements, leading...
+
+• Index rebalancing
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: The process of adjusting the composition of an index to maintain its intended characteristics, which...
+
+• Operation Salt Typhoon
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A cyber-espionage operation by Chinese hackers that infiltrated every major American cellular carrie...
+
+• Self-Network
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A new kind of network designed to operate securely on top of compromised physical infrastructure, pr...
+
+• Multi-Polar World Order
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A geopolitical landscape where multiple nations or blocs have nearly equal influence and power, as o...
+
+• Second-Round Food Inflation
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: Inflation that occurs after an initial round of price increases, often due to supply chain disruptio...
+
+✓ Auto-Curate Terms completed
+
+============================================================
+STEP: Extract Podcast Guests
+============================================================
+============================================================
+Extract Podcast Guests
+============================================================
+Processing 82 processed episodes
+  ✓ When the Music Stops ← The Jack Mallers Show (2026-03-24)
+  ✓ Ground Infrastructure ← The a16z Show (2026-03-23)
+  ✓ Rory Johnston ← Monetary Matters with Jack Farley (2026-03-19)
+  ✓ Senator John Fetterman on Voting Rights ← All-In with Chamath, Jason, Sacks & Friedberg (2026-03-18)
+  ✓ Elon Musk on Moonshots ← Moonshots with Peter Diamandis (2026-03-17)
+  ✓ Investing in Capitalism ← All-In with Chamath, Jason, Sacks & Friedberg (2026-03-13)
+  ✓ Harvard Professor Graham Allison ← All-In with Chamath, Jason, Sacks & Friedberg (2026-03-09)
+  ✓ Andrew Yang ← Moonshots with Peter Diamandis (2026-03-07)
+  ✓ Ray Dalio ← All-In with Chamath, Jason, Sacks & Friedberg (2026-03-03)
+  ✓ Nobel Prize-winning economist Paul Krugman ← Monetary Matters with Jack Farley (2026-02-19)
+  ✓ host Jack Mallers ← The Jack Mallers Show (2026-02-19)
+  ✓ Ben Horowitz ← Moonshots with Peter Diamandis (2026-02-19)
+  ✓ Bosworth ← a16z Live (2026-02-15)
+  ✓ Milton Berg ← Monetary Matters with Jack Farley (2026-02-06)
+
+✓ Done. 14 guest(s) in database.
+
+✓ Extract Podcast Guests completed
+
+============================================================
+STEP: Export Website Data
+============================================================
+============================================================
+Exporting Website Data
+============================================================
+✓ Exported website data to /Users/jaredsheppard/.openclaw/workspace/site/data
+✓ Exported: {'ticker_scores': 48, 'podcast_summaries': 27, 'archive_items': 114, 'podcast_guests': 14, 'pundits': 20}
+🔍 Scanning podcast pipeline...
+
+
+================================================================================
+📊 PODCAST PIPELINE STATUS
+================================================================================
+
+📈 Pipeline Summary (10 total episodes tracked):
+  ✅ Downloaded:      10 / 10
+  ✅ Transcribed:      7 / 10
+  ✅ Analyzed:         0 / 10
+  ✅ Insight Created:  0 / 10
+  ✅ Published:        0 / 10
+
+🔍 Episodes Needing Attention:
+
+  📝 Pending Transcription (3):
+    - How the Iran War Reshapes the Sovereign Debt Lands
+    - The SpaceX and Tesla Playbook for Hard Tech Startu
+    - Anthropic's Generational Run, OpenAI Panics, AI Mo
+
+  🔬 Pending Analysis (7):
+    - Elon's $5 Trillion Bet, the End of Human Drivers, 
+    - NVIDIA's $1 Trillion Prediction, Anthropic Beats O
+    - Meta Buys Moltbook, GPT 5.4, and Fruitfly Brain Up
+    - Stock Market on Shaky Foundations | Blind Squirrel
+    - AI Just Gave You Superpowers — Now What?
+    - Chris Dixon: From Quant Trading to Building a16z C
+    - Why Leonardo was a saboteur, Gutenberg went broke,
+
+✅ Complete Episodes (All Stages):
+    (None yet)
+
+📅 Last Updated: 2026-03-27T22:06:43.544352
+📁 Status file: /Users/jaredsheppard/.openclaw/workspace/pipeline/state/pipeline_status.json
+================================================================================
+  ✓ Exported pipeline_state.json: 10 tracked
+
+============================================================
+Generating Website JavaScript
+============================================================
+✓ Generated data.js with 48 tickers, 114 archive items, 98 deep dives, 4 suggested terms, 14 legacy guests, 20 pundits; chartsVersion=2026-03-27T04:01:41.712722
+✓ Bumped data.js cache-buster to v=1774667205
+
+============================================================
+STEP: Push to GitHub
+============================================================
+✓ Pushed to GitHub: Pipeline update 2026-03-27 22:06: 0 podcasts, 0 insights, 0 newsletters
+Nothing new — skipping notification
+
+============================================================
+PIPELINE COMPLETE
+Finished: 2026-03-27 22:06:47.524456
+============================================================
+📊 Pipeline Complete
+
+
+🌐 Website updated

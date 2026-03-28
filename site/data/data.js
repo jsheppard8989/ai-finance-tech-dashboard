@@ -3,8 +3,8 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-03-27T22:06:45.686226",
-  chartsVersion: "2026-03-27T04:01:41.712722",
+  generatedAt: "2026-03-28T04:08:30.320670",
+  chartsVersion: "2026-03-28T04:08:27.493109",
   tickerScores: [
   {
     "ticker": "GOOGL",
@@ -730,6 +730,45 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 125,
+      "title": "Investing in Sovereign Credit with Lupin Ramon",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-03-27",
+      "summary": "In this episode of Monetary Matters with Jack Farley, independent sovereign debt specialist Lupin Ramon discusses the nuances of investing in sovereign credit compared to corporate debt. They explore the unique risks associated with sovereign debt, including the willingness and ability of governments to repay, and the impact of geopolitical events on emerging market economies. Ramon also shares insights on the differences between investing in hard currency bonds and local currency bonds, and the implications of rising energy prices on various countries.",
+      "key_takeaway": "Sovereign credit investing requires a deep understanding of the unique risks and dynamics of lending to governments, which can offer significant returns but also carries substantial risks, particularly in the current geopolitical climate.",
+      "tickers_mentioned": [
+        "HFGM"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-28",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 109
+    },
+    {
+      "id": 126,
+      "title": "Lessons from SpaceX and Tesla: Building for the Physical Economy",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-03-27",
+      "summary": "This episode of the a16z Show features a conversation with Chandler Lujica, CEO of Galladine, and Turner Caldwell, CEO of Mariana Minerals, both alumni of SpaceX and Tesla respectively. They discuss the lessons they learned from their time at these companies and how they're applying those lessons to their current ventures in missile propulsion and critical mineral supply chains. The discussion covers the importance of setting aggressive targets, preventing data silos, and the value of having a strong technical foundation when starting a company.",
+      "key_takeaway": "Investing in companies that apply lessons from SpaceX and Tesla can lead to innovation in the physical economy, focusing on scalability, communication, and technical expertise.",
+      "tickers_mentioned": [
+        "TSLA",
+        "SPCE"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-28",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 108
+    },
+    {
       "id": 120,
       "title": "Exploring Psychedelics for Longevity and Personal Growth",
       "source_type": "podcast",
@@ -853,11 +892,11 @@ const dashboardData = {
         "TSLA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-24",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-28",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 100
     },
     {
@@ -876,11 +915,11 @@ const dashboardData = {
         "LMT"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-25",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-28",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 102
     },
     {
@@ -3021,6 +3060,51 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 125,
+      "title": "Investing in Sovereign Credit with Lupin Ramon",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-03-27",
+      "summary": "In this episode of Monetary Matters with Jack Farley, independent sovereign debt specialist Lupin Ramon discusses the nuances of investing in sovereign credit compared to corporate debt. They explore the unique risks associated with sovereign debt, including the willingness and ability of governments to repay, and the impact of geopolitical events on emerging market economies. Ramon also shares insights on the differences between investing in hard currency bonds and local currency bonds, and the implications of rising energy prices on various countries.",
+      "key_takeaway": "Sovereign credit investing requires a deep understanding of the unique risks and dynamics of lending to governments, which can offer significant returns but also carries substantial risks, particularly in the current geopolitical climate.",
+      "tickers_mentioned": "[\"HFGM\"]",
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-28",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 109,
+      "episode_release_date": "2026-03-27",
+      "guest_name": "Lupin Ramon",
+      "key_tickers": [
+        "HFGM"
+      ]
+    },
+    {
+      "id": 126,
+      "title": "Lessons from SpaceX and Tesla: Building for the Physical Economy",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-03-27",
+      "summary": "This episode of the a16z Show features a conversation with Chandler Lujica, CEO of Galladine, and Turner Caldwell, CEO of Mariana Minerals, both alumni of SpaceX and Tesla respectively. They discuss the lessons they learned from their time at these companies and how they're applying those lessons to their current ventures in missile propulsion and critical mineral supply chains. The discussion covers the importance of setting aggressive targets, preventing data silos, and the value of having a strong technical foundation when starting a company.",
+      "key_takeaway": "Investing in companies that apply lessons from SpaceX and Tesla can lead to innovation in the physical economy, focusing on scalability, communication, and technical expertise.",
+      "tickers_mentioned": "[\"TSLA\", \"SPCE\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-28",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 108,
+      "episode_release_date": "2026-03-27",
+      "guest_name": null,
+      "key_tickers": [
+        "TSLA",
+        "SPCE"
+      ]
+    },
+    {
       "id": 120,
       "title": "Exploring Psychedelics for Longevity and Personal Growth",
       "source_type": "podcast",
@@ -3126,46 +3210,6 @@ const dashboardData = {
         "PQT",
         "PQUS"
       ]
-    },
-    {
-      "id": 117,
-      "title": "When the Music Stops: Why Bitcoin is Next",
-      "source_type": "podcast",
-      "source_name": "The Jack Mallers Show",
-      "source_date": "2026-03-24",
-      "summary": "In this episode of The Jack Mallers Show, host Jack Mallers discusses Bitcoin, macroeconomics, and culture, focusing on the current geopolitical tensions and their impact on financial markets. He analyzes the U.S. fiscal position, the energy shock from conflicts in the Middle East, and the disruptive potential of AI on the job market. Jack also touches on Bitcoin's performance relative to gold and its potential as a store of value at the sovereign level.",
-      "key_takeaway": "Bitcoin is positioned to potentially act as a hedge against fiscal crises and geopolitical tensions, outperforming traditional assets like gold in times of conflict.",
-      "tickers_mentioned": "[\"AAPL\", \"NVDA\", \"SPY\", \"TSLA\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-03-24",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 100,
-      "episode_release_date": "2026-03-24",
-      "guest_name": "When the Music Stops",
-      "key_tickers": []
-    },
-    {
-      "id": 118,
-      "title": "The Tactical Power Layer for Modern Warfare",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-03-24",
-      "summary": "In this episode of 'The a16z Show', Aaron Price Wright speaks with Adam Warmouth, founder and CEO of Chariot Defense, and Alex Miller, CTO of the US Army, about the growing importance of power systems in modern warfare. They discuss the shift towards an electronic battlefield and the need for a tactical power layer that can support the increasing electronic capabilities of the military without giving away their position or becoming a liability. The conversation covers the inefficiencies of current power solutions and how Chariot Defense is addressing these challenges with innovative power systems that are more intelligent and tactical.",
-      "key_takeaway": "Investing in companies that can provide innovative power solutions for the modern, electronic battlefield can offer significant opportunities as military forces worldwide seek to upgrade their capabilities.",
-      "tickers_mentioned": "[\"AAPL\", \"NVDA\", \"TSLA\", \"BA\", \"LMT\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-03-25",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 102,
-      "episode_release_date": "2026-03-24",
-      "guest_name": null,
-      "key_tickers": []
     },
     {
       "id": 119,
@@ -9916,61 +9960,184 @@ const dashboardData = {
       "US DOLLAR INDEX",
       "WTI"
     ]
+  },
+  "125": {
+    "id": 116,
+    "insight_id": 125,
+    "podcast_episode_id": 109,
+    "overview": "Investing in sovereign credit presents a unique set of challenges and opportunities compared to corporate debt. Sovereign issuers possess significant power, can change regulations, and may not have a well-defined bankruptcy code, which complicates the workout process. This deep dive analysis explores the intricacies of sovereign credit investing, focusing on the interplay of economics, political economics, geopolitics, and financial markets. Given the current geopolitical tensions and economic uncertainties, understanding these dynamics is crucial for investors looking to navigate the complex world of sovereign debt.",
+    "key_takeaways_detailed": [
+      "Sovereign credit investing requires a nuanced understanding of a country's willingness and ability to repay, which goes beyond traditional credit analysis.",
+      "Political and geopolitical risks significantly influence sovereign credit, often beyond a country's control, affecting repayment capabilities.",
+      "Currency risk is a critical factor for emerging markets, especially those issuing in a hard currency, requiring a robust export base or reserve buffer.",
+      "Investors must consider both fundamental value and global macro factors when investing in sovereign debt, as external financing needs can be pressurized during market risk episodes."
+    ],
+    "investment_thesis": "The core investment logic in sovereign credit revolves around identifying countries with strong fundamentals and the ability to repay, while also being cognizant of the geopolitical and macroeconomic factors that can influence repayment. Catalysts for this thesis include changes in global interest rates, geopolitical events, and economic policies that affect a country's creditworthiness. The timeframe for this thesis is medium to long-term, as sovereign credit investments are subject to significant macroeconomic and political influences that can take time to materialize.",
+    "ticker_analysis": {
+      "HFGM": {
+        "rationale": "HFGM is an ETF that focuses on global macro strategies, making it a relevant investment vehicle for those looking to gain exposure to sovereign credit dynamics without directly investing in individual sovereign bonds.",
+        "positioning": "Position HFGM as a strategic long-term investment to benefit from the expertise in global macro trading, especially given its top Morningstar rating.",
+        "risk": "Key risks include underperformance due to incorrect macroeconomic predictions and geopolitical events that negatively impact the fund's holdings."
+      }
+    },
+    "positioning_guidance": "Investors should consider a medium to long-term portfolio positioning in sovereign credit, with a focus on diversification across different credit ratings and regions. Entry points should be considered in the context of global economic cycles and geopolitical events. Investors should also consider hedging strategies to mitigate currency and geopolitical risks.",
+    "risk_factors": [
+      "Unexpected changes in global interest rates could significantly impact sovereign debt valuations.",
+      "Geopolitical conflicts or economic sanctions can suddenly alter a country's creditworthiness.",
+      "Currency fluctuations, especially for emerging markets, can increase repayment risks.",
+      "Domestic political instability or policy changes can affect a country's ability and willingness to repay debt.",
+      "Global economic downturns can exacerbate existing fiscal imbalances, increasing default risks."
+    ],
+    "contrarian_signals": [
+      "Investors may overlook the long-term value of stable, well-managed sovereign debt in favor of higher-yielding but riskier debt.",
+      "There is a potential underestimation of the resilience of certain sovereign economies, especially those with strong fiscal policies and low debt-to-GDP ratios.",
+      "The market may not fully price in the positive impact of global economic recovery on sovereign credit, particularly for countries with strong export-oriented economies."
+    ],
+    "catalysts": [
+      "Upcoming elections in key emerging markets that could lead to policy changes affecting creditworthiness.",
+      "Central bank policy meetings and announcements that can influence global interest rates and currency values.",
+      "Global economic reports and indicators that signal shifts in growth prospects, affecting sovereign debt attractiveness.",
+      "Geopolitical events such as trade agreements or conflicts that can have a direct impact on a country's economic outlook.",
+      "Natural disasters or health crises that can strain a country's fiscal resources and affect its ability to service debt."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-03-28T04:07:31.475716",
+    "updated_at": "2026-03-28 09:07:31",
+    "insight_title": "Investing in Sovereign Credit with Lupin Ramon",
+    "source_name": "Monetary Matters with Jack Farley",
+    "source_date": "2026-03-27",
+    "key_tickers": [
+      "HFGM"
+    ]
+  },
+  "126": {
+    "id": 117,
+    "insight_id": 126,
+    "podcast_episode_id": 108,
+    "overview": "The investment thesis revolves around the impact of SpaceX and Tesla alumni on the physical economy, particularly in sectors like missile propulsion and critical mineral supply chains. These alumni, having been part of companies that redefine eras, are now applying their learnings to new ventures, fostering innovation and efficiency. The current market, driven by technological advancements and the need for sustainable supply chains, presents an opportunity for investors to capitalize on these disruptions. The focus is on companies that can leverage technology to address industry inefficiencies and outdated practices, potentially leading to significant growth and market share gains.",
+    "key_takeaways_detailed": [
+      "Flat organizations and rapid decision-making are critical for innovation and speed in product development.",
+      "Democratizing information flow and collaboration across all levels of an organization can lead to more efficient operations.",
+      "High conviction leadership is essential for absorbing risk and empowering junior engineers to act quickly.",
+      "Leveraging technology from sectors like automotive and robotics can revolutionize traditional industries.",
+      "Investing in companies that apply lessons from SpaceX and Tesla can offer exposure to the next wave of industry disruptors."
+    ],
+    "investment_thesis": "Investing in companies led by SpaceX and Tesla alumni offers a unique opportunity to tap into the next generation of industry disruptors. These leaders bring a culture of innovation, efficiency, and rapid decision-making that can significantly impact traditional sectors. The core investment logic is to identify and invest in companies that are applying these practices to revolutionize industries such as missile propulsion and mineral supply chains. Catalysts for this thesis include technological advancements, increasing demand for sustainable supply chains, and the growing need for rapid innovation in response to global challenges. The timeframe for this thesis is medium to long-term, as these disruptions and their impacts will likely unfold over several years.",
+    "ticker_analysis": {
+      "TSLA": {
+        "rationale": "Tesla's influence on the electric vehicle and energy sectors makes it a key player in the technology and innovation space. Its alumni are driving change in various industries, making TSLA a relevant ticker for this thesis.",
+        "positioning": "Long-term strategic position, as Tesla continues to innovate and its alumni spread its culture of innovation across other sectors.",
+        "risk": "Regulatory changes in the automotive and energy sectors, as well as increased competition, could impact Tesla's growth."
+      },
+      "SPCE": {
+        "rationale": "Virgin Galactic, represented by SPCE, is in the space tourism industry, which is directly influenced by the success and culture of SpaceX. It benefits from the broader interest in space technology and the expertise of SpaceX alumni.",
+        "positioning": "Medium-term tactical position, as the space tourism industry is still emerging and could see significant growth in the coming years.",
+        "risk": "High volatility due to the early stage of the industry and the speculative nature of space tourism investments."
+      }
+    },
+    "positioning_guidance": "Investors should consider a diversified approach, with a mix of long-term strategic positions in established companies like TSLA and medium-term tactical positions in emerging sectors represented by tickers like SPCE. Entry points should be based on market conditions and the specific growth trajectories of the companies. Investors should also consider hedging against sector-specific risks, such as regulatory changes or technological disruptions.",
+    "risk_factors": [
+      "Technological disruptions that could render current business models obsolete.",
+      "Regulatory changes that impact the growth and operations of companies in the space and energy sectors.",
+      "Increased competition from both traditional and new entrants in the market.",
+      "Economic downturns that could affect the demand for innovative products and services.",
+      "Failure to scale operations and maintain the culture of innovation as companies grow."
+    ],
+    "contrarian_signals": [
+      "The belief that traditional industries are too entrenched to be significantly disrupted by new entrants.",
+      "Concerns that the pace of innovation in sectors like space tourism is too slow to generate substantial returns in the short term.",
+      "Skepticism about the ability of companies led by SpaceX and Tesla alumni to replicate the culture of innovation outside of their original environments."
+    ],
+    "catalysts": [
+      "Technological breakthroughs in areas like battery technology and space travel.",
+      "Regulatory approvals for new space tourism flights, which could boost the industry and related investments.",
+      "Successful launches and operations by companies in the missile propulsion and mineral supply chain sectors, demonstrating the effectiveness of new approaches.",
+      "Increased investment and partnerships in sustainable supply chain solutions, driven by environmental concerns and corporate social responsibility.",
+      "Economic indicators showing a recovery or growth, which could increase demand for innovative products and services."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-03-28T04:07:50.161711",
+    "updated_at": "2026-03-28 09:07:50",
+    "insight_title": "Lessons from SpaceX and Tesla: Building for the Physical Economy",
+    "source_name": "The a16z Show",
+    "source_date": "2026-03-27",
+    "key_tickers": [
+      "TSLA",
+      "SPCE"
+    ]
   }
 },
   suggestedTerms: [
   {
-    "id": 104,
-    "term": "Multi-Polar World Order",
-    "definition": "A geopolitical landscape where multiple nations or blocs have nearly equal influence and power, as opposed to a unipolar or bipolar world.",
-    "investment_implications": "Investors should consider the impact of a multi-polar world on global trade, currency valuations, and geopolitical risks.",
+    "id": 108,
+    "term": "Sovereign Credit",
+    "definition": "A type of debt issued by governments, which involves risks related to both the ability and willingness of the government to repay.",
+    "investment_implications": "Investors must consider political, economic, and geopolitical factors when evaluating sovereign credit.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-03-26 19:14:35",
+    "submitted_date": "2026-03-28 09:04:34",
     "priority_score": 80
   },
   {
-    "id": 105,
-    "term": "Second-Round Food Inflation",
-    "definition": "Inflation that occurs after an initial round of price increases, often due to supply chain disruptions or increased costs of production.",
-    "investment_implications": "Investors should monitor the potential for second-round food inflation and its impact on consumer staples and agricultural commodities.",
+    "id": 109,
+    "term": "Hard Currency Bonds",
+    "definition": "Bonds issued by emerging market countries in a currency that is not their local currency, often the US dollar.",
+    "investment_implications": "These bonds can offer exposure to different economies but come with additional FX risk.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-03-26 19:14:35",
+    "submitted_date": "2026-03-28 09:04:34",
     "priority_score": 80
   },
   {
-    "id": 102,
-    "term": "Operation Salt Typhoon",
-    "definition": "A cyber-espionage operation by Chinese hackers that infiltrated every major American cellular carrier, compromising the X1 interface and giving China access to lawful intercept systems.",
-    "investment_implications": "Investors should be aware of the cybersecurity risks in the telecommunications sector and consider investing in companies that offer secure network solutions.",
+    "id": 106,
+    "term": "Physical Economy",
+    "definition": "The part of the economy that deals with tangible goods and services, as opposed to financial or digital services.",
+    "investment_implications": "Investors should look for companies that can leverage physical manufacturing and supply chain innovations.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-03-26 16:16:20",
+    "submitted_date": "2026-03-28 09:04:18",
     "priority_score": 80
   },
   {
-    "id": 103,
-    "term": "Self-Network",
-    "definition": "A new kind of network designed to operate securely on top of compromised physical infrastructure, providing a layer of security against cyber threats.",
-    "investment_implications": "Investors may look for opportunities in companies developing self-network technologies to mitigate the risks of cyber-espionage and protect critical infrastructure.",
+    "id": 107,
+    "term": "Data Silos",
+    "definition": "The practice or situation of different departments or teams within a company not sharing their data with each other.",
+    "investment_implications": "Companies that prevent data silos can scale more effectively and make better data-driven decisions.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-03-26 16:16:20",
+    "submitted_date": "2026-03-28 09:04:18",
     "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 1205,
+    "id": 1219,
+    "name": "Lupin Ramon",
+    "slug": "lupin-ramon",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Sovereign credit investing requires a deep understanding of the unique risks and dynamics of lending to governments, which can offer significant returns but also carries substantial risks, particularly in the current geopolitical climate.",
+    "last_episode_title": "Investing in Sovereign Credit with Lupin Ramon",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-03-27",
+    "appearance_count": 1
+  },
+  {
+    "id": 1220,
     "name": "When the Music Stops",
     "slug": "when-the-music-stops",
     "bio": null,
@@ -9982,7 +10149,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1206,
+    "id": 1221,
     "name": "Ground Infrastructure",
     "slug": "ground-infrastructure",
     "bio": null,
@@ -9994,7 +10161,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1207,
+    "id": 1222,
     "name": "Rory Johnston",
     "slug": "rory-johnston",
     "bio": null,
@@ -10006,7 +10173,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1208,
+    "id": 1223,
     "name": "Senator John Fetterman on Voting Rights",
     "slug": "senator-john-fetterman-on-voting-rights",
     "bio": null,
@@ -10018,7 +10185,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1209,
+    "id": 1224,
     "name": "Elon Musk on Moonshots",
     "slug": "elon-musk-on-moonshots",
     "bio": null,
@@ -10030,7 +10197,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1210,
+    "id": 1225,
     "name": "Investing in Capitalism",
     "slug": "investing-in-capitalism",
     "bio": null,
@@ -10042,7 +10209,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1211,
+    "id": 1226,
     "name": "Harvard Professor Graham Allison",
     "slug": "harvard-professor-graham-allison",
     "bio": null,
@@ -10054,7 +10221,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1212,
+    "id": 1227,
     "name": "Andrew Yang",
     "slug": "andrew-yang",
     "bio": "Andrew Yang is an entrepreneur and political leader who popularized universal basic income in U.S. politics through his 2020 presidential campaign.",
@@ -10066,7 +10233,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1213,
+    "id": 1228,
     "name": "Ray Dalio",
     "slug": "ray-dalio",
     "bio": "Ray Dalio is the founder of Bridgewater Associates and a macro investor known for his 'Principles' framework and work on long-term debt cycles.",
@@ -10078,7 +10245,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1214,
+    "id": 1229,
     "name": "Nobel Prize-winning economist Paul Krugman",
     "slug": "nobel-prize-winning-economist-paul-krugman",
     "bio": null,
@@ -10090,7 +10257,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1215,
+    "id": 1230,
     "name": "host Jack Mallers",
     "slug": "host-jack-mallers",
     "bio": null,
@@ -10102,7 +10269,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1216,
+    "id": 1231,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -10114,7 +10281,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1217,
+    "id": 1232,
     "name": "Bosworth",
     "slug": "bosworth",
     "bio": null,
@@ -10126,7 +10293,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1218,
+    "id": 1233,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -10139,6 +10306,192 @@ const dashboardData = {
   }
 ],
   pundits: [
+  {
+    "id": 125,
+    "name": "Lupin Ramon",
+    "slug": "lupin-ramon",
+    "bio": "Lupin Ramon is an independent sovereign debt specialist with extensive experience in global finance. He has worked at the World Bank, IMF, and most recently as head of sovereign credit at PIMCO. Ramon is also the author of 'The Sovereign Debt Investor: An Essential Guide to Returns, Defaults, and Government Bond Investing'.",
+    "known_for": "His expertise in sovereign debt and his influential book on the subject.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Informed and analytical.",
+    "voice_style": "Factual and educational, providing detailed explanations of complex concepts.",
+    "voice_delivery_notes": "Clear and measured pace with emphasis on key points.",
+    "voice_profile_updated_at": "2026-03-28 09:04:34",
+    "last_seen": "2026-03-28 09:04:34",
+    "last_episode_title": "Investing in Sovereign Credit with Lupin Ramon",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-03-27",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Sovereign credit investing requires a deep understanding of the unique risks and dynamics of lending to governments, which can offer significant returns but also carries substantial risks, particularly in the current geopolitical climate.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-28T04:06:45.925345",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Lupin Ramon",
+      "fetched_at": "2026-03-28T09:06:45.924969+00:00",
+      "cliff_notes": "Lupin Ramon has had a distinguished career in global finance, starting as an economist at the World Bank and the International Monetary Fund. His expertise in sovereign debt grew as he took on the role of head of sovereign credit at PIMCO, one of the world's leading investment management firms. Ramon's insights into the complexities of sovereign debt investing have been widely recognized, leading him to author 'The Sovereign Debt Investor', a comprehensive guide that has become a valuable resource for investors. His work bridges the gap between academic understanding and practical investment strategies, making him a sought-after voice in the field of global macroeconomics.",
+      "derived": {
+        "current_role": "Independent sovereign debt specialist",
+        "former_positions": "Economist at the World Bank; Economist at the International Monetary Fund; Head of Sovereign Credit at PIMCO",
+        "books_or_works": "The Sovereign Debt Investor: An Essential Guide to Returns, Defaults, and Government Bond Investing"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Lupin Ramon has had a distinguished career in global finance, starting as an economist at the World Bank and the International Monetary Fund. His expertise in sovereign debt grew as he took on the role of head of sovereign credit at PIMCO, one of the world's leading investment management firms. Ramon's insights into the complexities of sovereign debt investing have been widely recognized, leading him to author 'The Sovereign Debt Investor', a comprehensive guide that has become a valuable resource for investors.",
+        "His work bridges the gap between academic understanding and practical investment strategies, making him a sought-after voice in the field of global macroeconomics."
+      ],
+      "sections": [
+        {
+          "heading": "Sovereign Debt",
+          "body": "Lupin Ramon has deep knowledge in sovereign debt, having worked at the World Bank and IMF, and later leading sovereign credit at PIMCO."
+        },
+        {
+          "heading": "Global Finance",
+          "body": "His career has been dedicated to understanding and navigating the intricacies of global finance, with a particular focus on sovereign debt."
+        },
+        {
+          "heading": "Investment Strategy",
+          "body": "Ramon's book provides investors with a guide to understanding returns, defaults, and strategies in government bond investing."
+        },
+        {
+          "heading": "Economic Policy",
+          "body": "His work at international financial institutions has given him a unique perspective on economic policy and its impact on sovereign debt."
+        }
+      ]
+    }
+  },
+  {
+    "id": 123,
+    "name": "Chandler Lujica",
+    "slug": "chandler-lujica",
+    "bio": "Chandler Lujica is the CEO of Galladine, a next-generation missile propulsion company. With a background in propulsion engineering, Lujica has interned at SpaceX four times and spent a decade at Tesla, contributing to the development of battery technology.",
+    "known_for": "Being the CEO of Galladine and a former lead propulsion engineer on Starship at SpaceX.",
+    "net_worth_usd": 160000.0,
+    "net_worth_source": "https://www.quora.com/What-is-the-salary-of-a-SpaceX-engineer",
+    "net_worth_updated_at": "2026-03-28T04:06:59.917845",
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-03-28 09:04:18",
+    "last_episode_title": "Lessons from SpaceX and Tesla: Building for the Physical Economy",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-03-27",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investing in companies that apply lessons from SpaceX and Tesla can lead to innovation in the physical economy, focusing on scalability, communication, and technical expertise.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-28T04:06:58.025543",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Chandler Lujica",
+      "fetched_at": "2026-03-28T09:06:58.025367+00:00",
+      "cliff_notes": "Chandler Lujica is a seasoned engineer with a focus on propulsion systems. He began his career with multiple internships at SpaceX, where he eventually became a lead propulsion engineer on the Starship project. After gaining invaluable experience in space propulsion, Lujica moved to Tesla, where he spent a decade working on battery technology. His expertise in propulsion and energy systems led him to found Galladine, a company that specializes in next-generation missile propulsion. Lujica's work at both SpaceX and Tesla has been instrumental in shaping the future of space exploration and sustainable energy, and his current role at Galladine continues to push the boundaries of propulsion technology.",
+      "derived": {
+        "current_role": "CEO of Galladine",
+        "former_positions": "Lead propulsion engineer on Starship at SpaceX; various roles at Tesla"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Chandler Lujica is a seasoned engineer with a focus on propulsion systems. He began his career with multiple internships at SpaceX, where he eventually became a lead propulsion engineer on the Starship project. After gaining invaluable experience in space propulsion, Lujica moved to Tesla, where he spent a decade working on battery technology.",
+        "His expertise in propulsion and energy systems led him to found Galladine, a company that specializes in next-generation missile propulsion. Lujica's work at both SpaceX and Tesla has been instrumental in shaping the future of space exploration and sustainable energy, and his current role at Galladine continues to push the boundaries of propulsion technology."
+      ],
+      "sections": [
+        {
+          "heading": "SpaceX Internships",
+          "body": "Chandler Lujica interned at SpaceX four times, gaining extensive experience in propulsion engineering and contributing to the development of the Starship project."
+        },
+        {
+          "heading": "Tesla Tenure",
+          "body": "Lujica spent a decade at Tesla, where he was involved in the development and management of battery technology, a critical component of electric vehicles and renewable energy storage."
+        },
+        {
+          "heading": "Galladine Founding",
+          "body": "Drawing from his experience at SpaceX and Tesla, Lujica founded Galladine to focus on next-generation missile propulsion systems, aiming to innovate in the defense and aerospace industries."
+        },
+        {
+          "heading": "Innovation in Propulsion",
+          "body": "Lujica's work has consistently been at the forefront of propulsion technology, from space exploration with SpaceX to electric vehicle advancements at Tesla, and now missile propulsion at Galladine."
+        }
+      ]
+    },
+    "net_worth": "$160,000"
+  },
+  {
+    "id": 124,
+    "name": "Turner Caldwell",
+    "slug": "turner-caldwell",
+    "bio": "Turner Caldwell is the CEO of Mariana Minerals, a company focused on critical mineral supply chains. With a background in battery minerals and metals at Tesla, Caldwell has extensive experience in the energy sector. He has also interned at SpaceX multiple times, contributing to his expertise in the field.",
+    "known_for": "Leading critical mineral supply chains and his experience in battery minerals and metals at Tesla.",
+    "net_worth_usd": 10000000000.0,
+    "net_worth_source": "https://americanbatterytechnology.com/how-a-network-of-ex-tesla-employees-created-10-billion-worth-of-u-s-clean-energy-investments/",
+    "net_worth_updated_at": "2026-03-28T04:07:10.977752",
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-03-28 09:04:18",
+    "last_episode_title": "Lessons from SpaceX and Tesla: Building for the Physical Economy",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-03-27",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investing in companies that apply lessons from SpaceX and Tesla can lead to innovation in the physical economy, focusing on scalability, communication, and technical expertise.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-28T04:07:10.077867",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Turner Caldwell",
+      "fetched_at": "2026-03-28T09:07:10.077689+00:00",
+      "cliff_notes": "Turner Caldwell is a seasoned professional in the energy sector, with a focus on critical mineral supply chains. He has held a significant role in leading battery minerals and metals at Tesla, contributing to the company's advancements in energy storage technology. Caldwell's career has been marked by his dedication to innovation and sustainability in the energy industry. His tenure at Tesla, along with multiple internships at SpaceX, has provided him with a unique perspective on the intersection of technology and energy. As the CEO of Mariana Minerals, Caldwell continues to drive the industry forward, focusing on the critical minerals that power the clean energy transition.",
+      "derived": {
+        "current_role": "CEO of Mariana Minerals",
+        "former_positions": "Led battery minerals and metals at Tesla; Intern at SpaceX"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Turner Caldwell is a seasoned professional in the energy sector, with a focus on critical mineral supply chains. He has held a significant role in leading battery minerals and metals at Tesla, contributing to the company's advancements in energy storage technology. Caldwell's career has been marked by his dedication to innovation and sustainability in the energy industry.",
+        "His tenure at Tesla, along with multiple internships at SpaceX, has provided him with a unique perspective on the intersection of technology and energy. As the CEO of Mariana Minerals, Caldwell continues to drive the industry forward, focusing on the critical minerals that power the clean energy transition."
+      ],
+      "sections": [
+        {
+          "heading": "Energy Sector Experience",
+          "body": "Turner Caldwell has extensive experience in the energy sector, particularly in battery minerals and metals, which are crucial for the development of sustainable energy solutions."
+        },
+        {
+          "heading": "Tesla Tenure",
+          "body": "At Tesla, Caldwell played a key role in managing the supply chain of battery minerals and metals, which are essential components in electric vehicle and energy storage technologies."
+        },
+        {
+          "heading": "SpaceX Internships",
+          "body": "Caldwell interned at SpaceX multiple times, gaining valuable insights into the space and technology industries that have informed his approach to leadership and innovation."
+        },
+        {
+          "heading": "Leadership at Mariana Minerals",
+          "body": "As the CEO of Mariana Minerals, Caldwell is at the forefront of ensuring the supply of critical minerals necessary for the clean energy transition and the development of next-generation technologies."
+        }
+      ]
+    },
+    "net_worth": "$10.00B"
+  },
   {
     "id": 121,
     "name": "Lynn Alden",
@@ -10737,7 +11090,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-03-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Invest in AI and robotics sectors as they are poised for significant growth and disruption, with a focus on companies that align with human values and contribute to abundance.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-25T04:11:26.668471",
@@ -11129,181 +11482,6 @@ const dashboardData = {
       ]
     },
     "net_worth": "$3.0M"
-  },
-  {
-    "id": 97,
-    "name": "Simon White",
-    "slug": "simon-white",
-    "bio": "Simon White is a Bloomberg Macro strategist known for his expertise in macroeconomic trends and market analysis. He is a featured guest on the Macrovoisers podcast, discussing topics such as secular inflation and its implications for the financial markets.",
-    "known_for": "His insights into macroeconomic trends and their impact on financial markets.",
-    "net_worth_usd": 112000000.0,
-    "net_worth_source": "https://www.gurufocus.com/insider/44/william-s-simon",
-    "net_worth_updated_at": "2026-03-20T22:08:35.505085",
-    "voice_tone": "Analytical and cautious",
-    "voice_style": "Factual and data-driven",
-    "voice_delivery_notes": "Paced with emphasis on economic data points",
-    "voice_profile_updated_at": "2026-03-20 09:28:08",
-    "last_seen": "2026-03-20 09:28:08",
-    "last_episode_title": "Macro Voices: The Iran Conflict's Impact on Inflation and Energy Markets",
-    "last_podcast_name": "Macro Voices",
-    "last_episode_date": "2026-03-19",
-    "mention_score": 1,
-    "mention_score_decayed": 0.85,
-    "last_main_idea": "The ongoing Iran conflict may lead to a secular inflation cycle, with oil prices being a key catalyst. Investors should monitor shifts in commodities, credit, and the yield curve for potential macroeconomic impacts.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-20T04:35:48.845381",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Simon White",
-      "fetched_at": "2026-03-20T09:35:48.845223+00:00",
-      "cliff_notes": "Simon White is recognized for his deep understanding of macroeconomic trends and their influence on global financial markets. As a Bloomberg Macro strategist, he provides critical analysis and forecasts that help investors navigate market volatility. His expertise is sought after in professional finance circles, particularly among high-net-worth individuals, family offices, and sophisticated investors. White's contributions to the Macrovoisers podcast further highlight his thought leadership in the field, where he discusses pressing issues such as secular inflation and its potential effects on economic outlooks.",
-      "derived": {
-        "current_role": "Bloomberg Macro strategist"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Simon White is recognized for his deep understanding of macroeconomic trends and their influence on global financial markets. As a Bloomberg Macro strategist, he provides critical analysis and forecasts that help investors navigate market volatility. His expertise is sought after in professional finance circles, particularly among high-net-worth individuals, family offices, and sophisticated investors.",
-        "White's contributions to the Macrovoisers podcast further highlight his thought leadership in the field, where he discusses pressing issues such as secular inflation and its potential effects on economic outlooks."
-      ],
-      "sections": [
-        {
-          "heading": "Market Analysis",
-          "body": "Simon White is known for his detailed market analysis, providing insights into how macroeconomic trends can affect investment strategies."
-        },
-        {
-          "heading": "Secular Inflation",
-          "body": "In his discussions, White often addresses secular inflation, explaining its potential impact on long-term economic growth and market performance."
-        },
-        {
-          "heading": "Financial Market Trends",
-          "body": "White's expertise extends to identifying and interpreting trends within the financial markets, offering valuable perspectives to investors."
-        }
-      ]
-    },
-    "net_worth": "$112.0M"
-  },
-  {
-    "id": 98,
-    "name": "Rory Johnston",
-    "slug": "rory-johnston",
-    "bio": "Rory Johnston is the founder of Commodity Context, a firm specializing in energy market analysis. He is recognized for his expertise in commodities and macroeconomics, and his insights are sought after by investors and financial professionals.",
-    "known_for": "His deep understanding of energy markets and their impact on global macroeconomic trends.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Informed and assertive",
-    "voice_style": "Direct and focused on energy market dynamics",
-    "voice_delivery_notes": "Confident with a clear emphasis on market implications",
-    "voice_profile_updated_at": "2026-03-20 09:28:08",
-    "last_seen": "2026-03-20 09:28:08",
-    "last_episode_title": "Macro Voices: The Iran Conflict's Impact on Inflation and Energy Markets",
-    "last_podcast_name": "Macro Voices",
-    "last_episode_date": "2026-03-19",
-    "mention_score": 2,
-    "mention_score_decayed": 1.7,
-    "last_main_idea": "The ongoing Iran conflict may lead to a secular inflation cycle, with oil prices being a key catalyst. Investors should monitor shifts in commodities, credit, and the yield curve for potential macroeconomic impacts.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-20T04:36:30.218908",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Rory Johnston",
-      "fetched_at": "2026-03-20T09:36:30.218739+00:00",
-      "cliff_notes": "Rory Johnston is a prominent figure in the field of energy market analysis, having founded Commodity Context, a company dedicated to providing in-depth analysis of commodity markets. His work is particularly relevant to investors and financial professionals who need to understand the intricacies of energy markets and their broader implications on the global economy. Johnston's expertise extends to commodities and macroeconomics, making him a valuable resource for those navigating the complexities of financial markets. His insights are regularly featured in discussions and analyses that aim to predict market trends and inform investment strategies.",
-      "derived": {
-        "current_role": "Founder, Commodity Context"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Rory Johnston is a prominent figure in the field of energy market analysis, having founded Commodity Context, a company dedicated to providing in-depth analysis of commodity markets. His work is particularly relevant to investors and financial professionals who need to understand the intricacies of energy markets and their broader implications on the global economy.",
-        "Johnston's expertise extends to commodities and macroeconomics, making him a valuable resource for those navigating the complexities of financial markets. His insights are regularly featured in discussions and analyses that aim to predict market trends and inform investment strategies."
-      ],
-      "sections": [
-        {
-          "heading": "Energy Market Analysis",
-          "body": "Rory Johnston is well-known for his detailed analysis of energy markets, providing investors with critical insights into market dynamics and trends."
-        },
-        {
-          "heading": "Macroeconomic Trends",
-          "body": "Johnston's work often intersects with macroeconomic trends, offering a unique perspective on how energy markets influence and are influenced by broader economic factors."
-        },
-        {
-          "heading": "Investment Strategy",
-          "body": "His expertise is highly valued by investors looking to make informed decisions in a volatile market, particularly in the context of commodities and energy."
-        }
-      ]
-    }
-  },
-  {
-    "id": 96,
-    "name": "Jensen Huang",
-    "slug": "jensen-huang",
-    "bio": "Jensen Huang is the co-founder and CEO of NVIDIA, a leading technology company in the field of AI and GPU technology. Under his leadership, NVIDIA has become a powerhouse in AI computing, transforming the way industries approach technology and innovation.",
-    "known_for": "Driving NVIDIA's transformation into an AI computing powerhouse.",
-    "net_worth_usd": 151000000000.0,
-    "net_worth_source": "https://www.wikidata.org/wiki/Q305177",
-    "net_worth_updated_at": "2026-03-20T04:40:55.469936",
-    "voice_tone": "Confident and visionary.",
-    "voice_style": "Factual and future-oriented, with a focus on technological progress.",
-    "voice_delivery_notes": "Paced with emphasis on key technological advancements and market opportunities.",
-    "voice_profile_updated_at": "2026-03-20 09:26:57",
-    "last_seen": "2026-03-20 09:26:57",
-    "last_episode_title": "AI Factory and the Future of Computing",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-03-19",
-    "mention_score": 1,
-    "mention_score_decayed": 0.85,
-    "last_main_idea": "NVIDIA's strategic acquisitions and technological advancements position it as a leader in the AI revolution, offering investors exposure to the growing AI factory industry.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-20T04:40:52.368193",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Jensen Huang",
-      "fetched_at": "2026-03-20T09:40:52.368095+00:00",
-      "cliff_notes": "Jensen Huang co-founded NVIDIA in 1993 with Curtis Priem and Chris Malachowsky. Huang's vision and leadership have been pivotal in NVIDIA's growth and transformation into a dominant player in the AI and GPU technology sector. His focus on innovation and technological advancement has positioned NVIDIA at the forefront of the AI revolution, influencing industries from gaming to data centers and autonomous vehicles. Huang's strategic foresight and commitment to research and development have made NVIDIA a household name in tech and a key player in the future of computing.",
-      "derived": {
-        "current_role": "Co-founder and CEO of NVIDIA",
-        "education": "Stanford University, Master's in Electrical Engineering"
-      },
-      "infobox": {
-        "Born": "1963",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Jensen Huang co-founded NVIDIA in 1993 with Curtis Priem and Chris Malachowsky. Huang's vision and leadership have been pivotal in NVIDIA's growth and transformation into a dominant player in the AI and GPU technology sector. His focus on innovation and technological advancement has positioned NVIDIA at the forefront of the AI revolution, influencing industries from gaming to data centers and autonomous vehicles.",
-        "Huang's strategic foresight and commitment to research and development have made NVIDIA a household name in tech and a key player in the future of computing."
-      ],
-      "sections": [
-        {
-          "heading": "NVIDIA's AI Transformation",
-          "body": "Jensen Huang has been instrumental in steering NVIDIA towards becoming a leader in AI computing, leveraging the company's expertise in GPUs to power AI applications across various industries."
-        },
-        {
-          "heading": "GPU Technology",
-          "body": "NVIDIA's GPUs have become the backbone of modern AI and deep learning, with Huang's leadership ensuring the company stays at the cutting edge of this technology."
-        },
-        {
-          "heading": "Strategic Acquisitions",
-          "body": "Huang's strategic vision includes acquisitions like Grok, which has further expanded NVIDIA's capabilities in AI and data analytics, showcasing his ability to anticipate and capitalize on emerging tech trends."
-        },
-        {
-          "heading": "Innovation and Future Vision",
-          "body": "Jensen Huang is known for his forward-thinking approach, with NVIDIA often introducing new technologies and strategies years in advance, setting the pace for the tech industry."
-        }
-      ]
-    },
-    "net_worth": "$151.00B"
   }
 ]
 };

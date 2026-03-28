@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-03-27T22:06:43.381520",
-  "last_updated": "2026-03-27T22:06:43.381520",
-  "last_pipeline_run": "2026-03-27T22:06:43.381520",
+  "generated_at": "2026-03-28T04:08:28.402097",
+  "last_updated": "2026-03-28T04:08:28.402097",
+  "last_pipeline_run": "2026-03-28T04:08:28.402097",
   "main_page": {
     "overton": 8,
     "insights": 8,
@@ -9,20 +9,20 @@
   },
   "counts": {
     "ticker_mentions": 142,
-    "podcast_episodes": 82,
+    "podcast_episodes": 84,
     "newsletters": 7,
     "daily_scores": 80,
     "overton_terms_total": 16,
-    "latest_insights_total": 98,
+    "latest_insights_total": 100,
     "today_mentions": {},
-    "podcasts_analyzed": 0
+    "podcasts_analyzed": 2
   },
   "step_results": {
-    "downloaded": 5,
-    "transcribed": 5,
-    "analyzed": 5,
-    "insight_created": 0,
-    "published": 2,
+    "downloaded": 7,
+    "transcribed": 7,
+    "analyzed": 7,
+    "insight_created": 3,
+    "published": 4,
     "total": 10
   },
   "episodes": [
@@ -85,24 +85,18 @@
     {
       "id": "110b8442-29f6-11f1-a6ee-277ab7a5a2ba",
       "podcast": "Monetary Matters with Jack Farley",
-      "title": "How the Iran War Reshapes the Sovereign Debt Landscape | Sovereign Debt Expert Lupin Rahman",
+      "title": "Investing in Sovereign Credit with Lupin Ramon",
       "published": "2026-03-27",
       "rss_guid": "110b8442-29f6-11f1-a6ee-277ab7a5a2ba",
       "stages": {
-        "downloaded": false,
-        "transcribed": false,
-        "analyzed": false,
-        "insight_created": false,
-        "published": false
+        "downloaded": true,
+        "transcribed": true,
+        "analyzed": true,
+        "insight_created": true,
+        "published": true
       },
-      "stage_reasons": {
-        "downloaded": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "transcribed": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "analyzed": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "insight_created": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
-      },
-      "status": "needs_download"
+      "stage_reasons": {},
+      "status": "complete"
     },
     {
       "id": "e3ce0ba4-22dd-11f1-b3e1-ef93882cc84d",
@@ -129,20 +123,18 @@
     {
       "id": "0e782201-44f6-4ff3-99b0-ffc1a86a764b",
       "podcast": "The a16z Show",
-      "title": "The Tactical Power Layer for Modern Warfare",
+      "title": "Lessons from SpaceX and Tesla: Building for the Physical Economy",
       "published": "2026-03-27",
       "rss_guid": "0e782201-44f6-4ff3-99b0-ffc1a86a764b",
       "stages": {
         "downloaded": true,
         "transcribed": true,
         "analyzed": true,
-        "insight_created": false,
+        "insight_created": true,
         "published": true
       },
-      "stage_reasons": {
-        "insight_created": "No latest_insights row for this episode (insight step not reflected in DB yet)."
-      },
-      "status": "needs_insight"
+      "stage_reasons": {},
+      "status": "complete"
     },
     {
       "id": "1e92a9dd-78da-4417-b1ce-4b4318d1f8c4",
@@ -166,24 +158,18 @@
     {
       "id": "1a7873e6-52cf-493d-a1a1-360a49324923",
       "podcast": "The a16z Show",
-      "title": "Chris Dixon: From Quant Trading to Building a16z Crypto",
+      "title": "Lessons from SpaceX and Tesla: Building for the Physical Economy",
       "published": "2026-03-02",
       "rss_guid": "1a7873e6-52cf-493d-a1a1-360a49324923",
       "stages": {
-        "downloaded": false,
-        "transcribed": false,
-        "analyzed": false,
-        "insight_created": false,
-        "published": false
+        "downloaded": true,
+        "transcribed": true,
+        "analyzed": true,
+        "insight_created": true,
+        "published": true
       },
-      "stage_reasons": {
-        "downloaded": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "transcribed": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "analyzed": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "insight_created": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
-      },
-      "status": "needs_download"
+      "stage_reasons": {},
+      "status": "complete"
     },
     {
       "id": "4a43da89-9d1a-4b9e-9304-aa9ab4a1ee97",
@@ -231,20 +217,6 @@
     }
   ],
   "available_from_rss": [
-    {
-      "podcast": "Monetary Matters with Jack Farley",
-      "title": "How the Iran War Reshapes the Sovereign Debt Landscape | Sovereign Debt Expert Lupin Rahman",
-      "published": "Fri, 27 Mar 2026 16:00:00 -0000",
-      "published_date": "2026-03-27",
-      "rss_guid": ""
-    },
-    {
-      "podcast": "The a16z Show",
-      "title": "The SpaceX and Tesla Playbook for Hard Tech Startups",
-      "published": "Fri, 27 Mar 2026 10:00:00 +0000",
-      "published_date": "2026-03-27",
-      "rss_guid": ""
-    },
     {
       "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
       "title": "Anthropic's Generational Run, OpenAI Panics, AI Moats, Meta Loses Lawsuits",
@@ -297,12 +269,21 @@
   ],
   "stale_episodes": [
     {
+      "id": "a89282e6-289a-11f1-89d6-ff90d5551e89",
+      "podcast": "Moonshots with Peter Diamandis",
+      "title": "Moonshots with Peter Diamandis: AI, Automation, and the Path to Abundance by 2035",
+      "status": "needs_insight",
+      "published": "2026-03-26",
+      "age_days": 2,
+      "next_blocker": "insight_created"
+    },
+    {
       "id": "b1b247d2-249c-11f1-b4ca-131c5ebeca2c",
       "podcast": "Moonshots with Peter Diamandis",
       "title": "Moonshots Podcast Episode #231 - OpenAI Acquires OpenClaw, 400x Cost Collapse, & Why India Wins the Talent War",
       "status": "needs_insight",
       "published": "2026-03-21",
-      "age_days": 6,
+      "age_days": 7,
       "next_blocker": "insight_created"
     },
     {
@@ -311,7 +292,7 @@
       "title": "Meta Buys Moltbook GPT 5.4 and Fruitfly Brain Upload",
       "status": "needs_insight",
       "published": "2026-03-17",
-      "age_days": 10,
+      "age_days": 11,
       "next_blocker": "insight_created"
     },
     {
@@ -320,7 +301,7 @@
       "title": "Stock Market on Shaky Foundations | Blind Squirrel Macro\u2019s Rupert Mitchell on IPO Supply, Oil, and Private Credit",
       "status": "needs_download",
       "published": "2026-03-18",
-      "age_days": 9,
+      "age_days": 10,
       "next_blocker": "downloaded"
     },
     {
@@ -329,17 +310,8 @@
       "title": "AI Startups and the Future of Technology",
       "status": "needs_insight",
       "published": "2026-03-19",
-      "age_days": 8,
+      "age_days": 9,
       "next_blocker": "insight_created"
-    },
-    {
-      "id": "1a7873e6-52cf-493d-a1a1-360a49324923",
-      "podcast": "The a16z Show",
-      "title": "Chris Dixon: From Quant Trading to Building a16z Crypto",
-      "status": "needs_download",
-      "published": "2026-03-02",
-      "age_days": 25,
-      "next_blocker": "downloaded"
     },
     {
       "id": "substack:post:190118311",
@@ -347,7 +319,7 @@
       "title": "Why Leonardo was a saboteur, Gutenberg went broke, and Florence was weird \u2013 Ada Palmer",
       "status": "needs_download",
       "published": "2026-03-06",
-      "age_days": 21,
+      "age_days": 22,
       "next_blocker": "downloaded"
     }
   ],
