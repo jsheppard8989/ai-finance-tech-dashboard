@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-03-27T04:01:42.595287",
-  "last_updated": "2026-03-27T04:01:42.595287",
-  "last_pipeline_run": "2026-03-27T04:01:42.595287",
+  "generated_at": "2026-03-27T22:06:43.381520",
+  "last_updated": "2026-03-27T22:06:43.381520",
+  "last_pipeline_run": "2026-03-27T22:06:43.381520",
   "main_page": {
     "overton": 8,
     "insights": 8,
@@ -18,12 +18,12 @@
     "podcasts_analyzed": 0
   },
   "step_results": {
-    "downloaded": 4,
-    "transcribed": 4,
-    "analyzed": 4,
+    "downloaded": 5,
+    "transcribed": 5,
+    "analyzed": 5,
     "insight_created": 0,
-    "published": 1,
-    "total": 7
+    "published": 2,
+    "total": 10
   },
   "episodes": [
     {
@@ -83,6 +83,28 @@
       "status": "needs_insight"
     },
     {
+      "id": "110b8442-29f6-11f1-a6ee-277ab7a5a2ba",
+      "podcast": "Monetary Matters with Jack Farley",
+      "title": "How the Iran War Reshapes the Sovereign Debt Landscape | Sovereign Debt Expert Lupin Rahman",
+      "published": "2026-03-27",
+      "rss_guid": "110b8442-29f6-11f1-a6ee-277ab7a5a2ba",
+      "stages": {
+        "downloaded": false,
+        "transcribed": false,
+        "analyzed": false,
+        "insight_created": false,
+        "published": false
+      },
+      "stage_reasons": {
+        "downloaded": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "transcribed": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "analyzed": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "insight_created": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
+      },
+      "status": "needs_download"
+    },
+    {
       "id": "e3ce0ba4-22dd-11f1-b3e1-ef93882cc84d",
       "podcast": "Monetary Matters with Jack Farley",
       "title": "Stock Market on Shaky Foundations | Blind Squirrel Macro\u2019s Rupert Mitchell on IPO Supply, Oil, and Private Credit",
@@ -103,6 +125,24 @@
         "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
       },
       "status": "needs_download"
+    },
+    {
+      "id": "0e782201-44f6-4ff3-99b0-ffc1a86a764b",
+      "podcast": "The a16z Show",
+      "title": "The Tactical Power Layer for Modern Warfare",
+      "published": "2026-03-27",
+      "rss_guid": "0e782201-44f6-4ff3-99b0-ffc1a86a764b",
+      "stages": {
+        "downloaded": true,
+        "transcribed": true,
+        "analyzed": true,
+        "insight_created": false,
+        "published": true
+      },
+      "stage_reasons": {
+        "insight_created": "No latest_insights row for this episode (insight step not reflected in DB yet)."
+      },
+      "status": "needs_insight"
     },
     {
       "id": "1e92a9dd-78da-4417-b1ce-4b4318d1f8c4",
@@ -146,6 +186,28 @@
       "status": "needs_download"
     },
     {
+      "id": "4a43da89-9d1a-4b9e-9304-aa9ab4a1ee97",
+      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "title": "Anthropic's Generational Run, OpenAI Panics, AI Moats, Meta Loses Lawsuits",
+      "published": "2026-03-27",
+      "rss_guid": "4a43da89-9d1a-4b9e-9304-aa9ab4a1ee97",
+      "stages": {
+        "downloaded": false,
+        "transcribed": false,
+        "analyzed": false,
+        "insight_created": false,
+        "published": false
+      },
+      "stage_reasons": {
+        "downloaded": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "transcribed": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "analyzed": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "insight_created": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
+      },
+      "status": "needs_download"
+    },
+    {
       "id": "substack:post:190118311",
       "podcast": "Dwarkesh Podcast",
       "title": "Why Leonardo was a saboteur, Gutenberg went broke, and Florence was weird \u2013 Ada Palmer",
@@ -169,6 +231,27 @@
     }
   ],
   "available_from_rss": [
+    {
+      "podcast": "Monetary Matters with Jack Farley",
+      "title": "How the Iran War Reshapes the Sovereign Debt Landscape | Sovereign Debt Expert Lupin Rahman",
+      "published": "Fri, 27 Mar 2026 16:00:00 -0000",
+      "published_date": "2026-03-27",
+      "rss_guid": ""
+    },
+    {
+      "podcast": "The a16z Show",
+      "title": "The SpaceX and Tesla Playbook for Hard Tech Startups",
+      "published": "Fri, 27 Mar 2026 10:00:00 +0000",
+      "published_date": "2026-03-27",
+      "rss_guid": ""
+    },
+    {
+      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "title": "Anthropic's Generational Run, OpenAI Panics, AI Moats, Meta Loses Lawsuits",
+      "published": "Fri, 27 Mar 2026 20:03:00 +0000",
+      "published_date": "2026-03-27",
+      "rss_guid": ""
+    },
     {
       "podcast": "Moonshots with Peter Diamandis",
       "title": "Elon's $5 Trillion Bet, the End of Human Drivers, and Chamath's Market Warning | EP #242",

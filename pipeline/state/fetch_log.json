@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-27T03:57:13.336036",
+  "timestamp": "2026-03-27T22:03:21.361919",
   "results": [
     {
       "podcast": "Moonshots with Peter Diamandis",
@@ -7,6 +7,27 @@
       "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/DVVTS3579530070.mp3",
       "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/DVVTS3579530070.txt",
       "success": true
+    },
+    {
+      "podcast": "Monetary Matters with Jack Farley",
+      "title": "How the Iran War Reshapes the Sovereign Debt Landscape | Sovereign Debt Expert Lupin Rahman",
+      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/EWWMN1195670071.mp3",
+      "transcript_path": null,
+      "success": false
+    },
+    {
+      "podcast": "The a16z Show",
+      "title": "The SpaceX and Tesla Playbook for Hard Tech Startups",
+      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_20260327_0e782201_44f6_4ff3_99b0_ffc1a86a.mp3",
+      "transcript_path": null,
+      "success": false
+    },
+    {
+      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "title": "Anthropic's Generational Run, OpenAI Panics, AI Moats, Meta Loses Lawsuits",
+      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/ALLIN-E266_Ch.mp3",
+      "transcript_path": null,
+      "success": false
     }
   ]
 }
