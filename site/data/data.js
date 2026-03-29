@@ -3,8 +3,8 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-03-28T22:10:37.682053",
-  chartsVersion: "2026-03-28T04:08:27.493109",
+  generatedAt: "2026-03-29T04:10:39.066363",
+  chartsVersion: "2026-03-29T04:10:36.391634",
   tickerScores: [
   {
     "ticker": "GOOGL",
@@ -67,29 +67,29 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "WTI",
-    "total_score": 216.0,
-    "raw_mention_count": 3,
+    "ticker": "S&P 500",
+    "total_score": 278.0,
+    "raw_mention_count": 4,
     "unique_sources": 1,
-    "podcast_mentions": 3,
+    "podcast_mentions": 4,
     "newsletter_mentions": 0,
     "rank": 5,
-    "score": 216.0,
-    "mentions": 3,
+    "score": 278.0,
+    "mentions": 4,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
     "timeframe": "long_term",
     "contexts": []
   },
   {
-    "ticker": "S&P 500",
-    "total_score": 208.0,
+    "ticker": "WTI",
+    "total_score": 216.0,
     "raw_mention_count": 3,
     "unique_sources": 1,
     "podcast_mentions": 3,
     "newsletter_mentions": 0,
     "rank": 6,
-    "score": 208.0,
+    "score": 216.0,
     "mentions": 3,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
@@ -142,13 +142,28 @@ const dashboardData = {
     "contexts": []
   },
   {
+    "ticker": "WTI CRUDE OIL",
+    "total_score": 146.0,
+    "raw_mention_count": 2,
+    "unique_sources": 1,
+    "podcast_mentions": 2,
+    "newsletter_mentions": 0,
+    "rank": 10,
+    "score": 146.0,
+    "mentions": 2,
+    "conviction_level": "medium",
+    "contrarian_signal": "neutral",
+    "timeframe": "long_term",
+    "contexts": []
+  },
+  {
     "ticker": "MSTR",
     "total_score": 142.0,
     "raw_mention_count": 2,
     "unique_sources": 1,
     "podcast_mentions": 2,
     "newsletter_mentions": 0,
-    "rank": 10,
+    "rank": 11,
     "score": 142.0,
     "mentions": 2,
     "conviction_level": "medium",
@@ -163,7 +178,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 2,
     "newsletter_mentions": 0,
-    "rank": 11,
+    "rank": 12,
     "score": 132.0,
     "mentions": 2,
     "conviction_level": "medium",
@@ -178,7 +193,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 2,
     "newsletter_mentions": 0,
-    "rank": 12,
+    "rank": 13,
     "score": 128.0,
     "mentions": 2,
     "conviction_level": "medium",
@@ -193,7 +208,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 2,
     "newsletter_mentions": 0,
-    "rank": 13,
+    "rank": 14,
     "score": 128.0,
     "mentions": 2,
     "conviction_level": "medium",
@@ -208,7 +223,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 2,
     "newsletter_mentions": 0,
-    "rank": 14,
+    "rank": 15,
     "score": 120.0,
     "mentions": 2,
     "conviction_level": "medium",
@@ -223,7 +238,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 2,
     "newsletter_mentions": 0,
-    "rank": 15,
+    "rank": 16,
     "score": 112.0,
     "mentions": 2,
     "conviction_level": "medium",
@@ -238,7 +253,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 2,
     "newsletter_mentions": 0,
-    "rank": 16,
+    "rank": 17,
     "score": 84.0,
     "mentions": 2,
     "conviction_level": "medium",
@@ -253,7 +268,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 0,
     "newsletter_mentions": 12,
-    "rank": 17,
+    "rank": 18,
     "score": 75.0,
     "mentions": 12,
     "conviction_level": "medium",
@@ -268,7 +283,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 18,
+    "rank": 19,
     "score": 74.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -283,7 +298,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 19,
+    "rank": 20,
     "score": 74.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -298,7 +313,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 20,
+    "rank": 21,
     "score": 72.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -313,21 +328,6 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 21,
-    "score": 72.0,
-    "mentions": 1,
-    "conviction_level": "medium",
-    "contrarian_signal": "neutral",
-    "timeframe": "long_term",
-    "contexts": []
-  },
-  {
-    "ticker": "WORK",
-    "total_score": 72.0,
-    "raw_mention_count": 1,
-    "unique_sources": 1,
-    "podcast_mentions": 1,
-    "newsletter_mentions": 0,
     "rank": 22,
     "score": 72.0,
     "mentions": 1,
@@ -337,7 +337,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "WTI CRUDE OIL",
+    "ticker": "WORK",
     "total_score": 72.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -1313,6 +1313,26 @@ const dashboardData = {
       "archived_date": "2026-03-29",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 112
+    },
+    {
+      "id": 138,
+      "title": "MacroVoices-2026-03-19-Simon-White",
+      "source_type": "podcast",
+      "source_name": "Unknown Podcast",
+      "source_date": "2026-03-19",
+      "summary": "In this episode of Macrovoisers, hosts Eric Townsend and Patrick Suresne discuss the market implications of the prolonged Iran conflict and the Fed's decision not to cut rates. They analyze the potential for secular inflation, the impact on oil prices, and the broader macroeconomic outlook. The episode features an interview with Bloomberg Macro strategist Simon White, who discusses the risk of renewed inflation and the parallels to 1970s-style stagflation. Additionally, Rory Johnston from Commodity Context provides insights on the Iran conflict's effect on energy markets.",
+      "key_takeaway": "The Iran conflict could lead to a renewed inflation cycle, affecting commodities and energy markets, with potential second-order effects that markets may currently be underpricing.",
+      "tickers_mentioned": [
+        "S&P 500",
+        "WTI CRUDE OIL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 0,
+      "display_order": 0,
+      "added_date": "2026-03-29",
+      "archived_date": "2026-03-29",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
+      "podcast_episode_id": 121
     },
     {
       "id": 94,
@@ -11100,6 +11120,75 @@ const dashboardData = {
     "key_tickers": [
       "PQNT"
     ]
+  },
+  "138": {
+    "id": 129,
+    "insight_id": 138,
+    "podcast_episode_id": 121,
+    "overview": "The current investment thesis revolves around the potential for a secular inflation resurgence, catalyzed by the ongoing Iran conflict and its impact on energy markets. This scenario is reminiscent of the 1970s, where inflation was a significant economic factor. The market's current complacency towards inflation, as indicated by CPI fixing swap resistance, suggests an underestimation of the long-term effects of the conflict. This analysis is crucial for investors as it may lead to a repricing of risk across asset classes, with significant implications for portfolio allocation and risk management.",
+    "key_takeaways_detailed": [
+      "Inflation expectations are currently underpriced, with markets expecting a short-term spike followed by a quick return to target, which may not materialize.",
+      "The Iran conflict could act as a catalyst for a more prolonged period of inflation, similar to the 1970s, with potential second-order effects on commodities and credit markets.",
+      "Energy markets, particularly crude oil and gasoline, are already reflecting a 'war premium' with prices at multi-year highs, suggesting a sustained impact on inflation.",
+      "The breakdown in private credit and shifts in the yield curve could further exacerbate inflationary pressures, affecting the macroeconomic outlook.",
+      "Investors should monitor food price inflation as a potential next wave of inflation, which could have significant implications for consumer staples and agricultural companies."
+    ],
+    "investment_thesis": "The core investment logic is that the Iran conflict and its prolonged nature are likely to lead to a sustained period of inflation, which markets are currently underestimating. This thesis is based on the historical parallels to the 1970s, where inflation became a persistent economic issue. The catalysts for this thesis include the ongoing conflict, its impact on energy prices, and the potential for food price inflation. The timeframe for this thesis is medium to long-term, as the effects of the conflict and inflationary pressures are expected to play out over several quarters to a year.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple Inc. (AAPL) is a technology giant with a global supply chain that could be affected by inflationary pressures and geopolitical tensions. Its products are also sensitive to consumer spending, which could be impacted by rising inflation.",
+        "positioning": "Positioning in AAPL should be strategic and long-term, considering its resilience and ability to pass on costs to consumers. However, a tactical hedge may be necessary in the short term to protect against potential volatility.",
+        "risk": "Key risks include supply chain disruptions due to geopolitical tensions and a slowdown in consumer demand due to inflation."
+      },
+      "NVDA": {
+        "rationale": "NVIDIA Corporation (NVDA) is a leading technology company in the graphics processing unit (GPU) market, which could benefit from increased demand for technology as the world becomes more digital, but also faces risks from inflation and supply chain disruptions.",
+        "positioning": "NVDA can be positioned long-term due to its strong growth prospects, but investors should be prepared for short-term tactical adjustments to manage volatility associated with inflation and geopolitical risks.",
+        "risk": "The risk of increased production costs due to inflation and potential disruptions in the semiconductor supply chain pose significant risks to NVDA."
+      },
+      "SPY": {
+        "rationale": "SPY, the SPDR S&P 500 ETF, provides broad exposure to the U.S. stock market and is a key indicator of market sentiment and performance. It is relevant as it can be used to hedge against or take advantage of broader market movements influenced by inflation expectations.",
+        "positioning": "Investors can use SPY for tactical positioning based on market sentiment and inflation expectations. A strategic long position may be warranted for those with a bullish outlook on the U.S. economy, while a short position could be considered for those expecting a market downturn due to inflation.",
+        "risk": "The risk of a market correction due to rising inflation and geopolitical tensions poses a significant risk to SPY."
+      },
+      "TSLA": {
+        "rationale": "Tesla Inc. (TSLA) is a leader in the electric vehicle (EV) market and renewable energy. It could benefit from increased demand for EVs as a hedge against rising fuel prices but is also exposed to supply chain risks and inflationary pressures.",
+        "positioning": "TSLA can be positioned long-term due to its growth prospects in the EV and renewable energy sectors. However, investors should consider tactical adjustments to manage short-term risks associated with inflation and geopolitical tensions.",
+        "risk": "Key risks include potential supply chain disruptions and increased competition in the EV market, which could be exacerbated by inflation and geopolitical tensions."
+      }
+    },
+    "positioning_guidance": "Investors should consider a balanced portfolio with a mix of long-term strategic positions in companies that are expected to benefit from or are resilient to inflation, such as technology and renewable energy companies. At the same time, tactical adjustments may be necessary to manage short-term volatility and risks associated with inflation and geopolitical tensions. Investors should also consider hedging strategies, such as options or inverse ETFs, to protect against potential market downturns.",
+    "risk_factors": [
+      "A rapid resolution of the Iran conflict that reduces the 'war premium' on energy prices, leading to a quicker return of inflation expectations to target.",
+      "Central banks implementing more aggressive monetary tightening to combat inflation, which could lead to a slowdown in economic growth.",
+      "A significant shift in consumer behavior due to rising inflation, which could impact demand for various goods and services.",
+      "Geopolitical tensions escalating further, leading to broader economic disruptions and supply chain issues.",
+      "Unexpected technological advancements or shifts in consumer preferences that could disrupt the current market dynamics."
+    ],
+    "contrarian_signals": [
+      "Market participants may be overly complacent about the ability of central banks to control inflation,\u5ffd\u89c6\u4e86\u6f5c\u5728\u7684\u4f9b\u5e94\u51b2\u51fb\u548c\u5de5\u8d44\u538b\u529b\u3002",
+      "There is a possibility that technological advancements could mitigate the inflationary impact, such as increased efficiency in energy production or a faster transition to renewable energy sources.",
+      "The global economy could experience a stronger-than-expected recovery, which could absorb the inflationary pressures without leading to a sustained period of high inflation."
+    ],
+    "catalysts": [
+      "The outcome of the Iran conflict and any potential peace negotiations, which could significantly impact energy prices and inflation expectations.",
+      "Central bank meetings and statements, particularly from the Federal Reserve, which could provide insight into the potential for rate hikes or other monetary policy actions to combat inflation.",
+      "Economic data releases, such as CPI and PPI, which could provide evidence of whether inflation is transitory or becoming more entrenched.",
+      "Geopolitical events or tensions that could disrupt global supply chains and further impact inflation, such as trade disputes or other regional conflicts.",
+      "Technological breakthroughs or shifts in consumer behavior that could alter the inflationary landscape, such as significant advancements in renewable energy technology or a shift towards more energy-efficient products."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-03-29T04:10:00.325704",
+    "updated_at": "2026-03-29 09:10:00",
+    "insight_title": "MacroVoices-2026-03-19-Simon-White",
+    "source_name": "Unknown Podcast",
+    "source_date": "2026-03-19",
+    "key_tickers": [
+      "S&P 500",
+      "WTI CRUDE OIL"
+    ]
   }
 },
   suggestedTerms: [
@@ -11154,7 +11243,7 @@ const dashboardData = {
 ],
   podcastGuests: [
   {
-    "id": 1234,
+    "id": 1252,
     "name": "This special episode",
     "slug": "this-special-episode",
     "bio": null,
@@ -11166,7 +11255,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1235,
+    "id": 1253,
     "name": "Lupin Ramon",
     "slug": "lupin-ramon",
     "bio": null,
@@ -11178,7 +11267,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1236,
+    "id": 1254,
     "name": "When the Music Stops",
     "slug": "when-the-music-stops",
     "bio": null,
@@ -11190,7 +11279,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1237,
+    "id": 1255,
     "name": "Ground Infrastructure",
     "slug": "ground-infrastructure",
     "bio": null,
@@ -11202,7 +11291,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1238,
+    "id": 1256,
     "name": "Rory Johnston",
     "slug": "rory-johnston",
     "bio": null,
@@ -11214,7 +11303,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1239,
+    "id": 1257,
     "name": "Senator John Fetterman on Voting Rights",
     "slug": "senator-john-fetterman-on-voting-rights",
     "bio": null,
@@ -11226,7 +11315,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1240,
+    "id": 1258,
     "name": "Stock Market on Shaky Foundations",
     "slug": "stock-market-on-shaky-foundations",
     "bio": null,
@@ -11238,7 +11327,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1241,
+    "id": 1259,
     "name": "Elon Musk on Moonshots",
     "slug": "elon-musk-on-moonshots",
     "bio": null,
@@ -11250,7 +11339,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1242,
+    "id": 1260,
     "name": "Investing in Capitalism",
     "slug": "investing-in-capitalism",
     "bio": null,
@@ -11262,7 +11351,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1243,
+    "id": 1261,
     "name": "Harvard Professor Graham Allison",
     "slug": "harvard-professor-graham-allison",
     "bio": null,
@@ -11274,7 +11363,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1244,
+    "id": 1262,
     "name": "Andrew Yang",
     "slug": "andrew-yang",
     "bio": "Andrew Yang is an entrepreneur and political leader who popularized universal basic income in U.S. politics through his 2020 presidential campaign.",
@@ -11286,7 +11375,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1245,
+    "id": 1263,
     "name": "Inventing the Renaissance",
     "slug": "inventing-the-renaissance",
     "bio": null,
@@ -11298,7 +11387,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1246,
+    "id": 1264,
     "name": "Ray Dalio",
     "slug": "ray-dalio",
     "bio": "Ray Dalio is the founder of Bridgewater Associates and a macro investor known for his 'Principles' framework and work on long-term debt cycles.",
@@ -11310,7 +11399,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1247,
+    "id": 1265,
     "name": "Nobel Prize-winning economist Paul Krugman",
     "slug": "nobel-prize-winning-economist-paul-krugman",
     "bio": null,
@@ -11322,7 +11411,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1248,
+    "id": 1266,
     "name": "host Jack Mallers",
     "slug": "host-jack-mallers",
     "bio": null,
@@ -11334,7 +11423,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1249,
+    "id": 1267,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -11346,7 +11435,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1250,
+    "id": 1268,
     "name": "Bosworth",
     "slug": "bosworth",
     "bio": null,
@@ -11358,7 +11447,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1251,
+    "id": 1269,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -11371,6 +11460,120 @@ const dashboardData = {
   }
 ],
   pundits: [
+  {
+    "id": 97,
+    "name": "Simon White",
+    "slug": "simon-white",
+    "bio": "Bloomberg Macro strategist",
+    "known_for": "Analysis on secular inflation and macroeconomic trends",
+    "net_worth_usd": 112000000.0,
+    "net_worth_source": "https://www.gurufocus.com/insider/44/william-s-simon",
+    "net_worth_updated_at": "2026-03-20T22:08:35.505085",
+    "voice_tone": "Matter-of-fact and analytical",
+    "voice_style": "Factual and data-driven, with a focus on historical parallels",
+    "voice_delivery_notes": "Clear and concise, with a steady pace",
+    "voice_profile_updated_at": "2026-03-29 09:09:13",
+    "last_seen": "2026-03-29 09:09:13",
+    "last_episode_title": "MacroVoices-2026-03-19-Simon-White",
+    "last_podcast_name": "Unknown Podcast",
+    "last_episode_date": "2026-03-19",
+    "mention_score": 2,
+    "mention_score_decayed": 2,
+    "last_main_idea": "The Iran conflict could lead to a renewed inflation cycle, affecting commodities and energy markets, with potential second-order effects that markets may currently be underpricing.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-20T04:35:48.845381",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Simon White",
+      "fetched_at": "2026-03-20T09:35:48.845223+00:00",
+      "cliff_notes": "Simon White is recognized for his deep understanding of macroeconomic trends and their influence on global financial markets. As a Bloomberg Macro strategist, he provides critical analysis and forecasts that help investors navigate market volatility. His expertise is sought after in professional finance circles, particularly among high-net-worth individuals, family offices, and sophisticated investors. White's contributions to the Macrovoisers podcast further highlight his thought leadership in the field, where he discusses pressing issues such as secular inflation and its potential effects on economic outlooks.",
+      "derived": {
+        "current_role": "Bloomberg Macro strategist"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Simon White is recognized for his deep understanding of macroeconomic trends and their influence on global financial markets. As a Bloomberg Macro strategist, he provides critical analysis and forecasts that help investors navigate market volatility. His expertise is sought after in professional finance circles, particularly among high-net-worth individuals, family offices, and sophisticated investors.",
+        "White's contributions to the Macrovoisers podcast further highlight his thought leadership in the field, where he discusses pressing issues such as secular inflation and its potential effects on economic outlooks."
+      ],
+      "sections": [
+        {
+          "heading": "Market Analysis",
+          "body": "Simon White is known for his detailed market analysis, providing insights into how macroeconomic trends can affect investment strategies."
+        },
+        {
+          "heading": "Secular Inflation",
+          "body": "In his discussions, White often addresses secular inflation, explaining its potential impact on long-term economic growth and market performance."
+        },
+        {
+          "heading": "Financial Market Trends",
+          "body": "White's expertise extends to identifying and interpreting trends within the financial markets, offering valuable perspectives to investors."
+        }
+      ]
+    },
+    "net_worth": "$112.0M"
+  },
+  {
+    "id": 98,
+    "name": "Rory Johnston",
+    "slug": "rory-johnston",
+    "bio": "Commodity Context founder",
+    "known_for": "Perspectives on energy markets and commodity pricing",
+    "net_worth_usd": 200.0,
+    "net_worth_source": "https://www.bloomberg.com/news/articles/2026-03-10/rory-johnston-on-how-oil-could-surge-to-over-200-a-barrel",
+    "net_worth_updated_at": "2026-03-28T22:05:57.557236",
+    "voice_tone": "Informative and insightful",
+    "voice_style": "Direct and focused on market dynamics",
+    "voice_delivery_notes": "Paced with emphasis on key market indicators",
+    "voice_profile_updated_at": "2026-03-29 09:09:13",
+    "last_seen": "2026-03-29 09:09:13",
+    "last_episode_title": "MacroVoices-2026-03-19-Simon-White",
+    "last_podcast_name": "Unknown Podcast",
+    "last_episode_date": "2026-03-19",
+    "mention_score": 4,
+    "mention_score_decayed": 4,
+    "last_main_idea": "The Iran conflict could lead to a renewed inflation cycle, affecting commodities and energy markets, with potential second-order effects that markets may currently be underpricing.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-20T04:36:30.218908",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Rory Johnston",
+      "fetched_at": "2026-03-20T09:36:30.218739+00:00",
+      "cliff_notes": "Rory Johnston is a prominent figure in the field of energy market analysis, having founded Commodity Context, a company dedicated to providing in-depth analysis of commodity markets. His work is particularly relevant to investors and financial professionals who need to understand the intricacies of energy markets and their broader implications on the global economy. Johnston's expertise extends to commodities and macroeconomics, making him a valuable resource for those navigating the complexities of financial markets. His insights are regularly featured in discussions and analyses that aim to predict market trends and inform investment strategies.",
+      "derived": {
+        "current_role": "Founder, Commodity Context"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Rory Johnston is a prominent figure in the field of energy market analysis, having founded Commodity Context, a company dedicated to providing in-depth analysis of commodity markets. His work is particularly relevant to investors and financial professionals who need to understand the intricacies of energy markets and their broader implications on the global economy.",
+        "Johnston's expertise extends to commodities and macroeconomics, making him a valuable resource for those navigating the complexities of financial markets. His insights are regularly featured in discussions and analyses that aim to predict market trends and inform investment strategies."
+      ],
+      "sections": [
+        {
+          "heading": "Energy Market Analysis",
+          "body": "Rory Johnston is well-known for his detailed analysis of energy markets, providing investors with critical insights into market dynamics and trends."
+        },
+        {
+          "heading": "Macroeconomic Trends",
+          "body": "Johnston's work often intersects with macroeconomic trends, offering a unique perspective on how energy markets influence and are influenced by broader economic factors."
+        },
+        {
+          "heading": "Investment Strategy",
+          "body": "His expertise is highly valued by investors looking to make informed decisions in a volatile market, particularly in the context of commodities and energy."
+        }
+      ]
+    },
+    "net_worth": "$200"
+  },
   {
     "id": 96,
     "name": "Jensen Huang",
@@ -11614,9 +11817,9 @@ const dashboardData = {
     "slug": "christian-catalini",
     "bio": "Christian Catalini is a co-founder of LightSpark and founder of the MIT Crypto Economics Lab. He is known for his work in the intersection of technology, economics, and entrepreneurship, particularly in the field of AI and blockchain.",
     "known_for": "Authoring the influential paper 'Some Simple Economics of AI' and his contributions to the understanding of crypto economics.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
+    "net_worth_usd": 500000.0,
+    "net_worth_source": "https://en.wikipedia.org/wiki/Christian_Catalini",
+    "net_worth_updated_at": "2026-03-29T04:09:28.783743",
     "voice_tone": "Optimistic and analytical.",
     "voice_style": "Explanatory and speculative, discussing the future impacts of AI.",
     "voice_delivery_notes": "Paced with emphasis on the transformative potential of AI.",
@@ -11667,7 +11870,8 @@ const dashboardData = {
           "body": "Catalini's research suggests that AI could give individuals the leverage of a team, fundamentally changing the nature of work and the potential for one-person billion-dollar startups."
         }
       ]
-    }
+    },
+    "net_worth": "$500,000"
   },
   {
     "id": 129,
@@ -11725,63 +11929,6 @@ const dashboardData = {
       ]
     },
     "net_worth": "$600.00B"
-  },
-  {
-    "id": 98,
-    "name": "Rory Johnston",
-    "slug": "rory-johnston",
-    "bio": "Roy Johnson is one of the best independent oil and energy analysts at Commodity Context.",
-    "known_for": "Fundamental analysis of oil and energy markets, particularly during crises.",
-    "net_worth_usd": 200.0,
-    "net_worth_source": "https://www.bloomberg.com/news/articles/2026-03-10/rory-johnston-on-how-oil-could-surge-to-over-200-a-barrel",
-    "net_worth_updated_at": "2026-03-28T22:05:57.557236",
-    "voice_tone": "Matter-of-fact and concerned",
-    "voice_style": "Analytical and data-driven",
-    "voice_delivery_notes": "Paced, with emphasis on key data points and potential scenarios",
-    "voice_profile_updated_at": "2026-03-29 03:02:43",
-    "last_seen": "2026-03-29 03:02:43",
-    "last_episode_title": "EWWMN9153105374",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-03-15",
-    "mention_score": 3,
-    "mention_score_decayed": 3,
-    "last_main_idea": "The ongoing geopolitical crisis in the Middle East, particularly the situation around the Strait of Hormuz, presents a significant risk to global oil supply and prices, potentially leading to a sustained increase in oil prices.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-20T04:36:30.218908",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Rory Johnston",
-      "fetched_at": "2026-03-20T09:36:30.218739+00:00",
-      "cliff_notes": "Rory Johnston is a prominent figure in the field of energy market analysis, having founded Commodity Context, a company dedicated to providing in-depth analysis of commodity markets. His work is particularly relevant to investors and financial professionals who need to understand the intricacies of energy markets and their broader implications on the global economy. Johnston's expertise extends to commodities and macroeconomics, making him a valuable resource for those navigating the complexities of financial markets. His insights are regularly featured in discussions and analyses that aim to predict market trends and inform investment strategies.",
-      "derived": {
-        "current_role": "Founder, Commodity Context"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Rory Johnston is a prominent figure in the field of energy market analysis, having founded Commodity Context, a company dedicated to providing in-depth analysis of commodity markets. His work is particularly relevant to investors and financial professionals who need to understand the intricacies of energy markets and their broader implications on the global economy.",
-        "Johnston's expertise extends to commodities and macroeconomics, making him a valuable resource for those navigating the complexities of financial markets. His insights are regularly featured in discussions and analyses that aim to predict market trends and inform investment strategies."
-      ],
-      "sections": [
-        {
-          "heading": "Energy Market Analysis",
-          "body": "Rory Johnston is well-known for his detailed analysis of energy markets, providing investors with critical insights into market dynamics and trends."
-        },
-        {
-          "heading": "Macroeconomic Trends",
-          "body": "Johnston's work often intersects with macroeconomic trends, offering a unique perspective on how energy markets influence and are influenced by broader economic factors."
-        },
-        {
-          "heading": "Investment Strategy",
-          "body": "His expertise is highly valued by investors looking to make informed decisions in a volatile market, particularly in the context of commodities and energy."
-        }
-      ]
-    },
-    "net_worth": "$200"
   },
   {
     "id": 94,
@@ -11911,7 +12058,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-27",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Sovereign credit investing requires a deep understanding of the unique risks and dynamics of lending to governments, which can offer significant returns but also carries substantial risks, particularly in the current geopolitical climate.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-28T04:06:45.925345",
@@ -11973,7 +12120,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-27",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Investing in companies that apply lessons from SpaceX and Tesla can lead to innovation in the physical economy, focusing on scalability, communication, and technical expertise.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-28T04:06:58.025543",
@@ -12035,7 +12182,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-27",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Investing in companies that apply lessons from SpaceX and Tesla can lead to innovation in the physical economy, focusing on scalability, communication, and technical expertise.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-28T04:07:10.077867",
@@ -12427,62 +12574,6 @@ const dashboardData = {
       ]
     },
     "net_worth": "$220.0M"
-  },
-  {
-    "id": 115,
-    "name": "Robert Goucher",
-    "slug": "robert-goucher",
-    "bio": "Vice-Admiral Robert Goucher is responsible for overseeing the strategic and operational aspects of submarine production for the United States Navy. He is known for his expertise in maintaining the stealth capabilities and strategic deterrence provided by the Navy's submarine fleet.",
-    "known_for": "Leading the U.S. Navy's submarine production efforts and addressing the challenges of modernizing the fleet.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Authoritative and pragmatic",
-    "voice_style": "Strategic and solution-focused",
-    "voice_delivery_notes": "Deliberate with an emphasis on the importance of the mission",
-    "voice_profile_updated_at": "2026-03-26 09:20:15",
-    "last_seen": "2026-03-26 09:20:15",
-    "last_episode_title": "Submarine Manufacturing and Advanced Factories",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-03-25",
-    "mention_score": 1,
-    "mention_score_decayed": 0.95,
-    "last_main_idea": "Investing in advanced manufacturing and workforce development for submarine production could lead to increased efficiency and meet the growing demand for naval capabilities.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-26T04:21:24.879895",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Robert Goucher",
-      "fetched_at": "2026-03-26T09:21:24.879791+00:00",
-      "cliff_notes": "Vice-Admiral Robert Goucher has had a distinguished career in the United States Navy, with a focus on submarine production. His role involves overseeing the strategic and operational aspects of submarine production, ensuring the Navy maintains its stealth and access capabilities. Goucher has been at the forefront of efforts to modernize the Navy's fleet, addressing the challenges posed by the end of the Cold War and the subsequent collapse in submarine production. He has emphasized the importance of combining a new workforce, American software, steel, and spirit to achieve a productivity uplift in submarine manufacturing. His leadership is crucial in ensuring the United States maintains its strategic deterrence and peace through strength.",
-      "derived": {
-        "current_role": "Vice-Admiral in charge of all submarine production for the United States Navy"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Vice-Admiral Robert Goucher has had a distinguished career in the United States Navy, with a focus on submarine production. His role involves overseeing the strategic and operational aspects of submarine production, ensuring the Navy maintains its stealth and access capabilities. Goucher has been at the forefront of efforts to modernize the Navy's fleet, addressing the challenges posed by the end of the Cold War and the subsequent collapse in submarine production.",
-        "He has emphasized the importance of combining a new workforce, American software, steel, and spirit to achieve a productivity uplift in submarine manufacturing. His leadership is crucial in ensuring the United States maintains its strategic deterrence and peace through strength."
-      ],
-      "sections": [
-        {
-          "heading": "Submarine Production",
-          "body": "Vice-Admiral Robert Goucher is responsible for overseeing the strategic and operational aspects of submarine production for the United States Navy, ensuring the fleet's stealth and access capabilities are maintained."
-        },
-        {
-          "heading": "Modernizing the Fleet",
-          "body": "Goucher has been at the forefront of efforts to modernize the Navy's submarine fleet, addressing the challenges posed by the end of the Cold War and the subsequent collapse in submarine production."
-        },
-        {
-          "heading": "Productivity Uplift",
-          "body": "Emphasizing the importance of combining a new workforce, American software, steel, and spirit, Goucher is focused on achieving a productivity uplift in submarine manufacturing to meet the Navy's increased capacity needs."
-        }
-      ]
-    }
   }
 ]
 };

@@ -586,6 +586,26 @@
       "podcast_episode_id": 112
     },
     {
+      "id": 138,
+      "title": "MacroVoices-2026-03-19-Simon-White",
+      "source_type": "podcast",
+      "source_name": "Unknown Podcast",
+      "source_date": "2026-03-19",
+      "summary": "In this episode of Macrovoisers, hosts Eric Townsend and Patrick Suresne discuss the market implications of the prolonged Iran conflict and the Fed's decision not to cut rates. They analyze the potential for secular inflation, the impact on oil prices, and the broader macroeconomic outlook. The episode features an interview with Bloomberg Macro strategist Simon White, who discusses the risk of renewed inflation and the parallels to 1970s-style stagflation. Additionally, Rory Johnston from Commodity Context provides insights on the Iran conflict's effect on energy markets.",
+      "key_takeaway": "The Iran conflict could lead to a renewed inflation cycle, affecting commodities and energy markets, with potential second-order effects that markets may currently be underpricing.",
+      "tickers_mentioned": [
+        "S&P 500",
+        "WTI CRUDE OIL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 0,
+      "display_order": 0,
+      "added_date": "2026-03-29",
+      "archived_date": "2026-03-29",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
+      "podcast_episode_id": 121
+    },
+    {
       "id": 94,
       "title": "Interview with Senator John Fetterman on Voting Rights, Policy Decisions, and the Democratic Party",
       "source_type": "podcast",

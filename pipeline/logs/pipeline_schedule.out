@@ -14766,3 +14766,90 @@ onomy that deals with tangible goods and services, as opposed to financial or di
 ============================================================
 STEP: Extract Podcast Guests
 ============================================================
+============================================================
+Extract Podcast Guests
+============================================================
+Processing 95 processed episodes
+  ✓ This special episode ← Unknown Podcast (2026-03-28)
+  ✓ Lupin Ramon ← Monetary Matters with Jack Farley (2026-03-27)
+  ✓ When the Music Stops ← The Jack Mallers Show (2026-03-24)
+  ✓ Ground Infrastructure ← The a16z Show (2026-03-23)
+  ✓ Rory Johnston ← Monetary Matters with Jack Farley (2026-03-19)
+  ✓ Senator John Fetterman on Voting Rights ← All-In with Chamath, Jason, Sacks & Friedberg (2026-03-18)
+  ✓ Stock Market on Shaky Foundations ← Monetary Matters with Jack Farley (2026-03-18)
+  ✓ Elon Musk on Moonshots ← Moonshots with Peter Diamandis (2026-03-17)
+  ✓ Investing in Capitalism ← All-In with Chamath, Jason, Sacks & Friedberg (2026-03-13)
+  ✓ Harvard Professor Graham Allison ← All-In with Chamath, Jason, Sacks & Friedberg (2026-03-09)
+  ✓ Andrew Yang ← Moonshots with Peter Diamandis (2026-03-07)
+  ✓ Inventing the Renaissance ← Dwarkesh Podcast (2026-03-06)
+  ✓ Ray Dalio ← All-In with Chamath, Jason, Sacks & Friedberg (2026-03-03)
+  ✓ Nobel Prize-winning economist Paul Krugman ← Monetary Matters with Jack Farley (2026-02-19)
+  ✓ host Jack Mallers ← The Jack Mallers Show (2026-02-19)
+  ✓ Ben Horowitz ← Moonshots with Peter Diamandis (2026-02-19)
+  ✓ Bosworth ← a16z Live (2026-02-15)
+  ✓ Milton Berg ← Monetary Matters with Jack Farley (2026-02-06)
+
+✓ Done. 18 guest(s) in database.
+
+✓ Extract Podcast Guests completed
+
+============================================================
+STEP: Export Website Data
+============================================================
+============================================================
+Exporting Website Data
+============================================================
+✓ Exported website data to /Users/jaredsheppard/.openclaw/workspace/site/data
+✓ Exported: {'ticker_scores': 48, 'podcast_summaries': 40, 'archive_items': 127, 'podcast_guests': 18, 'pundits': 20}
+🔍 Scanning podcast pipeline...
+
+
+================================================================================
+📊 PODCAST PIPELINE STATUS
+================================================================================
+
+📈 Pipeline Summary (4 total episodes tracked):
+  ✅ Downloaded:       4 / 4
+  ✅ Transcribed:      4 / 4
+  ✅ Analyzed:         1 / 4
+  ✅ Insight Created:  1 / 4
+  ✅ Published:        0 / 4
+
+🔍 Episodes Needing Attention:
+
+  🔬 Pending Analysis (3):
+    - Elon's $5 Trillion Bet, the End of Human Drivers, 
+    - NVIDIA's $1 Trillion Prediction, Anthropic Beats O
+    - Chris Dixon: From Quant Trading to Building a16z C
+
+  🌐 Pending Publishing (1):
+    - Anthropic's Generational Run, OpenAI Panics, AI Mo
+
+✅ Complete Episodes (All Stages):
+    (None yet)
+
+📅 Last Updated: 2026-03-28T22:10:35.888664
+📁 Status file: /Users/jaredsheppard/.openclaw/workspace/pipeline/state/pipeline_status.json
+================================================================================
+  ✓ Exported pipeline_state.json: 4 tracked
+
+============================================================
+Generating Website JavaScript
+============================================================
+✓ Generated data.js with 48 tickers, 127 archive items, 111 deep dives, 4 suggested terms, 18 legacy guests, 20 pundits; chartsVersion=2026-03-28T04:08:27.493109
+✓ Bumped data.js cache-buster to v=1774753837
+
+============================================================
+STEP: Push to GitHub
+============================================================
+✓ Pushed to GitHub: Pipeline update 2026-03-28 22:10: 8 podcasts, 11 insights, 0 newsletters
+
+============================================================
+PIPELINE COMPLETE
+Finished: 2026-03-28 22:10:40.230747
+============================================================
+📊 Pipeline Complete
+
+🎙️ 8 new podcast(s) analyzed
+
+🌐 Website updated

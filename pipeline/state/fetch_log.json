@@ -1,18 +1,11 @@
 {
-  "timestamp": "2026-03-28T22:02:16.457035",
+  "timestamp": "2026-03-29T04:08:52.117614",
   "results": [
     {
       "podcast": "Moonshots with Peter Diamandis",
       "title": "Elon's $5 Trillion Bet, the End of Human Drivers, and Chamath's Market Warning | EP #242",
       "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/DVVTS3579530070.mp3",
       "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/DVVTS3579530070.txt",
-      "success": true
-    },
-    {
-      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "title": "Anthropic's Generational Run, OpenAI Panics, AI Moats, Meta Loses Lawsuits",
-      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/ALLIN-E266_Ch.mp3",
-      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/ALLIN-E266_Ch.txt",
       "success": true
     }
   ]

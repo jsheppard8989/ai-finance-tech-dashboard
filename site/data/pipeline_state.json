@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-03-28T22:10:35.807369",
-  "last_updated": "2026-03-28T22:10:35.807369",
-  "last_pipeline_run": "2026-03-28T22:10:35.807369",
+  "generated_at": "2026-03-29T04:10:37.360782",
+  "last_updated": "2026-03-29T04:10:37.360782",
+  "last_pipeline_run": "2026-03-29T04:10:37.360782",
   "main_page": {
     "overton": 8,
     "insights": 8,
     "pundits": 20
   },
   "counts": {
-    "ticker_mentions": 146,
-    "podcast_episodes": 95,
+    "ticker_mentions": 148,
+    "podcast_episodes": 96,
     "newsletters": 7,
-    "daily_scores": 80,
+    "daily_scores": 86,
     "overton_terms_total": 16,
-    "latest_insights_total": 111,
+    "latest_insights_total": 112,
     "today_mentions": {
-      "podcast": 4
+      "podcast": 6
     },
-    "podcasts_analyzed": 13
+    "podcasts_analyzed": 1
   },
   "step_results": {
-    "downloaded": 3,
-    "transcribed": 3,
-    "analyzed": 3,
-    "insight_created": 3,
-    "published": 1,
-    "total": 4
+    "downloaded": 2,
+    "transcribed": 2,
+    "analyzed": 2,
+    "insight_created": 2,
+    "published": 0,
+    "total": 3
   },
   "episodes": [
     {
@@ -85,22 +85,6 @@
         "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
       },
       "status": "needs_download"
-    },
-    {
-      "id": "4a43da89-9d1a-4b9e-9304-aa9ab4a1ee97",
-      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "title": "Anthropic's Generational Run, OpenAI Panics, AI Moats, Meta Loses Lawsuits",
-      "published": "2026-03-27",
-      "rss_guid": "4a43da89-9d1a-4b9e-9304-aa9ab4a1ee97",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "status": "complete"
     }
   ],
   "available_from_rss": [
@@ -126,7 +110,7 @@
       "title": "Moonshots with Peter Diamandis: AI, Automation, and the Path to Abundance by 2035",
       "status": "needs_export",
       "published": "2026-03-26",
-      "age_days": 2,
+      "age_days": 3,
       "next_blocker": "published"
     },
     {
@@ -135,7 +119,7 @@
       "title": "Moonshots Podcast Episode #231 - OpenAI Acquires OpenClaw, 400x Cost Collapse, & Why India Wins the Talent War",
       "status": "needs_export",
       "published": "2026-03-21",
-      "age_days": 7,
+      "age_days": 8,
       "next_blocker": "published"
     },
     {
@@ -144,7 +128,7 @@
       "title": "Chris Dixon: From Quant Trading to Building a16z Crypto",
       "status": "needs_download",
       "published": "2026-03-02",
-      "age_days": 26,
+      "age_days": 27,
       "next_blocker": "downloaded"
     }
   ],

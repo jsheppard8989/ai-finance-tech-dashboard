@@ -1,5 +1,119 @@
 [
   {
+    "id": 97,
+    "name": "Simon White",
+    "slug": "simon-white",
+    "bio": "Bloomberg Macro strategist",
+    "known_for": "Analysis on secular inflation and macroeconomic trends",
+    "net_worth_usd": 112000000.0,
+    "net_worth_source": "https://www.gurufocus.com/insider/44/william-s-simon",
+    "net_worth_updated_at": "2026-03-20T22:08:35.505085",
+    "voice_tone": "Matter-of-fact and analytical",
+    "voice_style": "Factual and data-driven, with a focus on historical parallels",
+    "voice_delivery_notes": "Clear and concise, with a steady pace",
+    "voice_profile_updated_at": "2026-03-29 09:09:13",
+    "last_seen": "2026-03-29 09:09:13",
+    "last_episode_title": "MacroVoices-2026-03-19-Simon-White",
+    "last_podcast_name": "Unknown Podcast",
+    "last_episode_date": "2026-03-19",
+    "mention_score": 2,
+    "mention_score_decayed": 2,
+    "last_main_idea": "The Iran conflict could lead to a renewed inflation cycle, affecting commodities and energy markets, with potential second-order effects that markets may currently be underpricing.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-20T04:35:48.845381",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Simon White",
+      "fetched_at": "2026-03-20T09:35:48.845223+00:00",
+      "cliff_notes": "Simon White is recognized for his deep understanding of macroeconomic trends and their influence on global financial markets. As a Bloomberg Macro strategist, he provides critical analysis and forecasts that help investors navigate market volatility. His expertise is sought after in professional finance circles, particularly among high-net-worth individuals, family offices, and sophisticated investors. White's contributions to the Macrovoisers podcast further highlight his thought leadership in the field, where he discusses pressing issues such as secular inflation and its potential effects on economic outlooks.",
+      "derived": {
+        "current_role": "Bloomberg Macro strategist"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Simon White is recognized for his deep understanding of macroeconomic trends and their influence on global financial markets. As a Bloomberg Macro strategist, he provides critical analysis and forecasts that help investors navigate market volatility. His expertise is sought after in professional finance circles, particularly among high-net-worth individuals, family offices, and sophisticated investors.",
+        "White's contributions to the Macrovoisers podcast further highlight his thought leadership in the field, where he discusses pressing issues such as secular inflation and its potential effects on economic outlooks."
+      ],
+      "sections": [
+        {
+          "heading": "Market Analysis",
+          "body": "Simon White is known for his detailed market analysis, providing insights into how macroeconomic trends can affect investment strategies."
+        },
+        {
+          "heading": "Secular Inflation",
+          "body": "In his discussions, White often addresses secular inflation, explaining its potential impact on long-term economic growth and market performance."
+        },
+        {
+          "heading": "Financial Market Trends",
+          "body": "White's expertise extends to identifying and interpreting trends within the financial markets, offering valuable perspectives to investors."
+        }
+      ]
+    },
+    "net_worth": "$112.0M"
+  },
+  {
+    "id": 98,
+    "name": "Rory Johnston",
+    "slug": "rory-johnston",
+    "bio": "Commodity Context founder",
+    "known_for": "Perspectives on energy markets and commodity pricing",
+    "net_worth_usd": 200.0,
+    "net_worth_source": "https://www.bloomberg.com/news/articles/2026-03-10/rory-johnston-on-how-oil-could-surge-to-over-200-a-barrel",
+    "net_worth_updated_at": "2026-03-28T22:05:57.557236",
+    "voice_tone": "Informative and insightful",
+    "voice_style": "Direct and focused on market dynamics",
+    "voice_delivery_notes": "Paced with emphasis on key market indicators",
+    "voice_profile_updated_at": "2026-03-29 09:09:13",
+    "last_seen": "2026-03-29 09:09:13",
+    "last_episode_title": "MacroVoices-2026-03-19-Simon-White",
+    "last_podcast_name": "Unknown Podcast",
+    "last_episode_date": "2026-03-19",
+    "mention_score": 4,
+    "mention_score_decayed": 4,
+    "last_main_idea": "The Iran conflict could lead to a renewed inflation cycle, affecting commodities and energy markets, with potential second-order effects that markets may currently be underpricing.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-20T04:36:30.218908",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Rory Johnston",
+      "fetched_at": "2026-03-20T09:36:30.218739+00:00",
+      "cliff_notes": "Rory Johnston is a prominent figure in the field of energy market analysis, having founded Commodity Context, a company dedicated to providing in-depth analysis of commodity markets. His work is particularly relevant to investors and financial professionals who need to understand the intricacies of energy markets and their broader implications on the global economy. Johnston's expertise extends to commodities and macroeconomics, making him a valuable resource for those navigating the complexities of financial markets. His insights are regularly featured in discussions and analyses that aim to predict market trends and inform investment strategies.",
+      "derived": {
+        "current_role": "Founder, Commodity Context"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Rory Johnston is a prominent figure in the field of energy market analysis, having founded Commodity Context, a company dedicated to providing in-depth analysis of commodity markets. His work is particularly relevant to investors and financial professionals who need to understand the intricacies of energy markets and their broader implications on the global economy.",
+        "Johnston's expertise extends to commodities and macroeconomics, making him a valuable resource for those navigating the complexities of financial markets. His insights are regularly featured in discussions and analyses that aim to predict market trends and inform investment strategies."
+      ],
+      "sections": [
+        {
+          "heading": "Energy Market Analysis",
+          "body": "Rory Johnston is well-known for his detailed analysis of energy markets, providing investors with critical insights into market dynamics and trends."
+        },
+        {
+          "heading": "Macroeconomic Trends",
+          "body": "Johnston's work often intersects with macroeconomic trends, offering a unique perspective on how energy markets influence and are influenced by broader economic factors."
+        },
+        {
+          "heading": "Investment Strategy",
+          "body": "His expertise is highly valued by investors looking to make informed decisions in a volatile market, particularly in the context of commodities and energy."
+        }
+      ]
+    },
+    "net_worth": "$200"
+  },
+  {
     "id": 96,
     "name": "Jensen Huang",
     "slug": "jensen-huang",
@@ -242,9 +356,9 @@
     "slug": "christian-catalini",
     "bio": "Christian Catalini is a co-founder of LightSpark and founder of the MIT Crypto Economics Lab. He is known for his work in the intersection of technology, economics, and entrepreneurship, particularly in the field of AI and blockchain.",
     "known_for": "Authoring the influential paper 'Some Simple Economics of AI' and his contributions to the understanding of crypto economics.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
+    "net_worth_usd": 500000.0,
+    "net_worth_source": "https://en.wikipedia.org/wiki/Christian_Catalini",
+    "net_worth_updated_at": "2026-03-29T04:09:28.783743",
     "voice_tone": "Optimistic and analytical.",
     "voice_style": "Explanatory and speculative, discussing the future impacts of AI.",
     "voice_delivery_notes": "Paced with emphasis on the transformative potential of AI.",
@@ -295,7 +409,8 @@
           "body": "Catalini's research suggests that AI could give individuals the leverage of a team, fundamentally changing the nature of work and the potential for one-person billion-dollar startups."
         }
       ]
-    }
+    },
+    "net_worth": "$500,000"
   },
   {
     "id": 129,
@@ -353,63 +468,6 @@
       ]
     },
     "net_worth": "$600.00B"
-  },
-  {
-    "id": 98,
-    "name": "Rory Johnston",
-    "slug": "rory-johnston",
-    "bio": "Roy Johnson is one of the best independent oil and energy analysts at Commodity Context.",
-    "known_for": "Fundamental analysis of oil and energy markets, particularly during crises.",
-    "net_worth_usd": 200.0,
-    "net_worth_source": "https://www.bloomberg.com/news/articles/2026-03-10/rory-johnston-on-how-oil-could-surge-to-over-200-a-barrel",
-    "net_worth_updated_at": "2026-03-28T22:05:57.557236",
-    "voice_tone": "Matter-of-fact and concerned",
-    "voice_style": "Analytical and data-driven",
-    "voice_delivery_notes": "Paced, with emphasis on key data points and potential scenarios",
-    "voice_profile_updated_at": "2026-03-29 03:02:43",
-    "last_seen": "2026-03-29 03:02:43",
-    "last_episode_title": "EWWMN9153105374",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-03-15",
-    "mention_score": 3,
-    "mention_score_decayed": 3,
-    "last_main_idea": "The ongoing geopolitical crisis in the Middle East, particularly the situation around the Strait of Hormuz, presents a significant risk to global oil supply and prices, potentially leading to a sustained increase in oil prices.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-20T04:36:30.218908",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Rory Johnston",
-      "fetched_at": "2026-03-20T09:36:30.218739+00:00",
-      "cliff_notes": "Rory Johnston is a prominent figure in the field of energy market analysis, having founded Commodity Context, a company dedicated to providing in-depth analysis of commodity markets. His work is particularly relevant to investors and financial professionals who need to understand the intricacies of energy markets and their broader implications on the global economy. Johnston's expertise extends to commodities and macroeconomics, making him a valuable resource for those navigating the complexities of financial markets. His insights are regularly featured in discussions and analyses that aim to predict market trends and inform investment strategies.",
-      "derived": {
-        "current_role": "Founder, Commodity Context"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Rory Johnston is a prominent figure in the field of energy market analysis, having founded Commodity Context, a company dedicated to providing in-depth analysis of commodity markets. His work is particularly relevant to investors and financial professionals who need to understand the intricacies of energy markets and their broader implications on the global economy.",
-        "Johnston's expertise extends to commodities and macroeconomics, making him a valuable resource for those navigating the complexities of financial markets. His insights are regularly featured in discussions and analyses that aim to predict market trends and inform investment strategies."
-      ],
-      "sections": [
-        {
-          "heading": "Energy Market Analysis",
-          "body": "Rory Johnston is well-known for his detailed analysis of energy markets, providing investors with critical insights into market dynamics and trends."
-        },
-        {
-          "heading": "Macroeconomic Trends",
-          "body": "Johnston's work often intersects with macroeconomic trends, offering a unique perspective on how energy markets influence and are influenced by broader economic factors."
-        },
-        {
-          "heading": "Investment Strategy",
-          "body": "His expertise is highly valued by investors looking to make informed decisions in a volatile market, particularly in the context of commodities and energy."
-        }
-      ]
-    },
-    "net_worth": "$200"
   },
   {
     "id": 94,
@@ -539,7 +597,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-27",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Sovereign credit investing requires a deep understanding of the unique risks and dynamics of lending to governments, which can offer significant returns but also carries substantial risks, particularly in the current geopolitical climate.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-28T04:06:45.925345",
@@ -601,7 +659,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-27",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Investing in companies that apply lessons from SpaceX and Tesla can lead to innovation in the physical economy, focusing on scalability, communication, and technical expertise.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-28T04:06:58.025543",
@@ -663,7 +721,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-27",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Investing in companies that apply lessons from SpaceX and Tesla can lead to innovation in the physical economy, focusing on scalability, communication, and technical expertise.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-28T04:07:10.077867",
@@ -1055,61 +1113,5 @@
       ]
     },
     "net_worth": "$220.0M"
-  },
-  {
-    "id": 115,
-    "name": "Robert Goucher",
-    "slug": "robert-goucher",
-    "bio": "Vice-Admiral Robert Goucher is responsible for overseeing the strategic and operational aspects of submarine production for the United States Navy. He is known for his expertise in maintaining the stealth capabilities and strategic deterrence provided by the Navy's submarine fleet.",
-    "known_for": "Leading the U.S. Navy's submarine production efforts and addressing the challenges of modernizing the fleet.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Authoritative and pragmatic",
-    "voice_style": "Strategic and solution-focused",
-    "voice_delivery_notes": "Deliberate with an emphasis on the importance of the mission",
-    "voice_profile_updated_at": "2026-03-26 09:20:15",
-    "last_seen": "2026-03-26 09:20:15",
-    "last_episode_title": "Submarine Manufacturing and Advanced Factories",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-03-25",
-    "mention_score": 1,
-    "mention_score_decayed": 0.95,
-    "last_main_idea": "Investing in advanced manufacturing and workforce development for submarine production could lead to increased efficiency and meet the growing demand for naval capabilities.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-26T04:21:24.879895",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Robert Goucher",
-      "fetched_at": "2026-03-26T09:21:24.879791+00:00",
-      "cliff_notes": "Vice-Admiral Robert Goucher has had a distinguished career in the United States Navy, with a focus on submarine production. His role involves overseeing the strategic and operational aspects of submarine production, ensuring the Navy maintains its stealth and access capabilities. Goucher has been at the forefront of efforts to modernize the Navy's fleet, addressing the challenges posed by the end of the Cold War and the subsequent collapse in submarine production. He has emphasized the importance of combining a new workforce, American software, steel, and spirit to achieve a productivity uplift in submarine manufacturing. His leadership is crucial in ensuring the United States maintains its strategic deterrence and peace through strength.",
-      "derived": {
-        "current_role": "Vice-Admiral in charge of all submarine production for the United States Navy"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Vice-Admiral Robert Goucher has had a distinguished career in the United States Navy, with a focus on submarine production. His role involves overseeing the strategic and operational aspects of submarine production, ensuring the Navy maintains its stealth and access capabilities. Goucher has been at the forefront of efforts to modernize the Navy's fleet, addressing the challenges posed by the end of the Cold War and the subsequent collapse in submarine production.",
-        "He has emphasized the importance of combining a new workforce, American software, steel, and spirit to achieve a productivity uplift in submarine manufacturing. His leadership is crucial in ensuring the United States maintains its strategic deterrence and peace through strength."
-      ],
-      "sections": [
-        {
-          "heading": "Submarine Production",
-          "body": "Vice-Admiral Robert Goucher is responsible for overseeing the strategic and operational aspects of submarine production for the United States Navy, ensuring the fleet's stealth and access capabilities are maintained."
-        },
-        {
-          "heading": "Modernizing the Fleet",
-          "body": "Goucher has been at the forefront of efforts to modernize the Navy's submarine fleet, addressing the challenges posed by the end of the Cold War and the subsequent collapse in submarine production."
-        },
-        {
-          "heading": "Productivity Uplift",
-          "body": "Emphasizing the importance of combining a new workforce, American software, steel, and spirit, Goucher is focused on achieving a productivity uplift in submarine manufacturing to meet the Navy's increased capacity needs."
-        }
-      ]
-    }
   }
 ]

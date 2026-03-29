@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-03-28T22:02:04.133467",
-  "total_feed_episodes": 4,
-  "approved_for_transcription": 4,
+  "timestamp": "2026-03-29T04:08:45.600654",
+  "total_feed_episodes": 3,
+  "approved_for_transcription": 3,
   "episodes": [
     {
       "podcast": "Moonshots with Peter Diamandis",
@@ -41,19 +41,6 @@
       "matched_keywords": [],
       "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_chris_dixon__from_quant_trading_to_building_a16z_crypto_be2e5b4b.mp3",
       "filename": "the_a16z_show_chris_dixon__from_quant_trading_to_building_a16z_crypto_be2e5b4b.mp3"
-    },
-    {
-      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "title": "Anthropic's Generational Run, OpenAI Panics, AI Moats, Meta Loses Lawsuits",
-      "description": "<p>(0:00) Bestie intros!: Friedberg for Governor of California?</p> <p>(2:25) Anthropic's generational run</p> <p>(15:45) OpenAI: getting focused or panic mode?</p> <p>(36:56) AI valuation impacts, moats, and disruption</p> <p>(43:58) Liquidity speaker announcements, the 100x AI moment</p> <p>(50:35) Two landmark social media verdicts against Meta</p> <p>(1:12:46) Sacks and Friedberg join PCAST!</p> <p>Follow the besties:</p> <p><a href=\"https://x.com/chamath\">https://x.com/chamath</a></p> <p><a",
-      "audio_url": "https://dts.podtrac.com/redirect.mp3/traffic.libsyn.com/secure/allinchamathjason/ALLIN-E266_Ch.mp3?dest-id=1928300",
-      "published": "Fri, 27 Mar 2026 20:03:00 +0000",
-      "published_date": "2026-03-27",
-      "rss_guid": "4a43da89-9d1a-4b9e-9304-aa9ab4a1ee97",
-      "status": "APPROVED",
-      "matched_keywords": [],
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/all_in_with_chamath__jason__sacks___frie_anthropic_s_generational_run__openai_panics__ai_moats__meta__028be5c3.mp3",
-      "filename": "all_in_with_chamath__jason__sacks___frie_anthropic_s_generational_run__openai_panics__ai_moats__meta__028be5c3.mp3"
     }
   ]
 }
