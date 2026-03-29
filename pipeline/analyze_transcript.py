@@ -46,6 +46,7 @@ PODCAST_PATTERNS = {
     'dario_amodei': ('a16z Live', r'dario_amodei'),
     'elon_musk': ('The Moonshot Podcast', r'elon_musk'),
     'peter_diamandis': ('Moonshots with Peter Diamandis', r'peter_diamandis_(\d+)'),
+    'dwarkesh_podcast': ('Dwarkesh Podcast', r'dwarkesh_podcast'),
     'default': ('a16z Live', r'default'),
 }
 
@@ -403,13 +404,22 @@ def analyze_transcript_with_ai(client_info, transcript_content: str, podcast_nam
         return None
 
 
-def episode_exists_in_db(db, podcast_name: str, episode_title: str, rss_guid: str = None) -> bool:
+def episode_exists_in_db(
+    db,
+    podcast_name: str,
+    episode_title: str,
+    rss_guid: str = None,
+    transcript_stem: str = None,
+) -> bool:
     """Check if an episode already exists in database.
-    
+
     Priority:
     1. rss_guid match (canonical, bulletproof)
     2. Exact podcast_name + episode_title match
     3. Fuzzy title match (first 50 chars, case-insensitive)
+
+    When rss_guid is missing, steps 2–3 require the same transcript file (stem match on
+    ``transcript_path``) so generic AI-inferred titles cannot collide across different episodes.
     """
     import sqlite3 as _sqlite3
     try:
@@ -424,10 +434,17 @@ def episode_exists_in_db(db, podcast_name: str, episode_title: str, rss_guid: st
                 conn.close()
                 return True
 
+        stem_clause = ""
+        stem_param: tuple = ()
+        if transcript_stem and not (rss_guid or "").strip():
+            stem_clause = " AND transcript_path IS NOT NULL AND transcript_path LIKE ?"
+            stem_param = (f"%{transcript_stem}%",)
+
         # 2. Exact title match
         row = conn.execute(
-            "SELECT id FROM podcast_episodes WHERE podcast_name = ? AND episode_title = ?",
-            (podcast_name, episode_title)
+            "SELECT id FROM podcast_episodes WHERE podcast_name = ? AND episode_title = ?"
+            + stem_clause,
+            (podcast_name, episode_title) + stem_param,
         ).fetchone()
         if row:
             conn.close()
@@ -437,8 +454,9 @@ def episode_exists_in_db(db, podcast_name: str, episode_title: str, rss_guid: st
         row = conn.execute(
             """SELECT id FROM podcast_episodes
                WHERE podcast_name = ?
-               AND LOWER(SUBSTR(episode_title, 1, 50)) = LOWER(SUBSTR(?, 1, 50))""",
-            (podcast_name, episode_title)
+               AND LOWER(SUBSTR(episode_title, 1, 50)) = LOWER(SUBSTR(?, 1, 50))"""
+            + stem_clause,
+            (podcast_name, episode_title) + stem_param,
         ).fetchone()
         conn.close()
         return row is not None
@@ -483,6 +501,9 @@ def process_transcript_file(transcript_path: Path, client_info, db) -> Optional[
             pass
     rss_guid = sidecar.get('rss_guid', '') or ''
 
+    published_raw = sidecar.get("published_date") or sidecar.get("published") or ""
+    sidecar_has_date = bool(published_raw)
+
     # Get a preview of the episode title from the first line
     first_line = content.strip().split('\n')[0][:100] if content else episode_slug
     # If we don't have a stable rss_guid from the sidecar, the first transcript line
@@ -490,8 +511,11 @@ def process_transcript_file(transcript_path: Path, client_info, db) -> Optional[
     # the filename-derived slug as the dedupe key so we don't accidentally skip.
     lookup_title_for_dedupe = first_line if rss_guid else episode_slug
     
+    transcript_stem = transcript_path.stem
     # Check if this episode already exists in database (guid first, then title)
-    if episode_exists_in_db(db, podcast_name, lookup_title_for_dedupe, rss_guid):
+    if episode_exists_in_db(
+        db, podcast_name, lookup_title_for_dedupe, rss_guid, transcript_stem=transcript_stem
+    ):
         print(f"    ⏭ Episode already in database (duplicate), skipping")
         mark_transcript_processed(transcript_path, -1)  # Mark as processed to avoid re-checking
         return None
@@ -529,17 +553,22 @@ def process_transcript_file(transcript_path: Path, client_info, db) -> Optional[
         # Common token fix: "gpt 5 4" => "GPT 5.4"
         derived = re.sub(r'\bgpt\s+(\d+)\s+(\d+)\b', r'GPT \\1.\\2', derived, flags=re.IGNORECASE)
         episode_title = derived if derived else episode_title_ai
+
+    # RSS/curation sidecar wins over LLM-inferred titles (single source of truth for display).
+    sidecar_episode_title = (sidecar.get("episode_title") or "").strip()
+    if sidecar_episode_title:
+        episode_title = sidecar_episode_title
     
-    # CRITICAL: Check database again with the AI-extracted title (more accurate)
-    if episode_exists_in_db(db, podcast_name, episode_title, rss_guid):
+    # CRITICAL: Check database again with the final title (sidecar or AI/derived)
+    if episode_exists_in_db(
+        db, podcast_name, episode_title, rss_guid, transcript_stem=transcript_stem
+    ):
         print(f"    ⏭ Episode '{episode_title[:60]}...' already in database, skipping")
         mark_transcript_processed(transcript_path, -1)
         return None
     
     # Use published date from sidecar if available (more accurate than AI-extracted date).
     # We support both \"published_date\" (YYYY-MM-DD) and \"published\" (full timestamp) keys.
-    published_raw = sidecar.get('published_date') or sidecar.get('published') or ''
-    sidecar_has_date = bool(published_raw)
     if published_raw:
         try:
             # Normalise to YYYY-MM-DD first when possible

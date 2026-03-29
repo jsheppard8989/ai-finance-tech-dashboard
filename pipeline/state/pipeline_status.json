@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-28T04:08:28.543199",
+  "last_updated": "2026-03-28T22:10:35.888664",
   "episodes": {
     "moonshots_with_peter_diamandis_elon's_$5_trillion_bet,_the_en": {
       "info": {
@@ -39,7 +39,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-28T04:08:28.405196",
+      "first_seen": "2026-03-28T22:10:35.809861",
       "status": "needs_analysis"
     },
     "moonshots_with_peter_diamandis_nvidia's_$1_trillion_predictio": {
@@ -80,217 +80,8 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-28T04:08:28.455039",
+      "first_seen": "2026-03-28T22:10:35.851748",
       "status": "needs_analysis"
-    },
-    "moonshots_with_peter_diamandis_meta_buys_moltbook,_gpt_5.4,_a": {
-      "info": {
-        "podcast": "Moonshots with Peter Diamandis",
-        "title": "Meta Buys Moltbook, GPT 5.4, and Fruitfly Brain Upload | Moonshots Live at The Abundance Summit 238",
-        "published": "2026-03-17",
-        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/moonshots_with_peter_diamandis_meta_buys_moltbook__gpt_5_4__and_fruitfly_brain_upload___moo_609f0b8d.mp3",
-        "keywords": [],
-        "rss_guid": "e1cac66e-2231-11f1-82c3-c7e649c4b364"
-      },
-      "stages": {
-        "downloaded": {
-          "complete": true,
-          "timestamp": null,
-          "reason": null
-        },
-        "transcribed": {
-          "complete": true,
-          "file": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/moonshots_with_peter_diamandis_meta_buys_moltbook__gpt_5_4__and_fruitfly_brain_upload___moo_609f0b8d.txt",
-          "timestamp": null,
-          "reason": null
-        },
-        "analyzed": {
-          "complete": false,
-          "episode_id": null,
-          "timestamp": null,
-          "reason": "Analysis failed: analysis_error"
-        },
-        "insight_created": {
-          "complete": false,
-          "timestamp": null,
-          "reason": "Depends on analyze step first."
-        },
-        "published": {
-          "complete": false,
-          "timestamp": null,
-          "reason": "Not in data.js yet (run export and push to site)."
-        }
-      },
-      "first_seen": "2026-03-28T04:08:28.469454",
-      "status": "blocked_analysis"
-    },
-    "monetary_matters_with_jack_farley_how_the_iran_war_reshapes_the_": {
-      "info": {
-        "podcast": "Monetary Matters with Jack Farley",
-        "title": "How the Iran War Reshapes the Sovereign Debt Landscape | Sovereign Debt Expert Lupin Rahman",
-        "published": "2026-03-27",
-        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/EWWMN1195670071.mp3",
-        "keywords": [],
-        "rss_guid": "110b8442-29f6-11f1-a6ee-277ab7a5a2ba"
-      },
-      "stages": {
-        "downloaded": {
-          "complete": true,
-          "timestamp": null,
-          "reason": null
-        },
-        "transcribed": {
-          "complete": true,
-          "file": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/EWWMN1195670071.txt",
-          "timestamp": null,
-          "reason": null
-        },
-        "analyzed": {
-          "complete": true,
-          "episode_id": 109,
-          "timestamp": null,
-          "reason": null
-        },
-        "insight_created": {
-          "complete": true,
-          "insight_id": 26,
-          "insight_title": "Milton Berg: Rare Signal \u2014 Local Bottom or Major Top Ahead",
-          "timestamp": null,
-          "reason": null
-        },
-        "published": {
-          "complete": false,
-          "timestamp": null,
-          "reason": "Not in data.js yet (run export and push to site)."
-        }
-      },
-      "first_seen": "2026-03-28T04:08:28.477508",
-      "status": "needs_export"
-    },
-    "monetary_matters_with_jack_farley_stock_market_on_shaky_foundati": {
-      "info": {
-        "podcast": "Monetary Matters with Jack Farley",
-        "title": "Stock Market on Shaky Foundations | Blind Squirrel Macro\u2019s Rupert Mitchell on IPO Supply, Oil, and Private Credit",
-        "published": "2026-03-18",
-        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/monetary_matters_with_jack_farley_stock_market_on_shaky_foundations___blind_squirrel_macro_s_r_12c3cce4.mp3",
-        "keywords": [],
-        "rss_guid": "e3ce0ba4-22dd-11f1-b3e1-ef93882cc84d"
-      },
-      "stages": {
-        "downloaded": {
-          "complete": true,
-          "timestamp": null,
-          "reason": null
-        },
-        "transcribed": {
-          "complete": true,
-          "file": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/monetary_matters_with_jack_farley_stock_market_on_shaky_foundations___blind_squirrel_macro_s_r_12c3cce4.txt",
-          "timestamp": null,
-          "reason": null
-        },
-        "analyzed": {
-          "complete": false,
-          "episode_id": null,
-          "timestamp": null,
-          "reason": "Analysis failed: analysis_error"
-        },
-        "insight_created": {
-          "complete": false,
-          "timestamp": null,
-          "reason": "Depends on analyze step first."
-        },
-        "published": {
-          "complete": false,
-          "timestamp": null,
-          "reason": "Not in data.js yet (run export and push to site)."
-        }
-      },
-      "first_seen": "2026-03-28T04:08:28.484892",
-      "status": "blocked_analysis"
-    },
-    "the_a16z_show_the_spacex_and_tesla_playbook_": {
-      "info": {
-        "podcast": "The a16z Show",
-        "title": "The SpaceX and Tesla Playbook for Hard Tech Startups",
-        "published": "2026-03-27",
-        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_the_spacex_and_tesla_playbook_for_hard_tech_startups_7f69fa08.mp3",
-        "keywords": [],
-        "rss_guid": "0e782201-44f6-4ff3-99b0-ffc1a86a764b"
-      },
-      "stages": {
-        "downloaded": {
-          "complete": true,
-          "timestamp": null,
-          "reason": null
-        },
-        "transcribed": {
-          "complete": true,
-          "file": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/the_a16z_show_20260327_0e782201_44f6_4ff3_99b0_ffc1a86a.txt",
-          "timestamp": null,
-          "reason": null
-        },
-        "analyzed": {
-          "complete": true,
-          "episode_id": 108,
-          "timestamp": null,
-          "reason": null
-        },
-        "insight_created": {
-          "complete": true,
-          "insight_id": 50,
-          "insight_title": "The a16z Show: New Media Strategy and Investment Insights",
-          "timestamp": null,
-          "reason": null
-        },
-        "published": {
-          "complete": false,
-          "timestamp": null,
-          "reason": "Not in data.js yet (run export and push to site)."
-        }
-      },
-      "first_seen": "2026-03-28T04:08:28.496839",
-      "status": "needs_export"
-    },
-    "the_a16z_show_ai_just_gave_you_superpowers_\u2014": {
-      "info": {
-        "podcast": "The a16z Show",
-        "title": "AI Just Gave You Superpowers \u2014 Now What?",
-        "published": "2026-03-19",
-        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_ai_just_gave_you_superpowers___now_what__ccf57061.mp3",
-        "keywords": [],
-        "rss_guid": "1e92a9dd-78da-4417-b1ce-4b4318d1f8c4"
-      },
-      "stages": {
-        "downloaded": {
-          "complete": true,
-          "timestamp": null,
-          "reason": null
-        },
-        "transcribed": {
-          "complete": true,
-          "file": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/the_a16z_show_ai_just_gave_you_superpowers___now_what__ccf57061.txt",
-          "timestamp": null,
-          "reason": null
-        },
-        "analyzed": {
-          "complete": false,
-          "episode_id": null,
-          "timestamp": null,
-          "reason": "Analysis failed: analysis_error"
-        },
-        "insight_created": {
-          "complete": false,
-          "timestamp": null,
-          "reason": "Depends on analyze step first."
-        },
-        "published": {
-          "complete": false,
-          "timestamp": null,
-          "reason": "Not in data.js yet (run export and push to site)."
-        }
-      },
-      "first_seen": "2026-03-28T04:08:28.504188",
-      "status": "blocked_analysis"
     },
     "the_a16z_show_chris_dixon:_from_quant_tradin": {
       "info": {
@@ -330,7 +121,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-28T04:08:28.511488",
+      "first_seen": "2026-03-28T22:10:35.864463",
       "status": "blocked_analysis"
     },
     "all-in_with_chamath,_jason,_sacks_&_friedberg_anthropic's_generational_run,_": {
@@ -338,7 +129,7 @@
         "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
         "title": "Anthropic's Generational Run, OpenAI Panics, AI Moats, Meta Loses Lawsuits",
         "published": "2026-03-27",
-        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/ALLIN-E266_Ch.mp3",
+        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/all_in_with_chamath__jason__sacks___frie_anthropic_s_generational_run__openai_panics__ai_moats__meta__028be5c3.mp3",
         "keywords": [],
         "rss_guid": "4a43da89-9d1a-4b9e-9304-aa9ab4a1ee97"
       },
@@ -355,15 +146,17 @@
           "reason": null
         },
         "analyzed": {
-          "complete": false,
-          "episode_id": null,
+          "complete": true,
+          "episode_id": 117,
           "timestamp": null,
-          "reason": "Waiting for next analyze run (transcript \u2192 DB)."
+          "reason": null
         },
         "insight_created": {
-          "complete": false,
+          "complete": true,
+          "insight_id": 44,
+          "insight_title": "The Epstein Saga: Diverse Perspectives and Investment Implications",
           "timestamp": null,
-          "reason": "Depends on analyze step first."
+          "reason": null
         },
         "published": {
           "complete": false,
@@ -371,49 +164,8 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-28T04:08:28.524545",
-      "status": "needs_analysis"
-    },
-    "dwarkesh_podcast_why_leonardo_was_a_saboteur,_g": {
-      "info": {
-        "podcast": "Dwarkesh Podcast",
-        "title": "Why Leonardo was a saboteur, Gutenberg went broke, and Florence was weird \u2013 Ada Palmer",
-        "published": "2026-03-06",
-        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/dwarkesh_podcast_why_leonardo_was_a_saboteur__gutenberg_went_broke__and_flore_d121fb5b.mp3",
-        "keywords": [],
-        "rss_guid": "substack:post:190118311"
-      },
-      "stages": {
-        "downloaded": {
-          "complete": true,
-          "timestamp": null,
-          "reason": null
-        },
-        "transcribed": {
-          "complete": true,
-          "file": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/dwarkesh_podcast_why_leonardo_was_a_saboteur__gutenberg_went_broke__and_flore_d121fb5b.txt",
-          "timestamp": null,
-          "reason": null
-        },
-        "analyzed": {
-          "complete": false,
-          "episode_id": null,
-          "timestamp": null,
-          "reason": "Analysis failed: analysis_error"
-        },
-        "insight_created": {
-          "complete": false,
-          "timestamp": null,
-          "reason": "Depends on analyze step first."
-        },
-        "published": {
-          "complete": false,
-          "timestamp": null,
-          "reason": "Not in data.js yet (run export and push to site)."
-        }
-      },
-      "first_seen": "2026-03-28T04:08:28.537763",
-      "status": "blocked_analysis"
+      "first_seen": "2026-03-28T22:10:35.876851",
+      "status": "needs_export"
     }
   }
 }

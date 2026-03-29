@@ -145,6 +145,26 @@ def _export_pipeline_state(site_dir: Path):
     insights_by_episode_id = {}
     try:
         with db._get_connection() as conn:
+            # Insight counts for every episode id — not only rows matched by rss_guid below.
+            # Episodes with NULL/missing rss_guid are joined via fuzzy fallback; their ids were
+            # omitted from the old "insights for guid-matched ids only" query, which falsely
+            # showed insight_created=false (pipeline stuck on needs_insight) despite a row in
+            # latest_insights.
+            cur_ins = conn.execute(
+                """
+                SELECT podcast_episode_id, COUNT(*) as c
+                FROM latest_insights
+                WHERE podcast_episode_id IS NOT NULL
+                GROUP BY podcast_episode_id
+                """
+            )
+            for row2 in cur_ins.fetchall():
+                rr = dict(row2)
+                pid = rr.get("podcast_episode_id")
+                if pid is None:
+                    continue
+                insights_by_episode_id[int(pid)] = int(rr["c"] or 0)
+
             # Fetch all podcast_episodes rows for curated rss_guids in one shot.
             guids = [str(ep.get("rss_guid") or "").strip() for ep in curated_eps if ep.get("rss_guid")]
             guids = sorted(set([g for g in guids if g]))
@@ -163,23 +183,6 @@ def _export_pipeline_state(site_dir: Path):
                 for row in cur.fetchall():
                     r = dict(row)
                     episode_rows_by_guid[str(r.get("rss_guid") or "")] = r
-
-                # Fetch insight existence for all matched episode ids.
-                ep_ids = [int(r["id"]) for r in episode_rows_by_guid.values() if r.get("id") is not None]
-                if ep_ids:
-                    q_marks = ",".join(["?"] * len(ep_ids))
-                    cur2 = conn.execute(
-                        f"""
-                        SELECT podcast_episode_id, COUNT(*) as c
-                        FROM latest_insights
-                        WHERE podcast_episode_id IN ({q_marks})
-                        GROUP BY podcast_episode_id
-                        """,
-                        ep_ids,
-                    )
-                    for row2 in cur2.fetchall():
-                        rr = dict(row2)
-                        insights_by_episode_id[int(rr["podcast_episode_id"])] = int(rr["c"] or 0)
     except Exception as e:
         print(f"  ⚠ Could not build pipeline_state from DB: {e}")
 
@@ -291,6 +294,14 @@ def _export_pipeline_state(site_dir: Path):
                     pe = best_row if best_ratio >= 0.35 else None
                 except Exception:
                     pe = None
+                # Never attach another episode's DB row: fuzzy match must not steal
+                # pipeline state when this curation row has its own rss_guid that
+                # simply isn't in podcast_episodes yet (or differs from a coincidentally
+                # similar title — e.g. "…Building a16z…" vs "Building for the Physical Economy").
+                if pe is not None and rss_guid:
+                    db_g = str(pe.get("rss_guid") or "").strip()
+                    if db_g and db_g != rss_guid:
+                        pe = None
                 fallback_cache[cache_key] = pe
         has_db_row = bool(pe)
         podcast_episode_id = int(pe["id"]) if pe and pe.get("id") is not None else None

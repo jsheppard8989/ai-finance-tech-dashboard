@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-03-28T04:02:13.215089",
-  "total_feed_episodes": 10,
-  "approved_for_transcription": 10,
+  "timestamp": "2026-03-28T22:02:04.133467",
+  "total_feed_episodes": 4,
+  "approved_for_transcription": 4,
   "episodes": [
     {
       "podcast": "Moonshots with Peter Diamandis",
@@ -30,71 +30,6 @@
       "filename": "moonshots_with_peter_diamandis_nvidia_s__1_trillion_prediction__anthropic_beats_openai__tes_c82c7892.mp3"
     },
     {
-      "podcast": "Moonshots with Peter Diamandis",
-      "title": "Meta Buys Moltbook, GPT 5.4, and Fruitfly Brain Upload | Moonshots Live at The Abundance Summit 238",
-      "description": "\n        <p>Peter H. Diamandis, MD, is the Founder of XPRIZE, Singularity University, ZeroG, and A360\n\nSalim Ismail is the founder of OpenExO\n\nDave Blundin is the founder &amp; GP of Link Ventures\n\nDr. Alexander Wissner-Gross is a computer scientist and founder of Reified\n\nEmad Mostaque is the founder of Intelligent Internet\n\n\u2013\n\nMy companies:\n\nApply to Dave's and my new fund: https://qr.diamandis.com/linkventures...  \n\nGo to Blitzy to book a free demo and start building today: https://qr.diamand",
-      "audio_url": "https://traffic.megaphone.fm/DVVTS1697513973.mp3",
-      "published": "Tue, 17 Mar 2026 21:22:00 -0000",
-      "published_date": "2026-03-17",
-      "rss_guid": "e1cac66e-2231-11f1-82c3-c7e649c4b364",
-      "status": "APPROVED",
-      "matched_keywords": [],
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/moonshots_with_peter_diamandis_meta_buys_moltbook__gpt_5_4__and_fruitfly_brain_upload___moo_609f0b8d.mp3",
-      "filename": "moonshots_with_peter_diamandis_meta_buys_moltbook__gpt_5_4__and_fruitfly_brain_upload___moo_609f0b8d.mp3"
-    },
-    {
-      "podcast": "Monetary Matters with Jack Farley",
-      "title": "How the Iran War Reshapes the Sovereign Debt Landscape | Sovereign Debt Expert Lupin Rahman",
-      "description": "\n        <p>Learn More About Unlimited HFGM Global Macro ETF $HFGM:\u00a0<a href=\"https://unlimitedetfs.com/hfgm\">https://unlimitedetfs.com/hfgm</a></p>\n<p>\u00a0</p>\n<p>Former Head of Sovereign Credit at PIMCO Lupin Rahman joins Jack to discuss sovereign debt and its peculiarities. She explains why its technicals can differ significantly from fundamentals, the growth of emerging market debt, and risks to consider when investing in these assets. Jack and Lupin also discuss the important conflict in the Mi",
-      "audio_url": "https://traffic.megaphone.fm/EWWMN1195670071.mp3",
-      "published": "Fri, 27 Mar 2026 16:00:00 -0000",
-      "published_date": "2026-03-27",
-      "rss_guid": "110b8442-29f6-11f1-a6ee-277ab7a5a2ba",
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/EWWMN1195670071.mp3",
-      "filename": "EWWMN1195670071.mp3",
-      "status": "APPROVED",
-      "matched_keywords": []
-    },
-    {
-      "podcast": "Monetary Matters with Jack Farley",
-      "title": "Stock Market on Shaky Foundations | Blind Squirrel Macro\u2019s Rupert Mitchell on IPO Supply, Oil, and Private Credit",
-      "description": "\n        <p>Learn more about Teucrium\u2019s Soybean ETF (SOYB) here: <a href=\"https://teucrium.com/soyb\"><u>https://teucrium.com/soyb</u><br></a></p>\n<p>In this episode of Monetary Matters, Jack sits down with Rupert Mitchell of Blind Squirrel Macro to unpack why the foundations of the current US stock market bull run might be crumbling. Mitchell details his transition to a 50% cash and gold portfolio, warning that a looming wave of jumbo IPOs and cracks in the private credit markets could severely ",
-      "audio_url": "https://traffic.megaphone.fm/EWWMN5922696172.mp3",
-      "published": "Wed, 18 Mar 2026 15:19:00 -0000",
-      "published_date": "2026-03-18",
-      "rss_guid": "e3ce0ba4-22dd-11f1-b3e1-ef93882cc84d",
-      "status": "APPROVED",
-      "matched_keywords": [],
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/monetary_matters_with_jack_farley_stock_market_on_shaky_foundations___blind_squirrel_macro_s_r_12c3cce4.mp3",
-      "filename": "monetary_matters_with_jack_farley_stock_market_on_shaky_foundations___blind_squirrel_macro_s_r_12c3cce4.mp3"
-    },
-    {
-      "podcast": "The a16z Show",
-      "title": "The SpaceX and Tesla Playbook for Hard Tech Startups",
-      "description": "<p>Erin Price-Wright speaks with Chandler Luzsicza, founder and CEO of Galadyne, and Turner Caldwell, cofounder and CEO of Mariana Minerals, about what they actually learned building Starship and Tesla's lithium refinery, and how those lessons translate to their own startups. They cover decision velocity, flat organizations, critical path management, vertical integration, hiring for high-talent-density teams, and how to set aggressive milestones without burning people out.</p>\n<p>\u00a0</p>\n<p>Resour",
-      "audio_url": "https://mgln.ai/e/1344/afp-848985-injected.calisto.simplecastaudio.com/3f86df7b-51c6-4101-88a2-550dba782de8/episodes/a4eb08f0-5707-4a2c-b7c6-728b4e5ae186/audio/128/default.mp3?aid=rss_feed&awCollectionId=3f86df7b-51c6-4101-88a2-550dba782de8&awEpisodeId=a4eb08f0-5707-4a2c-b7c6-728b4e5ae186&feed=JGE3yC0V",
-      "published": "Fri, 27 Mar 2026 10:00:00 +0000",
-      "published_date": "2026-03-27",
-      "rss_guid": "0e782201-44f6-4ff3-99b0-ffc1a86a764b",
-      "status": "APPROVED",
-      "matched_keywords": [],
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_the_spacex_and_tesla_playbook_for_hard_tech_startups_7f69fa08.mp3",
-      "filename": "the_a16z_show_the_spacex_and_tesla_playbook_for_hard_tech_startups_7f69fa08.mp3"
-    },
-    {
-      "podcast": "The a16z Show",
-      "title": "AI Just Gave You Superpowers \u2014 Now What?",
-      "description": "<p>A new paper, \u201cSome Simple Economics of AGI,\u201d is making the rounds\u2014Web3 with a16z we sat down with author Christian Catalini (MIT Crypto Economics Lab) and Eddy Lazzarin (CTO of a16z crypto), in conversation with Robert Hackett, to unpack what AGI could mean for work and markets.</p>\n<p>EPISODE NOTES:\u00a0</p>\n<p>A hot paper \u2014 \"Some Simple Economics of AGI\" \u2014 has been making the rounds, so we sat down with the author, covering:\u00a0</p>\n<ul>\n <li>Automation vs. verification: the key economic split\u00a0</l",
-      "audio_url": "https://mgln.ai/e/1344/afp-848985-injected.calisto.simplecastaudio.com/3f86df7b-51c6-4101-88a2-550dba782de8/episodes/0911ade7-ebb7-42bd-9dc0-25e9d5bb9181/audio/128/default.mp3?aid=rss_feed&awCollectionId=3f86df7b-51c6-4101-88a2-550dba782de8&awEpisodeId=0911ade7-ebb7-42bd-9dc0-25e9d5bb9181&feed=JGE3yC0V",
-      "published": "Thu, 19 Mar 2026 10:00:00 +0000",
-      "published_date": "2026-03-19",
-      "rss_guid": "1e92a9dd-78da-4417-b1ce-4b4318d1f8c4",
-      "status": "APPROVED",
-      "matched_keywords": [],
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_ai_just_gave_you_superpowers___now_what__ccf57061.mp3",
-      "filename": "the_a16z_show_ai_just_gave_you_superpowers___now_what__ccf57061.mp3"
-    },
-    {
       "podcast": "The a16z Show",
       "title": "Chris Dixon: From Quant Trading to Building a16z Crypto",
       "description": "<p>In this feed drop from the Internet History Podcast, host Brian McCullough speaks with Chris Dixon, general partner at a16z, about his path from 1980s hobbyist programmer to one of the most prominent venture capitalists in tech. Chris traces his career from quantitative finance to founding SiteAdvisor, cofounding Founder Collective, starting an early machine learning company, and eventually building a16z's crypto practice from the ground up. They also discuss his framework for spotting unconv",
@@ -115,23 +50,10 @@
       "published": "Fri, 27 Mar 2026 20:03:00 +0000",
       "published_date": "2026-03-27",
       "rss_guid": "4a43da89-9d1a-4b9e-9304-aa9ab4a1ee97",
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/ALLIN-E266_Ch.mp3",
-      "filename": "ALLIN-E266_Ch.mp3",
-      "status": "APPROVED",
-      "matched_keywords": []
-    },
-    {
-      "podcast": "Dwarkesh Podcast",
-      "title": "Why Leonardo was a saboteur, Gutenberg went broke, and Florence was weird \u2013 Ada Palmer",
-      "description": "<p>Renaissance history is so much wilder and weirder than you would have expected. Very fun chatting with <a target=\"_blank\" href=\"https://www.adapalmer.com/\">Ada Palmer</a> (historian, novelist, and composer based at the University of Chicago).</p><p>Some especially fascinating things I learned from the conversation and her excellent book, <a target=\"_blank\" href=\"https://a.co/d/03EjyByR\"><em>Inventing the Renaissance</em></a>:</p><p>Not only did Gutenberg go bankrupt in the 1450s (after invent",
-      "audio_url": "https://api.substack.com/feed/podcast/190118311/8c3433af58d7b7ad7ee60c28c569017a.mp3",
-      "published": "Fri, 06 Mar 2026 17:14:20 GMT",
-      "published_date": "2026-03-06",
-      "rss_guid": "substack:post:190118311",
       "status": "APPROVED",
       "matched_keywords": [],
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/dwarkesh_podcast_why_leonardo_was_a_saboteur__gutenberg_went_broke__and_flore_d121fb5b.mp3",
-      "filename": "dwarkesh_podcast_why_leonardo_was_a_saboteur__gutenberg_went_broke__and_flore_d121fb5b.mp3"
+      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/all_in_with_chamath__jason__sacks___frie_anthropic_s_generational_run__openai_panics__ai_moats__meta__028be5c3.mp3",
+      "filename": "all_in_with_chamath__jason__sacks___frie_anthropic_s_generational_run__openai_panics__ai_moats__meta__028be5c3.mp3"
     }
   ]
 }

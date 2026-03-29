@@ -1,5 +1,527 @@
 [
   {
+    "id": 96,
+    "name": "Jensen Huang",
+    "slug": "jensen-huang",
+    "bio": "Co-founder and CEO of Nvidia, a leading company in AI and GPU technology.",
+    "known_for": "Driving Nvidia's innovation in AI and GPU technology.",
+    "net_worth_usd": 151000000000.0,
+    "net_worth_source": "https://www.wikidata.org/wiki/Q305177",
+    "net_worth_updated_at": "2026-03-20T04:40:55.469936",
+    "voice_tone": "Confident and visionary.",
+    "voice_style": "Factual and future-oriented, with a focus on technology's transformative potential.",
+    "voice_delivery_notes": "Speak with a steady pace, emphasizing the transformative aspects of AI.",
+    "voice_profile_updated_at": "2026-03-29 03:04:27",
+    "last_seen": "2026-03-29 03:04:27",
+    "last_episode_title": "all in with chamath jason sacks frie jensen huang live nvidia s future physical ai rise of the 03b9c382",
+    "last_podcast_name": "Unknown Podcast",
+    "last_episode_date": "2026-03-28",
+    "mention_score": 3,
+    "mention_score_decayed": 3,
+    "last_main_idea": "Investing in AI-driven platforms and technologies is essential for capturing the growth in the global financial system and staying ahead in the AI era.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-20T04:40:52.368193",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Jensen Huang",
+      "fetched_at": "2026-03-20T09:40:52.368095+00:00",
+      "cliff_notes": "Jensen Huang co-founded NVIDIA in 1993 with Curtis Priem and Chris Malachowsky. Huang's vision and leadership have been pivotal in NVIDIA's growth and transformation into a dominant player in the AI and GPU technology sector. His focus on innovation and technological advancement has positioned NVIDIA at the forefront of the AI revolution, influencing industries from gaming to data centers and autonomous vehicles. Huang's strategic foresight and commitment to research and development have made NVIDIA a household name in tech and a key player in the future of computing.",
+      "derived": {
+        "current_role": "Co-founder and CEO of NVIDIA",
+        "education": "Stanford University, Master's in Electrical Engineering"
+      },
+      "infobox": {
+        "Born": "1963",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Jensen Huang co-founded NVIDIA in 1993 with Curtis Priem and Chris Malachowsky. Huang's vision and leadership have been pivotal in NVIDIA's growth and transformation into a dominant player in the AI and GPU technology sector. His focus on innovation and technological advancement has positioned NVIDIA at the forefront of the AI revolution, influencing industries from gaming to data centers and autonomous vehicles.",
+        "Huang's strategic foresight and commitment to research and development have made NVIDIA a household name in tech and a key player in the future of computing."
+      ],
+      "sections": [
+        {
+          "heading": "NVIDIA's AI Transformation",
+          "body": "Jensen Huang has been instrumental in steering NVIDIA towards becoming a leader in AI computing, leveraging the company's expertise in GPUs to power AI applications across various industries."
+        },
+        {
+          "heading": "GPU Technology",
+          "body": "NVIDIA's GPUs have become the backbone of modern AI and deep learning, with Huang's leadership ensuring the company stays at the cutting edge of this technology."
+        },
+        {
+          "heading": "Strategic Acquisitions",
+          "body": "Huang's strategic vision includes acquisitions like Grok, which has further expanded NVIDIA's capabilities in AI and data analytics, showcasing his ability to anticipate and capitalize on emerging tech trends."
+        },
+        {
+          "heading": "Innovation and Future Vision",
+          "body": "Jensen Huang is known for his forward-thinking approach, with NVIDIA often introducing new technologies and strategies years in advance, setting the pace for the tech industry."
+        }
+      ]
+    },
+    "net_worth": "$151.00B"
+  },
+  {
+    "id": 133,
+    "name": "Chris Dixon",
+    "slug": "chris-dixon",
+    "bio": "Chris Dixon is a general partner at Andreessen Horowitz (A16Z), known for his leading investments in Oculus and Coinbase, and for building A16Z's dedicated crypto practice. He is also the co-founder of internet security company SiteAdvisor and AI company Hunch.",
+    "known_for": "His pivotal investments in Oculus and Coinbase, and his role in establishing A16Z's crypto practice.",
+    "net_worth_usd": 500000000.0,
+    "net_worth_source": "https://blockchainreporter.net/net-worth/chris-dixon/",
+    "net_worth_updated_at": "2026-03-28T22:05:07.528099",
+    "voice_tone": "Reflective and informative",
+    "voice_style": "Shares personal anecdotes and industry insights with a storytelling approach",
+    "voice_delivery_notes": "Paced with emphasis on key points, such as personal experiences and investment philosophies",
+    "voice_profile_updated_at": "2026-03-29 03:04:14",
+    "last_seen": "2026-03-29 03:04:14",
+    "last_episode_title": "the a16z show chris dixon from quant trading to building a16z crypto be2e5b4b",
+    "last_podcast_name": "Unknown Podcast",
+    "last_episode_date": "2026-03-28",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Betting on talented individuals in businesses rather than predicting tech trends is a more consistent approach to investing.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-28T22:05:06.552638",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Chris Dixon",
+      "fetched_at": "2026-03-29T03:05:06.552464+00:00",
+      "cliff_notes": "Chris Dixon's career began with a passion for technology, teaching himself programming languages as a child. After college, he worked in quant finance, writing Monte Carlo simulations for an options market-making firm in New York. This experience led him to co-found SiteAdvisor, an internet security company, which was later sold to McAfee in 2006. Two years later, he founded Hunch, an AI company based on neural networks, which was acquired by eBay in 2011. In 2013, Dixon joined Andreessen Horowitz, where he played a significant role in the firm's investments, notably leading a $75 million round for Oculus and making an early investment in Coinbase. His work at A16Z has been instrumental in the establishment of the firm's dedicated crypto practice, which is now in its fourth fund. Dixon's journey from quant finance to tech investing and his influence in the crypto space have made him a notable figure in the tech and finance industries.",
+      "derived": {
+        "current_role": "General Partner at Andreessen Horowitz",
+        "former_positions": "Co-founder of SiteAdvisor; Co-founder of Hunch"
+      },
+      "infobox": {
+        "Born": "Ohio",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Chris Dixon's career began with a passion for technology, teaching himself programming languages as a child. After college, he worked in quant finance, writing Monte Carlo simulations for an options market-making firm in New York. This experience led him to co-found SiteAdvisor, an internet security company, which was later sold to McAfee in 2006.",
+        "Two years later, he founded Hunch, an AI company based on neural networks, which was acquired by eBay in 2011. In 2013, Dixon joined Andreessen Horowitz, where he played a significant role in the firm's investments, notably leading a $75 million round for Oculus and making an early investment in Coinbase. His work at A16Z has been instrumental in the establishment of the firm's dedicated crypto practice, which is now in its fourth fund.",
+        "Dixon's journey from quant finance to tech investing and his influence in the crypto space have made him a notable figure in the tech and finance industries."
+      ],
+      "sections": [
+        {
+          "heading": "Early Career",
+          "body": "Chris Dixon began his career in quant finance, writing Monte Carlo simulations for an options market-making firm in New York, before co-founding SiteAdvisor, an internet security company."
+        },
+        {
+          "heading": "SiteAdvisor and Hunch",
+          "body": "Dixon co-founded SiteAdvisor, which was later sold to McAfee, and Hunch, an AI company, which was acquired by eBay. These ventures established him as a successful entrepreneur."
+        },
+        {
+          "heading": "Investment in Oculus and Coinbase",
+          "body": "At Andreessen Horowitz, Dixon led a $75 million investment in Oculus and made an early investment in Coinbase, both of which have become significant players in their respective industries."
+        },
+        {
+          "heading": "Cryptocurrency and A16Z",
+          "body": "Dixon has been instrumental in building A16Z's dedicated crypto practice, which is now in its fourth fund, showcasing his foresight and influence in the cryptocurrency space."
+        }
+      ]
+    },
+    "net_worth": "$500.0M"
+  },
+  {
+    "id": 131,
+    "name": "David Sachs",
+    "slug": "david-sachs",
+    "bio": "David Sachs is a prominent figure in the tech industry, known for his insights on innovation and technology. He has been involved in the Trump administration, where he has emphasized the importance of scientific research and technology in the current competitive landscape.",
+    "known_for": "His role in the Trump administration and his views on the importance of scientific research and technology in the current competitive landscape.",
+    "net_worth_usd": 200000000.0,
+    "net_worth_source": "https://impactwealth.org/david-sacks-net-worth-and-biography-2025-the-journey-of-a-tech-visionary/",
+    "net_worth_updated_at": "2026-03-28T22:05:26.806183",
+    "voice_tone": "Serious and informative",
+    "voice_style": "Factual and data-driven",
+    "voice_delivery_notes": "Pacing is steady with emphasis on key data points",
+    "voice_profile_updated_at": "2026-03-29 03:04:03",
+    "last_seen": "2026-03-29 03:04:03",
+    "last_episode_title": "Anthropic's Generational Run, OpenAI Panics, AI Moats, Meta Loses Lawsuits",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-03-27",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in companies that are driving innovation and can disrupt traditional industries by offering superior products at better prices, while keeping an eye on the competitive dynamics between the US and China in scientific research and technology.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-28T22:05:25.190284",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "David Sachs",
+      "fetched_at": "2026-03-29T03:05:25.190194+00:00",
+      "cliff_notes": "David Sachs is a prominent figure in the tech industry, known for his insights on innovation and technology. He has been involved in the Trump administration, where he has emphasized the importance of scientific research and technology in the current competitive landscape. Sachs' career has been marked by his focus on the intersection of technology, policy, and business. His work in the Trump administration highlights his commitment to leveraging technology and scientific research to drive economic growth and maintain a competitive edge in the global market.",
+      "derived": {
+        "current_role": "Advisor to the Trump administration",
+        "political_summary": "David Sachs has been involved in the Trump administration, where he has emphasized the importance of scientific research and technology in the current competitive landscape."
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "David Sachs is a prominent figure in the tech industry, known for his insights on innovation and technology. He has been involved in the Trump administration, where he has emphasized the importance of scientific research and technology in the current competitive landscape. Sachs' career has been marked by his focus on the intersection of technology, policy, and business.",
+        "His work in the Trump administration highlights his commitment to leveraging technology and scientific research to drive economic growth and maintain a competitive edge in the global market."
+      ],
+      "sections": [
+        {
+          "heading": "Innovation and Technology",
+          "body": "David Sachs is known for his insights on innovation and technology, emphasizing their importance in the current competitive landscape."
+        },
+        {
+          "heading": "Trump Administration",
+          "body": "Sachs has been involved in the Trump administration, where he has focused on the role of scientific research and technology in driving economic growth and maintaining a competitive edge."
+        },
+        {
+          "heading": "Economic Growth",
+          "body": "Sachs' work in the Trump administration highlights his commitment to leveraging technology and scientific research to drive economic growth."
+        }
+      ]
+    },
+    "net_worth": "$200.0M"
+  },
+  {
+    "id": 132,
+    "name": "David Freiberg",
+    "slug": "david-freiberg",
+    "bio": "David Freiberg is a guest with a background in science, known for his insights on the impact of technological advancements on various industries. He has been a contributor to discussions on technological disruption and its implications for society and the economy.",
+    "known_for": "His expertise in understanding how technology shapes industry trends and his contributions to public discourse on technological disruption.",
+    "net_worth_usd": 1200000000.0,
+    "net_worth_source": "https://coinpaper.com/6251/david-friedberg-net-worth-insights-into-his-financial-success",
+    "net_worth_updated_at": "2026-03-28T22:05:34.408854",
+    "voice_tone": "Casual and engaging",
+    "voice_style": "Anecdotal with a focus on real-world examples",
+    "voice_delivery_notes": "Speaks with a relaxed pace, emphasizing key points with a slight increase in volume",
+    "voice_profile_updated_at": "2026-03-29 03:04:03",
+    "last_seen": "2026-03-29 03:04:03",
+    "last_episode_title": "Anthropic's Generational Run, OpenAI Panics, AI Moats, Meta Loses Lawsuits",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-03-27",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in companies that are driving innovation and can disrupt traditional industries by offering superior products at better prices, while keeping an eye on the competitive dynamics between the US and China in scientific research and technology.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-28T22:05:33.382582",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "David Freiberg",
+      "fetched_at": "2026-03-29T03:05:33.382494+00:00",
+      "cliff_notes": "David Freiberg is recognized for his contributions to the dialogue on technology's influence on various sectors. His background in science provides a solid foundation for his analysis of technological disruption. Freiberg's insights are particularly valuable as they help investors and industry leaders understand the potential shifts and opportunities created by rapid technological advancements. His work is significant in the context of policy-making and strategic planning, as it offers a perspective on how to navigate and leverage the changes brought about by new technologies.",
+      "derived": {},
+      "infobox": {
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "David Freiberg is recognized for his contributions to the dialogue on technology's influence on various sectors. His background in science provides a solid foundation for his analysis of technological disruption. Freiberg's insights are particularly valuable as they help investors and industry leaders understand the potential shifts and opportunities created by rapid technological advancements.",
+        "His work is significant in the context of policy-making and strategic planning, as it offers a perspective on how to navigate and leverage the changes brought about by new technologies."
+      ],
+      "sections": [
+        {
+          "heading": "Technological Impact",
+          "body": "Freiberg discusses the profound effects of technology on different industries, emphasizing how it can disrupt traditional business models and create new opportunities."
+        },
+        {
+          "heading": "Industry Trends",
+          "body": "He provides analysis on emerging industry trends influenced by technological advancements, helping businesses anticipate and adapt to changes."
+        },
+        {
+          "heading": "Public Discourse",
+          "body": "Freiberg's participation in public discourse on technology's role in society ensures that a variety of perspectives are considered in shaping policy and business strategies."
+        }
+      ]
+    },
+    "net_worth": "$1.20B"
+  },
+  {
+    "id": 128,
+    "name": "Christian Catalini",
+    "slug": "christian-catalini",
+    "bio": "Christian Catalini is a co-founder of LightSpark and founder of the MIT Crypto Economics Lab. He is known for his work in the intersection of technology, economics, and entrepreneurship, particularly in the field of AI and blockchain.",
+    "known_for": "Authoring the influential paper 'Some Simple Economics of AI' and his contributions to the understanding of crypto economics.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Optimistic and analytical.",
+    "voice_style": "Explanatory and speculative, discussing the future impacts of AI.",
+    "voice_delivery_notes": "Paced with emphasis on the transformative potential of AI.",
+    "voice_profile_updated_at": "2026-03-29 03:02:55",
+    "last_seen": "2026-03-29 03:02:55",
+    "last_episode_title": "the a16z show 20260319 1e92a9dd 78da 4417 b1ce 4b4318d1",
+    "last_podcast_name": "Unknown Podcast",
+    "last_episode_date": "2026-03-28",
+    "mention_score": 2,
+    "mention_score_decayed": 2,
+    "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-28T22:05:42.395070",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Christian Catalini",
+      "fetched_at": "2026-03-29T03:05:42.394968+00:00",
+      "cliff_notes": "Christian Catalini has made significant contributions to the fields of technology, economics, and entrepreneurship. As the co-founder of LightSpark and founder of the MIT Crypto Economics Lab, he has been at the forefront of exploring the economic implications of AI and blockchain technology. His paper 'Some Simple Economics of AI' has been influential in shaping discussions around the economic impact of AI on work, startups, and ambition. Catalini's work is crucial for understanding how new technologies can disrupt traditional economic models and create new opportunities for innovation and growth.",
+      "derived": {
+        "current_role": "Founder, MIT Crypto Economics Lab",
+        "books_or_works": "Some Simple Economics of AI"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Christian Catalini has made significant contributions to the fields of technology, economics, and entrepreneurship. As the co-founder of LightSpark and founder of the MIT Crypto Economics Lab, he has been at the forefront of exploring the economic implications of AI and blockchain technology. His paper 'Some Simple Economics of AI' has been influential in shaping discussions around the economic impact of AI on work, startups, and ambition.",
+        "Catalini's work is crucial for understanding how new technologies can disrupt traditional economic models and create new opportunities for innovation and growth."
+      ],
+      "sections": [
+        {
+          "heading": "AI Economics",
+          "body": "Catalini's work on AI economics explores how artificial intelligence can transform economic models and create new opportunities for innovation."
+        },
+        {
+          "heading": "Crypto Economics",
+          "body": "As the founder of the MIT Crypto Economics Lab, Catalini has been instrumental in understanding the economic implications of blockchain technology."
+        },
+        {
+          "heading": "Entrepreneurship",
+          "body": "Catalini's experience as an entrepreneur, particularly as co-founder of LightSpark, provides him with unique insights into the challenges and opportunities faced by startups in the tech industry."
+        },
+        {
+          "heading": "Future of Work",
+          "body": "Catalini's research suggests that AI could give individuals the leverage of a team, fundamentally changing the nature of work and the potential for one-person billion-dollar startups."
+        }
+      ]
+    }
+  },
+  {
+    "id": 129,
+    "name": "Eddie Lazarin",
+    "slug": "eddie-lazarin",
+    "bio": "Eddie Lazarin is a prominent figure in the tech industry, known for his insights on AI's role in shaping the future economy. He has been influential in discussions about the potential for AI to democratize access to resources and enable individuals to leverage the power of technology to create significant value.",
+    "known_for": "His contributions to the conversation about AI's impact on the future of work, startups, and economic empowerment.",
+    "net_worth_usd": 600000000000.0,
+    "net_worth_source": "https://www.forbes.com/sites/phoebeliu/2025/03/31/ai-boom-billionaires-these-tech-moguls-new-joined-billionaires-list-2025/",
+    "net_worth_updated_at": "2026-03-28T22:05:51.815831",
+    "voice_tone": "Inquisitive and engaging.",
+    "voice_style": "Facilitative, guiding the conversation through different aspects of AI.",
+    "voice_delivery_notes": "Evenly paced with a focus on drawing out detailed responses.",
+    "voice_profile_updated_at": "2026-03-29 03:02:55",
+    "last_seen": "2026-03-29 03:02:55",
+    "last_episode_title": "the a16z show 20260319 1e92a9dd 78da 4417 b1ce 4b4318d1",
+    "last_podcast_name": "Unknown Podcast",
+    "last_episode_date": "2026-03-28",
+    "mention_score": 2,
+    "mention_score_decayed": 2,
+    "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-28T22:05:50.938326",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Eddie Lazarin",
+      "fetched_at": "2026-03-29T03:05:50.938237+00:00",
+      "cliff_notes": "Eddie Lazarin is recognized for his contributions to the discourse on artificial intelligence and its implications for the economy and society. As a co-founder of LightSpark, Lazarin has been at the forefront of exploring how AI can be harnessed to empower individuals and reshape traditional business models. His work emphasizes the potential for AI to provide individuals with the leverage of a team, thereby democratizing access to resources and opportunities. Lazarin's insights into the new surplus of AI and its potential to fuel the next generation of billion-dollar startups have made him a sought-after voice in tech circles.",
+      "derived": {
+        "current_role": "Co-founder of LightSpark"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Eddie Lazarin is recognized for his contributions to the discourse on artificial intelligence and its implications for the economy and society. As a co-founder of LightSpark, Lazarin has been at the forefront of exploring how AI can be harnessed to empower individuals and reshape traditional business models. His work emphasizes the potential for AI to provide individuals with the leverage of a team, thereby democratizing access to resources and opportunities.",
+        "Lazarin's insights into the new surplus of AI and its potential to fuel the next generation of billion-dollar startups have made him a sought-after voice in tech circles."
+      ],
+      "sections": [
+        {
+          "heading": "AI and Economic Empowerment",
+          "body": "Eddie Lazarin discusses how AI can provide individuals with the leverage of a team, potentially enabling anyone to start a billion-dollar startup with minimal resources."
+        },
+        {
+          "heading": "Future of Work",
+          "body": "Lazarin explores the implications of AI on the future of work, suggesting that traditional apprenticeship models may be replaced by new forms of work facilitated by AI."
+        },
+        {
+          "heading": "Democratization of Resources",
+          "body": "Lazarin emphasizes the potential for AI to democratize access to computing power and other resources, allowing individuals to compete on a level playing field with larger entities."
+        }
+      ]
+    },
+    "net_worth": "$600.00B"
+  },
+  {
+    "id": 98,
+    "name": "Rory Johnston",
+    "slug": "rory-johnston",
+    "bio": "Roy Johnson is one of the best independent oil and energy analysts at Commodity Context.",
+    "known_for": "Fundamental analysis of oil and energy markets, particularly during crises.",
+    "net_worth_usd": 200.0,
+    "net_worth_source": "https://www.bloomberg.com/news/articles/2026-03-10/rory-johnston-on-how-oil-could-surge-to-over-200-a-barrel",
+    "net_worth_updated_at": "2026-03-28T22:05:57.557236",
+    "voice_tone": "Matter-of-fact and concerned",
+    "voice_style": "Analytical and data-driven",
+    "voice_delivery_notes": "Paced, with emphasis on key data points and potential scenarios",
+    "voice_profile_updated_at": "2026-03-29 03:02:43",
+    "last_seen": "2026-03-29 03:02:43",
+    "last_episode_title": "EWWMN9153105374",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-03-15",
+    "mention_score": 3,
+    "mention_score_decayed": 3,
+    "last_main_idea": "The ongoing geopolitical crisis in the Middle East, particularly the situation around the Strait of Hormuz, presents a significant risk to global oil supply and prices, potentially leading to a sustained increase in oil prices.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-20T04:36:30.218908",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Rory Johnston",
+      "fetched_at": "2026-03-20T09:36:30.218739+00:00",
+      "cliff_notes": "Rory Johnston is a prominent figure in the field of energy market analysis, having founded Commodity Context, a company dedicated to providing in-depth analysis of commodity markets. His work is particularly relevant to investors and financial professionals who need to understand the intricacies of energy markets and their broader implications on the global economy. Johnston's expertise extends to commodities and macroeconomics, making him a valuable resource for those navigating the complexities of financial markets. His insights are regularly featured in discussions and analyses that aim to predict market trends and inform investment strategies.",
+      "derived": {
+        "current_role": "Founder, Commodity Context"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Rory Johnston is a prominent figure in the field of energy market analysis, having founded Commodity Context, a company dedicated to providing in-depth analysis of commodity markets. His work is particularly relevant to investors and financial professionals who need to understand the intricacies of energy markets and their broader implications on the global economy.",
+        "Johnston's expertise extends to commodities and macroeconomics, making him a valuable resource for those navigating the complexities of financial markets. His insights are regularly featured in discussions and analyses that aim to predict market trends and inform investment strategies."
+      ],
+      "sections": [
+        {
+          "heading": "Energy Market Analysis",
+          "body": "Rory Johnston is well-known for his detailed analysis of energy markets, providing investors with critical insights into market dynamics and trends."
+        },
+        {
+          "heading": "Macroeconomic Trends",
+          "body": "Johnston's work often intersects with macroeconomic trends, offering a unique perspective on how energy markets influence and are influenced by broader economic factors."
+        },
+        {
+          "heading": "Investment Strategy",
+          "body": "His expertise is highly valued by investors looking to make informed decisions in a volatile market, particularly in the context of commodities and energy."
+        }
+      ]
+    },
+    "net_worth": "$200"
+  },
+  {
+    "id": 94,
+    "name": "Carson Block",
+    "slug": "carson-block",
+    "bio": "Founder of Muddy Waters Capital, a leading activist short seller hedge fund.",
+    "known_for": "Specializing in activist short selling with deep research.",
+    "net_worth_usd": 200000000.0,
+    "net_worth_source": "https://www.publicfigurenetworth.com/carson-block-net-worth/",
+    "net_worth_updated_at": "2026-03-20T04:42:12.912511",
+    "voice_tone": "Confident and experienced.",
+    "voice_style": "Direct and to-the-point, with a focus on identifying market opportunities and risks.",
+    "voice_delivery_notes": "Paced with emphasis on key investment insights and market analysis.",
+    "voice_profile_updated_at": "2026-03-29 03:02:33",
+    "last_seen": "2026-03-29 03:02:33",
+    "last_episode_title": "Technical Analysis Deep Dive with Milton Berg - February 2026 Market Signals",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-02-15",
+    "mention_score": 2,
+    "mention_score_decayed": 2,
+    "last_main_idea": "Invest in sectors with fertile ground for short selling, such as AI and tech, and under-allocated areas like junior mining, while combining long and short strategies for potential alpha.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-20T04:42:09.376490",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Carson Block",
+      "fetched_at": "2026-03-20T09:42:09.376380+00:00",
+      "cliff_notes": "Carson Block is an American investor and the founder of Muddy Waters Capital, an investment firm known for its activist short selling approach. Block's career in finance began after he graduated from law school and moved to China, where he worked as an attorney and later in private equity. His experiences in China, particularly witnessing corporate fraud, inspired him to start Muddy Waters Research in 2010, which would later become Muddy Waters Capital. The firm is renowned for its deep research into companies, often uncovering fraudulent practices or overpromised business models, leading to significant market impact when they release their findings. Block's work has been influential in the tech and finance sectors, as his exposes often lead to substantial stock price movements and regulatory scrutiny.",
+      "derived": {
+        "current_role": "Founder of Muddy Waters Capital",
+        "education": "Bachelor's degree in International Relations from Southern Methodist University; Juris Doctor from the University of Chicago Law School"
+      },
+      "infobox": {
+        "Born": "1980",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Carson Block is an American investor and the founder of Muddy Waters Capital, an investment firm known for its activist short selling approach. Block's career in finance began after he graduated from law school and moved to China, where he worked as an attorney and later in private equity. His experiences in China, particularly witnessing corporate fraud, inspired him to start Muddy Waters Research in 2010, which would later become Muddy Waters Capital.",
+        "The firm is renowned for its deep research into companies, often uncovering fraudulent practices or overpromised business models, leading to significant market impact when they release their findings. Block's work has been influential in the tech and finance sectors, as his exposes often lead to substantial stock price movements and regulatory scrutiny."
+      ],
+      "sections": [
+        {
+          "heading": "Activist Short Selling",
+          "body": "Carson Block is recognized for his activist short selling approach, where he not only bets against companies but also actively researches and exposes fraudulent practices or overpromised business models."
+        },
+        {
+          "heading": "Muddy Waters Capital",
+          "body": "Muddy Waters Capital, founded by Block, is a hedge fund that specializes in short selling and has been influential in exposing corporate frauds, particularly in the tech sector."
+        },
+        {
+          "heading": "Market Impact",
+          "body": "Block's research and activism have had significant market impact, leading to substantial stock price movements and regulatory scrutiny for the companies targeted by Muddy Waters Capital."
+        },
+        {
+          "heading": "Fraud Exposure",
+          "body": "Carson Block has been instrumental in exposing corporate frauds, particularly in sectors like electric vehicles and green energy, where companies have been known to overpromise on their capabilities."
+        }
+      ]
+    },
+    "net_worth": "$200.0M"
+  },
+  {
+    "id": 127,
+    "name": "Rupert Mitchell",
+    "slug": "rupert-mitchell",
+    "bio": "Rupert Mitchell is an accomplished banker, investor, and analyst with a background in the Ottawa Mobile industry.",
+    "known_for": "Founder of Blind Squirrel Macro, known for his research and insights on macroeconomic trends.",
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-03-28 18:30:57",
+    "last_episode_title": "Stock Market on Shaky Foundations | Blind Squirrel Macro\u2019s Rupert Mitchell on IPO Supply, Oil, and Private Credit",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-03-18",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "The current bull market is built on shaky foundations, and a shift towards a more cautious stance with a focus on security software and data lake control is advised.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
+    "id": 126,
+    "name": "Ada Palmer",
+    "slug": "ada-palmer",
+    "bio": "Ada Palmer is a Renaissance historian, novelist, and composer based at the University of Chicago.",
+    "known_for": "Author of 'Inventing the Renaissance', exploring the economic and cultural factors of the period.",
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": "Informed and analytical",
+    "voice_style": "Detailed and historical narrative",
+    "voice_delivery_notes": "Pacing is steady with emphasis on key historical points",
+    "voice_profile_updated_at": "2026-03-28 18:25:51",
+    "last_seen": "2026-03-28 18:25:51",
+    "last_episode_title": "Inventing the Renaissance: Economic and Technological Insights",
+    "last_podcast_name": "Dwarkesh Podcast",
+    "last_episode_date": "2026-03-06",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "The historical insights from the Italian Renaissance period suggest that technological advancements, such as the printing press, can have a profound impact on society and information distribution, which parallels modern tech revolutions and their investment implications.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
     "id": 125,
     "name": "Lupin Ramon",
     "slug": "lupin-ramon",
@@ -203,7 +725,7 @@
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Investors should consider the geopolitical risks and shifts in global power dynamics when constructing their portfolios, with a focus on sectors that may be affected by rising energy prices and inflation.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-26T14:15:41.620354",
@@ -268,7 +790,7 @@
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Investors should consider the geopolitical risks and shifts in global power dynamics when constructing their portfolios, with a focus on sectors that may be affected by rising energy prices and inflation.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-26T14:15:50.429943",
@@ -324,7 +846,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Investing in cybersecurity solutions that can secure networks on top of compromised physical infrastructure is crucial for national security and economic prosperity.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-26T11:16:44.078788",
@@ -381,7 +903,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Investing in cybersecurity solutions that can secure networks on top of compromised physical infrastructure is crucial for national security and economic prosperity.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-26T11:16:52.472386",
@@ -438,7 +960,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "The market is experiencing underlying stress that is not reflected in headline indices, suggesting a need for a more nuanced approach to investment decisions.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-26T08:21:26.552392",
@@ -495,7 +1017,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Investing in advanced manufacturing and workforce development for submarine production could lead to increased efficiency and meet the growing demand for naval capabilities.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-26T04:20:54.928623",
@@ -552,7 +1074,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Investing in advanced manufacturing and workforce development for submarine production could lead to increased efficiency and meet the growing demand for naval capabilities.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-26T04:21:24.879895",
@@ -589,591 +1111,5 @@
         }
       ]
     }
-  },
-  {
-    "id": 113,
-    "name": "Brian Johnson",
-    "slug": "brian-johnson",
-    "bio": "Brian Johnson is a longevity enthusiast and experimenter with psychedelics for health and longevity. He has dedicated his work to exploring scientific evidence for interventions that promote health and longevity.",
-    "known_for": "His work in exploring scientific evidence for interventions that promote health and longevity, particularly through the use of psychedelics.",
-    "net_worth_usd": 2000000.0,
-    "net_worth_source": "https://mynucleus.com/blog/bryan-johnson-net-worth",
-    "net_worth_updated_at": "2026-03-26T04:22:43.169270",
-    "voice_tone": "Calm and reflective, with a sense of awe and profundity.",
-    "voice_style": "Johnson speaks with a narrative style, sharing personal experiences and drawing on scientific evidence.",
-    "voice_delivery_notes": "Pacing is thoughtful, with emphasis on the transformative aspects of his psychedelic experiences.",
-    "voice_profile_updated_at": "2026-03-26 09:17:24",
-    "last_seen": "2026-03-26 09:17:24",
-    "last_episode_title": "Exploring Psychedelics for Longevity and Personal Growth",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-03-26",
-    "mention_score": 1,
-    "mention_score_decayed": 0.98,
-    "last_main_idea": "Investment in psychedelics for longevity and personal growth is based on the potential for these substances to induce significant changes in consciousness and promote personal rejuvenation.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-26T04:22:22.498838",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Brian Johnson",
-      "fetched_at": "2026-03-26T09:22:22.498676+00:00",
-      "cliff_notes": "Brian Johnson is a longevity enthusiast and experimenter with psychedelics for health and longevity. He has dedicated his work to exploring scientific evidence for interventions that promote health and longevity. Johnson started his project five years ago with the approach of going through all the scientific evidence ever published on health and longevity to find the interventions with the best evidence for effect size. His work has led him to experiment with psychedelics, such as MEO DMT, as part of his longevity experiments. Johnson's work is of interest to investors and tech listeners due to its potential implications for health and longevity in the tech industry.",
-      "derived": {
-        "current_role": "Longevity Enthusiast"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Brian Johnson is a longevity enthusiast and experimenter with psychedelics for health and longevity. He has dedicated his work to exploring scientific evidence for interventions that promote health and longevity. Johnson started his project five years ago with the approach of going through all the scientific evidence ever published on health and longevity to find the interventions with the best evidence for effect size.",
-        "His work has led him to experiment with psychedelics, such as MEO DMT, as part of his longevity experiments. Johnson's work is of interest to investors and tech listeners due to its potential implications for health and longevity in the tech industry."
-      ],
-      "sections": [
-        {
-          "heading": "Longevity Experiments",
-          "body": "Brian Johnson has been conducting longevity experiments, including the use of psychedelics like MEO DMT, to explore interventions that promote health and longevity."
-        },
-        {
-          "heading": "Scientific Evidence",
-          "body": "Johnson's approach to longevity involves going through all the scientific evidence ever published on health and longevity to find the interventions with the best evidence for effect size."
-        },
-        {
-          "heading": "Psychedelics for Health",
-          "body": "Johnson has experimented with psychedelics, such as MEO DMT, as part of his longevity experiments, exploring their potential benefits for health and longevity."
-        }
-      ]
-    },
-    "net_worth": "$2.0M"
-  },
-  {
-    "id": 110,
-    "name": "Adam Warmouth",
-    "slug": "adam-warmouth",
-    "bio": "Adam Warmouth is the Founder and CEO of Chariot Defense, a company that specializes in developing next-generation power systems for military operations. His focus is on creating innovative power solutions that enhance the capabilities of soldiers on the battlefield, especially in the context of an increasingly electronic warfare environment.",
-    "known_for": "Developing tactical power solutions for the modern battlefield, enhancing soldier capabilities and stealth.",
-    "net_worth_usd": 1200000000.0,
-    "net_worth_source": "https://explore.st-aug.edu/exp/adam-22s-net-worth-shocked-the-business-world-the-untold-secrets-behind-his-billionairestyle-wealth",
-    "net_worth_updated_at": "2026-03-25T04:10:45.707150",
-    "voice_tone": "Informed and solution-focused",
-    "voice_style": "Practical and results-oriented",
-    "voice_delivery_notes": "Clear and concise with a focus on the impact of their solutions",
-    "voice_profile_updated_at": "2026-03-25 09:10:12",
-    "last_seen": "2026-03-25 09:10:12",
-    "last_episode_title": "The Tactical Power Layer for Modern Warfare",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-03-24",
-    "mention_score": 1,
-    "mention_score_decayed": 0.95,
-    "last_main_idea": "Investing in companies that can provide innovative power solutions for the modern, electronic battlefield can offer significant opportunities as military forces worldwide seek to upgrade their capabilities.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-25T04:10:43.350646",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Adam Warmouth",
-      "fetched_at": "2026-03-25T09:10:43.350416+00:00",
-      "cliff_notes": "Adam Warmouth is recognized for his work in the field of military power solutions, particularly as the founder and CEO of Chariot Defense. His company is at the forefront of developing next-generation power systems designed to support soldiers in the field, focusing on the increasing electronic demands of modern warfare. Warmouth's innovations aim to provide soldiers with the necessary power to operate advanced equipment without compromising their position or safety. His work is crucial in addressing the power gap in military operations, ensuring that soldiers have the tools they need to succeed in a technologically advanced battlefield.",
-      "derived": {
-        "current_role": "Founder and CEO of Chariot Defense"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Adam Warmouth is recognized for his work in the field of military power solutions, particularly as the founder and CEO of Chariot Defense. His company is at the forefront of developing next-generation power systems designed to support soldiers in the field, focusing on the increasing electronic demands of modern warfare.",
-        "Warmouth's innovations aim to provide soldiers with the necessary power to operate advanced equipment without compromising their position or safety. His work is crucial in addressing the power gap in military operations, ensuring that soldiers have the tools they need to succeed in a technologically advanced battlefield."
-      ],
-      "sections": [
-        {
-          "heading": "Innovative Power Solutions",
-          "body": "Adam Warmouth is dedicated to creating power solutions that are both efficient and effective for military use, focusing on reducing the tactical signature and increasing the stealth capabilities of soldiers in the field."
-        },
-        {
-          "heading": "Electronic Battlefield",
-          "body": "Warmouth's work is crucial in the shift towards an electronic battlefield, where the demand for power is increasing and the need for stealth is paramount. His solutions aim to support soldiers with the power they need without compromising their safety."
-        },
-        {
-          "heading": "Tactical Power Layer",
-          "body": "Chariot Defense, under Warmouth's leadership, is building a tactical power layer that supports robotic workers in the field. This layer is designed to provide the necessary power for active operations while maintaining a low tactical signature."
-        }
-      ]
-    },
-    "net_worth": "$1.20B"
-  },
-  {
-    "id": 111,
-    "name": "Alex Miller",
-    "slug": "alex-miller",
-    "bio": "Alex Miller is the Chief Technology Officer (CTO) of the US Army, where he is instrumental in driving the adoption of new technologies in military operations. His focus is on enhancing soldier capabilities and efficiency through technological innovation, with a particular emphasis on power management and electronic battlefield strategies.",
-    "known_for": "Pioneering the integration of advanced technology to modernize military operations and improve soldier effectiveness.",
-    "net_worth_usd": 3.61,
-    "net_worth_source": "https://gb.youtubers.me/alex-miller-0ddce971-62a9-44a1-8903-ac7f890f556b/youtube-estimated-earnings",
-    "net_worth_updated_at": "2026-03-25T04:11:02.194518",
-    "voice_tone": "Authoritative and strategic",
-    "voice_style": "Direct and focused on outcomes",
-    "voice_delivery_notes": "Confident and assertive, emphasizing the need for change",
-    "voice_profile_updated_at": "2026-03-25 09:10:12",
-    "last_seen": "2026-03-25 09:10:12",
-    "last_episode_title": "The Tactical Power Layer for Modern Warfare",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-03-24",
-    "mention_score": 1,
-    "mention_score_decayed": 0.95,
-    "last_main_idea": "Investing in companies that can provide innovative power solutions for the modern, electronic battlefield can offer significant opportunities as military forces worldwide seek to upgrade their capabilities.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-25T04:10:59.120340",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Alex Miller",
-      "fetched_at": "2026-03-25T09:10:59.120234+00:00",
-      "cliff_notes": "Alex Miller serves as the Chief Technology Officer for the US Army, a role that places him at the forefront of military technological advancement. His career has been marked by a commitment to leveraging cutting-edge technology to enhance the capabilities of soldiers in the field. Miller's work is particularly focused on the development and implementation of power solutions that can support the increasing electronic demands of modern warfare. His efforts aim to reduce the tactical signature of military operations, thereby decreasing the risk of detection and targeting by adversaries. Miller's contributions are significant in shaping the future of military technology, emphasizing stealth, efficiency, and the empowerment of individual soldiers through technological advancements.",
-      "derived": {
-        "current_role": "CTO of the US Army"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Alex Miller serves as the Chief Technology Officer for the US Army, a role that places him at the forefront of military technological advancement. His career has been marked by a commitment to leveraging cutting-edge technology to enhance the capabilities of soldiers in the field. Miller's work is particularly focused on the development and implementation of power solutions that can support the increasing electronic demands of modern warfare.",
-        "His efforts aim to reduce the tactical signature of military operations, thereby decreasing the risk of detection and targeting by adversaries. Miller's contributions are significant in shaping the future of military technology, emphasizing stealth, efficiency, and the empowerment of individual soldiers through technological advancements."
-      ],
-      "sections": [
-        {
-          "heading": "Military Technology",
-          "body": "Alex Miller is dedicated to the advancement of military technology, focusing on how it can be used to improve soldier performance and safety."
-        },
-        {
-          "heading": "Power Management",
-          "body": "Miller emphasizes the importance of power management in military operations, working to create solutions that provide the necessary power without compromising operational secrecy."
-        },
-        {
-          "heading": "Electronic Battlefield",
-          "body": "He is a proponent of moving towards an electronic battlefield, where technology plays a central role in strategic operations and tactical advantages."
-        },
-        {
-          "heading": "Soldier Empowerment",
-          "body": "A key aspect of Miller's work is the empowerment of soldiers through technology, ensuring they have the tools they need to operate effectively in various conditions."
-        }
-      ]
-    },
-    "net_worth": "$4"
-  },
-  {
-    "id": 109,
-    "name": "Eric Schmidt",
-    "slug": "eric-schmidt",
-    "bio": "Eric Schmidt is a prominent figure in the technology industry, known for his leadership at Google and contributions to the tech sector. He served as CEO of Google and later as Chairman of Alphabet Inc., guiding the company through significant growth and innovation.",
-    "known_for": "His influential leadership at Google and shaping the direction of Alphabet Inc., impacting the global tech landscape.",
-    "net_worth_usd": 12900000000.0,
-    "net_worth_source": "https://www.wikidata.org/wiki/Q92747",
-    "net_worth_updated_at": "2026-03-25T04:11:28.701167",
-    "voice_tone": "Inquisitive and experienced.",
-    "voice_style": "Analytical with a focus on the big picture.",
-    "voice_delivery_notes": "Speaks with authority and a measured pace.",
-    "voice_profile_updated_at": "2026-03-25 09:07:25",
-    "last_seen": "2026-03-25 09:07:25",
-    "last_episode_title": "The Future of AI and its Impact on Society and Investment",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-03-24",
-    "mention_score": 1,
-    "mention_score_decayed": 0.93,
-    "last_main_idea": "Invest in AI and robotics sectors as they are poised for significant growth and disruption, with a focus on companies that align with human values and contribute to abundance.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-25T04:11:26.668471",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Eric Schmidt",
-      "fetched_at": "2026-03-25T09:11:26.668361+00:00",
-      "cliff_notes": "Eric Schmidt began his career in technology, moving through various roles before becoming the CEO of Novell. He later joined Google as its CEO, where he played a pivotal role in the company's rapid growth and expansion. Under his leadership, Google became a dominant force in the tech industry. After stepping down as CEO, Schmidt served as the Executive Chairman of Google, and later as Chairman of Alphabet Inc., the parent company of Google. He has also held a board seat at Apple Inc. and has been involved in various philanthropic endeavors. His insights into technology and its impact on society are highly regarded, and he continues to influence the tech world through his advisory roles and public commentary.",
-      "derived": {
-        "former_positions": "CEO of Google; Chairman of Alphabet Inc.; Board member of Apple Inc.; CEO of Novell",
-        "boards": "Alphabet Inc.; Apple Inc.",
-        "education": "Bachelor's degree in Electrical Engineering and Computer Science from Princeton University; Master's degree and Ph.D. in Computer Science from the University of California, Berkeley",
-        "books_or_works": "The New Digital Age: Reshaping the Future of People, Nations and Business (co-authored with Jared Cohen)",
-        "teaching_summary": "Guest lectures at Stanford University"
-      },
-      "infobox": {
-        "Born": "1955",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Eric Schmidt began his career in technology, moving through various roles before becoming the CEO of Novell. He later joined Google as its CEO, where he played a pivotal role in the company's rapid growth and expansion. Under his leadership, Google became a dominant force in the tech industry. After stepping down as CEO, Schmidt served as the Executive Chairman of Google, and later as Chairman of Alphabet Inc., the parent company of Google.",
-        "He has also held a board seat at Apple Inc. and has been involved in various philanthropic endeavors. His insights into technology and its impact on society are highly regarded, and he continues to influence the tech world through his advisory roles and public commentary."
-      ],
-      "sections": [
-        {
-          "heading": "Leadership at Google",
-          "body": "Eric Schmidt served as the CEO of Google from 2001 to 2011, overseeing the company's transformation into a global technology giant."
-        },
-        {
-          "heading": "Chairman of Alphabet Inc.",
-          "body": "Schmidt took on the role of Executive Chairman at Google following his tenure as CEO, and later became Chairman of Alphabet Inc., the parent company of Google."
-        },
-        {
-          "heading": "Contributions to Tech",
-          "body": "His leadership and strategic vision have been instrumental in shaping Google's technological advancements and its impact on the industry."
-        },
-        {
-          "heading": "Global Competition",
-          "body": "Schmidt has expressed concerns about global competition, particularly with China, and the importance of maintaining a competitive edge in key technological sectors."
-        }
-      ]
-    },
-    "net_worth": "$12.90B"
-  },
-  {
-    "id": 108,
-    "name": "Bridget Memplar",
-    "slug": "bridget-memplar",
-    "bio": "Bridget Memplar is the co-founder and CEO of Northwood, a company focused on building systems that connect satellites back to Earth. Her unconventional path into the space industry has led her to become a key player in addressing the overlooked bottleneck of ground infrastructure in space missions.",
-    "known_for": "Her leadership at Northwood and the development of systems that enable satellite connectivity back to Earth.",
-    "net_worth_usd": 50000000.0,
-    "net_worth_source": "https://www.celebritynetworth.com/richest-celebrities/actors/bridgit-mendler-net-worth/",
-    "net_worth_updated_at": "2026-03-24T04:43:12.487260",
-    "voice_tone": "Confident and determined.",
-    "voice_style": "Bridget speaks with a focus on innovation and the potential of space technology.",
-    "voice_delivery_notes": "Clear and concise, with an emphasis on the importance of ground infrastructure in space missions.",
-    "voice_profile_updated_at": "2026-03-24 09:39:24",
-    "last_seen": "2026-03-24 09:39:24",
-    "last_episode_title": "Ground Infrastructure: The Overlooked Bottleneck in the Space Economy",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-03-23",
-    "mention_score": 1,
-    "mention_score_decayed": 0.93,
-    "last_main_idea": "Investing in ground infrastructure for space can unlock the next wave of innovation, making space missions more useful and efficient.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-24T04:43:11.153707",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Bridget Memplar",
-      "fetched_at": "2026-03-24T09:43:11.153311+00:00",
-      "cliff_notes": "Bridget Memplar embarked on an unconventional path into the space industry, eventually becoming the co-founder and CEO of Northwood. Her company is dedicated to building systems that connect satellites back to Earth, a critical yet often overlooked aspect of space missions. Memplar's leadership at Northwood is focused on addressing the ground infrastructure bottleneck, which is essential for making space missions useful and effective. Her work is pivotal in the space economy, as it aims to provide a modern, vertically integrated approach to satellite connectivity, potentially unlocking the next wave of innovation in space.",
-      "derived": {
-        "current_role": "Co-founder and CEO of Northwood"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Bridget Memplar embarked on an unconventional path into the space industry, eventually becoming the co-founder and CEO of Northwood. Her company is dedicated to building systems that connect satellites back to Earth, a critical yet often overlooked aspect of space missions. Memplar's leadership at Northwood is focused on addressing the ground infrastructure bottleneck, which is essential for making space missions useful and effective.",
-        "Her work is pivotal in the space economy, as it aims to provide a modern, vertically integrated approach to satellite connectivity, potentially unlocking the next wave of innovation in space."
-      ],
-      "sections": [
-        {
-          "heading": "Northwood's Mission",
-          "body": "Northwood, under Memplar's leadership, is committed to building the systems that connect satellites back to Earth, which is crucial for the success of space missions."
-        },
-        {
-          "heading": "Ground Infrastructure",
-          "body": "Bridget Memplar has identified ground infrastructure as a significant bottleneck in the space economy and is working to modernize it through Northwood's innovative solutions."
-        },
-        {
-          "heading": "Innovation in Space",
-          "body": "Memplar's work at Northwood is aimed at not just incremental improvements but at achieving a categorical outcome in space mission capabilities through enhanced ground connectivity."
-        }
-      ]
-    },
-    "net_worth": "$50.0M"
-  },
-  {
-    "id": 107,
-    "name": "Michael Intrader",
-    "slug": "michael-intrader",
-    "bio": "Michael Intrader is the CEO of Core Weave, a company building infrastructure for hyper-scalers and adapting to the evolving needs of GPU computing. With a background in hedge fund algorithm development and early involvement in the crypto mining space, Intrader has been at the forefront of technological advancements in cloud computing and AI.",
-    "known_for": "Building massive infrastructure for hyper-scalers and being an early entrant in the crypto mining space.",
-    "net_worth_usd": 23.0,
-    "net_worth_source": "https://shadabchow.com/blogs/billionaire/michael-intrator",
-    "net_worth_updated_at": "2026-03-24T04:44:00.170439",
-    "voice_tone": "Confident and informative, with a focus on the company's strategic evolution.",
-    "voice_style": "Direct and factual, providing insights into the company's operations and market positioning.",
-    "voice_delivery_notes": "Paced with emphasis on the company's adaptability and future outlook.",
-    "voice_profile_updated_at": "2026-03-24 09:37:15",
-    "last_seen": "2026-03-24 09:37:15",
-    "last_episode_title": "Interview with Michael Intrader at Nvidia's GTC Conference",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-03-23",
-    "mention_score": 1,
-    "mention_score_decayed": 0.93,
-    "last_main_idea": "Invest in companies that can leverage the evolving landscape of AI and GPU computing, particularly those with the agility to adapt and scale in a rapidly changing market.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-24T04:43:59.032721",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Michael Intrader",
-      "fetched_at": "2026-03-24T09:43:59.032494+00:00",
-      "cliff_notes": "Michael Intrader began his career as an algorithm developer at a hedge fund focused on natural gas. With a significant amount of downtime after developing the algorithms, Intrader ventured into the crypto mining space, becoming an early entrant in the industry. Leveraging his experience in algorithm development and the growing need for GPU computing, Intrader founded Core Weave, a company that builds massive infrastructure for hyper-scalers. Core Weave has been instrumental in adapting to the evolving needs of GPU computing, particularly in the context of AI and cloud computing. Intrader's work at Core Weave has positioned him as a key player in the tech industry, shaping the future of cloud infrastructure and GPU computing.",
-      "derived": {
-        "current_role": "CEO of Core Weave",
-        "former_positions": "Algorithm Developer at Hedge Fund; Early Crypto Miner"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Michael Intrader began his career as an algorithm developer at a hedge fund focused on natural gas. With a significant amount of downtime after developing the algorithms, Intrader ventured into the crypto mining space, becoming an early entrant in the industry. Leveraging his experience in algorithm development and the growing need for GPU computing, Intrader founded Core Weave, a company that builds massive infrastructure for hyper-scalers.",
-        "Core Weave has been instrumental in adapting to the evolving needs of GPU computing, particularly in the context of AI and cloud computing. Intrader's work at Core Weave has positioned him as a key player in the tech industry, shaping the future of cloud infrastructure and GPU computing."
-      ],
-      "sections": [
-        {
-          "heading": "Early Crypto Mining",
-          "body": "Michael Intrader was an early entrant in the crypto mining space, leveraging his background in algorithm development to pioneer advancements in the industry."
-        },
-        {
-          "heading": "GPU Computing",
-          "body": "Intrader's work at Core Weave has been crucial in adapting to the evolving needs of GPU computing, particularly in the context of AI and cloud computing."
-        },
-        {
-          "heading": "Hyper-Scaler Infrastructure",
-          "body": "As CEO of Core Weave, Intrader has been instrumental in building massive infrastructure for hyper-scalers, shaping the future of cloud computing."
-        }
-      ]
-    },
-    "net_worth": "$23"
-  },
-  {
-    "id": 106,
-    "name": "Nadia Martin Wiggen",
-    "slug": "nadia-martin-wiggen",
-    "bio": "Nadia Martin Wiggen is a director at Svellen Capital, a hedge fund with a specialization in commodities and shipping markets. Her expertise is particularly relevant in times of global market fluctuations, such as during the Middle East crisis, where her insights are sought after for understanding market impacts.",
-    "known_for": "Expertise in commodities and shipping markets, especially during times of geopolitical tension.",
-    "net_worth_usd": 750000000.0,
-    "net_worth_source": "https://hedgenordic.com/2023/06/svelland-capital-hires-pareto-analyst/",
-    "net_worth_updated_at": "2026-03-24T04:44:37.173364",
-    "voice_tone": "Analytical and measured.",
-    "voice_style": "Factual and data-driven, with a focus on market reactions and practical implications.",
-    "voice_delivery_notes": "Paced, with emphasis on key market observations and potential outcomes.",
-    "voice_profile_updated_at": "2026-03-24 09:26:22",
-    "last_seen": "2026-03-24 09:26:22",
-    "last_episode_title": "Monetary Matters: Middle East Crisis and Global Market Impact",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-03-23",
-    "mention_score": 1,
-    "mention_score_decayed": 0.93,
-    "last_main_idea": "Svellen Capital sees opportunities in commodities and shipping markets amidst the Middle East crisis, with a focus on the practical implications of geopolitical events on global trade and logistics.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-24T04:44:35.945959",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Nadia Martin Wiggen",
-      "fetched_at": "2026-03-24T09:44:35.945751+00:00",
-      "cliff_notes": "Nadia Martin Wiggen is recognized for her role as a director at Svellen Capital, a hedge fund that focuses on commodities and shipping markets. Her career has been marked by her ability to navigate and analyze the complexities of these markets, especially during times of geopolitical tension. Her insights are highly valued in the investment community, as they provide a lens through which to understand the broader impacts of global events on financial markets. As a specialist in her field, Wiggen's contributions are pivotal in shaping investment strategies and risk assessments in a rapidly changing economic landscape.",
-      "derived": {
-        "current_role": "Director at Svellen Capital"
-      },
-      "infobox": {
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Nadia Martin Wiggen is recognized for her role as a director at Svellen Capital, a hedge fund that focuses on commodities and shipping markets. Her career has been marked by her ability to navigate and analyze the complexities of these markets, especially during times of geopolitical tension. Her insights are highly valued in the investment community, as they provide a lens through which to understand the broader impacts of global events on financial markets.",
-        "As a specialist in her field, Wiggen's contributions are pivotal in shaping investment strategies and risk assessments in a rapidly changing economic landscape."
-      ],
-      "sections": [
-        {
-          "heading": "Commodities Expertise",
-          "body": "Nadia Martin Wiggen is known for her deep understanding of commodities markets, which is crucial for investors looking to understand and capitalize on global market trends."
-        },
-        {
-          "heading": "Shipping Markets",
-          "body": "Her expertise extends to shipping markets, a sector heavily influenced by geopolitical events, where her insights help navigate the complexities of supply chain disruptions."
-        },
-        {
-          "heading": "Geopolitical Impact",
-          "body": "Wiggen's role at Svellen Capital often involves analyzing the impact of geopolitical events, such as the Middle East crisis, on commodities and shipping markets."
-        },
-        {
-          "heading": "Market Analysis",
-          "body": "She provides critical analysis on how major announcements, like those from political leaders, can influence market dynamics in her area of expertise."
-        }
-      ]
-    },
-    "net_worth": "$750.0M"
-  },
-  {
-    "id": 105,
-    "name": "Josh Lindville",
-    "slug": "josh-lindville",
-    "bio": "Josh Lindville is the Vice President of Fertilizer at Stone X, where he specializes in trading fertilizer futures and OTC products. He provides market insights and information to the agricultural industry, with a focus on the impact of global events on fertilizer prices.",
-    "known_for": "His expertise in analyzing the effects of geopolitical events on fertilizer prices and their implications for agriculture and food prices.",
-    "net_worth_usd": 15000000000.0,
-    "net_worth_source": "https://www.linkedin.com/in/joshua-linville-9555a711/",
-    "net_worth_updated_at": "2026-03-25T22:09:09.372188",
-    "voice_tone": "Knowledgeable and concerned about the impact of geopolitical events on fertilizer prices.",
-    "voice_style": "Factual and data-driven, with a focus on the implications for the agriculture industry.",
-    "voice_delivery_notes": "Speaks with a sense of urgency, emphasizing the severity of the situation.",
-    "voice_profile_updated_at": "2026-03-23 09:21:03",
-    "last_seen": "2026-03-23 09:21:03",
-    "last_episode_title": "Monetary Matters with Jack Farley: Impact of Iran War on Fertilizer Prices and Agriculture",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-03-22",
-    "mention_score": 1,
-    "mention_score_decayed": 0.91,
-    "last_main_idea": "The disruption in fertilizer supply due to geopolitical tensions presents an opportunity in agricultural commodities, particularly corn, which is heavily impacted by rising input costs and could see price support from tightened supply.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-23T04:22:03.060297",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Josh Lindville",
-      "fetched_at": "2026-03-23T09:22:03.060082+00:00",
-      "cliff_notes": "Josh Lindville serves as the Vice President of Fertilizer at Stone X, where he is responsible for trading in fertilizer futures and over-the-counter products. His role is pivotal in understanding and communicating the market dynamics of fertilizers, particularly in the context of global events such as the Iran war. Lindville's work is significant as it influences the agricultural sector by providing insights into how geopolitical tensions can affect the availability and pricing of essential fertilizers, which in turn impact crop yields and food prices worldwide.",
-      "derived": {
-        "current_role": "Vice President of Fertilizer at Stone X"
-      },
-      "infobox": {
-        "Industry": "Agriculture"
-      },
-      "lead_paragraphs": [
-        "Josh Lindville serves as the Vice President of Fertilizer at Stone X, where he is responsible for trading in fertilizer futures and over-the-counter products. His role is pivotal in understanding and communicating the market dynamics of fertilizers, particularly in the context of global events such as the Iran war. Lindville's work is significant as it influences the agricultural sector by providing insights into how geopolitical tensions can affect the availability and pricing of essential fertilizers, which in turn impact crop yields and food prices worldwide."
-      ],
-      "sections": [
-        {
-          "heading": "Fertilizer Market Dynamics",
-          "body": "Josh Lindville is known for his analysis of how geopolitical events, such as the Iran war, impact the global supply of nitrogen and phosphate fertilizers, which are critical for crop yields and food production."
-        },
-        {
-          "heading": "Agricultural Impact",
-          "body": "Lindville's insights are valuable for the agricultural industry as they help predict and understand the ripple effects of global events on fertilizer prices, which directly influence farming costs and food supply."
-        },
-        {
-          "heading": "Food Prices",
-          "body": "His expertise extends to the implications of fertilizer market fluctuations on food prices, a critical area of concern for global food security and economic stability."
-        }
-      ]
-    },
-    "net_worth": "$15.00B"
-  },
-  {
-    "id": 104,
-    "name": "Matt Mayhand",
-    "slug": "matt-mayhand",
-    "bio": "Matt Mayhand is a candidate for Governor of California with a background in civic tech and city council experience. He grew up in Watsonville, California, and has a history of working in education and technology sectors.",
-    "known_for": "Focusing on fiscal responsibility and pragmatic policy solutions in his gubernatorial campaign.",
-    "net_worth_usd": 1000000000.0,
-    "net_worth_source": "https://spearswms.com/wealth/matt-mahan/",
-    "net_worth_updated_at": "2026-03-23T04:22:22.883231",
-    "voice_tone": "Frustration with the state's financial mismanagement.",
-    "voice_style": "Calls for accountability and transparency in government spending.",
-    "voice_delivery_notes": "Pacing is steady with emphasis on key points of fiscal responsibility and policy pragmatism.",
-    "voice_profile_updated_at": "2026-03-23 09:18:22",
-    "last_seen": "2026-03-23 09:18:22",
-    "last_episode_title": "California's Spending Woes and the Governor's Race",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-03-23",
-    "mention_score": 1,
-    "mention_score_decayed": 0.91,
-    "last_main_idea": "Invest in innovation and infrastructure to create a smarter grid and incentivize clean energy adoption, while avoiding over-regulation that leads to unintended economic and environmental consequences.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-23T04:22:21.245588",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Matt Mayhand",
-      "fetched_at": "2026-03-23T09:22:21.245480+00:00",
-      "cliff_notes": "Matt Mayhand hails from Watsonville, California, a small farming town known for its strawberries. Coming from a working-class family, his mother was a teacher and his father a letter carrier. Mayhand's educational journey began with a college prep high school and a work study scholarship, which involved a two-hour bus commute each way. After working his way through high school and college, he returned to education as a public school teacher through the Teach for America program. His interest in politics and making a difference led him to the tech sector, where he spent a decade developing civic tech tools aimed at helping people navigate democracy. His pragmatic approach to governance and commitment to fiscal responsibility are central to his campaign for Governor of California.",
-      "derived": {
-        "current_role": "Candidate for Governor of California",
-        "former_positions": "Public School Teacher; Civic Tech Developer",
-        "education": "College Prep High School; Work Study Scholarship",
-        "political_summary": "Matt Mayhand is running for Governor of California, emphasizing fiscal responsibility and pragmatic policy solutions. His campaign is a response to his frustration with the state's spending and diminishing returns.",
-        "teaching_summary": "Public School Teacher"
-      },
-      "infobox": {
-        "Born": "Watsonville, California",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Matt Mayhand hails from Watsonville, California, a small farming town known for its strawberries. Coming from a working-class family, his mother was a teacher and his father a letter carrier. Mayhand's educational journey began with a college prep high school and a work study scholarship, which involved a two-hour bus commute each way.",
-        "After working his way through high school and college, he returned to education as a public school teacher through the Teach for America program. His interest in politics and making a difference led him to the tech sector, where he spent a decade developing civic tech tools aimed at helping people navigate democracy. His pragmatic approach to governance and commitment to fiscal responsibility are central to his campaign for Governor of California."
-      ],
-      "sections": [
-        {
-          "heading": "Education",
-          "body": "Matt Mayhand's educational journey began with a college prep high school and a work study scholarship, which involved a two-hour bus commute each way. He later worked his way through college and became a public school teacher through the Teach for America program."
-        },
-        {
-          "heading": "Civic Tech",
-          "body": "Mayhand spent a decade in the tech sector, building civic tech tools designed to help people navigate their democracy more effectively, reflecting his commitment to making the city and world a better place."
-        },
-        {
-          "heading": "Governor Campaign",
-          "body": "Running for Governor of California, Mayhand emphasizes fiscal responsibility and pragmatic policy solutions, aiming to address the state's spending issues and the diminishing returns on investment."
-        }
-      ]
-    },
-    "net_worth": "$1.00B"
-  },
-  {
-    "id": 103,
-    "name": "Terrence Tau",
-    "slug": "terrence-tau",
-    "bio": "Terrence Tau is an amateur astronomer with a deep interest in the history of astronomy and the application of AI in mathematics. He is known for his insights on the parallels between historical astronomical discoveries and modern AI applications in mathematics.",
-    "known_for": "His expertise in drawing parallels between historical astronomical discoveries and modern AI applications in mathematics.",
-    "net_worth_usd": 3000000.0,
-    "net_worth_source": "https://capitalmaniacs.com/terence-tao-net-worth-a-math-genius/",
-    "net_worth_updated_at": "2026-03-21T04:32:04.978250",
-    "voice_tone": "Inquisitive and informative",
-    "voice_style": "Narrative and explanatory, with a focus on historical context",
-    "voice_delivery_notes": "Speaks with a measured pace, emphasizing key points in the historical narrative",
-    "voice_profile_updated_at": "2026-03-21 09:30:48",
-    "last_seen": "2026-03-21 09:30:48",
-    "last_episode_title": "The Impact of AI on Mathematics and Scientific Discovery",
-    "last_podcast_name": "Dwarkesh Podcast",
-    "last_episode_date": "2026-03-20",
-    "mention_score": 1,
-    "mention_score_decayed": 0.87,
-    "last_main_idea": "The integration of AI into mathematics can accelerate discovery and problem-solving, presenting opportunities for investment in AI technology and its applications in scientific research.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-21T04:32:04.005767",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Terrence Tau",
-      "fetched_at": "2026-03-21T09:32:04.005404+00:00",
-      "cliff_notes": "Terrence Tau is an amateur astronomer with a profound interest in the history of astronomy and its intersection with modern AI applications in mathematics. He has dedicated his time to understanding the evolution of astronomical theories and their relevance to contemporary mathematical AI. Tau's work focuses on the historical context of astronomical discoveries, such as Kepler's laws of planetary motion, and how these can inform and inspire current AI-driven mathematical research. His contributions to the field are significant, as they bridge the gap between historical knowledge and cutting-edge technology, offering a unique perspective on the development of AI in mathematics.",
-      "derived": {},
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Terrence Tau is an amateur astronomer with a profound interest in the history of astronomy and its intersection with modern AI applications in mathematics. He has dedicated his time to understanding the evolution of astronomical theories and their relevance to contemporary mathematical AI. Tau's work focuses on the historical context of astronomical discoveries, such as Kepler's laws of planetary motion, and how these can inform and inspire current AI-driven mathematical research.",
-        "His contributions to the field are significant, as they bridge the gap between historical knowledge and cutting-edge technology, offering a unique perspective on the development of AI in mathematics."
-      ],
-      "sections": [
-        {
-          "heading": "Historical Astronomy",
-          "body": "Terrence Tau is deeply interested in the history of astronomy, particularly the contributions of early astronomers like Copernicus and Kepler."
-        },
-        {
-          "heading": "AI in Mathematics",
-          "body": "Tau explores the application of AI in mathematics, drawing parallels with historical astronomical discoveries to understand modern AI's potential."
-        },
-        {
-          "heading": "Kepler's Laws",
-          "body": "He is particularly fascinated by Kepler's laws of planetary motion and how they can be used as a metaphor for understanding AI's role in mathematics."
-        }
-      ]
-    },
-    "net_worth": "$3.0M"
   }
 ]

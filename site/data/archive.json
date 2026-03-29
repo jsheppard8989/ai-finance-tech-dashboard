@@ -1,6 +1,109 @@
 {
   "insights": [
     {
+      "id": 127,
+      "title": "https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-18%2Fdff54dee-2ba4-02bd-9c43-d935696550da",
+      "source_type": "podcast",
+      "source_name": "University of Podcast",
+      "source_date": "2026-03-28",
+      "summary": "The podcast episode features a discussion on the evolution of privacy in the digital age, particularly in the context of cryptocurrencies like Z-Cash. The conversation covers the importance of privacy, the role of Z-Cash in addressing privacy concerns, and the potential for cryptocurrencies to shape the future of finance. The guest shares insights into the technological aspects of Z-Cash and its potential to disrupt traditional financial systems.",
+      "key_takeaway": "Investing in Z-Cash could be a way to capitalize on the growing demand for privacy in digital transactions and the potential for scalability improvements in blockchain technology.",
+      "tickers_mentioned": [
+        "ZEC"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-28",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 120
+    },
+    {
+      "id": 128,
+      "title": "all in with chamath jason sacks frie jensen huang live nvidia s future physical ai rise of the 03b9c382",
+      "source_type": "podcast",
+      "source_name": "Unknown Podcast",
+      "source_date": "2026-03-28",
+      "summary": "This podcast episode features a discussion on the future of AI in the context of global financial systems. The conversation covers the shift from legacy systems to AI-driven platforms, the significance of the acquisition of Rock by Nvidia, and the importance of disaggregated computing in the AI era. Additionally, the podcast delves into the role of open-source models in AI and the impact of AI on job markets and education.",
+      "key_takeaway": "Investing in AI-driven platforms and technologies is essential for capturing the growth in the global financial system and staying ahead in the AI era.",
+      "tickers_mentioned": [
+        "NVDA"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-28",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 119
+    },
+    {
+      "id": 129,
+      "title": "the a16z show chris dixon from quant trading to building a16z crypto be2e5b4b",
+      "source_type": "podcast",
+      "source_name": "Unknown Podcast",
+      "source_date": "2026-03-28",
+      "summary": "In this episode of the Unknown Podcast, Chris Dixon, a general partner at A16Z, discusses his journey from programming and quant finance to angel investing and building A16Z's dedicated crypto practice. Dixon shares insights on his unconventional investment bets, the importance of betting on talent in businesses, and his views on the evolution of angel investing and the tech industry. He also touches on the significance of New York as a tech hub and its potential in the crypto space.",
+      "key_takeaway": "Betting on talented individuals in businesses rather than predicting tech trends is a more consistent approach to investing.",
+      "tickers_mentioned": [
+        "AAPL",
+        "NVDA",
+        "COIN",
+        "FB",
+        "GOOGL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-28",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 118
+    },
+    {
+      "id": 130,
+      "title": "ALLIN-INTV Jensen V2 Ch",
+      "source_type": "podcast",
+      "source_name": "Unknown Podcast",
+      "source_date": "2026-03-28",
+      "summary": "This special episode discusses the evolution of AI and the tech industry, with a focus on the acquisition of Grok and the concept of disaggregated inference. The conversation delves into the complexities of AI processing and the shift from a GPU-centric approach to a more heterogeneous computing model. It also touches on the importance of both proprietary and open-source AI models, the impact of AI on various industries, and the role of education in preparing for the AI-driven future.",
+      "key_takeaway": "Invest in companies that are at the forefront of AI technology, particularly those that can leverage both proprietary and open-source models to drive innovation and capture domain-specific expertise.",
+      "tickers_mentioned": [
+        "NVDA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-28",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 116
+    },
+    {
+      "id": 131,
+      "title": "the a16z show 20260319 1e92a9dd 78da 4417 b1ce 4b4318d1",
+      "source_type": "podcast",
+      "source_name": "Unknown Podcast",
+      "source_date": "2026-03-28",
+      "summary": "This podcast episode features a discussion on the economic implications of AI, focusing on how it can transform labor, startups, and the ambitions of young professionals. The conversation revolves around Christian Catalini's paper 'Some Simple Economics of AI', which delves into the complex interplay between AI and the economy. The podcast explores the potential for AI to democratize access to resources, the shift in consensus formation, and the opportunities AI presents in the realms of art, finance, and technology.",
+      "key_takeaway": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
+      "tickers_mentioned": [
+        "AAPL",
+        "NVDA",
+        "GOOGL",
+        "MSFT",
+        "TSLA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-28",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 115
+    },
+    {
       "id": 125,
       "title": "Investing in Sovereign Credit with Lupin Ramon",
       "source_type": "podcast",
@@ -40,6 +143,28 @@
       "podcast_episode_id": 108
     },
     {
+      "id": 132,
+      "title": "Anthropic's Generational Run, OpenAI Panics, AI Moats, Meta Loses Lawsuits",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-03-27",
+      "summary": "In this episode, the hosts discuss a range of investment insights and market trends, with a focus on technological disruption and its impact on various industries. They touch on topics such as the rise of SaaS, the importance of innovation, and the competitive landscape between the US and China in scientific research and technology. The conversation also includes discussions on the potential erosion of brand value and the increasing importance of value propositions in a market where abundance is becoming more prevalent.",
+      "key_takeaway": "Invest in companies that are driving innovation and can disrupt traditional industries by offering superior products at better prices, while keeping an eye on the competitive dynamics between the US and China in scientific research and technology.",
+      "tickers_mentioned": [
+        "AAPL",
+        "GOOGL",
+        "TSLA",
+        "BYD"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-28",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 117
+    },
+    {
       "id": 120,
       "title": "Exploring Psychedelics for Longevity and Personal Growth",
       "source_type": "podcast",
@@ -54,11 +179,11 @@
         "TSLA"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-26",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-29",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 103
     },
     {
@@ -77,11 +202,11 @@
         "TSLA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-26",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-29",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 106
     },
     {
@@ -98,11 +223,11 @@
         "WTI"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-26",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-29",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 107
     },
     {
@@ -121,11 +246,11 @@
         "LMT"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-26",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-29",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 104
     },
     {
@@ -141,11 +266,11 @@
         "PQUS"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-26",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-29",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 105
     },
     {
@@ -205,11 +330,11 @@
         "NVDA"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-25",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-29",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 101
     },
     {
@@ -438,6 +563,29 @@
       "podcast_episode_id": 89
     },
     {
+      "id": 133,
+      "title": "AI Just Gave You Superpowers \u2014 Now What?",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-03-19",
+      "summary": "In this episode of 'The a16z Show', Christian Catalini and Eddie Lazarin discuss the economic implications of AI on work, startups, and ambition. They explore the concept of 'compute arbitrage', the potential for AI to democratize access to resources, and the shift in consensus formation from human-only to a potential machine-human collaboration. The conversation touches on the existential crisis brought about by rapid technological progress and the opportunities for individuals to harness AI for personal and professional growth.",
+      "key_takeaway": "Invest in AI technologies that enable 'compute arbitrage' and democratize access to resources, as well as in startups that leverage AI to disrupt traditional business models.",
+      "tickers_mentioned": [
+        "AAPL",
+        "NVDA",
+        "GOOGL",
+        "MSFT",
+        "TSLA"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 0,
+      "display_order": 0,
+      "added_date": "2026-03-28",
+      "archived_date": "2026-03-29",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
+      "podcast_episode_id": 112
+    },
+    {
       "id": 94,
       "title": "Interview with Senator John Fetterman on Voting Rights, Policy Decisions, and the Democratic Party",
       "source_type": "podcast",
@@ -481,6 +629,27 @@
       "archived_date": "2026-03-23",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 77
+    },
+    {
+      "id": 134,
+      "title": "Stock Market on Shaky Foundations | Blind Squirrel Macro\u2019s Rupert Mitchell on IPO Supply, Oil, and Private Credit",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-03-18",
+      "summary": "In this episode of Monetary Matters with Jack Farley, guest Rupert Mitchell of Blind Squirrel Macro discusses current market concerns and investment strategies. Key themes include worries about employment, the business cycle, and expensive stock valuations. Mitchell expresses concerns about the foundations of the bull market, particularly in US equities, and suggests a weaker dollar bias in the medium term. The conversation also touches on the potential impact of AI and data center build-out on small market stocks and the risks associated with certain SaaS verticals and M&A boutiques.",
+      "key_takeaway": "The current bull market is built on shaky foundations, and a shift towards a more cautious stance with a focus on security software and data lake control is advised.",
+      "tickers_mentioned": [
+        "SPACEX",
+        "OPENAI",
+        "THROPIC"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 0,
+      "display_order": 0,
+      "added_date": "2026-03-28",
+      "archived_date": "2026-03-29",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
+      "podcast_episode_id": 111
     },
     {
       "id": 88,
@@ -671,6 +840,29 @@
       "archived_date": "2026-03-19",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 65
+    },
+    {
+      "id": 135,
+      "title": "EWWMN9153105374",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-03-15",
+      "summary": "In this episode of Monetary Matters, host Jack Farley interviews Roy Johnson of Commodity Context, a top independent oil and energy analyst. They discuss the current geopolitical crisis and its impact on oil markets, particularly the Iran oil shock. Johnson emphasizes the protracted nature of the crisis and its potential to disrupt the global economy if the flow of oil through the Strait of Hormuz does not normalize. The conversation covers the potential for a price spike in oil, the role of the United States and President Trump in de-escalation, and the implications for the global oil market.",
+      "key_takeaway": "The ongoing geopolitical crisis in the Middle East, particularly the situation around the Strait of Hormuz, presents a significant risk to global oil supply and prices, potentially leading to a sustained increase in oil prices.",
+      "tickers_mentioned": [
+        "AAPL",
+        "NVDA",
+        "SPY",
+        "TSLA",
+        "XOM"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 0,
+      "display_order": 0,
+      "added_date": "2026-03-28",
+      "archived_date": "2026-03-29",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
+      "podcast_episode_id": 114
     },
     {
       "id": 78,
@@ -1099,6 +1291,29 @@
       "archived_date": "2026-03-11",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 46
+    },
+    {
+      "id": 136,
+      "title": "Inventing the Renaissance: Economic and Technological Insights",
+      "source_type": "podcast",
+      "source_name": "Dwarkesh Podcast",
+      "source_date": "2026-03-06",
+      "summary": "In this episode of Dwarkesh Podcast, the host interviews Ada Palmer, a Renaissance historian, novelist, and composer, to discuss her book 'Inventing the Renaissance'. The conversation delves into the economic and technological factors that contributed to the rise of Italian city republics during the late 15th and early 16th centuries, the influence of Roman virtues on governance, and the transformative impact of the printing press on society and information distribution.",
+      "key_takeaway": "The historical insights from the Italian Renaissance period suggest that technological advancements, such as the printing press, can have a profound impact on society and information distribution, which parallels modern tech revolutions and their investment implications.",
+      "tickers_mentioned": [
+        "AAPL",
+        "NVDA",
+        "SPY",
+        "TSLA",
+        "GOOGL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 0,
+      "display_order": 0,
+      "added_date": "2026-03-28",
+      "archived_date": "2026-03-29",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
+      "podcast_episode_id": 110
     },
     {
       "id": 58,
@@ -1753,6 +1968,25 @@
       "archived_date": "2026-03-20",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 88
+    },
+    {
+      "id": 137,
+      "title": "Technical Analysis Deep Dive with Milton Berg - February 2026 Market Signals",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-02-15",
+      "summary": "In this episode of Monetary Matters, host Jack Farley interviews Carson Block, founder of Muddy Waters Capital, a leading activist short seller hedge fund. They discuss the fertile ground for short selling in the tech sector, particularly in AI and AI-adjacent industries, and the challenges of identifying pretenders in the market. Carson also shares insights on precious metals investing, focusing on the macro thesis of under-allocation of human capital in the mining sector. The conversation touches on the potential of combining long side exposure with short selling strategies and the future of activist short selling.",
+      "key_takeaway": "Invest in sectors with fertile ground for short selling, such as AI and tech, and under-allocated areas like junior mining, while combining long and short strategies for potential alpha.",
+      "tickers_mentioned": [
+        "PQNT"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 0,
+      "display_order": 0,
+      "added_date": "2026-03-28",
+      "archived_date": "2026-03-29",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
+      "podcast_episode_id": 113
     },
     {
       "id": 1,

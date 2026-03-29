@@ -1,6 +1,18 @@
 [
   {
-    "id": 1219,
+    "id": 1234,
+    "name": "This special episode",
+    "slug": "this-special-episode",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Invest in companies that are at the forefront of AI technology, particularly those that can leverage both proprietary and open-source models to drive innovation and capture domain-specific expertise.",
+    "last_episode_title": "ALLIN-INTV Jensen V2 Ch",
+    "last_podcast_name": "Unknown Podcast",
+    "last_episode_date": "2026-03-28",
+    "appearance_count": 1
+  },
+  {
+    "id": 1235,
     "name": "Lupin Ramon",
     "slug": "lupin-ramon",
     "bio": null,
@@ -12,7 +24,7 @@
     "appearance_count": 1
   },
   {
-    "id": 1220,
+    "id": 1236,
     "name": "When the Music Stops",
     "slug": "when-the-music-stops",
     "bio": null,
@@ -24,7 +36,7 @@
     "appearance_count": 1
   },
   {
-    "id": 1221,
+    "id": 1237,
     "name": "Ground Infrastructure",
     "slug": "ground-infrastructure",
     "bio": null,
@@ -36,7 +48,7 @@
     "appearance_count": 1
   },
   {
-    "id": 1222,
+    "id": 1238,
     "name": "Rory Johnston",
     "slug": "rory-johnston",
     "bio": null,
@@ -48,7 +60,7 @@
     "appearance_count": 1
   },
   {
-    "id": 1223,
+    "id": 1239,
     "name": "Senator John Fetterman on Voting Rights",
     "slug": "senator-john-fetterman-on-voting-rights",
     "bio": null,
@@ -60,7 +72,19 @@
     "appearance_count": 1
   },
   {
-    "id": 1224,
+    "id": 1240,
+    "name": "Stock Market on Shaky Foundations",
+    "slug": "stock-market-on-shaky-foundations",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "The current bull market is built on shaky foundations, and a shift towards a more cautious stance with a focus on security software and data lake control is advised.",
+    "last_episode_title": "Stock Market on Shaky Foundations | Blind Squirrel Macro\u2019s Rupert Mitchell on IPO Supply, Oil, and Private Credit",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-03-18",
+    "appearance_count": 1
+  },
+  {
+    "id": 1241,
     "name": "Elon Musk on Moonshots",
     "slug": "elon-musk-on-moonshots",
     "bio": null,
@@ -72,7 +96,7 @@
     "appearance_count": 1
   },
   {
-    "id": 1225,
+    "id": 1242,
     "name": "Investing in Capitalism",
     "slug": "investing-in-capitalism",
     "bio": null,
@@ -84,7 +108,7 @@
     "appearance_count": 1
   },
   {
-    "id": 1226,
+    "id": 1243,
     "name": "Harvard Professor Graham Allison",
     "slug": "harvard-professor-graham-allison",
     "bio": null,
@@ -96,7 +120,7 @@
     "appearance_count": 1
   },
   {
-    "id": 1227,
+    "id": 1244,
     "name": "Andrew Yang",
     "slug": "andrew-yang",
     "bio": "Andrew Yang is an entrepreneur and political leader who popularized universal basic income in U.S. politics through his 2020 presidential campaign.",
@@ -108,7 +132,19 @@
     "appearance_count": 1
   },
   {
-    "id": 1228,
+    "id": 1245,
+    "name": "Inventing the Renaissance",
+    "slug": "inventing-the-renaissance",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "The historical insights from the Italian Renaissance period suggest that technological advancements, such as the printing press, can have a profound impact on society and information distribution, which parallels modern tech revolutions and their investment implications.",
+    "last_episode_title": "Inventing the Renaissance: Economic and Technological Insights",
+    "last_podcast_name": "Dwarkesh Podcast",
+    "last_episode_date": "2026-03-06",
+    "appearance_count": 1
+  },
+  {
+    "id": 1246,
     "name": "Ray Dalio",
     "slug": "ray-dalio",
     "bio": "Ray Dalio is the founder of Bridgewater Associates and a macro investor known for his 'Principles' framework and work on long-term debt cycles.",
@@ -120,7 +156,7 @@
     "appearance_count": 1
   },
   {
-    "id": 1229,
+    "id": 1247,
     "name": "Nobel Prize-winning economist Paul Krugman",
     "slug": "nobel-prize-winning-economist-paul-krugman",
     "bio": null,
@@ -132,7 +168,7 @@
     "appearance_count": 1
   },
   {
-    "id": 1230,
+    "id": 1248,
     "name": "host Jack Mallers",
     "slug": "host-jack-mallers",
     "bio": null,
@@ -144,7 +180,7 @@
     "appearance_count": 1
   },
   {
-    "id": 1231,
+    "id": 1249,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -156,7 +192,7 @@
     "appearance_count": 1
   },
   {
-    "id": 1232,
+    "id": 1250,
     "name": "Bosworth",
     "slug": "bosworth",
     "bio": null,
@@ -168,7 +204,7 @@
     "appearance_count": 1
   },
   {
-    "id": 1233,
+    "id": 1251,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",

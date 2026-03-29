@@ -3,19 +3,19 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-03-28T04:08:30.320670",
+  generatedAt: "2026-03-28T22:10:37.682053",
   chartsVersion: "2026-03-28T04:08:27.493109",
   tickerScores: [
   {
     "ticker": "GOOGL",
-    "total_score": 361.0,
-    "raw_mention_count": 24,
+    "total_score": 431.0,
+    "raw_mention_count": 25,
     "unique_sources": 2,
-    "podcast_mentions": 4,
+    "podcast_mentions": 5,
     "newsletter_mentions": 20,
     "rank": 1,
-    "score": 361.0,
-    "mentions": 24,
+    "score": 431.0,
+    "mentions": 25,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
     "timeframe": "long_term",
@@ -53,14 +53,14 @@ const dashboardData = {
   },
   {
     "ticker": "NVDA",
-    "total_score": 228.0,
-    "raw_mention_count": 11,
+    "total_score": 302.0,
+    "raw_mention_count": 12,
     "unique_sources": 2,
-    "podcast_mentions": 3,
+    "podcast_mentions": 4,
     "newsletter_mentions": 8,
     "rank": 4,
-    "score": 228.0,
-    "mentions": 11,
+    "score": 302.0,
+    "mentions": 12,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
     "timeframe": "long_term",
@@ -127,13 +127,28 @@ const dashboardData = {
     "contexts": []
   },
   {
+    "ticker": "TSLA",
+    "total_score": 150.0,
+    "raw_mention_count": 2,
+    "unique_sources": 1,
+    "podcast_mentions": 2,
+    "newsletter_mentions": 0,
+    "rank": 9,
+    "score": 150.0,
+    "mentions": 2,
+    "conviction_level": "medium",
+    "contrarian_signal": "neutral",
+    "timeframe": "long_term",
+    "contexts": []
+  },
+  {
     "ticker": "MSTR",
     "total_score": 142.0,
     "raw_mention_count": 2,
     "unique_sources": 1,
     "podcast_mentions": 2,
     "newsletter_mentions": 0,
-    "rank": 9,
+    "rank": 10,
     "score": 142.0,
     "mentions": 2,
     "conviction_level": "medium",
@@ -148,7 +163,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 2,
     "newsletter_mentions": 0,
-    "rank": 10,
+    "rank": 11,
     "score": 132.0,
     "mentions": 2,
     "conviction_level": "medium",
@@ -163,7 +178,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 2,
     "newsletter_mentions": 0,
-    "rank": 11,
+    "rank": 12,
     "score": 128.0,
     "mentions": 2,
     "conviction_level": "medium",
@@ -178,8 +193,23 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 2,
     "newsletter_mentions": 0,
-    "rank": 12,
+    "rank": 13,
     "score": 128.0,
+    "mentions": 2,
+    "conviction_level": "medium",
+    "contrarian_signal": "neutral",
+    "timeframe": "long_term",
+    "contexts": []
+  },
+  {
+    "ticker": "PQNT",
+    "total_score": 120.0,
+    "raw_mention_count": 2,
+    "unique_sources": 1,
+    "podcast_mentions": 2,
+    "newsletter_mentions": 0,
+    "rank": 14,
+    "score": 120.0,
     "mentions": 2,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
@@ -193,7 +223,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 2,
     "newsletter_mentions": 0,
-    "rank": 13,
+    "rank": 15,
     "score": 112.0,
     "mentions": 2,
     "conviction_level": "medium",
@@ -208,7 +238,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 2,
     "newsletter_mentions": 0,
-    "rank": 14,
+    "rank": 16,
     "score": 84.0,
     "mentions": 2,
     "conviction_level": "medium",
@@ -223,7 +253,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 0,
     "newsletter_mentions": 12,
-    "rank": 15,
+    "rank": 17,
     "score": 75.0,
     "mentions": 12,
     "conviction_level": "medium",
@@ -238,7 +268,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 16,
+    "rank": 18,
     "score": 74.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -253,22 +283,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 17,
-    "score": 74.0,
-    "mentions": 1,
-    "conviction_level": "medium",
-    "contrarian_signal": "neutral",
-    "timeframe": "long_term",
-    "contexts": []
-  },
-  {
-    "ticker": "TSLA",
-    "total_score": 74.0,
-    "raw_mention_count": 1,
-    "unique_sources": 1,
-    "podcast_mentions": 1,
-    "newsletter_mentions": 0,
-    "rank": 18,
+    "rank": 19,
     "score": 74.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -283,7 +298,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 19,
+    "rank": 20,
     "score": 72.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -298,7 +313,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 20,
+    "rank": 21,
     "score": 72.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -313,7 +328,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 21,
+    "rank": 22,
     "score": 72.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -328,7 +343,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 22,
+    "rank": 23,
     "score": 72.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -343,7 +358,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 23,
+    "rank": 24,
     "score": 72.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -358,7 +373,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 24,
+    "rank": 25,
     "score": 70.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -373,7 +388,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 25,
+    "rank": 26,
     "score": 70.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -388,7 +403,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 26,
+    "rank": 27,
     "score": 70.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -403,7 +418,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 27,
+    "rank": 28,
     "score": 70.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -418,7 +433,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 28,
+    "rank": 29,
     "score": 70.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -433,7 +448,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 29,
+    "rank": 30,
     "score": 68.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -448,7 +463,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 30,
+    "rank": 31,
     "score": 68.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -463,7 +478,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 31,
+    "rank": 32,
     "score": 66.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -478,7 +493,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 32,
+    "rank": 33,
     "score": 66.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -493,7 +508,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 33,
+    "rank": 34,
     "score": 64.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -508,7 +523,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 34,
+    "rank": 35,
     "score": 64.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -523,7 +538,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 35,
+    "rank": 36,
     "score": 64.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -538,7 +553,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 36,
+    "rank": 37,
     "score": 64.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -553,7 +568,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 37,
+    "rank": 38,
     "score": 64.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -563,21 +578,6 @@ const dashboardData = {
   },
   {
     "ticker": "C.O.R.N",
-    "total_score": 60.0,
-    "raw_mention_count": 1,
-    "unique_sources": 1,
-    "podcast_mentions": 1,
-    "newsletter_mentions": 0,
-    "rank": 38,
-    "score": 60.0,
-    "mentions": 1,
-    "conviction_level": "medium",
-    "contrarian_signal": "neutral",
-    "timeframe": "long_term",
-    "contexts": []
-  },
-  {
-    "ticker": "PQNT",
     "total_score": 60.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -730,6 +730,109 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 127,
+      "title": "https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-18%2Fdff54dee-2ba4-02bd-9c43-d935696550da",
+      "source_type": "podcast",
+      "source_name": "University of Podcast",
+      "source_date": "2026-03-28",
+      "summary": "The podcast episode features a discussion on the evolution of privacy in the digital age, particularly in the context of cryptocurrencies like Z-Cash. The conversation covers the importance of privacy, the role of Z-Cash in addressing privacy concerns, and the potential for cryptocurrencies to shape the future of finance. The guest shares insights into the technological aspects of Z-Cash and its potential to disrupt traditional financial systems.",
+      "key_takeaway": "Investing in Z-Cash could be a way to capitalize on the growing demand for privacy in digital transactions and the potential for scalability improvements in blockchain technology.",
+      "tickers_mentioned": [
+        "ZEC"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-28",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 120
+    },
+    {
+      "id": 128,
+      "title": "all in with chamath jason sacks frie jensen huang live nvidia s future physical ai rise of the 03b9c382",
+      "source_type": "podcast",
+      "source_name": "Unknown Podcast",
+      "source_date": "2026-03-28",
+      "summary": "This podcast episode features a discussion on the future of AI in the context of global financial systems. The conversation covers the shift from legacy systems to AI-driven platforms, the significance of the acquisition of Rock by Nvidia, and the importance of disaggregated computing in the AI era. Additionally, the podcast delves into the role of open-source models in AI and the impact of AI on job markets and education.",
+      "key_takeaway": "Investing in AI-driven platforms and technologies is essential for capturing the growth in the global financial system and staying ahead in the AI era.",
+      "tickers_mentioned": [
+        "NVDA"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-28",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 119
+    },
+    {
+      "id": 129,
+      "title": "the a16z show chris dixon from quant trading to building a16z crypto be2e5b4b",
+      "source_type": "podcast",
+      "source_name": "Unknown Podcast",
+      "source_date": "2026-03-28",
+      "summary": "In this episode of the Unknown Podcast, Chris Dixon, a general partner at A16Z, discusses his journey from programming and quant finance to angel investing and building A16Z's dedicated crypto practice. Dixon shares insights on his unconventional investment bets, the importance of betting on talent in businesses, and his views on the evolution of angel investing and the tech industry. He also touches on the significance of New York as a tech hub and its potential in the crypto space.",
+      "key_takeaway": "Betting on talented individuals in businesses rather than predicting tech trends is a more consistent approach to investing.",
+      "tickers_mentioned": [
+        "AAPL",
+        "NVDA",
+        "COIN",
+        "FB",
+        "GOOGL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-28",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 118
+    },
+    {
+      "id": 130,
+      "title": "ALLIN-INTV Jensen V2 Ch",
+      "source_type": "podcast",
+      "source_name": "Unknown Podcast",
+      "source_date": "2026-03-28",
+      "summary": "This special episode discusses the evolution of AI and the tech industry, with a focus on the acquisition of Grok and the concept of disaggregated inference. The conversation delves into the complexities of AI processing and the shift from a GPU-centric approach to a more heterogeneous computing model. It also touches on the importance of both proprietary and open-source AI models, the impact of AI on various industries, and the role of education in preparing for the AI-driven future.",
+      "key_takeaway": "Invest in companies that are at the forefront of AI technology, particularly those that can leverage both proprietary and open-source models to drive innovation and capture domain-specific expertise.",
+      "tickers_mentioned": [
+        "NVDA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-28",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 116
+    },
+    {
+      "id": 131,
+      "title": "the a16z show 20260319 1e92a9dd 78da 4417 b1ce 4b4318d1",
+      "source_type": "podcast",
+      "source_name": "Unknown Podcast",
+      "source_date": "2026-03-28",
+      "summary": "This podcast episode features a discussion on the economic implications of AI, focusing on how it can transform labor, startups, and the ambitions of young professionals. The conversation revolves around Christian Catalini's paper 'Some Simple Economics of AI', which delves into the complex interplay between AI and the economy. The podcast explores the potential for AI to democratize access to resources, the shift in consensus formation, and the opportunities AI presents in the realms of art, finance, and technology.",
+      "key_takeaway": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
+      "tickers_mentioned": [
+        "AAPL",
+        "NVDA",
+        "GOOGL",
+        "MSFT",
+        "TSLA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-28",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 115
+    },
+    {
       "id": 125,
       "title": "Investing in Sovereign Credit with Lupin Ramon",
       "source_type": "podcast",
@@ -769,6 +872,28 @@ const dashboardData = {
       "podcast_episode_id": 108
     },
     {
+      "id": 132,
+      "title": "Anthropic's Generational Run, OpenAI Panics, AI Moats, Meta Loses Lawsuits",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-03-27",
+      "summary": "In this episode, the hosts discuss a range of investment insights and market trends, with a focus on technological disruption and its impact on various industries. They touch on topics such as the rise of SaaS, the importance of innovation, and the competitive landscape between the US and China in scientific research and technology. The conversation also includes discussions on the potential erosion of brand value and the increasing importance of value propositions in a market where abundance is becoming more prevalent.",
+      "key_takeaway": "Invest in companies that are driving innovation and can disrupt traditional industries by offering superior products at better prices, while keeping an eye on the competitive dynamics between the US and China in scientific research and technology.",
+      "tickers_mentioned": [
+        "AAPL",
+        "GOOGL",
+        "TSLA",
+        "BYD"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-28",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 117
+    },
+    {
       "id": 120,
       "title": "Exploring Psychedelics for Longevity and Personal Growth",
       "source_type": "podcast",
@@ -783,11 +908,11 @@ const dashboardData = {
         "TSLA"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-26",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-29",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 103
     },
     {
@@ -806,11 +931,11 @@ const dashboardData = {
         "TSLA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-26",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-29",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 106
     },
     {
@@ -827,11 +952,11 @@ const dashboardData = {
         "WTI"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-26",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-29",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 107
     },
     {
@@ -850,11 +975,11 @@ const dashboardData = {
         "LMT"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-26",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-29",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 104
     },
     {
@@ -870,11 +995,11 @@ const dashboardData = {
         "PQUS"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-26",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-29",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 105
     },
     {
@@ -934,11 +1059,11 @@ const dashboardData = {
         "NVDA"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-25",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-29",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 101
     },
     {
@@ -1167,6 +1292,29 @@ const dashboardData = {
       "podcast_episode_id": 89
     },
     {
+      "id": 133,
+      "title": "AI Just Gave You Superpowers \u2014 Now What?",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-03-19",
+      "summary": "In this episode of 'The a16z Show', Christian Catalini and Eddie Lazarin discuss the economic implications of AI on work, startups, and ambition. They explore the concept of 'compute arbitrage', the potential for AI to democratize access to resources, and the shift in consensus formation from human-only to a potential machine-human collaboration. The conversation touches on the existential crisis brought about by rapid technological progress and the opportunities for individuals to harness AI for personal and professional growth.",
+      "key_takeaway": "Invest in AI technologies that enable 'compute arbitrage' and democratize access to resources, as well as in startups that leverage AI to disrupt traditional business models.",
+      "tickers_mentioned": [
+        "AAPL",
+        "NVDA",
+        "GOOGL",
+        "MSFT",
+        "TSLA"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 0,
+      "display_order": 0,
+      "added_date": "2026-03-28",
+      "archived_date": "2026-03-29",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
+      "podcast_episode_id": 112
+    },
+    {
       "id": 94,
       "title": "Interview with Senator John Fetterman on Voting Rights, Policy Decisions, and the Democratic Party",
       "source_type": "podcast",
@@ -1210,6 +1358,27 @@ const dashboardData = {
       "archived_date": "2026-03-23",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 77
+    },
+    {
+      "id": 134,
+      "title": "Stock Market on Shaky Foundations | Blind Squirrel Macro\u2019s Rupert Mitchell on IPO Supply, Oil, and Private Credit",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-03-18",
+      "summary": "In this episode of Monetary Matters with Jack Farley, guest Rupert Mitchell of Blind Squirrel Macro discusses current market concerns and investment strategies. Key themes include worries about employment, the business cycle, and expensive stock valuations. Mitchell expresses concerns about the foundations of the bull market, particularly in US equities, and suggests a weaker dollar bias in the medium term. The conversation also touches on the potential impact of AI and data center build-out on small market stocks and the risks associated with certain SaaS verticals and M&A boutiques.",
+      "key_takeaway": "The current bull market is built on shaky foundations, and a shift towards a more cautious stance with a focus on security software and data lake control is advised.",
+      "tickers_mentioned": [
+        "SPACEX",
+        "OPENAI",
+        "THROPIC"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 0,
+      "display_order": 0,
+      "added_date": "2026-03-28",
+      "archived_date": "2026-03-29",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
+      "podcast_episode_id": 111
     },
     {
       "id": 88,
@@ -1400,6 +1569,29 @@ const dashboardData = {
       "archived_date": "2026-03-19",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 65
+    },
+    {
+      "id": 135,
+      "title": "EWWMN9153105374",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-03-15",
+      "summary": "In this episode of Monetary Matters, host Jack Farley interviews Roy Johnson of Commodity Context, a top independent oil and energy analyst. They discuss the current geopolitical crisis and its impact on oil markets, particularly the Iran oil shock. Johnson emphasizes the protracted nature of the crisis and its potential to disrupt the global economy if the flow of oil through the Strait of Hormuz does not normalize. The conversation covers the potential for a price spike in oil, the role of the United States and President Trump in de-escalation, and the implications for the global oil market.",
+      "key_takeaway": "The ongoing geopolitical crisis in the Middle East, particularly the situation around the Strait of Hormuz, presents a significant risk to global oil supply and prices, potentially leading to a sustained increase in oil prices.",
+      "tickers_mentioned": [
+        "AAPL",
+        "NVDA",
+        "SPY",
+        "TSLA",
+        "XOM"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 0,
+      "display_order": 0,
+      "added_date": "2026-03-28",
+      "archived_date": "2026-03-29",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
+      "podcast_episode_id": 114
     },
     {
       "id": 78,
@@ -1828,6 +2020,29 @@ const dashboardData = {
       "archived_date": "2026-03-11",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 46
+    },
+    {
+      "id": 136,
+      "title": "Inventing the Renaissance: Economic and Technological Insights",
+      "source_type": "podcast",
+      "source_name": "Dwarkesh Podcast",
+      "source_date": "2026-03-06",
+      "summary": "In this episode of Dwarkesh Podcast, the host interviews Ada Palmer, a Renaissance historian, novelist, and composer, to discuss her book 'Inventing the Renaissance'. The conversation delves into the economic and technological factors that contributed to the rise of Italian city republics during the late 15th and early 16th centuries, the influence of Roman virtues on governance, and the transformative impact of the printing press on society and information distribution.",
+      "key_takeaway": "The historical insights from the Italian Renaissance period suggest that technological advancements, such as the printing press, can have a profound impact on society and information distribution, which parallels modern tech revolutions and their investment implications.",
+      "tickers_mentioned": [
+        "AAPL",
+        "NVDA",
+        "SPY",
+        "TSLA",
+        "GOOGL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 0,
+      "display_order": 0,
+      "added_date": "2026-03-28",
+      "archived_date": "2026-03-29",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
+      "podcast_episode_id": 110
     },
     {
       "id": 58,
@@ -2484,6 +2699,25 @@ const dashboardData = {
       "podcast_episode_id": 88
     },
     {
+      "id": 137,
+      "title": "Technical Analysis Deep Dive with Milton Berg - February 2026 Market Signals",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-02-15",
+      "summary": "In this episode of Monetary Matters, host Jack Farley interviews Carson Block, founder of Muddy Waters Capital, a leading activist short seller hedge fund. They discuss the fertile ground for short selling in the tech sector, particularly in AI and AI-adjacent industries, and the challenges of identifying pretenders in the market. Carson also shares insights on precious metals investing, focusing on the macro thesis of under-allocation of human capital in the mining sector. The conversation touches on the potential of combining long side exposure with short selling strategies and the future of activist short selling.",
+      "key_takeaway": "Invest in sectors with fertile ground for short selling, such as AI and tech, and under-allocated areas like junior mining, while combining long and short strategies for potential alpha.",
+      "tickers_mentioned": [
+        "PQNT"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 0,
+      "display_order": 0,
+      "added_date": "2026-03-28",
+      "archived_date": "2026-03-29",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
+      "podcast_episode_id": 113
+    },
+    {
       "id": 1,
       "title": "SpaceX/xAI $1.25T Super-Entity",
       "source_type": "podcast",
@@ -3060,6 +3294,112 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 127,
+      "title": "https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-18%2Fdff54dee-2ba4-02bd-9c43-d935696550da",
+      "source_type": "podcast",
+      "source_name": "University of Podcast",
+      "source_date": "2026-03-28",
+      "summary": "The podcast episode features a discussion on the evolution of privacy in the digital age, particularly in the context of cryptocurrencies like Z-Cash. The conversation covers the importance of privacy, the role of Z-Cash in addressing privacy concerns, and the potential for cryptocurrencies to shape the future of finance. The guest shares insights into the technological aspects of Z-Cash and its potential to disrupt traditional financial systems.",
+      "key_takeaway": "Investing in Z-Cash could be a way to capitalize on the growing demand for privacy in digital transactions and the potential for scalability improvements in blockchain technology.",
+      "tickers_mentioned": "[\"ZEC\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-28",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 120,
+      "episode_release_date": "2026-03-28",
+      "guest_name": null,
+      "key_tickers": [
+        "ZEC"
+      ]
+    },
+    {
+      "id": 128,
+      "title": "all in with chamath jason sacks frie jensen huang live nvidia s future physical ai rise of the 03b9c382",
+      "source_type": "podcast",
+      "source_name": "Unknown Podcast",
+      "source_date": "2026-03-28",
+      "summary": "This podcast episode features a discussion on the future of AI in the context of global financial systems. The conversation covers the shift from legacy systems to AI-driven platforms, the significance of the acquisition of Rock by Nvidia, and the importance of disaggregated computing in the AI era. Additionally, the podcast delves into the role of open-source models in AI and the impact of AI on job markets and education.",
+      "key_takeaway": "Investing in AI-driven platforms and technologies is essential for capturing the growth in the global financial system and staying ahead in the AI era.",
+      "tickers_mentioned": "[\"NVDA\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-28",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 119,
+      "episode_release_date": "2026-03-28",
+      "guest_name": null,
+      "key_tickers": [
+        "NVDA"
+      ]
+    },
+    {
+      "id": 129,
+      "title": "the a16z show chris dixon from quant trading to building a16z crypto be2e5b4b",
+      "source_type": "podcast",
+      "source_name": "Unknown Podcast",
+      "source_date": "2026-03-28",
+      "summary": "In this episode of the Unknown Podcast, Chris Dixon, a general partner at A16Z, discusses his journey from programming and quant finance to angel investing and building A16Z's dedicated crypto practice. Dixon shares insights on his unconventional investment bets, the importance of betting on talent in businesses, and his views on the evolution of angel investing and the tech industry. He also touches on the significance of New York as a tech hub and its potential in the crypto space.",
+      "key_takeaway": "Betting on talented individuals in businesses rather than predicting tech trends is a more consistent approach to investing.",
+      "tickers_mentioned": "[\"AAPL\", \"NVDA\", \"COIN\", \"FB\", \"GOOGL\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-28",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 118,
+      "episode_release_date": "2026-03-28",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
+      "id": 130,
+      "title": "ALLIN-INTV Jensen V2 Ch",
+      "source_type": "podcast",
+      "source_name": "Unknown Podcast",
+      "source_date": "2026-03-28",
+      "summary": "This special episode discusses the evolution of AI and the tech industry, with a focus on the acquisition of Grok and the concept of disaggregated inference. The conversation delves into the complexities of AI processing and the shift from a GPU-centric approach to a more heterogeneous computing model. It also touches on the importance of both proprietary and open-source AI models, the impact of AI on various industries, and the role of education in preparing for the AI-driven future.",
+      "key_takeaway": "Invest in companies that are at the forefront of AI technology, particularly those that can leverage both proprietary and open-source models to drive innovation and capture domain-specific expertise.",
+      "tickers_mentioned": "[\"NVDA\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-28",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 116,
+      "episode_release_date": "2026-03-28",
+      "guest_name": "This special episode",
+      "key_tickers": [
+        "NVDA"
+      ]
+    },
+    {
+      "id": 131,
+      "title": "the a16z show 20260319 1e92a9dd 78da 4417 b1ce 4b4318d1",
+      "source_type": "podcast",
+      "source_name": "Unknown Podcast",
+      "source_date": "2026-03-28",
+      "summary": "This podcast episode features a discussion on the economic implications of AI, focusing on how it can transform labor, startups, and the ambitions of young professionals. The conversation revolves around Christian Catalini's paper 'Some Simple Economics of AI', which delves into the complex interplay between AI and the economy. The podcast explores the potential for AI to democratize access to resources, the shift in consensus formation, and the opportunities AI presents in the realms of art, finance, and technology.",
+      "key_takeaway": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
+      "tickers_mentioned": "[\"AAPL\", \"NVDA\", \"GOOGL\", \"MSFT\", \"TSLA\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-28",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 115,
+      "episode_release_date": "2026-03-28",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 125,
       "title": "Investing in Sovereign Credit with Lupin Ramon",
       "source_type": "podcast",
@@ -3105,132 +3445,28 @@ const dashboardData = {
       ]
     },
     {
-      "id": 120,
-      "title": "Exploring Psychedelics for Longevity and Personal Growth",
+      "id": 132,
+      "title": "Anthropic's Generational Run, OpenAI Panics, AI Moats, Meta Loses Lawsuits",
       "source_type": "podcast",
       "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "source_date": "2026-03-26",
-      "summary": "In this episode, Brian Johnson, a longevity enthusiast, discusses his recent experience with 5-MEO-DMT, one of the most potent psychedelics known. Johnson shares insights into his motivations for trying psychedelics as part of a longevity experiment, drawing on preclinical evidence suggesting psilocybin's potential as a rejuvenation therapy. He details the profound impact of the 5-MEO-DMT experience on his consciousness and personal perspective, comparing its efficacy to other health and longevity practices. The conversation also touches on the broader implications of psychedelic use, including potential shifts in life priorities and the philosophical questions surrounding identity and personal change.",
-      "key_takeaway": "Investment in psychedelics for longevity and personal growth is based on the potential for these substances to induce significant changes in consciousness and promote personal rejuvenation.",
-      "tickers_mentioned": "[\"AAPL\", \"NVDA\", \"SPY\", \"TSLA\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-03-26",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 103,
-      "episode_release_date": "2026-03-26",
-      "guest_name": null,
-      "key_tickers": []
-    },
-    {
-      "id": 123,
-      "title": "Cybersecurity and National Security in the Telecommunications Sector",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-03-26",
-      "summary": "This episode of the a16z Show discusses the infiltration of major US telecommunications carriers by Chinese hackers, known as Operation Salt Typhoon, which compromised the X1 interface and gave China access to lawful intercept systems, live phone calls, and communications of senior government officials. The podcast highlights the importance of building secure networks on top of compromised physical infrastructure and the role of the Navy in testing new technologies. The discussion also touches on the challenges of cybersecurity in the telecommunications industry and the need for increased collaboration between the public and private sectors for national security and economic prosperity.",
-      "key_takeaway": "Investing in cybersecurity solutions that can secure networks on top of compromised physical infrastructure is crucial for national security and economic prosperity.",
-      "tickers_mentioned": "[\"AAPL\", \"NVDA\", \"GOOGL\", \"MSFT\", \"TSLA\"]",
+      "source_date": "2026-03-27",
+      "summary": "In this episode, the hosts discuss a range of investment insights and market trends, with a focus on technological disruption and its impact on various industries. They touch on topics such as the rise of SaaS, the importance of innovation, and the competitive landscape between the US and China in scientific research and technology. The conversation also includes discussions on the potential erosion of brand value and the increasing importance of value propositions in a market where abundance is becoming more prevalent.",
+      "key_takeaway": "Invest in companies that are driving innovation and can disrupt traditional industries by offering superior products at better prices, while keeping an eye on the competitive dynamics between the US and China in scientific research and technology.",
+      "tickers_mentioned": "[\"AAPL\", \"GOOGL\", \"TSLA\", \"BYD\"]",
       "sentiment": "neutral",
       "display_on_main": 1,
       "display_order": 0,
-      "added_date": "2026-03-26",
+      "added_date": "2026-03-28",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 106,
-      "episode_release_date": "2026-03-26",
-      "guest_name": null,
-      "key_tickers": []
-    },
-    {
-      "id": 124,
-      "title": "Macro Voices Episode 525: Multi-Polar World Order, Iran Conflict, and Inflation Outlook",
-      "source_type": "podcast",
-      "source_name": "Macro Voices",
-      "source_date": "2026-03-26",
-      "summary": "In this episode of Macro Voices, hosts Eric Townsend and Patrick Suresne discuss the geopolitical situation in Iran, the shift towards a multi-polar world order, and the economic impacts of rising energy prices. They also cover the risks of second-round food inflation and the stresses in emerging markets and private credit. The show features interviews with Lynn Alden, founder of Lynn Alden Investment Strategy, and Michael Every, global strategist for economics and markets at Robo Banks, who provide insights into the Iran conflict and its broader macro implications.",
-      "key_takeaway": "Investors should consider the geopolitical risks and shifts in global power dynamics when constructing their portfolios, with a focus on sectors that may be affected by rising energy prices and inflation.",
-      "tickers_mentioned": "[\"SMP-500\", \"US DOLLAR INDEX\", \"WTI\"]",
-      "sentiment": "bearish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-03-26",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 107,
-      "episode_release_date": "2026-03-26",
+      "podcast_episode_id": 117,
+      "episode_release_date": "2026-03-27",
       "guest_name": null,
       "key_tickers": [
-        "SMP-500",
-        "US DOLLAR INDEX",
-        "WTI"
-      ]
-    },
-    {
-      "id": 121,
-      "title": "Submarine Manufacturing and Advanced Factories",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-03-25",
-      "summary": "This episode of 'The a16z Show' discusses the importance of revitalizing the submarine manufacturing industry in the United States. The conversation highlights the strategic advantages submarines offer, including stealth and access to global waters, and the need for advanced manufacturing to meet the Navy's capacity requirements. The guests emphasize the challenges of workforce development and the integration of software-driven manufacturing to increase productivity and efficiency in submarine production.",
-      "key_takeaway": "Investing in advanced manufacturing and workforce development for submarine production could lead to increased efficiency and meet the growing demand for naval capabilities.",
-      "tickers_mentioned": "[\"AAPL\", \"NVDA\", \"GD\", \"NOC\", \"LMT\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-03-26",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 104,
-      "episode_release_date": "2026-03-25",
-      "guest_name": null,
-      "key_tickers": []
-    },
-    {
-      "id": 122,
-      "title": "Monetary Matters: Analyzing Market Stress and the Impact of Oil Prices",
-      "source_type": "podcast",
-      "source_name": "Monetary Matters with Jack Farley",
-      "source_date": "2026-03-25",
-      "summary": "In this episode of Monetary Matters with Jack Farley, Chief Investment Strategist at Charles Schwab, Liz Ann Saunders, discusses the complexities of the current market environment, highlighting that headline indices are masking underlying stress. Saunders points out the discrepancy between index-level drawdowns and individual stock performance, emphasizing the rotation and churn in the market. The conversation also touches on the impact of oil prices on the economy and markets, with Saunders noting that while the energy sector is poised to benefit, the overall market has not reacted as severely as one might expect given an oil shock. The discussion delves into the nuances of growth and value factors, the differences in index rebalancing, and the potential parallels between the current situation and historical periods like the early 1990s.",
-      "key_takeaway": "The market is experiencing underlying stress that is not reflected in headline indices, suggesting a need for a more nuanced approach to investment decisions.",
-      "tickers_mentioned": "[\"PQT\", \"PQUS\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-03-26",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 105,
-      "episode_release_date": "2026-03-25",
-      "guest_name": null,
-      "key_tickers": [
-        "PQT",
-        "PQUS"
-      ]
-    },
-    {
-      "id": 119,
-      "title": "The Future of AI and its Impact on Society and Investment",
-      "source_type": "podcast",
-      "source_name": "Moonshots with Peter Diamandis",
-      "source_date": "2026-03-24",
-      "summary": "In this episode of Moonshots with Peter Diamandis, the discussion revolves around the historic moment we are living in, particularly focusing on the rapid advancements in AI and their implications on society and investment. The conversation covers the current state of AI, the potential for recursive self-improvement, the impact of AI on various industries, and the importance of aligning AI development with human values. The guests emphasize the need for a proactive approach to ensure that AI advancements contribute to abundance and are in alignment with humanity.",
-      "key_takeaway": "Invest in AI and robotics sectors as they are poised for significant growth and disruption, with a focus on companies that align with human values and contribute to abundance.",
-      "tickers_mentioned": "[\"NVDA\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-03-25",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 101,
-      "episode_release_date": "2026-03-24",
-      "guest_name": null,
-      "key_tickers": [
-        "NVDA"
+        "AAPL",
+        "GOOGL",
+        "TSLA",
+        "BYD"
       ]
     }
   ],
@@ -10071,61 +10307,866 @@ const dashboardData = {
       "TSLA",
       "SPCE"
     ]
+  },
+  "127": {
+    "id": 118,
+    "insight_id": 127,
+    "podcast_episode_id": 120,
+    "overview": "The podcast conversation highlights the importance of privacy in the digital age, particularly in the context of cryptocurrencies like Z-Cash. The investment thesis revolves around the growing demand for privacy-focused technologies and the potential for Z-Cash to scale and become a dominant player in this space. As privacy concerns escalate and quantum computing advances, the need for quantum-resistant cryptocurrencies will likely increase, making Z-Cash a timely investment. This analysis will explore the investment implications, key takeaways, and potential catalysts for Z-Cash and related technology companies.",
+    "key_takeaways_detailed": [
+      "Privacy is becoming increasingly important in the digital age, with younger generations valuing it more than previous ones.",
+      "Z-Cash offers a solution to privacy concerns in the cryptocurrency space, with features like quantum resistance and scalability.",
+      "The demand for privacy-focused technologies is likely to grow as quantum computing advances, making Z-Cash a potential long-term investment.",
+      "Investors should consider the potential for Z-Cash to scale and become a dominant player in the privacy-focused cryptocurrency market.",
+      "The ability to maintain privacy and sovereignty in a digital world is crucial for creativity and innovation, which could have broader implications for technology companies."
+    ],
+    "investment_thesis": "The core investment logic is centered around the growing demand for privacy-focused technologies and the potential for Z-Cash to scale and become a dominant player in this space. As privacy concerns escalate and quantum computing advances, the need for quantum-resistant cryptocurrencies will likely increase. Z-Cash's features, such as privacy, simplicity, and quantum resiliency, position it well to capitalize on this trend. The catalysts for this thesis include advancements in quantum computing, increasing privacy concerns, and the potential for Z-Cash to scale and gain broader adoption. The timeframe for this investment thesis is medium to long-term, as it may take time for these catalysts to materialize and for Z-Cash to gain significant market share.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple is relevant to this thesis due to its focus on user privacy and its potential to integrate privacy-focused technologies into its products and services.",
+        "positioning": "Investors should consider a long-term strategic position in AAPL, as the company's focus on privacy aligns with the growing demand for privacy-focused technologies.",
+        "risk": "Key risks for AAPL include increased regulatory scrutiny on privacy practices and potential backlash from users if privacy concerns are not adequately addressed."
+      },
+      "NVDA": {
+        "rationale": "NVIDIA is relevant to this thesis due to its leadership in AI and its potential to develop quantum-resistant technologies.",
+        "positioning": "Investors should consider a medium-term tactical position in NVDA, as the company's AI expertise could position it well to develop quantum-resistant solutions.",
+        "risk": "Key risks for NVDA include increased competition in the AI space and potential delays in the development of quantum-resistant technologies."
+      },
+      "GOOGL": {
+        "rationale": "Google is relevant to this thesis due to its extensive data collection and potential to leverage privacy-focused technologies to maintain user trust.",
+        "positioning": "Investors should consider a long-term strategic position in GOOGL, as the company's focus on user privacy could help maintain its dominant market position.",
+        "risk": "Key risks for GOOGL include increased regulatory scrutiny on data privacy practices and potential backlash from users if privacy concerns are not adequately addressed."
+      },
+      "MSFT": {
+        "rationale": "Microsoft is relevant to this thesis due to its focus on privacy and security in its cloud services and potential to integrate privacy-focused technologies.",
+        "positioning": "Investors should consider a long-term strategic position in MSFT, as the company's focus on privacy aligns with the growing demand for privacy-focused technologies.",
+        "risk": "Key risks for MSFT include increased competition in the cloud services space and potential delays in the development of privacy-focused technologies."
+      },
+      "TSLA": {
+        "rationale": "Tesla is relevant to this thesis due to its focus on data privacy and potential to leverage privacy-focused technologies in its vehicles and services.",
+        "positioning": "Investors should consider a medium-term tactical position in TSLA, as the company's focus on privacy could help maintain user trust and drive adoption of its vehicles and services.",
+        "risk": "Key risks for TSLA include increased competition in the electric vehicle space and potential backlash from users if privacy concerns are not adequately addressed."
+      }
+    },
+    "positioning_guidance": "Investors should consider a mix of long-term strategic and medium-term tactical positions in companies that align with the growing demand for privacy-focused technologies. Sizing should be based on each company's potential to capitalize on this trend, with a focus on those with strong privacy practices and the potential to integrate privacy-focused technologies into their products and services. Entry points should be based on market conditions and individual risk tolerance, with a focus on long-term growth potential. Timeframes should be explicit, with a focus on medium to long-term growth potential. Hedges could include positions in companies that are well-positioned to benefit from advancements in quantum computing and privacy-focused technologies.",
+    "risk_factors": [
+      "Increased regulatory scrutiny on privacy practices could negatively impact companies in this space.",
+      "Potential backlash from users if privacy concerns are not adequately addressed.",
+      "Increased competition in the AI and cloud services space could impact companies' ability to capitalize on the growing demand for privacy-focused technologies.",
+      "Potential delays in the development of quantum-resistant technologies could impact the timeline for this investment thesis."
+    ],
+    "contrarian_signals": [
+      "Some investors may argue that the demand for privacy-focused technologies is overblown and that users are willing to trade privacy for convenience.",
+      "Others may contend that advancements in quantum computing will not have a significant impact on the need for quantum-resistant cryptocurrencies in the near term.",
+      "Some may argue that the focus on privacy is a short-term trend that will not have a lasting impact on the technology landscape."
+    ],
+    "catalysts": [
+      "Advancements in quantum computing that highlight the need for quantum-resistant cryptocurrencies.",
+      "Increasing privacy concerns among users that drive demand for privacy-focused technologies.",
+      "Regulatory developments that impact privacy practices and drive demand for privacy-focused solutions.",
+      "Announcements from companies like Apple, Google, and Microsoft regarding their focus on privacy and plans to integrate privacy-focused technologies into their products and services.",
+      "Developments in the cryptocurrency space that highlight the need for privacy-focused solutions, such as increased scrutiny on transactions or the development of new privacy-focused cryptocurrencies."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-03-28T22:06:22.043857",
+    "updated_at": "2026-03-29 03:06:22",
+    "insight_title": "https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-18%2Fdff54dee-2ba4-02bd-9c43-d935696550da",
+    "source_name": "University of Podcast",
+    "source_date": "2026-03-28",
+    "key_tickers": [
+      "ZEC"
+    ]
+  },
+  "128": {
+    "id": 119,
+    "insight_id": 128,
+    "podcast_episode_id": 119,
+    "overview": "The investment thesis revolves around the transformative shift towards AI-driven computing infrastructure, with NVIDIA at the forefront. The podcast highlights NVIDIA's strategic pivot from a GPU company to an AI factory, leveraging disaggregated computing and the acquisition of Grok to optimize workload distribution across different chips. This shift is crucial as the demand for AI processing power surges, with NVIDIA aiming to capture a significant share of the market through its advanced technology and strategic acquisitions. The analysis suggests that NVIDIA's approach to building a global financial system from first principles, using AI and modern infrastructure, positions it to lead in the intelligent era, making it a compelling investment in the short to medium term.",
+    "key_takeaways_detailed": [
+      "NVIDIA's strategic shift to an AI factory company is a response to the increasing complexity and scale of AI processing, which is the most complicated computing problem today.",
+      "The acquisition of Grok signifies NVIDIA's commitment to disaggregated computing, which could lead to significant efficiency gains and cost savings in data centers.",
+      "NVIDIA's operating system, Dynamo, is designed to power the next industrial revolution, indicating a long-term vision that could sustain growth beyond the current market cycle.",
+      "The company's focus on inference processing, which is expected to grow exponentially, positions NVIDIA to capitalize on the AI inference explosion, which is currently underappreciated by the market.",
+      "NVIDIA's investment in creating a diverse set of computing options, from GPUs to CPUs and networking processors, suggests a move towards a more resilient and adaptable business model."
+    ],
+    "investment_thesis": "NVIDIA's (NVDA) investment in AI and its transition to an AI factory company present a compelling investment opportunity. The company's strategic acquisitions and focus on disaggregated computing align with the growing demand for AI processing power. As the market leader in GPUs, NVIDIA is well-positioned to capture a significant share of the expanding AI market. The investment thesis is based on the catalysts of AI adoption, the increasing complexity of AI processing, and NVIDIA's ability to offer efficient, scalable solutions. The expected timeframe for this thesis is medium to long-term, as the full benefits of NVIDIA's strategic moves will likely materialize over the next 3-5 years.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple (AAPL) is relevant due to its significant investments in AI and potential partnerships or competition with NVIDIA in the AI space.",
+        "positioning": "Position long-term as Apple's AI initiatives could drive demand for NVIDIA's AI processing solutions.",
+        "risk": "Key risks include increased competition from Apple's in-house AI development and potential shifts in the AI market landscape."
+      },
+      "NVDA": {
+        "rationale": "NVIDIA is at the core of the thesis, being the company leading the AI factory revolution.",
+        "positioning": "Long-term strategic position, as NVIDIA's AI initiatives are expected to drive growth over the next several years.",
+        "risk": "Risks include technological disruptions, regulatory challenges, and potential market overvaluation of AI capabilities."
+      },
+      "TSLA": {
+        "rationale": "Tesla (TSLA) is relevant as a potential beneficiary of NVIDIA's AI technology, particularly in autonomous driving.",
+        "positioning": "Consider a tactical long position as TSLA's adoption of NVIDIA's AI could drive short-term gains.",
+        "risk": "Key risks include TSLA's ability to develop its own AI technology, reducing reliance on NVIDIA."
+      },
+      "GOOGL": {
+        "rationale": "Google (GOOGL) is a major player in AI and could be both a competitor and a customer for NVIDIA's AI solutions.",
+        "positioning": "Position tactically, as Google's AI strategy could create both opportunities and threats for NVIDIA.",
+        "risk": "Risks include Google's potential to develop competing technologies and the volatility of the AI market."
+      },
+      "MSFT": {
+        "rationale": "Microsoft (MSFT) is a significant player in cloud computing and AI, with potential synergies or competition with NVIDIA.",
+        "positioning": "Strategic long position, as Microsoft's cloud and AI initiatives could increase demand for NVIDIA's products.",
+        "risk": "Key risks include Microsoft's development of in-house AI solutions and the competitive landscape in cloud computing."
+      }
+    },
+    "positioning_guidance": "Investors should consider a diversified approach, with a core long-term position in NVIDIA (NVDA) complemented by tactical positions in other AI-related companies such as Apple (AAPL), Tesla (TSLA), Google (GOOGL), and Microsoft (MSFT). Sizing should reflect the expected growth and stability of each company's AI initiatives, with entry points based on market conditions and individual company catalysts. Timeframes should be aligned with the expected realization of AI benefits, with potential hedges against technological disruptions or market overvaluation.",
+    "risk_factors": [
+      "Technological disruptions or advancements by competitors could undermine NVIDIA's market position.",
+      "Regulatory challenges or changes in data privacy laws could impact AI development and adoption.",
+      "Market overvaluation of AI capabilities could lead to a correction, affecting NVIDIA and other AI-related stocks.",
+      "Economic downturns or reduced corporate spending could impact the demand for AI solutions.",
+      "Potential for increased competition from in-house developments by large tech companies."
+    ],
+    "contrarian_signals": [
+      "The market may undervalue the long-term benefits of NVIDIA's AI strategy, focusing instead on short-term costs and competition.",
+      "There is a risk that the market overestimates the speed of AI adoption, leading to unrealistic expectations for NVIDIA's growth.",
+      "Investors may not fully appreciate the potential for NVIDIA's disaggregated computing approach to disrupt traditional data center architectures."
+    ],
+    "catalysts": [
+      "NVIDIA's upcoming product launches and announcements related to its AI factory and disaggregated computing.",
+      "Earnings reports and guidance that highlight the growth of NVIDIA's AI business and the success of its strategic initiatives.",
+      "Partnership announcements or major contracts that demonstrate the adoption of NVIDIA's AI solutions by key industry players.",
+      "Technological breakthroughs or acquisitions that further solidify NVIDIA's position in the AI space.",
+      "Regulatory approvals or policy changes that support the growth of AI and its applications."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-03-28T22:06:43.847763",
+    "updated_at": "2026-03-29 03:06:43",
+    "insight_title": "all in with chamath jason sacks frie jensen huang live nvidia s future physical ai rise of the 03b9c382",
+    "source_name": "Unknown Podcast",
+    "source_date": "2026-03-28",
+    "key_tickers": [
+      "NVDA"
+    ]
+  },
+  "129": {
+    "id": 120,
+    "insight_id": 129,
+    "podcast_episode_id": 118,
+    "overview": "Chris Dixon's journey from a programmer to a prominent figure in the venture capital and crypto space is a testament to his ability to identify and capitalize on emerging technologies. His investment thesis is centered around the intersection of technology, finance, and the information economy. As a general partner at A16Z, Dixon has been instrumental in leading investments in companies like Oculus and Coinbase, and building A16Z's dedicated crypto practice. This deep dive analysis explores the investment implications of Dixon's career trajectory and his unconventional bets, with a focus on the technology and finance sectors.",
+    "key_takeaways_detailed": [
+      "Dixon's background in programming and quant finance provides him with a unique perspective on the technology and finance sectors, which investors should consider when evaluating his investment decisions.",
+      "His experience in internet security and AI companies like Hunch has positioned him well to identify and invest in innovative companies in these spaces.",
+      "Dixon's focus on the information economy and how it intersects with finance and technology suggests that investors should pay close attention to companies operating at this intersection.",
+      "His unconventional bets, such as leading the $75 million round for Oculus and early investment in Coinbase, highlight his ability to identify disruptive companies and technologies.",
+      "Dixon's involvement in policy work on stable coin legislation indicates the growing importance of regulatory developments in the crypto space, which investors should monitor closely."
+    ],
+    "investment_thesis": "Chris Dixon's investment thesis is centered around identifying and investing in companies at the intersection of technology, finance, and the information economy. His background in programming, quant finance, and internet security has positioned him well to identify disruptive companies and technologies in these spaces. As a general partner at A16Z, Dixon has been instrumental in leading investments in companies like Oculus and Coinbase, and building A16Z's dedicated crypto practice. Investors should focus on companies operating at the intersection of these sectors, as well as monitor regulatory developments in the crypto space, which could have significant implications for the industry.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's strong position in the technology sector, with a focus on hardware and software, makes it a relevant company to consider in the context of Dixon's investment thesis.",
+        "positioning": "Investors should consider a long-term strategic position in AAPL, given its strong growth prospects and potential to benefit from the ongoing digital transformation.",
+        "risk": "Key risks for AAPL include increased competition, regulatory scrutiny, and potential supply chain disruptions."
+      },
+      "NVDA": {
+        "rationale": "Nvidia's focus on AI and GPU technology positions it well to benefit from the growing demand for advanced computing capabilities in various industries.",
+        "positioning": "Investors should consider a medium-term tactical position in NVDA, as the company's AI and GPU offerings could drive significant growth in the coming years.",
+        "risk": "Key risks for NVDA include increased competition, potential regulatory hurdles, and the cyclical nature of the semiconductor industry."
+      },
+      "COIN": {
+        "rationale": "Coinbase, as a leading cryptocurrency exchange, is directly involved in the crypto space that Dixon has been investing in and building a dedicated practice around.",
+        "positioning": "Investors should consider a medium-term tactical position in COIN, as the company could benefit from the growing adoption of cryptocurrencies and the ongoing development of the crypto ecosystem.",
+        "risk": "Key risks for COIN include regulatory uncertainty, potential security breaches, and increased competition in the cryptocurrency exchange space."
+      },
+      "FB": {
+        "rationale": "Meta Platforms (Facebook) has been actively exploring the metaverse and blockchain technology, which aligns with Dixon's focus on the intersection of technology, finance, and the information economy.",
+        "positioning": "Investors should consider a long-term strategic position in FB, given the company's potential to benefit from the growing interest in the metaverse and blockchain technology.",
+        "risk": "Key risks for FB include regulatory scrutiny, potential backlash against its business practices, and the uncertain outlook for its metaverse initiatives."
+      },
+      "GOOGL": {
+        "rationale": "Google's parent company, Alphabet, has a strong presence in various technology sectors, including AI, cloud computing, and digital advertising, which are relevant to Dixon's investment thesis.",
+        "positioning": "Investors should consider a long-term strategic position in GOOGL, as the company's diverse technology offerings could drive significant growth in the coming years.",
+        "risk": "Key risks for GOOGL include increased competition, regulatory scrutiny, and potential disruptions to its digital advertising business."
+      }
+    },
+    "positioning_guidance": "Investors should consider a mix of long-term strategic and medium-term tactical positions in the identified tickers, based on their individual growth prospects and risk profiles. Sizing should be based on an investor's overall risk tolerance and sector allocation preferences. Entry points should be determined based on technical analysis and market conditions, with a focus on long-term growth potential. Investors should also consider hedging their positions with options or other derivatives to mitigate potential risks.",
+    "risk_factors": [
+      "Increased competition in the technology and finance sectors could impact the growth prospects of the identified companies.",
+      "Regulatory scrutiny and potential changes in legislation could have significant implications for companies operating in the crypto and technology spaces.",
+      "Cybersecurity risks and potential security breaches could pose a threat to companies in the technology sector.",
+      "Macroeconomic factors, such as inflation and interest rate changes, could impact the overall market and the performance of the identified companies.",
+      "The uncertain outlook for the metaverse and blockchain technology could pose risks for companies heavily invested in these areas."
+    ],
+    "contrarian_signals": [
+      "Despite the growing interest in the metaverse and blockchain technology, some investors remain skeptical about their long-term potential and adoption.",
+      "Regulatory developments in the crypto space could be more restrictive than anticipated, potentially limiting the growth prospects of companies like Coinbase.",
+      "The technology sector has experienced rapid growth in recent years, which could lead to increased valuations and potential overexposure for some investors."
+    ],
+    "catalysts": [
+      "Upcoming earnings reports and product announcements from the identified companies could provide insights into their growth prospects and potential catalysts for their stock prices.",
+      "Developments in the regulatory landscape, such as stable coin legislation, could have significant implications for the crypto space and the identified companies.",
+      "Advancements in AI, cloud computing, and digital advertising could drive growth for companies like Nvidia and Alphabet, potentially serving as catalysts for their stock prices.",
+      "The ongoing digital transformation and the growing interest in the metaverse could provide catalysts for companies like Apple and Meta Platforms.",
+      "Economic indicators, such as GDP growth and inflation data, could impact the overall market and the performance of the identified companies."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-03-28T22:07:06.861325",
+    "updated_at": "2026-03-29 03:07:06",
+    "insight_title": "the a16z show chris dixon from quant trading to building a16z crypto be2e5b4b",
+    "source_name": "Unknown Podcast",
+    "source_date": "2026-03-28",
+    "key_tickers": []
+  },
+  "130": {
+    "id": 121,
+    "insight_id": 130,
+    "podcast_episode_id": 116,
+    "overview": "The investment thesis revolves around the transformative shift in the AI and data center industry, driven by the evolution from traditional GPU-centric computing to a more disaggregated, heterogeneous computing model. NVIDIA's (NVDA) acquisition of Grok and the development of its AI operating system, Dynamo, signify a strategic pivot towards becoming an 'AI factory' company. This move is expected to redefine the landscape, with implications for tech giants like Apple (AAPL) and the broader semiconductor industry. The current market chatter suggests skepticism about the cost efficiency of NVIDIA's approach compared to custom ASICs from AMD and others, but the potential for NVIDIA to deliver lower cost tokens through extraordinary efficiency cannot be overlooked. This deep dive analysis seeks to unpack the strategic and financial implications of this shift for investors.",
+    "key_takeaways_detailed": [
+      "NVIDIA's move to an AI factory model with Grok acquisition signifies a paradigm shift in data center computing towards disaggregated inference, which is the most complex computing problem today.",
+      "The company's strategy to allocate approximately 25% of data center resources to Grok LPUs could lead to significant efficiency gains and cost savings in the long term.",
+      "NVIDIA's approach to create a diverse TAM (Total Addressable Market) by evolving from a GPU company to an AI factory company could position it as a leader in the next industrial revolution.",
+      "Investors should monitor the development of NVIDIA's inference factory, which is expected to be 10x more efficient in terms of throughput compared to the next factory.",
+      "The cost efficiency of NVIDIA's solution, despite a higher upfront investment, could lead to lower token costs due to extraordinary efficiency, challenging the narrative of losing market share to lower-cost alternatives."
+    ],
+    "investment_thesis": "NVIDIA's strategic pivot towards becoming an AI factory company, with the acquisition of Grok and the development of Dynamo, positions it at the forefront of the next industrial revolution. This move is expected to create significant value for shareholders over the medium to long term as the company captures a larger share of the AI-driven data center market. The investment thesis is based on NVIDIA's ability to deliver extraordinary efficiency in token production, which could offset the higher upfront costs of its factories. The catalysts for this thesis include the successful implementation of the disaggregated inference model, the growth of the AI-driven data center market, and the company's ability to maintain technological leadership in the face of competition from custom ASICs.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's significant investment in AI and its reliance on advanced data centers for services like Siri and iCloud make it a relevant player in the AI-driven data center market. Any advancements in data center efficiency and cost savings could directly impact Apple's bottom line.",
+        "positioning": "Long-term strategic position, as Apple's AI initiatives are expected to grow, and the company may benefit from the advancements in data center technology.",
+        "risk": "Key risks include increased competition in the AI space and potential delays in the adoption of new data center technologies."
+      },
+      "NVDA": {
+        "rationale": "NVIDIA is at the center of the AI-driven data center revolution with its acquisition of Grok and the development of Dynamo. The company's ability to execute on its AI factory vision will be a key driver of its future growth.",
+        "positioning": "Medium to long-term strategic position, as the company's pivot to an AI factory model is expected to pay off in the long run, despite potential short-term challenges.",
+        "risk": "The main risk is the company's ability to compete with lower-cost custom ASICs and the potential for delays in the adoption of its disaggregated inference model."
+      },
+      "AMD": {
+        "rationale": "As a competitor in the semiconductor space, AMD's custom ASICs present an alternative to NVIDIA's AI factory model. The success of AMD's products could impact NVIDIA's market share.",
+        "positioning": "Tactical short position, as AMD's lower-cost solutions could gain traction in the short term, potentially impacting NVIDIA's market share.",
+        "risk": "The risk lies in underestimating AMD's ability to innovate and capture market share in the AI-driven data center market."
+      },
+      "GOOGL": {
+        "rationale": "Google, with its extensive cloud services and AI initiatives, is a significant player in the data center market. The efficiency of data centers is crucial for Google's operations, and advancements in this area could benefit the company.",
+        "positioning": "Long-term strategic position, as Google's cloud services and AI initiatives are expected to grow, and the company may benefit from the advancements in data center technology.",
+        "risk": "Key risks include increased competition in the cloud services market and potential delays in the adoption of new data center technologies."
+      },
+      "MSFT": {
+        "rationale": "Microsoft, with its Azure cloud platform and AI services, is another significant player in the data center market. The efficiency of data centers is crucial for Microsoft's operations, and advancements in this area could benefit the company.",
+        "positioning": "Long-term strategic position, as Microsoft's cloud services and AI initiatives are expected to grow, and the company may benefit from the advancements in data center technology.",
+        "risk": "Key risks include increased competition in the cloud services market and potential delays in the adoption of new data center technologies."
+      }
+    },
+    "positioning_guidance": "Investors should consider a medium to long-term strategic position in NVIDIA (NVDA), with a focus on its ability to execute on its AI factory vision. A tactical short position in AMD could be considered for short-term gains, given the potential for its custom ASICs to gain market share. Long-term strategic positions in tech giants like Apple (AAPL), Google (GOOGL), and Microsoft (MSFT) are also recommended, as these companies are expected to benefit from advancements in data center technology. Sizing should be based on the individual investor's risk tolerance and belief in the AI-driven data center market's growth potential. Entry points should be considered in the context of the overall market conditions and the specific catalysts related to each company.",
+    "risk_factors": [
+      "The failure of NVIDIA's disaggregated inference model to deliver the expected efficiency gains.",
+      "Increased competition from custom ASICs leading to a loss of market share for NVIDIA.",
+      "Delays in the adoption of new data center technologies by tech giants, impacting the growth of the AI-driven data center market.",
+      "Economic downturns affecting the capital expenditure of tech companies on data centers.",
+      "Regulatory challenges affecting the development and deployment of AI technologies."
+    ],
+    "contrarian_signals": [
+      "The potential underestimation of the long-term benefits of NVIDIA's AI factory model by the market, focusing solely on short-term costs.",
+      "The possibility that custom ASICs may not be as cost-effective as anticipated, given the complexity of AI-driven data centers.",
+      "The undervaluation of the synergies between NVIDIA's AI factory model and the broader AI ecosystem, including its potential impact on edge computing and embedded applications."
+    ],
+    "catalysts": [
+      "The successful implementation of NVIDIA's disaggregated inference model and the launch of its AI factory.",
+      "Announcements of new partnerships or collaborations between NVIDIA and tech giants in the AI-driven data center space.",
+      "Release of new products or services by Apple, Google, and Microsoft that leverage advancements in data center technology.",
+      "Economic reports indicating a recovery or growth, which could lead to increased capital expenditure on data centers by tech companies.",
+      "Regulatory developments that could either hinder or accelerate the adoption of AI technologies in data centers."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-03-28T22:07:33.380228",
+    "updated_at": "2026-03-29 03:07:33",
+    "insight_title": "ALLIN-INTV Jensen V2 Ch",
+    "source_name": "Unknown Podcast",
+    "source_date": "2026-03-28",
+    "key_tickers": [
+      "NVDA"
+    ]
+  },
+  "131": {
+    "id": 122,
+    "insight_id": 131,
+    "podcast_episode_id": 115,
+    "overview": "The podcast from a16z featuring Christian Catalini and Eddie Lazarin delves into the economic implications of AI, suggesting a paradigm shift in how work is conducted and value is created. The discussion highlights the potential for AI to democratize access to resources, enabling individuals to leverage the power of teams at a fraction of the cost. This analysis explores the investment thesis around AI's impact on startups, labor, and the economy, emphasizing the current inflection point where AI's capabilities are beginning to resemble human\u534f\u4f5c, presenting both opportunities and challenges for investors.",
+    "key_takeaways_detailed": [
+      "AI's ability to perform long-running tasks with less guidance suggests a shift towards more autonomous and efficient operations, impacting labor dynamics and startup scaling.",
+      "The 'codifiers curse' implies that as more tasks become measurable and thus automatable, the value of human creativity and innovation in uncharted territories becomes paramount.",
+      "Investors should focus on companies that can leverage AI to create new markets or disrupt existing ones, looking for those that can push beyond digitized knowledge.",
+      "The reevaluation of job roles in the age of AI suggests a need for investment in companies that can adapt their workforce and business models to the new economic reality.",
+      "The\u7455\u75b5 in AI outputs present a dual opportunity for quality control and improvement in AI algorithms, indicating a need for investment in robust QA processes and continuous learning systems."
+    ],
+    "investment_thesis": "The core investment logic revolves around the transformative impact of AI on the economy, particularly in how it can redefine the scale and scope of startups and incumbents. Catalysts include advancements in AI technology, the democratization of compute power, and the shift towards automating measurable tasks. The timeframe for this thesis is medium to long-term, as the full economic implications of AI will likely unfold over the next 3-12 months and beyond, as the technology matures and becomes more integrated into various sectors.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's significant investment in AI for its products and services positions it to benefit from the AI-driven economy. Its ability to leverage AI in creating new consumer experiences could drive growth.",
+        "positioning": "Long-term strategic position, considering Apple's R&D in AI and its potential to integrate AI across its ecosystem.",
+        "risk": "Regulatory challenges to data usage and potential slowdowns in AI adoption rates could impact Apple's AI initiatives."
+      },
+      "NVDA": {
+        "rationale": "Nvidia, with its leadership in GPU technology, is well-positioned to capitalize on the AI boom, as its products are critical for training and running AI models.",
+        "positioning": "Medium-term tactical position, as the immediate demand for AI acceleration could drive short-term gains.",
+        "risk": "High competition in the semiconductor space and potential disruptions in global supply chains could affect Nvidia's performance."
+      },
+      "GOOGL": {
+        "rationale": "Google's extensive work in AI and machine learning, along with its cloud services, places it at the forefront of leveraging AI for commercial use.",
+        "positioning": "Long-term strategic position, given Google's broad AI capabilities and its potential to monetize AI across various business lines.",
+        "risk": "Increased regulatory scrutiny on data privacy and potential backlash against AI's impact on jobs could hinder Google's AI initiatives."
+      },
+      "MSFT": {
+        "rationale": "Microsoft's commitment to AI through its cloud platform Azure and AI tools like GitHub Copilot suggests a strong position in the AI economy.",
+        "positioning": "Medium to long-term strategic position, considering Microsoft's ability to integrate AI across its product offerings and services.",
+        "risk": "Dependency on the\u6301\u7eed\u6027 of cloud growth and competition from other tech giants in the AI space could pose risks."
+      },
+      "TSLA": {
+        "rationale": "Tesla's use of AI in autonomous driving technology positions it to benefit from advancements in AI, potentially disrupting the automotive industry.",
+        "positioning": "Long-term strategic position, as Tesla continues to push the boundaries of what's possible with AI in transportation.",
+        "risk": "Regulatory hurdles and technological setbacks in achieving full autonomy could impact Tesla's valuation and growth prospects."
+      }
+    },
+    "positioning_guidance": "Investors should consider a diversified approach, allocating a portion of their portfolio to companies at the forefront of AI development and application. Entry points should be strategic, focusing on pullbacks in the market or positive catalysts such as earnings reports or new product launches. Timeframes for these positions should align with the expected timeframes of the AI-driven economic shift, with an emphasis on medium to long-term holdings. Hedges may include investments in companies that could be negatively impacted by AI advancements, such as those in traditional labor-intensive sectors.",
+    "risk_factors": [
+      "Regulatory changes that limit the use of AI or data could slow down the adoption of AI technologies.",
+      "Ethical concerns surrounding AI's impact on jobs and privacy could lead to public backlash and hinder AI development.",
+      "Technological setbacks or failures in AI could damage the reputation and adoption of AI-driven solutions.",
+      "Increased competition in the AI space could lead to a race to the bottom in terms of pricing and profitability.",
+      "Potential economic downturns could reduce the capital available for investment in AI research and development."
+    ],
+    "contrarian_signals": [
+      "The potential for AI to create new jobs and industries that we have not yet conceived, offsetting job losses in traditional sectors.",
+      "The possibility that AI advancements may not live up to the hype, leading to a 'AI winter' where investment and development slow down.",
+      "The view that AI will augment human capabilities rather than replace them, leading to a symbiotic relationship between humans and machines."
+    ],
+    "catalysts": [
+      "Upcoming AI-related product launches or significant updates from major tech companies.",
+      "Regulatory decisions or policy changes that impact the use and development of AI.",
+      "Breakthroughs in AI research, such as advancements in natural language processing or machine learning.",
+      "Economic indicators that suggest a shift towards a more AI-driven economy, such as increased investment in AI startups.",
+      "Major conferences or events focused on AI, which could showcase new technologies and drive further interest and investment in the space."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-03-28T22:07:54.269689",
+    "updated_at": "2026-03-29 03:07:54",
+    "insight_title": "the a16z show 20260319 1e92a9dd 78da 4417 b1ce 4b4318d1",
+    "source_name": "Unknown Podcast",
+    "source_date": "2026-03-28",
+    "key_tickers": []
+  },
+  "132": {
+    "id": 123,
+    "insight_id": 132,
+    "podcast_episode_id": 117,
+    "overview": "The investment thesis revolves around the rapid advancements in artificial intelligence (AI), particularly focusing on the performance and market positioning of Anthropic, a company that has been making significant strides in the AI space. The recent product releases and strategic moves by Anthropic suggest a generational run, potentially disrupting the current AI landscape. This analysis is timely given the recent developments in AI technology and the competitive dynamics between major players like OpenAI and Anthropic. The focus is on understanding the investment implications of these advancements for key technology stocks.",
+    "key_takeaways_detailed": [
+      "Anthropic's recent product releases, such as Cloud Code and the new agente system for enterprise-grade functionality, indicate a significant step function in productivity and team efficiency.",
+      "The company's focus on coding as a gateway into enterprise markets has allowed for rapid revenue growth and the potential for further product extensions.",
+      "Investors should monitor the regulatory environment, as Anthropic's push for a permissioning regime could impact the competitive landscape and create barriers for new entrants.",
+      "The dispute with the Pentagon highlights the ethical considerations and potential risks associated with AI technology in military applications.",
+      "The cultural and ideological stance of Anthropic against the current administration could be a strategic advantage in attracting top talent, but it also presents reputational risks."
+    ],
+    "investment_thesis": "The core investment logic is that Anthropic's recent advancements position it as a potential leader in the AI space, with the ability to disrupt incumbents and capture significant market share. The catalysts for this thesis include continued product innovation, successful market penetration in the enterprise sector, and the resolution of regulatory and ethical challenges. The timeframe for this thesis is medium to long-term, as the full impact of Anthropic's advancements will likely play out over the next 3-12 months and beyond.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's involvement in AI through its devices and services makes it relevant to the AI landscape. Its potential partnerships or competition with AI companies like Anthropic could impact its market position.",
+        "positioning": "Position long on AAPL as a strategic play on the broader AI trend, with a focus on its ability to integrate AI into its ecosystem.",
+        "risk": "Key risks include increased competition from AI-focused companies and potential regulatory hurdles that could slow down AI development and integration."
+      },
+      "NVDA": {
+        "rationale": "Nvidia's leadership in GPU technology is crucial for AI development, and its position could be affected by the push for a permissioning regime in AI model releases and GPU sales.",
+        "positioning": "Consider a long position in NVDA as a play on the underlying hardware requirements for AI, but be prepared to hedge against regulatory risks.",
+        "risk": "Regulatory changes could limit Nvidia's ability to sell GPUs globally, impacting its revenue and growth prospects."
+      },
+      "GOOGL": {
+        "rationale": "Google, through its DeepMind and other AI initiatives, is a key player in the AI space and a competitor to Anthropic. Its strategies and product releases will shape the competitive landscape.",
+        "positioning": "A strategic long position in GOOGL could be warranted to capitalize on its AI advancements, but monitor closely for signs of competitive erosion.",
+        "risk": "The risk of losing market share to more agile competitors like Anthropic and the potential for regulatory backlash against large tech companies."
+      },
+      "MSFT": {
+        "rationale": "Microsoft's investment in AI through Azure and other services positions it as a competitor and potential partner in the AI space. Its response to Anthropic's advancements will be crucial.",
+        "positioning": "A long position in MSFT could be appropriate to benefit from its AI initiatives, but investors should be aware of the competitive dynamics.",
+        "risk": "Microsoft may face challenges in differentiating its AI offerings in a crowded market and could be impacted by regulatory changes."
+      },
+      "TSLA": {
+        "rationale": "Tesla's use of AI in its autonomous driving technology makes it a unique player in the AI space. Its reliance on AI could be influenced by the developments at companies like Anthropic.",
+        "positioning": "A long position in TSLA could be considered to benefit from advancements in AI for autonomous driving, but with a focus on the company's ability to integrate and commercialize these technologies.",
+        "risk": "Regulatory hurdles and technological setbacks in autonomous driving could impact Tesla's growth and valuation."
+      }
+    },
+    "positioning_guidance": "Investors should position their portfolios to capitalize on the AI trend by allocating a portion of their technology investments to companies with strong AI capabilities. Consider a balanced approach with long positions in companies like AAPL, NVDA, GOOGL, MSFT, and TSLA, while also hedging against regulatory and competitive risks. Entry points should be considered in the context of the broader market trends and the specific catalysts related to each company. Timeframes for these positions should align with the medium to long-term investment thesis, with a focus on the next 3-12 months for potential catalysts and developments.",
+    "risk_factors": [
+      "Regulatory changes that could limit the development and commercialization of AI technologies.",
+      "Increased competition that could erode market share for established players.",
+      "Technological setbacks or failures that could impact the adoption of AI in key applications.",
+      "Ethical and reputational risks associated with the use of AI in controversial applications, such as military technology.",
+      "Potential backlash against large tech companies that could lead to increased scrutiny and regulation."
+    ],
+    "contrarian_signals": [
+      "The possibility that the push for a permissioning regime in AI could backfire, leading to increased innovation and competition outside of the regulated space.",
+      "The risk that the cultural and ideological stance of companies like Anthropic could alienate potential customers and partners.",
+      "The potential for AI advancements to be oversold, leading to a market correction as the reality of implementation challenges sets in."
+    ],
+    "catalysts": [
+      "Upcoming product releases and updates from Anthropic and its competitors.",
+      "Regulatory decisions and policy changes related to AI development and deployment.",
+      "Partnership announcements or strategic alliances between AI companies and other industry players.",
+      "Quarterly earnings reports and guidance from technology companies that could provide insights into the financial performance and future plans related to AI.",
+      "Major AI conferences and events where new advancements and industry trends are showcased."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-03-28T22:08:20.069750",
+    "updated_at": "2026-03-29 03:08:20",
+    "insight_title": "Anthropic's Generational Run, OpenAI Panics, AI Moats, Meta Loses Lawsuits",
+    "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "source_date": "2026-03-27",
+    "key_tickers": [
+      "AAPL",
+      "GOOGL",
+      "TSLA",
+      "BYD"
+    ]
+  },
+  "133": {
+    "id": 124,
+    "insight_id": 133,
+    "podcast_episode_id": 112,
+    "overview": "The rapid advancement of AI technology has reached a tipping point where it can significantly augment human capabilities, akin to bestowing 'superpowers' on individuals and businesses. This development has profound implications for the economy, labor market, and the competitive landscape of startups and incumbents. The ability to harness AI at a relatively low cost ($200 per employee equivalent) suggests a new surplus that can be exploited, potentially leading to the rise of one-person billion-dollar startups. This analysis explores the investment opportunities and risks associated with this AI-driven paradigm shift, focusing on the technology and its applications in various sectors.",
+    "key_takeaways_detailed": [
+      "AI's ability to perform tasks that were previously the domain of highly skilled professionals suggests a significant shift in the value proposition of human labor and the potential for increased productivity and innovation.",
+      "Investors should focus on companies that are at the forefront of AI development and application, as they are poised to benefit from the technology's disruptive potential.",
+      "The democratization of AI tools could lead to a surge in entrepreneurial activity, with startups leveraging AI to compete with larger, more established companies.",
+      "The nature of work is changing, with AI taking over routine tasks and freeing up humans to focus on more complex, creative, and strategic activities.",
+      "Investors should be aware of the potential for increased market volatility as AI adoption accelerates, with winners and losers emerging across various sectors."
+    ],
+    "investment_thesis": "The core investment logic revolves around the transformative impact of AI on the global economy. As AI becomes more accessible and affordable, it acts as a catalyst for increased productivity, innovation, and competition. Companies that can effectively integrate AI into their operations will gain a significant advantage, while those that lag behind risk being disrupted. The timeframe for this thesis is medium to long-term, as the full impact of AI on various sectors will unfold over the next 3-10 years. Catalysts include technological breakthroughs, regulatory changes, and the increasing availability of AI as a service.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's significant investment in AI research and development, along with its ecosystem of devices and services, positions it to leverage AI advancements to enhance user experience and drive growth.",
+        "positioning": "Long-term strategic position, as Apple's integration of AI into its products and services is expected to contribute to sustained growth.",
+        "risk": "Key risks include increased competition from AI-focused tech companies and potential regulatory hurdles that could impede AI development and deployment."
+      },
+      "NVDA": {
+        "rationale": "NVIDIA is a leader in GPU technology, which is fundamental to the processing power required for advanced AI applications, making it a key beneficiary of the AI revolution.",
+        "positioning": "Medium to long-term strategic position, as demand for NVIDIA's GPUs is expected to grow with the expansion of AI applications.",
+        "risk": "The risk of new competitors entering the GPU market and the potential for technological obsolescence as AI evolves."
+      },
+      "GOOGL": {
+        "rationale": "Google's parent company, Alphabet, is at the forefront of AI research and has a broad range of applications, from search to autonomous vehicles, that stand to benefit from AI advancements.",
+        "positioning": "Long-term strategic position, reflecting Google's potential to drive innovation and capture value across multiple AI-driven sectors.",
+        "risk": "Regulatory challenges and the risk of missing out on new AI opportunities as the technology landscape evolves rapidly."
+      },
+      "MSFT": {
+        "rationale": "Microsoft's cloud computing platform, Azure, offers AI services and tools, positioning the company to benefit from the growing demand for AI capabilities among businesses.",
+        "positioning": "Medium-term tactical position, as Microsoft's AI offerings could drive short-term revenue growth and market share gains.",
+        "risk": "The risk of losing market share to more agile competitors and the potential for Azure's AI services to become commoditized."
+      },
+      "TSLA": {
+        "rationale": "Tesla's leadership in electric vehicles and autonomous driving technology makes it a prime example of a company leveraging AI to disrupt the automotive industry.",
+        "positioning": "Long-term strategic position, as Tesla's AI-driven innovations are expected to maintain its competitive edge in the automotive sector.",
+        "risk": "Regulatory hurdles and technological challenges in achieving fully autonomous driving could impact Tesla's growth prospects."
+      }
+    },
+    "positioning_guidance": "Investors should consider a diversified approach to AI investments, with a mix of long-term strategic positions in companies leading AI development and shorter-term tactical positions in companies poised to benefit from immediate AI applications. Entry points should be based on a thorough analysis of each company's AI strategy, competitive position, and financial health. Timeframes for these investments should align with the expected timeframes for AI's impact on each company's sector, with a focus on the medium to long-term potential of AI to drive growth and disruption.",
+    "risk_factors": [
+      "Regulatory changes that could limit the development or deployment of AI technologies.",
+      "The risk of AI technologies failing to meet expectations or delivering less value than anticipated.",
+      "The potential for AI to lead to job displacement and social unrest, impacting consumer sentiment and economic stability.",
+      "The risk of cyberattacks or misuse of AI technologies, which could lead to reputational damage or legal consequences for companies.",
+      "The possibility that AI advancements could lead to increased market volatility and unpredictability, making it more challenging for companies to plan and invest effectively."
+    ],
+    "contrarian_signals": [
+      "The potential for AI to exacerbate income inequality and social divides, leading to a backlash against AI adoption.",
+      "The possibility that AI advancements could be slower than expected, due to technical challenges or ethical concerns.",
+      "The risk that AI could lead to a concentration of power in the hands of a few large tech companies, sparking antitrust concerns and regulatory intervention."
+    ],
+    "catalysts": [
+      "Upcoming AI-related product launches and technology breakthroughs from leading companies.",
+      "Regulatory decisions that could either support or hinder the development and deployment of AI technologies.",
+      "Economic indicators that suggest a shift in the business cycle, which could impact the demand for AI services and products.",
+      "Major AI conferences and events that could showcase new applications and drive further investment in the sector.",
+      "Corporate earnings reports that highlight the impact of AI on company performance and future growth prospects."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-03-28T22:08:41.548623",
+    "updated_at": "2026-03-29 03:08:41",
+    "insight_title": "AI Just Gave You Superpowers \u2014 Now What?",
+    "source_name": "The a16z Show",
+    "source_date": "2026-03-19",
+    "key_tickers": []
+  },
+  "134": {
+    "id": 125,
+    "insight_id": 134,
+    "podcast_episode_id": 111,
+    "overview": "In this episode of Monetary Matters, the focus is on the precarious state of the stock market, with particular emphasis on employment concerns, the potential end of the business cycle, and the high valuations of stocks. Rupert Mitchell of Blind Squirrel Macro joins the discussion, bringing his expertise in the mobile industry and banking to bear on the analysis. Mitchell expresses concerns about the foundations of the current bull market, suggesting that government spending is a key driver of equity markets, and that this may not be sustainable, especially in the U.S. where deficits are high. The conversation also touches on the impact of IPOs, the supply of new companies entering the market at high valuations, and the potential for a significant market downturn. This analysis is crucial as it provides investors with a macro perspective on the current market conditions and potential risks ahead.",
+    "key_takeaways_detailed": [
+      "Equity markets are sensitive to government spending, with a potential slowdown in spending posing a risk to the current bull market.",
+      "The U.S. market may be overvalued relative to global markets, with a focus on high dividend, low valuation, and low beta stocks.",
+      "IPOs like SpaceX, OpenAI, and Thropic could introduce a significant supply at high valuations, impacting market dynamics.",
+      "The potential for a market downturn is heightened by factors such as the cancellation of buybacks and the crumbling of traditional market supports.",
+      "Investors should be in 'shopping list mode', preparing for potential bargains when market conditions settle."
+    ],
+    "investment_thesis": "The core investment thesis is that the current bull market is built on shaky foundations, with government spending being a key driver that may not be sustainable. The high valuations of stocks, coupled with an influx of IPOs at concept valuations, suggest that the market may be overextended. Additionally, traditional market supports like buybacks and M&A activities are showing signs of weakness. The catalyst for a market downturn could be a significant economic event or a change in government fiscal policy. The timeframe for this thesis is medium to long-term, as market shifts of this magnitude typically take time to play out.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple is a bellwether for the technology sector and is often seen as a proxy for the health of the broader market. Its performance can indicate market sentiment and the potential for a downturn.",
+        "positioning": "Positioning in AAPL should be strategic, with a focus on long-term\u6301\u6709 as the company has a history of weathering market downturns and maintaining its value.",
+        "risk": "Key risks include a slowdown in consumer spending and potential disruptions in the global supply chain."
+      },
+      "NVDA": {
+        "rationale": "Nvidia is a leader in the AI and data center space, which is a significant area of growth and investment. Its performance can indicate the health of these sectors and the potential impact of a market downturn.",
+        "positioning": "NVDA can be positioned tactically, with a focus on short-term gains as the company's stock is sensitive to market fluctuations and sector-specific risks.",
+        "risk": "Key risks include competition in the AI space, regulatory changes, and potential slowdowns in data center investments."
+      },
+      "SPY": {
+        "rationale": "SPY is an ETF that tracks the S&P 500 index, providing a broad exposure to the U.S. stock market. It is relevant to this thesis as it can indicate the overall health of the market and potential risks.",
+        "positioning": "Positioning in SPY should be strategic, with a focus on diversification and risk management. Investors may consider a balanced approach, combining long-term holdings with tactical adjustments.",
+        "risk": "Key risks include market volatility, economic downturns, and changes in monetary policy."
+      },
+      "TSLA": {
+        "rationale": "Tesla is a high-growth stock that has been a significant driver of the market. Its performance can indicate the health of the electric vehicle and renewable energy sectors.",
+        "positioning": "TSLA can be positioned tactically, with a focus on short-term gains as the stock is sensitive to market fluctuations and sector-specific risks.",
+        "risk": "Key risks include competition in the electric vehicle market, regulatory changes, and potential disruptions in the supply chain."
+      }
+    },
+    "positioning_guidance": "Investors should consider a balanced approach to portfolio positioning, with a mix of long-term strategic holdings and short-term tactical adjustments. Sizing should be based on individual risk tolerance and market outlook, with a focus on diversification to mitigate risks. Entry points should be carefully considered, with a focus on market conditions and potential catalysts. Timeframes should be medium to long-term, as market shifts of this magnitude typically take time to play out. Hedges should be considered to protect against potential market downturns and economic events.",
+    "risk_factors": [
+      "A significant economic event or change in government fiscal policy could trigger a market downturn.",
+      "A slowdown in consumer spending could impact high-growth stocks and the overall market.",
+      "Changes in monetary policy or interest rates could affect market valuations and investor sentiment.",
+      "Regulatory changes, particularly in the technology and AI sectors, could impact specific stocks and the broader market.",
+      "Potential disruptions in the global supply chain could affect companies reliant on international trade and production."
+    ],
+    "contrarian_signals": [
+      "Despite concerns about market valuations, some investors may argue that the current bull market is supported by strong corporate earnings and economic growth.",
+      "The influx of IPOs at high valuations could be seen as a sign of investor confidence and a healthy market, rather than a cause for concern.",
+      "The potential for a market downturn may be overstated, with some investors believing that market supports like buybacks and M&A activities will continue to provide stability."
+    ],
+    "catalysts": [
+      "Economic reports and data releases that indicate a slowdown in consumer spending or economic growth.",
+      "Changes in government fiscal policy or monetary policy that could impact market valuations and investor sentiment.",
+      "Regulatory changes or announcements that could impact specific sectors or the broader market.",
+      "Major economic events or conferences that could provide insight into the health of the global economy and market conditions.",
+      "Company earnings reports and announcements that could indicate the health of specific sectors and the overall market."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-03-28T22:09:03.490435",
+    "updated_at": "2026-03-29 03:09:03",
+    "insight_title": "Stock Market on Shaky Foundations | Blind Squirrel Macro\u2019s Rupert Mitchell on IPO Supply, Oil, and Private Credit",
+    "source_name": "Monetary Matters with Jack Farley",
+    "source_date": "2026-03-18",
+    "key_tickers": [
+      "SPACEX",
+      "OPENAI",
+      "THROPIC"
+    ]
+  },
+  "135": {
+    "id": 126,
+    "insight_id": 135,
+    "podcast_episode_id": 114,
+    "overview": "The current geopolitical tensions in the Middle East, particularly surrounding Iran, have created a significant disruption in the oil market, with the potential to escalate into a protracted crisis. The podcast with Roy Johnson of Commodity Context highlights the critical role of the Strait of Hormuz, through which approximately 20 million barrels of oil pass daily. Any sustained disruption could lead to a global economic crisis, as alternative supply routes and strategic petroleum reserves are insufficient to offset the loss. This analysis examines the investment implications of this scenario, focusing on the potential for a significant increase in oil prices and its ripple effects on global markets and specific sectors.",
+    "key_takeaways_detailed": [
+      "The Strait of Hormuz disruption could lead to a loss of 15-20 million barrels per day, which is unprecedented in scale compared to historical events.",
+      "Alternative supply routes and strategic petroleum reserves are insufficient to offset the potential loss, necessitating a significant reduction in demand through price mechanisms.",
+      "The impact of such a disruption would be felt globally, with poorer countries potentially facing deadly fuel shortages and advanced economies experiencing a debilitating price shock.",
+      "Investors should monitor geopolitical developments closely, as the situation is fluid and could lead to significant market volatility.",
+      "The potential for a rapid increase in oil prices could have a profound impact on inflation, economic growth, and corporate earnings, particularly in energy-intensive sectors."
+    ],
+    "investment_thesis": "The investment thesis is centered around the potential for a significant and sustained increase in oil prices due to the disruption of oil flow through the Strait of Hormuz. This would lead to increased costs for energy-intensive industries, inflationary pressures, and potential economic slowdowns. Investors should consider positioning in sectors that are likely to be affected, such as energy, transportation, and materials, as well as looking for opportunities in alternative energy sources. The catalysts for this thesis include ongoing geopolitical tensions, the inability to normalize oil flow through the Strait of Hormuz, and the potential for a price-driven reduction in demand. The timeframe for this thesis is medium to long-term, as the resolution of geopolitical issues and the adjustment of global oil markets are likely to take time.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple Inc., while not directly involved in the oil market, is a significant consumer of energy and materials. Increased oil prices could affect its supply chain and production costs.",
+        "positioning": "Consider a tactical short position due to potential cost pressures, with a medium-term outlook.",
+        "risk": "The risk is that Apple's strong balance sheet and ability to pass on costs could mitigate the impact of increased oil prices."
+      },
+      "NVDA": {
+        "rationale": "NVIDIA, a leader in AI and GPU technology, could benefit from increased demand for energy-efficient technologies as companies look to offset higher energy costs.",
+        "positioning": "Position long-term as the company is well-positioned to capitalize on the shift towards energy efficiency.",
+        "risk": "The risk is that a global economic slowdown could reduce overall demand for technology products."
+      },
+      "SPY": {
+        "rationale": "SPDR S&P 500 ETF Trust (SPY) represents a broad market exposure, making it a useful tool for hedging against sector-specific risks.",
+        "positioning": "Consider a tactical hedge with a short position in SPY to protect against market volatility caused by oil price shocks.",
+        "risk": "The risk is that the market may not react as expected, or that other factors could drive the market in an opposite direction."
+      },
+      "TSLA": {
+        "rationale": "Tesla Inc. is a leader in electric vehicles and renewable energy, positioning it to benefit from a shift away from fossil fuels due to high oil prices.",
+        "positioning": "Position long-term as the company stands to gain from increased adoption of electric vehicles and renewable energy solutions.",
+        "risk": "The risk is that high oil prices could lead to an economic slowdown, reducing consumer demand for new vehicles."
+      },
+      "XOM": {
+        "rationale": "Exxon Mobil Corporation is a major oil and gas company that could benefit from higher oil prices, but also faces risks from geopolitical instability.",
+        "positioning": "Position tactically long, with a focus on short-term gains, as the company could benefit from higher oil prices, but be wary of geopolitical risks.",
+        "risk": "The risk is that geopolitical tensions could lead to supply disruptions or regulatory changes that negatively impact the company."
+      }
+    },
+    "positioning_guidance": "Investors should consider a balanced approach, with a mix of long and short positions to hedge against the volatility caused by potential oil price shocks. Sizing should be based on an individual's risk tolerance and investment horizon. Entry points should be strategic, taking into account current market conditions and potential catalysts. Timeframes should be medium to long-term, as the resolution of geopolitical issues and market adjustments are likely to take time. Consider hedging with inverse ETFs or options strategies to protect against downside risk.",
+    "risk_factors": [
+      "Geopolitical tensions could escalate further, leading to an even greater disruption in oil markets.",
+      "A rapid resolution of tensions could lead to a swift decrease in oil prices, negating the thesis.",
+      "Global economic slowdown or recession could reduce demand for oil, affecting the thesis.",
+      "Technological advancements or new energy policies could shift the dynamics of the oil market.",
+      "Unexpected changes in supply from other regions, such as the US shale industry, could mitigate the impact of the Strait of Hormuz disruption."
+    ],
+    "contrarian_signals": [
+      "The market may underestimate the ability of global oil markets to adapt and re-route supplies.",
+      "There could be a significant underestimation of the strategic petroleum reserves' capacity to offset a loss of supply.",
+      "The potential for a rapid technological shift towards renewable energy could mitigate the impact of high oil prices."
+    ],
+    "catalysts": [
+      "Geopolitical developments, particularly any escalation or de-escalation in tensions involving Iran.",
+      "OPEC+ meetings and decisions regarding oil production levels.",
+      "US policy decisions regarding sanctions on Iran and other oil-producing countries.",
+      "Global economic indicators that could signal a shift in demand for oil.",
+      "Technological breakthroughs or policy changes that could significantly impact the energy sector."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-03-28T22:09:26.942701",
+    "updated_at": "2026-03-29 03:09:26",
+    "insight_title": "EWWMN9153105374",
+    "source_name": "Monetary Matters with Jack Farley",
+    "source_date": "2026-03-15",
+    "key_tickers": []
+  },
+  "136": {
+    "id": 127,
+    "insight_id": 136,
+    "podcast_episode_id": 110,
+    "overview": "The Renaissance period, marked by the rise of Italian city republics and the revival of Roman virtues, offers a unique lens through which to analyze current investment trends. This deep dive explores the parallels between the economic and technological shifts of the Renaissance and today's market dynamics, focusing on the role of innovation, self-governance, and the pursuit of knowledge. Understanding these historical patterns can provide insights into how current market leaders might evolve and the potential for new disruptors to emerge, shaping investment strategies in the process.",
+    "key_takeaways_detailed": [
+      "Invest in companies that embody the spirit of innovation and self-sufficiency, similar to the Italian city republics of the Renaissance.",
+      "Look for leaders in technology and education that can shape the next generation of leaders and thinkers, much like the libraries and tutors of the Renaissance.",
+      "Consider the role of propaganda and image in the success of companies, as seen with the upstart rulers of the Renaissance\u65f6\u671f.",
+      "Monitor the impact of global trade and supply chain disruptions on companies, reflecting the challenges faced by cities post-Roman Empire dissolution.",
+      "Evaluate the potential for a 'golden age' of technology and innovation, driven by the pursuit of knowledge and the emulation of past successes."
+    ],
+    "investment_thesis": "The investment thesis is centered on the belief that companies that can emulate the self-governance, innovation, and pursuit of knowledge seen during the Renaissance will be well-positioned for long-term success. Catalysts include advancements in technology, shifts in global power dynamics, and the ongoing pursuit of education and knowledge. The timeframe for this thesis is medium to long-term, as these trends are expected to play out over several years.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's focus on innovation and self-sufficiency in technology aligns with the spirit of the Italian city republics. Its ability to create ecosystems and lead in various tech sectors positions it well for the future.",
+        "positioning": "Long-term strategic position, as Apple's continued investment in R&D and ecosystem building is expected to yield dividends over the coming years.",
+        "risk": "Key risks include increased competition, regulatory challenges, and potential supply chain disruptions."
+      },
+      "NVDA": {
+        "rationale": "Nvidia's leadership in GPU technology and its expansion into AI and cloud services reflect the Renaissance pursuit of knowledge and innovation.",
+        "positioning": "Medium-term tactical position, as the company's growth is tied to the adoption of new technologies and the ongoing digital transformation.",
+        "risk": "Risks include technological obsolescence, competition from other tech giants, and potential market saturation."
+      },
+      "SPY": {
+        "rationale": "SPY, as an ETF tracking the S&P 500, provides exposure to a broad range of companies that may benefit from the trends identified in the Renaissance period.",
+        "positioning": "Long-term strategic position, as it offers diversification and the potential to capture gains across various sectors.",
+        "risk": "Risks include market volatility, economic downturns, and sector-specific challenges."
+      },
+      "TSLA": {
+        "rationale": "Tesla's disruptive approach to the automotive industry and its focus on sustainable energy echo the innovative spirit of the Renaissance.",
+        "positioning": "Medium-term tactical position, as the company's growth is tied to the adoption of electric vehicles and renewable energy.",
+        "risk": "Risks include regulatory changes, competition, and the pace of technological advancement."
+      },
+      "GOOGL": {
+        "rationale": "Google's dominance in search and its forays into AI and cloud computing reflect the pursuit of knowledge and the emulation of past successes.",
+        "positioning": "Long-term strategic position, as Google's continued investment in technology is expected to yield long-term gains.",
+        "risk": "Risks include antitrust regulations, data privacy concerns, and the potential for new disruptors in the tech space."
+      }
+    },
+    "positioning_guidance": "Investors should consider a balanced portfolio with a mix of long-term strategic positions in companies like AAPL and GOOGL, which are well-positioned for the future, and medium-term tactical positions in companies like NVDA and TSLA, which are more closely tied to the adoption of new technologies. Diversification through an ETF like SPY can help mitigate risks. Entry points should be considered in the context of market volatility, and investors should be prepared to adjust positions as new information emerges.",
+    "risk_factors": [
+      "Economic downturns that could disrupt the growth of innovative companies.",
+      "Regulatory changes that could impact the operations of tech giants.",
+      "The pace of technological advancement, which could render some companies' products obsolete.",
+      "Global supply chain disruptions that could affect the production and distribution of goods.",
+      "The rise of new disruptors that could challenge established market leaders."
+    ],
+    "contrarian_signals": [
+      "The potential for a backlash against tech giants due to concerns over data privacy and market dominance.",
+      "The possibility that the pursuit of knowledge and innovation could lead to overinvestment and a tech bubble.",
+      "The risk that the focus on self-governance and self-sufficiency could lead to isolationism and reduced global cooperation.",
+      "The chance that the emulation of past successes could result in a lack of innovation and stagnation in certain sectors."
+    ],
+    "catalysts": [
+      "Advancements in AI and machine learning that could drive the next wave of technological innovation.",
+      "The continued growth of the electric vehicle market and the transition to renewable energy.",
+      "The development of new educational technologies and platforms that could reshape the way knowledge is disseminated.",
+      "Global events that could shift the balance of power and create new opportunities for self-governance and innovation.",
+      "Regulatory changes that could either hinder or accelerate the growth of tech companies."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-03-28T22:09:47.966045",
+    "updated_at": "2026-03-29 03:09:47",
+    "insight_title": "Inventing the Renaissance: Economic and Technological Insights",
+    "source_name": "Dwarkesh Podcast",
+    "source_date": "2026-03-06",
+    "key_tickers": []
+  },
+  "137": {
+    "id": 128,
+    "insight_id": 137,
+    "podcast_episode_id": 113,
+    "overview": "The investment thesis revolves around the identification of overhyped sectors and companies within the tech industry, particularly those claiming to be AI or AI-adjacent. Given the current market conditions, with strong momentum in certain stocks, the focus is on timing the short positions correctly to capitalize on the eventual market correction. This analysis is crucial as it provides insights into potential short-selling opportunities amidst a backdrop of excessive speculation and inflated valuations in sectors like AI, quantum computing, and semiconductors.",
+    "key_takeaways_detailed": [
+      "Identify sectors with excessive speculation, such as AI and quantum computing, for potential short-selling opportunities.",
+      "Monitor companies with strong momentum; short-selling these names could be dangerous until they show signs of decline.",
+      "Be cautious of companies that claim to be AI-adjacent but lack substantial revenue growth or have high valuations with little revenue.",
+      "Timing is critical; wait for market conditions that signal a shift in demand for speculative companies.",
+      "Diversify investment strategies to include both long and short positions, and consider quantitative momentum strategies for the current market environment."
+    ],
+    "investment_thesis": "The core investment logic is to capitalize on the overvaluation and eventual correction in sectors that have seen excessive speculation, particularly within tech and AI. The catalysts for this thesis include market saturation of speculative stocks, a shift in investor sentiment, and economic factors that affect cyclical industries like semiconductors. The timeframe for this thesis is medium to long-term, as it requires waiting for the right market conditions to short overhyped stocks effectively.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple is included as a benchmark for the tech sector and for its significant investments in AI technology.",
+        "positioning": "Positioning should be strategic and long-term, as Apple's fundamentals are strong, but investors should be aware of its exposure to the broader tech sector's volatility.",
+        "risk": "Key risks include regulatory challenges and increased competition in the AI space."
+      },
+      "NVDA": {
+        "rationale": "Nvidia is a leader in AI and semiconductors, making it a relevant ticker for assessing the health of the AI and semiconductor sectors.",
+        "positioning": "Given the cyclical nature of the semiconductor industry, a tactical short position could be considered when the market shows signs of overvaluation.",
+        "risk": "The risk of technological obsolescence and increased competition in the AI chip market."
+      },
+      "SPY": {
+        "rationale": "SPY, as an S&P 500 ETF, provides exposure to the overall market and can be used to hedge against sector-specific risks.",
+        "positioning": "A strategic long position in SPY can serve as a core holding, with tactical adjustments based on market momentum and economic indicators.",
+        "risk": "Market-wide risks such as economic downturns, geopolitical events, and changes in monetary policy."
+      },
+      "TSLA": {
+        "rationale": "Tesla is a key player in the electric vehicle and clean energy sectors, which have been subject to excessive speculation.",
+        "positioning": "A tactical short position could be considered, especially if the company's growth does not match market expectations.",
+        "risk": "The risk of technological disruption and changes in government policies supporting clean energy."
+      },
+      "PQNT": {
+        "rationale": "PICTEA AI Enhance International Equity ETF is mentioned in the podcast, and it represents an investment in AI-enhanced international equities.",
+        "positioning": "Given the thesis of identifying overhyped sectors, a tactical short position in PQNT could be considered if the ETF's holdings are heavily weighted towards overvalued AI stocks.",
+        "risk": "The risk of regulatory changes affecting AI investments and the performance of international equities."
+      }
+    },
+    "positioning_guidance": "Investors should maintain a balanced portfolio with a mix of long and short positions. For long positions, focus on fundamentally strong companies with sustainable growth prospects. For short positions, target overhyped stocks in sectors like AI and quantum computing, but only when market conditions suggest a high likelihood of a price correction. Entry points should be timed carefully, and investors should be prepared to hold short positions for a medium to long-term horizon. Consider hedging with broad market ETFs like SPY to mitigate sector-specific risks.",
+    "risk_factors": [
+      "Regulatory changes that could impact the growth of AI and tech sectors.",
+      "Unexpected technological breakthroughs that could render current investments obsolete.",
+      "A sudden shift in investor sentiment leading to a rapid decline in speculative stocks, which could affect short positions negatively if not timed correctly.",
+      "Economic downturns that could disproportionately affect cyclical industries like semiconductors.",
+      "Geopolitical events that could disrupt global supply chains and affect international equities."
+    ],
+    "contrarian_signals": [
+      "The potential for AI and tech sectors to continue growing at an accelerated pace due to increasing demand for digital transformation.",
+      "The possibility that current market valuations are justified by future growth prospects, especially for companies with strong competitive advantages in AI.",
+      "The risk that short positions could be squeezed by continued investor enthusiasm for speculative stocks, leading to significant losses if the short is not covered in time."
+    ],
+    "catalysts": [
+      "Economic reports and indicators that signal a shift in market sentiment or economic cycles.",
+      "Regulatory announcements affecting the tech and AI sectors, which could either boost or hinder growth prospects.",
+      "Technological milestones or failures that could significantly impact the valuation of companies in the AI space.",
+      "Results from earnings reports and other financial disclosures that could validate or invalidate the current market valuations of overhyped stocks.",
+      "Global events or policy changes that could affect the performance of international equities, such as those held in the PQNT ETF."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-03-28T22:10:10.202250",
+    "updated_at": "2026-03-29 03:10:10",
+    "insight_title": "Technical Analysis Deep Dive with Milton Berg - February 2026 Market Signals",
+    "source_name": "Monetary Matters with Jack Farley",
+    "source_date": "2026-02-15",
+    "key_tickers": [
+      "PQNT"
+    ]
   }
 },
   suggestedTerms: [
   {
-    "id": 108,
-    "term": "Sovereign Credit",
-    "definition": "A type of debt issued by governments, which involves risks related to both the ability and willingness of the government to repay.",
-    "investment_implications": "Investors must consider political, economic, and geopolitical factors when evaluating sovereign credit.",
+    "id": 122,
+    "term": "Privacy-Focused Cryptocurrencies",
+    "definition": "Cryptocurrencies that prioritize user privacy and anonymity, often using advanced cryptographic techniques to secure transactions.",
+    "investment_implications": "Investors may consider these for their potential to disrupt traditional financial tracking and surveillance methods.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-03-28 09:04:34",
+    "submitted_date": "2026-03-29 03:04:38",
     "priority_score": 80
   },
   {
-    "id": 109,
-    "term": "Hard Currency Bonds",
-    "definition": "Bonds issued by emerging market countries in a currency that is not their local currency, often the US dollar.",
-    "investment_implications": "These bonds can offer exposure to different economies but come with additional FX risk.",
+    "id": 123,
+    "term": "Quantum Resistance",
+    "definition": "The ability of a cryptographic system to remain secure against an attack by a quantum computer.",
+    "investment_implications": "Investors should consider quantum resistance as a future-proofing feature in the evolving landscape of cybersecurity.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-03-28 09:04:34",
+    "submitted_date": "2026-03-29 03:04:38",
     "priority_score": 80
   },
   {
-    "id": 106,
-    "term": "Physical Economy",
-    "definition": "The part of the economy that deals with tangible goods and services, as opposed to financial or digital services.",
-    "investment_implications": "Investors should look for companies that can leverage physical manufacturing and supply chain innovations.",
+    "id": 120,
+    "term": "Disaggregated Computing",
+    "definition": "A computing approach where different parts of a processing pipeline run on different types of hardware, optimizing performance and efficiency.",
+    "investment_implications": "Investors should consider companies leading in disaggregated computing for potential gains in the AI era.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-03-28 09:04:18",
+    "submitted_date": "2026-03-29 03:04:27",
     "priority_score": 80
   },
   {
-    "id": 107,
-    "term": "Data Silos",
-    "definition": "The practice or situation of different departments or teams within a company not sharing their data with each other.",
-    "investment_implications": "Companies that prevent data silos can scale more effectively and make better data-driven decisions.",
+    "id": 121,
+    "term": "Open-Source AI Models",
+    "definition": "AI models that are publicly accessible and modifiable, fostering innovation and collaboration in the AI community.",
+    "investment_implications": "Investors should look for companies that balance proprietary and open-source AI models to leverage domain expertise and drive innovation.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-03-28 09:04:18",
+    "submitted_date": "2026-03-29 03:04:27",
     "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 1219,
+    "id": 1234,
+    "name": "This special episode",
+    "slug": "this-special-episode",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Invest in companies that are at the forefront of AI technology, particularly those that can leverage both proprietary and open-source models to drive innovation and capture domain-specific expertise.",
+    "last_episode_title": "ALLIN-INTV Jensen V2 Ch",
+    "last_podcast_name": "Unknown Podcast",
+    "last_episode_date": "2026-03-28",
+    "appearance_count": 1
+  },
+  {
+    "id": 1235,
     "name": "Lupin Ramon",
     "slug": "lupin-ramon",
     "bio": null,
@@ -10137,7 +11178,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1220,
+    "id": 1236,
     "name": "When the Music Stops",
     "slug": "when-the-music-stops",
     "bio": null,
@@ -10149,7 +11190,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1221,
+    "id": 1237,
     "name": "Ground Infrastructure",
     "slug": "ground-infrastructure",
     "bio": null,
@@ -10161,7 +11202,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1222,
+    "id": 1238,
     "name": "Rory Johnston",
     "slug": "rory-johnston",
     "bio": null,
@@ -10173,7 +11214,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1223,
+    "id": 1239,
     "name": "Senator John Fetterman on Voting Rights",
     "slug": "senator-john-fetterman-on-voting-rights",
     "bio": null,
@@ -10185,7 +11226,19 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1224,
+    "id": 1240,
+    "name": "Stock Market on Shaky Foundations",
+    "slug": "stock-market-on-shaky-foundations",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "The current bull market is built on shaky foundations, and a shift towards a more cautious stance with a focus on security software and data lake control is advised.",
+    "last_episode_title": "Stock Market on Shaky Foundations | Blind Squirrel Macro\u2019s Rupert Mitchell on IPO Supply, Oil, and Private Credit",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-03-18",
+    "appearance_count": 1
+  },
+  {
+    "id": 1241,
     "name": "Elon Musk on Moonshots",
     "slug": "elon-musk-on-moonshots",
     "bio": null,
@@ -10197,7 +11250,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1225,
+    "id": 1242,
     "name": "Investing in Capitalism",
     "slug": "investing-in-capitalism",
     "bio": null,
@@ -10209,7 +11262,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1226,
+    "id": 1243,
     "name": "Harvard Professor Graham Allison",
     "slug": "harvard-professor-graham-allison",
     "bio": null,
@@ -10221,7 +11274,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1227,
+    "id": 1244,
     "name": "Andrew Yang",
     "slug": "andrew-yang",
     "bio": "Andrew Yang is an entrepreneur and political leader who popularized universal basic income in U.S. politics through his 2020 presidential campaign.",
@@ -10233,7 +11286,19 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1228,
+    "id": 1245,
+    "name": "Inventing the Renaissance",
+    "slug": "inventing-the-renaissance",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "The historical insights from the Italian Renaissance period suggest that technological advancements, such as the printing press, can have a profound impact on society and information distribution, which parallels modern tech revolutions and their investment implications.",
+    "last_episode_title": "Inventing the Renaissance: Economic and Technological Insights",
+    "last_podcast_name": "Dwarkesh Podcast",
+    "last_episode_date": "2026-03-06",
+    "appearance_count": 1
+  },
+  {
+    "id": 1246,
     "name": "Ray Dalio",
     "slug": "ray-dalio",
     "bio": "Ray Dalio is the founder of Bridgewater Associates and a macro investor known for his 'Principles' framework and work on long-term debt cycles.",
@@ -10245,7 +11310,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1229,
+    "id": 1247,
     "name": "Nobel Prize-winning economist Paul Krugman",
     "slug": "nobel-prize-winning-economist-paul-krugman",
     "bio": null,
@@ -10257,7 +11322,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1230,
+    "id": 1248,
     "name": "host Jack Mallers",
     "slug": "host-jack-mallers",
     "bio": null,
@@ -10269,7 +11334,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1231,
+    "id": 1249,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -10281,7 +11346,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1232,
+    "id": 1250,
     "name": "Bosworth",
     "slug": "bosworth",
     "bio": null,
@@ -10293,7 +11358,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1233,
+    "id": 1251,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -10306,6 +11371,528 @@ const dashboardData = {
   }
 ],
   pundits: [
+  {
+    "id": 96,
+    "name": "Jensen Huang",
+    "slug": "jensen-huang",
+    "bio": "Co-founder and CEO of Nvidia, a leading company in AI and GPU technology.",
+    "known_for": "Driving Nvidia's innovation in AI and GPU technology.",
+    "net_worth_usd": 151000000000.0,
+    "net_worth_source": "https://www.wikidata.org/wiki/Q305177",
+    "net_worth_updated_at": "2026-03-20T04:40:55.469936",
+    "voice_tone": "Confident and visionary.",
+    "voice_style": "Factual and future-oriented, with a focus on technology's transformative potential.",
+    "voice_delivery_notes": "Speak with a steady pace, emphasizing the transformative aspects of AI.",
+    "voice_profile_updated_at": "2026-03-29 03:04:27",
+    "last_seen": "2026-03-29 03:04:27",
+    "last_episode_title": "all in with chamath jason sacks frie jensen huang live nvidia s future physical ai rise of the 03b9c382",
+    "last_podcast_name": "Unknown Podcast",
+    "last_episode_date": "2026-03-28",
+    "mention_score": 3,
+    "mention_score_decayed": 3,
+    "last_main_idea": "Investing in AI-driven platforms and technologies is essential for capturing the growth in the global financial system and staying ahead in the AI era.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-20T04:40:52.368193",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Jensen Huang",
+      "fetched_at": "2026-03-20T09:40:52.368095+00:00",
+      "cliff_notes": "Jensen Huang co-founded NVIDIA in 1993 with Curtis Priem and Chris Malachowsky. Huang's vision and leadership have been pivotal in NVIDIA's growth and transformation into a dominant player in the AI and GPU technology sector. His focus on innovation and technological advancement has positioned NVIDIA at the forefront of the AI revolution, influencing industries from gaming to data centers and autonomous vehicles. Huang's strategic foresight and commitment to research and development have made NVIDIA a household name in tech and a key player in the future of computing.",
+      "derived": {
+        "current_role": "Co-founder and CEO of NVIDIA",
+        "education": "Stanford University, Master's in Electrical Engineering"
+      },
+      "infobox": {
+        "Born": "1963",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Jensen Huang co-founded NVIDIA in 1993 with Curtis Priem and Chris Malachowsky. Huang's vision and leadership have been pivotal in NVIDIA's growth and transformation into a dominant player in the AI and GPU technology sector. His focus on innovation and technological advancement has positioned NVIDIA at the forefront of the AI revolution, influencing industries from gaming to data centers and autonomous vehicles.",
+        "Huang's strategic foresight and commitment to research and development have made NVIDIA a household name in tech and a key player in the future of computing."
+      ],
+      "sections": [
+        {
+          "heading": "NVIDIA's AI Transformation",
+          "body": "Jensen Huang has been instrumental in steering NVIDIA towards becoming a leader in AI computing, leveraging the company's expertise in GPUs to power AI applications across various industries."
+        },
+        {
+          "heading": "GPU Technology",
+          "body": "NVIDIA's GPUs have become the backbone of modern AI and deep learning, with Huang's leadership ensuring the company stays at the cutting edge of this technology."
+        },
+        {
+          "heading": "Strategic Acquisitions",
+          "body": "Huang's strategic vision includes acquisitions like Grok, which has further expanded NVIDIA's capabilities in AI and data analytics, showcasing his ability to anticipate and capitalize on emerging tech trends."
+        },
+        {
+          "heading": "Innovation and Future Vision",
+          "body": "Jensen Huang is known for his forward-thinking approach, with NVIDIA often introducing new technologies and strategies years in advance, setting the pace for the tech industry."
+        }
+      ]
+    },
+    "net_worth": "$151.00B"
+  },
+  {
+    "id": 133,
+    "name": "Chris Dixon",
+    "slug": "chris-dixon",
+    "bio": "Chris Dixon is a general partner at Andreessen Horowitz (A16Z), known for his leading investments in Oculus and Coinbase, and for building A16Z's dedicated crypto practice. He is also the co-founder of internet security company SiteAdvisor and AI company Hunch.",
+    "known_for": "His pivotal investments in Oculus and Coinbase, and his role in establishing A16Z's crypto practice.",
+    "net_worth_usd": 500000000.0,
+    "net_worth_source": "https://blockchainreporter.net/net-worth/chris-dixon/",
+    "net_worth_updated_at": "2026-03-28T22:05:07.528099",
+    "voice_tone": "Reflective and informative",
+    "voice_style": "Shares personal anecdotes and industry insights with a storytelling approach",
+    "voice_delivery_notes": "Paced with emphasis on key points, such as personal experiences and investment philosophies",
+    "voice_profile_updated_at": "2026-03-29 03:04:14",
+    "last_seen": "2026-03-29 03:04:14",
+    "last_episode_title": "the a16z show chris dixon from quant trading to building a16z crypto be2e5b4b",
+    "last_podcast_name": "Unknown Podcast",
+    "last_episode_date": "2026-03-28",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Betting on talented individuals in businesses rather than predicting tech trends is a more consistent approach to investing.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-28T22:05:06.552638",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Chris Dixon",
+      "fetched_at": "2026-03-29T03:05:06.552464+00:00",
+      "cliff_notes": "Chris Dixon's career began with a passion for technology, teaching himself programming languages as a child. After college, he worked in quant finance, writing Monte Carlo simulations for an options market-making firm in New York. This experience led him to co-found SiteAdvisor, an internet security company, which was later sold to McAfee in 2006. Two years later, he founded Hunch, an AI company based on neural networks, which was acquired by eBay in 2011. In 2013, Dixon joined Andreessen Horowitz, where he played a significant role in the firm's investments, notably leading a $75 million round for Oculus and making an early investment in Coinbase. His work at A16Z has been instrumental in the establishment of the firm's dedicated crypto practice, which is now in its fourth fund. Dixon's journey from quant finance to tech investing and his influence in the crypto space have made him a notable figure in the tech and finance industries.",
+      "derived": {
+        "current_role": "General Partner at Andreessen Horowitz",
+        "former_positions": "Co-founder of SiteAdvisor; Co-founder of Hunch"
+      },
+      "infobox": {
+        "Born": "Ohio",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Chris Dixon's career began with a passion for technology, teaching himself programming languages as a child. After college, he worked in quant finance, writing Monte Carlo simulations for an options market-making firm in New York. This experience led him to co-found SiteAdvisor, an internet security company, which was later sold to McAfee in 2006.",
+        "Two years later, he founded Hunch, an AI company based on neural networks, which was acquired by eBay in 2011. In 2013, Dixon joined Andreessen Horowitz, where he played a significant role in the firm's investments, notably leading a $75 million round for Oculus and making an early investment in Coinbase. His work at A16Z has been instrumental in the establishment of the firm's dedicated crypto practice, which is now in its fourth fund.",
+        "Dixon's journey from quant finance to tech investing and his influence in the crypto space have made him a notable figure in the tech and finance industries."
+      ],
+      "sections": [
+        {
+          "heading": "Early Career",
+          "body": "Chris Dixon began his career in quant finance, writing Monte Carlo simulations for an options market-making firm in New York, before co-founding SiteAdvisor, an internet security company."
+        },
+        {
+          "heading": "SiteAdvisor and Hunch",
+          "body": "Dixon co-founded SiteAdvisor, which was later sold to McAfee, and Hunch, an AI company, which was acquired by eBay. These ventures established him as a successful entrepreneur."
+        },
+        {
+          "heading": "Investment in Oculus and Coinbase",
+          "body": "At Andreessen Horowitz, Dixon led a $75 million investment in Oculus and made an early investment in Coinbase, both of which have become significant players in their respective industries."
+        },
+        {
+          "heading": "Cryptocurrency and A16Z",
+          "body": "Dixon has been instrumental in building A16Z's dedicated crypto practice, which is now in its fourth fund, showcasing his foresight and influence in the cryptocurrency space."
+        }
+      ]
+    },
+    "net_worth": "$500.0M"
+  },
+  {
+    "id": 131,
+    "name": "David Sachs",
+    "slug": "david-sachs",
+    "bio": "David Sachs is a prominent figure in the tech industry, known for his insights on innovation and technology. He has been involved in the Trump administration, where he has emphasized the importance of scientific research and technology in the current competitive landscape.",
+    "known_for": "His role in the Trump administration and his views on the importance of scientific research and technology in the current competitive landscape.",
+    "net_worth_usd": 200000000.0,
+    "net_worth_source": "https://impactwealth.org/david-sacks-net-worth-and-biography-2025-the-journey-of-a-tech-visionary/",
+    "net_worth_updated_at": "2026-03-28T22:05:26.806183",
+    "voice_tone": "Serious and informative",
+    "voice_style": "Factual and data-driven",
+    "voice_delivery_notes": "Pacing is steady with emphasis on key data points",
+    "voice_profile_updated_at": "2026-03-29 03:04:03",
+    "last_seen": "2026-03-29 03:04:03",
+    "last_episode_title": "Anthropic's Generational Run, OpenAI Panics, AI Moats, Meta Loses Lawsuits",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-03-27",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in companies that are driving innovation and can disrupt traditional industries by offering superior products at better prices, while keeping an eye on the competitive dynamics between the US and China in scientific research and technology.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-28T22:05:25.190284",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "David Sachs",
+      "fetched_at": "2026-03-29T03:05:25.190194+00:00",
+      "cliff_notes": "David Sachs is a prominent figure in the tech industry, known for his insights on innovation and technology. He has been involved in the Trump administration, where he has emphasized the importance of scientific research and technology in the current competitive landscape. Sachs' career has been marked by his focus on the intersection of technology, policy, and business. His work in the Trump administration highlights his commitment to leveraging technology and scientific research to drive economic growth and maintain a competitive edge in the global market.",
+      "derived": {
+        "current_role": "Advisor to the Trump administration",
+        "political_summary": "David Sachs has been involved in the Trump administration, where he has emphasized the importance of scientific research and technology in the current competitive landscape."
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "David Sachs is a prominent figure in the tech industry, known for his insights on innovation and technology. He has been involved in the Trump administration, where he has emphasized the importance of scientific research and technology in the current competitive landscape. Sachs' career has been marked by his focus on the intersection of technology, policy, and business.",
+        "His work in the Trump administration highlights his commitment to leveraging technology and scientific research to drive economic growth and maintain a competitive edge in the global market."
+      ],
+      "sections": [
+        {
+          "heading": "Innovation and Technology",
+          "body": "David Sachs is known for his insights on innovation and technology, emphasizing their importance in the current competitive landscape."
+        },
+        {
+          "heading": "Trump Administration",
+          "body": "Sachs has been involved in the Trump administration, where he has focused on the role of scientific research and technology in driving economic growth and maintaining a competitive edge."
+        },
+        {
+          "heading": "Economic Growth",
+          "body": "Sachs' work in the Trump administration highlights his commitment to leveraging technology and scientific research to drive economic growth."
+        }
+      ]
+    },
+    "net_worth": "$200.0M"
+  },
+  {
+    "id": 132,
+    "name": "David Freiberg",
+    "slug": "david-freiberg",
+    "bio": "David Freiberg is a guest with a background in science, known for his insights on the impact of technological advancements on various industries. He has been a contributor to discussions on technological disruption and its implications for society and the economy.",
+    "known_for": "His expertise in understanding how technology shapes industry trends and his contributions to public discourse on technological disruption.",
+    "net_worth_usd": 1200000000.0,
+    "net_worth_source": "https://coinpaper.com/6251/david-friedberg-net-worth-insights-into-his-financial-success",
+    "net_worth_updated_at": "2026-03-28T22:05:34.408854",
+    "voice_tone": "Casual and engaging",
+    "voice_style": "Anecdotal with a focus on real-world examples",
+    "voice_delivery_notes": "Speaks with a relaxed pace, emphasizing key points with a slight increase in volume",
+    "voice_profile_updated_at": "2026-03-29 03:04:03",
+    "last_seen": "2026-03-29 03:04:03",
+    "last_episode_title": "Anthropic's Generational Run, OpenAI Panics, AI Moats, Meta Loses Lawsuits",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-03-27",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in companies that are driving innovation and can disrupt traditional industries by offering superior products at better prices, while keeping an eye on the competitive dynamics between the US and China in scientific research and technology.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-28T22:05:33.382582",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "David Freiberg",
+      "fetched_at": "2026-03-29T03:05:33.382494+00:00",
+      "cliff_notes": "David Freiberg is recognized for his contributions to the dialogue on technology's influence on various sectors. His background in science provides a solid foundation for his analysis of technological disruption. Freiberg's insights are particularly valuable as they help investors and industry leaders understand the potential shifts and opportunities created by rapid technological advancements. His work is significant in the context of policy-making and strategic planning, as it offers a perspective on how to navigate and leverage the changes brought about by new technologies.",
+      "derived": {},
+      "infobox": {
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "David Freiberg is recognized for his contributions to the dialogue on technology's influence on various sectors. His background in science provides a solid foundation for his analysis of technological disruption. Freiberg's insights are particularly valuable as they help investors and industry leaders understand the potential shifts and opportunities created by rapid technological advancements.",
+        "His work is significant in the context of policy-making and strategic planning, as it offers a perspective on how to navigate and leverage the changes brought about by new technologies."
+      ],
+      "sections": [
+        {
+          "heading": "Technological Impact",
+          "body": "Freiberg discusses the profound effects of technology on different industries, emphasizing how it can disrupt traditional business models and create new opportunities."
+        },
+        {
+          "heading": "Industry Trends",
+          "body": "He provides analysis on emerging industry trends influenced by technological advancements, helping businesses anticipate and adapt to changes."
+        },
+        {
+          "heading": "Public Discourse",
+          "body": "Freiberg's participation in public discourse on technology's role in society ensures that a variety of perspectives are considered in shaping policy and business strategies."
+        }
+      ]
+    },
+    "net_worth": "$1.20B"
+  },
+  {
+    "id": 128,
+    "name": "Christian Catalini",
+    "slug": "christian-catalini",
+    "bio": "Christian Catalini is a co-founder of LightSpark and founder of the MIT Crypto Economics Lab. He is known for his work in the intersection of technology, economics, and entrepreneurship, particularly in the field of AI and blockchain.",
+    "known_for": "Authoring the influential paper 'Some Simple Economics of AI' and his contributions to the understanding of crypto economics.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Optimistic and analytical.",
+    "voice_style": "Explanatory and speculative, discussing the future impacts of AI.",
+    "voice_delivery_notes": "Paced with emphasis on the transformative potential of AI.",
+    "voice_profile_updated_at": "2026-03-29 03:02:55",
+    "last_seen": "2026-03-29 03:02:55",
+    "last_episode_title": "the a16z show 20260319 1e92a9dd 78da 4417 b1ce 4b4318d1",
+    "last_podcast_name": "Unknown Podcast",
+    "last_episode_date": "2026-03-28",
+    "mention_score": 2,
+    "mention_score_decayed": 2,
+    "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-28T22:05:42.395070",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Christian Catalini",
+      "fetched_at": "2026-03-29T03:05:42.394968+00:00",
+      "cliff_notes": "Christian Catalini has made significant contributions to the fields of technology, economics, and entrepreneurship. As the co-founder of LightSpark and founder of the MIT Crypto Economics Lab, he has been at the forefront of exploring the economic implications of AI and blockchain technology. His paper 'Some Simple Economics of AI' has been influential in shaping discussions around the economic impact of AI on work, startups, and ambition. Catalini's work is crucial for understanding how new technologies can disrupt traditional economic models and create new opportunities for innovation and growth.",
+      "derived": {
+        "current_role": "Founder, MIT Crypto Economics Lab",
+        "books_or_works": "Some Simple Economics of AI"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Christian Catalini has made significant contributions to the fields of technology, economics, and entrepreneurship. As the co-founder of LightSpark and founder of the MIT Crypto Economics Lab, he has been at the forefront of exploring the economic implications of AI and blockchain technology. His paper 'Some Simple Economics of AI' has been influential in shaping discussions around the economic impact of AI on work, startups, and ambition.",
+        "Catalini's work is crucial for understanding how new technologies can disrupt traditional economic models and create new opportunities for innovation and growth."
+      ],
+      "sections": [
+        {
+          "heading": "AI Economics",
+          "body": "Catalini's work on AI economics explores how artificial intelligence can transform economic models and create new opportunities for innovation."
+        },
+        {
+          "heading": "Crypto Economics",
+          "body": "As the founder of the MIT Crypto Economics Lab, Catalini has been instrumental in understanding the economic implications of blockchain technology."
+        },
+        {
+          "heading": "Entrepreneurship",
+          "body": "Catalini's experience as an entrepreneur, particularly as co-founder of LightSpark, provides him with unique insights into the challenges and opportunities faced by startups in the tech industry."
+        },
+        {
+          "heading": "Future of Work",
+          "body": "Catalini's research suggests that AI could give individuals the leverage of a team, fundamentally changing the nature of work and the potential for one-person billion-dollar startups."
+        }
+      ]
+    }
+  },
+  {
+    "id": 129,
+    "name": "Eddie Lazarin",
+    "slug": "eddie-lazarin",
+    "bio": "Eddie Lazarin is a prominent figure in the tech industry, known for his insights on AI's role in shaping the future economy. He has been influential in discussions about the potential for AI to democratize access to resources and enable individuals to leverage the power of technology to create significant value.",
+    "known_for": "His contributions to the conversation about AI's impact on the future of work, startups, and economic empowerment.",
+    "net_worth_usd": 600000000000.0,
+    "net_worth_source": "https://www.forbes.com/sites/phoebeliu/2025/03/31/ai-boom-billionaires-these-tech-moguls-new-joined-billionaires-list-2025/",
+    "net_worth_updated_at": "2026-03-28T22:05:51.815831",
+    "voice_tone": "Inquisitive and engaging.",
+    "voice_style": "Facilitative, guiding the conversation through different aspects of AI.",
+    "voice_delivery_notes": "Evenly paced with a focus on drawing out detailed responses.",
+    "voice_profile_updated_at": "2026-03-29 03:02:55",
+    "last_seen": "2026-03-29 03:02:55",
+    "last_episode_title": "the a16z show 20260319 1e92a9dd 78da 4417 b1ce 4b4318d1",
+    "last_podcast_name": "Unknown Podcast",
+    "last_episode_date": "2026-03-28",
+    "mention_score": 2,
+    "mention_score_decayed": 2,
+    "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-28T22:05:50.938326",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Eddie Lazarin",
+      "fetched_at": "2026-03-29T03:05:50.938237+00:00",
+      "cliff_notes": "Eddie Lazarin is recognized for his contributions to the discourse on artificial intelligence and its implications for the economy and society. As a co-founder of LightSpark, Lazarin has been at the forefront of exploring how AI can be harnessed to empower individuals and reshape traditional business models. His work emphasizes the potential for AI to provide individuals with the leverage of a team, thereby democratizing access to resources and opportunities. Lazarin's insights into the new surplus of AI and its potential to fuel the next generation of billion-dollar startups have made him a sought-after voice in tech circles.",
+      "derived": {
+        "current_role": "Co-founder of LightSpark"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Eddie Lazarin is recognized for his contributions to the discourse on artificial intelligence and its implications for the economy and society. As a co-founder of LightSpark, Lazarin has been at the forefront of exploring how AI can be harnessed to empower individuals and reshape traditional business models. His work emphasizes the potential for AI to provide individuals with the leverage of a team, thereby democratizing access to resources and opportunities.",
+        "Lazarin's insights into the new surplus of AI and its potential to fuel the next generation of billion-dollar startups have made him a sought-after voice in tech circles."
+      ],
+      "sections": [
+        {
+          "heading": "AI and Economic Empowerment",
+          "body": "Eddie Lazarin discusses how AI can provide individuals with the leverage of a team, potentially enabling anyone to start a billion-dollar startup with minimal resources."
+        },
+        {
+          "heading": "Future of Work",
+          "body": "Lazarin explores the implications of AI on the future of work, suggesting that traditional apprenticeship models may be replaced by new forms of work facilitated by AI."
+        },
+        {
+          "heading": "Democratization of Resources",
+          "body": "Lazarin emphasizes the potential for AI to democratize access to computing power and other resources, allowing individuals to compete on a level playing field with larger entities."
+        }
+      ]
+    },
+    "net_worth": "$600.00B"
+  },
+  {
+    "id": 98,
+    "name": "Rory Johnston",
+    "slug": "rory-johnston",
+    "bio": "Roy Johnson is one of the best independent oil and energy analysts at Commodity Context.",
+    "known_for": "Fundamental analysis of oil and energy markets, particularly during crises.",
+    "net_worth_usd": 200.0,
+    "net_worth_source": "https://www.bloomberg.com/news/articles/2026-03-10/rory-johnston-on-how-oil-could-surge-to-over-200-a-barrel",
+    "net_worth_updated_at": "2026-03-28T22:05:57.557236",
+    "voice_tone": "Matter-of-fact and concerned",
+    "voice_style": "Analytical and data-driven",
+    "voice_delivery_notes": "Paced, with emphasis on key data points and potential scenarios",
+    "voice_profile_updated_at": "2026-03-29 03:02:43",
+    "last_seen": "2026-03-29 03:02:43",
+    "last_episode_title": "EWWMN9153105374",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-03-15",
+    "mention_score": 3,
+    "mention_score_decayed": 3,
+    "last_main_idea": "The ongoing geopolitical crisis in the Middle East, particularly the situation around the Strait of Hormuz, presents a significant risk to global oil supply and prices, potentially leading to a sustained increase in oil prices.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-20T04:36:30.218908",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Rory Johnston",
+      "fetched_at": "2026-03-20T09:36:30.218739+00:00",
+      "cliff_notes": "Rory Johnston is a prominent figure in the field of energy market analysis, having founded Commodity Context, a company dedicated to providing in-depth analysis of commodity markets. His work is particularly relevant to investors and financial professionals who need to understand the intricacies of energy markets and their broader implications on the global economy. Johnston's expertise extends to commodities and macroeconomics, making him a valuable resource for those navigating the complexities of financial markets. His insights are regularly featured in discussions and analyses that aim to predict market trends and inform investment strategies.",
+      "derived": {
+        "current_role": "Founder, Commodity Context"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Rory Johnston is a prominent figure in the field of energy market analysis, having founded Commodity Context, a company dedicated to providing in-depth analysis of commodity markets. His work is particularly relevant to investors and financial professionals who need to understand the intricacies of energy markets and their broader implications on the global economy.",
+        "Johnston's expertise extends to commodities and macroeconomics, making him a valuable resource for those navigating the complexities of financial markets. His insights are regularly featured in discussions and analyses that aim to predict market trends and inform investment strategies."
+      ],
+      "sections": [
+        {
+          "heading": "Energy Market Analysis",
+          "body": "Rory Johnston is well-known for his detailed analysis of energy markets, providing investors with critical insights into market dynamics and trends."
+        },
+        {
+          "heading": "Macroeconomic Trends",
+          "body": "Johnston's work often intersects with macroeconomic trends, offering a unique perspective on how energy markets influence and are influenced by broader economic factors."
+        },
+        {
+          "heading": "Investment Strategy",
+          "body": "His expertise is highly valued by investors looking to make informed decisions in a volatile market, particularly in the context of commodities and energy."
+        }
+      ]
+    },
+    "net_worth": "$200"
+  },
+  {
+    "id": 94,
+    "name": "Carson Block",
+    "slug": "carson-block",
+    "bio": "Founder of Muddy Waters Capital, a leading activist short seller hedge fund.",
+    "known_for": "Specializing in activist short selling with deep research.",
+    "net_worth_usd": 200000000.0,
+    "net_worth_source": "https://www.publicfigurenetworth.com/carson-block-net-worth/",
+    "net_worth_updated_at": "2026-03-20T04:42:12.912511",
+    "voice_tone": "Confident and experienced.",
+    "voice_style": "Direct and to-the-point, with a focus on identifying market opportunities and risks.",
+    "voice_delivery_notes": "Paced with emphasis on key investment insights and market analysis.",
+    "voice_profile_updated_at": "2026-03-29 03:02:33",
+    "last_seen": "2026-03-29 03:02:33",
+    "last_episode_title": "Technical Analysis Deep Dive with Milton Berg - February 2026 Market Signals",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-02-15",
+    "mention_score": 2,
+    "mention_score_decayed": 2,
+    "last_main_idea": "Invest in sectors with fertile ground for short selling, such as AI and tech, and under-allocated areas like junior mining, while combining long and short strategies for potential alpha.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-20T04:42:09.376490",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Carson Block",
+      "fetched_at": "2026-03-20T09:42:09.376380+00:00",
+      "cliff_notes": "Carson Block is an American investor and the founder of Muddy Waters Capital, an investment firm known for its activist short selling approach. Block's career in finance began after he graduated from law school and moved to China, where he worked as an attorney and later in private equity. His experiences in China, particularly witnessing corporate fraud, inspired him to start Muddy Waters Research in 2010, which would later become Muddy Waters Capital. The firm is renowned for its deep research into companies, often uncovering fraudulent practices or overpromised business models, leading to significant market impact when they release their findings. Block's work has been influential in the tech and finance sectors, as his exposes often lead to substantial stock price movements and regulatory scrutiny.",
+      "derived": {
+        "current_role": "Founder of Muddy Waters Capital",
+        "education": "Bachelor's degree in International Relations from Southern Methodist University; Juris Doctor from the University of Chicago Law School"
+      },
+      "infobox": {
+        "Born": "1980",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Carson Block is an American investor and the founder of Muddy Waters Capital, an investment firm known for its activist short selling approach. Block's career in finance began after he graduated from law school and moved to China, where he worked as an attorney and later in private equity. His experiences in China, particularly witnessing corporate fraud, inspired him to start Muddy Waters Research in 2010, which would later become Muddy Waters Capital.",
+        "The firm is renowned for its deep research into companies, often uncovering fraudulent practices or overpromised business models, leading to significant market impact when they release their findings. Block's work has been influential in the tech and finance sectors, as his exposes often lead to substantial stock price movements and regulatory scrutiny."
+      ],
+      "sections": [
+        {
+          "heading": "Activist Short Selling",
+          "body": "Carson Block is recognized for his activist short selling approach, where he not only bets against companies but also actively researches and exposes fraudulent practices or overpromised business models."
+        },
+        {
+          "heading": "Muddy Waters Capital",
+          "body": "Muddy Waters Capital, founded by Block, is a hedge fund that specializes in short selling and has been influential in exposing corporate frauds, particularly in the tech sector."
+        },
+        {
+          "heading": "Market Impact",
+          "body": "Block's research and activism have had significant market impact, leading to substantial stock price movements and regulatory scrutiny for the companies targeted by Muddy Waters Capital."
+        },
+        {
+          "heading": "Fraud Exposure",
+          "body": "Carson Block has been instrumental in exposing corporate frauds, particularly in sectors like electric vehicles and green energy, where companies have been known to overpromise on their capabilities."
+        }
+      ]
+    },
+    "net_worth": "$200.0M"
+  },
+  {
+    "id": 127,
+    "name": "Rupert Mitchell",
+    "slug": "rupert-mitchell",
+    "bio": "Rupert Mitchell is an accomplished banker, investor, and analyst with a background in the Ottawa Mobile industry.",
+    "known_for": "Founder of Blind Squirrel Macro, known for his research and insights on macroeconomic trends.",
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-03-28 18:30:57",
+    "last_episode_title": "Stock Market on Shaky Foundations | Blind Squirrel Macro\u2019s Rupert Mitchell on IPO Supply, Oil, and Private Credit",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-03-18",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "The current bull market is built on shaky foundations, and a shift towards a more cautious stance with a focus on security software and data lake control is advised.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
+    "id": 126,
+    "name": "Ada Palmer",
+    "slug": "ada-palmer",
+    "bio": "Ada Palmer is a Renaissance historian, novelist, and composer based at the University of Chicago.",
+    "known_for": "Author of 'Inventing the Renaissance', exploring the economic and cultural factors of the period.",
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": "Informed and analytical",
+    "voice_style": "Detailed and historical narrative",
+    "voice_delivery_notes": "Pacing is steady with emphasis on key historical points",
+    "voice_profile_updated_at": "2026-03-28 18:25:51",
+    "last_seen": "2026-03-28 18:25:51",
+    "last_episode_title": "Inventing the Renaissance: Economic and Technological Insights",
+    "last_podcast_name": "Dwarkesh Podcast",
+    "last_episode_date": "2026-03-06",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "The historical insights from the Italian Renaissance period suggest that technological advancements, such as the printing press, can have a profound impact on society and information distribution, which parallels modern tech revolutions and their investment implications.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
   {
     "id": 125,
     "name": "Lupin Ramon",
@@ -10510,7 +12097,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Investors should consider the geopolitical risks and shifts in global power dynamics when constructing their portfolios, with a focus on sectors that may be affected by rising energy prices and inflation.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-26T14:15:41.620354",
@@ -10575,7 +12162,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Investors should consider the geopolitical risks and shifts in global power dynamics when constructing their portfolios, with a focus on sectors that may be affected by rising energy prices and inflation.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-26T14:15:50.429943",
@@ -10631,7 +12218,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Investing in cybersecurity solutions that can secure networks on top of compromised physical infrastructure is crucial for national security and economic prosperity.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-26T11:16:44.078788",
@@ -10688,7 +12275,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Investing in cybersecurity solutions that can secure networks on top of compromised physical infrastructure is crucial for national security and economic prosperity.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-26T11:16:52.472386",
@@ -10745,7 +12332,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "The market is experiencing underlying stress that is not reflected in headline indices, suggesting a need for a more nuanced approach to investment decisions.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-26T08:21:26.552392",
@@ -10802,7 +12389,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Investing in advanced manufacturing and workforce development for submarine production could lead to increased efficiency and meet the growing demand for naval capabilities.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-26T04:20:54.928623",
@@ -10859,7 +12446,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Investing in advanced manufacturing and workforce development for submarine production could lead to increased efficiency and meet the growing demand for naval capabilities.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-26T04:21:24.879895",
@@ -10896,592 +12483,6 @@ const dashboardData = {
         }
       ]
     }
-  },
-  {
-    "id": 113,
-    "name": "Brian Johnson",
-    "slug": "brian-johnson",
-    "bio": "Brian Johnson is a longevity enthusiast and experimenter with psychedelics for health and longevity. He has dedicated his work to exploring scientific evidence for interventions that promote health and longevity.",
-    "known_for": "His work in exploring scientific evidence for interventions that promote health and longevity, particularly through the use of psychedelics.",
-    "net_worth_usd": 2000000.0,
-    "net_worth_source": "https://mynucleus.com/blog/bryan-johnson-net-worth",
-    "net_worth_updated_at": "2026-03-26T04:22:43.169270",
-    "voice_tone": "Calm and reflective, with a sense of awe and profundity.",
-    "voice_style": "Johnson speaks with a narrative style, sharing personal experiences and drawing on scientific evidence.",
-    "voice_delivery_notes": "Pacing is thoughtful, with emphasis on the transformative aspects of his psychedelic experiences.",
-    "voice_profile_updated_at": "2026-03-26 09:17:24",
-    "last_seen": "2026-03-26 09:17:24",
-    "last_episode_title": "Exploring Psychedelics for Longevity and Personal Growth",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-03-26",
-    "mention_score": 1,
-    "mention_score_decayed": 0.98,
-    "last_main_idea": "Investment in psychedelics for longevity and personal growth is based on the potential for these substances to induce significant changes in consciousness and promote personal rejuvenation.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-26T04:22:22.498838",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Brian Johnson",
-      "fetched_at": "2026-03-26T09:22:22.498676+00:00",
-      "cliff_notes": "Brian Johnson is a longevity enthusiast and experimenter with psychedelics for health and longevity. He has dedicated his work to exploring scientific evidence for interventions that promote health and longevity. Johnson started his project five years ago with the approach of going through all the scientific evidence ever published on health and longevity to find the interventions with the best evidence for effect size. His work has led him to experiment with psychedelics, such as MEO DMT, as part of his longevity experiments. Johnson's work is of interest to investors and tech listeners due to its potential implications for health and longevity in the tech industry.",
-      "derived": {
-        "current_role": "Longevity Enthusiast"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Brian Johnson is a longevity enthusiast and experimenter with psychedelics for health and longevity. He has dedicated his work to exploring scientific evidence for interventions that promote health and longevity. Johnson started his project five years ago with the approach of going through all the scientific evidence ever published on health and longevity to find the interventions with the best evidence for effect size.",
-        "His work has led him to experiment with psychedelics, such as MEO DMT, as part of his longevity experiments. Johnson's work is of interest to investors and tech listeners due to its potential implications for health and longevity in the tech industry."
-      ],
-      "sections": [
-        {
-          "heading": "Longevity Experiments",
-          "body": "Brian Johnson has been conducting longevity experiments, including the use of psychedelics like MEO DMT, to explore interventions that promote health and longevity."
-        },
-        {
-          "heading": "Scientific Evidence",
-          "body": "Johnson's approach to longevity involves going through all the scientific evidence ever published on health and longevity to find the interventions with the best evidence for effect size."
-        },
-        {
-          "heading": "Psychedelics for Health",
-          "body": "Johnson has experimented with psychedelics, such as MEO DMT, as part of his longevity experiments, exploring their potential benefits for health and longevity."
-        }
-      ]
-    },
-    "net_worth": "$2.0M"
-  },
-  {
-    "id": 110,
-    "name": "Adam Warmouth",
-    "slug": "adam-warmouth",
-    "bio": "Adam Warmouth is the Founder and CEO of Chariot Defense, a company that specializes in developing next-generation power systems for military operations. His focus is on creating innovative power solutions that enhance the capabilities of soldiers on the battlefield, especially in the context of an increasingly electronic warfare environment.",
-    "known_for": "Developing tactical power solutions for the modern battlefield, enhancing soldier capabilities and stealth.",
-    "net_worth_usd": 1200000000.0,
-    "net_worth_source": "https://explore.st-aug.edu/exp/adam-22s-net-worth-shocked-the-business-world-the-untold-secrets-behind-his-billionairestyle-wealth",
-    "net_worth_updated_at": "2026-03-25T04:10:45.707150",
-    "voice_tone": "Informed and solution-focused",
-    "voice_style": "Practical and results-oriented",
-    "voice_delivery_notes": "Clear and concise with a focus on the impact of their solutions",
-    "voice_profile_updated_at": "2026-03-25 09:10:12",
-    "last_seen": "2026-03-25 09:10:12",
-    "last_episode_title": "The Tactical Power Layer for Modern Warfare",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-03-24",
-    "mention_score": 1,
-    "mention_score_decayed": 0.95,
-    "last_main_idea": "Investing in companies that can provide innovative power solutions for the modern, electronic battlefield can offer significant opportunities as military forces worldwide seek to upgrade their capabilities.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-25T04:10:43.350646",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Adam Warmouth",
-      "fetched_at": "2026-03-25T09:10:43.350416+00:00",
-      "cliff_notes": "Adam Warmouth is recognized for his work in the field of military power solutions, particularly as the founder and CEO of Chariot Defense. His company is at the forefront of developing next-generation power systems designed to support soldiers in the field, focusing on the increasing electronic demands of modern warfare. Warmouth's innovations aim to provide soldiers with the necessary power to operate advanced equipment without compromising their position or safety. His work is crucial in addressing the power gap in military operations, ensuring that soldiers have the tools they need to succeed in a technologically advanced battlefield.",
-      "derived": {
-        "current_role": "Founder and CEO of Chariot Defense"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Adam Warmouth is recognized for his work in the field of military power solutions, particularly as the founder and CEO of Chariot Defense. His company is at the forefront of developing next-generation power systems designed to support soldiers in the field, focusing on the increasing electronic demands of modern warfare.",
-        "Warmouth's innovations aim to provide soldiers with the necessary power to operate advanced equipment without compromising their position or safety. His work is crucial in addressing the power gap in military operations, ensuring that soldiers have the tools they need to succeed in a technologically advanced battlefield."
-      ],
-      "sections": [
-        {
-          "heading": "Innovative Power Solutions",
-          "body": "Adam Warmouth is dedicated to creating power solutions that are both efficient and effective for military use, focusing on reducing the tactical signature and increasing the stealth capabilities of soldiers in the field."
-        },
-        {
-          "heading": "Electronic Battlefield",
-          "body": "Warmouth's work is crucial in the shift towards an electronic battlefield, where the demand for power is increasing and the need for stealth is paramount. His solutions aim to support soldiers with the power they need without compromising their safety."
-        },
-        {
-          "heading": "Tactical Power Layer",
-          "body": "Chariot Defense, under Warmouth's leadership, is building a tactical power layer that supports robotic workers in the field. This layer is designed to provide the necessary power for active operations while maintaining a low tactical signature."
-        }
-      ]
-    },
-    "net_worth": "$1.20B"
-  },
-  {
-    "id": 111,
-    "name": "Alex Miller",
-    "slug": "alex-miller",
-    "bio": "Alex Miller is the Chief Technology Officer (CTO) of the US Army, where he is instrumental in driving the adoption of new technologies in military operations. His focus is on enhancing soldier capabilities and efficiency through technological innovation, with a particular emphasis on power management and electronic battlefield strategies.",
-    "known_for": "Pioneering the integration of advanced technology to modernize military operations and improve soldier effectiveness.",
-    "net_worth_usd": 3.61,
-    "net_worth_source": "https://gb.youtubers.me/alex-miller-0ddce971-62a9-44a1-8903-ac7f890f556b/youtube-estimated-earnings",
-    "net_worth_updated_at": "2026-03-25T04:11:02.194518",
-    "voice_tone": "Authoritative and strategic",
-    "voice_style": "Direct and focused on outcomes",
-    "voice_delivery_notes": "Confident and assertive, emphasizing the need for change",
-    "voice_profile_updated_at": "2026-03-25 09:10:12",
-    "last_seen": "2026-03-25 09:10:12",
-    "last_episode_title": "The Tactical Power Layer for Modern Warfare",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-03-24",
-    "mention_score": 1,
-    "mention_score_decayed": 0.95,
-    "last_main_idea": "Investing in companies that can provide innovative power solutions for the modern, electronic battlefield can offer significant opportunities as military forces worldwide seek to upgrade their capabilities.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-25T04:10:59.120340",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Alex Miller",
-      "fetched_at": "2026-03-25T09:10:59.120234+00:00",
-      "cliff_notes": "Alex Miller serves as the Chief Technology Officer for the US Army, a role that places him at the forefront of military technological advancement. His career has been marked by a commitment to leveraging cutting-edge technology to enhance the capabilities of soldiers in the field. Miller's work is particularly focused on the development and implementation of power solutions that can support the increasing electronic demands of modern warfare. His efforts aim to reduce the tactical signature of military operations, thereby decreasing the risk of detection and targeting by adversaries. Miller's contributions are significant in shaping the future of military technology, emphasizing stealth, efficiency, and the empowerment of individual soldiers through technological advancements.",
-      "derived": {
-        "current_role": "CTO of the US Army"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Alex Miller serves as the Chief Technology Officer for the US Army, a role that places him at the forefront of military technological advancement. His career has been marked by a commitment to leveraging cutting-edge technology to enhance the capabilities of soldiers in the field. Miller's work is particularly focused on the development and implementation of power solutions that can support the increasing electronic demands of modern warfare.",
-        "His efforts aim to reduce the tactical signature of military operations, thereby decreasing the risk of detection and targeting by adversaries. Miller's contributions are significant in shaping the future of military technology, emphasizing stealth, efficiency, and the empowerment of individual soldiers through technological advancements."
-      ],
-      "sections": [
-        {
-          "heading": "Military Technology",
-          "body": "Alex Miller is dedicated to the advancement of military technology, focusing on how it can be used to improve soldier performance and safety."
-        },
-        {
-          "heading": "Power Management",
-          "body": "Miller emphasizes the importance of power management in military operations, working to create solutions that provide the necessary power without compromising operational secrecy."
-        },
-        {
-          "heading": "Electronic Battlefield",
-          "body": "He is a proponent of moving towards an electronic battlefield, where technology plays a central role in strategic operations and tactical advantages."
-        },
-        {
-          "heading": "Soldier Empowerment",
-          "body": "A key aspect of Miller's work is the empowerment of soldiers through technology, ensuring they have the tools they need to operate effectively in various conditions."
-        }
-      ]
-    },
-    "net_worth": "$4"
-  },
-  {
-    "id": 109,
-    "name": "Eric Schmidt",
-    "slug": "eric-schmidt",
-    "bio": "Eric Schmidt is a prominent figure in the technology industry, known for his leadership at Google and contributions to the tech sector. He served as CEO of Google and later as Chairman of Alphabet Inc., guiding the company through significant growth and innovation.",
-    "known_for": "His influential leadership at Google and shaping the direction of Alphabet Inc., impacting the global tech landscape.",
-    "net_worth_usd": 12900000000.0,
-    "net_worth_source": "https://www.wikidata.org/wiki/Q92747",
-    "net_worth_updated_at": "2026-03-25T04:11:28.701167",
-    "voice_tone": "Inquisitive and experienced.",
-    "voice_style": "Analytical with a focus on the big picture.",
-    "voice_delivery_notes": "Speaks with authority and a measured pace.",
-    "voice_profile_updated_at": "2026-03-25 09:07:25",
-    "last_seen": "2026-03-25 09:07:25",
-    "last_episode_title": "The Future of AI and its Impact on Society and Investment",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-03-24",
-    "mention_score": 1,
-    "mention_score_decayed": 0.93,
-    "last_main_idea": "Invest in AI and robotics sectors as they are poised for significant growth and disruption, with a focus on companies that align with human values and contribute to abundance.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-25T04:11:26.668471",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Eric Schmidt",
-      "fetched_at": "2026-03-25T09:11:26.668361+00:00",
-      "cliff_notes": "Eric Schmidt began his career in technology, moving through various roles before becoming the CEO of Novell. He later joined Google as its CEO, where he played a pivotal role in the company's rapid growth and expansion. Under his leadership, Google became a dominant force in the tech industry. After stepping down as CEO, Schmidt served as the Executive Chairman of Google, and later as Chairman of Alphabet Inc., the parent company of Google. He has also held a board seat at Apple Inc. and has been involved in various philanthropic endeavors. His insights into technology and its impact on society are highly regarded, and he continues to influence the tech world through his advisory roles and public commentary.",
-      "derived": {
-        "former_positions": "CEO of Google; Chairman of Alphabet Inc.; Board member of Apple Inc.; CEO of Novell",
-        "boards": "Alphabet Inc.; Apple Inc.",
-        "education": "Bachelor's degree in Electrical Engineering and Computer Science from Princeton University; Master's degree and Ph.D. in Computer Science from the University of California, Berkeley",
-        "books_or_works": "The New Digital Age: Reshaping the Future of People, Nations and Business (co-authored with Jared Cohen)",
-        "teaching_summary": "Guest lectures at Stanford University"
-      },
-      "infobox": {
-        "Born": "1955",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Eric Schmidt began his career in technology, moving through various roles before becoming the CEO of Novell. He later joined Google as its CEO, where he played a pivotal role in the company's rapid growth and expansion. Under his leadership, Google became a dominant force in the tech industry. After stepping down as CEO, Schmidt served as the Executive Chairman of Google, and later as Chairman of Alphabet Inc., the parent company of Google.",
-        "He has also held a board seat at Apple Inc. and has been involved in various philanthropic endeavors. His insights into technology and its impact on society are highly regarded, and he continues to influence the tech world through his advisory roles and public commentary."
-      ],
-      "sections": [
-        {
-          "heading": "Leadership at Google",
-          "body": "Eric Schmidt served as the CEO of Google from 2001 to 2011, overseeing the company's transformation into a global technology giant."
-        },
-        {
-          "heading": "Chairman of Alphabet Inc.",
-          "body": "Schmidt took on the role of Executive Chairman at Google following his tenure as CEO, and later became Chairman of Alphabet Inc., the parent company of Google."
-        },
-        {
-          "heading": "Contributions to Tech",
-          "body": "His leadership and strategic vision have been instrumental in shaping Google's technological advancements and its impact on the industry."
-        },
-        {
-          "heading": "Global Competition",
-          "body": "Schmidt has expressed concerns about global competition, particularly with China, and the importance of maintaining a competitive edge in key technological sectors."
-        }
-      ]
-    },
-    "net_worth": "$12.90B"
-  },
-  {
-    "id": 108,
-    "name": "Bridget Memplar",
-    "slug": "bridget-memplar",
-    "bio": "Bridget Memplar is the co-founder and CEO of Northwood, a company focused on building systems that connect satellites back to Earth. Her unconventional path into the space industry has led her to become a key player in addressing the overlooked bottleneck of ground infrastructure in space missions.",
-    "known_for": "Her leadership at Northwood and the development of systems that enable satellite connectivity back to Earth.",
-    "net_worth_usd": 50000000.0,
-    "net_worth_source": "https://www.celebritynetworth.com/richest-celebrities/actors/bridgit-mendler-net-worth/",
-    "net_worth_updated_at": "2026-03-24T04:43:12.487260",
-    "voice_tone": "Confident and determined.",
-    "voice_style": "Bridget speaks with a focus on innovation and the potential of space technology.",
-    "voice_delivery_notes": "Clear and concise, with an emphasis on the importance of ground infrastructure in space missions.",
-    "voice_profile_updated_at": "2026-03-24 09:39:24",
-    "last_seen": "2026-03-24 09:39:24",
-    "last_episode_title": "Ground Infrastructure: The Overlooked Bottleneck in the Space Economy",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-03-23",
-    "mention_score": 1,
-    "mention_score_decayed": 0.93,
-    "last_main_idea": "Investing in ground infrastructure for space can unlock the next wave of innovation, making space missions more useful and efficient.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-24T04:43:11.153707",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Bridget Memplar",
-      "fetched_at": "2026-03-24T09:43:11.153311+00:00",
-      "cliff_notes": "Bridget Memplar embarked on an unconventional path into the space industry, eventually becoming the co-founder and CEO of Northwood. Her company is dedicated to building systems that connect satellites back to Earth, a critical yet often overlooked aspect of space missions. Memplar's leadership at Northwood is focused on addressing the ground infrastructure bottleneck, which is essential for making space missions useful and effective. Her work is pivotal in the space economy, as it aims to provide a modern, vertically integrated approach to satellite connectivity, potentially unlocking the next wave of innovation in space.",
-      "derived": {
-        "current_role": "Co-founder and CEO of Northwood"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Bridget Memplar embarked on an unconventional path into the space industry, eventually becoming the co-founder and CEO of Northwood. Her company is dedicated to building systems that connect satellites back to Earth, a critical yet often overlooked aspect of space missions. Memplar's leadership at Northwood is focused on addressing the ground infrastructure bottleneck, which is essential for making space missions useful and effective.",
-        "Her work is pivotal in the space economy, as it aims to provide a modern, vertically integrated approach to satellite connectivity, potentially unlocking the next wave of innovation in space."
-      ],
-      "sections": [
-        {
-          "heading": "Northwood's Mission",
-          "body": "Northwood, under Memplar's leadership, is committed to building the systems that connect satellites back to Earth, which is crucial for the success of space missions."
-        },
-        {
-          "heading": "Ground Infrastructure",
-          "body": "Bridget Memplar has identified ground infrastructure as a significant bottleneck in the space economy and is working to modernize it through Northwood's innovative solutions."
-        },
-        {
-          "heading": "Innovation in Space",
-          "body": "Memplar's work at Northwood is aimed at not just incremental improvements but at achieving a categorical outcome in space mission capabilities through enhanced ground connectivity."
-        }
-      ]
-    },
-    "net_worth": "$50.0M"
-  },
-  {
-    "id": 107,
-    "name": "Michael Intrader",
-    "slug": "michael-intrader",
-    "bio": "Michael Intrader is the CEO of Core Weave, a company building infrastructure for hyper-scalers and adapting to the evolving needs of GPU computing. With a background in hedge fund algorithm development and early involvement in the crypto mining space, Intrader has been at the forefront of technological advancements in cloud computing and AI.",
-    "known_for": "Building massive infrastructure for hyper-scalers and being an early entrant in the crypto mining space.",
-    "net_worth_usd": 23.0,
-    "net_worth_source": "https://shadabchow.com/blogs/billionaire/michael-intrator",
-    "net_worth_updated_at": "2026-03-24T04:44:00.170439",
-    "voice_tone": "Confident and informative, with a focus on the company's strategic evolution.",
-    "voice_style": "Direct and factual, providing insights into the company's operations and market positioning.",
-    "voice_delivery_notes": "Paced with emphasis on the company's adaptability and future outlook.",
-    "voice_profile_updated_at": "2026-03-24 09:37:15",
-    "last_seen": "2026-03-24 09:37:15",
-    "last_episode_title": "Interview with Michael Intrader at Nvidia's GTC Conference",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-03-23",
-    "mention_score": 1,
-    "mention_score_decayed": 0.93,
-    "last_main_idea": "Invest in companies that can leverage the evolving landscape of AI and GPU computing, particularly those with the agility to adapt and scale in a rapidly changing market.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-24T04:43:59.032721",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Michael Intrader",
-      "fetched_at": "2026-03-24T09:43:59.032494+00:00",
-      "cliff_notes": "Michael Intrader began his career as an algorithm developer at a hedge fund focused on natural gas. With a significant amount of downtime after developing the algorithms, Intrader ventured into the crypto mining space, becoming an early entrant in the industry. Leveraging his experience in algorithm development and the growing need for GPU computing, Intrader founded Core Weave, a company that builds massive infrastructure for hyper-scalers. Core Weave has been instrumental in adapting to the evolving needs of GPU computing, particularly in the context of AI and cloud computing. Intrader's work at Core Weave has positioned him as a key player in the tech industry, shaping the future of cloud infrastructure and GPU computing.",
-      "derived": {
-        "current_role": "CEO of Core Weave",
-        "former_positions": "Algorithm Developer at Hedge Fund; Early Crypto Miner"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Michael Intrader began his career as an algorithm developer at a hedge fund focused on natural gas. With a significant amount of downtime after developing the algorithms, Intrader ventured into the crypto mining space, becoming an early entrant in the industry. Leveraging his experience in algorithm development and the growing need for GPU computing, Intrader founded Core Weave, a company that builds massive infrastructure for hyper-scalers.",
-        "Core Weave has been instrumental in adapting to the evolving needs of GPU computing, particularly in the context of AI and cloud computing. Intrader's work at Core Weave has positioned him as a key player in the tech industry, shaping the future of cloud infrastructure and GPU computing."
-      ],
-      "sections": [
-        {
-          "heading": "Early Crypto Mining",
-          "body": "Michael Intrader was an early entrant in the crypto mining space, leveraging his background in algorithm development to pioneer advancements in the industry."
-        },
-        {
-          "heading": "GPU Computing",
-          "body": "Intrader's work at Core Weave has been crucial in adapting to the evolving needs of GPU computing, particularly in the context of AI and cloud computing."
-        },
-        {
-          "heading": "Hyper-Scaler Infrastructure",
-          "body": "As CEO of Core Weave, Intrader has been instrumental in building massive infrastructure for hyper-scalers, shaping the future of cloud computing."
-        }
-      ]
-    },
-    "net_worth": "$23"
-  },
-  {
-    "id": 106,
-    "name": "Nadia Martin Wiggen",
-    "slug": "nadia-martin-wiggen",
-    "bio": "Nadia Martin Wiggen is a director at Svellen Capital, a hedge fund with a specialization in commodities and shipping markets. Her expertise is particularly relevant in times of global market fluctuations, such as during the Middle East crisis, where her insights are sought after for understanding market impacts.",
-    "known_for": "Expertise in commodities and shipping markets, especially during times of geopolitical tension.",
-    "net_worth_usd": 750000000.0,
-    "net_worth_source": "https://hedgenordic.com/2023/06/svelland-capital-hires-pareto-analyst/",
-    "net_worth_updated_at": "2026-03-24T04:44:37.173364",
-    "voice_tone": "Analytical and measured.",
-    "voice_style": "Factual and data-driven, with a focus on market reactions and practical implications.",
-    "voice_delivery_notes": "Paced, with emphasis on key market observations and potential outcomes.",
-    "voice_profile_updated_at": "2026-03-24 09:26:22",
-    "last_seen": "2026-03-24 09:26:22",
-    "last_episode_title": "Monetary Matters: Middle East Crisis and Global Market Impact",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-03-23",
-    "mention_score": 1,
-    "mention_score_decayed": 0.93,
-    "last_main_idea": "Svellen Capital sees opportunities in commodities and shipping markets amidst the Middle East crisis, with a focus on the practical implications of geopolitical events on global trade and logistics.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-24T04:44:35.945959",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Nadia Martin Wiggen",
-      "fetched_at": "2026-03-24T09:44:35.945751+00:00",
-      "cliff_notes": "Nadia Martin Wiggen is recognized for her role as a director at Svellen Capital, a hedge fund that focuses on commodities and shipping markets. Her career has been marked by her ability to navigate and analyze the complexities of these markets, especially during times of geopolitical tension. Her insights are highly valued in the investment community, as they provide a lens through which to understand the broader impacts of global events on financial markets. As a specialist in her field, Wiggen's contributions are pivotal in shaping investment strategies and risk assessments in a rapidly changing economic landscape.",
-      "derived": {
-        "current_role": "Director at Svellen Capital"
-      },
-      "infobox": {
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Nadia Martin Wiggen is recognized for her role as a director at Svellen Capital, a hedge fund that focuses on commodities and shipping markets. Her career has been marked by her ability to navigate and analyze the complexities of these markets, especially during times of geopolitical tension. Her insights are highly valued in the investment community, as they provide a lens through which to understand the broader impacts of global events on financial markets.",
-        "As a specialist in her field, Wiggen's contributions are pivotal in shaping investment strategies and risk assessments in a rapidly changing economic landscape."
-      ],
-      "sections": [
-        {
-          "heading": "Commodities Expertise",
-          "body": "Nadia Martin Wiggen is known for her deep understanding of commodities markets, which is crucial for investors looking to understand and capitalize on global market trends."
-        },
-        {
-          "heading": "Shipping Markets",
-          "body": "Her expertise extends to shipping markets, a sector heavily influenced by geopolitical events, where her insights help navigate the complexities of supply chain disruptions."
-        },
-        {
-          "heading": "Geopolitical Impact",
-          "body": "Wiggen's role at Svellen Capital often involves analyzing the impact of geopolitical events, such as the Middle East crisis, on commodities and shipping markets."
-        },
-        {
-          "heading": "Market Analysis",
-          "body": "She provides critical analysis on how major announcements, like those from political leaders, can influence market dynamics in her area of expertise."
-        }
-      ]
-    },
-    "net_worth": "$750.0M"
-  },
-  {
-    "id": 105,
-    "name": "Josh Lindville",
-    "slug": "josh-lindville",
-    "bio": "Josh Lindville is the Vice President of Fertilizer at Stone X, where he specializes in trading fertilizer futures and OTC products. He provides market insights and information to the agricultural industry, with a focus on the impact of global events on fertilizer prices.",
-    "known_for": "His expertise in analyzing the effects of geopolitical events on fertilizer prices and their implications for agriculture and food prices.",
-    "net_worth_usd": 15000000000.0,
-    "net_worth_source": "https://www.linkedin.com/in/joshua-linville-9555a711/",
-    "net_worth_updated_at": "2026-03-25T22:09:09.372188",
-    "voice_tone": "Knowledgeable and concerned about the impact of geopolitical events on fertilizer prices.",
-    "voice_style": "Factual and data-driven, with a focus on the implications for the agriculture industry.",
-    "voice_delivery_notes": "Speaks with a sense of urgency, emphasizing the severity of the situation.",
-    "voice_profile_updated_at": "2026-03-23 09:21:03",
-    "last_seen": "2026-03-23 09:21:03",
-    "last_episode_title": "Monetary Matters with Jack Farley: Impact of Iran War on Fertilizer Prices and Agriculture",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-03-22",
-    "mention_score": 1,
-    "mention_score_decayed": 0.91,
-    "last_main_idea": "The disruption in fertilizer supply due to geopolitical tensions presents an opportunity in agricultural commodities, particularly corn, which is heavily impacted by rising input costs and could see price support from tightened supply.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-23T04:22:03.060297",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Josh Lindville",
-      "fetched_at": "2026-03-23T09:22:03.060082+00:00",
-      "cliff_notes": "Josh Lindville serves as the Vice President of Fertilizer at Stone X, where he is responsible for trading in fertilizer futures and over-the-counter products. His role is pivotal in understanding and communicating the market dynamics of fertilizers, particularly in the context of global events such as the Iran war. Lindville's work is significant as it influences the agricultural sector by providing insights into how geopolitical tensions can affect the availability and pricing of essential fertilizers, which in turn impact crop yields and food prices worldwide.",
-      "derived": {
-        "current_role": "Vice President of Fertilizer at Stone X"
-      },
-      "infobox": {
-        "Industry": "Agriculture"
-      },
-      "lead_paragraphs": [
-        "Josh Lindville serves as the Vice President of Fertilizer at Stone X, where he is responsible for trading in fertilizer futures and over-the-counter products. His role is pivotal in understanding and communicating the market dynamics of fertilizers, particularly in the context of global events such as the Iran war. Lindville's work is significant as it influences the agricultural sector by providing insights into how geopolitical tensions can affect the availability and pricing of essential fertilizers, which in turn impact crop yields and food prices worldwide."
-      ],
-      "sections": [
-        {
-          "heading": "Fertilizer Market Dynamics",
-          "body": "Josh Lindville is known for his analysis of how geopolitical events, such as the Iran war, impact the global supply of nitrogen and phosphate fertilizers, which are critical for crop yields and food production."
-        },
-        {
-          "heading": "Agricultural Impact",
-          "body": "Lindville's insights are valuable for the agricultural industry as they help predict and understand the ripple effects of global events on fertilizer prices, which directly influence farming costs and food supply."
-        },
-        {
-          "heading": "Food Prices",
-          "body": "His expertise extends to the implications of fertilizer market fluctuations on food prices, a critical area of concern for global food security and economic stability."
-        }
-      ]
-    },
-    "net_worth": "$15.00B"
-  },
-  {
-    "id": 104,
-    "name": "Matt Mayhand",
-    "slug": "matt-mayhand",
-    "bio": "Matt Mayhand is a candidate for Governor of California with a background in civic tech and city council experience. He grew up in Watsonville, California, and has a history of working in education and technology sectors.",
-    "known_for": "Focusing on fiscal responsibility and pragmatic policy solutions in his gubernatorial campaign.",
-    "net_worth_usd": 1000000000.0,
-    "net_worth_source": "https://spearswms.com/wealth/matt-mahan/",
-    "net_worth_updated_at": "2026-03-23T04:22:22.883231",
-    "voice_tone": "Frustration with the state's financial mismanagement.",
-    "voice_style": "Calls for accountability and transparency in government spending.",
-    "voice_delivery_notes": "Pacing is steady with emphasis on key points of fiscal responsibility and policy pragmatism.",
-    "voice_profile_updated_at": "2026-03-23 09:18:22",
-    "last_seen": "2026-03-23 09:18:22",
-    "last_episode_title": "California's Spending Woes and the Governor's Race",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-03-23",
-    "mention_score": 1,
-    "mention_score_decayed": 0.91,
-    "last_main_idea": "Invest in innovation and infrastructure to create a smarter grid and incentivize clean energy adoption, while avoiding over-regulation that leads to unintended economic and environmental consequences.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-23T04:22:21.245588",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Matt Mayhand",
-      "fetched_at": "2026-03-23T09:22:21.245480+00:00",
-      "cliff_notes": "Matt Mayhand hails from Watsonville, California, a small farming town known for its strawberries. Coming from a working-class family, his mother was a teacher and his father a letter carrier. Mayhand's educational journey began with a college prep high school and a work study scholarship, which involved a two-hour bus commute each way. After working his way through high school and college, he returned to education as a public school teacher through the Teach for America program. His interest in politics and making a difference led him to the tech sector, where he spent a decade developing civic tech tools aimed at helping people navigate democracy. His pragmatic approach to governance and commitment to fiscal responsibility are central to his campaign for Governor of California.",
-      "derived": {
-        "current_role": "Candidate for Governor of California",
-        "former_positions": "Public School Teacher; Civic Tech Developer",
-        "education": "College Prep High School; Work Study Scholarship",
-        "political_summary": "Matt Mayhand is running for Governor of California, emphasizing fiscal responsibility and pragmatic policy solutions. His campaign is a response to his frustration with the state's spending and diminishing returns.",
-        "teaching_summary": "Public School Teacher"
-      },
-      "infobox": {
-        "Born": "Watsonville, California",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Matt Mayhand hails from Watsonville, California, a small farming town known for its strawberries. Coming from a working-class family, his mother was a teacher and his father a letter carrier. Mayhand's educational journey began with a college prep high school and a work study scholarship, which involved a two-hour bus commute each way.",
-        "After working his way through high school and college, he returned to education as a public school teacher through the Teach for America program. His interest in politics and making a difference led him to the tech sector, where he spent a decade developing civic tech tools aimed at helping people navigate democracy. His pragmatic approach to governance and commitment to fiscal responsibility are central to his campaign for Governor of California."
-      ],
-      "sections": [
-        {
-          "heading": "Education",
-          "body": "Matt Mayhand's educational journey began with a college prep high school and a work study scholarship, which involved a two-hour bus commute each way. He later worked his way through college and became a public school teacher through the Teach for America program."
-        },
-        {
-          "heading": "Civic Tech",
-          "body": "Mayhand spent a decade in the tech sector, building civic tech tools designed to help people navigate their democracy more effectively, reflecting his commitment to making the city and world a better place."
-        },
-        {
-          "heading": "Governor Campaign",
-          "body": "Running for Governor of California, Mayhand emphasizes fiscal responsibility and pragmatic policy solutions, aiming to address the state's spending issues and the diminishing returns on investment."
-        }
-      ]
-    },
-    "net_worth": "$1.00B"
-  },
-  {
-    "id": 103,
-    "name": "Terrence Tau",
-    "slug": "terrence-tau",
-    "bio": "Terrence Tau is an amateur astronomer with a deep interest in the history of astronomy and the application of AI in mathematics. He is known for his insights on the parallels between historical astronomical discoveries and modern AI applications in mathematics.",
-    "known_for": "His expertise in drawing parallels between historical astronomical discoveries and modern AI applications in mathematics.",
-    "net_worth_usd": 3000000.0,
-    "net_worth_source": "https://capitalmaniacs.com/terence-tao-net-worth-a-math-genius/",
-    "net_worth_updated_at": "2026-03-21T04:32:04.978250",
-    "voice_tone": "Inquisitive and informative",
-    "voice_style": "Narrative and explanatory, with a focus on historical context",
-    "voice_delivery_notes": "Speaks with a measured pace, emphasizing key points in the historical narrative",
-    "voice_profile_updated_at": "2026-03-21 09:30:48",
-    "last_seen": "2026-03-21 09:30:48",
-    "last_episode_title": "The Impact of AI on Mathematics and Scientific Discovery",
-    "last_podcast_name": "Dwarkesh Podcast",
-    "last_episode_date": "2026-03-20",
-    "mention_score": 1,
-    "mention_score_decayed": 0.87,
-    "last_main_idea": "The integration of AI into mathematics can accelerate discovery and problem-solving, presenting opportunities for investment in AI technology and its applications in scientific research.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-21T04:32:04.005767",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Terrence Tau",
-      "fetched_at": "2026-03-21T09:32:04.005404+00:00",
-      "cliff_notes": "Terrence Tau is an amateur astronomer with a profound interest in the history of astronomy and its intersection with modern AI applications in mathematics. He has dedicated his time to understanding the evolution of astronomical theories and their relevance to contemporary mathematical AI. Tau's work focuses on the historical context of astronomical discoveries, such as Kepler's laws of planetary motion, and how these can inform and inspire current AI-driven mathematical research. His contributions to the field are significant, as they bridge the gap between historical knowledge and cutting-edge technology, offering a unique perspective on the development of AI in mathematics.",
-      "derived": {},
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Terrence Tau is an amateur astronomer with a profound interest in the history of astronomy and its intersection with modern AI applications in mathematics. He has dedicated his time to understanding the evolution of astronomical theories and their relevance to contemporary mathematical AI. Tau's work focuses on the historical context of astronomical discoveries, such as Kepler's laws of planetary motion, and how these can inform and inspire current AI-driven mathematical research.",
-        "His contributions to the field are significant, as they bridge the gap between historical knowledge and cutting-edge technology, offering a unique perspective on the development of AI in mathematics."
-      ],
-      "sections": [
-        {
-          "heading": "Historical Astronomy",
-          "body": "Terrence Tau is deeply interested in the history of astronomy, particularly the contributions of early astronomers like Copernicus and Kepler."
-        },
-        {
-          "heading": "AI in Mathematics",
-          "body": "Tau explores the application of AI in mathematics, drawing parallels with historical astronomical discoveries to understand modern AI's potential."
-        },
-        {
-          "heading": "Kepler's Laws",
-          "body": "He is particularly fascinated by Kepler's laws of planetary motion and how they can be used as a metaphor for understanding AI's role in mathematics."
-        }
-      ]
-    },
-    "net_worth": "$3.0M"
   }
 ]
 };

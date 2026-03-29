@@ -1,5 +1,115 @@
 [
   {
+    "id": 120,
+    "podcast_name": "University of Podcast",
+    "episode_title": "https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-18%2Fdff54dee-2ba4-02bd-9c43-d935696550da",
+    "episode_date": "2026-03-28",
+    "summary": "The podcast episode features a discussion on the evolution of privacy in the digital age, particularly in the context of cryptocurrencies like Z-Cash. The conversation covers the importance of privacy, the role of Z-Cash in addressing privacy concerns, and the potential for cryptocurrencies to shape the future of finance. The guest shares insights into the technological aspects of Z-Cash and its potential to disrupt traditional financial systems.",
+    "key_takeaways": [
+      "Privacy is a significant concern in the digital age, and cryptocurrencies like Z-Cash offer solutions.",
+      "Z-Cash addresses issues of privacy, simplicity, quantum resistance, and scalability.",
+      "There is a growing interest in privacy among younger generations, which could drive adoption of privacy-focused cryptocurrencies.",
+      "The guest argues for a coalition around privacy in the cryptocurrency space.",
+      "Z-Cash's utility in scalability may surpass its privacy benefits, making it commercially important."
+    ],
+    "investment_thesis": "Investing in Z-Cash could be a way to capitalize on the growing demand for privacy in digital transactions and the potential for scalability improvements in blockchain technology.",
+    "key_tickers": [
+      "ZEC"
+    ]
+  },
+  {
+    "id": 119,
+    "podcast_name": "Unknown Podcast",
+    "episode_title": "all in with chamath jason sacks frie jensen huang live nvidia s future physical ai rise of the 03b9c382",
+    "episode_date": "2026-03-28",
+    "summary": "This podcast episode features a discussion on the future of AI in the context of global financial systems. The conversation covers the shift from legacy systems to AI-driven platforms, the significance of the acquisition of Rock by Nvidia, and the importance of disaggregated computing in the AI era. Additionally, the podcast delves into the role of open-source models in AI and the impact of AI on job markets and education.",
+    "key_takeaways": [
+      "AI is transforming the global financial system, moving away from legacy systems towards AI-driven platforms.",
+      "Nvidia's acquisition of Rock is seen as a significant move in the AI industry, highlighting the company's evolution from a GPU company to an AI factory.",
+      "Disaggregated computing is becoming increasingly important in AI, allowing for more efficient processing pipelines.",
+      "Open-source AI models are crucial for capturing domain expertise and specialization, alongside proprietary models.",
+      "AI integration has not eliminated jobs but has instead created new opportunities and increased demand in certain sectors like radiology."
+    ],
+    "investment_thesis": "Investing in AI-driven platforms and technologies is essential for capturing the growth in the global financial system and staying ahead in the AI era.",
+    "key_tickers": [
+      "NVDA"
+    ]
+  },
+  {
+    "id": 118,
+    "podcast_name": "Unknown Podcast",
+    "episode_title": "the a16z show chris dixon from quant trading to building a16z crypto be2e5b4b",
+    "episode_date": "2026-03-28",
+    "summary": "In this episode of the Unknown Podcast, Chris Dixon, a general partner at A16Z, discusses his journey from programming and quant finance to angel investing and building A16Z's dedicated crypto practice. Dixon shares insights on his unconventional investment bets, the importance of betting on talent in businesses, and his views on the evolution of angel investing and the tech industry. He also touches on the significance of New York as a tech hub and its potential in the crypto space.",
+    "key_takeaways": [
+      "Chris Dixon's investment journey started with a passion for programming and video games, leading to a career in quant finance and angel investing.",
+      "Dixon's investment philosophy emphasizes betting on people rather than trying to predict tech trends.",
+      "He believes that the tech industry has shifted from a hobbyist phase to a more corporate one, with the internet playing a significant role in this transformation.",
+      "Dixon sees New York as a vibrant tech hub with a strong potential in the crypto space, rivaling San Francisco.",
+      "The evolution of angel investing has become more institutionalized, with a larger number of investors and a broader tech ecosystem."
+    ],
+    "investment_thesis": "Betting on talented individuals in businesses rather than predicting tech trends is a more consistent approach to investing.",
+    "key_tickers": null
+  },
+  {
+    "id": 116,
+    "podcast_name": "Unknown Podcast",
+    "episode_title": "ALLIN-INTV Jensen V2 Ch",
+    "episode_date": "2026-03-28",
+    "summary": "This special episode discusses the evolution of AI and the tech industry, with a focus on the acquisition of Grok and the concept of disaggregated inference. The conversation delves into the complexities of AI processing and the shift from a GPU-centric approach to a more heterogeneous computing model. It also touches on the importance of both proprietary and open-source AI models, the impact of AI on various industries, and the role of education in preparing for the AI-driven future.",
+    "key_takeaways": [
+      "The acquisition of Grok by the guest's company signifies a shift towards a more complex and heterogeneous AI processing model.",
+      "Disaggregated inference is identified as a highly complex computing problem, with potential solutions involving different types of GPUs.",
+      "The evolution from a GPU company to an AI factory company is highlighted, emphasizing the diversification of computing options.",
+      "The importance of both proprietary and open-source AI models is discussed, with the guest arguing for a coexistence of both in the industry.",
+      "AI's impact on job creation is explored, with the example of radiologists showing an increase in demand despite advancements in computer vision.",
+      "Education in AI is emphasized, with the guest advising students to focus on deep science, math, and language skills to succeed in the AI-driven economy."
+    ],
+    "investment_thesis": "Invest in companies that are at the forefront of AI technology, particularly those that can leverage both proprietary and open-source models to drive innovation and capture domain-specific expertise.",
+    "key_tickers": [
+      "NVDA"
+    ]
+  },
+  {
+    "id": 115,
+    "podcast_name": "Unknown Podcast",
+    "episode_title": "the a16z show 20260319 1e92a9dd 78da 4417 b1ce 4b4318d1",
+    "episode_date": "2026-03-28",
+    "summary": "This podcast episode features a discussion on the economic implications of AI, focusing on how it can transform labor, startups, and the ambitions of young professionals. The conversation revolves around Christian Catalini's paper 'Some Simple Economics of AI', which delves into the complex interplay between AI and the economy. The podcast explores the potential for AI to democratize access to resources, the shift in consensus formation, and the opportunities AI presents in the realms of art, finance, and technology.",
+    "key_takeaways": [
+      "AI can enable individuals to harness the power of multiple employees for a low cost, potentially leading to billion-dollar startups.",
+      "The paper suggests that anything that can be measured will eventually be automated, which could have profound effects on the economy and labor.",
+      "AI tools are becoming integral in research and analysis, aiding in the understanding and creation of complex economic frameworks.",
+      "The future may involve machines and humans forming consensus on technical approaches, challenging the notion that consensus is a uniquely human domain.",
+      "AI is creating gaps that could represent opportunities for building new societal needs and addressing issues not yet solved.",
+      "Crypto and AI are seen as complementary technologies, with potential to disrupt traditional assistance mechanisms and create new economic opportunities."
+    ],
+    "investment_thesis": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
+    "key_tickers": null
+  },
+  {
+    "id": 117,
+    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "episode_title": "Anthropic's Generational Run, OpenAI Panics, AI Moats, Meta Loses Lawsuits",
+    "episode_date": "2026-03-27",
+    "summary": "In this episode, the hosts discuss a range of investment insights and market trends, with a focus on technological disruption and its impact on various industries. They touch on topics such as the rise of SaaS, the importance of innovation, and the competitive landscape between the US and China in scientific research and technology. The conversation also includes discussions on the potential erosion of brand value and the increasing importance of value propositions in a market where abundance is becoming more prevalent.",
+    "key_takeaways": [
+      "The hosts discuss the significant growth of SaaS and its impact on the market.",
+      "Innovation is seen as a key driver in the current competitive landscape, particularly in the context of the US-China race in scientific research and technology.",
+      "Brand value may be eroding as the market shifts towards valuing abundance and value propositions over traditional brand affiliation.",
+      "Tesla is highlighted as an example of a company that has disrupted the traditional automotive industry by offering a superior product at a better price.",
+      "The potential disruption of phone operating systems by personal digital assistants is discussed, emphasizing the rapid pace of technological change.",
+      "The importance of industrial policy and the race for scientific leadership, especially in AI and life sciences, is underscored."
+    ],
+    "investment_thesis": "Invest in companies that are driving innovation and can disrupt traditional industries by offering superior products at better prices, while keeping an eye on the competitive dynamics between the US and China in scientific research and technology.",
+    "key_tickers": [
+      "AAPL",
+      "GOOGL",
+      "TSLA",
+      "BYD"
+    ]
+  },
+  {
     "id": 109,
     "podcast_name": "Monetary Matters with Jack Farley",
     "episode_title": "Investing in Sovereign Credit with Lupin Ramon",
@@ -308,6 +418,23 @@
     ]
   },
   {
+    "id": 112,
+    "podcast_name": "The a16z Show",
+    "episode_title": "AI Just Gave You Superpowers \u2014 Now What?",
+    "episode_date": "2026-03-19",
+    "summary": "In this episode of 'The a16z Show', Christian Catalini and Eddie Lazarin discuss the economic implications of AI on work, startups, and ambition. They explore the concept of 'compute arbitrage', the potential for AI to democratize access to resources, and the shift in consensus formation from human-only to a potential machine-human collaboration. The conversation touches on the existential crisis brought about by rapid technological progress and the opportunities for individuals to harness AI for personal and professional growth.",
+    "key_takeaways": [
+      "AI is creating a new surplus that can be exploited, particularly in the form of compute power available at low costs.",
+      "The concept of 'compute arbitrage' suggests that individuals can leverage AI to perform tasks that previously required teams, leading to the potential for one-person billion-dollar startups.",
+      "The traditional apprenticeship model may be fading, but the real work of harnessing AI is just beginning.",
+      "AI's impact on labor and the nature of work is significant, with the potential to change how startups are formed and how incumbents operate.",
+      "Consensus formation, traditionally a human domain, may increasingly involve machines, leading to new dynamics in decision-making and coordination.",
+      "The intersection of AI and blockchain technologies presents a complementary opportunity for innovation and value creation."
+    ],
+    "investment_thesis": "Invest in AI technologies that enable 'compute arbitrage' and democratize access to resources, as well as in startups that leverage AI to disrupt traditional business models.",
+    "key_tickers": null
+  },
+  {
     "id": 91,
     "podcast_name": "Macro Voices",
     "episode_title": "Macro Voices: The Iran Conflict's Impact on Inflation and Energy Markets",
@@ -378,6 +505,27 @@
     "investment_thesis": "The current elevated oil prices and their subsequent impact on inflation and growth present a complex investment landscape, with stocks and bonds being particularly at risk. Investors should consider packaging trades to navigate these dynamics.",
     "key_tickers": [
       "HFGM"
+    ]
+  },
+  {
+    "id": 111,
+    "podcast_name": "Monetary Matters with Jack Farley",
+    "episode_title": "Stock Market on Shaky Foundations | Blind Squirrel Macro\u2019s Rupert Mitchell on IPO Supply, Oil, and Private Credit",
+    "episode_date": "2026-03-18",
+    "summary": "In this episode of Monetary Matters with Jack Farley, guest Rupert Mitchell of Blind Squirrel Macro discusses current market concerns and investment strategies. Key themes include worries about employment, the business cycle, and expensive stock valuations. Mitchell expresses concerns about the foundations of the bull market, particularly in US equities, and suggests a weaker dollar bias in the medium term. The conversation also touches on the potential impact of AI and data center build-out on small market stocks and the risks associated with certain SaaS verticals and M&A boutiques.",
+    "key_takeaways": [
+      "Markets are giving opportunities to reduce exposure, indicating potential slowing consumer spending and expensive stock valuations.",
+      "Rupert Mitchell is worried about the business cycle ending and the crumbling pillars of buybacks, 401Ks, M&A, and de-equitization.",
+      "Government spending drives equity markets, and Mitchell sees a reduced capacity for such spending, particularly in the US, leading to a short bias on US equities.",
+      "A weaker dollar bias is expected in the medium term, influenced by recent global events.",
+      "Investment opportunities are seen in security software and companies with control over data lakes, while certain SaaS verticals and M&A boutiques are considered risky.",
+      "Mitchell suggests that institutional money may reach for silver miners due to their large operating margins and potential earnings power."
+    ],
+    "investment_thesis": "The current bull market is built on shaky foundations, and a shift towards a more cautious stance with a focus on security software and data lake control is advised.",
+    "key_tickers": [
+      "SPACEX",
+      "OPENAI",
+      "THROPIC"
     ]
   },
   {
@@ -467,6 +615,40 @@
     ]
   },
   {
+    "id": 114,
+    "podcast_name": "Monetary Matters with Jack Farley",
+    "episode_title": "EWWMN9153105374",
+    "episode_date": "2026-03-15",
+    "summary": "In this episode of Monetary Matters, host Jack Farley interviews Roy Johnson of Commodity Context, a top independent oil and energy analyst. They discuss the current geopolitical crisis and its impact on oil markets, particularly the Iran oil shock. Johnson emphasizes the protracted nature of the crisis and its potential to disrupt the global economy if the flow of oil through the Strait of Hormuz does not normalize. The conversation covers the potential for a price spike in oil, the role of the United States and President Trump in de-escalation, and the implications for the global oil market.",
+    "key_takeaways": [
+      "The Strait of Hormuz crisis is likely to be protracted, even with geopolitical de-escalation.",
+      "Disruption in the Strait of Hormuz could lead to a significant loss in oil supply, impacting the global economy.",
+      "The situation in the Middle East is worsening, with attacks on oil facilities and potential for further escalation.",
+      "President Trump is seen as the most movable participant in the crisis, potentially leading to a resolution.",
+      "The global oil market faces a significant challenge in re-establishing supply, with U.S. shale responding slowly to market needs.",
+      "Even in an optimistic scenario, oil prices are expected to remain structurally higher due to the crisis."
+    ],
+    "investment_thesis": "The ongoing geopolitical crisis in the Middle East, particularly the situation around the Strait of Hormuz, presents a significant risk to global oil supply and prices, potentially leading to a sustained increase in oil prices.",
+    "key_tickers": null
+  },
+  {
+    "id": 110,
+    "podcast_name": "Dwarkesh Podcast",
+    "episode_title": "Inventing the Renaissance: Economic and Technological Insights",
+    "episode_date": "2026-03-06",
+    "summary": "In this episode of Dwarkesh Podcast, the host interviews Ada Palmer, a Renaissance historian, novelist, and composer, to discuss her book 'Inventing the Renaissance'. The conversation delves into the economic and technological factors that contributed to the rise of Italian city republics during the late 15th and early 16th centuries, the influence of Roman virtues on governance, and the transformative impact of the printing press on society and information distribution.",
+    "key_takeaways": [
+      "The dissolution of the Roman Empire led to the rise of self-governing city republics in Italy due to the need for local governance and economic self-sufficiency.",
+      "The ability to sustain local governance was linked to the quality of agricultural land, which allowed wealthier towns to establish republics.",
+      "Petrarch's experiences during the Black Death and civil war led him to advocate for the emulation of Roman virtues to improve governance and societal stability.",
+      "The printing press revolutionized information distribution but required the development of economic and logistical systems to become sustainable.",
+      "The Reformation and the spread of pamphlets can be compared to modern information revolutions, such as the Arab Spring enabled by social media.",
+      "The Inquisition's role in verifying the accuracy of books led to the invention of peer review and contributed to the development of scientific methodologies."
+    ],
+    "investment_thesis": "The historical insights from the Italian Renaissance period suggest that technological advancements, such as the printing press, can have a profound impact on society and information distribution, which parallels modern tech revolutions and their investment implications.",
+    "key_tickers": null
+  },
+  {
     "id": 23,
     "podcast_name": "Moonshots with Peter Diamandis",
     "episode_title": "Ben Horowitz: xAI Executive Exodus, Ilya's $5B SSI Valuation, Apple's AI Crisis, The Pace of AI | #232",
@@ -511,6 +693,25 @@
       "NVDA",
       "INFY",
       "WIT"
+    ]
+  },
+  {
+    "id": 113,
+    "podcast_name": "Monetary Matters with Jack Farley",
+    "episode_title": "Technical Analysis Deep Dive with Milton Berg - February 2026 Market Signals",
+    "episode_date": "2026-02-15",
+    "summary": "In this episode of Monetary Matters, host Jack Farley interviews Carson Block, founder of Muddy Waters Capital, a leading activist short seller hedge fund. They discuss the fertile ground for short selling in the tech sector, particularly in AI and AI-adjacent industries, and the challenges of identifying pretenders in the market. Carson also shares insights on precious metals investing, focusing on the macro thesis of under-allocation of human capital in the mining sector. The conversation touches on the potential of combining long side exposure with short selling strategies and the future of activist short selling.",
+    "key_takeaways": [
+      "The tech sector, especially AI and AI-adjacent industries, presents fertile ground for short selling due to the influx of money and the presence of pretenders.",
+      "The semiconductor industry, despite being cyclical and capital-intensive, has seen unusual upward trends, suggesting potential for mean reversion.",
+      "Precious metals, particularly gold, have seen increased activity and financing, making it an area of focus for investment.",
+      "The under-allocation of human capital in mining, especially junior mining, presents an opportunity for those who can interpret complex data.",
+      "Combining long side exposure with short selling strategies can be an effective approach in the current market environment.",
+      "Activist short selling remains a core business for Muddy Waters, with new reports expected in the near future."
+    ],
+    "investment_thesis": "Invest in sectors with fertile ground for short selling, such as AI and tech, and under-allocated areas like junior mining, while combining long and short strategies for potential alpha.",
+    "key_tickers": [
+      "PQNT"
     ]
   },
   {
