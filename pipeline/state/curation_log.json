@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-03-29T04:08:45.600654",
-  "total_feed_episodes": 3,
-  "approved_for_transcription": 3,
+  "timestamp": "2026-03-29T22:01:00.480227",
+  "total_feed_episodes": 4,
+  "approved_for_transcription": 4,
   "episodes": [
     {
       "podcast": "Moonshots with Peter Diamandis",
@@ -28,6 +28,19 @@
       "matched_keywords": [],
       "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/moonshots_with_peter_diamandis_nvidia_s__1_trillion_prediction__anthropic_beats_openai__tes_c82c7892.mp3",
       "filename": "moonshots_with_peter_diamandis_nvidia_s__1_trillion_prediction__anthropic_beats_openai__tes_c82c7892.mp3"
+    },
+    {
+      "podcast": "Monetary Matters with Jack Farley",
+      "title": "The 2026 Private Credit Liquidity Crunch | Leyla Kunimoto on Redemptions in Semi-liquid Vehicles, Private/Public BDCs, and the Future of Alternatives",
+      "description": "\n        <p>This episode is brought to you by the Pictet AI Enhanced International Equity ETF ($PQNT):\u00a0</p>\n<p><br></p>\n<p><a href=\"https://etf.am.pictet.com/pqnt/?utm_campaign=usetf&amp;cid=2715538577&amp;utm_source=jfmv&amp;utm_content=pqnt&amp;utm_medium=podcast_02&amp;utm_term=noterm\"><u>https://etf.am.pictet.com/pqnt/?utm_campaign=usetf&amp;cid=2715538577&amp;utm_source=jfmv&amp;utm_content=pqnt&amp;utm_medium=podcast_02&amp;utm_term=noterm</u></a></p>\n<p><br></p>\n<p>Learn More about Pictet",
+      "audio_url": "https://traffic.megaphone.fm/EWWMN7160876380.mp3",
+      "published": "Sun, 29 Mar 2026 16:23:00 -0000",
+      "published_date": "2026-03-29",
+      "rss_guid": "915856c0-2b8b-11f1-a72f-1b99f4839076",
+      "status": "APPROVED",
+      "matched_keywords": [],
+      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/monetary_matters_with_jack_farley_the_2026_private_credit_liquidity_crunch___leyla_kunimoto_on_45e9b7f8.mp3",
+      "filename": "monetary_matters_with_jack_farley_the_2026_private_credit_liquidity_crunch___leyla_kunimoto_on_45e9b7f8.mp3"
     },
     {
       "podcast": "The a16z Show",

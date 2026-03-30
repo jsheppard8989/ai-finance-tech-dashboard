@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-29T04:10:37.440316",
+  "last_updated": "2026-03-29T22:02:13.031766",
   "episodes": {
     "moonshots_with_peter_diamandis_elon's_$5_trillion_bet,_the_en": {
       "info": {
@@ -39,7 +39,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-29T04:10:37.363485",
+      "first_seen": "2026-03-29T22:02:12.916121",
       "status": "needs_analysis"
     },
     "moonshots_with_peter_diamandis_nvidia's_$1_trillion_predictio": {
@@ -80,8 +80,49 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-29T04:10:37.413195",
+      "first_seen": "2026-03-29T22:02:12.975599",
       "status": "needs_analysis"
+    },
+    "monetary_matters_with_jack_farley_the_2026_private_credit_liquid": {
+      "info": {
+        "podcast": "Monetary Matters with Jack Farley",
+        "title": "The 2026 Private Credit Liquidity Crunch | Leyla Kunimoto on Redemptions in Semi-liquid Vehicles, Private/Public BDCs, and the Future of Alternatives",
+        "published": "2026-03-29",
+        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/monetary_matters_with_jack_farley_the_2026_private_credit_liquidity_crunch___leyla_kunimoto_on_45e9b7f8.mp3",
+        "keywords": [],
+        "rss_guid": "915856c0-2b8b-11f1-a72f-1b99f4839076"
+      },
+      "stages": {
+        "downloaded": {
+          "complete": true,
+          "timestamp": null,
+          "reason": null
+        },
+        "transcribed": {
+          "complete": false,
+          "file": null,
+          "timestamp": null,
+          "reason": "Waiting for fetch/transcribe step"
+        },
+        "analyzed": {
+          "complete": false,
+          "episode_id": null,
+          "timestamp": null,
+          "reason": "Waiting for next analyze run (transcript \u2192 DB)."
+        },
+        "insight_created": {
+          "complete": false,
+          "timestamp": null,
+          "reason": "Depends on analyze step first."
+        },
+        "published": {
+          "complete": false,
+          "timestamp": null,
+          "reason": "Not in data.js yet (run export and push to site)."
+        }
+      },
+      "first_seen": "2026-03-29T22:02:12.993296",
+      "status": "needs_transcription"
     },
     "the_a16z_show_chris_dixon:_from_quant_tradin": {
       "info": {
@@ -121,7 +162,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-29T04:10:37.427148",
+      "first_seen": "2026-03-29T22:02:13.014687",
       "status": "blocked_analysis"
     }
   }
