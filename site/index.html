@@ -1563,16 +1563,45 @@
       text-align: center;
       padding: 2rem;
     }
+
+    /* Top navigation — public-facing; no internal jargon in labels */
+    .site-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem 1.25rem;
+      justify-content: center;
+      align-items: center;
+      padding: 0.65rem 1rem;
+      margin-bottom: 0.75rem;
+      background: rgba(0, 0, 0, 0.28);
+      border-radius: 12px;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    .site-nav a {
+      color: #00d4ff;
+      text-decoration: none;
+      font-size: 0.95rem;
+      font-weight: 500;
+    }
+    .site-nav a:hover {
+      text-decoration: underline;
+    }
   </style>
 </head>
 <body>
   <div class="container">
+    <nav class="site-nav" aria-label="Site sections">
+      <a href="index.html">Home</a>
+      <a href="archive.html">Archive</a>
+      <a href="debait.html">Long &amp; short</a>
+      <a href="pipeline-health.html">Data status</a>
+    </nav>
     <header style="position: relative;">
-      <h1>AI, Finance, Tech: Scarcity & Abundance</h1>
-      <p class="subtitle">Curated insights from newsletters, podcasts, and market analysis</p>
+      <h1>AI, Finance, Tech: Scarcity &amp; Abundance</h1>
+      <p class="subtitle">Personal research board — themes from podcasts, letters, and markets. Not advice; not a tip sheet.</p>
       <p style="color: #8892b0; font-size: 0.8rem; margin-top: 0.5rem;">
         <span id="last-updated">Last updated: —</span>
-        <span id="last-updated-meta"> • <span style="color: #00d4ff;">2-week % changes displayed</span> • <a href="pipeline-health.html" style="color: #00d4ff;">Pipeline health</a></span>
+        <span id="last-updated-meta"> · <span style="color: #a8b2d1;">Ticker cards show ~2-week % change where available</span> · <a href="pipeline-health.html" style="color: #00d4ff;">Data status</a></span>
       </p>
       <!-- Desktop: absolute positioned badges; Mobile: inline via CSS override -->
       <div class="header-qqq-badge" style="position: absolute; bottom: 1rem; left: 2rem; display: flex; gap: 1rem;">
@@ -1593,8 +1622,8 @@
         <!-- The Overton Window: definitions + overton terms merged -->
         <div class="card">
           <h2>The Overton Window</h2>
-          <p style="color: #8892b0; margin-bottom: 0.5rem; font-size: 0.9rem;">Curated definitions and emerging concepts not yet mainstream in investment discourse. Terms from AI episode analysis appear here after promotion.</p>
-          <p style="color: #6b7280; font-size: 0.8rem; margin-bottom: 1.5rem;">Source: promoted from Emerging Terms (AI episode analysis) · up to 8 terms</p>
+          <p style="color: #8892b0; margin-bottom: 0.5rem; font-size: 0.9rem;">Ideas that are still moving from the fringe toward the mainstream — definitions plus a short list of terms I&apos;m tracking.</p>
+          <p style="color: #6b7280; font-size: 0.8rem; margin-bottom: 1.5rem;">Shown here after I promote them from the emerging list below (up to eight).</p>
 
           <div id="overton-window-list">
             <!-- Filled by loadOvertonWindow() from mainContent.definitions + mainContent.overton -->
@@ -1602,8 +1631,8 @@
 
           <!-- Emerging Terms Box -->
           <div class="suggestions-box">
-            <h3>📋 Emerging Terms</h3>
-            <p style="color: #a8b2d1; font-size: 0.9rem; margin-bottom: 1rem;">Terms extracted from the AI episode analysis JSON. High-relevance terms are promoted to the Overton Window above.</p>
+            <h3>📋 Emerging terms</h3>
+            <p style="color: #a8b2d1; font-size: 0.9rem; margin-bottom: 1rem;">New phrases picked up from recent episodes. Stronger or recurring ones get promoted to the Overton list above.</p>
 
             <div id="suggestions-list">
               <!-- Emerging terms loaded dynamically from database -->
@@ -1617,8 +1646,8 @@
 
           <!-- Contact Section -->
           <div class="card contact-card" style="margin-top: 2rem;" data-fallback-email="">
-            <h2>📬 Get in Touch</h2>
-            <p style="color: #8892b0; margin-bottom: 1.5rem; font-size: 0.95rem;">Want to collaborate, share insights, or just say hello? Drop your contact info and we'll reach out.</p>
+            <h2>📬 Get in touch</h2>
+            <p style="color: #8892b0; margin-bottom: 1.5rem; font-size: 0.95rem;">Collaboration, feedback, or a quick hello — leave a note and I&apos;ll follow up.</p>
 
             <form id="contactForm" class="contact-form">
               <div class="form-group">
@@ -1660,8 +1689,8 @@
       <div class="middle-col">
         <!-- Latest Insights -->
         <div class="card">
-          <h2>Latest Insights</h2>
-          <p style="color: #6b7280; font-size: 0.8rem; margin-bottom: 1rem;">Source: latest_insights from AI episode summaries · key tickers from AI only · up to 8</p>
+          <h2>Latest insights</h2>
+          <p style="color: #6b7280; font-size: 0.8rem; margin-bottom: 1rem;">Short takeaways from recent podcast episodes — tickers called out in the underlying analysis (up to eight shown).</p>
           <div id="insights-container">
             <!-- Insights loaded dynamically from database -->
           </div>
@@ -1672,14 +1701,14 @@
       <!-- Right Column - Podcast Pundits + Alpha or Atrophy -->
       <div class="right-col">
         <div class="card" id="guests-card">
-          <h2>Podcast Pundits</h2>
-          <p style="color: #8892b0; margin-bottom: 0.5rem; font-size: 0.9rem;">Voices behind the ideas: tap to see who they are and the last thesis they shared.</p>
-          <p style="color: #6b7280; font-size: 0.8rem; margin-bottom: 1rem;">Source: podcast guest appearances + last thesis/takeaways from episodes · up to 20</p>
+          <h2>Podcast voices</h2>
+          <p style="color: #8892b0; margin-bottom: 0.5rem; font-size: 0.9rem;">Guests who keep showing up — tap for a short profile and their latest angle.</p>
+          <p style="color: #6b7280; font-size: 0.8rem; margin-bottom: 1rem;">Up to twenty, ranked by recency and how often they appear.</p>
           <div id="guests-list"></div>
         </div>
         <div class="card" style="margin-top: 1.5rem;">
-          <h2 style="font-size: 1.3rem;">Alpha or Atrophy</h2>
-          <p style="color: #8892b0; margin-bottom: 1rem; font-size: 0.8rem;">Multi-factor scoring: mentions × conviction × source diversity × contrarian signals | <strong>Click for charts</strong></p>
+          <h2 style="font-size: 1.3rem;">Alpha or atrophy</h2>
+          <p style="color: #8892b0; margin-bottom: 1rem; font-size: 0.8rem;">Ranked themes from mention volume, conviction, how many sources agree, and contrarian flags. <strong>Tap a row for a chart.</strong></p>
           <div class="stock-grid" id="tickerGrid"></div>
         </div>
       </div>
@@ -1695,13 +1724,13 @@
     </div>
 
     <footer>
-      <div class="credit">🤖 Curated by 6AIndolf 🧙‍♂️</div>
-      <div class="subtext">AI-powered research assistant analyzing newsletters, podcasts, and market signals</div>
+      <div class="credit">Jared Sheppard</div>
+      <div class="subtext">Personal research board · Not financial advice</div>
       <div class="subtext">
-        <a href="archive.html" style="color: #00d4ff; text-decoration: none;">📚 Archive</a> • 
-        <a href="index.html" style="color: #00d4ff; text-decoration: none;">🏠 Dashboard</a> • 
-        <a href="pipeline-health.html" style="color: #00d4ff; text-decoration: none;">⚙️ Pipeline Health</a> • 
-        <a href="debait.html" style="color: #00d4ff; text-decoration: none;">📊 The Long and Short of It</a>
+        <a href="archive.html" style="color: #00d4ff; text-decoration: none;">Archive</a> · 
+        <a href="index.html" style="color: #00d4ff; text-decoration: none;">Home</a> · 
+        <a href="pipeline-health.html" style="color: #00d4ff; text-decoration: none;">Data status</a> · 
+        <a href="debait.html" style="color: #00d4ff; text-decoration: none;">The long and short of it</a>
       </div>
     </footer>
   </div>
@@ -1765,7 +1794,7 @@
   </div>
 
   <!-- Load dashboard data from pipeline (if available) -->
-  <script src="./data/data.js?v=1774839735-1"></script>
+  <script src="./data/data.js?v=1774865058"></script>
   <script src="./js/common.js"></script>
   
   <script>
@@ -1815,7 +1844,7 @@
       }
       
       if (suggestions.length === 0) {
-        container.innerHTML = '<div style="color: #8892b0; padding: 1rem; text-align: center;">No new terms detected. Run transcript analysis to extract emerging_terms. <a href="pipeline-health.html" style="color: #00d4ff;">Pipeline Health</a></div>';
+        container.innerHTML = '<div style="color: #8892b0; padding: 1rem; text-align: center;">No new terms yet. Check <a href="pipeline-health.html" style="color: #00d4ff;">data status</a> after the next update run.</div>';
         return;
       }
       
@@ -1904,7 +1933,7 @@
       });
 
       if (items.length === 0) {
-        container.innerHTML = '<p style="color: #8892b0; font-size: 0.9rem; padding: 1rem;">No terms yet. Promote from Emerging Terms below (or run auto-curate). <a href="pipeline-health.html" style="color: #00d4ff;">Pipeline Health</a></p>';
+        container.innerHTML = '<p style="color: #8892b0; font-size: 0.9rem; padding: 1rem;">No terms here yet. Promote from the list below when ready — or see <a href="pipeline-health.html" style="color: #00d4ff;">data status</a>.</p>';
         return;
       }
       container.innerHTML = items.join('');
@@ -1945,7 +1974,7 @@
       }
 
       if (items.length === 0) {
-        container.innerHTML = '<p style="color: #8892b0; font-size: 0.9rem; padding: 1rem;">No pundits yet. Run transcript analysis and entity pipeline, then export. <a href="pipeline-health.html" style="color: #00d4ff;">Pipeline Health</a></p>';
+        container.innerHTML = '<p style="color: #8892b0; font-size: 0.9rem; padding: 1rem;">No guest profiles yet. After the next ingest and export, they&apos;ll show here — <a href="pipeline-health.html" style="color: #00d4ff;">data status</a>.</p>';
         return;
       }
 
@@ -2208,7 +2237,7 @@
         } else if (!dashboardData.mainContent.insights) {
           container.innerHTML = '<div class="placeholder" style="color: #ff6b6b;">Error: insights array missing.</div>';
         } else {
-          container.innerHTML = '<div class="placeholder">No insights yet. Run transcript analysis and export. <a href="pipeline-health.html" style="color: #00d4ff;">Pipeline Health</a></div>';
+          container.innerHTML = '<div class="placeholder">No insights to show yet. Next export should populate this — <a href="pipeline-health.html" style="color: #00d4ff;">data status</a>.</div>';
         }
         return;
       }

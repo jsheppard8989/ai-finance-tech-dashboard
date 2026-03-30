@@ -15170,3 +15170,523 @@ ModuleNotFoundError: No module named 'yfinance'
 ============================================================
 STEP: Auto-Curate Terms
 ============================================================
+onomy that deals with tangible goods and services, as opposed to financial or digi...
+
+• Data Silos
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: The practice or situation of different departments or teams within a company not sharing their data ...
+
+• Sovereign Credit
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A type of debt issued by governments, which involves risks related to both the ability and willingne...
+
+• Hard Currency Bonds
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: Bonds issued by emerging market countries in a currency that is not their local currency, often the ...
+
+• Information Revolution
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A period of rapid change in how information is produced, disseminated, and consumed, often driven by...
+
+• Peer Review
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A process where scholars or experts in a field review each other's work to ensure accuracy and valid...
+
+• Dollar Naparne Run
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A term used by Rupert Mitchell to describe a scenario where the US dollar experiences a significant ...
+
+• Data Lakes
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: Large repositories of data used for advanced analytics and machine learning....
+
+• AI Adjacent
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: Industries or companies that are related to or benefit from the growth and development of artificial...
+
+• SaaS
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: Software as a Service, a software distribution model in which a third-party provider hosts applicati...
+
+• Strangulation as a Service
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A term used to describe the desire for enterprise software to simplify complex user interfaces and r...
+
+• Angel Investing
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: The practice of affluent individuals providing capital to startups in exchange for ownership equity ...
+
+• Crypto Practice
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A dedicated investment focus within a venture capital firm that specializes in cryptocurrencies and ...
+
+• Disaggregated Computing
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A computing approach where different parts of a processing pipeline run on different types of hardwa...
+
+• Open-Source AI Models
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: AI models that are publicly accessible and modifiable, fostering innovation and collaboration in the...
+
+• Privacy-Focused Cryptocurrencies
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: Cryptocurrencies that prioritize user privacy and anonymity, often using advanced cryptographic tech...
+
+• Quantum Resistance
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: The ability of a cryptographic system to remain secure against an attack by a quantum computer....
+
+✓ Auto-Curate Terms completed
+
+============================================================
+STEP: Extract Podcast Guests
+============================================================
+============================================================
+Extract Podcast Guests
+============================================================
+Processing 96 processed episodes
+  ✓ This special episode ← Unknown Podcast (2026-03-28)
+  ✓ Lupin Ramon ← Monetary Matters with Jack Farley (2026-03-27)
+  ✓ When the Music Stops ← The Jack Mallers Show (2026-03-24)
+  ✓ Ground Infrastructure ← The a16z Show (2026-03-23)
+  ✓ Rory Johnston ← Monetary Matters with Jack Farley (2026-03-19)
+  ✓ Senator John Fetterman on Voting Rights ← All-In with Chamath, Jason, Sacks & Friedberg (2026-03-18)
+  ✓ Stock Market on Shaky Foundations ← Monetary Matters with Jack Farley (2026-03-18)
+  ✓ Elon Musk on Moonshots ← Moonshots with Peter Diamandis (2026-03-17)
+  ✓ Investing in Capitalism ← All-In with Chamath, Jason, Sacks & Friedberg (2026-03-13)
+  ✓ Harvard Professor Graham Allison ← All-In with Chamath, Jason, Sacks & Friedberg (2026-03-09)
+  ✓ Andrew Yang ← Moonshots with Peter Diamandis (2026-03-07)
+  ✓ Inventing the Renaissance ← Dwarkesh Podcast (2026-03-06)
+  ✓ Ray Dalio ← All-In with Chamath, Jason, Sacks & Friedberg (2026-03-03)
+  ✓ Nobel Prize-winning economist Paul Krugman ← Monetary Matters with Jack Farley (2026-02-19)
+  ✓ host Jack Mallers ← The Jack Mallers Show (2026-02-19)
+  ✓ Ben Horowitz ← Moonshots with Peter Diamandis (2026-02-19)
+  ✓ Bosworth ← a16z Live (2026-02-15)
+  ✓ Milton Berg ← Monetary Matters with Jack Farley (2026-02-06)
+
+✓ Done. 18 guest(s) in database.
+
+✓ Extract Podcast Guests completed
+
+============================================================
+STEP: Export Website Data
+============================================================
+============================================================
+Exporting Website Data
+============================================================
+✓ Exported website data to /Users/jaredsheppard/.openclaw/workspace/site/data
+✓ Exported: {'ticker_scores': 48, 'podcast_summaries': 41, 'archive_items': 128, 'podcast_guests': 18, 'pundits': 20}
+🔍 Scanning podcast pipeline...
+
+
+================================================================================
+📊 PODCAST PIPELINE STATUS
+================================================================================
+
+📈 Pipeline Summary (4 total episodes tracked):
+  ✅ Downloaded:       4 / 4
+  ✅ Transcribed:      3 / 4
+  ✅ Analyzed:         0 / 4
+  ✅ Insight Created:  0 / 4
+  ✅ Published:        0 / 4
+
+🔍 Episodes Needing Attention:
+
+  📝 Pending Transcription (1):
+    - The 2026 Private Credit Liquidity Crunch | Leyla K
+
+  🔬 Pending Analysis (3):
+    - Elon's $5 Trillion Bet, the End of Human Drivers, 
+    - NVIDIA's $1 Trillion Prediction, Anthropic Beats O
+    - Chris Dixon: From Quant Trading to Building a16z C
+
+✅ Complete Episodes (All Stages):
+    (None yet)
+
+📅 Last Updated: 2026-03-29T22:02:13.031766
+📁 Status file: /Users/jaredsheppard/.openclaw/workspace/pipeline/state/pipeline_status.json
+================================================================================
+  ✓ Exported pipeline_state.json: 4 tracked
+
+============================================================
+Generating Website JavaScript
+============================================================
+✓ Generated data.js with 48 tickers, 128 archive items, 112 deep dives, 4 suggested terms, 18 legacy guests, 20 pundits; chartsVersion=2026-03-29T04:10:36.391634
+✓ Bumped data.js cache-buster to v=1774839735
+
+============================================================
+STEP: Push to GitHub
+============================================================
+✓ Pushed to GitHub: Pipeline update 2026-03-29 22:02: 0 podcasts, 0 insights, 0 newsletters
+Nothing new — skipping notification
+
+============================================================
+PIPELINE COMPLETE
+Finished: 2026-03-29 22:02:17.008026
+============================================================
+📊 Pipeline Complete
+
+📈 6 tickers scored
+
+Top tickers today:
+  TSLA: score 76
+  NVDA: score 74
+  WTI CRUDE OIL: score 74
+  GOOGL: score 70
+  S&P 500: score 70
+
+🌐 Website updated
+2026-03-30T05:02:21-05:00 run_if_scheduled: in window, running pipeline
+============================================================
+AUTO PIPELINE
+Mode: full
+Started: 2026-03-30 05:02:21.811725
+============================================================
+
+============================================================
+STEP: Podcast Curation
+============================================================
+ith Jack Farley: 1 episodes
+  Fetching: https://feeds.simplecast.com/JGE3yC0V...
+    ✓ The a16z Show: 1 episodes
+  Fetching: https://rss.libsyn.com/shows/254861/destinations/1928300.xml...
+    ✓ All-In with Chamath, Jason, Sacks & Friedberg: 0 episodes
+  Fetching: https://anchor.fm/s/e29097f4/podcast/rss...
+    ✓ The Jack Mallers Show: 0 episodes
+  Fetching: https://feed.podbean.com/macrovoices/feed.xml...
+    ✓ Macro Voices: 0 episodes
+  Fetching: https://api.substack.com/feed/podcast/69345.rss...
+    ✓ Dwarkesh Podcast: 0 episodes
+
+  Total feed episodes (current month only: 2026-03): 4
+
+Matching audio files to episodes...
+  ✓ Episodes with matching audio: 1
+  ? Unmatched audio files (no matching feed episode): 34
+  📥 Episodes pending download before auto-download: 3
+
+Approving all episodes from feed list (feeds are pre-curated)...
+  ↓ Downloading audio: The a16z Show – Chris Dixon: From Quant Trading to Building a16z Crypto
+  ✓ Downloaded audio for 1 approved episode(s)
+
+  APPROVED (will transcribe or download): 4
+  🎧 Approved episodes with audio after auto-download: 4
+
+======================================================================
+CURATION RESULTS
+======================================================================
+
+📌 APPROVED (will transcribe or download):
+
+  ✓ Moonshots with Peter Diamandis
+    Title: Elon's $5 Trillion Bet, the End of Human Drivers, and Chamath's Market
+    File: moonshots_with_peter_diamandis_elon_s__5_trillion_bet__the_end_of_human_drivers__and_chamat_28161dc4.mp3
+
+  ✓ Moonshots with Peter Diamandis
+    Title: NVIDIA's $1 Trillion Prediction, Anthropic Beats OpenAI, Tesla vs. TSM
+    File: moonshots_with_peter_diamandis_nvidia_s__1_trillion_prediction__anthropic_beats_openai__tes_c82c7892.mp3
+
+  ✓ Monetary Matters with Jack Farley
+    Title: The 2026 Private Credit Liquidity Crunch | Leyla Kunimoto on Redemptio
+    File: EWWMN7160876380.mp3
+
+  ✓ The a16z Show
+    Title: Chris Dixon: From Quant Trading to Building a16z Crypto
+    File: the_a16z_show_chris_dixon__from_quant_trading_to_building_a16z_crypto_be2e5b4b.mp3
+
+
+✓ Curation log saved: /Users/jaredsheppard/.openclaw/workspace/pipeline/state/curation_log.json
+
+======================================================================
+NEXT STEPS
+======================================================================
+
+1. Review approved episodes above
+2. To transcribe approved episodes, run:
+   python3 transcribe_curated.py
+
+3. Or manually transcribe specific files (only for episodes that have audio):
+   whisper 'moonshots_with_peter_diamandis_elon_s__5_trillion_bet__the_end_of_human_drivers__and_chamat_28161dc4.mp3' --model tiny --language en
+   whisper 'moonshots_with_peter_diamandis_nvidia_s__1_trillion_prediction__anthropic_beats_openai__tes_c82c7892.mp3' --model tiny --language en
+   whisper 'EWWMN7160876380.mp3' --model tiny --language en
+   whisper 'the_a16z_show_chris_dixon__from_quant_trading_to_building_a16z_crypto_be2e5b4b.mp3' --model tiny --language en
+
+✓ Podcast Curation completed
+
+============================================================
+STEP: Fetch & Transcribe
+============================================================
+======================================================================
+Fetch & Transcribe Latest Podcast Episodes
+======================================================================
+  ✓ Swept 2 completed transcript file(s) from whisper_done into transcripts
+  ✓ Cleaned up 1 orphan audio file(s) (transcript already exists)
+
+Found 7 podcast feeds
+
+📻 Processing: https://feeds.megaphone.fm/DVVTS2890392624...
+  📋 Latest: Elon's $5 Trillion Bet, the End of Human Drivers, and Chamat...
+  ⬇️  Downloading: DVVTS3579530070.mp3
+     Title: Elon's $5 Trillion Bet, the End of Human Drivers, and Chamat...
+     ✓ Downloaded to /Users/jaredsheppard/.openclaw/workspace/audio/DVVTS3579530070.mp3
+  🎙️  Transcribing: DVVTS3579530070.mp3
+  ✓ Already transcribed: DVVTS3579530070.txt
+
+📻 Processing: https://feeds.megaphone.fm/EWWMN1909747317...
+  📋 Latest: The 2026 Private Credit Liquidity Crunch | Leyla Kunimoto on...
+  ⬇️  Downloading: EWWMN7160876380.mp3
+     Title: The 2026 Private Credit Liquidity Crunch | Leyla Kunimoto on...
+     ✓ Downloaded to /Users/jaredsheppard/.openclaw/workspace/audio/EWWMN7160876380.mp3
+  🎙️  Transcribing: EWWMN7160876380.mp3
+  ✓ Already transcribed: EWWMN7160876380.txt
+
+📻 Processing: https://feeds.simplecast.com/JGE3yC0V...
+  ⏭ Already have 'The SpaceX and Tesla Playbook for Hard Tech Startu' (guid match, ep_id=108)
+  ✗ No episode found
+
+📻 Processing: https://rss.libsyn.com/shows/254861/destinations/1...
+  ⏭ Already have 'Anthropic's Generational Run, OpenAI Panics, AI Mo' (guid match, ep_id=117)
+  ✗ No episode found
+
+📻 Processing: https://anchor.fm/s/e29097f4/podcast/rss...
+  ⏭ Already have 'When the Music Stops: Why Bitcoin Is Next' (guid match, ep_id=100)
+  ✗ No episode found
+
+📻 Processing: https://feed.podbean.com/macrovoices/feed.xml...
+  ⏭ Already have 'MacroVoices #525 Lyn Alden: Iran Contagion, Inflat' (guid match, ep_id=107)
+  ✗ No episode found
+
+📻 Processing: https://api.substack.com/feed/podcast/69345.rss...
+  ⏭ Already have 'Terence Tao – Kepler, Newton, and the true nature ' (guid match, ep_id=94)
+  ✗ No episode found
+
+✓ Log saved: /Users/jaredsheppard/.openclaw/workspace/pipeline/state/fetch_log.json
+
+======================================================================
+SUMMARY
+======================================================================
+Total feeds: 7
+Successfully transcribed: 2
+Failed: 0
+
+Completed episodes:
+  ✓ Moonshots with Peter Diamandis: Elon's $5 Trillion Bet, the End of Human Drivers, ...
+  ✓ Monetary Matters with Jack Farley: The 2026 Private Credit Liquidity Crunch | Leyla K...
+
+
+Next step: Run 'python3 research.py' to analyze transcripts
+
+✓ Fetch & Transcribe completed
+
+============================================================
+STEP: Newsletter Ingestion
+============================================================
+==================================================
+Newsletter Ingestion Pipeline
+==================================================
+
+Connecting to Gmail...
+Connecting to Gmail at imap.gmail.com:993...
+Logging in as jsheppard8989@gmail.com...
+Selecting folder: NEWSLETTERS...
+Found 0 unread emails
+
+No emails fetched from Gmail.
+
+✓ Processed 0 emails
+
+Files saved to: /Users/jaredsheppard/.openclaw/workspace/pipeline/inbox
+
+Next step: Run analysis to score stock mentions
+
+✓ Newsletter Ingestion completed
+  ✓ Cleaned up 2 orphan audio file(s) (transcript already exists)
+
+============================================================
+STEP: Transcript AI Analysis
+============================================================
+  ⚠ Google Generative AI library not installed. Run: pip install google-generativeai
+
+============================================================
+Processing Podcast Transcripts with AI
+============================================================
+  Using Moonshot/Kimi API (primary)
+Found 97 transcript files
+  Processing e3c75a06762af10f374661e8af1d1af6.txt...
+    ⏭ Episode already in database (duplicate), skipping
+  Processing dario_amodei.txt...
+    ⏭ Too short, skipping
+  Processing DVVTS5786783285.txt...
+    ⏭ Episode 'Ben Horowitz: xAI Executive Exodus, Ilya's $5B SSI Valuation...' already in database, skipping
+  Processing moonshots_with_peter_diamandis_meta_buys_moltbook__gpt_5_4__and_fruitfly_brain_upload___moo_609f0b8d.txt...
+    ⏭ Episode already in database (duplicate), skipping
+  Processing elon_musk.txt...
+    ⏭ Too short, skipping
+  Processing EWWMN7160876380.txt...
+    ✓ Added episode (ID: 122)
+    + Emerging term: J-curve
+    + Emerging term: Evergreen Vehicles
+    ⚠ Failed to add mention for PQNT: CHECK constraint failed: timeframe IN ('short_term', 'long_term', 'unspecified')
+    ⚠ Failed to add mention for PQUS: CHECK constraint failed: timeframe IN ('short_term', 'long_term', 'unspecified')
+    ✓ Added 0 ticker mentions
+  Processing DVVTS6372073266.txt...
+    ⚠ AI analysis failed: Error code: 400 - {'error': {'code': 400, 'message': 'The request was rejected because it was considered high risk', 'param': 'prompt', 'type': 'content_filter'}}
+    ✗ AI analysis failed
+  Processing DVVTS3579530070.txt...
+    ⚠ AI analysis failed: Error code: 400 - {'error': {'code': 400, 'message': 'The request was rejected because it was considered high risk', 'param': 'prompt', 'type': 'content_filter'}}
+    ✗ AI analysis failed
+
+✓ Transcript processing complete: 1 new, 89 skipped, 0 errors
+✓ Analyzed 1 new transcripts
+
+============================================================
+STEP: Newsletter Import
+============================================================
+✓ Total newsletters imported: 0
+
+============================================================
+STEP: Promote Episodes to Insights
+============================================================
+Found 1 processed episodes not yet in insights
+  ✓ Promoted: 'The 2026 Private Credit Liquidity Crunch | Leyla Kunimoto on' (sentiment=bearish)
+  ✓ Auto-archived 1 older insights
+✓ Promoted 1 new insight(s) to website
+
+============================================================
+STEP: Promote Newsletters to Insights
+============================================================
+Found 0 newsletters not yet on site
+
+============================================================
+STEP: Aggregate Daily Scores
+============================================================
+✓ Saved 0 daily scores
+  Using Moonshot/Kimi API (primary)
+✓ Enriched 1 pundit(s) (LLM/Grokipedia profile + net worth + optional Grok)
+
+============================================================
+STEP: Generate Deep Dives
+============================================================
+Generating Deep Dives for 1 insights...
+
+  Using Moonshot/Kimi API
+[139] The 2026 Private Credit Liquidity Crunch | Leyla Kunimoto on
+  ✓ Deep Dive stored
+
+✓ Generated 1/1 Deep Dives
+
+✓ Generate Deep Dives completed
+
+============================================================
+STEP: Fetch Prices
+============================================================
+etching META... $525.72 (-19.62%)
+  Fetching MINE... $3.07 (-18.13%)
+  Fetching MSFT... $356.77 (-12.07%)
+  Fetching MSTR... $126.03 (-8.98%)
+  Fetching NEE... $91.40 (-0.15%)
+  Fetching NINT...     Error fetching NINT: HTTP Error 404: Not Found
+Failed
+  Fetching NOC... $679.00 (-7.62%)
+  Fetching NOW... $99.41 (-14.75%)
+  Fetching NVDA... $167.52 (-9.34%)
+  Fetching Nasdaq... $562.58 (-7.44%)
+  Fetching OKLO... $50.23 (-18.17%)
+  Fetching OPENAI...     Error fetching OPENAI: HTTP Error 404: Not Found
+Failed
+  Fetching PALL... $125.44 (-16.82%)
+  Fetching PLTM... $17.94 (-15.30%)
+  Fetching PLTR... $143.06 (-5.35%)
+  Fetching PQNT... $20.32 (-5.92%)
+  Fetching PQT... $0.00 (+0.00%)
+  Fetching PQUS... $23.58 (-5.72%)
+  Fetching PYPL... $43.59 (-3.18%)
+  Fetching QQQ... $562.58 (-7.44%)
+  Fetching Russell... $243.10 (-4.05%)
+  Fetching S&P... $634.09 (-6.36%)
+  Fetching S&P 500... $634.09 (-6.36%)
+  Fetching SF... $70.93 (-1.91%)
+  Fetching SLV... $63.44 (-20.79%)
+  Fetching SMP-500...     Error fetching SMP-500: HTTP Error 404: Not Found
+Failed
+  Fetching SMR... $10.30 (-14.38%)
+  Fetching SNAP... $3.93 (-19.96%)
+  Fetching SNWGF... $9.60 (-30.33%)
+  Fetching SOYB... $24.19 (-1.06%)
+  Fetching SPACEX...     Error fetching SPACEX: HTTP Error 404: Not Found
+Failed
+  Fetching SPCE... $2.26 (-9.60%)
+  Fetching SPY... $634.09 (-6.36%)
+  Fetching SQ... Failed
+  Fetching SQQQ... $87.42 (+23.84%)
+  Fetching Semiconductors... $374.25 (-5.81%)
+  Fetching T... $29.10 (+5.02%)
+  Fetching TDOC... $5.14 (-7.72%)
+  Fetching THROPIC...     Error fetching THROPIC: HTTP Error 404: Not Found
+Failed
+  Fetching TLT... $85.64 (-2.99%)
+  Fetching TSLA... $361.83 (-9.37%)
+  Fetching TSM... $326.74 (-5.86%)
+  Fetching TWTR...     Error fetching TWTR: HTTP Error 404: Not Found
+Failed
+  Fetching UNG... $12.28 (+0.08%)
+  Fetching URANIUM...     Error fetching URANIUM: HTTP Error 404: Not Found
+Failed
+  Fetching US 10 year Treasury...     Error fetching US 10 year Treasury: URL can't contain control characters. '/v8/finance/chart/US 
+Failed
+  Fetching US DOLLAR INDEX...     Error fetching US DOLLAR INDEX: URL can't contain control characters. '/v8/finance/chart/US 
+Failed
+  Fetching USO... $124.20 (+17.32%)
+  Fetching Uranium...     Error fetching Uranium: HTTP Error 404: Not Found
+Failed
+  Fetching V... $295.52 (-6.01%)
+  Fetching VEEV... $172.59 (-9.01%)
+  Fetching VIX... $30.84 (+27.28%)
+  Fetching WIT... $2.08 (-18.43%)
+  Fetching WMT... $122.89 (-1.78%)
+  Fetching WORK... Failed
+  Fetching WTBN... $25.10 (-1.70%)
+  Fetching WTI... $3.38 (+25.65%)
+  Fetching WTI CRUDE OIL...     Error fetching WTI CRUDE OIL: URL can't contain control characters. '/v8/finance/chart/WTI
+Failed
+  Fetching XAU-USD... $0.00 (+0.00%)
+  Fetching XOM... $170.99 (+15.43%)
+  Fetching ZEC... $0.00 (+0.00%)
+  Fetching ZEN...     Error fetching ZEN: HTTP Error 404: Not Found
+Failed
+
+✓ Saved 89 prices to /Users/jaredsheppard/.openclaw/workspace/site/price_data.json
+Finished: 2026-03-30 05:04:15.603938
+
+✓ Fetch Prices completed
+
+============================================================
+STEP: Generate Charts
+============================================================
+
+STDERR: Traceback (most recent call last):
+  File "/Users/jaredsheppard/.openclaw/workspace/pipeline/generate_charts.py", line 7, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+
+✗ Generate Charts failed
+
+============================================================
+STEP: Auto-Curate Terms
+============================================================

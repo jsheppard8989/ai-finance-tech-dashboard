@@ -3,7 +3,7 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-03-29T22:02:15.195717",
+  generatedAt: "2026-03-30T05:04:18.190497",
   chartsVersion: "2026-03-29T04:10:36.391634",
   tickerScores: [
   {
@@ -730,6 +730,26 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 139,
+      "title": "The 2026 Private Credit Liquidity Crunch | Leyla Kunimoto on Redemptions in Semi-liquid Vehicles, Private/Public BDCs, and the Future of Alternatives",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-03-29",
+      "summary": "In this episode of 'Monetary Matters with Jack Farley', Layla Kunimoto, founder and editor of an investor insights platform, discusses her journey into private markets and the democratization of access to alternative investments. She shares her insights on the shift of alternative managers towards retail investors and the advantages and disadvantages of traditional drawdown funds versus newer semi-liquid structures. Layla also expresses her views on public versus private VDCs, her current stance on public VDCs, and the impact of redemption caps on sentiment and actions of alternative asset managers.",
+      "key_takeaway": "The democratization of alternative investments provides retail investors with new opportunities, but also comes with structural differences and risks that must be understood.",
+      "tickers_mentioned": [
+        "PQNT",
+        "PQUS"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-30",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 122
+    },
+    {
       "id": 127,
       "title": "https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-18%2Fdff54dee-2ba4-02bd-9c43-d935696550da",
       "source_type": "podcast",
@@ -844,11 +864,11 @@ const dashboardData = {
         "HFGM"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-28",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-30",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 109
     },
     {
@@ -3314,6 +3334,29 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 139,
+      "title": "The 2026 Private Credit Liquidity Crunch | Leyla Kunimoto on Redemptions in Semi-liquid Vehicles, Private/Public BDCs, and the Future of Alternatives",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-03-29",
+      "summary": "In this episode of 'Monetary Matters with Jack Farley', Layla Kunimoto, founder and editor of an investor insights platform, discusses her journey into private markets and the democratization of access to alternative investments. She shares her insights on the shift of alternative managers towards retail investors and the advantages and disadvantages of traditional drawdown funds versus newer semi-liquid structures. Layla also expresses her views on public versus private VDCs, her current stance on public VDCs, and the impact of redemption caps on sentiment and actions of alternative asset managers.",
+      "key_takeaway": "The democratization of alternative investments provides retail investors with new opportunities, but also comes with structural differences and risks that must be understood.",
+      "tickers_mentioned": "[\"PQNT\", \"PQUS\"]",
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-30",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 122,
+      "episode_release_date": "2026-03-29",
+      "guest_name": null,
+      "key_tickers": [
+        "PQNT",
+        "PQUS"
+      ]
+    },
+    {
       "id": 127,
       "title": "https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-18%2Fdff54dee-2ba4-02bd-9c43-d935696550da",
       "source_type": "podcast",
@@ -3418,28 +3461,6 @@ const dashboardData = {
       "episode_release_date": "2026-03-28",
       "guest_name": null,
       "key_tickers": []
-    },
-    {
-      "id": 125,
-      "title": "Investing in Sovereign Credit with Lupin Ramon",
-      "source_type": "podcast",
-      "source_name": "Monetary Matters with Jack Farley",
-      "source_date": "2026-03-27",
-      "summary": "In this episode of Monetary Matters with Jack Farley, independent sovereign debt specialist Lupin Ramon discusses the nuances of investing in sovereign credit compared to corporate debt. They explore the unique risks associated with sovereign debt, including the willingness and ability of governments to repay, and the impact of geopolitical events on emerging market economies. Ramon also shares insights on the differences between investing in hard currency bonds and local currency bonds, and the implications of rising energy prices on various countries.",
-      "key_takeaway": "Sovereign credit investing requires a deep understanding of the unique risks and dynamics of lending to governments, which can offer significant returns but also carries substantial risks, particularly in the current geopolitical climate.",
-      "tickers_mentioned": "[\"HFGM\"]",
-      "sentiment": "bearish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-03-28",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 109,
-      "episode_release_date": "2026-03-27",
-      "guest_name": "Lupin Ramon",
-      "key_tickers": [
-        "HFGM"
-      ]
     },
     {
       "id": 126,
@@ -5060,7 +5081,7 @@ const dashboardData = {
     ],
     "contrarian_signals": [
       "Despite the long-term bullish outlook, short-term market movements may present contrarian signals, such as price corrections that could be seen as buying opportunities.",
-      "Investors may be overly optimistic about the short-term performance of commodities,\u5ffd\u89c6 the importance of a long-term investment horizon.",
+      "Investors may be overly optimistic about the short-term performance of commodities, the importance of a long-term investment horizon.",
       "There is a risk that the market may overshoot on the downside, presenting contrarian buying opportunities for those with a strong conviction in the long-term thesis."
     ],
     "catalysts": [
@@ -5503,7 +5524,7 @@ const dashboardData = {
       "Geopolitical developments and the duration of conflicts in the Middle East.",
       "Policy announcements from central banks regarding interest rates and liquidity measures.",
       "Economic data releases that could indicate shifts in global growth or inflation.",
-      "Energy market reports on production levels and\u5e93\u5b58 changes.",
+      "Energy market reports on production levels and changes.",
       "Announcements from energy companies regarding new projects or technological advancements."
     ],
     "related_insights": null,
@@ -6690,7 +6711,7 @@ const dashboardData = {
         "risk": "Key risks include regulatory changes affecting the automotive and energy industries, as well as potential disruptions from competitors and supply chain issues."
       }
     },
-    "positioning_guidance": "Investors should consider a balanced approach, with a portion of their portfolio allocated to established public companies like AAPL and NVDA, which offer exposure to mature markets and innovation.\u540c\u65f6, they should also allocate resources to private market investments or funds that provide access to early-stage companies, acknowledging the shift in returns towards insiders. Position sizing should reflect the risk tolerance and investment horizon of the investor, with a view to capitalize on both the stability of public markets and the growth potential of private markets.",
+    "positioning_guidance": "Investors should consider a balanced approach, with a portion of their portfolio allocated to established public companies like AAPL and NVDA, which offer exposure to mature markets and innovation., they should also allocate resources to private market investments or funds that provide access to early-stage companies, acknowledging the shift in returns towards insiders. Position sizing should reflect the risk tolerance and investment horizon of the investor, with a view to capitalize on both the stability of public markets and the growth potential of private markets.",
     "risk_factors": [
       "Regulatory changes that could either hinder or accelerate the shift towards private capital markets.",
       "The potential for increased litigation post-IPO, affecting the valuation and attractiveness of public offerings.",
@@ -7334,7 +7355,7 @@ const dashboardData = {
       "MSFT": {
         "rationale": "Microsoft Corporation (MSFT) is a technology stalwart with a strong presence in cloud services, software, and hardware.",
         "positioning": "Long-term strategic position, as Microsoft's diversified offerings and commitment to innovation provide a stable growth trajectory.",
-        "risk": "Key risks include reliance on the\u6301\u7eed\u6027 of cloud adoption, competition in the software market, and potential disruptions due to global economic shifts."
+        "risk": "Key risks include reliance on the of cloud adoption, competition in the software market, and potential disruptions due to global economic shifts."
       }
     },
     "positioning_guidance": "Investors should consider a diversified approach, allocating a portion of their portfolio to each of these technology leaders. Entry points should be strategic, taking advantage of market dips to accumulate positions. Given the medium to long-term nature of the thesis, investors should be prepared to hold these positions for at least 3-12 months, with a view to potentially longer-term gains. Consider hedging against sector-specific risks, such as regulatory changes or supply chain disruptions.",
@@ -8304,7 +8325,7 @@ const dashboardData = {
         "risk": "The risk lies in the rapid evolution of AI technology and potential competition from other chip manufacturers."
       },
       "TSLA": {
-        "rationale": "While Tesla is not directly involved in genetic testing, its focus on innovation and technology could position it to explore or invest in health tech in the future, given its CEO's history of\u8de8\u754c\u6295\u8d44.",
+        "rationale": "While Tesla is not directly involved in genetic testing, its focus on innovation and technology could position it to explore or invest in health tech in the future, given its CEO's history of.",
         "positioning": "Speculative long-term position, as any involvement in genetic testing would be a significant departure from current business operations.",
         "risk": "The risk is high due to the speculative nature of Tesla's potential involvement in the genetic testing space."
       }
@@ -8725,7 +8746,7 @@ const dashboardData = {
         "risk": "The risk includes the potential for Google to face increased regulatory scrutiny and the challenge of integrating disparate technologies into a cohesive user experience."
       },
       "MSFT": {
-        "rationale": "Microsoft's HoloLens and other AR/VR initiatives, along with its cloud computing services, align with the\u53d1\u5c55\u8d8b\u52bf towards new computing experiences.",
+        "rationale": "Microsoft's HoloLens and other AR/VR initiatives, along with its cloud computing services, align with the towards new computing experiences.",
         "positioning": "Maintain a strategic long position as Microsoft's enterprise focus could provide stability in the face of consumer tech volatility.",
         "risk": "The risk is in the company's ability to compete effectively in the consumer market against more established players in the AR/VR space."
       }
@@ -8773,7 +8794,7 @@ const dashboardData = {
       "Investors should monitor the correlation between Bitcoin and software stocks to gauge the market's perception of Bitcoin.",
       "Diversification into hard assets could provide a hedge against the current volatility in the software sector."
     ],
-    "investment_thesis": "The core investment logic is that Bitcoin, despite its attributes as a hard asset and a superior form of money, has been incorrectly priced alongside software stocks. As global liquidity shifts towards more traditional hard assets, Bitcoin is poised to decouple from software stocks and reprice based on its own fundamentals. This thesis is supported by the current market dynamics, where capital is moving away from tech multiples towards sectors that align with national interests and infrastructure development. The catalyst for this shift is the changing macroeconomic landscape and policy\u5bfc\u5411, with a timeframe that could span from the short to medium term as market participants adjust their perceptions and holdings accordingly.",
+    "investment_thesis": "The core investment logic is that Bitcoin, despite its attributes as a hard asset and a superior form of money, has been incorrectly priced alongside software stocks. As global liquidity shifts towards more traditional hard assets, Bitcoin is poised to decouple from software stocks and reprice based on its own fundamentals. This thesis is supported by the current market dynamics, where capital is moving away from tech multiples towards sectors that align with national interests and infrastructure development. The catalyst for this shift is the changing macroeconomic landscape and policy, with a timeframe that could span from the short to medium term as market participants adjust their perceptions and holdings accordingly.",
     "ticker_analysis": {
       "AAPL": {
         "rationale": "Apple Inc. is included as it represents a significant player in the technology sector, and its stock performance can indicate broader market sentiment towards tech stocks, which is crucial for understanding Bitcoin's current market behavior.",
@@ -9728,7 +9749,7 @@ const dashboardData = {
     "id": 109,
     "insight_id": 118,
     "podcast_episode_id": 102,
-    "overview": "The modern battlefield is becoming increasingly electronic, with soldiers requiring 30-60 watts of power continuously, akin to a mid-tier laptop running all the time. This shift demands a new tactical power layer to support advanced capabilities like drones, sensors, and electronic warfare systems. The current power infrastructure, reliant on diesel generators and fixed bases, is inadequate for the distributed and contested nature of future warfare. Chariot Defense, led by Adam Warmouth, is addressing this gap by building next-generation power systems that are smart, tactical, and\u9690\u5f62 to the enemy. This analysis explores the investment implications of this power infrastructure transformation in the context of modern warfare.",
+    "overview": "The modern battlefield is becoming increasingly electronic, with soldiers requiring 30-60 watts of power continuously, akin to a mid-tier laptop running all the time. This shift demands a new tactical power layer to support advanced capabilities like drones, sensors, and electronic warfare systems. The current power infrastructure, reliant on diesel generators and fixed bases, is inadequate for the distributed and contested nature of future warfare. Chariot Defense, led by Adam Warmouth, is addressing this gap by building next-generation power systems that are smart, tactical, and to the enemy. This analysis explores the investment implications of this power infrastructure transformation in the context of modern warfare.",
     "key_takeaways_detailed": [
       "The shift towards electronic warfare necessitates a new power infrastructure that is both efficient and tactically invisible.",
       "Chariot Defense is pioneering the development of integrated battery, power electronics, and microcontroller systems for the battlefield.",
@@ -9774,7 +9795,7 @@ const dashboardData = {
     ],
     "contrarian_signals": [
       "Investors may underestimate the speed at which the battlefield is becoming electronic, leading to a delayed response to the need for new power solutions.",
-      "There is a potential overemphasis on high-tech solutions, while\u5ffd\u89c6ing the need for robust, reliable, and low-profile power systems that can operate in contested environments.",
+      "There is a potential overemphasis on high-tech solutions, whileing the need for robust, reliable, and low-profile power systems that can operate in contested environments.",
       "The focus on new power systems may overshadow the importance of improving the efficiency and stealth of existing power solutions."
     ],
     "catalysts": [
@@ -10621,13 +10642,13 @@ const dashboardData = {
     "id": 122,
     "insight_id": 131,
     "podcast_episode_id": 115,
-    "overview": "The podcast from a16z featuring Christian Catalini and Eddie Lazarin delves into the economic implications of AI, suggesting a paradigm shift in how work is conducted and value is created. The discussion highlights the potential for AI to democratize access to resources, enabling individuals to leverage the power of teams at a fraction of the cost. This analysis explores the investment thesis around AI's impact on startups, labor, and the economy, emphasizing the current inflection point where AI's capabilities are beginning to resemble human\u534f\u4f5c, presenting both opportunities and challenges for investors.",
+    "overview": "The podcast from a16z featuring Christian Catalini and Eddie Lazarin delves into the economic implications of AI, suggesting a paradigm shift in how work is conducted and value is created. The discussion highlights the potential for AI to democratize access to resources, enabling individuals to leverage the power of teams at a fraction of the cost. This analysis explores the investment thesis around AI's impact on startups, labor, and the economy, emphasizing the current inflection point where AI's capabilities are beginning to resemble human, presenting both opportunities and challenges for investors.",
     "key_takeaways_detailed": [
       "AI's ability to perform long-running tasks with less guidance suggests a shift towards more autonomous and efficient operations, impacting labor dynamics and startup scaling.",
       "The 'codifiers curse' implies that as more tasks become measurable and thus automatable, the value of human creativity and innovation in uncharted territories becomes paramount.",
       "Investors should focus on companies that can leverage AI to create new markets or disrupt existing ones, looking for those that can push beyond digitized knowledge.",
       "The reevaluation of job roles in the age of AI suggests a need for investment in companies that can adapt their workforce and business models to the new economic reality.",
-      "The\u7455\u75b5 in AI outputs present a dual opportunity for quality control and improvement in AI algorithms, indicating a need for investment in robust QA processes and continuous learning systems."
+      "The in AI outputs present a dual opportunity for quality control and improvement in AI algorithms, indicating a need for investment in robust QA processes and continuous learning systems."
     ],
     "investment_thesis": "The core investment logic revolves around the transformative impact of AI on the economy, particularly in how it can redefine the scale and scope of startups and incumbents. Catalysts include advancements in AI technology, the democratization of compute power, and the shift towards automating measurable tasks. The timeframe for this thesis is medium to long-term, as the full economic implications of AI will likely unfold over the next 3-12 months and beyond, as the technology matures and becomes more integrated into various sectors.",
     "ticker_analysis": {
@@ -10649,7 +10670,7 @@ const dashboardData = {
       "MSFT": {
         "rationale": "Microsoft's commitment to AI through its cloud platform Azure and AI tools like GitHub Copilot suggests a strong position in the AI economy.",
         "positioning": "Medium to long-term strategic position, considering Microsoft's ability to integrate AI across its product offerings and services.",
-        "risk": "Dependency on the\u6301\u7eed\u6027 of cloud growth and competition from other tech giants in the AI space could pose risks."
+        "risk": "Dependency on the of cloud growth and competition from other tech giants in the AI space could pose risks."
       },
       "TSLA": {
         "rationale": "Tesla's use of AI in autonomous driving technology positions it to benefit from advancements in AI, potentially disrupting the automotive industry.",
@@ -10851,7 +10872,7 @@ const dashboardData = {
     "ticker_analysis": {
       "AAPL": {
         "rationale": "Apple is a bellwether for the technology sector and is often seen as a proxy for the health of the broader market. Its performance can indicate market sentiment and the potential for a downturn.",
-        "positioning": "Positioning in AAPL should be strategic, with a focus on long-term\u6301\u6709 as the company has a history of weathering market downturns and maintaining its value.",
+        "positioning": "Positioning in AAPL should be strategic, with a focus on long-term as the company has a history of weathering market downturns and maintaining its value.",
         "risk": "Key risks include a slowdown in consumer spending and potential disruptions in the global supply chain."
       },
       "NVDA": {
@@ -10984,7 +11005,7 @@ const dashboardData = {
     "key_takeaways_detailed": [
       "Invest in companies that embody the spirit of innovation and self-sufficiency, similar to the Italian city republics of the Renaissance.",
       "Look for leaders in technology and education that can shape the next generation of leaders and thinkers, much like the libraries and tutors of the Renaissance.",
-      "Consider the role of propaganda and image in the success of companies, as seen with the upstart rulers of the Renaissance\u65f6\u671f.",
+      "Consider the role of propaganda and image in the success of companies, as seen with the upstart rulers of the Renaissance.",
       "Monitor the impact of global trade and supply chain disruptions on companies, reflecting the challenges faced by cities post-Roman Empire dissolution.",
       "Evaluate the potential for a 'golden age' of technology and innovation, driven by the pursuit of knowledge and the emulation of past successes."
     ],
@@ -11165,7 +11186,7 @@ const dashboardData = {
       "Unexpected technological advancements or shifts in consumer preferences that could disrupt the current market dynamics."
     ],
     "contrarian_signals": [
-      "Market participants may be overly complacent about the ability of central banks to control inflation,\u5ffd\u89c6\u4e86\u6f5c\u5728\u7684\u4f9b\u5e94\u51b2\u51fb\u548c\u5de5\u8d44\u538b\u529b\u3002",
+      "Market participants may be overly complacent about the ability of central banks to control inflation,",
       "There is a possibility that technological advancements could mitigate the inflationary impact, such as increased efficiency in energy production or a faster transition to renewable energy sources.",
       "The global economy could experience a stronger-than-expected recovery, which could absorb the inflationary pressures without leading to a sustained period of high inflation."
     ],
@@ -11189,9 +11210,97 @@ const dashboardData = {
       "S&P 500",
       "WTI CRUDE OIL"
     ]
+  },
+  "139": {
+    "id": 130,
+    "insight_id": 139,
+    "podcast_episode_id": 122,
+    "overview": "The investment thesis revolves around the evolving landscape of private credit and the democratization of access to alternative investments, particularly semi-liquid vehicles. The 2026 Private Credit Liquidity Crunch highlights the shift from traditional drawdown funds to evergreen funds, which offer immediate deployment of capital and embedded liquidity mechanisms, thus avoiding the J-curve associated with traditional funds. This change has significant implications for retail investors and wealth managers, who are increasingly targeted by alternative managers for capital. The current market dynamics, including the inflow and potential upcoming outflow of capital from these semi-liquid funds, present both opportunities and risks that investors need to understand and navigate.",
+    "key_takeaways_detailed": [
+      "The transition from traditional drawdown funds to semi-liquid evergreen funds offers immediate capital deployment and avoids the J-curve, enhancing returns for investors.",
+      "Retail investors and wealth managers are becoming significant sources of capital for alternative managers, indicating a shift in the fundraising landscape.",
+      "The liquidity features of semi-liquid funds, allowing for up to 5% redemptions per quarter, provide investors with more control over their capital.",
+      "The proliferation of evergreen funds across various asset classes, including private credit, real estate, and infrastructure, offers diversification opportunities for investors.",
+      "Investors should monitor the balance of inflows and outflows in semi-liquid funds, as significant outflows could lead to a liquidity crunch, affecting asset valuations and investor returns."
+    ],
+    "investment_thesis": "The core investment logic is that the shift towards semi-liquid vehicles in private credit and other alternative investments provides a more efficient and immediate return stream for investors, avoiding the negative cash flow associated with traditional drawdown funds. This thesis is supported by the increasing accessibility of alternative investments to retail investors and the growing interest from alternative managers in raising capital from this demographic. The catalysts for this thesis include the continued proliferation of evergreen funds and the potential for a liquidity crunch in 2026, which could significantly impact asset valuations and investor returns. The timeframe for this thesis is medium to long-term, as the effects of these changes will likely unfold over the next 3-12 months and beyond.",
+    "ticker_analysis": {
+      "PQNT": {
+        "rationale": "PQNT is an AI-enhanced ETF range by Pictay Asset Management, which is relevant to the thesis as it represents an innovative approach to equity exposure, potentially offering investors an alternative to traditional investment vehicles.",
+        "positioning": "Position long on PQNT as a strategic investment to benefit from the AI-driven enhancement of equity exposure, aligning with the trend towards alternative and innovative investment solutions.",
+        "risk": "Key risks include the underperformance of the AI models used for equity selection and the potential for increased market volatility affecting the ETF's performance."
+      },
+      "PQUS": {
+        "rationale": "PQUS, another ETF from Pictay Asset Management, is relevant as it represents the application of AI in US equity markets, which is in line with the thesis of alternative investment approaches.",
+        "positioning": "Consider a long position in PQUS for tactical exposure to US equities with AI-driven enhancements, especially for investors seeking a differentiated approach to the US market.",
+        "risk": "Risks include the potential for AI model failures and the broader market risks associated with US equities."
+      },
+      "SPY": {
+        "rationale": "SPY, the S&P 500 ETF, is included for comparison to the AI-enhanced ETFs, as it represents a traditional approach to equity exposure.",
+        "positioning": "Hold a strategic long position in SPY for broad market exposure, but consider hedging or reducing exposure in favor of AI-enhanced ETFs like PQNT and PQUS for potential outperformance.",
+        "risk": "Risks include market downturns and the potential for underperformance compared to AI-enhanced strategies."
+      }
+    },
+    "positioning_guidance": "Investors should consider a diversified approach, allocating a portion of their portfolio to semi-liquid vehicles like PQNT and PQUS for immediate exposure to alternative investments. Entry points should be considered in the context of market volatility and the performance of traditional investment vehicles like SPY. Timeframes for these investments should be medium to long-term, as the benefits of immediate capital deployment and liquidity features may take time to materialize. Investors should also consider hedging strategies to protect against potential liquidity crunches and market downturns.",
+    "risk_factors": [
+      "The underperformance of AI models used in ETFs like PQNT and PQUS could lead to losses.",
+      "A significant outflow of capital from semi-liquid funds could lead to a liquidity crunch, affecting asset valuations and investor returns.",
+      "Market volatility and downturns could impact the performance of all equity investments, including traditional and AI-enhanced ETFs.",
+      "Regulatory changes could affect the operation and performance of semi-liquid funds and alternative investments.",
+      "The proliferation of semi-liquid funds could lead to overexposure and a lack of diversification in the alternative investment space."
+    ],
+    "contrarian_signals": [
+      "Traditional investment managers may argue that the immediate deployment of capital in semi-liquid funds could lead to overexposure to market risks and a lack of due diligence in asset selection.",
+      "Some investors may prefer the long-term, stable returns associated with traditional drawdown funds, viewing the liquidity features of semi-liquid funds as a disadvantage in times of market stress.",
+      "There is a risk that the democratization of alternative investments could lead to a misallocation of capital and increased market volatility due to the involvement of less sophisticated investors."
+    ],
+    "catalysts": [
+      "The upcoming reporting season for semi-liquid funds, which could provide insights into the performance and liquidity features of these vehicles.",
+      "Regulatory updates on the alternative investment space, which could either support or challenge the growth of semi-liquid funds.",
+      "Market stress events, which could test the resilience and liquidity features of semi-liquid funds and affect investor sentiment.",
+      "The launch of new semi-liquid funds and the performance of existing ones, which could influence the adoption rate and investor preferences.",
+      "Economic indicators and central bank policies, which could impact market volatility and the attractiveness of alternative investments compared to traditional assets."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-03-30T05:03:53.860642",
+    "updated_at": "2026-03-30 10:03:53",
+    "insight_title": "The 2026 Private Credit Liquidity Crunch | Leyla Kunimoto on Redemptions in Semi-liquid Vehicles, Private/Public BDCs, and the Future of Alternatives",
+    "source_name": "Monetary Matters with Jack Farley",
+    "source_date": "2026-03-29",
+    "key_tickers": [
+      "PQNT",
+      "PQUS"
+    ]
   }
 },
   suggestedTerms: [
+  {
+    "id": 124,
+    "term": "J-curve",
+    "definition": "A pattern in private equity where the value of investments is initially lower than the cost, but is expected to increase over time.",
+    "investment_implications": "Understanding the J-curve is crucial for investors in private equity to manage expectations and timing of returns.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-03-30 10:03:10",
+    "priority_score": 80
+  },
+  {
+    "id": 125,
+    "term": "Evergreen Vehicles",
+    "definition": "Investment funds that do not have a fixed termination date and can continue to operate indefinitely, offering more flexibility and liquidity.",
+    "investment_implications": "Evergreen vehicles can provide investors with continuous access to investment opportunities without the constraints of a traditional fund's lifecycle.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-03-30 10:03:10",
+    "priority_score": 80
+  },
   {
     "id": 122,
     "term": "Privacy-Focused Cryptocurrencies",
@@ -11215,35 +11324,11 @@ const dashboardData = {
     "relevance_score": 50,
     "submitted_date": "2026-03-29 03:04:38",
     "priority_score": 80
-  },
-  {
-    "id": 120,
-    "term": "Disaggregated Computing",
-    "definition": "A computing approach where different parts of a processing pipeline run on different types of hardware, optimizing performance and efficiency.",
-    "investment_implications": "Investors should consider companies leading in disaggregated computing for potential gains in the AI era.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-03-29 03:04:27",
-    "priority_score": 80
-  },
-  {
-    "id": 121,
-    "term": "Open-Source AI Models",
-    "definition": "AI models that are publicly accessible and modifiable, fostering innovation and collaboration in the AI community.",
-    "investment_implications": "Investors should look for companies that balance proprietary and open-source AI models to leverage domain expertise and drive innovation.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-03-29 03:04:27",
-    "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 1270,
+    "id": 1288,
     "name": "This special episode",
     "slug": "this-special-episode",
     "bio": null,
@@ -11255,7 +11340,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1271,
+    "id": 1289,
     "name": "Lupin Ramon",
     "slug": "lupin-ramon",
     "bio": null,
@@ -11267,7 +11352,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1272,
+    "id": 1290,
     "name": "When the Music Stops",
     "slug": "when-the-music-stops",
     "bio": null,
@@ -11279,7 +11364,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1273,
+    "id": 1291,
     "name": "Ground Infrastructure",
     "slug": "ground-infrastructure",
     "bio": null,
@@ -11291,7 +11376,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1274,
+    "id": 1292,
     "name": "Rory Johnston",
     "slug": "rory-johnston",
     "bio": null,
@@ -11303,7 +11388,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1275,
+    "id": 1293,
     "name": "Senator John Fetterman on Voting Rights",
     "slug": "senator-john-fetterman-on-voting-rights",
     "bio": null,
@@ -11315,7 +11400,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1276,
+    "id": 1294,
     "name": "Stock Market on Shaky Foundations",
     "slug": "stock-market-on-shaky-foundations",
     "bio": null,
@@ -11327,7 +11412,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1277,
+    "id": 1295,
     "name": "Elon Musk on Moonshots",
     "slug": "elon-musk-on-moonshots",
     "bio": null,
@@ -11339,7 +11424,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1278,
+    "id": 1296,
     "name": "Investing in Capitalism",
     "slug": "investing-in-capitalism",
     "bio": null,
@@ -11351,7 +11436,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1279,
+    "id": 1297,
     "name": "Harvard Professor Graham Allison",
     "slug": "harvard-professor-graham-allison",
     "bio": null,
@@ -11363,7 +11448,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1280,
+    "id": 1298,
     "name": "Andrew Yang",
     "slug": "andrew-yang",
     "bio": "Andrew Yang is an entrepreneur and political leader who popularized universal basic income in U.S. politics through his 2020 presidential campaign.",
@@ -11375,7 +11460,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1281,
+    "id": 1299,
     "name": "Inventing the Renaissance",
     "slug": "inventing-the-renaissance",
     "bio": null,
@@ -11387,7 +11472,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1282,
+    "id": 1300,
     "name": "Ray Dalio",
     "slug": "ray-dalio",
     "bio": "Ray Dalio is the founder of Bridgewater Associates and a macro investor known for his 'Principles' framework and work on long-term debt cycles.",
@@ -11399,7 +11484,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1283,
+    "id": 1301,
     "name": "Nobel Prize-winning economist Paul Krugman",
     "slug": "nobel-prize-winning-economist-paul-krugman",
     "bio": null,
@@ -11411,7 +11496,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1284,
+    "id": 1302,
     "name": "host Jack Mallers",
     "slug": "host-jack-mallers",
     "bio": null,
@@ -11423,7 +11508,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1285,
+    "id": 1303,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -11435,7 +11520,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1286,
+    "id": 1304,
     "name": "Bosworth",
     "slug": "bosworth",
     "bio": null,
@@ -11447,7 +11532,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1287,
+    "id": 1305,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -11460,6 +11545,64 @@ const dashboardData = {
   }
 ],
   pundits: [
+  {
+    "id": 137,
+    "name": "Layla Kunimoto",
+    "slug": "layla-kunimoto",
+    "bio": "Layla Kunimoto is the founder and editor of an investor insights platform with a focus on democratizing access to alternative investments. She has a background in finance and has been investing in public markets since college. Kunimoto's journey into private markets began with real estate and expanded to private credit and private equity.",
+    "known_for": "Democratizing access to alternative investments and providing insights into private markets.",
+    "net_worth_usd": 2000000000.0,
+    "net_worth_source": "https://substack.com/profile/30791185-leyla-kunimoto/note/c-158466514",
+    "net_worth_updated_at": "2026-03-30T05:03:22.928712",
+    "voice_tone": "Inquisitive and analytical",
+    "voice_style": "Detailed and explanatory, providing context and personal experience",
+    "voice_delivery_notes": "Paced with emphasis on key points regarding market structures and investment vehicles",
+    "voice_profile_updated_at": "2026-03-30 10:03:10",
+    "last_seen": "2026-03-30 10:03:10",
+    "last_episode_title": "The 2026 Private Credit Liquidity Crunch | Leyla Kunimoto on Redemptions in Semi-liquid Vehicles, Private/Public BDCs, and the Future of Alternatives",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-03-29",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "The democratization of alternative investments provides retail investors with new opportunities, but also comes with structural differences and risks that must be understood.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-30T05:03:22.005290",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Layla Kunimoto",
+      "fetched_at": "2026-03-30T10:03:22.005018+00:00",
+      "cliff_notes": "Layla Kunimoto began her career in finance, investing in public markets during her college years. Her entry into private markets was accidental, starting with private placement real estate in 2020. From there, she quickly moved into private credit and private equity, joining investor groups and attending conferences. Kunimoto observed the democratization of access to alternative investments firsthand, as large asset managers pushed into the space. As a retail investor, she is at the end of the funnel for these funds and asset managers. Her platform aims to provide insights into these alternative investments, making them more accessible to a wider audience.",
+      "derived": {
+        "current_role": "Founder and Editor, Investor Insights Platform",
+        "political_affiliation": "Democratization of access to alternative investments"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Layla Kunimoto began her career in finance, investing in public markets during her college years. Her entry into private markets was accidental, starting with private placement real estate in 2020. From there, she quickly moved into private credit and private equity, joining investor groups and attending conferences. Kunimoto observed the democratization of access to alternative investments firsthand, as large asset managers pushed into the space.",
+        "As a retail investor, she is at the end of the funnel for these funds and asset managers. Her platform aims to provide insights into these alternative investments, making them more accessible to a wider audience."
+      ],
+      "sections": [
+        {
+          "heading": "Private Markets",
+          "body": "Layla Kunimoto's initial foray into private markets was through real estate, which led her to explore private credit and private equity."
+        },
+        {
+          "heading": "Democratization of Access",
+          "body": "Kunimoto has witnessed the democratization of access to alternative investments, driven by large asset managers entering the space and targeting retail investors like herself."
+        },
+        {
+          "heading": "Investor Insights",
+          "body": "As the founder and editor of an investor insights platform, Kunimoto aims to provide valuable information and analysis on alternative investments to a broader audience."
+        }
+      ]
+    },
+    "net_worth": "$2.00B"
+  },
   {
     "id": 97,
     "name": "Simon White",
@@ -11478,7 +11621,7 @@ const dashboardData = {
     "last_podcast_name": "Unknown Podcast",
     "last_episode_date": "2026-03-19",
     "mention_score": 2,
-    "mention_score_decayed": 2,
+    "mention_score_decayed": 1.95,
     "last_main_idea": "The Iran conflict could lead to a renewed inflation cycle, affecting commodities and energy markets, with potential second-order effects that markets may currently be underpricing.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:35:48.845381",
@@ -11535,7 +11678,7 @@ const dashboardData = {
     "last_podcast_name": "Unknown Podcast",
     "last_episode_date": "2026-03-19",
     "mention_score": 4,
-    "mention_score_decayed": 4,
+    "mention_score_decayed": 3.91,
     "last_main_idea": "The Iran conflict could lead to a renewed inflation cycle, affecting commodities and energy markets, with potential second-order effects that markets may currently be underpricing.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:36:30.218908",
@@ -11592,7 +11735,7 @@ const dashboardData = {
     "last_podcast_name": "Unknown Podcast",
     "last_episode_date": "2026-03-28",
     "mention_score": 3,
-    "mention_score_decayed": 3,
+    "mention_score_decayed": 2.93,
     "last_main_idea": "Investing in AI-driven platforms and technologies is essential for capturing the growth in the global financial system and staying ahead in the AI era.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:40:52.368193",
@@ -11654,7 +11797,7 @@ const dashboardData = {
     "last_podcast_name": "Unknown Podcast",
     "last_episode_date": "2026-03-28",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Betting on talented individuals in businesses rather than predicting tech trends is a more consistent approach to investing.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-28T22:05:06.552638",
@@ -11717,7 +11860,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-27",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Invest in companies that are driving innovation and can disrupt traditional industries by offering superior products at better prices, while keeping an eye on the competitive dynamics between the US and China in scientific research and technology.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-28T22:05:25.190284",
@@ -11775,7 +11918,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-27",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Invest in companies that are driving innovation and can disrupt traditional industries by offering superior products at better prices, while keeping an eye on the competitive dynamics between the US and China in scientific research and technology.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-28T22:05:33.382582",
@@ -11829,7 +11972,7 @@ const dashboardData = {
     "last_podcast_name": "Unknown Podcast",
     "last_episode_date": "2026-03-28",
     "mention_score": 2,
-    "mention_score_decayed": 2,
+    "mention_score_decayed": 1.95,
     "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-28T22:05:42.395070",
@@ -11891,7 +12034,7 @@ const dashboardData = {
     "last_podcast_name": "Unknown Podcast",
     "last_episode_date": "2026-03-28",
     "mention_score": 2,
-    "mention_score_decayed": 2,
+    "mention_score_decayed": 1.95,
     "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-28T22:05:50.938326",
@@ -11948,7 +12091,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-02-15",
     "mention_score": 2,
-    "mention_score_decayed": 2,
+    "mention_score_decayed": 1.95,
     "last_main_idea": "Invest in sectors with fertile ground for short selling, such as AI and tech, and under-allocated areas like junior mining, while combining long and short strategies for potential alpha.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:42:09.376490",
@@ -12058,7 +12201,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Sovereign credit investing requires a deep understanding of the unique risks and dynamics of lending to governments, which can offer significant returns but also carries substantial risks, particularly in the current geopolitical climate.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-28T04:06:45.925345",
@@ -12120,7 +12263,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Investing in companies that apply lessons from SpaceX and Tesla can lead to innovation in the physical economy, focusing on scalability, communication, and technical expertise.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-28T04:06:58.025543",
@@ -12182,7 +12325,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Investing in companies that apply lessons from SpaceX and Tesla can lead to innovation in the physical economy, focusing on scalability, communication, and technical expertise.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-28T04:07:10.077867",
@@ -12517,63 +12660,6 @@ const dashboardData = {
       ]
     },
     "net_worth": "$5.0M"
-  },
-  {
-    "id": 114,
-    "name": "Chris Power",
-    "slug": "chris-power",
-    "bio": "Chris Power is the founder and CEO of Hadrian, a company that specializes in advanced manufacturing for submarines. He is known for leading the development of a 2.25 million square foot advanced manufacturing facility for submarine programs, which is crucial for the United States Navy's submarine fleet modernization.",
-    "known_for": "Developing advanced manufacturing capabilities for the U.S. Navy's submarine programs.",
-    "net_worth_usd": 220000000.0,
-    "net_worth_source": "https://www.businessoffamily.net/chris-powers",
-    "net_worth_updated_at": "2026-03-26T04:21:15.715437",
-    "voice_tone": "Confident and solution-oriented",
-    "voice_style": "Factual and forward-looking",
-    "voice_delivery_notes": "Clear and assertive with a focus on the future of manufacturing",
-    "voice_profile_updated_at": "2026-03-26 09:20:15",
-    "last_seen": "2026-03-26 09:20:15",
-    "last_episode_title": "Submarine Manufacturing and Advanced Factories",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-03-25",
-    "mention_score": 1,
-    "mention_score_decayed": 0.93,
-    "last_main_idea": "Investing in advanced manufacturing and workforce development for submarine production could lead to increased efficiency and meet the growing demand for naval capabilities.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-26T04:20:54.928623",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Chris Power",
-      "fetched_at": "2026-03-26T09:20:54.928394+00:00",
-      "cliff_notes": "Chris Power is recognized for his work in the field of advanced manufacturing, particularly in the context of submarine production. As the CEO of Hadrian, he has been instrumental in the development of a large-scale manufacturing facility aimed at enhancing the capabilities of the U.S. Navy's submarine fleet. His efforts are focused on increasing productivity and efficiency in submarine manufacturing, which is critical for national defense and maintaining strategic advantages. Power's work bridges the gap between traditional manufacturing and modern technology, emphasizing the importance of advanced factories in achieving the necessary productivity uplift. His leadership in this field is significant for investors and tech listeners due to the implications for national security, economic growth, and the future of manufacturing.",
-      "derived": {
-        "current_role": "Founder and CEO of Hadrian"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Chris Power is recognized for his work in the field of advanced manufacturing, particularly in the context of submarine production. As the CEO of Hadrian, he has been instrumental in the development of a large-scale manufacturing facility aimed at enhancing the capabilities of the U.S. Navy's submarine fleet. His efforts are focused on increasing productivity and efficiency in submarine manufacturing, which is critical for national defense and maintaining strategic advantages.",
-        "Power's work bridges the gap between traditional manufacturing and modern technology, emphasizing the importance of advanced factories in achieving the necessary productivity uplift. His leadership in this field is significant for investors and tech listeners due to the implications for national security, economic growth, and the future of manufacturing."
-      ],
-      "sections": [
-        {
-          "heading": "Submarine Manufacturing",
-          "body": "Chris Power is leading the charge in advanced manufacturing for submarines, which is pivotal for the U.S. Navy's fleet modernization and maintaining strategic advantages at sea."
-        },
-        {
-          "heading": "Productivity and Efficiency",
-          "body": "Power emphasizes the need for a productivity uplift in submarine manufacturing, advocating for the fusion of workforce training and software to achieve higher production rates and meet the Navy's growing demands."
-        },
-        {
-          "heading": "Advanced Factories",
-          "body": "The development of Hadrian's 2.25 million square foot facility showcases Power's commitment to creating advanced factories that can significantly increase the production capacity for submarines, which is essential for national defense."
-        }
-      ]
-    },
-    "net_worth": "$220.0M"
   }
 ]
 };

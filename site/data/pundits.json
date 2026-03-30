@@ -1,5 +1,63 @@
 [
   {
+    "id": 137,
+    "name": "Layla Kunimoto",
+    "slug": "layla-kunimoto",
+    "bio": "Layla Kunimoto is the founder and editor of an investor insights platform with a focus on democratizing access to alternative investments. She has a background in finance and has been investing in public markets since college. Kunimoto's journey into private markets began with real estate and expanded to private credit and private equity.",
+    "known_for": "Democratizing access to alternative investments and providing insights into private markets.",
+    "net_worth_usd": 2000000000.0,
+    "net_worth_source": "https://substack.com/profile/30791185-leyla-kunimoto/note/c-158466514",
+    "net_worth_updated_at": "2026-03-30T05:03:22.928712",
+    "voice_tone": "Inquisitive and analytical",
+    "voice_style": "Detailed and explanatory, providing context and personal experience",
+    "voice_delivery_notes": "Paced with emphasis on key points regarding market structures and investment vehicles",
+    "voice_profile_updated_at": "2026-03-30 10:03:10",
+    "last_seen": "2026-03-30 10:03:10",
+    "last_episode_title": "The 2026 Private Credit Liquidity Crunch | Leyla Kunimoto on Redemptions in Semi-liquid Vehicles, Private/Public BDCs, and the Future of Alternatives",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-03-29",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "The democratization of alternative investments provides retail investors with new opportunities, but also comes with structural differences and risks that must be understood.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-30T05:03:22.005290",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Layla Kunimoto",
+      "fetched_at": "2026-03-30T10:03:22.005018+00:00",
+      "cliff_notes": "Layla Kunimoto began her career in finance, investing in public markets during her college years. Her entry into private markets was accidental, starting with private placement real estate in 2020. From there, she quickly moved into private credit and private equity, joining investor groups and attending conferences. Kunimoto observed the democratization of access to alternative investments firsthand, as large asset managers pushed into the space. As a retail investor, she is at the end of the funnel for these funds and asset managers. Her platform aims to provide insights into these alternative investments, making them more accessible to a wider audience.",
+      "derived": {
+        "current_role": "Founder and Editor, Investor Insights Platform",
+        "political_affiliation": "Democratization of access to alternative investments"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Layla Kunimoto began her career in finance, investing in public markets during her college years. Her entry into private markets was accidental, starting with private placement real estate in 2020. From there, she quickly moved into private credit and private equity, joining investor groups and attending conferences. Kunimoto observed the democratization of access to alternative investments firsthand, as large asset managers pushed into the space.",
+        "As a retail investor, she is at the end of the funnel for these funds and asset managers. Her platform aims to provide insights into these alternative investments, making them more accessible to a wider audience."
+      ],
+      "sections": [
+        {
+          "heading": "Private Markets",
+          "body": "Layla Kunimoto's initial foray into private markets was through real estate, which led her to explore private credit and private equity."
+        },
+        {
+          "heading": "Democratization of Access",
+          "body": "Kunimoto has witnessed the democratization of access to alternative investments, driven by large asset managers entering the space and targeting retail investors like herself."
+        },
+        {
+          "heading": "Investor Insights",
+          "body": "As the founder and editor of an investor insights platform, Kunimoto aims to provide valuable information and analysis on alternative investments to a broader audience."
+        }
+      ]
+    },
+    "net_worth": "$2.00B"
+  },
+  {
     "id": 97,
     "name": "Simon White",
     "slug": "simon-white",
@@ -17,7 +75,7 @@
     "last_podcast_name": "Unknown Podcast",
     "last_episode_date": "2026-03-19",
     "mention_score": 2,
-    "mention_score_decayed": 2,
+    "mention_score_decayed": 1.95,
     "last_main_idea": "The Iran conflict could lead to a renewed inflation cycle, affecting commodities and energy markets, with potential second-order effects that markets may currently be underpricing.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:35:48.845381",
@@ -74,7 +132,7 @@
     "last_podcast_name": "Unknown Podcast",
     "last_episode_date": "2026-03-19",
     "mention_score": 4,
-    "mention_score_decayed": 4,
+    "mention_score_decayed": 3.91,
     "last_main_idea": "The Iran conflict could lead to a renewed inflation cycle, affecting commodities and energy markets, with potential second-order effects that markets may currently be underpricing.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:36:30.218908",
@@ -131,7 +189,7 @@
     "last_podcast_name": "Unknown Podcast",
     "last_episode_date": "2026-03-28",
     "mention_score": 3,
-    "mention_score_decayed": 3,
+    "mention_score_decayed": 2.93,
     "last_main_idea": "Investing in AI-driven platforms and technologies is essential for capturing the growth in the global financial system and staying ahead in the AI era.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:40:52.368193",
@@ -193,7 +251,7 @@
     "last_podcast_name": "Unknown Podcast",
     "last_episode_date": "2026-03-28",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Betting on talented individuals in businesses rather than predicting tech trends is a more consistent approach to investing.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-28T22:05:06.552638",
@@ -256,7 +314,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-27",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Invest in companies that are driving innovation and can disrupt traditional industries by offering superior products at better prices, while keeping an eye on the competitive dynamics between the US and China in scientific research and technology.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-28T22:05:25.190284",
@@ -314,7 +372,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-27",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Invest in companies that are driving innovation and can disrupt traditional industries by offering superior products at better prices, while keeping an eye on the competitive dynamics between the US and China in scientific research and technology.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-28T22:05:33.382582",
@@ -368,7 +426,7 @@
     "last_podcast_name": "Unknown Podcast",
     "last_episode_date": "2026-03-28",
     "mention_score": 2,
-    "mention_score_decayed": 2,
+    "mention_score_decayed": 1.95,
     "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-28T22:05:42.395070",
@@ -430,7 +488,7 @@
     "last_podcast_name": "Unknown Podcast",
     "last_episode_date": "2026-03-28",
     "mention_score": 2,
-    "mention_score_decayed": 2,
+    "mention_score_decayed": 1.95,
     "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-28T22:05:50.938326",
@@ -487,7 +545,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-02-15",
     "mention_score": 2,
-    "mention_score_decayed": 2,
+    "mention_score_decayed": 1.95,
     "last_main_idea": "Invest in sectors with fertile ground for short selling, such as AI and tech, and under-allocated areas like junior mining, while combining long and short strategies for potential alpha.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:42:09.376490",
@@ -597,7 +655,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Sovereign credit investing requires a deep understanding of the unique risks and dynamics of lending to governments, which can offer significant returns but also carries substantial risks, particularly in the current geopolitical climate.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-28T04:06:45.925345",
@@ -659,7 +717,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Investing in companies that apply lessons from SpaceX and Tesla can lead to innovation in the physical economy, focusing on scalability, communication, and technical expertise.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-28T04:06:58.025543",
@@ -721,7 +779,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Investing in companies that apply lessons from SpaceX and Tesla can lead to innovation in the physical economy, focusing on scalability, communication, and technical expertise.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-28T04:07:10.077867",
@@ -1056,62 +1114,5 @@
       ]
     },
     "net_worth": "$5.0M"
-  },
-  {
-    "id": 114,
-    "name": "Chris Power",
-    "slug": "chris-power",
-    "bio": "Chris Power is the founder and CEO of Hadrian, a company that specializes in advanced manufacturing for submarines. He is known for leading the development of a 2.25 million square foot advanced manufacturing facility for submarine programs, which is crucial for the United States Navy's submarine fleet modernization.",
-    "known_for": "Developing advanced manufacturing capabilities for the U.S. Navy's submarine programs.",
-    "net_worth_usd": 220000000.0,
-    "net_worth_source": "https://www.businessoffamily.net/chris-powers",
-    "net_worth_updated_at": "2026-03-26T04:21:15.715437",
-    "voice_tone": "Confident and solution-oriented",
-    "voice_style": "Factual and forward-looking",
-    "voice_delivery_notes": "Clear and assertive with a focus on the future of manufacturing",
-    "voice_profile_updated_at": "2026-03-26 09:20:15",
-    "last_seen": "2026-03-26 09:20:15",
-    "last_episode_title": "Submarine Manufacturing and Advanced Factories",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-03-25",
-    "mention_score": 1,
-    "mention_score_decayed": 0.93,
-    "last_main_idea": "Investing in advanced manufacturing and workforce development for submarine production could lead to increased efficiency and meet the growing demand for naval capabilities.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-26T04:20:54.928623",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Chris Power",
-      "fetched_at": "2026-03-26T09:20:54.928394+00:00",
-      "cliff_notes": "Chris Power is recognized for his work in the field of advanced manufacturing, particularly in the context of submarine production. As the CEO of Hadrian, he has been instrumental in the development of a large-scale manufacturing facility aimed at enhancing the capabilities of the U.S. Navy's submarine fleet. His efforts are focused on increasing productivity and efficiency in submarine manufacturing, which is critical for national defense and maintaining strategic advantages. Power's work bridges the gap between traditional manufacturing and modern technology, emphasizing the importance of advanced factories in achieving the necessary productivity uplift. His leadership in this field is significant for investors and tech listeners due to the implications for national security, economic growth, and the future of manufacturing.",
-      "derived": {
-        "current_role": "Founder and CEO of Hadrian"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Chris Power is recognized for his work in the field of advanced manufacturing, particularly in the context of submarine production. As the CEO of Hadrian, he has been instrumental in the development of a large-scale manufacturing facility aimed at enhancing the capabilities of the U.S. Navy's submarine fleet. His efforts are focused on increasing productivity and efficiency in submarine manufacturing, which is critical for national defense and maintaining strategic advantages.",
-        "Power's work bridges the gap between traditional manufacturing and modern technology, emphasizing the importance of advanced factories in achieving the necessary productivity uplift. His leadership in this field is significant for investors and tech listeners due to the implications for national security, economic growth, and the future of manufacturing."
-      ],
-      "sections": [
-        {
-          "heading": "Submarine Manufacturing",
-          "body": "Chris Power is leading the charge in advanced manufacturing for submarines, which is pivotal for the U.S. Navy's fleet modernization and maintaining strategic advantages at sea."
-        },
-        {
-          "heading": "Productivity and Efficiency",
-          "body": "Power emphasizes the need for a productivity uplift in submarine manufacturing, advocating for the fusion of workforce training and software to achieve higher production rates and meet the Navy's growing demands."
-        },
-        {
-          "heading": "Advanced Factories",
-          "body": "The development of Hadrian's 2.25 million square foot facility showcases Power's commitment to creating advanced factories that can significantly increase the production capacity for submarines, which is essential for national defense."
-        }
-      ]
-    },
-    "net_worth": "$220.0M"
   }
 ]

@@ -14,6 +14,7 @@ import sqlite3
 # Add pipeline directory to path
 sys.path.insert(0, str(Path(__file__).parent))
 from db_manager import get_db
+from site_text_sanitize import strip_cjk_public_text
 
 
 def _refresh_pipeline_tracker() -> None:
@@ -530,6 +531,8 @@ def _export_pipeline_state(site_dir: Path):
         "note": "Canonical pipeline_state built from DB rows + curation approvals. Stage completion is deterministic.",
     }
 
+    payload = strip_cjk_public_text(payload)
+
     site_dir.mkdir(parents=True, exist_ok=True)
     out_path = site_dir / "pipeline_state.json"
     with open(out_path, "w", encoding="utf-8") as f:
@@ -569,16 +572,16 @@ def generate_website_js():
     site_dir = Path.home() / ".openclaw/workspace/site/data"
     
     # Get all data including archive
-    archive = db.export_archive_data()
-    main_content = db.get_main_page_content()
-    deepdives = db.get_all_deep_dive_content()
-    suggested_terms = db.get_suggested_terms_for_website(limit=4)
-    podcast_guests = db.get_podcast_guests_for_site(limit=20)
+    archive = strip_cjk_public_text(db.export_archive_data())
+    main_content = strip_cjk_public_text(db.get_main_page_content())
+    deepdives = strip_cjk_public_text(db.get_all_deep_dive_content())
+    suggested_terms = strip_cjk_public_text(db.get_suggested_terms_for_website(limit=4))
+    podcast_guests = strip_cjk_public_text(db.get_podcast_guests_for_site(limit=20))
     # Load pundits (semantic layer) from JSON exported by export_for_website
     pundits_path = site_dir / "pundits.json"
     try:
         with open(pundits_path, "r") as f:
-            pundits = json.load(f)
+            pundits = strip_cjk_public_text(json.load(f))
     except FileNotFoundError:
         pundits = []
 
@@ -596,7 +599,7 @@ def generate_website_js():
     # Load ticker scores
     try:
         with open(site_dir / 'ticker_scores.json', 'r') as f:
-            ticker_scores = json.load(f)
+            ticker_scores = strip_cjk_public_text(json.load(f))
     except FileNotFoundError:
         ticker_scores = []
     

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pipeline Health · AI Finance Tech</title>
+  <title>Data status · Scarcity &amp; Abundance</title>
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body {
@@ -63,9 +63,9 @@
 <body>
   <div class="container">
     <header>
-      <h1>Pipeline Health</h1>
-      <p class="subtitle">Pickup, processing, and site export at a glance</p>
-      <p class="muted" style="margin-top: 0.5rem;"><a href="index.html">← Back to dashboard</a></p>
+      <h1>Data status</h1>
+      <p class="subtitle">What ran last, what&apos;s in the export, and what still needs attention</p>
+      <p class="muted" style="margin-top: 0.5rem;"><a href="index.html">← Back to home</a></p>
     </header>
 
     <div class="card">
@@ -101,8 +101,8 @@
     </div>
 
     <div class="card">
-      <h2>Episodes to process (Clawbot todo)</h2>
-      <p class="muted" style="margin-bottom: 0.75rem;">Every current-month episode from your feeds that should end up on the Main Insight column, with a status that tells Clawbot what to do next.</p>
+      <h2>Episodes in queue</h2>
+      <p class="muted" style="margin-bottom: 0.75rem;">Current-window episodes from your feeds and where each one sits in pickup → site export.</p>
       <p id="episode-summary" class="muted" style="font-size: 0.85rem; margin-bottom: 0.5rem;"></p>
 
       <div class="muted" style="font-size: 0.8rem; margin-bottom: 0.75rem;">
@@ -386,11 +386,11 @@
 
       const healthEl = document.getElementById('pipeline-health-check');
       if (episodes.length === completedCount && episodes.length > 0) {
-        healthEl.textContent = '✅ Pipeline is clear: all tracked episodes are fully processed and on site; nothing new on feeds waiting for curation.';
+        healthEl.textContent = '✅ All tracked episodes are fully processed and on the site; nothing new on feeds waiting for curation.';
       } else if (episodes.length === 0) {
-        healthEl.textContent = '✅ Pipeline is clear: no episodes in window from your feeds.';
+        healthEl.textContent = '✅ No episodes in window from your feeds.';
       } else {
-        healthEl.textContent = '⬜ Pipeline has work remaining: use the stage checkmarks above and the legend to decide the next step for Clawbot.';
+        healthEl.textContent = '⬜ Work remaining: use the stage checkmarks above and the legend for the next step.';
       }
 
       // (Removed) Stale episode panel: duplicated by the deterministic stage table above.

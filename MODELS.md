@@ -60,10 +60,11 @@ Sorting on the front page uses these scores; Overton will get a 30‑day half‑
 - Optimized for: code, pipeline wiring, local tools, HEARTBEAT/MEMORY updates.
 - Treat as the “Clawbot brain” for design and implementation work.
 
-**OpenClaw agents (cron/heartbeat):**
+**OpenClaw agents (Clawbot / WhatsApp / iMessage / cron):**
 
-- Use the same model priorities as above for heavy tasks.
-- Heartbeats should be light: read JSONs, only trigger heavy models when runs are stale or blocked.
+- **Primary:** `openai/gpt-4o` — set in `~/.openclaw/openclaw.json` (`agents.defaults.model.primary`).  
+- **Fallbacks:** `gpt-5-chat-latest`, Kimi, Sonnet, `gpt-5`, then `gpt-4o-mini` for cost if upstream fails.  
+- Heartbeats should stay *light* (read JSONs); only trigger heavy pipeline work when stale or blocked.
 
 ---
 

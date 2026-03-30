@@ -1,6 +1,26 @@
 {
   "insights": [
     {
+      "id": 139,
+      "title": "The 2026 Private Credit Liquidity Crunch | Leyla Kunimoto on Redemptions in Semi-liquid Vehicles, Private/Public BDCs, and the Future of Alternatives",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-03-29",
+      "summary": "In this episode of 'Monetary Matters with Jack Farley', Layla Kunimoto, founder and editor of an investor insights platform, discusses her journey into private markets and the democratization of access to alternative investments. She shares her insights on the shift of alternative managers towards retail investors and the advantages and disadvantages of traditional drawdown funds versus newer semi-liquid structures. Layla also expresses her views on public versus private VDCs, her current stance on public VDCs, and the impact of redemption caps on sentiment and actions of alternative asset managers.",
+      "key_takeaway": "The democratization of alternative investments provides retail investors with new opportunities, but also comes with structural differences and risks that must be understood.",
+      "tickers_mentioned": [
+        "PQNT",
+        "PQUS"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-30",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 122
+    },
+    {
       "id": 127,
       "title": "https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-18%2Fdff54dee-2ba4-02bd-9c43-d935696550da",
       "source_type": "podcast",
@@ -115,11 +135,11 @@
         "HFGM"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-28",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-30",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 109
     },
     {

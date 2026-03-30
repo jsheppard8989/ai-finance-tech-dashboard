@@ -72,3 +72,6 @@ site/data/
 
 # Weekly debate archives (large MP3s)
 site/audio/archive/
+
+# Encrypted prompt log — never commit decrypted plaintext
+prompts/jared_prompts.plain.txt

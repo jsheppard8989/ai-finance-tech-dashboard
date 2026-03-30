@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-03-29T22:02:12.912703",
-  "last_updated": "2026-03-29T22:02:12.912703",
-  "last_pipeline_run": "2026-03-29T22:02:12.912703",
+  "generated_at": "2026-03-30T05:04:16.501791",
+  "last_updated": "2026-03-30T05:04:16.501791",
+  "last_pipeline_run": "2026-03-30T05:04:16.501791",
   "main_page": {
     "overton": 8,
     "insights": 8,
@@ -9,20 +9,20 @@
   },
   "counts": {
     "ticker_mentions": 148,
-    "podcast_episodes": 96,
+    "podcast_episodes": 97,
     "newsletters": 7,
     "daily_scores": 86,
     "overton_terms_total": 16,
-    "latest_insights_total": 112,
+    "latest_insights_total": 113,
     "today_mentions": {},
     "podcasts_analyzed": 1
   },
   "step_results": {
-    "downloaded": 2,
-    "transcribed": 2,
-    "analyzed": 2,
-    "insight_created": 2,
-    "published": 0,
+    "downloaded": 3,
+    "transcribed": 3,
+    "analyzed": 3,
+    "insight_created": 3,
+    "published": 1,
     "total": 4
   },
   "episodes": [
@@ -69,20 +69,14 @@
       "published": "2026-03-29",
       "rss_guid": "915856c0-2b8b-11f1-a72f-1b99f4839076",
       "stages": {
-        "downloaded": false,
-        "transcribed": false,
-        "analyzed": false,
-        "insight_created": false,
-        "published": false
+        "downloaded": true,
+        "transcribed": true,
+        "analyzed": true,
+        "insight_created": true,
+        "published": true
       },
-      "stage_reasons": {
-        "downloaded": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "transcribed": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "analyzed": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "insight_created": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
-      },
-      "status": "needs_download"
+      "stage_reasons": {},
+      "status": "complete"
     },
     {
       "id": "1a7873e6-52cf-493d-a1a1-360a49324923",
@@ -109,13 +103,6 @@
   ],
   "available_from_rss": [
     {
-      "podcast": "Monetary Matters with Jack Farley",
-      "title": "The 2026 Private Credit Liquidity Crunch | Leyla Kunimoto on Redemptions in Semi-liquid Vehicles, Private/Public BDCs, and the Future of Alternatives",
-      "published": "Sun, 29 Mar 2026 16:23:00 -0000",
-      "published_date": "2026-03-29",
-      "rss_guid": ""
-    },
-    {
       "podcast": "Moonshots with Peter Diamandis",
       "title": "Elon's $5 Trillion Bet, the End of Human Drivers, and Chamath's Market Warning | EP #242",
       "published": "Thu, 26 Mar 2026 14:00:00 -0000",
@@ -137,7 +124,7 @@
       "title": "Moonshots with Peter Diamandis: AI, Automation, and the Path to Abundance by 2035",
       "status": "needs_export",
       "published": "2026-03-26",
-      "age_days": 3,
+      "age_days": 4,
       "next_blocker": "published"
     },
     {
@@ -146,7 +133,7 @@
       "title": "Moonshots Podcast Episode #231 - OpenAI Acquires OpenClaw, 400x Cost Collapse, & Why India Wins the Talent War",
       "status": "needs_export",
       "published": "2026-03-21",
-      "age_days": 8,
+      "age_days": 9,
       "next_blocker": "published"
     },
     {
@@ -155,7 +142,7 @@
       "title": "Chris Dixon: From Quant Trading to Building a16z Crypto",
       "status": "needs_download",
       "published": "2026-03-02",
-      "age_days": 27,
+      "age_days": 28,
       "next_blocker": "downloaded"
     }
   ],
