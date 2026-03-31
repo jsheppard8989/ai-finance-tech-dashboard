@@ -1,5 +1,22 @@
 [
   {
+    "id": 123,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Marc Andreessen on Evaluating Founders and AI's Consumer Surplus",
+    "episode_date": "2026-03-30",
+    "summary": "In this episode of 'The a16z Show', Harry Stebbings interviews Mark Andreessen, co-founder of Andreessen Horowitz (a16z), discussing various aspects of venture capital, the tech industry, and the future of AI. Andreessen shares his views on introspection in business, the centralization of the tech industry, labor displacement myths, and the counterintuitive nature of venture capital where experience can sometimes hinder success. The conversation also touches on the importance of AI's economic value and its impact on users rather than just the companies building it.",
+    "key_takeaways": [
+      "Introspection in business can be overrated, as it may lead to emotional biases that cloud judgment.",
+      "Centralization in the tech industry is at an all-time high, with Silicon Valley being more dominant than ever.",
+      "The notion of large companies being overstaffed is prevalent, with some being overstaffed by as much as 75%.",
+      "Venture capital often faces the 'Skaled Stove phenomenon', where past failures in a category lead to the avoidance of future opportunities.",
+      "AI is reshaping the tech industry, with nearly 99% of its economic value expected to go to users rather than the companies creating the technology.",
+      "The importance of being able to have a positive impact on people and contribute to global consumer surplus is highlighted."
+    ],
+    "investment_thesis": "Invest in companies and technologies that are reshaping industries and have the potential to create significant economic value for a broad user base, rather than just the companies themselves.",
+    "key_tickers": null
+  },
+  {
     "id": 122,
     "podcast_name": "Monetary Matters with Jack Farley",
     "episode_title": "The 2026 Private Credit Liquidity Crunch | Leyla Kunimoto on Redemptions in Semi-liquid Vehicles, Private/Public BDCs, and the Future of Alternatives",

@@ -16182,3 +16182,511 @@ ModuleNotFoundError: No module named 'yfinance'
 ============================================================
 STEP: Auto-Curate Terms
 ============================================================
+sued by governments, which involves risks related to both the ability and willingne...
+
+• Hard Currency Bonds
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: Bonds issued by emerging market countries in a currency that is not their local currency, often the ...
+
+• Information Revolution
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A period of rapid change in how information is produced, disseminated, and consumed, often driven by...
+
+• Peer Review
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A process where scholars or experts in a field review each other's work to ensure accuracy and valid...
+
+• Dollar Naparne Run
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A term used by Rupert Mitchell to describe a scenario where the US dollar experiences a significant ...
+
+• Data Lakes
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: Large repositories of data used for advanced analytics and machine learning....
+
+• AI Adjacent
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: Industries or companies that are related to or benefit from the growth and development of artificial...
+
+• SaaS
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: Software as a Service, a software distribution model in which a third-party provider hosts applicati...
+
+• Strangulation as a Service
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A term used to describe the desire for enterprise software to simplify complex user interfaces and r...
+
+• Angel Investing
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: The practice of affluent individuals providing capital to startups in exchange for ownership equity ...
+
+• Crypto Practice
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A dedicated investment focus within a venture capital firm that specializes in cryptocurrencies and ...
+
+• Disaggregated Computing
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A computing approach where different parts of a processing pipeline run on different types of hardwa...
+
+• Open-Source AI Models
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: AI models that are publicly accessible and modifiable, fostering innovation and collaboration in the...
+
+• Privacy-Focused Cryptocurrencies
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: Cryptocurrencies that prioritize user privacy and anonymity, often using advanced cryptographic tech...
+
+• Quantum Resistance
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: The ability of a cryptographic system to remain secure against an attack by a quantum computer....
+
+• J-curve
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A pattern in private equity where the value of investments is initially lower than the cost, but is ...
+
+• Evergreen Vehicles
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: Investment funds that do not have a fixed termination date and can continue to operate indefinitely,...
+
+✓ Auto-Curate Terms completed
+
+============================================================
+STEP: Extract Podcast Guests
+============================================================
+============================================================
+Extract Podcast Guests
+============================================================
+Processing 97 processed episodes
+  ✓ This special episode ← Unknown Podcast (2026-03-28)
+  ✓ Lupin Ramon ← Monetary Matters with Jack Farley (2026-03-27)
+  ✓ When the Music Stops ← The Jack Mallers Show (2026-03-24)
+  ✓ Ground Infrastructure ← The a16z Show (2026-03-23)
+  ✓ Rory Johnston ← Monetary Matters with Jack Farley (2026-03-19)
+  ✓ Senator John Fetterman on Voting Rights ← All-In with Chamath, Jason, Sacks & Friedberg (2026-03-18)
+  ✓ Stock Market on Shaky Foundations ← Monetary Matters with Jack Farley (2026-03-18)
+  ✓ Elon Musk on Moonshots ← Moonshots with Peter Diamandis (2026-03-17)
+  ✓ Investing in Capitalism ← All-In with Chamath, Jason, Sacks & Friedberg (2026-03-13)
+  ✓ Harvard Professor Graham Allison ← All-In with Chamath, Jason, Sacks & Friedberg (2026-03-09)
+  ✓ Andrew Yang ← Moonshots with Peter Diamandis (2026-03-07)
+  ✓ Inventing the Renaissance ← Dwarkesh Podcast (2026-03-06)
+  ✓ Ray Dalio ← All-In with Chamath, Jason, Sacks & Friedberg (2026-03-03)
+  ✓ Nobel Prize-winning economist Paul Krugman ← Monetary Matters with Jack Farley (2026-02-19)
+  ✓ host Jack Mallers ← The Jack Mallers Show (2026-02-19)
+  ✓ Ben Horowitz ← Moonshots with Peter Diamandis (2026-02-19)
+  ✓ Bosworth ← a16z Live (2026-02-15)
+  ✓ Milton Berg ← Monetary Matters with Jack Farley (2026-02-06)
+
+✓ Done. 18 guest(s) in database.
+
+✓ Extract Podcast Guests completed
+
+============================================================
+STEP: Export Website Data
+============================================================
+============================================================
+Exporting Website Data
+============================================================
+✓ Exported website data to /Users/jaredsheppard/.openclaw/workspace/site/data
+✓ Exported: {'ticker_scores': 48, 'podcast_summaries': 42, 'archive_items': 129, 'podcast_guests': 18, 'pundits': 20}
+🔍 Scanning podcast pipeline...
+
+
+================================================================================
+📊 PODCAST PIPELINE STATUS
+================================================================================
+
+📈 Pipeline Summary (4 total episodes tracked):
+  ✅ Downloaded:       4 / 4
+  ✅ Transcribed:      3 / 4
+  ✅ Analyzed:         0 / 4
+  ✅ Insight Created:  0 / 4
+  ✅ Published:        0 / 4
+
+🔍 Episodes Needing Attention:
+
+  📝 Pending Transcription (1):
+    - Marc Andreessen on Evaluating Founders and AI's Co
+
+  🔬 Pending Analysis (3):
+    - Elon's $5 Trillion Bet, the End of Human Drivers, 
+    - NVIDIA's $1 Trillion Prediction, Anthropic Beats O
+    - Chris Dixon: From Quant Trading to Building a16z C
+
+✅ Complete Episodes (All Stages):
+    (None yet)
+
+📅 Last Updated: 2026-03-30T22:05:40.714741
+📁 Status file: /Users/jaredsheppard/.openclaw/workspace/pipeline/state/pipeline_status.json
+================================================================================
+  ✓ Exported pipeline_state.json: 4 tracked
+
+============================================================
+Generating Website JavaScript
+============================================================
+✓ Generated data.js with 48 tickers, 129 archive items, 113 deep dives, 4 suggested terms, 18 legacy guests, 20 pundits; chartsVersion=2026-03-29T04:10:36.391634
+✓ Bumped data.js cache-buster to v=1774926343
+
+============================================================
+STEP: Push to GitHub
+============================================================
+✓ Pushed to GitHub: Pipeline update 2026-03-30 22:05: 0 podcasts, 0 insights, 0 newsletters
+Nothing new — skipping notification
+
+============================================================
+PIPELINE COMPLETE
+Finished: 2026-03-30 22:05:45.332979
+============================================================
+📊 Pipeline Complete
+
+
+🌐 Website updated
+2026-03-31T05:00:49-05:00 run_if_scheduled: in window, running pipeline
+============================================================
+AUTO PIPELINE
+Mode: full
+Started: 2026-03-31 05:00:50.217000
+============================================================
+
+============================================================
+STEP: Podcast Curation
+============================================================
+es
+  Fetching: https://rss.libsyn.com/shows/254861/destinations/1928300.xml...
+    ✓ All-In with Chamath, Jason, Sacks & Friedberg: 0 episodes
+  Fetching: https://anchor.fm/s/e29097f4/podcast/rss...
+    ✓ The Jack Mallers Show: 0 episodes
+  Fetching: https://feed.podbean.com/macrovoices/feed.xml...
+    ✓ Macro Voices: 0 episodes
+  Fetching: https://api.substack.com/feed/podcast/69345.rss...
+    ✓ Dwarkesh Podcast: 0 episodes
+
+  Total feed episodes (current month only: 2026-03): 4
+
+Matching audio files to episodes...
+  ✓ Episodes with matching audio: 0
+  ? Unmatched audio files (no matching feed episode): 36
+  📥 Episodes pending download before auto-download: 4
+
+Approving all episodes from feed list (feeds are pre-curated)...
+  ↓ Downloading audio: The a16z Show – Chris Dixon: From Quant Trading to Building a16z Crypto
+  ✓ Downloaded audio for 1 approved episode(s)
+
+  APPROVED (will transcribe or download): 4
+  🎧 Approved episodes with audio after auto-download: 4
+
+======================================================================
+CURATION RESULTS
+======================================================================
+
+📌 APPROVED (will transcribe or download):
+
+  ✓ Moonshots with Peter Diamandis
+    Title: Elon's $5 Trillion Bet, the End of Human Drivers, and Chamath's Market
+    File: moonshots_with_peter_diamandis_elon_s__5_trillion_bet__the_end_of_human_drivers__and_chamat_28161dc4.mp3
+
+  ✓ Moonshots with Peter Diamandis
+    Title: NVIDIA's $1 Trillion Prediction, Anthropic Beats OpenAI, Tesla vs. TSM
+    File: moonshots_with_peter_diamandis_nvidia_s__1_trillion_prediction__anthropic_beats_openai__tes_c82c7892.mp3
+
+  ✓ The a16z Show
+    Title: Marc Andreessen on Evaluating Founders and AI's Consumer Surplus
+    File: the_a16z_show_marc_andreessen_on_evaluating_founders_and_ai_s_consumer_sur_987da1d0.mp3
+
+  ✓ The a16z Show
+    Title: Chris Dixon: From Quant Trading to Building a16z Crypto
+    File: the_a16z_show_chris_dixon__from_quant_trading_to_building_a16z_crypto_be2e5b4b.mp3
+
+
+✓ Curation log saved: /Users/jaredsheppard/.openclaw/workspace/pipeline/state/curation_log.json
+
+======================================================================
+NEXT STEPS
+======================================================================
+
+1. Review approved episodes above
+2. To transcribe approved episodes, run:
+   python3 transcribe_curated.py
+
+3. Or manually transcribe specific files (only for episodes that have audio):
+   whisper 'moonshots_with_peter_diamandis_elon_s__5_trillion_bet__the_end_of_human_drivers__and_chamat_28161dc4.mp3' --model tiny --language en
+   whisper 'moonshots_with_peter_diamandis_nvidia_s__1_trillion_prediction__anthropic_beats_openai__tes_c82c7892.mp3' --model tiny --language en
+   whisper 'the_a16z_show_marc_andreessen_on_evaluating_founders_and_ai_s_consumer_sur_987da1d0.mp3' --model tiny --language en
+   whisper 'the_a16z_show_chris_dixon__from_quant_trading_to_building_a16z_crypto_be2e5b4b.mp3' --model tiny --language en
+
+✓ Podcast Curation completed
+
+============================================================
+STEP: Fetch & Transcribe
+============================================================
+======================================================================
+Fetch & Transcribe Latest Podcast Episodes
+======================================================================
+  ✓ Swept 2 completed transcript file(s) from whisper_done into transcripts
+  ✓ Cleaned up 1 orphan audio file(s) (transcript already exists)
+
+Found 7 podcast feeds
+
+📻 Processing: https://feeds.megaphone.fm/DVVTS2890392624...
+  📋 Latest: Elon's $5 Trillion Bet, the End of Human Drivers, and Chamat...
+  ⬇️  Downloading: DVVTS3579530070.mp3
+     Title: Elon's $5 Trillion Bet, the End of Human Drivers, and Chamat...
+     ✓ Downloaded to /Users/jaredsheppard/.openclaw/workspace/audio/DVVTS3579530070.mp3
+  🎙️  Transcribing: DVVTS3579530070.mp3
+  ✓ Already transcribed: DVVTS3579530070.txt
+
+📻 Processing: https://feeds.megaphone.fm/EWWMN1909747317...
+  ⏭ Already have 'The 2026 Private Credit Liquidity Crunch | Leyla K' (guid match, ep_id=122)
+  ✗ No episode found
+
+📻 Processing: https://feeds.simplecast.com/JGE3yC0V...
+  📋 Latest: Marc Andreessen on Evaluating Founders and AI's Consumer Sur...
+  ⬇️  Downloading: the_a16z_show_20260330_9c92af97_4596_4752_b03c_eb0acba6.mp3
+     Title: Marc Andreessen on Evaluating Founders and AI's Consumer Sur...
+     ✓ Downloaded to /Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_20260330_9c92af97_4596_4752_b03c_eb0acba6.mp3
+  🎙️  Transcribing: the_a16z_show_20260330_9c92af97_4596_4752_b03c_eb0acba6.mp3
+  ✓ Already transcribed: the_a16z_show_20260330_9c92af97_4596_4752_b03c_eb0acba6.txt
+
+📻 Processing: https://rss.libsyn.com/shows/254861/destinations/1...
+  ⏭ Already have 'Anthropic's Generational Run, OpenAI Panics, AI Mo' (guid match, ep_id=117)
+  ✗ No episode found
+
+📻 Processing: https://anchor.fm/s/e29097f4/podcast/rss...
+  ⏭ Already have 'When the Music Stops: Why Bitcoin Is Next' (guid match, ep_id=100)
+  ✗ No episode found
+
+📻 Processing: https://feed.podbean.com/macrovoices/feed.xml...
+  ⏭ Already have 'MacroVoices #525 Lyn Alden: Iran Contagion, Inflat' (guid match, ep_id=107)
+  ✗ No episode found
+
+📻 Processing: https://api.substack.com/feed/podcast/69345.rss...
+  ⏭ Already have 'Terence Tao – Kepler, Newton, and the true nature ' (guid match, ep_id=94)
+  ✗ No episode found
+
+✓ Log saved: /Users/jaredsheppard/.openclaw/workspace/pipeline/state/fetch_log.json
+
+======================================================================
+SUMMARY
+======================================================================
+Total feeds: 7
+Successfully transcribed: 2
+Failed: 0
+
+Completed episodes:
+  ✓ Moonshots with Peter Diamandis: Elon's $5 Trillion Bet, the End of Human Drivers, ...
+  ✓ The a16z Show: Marc Andreessen on Evaluating Founders and AI's Co...
+
+
+Next step: Run 'python3 research.py' to analyze transcripts
+
+✓ Fetch & Transcribe completed
+
+============================================================
+STEP: Newsletter Ingestion
+============================================================
+==================================================
+Newsletter Ingestion Pipeline
+==================================================
+
+Connecting to Gmail...
+Connecting to Gmail at imap.gmail.com:993...
+Logging in as jsheppard8989@gmail.com...
+Selecting folder: NEWSLETTERS...
+Found 0 unread emails
+
+No emails fetched from Gmail.
+
+✓ Processed 0 emails
+
+Files saved to: /Users/jaredsheppard/.openclaw/workspace/pipeline/inbox
+
+Next step: Run analysis to score stock mentions
+
+✓ Newsletter Ingestion completed
+  ✓ Cleaned up 2 orphan audio file(s) (transcript already exists)
+
+============================================================
+STEP: Transcript AI Analysis
+============================================================
+  ⚠ Google Generative AI library not installed. Run: pip install google-generativeai
+
+============================================================
+Processing Podcast Transcripts with AI
+============================================================
+  Using Moonshot/Kimi API (primary)
+Found 98 transcript files
+  Processing e3c75a06762af10f374661e8af1d1af6.txt...
+    ⏭ Episode already in database (duplicate), skipping
+  Processing dario_amodei.txt...
+    ⏭ Too short, skipping
+  Processing DVVTS5786783285.txt...
+    ⏭ Episode 'Ben Horowitz: xAI Executive Exodus, Ilya's $5B SSI Valuation...' already in database, skipping
+  Processing moonshots_with_peter_diamandis_meta_buys_moltbook__gpt_5_4__and_fruitfly_brain_upload___moo_609f0b8d.txt...
+    ⏭ Episode already in database (duplicate), skipping
+  Processing elon_musk.txt...
+    ⏭ Too short, skipping
+  Processing the_a16z_show_20260330_9c92af97_4596_4752_b03c_eb0acba6.txt...
+    ✓ Added episode (ID: 123)
+    + Emerging term: Skaled Stove phenomenon
+    ✓ Added 0 ticker mentions
+  Processing DVVTS6372073266.txt...
+    ⚠ AI analysis failed: Error code: 400 - {'error': {'code': 400, 'message': 'The request was rejected because it was considered high risk', 'param': 'prompt', 'type': 'content_filter'}}
+    ✗ AI analysis failed
+  Processing DVVTS3579530070.txt...
+    ⚠ AI analysis failed: Error code: 400 - {'error': {'code': 400, 'message': 'The request was rejected because it was considered high risk', 'param': 'prompt', 'type': 'content_filter'}}
+    ✗ AI analysis failed
+
+✓ Transcript processing complete: 1 new, 90 skipped, 0 errors
+✓ Analyzed 1 new transcripts
+
+============================================================
+STEP: Newsletter Import
+============================================================
+✓ Total newsletters imported: 0
+
+============================================================
+STEP: Promote Episodes to Insights
+============================================================
+Found 1 processed episodes not yet in insights
+  ✓ Promoted: 'Marc Andreessen on Evaluating Founders and AI's Consumer Sur' (sentiment=neutral)
+  ✓ Auto-archived 1 older insights
+✓ Promoted 1 new insight(s) to website
+
+============================================================
+STEP: Promote Newsletters to Insights
+============================================================
+Found 0 newsletters not yet on site
+
+============================================================
+STEP: Aggregate Daily Scores
+============================================================
+✓ Saved 0 daily scores
+  Using Moonshot/Kimi API (primary)
+  Using Moonshot/Kimi API (primary)
+✓ Enriched 2 pundit(s) (LLM/Grokipedia profile + net worth + optional Grok)
+
+============================================================
+STEP: Generate Deep Dives
+============================================================
+Generating Deep Dives for 1 insights...
+
+  Using Moonshot/Kimi API
+[140] Marc Andreessen on Evaluating Founders and AI's Consumer Sur
+  ✓ Deep Dive stored
+
+✓ Generated 1/1 Deep Dives
+
+✓ Generate Deep Dives completed
+
+============================================================
+STEP: Fetch Prices
+============================================================
+ing META... $536.38 (-18.09%)
+  Fetching MINE... $2.94 (-21.07%)
+  Fetching MSFT... $358.96 (-11.34%)
+  Fetching MSTR... $121.44 (-12.21%)
+  Fetching NEE... $92.05 (+0.43%)
+  Fetching NINT...     Error fetching NINT: HTTP Error 404: Not Found
+Failed
+  Fetching NOC... $671.59 (-8.40%)
+  Fetching NOW... $104.97 (-9.22%)
+  Fetching NVDA... $165.17 (-11.21%)
+  Fetching Nasdaq... $558.28 (-8.13%)
+  Fetching OKLO... $45.58 (-27.37%)
+  Fetching OPENAI...     Error fetching OPENAI: HTTP Error 404: Not Found
+Failed
+  Fetching PALL... $128.11 (-14.16%)
+  Fetching PLTM... $18.22 (-13.11%)
+  Fetching PLTR... $137.55 (-9.27%)
+  Fetching PQNT... $20.38 (-5.09%)
+  Fetching PQT... $0.00 (+0.00%)
+  Fetching PQUS... $23.45 (-6.13%)
+  Fetching PYPL... $44.67 (-1.97%)
+  Fetching QQQ... $558.28 (-8.13%)
+  Fetching Russell... $239.61 (-5.24%)
+  Fetching S&P... $631.97 (-6.56%)
+  Fetching S&P 500... $631.97 (-6.56%)
+  Fetching SF... $71.86 (-1.11%)
+  Fetching SLV... $63.52 (-18.47%)
+  Fetching SMP-500...     Error fetching SMP-500: HTTP Error 404: Not Found
+Failed
+  Fetching SMR... $10.25 (-17.21%)
+  Fetching SNAP... $4.02 (-17.28%)
+  Fetching SNWGF... $9.27 (-31.66%)
+  Fetching SOYB... $24.17 (-2.22%)
+  Fetching SPACEX...     Error fetching SPACEX: HTTP Error 404: Not Found
+Failed
+  Fetching SPCE... $2.17 (-14.90%)
+  Fetching SPY... $631.97 (-6.56%)
+  Fetching SQ... Failed
+  Fetching SQQQ... $89.42 (+26.57%)
+  Fetching Semiconductors... $362.53 (-9.60%)
+  Fetching T... $28.78 (+5.96%)
+  Fetching TDOC... $5.14 (-6.03%)
+  Fetching THROPIC...     Error fetching THROPIC: HTTP Error 404: Not Found
+Failed
+  Fetching TLT... $86.78 (-0.41%)
+  Fetching TSLA... $355.28 (-12.88%)
+  Fetching TSM... $316.50 (-10.73%)
+  Fetching TWTR...     Error fetching TWTR: HTTP Error 404: Not Found
+Failed
+  Fetching UNG... $11.68 (-9.32%)
+  Fetching URANIUM...     Error fetching URANIUM: HTTP Error 404: Not Found
+Failed
+  Fetching US 10 year Treasury...     Error fetching US 10 year Treasury: URL can't contain control characters. '/v8/finance/chart/US 
+Failed
+  Fetching US DOLLAR INDEX...     Error fetching US DOLLAR INDEX: URL can't contain control characters. '/v8/finance/chart/US 
+Failed
+  Fetching USO... $129.83 (+20.16%)
+  Fetching Uranium...     Error fetching Uranium: HTTP Error 404: Not Found
+Failed
+  Fetching V... $299.54 (-3.05%)
+  Fetching VEEV... $175.96 (-5.95%)
+  Fetching VIX... $28.88 (+5.83%)
+  Fetching WIT... $2.07 (-12.66%)
+  Fetching WMT... $123.50 (+0.01%)
+  Fetching WORK... Failed
+  Fetching WTBN... $25.21 (-1.05%)
+  Fetching WTI... $3.60 (+26.32%)
+  Fetching WTI CRUDE OIL...     Error fetching WTI CRUDE OIL: URL can't contain control characters. '/v8/finance/chart/WTI
+Failed
+  Fetching XAU-USD... $0.00 (+0.00%)
+  Fetching XOM... $171.47 (+13.12%)
+  Fetching ZEC... $0.00 (+0.00%)
+  Fetching ZEN...     Error fetching ZEN: HTTP Error 404: Not Found
+Failed
+
+✓ Saved 89 prices to /Users/jaredsheppard/.openclaw/workspace/site/price_data.json
+Finished: 2026-03-31 05:05:36.819314
+
+✓ Fetch Prices completed
+
+============================================================
+STEP: Generate Charts
+============================================================
+
+STDERR: Traceback (most recent call last):
+  File "/Users/jaredsheppard/.openclaw/workspace/pipeline/generate_charts.py", line 7, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+
+✗ Generate Charts failed
+
+============================================================
+STEP: Auto-Curate Terms
+============================================================

@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-30T22:05:40.714741",
+  "last_updated": "2026-03-31T05:05:37.790365",
   "episodes": {
     "moonshots_with_peter_diamandis_elon's_$5_trillion_bet,_the_en": {
       "info": {
@@ -39,7 +39,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-30T22:05:40.597674",
+      "first_seen": "2026-03-31T05:05:37.705075",
       "status": "needs_analysis"
     },
     "moonshots_with_peter_diamandis_nvidia's_$1_trillion_predictio": {
@@ -80,7 +80,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-30T22:05:40.657479",
+      "first_seen": "2026-03-31T05:05:37.755039",
       "status": "needs_analysis"
     },
     "the_a16z_show_marc_andreessen_on_evaluating_": {
@@ -99,21 +99,23 @@
           "reason": null
         },
         "transcribed": {
-          "complete": false,
-          "file": null,
+          "complete": true,
+          "file": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/the_a16z_show_20260330_9c92af97_4596_4752_b03c_eb0acba6.txt",
           "timestamp": null,
-          "reason": "Waiting for fetch/transcribe step"
+          "reason": null
         },
         "analyzed": {
-          "complete": false,
-          "episode_id": null,
+          "complete": true,
+          "episode_id": 123,
           "timestamp": null,
-          "reason": "Waiting for next analyze run (transcript \u2192 DB)."
+          "reason": null
         },
         "insight_created": {
-          "complete": false,
+          "complete": true,
+          "insight_id": 50,
+          "insight_title": "The a16z Show: New Media Strategy and Investment Insights",
           "timestamp": null,
-          "reason": "Depends on analyze step first."
+          "reason": null
         },
         "published": {
           "complete": false,
@@ -121,8 +123,8 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-30T22:05:40.675635",
-      "status": "needs_transcription"
+      "first_seen": "2026-03-31T05:05:37.767493",
+      "status": "needs_export"
     },
     "the_a16z_show_chris_dixon:_from_quant_tradin": {
       "info": {
@@ -162,7 +164,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-30T22:05:40.697226",
+      "first_seen": "2026-03-31T05:05:37.778179",
       "status": "blocked_analysis"
     }
   }

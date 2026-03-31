@@ -1,5 +1,69 @@
 [
   {
+    "id": 138,
+    "name": "Mark Andreessen",
+    "slug": "mark-andreessen",
+    "bio": "Mark Andreessen is a prominent venture capitalist and entrepreneur, best known as the co-founder of Andreessen Horowitz, a venture capital firm that manages over $90 billion in assets and has invested in some of the most influential companies of our time.",
+    "known_for": "His insights on technology and venture capital, and his role in building one of the greatest venture capital firms.",
+    "net_worth_usd": 1900000000.0,
+    "net_worth_source": "https://en.wikipedia.org/wiki/Marc_Andreessen",
+    "net_worth_updated_at": "2026-03-31T05:03:11.716632",
+    "voice_tone": "Reflective and insightful",
+    "voice_style": "Candid and straightforward, with a focus on sharing deep industry knowledge",
+    "voice_delivery_notes": "Pacing is thoughtful, with emphasis on key points regarding venture capital and technology trends",
+    "voice_profile_updated_at": "2026-03-31 10:02:41",
+    "last_seen": "2026-03-31 10:02:41",
+    "last_episode_title": "Marc Andreessen on Evaluating Founders and AI's Consumer Surplus",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-03-30",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in companies and technologies that are reshaping industries and have the potential to create significant economic value for a broad user base, rather than just the companies themselves.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-31T05:03:10.373140",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Mark Andreessen",
+      "fetched_at": "2026-03-31T10:03:10.372791+00:00",
+      "cliff_notes": "Mark Andreessen is a renowned venture capitalist and entrepreneur. He co-founded Netscape Communications, which popularized the web browser and played a pivotal role in the early internet era. Andreessen later transitioned into venture capital, co-founding Andreessen Horowitz, which has become one of the most influential venture capital firms globally. The firm has made significant investments in companies like Facebook, Airbnb, and Slack, shaping the tech landscape. Andreessen's perspectives on technology, venture capital, and entrepreneurship are highly sought after, and he is known for his contrarian views and bold predictions about the future of tech.",
+      "derived": {
+        "current_role": "Co-founder of Andreessen Horowitz",
+        "former_positions": "Co-founder of Netscape Communications; General Partner at Opsware",
+        "boards": "Facebook; eBay; Hewlett Packard Enterprise; Zazzle",
+        "education": "Bachelor of Science in Computer Science from the University of Illinois at Urbana-Champaign; Master of Science in Computer Science from Stanford University"
+      },
+      "infobox": {
+        "Born": "July 9, 1971",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Mark Andreessen is a renowned venture capitalist and entrepreneur. He co-founded Netscape Communications, which popularized the web browser and played a pivotal role in the early internet era. Andreessen later transitioned into venture capital, co-founding Andreessen Horowitz, which has become one of the most influential venture capital firms globally.",
+        "The firm has made significant investments in companies like Facebook, Airbnb, and Slack, shaping the tech landscape. Andreessen's perspectives on technology, venture capital, and entrepreneurship are highly sought after, and he is known for his contrarian views and bold predictions about the future of tech."
+      ],
+      "sections": [
+        {
+          "heading": "Venture Capital Insights",
+          "body": "Mark Andreessen is well-regarded for his insights into venture capital, often challenging conventional wisdom and advocating for taking risks on promising startups."
+        },
+        {
+          "heading": "Tech Industry Centralization",
+          "body": "Andreessen has commented on the increasing centralization of the tech industry, noting that Silicon Valley's influence has never been greater, which has implications for innovation and competition."
+        },
+        {
+          "heading": "Labor Displacement Misconceptions",
+          "body": "He has argued against the notion of labor displacement due to technology, suggesting that many large companies are overstaffed rather than being threatened by automation."
+        },
+        {
+          "heading": "The 'Skalded Stove' Phenomenon",
+          "body": "Andreessen has coined the term 'Skalded Stove' to describe how past investment failures can negatively impact an investor's future decision-making, leading to missed opportunities."
+        }
+      ]
+    },
+    "net_worth": "$1.90B"
+  },
+  {
     "id": 137,
     "name": "Layla Kunimoto",
     "slug": "layla-kunimoto",
@@ -17,7 +81,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-29",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "The democratization of alternative investments provides retail investors with new opportunities, but also comes with structural differences and risks that must be understood.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-30T05:03:22.005290",
@@ -75,7 +139,7 @@
     "last_podcast_name": "Unknown Podcast",
     "last_episode_date": "2026-03-19",
     "mention_score": 2,
-    "mention_score_decayed": 1.95,
+    "mention_score_decayed": 1.91,
     "last_main_idea": "The Iran conflict could lead to a renewed inflation cycle, affecting commodities and energy markets, with potential second-order effects that markets may currently be underpricing.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:35:48.845381",
@@ -132,7 +196,7 @@
     "last_podcast_name": "Unknown Podcast",
     "last_episode_date": "2026-03-19",
     "mention_score": 4,
-    "mention_score_decayed": 3.91,
+    "mention_score_decayed": 3.82,
     "last_main_idea": "The Iran conflict could lead to a renewed inflation cycle, affecting commodities and energy markets, with potential second-order effects that markets may currently be underpricing.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:36:30.218908",
@@ -655,7 +719,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Sovereign credit investing requires a deep understanding of the unique risks and dynamics of lending to governments, which can offer significant returns but also carries substantial risks, particularly in the current geopolitical climate.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-28T04:06:45.925345",
@@ -717,7 +781,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Investing in companies that apply lessons from SpaceX and Tesla can lead to innovation in the physical economy, focusing on scalability, communication, and technical expertise.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-28T04:06:58.025543",
@@ -779,7 +843,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Investing in companies that apply lessons from SpaceX and Tesla can lead to innovation in the physical economy, focusing on scalability, communication, and technical expertise.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-28T04:07:10.077867",
@@ -1057,62 +1121,5 @@
       ]
     },
     "net_worth": "$27.5M"
-  },
-  {
-    "id": 117,
-    "name": "Liz Ann Saunders",
-    "slug": "liz-ann-saunders",
-    "bio": "Liz Ann Saunders is the Chief Investment Strategist at Charles Schwab, where she provides investment insights and analysis. She has been recognized for her expertise in understanding complex market environments and her ability to interpret underlying stresses in the market that are often obscured by headline indices.",
-    "known_for": "Her analytical prowess in deciphering market trends and her role in guiding investment strategies at Charles Schwab.",
-    "net_worth_usd": 5000000.0,
-    "net_worth_source": "https://noteablebio.com/the-remarkable-journey-of-liz-ann-sonders-and-her-net-worth/",
-    "net_worth_updated_at": "2026-03-26T08:21:27.303779",
-    "voice_tone": "Analytical and informative",
-    "voice_style": "Factual and data-driven",
-    "voice_delivery_notes": "Paced with emphasis on key data points",
-    "voice_profile_updated_at": "2026-03-26 13:18:11",
-    "last_seen": "2026-03-26 13:18:11",
-    "last_episode_title": "Monetary Matters: Analyzing Market Stress and the Impact of Oil Prices",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-03-25",
-    "mention_score": 1,
-    "mention_score_decayed": 0.91,
-    "last_main_idea": "The market is experiencing underlying stress that is not reflected in headline indices, suggesting a need for a more nuanced approach to investment decisions.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-26T08:21:26.552392",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Liz Ann Saunders",
-      "fetched_at": "2026-03-26T13:21:26.552175+00:00",
-      "cliff_notes": "Liz Ann Saunders has established herself as a prominent figure in the investment strategy space, particularly within the context of Charles Schwab. Her career has been marked by a deep understanding of market dynamics and the ability to provide clear insights into what the headline indices might not fully reveal. Saunders' work has been pivotal in helping investors navigate complex market environments, where she has demonstrated an analytical richness that goes beyond surface-level indices to uncover underlying market stress. Her contributions to the field have made her a respected voice in the investment community, and her insights are sought after for their clarity and depth.",
-      "derived": {
-        "current_role": "Chief Investment Strategist at Charles Schwab"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Liz Ann Saunders has established herself as a prominent figure in the investment strategy space, particularly within the context of Charles Schwab. Her career has been marked by a deep understanding of market dynamics and the ability to provide clear insights into what the headline indices might not fully reveal. Saunders' work has been pivotal in helping investors navigate complex market environments, where she has demonstrated an analytical richness that goes beyond surface-level indices to uncover underlying market stress.",
-        "Her contributions to the field have made her a respected voice in the investment community, and her insights are sought after for their clarity and depth."
-      ],
-      "sections": [
-        {
-          "heading": "Market Analysis",
-          "body": "Liz Ann Saunders is known for her in-depth analysis of market trends, particularly how headline indices can mask the true nature of market stress."
-        },
-        {
-          "heading": "Investment Strategy",
-          "body": "As Chief Investment Strategist at Charles Schwab, Saunders plays a critical role in shaping the firm's investment strategies and providing guidance to clients."
-        },
-        {
-          "heading": "Market Education",
-          "body": "Saunders is also recognized for her efforts in educating investors about the intricacies of the market, helping them make more informed decisions."
-        }
-      ]
-    },
-    "net_worth": "$5.0M"
   }
 ]

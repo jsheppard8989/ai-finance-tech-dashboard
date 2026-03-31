@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-30T22:04:51.743417",
+  "timestamp": "2026-03-31T05:01:02.842097",
   "results": [
     {
       "podcast": "Moonshots with Peter Diamandis",
@@ -12,8 +12,8 @@
       "podcast": "The a16z Show",
       "title": "Marc Andreessen on Evaluating Founders and AI's Consumer Surplus",
       "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_20260330_9c92af97_4596_4752_b03c_eb0acba6.mp3",
-      "transcript_path": null,
-      "success": false
+      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/the_a16z_show_20260330_9c92af97_4596_4752_b03c_eb0acba6.txt",
+      "success": true
     }
   ]
 }

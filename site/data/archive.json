@@ -1,6 +1,29 @@
 {
   "insights": [
     {
+      "id": 140,
+      "title": "Marc Andreessen on Evaluating Founders and AI's Consumer Surplus",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-03-30",
+      "summary": "In this episode of 'The a16z Show', Harry Stebbings interviews Mark Andreessen, co-founder of Andreessen Horowitz (a16z), discussing various aspects of venture capital, the tech industry, and the future of AI. Andreessen shares his views on introspection in business, the centralization of the tech industry, labor displacement myths, and the counterintuitive nature of venture capital where experience can sometimes hinder success. The conversation also touches on the importance of AI's economic value and its impact on users rather than just the companies building it.",
+      "key_takeaway": "Invest in companies and technologies that are reshaping industries and have the potential to create significant economic value for a broad user base, rather than just the companies themselves.",
+      "tickers_mentioned": [
+        "AAPL",
+        "NVDA",
+        "GOOGL",
+        "MSFT",
+        "TSLA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-31",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 123
+    },
+    {
       "id": 139,
       "title": "The 2026 Private Credit Liquidity Crunch | Leyla Kunimoto on Redemptions in Semi-liquid Vehicles, Private/Public BDCs, and the Future of Alternatives",
       "source_type": "podcast",
@@ -155,11 +178,11 @@
         "SPCE"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-28",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-31",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 108
     },
     {

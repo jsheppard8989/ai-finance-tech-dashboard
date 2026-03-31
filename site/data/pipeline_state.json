@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-03-30T22:05:40.594114",
-  "last_updated": "2026-03-30T22:05:40.594114",
-  "last_pipeline_run": "2026-03-30T22:05:40.594114",
+  "generated_at": "2026-03-31T05:05:37.702546",
+  "last_updated": "2026-03-31T05:05:37.702546",
+  "last_pipeline_run": "2026-03-31T05:05:37.702546",
   "main_page": {
     "overton": 8,
     "insights": 8,
@@ -9,21 +9,21 @@
   },
   "counts": {
     "ticker_mentions": 148,
-    "podcast_episodes": 97,
+    "podcast_episodes": 98,
     "newsletters": 7,
     "daily_scores": 86,
     "overton_terms_total": 16,
-    "latest_insights_total": 113,
+    "latest_insights_total": 114,
     "today_mentions": {},
     "podcasts_analyzed": 1
   },
   "step_results": {
-    "downloaded": 2,
-    "transcribed": 2,
-    "analyzed": 2,
-    "insight_created": 2,
-    "published": 0,
-    "total": 4
+    "downloaded": 3,
+    "transcribed": 3,
+    "analyzed": 3,
+    "insight_created": 3,
+    "published": 1,
+    "total": 6
   },
   "episodes": [
     {
@@ -69,20 +69,14 @@
       "published": "2026-03-30",
       "rss_guid": "9c92af97-4596-4752-b03c-eb0acba6ee58",
       "stages": {
-        "downloaded": false,
-        "transcribed": false,
-        "analyzed": false,
-        "insight_created": false,
-        "published": false
+        "downloaded": true,
+        "transcribed": true,
+        "analyzed": true,
+        "insight_created": true,
+        "published": true
       },
-      "stage_reasons": {
-        "downloaded": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "transcribed": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "analyzed": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "insight_created": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
-      },
-      "status": "needs_download"
+      "stage_reasons": {},
+      "status": "complete"
     },
     {
       "id": "1a7873e6-52cf-493d-a1a1-360a49324923",
@@ -105,14 +99,67 @@
         "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
       },
       "status": "needs_download"
+    },
+    {
+      "id": "rss::the a16z show::how radiant and heron are rethinking power generation and delivery",
+      "podcast": "The a16z Show",
+      "title": "How Radiant and Heron Are Rethinking Power Generation and Delivery",
+      "published": "2026-03-31",
+      "published_date": "2026-03-31",
+      "rss_guid": "",
+      "stages": {
+        "downloaded": false,
+        "transcribed": false,
+        "analyzed": false,
+        "insight_created": false,
+        "published": false
+      },
+      "stage_reasons": {
+        "downloaded": "Discovered on RSS feed; not yet pulled into curation/pipeline state.",
+        "transcribed": "Waiting for download first.",
+        "analyzed": "Waiting for transcript first.",
+        "insight_created": "Depends on analyze step first.",
+        "published": "Not on site until export after analysis and insight promotion."
+      },
+      "status": "needs_download"
+    },
+    {
+      "id": "rss::the jack mallers show::they're lying to you. again. stay humble & stack sats.",
+      "podcast": "The Jack Mallers Show",
+      "title": "They're Lying to You. Again. Stay Humble & Stack Sats.",
+      "published": "2026-03-31",
+      "published_date": "2026-03-31",
+      "rss_guid": "",
+      "stages": {
+        "downloaded": false,
+        "transcribed": false,
+        "analyzed": false,
+        "insight_created": false,
+        "published": false
+      },
+      "stage_reasons": {
+        "downloaded": "Discovered on RSS feed; not yet pulled into curation/pipeline state.",
+        "transcribed": "Waiting for download first.",
+        "analyzed": "Waiting for transcript first.",
+        "insight_created": "Depends on analyze step first.",
+        "published": "Not on site until export after analysis and insight promotion."
+      },
+      "status": "needs_download"
     }
   ],
   "available_from_rss": [
     {
       "podcast": "The a16z Show",
-      "title": "Marc Andreessen on Evaluating Founders and AI's Consumer Surplus",
-      "published": "Mon, 30 Mar 2026 13:00:00 +0000",
-      "published_date": "2026-03-30",
+      "title": "How Radiant and Heron Are Rethinking Power Generation and Delivery",
+      "published": "Tue, 31 Mar 2026 10:04:03 +0000",
+      "published_date": "2026-03-31",
+      "rss_guid": ""
+    },
+    {
+      "podcast": "The Jack Mallers Show",
+      "title": "They're Lying to You. Again. Stay Humble & Stack Sats.",
+      "published": "Tue, 31 Mar 2026 07:12:52 GMT",
+      "published_date": "2026-03-31",
       "rss_guid": ""
     },
     {
@@ -137,7 +184,7 @@
       "title": "Moonshots with Peter Diamandis: AI, Automation, and the Path to Abundance by 2035",
       "status": "needs_export",
       "published": "2026-03-26",
-      "age_days": 4,
+      "age_days": 5,
       "next_blocker": "published"
     },
     {
@@ -146,7 +193,7 @@
       "title": "Moonshots Podcast Episode #231 - OpenAI Acquires OpenClaw, 400x Cost Collapse, & Why India Wins the Talent War",
       "status": "needs_export",
       "published": "2026-03-21",
-      "age_days": 9,
+      "age_days": 10,
       "next_blocker": "published"
     },
     {
@@ -155,7 +202,7 @@
       "title": "Chris Dixon: From Quant Trading to Building a16z Crypto",
       "status": "needs_download",
       "published": "2026-03-02",
-      "age_days": 28,
+      "age_days": 29,
       "next_blocker": "downloaded"
     }
   ],

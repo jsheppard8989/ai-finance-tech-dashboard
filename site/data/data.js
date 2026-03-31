@@ -3,7 +3,7 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-03-30T22:05:43.375630",
+  generatedAt: "2026-03-31T05:05:39.983753",
   chartsVersion: "2026-03-29T04:10:36.391634",
   tickerScores: [
   {
@@ -730,6 +730,29 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 140,
+      "title": "Marc Andreessen on Evaluating Founders and AI's Consumer Surplus",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-03-30",
+      "summary": "In this episode of 'The a16z Show', Harry Stebbings interviews Mark Andreessen, co-founder of Andreessen Horowitz (a16z), discussing various aspects of venture capital, the tech industry, and the future of AI. Andreessen shares his views on introspection in business, the centralization of the tech industry, labor displacement myths, and the counterintuitive nature of venture capital where experience can sometimes hinder success. The conversation also touches on the importance of AI's economic value and its impact on users rather than just the companies building it.",
+      "key_takeaway": "Invest in companies and technologies that are reshaping industries and have the potential to create significant economic value for a broad user base, rather than just the companies themselves.",
+      "tickers_mentioned": [
+        "AAPL",
+        "NVDA",
+        "GOOGL",
+        "MSFT",
+        "TSLA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-31",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 123
+    },
+    {
       "id": 139,
       "title": "The 2026 Private Credit Liquidity Crunch | Leyla Kunimoto on Redemptions in Semi-liquid Vehicles, Private/Public BDCs, and the Future of Alternatives",
       "source_type": "podcast",
@@ -884,11 +907,11 @@ const dashboardData = {
         "SPCE"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-28",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-03-31",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 108
     },
     {
@@ -3334,6 +3357,26 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 140,
+      "title": "Marc Andreessen on Evaluating Founders and AI's Consumer Surplus",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-03-30",
+      "summary": "In this episode of 'The a16z Show', Harry Stebbings interviews Mark Andreessen, co-founder of Andreessen Horowitz (a16z), discussing various aspects of venture capital, the tech industry, and the future of AI. Andreessen shares his views on introspection in business, the centralization of the tech industry, labor displacement myths, and the counterintuitive nature of venture capital where experience can sometimes hinder success. The conversation also touches on the importance of AI's economic value and its impact on users rather than just the companies building it.",
+      "key_takeaway": "Invest in companies and technologies that are reshaping industries and have the potential to create significant economic value for a broad user base, rather than just the companies themselves.",
+      "tickers_mentioned": "[\"AAPL\", \"NVDA\", \"GOOGL\", \"MSFT\", \"TSLA\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-03-31",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 123,
+      "episode_release_date": "2026-03-30",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 139,
       "title": "The 2026 Private Credit Liquidity Crunch | Leyla Kunimoto on Redemptions in Semi-liquid Vehicles, Private/Public BDCs, and the Future of Alternatives",
       "source_type": "podcast",
@@ -3461,29 +3504,6 @@ const dashboardData = {
       "episode_release_date": "2026-03-28",
       "guest_name": null,
       "key_tickers": []
-    },
-    {
-      "id": 126,
-      "title": "Lessons from SpaceX and Tesla: Building for the Physical Economy",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-03-27",
-      "summary": "This episode of the a16z Show features a conversation with Chandler Lujica, CEO of Galladine, and Turner Caldwell, CEO of Mariana Minerals, both alumni of SpaceX and Tesla respectively. They discuss the lessons they learned from their time at these companies and how they're applying those lessons to their current ventures in missile propulsion and critical mineral supply chains. The discussion covers the importance of setting aggressive targets, preventing data silos, and the value of having a strong technical foundation when starting a company.",
-      "key_takeaway": "Investing in companies that apply lessons from SpaceX and Tesla can lead to innovation in the physical economy, focusing on scalability, communication, and technical expertise.",
-      "tickers_mentioned": "[\"TSLA\", \"SPCE\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-03-28",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 108,
-      "episode_release_date": "2026-03-27",
-      "guest_name": null,
-      "key_tickers": [
-        "TSLA",
-        "SPCE"
-      ]
     },
     {
       "id": 132,
@@ -11274,9 +11294,92 @@ const dashboardData = {
       "PQNT",
       "PQUS"
     ]
+  },
+  "140": {
+    "id": 131,
+    "insight_id": 140,
+    "podcast_episode_id": 123,
+    "overview": "In this deep dive analysis, we explore Marc Andreessen's investment insights, focusing on the evaluation of founders and the potential of AI to create consumer surplus. Andreessen, co-founder of A16Z, discusses the importance of not letting past mistakes cloud future investment decisions, particularly in the tech industry. His perspective on AI's potential to reshape the tech landscape and create significant economic value for consumers is particularly relevant in today's rapidly evolving market. Understanding these insights can help investors make more informed decisions in the current tech-driven environment.",
+    "key_takeaways_detailed": [
+      "Do not let past mistakes in a particular category or with a specific founder deter future investments in similar ventures.",
+      "Focus on the potential for significant returns from new opportunities rather than dwelling on past losses.",
+      "Recognize that AI has the potential to create substantial economic value, primarily for consumers rather than the companies developing the technology.",
+      "Be aware of the 'Scalded Stove' phenomenon, where past negative experiences can hinder the ability to identify and invest in the next big opportunity.",
+      "Understand that in venture capital, the mistake of omission (missing out on a great investment) often outweighs the mistake of commission (investing in a failure)."
+    ],
+    "investment_thesis": "Our investment thesis centers on the belief that the tech industry, particularly AI, will continue to be a significant driver of economic growth and consumer surplus. We believe that companies at the forefront of AI development, as well as those that can leverage AI to create value for their customers, will be key beneficiaries of this trend. The catalysts for this thesis include ongoing advancements in AI technology, increasing adoption across industries, and the potential for AI to disrupt traditional business models. We expect this trend to play out over the medium to long term, as AI technology matures and becomes more integrated into everyday life.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple is a key player in the tech industry and has been investing heavily in AI, both for its own products and services and through acquisitions. Its ability to leverage AI to create value for consumers positions it well to benefit from the trends discussed.",
+        "positioning": "Long-term strategic position, as Apple's investments in AI are likely to pay off over time.",
+        "risk": "Key risks include increased competition in the AI space and potential regulatory challenges to data privacy and usage."
+      },
+      "NVDA": {
+        "rationale": "NVIDIA is a leading provider of AI chips and has a strong position in the AI hardware market. Its GPUs are widely used for AI applications, making it a key beneficiary of the growing demand for AI capabilities.",
+        "positioning": "Medium-term tactical position, as the company's AI offerings are expected to drive growth in the near term.",
+        "risk": "Key risks include potential disruptions in the global semiconductor supply chain and increased competition from other chip manufacturers."
+      },
+      "GOOGL": {
+        "rationale": "Google, through its parent company Alphabet, is a major player in AI research and development, with applications across its various services and products. Its deep expertise in AI positions it well to capitalize on the growing consumer surplus from AI.",
+        "positioning": "Long-term strategic position, as Google's AI investments are expected to drive growth and innovation over the long term.",
+        "risk": "Key risks include potential regulatory challenges to its data practices and increased competition from other tech giants in the AI space."
+      },
+      "MSFT": {
+        "rationale": "Microsoft has been investing in AI across its product suite, from Azure to Office, and has a strong position in the enterprise market. Its AI offerings are expected to drive growth and create value for its customers.",
+        "positioning": "Medium-term tactical position, as Microsoft's AI initiatives are expected to contribute to its growth in the near to medium term.",
+        "risk": "Key risks include increased competition in the cloud computing market and potential disruptions to its supply chain."
+      },
+      "TSLA": {
+        "rationale": "Tesla is at the forefront of AI applications in the automotive industry, with its Autopilot and Full Self-Driving features. Its leadership in AI for autonomous driving positions it well to benefit from the growing consumer surplus from AI in transportation.",
+        "positioning": "Medium-term tactical position, as Tesla's AI capabilities are expected to drive growth and differentiation in the competitive electric vehicle market.",
+        "risk": "Key risks include potential regulatory challenges to autonomous driving technology and increased competition from traditional and new automakers."
+      }
+    },
+    "positioning_guidance": "Investors should consider a balanced portfolio with a mix of long-term strategic positions in companies with strong AI capabilities and medium-term tactical positions in companies expected to benefit from near-term AI adoption. Entry points should be based on individual risk tolerance and market conditions, with a focus on long-term growth potential. Investors should also consider hedging against potential risks, such as regulatory challenges and supply chain disruptions.",
+    "risk_factors": [
+      "Increased competition in the AI space could reduce the potential for consumer surplus and investment returns.",
+      "Regulatory challenges to data privacy and usage could hinder the development and adoption of AI technologies.",
+      "Potential disruptions to the global semiconductor supply chain could impact the availability and cost of AI hardware.",
+      "Economic downturns or market volatility could affect the overall tech industry and AI investments.",
+      "Technological advancements in AI could be slower than expected, impacting the timeline for consumer surplus creation and investment returns."
+    ],
+    "contrarian_signals": [
+      "Despite the potential for AI to create significant consumer surplus, some argue that the economic benefits may be more concentrated among a few large tech companies rather than being widely distributed.",
+      "There is a risk that AI advancements could lead to increased job displacement and social unrest, which could impact the overall adoption and acceptance of AI technologies.",
+      "The potential for AI to create consumer surplus may be overestimated, as the technology's impact on productivity and economic growth remains uncertain."
+    ],
+    "catalysts": [
+      "Upcoming AI-related conferences and events, such as the AI Summit and the Neural Information Processing Systems (NeurIPS) conference, could provide insights into the latest advancements and trends in the industry.",
+      "Earnings reports and announcements from key tech companies, including Apple, NVIDIA, Google, Microsoft, and Tesla, could provide insights into the progress and potential of their AI initiatives.",
+      "Regulatory developments, such as new data privacy laws or AI-specific regulations, could impact the adoption and growth of AI technologies.",
+      "New product launches and partnerships involving AI technologies could signal increased adoption and potential for consumer surplus.",
+      "Economic indicators, such as GDP growth and unemployment rates, could provide context for the potential impact of AI on productivity and job displacement."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-03-31T05:05:12.872297",
+    "updated_at": "2026-03-31 10:05:12",
+    "insight_title": "Marc Andreessen on Evaluating Founders and AI's Consumer Surplus",
+    "source_name": "The a16z Show",
+    "source_date": "2026-03-30",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
+  {
+    "id": 126,
+    "term": "Skaled Stove phenomenon",
+    "definition": "A concept in venture capital where an investor carries the scar of a past failure in a category into future meetings, potentially leading to the avoidance of successful investments in that same space.",
+    "investment_implications": "Investors should be aware of this phenomenon to avoid missing out on potentially game-changing opportunities due to past experiences.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-03-31 10:02:41",
+    "priority_score": 80
+  },
   {
     "id": 124,
     "term": "J-curve",
@@ -11312,23 +11415,11 @@ const dashboardData = {
     "relevance_score": 50,
     "submitted_date": "2026-03-29 03:04:38",
     "priority_score": 80
-  },
-  {
-    "id": 123,
-    "term": "Quantum Resistance",
-    "definition": "The ability of a cryptographic system to remain secure against an attack by a quantum computer.",
-    "investment_implications": "Investors should consider quantum resistance as a future-proofing feature in the evolving landscape of cybersecurity.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-03-29 03:04:38",
-    "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 1306,
+    "id": 1324,
     "name": "This special episode",
     "slug": "this-special-episode",
     "bio": null,
@@ -11340,7 +11431,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1307,
+    "id": 1325,
     "name": "Lupin Ramon",
     "slug": "lupin-ramon",
     "bio": null,
@@ -11352,7 +11443,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1308,
+    "id": 1326,
     "name": "When the Music Stops",
     "slug": "when-the-music-stops",
     "bio": null,
@@ -11364,7 +11455,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1309,
+    "id": 1327,
     "name": "Ground Infrastructure",
     "slug": "ground-infrastructure",
     "bio": null,
@@ -11376,7 +11467,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1310,
+    "id": 1328,
     "name": "Rory Johnston",
     "slug": "rory-johnston",
     "bio": null,
@@ -11388,7 +11479,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1311,
+    "id": 1329,
     "name": "Senator John Fetterman on Voting Rights",
     "slug": "senator-john-fetterman-on-voting-rights",
     "bio": null,
@@ -11400,7 +11491,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1312,
+    "id": 1330,
     "name": "Stock Market on Shaky Foundations",
     "slug": "stock-market-on-shaky-foundations",
     "bio": null,
@@ -11412,7 +11503,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1313,
+    "id": 1331,
     "name": "Elon Musk on Moonshots",
     "slug": "elon-musk-on-moonshots",
     "bio": null,
@@ -11424,7 +11515,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1314,
+    "id": 1332,
     "name": "Investing in Capitalism",
     "slug": "investing-in-capitalism",
     "bio": null,
@@ -11436,7 +11527,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1315,
+    "id": 1333,
     "name": "Harvard Professor Graham Allison",
     "slug": "harvard-professor-graham-allison",
     "bio": null,
@@ -11448,7 +11539,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1316,
+    "id": 1334,
     "name": "Andrew Yang",
     "slug": "andrew-yang",
     "bio": "Andrew Yang is an entrepreneur and political leader who popularized universal basic income in U.S. politics through his 2020 presidential campaign.",
@@ -11460,7 +11551,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1317,
+    "id": 1335,
     "name": "Inventing the Renaissance",
     "slug": "inventing-the-renaissance",
     "bio": null,
@@ -11472,7 +11563,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1318,
+    "id": 1336,
     "name": "Ray Dalio",
     "slug": "ray-dalio",
     "bio": "Ray Dalio is the founder of Bridgewater Associates and a macro investor known for his 'Principles' framework and work on long-term debt cycles.",
@@ -11484,7 +11575,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1319,
+    "id": 1337,
     "name": "Nobel Prize-winning economist Paul Krugman",
     "slug": "nobel-prize-winning-economist-paul-krugman",
     "bio": null,
@@ -11496,7 +11587,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1320,
+    "id": 1338,
     "name": "host Jack Mallers",
     "slug": "host-jack-mallers",
     "bio": null,
@@ -11508,7 +11599,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1321,
+    "id": 1339,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -11520,7 +11611,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1322,
+    "id": 1340,
     "name": "Bosworth",
     "slug": "bosworth",
     "bio": null,
@@ -11532,7 +11623,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1323,
+    "id": 1341,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -11545,6 +11636,70 @@ const dashboardData = {
   }
 ],
   pundits: [
+  {
+    "id": 138,
+    "name": "Mark Andreessen",
+    "slug": "mark-andreessen",
+    "bio": "Mark Andreessen is a prominent venture capitalist and entrepreneur, best known as the co-founder of Andreessen Horowitz, a venture capital firm that manages over $90 billion in assets and has invested in some of the most influential companies of our time.",
+    "known_for": "His insights on technology and venture capital, and his role in building one of the greatest venture capital firms.",
+    "net_worth_usd": 1900000000.0,
+    "net_worth_source": "https://en.wikipedia.org/wiki/Marc_Andreessen",
+    "net_worth_updated_at": "2026-03-31T05:03:11.716632",
+    "voice_tone": "Reflective and insightful",
+    "voice_style": "Candid and straightforward, with a focus on sharing deep industry knowledge",
+    "voice_delivery_notes": "Pacing is thoughtful, with emphasis on key points regarding venture capital and technology trends",
+    "voice_profile_updated_at": "2026-03-31 10:02:41",
+    "last_seen": "2026-03-31 10:02:41",
+    "last_episode_title": "Marc Andreessen on Evaluating Founders and AI's Consumer Surplus",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-03-30",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in companies and technologies that are reshaping industries and have the potential to create significant economic value for a broad user base, rather than just the companies themselves.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-31T05:03:10.373140",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Mark Andreessen",
+      "fetched_at": "2026-03-31T10:03:10.372791+00:00",
+      "cliff_notes": "Mark Andreessen is a renowned venture capitalist and entrepreneur. He co-founded Netscape Communications, which popularized the web browser and played a pivotal role in the early internet era. Andreessen later transitioned into venture capital, co-founding Andreessen Horowitz, which has become one of the most influential venture capital firms globally. The firm has made significant investments in companies like Facebook, Airbnb, and Slack, shaping the tech landscape. Andreessen's perspectives on technology, venture capital, and entrepreneurship are highly sought after, and he is known for his contrarian views and bold predictions about the future of tech.",
+      "derived": {
+        "current_role": "Co-founder of Andreessen Horowitz",
+        "former_positions": "Co-founder of Netscape Communications; General Partner at Opsware",
+        "boards": "Facebook; eBay; Hewlett Packard Enterprise; Zazzle",
+        "education": "Bachelor of Science in Computer Science from the University of Illinois at Urbana-Champaign; Master of Science in Computer Science from Stanford University"
+      },
+      "infobox": {
+        "Born": "July 9, 1971",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Mark Andreessen is a renowned venture capitalist and entrepreneur. He co-founded Netscape Communications, which popularized the web browser and played a pivotal role in the early internet era. Andreessen later transitioned into venture capital, co-founding Andreessen Horowitz, which has become one of the most influential venture capital firms globally.",
+        "The firm has made significant investments in companies like Facebook, Airbnb, and Slack, shaping the tech landscape. Andreessen's perspectives on technology, venture capital, and entrepreneurship are highly sought after, and he is known for his contrarian views and bold predictions about the future of tech."
+      ],
+      "sections": [
+        {
+          "heading": "Venture Capital Insights",
+          "body": "Mark Andreessen is well-regarded for his insights into venture capital, often challenging conventional wisdom and advocating for taking risks on promising startups."
+        },
+        {
+          "heading": "Tech Industry Centralization",
+          "body": "Andreessen has commented on the increasing centralization of the tech industry, noting that Silicon Valley's influence has never been greater, which has implications for innovation and competition."
+        },
+        {
+          "heading": "Labor Displacement Misconceptions",
+          "body": "He has argued against the notion of labor displacement due to technology, suggesting that many large companies are overstaffed rather than being threatened by automation."
+        },
+        {
+          "heading": "The 'Skalded Stove' Phenomenon",
+          "body": "Andreessen has coined the term 'Skalded Stove' to describe how past investment failures can negatively impact an investor's future decision-making, leading to missed opportunities."
+        }
+      ]
+    },
+    "net_worth": "$1.90B"
+  },
   {
     "id": 137,
     "name": "Layla Kunimoto",
@@ -11563,7 +11718,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-29",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "The democratization of alternative investments provides retail investors with new opportunities, but also comes with structural differences and risks that must be understood.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-30T05:03:22.005290",
@@ -11621,7 +11776,7 @@ const dashboardData = {
     "last_podcast_name": "Unknown Podcast",
     "last_episode_date": "2026-03-19",
     "mention_score": 2,
-    "mention_score_decayed": 1.95,
+    "mention_score_decayed": 1.91,
     "last_main_idea": "The Iran conflict could lead to a renewed inflation cycle, affecting commodities and energy markets, with potential second-order effects that markets may currently be underpricing.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:35:48.845381",
@@ -11678,7 +11833,7 @@ const dashboardData = {
     "last_podcast_name": "Unknown Podcast",
     "last_episode_date": "2026-03-19",
     "mention_score": 4,
-    "mention_score_decayed": 3.91,
+    "mention_score_decayed": 3.82,
     "last_main_idea": "The Iran conflict could lead to a renewed inflation cycle, affecting commodities and energy markets, with potential second-order effects that markets may currently be underpricing.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:36:30.218908",
@@ -12201,7 +12356,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Sovereign credit investing requires a deep understanding of the unique risks and dynamics of lending to governments, which can offer significant returns but also carries substantial risks, particularly in the current geopolitical climate.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-28T04:06:45.925345",
@@ -12263,7 +12418,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Investing in companies that apply lessons from SpaceX and Tesla can lead to innovation in the physical economy, focusing on scalability, communication, and technical expertise.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-28T04:06:58.025543",
@@ -12325,7 +12480,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Investing in companies that apply lessons from SpaceX and Tesla can lead to innovation in the physical economy, focusing on scalability, communication, and technical expertise.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-28T04:07:10.077867",
@@ -12603,63 +12758,6 @@ const dashboardData = {
       ]
     },
     "net_worth": "$27.5M"
-  },
-  {
-    "id": 117,
-    "name": "Liz Ann Saunders",
-    "slug": "liz-ann-saunders",
-    "bio": "Liz Ann Saunders is the Chief Investment Strategist at Charles Schwab, where she provides investment insights and analysis. She has been recognized for her expertise in understanding complex market environments and her ability to interpret underlying stresses in the market that are often obscured by headline indices.",
-    "known_for": "Her analytical prowess in deciphering market trends and her role in guiding investment strategies at Charles Schwab.",
-    "net_worth_usd": 5000000.0,
-    "net_worth_source": "https://noteablebio.com/the-remarkable-journey-of-liz-ann-sonders-and-her-net-worth/",
-    "net_worth_updated_at": "2026-03-26T08:21:27.303779",
-    "voice_tone": "Analytical and informative",
-    "voice_style": "Factual and data-driven",
-    "voice_delivery_notes": "Paced with emphasis on key data points",
-    "voice_profile_updated_at": "2026-03-26 13:18:11",
-    "last_seen": "2026-03-26 13:18:11",
-    "last_episode_title": "Monetary Matters: Analyzing Market Stress and the Impact of Oil Prices",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-03-25",
-    "mention_score": 1,
-    "mention_score_decayed": 0.91,
-    "last_main_idea": "The market is experiencing underlying stress that is not reflected in headline indices, suggesting a need for a more nuanced approach to investment decisions.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-26T08:21:26.552392",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Liz Ann Saunders",
-      "fetched_at": "2026-03-26T13:21:26.552175+00:00",
-      "cliff_notes": "Liz Ann Saunders has established herself as a prominent figure in the investment strategy space, particularly within the context of Charles Schwab. Her career has been marked by a deep understanding of market dynamics and the ability to provide clear insights into what the headline indices might not fully reveal. Saunders' work has been pivotal in helping investors navigate complex market environments, where she has demonstrated an analytical richness that goes beyond surface-level indices to uncover underlying market stress. Her contributions to the field have made her a respected voice in the investment community, and her insights are sought after for their clarity and depth.",
-      "derived": {
-        "current_role": "Chief Investment Strategist at Charles Schwab"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Liz Ann Saunders has established herself as a prominent figure in the investment strategy space, particularly within the context of Charles Schwab. Her career has been marked by a deep understanding of market dynamics and the ability to provide clear insights into what the headline indices might not fully reveal. Saunders' work has been pivotal in helping investors navigate complex market environments, where she has demonstrated an analytical richness that goes beyond surface-level indices to uncover underlying market stress.",
-        "Her contributions to the field have made her a respected voice in the investment community, and her insights are sought after for their clarity and depth."
-      ],
-      "sections": [
-        {
-          "heading": "Market Analysis",
-          "body": "Liz Ann Saunders is known for her in-depth analysis of market trends, particularly how headline indices can mask the true nature of market stress."
-        },
-        {
-          "heading": "Investment Strategy",
-          "body": "As Chief Investment Strategist at Charles Schwab, Saunders plays a critical role in shaping the firm's investment strategies and providing guidance to clients."
-        },
-        {
-          "heading": "Market Education",
-          "body": "Saunders is also recognized for her efforts in educating investors about the intricacies of the market, helping them make more informed decisions."
-        }
-      ]
-    },
-    "net_worth": "$5.0M"
   }
 ]
 };
