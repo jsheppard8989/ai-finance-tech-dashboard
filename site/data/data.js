@@ -3,7 +3,7 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-03-30T05:04:18.190497",
+  generatedAt: "2026-03-30T22:05:43.375630",
   chartsVersion: "2026-03-29T04:10:36.391634",
   tickerScores: [
   {
@@ -11328,7 +11328,7 @@ const dashboardData = {
 ],
   podcastGuests: [
   {
-    "id": 1288,
+    "id": 1306,
     "name": "This special episode",
     "slug": "this-special-episode",
     "bio": null,
@@ -11340,7 +11340,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1289,
+    "id": 1307,
     "name": "Lupin Ramon",
     "slug": "lupin-ramon",
     "bio": null,
@@ -11352,7 +11352,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1290,
+    "id": 1308,
     "name": "When the Music Stops",
     "slug": "when-the-music-stops",
     "bio": null,
@@ -11364,7 +11364,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1291,
+    "id": 1309,
     "name": "Ground Infrastructure",
     "slug": "ground-infrastructure",
     "bio": null,
@@ -11376,7 +11376,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1292,
+    "id": 1310,
     "name": "Rory Johnston",
     "slug": "rory-johnston",
     "bio": null,
@@ -11388,7 +11388,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1293,
+    "id": 1311,
     "name": "Senator John Fetterman on Voting Rights",
     "slug": "senator-john-fetterman-on-voting-rights",
     "bio": null,
@@ -11400,7 +11400,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1294,
+    "id": 1312,
     "name": "Stock Market on Shaky Foundations",
     "slug": "stock-market-on-shaky-foundations",
     "bio": null,
@@ -11412,7 +11412,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1295,
+    "id": 1313,
     "name": "Elon Musk on Moonshots",
     "slug": "elon-musk-on-moonshots",
     "bio": null,
@@ -11424,7 +11424,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1296,
+    "id": 1314,
     "name": "Investing in Capitalism",
     "slug": "investing-in-capitalism",
     "bio": null,
@@ -11436,7 +11436,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1297,
+    "id": 1315,
     "name": "Harvard Professor Graham Allison",
     "slug": "harvard-professor-graham-allison",
     "bio": null,
@@ -11448,7 +11448,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1298,
+    "id": 1316,
     "name": "Andrew Yang",
     "slug": "andrew-yang",
     "bio": "Andrew Yang is an entrepreneur and political leader who popularized universal basic income in U.S. politics through his 2020 presidential campaign.",
@@ -11460,7 +11460,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1299,
+    "id": 1317,
     "name": "Inventing the Renaissance",
     "slug": "inventing-the-renaissance",
     "bio": null,
@@ -11472,7 +11472,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1300,
+    "id": 1318,
     "name": "Ray Dalio",
     "slug": "ray-dalio",
     "bio": "Ray Dalio is the founder of Bridgewater Associates and a macro investor known for his 'Principles' framework and work on long-term debt cycles.",
@@ -11484,7 +11484,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1301,
+    "id": 1319,
     "name": "Nobel Prize-winning economist Paul Krugman",
     "slug": "nobel-prize-winning-economist-paul-krugman",
     "bio": null,
@@ -11496,7 +11496,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1302,
+    "id": 1320,
     "name": "host Jack Mallers",
     "slug": "host-jack-mallers",
     "bio": null,
@@ -11508,7 +11508,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1303,
+    "id": 1321,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -11520,7 +11520,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1304,
+    "id": 1322,
     "name": "Bosworth",
     "slug": "bosworth",
     "bio": null,
@@ -11532,7 +11532,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1305,
+    "id": 1323,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -11735,7 +11735,7 @@ const dashboardData = {
     "last_podcast_name": "Unknown Podcast",
     "last_episode_date": "2026-03-28",
     "mention_score": 3,
-    "mention_score_decayed": 2.93,
+    "mention_score_decayed": 2.86,
     "last_main_idea": "Investing in AI-driven platforms and technologies is essential for capturing the growth in the global financial system and staying ahead in the AI era.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:40:52.368193",
@@ -11797,7 +11797,7 @@ const dashboardData = {
     "last_podcast_name": "Unknown Podcast",
     "last_episode_date": "2026-03-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Betting on talented individuals in businesses rather than predicting tech trends is a more consistent approach to investing.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-28T22:05:06.552638",
@@ -11860,7 +11860,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Invest in companies that are driving innovation and can disrupt traditional industries by offering superior products at better prices, while keeping an eye on the competitive dynamics between the US and China in scientific research and technology.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-28T22:05:25.190284",
@@ -11918,7 +11918,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Invest in companies that are driving innovation and can disrupt traditional industries by offering superior products at better prices, while keeping an eye on the competitive dynamics between the US and China in scientific research and technology.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-28T22:05:33.382582",
@@ -11972,7 +11972,7 @@ const dashboardData = {
     "last_podcast_name": "Unknown Podcast",
     "last_episode_date": "2026-03-28",
     "mention_score": 2,
-    "mention_score_decayed": 1.95,
+    "mention_score_decayed": 1.91,
     "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-28T22:05:42.395070",
@@ -12034,7 +12034,7 @@ const dashboardData = {
     "last_podcast_name": "Unknown Podcast",
     "last_episode_date": "2026-03-28",
     "mention_score": 2,
-    "mention_score_decayed": 1.95,
+    "mention_score_decayed": 1.91,
     "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-28T22:05:50.938326",
@@ -12091,7 +12091,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-02-15",
     "mention_score": 2,
-    "mention_score_decayed": 1.95,
+    "mention_score_decayed": 1.91,
     "last_main_idea": "Invest in sectors with fertile ground for short selling, such as AI and tech, and under-allocated areas like junior mining, while combining long and short strategies for potential alpha.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:42:09.376490",
@@ -12153,7 +12153,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "The current bull market is built on shaky foundations, and a shift towards a more cautious stance with a focus on security software and data lake control is advised.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
@@ -12177,7 +12177,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-03-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "The historical insights from the Italian Renaissance period suggest that technological advancements, such as the printing press, can have a profound impact on society and information distribution, which parallels modern tech revolutions and their investment implications.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
@@ -12387,7 +12387,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Investors should consider the geopolitical risks and shifts in global power dynamics when constructing their portfolios, with a focus on sectors that may be affected by rising energy prices and inflation.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-26T14:15:41.620354",
@@ -12452,7 +12452,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Investors should consider the geopolitical risks and shifts in global power dynamics when constructing their portfolios, with a focus on sectors that may be affected by rising energy prices and inflation.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-26T14:15:50.429943",
@@ -12508,7 +12508,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Investing in cybersecurity solutions that can secure networks on top of compromised physical infrastructure is crucial for national security and economic prosperity.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-26T11:16:44.078788",
@@ -12565,7 +12565,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Investing in cybersecurity solutions that can secure networks on top of compromised physical infrastructure is crucial for national security and economic prosperity.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-26T11:16:52.472386",
@@ -12622,7 +12622,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "The market is experiencing underlying stress that is not reflected in headline indices, suggesting a need for a more nuanced approach to investment decisions.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-26T08:21:26.552392",

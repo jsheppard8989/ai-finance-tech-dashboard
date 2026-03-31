@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-30T05:04:16.591197",
+  "last_updated": "2026-03-30T22:05:40.714741",
   "episodes": {
     "moonshots_with_peter_diamandis_elon's_$5_trillion_bet,_the_en": {
       "info": {
@@ -39,7 +39,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-30T05:04:16.504222",
+      "first_seen": "2026-03-30T22:05:40.597674",
       "status": "needs_analysis"
     },
     "moonshots_with_peter_diamandis_nvidia's_$1_trillion_predictio": {
@@ -80,17 +80,17 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-30T05:04:16.554495",
+      "first_seen": "2026-03-30T22:05:40.657479",
       "status": "needs_analysis"
     },
-    "monetary_matters_with_jack_farley_the_2026_private_credit_liquid": {
+    "the_a16z_show_marc_andreessen_on_evaluating_": {
       "info": {
-        "podcast": "Monetary Matters with Jack Farley",
-        "title": "The 2026 Private Credit Liquidity Crunch | Leyla Kunimoto on Redemptions in Semi-liquid Vehicles, Private/Public BDCs, and the Future of Alternatives",
-        "published": "2026-03-29",
-        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/EWWMN7160876380.mp3",
+        "podcast": "The a16z Show",
+        "title": "Marc Andreessen on Evaluating Founders and AI's Consumer Surplus",
+        "published": "2026-03-30",
+        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_marc_andreessen_on_evaluating_founders_and_ai_s_consumer_sur_987da1d0.mp3",
         "keywords": [],
-        "rss_guid": "915856c0-2b8b-11f1-a72f-1b99f4839076"
+        "rss_guid": "9c92af97-4596-4752-b03c-eb0acba6ee58"
       },
       "stages": {
         "downloaded": {
@@ -99,23 +99,21 @@
           "reason": null
         },
         "transcribed": {
-          "complete": true,
-          "file": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/EWWMN7160876380.txt",
+          "complete": false,
+          "file": null,
           "timestamp": null,
-          "reason": null
+          "reason": "Waiting for fetch/transcribe step"
         },
         "analyzed": {
-          "complete": true,
-          "episode_id": 122,
+          "complete": false,
+          "episode_id": null,
           "timestamp": null,
-          "reason": null
+          "reason": "Waiting for next analyze run (transcript \u2192 DB)."
         },
         "insight_created": {
-          "complete": true,
-          "insight_id": 26,
-          "insight_title": "Milton Berg: Rare Signal \u2014 Local Bottom or Major Top Ahead",
+          "complete": false,
           "timestamp": null,
-          "reason": null
+          "reason": "Depends on analyze step first."
         },
         "published": {
           "complete": false,
@@ -123,8 +121,8 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-30T05:04:16.567890",
-      "status": "needs_export"
+      "first_seen": "2026-03-30T22:05:40.675635",
+      "status": "needs_transcription"
     },
     "the_a16z_show_chris_dixon:_from_quant_tradin": {
       "info": {
@@ -164,7 +162,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-30T05:04:16.579342",
+      "first_seen": "2026-03-30T22:05:40.697226",
       "status": "blocked_analysis"
     }
   }

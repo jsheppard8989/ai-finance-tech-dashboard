@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-30T05:02:26.015764",
+  "timestamp": "2026-03-30T22:04:36.119826",
   "total_feed_episodes": 4,
   "approved_for_transcription": 4,
   "episodes": [
@@ -30,17 +30,17 @@
       "filename": "moonshots_with_peter_diamandis_nvidia_s__1_trillion_prediction__anthropic_beats_openai__tes_c82c7892.mp3"
     },
     {
-      "podcast": "Monetary Matters with Jack Farley",
-      "title": "The 2026 Private Credit Liquidity Crunch | Leyla Kunimoto on Redemptions in Semi-liquid Vehicles, Private/Public BDCs, and the Future of Alternatives",
-      "description": "\n        <p>This episode is brought to you by the Pictet AI Enhanced International Equity ETF ($PQNT):\u00a0</p>\n<p><br></p>\n<p><a href=\"https://etf.am.pictet.com/pqnt/?utm_campaign=usetf&amp;cid=2715538577&amp;utm_source=jfmv&amp;utm_content=pqnt&amp;utm_medium=podcast_02&amp;utm_term=noterm\"><u>https://etf.am.pictet.com/pqnt/?utm_campaign=usetf&amp;cid=2715538577&amp;utm_source=jfmv&amp;utm_content=pqnt&amp;utm_medium=podcast_02&amp;utm_term=noterm</u></a></p>\n<p><br></p>\n<p>Learn More about Pictet",
-      "audio_url": "https://traffic.megaphone.fm/EWWMN7160876380.mp3",
-      "published": "Sun, 29 Mar 2026 16:23:00 -0000",
-      "published_date": "2026-03-29",
-      "rss_guid": "915856c0-2b8b-11f1-a72f-1b99f4839076",
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/EWWMN7160876380.mp3",
-      "filename": "EWWMN7160876380.mp3",
+      "podcast": "The a16z Show",
+      "title": "Marc Andreessen on Evaluating Founders and AI's Consumer Surplus",
+      "description": "<p>This episode originally aired on The Twenty Minute VC with Harry Stebbings. Marc Andreessen explains why learning from past investment mistakes can be a trap, shares his framework for evaluating founder greatness through IQ, courage, and drive, and makes the case that venture investors should back the person over the business plan. They also discuss why AI is reconcentrating the tech industry in Silicon Valley, the concept of consumer surplus and where 99% of AI's value will actually go, and ",
+      "audio_url": "https://mgln.ai/e/1344/afp-848985-injected.calisto.simplecastaudio.com/3f86df7b-51c6-4101-88a2-550dba782de8/episodes/6aebc59f-f776-4312-ab95-8e3b20f4d19f/audio/128/default.mp3?aid=rss_feed&awCollectionId=3f86df7b-51c6-4101-88a2-550dba782de8&awEpisodeId=6aebc59f-f776-4312-ab95-8e3b20f4d19f&feed=JGE3yC0V",
+      "published": "Mon, 30 Mar 2026 13:00:00 +0000",
+      "published_date": "2026-03-30",
+      "rss_guid": "9c92af97-4596-4752-b03c-eb0acba6ee58",
       "status": "APPROVED",
-      "matched_keywords": []
+      "matched_keywords": [],
+      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_marc_andreessen_on_evaluating_founders_and_ai_s_consumer_sur_987da1d0.mp3",
+      "filename": "the_a16z_show_marc_andreessen_on_evaluating_founders_and_ai_s_consumer_sur_987da1d0.mp3"
     },
     {
       "podcast": "The a16z Show",
