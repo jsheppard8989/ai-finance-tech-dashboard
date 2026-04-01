@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-03-31T05:05:37.702546",
-  "last_updated": "2026-03-31T05:05:37.702546",
-  "last_pipeline_run": "2026-03-31T05:05:37.702546",
+  "generated_at": "2026-03-31T19:51:24.149595",
+  "last_updated": "2026-03-31T19:51:24.149595",
+  "last_pipeline_run": "2026-03-31T19:51:24.149595",
   "main_page": {
     "overton": 8,
     "insights": 8,
@@ -18,12 +18,12 @@
     "podcasts_analyzed": 1
   },
   "step_results": {
-    "downloaded": 3,
-    "transcribed": 3,
-    "analyzed": 3,
-    "insight_created": 3,
-    "published": 1,
-    "total": 6
+    "downloaded": 4,
+    "transcribed": 4,
+    "analyzed": 4,
+    "insight_created": 4,
+    "published": 2,
+    "total": 8
   },
   "episodes": [
     {
@@ -81,9 +81,26 @@
     {
       "id": "1a7873e6-52cf-493d-a1a1-360a49324923",
       "podcast": "The a16z Show",
-      "title": "Chris Dixon: From Quant Trading to Building a16z Crypto",
+      "title": "the a16z show chris dixon from quant trading to building a16z crypto be2e5b4b",
       "published": "2026-03-02",
       "rss_guid": "1a7873e6-52cf-493d-a1a1-360a49324923",
+      "stages": {
+        "downloaded": true,
+        "transcribed": true,
+        "analyzed": true,
+        "insight_created": true,
+        "published": true
+      },
+      "stage_reasons": {},
+      "status": "complete"
+    },
+    {
+      "id": "rss::moonshots with peter diamandis::uber ceo on winning the robotaxi race, the end of car ownership, and uber\u2019s next $1 trillion bet | dara khosrowshahi (uber ceo) | 243",
+      "podcast": "Moonshots with Peter Diamandis",
+      "title": "Uber CEO on Winning the Robotaxi Race, the End of Car Ownership, and Uber\u2019s Next $1 Trillion Bet | Dara Khosrowshahi (Uber CEO) | 243",
+      "published": "2026-03-31",
+      "published_date": "2026-03-31",
+      "rss_guid": "",
       "stages": {
         "downloaded": false,
         "transcribed": false,
@@ -92,11 +109,34 @@
         "published": false
       },
       "stage_reasons": {
-        "downloaded": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "transcribed": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "analyzed": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "insight_created": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
+        "downloaded": "Discovered on RSS feed; not yet pulled into curation/pipeline state.",
+        "transcribed": "Waiting for download first.",
+        "analyzed": "Waiting for transcript first.",
+        "insight_created": "Depends on analyze step first.",
+        "published": "Not on site until export after analysis and insight promotion."
+      },
+      "status": "needs_download"
+    },
+    {
+      "id": "rss::monetary matters with jack farley::the psychology of market champions: inside the minds of point 72 & citadel portfolio managers | dr. gio valiante",
+      "podcast": "Monetary Matters with Jack Farley",
+      "title": "The Psychology of Market Champions: Inside the Minds of Point 72 & Citadel Portfolio Managers | Dr. Gio Valiante",
+      "published": "2026-03-31",
+      "published_date": "2026-03-31",
+      "rss_guid": "",
+      "stages": {
+        "downloaded": false,
+        "transcribed": false,
+        "analyzed": false,
+        "insight_created": false,
+        "published": false
+      },
+      "stage_reasons": {
+        "downloaded": "Discovered on RSS feed; not yet pulled into curation/pipeline state.",
+        "transcribed": "Waiting for download first.",
+        "analyzed": "Waiting for transcript first.",
+        "insight_created": "Depends on analyze step first.",
+        "published": "Not on site until export after analysis and insight promotion."
       },
       "status": "needs_download"
     },
@@ -149,6 +189,20 @@
   ],
   "available_from_rss": [
     {
+      "podcast": "Moonshots with Peter Diamandis",
+      "title": "Uber CEO on Winning the Robotaxi Race, the End of Car Ownership, and Uber\u2019s Next $1 Trillion Bet | Dara Khosrowshahi (Uber CEO) | 243",
+      "published": "Tue, 31 Mar 2026 15:00:00 -0000",
+      "published_date": "2026-03-31",
+      "rss_guid": ""
+    },
+    {
+      "podcast": "Monetary Matters with Jack Farley",
+      "title": "The Psychology of Market Champions: Inside the Minds of Point 72 & Citadel Portfolio Managers | Dr. Gio Valiante",
+      "published": "Tue, 31 Mar 2026 13:00:00 -0000",
+      "published_date": "2026-03-31",
+      "rss_guid": ""
+    },
+    {
       "podcast": "The a16z Show",
       "title": "How Radiant and Heron Are Rethinking Power Generation and Delivery",
       "published": "Tue, 31 Mar 2026 10:04:03 +0000",
@@ -195,15 +249,6 @@
       "published": "2026-03-21",
       "age_days": 10,
       "next_blocker": "published"
-    },
-    {
-      "id": "1a7873e6-52cf-493d-a1a1-360a49324923",
-      "podcast": "The a16z Show",
-      "title": "Chris Dixon: From Quant Trading to Building a16z Crypto",
-      "status": "needs_download",
-      "published": "2026-03-02",
-      "age_days": 29,
-      "next_blocker": "downloaded"
     }
   ],
   "stale_threshold_days": 2,

@@ -1,5 +1,449 @@
 [
   {
+    "id": 98,
+    "name": "Rory Johnston",
+    "slug": "rory-johnston",
+    "bio": "Commodity Context founder",
+    "known_for": "Perspectives on energy markets and commodity pricing",
+    "net_worth_usd": 200.0,
+    "net_worth_source": "https://www.bloomberg.com/news/articles/2026-03-10/rory-johnston-on-how-oil-could-surge-to-over-200-a-barrel",
+    "net_worth_updated_at": "2026-03-28T22:05:57.557236",
+    "voice_tone": "Informative and insightful",
+    "voice_style": "Direct and focused on market dynamics",
+    "voice_delivery_notes": "Paced with emphasis on key market indicators",
+    "voice_profile_updated_at": "2026-03-29 09:09:13",
+    "last_seen": "2026-03-29 09:09:13",
+    "last_episode_title": "MacroVoices-2026-03-19-Simon-White",
+    "last_podcast_name": "MacroVoices",
+    "last_episode_date": "2026-03-19",
+    "mention_score": 4,
+    "mention_score_decayed": 3.82,
+    "last_main_idea": "The Iran conflict could lead to a renewed inflation cycle, affecting commodities and energy markets, with potential second-order effects that markets may currently be underpricing.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-20T04:36:30.218908",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Rory Johnston",
+      "fetched_at": "2026-03-20T09:36:30.218739+00:00",
+      "cliff_notes": "Rory Johnston is a prominent figure in the field of energy market analysis, having founded Commodity Context, a company dedicated to providing in-depth analysis of commodity markets. His work is particularly relevant to investors and financial professionals who need to understand the intricacies of energy markets and their broader implications on the global economy. Johnston's expertise extends to commodities and macroeconomics, making him a valuable resource for those navigating the complexities of financial markets. His insights are regularly featured in discussions and analyses that aim to predict market trends and inform investment strategies.",
+      "derived": {
+        "current_role": "Founder, Commodity Context"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Rory Johnston is a prominent figure in the field of energy market analysis, having founded Commodity Context, a company dedicated to providing in-depth analysis of commodity markets. His work is particularly relevant to investors and financial professionals who need to understand the intricacies of energy markets and their broader implications on the global economy.",
+        "Johnston's expertise extends to commodities and macroeconomics, making him a valuable resource for those navigating the complexities of financial markets. His insights are regularly featured in discussions and analyses that aim to predict market trends and inform investment strategies."
+      ],
+      "sections": [
+        {
+          "heading": "Energy Market Analysis",
+          "body": "Rory Johnston is well-known for his detailed analysis of energy markets, providing investors with critical insights into market dynamics and trends."
+        },
+        {
+          "heading": "Macroeconomic Trends",
+          "body": "Johnston's work often intersects with macroeconomic trends, offering a unique perspective on how energy markets influence and are influenced by broader economic factors."
+        },
+        {
+          "heading": "Investment Strategy",
+          "body": "His expertise is highly valued by investors looking to make informed decisions in a volatile market, particularly in the context of commodities and energy."
+        }
+      ]
+    },
+    "net_worth": "$200"
+  },
+  {
+    "id": 96,
+    "name": "Jensen Huang",
+    "slug": "jensen-huang",
+    "bio": "Co-founder and CEO of Nvidia, a leading company in AI and GPU technology.",
+    "known_for": "Driving Nvidia's innovation in AI and GPU technology.",
+    "net_worth_usd": 151000000000.0,
+    "net_worth_source": "https://www.wikidata.org/wiki/Q305177",
+    "net_worth_updated_at": "2026-03-20T04:40:55.469936",
+    "voice_tone": "Confident and visionary.",
+    "voice_style": "Factual and future-oriented, with a focus on technology's transformative potential.",
+    "voice_delivery_notes": "Speak with a steady pace, emphasizing the transformative aspects of AI.",
+    "voice_profile_updated_at": "2026-03-29 03:04:27",
+    "last_seen": "2026-03-29 03:04:27",
+    "last_episode_title": "all in with chamath jason sacks frie jensen huang live nvidia s future physical ai rise of the 03b9c382",
+    "last_podcast_name": "All-In Podcast",
+    "last_episode_date": "2026-03-28",
+    "mention_score": 3,
+    "mention_score_decayed": 2.86,
+    "last_main_idea": "Investing in AI-driven platforms and technologies is essential for capturing the growth in the global financial system and staying ahead in the AI era.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-20T04:40:52.368193",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Jensen Huang",
+      "fetched_at": "2026-03-20T09:40:52.368095+00:00",
+      "cliff_notes": "Jensen Huang co-founded NVIDIA in 1993 with Curtis Priem and Chris Malachowsky. Huang's vision and leadership have been pivotal in NVIDIA's growth and transformation into a dominant player in the AI and GPU technology sector. His focus on innovation and technological advancement has positioned NVIDIA at the forefront of the AI revolution, influencing industries from gaming to data centers and autonomous vehicles. Huang's strategic foresight and commitment to research and development have made NVIDIA a household name in tech and a key player in the future of computing.",
+      "derived": {
+        "current_role": "Co-founder and CEO of NVIDIA",
+        "education": "Stanford University, Master's in Electrical Engineering"
+      },
+      "infobox": {
+        "Born": "1963",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Jensen Huang co-founded NVIDIA in 1993 with Curtis Priem and Chris Malachowsky. Huang's vision and leadership have been pivotal in NVIDIA's growth and transformation into a dominant player in the AI and GPU technology sector. His focus on innovation and technological advancement has positioned NVIDIA at the forefront of the AI revolution, influencing industries from gaming to data centers and autonomous vehicles.",
+        "Huang's strategic foresight and commitment to research and development have made NVIDIA a household name in tech and a key player in the future of computing."
+      ],
+      "sections": [
+        {
+          "heading": "NVIDIA's AI Transformation",
+          "body": "Jensen Huang has been instrumental in steering NVIDIA towards becoming a leader in AI computing, leveraging the company's expertise in GPUs to power AI applications across various industries."
+        },
+        {
+          "heading": "GPU Technology",
+          "body": "NVIDIA's GPUs have become the backbone of modern AI and deep learning, with Huang's leadership ensuring the company stays at the cutting edge of this technology."
+        },
+        {
+          "heading": "Strategic Acquisitions",
+          "body": "Huang's strategic vision includes acquisitions like Grok, which has further expanded NVIDIA's capabilities in AI and data analytics, showcasing his ability to anticipate and capitalize on emerging tech trends."
+        },
+        {
+          "heading": "Innovation and Future Vision",
+          "body": "Jensen Huang is known for his forward-thinking approach, with NVIDIA often introducing new technologies and strategies years in advance, setting the pace for the tech industry."
+        }
+      ]
+    },
+    "net_worth": "$151.00B"
+  },
+  {
+    "id": 97,
+    "name": "Simon White",
+    "slug": "simon-white",
+    "bio": "Bloomberg Macro strategist",
+    "known_for": "Analysis on secular inflation and macroeconomic trends",
+    "net_worth_usd": 112000000.0,
+    "net_worth_source": "https://www.gurufocus.com/insider/44/william-s-simon",
+    "net_worth_updated_at": "2026-03-20T22:08:35.505085",
+    "voice_tone": "Matter-of-fact and analytical",
+    "voice_style": "Factual and data-driven, with a focus on historical parallels",
+    "voice_delivery_notes": "Clear and concise, with a steady pace",
+    "voice_profile_updated_at": "2026-03-29 09:09:13",
+    "last_seen": "2026-03-29 09:09:13",
+    "last_episode_title": "MacroVoices-2026-03-19-Simon-White",
+    "last_podcast_name": "MacroVoices",
+    "last_episode_date": "2026-03-19",
+    "mention_score": 2,
+    "mention_score_decayed": 1.91,
+    "last_main_idea": "The Iran conflict could lead to a renewed inflation cycle, affecting commodities and energy markets, with potential second-order effects that markets may currently be underpricing.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-20T04:35:48.845381",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Simon White",
+      "fetched_at": "2026-03-20T09:35:48.845223+00:00",
+      "cliff_notes": "Simon White is recognized for his deep understanding of macroeconomic trends and their influence on global financial markets. As a Bloomberg Macro strategist, he provides critical analysis and forecasts that help investors navigate market volatility. His expertise is sought after in professional finance circles, particularly among high-net-worth individuals, family offices, and sophisticated investors. White's contributions to the Macrovoisers podcast further highlight his thought leadership in the field, where he discusses pressing issues such as secular inflation and its potential effects on economic outlooks.",
+      "derived": {
+        "current_role": "Bloomberg Macro strategist"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Simon White is recognized for his deep understanding of macroeconomic trends and their influence on global financial markets. As a Bloomberg Macro strategist, he provides critical analysis and forecasts that help investors navigate market volatility. His expertise is sought after in professional finance circles, particularly among high-net-worth individuals, family offices, and sophisticated investors.",
+        "White's contributions to the Macrovoisers podcast further highlight his thought leadership in the field, where he discusses pressing issues such as secular inflation and its potential effects on economic outlooks."
+      ],
+      "sections": [
+        {
+          "heading": "Market Analysis",
+          "body": "Simon White is known for his detailed market analysis, providing insights into how macroeconomic trends can affect investment strategies."
+        },
+        {
+          "heading": "Secular Inflation",
+          "body": "In his discussions, White often addresses secular inflation, explaining its potential impact on long-term economic growth and market performance."
+        },
+        {
+          "heading": "Financial Market Trends",
+          "body": "White's expertise extends to identifying and interpreting trends within the financial markets, offering valuable perspectives to investors."
+        }
+      ]
+    },
+    "net_worth": "$112.0M"
+  },
+  {
+    "id": 128,
+    "name": "Christian Catalini",
+    "slug": "christian-catalini",
+    "bio": "Christian Catalini is a co-founder of LightSpark and founder of the MIT Crypto Economics Lab. He is known for his work in the intersection of technology, economics, and entrepreneurship, particularly in the field of AI and blockchain.",
+    "known_for": "Authoring the influential paper 'Some Simple Economics of AI' and his contributions to the understanding of crypto economics.",
+    "net_worth_usd": 500000.0,
+    "net_worth_source": "https://en.wikipedia.org/wiki/Christian_Catalini",
+    "net_worth_updated_at": "2026-03-29T04:09:28.783743",
+    "voice_tone": "Optimistic and analytical.",
+    "voice_style": "Explanatory and speculative, discussing the future impacts of AI.",
+    "voice_delivery_notes": "Paced with emphasis on the transformative potential of AI.",
+    "voice_profile_updated_at": "2026-03-29 03:02:55",
+    "last_seen": "2026-03-29 03:02:55",
+    "last_episode_title": "the a16z show 20260319 1e92a9dd 78da 4417 b1ce 4b4318d1",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-03-28",
+    "mention_score": 2,
+    "mention_score_decayed": 1.91,
+    "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-28T22:05:42.395070",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Christian Catalini",
+      "fetched_at": "2026-03-29T03:05:42.394968+00:00",
+      "cliff_notes": "Christian Catalini has made significant contributions to the fields of technology, economics, and entrepreneurship. As the co-founder of LightSpark and founder of the MIT Crypto Economics Lab, he has been at the forefront of exploring the economic implications of AI and blockchain technology. His paper 'Some Simple Economics of AI' has been influential in shaping discussions around the economic impact of AI on work, startups, and ambition. Catalini's work is crucial for understanding how new technologies can disrupt traditional economic models and create new opportunities for innovation and growth.",
+      "derived": {
+        "current_role": "Founder, MIT Crypto Economics Lab",
+        "books_or_works": "Some Simple Economics of AI"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Christian Catalini has made significant contributions to the fields of technology, economics, and entrepreneurship. As the co-founder of LightSpark and founder of the MIT Crypto Economics Lab, he has been at the forefront of exploring the economic implications of AI and blockchain technology. His paper 'Some Simple Economics of AI' has been influential in shaping discussions around the economic impact of AI on work, startups, and ambition.",
+        "Catalini's work is crucial for understanding how new technologies can disrupt traditional economic models and create new opportunities for innovation and growth."
+      ],
+      "sections": [
+        {
+          "heading": "AI Economics",
+          "body": "Catalini's work on AI economics explores how artificial intelligence can transform economic models and create new opportunities for innovation."
+        },
+        {
+          "heading": "Crypto Economics",
+          "body": "As the founder of the MIT Crypto Economics Lab, Catalini has been instrumental in understanding the economic implications of blockchain technology."
+        },
+        {
+          "heading": "Entrepreneurship",
+          "body": "Catalini's experience as an entrepreneur, particularly as co-founder of LightSpark, provides him with unique insights into the challenges and opportunities faced by startups in the tech industry."
+        },
+        {
+          "heading": "Future of Work",
+          "body": "Catalini's research suggests that AI could give individuals the leverage of a team, fundamentally changing the nature of work and the potential for one-person billion-dollar startups."
+        }
+      ]
+    },
+    "net_worth": "$500,000"
+  },
+  {
+    "id": 129,
+    "name": "Eddie Lazarin",
+    "slug": "eddie-lazarin",
+    "bio": "Eddie Lazarin is a prominent figure in the tech industry, known for his insights on AI's role in shaping the future economy. He has been influential in discussions about the potential for AI to democratize access to resources and enable individuals to leverage the power of technology to create significant value.",
+    "known_for": "His contributions to the conversation about AI's impact on the future of work, startups, and economic empowerment.",
+    "net_worth_usd": 600000000000.0,
+    "net_worth_source": "https://www.forbes.com/sites/phoebeliu/2025/03/31/ai-boom-billionaires-these-tech-moguls-new-joined-billionaires-list-2025/",
+    "net_worth_updated_at": "2026-03-28T22:05:51.815831",
+    "voice_tone": "Inquisitive and engaging.",
+    "voice_style": "Facilitative, guiding the conversation through different aspects of AI.",
+    "voice_delivery_notes": "Evenly paced with a focus on drawing out detailed responses.",
+    "voice_profile_updated_at": "2026-03-29 03:02:55",
+    "last_seen": "2026-03-29 03:02:55",
+    "last_episode_title": "the a16z show 20260319 1e92a9dd 78da 4417 b1ce 4b4318d1",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-03-28",
+    "mention_score": 2,
+    "mention_score_decayed": 1.91,
+    "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-28T22:05:50.938326",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Eddie Lazarin",
+      "fetched_at": "2026-03-29T03:05:50.938237+00:00",
+      "cliff_notes": "Eddie Lazarin is recognized for his contributions to the discourse on artificial intelligence and its implications for the economy and society. As a co-founder of LightSpark, Lazarin has been at the forefront of exploring how AI can be harnessed to empower individuals and reshape traditional business models. His work emphasizes the potential for AI to provide individuals with the leverage of a team, thereby democratizing access to resources and opportunities. Lazarin's insights into the new surplus of AI and its potential to fuel the next generation of billion-dollar startups have made him a sought-after voice in tech circles.",
+      "derived": {
+        "current_role": "Co-founder of LightSpark"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Eddie Lazarin is recognized for his contributions to the discourse on artificial intelligence and its implications for the economy and society. As a co-founder of LightSpark, Lazarin has been at the forefront of exploring how AI can be harnessed to empower individuals and reshape traditional business models. His work emphasizes the potential for AI to provide individuals with the leverage of a team, thereby democratizing access to resources and opportunities.",
+        "Lazarin's insights into the new surplus of AI and its potential to fuel the next generation of billion-dollar startups have made him a sought-after voice in tech circles."
+      ],
+      "sections": [
+        {
+          "heading": "AI and Economic Empowerment",
+          "body": "Eddie Lazarin discusses how AI can provide individuals with the leverage of a team, potentially enabling anyone to start a billion-dollar startup with minimal resources."
+        },
+        {
+          "heading": "Future of Work",
+          "body": "Lazarin explores the implications of AI on the future of work, suggesting that traditional apprenticeship models may be replaced by new forms of work facilitated by AI."
+        },
+        {
+          "heading": "Democratization of Resources",
+          "body": "Lazarin emphasizes the potential for AI to democratize access to computing power and other resources, allowing individuals to compete on a level playing field with larger entities."
+        }
+      ]
+    },
+    "net_worth": "$600.00B"
+  },
+  {
+    "id": 94,
+    "name": "Carson Block",
+    "slug": "carson-block",
+    "bio": "Founder of Muddy Waters Capital, a leading activist short seller hedge fund.",
+    "known_for": "Specializing in activist short selling with deep research.",
+    "net_worth_usd": 200000000.0,
+    "net_worth_source": "https://www.publicfigurenetworth.com/carson-block-net-worth/",
+    "net_worth_updated_at": "2026-03-20T04:42:12.912511",
+    "voice_tone": "Confident and experienced.",
+    "voice_style": "Direct and to-the-point, with a focus on identifying market opportunities and risks.",
+    "voice_delivery_notes": "Paced with emphasis on key investment insights and market analysis.",
+    "voice_profile_updated_at": "2026-03-29 03:02:33",
+    "last_seen": "2026-03-29 03:02:33",
+    "last_episode_title": "Technical Analysis Deep Dive with Milton Berg - February 2026 Market Signals",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-02-15",
+    "mention_score": 2,
+    "mention_score_decayed": 1.91,
+    "last_main_idea": "Invest in sectors with fertile ground for short selling, such as AI and tech, and under-allocated areas like junior mining, while combining long and short strategies for potential alpha.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-20T04:42:09.376490",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Carson Block",
+      "fetched_at": "2026-03-20T09:42:09.376380+00:00",
+      "cliff_notes": "Carson Block is an American investor and the founder of Muddy Waters Capital, an investment firm known for its activist short selling approach. Block's career in finance began after he graduated from law school and moved to China, where he worked as an attorney and later in private equity. His experiences in China, particularly witnessing corporate fraud, inspired him to start Muddy Waters Research in 2010, which would later become Muddy Waters Capital. The firm is renowned for its deep research into companies, often uncovering fraudulent practices or overpromised business models, leading to significant market impact when they release their findings. Block's work has been influential in the tech and finance sectors, as his exposes often lead to substantial stock price movements and regulatory scrutiny.",
+      "derived": {
+        "current_role": "Founder of Muddy Waters Capital",
+        "education": "Bachelor's degree in International Relations from Southern Methodist University; Juris Doctor from the University of Chicago Law School"
+      },
+      "infobox": {
+        "Born": "1980",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Carson Block is an American investor and the founder of Muddy Waters Capital, an investment firm known for its activist short selling approach. Block's career in finance began after he graduated from law school and moved to China, where he worked as an attorney and later in private equity. His experiences in China, particularly witnessing corporate fraud, inspired him to start Muddy Waters Research in 2010, which would later become Muddy Waters Capital.",
+        "The firm is renowned for its deep research into companies, often uncovering fraudulent practices or overpromised business models, leading to significant market impact when they release their findings. Block's work has been influential in the tech and finance sectors, as his exposes often lead to substantial stock price movements and regulatory scrutiny."
+      ],
+      "sections": [
+        {
+          "heading": "Activist Short Selling",
+          "body": "Carson Block is recognized for his activist short selling approach, where he not only bets against companies but also actively researches and exposes fraudulent practices or overpromised business models."
+        },
+        {
+          "heading": "Muddy Waters Capital",
+          "body": "Muddy Waters Capital, founded by Block, is a hedge fund that specializes in short selling and has been influential in exposing corporate frauds, particularly in the tech sector."
+        },
+        {
+          "heading": "Market Impact",
+          "body": "Block's research and activism have had significant market impact, leading to substantial stock price movements and regulatory scrutiny for the companies targeted by Muddy Waters Capital."
+        },
+        {
+          "heading": "Fraud Exposure",
+          "body": "Carson Block has been instrumental in exposing corporate frauds, particularly in sectors like electric vehicles and green energy, where companies have been known to overpromise on their capabilities."
+        }
+      ]
+    },
+    "net_worth": "$200.0M"
+  },
+  {
+    "id": 69,
+    "name": "Ben Horowitz",
+    "slug": "ben-horowitz",
+    "bio": "Ben Horowitz is a prominent venture capitalist and co-founder of Andreessen Horowitz (a16z), a leading venture capital firm in Silicon Valley. He has been instrumental in shaping the tech industry through his investments and insights.",
+    "known_for": "Co-founding Andreessen Horowitz and shaping the tech industry through strategic investments and influential thought leadership.",
+    "net_worth_usd": 2000000000.0,
+    "net_worth_source": "https://www.cinenetworth.com/ben-horowitz-net-worth/",
+    "net_worth_updated_at": "2026-03-19T21:23:34.764792",
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-03-16 19:37:22",
+    "last_episode_title": "Moonshots Podcast Episode #231 - OpenAI Acquires OpenClaw, 400x Cost Collapse, & Why India Wins the Talent War",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-02-18",
+    "mention_score": 2,
+    "mention_score_decayed": 1.41,
+    "last_main_idea": "Invest in the vertical integration of AI, the rise of India as a global AI hub, and the shift towards agent-based interactions.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-19T21:23:33.038094",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Ben Horowitz",
+      "fetched_at": "2026-03-20T02:23:33.037970+00:00",
+      "cliff_notes": "Ben Horowitz is a renowned venture capitalist and entrepreneur. He co-founded Andreessen Horowitz (a16z) with Marc Andreessen in 2009, which has since become one of the most influential venture capital firms in Silicon Valley. Prior to a16z, Horowitz was a general partner at the venture capital firm Opsware, which was acquired by Hewlett-Packard for $1.6 billion in 2007. Before his venture capital career, Horowitz was a software engineer and entrepreneur, founding several companies including Loudcloud and Opsware. He has been a driving force in the tech industry, investing in and advising numerous successful startups. Horowitz is also known for his bestselling book, 'The Hard Thing About Hard Things,' which offers insights into the challenges of building and running a startup.",
+      "derived": {
+        "current_role": "Co-founder of Andreessen Horowitz",
+        "education": "Bachelor's degree in Computer Science from Columbia University; Master's degree in Computer Science from UCLA",
+        "books_or_works": "The Hard Thing About Hard Things: Building a Business When There Are No Easy Answers"
+      },
+      "infobox": {
+        "Born": "1973",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Ben Horowitz is a renowned venture capitalist and entrepreneur. He co-founded Andreessen Horowitz (a16z) with Marc Andreessen in 2009, which has since become one of the most influential venture capital firms in Silicon Valley. Prior to a16z, Horowitz was a general partner at the venture capital firm Opsware, which was acquired by Hewlett-Packard for $1.6 billion in 2007.",
+        "Before his venture capital career, Horowitz was a software engineer and entrepreneur, founding several companies including Loudcloud and Opsware. He has been a driving force in the tech industry, investing in and advising numerous successful startups. Horowitz is also known for his bestselling book, 'The Hard Thing About Hard Things,' which offers insights into the challenges of building and running a startup."
+      ],
+      "sections": [
+        {
+          "heading": "Venture Capital",
+          "body": "Ben Horowitz is a leading figure in the venture capital industry, co-founding Andreessen Horowitz and investing in numerous successful startups."
+        },
+        {
+          "heading": "Tech Industry Influence",
+          "body": "Horowitz has been instrumental in shaping the tech industry through his strategic investments and influential thought leadership."
+        },
+        {
+          "heading": "Entrepreneurship",
+          "body": "Before his venture capital career, Horowitz was an entrepreneur, founding companies such as Loudcloud and Opsware."
+        },
+        {
+          "heading": "Thought Leadership",
+          "body": "Horowitz is known for his bestselling book, 'The Hard Thing About Hard Things,' which offers insights into the challenges of building and running a startup."
+        }
+      ]
+    },
+    "net_worth": "$2.00B"
+  },
+  {
+    "id": 43,
+    "name": "Olivia Moore",
+    "slug": "olivia-moore",
+    "bio": "Olivia Moore is a partner at A16Z, focusing on AI applications.",
+    "known_for": "Her expertise in AI and its applications in various sectors.",
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-03-16 13:08:23",
+    "last_episode_title": "AI Startups and the Future of Technology",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-03-16",
+    "mention_score": 2,
+    "mention_score_decayed": 1.41,
+    "last_main_idea": "Invest in AI startups that focus on specific niches and use cases, as they can compete effectively against larger AI companies by capitalizing on the gaps between platforms.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
     "id": 138,
     "name": "Mark Andreessen",
     "slug": "mark-andreessen",
@@ -122,182 +566,6 @@
     "net_worth": "$2.00B"
   },
   {
-    "id": 97,
-    "name": "Simon White",
-    "slug": "simon-white",
-    "bio": "Bloomberg Macro strategist",
-    "known_for": "Analysis on secular inflation and macroeconomic trends",
-    "net_worth_usd": 112000000.0,
-    "net_worth_source": "https://www.gurufocus.com/insider/44/william-s-simon",
-    "net_worth_updated_at": "2026-03-20T22:08:35.505085",
-    "voice_tone": "Matter-of-fact and analytical",
-    "voice_style": "Factual and data-driven, with a focus on historical parallels",
-    "voice_delivery_notes": "Clear and concise, with a steady pace",
-    "voice_profile_updated_at": "2026-03-29 09:09:13",
-    "last_seen": "2026-03-29 09:09:13",
-    "last_episode_title": "MacroVoices-2026-03-19-Simon-White",
-    "last_podcast_name": "Unknown Podcast",
-    "last_episode_date": "2026-03-19",
-    "mention_score": 2,
-    "mention_score_decayed": 1.91,
-    "last_main_idea": "The Iran conflict could lead to a renewed inflation cycle, affecting commodities and energy markets, with potential second-order effects that markets may currently be underpricing.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-20T04:35:48.845381",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Simon White",
-      "fetched_at": "2026-03-20T09:35:48.845223+00:00",
-      "cliff_notes": "Simon White is recognized for his deep understanding of macroeconomic trends and their influence on global financial markets. As a Bloomberg Macro strategist, he provides critical analysis and forecasts that help investors navigate market volatility. His expertise is sought after in professional finance circles, particularly among high-net-worth individuals, family offices, and sophisticated investors. White's contributions to the Macrovoisers podcast further highlight his thought leadership in the field, where he discusses pressing issues such as secular inflation and its potential effects on economic outlooks.",
-      "derived": {
-        "current_role": "Bloomberg Macro strategist"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Simon White is recognized for his deep understanding of macroeconomic trends and their influence on global financial markets. As a Bloomberg Macro strategist, he provides critical analysis and forecasts that help investors navigate market volatility. His expertise is sought after in professional finance circles, particularly among high-net-worth individuals, family offices, and sophisticated investors.",
-        "White's contributions to the Macrovoisers podcast further highlight his thought leadership in the field, where he discusses pressing issues such as secular inflation and its potential effects on economic outlooks."
-      ],
-      "sections": [
-        {
-          "heading": "Market Analysis",
-          "body": "Simon White is known for his detailed market analysis, providing insights into how macroeconomic trends can affect investment strategies."
-        },
-        {
-          "heading": "Secular Inflation",
-          "body": "In his discussions, White often addresses secular inflation, explaining its potential impact on long-term economic growth and market performance."
-        },
-        {
-          "heading": "Financial Market Trends",
-          "body": "White's expertise extends to identifying and interpreting trends within the financial markets, offering valuable perspectives to investors."
-        }
-      ]
-    },
-    "net_worth": "$112.0M"
-  },
-  {
-    "id": 98,
-    "name": "Rory Johnston",
-    "slug": "rory-johnston",
-    "bio": "Commodity Context founder",
-    "known_for": "Perspectives on energy markets and commodity pricing",
-    "net_worth_usd": 200.0,
-    "net_worth_source": "https://www.bloomberg.com/news/articles/2026-03-10/rory-johnston-on-how-oil-could-surge-to-over-200-a-barrel",
-    "net_worth_updated_at": "2026-03-28T22:05:57.557236",
-    "voice_tone": "Informative and insightful",
-    "voice_style": "Direct and focused on market dynamics",
-    "voice_delivery_notes": "Paced with emphasis on key market indicators",
-    "voice_profile_updated_at": "2026-03-29 09:09:13",
-    "last_seen": "2026-03-29 09:09:13",
-    "last_episode_title": "MacroVoices-2026-03-19-Simon-White",
-    "last_podcast_name": "Unknown Podcast",
-    "last_episode_date": "2026-03-19",
-    "mention_score": 4,
-    "mention_score_decayed": 3.82,
-    "last_main_idea": "The Iran conflict could lead to a renewed inflation cycle, affecting commodities and energy markets, with potential second-order effects that markets may currently be underpricing.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-20T04:36:30.218908",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Rory Johnston",
-      "fetched_at": "2026-03-20T09:36:30.218739+00:00",
-      "cliff_notes": "Rory Johnston is a prominent figure in the field of energy market analysis, having founded Commodity Context, a company dedicated to providing in-depth analysis of commodity markets. His work is particularly relevant to investors and financial professionals who need to understand the intricacies of energy markets and their broader implications on the global economy. Johnston's expertise extends to commodities and macroeconomics, making him a valuable resource for those navigating the complexities of financial markets. His insights are regularly featured in discussions and analyses that aim to predict market trends and inform investment strategies.",
-      "derived": {
-        "current_role": "Founder, Commodity Context"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Rory Johnston is a prominent figure in the field of energy market analysis, having founded Commodity Context, a company dedicated to providing in-depth analysis of commodity markets. His work is particularly relevant to investors and financial professionals who need to understand the intricacies of energy markets and their broader implications on the global economy.",
-        "Johnston's expertise extends to commodities and macroeconomics, making him a valuable resource for those navigating the complexities of financial markets. His insights are regularly featured in discussions and analyses that aim to predict market trends and inform investment strategies."
-      ],
-      "sections": [
-        {
-          "heading": "Energy Market Analysis",
-          "body": "Rory Johnston is well-known for his detailed analysis of energy markets, providing investors with critical insights into market dynamics and trends."
-        },
-        {
-          "heading": "Macroeconomic Trends",
-          "body": "Johnston's work often intersects with macroeconomic trends, offering a unique perspective on how energy markets influence and are influenced by broader economic factors."
-        },
-        {
-          "heading": "Investment Strategy",
-          "body": "His expertise is highly valued by investors looking to make informed decisions in a volatile market, particularly in the context of commodities and energy."
-        }
-      ]
-    },
-    "net_worth": "$200"
-  },
-  {
-    "id": 96,
-    "name": "Jensen Huang",
-    "slug": "jensen-huang",
-    "bio": "Co-founder and CEO of Nvidia, a leading company in AI and GPU technology.",
-    "known_for": "Driving Nvidia's innovation in AI and GPU technology.",
-    "net_worth_usd": 151000000000.0,
-    "net_worth_source": "https://www.wikidata.org/wiki/Q305177",
-    "net_worth_updated_at": "2026-03-20T04:40:55.469936",
-    "voice_tone": "Confident and visionary.",
-    "voice_style": "Factual and future-oriented, with a focus on technology's transformative potential.",
-    "voice_delivery_notes": "Speak with a steady pace, emphasizing the transformative aspects of AI.",
-    "voice_profile_updated_at": "2026-03-29 03:04:27",
-    "last_seen": "2026-03-29 03:04:27",
-    "last_episode_title": "all in with chamath jason sacks frie jensen huang live nvidia s future physical ai rise of the 03b9c382",
-    "last_podcast_name": "Unknown Podcast",
-    "last_episode_date": "2026-03-28",
-    "mention_score": 3,
-    "mention_score_decayed": 2.86,
-    "last_main_idea": "Investing in AI-driven platforms and technologies is essential for capturing the growth in the global financial system and staying ahead in the AI era.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-20T04:40:52.368193",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Jensen Huang",
-      "fetched_at": "2026-03-20T09:40:52.368095+00:00",
-      "cliff_notes": "Jensen Huang co-founded NVIDIA in 1993 with Curtis Priem and Chris Malachowsky. Huang's vision and leadership have been pivotal in NVIDIA's growth and transformation into a dominant player in the AI and GPU technology sector. His focus on innovation and technological advancement has positioned NVIDIA at the forefront of the AI revolution, influencing industries from gaming to data centers and autonomous vehicles. Huang's strategic foresight and commitment to research and development have made NVIDIA a household name in tech and a key player in the future of computing.",
-      "derived": {
-        "current_role": "Co-founder and CEO of NVIDIA",
-        "education": "Stanford University, Master's in Electrical Engineering"
-      },
-      "infobox": {
-        "Born": "1963",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Jensen Huang co-founded NVIDIA in 1993 with Curtis Priem and Chris Malachowsky. Huang's vision and leadership have been pivotal in NVIDIA's growth and transformation into a dominant player in the AI and GPU technology sector. His focus on innovation and technological advancement has positioned NVIDIA at the forefront of the AI revolution, influencing industries from gaming to data centers and autonomous vehicles.",
-        "Huang's strategic foresight and commitment to research and development have made NVIDIA a household name in tech and a key player in the future of computing."
-      ],
-      "sections": [
-        {
-          "heading": "NVIDIA's AI Transformation",
-          "body": "Jensen Huang has been instrumental in steering NVIDIA towards becoming a leader in AI computing, leveraging the company's expertise in GPUs to power AI applications across various industries."
-        },
-        {
-          "heading": "GPU Technology",
-          "body": "NVIDIA's GPUs have become the backbone of modern AI and deep learning, with Huang's leadership ensuring the company stays at the cutting edge of this technology."
-        },
-        {
-          "heading": "Strategic Acquisitions",
-          "body": "Huang's strategic vision includes acquisitions like Grok, which has further expanded NVIDIA's capabilities in AI and data analytics, showcasing his ability to anticipate and capitalize on emerging tech trends."
-        },
-        {
-          "heading": "Innovation and Future Vision",
-          "body": "Jensen Huang is known for his forward-thinking approach, with NVIDIA often introducing new technologies and strategies years in advance, setting the pace for the tech industry."
-        }
-      ]
-    },
-    "net_worth": "$151.00B"
-  },
-  {
     "id": 133,
     "name": "Chris Dixon",
     "slug": "chris-dixon",
@@ -312,7 +580,7 @@
     "voice_profile_updated_at": "2026-03-29 03:04:14",
     "last_seen": "2026-03-29 03:04:14",
     "last_episode_title": "the a16z show chris dixon from quant trading to building a16z crypto be2e5b4b",
-    "last_podcast_name": "Unknown Podcast",
+    "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-28",
     "mention_score": 1,
     "mention_score_decayed": 0.95,
@@ -473,187 +741,6 @@
     "net_worth": "$1.20B"
   },
   {
-    "id": 128,
-    "name": "Christian Catalini",
-    "slug": "christian-catalini",
-    "bio": "Christian Catalini is a co-founder of LightSpark and founder of the MIT Crypto Economics Lab. He is known for his work in the intersection of technology, economics, and entrepreneurship, particularly in the field of AI and blockchain.",
-    "known_for": "Authoring the influential paper 'Some Simple Economics of AI' and his contributions to the understanding of crypto economics.",
-    "net_worth_usd": 500000.0,
-    "net_worth_source": "https://en.wikipedia.org/wiki/Christian_Catalini",
-    "net_worth_updated_at": "2026-03-29T04:09:28.783743",
-    "voice_tone": "Optimistic and analytical.",
-    "voice_style": "Explanatory and speculative, discussing the future impacts of AI.",
-    "voice_delivery_notes": "Paced with emphasis on the transformative potential of AI.",
-    "voice_profile_updated_at": "2026-03-29 03:02:55",
-    "last_seen": "2026-03-29 03:02:55",
-    "last_episode_title": "the a16z show 20260319 1e92a9dd 78da 4417 b1ce 4b4318d1",
-    "last_podcast_name": "Unknown Podcast",
-    "last_episode_date": "2026-03-28",
-    "mention_score": 2,
-    "mention_score_decayed": 1.91,
-    "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-28T22:05:42.395070",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Christian Catalini",
-      "fetched_at": "2026-03-29T03:05:42.394968+00:00",
-      "cliff_notes": "Christian Catalini has made significant contributions to the fields of technology, economics, and entrepreneurship. As the co-founder of LightSpark and founder of the MIT Crypto Economics Lab, he has been at the forefront of exploring the economic implications of AI and blockchain technology. His paper 'Some Simple Economics of AI' has been influential in shaping discussions around the economic impact of AI on work, startups, and ambition. Catalini's work is crucial for understanding how new technologies can disrupt traditional economic models and create new opportunities for innovation and growth.",
-      "derived": {
-        "current_role": "Founder, MIT Crypto Economics Lab",
-        "books_or_works": "Some Simple Economics of AI"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Christian Catalini has made significant contributions to the fields of technology, economics, and entrepreneurship. As the co-founder of LightSpark and founder of the MIT Crypto Economics Lab, he has been at the forefront of exploring the economic implications of AI and blockchain technology. His paper 'Some Simple Economics of AI' has been influential in shaping discussions around the economic impact of AI on work, startups, and ambition.",
-        "Catalini's work is crucial for understanding how new technologies can disrupt traditional economic models and create new opportunities for innovation and growth."
-      ],
-      "sections": [
-        {
-          "heading": "AI Economics",
-          "body": "Catalini's work on AI economics explores how artificial intelligence can transform economic models and create new opportunities for innovation."
-        },
-        {
-          "heading": "Crypto Economics",
-          "body": "As the founder of the MIT Crypto Economics Lab, Catalini has been instrumental in understanding the economic implications of blockchain technology."
-        },
-        {
-          "heading": "Entrepreneurship",
-          "body": "Catalini's experience as an entrepreneur, particularly as co-founder of LightSpark, provides him with unique insights into the challenges and opportunities faced by startups in the tech industry."
-        },
-        {
-          "heading": "Future of Work",
-          "body": "Catalini's research suggests that AI could give individuals the leverage of a team, fundamentally changing the nature of work and the potential for one-person billion-dollar startups."
-        }
-      ]
-    },
-    "net_worth": "$500,000"
-  },
-  {
-    "id": 129,
-    "name": "Eddie Lazarin",
-    "slug": "eddie-lazarin",
-    "bio": "Eddie Lazarin is a prominent figure in the tech industry, known for his insights on AI's role in shaping the future economy. He has been influential in discussions about the potential for AI to democratize access to resources and enable individuals to leverage the power of technology to create significant value.",
-    "known_for": "His contributions to the conversation about AI's impact on the future of work, startups, and economic empowerment.",
-    "net_worth_usd": 600000000000.0,
-    "net_worth_source": "https://www.forbes.com/sites/phoebeliu/2025/03/31/ai-boom-billionaires-these-tech-moguls-new-joined-billionaires-list-2025/",
-    "net_worth_updated_at": "2026-03-28T22:05:51.815831",
-    "voice_tone": "Inquisitive and engaging.",
-    "voice_style": "Facilitative, guiding the conversation through different aspects of AI.",
-    "voice_delivery_notes": "Evenly paced with a focus on drawing out detailed responses.",
-    "voice_profile_updated_at": "2026-03-29 03:02:55",
-    "last_seen": "2026-03-29 03:02:55",
-    "last_episode_title": "the a16z show 20260319 1e92a9dd 78da 4417 b1ce 4b4318d1",
-    "last_podcast_name": "Unknown Podcast",
-    "last_episode_date": "2026-03-28",
-    "mention_score": 2,
-    "mention_score_decayed": 1.91,
-    "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-28T22:05:50.938326",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Eddie Lazarin",
-      "fetched_at": "2026-03-29T03:05:50.938237+00:00",
-      "cliff_notes": "Eddie Lazarin is recognized for his contributions to the discourse on artificial intelligence and its implications for the economy and society. As a co-founder of LightSpark, Lazarin has been at the forefront of exploring how AI can be harnessed to empower individuals and reshape traditional business models. His work emphasizes the potential for AI to provide individuals with the leverage of a team, thereby democratizing access to resources and opportunities. Lazarin's insights into the new surplus of AI and its potential to fuel the next generation of billion-dollar startups have made him a sought-after voice in tech circles.",
-      "derived": {
-        "current_role": "Co-founder of LightSpark"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Eddie Lazarin is recognized for his contributions to the discourse on artificial intelligence and its implications for the economy and society. As a co-founder of LightSpark, Lazarin has been at the forefront of exploring how AI can be harnessed to empower individuals and reshape traditional business models. His work emphasizes the potential for AI to provide individuals with the leverage of a team, thereby democratizing access to resources and opportunities.",
-        "Lazarin's insights into the new surplus of AI and its potential to fuel the next generation of billion-dollar startups have made him a sought-after voice in tech circles."
-      ],
-      "sections": [
-        {
-          "heading": "AI and Economic Empowerment",
-          "body": "Eddie Lazarin discusses how AI can provide individuals with the leverage of a team, potentially enabling anyone to start a billion-dollar startup with minimal resources."
-        },
-        {
-          "heading": "Future of Work",
-          "body": "Lazarin explores the implications of AI on the future of work, suggesting that traditional apprenticeship models may be replaced by new forms of work facilitated by AI."
-        },
-        {
-          "heading": "Democratization of Resources",
-          "body": "Lazarin emphasizes the potential for AI to democratize access to computing power and other resources, allowing individuals to compete on a level playing field with larger entities."
-        }
-      ]
-    },
-    "net_worth": "$600.00B"
-  },
-  {
-    "id": 94,
-    "name": "Carson Block",
-    "slug": "carson-block",
-    "bio": "Founder of Muddy Waters Capital, a leading activist short seller hedge fund.",
-    "known_for": "Specializing in activist short selling with deep research.",
-    "net_worth_usd": 200000000.0,
-    "net_worth_source": "https://www.publicfigurenetworth.com/carson-block-net-worth/",
-    "net_worth_updated_at": "2026-03-20T04:42:12.912511",
-    "voice_tone": "Confident and experienced.",
-    "voice_style": "Direct and to-the-point, with a focus on identifying market opportunities and risks.",
-    "voice_delivery_notes": "Paced with emphasis on key investment insights and market analysis.",
-    "voice_profile_updated_at": "2026-03-29 03:02:33",
-    "last_seen": "2026-03-29 03:02:33",
-    "last_episode_title": "Technical Analysis Deep Dive with Milton Berg - February 2026 Market Signals",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-02-15",
-    "mention_score": 2,
-    "mention_score_decayed": 1.91,
-    "last_main_idea": "Invest in sectors with fertile ground for short selling, such as AI and tech, and under-allocated areas like junior mining, while combining long and short strategies for potential alpha.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-20T04:42:09.376490",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Carson Block",
-      "fetched_at": "2026-03-20T09:42:09.376380+00:00",
-      "cliff_notes": "Carson Block is an American investor and the founder of Muddy Waters Capital, an investment firm known for its activist short selling approach. Block's career in finance began after he graduated from law school and moved to China, where he worked as an attorney and later in private equity. His experiences in China, particularly witnessing corporate fraud, inspired him to start Muddy Waters Research in 2010, which would later become Muddy Waters Capital. The firm is renowned for its deep research into companies, often uncovering fraudulent practices or overpromised business models, leading to significant market impact when they release their findings. Block's work has been influential in the tech and finance sectors, as his exposes often lead to substantial stock price movements and regulatory scrutiny.",
-      "derived": {
-        "current_role": "Founder of Muddy Waters Capital",
-        "education": "Bachelor's degree in International Relations from Southern Methodist University; Juris Doctor from the University of Chicago Law School"
-      },
-      "infobox": {
-        "Born": "1980",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Carson Block is an American investor and the founder of Muddy Waters Capital, an investment firm known for its activist short selling approach. Block's career in finance began after he graduated from law school and moved to China, where he worked as an attorney and later in private equity. His experiences in China, particularly witnessing corporate fraud, inspired him to start Muddy Waters Research in 2010, which would later become Muddy Waters Capital.",
-        "The firm is renowned for its deep research into companies, often uncovering fraudulent practices or overpromised business models, leading to significant market impact when they release their findings. Block's work has been influential in the tech and finance sectors, as his exposes often lead to substantial stock price movements and regulatory scrutiny."
-      ],
-      "sections": [
-        {
-          "heading": "Activist Short Selling",
-          "body": "Carson Block is recognized for his activist short selling approach, where he not only bets against companies but also actively researches and exposes fraudulent practices or overpromised business models."
-        },
-        {
-          "heading": "Muddy Waters Capital",
-          "body": "Muddy Waters Capital, founded by Block, is a hedge fund that specializes in short selling and has been influential in exposing corporate frauds, particularly in the tech sector."
-        },
-        {
-          "heading": "Market Impact",
-          "body": "Block's research and activism have had significant market impact, leading to substantial stock price movements and regulatory scrutiny for the companies targeted by Muddy Waters Capital."
-        },
-        {
-          "heading": "Fraud Exposure",
-          "body": "Carson Block has been instrumental in exposing corporate frauds, particularly in sectors like electric vehicles and green energy, where companies have been known to overpromise on their capabilities."
-        }
-      ]
-    },
-    "net_worth": "$200.0M"
-  },
-  {
     "id": 127,
     "name": "Rupert Mitchell",
     "slug": "rupert-mitchell",
@@ -671,7 +758,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "The current bull market is built on shaky foundations, and a shift towards a more cautious stance with a focus on security software and data lake control is advised.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
@@ -695,7 +782,7 @@
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-03-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "The historical insights from the Italian Renaissance period suggest that technological advancements, such as the printing press, can have a profound impact on society and information distribution, which parallels modern tech revolutions and their investment implications.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
@@ -905,7 +992,7 @@
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "Investors should consider the geopolitical risks and shifts in global power dynamics when constructing their portfolios, with a focus on sectors that may be affected by rising energy prices and inflation.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-26T14:15:41.620354",
@@ -970,7 +1057,7 @@
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "Investors should consider the geopolitical risks and shifts in global power dynamics when constructing their portfolios, with a focus on sectors that may be affected by rising energy prices and inflation.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-26T14:15:50.429943",
@@ -1007,119 +1094,5 @@
       ]
     },
     "net_worth": "$1.5M"
-  },
-  {
-    "id": 118,
-    "name": "Justin Finnelli",
-    "slug": "justin-finnelli",
-    "bio": "Justin Finnelli is the Chief Technology Officer (CTO) of the U.S. Navy, tasked with identifying technological needs and gaps, and connecting with innovators to bring about improvements or breakthroughs. His work is pivotal in signal to noise detection and catalyzing innovation within the Navy.",
-    "known_for": "His role in enhancing the Navy's technological capabilities and his insights into cybersecurity threats, particularly regarding telecommunications infiltration.",
-    "net_worth_usd": 3000000000.0,
-    "net_worth_source": "https://www.businesswire.com/news/home/20250820740989/en/U.S.-Navy-CTO-Justin-Fanelli-Joins-Hupside-to-Champion-Human-Originality-in-the-Age-of-AI",
-    "net_worth_updated_at": "2026-03-26T11:51:58.064732",
-    "voice_tone": "Informative and solution-oriented",
-    "voice_style": "Focuses on the importance of innovation and collaboration",
-    "voice_delivery_notes": "Speaks with a clear emphasis on the necessity of addressing cybersecurity threats",
-    "voice_profile_updated_at": "2026-03-26 16:16:20",
-    "last_seen": "2026-03-26 16:16:20",
-    "last_episode_title": "Cybersecurity and National Security in the Telecommunications Sector",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-03-26",
-    "mention_score": 1,
-    "mention_score_decayed": 0.91,
-    "last_main_idea": "Investing in cybersecurity solutions that can secure networks on top of compromised physical infrastructure is crucial for national security and economic prosperity.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-26T11:16:44.078788",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Justin Finnelli",
-      "fetched_at": "2026-03-26T16:16:44.078427+00:00",
-      "cliff_notes": "Justin Finnelli serves as the Chief Technology Officer of the U.S. Navy, where he is responsible for recognizing the technological requirements and shortcomings of the Navy's operations. His role involves liaising with innovators to address these gaps, thereby enhancing the Navy's technological edge. Finnelli's expertise extends to cybersecurity, where he has been vocal about the threats posed by foreign infiltration of telecommunications infrastructure, as evidenced by his discussions on the 'Salt Typhoon' incident. His work is crucial in ensuring the Navy's technological readiness and in safeguarding national security interests in the digital age.",
-      "derived": {
-        "current_role": "CTO of the Navy"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Justin Finnelli serves as the Chief Technology Officer of the U.S. Navy, where he is responsible for recognizing the technological requirements and shortcomings of the Navy's operations. His role involves liaising with innovators to address these gaps, thereby enhancing the Navy's technological edge. Finnelli's expertise extends to cybersecurity, where he has been vocal about the threats posed by foreign infiltration of telecommunications infrastructure, as evidenced by his discussions on the 'Salt Typhoon' incident.",
-        "His work is crucial in ensuring the Navy's technological readiness and in safeguarding national security interests in the digital age."
-      ],
-      "sections": [
-        {
-          "heading": "Naval Technology",
-          "body": "Justin Finnelli plays a critical role in identifying and bridging technological gaps within the U.S. Navy, ensuring that the force remains at the forefront of modern military capabilities."
-        },
-        {
-          "heading": "Cybersecurity",
-          "body": "Finnelli has been instrumental in raising awareness about the infiltration of major U.S. telecommunications carriers by foreign entities, emphasizing the importance of cybersecurity in national defense."
-        },
-        {
-          "heading": "Innovation Catalyst",
-          "body": "As CTO, Finnelli connects with innovators to bring about technological improvements and breakthroughs, which are vital for the advancement of the Navy's operational capabilities."
-        }
-      ]
-    },
-    "net_worth": "$3.00B"
-  },
-  {
-    "id": 119,
-    "name": "John Doyle",
-    "slug": "john-doyle",
-    "bio": "John Doyle is the Founder and CEO of a company focused on developing secure networks that operate on compromised physical infrastructure. His work is pivotal in addressing cybersecurity threats and ensuring secure communication in the digital age.",
-    "known_for": "Creating secure networks that can operate on compromised physical infrastructure, crucial in the face of increasing cybersecurity threats.",
-    "net_worth_usd": 27500000.0,
-    "net_worth_source": "https://www.quiverquant.com/insiders/1580963/John-Q-Doyle",
-    "net_worth_updated_at": "2026-03-26T11:16:53.602329",
-    "voice_tone": "Confident and solution-focused",
-    "voice_style": "Discusses the practical applications of secure network technology",
-    "voice_delivery_notes": "Speaks with conviction about the importance of secure networks in the telecommunications sector",
-    "voice_profile_updated_at": "2026-03-26 16:16:20",
-    "last_seen": "2026-03-26 16:16:20",
-    "last_episode_title": "Cybersecurity and National Security in the Telecommunications Sector",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-03-26",
-    "mention_score": 1,
-    "mention_score_decayed": 0.91,
-    "last_main_idea": "Investing in cybersecurity solutions that can secure networks on top of compromised physical infrastructure is crucial for national security and economic prosperity.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-26T11:16:52.472386",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "John Doyle",
-      "fetched_at": "2026-03-26T16:16:52.472220+00:00",
-      "cliff_notes": "John Doyle is recognized for his work in cybersecurity, particularly in creating secure networks that can operate securely on top of compromised physical infrastructure. As the CEO of his own company, he has been at the forefront of developing solutions to protect against cyber threats. His insights into the vulnerabilities of major telecommunications carriers, as highlighted in his Davos appearance, underscore the importance of his work. Doyle's contributions to the field are significant, as they address the fundamental security of digital communications, which is critical in an era where personal and business data is increasingly targeted by cybercriminals.",
-      "derived": {
-        "current_role": "Founder and CEO of a secure network company"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "John Doyle is recognized for his work in cybersecurity, particularly in creating secure networks that can operate securely on top of compromised physical infrastructure. As the CEO of his own company, he has been at the forefront of developing solutions to protect against cyber threats. His insights into the vulnerabilities of major telecommunications carriers, as highlighted in his Davos appearance, underscore the importance of his work.",
-        "Doyle's contributions to the field are significant, as they address the fundamental security of digital communications, which is critical in an era where personal and business data is increasingly targeted by cybercriminals."
-      ],
-      "sections": [
-        {
-          "heading": "Secure Networks",
-          "body": "John Doyle is known for his innovative approach to creating secure networks that can operate even when the underlying physical infrastructure is compromised."
-        },
-        {
-          "heading": "Cybersecurity Threats",
-          "body": "His work is vital in the face of increasing cybersecurity threats, particularly those posed by state-sponsored actors like China, as evidenced by the Salt Typhoon incident."
-        },
-        {
-          "heading": "Communications Infrastructure",
-          "body": "Doyle's expertise lies in securing telecommunications infrastructure, a critical component of modern society where much of life and business is conducted through digital means."
-        }
-      ]
-    },
-    "net_worth": "$27.5M"
   }
 ]

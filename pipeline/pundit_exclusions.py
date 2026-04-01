@@ -18,6 +18,8 @@ EXCLUDED_PUNDIT_NAMES: FrozenSet[str] = frozenset(
         "Salim Ismail",
         "Dave Blund",
         "Dave Blundin",
+        "David Sacks",
+        "David Friedberg",
         # Alex Wissner-Gross (co-host; ASR sometimes says "Alex Wey"; on-air "AWG")
         "Alexander Wissner-Gross",
         "Alex Wissner-Gross",

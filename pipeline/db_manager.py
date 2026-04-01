@@ -504,7 +504,7 @@ class DashboardDB:
                 ) latest ON latest.entity_id = a.entity_id AND a.id = latest.mid
                 LEFT JOIN podcast_episodes pe ON pe.id = a.source_id
                 WHERE e.type = 'person'
-                ORDER BY a.created_at DESC
+                ORDER BY agg.appearance_count DESC, a.created_at DESC
                 LIMIT 20
                 """
             )

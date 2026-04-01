@@ -53,7 +53,6 @@ PODCAST_PATTERNS = {
 # Content-based podcast detection: scan transcript text for show identity clues
 CONTENT_PODCAST_HINTS = [
     (r'welcome to moonshots|moonshot mates|ladies and gentlemen.*moonshots|this is moonshots', 'Moonshots with Peter Diamandis'),
-    (r'university of podcast', 'University of Podcast'),
     (r'monetary matters|jack farley', 'Monetary Matters with Jack Farley'),
     (r'network state podcast|balaji srinivasan', 'Network State Podcast'),
     (r'jack mallers show|strike.*bitcoin', 'The Jack Mallers Show'),
