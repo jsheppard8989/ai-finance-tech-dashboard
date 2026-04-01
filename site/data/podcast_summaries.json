@@ -1,5 +1,23 @@
 [
   {
+    "id": 130,
+    "podcast_name": "The a16z Show",
+    "episode_title": "What Happens When a Public Company Goes All In on AI",
+    "episode_date": "2026-04-01",
+    "summary": "In this episode of the a16z Show, A16Z General Partner David Haper interviews Owen Jennings, Executive Officer and Business Lead at Block, to discuss the company's restructuring around AI. Jennings shares insights into Block's decision to cut 40% of its workforce and rebuild around small squads working alongside AI agents. The conversation covers the impact of AI on the company's operations, product development, and future strategy, highlighting the shift from traditional hierarchical structures to more agile, AI-augmented teams.",
+    "key_takeaways": [
+      "Block's decision to cut 40% of its workforce was driven by advancements in AI and the realization that fewer engineers and designers are needed for product development.",
+      "AI agents have significantly increased productivity, with one or two engineers on the tools being able to achieve 10-100x more output than before.",
+      "The company has transitioned from large teams to smaller, more agile squads of 1-6 people, allowing for greater flexibility and fluidity in product development.",
+      "Designers and product managers at Block are now writing code, a shift that has become normalized with the integration of AI into the development process.",
+      "Block's internal tool, Builderbot, autonomously ships features to production, highlighting the company's move towards AI-driven operations."
+    ],
+    "investment_thesis": "Investing in companies that understand complex problems and can leverage AI to gain a competitive advantage in their operations and product development.",
+    "key_tickers": [
+      "SQ"
+    ]
+  },
+  {
     "id": 129,
     "podcast_name": "The Jack Mallers Show",
     "episode_title": "They're Lying to You. Again. Stay Humble & Stack Sats.",

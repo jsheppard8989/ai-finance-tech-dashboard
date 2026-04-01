@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-04-01T05:07:56.353854",
+  "last_updated": "2026-04-01T15:17:01.285567",
   "episodes": {
-    "the_a16z_show_what_happens_when_a_public_com": {
+    "monetary_matters_with_jack_farley_why_$200_oil_won\u2019t_spike_infla": {
       "info": {
-        "podcast": "The a16z Show",
-        "title": "What Happens When a Public Company Goes All In on AI",
+        "podcast": "Monetary Matters with Jack Farley",
+        "title": "Why $200 Oil Won\u2019t Spike Inflation to 9% | Anna Wong on Recession Probability, PCE vs CPI, and Fed Reaction Function In A Scenario of Soaring Energy Prices",
         "published": "2026-04-01",
-        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_what_happens_when_a_public_company_goes_all_in_on_ai_574dbc1b.mp3",
+        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/monetary_matters_with_jack_farley_why__200_oil_won_t_spike_inflation_to_9____anna_wong_on_rece_fdfcbde8.mp3",
         "keywords": [],
-        "rss_guid": "36dd6e38-bd6d-4283-975a-b386e4a2f86c"
+        "rss_guid": "f5ba2700-2d85-11f1-9a20-675a36b4e5ef"
       },
       "stages": {
         "downloaded": {
@@ -39,8 +39,51 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-04-01T05:07:56.291261",
+      "first_seen": "2026-04-01T15:17:01.198617",
       "status": "needs_transcription"
+    },
+    "the_a16z_show_what_happens_when_a_public_com": {
+      "info": {
+        "podcast": "The a16z Show",
+        "title": "What Happens When a Public Company Goes All In on AI",
+        "published": "2026-04-01",
+        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_what_happens_when_a_public_company_goes_all_in_on_ai_574dbc1b.mp3",
+        "keywords": [],
+        "rss_guid": "36dd6e38-bd6d-4283-975a-b386e4a2f86c"
+      },
+      "stages": {
+        "downloaded": {
+          "complete": true,
+          "timestamp": null,
+          "reason": null
+        },
+        "transcribed": {
+          "complete": true,
+          "file": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/the_a16z_show_20260401_36dd6e38_bd6d_4283_975a_b386e4a2.txt",
+          "timestamp": null,
+          "reason": null
+        },
+        "analyzed": {
+          "complete": true,
+          "episode_id": 130,
+          "timestamp": null,
+          "reason": null
+        },
+        "insight_created": {
+          "complete": true,
+          "insight_id": 50,
+          "insight_title": "The a16z Show: New Media Strategy and Investment Insights",
+          "timestamp": null,
+          "reason": null
+        },
+        "published": {
+          "complete": false,
+          "timestamp": null,
+          "reason": "Not in data.js yet (run export and push to site)."
+        }
+      },
+      "first_seen": "2026-04-01T15:17:01.266999",
+      "status": "needs_export"
     }
   }
 }

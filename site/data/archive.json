@@ -1,6 +1,25 @@
 {
   "insights": [
     {
+      "id": 145,
+      "title": "What Happens When a Public Company Goes All In on AI",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-04-01",
+      "summary": "In this episode of the a16z Show, A16Z General Partner David Haper interviews Owen Jennings, Executive Officer and Business Lead at Block, to discuss the company's restructuring around AI. Jennings shares insights into Block's decision to cut 40% of its workforce and rebuild around small squads working alongside AI agents. The conversation covers the impact of AI on the company's operations, product development, and future strategy, highlighting the shift from traditional hierarchical structures to more agile, AI-augmented teams.",
+      "key_takeaway": "Investing in companies that understand complex problems and can leverage AI to gain a competitive advantage in their operations and product development.",
+      "tickers_mentioned": [
+        "SQ"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-01",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 130
+    },
+    {
       "id": 141,
       "title": "They're Lying to You. Again. Stay Humble & Stack Sats.",
       "source_type": "podcast",
@@ -200,11 +219,11 @@
         "NVDA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-28",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-04-01",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 116
     },
     {

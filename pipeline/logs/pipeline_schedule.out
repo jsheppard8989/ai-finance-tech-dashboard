@@ -17698,3 +17698,172 @@ ModuleNotFoundError: No module named 'yfinance'
 ============================================================
 STEP: Auto-Curate Terms
 ============================================================
+change for ownership equity ...
+
+• Crypto Practice
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A dedicated investment focus within a venture capital firm that specializes in cryptocurrencies and ...
+
+• Disaggregated Computing
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A computing approach where different parts of a processing pipeline run on different types of hardwa...
+
+• Open-Source AI Models
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: AI models that are publicly accessible and modifiable, fostering innovation and collaboration in the...
+
+• Privacy-Focused Cryptocurrencies
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: Cryptocurrencies that prioritize user privacy and anonymity, often using advanced cryptographic tech...
+
+• Quantum Resistance
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: The ability of a cryptographic system to remain secure against an attack by a quantum computer....
+
+• J-curve
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A pattern in private equity where the value of investments is initially lower than the cost, but is ...
+
+• Evergreen Vehicles
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: Investment funds that do not have a fixed termination date and can continue to operate indefinitely,...
+
+• Skaled Stove phenomenon
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A concept in venture capital where an investor carries the scar of a past failure in a category into...
+
+• Investor Athletes
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: Highly skilled hedge fund managers who operate at a high level of optimization, similar to professio...
+
+• Hedge Fund Pods
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: Smaller, specialized hedge fund groups that operate within larger hedge fund structures....
+
+• Portable Nuclear Reactors
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: Compact, factory-built nuclear reactors designed for portability and flexibility in power generation...
+
+• Solid-State Power Electronics
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: Power electronics that use solid-state devices to control and convert electric power, offering highe...
+
+• Edge-Based Grid Architecture
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A grid architecture that distributes power generation and control to the edges of the network, allow...
+
+• Autonomous Vehicles
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: Self-driving cars that use a combination of sensors, cameras, and software to navigate without human...
+
+• Hybrid Fleets
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A combination of autonomous and human-driven vehicles operating within the same transportation netwo...
+
+• Stack Sats
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A term used in the Bitcoin community to refer to accumulating Bitcoin, with 'sats' being short for S...
+
+✓ Auto-Curate Terms completed
+
+============================================================
+STEP: Extract Podcast Guests
+============================================================
+============================================================
+Extract Podcast Guests
+============================================================
+Processing 102 processed episodes
+  ✓ This special episode ← All-In Podcast (2026-03-28)
+  ✓ Lupin Ramon ← Monetary Matters with Jack Farley (2026-03-27)
+  ✓ When the Music Stops ← The Jack Mallers Show (2026-03-24)
+  ✓ Ground Infrastructure ← The a16z Show (2026-03-23)
+  ✓ Rory Johnston ← Monetary Matters with Jack Farley (2026-03-19)
+  ✓ Senator John Fetterman on Voting Rights ← All-In with Chamath, Jason, Sacks & Friedberg (2026-03-18)
+  ✓ Stock Market on Shaky Foundations ← Monetary Matters with Jack Farley (2026-03-18)
+  ✓ Elon Musk on Moonshots ← Moonshots with Peter Diamandis (2026-03-17)
+  ✓ Investing in Capitalism ← All-In with Chamath, Jason, Sacks & Friedberg (2026-03-13)
+  ✓ Harvard Professor Graham Allison ← All-In with Chamath, Jason, Sacks & Friedberg (2026-03-09)
+  ✓ Andrew Yang ← Moonshots with Peter Diamandis (2026-03-07)
+  ✓ Inventing the Renaissance ← Dwarkesh Podcast (2026-03-06)
+  ✓ Ray Dalio ← All-In with Chamath, Jason, Sacks & Friedberg (2026-03-03)
+  ✓ Nobel Prize-winning economist Paul Krugman ← Monetary Matters with Jack Farley (2026-02-19)
+  ✓ host Jack Mallers ← The Jack Mallers Show (2026-02-19)
+  ✓ Ben Horowitz ← Moonshots with Peter Diamandis (2026-02-19)
+  ✓ Bosworth ← a16z Live (2026-02-15)
+  ✓ Milton Berg ← Monetary Matters with Jack Farley (2026-02-06)
+
+✓ Done. 18 guest(s) in database.
+
+✓ Extract Podcast Guests completed
+
+============================================================
+STEP: Export Website Data
+============================================================
+============================================================
+Exporting Website Data
+============================================================
+✓ Exported website data to /Users/jaredsheppard/.openclaw/workspace/site/data
+✓ Exported: {'ticker_scores': 48, 'podcast_summaries': 47, 'archive_items': 134, 'podcast_guests': 18, 'pundits': 20}
+🔍 Scanning podcast pipeline...
+
+
+================================================================================
+📊 PODCAST PIPELINE STATUS
+================================================================================
+
+📈 Pipeline Summary (1 total episodes tracked):
+  ✅ Downloaded:       1 / 1
+  ✅ Transcribed:      0 / 1
+  ✅ Analyzed:         0 / 1
+  ✅ Insight Created:  0 / 1
+  ✅ Published:        0 / 1
+
+🔍 Episodes Needing Attention:
+
+  📝 Pending Transcription (1):
+    - What Happens When a Public Company Goes All In on 
+
+✅ Complete Episodes (All Stages):
+    (None yet)
+
+📅 Last Updated: 2026-04-01T05:07:56.353854
+📁 Status file: /Users/jaredsheppard/.openclaw/workspace/pipeline/state/pipeline_status.json
+================================================================================
+  ✓ Exported pipeline_state.json: 1 tracked
+
+============================================================
+Generating Website JavaScript
+============================================================
+✓ Generated data.js with 48 tickers, 134 archive items, 118 deep dives, 4 suggested terms, 18 legacy guests, 20 pundits; chartsVersion=2026-03-31T19:51:23.788673
+✓ Bumped data.js cache-buster to v=1775038079
+
+============================================================
+STEP: Push to GitHub
+============================================================
+✓ Pushed to GitHub: Pipeline update 2026-04-01 05:07: 4 podcasts, 4 insights, 0 newsletters
+
+============================================================
+PIPELINE COMPLETE
+Finished: 2026-04-01 05:08:02.713942
+============================================================
+📊 Pipeline Complete
+
+🎙️ 4 new podcast(s) analyzed
+
+🌐 Website updated

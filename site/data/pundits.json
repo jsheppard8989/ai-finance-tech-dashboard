@@ -372,7 +372,7 @@
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-02-18",
     "mention_score": 2,
-    "mention_score_decayed": 1.41,
+    "mention_score_decayed": 1.38,
     "last_main_idea": "Invest in the vertical integration of AI, the rise of India as a global AI hub, and the shift towards agent-based interactions.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-19T21:23:33.038094",
@@ -435,11 +435,72 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-16",
     "mention_score": 2,
-    "mention_score_decayed": 1.41,
+    "mention_score_decayed": 1.38,
     "last_main_idea": "Invest in AI startups that focus on specific niches and use cases, as they can compete effectively against larger AI companies by capitalizing on the gaps between platforms.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
+  },
+  {
+    "id": 145,
+    "name": "Owen Jennings",
+    "slug": "owen-jennings",
+    "bio": "Owen Jennings is an Executive Officer and Business Lead at Block, managing product operations and customer support across Square, Cash App, and Afterpay. He is known for leading Cash App through its critical scaling period and overseeing Block's AI transformation.",
+    "known_for": "Leading Cash App through its critical scaling period and overseeing Block's AI transformation.",
+    "net_worth_usd": 15000000.0,
+    "net_worth_source": "https://www.gurufocus.com/insider/265938/owen-britton-jennings",
+    "net_worth_updated_at": "2026-04-01T15:15:32.439710",
+    "voice_tone": "Confident and matter-of-fact",
+    "voice_style": "Direct and focused on the practical implications of AI on business operations",
+    "voice_delivery_notes": "Clear and concise, with emphasis on the transformative impact of AI",
+    "voice_profile_updated_at": "2026-04-01 20:15:22",
+    "last_seen": "2026-04-01 20:15:22",
+    "last_episode_title": "What Happens When a Public Company Goes All In on AI",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-04-01",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investing in companies that understand complex problems and can leverage AI to gain a competitive advantage in their operations and product development.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-01T15:15:31.311281",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Owen Jennings",
+      "fetched_at": "2026-04-01T20:15:31.310842+00:00",
+      "cliff_notes": "Owen Jennings is a key figure in the fintech industry, particularly through his role at Block, where he has been instrumental in the growth and scaling of Cash App. His leadership has been pivotal during a critical period of expansion for the company, and he has been at the forefront of Block's AI transformation. Jennings' approach to management and operations has been marked by a focus on efficiency and productivity, as evidenced by his decision to cut the workforce by 40%, emphasizing the importance of leveraging technology and AI to maximize output. His career has been marked by a deep understanding of the intersection between technology and finance, making him a significant player in the industry.",
+      "derived": {
+        "current_role": "Executive Officer and Business Lead at Block"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Owen Jennings is a key figure in the fintech industry, particularly through his role at Block, where he has been instrumental in the growth and scaling of Cash App. His leadership has been pivotal during a critical period of expansion for the company, and he has been at the forefront of Block's AI transformation. Jennings' approach to management and operations has been marked by a focus on efficiency and productivity, as evidenced by his decision to cut the workforce by 40%, emphasizing the importance of leveraging technology and AI to maximize output.",
+        "His career has been marked by a deep understanding of the intersection between technology and finance, making him a significant player in the industry."
+      ],
+      "sections": [
+        {
+          "heading": "Cash App Scaling",
+          "body": "Owen Jennings played a crucial role in leading Cash App through its critical scaling period, managing the app's growth and ensuring its stability amidst rapid expansion."
+        },
+        {
+          "heading": "AI Transformation at Block",
+          "body": "Jennings has overseen Block's AI transformation, integrating advanced technologies to enhance the company's operations and improve efficiency."
+        },
+        {
+          "heading": "Workforce Reduction",
+          "body": "In a bold move, Jennings led the decision to cut Block's workforce by 40%, emphasizing the shift towards leveraging technology and AI to increase productivity rather than solely relying on human labor."
+        },
+        {
+          "heading": "Productivity and Technology",
+          "body": "Jennings believes in the power of technology to increase productivity, suggesting that for a given product or roadmap, fewer engineers, designers, and PMs are needed due to the capabilities of advanced systems."
+        }
+      ]
+    },
+    "net_worth": "$15.0M"
   },
   {
     "id": 144,
@@ -995,7 +1056,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "The current bull market is built on shaky foundations, and a shift towards a more cautious stance with a focus on security software and data lake control is advised.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-31T20:09:25.315808",
@@ -1051,7 +1112,7 @@
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-03-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "The historical insights from the Italian Renaissance period suggest that technological advancements, such as the printing press, can have a profound impact on society and information distribution, which parallels modern tech revolutions and their investment implications.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-31T20:09:36.658693",
@@ -1090,68 +1151,6 @@
         {
           "heading": "University of Chicago",
           "body": "Based at the University of Chicago, Palmer continues to teach and research, sharing her expertise with students and the academic community."
-        }
-      ]
-    }
-  },
-  {
-    "id": 125,
-    "name": "Lupin Ramon",
-    "slug": "lupin-ramon",
-    "bio": "Lupin Ramon is an independent sovereign debt specialist with extensive experience in global finance. He has worked at the World Bank, IMF, and most recently as head of sovereign credit at PIMCO. Ramon is also the author of 'The Sovereign Debt Investor: An Essential Guide to Returns, Defaults, and Government Bond Investing'.",
-    "known_for": "His expertise in sovereign debt and his influential book on the subject.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Informed and analytical.",
-    "voice_style": "Factual and educational, providing detailed explanations of complex concepts.",
-    "voice_delivery_notes": "Clear and measured pace with emphasis on key points.",
-    "voice_profile_updated_at": "2026-03-28 09:04:34",
-    "last_seen": "2026-03-28 09:04:34",
-    "last_episode_title": "Investing in Sovereign Credit with Lupin Ramon",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-03-27",
-    "mention_score": 1,
-    "mention_score_decayed": 0.91,
-    "last_main_idea": "Sovereign credit investing requires a deep understanding of the unique risks and dynamics of lending to governments, which can offer significant returns but also carries substantial risks, particularly in the current geopolitical climate.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-28T04:06:45.925345",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Lupin Ramon",
-      "fetched_at": "2026-03-28T09:06:45.924969+00:00",
-      "cliff_notes": "Lupin Ramon has had a distinguished career in global finance, starting as an economist at the World Bank and the International Monetary Fund. His expertise in sovereign debt grew as he took on the role of head of sovereign credit at PIMCO, one of the world's leading investment management firms. Ramon's insights into the complexities of sovereign debt investing have been widely recognized, leading him to author 'The Sovereign Debt Investor', a comprehensive guide that has become a valuable resource for investors. His work bridges the gap between academic understanding and practical investment strategies, making him a sought-after voice in the field of global macroeconomics.",
-      "derived": {
-        "current_role": "Independent sovereign debt specialist",
-        "former_positions": "Economist at the World Bank; Economist at the International Monetary Fund; Head of Sovereign Credit at PIMCO",
-        "books_or_works": "The Sovereign Debt Investor: An Essential Guide to Returns, Defaults, and Government Bond Investing"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Lupin Ramon has had a distinguished career in global finance, starting as an economist at the World Bank and the International Monetary Fund. His expertise in sovereign debt grew as he took on the role of head of sovereign credit at PIMCO, one of the world's leading investment management firms. Ramon's insights into the complexities of sovereign debt investing have been widely recognized, leading him to author 'The Sovereign Debt Investor', a comprehensive guide that has become a valuable resource for investors.",
-        "His work bridges the gap between academic understanding and practical investment strategies, making him a sought-after voice in the field of global macroeconomics."
-      ],
-      "sections": [
-        {
-          "heading": "Sovereign Debt",
-          "body": "Lupin Ramon has deep knowledge in sovereign debt, having worked at the World Bank and IMF, and later leading sovereign credit at PIMCO."
-        },
-        {
-          "heading": "Global Finance",
-          "body": "His career has been dedicated to understanding and navigating the intricacies of global finance, with a particular focus on sovereign debt."
-        },
-        {
-          "heading": "Investment Strategy",
-          "body": "Ramon's book provides investors with a guide to understanding returns, defaults, and strategies in government bond investing."
-        },
-        {
-          "heading": "Economic Policy",
-          "body": "His work at international financial institutions has given him a unique perspective on economic policy and its impact on sovereign debt."
         }
       ]
     }

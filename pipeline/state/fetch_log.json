@@ -1,12 +1,19 @@
 {
-  "timestamp": "2026-04-01T05:02:53.608691",
+  "timestamp": "2026-04-01T15:14:52.906952",
   "results": [
+    {
+      "podcast": "Monetary Matters with Jack Farley",
+      "title": "Why $200 Oil Won\u2019t Spike Inflation to 9% | Anna Wong on Recession Probability, PCE vs CPI, and Fed Reaction Function In A Scenario of Soaring Energy Prices",
+      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/EWWMN4260792673.mp3",
+      "transcript_path": null,
+      "success": false
+    },
     {
       "podcast": "The a16z Show",
       "title": "What Happens When a Public Company Goes All In on AI",
       "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_20260401_36dd6e38_bd6d_4283_975a_b386e4a2.mp3",
-      "transcript_path": null,
-      "success": false
+      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/the_a16z_show_20260401_36dd6e38_bd6d_4283_975a_b386e4a2.txt",
+      "success": true
     }
   ]
 }

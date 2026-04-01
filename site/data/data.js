@@ -3,8 +3,8 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-04-01T05:07:59.017151",
-  chartsVersion: "2026-03-31T19:51:23.788673",
+  generatedAt: "2026-04-01T15:17:04.144193",
+  chartsVersion: "2026-04-01T15:16:59.801570",
   tickerScores: [
   {
     "ticker": "GOOGL",
@@ -730,6 +730,25 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 145,
+      "title": "What Happens When a Public Company Goes All In on AI",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-04-01",
+      "summary": "In this episode of the a16z Show, A16Z General Partner David Haper interviews Owen Jennings, Executive Officer and Business Lead at Block, to discuss the company's restructuring around AI. Jennings shares insights into Block's decision to cut 40% of its workforce and rebuild around small squads working alongside AI agents. The conversation covers the impact of AI on the company's operations, product development, and future strategy, highlighting the shift from traditional hierarchical structures to more agile, AI-augmented teams.",
+      "key_takeaway": "Investing in companies that understand complex problems and can leverage AI to gain a competitive advantage in their operations and product development.",
+      "tickers_mentioned": [
+        "SQ"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-01",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 130
+    },
+    {
       "id": 141,
       "title": "They're Lying to You. Again. Stay Humble & Stack Sats.",
       "source_type": "podcast",
@@ -929,11 +948,11 @@ const dashboardData = {
         "NVDA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-28",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-04-01",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 116
     },
     {
@@ -3441,6 +3460,28 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 145,
+      "title": "What Happens When a Public Company Goes All In on AI",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-04-01",
+      "summary": "In this episode of the a16z Show, A16Z General Partner David Haper interviews Owen Jennings, Executive Officer and Business Lead at Block, to discuss the company's restructuring around AI. Jennings shares insights into Block's decision to cut 40% of its workforce and rebuild around small squads working alongside AI agents. The conversation covers the impact of AI on the company's operations, product development, and future strategy, highlighting the shift from traditional hierarchical structures to more agile, AI-augmented teams.",
+      "key_takeaway": "Investing in companies that understand complex problems and can leverage AI to gain a competitive advantage in their operations and product development.",
+      "tickers_mentioned": "[\"SQ\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-01",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 130,
+      "episode_release_date": "2026-04-01",
+      "guest_name": null,
+      "key_tickers": [
+        "SQ"
+      ]
+    },
+    {
       "id": 141,
       "title": "They're Lying to You. Again. Stay Humble & Stack Sats.",
       "source_type": "podcast",
@@ -3566,28 +3607,6 @@ const dashboardData = {
       "key_tickers": [
         "PQNT",
         "PQUS"
-      ]
-    },
-    {
-      "id": 130,
-      "title": "ALLIN-INTV Jensen V2 Ch",
-      "source_type": "podcast",
-      "source_name": "Unknown Podcast",
-      "source_date": "2026-03-28",
-      "summary": "This special episode discusses the evolution of AI and the tech industry, with a focus on the acquisition of Grok and the concept of disaggregated inference. The conversation delves into the complexities of AI processing and the shift from a GPU-centric approach to a more heterogeneous computing model. It also touches on the importance of both proprietary and open-source AI models, the impact of AI on various industries, and the role of education in preparing for the AI-driven future.",
-      "key_takeaway": "Invest in companies that are at the forefront of AI technology, particularly those that can leverage both proprietary and open-source models to drive innovation and capture domain-specific expertise.",
-      "tickers_mentioned": "[\"NVDA\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-03-28",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 116,
-      "episode_release_date": "2026-03-28",
-      "guest_name": "This special episode",
-      "key_tickers": [
-        "NVDA"
       ]
     },
     {
@@ -11725,9 +11744,107 @@ const dashboardData = {
       "PQNT",
       "PQUS"
     ]
+  },
+  "145": {
+    "id": 136,
+    "insight_id": 145,
+    "podcast_episode_id": 130,
+    "overview": "The investment thesis revolves around the transformative impact of AI on corporate structures and productivity, exemplified by Block's drastic workforce reduction and restructuring around AI. This shift signifies a paradigm change where fewer employees can achieve higher output due to AI's efficiency and scalability. The move to AI-centric operations could redefine productivity metrics and reshape the competitive landscape, making early adopters potentially more valuable. Given the current technological advancements and the strategic pivot by companies like Block, this thesis is particularly relevant now as it could indicate a broader trend in the tech industry.",
+    "key_takeaways_detailed": [
+      "AI's role in enhancing productivity can lead to significant workforce reductions, impacting cost structures and profitability.",
+      "Investors should monitor companies that show early adoption of AI in their operations for potential competitive advantages.",
+      "The transition to AI could lead to a reevaluation of traditional metrics like headcount to output ratios.",
+      "Look for companies that are investing in AI tools and infrastructure, as these could offer significant operational leverage.",
+      "Be aware of the regulatory environment, as compliance and trust with customers remain critical in AI adoption.",
+      "Consider the potential for increased M&A activity as companies look to acquire AI capabilities to stay competitive."
+    ],
+    "investment_thesis": "The core investment logic is that companies which successfully integrate AI into their operations will see a significant increase in productivity and a decrease in the number of employees needed, leading to higher profitability. This thesis is supported by the recent actions of Block, which has reduced its workforce by over 40% and restructured around AI, indicating a potential industry-wide shift. Catalysts for this thesis include advancements in AI technology, increased adoption by companies, and a potential economic downturn that could force cost-cutting measures. The timeframe for this thesis is medium to long-term, as the full impact of AI on corporate structures will likely take several years to materialize.",
+    "ticker_analysis": {
+      "SQ": {
+        "rationale": "Block, the parent company of Square, Cash App, and Afterpay, is at the forefront of restructuring around AI, making it a key player in this thesis.",
+        "positioning": "Long-term strategic position, as the company's early adoption of AI could provide a significant competitive advantage.",
+        "risk": "Regulatory changes could hinder AI adoption, and the success of the restructuring is not guaranteed."
+      },
+      "AAPL": {
+        "rationale": "Apple has a history of innovation and is likely to integrate AI into its products and services, affecting its operational efficiency and product development.",
+        "positioning": "Strategic long-term position, considering Apple's potential to leverage AI for product innovation and operational efficiency.",
+        "risk": "The risk of Apple being slow to adopt AI on a large scale, or facing significant competition from more agile tech companies."
+      },
+      "NVDA": {
+        "rationale": "Nvidia is a leader in AI chip technology, which is fundamental to the AI revolution and could benefit from increased demand.",
+        "positioning": "Long-term strategic position, as the demand for AI chips is expected to grow with the adoption of AI in various industries.",
+        "risk": "The risk of competition from other chip manufacturers or a slowdown in AI adoption."
+      },
+      "GOOGL": {
+        "rationale": "Google is a major player in AI technology and has the resources to integrate AI into its vast array of products and services.",
+        "positioning": "Long-term strategic position, as Google's AI capabilities could provide a significant competitive edge in the tech industry.",
+        "risk": "Regulatory challenges and the risk of Google being too slow to adapt to AI-driven changes in its business model."
+      },
+      "MSFT": {
+        "rationale": "Microsoft has a strong position in cloud computing and AI, with products like Azure and AI tools that could benefit from the AI revolution.",
+        "positioning": "Strategic long-term position, considering Microsoft's potential to leverage its cloud and AI offerings to drive growth.",
+        "risk": "The risk of Microsoft facing increased competition in the cloud and AI space, or being slow to adapt to new AI technologies."
+      }
+    },
+    "positioning_guidance": "Investors should consider a balanced portfolio with a mix of long-term strategic positions in companies that are leading the AI revolution, such as Block and Nvidia, and companies that are likely to benefit from AI integration, such as Apple and Google. Entry points should be considered in the context of the overall market conditions and the specific catalysts related to AI adoption. Timeframes for these positions should be medium to long-term, as the full impact of AI on these companies may take several years to materialize. Consider hedging against potential economic downturns or regulatory changes that could impact AI adoption.",
+    "risk_factors": [
+      "Regulatory changes that could hinder AI adoption or impose significant costs on companies.",
+      "The risk of AI technology not delivering the expected productivity gains or operational efficiencies.",
+      "Increased competition from new entrants or established players that are slow to adopt AI.",
+      "Economic downturns that could reduce the demand for AI products and services.",
+      "Technological disruptions that could render current AI technologies obsolete."
+    ],
+    "contrarian_signals": [
+      "The possibility that AI adoption may not lead to the expected productivity gains, as the technology is still in its early stages of development.",
+      "The risk that companies may overinvest in AI, leading to a bubble similar to the dot-com era.",
+      "The potential for a backlash against AI, driven by concerns over job losses and ethical considerations."
+    ],
+    "catalysts": [
+      "Advancements in AI technology that could accelerate its adoption across industries.",
+      "Economic indicators that suggest a need for increased productivity and cost-cutting measures.",
+      "Regulatory changes that could either hinder or encourage the adoption of AI technologies.",
+      "M&A activity as companies look to acquire AI capabilities to stay competitive.",
+      "Quarterly earnings reports from companies like Block that could provide insights into the success of their AI-driven restructuring."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-04-01T15:16:04.846520",
+    "updated_at": "2026-04-01 20:16:04",
+    "insight_title": "What Happens When a Public Company Goes All In on AI",
+    "source_name": "The a16z Show",
+    "source_date": "2026-04-01",
+    "key_tickers": [
+      "SQ"
+    ]
   }
 },
   suggestedTerms: [
+  {
+    "id": 135,
+    "term": "Agentic Development",
+    "definition": "The use of AI agents to augment software development and internal tooling, leading to increased productivity and efficiency.",
+    "investment_implications": "Invest in companies that are early adopters of agentic development to gain a competitive edge.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-04-01 20:15:22",
+    "priority_score": 80
+  },
+  {
+    "id": 136,
+    "term": "AI-augmented Teams",
+    "definition": "Small, agile teams working alongside AI agents to develop products and services, leading to faster development cycles and reduced headcount.",
+    "investment_implications": "Look for companies that are restructuring around AI-augmented teams as a sign of forward-thinking and potential for growth.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-04-01 20:15:22",
+    "priority_score": 80
+  },
   {
     "id": 134,
     "term": "Stack Sats",
@@ -11751,35 +11868,11 @@ const dashboardData = {
     "relevance_score": 50,
     "submitted_date": "2026-04-01 10:03:46",
     "priority_score": 80
-  },
-  {
-    "id": 133,
-    "term": "Hybrid Fleets",
-    "definition": "A combination of autonomous and human-driven vehicles operating within the same transportation network.",
-    "investment_implications": "Investors may look for opportunities in companies that can adapt to and capitalize on the transition to hybrid fleets.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-04-01 10:03:46",
-    "priority_score": 80
-  },
-  {
-    "id": 129,
-    "term": "Portable Nuclear Reactors",
-    "definition": "Compact, factory-built nuclear reactors designed for portability and flexibility in power generation.",
-    "investment_implications": "Investors should consider the potential of portable nuclear reactors in addressing the energy delivery challenge.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-04-01 10:03:31",
-    "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 1360,
+    "id": 1378,
     "name": "This special episode",
     "slug": "this-special-episode",
     "bio": null,
@@ -11791,7 +11884,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1361,
+    "id": 1379,
     "name": "Lupin Ramon",
     "slug": "lupin-ramon",
     "bio": null,
@@ -11803,7 +11896,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1362,
+    "id": 1380,
     "name": "When the Music Stops",
     "slug": "when-the-music-stops",
     "bio": null,
@@ -11815,7 +11908,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1363,
+    "id": 1381,
     "name": "Ground Infrastructure",
     "slug": "ground-infrastructure",
     "bio": null,
@@ -11827,7 +11920,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1364,
+    "id": 1382,
     "name": "Rory Johnston",
     "slug": "rory-johnston",
     "bio": null,
@@ -11839,7 +11932,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1365,
+    "id": 1383,
     "name": "Senator John Fetterman on Voting Rights",
     "slug": "senator-john-fetterman-on-voting-rights",
     "bio": null,
@@ -11851,7 +11944,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1366,
+    "id": 1384,
     "name": "Stock Market on Shaky Foundations",
     "slug": "stock-market-on-shaky-foundations",
     "bio": null,
@@ -11863,7 +11956,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1367,
+    "id": 1385,
     "name": "Elon Musk on Moonshots",
     "slug": "elon-musk-on-moonshots",
     "bio": null,
@@ -11875,7 +11968,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1368,
+    "id": 1386,
     "name": "Investing in Capitalism",
     "slug": "investing-in-capitalism",
     "bio": null,
@@ -11887,7 +11980,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1369,
+    "id": 1387,
     "name": "Harvard Professor Graham Allison",
     "slug": "harvard-professor-graham-allison",
     "bio": null,
@@ -11899,7 +11992,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1370,
+    "id": 1388,
     "name": "Andrew Yang",
     "slug": "andrew-yang",
     "bio": "Andrew Yang is an entrepreneur and political leader who popularized universal basic income in U.S. politics through his 2020 presidential campaign.",
@@ -11911,7 +12004,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1371,
+    "id": 1389,
     "name": "Inventing the Renaissance",
     "slug": "inventing-the-renaissance",
     "bio": null,
@@ -11923,7 +12016,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1372,
+    "id": 1390,
     "name": "Ray Dalio",
     "slug": "ray-dalio",
     "bio": "Ray Dalio is the founder of Bridgewater Associates and a macro investor known for his 'Principles' framework and work on long-term debt cycles.",
@@ -11935,7 +12028,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1373,
+    "id": 1391,
     "name": "Nobel Prize-winning economist Paul Krugman",
     "slug": "nobel-prize-winning-economist-paul-krugman",
     "bio": null,
@@ -11947,7 +12040,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1374,
+    "id": 1392,
     "name": "host Jack Mallers",
     "slug": "host-jack-mallers",
     "bio": null,
@@ -11959,7 +12052,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1375,
+    "id": 1393,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -11971,7 +12064,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1376,
+    "id": 1394,
     "name": "Bosworth",
     "slug": "bosworth",
     "bio": null,
@@ -11983,7 +12076,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1377,
+    "id": 1395,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -12369,7 +12462,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-02-18",
     "mention_score": 2,
-    "mention_score_decayed": 1.41,
+    "mention_score_decayed": 1.38,
     "last_main_idea": "Invest in the vertical integration of AI, the rise of India as a global AI hub, and the shift towards agent-based interactions.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-19T21:23:33.038094",
@@ -12432,11 +12525,72 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-16",
     "mention_score": 2,
-    "mention_score_decayed": 1.41,
+    "mention_score_decayed": 1.38,
     "last_main_idea": "Invest in AI startups that focus on specific niches and use cases, as they can compete effectively against larger AI companies by capitalizing on the gaps between platforms.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
+  },
+  {
+    "id": 145,
+    "name": "Owen Jennings",
+    "slug": "owen-jennings",
+    "bio": "Owen Jennings is an Executive Officer and Business Lead at Block, managing product operations and customer support across Square, Cash App, and Afterpay. He is known for leading Cash App through its critical scaling period and overseeing Block's AI transformation.",
+    "known_for": "Leading Cash App through its critical scaling period and overseeing Block's AI transformation.",
+    "net_worth_usd": 15000000.0,
+    "net_worth_source": "https://www.gurufocus.com/insider/265938/owen-britton-jennings",
+    "net_worth_updated_at": "2026-04-01T15:15:32.439710",
+    "voice_tone": "Confident and matter-of-fact",
+    "voice_style": "Direct and focused on the practical implications of AI on business operations",
+    "voice_delivery_notes": "Clear and concise, with emphasis on the transformative impact of AI",
+    "voice_profile_updated_at": "2026-04-01 20:15:22",
+    "last_seen": "2026-04-01 20:15:22",
+    "last_episode_title": "What Happens When a Public Company Goes All In on AI",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-04-01",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investing in companies that understand complex problems and can leverage AI to gain a competitive advantage in their operations and product development.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-01T15:15:31.311281",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Owen Jennings",
+      "fetched_at": "2026-04-01T20:15:31.310842+00:00",
+      "cliff_notes": "Owen Jennings is a key figure in the fintech industry, particularly through his role at Block, where he has been instrumental in the growth and scaling of Cash App. His leadership has been pivotal during a critical period of expansion for the company, and he has been at the forefront of Block's AI transformation. Jennings' approach to management and operations has been marked by a focus on efficiency and productivity, as evidenced by his decision to cut the workforce by 40%, emphasizing the importance of leveraging technology and AI to maximize output. His career has been marked by a deep understanding of the intersection between technology and finance, making him a significant player in the industry.",
+      "derived": {
+        "current_role": "Executive Officer and Business Lead at Block"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Owen Jennings is a key figure in the fintech industry, particularly through his role at Block, where he has been instrumental in the growth and scaling of Cash App. His leadership has been pivotal during a critical period of expansion for the company, and he has been at the forefront of Block's AI transformation. Jennings' approach to management and operations has been marked by a focus on efficiency and productivity, as evidenced by his decision to cut the workforce by 40%, emphasizing the importance of leveraging technology and AI to maximize output.",
+        "His career has been marked by a deep understanding of the intersection between technology and finance, making him a significant player in the industry."
+      ],
+      "sections": [
+        {
+          "heading": "Cash App Scaling",
+          "body": "Owen Jennings played a crucial role in leading Cash App through its critical scaling period, managing the app's growth and ensuring its stability amidst rapid expansion."
+        },
+        {
+          "heading": "AI Transformation at Block",
+          "body": "Jennings has overseen Block's AI transformation, integrating advanced technologies to enhance the company's operations and improve efficiency."
+        },
+        {
+          "heading": "Workforce Reduction",
+          "body": "In a bold move, Jennings led the decision to cut Block's workforce by 40%, emphasizing the shift towards leveraging technology and AI to increase productivity rather than solely relying on human labor."
+        },
+        {
+          "heading": "Productivity and Technology",
+          "body": "Jennings believes in the power of technology to increase productivity, suggesting that for a given product or roadmap, fewer engineers, designers, and PMs are needed due to the capabilities of advanced systems."
+        }
+      ]
+    },
+    "net_worth": "$15.0M"
   },
   {
     "id": 144,
@@ -12992,7 +13146,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "The current bull market is built on shaky foundations, and a shift towards a more cautious stance with a focus on security software and data lake control is advised.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-31T20:09:25.315808",
@@ -13048,7 +13202,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-03-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "The historical insights from the Italian Renaissance period suggest that technological advancements, such as the printing press, can have a profound impact on society and information distribution, which parallels modern tech revolutions and their investment implications.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-31T20:09:36.658693",
@@ -13087,68 +13241,6 @@ const dashboardData = {
         {
           "heading": "University of Chicago",
           "body": "Based at the University of Chicago, Palmer continues to teach and research, sharing her expertise with students and the academic community."
-        }
-      ]
-    }
-  },
-  {
-    "id": 125,
-    "name": "Lupin Ramon",
-    "slug": "lupin-ramon",
-    "bio": "Lupin Ramon is an independent sovereign debt specialist with extensive experience in global finance. He has worked at the World Bank, IMF, and most recently as head of sovereign credit at PIMCO. Ramon is also the author of 'The Sovereign Debt Investor: An Essential Guide to Returns, Defaults, and Government Bond Investing'.",
-    "known_for": "His expertise in sovereign debt and his influential book on the subject.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Informed and analytical.",
-    "voice_style": "Factual and educational, providing detailed explanations of complex concepts.",
-    "voice_delivery_notes": "Clear and measured pace with emphasis on key points.",
-    "voice_profile_updated_at": "2026-03-28 09:04:34",
-    "last_seen": "2026-03-28 09:04:34",
-    "last_episode_title": "Investing in Sovereign Credit with Lupin Ramon",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-03-27",
-    "mention_score": 1,
-    "mention_score_decayed": 0.91,
-    "last_main_idea": "Sovereign credit investing requires a deep understanding of the unique risks and dynamics of lending to governments, which can offer significant returns but also carries substantial risks, particularly in the current geopolitical climate.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-28T04:06:45.925345",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Lupin Ramon",
-      "fetched_at": "2026-03-28T09:06:45.924969+00:00",
-      "cliff_notes": "Lupin Ramon has had a distinguished career in global finance, starting as an economist at the World Bank and the International Monetary Fund. His expertise in sovereign debt grew as he took on the role of head of sovereign credit at PIMCO, one of the world's leading investment management firms. Ramon's insights into the complexities of sovereign debt investing have been widely recognized, leading him to author 'The Sovereign Debt Investor', a comprehensive guide that has become a valuable resource for investors. His work bridges the gap between academic understanding and practical investment strategies, making him a sought-after voice in the field of global macroeconomics.",
-      "derived": {
-        "current_role": "Independent sovereign debt specialist",
-        "former_positions": "Economist at the World Bank; Economist at the International Monetary Fund; Head of Sovereign Credit at PIMCO",
-        "books_or_works": "The Sovereign Debt Investor: An Essential Guide to Returns, Defaults, and Government Bond Investing"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Lupin Ramon has had a distinguished career in global finance, starting as an economist at the World Bank and the International Monetary Fund. His expertise in sovereign debt grew as he took on the role of head of sovereign credit at PIMCO, one of the world's leading investment management firms. Ramon's insights into the complexities of sovereign debt investing have been widely recognized, leading him to author 'The Sovereign Debt Investor', a comprehensive guide that has become a valuable resource for investors.",
-        "His work bridges the gap between academic understanding and practical investment strategies, making him a sought-after voice in the field of global macroeconomics."
-      ],
-      "sections": [
-        {
-          "heading": "Sovereign Debt",
-          "body": "Lupin Ramon has deep knowledge in sovereign debt, having worked at the World Bank and IMF, and later leading sovereign credit at PIMCO."
-        },
-        {
-          "heading": "Global Finance",
-          "body": "His career has been dedicated to understanding and navigating the intricacies of global finance, with a particular focus on sovereign debt."
-        },
-        {
-          "heading": "Investment Strategy",
-          "body": "Ramon's book provides investors with a guide to understanding returns, defaults, and strategies in government bond investing."
-        },
-        {
-          "heading": "Economic Policy",
-          "body": "His work at international financial institutions has given him a unique perspective on economic policy and its impact on sovereign debt."
         }
       ]
     }
