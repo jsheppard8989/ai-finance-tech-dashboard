@@ -1,6 +1,90 @@
 {
   "insights": [
     {
+      "id": 141,
+      "title": "They're Lying to You. Again. Stay Humble & Stack Sats.",
+      "source_type": "podcast",
+      "source_name": "The Jack Mallers Show",
+      "source_date": "2026-03-31",
+      "summary": "In this episode of The Jack Mallers Show, Jack discusses the current state of Bitcoin and the global economic situation. He highlights the importance of supply chain openness, the dependency of the United States on global markets, and the potential consequences of continued closures. Jack also touches on the impact of oil prices, the S&P 500 performance, and the broader implications for financial markets. Additionally, he shares personal insights on dealing with public scrutiny and the importance of focusing on genuine relationships and self-worth.",
+      "key_takeaway": "The core thesis presented is the importance of supply chain openness for the US economy and the potential negative impacts of continued closures on financial markets, with a particular focus on Bitcoin as a potential hedge.",
+      "tickers_mentioned": [
+        "AAPL",
+        "NVDA",
+        "SPY",
+        "TSLA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-01",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 129
+    },
+    {
+      "id": 142,
+      "title": "Uber CEO on Winning the Robotaxi Race, the End of Car Ownership, and Uber\u2019s Next $1 Trillion Bet | Dara Khosrowshahi (Uber CEO) | 243",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-03-31",
+      "summary": "In this episode of 'Moonshots with Peter Diamandis', the discussion revolves around the burgeoning autonomous vehicle industry and Uber's strategic positioning within it. The guest, who has played a pivotal role in turning around Uber's financials, shares insights on the company's focus on autonomous technology, the hybrid model of human-driven and autonomous fleets, and the global market dynamics affecting the adoption of self-driving cars. The conversation also touches on the cultural and operational challenges of running a tech-driven company like Uber and the future implications of autonomous vehicles on urban mobility and delivery services.",
+      "key_takeaway": "Investment in autonomous vehicle technology is poised to disrupt urban mobility and logistics, with companies like Uber positioned to capitalize on this shift.",
+      "tickers_mentioned": [
+        "UBER"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-01",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 128
+    },
+    {
+      "id": 143,
+      "title": "How Radiant and Heron Are Rethinking Power Generation and Delivery",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-03-31",
+      "summary": "The podcast discusses the challenges and innovations in the energy sector, focusing on the limitations of the current grid infrastructure and the need for new solutions. The conversation revolves around the increasing demand for electricity due to data centers, electrified transport, and industrialization, and how new power delivery methods are essential for economic growth and sustainable energy. Guests Doug Burnower, CEO of Radiant, and Andrew Beglinow, CEO of Heron, alongside A16Z General Partner Erin Price Wright, explore the potential of portable nuclear reactors and solid-state power electronics in transforming the grid from the edge.",
+      "key_takeaway": "Investing in companies that innovate in energy delivery and grid infrastructure can lead to significant returns as the demand for electricity increases and the need for a more efficient and sustainable grid becomes critical.",
+      "tickers_mentioned": [
+        "TSLA",
+        "AAPL",
+        "NVDA",
+        "GE",
+        "F"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-01",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 127
+    },
+    {
+      "id": 144,
+      "title": "The Psychology of Market Champions: Inside the Minds of Point 72 & Citadel Portfolio Managers | Dr. Gio Valiante",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-03-31",
+      "summary": "In this episode of 'Other People's Money', host Matt interviews Dr. Geo Voliante, a performance coach for top hedge funds and athletes. They discuss the rise of hedge fund pods, the impact of regulation on the industry, and the challenges faced by smaller hedge funds. Dr. Geo emphasizes the importance of culture and environment on performance and compares hedge fund managers to 'investor athletes'. The conversation also touches on the adaptability of markets and hedge funds in the age of AI.",
+      "key_takeaway": "Investing in AI-enhanced ETFs like PQNT and PQUS can provide enhanced equity exposure in the current market environment.",
+      "tickers_mentioned": [
+        "PQNT",
+        "PQUS"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-01",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 126
+    },
+    {
       "id": 140,
       "title": "Marc Andreessen on Evaluating Founders and AI's Consumer Surplus",
       "source_type": "podcast",
@@ -55,11 +139,11 @@
         "ZEC"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-28",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-04-01",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 120
     },
     {
@@ -74,11 +158,11 @@
         "NVDA"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-28",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-04-01",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 119
     },
     {
@@ -97,11 +181,11 @@
         "GOOGL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-28",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-04-01",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 118
     },
     {
@@ -200,11 +284,11 @@
         "BYD"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-28",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-04-01",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 117
     },
     {

@@ -3,7 +3,7 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-03-31T22:02:28.128193",
+  generatedAt: "2026-04-01T05:07:59.017151",
   chartsVersion: "2026-03-31T19:51:23.788673",
   tickerScores: [
   {
@@ -730,6 +730,90 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 141,
+      "title": "They're Lying to You. Again. Stay Humble & Stack Sats.",
+      "source_type": "podcast",
+      "source_name": "The Jack Mallers Show",
+      "source_date": "2026-03-31",
+      "summary": "In this episode of The Jack Mallers Show, Jack discusses the current state of Bitcoin and the global economic situation. He highlights the importance of supply chain openness, the dependency of the United States on global markets, and the potential consequences of continued closures. Jack also touches on the impact of oil prices, the S&P 500 performance, and the broader implications for financial markets. Additionally, he shares personal insights on dealing with public scrutiny and the importance of focusing on genuine relationships and self-worth.",
+      "key_takeaway": "The core thesis presented is the importance of supply chain openness for the US economy and the potential negative impacts of continued closures on financial markets, with a particular focus on Bitcoin as a potential hedge.",
+      "tickers_mentioned": [
+        "AAPL",
+        "NVDA",
+        "SPY",
+        "TSLA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-01",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 129
+    },
+    {
+      "id": 142,
+      "title": "Uber CEO on Winning the Robotaxi Race, the End of Car Ownership, and Uber\u2019s Next $1 Trillion Bet | Dara Khosrowshahi (Uber CEO) | 243",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-03-31",
+      "summary": "In this episode of 'Moonshots with Peter Diamandis', the discussion revolves around the burgeoning autonomous vehicle industry and Uber's strategic positioning within it. The guest, who has played a pivotal role in turning around Uber's financials, shares insights on the company's focus on autonomous technology, the hybrid model of human-driven and autonomous fleets, and the global market dynamics affecting the adoption of self-driving cars. The conversation also touches on the cultural and operational challenges of running a tech-driven company like Uber and the future implications of autonomous vehicles on urban mobility and delivery services.",
+      "key_takeaway": "Investment in autonomous vehicle technology is poised to disrupt urban mobility and logistics, with companies like Uber positioned to capitalize on this shift.",
+      "tickers_mentioned": [
+        "UBER"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-01",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 128
+    },
+    {
+      "id": 143,
+      "title": "How Radiant and Heron Are Rethinking Power Generation and Delivery",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-03-31",
+      "summary": "The podcast discusses the challenges and innovations in the energy sector, focusing on the limitations of the current grid infrastructure and the need for new solutions. The conversation revolves around the increasing demand for electricity due to data centers, electrified transport, and industrialization, and how new power delivery methods are essential for economic growth and sustainable energy. Guests Doug Burnower, CEO of Radiant, and Andrew Beglinow, CEO of Heron, alongside A16Z General Partner Erin Price Wright, explore the potential of portable nuclear reactors and solid-state power electronics in transforming the grid from the edge.",
+      "key_takeaway": "Investing in companies that innovate in energy delivery and grid infrastructure can lead to significant returns as the demand for electricity increases and the need for a more efficient and sustainable grid becomes critical.",
+      "tickers_mentioned": [
+        "TSLA",
+        "AAPL",
+        "NVDA",
+        "GE",
+        "F"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-01",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 127
+    },
+    {
+      "id": 144,
+      "title": "The Psychology of Market Champions: Inside the Minds of Point 72 & Citadel Portfolio Managers | Dr. Gio Valiante",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-03-31",
+      "summary": "In this episode of 'Other People's Money', host Matt interviews Dr. Geo Voliante, a performance coach for top hedge funds and athletes. They discuss the rise of hedge fund pods, the impact of regulation on the industry, and the challenges faced by smaller hedge funds. Dr. Geo emphasizes the importance of culture and environment on performance and compares hedge fund managers to 'investor athletes'. The conversation also touches on the adaptability of markets and hedge funds in the age of AI.",
+      "key_takeaway": "Investing in AI-enhanced ETFs like PQNT and PQUS can provide enhanced equity exposure in the current market environment.",
+      "tickers_mentioned": [
+        "PQNT",
+        "PQUS"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-01",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 126
+    },
+    {
       "id": 140,
       "title": "Marc Andreessen on Evaluating Founders and AI's Consumer Surplus",
       "source_type": "podcast",
@@ -784,11 +868,11 @@ const dashboardData = {
         "ZEC"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-28",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-04-01",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 120
     },
     {
@@ -803,11 +887,11 @@ const dashboardData = {
         "NVDA"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-28",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-04-01",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 119
     },
     {
@@ -826,11 +910,11 @@ const dashboardData = {
         "GOOGL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-28",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-04-01",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 118
     },
     {
@@ -929,11 +1013,11 @@ const dashboardData = {
         "BYD"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-28",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-04-01",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 117
     },
     {
@@ -3357,6 +3441,91 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 141,
+      "title": "They're Lying to You. Again. Stay Humble & Stack Sats.",
+      "source_type": "podcast",
+      "source_name": "The Jack Mallers Show",
+      "source_date": "2026-03-31",
+      "summary": "In this episode of The Jack Mallers Show, Jack discusses the current state of Bitcoin and the global economic situation. He highlights the importance of supply chain openness, the dependency of the United States on global markets, and the potential consequences of continued closures. Jack also touches on the impact of oil prices, the S&P 500 performance, and the broader implications for financial markets. Additionally, he shares personal insights on dealing with public scrutiny and the importance of focusing on genuine relationships and self-worth.",
+      "key_takeaway": "The core thesis presented is the importance of supply chain openness for the US economy and the potential negative impacts of continued closures on financial markets, with a particular focus on Bitcoin as a potential hedge.",
+      "tickers_mentioned": "[\"AAPL\", \"NVDA\", \"SPY\", \"TSLA\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-01",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 129,
+      "episode_release_date": "2026-03-31",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
+      "id": 142,
+      "title": "Uber CEO on Winning the Robotaxi Race, the End of Car Ownership, and Uber\u2019s Next $1 Trillion Bet | Dara Khosrowshahi (Uber CEO) | 243",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-03-31",
+      "summary": "In this episode of 'Moonshots with Peter Diamandis', the discussion revolves around the burgeoning autonomous vehicle industry and Uber's strategic positioning within it. The guest, who has played a pivotal role in turning around Uber's financials, shares insights on the company's focus on autonomous technology, the hybrid model of human-driven and autonomous fleets, and the global market dynamics affecting the adoption of self-driving cars. The conversation also touches on the cultural and operational challenges of running a tech-driven company like Uber and the future implications of autonomous vehicles on urban mobility and delivery services.",
+      "key_takeaway": "Investment in autonomous vehicle technology is poised to disrupt urban mobility and logistics, with companies like Uber positioned to capitalize on this shift.",
+      "tickers_mentioned": "[\"UBER\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-01",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 128,
+      "episode_release_date": "2026-03-31",
+      "guest_name": null,
+      "key_tickers": [
+        "UBER"
+      ]
+    },
+    {
+      "id": 143,
+      "title": "How Radiant and Heron Are Rethinking Power Generation and Delivery",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-03-31",
+      "summary": "The podcast discusses the challenges and innovations in the energy sector, focusing on the limitations of the current grid infrastructure and the need for new solutions. The conversation revolves around the increasing demand for electricity due to data centers, electrified transport, and industrialization, and how new power delivery methods are essential for economic growth and sustainable energy. Guests Doug Burnower, CEO of Radiant, and Andrew Beglinow, CEO of Heron, alongside A16Z General Partner Erin Price Wright, explore the potential of portable nuclear reactors and solid-state power electronics in transforming the grid from the edge.",
+      "key_takeaway": "Investing in companies that innovate in energy delivery and grid infrastructure can lead to significant returns as the demand for electricity increases and the need for a more efficient and sustainable grid becomes critical.",
+      "tickers_mentioned": "[\"TSLA\", \"AAPL\", \"NVDA\", \"GE\", \"F\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-01",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 127,
+      "episode_release_date": "2026-03-31",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
+      "id": 144,
+      "title": "The Psychology of Market Champions: Inside the Minds of Point 72 & Citadel Portfolio Managers | Dr. Gio Valiante",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-03-31",
+      "summary": "In this episode of 'Other People's Money', host Matt interviews Dr. Geo Voliante, a performance coach for top hedge funds and athletes. They discuss the rise of hedge fund pods, the impact of regulation on the industry, and the challenges faced by smaller hedge funds. Dr. Geo emphasizes the importance of culture and environment on performance and compares hedge fund managers to 'investor athletes'. The conversation also touches on the adaptability of markets and hedge funds in the age of AI.",
+      "key_takeaway": "Investing in AI-enhanced ETFs like PQNT and PQUS can provide enhanced equity exposure in the current market environment.",
+      "tickers_mentioned": "[\"PQNT\", \"PQUS\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-01",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 126,
+      "episode_release_date": "2026-03-31",
+      "guest_name": null,
+      "key_tickers": [
+        "PQNT",
+        "PQUS"
+      ]
+    },
+    {
       "id": 140,
       "title": "Marc Andreessen on Evaluating Founders and AI's Consumer Surplus",
       "source_type": "podcast",
@@ -3400,70 +3569,6 @@ const dashboardData = {
       ]
     },
     {
-      "id": 127,
-      "title": "https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-18%2Fdff54dee-2ba4-02bd-9c43-d935696550da",
-      "source_type": "podcast",
-      "source_name": "Unknown Podcast",
-      "source_date": "2026-03-28",
-      "summary": "The podcast episode features a discussion on the evolution of privacy in the digital age, particularly in the context of cryptocurrencies like Z-Cash. The conversation covers the importance of privacy, the role of Z-Cash in addressing privacy concerns, and the potential for cryptocurrencies to shape the future of finance. The guest shares insights into the technological aspects of Z-Cash and its potential to disrupt traditional financial systems.",
-      "key_takeaway": "Investing in Z-Cash could be a way to capitalize on the growing demand for privacy in digital transactions and the potential for scalability improvements in blockchain technology.",
-      "tickers_mentioned": "[\"ZEC\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-03-28",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 120,
-      "episode_release_date": "2026-03-28",
-      "guest_name": null,
-      "key_tickers": [
-        "ZEC"
-      ]
-    },
-    {
-      "id": 128,
-      "title": "all in with chamath jason sacks frie jensen huang live nvidia s future physical ai rise of the 03b9c382",
-      "source_type": "podcast",
-      "source_name": "Unknown Podcast",
-      "source_date": "2026-03-28",
-      "summary": "This podcast episode features a discussion on the future of AI in the context of global financial systems. The conversation covers the shift from legacy systems to AI-driven platforms, the significance of the acquisition of Rock by Nvidia, and the importance of disaggregated computing in the AI era. Additionally, the podcast delves into the role of open-source models in AI and the impact of AI on job markets and education.",
-      "key_takeaway": "Investing in AI-driven platforms and technologies is essential for capturing the growth in the global financial system and staying ahead in the AI era.",
-      "tickers_mentioned": "[\"NVDA\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-03-28",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 119,
-      "episode_release_date": "2026-03-28",
-      "guest_name": null,
-      "key_tickers": [
-        "NVDA"
-      ]
-    },
-    {
-      "id": 129,
-      "title": "the a16z show chris dixon from quant trading to building a16z crypto be2e5b4b",
-      "source_type": "podcast",
-      "source_name": "Unknown Podcast",
-      "source_date": "2026-03-28",
-      "summary": "In this episode of the Unknown Podcast, Chris Dixon, a general partner at A16Z, discusses his journey from programming and quant finance to angel investing and building A16Z's dedicated crypto practice. Dixon shares insights on his unconventional investment bets, the importance of betting on talent in businesses, and his views on the evolution of angel investing and the tech industry. He also touches on the significance of New York as a tech hub and its potential in the crypto space.",
-      "key_takeaway": "Betting on talented individuals in businesses rather than predicting tech trends is a more consistent approach to investing.",
-      "tickers_mentioned": "[\"AAPL\", \"NVDA\", \"COIN\", \"FB\", \"GOOGL\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-03-28",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 118,
-      "episode_release_date": "2026-03-28",
-      "guest_name": null,
-      "key_tickers": []
-    },
-    {
       "id": 130,
       "title": "ALLIN-INTV Jensen V2 Ch",
       "source_type": "podcast",
@@ -3504,31 +3609,6 @@ const dashboardData = {
       "episode_release_date": "2026-03-28",
       "guest_name": null,
       "key_tickers": []
-    },
-    {
-      "id": 132,
-      "title": "Anthropic's Generational Run, OpenAI Panics, AI Moats, Meta Loses Lawsuits",
-      "source_type": "podcast",
-      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "source_date": "2026-03-27",
-      "summary": "In this episode, the hosts discuss a range of investment insights and market trends, with a focus on technological disruption and its impact on various industries. They touch on topics such as the rise of SaaS, the importance of innovation, and the competitive landscape between the US and China in scientific research and technology. The conversation also includes discussions on the potential erosion of brand value and the increasing importance of value propositions in a market where abundance is becoming more prevalent.",
-      "key_takeaway": "Invest in companies that are driving innovation and can disrupt traditional industries by offering superior products at better prices, while keeping an eye on the competitive dynamics between the US and China in scientific research and technology.",
-      "tickers_mentioned": "[\"AAPL\", \"GOOGL\", \"TSLA\", \"BYD\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-03-28",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 117,
-      "episode_release_date": "2026-03-27",
-      "guest_name": null,
-      "key_tickers": [
-        "AAPL",
-        "GOOGL",
-        "TSLA",
-        "BYD"
-      ]
     }
   ],
   "definitions": [
@@ -11365,61 +11445,341 @@ const dashboardData = {
     "source_name": "The a16z Show",
     "source_date": "2026-03-30",
     "key_tickers": []
+  },
+  "141": {
+    "id": 132,
+    "insight_id": 141,
+    "podcast_episode_id": 129,
+    "overview": "In this episode of The Jack Mowler Show, the host delves into the current geopolitical and economic landscape, drawing parallels to the COVID era and emphasizing the importance of Bitcoin as a hedge against potential financial instability. The investment thesis revolves around the idea that the U.S. is not self-sufficient and is heavily reliant on global supply chains, which are currently under strain due to conflicts and rising oil prices. This analysis suggests that investors should consider positions in assets that can provide stability and growth in such a volatile environment, with a particular focus on Bitcoin and select tech stocks.",
+    "key_takeaways_detailed": [
+      "Bitcoin's price is currently down 47% from its all-time high, presenting a potential buying opportunity for long-term investors.",
+      "Global supply chain disruptions and rising oil prices are exacerbating inflationary pressures, which could benefit Bitcoin as a hedge against inflation.",
+      "The U.S. is facing a sovereign debt crisis, which could lead to a loss of control over its treasury market, further emphasizing the need for alternative assets like Bitcoin.",
+      "The ongoing conflict in the Middle East and the rise in oil prices are significant geopolitical risks that investors should monitor closely.",
+      "The potential for a financial crisis driven by unemployment and the deflationary impact of AI technology should not be overlooked."
+    ],
+    "investment_thesis": "The core investment logic is that the current geopolitical and economic turmoil, combined with the U.S.'s reliance on global supply chains, creates a volatile environment where traditional assets may underperform. Bitcoin, with its decentralized nature and history as a hedge against inflation, presents a compelling investment opportunity. Additionally, tech stocks that can benefit from the ongoing digital transformation and have exposure to AI technology are also positioned to outperform. The catalysts for this thesis include the resolution of geopolitical conflicts, changes in global energy policies, and advancements in AI technology. The timeframe for this thesis is medium to long-term, as these factors are likely to play out over several quarters to years.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple is a tech giant with a strong balance sheet and exposure to AI technology through its products and services. It can benefit from the ongoing digital transformation and the deflationary impact of AI.",
+        "positioning": "Long-term strategic position, as Apple is likely to continue to innovate and grow in a digital world.",
+        "risk": "Key risks include increased regulatory scrutiny, supply chain disruptions, and potential declines in consumer spending due to economic downturns."
+      },
+      "NVDA": {
+        "rationale": "Nvidia is a leader in AI and GPU technology, which is at the forefront of the digital transformation and has applications in various industries, including gaming, automotive, and data centers.",
+        "positioning": "Long-term strategic position, as Nvidia is well-positioned to capitalize on the growth of AI and related technologies.",
+        "risk": "Key risks include competition from other tech giants, potential regulatory hurdles, and the cyclical nature of the semiconductor industry."
+      },
+      "SPY": {
+        "rationale": "SPY is an ETF that tracks the S&P 500, providing broad exposure to the U.S. stock market. It can serve as a hedge against individual stock risks and provide diversification.",
+        "positioning": "Medium-term tactical position, as market volatility may create opportunities for tactical buying and selling.",
+        "risk": "Key risks include market downturns due to geopolitical tensions, inflation, and potential recessions."
+      },
+      "TSLA": {
+        "rationale": "Tesla is a leader in electric vehicles and renewable energy, which are key areas of growth in a world transitioning away from fossil fuels. It also has exposure to AI through its autonomous driving technology.",
+        "positioning": "Long-term strategic position, as Tesla is poised to benefit from the shift towards sustainable energy and transportation.",
+        "risk": "Key risks include competition from traditional automakers and new entrants in the EV market, as well as potential disruptions in supply chains."
+      }
+    },
+    "positioning_guidance": "Investors should consider a balanced portfolio with a mix of Bitcoin and tech stocks that have exposure to AI and digital transformation. Position sizing should reflect individual risk tolerance and investment objectives. Entry points should be based on market volatility and individual stock valuations. Timeframes should be medium to long-term, as the factors driving this thesis are likely to play out over several quarters to years. Consider hedging with broad market exposure through ETFs like SPY to mitigate risks.",
+    "risk_factors": [
+      "Geopolitical conflicts escalating beyond current expectations, leading to further disruptions in global supply chains.",
+      "A rapid shift in global energy policies that could mitigate the current rise in oil prices and reduce inflationary pressures.",
+      "Regulatory changes that could impact the growth and adoption of Bitcoin and other digital assets.",
+      "Unexpected advancements in AI technology that could lead to a faster deflationary trend, impacting various sectors.",
+      "A potential market downturn that could affect the performance of tech stocks and the broader market."
+    ],
+    "contrarian_signals": [
+      "The belief that the U.S. government's actions are part of a well-thought-out strategy that will ultimately lead to a resolution of current conflicts and economic issues.",
+      "The possibility that the current rise in oil prices is temporary and will be mitigated by increased production or alternative energy sources.",
+      "The view that the current economic challenges are being overstated and that a strong recovery is imminent, leading to a resurgence in traditional assets."
+    ],
+    "catalysts": [
+      "Resolution of the conflict in the Middle East, which could stabilize oil prices and reduce geopolitical risks.",
+      "Announcements of new AI technologies or significant advancements in the field, which could drive growth in related industries.",
+      "Changes in U.S. fiscal policy, such as measures to reduce the deficit or address the sovereign debt crisis.",
+      "Regulatory developments that could impact the adoption and use of Bitcoin and other digital assets.",
+      "Economic indicators that signal a potential turning point in the current market volatility, such as changes in inflation rates or employment figures."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-04-01T05:05:50.732917",
+    "updated_at": "2026-04-01 10:05:50",
+    "insight_title": "They're Lying to You. Again. Stay Humble & Stack Sats.",
+    "source_name": "The Jack Mallers Show",
+    "source_date": "2026-03-31",
+    "key_tickers": []
+  },
+  "142": {
+    "id": 133,
+    "insight_id": 142,
+    "podcast_episode_id": 128,
+    "overview": "The Robotaxi market is set to revolutionize urban transportation, with Uber at the forefront of this technological shift. Uber's CEO, Dara Khosrowshahi, discusses the company's strategic focus on autonomous technology, which is expected to transform the company from a ride-hailing service to a major player in the autonomous vehicle space. This deep dive analysis explores Uber's investment thesis, the role of key technology partners, and the potential impact on the automotive and tech sectors. The transition to autonomous vehicles is anticipated to be gradual, with a hybrid model of human-driven and self-driving cars coexisting in the near term. This presents a significant investment opportunity for those looking to capitalize on the end of traditional car ownership and the rise of on-demand, autonomous transportation.",
+    "key_takeaways_detailed": [
+      "Uber is transitioning from a loss-making company to a profitable one, with a current earning of over $10 billion a year, indicating a strong financial position to invest in autonomous technology.",
+      "The company is focusing on a hybrid model where autonomous vehicles will coexist with human-driven ones, suggesting a gradual adoption rather than an immediate shift.",
+      "Uber has over 20 partners in the autonomous space, including Waymo, which positions it as a key aggregator in the Robotaxi market.",
+      "The company aims to facilitate more autonomous and robot taxi rides than any other player by 2029, highlighting an ambitious growth target.",
+      "Uber's platform approach allows it to scale with technology, making it an 'exponential organization' that can leverage its network to support both human and robot drivers."
+    ],
+    "investment_thesis": "Investing in Uber presents an opportunity to capitalize on the shift towards autonomous vehicles and the end of traditional car ownership. The company's strategic partnerships and platform approach position it to capture a significant share of the Robotaxi market. The investment thesis is based on Uber's ability to leverage its existing network, data collection capabilities, and partnerships to facilitate the transition to autonomous vehicles. Catalysts include the gradual adoption of autonomous technology, the expansion of partnerships, and the company's goal to lead the market in autonomous rides by 2029. The timeframe for this investment thesis is medium to long-term, as the full transition to autonomous vehicles is expected to take several years.",
+    "ticker_analysis": {
+      "UBER": {
+        "rationale": "Uber is a direct play on the Robotaxi market and the shift towards autonomous vehicles. As a key aggregator, it stands to benefit significantly from the growth of this market.",
+        "positioning": "Long-term strategic position, as the company's transformation and growth in the autonomous vehicle space are expected to take place over several years.",
+        "risk": "Regulatory hurdles, technological setbacks, and increased competition could delay or hinder Uber's progress in the autonomous vehicle market."
+      },
+      "GOOGL": {
+        "rationale": "As the parent company of Waymo, Google is a key player in the development of autonomous technology, and its success could indirectly benefit Uber through their partnership.",
+        "positioning": "Long-term strategic position, with potential for significant upside if Waymo continues to lead in autonomous technology.",
+        "risk": "Competition from other tech giants and the potential for regulatory challenges could impact Waymo's growth and, by extension, its partnership with Uber."
+      },
+      "TSLA": {
+        "rationale": "Tesla's advancements in electric and autonomous vehicles make it a relevant ticker for investors interested in the broader autonomous vehicle market, which could impact Uber's ecosystem.",
+        "positioning": "Tactical position, as Tesla's progress in autonomous driving could influence the speed of adoption and the competitive landscape.",
+        "risk": "Tesla's reliance on a vertical approach could limit its collaboration with Uber, potentially reducing the benefits of its technological advancements for Uber's platform."
+      },
+      "LCID": {
+        "rationale": "Lucid Motors, as a partner with Uber for electric vehicles, is relevant for investors looking at the electric vehicle market, which is closely tied to the autonomous vehicle market.",
+        "positioning": "Medium-term strategic position, as the partnership with Uber could boost Lucid's growth and market share.",
+        "risk": "The success of the partnership and Lucid's ability to scale production could be significant risks for investors."
+      },
+      "NVDA": {
+        "rationale": "NVIDIA is a key supplier of AI and autonomous driving technologies, making it a relevant ticker for investors interested in the technology behind autonomous vehicles.",
+        "positioning": "Long-term strategic position, as NVIDIA's technology is expected to be integral to the development of autonomous vehicles.",
+        "risk": "Technological disruptions and increased competition in the AI space could impact NVIDIA's market position and, by extension, its relevance to Uber's autonomous vehicle strategy."
+      }
+    },
+    "positioning_guidance": "Investors should consider a diversified approach, with a long-term strategic position in Uber (UBER) and Google (GOOGL) to capture the growth in the Robotaxi market. A tactical position in Tesla (TSLA) and Lucid Motors (LCID) could provide exposure to the electric and autonomous vehicle markets, while a long-term strategic position in NVIDIA (NVDA) offers exposure to the underlying technology driving autonomous vehicles. Entry points should be considered in the context of each company's specific catalysts and market conditions, with a medium to long-term timeframe for realizing the full potential of the investment thesis.",
+    "risk_factors": [
+      "Regulatory hurdles could significantly delay the deployment of autonomous vehicles, impacting Uber's growth plans.",
+      "Technological setbacks or safety concerns could slow the adoption of autonomous vehicles, affecting Uber's ability to meet its targets.",
+      "Increased competition from both established automakers and tech companies could erode Uber's market share in the Robotaxi market.",
+      "Economic downturns could reduce consumer demand for on-demand transportation services, affecting Uber's revenue growth.",
+      "The success of partnerships is uncertain, and the failure of key collaborations could hinder Uber's progress in the autonomous vehicle space."
+    ],
+    "contrarian_signals": [
+      "The potential for a slower-than-expected transition to autonomous vehicles could limit the near-term growth of the Robotaxi market.",
+      "The possibility that Tesla (TSLA) or other competitors could dominate the market, reducing Uber's potential market share.",
+      "The risk that technological advancements in autonomous driving may not meet the safety and reliability standards required for widespread adoption.",
+      "The potential for regulatory environments to become more restrictive, particularly around data privacy and vehicle safety, which could impede the growth of autonomous vehicle services."
+    ],
+    "catalysts": [
+      "The announcement of new partnerships or the expansion of existing ones in the autonomous vehicle space.",
+      "Regulatory approvals for autonomous vehicle testing and deployment in new cities or regions.",
+      "Technological milestones, such as the successful scaling of autonomous driving technology or the achievement of safety benchmarks.",
+      "Financial results that demonstrate Uber's growing profitability and investment in autonomous technology.",
+      "Key events or conferences where Uber and its partners showcase their latest advancements in autonomous vehicle technology."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-04-01T05:06:26.137706",
+    "updated_at": "2026-04-01 10:06:26",
+    "insight_title": "Uber CEO on Winning the Robotaxi Race, the End of Car Ownership, and Uber\u2019s Next $1 Trillion Bet | Dara Khosrowshahi (Uber CEO) | 243",
+    "source_name": "Moonshots with Peter Diamandis",
+    "source_date": "2026-03-31",
+    "key_tickers": [
+      "UBER"
+    ]
+  },
+  "143": {
+    "id": 134,
+    "insight_id": 143,
+    "podcast_episode_id": 127,
+    "overview": "The U.S. electrical grid is facing unprecedented challenges due to increased demand from data centers, electrified transport, and industrialization, outpacing efficiency gains and exposing years of underinvestment. The traditional centralized power generation model is no longer sufficient, and there is a growing need for innovative solutions in power generation and delivery. Companies like Radiant and Heron are at the forefront of this transformation, with Radiant focusing on portable nuclear reactors and Heron on solid-state power electronics to rebuild the grid from the edge. This deep dive analysis explores the investment implications of this shift towards decentralized and sustainable power solutions.",
+    "key_takeaways_detailed": [
+      "Invest in companies that are developing innovative power generation and delivery solutions to address the growing demand and grid inefficiencies.",
+      "Consider the potential for nuclear power to play a significant role in the future energy mix, especially with advancements in portable and micro reactors.",
+      "Look for opportunities in solid-state power electronics, which can enable more efficient and decentralized power distribution.",
+      "Monitor the progress and adoption of new technologies in the energy sector, as they could disrupt the traditional centralized power generation model.",
+      "Be aware of the regulatory environment and potential policy changes that could impact the development and deployment of new power generation technologies."
+    ],
+    "investment_thesis": "The U.S. electrical grid is at a tipping point, with increased demand outpacing the capacity of the existing infrastructure. This creates a significant investment opportunity in companies that are developing innovative solutions to modernize the grid and meet the growing demand for power. Radiant and Heron are two such companies, with Radiant focusing on portable nuclear reactors and Heron on solid-state power electronics. The core investment logic is that these companies are well-positioned to benefit from the shift towards decentralized and sustainable power generation and delivery. Catalysts for this thesis include increased demand for power, technological advancements, and potential policy support for clean energy solutions. The timeframe for this thesis is medium to long-term, as the development and deployment of new power generation technologies typically take several years.",
+    "ticker_analysis": {
+      "TSLA": {
+        "rationale": "Tesla is a leader in electric vehicle technology and has a history of innovation in energy storage and power electronics. The company's experience in battery technology and power management could position it well to benefit from the shift towards decentralized power generation and delivery.",
+        "positioning": "Long-term strategic position, as Tesla's technology and expertise could be increasingly relevant in the evolving energy landscape.",
+        "risk": "Regulatory hurdles and competition from other power generation and storage companies could impact Tesla's growth in this area."
+      },
+      "AAPL": {
+        "rationale": "Apple has a history of investing in and acquiring companies in the energy sector, and its focus on sustainability could make it a potential player in the shift towards decentralized power generation.",
+        "positioning": "Tactical position, as Apple's involvement in the energy sector could be more opportunistic and dependent on specific acquisitions or partnerships.",
+        "risk": "Apple's involvement in the energy sector is not as established as other companies, and its success in this area could be uncertain."
+      },
+      "NVDA": {
+        "rationale": "Nvidia is a leader in AI and computing technology, which could be increasingly relevant in managing and optimizing power distribution in a decentralized grid.",
+        "positioning": "Strategic position, as Nvidia's technology could play a crucial role in the development of intelligent power management systems.",
+        "risk": "The company's focus on AI and computing could be a distraction from the energy sector, and it may face competition from other tech giants in this space."
+      },
+      "GE": {
+        "rationale": "General Electric has a long history in the energy sector and is well-positioned to benefit from the shift towards more efficient and sustainable power generation technologies.",
+        "positioning": "Long-term strategic position, as GE's experience and resources could help it adapt to the changing energy landscape.",
+        "risk": "GE's financial performance and reputation have been challenged in recent years, which could impact its ability to invest in and develop new power generation technologies."
+      },
+      "F": {
+        "rationale": "Ford is investing in electrified transport and has a history of innovation in powertrain technology, which could position it well to benefit from the shift towards decentralized power generation and delivery.",
+        "positioning": "Medium-term tactical position, as Ford's investments in electrification could drive growth in the near term, but the company may face competition from other automakers and tech companies.",
+        "risk": "The transition to electrified transport could be slower than expected, and Ford may face challenges in scaling its electric vehicle production and distribution."
+      }
+    },
+    "positioning_guidance": "Investors should consider a diversified approach to positioning in the power generation and delivery sector, with a mix of long-term strategic positions in established players like GE and Ford, as well as tactical positions in technology-focused companies like Nvidia and Apple. Entry points should be based on individual company fundamentals and the overall market environment, with a focus on long-term growth potential. Investors should also consider hedging against potential risks, such as regulatory changes or technological disruptions.",
+    "risk_factors": [
+      "Regulatory hurdles and policy changes could slow the development and deployment of new power generation technologies.",
+      "Technological disruptions or breakthroughs could render current solutions obsolete and impact the growth prospects of companies in this space.",
+      "Increased competition from other power generation and storage companies could impact the market share and profitability of companies like Radiant and Heron.",
+      "Slow adoption of new power generation technologies by utilities and consumers could limit the growth potential of companies in this sector.",
+      "Economic downturns or shifts in energy demand could impact the overall growth prospects of the power generation and delivery sector."
+    ],
+    "contrarian_signals": [
+      "The traditional centralized power generation model may still have room for growth and efficiency improvements, which could limit the need for decentralized solutions.",
+      "The cost and complexity of implementing new power generation technologies could slow their adoption and limit the growth potential of companies in this space.",
+      "Public perception and concerns around nuclear power could limit the growth and acceptance of portable nuclear reactor solutions like those being developed by Radiant."
+    ],
+    "catalysts": [
+      "Technological breakthroughs or advancements in power generation and delivery technologies, such as improvements in battery storage or the development of more efficient nuclear reactors.",
+      "Policy changes or regulatory support for clean energy solutions, which could accelerate the adoption of new power generation technologies.",
+      "Increased demand for power from data centers, electrified transport, and industrialization, which could drive the need for more efficient and sustainable power generation solutions.",
+      "Partnerships or acquisitions between technology companies and traditional energy players, which could help drive innovation and growth in the power generation and delivery sector.",
+      "Public awareness and acceptance of new power generation technologies, which could help drive their adoption and growth in the market."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-04-01T05:06:56.162998",
+    "updated_at": "2026-04-01 10:06:56",
+    "insight_title": "How Radiant and Heron Are Rethinking Power Generation and Delivery",
+    "source_name": "The a16z Show",
+    "source_date": "2026-03-31",
+    "key_tickers": []
+  },
+  "144": {
+    "id": 135,
+    "insight_id": 144,
+    "podcast_episode_id": 126,
+    "overview": "In this deep dive, we explore the psychological factors that drive the performance of elite hedge fund managers, drawing parallels with high-performing athletes. Dr. Gio Valiante, a performance coach for top hedge funds like Point 72 and Citadel, as well as PGA Tour golfers, shares insights on how the culture and systems of hedge funds can significantly impact investment performance. This analysis is particularly relevant in the current market environment, where the rise of pod shops and the adaptability of smaller funds are reshaping the hedge fund landscape. Understanding the psychological and systemic factors that drive investment decisions can provide valuable insights for investors looking to navigate these complex dynamics.",
+    "key_takeaways_detailed": [
+      "Environment and culture matter significantly in hedge fund performance, as individuals often 'fall to the level of their systems' rather than rising to their goals.",
+      "Fear is a universal human condition that can distort investment decisions, leading to a focus on threat rather than opportunity.",
+      "Confidence is inversely related to fear, and maintaining high confidence is crucial for successful investing.",
+      "Smaller, more agile hedge funds can adapt to market changes more quickly than larger, more institutionalized funds.",
+      "Fear of embarrassment and the opinions of others can drive investment decisions from a place of fear rather than confidence."
+    ],
+    "investment_thesis": "The investment thesis centers on the importance of psychological factors and systemic environments in driving hedge fund performance. We believe that funds with strong cultures, adaptive systems, and the ability to maintain investor confidence will outperform in the current market environment. Catalysts for this thesis include the continued rise of pod shops, the adaptability of smaller funds, and the ongoing impact of AI on market dynamics. The timeframe for this thesis is medium to long-term (3-12 months to >1 year), as these psychological and systemic factors play out over time.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple is a key holding for many hedge funds and is often used as a benchmark for market performance. Its stock performance can be influenced by the psychological factors and systemic environments discussed in the podcast.",
+        "positioning": "Position long on AAPL as a strategic holding, given its strong brand, recurring revenue streams, and potential for innovation.",
+        "risk": "Key risks include increased competition, regulatory challenges, and potential supply chain disruptions."
+      },
+      "NVDA": {
+        "rationale": "Nvidia is a leading technology company that is heavily influenced by AI and market adaptability, making it a relevant ticker for this thesis.",
+        "positioning": "Position long on NVDA as a strategic holding, given its strong position in the AI and semiconductor markets.",
+        "risk": "Key risks include competition from other tech giants, regulatory challenges, and potential slowdowns in the AI adoption curve."
+      },
+      "PQUS": {
+        "rationale": "Another AI-enhanced ETF from Peak Day Asset Management, PQUS, offers exposure to US equities with an AI twist.",
+        "positioning": "Position long on PQUS as a strategic holding to benefit from AI's potential to enhance returns in the US market.",
+        "risk": "Key risks include the underperformance of AI algorithms, market volatility, and potential regulatory challenges for AI in finance."
+      },
+      "SPY": {
+        "rationale": "The S&P 500 ETF, SPY, serves as a benchmark for the overall market and can be influenced by the performance of hedge funds and market adaptability.",
+        "positioning": "Position long on SPY as a strategic holding to gain broad market exposure, with a focus on funds and companies with strong cultural and systemic environments.",
+        "risk": "Key risks include market volatility, economic downturns, and potential shifts in market leadership away from current S&P 500 constituents."
+      }
+    },
+    "positioning_guidance": "Investors should position their portfolios with a mix of strategic and tactical holdings, focusing on companies and funds with strong cultural and systemic environments that promote confidence and adaptability. Consider a 60/40 split between strategic (long-term) and tactical (short-term) holdings, with an emphasis on technology and innovation leaders. Entry points should be based on market volatility and individual risk tolerance, with a focus on dollar-cost averaging into positions. Timeframes for these positions should align with the medium to long-term investment thesis, with a focus on the continued rise of AI and market adaptability.",
+    "risk_factors": [
+      "Regulatory challenges to AI in finance could hinder the performance of AI-enhanced funds like PQ&T and PQUS.",
+      "Market volatility and economic downturns could impact the performance of broad market indices like SPY.",
+      "Increased competition and regulatory challenges could affect the performance of technology leaders like AAPL and NVDA.",
+      "Potential underperformance of AI algorithms could lead to disappointing results for AI-enhanced funds.",
+      "Shifts in market leadership away from current S&P 500 constituents could impact the performance of broad market indices."
+    ],
+    "contrarian_signals": [
+      "Despite the focus on AI and adaptability, some investors may argue that traditional investment strategies and human intuition still hold value in the market.",
+      "Regulatory challenges and ethical concerns around AI could slow the adoption of AI-enhanced funds and strategies.",
+      "Market volatility and economic downturns could lead some investors to favor more conservative, less adaptive investment strategies."
+    ],
+    "catalysts": [
+      "Upcoming earnings reports from technology leaders like AAPL and NVDA could serve as catalysts for the thesis, demonstrating the impact of innovation and adaptability on performance.",
+      "Regulatory developments around AI in finance could either accelerate or hinder the adoption of AI-enhanced funds like PQ&T and PQUS.",
+      "Market volatility and economic indicators could provide insights into the adaptability and resilience of different funds and market strategies.",
+      "The continued rise of pod shops and the performance of smaller, more agile funds could serve as a catalyst for the thesis, demonstrating the benefits of strong cultural and systemic environments.",
+      "Advancements in AI technology and its application in finance could provide further evidence of the thesis, as adaptive funds leverage these technologies to enhance performance."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-04-01T05:07:28.758613",
+    "updated_at": "2026-04-01 10:07:28",
+    "insight_title": "The Psychology of Market Champions: Inside the Minds of Point 72 & Citadel Portfolio Managers | Dr. Gio Valiante",
+    "source_name": "Monetary Matters with Jack Farley",
+    "source_date": "2026-03-31",
+    "key_tickers": [
+      "PQNT",
+      "PQUS"
+    ]
   }
 },
   suggestedTerms: [
   {
-    "id": 126,
-    "term": "Skaled Stove phenomenon",
-    "definition": "A concept in venture capital where an investor carries the scar of a past failure in a category into future meetings, potentially leading to the avoidance of successful investments in that same space.",
-    "investment_implications": "Investors should be aware of this phenomenon to avoid missing out on potentially game-changing opportunities due to past experiences.",
+    "id": 134,
+    "term": "Stack Sats",
+    "definition": "A term used in the Bitcoin community to refer to accumulating Bitcoin, with 'sats' being short for Satoshis, the smallest unit of Bitcoin.",
+    "investment_implications": "Investors should consider accumulating Bitcoin as a long-term strategy, especially in times of economic uncertainty.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-03-31 10:02:41",
+    "submitted_date": "2026-04-01 10:04:12",
     "priority_score": 80
   },
   {
-    "id": 124,
-    "term": "J-curve",
-    "definition": "A pattern in private equity where the value of investments is initially lower than the cost, but is expected to increase over time.",
-    "investment_implications": "Understanding the J-curve is crucial for investors in private equity to manage expectations and timing of returns.",
+    "id": 132,
+    "term": "Autonomous Vehicles",
+    "definition": "Self-driving cars that use a combination of sensors, cameras, and software to navigate without human input.",
+    "investment_implications": "Investors should consider companies at the forefront of autonomous vehicle technology as potential disruptors in the transportation sector.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-03-30 10:03:10",
+    "submitted_date": "2026-04-01 10:03:46",
     "priority_score": 80
   },
   {
-    "id": 125,
-    "term": "Evergreen Vehicles",
-    "definition": "Investment funds that do not have a fixed termination date and can continue to operate indefinitely, offering more flexibility and liquidity.",
-    "investment_implications": "Evergreen vehicles can provide investors with continuous access to investment opportunities without the constraints of a traditional fund's lifecycle.",
+    "id": 133,
+    "term": "Hybrid Fleets",
+    "definition": "A combination of autonomous and human-driven vehicles operating within the same transportation network.",
+    "investment_implications": "Investors may look for opportunities in companies that can adapt to and capitalize on the transition to hybrid fleets.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-03-30 10:03:10",
+    "submitted_date": "2026-04-01 10:03:46",
     "priority_score": 80
   },
   {
-    "id": 122,
-    "term": "Privacy-Focused Cryptocurrencies",
-    "definition": "Cryptocurrencies that prioritize user privacy and anonymity, often using advanced cryptographic techniques to secure transactions.",
-    "investment_implications": "Investors may consider these for their potential to disrupt traditional financial tracking and surveillance methods.",
+    "id": 129,
+    "term": "Portable Nuclear Reactors",
+    "definition": "Compact, factory-built nuclear reactors designed for portability and flexibility in power generation.",
+    "investment_implications": "Investors should consider the potential of portable nuclear reactors in addressing the energy delivery challenge.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-03-29 03:04:38",
+    "submitted_date": "2026-04-01 10:03:31",
     "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 1342,
+    "id": 1360,
     "name": "This special episode",
     "slug": "this-special-episode",
     "bio": null,
@@ -11431,7 +11791,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1343,
+    "id": 1361,
     "name": "Lupin Ramon",
     "slug": "lupin-ramon",
     "bio": null,
@@ -11443,7 +11803,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1344,
+    "id": 1362,
     "name": "When the Music Stops",
     "slug": "when-the-music-stops",
     "bio": null,
@@ -11455,7 +11815,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1345,
+    "id": 1363,
     "name": "Ground Infrastructure",
     "slug": "ground-infrastructure",
     "bio": null,
@@ -11467,7 +11827,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1346,
+    "id": 1364,
     "name": "Rory Johnston",
     "slug": "rory-johnston",
     "bio": null,
@@ -11479,7 +11839,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1347,
+    "id": 1365,
     "name": "Senator John Fetterman on Voting Rights",
     "slug": "senator-john-fetterman-on-voting-rights",
     "bio": null,
@@ -11491,7 +11851,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1348,
+    "id": 1366,
     "name": "Stock Market on Shaky Foundations",
     "slug": "stock-market-on-shaky-foundations",
     "bio": null,
@@ -11503,7 +11863,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1349,
+    "id": 1367,
     "name": "Elon Musk on Moonshots",
     "slug": "elon-musk-on-moonshots",
     "bio": null,
@@ -11515,7 +11875,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1350,
+    "id": 1368,
     "name": "Investing in Capitalism",
     "slug": "investing-in-capitalism",
     "bio": null,
@@ -11527,7 +11887,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1351,
+    "id": 1369,
     "name": "Harvard Professor Graham Allison",
     "slug": "harvard-professor-graham-allison",
     "bio": null,
@@ -11539,7 +11899,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1352,
+    "id": 1370,
     "name": "Andrew Yang",
     "slug": "andrew-yang",
     "bio": "Andrew Yang is an entrepreneur and political leader who popularized universal basic income in U.S. politics through his 2020 presidential campaign.",
@@ -11551,7 +11911,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1353,
+    "id": 1371,
     "name": "Inventing the Renaissance",
     "slug": "inventing-the-renaissance",
     "bio": null,
@@ -11563,7 +11923,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1354,
+    "id": 1372,
     "name": "Ray Dalio",
     "slug": "ray-dalio",
     "bio": "Ray Dalio is the founder of Bridgewater Associates and a macro investor known for his 'Principles' framework and work on long-term debt cycles.",
@@ -11575,7 +11935,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1355,
+    "id": 1373,
     "name": "Nobel Prize-winning economist Paul Krugman",
     "slug": "nobel-prize-winning-economist-paul-krugman",
     "bio": null,
@@ -11587,7 +11947,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1356,
+    "id": 1374,
     "name": "host Jack Mallers",
     "slug": "host-jack-mallers",
     "bio": null,
@@ -11599,7 +11959,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1357,
+    "id": 1375,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -11611,7 +11971,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1358,
+    "id": 1376,
     "name": "Bosworth",
     "slug": "bosworth",
     "bio": null,
@@ -11623,7 +11983,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1359,
+    "id": 1377,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -11654,7 +12014,7 @@ const dashboardData = {
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-03-19",
     "mention_score": 4,
-    "mention_score_decayed": 3.82,
+    "mention_score_decayed": 3.73,
     "last_main_idea": "The Iran conflict could lead to a renewed inflation cycle, affecting commodities and energy markets, with potential second-order effects that markets may currently be underpricing.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:36:30.218908",
@@ -11710,7 +12070,7 @@ const dashboardData = {
     "last_podcast_name": "All-In Podcast",
     "last_episode_date": "2026-03-28",
     "mention_score": 3,
-    "mention_score_decayed": 2.86,
+    "mention_score_decayed": 2.8,
     "last_main_idea": "Investing in AI-driven platforms and technologies is essential for capturing the growth in the global financial system and staying ahead in the AI era.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:40:52.368193",
@@ -11772,7 +12132,7 @@ const dashboardData = {
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-03-19",
     "mention_score": 2,
-    "mention_score_decayed": 1.91,
+    "mention_score_decayed": 1.87,
     "last_main_idea": "The Iran conflict could lead to a renewed inflation cycle, affecting commodities and energy markets, with potential second-order effects that markets may currently be underpricing.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:35:48.845381",
@@ -11829,7 +12189,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-28",
     "mention_score": 2,
-    "mention_score_decayed": 1.91,
+    "mention_score_decayed": 1.87,
     "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-28T22:05:42.395070",
@@ -11890,7 +12250,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-28",
     "mention_score": 2,
-    "mention_score_decayed": 1.91,
+    "mention_score_decayed": 1.87,
     "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-28T22:05:50.938326",
@@ -11947,7 +12307,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-02-15",
     "mention_score": 2,
-    "mention_score_decayed": 1.91,
+    "mention_score_decayed": 1.87,
     "last_main_idea": "Invest in sectors with fertile ground for short selling, such as AI and tech, and under-allocated areas like junior mining, while combining long and short strategies for potential alpha.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:42:09.376490",
@@ -12079,6 +12439,245 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
+    "id": 144,
+    "name": "Dara Khosrowshahi",
+    "slug": "dara-khosrowshahi",
+    "bio": "Dara Khosrowshahi is the current CEO of Uber, having previously served as the CEO of Expedia. He is known for leading the turnaround of Uber's financial performance and focusing the company on autonomous technology.",
+    "known_for": "Leading the turnaround of Uber's financial performance and focusing the company on autonomous technology.",
+    "net_worth_usd": 5000000000.0,
+    "net_worth_source": "https://www.wikidata.org/wiki/Q5221979",
+    "net_worth_updated_at": "2026-04-01T05:04:28.531382",
+    "voice_tone": "Confident and optimistic about the future of autonomous vehicles.",
+    "voice_style": "Direct and solution-oriented, emphasizing the importance of strategic focus and hard work.",
+    "voice_delivery_notes": "Paced with emphasis on key points regarding the future of transportation and the role of technology.",
+    "voice_profile_updated_at": "2026-04-01 10:03:46",
+    "last_seen": "2026-04-01 10:03:46",
+    "last_episode_title": "Uber CEO on Winning the Robotaxi Race, the End of Car Ownership, and Uber\u2019s Next $1 Trillion Bet | Dara Khosrowshahi (Uber CEO) | 243",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-03-31",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investment in autonomous vehicle technology is poised to disrupt urban mobility and logistics, with companies like Uber positioned to capitalize on this shift.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-01T05:04:28.065974",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Dara Khosrowshahi",
+      "fetched_at": "2026-04-01T10:04:28.065490+00:00",
+      "cliff_notes": "Dara Khosrowshahi has had a significant impact on the tech industry through his leadership roles in major companies. As the CEO of Expedia, he led the company through a period of growth and expansion. His tenure at Uber has been marked by a focus on financial stability and the development of autonomous vehicle technology. Khosrowshahi's leadership has been pivotal in shaping the future of transportation and the tech industry, as he navigates the complexities of integrating autonomous vehicles into urban landscapes.",
+      "derived": {
+        "current_role": "CEO of Uber",
+        "former_positions": "CEO of Expedia"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Dara Khosrowshahi has had a significant impact on the tech industry through his leadership roles in major companies. As the CEO of Expedia, he led the company through a period of growth and expansion. His tenure at Uber has been marked by a focus on financial stability and the development of autonomous vehicle technology.",
+        "Khosrowshahi's leadership has been pivotal in shaping the future of transportation and the tech industry, as he navigates the complexities of integrating autonomous vehicles into urban landscapes."
+      ],
+      "sections": [
+        {
+          "heading": "Uber's Financial Turnaround",
+          "body": "Dara Khosrowshahi is credited with turning around Uber's financial performance, moving the company from significant losses to substantial earnings."
+        },
+        {
+          "heading": "Focus on Autonomous Technology",
+          "body": "Under Khosrowshahi's leadership, Uber has made significant strides in the development and deployment of autonomous vehicle technology, positioning the company as a key player in the future of transportation."
+        },
+        {
+          "heading": "Leadership in the Tech Industry",
+          "body": "Khosrowshahi's experience and leadership in the tech industry have made him a prominent figure, with his decisions and strategies closely watched by investors and tech enthusiasts alike."
+        }
+      ]
+    },
+    "net_worth": "$5.00B"
+  },
+  {
+    "id": 141,
+    "name": "Doug Burnower",
+    "slug": "doug-burnower",
+    "bio": "Doug Burnower is the Founder and CEO of Radiant, a company that specializes in developing portable nuclear reactors. His work focuses on innovative energy solutions, aiming to address the challenges of energy delivery and sustainability in the modern world.",
+    "known_for": "Pioneering portable nuclear reactors and contributing to the evolution of energy infrastructure.",
+    "net_worth_usd": 243000000000.0,
+    "net_worth_source": "https://www.zippia.com/space-exploration-technologies-careers-39035/executives/",
+    "net_worth_updated_at": "2026-04-01T05:04:39.743774",
+    "voice_tone": "Confident and visionary",
+    "voice_style": "Technical and solution-oriented",
+    "voice_delivery_notes": "Paced with emphasis on innovation",
+    "voice_profile_updated_at": "2026-04-01 10:03:31",
+    "last_seen": "2026-04-01 10:03:31",
+    "last_episode_title": "How Radiant and Heron Are Rethinking Power Generation and Delivery",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-03-31",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investing in companies that innovate in energy delivery and grid infrastructure can lead to significant returns as the demand for electricity increases and the need for a more efficient and sustainable grid becomes critical.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-01T05:04:38.716099",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Doug Burnower",
+      "fetched_at": "2026-04-01T10:04:38.715783+00:00",
+      "cliff_notes": "Doug Burnower is recognized for his innovative work in the energy sector, particularly with his company Radiant, which is focused on portable nuclear reactors. His career has been dedicated to finding solutions to the complex problem of energy delivery and the sustainability of energy sources. Burnower's vision is to transform the way power is generated and distributed, with an emphasis on leveraging free energy sources like sunlight and geothermal heat. His work at SpaceX provided him with valuable experience in advanced technology and engineering, which he now applies to his current role at Radiant. Burnower's contributions to the energy industry are significant, as they aim to address the growing demand for power in a sustainable and efficient manner.",
+      "derived": {
+        "current_role": "Founder and CEO of Radiant",
+        "former_positions": "Prior work at SpaceX"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Doug Burnower is recognized for his innovative work in the energy sector, particularly with his company Radiant, which is focused on portable nuclear reactors. His career has been dedicated to finding solutions to the complex problem of energy delivery and the sustainability of energy sources. Burnower's vision is to transform the way power is generated and distributed, with an emphasis on leveraging free energy sources like sunlight and geothermal heat.",
+        "His work at SpaceX provided him with valuable experience in advanced technology and engineering, which he now applies to his current role at Radiant. Burnower's contributions to the energy industry are significant, as they aim to address the growing demand for power in a sustainable and efficient manner."
+      ],
+      "sections": [
+        {
+          "heading": "Energy Delivery",
+          "body": "Doug Burnower emphasizes the importance of improving energy delivery systems, noting that the current grid infrastructure is outdated and unable to efficiently handle the growing demand for power."
+        },
+        {
+          "heading": "Sustainable Energy",
+          "body": "Burnower's work at Radiant is centered around creating sustainable energy solutions through the development of portable nuclear reactors, which can provide a stable and clean source of energy."
+        },
+        {
+          "heading": "Innovation in Energy",
+          "body": "Doug Burnower is a proponent of using innovative technologies to revolutionize the energy sector, advocating for the use of free energy sources and the transformation of the existing grid infrastructure."
+        }
+      ]
+    },
+    "net_worth": "$243.00B"
+  },
+  {
+    "id": 142,
+    "name": "Andrew Beglinow",
+    "slug": "andrew-beglinow",
+    "bio": "Andrew Beglinow is a prominent figure in the electric vehicle and renewable energy sectors. As the founder and CEO of Heron, he leads the company in developing solid-state power electronics. Previously, he served as VP of R&D at Tesla, where he contributed significantly to electric vehicle technology.",
+    "known_for": "His contributions to electric vehicle technology and the development of solid-state power electronics.",
+    "net_worth_usd": 11000000.0,
+    "net_worth_source": "https://www.gurufocus.com/insider/72754/andrew-d-baglino",
+    "net_worth_updated_at": "2026-04-01T05:04:52.643132",
+    "voice_tone": "Analytical and pragmatic",
+    "voice_style": "Focused on practical applications and technical details",
+    "voice_delivery_notes": "Clear and concise with a focus on impact",
+    "voice_profile_updated_at": "2026-04-01 10:03:31",
+    "last_seen": "2026-04-01 10:03:31",
+    "last_episode_title": "How Radiant and Heron Are Rethinking Power Generation and Delivery",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-03-31",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investing in companies that innovate in energy delivery and grid infrastructure can lead to significant returns as the demand for electricity increases and the need for a more efficient and sustainable grid becomes critical.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-01T05:04:51.620692",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Andrew Beglinow",
+      "fetched_at": "2026-04-01T10:04:51.620453+00:00",
+      "cliff_notes": "Andrew Beglinow has had a significant impact on the electric vehicle and renewable energy industries. As the VP of R&D at Tesla, he played a crucial role in advancing electric vehicle technology. His current venture, Heron, focuses on solid-state power electronics, which is a key component in the evolution of energy storage and distribution. Beglinow's work is pivotal in addressing the challenges of energy delivery and the transformation of the power grid, which is essential for sustainable energy and economic growth.",
+      "derived": {
+        "current_role": "Founder and CEO of Heron",
+        "former_positions": "VP of R&D at Tesla"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Andrew Beglinow has had a significant impact on the electric vehicle and renewable energy industries. As the VP of R&D at Tesla, he played a crucial role in advancing electric vehicle technology. His current venture, Heron, focuses on solid-state power electronics, which is a key component in the evolution of energy storage and distribution.",
+        "Beglinow's work is pivotal in addressing the challenges of energy delivery and the transformation of the power grid, which is essential for sustainable energy and economic growth."
+      ],
+      "sections": [
+        {
+          "heading": "Electric Vehicle Technology",
+          "body": "Beglinow's tenure at Tesla saw significant advancements in electric vehicle technology, contributing to the broader adoption of EVs."
+        },
+        {
+          "heading": "Solid-State Power Electronics",
+          "body": "As CEO of Heron, Beglinow is leading the development of solid-state power electronics, which are critical for improving energy storage and distribution efficiency."
+        },
+        {
+          "heading": "Energy Delivery and the Grid",
+          "body": "Beglinow emphasizes the importance of transforming the power grid to handle the growing demand for energy services and to incorporate sustainable energy sources effectively."
+        },
+        {
+          "heading": "Sustainable Energy and Economic Growth",
+          "body": "His work aims to facilitate the use of free and sustainable energy sources, such as sunlight and geothermal energy, to support economic growth and prosperity."
+        }
+      ]
+    },
+    "net_worth": "$11.0M"
+  },
+  {
+    "id": 140,
+    "name": "Geo Voliante",
+    "slug": "geo-voliante",
+    "bio": "Dr. Geo Voliante is a performance coach who has worked with top hedge funds and elite athletes to optimize their performance. His expertise lies in enhancing the mental and physical capabilities of individuals in high-pressure environments.",
+    "known_for": "Enhancing performance for hedge fund managers and elite athletes through coaching.",
+    "net_worth_usd": 15200000000.0,
+    "net_worth_source": "https://www.theladders.com/career-advice/these-are-the-25-highest-paid-hedge-fund-managers",
+    "net_worth_updated_at": "2026-04-01T05:05:19.102305",
+    "voice_tone": "Confident and knowledgeable.",
+    "voice_style": "Analytical and comparative, drawing parallels between hedge fund managers and athletes.",
+    "voice_delivery_notes": "Paced with emphasis on key points about adaptability and performance.",
+    "voice_profile_updated_at": "2026-04-01 10:03:14",
+    "last_seen": "2026-04-01 10:03:14",
+    "last_episode_title": "The Psychology of Market Champions: Inside the Minds of Point 72 & Citadel Portfolio Managers | Dr. Gio Valiante",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-03-31",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investing in AI-enhanced ETFs like PQNT and PQUS can provide enhanced equity exposure in the current market environment.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-01T05:05:18.251968",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Geo Voliante",
+      "fetched_at": "2026-04-01T10:05:18.251755+00:00",
+      "cliff_notes": "Dr. Geo Voliante is recognized for his work as a performance coach, assisting both hedge fund managers and elite athletes in optimizing their performance. His career has been dedicated to understanding and improving the mental and physical aspects of high-pressure roles. By working with hedge funds like 0.72 and PGA Tour golfers such as Justin Rose and Jordan Speath, Voliante has demonstrated his ability to adapt his coaching methods to diverse client needs. His insights into the temperaments and operational differences between various hedge fund environments have made him a valuable resource in the financial sector. His continued work with athletes and executives showcases his commitment to enhancing performance across different fields.",
+      "derived": {
+        "current_role": "Performance Coach"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Dr. Geo Voliante is recognized for his work as a performance coach, assisting both hedge fund managers and elite athletes in optimizing their performance. His career has been dedicated to understanding and improving the mental and physical aspects of high-pressure roles. By working with hedge funds like 0.72 and PGA Tour golfers such as Justin Rose and Jordan Speath, Voliante has demonstrated his ability to adapt his coaching methods to diverse client needs.",
+        "His insights into the temperaments and operational differences between various hedge fund environments have made him a valuable resource in the financial sector. His continued work with athletes and executives showcases his commitment to enhancing performance across different fields."
+      ],
+      "sections": [
+        {
+          "heading": "Performance Coaching",
+          "body": "Dr. Geo Voliante specializes in performance coaching, helping individuals in high-stress roles to maximize their potential."
+        },
+        {
+          "heading": "Hedge Fund Collaboration",
+          "body": "Voliante has collaborated with hedge funds, such as 0.72, to improve the performance of their managers through tailored coaching programs."
+        },
+        {
+          "heading": "Athletic Performance",
+          "body": "He has worked with PGA Tour golfers, including Justin Rose and Jordan Speath, to enhance their mental and physical game performance."
+        },
+        {
+          "heading": "Pod Environments",
+          "body": "Voliante has insights into the growth of pod environments within the hedge fund industry and the differences in temperament and operations between various setups."
+        }
+      ]
+    },
+    "net_worth": "$15.20B"
+  },
+  {
     "id": 138,
     "name": "Mark Andreessen",
     "slug": "mark-andreessen",
@@ -12096,7 +12695,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-30",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Invest in companies and technologies that are reshaping industries and have the potential to create significant economic value for a broad user base, rather than just the companies themselves.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-31T05:03:10.373140",
@@ -12160,7 +12759,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "The democratization of alternative investments provides retail investors with new opportunities, but also comes with structural differences and risks that must be understood.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-30T05:03:22.005290",
@@ -12218,7 +12817,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Betting on talented individuals in businesses rather than predicting tech trends is a more consistent approach to investing.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-28T22:05:06.552638",
@@ -12281,7 +12880,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Invest in companies that are driving innovation and can disrupt traditional industries by offering superior products at better prices, while keeping an eye on the competitive dynamics between the US and China in scientific research and technology.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-28T22:05:25.190284",
@@ -12339,7 +12938,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Invest in companies that are driving innovation and can disrupt traditional industries by offering superior products at better prices, while keeping an eye on the competitive dynamics between the US and China in scientific research and technology.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-28T22:05:33.382582",
@@ -12510,7 +13109,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Sovereign credit investing requires a deep understanding of the unique risks and dynamics of lending to governments, which can offer significant returns but also carries substantial risks, particularly in the current geopolitical climate.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-28T04:06:45.925345",
@@ -12553,251 +13152,6 @@ const dashboardData = {
         }
       ]
     }
-  },
-  {
-    "id": 123,
-    "name": "Chandler Lujica",
-    "slug": "chandler-lujica",
-    "bio": "Chandler Lujica is the CEO of Galladine, a next-generation missile propulsion company. With a background in propulsion engineering, Lujica has interned at SpaceX four times and spent a decade at Tesla, contributing to the development of battery technology.",
-    "known_for": "Being the CEO of Galladine and a former lead propulsion engineer on Starship at SpaceX.",
-    "net_worth_usd": 1000000000.0,
-    "net_worth_source": "https://en.wikipedia.org/wiki/Christopher_Chandler_(businessman)",
-    "net_worth_updated_at": "2026-03-31T20:09:39.360386",
-    "voice_tone": "",
-    "voice_style": "",
-    "voice_delivery_notes": "",
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-03-28 09:04:18",
-    "last_episode_title": "Lessons from SpaceX and Tesla: Building for the Physical Economy",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-03-27",
-    "mention_score": 1,
-    "mention_score_decayed": 0.93,
-    "last_main_idea": "Investing in companies that apply lessons from SpaceX and Tesla can lead to innovation in the physical economy, focusing on scalability, communication, and technical expertise.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-28T04:06:58.025543",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Chandler Lujica",
-      "fetched_at": "2026-03-28T09:06:58.025367+00:00",
-      "cliff_notes": "Chandler Lujica is a seasoned engineer with a focus on propulsion systems. He began his career with multiple internships at SpaceX, where he eventually became a lead propulsion engineer on the Starship project. After gaining invaluable experience in space propulsion, Lujica moved to Tesla, where he spent a decade working on battery technology. His expertise in propulsion and energy systems led him to found Galladine, a company that specializes in next-generation missile propulsion. Lujica's work at both SpaceX and Tesla has been instrumental in shaping the future of space exploration and sustainable energy, and his current role at Galladine continues to push the boundaries of propulsion technology.",
-      "derived": {
-        "current_role": "CEO of Galladine",
-        "former_positions": "Lead propulsion engineer on Starship at SpaceX; various roles at Tesla"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Chandler Lujica is a seasoned engineer with a focus on propulsion systems. He began his career with multiple internships at SpaceX, where he eventually became a lead propulsion engineer on the Starship project. After gaining invaluable experience in space propulsion, Lujica moved to Tesla, where he spent a decade working on battery technology.",
-        "His expertise in propulsion and energy systems led him to found Galladine, a company that specializes in next-generation missile propulsion. Lujica's work at both SpaceX and Tesla has been instrumental in shaping the future of space exploration and sustainable energy, and his current role at Galladine continues to push the boundaries of propulsion technology."
-      ],
-      "sections": [
-        {
-          "heading": "SpaceX Internships",
-          "body": "Chandler Lujica interned at SpaceX four times, gaining extensive experience in propulsion engineering and contributing to the development of the Starship project."
-        },
-        {
-          "heading": "Tesla Tenure",
-          "body": "Lujica spent a decade at Tesla, where he was involved in the development and management of battery technology, a critical component of electric vehicles and renewable energy storage."
-        },
-        {
-          "heading": "Galladine Founding",
-          "body": "Drawing from his experience at SpaceX and Tesla, Lujica founded Galladine to focus on next-generation missile propulsion systems, aiming to innovate in the defense and aerospace industries."
-        },
-        {
-          "heading": "Innovation in Propulsion",
-          "body": "Lujica's work has consistently been at the forefront of propulsion technology, from space exploration with SpaceX to electric vehicle advancements at Tesla, and now missile propulsion at Galladine."
-        }
-      ]
-    },
-    "net_worth": "$1.00B"
-  },
-  {
-    "id": 124,
-    "name": "Turner Caldwell",
-    "slug": "turner-caldwell",
-    "bio": "Turner Caldwell is the CEO of Mariana Minerals, a company focused on critical mineral supply chains. With a background in battery minerals and metals at Tesla, Caldwell has extensive experience in the energy sector. He has also interned at SpaceX multiple times, contributing to his expertise in the field.",
-    "known_for": "Leading critical mineral supply chains and his experience in battery minerals and metals at Tesla.",
-    "net_worth_usd": 10000000000.0,
-    "net_worth_source": "https://americanbatterytechnology.com/how-a-network-of-ex-tesla-employees-created-10-billion-worth-of-u-s-clean-energy-investments/",
-    "net_worth_updated_at": "2026-03-28T04:07:10.977752",
-    "voice_tone": "",
-    "voice_style": "",
-    "voice_delivery_notes": "",
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-03-28 09:04:18",
-    "last_episode_title": "Lessons from SpaceX and Tesla: Building for the Physical Economy",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-03-27",
-    "mention_score": 1,
-    "mention_score_decayed": 0.93,
-    "last_main_idea": "Investing in companies that apply lessons from SpaceX and Tesla can lead to innovation in the physical economy, focusing on scalability, communication, and technical expertise.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-28T04:07:10.077867",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Turner Caldwell",
-      "fetched_at": "2026-03-28T09:07:10.077689+00:00",
-      "cliff_notes": "Turner Caldwell is a seasoned professional in the energy sector, with a focus on critical mineral supply chains. He has held a significant role in leading battery minerals and metals at Tesla, contributing to the company's advancements in energy storage technology. Caldwell's career has been marked by his dedication to innovation and sustainability in the energy industry. His tenure at Tesla, along with multiple internships at SpaceX, has provided him with a unique perspective on the intersection of technology and energy. As the CEO of Mariana Minerals, Caldwell continues to drive the industry forward, focusing on the critical minerals that power the clean energy transition.",
-      "derived": {
-        "current_role": "CEO of Mariana Minerals",
-        "former_positions": "Led battery minerals and metals at Tesla; Intern at SpaceX"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Turner Caldwell is a seasoned professional in the energy sector, with a focus on critical mineral supply chains. He has held a significant role in leading battery minerals and metals at Tesla, contributing to the company's advancements in energy storage technology. Caldwell's career has been marked by his dedication to innovation and sustainability in the energy industry.",
-        "His tenure at Tesla, along with multiple internships at SpaceX, has provided him with a unique perspective on the intersection of technology and energy. As the CEO of Mariana Minerals, Caldwell continues to drive the industry forward, focusing on the critical minerals that power the clean energy transition."
-      ],
-      "sections": [
-        {
-          "heading": "Energy Sector Experience",
-          "body": "Turner Caldwell has extensive experience in the energy sector, particularly in battery minerals and metals, which are crucial for the development of sustainable energy solutions."
-        },
-        {
-          "heading": "Tesla Tenure",
-          "body": "At Tesla, Caldwell played a key role in managing the supply chain of battery minerals and metals, which are essential components in electric vehicle and energy storage technologies."
-        },
-        {
-          "heading": "SpaceX Internships",
-          "body": "Caldwell interned at SpaceX multiple times, gaining valuable insights into the space and technology industries that have informed his approach to leadership and innovation."
-        },
-        {
-          "heading": "Leadership at Mariana Minerals",
-          "body": "As the CEO of Mariana Minerals, Caldwell is at the forefront of ensuring the supply of critical minerals necessary for the clean energy transition and the development of next-generation technologies."
-        }
-      ]
-    },
-    "net_worth": "$10.00B"
-  },
-  {
-    "id": 121,
-    "name": "Lynn Alden",
-    "slug": "lynn-alden",
-    "bio": "Lynn Alden is the founder of Lynn Alden Investment Strategy, a platform dedicated to providing insights into the transition into a multi-polar world. She is a sought-after commentator on finance and macroeconomics, particularly focusing on the geopolitical and economic shifts shaping global markets.",
-    "known_for": "Her analysis and commentary on the geopolitical and economic shifts towards a multi-polar world order.",
-    "net_worth_usd": 4600000.0,
-    "net_worth_source": "https://moolahtimes.com/lyn-alden/",
-    "net_worth_updated_at": "2026-03-26T14:15:42.441919",
-    "voice_tone": "Matter-of-fact and analytical",
-    "voice_style": "Factual and informative, providing insights into global macro trends",
-    "voice_delivery_notes": "Clear and steady pace, with emphasis on key economic indicators",
-    "voice_profile_updated_at": "2026-03-26 19:14:35",
-    "last_seen": "2026-03-26 19:14:35",
-    "last_episode_title": "Macro Voices Episode 525: Multi-Polar World Order, Iran Conflict, and Inflation Outlook",
-    "last_podcast_name": "Macro Voices",
-    "last_episode_date": "2026-03-26",
-    "mention_score": 1,
-    "mention_score_decayed": 0.89,
-    "last_main_idea": "Investors should consider the geopolitical risks and shifts in global power dynamics when constructing their portfolios, with a focus on sectors that may be affected by rising energy prices and inflation.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-26T14:15:41.620354",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Lynn Alden",
-      "fetched_at": "2026-03-26T19:15:41.619968+00:00",
-      "cliff_notes": "Lynn Alden is recognized for her expertise in macroeconomics and finance, with a particular focus on the geopolitical shifts leading to a multi-polar world. As the founder of Lynn Alden Investment Strategy, she provides in-depth analysis and commentary on these shifts and their implications for global markets. Alden's work is highly regarded among professional finance, high-net worth individuals, family offices, and other sophisticated investors. Her insights are regularly sought after for podcasts like Macrovoisers, where she discusses a range of topics from the Iran conflict to the outlook for persistent inflation and the future of monetary policy.",
-      "derived": {
-        "current_role": "Founder, Lynn Alden Investment Strategy"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Lynn Alden is recognized for her expertise in macroeconomics and finance, with a particular focus on the geopolitical shifts leading to a multi-polar world. As the founder of Lynn Alden Investment Strategy, she provides in-depth analysis and commentary on these shifts and their implications for global markets. Alden's work is highly regarded among professional finance, high-net worth individuals, family offices, and other sophisticated investors.",
-        "Her insights are regularly sought after for podcasts like Macrovoisers, where she discusses a range of topics from the Iran conflict to the outlook for persistent inflation and the future of monetary policy."
-      ],
-      "sections": [
-        {
-          "heading": "Multi-Polar World Order",
-          "body": "Lynn Alden is well-known for her analysis on the geopolitical and economic shifts towards a multi-polar world order, discussing the implications for global markets and investment strategies."
-        },
-        {
-          "heading": "Geopolitical Conflicts",
-          "body": "Alden frequently comments on geopolitical conflicts, such as the Iran situation, and their broader macroeconomic implications, providing insights into how these events can affect financial markets."
-        },
-        {
-          "heading": "Monetary Policy",
-          "body": "She offers perspectives on monetary policy, including the potential impact of leadership changes at central banks, like the anticipated transition with Kevin Wars as the new Fed Chair."
-        },
-        {
-          "heading": "Inflation Outlook",
-          "body": "Alden discusses the outlook for persistent inflation, analyzing its causes and potential effects on economies and investment strategies."
-        },
-        {
-          "heading": "Private Credit Markets",
-          "body": "She also addresses the breakdown in private credit markets, explaining how this can influence the overall health and stability of the financial system."
-        }
-      ]
-    },
-    "net_worth": "$4.6M"
-  },
-  {
-    "id": 122,
-    "name": "Michael Every",
-    "slug": "michael-every",
-    "bio": "Michael Every is a Global Strategist for Economics and Markets at Robo Banks, known for his exceptional ability to translate political statements into market implications. His insights are highly valued by professional finance, high-net worth individuals, family offices, and sophisticated investors.",
-    "known_for": "His ability to translate political statements into market implications and his expertise in macroeconomics.",
-    "net_worth_usd": 70000000000.0,
-    "net_worth_source": "https://www.celebritynetworth.com/richest-politicians/michael-bloomberg-net-worth/",
-    "net_worth_updated_at": "2026-03-31T20:09:40.488239",
-    "voice_tone": "Cautious and skeptical",
-    "voice_style": "Direct and candid, with a focus on the complexities of the current geopolitical situation",
-    "voice_delivery_notes": "Paced with pauses for emphasis, highlighting the uncertainty of the situation",
-    "voice_profile_updated_at": "2026-03-26 19:14:35",
-    "last_seen": "2026-03-26 19:14:35",
-    "last_episode_title": "Macro Voices Episode 525: Multi-Polar World Order, Iran Conflict, and Inflation Outlook",
-    "last_podcast_name": "Macro Voices",
-    "last_episode_date": "2026-03-26",
-    "mention_score": 1,
-    "mention_score_decayed": 0.89,
-    "last_main_idea": "Investors should consider the geopolitical risks and shifts in global power dynamics when constructing their portfolios, with a focus on sectors that may be affected by rising energy prices and inflation.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-26T14:15:50.429943",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Michael Every",
-      "fetched_at": "2026-03-26T19:15:50.429788+00:00",
-      "cliff_notes": "Michael Every is recognized for his exceptional track record in translating political statements into market implications. As a Global Strategist for Economics and Markets at Robo Banks, he provides valuable insights to professional finance, high-net worth individuals, family offices, and sophisticated investors. His expertise in macroeconomics and geopolitical analysis has made him a sought-after commentator in the world of finance. Every's ability to dissect complex political situations and predict their impact on the market has earned him a reputation as a trusted voice in the industry.",
-      "derived": {
-        "current_role": "Global Strategist for Economics and Markets at Robo Banks"
-      },
-      "infobox": {
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Michael Every is recognized for his exceptional track record in translating political statements into market implications. As a Global Strategist for Economics and Markets at Robo Banks, he provides valuable insights to professional finance, high-net worth individuals, family offices, and sophisticated investors. His expertise in macroeconomics and geopolitical analysis has made him a sought-after commentator in the world of finance.",
-        "Every's ability to dissect complex political situations and predict their impact on the market has earned him a reputation as a trusted voice in the industry."
-      ],
-      "sections": [
-        {
-          "heading": "Macroeconomics",
-          "body": "Michael Every is known for his expertise in macroeconomics, providing insights into the broader implications of political and economic events on the global market."
-        },
-        {
-          "heading": "Geopolitical Analysis",
-          "body": "Every's geopolitical analysis is highly regarded, as he is able to dissect complex political situations and predict their impact on the market."
-        },
-        {
-          "heading": "Market Implications",
-          "body": "His ability to translate political statements into market implications has made him a trusted voice in the world of finance, providing valuable insights to investors and financial professionals."
-        }
-      ]
-    },
-    "net_worth": "$70.00B"
   }
 ]
 };

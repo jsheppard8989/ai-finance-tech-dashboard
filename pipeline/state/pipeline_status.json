@@ -1,96 +1,14 @@
 {
-  "last_updated": "2026-03-31T22:02:25.339001",
+  "last_updated": "2026-04-01T05:07:56.353854",
   "episodes": {
-    "moonshots_with_peter_diamandis_uber_ceo_on_winning_the_robota": {
-      "info": {
-        "podcast": "Moonshots with Peter Diamandis",
-        "title": "Uber CEO on Winning the Robotaxi Race, the End of Car Ownership, and Uber\u2019s Next $1 Trillion Bet | Dara Khosrowshahi (Uber CEO) | 243",
-        "published": "2026-03-31",
-        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/moonshots_with_peter_diamandis_uber_ceo_on_winning_the_robotaxi_race__the_end_of_car_owners_c56bf3b8.mp3",
-        "keywords": [],
-        "rss_guid": "2adc0e56-2d01-11f1-8068-0b47832ad1d1"
-      },
-      "stages": {
-        "downloaded": {
-          "complete": true,
-          "timestamp": null,
-          "reason": null
-        },
-        "transcribed": {
-          "complete": false,
-          "file": null,
-          "timestamp": null,
-          "reason": "Waiting for fetch/transcribe step"
-        },
-        "analyzed": {
-          "complete": false,
-          "episode_id": null,
-          "timestamp": null,
-          "reason": "Waiting for next analyze run (transcript \u2192 DB)."
-        },
-        "insight_created": {
-          "complete": false,
-          "timestamp": null,
-          "reason": "Depends on analyze step first."
-        },
-        "published": {
-          "complete": false,
-          "timestamp": null,
-          "reason": "Not in data.js yet (run export and push to site)."
-        }
-      },
-      "first_seen": "2026-03-31T22:02:25.196622",
-      "status": "needs_transcription"
-    },
-    "monetary_matters_with_jack_farley_the_psychology_of_market_champ": {
-      "info": {
-        "podcast": "Monetary Matters with Jack Farley",
-        "title": "The Psychology of Market Champions: Inside the Minds of Point 72 & Citadel Portfolio Managers | Dr. Gio Valiante",
-        "published": "2026-03-31",
-        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/monetary_matters_with_jack_farley_the_psychology_of_market_champions__inside_the_minds_of_poin_eaf85999.mp3",
-        "keywords": [],
-        "rss_guid": "e294b772-2c9e-11f1-86c1-17f29a67e089"
-      },
-      "stages": {
-        "downloaded": {
-          "complete": true,
-          "timestamp": null,
-          "reason": null
-        },
-        "transcribed": {
-          "complete": false,
-          "file": null,
-          "timestamp": null,
-          "reason": "Waiting for fetch/transcribe step"
-        },
-        "analyzed": {
-          "complete": false,
-          "episode_id": null,
-          "timestamp": null,
-          "reason": "Waiting for next analyze run (transcript \u2192 DB)."
-        },
-        "insight_created": {
-          "complete": false,
-          "timestamp": null,
-          "reason": "Depends on analyze step first."
-        },
-        "published": {
-          "complete": false,
-          "timestamp": null,
-          "reason": "Not in data.js yet (run export and push to site)."
-        }
-      },
-      "first_seen": "2026-03-31T22:02:25.261350",
-      "status": "needs_transcription"
-    },
-    "the_a16z_show_how_radiant_and_heron_are_reth": {
+    "the_a16z_show_what_happens_when_a_public_com": {
       "info": {
         "podcast": "The a16z Show",
-        "title": "How Radiant and Heron Are Rethinking Power Generation and Delivery",
-        "published": "2026-03-31",
-        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_how_radiant_and_heron_are_rethinking_power_generation_and_de_709e5b8a.mp3",
+        "title": "What Happens When a Public Company Goes All In on AI",
+        "published": "2026-04-01",
+        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_what_happens_when_a_public_company_goes_all_in_on_ai_574dbc1b.mp3",
         "keywords": [],
-        "rss_guid": "e5599dec-87e3-42aa-a4d8-13035ed10d2c"
+        "rss_guid": "36dd6e38-bd6d-4283-975a-b386e4a2f86c"
       },
       "stages": {
         "downloaded": {
@@ -121,89 +39,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-31T22:02:25.281237",
-      "status": "needs_transcription"
-    },
-    "the_a16z_show_chris_dixon:_from_quant_tradin": {
-      "info": {
-        "podcast": "The a16z Show",
-        "title": "Chris Dixon: From Quant Trading to Building a16z Crypto",
-        "published": "2026-03-02",
-        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_chris_dixon__from_quant_trading_to_building_a16z_crypto_be2e5b4b.mp3",
-        "keywords": [],
-        "rss_guid": "1a7873e6-52cf-493d-a1a1-360a49324923"
-      },
-      "stages": {
-        "downloaded": {
-          "complete": true,
-          "timestamp": null,
-          "reason": null
-        },
-        "transcribed": {
-          "complete": true,
-          "file": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/the_a16z_show_chris_dixon__from_quant_trading_to_building_a16z_crypto_be2e5b4b.txt",
-          "timestamp": null,
-          "reason": null
-        },
-        "analyzed": {
-          "complete": false,
-          "episode_id": null,
-          "timestamp": null,
-          "reason": "Analysis failed: analysis_error"
-        },
-        "insight_created": {
-          "complete": false,
-          "timestamp": null,
-          "reason": "Depends on analyze step first."
-        },
-        "published": {
-          "complete": false,
-          "timestamp": null,
-          "reason": "Not in data.js yet (run export and push to site)."
-        }
-      },
-      "first_seen": "2026-03-31T22:02:25.301416",
-      "status": "blocked_analysis"
-    },
-    "the_jack_mallers_show_they're_lying_to_you._again._s": {
-      "info": {
-        "podcast": "The Jack Mallers Show",
-        "title": "They're Lying to You. Again. Stay Humble & Stack Sats.",
-        "published": "2026-03-31",
-        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/the_jack_mallers_show_they_re_lying_to_you__again__stay_humble___stack_sats__68a7e5b7.mp3",
-        "keywords": [],
-        "rss_guid": "da26f3a3-1a08-43dc-bea4-0b3f9414f50d"
-      },
-      "stages": {
-        "downloaded": {
-          "complete": true,
-          "timestamp": null,
-          "reason": null
-        },
-        "transcribed": {
-          "complete": false,
-          "file": null,
-          "timestamp": null,
-          "reason": "Waiting for fetch/transcribe step"
-        },
-        "analyzed": {
-          "complete": false,
-          "episode_id": null,
-          "timestamp": null,
-          "reason": "Waiting for next analyze run (transcript \u2192 DB)."
-        },
-        "insight_created": {
-          "complete": false,
-          "timestamp": null,
-          "reason": "Depends on analyze step first."
-        },
-        "published": {
-          "complete": false,
-          "timestamp": null,
-          "reason": "Not in data.js yet (run export and push to site)."
-        }
-      },
-      "first_seen": "2026-03-31T22:02:25.318728",
+      "first_seen": "2026-04-01T05:07:56.291261",
       "status": "needs_transcription"
     }
   }

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-03-31T22:02:25.192826",
-  "last_updated": "2026-03-31T22:02:25.192826",
-  "last_pipeline_run": "2026-03-31T22:02:25.192826",
+  "generated_at": "2026-04-01T05:07:56.288073",
+  "last_updated": "2026-04-01T05:07:56.288073",
+  "last_pipeline_run": "2026-04-01T05:07:56.288073",
   "main_page": {
     "overton": 8,
     "insights": 8,
@@ -9,111 +9,29 @@
   },
   "counts": {
     "ticker_mentions": 148,
-    "podcast_episodes": 100,
+    "podcast_episodes": 104,
     "newsletters": 7,
     "daily_scores": 86,
     "overton_terms_total": 16,
-    "latest_insights_total": 114,
+    "latest_insights_total": 118,
     "today_mentions": {},
-    "podcasts_analyzed": 3
+    "podcasts_analyzed": 4
   },
   "step_results": {
-    "downloaded": 1,
-    "transcribed": 1,
-    "analyzed": 1,
-    "insight_created": 1,
-    "published": 1,
-    "total": 5
+    "downloaded": 0,
+    "transcribed": 0,
+    "analyzed": 0,
+    "insight_created": 0,
+    "published": 0,
+    "total": 1
   },
   "episodes": [
     {
-      "id": "2adc0e56-2d01-11f1-8068-0b47832ad1d1",
-      "podcast": "Moonshots with Peter Diamandis",
-      "title": "Uber CEO on Winning the Robotaxi Race, the End of Car Ownership, and Uber\u2019s Next $1 Trillion Bet | Dara Khosrowshahi (Uber CEO) | 243",
-      "published": "2026-03-31",
-      "rss_guid": "2adc0e56-2d01-11f1-8068-0b47832ad1d1",
-      "stages": {
-        "downloaded": false,
-        "transcribed": false,
-        "analyzed": false,
-        "insight_created": false,
-        "published": false
-      },
-      "stage_reasons": {
-        "downloaded": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "transcribed": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "analyzed": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "insight_created": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
-      },
-      "status": "needs_download"
-    },
-    {
-      "id": "e294b772-2c9e-11f1-86c1-17f29a67e089",
-      "podcast": "Monetary Matters with Jack Farley",
-      "title": "The Psychology of Market Champions: Inside the Minds of Point 72 & Citadel Portfolio Managers | Dr. Gio Valiante",
-      "published": "2026-03-31",
-      "rss_guid": "e294b772-2c9e-11f1-86c1-17f29a67e089",
-      "stages": {
-        "downloaded": false,
-        "transcribed": false,
-        "analyzed": false,
-        "insight_created": false,
-        "published": false
-      },
-      "stage_reasons": {
-        "downloaded": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "transcribed": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "analyzed": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "insight_created": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
-      },
-      "status": "needs_download"
-    },
-    {
-      "id": "e5599dec-87e3-42aa-a4d8-13035ed10d2c",
+      "id": "36dd6e38-bd6d-4283-975a-b386e4a2f86c",
       "podcast": "The a16z Show",
-      "title": "How Radiant and Heron Are Rethinking Power Generation and Delivery",
-      "published": "2026-03-31",
-      "rss_guid": "e5599dec-87e3-42aa-a4d8-13035ed10d2c",
-      "stages": {
-        "downloaded": false,
-        "transcribed": false,
-        "analyzed": false,
-        "insight_created": false,
-        "published": false
-      },
-      "stage_reasons": {
-        "downloaded": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "transcribed": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "analyzed": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "insight_created": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
-      },
-      "status": "needs_download"
-    },
-    {
-      "id": "1a7873e6-52cf-493d-a1a1-360a49324923",
-      "podcast": "The a16z Show",
-      "title": "the a16z show chris dixon from quant trading to building a16z crypto be2e5b4b",
-      "published": "2026-03-02",
-      "rss_guid": "1a7873e6-52cf-493d-a1a1-360a49324923",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "status": "complete"
-    },
-    {
-      "id": "da26f3a3-1a08-43dc-bea4-0b3f9414f50d",
-      "podcast": "The Jack Mallers Show",
-      "title": "They're Lying to You. Again. Stay Humble & Stack Sats.",
-      "published": "2026-03-31",
-      "rss_guid": "da26f3a3-1a08-43dc-bea4-0b3f9414f50d",
+      "title": "What Happens When a Public Company Goes All In on AI",
+      "published": "2026-04-01",
+      "rss_guid": "36dd6e38-bd6d-4283-975a-b386e4a2f86c",
       "stages": {
         "downloaded": false,
         "transcribed": false,
@@ -133,31 +51,10 @@
   ],
   "available_from_rss": [
     {
-      "podcast": "Moonshots with Peter Diamandis",
-      "title": "Uber CEO on Winning the Robotaxi Race, the End of Car Ownership, and Uber\u2019s Next $1 Trillion Bet | Dara Khosrowshahi (Uber CEO) | 243",
-      "published": "Tue, 31 Mar 2026 15:00:00 -0000",
-      "published_date": "2026-03-31",
-      "rss_guid": ""
-    },
-    {
-      "podcast": "Monetary Matters with Jack Farley",
-      "title": "The Psychology of Market Champions: Inside the Minds of Point 72 & Citadel Portfolio Managers | Dr. Gio Valiante",
-      "published": "Tue, 31 Mar 2026 13:00:00 -0000",
-      "published_date": "2026-03-31",
-      "rss_guid": ""
-    },
-    {
       "podcast": "The a16z Show",
-      "title": "How Radiant and Heron Are Rethinking Power Generation and Delivery",
-      "published": "Tue, 31 Mar 2026 10:04:03 +0000",
-      "published_date": "2026-03-31",
-      "rss_guid": ""
-    },
-    {
-      "podcast": "The Jack Mallers Show",
-      "title": "They're Lying to You. Again. Stay Humble & Stack Sats.",
-      "published": "Tue, 31 Mar 2026 07:12:52 GMT",
-      "published_date": "2026-03-31",
+      "title": "What Happens When a Public Company Goes All In on AI",
+      "published": "Wed, 1 Apr 2026 10:00:00 +0000",
+      "published_date": "2026-04-01",
       "rss_guid": ""
     }
   ],

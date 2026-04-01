@@ -1,5 +1,76 @@
 [
   {
+    "id": 129,
+    "podcast_name": "The Jack Mallers Show",
+    "episode_title": "They're Lying to You. Again. Stay Humble & Stack Sats.",
+    "episode_date": "2026-03-31",
+    "summary": "In this episode of The Jack Mallers Show, Jack discusses the current state of Bitcoin and the global economic situation. He highlights the importance of supply chain openness, the dependency of the United States on global markets, and the potential consequences of continued closures. Jack also touches on the impact of oil prices, the S&P 500 performance, and the broader implications for financial markets. Additionally, he shares personal insights on dealing with public scrutiny and the importance of focusing on genuine relationships and self-worth.",
+    "key_takeaways": [
+      "Bitcoin's market cap is at $1.34 trillion, and the price is $6,770.",
+      "The US is reliant on global supply chains and is not self-sufficient, which poses a risk if these remain closed.",
+      "Jack is concerned about the potential for escalating conflicts, rising oil prices, and market instability.",
+      "He emphasizes the importance of not being swayed by public opinion and focusing on genuine relationships.",
+      "Jack shares his personal journey and the importance of resilience in the face of public and investor scrutiny."
+    ],
+    "investment_thesis": "The core thesis presented is the importance of supply chain openness for the US economy and the potential negative impacts of continued closures on financial markets, with a particular focus on Bitcoin as a potential hedge.",
+    "key_tickers": null
+  },
+  {
+    "id": 128,
+    "podcast_name": "Moonshots with Peter Diamandis",
+    "episode_title": "Uber CEO on Winning the Robotaxi Race, the End of Car Ownership, and Uber\u2019s Next $1 Trillion Bet | Dara Khosrowshahi (Uber CEO) | 243",
+    "episode_date": "2026-03-31",
+    "summary": "In this episode of 'Moonshots with Peter Diamandis', the discussion revolves around the burgeoning autonomous vehicle industry and Uber's strategic positioning within it. The guest, who has played a pivotal role in turning around Uber's financials, shares insights on the company's focus on autonomous technology, the hybrid model of human-driven and autonomous fleets, and the global market dynamics affecting the adoption of self-driving cars. The conversation also touches on the cultural and operational challenges of running a tech-driven company like Uber and the future implications of autonomous vehicles on urban mobility and delivery services.",
+    "key_takeaways": [
+      "Uber has transitioned from a $4.5 billion annual loss to earning over $10 billion annually.",
+      "Autonomous vehicles are becoming a reality, with a hybrid model expected to emerge where both human-driven and autonomous vehicles coexist.",
+      "The guest predicts that within 10 years, every new car sold will have autonomous driving software.",
+      "Autonomous technology is anticipated to significantly reduce the cost of trips and increase safety.",
+      "Developing markets may take longer to adopt autonomous vehicles due to various factors.",
+      "The Middle East and Europe are seen as regions that are particularly open to adopting autonomous vehicles."
+    ],
+    "investment_thesis": "Investment in autonomous vehicle technology is poised to disrupt urban mobility and logistics, with companies like Uber positioned to capitalize on this shift.",
+    "key_tickers": [
+      "UBER"
+    ]
+  },
+  {
+    "id": 127,
+    "podcast_name": "The a16z Show",
+    "episode_title": "How Radiant and Heron Are Rethinking Power Generation and Delivery",
+    "episode_date": "2026-03-31",
+    "summary": "The podcast discusses the challenges and innovations in the energy sector, focusing on the limitations of the current grid infrastructure and the need for new solutions. The conversation revolves around the increasing demand for electricity due to data centers, electrified transport, and industrialization, and how new power delivery methods are essential for economic growth and sustainable energy. Guests Doug Burnower, CEO of Radiant, and Andrew Beglinow, CEO of Heron, alongside A16Z General Partner Erin Price Wright, explore the potential of portable nuclear reactors and solid-state power electronics in transforming the grid from the edge.",
+    "key_takeaways": [
+      "The U.S. electricity demand is rising for the first time in decades, driven by data centers, electrified transport, and industrialization.",
+      "Delivery, not new generation, is the bottleneck in the current energy infrastructure.",
+      "Portable nuclear reactors and solid-state power electronics are two innovative responses to the energy delivery challenge.",
+      "The grid's architecture needs to evolve to support bi-directional power flow and dynamic control, moving from a centralized to an edge-based model.",
+      "Data centers can play a role in stabilizing the grid with modern power electronics and energy storage.",
+      "The increasing presence of data centers can actually lower the average cost of electricity delivery due to their consistent high power consumption."
+    ],
+    "investment_thesis": "Investing in companies that innovate in energy delivery and grid infrastructure can lead to significant returns as the demand for electricity increases and the need for a more efficient and sustainable grid becomes critical.",
+    "key_tickers": null
+  },
+  {
+    "id": 126,
+    "podcast_name": "Monetary Matters with Jack Farley",
+    "episode_title": "The Psychology of Market Champions: Inside the Minds of Point 72 & Citadel Portfolio Managers | Dr. Gio Valiante",
+    "episode_date": "2026-03-31",
+    "summary": "In this episode of 'Other People's Money', host Matt interviews Dr. Geo Voliante, a performance coach for top hedge funds and athletes. They discuss the rise of hedge fund pods, the impact of regulation on the industry, and the challenges faced by smaller hedge funds. Dr. Geo emphasizes the importance of culture and environment on performance and compares hedge fund managers to 'investor athletes'. The conversation also touches on the adaptability of markets and hedge funds in the age of AI.",
+    "key_takeaways": [
+      "The rise of hedge fund pods and how they differ from traditional hedge funds.",
+      "The impact of regulation and policy on the cost of starting a hedge fund.",
+      "The challenges faced by smaller hedge funds in terms of compliance and resources.",
+      "The adaptability of markets and hedge funds, particularly smaller ones, in the age of AI.",
+      "The importance of culture and environment on the performance of hedge fund managers and athletes."
+    ],
+    "investment_thesis": "Investing in AI-enhanced ETFs like PQNT and PQUS can provide enhanced equity exposure in the current market environment.",
+    "key_tickers": [
+      "PQNT",
+      "PQUS"
+    ]
+  },
+  {
     "id": 123,
     "podcast_name": "The a16z Show",
     "episode_title": "Marc Andreessen on Evaluating Founders and AI's Consumer Surplus",

@@ -17169,3 +17169,532 @@ ModuleNotFoundError: No module named 'yfinance'
 ============================================================
 STEP: Auto-Curate Terms
 ============================================================
+ing market countries in a currency that is not their local currency, often the ...
+
+• Information Revolution
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A period of rapid change in how information is produced, disseminated, and consumed, often driven by...
+
+• Peer Review
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A process where scholars or experts in a field review each other's work to ensure accuracy and valid...
+
+• Dollar Naparne Run
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A term used by Rupert Mitchell to describe a scenario where the US dollar experiences a significant ...
+
+• Data Lakes
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: Large repositories of data used for advanced analytics and machine learning....
+
+• AI Adjacent
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: Industries or companies that are related to or benefit from the growth and development of artificial...
+
+• SaaS
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: Software as a Service, a software distribution model in which a third-party provider hosts applicati...
+
+• Strangulation as a Service
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A term used to describe the desire for enterprise software to simplify complex user interfaces and r...
+
+• Angel Investing
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: The practice of affluent individuals providing capital to startups in exchange for ownership equity ...
+
+• Crypto Practice
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A dedicated investment focus within a venture capital firm that specializes in cryptocurrencies and ...
+
+• Disaggregated Computing
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A computing approach where different parts of a processing pipeline run on different types of hardwa...
+
+• Open-Source AI Models
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: AI models that are publicly accessible and modifiable, fostering innovation and collaboration in the...
+
+• Privacy-Focused Cryptocurrencies
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: Cryptocurrencies that prioritize user privacy and anonymity, often using advanced cryptographic tech...
+
+• Quantum Resistance
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: The ability of a cryptographic system to remain secure against an attack by a quantum computer....
+
+• J-curve
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A pattern in private equity where the value of investments is initially lower than the cost, but is ...
+
+• Evergreen Vehicles
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: Investment funds that do not have a fixed termination date and can continue to operate indefinitely,...
+
+• Skaled Stove phenomenon
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A concept in venture capital where an investor carries the scar of a past failure in a category into...
+
+✓ Auto-Curate Terms completed
+
+============================================================
+STEP: Extract Podcast Guests
+============================================================
+============================================================
+Extract Podcast Guests
+============================================================
+Processing 98 processed episodes
+  ✓ This special episode ← All-In Podcast (2026-03-28)
+  ✓ Lupin Ramon ← Monetary Matters with Jack Farley (2026-03-27)
+  ✓ When the Music Stops ← The Jack Mallers Show (2026-03-24)
+  ✓ Ground Infrastructure ← The a16z Show (2026-03-23)
+  ✓ Rory Johnston ← Monetary Matters with Jack Farley (2026-03-19)
+  ✓ Senator John Fetterman on Voting Rights ← All-In with Chamath, Jason, Sacks & Friedberg (2026-03-18)
+  ✓ Stock Market on Shaky Foundations ← Monetary Matters with Jack Farley (2026-03-18)
+  ✓ Elon Musk on Moonshots ← Moonshots with Peter Diamandis (2026-03-17)
+  ✓ Investing in Capitalism ← All-In with Chamath, Jason, Sacks & Friedberg (2026-03-13)
+  ✓ Harvard Professor Graham Allison ← All-In with Chamath, Jason, Sacks & Friedberg (2026-03-09)
+  ✓ Andrew Yang ← Moonshots with Peter Diamandis (2026-03-07)
+  ✓ Inventing the Renaissance ← Dwarkesh Podcast (2026-03-06)
+  ✓ Ray Dalio ← All-In with Chamath, Jason, Sacks & Friedberg (2026-03-03)
+  ✓ Nobel Prize-winning economist Paul Krugman ← Monetary Matters with Jack Farley (2026-02-19)
+  ✓ host Jack Mallers ← The Jack Mallers Show (2026-02-19)
+  ✓ Ben Horowitz ← Moonshots with Peter Diamandis (2026-02-19)
+  ✓ Bosworth ← a16z Live (2026-02-15)
+  ✓ Milton Berg ← Monetary Matters with Jack Farley (2026-02-06)
+
+✓ Done. 18 guest(s) in database.
+
+✓ Extract Podcast Guests completed
+
+============================================================
+STEP: Export Website Data
+============================================================
+============================================================
+Exporting Website Data
+============================================================
+✓ Exported website data to /Users/jaredsheppard/.openclaw/workspace/site/data
+✓ Exported: {'ticker_scores': 48, 'podcast_summaries': 43, 'archive_items': 130, 'podcast_guests': 18, 'pundits': 20}
+🔍 Scanning podcast pipeline...
+
+
+================================================================================
+📊 PODCAST PIPELINE STATUS
+================================================================================
+
+📈 Pipeline Summary (5 total episodes tracked):
+  ✅ Downloaded:       5 / 5
+  ✅ Transcribed:      1 / 5
+  ✅ Analyzed:         0 / 5
+  ✅ Insight Created:  0 / 5
+  ✅ Published:        0 / 5
+
+🔍 Episodes Needing Attention:
+
+  📝 Pending Transcription (4):
+    - Uber CEO on Winning the Robotaxi Race, the End of 
+    - The Psychology of Market Champions: Inside the Min
+    - How Radiant and Heron Are Rethinking Power Generat
+    - They're Lying to You. Again. Stay Humble & Stack S
+
+  🔬 Pending Analysis (1):
+    - Chris Dixon: From Quant Trading to Building a16z C
+
+✅ Complete Episodes (All Stages):
+    (None yet)
+
+📅 Last Updated: 2026-03-31T22:02:25.339001
+📁 Status file: /Users/jaredsheppard/.openclaw/workspace/pipeline/state/pipeline_status.json
+================================================================================
+  ✓ Exported pipeline_state.json: 5 tracked
+
+============================================================
+Generating Website JavaScript
+============================================================
+✓ Generated data.js with 48 tickers, 130 archive items, 114 deep dives, 4 suggested terms, 18 legacy guests, 20 pundits; chartsVersion=2026-03-31T19:51:23.788673
+✓ Bumped data.js cache-buster to v=1775012548
+
+============================================================
+STEP: Push to GitHub
+============================================================
+✓ Pushed to GitHub: Pipeline update 2026-03-31 22:02: 0 podcasts, 0 insights, 0 newsletters
+Nothing new — skipping notification
+
+============================================================
+PIPELINE COMPLETE
+Finished: 2026-03-31 22:02:30.219261
+============================================================
+📊 Pipeline Complete
+
+
+🌐 Website updated
+2026-04-01T05:02:34-05:00 run_if_scheduled: in window, running pipeline
+============================================================
+AUTO PIPELINE
+Mode: full
+Started: 2026-04-01 05:02:35.044079
+============================================================
+
+============================================================
+STEP: Podcast Curation
+============================================================
+======================================================================
+Podcast Curation System
+======================================================================
+
+Found 7 podcast feeds
+
+Fetching episode metadata...
+  Fetching: https://feeds.megaphone.fm/DVVTS2890392624...
+    ✓ Moonshots with Peter Diamandis: 0 episodes
+  Fetching: https://feeds.megaphone.fm/EWWMN1909747317...
+    ✓ Monetary Matters with Jack Farley: 0 episodes
+  Fetching: https://feeds.simplecast.com/JGE3yC0V...
+    ✓ The a16z Show: 1 episodes
+  Fetching: https://rss.libsyn.com/shows/254861/destinations/1928300.xml...
+    ✓ All-In with Chamath, Jason, Sacks & Friedberg: 0 episodes
+  Fetching: https://anchor.fm/s/e29097f4/podcast/rss...
+    ✓ The Jack Mallers Show: 0 episodes
+  Fetching: https://feed.podbean.com/macrovoices/feed.xml...
+    ✓ Macro Voices: 0 episodes
+  Fetching: https://api.substack.com/feed/podcast/69345.rss...
+    ✓ Dwarkesh Podcast: 0 episodes
+
+  Total feed episodes (current month only: 2026-04): 1
+
+Matching audio files to episodes...
+  ✓ Episodes with matching audio: 0
+  ? Unmatched audio files (no matching feed episode): 43
+  📥 Episodes pending download before auto-download: 1
+
+Approving all episodes from feed list (feeds are pre-curated)...
+  ↓ Downloading audio: The a16z Show – What Happens When a Public Company Goes All In on AI
+  ✓ Downloaded audio for 1 approved episode(s)
+
+  APPROVED (will transcribe or download): 1
+  🎧 Approved episodes with audio after auto-download: 1
+
+======================================================================
+CURATION RESULTS
+======================================================================
+
+📌 APPROVED (will transcribe or download):
+
+  ✓ The a16z Show
+    Title: What Happens When a Public Company Goes All In on AI
+    File: the_a16z_show_what_happens_when_a_public_company_goes_all_in_on_ai_574dbc1b.mp3
+
+
+✓ Curation log saved: /Users/jaredsheppard/.openclaw/workspace/pipeline/state/curation_log.json
+
+======================================================================
+NEXT STEPS
+======================================================================
+
+1. Review approved episodes above
+2. To transcribe approved episodes, run:
+   python3 transcribe_curated.py
+
+3. Or manually transcribe specific files (only for episodes that have audio):
+   whisper 'the_a16z_show_what_happens_when_a_public_company_goes_all_in_on_ai_574dbc1b.mp3' --model tiny --language en
+
+✓ Podcast Curation completed
+
+============================================================
+STEP: Fetch & Transcribe
+============================================================
+======================================================================
+Fetch & Transcribe Latest Podcast Episodes
+======================================================================
+  ✓ Swept 8 completed transcript file(s) from whisper_done into transcripts
+
+Found 7 podcast feeds
+
+📻 Processing: https://feeds.megaphone.fm/DVVTS2890392624...
+  ⏭ Skipping 'Uber CEO on Winning the Robotaxi Race, the End of ' — published 2026-03-31 (not in current month)
+  ✗ No episode found
+
+📻 Processing: https://feeds.megaphone.fm/EWWMN1909747317...
+  ⏭ Skipping 'The Psychology of Market Champions: Inside the Min' — published 2026-03-31 (not in current month)
+  ✗ No episode found
+
+📻 Processing: https://feeds.simplecast.com/JGE3yC0V...
+  📋 Latest: What Happens When a Public Company Goes All In on AI...
+  ⬇️  Downloading: the_a16z_show_20260401_36dd6e38_bd6d_4283_975a_b386e4a2.mp3
+     Title: What Happens When a Public Company Goes All In on AI...
+     ✓ Downloaded to /Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_20260401_36dd6e38_bd6d_4283_975a_b386e4a2.mp3
+  🎙️  Transcribing: the_a16z_show_20260401_36dd6e38_bd6d_4283_975a_b386e4a2.mp3
+  📥 Submitted to whisper queue: the_a16z_show_20260401_36dd6e38_bd6d_4283_975a_b386e4a2.mp3
+  ⏭ Queue-only mode: not waiting. Run pipeline again after worker finishes.
+
+📻 Processing: https://rss.libsyn.com/shows/254861/destinations/1...
+  ⏭ Skipping 'Anthropic's Generational Run, OpenAI Panics, AI Mo' — published 2026-03-27 (not in current month)
+  ✗ No episode found
+
+📻 Processing: https://anchor.fm/s/e29097f4/podcast/rss...
+  ⏭ Skipping 'They're Lying to You. Again. Stay Humble & Stack S' — published 2026-03-31 (not in current month)
+  ✗ No episode found
+
+📻 Processing: https://feed.podbean.com/macrovoices/feed.xml...
+  ⏭ Skipping 'MacroVoices #525 Lyn Alden: Iran Contagion, Inflat' — published 2026-03-26 (not in current month)
+  ✗ No episode found
+
+📻 Processing: https://api.substack.com/feed/podcast/69345.rss...
+  ⏭ Skipping 'Terence Tao – Kepler, Newton, and the true nature ' — published 2026-03-20 (not in current month)
+  ✗ No episode found
+
+✓ Log saved: /Users/jaredsheppard/.openclaw/workspace/pipeline/state/fetch_log.json
+
+======================================================================
+SUMMARY
+======================================================================
+Total feeds: 7
+Successfully transcribed: 0
+Failed: 1
+
+Completed episodes:
+
+
+Next step: Run 'python3 research.py' to analyze transcripts
+
+✓ Fetch & Transcribe completed
+
+============================================================
+STEP: Newsletter Ingestion
+============================================================
+==================================================
+Newsletter Ingestion Pipeline
+==================================================
+
+Connecting to Gmail...
+Connecting to Gmail at imap.gmail.com:993...
+Logging in as jsheppard8989@gmail.com...
+Selecting folder: NEWSLETTERS...
+Found 0 unread emails
+
+No emails fetched from Gmail.
+
+✓ Processed 0 emails
+
+Files saved to: /Users/jaredsheppard/.openclaw/workspace/pipeline/inbox
+
+Next step: Run analysis to score stock mentions
+
+✓ Newsletter Ingestion completed
+
+============================================================
+STEP: Transcript AI Analysis
+============================================================
+  ⚠ Google Generative AI library not installed. Run: pip install google-generativeai
+
+============================================================
+Processing Podcast Transcripts with AI
+============================================================
+  Using Moonshot/Kimi API
+Found 102 transcript files
+  Processing e3c75a06762af10f374661e8af1d1af6.txt...
+    ⏭ Episode already in database (duplicate), skipping
+  Processing EWWMN8300847104.txt...
+    ✓ Added episode (ID: 126)
+    + Emerging term: Investor Athletes
+    + Emerging term: Hedge Fund Pods
+    ⚠ Failed to add mention for PQNT: CHECK constraint failed: timeframe IN ('short_term', 'long_term', 'unspecified')
+    ⚠ Failed to add mention for PQUS: CHECK constraint failed: timeframe IN ('short_term', 'long_term', 'unspecified')
+    ✓ Added 0 ticker mentions
+  Processing dario_amodei.txt...
+    ⏭ Too short, skipping
+  Processing the_a16z_show_20260331_e5599dec_87e3_42aa_a4d8_13035ed1.txt...
+    ✓ Added episode (ID: 127)
+    + Emerging term: Portable Nuclear Reactors
+    + Emerging term: Solid-State Power Electronics
+    + Emerging term: Edge-Based Grid Architecture
+    ✓ Added 0 ticker mentions
+  Processing DVVTS1715367944.txt...
+    ✓ Added episode (ID: 128)
+    + Emerging term: Autonomous Vehicles
+    + Emerging term: Hybrid Fleets
+    ⚠ Failed to add mention for UBER: CHECK constraint failed: timeframe IN ('short_term', 'long_term', 'unspecified')
+    ✓ Added 0 ticker mentions
+  Processing DVVTS5786783285.txt...
+    ⏭ Episode 'Ben Horowitz: xAI Executive Exodus, Ilya's $5B SSI Valuation...' already in database, skipping
+  Processing moonshots_with_peter_diamandis_meta_buys_moltbook__gpt_5_4__and_fruitfly_brain_upload___moo_609f0b8d.txt...
+    ⏭ Episode already in database (duplicate), skipping
+  Processing elon_musk.txt...
+    ⏭ Too short, skipping
+  Processing https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-2-31%2F421105041-44100-2-432f3d79852fe.txt...
+    ✓ Added episode (ID: 129)
+    + Emerging term: Stack Sats
+    ✓ Added 0 ticker mentions
+  Processing DVVTS6372073266.txt...
+    ⏭ Episode already in database (duplicate), skipping
+  Processing DVVTS3579530070.txt...
+    ⏭ Episode already in database (duplicate), skipping
+
+✓ Transcript processing complete: 4 new, 91 skipped, 0 errors
+✓ Analyzed 4 new transcripts
+
+============================================================
+STEP: Newsletter Import
+============================================================
+✓ Total newsletters imported: 0
+
+============================================================
+STEP: Promote Episodes to Insights
+============================================================
+Found 4 processed episodes not yet in insights
+  ✓ Promoted: 'They're Lying to You. Again. Stay Humble & Stack Sats.' (sentiment=neutral)
+  ✓ Promoted: 'Uber CEO on Winning the Robotaxi Race, the End of Car Owners' (sentiment=neutral)
+  ✓ Promoted: 'How Radiant and Heron Are Rethinking Power Generation and De' (sentiment=bullish)
+  ✓ Promoted: 'The Psychology of Market Champions: Inside the Minds of Poin' (sentiment=neutral)
+  ✓ Auto-archived 4 older insights
+✓ Promoted 4 new insight(s) to website
+
+============================================================
+STEP: Promote Newsletters to Insights
+============================================================
+Found 0 newsletters not yet on site
+
+============================================================
+STEP: Aggregate Daily Scores
+============================================================
+✓ Saved 0 daily scores
+  Using Moonshot/Kimi API
+  Using Moonshot/Kimi API
+  Using Moonshot/Kimi API
+  Using Moonshot/Kimi API
+  Using Moonshot/Kimi API
+✓ Enriched 7 pundit(s) (LLM/Grokipedia profile + net worth + optional Grok)
+
+============================================================
+STEP: Generate Deep Dives
+============================================================
+Generating Deep Dives for 4 insights...
+
+  Using Moonshot/Kimi API
+[141] They're Lying to You. Again. Stay Humble & Stack Sats.
+  ✓ Deep Dive stored
+[142] Uber CEO on Winning the Robotaxi Race, the End of Car Owners
+  ✓ Deep Dive stored
+[143] How Radiant and Heron Are Rethinking Power Generation and De
+  ✓ Deep Dive stored
+[144] The Psychology of Market Champions: Inside the Minds of Poin
+  ✓ Deep Dive stored
+
+✓ Generated 4/4 Deep Dives
+
+✓ Generate Deep Dives completed
+
+============================================================
+STEP: Fetch Prices
+============================================================
+10.35%)
+  Fetching MINE... $3.10 (-11.57%)
+  Fetching MSFT... $370.17 (-7.89%)
+  Fetching MSTR... $124.80 (-9.13%)
+  Fetching NEE... $92.88 (+1.25%)
+  Fetching NINT...     Error fetching NINT: HTTP Error 404: Not Found
+Failed
+  Fetching NOC... $682.24 (-7.34%)
+  Fetching NOW... $104.55 (-7.45%)
+  Fetching NVDA... $174.40 (-4.77%)
+  Fetching Nasdaq... $577.18 (-3.36%)
+  Fetching OKLO... $49.59 (-16.78%)
+  Fetching OPENAI...     Error fetching OPENAI: HTTP Error 404: Not Found
+Failed
+  Fetching PALL... $134.71 (-8.39%)
+  Fetching PLTM... $18.91 (-7.89%)
+  Fetching PLTR... $146.28 (-4.70%)
+  Fetching PQNT... $21.06 (-0.60%)
+  Fetching PQT... $0.00 (+0.00%)
+  Fetching PQUS... $24.10 (-1.97%)
+  Fetching PYPL... $45.23 (+1.96%)
+  Fetching QQQ... $577.18 (-3.36%)
+  Fetching Russell... $248.00 (+0.24%)
+  Fetching S&P... $650.34 (-2.36%)
+  Fetching S&P 500... $650.34 (-2.36%)
+  Fetching SF... $73.92 (+4.38%)
+  Fetching SLV... $68.14 (-10.90%)
+  Fetching SMP-500...     Error fetching SMP-500: HTTP Error 404: Not Found
+Failed
+  Fetching SMR... $10.84 (-7.82%)
+  Fetching SNAP... $4.60 (-1.08%)
+  Fetching SNWGF... $9.96 (-24.17%)
+  Fetching SOYB... $24.40 (-1.77%)
+  Fetching SPACEX...     Error fetching SPACEX: HTTP Error 404: Not Found
+Failed
+  Fetching SPCE... $2.43 (-3.19%)
+  Fetching SPY... $650.34 (-2.36%)
+  Fetching SQ... Failed
+  Fetching SQQQ... $80.49 (+8.29%)
+  Fetching Semiconductors... $383.40 (-1.22%)
+  Fetching T... $28.99 (+5.84%)
+  Fetching TDOC... $5.45 (+1.68%)
+  Fetching THROPIC...     Error fetching THROPIC: HTTP Error 404: Not Found
+Failed
+  Fetching TLT... $86.69 (-0.32%)
+  Fetching TSLA... $371.75 (-5.89%)
+  Fetching TSM... $337.95 (+0.37%)
+  Fetching TWTR...     Error fetching TWTR: HTTP Error 404: Not Found
+Failed
+  Fetching UBER... $71.93 (-1.43%)
+  Fetching UNG... $11.73 (-10.05%)
+  Fetching URANIUM...     Error fetching URANIUM: HTTP Error 404: Not Found
+Failed
+  Fetching US 10 year Treasury...     Error fetching US 10 year Treasury: URL can't contain control characters. '/v8/finance/chart/US 
+Failed
+  Fetching US DOLLAR INDEX...     Error fetching US DOLLAR INDEX: URL can't contain control characters. '/v8/finance/chart/US 
+Failed
+  Fetching USO... $127.25 (+7.48%)
+  Fetching Uranium...     Error fetching Uranium: HTTP Error 404: Not Found
+Failed
+  Fetching V... $302.24 (-1.39%)
+  Fetching VEEV... $175.66 (-2.84%)
+  Fetching VIX... $24.69 (-9.19%)
+  Fetching WIT... $2.12 (-7.83%)
+  Fetching WMT... $124.28 (-0.84%)
+  Fetching WORK... Failed
+  Fetching WTBN... $25.30 (-0.17%)
+  Fetching WTI... $3.41 (-1.45%)
+  Fetching WTI CRUDE OIL...     Error fetching WTI CRUDE OIL: URL can't contain control characters. '/v8/finance/chart/WTI
+Failed
+  Fetching XAU-USD... $0.00 (+0.00%)
+  Fetching XOM... $169.66 (+10.51%)
+  Fetching ZEC... $0.00 (+0.00%)
+  Fetching ZEN...     Error fetching ZEN: HTTP Error 404: Not Found
+Failed
+
+✓ Saved 92 prices to /Users/jaredsheppard/.openclaw/workspace/site/price_data.json
+Finished: 2026-04-01 05:07:54.896196
+
+✓ Fetch Prices completed
+
+============================================================
+STEP: Generate Charts
+============================================================
+
+STDERR: Traceback (most recent call last):
+  File "/Users/jaredsheppard/.openclaw/workspace/pipeline/generate_charts.py", line 7, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+
+✗ Generate Charts failed
+
+============================================================
+STEP: Auto-Curate Terms
+============================================================

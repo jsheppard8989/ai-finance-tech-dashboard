@@ -1,72 +1,20 @@
 {
-  "timestamp": "2026-03-31T22:01:07.011563",
-  "total_feed_episodes": 5,
-  "approved_for_transcription": 5,
+  "timestamp": "2026-04-01T05:02:41.861629",
+  "total_feed_episodes": 1,
+  "approved_for_transcription": 1,
   "episodes": [
     {
-      "podcast": "Moonshots with Peter Diamandis",
-      "title": "Uber CEO on Winning the Robotaxi Race, the End of Car Ownership, and Uber\u2019s Next $1 Trillion Bet | Dara Khosrowshahi (Uber CEO) | 243",
-      "description": "\n        <p>This episode was filmed at the 2026 Abundance360 Summit. Learn more at <a href=\"https://www.abundance360.com/\"><u>https://www.abundance360.com/</u></a>\u00a0\u00a0</p>\n<p><br></p>\n<p>Dara Khosrowshahi joins to discuss the RoboTaxi race, Uber\u2019s hybrid strategy for autonomy, and how self-driving tech could reshape mobility, delivery, and city life.</p>\n<p><br></p>\n<p>Get access to metatrends 10+ years before anyone else - <a href=\"https://qr.diamandis.com/metatrends\"><u>https://qr.diamandis.com/",
-      "audio_url": "https://traffic.megaphone.fm/DVVTS1715367944.mp3",
-      "published": "Tue, 31 Mar 2026 15:00:00 -0000",
-      "published_date": "2026-03-31",
-      "rss_guid": "2adc0e56-2d01-11f1-8068-0b47832ad1d1",
-      "status": "APPROVED",
-      "matched_keywords": [],
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/moonshots_with_peter_diamandis_uber_ceo_on_winning_the_robotaxi_race__the_end_of_car_owners_c56bf3b8.mp3",
-      "filename": "moonshots_with_peter_diamandis_uber_ceo_on_winning_the_robotaxi_race__the_end_of_car_owners_c56bf3b8.mp3"
-    },
-    {
-      "podcast": "Monetary Matters with Jack Farley",
-      "title": "The Psychology of Market Champions: Inside the Minds of Point 72 & Citadel Portfolio Managers | Dr. Gio Valiante",
-      "description": "\n        <p>This episode is brought to you by Pictet\u2019s AI Enhanced Equity ETFs</p>\n<p><br></p>\n<p>Learn More about Pictet AI Enhanced US Equity ETF: https://etf.am.pictet.com/pqus/</p>\n<p><br></p>\n<p>Learn more about the Pictet AI Enhanced International Equity ETF ($PQNT): https://etf.am.pictet.com/pqnt/?utm_campaign=usetf&amp;cid=2715538577&amp;utm_source=jfmv&amp;utm_content=pqnt&amp;utm_medium=podcast_02&amp;utm_term=noterm </p>\n<p><br></p>\n<p>Join Max Wiethe on \"Other People's Money\" as he s",
-      "audio_url": "https://traffic.megaphone.fm/EWWMN8300847104.mp3",
-      "published": "Tue, 31 Mar 2026 13:00:00 -0000",
-      "published_date": "2026-03-31",
-      "rss_guid": "e294b772-2c9e-11f1-86c1-17f29a67e089",
-      "status": "APPROVED",
-      "matched_keywords": [],
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/monetary_matters_with_jack_farley_the_psychology_of_market_champions__inside_the_minds_of_poin_eaf85999.mp3",
-      "filename": "monetary_matters_with_jack_farley_the_psychology_of_market_champions__inside_the_minds_of_poin_eaf85999.mp3"
-    },
-    {
       "podcast": "The a16z Show",
-      "title": "How Radiant and Heron Are Rethinking Power Generation and Delivery",
-      "description": "<p>a16z general partners Erin Price-Wright and Erik Torenberg speak with Doug Bernauer, founder and CEO of Radiant, and Drew Baglino, founder and CEO of Heron, about rebuilding American energy infrastructure. They discuss portable micro nuclear reactors, solid state power electronics, why delivery rather than generation is the real bottleneck, the case for modular manufacturing, and whether data centers are actually good for the grid.</p>\n<p>\u00a0</p>\n<p>Resources:</p>\n<p>Follow Doug Bernauer on X: ",
-      "audio_url": "https://mgln.ai/e/1344/afp-848985-injected.calisto.simplecastaudio.com/3f86df7b-51c6-4101-88a2-550dba782de8/episodes/1f58eddc-8ef4-463e-9be7-5fc1f3f7f06f/audio/128/default.mp3?aid=rss_feed&awCollectionId=3f86df7b-51c6-4101-88a2-550dba782de8&awEpisodeId=1f58eddc-8ef4-463e-9be7-5fc1f3f7f06f&feed=JGE3yC0V",
-      "published": "Tue, 31 Mar 2026 10:04:03 +0000",
-      "published_date": "2026-03-31",
-      "rss_guid": "e5599dec-87e3-42aa-a4d8-13035ed10d2c",
+      "title": "What Happens When a Public Company Goes All In on AI",
+      "description": "<p>David Haber speaks with Owen Jennings, executive officer and business lead at Block, about how the company rebuilt itself around AI agents, small squads, and internal tools like Goose and Builder Bot after restructuring more than 40% of its workforce. They discuss what it took to execute a major restructuring, how teams of three are now doing what teams of 14 used to, and how Block is shipping AI-native products like Money Bot and Manager Bot that generate custom interfaces on the fly for ten",
+      "audio_url": "https://mgln.ai/e/1344/afp-848985-injected.calisto.simplecastaudio.com/3f86df7b-51c6-4101-88a2-550dba782de8/episodes/01039473-10d8-42eb-8894-b736a613aa14/audio/128/default.mp3?aid=rss_feed&awCollectionId=3f86df7b-51c6-4101-88a2-550dba782de8&awEpisodeId=01039473-10d8-42eb-8894-b736a613aa14&feed=JGE3yC0V",
+      "published": "Wed, 1 Apr 2026 10:00:00 +0000",
+      "published_date": "2026-04-01",
+      "rss_guid": "36dd6e38-bd6d-4283-975a-b386e4a2f86c",
       "status": "APPROVED",
       "matched_keywords": [],
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_how_radiant_and_heron_are_rethinking_power_generation_and_de_709e5b8a.mp3",
-      "filename": "the_a16z_show_how_radiant_and_heron_are_rethinking_power_generation_and_de_709e5b8a.mp3"
-    },
-    {
-      "podcast": "The a16z Show",
-      "title": "Chris Dixon: From Quant Trading to Building a16z Crypto",
-      "description": "<p>In this feed drop from the Internet History Podcast, host Brian McCullough speaks with Chris Dixon, general partner at a16z, about his path from 1980s hobbyist programmer to one of the most prominent venture capitalists in tech. Chris traces his career from quantitative finance to founding SiteAdvisor, cofounding Founder Collective, starting an early machine learning company, and eventually building a16z's crypto practice from the ground up. They also discuss his framework for spotting unconv",
-      "audio_url": "https://mgln.ai/e/1344/afp-848985-injected.calisto.simplecastaudio.com/3f86df7b-51c6-4101-88a2-550dba782de8/episodes/570e2e70-58d1-4291-aa63-e4512d6e78cf/audio/128/default.mp3?aid=rss_feed&awCollectionId=3f86df7b-51c6-4101-88a2-550dba782de8&awEpisodeId=570e2e70-58d1-4291-aa63-e4512d6e78cf&feed=JGE3yC0V",
-      "published": "Mon, 2 Mar 2026 11:00:00 +0000",
-      "published_date": "2026-03-02",
-      "rss_guid": "1a7873e6-52cf-493d-a1a1-360a49324923",
-      "status": "APPROVED",
-      "matched_keywords": [],
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_chris_dixon__from_quant_trading_to_building_a16z_crypto_be2e5b4b.mp3",
-      "filename": "the_a16z_show_chris_dixon__from_quant_trading_to_building_a16z_crypto_be2e5b4b.mp3"
-    },
-    {
-      "podcast": "The Jack Mallers Show",
-      "title": "They're Lying to You. Again. Stay Humble & Stack Sats.",
-      "description": "<p>Streaming live Mondays at 6pm ET on The Jack Mallers Show YouTube channel.</p>\n",
-      "audio_url": "https://anchor.fm/s/e29097f4/podcast/play/117729051/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-2-31%2F421105041-44100-2-432f3d79852fe.mp3",
-      "published": "Tue, 31 Mar 2026 07:12:52 GMT",
-      "published_date": "2026-03-31",
-      "rss_guid": "da26f3a3-1a08-43dc-bea4-0b3f9414f50d",
-      "status": "APPROVED",
-      "matched_keywords": [],
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/the_jack_mallers_show_they_re_lying_to_you__again__stay_humble___stack_sats__68a7e5b7.mp3",
-      "filename": "the_jack_mallers_show_they_re_lying_to_you__again__stay_humble___stack_sats__68a7e5b7.mp3"
+      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_what_happens_when_a_public_company_goes_all_in_on_ai_574dbc1b.mp3",
+      "filename": "the_a16z_show_what_happens_when_a_public_company_goes_all_in_on_ai_574dbc1b.mp3"
     }
   ]
 }

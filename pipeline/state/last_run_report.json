@@ -1,15 +1,15 @@
 {
-  "last_run_iso": "2026-03-31T05:05:42.401708",
+  "last_run_iso": "2026-03-31T22:02:30.219261",
   "step_results": {
-    "transcripts_analyzed": 1,
+    "transcripts_analyzed": 0,
     "newsletters_imported": 0,
-    "insights_promoted": 1,
+    "insights_promoted": 0,
     "scores": 0,
-    "pundits_enriched": 2
+    "pundits_enriched": 1
   },
   "counts": {
     "ticker_mentions": 148,
-    "podcast_episodes": 98,
+    "podcast_episodes": 100,
     "newsletters": 7,
     "daily_scores": 86,
     "overton_terms_total": 16,
