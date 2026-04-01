@@ -21,6 +21,8 @@ import json
 from datetime import datetime
 from typing import List, Optional, Tuple
 
+NET_WORTH_MIN_USD: float = 4_000_000.0
+
 try:
     import requests  # type: ignore
 except ImportError:
@@ -238,6 +240,9 @@ def _wikidata_net_worth_usd(entity_id: str) -> Tuple[Optional[float], Optional[s
             if unit and "Q4917" in unit:
                 if best_amount is None or amount > best_amount:
                     best_amount = amount
+        # Treat obviously tiny values as \"no reliable net worth\" for public UI.
+        if best_amount is not None and best_amount < NET_WORTH_MIN_USD:
+            return None, f"https://www.wikidata.org/wiki/{entity_id}"
         return best_amount, f"https://www.wikidata.org/wiki/{entity_id}"
     except Exception:
         return None, None
@@ -304,8 +309,12 @@ def fetch_net_worth_from_search(name: str, known_for: str = "") -> Tuple[Optiona
             desc = (r.get("description") or "").strip()
             url = (r.get("url") or "").strip()
             combined = f"{title}. {desc}"
+            text = combined.lower()
+            # Require explicit \"net worth\"-style context so we don't grab random price targets.
+            if "net worth" not in text and "worth an estimated" not in text and "estimated net worth" not in text:
+                continue
             amt = _parse_money_estimate_to_usd(combined)
-            if isinstance(amt, (int, float)) and amt > 0:
+            if isinstance(amt, (int, float)) and amt >= NET_WORTH_MIN_USD:
                 return float(amt), (url or "brave:web-search")
         return None, None
     except Exception:
@@ -516,7 +525,12 @@ def enrich_pundits(
                 or _profile_json_stale(str(g_fetched) if g_fetched else None, prof_json)
             )
             need_profile = not (len(bio) >= 40 and len(known_for) >= 20)
-            need_net_worth = not (isinstance(net_worth_usd, (int, float)) and net_worth_usd > 0 and net_worth_source)
+            # Refresh if missing, source missing, or obviously too small to be reasonable.
+            need_net_worth = not (
+                isinstance(net_worth_usd, (int, float))
+                and net_worth_usd >= NET_WORTH_MIN_USD
+                and net_worth_source
+            )
             need_voice = not (voice_tone and voice_style and voice_notes)
 
             if grokipedia_only:

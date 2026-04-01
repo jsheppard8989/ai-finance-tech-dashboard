@@ -1683,14 +1683,21 @@
             <div id="formStatus" class="form-status" style="display: none;"></div>
           </div>
         </div>
+
+        <!-- Alpha or Atrophy moved into left column -->
+        <div class="card" style="margin-top: 1.5rem;">
+          <h2 style="font-size: 1.3rem;">Alpha or atrophy</h2>
+          <p style="color: #8892b0; margin-bottom: 1rem; font-size: 0.8rem;">Ranked themes from mention volume, conviction, how many sources agree, and contrarian flags. <strong>Tap a row for a chart.</strong></p>
+          <div class="stock-grid" id="tickerGrid"></div>
+        </div>
       </div>
 
-      <!-- Middle Column - Insights & Stock Data -->
+      <!-- Middle Column - Insights -->
       <div class="middle-col">
         <!-- Latest Insights -->
         <div class="card">
           <h2>Latest insights</h2>
-          <p style="color: #6b7280; font-size: 0.8rem; margin-bottom: 1rem;">Short takeaways from recent podcast episodes — tickers called out in the underlying analysis (up to eight shown).</p>
+          <p style="color: #6b7280; font-size: 0.8rem; margin-bottom: 1rem;">Short takeaways from recent podcast episodes — tickers called out in the underlying analysis (up to twelve shown).</p>
           <div id="insights-container">
             <!-- Insights loaded dynamically from database -->
           </div>
@@ -1698,18 +1705,13 @@
 
       </div>
 
-      <!-- Right Column - Podcast Pundits + Alpha or Atrophy -->
+      <!-- Right Column - Podcast Pundits -->
       <div class="right-col">
         <div class="card" id="guests-card">
           <h2>Podcast voices</h2>
           <p style="color: #8892b0; margin-bottom: 0.5rem; font-size: 0.9rem;">Guests who keep showing up — tap for a short profile and their latest angle.</p>
           <p style="color: #6b7280; font-size: 0.8rem; margin-bottom: 1rem;">Up to twenty, ranked by recency and how often they appear.</p>
           <div id="guests-list"></div>
-        </div>
-        <div class="card" style="margin-top: 1.5rem;">
-          <h2 style="font-size: 1.3rem;">Alpha or atrophy</h2>
-          <p style="color: #8892b0; margin-bottom: 1rem; font-size: 0.8rem;">Ranked themes from mention volume, conviction, how many sources agree, and contrarian flags. <strong>Tap a row for a chart.</strong></p>
-          <div class="stock-grid" id="tickerGrid"></div>
         </div>
       </div>
     </div>
@@ -1794,7 +1796,7 @@
   </div>
 
   <!-- Load dashboard data from pipeline (if available) -->
-  <script src="./data/data.js?v=1774951539"></script>
+  <script src="./data/data.js?v=1775012548"></script>
   <script src="./js/common.js"></script>
   
   <script>
@@ -1977,6 +1979,9 @@
         container.innerHTML = '<p style="color: #8892b0; font-size: 0.9rem; padding: 1rem;">No guest profiles yet. After the next ingest and export, they&apos;ll show here — <a href="pipeline-health.html" style="color: #00d4ff;">data status</a>.</p>';
         return;
       }
+
+      // Main page: cap to top 20 by presence/recency (backend already sorts by presence, then last_seen).
+      items = items.slice(0, 20);
 
       container.innerHTML = items.map(function(item) {
         var name = (item.name || 'Guest').replace(/</g, '&lt;').replace(/>/g, '&gt;');
@@ -2226,7 +2231,7 @@
           const dateB = parseSiteDateForSort(b.source_date || b.added_date);
           return dateB - dateA;
         });
-        insights = insights.slice(0, 8);
+        insights = insights.slice(0, 12);
       }
       
       if (insights.length === 0) {
@@ -2838,8 +2843,8 @@
         value.textContent = clean;
         sub.textContent = netWorthSrc ? ('Source: ' + netWorthSrc) : 'Source: (not recorded)';
       } else {
-        value.textContent = '—';
-        sub.textContent = 'Net worth not yet sourced. Run pipeline enrich (Wikidata / Brave).';
+        value.textContent = 'Estimate currently unavailable';
+        sub.textContent = 'We do not have a reliable public estimate for this person yet.';
       }
 
       if (profEl) {

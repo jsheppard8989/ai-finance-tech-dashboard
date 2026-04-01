@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-03-31T19:51:24.149595",
-  "last_updated": "2026-03-31T19:51:24.149595",
-  "last_pipeline_run": "2026-03-31T19:51:24.149595",
+  "generated_at": "2026-03-31T22:02:25.192826",
+  "last_updated": "2026-03-31T22:02:25.192826",
+  "last_pipeline_run": "2026-03-31T22:02:25.192826",
   "main_page": {
     "overton": 8,
     "insights": 8,
@@ -9,74 +9,88 @@
   },
   "counts": {
     "ticker_mentions": 148,
-    "podcast_episodes": 98,
+    "podcast_episodes": 100,
     "newsletters": 7,
     "daily_scores": 86,
     "overton_terms_total": 16,
     "latest_insights_total": 114,
     "today_mentions": {},
-    "podcasts_analyzed": 1
+    "podcasts_analyzed": 3
   },
   "step_results": {
-    "downloaded": 4,
-    "transcribed": 4,
-    "analyzed": 4,
-    "insight_created": 4,
-    "published": 2,
-    "total": 8
+    "downloaded": 1,
+    "transcribed": 1,
+    "analyzed": 1,
+    "insight_created": 1,
+    "published": 1,
+    "total": 5
   },
   "episodes": [
     {
-      "id": "a89282e6-289a-11f1-89d6-ff90d5551e89",
+      "id": "2adc0e56-2d01-11f1-8068-0b47832ad1d1",
       "podcast": "Moonshots with Peter Diamandis",
-      "title": "Moonshots with Peter Diamandis: AI, Automation, and the Path to Abundance by 2035",
-      "published": "2026-03-26",
-      "rss_guid": "a89282e6-289a-11f1-89d6-ff90d5551e89",
+      "title": "Uber CEO on Winning the Robotaxi Race, the End of Car Ownership, and Uber\u2019s Next $1 Trillion Bet | Dara Khosrowshahi (Uber CEO) | 243",
+      "published": "2026-03-31",
+      "rss_guid": "2adc0e56-2d01-11f1-8068-0b47832ad1d1",
       "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
+        "downloaded": false,
+        "transcribed": false,
+        "analyzed": false,
+        "insight_created": false,
         "published": false
       },
       "stage_reasons": {
-        "published": "added_to_site=0 (export/publish step not reflected in DB yet)."
+        "downloaded": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "transcribed": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "analyzed": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "insight_created": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
       },
-      "status": "needs_export"
+      "status": "needs_download"
     },
     {
-      "id": "b1b247d2-249c-11f1-b4ca-131c5ebeca2c",
-      "podcast": "Moonshots with Peter Diamandis",
-      "title": "Moonshots Podcast Episode #231 - OpenAI Acquires OpenClaw, 400x Cost Collapse, & Why India Wins the Talent War",
-      "published": "2026-03-21",
-      "rss_guid": "b1b247d2-249c-11f1-b4ca-131c5ebeca2c",
+      "id": "e294b772-2c9e-11f1-86c1-17f29a67e089",
+      "podcast": "Monetary Matters with Jack Farley",
+      "title": "The Psychology of Market Champions: Inside the Minds of Point 72 & Citadel Portfolio Managers | Dr. Gio Valiante",
+      "published": "2026-03-31",
+      "rss_guid": "e294b772-2c9e-11f1-86c1-17f29a67e089",
       "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
+        "downloaded": false,
+        "transcribed": false,
+        "analyzed": false,
+        "insight_created": false,
         "published": false
       },
       "stage_reasons": {
-        "published": "added_to_site=0 (export/publish step not reflected in DB yet)."
+        "downloaded": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "transcribed": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "analyzed": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "insight_created": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
       },
-      "status": "needs_export"
+      "status": "needs_download"
     },
     {
-      "id": "9c92af97-4596-4752-b03c-eb0acba6ee58",
+      "id": "e5599dec-87e3-42aa-a4d8-13035ed10d2c",
       "podcast": "The a16z Show",
-      "title": "Marc Andreessen on Evaluating Founders and AI's Consumer Surplus",
-      "published": "2026-03-30",
-      "rss_guid": "9c92af97-4596-4752-b03c-eb0acba6ee58",
+      "title": "How Radiant and Heron Are Rethinking Power Generation and Delivery",
+      "published": "2026-03-31",
+      "rss_guid": "e5599dec-87e3-42aa-a4d8-13035ed10d2c",
       "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
+        "downloaded": false,
+        "transcribed": false,
+        "analyzed": false,
+        "insight_created": false,
+        "published": false
       },
-      "stage_reasons": {},
-      "status": "complete"
+      "stage_reasons": {
+        "downloaded": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "transcribed": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "analyzed": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "insight_created": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
+      },
+      "status": "needs_download"
     },
     {
       "id": "1a7873e6-52cf-493d-a1a1-360a49324923",
@@ -95,81 +109,11 @@
       "status": "complete"
     },
     {
-      "id": "rss::moonshots with peter diamandis::uber ceo on winning the robotaxi race, the end of car ownership, and uber\u2019s next $1 trillion bet | dara khosrowshahi (uber ceo) | 243",
-      "podcast": "Moonshots with Peter Diamandis",
-      "title": "Uber CEO on Winning the Robotaxi Race, the End of Car Ownership, and Uber\u2019s Next $1 Trillion Bet | Dara Khosrowshahi (Uber CEO) | 243",
-      "published": "2026-03-31",
-      "published_date": "2026-03-31",
-      "rss_guid": "",
-      "stages": {
-        "downloaded": false,
-        "transcribed": false,
-        "analyzed": false,
-        "insight_created": false,
-        "published": false
-      },
-      "stage_reasons": {
-        "downloaded": "Discovered on RSS feed; not yet pulled into curation/pipeline state.",
-        "transcribed": "Waiting for download first.",
-        "analyzed": "Waiting for transcript first.",
-        "insight_created": "Depends on analyze step first.",
-        "published": "Not on site until export after analysis and insight promotion."
-      },
-      "status": "needs_download"
-    },
-    {
-      "id": "rss::monetary matters with jack farley::the psychology of market champions: inside the minds of point 72 & citadel portfolio managers | dr. gio valiante",
-      "podcast": "Monetary Matters with Jack Farley",
-      "title": "The Psychology of Market Champions: Inside the Minds of Point 72 & Citadel Portfolio Managers | Dr. Gio Valiante",
-      "published": "2026-03-31",
-      "published_date": "2026-03-31",
-      "rss_guid": "",
-      "stages": {
-        "downloaded": false,
-        "transcribed": false,
-        "analyzed": false,
-        "insight_created": false,
-        "published": false
-      },
-      "stage_reasons": {
-        "downloaded": "Discovered on RSS feed; not yet pulled into curation/pipeline state.",
-        "transcribed": "Waiting for download first.",
-        "analyzed": "Waiting for transcript first.",
-        "insight_created": "Depends on analyze step first.",
-        "published": "Not on site until export after analysis and insight promotion."
-      },
-      "status": "needs_download"
-    },
-    {
-      "id": "rss::the a16z show::how radiant and heron are rethinking power generation and delivery",
-      "podcast": "The a16z Show",
-      "title": "How Radiant and Heron Are Rethinking Power Generation and Delivery",
-      "published": "2026-03-31",
-      "published_date": "2026-03-31",
-      "rss_guid": "",
-      "stages": {
-        "downloaded": false,
-        "transcribed": false,
-        "analyzed": false,
-        "insight_created": false,
-        "published": false
-      },
-      "stage_reasons": {
-        "downloaded": "Discovered on RSS feed; not yet pulled into curation/pipeline state.",
-        "transcribed": "Waiting for download first.",
-        "analyzed": "Waiting for transcript first.",
-        "insight_created": "Depends on analyze step first.",
-        "published": "Not on site until export after analysis and insight promotion."
-      },
-      "status": "needs_download"
-    },
-    {
-      "id": "rss::the jack mallers show::they're lying to you. again. stay humble & stack sats.",
+      "id": "da26f3a3-1a08-43dc-bea4-0b3f9414f50d",
       "podcast": "The Jack Mallers Show",
       "title": "They're Lying to You. Again. Stay Humble & Stack Sats.",
       "published": "2026-03-31",
-      "published_date": "2026-03-31",
-      "rss_guid": "",
+      "rss_guid": "da26f3a3-1a08-43dc-bea4-0b3f9414f50d",
       "stages": {
         "downloaded": false,
         "transcribed": false,
@@ -178,11 +122,11 @@
         "published": false
       },
       "stage_reasons": {
-        "downloaded": "Discovered on RSS feed; not yet pulled into curation/pipeline state.",
-        "transcribed": "Waiting for download first.",
-        "analyzed": "Waiting for transcript first.",
-        "insight_created": "Depends on analyze step first.",
-        "published": "Not on site until export after analysis and insight promotion."
+        "downloaded": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "transcribed": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "analyzed": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "insight_created": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
       },
       "status": "needs_download"
     }
@@ -215,42 +159,9 @@
       "published": "Tue, 31 Mar 2026 07:12:52 GMT",
       "published_date": "2026-03-31",
       "rss_guid": ""
-    },
-    {
-      "podcast": "Moonshots with Peter Diamandis",
-      "title": "Elon's $5 Trillion Bet, the End of Human Drivers, and Chamath's Market Warning | EP #242",
-      "published": "Thu, 26 Mar 2026 14:00:00 -0000",
-      "published_date": "2026-03-26",
-      "rss_guid": ""
-    },
-    {
-      "podcast": "Moonshots with Peter Diamandis",
-      "title": "NVIDIA's $1 Trillion Prediction, Anthropic Beats OpenAI, Tesla vs. TSMC & The CS Job Collapse | 240",
-      "published": "Sat, 21 Mar 2026 14:35:00 -0000",
-      "published_date": "2026-03-21",
-      "rss_guid": ""
     }
   ],
-  "stale_episodes": [
-    {
-      "id": "a89282e6-289a-11f1-89d6-ff90d5551e89",
-      "podcast": "Moonshots with Peter Diamandis",
-      "title": "Moonshots with Peter Diamandis: AI, Automation, and the Path to Abundance by 2035",
-      "status": "needs_export",
-      "published": "2026-03-26",
-      "age_days": 5,
-      "next_blocker": "published"
-    },
-    {
-      "id": "b1b247d2-249c-11f1-b4ca-131c5ebeca2c",
-      "podcast": "Moonshots with Peter Diamandis",
-      "title": "Moonshots Podcast Episode #231 - OpenAI Acquires OpenClaw, 400x Cost Collapse, & Why India Wins the Talent War",
-      "status": "needs_export",
-      "published": "2026-03-21",
-      "age_days": 10,
-      "next_blocker": "published"
-    }
-  ],
+  "stale_episodes": [],
   "stale_threshold_days": 2,
   "rss_filter_criteria": {
     "cutoff_date": "2026-02-01",

@@ -66,45 +66,93 @@ CONTENT_PODCAST_HINTS = [
 
 
 def get_ai_client() -> Optional[any]:
-    """Get AI client - tries Moonshot/Kimi FIRST, then Gemini, then OpenAI."""
+    """Get AI client.
+    
+    Normal priority:
+      1. Moonshot/Kimi (primary)
+      2. Gemini (fallback)
+      3. OpenAI (fallback)
+    
+    For one-off/manual runs you can override this with ANALYZE_BACKEND:
+      ANALYZE_BACKEND=openai   -> force OpenAI
+      ANALYZE_BACKEND=gemini   -> force Gemini
+      ANALYZE_BACKEND=moonshot -> force Moonshot/Kimi
+    """
 
-    # Try Moonshot/Kimi (primary - what the pipeline uses)
-    auth_profiles_path = Path.home() / ".openclaw/agents/main/agent/auth-profiles.json"
-    if auth_profiles_path.exists() and OPENAI_AVAILABLE:
+    backend_override = os.environ.get("ANALYZE_BACKEND", "").strip().lower()
+
+    # Helper lambdas so we can reuse the same init logic in both normal and override paths.
+    def _init_moonshot():
+        auth_profiles_path = Path.home() / ".openclaw/agents/main/agent/auth-profiles.json"
+        if not (auth_profiles_path.exists() and OPENAI_AVAILABLE):
+            return None
         try:
             with open(auth_profiles_path) as f:
                 auth_data = json.load(f)
-            profiles = auth_data.get('profiles', {})
-            if 'moonshot:default' in profiles:
-                profile = profiles['moonshot:default']
-                if profile.get('type') == 'api_key':
-                    kimi_key = profile.get('key', '')
+            profiles = auth_data.get("profiles", {})
+            if "moonshot:default" in profiles:
+                profile = profiles["moonshot:default"]
+                if profile.get("type") == "api_key":
+                    kimi_key = profile.get("key", "")
                     if kimi_key:
                         client = OpenAI(api_key=kimi_key, base_url="https://api.moonshot.ai/v1")
-                        print("  Using Moonshot/Kimi API (primary)")
-                        return ('moonshot', client)
+                        print("  Using Moonshot/Kimi API")
+                        return ("moonshot", client)
         except Exception as e:
             print(f"  ⚠ Moonshot init failed: {e}")
+        return None
 
-    # Try Gemini API from environment
-    gemini_key = os.environ.get('GEMINI_API_KEY')
-    if gemini_key and GEMINI_AVAILABLE:
+    def _init_gemini():
+        gemini_key = os.environ.get("GEMINI_API_KEY")
+        if not (gemini_key and GEMINI_AVAILABLE):
+            return None
         try:
             genai.configure(api_key=gemini_key)
-            print("  Using Gemini API (fallback)")
-            return ('gemini', gemini_key)
+            print("  Using Gemini API")
+            return ("gemini", gemini_key)
         except Exception as e:
             print(f"  ⚠ Gemini init failed: {e}")
+        return None
 
-    # Fall back to OpenAI
-    openai_key = os.environ.get('OPENAI_API_KEY')
-    if openai_key and OPENAI_AVAILABLE:
+    def _init_openai():
+        openai_key = os.environ.get("OPENAI_API_KEY")
+        if not (openai_key and OPENAI_AVAILABLE):
+            return None
         try:
             client = OpenAI(api_key=openai_key)
-            print("  Using OpenAI API (fallback)")
-            return ('openai', client)
+            print("  Using OpenAI API")
+            return ("openai", client)
         except Exception as e:
             print(f"  ⚠ OpenAI init failed: {e}")
+        return None
+
+    # If an override is requested, try that backend first (and only fall back to the
+    # normal priority order if the override is misconfigured).
+    if backend_override == "moonshot":
+        client = _init_moonshot()
+        if client:
+            return client
+    elif backend_override == "gemini":
+        client = _init_gemini()
+        if client:
+            return client
+    elif backend_override == "openai":
+        client = _init_openai()
+        if client:
+            return client
+
+    # Normal priority order when no override is set or the override failed.
+    client = _init_moonshot()
+    if client:
+        return client
+
+    client = _init_gemini()
+    if client:
+        return client
+
+    client = _init_openai()
+    if client:
+        return client
 
     print("  ⚠ No AI API keys found. Set GEMINI_API_KEY or OPENAI_API_KEY")
     return None

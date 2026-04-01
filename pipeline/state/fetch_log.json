@@ -1,19 +1,33 @@
 {
-  "timestamp": "2026-03-31T05:01:02.842097",
+  "timestamp": "2026-03-31T22:01:20.325232",
   "results": [
     {
       "podcast": "Moonshots with Peter Diamandis",
-      "title": "Elon's $5 Trillion Bet, the End of Human Drivers, and Chamath's Market Warning | EP #242",
-      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/DVVTS3579530070.mp3",
-      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/DVVTS3579530070.txt",
-      "success": true
+      "title": "Uber CEO on Winning the Robotaxi Race, the End of Car Ownership, and Uber\u2019s Next $1 Trillion Bet | Dara Khosrowshahi (Uber CEO) | 243",
+      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/DVVTS1715367944.mp3",
+      "transcript_path": null,
+      "success": false
+    },
+    {
+      "podcast": "Monetary Matters with Jack Farley",
+      "title": "The Psychology of Market Champions: Inside the Minds of Point 72 & Citadel Portfolio Managers | Dr. Gio Valiante",
+      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/EWWMN8300847104.mp3",
+      "transcript_path": null,
+      "success": false
     },
     {
       "podcast": "The a16z Show",
-      "title": "Marc Andreessen on Evaluating Founders and AI's Consumer Surplus",
-      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_20260330_9c92af97_4596_4752_b03c_eb0acba6.mp3",
-      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/the_a16z_show_20260330_9c92af97_4596_4752_b03c_eb0acba6.txt",
-      "success": true
+      "title": "How Radiant and Heron Are Rethinking Power Generation and Delivery",
+      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_20260331_e5599dec_87e3_42aa_a4d8_13035ed1.mp3",
+      "transcript_path": null,
+      "success": false
+    },
+    {
+      "podcast": "The Jack Mallers Show",
+      "title": "They're Lying to You. Again. Stay Humble & Stack Sats.",
+      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-2-31%2F421105041-44100-2-432f3d79852fe.mp3",
+      "transcript_path": null,
+      "success": false
     }
   ]
 }

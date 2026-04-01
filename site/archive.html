@@ -19,7 +19,7 @@
     .back-link:hover { text-decoration: underline; }
     h1 { font-size: 2rem; margin-bottom: 0.5rem; background: linear-gradient(135deg, #00d4ff 0%, #7b2cbf 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
     .subtitle { color: #8892b0; margin-bottom: 2rem; }
-    .tabs { display: flex; gap: 1rem; margin-bottom: 2rem; border-bottom: 1px solid rgba(255, 255, 255, 0.1); padding-bottom: 1rem; }
+    .tabs { display: flex; gap: 1rem; margin-bottom: 2rem; border-bottom: 1px solid rgba(255, 255, 255, 0.1); padding-bottom: 1rem; flex-wrap: wrap; }
     .tab { background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.1); color: #8892b0; padding: 0.75rem 1.5rem; border-radius: 8px; cursor: pointer; transition: all 0.2s; font-size: 0.9rem; }
     .tab:hover { background: rgba(255, 255, 255, 0.1); color: #e8e8e8; }
     .tab.active { background: rgba(0, 212, 255, 0.15); border-color: rgba(0, 212, 255, 0.4); color: #00d4ff; }
@@ -36,6 +36,16 @@
     .insight-item .action-btn { background: rgba(0, 212, 255, 0.1); border: 1px solid rgba(0, 212, 255, 0.3); color: #00d4ff; padding: 0.4rem 0.8rem; border-radius: 6px; cursor: pointer; font-size: 0.8rem; transition: all 0.2s; }
     .insight-item .action-btn:hover { background: rgba(0, 212, 255, 0.2); }
     .empty-state { text-align: center; padding: 3rem; color: #8892b0; }
+
+    /* Pundit archive cards */
+    .pundit-archive-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1rem; }
+    .pundit-archive-card { background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.1); border-radius: 12px; padding: 1rem; position: relative; }
+    .pundit-archive-name { font-weight: 600; color: #00d4ff; margin-bottom: 0.25rem; }
+    .pundit-archive-tagline { font-size: 0.85rem; color: #a8b2d1; margin-bottom: 0.4rem; }
+    .pundit-archive-meta { font-size: 0.78rem; color: #9ca3af; }
+    .pundit-archive-presence { position: absolute; top: 0.4rem; right: 0.6rem; font-size: 0.75rem; color: #8892b0; text-align: right; }
+    .pundit-archive-presence-bar { width: 46px; height: 5px; background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.12); border-radius: 999px; overflow: hidden; margin-top: 0.15rem; }
+    .pundit-archive-presence-bar > span { display: block; height: 100%; background: linear-gradient(90deg, #00d4ff, #7b2cbf); }
     
     /* Modal */
     .modal-overlay { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.9); z-index: 1000; justify-content: center; align-items: center; padding: 2rem; }
@@ -62,15 +72,18 @@
     <div class="tabs">
       <div class="tab active" onclick="showTab('insights')">📰 Insights (<span id="insightsCount">0</span>)</div>
       <div class="tab" onclick="showTab('overton')">🪟 Overton Window (Definitions + Terms) (<span id="overtonCount">0</span>)</div>
+      <div class="tab" onclick="showTab('pundits')">🎙️ Pundits (<span id="punditsCount">0</span>)</div>
     </div>
     
     <div class="stats">
       <div class="stat-box"><div class="stat-number" id="insightsStat">0</div><div class="stat-label">Insights</div></div>
       <div class="stat-box"><div class="stat-number" id="overtonStat">0</div><div class="stat-label">Overton Window Items</div></div>
+      <div class="stat-box"><div class="stat-number" id="punditsStat">0</div><div class="stat-label">Pundits</div></div>
     </div>
     
     <div id="insightsSection" class="section active"></div>
     <div id="overtonSection" class="section"></div>
+    <div id="punditsSection" class="section"></div>
   </div>
 
   <!-- Deep Dive Modal -->
@@ -119,6 +132,17 @@
       document.getElementById('overtonCount').textContent = combinedWindowCount;
       document.getElementById('insightsStat').textContent = insightsCount;
       document.getElementById('overtonStat').textContent = combinedWindowCount;
+      // Pundits count comes from dashboardData.pundits (site export); fall back to 0 if missing.
+      let punditCount = 0;
+      try {
+        if (typeof dashboardData !== 'undefined' && Array.isArray(dashboardData.pundits)) {
+          punditCount = dashboardData.pundits.length;
+        }
+      } catch (e) {}
+      const pc = document.getElementById('punditsCount');
+      const ps = document.getElementById('punditsStat');
+      if (pc) pc.textContent = punditCount;
+      if (ps) ps.textContent = punditCount;
     }
     
     function renderInsights() {
@@ -169,16 +193,84 @@
       `).join('');
     }
     
+    function renderPundits() {
+      const container = document.getElementById('punditsSection');
+      if (!container) return;
+      
+      let items = [];
+      try {
+        if (typeof dashboardData !== 'undefined' && Array.isArray(dashboardData.pundits)) {
+          items = dashboardData.pundits.slice(); // full list, already sorted by presence/recency from backend
+        }
+      } catch (e) {
+        items = [];
+      }
+      
+      if (!items || items.length === 0) {
+        container.innerHTML = '<div class="empty-state">No pundits available yet.</div>';
+        return;
+      }
+      
+      const esc = (s) => String(s || '').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+      const dateOpts = { month: 'short', day: 'numeric', year: 'numeric' };
+      
+      const html = items.map(p => {
+        const name = esc((p.name || 'Pundit').trim());
+        const known = esc(p.known_for || '');
+        const bio = esc(p.bio || '');
+        const idea = esc(p.last_main_idea || '');
+        const mentionScore = p.mention_score || p.appearance_count || 0;
+        const decayed = (typeof p.mention_score_decayed === 'number') ? p.mention_score_decayed : mentionScore;
+        const cap = 4.0;
+        const norm = Math.max(0, Math.min(1, (decayed || 0) / cap));
+        const presencePct = Math.max(0, Math.min(100, Math.round(norm * 100)));
+        
+        let src = '';
+        if (p.last_podcast_name || p.last_episode_date) {
+          const epDateStr = p.last_episode_date ? formatSiteCalendarDate(p.last_episode_date, dateOpts) : '';
+          src = esc(p.last_podcast_name || '') + (epDateStr ? ' • ' + epDateStr : '');
+        } else if (p.last_seen) {
+          src = esc(String(p.last_seen).substring(0, 10));
+        }
+        const whyBits = [];
+        if (mentionScore) whyBits.push('Appearance Count: ' + mentionScore);
+        if (src) whyBits.push('most recently on ' + src);
+        const why = whyBits.join('; ');
+        
+        const tagline = known || bio;
+        const thesis = idea ? `“${idea}”` : '';
+        
+        return `
+          <div class="pundit-archive-card">
+            <div class="pundit-archive-presence">
+              <div>${presencePct}% presence</div>
+              <div class="pundit-archive-presence-bar"><span style="width:${presencePct}%;"></span></div>
+            </div>
+            <div class="pundit-archive-name">${name}</div>
+            <div class="pundit-archive-tagline">${tagline || ''}</div>
+            <div class="pundit-archive-meta">
+              ${why || 'No appearance history yet.'}<br/>
+              ${thesis ? '<span style="color:#cbd5f5;">'+thesis+'</span>' : ''}
+            </div>
+          </div>
+        `;
+      }).join('');
+      
+      container.innerHTML = `<div class="pundit-archive-grid">${html}</div>`;
+    }
+    
     function renderAll() {
       updateStats();
       renderInsights();
       renderOverton();
+      renderPundits();
     }
     
     function showTab(tab) {
       document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
       document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
-      event.target.classList.add('active');
+      // Use the global event target when called from onclick on the tab
+      if (event && event.target) event.target.classList.add('active');
       document.getElementById(tab + 'Section').classList.add('active');
     }
     

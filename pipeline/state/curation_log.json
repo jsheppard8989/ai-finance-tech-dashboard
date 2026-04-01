@@ -1,46 +1,46 @@
 {
-  "timestamp": "2026-03-31T05:00:53.731055",
-  "total_feed_episodes": 4,
-  "approved_for_transcription": 4,
+  "timestamp": "2026-03-31T22:01:07.011563",
+  "total_feed_episodes": 5,
+  "approved_for_transcription": 5,
   "episodes": [
     {
       "podcast": "Moonshots with Peter Diamandis",
-      "title": "Elon's $5 Trillion Bet, the End of Human Drivers, and Chamath's Market Warning | EP #242",
-      "description": "\n        <p>In this episode, the mates discuss Elon\u2019s TeraFab: 1 terawatt/year chip factory (50x global AI compute), CyberCab fleets crushing rideshares, eVTOLs redesigning cities, garages-to-gyms real estate pivot, and moon disassembly for Dyson swarms amid robotaxi abundance.</p>\n<p><br></p>\n<p>Get access to metatrends 10+ years before anyone else - <a href=\"https://qr.diamandis.com/metatrends\"><u>https://qr.diamandis.com/metatrends</u></a>\u00a0\u00a0</p>\n<p><br></p>\n<p>Peter H. Diamandis, MD, is the F",
-      "audio_url": "https://traffic.megaphone.fm/DVVTS3579530070.mp3?updated=1774528986",
-      "published": "Thu, 26 Mar 2026 14:00:00 -0000",
-      "published_date": "2026-03-26",
-      "rss_guid": "a89282e6-289a-11f1-89d6-ff90d5551e89",
+      "title": "Uber CEO on Winning the Robotaxi Race, the End of Car Ownership, and Uber\u2019s Next $1 Trillion Bet | Dara Khosrowshahi (Uber CEO) | 243",
+      "description": "\n        <p>This episode was filmed at the 2026 Abundance360 Summit. Learn more at <a href=\"https://www.abundance360.com/\"><u>https://www.abundance360.com/</u></a>\u00a0\u00a0</p>\n<p><br></p>\n<p>Dara Khosrowshahi joins to discuss the RoboTaxi race, Uber\u2019s hybrid strategy for autonomy, and how self-driving tech could reshape mobility, delivery, and city life.</p>\n<p><br></p>\n<p>Get access to metatrends 10+ years before anyone else - <a href=\"https://qr.diamandis.com/metatrends\"><u>https://qr.diamandis.com/",
+      "audio_url": "https://traffic.megaphone.fm/DVVTS1715367944.mp3",
+      "published": "Tue, 31 Mar 2026 15:00:00 -0000",
+      "published_date": "2026-03-31",
+      "rss_guid": "2adc0e56-2d01-11f1-8068-0b47832ad1d1",
       "status": "APPROVED",
       "matched_keywords": [],
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/moonshots_with_peter_diamandis_elon_s__5_trillion_bet__the_end_of_human_drivers__and_chamat_28161dc4.mp3",
-      "filename": "moonshots_with_peter_diamandis_elon_s__5_trillion_bet__the_end_of_human_drivers__and_chamat_28161dc4.mp3"
+      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/moonshots_with_peter_diamandis_uber_ceo_on_winning_the_robotaxi_race__the_end_of_car_owners_c56bf3b8.mp3",
+      "filename": "moonshots_with_peter_diamandis_uber_ceo_on_winning_the_robotaxi_race__the_end_of_car_owners_c56bf3b8.mp3"
     },
     {
-      "podcast": "Moonshots with Peter Diamandis",
-      "title": "NVIDIA's $1 Trillion Prediction, Anthropic Beats OpenAI, Tesla vs. TSMC & The CS Job Collapse | 240",
-      "description": "\n        <p>Mates recap Nvidia GTC madness - Jensen's $1T revenue blitz fueling robots, robocabs, orbital fabs, and NemoClaw - while unpacking OpenClaw's GitHub supernova, Anthropic's enterprise crush on OpenAI, Elon's TerraFab TSMC-killer, and inference deflation exploding abundance.</p>\n<p><br></p>\n<p>Get access to metatrends 10+ years before anyone else - <a href=\"https://qr.diamandis.com/metatrends\"><u>https://qr.diamandis.com/metatrends</u></a>\u00a0\u00a0</p>\n<p><br></p>\n<p>Peter H. Diamandis, MD, i",
-      "audio_url": "https://traffic.megaphone.fm/DVVTS6372073266.mp3?updated=1774091947",
-      "published": "Sat, 21 Mar 2026 14:35:00 -0000",
-      "published_date": "2026-03-21",
-      "rss_guid": "b1b247d2-249c-11f1-b4ca-131c5ebeca2c",
+      "podcast": "Monetary Matters with Jack Farley",
+      "title": "The Psychology of Market Champions: Inside the Minds of Point 72 & Citadel Portfolio Managers | Dr. Gio Valiante",
+      "description": "\n        <p>This episode is brought to you by Pictet\u2019s AI Enhanced Equity ETFs</p>\n<p><br></p>\n<p>Learn More about Pictet AI Enhanced US Equity ETF: https://etf.am.pictet.com/pqus/</p>\n<p><br></p>\n<p>Learn more about the Pictet AI Enhanced International Equity ETF ($PQNT): https://etf.am.pictet.com/pqnt/?utm_campaign=usetf&amp;cid=2715538577&amp;utm_source=jfmv&amp;utm_content=pqnt&amp;utm_medium=podcast_02&amp;utm_term=noterm </p>\n<p><br></p>\n<p>Join Max Wiethe on \"Other People's Money\" as he s",
+      "audio_url": "https://traffic.megaphone.fm/EWWMN8300847104.mp3",
+      "published": "Tue, 31 Mar 2026 13:00:00 -0000",
+      "published_date": "2026-03-31",
+      "rss_guid": "e294b772-2c9e-11f1-86c1-17f29a67e089",
       "status": "APPROVED",
       "matched_keywords": [],
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/moonshots_with_peter_diamandis_nvidia_s__1_trillion_prediction__anthropic_beats_openai__tes_c82c7892.mp3",
-      "filename": "moonshots_with_peter_diamandis_nvidia_s__1_trillion_prediction__anthropic_beats_openai__tes_c82c7892.mp3"
+      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/monetary_matters_with_jack_farley_the_psychology_of_market_champions__inside_the_minds_of_poin_eaf85999.mp3",
+      "filename": "monetary_matters_with_jack_farley_the_psychology_of_market_champions__inside_the_minds_of_poin_eaf85999.mp3"
     },
     {
       "podcast": "The a16z Show",
-      "title": "Marc Andreessen on Evaluating Founders and AI's Consumer Surplus",
-      "description": "<p>This episode originally aired on The Twenty Minute VC with Harry Stebbings. Marc Andreessen explains why learning from past investment mistakes can be a trap, shares his framework for evaluating founder greatness through IQ, courage, and drive, and makes the case that venture investors should back the person over the business plan. They also discuss why AI is reconcentrating the tech industry in Silicon Valley, the concept of consumer surplus and where 99% of AI's value will actually go, and ",
-      "audio_url": "https://mgln.ai/e/1344/afp-848985-injected.calisto.simplecastaudio.com/3f86df7b-51c6-4101-88a2-550dba782de8/episodes/6aebc59f-f776-4312-ab95-8e3b20f4d19f/audio/128/default.mp3?aid=rss_feed&awCollectionId=3f86df7b-51c6-4101-88a2-550dba782de8&awEpisodeId=6aebc59f-f776-4312-ab95-8e3b20f4d19f&feed=JGE3yC0V",
-      "published": "Mon, 30 Mar 2026 13:00:00 +0000",
-      "published_date": "2026-03-30",
-      "rss_guid": "9c92af97-4596-4752-b03c-eb0acba6ee58",
+      "title": "How Radiant and Heron Are Rethinking Power Generation and Delivery",
+      "description": "<p>a16z general partners Erin Price-Wright and Erik Torenberg speak with Doug Bernauer, founder and CEO of Radiant, and Drew Baglino, founder and CEO of Heron, about rebuilding American energy infrastructure. They discuss portable micro nuclear reactors, solid state power electronics, why delivery rather than generation is the real bottleneck, the case for modular manufacturing, and whether data centers are actually good for the grid.</p>\n<p>\u00a0</p>\n<p>Resources:</p>\n<p>Follow Doug Bernauer on X: ",
+      "audio_url": "https://mgln.ai/e/1344/afp-848985-injected.calisto.simplecastaudio.com/3f86df7b-51c6-4101-88a2-550dba782de8/episodes/1f58eddc-8ef4-463e-9be7-5fc1f3f7f06f/audio/128/default.mp3?aid=rss_feed&awCollectionId=3f86df7b-51c6-4101-88a2-550dba782de8&awEpisodeId=1f58eddc-8ef4-463e-9be7-5fc1f3f7f06f&feed=JGE3yC0V",
+      "published": "Tue, 31 Mar 2026 10:04:03 +0000",
+      "published_date": "2026-03-31",
+      "rss_guid": "e5599dec-87e3-42aa-a4d8-13035ed10d2c",
       "status": "APPROVED",
       "matched_keywords": [],
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_marc_andreessen_on_evaluating_founders_and_ai_s_consumer_sur_987da1d0.mp3",
-      "filename": "the_a16z_show_marc_andreessen_on_evaluating_founders_and_ai_s_consumer_sur_987da1d0.mp3"
+      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_how_radiant_and_heron_are_rethinking_power_generation_and_de_709e5b8a.mp3",
+      "filename": "the_a16z_show_how_radiant_and_heron_are_rethinking_power_generation_and_de_709e5b8a.mp3"
     },
     {
       "podcast": "The a16z Show",
@@ -54,6 +54,19 @@
       "matched_keywords": [],
       "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_chris_dixon__from_quant_trading_to_building_a16z_crypto_be2e5b4b.mp3",
       "filename": "the_a16z_show_chris_dixon__from_quant_trading_to_building_a16z_crypto_be2e5b4b.mp3"
+    },
+    {
+      "podcast": "The Jack Mallers Show",
+      "title": "They're Lying to You. Again. Stay Humble & Stack Sats.",
+      "description": "<p>Streaming live Mondays at 6pm ET on The Jack Mallers Show YouTube channel.</p>\n",
+      "audio_url": "https://anchor.fm/s/e29097f4/podcast/play/117729051/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-2-31%2F421105041-44100-2-432f3d79852fe.mp3",
+      "published": "Tue, 31 Mar 2026 07:12:52 GMT",
+      "published_date": "2026-03-31",
+      "rss_guid": "da26f3a3-1a08-43dc-bea4-0b3f9414f50d",
+      "status": "APPROVED",
+      "matched_keywords": [],
+      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/the_jack_mallers_show_they_re_lying_to_you__again__stay_humble___stack_sats__68a7e5b7.mp3",
+      "filename": "the_jack_mallers_show_they_re_lying_to_you__again__stay_humble___stack_sats__68a7e5b7.mp3"
     }
   ]
 }

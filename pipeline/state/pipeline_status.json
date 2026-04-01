@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-03-31T05:05:37.790365",
+  "last_updated": "2026-03-31T22:02:25.339001",
   "episodes": {
-    "moonshots_with_peter_diamandis_elon's_$5_trillion_bet,_the_en": {
+    "moonshots_with_peter_diamandis_uber_ceo_on_winning_the_robota": {
       "info": {
         "podcast": "Moonshots with Peter Diamandis",
-        "title": "Elon's $5 Trillion Bet, the End of Human Drivers, and Chamath's Market Warning | EP #242",
-        "published": "2026-03-26",
-        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/moonshots_with_peter_diamandis_elon_s__5_trillion_bet__the_end_of_human_drivers__and_chamat_28161dc4.mp3",
+        "title": "Uber CEO on Winning the Robotaxi Race, the End of Car Ownership, and Uber\u2019s Next $1 Trillion Bet | Dara Khosrowshahi (Uber CEO) | 243",
+        "published": "2026-03-31",
+        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/moonshots_with_peter_diamandis_uber_ceo_on_winning_the_robotaxi_race__the_end_of_car_owners_c56bf3b8.mp3",
         "keywords": [],
-        "rss_guid": "a89282e6-289a-11f1-89d6-ff90d5551e89"
+        "rss_guid": "2adc0e56-2d01-11f1-8068-0b47832ad1d1"
       },
       "stages": {
         "downloaded": {
@@ -17,10 +17,10 @@
           "reason": null
         },
         "transcribed": {
-          "complete": true,
-          "file": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/DVVTS3579530070.txt",
+          "complete": false,
+          "file": null,
           "timestamp": null,
-          "reason": null
+          "reason": "Waiting for fetch/transcribe step"
         },
         "analyzed": {
           "complete": false,
@@ -39,17 +39,17 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-31T05:05:37.705075",
-      "status": "needs_analysis"
+      "first_seen": "2026-03-31T22:02:25.196622",
+      "status": "needs_transcription"
     },
-    "moonshots_with_peter_diamandis_nvidia's_$1_trillion_predictio": {
+    "monetary_matters_with_jack_farley_the_psychology_of_market_champ": {
       "info": {
-        "podcast": "Moonshots with Peter Diamandis",
-        "title": "NVIDIA's $1 Trillion Prediction, Anthropic Beats OpenAI, Tesla vs. TSMC & The CS Job Collapse | 240",
-        "published": "2026-03-21",
-        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/moonshots_with_peter_diamandis_nvidia_s__1_trillion_prediction__anthropic_beats_openai__tes_c82c7892.mp3",
+        "podcast": "Monetary Matters with Jack Farley",
+        "title": "The Psychology of Market Champions: Inside the Minds of Point 72 & Citadel Portfolio Managers | Dr. Gio Valiante",
+        "published": "2026-03-31",
+        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/monetary_matters_with_jack_farley_the_psychology_of_market_champions__inside_the_minds_of_poin_eaf85999.mp3",
         "keywords": [],
-        "rss_guid": "b1b247d2-249c-11f1-b4ca-131c5ebeca2c"
+        "rss_guid": "e294b772-2c9e-11f1-86c1-17f29a67e089"
       },
       "stages": {
         "downloaded": {
@@ -58,10 +58,10 @@
           "reason": null
         },
         "transcribed": {
-          "complete": true,
-          "file": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/DVVTS6372073266.txt",
+          "complete": false,
+          "file": null,
           "timestamp": null,
-          "reason": null
+          "reason": "Waiting for fetch/transcribe step"
         },
         "analyzed": {
           "complete": false,
@@ -80,17 +80,17 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-31T05:05:37.755039",
-      "status": "needs_analysis"
+      "first_seen": "2026-03-31T22:02:25.261350",
+      "status": "needs_transcription"
     },
-    "the_a16z_show_marc_andreessen_on_evaluating_": {
+    "the_a16z_show_how_radiant_and_heron_are_reth": {
       "info": {
         "podcast": "The a16z Show",
-        "title": "Marc Andreessen on Evaluating Founders and AI's Consumer Surplus",
-        "published": "2026-03-30",
-        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_marc_andreessen_on_evaluating_founders_and_ai_s_consumer_sur_987da1d0.mp3",
+        "title": "How Radiant and Heron Are Rethinking Power Generation and Delivery",
+        "published": "2026-03-31",
+        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_how_radiant_and_heron_are_rethinking_power_generation_and_de_709e5b8a.mp3",
         "keywords": [],
-        "rss_guid": "9c92af97-4596-4752-b03c-eb0acba6ee58"
+        "rss_guid": "e5599dec-87e3-42aa-a4d8-13035ed10d2c"
       },
       "stages": {
         "downloaded": {
@@ -99,23 +99,21 @@
           "reason": null
         },
         "transcribed": {
-          "complete": true,
-          "file": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/the_a16z_show_20260330_9c92af97_4596_4752_b03c_eb0acba6.txt",
+          "complete": false,
+          "file": null,
           "timestamp": null,
-          "reason": null
+          "reason": "Waiting for fetch/transcribe step"
         },
         "analyzed": {
-          "complete": true,
-          "episode_id": 123,
+          "complete": false,
+          "episode_id": null,
           "timestamp": null,
-          "reason": null
+          "reason": "Waiting for next analyze run (transcript \u2192 DB)."
         },
         "insight_created": {
-          "complete": true,
-          "insight_id": 50,
-          "insight_title": "The a16z Show: New Media Strategy and Investment Insights",
+          "complete": false,
           "timestamp": null,
-          "reason": null
+          "reason": "Depends on analyze step first."
         },
         "published": {
           "complete": false,
@@ -123,8 +121,8 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-31T05:05:37.767493",
-      "status": "needs_export"
+      "first_seen": "2026-03-31T22:02:25.281237",
+      "status": "needs_transcription"
     },
     "the_a16z_show_chris_dixon:_from_quant_tradin": {
       "info": {
@@ -164,8 +162,49 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-03-31T05:05:37.778179",
+      "first_seen": "2026-03-31T22:02:25.301416",
       "status": "blocked_analysis"
+    },
+    "the_jack_mallers_show_they're_lying_to_you._again._s": {
+      "info": {
+        "podcast": "The Jack Mallers Show",
+        "title": "They're Lying to You. Again. Stay Humble & Stack Sats.",
+        "published": "2026-03-31",
+        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/the_jack_mallers_show_they_re_lying_to_you__again__stay_humble___stack_sats__68a7e5b7.mp3",
+        "keywords": [],
+        "rss_guid": "da26f3a3-1a08-43dc-bea4-0b3f9414f50d"
+      },
+      "stages": {
+        "downloaded": {
+          "complete": true,
+          "timestamp": null,
+          "reason": null
+        },
+        "transcribed": {
+          "complete": false,
+          "file": null,
+          "timestamp": null,
+          "reason": "Waiting for fetch/transcribe step"
+        },
+        "analyzed": {
+          "complete": false,
+          "episode_id": null,
+          "timestamp": null,
+          "reason": "Waiting for next analyze run (transcript \u2192 DB)."
+        },
+        "insight_created": {
+          "complete": false,
+          "timestamp": null,
+          "reason": "Depends on analyze step first."
+        },
+        "published": {
+          "complete": false,
+          "timestamp": null,
+          "reason": "Not in data.js yet (run export and push to site)."
+        }
+      },
+      "first_seen": "2026-03-31T22:02:25.318728",
+      "status": "needs_transcription"
     }
   }
 }

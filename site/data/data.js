@@ -3,7 +3,7 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-03-31T19:51:30.515986",
+  generatedAt: "2026-03-31T22:02:28.128193",
   chartsVersion: "2026-03-31T19:51:23.788673",
   tickerScores: [
   {
@@ -11419,19 +11419,19 @@ const dashboardData = {
 ],
   podcastGuests: [
   {
-    "id": 1324,
+    "id": 1342,
     "name": "This special episode",
     "slug": "this-special-episode",
     "bio": null,
     "known_for": null,
     "last_main_idea": "Invest in companies that are at the forefront of AI technology, particularly those that can leverage both proprietary and open-source models to drive innovation and capture domain-specific expertise.",
     "last_episode_title": "ALLIN-INTV Jensen V2 Ch",
-    "last_podcast_name": "Unknown Podcast",
+    "last_podcast_name": "All-In Podcast",
     "last_episode_date": "2026-03-28",
     "appearance_count": 1
   },
   {
-    "id": 1325,
+    "id": 1343,
     "name": "Lupin Ramon",
     "slug": "lupin-ramon",
     "bio": null,
@@ -11443,7 +11443,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1326,
+    "id": 1344,
     "name": "When the Music Stops",
     "slug": "when-the-music-stops",
     "bio": null,
@@ -11455,7 +11455,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1327,
+    "id": 1345,
     "name": "Ground Infrastructure",
     "slug": "ground-infrastructure",
     "bio": null,
@@ -11467,7 +11467,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1328,
+    "id": 1346,
     "name": "Rory Johnston",
     "slug": "rory-johnston",
     "bio": null,
@@ -11479,7 +11479,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1329,
+    "id": 1347,
     "name": "Senator John Fetterman on Voting Rights",
     "slug": "senator-john-fetterman-on-voting-rights",
     "bio": null,
@@ -11491,7 +11491,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1330,
+    "id": 1348,
     "name": "Stock Market on Shaky Foundations",
     "slug": "stock-market-on-shaky-foundations",
     "bio": null,
@@ -11503,7 +11503,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1331,
+    "id": 1349,
     "name": "Elon Musk on Moonshots",
     "slug": "elon-musk-on-moonshots",
     "bio": null,
@@ -11515,7 +11515,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1332,
+    "id": 1350,
     "name": "Investing in Capitalism",
     "slug": "investing-in-capitalism",
     "bio": null,
@@ -11527,7 +11527,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1333,
+    "id": 1351,
     "name": "Harvard Professor Graham Allison",
     "slug": "harvard-professor-graham-allison",
     "bio": null,
@@ -11539,7 +11539,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1334,
+    "id": 1352,
     "name": "Andrew Yang",
     "slug": "andrew-yang",
     "bio": "Andrew Yang is an entrepreneur and political leader who popularized universal basic income in U.S. politics through his 2020 presidential campaign.",
@@ -11551,7 +11551,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1335,
+    "id": 1353,
     "name": "Inventing the Renaissance",
     "slug": "inventing-the-renaissance",
     "bio": null,
@@ -11563,7 +11563,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1336,
+    "id": 1354,
     "name": "Ray Dalio",
     "slug": "ray-dalio",
     "bio": "Ray Dalio is the founder of Bridgewater Associates and a macro investor known for his 'Principles' framework and work on long-term debt cycles.",
@@ -11575,7 +11575,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1337,
+    "id": 1355,
     "name": "Nobel Prize-winning economist Paul Krugman",
     "slug": "nobel-prize-winning-economist-paul-krugman",
     "bio": null,
@@ -11587,7 +11587,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1338,
+    "id": 1356,
     "name": "host Jack Mallers",
     "slug": "host-jack-mallers",
     "bio": null,
@@ -11599,7 +11599,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1339,
+    "id": 1357,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -11611,7 +11611,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1340,
+    "id": 1358,
     "name": "Bosworth",
     "slug": "bosworth",
     "bio": null,
@@ -11623,7 +11623,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1341,
+    "id": 1359,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -11642,8 +11642,8 @@ const dashboardData = {
     "slug": "rory-johnston",
     "bio": "Commodity Context founder",
     "known_for": "Perspectives on energy markets and commodity pricing",
-    "net_worth_usd": 200.0,
-    "net_worth_source": "https://www.bloomberg.com/news/articles/2026-03-10/rory-johnston-on-how-oil-could-surge-to-over-200-a-barrel",
+    "net_worth_usd": null,
+    "net_worth_source": null,
     "net_worth_updated_at": "2026-03-28T22:05:57.557236",
     "voice_tone": "Informative and insightful",
     "voice_style": "Direct and focused on market dynamics",
@@ -11690,8 +11690,7 @@ const dashboardData = {
           "body": "His expertise is highly valued by investors looking to make informed decisions in a volatile market, particularly in the context of commodities and energy."
         }
       ]
-    },
-    "net_worth": "$200"
+    }
   },
   {
     "id": 96,
@@ -11818,8 +11817,8 @@ const dashboardData = {
     "slug": "christian-catalini",
     "bio": "Christian Catalini is a co-founder of LightSpark and founder of the MIT Crypto Economics Lab. He is known for his work in the intersection of technology, economics, and entrepreneurship, particularly in the field of AI and blockchain.",
     "known_for": "Authoring the influential paper 'Some Simple Economics of AI' and his contributions to the understanding of crypto economics.",
-    "net_worth_usd": 500000.0,
-    "net_worth_source": "https://en.wikipedia.org/wiki/Christian_Catalini",
+    "net_worth_usd": null,
+    "net_worth_source": null,
     "net_worth_updated_at": "2026-03-29T04:09:28.783743",
     "voice_tone": "Optimistic and analytical.",
     "voice_style": "Explanatory and speculative, discussing the future impacts of AI.",
@@ -11871,8 +11870,7 @@ const dashboardData = {
           "body": "Catalini's research suggests that AI could give individuals the leverage of a team, fundamentally changing the nature of work and the potential for one-person billion-dollar startups."
         }
       ]
-    },
-    "net_worth": "$500,000"
+    }
   },
   {
     "id": 129,
@@ -12381,14 +12379,14 @@ const dashboardData = {
     "id": 127,
     "name": "Rupert Mitchell",
     "slug": "rupert-mitchell",
-    "bio": "Rupert Mitchell is an accomplished banker, investor, and analyst with a background in the Ottawa Mobile industry.",
-    "known_for": "Founder of Blind Squirrel Macro, known for his research and insights on macroeconomic trends.",
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
+    "bio": "Rupert Mitchell is an accomplished banker, investor, and analyst with a background in the Ottawa Mobile industry. He is the founder of Blind Squirrel Macro, where he is known for his research and insights on macroeconomic trends.",
+    "known_for": "His research and insights on macroeconomic trends, particularly in the context of market valuations and the business cycle.",
+    "net_worth_usd": 19500000000.0,
+    "net_worth_source": "https://artistnetworth.org/richest-businessman/ceo/rupert-murdoch-net-worth/",
+    "net_worth_updated_at": "2026-03-31T22:01:54.804516",
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
     "voice_profile_updated_at": null,
     "last_seen": "2026-03-28 18:30:57",
     "last_episode_title": "Stock Market on Shaky Foundations | Blind Squirrel Macro\u2019s Rupert Mitchell on IPO Supply, Oil, and Private Credit",
@@ -12398,17 +12396,49 @@ const dashboardData = {
     "mention_score_decayed": 0.93,
     "last_main_idea": "The current bull market is built on shaky foundations, and a shift towards a more cautious stance with a focus on security software and data lake control is advised.",
     "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
+    "grokipedia_fetched_at": "2026-03-31T20:09:25.315808",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Rupert Mitchell",
+      "fetched_at": "2026-04-01T01:09:25.315513+00:00",
+      "cliff_notes": "Rupert Mitchell has had a diverse career in finance, starting in the Ottawa Mobile industry and later transitioning into banking and investment. His expertise in macroeconomic trends has led him to found Blind Squirrel Macro, where he provides research and insights that are highly valued by investors and analysts. Mitchell's work focuses on understanding the broader economic landscape and its implications for market behavior, making him a sought-after voice in discussions about the business cycle and market valuations.",
+      "derived": {
+        "current_role": "Founder of Blind Squirrel Macro"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Rupert Mitchell has had a diverse career in finance, starting in the Ottawa Mobile industry and later transitioning into banking and investment. His expertise in macroeconomic trends has led him to found Blind Squirrel Macro, where he provides research and insights that are highly valued by investors and analysts. Mitchell's work focuses on understanding the broader economic landscape and its implications for market behavior, making him a sought-after voice in discussions about the business cycle and market valuations."
+      ],
+      "sections": [
+        {
+          "heading": "Market Valuations",
+          "body": "Rupert Mitchell has expressed concerns about current market valuations, suggesting that they may be built on unstable foundations such as buybacks, 401K contributions, and mergers and acquisitions."
+        },
+        {
+          "heading": "Business Cycle",
+          "body": "Mitchell has been vocal about his worries regarding the business cycle, indicating that he felt a slowdown in consumer activity even before recent geopolitical events, and he is concerned about the potential end of the cycle."
+        },
+        {
+          "heading": "Supply at Concept Type Valuation",
+          "body": "Rupert Mitchell has pointed out the upcoming supply of companies like SpaceX, OpenAI, and Thropic entering the market at high valuations, which could impact the stability of the current market structure."
+        }
+      ]
+    },
+    "net_worth": "$19.50B"
   },
   {
     "id": 126,
     "name": "Ada Palmer",
     "slug": "ada-palmer",
-    "bio": "Ada Palmer is a Renaissance historian, novelist, and composer based at the University of Chicago.",
-    "known_for": "Author of 'Inventing the Renaissance', exploring the economic and cultural factors of the period.",
+    "bio": "Ada Palmer is a Renaissance historian, novelist, and composer based at the University of Chicago. She is known for her book 'Inventing the Renaissance,' which explores the economic and cultural factors of the period.",
+    "known_for": "Authoring 'Inventing the Renaissance' and her expertise in the economic and cultural aspects of the Renaissance period.",
     "net_worth_usd": null,
-    "net_worth_source": null,
+    "net_worth_source": "",
     "net_worth_updated_at": null,
     "voice_tone": "Informed and analytical",
     "voice_style": "Detailed and historical narrative",
@@ -12422,8 +12452,45 @@ const dashboardData = {
     "mention_score_decayed": 0.93,
     "last_main_idea": "The historical insights from the Italian Renaissance period suggest that technological advancements, such as the printing press, can have a profound impact on society and information distribution, which parallels modern tech revolutions and their investment implications.",
     "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
+    "grokipedia_fetched_at": "2026-03-31T20:09:36.658693",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Ada Palmer",
+      "fetched_at": "2026-04-01T01:09:36.658555+00:00",
+      "cliff_notes": "Ada Palmer is a Renaissance historian, novelist, and composer who has made significant contributions to the understanding of the economic and cultural factors of the Renaissance period. Based at the University of Chicago, Palmer's work has been influential in shaping the discourse around the Italian city republics and their role in the development of modern Europe. Her book 'Inventing the Renaissance' has been particularly impactful, providing a comprehensive analysis of the period and its lasting effects on Western civilization. Through her research and writing, Palmer has become a respected voice in the field of Renaissance studies, offering valuable insights into the historical context that has shaped the modern world.",
+      "derived": {
+        "current_role": "Historian, Novelist, Composer at the University of Chicago",
+        "books_or_works": "Inventing the Renaissance"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Ada Palmer is a Renaissance historian, novelist, and composer who has made significant contributions to the understanding of the economic and cultural factors of the Renaissance period. Based at the University of Chicago, Palmer's work has been influential in shaping the discourse around the Italian city republics and their role in the development of modern Europe.",
+        "Her book 'Inventing the Renaissance' has been particularly impactful, providing a comprehensive analysis of the period and its lasting effects on Western civilization. Through her research and writing, Palmer has become a respected voice in the field of Renaissance studies, offering valuable insights into the historical context that has shaped the modern world."
+      ],
+      "sections": [
+        {
+          "heading": "Renaissance Historian",
+          "body": "Ada Palmer is a renowned historian specializing in the Renaissance period, focusing on the economic and cultural factors that shaped the era."
+        },
+        {
+          "heading": "Author of 'Inventing the Renaissance'",
+          "body": "Palmer's book 'Inventing the Renaissance' is a significant contribution to historical literature, providing a detailed exploration of the period's complexities and its impact on modern society."
+        },
+        {
+          "heading": "Composer and Novelist",
+          "body": "In addition to her historical work, Palmer is also a composer and novelist, showcasing her diverse talents and contributions to the arts and academia."
+        },
+        {
+          "heading": "University of Chicago",
+          "body": "Based at the University of Chicago, Palmer continues to teach and research, sharing her expertise with students and the academic community."
+        }
+      ]
+    }
   },
   {
     "id": 125,
@@ -12493,9 +12560,9 @@ const dashboardData = {
     "slug": "chandler-lujica",
     "bio": "Chandler Lujica is the CEO of Galladine, a next-generation missile propulsion company. With a background in propulsion engineering, Lujica has interned at SpaceX four times and spent a decade at Tesla, contributing to the development of battery technology.",
     "known_for": "Being the CEO of Galladine and a former lead propulsion engineer on Starship at SpaceX.",
-    "net_worth_usd": 160000.0,
-    "net_worth_source": "https://www.quora.com/What-is-the-salary-of-a-SpaceX-engineer",
-    "net_worth_updated_at": "2026-03-28T04:06:59.917845",
+    "net_worth_usd": 1000000000.0,
+    "net_worth_source": "https://en.wikipedia.org/wiki/Christopher_Chandler_(businessman)",
+    "net_worth_updated_at": "2026-03-31T20:09:39.360386",
     "voice_tone": "",
     "voice_style": "",
     "voice_delivery_notes": "",
@@ -12547,7 +12614,7 @@ const dashboardData = {
         }
       ]
     },
-    "net_worth": "$160,000"
+    "net_worth": "$1.00B"
   },
   {
     "id": 124,
@@ -12682,9 +12749,9 @@ const dashboardData = {
     "slug": "michael-every",
     "bio": "Michael Every is a Global Strategist for Economics and Markets at Robo Banks, known for his exceptional ability to translate political statements into market implications. His insights are highly valued by professional finance, high-net worth individuals, family offices, and sophisticated investors.",
     "known_for": "His ability to translate political statements into market implications and his expertise in macroeconomics.",
-    "net_worth_usd": 1500000.0,
-    "net_worth_source": "https://blogs.reinhardt.edu/unveiling-michael-knowles039-net-worth/130140450.html",
-    "net_worth_updated_at": "2026-03-26T14:15:51.557562",
+    "net_worth_usd": 70000000000.0,
+    "net_worth_source": "https://www.celebritynetworth.com/richest-politicians/michael-bloomberg-net-worth/",
+    "net_worth_updated_at": "2026-03-31T20:09:40.488239",
     "voice_tone": "Cautious and skeptical",
     "voice_style": "Direct and candid, with a focus on the complexities of the current geopolitical situation",
     "voice_delivery_notes": "Paced with pauses for emphasis, highlighting the uncertainty of the situation",
@@ -12730,7 +12797,7 @@ const dashboardData = {
         }
       ]
     },
-    "net_worth": "$1.5M"
+    "net_worth": "$70.00B"
   }
 ]
 };
