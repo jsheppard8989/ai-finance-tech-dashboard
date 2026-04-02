@@ -20,6 +20,26 @@
       "podcast_episode_id": 130
     },
     {
+      "id": 146,
+      "title": "Why $200 Oil Won\u2019t Spike Inflation to 9% | Anna Wong on Recession Probability, PCE vs CPI, and Fed Reaction Function In A Scenario of Soaring Energy Prices",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-04-01",
+      "summary": "In this episode of Monetary Matters with Jack Farley, Chief U.S. Economist at Bloomberg, Anna Wang, discusses the impact of surging oil prices on inflation and the potential for a recession. Wang challenges the narrative that inflation could reach 7-9% as seen in 2022, arguing that even with oil prices at $200 per barrel, CPI would likely peak at around 6% and then drop. She also discusses the complexities of secondary effects on inflation and the conditions that would need to be met for a significant rise in inflation. The conversation touches on the differences in how recessions are defined and identified in the U.S. versus other countries and the potential economic implications of high oil prices.",
+      "key_takeaway": "Pictay asset management's AI-enhanced ETFs (PQNT and PQUS) aim to provide enhanced equity exposure through the use of artificial intelligence.",
+      "tickers_mentioned": [
+        "PQNT",
+        "PQUS"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-01",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 131
+    },
+    {
       "id": 141,
       "title": "They're Lying to You. Again. Stay Humble & Stack Sats.",
       "source_type": "podcast",
@@ -242,11 +262,11 @@
         "TSLA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-28",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-04-02",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 115
     },
     {

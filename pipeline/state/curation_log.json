@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-04-01T15:14:48.431689",
-  "total_feed_episodes": 2,
-  "approved_for_transcription": 2,
+  "timestamp": "2026-04-01T22:03:19.551203",
+  "total_feed_episodes": 1,
+  "approved_for_transcription": 1,
   "episodes": [
     {
       "podcast": "Monetary Matters with Jack Farley",
@@ -11,23 +11,10 @@
       "published": "Wed, 01 Apr 2026 14:40:00 -0000",
       "published_date": "2026-04-01",
       "rss_guid": "f5ba2700-2d85-11f1-9a20-675a36b4e5ef",
+      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/EWWMN4260792673.mp3",
+      "filename": "EWWMN4260792673.mp3",
       "status": "APPROVED",
-      "matched_keywords": [],
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/monetary_matters_with_jack_farley_why__200_oil_won_t_spike_inflation_to_9____anna_wong_on_rece_fdfcbde8.mp3",
-      "filename": "monetary_matters_with_jack_farley_why__200_oil_won_t_spike_inflation_to_9____anna_wong_on_rece_fdfcbde8.mp3"
-    },
-    {
-      "podcast": "The a16z Show",
-      "title": "What Happens When a Public Company Goes All In on AI",
-      "description": "<p>David Haber speaks with Owen Jennings, executive officer and business lead at Block, about how the company rebuilt itself around AI agents, small squads, and internal tools like Goose and Builder Bot after restructuring more than 40% of its workforce. They discuss what it took to execute a major restructuring, how teams of three are now doing what teams of 14 used to, and how Block is shipping AI-native products like Money Bot and Manager Bot that generate custom interfaces on the fly for ten",
-      "audio_url": "https://mgln.ai/e/1344/afp-848985-injected.calisto.simplecastaudio.com/3f86df7b-51c6-4101-88a2-550dba782de8/episodes/01039473-10d8-42eb-8894-b736a613aa14/audio/128/default.mp3?aid=rss_feed&awCollectionId=3f86df7b-51c6-4101-88a2-550dba782de8&awEpisodeId=01039473-10d8-42eb-8894-b736a613aa14&feed=JGE3yC0V",
-      "published": "Wed, 1 Apr 2026 10:00:00 +0000",
-      "published_date": "2026-04-01",
-      "rss_guid": "36dd6e38-bd6d-4283-975a-b386e4a2f86c",
-      "status": "APPROVED",
-      "matched_keywords": [],
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_what_happens_when_a_public_company_goes_all_in_on_ai_574dbc1b.mp3",
-      "filename": "the_a16z_show_what_happens_when_a_public_company_goes_all_in_on_ai_574dbc1b.mp3"
+      "matched_keywords": []
     }
   ]
 }

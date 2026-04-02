@@ -73,7 +73,7 @@
     "last_podcast_name": "All-In Podcast",
     "last_episode_date": "2026-03-28",
     "mention_score": 3,
-    "mention_score_decayed": 2.8,
+    "mention_score_decayed": 2.74,
     "last_main_idea": "Investing in AI-driven platforms and technologies is essential for capturing the growth in the global financial system and staying ahead in the AI era.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:40:52.368193",
@@ -192,7 +192,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-28",
     "mention_score": 2,
-    "mention_score_decayed": 1.87,
+    "mention_score_decayed": 1.82,
     "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-28T22:05:42.395070",
@@ -253,7 +253,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-28",
     "mention_score": 2,
-    "mention_score_decayed": 1.87,
+    "mention_score_decayed": 1.82,
     "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-28T22:05:50.938326",
@@ -310,7 +310,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-02-15",
     "mention_score": 2,
-    "mention_score_decayed": 1.87,
+    "mention_score_decayed": 1.82,
     "last_main_idea": "Invest in sectors with fertile ground for short selling, such as AI and tech, and under-allocated areas like junior mining, while combining long and short strategies for potential alpha.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:42:09.376490",
@@ -440,6 +440,63 @@
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
+  },
+  {
+    "id": 147,
+    "name": "Anna Wang",
+    "slug": "anna-wang",
+    "bio": "Anna Wang is the Chief U.S. Economist at Bloomberg, where she provides economic analysis and commentary on inflation and oil prices. She is known for her insightful views on the economic implications of oil price fluctuations and their impact on inflation.",
+    "known_for": "Economic analysis and commentary on inflation and oil prices.",
+    "net_worth_usd": 3000000000.0,
+    "net_worth_source": "https://www.gurufocus.com/insider/231639/wang-nan",
+    "net_worth_updated_at": "2026-04-01T22:04:03.961801",
+    "voice_tone": "Analytical and measured.",
+    "voice_style": "Provides detailed economic analysis with a focus on data and trends.",
+    "voice_delivery_notes": "Speaks with a clear and deliberate pace, emphasizing key economic indicators and potential outcomes.",
+    "voice_profile_updated_at": "2026-04-02 03:03:55",
+    "last_seen": "2026-04-02 03:03:55",
+    "last_episode_title": "Why $200 Oil Won\u2019t Spike Inflation to 9% | Anna Wong on Recession Probability, PCE vs CPI, and Fed Reaction Function In A Scenario of Soaring Energy Prices",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-04-01",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Pictay asset management's AI-enhanced ETFs (PQNT and PQUS) aim to provide enhanced equity exposure through the use of artificial intelligence.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-01T22:04:02.778580",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Anna Wang",
+      "fetched_at": "2026-04-02T03:04:02.778251+00:00",
+      "cliff_notes": "Anna Wang is a prominent economist known for her expertise in U.S. economic analysis, particularly in the areas of inflation and oil prices. As the Chief U.S. Economist at Bloomberg, she offers valuable insights into the economic landscape, helping investors and policymakers navigate complex market conditions. Wang's career has been marked by her ability to provide clear and concise analysis on economic trends, making her a sought-after commentator in the financial industry. Her work at Bloomberg has allowed her to influence economic discourse and contribute to a better understanding of the factors driving inflation and oil prices.",
+      "derived": {
+        "current_role": "Chief U.S. Economist at Bloomberg"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Anna Wang is a prominent economist known for her expertise in U.S. economic analysis, particularly in the areas of inflation and oil prices. As the Chief U.S. Economist at Bloomberg, she offers valuable insights into the economic landscape, helping investors and policymakers navigate complex market conditions. Wang's career has been marked by her ability to provide clear and concise analysis on economic trends, making her a sought-after commentator in the financial industry.",
+        "Her work at Bloomberg has allowed her to influence economic discourse and contribute to a better understanding of the factors driving inflation and oil prices."
+      ],
+      "sections": [
+        {
+          "heading": "Economic Analysis",
+          "body": "Anna Wang is known for her economic analysis, particularly focusing on inflation and oil prices, providing investors with valuable insights into market trends."
+        },
+        {
+          "heading": "Oil Price Impact",
+          "body": "Wang's commentary on the impact of oil prices on inflation has been influential, challenging conventional views and providing a unique perspective on economic indicators."
+        },
+        {
+          "heading": "Economic Commentary",
+          "body": "As a commentator on economic issues, Wang has been instrumental in shaping discussions around the economic implications of oil price fluctuations and their broader impact on the economy."
+        }
+      ]
+    },
+    "net_worth": "$3.00B"
   },
   {
     "id": 145,
@@ -881,7 +938,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Betting on talented individuals in businesses rather than predicting tech trends is a more consistent approach to investing.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-28T22:05:06.552638",
@@ -944,7 +1001,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Invest in companies that are driving innovation and can disrupt traditional industries by offering superior products at better prices, while keeping an eye on the competitive dynamics between the US and China in scientific research and technology.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-28T22:05:25.190284",
@@ -1002,7 +1059,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Invest in companies that are driving innovation and can disrupt traditional industries by offering superior products at better prices, while keeping an eye on the competitive dynamics between the US and China in scientific research and technology.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-28T22:05:33.382582",
@@ -1093,66 +1150,5 @@
       ]
     },
     "net_worth": "$19.50B"
-  },
-  {
-    "id": 126,
-    "name": "Ada Palmer",
-    "slug": "ada-palmer",
-    "bio": "Ada Palmer is a Renaissance historian, novelist, and composer based at the University of Chicago. She is known for her book 'Inventing the Renaissance,' which explores the economic and cultural factors of the period.",
-    "known_for": "Authoring 'Inventing the Renaissance' and her expertise in the economic and cultural aspects of the Renaissance period.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Informed and analytical",
-    "voice_style": "Detailed and historical narrative",
-    "voice_delivery_notes": "Pacing is steady with emphasis on key historical points",
-    "voice_profile_updated_at": "2026-03-28 18:25:51",
-    "last_seen": "2026-03-28 18:25:51",
-    "last_episode_title": "Inventing the Renaissance: Economic and Technological Insights",
-    "last_podcast_name": "Dwarkesh Podcast",
-    "last_episode_date": "2026-03-06",
-    "mention_score": 1,
-    "mention_score_decayed": 0.91,
-    "last_main_idea": "The historical insights from the Italian Renaissance period suggest that technological advancements, such as the printing press, can have a profound impact on society and information distribution, which parallels modern tech revolutions and their investment implications.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-31T20:09:36.658693",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Ada Palmer",
-      "fetched_at": "2026-04-01T01:09:36.658555+00:00",
-      "cliff_notes": "Ada Palmer is a Renaissance historian, novelist, and composer who has made significant contributions to the understanding of the economic and cultural factors of the Renaissance period. Based at the University of Chicago, Palmer's work has been influential in shaping the discourse around the Italian city republics and their role in the development of modern Europe. Her book 'Inventing the Renaissance' has been particularly impactful, providing a comprehensive analysis of the period and its lasting effects on Western civilization. Through her research and writing, Palmer has become a respected voice in the field of Renaissance studies, offering valuable insights into the historical context that has shaped the modern world.",
-      "derived": {
-        "current_role": "Historian, Novelist, Composer at the University of Chicago",
-        "books_or_works": "Inventing the Renaissance"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Ada Palmer is a Renaissance historian, novelist, and composer who has made significant contributions to the understanding of the economic and cultural factors of the Renaissance period. Based at the University of Chicago, Palmer's work has been influential in shaping the discourse around the Italian city republics and their role in the development of modern Europe.",
-        "Her book 'Inventing the Renaissance' has been particularly impactful, providing a comprehensive analysis of the period and its lasting effects on Western civilization. Through her research and writing, Palmer has become a respected voice in the field of Renaissance studies, offering valuable insights into the historical context that has shaped the modern world."
-      ],
-      "sections": [
-        {
-          "heading": "Renaissance Historian",
-          "body": "Ada Palmer is a renowned historian specializing in the Renaissance period, focusing on the economic and cultural factors that shaped the era."
-        },
-        {
-          "heading": "Author of 'Inventing the Renaissance'",
-          "body": "Palmer's book 'Inventing the Renaissance' is a significant contribution to historical literature, providing a detailed exploration of the period's complexities and its impact on modern society."
-        },
-        {
-          "heading": "Composer and Novelist",
-          "body": "In addition to her historical work, Palmer is also a composer and novelist, showcasing her diverse talents and contributions to the arts and academia."
-        },
-        {
-          "heading": "University of Chicago",
-          "body": "Based at the University of Chicago, Palmer continues to teach and research, sharing her expertise with students and the academic community."
-        }
-      ]
-    }
   }
 ]

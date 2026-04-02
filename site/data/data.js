@@ -3,7 +3,7 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-04-01T15:17:04.144193",
+  generatedAt: "2026-04-01T22:05:00.992348",
   chartsVersion: "2026-04-01T15:16:59.801570",
   tickerScores: [
   {
@@ -749,6 +749,26 @@ const dashboardData = {
       "podcast_episode_id": 130
     },
     {
+      "id": 146,
+      "title": "Why $200 Oil Won\u2019t Spike Inflation to 9% | Anna Wong on Recession Probability, PCE vs CPI, and Fed Reaction Function In A Scenario of Soaring Energy Prices",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-04-01",
+      "summary": "In this episode of Monetary Matters with Jack Farley, Chief U.S. Economist at Bloomberg, Anna Wang, discusses the impact of surging oil prices on inflation and the potential for a recession. Wang challenges the narrative that inflation could reach 7-9% as seen in 2022, arguing that even with oil prices at $200 per barrel, CPI would likely peak at around 6% and then drop. She also discusses the complexities of secondary effects on inflation and the conditions that would need to be met for a significant rise in inflation. The conversation touches on the differences in how recessions are defined and identified in the U.S. versus other countries and the potential economic implications of high oil prices.",
+      "key_takeaway": "Pictay asset management's AI-enhanced ETFs (PQNT and PQUS) aim to provide enhanced equity exposure through the use of artificial intelligence.",
+      "tickers_mentioned": [
+        "PQNT",
+        "PQUS"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-01",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 131
+    },
+    {
       "id": 141,
       "title": "They're Lying to You. Again. Stay Humble & Stack Sats.",
       "source_type": "podcast",
@@ -971,11 +991,11 @@ const dashboardData = {
         "TSLA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-28",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-04-02",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 115
     },
     {
@@ -3482,6 +3502,29 @@ const dashboardData = {
       ]
     },
     {
+      "id": 146,
+      "title": "Why $200 Oil Won\u2019t Spike Inflation to 9% | Anna Wong on Recession Probability, PCE vs CPI, and Fed Reaction Function In A Scenario of Soaring Energy Prices",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-04-01",
+      "summary": "In this episode of Monetary Matters with Jack Farley, Chief U.S. Economist at Bloomberg, Anna Wang, discusses the impact of surging oil prices on inflation and the potential for a recession. Wang challenges the narrative that inflation could reach 7-9% as seen in 2022, arguing that even with oil prices at $200 per barrel, CPI would likely peak at around 6% and then drop. She also discusses the complexities of secondary effects on inflation and the conditions that would need to be met for a significant rise in inflation. The conversation touches on the differences in how recessions are defined and identified in the U.S. versus other countries and the potential economic implications of high oil prices.",
+      "key_takeaway": "Pictay asset management's AI-enhanced ETFs (PQNT and PQUS) aim to provide enhanced equity exposure through the use of artificial intelligence.",
+      "tickers_mentioned": "[\"PQNT\", \"PQUS\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-01",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 131,
+      "episode_release_date": "2026-04-01",
+      "guest_name": "Why $200 Oil Won\u2019t Spike Inflation to 9%",
+      "key_tickers": [
+        "PQNT",
+        "PQUS"
+      ]
+    },
+    {
       "id": 141,
       "title": "They're Lying to You. Again. Stay Humble & Stack Sats.",
       "source_type": "podcast",
@@ -3608,26 +3651,6 @@ const dashboardData = {
         "PQNT",
         "PQUS"
       ]
-    },
-    {
-      "id": 131,
-      "title": "the a16z show 20260319 1e92a9dd 78da 4417 b1ce 4b4318d1",
-      "source_type": "podcast",
-      "source_name": "Unknown Podcast",
-      "source_date": "2026-03-28",
-      "summary": "This podcast episode features a discussion on the economic implications of AI, focusing on how it can transform labor, startups, and the ambitions of young professionals. The conversation revolves around Christian Catalini's paper 'Some Simple Economics of AI', which delves into the complex interplay between AI and the economy. The podcast explores the potential for AI to democratize access to resources, the shift in consensus formation, and the opportunities AI presents in the realms of art, finance, and technology.",
-      "key_takeaway": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
-      "tickers_mentioned": "[\"AAPL\", \"NVDA\", \"GOOGL\", \"MSFT\", \"TSLA\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-03-28",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 115,
-      "episode_release_date": "2026-03-28",
-      "guest_name": null,
-      "key_tickers": []
     }
   ],
   "definitions": [
@@ -11818,9 +11841,95 @@ const dashboardData = {
     "key_tickers": [
       "SQ"
     ]
+  },
+  "146": {
+    "id": 137,
+    "insight_id": 146,
+    "podcast_episode_id": 131,
+    "overview": "In this deep dive, we analyze the potential impact of soaring oil prices on inflation and the economy, based on insights from Anna Wang, Chief U.S. Economist at Bloomberg. Contrary to popular belief, we argue that even if oil prices reach $200 per barrel, inflation won't spike to 9% as in 2022. Instead, we expect demand destruction to occur, limiting inflation to around 6%. This thesis has significant investment implications, as it challenges the prevailing narrative of a severe inflationary storm. Understanding this dynamic is crucial for investors to position their portfolios appropriately in the current macro environment.",
+    "key_takeaways_detailed": [
+      "Even if oil prices reach $200 per barrel, inflation is unlikely to spike to 9% due to demand destruction.",
+      "Core CPI and headline CPI are likely to head in different directions, with the latter increasing at the expense of consumer spending power.",
+      "A significant second-round inflation effect is needed to reach 7-9% inflation, which is challenging given the current macro backdrop.",
+      "The S&P 500 has been a key driver of core PCE inflation; a sharp decline in the index could lead to a rapid drop in core PCE.",
+      "Services data, particularly recreational services, will be a key indicator of the real income shock and demand destruction."
+    ],
+    "investment_thesis": "Our core investment thesis is that despite soaring oil prices, inflation will remain contained around 6% due to demand destruction, challenging the prevailing narrative of a severe inflationary storm. This dynamic will have significant implications for asset prices, with equities and commodities being particularly affected. We believe this scenario will play out over the medium term (3-12 months), as the transmission mechanism of the oil price shock through the economy becomes apparent. Investors should position their portfolios to capitalize on this thesis, focusing on sectors and assets that are less sensitive to inflation and demand destruction.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple is a key component of the S&P 500, and a decline in the index could weigh on its stock price. Additionally, higher inflation and demand destruction could hurt consumer spending on Apple's products.",
+        "positioning": "Consider a tactical short position in AAPL, with a stop-loss above recent highs to protect against potential upside risks.",
+        "risk": "A stronger-than-expected consumer spending environment could limit downside in AAPL, despite a decline in the S&P 500."
+      },
+      "NVDA": {
+        "rationale": "Nvidia is a leading semiconductor company that could be impacted by lower consumer spending on tech products and a potential recession.",
+        "positioning": "Maintain a cautious stance on NVDA, with a potential short position if the stock rallies significantly.",
+        "risk": "Nvidia's exposure to the gaming and data center markets could provide a buffer against broader economic weakness."
+      },
+      "SPY": {
+        "rationale": "The SPDR S&P 500 ETF is a direct play on the U.S. equity market. Our thesis implies a decline in the S&P 500 due to demand destruction and lower consumer spending.",
+        "positioning": "Consider a medium-term short position in SPY, with a stop-loss above recent highs to protect against upside risks.",
+        "risk": "A stronger labor market and resilient consumer spending could limit downside in the S&P 500."
+      },
+      "TSLA": {
+        "rationale": "Tesla is a leading electric vehicle manufacturer that could be impacted by higher energy prices and potential demand destruction.",
+        "positioning": "Maintain a cautious stance on TSLA, with a potential short position if the stock rallies significantly.",
+        "risk": "Tesla's strong brand and market position could provide a buffer against broader economic weakness."
+      },
+      "PQNT": {
+        "rationale": "Pictay's AI-enhanced ETF with the ticker PQNT could potentially benefit from a more nuanced market environment, as AI algorithms may be better equipped to navigate complex market dynamics.",
+        "positioning": "Consider a long position in PQNT as a strategic allocation to benefit from potential outperformance in a complex market environment.",
+        "risk": "The performance of PQNT is still subject to broader market trends, and there is no guarantee that the AI-enhanced approach will outperform in all scenarios."
+      }
+    },
+    "positioning_guidance": "Investors should position their portfolios with a focus on capitalizing on the potential for demand destruction and contained inflation. This could involve taking tactical short positions in equities and commodities, while maintaining a cautious stance on cyclical stocks. Investors should also consider allocating to AI-enhanced ETFs like PQNT, which may be better equipped to navigate complex market dynamics. Position sizing should be guided by individual risk tolerance and investment horizon, with a focus on medium-term timeframes (3-12 months).",
+    "risk_factors": [
+      "A stronger labor market and resilient consumer spending could limit downside in equities and commodities.",
+      "Unexpected supply disruptions or geopolitical events could drive oil prices higher, exacerbating inflationary pressures.",
+      "A more aggressive Fed tightening cycle could lead to a sharper economic slowdown and demand destruction.",
+      "Unexpected fiscal stimulus or policy changes could alter the inflation outlook and impact asset prices.",
+      "A rapid recovery in the stock market could limit the decline in core PCE inflation, challenging our thesis."
+    ],
+    "contrarian_signals": [
+      "Many economists and market participants are expecting a severe inflationary storm, which could lead to a self-fulfilling prophecy of higher inflation expectations.",
+      "A more aggressive Fed tightening cycle could lead to a sharper economic slowdown, potentially causing a more severe recession than anticipated.",
+      "Unexpected fiscal stimulus or policy changes could alter the inflation outlook and impact asset prices, challenging our thesis of contained inflation."
+    ],
+    "catalysts": [
+      "Upcoming CPI and PCE inflation reports will provide key insights into the inflation outlook and potential demand destruction.",
+      "FOMC meeting outcomes and Fed officials' comments will shape market expectations for the policy tightening cycle.",
+      "Economic data releases, including employment, retail sales, and GDP, will provide further evidence of the health of the economy and potential demand destruction.",
+      "Geopolitical events and supply disruptions could impact oil prices and the inflation outlook.",
+      "Corporate earnings reports will provide insights into the impact of higher input costs and potential demand destruction on company profitability."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-04-01T22:04:32.334923",
+    "updated_at": "2026-04-02 03:04:32",
+    "insight_title": "Why $200 Oil Won\u2019t Spike Inflation to 9% | Anna Wong on Recession Probability, PCE vs CPI, and Fed Reaction Function In A Scenario of Soaring Energy Prices",
+    "source_name": "Monetary Matters with Jack Farley",
+    "source_date": "2026-04-01",
+    "key_tickers": [
+      "PQNT",
+      "PQUS"
+    ]
   }
 },
   suggestedTerms: [
+  {
+    "id": 137,
+    "term": "AI-enhanced ETFs",
+    "definition": "Exchange-traded funds that use artificial intelligence to enhance equity exposure and potentially improve performance.",
+    "investment_implications": "Investors may consider AI-enhanced ETFs for their potential to leverage technology in managing investments.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-04-02 03:03:55",
+    "priority_score": 80
+  },
   {
     "id": 135,
     "term": "Agentic Development",
@@ -11856,23 +11965,23 @@ const dashboardData = {
     "relevance_score": 50,
     "submitted_date": "2026-04-01 10:04:12",
     "priority_score": 80
-  },
-  {
-    "id": 132,
-    "term": "Autonomous Vehicles",
-    "definition": "Self-driving cars that use a combination of sensors, cameras, and software to navigate without human input.",
-    "investment_implications": "Investors should consider companies at the forefront of autonomous vehicle technology as potential disruptors in the transportation sector.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-04-01 10:03:46",
-    "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 1378,
+    "id": 1396,
+    "name": "Why $200 Oil Won\u2019t Spike Inflation to 9%",
+    "slug": "why-200-oil-wont-spike-inflation-to-9",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Pictay asset management's AI-enhanced ETFs (PQNT and PQUS) aim to provide enhanced equity exposure through the use of artificial intelligence.",
+    "last_episode_title": "Why $200 Oil Won\u2019t Spike Inflation to 9% | Anna Wong on Recession Probability, PCE vs CPI, and Fed Reaction Function In A Scenario of Soaring Energy Prices",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-04-01",
+    "appearance_count": 1
+  },
+  {
+    "id": 1397,
     "name": "This special episode",
     "slug": "this-special-episode",
     "bio": null,
@@ -11884,7 +11993,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1379,
+    "id": 1398,
     "name": "Lupin Ramon",
     "slug": "lupin-ramon",
     "bio": null,
@@ -11896,7 +12005,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1380,
+    "id": 1399,
     "name": "When the Music Stops",
     "slug": "when-the-music-stops",
     "bio": null,
@@ -11908,7 +12017,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1381,
+    "id": 1400,
     "name": "Ground Infrastructure",
     "slug": "ground-infrastructure",
     "bio": null,
@@ -11920,7 +12029,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1382,
+    "id": 1401,
     "name": "Rory Johnston",
     "slug": "rory-johnston",
     "bio": null,
@@ -11932,7 +12041,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1383,
+    "id": 1402,
     "name": "Senator John Fetterman on Voting Rights",
     "slug": "senator-john-fetterman-on-voting-rights",
     "bio": null,
@@ -11944,7 +12053,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1384,
+    "id": 1403,
     "name": "Stock Market on Shaky Foundations",
     "slug": "stock-market-on-shaky-foundations",
     "bio": null,
@@ -11956,7 +12065,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1385,
+    "id": 1404,
     "name": "Elon Musk on Moonshots",
     "slug": "elon-musk-on-moonshots",
     "bio": null,
@@ -11968,7 +12077,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1386,
+    "id": 1405,
     "name": "Investing in Capitalism",
     "slug": "investing-in-capitalism",
     "bio": null,
@@ -11980,7 +12089,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1387,
+    "id": 1406,
     "name": "Harvard Professor Graham Allison",
     "slug": "harvard-professor-graham-allison",
     "bio": null,
@@ -11992,7 +12101,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1388,
+    "id": 1407,
     "name": "Andrew Yang",
     "slug": "andrew-yang",
     "bio": "Andrew Yang is an entrepreneur and political leader who popularized universal basic income in U.S. politics through his 2020 presidential campaign.",
@@ -12004,7 +12113,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1389,
+    "id": 1408,
     "name": "Inventing the Renaissance",
     "slug": "inventing-the-renaissance",
     "bio": null,
@@ -12016,7 +12125,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1390,
+    "id": 1409,
     "name": "Ray Dalio",
     "slug": "ray-dalio",
     "bio": "Ray Dalio is the founder of Bridgewater Associates and a macro investor known for his 'Principles' framework and work on long-term debt cycles.",
@@ -12028,7 +12137,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1391,
+    "id": 1410,
     "name": "Nobel Prize-winning economist Paul Krugman",
     "slug": "nobel-prize-winning-economist-paul-krugman",
     "bio": null,
@@ -12040,7 +12149,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1392,
+    "id": 1411,
     "name": "host Jack Mallers",
     "slug": "host-jack-mallers",
     "bio": null,
@@ -12052,7 +12161,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1393,
+    "id": 1412,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -12064,7 +12173,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1394,
+    "id": 1413,
     "name": "Bosworth",
     "slug": "bosworth",
     "bio": null,
@@ -12076,7 +12185,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1395,
+    "id": 1414,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -12163,7 +12272,7 @@ const dashboardData = {
     "last_podcast_name": "All-In Podcast",
     "last_episode_date": "2026-03-28",
     "mention_score": 3,
-    "mention_score_decayed": 2.8,
+    "mention_score_decayed": 2.74,
     "last_main_idea": "Investing in AI-driven platforms and technologies is essential for capturing the growth in the global financial system and staying ahead in the AI era.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:40:52.368193",
@@ -12282,7 +12391,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-28",
     "mention_score": 2,
-    "mention_score_decayed": 1.87,
+    "mention_score_decayed": 1.82,
     "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-28T22:05:42.395070",
@@ -12343,7 +12452,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-28",
     "mention_score": 2,
-    "mention_score_decayed": 1.87,
+    "mention_score_decayed": 1.82,
     "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-28T22:05:50.938326",
@@ -12400,7 +12509,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-02-15",
     "mention_score": 2,
-    "mention_score_decayed": 1.87,
+    "mention_score_decayed": 1.82,
     "last_main_idea": "Invest in sectors with fertile ground for short selling, such as AI and tech, and under-allocated areas like junior mining, while combining long and short strategies for potential alpha.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:42:09.376490",
@@ -12530,6 +12639,63 @@ const dashboardData = {
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
+  },
+  {
+    "id": 147,
+    "name": "Anna Wang",
+    "slug": "anna-wang",
+    "bio": "Anna Wang is the Chief U.S. Economist at Bloomberg, where she provides economic analysis and commentary on inflation and oil prices. She is known for her insightful views on the economic implications of oil price fluctuations and their impact on inflation.",
+    "known_for": "Economic analysis and commentary on inflation and oil prices.",
+    "net_worth_usd": 3000000000.0,
+    "net_worth_source": "https://www.gurufocus.com/insider/231639/wang-nan",
+    "net_worth_updated_at": "2026-04-01T22:04:03.961801",
+    "voice_tone": "Analytical and measured.",
+    "voice_style": "Provides detailed economic analysis with a focus on data and trends.",
+    "voice_delivery_notes": "Speaks with a clear and deliberate pace, emphasizing key economic indicators and potential outcomes.",
+    "voice_profile_updated_at": "2026-04-02 03:03:55",
+    "last_seen": "2026-04-02 03:03:55",
+    "last_episode_title": "Why $200 Oil Won\u2019t Spike Inflation to 9% | Anna Wong on Recession Probability, PCE vs CPI, and Fed Reaction Function In A Scenario of Soaring Energy Prices",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-04-01",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Pictay asset management's AI-enhanced ETFs (PQNT and PQUS) aim to provide enhanced equity exposure through the use of artificial intelligence.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-01T22:04:02.778580",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Anna Wang",
+      "fetched_at": "2026-04-02T03:04:02.778251+00:00",
+      "cliff_notes": "Anna Wang is a prominent economist known for her expertise in U.S. economic analysis, particularly in the areas of inflation and oil prices. As the Chief U.S. Economist at Bloomberg, she offers valuable insights into the economic landscape, helping investors and policymakers navigate complex market conditions. Wang's career has been marked by her ability to provide clear and concise analysis on economic trends, making her a sought-after commentator in the financial industry. Her work at Bloomberg has allowed her to influence economic discourse and contribute to a better understanding of the factors driving inflation and oil prices.",
+      "derived": {
+        "current_role": "Chief U.S. Economist at Bloomberg"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Anna Wang is a prominent economist known for her expertise in U.S. economic analysis, particularly in the areas of inflation and oil prices. As the Chief U.S. Economist at Bloomberg, she offers valuable insights into the economic landscape, helping investors and policymakers navigate complex market conditions. Wang's career has been marked by her ability to provide clear and concise analysis on economic trends, making her a sought-after commentator in the financial industry.",
+        "Her work at Bloomberg has allowed her to influence economic discourse and contribute to a better understanding of the factors driving inflation and oil prices."
+      ],
+      "sections": [
+        {
+          "heading": "Economic Analysis",
+          "body": "Anna Wang is known for her economic analysis, particularly focusing on inflation and oil prices, providing investors with valuable insights into market trends."
+        },
+        {
+          "heading": "Oil Price Impact",
+          "body": "Wang's commentary on the impact of oil prices on inflation has been influential, challenging conventional views and providing a unique perspective on economic indicators."
+        },
+        {
+          "heading": "Economic Commentary",
+          "body": "As a commentator on economic issues, Wang has been instrumental in shaping discussions around the economic implications of oil price fluctuations and their broader impact on the economy."
+        }
+      ]
+    },
+    "net_worth": "$3.00B"
   },
   {
     "id": 145,
@@ -12971,7 +13137,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Betting on talented individuals in businesses rather than predicting tech trends is a more consistent approach to investing.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-28T22:05:06.552638",
@@ -13034,7 +13200,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Invest in companies that are driving innovation and can disrupt traditional industries by offering superior products at better prices, while keeping an eye on the competitive dynamics between the US and China in scientific research and technology.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-28T22:05:25.190284",
@@ -13092,7 +13258,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Invest in companies that are driving innovation and can disrupt traditional industries by offering superior products at better prices, while keeping an eye on the competitive dynamics between the US and China in scientific research and technology.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-28T22:05:33.382582",
@@ -13183,67 +13349,6 @@ const dashboardData = {
       ]
     },
     "net_worth": "$19.50B"
-  },
-  {
-    "id": 126,
-    "name": "Ada Palmer",
-    "slug": "ada-palmer",
-    "bio": "Ada Palmer is a Renaissance historian, novelist, and composer based at the University of Chicago. She is known for her book 'Inventing the Renaissance,' which explores the economic and cultural factors of the period.",
-    "known_for": "Authoring 'Inventing the Renaissance' and her expertise in the economic and cultural aspects of the Renaissance period.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Informed and analytical",
-    "voice_style": "Detailed and historical narrative",
-    "voice_delivery_notes": "Pacing is steady with emphasis on key historical points",
-    "voice_profile_updated_at": "2026-03-28 18:25:51",
-    "last_seen": "2026-03-28 18:25:51",
-    "last_episode_title": "Inventing the Renaissance: Economic and Technological Insights",
-    "last_podcast_name": "Dwarkesh Podcast",
-    "last_episode_date": "2026-03-06",
-    "mention_score": 1,
-    "mention_score_decayed": 0.91,
-    "last_main_idea": "The historical insights from the Italian Renaissance period suggest that technological advancements, such as the printing press, can have a profound impact on society and information distribution, which parallels modern tech revolutions and their investment implications.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-31T20:09:36.658693",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Ada Palmer",
-      "fetched_at": "2026-04-01T01:09:36.658555+00:00",
-      "cliff_notes": "Ada Palmer is a Renaissance historian, novelist, and composer who has made significant contributions to the understanding of the economic and cultural factors of the Renaissance period. Based at the University of Chicago, Palmer's work has been influential in shaping the discourse around the Italian city republics and their role in the development of modern Europe. Her book 'Inventing the Renaissance' has been particularly impactful, providing a comprehensive analysis of the period and its lasting effects on Western civilization. Through her research and writing, Palmer has become a respected voice in the field of Renaissance studies, offering valuable insights into the historical context that has shaped the modern world.",
-      "derived": {
-        "current_role": "Historian, Novelist, Composer at the University of Chicago",
-        "books_or_works": "Inventing the Renaissance"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Ada Palmer is a Renaissance historian, novelist, and composer who has made significant contributions to the understanding of the economic and cultural factors of the Renaissance period. Based at the University of Chicago, Palmer's work has been influential in shaping the discourse around the Italian city republics and their role in the development of modern Europe.",
-        "Her book 'Inventing the Renaissance' has been particularly impactful, providing a comprehensive analysis of the period and its lasting effects on Western civilization. Through her research and writing, Palmer has become a respected voice in the field of Renaissance studies, offering valuable insights into the historical context that has shaped the modern world."
-      ],
-      "sections": [
-        {
-          "heading": "Renaissance Historian",
-          "body": "Ada Palmer is a renowned historian specializing in the Renaissance period, focusing on the economic and cultural factors that shaped the era."
-        },
-        {
-          "heading": "Author of 'Inventing the Renaissance'",
-          "body": "Palmer's book 'Inventing the Renaissance' is a significant contribution to historical literature, providing a detailed exploration of the period's complexities and its impact on modern society."
-        },
-        {
-          "heading": "Composer and Novelist",
-          "body": "In addition to her historical work, Palmer is also a composer and novelist, showcasing her diverse talents and contributions to the arts and academia."
-        },
-        {
-          "heading": "University of Chicago",
-          "body": "Based at the University of Chicago, Palmer continues to teach and research, sharing her expertise with students and the academic community."
-        }
-      ]
-    }
   }
 ]
 };

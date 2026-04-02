@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-01T15:17:01.195202",
-  "last_updated": "2026-04-01T15:17:01.195202",
-  "last_pipeline_run": "2026-04-01T15:17:01.195202",
+  "generated_at": "2026-04-01T22:04:58.097281",
+  "last_updated": "2026-04-01T22:04:58.097281",
+  "last_pipeline_run": "2026-04-01T22:04:58.097281",
   "main_page": {
     "overton": 8,
     "insights": 8,
@@ -9,13 +9,13 @@
   },
   "counts": {
     "ticker_mentions": 148,
-    "podcast_episodes": 105,
+    "podcast_episodes": 106,
     "newsletters": 7,
     "daily_scores": 86,
     "overton_terms_total": 16,
-    "latest_insights_total": 119,
+    "latest_insights_total": 120,
     "today_mentions": {},
-    "podcasts_analyzed": 5
+    "podcasts_analyzed": 6
   },
   "step_results": {
     "downloaded": 1,
@@ -23,7 +23,7 @@
     "analyzed": 1,
     "insight_created": 1,
     "published": 1,
-    "total": 2
+    "total": 1
   },
   "episodes": [
     {
@@ -32,28 +32,6 @@
       "title": "Why $200 Oil Won\u2019t Spike Inflation to 9% | Anna Wong on Recession Probability, PCE vs CPI, and Fed Reaction Function In A Scenario of Soaring Energy Prices",
       "published": "2026-04-01",
       "rss_guid": "f5ba2700-2d85-11f1-9a20-675a36b4e5ef",
-      "stages": {
-        "downloaded": false,
-        "transcribed": false,
-        "analyzed": false,
-        "insight_created": false,
-        "published": false
-      },
-      "stage_reasons": {
-        "downloaded": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "transcribed": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "analyzed": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "insight_created": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
-      },
-      "status": "needs_download"
-    },
-    {
-      "id": "36dd6e38-bd6d-4283-975a-b386e4a2f86c",
-      "podcast": "The a16z Show",
-      "title": "What Happens When a Public Company Goes All In on AI",
-      "published": "2026-04-01",
-      "rss_guid": "36dd6e38-bd6d-4283-975a-b386e4a2f86c",
       "stages": {
         "downloaded": true,
         "transcribed": true,
@@ -65,15 +43,7 @@
       "status": "complete"
     }
   ],
-  "available_from_rss": [
-    {
-      "podcast": "Monetary Matters with Jack Farley",
-      "title": "Why $200 Oil Won\u2019t Spike Inflation to 9% | Anna Wong on Recession Probability, PCE vs CPI, and Fed Reaction Function In A Scenario of Soaring Energy Prices",
-      "published": "Wed, 01 Apr 2026 14:40:00 -0000",
-      "published_date": "2026-04-01",
-      "rss_guid": ""
-    }
-  ],
+  "available_from_rss": [],
   "stale_episodes": [],
   "stale_threshold_days": 2,
   "rss_filter_criteria": {
