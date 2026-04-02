@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-01T22:04:58.097281",
-  "last_updated": "2026-04-01T22:04:58.097281",
-  "last_pipeline_run": "2026-04-01T22:04:58.097281",
+  "generated_at": "2026-04-02T05:01:09.954268",
+  "last_updated": "2026-04-02T05:01:09.954268",
+  "last_pipeline_run": "2026-04-02T05:01:09.954268",
   "main_page": {
     "overton": 8,
     "insights": 8,
@@ -15,35 +15,50 @@
     "overton_terms_total": 16,
     "latest_insights_total": 120,
     "today_mentions": {},
-    "podcasts_analyzed": 6
+    "podcasts_analyzed": 0
   },
   "step_results": {
-    "downloaded": 1,
-    "transcribed": 1,
-    "analyzed": 1,
-    "insight_created": 1,
-    "published": 1,
+    "downloaded": 0,
+    "transcribed": 0,
+    "analyzed": 0,
+    "insight_created": 0,
+    "published": 0,
     "total": 1
   },
   "episodes": [
     {
-      "id": "f5ba2700-2d85-11f1-9a20-675a36b4e5ef",
-      "podcast": "Monetary Matters with Jack Farley",
-      "title": "Why $200 Oil Won\u2019t Spike Inflation to 9% | Anna Wong on Recession Probability, PCE vs CPI, and Fed Reaction Function In A Scenario of Soaring Energy Prices",
-      "published": "2026-04-01",
-      "rss_guid": "f5ba2700-2d85-11f1-9a20-675a36b4e5ef",
+      "id": "rss::the a16z show::alex blania on proof of human and building world's identity network",
+      "podcast": "The a16z Show",
+      "title": "Alex Blania on Proof of Human and Building World's Identity Network",
+      "published": "2026-04-02",
+      "published_date": "2026-04-02",
+      "rss_guid": "",
       "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
+        "downloaded": false,
+        "transcribed": false,
+        "analyzed": false,
+        "insight_created": false,
+        "published": false
       },
-      "stage_reasons": {},
-      "status": "complete"
+      "stage_reasons": {
+        "downloaded": "Discovered on RSS feed; not yet pulled into curation/pipeline state.",
+        "transcribed": "Waiting for download first.",
+        "analyzed": "Waiting for transcript first.",
+        "insight_created": "Depends on analyze step first.",
+        "published": "Not on site until export after analysis and insight promotion."
+      },
+      "status": "needs_download"
     }
   ],
-  "available_from_rss": [],
+  "available_from_rss": [
+    {
+      "podcast": "The a16z Show",
+      "title": "Alex Blania on Proof of Human and Building World's Identity Network",
+      "published": "Thu, 2 Apr 2026 10:00:00 +0000",
+      "published_date": "2026-04-02",
+      "rss_guid": ""
+    }
+  ],
   "stale_episodes": [],
   "stale_threshold_days": 2,
   "rss_filter_criteria": {

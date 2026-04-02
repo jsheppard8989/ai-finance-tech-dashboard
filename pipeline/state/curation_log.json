@@ -1,20 +1,6 @@
 {
-  "timestamp": "2026-04-01T22:03:19.551203",
-  "total_feed_episodes": 1,
-  "approved_for_transcription": 1,
-  "episodes": [
-    {
-      "podcast": "Monetary Matters with Jack Farley",
-      "title": "Why $200 Oil Won\u2019t Spike Inflation to 9% | Anna Wong on Recession Probability, PCE vs CPI, and Fed Reaction Function In A Scenario of Soaring Energy Prices",
-      "description": "\n        <p>This episode is brought to you by the Pictet AI Enhanced International Equity ETF ($PQNT):\u00a0</p>\n<p><br></p>\n<p><a href=\"https://etf.am.pictet.com/pqnt/?utm_campaign=usetf&amp;cid=2715538577&amp;utm_source=jfmv&amp;utm_content=pqnt&amp;utm_medium=podcast_02&amp;utm_term=noterm\"><u>https://etf.am.pictet.com/pqnt/?utm_campaign=usetf&amp;cid=2715538577&amp;utm_source=jfmv&amp;utm_content=pqnt&amp;utm_medium=podcast_02&amp;utm_term=noterm</u></a></p>\n<p><br></p>\n<p>Learn More about Pictet",
-      "audio_url": "https://traffic.megaphone.fm/EWWMN4260792673.mp3",
-      "published": "Wed, 01 Apr 2026 14:40:00 -0000",
-      "published_date": "2026-04-01",
-      "rss_guid": "f5ba2700-2d85-11f1-9a20-675a36b4e5ef",
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/EWWMN4260792673.mp3",
-      "filename": "EWWMN4260792673.mp3",
-      "status": "APPROVED",
-      "matched_keywords": []
-    }
-  ]
+  "timestamp": "2026-04-02T05:00:15.101540",
+  "total_feed_episodes": 0,
+  "approved_for_transcription": 0,
+  "episodes": []
 }

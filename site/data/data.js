@@ -3,7 +3,7 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-04-01T22:05:00.992348",
+  generatedAt: "2026-04-02T05:01:19.005980",
   chartsVersion: "2026-04-01T15:16:59.801570",
   tickerScores: [
   {
@@ -11969,7 +11969,7 @@ const dashboardData = {
 ],
   podcastGuests: [
   {
-    "id": 1396,
+    "id": 1415,
     "name": "Why $200 Oil Won\u2019t Spike Inflation to 9%",
     "slug": "why-200-oil-wont-spike-inflation-to-9",
     "bio": null,
@@ -11981,7 +11981,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1397,
+    "id": 1416,
     "name": "This special episode",
     "slug": "this-special-episode",
     "bio": null,
@@ -11993,7 +11993,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1398,
+    "id": 1417,
     "name": "Lupin Ramon",
     "slug": "lupin-ramon",
     "bio": null,
@@ -12005,7 +12005,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1399,
+    "id": 1418,
     "name": "When the Music Stops",
     "slug": "when-the-music-stops",
     "bio": null,
@@ -12017,7 +12017,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1400,
+    "id": 1419,
     "name": "Ground Infrastructure",
     "slug": "ground-infrastructure",
     "bio": null,
@@ -12029,7 +12029,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1401,
+    "id": 1420,
     "name": "Rory Johnston",
     "slug": "rory-johnston",
     "bio": null,
@@ -12041,7 +12041,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1402,
+    "id": 1421,
     "name": "Senator John Fetterman on Voting Rights",
     "slug": "senator-john-fetterman-on-voting-rights",
     "bio": null,
@@ -12053,7 +12053,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1403,
+    "id": 1422,
     "name": "Stock Market on Shaky Foundations",
     "slug": "stock-market-on-shaky-foundations",
     "bio": null,
@@ -12065,7 +12065,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1404,
+    "id": 1423,
     "name": "Elon Musk on Moonshots",
     "slug": "elon-musk-on-moonshots",
     "bio": null,
@@ -12077,7 +12077,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1405,
+    "id": 1424,
     "name": "Investing in Capitalism",
     "slug": "investing-in-capitalism",
     "bio": null,
@@ -12089,7 +12089,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1406,
+    "id": 1425,
     "name": "Harvard Professor Graham Allison",
     "slug": "harvard-professor-graham-allison",
     "bio": null,
@@ -12101,7 +12101,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1407,
+    "id": 1426,
     "name": "Andrew Yang",
     "slug": "andrew-yang",
     "bio": "Andrew Yang is an entrepreneur and political leader who popularized universal basic income in U.S. politics through his 2020 presidential campaign.",
@@ -12113,7 +12113,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1408,
+    "id": 1427,
     "name": "Inventing the Renaissance",
     "slug": "inventing-the-renaissance",
     "bio": null,
@@ -12125,7 +12125,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1409,
+    "id": 1428,
     "name": "Ray Dalio",
     "slug": "ray-dalio",
     "bio": "Ray Dalio is the founder of Bridgewater Associates and a macro investor known for his 'Principles' framework and work on long-term debt cycles.",
@@ -12137,7 +12137,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1410,
+    "id": 1429,
     "name": "Nobel Prize-winning economist Paul Krugman",
     "slug": "nobel-prize-winning-economist-paul-krugman",
     "bio": null,
@@ -12149,7 +12149,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1411,
+    "id": 1430,
     "name": "host Jack Mallers",
     "slug": "host-jack-mallers",
     "bio": null,
@@ -12161,7 +12161,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1412,
+    "id": 1431,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -12173,7 +12173,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1413,
+    "id": 1432,
     "name": "Bosworth",
     "slug": "bosworth",
     "bio": null,
@@ -12185,7 +12185,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1414,
+    "id": 1433,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -12216,7 +12216,7 @@ const dashboardData = {
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-03-19",
     "mention_score": 4,
-    "mention_score_decayed": 3.73,
+    "mention_score_decayed": 3.65,
     "last_main_idea": "The Iran conflict could lead to a renewed inflation cycle, affecting commodities and energy markets, with potential second-order effects that markets may currently be underpricing.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:36:30.218908",
@@ -12334,7 +12334,7 @@ const dashboardData = {
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-03-19",
     "mention_score": 2,
-    "mention_score_decayed": 1.87,
+    "mention_score_decayed": 1.82,
     "last_main_idea": "The Iran conflict could lead to a renewed inflation cycle, affecting commodities and energy markets, with potential second-order effects that markets may currently be underpricing.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:35:48.845381",
