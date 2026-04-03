@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-04-02T05:01:09.997733",
+  "last_updated": "2026-04-02T22:02:56.456164",
   "episodes": {
-    "monetary_matters_with_jack_farley_why_$200_oil_won\u2019t_spike_infla": {
+    "moonshots_with_peter_diamandis_uber\u2019s_robotaxi_playbook,_the_": {
       "info": {
-        "podcast": "Monetary Matters with Jack Farley",
-        "title": "Why $200 Oil Won\u2019t Spike Inflation to 9% | Anna Wong on Recession Probability, PCE vs CPI, and Fed Reaction Function In A Scenario of Soaring Energy Prices",
-        "published": "2026-04-01",
-        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/EWWMN4260792673.mp3",
+        "podcast": "Moonshots with Peter Diamandis",
+        "title": "Uber\u2019s Robotaxi Playbook, the End of Human Driving & $10B Bet on Robots | Dara Khosrowshahi (Uber CEO) | EP #244",
+        "published": "2026-04-02",
+        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/moonshots_with_peter_diamandis_uber_s_robotaxi_playbook__the_end_of_human_driving____10b_be_97539612.mp3",
         "keywords": [],
-        "rss_guid": "f5ba2700-2d85-11f1-9a20-675a36b4e5ef"
+        "rss_guid": "1a76f080-2e05-11f1-a288-57078d5d5143"
       },
       "stages": {
         "downloaded": {
@@ -17,23 +17,21 @@
           "reason": null
         },
         "transcribed": {
-          "complete": true,
-          "file": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/EWWMN4260792673.txt",
+          "complete": false,
+          "file": null,
           "timestamp": null,
-          "reason": null
+          "reason": "Waiting for fetch/transcribe step"
         },
         "analyzed": {
-          "complete": true,
-          "episode_id": 131,
+          "complete": false,
+          "episode_id": null,
           "timestamp": null,
-          "reason": null
+          "reason": "Waiting for next analyze run (transcript \u2192 DB)."
         },
         "insight_created": {
-          "complete": true,
-          "insight_id": 26,
-          "insight_title": "Milton Berg: Rare Signal \u2014 Local Bottom or Major Top Ahead",
+          "complete": false,
           "timestamp": null,
-          "reason": null
+          "reason": "Depends on analyze step first."
         },
         "published": {
           "complete": false,
@@ -41,8 +39,90 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-04-01T22:04:58.099507",
-      "status": "needs_export"
+      "first_seen": "2026-04-02T22:02:56.334695",
+      "status": "needs_transcription"
+    },
+    "the_a16z_show_alex_blania_on_proof_of_human_": {
+      "info": {
+        "podcast": "The a16z Show",
+        "title": "Alex Blania on Proof of Human and Building World's Identity Network",
+        "published": "2026-04-02",
+        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_alex_blania_on_proof_of_human_and_building_world_s_identity__4d28229b.mp3",
+        "keywords": [],
+        "rss_guid": "d6577408-6c78-41e9-9803-3725e5b31eef"
+      },
+      "stages": {
+        "downloaded": {
+          "complete": true,
+          "timestamp": null,
+          "reason": null
+        },
+        "transcribed": {
+          "complete": false,
+          "file": null,
+          "timestamp": null,
+          "reason": "Waiting for fetch/transcribe step"
+        },
+        "analyzed": {
+          "complete": false,
+          "episode_id": null,
+          "timestamp": null,
+          "reason": "Waiting for next analyze run (transcript \u2192 DB)."
+        },
+        "insight_created": {
+          "complete": false,
+          "timestamp": null,
+          "reason": "Depends on analyze step first."
+        },
+        "published": {
+          "complete": false,
+          "timestamp": null,
+          "reason": "Not in data.js yet (run export and push to site)."
+        }
+      },
+      "first_seen": "2026-04-02T22:02:56.410326",
+      "status": "needs_transcription"
+    },
+    "macro_voices_macrovoices_#526_matt_barrie:_": {
+      "info": {
+        "podcast": "Macro Voices",
+        "title": "MacroVoices #526 Matt Barrie: Pay To PrAI",
+        "published": "2026-04-02",
+        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/macro_voices_macrovoices__526_matt_barrie__pay_to_prai_f073b962.mp3",
+        "keywords": [],
+        "rss_guid": "macrovoices.podbean.com/31827f73-d960-3624-84b8-11b43c666fff"
+      },
+      "stages": {
+        "downloaded": {
+          "complete": true,
+          "timestamp": null,
+          "reason": null
+        },
+        "transcribed": {
+          "complete": false,
+          "file": null,
+          "timestamp": null,
+          "reason": "Waiting for fetch/transcribe step"
+        },
+        "analyzed": {
+          "complete": false,
+          "episode_id": null,
+          "timestamp": null,
+          "reason": "Waiting for next analyze run (transcript \u2192 DB)."
+        },
+        "insight_created": {
+          "complete": false,
+          "timestamp": null,
+          "reason": "Depends on analyze step first."
+        },
+        "published": {
+          "complete": false,
+          "timestamp": null,
+          "reason": "Not in data.js yet (run export and push to site)."
+        }
+      },
+      "first_seen": "2026-04-02T22:02:56.434253",
+      "status": "needs_transcription"
     }
   }
 }

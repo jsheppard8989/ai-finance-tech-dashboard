@@ -1,6 +1,46 @@
 {
-  "timestamp": "2026-04-02T05:00:15.101540",
-  "total_feed_episodes": 0,
-  "approved_for_transcription": 0,
-  "episodes": []
+  "timestamp": "2026-04-02T22:01:49.074393",
+  "total_feed_episodes": 3,
+  "approved_for_transcription": 3,
+  "episodes": [
+    {
+      "podcast": "Moonshots with Peter Diamandis",
+      "title": "Uber\u2019s Robotaxi Playbook, the End of Human Driving & $10B Bet on Robots | Dara Khosrowshahi (Uber CEO) | EP #244",
+      "description": "\n        <p>This episode was filmed at the 2026 Abundance360 Summit. Learn more at <a href=\"https://www.abundance360.com/\"><u>https://www.abundance360.com/</u></a>\u00a0\u00a0</p>\n<p><br></p>\n<p>This episode is a Q&amp;A with Dara Khosrowshahi at the 2026 Abundance360 Summit, where Uber\u2019s CEO answers questions from the audience about autonomy, flying cars, insurance, labor, and the future of mobility.</p>\n<p><br></p>\n<p>Get access to metatrends 10+ years before anyone else - <a href=\"https://qr.diamandis.",
+      "audio_url": "https://traffic.megaphone.fm/DVVTS5816533892.mp3",
+      "published": "Thu, 02 Apr 2026 15:00:00 -0000",
+      "published_date": "2026-04-02",
+      "rss_guid": "1a76f080-2e05-11f1-a288-57078d5d5143",
+      "status": "APPROVED",
+      "matched_keywords": [],
+      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/moonshots_with_peter_diamandis_uber_s_robotaxi_playbook__the_end_of_human_driving____10b_be_97539612.mp3",
+      "filename": "moonshots_with_peter_diamandis_uber_s_robotaxi_playbook__the_end_of_human_driving____10b_be_97539612.mp3"
+    },
+    {
+      "podcast": "The a16z Show",
+      "title": "Alex Blania on Proof of Human and Building World's Identity Network",
+      "description": "<p>a16z's Ben Horowitz and Erik Torenberg speak with Alex Blania, cofounder and CEO of Tools for Humanity, World, and cofounder of Merge Labs. World is building the largest real human network, a proof-of-human layer for the AI era. They cover the technical challenge of proving human uniqueness at scale using iris biometrics, the privacy architecture behind World ID, and why platforms from social networks to dating apps to video conferencing will soon require proof of human verification.</p>\n<p>\u00a0",
+      "audio_url": "https://mgln.ai/e/1344/afp-848985-injected.calisto.simplecastaudio.com/3f86df7b-51c6-4101-88a2-550dba782de8/episodes/0aaeffbf-2114-465a-9fd1-6417d9cb9740/audio/128/default.mp3?aid=rss_feed&awCollectionId=3f86df7b-51c6-4101-88a2-550dba782de8&awEpisodeId=0aaeffbf-2114-465a-9fd1-6417d9cb9740&feed=JGE3yC0V",
+      "published": "Thu, 2 Apr 2026 10:00:00 +0000",
+      "published_date": "2026-04-02",
+      "rss_guid": "d6577408-6c78-41e9-9803-3725e5b31eef",
+      "status": "APPROVED",
+      "matched_keywords": [],
+      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_alex_blania_on_proof_of_human_and_building_world_s_identity__4d28229b.mp3",
+      "filename": "the_a16z_show_alex_blania_on_proof_of_human_and_building_world_s_identity__4d28229b.mp3"
+    },
+    {
+      "podcast": "Macro Voices",
+      "title": "MacroVoices #526 Matt Barrie: Pay To PrAI",
+      "description": "<p class=\"p1\">MacroVoices Erik Townsend &amp; Patrick Ceresna welcome, Matt Barrie &amp; Dr. Anas Alhajji. They discuss the latest developments in AI, their impact on private credit markets, and why emerging pricing models could trigger a dot-com\u2013scale market disruption. <a href='https://bit.ly/47Ca0Z5'>https://bit.ly/47Ca0Z5</a></p>\n<p class=\"p1\">\u00a0</p>\n<p class=\"p1\">\u00a0\ud83d\udd3bDownload Big Picture Trading Chartbook \ud83d\udcc8\ud83d\udcc9: <a href='https://bit.ly/4v7Mq0k'>https://bit.ly/4v7Mq0k</a></p>\n<p class=\"p2\">\u00a0</p>\n<",
+      "audio_url": "https://dts.podtrac.com/redirect.mp3/mcdn.podbean.com/mf/web/8rc29ugm4prqksj5/MacroVoices-2026-04-02-Matt-Barrie.mp3",
+      "published": "Thu, 02 Apr 2026 07:06:44 -0500",
+      "published_date": "2026-04-02",
+      "rss_guid": "macrovoices.podbean.com/31827f73-d960-3624-84b8-11b43c666fff",
+      "status": "APPROVED",
+      "matched_keywords": [],
+      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/macro_voices_macrovoices__526_matt_barrie__pay_to_prai_f073b962.mp3",
+      "filename": "macro_voices_macrovoices__526_matt_barrie__pay_to_prai_f073b962.mp3"
+    }
+  ]
 }

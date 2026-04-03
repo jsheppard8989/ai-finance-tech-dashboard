@@ -1,4 +1,26 @@
 {
-  "timestamp": "2026-04-02T05:00:24.826627",
-  "results": []
+  "timestamp": "2026-04-02T22:02:07.038088",
+  "results": [
+    {
+      "podcast": "Moonshots with Peter Diamandis",
+      "title": "Uber\u2019s Robotaxi Playbook, the End of Human Driving & $10B Bet on Robots | Dara Khosrowshahi (Uber CEO) | EP #244",
+      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/DVVTS5816533892.mp3",
+      "transcript_path": null,
+      "success": false
+    },
+    {
+      "podcast": "The a16z Show",
+      "title": "Alex Blania on Proof of Human and Building World's Identity Network",
+      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_20260402_d6577408_6c78_41e9_9803_3725e5b3.mp3",
+      "transcript_path": null,
+      "success": false
+    },
+    {
+      "podcast": "Macro Voices",
+      "title": "MacroVoices #526 Matt Barrie: Pay To PrAI",
+      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/MacroVoices-2026-04-02-Matt-Barrie.mp3",
+      "transcript_path": null,
+      "success": false
+    }
+  ]
 }

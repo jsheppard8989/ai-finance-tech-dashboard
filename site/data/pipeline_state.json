@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-02T05:01:09.954268",
-  "last_updated": "2026-04-02T05:01:09.954268",
-  "last_pipeline_run": "2026-04-02T05:01:09.954268",
+  "generated_at": "2026-04-02T22:02:56.331520",
+  "last_updated": "2026-04-02T22:02:56.331520",
+  "last_pipeline_run": "2026-04-02T22:02:56.331520",
   "main_page": {
     "overton": 8,
     "insights": 8,
@@ -23,16 +23,15 @@
     "analyzed": 0,
     "insight_created": 0,
     "published": 0,
-    "total": 1
+    "total": 3
   },
   "episodes": [
     {
-      "id": "rss::the a16z show::alex blania on proof of human and building world's identity network",
-      "podcast": "The a16z Show",
-      "title": "Alex Blania on Proof of Human and Building World's Identity Network",
+      "id": "1a76f080-2e05-11f1-a288-57078d5d5143",
+      "podcast": "Moonshots with Peter Diamandis",
+      "title": "Uber\u2019s Robotaxi Playbook, the End of Human Driving & $10B Bet on Robots | Dara Khosrowshahi (Uber CEO) | EP #244",
       "published": "2026-04-02",
-      "published_date": "2026-04-02",
-      "rss_guid": "",
+      "rss_guid": "1a76f080-2e05-11f1-a288-57078d5d5143",
       "stages": {
         "downloaded": false,
         "transcribed": false,
@@ -41,20 +40,78 @@
         "published": false
       },
       "stage_reasons": {
-        "downloaded": "Discovered on RSS feed; not yet pulled into curation/pipeline state.",
-        "transcribed": "Waiting for download first.",
-        "analyzed": "Waiting for transcript first.",
-        "insight_created": "Depends on analyze step first.",
-        "published": "Not on site until export after analysis and insight promotion."
+        "downloaded": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "transcribed": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "analyzed": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "insight_created": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
+      },
+      "status": "needs_download"
+    },
+    {
+      "id": "d6577408-6c78-41e9-9803-3725e5b31eef",
+      "podcast": "The a16z Show",
+      "title": "Alex Blania on Proof of Human and Building World's Identity Network",
+      "published": "2026-04-02",
+      "rss_guid": "d6577408-6c78-41e9-9803-3725e5b31eef",
+      "stages": {
+        "downloaded": false,
+        "transcribed": false,
+        "analyzed": false,
+        "insight_created": false,
+        "published": false
+      },
+      "stage_reasons": {
+        "downloaded": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "transcribed": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "analyzed": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "insight_created": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
+      },
+      "status": "needs_download"
+    },
+    {
+      "id": "macrovoices.podbean.com/31827f73-d960-3624-84b8-11b43c666fff",
+      "podcast": "Macro Voices",
+      "title": "MacroVoices #526 Matt Barrie: Pay To PrAI",
+      "published": "2026-04-02",
+      "rss_guid": "macrovoices.podbean.com/31827f73-d960-3624-84b8-11b43c666fff",
+      "stages": {
+        "downloaded": false,
+        "transcribed": false,
+        "analyzed": false,
+        "insight_created": false,
+        "published": false
+      },
+      "stage_reasons": {
+        "downloaded": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "transcribed": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "analyzed": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "insight_created": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
       },
       "status": "needs_download"
     }
   ],
   "available_from_rss": [
     {
+      "podcast": "Moonshots with Peter Diamandis",
+      "title": "Uber\u2019s Robotaxi Playbook, the End of Human Driving & $10B Bet on Robots | Dara Khosrowshahi (Uber CEO) | EP #244",
+      "published": "Thu, 02 Apr 2026 15:00:00 -0000",
+      "published_date": "2026-04-02",
+      "rss_guid": ""
+    },
+    {
       "podcast": "The a16z Show",
       "title": "Alex Blania on Proof of Human and Building World's Identity Network",
       "published": "Thu, 2 Apr 2026 10:00:00 +0000",
+      "published_date": "2026-04-02",
+      "rss_guid": ""
+    },
+    {
+      "podcast": "Macro Voices",
+      "title": "MacroVoices #526 Matt Barrie: Pay To PrAI",
+      "published": "Thu, 02 Apr 2026 07:06:44 -0500",
       "published_date": "2026-04-02",
       "rss_guid": ""
     }

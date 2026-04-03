@@ -1,11 +1,11 @@
 {
-  "last_run_iso": "2026-04-01T22:05:03.655763",
+  "last_run_iso": "2026-04-02T05:01:20.535004",
   "step_results": {
-    "transcripts_analyzed": 1,
+    "transcripts_analyzed": 0,
     "newsletters_imported": 0,
-    "insights_promoted": 1,
+    "insights_promoted": 0,
     "scores": 0,
-    "pundits_enriched": 1
+    "pundits_enriched": 0
   },
   "counts": {
     "ticker_mentions": 148,

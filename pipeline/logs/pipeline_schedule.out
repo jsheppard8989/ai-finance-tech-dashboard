@@ -18745,3 +18745,408 @@ nnovation and collaboration in the...
 ============================================================
 STEP: Extract Podcast Guests
 ============================================================
+============================================================
+Extract Podcast Guests
+============================================================
+Processing 104 processed episodes
+  ✓ Why $200 Oil Won’t Spike Inflation to 9% ← Monetary Matters with Jack Farley (2026-04-01)
+  ✓ This special episode ← All-In Podcast (2026-03-28)
+  ✓ Lupin Ramon ← Monetary Matters with Jack Farley (2026-03-27)
+  ✓ When the Music Stops ← The Jack Mallers Show (2026-03-24)
+  ✓ Ground Infrastructure ← The a16z Show (2026-03-23)
+  ✓ Rory Johnston ← Monetary Matters with Jack Farley (2026-03-19)
+  ✓ Senator John Fetterman on Voting Rights ← All-In with Chamath, Jason, Sacks & Friedberg (2026-03-18)
+  ✓ Stock Market on Shaky Foundations ← Monetary Matters with Jack Farley (2026-03-18)
+  ✓ Elon Musk on Moonshots ← Moonshots with Peter Diamandis (2026-03-17)
+  ✓ Investing in Capitalism ← All-In with Chamath, Jason, Sacks & Friedberg (2026-03-13)
+  ✓ Harvard Professor Graham Allison ← All-In with Chamath, Jason, Sacks & Friedberg (2026-03-09)
+  ✓ Andrew Yang ← Moonshots with Peter Diamandis (2026-03-07)
+  ✓ Inventing the Renaissance ← Dwarkesh Podcast (2026-03-06)
+  ✓ Ray Dalio ← All-In with Chamath, Jason, Sacks & Friedberg (2026-03-03)
+  ✓ Nobel Prize-winning economist Paul Krugman ← Monetary Matters with Jack Farley (2026-02-19)
+  ✓ host Jack Mallers ← The Jack Mallers Show (2026-02-19)
+  ✓ Ben Horowitz ← Moonshots with Peter Diamandis (2026-02-19)
+  ✓ Bosworth ← a16z Live (2026-02-15)
+  ✓ Milton Berg ← Monetary Matters with Jack Farley (2026-02-06)
+
+✓ Done. 19 guest(s) in database.
+
+✓ Extract Podcast Guests completed
+
+============================================================
+STEP: Export Website Data
+============================================================
+============================================================
+Exporting Website Data
+============================================================
+✓ Exported website data to /Users/jaredsheppard/.openclaw/workspace/site/data
+✓ Exported: {'ticker_scores': 48, 'podcast_summaries': 49, 'archive_items': 136, 'podcast_guests': 19, 'pundits': 20}
+🔍 Scanning podcast pipeline...
+
+
+================================================================================
+📊 PODCAST PIPELINE STATUS
+================================================================================
+
+📈 Pipeline Summary (1 total episodes tracked):
+  ✅ Downloaded:       1 / 1
+  ✅ Transcribed:      1 / 1
+  ✅ Analyzed:         1 / 1
+  ✅ Insight Created:  1 / 1
+  ✅ Published:        0 / 1
+
+🔍 Episodes Needing Attention:
+
+  🌐 Pending Publishing (1):
+    - Why $200 Oil Won’t Spike Inflation to 9% | Anna Wo
+
+✅ Complete Episodes (All Stages):
+    (None yet)
+
+📅 Last Updated: 2026-04-02T05:01:09.997733
+📁 Status file: /Users/jaredsheppard/.openclaw/workspace/pipeline/state/pipeline_status.json
+================================================================================
+  ✓ Exported pipeline_state.json: 1 tracked
+
+============================================================
+Generating Website JavaScript
+============================================================
+✓ Generated data.js with 48 tickers, 136 archive items, 120 deep dives, 4 suggested terms, 19 legacy guests, 20 pundits; chartsVersion=2026-04-01T15:16:59.801570
+✓ Bumped data.js cache-buster to v=1775124079
+
+============================================================
+STEP: Push to GitHub
+============================================================
+✓ Pushed to GitHub: Pipeline update 2026-04-02 05:01: 0 podcasts, 0 insights, 0 newsletters
+Nothing new — skipping notification
+
+============================================================
+PIPELINE COMPLETE
+Finished: 2026-04-02 05:01:20.535004
+============================================================
+📊 Pipeline Complete
+
+
+🌐 Website updated
+2026-04-02T22:01:29-05:00 run_if_scheduled: in window, running pipeline
+============================================================
+AUTO PIPELINE
+Mode: full
+Started: 2026-04-02 22:01:30.192827
+============================================================
+
+============================================================
+STEP: Podcast Curation
+============================================================
+ter Diamandis: 1 episodes
+  Fetching: https://feeds.megaphone.fm/EWWMN1909747317...
+    ✓ Monetary Matters with Jack Farley: 0 episodes
+  Fetching: https://feeds.simplecast.com/JGE3yC0V...
+    ✓ The a16z Show: 1 episodes
+  Fetching: https://rss.libsyn.com/shows/254861/destinations/1928300.xml...
+    ✓ All-In with Chamath, Jason, Sacks & Friedberg: 0 episodes
+  Fetching: https://anchor.fm/s/e29097f4/podcast/rss...
+    ✓ The Jack Mallers Show: 0 episodes
+  Fetching: https://feed.podbean.com/macrovoices/feed.xml...
+    ✓ Macro Voices: 1 episodes
+  Fetching: https://api.substack.com/feed/podcast/69345.rss...
+    ✓ Dwarkesh Podcast: 0 episodes
+
+  Total feed episodes (current month only: 2026-04): 3
+
+Matching audio files to episodes...
+  ✓ Episodes with matching audio: 0
+  ? Unmatched audio files (no matching feed episode): 41
+  📥 Episodes pending download before auto-download: 3
+
+Approving all episodes from feed list (feeds are pre-curated)...
+  ↓ Downloading audio: Moonshots with Peter Diamandis – Uber’s Robotaxi Playbook, the End of Human Driving & $10B Be
+  ↓ Downloading audio: The a16z Show – Alex Blania on Proof of Human and Building World's Identity 
+  ↓ Downloading audio: Macro Voices – MacroVoices #526 Matt Barrie: Pay To PrAI
+  ✓ Downloaded audio for 3 approved episode(s)
+
+  APPROVED (will transcribe or download): 3
+  🎧 Approved episodes with audio after auto-download: 3
+
+======================================================================
+CURATION RESULTS
+======================================================================
+
+📌 APPROVED (will transcribe or download):
+
+  ✓ Moonshots with Peter Diamandis
+    Title: Uber’s Robotaxi Playbook, the End of Human Driving & $10B Bet on Robot
+    File: moonshots_with_peter_diamandis_uber_s_robotaxi_playbook__the_end_of_human_driving____10b_be_97539612.mp3
+
+  ✓ The a16z Show
+    Title: Alex Blania on Proof of Human and Building World's Identity Network
+    File: the_a16z_show_alex_blania_on_proof_of_human_and_building_world_s_identity__4d28229b.mp3
+
+  ✓ Macro Voices
+    Title: MacroVoices #526 Matt Barrie: Pay To PrAI
+    File: macro_voices_macrovoices__526_matt_barrie__pay_to_prai_f073b962.mp3
+
+
+✓ Curation log saved: /Users/jaredsheppard/.openclaw/workspace/pipeline/state/curation_log.json
+
+======================================================================
+NEXT STEPS
+======================================================================
+
+1. Review approved episodes above
+2. To transcribe approved episodes, run:
+   python3 transcribe_curated.py
+
+3. Or manually transcribe specific files (only for episodes that have audio):
+   whisper 'moonshots_with_peter_diamandis_uber_s_robotaxi_playbook__the_end_of_human_driving____10b_be_97539612.mp3' --model tiny --language en
+   whisper 'the_a16z_show_alex_blania_on_proof_of_human_and_building_world_s_identity__4d28229b.mp3' --model tiny --language en
+   whisper 'macro_voices_macrovoices__526_matt_barrie__pay_to_prai_f073b962.mp3' --model tiny --language en
+
+✓ Podcast Curation completed
+
+============================================================
+STEP: Fetch & Transcribe
+============================================================
+=
+Fetch & Transcribe Latest Podcast Episodes
+======================================================================
+
+Found 7 podcast feeds
+
+📻 Processing: https://feeds.megaphone.fm/DVVTS2890392624...
+  📋 Latest: Uber’s Robotaxi Playbook, the End of Human Driving & $10B Be...
+  ⬇️  Downloading: DVVTS5816533892.mp3
+     Title: Uber’s Robotaxi Playbook, the End of Human Driving & $10B Be...
+     ✓ Downloaded to /Users/jaredsheppard/.openclaw/workspace/audio/DVVTS5816533892.mp3
+  🎙️  Transcribing: DVVTS5816533892.mp3
+  📥 Submitted to whisper queue: DVVTS5816533892.mp3
+  ⏭ Queue-only mode: not waiting. Run pipeline again after worker finishes.
+
+📻 Processing: https://feeds.megaphone.fm/EWWMN1909747317...
+  ⏭ Already have 'Why $200 Oil Won’t Spike Inflation to 9% | Anna Wo' (guid match, ep_id=131)
+  ✗ No episode found
+
+📻 Processing: https://feeds.simplecast.com/JGE3yC0V...
+  📋 Latest: Alex Blania on Proof of Human and Building World's Identity ...
+  ⬇️  Downloading: the_a16z_show_20260402_d6577408_6c78_41e9_9803_3725e5b3.mp3
+     Title: Alex Blania on Proof of Human and Building World's Identity ...
+     ✓ Downloaded to /Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_20260402_d6577408_6c78_41e9_9803_3725e5b3.mp3
+  🎙️  Transcribing: the_a16z_show_20260402_d6577408_6c78_41e9_9803_3725e5b3.mp3
+  📥 Submitted to whisper queue: the_a16z_show_20260402_d6577408_6c78_41e9_9803_3725e5b3.mp3
+  ⏭ Queue-only mode: not waiting. Run pipeline again after worker finishes.
+
+📻 Processing: https://rss.libsyn.com/shows/254861/destinations/1...
+  ⏭ Skipping 'Anthropic's Generational Run, OpenAI Panics, AI Mo' — published 2026-03-27 (not in current month)
+  ✗ No episode found
+
+📻 Processing: https://anchor.fm/s/e29097f4/podcast/rss...
+  ⏭ Skipping 'They're Lying to You. Again. Stay Humble & Stack S' — published 2026-03-31 (not in current month)
+  ✗ No episode found
+
+📻 Processing: https://feed.podbean.com/macrovoices/feed.xml...
+  📋 Latest: MacroVoices #526 Matt Barrie: Pay To PrAI...
+  ⬇️  Downloading: MacroVoices-2026-04-02-Matt-Barrie.mp3
+     Title: MacroVoices #526 Matt Barrie: Pay To PrAI...
+     ✓ Downloaded to /Users/jaredsheppard/.openclaw/workspace/audio/MacroVoices-2026-04-02-Matt-Barrie.mp3
+  🎙️  Transcribing: MacroVoices-2026-04-02-Matt-Barrie.mp3
+  📥 Submitted to whisper queue: MacroVoices-2026-04-02-Matt-Barrie.mp3
+  ⏭ Queue-only mode: not waiting. Run pipeline again after worker finishes.
+
+📻 Processing: https://api.substack.com/feed/podcast/69345.rss...
+  ⏭ Skipping 'Terence Tao – Kepler, Newton, and the true nature ' — published 2026-03-20 (not in current month)
+  ✗ No episode found
+
+✓ Log saved: /Users/jaredsheppard/.openclaw/workspace/pipeline/state/fetch_log.json
+
+======================================================================
+SUMMARY
+======================================================================
+Total feeds: 7
+Successfully transcribed: 0
+Failed: 3
+
+Completed episodes:
+
+
+Next step: Run 'python3 research.py' to analyze transcripts
+
+✓ Fetch & Transcribe completed
+
+============================================================
+STEP: Newsletter Ingestion
+============================================================
+==================================================
+Newsletter Ingestion Pipeline
+==================================================
+
+Connecting to Gmail...
+Connecting to Gmail at imap.gmail.com:993...
+Logging in as jsheppard8989@gmail.com...
+Selecting folder: NEWSLETTERS...
+Found 0 unread emails
+
+No emails fetched from Gmail.
+
+✓ Processed 0 emails
+
+Files saved to: /Users/jaredsheppard/.openclaw/workspace/pipeline/inbox
+
+Next step: Run analysis to score stock mentions
+
+✓ Newsletter Ingestion completed
+
+============================================================
+STEP: Transcript AI Analysis
+============================================================
+  ⚠ Google Generative AI library not installed. Run: pip install google-generativeai
+
+============================================================
+Processing Podcast Transcripts with AI
+============================================================
+  Using Moonshot/Kimi API
+Found 104 transcript files
+  Processing e3c75a06762af10f374661e8af1d1af6.txt...
+    ⏭ Episode already in database (duplicate), skipping
+  Processing dario_amodei.txt...
+    ⏭ Too short, skipping
+  Processing DVVTS5786783285.txt...
+    ⏭ Episode 'Ben Horowitz: xAI Executive Exodus, Ilya's $5B SSI Valuation...' already in database, skipping
+  Processing moonshots_with_peter_diamandis_meta_buys_moltbook__gpt_5_4__and_fruitfly_brain_upload___moo_609f0b8d.txt...
+    ⏭ Episode already in database (duplicate), skipping
+  Processing elon_musk.txt...
+    ⏭ Too short, skipping
+  Processing DVVTS6372073266.txt...
+    ⏭ Episode already in database (duplicate), skipping
+  Processing DVVTS3579530070.txt...
+    ⏭ Episode already in database (duplicate), skipping
+
+✓ Transcript processing complete: 0 new, 97 skipped, 0 errors
+✓ Analyzed 0 new transcripts
+
+============================================================
+STEP: Newsletter Import
+============================================================
+✓ Total newsletters imported: 0
+
+============================================================
+STEP: Promote Episodes to Insights
+============================================================
+Found 0 processed episodes not yet in insights
+✓ Promoted 0 new insight(s) to website
+
+============================================================
+STEP: Promote Newsletters to Insights
+============================================================
+Found 0 newsletters not yet on site
+
+============================================================
+STEP: Aggregate Daily Scores
+============================================================
+✓ Saved 0 daily scores
+✓ Enriched 0 pundit(s) (LLM/Grokipedia profile + net worth + optional Grok)
+
+============================================================
+STEP: Generate Deep Dives
+============================================================
+No insights need Deep Dives!
+
+✓ Generate Deep Dives completed
+
+============================================================
+STEP: Fetch Prices
+============================================================
+8.45%)
+  Fetching MINE... $3.16 (-6.51%)
+  Fetching MSFT... $373.46 (-6.62%)
+  Fetching MSTR... $119.83 (-18.77%)
+  Fetching NEE... $93.15 (+0.36%)
+  Fetching NINT...     Error fetching NINT: HTTP Error 404: Not Found
+Failed
+  Fetching NOC... $702.50 (-4.55%)
+  Fetching NOW... $102.00 (-11.21%)
+  Fetching NVDA... $177.39 (-3.18%)
+  Fetching Nasdaq... $584.98 (-2.57%)
+  Fetching OKLO... $48.13 (-19.37%)
+  Fetching OPENAI...     Error fetching OPENAI: HTTP Error 404: Not Found
+Failed
+  Fetching PALL... $137.31 (-6.04%)
+  Fetching PLTM... $19.15 (-5.71%)
+  Fetching PLTR... $148.46 (-2.79%)
+  Fetching PQNT... $21.25 (+0.02%)
+  Fetching PQT... $0.00 (+0.00%)
+  Fetching PQUS... $24.28 (-1.67%)
+  Fetching PYPL... $45.34 (-0.18%)
+  Fetching QQQ... $584.98 (-2.57%)
+  Fetching Russell... $251.29 (+0.95%)
+  Fetching S&P... $655.83 (-1.97%)
+  Fetching S&P 500... $655.83 (-1.97%)
+  Fetching SF... $74.07 (+6.07%)
+  Fetching SLV... $65.79 (-10.15%)
+  Fetching SMP-500...     Error fetching SMP-500: HTTP Error 404: Not Found
+Failed
+  Fetching SMR... $10.15 (-15.20%)
+  Fetching SNAP... $4.63 (-1.07%)
+  Fetching SNWGF... $9.95 (-13.81%)
+  Fetching SOYB... $24.35 (+2.31%)
+  Fetching SPACEX...     Error fetching SPACEX: HTTP Error 404: Not Found
+Failed
+  Fetching SPCE... $2.46 (-0.81%)
+  Fetching SPY... $655.83 (-1.97%)
+  Fetching SQ... Failed
+  Fetching SQQQ... $77.29 (+5.57%)
+  Fetching Semiconductors... $392.32 (-0.41%)
+  Fetching T... $28.33 (+2.16%)
+  Fetching TDOC... $5.27 (-2.23%)
+  Fetching THROPIC...     Error fetching THROPIC: HTTP Error 404: Not Found
+Failed
+  Fetching TLT... $86.79 (-0.48%)
+  Fetching TSLA... $360.59 (-8.84%)
+  Fetching TSM... $339.04 (-0.35%)
+  Fetching TWTR...     Error fetching TWTR: HTTP Error 404: Not Found
+Failed
+  Fetching UBER... $71.84 (-3.78%)
+  Fetching UNG... $11.35 (-7.04%)
+  Fetching URANIUM...     Error fetching URANIUM: HTTP Error 404: Not Found
+Failed
+  Fetching US 10 year Treasury...     Error fetching US 10 year Treasury: URL can't contain control characters. '/v8/finance/chart/US 
+Failed
+  Fetching US DOLLAR INDEX...     Error fetching US DOLLAR INDEX: URL can't contain control characters. '/v8/finance/chart/US 
+Failed
+  Fetching USO... $137.92 (+19.90%)
+  Fetching Uranium...     Error fetching Uranium: HTTP Error 404: Not Found
+Failed
+  Fetching V... $300.80 (-3.00%)
+  Fetching VEEV... $173.98 (-6.10%)
+  Fetching VIX... $23.87 (+1.53%)
+  Fetching WIT... $2.16 (-2.26%)
+  Fetching WMT... $125.79 (-0.16%)
+  Fetching WORK... Failed
+  Fetching WTBN... $25.33 (-0.22%)
+  Fetching WTI... $3.15 (+1.61%)
+  Fetching WTI CRUDE OIL...     Error fetching WTI CRUDE OIL: URL can't contain control characters. '/v8/finance/chart/WTI
+Failed
+  Fetching XAU-USD... $0.00 (+0.00%)
+  Fetching XOM... $160.69 (+2.20%)
+  Fetching ZEC... $0.00 (+0.00%)
+  Fetching ZEN...     Error fetching ZEN: HTTP Error 404: Not Found
+Failed
+
+✓ Saved 92 prices to /Users/jaredsheppard/.openclaw/workspace/site/price_data.json
+Finished: 2026-04-02 22:02:54.837395
+
+✓ Fetch Prices completed
+
+============================================================
+STEP: Generate Charts
+============================================================
+
+STDERR: Traceback (most recent call last):
+  File "/Users/jaredsheppard/.openclaw/workspace/pipeline/generate_charts.py", line 7, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+
+✗ Generate Charts failed
+
+============================================================
+STEP: Auto-Curate Terms
+============================================================

@@ -3,7 +3,7 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-04-02T05:01:19.005980",
+  generatedAt: "2026-04-02T22:02:59.680045",
   chartsVersion: "2026-04-01T15:16:59.801570",
   tickerScores: [
   {
@@ -11969,7 +11969,7 @@ const dashboardData = {
 ],
   podcastGuests: [
   {
-    "id": 1415,
+    "id": 1434,
     "name": "Why $200 Oil Won\u2019t Spike Inflation to 9%",
     "slug": "why-200-oil-wont-spike-inflation-to-9",
     "bio": null,
@@ -11981,7 +11981,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1416,
+    "id": 1435,
     "name": "This special episode",
     "slug": "this-special-episode",
     "bio": null,
@@ -11993,7 +11993,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1417,
+    "id": 1436,
     "name": "Lupin Ramon",
     "slug": "lupin-ramon",
     "bio": null,
@@ -12005,7 +12005,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1418,
+    "id": 1437,
     "name": "When the Music Stops",
     "slug": "when-the-music-stops",
     "bio": null,
@@ -12017,7 +12017,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1419,
+    "id": 1438,
     "name": "Ground Infrastructure",
     "slug": "ground-infrastructure",
     "bio": null,
@@ -12029,7 +12029,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1420,
+    "id": 1439,
     "name": "Rory Johnston",
     "slug": "rory-johnston",
     "bio": null,
@@ -12041,7 +12041,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1421,
+    "id": 1440,
     "name": "Senator John Fetterman on Voting Rights",
     "slug": "senator-john-fetterman-on-voting-rights",
     "bio": null,
@@ -12053,7 +12053,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1422,
+    "id": 1441,
     "name": "Stock Market on Shaky Foundations",
     "slug": "stock-market-on-shaky-foundations",
     "bio": null,
@@ -12065,7 +12065,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1423,
+    "id": 1442,
     "name": "Elon Musk on Moonshots",
     "slug": "elon-musk-on-moonshots",
     "bio": null,
@@ -12077,7 +12077,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1424,
+    "id": 1443,
     "name": "Investing in Capitalism",
     "slug": "investing-in-capitalism",
     "bio": null,
@@ -12089,7 +12089,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1425,
+    "id": 1444,
     "name": "Harvard Professor Graham Allison",
     "slug": "harvard-professor-graham-allison",
     "bio": null,
@@ -12101,7 +12101,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1426,
+    "id": 1445,
     "name": "Andrew Yang",
     "slug": "andrew-yang",
     "bio": "Andrew Yang is an entrepreneur and political leader who popularized universal basic income in U.S. politics through his 2020 presidential campaign.",
@@ -12113,7 +12113,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1427,
+    "id": 1446,
     "name": "Inventing the Renaissance",
     "slug": "inventing-the-renaissance",
     "bio": null,
@@ -12125,7 +12125,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1428,
+    "id": 1447,
     "name": "Ray Dalio",
     "slug": "ray-dalio",
     "bio": "Ray Dalio is the founder of Bridgewater Associates and a macro investor known for his 'Principles' framework and work on long-term debt cycles.",
@@ -12137,7 +12137,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1429,
+    "id": 1448,
     "name": "Nobel Prize-winning economist Paul Krugman",
     "slug": "nobel-prize-winning-economist-paul-krugman",
     "bio": null,
@@ -12149,7 +12149,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1430,
+    "id": 1449,
     "name": "host Jack Mallers",
     "slug": "host-jack-mallers",
     "bio": null,
@@ -12161,7 +12161,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1431,
+    "id": 1450,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -12173,7 +12173,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1432,
+    "id": 1451,
     "name": "Bosworth",
     "slug": "bosworth",
     "bio": null,
@@ -12185,7 +12185,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1433,
+    "id": 1452,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -12391,7 +12391,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-28",
     "mention_score": 2,
-    "mention_score_decayed": 1.82,
+    "mention_score_decayed": 1.78,
     "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-28T22:05:42.395070",
@@ -12452,7 +12452,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-28",
     "mention_score": 2,
-    "mention_score_decayed": 1.82,
+    "mention_score_decayed": 1.78,
     "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-28T22:05:50.938326",
@@ -12509,7 +12509,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-02-15",
     "mention_score": 2,
-    "mention_score_decayed": 1.82,
+    "mention_score_decayed": 1.78,
     "last_main_idea": "Invest in sectors with fertile ground for short selling, such as AI and tech, and under-allocated areas like junior mining, while combining long and short strategies for potential alpha.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:42:09.376490",
@@ -12571,7 +12571,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-02-18",
     "mention_score": 2,
-    "mention_score_decayed": 1.38,
+    "mention_score_decayed": 1.35,
     "last_main_idea": "Invest in the vertical integration of AI, the rise of India as a global AI hub, and the shift towards agent-based interactions.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-19T21:23:33.038094",
@@ -12634,7 +12634,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-16",
     "mention_score": 2,
-    "mention_score_decayed": 1.38,
+    "mention_score_decayed": 1.35,
     "last_main_idea": "Invest in AI startups that focus on specific niches and use cases, as they can compete effectively against larger AI companies by capitalizing on the gaps between platforms.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
@@ -12715,7 +12715,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-01",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Investing in companies that understand complex problems and can leverage AI to gain a competitive advantage in their operations and product development.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-01T15:15:31.311281",
@@ -12776,7 +12776,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-03-31",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Investment in autonomous vehicle technology is poised to disrupt urban mobility and logistics, with companies like Uber positioned to capitalize on this shift.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-01T05:04:28.065974",
@@ -12834,7 +12834,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-31",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Investing in companies that innovate in energy delivery and grid infrastructure can lead to significant returns as the demand for electricity increases and the need for a more efficient and sustainable grid becomes critical.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-01T05:04:38.716099",
@@ -12892,7 +12892,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-31",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Investing in companies that innovate in energy delivery and grid infrastructure can lead to significant returns as the demand for electricity increases and the need for a more efficient and sustainable grid becomes critical.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-01T05:04:51.620692",
@@ -12954,7 +12954,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-31",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Investing in AI-enhanced ETFs like PQNT and PQUS can provide enhanced equity exposure in the current market environment.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-01T05:05:18.251968",
@@ -13015,7 +13015,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Invest in companies and technologies that are reshaping industries and have the potential to create significant economic value for a broad user base, rather than just the companies themselves.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-31T05:03:10.373140",
@@ -13079,7 +13079,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "The democratization of alternative investments provides retail investors with new opportunities, but also comes with structural differences and risks that must be understood.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-30T05:03:22.005290",
@@ -13312,7 +13312,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "The current bull market is built on shaky foundations, and a shift towards a more cautious stance with a focus on security software and data lake control is advised.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-31T20:09:25.315808",
