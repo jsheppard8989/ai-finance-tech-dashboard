@@ -1,5 +1,62 @@
 [
   {
+    "id": 134,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Alex Blania on Proof of Human and Building World's Identity Network",
+    "episode_date": "2026-04-02",
+    "summary": "This podcast discusses the increasing importance of 'Proof of Human' in the digital age, where AI-generated content and bots are becoming indistinguishable from human interactions. The conversation explores the challenges faced by social media platforms in verifying human users and the implications for content monetization, user authentication, and the broader creator economy. The guests emphasize the need for new solutions to ensure that online interactions are genuinely human, and discuss the potential for AI to surpass human capabilities in persuasion and content creation.",
+    "key_takeaways": [
+      "The concept of 'Proof of Human' is gaining importance as AI-generated content becomes more prevalent.",
+      "Social media platforms are struggling to verify human users, leading to issues with content monetization and user authentication.",
+      "AI capabilities are increasing exponentially, and current experiences are just a glimpse of what is to come.",
+      "AI has the potential to be superhuman in persuasion and content creation, outperforming humans.",
+      "The creator economy and platforms like YouTube and TikTok rely on a connection to reality and human creators, which AI-generated content threatens."
+    ],
+    "investment_thesis": "Investing in technologies that can verify human interactions online is becoming critical as AI-generated content proliferates, posing both challenges and opportunities for social media platforms and the broader digital economy.",
+    "key_tickers": null
+  },
+  {
+    "id": 133,
+    "podcast_name": "Moonshots with Peter Diamandis",
+    "episode_title": "Uber\u2019s Robotaxi Playbook, the End of Human Driving & $10B Bet on Robots | Dara Khosrowshahi (Uber CEO) | EP #244",
+    "episode_date": "2026-04-02",
+    "summary": "In this episode of Moonshots with Peter Diamandis, the discussion revolves around the future of autonomous vehicles (AVs) and their impact on society, regulation, and the economy. The conversation touches on the safety of AVs compared to human drivers, the potential decline in the need for traditional driving licenses, and the societal adjustments required to accommodate this new technology. Additionally, the episode explores the challenges of convincing regulators and passengers to adopt AVs, the future of race car driving, and the insurance implications of autonomous vehicles.",
+    "key_takeaways": [
+      "Autonomous vehicles are expected to be more safe than human drivers, leading to a potential shift in the need for traditional driving licenses.",
+      "Regulators are moving slower than the public's acceptance of AVs, with most people willing to ride in autonomous vehicles.",
+      "The mass production of AVs is expected to take time due to high costs, but the technology is advancing faster than anticipated.",
+      "The future may see fewer human drivers on the road, similar to the decline in horse riding skills.",
+      "Race car driving is likely to persist due to its excitement, potentially with augmented technology.",
+      "The insurance industry is still figuring out how to cover AVs, with the model yet to be determined."
+    ],
+    "investment_thesis": "Investment in autonomous vehicle technology and related industries is poised for growth as the technology advances and adoption increases.",
+    "key_tickers": [
+      "BYD"
+    ]
+  },
+  {
+    "id": 132,
+    "podcast_name": "Macro Voices",
+    "episode_title": "MacroVoices #526 Matt Barrie: Pay To PrAI",
+    "episode_date": "2026-04-02",
+    "summary": "This episode of Macro Voices features two main discussions: the escalating conflict between the U.S. and Iran, and the implications of artificial intelligence on private credit markets. The hosts, Eric Townsend and Patrick Suresne, dissect President Trump's speech indicating potential military action against Iran's civilian electric power infrastructure, which could escalate the conflict. The first guest, Matt Barry, CEO of Freelancer.com, discusses the impact of AI on the business model and potential market dislocation. The second guest, Dr. Onis Ahaji, provides an in-depth analysis of the geopolitical situation after President Trump's address. The episode also includes Patrick's trade of the week focusing on private credit markets and their relation to public markets.",
+    "key_takeaways": [
+      "The U.S. is considering targeting Iran's civilian electric power generation plants, a move that could cause Iran to retaliate.",
+      "AI's impact on private credit markets could lead to a market dislocation similar to the 2000.com bust.",
+      "Paper token inference pricing is seen as inevitable and potentially disruptive to the current AI business model.",
+      "The geopolitical backdrop suggests an oversold market that may rally but is uncertain due to ongoing conflicts.",
+      "The 10-year treasury yield is trading at multi-month highs, with a potential ceiling in the 4.5 to 4.60 level."
+    ],
+    "investment_thesis": "Invest in sectors less affected by AI disruption and monitor geopolitical events for opportunities in private credit markets.",
+    "key_tickers": [
+      "SPX",
+      "USDX",
+      "WTI",
+      "GC",
+      "HG"
+    ]
+  },
+  {
     "id": 131,
     "podcast_name": "Monetary Matters with Jack Farley",
     "episode_title": "Why $200 Oil Won\u2019t Spike Inflation to 9% | Anna Wong on Recession Probability, PCE vs CPI, and Fed Reaction Function In A Scenario of Soaring Energy Prices",

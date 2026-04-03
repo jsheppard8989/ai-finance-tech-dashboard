@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-02T22:01:49.074393",
+  "timestamp": "2026-04-03T05:03:12.771511",
   "total_feed_episodes": 3,
   "approved_for_transcription": 3,
   "episodes": [
@@ -11,10 +11,10 @@
       "published": "Thu, 02 Apr 2026 15:00:00 -0000",
       "published_date": "2026-04-02",
       "rss_guid": "1a76f080-2e05-11f1-a288-57078d5d5143",
+      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/DVVTS5816533892.mp3",
+      "filename": "DVVTS5816533892.mp3",
       "status": "APPROVED",
-      "matched_keywords": [],
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/moonshots_with_peter_diamandis_uber_s_robotaxi_playbook__the_end_of_human_driving____10b_be_97539612.mp3",
-      "filename": "moonshots_with_peter_diamandis_uber_s_robotaxi_playbook__the_end_of_human_driving____10b_be_97539612.mp3"
+      "matched_keywords": []
     },
     {
       "podcast": "The a16z Show",
@@ -37,10 +37,10 @@
       "published": "Thu, 02 Apr 2026 07:06:44 -0500",
       "published_date": "2026-04-02",
       "rss_guid": "macrovoices.podbean.com/31827f73-d960-3624-84b8-11b43c666fff",
+      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/MacroVoices-2026-04-02-Matt-Barrie.mp3",
+      "filename": "MacroVoices-2026-04-02-Matt-Barrie.mp3",
       "status": "APPROVED",
-      "matched_keywords": [],
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/macro_voices_macrovoices__526_matt_barrie__pay_to_prai_f073b962.mp3",
-      "filename": "macro_voices_macrovoices__526_matt_barrie__pay_to_prai_f073b962.mp3"
+      "matched_keywords": []
     }
   ]
 }

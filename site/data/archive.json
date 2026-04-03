@@ -1,6 +1,71 @@
 {
   "insights": [
     {
+      "id": 147,
+      "title": "Alex Blania on Proof of Human and Building World's Identity Network",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-04-02",
+      "summary": "This podcast discusses the increasing importance of 'Proof of Human' in the digital age, where AI-generated content and bots are becoming indistinguishable from human interactions. The conversation explores the challenges faced by social media platforms in verifying human users and the implications for content monetization, user authentication, and the broader creator economy. The guests emphasize the need for new solutions to ensure that online interactions are genuinely human, and discuss the potential for AI to surpass human capabilities in persuasion and content creation.",
+      "key_takeaway": "Investing in technologies that can verify human interactions online is becoming critical as AI-generated content proliferates, posing both challenges and opportunities for social media platforms and the broader digital economy.",
+      "tickers_mentioned": [
+        "AAPL",
+        "NVDA",
+        "GOOGL",
+        "META",
+        "MSFT"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-03",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 134
+    },
+    {
+      "id": 148,
+      "title": "Uber\u2019s Robotaxi Playbook, the End of Human Driving & $10B Bet on Robots | Dara Khosrowshahi (Uber CEO) | EP #244",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-04-02",
+      "summary": "In this episode of Moonshots with Peter Diamandis, the discussion revolves around the future of autonomous vehicles (AVs) and their impact on society, regulation, and the economy. The conversation touches on the safety of AVs compared to human drivers, the potential decline in the need for traditional driving licenses, and the societal adjustments required to accommodate this new technology. Additionally, the episode explores the challenges of convincing regulators and passengers to adopt AVs, the future of race car driving, and the insurance implications of autonomous vehicles.",
+      "key_takeaway": "Investment in autonomous vehicle technology and related industries is poised for growth as the technology advances and adoption increases.",
+      "tickers_mentioned": [
+        "BYD"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-03",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 133
+    },
+    {
+      "id": 149,
+      "title": "MacroVoices #526 Matt Barrie: Pay To PrAI",
+      "source_type": "podcast",
+      "source_name": "Macro Voices",
+      "source_date": "2026-04-02",
+      "summary": "This episode of Macro Voices features two main discussions: the escalating conflict between the U.S. and Iran, and the implications of artificial intelligence on private credit markets. The hosts, Eric Townsend and Patrick Suresne, dissect President Trump's speech indicating potential military action against Iran's civilian electric power infrastructure, which could escalate the conflict. The first guest, Matt Barry, CEO of Freelancer.com, discusses the impact of AI on the business model and potential market dislocation. The second guest, Dr. Onis Ahaji, provides an in-depth analysis of the geopolitical situation after President Trump's address. The episode also includes Patrick's trade of the week focusing on private credit markets and their relation to public markets.",
+      "key_takeaway": "Invest in sectors less affected by AI disruption and monitor geopolitical events for opportunities in private credit markets.",
+      "tickers_mentioned": [
+        "SPX",
+        "USDX",
+        "WTI",
+        "GC",
+        "HG"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-03",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 132
+    },
+    {
       "id": 145,
       "title": "What Happens When a Public Company Goes All In on AI",
       "source_type": "podcast",
@@ -54,11 +119,11 @@
         "TSLA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-04-01",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-04-03",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 129
     },
     {
@@ -139,11 +204,11 @@
         "TSLA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-31",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-04-03",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 123
     },
     {
@@ -159,11 +224,11 @@
         "PQUS"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-30",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-04-03",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 122
     },
     {

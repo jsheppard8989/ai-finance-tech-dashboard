@@ -3,7 +3,7 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-04-02T22:02:59.680045",
+  generatedAt: "2026-04-03T05:07:42.628397",
   chartsVersion: "2026-04-01T15:16:59.801570",
   tickerScores: [
   {
@@ -67,14 +67,14 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "S&P 500",
-    "total_score": 278.0,
+    "ticker": "WTI",
+    "total_score": 286.0,
     "raw_mention_count": 4,
     "unique_sources": 1,
     "podcast_mentions": 4,
     "newsletter_mentions": 0,
     "rank": 5,
-    "score": 278.0,
+    "score": 286.0,
     "mentions": 4,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
@@ -82,15 +82,15 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "WTI",
-    "total_score": 216.0,
-    "raw_mention_count": 3,
+    "ticker": "S&P 500",
+    "total_score": 278.0,
+    "raw_mention_count": 4,
     "unique_sources": 1,
-    "podcast_mentions": 3,
+    "podcast_mentions": 4,
     "newsletter_mentions": 0,
     "rank": 6,
-    "score": 216.0,
-    "mentions": 3,
+    "score": 278.0,
+    "mentions": 4,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
     "timeframe": "long_term",
@@ -502,14 +502,14 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "CRSP",
-    "total_score": 64.0,
+    "ticker": "SPX",
+    "total_score": 66.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
     "rank": 34,
-    "score": 64.0,
+    "score": 66.0,
     "mentions": 1,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
@@ -517,7 +517,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "GOOG",
+    "ticker": "CRSP",
     "total_score": 64.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -532,7 +532,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "HOOD",
+    "ticker": "GOOG",
     "total_score": 64.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -547,7 +547,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "SF",
+    "ticker": "HG",
     "total_score": 64.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -562,7 +562,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "URANIUM",
+    "ticker": "HOOD",
     "total_score": 64.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -577,13 +577,58 @@ const dashboardData = {
     "contexts": []
   },
   {
+    "ticker": "SF",
+    "total_score": 64.0,
+    "raw_mention_count": 1,
+    "unique_sources": 1,
+    "podcast_mentions": 1,
+    "newsletter_mentions": 0,
+    "rank": 39,
+    "score": 64.0,
+    "mentions": 1,
+    "conviction_level": "medium",
+    "contrarian_signal": "neutral",
+    "timeframe": "long_term",
+    "contexts": []
+  },
+  {
+    "ticker": "URANIUM",
+    "total_score": 64.0,
+    "raw_mention_count": 1,
+    "unique_sources": 1,
+    "podcast_mentions": 1,
+    "newsletter_mentions": 0,
+    "rank": 40,
+    "score": 64.0,
+    "mentions": 1,
+    "conviction_level": "medium",
+    "contrarian_signal": "neutral",
+    "timeframe": "long_term",
+    "contexts": []
+  },
+  {
+    "ticker": "USDX",
+    "total_score": 62.0,
+    "raw_mention_count": 1,
+    "unique_sources": 1,
+    "podcast_mentions": 1,
+    "newsletter_mentions": 0,
+    "rank": 41,
+    "score": 62.0,
+    "mentions": 1,
+    "conviction_level": "medium",
+    "contrarian_signal": "neutral",
+    "timeframe": "long_term",
+    "contexts": []
+  },
+  {
     "ticker": "C.O.R.N",
     "total_score": 60.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 39,
+    "rank": 42,
     "score": 60.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -598,7 +643,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 40,
+    "rank": 43,
     "score": 60.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -613,7 +658,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 41,
+    "rank": 44,
     "score": 60.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -628,7 +673,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 42,
+    "rank": 45,
     "score": 48.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -643,7 +688,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 43,
+    "rank": 46,
     "score": 40.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -658,7 +703,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 44,
+    "rank": 47,
     "score": 32.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -673,7 +718,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 45,
+    "rank": 48,
     "score": 24.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -688,7 +733,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 46,
+    "rank": 49,
     "score": 20.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -703,23 +748,8 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 47,
+    "rank": 50,
     "score": 20.0,
-    "mentions": 1,
-    "conviction_level": "medium",
-    "contrarian_signal": "neutral",
-    "timeframe": "long_term",
-    "contexts": []
-  },
-  {
-    "ticker": "IWM",
-    "total_score": 16.0,
-    "raw_mention_count": 1,
-    "unique_sources": 1,
-    "podcast_mentions": 1,
-    "newsletter_mentions": 0,
-    "rank": 48,
-    "score": 16.0,
     "mentions": 1,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
@@ -729,6 +759,71 @@ const dashboardData = {
 ],
   archive: {
   "insights": [
+    {
+      "id": 147,
+      "title": "Alex Blania on Proof of Human and Building World's Identity Network",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-04-02",
+      "summary": "This podcast discusses the increasing importance of 'Proof of Human' in the digital age, where AI-generated content and bots are becoming indistinguishable from human interactions. The conversation explores the challenges faced by social media platforms in verifying human users and the implications for content monetization, user authentication, and the broader creator economy. The guests emphasize the need for new solutions to ensure that online interactions are genuinely human, and discuss the potential for AI to surpass human capabilities in persuasion and content creation.",
+      "key_takeaway": "Investing in technologies that can verify human interactions online is becoming critical as AI-generated content proliferates, posing both challenges and opportunities for social media platforms and the broader digital economy.",
+      "tickers_mentioned": [
+        "AAPL",
+        "NVDA",
+        "GOOGL",
+        "META",
+        "MSFT"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-03",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 134
+    },
+    {
+      "id": 148,
+      "title": "Uber\u2019s Robotaxi Playbook, the End of Human Driving & $10B Bet on Robots | Dara Khosrowshahi (Uber CEO) | EP #244",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-04-02",
+      "summary": "In this episode of Moonshots with Peter Diamandis, the discussion revolves around the future of autonomous vehicles (AVs) and their impact on society, regulation, and the economy. The conversation touches on the safety of AVs compared to human drivers, the potential decline in the need for traditional driving licenses, and the societal adjustments required to accommodate this new technology. Additionally, the episode explores the challenges of convincing regulators and passengers to adopt AVs, the future of race car driving, and the insurance implications of autonomous vehicles.",
+      "key_takeaway": "Investment in autonomous vehicle technology and related industries is poised for growth as the technology advances and adoption increases.",
+      "tickers_mentioned": [
+        "BYD"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-03",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 133
+    },
+    {
+      "id": 149,
+      "title": "MacroVoices #526 Matt Barrie: Pay To PrAI",
+      "source_type": "podcast",
+      "source_name": "Macro Voices",
+      "source_date": "2026-04-02",
+      "summary": "This episode of Macro Voices features two main discussions: the escalating conflict between the U.S. and Iran, and the implications of artificial intelligence on private credit markets. The hosts, Eric Townsend and Patrick Suresne, dissect President Trump's speech indicating potential military action against Iran's civilian electric power infrastructure, which could escalate the conflict. The first guest, Matt Barry, CEO of Freelancer.com, discusses the impact of AI on the business model and potential market dislocation. The second guest, Dr. Onis Ahaji, provides an in-depth analysis of the geopolitical situation after President Trump's address. The episode also includes Patrick's trade of the week focusing on private credit markets and their relation to public markets.",
+      "key_takeaway": "Invest in sectors less affected by AI disruption and monitor geopolitical events for opportunities in private credit markets.",
+      "tickers_mentioned": [
+        "SPX",
+        "USDX",
+        "WTI",
+        "GC",
+        "HG"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-03",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 132
+    },
     {
       "id": 145,
       "title": "What Happens When a Public Company Goes All In on AI",
@@ -783,11 +878,11 @@ const dashboardData = {
         "TSLA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-04-01",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-04-03",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 129
     },
     {
@@ -868,11 +963,11 @@ const dashboardData = {
         "TSLA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-31",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-04-03",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 123
     },
     {
@@ -888,11 +983,11 @@ const dashboardData = {
         "PQUS"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-03-30",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-04-03",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 122
     },
     {
@@ -3480,6 +3575,74 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 147,
+      "title": "Alex Blania on Proof of Human and Building World's Identity Network",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-04-02",
+      "summary": "This podcast discusses the increasing importance of 'Proof of Human' in the digital age, where AI-generated content and bots are becoming indistinguishable from human interactions. The conversation explores the challenges faced by social media platforms in verifying human users and the implications for content monetization, user authentication, and the broader creator economy. The guests emphasize the need for new solutions to ensure that online interactions are genuinely human, and discuss the potential for AI to surpass human capabilities in persuasion and content creation.",
+      "key_takeaway": "Investing in technologies that can verify human interactions online is becoming critical as AI-generated content proliferates, posing both challenges and opportunities for social media platforms and the broader digital economy.",
+      "tickers_mentioned": "[\"AAPL\", \"NVDA\", \"GOOGL\", \"META\", \"MSFT\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-03",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 134,
+      "episode_release_date": "2026-04-02",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
+      "id": 148,
+      "title": "Uber\u2019s Robotaxi Playbook, the End of Human Driving & $10B Bet on Robots | Dara Khosrowshahi (Uber CEO) | EP #244",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-04-02",
+      "summary": "In this episode of Moonshots with Peter Diamandis, the discussion revolves around the future of autonomous vehicles (AVs) and their impact on society, regulation, and the economy. The conversation touches on the safety of AVs compared to human drivers, the potential decline in the need for traditional driving licenses, and the societal adjustments required to accommodate this new technology. Additionally, the episode explores the challenges of convincing regulators and passengers to adopt AVs, the future of race car driving, and the insurance implications of autonomous vehicles.",
+      "key_takeaway": "Investment in autonomous vehicle technology and related industries is poised for growth as the technology advances and adoption increases.",
+      "tickers_mentioned": "[\"BYD\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-03",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 133,
+      "episode_release_date": "2026-04-02",
+      "guest_name": null,
+      "key_tickers": [
+        "BYD"
+      ]
+    },
+    {
+      "id": 149,
+      "title": "MacroVoices #526 Matt Barrie: Pay To PrAI",
+      "source_type": "podcast",
+      "source_name": "Macro Voices",
+      "source_date": "2026-04-02",
+      "summary": "This episode of Macro Voices features two main discussions: the escalating conflict between the U.S. and Iran, and the implications of artificial intelligence on private credit markets. The hosts, Eric Townsend and Patrick Suresne, dissect President Trump's speech indicating potential military action against Iran's civilian electric power infrastructure, which could escalate the conflict. The first guest, Matt Barry, CEO of Freelancer.com, discusses the impact of AI on the business model and potential market dislocation. The second guest, Dr. Onis Ahaji, provides an in-depth analysis of the geopolitical situation after President Trump's address. The episode also includes Patrick's trade of the week focusing on private credit markets and their relation to public markets.",
+      "key_takeaway": "Invest in sectors less affected by AI disruption and monitor geopolitical events for opportunities in private credit markets.",
+      "tickers_mentioned": "[\"SPX\", \"USDX\", \"WTI\", \"GC\", \"HG\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-03",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 132,
+      "episode_release_date": "2026-04-02",
+      "guest_name": null,
+      "key_tickers": [
+        "SPX",
+        "USDX",
+        "WTI",
+        "GC",
+        "HG"
+      ]
+    },
+    {
       "id": 145,
       "title": "What Happens When a Public Company Goes All In on AI",
       "source_type": "podcast",
@@ -3523,26 +3686,6 @@ const dashboardData = {
         "PQNT",
         "PQUS"
       ]
-    },
-    {
-      "id": 141,
-      "title": "They're Lying to You. Again. Stay Humble & Stack Sats.",
-      "source_type": "podcast",
-      "source_name": "The Jack Mallers Show",
-      "source_date": "2026-03-31",
-      "summary": "In this episode of The Jack Mallers Show, Jack discusses the current state of Bitcoin and the global economic situation. He highlights the importance of supply chain openness, the dependency of the United States on global markets, and the potential consequences of continued closures. Jack also touches on the impact of oil prices, the S&P 500 performance, and the broader implications for financial markets. Additionally, he shares personal insights on dealing with public scrutiny and the importance of focusing on genuine relationships and self-worth.",
-      "key_takeaway": "The core thesis presented is the importance of supply chain openness for the US economy and the potential negative impacts of continued closures on financial markets, with a particular focus on Bitcoin as a potential hedge.",
-      "tickers_mentioned": "[\"AAPL\", \"NVDA\", \"SPY\", \"TSLA\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-04-01",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 129,
-      "episode_release_date": "2026-03-31",
-      "guest_name": null,
-      "key_tickers": []
     },
     {
       "id": 142,
@@ -3603,49 +3746,6 @@ const dashboardData = {
       "archived_reason": null,
       "podcast_episode_id": 126,
       "episode_release_date": "2026-03-31",
-      "guest_name": null,
-      "key_tickers": [
-        "PQNT",
-        "PQUS"
-      ]
-    },
-    {
-      "id": 140,
-      "title": "Marc Andreessen on Evaluating Founders and AI's Consumer Surplus",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-03-30",
-      "summary": "In this episode of 'The a16z Show', Harry Stebbings interviews Mark Andreessen, co-founder of Andreessen Horowitz (a16z), discussing various aspects of venture capital, the tech industry, and the future of AI. Andreessen shares his views on introspection in business, the centralization of the tech industry, labor displacement myths, and the counterintuitive nature of venture capital where experience can sometimes hinder success. The conversation also touches on the importance of AI's economic value and its impact on users rather than just the companies building it.",
-      "key_takeaway": "Invest in companies and technologies that are reshaping industries and have the potential to create significant economic value for a broad user base, rather than just the companies themselves.",
-      "tickers_mentioned": "[\"AAPL\", \"NVDA\", \"GOOGL\", \"MSFT\", \"TSLA\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-03-31",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 123,
-      "episode_release_date": "2026-03-30",
-      "guest_name": null,
-      "key_tickers": []
-    },
-    {
-      "id": 139,
-      "title": "The 2026 Private Credit Liquidity Crunch | Leyla Kunimoto on Redemptions in Semi-liquid Vehicles, Private/Public BDCs, and the Future of Alternatives",
-      "source_type": "podcast",
-      "source_name": "Monetary Matters with Jack Farley",
-      "source_date": "2026-03-29",
-      "summary": "In this episode of 'Monetary Matters with Jack Farley', Layla Kunimoto, founder and editor of an investor insights platform, discusses her journey into private markets and the democratization of access to alternative investments. She shares her insights on the shift of alternative managers towards retail investors and the advantages and disadvantages of traditional drawdown funds versus newer semi-liquid structures. Layla also expresses her views on public versus private VDCs, her current stance on public VDCs, and the impact of redemption caps on sentiment and actions of alternative asset managers.",
-      "key_takeaway": "The democratization of alternative investments provides retail investors with new opportunities, but also comes with structural differences and risks that must be understood.",
-      "tickers_mentioned": "[\"PQNT\", \"PQUS\"]",
-      "sentiment": "bearish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-03-30",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 122,
-      "episode_release_date": "2026-03-29",
       "guest_name": null,
       "key_tickers": [
         "PQNT",
@@ -11915,61 +12015,282 @@ const dashboardData = {
       "PQNT",
       "PQUS"
     ]
+  },
+  "147": {
+    "id": 138,
+    "insight_id": 147,
+    "podcast_episode_id": 134,
+    "overview": "The rapid advancement of AI and the increasing difficulty in distinguishing between human and bot interactions on digital platforms have created a pressing need for a 'Proof of Human' layer in the digital ecosystem. This is crucial for maintaining the integrity of online interactions, ensuring the authenticity of content, and safeguarding against the manipulation of digital platforms by bots. The investment thesis revolves around companies that are pioneering solutions to verify human identity in the AI era, which is becoming increasingly important as AI-generated content becomes indistinguishable from human-generated content. The urgency is heightened by the failure of traditional methods like facial recognition and government IDs to scale effectively in the global digital landscape.",
+    "key_takeaways_detailed": [
+      "Invest in companies developing advanced 'Proof of Human' technologies to verify online identities, as this will be a critical differentiator in the digital space.",
+      "Look for firms that can provide privacy-preserving solutions, as user privacy will be a significant concern in the adoption of these technologies.",
+      "Consider the global scale of the problem; solutions must be applicable across different regions and not reliant on a single government's infrastructure.",
+      "Monitor the development of AI that can mimic human behavior, as this will increase the demand for robust 'Proof of Human' solutions.",
+      "Keep an eye on regulatory developments, as governments may impose new rules on digital identity verification, affecting the market landscape."
+    ],
+    "investment_thesis": "The core investment logic is centered on the inevitability of AI-generated content becoming indistinguishable from human-generated content, necessitating a new layer of digital identity verification. Catalysts for this thesis include the increasing sophistication of AI, the failure of current verification methods at scale, and the growing demand for secure and private online interactions. The timeframe for this thesis is medium to long-term, as the development and adoption of 'Proof of Human' technologies will likely take several years to mature and become ubiquitous.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's focus on user privacy and its advanced biometric technologies position it well to develop and integrate 'Proof of Human' solutions into its ecosystem.",
+        "positioning": "Consider a long-term strategic position in AAPL, as their technology and user base provide a solid foundation for the adoption of new identity verification methods.",
+        "risk": "Key risks include regulatory hurdles and potential backlash from users concerned about privacy."
+      },
+      "NVDA": {
+        "rationale": "NVIDIA's leadership in AI and GPU technology makes it a key player in the development of advanced AI models, which could be leveraged to create or combat 'Proof of Human' challenges.",
+        "positioning": "A tactical long position in NVDA could be beneficial as the company's technology is likely to be at the forefront of AI advancements.",
+        "risk": "The risk lies in the competitive landscape and the potential for NVIDIA's technology to be surpassed by emerging competitors."
+      },
+      "GOOGL": {
+        "rationale": "Google's vast digital ecosystem and AI capabilities make it a significant player in the development of 'Proof of Human' solutions, particularly for its search and advertising platforms.",
+        "positioning": "A strategic long position in GOOGL could be appropriate, given the company's potential to integrate these solutions across its platforms.",
+        "risk": "Regulatory risks and the possibility of Google's solutions being less effective than competitors could impact the position."
+      },
+      "META": {
+        "rationale": "Meta (Facebook) has a vested interest in ensuring the authenticity of its user base, making it a potential leader in adopting 'Proof of Human' technologies.",
+        "positioning": "A medium-term tactical position in META could be considered, as the company's adoption of these technologies could significantly impact its platform's integrity.",
+        "risk": "The risk includes the potential for user backlash and the effectiveness of the 'Proof of Human' solutions in combating bots."
+      },
+      "MSFT": {
+        "rationale": "Microsoft's cloud and AI services provide a platform for the development and deployment of 'Proof of Human' solutions, making it a key player in this space.",
+        "positioning": "A long-term strategic position in MSFT could be beneficial, as the company's cloud services are likely to be integral to the implementation of these technologies.",
+        "risk": "The risk is the competitive landscape and the possibility that Microsoft's solutions may not be as effective as those of its competitors."
+      }
+    },
+    "positioning_guidance": "Given the medium to long-term nature of the thesis, investors should consider a balanced approach, allocating a portion of their portfolio to companies with strong positions in AI and digital identity verification. Entry points should be considered in the context of broader market trends and company-specific developments. Investors should also consider hedging against potential regulatory risks and competitive threats.",
+    "risk_factors": [
+      "The development of 'Proof of Human' technologies may not progress as quickly as anticipated, delaying the adoption of these solutions.",
+      "Regulatory changes could significantly impact the deployment and use of these technologies, particularly if they infringe on user privacy.",
+      "The emergence of new competitors with more effective solutions could disrupt the market and render current investments obsolete.",
+      "User backlash against the perceived invasion of privacy could hinder the adoption of these technologies.",
+      "A failure to scale these solutions globally could limit their effectiveness and adoption."
+    ],
+    "contrarian_signals": [
+      "The belief that current methods of digital identity verification are sufficient and that 'Proof of Human' solutions are unnecessary.",
+      "The possibility that AI advancements may plateau, reducing the need for more sophisticated identity verification methods.",
+      "The view that user privacy concerns will outweigh the need for 'Proof of Human' solutions, leading to a slower adoption rate."
+    ],
+    "catalysts": [
+      "The release of new AI models that further blur the line between human and bot-generated content.",
+      "Regulatory announcements or changes that either support or hinder the development and adoption of 'Proof of Human' technologies.",
+      "Major digital platforms announcing the adoption of 'Proof of Human' solutions, signaling a shift in the industry.",
+      "Breakthroughs in biometric technology that could be leveraged for more effective identity verification.",
+      "Global events or crises that highlight the need for secure and private online interactions, increasing the demand for 'Proof of Human' solutions."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-04-03T05:06:09.911156",
+    "updated_at": "2026-04-03 10:06:09",
+    "insight_title": "Alex Blania on Proof of Human and Building World's Identity Network",
+    "source_name": "The a16z Show",
+    "source_date": "2026-04-02",
+    "key_tickers": []
+  },
+  "148": {
+    "id": 139,
+    "insight_id": 148,
+    "podcast_episode_id": 133,
+    "overview": "The investment thesis revolves around the transformative impact of autonomous vehicles (AVs) on the transportation industry, with a particular focus on Uber's strategic positioning and the broader implications for technology and automotive companies. As Uber CEO Dara Khosrowshahi highlights, the shift towards AVs is not only about technology but also about societal and regulatory changes. This transition could significantly affect companies like Apple (AAPL) and NVIDIA (NVDA), which are investing heavily in AV technology. The analysis underscores the importance of understanding the pace of AV adoption, the role of regulators, and the potential for new business models in a post-human driving era.",
+    "key_takeaways_detailed": [
+      "Regulatory acceptance and public trust are critical for the widespread adoption of AVs, with Uber indicating an 80% acceptance rate among users.",
+      "The cost of AVs is currently high, but mass production could reduce costs, making them more accessible in the medium to long term.",
+      "Human drivers may become less common as AVs demonstrate higher safety, potentially leading to a shift in driving licenses and regulations.",
+      "The real estate market could be disrupted by the emergence of 'vertiports' for flying cars, creating new investment opportunities.",
+      "Insurance models will need to adapt to cover product liability for AVs, potentially reducing the number of car accident-related court cases."
+    ],
+    "investment_thesis": "Investing in AV technology is a bet on the future of transportation. As the technology matures and regulatory frameworks adapt, companies with a strong position in AV development, such as Uber (UBER), Apple (AAPL), and NVIDIA (NVDA), are poised to benefit. The core investment logic is that AVs will become safer and more cost-effective than human-driven vehicles, leading to a gradual but significant shift in the transportation landscape. Catalysts include technological breakthroughs, regulatory changes, and the commercialization of AVs. The timeframe for this thesis is medium to long term, as the full realization of AV potential is expected to take several years.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's investment in AV technology positions it as a potential leader in the space, with its Project Titan rumored to be an ambitious AV initiative.",
+        "positioning": "Long-term strategic position, as Apple's entry into AVs could disrupt the market and provide significant growth potential.",
+        "risk": "The project's secrecy and potential for delays or cancellation pose risks to investment expectations."
+      },
+      "NVDA": {
+        "rationale": "NVIDIA is a key player in the development of AI and GPU technology, which are foundational for AVs.",
+        "positioning": "Strategic long position, as NVIDIA's technology is likely to be in high demand as AVs become more prevalent.",
+        "risk": "High valuation and competition from other tech giants could pose risks to NVIDIA's market position."
+      },
+      "UBER": {
+        "rationale": "Uber's move into AVs with its Robotaxi initiative could revolutionize its business model and reduce operational costs.",
+        "positioning": "Medium-term tactical position, as Uber's AV progress could provide short-term gains, but the company faces significant competition.",
+        "risk": "Regulatory hurdles and safety concerns could slow down Uber's AV deployment."
+      },
+      "TSLA": {
+        "rationale": "Tesla is at the forefront of AV development with its Autopilot and Full Self-Driving capabilities.",
+        "positioning": "Long-term strategic position, as Tesla's lead in AV technology could market dominance.",
+        "risk": "High valuation and the potential for regulatory setbacks or technological failures could impact Tesla's growth."
+      },
+      "GOOGL": {
+        "rationale": "Google, through its Waymo subsidiary, is a pioneer in AV technology and has a significant head start in the race to commercialize AVs.",
+        "positioning": "Long-term strategic position, as Waymo's technology could be licensed or used in partnerships, providing Google with a steady revenue stream.",
+        "risk": "The AV market is highly competitive, and Waymo's success is not guaranteed, which could affect Google's returns on investment."
+      }
+    },
+    "positioning_guidance": "Investors should consider a diversified approach to AV investments, with a mix of long-term strategic positions in technology leaders like AAPL, NVDA, and GOOGL, and medium-term tactical positions in companies directly involved in AV deployment like UBER and TSLA. Entry points should be based on technical analysis and market conditions, with a focus on the long-term potential of the AV market. Investors should also consider hedging against regulatory risks and technological setbacks.",
+    "risk_factors": [
+      "Regulatory delays or setbacks could slow down the deployment of AVs, affecting the timeline of the investment thesis.",
+      "Technological failures or safety issues could lead to public distrust and hinder AV adoption.",
+      "Increased competition from new entrants or established players could erode the market position of current AV leaders.",
+      "Economic downturns could reduce consumer demand for AVs, affecting the growth potential of the industry.",
+      "Potential obsolescence of current technology investments if new, disruptive technologies emerge."
+    ],
+    "contrarian_signals": [
+      "The high cost of AVs may delay their widespread adoption, favoring traditional vehicles in the short term.",
+      "Public resistance to relinquishing control to AVs could slow down the transition away from human-driven cars.",
+      "The potential for job losses in industries reliant on human drivers could lead to social and political pushback against AVs."
+    ],
+    "catalysts": [
+      "Regulatory approvals for AV testing and deployment in key markets.",
+      "Technological breakthroughs that improve the safety and cost-effectiveness of AVs.",
+      "Partnerships between tech companies and automotive manufacturers to accelerate AV development.",
+      "Successful commercial launches of AV services, such as Uber's Robotaxi initiative.",
+      "Government incentives or infrastructure investments to support the AV industry."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-04-03T05:06:36.724255",
+    "updated_at": "2026-04-03 10:06:36",
+    "insight_title": "Uber\u2019s Robotaxi Playbook, the End of Human Driving & $10B Bet on Robots | Dara Khosrowshahi (Uber CEO) | EP #244",
+    "source_name": "Moonshots with Peter Diamandis",
+    "source_date": "2026-04-02",
+    "key_tickers": [
+      "BYD"
+    ]
+  },
+  "149": {
+    "id": 140,
+    "insight_id": 149,
+    "podcast_episode_id": 132,
+    "overview": "In this episode of MacroVoices, hosts Eric Townsend and Patrick Suresne delve into the escalating conflict between the U.S. and Iran, its implications on global energy markets, and the sustainability of the AI business model. The discussion highlights the potential for a market dislocation on the scale of the 2000.com bust due to the current AI business model, the impact of AI on software and private credit markets, and the broader market stresses that could arise from these factors. The analysis is particularly relevant now, given the recent $122 billion bridge round by OpenAI, the largest private fundraising round in history, and the escalating geopolitical tensions in the Middle East.",
+    "key_takeaways_detailed": [
+      "The AI business model is setting the stage for a potential market dislocation on the scale of the 2000.com bust due to weak unit economics and unsustainable valuations.",
+      "The impact of AI on software and private credit markets could create broader market stresses and lead to a shakeout similar to the dot-com era.",
+      "The escalating conflict between the U.S. and Iran could have significant implications for global energy markets, with potential risks to desalination plants and the U.A.E.'s Baraka nuclear power station.",
+      "The recent $122 billion bridge round by OpenAI, the largest private fundraising round in history, highlights the extreme valuations and funding dynamics in the AI space.",
+      "Investors should closely monitor the developments in the AI space, as well as the geopolitical tensions in the Middle East, for potential investment opportunities and risks."
+    ],
+    "investment_thesis": "The investment thesis revolves around the unsustainable AI business model and its potential to lead to a market dislocation similar to the 2000.com bust. The escalating conflict between the U.S. and Iran adds another layer of complexity and risk to the global energy markets. Investors should position their portfolios to capitalize on the potential dislocation in the AI space and the implications of the geopolitical tensions on energy markets. The catalysts for this thesis include the developments in the AI space, the outcome of the U.S.-Iran conflict, and the broader market stresses that could arise from these factors. The timeframe for this thesis is medium to long-term (3-12 months to >1 year).",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple is a major player in the AI space, with significant investments in AI research and development. The company's AI efforts are crucial for its competitive position in the technology industry.",
+        "positioning": "Long-term strategic position, as Apple's AI efforts are expected to drive its growth and competitive advantage in the technology industry.",
+        "risk": "Key risks include the potential dislocation in the AI space, which could impact Apple's AI investments and valuation, as well as the broader market stresses that could arise from the escalating conflict between the U.S. and Iran."
+      },
+      "NVDA": {
+        "rationale": "NVIDIA is a leading provider of AI chips and platforms, with significant exposure to the AI space. The company's AI offerings are critical for its growth and competitive position.",
+        "positioning": "Long-term strategic position, as NVIDIA's AI offerings are expected to drive its growth and competitive advantage in the technology industry.",
+        "risk": "Key risks include the potential dislocation in the AI space, which could impact NVIDIA's AI offerings and valuation, as well as the broader market stresses that could arise from the escalating conflict between the U.S. and Iran."
+      },
+      "MSFT": {
+        "rationale": "Microsoft is a major player in the AI space, with significant investments in AI research and development. The company's AI efforts are crucial for its competitive position in the technology industry.",
+        "positioning": "Long-term strategic position, as Microsoft's AI efforts are expected to drive its growth and competitive advantage in the technology industry.",
+        "risk": "Key risks include the potential dislocation in the AI space, which could impact Microsoft's AI investments and valuation, as well as the broader market stresses that could arise from the escalating conflict between the U.S. and Iran."
+      },
+      "AMZN": {
+        "rationale": "Amazon is a major player in the AI space, with significant investments in AI research and development. The company's AI efforts are crucial for its competitive position in the technology industry.",
+        "positioning": "Long-term strategic position, as Amazon's AI efforts are expected to drive its growth and competitive advantage in the technology industry.",
+        "risk": "Key risks include the potential dislocation in the AI space, which could impact Amazon's AI investments and valuation, as well as the broader market stresses that could arise from the escalating conflict between the U.S. and Iran."
+      },
+      "TSLA": {
+        "rationale": "Tesla is a major player in the AI space, with significant investments in AI research and development for its autonomous driving technology. The company's AI efforts are crucial for its competitive position in the automotive industry.",
+        "positioning": "Long-term strategic position, as Tesla's AI efforts are expected to drive its growth and competitive advantage in the automotive industry.",
+        "risk": "Key risks include the potential dislocation in the AI space, which could impact Tesla's AI investments and valuation, as well as the broader market stresses that could arise from the escalating conflict between the U.S. and Iran."
+      }
+    },
+    "positioning_guidance": "Investors should position their portfolios with a long-term strategic focus on the AI space, given the potential for a market dislocation similar to the 2000.com bust. Key positions include AAPL, NVDA, MSFT, AMZN, and TSLA, which are major players in the AI space and are expected to drive growth and competitive advantage. Investors should also consider hedging their portfolios against the broader market stresses that could arise from the escalating conflict between the U.S. and Iran. Entry points should be based on the individual company's valuation and growth prospects, as well as the broader market conditions. The timeframe for these positions is medium to long-term (3-12 months to >1 year).",
+    "risk_factors": [
+      "The potential dislocation in the AI space could lead to a significant market downturn, impacting the valuations and growth prospects of AI-focused companies.",
+      "The escalating conflict between the U.S. and Iran could lead to broader market stresses and increased volatility, impacting the global energy markets and the overall market sentiment.",
+      "Regulatory risks in the AI space could impact the growth prospects and competitive position of AI-focused companies.",
+      "Technological risks, such as the failure to achieve artificial general intelligence, could impact the growth prospects and competitive position of AI-focused companies.",
+      "Economic risks, such as a global economic downturn or recession, could impact the growth prospects and competitive position of AI-focused companies."
+    ],
+    "contrarian_signals": [
+      "Despite the potential for a market dislocation in the AI space, some investors may argue that the current AI business model is sustainable and will continue to drive growth and innovation in the technology industry.",
+      "The escalating conflict between the U.S. and Iran may be seen as a short-term geopolitical risk that will not have a significant long-term impact on the global energy markets or the overall market sentiment.",
+      "Investors may argue that the recent $122 billion bridge round by OpenAI is a sign of strong investor confidence in the AI space and its growth prospects, rather than a warning sign of an impending market dislocation."
+    ],
+    "catalysts": [
+      "Developments in the AI space, such as breakthroughs in artificial general intelligence or significant investments by major players, could move the thesis forward.",
+      "The outcome of the U.S.-Iran conflict, including potential diplomatic resolutions or escalations, could have significant implications for the global energy markets and the overall market sentiment.",
+      "Economic indicators, such as GDP growth, inflation, and employment data, could provide insights into the overall market conditions and the potential for a market dislocation in the AI space.",
+      "Regulatory developments in the AI space, such as new policies or guidelines, could impact the growth prospects and competitive position of AI-focused companies.",
+      "Technological advancements, such as new AI algorithms or platforms, could drive growth and innovation in the AI space and impact the competitive position of AI-focused companies."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-04-03T05:07:12.359196",
+    "updated_at": "2026-04-03 10:07:12",
+    "insight_title": "MacroVoices #526 Matt Barrie: Pay To PrAI",
+    "source_name": "Macro Voices",
+    "source_date": "2026-04-02",
+    "key_tickers": [
+      "SPX",
+      "USDX",
+      "WTI",
+      "GC",
+      "HG"
+    ]
   }
 },
   suggestedTerms: [
   {
-    "id": 137,
-    "term": "AI-enhanced ETFs",
-    "definition": "Exchange-traded funds that use artificial intelligence to enhance equity exposure and potentially improve performance.",
-    "investment_implications": "Investors may consider AI-enhanced ETFs for their potential to leverage technology in managing investments.",
+    "id": 144,
+    "term": "President Trump",
+    "definition": null,
+    "investment_implications": null,
+    "source_type": "auto_extracted",
+    "mention_count": 2,
+    "source_diversity": 1,
+    "relevance_score": 30,
+    "submitted_date": "2026-04-03 10:07:37",
+    "priority_score": 70
+  },
+  {
+    "id": 142,
+    "term": "Proof of Human",
+    "definition": "A system or method to verify that an online account or interaction is conducted by a human being, rather than an AI or bot.",
+    "investment_implications": "Investors should consider companies developing technologies to authenticate human interactions in a digital world increasingly populated by AI.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-04-02 03:03:55",
+    "submitted_date": "2026-04-03 10:04:54",
     "priority_score": 80
   },
   {
-    "id": 135,
-    "term": "Agentic Development",
-    "definition": "The use of AI agents to augment software development and internal tooling, leading to increased productivity and efficiency.",
-    "investment_implications": "Invest in companies that are early adopters of agentic development to gain a competitive edge.",
+    "id": 143,
+    "term": "AI-generated content",
+    "definition": "Content created by artificial intelligence, which can mimic human creation to the point of being indistinguishable.",
+    "investment_implications": "As AI-generated content becomes more prevalent, there is an investment opportunity in companies that can detect and differentiate between human and AI content.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-04-01 20:15:22",
+    "submitted_date": "2026-04-03 10:04:54",
     "priority_score": 80
   },
   {
-    "id": 136,
-    "term": "AI-augmented Teams",
-    "definition": "Small, agile teams working alongside AI agents to develop products and services, leading to faster development cycles and reduced headcount.",
-    "investment_implications": "Look for companies that are restructuring around AI-augmented teams as a sign of forward-thinking and potential for growth.",
+    "id": 140,
+    "term": "Autonomous Vehicles (AVs)",
+    "definition": "Self-driving vehicles that use sensors, cameras, and artificial intelligence to navigate without human input.",
+    "investment_implications": "Investors should consider companies developing AV technology and related infrastructure as potential growth areas.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-04-01 20:15:22",
-    "priority_score": 80
-  },
-  {
-    "id": 134,
-    "term": "Stack Sats",
-    "definition": "A term used in the Bitcoin community to refer to accumulating Bitcoin, with 'sats' being short for Satoshis, the smallest unit of Bitcoin.",
-    "investment_implications": "Investors should consider accumulating Bitcoin as a long-term strategy, especially in times of economic uncertainty.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-04-01 10:04:12",
+    "submitted_date": "2026-04-03 10:04:39",
     "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 1434,
+    "id": 1453,
     "name": "Why $200 Oil Won\u2019t Spike Inflation to 9%",
     "slug": "why-200-oil-wont-spike-inflation-to-9",
     "bio": null,
@@ -11981,7 +12302,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1435,
+    "id": 1454,
     "name": "This special episode",
     "slug": "this-special-episode",
     "bio": null,
@@ -11993,7 +12314,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1436,
+    "id": 1455,
     "name": "Lupin Ramon",
     "slug": "lupin-ramon",
     "bio": null,
@@ -12005,7 +12326,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1437,
+    "id": 1456,
     "name": "When the Music Stops",
     "slug": "when-the-music-stops",
     "bio": null,
@@ -12017,7 +12338,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1438,
+    "id": 1457,
     "name": "Ground Infrastructure",
     "slug": "ground-infrastructure",
     "bio": null,
@@ -12029,7 +12350,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1439,
+    "id": 1458,
     "name": "Rory Johnston",
     "slug": "rory-johnston",
     "bio": null,
@@ -12041,7 +12362,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1440,
+    "id": 1459,
     "name": "Senator John Fetterman on Voting Rights",
     "slug": "senator-john-fetterman-on-voting-rights",
     "bio": null,
@@ -12053,7 +12374,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1441,
+    "id": 1460,
     "name": "Stock Market on Shaky Foundations",
     "slug": "stock-market-on-shaky-foundations",
     "bio": null,
@@ -12065,7 +12386,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1442,
+    "id": 1461,
     "name": "Elon Musk on Moonshots",
     "slug": "elon-musk-on-moonshots",
     "bio": null,
@@ -12077,7 +12398,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1443,
+    "id": 1462,
     "name": "Investing in Capitalism",
     "slug": "investing-in-capitalism",
     "bio": null,
@@ -12089,7 +12410,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1444,
+    "id": 1463,
     "name": "Harvard Professor Graham Allison",
     "slug": "harvard-professor-graham-allison",
     "bio": null,
@@ -12101,7 +12422,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1445,
+    "id": 1464,
     "name": "Andrew Yang",
     "slug": "andrew-yang",
     "bio": "Andrew Yang is an entrepreneur and political leader who popularized universal basic income in U.S. politics through his 2020 presidential campaign.",
@@ -12113,7 +12434,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1446,
+    "id": 1465,
     "name": "Inventing the Renaissance",
     "slug": "inventing-the-renaissance",
     "bio": null,
@@ -12125,7 +12446,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1447,
+    "id": 1466,
     "name": "Ray Dalio",
     "slug": "ray-dalio",
     "bio": "Ray Dalio is the founder of Bridgewater Associates and a macro investor known for his 'Principles' framework and work on long-term debt cycles.",
@@ -12137,7 +12458,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1448,
+    "id": 1467,
     "name": "Nobel Prize-winning economist Paul Krugman",
     "slug": "nobel-prize-winning-economist-paul-krugman",
     "bio": null,
@@ -12149,7 +12470,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1449,
+    "id": 1468,
     "name": "host Jack Mallers",
     "slug": "host-jack-mallers",
     "bio": null,
@@ -12161,7 +12482,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1450,
+    "id": 1469,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -12173,7 +12494,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1451,
+    "id": 1470,
     "name": "Bosworth",
     "slug": "bosworth",
     "bio": null,
@@ -12185,7 +12506,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1452,
+    "id": 1471,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -12216,7 +12537,7 @@ const dashboardData = {
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-03-19",
     "mention_score": 4,
-    "mention_score_decayed": 3.65,
+    "mention_score_decayed": 3.56,
     "last_main_idea": "The Iran conflict could lead to a renewed inflation cycle, affecting commodities and energy markets, with potential second-order effects that markets may currently be underpricing.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:36:30.218908",
@@ -12272,7 +12593,7 @@ const dashboardData = {
     "last_podcast_name": "All-In Podcast",
     "last_episode_date": "2026-03-28",
     "mention_score": 3,
-    "mention_score_decayed": 2.74,
+    "mention_score_decayed": 2.67,
     "last_main_idea": "Investing in AI-driven platforms and technologies is essential for capturing the growth in the global financial system and staying ahead in the AI era.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:40:52.368193",
@@ -12334,7 +12655,7 @@ const dashboardData = {
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-03-19",
     "mention_score": 2,
-    "mention_score_decayed": 1.82,
+    "mention_score_decayed": 1.78,
     "last_main_idea": "The Iran conflict could lead to a renewed inflation cycle, affecting commodities and energy markets, with potential second-order effects that markets may currently be underpricing.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:35:48.845381",
@@ -12641,6 +12962,234 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
+    "id": 150,
+    "name": "Alex Bonia",
+    "slug": "alex-bonia",
+    "bio": "Alex Bonia is the co-founder and CEO of World, a company focused on developing a 'proof of human layer' for the AI era. He is dedicated to building the largest real human network, addressing the challenges posed by AI in mimicking human behavior and interactions.",
+    "known_for": "Developing a 'proof of human layer' to distinguish real humans from AI in the digital age.",
+    "net_worth_usd": 3600000000.0,
+    "net_worth_source": "https://globalbizoutlook.com/top-30-ai-billionaires-in-the-world-2025-rankings-and-net-worth-revealed/",
+    "net_worth_updated_at": "2026-04-03T05:05:05.505205",
+    "voice_tone": "Inquisitive and informative",
+    "voice_style": "Explains complex concepts with clarity",
+    "voice_delivery_notes": "Paces well, with emphasis on key points",
+    "voice_profile_updated_at": "2026-04-03 10:04:54",
+    "last_seen": "2026-04-03 10:04:54",
+    "last_episode_title": "Alex Blania on Proof of Human and Building World's Identity Network",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-04-02",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investing in technologies that can verify human interactions online is becoming critical as AI-generated content proliferates, posing both challenges and opportunities for social media platforms and the broader digital economy.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-03T05:05:04.562022",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Alex Bonia",
+      "fetched_at": "2026-04-03T10:05:04.561818+00:00",
+      "cliff_notes": "Alex Bonia is recognized for his work in the intersection of technology and human identity. As the co-founder and CEO of World, he is at the forefront of developing solutions to authenticate human users in a digital landscape increasingly populated by AI. His efforts are crucial in an era where AI's ability to mimic human behavior poses significant challenges to digital platforms that rely on the assumption of human users. Bonia's work is pivotal in maintaining the integrity of online interactions and safeguarding against the manipulations of AI.",
+      "derived": {
+        "current_role": "Co-founder and CEO at World"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Alex Bonia is recognized for his work in the intersection of technology and human identity. As the co-founder and CEO of World, he is at the forefront of developing solutions to authenticate human users in a digital landscape increasingly populated by AI. His efforts are crucial in an era where AI's ability to mimic human behavior poses significant challenges to digital platforms that rely on the assumption of human users.",
+        "Bonia's work is pivotal in maintaining the integrity of online interactions and safeguarding against the manipulations of AI."
+      ],
+      "sections": [
+        {
+          "heading": "Human Authentication",
+          "body": "Alex Bonia is leading the charge in creating a 'proof of human layer', a system designed to verify the authenticity of human users in digital spaces, which is becoming increasingly important as AI technology advances."
+        },
+        {
+          "heading": "AI and Social Media",
+          "body": "Bonia's work addresses the growing concern of AI-operated social media accounts, which can mimic human behavior and influence online platforms, posing threats to the integrity of digital interactions."
+        },
+        {
+          "heading": "Digital Integrity",
+          "body": "In an era where AI can generate convincing videos and posts, Alex Bonia's efforts are aimed at ensuring that digital platforms maintain a level of trust and reliability by distinguishing between real humans and AI."
+        }
+      ]
+    },
+    "net_worth": "$3.60B"
+  },
+  {
+    "id": 151,
+    "name": "Alex Rampell",
+    "slug": "alex-rampell",
+    "bio": "Alex Rampell is a venture capitalist and entrepreneur known for his investments in technology startups. He is the co-founder and General Partner at Andreessen Horowitz (A16Z), focusing on fintech, bioinformatics, and AI.",
+    "known_for": "His role in shaping the future of technology through venture capital investments in startups, particularly in the fields of fintech, bioinformatics, and AI.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Analytical and engaging",
+    "voice_style": "Asks probing questions to delve deeper into topics",
+    "voice_delivery_notes": "Speaks with conviction, emphasizing investment insights",
+    "voice_profile_updated_at": "2026-04-03 10:04:54",
+    "last_seen": "2026-04-03 10:04:54",
+    "last_episode_title": "Alex Blania on Proof of Human and Building World's Identity Network",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-04-02",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investing in technologies that can verify human interactions online is becoming critical as AI-generated content proliferates, posing both challenges and opportunities for social media platforms and the broader digital economy.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-03T05:05:15.312671",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Alex Rampell",
+      "fetched_at": "2026-04-03T10:05:15.312579+00:00",
+      "cliff_notes": "Alex Rampell is a prominent figure in the world of venture capital and technology startups. He began his career as a co-founder and CEO of TrialPay, a payment processing company, and later co-founded Adap.tv, a video advertising platform. Both companies were successfully acquired. Rampell then transitioned to venture capital, becoming a General Partner at Andreessen Horowitz (A16Z), where he focuses on fintech, bioinformatics, and AI. His investments and insights have been instrumental in shaping the future of technology, particularly in the areas of artificial intelligence and its implications for society.",
+      "derived": {
+        "current_role": "Co-founder and General Partner at A16Z",
+        "former_positions": "Co-founder and CEO of TrialPay; Co-founder and CEO of Adap.tv",
+        "education": "B.A. in Mathematics and Computer Science from Yale University; M.S. in Computer Science from Stanford University"
+      },
+      "infobox": {
+        "Born": "1983",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Alex Rampell is a prominent figure in the world of venture capital and technology startups. He began his career as a co-founder and CEO of TrialPay, a payment processing company, and later co-founded Adap.tv, a video advertising platform. Both companies were successfully acquired. Rampell then transitioned to venture capital, becoming a General Partner at Andreessen Horowitz (A16Z), where he focuses on fintech, bioinformatics, and AI.",
+        "His investments and insights have been instrumental in shaping the future of technology, particularly in the areas of artificial intelligence and its implications for society."
+      ],
+      "sections": [
+        {
+          "heading": "Venture Capital",
+          "body": "Alex Rampell is known for his venture capital investments in technology startups, particularly in fintech, bioinformatics, and AI. His role at A16Z has allowed him to influence the trajectory of these industries."
+        },
+        {
+          "heading": "Artificial Intelligence",
+          "body": "Rampell has been vocal about the potential of AI to fundamentally shift society. He discusses the implications of AI in programming humans and the challenges of distinguishing between humans and bots in the digital age."
+        },
+        {
+          "heading": "Fintech",
+          "body": "As a General Partner at A16Z, Rampell has played a significant role in shaping the fintech industry through his investments and insights. His focus on fintech has helped drive innovation in the space."
+        }
+      ]
+    }
+  },
+  {
+    "id": 148,
+    "name": "Matt Barry",
+    "slug": "matt-barry",
+    "bio": "Matt Barry is the CEO of Freelancer.com, a global freelancing and crowdsourcing marketplace. He is recognized for his expertise in the latest developments on artificial intelligence and its impact on the global workforce.",
+    "known_for": "His insights on the intersection of artificial intelligence and the future of work.",
+    "net_worth_usd": 185000000.0,
+    "net_worth_source": "https://www.therichest.com/celebnetworth/celebrity-business/men/matt-barrie-net-worth/",
+    "net_worth_updated_at": "2026-04-03T05:05:32.018161",
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-04-03 10:04:02",
+    "last_episode_title": "MacroVoices #526 Matt Barrie: Pay To PrAI",
+    "last_podcast_name": "Macro Voices",
+    "last_episode_date": "2026-04-02",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in sectors less affected by AI disruption and monitor geopolitical events for opportunities in private credit markets.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-03T05:05:31.083540",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Matt Barry",
+      "fetched_at": "2026-04-03T10:05:31.083389+00:00",
+      "cliff_notes": "Matt Barry is a prominent figure in the technology industry, particularly within the realm of freelancing and crowdsourcing. As the CEO of Freelancer.com, he has been instrumental in shaping the platform into a global marketplace that connects employers with freelancers across various industries. Barry's leadership has been pivotal in navigating the challenges and opportunities presented by the rise of artificial intelligence, ensuring that Freelancer.com remains at the forefront of technological advancements. His contributions to the discourse on AI's impact on employment and the future of work have made him a sought-after voice in both tech and finance circles.",
+      "derived": {
+        "current_role": "CEO of Freelancer.com"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Matt Barry is a prominent figure in the technology industry, particularly within the realm of freelancing and crowdsourcing. As the CEO of Freelancer.com, he has been instrumental in shaping the platform into a global marketplace that connects employers with freelancers across various industries. Barry's leadership has been pivotal in navigating the challenges and opportunities presented by the rise of artificial intelligence, ensuring that Freelancer.com remains at the forefront of technological advancements.",
+        "His contributions to the discourse on AI's impact on employment and the future of work have made him a sought-after voice in both tech and finance circles."
+      ],
+      "sections": [
+        {
+          "heading": "Freelancer.com",
+          "body": "Matt Barry leads Freelancer.com, a platform that has revolutionized the way work is done by connecting employers with freelancers globally."
+        },
+        {
+          "heading": "Artificial Intelligence",
+          "body": "Barry is known for his thought leadership on the implications of AI on the future of work, often discussing how it will reshape the global workforce."
+        },
+        {
+          "heading": "Global Workforce",
+          "body": "His insights into the changing dynamics of the global workforce, especially in the context of technology and AI, are highly valued by investors and tech enthusiasts."
+        }
+      ]
+    },
+    "net_worth": "$185.0M"
+  },
+  {
+    "id": 149,
+    "name": "Dr. Onis Ahaji",
+    "slug": "dr-onis-ahaji",
+    "bio": "Dr. Onis Ahaji is the Founder and Managing Partner of Energy Outlook Advisors, a firm specializing in energy market analysis and geopolitical risk assessment. His expertise is highly sought after in the financial sector, particularly in the context of Iran conflict updates and their impact on energy markets.",
+    "known_for": "His insights into the geopolitical dynamics affecting energy markets, especially in the context of Iran and the Middle East.",
+    "net_worth_usd": 500000000.0,
+    "net_worth_source": "https://en.wikipedia.org/wiki/List_of_Iranians_by_net_worth",
+    "net_worth_updated_at": "2026-04-03T05:05:41.325252",
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-04-03 10:04:02",
+    "last_episode_title": "MacroVoices #526 Matt Barrie: Pay To PrAI",
+    "last_podcast_name": "Macro Voices",
+    "last_episode_date": "2026-04-02",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in sectors less affected by AI disruption and monitor geopolitical events for opportunities in private credit markets.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-03T05:05:40.347752",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Dr. Onis Ahaji",
+      "fetched_at": "2026-04-03T10:05:40.347609+00:00",
+      "cliff_notes": "Dr. Onis Ahaji is recognized for his deep understanding of the energy sector, particularly how geopolitical events shape market trends. As the Founder and Managing Partner of Energy Outlook Advisors, he provides critical analysis and forecasts that are invaluable to investors and policymakers. His expertise extends to the Middle East, where he has closely followed the Iran conflict and its ripple effects on global energy markets. His work is respected for its clarity and impact, making him a go-to source for those navigating the complex interplay between politics and energy economics.",
+      "derived": {
+        "current_role": "Founder and Managing Partner of Energy Outlook Advisors"
+      },
+      "infobox": {
+        "Nationality": "Not specified"
+      },
+      "lead_paragraphs": [
+        "Dr. Onis Ahaji is recognized for his deep understanding of the energy sector, particularly how geopolitical events shape market trends. As the Founder and Managing Partner of Energy Outlook Advisors, he provides critical analysis and forecasts that are invaluable to investors and policymakers. His expertise extends to the Middle East, where he has closely followed the Iran conflict and its ripple effects on global energy markets.",
+        "His work is respected for its clarity and impact, making him a go-to source for those navigating the complex interplay between politics and energy economics."
+      ],
+      "sections": [
+        {
+          "heading": "Energy Market Analysis",
+          "body": "Dr. Ahaji is known for his comprehensive analysis of energy markets, with a focus on how geopolitical events can influence prices and supply."
+        },
+        {
+          "heading": "Iran Conflict Update",
+          "body": "He provides regular updates on the Iran conflict, assessing its potential impact on energy markets and offering strategic insights for investors."
+        },
+        {
+          "heading": "Geopolitical Risk Assessment",
+          "body": "Dr. Ahaji's expertise in geopolitical risk assessment is highly valued, especially in understanding the implications of Middle Eastern conflicts on the global energy landscape."
+        }
+      ]
+    },
+    "net_worth": "$500.0M"
+  },
+  {
     "id": 147,
     "name": "Anna Wang",
     "slug": "anna-wang",
@@ -12658,7 +13207,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-01",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Pictay asset management's AI-enhanced ETFs (PQNT and PQUS) aim to provide enhanced equity exposure through the use of artificial intelligence.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-01T22:04:02.778580",
@@ -12776,7 +13325,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-03-31",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Investment in autonomous vehicle technology is poised to disrupt urban mobility and logistics, with companies like Uber positioned to capitalize on this shift.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-01T05:04:28.065974",
@@ -12834,7 +13383,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-31",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Investing in companies that innovate in energy delivery and grid infrastructure can lead to significant returns as the demand for electricity increases and the need for a more efficient and sustainable grid becomes critical.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-01T05:04:38.716099",
@@ -12892,7 +13441,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-31",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Investing in companies that innovate in energy delivery and grid infrastructure can lead to significant returns as the demand for electricity increases and the need for a more efficient and sustainable grid becomes critical.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-01T05:04:51.620692",
@@ -12954,7 +13503,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-31",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Investing in AI-enhanced ETFs like PQNT and PQUS can provide enhanced equity exposure in the current market environment.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-01T05:05:18.251968",
@@ -13015,7 +13564,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Invest in companies and technologies that are reshaping industries and have the potential to create significant economic value for a broad user base, rather than just the companies themselves.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-31T05:03:10.373140",
@@ -13079,7 +13628,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "The democratization of alternative investments provides retail investors with new opportunities, but also comes with structural differences and risks that must be understood.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-30T05:03:22.005290",
@@ -13118,237 +13667,6 @@ const dashboardData = {
       ]
     },
     "net_worth": "$2.00B"
-  },
-  {
-    "id": 133,
-    "name": "Chris Dixon",
-    "slug": "chris-dixon",
-    "bio": "Chris Dixon is a general partner at Andreessen Horowitz (A16Z), known for his leading investments in Oculus and Coinbase, and for building A16Z's dedicated crypto practice. He is also the co-founder of internet security company SiteAdvisor and AI company Hunch.",
-    "known_for": "His pivotal investments in Oculus and Coinbase, and his role in establishing A16Z's crypto practice.",
-    "net_worth_usd": 500000000.0,
-    "net_worth_source": "https://blockchainreporter.net/net-worth/chris-dixon/",
-    "net_worth_updated_at": "2026-03-28T22:05:07.528099",
-    "voice_tone": "Reflective and informative",
-    "voice_style": "Shares personal anecdotes and industry insights with a storytelling approach",
-    "voice_delivery_notes": "Paced with emphasis on key points, such as personal experiences and investment philosophies",
-    "voice_profile_updated_at": "2026-03-29 03:04:14",
-    "last_seen": "2026-03-29 03:04:14",
-    "last_episode_title": "the a16z show chris dixon from quant trading to building a16z crypto be2e5b4b",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-03-28",
-    "mention_score": 1,
-    "mention_score_decayed": 0.91,
-    "last_main_idea": "Betting on talented individuals in businesses rather than predicting tech trends is a more consistent approach to investing.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-28T22:05:06.552638",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Chris Dixon",
-      "fetched_at": "2026-03-29T03:05:06.552464+00:00",
-      "cliff_notes": "Chris Dixon's career began with a passion for technology, teaching himself programming languages as a child. After college, he worked in quant finance, writing Monte Carlo simulations for an options market-making firm in New York. This experience led him to co-found SiteAdvisor, an internet security company, which was later sold to McAfee in 2006. Two years later, he founded Hunch, an AI company based on neural networks, which was acquired by eBay in 2011. In 2013, Dixon joined Andreessen Horowitz, where he played a significant role in the firm's investments, notably leading a $75 million round for Oculus and making an early investment in Coinbase. His work at A16Z has been instrumental in the establishment of the firm's dedicated crypto practice, which is now in its fourth fund. Dixon's journey from quant finance to tech investing and his influence in the crypto space have made him a notable figure in the tech and finance industries.",
-      "derived": {
-        "current_role": "General Partner at Andreessen Horowitz",
-        "former_positions": "Co-founder of SiteAdvisor; Co-founder of Hunch"
-      },
-      "infobox": {
-        "Born": "Ohio",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Chris Dixon's career began with a passion for technology, teaching himself programming languages as a child. After college, he worked in quant finance, writing Monte Carlo simulations for an options market-making firm in New York. This experience led him to co-found SiteAdvisor, an internet security company, which was later sold to McAfee in 2006.",
-        "Two years later, he founded Hunch, an AI company based on neural networks, which was acquired by eBay in 2011. In 2013, Dixon joined Andreessen Horowitz, where he played a significant role in the firm's investments, notably leading a $75 million round for Oculus and making an early investment in Coinbase. His work at A16Z has been instrumental in the establishment of the firm's dedicated crypto practice, which is now in its fourth fund.",
-        "Dixon's journey from quant finance to tech investing and his influence in the crypto space have made him a notable figure in the tech and finance industries."
-      ],
-      "sections": [
-        {
-          "heading": "Early Career",
-          "body": "Chris Dixon began his career in quant finance, writing Monte Carlo simulations for an options market-making firm in New York, before co-founding SiteAdvisor, an internet security company."
-        },
-        {
-          "heading": "SiteAdvisor and Hunch",
-          "body": "Dixon co-founded SiteAdvisor, which was later sold to McAfee, and Hunch, an AI company, which was acquired by eBay. These ventures established him as a successful entrepreneur."
-        },
-        {
-          "heading": "Investment in Oculus and Coinbase",
-          "body": "At Andreessen Horowitz, Dixon led a $75 million investment in Oculus and made an early investment in Coinbase, both of which have become significant players in their respective industries."
-        },
-        {
-          "heading": "Cryptocurrency and A16Z",
-          "body": "Dixon has been instrumental in building A16Z's dedicated crypto practice, which is now in its fourth fund, showcasing his foresight and influence in the cryptocurrency space."
-        }
-      ]
-    },
-    "net_worth": "$500.0M"
-  },
-  {
-    "id": 131,
-    "name": "David Sachs",
-    "slug": "david-sachs",
-    "bio": "David Sachs is a prominent figure in the tech industry, known for his insights on innovation and technology. He has been involved in the Trump administration, where he has emphasized the importance of scientific research and technology in the current competitive landscape.",
-    "known_for": "His role in the Trump administration and his views on the importance of scientific research and technology in the current competitive landscape.",
-    "net_worth_usd": 200000000.0,
-    "net_worth_source": "https://impactwealth.org/david-sacks-net-worth-and-biography-2025-the-journey-of-a-tech-visionary/",
-    "net_worth_updated_at": "2026-03-28T22:05:26.806183",
-    "voice_tone": "Serious and informative",
-    "voice_style": "Factual and data-driven",
-    "voice_delivery_notes": "Pacing is steady with emphasis on key data points",
-    "voice_profile_updated_at": "2026-03-29 03:04:03",
-    "last_seen": "2026-03-29 03:04:03",
-    "last_episode_title": "Anthropic's Generational Run, OpenAI Panics, AI Moats, Meta Loses Lawsuits",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-03-27",
-    "mention_score": 1,
-    "mention_score_decayed": 0.91,
-    "last_main_idea": "Invest in companies that are driving innovation and can disrupt traditional industries by offering superior products at better prices, while keeping an eye on the competitive dynamics between the US and China in scientific research and technology.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-28T22:05:25.190284",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "David Sachs",
-      "fetched_at": "2026-03-29T03:05:25.190194+00:00",
-      "cliff_notes": "David Sachs is a prominent figure in the tech industry, known for his insights on innovation and technology. He has been involved in the Trump administration, where he has emphasized the importance of scientific research and technology in the current competitive landscape. Sachs' career has been marked by his focus on the intersection of technology, policy, and business. His work in the Trump administration highlights his commitment to leveraging technology and scientific research to drive economic growth and maintain a competitive edge in the global market.",
-      "derived": {
-        "current_role": "Advisor to the Trump administration",
-        "political_summary": "David Sachs has been involved in the Trump administration, where he has emphasized the importance of scientific research and technology in the current competitive landscape."
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "David Sachs is a prominent figure in the tech industry, known for his insights on innovation and technology. He has been involved in the Trump administration, where he has emphasized the importance of scientific research and technology in the current competitive landscape. Sachs' career has been marked by his focus on the intersection of technology, policy, and business.",
-        "His work in the Trump administration highlights his commitment to leveraging technology and scientific research to drive economic growth and maintain a competitive edge in the global market."
-      ],
-      "sections": [
-        {
-          "heading": "Innovation and Technology",
-          "body": "David Sachs is known for his insights on innovation and technology, emphasizing their importance in the current competitive landscape."
-        },
-        {
-          "heading": "Trump Administration",
-          "body": "Sachs has been involved in the Trump administration, where he has focused on the role of scientific research and technology in driving economic growth and maintaining a competitive edge."
-        },
-        {
-          "heading": "Economic Growth",
-          "body": "Sachs' work in the Trump administration highlights his commitment to leveraging technology and scientific research to drive economic growth."
-        }
-      ]
-    },
-    "net_worth": "$200.0M"
-  },
-  {
-    "id": 132,
-    "name": "David Freiberg",
-    "slug": "david-freiberg",
-    "bio": "David Freiberg is a guest with a background in science, known for his insights on the impact of technological advancements on various industries. He has been a contributor to discussions on technological disruption and its implications for society and the economy.",
-    "known_for": "His expertise in understanding how technology shapes industry trends and his contributions to public discourse on technological disruption.",
-    "net_worth_usd": 1200000000.0,
-    "net_worth_source": "https://coinpaper.com/6251/david-friedberg-net-worth-insights-into-his-financial-success",
-    "net_worth_updated_at": "2026-03-28T22:05:34.408854",
-    "voice_tone": "Casual and engaging",
-    "voice_style": "Anecdotal with a focus on real-world examples",
-    "voice_delivery_notes": "Speaks with a relaxed pace, emphasizing key points with a slight increase in volume",
-    "voice_profile_updated_at": "2026-03-29 03:04:03",
-    "last_seen": "2026-03-29 03:04:03",
-    "last_episode_title": "Anthropic's Generational Run, OpenAI Panics, AI Moats, Meta Loses Lawsuits",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-03-27",
-    "mention_score": 1,
-    "mention_score_decayed": 0.91,
-    "last_main_idea": "Invest in companies that are driving innovation and can disrupt traditional industries by offering superior products at better prices, while keeping an eye on the competitive dynamics between the US and China in scientific research and technology.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-28T22:05:33.382582",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "David Freiberg",
-      "fetched_at": "2026-03-29T03:05:33.382494+00:00",
-      "cliff_notes": "David Freiberg is recognized for his contributions to the dialogue on technology's influence on various sectors. His background in science provides a solid foundation for his analysis of technological disruption. Freiberg's insights are particularly valuable as they help investors and industry leaders understand the potential shifts and opportunities created by rapid technological advancements. His work is significant in the context of policy-making and strategic planning, as it offers a perspective on how to navigate and leverage the changes brought about by new technologies.",
-      "derived": {},
-      "infobox": {
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "David Freiberg is recognized for his contributions to the dialogue on technology's influence on various sectors. His background in science provides a solid foundation for his analysis of technological disruption. Freiberg's insights are particularly valuable as they help investors and industry leaders understand the potential shifts and opportunities created by rapid technological advancements.",
-        "His work is significant in the context of policy-making and strategic planning, as it offers a perspective on how to navigate and leverage the changes brought about by new technologies."
-      ],
-      "sections": [
-        {
-          "heading": "Technological Impact",
-          "body": "Freiberg discusses the profound effects of technology on different industries, emphasizing how it can disrupt traditional business models and create new opportunities."
-        },
-        {
-          "heading": "Industry Trends",
-          "body": "He provides analysis on emerging industry trends influenced by technological advancements, helping businesses anticipate and adapt to changes."
-        },
-        {
-          "heading": "Public Discourse",
-          "body": "Freiberg's participation in public discourse on technology's role in society ensures that a variety of perspectives are considered in shaping policy and business strategies."
-        }
-      ]
-    },
-    "net_worth": "$1.20B"
-  },
-  {
-    "id": 127,
-    "name": "Rupert Mitchell",
-    "slug": "rupert-mitchell",
-    "bio": "Rupert Mitchell is an accomplished banker, investor, and analyst with a background in the Ottawa Mobile industry. He is the founder of Blind Squirrel Macro, where he is known for his research and insights on macroeconomic trends.",
-    "known_for": "His research and insights on macroeconomic trends, particularly in the context of market valuations and the business cycle.",
-    "net_worth_usd": 19500000000.0,
-    "net_worth_source": "https://artistnetworth.org/richest-businessman/ceo/rupert-murdoch-net-worth/",
-    "net_worth_updated_at": "2026-03-31T22:01:54.804516",
-    "voice_tone": "",
-    "voice_style": "",
-    "voice_delivery_notes": "",
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-03-28 18:30:57",
-    "last_episode_title": "Stock Market on Shaky Foundations | Blind Squirrel Macro\u2019s Rupert Mitchell on IPO Supply, Oil, and Private Credit",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-03-18",
-    "mention_score": 1,
-    "mention_score_decayed": 0.89,
-    "last_main_idea": "The current bull market is built on shaky foundations, and a shift towards a more cautious stance with a focus on security software and data lake control is advised.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-31T20:09:25.315808",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Rupert Mitchell",
-      "fetched_at": "2026-04-01T01:09:25.315513+00:00",
-      "cliff_notes": "Rupert Mitchell has had a diverse career in finance, starting in the Ottawa Mobile industry and later transitioning into banking and investment. His expertise in macroeconomic trends has led him to found Blind Squirrel Macro, where he provides research and insights that are highly valued by investors and analysts. Mitchell's work focuses on understanding the broader economic landscape and its implications for market behavior, making him a sought-after voice in discussions about the business cycle and market valuations.",
-      "derived": {
-        "current_role": "Founder of Blind Squirrel Macro"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Rupert Mitchell has had a diverse career in finance, starting in the Ottawa Mobile industry and later transitioning into banking and investment. His expertise in macroeconomic trends has led him to found Blind Squirrel Macro, where he provides research and insights that are highly valued by investors and analysts. Mitchell's work focuses on understanding the broader economic landscape and its implications for market behavior, making him a sought-after voice in discussions about the business cycle and market valuations."
-      ],
-      "sections": [
-        {
-          "heading": "Market Valuations",
-          "body": "Rupert Mitchell has expressed concerns about current market valuations, suggesting that they may be built on unstable foundations such as buybacks, 401K contributions, and mergers and acquisitions."
-        },
-        {
-          "heading": "Business Cycle",
-          "body": "Mitchell has been vocal about his worries regarding the business cycle, indicating that he felt a slowdown in consumer activity even before recent geopolitical events, and he is concerned about the potential end of the cycle."
-        },
-        {
-          "heading": "Supply at Concept Type Valuation",
-          "body": "Rupert Mitchell has pointed out the upcoming supply of companies like SpaceX, OpenAI, and Thropic entering the market at high valuations, which could impact the stability of the current market structure."
-        }
-      ]
-    },
-    "net_worth": "$19.50B"
   }
 ]
 };
