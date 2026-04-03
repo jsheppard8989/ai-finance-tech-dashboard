@@ -121,8 +121,12 @@ def fetch_polymarket_debate_context(
     scored.sort(key=lambda x: (-x[0], -x[1]))
 
     lines: List[str] = [
-        "Live Polymarket-style themes (Gamma API, high volume first — for thematic + resolution inspiration ONLY):",
-        "Do NOT copy wording; do NOT cite Polymarket as the resolution authority unless you independently specify sources.",
+        "Live Polymarket markets (Gamma API, volume-sorted — these are the VALID outcome themes for this week):",
+        "Prefer paraphrasing ONE of these into a clear Yes/No contract whose resolution metric matches the kind of "
+        "outcome Polymarket actually trades (policy, macro, elections, crypto, rates, etc.).",
+        "Do NOT invent stale macro numbers from memory (e.g. old index levels). If you use a price level, it must "
+        "match the separate LIVE reference block in the debate prompt — not training-data recollection.",
+        "Do not copy Polymarket wording verbatim; specify independent resolution sources in resolution_clarity.",
     ]
     for rel, vol, e in scored[:max_lines]:
         title = (e.get("title") or "").strip().replace("\n", " ")

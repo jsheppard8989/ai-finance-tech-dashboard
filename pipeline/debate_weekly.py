@@ -27,6 +27,9 @@ import re
 import shutil
 import sqlite3
 import sys
+import urllib.error
+import urllib.parse
+import urllib.request
 from datetime import datetime, timedelta
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
@@ -243,6 +246,131 @@ def _banned_numeric_anchors(avoid_prompts: List[str]) -> str:
     )
 
 
+def fetch_yahoo_last_price(symbol: str) -> Optional[float]:
+    """Last regular-market price for a Yahoo symbol (e.g. ^GSPC, BTC-USD)."""
+    url = f"https://query1.finance.yahoo.com/v8/finance/chart/{urllib.parse.quote(symbol, safe='')}?interval=1d&range=5d"
+    req = urllib.request.Request(
+        url,
+        headers={"User-Agent": "Mozilla/5.0 (OpenClaw debate_weekly)"},
+    )
+    try:
+        with urllib.request.urlopen(req, timeout=20) as resp:
+            data = json.loads(resp.read().decode("utf-8"))
+    except (urllib.error.URLError, TimeoutError, json.JSONDecodeError, OSError):
+        return None
+    try:
+        result = data.get("chart", {}).get("result")
+        if not result:
+            return None
+        meta = result[0].get("meta") or {}
+        price = meta.get("regularMarketPrice") or meta.get("previousClose")
+        if price is None:
+            return None
+        return float(price)
+    except (TypeError, ValueError, IndexError, KeyError):
+        return None
+
+
+def build_macro_reference_block() -> Tuple[str, Optional[float], Optional[float]]:
+    """
+    Live levels for sanity-checking index/crypto questions (^GSPC = S&P 500 index, not SPY).
+    Returns (markdown block for LLM, spx_ref, btc_ref).
+    """
+    spx = fetch_yahoo_last_price("^GSPC")
+    btc = fetch_yahoo_last_price("BTC-USD")
+    lines = [
+        "=== LIVE MARKET REFERENCE (Yahoo Finance; use for sanity checks — NOT optional) ===",
+        (
+            f"As of this generation run, approximate levels: S&P 500 index (^GSPC) ≈ {spx:,.2f}"
+            if spx
+            else "S&P 500 index (^GSPC): (unavailable — avoid inventing index strikes; prefer Polymarket-only themes without numeric index levels.)"
+        ),
+    ]
+    if btc:
+        lines.append(f"Bitcoin (BTC-USD) ≈ ${btc:,.2f}")
+    if spx and spx > 1000:
+        lines.extend(
+            [
+                "Rules for ANY question involving S&P / SPX / 'S&P 500':",
+                f"  - A threshold for RALLY / EXCEED / CLOSE ABOVE / BREAK ABOVE must be ≥ ~{spx * 0.82:,.0f} with spot ~{spx:,.0f} (do not use years-old index levels).",
+                f"  - A threshold for CRASH / FALL BELOW / CLOSE BELOW must be clearly below spot (e.g. under ~{spx * 0.88:,.0f}) and phrased as downside risk, not 'exceed'.",
+                "  - If you cannot state a defensible level, do NOT use an S&P index strike — pick a different resolution from the Polymarket list (policy, rates, ETF, election, etc.).",
+            ]
+        )
+    if btc and btc > 100:
+        lines.append(
+            "Rules for Bitcoin USD levels: any strike must be within ~0.45×–2.1× the BTC reference above unless the Polymarket market explicitly discusses a different strike."
+        )
+    lines.append("=== END LIVE REFERENCE ===")
+    return "\n".join(lines), spx, btc
+
+
+def _prompt_numbers_in_range(text: str, lo: float, hi: float) -> List[float]:
+    out: List[float] = []
+    for m in re.finditer(r"\b\d{1,3}(?:,\d{3})+(?:\.\d+)?\b|\b\d{4,6}(?:\.\d+)?\b", text):
+        s = m.group(0).replace(",", "")
+        try:
+            v = float(s)
+        except ValueError:
+            continue
+        if lo <= v <= hi:
+            out.append(v)
+    return out
+
+
+def validate_prompt_macro_sanity(
+    prompt: str,
+    spx_ref: Optional[float],
+    btc_ref: Optional[float],
+) -> Tuple[bool, str]:
+    """
+    Reject obviously stale training-data index levels (e.g. S&P 'exceed 4,500' when spot ~6,600).
+    """
+    if not (prompt or "").strip():
+        return False, "empty prompt"
+    pl = prompt.lower()
+
+    spx_m = re.search(r"s&p|s\s*&\s*p\s*500|\bspx\b|\bsp\s*500\b|s\s*p\s*500", pl)
+    if spx_m and spx_ref and spx_ref > 1000:
+        nums = _prompt_numbers_in_range(prompt, 2000.0, 12000.0)
+        bullish = bool(
+            re.search(
+                r"\b(exceed|above|higher\s+than|surpass|rally|break\s+above|close\s+above|finish\s+above)\b",
+                pl,
+            )
+        )
+        bearish = bool(
+            re.search(
+                r"\b(below|under|fall|crash|drop|close\s+below|finish\s+below|bear\s+market)\b",
+                pl,
+            )
+        )
+        for n in nums:
+            if bullish and n < spx_ref * 0.82:
+                return (
+                    False,
+                    f"S&P bullish threshold {n:,.0f} is inconsistent with current index ~{spx_ref:,.0f} (likely stale).",
+                )
+            if bearish and n > spx_ref * 1.12:
+                return (
+                    False,
+                    f"S&P bearish threshold {n:,.0f} is far above spot ~{spx_ref:,.0f}; rephrase or pick a Polymarket theme.",
+                )
+            if not bullish and not bearish and (n < spx_ref * 0.68 or n > spx_ref * 1.32):
+                return (
+                    False,
+                    f"S&P numeric {n:,.0f} is implausible vs spot ~{spx_ref:,.0f} without clear bull/bear wording.",
+                )
+
+    if btc_ref and btc_ref > 100 and re.search(r"\bbitcoin\b|\bbtc\b", pl):
+        nums = _prompt_numbers_in_range(prompt, 5000.0, 500_000.0)
+        for n in nums:
+            if n < btc_ref * 0.42 or n > btc_ref * 2.2:
+                return False, f"BTC level {n:,.0f} is far from spot ~{btc_ref:,.0f}."
+
+    return True, ""
+
+
 def generate_contract(
     client_kind: str,
     client: Any,
@@ -250,17 +378,24 @@ def generate_contract(
     insights: List[str],
     avoid_prompts: List[str],
     polymarket_context: str = "",
+    macro_reference_block: str = "",
+    retry_hint: str = "",
 ) -> Dict[str, Any]:
     system = """You are the editorial brain for a weekly investor debate show.
 Return ONLY valid JSON with keys:
-  "prompt": string — one clear Yes/No question, falsifiable within ~42 days, no single-stock tickers (no AAPL, NVDA, etc.); themes like AI, rates, labor, policy, indices, macro, crypto (as themes) OK.
+  "prompt": string — one clear Yes/No question, falsifiable within ~42 days, no single-stock tickers (no AAPL, NVDA, etc.); themes like AI, rates, labor, policy, macro, crypto OK.
   "expires_rule": string — human-readable e.g. "Resolves Friday 12:00 PM CST YYYY-MM-DD" (pick date = contract Friday + 42 days). Use the CURRENT calendar year from context.
   "crux_theme": short label for the substance (e.g. "AI labor", "rates path").
   "resolution_clarity": { "source_of_truth": string, "resolution_sources": [string], "resolution_criteria": [string] } — concrete enough to settle the bet (feeds, agencies, official data), not vague.
 
+PRIMARY SOURCE OF TRUTH FOR TOPICS:
+- The user message includes LIVE Polymarket markets AND a LIVE macro reference block. Prefer adapting ONE Polymarket market into a paraphrased Yes/No (policy, macro, election, rates, crypto regulation, etc.).
+- Do NOT invent synthetic index price strikes from memory (e.g. outdated S&P levels). If the question involves S&P / SPX / S&P 500, you MUST follow the numeric rules in the LIVE REFERENCE block.
+- If you cannot meet those rules, choose a non-index Polymarket theme instead of a bad index question.
+
 Anti-stale rules:
 - Each week must feel NEW: different theme AND different numeric thresholds than recent weeks unless unavoidable.
-- Prefer specific resolution metrics (what data source, what counts as Yes) inspired by prediction-market style clarity, but write an ORIGINAL question — do not copy Polymarket wording.
+- Prefer specific resolution metrics (what data source, what counts as Yes) inspired by prediction-market clarity; write an ORIGINAL question — do not copy Polymarket wording verbatim.
 - Avoid lazy round-number reuse (e.g. repeating "50,000" across unrelated topics)."""
 
     avoid_tail = avoid_prompts[-15:] if avoid_prompts else []
@@ -270,13 +405,18 @@ Anti-stale rules:
         f"- {t}" for t in insights
     ) or "- (none)"
     poly = (polymarket_context or "").strip() or "(Polymarket context not loaded.)"
+    macro = (macro_reference_block or "").strip() or "(No live macro reference — prefer non-numeric Polymarket themes.)"
     banned_block = f"\n\n{banned_nums}\n" if banned_nums else "\n"
-    user = f"""{ctx}
+    retry_block = f"\n\nVALIDATION RETRY — fix this issue and regenerate JSON only:\n{retry_hint}\n" if retry_hint.strip() else ""
+    user = f"""{macro}
+
+{ctx}
 
 {poly}
 {banned_block}
 Avoid repeating or lightly paraphrasing these past prompts (full text matters — stay distinct):
 {avoid}
+{retry_block}
 
 Produce ONE fresh contract JSON. The question must be specific enough to argue yes/no on substance, not philosophy."""
 
@@ -754,11 +894,37 @@ def main() -> int:
     else:
         poly = "(Polymarket module not available.)"
 
-    contract_core = generate_contract(
-        kind, client, overton, insights, avoid, polymarket_context=poly
-    )
-    # Deterministic enforcement: friday_iso + 42 days (fixes wrong YEAR issues).
-    contract_core = _enforce_contract_resolution_dates(contract_core, friday)
+    macro_block, spx_ref, btc_ref = build_macro_reference_block()
+    retry_hint = ""
+    contract_core: Optional[Dict[str, Any]] = None
+    contract_ok = False
+    for attempt in range(3):
+        contract_core = generate_contract(
+            kind,
+            client,
+            overton,
+            insights,
+            avoid,
+            polymarket_context=poly,
+            macro_reference_block=macro_block,
+            retry_hint=retry_hint,
+        )
+        # Deterministic enforcement: friday_iso + 42 days (fixes wrong YEAR issues).
+        contract_core = _enforce_contract_resolution_dates(contract_core, friday)
+        ok, err = validate_prompt_macro_sanity(
+            (contract_core.get("prompt") or "").strip(),
+            spx_ref,
+            btc_ref,
+        )
+        if ok:
+            contract_ok = True
+            break
+        retry_hint = err
+        print(f"  ⚠ Contract macro sanity check {attempt + 1}/3 failed: {err}")
+
+    if not contract_ok or not contract_core:
+        print("✗ Could not generate a contract that passes live-market sanity checks after 3 tries.")
+        return 1
 
     if args.dry_run:
         print(f"Friday (CST): {friday}")
