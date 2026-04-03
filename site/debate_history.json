@@ -1,6 +1,18 @@
 {
-  "rotation_index": 6,
+  "rotation_index": 7,
   "weeks": [
+    {
+      "friday_iso": "2026-03-20",
+      "week_label": "Week of 2026-03-20",
+      "prompt": "Will a majority of G20 nations announce new policy frameworks aimed at curbing crypto transaction activities by May 01, 2026?",
+      "debater_a": "Ben Harwitz",
+      "debater_b": "Paul Krugman",
+      "expires_rule": "Resolves Friday 12:00 PM CST 2026-05-01",
+      "resolution_status": "pending",
+      "resolution_notes": "",
+      "archived_at": "2026-04-03T15:10:33.175673",
+      "audio_href": "./audio/archive/debate_2026-03-20.mp3"
+    },
     {
       "friday_iso": "2026-03-18",
       "week_label": "Week of 2026-03-18",
