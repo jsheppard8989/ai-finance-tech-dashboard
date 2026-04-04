@@ -1,6 +1,49 @@
 {
   "insights": [
     {
+      "id": 150,
+      "title": "SpaceX IPO, Iran War Fallout, Quantum Bitcoin Hack, The Space Opportunity",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-04-03",
+      "summary": "In this episode, the hosts discuss SpaceX's confidential filing for an IPO with a target valuation of $1.75 trillion, which would make it the eighth largest company in the world if successful. They also explore the potential for a merger between SpaceX and Tesla, the implications of the ongoing conflict on energy independence, and the impact on global markets. Additionally, they touch on the importance of energy infrastructure and the role of Middle Eastern states in financing and banking.",
+      "key_takeaway": "Invest in companies that are driving energy independence and have potential for significant growth through mergers and acquisitions.",
+      "tickers_mentioned": [
+        "TSLA",
+        "MSFT"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-04",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 136
+    },
+    {
+      "id": 151,
+      "title": "Marc Andreessen on AI Winters and Agent Breakthroughs",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-04-03",
+      "summary": "In this episode of the a16z Show, Mark Andreason, co-founder and general partner at a16z, discusses the current state of AI and its potential impact on various industries. Andreason argues that the recent advancements in AI are not just a fleeting trend but the result of eight decades of foundational research. He highlights four breakthroughs that have catalyzed AI's progress: large language models, reasoning, agents, and self-improvement. The conversation also touches on the significance of combining language models, unique shells, and file systems to create a powerful software architecture that could shape the future of technology.",
+      "key_takeaway": "Invest in AI technologies that leverage the breakthroughs in large language models, reasoning, agents, and self-improvement, as these advancements could lead to transformative software architectures and industry disruptions.",
+      "tickers_mentioned": [
+        "AAPL",
+        "NVDA",
+        "GOOGL",
+        "MSFT",
+        "TSLA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-04",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 135
+    },
+    {
       "id": 147,
       "title": "Alex Blania on Proof of Human and Building World's Identity Network",
       "source_type": "podcast",
@@ -138,11 +181,11 @@
         "UBER"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-04-01",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-04-04",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 128
     },
     {
@@ -161,11 +204,11 @@
         "F"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-04-01",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-04-04",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 127
     },
     {

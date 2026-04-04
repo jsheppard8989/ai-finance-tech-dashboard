@@ -1,6 +1,47 @@
 {
-  "last_updated": "2026-04-03T22:04:07.357105",
+  "last_updated": "2026-04-04T05:06:49.878266",
   "episodes": {
+    "monetary_matters_with_jack_farley_\u201cbooks_will_be_written\u201d_about_": {
+      "info": {
+        "podcast": "Monetary Matters with Jack Farley",
+        "title": "\u201cBooks Will Be Written\u201d About This Shipping Market | Ed Finley-Richardson of Misadventures in Shipping on War-Induced Oil Tanker Mayhem, Squeeze for Asiabound Refined Products, and Persian Gulf \u201cFeeding Frenzy\u201d Scenario",
+        "published": "2026-04-04",
+        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/monetary_matters_with_jack_farley__books_will_be_written__about_this_shipping_market___ed_finl_e34b5b72.mp3",
+        "keywords": [],
+        "rss_guid": "adb7bcbc-2fb3-11f1-8165-bbd465144653"
+      },
+      "stages": {
+        "downloaded": {
+          "complete": true,
+          "timestamp": null,
+          "reason": null
+        },
+        "transcribed": {
+          "complete": false,
+          "file": null,
+          "timestamp": null,
+          "reason": "Waiting for fetch/transcribe step"
+        },
+        "analyzed": {
+          "complete": false,
+          "episode_id": null,
+          "timestamp": null,
+          "reason": "Waiting for next analyze run (transcript \u2192 DB)."
+        },
+        "insight_created": {
+          "complete": false,
+          "timestamp": null,
+          "reason": "Depends on analyze step first."
+        },
+        "published": {
+          "complete": false,
+          "timestamp": null,
+          "reason": "Not in data.js yet (run export and push to site)."
+        }
+      },
+      "first_seen": "2026-04-04T05:06:49.790618",
+      "status": "needs_transcription"
+    },
     "the_a16z_show_marc_andreessen_on_ai_winters_": {
       "info": {
         "podcast": "The a16z Show",
@@ -17,21 +58,23 @@
           "reason": null
         },
         "transcribed": {
-          "complete": false,
-          "file": null,
+          "complete": true,
+          "file": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/the_a16z_show_20260403_fd960df5_9d0a_4630_b24a_fdfa3758.txt",
           "timestamp": null,
-          "reason": "Waiting for fetch/transcribe step"
+          "reason": null
         },
         "analyzed": {
-          "complete": false,
-          "episode_id": null,
+          "complete": true,
+          "episode_id": 135,
           "timestamp": null,
-          "reason": "Waiting for next analyze run (transcript \u2192 DB)."
+          "reason": null
         },
         "insight_created": {
-          "complete": false,
+          "complete": true,
+          "insight_id": 50,
+          "insight_title": "The a16z Show: New Media Strategy and Investment Insights",
           "timestamp": null,
-          "reason": "Depends on analyze step first."
+          "reason": null
         },
         "published": {
           "complete": false,
@@ -39,15 +82,15 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-04-03T22:04:07.260319",
-      "status": "needs_transcription"
+      "first_seen": "2026-04-04T05:06:49.858330",
+      "status": "needs_export"
     },
     "all-in_with_chamath,_jason,_sacks_&_friedberg_spacex_ipo,_iran_war_fallout,_": {
       "info": {
         "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
         "title": "SpaceX IPO, Iran War Fallout, Quantum Bitcoin Hack, The Space Opportunity",
         "published": "2026-04-03",
-        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/all_in_with_chamath__jason__sacks___frie_spacex_ipo__iran_war_fallout__quantum_bitcoin_hack__the_spac_3e3fcd38.mp3",
+        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/ALLIN-E267_Ch.mp3",
         "keywords": [],
         "rss_guid": "15b1f9d0-8884-4bd5-8a9d-2ae0e32c0f29"
       },
@@ -58,21 +101,23 @@
           "reason": null
         },
         "transcribed": {
-          "complete": false,
-          "file": null,
+          "complete": true,
+          "file": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/ALLIN-E267_Ch.txt",
           "timestamp": null,
-          "reason": "Waiting for fetch/transcribe step"
+          "reason": null
         },
         "analyzed": {
-          "complete": false,
-          "episode_id": null,
+          "complete": true,
+          "episode_id": 136,
           "timestamp": null,
-          "reason": "Waiting for next analyze run (transcript \u2192 DB)."
+          "reason": null
         },
         "insight_created": {
-          "complete": false,
+          "complete": true,
+          "insight_id": 44,
+          "insight_title": "The Epstein Saga: Diverse Perspectives and Investment Implications",
           "timestamp": null,
-          "reason": "Depends on analyze step first."
+          "reason": null
         },
         "published": {
           "complete": false,
@@ -80,8 +125,8 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-04-03T22:04:07.334223",
-      "status": "needs_transcription"
+      "first_seen": "2026-04-04T05:06:49.867588",
+      "status": "needs_export"
     }
   }
 }

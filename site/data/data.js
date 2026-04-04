@@ -3,7 +3,7 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-04-03T22:04:14.144739",
+  generatedAt: "2026-04-04T05:06:52.661006",
   chartsVersion: "2026-04-01T15:16:59.801570",
   tickerScores: [
   {
@@ -23,14 +23,14 @@ const dashboardData = {
   },
   {
     "ticker": "MSFT",
-    "total_score": 312.0,
-    "raw_mention_count": 19,
+    "total_score": 372.0,
+    "raw_mention_count": 20,
     "unique_sources": 2,
-    "podcast_mentions": 3,
+    "podcast_mentions": 4,
     "newsletter_mentions": 16,
     "rank": 2,
-    "score": 312.0,
-    "mentions": 19,
+    "score": 372.0,
+    "mentions": 20,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
     "timeframe": "long_term",
@@ -97,13 +97,28 @@ const dashboardData = {
     "contexts": []
   },
   {
+    "ticker": "TSLA",
+    "total_score": 226.0,
+    "raw_mention_count": 3,
+    "unique_sources": 1,
+    "podcast_mentions": 3,
+    "newsletter_mentions": 0,
+    "rank": 7,
+    "score": 226.0,
+    "mentions": 3,
+    "conviction_level": "medium",
+    "contrarian_signal": "neutral",
+    "timeframe": "long_term",
+    "contexts": []
+  },
+  {
     "ticker": "META",
     "total_score": 177.0,
     "raw_mention_count": 14,
     "unique_sources": 2,
     "podcast_mentions": 2,
     "newsletter_mentions": 12,
-    "rank": 7,
+    "rank": 8,
     "score": 177.0,
     "mentions": 14,
     "conviction_level": "medium",
@@ -118,24 +133,9 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 3,
     "newsletter_mentions": 0,
-    "rank": 8,
+    "rank": 9,
     "score": 174.0,
     "mentions": 3,
-    "conviction_level": "medium",
-    "contrarian_signal": "neutral",
-    "timeframe": "long_term",
-    "contexts": []
-  },
-  {
-    "ticker": "TSLA",
-    "total_score": 150.0,
-    "raw_mention_count": 2,
-    "unique_sources": 1,
-    "podcast_mentions": 2,
-    "newsletter_mentions": 0,
-    "rank": 9,
-    "score": 150.0,
-    "mentions": 2,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
     "timeframe": "long_term",
@@ -760,6 +760,49 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 150,
+      "title": "SpaceX IPO, Iran War Fallout, Quantum Bitcoin Hack, The Space Opportunity",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-04-03",
+      "summary": "In this episode, the hosts discuss SpaceX's confidential filing for an IPO with a target valuation of $1.75 trillion, which would make it the eighth largest company in the world if successful. They also explore the potential for a merger between SpaceX and Tesla, the implications of the ongoing conflict on energy independence, and the impact on global markets. Additionally, they touch on the importance of energy infrastructure and the role of Middle Eastern states in financing and banking.",
+      "key_takeaway": "Invest in companies that are driving energy independence and have potential for significant growth through mergers and acquisitions.",
+      "tickers_mentioned": [
+        "TSLA",
+        "MSFT"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-04",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 136
+    },
+    {
+      "id": 151,
+      "title": "Marc Andreessen on AI Winters and Agent Breakthroughs",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-04-03",
+      "summary": "In this episode of the a16z Show, Mark Andreason, co-founder and general partner at a16z, discusses the current state of AI and its potential impact on various industries. Andreason argues that the recent advancements in AI are not just a fleeting trend but the result of eight decades of foundational research. He highlights four breakthroughs that have catalyzed AI's progress: large language models, reasoning, agents, and self-improvement. The conversation also touches on the significance of combining language models, unique shells, and file systems to create a powerful software architecture that could shape the future of technology.",
+      "key_takeaway": "Invest in AI technologies that leverage the breakthroughs in large language models, reasoning, agents, and self-improvement, as these advancements could lead to transformative software architectures and industry disruptions.",
+      "tickers_mentioned": [
+        "AAPL",
+        "NVDA",
+        "GOOGL",
+        "MSFT",
+        "TSLA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-04",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 135
+    },
+    {
       "id": 147,
       "title": "Alex Blania on Proof of Human and Building World's Identity Network",
       "source_type": "podcast",
@@ -897,11 +940,11 @@ const dashboardData = {
         "UBER"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-04-01",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-04-04",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 128
     },
     {
@@ -920,11 +963,11 @@ const dashboardData = {
         "F"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-04-01",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-04-04",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 127
     },
     {
@@ -3575,6 +3618,49 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 150,
+      "title": "SpaceX IPO, Iran War Fallout, Quantum Bitcoin Hack, The Space Opportunity",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-04-03",
+      "summary": "In this episode, the hosts discuss SpaceX's confidential filing for an IPO with a target valuation of $1.75 trillion, which would make it the eighth largest company in the world if successful. They also explore the potential for a merger between SpaceX and Tesla, the implications of the ongoing conflict on energy independence, and the impact on global markets. Additionally, they touch on the importance of energy infrastructure and the role of Middle Eastern states in financing and banking.",
+      "key_takeaway": "Invest in companies that are driving energy independence and have potential for significant growth through mergers and acquisitions.",
+      "tickers_mentioned": "[\"TSLA\", \"MSFT\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-04",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 136,
+      "episode_release_date": "2026-04-03",
+      "guest_name": null,
+      "key_tickers": [
+        "TSLA",
+        "MSFT"
+      ]
+    },
+    {
+      "id": 151,
+      "title": "Marc Andreessen on AI Winters and Agent Breakthroughs",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-04-03",
+      "summary": "In this episode of the a16z Show, Mark Andreason, co-founder and general partner at a16z, discusses the current state of AI and its potential impact on various industries. Andreason argues that the recent advancements in AI are not just a fleeting trend but the result of eight decades of foundational research. He highlights four breakthroughs that have catalyzed AI's progress: large language models, reasoning, agents, and self-improvement. The conversation also touches on the significance of combining language models, unique shells, and file systems to create a powerful software architecture that could shape the future of technology.",
+      "key_takeaway": "Invest in AI technologies that leverage the breakthroughs in large language models, reasoning, agents, and self-improvement, as these advancements could lead to transformative software architectures and industry disruptions.",
+      "tickers_mentioned": "[\"AAPL\", \"NVDA\", \"GOOGL\", \"MSFT\", \"TSLA\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-04",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 135,
+      "episode_release_date": "2026-04-03",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 147,
       "title": "Alex Blania on Proof of Human and Building World's Identity Network",
       "source_type": "podcast",
@@ -3686,48 +3772,6 @@ const dashboardData = {
         "PQNT",
         "PQUS"
       ]
-    },
-    {
-      "id": 142,
-      "title": "Uber CEO on Winning the Robotaxi Race, the End of Car Ownership, and Uber\u2019s Next $1 Trillion Bet | Dara Khosrowshahi (Uber CEO) | 243",
-      "source_type": "podcast",
-      "source_name": "Moonshots with Peter Diamandis",
-      "source_date": "2026-03-31",
-      "summary": "In this episode of 'Moonshots with Peter Diamandis', the discussion revolves around the burgeoning autonomous vehicle industry and Uber's strategic positioning within it. The guest, who has played a pivotal role in turning around Uber's financials, shares insights on the company's focus on autonomous technology, the hybrid model of human-driven and autonomous fleets, and the global market dynamics affecting the adoption of self-driving cars. The conversation also touches on the cultural and operational challenges of running a tech-driven company like Uber and the future implications of autonomous vehicles on urban mobility and delivery services.",
-      "key_takeaway": "Investment in autonomous vehicle technology is poised to disrupt urban mobility and logistics, with companies like Uber positioned to capitalize on this shift.",
-      "tickers_mentioned": "[\"UBER\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-04-01",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 128,
-      "episode_release_date": "2026-03-31",
-      "guest_name": null,
-      "key_tickers": [
-        "UBER"
-      ]
-    },
-    {
-      "id": 143,
-      "title": "How Radiant and Heron Are Rethinking Power Generation and Delivery",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-03-31",
-      "summary": "The podcast discusses the challenges and innovations in the energy sector, focusing on the limitations of the current grid infrastructure and the need for new solutions. The conversation revolves around the increasing demand for electricity due to data centers, electrified transport, and industrialization, and how new power delivery methods are essential for economic growth and sustainable energy. Guests Doug Burnower, CEO of Radiant, and Andrew Beglinow, CEO of Heron, alongside A16Z General Partner Erin Price Wright, explore the potential of portable nuclear reactors and solid-state power electronics in transforming the grid from the edge.",
-      "key_takeaway": "Investing in companies that innovate in energy delivery and grid infrastructure can lead to significant returns as the demand for electricity increases and the need for a more efficient and sustainable grid becomes critical.",
-      "tickers_mentioned": "[\"TSLA\", \"AAPL\", \"NVDA\", \"GE\", \"F\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-04-01",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 127,
-      "episode_release_date": "2026-03-31",
-      "guest_name": null,
-      "key_tickers": []
     },
     {
       "id": 144,
@@ -12236,61 +12280,198 @@ const dashboardData = {
       "GC",
       "HG"
     ]
+  },
+  "150": {
+    "id": 141,
+    "insight_id": 150,
+    "podcast_episode_id": 136,
+    "overview": "The recent news of SpaceX filing confidentially for an IPO with a target valuation of $1.75 trillion marks a significant milestone in the space industry and the broader technology sector. If successful, SpaceX would become one of the largest companies globally, with potential implications for related industries and companies. This deep dive analysis explores the investment thesis around SpaceX's IPO, the potential merger with Tesla, and the broader space opportunity, focusing on the short to medium-term implications for investors.",
+    "key_takeaways_detailed": [
+      "SpaceX's IPO could be the largest ever, significantly impacting the valuation of related companies and the space industry.",
+      "The potential merger between SpaceX and Tesla could create a $3.1 trillion company, ahead of Microsoft, with broad implications for technology and space sectors.",
+      "Investors should monitor the progress of SpaceX's IPO and potential synergies with Tesla for investment opportunities.",
+      "The space industry, including lunar mining and space travel, could become the next industrial frontier, with significant investment potential over the long term."
+    ],
+    "investment_thesis": "The investment thesis revolves around the potential impact of SpaceX's IPO and the broader space opportunity on related companies and industries. The short to medium-term catalysts include the successful IPO, potential merger with Tesla, and advancements in space technology. The core investment logic is that the space industry is at an inflection point, with significant growth potential and implications for technology companies involved in space exploration and related industries.",
+    "ticker_analysis": {
+      "TSLA": {
+        "rationale": "Tesla is closely related to SpaceX, with potential for a merger that could create a $3.1 trillion company. Tesla's stock could benefit from the increased valuation and synergies with SpaceX.",
+        "positioning": "Long-term strategic position, as the potential merger with SpaceX could significantly increase Tesla's valuation and growth prospects.",
+        "risk": "Key risks include the failure of the SpaceX IPO, regulatory hurdles to a potential merger, and increased competition in the electric vehicle market."
+      },
+      "AAPL": {
+        "rationale": "Apple has been investing in advanced materials and manufacturing technologies, which could benefit from the growth of the space industry and lunar mining.",
+        "positioning": "Medium-term tactical position, as Apple could benefit from the growth of the space industry and related technologies.",
+        "risk": "Key risks include increased competition in the technology sector, regulatory challenges, and potential disruptions in the global supply chain."
+      },
+      "NVDA": {
+        "rationale": "Nvidia is a leader in AI and data center technologies, which are crucial for space exploration and could benefit from the growth of the space industry.",
+        "positioning": "Long-term strategic position, as Nvidia's AI and data center technologies are essential for space exploration and could benefit from the growth of the space industry.",
+        "risk": "Key risks include increased competition in the AI and data center sectors, potential disruptions in the global supply chain, and regulatory challenges."
+      },
+      "SPY": {
+        "rationale": "The S&P 500 ETF (SPY) provides broad exposure to the U.S. stock market, including technology and space-related companies that could benefit from the growth of the space industry.",
+        "positioning": "Long-term strategic position, as the S&P 500 ETF offers broad exposure to the U.S. stock market, including companies that could benefit from the growth of the space industry.",
+        "risk": "Key risks include market volatility, economic downturns, and potential disruptions in the global supply chain."
+      }
+    },
+    "positioning_guidance": "Investors should consider a balanced portfolio positioning, with a mix of long-term strategic positions in companies directly involved in the space industry (e.g., TSLA, NVDA) and medium-term tactical positions in companies that could benefit from the growth of the space industry and related technologies (e.g., AAPL). Investors should also consider broad market exposure through ETFs like SPY. Entry points should be based on the progress of SpaceX's IPO and potential catalysts, with a timeframe of 3-12 months for tactical positions and >1 year for strategic positions. Hedges could include short positions in companies that could be negatively impacted by the growth of the space industry or increased competition.",
+    "risk_factors": [
+      "Failure of SpaceX's IPO or regulatory hurdles to a potential merger with Tesla.",
+      "Increased competition in the technology and space sectors.",
+      "Potential disruptions in the global supply chain, impacting technology and space-related companies.",
+      "Regulatory challenges and potential setbacks in space exploration and lunar mining initiatives."
+    ],
+    "contrarian_signals": [
+      "The potential for increased competition in the space industry, with new entrants challenging established players like SpaceX and Tesla.",
+      "The possibility of regulatory hurdles or setbacks in space exploration and lunar mining initiatives, impacting the growth prospects of the space industry.",
+      "The potential for disruptions in the global supply chain, impacting technology and space-related companies."
+    ],
+    "catalysts": [
+      "SpaceX's IPO and potential updates on the progress of the IPO process.",
+      "Potential announcements or updates regarding a merger between SpaceX and Tesla.",
+      "Advancements in space technology and lunar mining initiatives, with potential implications for related companies and industries.",
+      "Economic indicators and market trends, with potential implications for technology and space-related companies."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-04-04T05:06:01.998757",
+    "updated_at": "2026-04-04 10:06:02",
+    "insight_title": "SpaceX IPO, Iran War Fallout, Quantum Bitcoin Hack, The Space Opportunity",
+    "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "source_date": "2026-04-03",
+    "key_tickers": [
+      "TSLA",
+      "MSFT"
+    ]
+  },
+  "151": {
+    "id": 142,
+    "insight_id": 151,
+    "podcast_episode_id": 135,
+    "overview": "The investment thesis revolves around the current AI revolution, which Marc Andreessen views as a culmination of eight decades of foundational research, rather than a fleeting trend. This period is marked by four distinct breakthroughs: large language models, reasoning, agents, and self-improvement. The combination of a language model, a unique shell, and a file system is seen as a groundbreaking software architecture. The significance lies in the transformative potential of these technologies, which are poised to disrupt various sectors and create substantial investment opportunities. The current moment is not just about technological novelty but the unlocking of decades of research, a long-term impact on the tech landscape.",
+    "key_takeaways_detailed": [
+      "AI is transitioning from experimental to practical applications, with large language models becoming a cornerstone of this shift.",
+      "Investors should focus on companies at the forefront of AI development, particularly those involved in foundational research and applications.",
+      "The convergence of AI with other technologies like blockchain could create new investment opportunities.",
+      "Consider the long-term potential of AI, as the current advancements are built on decades of research, suggesting sustained growth rather than a short-lived trend.",
+      "Monitor the regulatory environment closely, as AI's rapid development may lead to new policies affecting the industry."
+    ],
+    "investment_thesis": "The core investment logic is that the current AI revolution is a result of decades of research culminating in practical, transformative technologies. Catalysts include advancements in large language models, reasoning capabilities, and the development of autonomous agents. The timeframe for this thesis is long-term, as the payoff from foundational research is expected to have a sustained impact on various industries. Investors should look for companies that are not just adopting AI but are contributing to its advancement, indicating a strategic positioning in the tech evolution.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's significant investment in AI for its products and services positions it to benefit from the AI revolution.",
+        "positioning": "Long-term strategic holding, as Apple's integration of AI into its ecosystem could drive future growth.",
+        "risk": "Regulatory changes affecting data privacy and AI usage could hinder Apple's AI development and application."
+      },
+      "NVDA": {
+        "rationale": "Nvidia's leadership in GPU technology is crucial for training AI models, making it a key beneficiary of AI advancements.",
+        "positioning": "Strategic long position, as the demand for AI processing power is expected to grow.",
+        "risk": "Competition from other chip manufacturers entering the AI space could erode Nvidia's market share."
+      },
+      "GOOGL": {
+        "rationale": "Google's deep investment in AI research and applications across its broad service offerings makes it a central player in the AI revolution.",
+        "positioning": "Long-term strategic holding, with potential for significant upside as AI becomes more integrated into Google's services.",
+        "risk": "Google faces regulatory scrutiny that could limit its ability to capitalize on AI advancements."
+      },
+      "MSFT": {
+        "rationale": "Microsoft's broad technology portfolio, including AI, positions it to leverage AI across various business segments.",
+        "positioning": "Medium to long-term strategic holding, as Microsoft's AI integration could enhance its competitive position.",
+        "risk": "Microsoft's diversified approach could mean slower AI-specific growth compared to more focused companies."
+      },
+      "TSLA": {
+        "rationale": "Tesla's use of AI in its autonomous driving technology places it at the forefront of AI applications in the automotive industry.",
+        "positioning": "Long-term strategic holding, with potential for significant growth as AI drives innovation in the automotive sector.",
+        "risk": "Regulatory hurdles and safety concerns related to autonomous driving could impact Tesla's AI deployment."
+      }
+    },
+    "positioning_guidance": "Investors should consider a diversified approach to AI investments, with a mix of long-term strategic holdings in companies leading AI development and those poised to benefit from AI integration. Entry points should be considered in the context of broader market trends and company-specific catalysts. Given the long-term nature of the thesis, investors should be prepared to hold positions for over a year, with a focus on companies demonstrating clear AI strategies and growth potential.",
+    "risk_factors": [
+      "Regulatory changes that could limit the development or application of AI technologies.",
+      "Technological setbacks or failures in AI that could slow down the adoption rate.",
+      "Increased competition that could erode the market share of leading AI companies.",
+      "Ethical concerns surrounding AI usage, potentially leading to public backlash and reduced demand.",
+      "Cybersecurity risks associated with AI systems, which could lead to data breaches and loss of trust."
+    ],
+    "contrarian_signals": [
+      "The possibility that the current AI boom could be another 'AI winter' if practical applications do not meet the hype.",
+      "The risk of overinvestment in AI leading to a market bubble and subsequent correction.",
+      "The potential for AI to displace jobs, leading to social and economic pushback against AI adoption."
+    ],
+    "catalysts": [
+      "Upcoming AI-related product launches and technology breakthroughs from leading companies.",
+      "Regulatory decisions affecting AI development and deployment.",
+      "Partnerships and acquisitions in the AI space that could accelerate technology adoption.",
+      "Publications of significant AI research that could open new avenues for commercialization.",
+      "Quarterly earnings reports from tech companies that highlight AI's contribution to revenue growth."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-04-04T05:06:22.042712",
+    "updated_at": "2026-04-04 10:06:22",
+    "insight_title": "Marc Andreessen on AI Winters and Agent Breakthroughs",
+    "source_name": "The a16z Show",
+    "source_date": "2026-04-03",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
+  {
+    "id": 147,
+    "term": "Energy Independence",
+    "definition": "The ability of a country or region to meet its energy needs without reliance on external sources, reducing vulnerability to geopolitical conflicts.",
+    "investment_implications": "Invest in companies and technologies that contribute to energy independence and reduce reliance on imported energy.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-04-04 10:05:13",
+    "priority_score": 80
+  },
+  {
+    "id": 145,
+    "term": "80-year overnight success",
+    "definition": "A term used to describe AI's rapid recent advancements that are the result of decades of foundational research and development.",
+    "investment_implications": "Investors should consider the long-term research and development that underpins current AI breakthroughs when evaluating potential investments.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-04-04 10:05:01",
+    "priority_score": 80
+  },
+  {
+    "id": 146,
+    "term": "Software Architecture",
+    "definition": "The structure or structures of a computer program or computer system, which includes the architectural design, the architectural construction, and the required architectural documentation.",
+    "investment_implications": "Investors should pay attention to innovative software architectures that could disrupt traditional computing and data processing paradigms.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-04-04 10:05:01",
+    "priority_score": 80
+  },
   {
     "id": 144,
     "term": "President Trump",
     "definition": null,
     "investment_implications": null,
     "source_type": "auto_extracted",
-    "mention_count": 3,
-    "source_diversity": 2,
-    "relevance_score": 35,
+    "mention_count": 4,
+    "source_diversity": 3,
+    "relevance_score": 40,
     "submitted_date": "2026-04-03 10:07:37",
-    "priority_score": 105
-  },
-  {
-    "id": 142,
-    "term": "Proof of Human",
-    "definition": "A system or method to verify that an online account or interaction is conducted by a human being, rather than an AI or bot.",
-    "investment_implications": "Investors should consider companies developing technologies to authenticate human interactions in a digital world increasingly populated by AI.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-04-03 10:04:54",
-    "priority_score": 80
-  },
-  {
-    "id": 143,
-    "term": "AI-generated content",
-    "definition": "Content created by artificial intelligence, which can mimic human creation to the point of being indistinguishable.",
-    "investment_implications": "As AI-generated content becomes more prevalent, there is an investment opportunity in companies that can detect and differentiate between human and AI content.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-04-03 10:04:54",
-    "priority_score": 80
-  },
-  {
-    "id": 140,
-    "term": "Autonomous Vehicles (AVs)",
-    "definition": "Self-driving vehicles that use sensors, cameras, and artificial intelligence to navigate without human input.",
-    "investment_implications": "Investors should consider companies developing AV technology and related infrastructure as potential growth areas.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-04-03 10:04:39",
-    "priority_score": 80
+    "priority_score": 140
   }
 ],
   podcastGuests: [
   {
-    "id": 1472,
+    "id": 1491,
     "name": "Why $200 Oil Won\u2019t Spike Inflation to 9%",
     "slug": "why-200-oil-wont-spike-inflation-to-9",
     "bio": null,
@@ -12302,7 +12483,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1473,
+    "id": 1492,
     "name": "This special episode",
     "slug": "this-special-episode",
     "bio": null,
@@ -12314,7 +12495,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1474,
+    "id": 1493,
     "name": "Lupin Ramon",
     "slug": "lupin-ramon",
     "bio": null,
@@ -12326,7 +12507,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1475,
+    "id": 1494,
     "name": "When the Music Stops",
     "slug": "when-the-music-stops",
     "bio": null,
@@ -12338,7 +12519,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1476,
+    "id": 1495,
     "name": "Ground Infrastructure",
     "slug": "ground-infrastructure",
     "bio": null,
@@ -12350,7 +12531,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1477,
+    "id": 1496,
     "name": "Rory Johnston",
     "slug": "rory-johnston",
     "bio": null,
@@ -12362,7 +12543,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1478,
+    "id": 1497,
     "name": "Senator John Fetterman on Voting Rights",
     "slug": "senator-john-fetterman-on-voting-rights",
     "bio": null,
@@ -12374,7 +12555,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1479,
+    "id": 1498,
     "name": "Stock Market on Shaky Foundations",
     "slug": "stock-market-on-shaky-foundations",
     "bio": null,
@@ -12386,7 +12567,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1480,
+    "id": 1499,
     "name": "Elon Musk on Moonshots",
     "slug": "elon-musk-on-moonshots",
     "bio": null,
@@ -12398,7 +12579,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1481,
+    "id": 1500,
     "name": "Investing in Capitalism",
     "slug": "investing-in-capitalism",
     "bio": null,
@@ -12410,7 +12591,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1482,
+    "id": 1501,
     "name": "Harvard Professor Graham Allison",
     "slug": "harvard-professor-graham-allison",
     "bio": null,
@@ -12422,7 +12603,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1483,
+    "id": 1502,
     "name": "Andrew Yang",
     "slug": "andrew-yang",
     "bio": "Andrew Yang is an entrepreneur and political leader who popularized universal basic income in U.S. politics through his 2020 presidential campaign.",
@@ -12434,7 +12615,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1484,
+    "id": 1503,
     "name": "Inventing the Renaissance",
     "slug": "inventing-the-renaissance",
     "bio": null,
@@ -12446,7 +12627,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1485,
+    "id": 1504,
     "name": "Ray Dalio",
     "slug": "ray-dalio",
     "bio": "Ray Dalio is the founder of Bridgewater Associates and a macro investor known for his 'Principles' framework and work on long-term debt cycles.",
@@ -12458,7 +12639,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1486,
+    "id": 1505,
     "name": "Nobel Prize-winning economist Paul Krugman",
     "slug": "nobel-prize-winning-economist-paul-krugman",
     "bio": null,
@@ -12470,7 +12651,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1487,
+    "id": 1506,
     "name": "host Jack Mallers",
     "slug": "host-jack-mallers",
     "bio": null,
@@ -12482,7 +12663,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1488,
+    "id": 1507,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -12494,7 +12675,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1489,
+    "id": 1508,
     "name": "Bosworth",
     "slug": "bosworth",
     "bio": null,
@@ -12506,7 +12687,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1490,
+    "id": 1509,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -12537,7 +12718,7 @@ const dashboardData = {
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-03-19",
     "mention_score": 4,
-    "mention_score_decayed": 3.56,
+    "mention_score_decayed": 3.48,
     "last_main_idea": "The Iran conflict could lead to a renewed inflation cycle, affecting commodities and energy markets, with potential second-order effects that markets may currently be underpricing.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:36:30.218908",
@@ -12593,7 +12774,7 @@ const dashboardData = {
     "last_podcast_name": "All-In Podcast",
     "last_episode_date": "2026-03-28",
     "mention_score": 3,
-    "mention_score_decayed": 2.67,
+    "mention_score_decayed": 2.61,
     "last_main_idea": "Investing in AI-driven platforms and technologies is essential for capturing the growth in the global financial system and staying ahead in the AI era.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:40:52.368193",
@@ -12655,7 +12836,7 @@ const dashboardData = {
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-03-19",
     "mention_score": 2,
-    "mention_score_decayed": 1.78,
+    "mention_score_decayed": 1.74,
     "last_main_idea": "The Iran conflict could lead to a renewed inflation cycle, affecting commodities and energy markets, with potential second-order effects that markets may currently be underpricing.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:35:48.845381",
@@ -12962,6 +13143,67 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
+    "id": 153,
+    "name": "Mark Andreason",
+    "slug": "mark-andreason",
+    "bio": "Mark Andreason is a co-founder and general partner at a16z, with over 35 years of experience in AI. He has witnessed the evolution of AI technologies and believes the current moment represents a significant payoff from decades of foundational research. Andreason argues that the combination of a language model, a unique shell, and a file system represents one of the most important software architectures in a generation.",
+    "known_for": "His insights into the evolution and potential of AI technologies and the current moment's significance in the field.",
+    "net_worth_usd": 1000000000.0,
+    "net_worth_source": "https://www.oreateai.com/blog/marc-andreessen-the-man-behind-the-billions/0a05c2acfab7b29e9d42044021e4bd53",
+    "net_worth_updated_at": "2026-04-04T05:05:36.409150",
+    "voice_tone": "Confident and informed",
+    "voice_style": "Analytical and forward-looking",
+    "voice_delivery_notes": "Paced with emphasis on key AI breakthroughs and their implications",
+    "voice_profile_updated_at": "2026-04-04 10:05:01",
+    "last_seen": "2026-04-04 10:05:01",
+    "last_episode_title": "Marc Andreessen on AI Winters and Agent Breakthroughs",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-04-03",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in AI technologies that leverage the breakthroughs in large language models, reasoning, agents, and self-improvement, as these advancements could lead to transformative software architectures and industry disruptions.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-04T05:05:35.449489",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Mark Andreason",
+      "fetched_at": "2026-04-04T10:05:35.449039+00:00",
+      "cliff_notes": "Mark Andreason, with over 35 years of experience in AI, is a co-founder and general partner at a16z. He has observed AI's cycles through summers and winters, from coding and lists in 1989 to his current involvement in foundation model companies. Andreason argues that the current moment is not a false start but rather the result of eight decades of foundational research catalyzed by four distinct breakthroughs: large language models, reasoning, agents, and self-improvement. He is particularly interested in the software architecture that combines a language model, a unique shell, and a file system, which he believes is one of the most important in a generation. Andreason's career and insights are significant in understanding the trajectory and potential of AI technologies.",
+      "derived": {
+        "current_role": "Co-founder and General Partner at a16z"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Mark Andreason, with over 35 years of experience in AI, is a co-founder and general partner at a16z. He has observed AI's cycles through summers and winters, from coding and lists in 1989 to his current involvement in foundation model companies. Andreason argues that the current moment is not a false start but rather the result of eight decades of foundational research catalyzed by four distinct breakthroughs: large language models, reasoning, agents, and self-improvement.",
+        "He is particularly interested in the software architecture that combines a language model, a unique shell, and a file system, which he believes is one of the most important in a generation. Andreason's career and insights are significant in understanding the trajectory and potential of AI technologies."
+      ],
+      "sections": [
+        {
+          "heading": "AI Evolution",
+          "body": "Mark Andreason has watched AI technologies evolve over more than 35 years, observing cycles of interest and progress."
+        },
+        {
+          "heading": "Foundational Research",
+          "body": "Andreason believes the current advancements in AI are the result of eight decades of foundational research."
+        },
+        {
+          "heading": "Breakthroughs in AI",
+          "body": "He identifies four breakthroughs that have catalyzed the current moment in AI: large language models, reasoning, agents, and self-improvement."
+        },
+        {
+          "heading": "Software Architecture",
+          "body": "Andreason argues that the combination of a language model, a unique shell, and a file system represents a significant advancement in software architecture."
+        }
+      ]
+    },
+    "net_worth": "$1.00B"
+  },
+  {
     "id": 150,
     "name": "Alex Bonia",
     "slug": "alex-bonia",
@@ -12979,7 +13221,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-02",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Investing in technologies that can verify human interactions online is becoming critical as AI-generated content proliferates, posing both challenges and opportunities for social media platforms and the broader digital economy.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-03T05:05:04.562022",
@@ -13036,7 +13278,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-02",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Investing in technologies that can verify human interactions online is becoming critical as AI-generated content proliferates, posing both challenges and opportunities for social media platforms and the broader digital economy.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-03T05:05:15.312671",
@@ -13094,7 +13336,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-04-02",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Invest in sectors less affected by AI disruption and monitor geopolitical events for opportunities in private credit markets.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-03T05:05:31.083540",
@@ -13151,7 +13393,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-04-02",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Invest in sectors less affected by AI disruption and monitor geopolitical events for opportunities in private credit markets.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-03T05:05:40.347752",
@@ -13325,7 +13567,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-03-31",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Investment in autonomous vehicle technology is poised to disrupt urban mobility and logistics, with companies like Uber positioned to capitalize on this shift.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-01T05:04:28.065974",
@@ -13383,7 +13625,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-31",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Investing in companies that innovate in energy delivery and grid infrastructure can lead to significant returns as the demand for electricity increases and the need for a more efficient and sustainable grid becomes critical.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-01T05:04:38.716099",
@@ -13441,7 +13683,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-31",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Investing in companies that innovate in energy delivery and grid infrastructure can lead to significant returns as the demand for electricity increases and the need for a more efficient and sustainable grid becomes critical.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-01T05:04:51.620692",
@@ -13503,7 +13745,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-31",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Investing in AI-enhanced ETFs like PQNT and PQUS can provide enhanced equity exposure in the current market environment.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-01T05:05:18.251968",
@@ -13564,7 +13806,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Invest in companies and technologies that are reshaping industries and have the potential to create significant economic value for a broad user base, rather than just the companies themselves.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-31T05:03:10.373140",
@@ -13609,64 +13851,6 @@ const dashboardData = {
       ]
     },
     "net_worth": "$1.90B"
-  },
-  {
-    "id": 137,
-    "name": "Layla Kunimoto",
-    "slug": "layla-kunimoto",
-    "bio": "Layla Kunimoto is the founder and editor of an investor insights platform with a focus on democratizing access to alternative investments. She has a background in finance and has been investing in public markets since college. Kunimoto's journey into private markets began with real estate and expanded to private credit and private equity.",
-    "known_for": "Democratizing access to alternative investments and providing insights into private markets.",
-    "net_worth_usd": 2000000000.0,
-    "net_worth_source": "https://substack.com/profile/30791185-leyla-kunimoto/note/c-158466514",
-    "net_worth_updated_at": "2026-03-30T05:03:22.928712",
-    "voice_tone": "Inquisitive and analytical",
-    "voice_style": "Detailed and explanatory, providing context and personal experience",
-    "voice_delivery_notes": "Paced with emphasis on key points regarding market structures and investment vehicles",
-    "voice_profile_updated_at": "2026-03-30 10:03:10",
-    "last_seen": "2026-03-30 10:03:10",
-    "last_episode_title": "The 2026 Private Credit Liquidity Crunch | Leyla Kunimoto on Redemptions in Semi-liquid Vehicles, Private/Public BDCs, and the Future of Alternatives",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-03-29",
-    "mention_score": 1,
-    "mention_score_decayed": 0.91,
-    "last_main_idea": "The democratization of alternative investments provides retail investors with new opportunities, but also comes with structural differences and risks that must be understood.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-30T05:03:22.005290",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Layla Kunimoto",
-      "fetched_at": "2026-03-30T10:03:22.005018+00:00",
-      "cliff_notes": "Layla Kunimoto began her career in finance, investing in public markets during her college years. Her entry into private markets was accidental, starting with private placement real estate in 2020. From there, she quickly moved into private credit and private equity, joining investor groups and attending conferences. Kunimoto observed the democratization of access to alternative investments firsthand, as large asset managers pushed into the space. As a retail investor, she is at the end of the funnel for these funds and asset managers. Her platform aims to provide insights into these alternative investments, making them more accessible to a wider audience.",
-      "derived": {
-        "current_role": "Founder and Editor, Investor Insights Platform",
-        "political_affiliation": "Democratization of access to alternative investments"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Layla Kunimoto began her career in finance, investing in public markets during her college years. Her entry into private markets was accidental, starting with private placement real estate in 2020. From there, she quickly moved into private credit and private equity, joining investor groups and attending conferences. Kunimoto observed the democratization of access to alternative investments firsthand, as large asset managers pushed into the space.",
-        "As a retail investor, she is at the end of the funnel for these funds and asset managers. Her platform aims to provide insights into these alternative investments, making them more accessible to a wider audience."
-      ],
-      "sections": [
-        {
-          "heading": "Private Markets",
-          "body": "Layla Kunimoto's initial foray into private markets was through real estate, which led her to explore private credit and private equity."
-        },
-        {
-          "heading": "Democratization of Access",
-          "body": "Kunimoto has witnessed the democratization of access to alternative investments, driven by large asset managers entering the space and targeting retail investors like herself."
-        },
-        {
-          "heading": "Investor Insights",
-          "body": "As the founder and editor of an investor insights platform, Kunimoto aims to provide valuable information and analysis on alternative investments to a broader audience."
-        }
-      ]
-    },
-    "net_worth": "$2.00B"
   }
 ]
 };

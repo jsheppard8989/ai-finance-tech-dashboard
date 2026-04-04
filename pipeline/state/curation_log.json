@@ -1,8 +1,21 @@
 {
-  "timestamp": "2026-04-03T22:03:07.636457",
-  "total_feed_episodes": 2,
-  "approved_for_transcription": 2,
+  "timestamp": "2026-04-04T05:04:33.360123",
+  "total_feed_episodes": 3,
+  "approved_for_transcription": 3,
   "episodes": [
+    {
+      "podcast": "Monetary Matters with Jack Farley",
+      "title": "\u201cBooks Will Be Written\u201d About This Shipping Market | Ed Finley-Richardson of Misadventures in Shipping on War-Induced Oil Tanker Mayhem, Squeeze for Asiabound Refined Products, and Persian Gulf \u201cFeeding Frenzy\u201d Scenario",
+      "description": "\n        <p>Listeners can get 20% off Misadventures in Shipping subscriptions through April 17th here:</p>\n<p><a href=\"https://edfin.substack.com/monetary\"><u>https://edfin.substack.com/monetary</u></a></p>\n<p><br></p>\n<p>Subscription includes access to Substack research pieces and private Twitter (X) account.</p>\n<p>____<br></p>\n<p>In this episode, Ed Finley-Richardson of the Misadventures in Shipping Substack joins Jack to break down how the Middle East conflict is creating unprecedented chaos",
+      "audio_url": "https://traffic.megaphone.fm/EWWMN5684956590.mp3",
+      "published": "Sat, 04 Apr 2026 06:09:00 -0000",
+      "published_date": "2026-04-04",
+      "rss_guid": "adb7bcbc-2fb3-11f1-8165-bbd465144653",
+      "status": "APPROVED",
+      "matched_keywords": [],
+      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/monetary_matters_with_jack_farley__books_will_be_written__about_this_shipping_market___ed_finl_e34b5b72.mp3",
+      "filename": "monetary_matters_with_jack_farley__books_will_be_written__about_this_shipping_market___ed_finl_e34b5b72.mp3"
+    },
     {
       "podcast": "The a16z Show",
       "title": "Marc Andreessen on AI Winters and Agent Breakthroughs",
@@ -24,10 +37,10 @@
       "published": "Fri, 03 Apr 2026 21:08:00 +0000",
       "published_date": "2026-04-03",
       "rss_guid": "15b1f9d0-8884-4bd5-8a9d-2ae0e32c0f29",
+      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/ALLIN-E267_Ch.mp3",
+      "filename": "ALLIN-E267_Ch.mp3",
       "status": "APPROVED",
-      "matched_keywords": [],
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/all_in_with_chamath__jason__sacks___frie_spacex_ipo__iran_war_fallout__quantum_bitcoin_hack__the_spac_3e3fcd38.mp3",
-      "filename": "all_in_with_chamath__jason__sacks___frie_spacex_ipo__iran_war_fallout__quantum_bitcoin_hack__the_spac_3e3fcd38.mp3"
+      "matched_keywords": []
     }
   ]
 }

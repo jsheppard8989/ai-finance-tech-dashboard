@@ -17,7 +17,7 @@
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-03-19",
     "mention_score": 4,
-    "mention_score_decayed": 3.56,
+    "mention_score_decayed": 3.48,
     "last_main_idea": "The Iran conflict could lead to a renewed inflation cycle, affecting commodities and energy markets, with potential second-order effects that markets may currently be underpricing.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:36:30.218908",
@@ -73,7 +73,7 @@
     "last_podcast_name": "All-In Podcast",
     "last_episode_date": "2026-03-28",
     "mention_score": 3,
-    "mention_score_decayed": 2.67,
+    "mention_score_decayed": 2.61,
     "last_main_idea": "Investing in AI-driven platforms and technologies is essential for capturing the growth in the global financial system and staying ahead in the AI era.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:40:52.368193",
@@ -135,7 +135,7 @@
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-03-19",
     "mention_score": 2,
-    "mention_score_decayed": 1.78,
+    "mention_score_decayed": 1.74,
     "last_main_idea": "The Iran conflict could lead to a renewed inflation cycle, affecting commodities and energy markets, with potential second-order effects that markets may currently be underpricing.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:35:48.845381",
@@ -442,6 +442,67 @@
     "pundit_profile": null
   },
   {
+    "id": 153,
+    "name": "Mark Andreason",
+    "slug": "mark-andreason",
+    "bio": "Mark Andreason is a co-founder and general partner at a16z, with over 35 years of experience in AI. He has witnessed the evolution of AI technologies and believes the current moment represents a significant payoff from decades of foundational research. Andreason argues that the combination of a language model, a unique shell, and a file system represents one of the most important software architectures in a generation.",
+    "known_for": "His insights into the evolution and potential of AI technologies and the current moment's significance in the field.",
+    "net_worth_usd": 1000000000.0,
+    "net_worth_source": "https://www.oreateai.com/blog/marc-andreessen-the-man-behind-the-billions/0a05c2acfab7b29e9d42044021e4bd53",
+    "net_worth_updated_at": "2026-04-04T05:05:36.409150",
+    "voice_tone": "Confident and informed",
+    "voice_style": "Analytical and forward-looking",
+    "voice_delivery_notes": "Paced with emphasis on key AI breakthroughs and their implications",
+    "voice_profile_updated_at": "2026-04-04 10:05:01",
+    "last_seen": "2026-04-04 10:05:01",
+    "last_episode_title": "Marc Andreessen on AI Winters and Agent Breakthroughs",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-04-03",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in AI technologies that leverage the breakthroughs in large language models, reasoning, agents, and self-improvement, as these advancements could lead to transformative software architectures and industry disruptions.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-04T05:05:35.449489",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Mark Andreason",
+      "fetched_at": "2026-04-04T10:05:35.449039+00:00",
+      "cliff_notes": "Mark Andreason, with over 35 years of experience in AI, is a co-founder and general partner at a16z. He has observed AI's cycles through summers and winters, from coding and lists in 1989 to his current involvement in foundation model companies. Andreason argues that the current moment is not a false start but rather the result of eight decades of foundational research catalyzed by four distinct breakthroughs: large language models, reasoning, agents, and self-improvement. He is particularly interested in the software architecture that combines a language model, a unique shell, and a file system, which he believes is one of the most important in a generation. Andreason's career and insights are significant in understanding the trajectory and potential of AI technologies.",
+      "derived": {
+        "current_role": "Co-founder and General Partner at a16z"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Mark Andreason, with over 35 years of experience in AI, is a co-founder and general partner at a16z. He has observed AI's cycles through summers and winters, from coding and lists in 1989 to his current involvement in foundation model companies. Andreason argues that the current moment is not a false start but rather the result of eight decades of foundational research catalyzed by four distinct breakthroughs: large language models, reasoning, agents, and self-improvement.",
+        "He is particularly interested in the software architecture that combines a language model, a unique shell, and a file system, which he believes is one of the most important in a generation. Andreason's career and insights are significant in understanding the trajectory and potential of AI technologies."
+      ],
+      "sections": [
+        {
+          "heading": "AI Evolution",
+          "body": "Mark Andreason has watched AI technologies evolve over more than 35 years, observing cycles of interest and progress."
+        },
+        {
+          "heading": "Foundational Research",
+          "body": "Andreason believes the current advancements in AI are the result of eight decades of foundational research."
+        },
+        {
+          "heading": "Breakthroughs in AI",
+          "body": "He identifies four breakthroughs that have catalyzed the current moment in AI: large language models, reasoning, agents, and self-improvement."
+        },
+        {
+          "heading": "Software Architecture",
+          "body": "Andreason argues that the combination of a language model, a unique shell, and a file system represents a significant advancement in software architecture."
+        }
+      ]
+    },
+    "net_worth": "$1.00B"
+  },
+  {
     "id": 150,
     "name": "Alex Bonia",
     "slug": "alex-bonia",
@@ -459,7 +520,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-02",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Investing in technologies that can verify human interactions online is becoming critical as AI-generated content proliferates, posing both challenges and opportunities for social media platforms and the broader digital economy.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-03T05:05:04.562022",
@@ -516,7 +577,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-02",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Investing in technologies that can verify human interactions online is becoming critical as AI-generated content proliferates, posing both challenges and opportunities for social media platforms and the broader digital economy.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-03T05:05:15.312671",
@@ -574,7 +635,7 @@
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-04-02",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Invest in sectors less affected by AI disruption and monitor geopolitical events for opportunities in private credit markets.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-03T05:05:31.083540",
@@ -631,7 +692,7 @@
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-04-02",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Invest in sectors less affected by AI disruption and monitor geopolitical events for opportunities in private credit markets.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-03T05:05:40.347752",
@@ -805,7 +866,7 @@
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-03-31",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Investment in autonomous vehicle technology is poised to disrupt urban mobility and logistics, with companies like Uber positioned to capitalize on this shift.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-01T05:04:28.065974",
@@ -863,7 +924,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-31",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Investing in companies that innovate in energy delivery and grid infrastructure can lead to significant returns as the demand for electricity increases and the need for a more efficient and sustainable grid becomes critical.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-01T05:04:38.716099",
@@ -921,7 +982,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-31",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Investing in companies that innovate in energy delivery and grid infrastructure can lead to significant returns as the demand for electricity increases and the need for a more efficient and sustainable grid becomes critical.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-01T05:04:51.620692",
@@ -983,7 +1044,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-31",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Investing in AI-enhanced ETFs like PQNT and PQUS can provide enhanced equity exposure in the current market environment.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-01T05:05:18.251968",
@@ -1044,7 +1105,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Invest in companies and technologies that are reshaping industries and have the potential to create significant economic value for a broad user base, rather than just the companies themselves.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-31T05:03:10.373140",
@@ -1089,63 +1150,5 @@
       ]
     },
     "net_worth": "$1.90B"
-  },
-  {
-    "id": 137,
-    "name": "Layla Kunimoto",
-    "slug": "layla-kunimoto",
-    "bio": "Layla Kunimoto is the founder and editor of an investor insights platform with a focus on democratizing access to alternative investments. She has a background in finance and has been investing in public markets since college. Kunimoto's journey into private markets began with real estate and expanded to private credit and private equity.",
-    "known_for": "Democratizing access to alternative investments and providing insights into private markets.",
-    "net_worth_usd": 2000000000.0,
-    "net_worth_source": "https://substack.com/profile/30791185-leyla-kunimoto/note/c-158466514",
-    "net_worth_updated_at": "2026-03-30T05:03:22.928712",
-    "voice_tone": "Inquisitive and analytical",
-    "voice_style": "Detailed and explanatory, providing context and personal experience",
-    "voice_delivery_notes": "Paced with emphasis on key points regarding market structures and investment vehicles",
-    "voice_profile_updated_at": "2026-03-30 10:03:10",
-    "last_seen": "2026-03-30 10:03:10",
-    "last_episode_title": "The 2026 Private Credit Liquidity Crunch | Leyla Kunimoto on Redemptions in Semi-liquid Vehicles, Private/Public BDCs, and the Future of Alternatives",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-03-29",
-    "mention_score": 1,
-    "mention_score_decayed": 0.91,
-    "last_main_idea": "The democratization of alternative investments provides retail investors with new opportunities, but also comes with structural differences and risks that must be understood.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-30T05:03:22.005290",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Layla Kunimoto",
-      "fetched_at": "2026-03-30T10:03:22.005018+00:00",
-      "cliff_notes": "Layla Kunimoto began her career in finance, investing in public markets during her college years. Her entry into private markets was accidental, starting with private placement real estate in 2020. From there, she quickly moved into private credit and private equity, joining investor groups and attending conferences. Kunimoto observed the democratization of access to alternative investments firsthand, as large asset managers pushed into the space. As a retail investor, she is at the end of the funnel for these funds and asset managers. Her platform aims to provide insights into these alternative investments, making them more accessible to a wider audience.",
-      "derived": {
-        "current_role": "Founder and Editor, Investor Insights Platform",
-        "political_affiliation": "Democratization of access to alternative investments"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Layla Kunimoto began her career in finance, investing in public markets during her college years. Her entry into private markets was accidental, starting with private placement real estate in 2020. From there, she quickly moved into private credit and private equity, joining investor groups and attending conferences. Kunimoto observed the democratization of access to alternative investments firsthand, as large asset managers pushed into the space.",
-        "As a retail investor, she is at the end of the funnel for these funds and asset managers. Her platform aims to provide insights into these alternative investments, making them more accessible to a wider audience."
-      ],
-      "sections": [
-        {
-          "heading": "Private Markets",
-          "body": "Layla Kunimoto's initial foray into private markets was through real estate, which led her to explore private credit and private equity."
-        },
-        {
-          "heading": "Democratization of Access",
-          "body": "Kunimoto has witnessed the democratization of access to alternative investments, driven by large asset managers entering the space and targeting retail investors like herself."
-        },
-        {
-          "heading": "Investor Insights",
-          "body": "As the founder and editor of an investor insights platform, Kunimoto aims to provide valuable information and analysis on alternative investments to a broader audience."
-        }
-      ]
-    },
-    "net_worth": "$2.00B"
   }
 ]

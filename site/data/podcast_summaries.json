@@ -1,5 +1,40 @@
 [
   {
+    "id": 136,
+    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "episode_title": "SpaceX IPO, Iran War Fallout, Quantum Bitcoin Hack, The Space Opportunity",
+    "episode_date": "2026-04-03",
+    "summary": "In this episode, the hosts discuss SpaceX's confidential filing for an IPO with a target valuation of $1.75 trillion, which would make it the eighth largest company in the world if successful. They also explore the potential for a merger between SpaceX and Tesla, the implications of the ongoing conflict on energy independence, and the impact on global markets. Additionally, they touch on the importance of energy infrastructure and the role of Middle Eastern states in financing and banking.",
+    "key_takeaways": [
+      "SpaceX has confidentially filed for an IPO targeting a $1.75 trillion valuation.",
+      "The potential merger between SpaceX and Tesla is highly speculated with a 99.99% chance mentioned.",
+      "Energy independence is a critical theme, especially for Europe, to avoid risks associated with external conflicts.",
+      "The Middle Eastern states are crucial financing and banking partners, and their interests may be affected by the conflict's outcome.",
+      "The conflict has cost $70 billion so far, with the Pentagon requesting an additional $200 billion."
+    ],
+    "investment_thesis": "Invest in companies that are driving energy independence and have potential for significant growth through mergers and acquisitions.",
+    "key_tickers": [
+      "TSLA",
+      "MSFT"
+    ]
+  },
+  {
+    "id": 135,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Marc Andreessen on AI Winters and Agent Breakthroughs",
+    "episode_date": "2026-04-03",
+    "summary": "In this episode of the a16z Show, Mark Andreason, co-founder and general partner at a16z, discusses the current state of AI and its potential impact on various industries. Andreason argues that the recent advancements in AI are not just a fleeting trend but the result of eight decades of foundational research. He highlights four breakthroughs that have catalyzed AI's progress: large language models, reasoning, agents, and self-improvement. The conversation also touches on the significance of combining language models, unique shells, and file systems to create a powerful software architecture that could shape the future of technology.",
+    "key_takeaways": [
+      "AI has experienced significant technical progress built up over time, drawing from decades of foundational research.",
+      "The current advancements in AI are not a false start but rather the result of an '80-year overnight success'.",
+      "Four breakthroughs have catalyzed AI's progress: large language models, reasoning, agents, and self-improvement.",
+      "The combination of a language model, a unique shell, and a file system represents a potentially revolutionary software architecture.",
+      "AI's potential to transform industries is substantial, but the pace of adoption may be slower than some utopian visions suggest due to existing economic and societal structures."
+    ],
+    "investment_thesis": "Invest in AI technologies that leverage the breakthroughs in large language models, reasoning, agents, and self-improvement, as these advancements could lead to transformative software architectures and industry disruptions.",
+    "key_tickers": null
+  },
+  {
     "id": 134,
     "podcast_name": "The a16z Show",
     "episode_title": "Alex Blania on Proof of Human and Building World's Identity Network",
