@@ -1,57 +1,14 @@
 {
-  "last_updated": "2026-04-03T05:07:37.973871",
+  "last_updated": "2026-04-03T22:04:07.357105",
   "episodes": {
-    "moonshots_with_peter_diamandis_uber\u2019s_robotaxi_playbook,_the_": {
-      "info": {
-        "podcast": "Moonshots with Peter Diamandis",
-        "title": "Uber\u2019s Robotaxi Playbook, the End of Human Driving & $10B Bet on Robots | Dara Khosrowshahi (Uber CEO) | EP #244",
-        "published": "2026-04-02",
-        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/DVVTS5816533892.mp3",
-        "keywords": [],
-        "rss_guid": "1a76f080-2e05-11f1-a288-57078d5d5143"
-      },
-      "stages": {
-        "downloaded": {
-          "complete": true,
-          "timestamp": null,
-          "reason": null
-        },
-        "transcribed": {
-          "complete": true,
-          "file": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/DVVTS5816533892.txt",
-          "timestamp": null,
-          "reason": null
-        },
-        "analyzed": {
-          "complete": true,
-          "episode_id": 133,
-          "timestamp": null,
-          "reason": null
-        },
-        "insight_created": {
-          "complete": true,
-          "insight_id": 17,
-          "insight_title": "Moonshots #231: 400x AI Cost Collapse & India's Talent Decade",
-          "timestamp": null,
-          "reason": null
-        },
-        "published": {
-          "complete": false,
-          "timestamp": null,
-          "reason": "Not in data.js yet (run export and push to site)."
-        }
-      },
-      "first_seen": "2026-04-03T05:07:37.909714",
-      "status": "needs_export"
-    },
-    "the_a16z_show_alex_blania_on_proof_of_human_": {
+    "the_a16z_show_marc_andreessen_on_ai_winters_": {
       "info": {
         "podcast": "The a16z Show",
-        "title": "Alex Blania on Proof of Human and Building World's Identity Network",
-        "published": "2026-04-02",
-        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_alex_blania_on_proof_of_human_and_building_world_s_identity__4d28229b.mp3",
+        "title": "Marc Andreessen on AI Winters and Agent Breakthroughs",
+        "published": "2026-04-03",
+        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_marc_andreessen_on_ai_winters_and_agent_breakthroughs_b4e468c2.mp3",
         "keywords": [],
-        "rss_guid": "d6577408-6c78-41e9-9803-3725e5b31eef"
+        "rss_guid": "fd960df5-9d0a-4630-b24a-fdfa37583be1"
       },
       "stages": {
         "downloaded": {
@@ -60,23 +17,21 @@
           "reason": null
         },
         "transcribed": {
-          "complete": true,
-          "file": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/the_a16z_show_20260402_d6577408_6c78_41e9_9803_3725e5b3.txt",
+          "complete": false,
+          "file": null,
           "timestamp": null,
-          "reason": null
+          "reason": "Waiting for fetch/transcribe step"
         },
         "analyzed": {
-          "complete": true,
-          "episode_id": 134,
+          "complete": false,
+          "episode_id": null,
           "timestamp": null,
-          "reason": null
+          "reason": "Waiting for next analyze run (transcript \u2192 DB)."
         },
         "insight_created": {
-          "complete": true,
-          "insight_id": 50,
-          "insight_title": "The a16z Show: New Media Strategy and Investment Insights",
+          "complete": false,
           "timestamp": null,
-          "reason": null
+          "reason": "Depends on analyze step first."
         },
         "published": {
           "complete": false,
@@ -84,17 +39,17 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-04-03T05:07:37.944310",
-      "status": "needs_export"
+      "first_seen": "2026-04-03T22:04:07.260319",
+      "status": "needs_transcription"
     },
-    "macro_voices_macrovoices_#526_matt_barrie:_": {
+    "all-in_with_chamath,_jason,_sacks_&_friedberg_spacex_ipo,_iran_war_fallout,_": {
       "info": {
-        "podcast": "Macro Voices",
-        "title": "MacroVoices #526 Matt Barrie: Pay To PrAI",
-        "published": "2026-04-02",
-        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/MacroVoices-2026-04-02-Matt-Barrie.mp3",
+        "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+        "title": "SpaceX IPO, Iran War Fallout, Quantum Bitcoin Hack, The Space Opportunity",
+        "published": "2026-04-03",
+        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/all_in_with_chamath__jason__sacks___frie_spacex_ipo__iran_war_fallout__quantum_bitcoin_hack__the_spac_3e3fcd38.mp3",
         "keywords": [],
-        "rss_guid": "macrovoices.podbean.com/31827f73-d960-3624-84b8-11b43c666fff"
+        "rss_guid": "15b1f9d0-8884-4bd5-8a9d-2ae0e32c0f29"
       },
       "stages": {
         "downloaded": {
@@ -103,23 +58,21 @@
           "reason": null
         },
         "transcribed": {
-          "complete": true,
-          "file": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/MacroVoices-2026-04-02-Matt-Barrie.txt",
+          "complete": false,
+          "file": null,
           "timestamp": null,
-          "reason": null
+          "reason": "Waiting for fetch/transcribe step"
         },
         "analyzed": {
-          "complete": true,
-          "episode_id": 132,
+          "complete": false,
+          "episode_id": null,
           "timestamp": null,
-          "reason": null
+          "reason": "Waiting for next analyze run (transcript \u2192 DB)."
         },
         "insight_created": {
-          "complete": true,
-          "insight_id": 58,
-          "insight_title": "The Future of Advanced Nuclear Energy and its Impact on Markets",
+          "complete": false,
           "timestamp": null,
-          "reason": null
+          "reason": "Depends on analyze step first."
         },
         "published": {
           "complete": false,
@@ -127,8 +80,8 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-04-03T05:07:37.968676",
-      "status": "needs_export"
+      "first_seen": "2026-04-03T22:04:07.334223",
+      "status": "needs_transcription"
     }
   }
 }

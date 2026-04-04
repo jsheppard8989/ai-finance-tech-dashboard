@@ -19685,3 +19685,588 @@ ModuleNotFoundError: No module named 'yfinance'
 ============================================================
 STEP: Auto-Curate Terms
 ============================================================
+zation, similar to professio...
+
+• Hedge Fund Pods
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: Smaller, specialized hedge fund groups that operate within larger hedge fund structures....
+
+• Portable Nuclear Reactors
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: Compact, factory-built nuclear reactors designed for portability and flexibility in power generation...
+
+• Solid-State Power Electronics
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: Power electronics that use solid-state devices to control and convert electric power, offering highe...
+
+• Edge-Based Grid Architecture
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A grid architecture that distributes power generation and control to the edges of the network, allow...
+
+• Autonomous Vehicles
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: Self-driving cars that use a combination of sensors, cameras, and software to navigate without human...
+
+• Hybrid Fleets
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A combination of autonomous and human-driven vehicles operating within the same transportation netwo...
+
+• Stack Sats
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A term used in the Bitcoin community to refer to accumulating Bitcoin, with 'sats' being short for S...
+
+• Agentic Development
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: The use of AI agents to augment software development and internal tooling, leading to increased prod...
+
+• AI-augmented Teams
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: Small, agile teams working alongside AI agents to develop products and services, leading to faster d...
+
+• AI-enhanced ETFs
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: Exchange-traded funds that use artificial intelligence to enhance equity exposure and potentially im...
+
+• Market Dislocation
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A sudden and significant shift in the market, often caused by external factors or technological disr...
+
+• Paper Token Inference Pricing
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: The practice of pricing AI models based on the value of paper tokens, which may not reflect their ac...
+
+• Autonomous Vehicles (AVs)
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: Self-driving vehicles that use sensors, cameras, and artificial intelligence to navigate without hum...
+
+• Verteports
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: Hypothetical locations designed for the takeoff and landing of vertical take-off and landing (VTOL) ...
+
+• Proof of Human
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A system or method to verify that an online account or interaction is conducted by a human being, ra...
+
+• AI-generated content
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: Content created by artificial intelligence, which can mimic human creation to the point of being ind...
+
+✓ Auto-Curate Terms completed
+
+============================================================
+STEP: Extract Podcast Guests
+============================================================
+============================================================
+Extract Podcast Guests
+============================================================
+Processing 107 processed episodes
+  ✓ Why $200 Oil Won’t Spike Inflation to 9% ← Monetary Matters with Jack Farley (2026-04-01)
+  ✓ This special episode ← All-In Podcast (2026-03-28)
+  ✓ Lupin Ramon ← Monetary Matters with Jack Farley (2026-03-27)
+  ✓ When the Music Stops ← The Jack Mallers Show (2026-03-24)
+  ✓ Ground Infrastructure ← The a16z Show (2026-03-23)
+  ✓ Rory Johnston ← Monetary Matters with Jack Farley (2026-03-19)
+  ✓ Senator John Fetterman on Voting Rights ← All-In with Chamath, Jason, Sacks & Friedberg (2026-03-18)
+  ✓ Stock Market on Shaky Foundations ← Monetary Matters with Jack Farley (2026-03-18)
+  ✓ Elon Musk on Moonshots ← Moonshots with Peter Diamandis (2026-03-17)
+  ✓ Investing in Capitalism ← All-In with Chamath, Jason, Sacks & Friedberg (2026-03-13)
+  ✓ Harvard Professor Graham Allison ← All-In with Chamath, Jason, Sacks & Friedberg (2026-03-09)
+  ✓ Andrew Yang ← Moonshots with Peter Diamandis (2026-03-07)
+  ✓ Inventing the Renaissance ← Dwarkesh Podcast (2026-03-06)
+  ✓ Ray Dalio ← All-In with Chamath, Jason, Sacks & Friedberg (2026-03-03)
+  ✓ Nobel Prize-winning economist Paul Krugman ← Monetary Matters with Jack Farley (2026-02-19)
+  ✓ host Jack Mallers ← The Jack Mallers Show (2026-02-19)
+  ✓ Ben Horowitz ← Moonshots with Peter Diamandis (2026-02-19)
+  ✓ Bosworth ← a16z Live (2026-02-15)
+  ✓ Milton Berg ← Monetary Matters with Jack Farley (2026-02-06)
+
+✓ Done. 19 guest(s) in database.
+
+✓ Extract Podcast Guests completed
+
+============================================================
+STEP: Export Website Data
+============================================================
+============================================================
+Exporting Website Data
+============================================================
+✓ Exported website data to /Users/jaredsheppard/.openclaw/workspace/site/data
+✓ Exported: {'ticker_scores': 50, 'podcast_summaries': 52, 'archive_items': 139, 'podcast_guests': 19, 'pundits': 20}
+🔍 Scanning podcast pipeline...
+
+
+================================================================================
+📊 PODCAST PIPELINE STATUS
+================================================================================
+
+📈 Pipeline Summary (3 total episodes tracked):
+  ✅ Downloaded:       3 / 3
+  ✅ Transcribed:      3 / 3
+  ✅ Analyzed:         3 / 3
+  ✅ Insight Created:  3 / 3
+  ✅ Published:        0 / 3
+
+🔍 Episodes Needing Attention:
+
+  🌐 Pending Publishing (3):
+    - Uber’s Robotaxi Playbook, the End of Human Driving
+    - Alex Blania on Proof of Human and Building World's
+    - MacroVoices #526 Matt Barrie: Pay To PrAI
+
+✅ Complete Episodes (All Stages):
+    (None yet)
+
+📅 Last Updated: 2026-04-03T05:07:37.973871
+📁 Status file: /Users/jaredsheppard/.openclaw/workspace/pipeline/state/pipeline_status.json
+================================================================================
+  ✓ Exported pipeline_state.json: 3 tracked
+
+============================================================
+Generating Website JavaScript
+============================================================
+✓ Generated data.js with 50 tickers, 139 archive items, 123 deep dives, 4 suggested terms, 19 legacy guests, 20 pundits; chartsVersion=2026-04-01T15:16:59.801570
+✓ Bumped data.js cache-buster to v=1775210862
+
+============================================================
+STEP: Push to GitHub
+============================================================
+✓ Pushed to GitHub: Pipeline update 2026-04-03 05:07: 3 podcasts, 3 insights, 0 newsletters
+
+============================================================
+PIPELINE COMPLETE
+Finished: 2026-04-03 05:07:45.504130
+============================================================
+📊 Pipeline Complete
+
+🎙️ 3 new podcast(s) analyzed
+📈 4 tickers scored
+
+Top tickers today:
+  WTI: score 70
+  SPX: score 66
+  HG: score 64
+  USDX: score 62
+
+🌐 Website updated
+2026-04-03T22:02:55-05:00 run_if_scheduled: in window, running pipeline
+============================================================
+AUTO PIPELINE
+Mode: full
+Started: 2026-04-03 22:02:55.991028
+============================================================
+
+============================================================
+STEP: Podcast Curation
+============================================================
+======================================================================
+Podcast Curation System
+======================================================================
+
+Found 7 podcast feeds
+
+Fetching episode metadata...
+  Fetching: https://feeds.megaphone.fm/DVVTS2890392624...
+    ✓ Moonshots with Peter Diamandis: 0 episodes
+  Fetching: https://feeds.megaphone.fm/EWWMN1909747317...
+    ✓ Monetary Matters with Jack Farley: 0 episodes
+  Fetching: https://feeds.simplecast.com/JGE3yC0V...
+    ✓ The a16z Show: 1 episodes
+  Fetching: https://rss.libsyn.com/shows/254861/destinations/1928300.xml...
+    ✓ All-In with Chamath, Jason, Sacks & Friedberg: 1 episodes
+  Fetching: https://anchor.fm/s/e29097f4/podcast/rss...
+    ✓ The Jack Mallers Show: 0 episodes
+  Fetching: https://feed.podbean.com/macrovoices/feed.xml...
+    ✓ Macro Voices: 0 episodes
+  Fetching: https://api.substack.com/feed/podcast/69345.rss...
+    ✓ Dwarkesh Podcast: 0 episodes
+
+  Total feed episodes (current month only: 2026-04): 2
+
+Matching audio files to episodes...
+  ✓ Episodes with matching audio: 0
+  ? Unmatched audio files (no matching feed episode): 44
+  📥 Episodes pending download before auto-download: 2
+
+Approving all episodes from feed list (feeds are pre-curated)...
+  ↓ Downloading audio: The a16z Show – Marc Andreessen on AI Winters and Agent Breakthroughs
+  ↓ Downloading audio: All-In with Chamath, Jason, Sacks & Frie – SpaceX IPO, Iran War Fallout, Quantum Bitcoin Hack, The Spac
+  ✓ Downloaded audio for 2 approved episode(s)
+
+  APPROVED (will transcribe or download): 2
+  🎧 Approved episodes with audio after auto-download: 2
+
+======================================================================
+CURATION RESULTS
+======================================================================
+
+📌 APPROVED (will transcribe or download):
+
+  ✓ The a16z Show
+    Title: Marc Andreessen on AI Winters and Agent Breakthroughs
+    File: the_a16z_show_marc_andreessen_on_ai_winters_and_agent_breakthroughs_b4e468c2.mp3
+
+  ✓ All-In with Chamath, Jason, Sacks & Friedberg
+    Title: SpaceX IPO, Iran War Fallout, Quantum Bitcoin Hack, The Space Opportun
+    File: all_in_with_chamath__jason__sacks___frie_spacex_ipo__iran_war_fallout__quantum_bitcoin_hack__the_spac_3e3fcd38.mp3
+
+
+✓ Curation log saved: /Users/jaredsheppard/.openclaw/workspace/pipeline/state/curation_log.json
+
+======================================================================
+NEXT STEPS
+======================================================================
+
+1. Review approved episodes above
+2. To transcribe approved episodes, run:
+   python3 transcribe_curated.py
+
+3. Or manually transcribe specific files (only for episodes that have audio):
+   whisper 'the_a16z_show_marc_andreessen_on_ai_winters_and_agent_breakthroughs_b4e468c2.mp3' --model tiny --language en
+   whisper 'all_in_with_chamath__jason__sacks___frie_spacex_ipo__iran_war_fallout__quantum_bitcoin_hack__the_spac_3e3fcd38.mp3' --model tiny --language en
+
+✓ Podcast Curation completed
+
+============================================================
+STEP: Fetch & Transcribe
+============================================================
+======================================================================
+Fetch & Transcribe Latest Podcast Episodes
+======================================================================
+
+Found 7 podcast feeds
+
+📻 Processing: https://feeds.megaphone.fm/DVVTS2890392624...
+  ⏭ Already have 'Uber’s Robotaxi Playbook, the End of Human Driving' (guid match, ep_id=133)
+  ✗ No episode found
+
+📻 Processing: https://feeds.megaphone.fm/EWWMN1909747317...
+  ⏭ Already have 'Why $200 Oil Won’t Spike Inflation to 9% | Anna Wo' (guid match, ep_id=131)
+  ✗ No episode found
+
+📻 Processing: https://feeds.simplecast.com/JGE3yC0V...
+  📋 Latest: Marc Andreessen on AI Winters and Agent Breakthroughs...
+  ⬇️  Downloading: the_a16z_show_20260403_fd960df5_9d0a_4630_b24a_fdfa3758.mp3
+     Title: Marc Andreessen on AI Winters and Agent Breakthroughs...
+     ✓ Downloaded to /Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_20260403_fd960df5_9d0a_4630_b24a_fdfa3758.mp3
+  🎙️  Transcribing: the_a16z_show_20260403_fd960df5_9d0a_4630_b24a_fdfa3758.mp3
+  📥 Submitted to whisper queue: the_a16z_show_20260403_fd960df5_9d0a_4630_b24a_fdfa3758.mp3
+  ⏭ Queue-only mode: not waiting. Run pipeline again after worker finishes.
+
+📻 Processing: https://rss.libsyn.com/shows/254861/destinations/1...
+  📋 Latest: SpaceX IPO, Iran War Fallout, Quantum Bitcoin Hack, The Spac...
+  ⬇️  Downloading: ALLIN-E267_Ch.mp3
+     Title: SpaceX IPO, Iran War Fallout, Quantum Bitcoin Hack, The Spac...
+     ✓ Downloaded to /Users/jaredsheppard/.openclaw/workspace/audio/ALLIN-E267_Ch.mp3
+  🎙️  Transcribing: ALLIN-E267_Ch.mp3
+  📥 Submitted to whisper queue: ALLIN-E267_Ch.mp3
+  ⏭ Queue-only mode: not waiting. Run pipeline again after worker finishes.
+
+📻 Processing: https://anchor.fm/s/e29097f4/podcast/rss...
+  ⏭ Skipping 'They're Lying to You. Again. Stay Humble & Stack S' — published 2026-03-31 (not in current month)
+  ✗ No episode found
+
+📻 Processing: https://feed.podbean.com/macrovoices/feed.xml...
+  ⏭ Already have 'MacroVoices #526 Matt Barrie: Pay To PrAI' (guid match, ep_id=132)
+  ✗ No episode found
+
+📻 Processing: https://api.substack.com/feed/podcast/69345.rss...
+  ⏭ Skipping 'Terence Tao – Kepler, Newton, and the true nature ' — published 2026-03-20 (not in current month)
+  ✗ No episode found
+
+✓ Log saved: /Users/jaredsheppard/.openclaw/workspace/pipeline/state/fetch_log.json
+
+======================================================================
+SUMMARY
+======================================================================
+Total feeds: 7
+Successfully transcribed: 0
+Failed: 2
+
+Completed episodes:
+
+
+Next step: Run 'python3 research.py' to analyze transcripts
+
+✓ Fetch & Transcribe completed
+
+============================================================
+STEP: Newsletter Ingestion
+============================================================
+==================================================
+Newsletter Ingestion Pipeline
+==================================================
+
+Connecting to Gmail...
+Connecting to Gmail at imap.gmail.com:993...
+Logging in as jsheppard8989@gmail.com...
+Selecting folder: NEWSLETTERS...
+Found 0 unread emails
+
+No emails fetched from Gmail.
+
+✓ Processed 0 emails
+
+Files saved to: /Users/jaredsheppard/.openclaw/workspace/pipeline/inbox
+
+Next step: Run analysis to score stock mentions
+
+✓ Newsletter Ingestion completed
+
+============================================================
+STEP: Transcript AI Analysis
+============================================================
+  ⚠ Google Generative AI library not installed. Run: pip install google-generativeai
+
+============================================================
+Processing Podcast Transcripts with AI
+============================================================
+  Using Moonshot/Kimi API
+Found 107 transcript files
+  Processing e3c75a06762af10f374661e8af1d1af6.txt...
+    ⏭ Episode already in database (duplicate), skipping
+  Processing dario_amodei.txt...
+    ⏭ Too short, skipping
+  Processing DVVTS5786783285.txt...
+    ⏭ Episode 'Ben Horowitz: xAI Executive Exodus, Ilya's $5B SSI Valuation...' already in database, skipping
+  Processing moonshots_with_peter_diamandis_meta_buys_moltbook__gpt_5_4__and_fruitfly_brain_upload___moo_609f0b8d.txt...
+    ⏭ Episode already in database (duplicate), skipping
+  Processing elon_musk.txt...
+    ⏭ Too short, skipping
+  Processing DVVTS6372073266.txt...
+    ⏭ Episode already in database (duplicate), skipping
+  Processing DVVTS3579530070.txt...
+    ⏭ Episode already in database (duplicate), skipping
+
+✓ Transcript processing complete: 0 new, 100 skipped, 0 errors
+✓ Analyzed 0 new transcripts
+
+============================================================
+STEP: Newsletter Import
+============================================================
+✓ Total newsletters imported: 0
+
+============================================================
+STEP: Promote Episodes to Insights
+============================================================
+Found 0 processed episodes not yet in insights
+✓ Promoted 0 new insight(s) to website
+
+============================================================
+STEP: Promote Newsletters to Insights
+============================================================
+Found 0 newsletters not yet on site
+
+============================================================
+STEP: Aggregate Daily Scores
+============================================================
+✓ Saved 4 daily scores
+✓ Enriched 0 pundit(s) (LLM/Grokipedia profile + net worth + optional Grok)
+
+============================================================
+STEP: Generate Deep Dives
+============================================================
+No insights need Deep Dives!
+
+✓ Generate Deep Dives completed
+
+============================================================
+STEP: Fetch Prices
+============================================================
+(-6.62%)
+  Fetching MSTR... $119.83 (-18.77%)
+  Fetching NEE... $93.15 (+0.36%)
+  Fetching NINT...     Error fetching NINT: HTTP Error 404: Not Found
+Failed
+  Fetching NOC... $702.50 (-4.55%)
+  Fetching NOW... $102.00 (-11.21%)
+  Fetching NVDA... $177.39 (-3.18%)
+  Fetching Nasdaq... $584.98 (-2.57%)
+  Fetching OKLO... $48.13 (-19.37%)
+  Fetching OPENAI...     Error fetching OPENAI: HTTP Error 404: Not Found
+Failed
+  Fetching PALL... $137.31 (-6.04%)
+  Fetching PLTM... $19.15 (-5.71%)
+  Fetching PLTR... $148.46 (-2.79%)
+  Fetching PQNT... $21.25 (+0.02%)
+  Fetching PQT... $0.00 (+0.00%)
+  Fetching PQUS... $24.28 (-1.67%)
+  Fetching PYPL... $45.34 (-0.18%)
+  Fetching QQQ... $584.98 (-2.57%)
+  Fetching Russell... $251.29 (+0.95%)
+  Fetching S&P... $655.83 (-1.97%)
+  Fetching S&P 500... $655.83 (-1.97%)
+  Fetching SF... $74.07 (+6.07%)
+  Fetching SLV... $65.79 (-10.15%)
+  Fetching SMP-500...     Error fetching SMP-500: HTTP Error 404: Not Found
+Failed
+  Fetching SMR... $10.15 (-15.20%)
+  Fetching SNAP... $4.63 (-1.07%)
+  Fetching SNWGF... $9.90 (-14.20%)
+  Fetching SOYB... $24.35 (+2.31%)
+  Fetching SPACEX...     Error fetching SPACEX: HTTP Error 404: Not Found
+Failed
+  Fetching SPCE... $2.46 (-0.81%)
+  Fetching SPX... $0.00 (+0.00%)
+  Fetching SPY... $655.83 (-1.97%)
+  Fetching SQ... Failed
+  Fetching SQQQ... $77.29 (+5.57%)
+  Fetching Semiconductors... $392.32 (-0.41%)
+  Fetching T... $28.33 (+2.16%)
+  Fetching TDOC... $5.27 (-2.23%)
+  Fetching THROPIC...     Error fetching THROPIC: HTTP Error 404: Not Found
+Failed
+  Fetching TLT... $86.79 (-0.48%)
+  Fetching TSLA... $360.59 (-8.84%)
+  Fetching TSM... $339.04 (-0.35%)
+  Fetching TWTR...     Error fetching TWTR: HTTP Error 404: Not Found
+Failed
+  Fetching UBER... $71.84 (-3.78%)
+  Fetching UNG... $11.35 (-7.04%)
+  Fetching URANIUM...     Error fetching URANIUM: HTTP Error 404: Not Found
+Failed
+  Fetching US 10 year Treasury...     Error fetching US 10 year Treasury: URL can't contain control characters. '/v8/finance/chart/US 
+Failed
+  Fetching US DOLLAR INDEX...     Error fetching US DOLLAR INDEX: URL can't contain control characters. '/v8/finance/chart/US 
+Failed
+  Fetching USDX... $25.67 (+0.09%)
+  Fetching USO... $137.92 (+19.90%)
+  Fetching Uranium...     Error fetching Uranium: HTTP Error 404: Not Found
+Failed
+  Fetching V... $300.80 (-3.00%)
+  Fetching VEEV... $173.98 (-6.10%)
+  Fetching VIX... $23.87 (+6.71%)
+  Fetching WIT... $2.16 (-2.26%)
+  Fetching WMT... $125.79 (-0.16%)
+  Fetching WORK... Failed
+  Fetching WTBN... $25.33 (-0.22%)
+  Fetching WTI... $3.15 (+1.61%)
+  Fetching WTI CRUDE OIL...     Error fetching WTI CRUDE OIL: URL can't contain control characters. '/v8/finance/chart/WTI
+Failed
+  Fetching XAU-USD... $0.00 (+0.00%)
+  Fetching XOM... $160.69 (+2.20%)
+  Fetching ZEC... $0.00 (+0.00%)
+  Fetching ZEN...     Error fetching ZEN: HTTP Error 404: Not Found
+Failed
+
+✓ Saved 96 prices to /Users/jaredsheppard/.openclaw/workspace/site/price_data.json
+Finished: 2026-04-03 22:04:05.885157
+
+✓ Fetch Prices completed
+
+============================================================
+STEP: Generate Charts
+============================================================
+
+STDERR: Traceback (most recent call last):
+  File "/Users/jaredsheppard/.openclaw/workspace/pipeline/generate_charts.py", line 7, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+
+✗ Generate Charts failed
+
+============================================================
+STEP: Auto-Curate Terms
+============================================================
+zation, similar to professio...
+
+• Hedge Fund Pods
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: Smaller, specialized hedge fund groups that operate within larger hedge fund structures....
+
+• Portable Nuclear Reactors
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: Compact, factory-built nuclear reactors designed for portability and flexibility in power generation...
+
+• Solid-State Power Electronics
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: Power electronics that use solid-state devices to control and convert electric power, offering highe...
+
+• Edge-Based Grid Architecture
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A grid architecture that distributes power generation and control to the edges of the network, allow...
+
+• Autonomous Vehicles
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: Self-driving cars that use a combination of sensors, cameras, and software to navigate without human...
+
+• Hybrid Fleets
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A combination of autonomous and human-driven vehicles operating within the same transportation netwo...
+
+• Stack Sats
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A term used in the Bitcoin community to refer to accumulating Bitcoin, with 'sats' being short for S...
+
+• Agentic Development
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: The use of AI agents to augment software development and internal tooling, leading to increased prod...
+
+• AI-augmented Teams
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: Small, agile teams working alongside AI agents to develop products and services, leading to faster d...
+
+• AI-enhanced ETFs
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: Exchange-traded funds that use artificial intelligence to enhance equity exposure and potentially im...
+
+• Market Dislocation
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A sudden and significant shift in the market, often caused by external factors or technological disr...
+
+• Paper Token Inference Pricing
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: The practice of pricing AI models based on the value of paper tokens, which may not reflect their ac...
+
+• Autonomous Vehicles (AVs)
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: Self-driving vehicles that use sensors, cameras, and artificial intelligence to navigate without hum...
+
+• Verteports
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: Hypothetical locations designed for the takeoff and landing of vertical take-off and landing (VTOL) ...
+
+• Proof of Human
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A system or method to verify that an online account or interaction is conducted by a human being, ra...
+
+• AI-generated content
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: Content created by artificial intelligence, which can mimic human creation to the point of being ind...
+
+✓ Auto-Curate Terms completed
+
+============================================================
+STEP: Extract Podcast Guests
+============================================================

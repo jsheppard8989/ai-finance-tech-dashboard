@@ -3,7 +3,7 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-04-03T05:07:42.628397",
+  generatedAt: "2026-04-03T22:04:14.144739",
   chartsVersion: "2026-04-01T15:16:59.801570",
   tickerScores: [
   {
@@ -12245,11 +12245,11 @@ const dashboardData = {
     "definition": null,
     "investment_implications": null,
     "source_type": "auto_extracted",
-    "mention_count": 2,
-    "source_diversity": 1,
-    "relevance_score": 30,
+    "mention_count": 3,
+    "source_diversity": 2,
+    "relevance_score": 35,
     "submitted_date": "2026-04-03 10:07:37",
-    "priority_score": 70
+    "priority_score": 105
   },
   {
     "id": 142,
@@ -12290,7 +12290,7 @@ const dashboardData = {
 ],
   podcastGuests: [
   {
-    "id": 1453,
+    "id": 1472,
     "name": "Why $200 Oil Won\u2019t Spike Inflation to 9%",
     "slug": "why-200-oil-wont-spike-inflation-to-9",
     "bio": null,
@@ -12302,7 +12302,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1454,
+    "id": 1473,
     "name": "This special episode",
     "slug": "this-special-episode",
     "bio": null,
@@ -12314,7 +12314,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1455,
+    "id": 1474,
     "name": "Lupin Ramon",
     "slug": "lupin-ramon",
     "bio": null,
@@ -12326,7 +12326,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1456,
+    "id": 1475,
     "name": "When the Music Stops",
     "slug": "when-the-music-stops",
     "bio": null,
@@ -12338,7 +12338,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1457,
+    "id": 1476,
     "name": "Ground Infrastructure",
     "slug": "ground-infrastructure",
     "bio": null,
@@ -12350,7 +12350,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1458,
+    "id": 1477,
     "name": "Rory Johnston",
     "slug": "rory-johnston",
     "bio": null,
@@ -12362,7 +12362,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1459,
+    "id": 1478,
     "name": "Senator John Fetterman on Voting Rights",
     "slug": "senator-john-fetterman-on-voting-rights",
     "bio": null,
@@ -12374,7 +12374,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1460,
+    "id": 1479,
     "name": "Stock Market on Shaky Foundations",
     "slug": "stock-market-on-shaky-foundations",
     "bio": null,
@@ -12386,7 +12386,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1461,
+    "id": 1480,
     "name": "Elon Musk on Moonshots",
     "slug": "elon-musk-on-moonshots",
     "bio": null,
@@ -12398,7 +12398,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1462,
+    "id": 1481,
     "name": "Investing in Capitalism",
     "slug": "investing-in-capitalism",
     "bio": null,
@@ -12410,7 +12410,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1463,
+    "id": 1482,
     "name": "Harvard Professor Graham Allison",
     "slug": "harvard-professor-graham-allison",
     "bio": null,
@@ -12422,7 +12422,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1464,
+    "id": 1483,
     "name": "Andrew Yang",
     "slug": "andrew-yang",
     "bio": "Andrew Yang is an entrepreneur and political leader who popularized universal basic income in U.S. politics through his 2020 presidential campaign.",
@@ -12434,7 +12434,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1465,
+    "id": 1484,
     "name": "Inventing the Renaissance",
     "slug": "inventing-the-renaissance",
     "bio": null,
@@ -12446,7 +12446,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1466,
+    "id": 1485,
     "name": "Ray Dalio",
     "slug": "ray-dalio",
     "bio": "Ray Dalio is the founder of Bridgewater Associates and a macro investor known for his 'Principles' framework and work on long-term debt cycles.",
@@ -12458,7 +12458,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1467,
+    "id": 1486,
     "name": "Nobel Prize-winning economist Paul Krugman",
     "slug": "nobel-prize-winning-economist-paul-krugman",
     "bio": null,
@@ -12470,7 +12470,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1468,
+    "id": 1487,
     "name": "host Jack Mallers",
     "slug": "host-jack-mallers",
     "bio": null,
@@ -12482,7 +12482,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1469,
+    "id": 1488,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -12494,7 +12494,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1470,
+    "id": 1489,
     "name": "Bosworth",
     "slug": "bosworth",
     "bio": null,
@@ -12506,7 +12506,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1471,
+    "id": 1490,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -12712,7 +12712,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-28",
     "mention_score": 2,
-    "mention_score_decayed": 1.78,
+    "mention_score_decayed": 1.74,
     "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-28T22:05:42.395070",
@@ -12773,7 +12773,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-28",
     "mention_score": 2,
-    "mention_score_decayed": 1.78,
+    "mention_score_decayed": 1.74,
     "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-28T22:05:50.938326",
@@ -12830,7 +12830,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-02-15",
     "mention_score": 2,
-    "mention_score_decayed": 1.78,
+    "mention_score_decayed": 1.74,
     "last_main_idea": "Invest in sectors with fertile ground for short selling, such as AI and tech, and under-allocated areas like junior mining, while combining long and short strategies for potential alpha.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:42:09.376490",
@@ -12892,7 +12892,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-02-18",
     "mention_score": 2,
-    "mention_score_decayed": 1.35,
+    "mention_score_decayed": 1.32,
     "last_main_idea": "Invest in the vertical integration of AI, the rise of India as a global AI hub, and the shift towards agent-based interactions.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-19T21:23:33.038094",
@@ -12955,7 +12955,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-16",
     "mention_score": 2,
-    "mention_score_decayed": 1.35,
+    "mention_score_decayed": 1.32,
     "last_main_idea": "Invest in AI startups that focus on specific niches and use cases, as they can compete effectively against larger AI companies by capitalizing on the gaps between platforms.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
@@ -13207,7 +13207,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Pictay asset management's AI-enhanced ETFs (PQNT and PQUS) aim to provide enhanced equity exposure through the use of artificial intelligence.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-01T22:04:02.778580",
@@ -13264,7 +13264,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Investing in companies that understand complex problems and can leverage AI to gain a competitive advantage in their operations and product development.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-01T15:15:31.311281",
