@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-04T22:03:56.191457",
-  "last_updated": "2026-04-04T22:03:56.191457",
-  "last_pipeline_run": "2026-04-04T22:03:56.191457",
+  "generated_at": "2026-04-05T05:04:56.601747",
+  "last_updated": "2026-04-05T05:04:56.601747",
+  "last_pipeline_run": "2026-04-05T05:04:56.601747",
   "main_page": {
     "overton": 8,
     "insights": 8,
@@ -15,34 +15,17 @@
     "overton_terms_total": 16,
     "latest_insights_total": 126,
     "today_mentions": {},
-    "podcasts_analyzed": 3
+    "podcasts_analyzed": 0
   },
   "step_results": {
-    "downloaded": 1,
-    "transcribed": 1,
-    "analyzed": 1,
-    "insight_created": 1,
-    "published": 1,
-    "total": 1
+    "downloaded": 0,
+    "transcribed": 0,
+    "analyzed": 0,
+    "insight_created": 0,
+    "published": 0,
+    "total": 0
   },
-  "episodes": [
-    {
-      "id": "adb7bcbc-2fb3-11f1-8165-bbd465144653",
-      "podcast": "Monetary Matters with Jack Farley",
-      "title": "\u201cBooks Will Be Written\u201d About This Shipping Market | Ed Finley-Richardson of Misadventures in Shipping on War-Induced Oil Tanker Mayhem, Squeeze for Asiabound Refined Products, and Persian Gulf \u201cFeeding Frenzy\u201d Scenario",
-      "published": "2026-04-04",
-      "rss_guid": "adb7bcbc-2fb3-11f1-8165-bbd465144653",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "status": "complete"
-    }
-  ],
+  "episodes": [],
   "available_from_rss": [],
   "stale_episodes": [],
   "stale_threshold_days": 2,
