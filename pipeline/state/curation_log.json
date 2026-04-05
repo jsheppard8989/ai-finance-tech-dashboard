@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-04-04T05:04:33.360123",
-  "total_feed_episodes": 3,
-  "approved_for_transcription": 3,
+  "timestamp": "2026-04-04T22:02:08.558566",
+  "total_feed_episodes": 1,
+  "approved_for_transcription": 1,
   "episodes": [
     {
       "podcast": "Monetary Matters with Jack Farley",
@@ -11,34 +11,8 @@
       "published": "Sat, 04 Apr 2026 06:09:00 -0000",
       "published_date": "2026-04-04",
       "rss_guid": "adb7bcbc-2fb3-11f1-8165-bbd465144653",
-      "status": "APPROVED",
-      "matched_keywords": [],
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/monetary_matters_with_jack_farley__books_will_be_written__about_this_shipping_market___ed_finl_e34b5b72.mp3",
-      "filename": "monetary_matters_with_jack_farley__books_will_be_written__about_this_shipping_market___ed_finl_e34b5b72.mp3"
-    },
-    {
-      "podcast": "The a16z Show",
-      "title": "Marc Andreessen on AI Winters and Agent Breakthroughs",
-      "description": "<p>This episode originally aired on the Latent Space Podcast. swyx and Alessio Fanelli speak with Marc Andreessen about the arc of AI from its origins in 1943 to today's breakthroughs in reasoning, coding agents, and self-improvement. They cover the parallels between AI scaling laws and Moore's Law, the architectural insight behind Claude Code and the Unix shell, the coming supply crunch in compute, and why the messy reality of 8 billion people means both AI utopians and doomers are too optimist",
-      "audio_url": "https://mgln.ai/e/1344/afp-848985-injected.calisto.simplecastaudio.com/3f86df7b-51c6-4101-88a2-550dba782de8/episodes/49988fe6-d35d-40a3-9709-0576315fd18e/audio/128/default.mp3?aid=rss_feed&awCollectionId=3f86df7b-51c6-4101-88a2-550dba782de8&awEpisodeId=49988fe6-d35d-40a3-9709-0576315fd18e&feed=JGE3yC0V",
-      "published": "Fri, 3 Apr 2026 17:30:00 +0000",
-      "published_date": "2026-04-03",
-      "rss_guid": "fd960df5-9d0a-4630-b24a-fdfa37583be1",
-      "status": "APPROVED",
-      "matched_keywords": [],
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_marc_andreessen_on_ai_winters_and_agent_breakthroughs_b4e468c2.mp3",
-      "filename": "the_a16z_show_marc_andreessen_on_ai_winters_and_agent_breakthroughs_b4e468c2.mp3"
-    },
-    {
-      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "title": "SpaceX IPO, Iran War Fallout, Quantum Bitcoin Hack, The Space Opportunity",
-      "description": "<p>(0:00) Bestie intros!</p> <p>(0:12) SpaceX IPO, the economic opportunity of space: a new industrial frontier</p> <p>(21:00) 2026 IPO explosion, OpenAI down round?</p> <p>(36:33) Iran War costs, fertilizer crisis, downstream impacts</p> <p>(49:58) Trump's Iran messaging problems, Bondi out, why the US is in Iran</p> <p>(1:04:18) Quantum Bitcoin hack possibilities, how crypto should react</p> <p>Follow the besties:</p> <p><a href=\"https://x.com/chamath\">https://x.com/chamath</a></p> <p><a href=",
-      "audio_url": "https://dts.podtrac.com/redirect.mp3/traffic.libsyn.com/secure/allinchamathjason/ALLIN-E267_Ch.mp3?dest-id=1928300",
-      "published": "Fri, 03 Apr 2026 21:08:00 +0000",
-      "published_date": "2026-04-03",
-      "rss_guid": "15b1f9d0-8884-4bd5-8a9d-2ae0e32c0f29",
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/ALLIN-E267_Ch.mp3",
-      "filename": "ALLIN-E267_Ch.mp3",
+      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/EWWMN5684956590.mp3",
+      "filename": "EWWMN5684956590.mp3",
       "status": "APPROVED",
       "matched_keywords": []
     }

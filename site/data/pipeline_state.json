@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-04T05:06:49.787456",
-  "last_updated": "2026-04-04T05:06:49.787456",
-  "last_pipeline_run": "2026-04-04T05:06:49.787456",
+  "generated_at": "2026-04-04T22:03:56.191457",
+  "last_updated": "2026-04-04T22:03:56.191457",
+  "last_pipeline_run": "2026-04-04T22:03:56.191457",
   "main_page": {
     "overton": 8,
     "insights": 8,
@@ -9,23 +9,21 @@
   },
   "counts": {
     "ticker_mentions": 154,
-    "podcast_episodes": 111,
+    "podcast_episodes": 112,
     "newsletters": 7,
     "daily_scores": 92,
     "overton_terms_total": 16,
-    "latest_insights_total": 125,
-    "today_mentions": {
-      "podcast": 2
-    },
-    "podcasts_analyzed": 2
+    "latest_insights_total": 126,
+    "today_mentions": {},
+    "podcasts_analyzed": 3
   },
   "step_results": {
-    "downloaded": 2,
-    "transcribed": 2,
-    "analyzed": 2,
-    "insight_created": 2,
-    "published": 2,
-    "total": 3
+    "downloaded": 1,
+    "transcribed": 1,
+    "analyzed": 1,
+    "insight_created": 1,
+    "published": 1,
+    "total": 1
   },
   "episodes": [
     {
@@ -35,44 +33,6 @@
       "published": "2026-04-04",
       "rss_guid": "adb7bcbc-2fb3-11f1-8165-bbd465144653",
       "stages": {
-        "downloaded": false,
-        "transcribed": false,
-        "analyzed": false,
-        "insight_created": false,
-        "published": false
-      },
-      "stage_reasons": {
-        "downloaded": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "transcribed": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "analyzed": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "insight_created": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
-      },
-      "status": "needs_download"
-    },
-    {
-      "id": "fd960df5-9d0a-4630-b24a-fdfa37583be1",
-      "podcast": "The a16z Show",
-      "title": "Marc Andreessen on AI Winters and Agent Breakthroughs",
-      "published": "2026-04-03",
-      "rss_guid": "fd960df5-9d0a-4630-b24a-fdfa37583be1",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "status": "complete"
-    },
-    {
-      "id": "15b1f9d0-8884-4bd5-8a9d-2ae0e32c0f29",
-      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "title": "SpaceX IPO, Iran War Fallout, Quantum Bitcoin Hack, The Space Opportunity",
-      "published": "2026-04-03",
-      "rss_guid": "15b1f9d0-8884-4bd5-8a9d-2ae0e32c0f29",
-      "stages": {
         "downloaded": true,
         "transcribed": true,
         "analyzed": true,
@@ -83,15 +43,7 @@
       "status": "complete"
     }
   ],
-  "available_from_rss": [
-    {
-      "podcast": "Monetary Matters with Jack Farley",
-      "title": "\u201cBooks Will Be Written\u201d About This Shipping Market | Ed Finley-Richardson of Misadventures in Shipping on War-Induced Oil Tanker Mayhem, Squeeze for Asiabound Refined Products, and Persian Gulf \u201cFeeding Frenzy\u201d Scenario",
-      "published": "Sat, 04 Apr 2026 06:09:00 -0000",
-      "published_date": "2026-04-04",
-      "rss_guid": ""
-    }
-  ],
+  "available_from_rss": [],
   "stale_episodes": [],
   "stale_threshold_days": 2,
   "rss_filter_criteria": {

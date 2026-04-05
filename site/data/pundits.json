@@ -192,7 +192,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-28",
     "mention_score": 2,
-    "mention_score_decayed": 1.74,
+    "mention_score_decayed": 1.7,
     "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-28T22:05:42.395070",
@@ -253,7 +253,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-28",
     "mention_score": 2,
-    "mention_score_decayed": 1.74,
+    "mention_score_decayed": 1.7,
     "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-28T22:05:50.938326",
@@ -310,7 +310,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-02-15",
     "mention_score": 2,
-    "mention_score_decayed": 1.74,
+    "mention_score_decayed": 1.7,
     "last_main_idea": "Invest in sectors with fertile ground for short selling, such as AI and tech, and under-allocated areas like junior mining, while combining long and short strategies for potential alpha.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:42:09.376490",
@@ -372,7 +372,7 @@
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-02-18",
     "mention_score": 2,
-    "mention_score_decayed": 1.32,
+    "mention_score_decayed": 1.29,
     "last_main_idea": "Invest in the vertical integration of AI, the rise of India as a global AI hub, and the shift towards agent-based interactions.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-19T21:23:33.038094",
@@ -435,11 +435,72 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-16",
     "mention_score": 2,
-    "mention_score_decayed": 1.32,
+    "mention_score_decayed": 1.29,
     "last_main_idea": "Invest in AI startups that focus on specific niches and use cases, as they can compete effectively against larger AI companies by capitalizing on the gaps between platforms.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
+  },
+  {
+    "id": 154,
+    "name": "Ed Finley Richardson",
+    "slug": "ed-finley-richardson",
+    "bio": "Ed Finley Richardson is a renowned expert in the shipping industry, known for his deep analysis and insights into shipping markets and investment opportunities. He is the author of the Misadventures in Shipping sub-stack, providing valuable research and analysis to investors interested in the shipping sector.",
+    "known_for": "His expertise in shipping markets and investment opportunities, particularly in the tanker market that transports crude oil and refined products around the globe.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Informed and analytical",
+    "voice_style": "Factual and predictive, with a focus on market outcomes",
+    "voice_delivery_notes": "Delivers insights with a steady pace, emphasizing key points",
+    "voice_profile_updated_at": "2026-04-05 03:02:52",
+    "last_seen": "2026-04-05 03:02:52",
+    "last_episode_title": "\u201cBooks Will Be Written\u201d About This Shipping Market | Ed Finley-Richardson of Misadventures in Shipping on War-Induced Oil Tanker Mayhem, Squeeze for Asiabound Refined Products, and Persian Gulf \u201cFeeding Frenzy\u201d Scenario",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-04-04",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "The disruption in shipping due to geopolitical conflicts presents a unique investment opportunity in shipping stocks, particularly for those with a keen understanding of the market dynamics.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-04T22:03:03.597938",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Ed Finley Richardson",
+      "fetched_at": "2026-04-05T03:03:03.597603+00:00",
+      "cliff_notes": "Ed Finley Richardson is an expert in the shipping industry, with a focus on analyzing and providing insights into shipping markets and investment opportunities. He began thinking hard years ago about the potential impacts of geopolitical events, such as the closure of the Strait of Hormuz, on shipping markets and the opportunities they might create for shipping investors. Richardson's work has become increasingly relevant as shipping prices have surged, with some reaching 10 times normal levels. As the author of the Misadventures in Shipping sub-stack, he offers valuable research and analysis to investors interested in the shipping sector, making him one of the best shipping analysts alive.",
+      "derived": {
+        "current_role": "Author of Misadventures in Shipping",
+        "books_or_works": "Misadventures in Shipping sub-stack"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Ed Finley Richardson is an expert in the shipping industry, with a focus on analyzing and providing insights into shipping markets and investment opportunities. He began thinking hard years ago about the potential impacts of geopolitical events, such as the closure of the Strait of Hormuz, on shipping markets and the opportunities they might create for shipping investors.",
+        "Richardson's work has become increasingly relevant as shipping prices have surged, with some reaching 10 times normal levels. As the author of the Misadventures in Shipping sub-stack, he offers valuable research and analysis to investors interested in the shipping sector, making him one of the best shipping analysts alive."
+      ],
+      "sections": [
+        {
+          "heading": "Shipping Market Analysis",
+          "body": "Ed Finley Richardson is known for his deep analysis of shipping markets, particularly the tanker market that transports crude oil and refined products around the globe."
+        },
+        {
+          "heading": "Investment Opportunities",
+          "body": "Richardson's expertise lies in identifying investment opportunities within the shipping industry, especially in times of geopolitical unrest and market disruptions."
+        },
+        {
+          "heading": "Misadventures in Shipping",
+          "body": "As the author of the Misadventures in Shipping sub-stack, Richardson provides valuable research and analysis to investors interested in the shipping sector."
+        },
+        {
+          "heading": "Shipping Prices Surge",
+          "body": "Richardson's work has gained prominence as shipping prices have surged, with some reaching 10 times normal levels, highlighting the importance of his analysis and insights."
+        }
+      ]
+    }
   },
   {
     "id": 153,
@@ -748,7 +809,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Pictay asset management's AI-enhanced ETFs (PQNT and PQUS) aim to provide enhanced equity exposure through the use of artificial intelligence.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-01T22:04:02.778580",
@@ -805,7 +866,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Investing in companies that understand complex problems and can leverage AI to gain a competitive advantage in their operations and product development.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-01T15:15:31.311281",
@@ -1086,69 +1147,5 @@
       ]
     },
     "net_worth": "$15.20B"
-  },
-  {
-    "id": 138,
-    "name": "Mark Andreessen",
-    "slug": "mark-andreessen",
-    "bio": "Mark Andreessen is a prominent venture capitalist and entrepreneur, best known as the co-founder of Andreessen Horowitz, a venture capital firm that manages over $90 billion in assets and has invested in some of the most influential companies of our time.",
-    "known_for": "His insights on technology and venture capital, and his role in building one of the greatest venture capital firms.",
-    "net_worth_usd": 1900000000.0,
-    "net_worth_source": "https://en.wikipedia.org/wiki/Marc_Andreessen",
-    "net_worth_updated_at": "2026-03-31T05:03:11.716632",
-    "voice_tone": "Reflective and insightful",
-    "voice_style": "Candid and straightforward, with a focus on sharing deep industry knowledge",
-    "voice_delivery_notes": "Pacing is thoughtful, with emphasis on key points regarding venture capital and technology trends",
-    "voice_profile_updated_at": "2026-03-31 10:02:41",
-    "last_seen": "2026-03-31 10:02:41",
-    "last_episode_title": "Marc Andreessen on Evaluating Founders and AI's Consumer Surplus",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-03-30",
-    "mention_score": 1,
-    "mention_score_decayed": 0.91,
-    "last_main_idea": "Invest in companies and technologies that are reshaping industries and have the potential to create significant economic value for a broad user base, rather than just the companies themselves.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-31T05:03:10.373140",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Mark Andreessen",
-      "fetched_at": "2026-03-31T10:03:10.372791+00:00",
-      "cliff_notes": "Mark Andreessen is a renowned venture capitalist and entrepreneur. He co-founded Netscape Communications, which popularized the web browser and played a pivotal role in the early internet era. Andreessen later transitioned into venture capital, co-founding Andreessen Horowitz, which has become one of the most influential venture capital firms globally. The firm has made significant investments in companies like Facebook, Airbnb, and Slack, shaping the tech landscape. Andreessen's perspectives on technology, venture capital, and entrepreneurship are highly sought after, and he is known for his contrarian views and bold predictions about the future of tech.",
-      "derived": {
-        "current_role": "Co-founder of Andreessen Horowitz",
-        "former_positions": "Co-founder of Netscape Communications; General Partner at Opsware",
-        "boards": "Facebook; eBay; Hewlett Packard Enterprise; Zazzle",
-        "education": "Bachelor of Science in Computer Science from the University of Illinois at Urbana-Champaign; Master of Science in Computer Science from Stanford University"
-      },
-      "infobox": {
-        "Born": "July 9, 1971",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Mark Andreessen is a renowned venture capitalist and entrepreneur. He co-founded Netscape Communications, which popularized the web browser and played a pivotal role in the early internet era. Andreessen later transitioned into venture capital, co-founding Andreessen Horowitz, which has become one of the most influential venture capital firms globally.",
-        "The firm has made significant investments in companies like Facebook, Airbnb, and Slack, shaping the tech landscape. Andreessen's perspectives on technology, venture capital, and entrepreneurship are highly sought after, and he is known for his contrarian views and bold predictions about the future of tech."
-      ],
-      "sections": [
-        {
-          "heading": "Venture Capital Insights",
-          "body": "Mark Andreessen is well-regarded for his insights into venture capital, often challenging conventional wisdom and advocating for taking risks on promising startups."
-        },
-        {
-          "heading": "Tech Industry Centralization",
-          "body": "Andreessen has commented on the increasing centralization of the tech industry, noting that Silicon Valley's influence has never been greater, which has implications for innovation and competition."
-        },
-        {
-          "heading": "Labor Displacement Misconceptions",
-          "body": "He has argued against the notion of labor displacement due to technology, suggesting that many large companies are overstaffed rather than being threatened by automation."
-        },
-        {
-          "heading": "The 'Skalded Stove' Phenomenon",
-          "body": "Andreessen has coined the term 'Skalded Stove' to describe how past investment failures can negatively impact an investor's future decision-making, leading to missed opportunities."
-        }
-      ]
-    },
-    "net_worth": "$1.90B"
   }
 ]

@@ -1,25 +1,11 @@
 {
-  "timestamp": "2026-04-04T05:04:43.681704",
+  "timestamp": "2026-04-04T22:02:19.634448",
   "results": [
     {
       "podcast": "Monetary Matters with Jack Farley",
       "title": "\u201cBooks Will Be Written\u201d About This Shipping Market | Ed Finley-Richardson of Misadventures in Shipping on War-Induced Oil Tanker Mayhem, Squeeze for Asiabound Refined Products, and Persian Gulf \u201cFeeding Frenzy\u201d Scenario",
       "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/EWWMN5684956590.mp3",
-      "transcript_path": null,
-      "success": false
-    },
-    {
-      "podcast": "The a16z Show",
-      "title": "Marc Andreessen on AI Winters and Agent Breakthroughs",
-      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_20260403_fd960df5_9d0a_4630_b24a_fdfa3758.mp3",
-      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/the_a16z_show_20260403_fd960df5_9d0a_4630_b24a_fdfa3758.txt",
-      "success": true
-    },
-    {
-      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "title": "SpaceX IPO, Iran War Fallout, Quantum Bitcoin Hack, The Space Opportunity",
-      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/ALLIN-E267_Ch.mp3",
-      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/ALLIN-E267_Ch.txt",
+      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/EWWMN5684956590.txt",
       "success": true
     }
   ]

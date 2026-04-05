@@ -3,7 +3,7 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-04-04T05:06:52.661006",
+  generatedAt: "2026-04-04T22:03:58.961364",
   chartsVersion: "2026-04-01T15:16:59.801570",
   tickerScores: [
   {
@@ -760,6 +760,25 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 152,
+      "title": "\u201cBooks Will Be Written\u201d About This Shipping Market | Ed Finley-Richardson of Misadventures in Shipping on War-Induced Oil Tanker Mayhem, Squeeze for Asiabound Refined Products, and Persian Gulf \u201cFeeding Frenzy\u201d Scenario",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-04-04",
+      "summary": "In this episode of Monetary Matters, host Jack Farley interviews Ed Finley Richardson, an expert in the shipping industry, to discuss the impact of the closure of the Strait of Hormuz on shipping markets and the resulting investment opportunities. They delve into how the conflict in the Middle East has affected oil, refined products, and fertilizer prices, and how shipping has become more expensive. Richardson shares his insights on the tanker market, shipping stocks, and the importance of corporate governance in the industry.",
+      "key_takeaway": "The disruption in shipping due to geopolitical conflicts presents a unique investment opportunity in shipping stocks, particularly for those with a keen understanding of the market dynamics.",
+      "tickers_mentioned": [
+        "ZIM"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-04",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 137
+    },
+    {
       "id": 150,
       "title": "SpaceX IPO, Iran War Fallout, Quantum Bitcoin Hack, The Space Opportunity",
       "source_type": "podcast",
@@ -983,11 +1002,11 @@ const dashboardData = {
         "PQUS"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-04-01",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-04-05",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 126
     },
     {
@@ -3618,6 +3637,28 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 152,
+      "title": "\u201cBooks Will Be Written\u201d About This Shipping Market | Ed Finley-Richardson of Misadventures in Shipping on War-Induced Oil Tanker Mayhem, Squeeze for Asiabound Refined Products, and Persian Gulf \u201cFeeding Frenzy\u201d Scenario",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-04-04",
+      "summary": "In this episode of Monetary Matters, host Jack Farley interviews Ed Finley Richardson, an expert in the shipping industry, to discuss the impact of the closure of the Strait of Hormuz on shipping markets and the resulting investment opportunities. They delve into how the conflict in the Middle East has affected oil, refined products, and fertilizer prices, and how shipping has become more expensive. Richardson shares his insights on the tanker market, shipping stocks, and the importance of corporate governance in the industry.",
+      "key_takeaway": "The disruption in shipping due to geopolitical conflicts presents a unique investment opportunity in shipping stocks, particularly for those with a keen understanding of the market dynamics.",
+      "tickers_mentioned": "[\"ZIM\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-04",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 137,
+      "episode_release_date": "2026-04-04",
+      "guest_name": null,
+      "key_tickers": [
+        "ZIM"
+      ]
+    },
+    {
       "id": 150,
       "title": "SpaceX IPO, Iran War Fallout, Quantum Bitcoin Hack, The Space Opportunity",
       "source_type": "podcast",
@@ -3768,29 +3809,6 @@ const dashboardData = {
       "podcast_episode_id": 131,
       "episode_release_date": "2026-04-01",
       "guest_name": "Why $200 Oil Won\u2019t Spike Inflation to 9%",
-      "key_tickers": [
-        "PQNT",
-        "PQUS"
-      ]
-    },
-    {
-      "id": 144,
-      "title": "The Psychology of Market Champions: Inside the Minds of Point 72 & Citadel Portfolio Managers | Dr. Gio Valiante",
-      "source_type": "podcast",
-      "source_name": "Monetary Matters with Jack Farley",
-      "source_date": "2026-03-31",
-      "summary": "In this episode of 'Other People's Money', host Matt interviews Dr. Geo Voliante, a performance coach for top hedge funds and athletes. They discuss the rise of hedge fund pods, the impact of regulation on the industry, and the challenges faced by smaller hedge funds. Dr. Geo emphasizes the importance of culture and environment on performance and compares hedge fund managers to 'investor athletes'. The conversation also touches on the adaptability of markets and hedge funds in the age of AI.",
-      "key_takeaway": "Investing in AI-enhanced ETFs like PQNT and PQUS can provide enhanced equity exposure in the current market environment.",
-      "tickers_mentioned": "[\"PQNT\", \"PQUS\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-04-01",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 126,
-      "episode_release_date": "2026-03-31",
-      "guest_name": null,
       "key_tickers": [
         "PQNT",
         "PQUS"
@@ -12417,9 +12435,96 @@ const dashboardData = {
     "source_name": "The a16z Show",
     "source_date": "2026-04-03",
     "key_tickers": []
+  },
+  "152": {
+    "id": 143,
+    "insight_id": 152,
+    "podcast_episode_id": 137,
+    "overview": "The closure of the Strait of Hormuz and the ongoing conflict in the Middle East have significantly disrupted global shipping, particularly in the oil and refined products markets. This has led to a surge in shipping prices, with some rates increasing 2X to 10X normal levels. The situation is unprecedented, with long-lasting implications for the shipping industry and related markets. The investment thesis revolves around the potential for continued high shipping rates and the profitability of shipping companies amidst these disruptions. This analysis aims to provide investors with actionable insights into the current shipping market dynamics and potential investment opportunities.",
+    "key_takeaways_detailed": [
+      "The closure of the Strait of Hormuz has created a significant disruption in global shipping, particularly for oil and refined products.",
+      "Shipping rates have surged 2X to 10X normal levels, leading to increased profitability for shipping companies.",
+      "The situation is unprecedented and could persist longer than typical market disruptions, providing a unique investment opportunity.",
+      "Investors should focus on shipping companies with exposure to the oil and refined products markets, as well as those with operations in the Far East and Western Hemisphere.",
+      "The current market dynamics favor shipping companies that can capitalize on inefficiencies and long-haul shipping routes."
+    ],
+    "investment_thesis": "The investment thesis is centered around the continued disruption in global shipping due to the closure of the Strait of Hormuz and the conflict in the Middle East. This has led to a surge in shipping rates, which is expected to persist in the short to medium term. The core investment logic is that shipping companies with exposure to the affected markets and routes will benefit from the increased rates and inefficiencies in the market. The catalysts for this thesis include the ongoing conflict, the shift in trade flows, and the potential for further disruptions in the shipping industry. The timeframe for this thesis is short to medium term, as the market is expected to normalize once the conflict is resolved and trade flows stabilize.",
+    "ticker_analysis": {
+      "NVDA": {
+        "rationale": "NVIDIA is a leading technology company that provides advanced computing solutions, including those used in autonomous shipping and logistics. As the shipping industry becomes more reliant on technology to navigate disruptions, NVIDIA's products and services could be in higher demand.",
+        "positioning": "Long-term strategic position, as the shipping industry's reliance on technology is expected to grow.",
+        "risk": "Key risks include a slowdown in the adoption of autonomous shipping technology and increased competition in the technology space."
+      },
+      "SPY": {
+        "rationale": "SPY is an ETF that tracks the S&P 500 index, which includes several shipping and logistics companies. As the shipping market experiences disruptions, these companies could see increased profitability, leading to gains for SPY.",
+        "positioning": "Medium-term tactical position, as the shipping market disruptions are expected to persist in the short to medium term.",
+        "risk": "Key risks include a rapid resolution of the conflict in the Middle East and a normalization of shipping rates."
+      },
+      "TSLA": {
+        "rationale": "Tesla is a leading electric vehicle manufacturer that could benefit from the increased demand for electric vehicles in the shipping industry. As shipping companies look to reduce their carbon footprint and improve efficiency, Tesla's electric trucks and other vehicles could be in higher demand.",
+        "positioning": "Long-term strategic position, as the adoption of electric vehicles in the shipping industry is expected to grow.",
+        "risk": "Key risks include a slowdown in the adoption of electric vehicles and increased competition in the electric vehicle market."
+      }
+    },
+    "positioning_guidance": "Investors should consider a diversified approach to positioning in the shipping market, with a mix of short-term tactical and long-term strategic positions. Allocations should be made to shipping companies with exposure to the affected markets and routes, as well as technology companies that could benefit from the increased demand for advanced shipping solutions. Entry points should be based on market volatility and the potential for further disruptions, with a focus on timing the market's reaction to ongoing events. Hedges can be implemented through inverse ETFs or short positions in companies that are expected to be negatively impacted by the shipping market disruptions.",
+    "risk_factors": [
+      "A rapid resolution of the conflict in the Middle East could lead to a normalization of shipping rates and a decline in profitability for shipping companies.",
+      "Increased competition in the shipping industry could erode margins and limit the potential for increased profitability.",
+      "A slowdown in global economic growth could reduce demand for shipping services and lead to lower rates.",
+      "Regulatory changes or new trade agreements could shift trade flows and disrupt the current market dynamics.",
+      "Technological advancements in shipping could disrupt the market and lead to increased efficiency, reducing the potential for high shipping rates."
+    ],
+    "contrarian_signals": [
+      "The market may overestimate the duration of the shipping disruptions, leading to a potential overvaluation of shipping companies.",
+      "Investors may underestimate the potential for technological advancements to disrupt the shipping industry and reduce inefficiencies.",
+      "The market may not fully appreciate the potential for a rapid resolution of the conflict in the Middle East, leading to a potential undervaluation of companies exposed to the affected markets and routes."
+    ],
+    "catalysts": [
+      "Ongoing conflict in the Middle East and potential escalations that could further disrupt shipping routes.",
+      "Shifts in trade flows and new trade agreements that could impact the shipping industry.",
+      "Technological advancements in shipping, such as autonomous vessels and electric vehicles, that could disrupt the market.",
+      "Regulatory changes that could impact the shipping industry, such as new emissions standards or trade restrictions.",
+      "Economic indicators that could signal a slowdown in global growth and impact demand for shipping services."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-04-04T22:03:28.192513",
+    "updated_at": "2026-04-05 03:03:28",
+    "insight_title": "\u201cBooks Will Be Written\u201d About This Shipping Market | Ed Finley-Richardson of Misadventures in Shipping on War-Induced Oil Tanker Mayhem, Squeeze for Asiabound Refined Products, and Persian Gulf \u201cFeeding Frenzy\u201d Scenario",
+    "source_name": "Monetary Matters with Jack Farley",
+    "source_date": "2026-04-04",
+    "key_tickers": [
+      "ZIM"
+    ]
   }
 },
   suggestedTerms: [
+  {
+    "id": 148,
+    "term": "Choke Point",
+    "definition": "A narrow passage or point that can control the flow of goods or resources, such as the Strait of Hormuz which is crucial for oil and commodity trade.",
+    "investment_implications": "Investors should monitor geopolitical events affecting choke points for potential market disruptions and investment opportunities.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-04-05 03:02:52",
+    "priority_score": 80
+  },
+  {
+    "id": 149,
+    "term": "Flags of Convenience",
+    "definition": "A practice where ship owners register their vessels in countries with lower regulations to shield themselves from liability and reduce costs.",
+    "investment_implications": "Understanding the use of flags of convenience can provide insights into corporate governance and risk management in the shipping industry.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-04-05 03:02:52",
+    "priority_score": 80
+  },
   {
     "id": 147,
     "term": "Energy Independence",
@@ -12443,35 +12548,11 @@ const dashboardData = {
     "relevance_score": 50,
     "submitted_date": "2026-04-04 10:05:01",
     "priority_score": 80
-  },
-  {
-    "id": 146,
-    "term": "Software Architecture",
-    "definition": "The structure or structures of a computer program or computer system, which includes the architectural design, the architectural construction, and the required architectural documentation.",
-    "investment_implications": "Investors should pay attention to innovative software architectures that could disrupt traditional computing and data processing paradigms.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-04-04 10:05:01",
-    "priority_score": 80
-  },
-  {
-    "id": 144,
-    "term": "President Trump",
-    "definition": null,
-    "investment_implications": null,
-    "source_type": "auto_extracted",
-    "mention_count": 4,
-    "source_diversity": 3,
-    "relevance_score": 40,
-    "submitted_date": "2026-04-03 10:07:37",
-    "priority_score": 140
   }
 ],
   podcastGuests: [
   {
-    "id": 1491,
+    "id": 1510,
     "name": "Why $200 Oil Won\u2019t Spike Inflation to 9%",
     "slug": "why-200-oil-wont-spike-inflation-to-9",
     "bio": null,
@@ -12483,7 +12564,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1492,
+    "id": 1511,
     "name": "This special episode",
     "slug": "this-special-episode",
     "bio": null,
@@ -12495,7 +12576,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1493,
+    "id": 1512,
     "name": "Lupin Ramon",
     "slug": "lupin-ramon",
     "bio": null,
@@ -12507,7 +12588,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1494,
+    "id": 1513,
     "name": "When the Music Stops",
     "slug": "when-the-music-stops",
     "bio": null,
@@ -12519,7 +12600,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1495,
+    "id": 1514,
     "name": "Ground Infrastructure",
     "slug": "ground-infrastructure",
     "bio": null,
@@ -12531,7 +12612,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1496,
+    "id": 1515,
     "name": "Rory Johnston",
     "slug": "rory-johnston",
     "bio": null,
@@ -12543,7 +12624,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1497,
+    "id": 1516,
     "name": "Senator John Fetterman on Voting Rights",
     "slug": "senator-john-fetterman-on-voting-rights",
     "bio": null,
@@ -12555,7 +12636,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1498,
+    "id": 1517,
     "name": "Stock Market on Shaky Foundations",
     "slug": "stock-market-on-shaky-foundations",
     "bio": null,
@@ -12567,7 +12648,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1499,
+    "id": 1518,
     "name": "Elon Musk on Moonshots",
     "slug": "elon-musk-on-moonshots",
     "bio": null,
@@ -12579,7 +12660,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1500,
+    "id": 1519,
     "name": "Investing in Capitalism",
     "slug": "investing-in-capitalism",
     "bio": null,
@@ -12591,7 +12672,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1501,
+    "id": 1520,
     "name": "Harvard Professor Graham Allison",
     "slug": "harvard-professor-graham-allison",
     "bio": null,
@@ -12603,7 +12684,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1502,
+    "id": 1521,
     "name": "Andrew Yang",
     "slug": "andrew-yang",
     "bio": "Andrew Yang is an entrepreneur and political leader who popularized universal basic income in U.S. politics through his 2020 presidential campaign.",
@@ -12615,7 +12696,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1503,
+    "id": 1522,
     "name": "Inventing the Renaissance",
     "slug": "inventing-the-renaissance",
     "bio": null,
@@ -12627,7 +12708,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1504,
+    "id": 1523,
     "name": "Ray Dalio",
     "slug": "ray-dalio",
     "bio": "Ray Dalio is the founder of Bridgewater Associates and a macro investor known for his 'Principles' framework and work on long-term debt cycles.",
@@ -12639,7 +12720,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1505,
+    "id": 1524,
     "name": "Nobel Prize-winning economist Paul Krugman",
     "slug": "nobel-prize-winning-economist-paul-krugman",
     "bio": null,
@@ -12651,7 +12732,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1506,
+    "id": 1525,
     "name": "host Jack Mallers",
     "slug": "host-jack-mallers",
     "bio": null,
@@ -12663,7 +12744,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1507,
+    "id": 1526,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -12675,7 +12756,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1508,
+    "id": 1527,
     "name": "Bosworth",
     "slug": "bosworth",
     "bio": null,
@@ -12687,7 +12768,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1509,
+    "id": 1528,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -12893,7 +12974,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-28",
     "mention_score": 2,
-    "mention_score_decayed": 1.74,
+    "mention_score_decayed": 1.7,
     "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-28T22:05:42.395070",
@@ -12954,7 +13035,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-28",
     "mention_score": 2,
-    "mention_score_decayed": 1.74,
+    "mention_score_decayed": 1.7,
     "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-28T22:05:50.938326",
@@ -13011,7 +13092,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-02-15",
     "mention_score": 2,
-    "mention_score_decayed": 1.74,
+    "mention_score_decayed": 1.7,
     "last_main_idea": "Invest in sectors with fertile ground for short selling, such as AI and tech, and under-allocated areas like junior mining, while combining long and short strategies for potential alpha.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:42:09.376490",
@@ -13073,7 +13154,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-02-18",
     "mention_score": 2,
-    "mention_score_decayed": 1.32,
+    "mention_score_decayed": 1.29,
     "last_main_idea": "Invest in the vertical integration of AI, the rise of India as a global AI hub, and the shift towards agent-based interactions.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-19T21:23:33.038094",
@@ -13136,11 +13217,72 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-16",
     "mention_score": 2,
-    "mention_score_decayed": 1.32,
+    "mention_score_decayed": 1.29,
     "last_main_idea": "Invest in AI startups that focus on specific niches and use cases, as they can compete effectively against larger AI companies by capitalizing on the gaps between platforms.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
+  },
+  {
+    "id": 154,
+    "name": "Ed Finley Richardson",
+    "slug": "ed-finley-richardson",
+    "bio": "Ed Finley Richardson is a renowned expert in the shipping industry, known for his deep analysis and insights into shipping markets and investment opportunities. He is the author of the Misadventures in Shipping sub-stack, providing valuable research and analysis to investors interested in the shipping sector.",
+    "known_for": "His expertise in shipping markets and investment opportunities, particularly in the tanker market that transports crude oil and refined products around the globe.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Informed and analytical",
+    "voice_style": "Factual and predictive, with a focus on market outcomes",
+    "voice_delivery_notes": "Delivers insights with a steady pace, emphasizing key points",
+    "voice_profile_updated_at": "2026-04-05 03:02:52",
+    "last_seen": "2026-04-05 03:02:52",
+    "last_episode_title": "\u201cBooks Will Be Written\u201d About This Shipping Market | Ed Finley-Richardson of Misadventures in Shipping on War-Induced Oil Tanker Mayhem, Squeeze for Asiabound Refined Products, and Persian Gulf \u201cFeeding Frenzy\u201d Scenario",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-04-04",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "The disruption in shipping due to geopolitical conflicts presents a unique investment opportunity in shipping stocks, particularly for those with a keen understanding of the market dynamics.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-04T22:03:03.597938",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Ed Finley Richardson",
+      "fetched_at": "2026-04-05T03:03:03.597603+00:00",
+      "cliff_notes": "Ed Finley Richardson is an expert in the shipping industry, with a focus on analyzing and providing insights into shipping markets and investment opportunities. He began thinking hard years ago about the potential impacts of geopolitical events, such as the closure of the Strait of Hormuz, on shipping markets and the opportunities they might create for shipping investors. Richardson's work has become increasingly relevant as shipping prices have surged, with some reaching 10 times normal levels. As the author of the Misadventures in Shipping sub-stack, he offers valuable research and analysis to investors interested in the shipping sector, making him one of the best shipping analysts alive.",
+      "derived": {
+        "current_role": "Author of Misadventures in Shipping",
+        "books_or_works": "Misadventures in Shipping sub-stack"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Ed Finley Richardson is an expert in the shipping industry, with a focus on analyzing and providing insights into shipping markets and investment opportunities. He began thinking hard years ago about the potential impacts of geopolitical events, such as the closure of the Strait of Hormuz, on shipping markets and the opportunities they might create for shipping investors.",
+        "Richardson's work has become increasingly relevant as shipping prices have surged, with some reaching 10 times normal levels. As the author of the Misadventures in Shipping sub-stack, he offers valuable research and analysis to investors interested in the shipping sector, making him one of the best shipping analysts alive."
+      ],
+      "sections": [
+        {
+          "heading": "Shipping Market Analysis",
+          "body": "Ed Finley Richardson is known for his deep analysis of shipping markets, particularly the tanker market that transports crude oil and refined products around the globe."
+        },
+        {
+          "heading": "Investment Opportunities",
+          "body": "Richardson's expertise lies in identifying investment opportunities within the shipping industry, especially in times of geopolitical unrest and market disruptions."
+        },
+        {
+          "heading": "Misadventures in Shipping",
+          "body": "As the author of the Misadventures in Shipping sub-stack, Richardson provides valuable research and analysis to investors interested in the shipping sector."
+        },
+        {
+          "heading": "Shipping Prices Surge",
+          "body": "Richardson's work has gained prominence as shipping prices have surged, with some reaching 10 times normal levels, highlighting the importance of his analysis and insights."
+        }
+      ]
+    }
   },
   {
     "id": 153,
@@ -13449,7 +13591,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Pictay asset management's AI-enhanced ETFs (PQNT and PQUS) aim to provide enhanced equity exposure through the use of artificial intelligence.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-01T22:04:02.778580",
@@ -13506,7 +13648,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Investing in companies that understand complex problems and can leverage AI to gain a competitive advantage in their operations and product development.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-01T15:15:31.311281",
@@ -13787,70 +13929,6 @@ const dashboardData = {
       ]
     },
     "net_worth": "$15.20B"
-  },
-  {
-    "id": 138,
-    "name": "Mark Andreessen",
-    "slug": "mark-andreessen",
-    "bio": "Mark Andreessen is a prominent venture capitalist and entrepreneur, best known as the co-founder of Andreessen Horowitz, a venture capital firm that manages over $90 billion in assets and has invested in some of the most influential companies of our time.",
-    "known_for": "His insights on technology and venture capital, and his role in building one of the greatest venture capital firms.",
-    "net_worth_usd": 1900000000.0,
-    "net_worth_source": "https://en.wikipedia.org/wiki/Marc_Andreessen",
-    "net_worth_updated_at": "2026-03-31T05:03:11.716632",
-    "voice_tone": "Reflective and insightful",
-    "voice_style": "Candid and straightforward, with a focus on sharing deep industry knowledge",
-    "voice_delivery_notes": "Pacing is thoughtful, with emphasis on key points regarding venture capital and technology trends",
-    "voice_profile_updated_at": "2026-03-31 10:02:41",
-    "last_seen": "2026-03-31 10:02:41",
-    "last_episode_title": "Marc Andreessen on Evaluating Founders and AI's Consumer Surplus",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-03-30",
-    "mention_score": 1,
-    "mention_score_decayed": 0.91,
-    "last_main_idea": "Invest in companies and technologies that are reshaping industries and have the potential to create significant economic value for a broad user base, rather than just the companies themselves.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-31T05:03:10.373140",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Mark Andreessen",
-      "fetched_at": "2026-03-31T10:03:10.372791+00:00",
-      "cliff_notes": "Mark Andreessen is a renowned venture capitalist and entrepreneur. He co-founded Netscape Communications, which popularized the web browser and played a pivotal role in the early internet era. Andreessen later transitioned into venture capital, co-founding Andreessen Horowitz, which has become one of the most influential venture capital firms globally. The firm has made significant investments in companies like Facebook, Airbnb, and Slack, shaping the tech landscape. Andreessen's perspectives on technology, venture capital, and entrepreneurship are highly sought after, and he is known for his contrarian views and bold predictions about the future of tech.",
-      "derived": {
-        "current_role": "Co-founder of Andreessen Horowitz",
-        "former_positions": "Co-founder of Netscape Communications; General Partner at Opsware",
-        "boards": "Facebook; eBay; Hewlett Packard Enterprise; Zazzle",
-        "education": "Bachelor of Science in Computer Science from the University of Illinois at Urbana-Champaign; Master of Science in Computer Science from Stanford University"
-      },
-      "infobox": {
-        "Born": "July 9, 1971",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Mark Andreessen is a renowned venture capitalist and entrepreneur. He co-founded Netscape Communications, which popularized the web browser and played a pivotal role in the early internet era. Andreessen later transitioned into venture capital, co-founding Andreessen Horowitz, which has become one of the most influential venture capital firms globally.",
-        "The firm has made significant investments in companies like Facebook, Airbnb, and Slack, shaping the tech landscape. Andreessen's perspectives on technology, venture capital, and entrepreneurship are highly sought after, and he is known for his contrarian views and bold predictions about the future of tech."
-      ],
-      "sections": [
-        {
-          "heading": "Venture Capital Insights",
-          "body": "Mark Andreessen is well-regarded for his insights into venture capital, often challenging conventional wisdom and advocating for taking risks on promising startups."
-        },
-        {
-          "heading": "Tech Industry Centralization",
-          "body": "Andreessen has commented on the increasing centralization of the tech industry, noting that Silicon Valley's influence has never been greater, which has implications for innovation and competition."
-        },
-        {
-          "heading": "Labor Displacement Misconceptions",
-          "body": "He has argued against the notion of labor displacement due to technology, suggesting that many large companies are overstaffed rather than being threatened by automation."
-        },
-        {
-          "heading": "The 'Skalded Stove' Phenomenon",
-          "body": "Andreessen has coined the term 'Skalded Stove' to describe how past investment failures can negatively impact an investor's future decision-making, leading to missed opportunities."
-        }
-      ]
-    },
-    "net_worth": "$1.90B"
   }
 ]
 };
