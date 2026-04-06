@@ -3,7 +3,7 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-04-05T05:05:01.082002",
+  generatedAt: "2026-04-05T22:01:10.470211",
   chartsVersion: "2026-04-01T15:16:59.801570",
   tickerScores: [
   {
@@ -12552,7 +12552,7 @@ const dashboardData = {
 ],
   podcastGuests: [
   {
-    "id": 1529,
+    "id": 1548,
     "name": "Why $200 Oil Won\u2019t Spike Inflation to 9%",
     "slug": "why-200-oil-wont-spike-inflation-to-9",
     "bio": null,
@@ -12564,7 +12564,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1530,
+    "id": 1549,
     "name": "This special episode",
     "slug": "this-special-episode",
     "bio": null,
@@ -12576,7 +12576,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1531,
+    "id": 1550,
     "name": "Lupin Ramon",
     "slug": "lupin-ramon",
     "bio": null,
@@ -12588,7 +12588,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1532,
+    "id": 1551,
     "name": "When the Music Stops",
     "slug": "when-the-music-stops",
     "bio": null,
@@ -12600,7 +12600,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1533,
+    "id": 1552,
     "name": "Ground Infrastructure",
     "slug": "ground-infrastructure",
     "bio": null,
@@ -12612,7 +12612,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1534,
+    "id": 1553,
     "name": "Rory Johnston",
     "slug": "rory-johnston",
     "bio": null,
@@ -12624,7 +12624,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1535,
+    "id": 1554,
     "name": "Senator John Fetterman on Voting Rights",
     "slug": "senator-john-fetterman-on-voting-rights",
     "bio": null,
@@ -12636,7 +12636,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1536,
+    "id": 1555,
     "name": "Stock Market on Shaky Foundations",
     "slug": "stock-market-on-shaky-foundations",
     "bio": null,
@@ -12648,7 +12648,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1537,
+    "id": 1556,
     "name": "Elon Musk on Moonshots",
     "slug": "elon-musk-on-moonshots",
     "bio": null,
@@ -12660,7 +12660,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1538,
+    "id": 1557,
     "name": "Investing in Capitalism",
     "slug": "investing-in-capitalism",
     "bio": null,
@@ -12672,7 +12672,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1539,
+    "id": 1558,
     "name": "Harvard Professor Graham Allison",
     "slug": "harvard-professor-graham-allison",
     "bio": null,
@@ -12684,7 +12684,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1540,
+    "id": 1559,
     "name": "Andrew Yang",
     "slug": "andrew-yang",
     "bio": "Andrew Yang is an entrepreneur and political leader who popularized universal basic income in U.S. politics through his 2020 presidential campaign.",
@@ -12696,7 +12696,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1541,
+    "id": 1560,
     "name": "Inventing the Renaissance",
     "slug": "inventing-the-renaissance",
     "bio": null,
@@ -12708,7 +12708,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1542,
+    "id": 1561,
     "name": "Ray Dalio",
     "slug": "ray-dalio",
     "bio": "Ray Dalio is the founder of Bridgewater Associates and a macro investor known for his 'Principles' framework and work on long-term debt cycles.",
@@ -12720,7 +12720,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1543,
+    "id": 1562,
     "name": "Nobel Prize-winning economist Paul Krugman",
     "slug": "nobel-prize-winning-economist-paul-krugman",
     "bio": null,
@@ -12732,7 +12732,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1544,
+    "id": 1563,
     "name": "host Jack Mallers",
     "slug": "host-jack-mallers",
     "bio": null,
@@ -12744,7 +12744,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1545,
+    "id": 1564,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -12756,7 +12756,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1546,
+    "id": 1565,
     "name": "Bosworth",
     "slug": "bosworth",
     "bio": null,
@@ -12768,7 +12768,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1547,
+    "id": 1566,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -13154,7 +13154,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-02-18",
     "mention_score": 2,
-    "mention_score_decayed": 1.29,
+    "mention_score_decayed": 1.26,
     "last_main_idea": "Invest in the vertical integration of AI, the rise of India as a global AI hub, and the shift towards agent-based interactions.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-19T21:23:33.038094",
@@ -13217,7 +13217,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-16",
     "mention_score": 2,
-    "mention_score_decayed": 1.29,
+    "mention_score_decayed": 1.26,
     "last_main_idea": "Invest in AI startups that focus on specific niches and use cases, as they can compete effectively against larger AI companies by capitalizing on the gaps between platforms.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
@@ -13302,7 +13302,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-03",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Invest in AI technologies that leverage the breakthroughs in large language models, reasoning, agents, and self-improvement, as these advancements could lead to transformative software architectures and industry disruptions.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-04T05:05:35.449489",
@@ -13648,7 +13648,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Investing in companies that understand complex problems and can leverage AI to gain a competitive advantage in their operations and product development.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-01T15:15:31.311281",
