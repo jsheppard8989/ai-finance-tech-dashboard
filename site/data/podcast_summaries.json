@@ -1,5 +1,39 @@
 [
   {
+    "id": 139,
+    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "episode_title": "The Companies Changing Warfare Forever: Palantir & Anduril Execs on Drones, AI & the Future of War",
+    "episode_date": "2026-04-06",
+    "summary": "In this episode of 'All-In with Chamath, Jason, Sacks & Friedberg', the hosts are joined by Trace Steven and Sean Sankar to discuss the future of defense and technology. They delve into the history of Palantir, the importance of balancing privacy and security, and the strategic implications of the US's position in the global technology and defense landscape. The conversation also touches on the potential risks and opportunities for the US in the coming decades, including the importance of reindustrialization and maintaining technological and military primacy.",
+    "key_takeaways": [
+      "The importance of balancing privacy and security in a post-9/11 world.",
+      "The strategic significance of the US maintaining its position in the global technology and defense landscape.",
+      "The potential risks and opportunities for the US in the coming decades, including the importance of reindustrialization.",
+      "The necessity for the US to maintain technological and military primacy to set the terms of global engagement.",
+      "The impact of globalist visions on innovation and productivity, and the need for the US to harness these opportunities."
+    ],
+    "investment_thesis": "Investing in US defense and technology companies that align with maintaining the nation's global primacy and ensuring economic prosperity.",
+    "key_tickers": null
+  },
+  {
+    "id": 138,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Peter Yang on Small Teams, Coding Agents, and Why Human Ambition Has No Ceiling",
+    "episode_date": "2026-04-06",
+    "summary": "In this episode of the a16z Show, Anish Acharya, a General Partner at a16z, interviews Peter Yang, creator and product lead at Roblox. They discuss the emerging trend of coding agents and their implications on software development, productivity, and the future of work. The conversation covers how coding agents can automate knowledge work, the potential for smaller teams to achieve more, and the shift in the job market towards more individual entrepreneurship.",
+    "key_takeaways": [
+      "Coding agents are emerging as a new paradigm in software development, potentially automating a significant portion of knowledge work.",
+      "The future of work may involve smaller teams leveraging coding agents to achieve more with less, challenging traditional company structures.",
+      "The job market is evolving, with individuals encouraged to pursue their own ventures, potentially leading to a rise in entrepreneurship.",
+      "The shift towards conversational interfaces and agents could render traditional app grids obsolete, as users prefer the efficiency of talking over tapping.",
+      "There is a debate on whether companies will continue to invest in their own software infrastructure or opt for third-party solutions like coding agents."
+    ],
+    "investment_thesis": "Investing in companies that leverage coding agents could offer significant productivity gains and reshape the software development landscape.",
+    "key_tickers": [
+      "RBLX"
+    ]
+  },
+  {
     "id": 137,
     "podcast_name": "Monetary Matters with Jack Farley",
     "episode_title": "\u201cBooks Will Be Written\u201d About This Shipping Market | Ed Finley-Richardson of Misadventures in Shipping on War-Induced Oil Tanker Mayhem, Squeeze for Asiabound Refined Products, and Persian Gulf \u201cFeeding Frenzy\u201d Scenario",

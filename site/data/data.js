@@ -3,7 +3,7 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-04-06T22:04:04.966624",
+  generatedAt: "2026-04-07T05:07:53.147648",
   chartsVersion: "2026-04-01T15:16:59.801570",
   tickerScores: [
   {
@@ -760,6 +760,48 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 153,
+      "title": "The Companies Changing Warfare Forever: Palantir & Anduril Execs on Drones, AI & the Future of War",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-04-06",
+      "summary": "In this episode of 'All-In with Chamath, Jason, Sacks & Friedberg', the hosts are joined by Trace Steven and Sean Sankar to discuss the future of defense and technology. They delve into the history of Palantir, the importance of balancing privacy and security, and the strategic implications of the US's position in the global technology and defense landscape. The conversation also touches on the potential risks and opportunities for the US in the coming decades, including the importance of reindustrialization and maintaining technological and military primacy.",
+      "key_takeaway": "Investing in US defense and technology companies that align with maintaining the nation's global primacy and ensuring economic prosperity.",
+      "tickers_mentioned": [
+        "AAPL",
+        "NVDA",
+        "GOOGL",
+        "MSFT",
+        "PLTR"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-07",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 139
+    },
+    {
+      "id": 154,
+      "title": "Peter Yang on Small Teams, Coding Agents, and Why Human Ambition Has No Ceiling",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-04-06",
+      "summary": "In this episode of the a16z Show, Anish Acharya, a General Partner at a16z, interviews Peter Yang, creator and product lead at Roblox. They discuss the emerging trend of coding agents and their implications on software development, productivity, and the future of work. The conversation covers how coding agents can automate knowledge work, the potential for smaller teams to achieve more, and the shift in the job market towards more individual entrepreneurship.",
+      "key_takeaway": "Investing in companies that leverage coding agents could offer significant productivity gains and reshape the software development landscape.",
+      "tickers_mentioned": [
+        "RBLX"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-07",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 138
+    },
+    {
       "id": 152,
       "title": "\u201cBooks Will Be Written\u201d About This Shipping Market | Ed Finley-Richardson of Misadventures in Shipping on War-Induced Oil Tanker Mayhem, Squeeze for Asiabound Refined Products, and Persian Gulf \u201cFeeding Frenzy\u201d Scenario",
       "source_type": "podcast",
@@ -898,11 +940,11 @@ const dashboardData = {
         "SQ"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-04-01",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-04-07",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 130
     },
     {
@@ -918,11 +960,11 @@ const dashboardData = {
         "PQUS"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-04-01",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-04-07",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 131
     },
     {
@@ -3637,6 +3679,48 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 153,
+      "title": "The Companies Changing Warfare Forever: Palantir & Anduril Execs on Drones, AI & the Future of War",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-04-06",
+      "summary": "In this episode of 'All-In with Chamath, Jason, Sacks & Friedberg', the hosts are joined by Trace Steven and Sean Sankar to discuss the future of defense and technology. They delve into the history of Palantir, the importance of balancing privacy and security, and the strategic implications of the US's position in the global technology and defense landscape. The conversation also touches on the potential risks and opportunities for the US in the coming decades, including the importance of reindustrialization and maintaining technological and military primacy.",
+      "key_takeaway": "Investing in US defense and technology companies that align with maintaining the nation's global primacy and ensuring economic prosperity.",
+      "tickers_mentioned": "[\"AAPL\", \"NVDA\", \"GOOGL\", \"MSFT\", \"PLTR\"]",
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-07",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 139,
+      "episode_release_date": "2026-04-06",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
+      "id": 154,
+      "title": "Peter Yang on Small Teams, Coding Agents, and Why Human Ambition Has No Ceiling",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-04-06",
+      "summary": "In this episode of the a16z Show, Anish Acharya, a General Partner at a16z, interviews Peter Yang, creator and product lead at Roblox. They discuss the emerging trend of coding agents and their implications on software development, productivity, and the future of work. The conversation covers how coding agents can automate knowledge work, the potential for smaller teams to achieve more, and the shift in the job market towards more individual entrepreneurship.",
+      "key_takeaway": "Investing in companies that leverage coding agents could offer significant productivity gains and reshape the software development landscape.",
+      "tickers_mentioned": "[\"RBLX\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-07",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 138,
+      "episode_release_date": "2026-04-06",
+      "guest_name": null,
+      "key_tickers": [
+        "RBLX"
+      ]
+    },
+    {
       "id": 152,
       "title": "\u201cBooks Will Be Written\u201d About This Shipping Market | Ed Finley-Richardson of Misadventures in Shipping on War-Induced Oil Tanker Mayhem, Squeeze for Asiabound Refined Products, and Persian Gulf \u201cFeeding Frenzy\u201d Scenario",
       "source_type": "podcast",
@@ -3767,51 +3851,6 @@ const dashboardData = {
         "WTI",
         "GC",
         "HG"
-      ]
-    },
-    {
-      "id": 145,
-      "title": "What Happens When a Public Company Goes All In on AI",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-04-01",
-      "summary": "In this episode of the a16z Show, A16Z General Partner David Haper interviews Owen Jennings, Executive Officer and Business Lead at Block, to discuss the company's restructuring around AI. Jennings shares insights into Block's decision to cut 40% of its workforce and rebuild around small squads working alongside AI agents. The conversation covers the impact of AI on the company's operations, product development, and future strategy, highlighting the shift from traditional hierarchical structures to more agile, AI-augmented teams.",
-      "key_takeaway": "Investing in companies that understand complex problems and can leverage AI to gain a competitive advantage in their operations and product development.",
-      "tickers_mentioned": "[\"SQ\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-04-01",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 130,
-      "episode_release_date": "2026-04-01",
-      "guest_name": null,
-      "key_tickers": [
-        "SQ"
-      ]
-    },
-    {
-      "id": 146,
-      "title": "Why $200 Oil Won\u2019t Spike Inflation to 9% | Anna Wong on Recession Probability, PCE vs CPI, and Fed Reaction Function In A Scenario of Soaring Energy Prices",
-      "source_type": "podcast",
-      "source_name": "Monetary Matters with Jack Farley",
-      "source_date": "2026-04-01",
-      "summary": "In this episode of Monetary Matters with Jack Farley, Chief U.S. Economist at Bloomberg, Anna Wang, discusses the impact of surging oil prices on inflation and the potential for a recession. Wang challenges the narrative that inflation could reach 7-9% as seen in 2022, arguing that even with oil prices at $200 per barrel, CPI would likely peak at around 6% and then drop. She also discusses the complexities of secondary effects on inflation and the conditions that would need to be met for a significant rise in inflation. The conversation touches on the differences in how recessions are defined and identified in the U.S. versus other countries and the potential economic implications of high oil prices.",
-      "key_takeaway": "Pictay asset management's AI-enhanced ETFs (PQNT and PQUS) aim to provide enhanced equity exposure through the use of artificial intelligence.",
-      "tickers_mentioned": "[\"PQNT\", \"PQUS\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-04-01",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 131,
-      "episode_release_date": "2026-04-01",
-      "guest_name": "Why $200 Oil Won\u2019t Spike Inflation to 9%",
-      "key_tickers": [
-        "PQNT",
-        "PQUS"
       ]
     }
   ],
@@ -12498,9 +12537,184 @@ const dashboardData = {
     "key_tickers": [
       "ZIM"
     ]
+  },
+  "153": {
+    "id": 144,
+    "insight_id": 153,
+    "podcast_episode_id": 139,
+    "overview": "The investment thesis revolves around the transformative impact of technology companies like Palantir and Anduril on the defense and national security sectors. As these companies leverage AI, data analytics, and drone technology, they are reshaping warfare and creating significant investment opportunities. The current geopolitical climate, with increasing tensions and the need for advanced defense capabilities, makes this an urgent and compelling area of focus. The intersection of Silicon Valley innovation and defense spending presents a unique investment landscape with substantial growth potential.",
+    "key_takeaways_detailed": [
+      "Palantir and Anduril are at the forefront of using AI and data analytics to enhance national security, creating a new paradigm in defense technology.",
+      "The increasing acceptance and demand for advanced technology in the defense sector suggest a growing market for these companies' solutions.",
+      "The historical taboo against Silicon Valley's involvement in defense is diminishing, opening up new investment avenues.",
+      "Global technology companies are redefining their roles in national security, which could lead to significant revenue streams and valuation reratings.",
+      "The ongoing geopolitical tensions and the need for deterrence capabilities are likely to drive increased defense spending, benefiting technology companies with defense contracts."
+    ],
+    "investment_thesis": "The core investment logic is that technology companies with a focus on defense and national security, such as Palantir and Anduril, are poised for significant growth due to the increasing demand for advanced defense technologies. This is further catalyzed by the changing perception of Silicon Valley's role in defense, the growing global threat landscape, and the potential for substantial government contracts. The timeframe for this thesis is medium to long-term, as the development and deployment of such technologies typically require longer cycles, but the catalysts for growth are becoming increasingly apparent in the current geopolitical climate.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's involvement in AI and data security makes it a relevant player in the defense technology space, potentially supplying components or systems to defense contractors.",
+        "positioning": "Position long on AAPL as a strategic investment, given its potential to benefit from the growing defense technology market through its technological prowess and security focus.",
+        "risk": "Key risks include changes in defense spending, potential backlash against tech involvement in defense, and competitive pressures from other tech giants."
+      },
+      "NVDA": {
+        "rationale": "NVIDIA's advanced GPU technology is crucial for AI and data processing, which are key in modern defense systems, making it a significant player in this space.",
+        "positioning": "Consider a long position in NVDA as a tactical investment to capitalize on the immediate demand for AI and data processing capabilities in defense applications.",
+        "risk": "The risk includes potential supply chain disruptions, regulatory changes affecting AI technology, and the cyclical nature of defense spending."
+      },
+      "GOOGL": {
+        "rationale": "Google, through its parent company Alphabet, has significant AI capabilities and has shown interest in defense contracts, such as Project Maven, making it a relevant ticker.",
+        "positioning": "Hold a long position in GOOGL as a strategic investment to benefit from its potential involvement in defense-related AI projects.",
+        "risk": "Key risks include ethical controversies surrounding tech and defense, potential data privacy issues, and regulatory hurdles."
+      },
+      "MSFT": {
+        "rationale": "Microsoft has a history of securing large defense contracts, including the JEDI cloud contract, positioning it as a significant player in the defense technology sector.",
+        "positioning": "Maintain a long position in MSFT as a strategic investment to capitalize on its established presence in the defense sector and its cloud offerings.",
+        "risk": "Risks include potential loss of defense contracts to competitors, cybersecurity threats, and changes in government cloud adoption rates."
+      },
+      "PLTR": {
+        "rationale": "As Palantir itself, this ticker is central to the thesis, given its direct involvement in defense and intelligence data analytics.",
+        "positioning": "Hold a long position in PLTR as a strategic investment to directly benefit from its role in transforming defense and intelligence operations.",
+        "risk": "The risks include reliance on a few large contracts, potential regulatory scrutiny, and the company's history of losses prior to becoming profitable."
+      }
+    },
+    "positioning_guidance": "Investors should consider a balanced portfolio with a mix of strategic and tactical positions in technology companies that are poised to benefit from the defense technology boom. Entry points should be considered in relation to current geopolitical events and defense spending cycles. A medium to long-term timeframe is appropriate given the nature of defense contracts and technology development. Investors may also consider hedging against potential backlash or ethical controversies through diversification or options strategies.",
+    "risk_factors": [
+      "Geopolitical tensions may ease, reducing the urgency for advanced defense technologies.",
+      "Regulatory changes could impact the ability of tech companies to operate in the defense sector.",
+      "Ethical and public opinion backlash against tech companies' involvement in defense could materialize.",
+      "Competition for defense contracts is fierce, and there is no guarantee of winning new business.",
+      "Technological failures or security breaches could damage the reputation of companies in the defense technology space."
+    ],
+    "contrarian_signals": [
+      "The historical aversion to defense work in Silicon Valley could re-emerge, impacting the willingness of tech companies to pursue defense contracts.",
+      "There is a possibility that the current demand for defense technology is a short-term response to immediate geopolitical events rather than a long-term trend.",
+      "The defense sector is known for its volatility, and a shift in government priorities could lead to reduced spending, affecting the growth prospects of defense technology companies."
+    ],
+    "catalysts": [
+      "Upcoming defense budget announcements and the allocation of funds to technology and AI in defense applications.",
+      "New contract awards to technology companies for defense projects, which could provide significant revenue and validate the investment thesis.",
+      "Geopolitical events that highlight the need for advanced defense technologies, such as cyberattacks or regional conflicts.",
+      "Advancements in AI and drone technology that could be leveraged by defense forces, creating new opportunities for technology companies.",
+      "Policy changes or international agreements that could either open up or restrict the involvement of tech companies in defense work."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-04-07T05:07:00.620883",
+    "updated_at": "2026-04-07 10:07:00",
+    "insight_title": "The Companies Changing Warfare Forever: Palantir & Anduril Execs on Drones, AI & the Future of War",
+    "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "source_date": "2026-04-06",
+    "key_tickers": []
+  },
+  "154": {
+    "id": 145,
+    "insight_id": 154,
+    "podcast_episode_id": 138,
+    "overview": "The investment thesis revolves around the emerging trend of coding agents and their impact on software development, productivity, and the job market. As highlighted by Peter Yang, the creator and product lead at Roblox, the shift towards conversational interfaces and coding agents is collapsing traditional app grids into single, more efficient conversations. This trend is not only changing how we interact with technology but also how software is built and maintained, with significant implications for companies and careers. The focus is on the potential for small teams to leverage these tools to compete with larger entities, and the opportunities this presents for innovative startups and investors.",
+    "key_takeaways_detailed": [
+      "The rise of coding agents and conversational interfaces is simplifying software development, potentially leading to a shift in market dynamics favoring smaller, more agile teams.",
+      "Investors should look for companies that are early adopters of coding agent technology, as they may gain a competitive edge in their respective industries.",
+      "The job market is evolving, with individuals who have lost traditional jobs potentially finding new opportunities in creating their own ventures, leveraging the low cost of building software.",
+      "Education and skill development should focus on coding and AI literacy to stay relevant in the changing technological landscape.",
+      "Investors should monitor the development of coding agent platforms and their integration with existing software ecosystems for potential investment opportunities."
+    ],
+    "investment_thesis": "The core investment logic is that the advent of coding agents and conversational interfaces will disrupt traditional software development, leading to a more level playing field for smaller companies. This disruption will be catalyzed by the increasing efficiency and affordability of building software, which will allow smaller teams to compete with larger entities. The timeframe for this thesis is medium to long-term, as the technology matures and becomes more widely adopted. Catalysts include advancements in AI, the proliferation of coding agent platforms, and shifts in the job market that favor entrepreneurial ventures.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's iOS ecosystem is deeply integrated with app development, and the company's Siri represents an early foray into conversational interfaces. As the market shifts towards coding agents, Apple's position could be threatened if it does not adapt.",
+        "positioning": "Investors should position tactically, monitoring Apple's development in AI and coding agent integration. A short position may be considered if Apple shows signs of lagging in this space.",
+        "risk": "Key risks include Apple's ability to innovate and integrate coding agents into its ecosystem, as well as the potential for new competitors to disrupt the market."
+      },
+      "NVDA": {
+        "rationale": "NVIDIA is a leader in GPU technology, which is crucial for the development and training of AI models that power coding agents.",
+        "positioning": "NVIDIA is well-positioned for long-term growth as the demand for AI capabilities increases. Investors should consider a strategic long position.",
+        "risk": "The risk lies in the potential for new competitors in the AI hardware space or a slowdown in AI adoption."
+      },
+      "SPY": {
+        "rationale": "As an ETF that tracks the S&P 500, SPY provides exposure to a broad range of companies that may be affected by the rise of coding agents.",
+        "positioning": "Investors can use SPY to maintain a balanced portfolio, with an eye on the weighting of tech companies that are likely to be impacted by coding agent technology.",
+        "risk": "Market-wide risks apply, including economic downturns and shifts in consumer behavior that could affect the adoption of coding agents."
+      },
+      "TSLA": {
+        "rationale": "Tesla's focus on software and AI for its automotive technology positions it to benefit from advancements in coding agents, potentially streamlining its development processes.",
+        "positioning": "A long position in TSLA could be strategic, as the company is likely to integrate coding agents into its operations, enhancing efficiency.",
+        "risk": "The risk is that Tesla may not successfully integrate coding agents, or that the automotive market may not adopt such technology as quickly as anticipated."
+      }
+    },
+    "positioning_guidance": "Investors should consider a diversified approach, with a mix of long positions in companies well-positioned to benefit from coding agents and short positions in those that may be disrupted. Entry points should be based on the companies' progress in integrating coding agent technology and their overall market performance. Timeframes should align with the expected adoption curve of coding agents, with a focus on medium to long-term growth. Hedges may include investments in companies that provide infrastructure for coding agents or those that are less likely to be affected by this technological shift.",
+    "risk_factors": [
+      "The slow adoption of coding agent technology by businesses and consumers.",
+      "Regulatory hurdles that could impede the development and deployment of coding agents.",
+      "The potential for coding agent technology to be misused, leading to ethical and security concerns.",
+      "The possibility that larger companies may dominate the coding agent market, limiting opportunities for smaller teams.",
+      "Technological setbacks or failures in the development of coding agents that could delay or halt their integration into the market."
+    ],
+    "contrarian_signals": [
+      "The view that coding agents may not significantly disrupt traditional software development, as the technology may not be as efficient or reliable as anticipated.",
+      "Concerns that the job market may not adapt quickly enough to the changes brought about by coding agents, leading to increased unemployment rather than new opportunities.",
+      "The possibility that coding agents may not be as user-friendly or accessible as predicted, limiting their widespread adoption."
+    ],
+    "catalysts": [
+      "Advancements in AI and machine learning that enhance the capabilities of coding agents.",
+      "The launch of new coding agent platforms and the integration of existing platforms into popular software ecosystems.",
+      "Economic indicators that show a shift towards more entrepreneurial ventures, as individuals seek new opportunities in the wake of job losses.",
+      "Regulatory changes that support the development and deployment of coding agents.",
+      "Major software development companies announcing partnerships or acquisitions in the coding agent space."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-04-07T05:07:23.629429",
+    "updated_at": "2026-04-07 10:07:23",
+    "insight_title": "Peter Yang on Small Teams, Coding Agents, and Why Human Ambition Has No Ceiling",
+    "source_name": "The a16z Show",
+    "source_date": "2026-04-06",
+    "key_tickers": [
+      "RBLX"
+    ]
   }
 },
   suggestedTerms: [
+  {
+    "id": 151,
+    "term": "Decision Advantage",
+    "definition": "The concept of outthinking and out-executing adversaries in warfare through technology and strategy.",
+    "investment_implications": "Investors should consider companies that provide decision advantage technologies to military and defense sectors.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-04-07 10:05:21",
+    "priority_score": 80
+  },
+  {
+    "id": 152,
+    "term": "Reindustrialization",
+    "definition": "The process of rebuilding and revitalizing a nation's industrial base to ensure economic prosperity and self-sufficiency.",
+    "investment_implications": "Investors should look for opportunities in companies that contribute to the reindustrialization of America and the West.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-04-07 10:05:21",
+    "priority_score": 80
+  },
+  {
+    "id": 150,
+    "term": "Coding Agents",
+    "definition": "Software tools that can automate coding tasks, potentially revolutionizing the way software is developed and maintained.",
+    "investment_implications": "Investors should consider companies that are at the forefront of developing and utilizing coding agents for potential productivity gains and competitive advantages.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-04-07 10:05:00",
+    "priority_score": 80
+  },
   {
     "id": 148,
     "term": "Choke Point",
@@ -12512,47 +12726,11 @@ const dashboardData = {
     "relevance_score": 50,
     "submitted_date": "2026-04-05 03:02:52",
     "priority_score": 80
-  },
-  {
-    "id": 149,
-    "term": "Flags of Convenience",
-    "definition": "A practice where ship owners register their vessels in countries with lower regulations to shield themselves from liability and reduce costs.",
-    "investment_implications": "Understanding the use of flags of convenience can provide insights into corporate governance and risk management in the shipping industry.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-04-05 03:02:52",
-    "priority_score": 80
-  },
-  {
-    "id": 147,
-    "term": "Energy Independence",
-    "definition": "The ability of a country or region to meet its energy needs without reliance on external sources, reducing vulnerability to geopolitical conflicts.",
-    "investment_implications": "Invest in companies and technologies that contribute to energy independence and reduce reliance on imported energy.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-04-04 10:05:13",
-    "priority_score": 80
-  },
-  {
-    "id": 145,
-    "term": "80-year overnight success",
-    "definition": "A term used to describe AI's rapid recent advancements that are the result of decades of foundational research and development.",
-    "investment_implications": "Investors should consider the long-term research and development that underpins current AI breakthroughs when evaluating potential investments.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-04-04 10:05:01",
-    "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 1586,
+    "id": 1605,
     "name": "Why $200 Oil Won\u2019t Spike Inflation to 9%",
     "slug": "why-200-oil-wont-spike-inflation-to-9",
     "bio": null,
@@ -12564,7 +12742,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1587,
+    "id": 1606,
     "name": "This special episode",
     "slug": "this-special-episode",
     "bio": null,
@@ -12576,7 +12754,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1588,
+    "id": 1607,
     "name": "Lupin Ramon",
     "slug": "lupin-ramon",
     "bio": null,
@@ -12588,7 +12766,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1589,
+    "id": 1608,
     "name": "When the Music Stops",
     "slug": "when-the-music-stops",
     "bio": null,
@@ -12600,7 +12778,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1590,
+    "id": 1609,
     "name": "Ground Infrastructure",
     "slug": "ground-infrastructure",
     "bio": null,
@@ -12612,7 +12790,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1591,
+    "id": 1610,
     "name": "Rory Johnston",
     "slug": "rory-johnston",
     "bio": null,
@@ -12624,7 +12802,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1592,
+    "id": 1611,
     "name": "Senator John Fetterman on Voting Rights",
     "slug": "senator-john-fetterman-on-voting-rights",
     "bio": null,
@@ -12636,7 +12814,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1593,
+    "id": 1612,
     "name": "Stock Market on Shaky Foundations",
     "slug": "stock-market-on-shaky-foundations",
     "bio": null,
@@ -12648,7 +12826,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1594,
+    "id": 1613,
     "name": "Elon Musk on Moonshots",
     "slug": "elon-musk-on-moonshots",
     "bio": null,
@@ -12660,7 +12838,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1595,
+    "id": 1614,
     "name": "Investing in Capitalism",
     "slug": "investing-in-capitalism",
     "bio": null,
@@ -12672,7 +12850,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1596,
+    "id": 1615,
     "name": "Harvard Professor Graham Allison",
     "slug": "harvard-professor-graham-allison",
     "bio": null,
@@ -12684,7 +12862,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1597,
+    "id": 1616,
     "name": "Andrew Yang",
     "slug": "andrew-yang",
     "bio": "Andrew Yang is an entrepreneur and political leader who popularized universal basic income in U.S. politics through his 2020 presidential campaign.",
@@ -12696,7 +12874,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1598,
+    "id": 1617,
     "name": "Inventing the Renaissance",
     "slug": "inventing-the-renaissance",
     "bio": null,
@@ -12708,7 +12886,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1599,
+    "id": 1618,
     "name": "Ray Dalio",
     "slug": "ray-dalio",
     "bio": "Ray Dalio is the founder of Bridgewater Associates and a macro investor known for his 'Principles' framework and work on long-term debt cycles.",
@@ -12720,7 +12898,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1600,
+    "id": 1619,
     "name": "Nobel Prize-winning economist Paul Krugman",
     "slug": "nobel-prize-winning-economist-paul-krugman",
     "bio": null,
@@ -12732,7 +12910,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1601,
+    "id": 1620,
     "name": "host Jack Mallers",
     "slug": "host-jack-mallers",
     "bio": null,
@@ -12744,7 +12922,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1602,
+    "id": 1621,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -12756,7 +12934,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1603,
+    "id": 1622,
     "name": "Bosworth",
     "slug": "bosworth",
     "bio": null,
@@ -12768,7 +12946,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1604,
+    "id": 1623,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -12799,7 +12977,7 @@ const dashboardData = {
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-03-19",
     "mention_score": 4,
-    "mention_score_decayed": 3.32,
+    "mention_score_decayed": 3.25,
     "last_main_idea": "The Iran conflict could lead to a renewed inflation cycle, affecting commodities and energy markets, with potential second-order effects that markets may currently be underpricing.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:36:30.218908",
@@ -12855,7 +13033,7 @@ const dashboardData = {
     "last_podcast_name": "All-In Podcast",
     "last_episode_date": "2026-03-28",
     "mention_score": 3,
-    "mention_score_decayed": 2.49,
+    "mention_score_decayed": 2.44,
     "last_main_idea": "Investing in AI-driven platforms and technologies is essential for capturing the growth in the global financial system and staying ahead in the AI era.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:40:52.368193",
@@ -12917,7 +13095,7 @@ const dashboardData = {
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-03-19",
     "mention_score": 2,
-    "mention_score_decayed": 1.66,
+    "mention_score_decayed": 1.62,
     "last_main_idea": "The Iran conflict could lead to a renewed inflation cycle, affecting commodities and energy markets, with potential second-order effects that markets may currently be underpricing.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:35:48.845381",
@@ -13224,6 +13402,180 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
+    "id": 157,
+    "name": "Trace Steven",
+    "slug": "trace-steven",
+    "bio": "Trace Steven is a co-founder of Palantir Technologies, a software company specializing in big data analytics. He played a significant role in building the government business for Palantir, which has become a major player in the tech industry, particularly in the realm of data analytics and intelligence.",
+    "known_for": "Building the government business at Palantir Technologies and contributing to the growth of big data analytics in the tech industry.",
+    "net_worth_usd": 500000000.0,
+    "net_worth_source": "https://www.oreateai.com/blog/palantir-founders-net-worth/",
+    "net_worth_updated_at": "2026-04-07T05:05:36.844982",
+    "voice_tone": "Reflective and informative",
+    "voice_style": "Narrative and anecdotal",
+    "voice_delivery_notes": "Paced with emphasis on key historical points",
+    "voice_profile_updated_at": "2026-04-07 10:05:21",
+    "last_seen": "2026-04-07 10:05:21",
+    "last_episode_title": "The Companies Changing Warfare Forever: Palantir & Anduril Execs on Drones, AI & the Future of War",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-04-06",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investing in US defense and technology companies that align with maintaining the nation's global primacy and ensuring economic prosperity.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-07T05:05:35.906002",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Trace Steven",
+      "fetched_at": "2026-04-07T10:05:35.905509+00:00",
+      "cliff_notes": "Trace Steven is best known as a co-founder of Palantir Technologies, a company that has revolutionized the way big data is analyzed and used, particularly within government and intelligence agencies. His early involvement in the company was pivotal in establishing Palantir's government business, which has become a cornerstone of its success. Steven's work has had a significant impact on the tech industry, as Palantir's technology has been used for various applications, from counter-terrorism to disaster response. His contributions to the field of data analytics have positioned him as an influential figure in the intersection of technology and public policy.",
+      "derived": {
+        "former_positions": "Co-founder of Palantir Technologies"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Trace Steven is best known as a co-founder of Palantir Technologies, a company that has revolutionized the way big data is analyzed and used, particularly within government and intelligence agencies. His early involvement in the company was pivotal in establishing Palantir's government business, which has become a cornerstone of its success.",
+        "Steven's work has had a significant impact on the tech industry, as Palantir's technology has been used for various applications, from counter-terrorism to disaster response. His contributions to the field of data analytics have positioned him as an influential figure in the intersection of technology and public policy."
+      ],
+      "sections": [
+        {
+          "heading": "Co-founding Palantir",
+          "body": "Trace Steven co-founded Palantir Technologies, a company that has become synonymous with big data analytics, particularly in government applications."
+        },
+        {
+          "heading": "Government Business Expansion",
+          "body": "Steven played a crucial role in expanding Palantir's government business, which has been instrumental in the company's growth and influence in the tech industry."
+        },
+        {
+          "heading": "Impact on Tech Industry",
+          "body": "His work with Palantir has had a significant impact on the tech industry, as the company's technology has been used for various applications, from counter-terrorism to disaster response."
+        }
+      ]
+    },
+    "net_worth": "$500.0M"
+  },
+  {
+    "id": 158,
+    "name": "Sean Sankar",
+    "slug": "sean-sankar",
+    "bio": "Sean Sankar is a co-founder of Palantir Technologies, a company known for its data analytics platform. He played a crucial role in the early stages of the company, contributing to its establishment and growth.",
+    "known_for": "Co-founding Palantir Technologies and its significant impact on data analytics.",
+    "net_worth_usd": 1000000000.0,
+    "net_worth_source": "https://urbansweekly.com/shyam-sankar/",
+    "net_worth_updated_at": "2026-04-07T05:05:50.141443",
+    "voice_tone": "Engaging and insightful",
+    "voice_style": "Direct and analytical",
+    "voice_delivery_notes": "Clear and assertive, with a focus on strategic implications",
+    "voice_profile_updated_at": "2026-04-07 10:05:21",
+    "last_seen": "2026-04-07 10:05:21",
+    "last_episode_title": "The Companies Changing Warfare Forever: Palantir & Anduril Execs on Drones, AI & the Future of War",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-04-06",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investing in US defense and technology companies that align with maintaining the nation's global primacy and ensuring economic prosperity.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-07T05:05:49.320297",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Sean Sankar",
+      "fetched_at": "2026-04-07T10:05:49.320109+00:00",
+      "cliff_notes": "Sean Sankar is recognized for his foundational role in the establishment of Palantir Technologies. His early involvement in the company was pivotal in setting the stage for its growth and success in the realm of data analytics. Sankar's contributions to Palantir have been significant, as the company has become a major player in the tech industry, particularly in areas concerning data analysis and security. His work has had far-reaching implications for various sectors, including government and finance, where data-driven insights are crucial.",
+      "derived": {
+        "former_positions": "Co-founder of Palantir Technologies"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Sean Sankar is recognized for his foundational role in the establishment of Palantir Technologies. His early involvement in the company was pivotal in setting the stage for its growth and success in the realm of data analytics. Sankar's contributions to Palantir have been significant, as the company has become a major player in the tech industry, particularly in areas concerning data analysis and security.",
+        "His work has had far-reaching implications for various sectors, including government and finance, where data-driven insights are crucial."
+      ],
+      "sections": [
+        {
+          "heading": "Early Career",
+          "body": "Sean Sankar began his career in technology, eventually co-founding Palantir Technologies, which would go on to revolutionize the way data is analyzed and utilized."
+        },
+        {
+          "heading": "Palantir's Impact",
+          "body": "Palantir, under Sankar's influence, became known for its powerful data analytics platform used by various government agencies and financial institutions, enhancing their capabilities in areas such as counterterrorism and fraud detection."
+        },
+        {
+          "heading": "Data Analytics",
+          "body": "Sankar's work with Palantir has been instrumental in shaping the modern landscape of data analytics, emphasizing the importance of big data in decision-making processes across different industries."
+        }
+      ]
+    },
+    "net_worth": "$1.00B"
+  },
+  {
+    "id": 155,
+    "name": "Peter Yang",
+    "slug": "peter-yang",
+    "bio": "Peter Yang is a prominent figure in the tech industry, known for his work at Roblox and his insights on the future of coding agents. As a creator and product lead, Yang has been influential in shaping the direction of the platform and the broader tech landscape.",
+    "known_for": "His role in shaping Roblox's product strategy and his forward-thinking views on the evolution of coding agents and software interfaces.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Casual and conversational",
+    "voice_style": "Exploratory and insightful, discussing the implications of coding agents on various aspects of work.",
+    "voice_delivery_notes": "Speaks with a mix of excitement and pragmatism about the potential of coding agents.",
+    "voice_profile_updated_at": "2026-04-07 10:05:00",
+    "last_seen": "2026-04-07 10:05:00",
+    "last_episode_title": "Peter Yang on Small Teams, Coding Agents, and Why Human Ambition Has No Ceiling",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-04-06",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investing in companies that leverage coding agents could offer significant productivity gains and reshape the software development landscape.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-07T05:06:04.126625",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Peter Yang",
+      "fetched_at": "2026-04-07T10:06:04.126360+00:00",
+      "cliff_notes": "Peter Yang is recognized for his significant contributions to Roblox, where he serves as a creator and product lead. His work has been pivotal in defining the platform's direction and its impact on the gaming and tech industries. Yang is also noted for his thought leadership on the future of coding agents, which he believes will revolutionize software development and user interfaces. His insights into the 'agent stack' and the potential for smaller, more agile teams to leverage these technologies have resonated with tech enthusiasts and investors alike. Yang's vision of a future where individuals can pursue their dreams through technology, empowered by advancements in coding agents, highlights his influence on the tech industry's trajectory.",
+      "derived": {
+        "current_role": "Creator and Product Lead at Roblox"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Peter Yang is recognized for his significant contributions to Roblox, where he serves as a creator and product lead. His work has been pivotal in defining the platform's direction and its impact on the gaming and tech industries. Yang is also noted for his thought leadership on the future of coding agents, which he believes will revolutionize software development and user interfaces.",
+        "His insights into the 'agent stack' and the potential for smaller, more agile teams to leverage these technologies have resonated with tech enthusiasts and investors alike. Yang's vision of a future where individuals can pursue their dreams through technology, empowered by advancements in coding agents, highlights his influence on the tech industry's trajectory."
+      ],
+      "sections": [
+        {
+          "heading": "Roblox Impact",
+          "body": "Peter Yang has been instrumental in the development and growth of Roblox, a platform that has become a cultural phenomenon and a significant player in the gaming industry."
+        },
+        {
+          "heading": "Coding Agents",
+          "body": "Yang is a thought leader in the emerging field of coding agents,"
+        },
+        {
+          "heading": "Tech Evolution",
+          "body": "He frequently discusses the evolution of technology, particularly the shift from traditional app interfaces to more dynamic and personalized software experiences."
+        },
+        {
+          "heading": "Entrepreneurship",
+          "body": "Yang's views on entrepreneurship suggest a future where individuals can leverage technology to pursue their own ventures, even in the face of economic challenges."
+        }
+      ]
+    }
+  },
+  {
     "id": 154,
     "name": "Ed Finley Richardson",
     "slug": "ed-finley-richardson",
@@ -13302,7 +13654,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Invest in AI technologies that leverage the breakthroughs in large language models, reasoning, agents, and self-improvement, as these advancements could lead to transformative software architectures and industry disruptions.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-04T05:05:35.449489",
@@ -13363,7 +13715,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Investing in technologies that can verify human interactions online is becoming critical as AI-generated content proliferates, posing both challenges and opportunities for social media platforms and the broader digital economy.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-03T05:05:04.562022",
@@ -13420,7 +13772,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Investing in technologies that can verify human interactions online is becoming critical as AI-generated content proliferates, posing both challenges and opportunities for social media platforms and the broader digital economy.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-03T05:05:15.312671",
@@ -13478,7 +13830,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-04-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Invest in sectors less affected by AI disruption and monitor geopolitical events for opportunities in private credit markets.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-03T05:05:31.083540",
@@ -13535,7 +13887,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-04-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Invest in sectors less affected by AI disruption and monitor geopolitical events for opportunities in private credit markets.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-03T05:05:40.347752",
@@ -13709,7 +14061,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-03-31",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Investment in autonomous vehicle technology is poised to disrupt urban mobility and logistics, with companies like Uber positioned to capitalize on this shift.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-01T05:04:28.065974",
@@ -13748,187 +14100,6 @@ const dashboardData = {
       ]
     },
     "net_worth": "$5.00B"
-  },
-  {
-    "id": 141,
-    "name": "Doug Burnower",
-    "slug": "doug-burnower",
-    "bio": "Doug Burnower is the Founder and CEO of Radiant, a company that specializes in developing portable nuclear reactors. His work focuses on innovative energy solutions, aiming to address the challenges of energy delivery and sustainability in the modern world.",
-    "known_for": "Pioneering portable nuclear reactors and contributing to the evolution of energy infrastructure.",
-    "net_worth_usd": 243000000000.0,
-    "net_worth_source": "https://www.zippia.com/space-exploration-technologies-careers-39035/executives/",
-    "net_worth_updated_at": "2026-04-01T05:04:39.743774",
-    "voice_tone": "Confident and visionary",
-    "voice_style": "Technical and solution-oriented",
-    "voice_delivery_notes": "Paced with emphasis on innovation",
-    "voice_profile_updated_at": "2026-04-01 10:03:31",
-    "last_seen": "2026-04-01 10:03:31",
-    "last_episode_title": "How Radiant and Heron Are Rethinking Power Generation and Delivery",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-03-31",
-    "mention_score": 1,
-    "mention_score_decayed": 0.89,
-    "last_main_idea": "Investing in companies that innovate in energy delivery and grid infrastructure can lead to significant returns as the demand for electricity increases and the need for a more efficient and sustainable grid becomes critical.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-01T05:04:38.716099",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Doug Burnower",
-      "fetched_at": "2026-04-01T10:04:38.715783+00:00",
-      "cliff_notes": "Doug Burnower is recognized for his innovative work in the energy sector, particularly with his company Radiant, which is focused on portable nuclear reactors. His career has been dedicated to finding solutions to the complex problem of energy delivery and the sustainability of energy sources. Burnower's vision is to transform the way power is generated and distributed, with an emphasis on leveraging free energy sources like sunlight and geothermal heat. His work at SpaceX provided him with valuable experience in advanced technology and engineering, which he now applies to his current role at Radiant. Burnower's contributions to the energy industry are significant, as they aim to address the growing demand for power in a sustainable and efficient manner.",
-      "derived": {
-        "current_role": "Founder and CEO of Radiant",
-        "former_positions": "Prior work at SpaceX"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Doug Burnower is recognized for his innovative work in the energy sector, particularly with his company Radiant, which is focused on portable nuclear reactors. His career has been dedicated to finding solutions to the complex problem of energy delivery and the sustainability of energy sources. Burnower's vision is to transform the way power is generated and distributed, with an emphasis on leveraging free energy sources like sunlight and geothermal heat.",
-        "His work at SpaceX provided him with valuable experience in advanced technology and engineering, which he now applies to his current role at Radiant. Burnower's contributions to the energy industry are significant, as they aim to address the growing demand for power in a sustainable and efficient manner."
-      ],
-      "sections": [
-        {
-          "heading": "Energy Delivery",
-          "body": "Doug Burnower emphasizes the importance of improving energy delivery systems, noting that the current grid infrastructure is outdated and unable to efficiently handle the growing demand for power."
-        },
-        {
-          "heading": "Sustainable Energy",
-          "body": "Burnower's work at Radiant is centered around creating sustainable energy solutions through the development of portable nuclear reactors, which can provide a stable and clean source of energy."
-        },
-        {
-          "heading": "Innovation in Energy",
-          "body": "Doug Burnower is a proponent of using innovative technologies to revolutionize the energy sector, advocating for the use of free energy sources and the transformation of the existing grid infrastructure."
-        }
-      ]
-    },
-    "net_worth": "$243.00B"
-  },
-  {
-    "id": 142,
-    "name": "Andrew Beglinow",
-    "slug": "andrew-beglinow",
-    "bio": "Andrew Beglinow is a prominent figure in the electric vehicle and renewable energy sectors. As the founder and CEO of Heron, he leads the company in developing solid-state power electronics. Previously, he served as VP of R&D at Tesla, where he contributed significantly to electric vehicle technology.",
-    "known_for": "His contributions to electric vehicle technology and the development of solid-state power electronics.",
-    "net_worth_usd": 11000000.0,
-    "net_worth_source": "https://www.gurufocus.com/insider/72754/andrew-d-baglino",
-    "net_worth_updated_at": "2026-04-01T05:04:52.643132",
-    "voice_tone": "Analytical and pragmatic",
-    "voice_style": "Focused on practical applications and technical details",
-    "voice_delivery_notes": "Clear and concise with a focus on impact",
-    "voice_profile_updated_at": "2026-04-01 10:03:31",
-    "last_seen": "2026-04-01 10:03:31",
-    "last_episode_title": "How Radiant and Heron Are Rethinking Power Generation and Delivery",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-03-31",
-    "mention_score": 1,
-    "mention_score_decayed": 0.89,
-    "last_main_idea": "Investing in companies that innovate in energy delivery and grid infrastructure can lead to significant returns as the demand for electricity increases and the need for a more efficient and sustainable grid becomes critical.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-01T05:04:51.620692",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Andrew Beglinow",
-      "fetched_at": "2026-04-01T10:04:51.620453+00:00",
-      "cliff_notes": "Andrew Beglinow has had a significant impact on the electric vehicle and renewable energy industries. As the VP of R&D at Tesla, he played a crucial role in advancing electric vehicle technology. His current venture, Heron, focuses on solid-state power electronics, which is a key component in the evolution of energy storage and distribution. Beglinow's work is pivotal in addressing the challenges of energy delivery and the transformation of the power grid, which is essential for sustainable energy and economic growth.",
-      "derived": {
-        "current_role": "Founder and CEO of Heron",
-        "former_positions": "VP of R&D at Tesla"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Andrew Beglinow has had a significant impact on the electric vehicle and renewable energy industries. As the VP of R&D at Tesla, he played a crucial role in advancing electric vehicle technology. His current venture, Heron, focuses on solid-state power electronics, which is a key component in the evolution of energy storage and distribution.",
-        "Beglinow's work is pivotal in addressing the challenges of energy delivery and the transformation of the power grid, which is essential for sustainable energy and economic growth."
-      ],
-      "sections": [
-        {
-          "heading": "Electric Vehicle Technology",
-          "body": "Beglinow's tenure at Tesla saw significant advancements in electric vehicle technology, contributing to the broader adoption of EVs."
-        },
-        {
-          "heading": "Solid-State Power Electronics",
-          "body": "As CEO of Heron, Beglinow is leading the development of solid-state power electronics, which are critical for improving energy storage and distribution efficiency."
-        },
-        {
-          "heading": "Energy Delivery and the Grid",
-          "body": "Beglinow emphasizes the importance of transforming the power grid to handle the growing demand for energy services and to incorporate sustainable energy sources effectively."
-        },
-        {
-          "heading": "Sustainable Energy and Economic Growth",
-          "body": "His work aims to facilitate the use of free and sustainable energy sources, such as sunlight and geothermal energy, to support economic growth and prosperity."
-        }
-      ]
-    },
-    "net_worth": "$11.0M"
-  },
-  {
-    "id": 140,
-    "name": "Geo Voliante",
-    "slug": "geo-voliante",
-    "bio": "Dr. Geo Voliante is a performance coach who has worked with top hedge funds and elite athletes to optimize their performance. His expertise lies in enhancing the mental and physical capabilities of individuals in high-pressure environments.",
-    "known_for": "Enhancing performance for hedge fund managers and elite athletes through coaching.",
-    "net_worth_usd": 15200000000.0,
-    "net_worth_source": "https://www.theladders.com/career-advice/these-are-the-25-highest-paid-hedge-fund-managers",
-    "net_worth_updated_at": "2026-04-01T05:05:19.102305",
-    "voice_tone": "Confident and knowledgeable.",
-    "voice_style": "Analytical and comparative, drawing parallels between hedge fund managers and athletes.",
-    "voice_delivery_notes": "Paced with emphasis on key points about adaptability and performance.",
-    "voice_profile_updated_at": "2026-04-01 10:03:14",
-    "last_seen": "2026-04-01 10:03:14",
-    "last_episode_title": "The Psychology of Market Champions: Inside the Minds of Point 72 & Citadel Portfolio Managers | Dr. Gio Valiante",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-03-31",
-    "mention_score": 1,
-    "mention_score_decayed": 0.89,
-    "last_main_idea": "Investing in AI-enhanced ETFs like PQNT and PQUS can provide enhanced equity exposure in the current market environment.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-01T05:05:18.251968",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Geo Voliante",
-      "fetched_at": "2026-04-01T10:05:18.251755+00:00",
-      "cliff_notes": "Dr. Geo Voliante is recognized for his work as a performance coach, assisting both hedge fund managers and elite athletes in optimizing their performance. His career has been dedicated to understanding and improving the mental and physical aspects of high-pressure roles. By working with hedge funds like 0.72 and PGA Tour golfers such as Justin Rose and Jordan Speath, Voliante has demonstrated his ability to adapt his coaching methods to diverse client needs. His insights into the temperaments and operational differences between various hedge fund environments have made him a valuable resource in the financial sector. His continued work with athletes and executives showcases his commitment to enhancing performance across different fields.",
-      "derived": {
-        "current_role": "Performance Coach"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Dr. Geo Voliante is recognized for his work as a performance coach, assisting both hedge fund managers and elite athletes in optimizing their performance. His career has been dedicated to understanding and improving the mental and physical aspects of high-pressure roles. By working with hedge funds like 0.72 and PGA Tour golfers such as Justin Rose and Jordan Speath, Voliante has demonstrated his ability to adapt his coaching methods to diverse client needs.",
-        "His insights into the temperaments and operational differences between various hedge fund environments have made him a valuable resource in the financial sector. His continued work with athletes and executives showcases his commitment to enhancing performance across different fields."
-      ],
-      "sections": [
-        {
-          "heading": "Performance Coaching",
-          "body": "Dr. Geo Voliante specializes in performance coaching, helping individuals in high-stress roles to maximize their potential."
-        },
-        {
-          "heading": "Hedge Fund Collaboration",
-          "body": "Voliante has collaborated with hedge funds, such as 0.72, to improve the performance of their managers through tailored coaching programs."
-        },
-        {
-          "heading": "Athletic Performance",
-          "body": "He has worked with PGA Tour golfers, including Justin Rose and Jordan Speath, to enhance their mental and physical game performance."
-        },
-        {
-          "heading": "Pod Environments",
-          "body": "Voliante has insights into the growth of pod environments within the hedge fund industry and the differences in temperament and operations between various setups."
-        }
-      ]
-    },
-    "net_worth": "$15.20B"
   }
 ]
 };

@@ -1,6 +1,48 @@
 {
   "insights": [
     {
+      "id": 153,
+      "title": "The Companies Changing Warfare Forever: Palantir & Anduril Execs on Drones, AI & the Future of War",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-04-06",
+      "summary": "In this episode of 'All-In with Chamath, Jason, Sacks & Friedberg', the hosts are joined by Trace Steven and Sean Sankar to discuss the future of defense and technology. They delve into the history of Palantir, the importance of balancing privacy and security, and the strategic implications of the US's position in the global technology and defense landscape. The conversation also touches on the potential risks and opportunities for the US in the coming decades, including the importance of reindustrialization and maintaining technological and military primacy.",
+      "key_takeaway": "Investing in US defense and technology companies that align with maintaining the nation's global primacy and ensuring economic prosperity.",
+      "tickers_mentioned": [
+        "AAPL",
+        "NVDA",
+        "GOOGL",
+        "MSFT",
+        "PLTR"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-07",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 139
+    },
+    {
+      "id": 154,
+      "title": "Peter Yang on Small Teams, Coding Agents, and Why Human Ambition Has No Ceiling",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-04-06",
+      "summary": "In this episode of the a16z Show, Anish Acharya, a General Partner at a16z, interviews Peter Yang, creator and product lead at Roblox. They discuss the emerging trend of coding agents and their implications on software development, productivity, and the future of work. The conversation covers how coding agents can automate knowledge work, the potential for smaller teams to achieve more, and the shift in the job market towards more individual entrepreneurship.",
+      "key_takeaway": "Investing in companies that leverage coding agents could offer significant productivity gains and reshape the software development landscape.",
+      "tickers_mentioned": [
+        "RBLX"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-07",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 138
+    },
+    {
       "id": 152,
       "title": "\u201cBooks Will Be Written\u201d About This Shipping Market | Ed Finley-Richardson of Misadventures in Shipping on War-Induced Oil Tanker Mayhem, Squeeze for Asiabound Refined Products, and Persian Gulf \u201cFeeding Frenzy\u201d Scenario",
       "source_type": "podcast",
@@ -139,11 +181,11 @@
         "SQ"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-04-01",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-04-07",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 130
     },
     {
@@ -159,11 +201,11 @@
         "PQUS"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-04-01",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-04-07",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 131
     },
     {

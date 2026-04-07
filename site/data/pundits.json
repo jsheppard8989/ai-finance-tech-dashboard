@@ -17,7 +17,7 @@
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-03-19",
     "mention_score": 4,
-    "mention_score_decayed": 3.32,
+    "mention_score_decayed": 3.25,
     "last_main_idea": "The Iran conflict could lead to a renewed inflation cycle, affecting commodities and energy markets, with potential second-order effects that markets may currently be underpricing.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:36:30.218908",
@@ -73,7 +73,7 @@
     "last_podcast_name": "All-In Podcast",
     "last_episode_date": "2026-03-28",
     "mention_score": 3,
-    "mention_score_decayed": 2.49,
+    "mention_score_decayed": 2.44,
     "last_main_idea": "Investing in AI-driven platforms and technologies is essential for capturing the growth in the global financial system and staying ahead in the AI era.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:40:52.368193",
@@ -135,7 +135,7 @@
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-03-19",
     "mention_score": 2,
-    "mention_score_decayed": 1.66,
+    "mention_score_decayed": 1.62,
     "last_main_idea": "The Iran conflict could lead to a renewed inflation cycle, affecting commodities and energy markets, with potential second-order effects that markets may currently be underpricing.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:35:48.845381",
@@ -442,6 +442,180 @@
     "pundit_profile": null
   },
   {
+    "id": 157,
+    "name": "Trace Steven",
+    "slug": "trace-steven",
+    "bio": "Trace Steven is a co-founder of Palantir Technologies, a software company specializing in big data analytics. He played a significant role in building the government business for Palantir, which has become a major player in the tech industry, particularly in the realm of data analytics and intelligence.",
+    "known_for": "Building the government business at Palantir Technologies and contributing to the growth of big data analytics in the tech industry.",
+    "net_worth_usd": 500000000.0,
+    "net_worth_source": "https://www.oreateai.com/blog/palantir-founders-net-worth/",
+    "net_worth_updated_at": "2026-04-07T05:05:36.844982",
+    "voice_tone": "Reflective and informative",
+    "voice_style": "Narrative and anecdotal",
+    "voice_delivery_notes": "Paced with emphasis on key historical points",
+    "voice_profile_updated_at": "2026-04-07 10:05:21",
+    "last_seen": "2026-04-07 10:05:21",
+    "last_episode_title": "The Companies Changing Warfare Forever: Palantir & Anduril Execs on Drones, AI & the Future of War",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-04-06",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investing in US defense and technology companies that align with maintaining the nation's global primacy and ensuring economic prosperity.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-07T05:05:35.906002",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Trace Steven",
+      "fetched_at": "2026-04-07T10:05:35.905509+00:00",
+      "cliff_notes": "Trace Steven is best known as a co-founder of Palantir Technologies, a company that has revolutionized the way big data is analyzed and used, particularly within government and intelligence agencies. His early involvement in the company was pivotal in establishing Palantir's government business, which has become a cornerstone of its success. Steven's work has had a significant impact on the tech industry, as Palantir's technology has been used for various applications, from counter-terrorism to disaster response. His contributions to the field of data analytics have positioned him as an influential figure in the intersection of technology and public policy.",
+      "derived": {
+        "former_positions": "Co-founder of Palantir Technologies"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Trace Steven is best known as a co-founder of Palantir Technologies, a company that has revolutionized the way big data is analyzed and used, particularly within government and intelligence agencies. His early involvement in the company was pivotal in establishing Palantir's government business, which has become a cornerstone of its success.",
+        "Steven's work has had a significant impact on the tech industry, as Palantir's technology has been used for various applications, from counter-terrorism to disaster response. His contributions to the field of data analytics have positioned him as an influential figure in the intersection of technology and public policy."
+      ],
+      "sections": [
+        {
+          "heading": "Co-founding Palantir",
+          "body": "Trace Steven co-founded Palantir Technologies, a company that has become synonymous with big data analytics, particularly in government applications."
+        },
+        {
+          "heading": "Government Business Expansion",
+          "body": "Steven played a crucial role in expanding Palantir's government business, which has been instrumental in the company's growth and influence in the tech industry."
+        },
+        {
+          "heading": "Impact on Tech Industry",
+          "body": "His work with Palantir has had a significant impact on the tech industry, as the company's technology has been used for various applications, from counter-terrorism to disaster response."
+        }
+      ]
+    },
+    "net_worth": "$500.0M"
+  },
+  {
+    "id": 158,
+    "name": "Sean Sankar",
+    "slug": "sean-sankar",
+    "bio": "Sean Sankar is a co-founder of Palantir Technologies, a company known for its data analytics platform. He played a crucial role in the early stages of the company, contributing to its establishment and growth.",
+    "known_for": "Co-founding Palantir Technologies and its significant impact on data analytics.",
+    "net_worth_usd": 1000000000.0,
+    "net_worth_source": "https://urbansweekly.com/shyam-sankar/",
+    "net_worth_updated_at": "2026-04-07T05:05:50.141443",
+    "voice_tone": "Engaging and insightful",
+    "voice_style": "Direct and analytical",
+    "voice_delivery_notes": "Clear and assertive, with a focus on strategic implications",
+    "voice_profile_updated_at": "2026-04-07 10:05:21",
+    "last_seen": "2026-04-07 10:05:21",
+    "last_episode_title": "The Companies Changing Warfare Forever: Palantir & Anduril Execs on Drones, AI & the Future of War",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-04-06",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investing in US defense and technology companies that align with maintaining the nation's global primacy and ensuring economic prosperity.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-07T05:05:49.320297",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Sean Sankar",
+      "fetched_at": "2026-04-07T10:05:49.320109+00:00",
+      "cliff_notes": "Sean Sankar is recognized for his foundational role in the establishment of Palantir Technologies. His early involvement in the company was pivotal in setting the stage for its growth and success in the realm of data analytics. Sankar's contributions to Palantir have been significant, as the company has become a major player in the tech industry, particularly in areas concerning data analysis and security. His work has had far-reaching implications for various sectors, including government and finance, where data-driven insights are crucial.",
+      "derived": {
+        "former_positions": "Co-founder of Palantir Technologies"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Sean Sankar is recognized for his foundational role in the establishment of Palantir Technologies. His early involvement in the company was pivotal in setting the stage for its growth and success in the realm of data analytics. Sankar's contributions to Palantir have been significant, as the company has become a major player in the tech industry, particularly in areas concerning data analysis and security.",
+        "His work has had far-reaching implications for various sectors, including government and finance, where data-driven insights are crucial."
+      ],
+      "sections": [
+        {
+          "heading": "Early Career",
+          "body": "Sean Sankar began his career in technology, eventually co-founding Palantir Technologies, which would go on to revolutionize the way data is analyzed and utilized."
+        },
+        {
+          "heading": "Palantir's Impact",
+          "body": "Palantir, under Sankar's influence, became known for its powerful data analytics platform used by various government agencies and financial institutions, enhancing their capabilities in areas such as counterterrorism and fraud detection."
+        },
+        {
+          "heading": "Data Analytics",
+          "body": "Sankar's work with Palantir has been instrumental in shaping the modern landscape of data analytics, emphasizing the importance of big data in decision-making processes across different industries."
+        }
+      ]
+    },
+    "net_worth": "$1.00B"
+  },
+  {
+    "id": 155,
+    "name": "Peter Yang",
+    "slug": "peter-yang",
+    "bio": "Peter Yang is a prominent figure in the tech industry, known for his work at Roblox and his insights on the future of coding agents. As a creator and product lead, Yang has been influential in shaping the direction of the platform and the broader tech landscape.",
+    "known_for": "His role in shaping Roblox's product strategy and his forward-thinking views on the evolution of coding agents and software interfaces.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Casual and conversational",
+    "voice_style": "Exploratory and insightful, discussing the implications of coding agents on various aspects of work.",
+    "voice_delivery_notes": "Speaks with a mix of excitement and pragmatism about the potential of coding agents.",
+    "voice_profile_updated_at": "2026-04-07 10:05:00",
+    "last_seen": "2026-04-07 10:05:00",
+    "last_episode_title": "Peter Yang on Small Teams, Coding Agents, and Why Human Ambition Has No Ceiling",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-04-06",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investing in companies that leverage coding agents could offer significant productivity gains and reshape the software development landscape.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-07T05:06:04.126625",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Peter Yang",
+      "fetched_at": "2026-04-07T10:06:04.126360+00:00",
+      "cliff_notes": "Peter Yang is recognized for his significant contributions to Roblox, where he serves as a creator and product lead. His work has been pivotal in defining the platform's direction and its impact on the gaming and tech industries. Yang is also noted for his thought leadership on the future of coding agents, which he believes will revolutionize software development and user interfaces. His insights into the 'agent stack' and the potential for smaller, more agile teams to leverage these technologies have resonated with tech enthusiasts and investors alike. Yang's vision of a future where individuals can pursue their dreams through technology, empowered by advancements in coding agents, highlights his influence on the tech industry's trajectory.",
+      "derived": {
+        "current_role": "Creator and Product Lead at Roblox"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Peter Yang is recognized for his significant contributions to Roblox, where he serves as a creator and product lead. His work has been pivotal in defining the platform's direction and its impact on the gaming and tech industries. Yang is also noted for his thought leadership on the future of coding agents, which he believes will revolutionize software development and user interfaces.",
+        "His insights into the 'agent stack' and the potential for smaller, more agile teams to leverage these technologies have resonated with tech enthusiasts and investors alike. Yang's vision of a future where individuals can pursue their dreams through technology, empowered by advancements in coding agents, highlights his influence on the tech industry's trajectory."
+      ],
+      "sections": [
+        {
+          "heading": "Roblox Impact",
+          "body": "Peter Yang has been instrumental in the development and growth of Roblox, a platform that has become a cultural phenomenon and a significant player in the gaming industry."
+        },
+        {
+          "heading": "Coding Agents",
+          "body": "Yang is a thought leader in the emerging field of coding agents,"
+        },
+        {
+          "heading": "Tech Evolution",
+          "body": "He frequently discusses the evolution of technology, particularly the shift from traditional app interfaces to more dynamic and personalized software experiences."
+        },
+        {
+          "heading": "Entrepreneurship",
+          "body": "Yang's views on entrepreneurship suggest a future where individuals can leverage technology to pursue their own ventures, even in the face of economic challenges."
+        }
+      ]
+    }
+  },
+  {
     "id": 154,
     "name": "Ed Finley Richardson",
     "slug": "ed-finley-richardson",
@@ -520,7 +694,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Invest in AI technologies that leverage the breakthroughs in large language models, reasoning, agents, and self-improvement, as these advancements could lead to transformative software architectures and industry disruptions.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-04T05:05:35.449489",
@@ -581,7 +755,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Investing in technologies that can verify human interactions online is becoming critical as AI-generated content proliferates, posing both challenges and opportunities for social media platforms and the broader digital economy.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-03T05:05:04.562022",
@@ -638,7 +812,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Investing in technologies that can verify human interactions online is becoming critical as AI-generated content proliferates, posing both challenges and opportunities for social media platforms and the broader digital economy.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-03T05:05:15.312671",
@@ -696,7 +870,7 @@
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-04-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Invest in sectors less affected by AI disruption and monitor geopolitical events for opportunities in private credit markets.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-03T05:05:31.083540",
@@ -753,7 +927,7 @@
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-04-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Invest in sectors less affected by AI disruption and monitor geopolitical events for opportunities in private credit markets.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-03T05:05:40.347752",
@@ -927,7 +1101,7 @@
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-03-31",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Investment in autonomous vehicle technology is poised to disrupt urban mobility and logistics, with companies like Uber positioned to capitalize on this shift.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-01T05:04:28.065974",
@@ -966,186 +1140,5 @@
       ]
     },
     "net_worth": "$5.00B"
-  },
-  {
-    "id": 141,
-    "name": "Doug Burnower",
-    "slug": "doug-burnower",
-    "bio": "Doug Burnower is the Founder and CEO of Radiant, a company that specializes in developing portable nuclear reactors. His work focuses on innovative energy solutions, aiming to address the challenges of energy delivery and sustainability in the modern world.",
-    "known_for": "Pioneering portable nuclear reactors and contributing to the evolution of energy infrastructure.",
-    "net_worth_usd": 243000000000.0,
-    "net_worth_source": "https://www.zippia.com/space-exploration-technologies-careers-39035/executives/",
-    "net_worth_updated_at": "2026-04-01T05:04:39.743774",
-    "voice_tone": "Confident and visionary",
-    "voice_style": "Technical and solution-oriented",
-    "voice_delivery_notes": "Paced with emphasis on innovation",
-    "voice_profile_updated_at": "2026-04-01 10:03:31",
-    "last_seen": "2026-04-01 10:03:31",
-    "last_episode_title": "How Radiant and Heron Are Rethinking Power Generation and Delivery",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-03-31",
-    "mention_score": 1,
-    "mention_score_decayed": 0.89,
-    "last_main_idea": "Investing in companies that innovate in energy delivery and grid infrastructure can lead to significant returns as the demand for electricity increases and the need for a more efficient and sustainable grid becomes critical.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-01T05:04:38.716099",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Doug Burnower",
-      "fetched_at": "2026-04-01T10:04:38.715783+00:00",
-      "cliff_notes": "Doug Burnower is recognized for his innovative work in the energy sector, particularly with his company Radiant, which is focused on portable nuclear reactors. His career has been dedicated to finding solutions to the complex problem of energy delivery and the sustainability of energy sources. Burnower's vision is to transform the way power is generated and distributed, with an emphasis on leveraging free energy sources like sunlight and geothermal heat. His work at SpaceX provided him with valuable experience in advanced technology and engineering, which he now applies to his current role at Radiant. Burnower's contributions to the energy industry are significant, as they aim to address the growing demand for power in a sustainable and efficient manner.",
-      "derived": {
-        "current_role": "Founder and CEO of Radiant",
-        "former_positions": "Prior work at SpaceX"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Doug Burnower is recognized for his innovative work in the energy sector, particularly with his company Radiant, which is focused on portable nuclear reactors. His career has been dedicated to finding solutions to the complex problem of energy delivery and the sustainability of energy sources. Burnower's vision is to transform the way power is generated and distributed, with an emphasis on leveraging free energy sources like sunlight and geothermal heat.",
-        "His work at SpaceX provided him with valuable experience in advanced technology and engineering, which he now applies to his current role at Radiant. Burnower's contributions to the energy industry are significant, as they aim to address the growing demand for power in a sustainable and efficient manner."
-      ],
-      "sections": [
-        {
-          "heading": "Energy Delivery",
-          "body": "Doug Burnower emphasizes the importance of improving energy delivery systems, noting that the current grid infrastructure is outdated and unable to efficiently handle the growing demand for power."
-        },
-        {
-          "heading": "Sustainable Energy",
-          "body": "Burnower's work at Radiant is centered around creating sustainable energy solutions through the development of portable nuclear reactors, which can provide a stable and clean source of energy."
-        },
-        {
-          "heading": "Innovation in Energy",
-          "body": "Doug Burnower is a proponent of using innovative technologies to revolutionize the energy sector, advocating for the use of free energy sources and the transformation of the existing grid infrastructure."
-        }
-      ]
-    },
-    "net_worth": "$243.00B"
-  },
-  {
-    "id": 142,
-    "name": "Andrew Beglinow",
-    "slug": "andrew-beglinow",
-    "bio": "Andrew Beglinow is a prominent figure in the electric vehicle and renewable energy sectors. As the founder and CEO of Heron, he leads the company in developing solid-state power electronics. Previously, he served as VP of R&D at Tesla, where he contributed significantly to electric vehicle technology.",
-    "known_for": "His contributions to electric vehicle technology and the development of solid-state power electronics.",
-    "net_worth_usd": 11000000.0,
-    "net_worth_source": "https://www.gurufocus.com/insider/72754/andrew-d-baglino",
-    "net_worth_updated_at": "2026-04-01T05:04:52.643132",
-    "voice_tone": "Analytical and pragmatic",
-    "voice_style": "Focused on practical applications and technical details",
-    "voice_delivery_notes": "Clear and concise with a focus on impact",
-    "voice_profile_updated_at": "2026-04-01 10:03:31",
-    "last_seen": "2026-04-01 10:03:31",
-    "last_episode_title": "How Radiant and Heron Are Rethinking Power Generation and Delivery",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-03-31",
-    "mention_score": 1,
-    "mention_score_decayed": 0.89,
-    "last_main_idea": "Investing in companies that innovate in energy delivery and grid infrastructure can lead to significant returns as the demand for electricity increases and the need for a more efficient and sustainable grid becomes critical.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-01T05:04:51.620692",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Andrew Beglinow",
-      "fetched_at": "2026-04-01T10:04:51.620453+00:00",
-      "cliff_notes": "Andrew Beglinow has had a significant impact on the electric vehicle and renewable energy industries. As the VP of R&D at Tesla, he played a crucial role in advancing electric vehicle technology. His current venture, Heron, focuses on solid-state power electronics, which is a key component in the evolution of energy storage and distribution. Beglinow's work is pivotal in addressing the challenges of energy delivery and the transformation of the power grid, which is essential for sustainable energy and economic growth.",
-      "derived": {
-        "current_role": "Founder and CEO of Heron",
-        "former_positions": "VP of R&D at Tesla"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Andrew Beglinow has had a significant impact on the electric vehicle and renewable energy industries. As the VP of R&D at Tesla, he played a crucial role in advancing electric vehicle technology. His current venture, Heron, focuses on solid-state power electronics, which is a key component in the evolution of energy storage and distribution.",
-        "Beglinow's work is pivotal in addressing the challenges of energy delivery and the transformation of the power grid, which is essential for sustainable energy and economic growth."
-      ],
-      "sections": [
-        {
-          "heading": "Electric Vehicle Technology",
-          "body": "Beglinow's tenure at Tesla saw significant advancements in electric vehicle technology, contributing to the broader adoption of EVs."
-        },
-        {
-          "heading": "Solid-State Power Electronics",
-          "body": "As CEO of Heron, Beglinow is leading the development of solid-state power electronics, which are critical for improving energy storage and distribution efficiency."
-        },
-        {
-          "heading": "Energy Delivery and the Grid",
-          "body": "Beglinow emphasizes the importance of transforming the power grid to handle the growing demand for energy services and to incorporate sustainable energy sources effectively."
-        },
-        {
-          "heading": "Sustainable Energy and Economic Growth",
-          "body": "His work aims to facilitate the use of free and sustainable energy sources, such as sunlight and geothermal energy, to support economic growth and prosperity."
-        }
-      ]
-    },
-    "net_worth": "$11.0M"
-  },
-  {
-    "id": 140,
-    "name": "Geo Voliante",
-    "slug": "geo-voliante",
-    "bio": "Dr. Geo Voliante is a performance coach who has worked with top hedge funds and elite athletes to optimize their performance. His expertise lies in enhancing the mental and physical capabilities of individuals in high-pressure environments.",
-    "known_for": "Enhancing performance for hedge fund managers and elite athletes through coaching.",
-    "net_worth_usd": 15200000000.0,
-    "net_worth_source": "https://www.theladders.com/career-advice/these-are-the-25-highest-paid-hedge-fund-managers",
-    "net_worth_updated_at": "2026-04-01T05:05:19.102305",
-    "voice_tone": "Confident and knowledgeable.",
-    "voice_style": "Analytical and comparative, drawing parallels between hedge fund managers and athletes.",
-    "voice_delivery_notes": "Paced with emphasis on key points about adaptability and performance.",
-    "voice_profile_updated_at": "2026-04-01 10:03:14",
-    "last_seen": "2026-04-01 10:03:14",
-    "last_episode_title": "The Psychology of Market Champions: Inside the Minds of Point 72 & Citadel Portfolio Managers | Dr. Gio Valiante",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-03-31",
-    "mention_score": 1,
-    "mention_score_decayed": 0.89,
-    "last_main_idea": "Investing in AI-enhanced ETFs like PQNT and PQUS can provide enhanced equity exposure in the current market environment.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-01T05:05:18.251968",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Geo Voliante",
-      "fetched_at": "2026-04-01T10:05:18.251755+00:00",
-      "cliff_notes": "Dr. Geo Voliante is recognized for his work as a performance coach, assisting both hedge fund managers and elite athletes in optimizing their performance. His career has been dedicated to understanding and improving the mental and physical aspects of high-pressure roles. By working with hedge funds like 0.72 and PGA Tour golfers such as Justin Rose and Jordan Speath, Voliante has demonstrated his ability to adapt his coaching methods to diverse client needs. His insights into the temperaments and operational differences between various hedge fund environments have made him a valuable resource in the financial sector. His continued work with athletes and executives showcases his commitment to enhancing performance across different fields.",
-      "derived": {
-        "current_role": "Performance Coach"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Dr. Geo Voliante is recognized for his work as a performance coach, assisting both hedge fund managers and elite athletes in optimizing their performance. His career has been dedicated to understanding and improving the mental and physical aspects of high-pressure roles. By working with hedge funds like 0.72 and PGA Tour golfers such as Justin Rose and Jordan Speath, Voliante has demonstrated his ability to adapt his coaching methods to diverse client needs.",
-        "His insights into the temperaments and operational differences between various hedge fund environments have made him a valuable resource in the financial sector. His continued work with athletes and executives showcases his commitment to enhancing performance across different fields."
-      ],
-      "sections": [
-        {
-          "heading": "Performance Coaching",
-          "body": "Dr. Geo Voliante specializes in performance coaching, helping individuals in high-stress roles to maximize their potential."
-        },
-        {
-          "heading": "Hedge Fund Collaboration",
-          "body": "Voliante has collaborated with hedge funds, such as 0.72, to improve the performance of their managers through tailored coaching programs."
-        },
-        {
-          "heading": "Athletic Performance",
-          "body": "He has worked with PGA Tour golfers, including Justin Rose and Jordan Speath, to enhance their mental and physical game performance."
-        },
-        {
-          "heading": "Pod Environments",
-          "body": "Voliante has insights into the growth of pod environments within the hedge fund industry and the differences in temperament and operations between various setups."
-        }
-      ]
-    },
-    "net_worth": "$15.20B"
   }
 ]

@@ -1,8 +1,21 @@
 {
-  "timestamp": "2026-04-06T22:02:52.562971",
-  "total_feed_episodes": 2,
-  "approved_for_transcription": 2,
+  "timestamp": "2026-04-07T05:04:15.713099",
+  "total_feed_episodes": 3,
+  "approved_for_transcription": 3,
   "episodes": [
+    {
+      "podcast": "The a16z Show",
+      "title": "Balaji on Why AI Raises the Cost of Verification",
+      "description": "<p>a16z general partner Erik Torenberg speaks with Balaji Srinivasan, angel investor and entrepreneur, about why AI simultaneously reduces the cost of creation and increases the cost of verification, and what that tension means for the shape of the AI economy. They discuss why AI drives companies toward the \"trusted tribe\" model of the Chinese internet, why physical world tasks are easier to automate than digital ones, why shortcuts only work for experts, and why AI makes everyone a CEO rather t",
+      "audio_url": "https://mgln.ai/e/1344/afp-848985-injected.calisto.simplecastaudio.com/3f86df7b-51c6-4101-88a2-550dba782de8/episodes/e307c3fa-77d2-4d43-98e6-a56da75f619c/audio/128/default.mp3?aid=rss_feed&awCollectionId=3f86df7b-51c6-4101-88a2-550dba782de8&awEpisodeId=e307c3fa-77d2-4d43-98e6-a56da75f619c&feed=JGE3yC0V",
+      "published": "Tue, 7 Apr 2026 10:00:00 +0000",
+      "published_date": "2026-04-07",
+      "rss_guid": "75e53232-5a14-46f7-bf87-3d3a4857a60b",
+      "status": "APPROVED",
+      "matched_keywords": [],
+      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_balaji_on_why_ai_raises_the_cost_of_verification_b2cfa99d.mp3",
+      "filename": "the_a16z_show_balaji_on_why_ai_raises_the_cost_of_verification_b2cfa99d.mp3"
+    },
     {
       "podcast": "The a16z Show",
       "title": "Peter Yang on Small Teams, Coding Agents, and Why Human Ambition Has No Ceiling",
@@ -24,10 +37,10 @@
       "published": "Mon, 06 Apr 2026 12:51:00 +0000",
       "published_date": "2026-04-06",
       "rss_guid": "65648533-c855-4cfd-92ae-300eebbf0163",
+      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/ALLIN-INTV_Palantir_Anduril.mp3",
+      "filename": "ALLIN-INTV_Palantir_Anduril.mp3",
       "status": "APPROVED",
-      "matched_keywords": [],
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/all_in_with_chamath__jason__sacks___frie_the_companies_changing_warfare_forever__palantir___anduril_e_89740cd3.mp3",
-      "filename": "all_in_with_chamath__jason__sacks___frie_the_companies_changing_warfare_forever__palantir___anduril_e_89740cd3.mp3"
+      "matched_keywords": []
     }
   ]
 }

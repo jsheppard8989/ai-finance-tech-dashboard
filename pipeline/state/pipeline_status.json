@@ -1,6 +1,47 @@
 {
-  "last_updated": "2026-04-06T22:04:00.778021",
+  "last_updated": "2026-04-07T05:07:50.363213",
   "episodes": {
+    "the_a16z_show_balaji_on_why_ai_raises_the_co": {
+      "info": {
+        "podcast": "The a16z Show",
+        "title": "Balaji on Why AI Raises the Cost of Verification",
+        "published": "2026-04-07",
+        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_balaji_on_why_ai_raises_the_cost_of_verification_b2cfa99d.mp3",
+        "keywords": [],
+        "rss_guid": "75e53232-5a14-46f7-bf87-3d3a4857a60b"
+      },
+      "stages": {
+        "downloaded": {
+          "complete": true,
+          "timestamp": null,
+          "reason": null
+        },
+        "transcribed": {
+          "complete": false,
+          "file": null,
+          "timestamp": null,
+          "reason": "Waiting for fetch/transcribe step"
+        },
+        "analyzed": {
+          "complete": false,
+          "episode_id": null,
+          "timestamp": null,
+          "reason": "Waiting for next analyze run (transcript \u2192 DB)."
+        },
+        "insight_created": {
+          "complete": false,
+          "timestamp": null,
+          "reason": "Depends on analyze step first."
+        },
+        "published": {
+          "complete": false,
+          "timestamp": null,
+          "reason": "Not in data.js yet (run export and push to site)."
+        }
+      },
+      "first_seen": "2026-04-07T05:07:50.246443",
+      "status": "needs_transcription"
+    },
     "the_a16z_show_peter_yang_on_small_teams,_cod": {
       "info": {
         "podcast": "The a16z Show",
@@ -17,21 +58,23 @@
           "reason": null
         },
         "transcribed": {
-          "complete": false,
-          "file": null,
+          "complete": true,
+          "file": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/the_a16z_show_20260406_6d5897df_44c5_4ca1_a6d3_a38c9c6e.txt",
           "timestamp": null,
-          "reason": "Waiting for fetch/transcribe step"
+          "reason": null
         },
         "analyzed": {
-          "complete": false,
-          "episode_id": null,
+          "complete": true,
+          "episode_id": 138,
           "timestamp": null,
-          "reason": "Waiting for next analyze run (transcript \u2192 DB)."
+          "reason": null
         },
         "insight_created": {
-          "complete": false,
+          "complete": true,
+          "insight_id": 50,
+          "insight_title": "The a16z Show: New Media Strategy and Investment Insights",
           "timestamp": null,
-          "reason": "Depends on analyze step first."
+          "reason": null
         },
         "published": {
           "complete": false,
@@ -39,15 +82,15 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-04-06T22:04:00.684846",
-      "status": "needs_transcription"
+      "first_seen": "2026-04-07T05:07:50.324488",
+      "status": "needs_export"
     },
     "all-in_with_chamath,_jason,_sacks_&_friedberg_the_companies_changing_warfare": {
       "info": {
         "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
         "title": "The Companies Changing Warfare Forever: Palantir & Anduril Execs on Drones, AI & the Future of War",
         "published": "2026-04-06",
-        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/all_in_with_chamath__jason__sacks___frie_the_companies_changing_warfare_forever__palantir___anduril_e_89740cd3.mp3",
+        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/ALLIN-INTV_Palantir_Anduril.mp3",
         "keywords": [],
         "rss_guid": "65648533-c855-4cfd-92ae-300eebbf0163"
       },
@@ -58,21 +101,23 @@
           "reason": null
         },
         "transcribed": {
-          "complete": false,
-          "file": null,
+          "complete": true,
+          "file": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/ALLIN-INTV_Palantir_Anduril.txt",
           "timestamp": null,
-          "reason": "Waiting for fetch/transcribe step"
+          "reason": null
         },
         "analyzed": {
-          "complete": false,
-          "episode_id": null,
+          "complete": true,
+          "episode_id": 139,
           "timestamp": null,
-          "reason": "Waiting for next analyze run (transcript \u2192 DB)."
+          "reason": null
         },
         "insight_created": {
-          "complete": false,
+          "complete": true,
+          "insight_id": 44,
+          "insight_title": "The Epstein Saga: Diverse Perspectives and Investment Implications",
           "timestamp": null,
-          "reason": "Depends on analyze step first."
+          "reason": null
         },
         "published": {
           "complete": false,
@@ -80,8 +125,8 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-04-06T22:04:00.754847",
-      "status": "needs_transcription"
+      "first_seen": "2026-04-07T05:07:50.342530",
+      "status": "needs_export"
     }
   }
 }

@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-04-06T22:02:57.704559",
+  "timestamp": "2026-04-07T05:04:23.382652",
   "results": [
     {
       "podcast": "The a16z Show",
-      "title": "Peter Yang on Small Teams, Coding Agents, and Why Human Ambition Has No Ceiling",
-      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_20260406_6d5897df_44c5_4ca1_a6d3_a38c9c6e.mp3",
+      "title": "Balaji on Why AI Raises the Cost of Verification",
+      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_20260407_75e53232_5a14_46f7_bf87_3d3a4857.mp3",
       "transcript_path": null,
       "success": false
     },
@@ -12,6 +12,13 @@
       "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
       "title": "The Companies Changing Warfare Forever: Palantir & Anduril Execs on Drones, AI & the Future of War",
       "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/ALLIN-INTV_Palantir_Anduril.mp3",
+      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/ALLIN-INTV_Palantir_Anduril.txt",
+      "success": true
+    },
+    {
+      "podcast": "The Jack Mallers Show",
+      "title": "We Were Right. Now What?",
+      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-3-7%2F421565584-44100-2-f380694d360f6.mp3",
       "transcript_path": null,
       "success": false
     }
