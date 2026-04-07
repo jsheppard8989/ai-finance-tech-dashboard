@@ -1,6 +1,33 @@
 {
-  "timestamp": "2026-04-06T05:01:23.833999",
-  "total_feed_episodes": 0,
-  "approved_for_transcription": 0,
-  "episodes": []
+  "timestamp": "2026-04-06T22:02:52.562971",
+  "total_feed_episodes": 2,
+  "approved_for_transcription": 2,
+  "episodes": [
+    {
+      "podcast": "The a16z Show",
+      "title": "Peter Yang on Small Teams, Coding Agents, and Why Human Ambition Has No Ceiling",
+      "description": "<p>Anish Acharya speaks with Peter Yang, creator and product lead at Roblox, about how personal AI agents are replacing the apps we open every day, why coding agents feel like slot machines, and what happens when the cost of building software drops to near zero. They discuss why future companies will stay radically small, how the IDE is becoming a thinking tool rather than a making tool, and why human ambition will always create more jobs than AI eliminates.</p>\n<p>Follow Peter Yang on X: <a hre",
+      "audio_url": "https://mgln.ai/e/1344/afp-848985-injected.calisto.simplecastaudio.com/3f86df7b-51c6-4101-88a2-550dba782de8/episodes/cfbbfafd-5701-40cb-9c79-2a8c04fe77ec/audio/128/default.mp3?aid=rss_feed&awCollectionId=3f86df7b-51c6-4101-88a2-550dba782de8&awEpisodeId=cfbbfafd-5701-40cb-9c79-2a8c04fe77ec&feed=JGE3yC0V",
+      "published": "Mon, 6 Apr 2026 15:45:00 +0000",
+      "published_date": "2026-04-06",
+      "rss_guid": "6d5897df-44c5-4ca1-a6d3-a38c9c6e6977",
+      "status": "APPROVED",
+      "matched_keywords": [],
+      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_peter_yang_on_small_teams__coding_agents__and_why_human_ambi_ffdc8d1b.mp3",
+      "filename": "the_a16z_show_peter_yang_on_small_teams__coding_agents__and_why_human_ambi_ffdc8d1b.mp3"
+    },
+    {
+      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "title": "The Companies Changing Warfare Forever: Palantir & Anduril Execs on Drones, AI & the Future of War",
+      "description": "<p>(0:00) Friedberg Intros Palantir's Shyam Sankar and Anduril's Trae Stephens</p> <p>(0:56) Palantir Origins: CIA Analyst Joins 20-Person Startup</p> <p>(2:54) War, Deterrence & Silicon Valley's Defense Tech Taboo</p> <p>(8:39) US vs China: Drone Gap, Shipbuilding & 2027 Taiwan Threat</p> <p>(12:27) Anduril's Arsenal-1 Factory & Fixing US Munitions Supply Chain</p> <p>(41:48) Autonomous Weapons, AI Decision-Making & Future of War</p> <p>(47:15) Anthropic vs Pentagon: Ethics of AI in Combat</p> ",
+      "audio_url": "https://dts.podtrac.com/redirect.mp3/traffic.libsyn.com/secure/allinchamathjason/ALLIN-INTV_Palantir_Anduril.mp3?dest-id=1928300",
+      "published": "Mon, 06 Apr 2026 12:51:00 +0000",
+      "published_date": "2026-04-06",
+      "rss_guid": "65648533-c855-4cfd-92ae-300eebbf0163",
+      "status": "APPROVED",
+      "matched_keywords": [],
+      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/all_in_with_chamath__jason__sacks___frie_the_companies_changing_warfare_forever__palantir___anduril_e_89740cd3.mp3",
+      "filename": "all_in_with_chamath__jason__sacks___frie_the_companies_changing_warfare_forever__palantir___anduril_e_89740cd3.mp3"
+    }
+  ]
 }
