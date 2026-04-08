@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-04-07T05:07:50.363213",
+  "last_updated": "2026-04-07T22:07:39.273388",
   "episodes": {
-    "the_a16z_show_balaji_on_why_ai_raises_the_co": {
+    "moonshots_with_peter_diamandis_how_ai_is_bringing_extinct_ani": {
       "info": {
-        "podcast": "The a16z Show",
-        "title": "Balaji on Why AI Raises the Cost of Verification",
+        "podcast": "Moonshots with Peter Diamandis",
+        "title": "How AI Is Bringing Extinct Animals Back (And What Comes Next) | Ben Lamm (Colossal) | EP #245",
         "published": "2026-04-07",
-        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_balaji_on_why_ai_raises_the_cost_of_verification_b2cfa99d.mp3",
+        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/moonshots_with_peter_diamandis_how_ai_is_bringing_extinct_animals_back__and_what_comes_next_3aec0047.mp3",
         "keywords": [],
-        "rss_guid": "75e53232-5a14-46f7-bf87-3d3a4857a60b"
+        "rss_guid": "79836e1e-31fc-11f1-bc68-838bb220a05a"
       },
       "stages": {
         "downloaded": {
@@ -39,17 +39,58 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-04-07T05:07:50.246443",
+      "first_seen": "2026-04-07T22:07:39.174861",
       "status": "needs_transcription"
     },
-    "the_a16z_show_peter_yang_on_small_teams,_cod": {
+    "monetary_matters_with_jack_farley_why_emerging_markets_are_final": {
+      "info": {
+        "podcast": "Monetary Matters with Jack Farley",
+        "title": "Why Emerging Markets are Finally Outperforming Developed Markets | Robert Koenigsberger | Gramercy",
+        "published": "2026-04-07",
+        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/monetary_matters_with_jack_farley_why_emerging_markets_are_finally_outperforming_developed_mar_b58ab2b6.mp3",
+        "keywords": [],
+        "rss_guid": "f81e4d34-3260-11f1-be6a-375a352ad0b8"
+      },
+      "stages": {
+        "downloaded": {
+          "complete": true,
+          "timestamp": null,
+          "reason": null
+        },
+        "transcribed": {
+          "complete": false,
+          "file": null,
+          "timestamp": null,
+          "reason": "Waiting for fetch/transcribe step"
+        },
+        "analyzed": {
+          "complete": false,
+          "episode_id": null,
+          "timestamp": null,
+          "reason": "Waiting for next analyze run (transcript \u2192 DB)."
+        },
+        "insight_created": {
+          "complete": false,
+          "timestamp": null,
+          "reason": "Depends on analyze step first."
+        },
+        "published": {
+          "complete": false,
+          "timestamp": null,
+          "reason": "Not in data.js yet (run export and push to site)."
+        }
+      },
+      "first_seen": "2026-04-07T22:07:39.202904",
+      "status": "needs_transcription"
+    },
+    "the_a16z_show_balaji_on_why_ai_raises_the_co": {
       "info": {
         "podcast": "The a16z Show",
-        "title": "Peter Yang on Small Teams, Coding Agents, and Why Human Ambition Has No Ceiling",
-        "published": "2026-04-06",
-        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_peter_yang_on_small_teams__coding_agents__and_why_human_ambi_ffdc8d1b.mp3",
+        "title": "Balaji on Why AI Raises the Cost of Verification",
+        "published": "2026-04-07",
+        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_balaji_on_why_ai_raises_the_cost_of_verification_b2cfa99d.mp3",
         "keywords": [],
-        "rss_guid": "6d5897df-44c5-4ca1-a6d3-a38c9c6e6977"
+        "rss_guid": "75e53232-5a14-46f7-bf87-3d3a4857a60b"
       },
       "stages": {
         "downloaded": {
@@ -59,13 +100,13 @@
         },
         "transcribed": {
           "complete": true,
-          "file": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/the_a16z_show_20260406_6d5897df_44c5_4ca1_a6d3_a38c9c6e.txt",
+          "file": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/the_a16z_show_20260407_75e53232_5a14_46f7_bf87_3d3a4857.txt",
           "timestamp": null,
           "reason": null
         },
         "analyzed": {
           "complete": true,
-          "episode_id": 138,
+          "episode_id": 141,
           "timestamp": null,
           "reason": null
         },
@@ -82,17 +123,17 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-04-07T05:07:50.324488",
+      "first_seen": "2026-04-07T22:07:39.227543",
       "status": "needs_export"
     },
-    "all-in_with_chamath,_jason,_sacks_&_friedberg_the_companies_changing_warfare": {
+    "the_jack_mallers_show_we_were_right._now_what?": {
       "info": {
-        "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-        "title": "The Companies Changing Warfare Forever: Palantir & Anduril Execs on Drones, AI & the Future of War",
-        "published": "2026-04-06",
-        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/ALLIN-INTV_Palantir_Anduril.mp3",
+        "podcast": "The Jack Mallers Show",
+        "title": "We Were Right. Now What?",
+        "published": "2026-04-07",
+        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-3-7%2F421565584-44100-2-f380694d360f6.mp3",
         "keywords": [],
-        "rss_guid": "65648533-c855-4cfd-92ae-300eebbf0163"
+        "rss_guid": "4adbec00-4c18-4ac7-83a5-a1b7edced925"
       },
       "stages": {
         "downloaded": {
@@ -102,20 +143,20 @@
         },
         "transcribed": {
           "complete": true,
-          "file": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/ALLIN-INTV_Palantir_Anduril.txt",
+          "file": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-3-7%2F421565584-44100-2-f380694d360f6.txt",
           "timestamp": null,
           "reason": null
         },
         "analyzed": {
           "complete": true,
-          "episode_id": 139,
+          "episode_id": 140,
           "timestamp": null,
           "reason": null
         },
         "insight_created": {
           "complete": true,
-          "insight_id": 44,
-          "insight_title": "The Epstein Saga: Diverse Perspectives and Investment Implications",
+          "insight_id": 46,
+          "insight_title": "AI Breaking the System and What It Means for Bitcoin",
           "timestamp": null,
           "reason": null
         },
@@ -125,8 +166,49 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-04-07T05:07:50.342530",
+      "first_seen": "2026-04-07T22:07:39.244960",
       "status": "needs_export"
+    },
+    "dwarkesh_podcast_michael_nielsen_\u2013_how_science_": {
+      "info": {
+        "podcast": "Dwarkesh Podcast",
+        "title": "Michael Nielsen \u2013 How science actually progresses",
+        "published": "2026-04-07",
+        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/dwarkesh_podcast_michael_nielsen___how_science_actually_progresses_852a5990.mp3",
+        "keywords": [],
+        "rss_guid": "substack:post:193466212"
+      },
+      "stages": {
+        "downloaded": {
+          "complete": true,
+          "timestamp": null,
+          "reason": null
+        },
+        "transcribed": {
+          "complete": false,
+          "file": null,
+          "timestamp": null,
+          "reason": "Waiting for fetch/transcribe step"
+        },
+        "analyzed": {
+          "complete": false,
+          "episode_id": null,
+          "timestamp": null,
+          "reason": "Waiting for next analyze run (transcript \u2192 DB)."
+        },
+        "insight_created": {
+          "complete": false,
+          "timestamp": null,
+          "reason": "Depends on analyze step first."
+        },
+        "published": {
+          "complete": false,
+          "timestamp": null,
+          "reason": "Not in data.js yet (run export and push to site)."
+        }
+      },
+      "first_seen": "2026-04-07T22:07:39.250404",
+      "status": "needs_transcription"
     }
   }
 }

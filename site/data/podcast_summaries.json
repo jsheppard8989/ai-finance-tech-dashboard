@@ -1,5 +1,38 @@
 [
   {
+    "id": 141,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Balaji on Why AI Raises the Cost of Verification",
+    "episode_date": "2026-04-07",
+    "summary": "The podcast episode from 'The a16z Show' discusses the future of AI and its potential impact on the economy and society. The conversation covers the role of AI in job displacement, the importance of understanding AI's limitations, and the implications of AI's ability to synthesize information. The guests also explore the potential distribution of value in the AI economy, comparing it to the internet and cloud economies, and discuss the challenges of verifying AI-generated content. The episode also touches on the future of private programmable AI and its applications in fields like biology and mathematics.",
+    "key_takeaways": [
+      "AI does not take jobs but rather changes job roles, potentially making humans more like CEOs.",
+      "AI is a shortcut that can be beneficial but also presents challenges in debugging and understanding.",
+      "Humans act as sensors while AI acts as actuators, creating a human-machine synthesis.",
+      "AI's ability to synthesize information across large datasets raises privacy and surveillance concerns.",
+      "The creation cost of content collapses with AI, but the cost of verification increases, leading to a need for trusted groups.",
+      "The future of AI economy may be more decentralized with distillation and personal private programmable AI gaining importance."
+    ],
+    "investment_thesis": "Investing in AI infrastructure and applications that can leverage the power of AI while addressing the challenges of verification and privacy.",
+    "key_tickers": null
+  },
+  {
+    "id": 140,
+    "podcast_name": "The Jack Mallers Show",
+    "episode_title": "We Were Right. Now What?",
+    "episode_date": "2026-04-07",
+    "summary": "In this episode of The Jack Mallers Show, Jack Mallers discusses the current state of financial markets, focusing on Bitcoin's price and market cap, the geopolitical situation, and the implications of the ongoing conflict on the economy. He touches on topics like stagflation, global crisis, and the impact of fiat monetary policy on food quality and health. Jack also shares his personal dietary choices and their connection to his views on the current economic system, advocating for personal responsibility and self-reliance in the face of global challenges.",
+    "key_takeaways": [
+      "Bitcoin's market cap reached an all-time high, and the current price is being closely watched.",
+      "The ongoing conflict is not making sense from a geopolitical or economic standpoint, and it's leading to economic instability.",
+      "Stagflation and a potential global recession are concerns due to the conflict and its impact on oil prices.",
+      "Jack advocates for personal responsibility in health and finance, suggesting that individuals have the power to make positive changes in their lives.",
+      "The current fiat monetary system is criticized for its impact on food quality and health, with Jack suggesting that it leads to the proliferation of unhealthy, processed foods."
+    ],
+    "investment_thesis": "The investment thesis revolves around the belief in personal responsibility and self-reliance in the face of economic and health challenges, with a particular focus on Bitcoin as a hedge against fiat currency debasement.",
+    "key_tickers": null
+  },
+  {
     "id": 139,
     "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "episode_title": "The Companies Changing Warfare Forever: Palantir & Anduril Execs on Drones, AI & the Future of War",

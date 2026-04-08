@@ -23639,3 +23639,510 @@ ModuleNotFoundError: No module named 'yfinance'
 ============================================================
 STEP: Auto-Curate Terms
 ============================================================
+g, leading to increased prod...
+
+• AI-augmented Teams
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: Small, agile teams working alongside AI agents to develop products and services, leading to faster d...
+
+• AI-enhanced ETFs
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: Exchange-traded funds that use artificial intelligence to enhance equity exposure and potentially im...
+
+• Market Dislocation
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A sudden and significant shift in the market, often caused by external factors or technological disr...
+
+• Paper Token Inference Pricing
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: The practice of pricing AI models based on the value of paper tokens, which may not reflect their ac...
+
+• Autonomous Vehicles (AVs)
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: Self-driving vehicles that use sensors, cameras, and artificial intelligence to navigate without hum...
+
+• Verteports
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: Hypothetical locations designed for the takeoff and landing of vertical take-off and landing (VTOL) ...
+
+• Proof of Human
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A system or method to verify that an online account or interaction is conducted by a human being, ra...
+
+• AI-generated content
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: Content created by artificial intelligence, which can mimic human creation to the point of being ind...
+
+• 80-year overnight success
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A term used to describe AI's rapid recent advancements that are the result of decades of foundationa...
+
+• Software Architecture
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: The structure or structures of a computer program or computer system, which includes the architectur...
+
+• Energy Independence
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: The ability of a country or region to meet its energy needs without reliance on external sources, re...
+
+• Choke Point
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A narrow passage or point that can control the flow of goods or resources, such as the Strait of Hor...
+
+• Flags of Convenience
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A practice where ship owners register their vessels in countries with lower regulations to shield th...
+
+• Coding Agents
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: Software tools that can automate coding tasks, potentially revolutionizing the way software is devel...
+
+• Decision Advantage
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: The concept of outthinking and out-executing adversaries in warfare through technology and strategy....
+
+• Reindustrialization
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: The process of rebuilding and revitalizing a nation's industrial base to ensure economic prosperity ...
+
+✓ Auto-Curate Terms completed
+
+============================================================
+STEP: Extract Podcast Guests
+============================================================
+============================================================
+Extract Podcast Guests
+============================================================
+Processing 112 processed episodes
+  ✓ Why $200 Oil Won’t Spike Inflation to 9% ← Monetary Matters with Jack Farley (2026-04-01)
+  ✓ This special episode ← All-In Podcast (2026-03-28)
+  ✓ Lupin Ramon ← Monetary Matters with Jack Farley (2026-03-27)
+  ✓ When the Music Stops ← The Jack Mallers Show (2026-03-24)
+  ✓ Ground Infrastructure ← The a16z Show (2026-03-23)
+  ✓ Rory Johnston ← Monetary Matters with Jack Farley (2026-03-19)
+  ✓ Senator John Fetterman on Voting Rights ← All-In with Chamath, Jason, Sacks & Friedberg (2026-03-18)
+  ✓ Stock Market on Shaky Foundations ← Monetary Matters with Jack Farley (2026-03-18)
+  ✓ Elon Musk on Moonshots ← Moonshots with Peter Diamandis (2026-03-17)
+  ✓ Investing in Capitalism ← All-In with Chamath, Jason, Sacks & Friedberg (2026-03-13)
+  ✓ Harvard Professor Graham Allison ← All-In with Chamath, Jason, Sacks & Friedberg (2026-03-09)
+  ✓ Andrew Yang ← Moonshots with Peter Diamandis (2026-03-07)
+  ✓ Inventing the Renaissance ← Dwarkesh Podcast (2026-03-06)
+  ✓ Ray Dalio ← All-In with Chamath, Jason, Sacks & Friedberg (2026-03-03)
+  ✓ Nobel Prize-winning economist Paul Krugman ← Monetary Matters with Jack Farley (2026-02-19)
+  ✓ host Jack Mallers ← The Jack Mallers Show (2026-02-19)
+  ✓ Ben Horowitz ← Moonshots with Peter Diamandis (2026-02-19)
+  ✓ Bosworth ← a16z Live (2026-02-15)
+  ✓ Milton Berg ← Monetary Matters with Jack Farley (2026-02-06)
+
+✓ Done. 19 guest(s) in database.
+
+✓ Extract Podcast Guests completed
+
+============================================================
+STEP: Export Website Data
+============================================================
+============================================================
+Exporting Website Data
+============================================================
+✓ Exported website data to /Users/jaredsheppard/.openclaw/workspace/site/data
+✓ Exported: {'ticker_scores': 50, 'podcast_summaries': 57, 'archive_items': 144, 'podcast_guests': 19, 'pundits': 20}
+🔍 Scanning podcast pipeline...
+
+
+================================================================================
+📊 PODCAST PIPELINE STATUS
+================================================================================
+
+📈 Pipeline Summary (3 total episodes tracked):
+  ✅ Downloaded:       3 / 3
+  ✅ Transcribed:      2 / 3
+  ✅ Analyzed:         2 / 3
+  ✅ Insight Created:  2 / 3
+  ✅ Published:        0 / 3
+
+🔍 Episodes Needing Attention:
+
+  📝 Pending Transcription (1):
+    - Balaji on Why AI Raises the Cost of Verification
+
+  🌐 Pending Publishing (2):
+    - Peter Yang on Small Teams, Coding Agents, and Why 
+    - The Companies Changing Warfare Forever: Palantir &
+
+✅ Complete Episodes (All Stages):
+    (None yet)
+
+📅 Last Updated: 2026-04-07T05:07:50.363213
+📁 Status file: /Users/jaredsheppard/.openclaw/workspace/pipeline/state/pipeline_status.json
+================================================================================
+  ✓ Exported pipeline_state.json: 3 tracked
+
+============================================================
+Generating Website JavaScript
+============================================================
+✓ Generated data.js with 50 tickers, 144 archive items, 128 deep dives, 4 suggested terms, 19 legacy guests, 20 pundits; chartsVersion=2026-04-01T15:16:59.801570
+✓ Bumped data.js cache-buster to v=1775556473
+
+============================================================
+STEP: Push to GitHub
+============================================================
+✓ Pushed to GitHub: Pipeline update 2026-04-07 05:07: 2 podcasts, 2 insights, 0 newsletters
+
+============================================================
+PIPELINE COMPLETE
+Finished: 2026-04-07 05:07:56.496687
+============================================================
+📊 Pipeline Complete
+
+🎙️ 2 new podcast(s) analyzed
+
+🌐 Website updated
+2026-04-07T22:03:06-05:00 run_if_scheduled: in window, running pipeline
+============================================================
+AUTO PIPELINE
+Mode: full
+Started: 2026-04-07 22:03:06.245050
+============================================================
+
+============================================================
+STEP: Podcast Curation
+============================================================
+sodes...
+  ✓ Episodes with matching audio: 1
+  ? Unmatched audio files (no matching feed episode): 51
+  📥 Episodes pending download before auto-download: 4
+
+Approving all episodes from feed list (feeds are pre-curated)...
+  ↓ Downloading audio: Moonshots with Peter Diamandis – How AI Is Bringing Extinct Animals Back (And What Comes Next
+  ↓ Downloading audio: Monetary Matters with Jack Farley – Why Emerging Markets are Finally Outperforming Developed Mar
+  ↓ Downloading audio: Dwarkesh Podcast – Michael Nielsen – How science actually progresses
+  ✓ Downloaded audio for 3 approved episode(s)
+
+  APPROVED (will transcribe or download): 5
+  🎧 Approved episodes with audio after auto-download: 5
+
+======================================================================
+CURATION RESULTS
+======================================================================
+
+📌 APPROVED (will transcribe or download):
+
+  ✓ Moonshots with Peter Diamandis
+    Title: How AI Is Bringing Extinct Animals Back (And What Comes Next) | Ben La
+    File: moonshots_with_peter_diamandis_how_ai_is_bringing_extinct_animals_back__and_what_comes_next_3aec0047.mp3
+
+  ✓ Monetary Matters with Jack Farley
+    Title: Why Emerging Markets are Finally Outperforming Developed Markets | Rob
+    File: monetary_matters_with_jack_farley_why_emerging_markets_are_finally_outperforming_developed_mar_b58ab2b6.mp3
+
+  ✓ The a16z Show
+    Title: Balaji on Why AI Raises the Cost of Verification
+    File: the_a16z_show_balaji_on_why_ai_raises_the_cost_of_verification_b2cfa99d.mp3
+
+  ✓ The Jack Mallers Show
+    Title: We Were Right. Now What?
+    File: https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-3-7%2F421565584-44100-2-f380694d360f6.mp3
+
+  ✓ Dwarkesh Podcast
+    Title: Michael Nielsen – How science actually progresses
+    File: dwarkesh_podcast_michael_nielsen___how_science_actually_progresses_852a5990.mp3
+
+
+✓ Curation log saved: /Users/jaredsheppard/.openclaw/workspace/pipeline/state/curation_log.json
+
+======================================================================
+NEXT STEPS
+======================================================================
+
+1. Review approved episodes above
+2. To transcribe approved episodes, run:
+   python3 transcribe_curated.py
+
+3. Or manually transcribe specific files (only for episodes that have audio):
+   whisper 'moonshots_with_peter_diamandis_how_ai_is_bringing_extinct_animals_back__and_what_comes_next_3aec0047.mp3' --model tiny --language en
+   whisper 'monetary_matters_with_jack_farley_why_emerging_markets_are_finally_outperforming_developed_mar_b58ab2b6.mp3' --model tiny --language en
+   whisper 'the_a16z_show_balaji_on_why_ai_raises_the_cost_of_verification_b2cfa99d.mp3' --model tiny --language en
+   whisper 'https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-3-7%2F421565584-44100-2-f380694d360f6.mp3' --model tiny --language en
+   whisper 'dwarkesh_podcast_michael_nielsen___how_science_actually_progresses_852a5990.mp3' --model tiny --language en
+
+✓ Podcast Curation completed
+
+============================================================
+STEP: Fetch & Transcribe
+============================================================
+WMN7690139017.mp3
+     Title: Why Emerging Markets are Finally Outperforming Developed Mar...
+     ✓ Downloaded to /Users/jaredsheppard/.openclaw/workspace/audio/EWWMN7690139017.mp3
+  🎙️  Transcribing: EWWMN7690139017.mp3
+  📥 Submitted to whisper queue: EWWMN7690139017.mp3
+  ⏭ Queue-only mode: not waiting. Run pipeline again after worker finishes.
+
+📻 Processing: https://feeds.simplecast.com/JGE3yC0V...
+  📋 Latest: Balaji on Why AI Raises the Cost of Verification...
+  ⬇️  Downloading: the_a16z_show_20260407_75e53232_5a14_46f7_bf87_3d3a4857.mp3
+     Title: Balaji on Why AI Raises the Cost of Verification...
+     ✓ Downloaded to /Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_20260407_75e53232_5a14_46f7_bf87_3d3a4857.mp3
+  🎙️  Transcribing: the_a16z_show_20260407_75e53232_5a14_46f7_bf87_3d3a4857.mp3
+  ✓ Already transcribed: the_a16z_show_20260407_75e53232_5a14_46f7_bf87_3d3a4857.txt
+
+📻 Processing: https://rss.libsyn.com/shows/254861/destinations/1...
+  ⏭ Already have 'The Companies Changing Warfare Forever: Palantir &' (guid match, ep_id=139)
+  ✗ No episode found
+
+📻 Processing: https://anchor.fm/s/e29097f4/podcast/rss...
+  📋 Latest: We Were Right. Now What?...
+  ⬇️  Downloading: https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-3-7%2F421565584-44100-2-f380694d360f6.mp3
+     Title: We Were Right. Now What?...
+     ✓ Downloaded to /Users/jaredsheppard/.openclaw/workspace/audio/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-3-7%2F421565584-44100-2-f380694d360f6.mp3
+  🎙️  Transcribing: https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-3-7%2F421565584-44100-2-f380694d360f6.mp3
+  ✓ Already transcribed: https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-3-7%2F421565584-44100-2-f380694d360f6.txt
+
+📻 Processing: https://feed.podbean.com/macrovoices/feed.xml...
+  ⏭ Already have 'MacroVoices #526 Matt Barrie: Pay To PrAI' (guid match, ep_id=132)
+  ✗ No episode found
+
+📻 Processing: https://api.substack.com/feed/podcast/69345.rss...
+  📋 Latest: Michael Nielsen – How science actually progresses...
+  ⬇️  Downloading: e5343bce6cf37efafa778abc5594aa67.mp3
+     Title: Michael Nielsen – How science actually progresses...
+     ✓ Downloaded to /Users/jaredsheppard/.openclaw/workspace/audio/e5343bce6cf37efafa778abc5594aa67.mp3
+  🎙️  Transcribing: e5343bce6cf37efafa778abc5594aa67.mp3
+  📥 Submitted to whisper queue: e5343bce6cf37efafa778abc5594aa67.mp3
+  ⏭ Queue-only mode: not waiting. Run pipeline again after worker finishes.
+
+✓ Log saved: /Users/jaredsheppard/.openclaw/workspace/pipeline/state/fetch_log.json
+
+======================================================================
+SUMMARY
+======================================================================
+Total feeds: 7
+Successfully transcribed: 2
+Failed: 3
+
+Completed episodes:
+  ✓ The a16z Show: Balaji on Why AI Raises the Cost of Verification...
+  ✓ The Jack Mallers Show: We Were Right. Now What?...
+
+
+Next step: Run 'python3 research.py' to analyze transcripts
+
+✓ Fetch & Transcribe completed
+
+============================================================
+STEP: Newsletter Ingestion
+============================================================
+==================================================
+Newsletter Ingestion Pipeline
+==================================================
+
+Connecting to Gmail...
+Connecting to Gmail at imap.gmail.com:993...
+Logging in as jsheppard8989@gmail.com...
+Selecting folder: NEWSLETTERS...
+Found 0 unread emails
+
+No emails fetched from Gmail.
+
+✓ Processed 0 emails
+
+Files saved to: /Users/jaredsheppard/.openclaw/workspace/pipeline/inbox
+
+Next step: Run analysis to score stock mentions
+
+✓ Newsletter Ingestion completed
+  ✓ Cleaned up 2 orphan audio file(s) (transcript already exists)
+
+============================================================
+STEP: Transcript AI Analysis
+============================================================
+  ⚠ Google Generative AI library not installed. Run: pip install google-generativeai
+
+============================================================
+Processing Podcast Transcripts with AI
+============================================================
+  Using Moonshot/Kimi API
+Found 114 transcript files
+  Processing https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-3-7%2F421565584-44100-2-f380694d360f6.txt...
+    ✓ Added episode (ID: 140)
+    + Emerging term: Carnivore Diet
+    ✓ Added 0 ticker mentions
+  Processing e3c75a06762af10f374661e8af1d1af6.txt...
+    ⏭ Episode already in database (duplicate), skipping
+  Processing dario_amodei.txt...
+    ⏭ Too short, skipping
+  Processing DVVTS5786783285.txt...
+    ⏭ Episode 'Ben Horowitz: xAI Executive Exodus, Ilya's $5B SSI Valuation...' already in database, skipping
+  Processing moonshots_with_peter_diamandis_meta_buys_moltbook__gpt_5_4__and_fruitfly_brain_upload___moo_609f0b8d.txt...
+    ⏭ Episode already in database (duplicate), skipping
+  Processing elon_musk.txt...
+    ⏭ Too short, skipping
+  Processing the_a16z_show_20260407_75e53232_5a14_46f7_bf87_3d3a4857.txt...
+    ✓ Added episode (ID: 141)
+    + Emerging term: Human-Machine Synthesis
+    + Emerging term: Distillation
+    + Emerging term: Private Programmable AI
+    ✓ Added 0 ticker mentions
+  Processing DVVTS6372073266.txt...
+    ⏭ Episode already in database (duplicate), skipping
+  Processing DVVTS3579530070.txt...
+    ⏭ Episode already in database (duplicate), skipping
+
+✓ Transcript processing complete: 2 new, 105 skipped, 0 errors
+✓ Analyzed 2 new transcripts
+
+============================================================
+STEP: Newsletter Import
+============================================================
+✓ Total newsletters imported: 0
+
+============================================================
+STEP: Promote Episodes to Insights
+============================================================
+Found 2 processed episodes not yet in insights
+  ✓ Promoted: 'Balaji on Why AI Raises the Cost of Verification' (sentiment=neutral)
+  ✓ Promoted: 'We Were Right. Now What?' (sentiment=neutral)
+  ✓ Auto-archived 2 older insights
+✓ Promoted 2 new insight(s) to website
+
+============================================================
+STEP: Promote Newsletters to Insights
+============================================================
+Found 0 newsletters not yet on site
+
+============================================================
+STEP: Aggregate Daily Scores
+============================================================
+✓ Saved 0 daily scores
+  Using Moonshot/Kimi API
+  Using Moonshot/Kimi API
+✓ Enriched 2 pundit(s) (LLM/Grokipedia profile + net worth + optional Grok)
+
+============================================================
+STEP: Generate Deep Dives
+============================================================
+Generating Deep Dives for 2 insights...
+
+  Using Moonshot/Kimi API
+[155] Balaji on Why AI Raises the Cost of Verification
+  ✓ Deep Dive stored
+[156] We Were Right. Now What?
+  ✓ Deep Dive stored
+
+✓ Generated 2/2 Deep Dives
+
+✓ Generate Deep Dives completed
+
+============================================================
+STEP: Fetch Prices
+============================================================
+7 (+2.98%)
+  Fetching NINT...     Error fetching NINT: HTTP Error 404: Not Found
+Failed
+  Fetching NOC... $690.50 (-4.74%)
+  Fetching NOW... $100.55 (-11.57%)
+  Fetching NVDA... $178.10 (-1.27%)
+  Fetching Nasdaq... $588.59 (-1.06%)
+  Fetching OKLO... $46.59 (-17.83%)
+  Fetching OPENAI...     Error fetching OPENAI: HTTP Error 404: Not Found
+Failed
+  Fetching PALL... $133.09 (-1.66%)
+  Fetching PLTM... $18.83 (-3.39%)
+  Fetching PLTR... $150.07 (-1.77%)
+  Fetching PQNT... $21.31 (+1.85%)
+  Fetching PQT... $0.00 (+0.00%)
+  Fetching PQUS... $24.38 (-0.28%)
+  Fetching PYPL... $44.87 (+0.63%)
+  Fetching QQQ... $588.59 (-1.06%)
+  Fetching RBLX... $57.50 (-1.32%)
+  Fetching Russell... $252.91 (+2.80%)
+  Fetching S&P... $659.22 (-0.33%)
+  Fetching S&P 500... $659.22 (-0.33%)
+  Fetching SF... $73.60 (+4.92%)
+  Fetching SLV... $65.94 (-4.02%)
+  Fetching SMP-500...     Error fetching SMP-500: HTTP Error 404: Not Found
+Failed
+  Fetching SMR... $9.16 (-23.86%)
+  Fetching SNAP... $4.80 (+3.90%)
+  Fetching SNWGF... $9.80 (-7.89%)
+  Fetching SOYB... $24.28 (+0.40%)
+  Fetching SPACEX...     Error fetching SPACEX: HTTP Error 404: Not Found
+Failed
+  Fetching SPCE... $2.99 (+15.89%)
+  Fetching SPX... $0.00 (+0.00%)
+  Fetching SPY... $659.22 (-0.33%)
+  Fetching SQ... Failed
+  Fetching SQQQ... $75.91 (+0.93%)
+  Fetching Semiconductors... $399.90 (+1.58%)
+  Fetching T... $28.04 (+2.30%)
+  Fetching TDOC... $5.32 (-1.85%)
+  Fetching THROPIC...     Error fetching THROPIC: HTTP Error 404: Not Found
+Failed
+  Fetching TLT... $86.64 (-0.37%)
+  Fetching TSLA... $346.65 (-11.74%)
+  Fetching TSM... $345.32 (+1.69%)
+  Fetching TWTR...     Error fetching TWTR: HTTP Error 404: Not Found
+Failed
+  Fetching UBER... $71.73 (-6.43%)
+  Fetching UNG... $11.55 (-8.84%)
+  Fetching URANIUM...     Error fetching URANIUM: HTTP Error 404: Not Found
+Failed
+  Fetching US 10 year Treasury...     Error fetching US 10 year Treasury: URL can't contain control characters. '/v8/finance/chart/US 
+Failed
+  Fetching US DOLLAR INDEX...     Error fetching US DOLLAR INDEX: URL can't contain control characters. '/v8/finance/chart/US 
+Failed
+  Fetching USDX... $25.70 (+0.09%)
+  Fetching USO... $138.08 (+13.49%)
+  Fetching Uranium...     Error fetching Uranium: HTTP Error 404: Not Found
+Failed
+  Fetching V... $302.55 (+1.18%)
+  Fetching VEEV... $172.52 (-6.25%)
+  Fetching VIX... $25.78 (+7.15%)
+  Fetching WIT... $2.25 (+2.74%)
+  Fetching WMT... $122.49 (+0.42%)
+  Fetching WORK... Failed
+  Fetching WTBN... $25.34 (-0.04%)
+  Fetching WTI... $3.38 (+12.67%)
+  Fetching WTI CRUDE OIL...     Error fetching WTI CRUDE OIL: URL can't contain control characters. '/v8/finance/chart/WTI
+Failed
+  Fetching XAU-USD... $0.00 (+0.00%)
+  Fetching XOM... $163.91 (+4.01%)
+  Fetching ZEC... $0.00 (+0.00%)
+  Fetching ZEN...     Error fetching ZEN: HTTP Error 404: Not Found
+Failed
+  Fetching ZIM... $26.30 (-3.10%)
+
+✓ Saved 98 prices to /Users/jaredsheppard/.openclaw/workspace/site/price_data.json
+Finished: 2026-04-07 22:07:37.638199
+
+✓ Fetch Prices completed
+
+============================================================
+STEP: Generate Charts
+============================================================
+
+STDERR: Traceback (most recent call last):
+  File "/Users/jaredsheppard/.openclaw/workspace/pipeline/generate_charts.py", line 7, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+
+✗ Generate Charts failed
+
+============================================================
+STEP: Auto-Curate Terms
+============================================================

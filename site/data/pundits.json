@@ -73,7 +73,7 @@
     "last_podcast_name": "All-In Podcast",
     "last_episode_date": "2026-03-28",
     "mention_score": 3,
-    "mention_score_decayed": 2.44,
+    "mention_score_decayed": 2.38,
     "last_main_idea": "Investing in AI-driven platforms and technologies is essential for capturing the growth in the global financial system and staying ahead in the AI era.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:40:52.368193",
@@ -192,7 +192,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-28",
     "mention_score": 2,
-    "mention_score_decayed": 1.62,
+    "mention_score_decayed": 1.59,
     "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-28T22:05:42.395070",
@@ -253,7 +253,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-28",
     "mention_score": 2,
-    "mention_score_decayed": 1.62,
+    "mention_score_decayed": 1.59,
     "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-28T22:05:50.938326",
@@ -310,7 +310,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-02-15",
     "mention_score": 2,
-    "mention_score_decayed": 1.62,
+    "mention_score_decayed": 1.59,
     "last_main_idea": "Invest in sectors with fertile ground for short selling, such as AI and tech, and under-allocated areas like junior mining, while combining long and short strategies for potential alpha.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:42:09.376490",
@@ -372,7 +372,7 @@
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-02-18",
     "mention_score": 2,
-    "mention_score_decayed": 1.23,
+    "mention_score_decayed": 1.2,
     "last_main_idea": "Invest in the vertical integration of AI, the rise of India as a global AI hub, and the shift towards agent-based interactions.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-19T21:23:33.038094",
@@ -435,11 +435,70 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-16",
     "mention_score": 2,
-    "mention_score_decayed": 1.23,
+    "mention_score_decayed": 1.2,
     "last_main_idea": "Invest in AI startups that focus on specific niches and use cases, as they can compete effectively against larger AI companies by capitalizing on the gaps between platforms.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
+  },
+  {
+    "id": 159,
+    "name": "Dr. Frenner",
+    "slug": "dr-frenner",
+    "bio": "Dr. Frenner is an expert in artificial intelligence and its implications. He discusses the future of AI and its impact on various fields, emphasizing the importance of understanding AI's role in human-machine synthesis and its limitations in areas such as taste and agency.",
+    "known_for": "His insights on AI's impact on job roles, the balance between AI as a shortcut and its potential drawbacks, and the challenges of verification in an AI-driven world.",
+    "net_worth_usd": 8000000.0,
+    "net_worth_source": "https://wealthrector.com/lex-fridman-net-worth/",
+    "net_worth_updated_at": "2026-04-07T22:05:38.648371",
+    "voice_tone": "Inquisitive and insightful.",
+    "voice_style": "Provides detailed explanations and engages in deep discussions.",
+    "voice_delivery_notes": "Speaks with clarity, breaking down complex ideas into understandable segments.",
+    "voice_profile_updated_at": "2026-04-08 03:04:58",
+    "last_seen": "2026-04-08 03:04:58",
+    "last_episode_title": "Balaji on Why AI Raises the Cost of Verification",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-04-07",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investing in AI infrastructure and applications that can leverage the power of AI while addressing the challenges of verification and privacy.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-07T22:05:37.646780",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Dr. Frenner",
+      "fetched_at": "2026-04-08T03:05:37.646566+00:00",
+      "cliff_notes": "Dr. Frenner has dedicated his career to understanding and discussing the implications of artificial intelligence. His expertise lies in the intersection of AI and its impact on various fields, including job roles and societal structures. He is known for his thought-provoking insights on the balance between AI as a shortcut and its potential drawbacks, emphasizing the importance of understanding AI's limitations in areas such as taste and agency. Dr. Frenner's work is particularly relevant in the context of AI's potential to reshape the job market and the need for humans to adapt to these changes. His contributions to the discourse on AI's future and its impact on society make him a valuable voice in the tech and finance sectors.",
+      "derived": {},
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Dr. Frenner has dedicated his career to understanding and discussing the implications of artificial intelligence. His expertise lies in the intersection of AI and its impact on various fields, including job roles and societal structures. He is known for his thought-provoking insights on the balance between AI as a shortcut and its potential drawbacks, emphasizing the importance of understanding AI's limitations in areas such as taste and agency.",
+        "Dr. Frenner's work is particularly relevant in the context of AI's potential to reshape the job market and the need for humans to adapt to these changes. His contributions to the discourse on AI's future and its impact on society make him a valuable voice in the tech and finance sectors."
+      ],
+      "sections": [
+        {
+          "heading": "AI and Job Roles",
+          "body": "Dr. Frenner discusses the potential for AI to transform job roles, making some obsolete while creating new opportunities. He emphasizes the importance of understanding AI's role in human-machine synthesis and the need for humans to adapt to these changes."
+        },
+        {
+          "heading": "AI as a Shortcut",
+          "body": "Dr. Frenner highlights the benefits and drawbacks of AI as a shortcut, noting that while it can increase efficiency, it can also lead to issues when problems arise that require a more nuanced understanding that AI cannot yet provide."
+        },
+        {
+          "heading": "Verification in an AI-Driven World",
+          "body": "Dr. Frenner discusses the challenges of verification in a world where AI has compressed the cycle of creation and forgery. He draws parallels to historical examples, such as the printing press and photography, to illustrate how the ease of creation has historically led to increased difficulty in verification."
+        },
+        {
+          "heading": "AI's Limitations",
+          "body": "Dr. Frenner emphasizes AI's limitations in areas such as taste and agency, arguing that humans remain the sensor while AI acts as the actuator. He suggests that AI's potential to improve taste and agency is limited in the short term."
+        }
+      ]
+    },
+    "net_worth": "$8.0M"
   },
   {
     "id": 157,
@@ -633,7 +692,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "The disruption in shipping due to geopolitical conflicts presents a unique investment opportunity in shipping stocks, particularly for those with a keen understanding of the market dynamics.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-04T22:03:03.597938",
@@ -983,7 +1042,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Pictay asset management's AI-enhanced ETFs (PQNT and PQUS) aim to provide enhanced equity exposure through the use of artificial intelligence.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-01T22:04:02.778580",
@@ -1040,7 +1099,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Investing in companies that understand complex problems and can leverage AI to gain a competitive advantage in their operations and product development.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-01T15:15:31.311281",
@@ -1082,63 +1141,5 @@
       ]
     },
     "net_worth": "$15.0M"
-  },
-  {
-    "id": 144,
-    "name": "Dara Khosrowshahi",
-    "slug": "dara-khosrowshahi",
-    "bio": "Dara Khosrowshahi is the current CEO of Uber, having previously served as the CEO of Expedia. He is known for leading the turnaround of Uber's financial performance and focusing the company on autonomous technology.",
-    "known_for": "Leading the turnaround of Uber's financial performance and focusing the company on autonomous technology.",
-    "net_worth_usd": 5000000000.0,
-    "net_worth_source": "https://www.wikidata.org/wiki/Q5221979",
-    "net_worth_updated_at": "2026-04-01T05:04:28.531382",
-    "voice_tone": "Confident and optimistic about the future of autonomous vehicles.",
-    "voice_style": "Direct and solution-oriented, emphasizing the importance of strategic focus and hard work.",
-    "voice_delivery_notes": "Paced with emphasis on key points regarding the future of transportation and the role of technology.",
-    "voice_profile_updated_at": "2026-04-01 10:03:46",
-    "last_seen": "2026-04-01 10:03:46",
-    "last_episode_title": "Uber CEO on Winning the Robotaxi Race, the End of Car Ownership, and Uber\u2019s Next $1 Trillion Bet | Dara Khosrowshahi (Uber CEO) | 243",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-03-31",
-    "mention_score": 1,
-    "mention_score_decayed": 0.87,
-    "last_main_idea": "Investment in autonomous vehicle technology is poised to disrupt urban mobility and logistics, with companies like Uber positioned to capitalize on this shift.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-01T05:04:28.065974",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Dara Khosrowshahi",
-      "fetched_at": "2026-04-01T10:04:28.065490+00:00",
-      "cliff_notes": "Dara Khosrowshahi has had a significant impact on the tech industry through his leadership roles in major companies. As the CEO of Expedia, he led the company through a period of growth and expansion. His tenure at Uber has been marked by a focus on financial stability and the development of autonomous vehicle technology. Khosrowshahi's leadership has been pivotal in shaping the future of transportation and the tech industry, as he navigates the complexities of integrating autonomous vehicles into urban landscapes.",
-      "derived": {
-        "current_role": "CEO of Uber",
-        "former_positions": "CEO of Expedia"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Dara Khosrowshahi has had a significant impact on the tech industry through his leadership roles in major companies. As the CEO of Expedia, he led the company through a period of growth and expansion. His tenure at Uber has been marked by a focus on financial stability and the development of autonomous vehicle technology.",
-        "Khosrowshahi's leadership has been pivotal in shaping the future of transportation and the tech industry, as he navigates the complexities of integrating autonomous vehicles into urban landscapes."
-      ],
-      "sections": [
-        {
-          "heading": "Uber's Financial Turnaround",
-          "body": "Dara Khosrowshahi is credited with turning around Uber's financial performance, moving the company from significant losses to substantial earnings."
-        },
-        {
-          "heading": "Focus on Autonomous Technology",
-          "body": "Under Khosrowshahi's leadership, Uber has made significant strides in the development and deployment of autonomous vehicle technology, positioning the company as a key player in the future of transportation."
-        },
-        {
-          "heading": "Leadership in the Tech Industry",
-          "body": "Khosrowshahi's experience and leadership in the tech industry have made him a prominent figure, with his decisions and strategies closely watched by investors and tech enthusiasts alike."
-        }
-      ]
-    },
-    "net_worth": "$5.00B"
   }
 ]

@@ -1,24 +1,38 @@
 {
-  "timestamp": "2026-04-07T05:04:23.382652",
+  "timestamp": "2026-04-07T22:03:41.402458",
   "results": [
     {
-      "podcast": "The a16z Show",
-      "title": "Balaji on Why AI Raises the Cost of Verification",
-      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_20260407_75e53232_5a14_46f7_bf87_3d3a4857.mp3",
+      "podcast": "Moonshots with Peter Diamandis",
+      "title": "How AI Is Bringing Extinct Animals Back (And What Comes Next) | Ben Lamm (Colossal) | EP #245",
+      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/DVVTS9544942486.mp3",
       "transcript_path": null,
       "success": false
     },
     {
-      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "title": "The Companies Changing Warfare Forever: Palantir & Anduril Execs on Drones, AI & the Future of War",
-      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/ALLIN-INTV_Palantir_Anduril.mp3",
-      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/ALLIN-INTV_Palantir_Anduril.txt",
+      "podcast": "Monetary Matters with Jack Farley",
+      "title": "Why Emerging Markets are Finally Outperforming Developed Markets | Robert Koenigsberger | Gramercy",
+      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/EWWMN7690139017.mp3",
+      "transcript_path": null,
+      "success": false
+    },
+    {
+      "podcast": "The a16z Show",
+      "title": "Balaji on Why AI Raises the Cost of Verification",
+      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_20260407_75e53232_5a14_46f7_bf87_3d3a4857.mp3",
+      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/the_a16z_show_20260407_75e53232_5a14_46f7_bf87_3d3a4857.txt",
       "success": true
     },
     {
       "podcast": "The Jack Mallers Show",
       "title": "We Were Right. Now What?",
       "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-3-7%2F421565584-44100-2-f380694d360f6.mp3",
+      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-3-7%2F421565584-44100-2-f380694d360f6.txt",
+      "success": true
+    },
+    {
+      "podcast": "Dwarkesh Podcast",
+      "title": "Michael Nielsen \u2013 How science actually progresses",
+      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/e5343bce6cf37efafa778abc5594aa67.mp3",
       "transcript_path": null,
       "success": false
     }

@@ -1,8 +1,34 @@
 {
-  "timestamp": "2026-04-07T05:04:15.713099",
-  "total_feed_episodes": 3,
-  "approved_for_transcription": 3,
+  "timestamp": "2026-04-07T22:03:19.622839",
+  "total_feed_episodes": 5,
+  "approved_for_transcription": 5,
   "episodes": [
+    {
+      "podcast": "Moonshots with Peter Diamandis",
+      "title": "How AI Is Bringing Extinct Animals Back (And What Comes Next) | Ben Lamm (Colossal) | EP #245",
+      "description": "\n        <p>This episode was filmed at the 2026 Abundance360 Summit. Learn more at <a href=\"https://www.abundance360.com/\"><u>https://www.abundance360.com/</u></a>\u00a0</p>\n<p><br></p>\n<p>This interview explores the groundbreaking work of Colossal in synthetic biology, de-extinction, and AI integration. Colossal CEO Ben Lamm explains how the company is revolutionizing biodiversity preservation, tackling plastic pollution, and creating living products with immense potential.</p>\n<p><br></p>\n<p>Get ac",
+      "audio_url": "https://traffic.megaphone.fm/DVVTS9544942486.mp3",
+      "published": "Tue, 07 Apr 2026 15:37:00 -0000",
+      "published_date": "2026-04-07",
+      "rss_guid": "79836e1e-31fc-11f1-bc68-838bb220a05a",
+      "status": "APPROVED",
+      "matched_keywords": [],
+      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/moonshots_with_peter_diamandis_how_ai_is_bringing_extinct_animals_back__and_what_comes_next_3aec0047.mp3",
+      "filename": "moonshots_with_peter_diamandis_how_ai_is_bringing_extinct_animals_back__and_what_comes_next_3aec0047.mp3"
+    },
+    {
+      "podcast": "Monetary Matters with Jack Farley",
+      "title": "Why Emerging Markets are Finally Outperforming Developed Markets | Robert Koenigsberger | Gramercy",
+      "description": "\n        <p>This episode is sponsored by Pictet Asset Management and its AI-enhanced equity ETFs. Pictet AI Enhanced US Equity ETF (PQUS):\u00a0\u00a0</p>\n<p><br></p>\n<p><a href=\"https://etf.am.pictet.com/pqus/?utm_campaign=usetf&amp;cid=2826077237&amp;utm_source=jfmv&amp;utm_content=pquslp&amp;utm_medium=podcast_02&amp;utm_term=noterm\"><u>https://etf.am.pictet.com/pqus/?utm_campaign=usetf&amp;cid=2826077237&amp;utm_source=jfmv&amp;utm_content=pquslp&amp;utm_medium=podcast_02&amp;utm_term=noterm</u></a></",
+      "audio_url": "https://traffic.megaphone.fm/EWWMN7690139017.mp3",
+      "published": "Tue, 07 Apr 2026 13:00:00 -0000",
+      "published_date": "2026-04-07",
+      "rss_guid": "f81e4d34-3260-11f1-be6a-375a352ad0b8",
+      "status": "APPROVED",
+      "matched_keywords": [],
+      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/monetary_matters_with_jack_farley_why_emerging_markets_are_finally_outperforming_developed_mar_b58ab2b6.mp3",
+      "filename": "monetary_matters_with_jack_farley_why_emerging_markets_are_finally_outperforming_developed_mar_b58ab2b6.mp3"
+    },
     {
       "podcast": "The a16z Show",
       "title": "Balaji on Why AI Raises the Cost of Verification",
@@ -17,30 +43,30 @@
       "filename": "the_a16z_show_balaji_on_why_ai_raises_the_cost_of_verification_b2cfa99d.mp3"
     },
     {
-      "podcast": "The a16z Show",
-      "title": "Peter Yang on Small Teams, Coding Agents, and Why Human Ambition Has No Ceiling",
-      "description": "<p>Anish Acharya speaks with Peter Yang, creator and product lead at Roblox, about how personal AI agents are replacing the apps we open every day, why coding agents feel like slot machines, and what happens when the cost of building software drops to near zero. They discuss why future companies will stay radically small, how the IDE is becoming a thinking tool rather than a making tool, and why human ambition will always create more jobs than AI eliminates.</p>\n<p>Follow Peter Yang on X: <a hre",
-      "audio_url": "https://mgln.ai/e/1344/afp-848985-injected.calisto.simplecastaudio.com/3f86df7b-51c6-4101-88a2-550dba782de8/episodes/cfbbfafd-5701-40cb-9c79-2a8c04fe77ec/audio/128/default.mp3?aid=rss_feed&awCollectionId=3f86df7b-51c6-4101-88a2-550dba782de8&awEpisodeId=cfbbfafd-5701-40cb-9c79-2a8c04fe77ec&feed=JGE3yC0V",
-      "published": "Mon, 6 Apr 2026 15:45:00 +0000",
-      "published_date": "2026-04-06",
-      "rss_guid": "6d5897df-44c5-4ca1-a6d3-a38c9c6e6977",
-      "status": "APPROVED",
-      "matched_keywords": [],
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_peter_yang_on_small_teams__coding_agents__and_why_human_ambi_ffdc8d1b.mp3",
-      "filename": "the_a16z_show_peter_yang_on_small_teams__coding_agents__and_why_human_ambi_ffdc8d1b.mp3"
-    },
-    {
-      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "title": "The Companies Changing Warfare Forever: Palantir & Anduril Execs on Drones, AI & the Future of War",
-      "description": "<p>(0:00) Friedberg Intros Palantir's Shyam Sankar and Anduril's Trae Stephens</p> <p>(0:56) Palantir Origins: CIA Analyst Joins 20-Person Startup</p> <p>(2:54) War, Deterrence & Silicon Valley's Defense Tech Taboo</p> <p>(8:39) US vs China: Drone Gap, Shipbuilding & 2027 Taiwan Threat</p> <p>(12:27) Anduril's Arsenal-1 Factory & Fixing US Munitions Supply Chain</p> <p>(41:48) Autonomous Weapons, AI Decision-Making & Future of War</p> <p>(47:15) Anthropic vs Pentagon: Ethics of AI in Combat</p> ",
-      "audio_url": "https://dts.podtrac.com/redirect.mp3/traffic.libsyn.com/secure/allinchamathjason/ALLIN-INTV_Palantir_Anduril.mp3?dest-id=1928300",
-      "published": "Mon, 06 Apr 2026 12:51:00 +0000",
-      "published_date": "2026-04-06",
-      "rss_guid": "65648533-c855-4cfd-92ae-300eebbf0163",
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/ALLIN-INTV_Palantir_Anduril.mp3",
-      "filename": "ALLIN-INTV_Palantir_Anduril.mp3",
+      "podcast": "The Jack Mallers Show",
+      "title": "We Were Right. Now What?",
+      "description": "<p>Streaming live Mondays at 6pm ET on The Jack Mallers Show YouTube channel.</p>\n",
+      "audio_url": "https://anchor.fm/s/e29097f4/podcast/play/118076368/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-3-7%2F421565584-44100-2-f380694d360f6.mp3",
+      "published": "Tue, 07 Apr 2026 07:56:03 GMT",
+      "published_date": "2026-04-07",
+      "rss_guid": "4adbec00-4c18-4ac7-83a5-a1b7edced925",
+      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-3-7%2F421565584-44100-2-f380694d360f6.mp3",
+      "filename": "https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-3-7%2F421565584-44100-2-f380694d360f6.mp3",
       "status": "APPROVED",
       "matched_keywords": []
+    },
+    {
+      "podcast": "Dwarkesh Podcast",
+      "title": "Michael Nielsen \u2013 How science actually progresses",
+      "description": "<p>Really enjoyed chatting with Michael Nielsen about how we recognize scientific progress.</p><p>It's especially relevant for closing the RL verification loop for scientific discovery.</p><p>But it's also a surprisingly mysterious and elusive question when you look at the history of human science.</p><p>We approach this question stories like Einstein (who claimed that he hadn't even heard of the famous Michelson-Morley experiment, which is supposed to have motivated special relativity, until af",
+      "audio_url": "https://api.substack.com/feed/podcast/193466212/e5343bce6cf37efafa778abc5594aa67.mp3",
+      "published": "Tue, 07 Apr 2026 15:49:28 GMT",
+      "published_date": "2026-04-07",
+      "rss_guid": "substack:post:193466212",
+      "status": "APPROVED",
+      "matched_keywords": [],
+      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/dwarkesh_podcast_michael_nielsen___how_science_actually_progresses_852a5990.mp3",
+      "filename": "dwarkesh_podcast_michael_nielsen___how_science_actually_progresses_852a5990.mp3"
     }
   ]
 }

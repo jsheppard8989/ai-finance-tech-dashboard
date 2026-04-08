@@ -3,7 +3,7 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-04-07T05:07:53.147648",
+  generatedAt: "2026-04-07T22:07:48.829722",
   chartsVersion: "2026-04-01T15:16:59.801570",
   tickerScores: [
   {
@@ -760,6 +760,51 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 155,
+      "title": "Balaji on Why AI Raises the Cost of Verification",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-04-07",
+      "summary": "The podcast episode from 'The a16z Show' discusses the future of AI and its potential impact on the economy and society. The conversation covers the role of AI in job displacement, the importance of understanding AI's limitations, and the implications of AI's ability to synthesize information. The guests also explore the potential distribution of value in the AI economy, comparing it to the internet and cloud economies, and discuss the challenges of verifying AI-generated content. The episode also touches on the future of private programmable AI and its applications in fields like biology and mathematics.",
+      "key_takeaway": "Investing in AI infrastructure and applications that can leverage the power of AI while addressing the challenges of verification and privacy.",
+      "tickers_mentioned": [
+        "AAPL",
+        "NVDA",
+        "GOOGL",
+        "MSFT",
+        "TSLA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-07",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 141
+    },
+    {
+      "id": 156,
+      "title": "We Were Right. Now What?",
+      "source_type": "podcast",
+      "source_name": "The Jack Mallers Show",
+      "source_date": "2026-04-07",
+      "summary": "In this episode of The Jack Mallers Show, Jack Mallers discusses the current state of financial markets, focusing on Bitcoin's price and market cap, the geopolitical situation, and the implications of the ongoing conflict on the economy. He touches on topics like stagflation, global crisis, and the impact of fiat monetary policy on food quality and health. Jack also shares his personal dietary choices and their connection to his views on the current economic system, advocating for personal responsibility and self-reliance in the face of global challenges.",
+      "key_takeaway": "The investment thesis revolves around the belief in personal responsibility and self-reliance in the face of economic and health challenges, with a particular focus on Bitcoin as a hedge against fiat currency debasement.",
+      "tickers_mentioned": [
+        "AAPL",
+        "NVDA",
+        "SPY",
+        "TSLA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-07",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 140
+    },
+    {
       "id": 153,
       "title": "The Companies Changing Warfare Forever: Palantir & Anduril Execs on Drones, AI & the Future of War",
       "source_type": "podcast",
@@ -879,11 +924,11 @@ const dashboardData = {
         "MSFT"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-04-03",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-04-08",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 134
     },
     {
@@ -898,11 +943,11 @@ const dashboardData = {
         "BYD"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-04-03",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-04-08",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 133
     },
     {
@@ -3679,6 +3724,46 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 155,
+      "title": "Balaji on Why AI Raises the Cost of Verification",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-04-07",
+      "summary": "The podcast episode from 'The a16z Show' discusses the future of AI and its potential impact on the economy and society. The conversation covers the role of AI in job displacement, the importance of understanding AI's limitations, and the implications of AI's ability to synthesize information. The guests also explore the potential distribution of value in the AI economy, comparing it to the internet and cloud economies, and discuss the challenges of verifying AI-generated content. The episode also touches on the future of private programmable AI and its applications in fields like biology and mathematics.",
+      "key_takeaway": "Investing in AI infrastructure and applications that can leverage the power of AI while addressing the challenges of verification and privacy.",
+      "tickers_mentioned": "[\"AAPL\", \"NVDA\", \"GOOGL\", \"MSFT\", \"TSLA\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-07",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 141,
+      "episode_release_date": "2026-04-07",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
+      "id": 156,
+      "title": "We Were Right. Now What?",
+      "source_type": "podcast",
+      "source_name": "The Jack Mallers Show",
+      "source_date": "2026-04-07",
+      "summary": "In this episode of The Jack Mallers Show, Jack Mallers discusses the current state of financial markets, focusing on Bitcoin's price and market cap, the geopolitical situation, and the implications of the ongoing conflict on the economy. He touches on topics like stagflation, global crisis, and the impact of fiat monetary policy on food quality and health. Jack also shares his personal dietary choices and their connection to his views on the current economic system, advocating for personal responsibility and self-reliance in the face of global challenges.",
+      "key_takeaway": "The investment thesis revolves around the belief in personal responsibility and self-reliance in the face of economic and health challenges, with a particular focus on Bitcoin as a hedge against fiat currency debasement.",
+      "tickers_mentioned": "[\"AAPL\", \"NVDA\", \"SPY\", \"TSLA\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-07",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 140,
+      "episode_release_date": "2026-04-07",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 153,
       "title": "The Companies Changing Warfare Forever: Palantir & Anduril Execs on Drones, AI & the Future of War",
       "source_type": "podcast",
@@ -3784,48 +3869,6 @@ const dashboardData = {
       "episode_release_date": "2026-04-03",
       "guest_name": null,
       "key_tickers": []
-    },
-    {
-      "id": 147,
-      "title": "Alex Blania on Proof of Human and Building World's Identity Network",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-04-02",
-      "summary": "This podcast discusses the increasing importance of 'Proof of Human' in the digital age, where AI-generated content and bots are becoming indistinguishable from human interactions. The conversation explores the challenges faced by social media platforms in verifying human users and the implications for content monetization, user authentication, and the broader creator economy. The guests emphasize the need for new solutions to ensure that online interactions are genuinely human, and discuss the potential for AI to surpass human capabilities in persuasion and content creation.",
-      "key_takeaway": "Investing in technologies that can verify human interactions online is becoming critical as AI-generated content proliferates, posing both challenges and opportunities for social media platforms and the broader digital economy.",
-      "tickers_mentioned": "[\"AAPL\", \"NVDA\", \"GOOGL\", \"META\", \"MSFT\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-04-03",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 134,
-      "episode_release_date": "2026-04-02",
-      "guest_name": null,
-      "key_tickers": []
-    },
-    {
-      "id": 148,
-      "title": "Uber\u2019s Robotaxi Playbook, the End of Human Driving & $10B Bet on Robots | Dara Khosrowshahi (Uber CEO) | EP #244",
-      "source_type": "podcast",
-      "source_name": "Moonshots with Peter Diamandis",
-      "source_date": "2026-04-02",
-      "summary": "In this episode of Moonshots with Peter Diamandis, the discussion revolves around the future of autonomous vehicles (AVs) and their impact on society, regulation, and the economy. The conversation touches on the safety of AVs compared to human drivers, the potential decline in the need for traditional driving licenses, and the societal adjustments required to accommodate this new technology. Additionally, the episode explores the challenges of convincing regulators and passengers to adopt AVs, the future of race car driving, and the insurance implications of autonomous vehicles.",
-      "key_takeaway": "Investment in autonomous vehicle technology and related industries is poised for growth as the technology advances and adoption increases.",
-      "tickers_mentioned": "[\"BYD\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-04-03",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 133,
-      "episode_release_date": "2026-04-02",
-      "guest_name": null,
-      "key_tickers": [
-        "BYD"
-      ]
     },
     {
       "id": 149,
@@ -12676,61 +12719,197 @@ const dashboardData = {
     "key_tickers": [
       "RBLX"
     ]
+  },
+  "155": {
+    "id": 146,
+    "insight_id": 155,
+    "podcast_episode_id": 141,
+    "overview": "The investment thesis revolves around the transformative impact of AI on the economy, particularly how it compresses the cycle of creation and verification, leading to a fragmented world of trusted groups. As AI makes creation cheaper, verification becomes more expensive, necessitating a reevaluation of investment strategies. This matters now because the AI economy is evolving rapidly, with implications for various sectors, including tech, cloud computing, and cybersecurity. Understanding the shift towards distillation and decentralization is crucial for investors to capitalize on the opportunities and mitigate the risks associated with this new paradigm.",
+    "key_takeaways_detailed": [
+      "AI's compression of the creation cycle necessitates increased investment in verification processes and technologies.",
+      "The rise of AI will lead to a more fragmented internet, with trusted groups forming around verified information and productivity.",
+      "Investors should focus on companies that are at the forefront of AI development and have the infrastructure to capitalize on distillation and decentralization.",
+      "The cost of verification is increasing, which could lead to new business models and opportunities in cybersecurity and data validation.",
+      "Personal private programmable AI within trusted tribes will increase productivity, while outside, spam and low-quality content will proliferate."
+    ],
+    "investment_thesis": "The core investment logic is that the AI economy will be characterized by a shift towards distillation and decentralization, with a focus on trusted groups and verification. Catalysts for this thesis include advancements in AI technology, the increasing cost of verification, and the formation of trusted groups around verified information. The timeframe for this thesis is medium to long-term, as the full impact of AI on the economy and society will take time to materialize.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's significant investment in AI and its control over a vast ecosystem of devices and services positions it to benefit from the AI economy, particularly in distillation and decentralization.",
+        "positioning": "Long-term strategic position, as Apple's ecosystem can leverage AI to enhance user experience and security.",
+        "risk": "Regulatory challenges and potential backlash against data privacy concerns could hinder Apple's AI ambitions."
+      },
+      "NVDA": {
+        "rationale": "Nvidia's leadership in GPU technology, which is crucial for AI development, makes it a key player in the AI economy.",
+        "positioning": "Strategic long position, as Nvidia's technology is fundamental to AI advancements.",
+        "risk": "High competition in the AI chip market and potential disruptions in global supply chains could affect Nvidia's performance."
+      },
+      "GOOGL": {
+        "rationale": "Google's extensive AI research and cloud computing services give it a strong position in the AI economy, particularly in creating and managing trusted groups.",
+        "positioning": "Medium to long-term strategic position, as Google's cloud services and AI capabilities are integral to the future of verification and trusted groups.",
+        "risk": "Regulatory scrutiny over data privacy and potential antitrust actions could impact Google's operations."
+      },
+      "MSFT": {
+        "rationale": "Microsoft's cloud computing platform Azure and AI investments position it to benefit from the increased demand for verification and trusted group formation.",
+        "positioning": "Medium-term tactical position, as Microsoft can leverage its cloud services to provide verification solutions.",
+        "risk": "Increased competition in the cloud computing market and potential disruptions due to global economic uncertainties."
+      },
+      "TSLA": {
+        "rationale": "Tesla's use of AI in autonomous driving technology and its focus on innovation could position it to benefit from the AI economy, particularly in the verification of AI-generated content.",
+        "positioning": "Long-term strategic position, as Tesla's technology is at the forefront of AI applications in the automotive industry.",
+        "risk": "Regulatory hurdles and technological challenges in achieving full autonomy could affect Tesla's growth."
+      }
+    },
+    "positioning_guidance": "Investors should consider a diversified approach, with a mix of long-term strategic positions in companies leading in AI development and technology, and medium-term tactical positions in companies providing verification and security solutions. Entry points should be based on market conditions and company-specific catalysts. Investors should also consider hedging against potential regulatory and technological risks.",
+    "risk_factors": [
+      "Regulatory actions that could limit the use of AI or impose strict data privacy rules.",
+      "Technological disruptions or failures that could undermine trust in AI-generated content.",
+      "Economic downturns that could reduce investment in AI research and development.",
+      "Increased competition that could erode the market share of leading AI companies.",
+      "Cybersecurity threats that could exploit vulnerabilities in AI systems."
+    ],
+    "contrarian_signals": [
+      "The potential for AI to create more jobs in verification and security, countering the narrative of job displacement.",
+      "The possibility that AI advancements could lead to new business models that are not yet fully understood or anticipated.",
+      "The underestimation of the human element in the AI economy, where human judgment and creativity remain irreplaceable."
+    ],
+    "catalysts": [
+      "Upcoming AI conferences and events that could showcase new advancements and drive investment.",
+      "Regulatory decisions that could impact the use and development of AI technologies.",
+      "Earnings reports from tech companies that could indicate the success of their AI initiatives.",
+      "New product launches or partnerships that could leverage AI to create new market opportunities.",
+      "Publications of research papers or studies that could influence the direction of AI development and investment."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-04-07T22:06:34.479393",
+    "updated_at": "2026-04-08 03:06:34",
+    "insight_title": "Balaji on Why AI Raises the Cost of Verification",
+    "source_name": "The a16z Show",
+    "source_date": "2026-04-07",
+    "key_tickers": []
+  },
+  "156": {
+    "id": 147,
+    "insight_id": 156,
+    "podcast_episode_id": 140,
+    "overview": "In this episode of The Jack Malers Show, the host discusses the geopolitical and economic implications of the ongoing conflict in the Middle East, particularly focusing on the Strait of Hormuz and its impact on oil prices and global markets. The investment thesis revolves around the potential for stagflation, global economic collapse, and the strategic importance of Bitcoin as a hedge against traditional financial systems. This analysis is timely given the current market volatility and the increasing relevance of cryptocurrencies in the global economic landscape.",
+    "key_takeaways_detailed": [
+      "The Strait of Hormuz conflict highlights the fragility of the US petrodollar system and the potential for economic retaliation through oil prices.",
+      "Bitcoin's market cap has reached an all-time high, indicating a growing interest in cryptocurrencies as a store of value and a hedge against traditional financial risks.",
+      "Iran's control over the Strait of Hormuz and its ability to influence oil prices poses a significant risk to the global economy and could lead to stagflation.",
+      "The US's indebtedness and fiscal deficits make it vulnerable to economic warfare, which could exacerbate existing market volatility.",
+      "Investors should consider diversifying their portfolios to include assets that are less correlated with traditional financial systems, such as Bitcoin and other cryptocurrencies."
+    ],
+    "investment_thesis": "The core investment logic is that the ongoing conflict in the Middle East, particularly the situation in the Strait of Hormuz, poses a significant risk to the global economy and financial markets. This risk is exacerbated by the US's fiscal vulnerabilities and the potential for Iran to use oil prices as a weapon. The catalysts for this thesis include the ongoing geopolitical tensions, the strategic importance of the Strait of Hormuz, and the increasing relevance of cryptocurrencies as a hedge against traditional financial risks. The timeframe for this thesis is medium to long-term, as the resolution of the conflict and the impact on global markets are likely to play out over several months to years.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple is a global technology leader with significant exposure to international markets, making it vulnerable to geopolitical risks and economic downturns.",
+        "positioning": "Consider a tactical short position on AAPL as a way to hedge against the potential negative impact of the Strait of Hormuz conflict on global markets.",
+        "risk": "Key risks include a resolution of the conflict that stabilizes oil prices and a stronger-than-expected global economic recovery."
+      },
+      "NVDA": {
+        "rationale": "Nvidia is a leading technology company with exposure to the cryptocurrency mining industry, which could benefit from the increasing relevance of cryptocurrencies as a hedge against traditional financial risks.",
+        "positioning": "Consider a strategic long position on NVDA as a way to gain exposure to the growing cryptocurrency market and the potential for increased demand for cryptocurrency mining hardware.",
+        "risk": "Key risks include regulatory crackdowns on cryptocurrency mining and a slowdown in the growth of the cryptocurrency market."
+      },
+      "SPY": {
+        "rationale": "The S&P 500 ETF (SPY) provides broad exposure to the US stock market, making it a useful tool for hedging against the potential negative impact of the Strait of Hormuz conflict on global markets.",
+        "positioning": "Consider a tactical short position on SPY as a way to hedge against the potential negative impact of the conflict on the US stock market.",
+        "risk": "Key risks include a resolution of the conflict that stabilizes oil prices and a stronger-than-expected US economic recovery."
+      },
+      "TSLA": {
+        "rationale": "Tesla is a leading electric vehicle manufacturer that could benefit from the increasing relevance of alternative energy sources as a result of the Strait of Hormuz conflict and the potential for higher oil prices.",
+        "positioning": "Consider a strategic long position on TSLA as a way to gain exposure to the growing electric vehicle market and the potential for increased demand for alternative energy sources.",
+        "risk": "Key risks include a resolution of the conflict that stabilizes oil prices and a slowdown in the growth of the electric vehicle market."
+      }
+    },
+    "positioning_guidance": "Investors should consider diversifying their portfolios to include a mix of tactical and strategic positions in assets that are less correlated with traditional financial systems, such as cryptocurrencies and technology companies with exposure to the cryptocurrency market. Sizing should be based on individual risk tolerance and investment objectives, with a focus on maintaining a balanced and well-diversified portfolio. Entry points should be based on market conditions and the evolving geopolitical situation, with a focus on capitalizing on short-term market volatility and long-term trends. Timeframes should be medium to long-term, as the resolution of the conflict and the impact on global markets are likely to play out over several months to years. Hedges should be used to protect against potential downside risk, such as short positions in broad market indices and long positions in assets with exposure to alternative energy sources.",
+    "risk_factors": [
+      "A resolution of the Strait of Hormuz conflict that stabilizes oil prices and reduces the risk of economic retaliation.",
+      "A stronger-than-expected global economic recovery that reduces the appeal of cryptocurrencies as a hedge against traditional financial risks.",
+      "Regulatory crackdowns on cryptocurrency mining and trading that slow the growth of the cryptocurrency market.",
+      "A slowdown in the growth of the electric vehicle market that reduces demand for alternative energy sources."
+    ],
+    "contrarian_signals": [
+      "The potential for a resolution of the Strait of Hormuz conflict that stabilizes oil prices and reduces the risk of economic retaliation.",
+      "The possibility of a stronger-than-expected global economic recovery that reduces the appeal of cryptocurrencies as a hedge against traditional financial risks.",
+      "The potential for regulatory crackdowns on cryptocurrency mining and trading that slow the growth of the cryptocurrency market."
+    ],
+    "catalysts": [
+      "The ongoing geopolitical tensions and the potential for further escalation in the Strait of Hormuz conflict.",
+      "The increasing relevance of cryptocurrencies as a hedge against traditional financial risks and the potential for increased demand for cryptocurrency mining hardware.",
+      "The potential for a resolution of the Strait of Hormuz conflict that stabilizes oil prices and reduces the risk of economic retaliation.",
+      "The potential for regulatory changes that impact the cryptocurrency market and the growth of the electric vehicle industry.",
+      "Economic indicators and market trends that signal the potential for a global economic recovery or downturn."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-04-07T22:07:09.399259",
+    "updated_at": "2026-04-08 03:07:09",
+    "insight_title": "We Were Right. Now What?",
+    "source_name": "The Jack Mallers Show",
+    "source_date": "2026-04-07",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
   {
-    "id": 151,
-    "term": "Decision Advantage",
-    "definition": "The concept of outthinking and out-executing adversaries in warfare through technology and strategy.",
-    "investment_implications": "Investors should consider companies that provide decision advantage technologies to military and defense sectors.",
+    "id": 154,
+    "term": "Human-Machine Synthesis",
+    "definition": "The concept where humans act as sensors and AI as actuators, creating a collaborative relationship.",
+    "investment_implications": "Invest in companies that facilitate this synthesis to enhance productivity and innovation.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-04-07 10:05:21",
+    "submitted_date": "2026-04-08 03:04:58",
     "priority_score": 80
   },
   {
-    "id": 152,
-    "term": "Reindustrialization",
-    "definition": "The process of rebuilding and revitalizing a nation's industrial base to ensure economic prosperity and self-sufficiency.",
-    "investment_implications": "Investors should look for opportunities in companies that contribute to the reindustrialization of America and the West.",
+    "id": 155,
+    "term": "Distillation",
+    "definition": "The process of reducing a large AI model into a smaller, more manageable one through API queries.",
+    "investment_implications": "Look for opportunities in technologies that enable efficient distillation to democratize AI capabilities.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-04-07 10:05:21",
+    "submitted_date": "2026-04-08 03:04:58",
     "priority_score": 80
   },
   {
-    "id": 150,
-    "term": "Coding Agents",
-    "definition": "Software tools that can automate coding tasks, potentially revolutionizing the way software is developed and maintained.",
-    "investment_implications": "Investors should consider companies that are at the forefront of developing and utilizing coding agents for potential productivity gains and competitive advantages.",
+    "id": 156,
+    "term": "Private Programmable AI",
+    "definition": "AI systems that can be customized and used within trusted groups for privacy and security.",
+    "investment_implications": "Invest in platforms that offer private, customizable AI solutions to cater to the growing demand for secure AI applications.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-04-07 10:05:00",
+    "submitted_date": "2026-04-08 03:04:58",
     "priority_score": 80
   },
   {
-    "id": 148,
-    "term": "Choke Point",
-    "definition": "A narrow passage or point that can control the flow of goods or resources, such as the Strait of Hormuz which is crucial for oil and commodity trade.",
-    "investment_implications": "Investors should monitor geopolitical events affecting choke points for potential market disruptions and investment opportunities.",
+    "id": 153,
+    "term": "Carnivore Diet",
+    "definition": "A dietary approach that primarily or exclusively includes animal products, often based on the belief that it avoids processed and unhealthy foods.",
+    "investment_implications": "Investors interested in health and wellness trends may consider the impact of dietary choices on the food industry and related sectors.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-04-05 03:02:52",
+    "submitted_date": "2026-04-08 03:04:02",
     "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 1605,
+    "id": 1624,
     "name": "Why $200 Oil Won\u2019t Spike Inflation to 9%",
     "slug": "why-200-oil-wont-spike-inflation-to-9",
     "bio": null,
@@ -12742,7 +12921,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1606,
+    "id": 1625,
     "name": "This special episode",
     "slug": "this-special-episode",
     "bio": null,
@@ -12754,7 +12933,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1607,
+    "id": 1626,
     "name": "Lupin Ramon",
     "slug": "lupin-ramon",
     "bio": null,
@@ -12766,7 +12945,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1608,
+    "id": 1627,
     "name": "When the Music Stops",
     "slug": "when-the-music-stops",
     "bio": null,
@@ -12778,7 +12957,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1609,
+    "id": 1628,
     "name": "Ground Infrastructure",
     "slug": "ground-infrastructure",
     "bio": null,
@@ -12790,7 +12969,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1610,
+    "id": 1629,
     "name": "Rory Johnston",
     "slug": "rory-johnston",
     "bio": null,
@@ -12802,7 +12981,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1611,
+    "id": 1630,
     "name": "Senator John Fetterman on Voting Rights",
     "slug": "senator-john-fetterman-on-voting-rights",
     "bio": null,
@@ -12814,7 +12993,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1612,
+    "id": 1631,
     "name": "Stock Market on Shaky Foundations",
     "slug": "stock-market-on-shaky-foundations",
     "bio": null,
@@ -12826,7 +13005,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1613,
+    "id": 1632,
     "name": "Elon Musk on Moonshots",
     "slug": "elon-musk-on-moonshots",
     "bio": null,
@@ -12838,7 +13017,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1614,
+    "id": 1633,
     "name": "Investing in Capitalism",
     "slug": "investing-in-capitalism",
     "bio": null,
@@ -12850,7 +13029,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1615,
+    "id": 1634,
     "name": "Harvard Professor Graham Allison",
     "slug": "harvard-professor-graham-allison",
     "bio": null,
@@ -12862,7 +13041,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1616,
+    "id": 1635,
     "name": "Andrew Yang",
     "slug": "andrew-yang",
     "bio": "Andrew Yang is an entrepreneur and political leader who popularized universal basic income in U.S. politics through his 2020 presidential campaign.",
@@ -12874,7 +13053,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1617,
+    "id": 1636,
     "name": "Inventing the Renaissance",
     "slug": "inventing-the-renaissance",
     "bio": null,
@@ -12886,7 +13065,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1618,
+    "id": 1637,
     "name": "Ray Dalio",
     "slug": "ray-dalio",
     "bio": "Ray Dalio is the founder of Bridgewater Associates and a macro investor known for his 'Principles' framework and work on long-term debt cycles.",
@@ -12898,7 +13077,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1619,
+    "id": 1638,
     "name": "Nobel Prize-winning economist Paul Krugman",
     "slug": "nobel-prize-winning-economist-paul-krugman",
     "bio": null,
@@ -12910,7 +13089,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1620,
+    "id": 1639,
     "name": "host Jack Mallers",
     "slug": "host-jack-mallers",
     "bio": null,
@@ -12922,7 +13101,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1621,
+    "id": 1640,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -12934,7 +13113,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1622,
+    "id": 1641,
     "name": "Bosworth",
     "slug": "bosworth",
     "bio": null,
@@ -12946,7 +13125,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1623,
+    "id": 1642,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -13033,7 +13212,7 @@ const dashboardData = {
     "last_podcast_name": "All-In Podcast",
     "last_episode_date": "2026-03-28",
     "mention_score": 3,
-    "mention_score_decayed": 2.44,
+    "mention_score_decayed": 2.38,
     "last_main_idea": "Investing in AI-driven platforms and technologies is essential for capturing the growth in the global financial system and staying ahead in the AI era.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:40:52.368193",
@@ -13152,7 +13331,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-28",
     "mention_score": 2,
-    "mention_score_decayed": 1.62,
+    "mention_score_decayed": 1.59,
     "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-28T22:05:42.395070",
@@ -13213,7 +13392,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-28",
     "mention_score": 2,
-    "mention_score_decayed": 1.62,
+    "mention_score_decayed": 1.59,
     "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-28T22:05:50.938326",
@@ -13270,7 +13449,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-02-15",
     "mention_score": 2,
-    "mention_score_decayed": 1.62,
+    "mention_score_decayed": 1.59,
     "last_main_idea": "Invest in sectors with fertile ground for short selling, such as AI and tech, and under-allocated areas like junior mining, while combining long and short strategies for potential alpha.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:42:09.376490",
@@ -13332,7 +13511,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-02-18",
     "mention_score": 2,
-    "mention_score_decayed": 1.23,
+    "mention_score_decayed": 1.2,
     "last_main_idea": "Invest in the vertical integration of AI, the rise of India as a global AI hub, and the shift towards agent-based interactions.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-19T21:23:33.038094",
@@ -13395,11 +13574,70 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-16",
     "mention_score": 2,
-    "mention_score_decayed": 1.23,
+    "mention_score_decayed": 1.2,
     "last_main_idea": "Invest in AI startups that focus on specific niches and use cases, as they can compete effectively against larger AI companies by capitalizing on the gaps between platforms.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
+  },
+  {
+    "id": 159,
+    "name": "Dr. Frenner",
+    "slug": "dr-frenner",
+    "bio": "Dr. Frenner is an expert in artificial intelligence and its implications. He discusses the future of AI and its impact on various fields, emphasizing the importance of understanding AI's role in human-machine synthesis and its limitations in areas such as taste and agency.",
+    "known_for": "His insights on AI's impact on job roles, the balance between AI as a shortcut and its potential drawbacks, and the challenges of verification in an AI-driven world.",
+    "net_worth_usd": 8000000.0,
+    "net_worth_source": "https://wealthrector.com/lex-fridman-net-worth/",
+    "net_worth_updated_at": "2026-04-07T22:05:38.648371",
+    "voice_tone": "Inquisitive and insightful.",
+    "voice_style": "Provides detailed explanations and engages in deep discussions.",
+    "voice_delivery_notes": "Speaks with clarity, breaking down complex ideas into understandable segments.",
+    "voice_profile_updated_at": "2026-04-08 03:04:58",
+    "last_seen": "2026-04-08 03:04:58",
+    "last_episode_title": "Balaji on Why AI Raises the Cost of Verification",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-04-07",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investing in AI infrastructure and applications that can leverage the power of AI while addressing the challenges of verification and privacy.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-07T22:05:37.646780",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Dr. Frenner",
+      "fetched_at": "2026-04-08T03:05:37.646566+00:00",
+      "cliff_notes": "Dr. Frenner has dedicated his career to understanding and discussing the implications of artificial intelligence. His expertise lies in the intersection of AI and its impact on various fields, including job roles and societal structures. He is known for his thought-provoking insights on the balance between AI as a shortcut and its potential drawbacks, emphasizing the importance of understanding AI's limitations in areas such as taste and agency. Dr. Frenner's work is particularly relevant in the context of AI's potential to reshape the job market and the need for humans to adapt to these changes. His contributions to the discourse on AI's future and its impact on society make him a valuable voice in the tech and finance sectors.",
+      "derived": {},
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Dr. Frenner has dedicated his career to understanding and discussing the implications of artificial intelligence. His expertise lies in the intersection of AI and its impact on various fields, including job roles and societal structures. He is known for his thought-provoking insights on the balance between AI as a shortcut and its potential drawbacks, emphasizing the importance of understanding AI's limitations in areas such as taste and agency.",
+        "Dr. Frenner's work is particularly relevant in the context of AI's potential to reshape the job market and the need for humans to adapt to these changes. His contributions to the discourse on AI's future and its impact on society make him a valuable voice in the tech and finance sectors."
+      ],
+      "sections": [
+        {
+          "heading": "AI and Job Roles",
+          "body": "Dr. Frenner discusses the potential for AI to transform job roles, making some obsolete while creating new opportunities. He emphasizes the importance of understanding AI's role in human-machine synthesis and the need for humans to adapt to these changes."
+        },
+        {
+          "heading": "AI as a Shortcut",
+          "body": "Dr. Frenner highlights the benefits and drawbacks of AI as a shortcut, noting that while it can increase efficiency, it can also lead to issues when problems arise that require a more nuanced understanding that AI cannot yet provide."
+        },
+        {
+          "heading": "Verification in an AI-Driven World",
+          "body": "Dr. Frenner discusses the challenges of verification in a world where AI has compressed the cycle of creation and forgery. He draws parallels to historical examples, such as the printing press and photography, to illustrate how the ease of creation has historically led to increased difficulty in verification."
+        },
+        {
+          "heading": "AI's Limitations",
+          "body": "Dr. Frenner emphasizes AI's limitations in areas such as taste and agency, arguing that humans remain the sensor while AI acts as the actuator. He suggests that AI's potential to improve taste and agency is limited in the short term."
+        }
+      ]
+    },
+    "net_worth": "$8.0M"
   },
   {
     "id": 157,
@@ -13593,7 +13831,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "The disruption in shipping due to geopolitical conflicts presents a unique investment opportunity in shipping stocks, particularly for those with a keen understanding of the market dynamics.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-04T22:03:03.597938",
@@ -13943,7 +14181,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Pictay asset management's AI-enhanced ETFs (PQNT and PQUS) aim to provide enhanced equity exposure through the use of artificial intelligence.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-01T22:04:02.778580",
@@ -14000,7 +14238,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Investing in companies that understand complex problems and can leverage AI to gain a competitive advantage in their operations and product development.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-01T15:15:31.311281",
@@ -14042,64 +14280,6 @@ const dashboardData = {
       ]
     },
     "net_worth": "$15.0M"
-  },
-  {
-    "id": 144,
-    "name": "Dara Khosrowshahi",
-    "slug": "dara-khosrowshahi",
-    "bio": "Dara Khosrowshahi is the current CEO of Uber, having previously served as the CEO of Expedia. He is known for leading the turnaround of Uber's financial performance and focusing the company on autonomous technology.",
-    "known_for": "Leading the turnaround of Uber's financial performance and focusing the company on autonomous technology.",
-    "net_worth_usd": 5000000000.0,
-    "net_worth_source": "https://www.wikidata.org/wiki/Q5221979",
-    "net_worth_updated_at": "2026-04-01T05:04:28.531382",
-    "voice_tone": "Confident and optimistic about the future of autonomous vehicles.",
-    "voice_style": "Direct and solution-oriented, emphasizing the importance of strategic focus and hard work.",
-    "voice_delivery_notes": "Paced with emphasis on key points regarding the future of transportation and the role of technology.",
-    "voice_profile_updated_at": "2026-04-01 10:03:46",
-    "last_seen": "2026-04-01 10:03:46",
-    "last_episode_title": "Uber CEO on Winning the Robotaxi Race, the End of Car Ownership, and Uber\u2019s Next $1 Trillion Bet | Dara Khosrowshahi (Uber CEO) | 243",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-03-31",
-    "mention_score": 1,
-    "mention_score_decayed": 0.87,
-    "last_main_idea": "Investment in autonomous vehicle technology is poised to disrupt urban mobility and logistics, with companies like Uber positioned to capitalize on this shift.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-01T05:04:28.065974",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Dara Khosrowshahi",
-      "fetched_at": "2026-04-01T10:04:28.065490+00:00",
-      "cliff_notes": "Dara Khosrowshahi has had a significant impact on the tech industry through his leadership roles in major companies. As the CEO of Expedia, he led the company through a period of growth and expansion. His tenure at Uber has been marked by a focus on financial stability and the development of autonomous vehicle technology. Khosrowshahi's leadership has been pivotal in shaping the future of transportation and the tech industry, as he navigates the complexities of integrating autonomous vehicles into urban landscapes.",
-      "derived": {
-        "current_role": "CEO of Uber",
-        "former_positions": "CEO of Expedia"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Dara Khosrowshahi has had a significant impact on the tech industry through his leadership roles in major companies. As the CEO of Expedia, he led the company through a period of growth and expansion. His tenure at Uber has been marked by a focus on financial stability and the development of autonomous vehicle technology.",
-        "Khosrowshahi's leadership has been pivotal in shaping the future of transportation and the tech industry, as he navigates the complexities of integrating autonomous vehicles into urban landscapes."
-      ],
-      "sections": [
-        {
-          "heading": "Uber's Financial Turnaround",
-          "body": "Dara Khosrowshahi is credited with turning around Uber's financial performance, moving the company from significant losses to substantial earnings."
-        },
-        {
-          "heading": "Focus on Autonomous Technology",
-          "body": "Under Khosrowshahi's leadership, Uber has made significant strides in the development and deployment of autonomous vehicle technology, positioning the company as a key player in the future of transportation."
-        },
-        {
-          "heading": "Leadership in the Tech Industry",
-          "body": "Khosrowshahi's experience and leadership in the tech industry have made him a prominent figure, with his decisions and strategies closely watched by investors and tech enthusiasts alike."
-        }
-      ]
-    },
-    "net_worth": "$5.00B"
   }
 ]
 };

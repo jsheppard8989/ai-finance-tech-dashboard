@@ -1,6 +1,51 @@
 {
   "insights": [
     {
+      "id": 155,
+      "title": "Balaji on Why AI Raises the Cost of Verification",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-04-07",
+      "summary": "The podcast episode from 'The a16z Show' discusses the future of AI and its potential impact on the economy and society. The conversation covers the role of AI in job displacement, the importance of understanding AI's limitations, and the implications of AI's ability to synthesize information. The guests also explore the potential distribution of value in the AI economy, comparing it to the internet and cloud economies, and discuss the challenges of verifying AI-generated content. The episode also touches on the future of private programmable AI and its applications in fields like biology and mathematics.",
+      "key_takeaway": "Investing in AI infrastructure and applications that can leverage the power of AI while addressing the challenges of verification and privacy.",
+      "tickers_mentioned": [
+        "AAPL",
+        "NVDA",
+        "GOOGL",
+        "MSFT",
+        "TSLA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-07",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 141
+    },
+    {
+      "id": 156,
+      "title": "We Were Right. Now What?",
+      "source_type": "podcast",
+      "source_name": "The Jack Mallers Show",
+      "source_date": "2026-04-07",
+      "summary": "In this episode of The Jack Mallers Show, Jack Mallers discusses the current state of financial markets, focusing on Bitcoin's price and market cap, the geopolitical situation, and the implications of the ongoing conflict on the economy. He touches on topics like stagflation, global crisis, and the impact of fiat monetary policy on food quality and health. Jack also shares his personal dietary choices and their connection to his views on the current economic system, advocating for personal responsibility and self-reliance in the face of global challenges.",
+      "key_takeaway": "The investment thesis revolves around the belief in personal responsibility and self-reliance in the face of economic and health challenges, with a particular focus on Bitcoin as a hedge against fiat currency debasement.",
+      "tickers_mentioned": [
+        "AAPL",
+        "NVDA",
+        "SPY",
+        "TSLA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-07",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 140
+    },
+    {
       "id": 153,
       "title": "The Companies Changing Warfare Forever: Palantir & Anduril Execs on Drones, AI & the Future of War",
       "source_type": "podcast",
@@ -120,11 +165,11 @@
         "MSFT"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-04-03",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-04-08",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 134
     },
     {
@@ -139,11 +184,11 @@
         "BYD"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-04-03",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-04-08",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 133
     },
     {
