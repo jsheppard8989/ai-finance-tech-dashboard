@@ -1,40 +1,33 @@
 {
-  "timestamp": "2026-04-07T22:03:41.402458",
+  "timestamp": "2026-04-08T05:03:25.512313",
   "results": [
     {
       "podcast": "Moonshots with Peter Diamandis",
       "title": "How AI Is Bringing Extinct Animals Back (And What Comes Next) | Ben Lamm (Colossal) | EP #245",
       "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/DVVTS9544942486.mp3",
-      "transcript_path": null,
-      "success": false
+      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/DVVTS9544942486.txt",
+      "success": true
     },
     {
       "podcast": "Monetary Matters with Jack Farley",
       "title": "Why Emerging Markets are Finally Outperforming Developed Markets | Robert Koenigsberger | Gramercy",
       "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/EWWMN7690139017.mp3",
-      "transcript_path": null,
-      "success": false
+      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/EWWMN7690139017.txt",
+      "success": true
     },
     {
       "podcast": "The a16z Show",
-      "title": "Balaji on Why AI Raises the Cost of Verification",
-      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_20260407_75e53232_5a14_46f7_bf87_3d3a4857.mp3",
-      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/the_a16z_show_20260407_75e53232_5a14_46f7_bf87_3d3a4857.txt",
-      "success": true
-    },
-    {
-      "podcast": "The Jack Mallers Show",
-      "title": "We Were Right. Now What?",
-      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-3-7%2F421565584-44100-2-f380694d360f6.mp3",
-      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-3-7%2F421565584-44100-2-f380694d360f6.txt",
-      "success": true
+      "title": "The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
+      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_20260408_d8e62120_c865_428e_b1c2_1d965406.mp3",
+      "transcript_path": null,
+      "success": false
     },
     {
       "podcast": "Dwarkesh Podcast",
       "title": "Michael Nielsen \u2013 How science actually progresses",
       "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/e5343bce6cf37efafa778abc5594aa67.mp3",
-      "transcript_path": null,
-      "success": false
+      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/e5343bce6cf37efafa778abc5594aa67.txt",
+      "success": true
     }
   ]
 }

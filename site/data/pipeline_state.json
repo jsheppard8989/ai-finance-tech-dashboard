@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-07T22:07:39.171210",
-  "last_updated": "2026-04-07T22:07:39.171210",
-  "last_pipeline_run": "2026-04-07T22:07:39.171210",
+  "generated_at": "2026-04-08T05:06:51.061106",
+  "last_updated": "2026-04-08T05:06:51.061106",
+  "last_pipeline_run": "2026-04-08T05:06:51.061106",
   "main_page": {
     "overton": 8,
     "insights": 8,
@@ -9,21 +9,21 @@
   },
   "counts": {
     "ticker_mentions": 154,
-    "podcast_episodes": 116,
+    "podcast_episodes": 119,
     "newsletters": 7,
     "daily_scores": 92,
     "overton_terms_total": 16,
-    "latest_insights_total": 130,
+    "latest_insights_total": 133,
     "today_mentions": {},
-    "podcasts_analyzed": 4
+    "podcasts_analyzed": 3
   },
   "step_results": {
-    "downloaded": 2,
-    "transcribed": 2,
-    "analyzed": 2,
-    "insight_created": 2,
-    "published": 2,
-    "total": 5
+    "downloaded": 3,
+    "transcribed": 3,
+    "analyzed": 3,
+    "insight_created": 3,
+    "published": 3,
+    "total": 4
   },
   "episodes": [
     {
@@ -33,20 +33,14 @@
       "published": "2026-04-07",
       "rss_guid": "79836e1e-31fc-11f1-bc68-838bb220a05a",
       "stages": {
-        "downloaded": false,
-        "transcribed": false,
-        "analyzed": false,
-        "insight_created": false,
-        "published": false
+        "downloaded": true,
+        "transcribed": true,
+        "analyzed": true,
+        "insight_created": true,
+        "published": true
       },
-      "stage_reasons": {
-        "downloaded": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "transcribed": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "analyzed": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "insight_created": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
-      },
-      "status": "needs_download"
+      "stage_reasons": {},
+      "status": "complete"
     },
     {
       "id": "f81e4d34-3260-11f1-be6a-375a352ad0b8",
@@ -55,6 +49,22 @@
       "published": "2026-04-07",
       "rss_guid": "f81e4d34-3260-11f1-be6a-375a352ad0b8",
       "stages": {
+        "downloaded": true,
+        "transcribed": true,
+        "analyzed": true,
+        "insight_created": true,
+        "published": true
+      },
+      "stage_reasons": {},
+      "status": "complete"
+    },
+    {
+      "id": "d8e62120-c865-428e-b1c2-1d965406f293",
+      "podcast": "The a16z Show",
+      "title": "The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
+      "published": "2026-04-08",
+      "rss_guid": "d8e62120-c865-428e-b1c2-1d965406f293",
+      "stages": {
         "downloaded": false,
         "transcribed": false,
         "analyzed": false,
@@ -69,38 +79,6 @@
         "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
       },
       "status": "needs_download"
-    },
-    {
-      "id": "75e53232-5a14-46f7-bf87-3d3a4857a60b",
-      "podcast": "The a16z Show",
-      "title": "Balaji on Why AI Raises the Cost of Verification",
-      "published": "2026-04-07",
-      "rss_guid": "75e53232-5a14-46f7-bf87-3d3a4857a60b",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "status": "complete"
-    },
-    {
-      "id": "4adbec00-4c18-4ac7-83a5-a1b7edced925",
-      "podcast": "The Jack Mallers Show",
-      "title": "We Were Right. Now What?",
-      "published": "2026-04-07",
-      "rss_guid": "4adbec00-4c18-4ac7-83a5-a1b7edced925",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "status": "complete"
     },
     {
       "id": "substack:post:193466212",
@@ -109,42 +87,22 @@
       "published": "2026-04-07",
       "rss_guid": "substack:post:193466212",
       "stages": {
-        "downloaded": false,
-        "transcribed": false,
-        "analyzed": false,
-        "insight_created": false,
-        "published": false
+        "downloaded": true,
+        "transcribed": true,
+        "analyzed": true,
+        "insight_created": true,
+        "published": true
       },
-      "stage_reasons": {
-        "downloaded": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "transcribed": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "analyzed": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "insight_created": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
-      },
-      "status": "needs_download"
+      "stage_reasons": {},
+      "status": "complete"
     }
   ],
   "available_from_rss": [
     {
-      "podcast": "Moonshots with Peter Diamandis",
-      "title": "How AI Is Bringing Extinct Animals Back (And What Comes Next) | Ben Lamm (Colossal) | EP #245",
-      "published": "Tue, 07 Apr 2026 15:37:00 -0000",
-      "published_date": "2026-04-07",
-      "rss_guid": ""
-    },
-    {
-      "podcast": "Monetary Matters with Jack Farley",
-      "title": "Why Emerging Markets are Finally Outperforming Developed Markets | Robert Koenigsberger | Gramercy",
-      "published": "Tue, 07 Apr 2026 13:00:00 -0000",
-      "published_date": "2026-04-07",
-      "rss_guid": ""
-    },
-    {
-      "podcast": "Dwarkesh Podcast",
-      "title": "Michael Nielsen \u2013 How science actually progresses",
-      "published": "Tue, 07 Apr 2026 15:49:28 GMT",
-      "published_date": "2026-04-07",
+      "podcast": "The a16z Show",
+      "title": "The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
+      "published": "Wed, 8 Apr 2026 10:00:00 +0000",
+      "published_date": "2026-04-08",
       "rss_guid": ""
     }
   ],

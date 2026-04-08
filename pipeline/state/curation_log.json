@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-04-07T22:03:19.622839",
-  "total_feed_episodes": 5,
-  "approved_for_transcription": 5,
+  "timestamp": "2026-04-08T05:03:09.380798",
+  "total_feed_episodes": 4,
+  "approved_for_transcription": 4,
   "episodes": [
     {
       "podcast": "Moonshots with Peter Diamandis",
@@ -11,10 +11,10 @@
       "published": "Tue, 07 Apr 2026 15:37:00 -0000",
       "published_date": "2026-04-07",
       "rss_guid": "79836e1e-31fc-11f1-bc68-838bb220a05a",
+      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/DVVTS9544942486.mp3",
+      "filename": "DVVTS9544942486.mp3",
       "status": "APPROVED",
-      "matched_keywords": [],
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/moonshots_with_peter_diamandis_how_ai_is_bringing_extinct_animals_back__and_what_comes_next_3aec0047.mp3",
-      "filename": "moonshots_with_peter_diamandis_how_ai_is_bringing_extinct_animals_back__and_what_comes_next_3aec0047.mp3"
+      "matched_keywords": []
     },
     {
       "podcast": "Monetary Matters with Jack Farley",
@@ -24,36 +24,23 @@
       "published": "Tue, 07 Apr 2026 13:00:00 -0000",
       "published_date": "2026-04-07",
       "rss_guid": "f81e4d34-3260-11f1-be6a-375a352ad0b8",
+      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/EWWMN7690139017.mp3",
+      "filename": "EWWMN7690139017.mp3",
       "status": "APPROVED",
-      "matched_keywords": [],
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/monetary_matters_with_jack_farley_why_emerging_markets_are_finally_outperforming_developed_mar_b58ab2b6.mp3",
-      "filename": "monetary_matters_with_jack_farley_why_emerging_markets_are_finally_outperforming_developed_mar_b58ab2b6.mp3"
+      "matched_keywords": []
     },
     {
       "podcast": "The a16z Show",
-      "title": "Balaji on Why AI Raises the Cost of Verification",
-      "description": "<p>a16z general partner Erik Torenberg speaks with Balaji Srinivasan, angel investor and entrepreneur, about why AI simultaneously reduces the cost of creation and increases the cost of verification, and what that tension means for the shape of the AI economy. They discuss why AI drives companies toward the \"trusted tribe\" model of the Chinese internet, why physical world tasks are easier to automate than digital ones, why shortcuts only work for experts, and why AI makes everyone a CEO rather t",
-      "audio_url": "https://mgln.ai/e/1344/afp-848985-injected.calisto.simplecastaudio.com/3f86df7b-51c6-4101-88a2-550dba782de8/episodes/e307c3fa-77d2-4d43-98e6-a56da75f619c/audio/128/default.mp3?aid=rss_feed&awCollectionId=3f86df7b-51c6-4101-88a2-550dba782de8&awEpisodeId=e307c3fa-77d2-4d43-98e6-a56da75f619c&feed=JGE3yC0V",
-      "published": "Tue, 7 Apr 2026 10:00:00 +0000",
-      "published_date": "2026-04-07",
-      "rss_guid": "75e53232-5a14-46f7-bf87-3d3a4857a60b",
+      "title": "The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
+      "description": "<p>Erik Torenberg, Steve Sinofsky, and Martin Casado speak to Aaron Levie, CEO at Box, about what happens to enterprise software when agents become the primary users. They discuss why coding agents succeed where other knowledge work agents struggle, what abstraction layers mean for the workforce, and how data access and systems of record must change in an agent-first world.</p>\n<p>\u00a0</p>\n<p>Resources:</p>\n<p>Follow Aaron Levie on X: <a href=\"https://twitter.com/levie\" rel=\"noopener noreferrer\">ht",
+      "audio_url": "https://mgln.ai/e/1344/afp-848985-injected.calisto.simplecastaudio.com/3f86df7b-51c6-4101-88a2-550dba782de8/episodes/78b49179-3322-4bee-b3b9-7117831ba9cd/audio/128/default.mp3?aid=rss_feed&awCollectionId=3f86df7b-51c6-4101-88a2-550dba782de8&awEpisodeId=78b49179-3322-4bee-b3b9-7117831ba9cd&feed=JGE3yC0V",
+      "published": "Wed, 8 Apr 2026 10:00:00 +0000",
+      "published_date": "2026-04-08",
+      "rss_guid": "d8e62120-c865-428e-b1c2-1d965406f293",
       "status": "APPROVED",
       "matched_keywords": [],
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_balaji_on_why_ai_raises_the_cost_of_verification_b2cfa99d.mp3",
-      "filename": "the_a16z_show_balaji_on_why_ai_raises_the_cost_of_verification_b2cfa99d.mp3"
-    },
-    {
-      "podcast": "The Jack Mallers Show",
-      "title": "We Were Right. Now What?",
-      "description": "<p>Streaming live Mondays at 6pm ET on The Jack Mallers Show YouTube channel.</p>\n",
-      "audio_url": "https://anchor.fm/s/e29097f4/podcast/play/118076368/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-3-7%2F421565584-44100-2-f380694d360f6.mp3",
-      "published": "Tue, 07 Apr 2026 07:56:03 GMT",
-      "published_date": "2026-04-07",
-      "rss_guid": "4adbec00-4c18-4ac7-83a5-a1b7edced925",
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-3-7%2F421565584-44100-2-f380694d360f6.mp3",
-      "filename": "https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-3-7%2F421565584-44100-2-f380694d360f6.mp3",
-      "status": "APPROVED",
-      "matched_keywords": []
+      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_the_agent_era__building_software_beyond_chat_with_box_ceo_aa_c035a9af.mp3",
+      "filename": "the_a16z_show_the_agent_era__building_software_beyond_chat_with_box_ceo_aa_c035a9af.mp3"
     },
     {
       "podcast": "Dwarkesh Podcast",
@@ -63,10 +50,10 @@
       "published": "Tue, 07 Apr 2026 15:49:28 GMT",
       "published_date": "2026-04-07",
       "rss_guid": "substack:post:193466212",
+      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/e5343bce6cf37efafa778abc5594aa67.mp3",
+      "filename": "e5343bce6cf37efafa778abc5594aa67.mp3",
       "status": "APPROVED",
-      "matched_keywords": [],
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/dwarkesh_podcast_michael_nielsen___how_science_actually_progresses_852a5990.mp3",
-      "filename": "dwarkesh_podcast_michael_nielsen___how_science_actually_progresses_852a5990.mp3"
+      "matched_keywords": []
     }
   ]
 }

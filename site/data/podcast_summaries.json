@@ -1,5 +1,58 @@
 [
   {
+    "id": 144,
+    "podcast_name": "Dwarkesh Podcast",
+    "episode_title": "Michael Nielsen \u2013 How science actually progresses",
+    "episode_date": "2026-04-07",
+    "summary": "In this episode of the Dwarkesh Podcast, the host speaks with Michael Nielsen, a pioneer in chronic computing and a significant figure in the open science movement. The conversation delves into the nuances of recognizing scientific progress, particularly in the context of AI and its role in closing the loop on scientific discovery. The discussion traverses from the historical discovery of special relativity to the modern complexities of computer science, exploring the elusive nature of scientific progress and its implications for future technological advancements.",
+    "key_takeaways": [
+      "The discovery of special relativity was not as directly influenced by the Michelson-Morley experiment as commonly believed, highlighting the complexity of scientific progress.",
+      "The Michelson-Morley experiment was initially aimed at testing theories of the ether, which was a significant concept in physics before the advent of relativity.",
+      "Einstein's theory of special relativity changed our understanding of space and time, demonstrating how scientific progress can pivot on new theoretical insights.",
+      "The podcast discusses the concept of 'complexity zoo' in computer science, indicating the vast and growing taxonomy of complexity classes and their interrelations.",
+      "The argument of diminishing returns in scientific progress is challenged by the emergence of new fields like computer science, which can offer fresh opportunities for breakthroughs.",
+      "The discussion suggests that the structure of knowledge and the dynamics of new field emergence are not well understood but are key to ongoing scientific progress."
+    ],
+    "investment_thesis": "The core thesis presented is that advancements in AI and computer science can lead to new fields and paradigms, offering investment opportunities in technological disruption and innovation.",
+    "key_tickers": null
+  },
+  {
+    "id": 143,
+    "podcast_name": "Monetary Matters with Jack Farley",
+    "episode_title": "Why Emerging Markets are Finally Outperforming Developed Markets | Robert Koenigsberger | Gramercy",
+    "episode_date": "2026-04-07",
+    "summary": "In this episode of 'Other People's Money', host Jack Farley interviews Robert Conexberger, CIO and founder of Grammar C, a multi-billion dollar emerging markets alternative investment manager. They discuss the evolution of emerging markets from the 1980s to today, the recent outperformance of emerging market equities, and the differences in tone between the equity and debt markets. Conexberger shares his insights on finding asymmetry in the China property sector and the importance of primary research in identifying attractive investment opportunities.",
+    "key_takeaways": [
+      "Emerging markets have evolved significantly since the 1980s, transitioning from a niche market to a more legitimate strategic asset allocation.",
+      "The recent outperformance of emerging market equities is attributed to a fundamental repricing of relative value and the 'anywhere but US' theme.",
+      "Conexberger specializes in emerging market debt and sees differences in tone and excitement compared to EM equity investors.",
+      "Asymmetry in the China property sector presents an opportunity for select few names that have the potential to significantly increase in value.",
+      "Primary research is crucial in identifying attractive investment opportunities, particularly when dealing with distressed assets."
+    ],
+    "investment_thesis": "Investing in select few names within the China property sector can offer significant potential for value appreciation, given the right conditions and primary research.",
+    "key_tickers": [
+      "PQNT",
+      "PQUS"
+    ]
+  },
+  {
+    "id": 142,
+    "podcast_name": "Moonshots with Peter Diamandis",
+    "episode_title": "How AI Is Bringing Extinct Animals Back (And What Comes Next) | Ben Lamm (Colossal) | EP #245",
+    "episode_date": "2026-04-07",
+    "summary": "In this episode of 'Moonshots with Peter Diamandis', the discussion revolves around the ambitious goals of the biotech company Colossal, which aims to use synthetic biology and AI to revive extinct species like the woolly mammoth. The conversation delves into the company's rapid growth, its approach to using AI in genetic engineering, and its potential applications in various fields, including environmental conservation, disease resistance in plants and animals, and even addressing plastic pollution.",
+    "key_takeaways": [
+      "Colossal has spun out multiple companies, each with significant potential in their respective fields.",
+      "The company is leveraging AI to design and build living products, which is a novel approach in synthetic biology.",
+      "Colossal's team has grown to 260 scientists, highlighting the scale of their research and development efforts.",
+      "The company's technology allows for precise genetic editing, which could have broad implications for healthcare and environmental conservation.",
+      "There is a focus on using genetic engineering to combat extinction and disease in various species.",
+      "Colossal sees opportunities in creating disease-resistant plants and animals, as well as addressing plastic pollution with engineered microbes."
+    ],
+    "investment_thesis": "Investment in Colossal represents a bet on the convergence of synthetic biology, AI, and environmental conservation, with potential for significant technological and societal impact.",
+    "key_tickers": null
+  },
+  {
     "id": 141,
     "podcast_name": "The a16z Show",
     "episode_title": "Balaji on Why AI Raises the Cost of Verification",

@@ -3,7 +3,7 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-04-07T22:07:48.829722",
+  generatedAt: "2026-04-08T05:06:54.206571",
   chartsVersion: "2026-04-01T15:16:59.801570",
   tickerScores: [
   {
@@ -805,6 +805,71 @@ const dashboardData = {
       "podcast_episode_id": 140
     },
     {
+      "id": 157,
+      "title": "Michael Nielsen \u2013 How science actually progresses",
+      "source_type": "podcast",
+      "source_name": "Dwarkesh Podcast",
+      "source_date": "2026-04-07",
+      "summary": "In this episode of the Dwarkesh Podcast, the host speaks with Michael Nielsen, a pioneer in chronic computing and a significant figure in the open science movement. The conversation delves into the nuances of recognizing scientific progress, particularly in the context of AI and its role in closing the loop on scientific discovery. The discussion traverses from the historical discovery of special relativity to the modern complexities of computer science, exploring the elusive nature of scientific progress and its implications for future technological advancements.",
+      "key_takeaway": "The core thesis presented is that advancements in AI and computer science can lead to new fields and paradigms, offering investment opportunities in technological disruption and innovation.",
+      "tickers_mentioned": [
+        "AAPL",
+        "NVDA",
+        "GOOGL",
+        "MSFT",
+        "TSLA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-08",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 144
+    },
+    {
+      "id": 158,
+      "title": "Why Emerging Markets are Finally Outperforming Developed Markets | Robert Koenigsberger | Gramercy",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-04-07",
+      "summary": "In this episode of 'Other People's Money', host Jack Farley interviews Robert Conexberger, CIO and founder of Grammar C, a multi-billion dollar emerging markets alternative investment manager. They discuss the evolution of emerging markets from the 1980s to today, the recent outperformance of emerging market equities, and the differences in tone between the equity and debt markets. Conexberger shares his insights on finding asymmetry in the China property sector and the importance of primary research in identifying attractive investment opportunities.",
+      "key_takeaway": "Investing in select few names within the China property sector can offer significant potential for value appreciation, given the right conditions and primary research.",
+      "tickers_mentioned": [
+        "PQNT",
+        "PQUS"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-08",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 143
+    },
+    {
+      "id": 159,
+      "title": "How AI Is Bringing Extinct Animals Back (And What Comes Next) | Ben Lamm (Colossal) | EP #245",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-04-07",
+      "summary": "In this episode of 'Moonshots with Peter Diamandis', the discussion revolves around the ambitious goals of the biotech company Colossal, which aims to use synthetic biology and AI to revive extinct species like the woolly mammoth. The conversation delves into the company's rapid growth, its approach to using AI in genetic engineering, and its potential applications in various fields, including environmental conservation, disease resistance in plants and animals, and even addressing plastic pollution.",
+      "key_takeaway": "Investment in Colossal represents a bet on the convergence of synthetic biology, AI, and environmental conservation, with potential for significant technological and societal impact.",
+      "tickers_mentioned": [
+        "AAPL",
+        "NVDA",
+        "SPY",
+        "TSLA"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-08",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 142
+    },
+    {
       "id": 153,
       "title": "The Companies Changing Warfare Forever: Palantir & Anduril Execs on Drones, AI & the Future of War",
       "source_type": "podcast",
@@ -878,11 +943,11 @@ const dashboardData = {
         "MSFT"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-04-04",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-04-08",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 136
     },
     {
@@ -901,11 +966,11 @@ const dashboardData = {
         "TSLA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-04-04",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-04-08",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 135
     },
     {
@@ -966,11 +1031,11 @@ const dashboardData = {
         "HG"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-04-03",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-04-08",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 132
     },
     {
@@ -3764,6 +3829,69 @@ const dashboardData = {
       "key_tickers": []
     },
     {
+      "id": 157,
+      "title": "Michael Nielsen \u2013 How science actually progresses",
+      "source_type": "podcast",
+      "source_name": "Dwarkesh Podcast",
+      "source_date": "2026-04-07",
+      "summary": "In this episode of the Dwarkesh Podcast, the host speaks with Michael Nielsen, a pioneer in chronic computing and a significant figure in the open science movement. The conversation delves into the nuances of recognizing scientific progress, particularly in the context of AI and its role in closing the loop on scientific discovery. The discussion traverses from the historical discovery of special relativity to the modern complexities of computer science, exploring the elusive nature of scientific progress and its implications for future technological advancements.",
+      "key_takeaway": "The core thesis presented is that advancements in AI and computer science can lead to new fields and paradigms, offering investment opportunities in technological disruption and innovation.",
+      "tickers_mentioned": "[\"AAPL\", \"NVDA\", \"GOOGL\", \"MSFT\", \"TSLA\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-08",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 144,
+      "episode_release_date": "2026-04-07",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
+      "id": 158,
+      "title": "Why Emerging Markets are Finally Outperforming Developed Markets | Robert Koenigsberger | Gramercy",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-04-07",
+      "summary": "In this episode of 'Other People's Money', host Jack Farley interviews Robert Conexberger, CIO and founder of Grammar C, a multi-billion dollar emerging markets alternative investment manager. They discuss the evolution of emerging markets from the 1980s to today, the recent outperformance of emerging market equities, and the differences in tone between the equity and debt markets. Conexberger shares his insights on finding asymmetry in the China property sector and the importance of primary research in identifying attractive investment opportunities.",
+      "key_takeaway": "Investing in select few names within the China property sector can offer significant potential for value appreciation, given the right conditions and primary research.",
+      "tickers_mentioned": "[\"PQNT\", \"PQUS\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-08",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 143,
+      "episode_release_date": "2026-04-07",
+      "guest_name": null,
+      "key_tickers": [
+        "PQNT",
+        "PQUS"
+      ]
+    },
+    {
+      "id": 159,
+      "title": "How AI Is Bringing Extinct Animals Back (And What Comes Next) | Ben Lamm (Colossal) | EP #245",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-04-07",
+      "summary": "In this episode of 'Moonshots with Peter Diamandis', the discussion revolves around the ambitious goals of the biotech company Colossal, which aims to use synthetic biology and AI to revive extinct species like the woolly mammoth. The conversation delves into the company's rapid growth, its approach to using AI in genetic engineering, and its potential applications in various fields, including environmental conservation, disease resistance in plants and animals, and even addressing plastic pollution.",
+      "key_takeaway": "Investment in Colossal represents a bet on the convergence of synthetic biology, AI, and environmental conservation, with potential for significant technological and societal impact.",
+      "tickers_mentioned": "[\"AAPL\", \"NVDA\", \"SPY\", \"TSLA\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-08",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 142,
+      "episode_release_date": "2026-04-07",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 153,
       "title": "The Companies Changing Warfare Forever: Palantir & Anduril Execs on Drones, AI & the Future of War",
       "source_type": "podcast",
@@ -3825,75 +3953,6 @@ const dashboardData = {
       "guest_name": null,
       "key_tickers": [
         "ZIM"
-      ]
-    },
-    {
-      "id": 150,
-      "title": "SpaceX IPO, Iran War Fallout, Quantum Bitcoin Hack, The Space Opportunity",
-      "source_type": "podcast",
-      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "source_date": "2026-04-03",
-      "summary": "In this episode, the hosts discuss SpaceX's confidential filing for an IPO with a target valuation of $1.75 trillion, which would make it the eighth largest company in the world if successful. They also explore the potential for a merger between SpaceX and Tesla, the implications of the ongoing conflict on energy independence, and the impact on global markets. Additionally, they touch on the importance of energy infrastructure and the role of Middle Eastern states in financing and banking.",
-      "key_takeaway": "Invest in companies that are driving energy independence and have potential for significant growth through mergers and acquisitions.",
-      "tickers_mentioned": "[\"TSLA\", \"MSFT\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-04-04",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 136,
-      "episode_release_date": "2026-04-03",
-      "guest_name": null,
-      "key_tickers": [
-        "TSLA",
-        "MSFT"
-      ]
-    },
-    {
-      "id": 151,
-      "title": "Marc Andreessen on AI Winters and Agent Breakthroughs",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-04-03",
-      "summary": "In this episode of the a16z Show, Mark Andreason, co-founder and general partner at a16z, discusses the current state of AI and its potential impact on various industries. Andreason argues that the recent advancements in AI are not just a fleeting trend but the result of eight decades of foundational research. He highlights four breakthroughs that have catalyzed AI's progress: large language models, reasoning, agents, and self-improvement. The conversation also touches on the significance of combining language models, unique shells, and file systems to create a powerful software architecture that could shape the future of technology.",
-      "key_takeaway": "Invest in AI technologies that leverage the breakthroughs in large language models, reasoning, agents, and self-improvement, as these advancements could lead to transformative software architectures and industry disruptions.",
-      "tickers_mentioned": "[\"AAPL\", \"NVDA\", \"GOOGL\", \"MSFT\", \"TSLA\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-04-04",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 135,
-      "episode_release_date": "2026-04-03",
-      "guest_name": null,
-      "key_tickers": []
-    },
-    {
-      "id": 149,
-      "title": "MacroVoices #526 Matt Barrie: Pay To PrAI",
-      "source_type": "podcast",
-      "source_name": "Macro Voices",
-      "source_date": "2026-04-02",
-      "summary": "This episode of Macro Voices features two main discussions: the escalating conflict between the U.S. and Iran, and the implications of artificial intelligence on private credit markets. The hosts, Eric Townsend and Patrick Suresne, dissect President Trump's speech indicating potential military action against Iran's civilian electric power infrastructure, which could escalate the conflict. The first guest, Matt Barry, CEO of Freelancer.com, discusses the impact of AI on the business model and potential market dislocation. The second guest, Dr. Onis Ahaji, provides an in-depth analysis of the geopolitical situation after President Trump's address. The episode also includes Patrick's trade of the week focusing on private credit markets and their relation to public markets.",
-      "key_takeaway": "Invest in sectors less affected by AI disruption and monitor geopolitical events for opportunities in private credit markets.",
-      "tickers_mentioned": "[\"SPX\", \"USDX\", \"WTI\", \"GC\", \"HG\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-04-03",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 132,
-      "episode_release_date": "2026-04-02",
-      "guest_name": null,
-      "key_tickers": [
-        "SPX",
-        "USDX",
-        "WTI",
-        "GC",
-        "HG"
       ]
     }
   ],
@@ -12855,61 +12914,252 @@ const dashboardData = {
     "source_name": "The Jack Mallers Show",
     "source_date": "2026-04-07",
     "key_tickers": []
+  },
+  "157": {
+    "id": 148,
+    "insight_id": 157,
+    "podcast_episode_id": 144,
+    "overview": "The investment thesis revolves around the recognition of scientific progress and its implications for technology companies, particularly in the field of AI. The discussion with Michael Nielsen highlights the complexities of scientific discovery, which is crucial for investors to understand as AI continues to evolve. By examining historical scientific progress, such as the development of special relativity, we can glean insights into how technological advancements are made and the potential for disruption in the tech sector. This analysis is timely given the rapid pace of AI development and its impact on various industries.",
+    "key_takeaways_detailed": [
+      "Investors should recognize that scientific progress is often non-linear and can be influenced by various factors beyond experimental results.",
+      "The history of science, such as the ether theory and special relativity, teaches us that initial theories can be disproven without leading to immediate breakthroughs.",
+      "AI companies that can adapt to new scientific insights and incorporate them into their technology will have a competitive advantage.",
+      "Investors should monitor the scientific community for emerging theories and experimental results that could impact AI technology.",
+      "The potential for AI to close the 'oral verification loop' on scientific discovery could lead to significant advancements and investment opportunities."
+    ],
+    "investment_thesis": "The core investment logic is that companies at the forefront of AI and technology that can leverage scientific progress will outperform the market. Catalysts for this thesis include breakthroughs in AI algorithms, the development of new computing technologies, and the integration of AI into scientific research. The timeframe for this thesis is medium to long-term, as significant scientific and technological advancements often take time to materialize and be commercialized.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple is a leader in consumer technology and has a strong focus on AI, making it relevant to the thesis on scientific progress in AI.",
+        "positioning": "Position long on AAPL as a strategic investment, given its potential to integrate AI advancements into its products and services.",
+        "risk": "Key risks include competition from other tech giants and potential setbacks in AI development."
+      },
+      "NVDA": {
+        "rationale": "NVIDIA is a major player in the GPU market, which is crucial for AI and deep learning applications.",
+        "positioning": "NVDA should be positioned long, with a tactical focus on its ability to capitalize on AI advancements and maintain its market leadership.",
+        "risk": "The risk lies in the potential for technological disruption in the GPU market and the slowdown in AI adoption."
+      },
+      "GOOGL": {
+        "rationale": "Google's parent company, Alphabet, is heavily invested in AI research and development, making it a key player in the field.",
+        "positioning": "Long-term strategic position in GOOGL, anticipating continued growth in AI technology and applications.",
+        "risk": "Regulatory challenges and privacy concerns could hinder AI development and deployment."
+      },
+      "MSFT": {
+        "rationale": "Microsoft is a technology giant with significant investments in AI, cloud computing, and research.",
+        "positioning": "Long on MSFT as a strategic investment, leveraging its broad technology portfolio and AI initiatives.",
+        "risk": "The risk includes competition from other tech companies and potential market saturation in certain segments."
+      },
+      "TSLA": {
+        "rationale": "Tesla is at the forefront of AI applications in the automotive industry, particularly in autonomous driving technology.",
+        "positioning": "Position long on TSLA, considering its potential to disrupt the automotive industry with AI-driven innovations.",
+        "risk": "Regulatory hurdles and technological challenges in achieving fully autonomous driving could pose risks."
+      }
+    },
+    "positioning_guidance": "Investors should consider a diversified portfolio with a mix of long-term strategic positions in companies leading in AI and technology, such as AAPL, NVDA, GOOGL, MSFT, and TSLA. Entry points should be based on market conditions and company-specific catalysts. Timeframes for these positions should align with the expected timeframes for scientific and technological advancements in AI, which are medium to long-term. Investors may also consider hedging against potential risks such as regulatory changes and market volatility.",
+    "risk_factors": [
+      "Unexpected setbacks in AI research and development could slow down the progress of technology companies.",
+      "Increased competition in the AI space could erode the market share of leading companies.",
+      "Regulatory changes could hinder the deployment of AI technologies, particularly in areas like autonomous driving and data privacy.",
+      "Ethical concerns surrounding AI could lead to public backlash and impact the adoption of AI technologies.",
+      "Technological disruptions, such as the emergence of new computing paradigms, could render current AI technologies obsolete."
+    ],
+    "contrarian_signals": [
+      "The belief that AI will not achieve the level of sophistication required to significantly impact scientific discovery.",
+      "The view that current AI technologies are overhyped and will not deliver on their promises, leading to a market correction.",
+      "Concerns that the integration of AI into scientific research will lead to a loss of human expertise and intuition in the field."
+    ],
+    "catalysts": [
+      "Upcoming AI conferences and events that could showcase new breakthroughs in AI technology.",
+      "Release of new AI products and services by leading tech companies that could drive market adoption.",
+      "Publication of significant research papers or studies that demonstrate the potential of AI in scientific discovery.",
+      "Regulatory decisions that could either open up new opportunities or impose restrictions on AI development.",
+      "Technological milestones, such as the achievement of human-level AI capabilities or the development of quantum computing, which could accelerate AI progress."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-04-08T05:05:33.693588",
+    "updated_at": "2026-04-08 10:05:33",
+    "insight_title": "Michael Nielsen \u2013 How science actually progresses",
+    "source_name": "Dwarkesh Podcast",
+    "source_date": "2026-04-07",
+    "key_tickers": []
+  },
+  "158": {
+    "id": 149,
+    "insight_id": 158,
+    "podcast_episode_id": 143,
+    "overview": "Emerging markets (EM) have historically been viewed as volatile and risky, but recent developments suggest a paradigm shift. Robert Koenigsberger, CIO and founder of Gramercy, discusses the evolution of EM from a speculative asset class to a more mature and strategic allocation. The current macro environment, characterized by inflation and geopolitical tensions, has led to a repricing of relative value in EM, particularly in equities. This shift, combined with the resilience and proactive policy responses of EM central banks, positions EM to outperform developed markets (DM) in the medium to long term.",
+    "key_takeaways_detailed": [
+      "Emerging market equities have recently outperformed due to a repricing of relative value and the 'anywhere but US' theme, suggesting a shift from fear to FOMO among investors.",
+      "Local currency performance in EM debt was strong, with approximately half of the return attributed to currency appreciation and the other half to credit repricing.",
+      "Investors can achieve equity-like returns in EM debt with senior fixed income risk characteristics, offering an alternative to the higher risks in EM equities.",
+      "Emerging market central banks have been more proactive in combating inflation compared to developed markets, reflecting a convergence in policy responses and economic characteristics.",
+      "The current macro environment is creating a convergence between EM and DM, with EM countries demonstrating resilience and policy memory from past inflationary periods."
+    ],
+    "investment_thesis": "The investment thesis is that emerging markets are poised to outperform developed markets in the medium to long term due to a combination of factors: a repricing of relative value, proactive policy responses to inflation, and a shift in investor sentiment from fear to FOMO. This thesis is supported by the strong performance of EM equities and the outperformance of local currency debt, which offers investors the potential for equity-like returns with fixed income risk characteristics. The proactive stance of EM central banks in combating inflation, compared to the more cautious approach of DM central banks, further supports the case for EM outperformance.",
+    "ticker_analysis": {
+      "PQUS": {
+        "rationale": "PQUS is another ETF from Peak Day Asset Management, likely with a US focus, which can be used to balance a portfolio against the 'anywhere but US' theme.",
+        "positioning": "Tactical position to hedge against potential US underperformance relative to EM.",
+        "risk": "Risks include the possibility of a stronger US recovery and changes in the 'anywhere but US' investor sentiment."
+      }
+    },
+    "positioning_guidance": "Investors should consider a medium to long-term strategic allocation to emerging markets, with a focus on both equities and debt. Position sizing should reflect the investor's risk tolerance and the desired balance between growth and income. Entry points should be considered in the context of the broader market trends and investor sentiment. Hedges can be implemented using ETFs like PQUS to balance exposure to the 'anywhere but US' theme.",
+    "risk_factors": [
+      "Geopolitical tensions and changes in global trade policies could negatively impact EM performance.",
+      "A sudden shift in investor sentiment away from the 'anywhere but US' theme could lead to capital outflows from EM.",
+      "Unexpected inflationary pressures or policy missteps in EM countries could undermine the outperformance thesis.",
+      "A stronger US recovery could draw capital back to developed markets, reducing the appeal of EM investments.",
+      "Currency fluctuations could erode the returns of EM investments, particularly for those not hedged against currency risk."
+    ],
+    "contrarian_signals": [
+      "Despite the recent outperformance, some investors may still view EM as a high-risk asset class, potentially leading to underinvestment in the sector.",
+      "The 'anywhere but US' theme could be seen as a temporary phenomenon, with investors eventually returning to US assets as global tensions ease.",
+      "There is a risk that the proactive policy responses in EM could lead to over-tightening and economic slowdowns, which could counteract the positive effects of inflation fighting."
+    ],
+    "catalysts": [
+      "Upcoming inflation data and central bank policy decisions in both EM and DM will be key in shaping investor sentiment and market performance.",
+      "Geopolitical events, such as trade agreements or conflicts, can significantly impact the narrative around EM investments.",
+      "Economic indicators from major EM countries, such as GDP growth and employment data, can serve as catalysts for further investment in the asset class.",
+      "Corporate earnings reports from EM companies can provide insights into the health of the economies and the potential for continued outperformance.",
+      "Global events, such as climate change initiatives or technological advancements, can create opportunities for specific EM sectors or countries."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-04-08T05:06:00.450503",
+    "updated_at": "2026-04-08 10:06:00",
+    "insight_title": "Why Emerging Markets are Finally Outperforming Developed Markets | Robert Koenigsberger | Gramercy",
+    "source_name": "Monetary Matters with Jack Farley",
+    "source_date": "2026-04-07",
+    "key_tickers": [
+      "PQNT",
+      "PQUS"
+    ]
+  },
+  "159": {
+    "id": 150,
+    "insight_id": 159,
+    "podcast_episode_id": 142,
+    "overview": "Colossal, a synthetic biology company, is pioneering the revival of extinct species, starting with the woolly mammoth, using advanced AI and genetic engineering. This breakthrough technology has broad implications for conservation, environmental remediation, and human health. The company's innovative approach to synthetic biology and AI is not only reviving extinct species but also addressing pressing global issues like plastic pollution. The potential for such technology to disrupt traditional industries and create new markets is immense, making it a compelling investment opportunity in the and environmental sectors.",
+    "key_takeaways_detailed": [
+      "Colossal's use of AI in genetic engineering is a significant technological leap, with applications beyond species revival, such as plastic degradation.",
+      "The company's valuation has skyrocketed to $10 billion in just four years, indicating strong market confidence in its technology and potential.",
+      "Colossal is spinning out multiple companies, each with its own massive potential, creating a diversified investment opportunity within the synthetic biology space.",
+      "Investors should monitor the progress of 'Breaking', Colossal's plastic degradation company, as it represents a significant environmental solution with commercial applications.",
+      "The potential for human health applications, such as supplements to break down microplastics in the gut, presents an additional revenue stream and investment angle."
+    ],
+    "investment_thesis": "Investing in Colossal offers exposure to the cutting edge of synthetic biology and AI, with the potential for high returns as the technology scales and diversifies. The core investment logic is based on the company's ability to solve complex biological problems, create new markets, and address global challenges. Catalysts for investment include successful species revival, commercialization of plastic degradation solutions, and the spin-out of new companies. The timeframe for investment is medium to long-term, as the technology matures and applications expand.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's investment in AI and technology could synergize with Colossal's innovations, potentially leading to partnerships or acquisitions in the synthetic biology space.",
+        "positioning": "Long-term strategic position, as Apple's technology investments often align with future growth areas.",
+        "risk": "Apple's investment focus may shift, or the company may not engage with synthetic biology, affecting the potential for collaboration."
+      },
+      "NVDA": {
+        "rationale": "NVIDIA's expertise in AI and computing power is crucial for the complex data processing required in genetic engineering and synthetic biology.",
+        "positioning": "Tactical long position, as NVIDIA's technology is integral to the advancement of AI in synthetic biology.",
+        "risk": "NVIDIA faces competition in the AI chip market, which could affect its ability to support the computational needs of synthetic biology companies like Colossal."
+      },
+      "SPY": {
+        "rationale": "As an ETF representing the S&P 500, SPY provides broad market exposure, including potential indirect exposure to synthetic biology through holdings in tech and healthcare companies.",
+        "positioning": "Strategic long position for diversification and to gain exposure to the synthetic biology sector through market leaders.",
+        "risk": "Market volatility and sector-specific risks could affect the performance of synthetic biology companies within the S&P 500."
+      },
+      "TSLA": {
+        "rationale": "Tesla's focus on sustainability and innovation aligns with the environmental and technological goals of synthetic biology companies like Colossal.",
+        "positioning": "Long-term strategic position, as Tesla's investments in sustainable technology may include areas like synthetic biology.",
+        "risk": "Tesla's focus on electric vehicles and energy may overshadow potential investments in synthetic biology, limiting direct exposure."
+      }
+    },
+    "positioning_guidance": "Investors should consider a medium to long-term strategic position in companies directly involved with synthetic biology and AI, such as Colossal. Diversify by including technology and healthcare companies that could benefit from or contribute to this field. Entry points should be considered in the context of market volatility and the specific milestones of companies like Colossal. Hedges may include positions in broader market ETFs or in companies with competing technologies.",
+    "risk_factors": [
+      "Regulatory hurdles could slow down or halt the commercialization of synthetic biology products.",
+      "Public perception and ethical concerns surrounding the revival of extinct species and genetic engineering could impact market acceptance.",
+      "Technological challenges in scaling synthetic biology solutions and achieving desired outcomes could delay or fail projects.",
+      "Competition from other synthetic biology companies or traditional conservation methods could reduce market share.",
+      "Environmental and health risks associated with the release of genetically engineered organisms into ecosystems."
+    ],
+    "contrarian_signals": [
+      "The high valuation of Colossal may not be sustainable if the company fails to meet aggressive milestones or if the technology does not scale as expected.",
+      "There is a risk that the public and regulatory bodies may resist the introduction of genetically engineered species, affecting Colossal's business model.",
+      "The potential for misuse of synthetic biology, such as in bioweapons, could lead to increased regulation and public skepticism, impacting the industry as a whole."
+    ],
+    "catalysts": [
+      "Successful revival of the woolly mammoth and public demonstration of the technology's capabilities.",
+      "Commercial launch of 'Breaking' and its plastic degradation solutions, particularly if they show significant environmental benefits.",
+      "Announcement of new spin-out companies from Colossal, each with its own disruptive potential.",
+      "Partnerships or acquisitions involving major tech companies like Apple or NVIDIA, validating the technology and market potential.",
+      "Publications or presentations at scientific conferences that highlight breakthroughs in synthetic biology and AI applications."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-04-08T05:06:25.230671",
+    "updated_at": "2026-04-08 10:06:25",
+    "insight_title": "How AI Is Bringing Extinct Animals Back (And What Comes Next) | Ben Lamm (Colossal) | EP #245",
+    "source_name": "Moonshots with Peter Diamandis",
+    "source_date": "2026-04-07",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
   {
-    "id": 154,
-    "term": "Human-Machine Synthesis",
-    "definition": "The concept where humans act as sensors and AI as actuators, creating a collaborative relationship.",
-    "investment_implications": "Invest in companies that facilitate this synthesis to enhance productivity and innovation.",
+    "id": 162,
+    "term": "Special Relativity",
+    "definition": "A theory in physics that changed our understanding of space and time, introduced by Albert Einstein.",
+    "investment_implications": "Investors can consider the implications of such groundbreaking theories for technological advancements and innovation.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-04-08 03:04:58",
+    "submitted_date": "2026-04-08 10:04:28",
     "priority_score": 80
   },
   {
-    "id": 155,
-    "term": "Distillation",
-    "definition": "The process of reducing a large AI model into a smaller, more manageable one through API queries.",
-    "investment_implications": "Look for opportunities in technologies that enable efficient distillation to democratize AI capabilities.",
+    "id": 163,
+    "term": "Complexity Zoo",
+    "definition": "A concept in computer science that refers to the vast taxonomy of complexity classes and their interrelations.",
+    "investment_implications": "Understanding complexity classes can help investors identify areas of computer science that may yield significant technological advancements.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-04-08 03:04:58",
+    "submitted_date": "2026-04-08 10:04:28",
     "priority_score": 80
   },
   {
-    "id": 156,
-    "term": "Private Programmable AI",
-    "definition": "AI systems that can be customized and used within trusted groups for privacy and security.",
-    "investment_implications": "Invest in platforms that offer private, customizable AI solutions to cater to the growing demand for secure AI applications.",
+    "id": 160,
+    "term": "FOMO",
+    "definition": "Fear of Missing Out, a term used to describe the anxiety of not participating in a potentially rewarding opportunity.",
+    "investment_implications": "Conexberger suggests that FOMO played a role in the recent outperformance of emerging market equities.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-04-08 03:04:58",
+    "submitted_date": "2026-04-08 10:04:00",
     "priority_score": 80
   },
   {
-    "id": 153,
-    "term": "Carnivore Diet",
-    "definition": "A dietary approach that primarily or exclusively includes animal products, often based on the belief that it avoids processed and unhealthy foods.",
-    "investment_implications": "Investors interested in health and wellness trends may consider the impact of dietary choices on the food industry and related sectors.",
+    "id": 161,
+    "term": "Beta-agnostic",
+    "definition": "An investment approach that is not influenced by market movements or volatility.",
+    "investment_implications": "Conexberger encourages investors to adopt a beta-agnostic approach to emerging markets.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-04-08 03:04:02",
+    "submitted_date": "2026-04-08 10:04:00",
     "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 1624,
+    "id": 1643,
     "name": "Why $200 Oil Won\u2019t Spike Inflation to 9%",
     "slug": "why-200-oil-wont-spike-inflation-to-9",
     "bio": null,
@@ -12921,7 +13171,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1625,
+    "id": 1644,
     "name": "This special episode",
     "slug": "this-special-episode",
     "bio": null,
@@ -12933,7 +13183,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1626,
+    "id": 1645,
     "name": "Lupin Ramon",
     "slug": "lupin-ramon",
     "bio": null,
@@ -12945,7 +13195,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1627,
+    "id": 1646,
     "name": "When the Music Stops",
     "slug": "when-the-music-stops",
     "bio": null,
@@ -12957,7 +13207,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1628,
+    "id": 1647,
     "name": "Ground Infrastructure",
     "slug": "ground-infrastructure",
     "bio": null,
@@ -12969,7 +13219,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1629,
+    "id": 1648,
     "name": "Rory Johnston",
     "slug": "rory-johnston",
     "bio": null,
@@ -12981,7 +13231,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1630,
+    "id": 1649,
     "name": "Senator John Fetterman on Voting Rights",
     "slug": "senator-john-fetterman-on-voting-rights",
     "bio": null,
@@ -12993,7 +13243,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1631,
+    "id": 1650,
     "name": "Stock Market on Shaky Foundations",
     "slug": "stock-market-on-shaky-foundations",
     "bio": null,
@@ -13005,7 +13255,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1632,
+    "id": 1651,
     "name": "Elon Musk on Moonshots",
     "slug": "elon-musk-on-moonshots",
     "bio": null,
@@ -13017,7 +13267,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1633,
+    "id": 1652,
     "name": "Investing in Capitalism",
     "slug": "investing-in-capitalism",
     "bio": null,
@@ -13029,7 +13279,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1634,
+    "id": 1653,
     "name": "Harvard Professor Graham Allison",
     "slug": "harvard-professor-graham-allison",
     "bio": null,
@@ -13041,7 +13291,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1635,
+    "id": 1654,
     "name": "Andrew Yang",
     "slug": "andrew-yang",
     "bio": "Andrew Yang is an entrepreneur and political leader who popularized universal basic income in U.S. politics through his 2020 presidential campaign.",
@@ -13053,7 +13303,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1636,
+    "id": 1655,
     "name": "Inventing the Renaissance",
     "slug": "inventing-the-renaissance",
     "bio": null,
@@ -13065,7 +13315,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1637,
+    "id": 1656,
     "name": "Ray Dalio",
     "slug": "ray-dalio",
     "bio": "Ray Dalio is the founder of Bridgewater Associates and a macro investor known for his 'Principles' framework and work on long-term debt cycles.",
@@ -13077,7 +13327,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1638,
+    "id": 1657,
     "name": "Nobel Prize-winning economist Paul Krugman",
     "slug": "nobel-prize-winning-economist-paul-krugman",
     "bio": null,
@@ -13089,7 +13339,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1639,
+    "id": 1658,
     "name": "host Jack Mallers",
     "slug": "host-jack-mallers",
     "bio": null,
@@ -13101,7 +13351,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1640,
+    "id": 1659,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -13113,7 +13363,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1641,
+    "id": 1660,
     "name": "Bosworth",
     "slug": "bosworth",
     "bio": null,
@@ -13125,7 +13375,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1642,
+    "id": 1661,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -13156,7 +13406,7 @@ const dashboardData = {
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-03-19",
     "mention_score": 4,
-    "mention_score_decayed": 3.25,
+    "mention_score_decayed": 3.17,
     "last_main_idea": "The Iran conflict could lead to a renewed inflation cycle, affecting commodities and energy markets, with potential second-order effects that markets may currently be underpricing.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:36:30.218908",
@@ -13274,7 +13524,7 @@ const dashboardData = {
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-03-19",
     "mention_score": 2,
-    "mention_score_decayed": 1.62,
+    "mention_score_decayed": 1.59,
     "last_main_idea": "The Iran conflict could lead to a renewed inflation cycle, affecting commodities and energy markets, with potential second-order effects that markets may currently be underpricing.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:35:48.845381",
@@ -13581,6 +13831,182 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
+    "id": 162,
+    "name": "Michael Nielsen",
+    "slug": "michael-nielsen",
+    "bio": "Michael Nielsen is a pioneer in the field of chronic computing and a significant figure in the open science movement. He is known for writing the main textbook in the field of the open science movement and contributing to the understanding of scientific progress. Nielsen is currently a research fellow at the Stair Institute and is working on a book about religion, science, and technology.",
+    "known_for": "His contributions to the open science movement and his work on recognizing scientific progress, particularly in the context of AI and scientific discovery.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Educative and insightful",
+    "voice_style": "Analytical and historical in approach",
+    "voice_delivery_notes": "Paced with emphasis on key historical points and scientific concepts",
+    "voice_profile_updated_at": "2026-04-08 10:04:28",
+    "last_seen": "2026-04-08 10:04:28",
+    "last_episode_title": "Michael Nielsen \u2013 How science actually progresses",
+    "last_podcast_name": "Dwarkesh Podcast",
+    "last_episode_date": "2026-04-07",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "The core thesis presented is that advancements in AI and computer science can lead to new fields and paradigms, offering investment opportunities in technological disruption and innovation.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-08T05:04:38.528660",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Michael Nielsen",
+      "fetched_at": "2026-04-08T10:04:38.528161+00:00",
+      "cliff_notes": "Michael Nielsen is a renowned researcher and author who has made significant contributions to the fields of chronic computing and the open science movement. As a pioneer in chronic computing, Nielsen has been instrumental in shaping the way we understand and approach scientific progress. His work on the main textbook in the field of the open science movement has been influential in advancing the understanding of scientific progress and its implications for AI and scientific discovery. Currently, Nielsen is a research fellow at the Stair Institute, where he is focusing on a book about the intersection of religion, science, and technology. His work continues to be a valuable resource for those interested in the future of science and technology.",
+      "derived": {
+        "current_role": "Research Fellow at the Stair Institute",
+        "former_positions": "Pioneer in chronic computing",
+        "books_or_works": "Main textbook in the field of the open science movement"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Michael Nielsen is a renowned researcher and author who has made significant contributions to the fields of chronic computing and the open science movement. As a pioneer in chronic computing, Nielsen has been instrumental in shaping the way we understand and approach scientific progress. His work on the main textbook in the field of the open science movement has been influential in advancing the understanding of scientific progress and its implications for AI and scientific discovery.",
+        "Currently, Nielsen is a research fellow at the Stair Institute, where he is focusing on a book about the intersection of religion, science, and technology. His work continues to be a valuable resource for those interested in the future of science and technology."
+      ],
+      "sections": [
+        {
+          "heading": "Open Science Movement",
+          "body": "Michael Nielsen is known for writing the main textbook in the field of the open science movement, which has helped to advance the understanding of scientific progress and its implications for AI and scientific discovery."
+        },
+        {
+          "heading": "Chronic Computing",
+          "body": "As a pioneer in chronic computing, Nielsen has been instrumental in shaping the way we understand and approach scientific progress, particularly in the context of AI and scientific discovery."
+        },
+        {
+          "heading": "Research Fellow at Stair Institute",
+          "body": "Nielsen is currently a research fellow at the Stair Institute, where he is working on a book about the intersection of religion, science, and technology, further expanding his contributions to the understanding of scientific progress."
+        }
+      ]
+    }
+  },
+  {
+    "id": 161,
+    "name": "Robert Conexberger",
+    "slug": "robert-conexberger",
+    "bio": "Robert Conexberger is the CIO and founder of Grammar C, a multi-billion dollar emerging markets alternative investment manager. With a career in emerging market investing that began in the mid to late 1980s, Conexberger has been a significant figure in the industry, particularly during the less developed country debt crisis.",
+    "known_for": "His long-standing expertise and leadership in emerging market investing.",
+    "net_worth_usd": 80000000.0,
+    "net_worth_source": "https://thecollegeinvestor.com/972/the-top-10-investors-of-all-time/",
+    "net_worth_updated_at": "2026-04-08T05:04:50.103987",
+    "voice_tone": "Informed and experienced.",
+    "voice_style": "Conexberger presents a balanced view, acknowledging both the risks and opportunities in emerging markets.",
+    "voice_delivery_notes": "Speak with a measured pace, emphasizing key points about market evolution and investment strategies.",
+    "voice_profile_updated_at": "2026-04-08 10:04:00",
+    "last_seen": "2026-04-08 10:04:00",
+    "last_episode_title": "Why Emerging Markets are Finally Outperforming Developed Markets | Robert Koenigsberger | Gramercy",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-04-07",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investing in select few names within the China property sector can offer significant potential for value appreciation, given the right conditions and primary research.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-08T05:04:49.164717",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Robert Conexberger",
+      "fetched_at": "2026-04-08T10:04:49.164505+00:00",
+      "cliff_notes": "Robert Conexberger is a seasoned investor in emerging markets, with a career that started in the mid to late 1980s. He has been involved in the industry during the less developed country debt crisis and has worked with key figures in international finance. Conexberger is recognized for his deep understanding of the complexities and opportunities in emerging markets, which has made him a respected figure in the field. As the CIO and founder of Grammar C, he leads a multi-billion dollar alternative investment manager focused on emerging markets, leveraging his extensive experience to guide investments and strategies.",
+      "derived": {
+        "current_role": "CIO and founder of Grammar C"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Robert Conexberger is a seasoned investor in emerging markets, with a career that started in the mid to late 1980s. He has been involved in the industry during the less developed country debt crisis and has worked with key figures in international finance. Conexberger is recognized for his deep understanding of the complexities and opportunities in emerging markets, which has made him a respected figure in the field.",
+        "As the CIO and founder of Grammar C, he leads a multi-billion dollar alternative investment manager focused on emerging markets, leveraging his extensive experience to guide investments and strategies."
+      ],
+      "sections": [
+        {
+          "heading": "Emerging Markets Expertise",
+          "body": "Robert Conexberger has been investing in emerging markets since before they were widely recognized, gaining a deep understanding of the sector's intricacies and potential."
+        },
+        {
+          "heading": "Career Beginnings",
+          "body": "Conexberger's career began during the less developed country debt crisis in the mid to late 1980s, where he worked with individuals who had significant roles in international finance."
+        },
+        {
+          "heading": "Grammar C",
+          "body": "As the founder and CIO of Grammar C, Conexberger leads a multi-billion dollar emerging markets alternative investment manager, applying his extensive experience to drive the company's strategies."
+        }
+      ]
+    },
+    "net_worth": "$80.0M"
+  },
+  {
+    "id": 160,
+    "name": "Ben Lamm",
+    "slug": "ben-lamm",
+    "bio": "Ben Lamm is the CEO of Colossal, a biotech company that focuses on de-extinction and genetic engineering. He is known for his work in using AI and synthetic biology to revive extinct species and address global challenges, such as plastic pollution.",
+    "known_for": "Reviving extinct species and addressing global challenges through AI and synthetic biology.",
+    "net_worth_usd": 3900000000.0,
+    "net_worth_source": "https://en.wikipedia.org/wiki/Ben_Lamm",
+    "net_worth_updated_at": "2026-04-08T05:05:01.706503",
+    "voice_tone": "Passionate and visionary.",
+    "voice_style": "Convincingly presents the company's goals and technological capabilities.",
+    "voice_delivery_notes": "Speaks with a clear emphasis on the potential impact of their work.",
+    "voice_profile_updated_at": "2026-04-08 10:03:43",
+    "last_seen": "2026-04-08 10:03:43",
+    "last_episode_title": "How AI Is Bringing Extinct Animals Back (And What Comes Next) | Ben Lamm (Colossal) | EP #245",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-04-07",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investment in Colossal represents a bet on the convergence of synthetic biology, AI, and environmental conservation, with potential for significant technological and societal impact.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-08T05:05:00.239498",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Ben Lamm",
+      "fetched_at": "2026-04-08T10:05:00.239257+00:00",
+      "cliff_notes": "Ben Lamm is a visionary entrepreneur who has made significant strides in the field of biotechnology. As the CEO of Colossal, he leads a team that is pioneering the use of AI and synthetic biology to revive extinct species and tackle pressing global issues. Lamm's work is not limited to de-extinction; his company is also spinning out other ventures that have the potential to revolutionize industries. One such example is their work on breaking chemical bonds of plastic, which could have a significant impact on environmental conservation. His approach to integrating AI into biotechnology has positioned him as a thought leader in the intersection of technology and sustainability.",
+      "derived": {
+        "current_role": "CEO of Colossal"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Ben Lamm is a visionary entrepreneur who has made significant strides in the field of biotechnology. As the CEO of Colossal, he leads a team that is pioneering the use of AI and synthetic biology to revive extinct species and tackle pressing global issues. Lamm's work is not limited to de-extinction; his company is also spinning out other ventures that have the potential to revolutionize industries.",
+        "One such example is their work on breaking chemical bonds of plastic, which could have a significant impact on environmental conservation. His approach to integrating AI into biotechnology has positioned him as a thought leader in the intersection of technology and sustainability."
+      ],
+      "sections": [
+        {
+          "heading": "De-extinction",
+          "body": "Ben Lamm is leading the charge in the revival of extinct species through the use of advanced genetic engineering techniques."
+        },
+        {
+          "heading": "Genetic Engineering",
+          "body": "Lamm's company, Colossal, is at the forefront of genetic engineering, aiming to bring back extinct species and create new biological solutions."
+        },
+        {
+          "heading": "AI Integration",
+          "body": "Colossal utilizes AI to design and build living products, setting a new standard for biotech companies in leveraging artificial intelligence."
+        },
+        {
+          "heading": "Environmental Impact",
+          "body": "Ben Lamm's work extends to addressing environmental challenges, such as developing microbes capable of breaking down plastic pollutants."
+        }
+      ]
+    },
+    "net_worth": "$3.90B"
+  },
+  {
     "id": 159,
     "name": "Dr. Frenner",
     "slug": "dr-frenner",
@@ -13657,7 +14083,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-04-06",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Investing in US defense and technology companies that align with maintaining the nation's global primacy and ensuring economic prosperity.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-07T05:05:35.906002",
@@ -13714,7 +14140,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-04-06",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Investing in US defense and technology companies that align with maintaining the nation's global primacy and ensuring economic prosperity.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-07T05:05:49.320297",
@@ -13771,7 +14197,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-06",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Investing in companies that leverage coding agents could offer significant productivity gains and reshape the software development landscape.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-07T05:06:04.126625",
@@ -13892,7 +14318,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Invest in AI technologies that leverage the breakthroughs in large language models, reasoning, agents, and self-improvement, as these advancements could lead to transformative software architectures and industry disruptions.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-04T05:05:35.449489",
@@ -13953,7 +14379,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "Investing in technologies that can verify human interactions online is becoming critical as AI-generated content proliferates, posing both challenges and opportunities for social media platforms and the broader digital economy.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-03T05:05:04.562022",
@@ -14010,7 +14436,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "Investing in technologies that can verify human interactions online is becoming critical as AI-generated content proliferates, posing both challenges and opportunities for social media platforms and the broader digital economy.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-03T05:05:15.312671",
@@ -14068,7 +14494,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-04-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "Invest in sectors less affected by AI disruption and monitor geopolitical events for opportunities in private credit markets.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-03T05:05:31.083540",
@@ -14106,180 +14532,6 @@ const dashboardData = {
       ]
     },
     "net_worth": "$185.0M"
-  },
-  {
-    "id": 149,
-    "name": "Dr. Onis Ahaji",
-    "slug": "dr-onis-ahaji",
-    "bio": "Dr. Onis Ahaji is the Founder and Managing Partner of Energy Outlook Advisors, a firm specializing in energy market analysis and geopolitical risk assessment. His expertise is highly sought after in the financial sector, particularly in the context of Iran conflict updates and their impact on energy markets.",
-    "known_for": "His insights into the geopolitical dynamics affecting energy markets, especially in the context of Iran and the Middle East.",
-    "net_worth_usd": 500000000.0,
-    "net_worth_source": "https://en.wikipedia.org/wiki/List_of_Iranians_by_net_worth",
-    "net_worth_updated_at": "2026-04-03T05:05:41.325252",
-    "voice_tone": "",
-    "voice_style": "",
-    "voice_delivery_notes": "",
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-04-03 10:04:02",
-    "last_episode_title": "MacroVoices #526 Matt Barrie: Pay To PrAI",
-    "last_podcast_name": "Macro Voices",
-    "last_episode_date": "2026-04-02",
-    "mention_score": 1,
-    "mention_score_decayed": 0.91,
-    "last_main_idea": "Invest in sectors less affected by AI disruption and monitor geopolitical events for opportunities in private credit markets.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-03T05:05:40.347752",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Dr. Onis Ahaji",
-      "fetched_at": "2026-04-03T10:05:40.347609+00:00",
-      "cliff_notes": "Dr. Onis Ahaji is recognized for his deep understanding of the energy sector, particularly how geopolitical events shape market trends. As the Founder and Managing Partner of Energy Outlook Advisors, he provides critical analysis and forecasts that are invaluable to investors and policymakers. His expertise extends to the Middle East, where he has closely followed the Iran conflict and its ripple effects on global energy markets. His work is respected for its clarity and impact, making him a go-to source for those navigating the complex interplay between politics and energy economics.",
-      "derived": {
-        "current_role": "Founder and Managing Partner of Energy Outlook Advisors"
-      },
-      "infobox": {
-        "Nationality": "Not specified"
-      },
-      "lead_paragraphs": [
-        "Dr. Onis Ahaji is recognized for his deep understanding of the energy sector, particularly how geopolitical events shape market trends. As the Founder and Managing Partner of Energy Outlook Advisors, he provides critical analysis and forecasts that are invaluable to investors and policymakers. His expertise extends to the Middle East, where he has closely followed the Iran conflict and its ripple effects on global energy markets.",
-        "His work is respected for its clarity and impact, making him a go-to source for those navigating the complex interplay between politics and energy economics."
-      ],
-      "sections": [
-        {
-          "heading": "Energy Market Analysis",
-          "body": "Dr. Ahaji is known for his comprehensive analysis of energy markets, with a focus on how geopolitical events can influence prices and supply."
-        },
-        {
-          "heading": "Iran Conflict Update",
-          "body": "He provides regular updates on the Iran conflict, assessing its potential impact on energy markets and offering strategic insights for investors."
-        },
-        {
-          "heading": "Geopolitical Risk Assessment",
-          "body": "Dr. Ahaji's expertise in geopolitical risk assessment is highly valued, especially in understanding the implications of Middle Eastern conflicts on the global energy landscape."
-        }
-      ]
-    },
-    "net_worth": "$500.0M"
-  },
-  {
-    "id": 147,
-    "name": "Anna Wang",
-    "slug": "anna-wang",
-    "bio": "Anna Wang is the Chief U.S. Economist at Bloomberg, where she provides economic analysis and commentary on inflation and oil prices. She is known for her insightful views on the economic implications of oil price fluctuations and their impact on inflation.",
-    "known_for": "Economic analysis and commentary on inflation and oil prices.",
-    "net_worth_usd": 3000000000.0,
-    "net_worth_source": "https://www.gurufocus.com/insider/231639/wang-nan",
-    "net_worth_updated_at": "2026-04-01T22:04:03.961801",
-    "voice_tone": "Analytical and measured.",
-    "voice_style": "Provides detailed economic analysis with a focus on data and trends.",
-    "voice_delivery_notes": "Speaks with a clear and deliberate pace, emphasizing key economic indicators and potential outcomes.",
-    "voice_profile_updated_at": "2026-04-02 03:03:55",
-    "last_seen": "2026-04-02 03:03:55",
-    "last_episode_title": "Why $200 Oil Won\u2019t Spike Inflation to 9% | Anna Wong on Recession Probability, PCE vs CPI, and Fed Reaction Function In A Scenario of Soaring Energy Prices",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-04-01",
-    "mention_score": 1,
-    "mention_score_decayed": 0.87,
-    "last_main_idea": "Pictay asset management's AI-enhanced ETFs (PQNT and PQUS) aim to provide enhanced equity exposure through the use of artificial intelligence.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-01T22:04:02.778580",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Anna Wang",
-      "fetched_at": "2026-04-02T03:04:02.778251+00:00",
-      "cliff_notes": "Anna Wang is a prominent economist known for her expertise in U.S. economic analysis, particularly in the areas of inflation and oil prices. As the Chief U.S. Economist at Bloomberg, she offers valuable insights into the economic landscape, helping investors and policymakers navigate complex market conditions. Wang's career has been marked by her ability to provide clear and concise analysis on economic trends, making her a sought-after commentator in the financial industry. Her work at Bloomberg has allowed her to influence economic discourse and contribute to a better understanding of the factors driving inflation and oil prices.",
-      "derived": {
-        "current_role": "Chief U.S. Economist at Bloomberg"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Anna Wang is a prominent economist known for her expertise in U.S. economic analysis, particularly in the areas of inflation and oil prices. As the Chief U.S. Economist at Bloomberg, she offers valuable insights into the economic landscape, helping investors and policymakers navigate complex market conditions. Wang's career has been marked by her ability to provide clear and concise analysis on economic trends, making her a sought-after commentator in the financial industry.",
-        "Her work at Bloomberg has allowed her to influence economic discourse and contribute to a better understanding of the factors driving inflation and oil prices."
-      ],
-      "sections": [
-        {
-          "heading": "Economic Analysis",
-          "body": "Anna Wang is known for her economic analysis, particularly focusing on inflation and oil prices, providing investors with valuable insights into market trends."
-        },
-        {
-          "heading": "Oil Price Impact",
-          "body": "Wang's commentary on the impact of oil prices on inflation has been influential, challenging conventional views and providing a unique perspective on economic indicators."
-        },
-        {
-          "heading": "Economic Commentary",
-          "body": "As a commentator on economic issues, Wang has been instrumental in shaping discussions around the economic implications of oil price fluctuations and their broader impact on the economy."
-        }
-      ]
-    },
-    "net_worth": "$3.00B"
-  },
-  {
-    "id": 145,
-    "name": "Owen Jennings",
-    "slug": "owen-jennings",
-    "bio": "Owen Jennings is an Executive Officer and Business Lead at Block, managing product operations and customer support across Square, Cash App, and Afterpay. He is known for leading Cash App through its critical scaling period and overseeing Block's AI transformation.",
-    "known_for": "Leading Cash App through its critical scaling period and overseeing Block's AI transformation.",
-    "net_worth_usd": 15000000.0,
-    "net_worth_source": "https://www.gurufocus.com/insider/265938/owen-britton-jennings",
-    "net_worth_updated_at": "2026-04-01T15:15:32.439710",
-    "voice_tone": "Confident and matter-of-fact",
-    "voice_style": "Direct and focused on the practical implications of AI on business operations",
-    "voice_delivery_notes": "Clear and concise, with emphasis on the transformative impact of AI",
-    "voice_profile_updated_at": "2026-04-01 20:15:22",
-    "last_seen": "2026-04-01 20:15:22",
-    "last_episode_title": "What Happens When a Public Company Goes All In on AI",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-04-01",
-    "mention_score": 1,
-    "mention_score_decayed": 0.87,
-    "last_main_idea": "Investing in companies that understand complex problems and can leverage AI to gain a competitive advantage in their operations and product development.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-01T15:15:31.311281",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Owen Jennings",
-      "fetched_at": "2026-04-01T20:15:31.310842+00:00",
-      "cliff_notes": "Owen Jennings is a key figure in the fintech industry, particularly through his role at Block, where he has been instrumental in the growth and scaling of Cash App. His leadership has been pivotal during a critical period of expansion for the company, and he has been at the forefront of Block's AI transformation. Jennings' approach to management and operations has been marked by a focus on efficiency and productivity, as evidenced by his decision to cut the workforce by 40%, emphasizing the importance of leveraging technology and AI to maximize output. His career has been marked by a deep understanding of the intersection between technology and finance, making him a significant player in the industry.",
-      "derived": {
-        "current_role": "Executive Officer and Business Lead at Block"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Owen Jennings is a key figure in the fintech industry, particularly through his role at Block, where he has been instrumental in the growth and scaling of Cash App. His leadership has been pivotal during a critical period of expansion for the company, and he has been at the forefront of Block's AI transformation. Jennings' approach to management and operations has been marked by a focus on efficiency and productivity, as evidenced by his decision to cut the workforce by 40%, emphasizing the importance of leveraging technology and AI to maximize output.",
-        "His career has been marked by a deep understanding of the intersection between technology and finance, making him a significant player in the industry."
-      ],
-      "sections": [
-        {
-          "heading": "Cash App Scaling",
-          "body": "Owen Jennings played a crucial role in leading Cash App through its critical scaling period, managing the app's growth and ensuring its stability amidst rapid expansion."
-        },
-        {
-          "heading": "AI Transformation at Block",
-          "body": "Jennings has overseen Block's AI transformation, integrating advanced technologies to enhance the company's operations and improve efficiency."
-        },
-        {
-          "heading": "Workforce Reduction",
-          "body": "In a bold move, Jennings led the decision to cut Block's workforce by 40%, emphasizing the shift towards leveraging technology and AI to increase productivity rather than solely relying on human labor."
-        },
-        {
-          "heading": "Productivity and Technology",
-          "body": "Jennings believes in the power of technology to increase productivity, suggesting that for a given product or roadmap, fewer engineers, designers, and PMs are needed due to the capabilities of advanced systems."
-        }
-      ]
-    },
-    "net_worth": "$15.0M"
   }
 ]
 };
