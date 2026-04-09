@@ -1,33 +1,20 @@
 {
-  "timestamp": "2026-04-08T05:03:09.380798",
-  "total_feed_episodes": 4,
-  "approved_for_transcription": 4,
+  "timestamp": "2026-04-08T22:02:19.093448",
+  "total_feed_episodes": 3,
+  "approved_for_transcription": 3,
   "episodes": [
     {
-      "podcast": "Moonshots with Peter Diamandis",
-      "title": "How AI Is Bringing Extinct Animals Back (And What Comes Next) | Ben Lamm (Colossal) | EP #245",
-      "description": "\n        <p>This episode was filmed at the 2026 Abundance360 Summit. Learn more at <a href=\"https://www.abundance360.com/\"><u>https://www.abundance360.com/</u></a>\u00a0</p>\n<p><br></p>\n<p>This interview explores the groundbreaking work of Colossal in synthetic biology, de-extinction, and AI integration. Colossal CEO Ben Lamm explains how the company is revolutionizing biodiversity preservation, tackling plastic pollution, and creating living products with immense potential.</p>\n<p><br></p>\n<p>Get ac",
-      "audio_url": "https://traffic.megaphone.fm/DVVTS9544942486.mp3",
-      "published": "Tue, 07 Apr 2026 15:37:00 -0000",
-      "published_date": "2026-04-07",
-      "rss_guid": "79836e1e-31fc-11f1-bc68-838bb220a05a",
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/DVVTS9544942486.mp3",
-      "filename": "DVVTS9544942486.mp3",
-      "status": "APPROVED",
-      "matched_keywords": []
-    },
-    {
       "podcast": "Monetary Matters with Jack Farley",
-      "title": "Why Emerging Markets are Finally Outperforming Developed Markets | Robert Koenigsberger | Gramercy",
-      "description": "\n        <p>This episode is sponsored by Pictet Asset Management and its AI-enhanced equity ETFs. Pictet AI Enhanced US Equity ETF (PQUS):\u00a0\u00a0</p>\n<p><br></p>\n<p><a href=\"https://etf.am.pictet.com/pqus/?utm_campaign=usetf&amp;cid=2826077237&amp;utm_source=jfmv&amp;utm_content=pquslp&amp;utm_medium=podcast_02&amp;utm_term=noterm\"><u>https://etf.am.pictet.com/pqus/?utm_campaign=usetf&amp;cid=2826077237&amp;utm_source=jfmv&amp;utm_content=pquslp&amp;utm_medium=podcast_02&amp;utm_term=noterm</u></a></",
-      "audio_url": "https://traffic.megaphone.fm/EWWMN7690139017.mp3",
-      "published": "Tue, 07 Apr 2026 13:00:00 -0000",
-      "published_date": "2026-04-07",
-      "rss_guid": "f81e4d34-3260-11f1-be6a-375a352ad0b8",
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/EWWMN7690139017.mp3",
-      "filename": "EWWMN7690139017.mp3",
+      "title": "Private Credit \u201cDoom\u201d Narrative On Shaky Foundation? | Michael Haynes On Why Retail Outflows Are Real But Credit Foundations Are Solid",
+      "description": "\n        <p>This episode is brought to you by CAIA.nxt. Learn more about their alternatives education courses for investment advisors and get 10% off with code MMTEN: </p>\n<p><a href=\"https://caia.org/content/welcome-monetary-matters-and-other-peoples-money-listeners\">https://caia.org/content/welcome-monetary-matters-and-other-peoples-money-listeners</a></p>\n<p><br></p>\n<p>\u00a0Michael Haynes, Head of Private Credit at Beach Point Capital Management, joins Jack for a discussion of private credit. Mi",
+      "audio_url": "https://traffic.megaphone.fm/EWWMN9672742629.mp3",
+      "published": "Wed, 08 Apr 2026 13:10:00 -0000",
+      "published_date": "2026-04-08",
+      "rss_guid": "653e074c-334c-11f1-a19e-174f3bb51697",
       "status": "APPROVED",
-      "matched_keywords": []
+      "matched_keywords": [],
+      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/monetary_matters_with_jack_farley_private_credit__doom__narrative_on_shaky_foundation____micha_cf456be4.mp3",
+      "filename": "monetary_matters_with_jack_farley_private_credit__doom__narrative_on_shaky_foundation____micha_cf456be4.mp3"
     },
     {
       "podcast": "The a16z Show",
@@ -43,17 +30,17 @@
       "filename": "the_a16z_show_the_agent_era__building_software_beyond_chat_with_box_ceo_aa_c035a9af.mp3"
     },
     {
-      "podcast": "Dwarkesh Podcast",
-      "title": "Michael Nielsen \u2013 How science actually progresses",
-      "description": "<p>Really enjoyed chatting with Michael Nielsen about how we recognize scientific progress.</p><p>It's especially relevant for closing the RL verification loop for scientific discovery.</p><p>But it's also a surprisingly mysterious and elusive question when you look at the history of human science.</p><p>We approach this question stories like Einstein (who claimed that he hadn't even heard of the famous Michelson-Morley experiment, which is supposed to have motivated special relativity, until af",
-      "audio_url": "https://api.substack.com/feed/podcast/193466212/e5343bce6cf37efafa778abc5594aa67.mp3",
-      "published": "Tue, 07 Apr 2026 15:49:28 GMT",
-      "published_date": "2026-04-07",
-      "rss_guid": "substack:post:193466212",
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/e5343bce6cf37efafa778abc5594aa67.mp3",
-      "filename": "e5343bce6cf37efafa778abc5594aa67.mp3",
+      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "title": "Josh Shapiro on Trump, Iran War Chaos, Israel's Failure, the Economy, and 2028 Race",
+      "description": "<p>(0:00) Jason intros PA Governor Josh Shapiro</p> <p>(1:40) Shapiro's blueprint for PA: pro-growth, pro-freedom, less red tape, prosecuting fraud</p> <p>(13:05) Wealth tax debate, what Dems are getting wrong on business</p> <p>(20:17) 2024 Democratic collapse, future of the party, socialist wing</p> <p>(38:12) How Congress has become \"pathetic,\" political corruption</p> <p>(47:18) Antisemitism, Netanyahu's failures, and the chaos of the Iran War</p> <p>Follow Gov. Shapiro:</p> <p><a href= \"htt",
+      "audio_url": "https://dts.podtrac.com/redirect.mp3/traffic.libsyn.com/secure/allinchamathjason/ALLIN_INTV_Shapiro_Ch.mp3?dest-id=1928300",
+      "published": "Wed, 08 Apr 2026 15:52:00 +0000",
+      "published_date": "2026-04-08",
+      "rss_guid": "18c8b23b-ddd6-47ed-97d0-784826b47d19",
       "status": "APPROVED",
-      "matched_keywords": []
+      "matched_keywords": [],
+      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/all_in_with_chamath__jason__sacks___frie_josh_shapiro_on_trump__iran_war_chaos__israel_s_failure__the_7288c980.mp3",
+      "filename": "all_in_with_chamath__jason__sacks___frie_josh_shapiro_on_trump__iran_war_chaos__israel_s_failure__the_7288c980.mp3"
     }
   ]
 }

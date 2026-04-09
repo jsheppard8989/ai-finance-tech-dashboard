@@ -1,100 +1,14 @@
 {
-  "last_updated": "2026-04-08T05:06:51.195770",
+  "last_updated": "2026-04-08T22:03:42.195904",
   "episodes": {
-    "moonshots_with_peter_diamandis_how_ai_is_bringing_extinct_ani": {
-      "info": {
-        "podcast": "Moonshots with Peter Diamandis",
-        "title": "How AI Is Bringing Extinct Animals Back (And What Comes Next) | Ben Lamm (Colossal) | EP #245",
-        "published": "2026-04-07",
-        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/DVVTS9544942486.mp3",
-        "keywords": [],
-        "rss_guid": "79836e1e-31fc-11f1-bc68-838bb220a05a"
-      },
-      "stages": {
-        "downloaded": {
-          "complete": true,
-          "timestamp": null,
-          "reason": null
-        },
-        "transcribed": {
-          "complete": true,
-          "file": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/DVVTS9544942486.txt",
-          "timestamp": null,
-          "reason": null
-        },
-        "analyzed": {
-          "complete": true,
-          "episode_id": 142,
-          "timestamp": null,
-          "reason": null
-        },
-        "insight_created": {
-          "complete": true,
-          "insight_id": 17,
-          "insight_title": "Moonshots #231: 400x AI Cost Collapse & India's Talent Decade",
-          "timestamp": null,
-          "reason": null
-        },
-        "published": {
-          "complete": false,
-          "timestamp": null,
-          "reason": "Not in data.js yet (run export and push to site)."
-        }
-      },
-      "first_seen": "2026-04-08T05:06:51.065034",
-      "status": "needs_export"
-    },
-    "monetary_matters_with_jack_farley_why_emerging_markets_are_final": {
+    "monetary_matters_with_jack_farley_private_credit_\u201cdoom\u201d_narrativ": {
       "info": {
         "podcast": "Monetary Matters with Jack Farley",
-        "title": "Why Emerging Markets are Finally Outperforming Developed Markets | Robert Koenigsberger | Gramercy",
-        "published": "2026-04-07",
-        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/EWWMN7690139017.mp3",
-        "keywords": [],
-        "rss_guid": "f81e4d34-3260-11f1-be6a-375a352ad0b8"
-      },
-      "stages": {
-        "downloaded": {
-          "complete": true,
-          "timestamp": null,
-          "reason": null
-        },
-        "transcribed": {
-          "complete": true,
-          "file": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/EWWMN7690139017.txt",
-          "timestamp": null,
-          "reason": null
-        },
-        "analyzed": {
-          "complete": true,
-          "episode_id": 143,
-          "timestamp": null,
-          "reason": null
-        },
-        "insight_created": {
-          "complete": true,
-          "insight_id": 26,
-          "insight_title": "Milton Berg: Rare Signal \u2014 Local Bottom or Major Top Ahead",
-          "timestamp": null,
-          "reason": null
-        },
-        "published": {
-          "complete": false,
-          "timestamp": null,
-          "reason": "Not in data.js yet (run export and push to site)."
-        }
-      },
-      "first_seen": "2026-04-08T05:06:51.094214",
-      "status": "needs_export"
-    },
-    "the_a16z_show_the_agent_era:_building_softwa": {
-      "info": {
-        "podcast": "The a16z Show",
-        "title": "The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
+        "title": "Private Credit \u201cDoom\u201d Narrative On Shaky Foundation? | Michael Haynes On Why Retail Outflows Are Real But Credit Foundations Are Solid",
         "published": "2026-04-08",
-        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_the_agent_era__building_software_beyond_chat_with_box_ceo_aa_c035a9af.mp3",
+        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/monetary_matters_with_jack_farley_private_credit__doom__narrative_on_shaky_foundation____micha_cf456be4.mp3",
         "keywords": [],
-        "rss_guid": "d8e62120-c865-428e-b1c2-1d965406f293"
+        "rss_guid": "653e074c-334c-11f1-a19e-174f3bb51697"
       },
       "stages": {
         "downloaded": {
@@ -125,17 +39,17 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-04-08T05:06:51.112256",
+      "first_seen": "2026-04-08T22:03:42.084216",
       "status": "needs_transcription"
     },
-    "dwarkesh_podcast_michael_nielsen_\u2013_how_science_": {
+    "the_a16z_show_the_agent_era:_building_softwa": {
       "info": {
-        "podcast": "Dwarkesh Podcast",
-        "title": "Michael Nielsen \u2013 How science actually progresses",
-        "published": "2026-04-07",
-        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/e5343bce6cf37efafa778abc5594aa67.mp3",
+        "podcast": "The a16z Show",
+        "title": "The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
+        "published": "2026-04-08",
+        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_the_agent_era__building_software_beyond_chat_with_box_ceo_aa_c035a9af.mp3",
         "keywords": [],
-        "rss_guid": "substack:post:193466212"
+        "rss_guid": "d8e62120-c865-428e-b1c2-1d965406f293"
       },
       "stages": {
         "downloaded": {
@@ -145,22 +59,20 @@
         },
         "transcribed": {
           "complete": true,
-          "file": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/e5343bce6cf37efafa778abc5594aa67.txt",
+          "file": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/the_a16z_show_20260408_d8e62120_c865_428e_b1c2_1d965406.txt",
           "timestamp": null,
           "reason": null
         },
         "analyzed": {
-          "complete": true,
-          "episode_id": 144,
+          "complete": false,
+          "episode_id": null,
           "timestamp": null,
-          "reason": null
+          "reason": "Waiting for next analyze run (transcript \u2192 DB)."
         },
         "insight_created": {
-          "complete": true,
-          "insight_id": 77,
-          "insight_title": "AI and the Future of Warfare: The Department of War vs. Anthropic",
+          "complete": false,
           "timestamp": null,
-          "reason": null
+          "reason": "Depends on analyze step first."
         },
         "published": {
           "complete": false,
@@ -168,8 +80,49 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-04-08T05:06:51.172438",
-      "status": "needs_export"
+      "first_seen": "2026-04-08T22:03:42.161398",
+      "status": "needs_analysis"
+    },
+    "all-in_with_chamath,_jason,_sacks_&_friedberg_josh_shapiro_on_trump,_iran_wa": {
+      "info": {
+        "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+        "title": "Josh Shapiro on Trump, Iran War Chaos, Israel's Failure, the Economy, and 2028 Race",
+        "published": "2026-04-08",
+        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/all_in_with_chamath__jason__sacks___frie_josh_shapiro_on_trump__iran_war_chaos__israel_s_failure__the_7288c980.mp3",
+        "keywords": [],
+        "rss_guid": "18c8b23b-ddd6-47ed-97d0-784826b47d19"
+      },
+      "stages": {
+        "downloaded": {
+          "complete": true,
+          "timestamp": null,
+          "reason": null
+        },
+        "transcribed": {
+          "complete": false,
+          "file": null,
+          "timestamp": null,
+          "reason": "Waiting for fetch/transcribe step"
+        },
+        "analyzed": {
+          "complete": false,
+          "episode_id": null,
+          "timestamp": null,
+          "reason": "Waiting for next analyze run (transcript \u2192 DB)."
+        },
+        "insight_created": {
+          "complete": false,
+          "timestamp": null,
+          "reason": "Depends on analyze step first."
+        },
+        "published": {
+          "complete": false,
+          "timestamp": null,
+          "reason": "Not in data.js yet (run export and push to site)."
+        }
+      },
+      "first_seen": "2026-04-08T22:03:42.172507",
+      "status": "needs_transcription"
     }
   }
 }

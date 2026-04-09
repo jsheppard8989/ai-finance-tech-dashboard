@@ -1,33 +1,26 @@
 {
-  "timestamp": "2026-04-08T05:03:25.512313",
+  "timestamp": "2026-04-08T22:02:30.931223",
   "results": [
     {
-      "podcast": "Moonshots with Peter Diamandis",
-      "title": "How AI Is Bringing Extinct Animals Back (And What Comes Next) | Ben Lamm (Colossal) | EP #245",
-      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/DVVTS9544942486.mp3",
-      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/DVVTS9544942486.txt",
-      "success": true
-    },
-    {
       "podcast": "Monetary Matters with Jack Farley",
-      "title": "Why Emerging Markets are Finally Outperforming Developed Markets | Robert Koenigsberger | Gramercy",
-      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/EWWMN7690139017.mp3",
-      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/EWWMN7690139017.txt",
-      "success": true
+      "title": "Private Credit \u201cDoom\u201d Narrative On Shaky Foundation? | Michael Haynes On Why Retail Outflows Are Real But Credit Foundations Are Solid",
+      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/EWWMN9672742629.mp3",
+      "transcript_path": null,
+      "success": false
     },
     {
       "podcast": "The a16z Show",
       "title": "The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
       "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_20260408_d8e62120_c865_428e_b1c2_1d965406.mp3",
-      "transcript_path": null,
-      "success": false
+      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/the_a16z_show_20260408_d8e62120_c865_428e_b1c2_1d965406.txt",
+      "success": true
     },
     {
-      "podcast": "Dwarkesh Podcast",
-      "title": "Michael Nielsen \u2013 How science actually progresses",
-      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/e5343bce6cf37efafa778abc5594aa67.mp3",
-      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/e5343bce6cf37efafa778abc5594aa67.txt",
-      "success": true
+      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "title": "Josh Shapiro on Trump, Iran War Chaos, Israel's Failure, the Economy, and 2028 Race",
+      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/ALLIN_INTV_Shapiro_Ch.mp3",
+      "transcript_path": null,
+      "success": false
     }
   ]
 }
