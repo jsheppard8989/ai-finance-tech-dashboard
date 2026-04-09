@@ -17,7 +17,7 @@
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-03-19",
     "mention_score": 4,
-    "mention_score_decayed": 3.17,
+    "mention_score_decayed": 3.1,
     "last_main_idea": "The Iran conflict could lead to a renewed inflation cycle, affecting commodities and energy markets, with potential second-order effects that markets may currently be underpricing.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:36:30.218908",
@@ -73,7 +73,7 @@
     "last_podcast_name": "All-In Podcast",
     "last_episode_date": "2026-03-28",
     "mention_score": 3,
-    "mention_score_decayed": 2.38,
+    "mention_score_decayed": 2.33,
     "last_main_idea": "Investing in AI-driven platforms and technologies is essential for capturing the growth in the global financial system and staying ahead in the AI era.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:40:52.368193",
@@ -135,7 +135,7 @@
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-03-19",
     "mention_score": 2,
-    "mention_score_decayed": 1.59,
+    "mention_score_decayed": 1.55,
     "last_main_idea": "The Iran conflict could lead to a renewed inflation cycle, affecting commodities and energy markets, with potential second-order effects that markets may currently be underpricing.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:35:48.845381",
@@ -442,6 +442,69 @@
     "pundit_profile": null
   },
   {
+    "id": 163,
+    "name": "Josh Shapiro",
+    "slug": "josh-shapiro",
+    "bio": "Josh Shapiro is the Governor of Pennsylvania, recognized for his focus on pro-growth policies and job creation. With a 60% approval rating, he is known for his moderate stance and his efforts in combating Medicaid fraud, ranking number one in his approach to this issue. Shapiro also supports data center development and has a nuanced view on Israel.",
+    "known_for": "His track record in Pennsylvania, including his focus on economic growth and his nuanced views on Israel.",
+    "net_worth_usd": 35000000.0,
+    "net_worth_source": "https://nationaltoday.com/us/pa/harrisburg/news/2026/02/24/josh-shapiros-35-million-net-worth-raises-questions-about-lobbying-ties/",
+    "net_worth_updated_at": "2026-04-09T05:06:17.030796",
+    "voice_tone": "Confident and focused on policy outcomes.",
+    "voice_style": "Factual and data-driven, emphasizing Pennsylvania's achievements.",
+    "voice_delivery_notes": "Pacing is steady, with emphasis on key policy points.",
+    "voice_profile_updated_at": "2026-04-09 10:05:24",
+    "last_seen": "2026-04-09 10:05:24",
+    "last_episode_title": "Josh Shapiro on Trump, Iran War Chaos, Israel's Failure, the Economy, and 2028 Race",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-04-08",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in Pennsylvania due to its pro-growth policies, job creation, and improved business climate.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-09T05:06:15.797999",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Josh Shapiro",
+      "fetched_at": "2026-04-09T10:06:15.797324+00:00",
+      "cliff_notes": "Josh Shapiro's career has been deeply rooted in Pennsylvania politics. He began his political journey in the state legislature, where he gained a reputation for his commitment to public service. Later, he served as the Attorney General of Pennsylvania, where he made a significant impact by leading the charge against Medicaid fraud, earning a top ranking for his efforts. His tenure as Attorney General also saw him taking on issues that resonated with both moderates and progressives. In 2022, Shapiro was elected as the Governor of Pennsylvania, where he continues to focus on pro-growth policies and job creation. His nuanced stance on Israel and support for data center development have also made him a figure of interest for tech and finance sectors.",
+      "derived": {
+        "current_role": "Governor of Pennsylvania",
+        "political_affiliation": "Democratic Party",
+        "political_summary": "Josh Shapiro is a member of the Democratic Party and has been politically involved, serving as a state legislator before becoming the Attorney General of Pennsylvania. He is now the Governor, focusing on policies that promote economic growth and job creation."
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Josh Shapiro's career has been deeply rooted in Pennsylvania politics. He began his political journey in the state legislature, where he gained a reputation for his commitment to public service. Later, he served as the Attorney General of Pennsylvania, where he made a significant impact by leading the charge against Medicaid fraud, earning a top ranking for his efforts.",
+        "His tenure as Attorney General also saw him taking on issues that resonated with both moderates and progressives. In 2022, Shapiro was elected as the Governor of Pennsylvania, where he continues to focus on pro-growth policies and job creation. His nuanced stance on Israel and support for data center development have also made him a figure of interest for tech and finance sectors."
+      ],
+      "sections": [
+        {
+          "heading": "Economic Growth",
+          "body": "Governor Shapiro is dedicated to fostering economic growth in Pennsylvania through pro-growth policies, which aim to attract businesses and create jobs within the state."
+        },
+        {
+          "heading": "Combating Medicaid Fraud",
+          "body": "Shapiro has been recognized for his aggressive approach to Medicaid fraud, leading the nation in charging those who exploit the system, which has helped protect state resources."
+        },
+        {
+          "heading": "Data Center Support",
+          "body": "Governor Shapiro is a proponent of data center development in Pennsylvania, recognizing the potential for job creation and technological advancement in the state."
+        },
+        {
+          "heading": "Moderate Stance",
+          "body": "With a 60% approval rating, Shapiro is known for his moderate political stance, which allows him to appeal to a broad range of constituents and work across party lines."
+        }
+      ]
+    },
+    "net_worth": "$35.0M"
+  },
+  {
     "id": 162,
     "name": "Michael Nielsen",
     "slug": "michael-nielsen",
@@ -459,7 +522,7 @@
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-04-07",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "The core thesis presented is that advancements in AI and computer science can lead to new fields and paradigms, offering investment opportunities in technological disruption and innovation.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-08T05:04:38.528660",
@@ -517,7 +580,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-07",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Investing in select few names within the China property sector can offer significant potential for value appreciation, given the right conditions and primary research.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-08T05:04:49.164717",
@@ -574,7 +637,7 @@
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-04-07",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Investment in Colossal represents a bet on the convergence of synthetic biology, AI, and environmental conservation, with potential for significant technological and societal impact.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-08T05:05:00.239498",
@@ -635,7 +698,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-07",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Investing in AI infrastructure and applications that can leverage the power of AI while addressing the challenges of verification and privacy.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-07T22:05:37.646780",
@@ -694,7 +757,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-04-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Investing in US defense and technology companies that align with maintaining the nation's global primacy and ensuring economic prosperity.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-07T05:05:35.906002",
@@ -751,7 +814,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-04-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Investing in US defense and technology companies that align with maintaining the nation's global primacy and ensuring economic prosperity.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-07T05:05:49.320297",
@@ -808,7 +871,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Investing in companies that leverage coding agents could offer significant productivity gains and reshape the software development landscape.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-07T05:06:04.126625",
@@ -929,7 +992,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "Invest in AI technologies that leverage the breakthroughs in large language models, reasoning, agents, and self-improvement, as these advancements could lead to transformative software architectures and industry disruptions.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-04T05:05:35.449489",
@@ -990,7 +1053,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Investing in technologies that can verify human interactions online is becoming critical as AI-generated content proliferates, posing both challenges and opportunities for social media platforms and the broader digital economy.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-03T05:05:04.562022",
@@ -1047,7 +1110,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Investing in technologies that can verify human interactions online is becoming critical as AI-generated content proliferates, posing both challenges and opportunities for social media platforms and the broader digital economy.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-03T05:05:15.312671",
@@ -1086,62 +1149,5 @@
         }
       ]
     }
-  },
-  {
-    "id": 148,
-    "name": "Matt Barry",
-    "slug": "matt-barry",
-    "bio": "Matt Barry is the CEO of Freelancer.com, a global freelancing and crowdsourcing marketplace. He is recognized for his expertise in the latest developments on artificial intelligence and its impact on the global workforce.",
-    "known_for": "His insights on the intersection of artificial intelligence and the future of work.",
-    "net_worth_usd": 185000000.0,
-    "net_worth_source": "https://www.therichest.com/celebnetworth/celebrity-business/men/matt-barrie-net-worth/",
-    "net_worth_updated_at": "2026-04-03T05:05:32.018161",
-    "voice_tone": "",
-    "voice_style": "",
-    "voice_delivery_notes": "",
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-04-03 10:04:02",
-    "last_episode_title": "MacroVoices #526 Matt Barrie: Pay To PrAI",
-    "last_podcast_name": "Macro Voices",
-    "last_episode_date": "2026-04-02",
-    "mention_score": 1,
-    "mention_score_decayed": 0.89,
-    "last_main_idea": "Invest in sectors less affected by AI disruption and monitor geopolitical events for opportunities in private credit markets.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-03T05:05:31.083540",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Matt Barry",
-      "fetched_at": "2026-04-03T10:05:31.083389+00:00",
-      "cliff_notes": "Matt Barry is a prominent figure in the technology industry, particularly within the realm of freelancing and crowdsourcing. As the CEO of Freelancer.com, he has been instrumental in shaping the platform into a global marketplace that connects employers with freelancers across various industries. Barry's leadership has been pivotal in navigating the challenges and opportunities presented by the rise of artificial intelligence, ensuring that Freelancer.com remains at the forefront of technological advancements. His contributions to the discourse on AI's impact on employment and the future of work have made him a sought-after voice in both tech and finance circles.",
-      "derived": {
-        "current_role": "CEO of Freelancer.com"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Matt Barry is a prominent figure in the technology industry, particularly within the realm of freelancing and crowdsourcing. As the CEO of Freelancer.com, he has been instrumental in shaping the platform into a global marketplace that connects employers with freelancers across various industries. Barry's leadership has been pivotal in navigating the challenges and opportunities presented by the rise of artificial intelligence, ensuring that Freelancer.com remains at the forefront of technological advancements.",
-        "His contributions to the discourse on AI's impact on employment and the future of work have made him a sought-after voice in both tech and finance circles."
-      ],
-      "sections": [
-        {
-          "heading": "Freelancer.com",
-          "body": "Matt Barry leads Freelancer.com, a platform that has revolutionized the way work is done by connecting employers with freelancers globally."
-        },
-        {
-          "heading": "Artificial Intelligence",
-          "body": "Barry is known for his thought leadership on the implications of AI on the future of work, often discussing how it will reshape the global workforce."
-        },
-        {
-          "heading": "Global Workforce",
-          "body": "His insights into the changing dynamics of the global workforce, especially in the context of technology and AI, are highly valued by investors and tech enthusiasts."
-        }
-      ]
-    },
-    "net_worth": "$185.0M"
   }
 ]

@@ -3,7 +3,7 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-04-08T22:03:53.470641",
+  generatedAt: "2026-04-09T05:07:42.695549",
   chartsVersion: "2026-04-01T15:16:59.801570",
   tickerScores: [
   {
@@ -760,6 +760,28 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 160,
+      "title": "Josh Shapiro on Trump, Iran War Chaos, Israel's Failure, the Economy, and 2028 Race",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-04-08",
+      "summary": "In this episode of 'All-In with Chamath, Jason, Sacks & Friedberg', the hosts interview Governor Josh Shapiro of Pennsylvania. They discuss Shapiro's track record in Pennsylvania, focusing on pro-growth policies, job creation, tax cuts, and improving the state's permitting process. The conversation also touches on the impact of national policies, such as tariffs and the war in Iran, on Pennsylvania's economy. Additionally, Shapiro shares his nuanced views on Israel and the importance of separating anti-Semitism from Middle East policy debates.",
+      "key_takeaway": "Invest in Pennsylvania due to its pro-growth policies, job creation, and improved business climate.",
+      "tickers_mentioned": [
+        "AAPL",
+        "NVDA",
+        "SPY",
+        "TSLA"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-09",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 145
+    },
+    {
       "id": 155,
       "title": "Balaji on Why AI Raises the Cost of Verification",
       "source_type": "podcast",
@@ -923,11 +945,11 @@ const dashboardData = {
         "ZIM"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-04-04",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-04-09",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 137
     },
     {
@@ -3789,6 +3811,26 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 160,
+      "title": "Josh Shapiro on Trump, Iran War Chaos, Israel's Failure, the Economy, and 2028 Race",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-04-08",
+      "summary": "In this episode of 'All-In with Chamath, Jason, Sacks & Friedberg', the hosts interview Governor Josh Shapiro of Pennsylvania. They discuss Shapiro's track record in Pennsylvania, focusing on pro-growth policies, job creation, tax cuts, and improving the state's permitting process. The conversation also touches on the impact of national policies, such as tariffs and the war in Iran, on Pennsylvania's economy. Additionally, Shapiro shares his nuanced views on Israel and the importance of separating anti-Semitism from Middle East policy debates.",
+      "key_takeaway": "Invest in Pennsylvania due to its pro-growth policies, job creation, and improved business climate.",
+      "tickers_mentioned": "[\"AAPL\", \"NVDA\", \"SPY\", \"TSLA\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-09",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 145,
+      "episode_release_date": "2026-04-08",
+      "guest_name": "Governor Josh Shapiro of Pennsylvania",
+      "key_tickers": []
+    },
+    {
       "id": 155,
       "title": "Balaji on Why AI Raises the Cost of Verification",
       "source_type": "podcast",
@@ -3931,28 +3973,6 @@ const dashboardData = {
       "guest_name": null,
       "key_tickers": [
         "RBLX"
-      ]
-    },
-    {
-      "id": 152,
-      "title": "\u201cBooks Will Be Written\u201d About This Shipping Market | Ed Finley-Richardson of Misadventures in Shipping on War-Induced Oil Tanker Mayhem, Squeeze for Asiabound Refined Products, and Persian Gulf \u201cFeeding Frenzy\u201d Scenario",
-      "source_type": "podcast",
-      "source_name": "Monetary Matters with Jack Farley",
-      "source_date": "2026-04-04",
-      "summary": "In this episode of Monetary Matters, host Jack Farley interviews Ed Finley Richardson, an expert in the shipping industry, to discuss the impact of the closure of the Strait of Hormuz on shipping markets and the resulting investment opportunities. They delve into how the conflict in the Middle East has affected oil, refined products, and fertilizer prices, and how shipping has become more expensive. Richardson shares his insights on the tanker market, shipping stocks, and the importance of corporate governance in the industry.",
-      "key_takeaway": "The disruption in shipping due to geopolitical conflicts presents a unique investment opportunity in shipping stocks, particularly for those with a keen understanding of the market dynamics.",
-      "tickers_mentioned": "[\"ZIM\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-04-04",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 137,
-      "episode_release_date": "2026-04-04",
-      "guest_name": null,
-      "key_tickers": [
-        "ZIM"
       ]
     }
   ],
@@ -13105,9 +13125,99 @@ const dashboardData = {
     "source_name": "Moonshots with Peter Diamandis",
     "source_date": "2026-04-07",
     "key_tickers": []
+  },
+  "160": {
+    "id": 151,
+    "insight_id": 160,
+    "podcast_episode_id": 145,
+    "overview": "Governor Josh Shapiro of Pennsylvania has been a standout among Democratic leaders, focusing on pro-growth policies that have led to job creation, tax cuts, and streamlined permitting processes. His approach contrasts with other states like California, which have struggled with red tape and economic stagnation. This deep dive analysis explores the investment implications of Shapiro's policies, particularly in the context of regional economic development and the potential for tech and infrastructure growth in Pennsylvania. The analysis is timely given the current economic climate and the need for effective governance to foster business growth and job creation.",
+    "key_takeaways_detailed": [
+      "Pennsylvania's pro-growth policies have resulted in job creation that rivals all but two states, indicating a strong economic environment for investment.",
+      "Tax cuts for small businesses and individuals signal a business-friendly climate, which can attract investment and boost consumer spending.",
+      "Streamlined permitting processes, with a focus on getting to 'yes', can expedite infrastructure projects and reduce costs, benefiting construction and tech companies involved in these projects.",
+      "Investment in workforce development, especially for those without college degrees, can lead to a more skilled labor force, beneficial for companies reliant on blue-collar workers.",
+      "Governor Shapiro's bipartisan approach to policy-making could lead to more stable governance and fewer policy shocks, which is attractive to long-term investors."
+    ],
+    "investment_thesis": "The investment thesis is centered around the potential for Pennsylvania to become a regional economic powerhouse due to Governor Shapiro's pro-business policies. This includes tax cuts, streamlined permitting, and workforce development, which can attract businesses and investment, leading to economic growth. The catalysts for this growth are the continued implementation of these policies and the potential for other states to adopt similar strategies. The timeframe for this thesis is medium to long-term, as economic development and policy changes typically take time to materialize and impact the market.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's (AAPL) focus on data centers and potential expansion in regions with pro-business policies like Pennsylvania could benefit from the streamlined permitting processes and tax incentives.",
+        "positioning": "Long-term strategic position, as the benefits of regional economic growth may take time to reflect in AAPL's business operations and stock price.",
+        "risk": "Key risks include changes in regional policy that could affect the business environment, and broader economic downturns that could impact consumer spending on AAPL's products."
+      },
+      "NVDA": {
+        "rationale": "Nvidia (NVDA), with its interests in data centers and technology infrastructure, could benefit from Pennsylvania's pro-growth policies, especially if there is an increase in data center construction.",
+        "positioning": "Medium-term tactical position, as the construction and operational benefits of NVDA's products may be realized within a few years.",
+        "risk": "The risk includes competition in the data center market and potential regulatory changes that could affect data center operations."
+      },
+      "SPY": {
+        "rationale": "SPDR S&P 500 ETF (SPY) represents a broad market play that could benefit from regional economic growth in Pennsylvania, as it includes many companies that could expand or perform better in a pro-business environment.",
+        "positioning": "Long-term strategic position, as the overall health of the economy and job creation can lead to increased corporate earnings and stock market growth.",
+        "risk": "Risks include market volatility, economic downturns, and policy changes at the federal level that could counteract state-level pro-growth policies."
+      },
+      "TSLA": {
+        "rationale": "Tesla (TSLA) could benefit from Pennsylvania's focus on workforce development and economic growth, especially if it leads to increased consumer spending and demand for electric vehicles.",
+        "positioning": "Medium-term tactical position, as consumer demand for EVs is influenced by economic conditions and job growth.",
+        "risk": "Key risks include competition in the EV market, changes in consumer preferences, and potential shifts in environmental policy that could affect the demand for electric vehicles."
+      }
+    },
+    "positioning_guidance": "Investors should consider a diversified approach to capitalizing on Pennsylvania's economic growth. Position sizing should reflect the risk tolerance and investment horizon of the investor. Entry points could be strategic, taking advantage of market dips or economic data releases that signal continued growth. Timeframes should align with the expected realization of policy benefits, which may take several quarters to a few years. Hedges could include investments in sectors that are less sensitive to regional economic fluctuations or have a global reach.",
+    "risk_factors": [
+      "Changes in state or federal policy that could reverse the pro-growth environment.",
+      "Economic downturns that could impact job creation and consumer spending.",
+      "Increased competition or technological disruptions in sectors that are key to Pennsylvania's growth.",
+      "Potential for political instability or governance issues that could hinder policy implementation.",
+      "External factors such as global economic conditions or trade wars that could affect business operations and investment."
+    ],
+    "contrarian_signals": [
+      "The possibility that other states may adopt similar pro-growth policies, diluting Pennsylvania's competitive advantage.",
+      "The risk of over-reliance on certain industries, which could lead to economic vulnerabilities if those sectors face downturns.",
+      "The potential for a political shift that could lead to less business-friendly policies or increased regulation."
+    ],
+    "catalysts": [
+      "Upcoming state budget announcements that could include further tax cuts or incentives for businesses.",
+      "Economic data releases that indicate continued job growth and economic expansion in Pennsylvania.",
+      "Infrastructure projects and data center developments that could signal the success of streamlined permitting processes.",
+      "Election outcomes that could either reinforce or challenge the current pro-growth political environment.",
+      "National economic reports that could influence consumer confidence and business investment decisions."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-04-09T05:07:12.033946",
+    "updated_at": "2026-04-09 10:07:12",
+    "insight_title": "Josh Shapiro on Trump, Iran War Chaos, Israel's Failure, the Economy, and 2028 Race",
+    "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "source_date": "2026-04-08",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
+  {
+    "id": 164,
+    "term": "Pro-Growth Policies",
+    "definition": "Government actions aimed at fostering economic growth, often through tax cuts and regulatory reforms.",
+    "investment_implications": "Investors should consider regions with pro-growth policies for potential business expansion and job creation.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-04-09 10:05:24",
+    "priority_score": 80
+  },
+  {
+    "id": 165,
+    "term": "Medicaid Fraud",
+    "definition": "Illegal activities involving the use of deception to obtain benefits or payments from Medicaid.",
+    "investment_implications": "Investors in healthcare services and insurance should be aware of fraud detection and prevention measures.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-04-09 10:05:24",
+    "priority_score": 80
+  },
   {
     "id": 162,
     "term": "Special Relativity",
@@ -13131,35 +13241,23 @@ const dashboardData = {
     "relevance_score": 50,
     "submitted_date": "2026-04-08 10:04:28",
     "priority_score": 80
-  },
-  {
-    "id": 160,
-    "term": "FOMO",
-    "definition": "Fear of Missing Out, a term used to describe the anxiety of not participating in a potentially rewarding opportunity.",
-    "investment_implications": "Conexberger suggests that FOMO played a role in the recent outperformance of emerging market equities.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-04-08 10:04:00",
-    "priority_score": 80
-  },
-  {
-    "id": 161,
-    "term": "Beta-agnostic",
-    "definition": "An investment approach that is not influenced by market movements or volatility.",
-    "investment_implications": "Conexberger encourages investors to adopt a beta-agnostic approach to emerging markets.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-04-08 10:04:00",
-    "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 1662,
+    "id": 1681,
+    "name": "Governor Josh Shapiro of Pennsylvania",
+    "slug": "governor-josh-shapiro-of-pennsylvania",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Invest in Pennsylvania due to its pro-growth policies, job creation, and improved business climate.",
+    "last_episode_title": "Josh Shapiro on Trump, Iran War Chaos, Israel's Failure, the Economy, and 2028 Race",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-04-08",
+    "appearance_count": 1
+  },
+  {
+    "id": 1682,
     "name": "Why $200 Oil Won\u2019t Spike Inflation to 9%",
     "slug": "why-200-oil-wont-spike-inflation-to-9",
     "bio": null,
@@ -13171,7 +13269,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1663,
+    "id": 1683,
     "name": "This special episode",
     "slug": "this-special-episode",
     "bio": null,
@@ -13183,7 +13281,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1664,
+    "id": 1684,
     "name": "Lupin Ramon",
     "slug": "lupin-ramon",
     "bio": null,
@@ -13195,7 +13293,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1665,
+    "id": 1685,
     "name": "When the Music Stops",
     "slug": "when-the-music-stops",
     "bio": null,
@@ -13207,7 +13305,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1666,
+    "id": 1686,
     "name": "Ground Infrastructure",
     "slug": "ground-infrastructure",
     "bio": null,
@@ -13219,7 +13317,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1667,
+    "id": 1687,
     "name": "Rory Johnston",
     "slug": "rory-johnston",
     "bio": null,
@@ -13231,7 +13329,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1668,
+    "id": 1688,
     "name": "Senator John Fetterman on Voting Rights",
     "slug": "senator-john-fetterman-on-voting-rights",
     "bio": null,
@@ -13243,7 +13341,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1669,
+    "id": 1689,
     "name": "Stock Market on Shaky Foundations",
     "slug": "stock-market-on-shaky-foundations",
     "bio": null,
@@ -13255,7 +13353,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1670,
+    "id": 1690,
     "name": "Elon Musk on Moonshots",
     "slug": "elon-musk-on-moonshots",
     "bio": null,
@@ -13267,7 +13365,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1671,
+    "id": 1691,
     "name": "Investing in Capitalism",
     "slug": "investing-in-capitalism",
     "bio": null,
@@ -13279,7 +13377,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1672,
+    "id": 1692,
     "name": "Harvard Professor Graham Allison",
     "slug": "harvard-professor-graham-allison",
     "bio": null,
@@ -13291,7 +13389,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1673,
+    "id": 1693,
     "name": "Andrew Yang",
     "slug": "andrew-yang",
     "bio": "Andrew Yang is an entrepreneur and political leader who popularized universal basic income in U.S. politics through his 2020 presidential campaign.",
@@ -13303,7 +13401,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1674,
+    "id": 1694,
     "name": "Inventing the Renaissance",
     "slug": "inventing-the-renaissance",
     "bio": null,
@@ -13315,7 +13413,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1675,
+    "id": 1695,
     "name": "Ray Dalio",
     "slug": "ray-dalio",
     "bio": "Ray Dalio is the founder of Bridgewater Associates and a macro investor known for his 'Principles' framework and work on long-term debt cycles.",
@@ -13327,7 +13425,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1676,
+    "id": 1696,
     "name": "Nobel Prize-winning economist Paul Krugman",
     "slug": "nobel-prize-winning-economist-paul-krugman",
     "bio": null,
@@ -13339,7 +13437,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1677,
+    "id": 1697,
     "name": "host Jack Mallers",
     "slug": "host-jack-mallers",
     "bio": null,
@@ -13351,7 +13449,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1678,
+    "id": 1698,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -13363,7 +13461,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1679,
+    "id": 1699,
     "name": "Bosworth",
     "slug": "bosworth",
     "bio": null,
@@ -13375,7 +13473,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1680,
+    "id": 1700,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -13406,7 +13504,7 @@ const dashboardData = {
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-03-19",
     "mention_score": 4,
-    "mention_score_decayed": 3.17,
+    "mention_score_decayed": 3.1,
     "last_main_idea": "The Iran conflict could lead to a renewed inflation cycle, affecting commodities and energy markets, with potential second-order effects that markets may currently be underpricing.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:36:30.218908",
@@ -13462,7 +13560,7 @@ const dashboardData = {
     "last_podcast_name": "All-In Podcast",
     "last_episode_date": "2026-03-28",
     "mention_score": 3,
-    "mention_score_decayed": 2.38,
+    "mention_score_decayed": 2.33,
     "last_main_idea": "Investing in AI-driven platforms and technologies is essential for capturing the growth in the global financial system and staying ahead in the AI era.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:40:52.368193",
@@ -13524,7 +13622,7 @@ const dashboardData = {
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-03-19",
     "mention_score": 2,
-    "mention_score_decayed": 1.59,
+    "mention_score_decayed": 1.55,
     "last_main_idea": "The Iran conflict could lead to a renewed inflation cycle, affecting commodities and energy markets, with potential second-order effects that markets may currently be underpricing.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:35:48.845381",
@@ -13831,6 +13929,69 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
+    "id": 163,
+    "name": "Josh Shapiro",
+    "slug": "josh-shapiro",
+    "bio": "Josh Shapiro is the Governor of Pennsylvania, recognized for his focus on pro-growth policies and job creation. With a 60% approval rating, he is known for his moderate stance and his efforts in combating Medicaid fraud, ranking number one in his approach to this issue. Shapiro also supports data center development and has a nuanced view on Israel.",
+    "known_for": "His track record in Pennsylvania, including his focus on economic growth and his nuanced views on Israel.",
+    "net_worth_usd": 35000000.0,
+    "net_worth_source": "https://nationaltoday.com/us/pa/harrisburg/news/2026/02/24/josh-shapiros-35-million-net-worth-raises-questions-about-lobbying-ties/",
+    "net_worth_updated_at": "2026-04-09T05:06:17.030796",
+    "voice_tone": "Confident and focused on policy outcomes.",
+    "voice_style": "Factual and data-driven, emphasizing Pennsylvania's achievements.",
+    "voice_delivery_notes": "Pacing is steady, with emphasis on key policy points.",
+    "voice_profile_updated_at": "2026-04-09 10:05:24",
+    "last_seen": "2026-04-09 10:05:24",
+    "last_episode_title": "Josh Shapiro on Trump, Iran War Chaos, Israel's Failure, the Economy, and 2028 Race",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-04-08",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in Pennsylvania due to its pro-growth policies, job creation, and improved business climate.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-09T05:06:15.797999",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Josh Shapiro",
+      "fetched_at": "2026-04-09T10:06:15.797324+00:00",
+      "cliff_notes": "Josh Shapiro's career has been deeply rooted in Pennsylvania politics. He began his political journey in the state legislature, where he gained a reputation for his commitment to public service. Later, he served as the Attorney General of Pennsylvania, where he made a significant impact by leading the charge against Medicaid fraud, earning a top ranking for his efforts. His tenure as Attorney General also saw him taking on issues that resonated with both moderates and progressives. In 2022, Shapiro was elected as the Governor of Pennsylvania, where he continues to focus on pro-growth policies and job creation. His nuanced stance on Israel and support for data center development have also made him a figure of interest for tech and finance sectors.",
+      "derived": {
+        "current_role": "Governor of Pennsylvania",
+        "political_affiliation": "Democratic Party",
+        "political_summary": "Josh Shapiro is a member of the Democratic Party and has been politically involved, serving as a state legislator before becoming the Attorney General of Pennsylvania. He is now the Governor, focusing on policies that promote economic growth and job creation."
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Josh Shapiro's career has been deeply rooted in Pennsylvania politics. He began his political journey in the state legislature, where he gained a reputation for his commitment to public service. Later, he served as the Attorney General of Pennsylvania, where he made a significant impact by leading the charge against Medicaid fraud, earning a top ranking for his efforts.",
+        "His tenure as Attorney General also saw him taking on issues that resonated with both moderates and progressives. In 2022, Shapiro was elected as the Governor of Pennsylvania, where he continues to focus on pro-growth policies and job creation. His nuanced stance on Israel and support for data center development have also made him a figure of interest for tech and finance sectors."
+      ],
+      "sections": [
+        {
+          "heading": "Economic Growth",
+          "body": "Governor Shapiro is dedicated to fostering economic growth in Pennsylvania through pro-growth policies, which aim to attract businesses and create jobs within the state."
+        },
+        {
+          "heading": "Combating Medicaid Fraud",
+          "body": "Shapiro has been recognized for his aggressive approach to Medicaid fraud, leading the nation in charging those who exploit the system, which has helped protect state resources."
+        },
+        {
+          "heading": "Data Center Support",
+          "body": "Governor Shapiro is a proponent of data center development in Pennsylvania, recognizing the potential for job creation and technological advancement in the state."
+        },
+        {
+          "heading": "Moderate Stance",
+          "body": "With a 60% approval rating, Shapiro is known for his moderate political stance, which allows him to appeal to a broad range of constituents and work across party lines."
+        }
+      ]
+    },
+    "net_worth": "$35.0M"
+  },
+  {
     "id": 162,
     "name": "Michael Nielsen",
     "slug": "michael-nielsen",
@@ -13848,7 +14009,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-04-07",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "The core thesis presented is that advancements in AI and computer science can lead to new fields and paradigms, offering investment opportunities in technological disruption and innovation.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-08T05:04:38.528660",
@@ -13906,7 +14067,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-07",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Investing in select few names within the China property sector can offer significant potential for value appreciation, given the right conditions and primary research.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-08T05:04:49.164717",
@@ -13963,7 +14124,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-04-07",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Investment in Colossal represents a bet on the convergence of synthetic biology, AI, and environmental conservation, with potential for significant technological and societal impact.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-08T05:05:00.239498",
@@ -14024,7 +14185,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-07",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Investing in AI infrastructure and applications that can leverage the power of AI while addressing the challenges of verification and privacy.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-07T22:05:37.646780",
@@ -14083,7 +14244,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-04-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Investing in US defense and technology companies that align with maintaining the nation's global primacy and ensuring economic prosperity.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-07T05:05:35.906002",
@@ -14140,7 +14301,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-04-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Investing in US defense and technology companies that align with maintaining the nation's global primacy and ensuring economic prosperity.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-07T05:05:49.320297",
@@ -14197,7 +14358,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Investing in companies that leverage coding agents could offer significant productivity gains and reshape the software development landscape.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-07T05:06:04.126625",
@@ -14318,7 +14479,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "Invest in AI technologies that leverage the breakthroughs in large language models, reasoning, agents, and self-improvement, as these advancements could lead to transformative software architectures and industry disruptions.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-04T05:05:35.449489",
@@ -14379,7 +14540,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Investing in technologies that can verify human interactions online is becoming critical as AI-generated content proliferates, posing both challenges and opportunities for social media platforms and the broader digital economy.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-03T05:05:04.562022",
@@ -14436,7 +14597,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Investing in technologies that can verify human interactions online is becoming critical as AI-generated content proliferates, posing both challenges and opportunities for social media platforms and the broader digital economy.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-03T05:05:15.312671",
@@ -14475,63 +14636,6 @@ const dashboardData = {
         }
       ]
     }
-  },
-  {
-    "id": 148,
-    "name": "Matt Barry",
-    "slug": "matt-barry",
-    "bio": "Matt Barry is the CEO of Freelancer.com, a global freelancing and crowdsourcing marketplace. He is recognized for his expertise in the latest developments on artificial intelligence and its impact on the global workforce.",
-    "known_for": "His insights on the intersection of artificial intelligence and the future of work.",
-    "net_worth_usd": 185000000.0,
-    "net_worth_source": "https://www.therichest.com/celebnetworth/celebrity-business/men/matt-barrie-net-worth/",
-    "net_worth_updated_at": "2026-04-03T05:05:32.018161",
-    "voice_tone": "",
-    "voice_style": "",
-    "voice_delivery_notes": "",
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-04-03 10:04:02",
-    "last_episode_title": "MacroVoices #526 Matt Barrie: Pay To PrAI",
-    "last_podcast_name": "Macro Voices",
-    "last_episode_date": "2026-04-02",
-    "mention_score": 1,
-    "mention_score_decayed": 0.89,
-    "last_main_idea": "Invest in sectors less affected by AI disruption and monitor geopolitical events for opportunities in private credit markets.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-03T05:05:31.083540",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Matt Barry",
-      "fetched_at": "2026-04-03T10:05:31.083389+00:00",
-      "cliff_notes": "Matt Barry is a prominent figure in the technology industry, particularly within the realm of freelancing and crowdsourcing. As the CEO of Freelancer.com, he has been instrumental in shaping the platform into a global marketplace that connects employers with freelancers across various industries. Barry's leadership has been pivotal in navigating the challenges and opportunities presented by the rise of artificial intelligence, ensuring that Freelancer.com remains at the forefront of technological advancements. His contributions to the discourse on AI's impact on employment and the future of work have made him a sought-after voice in both tech and finance circles.",
-      "derived": {
-        "current_role": "CEO of Freelancer.com"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Matt Barry is a prominent figure in the technology industry, particularly within the realm of freelancing and crowdsourcing. As the CEO of Freelancer.com, he has been instrumental in shaping the platform into a global marketplace that connects employers with freelancers across various industries. Barry's leadership has been pivotal in navigating the challenges and opportunities presented by the rise of artificial intelligence, ensuring that Freelancer.com remains at the forefront of technological advancements.",
-        "His contributions to the discourse on AI's impact on employment and the future of work have made him a sought-after voice in both tech and finance circles."
-      ],
-      "sections": [
-        {
-          "heading": "Freelancer.com",
-          "body": "Matt Barry leads Freelancer.com, a platform that has revolutionized the way work is done by connecting employers with freelancers globally."
-        },
-        {
-          "heading": "Artificial Intelligence",
-          "body": "Barry is known for his thought leadership on the implications of AI on the future of work, often discussing how it will reshape the global workforce."
-        },
-        {
-          "heading": "Global Workforce",
-          "body": "His insights into the changing dynamics of the global workforce, especially in the context of technology and AI, are highly valued by investors and tech enthusiasts."
-        }
-      ]
-    },
-    "net_worth": "$185.0M"
   }
 ]
 };

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-08T22:03:42.080724",
-  "last_updated": "2026-04-08T22:03:42.080724",
-  "last_pipeline_run": "2026-04-08T22:03:42.080724",
+  "generated_at": "2026-04-09T05:07:39.352714",
+  "last_updated": "2026-04-09T05:07:39.352714",
+  "last_pipeline_run": "2026-04-09T05:07:39.352714",
   "main_page": {
     "overton": 8,
     "insights": 8,
@@ -9,21 +9,21 @@
   },
   "counts": {
     "ticker_mentions": 154,
-    "podcast_episodes": 119,
+    "podcast_episodes": 120,
     "newsletters": 7,
     "daily_scores": 92,
     "overton_terms_total": 16,
-    "latest_insights_total": 133,
+    "latest_insights_total": 134,
     "today_mentions": {},
-    "podcasts_analyzed": 3
+    "podcasts_analyzed": 1
   },
   "step_results": {
-    "downloaded": 0,
-    "transcribed": 0,
-    "analyzed": 0,
-    "insight_created": 0,
-    "published": 0,
-    "total": 3
+    "downloaded": 1,
+    "transcribed": 1,
+    "analyzed": 1,
+    "insight_created": 1,
+    "published": 1,
+    "total": 4
   },
   "episodes": [
     {
@@ -32,6 +32,28 @@
       "title": "Private Credit \u201cDoom\u201d Narrative On Shaky Foundation? | Michael Haynes On Why Retail Outflows Are Real But Credit Foundations Are Solid",
       "published": "2026-04-08",
       "rss_guid": "653e074c-334c-11f1-a19e-174f3bb51697",
+      "stages": {
+        "downloaded": false,
+        "transcribed": false,
+        "analyzed": false,
+        "insight_created": false,
+        "published": false
+      },
+      "stage_reasons": {
+        "downloaded": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "transcribed": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "analyzed": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "insight_created": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
+      },
+      "status": "needs_download"
+    },
+    {
+      "id": "af3040b3-5ee3-4ac4-88ee-e87d07fdf0d4",
+      "podcast": "The a16z Show",
+      "title": "Who Controls AI Acceleration? Vitalik Buterin and Guillaume Verdon Debate",
+      "published": "2026-04-09",
+      "rss_guid": "af3040b3-5ee3-4ac4-88ee-e87d07fdf0d4",
       "stages": {
         "downloaded": false,
         "transcribed": false,
@@ -77,23 +99,24 @@
       "published": "2026-04-08",
       "rss_guid": "18c8b23b-ddd6-47ed-97d0-784826b47d19",
       "stages": {
-        "downloaded": false,
-        "transcribed": false,
-        "analyzed": false,
-        "insight_created": false,
-        "published": false
+        "downloaded": true,
+        "transcribed": true,
+        "analyzed": true,
+        "insight_created": true,
+        "published": true
       },
-      "stage_reasons": {
-        "downloaded": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "transcribed": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "analyzed": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "insight_created": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
-      },
-      "status": "needs_download"
+      "stage_reasons": {},
+      "status": "complete"
     }
   ],
   "available_from_rss": [
+    {
+      "podcast": "The a16z Show",
+      "title": "Who Controls AI Acceleration? Vitalik Buterin and Guillaume Verdon Debate",
+      "published": "Thu, 9 Apr 2026 10:00:00 +0000",
+      "published_date": "2026-04-09",
+      "rss_guid": ""
+    },
     {
       "podcast": "Monetary Matters with Jack Farley",
       "title": "Private Credit \u201cDoom\u201d Narrative On Shaky Foundation? | Michael Haynes On Why Retail Outflows Are Real But Credit Foundations Are Solid",
@@ -105,13 +128,6 @@
       "podcast": "The a16z Show",
       "title": "The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
       "published": "Wed, 8 Apr 2026 10:00:00 +0000",
-      "published_date": "2026-04-08",
-      "rss_guid": ""
-    },
-    {
-      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "title": "Josh Shapiro on Trump, Iran War Chaos, Israel's Failure, the Economy, and 2028 Race",
-      "published": "Wed, 08 Apr 2026 15:52:00 +0000",
       "published_date": "2026-04-08",
       "rss_guid": ""
     }

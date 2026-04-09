@@ -1,14 +1,55 @@
 {
-  "last_updated": "2026-04-08T22:03:42.195904",
+  "last_updated": "2026-04-09T05:07:39.480954",
   "episodes": {
     "monetary_matters_with_jack_farley_private_credit_\u201cdoom\u201d_narrativ": {
       "info": {
         "podcast": "Monetary Matters with Jack Farley",
         "title": "Private Credit \u201cDoom\u201d Narrative On Shaky Foundation? | Michael Haynes On Why Retail Outflows Are Real But Credit Foundations Are Solid",
         "published": "2026-04-08",
-        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/monetary_matters_with_jack_farley_private_credit__doom__narrative_on_shaky_foundation____micha_cf456be4.mp3",
+        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/EWWMN9672742629.mp3",
         "keywords": [],
         "rss_guid": "653e074c-334c-11f1-a19e-174f3bb51697"
+      },
+      "stages": {
+        "downloaded": {
+          "complete": true,
+          "timestamp": null,
+          "reason": null
+        },
+        "transcribed": {
+          "complete": true,
+          "file": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/EWWMN9672742629.txt",
+          "timestamp": null,
+          "reason": null
+        },
+        "analyzed": {
+          "complete": false,
+          "episode_id": null,
+          "timestamp": null,
+          "reason": "Waiting for next analyze run (transcript \u2192 DB)."
+        },
+        "insight_created": {
+          "complete": false,
+          "timestamp": null,
+          "reason": "Depends on analyze step first."
+        },
+        "published": {
+          "complete": false,
+          "timestamp": null,
+          "reason": "Not in data.js yet (run export and push to site)."
+        }
+      },
+      "first_seen": "2026-04-09T05:07:39.356263",
+      "status": "needs_analysis"
+    },
+    "the_a16z_show_who_controls_ai_acceleration?_": {
+      "info": {
+        "podcast": "The a16z Show",
+        "title": "Who Controls AI Acceleration? Vitalik Buterin and Guillaume Verdon Debate",
+        "published": "2026-04-09",
+        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_who_controls_ai_acceleration__vitalik_buterin_and_guillaume__5f74ff01.mp3",
+        "keywords": [],
+        "rss_guid": "af3040b3-5ee3-4ac4-88ee-e87d07fdf0d4"
       },
       "stages": {
         "downloaded": {
@@ -39,7 +80,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-04-08T22:03:42.084216",
+      "first_seen": "2026-04-09T05:07:39.415038",
       "status": "needs_transcription"
     },
     "the_a16z_show_the_agent_era:_building_softwa": {
@@ -80,7 +121,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-04-08T22:03:42.161398",
+      "first_seen": "2026-04-09T05:07:39.457837",
       "status": "needs_analysis"
     },
     "all-in_with_chamath,_jason,_sacks_&_friedberg_josh_shapiro_on_trump,_iran_wa": {
@@ -88,7 +129,7 @@
         "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
         "title": "Josh Shapiro on Trump, Iran War Chaos, Israel's Failure, the Economy, and 2028 Race",
         "published": "2026-04-08",
-        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/all_in_with_chamath__jason__sacks___frie_josh_shapiro_on_trump__iran_war_chaos__israel_s_failure__the_7288c980.mp3",
+        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/ALLIN_INTV_Shapiro_Ch.mp3",
         "keywords": [],
         "rss_guid": "18c8b23b-ddd6-47ed-97d0-784826b47d19"
       },
@@ -99,21 +140,23 @@
           "reason": null
         },
         "transcribed": {
-          "complete": false,
-          "file": null,
+          "complete": true,
+          "file": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/ALLIN_INTV_Shapiro_Ch.txt",
           "timestamp": null,
-          "reason": "Waiting for fetch/transcribe step"
+          "reason": null
         },
         "analyzed": {
-          "complete": false,
-          "episode_id": null,
+          "complete": true,
+          "episode_id": 145,
           "timestamp": null,
-          "reason": "Waiting for next analyze run (transcript \u2192 DB)."
+          "reason": null
         },
         "insight_created": {
-          "complete": false,
+          "complete": true,
+          "insight_id": 44,
+          "insight_title": "The Epstein Saga: Diverse Perspectives and Investment Implications",
           "timestamp": null,
-          "reason": "Depends on analyze step first."
+          "reason": null
         },
         "published": {
           "complete": false,
@@ -121,8 +164,8 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-04-08T22:03:42.172507",
-      "status": "needs_transcription"
+      "first_seen": "2026-04-09T05:07:39.468473",
+      "status": "needs_export"
     }
   }
 }

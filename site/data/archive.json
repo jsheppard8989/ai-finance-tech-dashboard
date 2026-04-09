@@ -1,6 +1,28 @@
 {
   "insights": [
     {
+      "id": 160,
+      "title": "Josh Shapiro on Trump, Iran War Chaos, Israel's Failure, the Economy, and 2028 Race",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-04-08",
+      "summary": "In this episode of 'All-In with Chamath, Jason, Sacks & Friedberg', the hosts interview Governor Josh Shapiro of Pennsylvania. They discuss Shapiro's track record in Pennsylvania, focusing on pro-growth policies, job creation, tax cuts, and improving the state's permitting process. The conversation also touches on the impact of national policies, such as tariffs and the war in Iran, on Pennsylvania's economy. Additionally, Shapiro shares his nuanced views on Israel and the importance of separating anti-Semitism from Middle East policy debates.",
+      "key_takeaway": "Invest in Pennsylvania due to its pro-growth policies, job creation, and improved business climate.",
+      "tickers_mentioned": [
+        "AAPL",
+        "NVDA",
+        "SPY",
+        "TSLA"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-09",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 145
+    },
+    {
       "id": 155,
       "title": "Balaji on Why AI Raises the Cost of Verification",
       "source_type": "podcast",
@@ -164,11 +186,11 @@
         "ZIM"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-04-04",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-04-09",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 137
     },
     {

@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-04-08T22:02:19.093448",
-  "total_feed_episodes": 3,
-  "approved_for_transcription": 3,
+  "timestamp": "2026-04-09T05:04:17.599228",
+  "total_feed_episodes": 4,
+  "approved_for_transcription": 4,
   "episodes": [
     {
       "podcast": "Monetary Matters with Jack Farley",
@@ -11,10 +11,23 @@
       "published": "Wed, 08 Apr 2026 13:10:00 -0000",
       "published_date": "2026-04-08",
       "rss_guid": "653e074c-334c-11f1-a19e-174f3bb51697",
+      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/EWWMN9672742629.mp3",
+      "filename": "EWWMN9672742629.mp3",
+      "status": "APPROVED",
+      "matched_keywords": []
+    },
+    {
+      "podcast": "The a16z Show",
+      "title": "Who Controls AI Acceleration? Vitalik Buterin and Guillaume Verdon Debate",
+      "description": "<p>Eddy Lazzarin speaks with Vitalik Buterin, founder of Ethereum, and Guillaume Verdon, founder and CEO of Extropic, about whether AI progress can or should be steered, the risks of concentrated power, and what open source and decentralization mean for who benefits from increasingly powerful systems. This episode originally aired on the a16z crypto podcast.\u00a0</p>\n<p>\u00a0</p>\n<p>Resources:</p>\n<p>Follow Vitalik Buterin on X: https://twitter.com/VitalikButerin\u00a0</p>\n<p>Follow Guillaume Verdon on X: <a",
+      "audio_url": "https://mgln.ai/e/1344/afp-848985-injected.calisto.simplecastaudio.com/3f86df7b-51c6-4101-88a2-550dba782de8/episodes/caaf9b73-450b-4c2e-8548-e122bafb96e6/audio/128/default.mp3?aid=rss_feed&awCollectionId=3f86df7b-51c6-4101-88a2-550dba782de8&awEpisodeId=caaf9b73-450b-4c2e-8548-e122bafb96e6&feed=JGE3yC0V",
+      "published": "Thu, 9 Apr 2026 10:00:00 +0000",
+      "published_date": "2026-04-09",
+      "rss_guid": "af3040b3-5ee3-4ac4-88ee-e87d07fdf0d4",
       "status": "APPROVED",
       "matched_keywords": [],
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/monetary_matters_with_jack_farley_private_credit__doom__narrative_on_shaky_foundation____micha_cf456be4.mp3",
-      "filename": "monetary_matters_with_jack_farley_private_credit__doom__narrative_on_shaky_foundation____micha_cf456be4.mp3"
+      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_who_controls_ai_acceleration__vitalik_buterin_and_guillaume__5f74ff01.mp3",
+      "filename": "the_a16z_show_who_controls_ai_acceleration__vitalik_buterin_and_guillaume__5f74ff01.mp3"
     },
     {
       "podcast": "The a16z Show",
@@ -37,10 +50,10 @@
       "published": "Wed, 08 Apr 2026 15:52:00 +0000",
       "published_date": "2026-04-08",
       "rss_guid": "18c8b23b-ddd6-47ed-97d0-784826b47d19",
+      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/ALLIN_INTV_Shapiro_Ch.mp3",
+      "filename": "ALLIN_INTV_Shapiro_Ch.mp3",
       "status": "APPROVED",
-      "matched_keywords": [],
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/all_in_with_chamath__jason__sacks___frie_josh_shapiro_on_trump__iran_war_chaos__israel_s_failure__the_7288c980.mp3",
-      "filename": "all_in_with_chamath__jason__sacks___frie_josh_shapiro_on_trump__iran_war_chaos__israel_s_failure__the_7288c980.mp3"
+      "matched_keywords": []
     }
   ]
 }
