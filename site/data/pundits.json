@@ -73,7 +73,7 @@
     "last_podcast_name": "All-In Podcast",
     "last_episode_date": "2026-03-28",
     "mention_score": 3,
-    "mention_score_decayed": 2.33,
+    "mention_score_decayed": 2.27,
     "last_main_idea": "Investing in AI-driven platforms and technologies is essential for capturing the growth in the global financial system and staying ahead in the AI era.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:40:52.368193",
@@ -192,7 +192,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-28",
     "mention_score": 2,
-    "mention_score_decayed": 1.55,
+    "mention_score_decayed": 1.52,
     "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-28T22:05:42.395070",
@@ -253,7 +253,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-28",
     "mention_score": 2,
-    "mention_score_decayed": 1.55,
+    "mention_score_decayed": 1.52,
     "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-28T22:05:50.938326",
@@ -310,7 +310,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-02-15",
     "mention_score": 2,
-    "mention_score_decayed": 1.55,
+    "mention_score_decayed": 1.52,
     "last_main_idea": "Invest in sectors with fertile ground for short selling, such as AI and tech, and under-allocated areas like junior mining, while combining long and short strategies for potential alpha.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:42:09.376490",
@@ -372,7 +372,7 @@
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-02-18",
     "mention_score": 2,
-    "mention_score_decayed": 1.18,
+    "mention_score_decayed": 1.15,
     "last_main_idea": "Invest in the vertical integration of AI, the rise of India as a global AI hub, and the shift towards agent-based interactions.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-19T21:23:33.038094",
@@ -435,11 +435,195 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-16",
     "mention_score": 2,
-    "mention_score_decayed": 1.18,
+    "mention_score_decayed": 1.15,
     "last_main_idea": "Invest in AI startups that focus on specific niches and use cases, as they can compete effectively against larger AI companies by capitalizing on the gaps between platforms.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
+  },
+  {
+    "id": 167,
+    "name": "Michael Haynes",
+    "slug": "michael-haynes",
+    "bio": "Michael Haynes is the Head of Private Credit at Beach Point Capital Management, a credit firm managing over $20 billion in assets. His expertise lies in private credit and direct lending strategies, making him a significant figure in the financial sector, especially for investors interested in alternative investments.",
+    "known_for": "His leadership in managing a significant portfolio of private credit assets and his insights into the direct lending market.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Informative and reassuring.",
+    "voice_style": "Provides detailed explanations and differentiates between various private credit strategies.",
+    "voice_delivery_notes": "Speaks with confidence and clarity, emphasizing the importance of understanding private credit nuances.",
+    "voice_profile_updated_at": "2026-04-10 03:04:59",
+    "last_seen": "2026-04-10 03:04:59",
+    "last_episode_title": "Private Credit \u201cDoom\u201d Narrative On Shaky Foundation? | Michael Haynes On Why Retail Outflows Are Real But Credit Foundations Are Solid",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-04-08",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investing in private credit, particularly through opportunistic funds, can provide higher returns by accepting additional credit risk and complexity, suitable for patient institutional capital.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-09T22:05:24.439502",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Michael Haynes",
+      "fetched_at": "2026-04-10T03:05:24.438941+00:00",
+      "cliff_notes": "Michael Haynes has established himself as a prominent figure in the realm of private credit and direct lending strategies. As the Head of Private Credit at Beach Point Capital Management, he oversees a substantial portfolio of over $20 billion in assets. His role involves navigating the complexities of the private credit market, which has become increasingly significant in the broader financial landscape. Haynes' expertise is particularly relevant given the growing interest in alternative investments and the challenges faced by the sector, such as liquidity crunches and concerns over retail capital in software loans. His contributions to the industry and his ability to manage large-scale assets underscore his importance in the field of finance.",
+      "derived": {
+        "current_role": "Head of Private Credit at Beach Point Capital Management"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Michael Haynes has established himself as a prominent figure in the realm of private credit and direct lending strategies. As the Head of Private Credit at Beach Point Capital Management, he oversees a substantial portfolio of over $20 billion in assets. His role involves navigating the complexities of the private credit market, which has become increasingly significant in the broader financial landscape.",
+        "Haynes' expertise is particularly relevant given the growing interest in alternative investments and the challenges faced by the sector, such as liquidity crunches and concerns over retail capital in software loans. His contributions to the industry and his ability to manage large-scale assets underscore his importance in the field of finance."
+      ],
+      "sections": [
+        {
+          "heading": "Private Credit Expertise",
+          "body": "Michael Haynes is recognized for his deep understanding of private credit, a niche market that has gained significant attention in recent years due to its potential for high returns and diversification benefits."
+        },
+        {
+          "heading": "Direct Lending Strategies",
+          "body": "Haynes plays a pivotal role in developing and executing direct lending strategies at Beach Point Capital Management, which involves providing loans directly to businesses, bypassing traditional banking channels."
+        },
+        {
+          "heading": "Asset Management",
+          "body": "With over $20 billion in assets under management, Haynes is responsible for making investment decisions that have a substantial impact on the financial performance of Beach Point Capital Management and its clients."
+        },
+        {
+          "heading": "Market Influence",
+          "body": "His insights into the private credit market are highly valued, especially during times of market stress, such as liquidity crunches, where his expertise can guide investors through complex financial situations."
+        }
+      ]
+    }
+  },
+  {
+    "id": 164,
+    "name": "Vitalik Buterin",
+    "slug": "vitalik-buterin",
+    "bio": "Vitalik Buterin is a programmer and writer primarily known as the co-founder of Ethereum, a blockchain platform that enables decentralized applications. His work in cryptocurrency and blockchain technology has made him a significant figure in the field.",
+    "known_for": "Co-founding Ethereum, a leading platform for decentralized applications and cryptocurrencies.",
+    "net_worth_usd": 461000000.0,
+    "net_worth_source": "https://coincodex.com/article/22825/vitalik-buterin-net-worth/",
+    "net_worth_updated_at": "2026-04-09T22:05:44.682431",
+    "voice_tone": "Thoughtful and measured",
+    "voice_style": "Analytical and philosophical",
+    "voice_delivery_notes": "Paced with emphasis on key philosophical points",
+    "voice_profile_updated_at": "2026-04-10 03:04:19",
+    "last_seen": "2026-04-10 03:04:19",
+    "last_episode_title": "Who Controls AI Acceleration? Vitalik Buterin and Guillaume Verdon Debate",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-04-09",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in technologies and platforms that promote open-source contributions and technological pluralism to hedge against an uncertain future and ensure a more equitable distribution of power.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-09T22:05:43.619712",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Vitalik Buterin",
+      "fetched_at": "2026-04-10T03:05:43.619446+00:00",
+      "cliff_notes": "Vitalik Buterin was born in Russia and later moved to Canada with his family. He showed an early interest in programming and mathematics. He became involved with Bitcoin in his teenage years and began writing for Bitcoin Magazine. His dissatisfaction with the limitations of Bitcoin led him to propose Ethereum, a more flexible blockchain platform that could support a wide range of decentralized applications. Ethereum was launched in 2015, and Buterin has continued to play a central role in its development. He has also been an influential voice in discussions about the future of blockchain technology and its potential impact on society.",
+      "derived": {
+        "current_role": "Co-founder of Ethereum",
+        "education": "Dropout from University of Waterloo",
+        "books_or_works": "White paper on Ethereum; various articles on blockchain technology"
+      },
+      "infobox": {
+        "Born": "1994",
+        "Nationality": "Canadian"
+      },
+      "lead_paragraphs": [
+        "Vitalik Buterin was born in Russia and later moved to Canada with his family. He showed an early interest in programming and mathematics. He became involved with Bitcoin in his teenage years and began writing for Bitcoin Magazine. His dissatisfaction with the limitations of Bitcoin led him to propose Ethereum, a more flexible blockchain platform that could support a wide range of decentralized applications.",
+        "Ethereum was launched in 2015, and Buterin has continued to play a central role in its development. He has also been an influential voice in discussions about the future of blockchain technology and its potential impact on society."
+      ],
+      "sections": [
+        {
+          "heading": "Ethereum",
+          "body": "Buterin co-founded Ethereum, a blockchain platform that enables decentralized applications, in 2015. It has since become one of the largest and most influential blockchain networks."
+        },
+        {
+          "heading": "Blockchain Advocacy",
+          "body": "Buterin is a prominent advocate for blockchain technology, speaking and writing extensively on its potential applications and implications for the future."
+        },
+        {
+          "heading": "Decentralization",
+          "body": "A key aspect of Buterin's vision for Ethereum is its potential to decentralize power and control, reducing the influence of centralized authorities."
+        },
+        {
+          "heading": "Accelerationism",
+          "body": "Buterin has expressed views on accelerationism, the idea that technological progress should be accelerated rather than restrained, in order to achieve a better future."
+        }
+      ]
+    },
+    "net_worth": "$461.0M"
+  },
+  {
+    "id": 165,
+    "name": "Guillem Bert",
+    "slug": "guillem-bert",
+    "bio": "Guillem Bert is the Founder and CEO of Extrapic, a company focused on technology and its impact on society. He is a thought leader in the field of technological acceleration and its effects on the future of humanity.",
+    "known_for": "His insights on the acceleration of technology and its societal implications, particularly in the context of AI and its governance.",
+    "net_worth_usd": 5000000.0,
+    "net_worth_source": "https://www.capitalism.com/bert-kreischer-net-worth-plus-his-tv-films-book-stand-up-and-salary/",
+    "net_worth_updated_at": "2026-04-09T22:05:57.470208",
+    "voice_tone": "Passionate and visionary",
+    "voice_style": "Inspirational and future-oriented",
+    "voice_delivery_notes": "Energetic with a focus on potential outcomes",
+    "voice_profile_updated_at": "2026-04-10 03:04:19",
+    "last_seen": "2026-04-10 03:04:19",
+    "last_episode_title": "Who Controls AI Acceleration? Vitalik Buterin and Guillaume Verdon Debate",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-04-09",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in technologies and platforms that promote open-source contributions and technological pluralism to hedge against an uncertain future and ensure a more equitable distribution of power.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-09T22:05:56.341318",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Guillem Bert",
+      "fetched_at": "2026-04-10T03:05:56.341099+00:00",
+      "cliff_notes": "Guillem Bert is a prominent figure in the technology sector, recognized for his work as the Founder and CEO of Extrapic. His career has been dedicated to understanding and navigating the rapid pace of technological advancement and its profound effects on society. Bert's contributions to the discourse around effective accelerationism versus defensive acceleration highlight his deep engagement with the ethical and strategic considerations of AI and technological progress. His work is pivotal for investors, technologists, and policymakers as they grapple with the implications of accelerating technologies on the future of work, governance, and global stability.",
+      "derived": {
+        "current_role": "Founder and CEO of Extrapic"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Guillem Bert is a prominent figure in the technology sector, recognized for his work as the Founder and CEO of Extrapic. His career has been dedicated to understanding and navigating the rapid pace of technological advancement and its profound effects on society. Bert's contributions to the discourse around effective accelerationism versus defensive acceleration highlight his deep engagement with the ethical and strategic considerations of AI and technological progress.",
+        "His work is pivotal for investors, technologists, and policymakers as they grapple with the implications of accelerating technologies on the future of work, governance, and global stability."
+      ],
+      "sections": [
+        {
+          "heading": "Technological Acceleration",
+          "body": "Guillem Bert discusses the rapid acceleration of technology and its inevitable impact on society, advocating for intentional acceleration to harness its benefits."
+        },
+        {
+          "heading": "Effective Accelerationism",
+          "body": "Bert is known for his stance on effective accelerationism, which posits that progress is inevitable and that restraint only cedes ground to less desirable outcomes."
+        },
+        {
+          "heading": "Defensive Acceleration",
+          "body": "He also addresses defensive acceleration, which argues for caution in the advancement of AI to prevent the concentration of power and ensure safeguards are in place."
+        },
+        {
+          "heading": "Future of Humanity",
+          "body": "Guillem Bert's work is centered around the future of humanity in the context of technological acceleration, emphasizing the need for a culture that can adapt and thrive in a rapidly changing world."
+        }
+      ]
+    },
+    "net_worth": "$5.0M"
   },
   {
     "id": 163,
@@ -698,7 +882,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Investing in AI infrastructure and applications that can leverage the power of AI while addressing the challenges of verification and privacy.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-07T22:05:37.646780",
@@ -931,7 +1115,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "The disruption in shipping due to geopolitical conflicts presents a unique investment opportunity in shipping stocks, particularly for those with a keen understanding of the market dynamics.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-04T22:03:03.597938",
@@ -970,182 +1154,6 @@
         {
           "heading": "Shipping Prices Surge",
           "body": "Richardson's work has gained prominence as shipping prices have surged, with some reaching 10 times normal levels, highlighting the importance of his analysis and insights."
-        }
-      ]
-    }
-  },
-  {
-    "id": 153,
-    "name": "Mark Andreason",
-    "slug": "mark-andreason",
-    "bio": "Mark Andreason is a co-founder and general partner at a16z, with over 35 years of experience in AI. He has witnessed the evolution of AI technologies and believes the current moment represents a significant payoff from decades of foundational research. Andreason argues that the combination of a language model, a unique shell, and a file system represents one of the most important software architectures in a generation.",
-    "known_for": "His insights into the evolution and potential of AI technologies and the current moment's significance in the field.",
-    "net_worth_usd": 1000000000.0,
-    "net_worth_source": "https://www.oreateai.com/blog/marc-andreessen-the-man-behind-the-billions/0a05c2acfab7b29e9d42044021e4bd53",
-    "net_worth_updated_at": "2026-04-04T05:05:36.409150",
-    "voice_tone": "Confident and informed",
-    "voice_style": "Analytical and forward-looking",
-    "voice_delivery_notes": "Paced with emphasis on key AI breakthroughs and their implications",
-    "voice_profile_updated_at": "2026-04-04 10:05:01",
-    "last_seen": "2026-04-04 10:05:01",
-    "last_episode_title": "Marc Andreessen on AI Winters and Agent Breakthroughs",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-04-03",
-    "mention_score": 1,
-    "mention_score_decayed": 0.89,
-    "last_main_idea": "Invest in AI technologies that leverage the breakthroughs in large language models, reasoning, agents, and self-improvement, as these advancements could lead to transformative software architectures and industry disruptions.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-04T05:05:35.449489",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Mark Andreason",
-      "fetched_at": "2026-04-04T10:05:35.449039+00:00",
-      "cliff_notes": "Mark Andreason, with over 35 years of experience in AI, is a co-founder and general partner at a16z. He has observed AI's cycles through summers and winters, from coding and lists in 1989 to his current involvement in foundation model companies. Andreason argues that the current moment is not a false start but rather the result of eight decades of foundational research catalyzed by four distinct breakthroughs: large language models, reasoning, agents, and self-improvement. He is particularly interested in the software architecture that combines a language model, a unique shell, and a file system, which he believes is one of the most important in a generation. Andreason's career and insights are significant in understanding the trajectory and potential of AI technologies.",
-      "derived": {
-        "current_role": "Co-founder and General Partner at a16z"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Mark Andreason, with over 35 years of experience in AI, is a co-founder and general partner at a16z. He has observed AI's cycles through summers and winters, from coding and lists in 1989 to his current involvement in foundation model companies. Andreason argues that the current moment is not a false start but rather the result of eight decades of foundational research catalyzed by four distinct breakthroughs: large language models, reasoning, agents, and self-improvement.",
-        "He is particularly interested in the software architecture that combines a language model, a unique shell, and a file system, which he believes is one of the most important in a generation. Andreason's career and insights are significant in understanding the trajectory and potential of AI technologies."
-      ],
-      "sections": [
-        {
-          "heading": "AI Evolution",
-          "body": "Mark Andreason has watched AI technologies evolve over more than 35 years, observing cycles of interest and progress."
-        },
-        {
-          "heading": "Foundational Research",
-          "body": "Andreason believes the current advancements in AI are the result of eight decades of foundational research."
-        },
-        {
-          "heading": "Breakthroughs in AI",
-          "body": "He identifies four breakthroughs that have catalyzed the current moment in AI: large language models, reasoning, agents, and self-improvement."
-        },
-        {
-          "heading": "Software Architecture",
-          "body": "Andreason argues that the combination of a language model, a unique shell, and a file system represents a significant advancement in software architecture."
-        }
-      ]
-    },
-    "net_worth": "$1.00B"
-  },
-  {
-    "id": 150,
-    "name": "Alex Bonia",
-    "slug": "alex-bonia",
-    "bio": "Alex Bonia is the co-founder and CEO of World, a company focused on developing a 'proof of human layer' for the AI era. He is dedicated to building the largest real human network, addressing the challenges posed by AI in mimicking human behavior and interactions.",
-    "known_for": "Developing a 'proof of human layer' to distinguish real humans from AI in the digital age.",
-    "net_worth_usd": 3600000000.0,
-    "net_worth_source": "https://globalbizoutlook.com/top-30-ai-billionaires-in-the-world-2025-rankings-and-net-worth-revealed/",
-    "net_worth_updated_at": "2026-04-03T05:05:05.505205",
-    "voice_tone": "Inquisitive and informative",
-    "voice_style": "Explains complex concepts with clarity",
-    "voice_delivery_notes": "Paces well, with emphasis on key points",
-    "voice_profile_updated_at": "2026-04-03 10:04:54",
-    "last_seen": "2026-04-03 10:04:54",
-    "last_episode_title": "Alex Blania on Proof of Human and Building World's Identity Network",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-04-02",
-    "mention_score": 1,
-    "mention_score_decayed": 0.87,
-    "last_main_idea": "Investing in technologies that can verify human interactions online is becoming critical as AI-generated content proliferates, posing both challenges and opportunities for social media platforms and the broader digital economy.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-03T05:05:04.562022",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Alex Bonia",
-      "fetched_at": "2026-04-03T10:05:04.561818+00:00",
-      "cliff_notes": "Alex Bonia is recognized for his work in the intersection of technology and human identity. As the co-founder and CEO of World, he is at the forefront of developing solutions to authenticate human users in a digital landscape increasingly populated by AI. His efforts are crucial in an era where AI's ability to mimic human behavior poses significant challenges to digital platforms that rely on the assumption of human users. Bonia's work is pivotal in maintaining the integrity of online interactions and safeguarding against the manipulations of AI.",
-      "derived": {
-        "current_role": "Co-founder and CEO at World"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Alex Bonia is recognized for his work in the intersection of technology and human identity. As the co-founder and CEO of World, he is at the forefront of developing solutions to authenticate human users in a digital landscape increasingly populated by AI. His efforts are crucial in an era where AI's ability to mimic human behavior poses significant challenges to digital platforms that rely on the assumption of human users.",
-        "Bonia's work is pivotal in maintaining the integrity of online interactions and safeguarding against the manipulations of AI."
-      ],
-      "sections": [
-        {
-          "heading": "Human Authentication",
-          "body": "Alex Bonia is leading the charge in creating a 'proof of human layer', a system designed to verify the authenticity of human users in digital spaces, which is becoming increasingly important as AI technology advances."
-        },
-        {
-          "heading": "AI and Social Media",
-          "body": "Bonia's work addresses the growing concern of AI-operated social media accounts, which can mimic human behavior and influence online platforms, posing threats to the integrity of digital interactions."
-        },
-        {
-          "heading": "Digital Integrity",
-          "body": "In an era where AI can generate convincing videos and posts, Alex Bonia's efforts are aimed at ensuring that digital platforms maintain a level of trust and reliability by distinguishing between real humans and AI."
-        }
-      ]
-    },
-    "net_worth": "$3.60B"
-  },
-  {
-    "id": 151,
-    "name": "Alex Rampell",
-    "slug": "alex-rampell",
-    "bio": "Alex Rampell is a venture capitalist and entrepreneur known for his investments in technology startups. He is the co-founder and General Partner at Andreessen Horowitz (A16Z), focusing on fintech, bioinformatics, and AI.",
-    "known_for": "His role in shaping the future of technology through venture capital investments in startups, particularly in the fields of fintech, bioinformatics, and AI.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Analytical and engaging",
-    "voice_style": "Asks probing questions to delve deeper into topics",
-    "voice_delivery_notes": "Speaks with conviction, emphasizing investment insights",
-    "voice_profile_updated_at": "2026-04-03 10:04:54",
-    "last_seen": "2026-04-03 10:04:54",
-    "last_episode_title": "Alex Blania on Proof of Human and Building World's Identity Network",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-04-02",
-    "mention_score": 1,
-    "mention_score_decayed": 0.87,
-    "last_main_idea": "Investing in technologies that can verify human interactions online is becoming critical as AI-generated content proliferates, posing both challenges and opportunities for social media platforms and the broader digital economy.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-03T05:05:15.312671",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Alex Rampell",
-      "fetched_at": "2026-04-03T10:05:15.312579+00:00",
-      "cliff_notes": "Alex Rampell is a prominent figure in the world of venture capital and technology startups. He began his career as a co-founder and CEO of TrialPay, a payment processing company, and later co-founded Adap.tv, a video advertising platform. Both companies were successfully acquired. Rampell then transitioned to venture capital, becoming a General Partner at Andreessen Horowitz (A16Z), where he focuses on fintech, bioinformatics, and AI. His investments and insights have been instrumental in shaping the future of technology, particularly in the areas of artificial intelligence and its implications for society.",
-      "derived": {
-        "current_role": "Co-founder and General Partner at A16Z",
-        "former_positions": "Co-founder and CEO of TrialPay; Co-founder and CEO of Adap.tv",
-        "education": "B.A. in Mathematics and Computer Science from Yale University; M.S. in Computer Science from Stanford University"
-      },
-      "infobox": {
-        "Born": "1983",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Alex Rampell is a prominent figure in the world of venture capital and technology startups. He began his career as a co-founder and CEO of TrialPay, a payment processing company, and later co-founded Adap.tv, a video advertising platform. Both companies were successfully acquired. Rampell then transitioned to venture capital, becoming a General Partner at Andreessen Horowitz (A16Z), where he focuses on fintech, bioinformatics, and AI.",
-        "His investments and insights have been instrumental in shaping the future of technology, particularly in the areas of artificial intelligence and its implications for society."
-      ],
-      "sections": [
-        {
-          "heading": "Venture Capital",
-          "body": "Alex Rampell is known for his venture capital investments in technology startups, particularly in fintech, bioinformatics, and AI. His role at A16Z has allowed him to influence the trajectory of these industries."
-        },
-        {
-          "heading": "Artificial Intelligence",
-          "body": "Rampell has been vocal about the potential of AI to fundamentally shift society. He discusses the implications of AI in programming humans and the challenges of distinguishing between humans and bots in the digital age."
-        },
-        {
-          "heading": "Fintech",
-          "body": "As a General Partner at A16Z, Rampell has played a significant role in shaping the fintech industry through his investments and insights. His focus on fintech has helped drive innovation in the space."
         }
       ]
     }

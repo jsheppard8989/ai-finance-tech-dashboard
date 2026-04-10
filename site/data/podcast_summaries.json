@@ -1,5 +1,39 @@
 [
   {
+    "id": 146,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Who Controls AI Acceleration? Vitalik Buterin and Guillaume Verdon Debate",
+    "episode_date": "2026-04-09",
+    "summary": "The podcast discusses the acceleration of technological progress and the philosophical debate between effective accelerationism (Eacc) and defensive acceleration (Deac). The conversation revolves around the inevitability of progress, the importance of intentional acceleration, and the risks of concentration of power. The guests emphasize the need for a pluralistic approach to technology and the importance of open-source contributions in shaping the future.",
+    "key_takeaways": [
+      "Rapid technological acceleration is seen as an inevitable and accelerating trend.",
+      "Effective accelerationism (Eacc) argues that progress is inevitable and restraint only seeds ground for others.",
+      "Defensive acceleration (Deac) contends that speed without safeguards risks concentrating power.",
+      "Intentional acceleration is key to shaping a better future.",
+      "Open-source and technological pluralism are crucial for hedging bets in an uncertain future.",
+      "The future of technology should focus on increasing human potential and solving problems rather than concentrating power."
+    ],
+    "investment_thesis": "Invest in technologies and platforms that promote open-source contributions and technological pluralism to hedge against an uncertain future and ensure a more equitable distribution of power.",
+    "key_tickers": null
+  },
+  {
+    "id": 147,
+    "podcast_name": "Monetary Matters with Jack Farley",
+    "episode_title": "Private Credit \u201cDoom\u201d Narrative On Shaky Foundation? | Michael Haynes On Why Retail Outflows Are Real But Credit Foundations Are Solid",
+    "episode_date": "2026-04-08",
+    "summary": "In this episode of Monetary Matters, Jack Farley interviews Michael Haynes, head of private credit at Beach Point Capital Management, a firm managing over $20 billion in assets. The discussion revolves around the private credit space, its various components, and the differences between institutional and retail capital. Haynes clarifies misconceptions about private credit, discusses direct lending, asset-backed lending, and the Opportunistic Funds strategy. The conversation also touches on the current market dynamics, the pricing of risk, and the potential implications of a credit cycle on private credit investments.",
+    "key_takeaways": [
+      "Private credit encompasses various strategies, including direct lending and asset-backed lending.",
+      "Beach Point Capital Management primarily manages institutional capital, which is characterized as patient capital.",
+      "The firm's Opportunistic Funds aim for higher returns by accepting additional credit risk and complexity.",
+      "There is no evidence of distressed selling of otherwise good assets in the current market.",
+      "Public BDCs (Business Development Companies) trade at discounts to net asset value, presenting potential opportunities.",
+      "Haynes does not view the current redemptions from retail investor funds as a long-term problem for the health of private credit."
+    ],
+    "investment_thesis": "Investing in private credit, particularly through opportunistic funds, can provide higher returns by accepting additional credit risk and complexity, suitable for patient institutional capital.",
+    "key_tickers": null
+  },
+  {
     "id": 145,
     "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "episode_title": "Josh Shapiro on Trump, Iran War Chaos, Israel's Failure, the Economy, and 2028 Race",

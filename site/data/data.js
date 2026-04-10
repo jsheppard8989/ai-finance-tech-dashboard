@@ -3,7 +3,7 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-04-09T05:07:42.695549",
+  generatedAt: "2026-04-09T22:08:12.065150",
   chartsVersion: "2026-04-01T15:16:59.801570",
   tickerScores: [
   {
@@ -760,6 +760,29 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 161,
+      "title": "Who Controls AI Acceleration? Vitalik Buterin and Guillaume Verdon Debate",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-04-09",
+      "summary": "The podcast discusses the acceleration of technological progress and the philosophical debate between effective accelerationism (Eacc) and defensive acceleration (Deac). The conversation revolves around the inevitability of progress, the importance of intentional acceleration, and the risks of concentration of power. The guests emphasize the need for a pluralistic approach to technology and the importance of open-source contributions in shaping the future.",
+      "key_takeaway": "Invest in technologies and platforms that promote open-source contributions and technological pluralism to hedge against an uncertain future and ensure a more equitable distribution of power.",
+      "tickers_mentioned": [
+        "AAPL",
+        "NVDA",
+        "GOOGL",
+        "TSLA",
+        "MSFT"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-09",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 146
+    },
+    {
       "id": 160,
       "title": "Josh Shapiro on Trump, Iran War Chaos, Israel's Failure, the Economy, and 2028 Race",
       "source_type": "podcast",
@@ -780,6 +803,28 @@ const dashboardData = {
       "archived_date": null,
       "archived_reason": null,
       "podcast_episode_id": 145
+    },
+    {
+      "id": 162,
+      "title": "Private Credit \u201cDoom\u201d Narrative On Shaky Foundation? | Michael Haynes On Why Retail Outflows Are Real But Credit Foundations Are Solid",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-04-08",
+      "summary": "In this episode of Monetary Matters, Jack Farley interviews Michael Haynes, head of private credit at Beach Point Capital Management, a firm managing over $20 billion in assets. The discussion revolves around the private credit space, its various components, and the differences between institutional and retail capital. Haynes clarifies misconceptions about private credit, discusses direct lending, asset-backed lending, and the Opportunistic Funds strategy. The conversation also touches on the current market dynamics, the pricing of risk, and the potential implications of a credit cycle on private credit investments.",
+      "key_takeaway": "Investing in private credit, particularly through opportunistic funds, can provide higher returns by accepting additional credit risk and complexity, suitable for patient institutional capital.",
+      "tickers_mentioned": [
+        "AAPL",
+        "NVDA",
+        "SPY",
+        "TSLA"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-09",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 147
     },
     {
       "id": 155,
@@ -907,11 +952,11 @@ const dashboardData = {
         "PLTR"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-04-07",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-04-10",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 139
     },
     {
@@ -926,11 +971,11 @@ const dashboardData = {
         "RBLX"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-04-07",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-04-10",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 138
     },
     {
@@ -3811,6 +3856,26 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 161,
+      "title": "Who Controls AI Acceleration? Vitalik Buterin and Guillaume Verdon Debate",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-04-09",
+      "summary": "The podcast discusses the acceleration of technological progress and the philosophical debate between effective accelerationism (Eacc) and defensive acceleration (Deac). The conversation revolves around the inevitability of progress, the importance of intentional acceleration, and the risks of concentration of power. The guests emphasize the need for a pluralistic approach to technology and the importance of open-source contributions in shaping the future.",
+      "key_takeaway": "Invest in technologies and platforms that promote open-source contributions and technological pluralism to hedge against an uncertain future and ensure a more equitable distribution of power.",
+      "tickers_mentioned": "[\"AAPL\", \"NVDA\", \"GOOGL\", \"TSLA\", \"MSFT\"]",
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-09",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 146,
+      "episode_release_date": "2026-04-09",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 160,
       "title": "Josh Shapiro on Trump, Iran War Chaos, Israel's Failure, the Economy, and 2028 Race",
       "source_type": "podcast",
@@ -3828,6 +3893,26 @@ const dashboardData = {
       "podcast_episode_id": 145,
       "episode_release_date": "2026-04-08",
       "guest_name": "Governor Josh Shapiro of Pennsylvania",
+      "key_tickers": []
+    },
+    {
+      "id": 162,
+      "title": "Private Credit \u201cDoom\u201d Narrative On Shaky Foundation? | Michael Haynes On Why Retail Outflows Are Real But Credit Foundations Are Solid",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-04-08",
+      "summary": "In this episode of Monetary Matters, Jack Farley interviews Michael Haynes, head of private credit at Beach Point Capital Management, a firm managing over $20 billion in assets. The discussion revolves around the private credit space, its various components, and the differences between institutional and retail capital. Haynes clarifies misconceptions about private credit, discusses direct lending, asset-backed lending, and the Opportunistic Funds strategy. The conversation also touches on the current market dynamics, the pricing of risk, and the potential implications of a credit cycle on private credit investments.",
+      "key_takeaway": "Investing in private credit, particularly through opportunistic funds, can provide higher returns by accepting additional credit risk and complexity, suitable for patient institutional capital.",
+      "tickers_mentioned": "[\"AAPL\", \"NVDA\", \"SPY\", \"TSLA\"]",
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-09",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 147,
+      "episode_release_date": "2026-04-08",
+      "guest_name": null,
       "key_tickers": []
     },
     {
@@ -3932,48 +4017,6 @@ const dashboardData = {
       "episode_release_date": "2026-04-07",
       "guest_name": null,
       "key_tickers": []
-    },
-    {
-      "id": 153,
-      "title": "The Companies Changing Warfare Forever: Palantir & Anduril Execs on Drones, AI & the Future of War",
-      "source_type": "podcast",
-      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "source_date": "2026-04-06",
-      "summary": "In this episode of 'All-In with Chamath, Jason, Sacks & Friedberg', the hosts are joined by Trace Steven and Sean Sankar to discuss the future of defense and technology. They delve into the history of Palantir, the importance of balancing privacy and security, and the strategic implications of the US's position in the global technology and defense landscape. The conversation also touches on the potential risks and opportunities for the US in the coming decades, including the importance of reindustrialization and maintaining technological and military primacy.",
-      "key_takeaway": "Investing in US defense and technology companies that align with maintaining the nation's global primacy and ensuring economic prosperity.",
-      "tickers_mentioned": "[\"AAPL\", \"NVDA\", \"GOOGL\", \"MSFT\", \"PLTR\"]",
-      "sentiment": "bearish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-04-07",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 139,
-      "episode_release_date": "2026-04-06",
-      "guest_name": null,
-      "key_tickers": []
-    },
-    {
-      "id": 154,
-      "title": "Peter Yang on Small Teams, Coding Agents, and Why Human Ambition Has No Ceiling",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-04-06",
-      "summary": "In this episode of the a16z Show, Anish Acharya, a General Partner at a16z, interviews Peter Yang, creator and product lead at Roblox. They discuss the emerging trend of coding agents and their implications on software development, productivity, and the future of work. The conversation covers how coding agents can automate knowledge work, the potential for smaller teams to achieve more, and the shift in the job market towards more individual entrepreneurship.",
-      "key_takeaway": "Investing in companies that leverage coding agents could offer significant productivity gains and reshape the software development landscape.",
-      "tickers_mentioned": "[\"RBLX\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-04-07",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 138,
-      "episode_release_date": "2026-04-06",
-      "guest_name": null,
-      "key_tickers": [
-        "RBLX"
-      ]
     }
   ],
   "definitions": [
@@ -13191,61 +13234,198 @@ const dashboardData = {
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "source_date": "2026-04-08",
     "key_tickers": []
+  },
+  "161": {
+    "id": 152,
+    "insight_id": 161,
+    "podcast_episode_id": 146,
+    "overview": "The rapid acceleration of technology, particularly in the field of AI, is a central theme in today's investment landscape. This deep dive analysis explores the debate between Effective Accelerationism (EAC) and Defensive Acceleration (DAC), two competing philosophies on the pace of AI advancement. EAC, supported by figures like Ethereum founder Vitalik Buterin, views progress as inevitable and advocates for intentional acceleration. Conversely, DAC, represented by critics concerned with power concentration, advocates for caution. The implications of this debate are profound for investors, as it shapes the future of technology and its impact on society and the economy. Understanding these dynamics is crucial for positioning portfolios in the face of technological disruption.",
+    "key_takeaways_detailed": [
+      "Investors should be aware of the philosophical underpinnings of AI acceleration, as they influence the direction and pace of technological innovation.",
+      "EAC's perspective suggests that companies embracing rapid technological advancement may have a higher likelihood of future success.",
+      "DAC's stance implies a need for due diligence on companies' ethical considerations and regulatory compliance in AI development.",
+      "The debate highlights the importance of portfolio diversification across different philosophies of AI advancement to mitigate risk.",
+      "Investors should monitor regulatory developments closely, as they can significantly impact the trajectory of AI companies."
+    ],
+    "investment_thesis": "Our investment thesis is that the accelerating pace of AI development, as influenced by the EAC and DAC philosophies, will lead to a bifurcated market. Companies that can balance rapid innovation with ethical considerations (aligned with DAC) while also capitalizing on the benefits of acceleration (aligned with EAC) will be best positioned for long-term growth. We expect this to play out over the medium to long term, as the technology matures and regulatory frameworks evolve. Catalysts for this thesis include advancements in generative AI, the development of ethical AI standards, and shifts in global regulatory policies.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's significant investment in AI and its commitment to privacy and ethical considerations make it a key player in the AI acceleration debate.",
+        "positioning": "Position long on AAPL as a strategic investment, given its potential to lead in ethical AI development and its robust financial position to weather potential regulatory changes.",
+        "risk": "Key risks include regulatory backlash against tech giants and potential missteps in AI ethics that could damage the brand."
+      },
+      "NVDA": {
+        "rationale": "NVIDIA is a leader in GPU technology, which is fundamental to AI and machine learning, positioning it at the forefront of AI acceleration.",
+        "positioning": "Consider a long position in NVDA for tactical gains, as its technology is integral to the acceleration of AI, but be mindful of the short-term volatility associated with tech stocks.",
+        "risk": "The risk of NVIDIA includes potential disruptions in the semiconductor supply chain and increased competition in the AI hardware space."
+      },
+      "GOOGL": {
+        "rationale": "Google, through its parent company Alphabet, is a major player in AI research and development, with a broad range of applications from search to autonomous vehicles.",
+        "positioning": "Hold a long-term strategic position in GOOGL, anticipating continued innovation and leadership in AI, despite potential regulatory headwinds.",
+        "risk": "Regulatory scrutiny over data privacy and potential antitrust actions pose significant risks to Google's operations and stock performance."
+      },
+      "TSLA": {
+        "rationale": "Tesla's advancements in autonomous driving technology position it as a company that must navigate the balance between rapid technological progress and safety concerns.",
+        "positioning": "A tactical long position in TSLA could be considered, given its potential to disrupt the automotive industry with AI, but with an eye on DAC's concerns about safety and ethical considerations.",
+        "risk": "The risk includes technological failures in autonomous driving, which could lead to reputational damage and regulatory hurdles."
+      },
+      "MSFT": {
+        "rationale": "Microsoft's broad portfolio, including cloud services and AI, places it in a unique position to influence the pace and direction of AI development.",
+        "positioning": "A strategic long position in MSFT is warranted due to its diversified approach to AI, which aligns with both EAC and DAC philosophies.",
+        "risk": "The risk includes potential missed opportunities in AI innovation due to its large size and the possibility of regulatory challenges to its cloud business."
+      }
+    },
+    "positioning_guidance": "Investors should consider a balanced portfolio that includes companies leading in AI acceleration (NVDA, GOOGL), those with a strong ethical stance (AAPL, MSFT), and potential disruptors (TSLA). Position sizing should reflect the investor's risk tolerance, with a medium to long-term timeframe in mind. Entry points should be strategic, considering market volatility and the potential for regulatory changes. Investors may also consider hedging against potential regulatory risks through positions in companies with a more conservative approach to AI development.",
+    "risk_factors": [
+      "Regulatory changes that could slow AI development or impose significant costs on companies.",
+      "Ethical scandals or failures in AI systems that could lead to public backlash and reduced investment.",
+      "Technological disruptions that could render current AI investments obsolete.",
+      "Concentration of power in the hands of a few AI giants, leading to reduced competition and innovation.",
+      "Global political tensions affecting the supply chain and collaboration in AI development."
+    ],
+    "contrarian_signals": [
+      "A potential shift towards more conservative AI development, leading to a reevaluation of DAC's approach.",
+      "The emergence of new AI technologies that could disrupt current market leaders, altering the competitive landscape.",
+      "A global economic downturn that could reduce investment in AI, affecting the pace of technological advancement."
+    ],
+    "catalysts": [
+      "Upcoming AI and technology conferences that could showcase new advancements and influence the direction of AI development.",
+      "Regulatory decisions or policy announcements from major jurisdictions that could impact the AI industry.",
+      "Earnings reports and product launches from key AI companies that could indicate the pace and success of their AI initiatives.",
+      "Publications of research papers or studies that could highlight new ethical considerations or technological breakthroughs in AI.",
+      "Global events or crises that could accelerate or decelerate the adoption of AI technologies, depending on their nature."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-04-09T22:07:00.165180",
+    "updated_at": "2026-04-10 03:07:00",
+    "insight_title": "Who Controls AI Acceleration? Vitalik Buterin and Guillaume Verdon Debate",
+    "source_name": "The a16z Show",
+    "source_date": "2026-04-09",
+    "key_tickers": []
+  },
+  "162": {
+    "id": 153,
+    "insight_id": 162,
+    "podcast_episode_id": 147,
+    "overview": "In the current financial landscape, private credit has been a topic of concern, particularly with the liquidity crunch in certain sectors. Michael Haynes, head of private credit at Beach Point Capital Management, which manages over $20 billion in assets, provides insights into the private credit space. Haynes clarifies that while some firms face challenges, Beach Point's focus on institutional capital and a diversified approach to private credit presents a more stable foundation. This analysis delves into the nuances of private credit, the differences in investor composition, and the opportunities and risks within various private credit markets, offering a contrarian view to the prevailing 'doom' narrative.",
+    "key_takeaways_detailed": [
+      "Private credit encompasses a wide range of strategies, from direct lending to asset-backed lending, each with different risk-reward profiles.",
+      "Beach Point Capital Management's approach to private credit is institutionally focused, avoiding the retail capital liquidity issues seen in other firms.",
+      "The firm's Opportunistic Funds seek higher returns by accepting additional credit risk and complexity in dislocated markets.",
+      "Asset-backed finance is a broad universe with diverse opportunities, and Beach Point's hybrid strategy bridges credit and private equity.",
+      "Institutional interest in private credit remains strong, driven by the search for premium returns in exchange for liquidity."
+    ],
+    "investment_thesis": "The investment thesis revolves around the belief that despite recent headlines, the private credit market, particularly as managed by firms like Beach Point Capital Management, is fundamentally sound and offers compelling opportunities. The firm's institutional focus and diversified approach to private credit strategies position it to capitalize on market dislocations and provide superior risk-adjusted returns.3-12",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple Inc. (AAPL) is included as it represents a stable and liquid investment, which can serve as a counterbalance to more illiquid private credit investments.",
+        "positioning": "Strategically long, as a core holding to provide liquidity and stability in a portfolio with significant private credit exposure.",
+        "risk": "Key risks include changes in consumer electronics demand and potential disruptions in the global supply chain."
+      },
+      "NVDA": {
+        "rationale": "Nvidia Corporation (NVDA) is relevant due to its position in the technology sector, which can benefit from the types of market dislocations that Beach Point's Opportunistic Funds target.",
+        "positioning": "Tactically long, as a way to gain exposure to potential high-growth opportunities that may arise from market dislocations.",
+        "risk": "The risk of rapid technological obsolescence and intense competition in the semiconductor industry."
+      },
+      "SPY": {
+        "rationale": "SPDR S&P 500 ETF Trust (SPY) represents a broad market exposure, providing a benchmark against which the performance of private credit investments can be measured.",
+        "positioning": "Strategically neutral, used as a benchmark for portfolio performance and as a liquidity provider.",
+        "risk": "Market risks such as economic downturns, geopolitical events, and changes in interest rates."
+      },
+      "TSLA": {
+        "rationale": "Tesla Inc. (TSLA) is included as a high-growth, high-risk investment, similar to the types of opportunities that might be found in Beach Point's hybrid strategy.",
+        "positioning": "Tactically long for investors with a high risk tolerance, seeking exposure to innovative companies with potential for significant upside.",
+        "risk": "Regulatory risks, production delays, and competitive pressures in the electric vehicle market."
+      }
+    },
+    "positioning_guidance": "Investors should consider a balanced approach to portfolio positioning, with a significant allocation to private credit strategies for diversification and premium returns. Entry points should be considered in the context of market dislocations and relative value. Timeframes for investments should align with the liquidity characteristics of private credit, with a medium to long-term view. Hedges may include stable, liquid investments like AAPL and SPY to balance the portfolio.",
+    "risk_factors": [
+      "Market dislocations leading to unexpected credit losses in private credit portfolios.",
+      "Changes in institutional investor appetites for illiquid assets.",
+      "Regulatory changes affecting the private credit market.",
+      "Economic downturns impacting the creditworthiness of private credit borrowers.",
+      "Competition among private credit managers leading to compressed spreads and reduced returns."
+    ],
+    "contrarian_signals": [
+      "The potential for a market rebound in sectors currently facing a liquidity crunch, presenting buying opportunities.",
+      "The possibility that the current 'doom' narrative overlooks the fundamental strengths of well-managed private credit firms.",
+      "The underestimation of institutional investors' continued interest in private credit despite market volatility."
+    ],
+    "catalysts": [
+      "Economic indicators showing recovery or stability, which could increase investor confidence in private credit.",
+      "Introduction of new regulations that could provide clarity and stability to the private credit market.",
+      "Technological advancements or market innovations that could disrupt traditional private credit models.",
+      "Beach Point Capital Management's next annual meeting, which could provide insights into the firm's strategy and market outlook.",
+      "Quarterly earnings reports from companies like AAPL and NVDA, which can influence market sentiment and provide entry points for tactical investments."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-04-09T22:07:37.372397",
+    "updated_at": "2026-04-10 03:07:37",
+    "insight_title": "Private Credit \u201cDoom\u201d Narrative On Shaky Foundation? | Michael Haynes On Why Retail Outflows Are Real But Credit Foundations Are Solid",
+    "source_name": "Monetary Matters with Jack Farley",
+    "source_date": "2026-04-08",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
   {
-    "id": 164,
-    "term": "Pro-Growth Policies",
-    "definition": "Government actions aimed at fostering economic growth, often through tax cuts and regulatory reforms.",
-    "investment_implications": "Investors should consider regions with pro-growth policies for potential business expansion and job creation.",
+    "id": 169,
+    "term": "Private Credit",
+    "definition": "A broad category of debt investments that includes direct lending, asset-backed lending, and other non-public credit opportunities.",
+    "investment_implications": "Investors should understand the nuances between different private credit strategies to make informed investment decisions.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-04-09 10:05:24",
+    "submitted_date": "2026-04-10 03:04:59",
     "priority_score": 80
   },
   {
-    "id": 165,
-    "term": "Medicaid Fraud",
-    "definition": "Illegal activities involving the use of deception to obtain benefits or payments from Medicaid.",
-    "investment_implications": "Investors in healthcare services and insurance should be aware of fraud detection and prevention measures.",
+    "id": 170,
+    "term": "Opportunistic Funds",
+    "definition": "Funds that seek higher returns by investing in complex, high-risk credit situations, often in dislocated markets.",
+    "investment_implications": "These funds can offer premium returns but require a deep understanding of credit risk and market dynamics.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-04-09 10:05:24",
+    "submitted_date": "2026-04-10 03:04:59",
     "priority_score": 80
   },
   {
-    "id": 162,
-    "term": "Special Relativity",
-    "definition": "A theory in physics that changed our understanding of space and time, introduced by Albert Einstein.",
-    "investment_implications": "Investors can consider the implications of such groundbreaking theories for technological advancements and innovation.",
+    "id": 166,
+    "term": "Effective Accelerationism (Eacc)",
+    "definition": "A philosophy that views progress as inevitable and argues for intentional acceleration to shape the future.",
+    "investment_implications": "Invest in companies and technologies that embrace and drive progress.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-04-08 10:04:28",
+    "submitted_date": "2026-04-10 03:04:19",
     "priority_score": 80
   },
   {
-    "id": 163,
-    "term": "Complexity Zoo",
-    "definition": "A concept in computer science that refers to the vast taxonomy of complexity classes and their interrelations.",
-    "investment_implications": "Understanding complexity classes can help investors identify areas of computer science that may yield significant technological advancements.",
+    "id": 167,
+    "term": "Defensive Acceleration (Deac)",
+    "definition": "A philosophy that advocates for caution in technological advancement, emphasizing safeguards to prevent power concentration.",
+    "investment_implications": "Seek investments in companies that prioritize ethical considerations and decentralization.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-04-08 10:04:28",
+    "submitted_date": "2026-04-10 03:04:19",
     "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 1681,
+    "id": 1701,
     "name": "Governor Josh Shapiro of Pennsylvania",
     "slug": "governor-josh-shapiro-of-pennsylvania",
     "bio": null,
@@ -13257,7 +13437,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1682,
+    "id": 1702,
     "name": "Why $200 Oil Won\u2019t Spike Inflation to 9%",
     "slug": "why-200-oil-wont-spike-inflation-to-9",
     "bio": null,
@@ -13269,7 +13449,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1683,
+    "id": 1703,
     "name": "This special episode",
     "slug": "this-special-episode",
     "bio": null,
@@ -13281,7 +13461,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1684,
+    "id": 1704,
     "name": "Lupin Ramon",
     "slug": "lupin-ramon",
     "bio": null,
@@ -13293,7 +13473,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1685,
+    "id": 1705,
     "name": "When the Music Stops",
     "slug": "when-the-music-stops",
     "bio": null,
@@ -13305,7 +13485,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1686,
+    "id": 1706,
     "name": "Ground Infrastructure",
     "slug": "ground-infrastructure",
     "bio": null,
@@ -13317,7 +13497,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1687,
+    "id": 1707,
     "name": "Rory Johnston",
     "slug": "rory-johnston",
     "bio": null,
@@ -13329,7 +13509,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1688,
+    "id": 1708,
     "name": "Senator John Fetterman on Voting Rights",
     "slug": "senator-john-fetterman-on-voting-rights",
     "bio": null,
@@ -13341,7 +13521,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1689,
+    "id": 1709,
     "name": "Stock Market on Shaky Foundations",
     "slug": "stock-market-on-shaky-foundations",
     "bio": null,
@@ -13353,7 +13533,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1690,
+    "id": 1710,
     "name": "Elon Musk on Moonshots",
     "slug": "elon-musk-on-moonshots",
     "bio": null,
@@ -13365,7 +13545,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1691,
+    "id": 1711,
     "name": "Investing in Capitalism",
     "slug": "investing-in-capitalism",
     "bio": null,
@@ -13377,7 +13557,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1692,
+    "id": 1712,
     "name": "Harvard Professor Graham Allison",
     "slug": "harvard-professor-graham-allison",
     "bio": null,
@@ -13389,7 +13569,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1693,
+    "id": 1713,
     "name": "Andrew Yang",
     "slug": "andrew-yang",
     "bio": "Andrew Yang is an entrepreneur and political leader who popularized universal basic income in U.S. politics through his 2020 presidential campaign.",
@@ -13401,7 +13581,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1694,
+    "id": 1714,
     "name": "Inventing the Renaissance",
     "slug": "inventing-the-renaissance",
     "bio": null,
@@ -13413,7 +13593,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1695,
+    "id": 1715,
     "name": "Ray Dalio",
     "slug": "ray-dalio",
     "bio": "Ray Dalio is the founder of Bridgewater Associates and a macro investor known for his 'Principles' framework and work on long-term debt cycles.",
@@ -13425,7 +13605,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1696,
+    "id": 1716,
     "name": "Nobel Prize-winning economist Paul Krugman",
     "slug": "nobel-prize-winning-economist-paul-krugman",
     "bio": null,
@@ -13437,7 +13617,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1697,
+    "id": 1717,
     "name": "host Jack Mallers",
     "slug": "host-jack-mallers",
     "bio": null,
@@ -13449,7 +13629,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1698,
+    "id": 1718,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -13461,7 +13641,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1699,
+    "id": 1719,
     "name": "Bosworth",
     "slug": "bosworth",
     "bio": null,
@@ -13473,7 +13653,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1700,
+    "id": 1720,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -13560,7 +13740,7 @@ const dashboardData = {
     "last_podcast_name": "All-In Podcast",
     "last_episode_date": "2026-03-28",
     "mention_score": 3,
-    "mention_score_decayed": 2.33,
+    "mention_score_decayed": 2.27,
     "last_main_idea": "Investing in AI-driven platforms and technologies is essential for capturing the growth in the global financial system and staying ahead in the AI era.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:40:52.368193",
@@ -13679,7 +13859,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-28",
     "mention_score": 2,
-    "mention_score_decayed": 1.55,
+    "mention_score_decayed": 1.52,
     "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-28T22:05:42.395070",
@@ -13740,7 +13920,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-28",
     "mention_score": 2,
-    "mention_score_decayed": 1.55,
+    "mention_score_decayed": 1.52,
     "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-28T22:05:50.938326",
@@ -13797,7 +13977,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-02-15",
     "mention_score": 2,
-    "mention_score_decayed": 1.55,
+    "mention_score_decayed": 1.52,
     "last_main_idea": "Invest in sectors with fertile ground for short selling, such as AI and tech, and under-allocated areas like junior mining, while combining long and short strategies for potential alpha.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:42:09.376490",
@@ -13859,7 +14039,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-02-18",
     "mention_score": 2,
-    "mention_score_decayed": 1.18,
+    "mention_score_decayed": 1.15,
     "last_main_idea": "Invest in the vertical integration of AI, the rise of India as a global AI hub, and the shift towards agent-based interactions.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-19T21:23:33.038094",
@@ -13922,11 +14102,195 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-16",
     "mention_score": 2,
-    "mention_score_decayed": 1.18,
+    "mention_score_decayed": 1.15,
     "last_main_idea": "Invest in AI startups that focus on specific niches and use cases, as they can compete effectively against larger AI companies by capitalizing on the gaps between platforms.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
+  },
+  {
+    "id": 167,
+    "name": "Michael Haynes",
+    "slug": "michael-haynes",
+    "bio": "Michael Haynes is the Head of Private Credit at Beach Point Capital Management, a credit firm managing over $20 billion in assets. His expertise lies in private credit and direct lending strategies, making him a significant figure in the financial sector, especially for investors interested in alternative investments.",
+    "known_for": "His leadership in managing a significant portfolio of private credit assets and his insights into the direct lending market.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Informative and reassuring.",
+    "voice_style": "Provides detailed explanations and differentiates between various private credit strategies.",
+    "voice_delivery_notes": "Speaks with confidence and clarity, emphasizing the importance of understanding private credit nuances.",
+    "voice_profile_updated_at": "2026-04-10 03:04:59",
+    "last_seen": "2026-04-10 03:04:59",
+    "last_episode_title": "Private Credit \u201cDoom\u201d Narrative On Shaky Foundation? | Michael Haynes On Why Retail Outflows Are Real But Credit Foundations Are Solid",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-04-08",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investing in private credit, particularly through opportunistic funds, can provide higher returns by accepting additional credit risk and complexity, suitable for patient institutional capital.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-09T22:05:24.439502",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Michael Haynes",
+      "fetched_at": "2026-04-10T03:05:24.438941+00:00",
+      "cliff_notes": "Michael Haynes has established himself as a prominent figure in the realm of private credit and direct lending strategies. As the Head of Private Credit at Beach Point Capital Management, he oversees a substantial portfolio of over $20 billion in assets. His role involves navigating the complexities of the private credit market, which has become increasingly significant in the broader financial landscape. Haynes' expertise is particularly relevant given the growing interest in alternative investments and the challenges faced by the sector, such as liquidity crunches and concerns over retail capital in software loans. His contributions to the industry and his ability to manage large-scale assets underscore his importance in the field of finance.",
+      "derived": {
+        "current_role": "Head of Private Credit at Beach Point Capital Management"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Michael Haynes has established himself as a prominent figure in the realm of private credit and direct lending strategies. As the Head of Private Credit at Beach Point Capital Management, he oversees a substantial portfolio of over $20 billion in assets. His role involves navigating the complexities of the private credit market, which has become increasingly significant in the broader financial landscape.",
+        "Haynes' expertise is particularly relevant given the growing interest in alternative investments and the challenges faced by the sector, such as liquidity crunches and concerns over retail capital in software loans. His contributions to the industry and his ability to manage large-scale assets underscore his importance in the field of finance."
+      ],
+      "sections": [
+        {
+          "heading": "Private Credit Expertise",
+          "body": "Michael Haynes is recognized for his deep understanding of private credit, a niche market that has gained significant attention in recent years due to its potential for high returns and diversification benefits."
+        },
+        {
+          "heading": "Direct Lending Strategies",
+          "body": "Haynes plays a pivotal role in developing and executing direct lending strategies at Beach Point Capital Management, which involves providing loans directly to businesses, bypassing traditional banking channels."
+        },
+        {
+          "heading": "Asset Management",
+          "body": "With over $20 billion in assets under management, Haynes is responsible for making investment decisions that have a substantial impact on the financial performance of Beach Point Capital Management and its clients."
+        },
+        {
+          "heading": "Market Influence",
+          "body": "His insights into the private credit market are highly valued, especially during times of market stress, such as liquidity crunches, where his expertise can guide investors through complex financial situations."
+        }
+      ]
+    }
+  },
+  {
+    "id": 164,
+    "name": "Vitalik Buterin",
+    "slug": "vitalik-buterin",
+    "bio": "Vitalik Buterin is a programmer and writer primarily known as the co-founder of Ethereum, a blockchain platform that enables decentralized applications. His work in cryptocurrency and blockchain technology has made him a significant figure in the field.",
+    "known_for": "Co-founding Ethereum, a leading platform for decentralized applications and cryptocurrencies.",
+    "net_worth_usd": 461000000.0,
+    "net_worth_source": "https://coincodex.com/article/22825/vitalik-buterin-net-worth/",
+    "net_worth_updated_at": "2026-04-09T22:05:44.682431",
+    "voice_tone": "Thoughtful and measured",
+    "voice_style": "Analytical and philosophical",
+    "voice_delivery_notes": "Paced with emphasis on key philosophical points",
+    "voice_profile_updated_at": "2026-04-10 03:04:19",
+    "last_seen": "2026-04-10 03:04:19",
+    "last_episode_title": "Who Controls AI Acceleration? Vitalik Buterin and Guillaume Verdon Debate",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-04-09",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in technologies and platforms that promote open-source contributions and technological pluralism to hedge against an uncertain future and ensure a more equitable distribution of power.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-09T22:05:43.619712",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Vitalik Buterin",
+      "fetched_at": "2026-04-10T03:05:43.619446+00:00",
+      "cliff_notes": "Vitalik Buterin was born in Russia and later moved to Canada with his family. He showed an early interest in programming and mathematics. He became involved with Bitcoin in his teenage years and began writing for Bitcoin Magazine. His dissatisfaction with the limitations of Bitcoin led him to propose Ethereum, a more flexible blockchain platform that could support a wide range of decentralized applications. Ethereum was launched in 2015, and Buterin has continued to play a central role in its development. He has also been an influential voice in discussions about the future of blockchain technology and its potential impact on society.",
+      "derived": {
+        "current_role": "Co-founder of Ethereum",
+        "education": "Dropout from University of Waterloo",
+        "books_or_works": "White paper on Ethereum; various articles on blockchain technology"
+      },
+      "infobox": {
+        "Born": "1994",
+        "Nationality": "Canadian"
+      },
+      "lead_paragraphs": [
+        "Vitalik Buterin was born in Russia and later moved to Canada with his family. He showed an early interest in programming and mathematics. He became involved with Bitcoin in his teenage years and began writing for Bitcoin Magazine. His dissatisfaction with the limitations of Bitcoin led him to propose Ethereum, a more flexible blockchain platform that could support a wide range of decentralized applications.",
+        "Ethereum was launched in 2015, and Buterin has continued to play a central role in its development. He has also been an influential voice in discussions about the future of blockchain technology and its potential impact on society."
+      ],
+      "sections": [
+        {
+          "heading": "Ethereum",
+          "body": "Buterin co-founded Ethereum, a blockchain platform that enables decentralized applications, in 2015. It has since become one of the largest and most influential blockchain networks."
+        },
+        {
+          "heading": "Blockchain Advocacy",
+          "body": "Buterin is a prominent advocate for blockchain technology, speaking and writing extensively on its potential applications and implications for the future."
+        },
+        {
+          "heading": "Decentralization",
+          "body": "A key aspect of Buterin's vision for Ethereum is its potential to decentralize power and control, reducing the influence of centralized authorities."
+        },
+        {
+          "heading": "Accelerationism",
+          "body": "Buterin has expressed views on accelerationism, the idea that technological progress should be accelerated rather than restrained, in order to achieve a better future."
+        }
+      ]
+    },
+    "net_worth": "$461.0M"
+  },
+  {
+    "id": 165,
+    "name": "Guillem Bert",
+    "slug": "guillem-bert",
+    "bio": "Guillem Bert is the Founder and CEO of Extrapic, a company focused on technology and its impact on society. He is a thought leader in the field of technological acceleration and its effects on the future of humanity.",
+    "known_for": "His insights on the acceleration of technology and its societal implications, particularly in the context of AI and its governance.",
+    "net_worth_usd": 5000000.0,
+    "net_worth_source": "https://www.capitalism.com/bert-kreischer-net-worth-plus-his-tv-films-book-stand-up-and-salary/",
+    "net_worth_updated_at": "2026-04-09T22:05:57.470208",
+    "voice_tone": "Passionate and visionary",
+    "voice_style": "Inspirational and future-oriented",
+    "voice_delivery_notes": "Energetic with a focus on potential outcomes",
+    "voice_profile_updated_at": "2026-04-10 03:04:19",
+    "last_seen": "2026-04-10 03:04:19",
+    "last_episode_title": "Who Controls AI Acceleration? Vitalik Buterin and Guillaume Verdon Debate",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-04-09",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in technologies and platforms that promote open-source contributions and technological pluralism to hedge against an uncertain future and ensure a more equitable distribution of power.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-09T22:05:56.341318",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Guillem Bert",
+      "fetched_at": "2026-04-10T03:05:56.341099+00:00",
+      "cliff_notes": "Guillem Bert is a prominent figure in the technology sector, recognized for his work as the Founder and CEO of Extrapic. His career has been dedicated to understanding and navigating the rapid pace of technological advancement and its profound effects on society. Bert's contributions to the discourse around effective accelerationism versus defensive acceleration highlight his deep engagement with the ethical and strategic considerations of AI and technological progress. His work is pivotal for investors, technologists, and policymakers as they grapple with the implications of accelerating technologies on the future of work, governance, and global stability.",
+      "derived": {
+        "current_role": "Founder and CEO of Extrapic"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Guillem Bert is a prominent figure in the technology sector, recognized for his work as the Founder and CEO of Extrapic. His career has been dedicated to understanding and navigating the rapid pace of technological advancement and its profound effects on society. Bert's contributions to the discourse around effective accelerationism versus defensive acceleration highlight his deep engagement with the ethical and strategic considerations of AI and technological progress.",
+        "His work is pivotal for investors, technologists, and policymakers as they grapple with the implications of accelerating technologies on the future of work, governance, and global stability."
+      ],
+      "sections": [
+        {
+          "heading": "Technological Acceleration",
+          "body": "Guillem Bert discusses the rapid acceleration of technology and its inevitable impact on society, advocating for intentional acceleration to harness its benefits."
+        },
+        {
+          "heading": "Effective Accelerationism",
+          "body": "Bert is known for his stance on effective accelerationism, which posits that progress is inevitable and that restraint only cedes ground to less desirable outcomes."
+        },
+        {
+          "heading": "Defensive Acceleration",
+          "body": "He also addresses defensive acceleration, which argues for caution in the advancement of AI to prevent the concentration of power and ensure safeguards are in place."
+        },
+        {
+          "heading": "Future of Humanity",
+          "body": "Guillem Bert's work is centered around the future of humanity in the context of technological acceleration, emphasizing the need for a culture that can adapt and thrive in a rapidly changing world."
+        }
+      ]
+    },
+    "net_worth": "$5.0M"
   },
   {
     "id": 163,
@@ -14185,7 +14549,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Investing in AI infrastructure and applications that can leverage the power of AI while addressing the challenges of verification and privacy.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-07T22:05:37.646780",
@@ -14418,7 +14782,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "The disruption in shipping due to geopolitical conflicts presents a unique investment opportunity in shipping stocks, particularly for those with a keen understanding of the market dynamics.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-04T22:03:03.597938",
@@ -14457,182 +14821,6 @@ const dashboardData = {
         {
           "heading": "Shipping Prices Surge",
           "body": "Richardson's work has gained prominence as shipping prices have surged, with some reaching 10 times normal levels, highlighting the importance of his analysis and insights."
-        }
-      ]
-    }
-  },
-  {
-    "id": 153,
-    "name": "Mark Andreason",
-    "slug": "mark-andreason",
-    "bio": "Mark Andreason is a co-founder and general partner at a16z, with over 35 years of experience in AI. He has witnessed the evolution of AI technologies and believes the current moment represents a significant payoff from decades of foundational research. Andreason argues that the combination of a language model, a unique shell, and a file system represents one of the most important software architectures in a generation.",
-    "known_for": "His insights into the evolution and potential of AI technologies and the current moment's significance in the field.",
-    "net_worth_usd": 1000000000.0,
-    "net_worth_source": "https://www.oreateai.com/blog/marc-andreessen-the-man-behind-the-billions/0a05c2acfab7b29e9d42044021e4bd53",
-    "net_worth_updated_at": "2026-04-04T05:05:36.409150",
-    "voice_tone": "Confident and informed",
-    "voice_style": "Analytical and forward-looking",
-    "voice_delivery_notes": "Paced with emphasis on key AI breakthroughs and their implications",
-    "voice_profile_updated_at": "2026-04-04 10:05:01",
-    "last_seen": "2026-04-04 10:05:01",
-    "last_episode_title": "Marc Andreessen on AI Winters and Agent Breakthroughs",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-04-03",
-    "mention_score": 1,
-    "mention_score_decayed": 0.89,
-    "last_main_idea": "Invest in AI technologies that leverage the breakthroughs in large language models, reasoning, agents, and self-improvement, as these advancements could lead to transformative software architectures and industry disruptions.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-04T05:05:35.449489",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Mark Andreason",
-      "fetched_at": "2026-04-04T10:05:35.449039+00:00",
-      "cliff_notes": "Mark Andreason, with over 35 years of experience in AI, is a co-founder and general partner at a16z. He has observed AI's cycles through summers and winters, from coding and lists in 1989 to his current involvement in foundation model companies. Andreason argues that the current moment is not a false start but rather the result of eight decades of foundational research catalyzed by four distinct breakthroughs: large language models, reasoning, agents, and self-improvement. He is particularly interested in the software architecture that combines a language model, a unique shell, and a file system, which he believes is one of the most important in a generation. Andreason's career and insights are significant in understanding the trajectory and potential of AI technologies.",
-      "derived": {
-        "current_role": "Co-founder and General Partner at a16z"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Mark Andreason, with over 35 years of experience in AI, is a co-founder and general partner at a16z. He has observed AI's cycles through summers and winters, from coding and lists in 1989 to his current involvement in foundation model companies. Andreason argues that the current moment is not a false start but rather the result of eight decades of foundational research catalyzed by four distinct breakthroughs: large language models, reasoning, agents, and self-improvement.",
-        "He is particularly interested in the software architecture that combines a language model, a unique shell, and a file system, which he believes is one of the most important in a generation. Andreason's career and insights are significant in understanding the trajectory and potential of AI technologies."
-      ],
-      "sections": [
-        {
-          "heading": "AI Evolution",
-          "body": "Mark Andreason has watched AI technologies evolve over more than 35 years, observing cycles of interest and progress."
-        },
-        {
-          "heading": "Foundational Research",
-          "body": "Andreason believes the current advancements in AI are the result of eight decades of foundational research."
-        },
-        {
-          "heading": "Breakthroughs in AI",
-          "body": "He identifies four breakthroughs that have catalyzed the current moment in AI: large language models, reasoning, agents, and self-improvement."
-        },
-        {
-          "heading": "Software Architecture",
-          "body": "Andreason argues that the combination of a language model, a unique shell, and a file system represents a significant advancement in software architecture."
-        }
-      ]
-    },
-    "net_worth": "$1.00B"
-  },
-  {
-    "id": 150,
-    "name": "Alex Bonia",
-    "slug": "alex-bonia",
-    "bio": "Alex Bonia is the co-founder and CEO of World, a company focused on developing a 'proof of human layer' for the AI era. He is dedicated to building the largest real human network, addressing the challenges posed by AI in mimicking human behavior and interactions.",
-    "known_for": "Developing a 'proof of human layer' to distinguish real humans from AI in the digital age.",
-    "net_worth_usd": 3600000000.0,
-    "net_worth_source": "https://globalbizoutlook.com/top-30-ai-billionaires-in-the-world-2025-rankings-and-net-worth-revealed/",
-    "net_worth_updated_at": "2026-04-03T05:05:05.505205",
-    "voice_tone": "Inquisitive and informative",
-    "voice_style": "Explains complex concepts with clarity",
-    "voice_delivery_notes": "Paces well, with emphasis on key points",
-    "voice_profile_updated_at": "2026-04-03 10:04:54",
-    "last_seen": "2026-04-03 10:04:54",
-    "last_episode_title": "Alex Blania on Proof of Human and Building World's Identity Network",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-04-02",
-    "mention_score": 1,
-    "mention_score_decayed": 0.87,
-    "last_main_idea": "Investing in technologies that can verify human interactions online is becoming critical as AI-generated content proliferates, posing both challenges and opportunities for social media platforms and the broader digital economy.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-03T05:05:04.562022",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Alex Bonia",
-      "fetched_at": "2026-04-03T10:05:04.561818+00:00",
-      "cliff_notes": "Alex Bonia is recognized for his work in the intersection of technology and human identity. As the co-founder and CEO of World, he is at the forefront of developing solutions to authenticate human users in a digital landscape increasingly populated by AI. His efforts are crucial in an era where AI's ability to mimic human behavior poses significant challenges to digital platforms that rely on the assumption of human users. Bonia's work is pivotal in maintaining the integrity of online interactions and safeguarding against the manipulations of AI.",
-      "derived": {
-        "current_role": "Co-founder and CEO at World"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Alex Bonia is recognized for his work in the intersection of technology and human identity. As the co-founder and CEO of World, he is at the forefront of developing solutions to authenticate human users in a digital landscape increasingly populated by AI. His efforts are crucial in an era where AI's ability to mimic human behavior poses significant challenges to digital platforms that rely on the assumption of human users.",
-        "Bonia's work is pivotal in maintaining the integrity of online interactions and safeguarding against the manipulations of AI."
-      ],
-      "sections": [
-        {
-          "heading": "Human Authentication",
-          "body": "Alex Bonia is leading the charge in creating a 'proof of human layer', a system designed to verify the authenticity of human users in digital spaces, which is becoming increasingly important as AI technology advances."
-        },
-        {
-          "heading": "AI and Social Media",
-          "body": "Bonia's work addresses the growing concern of AI-operated social media accounts, which can mimic human behavior and influence online platforms, posing threats to the integrity of digital interactions."
-        },
-        {
-          "heading": "Digital Integrity",
-          "body": "In an era where AI can generate convincing videos and posts, Alex Bonia's efforts are aimed at ensuring that digital platforms maintain a level of trust and reliability by distinguishing between real humans and AI."
-        }
-      ]
-    },
-    "net_worth": "$3.60B"
-  },
-  {
-    "id": 151,
-    "name": "Alex Rampell",
-    "slug": "alex-rampell",
-    "bio": "Alex Rampell is a venture capitalist and entrepreneur known for his investments in technology startups. He is the co-founder and General Partner at Andreessen Horowitz (A16Z), focusing on fintech, bioinformatics, and AI.",
-    "known_for": "His role in shaping the future of technology through venture capital investments in startups, particularly in the fields of fintech, bioinformatics, and AI.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Analytical and engaging",
-    "voice_style": "Asks probing questions to delve deeper into topics",
-    "voice_delivery_notes": "Speaks with conviction, emphasizing investment insights",
-    "voice_profile_updated_at": "2026-04-03 10:04:54",
-    "last_seen": "2026-04-03 10:04:54",
-    "last_episode_title": "Alex Blania on Proof of Human and Building World's Identity Network",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-04-02",
-    "mention_score": 1,
-    "mention_score_decayed": 0.87,
-    "last_main_idea": "Investing in technologies that can verify human interactions online is becoming critical as AI-generated content proliferates, posing both challenges and opportunities for social media platforms and the broader digital economy.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-03T05:05:15.312671",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Alex Rampell",
-      "fetched_at": "2026-04-03T10:05:15.312579+00:00",
-      "cliff_notes": "Alex Rampell is a prominent figure in the world of venture capital and technology startups. He began his career as a co-founder and CEO of TrialPay, a payment processing company, and later co-founded Adap.tv, a video advertising platform. Both companies were successfully acquired. Rampell then transitioned to venture capital, becoming a General Partner at Andreessen Horowitz (A16Z), where he focuses on fintech, bioinformatics, and AI. His investments and insights have been instrumental in shaping the future of technology, particularly in the areas of artificial intelligence and its implications for society.",
-      "derived": {
-        "current_role": "Co-founder and General Partner at A16Z",
-        "former_positions": "Co-founder and CEO of TrialPay; Co-founder and CEO of Adap.tv",
-        "education": "B.A. in Mathematics and Computer Science from Yale University; M.S. in Computer Science from Stanford University"
-      },
-      "infobox": {
-        "Born": "1983",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Alex Rampell is a prominent figure in the world of venture capital and technology startups. He began his career as a co-founder and CEO of TrialPay, a payment processing company, and later co-founded Adap.tv, a video advertising platform. Both companies were successfully acquired. Rampell then transitioned to venture capital, becoming a General Partner at Andreessen Horowitz (A16Z), where he focuses on fintech, bioinformatics, and AI.",
-        "His investments and insights have been instrumental in shaping the future of technology, particularly in the areas of artificial intelligence and its implications for society."
-      ],
-      "sections": [
-        {
-          "heading": "Venture Capital",
-          "body": "Alex Rampell is known for his venture capital investments in technology startups, particularly in fintech, bioinformatics, and AI. His role at A16Z has allowed him to influence the trajectory of these industries."
-        },
-        {
-          "heading": "Artificial Intelligence",
-          "body": "Rampell has been vocal about the potential of AI to fundamentally shift society. He discusses the implications of AI in programming humans and the challenges of distinguishing between humans and bots in the digital age."
-        },
-        {
-          "heading": "Fintech",
-          "body": "As a General Partner at A16Z, Rampell has played a significant role in shaping the fintech industry through his investments and insights. His focus on fintech has helped drive innovation in the space."
         }
       ]
     }

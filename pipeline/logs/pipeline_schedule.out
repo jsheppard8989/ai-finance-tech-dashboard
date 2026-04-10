@@ -25707,3 +25707,527 @@ ModuleNotFoundError: No module named 'yfinance'
 ============================================================
 STEP: Auto-Curate Terms
 ============================================================
+s)
+  Definition: A practice where ship owners register their vessels in countries with lower regulations to shield th...
+
+• Coding Agents
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: Software tools that can automate coding tasks, potentially revolutionizing the way software is devel...
+
+• Decision Advantage
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: The concept of outthinking and out-executing adversaries in warfare through technology and strategy....
+
+• Reindustrialization
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: The process of rebuilding and revitalizing a nation's industrial base to ensure economic prosperity ...
+
+• Carnivore Diet
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A dietary approach that primarily or exclusively includes animal products, often based on the belief...
+
+• Human-Machine Synthesis
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: The concept where humans act as sensors and AI as actuators, creating a collaborative relationship....
+
+• Distillation
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: The process of reducing a large AI model into a smaller, more manageable one through API queries....
+
+• Private Programmable AI
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: AI systems that can be customized and used within trusted groups for privacy and security....
+
+• Synthetic Biology
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: The design and construction of new biological parts, devices, and systems, or the redesign of existi...
+
+• Gene Editing
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: The process of making changes to DNA sequences, which can be used to alter an organism's physical tr...
+
+• AI in Biology
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: The application of artificial intelligence to analyze biological data, design experiments, and predi...
+
+• FOMO
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: Fear of Missing Out, a term used to describe the anxiety of not participating in a potentially rewar...
+
+• Beta-agnostic
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: An investment approach that is not influenced by market movements or volatility....
+
+• Special Relativity
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A theory in physics that changed our understanding of space and time, introduced by Albert Einstein....
+
+• Complexity Zoo
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A concept in computer science that refers to the vast taxonomy of complexity classes and their inter...
+
+• Pro-Growth Policies
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: Government actions aimed at fostering economic growth, often through tax cuts and regulatory reforms...
+
+• Medicaid Fraud
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: Illegal activities involving the use of deception to obtain benefits or payments from Medicaid....
+
+✓ Auto-Curate Terms completed
+
+============================================================
+STEP: Extract Podcast Guests
+============================================================
+============================================================
+Extract Podcast Guests
+============================================================
+Processing 118 processed episodes
+  ✓ Governor Josh Shapiro of Pennsylvania ← All-In with Chamath, Jason, Sacks & Friedberg (2026-04-08)
+  ✓ Why $200 Oil Won’t Spike Inflation to 9% ← Monetary Matters with Jack Farley (2026-04-01)
+  ✓ This special episode ← All-In Podcast (2026-03-28)
+  ✓ Lupin Ramon ← Monetary Matters with Jack Farley (2026-03-27)
+  ✓ When the Music Stops ← The Jack Mallers Show (2026-03-24)
+  ✓ Ground Infrastructure ← The a16z Show (2026-03-23)
+  ✓ Rory Johnston ← Monetary Matters with Jack Farley (2026-03-19)
+  ✓ Senator John Fetterman on Voting Rights ← All-In with Chamath, Jason, Sacks & Friedberg (2026-03-18)
+  ✓ Stock Market on Shaky Foundations ← Monetary Matters with Jack Farley (2026-03-18)
+  ✓ Elon Musk on Moonshots ← Moonshots with Peter Diamandis (2026-03-17)
+  ✓ Investing in Capitalism ← All-In with Chamath, Jason, Sacks & Friedberg (2026-03-13)
+  ✓ Harvard Professor Graham Allison ← All-In with Chamath, Jason, Sacks & Friedberg (2026-03-09)
+  ✓ Andrew Yang ← Moonshots with Peter Diamandis (2026-03-07)
+  ✓ Inventing the Renaissance ← Dwarkesh Podcast (2026-03-06)
+  ✓ Ray Dalio ← All-In with Chamath, Jason, Sacks & Friedberg (2026-03-03)
+  ✓ Nobel Prize-winning economist Paul Krugman ← Monetary Matters with Jack Farley (2026-02-19)
+  ✓ host Jack Mallers ← The Jack Mallers Show (2026-02-19)
+  ✓ Ben Horowitz ← Moonshots with Peter Diamandis (2026-02-19)
+  ✓ Bosworth ← a16z Live (2026-02-15)
+  ✓ Milton Berg ← Monetary Matters with Jack Farley (2026-02-06)
+
+✓ Done. 20 guest(s) in database.
+
+✓ Extract Podcast Guests completed
+
+============================================================
+STEP: Export Website Data
+============================================================
+============================================================
+Exporting Website Data
+============================================================
+✓ Exported website data to /Users/jaredsheppard/.openclaw/workspace/site/data
+✓ Exported: {'ticker_scores': 50, 'podcast_summaries': 63, 'archive_items': 150, 'podcast_guests': 20, 'pundits': 20}
+🔍 Scanning podcast pipeline...
+
+
+================================================================================
+📊 PODCAST PIPELINE STATUS
+================================================================================
+
+📈 Pipeline Summary (4 total episodes tracked):
+  ✅ Downloaded:       4 / 4
+  ✅ Transcribed:      3 / 4
+  ✅ Analyzed:         1 / 4
+  ✅ Insight Created:  1 / 4
+  ✅ Published:        0 / 4
+
+🔍 Episodes Needing Attention:
+
+  📝 Pending Transcription (1):
+    - Who Controls AI Acceleration? Vitalik Buterin and 
+
+  🔬 Pending Analysis (2):
+    - Private Credit “Doom” Narrative On Shaky Foundatio
+    - The Agent Era: Building Software Beyond Chat with 
+
+  🌐 Pending Publishing (1):
+    - Josh Shapiro on Trump, Iran War Chaos, Israel's Fa
+
+✅ Complete Episodes (All Stages):
+    (None yet)
+
+📅 Last Updated: 2026-04-09T05:07:39.480954
+📁 Status file: /Users/jaredsheppard/.openclaw/workspace/pipeline/state/pipeline_status.json
+================================================================================
+  ✓ Exported pipeline_state.json: 4 tracked
+
+============================================================
+Generating Website JavaScript
+============================================================
+✓ Generated data.js with 50 tickers, 150 archive items, 134 deep dives, 4 suggested terms, 20 legacy guests, 20 pundits; chartsVersion=2026-04-01T15:16:59.801570
+✓ Bumped data.js cache-buster to v=1775729262
+
+============================================================
+STEP: Push to GitHub
+============================================================
+✓ Pushed to GitHub: Pipeline update 2026-04-09 05:07: 1 podcasts, 1 insights, 0 newsletters
+
+============================================================
+PIPELINE COMPLETE
+Finished: 2026-04-09 05:07:46.038391
+============================================================
+📊 Pipeline Complete
+
+🎙️ 1 new podcast(s) analyzed
+
+🌐 Website updated
+2026-04-09T22:02:58-05:00 run_if_scheduled: in window, running pipeline
+============================================================
+AUTO PIPELINE
+Mode: full
+Started: 2026-04-09 22:02:58.212733
+============================================================
+
+============================================================
+STEP: Podcast Curation
+============================================================
+udio files to episodes...
+  ✓ Episodes with matching audio: 0
+  ? Unmatched audio files (no matching feed episode): 58
+  📥 Episodes pending download before auto-download: 5
+
+Approving all episodes from feed list (feeds are pre-curated)...
+  ↓ Downloading audio: Monetary Matters with Jack Farley – "The Best Time to Invest": How AI Disruption is Reshaping So
+  ↓ Downloading audio: Macro Voices – MacroVoices #527 Adam Rozencwajg: What Comes Next After The 
+  ✓ Downloaded audio for 2 approved episode(s)
+
+  APPROVED (will transcribe or download): 5
+  🎧 Approved episodes with audio after auto-download: 5
+
+======================================================================
+CURATION RESULTS
+======================================================================
+
+📌 APPROVED (will transcribe or download):
+
+  ✓ Monetary Matters with Jack Farley
+    Title: "The Best Time to Invest": How AI Disruption is Reshaping Software Val
+    File: monetary_matters_with_jack_farley__the_best_time_to_invest___how_ai_disruption_is_reshaping_so_70b5b0c8.mp3
+
+  ✓ Monetary Matters with Jack Farley
+    Title: Private Credit “Doom” Narrative On Shaky Foundation? | Michael Haynes 
+    File: monetary_matters_with_jack_farley_private_credit__doom__narrative_on_shaky_foundation____micha_cf456be4.mp3
+
+  ✓ The a16z Show
+    Title: Who Controls AI Acceleration? Vitalik Buterin and Guillaume Verdon Deb
+    File: the_a16z_show_who_controls_ai_acceleration__vitalik_buterin_and_guillaume__5f74ff01.mp3
+
+  ✓ The a16z Show
+    Title: The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie
+    File: the_a16z_show_the_agent_era__building_software_beyond_chat_with_box_ceo_aa_c035a9af.mp3
+
+  ✓ Macro Voices
+    Title: MacroVoices #527 Adam Rozencwajg: What Comes Next After The Iran Crisi
+    File: macro_voices_macrovoices__527_adam_rozencwajg__what_comes_next_after_the__d4a0517e.mp3
+
+
+✓ Curation log saved: /Users/jaredsheppard/.openclaw/workspace/pipeline/state/curation_log.json
+
+======================================================================
+NEXT STEPS
+======================================================================
+
+1. Review approved episodes above
+2. To transcribe approved episodes, run:
+   python3 transcribe_curated.py
+
+3. Or manually transcribe specific files (only for episodes that have audio):
+   whisper 'monetary_matters_with_jack_farley__the_best_time_to_invest___how_ai_disruption_is_reshaping_so_70b5b0c8.mp3' --model tiny --language en
+   whisper 'monetary_matters_with_jack_farley_private_credit__doom__narrative_on_shaky_foundation____micha_cf456be4.mp3' --model tiny --language en
+   whisper 'the_a16z_show_who_controls_ai_acceleration__vitalik_buterin_and_guillaume__5f74ff01.mp3' --model tiny --language en
+   whisper 'the_a16z_show_the_agent_era__building_software_beyond_chat_with_box_ceo_aa_c035a9af.mp3' --model tiny --language en
+   whisper 'macro_voices_macrovoices__527_adam_rozencwajg__what_comes_next_after_the__d4a0517e.mp3' --model tiny --language en
+
+✓ Podcast Curation completed
+
+============================================================
+STEP: Fetch & Transcribe
+============================================================
+sodes
+======================================================================
+  ✓ Swept 2 completed transcript file(s) from whisper_done into transcripts
+
+Found 7 podcast feeds
+
+📻 Processing: https://feeds.megaphone.fm/DVVTS2890392624...
+  ⏭ Already have 'How AI Is Bringing Extinct Animals Back (And What ' (guid match, ep_id=142)
+  ✗ No episode found
+
+📻 Processing: https://feeds.megaphone.fm/EWWMN1909747317...
+  📋 Latest: "The Best Time to Invest": How AI Disruption is Reshaping So...
+  ⬇️  Downloading: EWWMN9186516490.mp3
+     Title: "The Best Time to Invest": How AI Disruption is Reshaping So...
+     ✓ Downloaded to /Users/jaredsheppard/.openclaw/workspace/audio/EWWMN9186516490.mp3
+  🎙️  Transcribing: EWWMN9186516490.mp3
+  📥 Submitted to whisper queue: EWWMN9186516490.mp3
+  ⏭ Queue-only mode: not waiting. Run pipeline again after worker finishes.
+
+📻 Processing: https://feeds.simplecast.com/JGE3yC0V...
+  📋 Latest: Who Controls AI Acceleration? Vitalik Buterin and Guillaume ...
+  ⬇️  Downloading: the_a16z_show_20260409_af3040b3_5ee3_4ac4_88ee_e87d07fd.mp3
+     Title: Who Controls AI Acceleration? Vitalik Buterin and Guillaume ...
+     ✓ Downloaded to /Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_20260409_af3040b3_5ee3_4ac4_88ee_e87d07fd.mp3
+  🎙️  Transcribing: the_a16z_show_20260409_af3040b3_5ee3_4ac4_88ee_e87d07fd.mp3
+  ✓ Already transcribed: the_a16z_show_20260409_af3040b3_5ee3_4ac4_88ee_e87d07fd.txt
+
+📻 Processing: https://rss.libsyn.com/shows/254861/destinations/1...
+  ⏭ Already have 'Josh Shapiro on Trump, Iran War Chaos, Israel's Fa' (guid match, ep_id=145)
+  ✗ No episode found
+
+📻 Processing: https://anchor.fm/s/e29097f4/podcast/rss...
+  ⏭ Already have 'We Were Right. Now What?' (guid match, ep_id=140)
+  ✗ No episode found
+
+📻 Processing: https://feed.podbean.com/macrovoices/feed.xml...
+  📋 Latest: MacroVoices #527 Adam Rozencwajg: What Comes Next After The ...
+  ⬇️  Downloading: MacroVoices-2026-04-09-Adam-Rozencwajg.mp3
+     Title: MacroVoices #527 Adam Rozencwajg: What Comes Next After The ...
+     ✓ Downloaded to /Users/jaredsheppard/.openclaw/workspace/audio/MacroVoices-2026-04-09-Adam-Rozencwajg.mp3
+  🎙️  Transcribing: MacroVoices-2026-04-09-Adam-Rozencwajg.mp3
+  📥 Submitted to whisper queue: MacroVoices-2026-04-09-Adam-Rozencwajg.mp3
+  ⏭ Queue-only mode: not waiting. Run pipeline again after worker finishes.
+
+📻 Processing: https://api.substack.com/feed/podcast/69345.rss...
+  ⏭ Already have 'Michael Nielsen – How science actually progresses' (guid match, ep_id=144)
+  ✗ No episode found
+
+✓ Log saved: /Users/jaredsheppard/.openclaw/workspace/pipeline/state/fetch_log.json
+
+======================================================================
+SUMMARY
+======================================================================
+Total feeds: 7
+Successfully transcribed: 1
+Failed: 2
+
+Completed episodes:
+  ✓ The a16z Show: Who Controls AI Acceleration? Vitalik Buterin and ...
+
+
+Next step: Run 'python3 research.py' to analyze transcripts
+
+✓ Fetch & Transcribe completed
+
+============================================================
+STEP: Newsletter Ingestion
+============================================================
+==================================================
+Newsletter Ingestion Pipeline
+==================================================
+
+Connecting to Gmail...
+Connecting to Gmail at imap.gmail.com:993...
+Logging in as jsheppard8989@gmail.com...
+Selecting folder: NEWSLETTERS...
+Found 0 unread emails
+
+No emails fetched from Gmail.
+
+✓ Processed 0 emails
+
+Files saved to: /Users/jaredsheppard/.openclaw/workspace/pipeline/inbox
+
+Next step: Run analysis to score stock mentions
+
+✓ Newsletter Ingestion completed
+  ✓ Cleaned up 1 orphan audio file(s) (transcript already exists)
+
+============================================================
+STEP: Transcript AI Analysis
+============================================================
+  ⚠ Google Generative AI library not installed. Run: pip install google-generativeai
+
+============================================================
+Processing Podcast Transcripts with AI
+============================================================
+  Using Moonshot/Kimi API
+Found 121 transcript files
+  Processing e3c75a06762af10f374661e8af1d1af6.txt...
+    ⏭ Episode already in database (duplicate), skipping
+  Processing dario_amodei.txt...
+    ⏭ Too short, skipping
+  Processing the_a16z_show_20260408_d8e62120_c865_428e_b1c2_1d965406.txt...
+    ⚠ AI analysis failed: AI output contains non-ASCII characters (rejecting).
+    ✗ AI analysis failed
+  Processing the_a16z_show_20260409_af3040b3_5ee3_4ac4_88ee_e87d07fd.txt...
+    ✓ Added episode (ID: 146)
+    + Emerging term: Effective Accelerationism (Eacc)
+    + Emerging term: Defensive Acceleration (Deac)
+    + Emerging term: Techno-Capital
+    ✓ Added 0 ticker mentions
+  Processing DVVTS5786783285.txt...
+    ⏭ Episode 'Ben Horowitz: xAI Executive Exodus, Ilya's $5B SSI Valuation...' already in database, skipping
+  Processing moonshots_with_peter_diamandis_meta_buys_moltbook__gpt_5_4__and_fruitfly_brain_upload___moo_609f0b8d.txt...
+    ⏭ Episode already in database (duplicate), skipping
+  Processing elon_musk.txt...
+    ⏭ Too short, skipping
+  Processing EWWMN9672742629.txt...
+    ✓ Added episode (ID: 147)
+    + Emerging term: Private Credit
+    + Emerging term: Opportunistic Funds
+    ✓ Added 0 ticker mentions
+  Processing DVVTS6372073266.txt...
+    ⏭ Episode already in database (duplicate), skipping
+  Processing DVVTS3579530070.txt...
+    ⏭ Episode already in database (duplicate), skipping
+
+✓ Transcript processing complete: 2 new, 111 skipped, 0 errors
+✓ Analyzed 2 new transcripts
+
+============================================================
+STEP: Newsletter Import
+============================================================
+✓ Total newsletters imported: 0
+
+============================================================
+STEP: Promote Episodes to Insights
+============================================================
+Found 2 processed episodes not yet in insights
+  ✓ Promoted: 'Who Controls AI Acceleration? Vitalik Buterin and Guillaume ' (sentiment=bearish)
+  ✓ Promoted: 'Private Credit “Doom” Narrative On Shaky Foundation? | Micha' (sentiment=bearish)
+  ✓ Auto-archived 2 older insights
+✓ Promoted 2 new insight(s) to website
+
+============================================================
+STEP: Promote Newsletters to Insights
+============================================================
+Found 0 newsletters not yet on site
+
+============================================================
+STEP: Aggregate Daily Scores
+============================================================
+✓ Saved 0 daily scores
+  Using Moonshot/Kimi API
+  Using Moonshot/Kimi API
+  Using Moonshot/Kimi API
+  Using Moonshot/Kimi API
+✓ Enriched 4 pundit(s) (LLM/Grokipedia profile + net worth + optional Grok)
+
+============================================================
+STEP: Generate Deep Dives
+============================================================
+Generating Deep Dives for 2 insights...
+
+  Using Moonshot/Kimi API
+[161] Who Controls AI Acceleration? Vitalik Buterin and Guillaume 
+  ✓ Deep Dive stored
+[162] Private Credit “Doom” Narrative On Shaky Foundation? | Micha
+  ✓ Deep Dive stored
+
+✓ Generated 2/2 Deep Dives
+
+✓ Generate Deep Dives completed
+
+============================================================
+STEP: Fetch Prices
+============================================================
+6%)
+  Fetching NINT...     Error fetching NINT: HTTP Error 404: Not Found
+Failed
+  Fetching NOC... $690.57 (-2.32%)
+  Fetching NOW... $89.81 (-18.64%)
+  Fetching NVDA... $183.91 (+6.49%)
+  Fetching Nasdaq... $610.19 (+4.83%)
+  Fetching OKLO... $47.75 (-11.52%)
+  Fetching OPENAI...     Error fetching OPENAI: HTTP Error 404: Not Found
+Failed
+  Fetching PALL... $141.65 (+10.70%)
+  Fetching PLTM... $20.26 (+9.87%)
+  Fetching PLTR... $130.49 (-13.40%)
+  Fetching PQNT... $22.07 (+8.81%)
+  Fetching PQT... $0.00 (+0.00%)
+  Fetching PQUS... $25.12 (+4.44%)
+  Fetching PYPL... $45.98 (+4.48%)
+  Fetching QQQ... $610.19 (+4.83%)
+  Fetching RBLX... $55.17 (-3.14%)
+  Fetching Russell... $261.96 (+8.15%)
+  Fetching S&P... $679.91 (+4.83%)
+  Fetching S&P 500... $679.91 (+4.83%)
+  Fetching SF... $77.13 (+8.99%)
+  Fetching SLV... $68.39 (+11.17%)
+  Fetching SMP-500...     Error fetching SMP-500: HTTP Error 404: Not Found
+Failed
+  Fetching SMR... $9.30 (-18.71%)
+  Fetching SNAP... $4.95 (+10.49%)
+  Fetching SNWGF... $9.60 (+1.05%)
+  Fetching SOYB... $24.36 (+1.16%)
+  Fetching SPACEX...     Error fetching SPACEX: HTTP Error 404: Not Found
+Failed
+  Fetching SPCE... $2.97 (+22.22%)
+  Fetching SPX... $0.00 (+0.00%)
+  Fetching SPY... $679.91 (+4.83%)
+  Fetching SQ... Failed
+  Fetching SQQQ... $67.86 (-15.44%)
+  Fetching Semiconductors... $430.31 (+11.84%)
+  Fetching T... $26.84 (-5.19%)
+  Fetching TDOC... $5.25 (-1.87%)
+  Fetching THROPIC...     Error fetching THROPIC: HTTP Error 404: Not Found
+Failed
+  Fetching TLT... $86.70 (+1.01%)
+  Fetching TSLA... $345.62 (-6.07%)
+  Fetching TSM... $365.49 (+11.01%)
+  Fetching TWTR...     Error fetching TWTR: HTTP Error 404: Not Found
+Failed
+  Fetching UBER... $71.81 (-2.81%)
+  Fetching UNG... $10.88 (-12.19%)
+  Fetching URANIUM...     Error fetching URANIUM: HTTP Error 404: Not Found
+Failed
+  Fetching US 10 year Treasury...     Error fetching US 10 year Treasury: URL can't contain control characters. '/v8/finance/chart/US 
+Failed
+  Fetching US DOLLAR INDEX...     Error fetching US DOLLAR INDEX: URL can't contain control characters. '/v8/finance/chart/US 
+Failed
+  Fetching USDX... $25.70 (+0.06%)
+  Fetching USO... $126.96 (+4.55%)
+  Fetching Uranium...     Error fetching Uranium: HTTP Error 404: Not Found
+Failed
+  Fetching V... $308.29 (+2.21%)
+  Fetching VEEV... $157.08 (-14.66%)
+  Fetching VIX... $19.49 (-25.47%)
+  Fetching WIT... $2.26 (+5.12%)
+  Fetching WMT... $129.13 (+8.49%)
+  Fetching WORK... Failed
+  Fetching WTBN... $25.40 (+0.92%)
+  Fetching WTI... $2.77 (-10.65%)
+  Fetching WTI CRUDE OIL...     Error fetching WTI CRUDE OIL: URL can't contain control characters. '/v8/finance/chart/WTI
+Failed
+  Fetching XAU-USD... $0.00 (+0.00%)
+  Fetching XOM... $155.04 (-2.90%)
+  Fetching ZEC... $0.00 (+0.00%)
+  Fetching ZEN...     Error fetching ZEN: HTTP Error 404: Not Found
+Failed
+  Fetching ZIM... $26.40 (+2.01%)
+
+✓ Saved 98 prices to /Users/jaredsheppard/.openclaw/workspace/site/price_data.json
+Finished: 2026-04-09 22:08:02.867361
+
+✓ Fetch Prices completed
+
+============================================================
+STEP: Generate Charts
+============================================================
+
+STDERR: Traceback (most recent call last):
+  File "/Users/jaredsheppard/.openclaw/workspace/pipeline/generate_charts.py", line 7, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+
+✗ Generate Charts failed
+
+============================================================
+STEP: Auto-Curate Terms
+============================================================

@@ -1,6 +1,29 @@
 {
   "insights": [
     {
+      "id": 161,
+      "title": "Who Controls AI Acceleration? Vitalik Buterin and Guillaume Verdon Debate",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-04-09",
+      "summary": "The podcast discusses the acceleration of technological progress and the philosophical debate between effective accelerationism (Eacc) and defensive acceleration (Deac). The conversation revolves around the inevitability of progress, the importance of intentional acceleration, and the risks of concentration of power. The guests emphasize the need for a pluralistic approach to technology and the importance of open-source contributions in shaping the future.",
+      "key_takeaway": "Invest in technologies and platforms that promote open-source contributions and technological pluralism to hedge against an uncertain future and ensure a more equitable distribution of power.",
+      "tickers_mentioned": [
+        "AAPL",
+        "NVDA",
+        "GOOGL",
+        "TSLA",
+        "MSFT"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-09",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 146
+    },
+    {
       "id": 160,
       "title": "Josh Shapiro on Trump, Iran War Chaos, Israel's Failure, the Economy, and 2028 Race",
       "source_type": "podcast",
@@ -21,6 +44,28 @@
       "archived_date": null,
       "archived_reason": null,
       "podcast_episode_id": 145
+    },
+    {
+      "id": 162,
+      "title": "Private Credit \u201cDoom\u201d Narrative On Shaky Foundation? | Michael Haynes On Why Retail Outflows Are Real But Credit Foundations Are Solid",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-04-08",
+      "summary": "In this episode of Monetary Matters, Jack Farley interviews Michael Haynes, head of private credit at Beach Point Capital Management, a firm managing over $20 billion in assets. The discussion revolves around the private credit space, its various components, and the differences between institutional and retail capital. Haynes clarifies misconceptions about private credit, discusses direct lending, asset-backed lending, and the Opportunistic Funds strategy. The conversation also touches on the current market dynamics, the pricing of risk, and the potential implications of a credit cycle on private credit investments.",
+      "key_takeaway": "Investing in private credit, particularly through opportunistic funds, can provide higher returns by accepting additional credit risk and complexity, suitable for patient institutional capital.",
+      "tickers_mentioned": [
+        "AAPL",
+        "NVDA",
+        "SPY",
+        "TSLA"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-09",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 147
     },
     {
       "id": 155,
@@ -148,11 +193,11 @@
         "PLTR"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-04-07",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-04-10",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 139
     },
     {
@@ -167,11 +212,11 @@
         "RBLX"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-04-07",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-04-10",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 138
     },
     {

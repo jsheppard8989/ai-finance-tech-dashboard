@@ -1,19 +1,19 @@
 {
-  "last_run_iso": "2026-04-08T22:03:55.517363",
+  "last_run_iso": "2026-04-09T05:07:46.038391",
   "step_results": {
-    "transcripts_analyzed": 0,
+    "transcripts_analyzed": 1,
     "newsletters_imported": 0,
-    "insights_promoted": 0,
+    "insights_promoted": 1,
     "scores": 0,
-    "pundits_enriched": 0
+    "pundits_enriched": 1
   },
   "counts": {
     "ticker_mentions": 154,
-    "podcast_episodes": 119,
+    "podcast_episodes": 120,
     "newsletters": 7,
     "daily_scores": 92,
     "overton_terms_total": 16,
-    "latest_insights_total": 133,
+    "latest_insights_total": 134,
     "today_mentions": {}
   },
   "errors": []

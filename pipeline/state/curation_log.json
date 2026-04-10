@@ -1,8 +1,21 @@
 {
-  "timestamp": "2026-04-09T05:04:17.599228",
-  "total_feed_episodes": 4,
-  "approved_for_transcription": 4,
+  "timestamp": "2026-04-09T22:03:16.582882",
+  "total_feed_episodes": 5,
+  "approved_for_transcription": 5,
   "episodes": [
+    {
+      "podcast": "Monetary Matters with Jack Farley",
+      "title": "\"The Best Time to Invest\": How AI Disruption is Reshaping Software Valuations | Ben Topor | Titan Capital Partners",
+      "description": "\n        <p>This episode is sponsored by Pictet Asset Management and its AI-enhanced equity ETFs. </p>\n<p><br></p>\n<p>Pictet AI Enhanced US Equity ETF (PQUS):</p>\n<p> https://etf.am.pictet.com/pqus/?utm_campaign=usetf&amp;cid=2826077237&amp;utm_source=jfmv&amp;utm_content=pquslp&amp;utm_medium=podcast_02&amp;utm_term=noterm </p>\n<p><br></p>\n<p>Pictet AI Enhanced International Equity ETF (PQNT):</p>\n<p> https://etf.am.pictet.com/pqnt/?utm_campaign=usetf&amp;cid=2715538577&amp;utm_source=jfmv&amp;",
+      "audio_url": "https://traffic.megaphone.fm/EWWMN9186516490.mp3",
+      "published": "Thu, 09 Apr 2026 13:00:00 -0000",
+      "published_date": "2026-04-09",
+      "rss_guid": "b96abfce-33cc-11f1-8c6d-432a1052e366",
+      "status": "APPROVED",
+      "matched_keywords": [],
+      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/monetary_matters_with_jack_farley__the_best_time_to_invest___how_ai_disruption_is_reshaping_so_70b5b0c8.mp3",
+      "filename": "monetary_matters_with_jack_farley__the_best_time_to_invest___how_ai_disruption_is_reshaping_so_70b5b0c8.mp3"
+    },
     {
       "podcast": "Monetary Matters with Jack Farley",
       "title": "Private Credit \u201cDoom\u201d Narrative On Shaky Foundation? | Michael Haynes On Why Retail Outflows Are Real But Credit Foundations Are Solid",
@@ -11,10 +24,10 @@
       "published": "Wed, 08 Apr 2026 13:10:00 -0000",
       "published_date": "2026-04-08",
       "rss_guid": "653e074c-334c-11f1-a19e-174f3bb51697",
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/EWWMN9672742629.mp3",
-      "filename": "EWWMN9672742629.mp3",
       "status": "APPROVED",
-      "matched_keywords": []
+      "matched_keywords": [],
+      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/monetary_matters_with_jack_farley_private_credit__doom__narrative_on_shaky_foundation____micha_cf456be4.mp3",
+      "filename": "monetary_matters_with_jack_farley_private_credit__doom__narrative_on_shaky_foundation____micha_cf456be4.mp3"
     },
     {
       "podcast": "The a16z Show",
@@ -43,17 +56,17 @@
       "filename": "the_a16z_show_the_agent_era__building_software_beyond_chat_with_box_ceo_aa_c035a9af.mp3"
     },
     {
-      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "title": "Josh Shapiro on Trump, Iran War Chaos, Israel's Failure, the Economy, and 2028 Race",
-      "description": "<p>(0:00) Jason intros PA Governor Josh Shapiro</p> <p>(1:40) Shapiro's blueprint for PA: pro-growth, pro-freedom, less red tape, prosecuting fraud</p> <p>(13:05) Wealth tax debate, what Dems are getting wrong on business</p> <p>(20:17) 2024 Democratic collapse, future of the party, socialist wing</p> <p>(38:12) How Congress has become \"pathetic,\" political corruption</p> <p>(47:18) Antisemitism, Netanyahu's failures, and the chaos of the Iran War</p> <p>Follow Gov. Shapiro:</p> <p><a href= \"htt",
-      "audio_url": "https://dts.podtrac.com/redirect.mp3/traffic.libsyn.com/secure/allinchamathjason/ALLIN_INTV_Shapiro_Ch.mp3?dest-id=1928300",
-      "published": "Wed, 08 Apr 2026 15:52:00 +0000",
-      "published_date": "2026-04-08",
-      "rss_guid": "18c8b23b-ddd6-47ed-97d0-784826b47d19",
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/ALLIN_INTV_Shapiro_Ch.mp3",
-      "filename": "ALLIN_INTV_Shapiro_Ch.mp3",
+      "podcast": "Macro Voices",
+      "title": "MacroVoices #527 Adam Rozencwajg: What Comes Next After The Iran Crisis",
+      "description": "<p class=\"p1\">MacroVoices Erik Townsend &amp; Patrick Ceresna welcome, Adam Rozencwajg. They discuss, crude oil, food &amp; fertilisers, uranium, and gold after the Iran conflict. <a href='https://bit.ly/4vkd1XX'>https://bit.ly/4vkd1XX</a>\u00a0</p>\n<p class=\"p2\">\u00a0</p>\n<p class=\"p1\">\u00a0\ud83d\udd3bDownload Big Picture Trading Chartbook \ud83d\udcc8\ud83d\udcc9: <a href='https://bit.ly/48BZgtX'>https://bit.ly/48BZgtX</a></p>\n<p class=\"p2\">\u00a0</p>\n<p class=\"p1\">\u2705Sign up for a FREE 14-day trial at Big Picture Trading: <a href='https://bit.",
+      "audio_url": "https://dts.podtrac.com/redirect.mp3/mcdn.podbean.com/mf/web/x8nfzn2dd37pdvix/MacroVoices-2026-04-09-Adam-Rozencwajg.mp3",
+      "published": "Thu, 09 Apr 2026 11:34:09 -0500",
+      "published_date": "2026-04-09",
+      "rss_guid": "macrovoices.podbean.com/bd591f3f-ee0f-3f96-a209-8f809346c1a6",
       "status": "APPROVED",
-      "matched_keywords": []
+      "matched_keywords": [],
+      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/macro_voices_macrovoices__527_adam_rozencwajg__what_comes_next_after_the__d4a0517e.mp3",
+      "filename": "macro_voices_macrovoices__527_adam_rozencwajg__what_comes_next_after_the__d4a0517e.mp3"
     }
   ]
 }
