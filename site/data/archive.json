@@ -24,6 +24,51 @@
       "podcast_episode_id": 146
     },
     {
+      "id": 163,
+      "title": "\"The Best Time to Invest\": How AI Disruption is Reshaping Software Valuations | Ben Topor | Titan Capital Partners",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-04-09",
+      "summary": "In this episode of 'Other People's Money', Max Weathie interviews Ben Topore, founder and managing partner of Titan Capital Partners, a growth equity firm focusing on software markets. They discuss the rapidly shifting software landscape, the importance of understanding the different playbooks for various types of software, and the impact of AI on the industry. Ben also shares insights on investment strategies in growth equity and secondary markets, and the importance of strategic decision-making in competitive landscapes.",
+      "key_takeaway": "Invest in software companies that define the market, focusing on backing scale-ready leaders, providing liquidity to early investors, and helping companies make strategic decisions.",
+      "tickers_mentioned": [
+        "PQT",
+        "PQUS",
+        "E-TORO"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-10",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 149
+    },
+    {
+      "id": 164,
+      "title": "MacroVoices #527 Adam Rozencwajg: What Comes Next After The Iran Crisis",
+      "source_type": "podcast",
+      "source_name": "Macro Voices",
+      "source_date": "2026-04-09",
+      "summary": "In this episode of Macro Voices, hosts Eric Townsend and Patrick Suresne discuss the impact of geopolitical tensions, particularly the Iran conflict, on global energy and commodity markets. They feature interviews with Adam Rosenswag, co-founder of Garing and Rosenswag, and Jim Bianco, founder of Bianco Research. The conversation covers the physical dislocation in oil markets, the potential implications for food prices and inflation, and the outlook for commodities like uranium and gold. They also analyze the market's reaction to the potential ceasefire and its effects on oil prices and broader market trends.",
+      "key_takeaway": "Investment opportunities may arise from the physical dislocation in energy markets and shifts in energy security, with a focus on commodities like oil, uranium, and gold.",
+      "tickers_mentioned": [
+        "WTI",
+        "GOLD",
+        "COPPER",
+        "URANIUM",
+        "SPX",
+        "USD"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-10",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 148
+    },
+    {
       "id": 160,
       "title": "Josh Shapiro on Trump, Iran War Chaos, Israel's Failure, the Economy, and 2028 Race",
       "source_type": "podcast",
@@ -83,11 +128,11 @@
         "TSLA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-04-07",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-04-10",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 141
     },
     {
@@ -105,11 +150,11 @@
         "TSLA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-04-07",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-04-10",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 140
     },
     {

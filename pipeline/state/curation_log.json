@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-04-09T22:03:16.582882",
-  "total_feed_episodes": 5,
-  "approved_for_transcription": 5,
+  "timestamp": "2026-04-10T05:03:28.987840",
+  "total_feed_episodes": 4,
+  "approved_for_transcription": 4,
   "episodes": [
     {
       "podcast": "Monetary Matters with Jack Farley",
@@ -11,36 +11,23 @@
       "published": "Thu, 09 Apr 2026 13:00:00 -0000",
       "published_date": "2026-04-09",
       "rss_guid": "b96abfce-33cc-11f1-8c6d-432a1052e366",
+      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/EWWMN9186516490.mp3",
+      "filename": "EWWMN9186516490.mp3",
       "status": "APPROVED",
-      "matched_keywords": [],
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/monetary_matters_with_jack_farley__the_best_time_to_invest___how_ai_disruption_is_reshaping_so_70b5b0c8.mp3",
-      "filename": "monetary_matters_with_jack_farley__the_best_time_to_invest___how_ai_disruption_is_reshaping_so_70b5b0c8.mp3"
-    },
-    {
-      "podcast": "Monetary Matters with Jack Farley",
-      "title": "Private Credit \u201cDoom\u201d Narrative On Shaky Foundation? | Michael Haynes On Why Retail Outflows Are Real But Credit Foundations Are Solid",
-      "description": "\n        <p>This episode is brought to you by CAIA.nxt. Learn more about their alternatives education courses for investment advisors and get 10% off with code MMTEN: </p>\n<p><a href=\"https://caia.org/content/welcome-monetary-matters-and-other-peoples-money-listeners\">https://caia.org/content/welcome-monetary-matters-and-other-peoples-money-listeners</a></p>\n<p><br></p>\n<p>\u00a0Michael Haynes, Head of Private Credit at Beach Point Capital Management, joins Jack for a discussion of private credit. Mi",
-      "audio_url": "https://traffic.megaphone.fm/EWWMN9672742629.mp3",
-      "published": "Wed, 08 Apr 2026 13:10:00 -0000",
-      "published_date": "2026-04-08",
-      "rss_guid": "653e074c-334c-11f1-a19e-174f3bb51697",
-      "status": "APPROVED",
-      "matched_keywords": [],
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/monetary_matters_with_jack_farley_private_credit__doom__narrative_on_shaky_foundation____micha_cf456be4.mp3",
-      "filename": "monetary_matters_with_jack_farley_private_credit__doom__narrative_on_shaky_foundation____micha_cf456be4.mp3"
+      "matched_keywords": []
     },
     {
       "podcast": "The a16z Show",
-      "title": "Who Controls AI Acceleration? Vitalik Buterin and Guillaume Verdon Debate",
-      "description": "<p>Eddy Lazzarin speaks with Vitalik Buterin, founder of Ethereum, and Guillaume Verdon, founder and CEO of Extropic, about whether AI progress can or should be steered, the risks of concentrated power, and what open source and decentralization mean for who benefits from increasingly powerful systems. This episode originally aired on the a16z crypto podcast.\u00a0</p>\n<p>\u00a0</p>\n<p>Resources:</p>\n<p>Follow Vitalik Buterin on X: https://twitter.com/VitalikButerin\u00a0</p>\n<p>Follow Guillaume Verdon on X: <a",
-      "audio_url": "https://mgln.ai/e/1344/afp-848985-injected.calisto.simplecastaudio.com/3f86df7b-51c6-4101-88a2-550dba782de8/episodes/caaf9b73-450b-4c2e-8548-e122bafb96e6/audio/128/default.mp3?aid=rss_feed&awCollectionId=3f86df7b-51c6-4101-88a2-550dba782de8&awEpisodeId=caaf9b73-450b-4c2e-8548-e122bafb96e6&feed=JGE3yC0V",
-      "published": "Thu, 9 Apr 2026 10:00:00 +0000",
-      "published_date": "2026-04-09",
-      "rss_guid": "af3040b3-5ee3-4ac4-88ee-e87d07fdf0d4",
+      "title": "What Running Windows at Microsoft Taught Steven Sinofsky About Apple",
+      "description": "<p>Theo Jaffee speaks with Steven Sinofsky, board partner at a16z and former president of the Windows division at Microsoft, about Apple's 50th anniversary, the cultural differences that separated Apple and Microsoft, why the MacBook Neo puts Windows laptops in a difficult position, and what the history of computing design reveals about where hardware and software are headed.</p>\n<p>\u00a0</p>\n<p>Resources:</p>\n<p>Follow Steven Sinofsky on X: <a href=\"https://x.com/stevesi\" rel=\"noopener noreferrer\">",
+      "audio_url": "https://mgln.ai/e/1344/afp-848985-injected.calisto.simplecastaudio.com/3f86df7b-51c6-4101-88a2-550dba782de8/episodes/5de42868-ae79-4841-9ce4-08f116d99f84/audio/128/default.mp3?aid=rss_feed&awCollectionId=3f86df7b-51c6-4101-88a2-550dba782de8&awEpisodeId=5de42868-ae79-4841-9ce4-08f116d99f84&feed=JGE3yC0V",
+      "published": "Fri, 10 Apr 2026 10:00:00 +0000",
+      "published_date": "2026-04-10",
+      "rss_guid": "ec590915-7051-45fb-8ba6-e827fe358b8b",
       "status": "APPROVED",
       "matched_keywords": [],
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_who_controls_ai_acceleration__vitalik_buterin_and_guillaume__5f74ff01.mp3",
-      "filename": "the_a16z_show_who_controls_ai_acceleration__vitalik_buterin_and_guillaume__5f74ff01.mp3"
+      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_what_running_windows_at_microsoft_taught_steven_sinofsky_abo_28d31253.mp3",
+      "filename": "the_a16z_show_what_running_windows_at_microsoft_taught_steven_sinofsky_abo_28d31253.mp3"
     },
     {
       "podcast": "The a16z Show",
@@ -63,10 +50,10 @@
       "published": "Thu, 09 Apr 2026 11:34:09 -0500",
       "published_date": "2026-04-09",
       "rss_guid": "macrovoices.podbean.com/bd591f3f-ee0f-3f96-a209-8f809346c1a6",
+      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/MacroVoices-2026-04-09-Adam-Rozencwajg.mp3",
+      "filename": "MacroVoices-2026-04-09-Adam-Rozencwajg.mp3",
       "status": "APPROVED",
-      "matched_keywords": [],
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/macro_voices_macrovoices__527_adam_rozencwajg__what_comes_next_after_the__d4a0517e.mp3",
-      "filename": "macro_voices_macrovoices__527_adam_rozencwajg__what_comes_next_after_the__d4a0517e.mp3"
+      "matched_keywords": []
     }
   ]
 }

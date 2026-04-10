@@ -17,7 +17,7 @@
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-03-19",
     "mention_score": 4,
-    "mention_score_decayed": 3.1,
+    "mention_score_decayed": 3.03,
     "last_main_idea": "The Iran conflict could lead to a renewed inflation cycle, affecting commodities and energy markets, with potential second-order effects that markets may currently be underpricing.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:36:30.218908",
@@ -118,6 +118,71 @@
     "net_worth": "$151.00B"
   },
   {
+    "id": 54,
+    "name": "Jim Bianco",
+    "slug": "jim-bianco",
+    "bio": "Jim Bianco is the founder of Bianco Research, an independent research firm specializing in global markets. He is recognized for his expertise in macroeconomic trends and geopolitical analysis, providing insights to professional finance, high-net worth individuals, and sophisticated investors.",
+    "known_for": "His in-depth analysis and predictions on global markets and macroeconomic trends.",
+    "net_worth_usd": 12300000.0,
+    "net_worth_source": "https://www.benzinga.com/sec/insider-trades/0001198554/james-a-bianco",
+    "net_worth_updated_at": "2026-04-10T05:06:38.074861",
+    "voice_tone": "Questioning and speculative.",
+    "voice_style": "Analytical with a focus on the potential outcomes of geopolitical events.",
+    "voice_delivery_notes": "Deliberate, with pauses for emphasis on key geopolitical points.",
+    "voice_profile_updated_at": "2026-04-10 10:04:28",
+    "last_seen": "2026-04-10 10:04:28",
+    "last_episode_title": "MacroVoices #527 Adam Rozencwajg: What Comes Next After The Iran Crisis",
+    "last_podcast_name": "Macro Voices",
+    "last_episode_date": "2026-04-09",
+    "mention_score": 2,
+    "mention_score_decayed": 2,
+    "last_main_idea": "Investment opportunities may arise from the physical dislocation in energy markets and shifts in energy security, with a focus on commodities like oil, uranium, and gold.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-10T05:06:37.059270",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Jim Bianco",
+      "fetched_at": "2026-04-10T10:06:37.059032+00:00",
+      "cliff_notes": "Jim Bianco is a prominent figure in the world of finance and macroeconomics. As the founder of Bianco Research, he has dedicated his career to providing independent research on global markets. His expertise in macroeconomic trends and geopolitical analysis has made him a sought-after commentator and analyst. Bianco's insights are particularly valuable for professional finance, high-net worth individuals, family offices, and other sophisticated investors. His work has been influential in shaping investment strategies and understanding market dynamics. Through his appearances on financial podcasts like Macrovoisers, Bianco shares his perspectives on critical issues such as the Iran conflict, its impact on commodities, and the Fed's reaction to geopolitical events. His contributions to the financial community have established him as a respected voice in the field.",
+      "derived": {
+        "current_role": "Founder of Bianco Research"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Jim Bianco is a prominent figure in the world of finance and macroeconomics. As the founder of Bianco Research, he has dedicated his career to providing independent research on global markets. His expertise in macroeconomic trends and geopolitical analysis has made him a sought-after commentator and analyst. Bianco's insights are particularly valuable for professional finance, high-net worth individuals, family offices, and other sophisticated investors.",
+        "His work has been influential in shaping investment strategies and understanding market dynamics. Through his appearances on financial podcasts like Macrovoisers, Bianco shares his perspectives on critical issues such as the Iran conflict, its impact on commodities, and the Fed's reaction to geopolitical events. His contributions to the financial community have established him as a respected voice in the field."
+      ],
+      "sections": [
+        {
+          "heading": "Global Markets",
+          "body": "Jim Bianco is well-versed in analyzing and commenting on global market trends, providing valuable insights to investors and financial professionals."
+        },
+        {
+          "heading": "Macroeconomic Trends",
+          "body": "Bianco's expertise in macroeconomic trends allows him to predict and explain the impact of global economic shifts on financial markets."
+        },
+        {
+          "heading": "Geopolitical Analysis",
+          "body": "His geopolitical analysis is crucial for understanding the implications of international conflicts and their effects on the economy and markets."
+        },
+        {
+          "heading": "Iran Conflict",
+          "body": "Bianco has provided in-depth analysis on the Iran conflict, discussing its potential outcomes and the subsequent effects on commodities such as crude oil, food, fertilizer, uranium, and gold."
+        },
+        {
+          "heading": "Fed's Reaction",
+          "body": "He has also commented on the Federal Reserve's response to geopolitical events, including the Iran conflict, and its influence on inflation and monetary policy."
+        }
+      ]
+    },
+    "net_worth": "$12.3M"
+  },
+  {
     "id": 97,
     "name": "Simon White",
     "slug": "simon-white",
@@ -135,7 +200,7 @@
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-03-19",
     "mention_score": 2,
-    "mention_score_decayed": 1.55,
+    "mention_score_decayed": 1.52,
     "last_main_idea": "The Iran conflict could lead to a renewed inflation cycle, affecting commodities and energy markets, with potential second-order effects that markets may currently be underpricing.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:35:48.845381",
@@ -442,6 +507,132 @@
     "pundit_profile": null
   },
   {
+    "id": 169,
+    "name": "Ben Topore",
+    "slug": "ben-topore",
+    "bio": "Ben Topore is the founder and managing partner of Titan Capital Partners, a growth equity firm with a focus on software markets. He is known for authoring a book on decoding the software landscape and his expertise in backing software companies and providing strategic insights.",
+    "known_for": "His expertise in software markets and authoring a book on the subject.",
+    "net_worth_usd": 10000000.0,
+    "net_worth_source": "https://networth20.com/ben-domenech-net-worth/",
+    "net_worth_updated_at": "2026-04-10T05:06:03.474380",
+    "voice_tone": "Informed and analytical.",
+    "voice_style": "Detailed and explanatory, providing clear distinctions between different types of software.",
+    "voice_delivery_notes": "Speaks with a structured approach, breaking down complex topics into digestible points.",
+    "voice_profile_updated_at": "2026-04-10 10:05:17",
+    "last_seen": "2026-04-10 10:05:17",
+    "last_episode_title": "\"The Best Time to Invest\": How AI Disruption is Reshaping Software Valuations | Ben Topor | Titan Capital Partners",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-04-09",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in software companies that define the market, focusing on backing scale-ready leaders, providing liquidity to early investors, and helping companies make strategic decisions.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-10T05:06:02.547144",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Ben Topore",
+      "fetched_at": "2026-04-10T10:06:02.546559+00:00",
+      "cliff_notes": "Ben Topore is a seasoned investor and author with a focus on the software industry. As the founder and managing partner of Titan Capital Partners, a growth equity firm with offices in the US and Israel, Topore has been instrumental in backing companies that define the software markets. His firm focuses on backing scale-ready leaders in software, providing liquidity to early investors, founders, and employees, and aiding companies in making strategic decisions with competitive insights and frameworks. In addition to his work with Titan, Topore has authored a book titled 'Decoding the Software Landscape,' which delves into the intricacies of the software industry. His contributions to both the investment and knowledge domains have made him a notable figure in the tech and finance sectors.",
+      "derived": {
+        "current_role": "Founder and Managing Partner of Titan Capital Partners",
+        "books_or_works": "Decoding the Software Landscape"
+      },
+      "infobox": {
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Ben Topore is a seasoned investor and author with a focus on the software industry. As the founder and managing partner of Titan Capital Partners, a growth equity firm with offices in the US and Israel, Topore has been instrumental in backing companies that define the software markets. His firm focuses on backing scale-ready leaders in software, providing liquidity to early investors, founders, and employees, and aiding companies in making strategic decisions with competitive insights and frameworks.",
+        "In addition to his work with Titan, Topore has authored a book titled 'Decoding the Software Landscape,' which delves into the intricacies of the software industry. His contributions to both the investment and knowledge domains have made him a notable figure in the tech and finance sectors."
+      ],
+      "sections": [
+        {
+          "heading": "Software Market Expertise",
+          "body": "Ben Topore has a deep understanding of the software market, which he leverages to back companies that are poised to define the industry."
+        },
+        {
+          "heading": "Investment Strategy",
+          "body": "At Titan Capital Partners, Topore focuses on providing growth equity to software companies, aiding in their scaling and strategic decision-making."
+        },
+        {
+          "heading": "Liquidity Provision",
+          "body": "Topore's firm is known for offering liquidity to early investors, founders, and employees, facilitating exits and supporting the growth of software companies."
+        },
+        {
+          "heading": "Strategic Insights",
+          "body": "Ben Topore helps software companies with competitive insights and frameworks, enabling them to make informed strategic decisions."
+        },
+        {
+          "heading": "Authoring a Book",
+          "body": "Topore has authored 'Decoding the Software Landscape,' a book that offers a comprehensive view of the software industry, contributing to the knowledge base of investors and tech enthusiasts."
+        }
+      ]
+    },
+    "net_worth": "$10.0M"
+  },
+  {
+    "id": 168,
+    "name": "Adam Rosenswag",
+    "slug": "adam-rosenswag",
+    "bio": "Adam Rosenswag is a prominent figure in the global energy markets and commodities sector. He is the co-founder of Garing and Rosenswag, an investment firm that specializes in these areas. Rosenswag is known for his expertise and insights into commodities, particularly in the context of geopolitical events and their impact on markets.",
+    "known_for": "His deep understanding of how geopolitical events, such as the Iran conflict, influence global energy markets and commodities.",
+    "net_worth_usd": 1200000000.0,
+    "net_worth_source": "https://explore.st-aug.edu/exp/adam-22s-net-worth-shocked-the-business-world-the-untold-secrets-behind-his-billionairestyle-wealth",
+    "net_worth_updated_at": "2026-04-10T05:06:56.415309",
+    "voice_tone": "Matter-of-fact and analytical.",
+    "voice_style": "Factual and informative, providing insights into market dislocations and their implications.",
+    "voice_delivery_notes": "Clear and concise, with emphasis on key market data points.",
+    "voice_profile_updated_at": "2026-04-10 10:04:28",
+    "last_seen": "2026-04-10 10:04:28",
+    "last_episode_title": "MacroVoices #527 Adam Rozencwajg: What Comes Next After The Iran Crisis",
+    "last_podcast_name": "Macro Voices",
+    "last_episode_date": "2026-04-09",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investment opportunities may arise from the physical dislocation in energy markets and shifts in energy security, with a focus on commodities like oil, uranium, and gold.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-10T05:06:55.491790",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Adam Rosenswag",
+      "fetched_at": "2026-04-10T10:06:55.491575+00:00",
+      "cliff_notes": "Adam Rosenswag is recognized for his expertise in global energy markets and commodities. He co-founded Garing and Rosenswag, an investment firm that focuses on these sectors. Rosenswag's insights are particularly sought after during times of geopolitical tension, such as the Iran conflict, as he provides valuable perspectives on how such events can affect the prices and availability of commodities like crude oil, food, fertilizer, uranium, and gold. His contributions to the financial community are significant, offering clarity and foresight in complex and volatile market conditions.",
+      "derived": {
+        "current_role": "Co-founder, Garing and Rosenswag"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Adam Rosenswag is recognized for his expertise in global energy markets and commodities. He co-founded Garing and Rosenswag, an investment firm that focuses on these sectors. Rosenswag's insights are particularly sought after during times of geopolitical tension, such as the Iran conflict, as he provides valuable perspectives on how such events can affect the prices and availability of commodities like crude oil, food, fertilizer, uranium, and gold.",
+        "His contributions to the financial community are significant, offering clarity and foresight in complex and volatile market conditions."
+      ],
+      "sections": [
+        {
+          "heading": "Energy Markets",
+          "body": "Adam Rosenswag has a deep understanding of global energy markets, offering insights into how geopolitical events can influence the prices and availability of energy commodities."
+        },
+        {
+          "heading": "Commodities",
+          "body": "Rosenswag is known for his analysis of commodities, particularly in the context of global conflicts and their impact on the market."
+        },
+        {
+          "heading": "Geopolitical Impact",
+          "body": "His expertise lies in assessing the impact of geopolitical events, such as the Iran conflict, on the global commodities market."
+        },
+        {
+          "heading": "Investment Strategy",
+          "body": "As co-founder of an investment firm, Rosenswag provides strategic advice on navigating the complexities of global energy markets and commodities trading."
+        }
+      ]
+    },
+    "net_worth": "$1.20B"
+  },
+  {
     "id": 167,
     "name": "Michael Haynes",
     "slug": "michael-haynes",
@@ -643,7 +834,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-04-08",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Invest in Pennsylvania due to its pro-growth policies, job creation, and improved business climate.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-09T05:06:15.797999",
@@ -706,7 +897,7 @@
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-04-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "The core thesis presented is that advancements in AI and computer science can lead to new fields and paradigms, offering investment opportunities in technological disruption and innovation.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-08T05:04:38.528660",
@@ -764,7 +955,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Investing in select few names within the China property sector can offer significant potential for value appreciation, given the right conditions and primary research.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-08T05:04:49.164717",
@@ -821,7 +1012,7 @@
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-04-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Investment in Colossal represents a bet on the convergence of synthetic biology, AI, and environmental conservation, with potential for significant technological and societal impact.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-08T05:05:00.239498",
@@ -941,7 +1132,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-04-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Investing in US defense and technology companies that align with maintaining the nation's global primacy and ensuring economic prosperity.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-07T05:05:35.906002",
@@ -979,183 +1170,5 @@
       ]
     },
     "net_worth": "$500.0M"
-  },
-  {
-    "id": 158,
-    "name": "Sean Sankar",
-    "slug": "sean-sankar",
-    "bio": "Sean Sankar is a co-founder of Palantir Technologies, a company known for its data analytics platform. He played a crucial role in the early stages of the company, contributing to its establishment and growth.",
-    "known_for": "Co-founding Palantir Technologies and its significant impact on data analytics.",
-    "net_worth_usd": 1000000000.0,
-    "net_worth_source": "https://urbansweekly.com/shyam-sankar/",
-    "net_worth_updated_at": "2026-04-07T05:05:50.141443",
-    "voice_tone": "Engaging and insightful",
-    "voice_style": "Direct and analytical",
-    "voice_delivery_notes": "Clear and assertive, with a focus on strategic implications",
-    "voice_profile_updated_at": "2026-04-07 10:05:21",
-    "last_seen": "2026-04-07 10:05:21",
-    "last_episode_title": "The Companies Changing Warfare Forever: Palantir & Anduril Execs on Drones, AI & the Future of War",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-04-06",
-    "mention_score": 1,
-    "mention_score_decayed": 0.95,
-    "last_main_idea": "Investing in US defense and technology companies that align with maintaining the nation's global primacy and ensuring economic prosperity.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-07T05:05:49.320297",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Sean Sankar",
-      "fetched_at": "2026-04-07T10:05:49.320109+00:00",
-      "cliff_notes": "Sean Sankar is recognized for his foundational role in the establishment of Palantir Technologies. His early involvement in the company was pivotal in setting the stage for its growth and success in the realm of data analytics. Sankar's contributions to Palantir have been significant, as the company has become a major player in the tech industry, particularly in areas concerning data analysis and security. His work has had far-reaching implications for various sectors, including government and finance, where data-driven insights are crucial.",
-      "derived": {
-        "former_positions": "Co-founder of Palantir Technologies"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Sean Sankar is recognized for his foundational role in the establishment of Palantir Technologies. His early involvement in the company was pivotal in setting the stage for its growth and success in the realm of data analytics. Sankar's contributions to Palantir have been significant, as the company has become a major player in the tech industry, particularly in areas concerning data analysis and security.",
-        "His work has had far-reaching implications for various sectors, including government and finance, where data-driven insights are crucial."
-      ],
-      "sections": [
-        {
-          "heading": "Early Career",
-          "body": "Sean Sankar began his career in technology, eventually co-founding Palantir Technologies, which would go on to revolutionize the way data is analyzed and utilized."
-        },
-        {
-          "heading": "Palantir's Impact",
-          "body": "Palantir, under Sankar's influence, became known for its powerful data analytics platform used by various government agencies and financial institutions, enhancing their capabilities in areas such as counterterrorism and fraud detection."
-        },
-        {
-          "heading": "Data Analytics",
-          "body": "Sankar's work with Palantir has been instrumental in shaping the modern landscape of data analytics, emphasizing the importance of big data in decision-making processes across different industries."
-        }
-      ]
-    },
-    "net_worth": "$1.00B"
-  },
-  {
-    "id": 155,
-    "name": "Peter Yang",
-    "slug": "peter-yang",
-    "bio": "Peter Yang is a prominent figure in the tech industry, known for his work at Roblox and his insights on the future of coding agents. As a creator and product lead, Yang has been influential in shaping the direction of the platform and the broader tech landscape.",
-    "known_for": "His role in shaping Roblox's product strategy and his forward-thinking views on the evolution of coding agents and software interfaces.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Casual and conversational",
-    "voice_style": "Exploratory and insightful, discussing the implications of coding agents on various aspects of work.",
-    "voice_delivery_notes": "Speaks with a mix of excitement and pragmatism about the potential of coding agents.",
-    "voice_profile_updated_at": "2026-04-07 10:05:00",
-    "last_seen": "2026-04-07 10:05:00",
-    "last_episode_title": "Peter Yang on Small Teams, Coding Agents, and Why Human Ambition Has No Ceiling",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-04-06",
-    "mention_score": 1,
-    "mention_score_decayed": 0.95,
-    "last_main_idea": "Investing in companies that leverage coding agents could offer significant productivity gains and reshape the software development landscape.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-07T05:06:04.126625",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Peter Yang",
-      "fetched_at": "2026-04-07T10:06:04.126360+00:00",
-      "cliff_notes": "Peter Yang is recognized for his significant contributions to Roblox, where he serves as a creator and product lead. His work has been pivotal in defining the platform's direction and its impact on the gaming and tech industries. Yang is also noted for his thought leadership on the future of coding agents, which he believes will revolutionize software development and user interfaces. His insights into the 'agent stack' and the potential for smaller, more agile teams to leverage these technologies have resonated with tech enthusiasts and investors alike. Yang's vision of a future where individuals can pursue their dreams through technology, empowered by advancements in coding agents, highlights his influence on the tech industry's trajectory.",
-      "derived": {
-        "current_role": "Creator and Product Lead at Roblox"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Peter Yang is recognized for his significant contributions to Roblox, where he serves as a creator and product lead. His work has been pivotal in defining the platform's direction and its impact on the gaming and tech industries. Yang is also noted for his thought leadership on the future of coding agents, which he believes will revolutionize software development and user interfaces.",
-        "His insights into the 'agent stack' and the potential for smaller, more agile teams to leverage these technologies have resonated with tech enthusiasts and investors alike. Yang's vision of a future where individuals can pursue their dreams through technology, empowered by advancements in coding agents, highlights his influence on the tech industry's trajectory."
-      ],
-      "sections": [
-        {
-          "heading": "Roblox Impact",
-          "body": "Peter Yang has been instrumental in the development and growth of Roblox, a platform that has become a cultural phenomenon and a significant player in the gaming industry."
-        },
-        {
-          "heading": "Coding Agents",
-          "body": "Yang is a thought leader in the emerging field of coding agents,"
-        },
-        {
-          "heading": "Tech Evolution",
-          "body": "He frequently discusses the evolution of technology, particularly the shift from traditional app interfaces to more dynamic and personalized software experiences."
-        },
-        {
-          "heading": "Entrepreneurship",
-          "body": "Yang's views on entrepreneurship suggest a future where individuals can leverage technology to pursue their own ventures, even in the face of economic challenges."
-        }
-      ]
-    }
-  },
-  {
-    "id": 154,
-    "name": "Ed Finley Richardson",
-    "slug": "ed-finley-richardson",
-    "bio": "Ed Finley Richardson is a renowned expert in the shipping industry, known for his deep analysis and insights into shipping markets and investment opportunities. He is the author of the Misadventures in Shipping sub-stack, providing valuable research and analysis to investors interested in the shipping sector.",
-    "known_for": "His expertise in shipping markets and investment opportunities, particularly in the tanker market that transports crude oil and refined products around the globe.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Informed and analytical",
-    "voice_style": "Factual and predictive, with a focus on market outcomes",
-    "voice_delivery_notes": "Delivers insights with a steady pace, emphasizing key points",
-    "voice_profile_updated_at": "2026-04-05 03:02:52",
-    "last_seen": "2026-04-05 03:02:52",
-    "last_episode_title": "\u201cBooks Will Be Written\u201d About This Shipping Market | Ed Finley-Richardson of Misadventures in Shipping on War-Induced Oil Tanker Mayhem, Squeeze for Asiabound Refined Products, and Persian Gulf \u201cFeeding Frenzy\u201d Scenario",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-04-04",
-    "mention_score": 1,
-    "mention_score_decayed": 0.89,
-    "last_main_idea": "The disruption in shipping due to geopolitical conflicts presents a unique investment opportunity in shipping stocks, particularly for those with a keen understanding of the market dynamics.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-04T22:03:03.597938",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Ed Finley Richardson",
-      "fetched_at": "2026-04-05T03:03:03.597603+00:00",
-      "cliff_notes": "Ed Finley Richardson is an expert in the shipping industry, with a focus on analyzing and providing insights into shipping markets and investment opportunities. He began thinking hard years ago about the potential impacts of geopolitical events, such as the closure of the Strait of Hormuz, on shipping markets and the opportunities they might create for shipping investors. Richardson's work has become increasingly relevant as shipping prices have surged, with some reaching 10 times normal levels. As the author of the Misadventures in Shipping sub-stack, he offers valuable research and analysis to investors interested in the shipping sector, making him one of the best shipping analysts alive.",
-      "derived": {
-        "current_role": "Author of Misadventures in Shipping",
-        "books_or_works": "Misadventures in Shipping sub-stack"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Ed Finley Richardson is an expert in the shipping industry, with a focus on analyzing and providing insights into shipping markets and investment opportunities. He began thinking hard years ago about the potential impacts of geopolitical events, such as the closure of the Strait of Hormuz, on shipping markets and the opportunities they might create for shipping investors.",
-        "Richardson's work has become increasingly relevant as shipping prices have surged, with some reaching 10 times normal levels. As the author of the Misadventures in Shipping sub-stack, he offers valuable research and analysis to investors interested in the shipping sector, making him one of the best shipping analysts alive."
-      ],
-      "sections": [
-        {
-          "heading": "Shipping Market Analysis",
-          "body": "Ed Finley Richardson is known for his deep analysis of shipping markets, particularly the tanker market that transports crude oil and refined products around the globe."
-        },
-        {
-          "heading": "Investment Opportunities",
-          "body": "Richardson's expertise lies in identifying investment opportunities within the shipping industry, especially in times of geopolitical unrest and market disruptions."
-        },
-        {
-          "heading": "Misadventures in Shipping",
-          "body": "As the author of the Misadventures in Shipping sub-stack, Richardson provides valuable research and analysis to investors interested in the shipping sector."
-        },
-        {
-          "heading": "Shipping Prices Surge",
-          "body": "Richardson's work has gained prominence as shipping prices have surged, with some reaching 10 times normal levels, highlighting the importance of his analysis and insights."
-        }
-      ]
-    }
   }
 ]

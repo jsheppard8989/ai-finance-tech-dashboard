@@ -1,26 +1,26 @@
 {
-  "timestamp": "2026-04-09T22:03:35.273464",
+  "timestamp": "2026-04-10T05:03:45.983969",
   "results": [
     {
       "podcast": "Monetary Matters with Jack Farley",
       "title": "\"The Best Time to Invest\": How AI Disruption is Reshaping Software Valuations | Ben Topor | Titan Capital Partners",
       "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/EWWMN9186516490.mp3",
-      "transcript_path": null,
-      "success": false
+      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/EWWMN9186516490.txt",
+      "success": true
     },
     {
       "podcast": "The a16z Show",
-      "title": "Who Controls AI Acceleration? Vitalik Buterin and Guillaume Verdon Debate",
-      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_20260409_af3040b3_5ee3_4ac4_88ee_e87d07fd.mp3",
-      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/the_a16z_show_20260409_af3040b3_5ee3_4ac4_88ee_e87d07fd.txt",
-      "success": true
+      "title": "What Running Windows at Microsoft Taught Steven Sinofsky About Apple",
+      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_20260410_ec590915_7051_45fb_8ba6_e827fe35.mp3",
+      "transcript_path": null,
+      "success": false
     },
     {
       "podcast": "Macro Voices",
       "title": "MacroVoices #527 Adam Rozencwajg: What Comes Next After The Iran Crisis",
       "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/MacroVoices-2026-04-09-Adam-Rozencwajg.mp3",
-      "transcript_path": null,
-      "success": false
+      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/MacroVoices-2026-04-09-Adam-Rozencwajg.txt",
+      "success": true
     }
   ]
 }

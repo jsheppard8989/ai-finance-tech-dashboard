@@ -1,6 +1,18 @@
 [
   {
-    "id": 1701,
+    "id": 1721,
+    "name": "\"The Best Time to Invest\"",
+    "slug": "the-best-time-to-invest",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Invest in software companies that define the market, focusing on backing scale-ready leaders, providing liquidity to early investors, and helping companies make strategic decisions.",
+    "last_episode_title": "\"The Best Time to Invest\": How AI Disruption is Reshaping Software Valuations | Ben Topor | Titan Capital Partners",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-04-09",
+    "appearance_count": 1
+  },
+  {
+    "id": 1722,
     "name": "Governor Josh Shapiro of Pennsylvania",
     "slug": "governor-josh-shapiro-of-pennsylvania",
     "bio": null,
@@ -12,7 +24,7 @@
     "appearance_count": 1
   },
   {
-    "id": 1702,
+    "id": 1723,
     "name": "Why $200 Oil Won\u2019t Spike Inflation to 9%",
     "slug": "why-200-oil-wont-spike-inflation-to-9",
     "bio": null,
@@ -24,7 +36,7 @@
     "appearance_count": 1
   },
   {
-    "id": 1703,
+    "id": 1724,
     "name": "This special episode",
     "slug": "this-special-episode",
     "bio": null,
@@ -36,7 +48,7 @@
     "appearance_count": 1
   },
   {
-    "id": 1704,
+    "id": 1725,
     "name": "Lupin Ramon",
     "slug": "lupin-ramon",
     "bio": null,
@@ -48,7 +60,7 @@
     "appearance_count": 1
   },
   {
-    "id": 1705,
+    "id": 1726,
     "name": "When the Music Stops",
     "slug": "when-the-music-stops",
     "bio": null,
@@ -60,7 +72,7 @@
     "appearance_count": 1
   },
   {
-    "id": 1706,
+    "id": 1727,
     "name": "Ground Infrastructure",
     "slug": "ground-infrastructure",
     "bio": null,
@@ -72,7 +84,7 @@
     "appearance_count": 1
   },
   {
-    "id": 1707,
+    "id": 1728,
     "name": "Rory Johnston",
     "slug": "rory-johnston",
     "bio": null,
@@ -84,7 +96,7 @@
     "appearance_count": 1
   },
   {
-    "id": 1708,
+    "id": 1729,
     "name": "Senator John Fetterman on Voting Rights",
     "slug": "senator-john-fetterman-on-voting-rights",
     "bio": null,
@@ -96,7 +108,7 @@
     "appearance_count": 1
   },
   {
-    "id": 1709,
+    "id": 1730,
     "name": "Stock Market on Shaky Foundations",
     "slug": "stock-market-on-shaky-foundations",
     "bio": null,
@@ -108,7 +120,7 @@
     "appearance_count": 1
   },
   {
-    "id": 1710,
+    "id": 1731,
     "name": "Elon Musk on Moonshots",
     "slug": "elon-musk-on-moonshots",
     "bio": null,
@@ -120,7 +132,7 @@
     "appearance_count": 1
   },
   {
-    "id": 1711,
+    "id": 1732,
     "name": "Investing in Capitalism",
     "slug": "investing-in-capitalism",
     "bio": null,
@@ -132,7 +144,7 @@
     "appearance_count": 1
   },
   {
-    "id": 1712,
+    "id": 1733,
     "name": "Harvard Professor Graham Allison",
     "slug": "harvard-professor-graham-allison",
     "bio": null,
@@ -144,7 +156,7 @@
     "appearance_count": 1
   },
   {
-    "id": 1713,
+    "id": 1734,
     "name": "Andrew Yang",
     "slug": "andrew-yang",
     "bio": "Andrew Yang is an entrepreneur and political leader who popularized universal basic income in U.S. politics through his 2020 presidential campaign.",
@@ -156,7 +168,7 @@
     "appearance_count": 1
   },
   {
-    "id": 1714,
+    "id": 1735,
     "name": "Inventing the Renaissance",
     "slug": "inventing-the-renaissance",
     "bio": null,
@@ -168,7 +180,7 @@
     "appearance_count": 1
   },
   {
-    "id": 1715,
+    "id": 1736,
     "name": "Ray Dalio",
     "slug": "ray-dalio",
     "bio": "Ray Dalio is the founder of Bridgewater Associates and a macro investor known for his 'Principles' framework and work on long-term debt cycles.",
@@ -180,7 +192,7 @@
     "appearance_count": 1
   },
   {
-    "id": 1716,
+    "id": 1737,
     "name": "Nobel Prize-winning economist Paul Krugman",
     "slug": "nobel-prize-winning-economist-paul-krugman",
     "bio": null,
@@ -192,7 +204,7 @@
     "appearance_count": 1
   },
   {
-    "id": 1717,
+    "id": 1738,
     "name": "host Jack Mallers",
     "slug": "host-jack-mallers",
     "bio": null,
@@ -204,7 +216,7 @@
     "appearance_count": 1
   },
   {
-    "id": 1718,
+    "id": 1739,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -216,7 +228,7 @@
     "appearance_count": 1
   },
   {
-    "id": 1719,
+    "id": 1740,
     "name": "Bosworth",
     "slug": "bosworth",
     "bio": null,
@@ -228,7 +240,7 @@
     "appearance_count": 1
   },
   {
-    "id": 1720,
+    "id": 1741,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",

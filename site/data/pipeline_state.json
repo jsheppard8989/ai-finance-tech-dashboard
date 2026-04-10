@@ -1,21 +1,23 @@
 {
-  "generated_at": "2026-04-09T22:08:04.472782",
-  "last_updated": "2026-04-09T22:08:04.472782",
-  "last_pipeline_run": "2026-04-09T22:08:04.472782",
+  "generated_at": "2026-04-10T05:09:08.709766",
+  "last_updated": "2026-04-10T05:09:08.709766",
+  "last_pipeline_run": "2026-04-10T05:09:08.709766",
   "main_page": {
     "overton": 8,
     "insights": 8,
     "pundits": 20
   },
   "counts": {
-    "ticker_mentions": 154,
-    "podcast_episodes": 122,
+    "ticker_mentions": 161,
+    "podcast_episodes": 124,
     "newsletters": 7,
-    "daily_scores": 92,
+    "daily_scores": 99,
     "overton_terms_total": 16,
-    "latest_insights_total": 136,
-    "today_mentions": {},
-    "podcasts_analyzed": 3
+    "latest_insights_total": 138,
+    "today_mentions": {
+      "podcast": 7
+    },
+    "podcasts_analyzed": 2
   },
   "step_results": {
     "downloaded": 2,
@@ -23,7 +25,7 @@
     "analyzed": 2,
     "insight_created": 2,
     "published": 2,
-    "total": 5
+    "total": 4
   },
   "episodes": [
     {
@@ -32,6 +34,22 @@
       "title": "\"The Best Time to Invest\": How AI Disruption is Reshaping Software Valuations | Ben Topor | Titan Capital Partners",
       "published": "2026-04-09",
       "rss_guid": "b96abfce-33cc-11f1-8c6d-432a1052e366",
+      "stages": {
+        "downloaded": true,
+        "transcribed": true,
+        "analyzed": true,
+        "insight_created": true,
+        "published": true
+      },
+      "stage_reasons": {},
+      "status": "complete"
+    },
+    {
+      "id": "ec590915-7051-45fb-8ba6-e827fe358b8b",
+      "podcast": "The a16z Show",
+      "title": "What Running Windows at Microsoft Taught Steven Sinofsky About Apple",
+      "published": "2026-04-10",
+      "rss_guid": "ec590915-7051-45fb-8ba6-e827fe358b8b",
       "stages": {
         "downloaded": false,
         "transcribed": false,
@@ -47,38 +65,6 @@
         "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
       },
       "status": "needs_download"
-    },
-    {
-      "id": "653e074c-334c-11f1-a19e-174f3bb51697",
-      "podcast": "Monetary Matters with Jack Farley",
-      "title": "Private Credit \u201cDoom\u201d Narrative On Shaky Foundation? | Michael Haynes On Why Retail Outflows Are Real But Credit Foundations Are Solid",
-      "published": "2026-04-08",
-      "rss_guid": "653e074c-334c-11f1-a19e-174f3bb51697",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "status": "complete"
-    },
-    {
-      "id": "af3040b3-5ee3-4ac4-88ee-e87d07fdf0d4",
-      "podcast": "The a16z Show",
-      "title": "Who Controls AI Acceleration? Vitalik Buterin and Guillaume Verdon Debate",
-      "published": "2026-04-09",
-      "rss_guid": "af3040b3-5ee3-4ac4-88ee-e87d07fdf0d4",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "status": "complete"
     },
     {
       "id": "d8e62120-c865-428e-b1c2-1d965406f293",
@@ -109,35 +95,22 @@
       "published": "2026-04-09",
       "rss_guid": "macrovoices.podbean.com/bd591f3f-ee0f-3f96-a209-8f809346c1a6",
       "stages": {
-        "downloaded": false,
-        "transcribed": false,
-        "analyzed": false,
-        "insight_created": false,
-        "published": false
+        "downloaded": true,
+        "transcribed": true,
+        "analyzed": true,
+        "insight_created": true,
+        "published": true
       },
-      "stage_reasons": {
-        "downloaded": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "transcribed": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "analyzed": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "insight_created": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
-      },
-      "status": "needs_download"
+      "stage_reasons": {},
+      "status": "complete"
     }
   ],
   "available_from_rss": [
     {
-      "podcast": "Monetary Matters with Jack Farley",
-      "title": "\"The Best Time to Invest\": How AI Disruption is Reshaping Software Valuations | Ben Topor | Titan Capital Partners",
-      "published": "Thu, 09 Apr 2026 13:00:00 -0000",
-      "published_date": "2026-04-09",
-      "rss_guid": ""
-    },
-    {
-      "podcast": "Macro Voices",
-      "title": "MacroVoices #527 Adam Rozencwajg: What Comes Next After The Iran Crisis",
-      "published": "Thu, 09 Apr 2026 11:34:09 -0500",
-      "published_date": "2026-04-09",
+      "podcast": "The a16z Show",
+      "title": "What Running Windows at Microsoft Taught Steven Sinofsky About Apple",
+      "published": "Fri, 10 Apr 2026 10:00:00 +0000",
+      "published_date": "2026-04-10",
       "rss_guid": ""
     },
     {
@@ -148,7 +121,17 @@
       "rss_guid": ""
     }
   ],
-  "stale_episodes": [],
+  "stale_episodes": [
+    {
+      "id": "d8e62120-c865-428e-b1c2-1d965406f293",
+      "podcast": "The a16z Show",
+      "title": "The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
+      "status": "needs_download",
+      "published": "2026-04-08",
+      "age_days": 2,
+      "next_blocker": "downloaded"
+    }
+  ],
   "stale_threshold_days": 2,
   "rss_filter_criteria": {
     "cutoff_date": "2026-02-01",

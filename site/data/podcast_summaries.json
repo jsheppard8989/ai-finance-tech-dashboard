@@ -1,5 +1,49 @@
 [
   {
+    "id": 149,
+    "podcast_name": "Monetary Matters with Jack Farley",
+    "episode_title": "\"The Best Time to Invest\": How AI Disruption is Reshaping Software Valuations | Ben Topor | Titan Capital Partners",
+    "episode_date": "2026-04-09",
+    "summary": "In this episode of 'Other People's Money', Max Weathie interviews Ben Topore, founder and managing partner of Titan Capital Partners, a growth equity firm focusing on software markets. They discuss the rapidly shifting software landscape, the importance of understanding the different playbooks for various types of software, and the impact of AI on the industry. Ben also shares insights on investment strategies in growth equity and secondary markets, and the importance of strategic decision-making in competitive landscapes.",
+    "key_takeaways": [
+      "The software landscape is divided into mission-critical and value-creating software, each with distinct playbooks.",
+      "AI is a significant paradigm shift, commoditizing some areas of the market but not changing the fundamental rules of the game.",
+      "Investment strategies should consider both misunderstood fantastic companies and fixable turnarounds.",
+      "Exit strategies in the Israeli market are often M&A driven, while in the US, larger companies tend towards IPOs.",
+      "Understanding the competitive landscape and the ability to predict retaliation is key to strategic decision-making."
+    ],
+    "investment_thesis": "Invest in software companies that define the market, focusing on backing scale-ready leaders, providing liquidity to early investors, and helping companies make strategic decisions.",
+    "key_tickers": [
+      "PQT",
+      "PQUS",
+      "E-TORO"
+    ]
+  },
+  {
+    "id": 148,
+    "podcast_name": "Macro Voices",
+    "episode_title": "MacroVoices #527 Adam Rozencwajg: What Comes Next After The Iran Crisis",
+    "episode_date": "2026-04-09",
+    "summary": "In this episode of Macro Voices, hosts Eric Townsend and Patrick Suresne discuss the impact of geopolitical tensions, particularly the Iran conflict, on global energy and commodity markets. They feature interviews with Adam Rosenswag, co-founder of Garing and Rosenswag, and Jim Bianco, founder of Bianco Research. The conversation covers the physical dislocation in oil markets, the potential implications for food prices and inflation, and the outlook for commodities like uranium and gold. They also analyze the market's reaction to the potential ceasefire and its effects on oil prices and broader market trends.",
+    "key_takeaways": [
+      "The Iran conflict has resulted in significant physical dislocation in global energy markets, potentially more severe than any price dislocation.",
+      "The oil market may be tighter than widely believed, with implications for food prices and inflation.",
+      "Energy security shifts could drive investment across oil, uranium, and broader commodity markets.",
+      "Markets reacted to the potential ceasefire with a sharp rebound in stocks and a fall in crude oil prices.",
+      "The flow of oil and basic commodities like LNG and helium is critical for market movement.",
+      "Investors are closely watching geopolitical developments in the Middle East for their impact on global energy markets."
+    ],
+    "investment_thesis": "Investment opportunities may arise from the physical dislocation in energy markets and shifts in energy security, with a focus on commodities like oil, uranium, and gold.",
+    "key_tickers": [
+      "WTI",
+      "GOLD",
+      "COPPER",
+      "URANIUM",
+      "SPX",
+      "USD"
+    ]
+  },
+  {
     "id": 146,
     "podcast_name": "The a16z Show",
     "episode_title": "Who Controls AI Acceleration? Vitalik Buterin and Guillaume Verdon Debate",

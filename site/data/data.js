@@ -3,7 +3,7 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-04-09T22:08:12.065150",
+  generatedAt: "2026-04-10T05:09:19.702420",
   chartsVersion: "2026-04-01T15:16:59.801570",
   tickerScores: [
   {
@@ -37,13 +37,28 @@ const dashboardData = {
     "contexts": []
   },
   {
+    "ticker": "WTI",
+    "total_score": 360.0,
+    "raw_mention_count": 5,
+    "unique_sources": 1,
+    "podcast_mentions": 5,
+    "newsletter_mentions": 0,
+    "rank": 3,
+    "score": 360.0,
+    "mentions": 5,
+    "conviction_level": "medium",
+    "contrarian_signal": "neutral",
+    "timeframe": "long_term",
+    "contexts": []
+  },
+  {
     "ticker": "BTC",
     "total_score": 302.0,
     "raw_mention_count": 4,
     "unique_sources": 1,
     "podcast_mentions": 4,
     "newsletter_mentions": 0,
-    "rank": 3,
+    "rank": 4,
     "score": 302.0,
     "mentions": 4,
     "conviction_level": "medium",
@@ -58,24 +73,9 @@ const dashboardData = {
     "unique_sources": 2,
     "podcast_mentions": 4,
     "newsletter_mentions": 8,
-    "rank": 4,
+    "rank": 5,
     "score": 302.0,
     "mentions": 12,
-    "conviction_level": "medium",
-    "contrarian_signal": "neutral",
-    "timeframe": "long_term",
-    "contexts": []
-  },
-  {
-    "ticker": "WTI",
-    "total_score": 286.0,
-    "raw_mention_count": 4,
-    "unique_sources": 1,
-    "podcast_mentions": 4,
-    "newsletter_mentions": 0,
-    "rank": 5,
-    "score": 286.0,
-    "mentions": 4,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
     "timeframe": "long_term",
@@ -112,13 +112,43 @@ const dashboardData = {
     "contexts": []
   },
   {
+    "ticker": "COPPER",
+    "total_score": 194.0,
+    "raw_mention_count": 3,
+    "unique_sources": 1,
+    "podcast_mentions": 3,
+    "newsletter_mentions": 0,
+    "rank": 8,
+    "score": 194.0,
+    "mentions": 3,
+    "conviction_level": "medium",
+    "contrarian_signal": "neutral",
+    "timeframe": "long_term",
+    "contexts": []
+  },
+  {
+    "ticker": "GOLD",
+    "total_score": 190.0,
+    "raw_mention_count": 3,
+    "unique_sources": 1,
+    "podcast_mentions": 3,
+    "newsletter_mentions": 0,
+    "rank": 9,
+    "score": 190.0,
+    "mentions": 3,
+    "conviction_level": "medium",
+    "contrarian_signal": "neutral",
+    "timeframe": "long_term",
+    "contexts": []
+  },
+  {
     "ticker": "META",
     "total_score": 177.0,
     "raw_mention_count": 14,
     "unique_sources": 2,
     "podcast_mentions": 2,
     "newsletter_mentions": 12,
-    "rank": 8,
+    "rank": 10,
     "score": 177.0,
     "mentions": 14,
     "conviction_level": "medium",
@@ -133,7 +163,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 3,
     "newsletter_mentions": 0,
-    "rank": 9,
+    "rank": 11,
     "score": 174.0,
     "mentions": 3,
     "conviction_level": "medium",
@@ -148,7 +178,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 2,
     "newsletter_mentions": 0,
-    "rank": 10,
+    "rank": 12,
     "score": 146.0,
     "mentions": 2,
     "conviction_level": "medium",
@@ -163,8 +193,23 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 2,
     "newsletter_mentions": 0,
-    "rank": 11,
+    "rank": 13,
     "score": 142.0,
+    "mentions": 2,
+    "conviction_level": "medium",
+    "contrarian_signal": "neutral",
+    "timeframe": "long_term",
+    "contexts": []
+  },
+  {
+    "ticker": "SPX",
+    "total_score": 134.0,
+    "raw_mention_count": 2,
+    "unique_sources": 1,
+    "podcast_mentions": 2,
+    "newsletter_mentions": 0,
+    "rank": 14,
+    "score": 134.0,
     "mentions": 2,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
@@ -178,7 +223,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 2,
     "newsletter_mentions": 0,
-    "rank": 12,
+    "rank": 15,
     "score": 132.0,
     "mentions": 2,
     "conviction_level": "medium",
@@ -187,28 +232,13 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "COPPER",
+    "ticker": "URANIUM",
     "total_score": 128.0,
     "raw_mention_count": 2,
     "unique_sources": 1,
     "podcast_mentions": 2,
     "newsletter_mentions": 0,
-    "rank": 13,
-    "score": 128.0,
-    "mentions": 2,
-    "conviction_level": "medium",
-    "contrarian_signal": "neutral",
-    "timeframe": "long_term",
-    "contexts": []
-  },
-  {
-    "ticker": "GOLD",
-    "total_score": 128.0,
-    "raw_mention_count": 2,
-    "unique_sources": 1,
-    "podcast_mentions": 2,
-    "newsletter_mentions": 0,
-    "rank": 14,
+    "rank": 16,
     "score": 128.0,
     "mentions": 2,
     "conviction_level": "medium",
@@ -223,7 +253,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 2,
     "newsletter_mentions": 0,
-    "rank": 15,
+    "rank": 17,
     "score": 120.0,
     "mentions": 2,
     "conviction_level": "medium",
@@ -238,7 +268,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 2,
     "newsletter_mentions": 0,
-    "rank": 16,
+    "rank": 18,
     "score": 112.0,
     "mentions": 2,
     "conviction_level": "medium",
@@ -253,7 +283,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 2,
     "newsletter_mentions": 0,
-    "rank": 17,
+    "rank": 19,
     "score": 84.0,
     "mentions": 2,
     "conviction_level": "medium",
@@ -268,7 +298,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 0,
     "newsletter_mentions": 12,
-    "rank": 18,
+    "rank": 20,
     "score": 75.0,
     "mentions": 12,
     "conviction_level": "medium",
@@ -283,7 +313,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 19,
+    "rank": 21,
     "score": 74.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -298,7 +328,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 20,
+    "rank": 22,
     "score": 74.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -313,7 +343,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 21,
+    "rank": 23,
     "score": 72.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -328,7 +358,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 22,
+    "rank": 24,
     "score": 72.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -343,7 +373,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 23,
+    "rank": 25,
     "score": 72.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -358,7 +388,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 24,
+    "rank": 26,
     "score": 72.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -373,7 +403,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 25,
+    "rank": 27,
     "score": 70.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -388,36 +418,6 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 26,
-    "score": 70.0,
-    "mentions": 1,
-    "conviction_level": "medium",
-    "contrarian_signal": "neutral",
-    "timeframe": "long_term",
-    "contexts": []
-  },
-  {
-    "ticker": "EMAX",
-    "total_score": 70.0,
-    "raw_mention_count": 1,
-    "unique_sources": 1,
-    "podcast_mentions": 1,
-    "newsletter_mentions": 0,
-    "rank": 27,
-    "score": 70.0,
-    "mentions": 1,
-    "conviction_level": "medium",
-    "contrarian_signal": "neutral",
-    "timeframe": "long_term",
-    "contexts": []
-  },
-  {
-    "ticker": "NOW",
-    "total_score": 70.0,
-    "raw_mention_count": 1,
-    "unique_sources": 1,
-    "podcast_mentions": 1,
-    "newsletter_mentions": 0,
     "rank": 28,
     "score": 70.0,
     "mentions": 1,
@@ -427,7 +427,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "SMP-500",
+    "ticker": "E-TORO",
     "total_score": 70.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -442,13 +442,58 @@ const dashboardData = {
     "contexts": []
   },
   {
+    "ticker": "EMAX",
+    "total_score": 70.0,
+    "raw_mention_count": 1,
+    "unique_sources": 1,
+    "podcast_mentions": 1,
+    "newsletter_mentions": 0,
+    "rank": 30,
+    "score": 70.0,
+    "mentions": 1,
+    "conviction_level": "medium",
+    "contrarian_signal": "neutral",
+    "timeframe": "long_term",
+    "contexts": []
+  },
+  {
+    "ticker": "NOW",
+    "total_score": 70.0,
+    "raw_mention_count": 1,
+    "unique_sources": 1,
+    "podcast_mentions": 1,
+    "newsletter_mentions": 0,
+    "rank": 31,
+    "score": 70.0,
+    "mentions": 1,
+    "conviction_level": "medium",
+    "contrarian_signal": "neutral",
+    "timeframe": "long_term",
+    "contexts": []
+  },
+  {
+    "ticker": "SMP-500",
+    "total_score": 70.0,
+    "raw_mention_count": 1,
+    "unique_sources": 1,
+    "podcast_mentions": 1,
+    "newsletter_mentions": 0,
+    "rank": 32,
+    "score": 70.0,
+    "mentions": 1,
+    "conviction_level": "medium",
+    "contrarian_signal": "neutral",
+    "timeframe": "long_term",
+    "contexts": []
+  },
+  {
     "ticker": "CRM",
     "total_score": 68.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 30,
+    "rank": 33,
     "score": 68.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -463,7 +508,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 31,
+    "rank": 34,
     "score": 68.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -478,7 +523,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 32,
+    "rank": 35,
     "score": 66.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -493,22 +538,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 33,
-    "score": 66.0,
-    "mentions": 1,
-    "conviction_level": "medium",
-    "contrarian_signal": "neutral",
-    "timeframe": "long_term",
-    "contexts": []
-  },
-  {
-    "ticker": "SPX",
-    "total_score": 66.0,
-    "raw_mention_count": 1,
-    "unique_sources": 1,
-    "podcast_mentions": 1,
-    "newsletter_mentions": 0,
-    "rank": 34,
+    "rank": 36,
     "score": 66.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -523,7 +553,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 35,
+    "rank": 37,
     "score": 64.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -538,7 +568,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 36,
+    "rank": 38,
     "score": 64.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -553,7 +583,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 37,
+    "rank": 39,
     "score": 64.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -568,7 +598,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 38,
+    "rank": 40,
     "score": 64.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -583,22 +613,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 39,
-    "score": 64.0,
-    "mentions": 1,
-    "conviction_level": "medium",
-    "contrarian_signal": "neutral",
-    "timeframe": "long_term",
-    "contexts": []
-  },
-  {
-    "ticker": "URANIUM",
-    "total_score": 64.0,
-    "raw_mention_count": 1,
-    "unique_sources": 1,
-    "podcast_mentions": 1,
-    "newsletter_mentions": 0,
-    "rank": 40,
+    "rank": 41,
     "score": 64.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -613,7 +628,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 41,
+    "rank": 42,
     "score": 62.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -628,7 +643,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 42,
+    "rank": 43,
     "score": 60.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -643,7 +658,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 43,
+    "rank": 44,
     "score": 60.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -658,7 +673,22 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 44,
+    "rank": 45,
+    "score": 60.0,
+    "mentions": 1,
+    "conviction_level": "medium",
+    "contrarian_signal": "neutral",
+    "timeframe": "long_term",
+    "contexts": []
+  },
+  {
+    "ticker": "USD",
+    "total_score": 60.0,
+    "raw_mention_count": 1,
+    "unique_sources": 1,
+    "podcast_mentions": 1,
+    "newsletter_mentions": 0,
+    "rank": 46,
     "score": 60.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -673,7 +703,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 45,
+    "rank": 47,
     "score": 48.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -688,7 +718,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 46,
+    "rank": 48,
     "score": 40.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -703,7 +733,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 47,
+    "rank": 49,
     "score": 32.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -718,38 +748,8 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 48,
-    "score": 24.0,
-    "mentions": 1,
-    "conviction_level": "medium",
-    "contrarian_signal": "neutral",
-    "timeframe": "long_term",
-    "contexts": []
-  },
-  {
-    "ticker": "APP",
-    "total_score": 20.0,
-    "raw_mention_count": 1,
-    "unique_sources": 1,
-    "podcast_mentions": 1,
-    "newsletter_mentions": 0,
-    "rank": 49,
-    "score": 20.0,
-    "mentions": 1,
-    "conviction_level": "medium",
-    "contrarian_signal": "neutral",
-    "timeframe": "long_term",
-    "contexts": []
-  },
-  {
-    "ticker": "SLV",
-    "total_score": 20.0,
-    "raw_mention_count": 1,
-    "unique_sources": 1,
-    "podcast_mentions": 1,
-    "newsletter_mentions": 0,
     "rank": 50,
-    "score": 20.0,
+    "score": 24.0,
     "mentions": 1,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
@@ -781,6 +781,51 @@ const dashboardData = {
       "archived_date": null,
       "archived_reason": null,
       "podcast_episode_id": 146
+    },
+    {
+      "id": 163,
+      "title": "\"The Best Time to Invest\": How AI Disruption is Reshaping Software Valuations | Ben Topor | Titan Capital Partners",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-04-09",
+      "summary": "In this episode of 'Other People's Money', Max Weathie interviews Ben Topore, founder and managing partner of Titan Capital Partners, a growth equity firm focusing on software markets. They discuss the rapidly shifting software landscape, the importance of understanding the different playbooks for various types of software, and the impact of AI on the industry. Ben also shares insights on investment strategies in growth equity and secondary markets, and the importance of strategic decision-making in competitive landscapes.",
+      "key_takeaway": "Invest in software companies that define the market, focusing on backing scale-ready leaders, providing liquidity to early investors, and helping companies make strategic decisions.",
+      "tickers_mentioned": [
+        "PQT",
+        "PQUS",
+        "E-TORO"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-10",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 149
+    },
+    {
+      "id": 164,
+      "title": "MacroVoices #527 Adam Rozencwajg: What Comes Next After The Iran Crisis",
+      "source_type": "podcast",
+      "source_name": "Macro Voices",
+      "source_date": "2026-04-09",
+      "summary": "In this episode of Macro Voices, hosts Eric Townsend and Patrick Suresne discuss the impact of geopolitical tensions, particularly the Iran conflict, on global energy and commodity markets. They feature interviews with Adam Rosenswag, co-founder of Garing and Rosenswag, and Jim Bianco, founder of Bianco Research. The conversation covers the physical dislocation in oil markets, the potential implications for food prices and inflation, and the outlook for commodities like uranium and gold. They also analyze the market's reaction to the potential ceasefire and its effects on oil prices and broader market trends.",
+      "key_takeaway": "Investment opportunities may arise from the physical dislocation in energy markets and shifts in energy security, with a focus on commodities like oil, uranium, and gold.",
+      "tickers_mentioned": [
+        "WTI",
+        "GOLD",
+        "COPPER",
+        "URANIUM",
+        "SPX",
+        "USD"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-10",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 148
     },
     {
       "id": 160,
@@ -842,11 +887,11 @@ const dashboardData = {
         "TSLA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-04-07",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-04-10",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 141
     },
     {
@@ -864,11 +909,11 @@ const dashboardData = {
         "TSLA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-04-07",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-04-10",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 140
     },
     {
@@ -3876,6 +3921,57 @@ const dashboardData = {
       "key_tickers": []
     },
     {
+      "id": 163,
+      "title": "\"The Best Time to Invest\": How AI Disruption is Reshaping Software Valuations | Ben Topor | Titan Capital Partners",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-04-09",
+      "summary": "In this episode of 'Other People's Money', Max Weathie interviews Ben Topore, founder and managing partner of Titan Capital Partners, a growth equity firm focusing on software markets. They discuss the rapidly shifting software landscape, the importance of understanding the different playbooks for various types of software, and the impact of AI on the industry. Ben also shares insights on investment strategies in growth equity and secondary markets, and the importance of strategic decision-making in competitive landscapes.",
+      "key_takeaway": "Invest in software companies that define the market, focusing on backing scale-ready leaders, providing liquidity to early investors, and helping companies make strategic decisions.",
+      "tickers_mentioned": "[\"PQT\", \"PQUS\", \"E-TORO\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-10",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 149,
+      "episode_release_date": "2026-04-09",
+      "guest_name": "\"The Best Time to Invest\"",
+      "key_tickers": [
+        "PQT",
+        "PQUS",
+        "E-TORO"
+      ]
+    },
+    {
+      "id": 164,
+      "title": "MacroVoices #527 Adam Rozencwajg: What Comes Next After The Iran Crisis",
+      "source_type": "podcast",
+      "source_name": "Macro Voices",
+      "source_date": "2026-04-09",
+      "summary": "In this episode of Macro Voices, hosts Eric Townsend and Patrick Suresne discuss the impact of geopolitical tensions, particularly the Iran conflict, on global energy and commodity markets. They feature interviews with Adam Rosenswag, co-founder of Garing and Rosenswag, and Jim Bianco, founder of Bianco Research. The conversation covers the physical dislocation in oil markets, the potential implications for food prices and inflation, and the outlook for commodities like uranium and gold. They also analyze the market's reaction to the potential ceasefire and its effects on oil prices and broader market trends.",
+      "key_takeaway": "Investment opportunities may arise from the physical dislocation in energy markets and shifts in energy security, with a focus on commodities like oil, uranium, and gold.",
+      "tickers_mentioned": "[\"WTI\", \"GOLD\", \"COPPER\", \"URANIUM\", \"SPX\", \"USD\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-10",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 148,
+      "episode_release_date": "2026-04-09",
+      "guest_name": null,
+      "key_tickers": [
+        "WTI",
+        "GOLD",
+        "COPPER",
+        "URANIUM",
+        "SPX",
+        "USD"
+      ]
+    },
+    {
       "id": 160,
       "title": "Josh Shapiro on Trump, Iran War Chaos, Israel's Failure, the Economy, and 2028 Race",
       "source_type": "podcast",
@@ -3912,46 +4008,6 @@ const dashboardData = {
       "archived_reason": null,
       "podcast_episode_id": 147,
       "episode_release_date": "2026-04-08",
-      "guest_name": null,
-      "key_tickers": []
-    },
-    {
-      "id": 155,
-      "title": "Balaji on Why AI Raises the Cost of Verification",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-04-07",
-      "summary": "The podcast episode from 'The a16z Show' discusses the future of AI and its potential impact on the economy and society. The conversation covers the role of AI in job displacement, the importance of understanding AI's limitations, and the implications of AI's ability to synthesize information. The guests also explore the potential distribution of value in the AI economy, comparing it to the internet and cloud economies, and discuss the challenges of verifying AI-generated content. The episode also touches on the future of private programmable AI and its applications in fields like biology and mathematics.",
-      "key_takeaway": "Investing in AI infrastructure and applications that can leverage the power of AI while addressing the challenges of verification and privacy.",
-      "tickers_mentioned": "[\"AAPL\", \"NVDA\", \"GOOGL\", \"MSFT\", \"TSLA\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-04-07",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 141,
-      "episode_release_date": "2026-04-07",
-      "guest_name": null,
-      "key_tickers": []
-    },
-    {
-      "id": 156,
-      "title": "We Were Right. Now What?",
-      "source_type": "podcast",
-      "source_name": "The Jack Mallers Show",
-      "source_date": "2026-04-07",
-      "summary": "In this episode of The Jack Mallers Show, Jack Mallers discusses the current state of financial markets, focusing on Bitcoin's price and market cap, the geopolitical situation, and the implications of the ongoing conflict on the economy. He touches on topics like stagflation, global crisis, and the impact of fiat monetary policy on food quality and health. Jack also shares his personal dietary choices and their connection to his views on the current economic system, advocating for personal responsibility and self-reliance in the face of global challenges.",
-      "key_takeaway": "The investment thesis revolves around the belief in personal responsibility and self-reliance in the face of economic and health challenges, with a particular focus on Bitcoin as a hedge against fiat currency debasement.",
-      "tickers_mentioned": "[\"AAPL\", \"NVDA\", \"SPY\", \"TSLA\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-04-07",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 140,
-      "episode_release_date": "2026-04-07",
       "guest_name": null,
       "key_tickers": []
     },
@@ -13371,61 +13427,217 @@ const dashboardData = {
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-04-08",
     "key_tickers": []
+  },
+  "163": {
+    "id": 154,
+    "insight_id": 163,
+    "podcast_episode_id": 149,
+    "overview": "The rapid evolution of AI technology is reshaping the software landscape, creating new investment opportunities and challenges. In this deep dive, we explore how AI disruption is impacting software valuations and what it means for investors. The software market is bifurcating into mission-critical and value-creating segments, with different playbooks for success. AI is commoditizing certain areas, lowering barriers to entry and increasing competition. This thesis matters now as software companies adapt to these changes, with implications for M&A, competitive positioning, and valuation multiples. Investors need to understand these dynamics to identify winners and avoid value traps.",
+    "key_takeaways_detailed": [
+      "AI is commoditizing certain areas of the software market, particularly in cost-cutting applications, which could lead to increased competition and lower barriers to entry.",
+      "Software companies need to expand their value proposition beyond single products to remain competitive in the face of AI disruption.",
+      "Startups should establish a strong foothold with a killer application before expanding their product offerings to avoid diluting their value proposition.",
+      "Larger software companies can benefit from expanding their product footprint through acquisitions, but integration challenges can lead to failures.",
+      "Investors should focus on software companies with strong competitive positioning in mission-critical or value-creating segments, as these are less likely to be disrupted by AI commoditization."
+    ],
+    "investment_thesis": "Our investment thesis is that AI disruption is creating a bifurcated software landscape, with mission-critical and value-creating segments poised to outperform. Companies in these segments have strong competitive positioning and are less likely to be commoditized by AI advancements. We believe this trend will play out over the medium to long term (3-12 months to >1 year) as software companies adapt to the changing landscape. The catalysts for this thesis include ongoing AI innovation, increased competition in commoditized areas, and M&A activity as larger companies expand their product footprint. We expect software valuations to reflect these dynamics, with a divergence between winners and losers in the AI-driven software landscape.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple is a key player in the software market with its iOS ecosystem and growing services segment. Its strong competitive positioning and recurring revenue streams make it a beneficiary of the AI-driven software landscape.",
+        "positioning": "Long-term strategic position, as Apple's software business is likely to continue growing and outperform in the face of AI disruption.",
+        "risk": "Key risks include increased competition from other tech giants and potential regulatory challenges to its ecosystem."
+      },
+      "NVDA": {
+        "rationale": "Nvidia is a leader in AI and GPU technology, which is critical for AI-driven software development and deployment. Its position at the forefront of AI innovation makes it well-positioned to benefit from the changing software landscape.",
+        "positioning": "Medium-term tactical position, as Nvidia's AI technology is likely to drive growth in the near term, but competition and regulatory risks could emerge over the long term.",
+        "risk": "Key risks include increased competition from other AI chipmakers and potential regulatory scrutiny of its dominant market position."
+      },
+      "PQUS": {
+        "rationale": "PeakTay's AI-enhanced ETF (PQUS) focuses on US equities, providing exposure to companies driving AI innovation in the world's largest economy. This makes it a compelling investment opportunity in the context of AI-driven software disruption.",
+        "positioning": "Long-term strategic position, as the ETF offers diversified exposure to AI leaders in the US, which are well-positioned to benefit from the changing software landscape.",
+        "risk": "Key risks include broader market volatility and the potential for underperformance if AI adoption in the US slows down."
+      }
+    },
+    "positioning_guidance": "Investors should consider a balanced approach to positioning in the AI-driven software landscape. Allocate a portion of the portfolio to leaders in mission-critical and value-creating software segments, such as Apple and Nvidia. Additionally, consider exposure to AI-enhanced ETFs like PQ&T and PQUS for diversified access to AI innovation across regions. Entry points should be based on individual risk tolerance and investment horizon, with a focus on long-term strategic positions in leaders and medium-term tactical positions in emerging opportunities. Monitor the AI landscape for new entrants and disruptors that could impact the thesis.",
+    "risk_factors": [
+      "Increased competition from new AI-driven software companies could disrupt established players and compress valuations.",
+      "Regulatory scrutiny of dominant software companies and AI technology could hinder innovation and growth.",
+      "Slow AI adoption in certain regions or segments could limit the upside potential of AI-enhanced investments.",
+      "Economic downturns or market volatility could impact the performance of software companies and AI-driven investments.",
+      "Failures in AI technology development or deployment could lead to underperformance of companies relying on AI for growth."
+    ],
+    "contrarian_signals": [
+      "Some investors may argue that AI disruption is overhyped and that established software companies will maintain their competitive advantage through innovation and scale.",
+      "Others may contend that the commoditization of certain software areas will lead to a more level playing field, benefiting smaller players and fostering greater competition.",
+      "A potential counterargument is that AI-driven software disruption will be limited to specific segments, with mission-critical and value-creating areas remaining relatively insulated."
+    ],
+    "catalysts": [
+      "Upcoming AI technology breakthroughs and product launches from key players like Apple and Nvidia.",
+      "M&A activity as larger software companies expand their product footprint through acquisitions.",
+      "Regulatory developments related to AI technology and software market competition.",
+      "Economic indicators and market sentiment that could impact the performance of software companies and AI-driven investments.",
+      "Quarterly earnings reports from software companies that could provide insights into the impact of AI disruption on their business."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-04-10T05:07:53.031048",
+    "updated_at": "2026-04-10 10:07:53",
+    "insight_title": "\"The Best Time to Invest\": How AI Disruption is Reshaping Software Valuations | Ben Topor | Titan Capital Partners",
+    "source_name": "Monetary Matters with Jack Farley",
+    "source_date": "2026-04-09",
+    "key_tickers": [
+      "PQT",
+      "PQUS",
+      "E-TORO"
+    ]
+  },
+  "164": {
+    "id": 155,
+    "insight_id": 164,
+    "podcast_episode_id": 148,
+    "overview": "The recent Iran conflict has led to significant physical dislocation in global energy markets, with the Strait of Hormuz being a critical choke point for oil and gas trade. This episode of MacroVoices features Adam Rosenswag, co-founder of Garing and Rosenswag, who discusses the implications of this dislocation for crude oil, food and fertilizer, uranium, and gold. The discussion highlights the unprecedented nature of the current situation and its potential impact on long-term supply and demand fundamentals, as well as the potential for shifts in energy security to drive investment across commodity markets. Understanding these dynamics is crucial for investors as they navigate the complex geopolitical landscape and its impact on asset prices.",
+    "key_takeaways_detailed": [
+      "The Strait of Hormuz controls approximately 20% of the world's crude market, making it a critical choke point for global energy trade.",
+      "Iran's control over the Strait has led to a significant disruption in oil supply, with estimates suggesting 10-15 million barrels per day are impacted.",
+      "The East-West Pipeline in Saudi Arabia provides a partial offset to the disruption, but it is not immune to attacks and cannot fully compensate for the loss of the Strait.",
+      "The current dislocation is unprecedented in magnitude and could have lasting impacts on energy markets, potentially driving investment in oil, uranium, and broader commodity markets.",
+      "Geopolitical developments in the Middle East will continue to influence global energy markets, with the potential for shifts in energy security to impact investment strategies."
+    ],
+    "investment_thesis": "The Iran conflict has created a significant physical dislocation in global energy markets, particularly affecting the Strait of Hormuz, a critical choke point for oil and gas trade. This disruption is unprecedented in magnitude and could have lasting impacts on supply and demand fundamentals, driving investment across commodity markets. The thesis is that the current geopolitical tensions will lead to increased investment in energy security and alternative energy sources, benefiting companies involved in oil, uranium, and broader commodity markets. The catalysts for this thesis include the ongoing Iran conflict, potential shifts in energy security, and the need for alternative energy sources. The timeframe for this thesis is medium to long-term, as the physical dislocation and its impacts on energy markets are expected to persist beyond the immediate term.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's involvement in the technology sector makes it a potential beneficiary of increased investment in alternative energy sources and energy security.",
+        "positioning": "Long-term strategic position, as Apple's technology and innovation capabilities could be leveraged in the development of new energy solutions.",
+        "risk": "Geopolitical tensions could lead to increased volatility in global markets, impacting Apple's stock price."
+      },
+      "NVDA": {
+        "rationale": "Nvidia's expertise in artificial intelligence and computing could be applied to energy security and alternative energy solutions.",
+        "positioning": "Medium-term tactical position, as Nvidia's technology could be utilized in the development of new energy solutions.",
+        "risk": "Nvidia's stock price could be affected by fluctuations in global energy markets and geopolitical tensions."
+      },
+      "SPY": {
+        "rationale": "The SPDR S&P 500 ETF provides exposure to a broad range of companies that could be impacted by the Iran conflict and its effects on global energy markets.",
+        "positioning": "Medium-term tactical position, as the ETF offers diversification across sectors that could be affected by the conflict.",
+        "risk": "The ETF's performance could be influenced by the overall market reaction to the Iran conflict and its impact on energy markets."
+      },
+      "TSLA": {
+        "rationale": "Tesla's focus on electric vehicles and renewable energy makes it a potential beneficiary of increased investment in alternative energy sources.",
+        "positioning": "Long-term strategic position, as Tesla's technology and innovation capabilities could drive the adoption of alternative energy solutions.",
+        "risk": "Tesla's stock price could be affected by fluctuations in global energy markets and geopolitical tensions."
+      },
+      "XOM": {
+        "rationale": "Exxon Mobil's involvement in the oil and gas industry makes it a potential beneficiary of increased investment in energy security and alternative energy sources.",
+        "positioning": "Medium-term tactical position, as Exxon Mobil's expertise could be leveraged in the development of new energy solutions.",
+        "risk": "Exxon Mobil's stock price could be affected by fluctuations in global energy markets and geopolitical tensions."
+      }
+    },
+    "positioning_guidance": "Investors should consider a diversified approach to positioning their portfolios in response to the Iran conflict and its impact on global energy markets. This could include a mix of long-term strategic positions in companies with exposure to alternative energy sources and energy security, as well as medium-term tactical positions in companies that could benefit from increased investment in these areas. Investors should also consider hedging their positions to protect against potential volatility in global markets due to ongoing geopolitical tensions.",
+    "risk_factors": [
+      "Geopolitical tensions could escalate, leading to further disruptions in global energy markets.",
+      "The Iran conflict could be resolved, reducing the need for increased investment in energy security and alternative energy sources.",
+      "Global energy markets could experience a rapid shift towards alternative energy sources, impacting the demand for oil and gas.",
+      "Investment in energy security and alternative energy sources could be slower than anticipated, affecting the performance of companies in these sectors.",
+      "Fluctuations in global energy markets could lead to increased volatility in stock prices, impacting investment returns."
+    ],
+    "contrarian_signals": [
+      "The Iran conflict could be resolved more quickly than anticipated, reducing the need for increased investment in energy security and alternative energy sources.",
+      "Global energy markets could experience a slower transition towards alternative energy sources, maintaining the demand for oil and gas.",
+      "Investment in energy security and alternative energy sources could be driven by factors other than the Iran conflict, such as environmental concerns or technological advancements.",
+      "The impact of the Iran conflict on global energy markets could be less severe than currently anticipated, reducing the need for increased investment in these areas."
+    ],
+    "catalysts": [
+      "Ongoing developments in the Iran conflict and its impact on global energy markets.",
+      "Geopolitical tensions in the Middle East and their effects on energy security.",
+      "Shifts in global energy markets towards alternative energy sources.",
+      "Investment in energy security and alternative energy sources by governments and private companies.",
+      "Technological advancements in energy security and alternative energy solutions."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-04-10T05:08:41.793401",
+    "updated_at": "2026-04-10 10:08:41",
+    "insight_title": "MacroVoices #527 Adam Rozencwajg: What Comes Next After The Iran Crisis",
+    "source_name": "Macro Voices",
+    "source_date": "2026-04-09",
+    "key_tickers": [
+      "WTI",
+      "GOLD",
+      "COPPER",
+      "URANIUM",
+      "SPX",
+      "USD"
+    ]
   }
 },
   suggestedTerms: [
   {
-    "id": 169,
-    "term": "Private Credit",
-    "definition": "A broad category of debt investments that includes direct lending, asset-backed lending, and other non-public credit opportunities.",
-    "investment_implications": "Investors should understand the nuances between different private credit strategies to make informed investment decisions.",
+    "id": 173,
+    "term": "Mission Critical Software",
+    "definition": "Software indispensable for organizations' day-to-day operations, such as sources of truth, core processes, and security.",
+    "investment_implications": "Investors should focus on the resilience and indispensability of these software products for long-term stability.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-04-10 03:04:59",
+    "submitted_date": "2026-04-10 10:05:17",
     "priority_score": 80
   },
   {
-    "id": 170,
-    "term": "Opportunistic Funds",
-    "definition": "Funds that seek higher returns by investing in complex, high-risk credit situations, often in dislocated markets.",
-    "investment_implications": "These funds can offer premium returns but require a deep understanding of credit risk and market dynamics.",
+    "id": 174,
+    "term": "Value-Creating Software",
+    "definition": "Software that increases revenue, cuts costs, accelerates time to value, and mitigates risks.",
+    "investment_implications": "Investors should look for software with distinct value propositions that can drive tangible business outcomes.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-04-10 03:04:59",
+    "submitted_date": "2026-04-10 10:05:17",
     "priority_score": 80
   },
   {
-    "id": 166,
-    "term": "Effective Accelerationism (Eacc)",
-    "definition": "A philosophy that views progress as inevitable and argues for intentional acceleration to shape the future.",
-    "investment_implications": "Invest in companies and technologies that embrace and drive progress.",
+    "id": 171,
+    "term": "Physical Dislocation",
+    "definition": "A significant disruption in the physical supply chain or logistics of a commodity, leading to market imbalances.",
+    "investment_implications": "Investors should monitor physical dislocations for opportunities arising from market imbalances and potential price volatility.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-04-10 03:04:19",
+    "submitted_date": "2026-04-10 10:04:28",
     "priority_score": 80
   },
   {
-    "id": 167,
-    "term": "Defensive Acceleration (Deac)",
-    "definition": "A philosophy that advocates for caution in technological advancement, emphasizing safeguards to prevent power concentration.",
-    "investment_implications": "Seek investments in companies that prioritize ethical considerations and decentralization.",
+    "id": 172,
+    "term": "Energy Security",
+    "definition": "The ability to obtain reliable and affordable energy supplies without undue risk to economic or physical security.",
+    "investment_implications": "Shifts in energy security can influence investment decisions in energy and commodity markets, affecting prices and market trends.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-04-10 03:04:19",
+    "submitted_date": "2026-04-10 10:04:28",
     "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 1701,
+    "id": 1721,
+    "name": "\"The Best Time to Invest\"",
+    "slug": "the-best-time-to-invest",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Invest in software companies that define the market, focusing on backing scale-ready leaders, providing liquidity to early investors, and helping companies make strategic decisions.",
+    "last_episode_title": "\"The Best Time to Invest\": How AI Disruption is Reshaping Software Valuations | Ben Topor | Titan Capital Partners",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-04-09",
+    "appearance_count": 1
+  },
+  {
+    "id": 1722,
     "name": "Governor Josh Shapiro of Pennsylvania",
     "slug": "governor-josh-shapiro-of-pennsylvania",
     "bio": null,
@@ -13437,7 +13649,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1702,
+    "id": 1723,
     "name": "Why $200 Oil Won\u2019t Spike Inflation to 9%",
     "slug": "why-200-oil-wont-spike-inflation-to-9",
     "bio": null,
@@ -13449,7 +13661,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1703,
+    "id": 1724,
     "name": "This special episode",
     "slug": "this-special-episode",
     "bio": null,
@@ -13461,7 +13673,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1704,
+    "id": 1725,
     "name": "Lupin Ramon",
     "slug": "lupin-ramon",
     "bio": null,
@@ -13473,7 +13685,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1705,
+    "id": 1726,
     "name": "When the Music Stops",
     "slug": "when-the-music-stops",
     "bio": null,
@@ -13485,7 +13697,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1706,
+    "id": 1727,
     "name": "Ground Infrastructure",
     "slug": "ground-infrastructure",
     "bio": null,
@@ -13497,7 +13709,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1707,
+    "id": 1728,
     "name": "Rory Johnston",
     "slug": "rory-johnston",
     "bio": null,
@@ -13509,7 +13721,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1708,
+    "id": 1729,
     "name": "Senator John Fetterman on Voting Rights",
     "slug": "senator-john-fetterman-on-voting-rights",
     "bio": null,
@@ -13521,7 +13733,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1709,
+    "id": 1730,
     "name": "Stock Market on Shaky Foundations",
     "slug": "stock-market-on-shaky-foundations",
     "bio": null,
@@ -13533,7 +13745,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1710,
+    "id": 1731,
     "name": "Elon Musk on Moonshots",
     "slug": "elon-musk-on-moonshots",
     "bio": null,
@@ -13545,7 +13757,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1711,
+    "id": 1732,
     "name": "Investing in Capitalism",
     "slug": "investing-in-capitalism",
     "bio": null,
@@ -13557,7 +13769,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1712,
+    "id": 1733,
     "name": "Harvard Professor Graham Allison",
     "slug": "harvard-professor-graham-allison",
     "bio": null,
@@ -13569,7 +13781,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1713,
+    "id": 1734,
     "name": "Andrew Yang",
     "slug": "andrew-yang",
     "bio": "Andrew Yang is an entrepreneur and political leader who popularized universal basic income in U.S. politics through his 2020 presidential campaign.",
@@ -13581,7 +13793,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1714,
+    "id": 1735,
     "name": "Inventing the Renaissance",
     "slug": "inventing-the-renaissance",
     "bio": null,
@@ -13593,7 +13805,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1715,
+    "id": 1736,
     "name": "Ray Dalio",
     "slug": "ray-dalio",
     "bio": "Ray Dalio is the founder of Bridgewater Associates and a macro investor known for his 'Principles' framework and work on long-term debt cycles.",
@@ -13605,7 +13817,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1716,
+    "id": 1737,
     "name": "Nobel Prize-winning economist Paul Krugman",
     "slug": "nobel-prize-winning-economist-paul-krugman",
     "bio": null,
@@ -13617,7 +13829,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1717,
+    "id": 1738,
     "name": "host Jack Mallers",
     "slug": "host-jack-mallers",
     "bio": null,
@@ -13629,7 +13841,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1718,
+    "id": 1739,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -13641,7 +13853,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1719,
+    "id": 1740,
     "name": "Bosworth",
     "slug": "bosworth",
     "bio": null,
@@ -13650,18 +13862,6 @@ const dashboardData = {
     "last_episode_title": "The Future of Consumer Technology and the Post-Mobile Phone Era",
     "last_podcast_name": "a16z Live",
     "last_episode_date": "2026-02-15",
-    "appearance_count": 1
-  },
-  {
-    "id": 1720,
-    "name": "Milton Berg",
-    "slug": "milton-berg",
-    "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
-    "known_for": "Decades of macro/technical work identifying equity and commodity inflection points.",
-    "last_main_idea": "Milton Berg's investment thesis is based on identifying market turning points through rare occurrences and historical precedents, rather than traditional indicators, and adjusting positions accordingly.",
-    "last_episode_title": "Monetary Matters with Jack Farley: Analyzing Market Signals and Investment Strategies with Milton Berg",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-02-06",
     "appearance_count": 1
   }
 ],
@@ -13684,7 +13884,7 @@ const dashboardData = {
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-03-19",
     "mention_score": 4,
-    "mention_score_decayed": 3.1,
+    "mention_score_decayed": 3.03,
     "last_main_idea": "The Iran conflict could lead to a renewed inflation cycle, affecting commodities and energy markets, with potential second-order effects that markets may currently be underpricing.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:36:30.218908",
@@ -13785,6 +13985,71 @@ const dashboardData = {
     "net_worth": "$151.00B"
   },
   {
+    "id": 54,
+    "name": "Jim Bianco",
+    "slug": "jim-bianco",
+    "bio": "Jim Bianco is the founder of Bianco Research, an independent research firm specializing in global markets. He is recognized for his expertise in macroeconomic trends and geopolitical analysis, providing insights to professional finance, high-net worth individuals, and sophisticated investors.",
+    "known_for": "His in-depth analysis and predictions on global markets and macroeconomic trends.",
+    "net_worth_usd": 12300000.0,
+    "net_worth_source": "https://www.benzinga.com/sec/insider-trades/0001198554/james-a-bianco",
+    "net_worth_updated_at": "2026-04-10T05:06:38.074861",
+    "voice_tone": "Questioning and speculative.",
+    "voice_style": "Analytical with a focus on the potential outcomes of geopolitical events.",
+    "voice_delivery_notes": "Deliberate, with pauses for emphasis on key geopolitical points.",
+    "voice_profile_updated_at": "2026-04-10 10:04:28",
+    "last_seen": "2026-04-10 10:04:28",
+    "last_episode_title": "MacroVoices #527 Adam Rozencwajg: What Comes Next After The Iran Crisis",
+    "last_podcast_name": "Macro Voices",
+    "last_episode_date": "2026-04-09",
+    "mention_score": 2,
+    "mention_score_decayed": 2,
+    "last_main_idea": "Investment opportunities may arise from the physical dislocation in energy markets and shifts in energy security, with a focus on commodities like oil, uranium, and gold.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-10T05:06:37.059270",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Jim Bianco",
+      "fetched_at": "2026-04-10T10:06:37.059032+00:00",
+      "cliff_notes": "Jim Bianco is a prominent figure in the world of finance and macroeconomics. As the founder of Bianco Research, he has dedicated his career to providing independent research on global markets. His expertise in macroeconomic trends and geopolitical analysis has made him a sought-after commentator and analyst. Bianco's insights are particularly valuable for professional finance, high-net worth individuals, family offices, and other sophisticated investors. His work has been influential in shaping investment strategies and understanding market dynamics. Through his appearances on financial podcasts like Macrovoisers, Bianco shares his perspectives on critical issues such as the Iran conflict, its impact on commodities, and the Fed's reaction to geopolitical events. His contributions to the financial community have established him as a respected voice in the field.",
+      "derived": {
+        "current_role": "Founder of Bianco Research"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Jim Bianco is a prominent figure in the world of finance and macroeconomics. As the founder of Bianco Research, he has dedicated his career to providing independent research on global markets. His expertise in macroeconomic trends and geopolitical analysis has made him a sought-after commentator and analyst. Bianco's insights are particularly valuable for professional finance, high-net worth individuals, family offices, and other sophisticated investors.",
+        "His work has been influential in shaping investment strategies and understanding market dynamics. Through his appearances on financial podcasts like Macrovoisers, Bianco shares his perspectives on critical issues such as the Iran conflict, its impact on commodities, and the Fed's reaction to geopolitical events. His contributions to the financial community have established him as a respected voice in the field."
+      ],
+      "sections": [
+        {
+          "heading": "Global Markets",
+          "body": "Jim Bianco is well-versed in analyzing and commenting on global market trends, providing valuable insights to investors and financial professionals."
+        },
+        {
+          "heading": "Macroeconomic Trends",
+          "body": "Bianco's expertise in macroeconomic trends allows him to predict and explain the impact of global economic shifts on financial markets."
+        },
+        {
+          "heading": "Geopolitical Analysis",
+          "body": "His geopolitical analysis is crucial for understanding the implications of international conflicts and their effects on the economy and markets."
+        },
+        {
+          "heading": "Iran Conflict",
+          "body": "Bianco has provided in-depth analysis on the Iran conflict, discussing its potential outcomes and the subsequent effects on commodities such as crude oil, food, fertilizer, uranium, and gold."
+        },
+        {
+          "heading": "Fed's Reaction",
+          "body": "He has also commented on the Federal Reserve's response to geopolitical events, including the Iran conflict, and its influence on inflation and monetary policy."
+        }
+      ]
+    },
+    "net_worth": "$12.3M"
+  },
+  {
     "id": 97,
     "name": "Simon White",
     "slug": "simon-white",
@@ -13802,7 +14067,7 @@ const dashboardData = {
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-03-19",
     "mention_score": 2,
-    "mention_score_decayed": 1.55,
+    "mention_score_decayed": 1.52,
     "last_main_idea": "The Iran conflict could lead to a renewed inflation cycle, affecting commodities and energy markets, with potential second-order effects that markets may currently be underpricing.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:35:48.845381",
@@ -14109,6 +14374,132 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
+    "id": 169,
+    "name": "Ben Topore",
+    "slug": "ben-topore",
+    "bio": "Ben Topore is the founder and managing partner of Titan Capital Partners, a growth equity firm with a focus on software markets. He is known for authoring a book on decoding the software landscape and his expertise in backing software companies and providing strategic insights.",
+    "known_for": "His expertise in software markets and authoring a book on the subject.",
+    "net_worth_usd": 10000000.0,
+    "net_worth_source": "https://networth20.com/ben-domenech-net-worth/",
+    "net_worth_updated_at": "2026-04-10T05:06:03.474380",
+    "voice_tone": "Informed and analytical.",
+    "voice_style": "Detailed and explanatory, providing clear distinctions between different types of software.",
+    "voice_delivery_notes": "Speaks with a structured approach, breaking down complex topics into digestible points.",
+    "voice_profile_updated_at": "2026-04-10 10:05:17",
+    "last_seen": "2026-04-10 10:05:17",
+    "last_episode_title": "\"The Best Time to Invest\": How AI Disruption is Reshaping Software Valuations | Ben Topor | Titan Capital Partners",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-04-09",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in software companies that define the market, focusing on backing scale-ready leaders, providing liquidity to early investors, and helping companies make strategic decisions.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-10T05:06:02.547144",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Ben Topore",
+      "fetched_at": "2026-04-10T10:06:02.546559+00:00",
+      "cliff_notes": "Ben Topore is a seasoned investor and author with a focus on the software industry. As the founder and managing partner of Titan Capital Partners, a growth equity firm with offices in the US and Israel, Topore has been instrumental in backing companies that define the software markets. His firm focuses on backing scale-ready leaders in software, providing liquidity to early investors, founders, and employees, and aiding companies in making strategic decisions with competitive insights and frameworks. In addition to his work with Titan, Topore has authored a book titled 'Decoding the Software Landscape,' which delves into the intricacies of the software industry. His contributions to both the investment and knowledge domains have made him a notable figure in the tech and finance sectors.",
+      "derived": {
+        "current_role": "Founder and Managing Partner of Titan Capital Partners",
+        "books_or_works": "Decoding the Software Landscape"
+      },
+      "infobox": {
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Ben Topore is a seasoned investor and author with a focus on the software industry. As the founder and managing partner of Titan Capital Partners, a growth equity firm with offices in the US and Israel, Topore has been instrumental in backing companies that define the software markets. His firm focuses on backing scale-ready leaders in software, providing liquidity to early investors, founders, and employees, and aiding companies in making strategic decisions with competitive insights and frameworks.",
+        "In addition to his work with Titan, Topore has authored a book titled 'Decoding the Software Landscape,' which delves into the intricacies of the software industry. His contributions to both the investment and knowledge domains have made him a notable figure in the tech and finance sectors."
+      ],
+      "sections": [
+        {
+          "heading": "Software Market Expertise",
+          "body": "Ben Topore has a deep understanding of the software market, which he leverages to back companies that are poised to define the industry."
+        },
+        {
+          "heading": "Investment Strategy",
+          "body": "At Titan Capital Partners, Topore focuses on providing growth equity to software companies, aiding in their scaling and strategic decision-making."
+        },
+        {
+          "heading": "Liquidity Provision",
+          "body": "Topore's firm is known for offering liquidity to early investors, founders, and employees, facilitating exits and supporting the growth of software companies."
+        },
+        {
+          "heading": "Strategic Insights",
+          "body": "Ben Topore helps software companies with competitive insights and frameworks, enabling them to make informed strategic decisions."
+        },
+        {
+          "heading": "Authoring a Book",
+          "body": "Topore has authored 'Decoding the Software Landscape,' a book that offers a comprehensive view of the software industry, contributing to the knowledge base of investors and tech enthusiasts."
+        }
+      ]
+    },
+    "net_worth": "$10.0M"
+  },
+  {
+    "id": 168,
+    "name": "Adam Rosenswag",
+    "slug": "adam-rosenswag",
+    "bio": "Adam Rosenswag is a prominent figure in the global energy markets and commodities sector. He is the co-founder of Garing and Rosenswag, an investment firm that specializes in these areas. Rosenswag is known for his expertise and insights into commodities, particularly in the context of geopolitical events and their impact on markets.",
+    "known_for": "His deep understanding of how geopolitical events, such as the Iran conflict, influence global energy markets and commodities.",
+    "net_worth_usd": 1200000000.0,
+    "net_worth_source": "https://explore.st-aug.edu/exp/adam-22s-net-worth-shocked-the-business-world-the-untold-secrets-behind-his-billionairestyle-wealth",
+    "net_worth_updated_at": "2026-04-10T05:06:56.415309",
+    "voice_tone": "Matter-of-fact and analytical.",
+    "voice_style": "Factual and informative, providing insights into market dislocations and their implications.",
+    "voice_delivery_notes": "Clear and concise, with emphasis on key market data points.",
+    "voice_profile_updated_at": "2026-04-10 10:04:28",
+    "last_seen": "2026-04-10 10:04:28",
+    "last_episode_title": "MacroVoices #527 Adam Rozencwajg: What Comes Next After The Iran Crisis",
+    "last_podcast_name": "Macro Voices",
+    "last_episode_date": "2026-04-09",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investment opportunities may arise from the physical dislocation in energy markets and shifts in energy security, with a focus on commodities like oil, uranium, and gold.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-10T05:06:55.491790",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Adam Rosenswag",
+      "fetched_at": "2026-04-10T10:06:55.491575+00:00",
+      "cliff_notes": "Adam Rosenswag is recognized for his expertise in global energy markets and commodities. He co-founded Garing and Rosenswag, an investment firm that focuses on these sectors. Rosenswag's insights are particularly sought after during times of geopolitical tension, such as the Iran conflict, as he provides valuable perspectives on how such events can affect the prices and availability of commodities like crude oil, food, fertilizer, uranium, and gold. His contributions to the financial community are significant, offering clarity and foresight in complex and volatile market conditions.",
+      "derived": {
+        "current_role": "Co-founder, Garing and Rosenswag"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Adam Rosenswag is recognized for his expertise in global energy markets and commodities. He co-founded Garing and Rosenswag, an investment firm that focuses on these sectors. Rosenswag's insights are particularly sought after during times of geopolitical tension, such as the Iran conflict, as he provides valuable perspectives on how such events can affect the prices and availability of commodities like crude oil, food, fertilizer, uranium, and gold.",
+        "His contributions to the financial community are significant, offering clarity and foresight in complex and volatile market conditions."
+      ],
+      "sections": [
+        {
+          "heading": "Energy Markets",
+          "body": "Adam Rosenswag has a deep understanding of global energy markets, offering insights into how geopolitical events can influence the prices and availability of energy commodities."
+        },
+        {
+          "heading": "Commodities",
+          "body": "Rosenswag is known for his analysis of commodities, particularly in the context of global conflicts and their impact on the market."
+        },
+        {
+          "heading": "Geopolitical Impact",
+          "body": "His expertise lies in assessing the impact of geopolitical events, such as the Iran conflict, on the global commodities market."
+        },
+        {
+          "heading": "Investment Strategy",
+          "body": "As co-founder of an investment firm, Rosenswag provides strategic advice on navigating the complexities of global energy markets and commodities trading."
+        }
+      ]
+    },
+    "net_worth": "$1.20B"
+  },
+  {
     "id": 167,
     "name": "Michael Haynes",
     "slug": "michael-haynes",
@@ -14310,7 +14701,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-04-08",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Invest in Pennsylvania due to its pro-growth policies, job creation, and improved business climate.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-09T05:06:15.797999",
@@ -14373,7 +14764,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-04-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "The core thesis presented is that advancements in AI and computer science can lead to new fields and paradigms, offering investment opportunities in technological disruption and innovation.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-08T05:04:38.528660",
@@ -14431,7 +14822,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Investing in select few names within the China property sector can offer significant potential for value appreciation, given the right conditions and primary research.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-08T05:04:49.164717",
@@ -14488,7 +14879,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-04-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Investment in Colossal represents a bet on the convergence of synthetic biology, AI, and environmental conservation, with potential for significant technological and societal impact.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-08T05:05:00.239498",
@@ -14608,7 +14999,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-04-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Investing in US defense and technology companies that align with maintaining the nation's global primacy and ensuring economic prosperity.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-07T05:05:35.906002",
@@ -14646,184 +15037,6 @@ const dashboardData = {
       ]
     },
     "net_worth": "$500.0M"
-  },
-  {
-    "id": 158,
-    "name": "Sean Sankar",
-    "slug": "sean-sankar",
-    "bio": "Sean Sankar is a co-founder of Palantir Technologies, a company known for its data analytics platform. He played a crucial role in the early stages of the company, contributing to its establishment and growth.",
-    "known_for": "Co-founding Palantir Technologies and its significant impact on data analytics.",
-    "net_worth_usd": 1000000000.0,
-    "net_worth_source": "https://urbansweekly.com/shyam-sankar/",
-    "net_worth_updated_at": "2026-04-07T05:05:50.141443",
-    "voice_tone": "Engaging and insightful",
-    "voice_style": "Direct and analytical",
-    "voice_delivery_notes": "Clear and assertive, with a focus on strategic implications",
-    "voice_profile_updated_at": "2026-04-07 10:05:21",
-    "last_seen": "2026-04-07 10:05:21",
-    "last_episode_title": "The Companies Changing Warfare Forever: Palantir & Anduril Execs on Drones, AI & the Future of War",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-04-06",
-    "mention_score": 1,
-    "mention_score_decayed": 0.95,
-    "last_main_idea": "Investing in US defense and technology companies that align with maintaining the nation's global primacy and ensuring economic prosperity.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-07T05:05:49.320297",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Sean Sankar",
-      "fetched_at": "2026-04-07T10:05:49.320109+00:00",
-      "cliff_notes": "Sean Sankar is recognized for his foundational role in the establishment of Palantir Technologies. His early involvement in the company was pivotal in setting the stage for its growth and success in the realm of data analytics. Sankar's contributions to Palantir have been significant, as the company has become a major player in the tech industry, particularly in areas concerning data analysis and security. His work has had far-reaching implications for various sectors, including government and finance, where data-driven insights are crucial.",
-      "derived": {
-        "former_positions": "Co-founder of Palantir Technologies"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Sean Sankar is recognized for his foundational role in the establishment of Palantir Technologies. His early involvement in the company was pivotal in setting the stage for its growth and success in the realm of data analytics. Sankar's contributions to Palantir have been significant, as the company has become a major player in the tech industry, particularly in areas concerning data analysis and security.",
-        "His work has had far-reaching implications for various sectors, including government and finance, where data-driven insights are crucial."
-      ],
-      "sections": [
-        {
-          "heading": "Early Career",
-          "body": "Sean Sankar began his career in technology, eventually co-founding Palantir Technologies, which would go on to revolutionize the way data is analyzed and utilized."
-        },
-        {
-          "heading": "Palantir's Impact",
-          "body": "Palantir, under Sankar's influence, became known for its powerful data analytics platform used by various government agencies and financial institutions, enhancing their capabilities in areas such as counterterrorism and fraud detection."
-        },
-        {
-          "heading": "Data Analytics",
-          "body": "Sankar's work with Palantir has been instrumental in shaping the modern landscape of data analytics, emphasizing the importance of big data in decision-making processes across different industries."
-        }
-      ]
-    },
-    "net_worth": "$1.00B"
-  },
-  {
-    "id": 155,
-    "name": "Peter Yang",
-    "slug": "peter-yang",
-    "bio": "Peter Yang is a prominent figure in the tech industry, known for his work at Roblox and his insights on the future of coding agents. As a creator and product lead, Yang has been influential in shaping the direction of the platform and the broader tech landscape.",
-    "known_for": "His role in shaping Roblox's product strategy and his forward-thinking views on the evolution of coding agents and software interfaces.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Casual and conversational",
-    "voice_style": "Exploratory and insightful, discussing the implications of coding agents on various aspects of work.",
-    "voice_delivery_notes": "Speaks with a mix of excitement and pragmatism about the potential of coding agents.",
-    "voice_profile_updated_at": "2026-04-07 10:05:00",
-    "last_seen": "2026-04-07 10:05:00",
-    "last_episode_title": "Peter Yang on Small Teams, Coding Agents, and Why Human Ambition Has No Ceiling",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-04-06",
-    "mention_score": 1,
-    "mention_score_decayed": 0.95,
-    "last_main_idea": "Investing in companies that leverage coding agents could offer significant productivity gains and reshape the software development landscape.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-07T05:06:04.126625",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Peter Yang",
-      "fetched_at": "2026-04-07T10:06:04.126360+00:00",
-      "cliff_notes": "Peter Yang is recognized for his significant contributions to Roblox, where he serves as a creator and product lead. His work has been pivotal in defining the platform's direction and its impact on the gaming and tech industries. Yang is also noted for his thought leadership on the future of coding agents, which he believes will revolutionize software development and user interfaces. His insights into the 'agent stack' and the potential for smaller, more agile teams to leverage these technologies have resonated with tech enthusiasts and investors alike. Yang's vision of a future where individuals can pursue their dreams through technology, empowered by advancements in coding agents, highlights his influence on the tech industry's trajectory.",
-      "derived": {
-        "current_role": "Creator and Product Lead at Roblox"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Peter Yang is recognized for his significant contributions to Roblox, where he serves as a creator and product lead. His work has been pivotal in defining the platform's direction and its impact on the gaming and tech industries. Yang is also noted for his thought leadership on the future of coding agents, which he believes will revolutionize software development and user interfaces.",
-        "His insights into the 'agent stack' and the potential for smaller, more agile teams to leverage these technologies have resonated with tech enthusiasts and investors alike. Yang's vision of a future where individuals can pursue their dreams through technology, empowered by advancements in coding agents, highlights his influence on the tech industry's trajectory."
-      ],
-      "sections": [
-        {
-          "heading": "Roblox Impact",
-          "body": "Peter Yang has been instrumental in the development and growth of Roblox, a platform that has become a cultural phenomenon and a significant player in the gaming industry."
-        },
-        {
-          "heading": "Coding Agents",
-          "body": "Yang is a thought leader in the emerging field of coding agents,"
-        },
-        {
-          "heading": "Tech Evolution",
-          "body": "He frequently discusses the evolution of technology, particularly the shift from traditional app interfaces to more dynamic and personalized software experiences."
-        },
-        {
-          "heading": "Entrepreneurship",
-          "body": "Yang's views on entrepreneurship suggest a future where individuals can leverage technology to pursue their own ventures, even in the face of economic challenges."
-        }
-      ]
-    }
-  },
-  {
-    "id": 154,
-    "name": "Ed Finley Richardson",
-    "slug": "ed-finley-richardson",
-    "bio": "Ed Finley Richardson is a renowned expert in the shipping industry, known for his deep analysis and insights into shipping markets and investment opportunities. He is the author of the Misadventures in Shipping sub-stack, providing valuable research and analysis to investors interested in the shipping sector.",
-    "known_for": "His expertise in shipping markets and investment opportunities, particularly in the tanker market that transports crude oil and refined products around the globe.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Informed and analytical",
-    "voice_style": "Factual and predictive, with a focus on market outcomes",
-    "voice_delivery_notes": "Delivers insights with a steady pace, emphasizing key points",
-    "voice_profile_updated_at": "2026-04-05 03:02:52",
-    "last_seen": "2026-04-05 03:02:52",
-    "last_episode_title": "\u201cBooks Will Be Written\u201d About This Shipping Market | Ed Finley-Richardson of Misadventures in Shipping on War-Induced Oil Tanker Mayhem, Squeeze for Asiabound Refined Products, and Persian Gulf \u201cFeeding Frenzy\u201d Scenario",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-04-04",
-    "mention_score": 1,
-    "mention_score_decayed": 0.89,
-    "last_main_idea": "The disruption in shipping due to geopolitical conflicts presents a unique investment opportunity in shipping stocks, particularly for those with a keen understanding of the market dynamics.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-04T22:03:03.597938",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Ed Finley Richardson",
-      "fetched_at": "2026-04-05T03:03:03.597603+00:00",
-      "cliff_notes": "Ed Finley Richardson is an expert in the shipping industry, with a focus on analyzing and providing insights into shipping markets and investment opportunities. He began thinking hard years ago about the potential impacts of geopolitical events, such as the closure of the Strait of Hormuz, on shipping markets and the opportunities they might create for shipping investors. Richardson's work has become increasingly relevant as shipping prices have surged, with some reaching 10 times normal levels. As the author of the Misadventures in Shipping sub-stack, he offers valuable research and analysis to investors interested in the shipping sector, making him one of the best shipping analysts alive.",
-      "derived": {
-        "current_role": "Author of Misadventures in Shipping",
-        "books_or_works": "Misadventures in Shipping sub-stack"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Ed Finley Richardson is an expert in the shipping industry, with a focus on analyzing and providing insights into shipping markets and investment opportunities. He began thinking hard years ago about the potential impacts of geopolitical events, such as the closure of the Strait of Hormuz, on shipping markets and the opportunities they might create for shipping investors.",
-        "Richardson's work has become increasingly relevant as shipping prices have surged, with some reaching 10 times normal levels. As the author of the Misadventures in Shipping sub-stack, he offers valuable research and analysis to investors interested in the shipping sector, making him one of the best shipping analysts alive."
-      ],
-      "sections": [
-        {
-          "heading": "Shipping Market Analysis",
-          "body": "Ed Finley Richardson is known for his deep analysis of shipping markets, particularly the tanker market that transports crude oil and refined products around the globe."
-        },
-        {
-          "heading": "Investment Opportunities",
-          "body": "Richardson's expertise lies in identifying investment opportunities within the shipping industry, especially in times of geopolitical unrest and market disruptions."
-        },
-        {
-          "heading": "Misadventures in Shipping",
-          "body": "As the author of the Misadventures in Shipping sub-stack, Richardson provides valuable research and analysis to investors interested in the shipping sector."
-        },
-        {
-          "heading": "Shipping Prices Surge",
-          "body": "Richardson's work has gained prominence as shipping prices have surged, with some reaching 10 times normal levels, highlighting the importance of his analysis and insights."
-        }
-      ]
-    }
   }
 ]
 };
