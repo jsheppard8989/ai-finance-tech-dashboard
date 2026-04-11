@@ -1,6 +1,26 @@
 {
   "insights": [
     {
+      "id": 165,
+      "title": "What Running Windows at Microsoft Taught Steven Sinofsky About Apple",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-04-10",
+      "summary": "In this episode of the a16z Show, Steven Sinofsky, former president of the Windows Division at Microsoft and board partner at a16z, discusses the cultural and strategic differences between Apple and Microsoft. Sinofsky highlights the contrasting approaches to product development and market strategy, with Apple focusing on design and user experience, while Microsoft emphasizes technological solutions and enterprise compatibility. The conversation also touches on the impact of these differences on the companies' products and market positions, as well as the potential implications for future innovation and competition.",
+      "key_takeaway": "Investing in companies with a strong cultural identity and clear strategic focus can provide an edge in technology markets, as demonstrated by the contrasting paths of Apple and Microsoft.",
+      "tickers_mentioned": [
+        "AAPL",
+        "MSFT"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-10",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 150
+    },
+    {
       "id": 161,
       "title": "Who Controls AI Acceleration? Vitalik Buterin and Guillaume Verdon Debate",
       "source_type": "podcast",
@@ -173,11 +193,11 @@
         "TSLA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-04-08",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-04-11",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 144
     },
     {

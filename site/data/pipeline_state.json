@@ -1,39 +1,37 @@
 {
-  "generated_at": "2026-04-10T05:09:08.709766",
-  "last_updated": "2026-04-10T05:09:08.709766",
-  "last_pipeline_run": "2026-04-10T05:09:08.709766",
+  "generated_at": "2026-04-10T22:07:17.863164",
+  "last_updated": "2026-04-10T22:07:17.863164",
+  "last_pipeline_run": "2026-04-10T22:07:17.863164",
   "main_page": {
     "overton": 8,
     "insights": 8,
-    "pundits": 20
+    "pundits": 89
   },
   "counts": {
     "ticker_mentions": 161,
-    "podcast_episodes": 124,
+    "podcast_episodes": 125,
     "newsletters": 7,
     "daily_scores": 99,
     "overton_terms_total": 16,
-    "latest_insights_total": 138,
-    "today_mentions": {
-      "podcast": 7
-    },
-    "podcasts_analyzed": 2
+    "latest_insights_total": 139,
+    "today_mentions": {},
+    "podcasts_analyzed": 3
   },
   "step_results": {
-    "downloaded": 2,
-    "transcribed": 2,
-    "analyzed": 2,
-    "insight_created": 2,
-    "published": 2,
-    "total": 4
+    "downloaded": 1,
+    "transcribed": 1,
+    "analyzed": 1,
+    "insight_created": 1,
+    "published": 1,
+    "total": 3
   },
   "episodes": [
     {
-      "id": "b96abfce-33cc-11f1-8c6d-432a1052e366",
-      "podcast": "Monetary Matters with Jack Farley",
-      "title": "\"The Best Time to Invest\": How AI Disruption is Reshaping Software Valuations | Ben Topor | Titan Capital Partners",
-      "published": "2026-04-09",
-      "rss_guid": "b96abfce-33cc-11f1-8c6d-432a1052e366",
+      "id": "ec590915-7051-45fb-8ba6-e827fe358b8b",
+      "podcast": "The a16z Show",
+      "title": "What Running Windows at Microsoft Taught Steven Sinofsky About Apple",
+      "published": "2026-04-10",
+      "rss_guid": "ec590915-7051-45fb-8ba6-e827fe358b8b",
       "stages": {
         "downloaded": true,
         "transcribed": true,
@@ -43,28 +41,6 @@
       },
       "stage_reasons": {},
       "status": "complete"
-    },
-    {
-      "id": "ec590915-7051-45fb-8ba6-e827fe358b8b",
-      "podcast": "The a16z Show",
-      "title": "What Running Windows at Microsoft Taught Steven Sinofsky About Apple",
-      "published": "2026-04-10",
-      "rss_guid": "ec590915-7051-45fb-8ba6-e827fe358b8b",
-      "stages": {
-        "downloaded": false,
-        "transcribed": false,
-        "analyzed": false,
-        "insight_created": false,
-        "published": false
-      },
-      "stage_reasons": {
-        "downloaded": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "transcribed": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "analyzed": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "insight_created": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
-      },
-      "status": "needs_download"
     },
     {
       "id": "d8e62120-c865-428e-b1c2-1d965406f293",
@@ -89,27 +65,33 @@
       "status": "needs_download"
     },
     {
-      "id": "macrovoices.podbean.com/bd591f3f-ee0f-3f96-a209-8f809346c1a6",
-      "podcast": "Macro Voices",
-      "title": "MacroVoices #527 Adam Rozencwajg: What Comes Next After The Iran Crisis",
-      "published": "2026-04-09",
-      "rss_guid": "macrovoices.podbean.com/bd591f3f-ee0f-3f96-a209-8f809346c1a6",
+      "id": "f1ea8b73-bd46-4e52-b187-cc8462694399",
+      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "title": "Anthropic's $30B Ramp, Mythos Doomsday, OpenClaw Ankled, Iran War Ceasefire, Israel's Influence",
+      "published": "2026-04-10",
+      "rss_guid": "f1ea8b73-bd46-4e52-b187-cc8462694399",
       "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
+        "downloaded": false,
+        "transcribed": false,
+        "analyzed": false,
+        "insight_created": false,
+        "published": false
       },
-      "stage_reasons": {},
-      "status": "complete"
+      "stage_reasons": {
+        "downloaded": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "transcribed": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "analyzed": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "insight_created": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
+      },
+      "status": "needs_download"
     }
   ],
   "available_from_rss": [
     {
-      "podcast": "The a16z Show",
-      "title": "What Running Windows at Microsoft Taught Steven Sinofsky About Apple",
-      "published": "Fri, 10 Apr 2026 10:00:00 +0000",
+      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "title": "Anthropic's $30B Ramp, Mythos Doomsday, OpenClaw Ankled, Iran War Ceasefire, Israel's Influence",
+      "published": "Fri, 10 Apr 2026 22:17:00 +0000",
       "published_date": "2026-04-10",
       "rss_guid": ""
     },

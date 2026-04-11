@@ -383,7 +383,7 @@ def generate_contract(
 ) -> Dict[str, Any]:
     system = """You are the editorial brain for a weekly investor debate show.
 Return ONLY valid JSON with keys:
-  "prompt": string — one clear Yes/No question, falsifiable within ~42 days, no single-stock tickers (no AAPL, NVDA, etc.); themes like AI, rates, labor, policy, macro, crypto OK.
+  "prompt": string — one clear Yes/No question, falsifiable within ~42 days, no single-stock tickers (no AAPL, NVDA, etc.); themes like AI, rates, labor, policy, macro, crypto OK. Phrase the time window as **within the next 42 days** — do not use "by the end of the next 42 days".
   "expires_rule": string — human-readable e.g. "Resolves Friday 12:00 PM CST YYYY-MM-DD" (pick date = contract Friday + 42 days). Use the CURRENT calendar year from context.
   "crux_theme": short label for the substance (e.g. "AI labor", "rates path").
   "resolution_clarity": { "source_of_truth": string, "resolution_sources": [string], "resolution_criteria": [string] } — concrete enough to settle the bet (feeds, agencies, official data), not vague.
@@ -654,11 +654,47 @@ def run_tts(
     return meta
 
 
+def _pundit_snapshot_for_contract(p: Optional[Dict[str, Any]]) -> Dict[str, Any]:
+    """Embed public pundit fields at generation time so debait.html still renders bios if names later fall out of top-N export."""
+    if not p or not isinstance(p, dict):
+        return {}
+    out: Dict[str, Any] = {}
+    for key in (
+        "name",
+        "known_for",
+        "bio",
+        "last_main_idea",
+        "last_podcast_name",
+        "last_episode_date",
+    ):
+        v = p.get(key)
+        if isinstance(v, str) and v.strip():
+            out[key] = v.strip()
+    nw = p.get("net_worth")
+    if isinstance(nw, str) and nw.strip():
+        out["net_worth"] = nw.strip()
+    else:
+        nwu = p.get("net_worth_usd")
+        if isinstance(nwu, (int, float)) and nwu > 0:
+            if nwu >= 1_000_000_000:
+                out["net_worth"] = f"${nwu / 1_000_000_000:.2f}B"
+            elif nwu >= 1_000_000:
+                out["net_worth"] = f"${nwu / 1_000_000:.1f}M"
+            else:
+                out["net_worth"] = f"${nwu:,.0f}"
+    prof = p.get("pundit_profile")
+    if isinstance(prof, dict) and prof:
+        out["pundit_profile"] = prof
+    return out
+
+
 def public_contract(
     base: Dict[str, Any],
     friday: str,
     name_a: str,
     name_b: str,
+    p_a: Optional[Dict[str, Any]] = None,
+    p_b: Optional[Dict[str, Any]] = None,
 ) -> Dict[str, Any]:
     out = {k: v for k, v in base.items() if not str(k).startswith("script_")}
     out["friday_iso"] = friday
@@ -668,6 +704,12 @@ def public_contract(
     out["generated_at"] = datetime.now().isoformat()
     out["bet_status"] = "open"
     out["audio_href"] = "./audio/emp_ai_the_debate_11labs.mp3"
+    sa = _pundit_snapshot_for_contract(p_a)
+    sb = _pundit_snapshot_for_contract(p_b)
+    if sa:
+        out["debater_a_snapshot"] = sa
+    if sb:
+        out["debater_b_snapshot"] = sb
     return out
 
 
@@ -732,13 +774,12 @@ def _enforce_contract_resolution_dates(contract: Dict[str, Any], friday_iso: str
             rc["resolution_criteria"] = new_criteria
         contract["resolution_clarity"] = rc
 
-    # contract prompt: normalize any "by ..." anchor to the deterministic resolution_date.
+    # contract prompt: keep "within the next 42 days" wording; normalize calendar anchors to resolution date.
     prompt = contract.get("prompt")
     if isinstance(prompt, str):
-        # Handle common phrasings that omit the exact day.
         prompt = re.sub(
-            r"\bwithin\s+the\s+next\s+\d+\s+days\b",
-            f"by {date_long}",
+            r"\bby\s+the\s+end\s+of\s+the\s+next\s+(\d+)\s+days\b",
+            r"within the next \1 days",
             prompt,
             flags=re.IGNORECASE,
         )
@@ -969,7 +1010,7 @@ def main() -> int:
             archive_current_week(history_next, arch)
 
     prompt_hash = hashlib.sha256(contract_core["prompt"].encode("utf-8")).hexdigest()[:16]
-    full_public = public_contract(contract_core, friday, name_a, name_b)
+    full_public = public_contract(contract_core, friday, name_a, name_b, p_a, p_b)
     full_public["prompt_hash"] = prompt_hash
     SITE_AUDIO.mkdir(parents=True, exist_ok=True)
 

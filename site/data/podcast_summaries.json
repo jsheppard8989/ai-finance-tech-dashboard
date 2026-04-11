@@ -1,5 +1,25 @@
 [
   {
+    "id": 150,
+    "podcast_name": "The a16z Show",
+    "episode_title": "What Running Windows at Microsoft Taught Steven Sinofsky About Apple",
+    "episode_date": "2026-04-10",
+    "summary": "In this episode of the a16z Show, Steven Sinofsky, former president of the Windows Division at Microsoft and board partner at a16z, discusses the cultural and strategic differences between Apple and Microsoft. Sinofsky highlights the contrasting approaches to product development and market strategy, with Apple focusing on design and user experience, while Microsoft emphasizes technological solutions and enterprise compatibility. The conversation also touches on the impact of these differences on the companies' products and market positions, as well as the potential implications for future innovation and competition.",
+    "key_takeaways": [
+      "Apple and Microsoft have fundamentally different corporate cultures, with Apple being artist-driven and Microsoft being technologist-driven.",
+      "Microsoft's strength in enterprise is due to the legendary compatibility of Windows, a key value for corporations.",
+      "The Surface hardware was the only Microsoft product that Apple paid significant attention to, indicating high praise from Apple.",
+      "Gaming has been a significant market segment where Microsoft has held an advantage over Apple, largely due to DirectX APIs and the modding community.",
+      "AI compute on devices is a new battleground, with implications for both Microsoft and Apple in terms of hardware and software capabilities.",
+      "Design and user experience have been key differentiators for Apple, with aesthetic choices often driven by the capabilities of the underlying hardware."
+    ],
+    "investment_thesis": "Investing in companies with a strong cultural identity and clear strategic focus can provide an edge in technology markets, as demonstrated by the contrasting paths of Apple and Microsoft.",
+    "key_tickers": [
+      "AAPL",
+      "MSFT"
+    ]
+  },
+  {
     "id": 149,
     "podcast_name": "Monetary Matters with Jack Farley",
     "episode_title": "\"The Best Time to Invest\": How AI Disruption is Reshaping Software Valuations | Ben Topor | Titan Capital Partners",

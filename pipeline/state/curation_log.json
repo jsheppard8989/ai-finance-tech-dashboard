@@ -1,21 +1,8 @@
 {
-  "timestamp": "2026-04-10T05:03:28.987840",
-  "total_feed_episodes": 4,
-  "approved_for_transcription": 4,
+  "timestamp": "2026-04-10T22:04:49.215427",
+  "total_feed_episodes": 3,
+  "approved_for_transcription": 3,
   "episodes": [
-    {
-      "podcast": "Monetary Matters with Jack Farley",
-      "title": "\"The Best Time to Invest\": How AI Disruption is Reshaping Software Valuations | Ben Topor | Titan Capital Partners",
-      "description": "\n        <p>This episode is sponsored by Pictet Asset Management and its AI-enhanced equity ETFs. </p>\n<p><br></p>\n<p>Pictet AI Enhanced US Equity ETF (PQUS):</p>\n<p> https://etf.am.pictet.com/pqus/?utm_campaign=usetf&amp;cid=2826077237&amp;utm_source=jfmv&amp;utm_content=pquslp&amp;utm_medium=podcast_02&amp;utm_term=noterm </p>\n<p><br></p>\n<p>Pictet AI Enhanced International Equity ETF (PQNT):</p>\n<p> https://etf.am.pictet.com/pqnt/?utm_campaign=usetf&amp;cid=2715538577&amp;utm_source=jfmv&amp;",
-      "audio_url": "https://traffic.megaphone.fm/EWWMN9186516490.mp3",
-      "published": "Thu, 09 Apr 2026 13:00:00 -0000",
-      "published_date": "2026-04-09",
-      "rss_guid": "b96abfce-33cc-11f1-8c6d-432a1052e366",
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/EWWMN9186516490.mp3",
-      "filename": "EWWMN9186516490.mp3",
-      "status": "APPROVED",
-      "matched_keywords": []
-    },
     {
       "podcast": "The a16z Show",
       "title": "What Running Windows at Microsoft Taught Steven Sinofsky About Apple",
@@ -43,17 +30,17 @@
       "filename": "the_a16z_show_the_agent_era__building_software_beyond_chat_with_box_ceo_aa_c035a9af.mp3"
     },
     {
-      "podcast": "Macro Voices",
-      "title": "MacroVoices #527 Adam Rozencwajg: What Comes Next After The Iran Crisis",
-      "description": "<p class=\"p1\">MacroVoices Erik Townsend &amp; Patrick Ceresna welcome, Adam Rozencwajg. They discuss, crude oil, food &amp; fertilisers, uranium, and gold after the Iran conflict. <a href='https://bit.ly/4vkd1XX'>https://bit.ly/4vkd1XX</a>\u00a0</p>\n<p class=\"p2\">\u00a0</p>\n<p class=\"p1\">\u00a0\ud83d\udd3bDownload Big Picture Trading Chartbook \ud83d\udcc8\ud83d\udcc9: <a href='https://bit.ly/48BZgtX'>https://bit.ly/48BZgtX</a></p>\n<p class=\"p2\">\u00a0</p>\n<p class=\"p1\">\u2705Sign up for a FREE 14-day trial at Big Picture Trading: <a href='https://bit.",
-      "audio_url": "https://dts.podtrac.com/redirect.mp3/mcdn.podbean.com/mf/web/x8nfzn2dd37pdvix/MacroVoices-2026-04-09-Adam-Rozencwajg.mp3",
-      "published": "Thu, 09 Apr 2026 11:34:09 -0500",
-      "published_date": "2026-04-09",
-      "rss_guid": "macrovoices.podbean.com/bd591f3f-ee0f-3f96-a209-8f809346c1a6",
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/MacroVoices-2026-04-09-Adam-Rozencwajg.mp3",
-      "filename": "MacroVoices-2026-04-09-Adam-Rozencwajg.mp3",
+      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "title": "Anthropic's $30B Ramp, Mythos Doomsday, OpenClaw Ankled, Iran War Ceasefire, Israel's Influence",
+      "description": "<p>(0:00) Bestie intros: Brad Gerstner joins the show!</p> <p>(4:22) Anthropic blocks Mythos release for security concerns: serious or marketing stunt?</p> <p>(24:07) Are OpenAI and Anthropic trying to kill OpenClaw? Does Anthropic already have market dominance in AI coding?</p> <p>(42:20) Anthropic $30B run rate, fastest revenue ramp ever, the TAM for intelligence</p> <p>(58:01) Major vibe shift: Anthropic ripping, OpenAI reeling</p> <p>(1:10:12) Iran War: Ceasefire, Israel's influence, market ",
+      "audio_url": "https://dts.podtrac.com/redirect.mp3/traffic.libsyn.com/secure/allinchamathjason/ALLIN-E268_Ch.mp3?dest-id=1928300",
+      "published": "Fri, 10 Apr 2026 22:17:00 +0000",
+      "published_date": "2026-04-10",
+      "rss_guid": "f1ea8b73-bd46-4e52-b187-cc8462694399",
       "status": "APPROVED",
-      "matched_keywords": []
+      "matched_keywords": [],
+      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/all_in_with_chamath__jason__sacks___frie_anthropic_s__30b_ramp__mythos_doomsday__openclaw_ankled__ira_1e61a313.mp3",
+      "filename": "all_in_with_chamath__jason__sacks___frie_anthropic_s__30b_ramp__mythos_doomsday__openclaw_ankled__ira_1e61a313.mp3"
     }
   ]
 }

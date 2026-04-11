@@ -38,6 +38,14 @@ function parseSiteDateForSort(isoOrStr) {
  * Shared script for index.html and archive.html.
  * Provides generateDeepDiveHTML(dd) for Deep Dive modal content.
  */
+function escapeDeepDiveText(s) {
+  if (s == null || s === '') return '';
+  return String(s)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;');
+}
+
 function generateDeepDiveHTML(dd) {
   if (!dd) return '';
   var sections = [];
@@ -47,6 +55,28 @@ function generateDeepDiveHTML(dd) {
       '<div style="margin-bottom: 2rem; padding: 1.25rem; background: rgba(0,212,255,0.05); border-left: 3px solid #00d4ff; border-radius: 8px;">' +
       '<h4 style="color: #00d4ff; margin-bottom: 0.75rem; font-size: 1.1rem;">📋 Overview</h4>' +
       '<p style="color: #e8e8e8; line-height: 1.7; font-size: 0.95rem;">' + dd.overview + '</p></div>'
+    );
+  }
+
+  var ev = (dd.episode_evidence || '').trim();
+  if (ev) {
+    sections.push(
+      '<div style="margin-bottom: 2rem; padding: 1.25rem; background: rgba(15,52,96,0.45); border: 1px solid rgba(0,212,255,0.25); border-radius: 8px;">' +
+      '<h4 style="color: #00d4ff; margin-bottom: 0.75rem; font-size: 1.1rem;">🎙️ Evidence from the source</h4>' +
+      '<div style="color: #e8e8e8; line-height: 1.75; font-size: 0.92rem; white-space: pre-wrap;">' + escapeDeepDiveText(ev) + '</div></div>'
+    );
+  }
+
+  var fals = dd.falsification_tracks;
+  if (Array.isArray(fals) && fals.length > 0) {
+    var falsHtml = fals.map(function(line) {
+      return '<li style="margin-bottom: 0.5rem; line-height: 1.6; color: #e8e8e8;">' + escapeDeepDiveText(line) + '</li>';
+    }).join('');
+    sections.push(
+      '<div style="margin-bottom: 2rem; padding: 1.25rem; background: rgba(251,191,36,0.06); border: 1px solid rgba(251,191,36,0.25); border-radius: 8px;">' +
+      '<h4 style="color: #fbbf24; margin-bottom: 0.75rem; font-size: 1.1rem;">🔭 What would change our view</h4>' +
+      '<p style="color: #9ca3af; font-size: 0.82rem; margin: 0 0 0.6rem;">Concrete signals that would weaken or flip the thesis — not generic risk.</p>' +
+      '<ul style="padding-left: 1.5rem; margin: 0;">' + falsHtml + '</ul></div>'
     );
   }
 

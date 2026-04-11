@@ -1,49 +1,6 @@
 {
-  "last_updated": "2026-04-10T05:09:08.830493",
+  "last_updated": "2026-04-10T22:07:17.967075",
   "episodes": {
-    "monetary_matters_with_jack_farley_\"the_best_time_to_invest\":_how": {
-      "info": {
-        "podcast": "Monetary Matters with Jack Farley",
-        "title": "\"The Best Time to Invest\": How AI Disruption is Reshaping Software Valuations | Ben Topor | Titan Capital Partners",
-        "published": "2026-04-09",
-        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/EWWMN9186516490.mp3",
-        "keywords": [],
-        "rss_guid": "b96abfce-33cc-11f1-8c6d-432a1052e366"
-      },
-      "stages": {
-        "downloaded": {
-          "complete": true,
-          "timestamp": null,
-          "reason": null
-        },
-        "transcribed": {
-          "complete": true,
-          "file": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/EWWMN9186516490.txt",
-          "timestamp": null,
-          "reason": null
-        },
-        "analyzed": {
-          "complete": true,
-          "episode_id": 149,
-          "timestamp": null,
-          "reason": null
-        },
-        "insight_created": {
-          "complete": true,
-          "insight_id": 26,
-          "insight_title": "Milton Berg: Rare Signal \u2014 Local Bottom or Major Top Ahead",
-          "timestamp": null,
-          "reason": null
-        },
-        "published": {
-          "complete": false,
-          "timestamp": null,
-          "reason": "Not in data.js yet (run export and push to site)."
-        }
-      },
-      "first_seen": "2026-04-10T05:09:08.713437",
-      "status": "needs_export"
-    },
     "the_a16z_show_what_running_windows_at_micros": {
       "info": {
         "podcast": "The a16z Show",
@@ -60,21 +17,23 @@
           "reason": null
         },
         "transcribed": {
-          "complete": false,
-          "file": null,
+          "complete": true,
+          "file": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/the_a16z_show_20260410_ec590915_7051_45fb_8ba6_e827fe35.txt",
           "timestamp": null,
-          "reason": "Waiting for fetch/transcribe step"
+          "reason": null
         },
         "analyzed": {
-          "complete": false,
-          "episode_id": null,
+          "complete": true,
+          "episode_id": 150,
           "timestamp": null,
-          "reason": "Waiting for next analyze run (transcript \u2192 DB)."
+          "reason": null
         },
         "insight_created": {
-          "complete": false,
+          "complete": true,
+          "insight_id": 50,
+          "insight_title": "The a16z Show: New Media Strategy and Investment Insights",
           "timestamp": null,
-          "reason": "Depends on analyze step first."
+          "reason": null
         },
         "published": {
           "complete": false,
@@ -82,8 +41,8 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-04-10T05:09:08.742468",
-      "status": "needs_transcription"
+      "first_seen": "2026-04-10T22:07:17.866618",
+      "status": "needs_export"
     },
     "the_a16z_show_the_agent_era:_building_softwa": {
       "info": {
@@ -123,17 +82,17 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-04-10T05:09:08.810798",
+      "first_seen": "2026-04-10T22:07:17.882235",
       "status": "needs_analysis"
     },
-    "macro_voices_macrovoices_#527_adam_rozencwa": {
+    "all-in_with_chamath,_jason,_sacks_&_friedberg_anthropic's_$30b_ramp,_mythos_": {
       "info": {
-        "podcast": "Macro Voices",
-        "title": "MacroVoices #527 Adam Rozencwajg: What Comes Next After The Iran Crisis",
-        "published": "2026-04-09",
-        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/MacroVoices-2026-04-09-Adam-Rozencwajg.mp3",
+        "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+        "title": "Anthropic's $30B Ramp, Mythos Doomsday, OpenClaw Ankled, Iran War Ceasefire, Israel's Influence",
+        "published": "2026-04-10",
+        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/all_in_with_chamath__jason__sacks___frie_anthropic_s__30b_ramp__mythos_doomsday__openclaw_ankled__ira_1e61a313.mp3",
         "keywords": [],
-        "rss_guid": "macrovoices.podbean.com/bd591f3f-ee0f-3f96-a209-8f809346c1a6"
+        "rss_guid": "f1ea8b73-bd46-4e52-b187-cc8462694399"
       },
       "stages": {
         "downloaded": {
@@ -142,23 +101,21 @@
           "reason": null
         },
         "transcribed": {
-          "complete": true,
-          "file": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/MacroVoices-2026-04-09-Adam-Rozencwajg.txt",
+          "complete": false,
+          "file": null,
           "timestamp": null,
-          "reason": null
+          "reason": "Waiting for fetch/transcribe step"
         },
         "analyzed": {
-          "complete": true,
-          "episode_id": 148,
+          "complete": false,
+          "episode_id": null,
           "timestamp": null,
-          "reason": null
+          "reason": "Waiting for next analyze run (transcript \u2192 DB)."
         },
         "insight_created": {
-          "complete": true,
-          "insight_id": 58,
-          "insight_title": "The Future of Advanced Nuclear Energy and its Impact on Markets",
+          "complete": false,
           "timestamp": null,
-          "reason": null
+          "reason": "Depends on analyze step first."
         },
         "published": {
           "complete": false,
@@ -166,8 +123,8 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-04-10T05:09:08.821407",
-      "status": "needs_export"
+      "first_seen": "2026-04-10T22:07:17.901654",
+      "status": "needs_transcription"
     }
   }
 }

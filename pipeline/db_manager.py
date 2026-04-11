@@ -461,7 +461,8 @@ class DashboardDB:
         with open(output_dir / 'podcast_guests.json', 'w') as f:
             json.dump(guests, f, indent=2, default=str)
 
-        # Export pundits from semantic layer: people with guest_primary appearances + last episode / main idea
+        # Export pundits from semantic layer: people with guest_primary appearances + last episode / main idea.
+        # Full roster goes to pundits.json / data.js; index.html shows top 20 by slice; archive.html lists all.
         with self._get_connection() as conn:
             cursor = conn.execute(
                 """
@@ -505,7 +506,6 @@ class DashboardDB:
                 LEFT JOIN podcast_episodes pe ON pe.id = a.source_id
                 WHERE e.type = 'person'
                 ORDER BY agg.appearance_count DESC, a.created_at DESC
-                LIMIT 20
                 """
             )
             rows = [dict(row) for row in cursor.fetchall()]
@@ -876,7 +876,7 @@ class DashboardDB:
             
             # Parse JSON fields
             for field in ['key_takeaways_detailed', 'ticker_analysis', 'risk_factors', 
-                         'contrarian_signals', 'catalysts', 'related_insights']:
+                         'contrarian_signals', 'catalysts', 'related_insights', 'falsification_tracks']:
                 if content.get(field):
                     try:
                         content[field] = json.loads(content[field])
@@ -902,7 +902,7 @@ class DashboardDB:
                 
                 # Parse JSON fields
                 for field in ['key_takeaways_detailed', 'ticker_analysis', 'risk_factors',
-                             'contrarian_signals', 'catalysts', 'related_insights']:
+                             'contrarian_signals', 'catalysts', 'related_insights', 'falsification_tracks']:
                     if content.get(field):
                         try:
                             content[field] = json.loads(content[field])

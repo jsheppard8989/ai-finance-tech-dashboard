@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Fully automated pipeline - no approval step needed.
-Runs end-to-end: fetch → transcribe → analyze → export → push to GitHub.
+Runs end-to-end: fetch → transcribe → analyze → export → (Fridays CST: weekly debate) → push to GitHub.
 Sends a summary notification after completion.
 
 Fetch step uses --queue-only: new episodes are enqueued to whisper_queue/ and
@@ -666,6 +666,28 @@ def export_website():
     return True
 
 
+def _is_friday_america_chicago() -> bool:
+    """True if local date is Friday in America/Chicago (matches debate_weekly.friday_iso_cst)."""
+    try:
+        from zoneinfo import ZoneInfo
+
+        tz = ZoneInfo("America/Chicago")
+        return datetime.now(tz).weekday() == 4
+    except Exception:
+        return datetime.now().weekday() == 4
+
+
+def maybe_run_weekly_debate_after_export() -> bool:
+    """
+    debate_weekly.py reads site/data/pundits.json (written by export). Run only on Fridays CST.
+    If the contract is already current for this Friday, debate_weekly exits quickly.
+    Failures are non-fatal for the rest of the pipeline (site data still pushes).
+    """
+    if not _is_friday_america_chicago():
+        return True
+    return run_script("Weekly Debate", "debate_weekly.py", timeout=7200)
+
+
 def git_push(commit_msg: str) -> bool:
     """Commit and push changes to GitHub. On failure, log stderr and send notification.
     If GITHUB_PUSH_TOKEN is set in workspace .env, uses it for push (so cron can push without keychain).
@@ -854,7 +876,11 @@ def main():
         run_script("Auto-Curate Terms", "auto_curate_terms.py", timeout=60)
         run_script("Extract Podcast Guests", "extract_guests.py", timeout=180)
 
-        export_website()
+        if not export_website():
+            errors.append("export")
+        else:
+            if not maybe_run_weekly_debate_after_export():
+                errors.append("weekly_debate")
 
         # Build commit message
         ts = datetime.now().strftime("%Y-%m-%d %H:%M")

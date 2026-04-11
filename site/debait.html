@@ -265,6 +265,27 @@
       padding: 0.5rem 0.65rem;
       display: none;
     }
+    details.pundit-expand {
+      margin-top: 0.55rem;
+      font-size: 0.82rem;
+      color: #a8b2d1;
+    }
+    details.pundit-expand summary {
+      cursor: pointer;
+      color: #00d4ff;
+      font-weight: 600;
+      list-style: none;
+    }
+    details.pundit-expand summary::-webkit-details-marker { display: none; }
+    .pundit-expand-body {
+      margin-top: 0.45rem;
+      padding: 0.5rem 0.55rem;
+      background: rgba(0,0,0,0.25);
+      border-radius: 8px;
+      border: 1px solid rgba(255,255,255,0.08);
+      line-height: 1.45;
+      color: #cbd5f5;
+    }
   </style>
 </head>
 <body>
@@ -398,6 +419,43 @@
         return { name: name || 'Debater', known_for: '', bio: '', last_main_idea: '', mention_score: 0, mention_score_decayed: 0 };
       }
 
+      /** Merge embedded contract snapshot (from debate generation) over list/stub data. */
+      function applyDebaterSnapshot(base, snap) {
+        if (!snap || typeof snap !== 'object') return base;
+        var o = Object.assign({}, base || punditStub(''));
+        ['known_for', 'bio', 'last_main_idea', 'last_podcast_name', 'last_episode_date', 'net_worth'].forEach(function(k) {
+          if (snap[k]) o[k] = snap[k];
+        });
+        if (snap.pundit_profile && typeof snap.pundit_profile === 'object') {
+          o.pundit_profile = snap.pundit_profile;
+        }
+        if (snap.name) o.name = snap.name;
+        return o;
+      }
+
+      async function getPunditLookupList() {
+        var list = getFilteredPundits();
+        if (typeof fetch !== 'function') return list;
+        try {
+          var resp = await fetch('./data/pundits.json?v=' + Date.now(), { cache: 'no-cache' });
+          if (!resp.ok) return list;
+          var j = await resp.json();
+          if (!Array.isArray(j) || !j.length) return list;
+          var seen = {};
+          list.forEach(function(p) {
+            seen[(p.name || '').trim().toLowerCase()] = true;
+          });
+          j.forEach(function(p) {
+            var k = (p.name || '').trim().toLowerCase();
+            if (k && !seen[k]) {
+              seen[k] = true;
+              list.push(p);
+            }
+          });
+        } catch (e) {}
+        return list;
+      }
+
       function getFilteredPundits() {
         let pundits = Array.isArray(data && data.pundits) ? data.pundits : [];
         if (pundits.length === 0 && Array.isArray(data && data.podcastGuests)) {
@@ -445,6 +503,22 @@
         const whyText = whyBits.join('; ');
         const whatText = idea || 'Latest thesis not yet extracted from transcripts.';
         const thesis = whatText ? `<div class="last-thesis">“${whatText}”</div>` : '';
+        var expandBlock = '';
+        var prof = p.pundit_profile;
+        if (prof && typeof prof === 'object') {
+          var cliff = (prof.cliff_notes || '').trim();
+          var leads = Array.isArray(prof.lead_paragraphs) ? prof.lead_paragraphs.slice(0, 2).map(function(x) { return String(x || '').trim(); }).filter(Boolean) : [];
+          var leadTxt = leads.length ? leads.join('\n\n') : '';
+          if (cliff || leadTxt) {
+            expandBlock =
+              '<details class="pundit-expand">' +
+              '<summary>Background &amp; profile</summary>' +
+              '<div class="pundit-expand-body">' +
+              (cliff ? '<p style="margin:0 0 0.5rem;">' + esc(cliff) + '</p>' : '') +
+              (leadTxt ? '<p style="margin:0;">' + esc(leadTxt) + '</p>' : '') +
+              '</div></details>';
+          }
+        }
         return (
           '<div class="pundit-card">' +
             '<div class="debater-pill ' + pillClass + '">' + esc(pillText) + '</div>' +
@@ -461,6 +535,7 @@
               '<div class="latest-arena">' + (whyText || '') + '</div>' +
             '</div>' +
             thesis +
+            expandBlock +
           '</div>'
         );
       }
@@ -498,7 +573,7 @@
       }
 
       async function initDebate() {
-        const filtered = getFilteredPundits();
+        const filtered = await getPunditLookupList();
 
         const qEl = document.getElementById('debate-question');
         const metaEl = document.getElementById('debate-meta');
@@ -621,6 +696,12 @@
         let pNo = nameB ? findPunditByName(nameB, filtered) : null;
         if (!pYes && nameA) pYes = punditStub(nameA);
         if (!pNo && nameB) pNo = punditStub(nameB);
+        if (contract && contract.debater_a_snapshot) {
+          pYes = applyDebaterSnapshot(pYes || punditStub(nameA), contract.debater_a_snapshot);
+        }
+        if (contract && contract.debater_b_snapshot) {
+          pNo = applyDebaterSnapshot(pNo || punditStub(nameB), contract.debater_b_snapshot);
+        }
         if (!pYes && filtered[0]) pYes = filtered[0];
         if (!pNo && filtered[1]) pNo = filtered[1];
         if (!pYes && !pNo) {
