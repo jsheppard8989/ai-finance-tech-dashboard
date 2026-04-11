@@ -3,7 +3,7 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-04-10T22:07:20.771350",
+  generatedAt: "2026-04-11T05:05:05.901397",
   chartsVersion: "2026-04-01T15:16:59.801570",
   tickerScores: [
   {
@@ -780,6 +780,29 @@ const dashboardData = {
       "podcast_episode_id": 150
     },
     {
+      "id": 166,
+      "title": "Anthropic's $30B Ramp, Mythos Doomsday, OpenClaw Ankled, Iran War Ceasefire, Israel's Influence",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-04-10",
+      "summary": "In this episode of 'All-In with Chamath, Jason, Sacks & Friedberg', the hosts discuss the rapid growth of AI technologies, particularly focusing on the enterprise adoption of these technologies. They highlight the exponential growth in revenue for companies operating in the AI space, emphasizing the shift from IT budget considerations to labor augmentation and replacement. The discussion also touches on the impact of AI on employment, with the hosts suggesting that while AI may lead to the creation of new jobs, it also enables companies to do more with less, potentially reducing the number of existing jobs.",
+      "key_takeaway": "Invest in AI companies that are leading the charge in enterprise adoption, as they are positioned to benefit from the exponential growth in revenue and the shift towards labor augmentation and replacement.",
+      "tickers_mentioned": [
+        "GOOGL",
+        "MSFT",
+        "AMZN",
+        "IBM",
+        "TSLA"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-11",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 151
+    },
+    {
       "id": 161,
       "title": "Who Controls AI Acceleration? Vitalik Buterin and Guillaume Verdon Debate",
       "source_type": "podcast",
@@ -972,11 +995,11 @@ const dashboardData = {
         "PQUS"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-04-08",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-04-11",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 143
     },
     {
@@ -3944,6 +3967,26 @@ const dashboardData = {
       ]
     },
     {
+      "id": 166,
+      "title": "Anthropic's $30B Ramp, Mythos Doomsday, OpenClaw Ankled, Iran War Ceasefire, Israel's Influence",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-04-10",
+      "summary": "In this episode of 'All-In with Chamath, Jason, Sacks & Friedberg', the hosts discuss the rapid growth of AI technologies, particularly focusing on the enterprise adoption of these technologies. They highlight the exponential growth in revenue for companies operating in the AI space, emphasizing the shift from IT budget considerations to labor augmentation and replacement. The discussion also touches on the impact of AI on employment, with the hosts suggesting that while AI may lead to the creation of new jobs, it also enables companies to do more with less, potentially reducing the number of existing jobs.",
+      "key_takeaway": "Invest in AI companies that are leading the charge in enterprise adoption, as they are positioned to benefit from the exponential growth in revenue and the shift towards labor augmentation and replacement.",
+      "tickers_mentioned": "[\"GOOGL\", \"MSFT\", \"AMZN\", \"IBM\", \"TSLA\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-11",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 151,
+      "episode_release_date": "2026-04-10",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 161,
       "title": "Who Controls AI Acceleration? Vitalik Buterin and Guillaume Verdon Debate",
       "source_type": "podcast",
@@ -4053,29 +4096,6 @@ const dashboardData = {
       "episode_release_date": "2026-04-08",
       "guest_name": null,
       "key_tickers": []
-    },
-    {
-      "id": 158,
-      "title": "Why Emerging Markets are Finally Outperforming Developed Markets | Robert Koenigsberger | Gramercy",
-      "source_type": "podcast",
-      "source_name": "Monetary Matters with Jack Farley",
-      "source_date": "2026-04-07",
-      "summary": "In this episode of 'Other People's Money', host Jack Farley interviews Robert Conexberger, CIO and founder of Grammar C, a multi-billion dollar emerging markets alternative investment manager. They discuss the evolution of emerging markets from the 1980s to today, the recent outperformance of emerging market equities, and the differences in tone between the equity and debt markets. Conexberger shares his insights on finding asymmetry in the China property sector and the importance of primary research in identifying attractive investment opportunities.",
-      "key_takeaway": "Investing in select few names within the China property sector can offer significant potential for value appreciation, given the right conditions and primary research.",
-      "tickers_mentioned": "[\"PQNT\", \"PQUS\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-04-08",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 143,
-      "episode_release_date": "2026-04-07",
-      "guest_name": null,
-      "key_tickers": [
-        "PQNT",
-        "PQUS"
-      ]
     },
     {
       "id": 159,
@@ -13930,9 +13950,110 @@ const dashboardData = {
       "AAPL",
       "MSFT"
     ]
+  },
+  "166": {
+    "id": 157,
+    "insight_id": 166,
+    "podcast_episode_id": 151,
+    "overview": "The rapid advancement of AI technologies is at the forefront of the debate in this podcast episode, with a particular focus on how these technologies are being adopted within enterprises. The discussion underscores the transformative potential of AI in augmenting and replacing labor, which has significant implications for the job market and company valuations. The decision by Anthropic to withhold the release of their AI model due to security concerns adds a layer of complexity to the conversation, highlighting the need for responsible innovation in the face of potentially disruptive technologies.",
+    "key_takeaways_detailed": [
+      "AI companies experiencing rapid enterprise adoption are poised for significant revenue growth, offering investors substantial upside.",
+      "The potential for AI to both create new jobs and displace existing ones underscores the need for a nuanced view of AI's impact on employment.",
+      "Ethical considerations and the responsible deployment of AI are becoming increasingly important as these technologies become more powerful.",
+      "Investors should monitor the development of AI regulations, as they can significantly impact the growth and adoption of AI technologies."
+    ],
+    "investment_thesis": "Invest in leading AI companies that are driving enterprise adoption, as they are expected to benefit from the exponential growth in revenue due to labor augmentation and replacement. This thesis is based on the assumption that AI technologies will continue to advance rapidly and that enterprises will increasingly adopt these technologies to improve efficiency and reduce costs.",
+    "ticker_analysis": {
+      "GOOGL": {
+        "rationale": "Google is a key player in AI development with significant investments in AI research and applications.",
+        "positioning": "Long-term strategic position due to its broad AI capabilities and potential for enterprise adoption.",
+        "risk": "Regulatory risks could slow down AI development and adoption."
+      },
+      "MSFT": {
+        "rationale": "Microsoft has a strong presence in the enterprise market and is actively integrating AI into its products and services.",
+        "positioning": "Strategic long position, considering its potential to leverage AI for enterprise customers.",
+        "risk": "Competition from other tech giants could erode market share."
+      },
+      "AMZN": {
+        "rationale": "Amazon's cloud computing arm, AWS, is a significant player in providing AI-as-a-service to enterprises.",
+        "positioning": "Long-term strategic position due to its cloud infrastructure and AI services.",
+        "risk": "Increased competition in the cloud market could affect growth."
+      },
+      "IBM": {
+        "rationale": "IBM has a long history in AI research and offers AI solutions for enterprises.",
+        "positioning": "Tactical long position, as IBM's AI offerings could benefit from enterprise adoption.",
+        "risk": "Slower-than-expected AI adoption could impact revenue growth."
+      },
+      "TSLA": {
+        "rationale": "Tesla is at the forefront of AI applications in the automotive industry, particularly in autonomous driving technology.",
+        "positioning": "Strategic long position due to its potential to disrupt the automotive industry with AI.",
+        "risk": "Regulatory hurdles and technical challenges in autonomous driving could pose risks."
+      }
+    },
+    "positioning_guidance": "Investors should consider a diversified approach, allocating a portion of their portfolio to AI leaders across different sectors. The position should be sized based on the investor's risk tolerance and belief in the AI growth narrative. The time horizon for these investments should be medium to long-term, as the full impact of AI on enterprises may take time to materialize.",
+    "risk_factors": [
+      "Regulatory hurdles that could slow down AI development and adoption.",
+      "Ethical concerns and potential backlash against AI technologies.",
+      "Competition from new entrants or established players in the AI space.",
+      "Technological setbacks or failures that could damage the reputation of AI companies.",
+      "Economic downturns that could reduce IT spending by enterprises."
+    ],
+    "contrarian_signals": [
+      "A significant number of enterprises not adopting AI at the expected rate.",
+      "A lack of AI-driven job creation or even a net loss in jobs due to AI automation.",
+      "Public opinion turning against AI due to privacy or ethical concerns."
+    ],
+    "catalysts": [
+      "Major AI breakthroughs that accelerate enterprise adoption.",
+      "Positive regulatory developments that encourage AI innovation.",
+      "Successful AI implementations in key industries that serve as a model for other enterprises.",
+      "AI companies reporting strong revenue growth and profitability.",
+      "Increased investment by enterprises in AI solutions as part of their digital transformation strategies."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-04-11T05:04:30.217595",
+    "updated_at": "2026-04-11 10:04:30",
+    "episode_evidence": "The podcast episode delves into the implications of AI advancements, particularly focusing on enterprise adoption and the potential for AI to revolutionize labor dynamics. The hosts discuss the exponential growth in revenue for companies in the AI space, as highlighted by the statement, 'Invest in AI companies that are leading the charge in enterprise adoption, as they are positioned to benefit from the exponential growth in revenue and the shift towards labor augmentation and replacement.' They also touch on the ethical considerations of AI, as seen in the decision by Anthropic to withhold the release of their AI model, Mythos, due to its potential to cause havoc on the internet. Brad, an investor in the company, commends Anthropic's decision, stating, 'I actually think they deserve a ton of credit here and let me walk you through why.' The hosts also discuss the potential for AI to be used as an offensive weapon, raising questions about the balance between innovation and security.",
+    "falsification_tracks": [
+      "A significant slowdown in AI technology development that fails to meet the exponential growth would challenge the thesis.",
+      "A lack of new job creation in sectors leveraging AI, which would contradict the hosts' assertion that AI leads to new job formation.",
+      "If enterprise adoption of AI plateaus or declines, it would indicate a weaker market for AI companies.",
+      "Government regulations that significantly restrict the use of AI in labor augmentation and replacement could impede the growth of the AI market."
+    ],
+    "insight_title": "Anthropic's $30B Ramp, Mythos Doomsday, OpenClaw Ankled, Iran War Ceasefire, Israel's Influence",
+    "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "source_date": "2026-04-10",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
+  {
+    "id": 177,
+    "term": "Labor Augmentation and Replacement",
+    "definition": "The use of AI technologies to enhance human labor or replace human labor altogether, leading to increased efficiency and reduced costs.",
+    "investment_implications": "Investors should consider companies that are developing AI technologies aimed at labor augmentation and replacement, as these are likely to see rapid adoption in the enterprise sector.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-04-11 10:04:00",
+    "priority_score": 80
+  },
+  {
+    "id": 178,
+    "term": "Exponential Growth in AI Revenue",
+    "definition": "The rapid and accelerating increase in revenue generated by AI companies, indicating a significant shift in market dynamics and the potential for substantial returns on investment.",
+    "investment_implications": "Investors should monitor AI companies that are experiencing exponential growth in revenue, as this may signal a strong market position and future profitability.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-04-11 10:04:00",
+    "priority_score": 80
+  },
   {
     "id": 175,
     "term": "DirectX APIs",
@@ -13956,35 +14077,11 @@ const dashboardData = {
     "relevance_score": 50,
     "submitted_date": "2026-04-11 03:05:18",
     "priority_score": 80
-  },
-  {
-    "id": 173,
-    "term": "Mission Critical Software",
-    "definition": "Software indispensable for organizations' day-to-day operations, such as sources of truth, core processes, and security.",
-    "investment_implications": "Investors should focus on the resilience and indispensability of these software products for long-term stability.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-04-10 10:05:17",
-    "priority_score": 80
-  },
-  {
-    "id": 174,
-    "term": "Value-Creating Software",
-    "definition": "Software that increases revenue, cuts costs, accelerates time to value, and mitigates risks.",
-    "investment_implications": "Investors should look for software with distinct value propositions that can drive tangible business outcomes.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-04-10 10:05:17",
-    "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 1742,
+    "id": 1763,
     "name": "\"The Best Time to Invest\"",
     "slug": "the-best-time-to-invest",
     "bio": null,
@@ -13996,7 +14093,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1743,
+    "id": 1764,
     "name": "Governor Josh Shapiro of Pennsylvania",
     "slug": "governor-josh-shapiro-of-pennsylvania",
     "bio": null,
@@ -14008,7 +14105,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1744,
+    "id": 1765,
     "name": "Why $200 Oil Won\u2019t Spike Inflation to 9%",
     "slug": "why-200-oil-wont-spike-inflation-to-9",
     "bio": null,
@@ -14020,7 +14117,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1745,
+    "id": 1766,
     "name": "This special episode",
     "slug": "this-special-episode",
     "bio": null,
@@ -14032,7 +14129,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1746,
+    "id": 1767,
     "name": "Lupin Ramon",
     "slug": "lupin-ramon",
     "bio": null,
@@ -14044,7 +14141,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1747,
+    "id": 1768,
     "name": "When the Music Stops",
     "slug": "when-the-music-stops",
     "bio": null,
@@ -14056,7 +14153,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1748,
+    "id": 1769,
     "name": "Ground Infrastructure",
     "slug": "ground-infrastructure",
     "bio": null,
@@ -14068,7 +14165,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1749,
+    "id": 1770,
     "name": "Rory Johnston",
     "slug": "rory-johnston",
     "bio": null,
@@ -14080,7 +14177,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1750,
+    "id": 1771,
     "name": "Senator John Fetterman on Voting Rights",
     "slug": "senator-john-fetterman-on-voting-rights",
     "bio": null,
@@ -14092,7 +14189,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1751,
+    "id": 1772,
     "name": "Stock Market on Shaky Foundations",
     "slug": "stock-market-on-shaky-foundations",
     "bio": null,
@@ -14104,7 +14201,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1752,
+    "id": 1773,
     "name": "Elon Musk on Moonshots",
     "slug": "elon-musk-on-moonshots",
     "bio": null,
@@ -14116,7 +14213,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1753,
+    "id": 1774,
     "name": "Investing in Capitalism",
     "slug": "investing-in-capitalism",
     "bio": null,
@@ -14128,7 +14225,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1754,
+    "id": 1775,
     "name": "Harvard Professor Graham Allison",
     "slug": "harvard-professor-graham-allison",
     "bio": null,
@@ -14140,7 +14237,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1755,
+    "id": 1776,
     "name": "Andrew Yang",
     "slug": "andrew-yang",
     "bio": "Andrew Yang is an entrepreneur and political leader who popularized universal basic income in U.S. politics through his 2020 presidential campaign.",
@@ -14152,7 +14249,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1756,
+    "id": 1777,
     "name": "Inventing the Renaissance",
     "slug": "inventing-the-renaissance",
     "bio": null,
@@ -14164,7 +14261,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1757,
+    "id": 1778,
     "name": "Ray Dalio",
     "slug": "ray-dalio",
     "bio": "Ray Dalio is the founder of Bridgewater Associates and a macro investor known for his 'Principles' framework and work on long-term debt cycles.",
@@ -14176,7 +14273,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1758,
+    "id": 1779,
     "name": "Nobel Prize-winning economist Paul Krugman",
     "slug": "nobel-prize-winning-economist-paul-krugman",
     "bio": null,
@@ -14188,7 +14285,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1759,
+    "id": 1780,
     "name": "host Jack Mallers",
     "slug": "host-jack-mallers",
     "bio": null,
@@ -14200,7 +14297,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1760,
+    "id": 1781,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -14212,7 +14309,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1761,
+    "id": 1782,
     "name": "Bosworth",
     "slug": "bosworth",
     "bio": null,
@@ -14243,7 +14340,7 @@ const dashboardData = {
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-03-19",
     "mention_score": 4,
-    "mention_score_decayed": 3.03,
+    "mention_score_decayed": 2.96,
     "last_main_idea": "The Iran conflict could lead to a renewed inflation cycle, affecting commodities and energy markets, with potential second-order effects that markets may currently be underpricing.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:36:30.218908",
@@ -14344,6 +14441,64 @@ const dashboardData = {
     "net_worth": "$151.00B"
   },
   {
+    "id": 131,
+    "name": "David Sachs",
+    "slug": "david-sachs",
+    "bio": "David Sachs is a venture capitalist and technology entrepreneur.",
+    "known_for": "His work in the technology and venture capital space.",
+    "net_worth_usd": 200000000.0,
+    "net_worth_source": "https://impactwealth.org/david-sacks-net-worth-and-biography-2025-the-journey-of-a-tech-visionary/",
+    "net_worth_updated_at": "2026-03-28T22:05:26.806183",
+    "voice_tone": "Inquisitive and analytical.",
+    "voice_style": "Direct and to the point, with a focus on the implications of AI on business and labor.",
+    "voice_delivery_notes": "Paced with emphasis on key points regarding AI growth and enterprise adoption.",
+    "voice_profile_updated_at": "2026-04-11 10:04:00",
+    "last_seen": "2026-04-11 10:04:00",
+    "last_episode_title": "Anthropic's $30B Ramp, Mythos Doomsday, OpenClaw Ankled, Iran War Ceasefire, Israel's Influence",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-04-10",
+    "mention_score": 2,
+    "mention_score_decayed": 2,
+    "last_main_idea": "Invest in AI companies that are leading the charge in enterprise adoption, as they are positioned to benefit from the exponential growth in revenue and the shift towards labor augmentation and replacement.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-28T22:05:25.190284",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "David Sachs",
+      "fetched_at": "2026-03-29T03:05:25.190194+00:00",
+      "cliff_notes": "David Sachs is a prominent figure in the tech industry, known for his insights on innovation and technology. He has been involved in the Trump administration, where he has emphasized the importance of scientific research and technology in the current competitive landscape. Sachs' career has been marked by his focus on the intersection of technology, policy, and business. His work in the Trump administration highlights his commitment to leveraging technology and scientific research to drive economic growth and maintain a competitive edge in the global market.",
+      "derived": {
+        "current_role": "Advisor to the Trump administration",
+        "political_summary": "David Sachs has been involved in the Trump administration, where he has emphasized the importance of scientific research and technology in the current competitive landscape."
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "David Sachs is a prominent figure in the tech industry, known for his insights on innovation and technology. He has been involved in the Trump administration, where he has emphasized the importance of scientific research and technology in the current competitive landscape. Sachs' career has been marked by his focus on the intersection of technology, policy, and business.",
+        "His work in the Trump administration highlights his commitment to leveraging technology and scientific research to drive economic growth and maintain a competitive edge in the global market."
+      ],
+      "sections": [
+        {
+          "heading": "Innovation and Technology",
+          "body": "David Sachs is known for his insights on innovation and technology, emphasizing their importance in the current competitive landscape."
+        },
+        {
+          "heading": "Trump Administration",
+          "body": "Sachs has been involved in the Trump administration, where he has focused on the role of scientific research and technology in driving economic growth and maintaining a competitive edge."
+        },
+        {
+          "heading": "Economic Growth",
+          "body": "Sachs' work in the Trump administration highlights his commitment to leveraging technology and scientific research to drive economic growth."
+        }
+      ]
+    },
+    "net_worth": "$200.0M"
+  },
+  {
     "id": 54,
     "name": "Jim Bianco",
     "slug": "jim-bianco",
@@ -14361,7 +14516,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-04-09",
     "mention_score": 2,
-    "mention_score_decayed": 2,
+    "mention_score_decayed": 1.95,
     "last_main_idea": "Investment opportunities may arise from the physical dislocation in energy markets and shifts in energy security, with a focus on commodities like oil, uranium, and gold.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-10T05:06:37.059270",
@@ -14426,7 +14581,7 @@ const dashboardData = {
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-03-19",
     "mention_score": 2,
-    "mention_score_decayed": 1.52,
+    "mention_score_decayed": 1.48,
     "last_main_idea": "The Iran conflict could lead to a renewed inflation cycle, affecting commodities and energy markets, with potential second-order effects that markets may currently be underpricing.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:35:48.845381",
@@ -14877,7 +15032,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-04-09",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Investment opportunities may arise from the physical dislocation in energy markets and shifts in energy security, with a focus on commodities like oil, uranium, and gold.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-10T05:06:55.491790",
@@ -15185,7 +15340,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-04-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "The core thesis presented is that advancements in AI and computer science can lead to new fields and paradigms, offering investment opportunities in technological disruption and innovation.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-08T05:04:38.528660",
@@ -15243,7 +15398,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Investing in select few names within the China property sector can offer significant potential for value appreciation, given the right conditions and primary research.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-08T05:04:49.164717",
@@ -15300,7 +15455,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-04-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Investment in Colossal represents a bet on the convergence of synthetic biology, AI, and environmental conservation, with potential for significant technological and societal impact.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-08T05:05:00.239498",
@@ -15534,7 +15689,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Investing in companies that leverage coding agents could offer significant productivity gains and reshape the software development landscape.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-07T05:06:04.126625",
@@ -15716,7 +15871,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "Investing in technologies that can verify human interactions online is becoming critical as AI-generated content proliferates, posing both challenges and opportunities for social media platforms and the broader digital economy.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-03T05:05:04.562022",
@@ -15773,7 +15928,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "Investing in technologies that can verify human interactions online is becoming critical as AI-generated content proliferates, posing both challenges and opportunities for social media platforms and the broader digital economy.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-03T05:05:15.312671",
@@ -15831,7 +15986,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-04-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "Invest in sectors less affected by AI disruption and monitor geopolitical events for opportunities in private credit markets.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-03T05:05:31.083540",
@@ -15888,7 +16043,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-04-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "Invest in sectors less affected by AI disruption and monitor geopolitical events for opportunities in private credit markets.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-03T05:05:40.347752",
@@ -16062,7 +16217,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-03-31",
     "mention_score": 1,
-    "mention_score_decayed": 0.81,
+    "mention_score_decayed": 0.79,
     "last_main_idea": "Investment in autonomous vehicle technology is poised to disrupt urban mobility and logistics, with companies like Uber positioned to capitalize on this shift.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-01T05:04:28.065974",
@@ -16120,7 +16275,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-31",
     "mention_score": 1,
-    "mention_score_decayed": 0.81,
+    "mention_score_decayed": 0.79,
     "last_main_idea": "Investing in companies that innovate in energy delivery and grid infrastructure can lead to significant returns as the demand for electricity increases and the need for a more efficient and sustainable grid becomes critical.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-01T05:04:38.716099",
@@ -16178,7 +16333,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-31",
     "mention_score": 1,
-    "mention_score_decayed": 0.81,
+    "mention_score_decayed": 0.79,
     "last_main_idea": "Investing in companies that innovate in energy delivery and grid infrastructure can lead to significant returns as the demand for electricity increases and the need for a more efficient and sustainable grid becomes critical.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-01T05:04:51.620692",
@@ -16240,7 +16395,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-31",
     "mention_score": 1,
-    "mention_score_decayed": 0.81,
+    "mention_score_decayed": 0.79,
     "last_main_idea": "Investing in AI-enhanced ETFs like PQNT and PQUS can provide enhanced equity exposure in the current market environment.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-01T05:05:18.251968",
@@ -16301,7 +16456,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.79,
+    "mention_score_decayed": 0.78,
     "last_main_idea": "Invest in companies and technologies that are reshaping industries and have the potential to create significant economic value for a broad user base, rather than just the companies themselves.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-31T05:03:10.373140",
@@ -16365,7 +16520,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.78,
+    "mention_score_decayed": 0.76,
     "last_main_idea": "The democratization of alternative investments provides retail investors with new opportunities, but also comes with structural differences and risks that must be understood.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-30T05:03:22.005290",
@@ -16467,64 +16622,6 @@ const dashboardData = {
       ]
     },
     "net_worth": "$500.0M"
-  },
-  {
-    "id": 131,
-    "name": "David Sachs",
-    "slug": "david-sachs",
-    "bio": "David Sachs is a prominent figure in the tech industry, known for his insights on innovation and technology. He has been involved in the Trump administration, where he has emphasized the importance of scientific research and technology in the current competitive landscape.",
-    "known_for": "His role in the Trump administration and his views on the importance of scientific research and technology in the current competitive landscape.",
-    "net_worth_usd": 200000000.0,
-    "net_worth_source": "https://impactwealth.org/david-sacks-net-worth-and-biography-2025-the-journey-of-a-tech-visionary/",
-    "net_worth_updated_at": "2026-03-28T22:05:26.806183",
-    "voice_tone": "Serious and informative",
-    "voice_style": "Factual and data-driven",
-    "voice_delivery_notes": "Pacing is steady with emphasis on key data points",
-    "voice_profile_updated_at": "2026-03-29 03:04:03",
-    "last_seen": "2026-03-29 03:04:03",
-    "last_episode_title": "Anthropic's Generational Run, OpenAI Panics, AI Moats, Meta Loses Lawsuits",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-03-27",
-    "mention_score": 1,
-    "mention_score_decayed": 0.74,
-    "last_main_idea": "Invest in companies that are driving innovation and can disrupt traditional industries by offering superior products at better prices, while keeping an eye on the competitive dynamics between the US and China in scientific research and technology.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-28T22:05:25.190284",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "David Sachs",
-      "fetched_at": "2026-03-29T03:05:25.190194+00:00",
-      "cliff_notes": "David Sachs is a prominent figure in the tech industry, known for his insights on innovation and technology. He has been involved in the Trump administration, where he has emphasized the importance of scientific research and technology in the current competitive landscape. Sachs' career has been marked by his focus on the intersection of technology, policy, and business. His work in the Trump administration highlights his commitment to leveraging technology and scientific research to drive economic growth and maintain a competitive edge in the global market.",
-      "derived": {
-        "current_role": "Advisor to the Trump administration",
-        "political_summary": "David Sachs has been involved in the Trump administration, where he has emphasized the importance of scientific research and technology in the current competitive landscape."
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "David Sachs is a prominent figure in the tech industry, known for his insights on innovation and technology. He has been involved in the Trump administration, where he has emphasized the importance of scientific research and technology in the current competitive landscape. Sachs' career has been marked by his focus on the intersection of technology, policy, and business.",
-        "His work in the Trump administration highlights his commitment to leveraging technology and scientific research to drive economic growth and maintain a competitive edge in the global market."
-      ],
-      "sections": [
-        {
-          "heading": "Innovation and Technology",
-          "body": "David Sachs is known for his insights on innovation and technology, emphasizing their importance in the current competitive landscape."
-        },
-        {
-          "heading": "Trump Administration",
-          "body": "Sachs has been involved in the Trump administration, where he has focused on the role of scientific research and technology in driving economic growth and maintaining a competitive edge."
-        },
-        {
-          "heading": "Economic Growth",
-          "body": "Sachs' work in the Trump administration highlights his commitment to leveraging technology and scientific research to drive economic growth."
-        }
-      ]
-    },
-    "net_worth": "$200.0M"
   },
   {
     "id": 132,
@@ -16715,7 +16812,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.74,
+    "mention_score_decayed": 0.72,
     "last_main_idea": "Sovereign credit investing requires a deep understanding of the unique risks and dynamics of lending to governments, which can offer significant returns but also carries substantial risks, particularly in the current geopolitical climate.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-28T04:06:45.925345",
@@ -16777,7 +16874,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.74,
+    "mention_score_decayed": 0.72,
     "last_main_idea": "Investing in companies that apply lessons from SpaceX and Tesla can lead to innovation in the physical economy, focusing on scalability, communication, and technical expertise.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-28T04:06:58.025543",
@@ -16839,7 +16936,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.74,
+    "mention_score_decayed": 0.72,
     "last_main_idea": "Investing in companies that apply lessons from SpaceX and Tesla can lead to innovation in the physical economy, focusing on scalability, communication, and technical expertise.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-28T04:07:10.077867",
@@ -17193,7 +17290,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.71,
+    "mention_score_decayed": 0.69,
     "last_main_idea": "Investing in advanced manufacturing and workforce development for submarine production could lead to increased efficiency and meet the growing demand for naval capabilities.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-26T04:20:54.928623",
@@ -17250,7 +17347,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.71,
+    "mention_score_decayed": 0.69,
     "last_main_idea": "Investing in advanced manufacturing and workforce development for submarine production could lead to increased efficiency and meet the growing demand for naval capabilities.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-26T04:21:24.879895",
@@ -17306,7 +17403,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.71,
+    "mention_score_decayed": 0.69,
     "last_main_idea": "Investment in psychedelics for longevity and personal growth is based on the potential for these substances to induce significant changes in consciousness and promote personal rejuvenation.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-26T04:22:22.498838",
@@ -17363,7 +17460,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.69,
+    "mention_score_decayed": 0.68,
     "last_main_idea": "Investing in companies that can provide innovative power solutions for the modern, electronic battlefield can offer significant opportunities as military forces worldwide seek to upgrade their capabilities.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-25T04:10:43.350646",
@@ -17420,7 +17517,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.69,
+    "mention_score_decayed": 0.68,
     "last_main_idea": "Investing in companies that can provide innovative power solutions for the modern, electronic battlefield can offer significant opportunities as military forces worldwide seek to upgrade their capabilities.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-25T04:10:59.120340",
@@ -17481,7 +17578,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-03-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.69,
+    "mention_score_decayed": 0.68,
     "last_main_idea": "Invest in AI and robotics sectors as they are poised for significant growth and disruption, with a focus on companies that align with human values and contribute to abundance.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-25T04:11:26.668471",
@@ -17546,7 +17643,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.68,
+    "mention_score_decayed": 0.66,
     "last_main_idea": "Investing in ground infrastructure for space can unlock the next wave of innovation, making space missions more useful and efficient.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-24T04:43:11.153707",
@@ -17603,7 +17700,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.68,
+    "mention_score_decayed": 0.66,
     "last_main_idea": "Invest in companies that can leverage the evolving landscape of AI and GPU computing, particularly those with the agility to adapt and scale in a rapidly changing market.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-24T04:43:59.032721",
@@ -17661,7 +17758,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.68,
+    "mention_score_decayed": 0.66,
     "last_main_idea": "Svellen Capital sees opportunities in commodities and shipping markets amidst the Middle East crisis, with a focus on the practical implications of geopolitical events on global trade and logistics.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-24T04:44:35.945959",
@@ -17721,7 +17818,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.66,
+    "mention_score_decayed": 0.64,
     "last_main_idea": "The disruption in fertilizer supply due to geopolitical tensions presents an opportunity in agricultural commodities, particularly corn, which is heavily impacted by rising input costs and could see price support from tightened supply.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-23T04:22:03.060297",
@@ -17776,7 +17873,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.66,
+    "mention_score_decayed": 0.64,
     "last_main_idea": "Invest in innovation and infrastructure to create a smarter grid and incentivize clean energy adoption, while avoiding over-regulation that leads to unintended economic and environmental consequences.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-23T04:22:21.245588",
@@ -17837,7 +17934,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-03-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.63,
+    "mention_score_decayed": 0.62,
     "last_main_idea": "The integration of AI into mathematics can accelerate discovery and problem-solving, presenting opportunities for investment in AI technology and its applications in scientific research.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-21T04:32:04.005767",
@@ -17891,7 +17988,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-02-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.62,
+    "mention_score_decayed": 0.6,
     "last_main_idea": "Investing in AI and robotics companies that leverage neural networks for autonomous manufacturing could yield significant returns as this market is expected to become the largest economy globally.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-19T22:16:04.041005",
@@ -17952,7 +18049,7 @@ const dashboardData = {
     "last_podcast_name": "a16z Live",
     "last_episode_date": "2026-02-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.62,
+    "mention_score_decayed": 0.6,
     "last_main_idea": "Invest in companies that are at the forefront of developing AI-enabled, immersive technologies that can redefine consumer interactions beyond the current app-centric model.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-19T22:17:07.326933",
@@ -18011,7 +18108,7 @@ const dashboardData = {
     "last_podcast_name": null,
     "last_episode_date": null,
     "mention_score": 1,
-    "mention_score_decayed": 0.62,
+    "mention_score_decayed": 0.6,
     "last_main_idea": null,
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-19T22:17:58.321307",
@@ -18667,7 +18764,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.56,
+    "mention_score_decayed": 0.55,
     "last_main_idea": "Invest in technology-driven businesses with a strong founder's mindset that focus on building and scaling rather than introspection, as they are more likely to shape the future and create significant value.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
@@ -18691,7 +18788,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.56,
+    "mention_score_decayed": 0.55,
     "last_main_idea": "Invest in platinum as a hybrid precious and industrial metal with potential for growth outside of traditional economic cycles, and consider the impact of AI on productivity and government deficits on interest rates.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
@@ -18715,7 +18812,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.54,
+    "mention_score_decayed": 0.52,
     "last_main_idea": "Invest in technologies and platforms that democratize capitalism and leverage AI to create scalable solutions in coding and product development.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,

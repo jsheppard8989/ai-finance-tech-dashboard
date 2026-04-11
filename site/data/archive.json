@@ -21,6 +21,29 @@
       "podcast_episode_id": 150
     },
     {
+      "id": 166,
+      "title": "Anthropic's $30B Ramp, Mythos Doomsday, OpenClaw Ankled, Iran War Ceasefire, Israel's Influence",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-04-10",
+      "summary": "In this episode of 'All-In with Chamath, Jason, Sacks & Friedberg', the hosts discuss the rapid growth of AI technologies, particularly focusing on the enterprise adoption of these technologies. They highlight the exponential growth in revenue for companies operating in the AI space, emphasizing the shift from IT budget considerations to labor augmentation and replacement. The discussion also touches on the impact of AI on employment, with the hosts suggesting that while AI may lead to the creation of new jobs, it also enables companies to do more with less, potentially reducing the number of existing jobs.",
+      "key_takeaway": "Invest in AI companies that are leading the charge in enterprise adoption, as they are positioned to benefit from the exponential growth in revenue and the shift towards labor augmentation and replacement.",
+      "tickers_mentioned": [
+        "GOOGL",
+        "MSFT",
+        "AMZN",
+        "IBM",
+        "TSLA"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-11",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 151
+    },
+    {
       "id": 161,
       "title": "Who Controls AI Acceleration? Vitalik Buterin and Guillaume Verdon Debate",
       "source_type": "podcast",
@@ -213,11 +236,11 @@
         "PQUS"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-04-08",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-04-11",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 143
     },
     {

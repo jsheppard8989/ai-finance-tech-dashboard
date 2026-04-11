@@ -1,19 +1,12 @@
 {
-  "timestamp": "2026-04-10T22:04:55.456850",
+  "timestamp": "2026-04-11T05:02:57.355720",
   "results": [
-    {
-      "podcast": "The a16z Show",
-      "title": "What Running Windows at Microsoft Taught Steven Sinofsky About Apple",
-      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_20260410_ec590915_7051_45fb_8ba6_e827fe35.mp3",
-      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/the_a16z_show_20260410_ec590915_7051_45fb_8ba6_e827fe35.txt",
-      "success": true
-    },
     {
       "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
       "title": "Anthropic's $30B Ramp, Mythos Doomsday, OpenClaw Ankled, Iran War Ceasefire, Israel's Influence",
       "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/ALLIN-E268_Ch.mp3",
-      "transcript_path": null,
-      "success": false
+      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/ALLIN-E268_Ch.txt",
+      "success": true
     }
   ]
 }

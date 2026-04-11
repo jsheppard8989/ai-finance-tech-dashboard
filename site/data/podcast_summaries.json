@@ -1,5 +1,22 @@
 [
   {
+    "id": 151,
+    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "episode_title": "Anthropic's $30B Ramp, Mythos Doomsday, OpenClaw Ankled, Iran War Ceasefire, Israel's Influence",
+    "episode_date": "2026-04-10",
+    "summary": "In this episode of 'All-In with Chamath, Jason, Sacks & Friedberg', the hosts discuss the rapid growth of AI technologies, particularly focusing on the enterprise adoption of these technologies. They highlight the exponential growth in revenue for companies operating in the AI space, emphasizing the shift from IT budget considerations to labor augmentation and replacement. The discussion also touches on the impact of AI on employment, with the hosts suggesting that while AI may lead to the creation of new jobs, it also enables companies to do more with less, potentially reducing the number of existing jobs.",
+    "key_takeaways": [
+      "Enterprise customers are increasingly adopting AI technologies, with over a thousand enterprises paying over one million annually.",
+      "AI companies are experiencing the largest revenue explosion in the history of technology.",
+      "Model and product capability in AI has reached a threshold where it's no longer just about IT budget, but about labor augmentation and replacement.",
+      "The growth in AI revenue is exponential, indicating a significant shift in how intelligence is scaling in the technology sector.",
+      "AI technologies are becoming so good that companies are demanding the product, leading to a supply constraint.",
+      "The discussion suggests a peak in employment for tech companies, with AI enabling them to do more with fewer employees."
+    ],
+    "investment_thesis": "Invest in AI companies that are leading the charge in enterprise adoption, as they are positioned to benefit from the exponential growth in revenue and the shift towards labor augmentation and replacement.",
+    "key_tickers": null
+  },
+  {
     "id": 150,
     "podcast_name": "The a16z Show",
     "episode_title": "What Running Windows at Microsoft Taught Steven Sinofsky About Apple",

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-10T22:07:17.863164",
-  "last_updated": "2026-04-10T22:07:17.863164",
-  "last_pipeline_run": "2026-04-10T22:07:17.863164",
+  "generated_at": "2026-04-11T05:05:00.153019",
+  "last_updated": "2026-04-11T05:05:00.153019",
+  "last_pipeline_run": "2026-04-11T05:05:00.153019",
   "main_page": {
     "overton": 8,
     "insights": 8,
@@ -9,13 +9,13 @@
   },
   "counts": {
     "ticker_mentions": 161,
-    "podcast_episodes": 125,
+    "podcast_episodes": 126,
     "newsletters": 7,
     "daily_scores": 99,
     "overton_terms_total": 16,
-    "latest_insights_total": 139,
+    "latest_insights_total": 140,
     "today_mentions": {},
-    "podcasts_analyzed": 3
+    "podcasts_analyzed": 1
   },
   "step_results": {
     "downloaded": 1,
@@ -23,25 +23,9 @@
     "analyzed": 1,
     "insight_created": 1,
     "published": 1,
-    "total": 3
+    "total": 2
   },
   "episodes": [
-    {
-      "id": "ec590915-7051-45fb-8ba6-e827fe358b8b",
-      "podcast": "The a16z Show",
-      "title": "What Running Windows at Microsoft Taught Steven Sinofsky About Apple",
-      "published": "2026-04-10",
-      "rss_guid": "ec590915-7051-45fb-8ba6-e827fe358b8b",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "status": "complete"
-    },
     {
       "id": "d8e62120-c865-428e-b1c2-1d965406f293",
       "podcast": "The a16z Show",
@@ -71,30 +55,17 @@
       "published": "2026-04-10",
       "rss_guid": "f1ea8b73-bd46-4e52-b187-cc8462694399",
       "stages": {
-        "downloaded": false,
-        "transcribed": false,
-        "analyzed": false,
-        "insight_created": false,
-        "published": false
+        "downloaded": true,
+        "transcribed": true,
+        "analyzed": true,
+        "insight_created": true,
+        "published": true
       },
-      "stage_reasons": {
-        "downloaded": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "transcribed": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "analyzed": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "insight_created": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
-      },
-      "status": "needs_download"
+      "stage_reasons": {},
+      "status": "complete"
     }
   ],
   "available_from_rss": [
-    {
-      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "title": "Anthropic's $30B Ramp, Mythos Doomsday, OpenClaw Ankled, Iran War Ceasefire, Israel's Influence",
-      "published": "Fri, 10 Apr 2026 22:17:00 +0000",
-      "published_date": "2026-04-10",
-      "rss_guid": ""
-    },
     {
       "podcast": "The a16z Show",
       "title": "The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
@@ -110,7 +81,7 @@
       "title": "The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
       "status": "needs_download",
       "published": "2026-04-08",
-      "age_days": 2,
+      "age_days": 3,
       "next_blocker": "downloaded"
     }
   ],

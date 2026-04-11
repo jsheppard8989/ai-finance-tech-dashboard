@@ -1,21 +1,8 @@
 {
-  "timestamp": "2026-04-10T22:04:49.215427",
-  "total_feed_episodes": 3,
-  "approved_for_transcription": 3,
+  "timestamp": "2026-04-11T05:02:53.263404",
+  "total_feed_episodes": 2,
+  "approved_for_transcription": 2,
   "episodes": [
-    {
-      "podcast": "The a16z Show",
-      "title": "What Running Windows at Microsoft Taught Steven Sinofsky About Apple",
-      "description": "<p>Theo Jaffee speaks with Steven Sinofsky, board partner at a16z and former president of the Windows division at Microsoft, about Apple's 50th anniversary, the cultural differences that separated Apple and Microsoft, why the MacBook Neo puts Windows laptops in a difficult position, and what the history of computing design reveals about where hardware and software are headed.</p>\n<p>\u00a0</p>\n<p>Resources:</p>\n<p>Follow Steven Sinofsky on X: <a href=\"https://x.com/stevesi\" rel=\"noopener noreferrer\">",
-      "audio_url": "https://mgln.ai/e/1344/afp-848985-injected.calisto.simplecastaudio.com/3f86df7b-51c6-4101-88a2-550dba782de8/episodes/5de42868-ae79-4841-9ce4-08f116d99f84/audio/128/default.mp3?aid=rss_feed&awCollectionId=3f86df7b-51c6-4101-88a2-550dba782de8&awEpisodeId=5de42868-ae79-4841-9ce4-08f116d99f84&feed=JGE3yC0V",
-      "published": "Fri, 10 Apr 2026 10:00:00 +0000",
-      "published_date": "2026-04-10",
-      "rss_guid": "ec590915-7051-45fb-8ba6-e827fe358b8b",
-      "status": "APPROVED",
-      "matched_keywords": [],
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_what_running_windows_at_microsoft_taught_steven_sinofsky_abo_28d31253.mp3",
-      "filename": "the_a16z_show_what_running_windows_at_microsoft_taught_steven_sinofsky_abo_28d31253.mp3"
-    },
     {
       "podcast": "The a16z Show",
       "title": "The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
@@ -37,10 +24,10 @@
       "published": "Fri, 10 Apr 2026 22:17:00 +0000",
       "published_date": "2026-04-10",
       "rss_guid": "f1ea8b73-bd46-4e52-b187-cc8462694399",
+      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/ALLIN-E268_Ch.mp3",
+      "filename": "ALLIN-E268_Ch.mp3",
       "status": "APPROVED",
-      "matched_keywords": [],
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/all_in_with_chamath__jason__sacks___frie_anthropic_s__30b_ramp__mythos_doomsday__openclaw_ankled__ira_1e61a313.mp3",
-      "filename": "all_in_with_chamath__jason__sacks___frie_anthropic_s__30b_ramp__mythos_doomsday__openclaw_ankled__ira_1e61a313.mp3"
+      "matched_keywords": []
     }
   ]
 }

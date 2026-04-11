@@ -1,49 +1,6 @@
 {
-  "last_updated": "2026-04-10T22:07:17.967075",
+  "last_updated": "2026-04-11T05:05:00.232179",
   "episodes": {
-    "the_a16z_show_what_running_windows_at_micros": {
-      "info": {
-        "podcast": "The a16z Show",
-        "title": "What Running Windows at Microsoft Taught Steven Sinofsky About Apple",
-        "published": "2026-04-10",
-        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_what_running_windows_at_microsoft_taught_steven_sinofsky_abo_28d31253.mp3",
-        "keywords": [],
-        "rss_guid": "ec590915-7051-45fb-8ba6-e827fe358b8b"
-      },
-      "stages": {
-        "downloaded": {
-          "complete": true,
-          "timestamp": null,
-          "reason": null
-        },
-        "transcribed": {
-          "complete": true,
-          "file": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/the_a16z_show_20260410_ec590915_7051_45fb_8ba6_e827fe35.txt",
-          "timestamp": null,
-          "reason": null
-        },
-        "analyzed": {
-          "complete": true,
-          "episode_id": 150,
-          "timestamp": null,
-          "reason": null
-        },
-        "insight_created": {
-          "complete": true,
-          "insight_id": 50,
-          "insight_title": "The a16z Show: New Media Strategy and Investment Insights",
-          "timestamp": null,
-          "reason": null
-        },
-        "published": {
-          "complete": false,
-          "timestamp": null,
-          "reason": "Not in data.js yet (run export and push to site)."
-        }
-      },
-      "first_seen": "2026-04-10T22:07:17.866618",
-      "status": "needs_export"
-    },
     "the_a16z_show_the_agent_era:_building_softwa": {
       "info": {
         "podcast": "The a16z Show",
@@ -82,7 +39,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-04-10T22:07:17.882235",
+      "first_seen": "2026-04-11T05:05:00.155486",
       "status": "needs_analysis"
     },
     "all-in_with_chamath,_jason,_sacks_&_friedberg_anthropic's_$30b_ramp,_mythos_": {
@@ -90,7 +47,7 @@
         "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
         "title": "Anthropic's $30B Ramp, Mythos Doomsday, OpenClaw Ankled, Iran War Ceasefire, Israel's Influence",
         "published": "2026-04-10",
-        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/all_in_with_chamath__jason__sacks___frie_anthropic_s__30b_ramp__mythos_doomsday__openclaw_ankled__ira_1e61a313.mp3",
+        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/ALLIN-E268_Ch.mp3",
         "keywords": [],
         "rss_guid": "f1ea8b73-bd46-4e52-b187-cc8462694399"
       },
@@ -101,21 +58,23 @@
           "reason": null
         },
         "transcribed": {
-          "complete": false,
-          "file": null,
+          "complete": true,
+          "file": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/ALLIN-E268_Ch.txt",
           "timestamp": null,
-          "reason": "Waiting for fetch/transcribe step"
+          "reason": null
         },
         "analyzed": {
-          "complete": false,
-          "episode_id": null,
+          "complete": true,
+          "episode_id": 151,
           "timestamp": null,
-          "reason": "Waiting for next analyze run (transcript \u2192 DB)."
+          "reason": null
         },
         "insight_created": {
-          "complete": false,
+          "complete": true,
+          "insight_id": 44,
+          "insight_title": "The Epstein Saga: Diverse Perspectives and Investment Implications",
           "timestamp": null,
-          "reason": "Depends on analyze step first."
+          "reason": null
         },
         "published": {
           "complete": false,
@@ -123,8 +82,8 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-04-10T22:07:17.901654",
-      "status": "needs_transcription"
+      "first_seen": "2026-04-11T05:05:00.177598",
+      "status": "needs_export"
     }
   }
 }
