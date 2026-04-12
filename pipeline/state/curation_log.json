@@ -1,8 +1,21 @@
 {
-  "timestamp": "2026-04-11T05:02:53.263404",
+  "timestamp": "2026-04-11T22:02:02.324958",
   "total_feed_episodes": 2,
   "approved_for_transcription": 2,
   "episodes": [
+    {
+      "podcast": "Moonshots with Peter Diamandis",
+      "title": "SpaceX Goes Public, Claude\u2019s Mythos Release, and the US Data Center Delay | EP #246",
+      "description": "\n        <p>In this episode, the mates dive into AI agents, Anthropic and OpenAI competition, AI economics and jobs, quantum risk to Bitcoin, energy breakthroughs, biotech deals, and humanoid robotics.</p>\n<p><br></p>\n<p>Read the Wall Street Journal article mentioned in the episode: <a href=\"https://www.wsj.com/tech/ai/ai-college-dropouts-ecc665b7\"><em>\"These AI Whiz Kids Dropped Out of College and Got Investors to Pay Their Bills\"</em></a></p>\n<p><br></p>\n<p>Get access to metatrends 10+ years b",
+      "audio_url": "https://traffic.megaphone.fm/DVVTS8818609716.mp3?updated=1775912554",
+      "published": "Sat, 11 Apr 2026 15:00:00 -0000",
+      "published_date": "2026-04-11",
+      "rss_guid": "307ceafc-352f-11f1-8352-67d222f18c0c",
+      "status": "APPROVED",
+      "matched_keywords": [],
+      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/moonshots_with_peter_diamandis_spacex_goes_public__claude_s_mythos_release__and_the_us_data_7b01ed45.mp3",
+      "filename": "moonshots_with_peter_diamandis_spacex_goes_public__claude_s_mythos_release__and_the_us_data_7b01ed45.mp3"
+    },
     {
       "podcast": "The a16z Show",
       "title": "The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
@@ -15,19 +28,6 @@
       "matched_keywords": [],
       "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_the_agent_era__building_software_beyond_chat_with_box_ceo_aa_c035a9af.mp3",
       "filename": "the_a16z_show_the_agent_era__building_software_beyond_chat_with_box_ceo_aa_c035a9af.mp3"
-    },
-    {
-      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "title": "Anthropic's $30B Ramp, Mythos Doomsday, OpenClaw Ankled, Iran War Ceasefire, Israel's Influence",
-      "description": "<p>(0:00) Bestie intros: Brad Gerstner joins the show!</p> <p>(4:22) Anthropic blocks Mythos release for security concerns: serious or marketing stunt?</p> <p>(24:07) Are OpenAI and Anthropic trying to kill OpenClaw? Does Anthropic already have market dominance in AI coding?</p> <p>(42:20) Anthropic $30B run rate, fastest revenue ramp ever, the TAM for intelligence</p> <p>(58:01) Major vibe shift: Anthropic ripping, OpenAI reeling</p> <p>(1:10:12) Iran War: Ceasefire, Israel's influence, market ",
-      "audio_url": "https://dts.podtrac.com/redirect.mp3/traffic.libsyn.com/secure/allinchamathjason/ALLIN-E268_Ch.mp3?dest-id=1928300",
-      "published": "Fri, 10 Apr 2026 22:17:00 +0000",
-      "published_date": "2026-04-10",
-      "rss_guid": "f1ea8b73-bd46-4e52-b187-cc8462694399",
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/ALLIN-E268_Ch.mp3",
-      "filename": "ALLIN-E268_Ch.mp3",
-      "status": "APPROVED",
-      "matched_keywords": []
     }
   ]
 }

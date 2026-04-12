@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-04-11T05:02:57.355720",
+  "timestamp": "2026-04-11T22:02:17.150421",
   "results": [
     {
-      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "title": "Anthropic's $30B Ramp, Mythos Doomsday, OpenClaw Ankled, Iran War Ceasefire, Israel's Influence",
-      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/ALLIN-E268_Ch.mp3",
-      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/ALLIN-E268_Ch.txt",
-      "success": true
+      "podcast": "Moonshots with Peter Diamandis",
+      "title": "SpaceX Goes Public, Claude\u2019s Mythos Release, and the US Data Center Delay | EP #246",
+      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/DVVTS8818609716.mp3",
+      "transcript_path": null,
+      "success": false
     }
   ]
 }

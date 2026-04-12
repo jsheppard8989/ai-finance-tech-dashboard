@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-11T05:05:00.153019",
-  "last_updated": "2026-04-11T05:05:00.153019",
-  "last_pipeline_run": "2026-04-11T05:05:00.153019",
+  "generated_at": "2026-04-11T22:03:24.193576",
+  "last_updated": "2026-04-11T22:03:24.193576",
+  "last_pipeline_run": "2026-04-11T22:03:24.193576",
   "main_page": {
     "overton": 8,
     "insights": 8,
@@ -18,14 +18,36 @@
     "podcasts_analyzed": 1
   },
   "step_results": {
-    "downloaded": 1,
-    "transcribed": 1,
-    "analyzed": 1,
-    "insight_created": 1,
-    "published": 1,
+    "downloaded": 0,
+    "transcribed": 0,
+    "analyzed": 0,
+    "insight_created": 0,
+    "published": 0,
     "total": 2
   },
   "episodes": [
+    {
+      "id": "307ceafc-352f-11f1-8352-67d222f18c0c",
+      "podcast": "Moonshots with Peter Diamandis",
+      "title": "SpaceX Goes Public, Claude\u2019s Mythos Release, and the US Data Center Delay | EP #246",
+      "published": "2026-04-11",
+      "rss_guid": "307ceafc-352f-11f1-8352-67d222f18c0c",
+      "stages": {
+        "downloaded": false,
+        "transcribed": false,
+        "analyzed": false,
+        "insight_created": false,
+        "published": false
+      },
+      "stage_reasons": {
+        "downloaded": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "transcribed": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "analyzed": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "insight_created": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
+      },
+      "status": "needs_download"
+    },
     {
       "id": "d8e62120-c865-428e-b1c2-1d965406f293",
       "podcast": "The a16z Show",
@@ -47,25 +69,16 @@
         "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
       },
       "status": "needs_download"
-    },
-    {
-      "id": "f1ea8b73-bd46-4e52-b187-cc8462694399",
-      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "title": "Anthropic's $30B Ramp, Mythos Doomsday, OpenClaw Ankled, Iran War Ceasefire, Israel's Influence",
-      "published": "2026-04-10",
-      "rss_guid": "f1ea8b73-bd46-4e52-b187-cc8462694399",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "status": "complete"
     }
   ],
   "available_from_rss": [
+    {
+      "podcast": "Moonshots with Peter Diamandis",
+      "title": "SpaceX Goes Public, Claude\u2019s Mythos Release, and the US Data Center Delay | EP #246",
+      "published": "Sat, 11 Apr 2026 15:00:00 -0000",
+      "published_date": "2026-04-11",
+      "rss_guid": ""
+    },
     {
       "podcast": "The a16z Show",
       "title": "The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
