@@ -1,6 +1,29 @@
 {
   "insights": [
     {
+      "id": 167,
+      "title": "SpaceX Goes Public, Claude\u2019s Mythos Release, and the US Data Center Delay | EP #246",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-04-11",
+      "summary": "In this episode of Moonshots with Peter Diamandis, the focus is on the latest advancements in AI, space technology, and the future of technology in general. The discussion revolves around SpaceX's potential IPO valuation, the progress of Starlink, and the competition between AI companies like Thropic and OpenAI. The podcast aims to provide an optimistic view of the future, discussing the potential for AI to solve complex problems and the significant investment opportunities in deep tech and deep science.",
+      "key_takeaway": "Invest in companies and technologies at the forefront of AI and space exploration for potential high returns as these sectors are expected to drive the next wave of technological advancements.",
+      "tickers_mentioned": [
+        "TSLA",
+        "GOOGL",
+        "MSFT",
+        "AMZN",
+        "ORCL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-12",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 152
+    },
+    {
       "id": 165,
       "title": "What Running Windows at Microsoft Taught Steven Sinofsky About Apple",
       "source_type": "podcast",
@@ -258,11 +281,11 @@
         "TSLA"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-04-08",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-04-12",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 142
     },
     {

@@ -3,7 +3,7 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-04-11T22:03:27.866427",
+  generatedAt: "2026-04-12T05:05:54.574848",
   chartsVersion: "2026-04-01T15:16:59.801570",
   tickerScores: [
   {
@@ -760,6 +760,29 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 167,
+      "title": "SpaceX Goes Public, Claude\u2019s Mythos Release, and the US Data Center Delay | EP #246",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-04-11",
+      "summary": "In this episode of Moonshots with Peter Diamandis, the focus is on the latest advancements in AI, space technology, and the future of technology in general. The discussion revolves around SpaceX's potential IPO valuation, the progress of Starlink, and the competition between AI companies like Thropic and OpenAI. The podcast aims to provide an optimistic view of the future, discussing the potential for AI to solve complex problems and the significant investment opportunities in deep tech and deep science.",
+      "key_takeaway": "Invest in companies and technologies at the forefront of AI and space exploration for potential high returns as these sectors are expected to drive the next wave of technological advancements.",
+      "tickers_mentioned": [
+        "TSLA",
+        "GOOGL",
+        "MSFT",
+        "AMZN",
+        "ORCL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-12",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 152
+    },
+    {
       "id": 165,
       "title": "What Running Windows at Microsoft Taught Steven Sinofsky About Apple",
       "source_type": "podcast",
@@ -1017,11 +1040,11 @@ const dashboardData = {
         "TSLA"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-04-08",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-04-12",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 142
     },
     {
@@ -3944,6 +3967,26 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 167,
+      "title": "SpaceX Goes Public, Claude\u2019s Mythos Release, and the US Data Center Delay | EP #246",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-04-11",
+      "summary": "In this episode of Moonshots with Peter Diamandis, the focus is on the latest advancements in AI, space technology, and the future of technology in general. The discussion revolves around SpaceX's potential IPO valuation, the progress of Starlink, and the competition between AI companies like Thropic and OpenAI. The podcast aims to provide an optimistic view of the future, discussing the potential for AI to solve complex problems and the significant investment opportunities in deep tech and deep science.",
+      "key_takeaway": "Invest in companies and technologies at the forefront of AI and space exploration for potential high returns as these sectors are expected to drive the next wave of technological advancements.",
+      "tickers_mentioned": "[\"TSLA\", \"GOOGL\", \"MSFT\", \"AMZN\", \"ORCL\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-12",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 152,
+      "episode_release_date": "2026-04-11",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 165,
       "title": "What Running Windows at Microsoft Taught Steven Sinofsky About Apple",
       "source_type": "podcast",
@@ -4094,26 +4137,6 @@ const dashboardData = {
       "archived_reason": null,
       "podcast_episode_id": 147,
       "episode_release_date": "2026-04-08",
-      "guest_name": null,
-      "key_tickers": []
-    },
-    {
-      "id": 159,
-      "title": "How AI Is Bringing Extinct Animals Back (And What Comes Next) | Ben Lamm (Colossal) | EP #245",
-      "source_type": "podcast",
-      "source_name": "Moonshots with Peter Diamandis",
-      "source_date": "2026-04-07",
-      "summary": "In this episode of 'Moonshots with Peter Diamandis', the discussion revolves around the ambitious goals of the biotech company Colossal, which aims to use synthetic biology and AI to revive extinct species like the woolly mammoth. The conversation delves into the company's rapid growth, its approach to using AI in genetic engineering, and its potential applications in various fields, including environmental conservation, disease resistance in plants and animals, and even addressing plastic pollution.",
-      "key_takeaway": "Investment in Colossal represents a bet on the convergence of synthetic biology, AI, and environmental conservation, with potential for significant technological and societal impact.",
-      "tickers_mentioned": "[\"AAPL\", \"NVDA\", \"SPY\", \"TSLA\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-04-08",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 142,
-      "episode_release_date": "2026-04-07",
       "guest_name": null,
       "key_tickers": []
     }
@@ -14027,9 +14050,112 @@ const dashboardData = {
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "source_date": "2026-04-10",
     "key_tickers": []
+  },
+  "167": {
+    "id": 158,
+    "insight_id": 167,
+    "podcast_episode_id": 152,
+    "overview": "The debate around SpaceX's IPO and the progress of Starlink is not just about financial valuations but also about the broader implications for the future of space exploration and AI. The significance of these advancements lies in their potential to redefine how we approach connectivity, data processing, and our presence in space. The timing of this discussion is crucial as it coincides with a period of rapid technological change and increasing global competition in these fields.",
+    "key_takeaways_detailed": [
+      "Investors should monitor SpaceX's IPO and subsequent market performance as a bellwether for the space exploration sector.",
+      "Keep an eye on Starlink's user adoption and revenue growth as indicators of the market's appetite for space-based internet services.",
+      "Assess the competitive landscape in AI, particularly the advancements made by Thropic and OpenAI, for insights into the direction of AI technology.",
+      "Consider the regulatory environment and its potential impact on the growth of space and AI technologies.",
+      "Look for signs of technological convergence that could accelerate the development and adoption of space and AI technologies."
+    ],
+    "investment_thesis": "The investment thesis is that the convergence of AI and space exploration technologies will drive significant growth in the coming years. The timeframe is immediate to long-term, with the expectation that companies like SpaceX and AI innovators will continue to push the boundaries of what is possible. For this thesis to hold, there must be sustained investment in R&D, regulatory support, and market demand for new technologies.",
+    "ticker_analysis": {
+      "TSLA": {
+        "rationale": "Tesla's involvement in battery technology and potential synergy with SpaceX for energy solutions in space makes it relevant.",
+        "positioning": "Strategic long position, as Tesla's technology could complement SpaceX's ambitions.",
+        "risk": "Regulatory changes affecting electric vehicle markets or battery technology could impact Tesla's growth."
+      },
+      "GOOGL": {
+        "rationale": "Google's investment in AI and potential competition with Thropic in AI services.",
+        "positioning": "Tactical long position, as Google's AI advancements could drive shareholder value.",
+        "risk": "AI ethics and regulatory scrutiny could slow down AI development and deployment."
+      },
+      "MSFT": {
+        "rationale": "Microsoft's cloud services and potential use of Starlink for data centers.",
+        "positioning": "Strategic long position, as Microsoft's cloud business could benefit from space technology.",
+        "risk": "Competition in cloud services and potential disruptions in data center operations."
+      },
+      "AMZN": {
+        "rationale": "Amazon's Project Kuiper, a rival to Starlink, and its impact on the space-based internet market.",
+        "positioning": "Tactical short position, as Amazon's entry could increase competition and affect Starlink's valuation.",
+        "risk": "Amazon's success in space could disrupt the market and impact SpaceX's dominance."
+      },
+      "ORCL": {
+        "rationale": "Oracle's cloud infrastructure and potential partnerships with AI companies like Thropic.",
+        "positioning": "Strategic long position, as Oracle could benefit from the growing demand for AI services.",
+        "risk": "Increased competition in cloud services and potential disruptions in AI development."
+      }
+    },
+    "positioning_guidance": "Investors should consider a diversified approach, with a mix of strategic and tactical positions in companies at the forefront of AI and space exploration. The time horizon for these investments should be long-term, with the understanding that the development and adoption of these technologies may take time. Investors should also be prepared to adjust their positions based on market developments and technological breakthroughs.",
+    "risk_factors": [
+      "Regulatory hurdles that could slow down the development and deployment of new technologies.",
+      "Market volatility due to the high valuations and expectations surrounding AI and space exploration companies.",
+      "Technological failures or delays that could impact the growth narratives of companies like SpaceX and Thropic.",
+      "Increased competition that could affect market share and profitability.",
+      "Ethical concerns and public backlash against AI and space exploration technologies."
+    ],
+    "contrarian_signals": [
+      "A significant slowdown in AI development or a shift in focus away from space exploration.",
+      "A change in consumer preferences that reduces demand for space-based services or AI applications.",
+      "A shift in regulatory environments that favors traditional technologies over AI and space exploration."
+    ],
+    "catalysts": [
+      "SpaceX's successful IPO and the subsequent market reaction.",
+      "Starlink reaching key milestones in user adoption and global coverage.",
+      "Thropic's flagship AI model achieving breakthrough performance and driving market interest.",
+      "Regulatory approvals that pave the way for new space exploration initiatives.",
+      "Technological partnerships or acquisitions that accelerate the development of AI and space technologies."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-04-12T05:05:19.522044",
+    "updated_at": "2026-04-12 10:05:19",
+    "episode_evidence": "The podcast 'Moonshots with Peter Diamandis' discusses SpaceX's potential IPO valuation, Starlink's progress, and the competition in AI between Thropic and OpenAI. According to the host, 'SpaceX is pricing itself right now at about a two trillion dollar target valuation, raising $75 billion.' The majority of this valuation, '75 to 80 percent of the target valuation is due to Starlink,' with the rest attributed to launch services, NASA services, and XAI and X-related revenues. The discussion also touches on the potential of AI, with a focus on Thropic's flagship model, which is described as 'too powerful to release,' indicating a significant advancement in AI capabilities. The host emphasizes the importance of investing in companies at the forefront of AI and space exploration, as these sectors are expected to drive the next wave of technological advancements.",
+    "falsification_tracks": [
+      "SpaceX's IPO valuation falls below the $2 trillion target valuation, indicating lower market confidence than expected.",
+      "Starlink's user growth or revenue falls short of projections, suggesting the market may not be as large as anticipated.",
+      "Thropic's flagship AI model fails to deliver on performance expectations, reducing the competitive edge in the AI market.",
+      "A significant delay or failure in SpaceX's launch schedule could undermine the company's growth narrative.",
+      "Regulatory hurdles or policy changes that restrict the development or deployment of space technology or AI applications."
+    ],
+    "insight_title": "SpaceX Goes Public, Claude\u2019s Mythos Release, and the US Data Center Delay | EP #246",
+    "source_name": "Moonshots with Peter Diamandis",
+    "source_date": "2026-04-11",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
+  {
+    "id": 179,
+    "term": "Co-generation",
+    "definition": "The process of using AI to generate text, code, or other content autonomously.",
+    "investment_implications": "Investors should consider companies focusing on co-generation for their potential to disrupt content creation and software development.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-04-12 10:04:31",
+    "priority_score": 80
+  },
+  {
+    "id": 180,
+    "term": "Solve Everything Thesis",
+    "definition": "The idea that solving artificial intelligence will enable the solution of other complex problems.",
+    "investment_implications": "Investors should look for companies at the intersection of AI and other industries, as AI advancements could lead to breakthroughs in various fields.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-04-12 10:04:31",
+    "priority_score": 80
+  },
   {
     "id": 177,
     "term": "Labor Augmentation and Replacement",
@@ -14053,35 +14179,11 @@ const dashboardData = {
     "relevance_score": 50,
     "submitted_date": "2026-04-11 10:04:00",
     "priority_score": 80
-  },
-  {
-    "id": 175,
-    "term": "DirectX APIs",
-    "definition": "Graphics APIs developed by Microsoft that allow hardware access to graphics hardware on the PC, crucial for gaming.",
-    "investment_implications": "DirectX APIs have been a key differentiator for Microsoft in the gaming market, influencing hardware and software development.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-04-11 03:05:18",
-    "priority_score": 80
-  },
-  {
-    "id": 176,
-    "term": "AI Compute on Devices",
-    "definition": "The integration of AI processing capabilities directly onto devices, impacting device performance and functionality.",
-    "investment_implications": "AI compute on devices is a growing area of focus for tech companies, with potential to disrupt traditional computing paradigms.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-04-11 03:05:18",
-    "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 1784,
+    "id": 1805,
     "name": "\"The Best Time to Invest\"",
     "slug": "the-best-time-to-invest",
     "bio": null,
@@ -14093,7 +14195,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1785,
+    "id": 1806,
     "name": "Governor Josh Shapiro of Pennsylvania",
     "slug": "governor-josh-shapiro-of-pennsylvania",
     "bio": null,
@@ -14105,7 +14207,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1786,
+    "id": 1807,
     "name": "Why $200 Oil Won\u2019t Spike Inflation to 9%",
     "slug": "why-200-oil-wont-spike-inflation-to-9",
     "bio": null,
@@ -14117,7 +14219,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1787,
+    "id": 1808,
     "name": "This special episode",
     "slug": "this-special-episode",
     "bio": null,
@@ -14129,7 +14231,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1788,
+    "id": 1809,
     "name": "Lupin Ramon",
     "slug": "lupin-ramon",
     "bio": null,
@@ -14141,7 +14243,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1789,
+    "id": 1810,
     "name": "When the Music Stops",
     "slug": "when-the-music-stops",
     "bio": null,
@@ -14153,7 +14255,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1790,
+    "id": 1811,
     "name": "Ground Infrastructure",
     "slug": "ground-infrastructure",
     "bio": null,
@@ -14165,7 +14267,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1791,
+    "id": 1812,
     "name": "Rory Johnston",
     "slug": "rory-johnston",
     "bio": null,
@@ -14177,7 +14279,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1792,
+    "id": 1813,
     "name": "Senator John Fetterman on Voting Rights",
     "slug": "senator-john-fetterman-on-voting-rights",
     "bio": null,
@@ -14189,7 +14291,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1793,
+    "id": 1814,
     "name": "Stock Market on Shaky Foundations",
     "slug": "stock-market-on-shaky-foundations",
     "bio": null,
@@ -14201,7 +14303,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1794,
+    "id": 1815,
     "name": "Elon Musk on Moonshots",
     "slug": "elon-musk-on-moonshots",
     "bio": null,
@@ -14213,7 +14315,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1795,
+    "id": 1816,
     "name": "Investing in Capitalism",
     "slug": "investing-in-capitalism",
     "bio": null,
@@ -14225,7 +14327,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1796,
+    "id": 1817,
     "name": "Harvard Professor Graham Allison",
     "slug": "harvard-professor-graham-allison",
     "bio": null,
@@ -14237,7 +14339,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1797,
+    "id": 1818,
     "name": "Andrew Yang",
     "slug": "andrew-yang",
     "bio": "Andrew Yang is an entrepreneur and political leader who popularized universal basic income in U.S. politics through his 2020 presidential campaign.",
@@ -14249,7 +14351,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1798,
+    "id": 1819,
     "name": "Inventing the Renaissance",
     "slug": "inventing-the-renaissance",
     "bio": null,
@@ -14261,7 +14363,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1799,
+    "id": 1820,
     "name": "Ray Dalio",
     "slug": "ray-dalio",
     "bio": "Ray Dalio is the founder of Bridgewater Associates and a macro investor known for his 'Principles' framework and work on long-term debt cycles.",
@@ -14273,7 +14375,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1800,
+    "id": 1821,
     "name": "Nobel Prize-winning economist Paul Krugman",
     "slug": "nobel-prize-winning-economist-paul-krugman",
     "bio": null,
@@ -14285,7 +14387,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1801,
+    "id": 1822,
     "name": "host Jack Mallers",
     "slug": "host-jack-mallers",
     "bio": null,
@@ -14297,7 +14399,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1802,
+    "id": 1823,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -14309,7 +14411,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1803,
+    "id": 1824,
     "name": "Bosworth",
     "slug": "bosworth",
     "bio": null,
@@ -14340,7 +14442,7 @@ const dashboardData = {
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-03-19",
     "mention_score": 4,
-    "mention_score_decayed": 2.96,
+    "mention_score_decayed": 2.89,
     "last_main_idea": "The Iran conflict could lead to a renewed inflation cycle, affecting commodities and energy markets, with potential second-order effects that markets may currently be underpricing.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:36:30.218908",
@@ -14396,7 +14498,7 @@ const dashboardData = {
     "last_podcast_name": "All-In Podcast",
     "last_episode_date": "2026-03-28",
     "mention_score": 3,
-    "mention_score_decayed": 2.22,
+    "mention_score_decayed": 2.17,
     "last_main_idea": "Investing in AI-driven platforms and technologies is essential for capturing the growth in the global financial system and staying ahead in the AI era.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:40:52.368193",
@@ -14458,7 +14560,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-04-10",
     "mention_score": 2,
-    "mention_score_decayed": 2,
+    "mention_score_decayed": 1.95,
     "last_main_idea": "Invest in AI companies that are leading the charge in enterprise adoption, as they are positioned to benefit from the exponential growth in revenue and the shift towards labor augmentation and replacement.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-28T22:05:25.190284",
@@ -14516,7 +14618,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-04-09",
     "mention_score": 2,
-    "mention_score_decayed": 1.95,
+    "mention_score_decayed": 1.91,
     "last_main_idea": "Investment opportunities may arise from the physical dislocation in energy markets and shifts in energy security, with a focus on commodities like oil, uranium, and gold.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-10T05:06:37.059270",
@@ -14581,7 +14683,7 @@ const dashboardData = {
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-03-19",
     "mention_score": 2,
-    "mention_score_decayed": 1.48,
+    "mention_score_decayed": 1.45,
     "last_main_idea": "The Iran conflict could lead to a renewed inflation cycle, affecting commodities and energy markets, with potential second-order effects that markets may currently be underpricing.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:35:48.845381",
@@ -14888,6 +14990,124 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
+    "id": 173,
+    "name": "Suleam Ismail",
+    "slug": "suleam-ismail",
+    "bio": "Suleam Ismail is a recurring guest on the Moonshots podcast, where he discusses technology and its impact on the future. His insights cover a range of topics from SpaceX's valuation to AI advancements, providing listeners with a comprehensive understanding of the current tech landscape.",
+    "known_for": "His in-depth analysis of technology's role in shaping the future and its implications for investment strategies.",
+    "net_worth_usd": 2000000000.0,
+    "net_worth_source": "https://www.businessupturn.com/asia/middle-east-asia/united-arab-emirates/sultan-bin-sulayem-check-the-net-worth-of-a-leader-in-global-trade-and-logistics/39402/",
+    "net_worth_updated_at": "2026-04-12T05:04:41.005080",
+    "voice_tone": "enthusiastic and informative",
+    "voice_style": "Suleam presents his points with a mix of excitement and critical analysis",
+    "voice_delivery_notes": "Pace is moderate with emphasis on key points",
+    "voice_profile_updated_at": "2026-04-12 10:04:31",
+    "last_seen": "2026-04-12 10:04:31",
+    "last_episode_title": "SpaceX Goes Public, Claude\u2019s Mythos Release, and the US Data Center Delay | EP #246",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-04-11",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in companies and technologies at the forefront of AI and space exploration for potential high returns as these sectors are expected to drive the next wave of technological advancements.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-12T05:04:39.981644",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Suleam Ismail",
+      "fetched_at": "2026-04-12T10:04:39.981443+00:00",
+      "cliff_notes": "Suleam Ismail is recognized for his contributions to the discourse on technology and its future implications, particularly as a guest on the Moonshots podcast. His expertise spans a variety of tech-related topics, including space exploration, AI, and their financial aspects. Ismail's discussions often revolve around the potential of technology to disrupt traditional industries and create new investment opportunities. His insights are valuable for those looking to understand and capitalize on the rapid changes in the tech sector.",
+      "derived": {},
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Suleam Ismail is recognized for his contributions to the discourse on technology and its future implications, particularly as a guest on the Moonshots podcast. His expertise spans a variety of tech-related topics, including space exploration, AI, and their financial aspects. Ismail's discussions often revolve around the potential of technology to disrupt traditional industries and create new investment opportunities.",
+        "His insights are valuable for those looking to understand and capitalize on the rapid changes in the tech sector."
+      ],
+      "sections": [
+        {
+          "heading": "SpaceX Valuation",
+          "body": "Ismail discusses SpaceX's potential $2 trillion valuation and its role in sparking a new era of IPO wars, emphasizing the company's strategic steps from Starlink to lunar refueling."
+        },
+        {
+          "heading": "AI Advancements",
+          "body": "He highlights the competition between Thropic and OpenAI, noting Thropic's overtaking in total ARR and the implications for super intelligence, suggesting a consumer-driven growth bet by Thropic."
+        },
+        {
+          "heading": "Model Breakthroughs",
+          "body": "Ismail points out the arrival of AI models smart enough to break out of their environments, indicating a significant milestone in AI development and its potential risks."
+        },
+        {
+          "heading": "Future Predictions",
+          "body": "He emphasizes the importance of staying positive and optimistic about the future amidst rapid technological advancements, suggesting that we have arrived at a future once thought to be a 'moon shot'."
+        }
+      ]
+    },
+    "net_worth": "$2.00B"
+  },
+  {
+    "id": 174,
+    "name": "Alex Wees Negroes",
+    "slug": "alex-wees-negroes",
+    "bio": "Alex Wees Negroes is a recognized expert in AI and its applications, offering insights on technology's future and its impact on society. He has been a guest on the Moonshots podcast, discussing the rapid advancements in AI, SpaceX's valuation, and the implications of AI models breaking out of their environments.",
+    "known_for": "His perspectives on the future of AI and technology, particularly in the context of SpaceX's valuation and the race for AI dominance.",
+    "net_worth_usd": 3200000000.0,
+    "net_worth_source": "https://www.wionews.com/business-economy/alexandr-wang-s-net-worth-the-rise-of-28-year-old-ai-billionaire-1771580393044",
+    "net_worth_updated_at": "2026-04-12T05:04:50.425686",
+    "voice_tone": "analytical and engaging",
+    "voice_style": "Alex delivers his arguments with a focus on the practical implications of AI advancements",
+    "voice_delivery_notes": "Speaks with a measured pace, allowing for clear understanding of complex topics",
+    "voice_profile_updated_at": "2026-04-12 10:04:31",
+    "last_seen": "2026-04-12 10:04:31",
+    "last_episode_title": "SpaceX Goes Public, Claude\u2019s Mythos Release, and the US Data Center Delay | EP #246",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-04-11",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in companies and technologies at the forefront of AI and space exploration for potential high returns as these sectors are expected to drive the next wave of technological advancements.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-12T05:04:49.503362",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Alex Wees Negroes",
+      "fetched_at": "2026-04-12T10:04:49.503272+00:00",
+      "cliff_notes": "Alex Wees Negroes is an AI expert who has made significant contributions to the discourse on technology's future. His insights have been shared through various platforms, including the Moonshots podcast, where he discusses the implications of AI advancements and their impact on society. Wees Negroes provides a detailed analysis of SpaceX's valuation and the competitive landscape of AI, highlighting the importance of understanding these technologies for both investors and the general public. His expertise lies in the intersection of AI, technology, and their broader societal implications, making him a valuable voice in the ongoing conversation about the future of technology.",
+      "derived": {},
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Alex Wees Negroes is an AI expert who has made significant contributions to the discourse on technology's future. His insights have been shared through various platforms, including the Moonshots podcast, where he discusses the implications of AI advancements and their impact on society. Wees Negroes provides a detailed analysis of SpaceX's valuation and the competitive landscape of AI, highlighting the importance of understanding these technologies for both investors and the general public.",
+        "His expertise lies in the intersection of AI, technology, and their broader societal implications, making him a valuable voice in the ongoing conversation about the future of technology."
+      ],
+      "sections": [
+        {
+          "heading": "AI and SpaceX",
+          "body": "Alex Wees Negroes discusses the implications of SpaceX's $2 trillion valuation and its role in the future of space travel and data centers."
+        },
+        {
+          "heading": "AI Competition",
+          "body": "He provides insights into the competition between AI companies, such as Thropic overtaking OpenAI in terms of total ARR, and the impact on the field of AI."
+        },
+        {
+          "heading": "AI Models and Environments",
+          "body": "Wees Negroes highlights the development of AI models that are smart enough to break out of their environments, signifying a new era in AI capabilities."
+        },
+        {
+          "heading": "The Future of Technology",
+          "body": "He emphasizes the importance of staying positive and optimistic about the future, given the rapid advancements in technology and AI."
+        }
+      ]
+    },
+    "net_worth": "$3.20B"
+  },
+  {
     "id": 171,
     "name": "Steven Sinofsky",
     "slug": "steven-sinofsky",
@@ -14905,7 +15125,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-10",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Investing in companies with a strong cultural identity and clear strategic focus can provide an edge in technology markets, as demonstrated by the contrasting paths of Apple and Microsoft.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-10T22:05:58.972843",
@@ -14967,7 +15187,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Invest in software companies that define the market, focusing on backing scale-ready leaders, providing liquidity to early investors, and helping companies make strategic decisions.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-10T05:06:02.547144",
@@ -15032,7 +15252,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-04-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Investment opportunities may arise from the physical dislocation in energy markets and shifts in energy security, with a focus on commodities like oil, uranium, and gold.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-10T05:06:55.491790",
@@ -15093,7 +15313,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Investing in private credit, particularly through opportunistic funds, can provide higher returns by accepting additional credit risk and complexity, suitable for patient institutional capital.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-09T22:05:24.439502",
@@ -15153,7 +15373,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Invest in technologies and platforms that promote open-source contributions and technological pluralism to hedge against an uncertain future and ensure a more equitable distribution of power.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-09T22:05:43.619712",
@@ -15216,7 +15436,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Invest in technologies and platforms that promote open-source contributions and technological pluralism to hedge against an uncertain future and ensure a more equitable distribution of power.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-09T22:05:56.341318",
@@ -15277,7 +15497,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-04-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Invest in Pennsylvania due to its pro-growth policies, job creation, and improved business climate.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-09T05:06:15.797999",
@@ -15340,7 +15560,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-04-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "The core thesis presented is that advancements in AI and computer science can lead to new fields and paradigms, offering investment opportunities in technological disruption and innovation.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-08T05:04:38.528660",
@@ -15398,7 +15618,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Investing in select few names within the China property sector can offer significant potential for value appreciation, given the right conditions and primary research.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-08T05:04:49.164717",
@@ -15455,7 +15675,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-04-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Investment in Colossal represents a bet on the convergence of synthetic biology, AI, and environmental conservation, with potential for significant technological and societal impact.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-08T05:05:00.239498",
@@ -15516,7 +15736,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Investing in AI infrastructure and applications that can leverage the power of AI while addressing the challenges of verification and privacy.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-07T22:05:37.646780",
@@ -15575,7 +15795,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-04-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "Investing in US defense and technology companies that align with maintaining the nation's global primacy and ensuring economic prosperity.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-07T05:05:35.906002",
@@ -15632,7 +15852,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-04-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "Investing in US defense and technology companies that align with maintaining the nation's global primacy and ensuring economic prosperity.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-07T05:05:49.320297",
@@ -15689,7 +15909,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "Investing in companies that leverage coding agents could offer significant productivity gains and reshape the software development landscape.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-07T05:06:04.126625",
@@ -15810,7 +16030,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "Invest in AI technologies that leverage the breakthroughs in large language models, reasoning, agents, and self-improvement, as these advancements could lead to transformative software architectures and industry disruptions.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-04T05:05:35.449489",
@@ -15871,7 +16091,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.83,
+    "mention_score_decayed": 0.81,
     "last_main_idea": "Investing in technologies that can verify human interactions online is becoming critical as AI-generated content proliferates, posing both challenges and opportunities for social media platforms and the broader digital economy.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-03T05:05:04.562022",
@@ -15928,7 +16148,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.83,
+    "mention_score_decayed": 0.81,
     "last_main_idea": "Investing in technologies that can verify human interactions online is becoming critical as AI-generated content proliferates, posing both challenges and opportunities for social media platforms and the broader digital economy.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-03T05:05:15.312671",
@@ -15986,7 +16206,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-04-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.83,
+    "mention_score_decayed": 0.81,
     "last_main_idea": "Invest in sectors less affected by AI disruption and monitor geopolitical events for opportunities in private credit markets.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-03T05:05:31.083540",
@@ -16043,7 +16263,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-04-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.83,
+    "mention_score_decayed": 0.81,
     "last_main_idea": "Invest in sectors less affected by AI disruption and monitor geopolitical events for opportunities in private credit markets.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-03T05:05:40.347752",
@@ -16099,7 +16319,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.81,
+    "mention_score_decayed": 0.79,
     "last_main_idea": "Pictay asset management's AI-enhanced ETFs (PQNT and PQUS) aim to provide enhanced equity exposure through the use of artificial intelligence.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-01T22:04:02.778580",
@@ -16217,7 +16437,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-03-31",
     "mention_score": 1,
-    "mention_score_decayed": 0.79,
+    "mention_score_decayed": 0.78,
     "last_main_idea": "Investment in autonomous vehicle technology is poised to disrupt urban mobility and logistics, with companies like Uber positioned to capitalize on this shift.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-01T05:04:28.065974",
@@ -16275,7 +16495,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-31",
     "mention_score": 1,
-    "mention_score_decayed": 0.79,
+    "mention_score_decayed": 0.78,
     "last_main_idea": "Investing in companies that innovate in energy delivery and grid infrastructure can lead to significant returns as the demand for electricity increases and the need for a more efficient and sustainable grid becomes critical.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-01T05:04:38.716099",
@@ -16333,7 +16553,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-31",
     "mention_score": 1,
-    "mention_score_decayed": 0.79,
+    "mention_score_decayed": 0.78,
     "last_main_idea": "Investing in companies that innovate in energy delivery and grid infrastructure can lead to significant returns as the demand for electricity increases and the need for a more efficient and sustainable grid becomes critical.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-01T05:04:51.620692",
@@ -16395,7 +16615,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-31",
     "mention_score": 1,
-    "mention_score_decayed": 0.79,
+    "mention_score_decayed": 0.78,
     "last_main_idea": "Investing in AI-enhanced ETFs like PQNT and PQUS can provide enhanced equity exposure in the current market environment.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-01T05:05:18.251968",
@@ -16456,7 +16676,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.78,
+    "mention_score_decayed": 0.76,
     "last_main_idea": "Invest in companies and technologies that are reshaping industries and have the potential to create significant economic value for a broad user base, rather than just the companies themselves.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-31T05:03:10.373140",
@@ -16520,7 +16740,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.76,
+    "mention_score_decayed": 0.74,
     "last_main_idea": "The democratization of alternative investments provides retail investors with new opportunities, but also comes with structural differences and risks that must be understood.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-30T05:03:22.005290",
@@ -16578,7 +16798,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.74,
+    "mention_score_decayed": 0.72,
     "last_main_idea": "Betting on talented individuals in businesses rather than predicting tech trends is a more consistent approach to investing.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-28T22:05:06.552638",
@@ -16641,7 +16861,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.74,
+    "mention_score_decayed": 0.72,
     "last_main_idea": "Invest in companies that are driving innovation and can disrupt traditional industries by offering superior products at better prices, while keeping an eye on the competitive dynamics between the US and China in scientific research and technology.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-28T22:05:33.382582",
@@ -16812,7 +17032,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "Sovereign credit investing requires a deep understanding of the unique risks and dynamics of lending to governments, which can offer significant returns but also carries substantial risks, particularly in the current geopolitical climate.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-28T04:06:45.925345",
@@ -16874,7 +17094,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "Investing in companies that apply lessons from SpaceX and Tesla can lead to innovation in the physical economy, focusing on scalability, communication, and technical expertise.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-28T04:06:58.025543",
@@ -16936,7 +17156,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "Investing in companies that apply lessons from SpaceX and Tesla can lead to innovation in the physical economy, focusing on scalability, communication, and technical expertise.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-28T04:07:10.077867",
@@ -17290,7 +17510,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.69,
+    "mention_score_decayed": 0.68,
     "last_main_idea": "Investing in advanced manufacturing and workforce development for submarine production could lead to increased efficiency and meet the growing demand for naval capabilities.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-26T04:20:54.928623",
@@ -17347,7 +17567,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.69,
+    "mention_score_decayed": 0.68,
     "last_main_idea": "Investing in advanced manufacturing and workforce development for submarine production could lead to increased efficiency and meet the growing demand for naval capabilities.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-26T04:21:24.879895",
@@ -17403,7 +17623,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.69,
+    "mention_score_decayed": 0.68,
     "last_main_idea": "Investment in psychedelics for longevity and personal growth is based on the potential for these substances to induce significant changes in consciousness and promote personal rejuvenation.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-26T04:22:22.498838",
@@ -17460,7 +17680,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.68,
+    "mention_score_decayed": 0.66,
     "last_main_idea": "Investing in companies that can provide innovative power solutions for the modern, electronic battlefield can offer significant opportunities as military forces worldwide seek to upgrade their capabilities.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-25T04:10:43.350646",
@@ -17517,7 +17737,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.68,
+    "mention_score_decayed": 0.66,
     "last_main_idea": "Investing in companies that can provide innovative power solutions for the modern, electronic battlefield can offer significant opportunities as military forces worldwide seek to upgrade their capabilities.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-25T04:10:59.120340",
@@ -17578,7 +17798,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-03-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.68,
+    "mention_score_decayed": 0.66,
     "last_main_idea": "Invest in AI and robotics sectors as they are poised for significant growth and disruption, with a focus on companies that align with human values and contribute to abundance.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-25T04:11:26.668471",
@@ -17643,7 +17863,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.66,
+    "mention_score_decayed": 0.64,
     "last_main_idea": "Investing in ground infrastructure for space can unlock the next wave of innovation, making space missions more useful and efficient.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-24T04:43:11.153707",
@@ -17700,7 +17920,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.66,
+    "mention_score_decayed": 0.64,
     "last_main_idea": "Invest in companies that can leverage the evolving landscape of AI and GPU computing, particularly those with the agility to adapt and scale in a rapidly changing market.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-24T04:43:59.032721",
@@ -17758,7 +17978,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.66,
+    "mention_score_decayed": 0.64,
     "last_main_idea": "Svellen Capital sees opportunities in commodities and shipping markets amidst the Middle East crisis, with a focus on the practical implications of geopolitical events on global trade and logistics.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-24T04:44:35.945959",
@@ -17818,7 +18038,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.64,
+    "mention_score_decayed": 0.63,
     "last_main_idea": "The disruption in fertilizer supply due to geopolitical tensions presents an opportunity in agricultural commodities, particularly corn, which is heavily impacted by rising input costs and could see price support from tightened supply.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-23T04:22:03.060297",
@@ -17873,7 +18093,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.64,
+    "mention_score_decayed": 0.63,
     "last_main_idea": "Invest in innovation and infrastructure to create a smarter grid and incentivize clean energy adoption, while avoiding over-regulation that leads to unintended economic and environmental consequences.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-23T04:22:21.245588",
@@ -17934,7 +18154,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-03-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.62,
+    "mention_score_decayed": 0.6,
     "last_main_idea": "The integration of AI into mathematics can accelerate discovery and problem-solving, presenting opportunities for investment in AI technology and its applications in scientific research.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-21T04:32:04.005767",
@@ -17988,7 +18208,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-02-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.6,
+    "mention_score_decayed": 0.59,
     "last_main_idea": "Investing in AI and robotics companies that leverage neural networks for autonomous manufacturing could yield significant returns as this market is expected to become the largest economy globally.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-19T22:16:04.041005",
@@ -18049,7 +18269,7 @@ const dashboardData = {
     "last_podcast_name": "a16z Live",
     "last_episode_date": "2026-02-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.6,
+    "mention_score_decayed": 0.59,
     "last_main_idea": "Invest in companies that are at the forefront of developing AI-enabled, immersive technologies that can redefine consumer interactions beyond the current app-centric model.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-19T22:17:07.326933",
@@ -18108,7 +18328,7 @@ const dashboardData = {
     "last_podcast_name": null,
     "last_episode_date": null,
     "mention_score": 1,
-    "mention_score_decayed": 0.6,
+    "mention_score_decayed": 0.59,
     "last_main_idea": null,
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-19T22:17:58.321307",
@@ -18162,7 +18382,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-02-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.6,
+    "mention_score_decayed": 0.59,
     "last_main_idea": "The Picta AI Enhanced International Equity ETF (PQNT) uses AI to enhance international equity returns, suggesting a potential for outperformance through technology-driven investment strategies.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-19T22:19:12.461398",
@@ -18229,7 +18449,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.59,
+    "mention_score_decayed": 0.57,
     "last_main_idea": "While not directly investment-focused, the episode provides insights into the political climate and potential policy directions that could indirectly affect various sectors and investment strategies.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-19T21:20:25.000396",
@@ -18705,7 +18925,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-02-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.56,
+    "mention_score_decayed": 0.55,
     "last_main_idea": "Invest in AI and automation technologies that are driving the shift towards AI governance and efficiency in business operations.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-19T21:23:16.367259",
@@ -18764,7 +18984,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.55,
+    "mention_score_decayed": 0.54,
     "last_main_idea": "Invest in technology-driven businesses with a strong founder's mindset that focus on building and scaling rather than introspection, as they are more likely to shape the future and create significant value.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
@@ -18788,7 +19008,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.55,
+    "mention_score_decayed": 0.54,
     "last_main_idea": "Invest in platinum as a hybrid precious and industrial metal with potential for growth outside of traditional economic cycles, and consider the impact of AI on productivity and government deficits on interest rates.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
@@ -18812,7 +19032,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.52,
+    "mention_score_decayed": 0.51,
     "last_main_idea": "Invest in technologies and platforms that democratize capitalism and leverage AI to create scalable solutions in coding and product development.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,

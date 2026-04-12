@@ -1,5 +1,21 @@
 [
   {
+    "id": 152,
+    "podcast_name": "Moonshots with Peter Diamandis",
+    "episode_title": "SpaceX Goes Public, Claude\u2019s Mythos Release, and the US Data Center Delay | EP #246",
+    "episode_date": "2026-04-11",
+    "summary": "In this episode of Moonshots with Peter Diamandis, the focus is on the latest advancements in AI, space technology, and the future of technology in general. The discussion revolves around SpaceX's potential IPO valuation, the progress of Starlink, and the competition between AI companies like Thropic and OpenAI. The podcast aims to provide an optimistic view of the future, discussing the potential for AI to solve complex problems and the significant investment opportunities in deep tech and deep science.",
+    "key_takeaways": [
+      "SpaceX is considering an IPO with a $2 trillion valuation, indicating strong market confidence in space technology.",
+      "Starlink is seen as a profitable stepping stone for SpaceX's ambitions in space.",
+      "AI companies like Thropic are competing with OpenAI, with Thropic overtaking OpenAI in terms of total ARR.",
+      "The discussion highlights the potential for AI to break out of their environments, signifying a new era in AI capabilities.",
+      "Investment opportunities in deep tech and deep science are emphasized, with potential trillion-dollar payoffs for breakthroughs in longevity, room temperature superconducting, or better fusion containment."
+    ],
+    "investment_thesis": "Invest in companies and technologies at the forefront of AI and space exploration for potential high returns as these sectors are expected to drive the next wave of technological advancements.",
+    "key_tickers": null
+  },
+  {
     "id": 151,
     "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "episode_title": "Anthropic's $30B Ramp, Mythos Doomsday, OpenClaw Ankled, Iran War Ceasefire, Israel's Influence",

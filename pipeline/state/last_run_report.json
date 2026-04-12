@@ -1,9 +1,9 @@
 {
-  "last_run_iso": "2026-04-11T05:05:08.435000",
+  "last_run_iso": "2026-04-11T22:03:29.930718",
   "step_results": {
-    "transcripts_analyzed": 1,
+    "transcripts_analyzed": 0,
     "newsletters_imported": 0,
-    "insights_promoted": 1,
+    "insights_promoted": 0,
     "scores": 0,
     "pundits_enriched": 0
   },
