@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-12T05:05:51.887291",
-  "last_updated": "2026-04-12T05:05:51.887291",
-  "last_pipeline_run": "2026-04-12T05:05:51.887291",
+  "generated_at": "2026-04-12T22:03:30.951822",
+  "last_updated": "2026-04-12T22:03:30.951822",
+  "last_pipeline_run": "2026-04-12T22:03:30.951822",
   "main_page": {
     "overton": 8,
     "insights": 8,
@@ -18,30 +18,14 @@
     "podcasts_analyzed": 1
   },
   "step_results": {
-    "downloaded": 1,
-    "transcribed": 1,
-    "analyzed": 1,
-    "insight_created": 1,
-    "published": 1,
-    "total": 2
+    "downloaded": 0,
+    "transcribed": 0,
+    "analyzed": 0,
+    "insight_created": 0,
+    "published": 0,
+    "total": 1
   },
   "episodes": [
-    {
-      "id": "307ceafc-352f-11f1-8352-67d222f18c0c",
-      "podcast": "Moonshots with Peter Diamandis",
-      "title": "SpaceX Goes Public, Claude\u2019s Mythos Release, and the US Data Center Delay | EP #246",
-      "published": "2026-04-11",
-      "rss_guid": "307ceafc-352f-11f1-8352-67d222f18c0c",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "status": "complete"
-    },
     {
       "id": "d8e62120-c865-428e-b1c2-1d965406f293",
       "podcast": "The a16z Show",

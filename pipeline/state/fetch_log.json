@@ -1,12 +1,4 @@
 {
-  "timestamp": "2026-04-12T05:03:45.239207",
-  "results": [
-    {
-      "podcast": "Moonshots with Peter Diamandis",
-      "title": "SpaceX Goes Public, Claude\u2019s Mythos Release, and the US Data Center Delay | EP #246",
-      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/DVVTS8818609716.mp3",
-      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/DVVTS8818609716.txt",
-      "success": true
-    }
-  ]
+  "timestamp": "2026-04-12T22:02:24.881026",
+  "results": []
 }

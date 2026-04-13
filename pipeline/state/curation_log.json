@@ -1,21 +1,8 @@
 {
-  "timestamp": "2026-04-12T05:03:37.090905",
-  "total_feed_episodes": 2,
-  "approved_for_transcription": 2,
+  "timestamp": "2026-04-12T22:01:45.802615",
+  "total_feed_episodes": 1,
+  "approved_for_transcription": 1,
   "episodes": [
-    {
-      "podcast": "Moonshots with Peter Diamandis",
-      "title": "SpaceX Goes Public, Claude\u2019s Mythos Release, and the US Data Center Delay | EP #246",
-      "description": "\n        <p>In this episode, the mates dive into AI agents, Anthropic and OpenAI competition, AI economics and jobs, quantum risk to Bitcoin, energy breakthroughs, biotech deals, and humanoid robotics.</p>\n<p><br></p>\n<p>Read the Wall Street Journal article mentioned in the episode: <a href=\"https://www.wsj.com/tech/ai/ai-college-dropouts-ecc665b7\"><em>\"These AI Whiz Kids Dropped Out of College and Got Investors to Pay Their Bills\"</em></a></p>\n<p><br></p>\n<p>Get access to metatrends 10+ years b",
-      "audio_url": "https://traffic.megaphone.fm/DVVTS8818609716.mp3?updated=1775912554",
-      "published": "Sat, 11 Apr 2026 15:00:00 -0000",
-      "published_date": "2026-04-11",
-      "rss_guid": "307ceafc-352f-11f1-8352-67d222f18c0c",
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/DVVTS8818609716.mp3",
-      "filename": "DVVTS8818609716.mp3",
-      "status": "APPROVED",
-      "matched_keywords": []
-    },
     {
       "podcast": "The a16z Show",
       "title": "The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
