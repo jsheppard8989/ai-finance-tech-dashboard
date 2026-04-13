@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-12T22:03:30.951822",
-  "last_updated": "2026-04-12T22:03:30.951822",
-  "last_pipeline_run": "2026-04-12T22:03:30.951822",
+  "generated_at": "2026-04-13T05:06:36.578908",
+  "last_updated": "2026-04-13T05:06:36.578908",
+  "last_pipeline_run": "2026-04-13T05:06:36.578908",
   "main_page": {
     "overton": 8,
     "insights": 8,
@@ -15,7 +15,7 @@
     "overton_terms_total": 16,
     "latest_insights_total": 141,
     "today_mentions": {},
-    "podcasts_analyzed": 1
+    "podcasts_analyzed": 0
   },
   "step_results": {
     "downloaded": 0,
@@ -23,9 +23,31 @@
     "analyzed": 0,
     "insight_created": 0,
     "published": 0,
-    "total": 1
+    "total": 2
   },
   "episodes": [
+    {
+      "id": "8fefea30-3f8a-409c-afd8-27ece805b5d2",
+      "podcast": "The a16z Show",
+      "title": "Building Agents at Home: Parenting, Work, and Benevolent Neglect",
+      "published": "2026-04-13",
+      "rss_guid": "8fefea30-3f8a-409c-afd8-27ece805b5d2",
+      "stages": {
+        "downloaded": false,
+        "transcribed": false,
+        "analyzed": false,
+        "insight_created": false,
+        "published": false
+      },
+      "stage_reasons": {
+        "downloaded": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "transcribed": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "analyzed": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "insight_created": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
+      },
+      "status": "needs_download"
+    },
     {
       "id": "d8e62120-c865-428e-b1c2-1d965406f293",
       "podcast": "The a16z Show",
@@ -52,6 +74,13 @@
   "available_from_rss": [
     {
       "podcast": "The a16z Show",
+      "title": "Building Agents at Home: Parenting, Work, and Benevolent Neglect",
+      "published": "Mon, 13 Apr 2026 10:00:00 +0000",
+      "published_date": "2026-04-13",
+      "rss_guid": ""
+    },
+    {
+      "podcast": "The a16z Show",
       "title": "The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
       "published": "Wed, 8 Apr 2026 10:00:00 +0000",
       "published_date": "2026-04-08",
@@ -65,7 +94,7 @@
       "title": "The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
       "status": "needs_download",
       "published": "2026-04-08",
-      "age_days": 4,
+      "age_days": 5,
       "next_blocker": "downloaded"
     }
   ],
