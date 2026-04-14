@@ -3,7 +3,7 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-04-13T22:05:46.897827",
+  generatedAt: "2026-04-14T05:03:41.118489",
   chartsVersion: "2026-04-01T15:16:59.801570",
   tickerScores: [
   {
@@ -14283,7 +14283,7 @@ const dashboardData = {
 ],
   podcastGuests: [
   {
-    "id": 1868,
+    "id": 1890,
     "name": "Building Agents at Home",
     "slug": "building-agents-at-home",
     "bio": null,
@@ -14295,7 +14295,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1869,
+    "id": 1891,
     "name": "\"The Best Time to Invest\"",
     "slug": "the-best-time-to-invest",
     "bio": null,
@@ -14307,7 +14307,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1870,
+    "id": 1892,
     "name": "Governor Josh Shapiro of Pennsylvania",
     "slug": "governor-josh-shapiro-of-pennsylvania",
     "bio": null,
@@ -14319,7 +14319,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1871,
+    "id": 1893,
     "name": "Why $200 Oil Won\u2019t Spike Inflation to 9%",
     "slug": "why-200-oil-wont-spike-inflation-to-9",
     "bio": null,
@@ -14331,7 +14331,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1872,
+    "id": 1894,
     "name": "This special episode",
     "slug": "this-special-episode",
     "bio": null,
@@ -14343,7 +14343,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1873,
+    "id": 1895,
     "name": "Lupin Ramon",
     "slug": "lupin-ramon",
     "bio": null,
@@ -14355,7 +14355,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1874,
+    "id": 1896,
     "name": "When the Music Stops",
     "slug": "when-the-music-stops",
     "bio": null,
@@ -14367,7 +14367,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1875,
+    "id": 1897,
     "name": "Ground Infrastructure",
     "slug": "ground-infrastructure",
     "bio": null,
@@ -14379,7 +14379,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1876,
+    "id": 1898,
     "name": "Rory Johnston",
     "slug": "rory-johnston",
     "bio": null,
@@ -14391,7 +14391,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1877,
+    "id": 1899,
     "name": "Senator John Fetterman on Voting Rights",
     "slug": "senator-john-fetterman-on-voting-rights",
     "bio": null,
@@ -14403,7 +14403,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1878,
+    "id": 1900,
     "name": "Stock Market on Shaky Foundations",
     "slug": "stock-market-on-shaky-foundations",
     "bio": null,
@@ -14415,7 +14415,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1879,
+    "id": 1901,
     "name": "Elon Musk on Moonshots",
     "slug": "elon-musk-on-moonshots",
     "bio": null,
@@ -14427,7 +14427,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1880,
+    "id": 1902,
     "name": "Investing in Capitalism",
     "slug": "investing-in-capitalism",
     "bio": null,
@@ -14439,7 +14439,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1881,
+    "id": 1903,
     "name": "Harvard Professor Graham Allison",
     "slug": "harvard-professor-graham-allison",
     "bio": null,
@@ -14451,7 +14451,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1882,
+    "id": 1904,
     "name": "Andrew Yang",
     "slug": "andrew-yang",
     "bio": "Andrew Yang is an entrepreneur and political leader who popularized universal basic income in U.S. politics through his 2020 presidential campaign.",
@@ -14463,7 +14463,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1883,
+    "id": 1905,
     "name": "Inventing the Renaissance",
     "slug": "inventing-the-renaissance",
     "bio": null,
@@ -14475,7 +14475,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1884,
+    "id": 1906,
     "name": "Ray Dalio",
     "slug": "ray-dalio",
     "bio": "Ray Dalio is the founder of Bridgewater Associates and a macro investor known for his 'Principles' framework and work on long-term debt cycles.",
@@ -14487,7 +14487,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1885,
+    "id": 1907,
     "name": "Nobel Prize-winning economist Paul Krugman",
     "slug": "nobel-prize-winning-economist-paul-krugman",
     "bio": null,
@@ -14499,7 +14499,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1886,
+    "id": 1908,
     "name": "host Jack Mallers",
     "slug": "host-jack-mallers",
     "bio": null,
@@ -14511,7 +14511,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1887,
+    "id": 1909,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -14542,7 +14542,7 @@ const dashboardData = {
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-03-19",
     "mention_score": 4,
-    "mention_score_decayed": 2.83,
+    "mention_score_decayed": 2.76,
     "last_main_idea": "The Iran conflict could lead to a renewed inflation cycle, affecting commodities and energy markets, with potential second-order effects that markets may currently be underpricing.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:36:30.218908",
@@ -14783,7 +14783,7 @@ const dashboardData = {
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-03-19",
     "mention_score": 2,
-    "mention_score_decayed": 1.41,
+    "mention_score_decayed": 1.38,
     "last_main_idea": "The Iran conflict could lead to a renewed inflation cycle, affecting commodities and energy markets, with potential second-order effects that markets may currently be underpricing.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:35:48.845381",
@@ -16652,7 +16652,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-31",
     "mention_score": 1,
-    "mention_score_decayed": 0.76,
+    "mention_score_decayed": 0.74,
     "last_main_idea": "Investing in companies that innovate in energy delivery and grid infrastructure can lead to significant returns as the demand for electricity increases and the need for a more efficient and sustainable grid becomes critical.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-01T05:04:38.716099",
@@ -16710,7 +16710,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-31",
     "mention_score": 1,
-    "mention_score_decayed": 0.76,
+    "mention_score_decayed": 0.74,
     "last_main_idea": "Investing in companies that innovate in energy delivery and grid infrastructure can lead to significant returns as the demand for electricity increases and the need for a more efficient and sustainable grid becomes critical.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-01T05:04:51.620692",
@@ -16772,7 +16772,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-31",
     "mention_score": 1,
-    "mention_score_decayed": 0.76,
+    "mention_score_decayed": 0.74,
     "last_main_idea": "Investing in AI-enhanced ETFs like PQNT and PQUS can provide enhanced equity exposure in the current market environment.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-01T05:05:18.251968",
@@ -16833,7 +16833,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.74,
+    "mention_score_decayed": 0.72,
     "last_main_idea": "Invest in companies and technologies that are reshaping industries and have the potential to create significant economic value for a broad user base, rather than just the companies themselves.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-31T05:03:10.373140",
@@ -16897,7 +16897,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "The democratization of alternative investments provides retail investors with new opportunities, but also comes with structural differences and risks that must be understood.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-30T05:03:22.005290",
@@ -17189,7 +17189,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.69,
+    "mention_score_decayed": 0.68,
     "last_main_idea": "Sovereign credit investing requires a deep understanding of the unique risks and dynamics of lending to governments, which can offer significant returns but also carries substantial risks, particularly in the current geopolitical climate.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-28T04:06:45.925345",
@@ -17251,7 +17251,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.69,
+    "mention_score_decayed": 0.68,
     "last_main_idea": "Investing in companies that apply lessons from SpaceX and Tesla can lead to innovation in the physical economy, focusing on scalability, communication, and technical expertise.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-28T04:06:58.025543",
@@ -17313,7 +17313,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.69,
+    "mention_score_decayed": 0.68,
     "last_main_idea": "Investing in companies that apply lessons from SpaceX and Tesla can lead to innovation in the physical economy, focusing on scalability, communication, and technical expertise.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-28T04:07:10.077867",
@@ -17667,7 +17667,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.66,
+    "mention_score_decayed": 0.64,
     "last_main_idea": "Investing in advanced manufacturing and workforce development for submarine production could lead to increased efficiency and meet the growing demand for naval capabilities.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-26T04:20:54.928623",
@@ -17724,7 +17724,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.66,
+    "mention_score_decayed": 0.64,
     "last_main_idea": "Investing in advanced manufacturing and workforce development for submarine production could lead to increased efficiency and meet the growing demand for naval capabilities.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-26T04:21:24.879895",
@@ -17780,7 +17780,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.66,
+    "mention_score_decayed": 0.64,
     "last_main_idea": "Investment in psychedelics for longevity and personal growth is based on the potential for these substances to induce significant changes in consciousness and promote personal rejuvenation.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-26T04:22:22.498838",
@@ -17837,7 +17837,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.64,
+    "mention_score_decayed": 0.63,
     "last_main_idea": "Investing in companies that can provide innovative power solutions for the modern, electronic battlefield can offer significant opportunities as military forces worldwide seek to upgrade their capabilities.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-25T04:10:43.350646",
@@ -17894,7 +17894,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.64,
+    "mention_score_decayed": 0.63,
     "last_main_idea": "Investing in companies that can provide innovative power solutions for the modern, electronic battlefield can offer significant opportunities as military forces worldwide seek to upgrade their capabilities.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-25T04:10:59.120340",
@@ -17955,7 +17955,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-03-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.64,
+    "mention_score_decayed": 0.63,
     "last_main_idea": "Invest in AI and robotics sectors as they are poised for significant growth and disruption, with a focus on companies that align with human values and contribute to abundance.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-25T04:11:26.668471",
@@ -18020,7 +18020,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.63,
+    "mention_score_decayed": 0.62,
     "last_main_idea": "Investing in ground infrastructure for space can unlock the next wave of innovation, making space missions more useful and efficient.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-24T04:43:11.153707",
@@ -18077,7 +18077,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.63,
+    "mention_score_decayed": 0.62,
     "last_main_idea": "Invest in companies that can leverage the evolving landscape of AI and GPU computing, particularly those with the agility to adapt and scale in a rapidly changing market.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-24T04:43:59.032721",
@@ -18135,7 +18135,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.63,
+    "mention_score_decayed": 0.62,
     "last_main_idea": "Svellen Capital sees opportunities in commodities and shipping markets amidst the Middle East crisis, with a focus on the practical implications of geopolitical events on global trade and logistics.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-24T04:44:35.945959",
@@ -18195,7 +18195,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.62,
+    "mention_score_decayed": 0.6,
     "last_main_idea": "The disruption in fertilizer supply due to geopolitical tensions presents an opportunity in agricultural commodities, particularly corn, which is heavily impacted by rising input costs and could see price support from tightened supply.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-23T04:22:03.060297",
@@ -18250,7 +18250,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.62,
+    "mention_score_decayed": 0.6,
     "last_main_idea": "Invest in innovation and infrastructure to create a smarter grid and incentivize clean energy adoption, while avoiding over-regulation that leads to unintended economic and environmental consequences.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-23T04:22:21.245588",
@@ -18311,7 +18311,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-03-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.59,
+    "mention_score_decayed": 0.57,
     "last_main_idea": "The integration of AI into mathematics can accelerate discovery and problem-solving, presenting opportunities for investment in AI technology and its applications in scientific research.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-21T04:32:04.005767",
@@ -18365,7 +18365,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-02-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.57,
+    "mention_score_decayed": 0.56,
     "last_main_idea": "Investing in AI and robotics companies that leverage neural networks for autonomous manufacturing could yield significant returns as this market is expected to become the largest economy globally.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-19T22:16:04.041005",
@@ -18426,7 +18426,7 @@ const dashboardData = {
     "last_podcast_name": "a16z Live",
     "last_episode_date": "2026-02-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.57,
+    "mention_score_decayed": 0.56,
     "last_main_idea": "Invest in companies that are at the forefront of developing AI-enabled, immersive technologies that can redefine consumer interactions beyond the current app-centric model.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-19T22:17:07.326933",
@@ -18485,7 +18485,7 @@ const dashboardData = {
     "last_podcast_name": null,
     "last_episode_date": null,
     "mention_score": 1,
-    "mention_score_decayed": 0.57,
+    "mention_score_decayed": 0.56,
     "last_main_idea": null,
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-19T22:17:58.321307",
@@ -19189,7 +19189,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.5,
+    "mention_score_decayed": 0.49,
     "last_main_idea": "Invest in technologies and platforms that democratize capitalism and leverage AI to create scalable solutions in coding and product development.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,

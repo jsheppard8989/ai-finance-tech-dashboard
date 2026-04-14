@@ -1,49 +1,6 @@
 {
-  "last_updated": "2026-04-13T22:05:40.100033",
+  "last_updated": "2026-04-14T05:03:34.337054",
   "episodes": {
-    "the_a16z_show_building_agents_at_home:_paren": {
-      "info": {
-        "podcast": "The a16z Show",
-        "title": "Building Agents at Home: Parenting, Work, and Benevolent Neglect",
-        "published": "2026-04-13",
-        "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_building_agents_at_home__parenting__work__and_benevolent_neg_e9959a80.mp3",
-        "keywords": [],
-        "rss_guid": "8fefea30-3f8a-409c-afd8-27ece805b5d2"
-      },
-      "stages": {
-        "downloaded": {
-          "complete": true,
-          "timestamp": null,
-          "reason": null
-        },
-        "transcribed": {
-          "complete": true,
-          "file": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/the_a16z_show_20260413_8fefea30_3f8a_409c_afd8_27ece805.txt",
-          "timestamp": null,
-          "reason": null
-        },
-        "analyzed": {
-          "complete": true,
-          "episode_id": 153,
-          "timestamp": null,
-          "reason": null
-        },
-        "insight_created": {
-          "complete": true,
-          "insight_id": 50,
-          "insight_title": "The a16z Show: New Media Strategy and Investment Insights",
-          "timestamp": null,
-          "reason": null
-        },
-        "published": {
-          "complete": false,
-          "timestamp": null,
-          "reason": "Not in data.js yet (run export and push to site)."
-        }
-      },
-      "first_seen": "2026-04-13T22:05:40.033706",
-      "status": "needs_export"
-    },
     "the_a16z_show_the_agent_era:_building_softwa": {
       "info": {
         "podcast": "The a16z Show",
@@ -82,7 +39,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-04-13T22:05:40.091938",
+      "first_seen": "2026-04-14T05:03:34.306781",
       "status": "needs_analysis"
     }
   }

@@ -1,21 +1,8 @@
 {
-  "timestamp": "2026-04-13T22:02:27.610006",
-  "total_feed_episodes": 2,
-  "approved_for_transcription": 2,
+  "timestamp": "2026-04-14T05:01:04.413036",
+  "total_feed_episodes": 1,
+  "approved_for_transcription": 1,
   "episodes": [
-    {
-      "podcast": "The a16z Show",
-      "title": "Building Agents at Home: Parenting, Work, and Benevolent Neglect",
-      "description": "<p>Katherine Boyle and Sarah Wang speak with Jesse Genet, a startup founder and family builder, about building 11 AI agents while homeschooling four young children. Jesse runs agents across roles ranging from coding to curriculum planning to household management, and she shares how agent architecture, logging systems, and \u201cbenevolent neglect\u201d parenting have changed her life as both a founder and a mother.</p>\n<p>\u00a0</p>\n<p>Resources:</p>\n<p>Follow Jesse Genet on X: <a href=\"https://x.com/jessegene",
-      "audio_url": "https://mgln.ai/e/1344/afp-848985-injected.calisto.simplecastaudio.com/3f86df7b-51c6-4101-88a2-550dba782de8/episodes/e654bac0-32fb-4d22-b867-d0ee6163ab2d/audio/128/default.mp3?aid=rss_feed&awCollectionId=3f86df7b-51c6-4101-88a2-550dba782de8&awEpisodeId=e654bac0-32fb-4d22-b867-d0ee6163ab2d&feed=JGE3yC0V",
-      "published": "Mon, 13 Apr 2026 10:00:00 +0000",
-      "published_date": "2026-04-13",
-      "rss_guid": "8fefea30-3f8a-409c-afd8-27ece805b5d2",
-      "status": "APPROVED",
-      "matched_keywords": [],
-      "audio_file": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_building_agents_at_home__parenting__work__and_benevolent_neg_e9959a80.mp3",
-      "filename": "the_a16z_show_building_agents_at_home__parenting__work__and_benevolent_neg_e9959a80.mp3"
-    },
     {
       "podcast": "The a16z Show",
       "title": "The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",

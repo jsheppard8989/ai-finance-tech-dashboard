@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-04-13T22:02:32.338101",
+  "timestamp": "2026-04-14T05:01:13.639186",
   "results": [
     {
-      "podcast": "The a16z Show",
-      "title": "Building Agents at Home: Parenting, Work, and Benevolent Neglect",
-      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_20260413_8fefea30_3f8a_409c_afd8_27ece805.mp3",
-      "transcript_path": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/the_a16z_show_20260413_8fefea30_3f8a_409c_afd8_27ece805.txt",
-      "success": true
+      "podcast": "The Jack Mallers Show",
+      "title": "Bitcoin & the Bigger Shovel",
+      "audio_path": "/Users/jaredsheppard/.openclaw/workspace/audio/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-3-14%2F422030523-44100-2-a63bd917ddd15.mp3",
+      "transcript_path": null,
+      "success": false
     }
   ]
 }
