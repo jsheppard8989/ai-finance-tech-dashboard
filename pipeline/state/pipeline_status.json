@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-13T05:06:36.649198",
+  "last_updated": "2026-04-13T22:05:40.100033",
   "episodes": {
     "the_a16z_show_building_agents_at_home:_paren": {
       "info": {
@@ -17,21 +17,23 @@
           "reason": null
         },
         "transcribed": {
-          "complete": false,
-          "file": null,
+          "complete": true,
+          "file": "/Users/jaredsheppard/.openclaw/workspace/pipeline/transcripts/the_a16z_show_20260413_8fefea30_3f8a_409c_afd8_27ece805.txt",
           "timestamp": null,
-          "reason": "Waiting for fetch/transcribe step"
+          "reason": null
         },
         "analyzed": {
-          "complete": false,
-          "episode_id": null,
+          "complete": true,
+          "episode_id": 153,
           "timestamp": null,
-          "reason": "Waiting for next analyze run (transcript \u2192 DB)."
+          "reason": null
         },
         "insight_created": {
-          "complete": false,
+          "complete": true,
+          "insight_id": 50,
+          "insight_title": "The a16z Show: New Media Strategy and Investment Insights",
           "timestamp": null,
-          "reason": "Depends on analyze step first."
+          "reason": null
         },
         "published": {
           "complete": false,
@@ -39,8 +41,8 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-04-13T05:06:36.581893",
-      "status": "needs_transcription"
+      "first_seen": "2026-04-13T22:05:40.033706",
+      "status": "needs_export"
     },
     "the_a16z_show_the_agent_era:_building_softwa": {
       "info": {
@@ -80,7 +82,7 @@
           "reason": "Not in data.js yet (run export and push to site)."
         }
       },
-      "first_seen": "2026-04-13T05:06:36.640447",
+      "first_seen": "2026-04-13T22:05:40.091938",
       "status": "needs_analysis"
     }
   }

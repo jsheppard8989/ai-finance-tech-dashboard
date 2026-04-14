@@ -872,7 +872,13 @@ def main():
 
         run_script("Fetch Prices", "fetch_prices.py", timeout=120)
         # Generate 2-week charts and price data for the website
-        run_script("Generate Charts", "generate_charts.py", timeout=600)
+        if not run_script("Generate Charts", "generate_charts.py", timeout=600):
+            errors.append("charts")
+            send_notification(
+                "Pipeline: Charts failed",
+                "generate_charts.py failed. Existing chart images may be stale. Check pipeline logs.",
+                priority=1,
+            )
         run_script("Auto-Curate Terms", "auto_curate_terms.py", timeout=60)
         run_script("Extract Podcast Guests", "extract_guests.py", timeout=180)
 
@@ -881,6 +887,11 @@ def main():
         else:
             if not maybe_run_weekly_debate_after_export():
                 errors.append("weekly_debate")
+                send_notification(
+                    "Pipeline: Weekly debate failed",
+                    "debate_weekly.py failed after export; debate contract/audio were not updated.",
+                    priority=1,
+                )
 
         # Build commit message
         ts = datetime.now().strftime("%Y-%m-%d %H:%M")

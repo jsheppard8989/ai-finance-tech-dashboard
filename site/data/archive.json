@@ -1,6 +1,29 @@
 {
   "insights": [
     {
+      "id": 168,
+      "title": "Building Agents at Home: Parenting, Work, and Benevolent Neglect",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-04-13",
+      "summary": "In this episode of the a16z Show, Katherine Boyle and Sarah Wang interview Jessie Janae, a former Y Combinator founder turned homeschooling parent. Janae discusses her use of AI agents to manage various tasks around the house and support her family. She shares her journey from a tech entrepreneur to a parent leveraging AI to streamline household and homeschooling responsibilities. The conversation explores the potential of AI to transform family dynamics and parenting, including the possibility of AI reversing the decline in fertility rates by making parenthood more manageable and fulfilling.",
+      "key_takeaway": "AI has the potential to revolutionize home management and parenting by automating administrative tasks, which could lead to increased satisfaction and potentially influence demographic trends.",
+      "tickers_mentioned": [
+        "AAPL",
+        "GOOGL",
+        "AMZN",
+        "TSLA",
+        "MSFT"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-13",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 153
+    },
+    {
       "id": 167,
       "title": "SpaceX Goes Public, Claude\u2019s Mythos Release, and the US Data Center Delay | EP #246",
       "source_type": "podcast",
@@ -149,11 +172,11 @@
         "TSLA"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-04-09",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-04-14",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 145
     },
     {

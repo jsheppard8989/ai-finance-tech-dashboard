@@ -3,7 +3,7 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-04-13T05:07:09.453250",
+  generatedAt: "2026-04-13T22:05:46.897827",
   chartsVersion: "2026-04-01T15:16:59.801570",
   tickerScores: [
   {
@@ -760,6 +760,29 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 168,
+      "title": "Building Agents at Home: Parenting, Work, and Benevolent Neglect",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-04-13",
+      "summary": "In this episode of the a16z Show, Katherine Boyle and Sarah Wang interview Jessie Janae, a former Y Combinator founder turned homeschooling parent. Janae discusses her use of AI agents to manage various tasks around the house and support her family. She shares her journey from a tech entrepreneur to a parent leveraging AI to streamline household and homeschooling responsibilities. The conversation explores the potential of AI to transform family dynamics and parenting, including the possibility of AI reversing the decline in fertility rates by making parenthood more manageable and fulfilling.",
+      "key_takeaway": "AI has the potential to revolutionize home management and parenting by automating administrative tasks, which could lead to increased satisfaction and potentially influence demographic trends.",
+      "tickers_mentioned": [
+        "AAPL",
+        "GOOGL",
+        "AMZN",
+        "TSLA",
+        "MSFT"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-13",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 153
+    },
+    {
       "id": 167,
       "title": "SpaceX Goes Public, Claude\u2019s Mythos Release, and the US Data Center Delay | EP #246",
       "source_type": "podcast",
@@ -908,11 +931,11 @@ const dashboardData = {
         "TSLA"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-04-09",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-04-14",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 145
     },
     {
@@ -3967,6 +3990,26 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 168,
+      "title": "Building Agents at Home: Parenting, Work, and Benevolent Neglect",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-04-13",
+      "summary": "In this episode of the a16z Show, Katherine Boyle and Sarah Wang interview Jessie Janae, a former Y Combinator founder turned homeschooling parent. Janae discusses her use of AI agents to manage various tasks around the house and support her family. She shares her journey from a tech entrepreneur to a parent leveraging AI to streamline household and homeschooling responsibilities. The conversation explores the potential of AI to transform family dynamics and parenting, including the possibility of AI reversing the decline in fertility rates by making parenthood more manageable and fulfilling.",
+      "key_takeaway": "AI has the potential to revolutionize home management and parenting by automating administrative tasks, which could lead to increased satisfaction and potentially influence demographic trends.",
+      "tickers_mentioned": "[\"AAPL\", \"GOOGL\", \"AMZN\", \"TSLA\", \"MSFT\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-13",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 153,
+      "episode_release_date": "2026-04-13",
+      "guest_name": "Building Agents at Home",
+      "key_tickers": []
+    },
+    {
       "id": 167,
       "title": "SpaceX Goes Public, Claude\u2019s Mythos Release, and the US Data Center Delay | EP #246",
       "source_type": "podcast",
@@ -4099,26 +4142,6 @@ const dashboardData = {
         "SPX",
         "USD"
       ]
-    },
-    {
-      "id": 160,
-      "title": "Josh Shapiro on Trump, Iran War Chaos, Israel's Failure, the Economy, and 2028 Race",
-      "source_type": "podcast",
-      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "source_date": "2026-04-08",
-      "summary": "In this episode of 'All-In with Chamath, Jason, Sacks & Friedberg', the hosts interview Governor Josh Shapiro of Pennsylvania. They discuss Shapiro's track record in Pennsylvania, focusing on pro-growth policies, job creation, tax cuts, and improving the state's permitting process. The conversation also touches on the impact of national policies, such as tariffs and the war in Iran, on Pennsylvania's economy. Additionally, Shapiro shares his nuanced views on Israel and the importance of separating anti-Semitism from Middle East policy debates.",
-      "key_takeaway": "Invest in Pennsylvania due to its pro-growth policies, job creation, and improved business climate.",
-      "tickers_mentioned": "[\"AAPL\", \"NVDA\", \"SPY\", \"TSLA\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-04-09",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 145,
-      "episode_release_date": "2026-04-08",
-      "guest_name": "Governor Josh Shapiro of Pennsylvania",
-      "key_tickers": []
     },
     {
       "id": 162,
@@ -14129,9 +14152,110 @@ const dashboardData = {
     "source_name": "Moonshots with Peter Diamandis",
     "source_date": "2026-04-11",
     "key_tickers": []
+  },
+  "168": {
+    "id": 159,
+    "insight_id": 168,
+    "podcast_episode_id": 153,
+    "overview": "The integration of AI into home management and parenting is a burgeoning field with significant implications for work-life balance and demographic trends. As AI becomes more sophisticated, its ability to automate and even self-replicate tasks could revolutionize how parents manage their time and energy, potentially leading to a reevaluation of the challenges associated with parenthood. The current debate centers on the extent to which AI can alleviate the burdens of parenting, thereby influencing societal structures and personal choices regarding family size and work commitments.",
+    "key_takeaways_detailed": [
+      "AI's ability to automate and self-replicate tasks in home management can significantly reduce the administrative burden on parents.",
+      "The potential for AI to create more manageable parenting conditions could influence fertility rates and family dynamics.",
+      "The shift towards AI in home management reflects a broader trend in the decentralization of technical problem-solving, making it accessible to non-experts.",
+      "AI's role in parenting extends beyond task management to include the facilitation of child development through 'benevolent neglect', teaching independence and resilience.",
+      "The replication of AI agents without manual intervention signifies a leap in technology that could have far-reaching implications across various industries."
+    ],
+    "investment_thesis": "Investing in AI technology for home management is predicated on the belief that as these systems become more integrated and efficient, they will lead to increased parental satisfaction and potentially influence demographic trends by making parenthood more manageable. The thesis holds that within the next 5-10 years, AI will become a staple in home management, reducing the friction associated with parenting and household tasks, thereby creating a more favorable environment for larger families and potentially reversing declining fertility rates.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's Siri and its continued investment in AI for consumer products make it a key player in the AI home management space.",
+        "positioning": "Strategic long position, as Apple's ecosystem has the potential to integrate AI home management seamlessly with its devices.",
+        "risk": "The risk of Apple falling behind in AI innovation or failing to capture significant market share in the home management AI sector."
+      },
+      "GOOGL": {
+        "rationale": "Google's extensive AI research and its Google Assistant position it as a leader in AI technology for home management.",
+        "positioning": "Strategic long position, considering Google's potential to leverage its AI capabilities across various platforms.",
+        "risk": "The risk of Google failing to effectively monetize its AI technology or facing increased regulatory scrutiny."
+      },
+      "AMZN": {
+        "rationale": "Amazon's Alexa and its investments in AI for home automation make it a significant player in this market.",
+        "positioning": "Strategic long position, as Amazon's ecosystem could further integrate AI for a comprehensive home management solution.",
+        "risk": "The risk of Amazon not being able to maintain its competitive edge in the AI home management market."
+      },
+      "TSLA": {
+        "rationale": "Tesla's AI advancements, particularly in automation, could have applications in home management and robotics.",
+        "positioning": "Tactical long position, as Tesla's AI technology could be leveraged for home management applications.",
+        "risk": "The risk of Tesla not successfully transitioning its automotive AI technology to the home management sector."
+      },
+      "MSFT": {
+        "rationale": "Microsoft's investments in AI and its Cortana assistant position it as a contender in the AI home management market.",
+        "positioning": "Strategic long position, considering Microsoft's potential to integrate AI across its broad range of products and services.",
+        "risk": "The risk of Microsoft not being able to compete effectively in the AI home management market against more specialized competitors."
+      }
+    },
+    "positioning_guidance": "Investors should consider a diversified approach, with a mix of strategic long positions in companies with established AI capabilities and tactical long positions in companies that may apply their AI technology to home management. The time horizon for this investment thesis is medium to long-term, as the integration and adoption of AI in home management is expected to grow over the next 5-10 years.",
+    "risk_factors": [
+      "The failure of AI home management systems to meet consumer expectations could slow adoption rates.",
+      "Increased regulatory scrutiny on AI technology could hinder development and deployment.",
+      "The potential for security breaches and privacy concerns with AI systems in the home.",
+      "The risk of AI displacing human interaction and negatively affecting child development.",
+      "The possibility that AI advancements may not lead to the anticipated demographic shifts."
+    ],
+    "contrarian_signals": [
+      "A significant number of consumers preferring traditional methods of home management over AI-driven solutions.",
+      "A lack of significant demographic changes despite the proliferation of AI home management tools.",
+      "The emergence of new technologies that render current AI home management systems obsolete."
+    ],
+    "catalysts": [
+      "The release of new AI home management products by major tech companies.",
+      "Positive consumer reviews and increased adoption rates of AI home management systems.",
+      "Publications of studies showing improved parental satisfaction and demographic shifts attributed to AI home management.",
+      "Regulatory approvals that pave the way for more widespread use of AI in home management.",
+      "Partnerships between tech companies and home appliance manufacturers to integrate AI into household products."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-04-13T22:05:12.788391",
+    "updated_at": "2026-04-14 03:05:12",
+    "episode_evidence": "Jessie Janae, a former Y Combinator founder, has leveraged her technical background to create 11 AI agents to manage various tasks around the house and support her family. She states, 'I got my agents to learn how to build other agents on their own. So I could be like we need another agent you guys and they actually can spin them up without me touching the machine which is a little crazy.' This demonstrates the advanced capabilities of AI in home management, where not only does it automate tasks, but it also has the ability to self-replicate, reducing the need for manual intervention. Janae's experience also highlights the potential of AI to transform family dynamics and parenting by automating administrative tasks, which could lead to increased satisfaction and potentially influence demographic trends. She shares, 'The result is not a frictionless home. It is a home where a parent can spend two uninterrupted hours ignoring her children on purpose.' This showcases the balance between leveraging AI for efficiency and maintaining essential parenting practices like encouraging independence and resilience in children.",
+    "falsification_tracks": [
+      "A significant increase in reported technical issues or failures with AI home management systems that affect their functionality and reliability.",
+      "A study showing no change or a decrease in parental satisfaction or an increase in stress levels among parents using AI for home and child management.",
+      "Demographic data indicating no change or a continued decline in fertility rates despite the proliferation of AI home management tools."
+    ],
+    "insight_title": "Building Agents at Home: Parenting, Work, and Benevolent Neglect",
+    "source_name": "The a16z Show",
+    "source_date": "2026-04-13",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
+  {
+    "id": 181,
+    "term": "AI Agents",
+    "definition": "Software programs designed to perform specific tasks autonomously, often learning and adapting to user needs over time.",
+    "investment_implications": "Investors should consider companies developing AI agent technology for consumer applications.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-04-14 03:03:41",
+    "priority_score": 80
+  },
+  {
+    "id": 182,
+    "term": "Homeschooling Automation",
+    "definition": "The use of AI and technology to automate educational planning and administrative tasks for homeschooled children.",
+    "investment_implications": "Investors may look for opportunities in edtech companies focusing on homeschooling solutions.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-04-14 03:03:41",
+    "priority_score": 80
+  },
   {
     "id": 179,
     "term": "Co-generation",
@@ -14155,35 +14279,23 @@ const dashboardData = {
     "relevance_score": 50,
     "submitted_date": "2026-04-12 10:04:31",
     "priority_score": 80
-  },
-  {
-    "id": 177,
-    "term": "Labor Augmentation and Replacement",
-    "definition": "The use of AI technologies to enhance human labor or replace human labor altogether, leading to increased efficiency and reduced costs.",
-    "investment_implications": "Investors should consider companies that are developing AI technologies aimed at labor augmentation and replacement, as these are likely to see rapid adoption in the enterprise sector.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-04-11 10:04:00",
-    "priority_score": 80
-  },
-  {
-    "id": 178,
-    "term": "Exponential Growth in AI Revenue",
-    "definition": "The rapid and accelerating increase in revenue generated by AI companies, indicating a significant shift in market dynamics and the potential for substantial returns on investment.",
-    "investment_implications": "Investors should monitor AI companies that are experiencing exponential growth in revenue, as this may signal a strong market position and future profitability.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-04-11 10:04:00",
-    "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 1847,
+    "id": 1868,
+    "name": "Building Agents at Home",
+    "slug": "building-agents-at-home",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "AI has the potential to revolutionize home management and parenting by automating administrative tasks, which could lead to increased satisfaction and potentially influence demographic trends.",
+    "last_episode_title": "Building Agents at Home: Parenting, Work, and Benevolent Neglect",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-04-13",
+    "appearance_count": 1
+  },
+  {
+    "id": 1869,
     "name": "\"The Best Time to Invest\"",
     "slug": "the-best-time-to-invest",
     "bio": null,
@@ -14195,7 +14307,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1848,
+    "id": 1870,
     "name": "Governor Josh Shapiro of Pennsylvania",
     "slug": "governor-josh-shapiro-of-pennsylvania",
     "bio": null,
@@ -14207,7 +14319,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1849,
+    "id": 1871,
     "name": "Why $200 Oil Won\u2019t Spike Inflation to 9%",
     "slug": "why-200-oil-wont-spike-inflation-to-9",
     "bio": null,
@@ -14219,7 +14331,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1850,
+    "id": 1872,
     "name": "This special episode",
     "slug": "this-special-episode",
     "bio": null,
@@ -14231,7 +14343,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1851,
+    "id": 1873,
     "name": "Lupin Ramon",
     "slug": "lupin-ramon",
     "bio": null,
@@ -14243,7 +14355,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1852,
+    "id": 1874,
     "name": "When the Music Stops",
     "slug": "when-the-music-stops",
     "bio": null,
@@ -14255,7 +14367,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1853,
+    "id": 1875,
     "name": "Ground Infrastructure",
     "slug": "ground-infrastructure",
     "bio": null,
@@ -14267,7 +14379,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1854,
+    "id": 1876,
     "name": "Rory Johnston",
     "slug": "rory-johnston",
     "bio": null,
@@ -14279,7 +14391,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1855,
+    "id": 1877,
     "name": "Senator John Fetterman on Voting Rights",
     "slug": "senator-john-fetterman-on-voting-rights",
     "bio": null,
@@ -14291,7 +14403,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1856,
+    "id": 1878,
     "name": "Stock Market on Shaky Foundations",
     "slug": "stock-market-on-shaky-foundations",
     "bio": null,
@@ -14303,7 +14415,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1857,
+    "id": 1879,
     "name": "Elon Musk on Moonshots",
     "slug": "elon-musk-on-moonshots",
     "bio": null,
@@ -14315,7 +14427,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1858,
+    "id": 1880,
     "name": "Investing in Capitalism",
     "slug": "investing-in-capitalism",
     "bio": null,
@@ -14327,7 +14439,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1859,
+    "id": 1881,
     "name": "Harvard Professor Graham Allison",
     "slug": "harvard-professor-graham-allison",
     "bio": null,
@@ -14339,7 +14451,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1860,
+    "id": 1882,
     "name": "Andrew Yang",
     "slug": "andrew-yang",
     "bio": "Andrew Yang is an entrepreneur and political leader who popularized universal basic income in U.S. politics through his 2020 presidential campaign.",
@@ -14351,7 +14463,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1861,
+    "id": 1883,
     "name": "Inventing the Renaissance",
     "slug": "inventing-the-renaissance",
     "bio": null,
@@ -14363,7 +14475,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1862,
+    "id": 1884,
     "name": "Ray Dalio",
     "slug": "ray-dalio",
     "bio": "Ray Dalio is the founder of Bridgewater Associates and a macro investor known for his 'Principles' framework and work on long-term debt cycles.",
@@ -14375,7 +14487,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1863,
+    "id": 1885,
     "name": "Nobel Prize-winning economist Paul Krugman",
     "slug": "nobel-prize-winning-economist-paul-krugman",
     "bio": null,
@@ -14387,7 +14499,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1864,
+    "id": 1886,
     "name": "host Jack Mallers",
     "slug": "host-jack-mallers",
     "bio": null,
@@ -14399,7 +14511,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1865,
+    "id": 1887,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -14408,18 +14520,6 @@ const dashboardData = {
     "last_episode_title": "Ben Horowitz: xAI Executive Exodus, Ilya's $5B SSI Valuation, Apple's AI Crisis, The Pace of AI | #232",
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-02-19",
-    "appearance_count": 1
-  },
-  {
-    "id": 1866,
-    "name": "Bosworth",
-    "slug": "bosworth",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Invest in companies that are at the forefront of developing AI-enabled, immersive technologies that can redefine consumer interactions beyond the current app-centric model.",
-    "last_episode_title": "The Future of Consumer Technology and the Post-Mobile Phone Era",
-    "last_podcast_name": "a16z Live",
-    "last_episode_date": "2026-02-15",
     "appearance_count": 1
   }
 ],
@@ -14498,7 +14598,7 @@ const dashboardData = {
     "last_podcast_name": "All-In Podcast",
     "last_episode_date": "2026-03-28",
     "mention_score": 3,
-    "mention_score_decayed": 2.12,
+    "mention_score_decayed": 2.07,
     "last_main_idea": "Investing in AI-driven platforms and technologies is essential for capturing the growth in the global financial system and staying ahead in the AI era.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:40:52.368193",
@@ -14740,7 +14840,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-28",
     "mention_score": 2,
-    "mention_score_decayed": 1.41,
+    "mention_score_decayed": 1.38,
     "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-28T22:05:42.395070",
@@ -14801,7 +14901,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-28",
     "mention_score": 2,
-    "mention_score_decayed": 1.41,
+    "mention_score_decayed": 1.38,
     "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-28T22:05:50.938326",
@@ -14858,7 +14958,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-02-15",
     "mention_score": 2,
-    "mention_score_decayed": 1.41,
+    "mention_score_decayed": 1.38,
     "last_main_idea": "Invest in sectors with fertile ground for short selling, such as AI and tech, and under-allocated areas like junior mining, while combining long and short strategies for potential alpha.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:42:09.376490",
@@ -14920,7 +15020,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-02-18",
     "mention_score": 2,
-    "mention_score_decayed": 1.07,
+    "mention_score_decayed": 1.05,
     "last_main_idea": "Invest in the vertical integration of AI, the rise of India as a global AI hub, and the shift towards agent-based interactions.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-19T21:23:33.038094",
@@ -14983,11 +15083,68 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-16",
     "mention_score": 2,
-    "mention_score_decayed": 1.07,
+    "mention_score_decayed": 1.05,
     "last_main_idea": "Invest in AI startups that focus on specific niches and use cases, as they can compete effectively against larger AI companies by capitalizing on the gaps between platforms.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
+  },
+  {
+    "id": 175,
+    "name": "Jessie Janae",
+    "slug": "jessie-janae",
+    "bio": "Jessie Janae is a former Y Combinator founder who has leveraged AI to revolutionize home management and support her role as a homeschooling parent. She has built 11 AI agents, each with a distinct role, from lesson planning to grocery ordering, demonstrating her innovative approach to technology.",
+    "known_for": "Innovative use of AI in home management and education.",
+    "net_worth_usd": 26274848.0,
+    "net_worth_source": "https://hafi.pro/income/jessiej",
+    "net_worth_updated_at": "2026-04-13T22:03:57.709758",
+    "voice_tone": "Motivated and enthusiastic",
+    "voice_style": "Practical and solution-oriented",
+    "voice_delivery_notes": "Speaks with conviction about the potential of AI in daily life",
+    "voice_profile_updated_at": "2026-04-14 03:03:41",
+    "last_seen": "2026-04-14 03:03:41",
+    "last_episode_title": "Building Agents at Home: Parenting, Work, and Benevolent Neglect",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-04-13",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "AI has the potential to revolutionize home management and parenting by automating administrative tasks, which could lead to increased satisfaction and potentially influence demographic trends.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-13T22:03:56.679808",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Jessie Janae",
+      "fetched_at": "2026-04-14T03:03:56.679478+00:00",
+      "cliff_notes": "Jessie Janae, a former Y Combinator founder, has transitioned from the tech startup world to applying AI in her personal life, specifically in managing her home and supporting her role as a homeschooling parent. Recognizing the historical pattern where labor-saving appliances did not reduce the workload for mothers, she decided to test whether AI could break this cycle. Janae built 11 AI agents, each with a distinct role, from lesson planning to grocery ordering to logging her children's progress via voice notes. Her agents are now capable of building other agents without her direct intervention, showcasing her innovative approach to leveraging AI for personal and educational purposes.",
+      "derived": {
+        "former_positions": "Y Combinator founder"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Jessie Janae, a former Y Combinator founder, has transitioned from the tech startup world to applying AI in her personal life, specifically in managing her home and supporting her role as a homeschooling parent. Recognizing the historical pattern where labor-saving appliances did not reduce the workload for mothers, she decided to test whether AI could break this cycle.",
+        "Janae built 11 AI agents, each with a distinct role, from lesson planning to grocery ordering to logging her children's progress via voice notes. Her agents are now capable of building other agents without her direct intervention, showcasing her innovative approach to leveraging AI for personal and educational purposes."
+      ],
+      "sections": [
+        {
+          "heading": "AI in Home Management",
+          "body": "Jessie Janae has utilized AI to manage her home effectively, creating agents that perform tasks from grocery ordering to lesson planning."
+        },
+        {
+          "heading": "Homeschooling with AI",
+          "body": "As a homeschooling parent, Janae has employed AI to assist in educating her four children under six, using agents to log their progress and plan lessons."
+        },
+        {
+          "heading": "Agent Autonomy",
+          "body": "Janae's AI agents are capable of building other agents, demonstrating a level of autonomy and innovation in AI application within personal life management."
+        }
+      ]
+    },
+    "net_worth": "$26.3M"
   },
   {
     "id": 173,
@@ -15125,7 +15282,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Investing in companies with a strong cultural identity and clear strategic focus can provide an edge in technology markets, as demonstrated by the contrasting paths of Apple and Microsoft.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-10T22:05:58.972843",
@@ -15313,7 +15470,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Investing in private credit, particularly through opportunistic funds, can provide higher returns by accepting additional credit risk and complexity, suitable for patient institutional capital.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-09T22:05:24.439502",
@@ -15373,7 +15530,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Invest in technologies and platforms that promote open-source contributions and technological pluralism to hedge against an uncertain future and ensure a more equitable distribution of power.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-09T22:05:43.619712",
@@ -15436,7 +15593,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Invest in technologies and platforms that promote open-source contributions and technological pluralism to hedge against an uncertain future and ensure a more equitable distribution of power.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-09T22:05:56.341318",
@@ -15736,7 +15893,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Investing in AI infrastructure and applications that can leverage the power of AI while addressing the challenges of verification and privacy.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-07T22:05:37.646780",
@@ -15969,7 +16126,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.83,
+    "mention_score_decayed": 0.81,
     "last_main_idea": "The disruption in shipping due to geopolitical conflicts presents a unique investment opportunity in shipping stocks, particularly for those with a keen understanding of the market dynamics.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-04T22:03:03.597938",
@@ -16319,7 +16476,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.78,
+    "mention_score_decayed": 0.76,
     "last_main_idea": "Pictay asset management's AI-enhanced ETFs (PQNT and PQUS) aim to provide enhanced equity exposure through the use of artificial intelligence.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-01T22:04:02.778580",
@@ -16376,7 +16533,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.78,
+    "mention_score_decayed": 0.76,
     "last_main_idea": "Investing in companies that understand complex problems and can leverage AI to gain a competitive advantage in their operations and product development.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-04-01T15:15:31.311281",
@@ -16798,7 +16955,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.71,
+    "mention_score_decayed": 0.69,
     "last_main_idea": "Betting on talented individuals in businesses rather than predicting tech trends is a more consistent approach to investing.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-28T22:05:06.552638",
@@ -16861,7 +17018,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.71,
+    "mention_score_decayed": 0.69,
     "last_main_idea": "Invest in companies that are driving innovation and can disrupt traditional industries by offering superior products at better prices, while keeping an eye on the competitive dynamics between the US and China in scientific research and technology.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-28T22:05:33.382582",
@@ -16915,7 +17072,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.71,
+    "mention_score_decayed": 0.69,
     "last_main_idea": "The current bull market is built on shaky foundations, and a shift towards a more cautious stance with a focus on security software and data lake control is advised.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-31T20:09:25.315808",
@@ -16971,7 +17128,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-03-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.71,
+    "mention_score_decayed": 0.69,
     "last_main_idea": "The historical insights from the Italian Renaissance period suggest that technological advancements, such as the printing press, can have a profound impact on society and information distribution, which parallels modern tech revolutions and their investment implications.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-31T20:09:36.658693",
@@ -17218,7 +17375,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.68,
+    "mention_score_decayed": 0.66,
     "last_main_idea": "Investors should consider the geopolitical risks and shifts in global power dynamics when constructing their portfolios, with a focus on sectors that may be affected by rising energy prices and inflation.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-26T14:15:41.620354",
@@ -17283,7 +17440,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.68,
+    "mention_score_decayed": 0.66,
     "last_main_idea": "Investors should consider the geopolitical risks and shifts in global power dynamics when constructing their portfolios, with a focus on sectors that may be affected by rising energy prices and inflation.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-26T14:15:50.429943",
@@ -17339,7 +17496,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.68,
+    "mention_score_decayed": 0.66,
     "last_main_idea": "Investing in cybersecurity solutions that can secure networks on top of compromised physical infrastructure is crucial for national security and economic prosperity.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-26T11:16:44.078788",
@@ -17396,7 +17553,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.68,
+    "mention_score_decayed": 0.66,
     "last_main_idea": "Investing in cybersecurity solutions that can secure networks on top of compromised physical infrastructure is crucial for national security and economic prosperity.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-26T11:16:52.472386",
@@ -17453,7 +17610,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.68,
+    "mention_score_decayed": 0.66,
     "last_main_idea": "The market is experiencing underlying stress that is not reflected in headline indices, suggesting a need for a more nuanced approach to investment decisions.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-26T08:21:26.552392",
@@ -18382,7 +18539,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-02-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.57,
+    "mention_score_decayed": 0.56,
     "last_main_idea": "The Picta AI Enhanced International Equity ETF (PQNT) uses AI to enhance international equity returns, suggesting a potential for outperformance through technology-driven investment strategies.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-19T22:19:12.461398",
@@ -18449,7 +18606,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.56,
+    "mention_score_decayed": 0.55,
     "last_main_idea": "While not directly investment-focused, the episode provides insights into the political climate and potential policy directions that could indirectly affect various sectors and investment strategies.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-19T21:20:25.000396",
@@ -18512,7 +18669,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.56,
+    "mention_score_decayed": 0.55,
     "last_main_idea": "Invest in companies that are at the forefront of AI innovation, hardware manufacturing, and secure supply chain management to capitalize on the new geopolitics of technology and the reindustrialization of the US.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-19T21:20:41.027940",
@@ -18573,7 +18730,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.56,
+    "mention_score_decayed": 0.55,
     "last_main_idea": "The current elevated oil prices and their subsequent impact on inflation and growth present a complex investment landscape, with stocks and bonds being particularly at risk. Investors should consider packaging trades to navigate these dynamics.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-19T21:21:05.284882",
@@ -18634,7 +18791,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-03-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.55,
+    "mention_score_decayed": 0.54,
     "last_main_idea": "Invest in companies at the forefront of AI, robotics, and space technology, as these sectors are poised for significant growth and disruption.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-19T21:21:32.334592",
@@ -18695,7 +18852,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.55,
+    "mention_score_decayed": 0.54,
     "last_main_idea": "Farmland represents an underutilized asset class with diversification benefits and potential for strong returns, particularly in the context of water scarcity and aging farmer demographics.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-19T21:21:47.025691",
@@ -18750,7 +18907,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.55,
+    "mention_score_decayed": 0.54,
     "last_main_idea": "Investing in companies and technologies that are advancing the understanding and capabilities of LLMs could be a pathway to participate in the development of AGI.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-19T21:22:07.856822",
@@ -18808,7 +18965,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.55,
+    "mention_score_decayed": 0.54,
     "last_main_idea": "Invest in companies that are digitizing the physical world and transforming traditional industries through technology.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-19T21:22:31.110715",
@@ -18867,7 +19024,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.55,
+    "mention_score_decayed": 0.54,
     "last_main_idea": "Invest in companies that are digitizing the physical world and transforming traditional industries through technology.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-19T21:22:53.714266",
@@ -18925,7 +19082,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-02-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.54,
+    "mention_score_decayed": 0.52,
     "last_main_idea": "Invest in AI and automation technologies that are driving the shift towards AI governance and efficiency in business operations.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-19T21:23:16.367259",
@@ -19056,7 +19213,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.5,
+    "mention_score_decayed": 0.49,
     "last_main_idea": "Investment in AI technology within the defense sector is critical for maintaining national security and ensuring operational effectiveness.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
@@ -19080,7 +19237,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.5,
+    "mention_score_decayed": 0.49,
     "last_main_idea": "Investors should consider the geopolitical risks associated with the US-Iran conflict and the potential impact on global oil supply, as well as the long-term shift towards renewable energy sources.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
@@ -19104,7 +19261,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-03-12",
     "mention_score": 1,
-    "mention_score_decayed": 0.49,
+    "mention_score_decayed": 0.48,
     "last_main_idea": "The current geopolitical tensions, particularly in Iran, are creating significant market volatility, especially in oil prices, which presents both risks and opportunities for investors.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
@@ -19128,7 +19285,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-12",
     "mention_score": 1,
-    "mention_score_decayed": 0.49,
+    "mention_score_decayed": 0.48,
     "last_main_idea": "Investing in companies that leverage technology to enhance national defense and security could yield significant returns, especially if they align with the interests of the defense establishment.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
@@ -19152,7 +19309,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.49,
+    "mention_score_decayed": 0.48,
     "last_main_idea": "The global semiconductor supply chain, with a focus on Taiwan's TSMC, presents both risks and opportunities in the context of U.S.-China relations and economic inequality.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
@@ -19176,7 +19333,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.49,
+    "mention_score_decayed": 0.48,
     "last_main_idea": "As the global liquidity cycle peaks, investors should consider rotating their asset allocation towards more defensive areas and higher yielding assets like private credit.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
@@ -19200,7 +19357,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-03-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.49,
+    "mention_score_decayed": 0.48,
     "last_main_idea": "Investment in AI technology, particularly in personal AI agents like OpenClaw, could offer substantial returns as the technology matures and becomes more integrated into daily life.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
@@ -19224,7 +19381,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.49,
+    "mention_score_decayed": 0.48,
     "last_main_idea": "Investing in technology that enhances real-time crime prevention and clearance rates can lead to more effective law enforcement and safer communities.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
@@ -19248,7 +19405,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.49,
+    "mention_score_decayed": 0.48,
     "last_main_idea": "The current geopolitical tensions and the rise of AI technology present both risks and opportunities, with the potential for economic disruption and the need for strategic investment in sectors less affected by AI.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
@@ -19272,7 +19429,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.49,
+    "mention_score_decayed": 0.48,
     "last_main_idea": "The shift towards private markets and the potential for changing reporting cadence could redefine the landscape for early-stage investment opportunities and public market participation.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
@@ -19296,7 +19453,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.49,
+    "mention_score_decayed": 0.48,
     "last_main_idea": "The shift towards private markets and the potential for changing reporting cadence could redefine the landscape for early-stage investment opportunities and public market participation.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,

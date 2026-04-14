@@ -29872,3 +29872,506 @@ ts and regulatory reforms...
 ============================================================
 STEP: Extract Podcast Guests
 ============================================================
+============================================================
+Extract Podcast Guests
+============================================================
+Processing 125 processed episodes
+  ✓ "The Best Time to Invest" ← Monetary Matters with Jack Farley (2026-04-09)
+  ✓ Governor Josh Shapiro of Pennsylvania ← All-In with Chamath, Jason, Sacks & Friedberg (2026-04-08)
+  ✓ Why $200 Oil Won’t Spike Inflation to 9% ← Monetary Matters with Jack Farley (2026-04-01)
+  ✓ This special episode ← All-In Podcast (2026-03-28)
+  ✓ Lupin Ramon ← Monetary Matters with Jack Farley (2026-03-27)
+  ✓ When the Music Stops ← The Jack Mallers Show (2026-03-24)
+  ✓ Ground Infrastructure ← The a16z Show (2026-03-23)
+  ✓ Rory Johnston ← Monetary Matters with Jack Farley (2026-03-19)
+  ✓ Senator John Fetterman on Voting Rights ← All-In with Chamath, Jason, Sacks & Friedberg (2026-03-18)
+  ✓ Stock Market on Shaky Foundations ← Monetary Matters with Jack Farley (2026-03-18)
+  ✓ Elon Musk on Moonshots ← Moonshots with Peter Diamandis (2026-03-17)
+  ✓ Investing in Capitalism ← All-In with Chamath, Jason, Sacks & Friedberg (2026-03-13)
+  ✓ Harvard Professor Graham Allison ← All-In with Chamath, Jason, Sacks & Friedberg (2026-03-09)
+  ✓ Andrew Yang ← Moonshots with Peter Diamandis (2026-03-07)
+  ✓ Inventing the Renaissance ← Dwarkesh Podcast (2026-03-06)
+  ✓ Ray Dalio ← All-In with Chamath, Jason, Sacks & Friedberg (2026-03-03)
+  ✓ Nobel Prize-winning economist Paul Krugman ← Monetary Matters with Jack Farley (2026-02-19)
+  ✓ host Jack Mallers ← The Jack Mallers Show (2026-02-19)
+  ✓ Ben Horowitz ← Moonshots with Peter Diamandis (2026-02-19)
+  ✓ Bosworth ← a16z Live (2026-02-15)
+  ✓ Milton Berg ← Monetary Matters with Jack Farley (2026-02-06)
+
+✓ Done. 21 guest(s) in database.
+
+✓ Extract Podcast Guests completed
+
+============================================================
+STEP: Export Website Data
+============================================================
+============================================================
+Exporting Website Data
+============================================================
+✓ Exported website data to /Users/jaredsheppard/.openclaw/workspace/site/data
+✓ Exported: {'ticker_scores': 50, 'podcast_summaries': 70, 'archive_items': 157, 'podcast_guests': 21, 'pundits': 91}
+🔍 Scanning podcast pipeline...
+
+
+================================================================================
+📊 PODCAST PIPELINE STATUS
+================================================================================
+
+📈 Pipeline Summary (2 total episodes tracked):
+  ✅ Downloaded:       2 / 2
+  ✅ Transcribed:      1 / 2
+  ✅ Analyzed:         0 / 2
+  ✅ Insight Created:  0 / 2
+  ✅ Published:        0 / 2
+
+🔍 Episodes Needing Attention:
+
+  📝 Pending Transcription (1):
+    - Building Agents at Home: Parenting, Work, and Bene
+
+  🔬 Pending Analysis (1):
+    - The Agent Era: Building Software Beyond Chat with 
+
+✅ Complete Episodes (All Stages):
+    (None yet)
+
+📅 Last Updated: 2026-04-13T05:06:36.649198
+📁 Status file: /Users/jaredsheppard/.openclaw/workspace/pipeline/state/pipeline_status.json
+================================================================================
+  ✓ Exported pipeline_state.json: 2 tracked
+
+============================================================
+Generating Website JavaScript
+============================================================
+✓ Generated data.js with 50 tickers, 157 archive items, 141 deep dives, 4 suggested terms, 20 legacy guests, 91 pundits; chartsVersion=2026-04-01T15:16:59.801570
+✓ Bumped data.js cache-buster to v=1776074829
+
+============================================================
+STEP: Push to GitHub
+============================================================
+✓ Pushed to GitHub: Pipeline update 2026-04-13 05:07: 0 podcasts, 0 insights, 0 newsletters
+Nothing new — skipping notification
+
+============================================================
+PIPELINE COMPLETE
+Finished: 2026-04-13 05:07:11.761196
+============================================================
+📊 Pipeline Complete
+
+
+🌐 Website updated
+2026-04-13T22:02:21-05:00 run_if_scheduled: in window, running pipeline
+============================================================
+AUTO PIPELINE
+Mode: full
+Started: 2026-04-13 22:02:21.657367
+============================================================
+
+============================================================
+STEP: Podcast Curation
+============================================================
+======================================================================
+Podcast Curation System
+======================================================================
+
+Found 7 podcast feeds
+
+Fetching episode metadata...
+  Fetching: https://feeds.megaphone.fm/DVVTS2890392624...
+    ✓ Moonshots with Peter Diamandis: 0 episodes
+  Fetching: https://feeds.megaphone.fm/EWWMN1909747317...
+    ✓ Monetary Matters with Jack Farley: 0 episodes
+  Fetching: https://feeds.simplecast.com/JGE3yC0V...
+    ✓ The a16z Show: 2 episodes
+  Fetching: https://rss.libsyn.com/shows/254861/destinations/1928300.xml...
+    ✓ All-In with Chamath, Jason, Sacks & Friedberg: 0 episodes
+  Fetching: https://anchor.fm/s/e29097f4/podcast/rss...
+    ✓ The Jack Mallers Show: 0 episodes
+  Fetching: https://feed.podbean.com/macrovoices/feed.xml...
+    ✓ Macro Voices: 0 episodes
+  Fetching: https://api.substack.com/feed/podcast/69345.rss...
+    ✓ Dwarkesh Podcast: 0 episodes
+
+  Total feed episodes (current month only: 2026-04): 2
+
+Matching audio files to episodes...
+  ✓ Episodes with matching audio: 0
+  ? Unmatched audio files (no matching feed episode): 64
+  📥 Episodes pending download before auto-download: 2
+
+Approving all episodes from feed list (feeds are pre-curated)...
+  ✓ Downloaded audio for 0 approved episode(s)
+
+  APPROVED (will transcribe or download): 2
+  🎧 Approved episodes with audio after auto-download: 2
+
+======================================================================
+CURATION RESULTS
+======================================================================
+
+📌 APPROVED (will transcribe or download):
+
+  ✓ The a16z Show
+    Title: Building Agents at Home: Parenting, Work, and Benevolent Neglect
+    File: the_a16z_show_building_agents_at_home__parenting__work__and_benevolent_neg_e9959a80.mp3
+
+  ✓ The a16z Show
+    Title: The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie
+    File: the_a16z_show_the_agent_era__building_software_beyond_chat_with_box_ceo_aa_c035a9af.mp3
+
+
+✓ Curation log saved: /Users/jaredsheppard/.openclaw/workspace/pipeline/state/curation_log.json
+
+======================================================================
+NEXT STEPS
+======================================================================
+
+1. Review approved episodes above
+2. To transcribe approved episodes, run:
+   python3 transcribe_curated.py
+
+3. Or manually transcribe specific files (only for episodes that have audio):
+   whisper 'the_a16z_show_building_agents_at_home__parenting__work__and_benevolent_neg_e9959a80.mp3' --model tiny --language en
+   whisper 'the_a16z_show_the_agent_era__building_software_beyond_chat_with_box_ceo_aa_c035a9af.mp3' --model tiny --language en
+
+✓ Podcast Curation completed
+
+============================================================
+STEP: Fetch & Transcribe
+============================================================
+======================================================================
+Fetch & Transcribe Latest Podcast Episodes
+======================================================================
+  ✓ Swept 2 completed transcript file(s) from whisper_done into transcripts
+
+Found 7 podcast feeds
+
+📻 Processing: https://feeds.megaphone.fm/DVVTS2890392624...
+  ⏭ Already have 'SpaceX Goes Public, Claude’s Mythos Release, and t' (guid match, ep_id=152)
+  ✗ No episode found
+
+📻 Processing: https://feeds.megaphone.fm/EWWMN1909747317...
+  ⏭ Already have '"The Best Time to Invest": How AI Disruption is Re' (guid match, ep_id=149)
+  ✗ No episode found
+
+📻 Processing: https://feeds.simplecast.com/JGE3yC0V...
+  📋 Latest: Building Agents at Home: Parenting, Work, and Benevolent Neg...
+  ⬇️  Downloading: the_a16z_show_20260413_8fefea30_3f8a_409c_afd8_27ece805.mp3
+     Title: Building Agents at Home: Parenting, Work, and Benevolent Neg...
+     ✓ Downloaded to /Users/jaredsheppard/.openclaw/workspace/audio/the_a16z_show_20260413_8fefea30_3f8a_409c_afd8_27ece805.mp3
+  🎙️  Transcribing: the_a16z_show_20260413_8fefea30_3f8a_409c_afd8_27ece805.mp3
+  ✓ Already transcribed: the_a16z_show_20260413_8fefea30_3f8a_409c_afd8_27ece805.txt
+
+📻 Processing: https://rss.libsyn.com/shows/254861/destinations/1...
+  ⏭ Already have 'Anthropic's $30B Ramp, Mythos Doomsday, OpenClaw A' (guid match, ep_id=151)
+  ✗ No episode found
+
+📻 Processing: https://anchor.fm/s/e29097f4/podcast/rss...
+  ⏭ Already have 'We Were Right. Now What?' (guid match, ep_id=140)
+  ✗ No episode found
+
+📻 Processing: https://feed.podbean.com/macrovoices/feed.xml...
+  ⏭ Already have 'MacroVoices #527 Adam Rozencwajg: What Comes Next ' (guid match, ep_id=148)
+  ✗ No episode found
+
+📻 Processing: https://api.substack.com/feed/podcast/69345.rss...
+  ⏭ Already have 'Michael Nielsen – How science actually progresses' (guid match, ep_id=144)
+  ✗ No episode found
+
+✓ Log saved: /Users/jaredsheppard/.openclaw/workspace/pipeline/state/fetch_log.json
+
+======================================================================
+SUMMARY
+======================================================================
+Total feeds: 7
+Successfully transcribed: 1
+Failed: 0
+
+Completed episodes:
+  ✓ The a16z Show: Building Agents at Home: Parenting, Work, and Bene...
+
+
+Next step: Run 'python3 research.py' to analyze transcripts
+
+✓ Fetch & Transcribe completed
+
+============================================================
+STEP: Newsletter Ingestion
+============================================================
+==================================================
+Newsletter Ingestion Pipeline
+==================================================
+
+Connecting to Gmail...
+Connecting to Gmail at imap.gmail.com:993...
+Logging in as jsheppard8989@gmail.com...
+Selecting folder: NEWSLETTERS...
+Found 0 unread emails
+
+No emails fetched from Gmail.
+
+✓ Processed 0 emails
+
+Files saved to: /Users/jaredsheppard/.openclaw/workspace/pipeline/inbox
+
+Next step: Run analysis to score stock mentions
+
+✓ Newsletter Ingestion completed
+  ✓ Cleaned up 1 orphan audio file(s) (transcript already exists)
+
+============================================================
+STEP: Transcript AI Analysis
+============================================================
+  ⚠ Google Generative AI library not installed. Run: pip install google-generativeai
+
+============================================================
+Processing Podcast Transcripts with AI
+============================================================
+  Using Moonshot/Kimi API
+Found 127 transcript files
+  Processing e3c75a06762af10f374661e8af1d1af6.txt...
+    ⏭ Episode already in database (duplicate), skipping
+  Processing dario_amodei.txt...
+    ⏭ Too short, skipping
+  Processing the_a16z_show_20260408_d8e62120_c865_428e_b1c2_1d965406.txt...
+    ⚠ AI analysis failed: AI output contains non-ASCII characters (rejecting).
+    ✗ AI analysis failed
+  Processing DVVTS5786783285.txt...
+    ⏭ Episode 'Ben Horowitz: xAI Executive Exodus, Ilya's $5B SSI Valuation...' already in database, skipping
+  Processing moonshots_with_peter_diamandis_meta_buys_moltbook__gpt_5_4__and_fruitfly_brain_upload___moo_609f0b8d.txt...
+    ⏭ Episode already in database (duplicate), skipping
+  Processing elon_musk.txt...
+    ⏭ Too short, skipping
+  Processing DVVTS6372073266.txt...
+    ⏭ Episode already in database (duplicate), skipping
+  Processing the_a16z_show_20260413_8fefea30_3f8a_409c_afd8_27ece805.txt...
+    ✓ Added episode (ID: 153)
+    + Emerging term: AI Agents
+    + Emerging term: Homeschooling Automation
+    ✓ Added 0 ticker mentions
+  Processing DVVTS3579530070.txt...
+    ⏭ Episode already in database (duplicate), skipping
+
+✓ Transcript processing complete: 1 new, 118 skipped, 0 errors
+✓ Analyzed 1 new transcripts
+
+============================================================
+STEP: Newsletter Import
+============================================================
+✓ Total newsletters imported: 0
+
+============================================================
+STEP: Promote Episodes to Insights
+============================================================
+Found 1 processed episodes not yet in insights
+  ✓ Promoted: 'Building Agents at Home: Parenting, Work, and Benevolent Neg' (sentiment=neutral)
+  ✓ Auto-archived 1 older insights
+✓ Promoted 1 new insight(s) to website
+
+============================================================
+STEP: Promote Newsletters to Insights
+============================================================
+Found 0 newsletters not yet on site
+
+============================================================
+STEP: Aggregate Daily Scores
+============================================================
+✓ Saved 0 daily scores
+  Using Moonshot/Kimi API
+  Using Moonshot/Kimi API
+✓ Enriched 2 pundit(s) (LLM/Grokipedia profile + net worth + optional Grok)
+
+============================================================
+STEP: Generate Deep Dives
+============================================================
+Generating Deep Dives for 1 insights...
+
+  Using Moonshot/Kimi API
+[168] Building Agents at Home: Parenting, Work, and Benevolent Neg
+  ✓ Deep Dive stored
+
+✓ Generated 1/1 Deep Dives
+
+✓ Generate Deep Dives completed
+
+============================================================
+STEP: Fetch Prices
+============================================================
+ching NINT: HTTP Error 404: Not Found
+Failed
+  Fetching NOC... $681.31 (-0.12%)
+  Fetching NOW... $89.06 (-14.90%)
+  Fetching NVDA... $189.31 (+8.05%)
+  Fetching Nasdaq... $617.39 (+5.72%)
+  Fetching OKLO... $53.94 (-1.86%)
+  Fetching OPENAI...     Error fetching OPENAI: HTTP Error 404: Not Found
+Failed
+  Fetching ORCL... $155.62 (+5.80%)
+  Fetching PALL... $143.36 (+11.85%)
+  Fetching PLTM... $19.92 (+9.33%)
+  Fetching PLTR... $132.37 (-14.48%)
+  Fetching PQNT... $22.27 (+7.80%)
+  Fetching PQT... $0.00 (+0.00%)
+  Fetching PQUS... $25.37 (+4.98%)
+  Fetching PYPL... $47.51 (+7.46%)
+  Fetching QQQ... $617.39 (+5.72%)
+  Fetching RBLX... $57.66 (+4.84%)
+  Fetching Russell... $265.07 (+6.55%)
+  Fetching S&P... $686.10 (+5.04%)
+  Fetching S&P 500... $686.10 (+5.04%)
+  Fetching SF... $79.59 (+10.39%)
+  Fetching SMP-500...     Error fetching SMP-500: HTTP Error 404: Not Found
+Failed
+  Fetching SMR... $9.58 (-16.19%)
+  Fetching SNAP... $5.15 (+18.12%)
+  Fetching SNWGF... $10.57 (+6.55%)
+  Fetching SOYB... $24.30 (+1.00%)
+  Fetching SPACEX...     Error fetching SPACEX: HTTP Error 404: Not Found
+Failed
+  Fetching SPCE... $2.99 (+25.63%)
+  Fetching SPX... $0.00 (+0.00%)
+  Fetching SPY... $686.10 (+5.04%)
+  Fetching SQ... Failed
+  Fetching SQQQ... $65.57 (-17.15%)
+  Fetching Semiconductors... $443.34 (+12.35%)
+  Fetching T... $25.61 (-11.29%)
+  Fetching TDOC... $5.22 (-3.69%)
+  Fetching THROPIC...     Error fetching THROPIC: HTTP Error 404: Not Found
+Failed
+  Fetching TLT... $86.75 (+0.86%)
+  Fetching TSLA... $352.42 (-7.99%)
+  Fetching TSM... $369.57 (+7.67%)
+  Fetching TWTR...     Error fetching TWTR: HTTP Error 404: Not Found
+Failed
+  Fetching UBER... $72.34 (+0.00%)
+  Fetching UNG... $10.68 (-8.95%)
+  Fetching URANIUM...     Error fetching URANIUM: HTTP Error 404: Not Found
+Failed
+  Fetching US 10 year Treasury...     Error fetching US 10 year Treasury: URL can't contain control characters. '/v8/finance/chart/US 
+Failed
+  Fetching US DOLLAR INDEX...     Error fetching US DOLLAR INDEX: URL can't contain control characters. '/v8/finance/chart/US 
+Failed
+  Fetching USD... $63.23 (+23.96%)
+  Fetching USDX... $25.75 (+0.12%)
+  Fetching USO... $128.47 (+12.16%)
+  Fetching Uranium...     Error fetching Uranium: HTTP Error 404: Not Found
+Failed
+  Fetching V... $309.39 (+1.85%)
+  Fetching VEEV... $158.45 (-11.53%)
+  Fetching VIX... $19.12 (-24.52%)
+  Fetching WIT... $2.24 (+6.67%)
+  Fetching WMT... $124.57 (+2.06%)
+  Fetching WORK... Failed
+  Fetching WTBN... $25.43 (+0.84%)
+  Fetching WTI... $3.04 (+0.66%)
+  Fetching WTI CRUDE OIL...     Error fetching WTI CRUDE OIL: URL can't contain control characters. '/v8/finance/chart/WTI
+Failed
+  Fetching XAU-USD... $0.00 (+0.00%)
+  Fetching XOM... $152.64 (-7.70%)
+  Fetching ZEC... $0.00 (+0.00%)
+  Fetching ZEN...     Error fetching ZEN: HTTP Error 404: Not Found
+Failed
+  Fetching ZIM... $26.53 (+0.26%)
+
+✓ Saved 98 prices to /Users/jaredsheppard/.openclaw/workspace/site/price_data.json
+Finished: 2026-04-13 22:05:38.257468
+
+✓ Fetch Prices completed
+
+============================================================
+STEP: Generate Charts
+============================================================
+
+STDERR: Traceback (most recent call last):
+  File "/Users/jaredsheppard/.openclaw/workspace/pipeline/generate_charts.py", line 7, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+
+✗ Generate Charts failed
+
+============================================================
+STEP: Auto-Curate Terms
+============================================================
+tional acceleration to shape the ...
+
+• Defensive Acceleration (Deac)
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A philosophy that advocates for caution in technological advancement, emphasizing safeguards to prev...
+
+• Techno-Capital
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: The intersection of technology and capital, influencing how technology is developed and deployed....
+
+• Private Credit
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A broad category of debt investments that includes direct lending, asset-backed lending, and other n...
+
+• Opportunistic Funds
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: Funds that seek higher returns by investing in complex, high-risk credit situations, often in disloc...
+
+• Physical Dislocation
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: A significant disruption in the physical supply chain or logistics of a commodity, leading to market...
+
+• Energy Security
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: The ability to obtain reliable and affordable energy supplies without undue risk to economic or phys...
+
+• Mission Critical Software
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: Software indispensable for organizations' day-to-day operations, such as sources of truth, core proc...
+
+• Value-Creating Software
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: Software that increases revenue, cuts costs, accelerates time to value, and mitigates risks....
+
+• DirectX APIs
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: Graphics APIs developed by Microsoft that allow hardware access to graphics hardware on the PC, cruc...
+
+• AI Compute on Devices
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: The integration of AI processing capabilities directly onto devices, impacting device performance an...
+
+• Labor Augmentation and Replacement
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: The use of AI technologies to enhance human labor or replace human labor altogether, leading to incr...
+
+• Exponential Growth in AI Revenue
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: The rapid and accelerating increase in revenue generated by AI companies, indicating a significant s...
+
+• Co-generation
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: The process of using AI to generate text, code, or other content autonomously....
+
+• Solve Everything Thesis
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: The idea that solving artificial intelligence will enable the solution of other complex problems....
+
+• AI Agents
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: Software programs designed to perform specific tasks autonomously, often learning and adapting to us...
+
+• Homeschooling Automation
+  Relevance: 50
+  Mentions: 1 in 1 source(s)
+  Definition: The use of AI and technology to automate educational planning and administrative tasks for homeschoo...
+
+✓ Auto-Curate Terms completed

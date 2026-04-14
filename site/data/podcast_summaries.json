@@ -1,5 +1,22 @@
 [
   {
+    "id": 153,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Building Agents at Home: Parenting, Work, and Benevolent Neglect",
+    "episode_date": "2026-04-13",
+    "summary": "In this episode of the a16z Show, Katherine Boyle and Sarah Wang interview Jessie Janae, a former Y Combinator founder turned homeschooling parent. Janae discusses her use of AI agents to manage various tasks around the house and support her family. She shares her journey from a tech entrepreneur to a parent leveraging AI to streamline household and homeschooling responsibilities. The conversation explores the potential of AI to transform family dynamics and parenting, including the possibility of AI reversing the decline in fertility rates by making parenthood more manageable and fulfilling.",
+    "key_takeaways": [
+      "AI agents can be trained to perform specific tasks, such as lesson planning and grocery ordering, reducing the administrative burden on parents.",
+      "Jessie Janae built 11 distinct AI agents to manage different aspects of her home and children's education, demonstrating the practical applications of AI in daily life.",
+      "The use of AI in home management can lead to more quality time for parents, potentially influencing fertility rates and attitudes towards parenthood.",
+      "AI tools are becoming more accessible and user-friendly, allowing non-technical individuals to leverage AI for personal use cases.",
+      "The future of AI in parenting could involve a shift towards more meaningful engagement with children, as administrative tasks are automated.",
+      "The ease of installing and using AI tools is improving rapidly, making it more approachable for the average person in the near future."
+    ],
+    "investment_thesis": "AI has the potential to revolutionize home management and parenting by automating administrative tasks, which could lead to increased satisfaction and potentially influence demographic trends.",
+    "key_tickers": null
+  },
+  {
     "id": 152,
     "podcast_name": "Moonshots with Peter Diamandis",
     "episode_title": "SpaceX Goes Public, Claude\u2019s Mythos Release, and the US Data Center Delay | EP #246",
