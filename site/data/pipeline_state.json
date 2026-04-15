@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-14T22:07:59.408812",
-  "last_updated": "2026-04-14T22:07:59.408812",
-  "last_pipeline_run": "2026-04-14T22:07:59.408812",
+  "generated_at": "2026-04-15T05:06:40.181640",
+  "last_updated": "2026-04-15T05:06:40.181640",
+  "last_pipeline_run": "2026-04-15T05:06:40.181640",
   "main_page": {
     "overton": 8,
     "insights": 8,
@@ -9,11 +9,11 @@
   },
   "counts": {
     "ticker_mentions": 161,
-    "podcast_episodes": 129,
+    "podcast_episodes": 130,
     "newsletters": 7,
     "daily_scores": 99,
-    "overton_terms_total": 88,
-    "latest_insights_total": 143,
+    "overton_terms_total": 110,
+    "latest_insights_total": 144,
     "today_mentions": {},
     "podcasts_analyzed": 1
   },
@@ -71,11 +71,11 @@
       "status": "needs_download"
     },
     {
-      "id": "4bc19c15-b1de-46d2-a029-dd6c127d9de2",
+      "id": "98191957-2a28-4016-a98e-8b2eb5cd560b",
       "podcast": "The a16z Show",
-      "title": "Ben Horowitz on AI Infrastructure, Economics and The New Laws of Software",
-      "published": "2026-04-14",
-      "rss_guid": "4bc19c15-b1de-46d2-a029-dd6c127d9de2",
+      "title": "Replit's CEO on Vibe Coding, Wealth Building, and What Most People Get Wrong About AI",
+      "published": "2026-04-15",
+      "rss_guid": "98191957-2a28-4016-a98e-8b2eb5cd560b",
       "stages": {
         "downloaded": false,
         "transcribed": false,
@@ -91,6 +91,22 @@
         "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
       },
       "status": "needs_download"
+    },
+    {
+      "id": "4bc19c15-b1de-46d2-a029-dd6c127d9de2",
+      "podcast": "The a16z Show",
+      "title": "Ben Horowitz on AI Infrastructure, Economics and The New Laws of Software",
+      "published": "2026-04-14",
+      "rss_guid": "4bc19c15-b1de-46d2-a029-dd6c127d9de2",
+      "stages": {
+        "downloaded": true,
+        "transcribed": true,
+        "analyzed": true,
+        "insight_created": true,
+        "published": true
+      },
+      "stage_reasons": {},
+      "status": "complete"
     },
     {
       "id": "d8e62120-c865-428e-b1c2-1d965406f293",
@@ -113,25 +129,16 @@
         "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
       },
       "status": "needs_download"
-    },
-    {
-      "id": "e1ff4b89-cef9-471c-ae75-e755b51de43e",
-      "podcast": "The Jack Mallers Show",
-      "title": "Bitcoin & the Bigger Shovel",
-      "published": "2026-04-14",
-      "rss_guid": "e1ff4b89-cef9-471c-ae75-e755b51de43e",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "status": "complete"
     }
   ],
   "available_from_rss": [
+    {
+      "podcast": "The a16z Show",
+      "title": "Replit's CEO on Vibe Coding, Wealth Building, and What Most People Get Wrong About AI",
+      "published": "Wed, 15 Apr 2026 10:00:00 +0000",
+      "published_date": "2026-04-15",
+      "rss_guid": ""
+    },
     {
       "podcast": "Moonshots with Peter Diamandis",
       "title": "Elon Musk vs. Sam Altman, AI Job Loss, and OpenAI\u2019s $852B Valuation | EP #247",
@@ -143,13 +150,6 @@
       "podcast": "Monetary Matters with Jack Farley",
       "title": "\"I Don't Believe the Stagflation Narrative\": How the Strong Consumer and AI Tailwinds Shape Sean Emory's Bullish Blueprint | Avory & Co",
       "published": "Tue, 14 Apr 2026 14:00:00 -0000",
-      "published_date": "2026-04-14",
-      "rss_guid": ""
-    },
-    {
-      "podcast": "The a16z Show",
-      "title": "Ben Horowitz on AI Infrastructure, Economics and The New Laws of Software",
-      "published": "Tue, 14 Apr 2026 10:00:00 +0000",
       "published_date": "2026-04-14",
       "rss_guid": ""
     },
@@ -168,7 +168,7 @@
       "title": "The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
       "status": "needs_download",
       "published": "2026-04-08",
-      "age_days": 6,
+      "age_days": 7,
       "next_blocker": "downloaded"
     }
   ],

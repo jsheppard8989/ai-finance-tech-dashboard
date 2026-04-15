@@ -1,5 +1,24 @@
 [
   {
+    "id": 155,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Ben Horowitz on AI Infrastructure, Economics and The New Laws of Software",
+    "episode_date": "2026-04-14",
+    "summary": "In this episode of the a16z Show, Ben Horowitz, co-founder and general partner at a16z, discusses the current state of technology and infrastructure in the United States. He touches on the challenges of rebuilding infrastructure, the scarcity of rare earth minerals, and the limitations of manufacturing capacity. Horowitz also delves into the changing dynamics of the tech industry, where historical rules no longer apply, and the ability to compress years of development into weeks with enough resources. The conversation explores the implications for startups and incumbents, the impact of AI on communication, and the overlap between AI and crypto.",
+    "key_takeaways": [
+      "The US needs to rebuild its infrastructure, including rare earth minerals, electricity, and manufacturing capacity.",
+      "Historical rules in tech no longer apply; companies can now buy their way out of software problems with enough GPUs and data.",
+      "Customer lock-in, proprietary data, and switching costs are eroding, impacting incumbents' traditional defenses.",
+      "The ability to compress development time is a double-edged sword, benefiting startups and threatening established companies.",
+      "AI's impact on communication could make spam and phishing more personalized and harder to detect.",
+      "Cryptocurrency and AI are becoming increasingly intertwined, with AI causing problems that crypto might help solve."
+    ],
+    "investment_thesis": "Invest in companies that can leverage AI to compress development time and disrupt incumbents, while also considering the emerging overlap between AI and crypto.",
+    "key_tickers": [
+      "NVDA"
+    ]
+  },
+  {
     "id": 154,
     "podcast_name": "The Jack Mallers Show",
     "episode_title": "Bitcoin & the Bigger Shovel",
