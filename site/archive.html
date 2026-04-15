@@ -100,7 +100,7 @@
     </div>
   </div>
 
-  <script src="./data/data.js?v=3"></script>
+  <script src="./data/data.js?v=1776220875"></script>
   <script src="./js/common.js"></script>
   <script>
     // Archive data
@@ -232,13 +232,22 @@
         } else if (p.last_seen) {
           src = esc(String(p.last_seen).substring(0, 10));
         }
-        const whyBits = [];
-        if (mentionScore) whyBits.push('Appearance Count: ' + mentionScore);
-        if (src) whyBits.push('most recently on ' + src);
-        const why = whyBits.join('; ');
+        const proofCite = esc(p.last_proof_cite || '');
+        let proofSnip = esc(p.last_proof_snippet || '');
+        if (proofSnip.length > 280) proofSnip = proofSnip.substring(0, 277) + '…';
+        const arenaBits = [];
+        if (mentionScore) arenaBits.push(mentionScore + '× guest spot' + (mentionScore === 1 ? '' : 's'));
+        if (proofCite) arenaBits.push('Latest proof: ' + proofCite);
+        else if (src) arenaBits.push('Latest: ' + src);
+        const why = arenaBits.join(' · ');
         
         const tagline = known || bio;
-        const thesis = idea ? `“${idea}”` : '';
+        const thesis = idea
+          ? `<div style="margin-top:0.35rem;"><span style="display:block;font-size:0.72rem;color:#8892b0;font-weight:600;margin-bottom:0.15rem;">Thesis (latest episode)</span><span style="color:#cbd5f5;">“${idea}”</span></div>`
+          : '';
+        const proofHtml = proofSnip
+          ? `<div style="margin-top:0.35rem;font-size:0.78rem;color:#a8b2d1;font-style:italic;border-left:2px solid rgba(0,212,255,0.35);padding-left:0.45rem;">“${proofSnip}”</div>`
+          : '';
         
         return `
           <div class="pundit-archive-card">
@@ -250,7 +259,8 @@
             <div class="pundit-archive-tagline">${tagline || ''}</div>
             <div class="pundit-archive-meta">
               ${why || 'No appearance history yet.'}<br/>
-              ${thesis ? '<span style="color:#cbd5f5;">'+thesis+'</span>' : ''}
+              ${proofHtml}
+              ${thesis}
             </div>
           </div>
         `;

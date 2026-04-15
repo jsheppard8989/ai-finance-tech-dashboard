@@ -57,6 +57,24 @@ class DailyScore:
     hidden_plays: Optional[Dict] = None
     rank: int = 0
 
+
+def _transcript_proof_snippet(transcript_path: Optional[str], max_chars: int = 240) -> str:
+    """First ~max_chars chars of on-disk transcript (on-hand proof line for pundit cards)."""
+    if not transcript_path:
+        return ""
+    p = Path(transcript_path.strip())
+    if not p.is_absolute():
+        p = (Path.home() / ".openclaw/workspace" / p).resolve()
+    if not p.is_file():
+        return ""
+    try:
+        txt = p.read_text(encoding="utf-8", errors="ignore")
+    except Exception:
+        return ""
+    txt = " ".join(txt.split())
+    return txt[:max_chars].strip()
+
+
 class DashboardDB:
     def __init__(self, db_path: Path = DB_PATH):
         self.db_path = db_path
@@ -488,6 +506,7 @@ class DashboardDB:
                     pe.episode_date AS last_episode_date,
                     pe.investment_thesis,
                     pe.key_takeaways,
+                    pe.transcript_path AS transcript_path,
                     agg.appearance_count
                 FROM entities e
                 JOIN appearances a ON a.entity_id = e.id AND LOWER(a.role) = 'guest_primary' AND a.source_type = 'podcast'
@@ -576,6 +595,26 @@ class DashboardDB:
                     p['last_main_idea'] = (takeaways[0] or '')[:500]
                 else:
                     p['last_main_idea'] = None
+
+                supporting_takeaway = None
+                if len(takeaways) > 1:
+                    supporting_takeaway = ((takeaways[1] or "").strip()[:420] or None)
+
+                snip = _transcript_proof_snippet(row.get("transcript_path"))
+                if not snip and supporting_takeaway:
+                    snip = supporting_takeaway[:240]
+
+                cite_parts = []
+                if row.get("last_podcast_name"):
+                    cite_parts.append(str(row["last_podcast_name"]))
+                if row.get("last_episode_date"):
+                    cite_parts.append(str(row["last_episode_date"])[:10])
+                if row.get("last_episode_title"):
+                    cite_parts.append(str(row["last_episode_title"]))
+                p["last_proof_cite"] = " • ".join(cite_parts)[:500] if cite_parts else None
+                p["last_proof_snippet"] = snip or None
+                p["supporting_takeaway"] = supporting_takeaway
+
                 # Grokipedia-sourced micro-profile (trimmed for browser JSON size)
                 raw_prof = row.get("pundit_profile_json")
                 p["grokipedia_url"] = row.get("grokipedia_url")

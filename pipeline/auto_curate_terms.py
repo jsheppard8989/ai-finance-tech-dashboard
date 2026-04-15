@@ -14,7 +14,12 @@ sys.path.insert(0, str(Path(__file__).parent))
 from db_manager import get_db
 from manage_suggested_terms import SuggestedTermsManager
 
-# Auto-promotion criteria
+# Priority score (must match db_manager.get_suggested_terms_for_website):
+#   mention_count * 10 + source_diversity * 20 + relevance_score
+# User rule (2026-04-14): above this → promote pending term into Overton (via auto_promote_term).
+PRIORITY_SCORE_PROMOTE_THRESHOLD = 66.7
+
+# Auto-promotion criteria (used when priority score is NOT above threshold)
 MIN_RELEVANCE_AUTO = 70  # Auto-promote if relevance >= 70
 MIN_SOURCES_AUTO = 2     # And mentioned in 2+ different sources
 MIN_MENTIONS_AUTO = 3    # And mentioned 3+ times total
@@ -24,6 +29,17 @@ PROMOTE_MENTIONS_THRESHOLD = 6
 
 # Manual review criteria (borderline)
 MIN_RELEVANCE_REVIEW = 40  # Flag for review if relevance >= 40 but < 70
+
+
+def compute_priority_score(term_data: dict) -> int:
+    """Same formula as Emerging Terms card / SQL priority_score."""
+    try:
+        m = int(term_data.get("mention_count") or 0)
+        s = int(term_data.get("source_diversity") or 0)
+        r = int(term_data.get("relevance_score") or 0)
+    except (TypeError, ValueError):
+        m, s, r = 0, 0, 0
+    return m * 10 + s * 20 + r
 
 
 def analyze_term_quality(term_data):
@@ -128,6 +144,12 @@ def auto_promote_term(db, term_data):
         """, (term_data['id'],))
 
         print(f"  ✅ AUTO-PROMOTED: '{term_data['term']}' → Definitions + Overton Window (relevance: {term_data.get('relevance_score', 'N/A')})")
+        try:
+            from term_promotion_notify import notify_promoted_term
+
+            notify_promoted_term(term_data)
+        except Exception as exc:
+            print(f"  ⚠ Could not send promotion iMessage: {exc}")
         return True
 
 
@@ -209,8 +231,17 @@ def main():
     skipped = 0
     
     for term in pending_terms:
+        ps = compute_priority_score(term)
+        if ps > PRIORITY_SCORE_PROMOTE_THRESHOLD:
+            print(
+                f"  🎯 PRIORITY PROMOTE (score {ps} > {PRIORITY_SCORE_PROMOTE_THRESHOLD}): '{term['term']}'"
+            )
+            if auto_promote_term(db, term):
+                promoted += 1
+            continue
+
         action = analyze_term_quality(term)
-        
+
         if action == 'auto_promote':
             if auto_promote_term(db, term):
                 promoted += 1

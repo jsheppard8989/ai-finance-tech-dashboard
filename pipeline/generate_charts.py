@@ -30,6 +30,18 @@ TITLE_BAR_TICKERS = {
     'BTC-USD': 'Bitcoin USD'
 }
 
+# Map dashboard ticker labels to Yahoo Finance symbols when they differ.
+YAHOO_SYMBOL_OVERRIDES = {
+    'BTC': 'BTC-USD',
+    'S&P 500': 'SPY',
+    'COPPER': 'HG=F',
+}
+
+
+def to_yahoo_symbol(ticker: str) -> str:
+    """Translate dashboard ticker labels to Yahoo symbols used by yfinance."""
+    return YAHOO_SYMBOL_OVERRIDES.get(ticker, ticker)
+
 
 def get_top_tickers_from_db(limit=10):
     """Get top tickers by weighted score from database."""
@@ -49,10 +61,9 @@ def get_top_tickers_from_db(limit=10):
         tickers = {}
         for row in cursor.fetchall():
             ticker = row['ticker']
-            # Map BTC to BTC-USD for Yahoo Finance
-            symbol = 'BTC-USD' if ticker == 'BTC' else ticker
-            tickers[symbol] = {
+            tickers[ticker] = {
                 'name': ticker,  # Use ticker as name, can be enhanced later
+                'yahoo_symbol': to_yahoo_symbol(ticker),
                 'score': row['total_score'],
                 'mentions': row['mentions']
             }
@@ -82,7 +93,7 @@ def fetch_data(symbol, period='14d'):
         return None
 
 
-def create_candlestick_chart(df, symbol, name):
+def create_candlestick_chart(df, symbol, name, market_symbol=None):
     """Create a candlestick chart from the data."""
     try:
         fig, ax = plt.subplots(figsize=(12, 6), facecolor='#1a1a2e')
@@ -116,7 +127,8 @@ def create_candlestick_chart(df, symbol, name):
             ax.plot([i, i], [low_price, high_price], color=color, linewidth=1)
         
         # Formatting
-        ax.set_title(f'{name} ({symbol}) - 2 Week Chart', 
+        title_symbol = market_symbol or symbol
+        ax.set_title(f'{name} ({title_symbol}) - 2 Week Chart',
                      fontsize=16, color='#00d4ff', fontweight='bold', pad=20)
         ax.set_xlabel('Date', fontsize=12, color='#8892b0')
         ax.set_ylabel('Price ($)', fontsize=12, color='#8892b0')
@@ -214,16 +226,17 @@ def main():
     # Generate/update charts for all tickers
     for symbol, info in all_tickers.items():
         name = info['name'] if isinstance(info, dict) else info
+        market_symbol = info.get('yahoo_symbol', symbol) if isinstance(info, dict) else symbol
         print(f"\n📊 Processing {symbol}...")
         
         # Fetch data (14 days = 2 weeks)
-        df = fetch_data(symbol, period='14d')
+        df = fetch_data(market_symbol, period='14d')
         if df is None:
-            print(f"  ✗ Failed to fetch data for {symbol}")
+            print(f"  ✗ Failed to fetch data for {symbol} (Yahoo: {market_symbol})")
             continue
         
         # Create/update chart
-        chart_path = create_candlestick_chart(df, symbol, name)
+        chart_path = create_candlestick_chart(df, symbol, name, market_symbol=market_symbol)
         if chart_path:
             latest_price = float(df['Close'].iloc[-1])
             # Calculate 2-week change (14 days ago to today)
@@ -236,6 +249,7 @@ def main():
             
             chart_data = {
                 'symbol': symbol,
+                'market_symbol': market_symbol,
                 'name': name,
                 'path': str(chart_path),
                 'latest_price': latest_price,

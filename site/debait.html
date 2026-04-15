@@ -374,7 +374,7 @@
   </div>
 
   <script src="./js/common.js"></script>
-  <script src="./data/data.js"></script>
+  <script src="./data/data.js?v=1776220875"></script>
   <script>
     (function() {
       const data = (typeof dashboardData !== 'undefined') ? dashboardData : null;
@@ -434,26 +434,7 @@
       }
 
       async function getPunditLookupList() {
-        var list = getFilteredPundits();
-        if (typeof fetch !== 'function') return list;
-        try {
-          var resp = await fetch('./data/pundits.json?v=' + Date.now(), { cache: 'no-cache' });
-          if (!resp.ok) return list;
-          var j = await resp.json();
-          if (!Array.isArray(j) || !j.length) return list;
-          var seen = {};
-          list.forEach(function(p) {
-            seen[(p.name || '').trim().toLowerCase()] = true;
-          });
-          j.forEach(function(p) {
-            var k = (p.name || '').trim().toLowerCase();
-            if (k && !seen[k]) {
-              seen[k] = true;
-              list.push(p);
-            }
-          });
-        } catch (e) {}
-        return list;
+        return getFilteredPundits();
       }
 
       function getFilteredPundits() {

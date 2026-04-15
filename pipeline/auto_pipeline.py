@@ -653,16 +653,7 @@ def export_website():
         print(f"✗ Export failed: {e}")
         return False
 
-    # Bump cache-buster in index.html so browsers load fresh data.js
-    index_html = SITE_DIR / "index.html"
-    if index_html.exists():
-        import re as _re
-        html = index_html.read_text()
-        cache_ver = int(datetime.now().timestamp())
-        html_updated = _re.sub(r'data/data\.js\?v=\d+', f'data/data.js?v={cache_ver}', html)
-        if html_updated != html:
-            index_html.write_text(html_updated)
-            print(f"✓ Bumped data.js cache-buster to v={cache_ver}")
+    # data.js query string is bumped for all site/*.html in export_data.generate_website_js()
     return True
 
 
@@ -688,9 +679,12 @@ def maybe_run_weekly_debate_after_export() -> bool:
     return run_script("Weekly Debate", "debate_weekly.py", timeout=7200)
 
 
-def git_push(commit_msg: str) -> bool:
+def git_push(commit_msg: str, pathspecs=None) -> bool:
     """Commit and push changes to GitHub. On failure, log stderr and send notification.
     If GITHUB_PUSH_TOKEN is set in workspace .env, uses it for push (so cron can push without keychain).
+
+    If pathspecs is set (e.g. [\"site\"]), only those paths are staged — use for publish_site.py so
+    unrelated workspace changes are not swept into the same commit.
     """
     print("\n" + "="*60)
     print("STEP: Push to GitHub")
@@ -719,10 +713,20 @@ def git_push(commit_msg: str) -> bool:
         except Exception:
             pass
     try:
-        result = subprocess.run(["git", "status", "--porcelain"],
-                                capture_output=True, text=True, cwd=WORKSPACE)
+        status_cmd = ["git", "status", "--porcelain"]
+        if pathspecs:
+            status_cmd.extend(["--"] + list(pathspecs))
+        result = subprocess.run(status_cmd, capture_output=True, text=True, cwd=WORKSPACE)
         if result.stdout.strip():
-            subprocess.run(["git", "add", "-A"], check=True, cwd=WORKSPACE, capture_output=True)
+            if pathspecs:
+                subprocess.run(
+                    ["git", "add", "--"] + list(pathspecs),
+                    check=True,
+                    cwd=WORKSPACE,
+                    capture_output=True,
+                )
+            else:
+                subprocess.run(["git", "add", "-A"], check=True, cwd=WORKSPACE, capture_output=True)
             subprocess.run(["git", "commit", "-m", commit_msg], check=True,
                            cwd=WORKSPACE, capture_output=True)
 
@@ -896,7 +900,7 @@ def main():
         # Build commit message
         ts = datetime.now().strftime("%Y-%m-%d %H:%M")
         commit_msg = f"Pipeline update {ts}: {results['transcripts_analyzed']} podcasts, {results['insights_promoted']} insights, {results['newsletters_imported']} newsletters"
-        git_push(commit_msg)
+        git_push(commit_msg, pathspecs=["site"])
 
         # Send summary notification
         summary = build_summary(results)

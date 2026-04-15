@@ -397,10 +397,27 @@
       font-size: 0.75rem;
       width: 100%;
     }
+    .last-proof-snippet {
+      color: #a8b2d1;
+      font-size: 0.78rem;
+      font-style: italic;
+      margin-top: 0.3rem;
+      line-height: 1.38;
+      border-left: 2px solid rgba(0, 212, 255, 0.35);
+      padding-left: 0.45rem;
+    }
     .last-thesis {
       color: #e8e8e8;
       font-size: 0.85rem;
-      margin-top: 0.25rem;
+      margin-top: 0.35rem;
+    }
+    .last-thesis .thesis-label {
+      display: block;
+      font-size: 0.72rem;
+      color: #8892b0;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+      margin-bottom: 0.15rem;
     }
     .guest-extra {
       max-height: 0;
@@ -1796,7 +1813,7 @@
   </div>
 
   <!-- Load dashboard data from pipeline (if available) -->
-  <script src="./data/data.js?v=1776161021"></script>
+  <script src="./data/data.js?v=1776220875"></script>
   <script src="./js/common.js"></script>
   
   <script>
@@ -1855,6 +1872,9 @@
         const relevance = sugg.relevance_score || 50;
         const mentions = sugg.mention_count || 1;
         const sources = sugg.source_diversity || 1;
+        const priorityScore = (typeof sugg.priority_score === 'number')
+          ? sugg.priority_score
+          : (mentions * 10 + sources * 20 + relevance);
         
         // Relevance indicator color
         let relevanceColor = '#f44336'; // Low
@@ -1871,7 +1891,8 @@
           <div class="suggestion-item" data-term="${term}" style="cursor: pointer;" onclick="toggleSuggestionPreview(this)">
             <div class="suggestion-header">
               <span class="word">${term}</span>
-              <div style="display: flex; align-items: center; gap: 0.5rem;">
+              <div style="display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap; justify-content: flex-end;">
+                <span style="color: #00d4ff; font-size: 0.72rem; font-weight: 700;" title="mentions×10 + sources×20 + relevance">Rank ${Math.round(priorityScore)}</span>
                 <span style="color: ${relevanceColor}; font-size: 0.75rem; font-weight: 600;">${relevanceLabel}</span>
                 <span style="color: #8892b0; font-size: 0.7rem;">📊 ${mentions}</span>
               </div>
@@ -1956,9 +1977,8 @@
       // Pundits come primarily from semantic-layer entities/appearances (guest_primary roles)
       let items = (typeof dashboardData !== 'undefined' && Array.isArray(dashboardData.pundits)) ? dashboardData.pundits : [];
 
-      // Fallback: if dashboardData.pundits is missing/empty (e.g. older data.js schema),
-      // try loading directly from data/pundits.json so the section still renders on live site.
-      if ((!items || items.length === 0) && typeof fetch === 'function') {
+      // Dev-only: load pundits.json if data.js is missing pundits (local debugging).
+      if ((!items || items.length === 0) && DEBUG_SITE && typeof fetch === 'function') {
         try {
           const resp = await fetch('./data/pundits.json', { cache: 'no-cache' });
           if (resp.ok) {
@@ -1971,7 +1991,7 @@
             }
           }
         } catch (e) {
-          if (DEBUG_SITE) console.warn('Could not load pundits.json fallback:', e);
+          console.warn('Could not load pundits.json fallback:', e);
         }
       }
 
@@ -1988,6 +2008,8 @@
         var known = (item.known_for || '').replace(/</g, '&lt;').replace(/>/g, '&gt;');
         var bio = (item.bio || '').replace(/</g, '&lt;').replace(/>/g, '&gt;');
         var idea = (item.last_main_idea || '').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+        var proofCite = (item.last_proof_cite || '').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+        var proofSnip = (item.last_proof_snippet || '').replace(/</g, '&lt;').replace(/>/g, '&gt;');
         var src = '';
         if (item.last_podcast_name || item.last_episode_date) {
           var epDateStr = item.last_episode_date ? formatSiteCalendarDate(item.last_episode_date, { month: 'short', day: 'numeric', year: 'numeric' }) : '';
@@ -2014,18 +2036,25 @@
           whoText = bio;
         }
 
-        // Why: why this voice is on our page right now
-        var whyBits = [];
+        // Grounding: cite + transcript excerpt (export), not net-worth trivia
+        var arenaBits = [];
         if (mentionScore) {
-          whyBits.push('Appearance Count: ' + mentionScore);
+          arenaBits.push(mentionScore + '× guest spot' + (mentionScore === 1 ? '' : 's'));
         }
-        if (src) {
-          whyBits.push('most recently on ' + src);
+        if (proofCite) {
+          arenaBits.push('Latest proof: ' + proofCite);
+        } else if (src) {
+          arenaBits.push('Latest: ' + src);
         }
-        var whyText = whyBits.join('; ');
+        var whyText = arenaBits.join(' · ');
 
-        // What: last main idea we extracted
         var whatText = idea || 'Latest thesis not yet extracted from transcripts.';
+
+        var proofBlock = '';
+        if (proofSnip) {
+          var shown = proofSnip.length > 320 ? proofSnip.substring(0, 317) + '…' : proofSnip;
+          proofBlock = '<div class="last-proof-snippet">“' + shown + '”</div>';
+        }
 
         // Inline (always-visible) summary block
         var inline = '' +
@@ -2039,7 +2068,9 @@
             '<div class="latest-arena">' + (whyText || '') + '</div>' +
           '</div>';
 
-        var thesis = whatText ? ('<div class="last-thesis">“' + whatText + '”</div>') : '';
+        var thesis = whatText
+          ? ('<div class="last-thesis"><span class="thesis-label">Thesis (latest episode)</span>“' + whatText + '”</div>')
+          : '';
 
         // Net worth may be enriched later (e.g. Grokopedia). Keep data attrs for modal.
         // Prefer pre-formatted display string when available.
@@ -2056,6 +2087,7 @@
           '<div class="guest-item" data-name="' + name.replace(/"/g, '&quot;') + '" data-networth="' + String(netWorth).replace(/"/g, '&quot;') + '" data-networthsrc="' + String(netWorthSrc).replace(/"/g, '&quot;') + '" data-profile-b64="' + profileB64.replace(/"/g, '') + '">' +
             '<div class="guest-name">' + name + '</div>' +
             inline +
+            proofBlock +
             thesis +
           '</div>';
       }).join('');
@@ -2115,54 +2147,8 @@
     // Podcast Summary Data - Loaded from database export or embedded
     let podcastSummaries = {};
     
-    // Embedded insight data for Deep Dive modals
-    const embeddedInsights = [
-      {
-        id: 'rundown_spacex_xai',
-        title: 'SpaceX/xAI $1.25T Super-Entity',
-        source: 'The Rundown AI • Feb 13',
-        summary: 'Elon Musk consolidating Starlink satellite network with xAI Grok infrastructure creates first vertically integrated AI-to-orbit stack.',
-        key_takeaway: 'Vertical integration of AI compute with orbital infrastructure creates durable competitive moats.',
-        tickers_mentioned: ['GOOGL', 'NVDA', 'AVGO'],
-        sentiment: 'bullish'
-      },
-      {
-        id: 'monetary_matters_gold_top',
-        title: 'Gold Climax Top Signal',
-        source: 'Monetary Matters • Feb 10',
-        summary: "Milton Berg institutional model flipped net-short across major indices while retail remains 100% long. Historical pattern suggests 8% drawdown.",
-        key_takeaway: 'Risk-off: Reduce momentum exposure. Watch VIX >25.',
-        tickers_mentioned: ['VIX', 'SQQQ', 'TLT'],
-        sentiment: 'bearish'
-      },
-      {
-        id: 'mallers_bitcoin_hard_asset',
-        title: 'Bitcoin as Hard Asset',
-        source: 'Jack Mallers Show • Feb 3',
-        summary: 'New liquidity regime narrative gaining traction - BTC decoupling from tech-correlation as treasury reserve thesis resurfaces.',
-        key_takeaway: 'BTC positioning vs DXY weakness, yen carry unwind scenarios.',
-        tickers_mentioned: ['BTC', 'COIN', 'MSTR'],
-        sentiment: 'bullish'
-      },
-      {
-        id: 'a16z_healthcare_ai',
-        title: 'Healthcare AI Moats',
-        source: 'a16z Live • Jan 25',
-        summary: 'Tennr and Camber building operational infrastructure rather than clinical AI. First-mover advantage in regulatory capture.',
-        key_takeaway: 'Watch for IPO pipeline in healthtech operations.',
-        tickers_mentioned: ['VEEV', 'TDOC', 'DOCS'],
-        sentiment: 'bullish'
-      },
-      {
-        id: 'network_state_machine_money',
-        title: 'Machine-Native Money',
-        source: 'Network State Podcast • Jan 16',
-        summary: 'USDC co-founder Sean Neville on deterministic crypto meeting probabilistic AI - identity systems for autonomous agents require new financial rails.',
-        key_takeaway: 'Long-term: Stablecoin infrastructure (COIN, fintech rails).',
-        tickers_mentioned: ['COIN', 'PYPL', 'SQ'],
-        sentiment: 'bullish'
-      }
-    ];
+    // Production: podcast summaries come from dashboardData + DB exports only (no hardcoded demos).
+    const embeddedInsights = [];
     
     // Initialize podcast summaries from embedded data
     function initPodcastSummaries() {
@@ -2489,16 +2475,23 @@
     let priceData = {};
 
     async function loadPriceData() {
+      priceData = {};
       try {
-        const response = await fetch('./price_data.json?v=' + Date.now());
-        if (response.ok) {
-          priceData = await response.json();
-          // Remove metadata key if present
+        if (typeof dashboardData !== 'undefined' && dashboardData.priceSnapshot && typeof dashboardData.priceSnapshot === 'object') {
+          priceData = Object.assign({}, dashboardData.priceSnapshot);
           delete priceData._metadata;
-          if (DEBUG_SITE) console.log('Loaded price data:', Object.keys(priceData).length, 'tickers');
-        } else {
-          if (DEBUG_SITE) console.log('Failed to load price data, using empty object');
-          priceData = {};
+          if (DEBUG_SITE) console.log('Loaded price data from dashboardData.priceSnapshot:', Object.keys(priceData).length);
+          updateTitleTickers();
+          populateTickers();
+          return;
+        }
+        if (DEBUG_SITE) {
+          const response = await fetch('./price_data.json?v=' + Date.now());
+          if (response.ok) {
+            priceData = await response.json();
+            delete priceData._metadata;
+            if (DEBUG_SITE) console.log('Loaded price data from price_data.json:', Object.keys(priceData).length);
+          }
         }
       } catch (error) {
         if (DEBUG_SITE) console.log('Error loading price data:', error);
@@ -2536,28 +2529,35 @@
     // Load ticker data from database export
     async function loadTickerData() {
       try {
-        // Try dashboardData first
-        if (typeof dashboardData !== 'undefined' && dashboardData.tickerScores) {
+        if (typeof dashboardData !== 'undefined' && Array.isArray(dashboardData.tickerScores) && dashboardData.tickerScores.length > 0) {
           enhancedTickers = dashboardData.tickerScores.map(formatTickerData);
           if (DEBUG_SITE) console.log('Loaded ticker data from dashboardData:', enhancedTickers.length);
           populateTickers();
           return;
         }
 
-        // Fallback: fetch from JSON
-        const response = await fetch('./data/ticker_scores.json');
-        if (response.ok) {
-          const data = await response.json();
-          enhancedTickers = data.map(formatTickerData);
-          if (DEBUG_SITE) console.log('Loaded ticker data from JSON:', enhancedTickers.length);
-          populateTickers();
-        } else {
-          if (DEBUG_SITE) console.log('No external ticker data found, using defaults');
+        if (DEBUG_SITE) {
+          const response = await fetch('./data/ticker_scores.json');
+          if (response.ok) {
+            const data = await response.json();
+            enhancedTickers = data.map(formatTickerData);
+            if (DEBUG_SITE) console.log('Loaded ticker data from JSON (dev):', enhancedTickers.length);
+            populateTickers();
+            return;
+          }
           loadDefaultTickerData();
+          return;
         }
+
+        enhancedTickers = [];
+        populateTickers();
       } catch (error) {
         if (DEBUG_SITE) console.log('Error loading ticker data:', error);
-        loadDefaultTickerData();
+        if (DEBUG_SITE) loadDefaultTickerData();
+        else {
+          enhancedTickers = [];
+          populateTickers();
+        }
       }
     }
 
@@ -2620,20 +2620,21 @@
       const lastUpdatedEl = document.getElementById('last-updated');
       if (!lastUpdatedEl) return;
 
-      // Prefer status.json if available
       let ts = null;
-      try {
-        const resp = await fetch('./data/status.json', { cache: 'no-cache' });
-        if (resp.ok) {
-          const status = await resp.json();
-          ts = status.last_pipeline_run || null;
-        }
-      } catch (e) {
-        if (DEBUG_SITE) console.warn('Could not load status.json:', e);
+      if (typeof dashboardData !== 'undefined' && dashboardData.generatedAt) {
+        ts = dashboardData.generatedAt;
       }
 
-      if (!ts && typeof dashboardData !== 'undefined' && dashboardData.generatedAt) {
-        ts = dashboardData.generatedAt;
+      if (!ts && DEBUG_SITE) {
+        try {
+          const resp = await fetch('./data/status.json', { cache: 'no-cache' });
+          if (resp.ok) {
+            const status = await resp.json();
+            ts = status.last_pipeline_run || null;
+          }
+        } catch (e) {
+          console.warn('Could not load status.json:', e);
+        }
       }
 
       if (ts) {

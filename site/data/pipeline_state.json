@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-14T05:03:34.302963",
-  "last_updated": "2026-04-14T05:03:34.302963",
-  "last_pipeline_run": "2026-04-14T05:03:34.302963",
+  "generated_at": "2026-04-14T21:41:08.120666",
+  "last_updated": "2026-04-14T21:41:08.120666",
+  "last_pipeline_run": "2026-04-14T21:41:08.120666",
   "main_page": {
     "overton": 8,
     "insights": 8,
@@ -23,7 +23,7 @@
     "analyzed": 0,
     "insight_created": 0,
     "published": 0,
-    "total": 1
+    "total": 5
   },
   "episodes": [
     {
@@ -47,9 +47,129 @@
         "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
       },
       "status": "needs_download"
+    },
+    {
+      "id": "rss::moonshots with peter diamandis::elon musk vs. sam altman, ai job loss, and openai\u2019s $852b valuation | ep #247",
+      "podcast": "Moonshots with Peter Diamandis",
+      "title": "Elon Musk vs. Sam Altman, AI Job Loss, and OpenAI\u2019s $852B Valuation | EP #247",
+      "published": "2026-04-14",
+      "published_date": "2026-04-14",
+      "rss_guid": "",
+      "stages": {
+        "downloaded": false,
+        "transcribed": false,
+        "analyzed": false,
+        "insight_created": false,
+        "published": false
+      },
+      "stage_reasons": {
+        "downloaded": "Discovered on RSS feed; not yet pulled into curation/pipeline state.",
+        "transcribed": "Waiting for download first.",
+        "analyzed": "Waiting for transcript first.",
+        "insight_created": "Depends on analyze step first.",
+        "published": "Not on site until export after analysis and insight promotion."
+      },
+      "status": "needs_download"
+    },
+    {
+      "id": "rss::monetary matters with jack farley::\"i don't believe the stagflation narrative\": how the strong consumer and ai tailwinds shape sean emory's bullish blueprint | avory & co",
+      "podcast": "Monetary Matters with Jack Farley",
+      "title": "\"I Don't Believe the Stagflation Narrative\": How the Strong Consumer and AI Tailwinds Shape Sean Emory's Bullish Blueprint | Avory & Co",
+      "published": "2026-04-14",
+      "published_date": "2026-04-14",
+      "rss_guid": "",
+      "stages": {
+        "downloaded": false,
+        "transcribed": false,
+        "analyzed": false,
+        "insight_created": false,
+        "published": false
+      },
+      "stage_reasons": {
+        "downloaded": "Discovered on RSS feed; not yet pulled into curation/pipeline state.",
+        "transcribed": "Waiting for download first.",
+        "analyzed": "Waiting for transcript first.",
+        "insight_created": "Depends on analyze step first.",
+        "published": "Not on site until export after analysis and insight promotion."
+      },
+      "status": "needs_download"
+    },
+    {
+      "id": "rss::the a16z show::ben horowitz on ai infrastructure, economics and the new laws of software",
+      "podcast": "The a16z Show",
+      "title": "Ben Horowitz on AI Infrastructure, Economics and The New Laws of Software",
+      "published": "2026-04-14",
+      "published_date": "2026-04-14",
+      "rss_guid": "",
+      "stages": {
+        "downloaded": false,
+        "transcribed": false,
+        "analyzed": false,
+        "insight_created": false,
+        "published": false
+      },
+      "stage_reasons": {
+        "downloaded": "Discovered on RSS feed; not yet pulled into curation/pipeline state.",
+        "transcribed": "Waiting for download first.",
+        "analyzed": "Waiting for transcript first.",
+        "insight_created": "Depends on analyze step first.",
+        "published": "Not on site until export after analysis and insight promotion."
+      },
+      "status": "needs_download"
+    },
+    {
+      "id": "rss::the jack mallers show::bitcoin & the bigger shovel",
+      "podcast": "The Jack Mallers Show",
+      "title": "Bitcoin & the Bigger Shovel",
+      "published": "2026-04-14",
+      "published_date": "2026-04-14",
+      "rss_guid": "",
+      "stages": {
+        "downloaded": false,
+        "transcribed": false,
+        "analyzed": false,
+        "insight_created": false,
+        "published": false
+      },
+      "stage_reasons": {
+        "downloaded": "Discovered on RSS feed; not yet pulled into curation/pipeline state.",
+        "transcribed": "Waiting for download first.",
+        "analyzed": "Waiting for transcript first.",
+        "insight_created": "Depends on analyze step first.",
+        "published": "Not on site until export after analysis and insight promotion."
+      },
+      "status": "needs_download"
     }
   ],
   "available_from_rss": [
+    {
+      "podcast": "Moonshots with Peter Diamandis",
+      "title": "Elon Musk vs. Sam Altman, AI Job Loss, and OpenAI\u2019s $852B Valuation | EP #247",
+      "published": "Tue, 14 Apr 2026 15:00:00 -0000",
+      "published_date": "2026-04-14",
+      "rss_guid": ""
+    },
+    {
+      "podcast": "Monetary Matters with Jack Farley",
+      "title": "\"I Don't Believe the Stagflation Narrative\": How the Strong Consumer and AI Tailwinds Shape Sean Emory's Bullish Blueprint | Avory & Co",
+      "published": "Tue, 14 Apr 2026 14:00:00 -0000",
+      "published_date": "2026-04-14",
+      "rss_guid": ""
+    },
+    {
+      "podcast": "The a16z Show",
+      "title": "Ben Horowitz on AI Infrastructure, Economics and The New Laws of Software",
+      "published": "Tue, 14 Apr 2026 10:00:00 +0000",
+      "published_date": "2026-04-14",
+      "rss_guid": ""
+    },
+    {
+      "podcast": "The Jack Mallers Show",
+      "title": "Bitcoin & the Bigger Shovel",
+      "published": "Tue, 14 Apr 2026 06:55:33 GMT",
+      "published_date": "2026-04-14",
+      "rss_guid": ""
+    },
     {
       "podcast": "The a16z Show",
       "title": "The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",

@@ -16,6 +16,28 @@ sys.path.insert(0, str(Path(__file__).parent))
 from db_manager import get_db
 from site_text_sanitize import strip_cjk_public_text
 
+WORKSPACE_ROOT = Path.home() / ".openclaw/workspace"
+SITE_ROOT = WORKSPACE_ROOT / "site"
+
+
+def bump_data_js_cache_in_site_html() -> None:
+    """Keep data.js cache-buster in sync across all site/*.html that reference it."""
+    cache_ver = int(datetime.now().timestamp())
+    pat = re.compile(r"\./data/data\.js(\?v=\d+)?")
+
+    def _repl(_m) -> str:
+        return f"./data/data.js?v={cache_ver}"
+
+    for html_path in sorted(SITE_ROOT.glob("*.html")):
+        try:
+            text = html_path.read_text(encoding="utf-8")
+        except OSError:
+            continue
+        new_text = pat.sub(_repl, text)
+        if new_text != text:
+            html_path.write_text(new_text, encoding="utf-8")
+            print(f"  ✓ Bumped data.js cache in {html_path.name} → v={cache_ver}")
+
 
 def _refresh_pipeline_tracker() -> None:
     """
@@ -602,6 +624,19 @@ def generate_website_js():
             ticker_scores = strip_cjk_public_text(json.load(f))
     except FileNotFoundError:
         ticker_scores = []
+
+    # Intraday prices for header tickers (same file fetch_prices.py writes; keeps index on one bundle)
+    price_snapshot: dict = {}
+    price_path = SITE_ROOT / "price_data.json"
+    if price_path.is_file():
+        try:
+            raw_prices = json.loads(price_path.read_text(encoding="utf-8"))
+            if isinstance(raw_prices, dict):
+                price_snapshot = dict(raw_prices)
+                price_snapshot.pop("_metadata", None)
+        except Exception:
+            price_snapshot = {}
+    price_json = json.dumps(price_snapshot, indent=2)
     
     # Generate data.js that the HTML can load
     # Pre-serialize to avoid f-string issues
@@ -622,6 +657,7 @@ const dashboardData = {{
   schemaVersion: {schema_version},
   generatedAt: "{datetime.now().isoformat()}",
   chartsVersion: {json.dumps(charts_version) if 'charts_version' in locals() else 'null'},
+  priceSnapshot: {price_json},
   tickerScores: {ticker_json},
   archive: {archive_json},
   mainContent: {main_json},
@@ -639,6 +675,8 @@ if (typeof module !== 'undefined' && module.exports) {{
     
     with open(site_dir / 'data.js', 'w') as f:
         f.write(js_content)
+
+    bump_data_js_cache_in_site_html()
     
     total_archive = sum(len(v) for v in archive.values() if isinstance(v, list))
     print(f"✓ Generated data.js with {len(ticker_scores)} tickers, {total_archive} archive items, {len(deepdives)} deep dives, {len(suggested_terms)} suggested terms, {len(podcast_guests)} legacy guests, {len(pundits)} pundits; chartsVersion={charts_version}")
