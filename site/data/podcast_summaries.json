@@ -1,5 +1,21 @@
 [
   {
+    "id": 154,
+    "podcast_name": "The Jack Mallers Show",
+    "episode_title": "Bitcoin & the Bigger Shovel",
+    "episode_date": "2026-04-14",
+    "summary": "In this episode of 'The Jack Mallers Show', Jack discusses Bitcoin's market dynamics amidst global economic and political uncertainties. He touches on Bitcoin's price, market cap, and its recent performance relative to its all-time high. Jack also delves into the challenges faced by central banks, particularly the Federal Reserve, in managing inflation and deflation pressures. He argues that Bitcoin offers a potential solution to the dilemmas posed by fiat currency devaluation and economic instability.",
+    "key_takeaways": [
+      "Bitcoin's market cap is $1.47 trillion, and it is currently 41.9% down from its all-time high.",
+      "Jack suggests that central banks are in a difficult position, having to choose between hiking rates to combat inflation or cutting rates to prevent deflation.",
+      "The discussion highlights the potential for stagflation and the challenges it poses to economic policy.",
+      "Jack posits that Bitcoin could be a 'way out' of the current economic predicament, as it acts as a hedge against fiat currency devaluation.",
+      "The episode also touches on the importance of global liquidity, with Bitcoin serving as a 'smoke alarm' for liquidity trends."
+    ],
+    "investment_thesis": "Bitcoin is positioned as a potential solution to the economic challenges posed by central bank policies and fiat currency devaluation.",
+    "key_tickers": null
+  },
+  {
     "id": 153,
     "podcast_name": "The a16z Show",
     "episode_title": "Building Agents at Home: Parenting, Work, and Benevolent Neglect",
