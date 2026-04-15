@@ -3,7 +3,7 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-04-15T05:06:44.100469",
+  generatedAt: "2026-04-15T07:47:25.223145",
   chartsVersion: "2026-04-15T05:06:28.172011",
   priceSnapshot: {
   "GOOGL": {
@@ -841,7 +841,11 @@ const dashboardData = {
       "source_date": "2026-04-14",
       "summary": "In this episode of 'The Jack Mallers Show', Jack discusses Bitcoin's market dynamics amidst global economic and political uncertainties. He touches on Bitcoin's price, market cap, and its recent performance relative to its all-time high. Jack also delves into the challenges faced by central banks, particularly the Federal Reserve, in managing inflation and deflation pressures. He argues that Bitcoin offers a potential solution to the dilemmas posed by fiat currency devaluation and economic instability.",
       "key_takeaway": "Bitcoin is positioned as a potential solution to the economic challenges posed by central bank policies and fiat currency devaluation.",
-      "tickers_mentioned": [],
+      "tickers_mentioned": [
+        "AAPL",
+        "MSFT",
+        "GOOGL"
+      ],
       "sentiment": "neutral",
       "display_on_main": 1,
       "display_order": 0,
@@ -5423,7 +5427,7 @@ const dashboardData = {
       "source_date": "2026-04-14",
       "summary": "In this episode of 'The Jack Mallers Show', Jack discusses Bitcoin's market dynamics amidst global economic and political uncertainties. He touches on Bitcoin's price, market cap, and its recent performance relative to its all-time high. Jack also delves into the challenges faced by central banks, particularly the Federal Reserve, in managing inflation and deflation pressures. He argues that Bitcoin offers a potential solution to the dilemmas posed by fiat currency devaluation and economic instability.",
       "key_takeaway": "Bitcoin is positioned as a potential solution to the economic challenges posed by central bank policies and fiat currency devaluation.",
-      "tickers_mentioned": "[]",
+      "tickers_mentioned": "[\"AAPL\", \"MSFT\", \"GOOGL\"]",
       "sentiment": "neutral",
       "display_on_main": 1,
       "display_order": 0,
@@ -15657,6 +15661,146 @@ const dashboardData = {
     "source_name": "The a16z Show",
     "source_date": "2026-04-13",
     "key_tickers": []
+  },
+  "170": {
+    "id": 160,
+    "insight_id": 170,
+    "podcast_episode_id": 155,
+    "overview": "The debate revolves around the transformative impact of AI on infrastructure, economic development, and the competitive landscape of the tech industry. The urgency is heightened by the U.S.'s current infrastructure inadequacies and the rapid changes in technology that are reshaping traditional business models. The implications are vast, affecting how startups and incumbents operate, compete, and innovate, with AI acting as a catalyst for change.",
+    "key_takeaways_detailed": [
+      "Invest in companies that are aggressively adopting AI to accelerate development cycles and disrupt traditional industry timelines.",
+      "Monitor the evolution of customer lock-in mechanisms as AI erodes traditional barriers, forcing companies to innovate on value delivery.",
+      "Stay abreast of developments in rare earth minerals and manufacturing capacity as these will be critical for companies in the tech and infrastructure sectors.",
+      "Consider the strategic importance of companies that can leverage AI to create new forms of customer value in a post-lock-in era."
+    ],
+    "investment_thesis": "The core logic is that AI will continue to compress development times, disrupt incumbents, and create new opportunities for startups. The timeframe is immediate to medium-term, as the effects of AI are already being felt. For the thesis to hold, there must be continued advancements in AI technology, sustained investment in infrastructure, and a shift in business strategies to leverage AI for competitive advantage.",
+    "ticker_analysis": {
+      "NVDA": {
+        "rationale": "Nvidia is a key player in GPU production, which is central to AI development. Their ability to meet the growing demand for AI processing power is crucial.",
+        "positioning": "Long-term strategic position, as the demand for GPUs is expected to grow with AI advancements.",
+        "risk": "New competitors in the GPU market or a slowdown in AI adoption could affect Nvidia's growth prospects."
+      },
+      "AAPL": {
+        "rationale": "Apple's investment in AI and its vertical integration provide a model for how incumbents can leverage AI to maintain a competitive edge.",
+        "positioning": "Strategic long position, considering Apple's ability to innovate and integrate AI across its product lines.",
+        "risk": "Regulatory challenges or a failure to innovate could hinder Apple's AI initiatives."
+      },
+      "AMZN": {
+        "rationale": "Amazon's cloud computing services are fundamental to the infrastructure that supports AI development and deployment.",
+        "positioning": "Long-term strategic position, as AWS is likely to benefit from the ongoing shift to AI in the cloud.",
+        "risk": "Increased competition in cloud services or a slowdown in AI adoption could impact Amazon's growth."
+      },
+      "GOOGL": {
+        "rationale": "Google's deep investments in AI research and applications position it as a leader in the field, with potential to shape the industry's future.",
+        "positioning": "Long-term strategic position, as Google's AI advancements could drive growth across its business.",
+        "risk": "Failure to commercialize AI technologies or increased regulatory scrutiny could pose risks."
+      },
+      "TSLA": {
+        "rationale": "Tesla's use of AI in electric vehicles and energy solutions exemplifies how AI can transform traditional industries.",
+        "positioning": "Strategic long position, as Tesla's AI capabilities are central to its competitive advantage.",
+        "risk": "Technological disruptions or shifts in energy policy could affect Tesla's market position."
+      }
+    },
+    "positioning_guidance": "Investors should consider a balanced portfolio that includes companies at the forefront of AI development and those in industries poised for disruption. A long-term investment horizon is advised, with the possibility of tactical adjustments to respond to rapid changes in the tech landscape.",
+    "risk_factors": [
+      "Regulatory changes that could hinder AI development or data usage.",
+      "A potential slowdown in technological advancements that could affect the pace of AI innovation.",
+      "Economic downturns that could reduce investment in AI and infrastructure projects.",
+      "Geopolitical tensions affecting the supply of rare earth minerals and other critical resources.",
+      "Cybersecurity threats that could undermine trust in AI systems and digital infrastructure."
+    ],
+    "contrarian_signals": [
+      "A resurgence in traditional manufacturing methods that could reduce the urgency for AI-driven efficiency.",
+      "A shift towards decentralized technology that could challenge the current centralized AI development model.",
+      "A backlash against AI ethics and societal impacts that could slow down its adoption."
+    ],
+    "catalysts": [
+      "Major AI breakthroughs that significantly compress development times.",
+      "Government initiatives to accelerate infrastructure rebuilding and investment in AI.",
+      "Technological milestones in AI, such as achieving general AI capabilities or significant improvements in natural language processing.",
+      "Regulatory decisions that either support or hinder the development and use of AI technologies.",
+      "Market adoption rates of AI-driven products and services, indicating the pace of disruption across industries."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-04-15T07:46:10.780455",
+    "updated_at": "2026-04-15 12:46:10",
+    "episode_evidence": "Ben Horowitz, co-founder of a16z, emphasizes the pressing need for infrastructure rebuilding in the U.S., citing specific shortages: 'America's got to rebuild its entire infrastructure like right now. We don't have enough rare earth minerals. We don't have enough electricity. We don't have enough manufacturing capacity.' He points out the current limitations in technology, such as the insufficiency of Nvidia's chip production and the scarcity of memory. Horowitz also discusses the paradigm shift in the tech industry, where the old rule that 'you cannot buy your way out of a software problem' no longer applies. Now, 'with enough GPUs and the right data, companies can now compress years of development into weeks.' This change erodes traditional defenses for incumbents, such as customer lock-in and proprietary data, as these can be overcome with sufficient resources and AI capabilities.",
+    "falsification_tracks": [
+      "Should the U.S. significantly increase its production of rare earth minerals and expand its manufacturing capacity, the urgency of Horowitz's infrastructure argument would be reduced.",
+      "If there is a substantial decrease in the cost or an increase in the availability of GPUs, making AI advancements more accessible, the advantage of compressing development time with resources would be less pronounced.",
+      "A slowdown in AI development or a plateau in technological advancement could challenge the thesis that historical rules no longer apply in the tech industry."
+    ],
+    "insight_title": "Ben Horowitz on AI Infrastructure, Economics and The New Laws of Software",
+    "source_name": "The a16z Show",
+    "source_date": "2026-04-14",
+    "key_tickers": [
+      "NVDA"
+    ]
+  },
+  "169": {
+    "id": 161,
+    "insight_id": 169,
+    "podcast_episode_id": 154,
+    "overview": "The debate around Bitcoin's role in the global economy is intensifying as geopolitical tensions and central bank policies create uncertainties. Mallers' discussion is particularly timely given the current economic climate, where inflation, deflation, and the devaluation of fiat currencies are central issues. The conversation around Bitcoin as a potential solution to these challenges is not just theoretical but has real-world implications for investors and economies alike.",
+    "key_takeaways_detailed": [
+      "Bitcoin's market cap and price performance are indicators of its potential as a safe haven asset amidst economic and political uncertainties.",
+      "The challenges faced by central banks, especially the Federal Reserve, in managing inflation and deflation pressures highlight the need for alternative financial instruments like Bitcoin.",
+      "The Strait of Hormuz's control is a geopolitical flashpoint that could significantly impact the global economy and potentially increase Bitcoin's appeal as a non-sovereign asset.",
+      "The discussion around 'petro-Bitcoin' suggests a potential shift towards cryptocurrencies as a new reserve asset, especially if traditional petro-dollar systems falter."
+    ],
+    "investment_thesis": "The core logic is that Bitcoin, with its decentralized nature and limited supply, can serve as a hedge against the uncertainties created by central bank policies and geopolitical tensions. In the short to medium term, if economic instability increases and trust in fiat currencies wanes, Bitcoin's value could appreciate significantly. What has to go right includes continued adoption of Bitcoin, technological advancements in blockchain, and a sustained narrative that positions Bitcoin as an alternative to traditional financial systems.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's significant cash reserves and its potential to integrate Bitcoin or blockchain technology could make it a relevant player in the cryptocurrency space, affecting its stock performance.",
+        "positioning": "Strategic long position, as Apple's innovation and market leadership could benefit from the growing adoption of Bitcoin and blockchain technology.",
+        "risk": "Regulatory changes that hinder cryptocurrency adoption or a shift away from technology integration could pose risks to Apple's potential gains from Bitcoin-related developments."
+      },
+      "MSFT": {
+        "rationale": "Microsoft's involvement in cloud services and potential integration of blockchain could influence its stock performance in relation to Bitcoin.",
+        "positioning": "Tactical long position, as Microsoft's cloud services could benefit from the growing demand for blockchain solutions.",
+        "risk": "Competition in the cloud services market and potential regulatory hurdles could offset gains from blockchain integration."
+      },
+      "GOOGL": {
+        "rationale": "Google's potential to leverage its vast data infrastructure for blockchain applications makes it relevant to the Bitcoin thesis.",
+        "positioning": "Strategic long position, as Google's technological prowess could position it well in the blockchain and cryptocurrency space.",
+        "risk": "Regulatory challenges and competition in the data and technology sectors could pose risks to Google's blockchain initiatives."
+      }
+    },
+    "positioning_guidance": "Investors should consider a diversified approach, with a mix of strategic and tactical positions in companies that are likely to benefit from Bitcoin and blockchain technology. The time horizon for these investments should be medium to long-term, as the adoption of Bitcoin and related technologies is likely to be gradual.",
+    "risk_factors": [
+      "Regulatory changes that restrict the use or adoption of Bitcoin and blockchain technology.",
+      "Technological setbacks or security breaches in the cryptocurrency space that could undermine trust.",
+      "Economic stability that reduces the appeal of Bitcoin as a hedge against fiat currency devaluation."
+    ],
+    "contrarian_signals": [
+      "A significant increase in the use of stablecoins, which could reduce the demand for Bitcoin as a store of value.",
+      "Central banks successfully implementing digital currencies that compete with or replace Bitcoin.",
+      "A decrease in Bitcoin's market cap and price, indicating a lack of confidence in its long-term value proposition."
+    ],
+    "catalysts": [
+      "Geopolitical events that increase uncertainty and the need for a non-sovereign reserve asset.",
+      "Announcements from major companies regarding the integration of Bitcoin or blockchain technology into their operations.",
+      "Regulatory clarity from governments and financial institutions that supports the adoption of cryptocurrencies."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-04-15T07:47:11.989805",
+    "updated_at": "2026-04-15 12:47:11",
+    "episode_evidence": "In this episode, Jack Mallers provides a detailed analysis of Bitcoin's market dynamics and its potential as a solution to economic challenges posed by central bank policies and fiat currency devaluation. He states, 'We live in a world where I say famously no man should work for what another man can print,' highlighting the issue of fiat currency devaluation. Mallers also emphasizes the importance of the Strait of Hormuz, saying, 'Can Iran leverage the straight of her moves which is 20% of the oil global supply chain and everything in the market is a derivative of energy.' He argues that if the U.S. cannot reopen the Strait, it would signal a loss and a potential shift away from the petro-dollar system, which could have profound implications for the global economy and the role of Bitcoin as a hedge against such economic instability.",
+    "falsification_tracks": [
+      "A sustained increase in the U.S. dollar's value against other major currencies, suggesting confidence in fiat currency remains strong.",
+      "Iran and the U.S. reaching a comprehensive agreement that reopens the Strait of Hormuz and stabilizes oil markets, reducing the perceived need for alternative reserve currencies.",
+      "Central banks successfully implementing policies that control inflation without causing significant economic disruption, diminishing the appeal of Bitcoin as a store of value."
+    ],
+    "insight_title": "Bitcoin & the Bigger Shovel",
+    "source_name": "The Jack Mallers Show",
+    "source_date": "2026-04-14",
+    "key_tickers": []
   }
 },
   suggestedTerms: [],
@@ -20508,7 +20652,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.52,
+    "mention_score_decayed": 0.51,
     "last_main_idea": "Investing in companies and technologies that are advancing the understanding and capabilities of LLMs could be a pathway to participate in the development of AGI.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-17 \u2022 Understanding the Mechanics of Large Language Models (LLMs) and the Path to AGI",
     "last_proof_snippet": "A topic makes great products. Florida is fantastic, co-workers, fantastic, but they are crazy of silicon doing matrix multiplication. They don't have consciousness, they don't have an inner monologue, you take an inner limb and train it on",
@@ -20569,7 +20713,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.52,
+    "mention_score_decayed": 0.51,
     "last_main_idea": "Invest in companies that are digitizing the physical world and transforming traditional industries through technology.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-17 \u2022 Stealth Startups and the Digitization of the Physical World",
     "last_proof_snippet": "I don't know if some of you knew I was an angel investor in some companies. On the count of three, what's my favorite angel investment of all time? One, two, three. Thank you. Give it up. Travis Kalenik. Appreciate you. Alright. Wow. On a b",
@@ -20631,7 +20775,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.52,
+    "mention_score_decayed": 0.51,
     "last_main_idea": "Invest in companies that are digitizing the physical world and transforming traditional industries through technology.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-17 \u2022 Stealth Startups and the Digitization of the Physical World",
     "last_proof_snippet": "I don't know if some of you knew I was an angel investor in some companies. On the count of three, what's my favorite angel investment of all time? One, two, three. Thank you. Give it up. Travis Kalenik. Appreciate you. Alright. Wow. On a b",

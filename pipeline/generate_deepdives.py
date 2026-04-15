@@ -75,9 +75,20 @@ def insight_body_overlap_ratio(summary: str, key_takeaway: str, content: Dict[st
     return SequenceMatcher(None, baseline, packed).ratio()
 
 
+def _episode_evidence_text(ev_raw: Any) -> str:
+    """Normalize episode_evidence payloads (string/list/dict) to storable text."""
+    if isinstance(ev_raw, list):
+        return "\n".join(str(x).strip() for x in ev_raw if str(x).strip())
+    if isinstance(ev_raw, dict):
+        return "\n".join(
+            f"{k}: {str(v).strip()}" for k, v in ev_raw.items() if str(v).strip()
+        )
+    return str(ev_raw or "").strip()
+
+
 def deep_dive_structural_ok(content: Dict[str, Any]) -> Tuple[bool, str]:
     """Require episode-anchored evidence and explicit falsifiers."""
-    ev = (content.get("episode_evidence") or "").strip()
+    ev = _episode_evidence_text(content.get("episode_evidence"))
     if len(ev) < 120:
         return False, "episode_evidence too short or missing"
     wc = len(ev.split())
@@ -335,7 +346,7 @@ def store_deep_dive(insight_id: int, episode_id: int, content: dict) -> bool:
                 json.dumps(content.get("risk_factors", [])),
                 json.dumps(content.get("contrarian_signals", [])),
                 json.dumps(content.get("catalysts", [])),
-                content.get("episode_evidence", ""),
+                _episode_evidence_text(content.get("episode_evidence")),
                 json.dumps(content.get("falsification_tracks", [])),
                 datetime.now().isoformat(),
             ),
