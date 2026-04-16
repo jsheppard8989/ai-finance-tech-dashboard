@@ -1,5 +1,43 @@
 [
   {
+    "id": 160,
+    "podcast_name": "Dwarkesh Podcast",
+    "episode_title": "Jensen Huang \u2013 TPU competition, why we should sell chips to China, & Nvidia\u2019s supply chain moat",
+    "episode_date": "2026-04-15",
+    "summary": "In this episode, the guest discusses the valuations of software companies in relation to AI and the manufacturing process of hardware, particularly focusing on the role of Nvidia. The conversation delves into the transformation of electrons to tokens and the artistry and science involved in making tokens more valuable. The guest also touches on the ecosystem Nvidia has built, the role of tool makers in software companies, and the potential for AI to exponentially grow the number of tool users. The discussion also covers the shortage of GPUs, Nvidia's allocation strategy, and the company's commitment to accelerated computing even in the absence of AI.",
+    "key_takeaways": [
+      "The transformation of electrons to tokens is a complex process that is unlikely to be commoditized.",
+      "Nvidia has built a large ecosystem of partners across the supply chain and in application development.",
+      "The number of tool users and instances of tools like Synopsys are expected to grow exponentially due to AI.",
+      "Nvidia's strategy is to do as little as possible while enabling the transformation of electrons to tokens at incredible capabilities.",
+      "There is a potential for a new market segment of inference with faster response times, even if it means lower throughput.",
+      "Nvidia's commitment to accelerated computing is fundamental, regardless of the existence of AI."
+    ],
+    "investment_thesis": "Nvidia's role in the transformation of electrons to valuable tokens and the acceleration of computing tasks positions it well in the AI and broader technology market.",
+    "key_tickers": [
+      "NVDA"
+    ]
+  },
+  {
+    "id": 159,
+    "podcast_name": "Monetary Matters with Jack Farley",
+    "episode_title": "Financial Repression, Pt. 1  | Professor Hanno Lustig on Hidden Taxes, Fiscal Sustainability, and Japan\u2019s Debt Puzzle",
+    "episode_date": "2026-04-15",
+    "summary": "In this episode of Monetary Matters with Jack Farley, the discussion revolves around financial repression and fiscal sustainability. The guest, Hano Lustig, a finance professor at Stanford University, explains financial repression as a government strategy to fund itself at below-market rates through various interventions. The conversation delves into historical examples, particularly during wartime, and analyzes the impact of such policies on bondholders and taxpayers. The episode also touches on the regressive nature of financial repression and its implications for intergenerational equity, especially in the context of Japan's debt and the United States' fiscal trajectory.",
+    "key_takeaways": [
+      "Financial repression is a government strategy to fund itself at below-market rates.",
+      "Historically, financial repression has been used during wartime to keep bond yields artificially low.",
+      "Governments shift the burden of war from taxpayers to bondholders through financial repression.",
+      "Financial repression is a regressive tax, primarily affecting less sophisticated investors.",
+      "Japan's debt situation is used as a case study to illustrate the effects of financial repression.",
+      "Intergenerational equity is a significant concern due to the unfair burden placed on younger generations."
+    ],
+    "investment_thesis": "Investing in HFGM global macro ETF, which is highly rated by Morningstar, may offer exposure to macroeconomic trends and government policies affecting financial markets.",
+    "key_tickers": [
+      "HFGM"
+    ]
+  },
+  {
     "id": 158,
     "podcast_name": "The a16z Show",
     "episode_title": "Replit's CEO on Vibe Coding, Wealth Building, and What Most People Get Wrong About AI",

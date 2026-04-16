@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-04-15T22:08:43.093549",
-  chartsVersion: "2026-04-15T22:08:31.814788",
+  generatedAt: "2026-04-16T05:09:20.681508",
+  chartsVersion: "2026-04-16T05:09:09.515883",
   priceSnapshot: {
   "GOOGL": {
     "price": 337.12,
     "change_pct": 20.01,
     "name": "GOOGL",
-    "updated_at": "2026-04-15T22:08:31.813924"
-  },
-  "MSFT": {
-    "price": 411.22,
-    "change_pct": 12.36,
-    "name": "MSFT",
-    "updated_at": "2026-04-15T22:08:31.813938"
-  },
-  "WTI": {
-    "price": 2.88,
-    "change_pct": -12.2,
-    "name": "WTI",
-    "updated_at": "2026-04-15T22:08:31.813948"
-  },
-  "BTC": {
-    "price": 75082.51,
-    "change_pct": 12.18,
-    "name": "BTC",
-    "updated_at": "2026-04-15T22:08:31.813953"
+    "updated_at": "2026-04-16T05:09:09.514320"
   },
   "NVDA": {
     "price": 198.87,
     "change_pct": 16.14,
     "name": "NVDA",
-    "updated_at": "2026-04-15T22:08:31.813958"
+    "updated_at": "2026-04-16T05:09:09.514347"
+  },
+  "MSFT": {
+    "price": 411.22,
+    "change_pct": 12.36,
+    "name": "MSFT",
+    "updated_at": "2026-04-16T05:09:09.514359"
+  },
+  "WTI": {
+    "price": 2.88,
+    "change_pct": -12.2,
+    "name": "WTI",
+    "updated_at": "2026-04-16T05:09:09.514371"
+  },
+  "BTC": {
+    "price": 74566.1,
+    "change_pct": 11.41,
+    "name": "BTC",
+    "updated_at": "2026-04-16T05:09:09.514382"
   },
   "S&P 500": {
     "price": 699.94,
     "change_pct": 8.5,
     "name": "S&P 500",
-    "updated_at": "2026-04-15T22:08:31.813964"
+    "updated_at": "2026-04-16T05:09:09.514394"
   },
   "TSLA": {
     "price": 391.95,
     "change_pct": 5.33,
     "name": "TSLA",
-    "updated_at": "2026-04-15T22:08:31.813969"
+    "updated_at": "2026-04-16T05:09:09.514405"
   },
   "COPPER": {
-    "price": 6.11,
-    "change_pct": 11.55,
+    "price": 6.08,
+    "change_pct": 8.84,
     "name": "COPPER",
-    "updated_at": "2026-04-15T22:08:31.813974"
+    "updated_at": "2026-04-16T05:09:09.514417"
   },
   "GOLD": {
     "price": 44.99,
     "change_pct": 13.73,
     "name": "GOLD",
-    "updated_at": "2026-04-15T22:08:31.813981"
+    "updated_at": "2026-04-16T05:09:09.514428"
   },
   "META": {
     "price": 671.58,
     "change_pct": 22.65,
     "name": "META",
-    "updated_at": "2026-04-15T22:08:31.813987"
+    "updated_at": "2026-04-16T05:09:09.514439"
   },
   "QQQ": {
     "price": 637.4,
     "change_pct": 11.09,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-04-15T22:08:31.813992"
+    "updated_at": "2026-04-16T05:09:09.514450"
   },
   "BTC-USD": {
-    "price": 75082.51,
-    "change_pct": 12.18,
+    "price": 74566.1,
+    "change_pct": 11.41,
     "name": "Bitcoin USD",
-    "updated_at": "2026-04-15T22:08:31.813998"
+    "updated_at": "2026-04-16T05:09:09.514462"
   }
 },
   tickerScores: [
@@ -96,13 +96,28 @@ const dashboardData = {
     "contexts": []
   },
   {
+    "ticker": "NVDA",
+    "total_score": 376.0,
+    "raw_mention_count": 13,
+    "unique_sources": 2,
+    "podcast_mentions": 5,
+    "newsletter_mentions": 8,
+    "rank": 2,
+    "score": 376.0,
+    "mentions": 13,
+    "conviction_level": "medium",
+    "contrarian_signal": "neutral",
+    "timeframe": "long_term",
+    "contexts": []
+  },
+  {
     "ticker": "MSFT",
     "total_score": 372.0,
     "raw_mention_count": 20,
     "unique_sources": 2,
     "podcast_mentions": 4,
     "newsletter_mentions": 16,
-    "rank": 2,
+    "rank": 3,
     "score": 372.0,
     "mentions": 20,
     "conviction_level": "medium",
@@ -117,7 +132,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 5,
     "newsletter_mentions": 0,
-    "rank": 3,
+    "rank": 4,
     "score": 360.0,
     "mentions": 5,
     "conviction_level": "medium",
@@ -132,24 +147,9 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 4,
     "newsletter_mentions": 0,
-    "rank": 4,
-    "score": 302.0,
-    "mentions": 4,
-    "conviction_level": "medium",
-    "contrarian_signal": "neutral",
-    "timeframe": "long_term",
-    "contexts": []
-  },
-  {
-    "ticker": "NVDA",
-    "total_score": 302.0,
-    "raw_mention_count": 12,
-    "unique_sources": 2,
-    "podcast_mentions": 4,
-    "newsletter_mentions": 8,
     "rank": 5,
     "score": 302.0,
-    "mentions": 12,
+    "mentions": 4,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
     "timeframe": "long_term",
@@ -841,7 +841,11 @@ const dashboardData = {
       "source_date": "2026-04-15",
       "summary": "In this episode of 'The a16z Show', the guest, Amjad Masad, CEO of Replet, discusses his journey from being unable to afford a computer to building a billion-dollar company that democratizes coding through AI. Masad shares his vision of transforming the tech industry from a monopoly to a democracy and his refusal to sell his company for a billion dollars, aiming instead for a trillion-dollar valuation. The conversation delves into how Replet's AI agent can produce a working app in under an hour, the importance of communication in building successful apps, and the future of AI in empowering individuals rather than enslaving them.",
       "key_takeaway": "The democratization of coding through AI has the potential to disrupt the tech industry, empowering individuals and creating new opportunities for innovation and growth.",
-      "tickers_mentioned": [],
+      "tickers_mentioned": [
+        "GOOGL",
+        "MSFT",
+        "AMZN"
+      ],
       "sentiment": "neutral",
       "display_on_main": 1,
       "display_order": 0,
@@ -849,6 +853,44 @@ const dashboardData = {
       "archived_date": null,
       "archived_reason": null,
       "podcast_episode_id": 158
+    },
+    {
+      "id": 174,
+      "title": "Jensen Huang \u2013 TPU competition, why we should sell chips to China, & Nvidia\u2019s supply chain moat",
+      "source_type": "podcast",
+      "source_name": "Dwarkesh Podcast",
+      "source_date": "2026-04-15",
+      "summary": "In this episode, the guest discusses the valuations of software companies in relation to AI and the manufacturing process of hardware, particularly focusing on the role of Nvidia. The conversation delves into the transformation of electrons to tokens and the artistry and science involved in making tokens more valuable. The guest also touches on the ecosystem Nvidia has built, the role of tool makers in software companies, and the potential for AI to exponentially grow the number of tool users. The discussion also covers the shortage of GPUs, Nvidia's allocation strategy, and the company's commitment to accelerated computing even in the absence of AI.",
+      "key_takeaway": "Nvidia's role in the transformation of electrons to valuable tokens and the acceleration of computing tasks positions it well in the AI and broader technology market.",
+      "tickers_mentioned": [
+        "NVDA"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-16",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 160
+    },
+    {
+      "id": 175,
+      "title": "Financial Repression, Pt. 1  | Professor Hanno Lustig on Hidden Taxes, Fiscal Sustainability, and Japan\u2019s Debt Puzzle",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-04-15",
+      "summary": "In this episode of Monetary Matters with Jack Farley, the discussion revolves around financial repression and fiscal sustainability. The guest, Hano Lustig, a finance professor at Stanford University, explains financial repression as a government strategy to fund itself at below-market rates through various interventions. The conversation delves into historical examples, particularly during wartime, and analyzes the impact of such policies on bondholders and taxpayers. The episode also touches on the regressive nature of financial repression and its implications for intergenerational equity, especially in the context of Japan's debt and the United States' fiscal trajectory.",
+      "key_takeaway": "Investing in HFGM global macro ETF, which is highly rated by Morningstar, may offer exposure to macroeconomic trends and government policies affecting financial markets.",
+      "tickers_mentioned": [
+        "HFGM"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-16",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 159
     },
     {
       "id": 169,
@@ -974,11 +1016,11 @@ const dashboardData = {
         "ORCL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-04-12",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-04-16",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 152
     },
     {
@@ -1017,11 +1059,11 @@ const dashboardData = {
         "TSLA"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-04-11",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-04-16",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 151
     },
     {
@@ -3960,6 +4002,20 @@ const dashboardData = {
       "archived_reason": null
     },
     {
+      "id": 120,
+      "term": "Transformation of Electrons to Tokens",
+      "description": "The process of converting basic electrical energy into valuable digital tokens through advanced technology and software.",
+      "first_detected_date": "2026-04-16",
+      "last_mentioned_date": "2026-04-16",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should consider companies that can efficiently and innovatively transform electrons to tokens for potential growth.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null
+    },
+    {
       "id": 24,
       "term": "Risk Off Playbook",
       "description": "A set of investment strategies employed by investors to mitigate risk during times of market uncertainty or perceived danger.",
@@ -5517,7 +5573,7 @@ const dashboardData = {
       "source_date": "2026-04-15",
       "summary": "In this episode of 'The a16z Show', the guest, Amjad Masad, CEO of Replet, discusses his journey from being unable to afford a computer to building a billion-dollar company that democratizes coding through AI. Masad shares his vision of transforming the tech industry from a monopoly to a democracy and his refusal to sell his company for a billion dollars, aiming instead for a trillion-dollar valuation. The conversation delves into how Replet's AI agent can produce a working app in under an hour, the importance of communication in building successful apps, and the future of AI in empowering individuals rather than enslaving them.",
       "key_takeaway": "The democratization of coding through AI has the potential to disrupt the tech industry, empowering individuals and creating new opportunities for innovation and growth.",
-      "tickers_mentioned": "[]",
+      "tickers_mentioned": "[\"GOOGL\", \"MSFT\", \"AMZN\"]",
       "sentiment": "neutral",
       "display_on_main": 1,
       "display_order": 0,
@@ -5528,6 +5584,50 @@ const dashboardData = {
       "episode_release_date": "2026-04-15",
       "guest_name": null,
       "key_tickers": []
+    },
+    {
+      "id": 174,
+      "title": "Jensen Huang \u2013 TPU competition, why we should sell chips to China, & Nvidia\u2019s supply chain moat",
+      "source_type": "podcast",
+      "source_name": "Dwarkesh Podcast",
+      "source_date": "2026-04-15",
+      "summary": "In this episode, the guest discusses the valuations of software companies in relation to AI and the manufacturing process of hardware, particularly focusing on the role of Nvidia. The conversation delves into the transformation of electrons to tokens and the artistry and science involved in making tokens more valuable. The guest also touches on the ecosystem Nvidia has built, the role of tool makers in software companies, and the potential for AI to exponentially grow the number of tool users. The discussion also covers the shortage of GPUs, Nvidia's allocation strategy, and the company's commitment to accelerated computing even in the absence of AI.",
+      "key_takeaway": "Nvidia's role in the transformation of electrons to valuable tokens and the acceleration of computing tasks positions it well in the AI and broader technology market.",
+      "tickers_mentioned": "[\"NVDA\"]",
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-16",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 160,
+      "episode_release_date": "2026-04-15",
+      "guest_name": "also touches",
+      "key_tickers": [
+        "NVDA"
+      ]
+    },
+    {
+      "id": 175,
+      "title": "Financial Repression, Pt. 1  | Professor Hanno Lustig on Hidden Taxes, Fiscal Sustainability, and Japan\u2019s Debt Puzzle",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-04-15",
+      "summary": "In this episode of Monetary Matters with Jack Farley, the discussion revolves around financial repression and fiscal sustainability. The guest, Hano Lustig, a finance professor at Stanford University, explains financial repression as a government strategy to fund itself at below-market rates through various interventions. The conversation delves into historical examples, particularly during wartime, and analyzes the impact of such policies on bondholders and taxpayers. The episode also touches on the regressive nature of financial repression and its implications for intergenerational equity, especially in the context of Japan's debt and the United States' fiscal trajectory.",
+      "key_takeaway": "Investing in HFGM global macro ETF, which is highly rated by Morningstar, may offer exposure to macroeconomic trends and government policies affecting financial markets.",
+      "tickers_mentioned": "[\"HFGM\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-16",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 159,
+      "episode_release_date": "2026-04-15",
+      "guest_name": null,
+      "key_tickers": [
+        "HFGM"
+      ]
     },
     {
       "id": 169,
@@ -5634,46 +5734,6 @@ const dashboardData = {
       "podcast_episode_id": 153,
       "episode_release_date": "2026-04-13",
       "guest_name": "Building Agents at Home",
-      "key_tickers": []
-    },
-    {
-      "id": 167,
-      "title": "SpaceX Goes Public, Claude\u2019s Mythos Release, and the US Data Center Delay | EP #246",
-      "source_type": "podcast",
-      "source_name": "Moonshots with Peter Diamandis",
-      "source_date": "2026-04-11",
-      "summary": "In this episode of Moonshots with Peter Diamandis, the focus is on the latest advancements in AI, space technology, and the future of technology in general. The discussion revolves around SpaceX's potential IPO valuation, the progress of Starlink, and the competition between AI companies like Thropic and OpenAI. The podcast aims to provide an optimistic view of the future, discussing the potential for AI to solve complex problems and the significant investment opportunities in deep tech and deep science.",
-      "key_takeaway": "Invest in companies and technologies at the forefront of AI and space exploration for potential high returns as these sectors are expected to drive the next wave of technological advancements.",
-      "tickers_mentioned": "[\"TSLA\", \"GOOGL\", \"MSFT\", \"AMZN\", \"ORCL\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-04-12",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 152,
-      "episode_release_date": "2026-04-11",
-      "guest_name": null,
-      "key_tickers": []
-    },
-    {
-      "id": 166,
-      "title": "Anthropic's $30B Ramp, Mythos Doomsday, OpenClaw Ankled, Iran War Ceasefire, Israel's Influence",
-      "source_type": "podcast",
-      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "source_date": "2026-04-10",
-      "summary": "In this episode of 'All-In with Chamath, Jason, Sacks & Friedberg', the hosts discuss the rapid growth of AI technologies, particularly focusing on the enterprise adoption of these technologies. They highlight the exponential growth in revenue for companies operating in the AI space, emphasizing the shift from IT budget considerations to labor augmentation and replacement. The discussion also touches on the impact of AI on employment, with the hosts suggesting that while AI may lead to the creation of new jobs, it also enables companies to do more with less, potentially reducing the number of existing jobs.",
-      "key_takeaway": "Invest in AI companies that are leading the charge in enterprise adoption, as they are positioned to benefit from the exponential growth in revenue and the shift towards labor augmentation and replacement.",
-      "tickers_mentioned": "[\"GOOGL\", \"MSFT\", \"AMZN\", \"IBM\", \"TSLA\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-04-11",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 151,
-      "episode_release_date": "2026-04-10",
-      "guest_name": null,
       "key_tickers": []
     }
   ],
@@ -16025,12 +16085,221 @@ const dashboardData = {
     "source_name": "Moonshots with Peter Diamandis",
     "source_date": "2026-04-14",
     "key_tickers": []
+  },
+  "171": {
+    "id": 164,
+    "insight_id": 171,
+    "podcast_episode_id": 158,
+    "overview": "The debate around AI's role in coding is not just about technological advancement; it's about the future of innovation and wealth creation. The current landscape is dominated by a few tech giants, but Replet's AI-driven approach could level the playing field, allowing more individuals to participate in the tech industry's growth. This matters now because the ease of entry into tech entrepreneurship could lead to a surge in innovation and economic opportunities, potentially reshaping the global economy.",
+    "key_takeaways_detailed": [
+      "AI's role in coding is shifting from to a primary driver of app development, which could lead to a significant increase in the number of tech startups and innovations.",
+      "The success of Replet indicates a market readiness for AI-driven solutions in coding, which could be a bellwether for similar disruptions in other industries.",
+      "The democratization of coding through AI has the potential to create new wealth-building opportunities, especially for those with domain-specific knowledge but without traditional coding skills.",
+      "The refusal to sell Replet at a billion-dollar valuation reflects a broader trend in tech startups aiming for higher valuations, which could impact investment strategies and market dynamics."
+    ],
+    "investment_thesis": "The investment thesis is that AI-driven coding platforms like Replet will disrupt the traditional tech industry, leading to increased innovation, a more level playing field for entrepreneurs, and the creation of new wealth. Over the next 5-10 years, we expect to see a significant increase in the number of successful tech startups, a shift in the demand for traditional coding skills, and the emergence of new market leaders in the AI space. For this thesis to hold, Replet must continue to innovate, scale, and maintain a competitive edge in the AI coding market.",
+    "ticker_analysis": {
+      "GOOGL": {
+        "rationale": "Google's investment in AI and its potential to develop competing AI coding platforms makes it relevant to the thesis.",
+        "positioning": "Strategic long position, as Google's AI advancements could either complement or compete with Replet, driving overall industry growth.",
+        "risk": "Google develops a superior AI coding platform, potentially outpacing Replet and impacting its market share."
+      },
+      "MSFT": {
+        "rationale": "Microsoft's extensive resources and AI investments position it to potentially influence the AI coding space.",
+        "positioning": "Strategic long position, as Microsoft's involvement could accelerate the adoption of AI in coding.",
+        "risk": "Microsoft's entry into the AI coding market could lead to increased competition and potentially undermine Replet's growth."
+      },
+      "AMZN": {
+        "rationale": "Amazon's AWS is a major player in cloud services, which are integral to AI-driven platforms like Replet.",
+        "positioning": "Strategic long position, as Amazon's cloud services could benefit from the growth of AI coding platforms.",
+        "risk": "Amazon could develop its own AI coding platform, potentially competing with Replet and affecting its market position."
+      }
+    },
+    "positioning_guidance": "Investors should consider a diversified approach, with a mix of long positions in companies driving AI innovation and potentially benefiting from the growth of AI coding platforms. A strategic time horizon of 5-10 years is appropriate, given the expected pace of disruption and market maturation.",
+    "risk_factors": [
+      "Regulatory changes that could hinder the development or adoption of AI technologies.",
+      "A potential backlash against AI-driven solutions, leading to decreased demand or adoption rates.",
+      "Technological setbacks or failures that could slow the progress of AI in coding."
+    ],
+    "contrarian_signals": [
+      "A resurgence in the demand for traditional coding skills, suggesting that AI may not be as disruptive as anticipated.",
+      "A lack of significant growth in the number of tech startups, indicating that the barriers to entry may still be high despite AI advancements.",
+      "Major tech companies failing to invest in or develop AI coding platforms, potentially signaling a lack of confidence in the market potential."
+    ],
+    "catalysts": [
+      "Replet achieving significant milestones in user growth or revenue, indicating the success of its AI coding platform.",
+      "Major tech companies announcing investments or partnerships in AI coding, signaling industry validation.",
+      "Regulatory approvals or policy changes that support the development and adoption of AI technologies in coding."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-04-16T05:06:50.288591",
+    "updated_at": "2026-04-16 10:06:50",
+    "episode_evidence": "In the podcast, Amjad Masad, CEO of Replet, shares his journey and vision for the future of coding and AI. He emphasizes the transformative potential of AI in making coding accessible to everyone, stating, 'You can cast almost any problem in life as a coding problem.' This reflects his belief in the democratization of coding, which he sees as a way to disrupt the tech industry's monopoly and turn it into a democracy. Masad's ambition is evident when he recalls an offer to sell his company for a billion dollars, to which he responded, 'Because I think I can build a trillion dollar company.' This highlights his conviction in the scalability and impact of Replet's AI-driven approach to app development. The podcast also discusses the rapid growth of Replet, with revenue increasing from $2.5 million to $250 million in just over a year, showcasing the company's potential in the AI space.",
+    "falsification_tracks": [
+      "Replet's revenue growth stalls or declines significantly in the next fiscal year, indicating a potential market saturation or competition issue.",
+      "Major tech companies successfully develop competing AI coding platforms that outperform Replet in key metrics such as speed, cost, or user experience.",
+      "There is a significant increase in the number of coding-related jobs, suggesting that the demand for traditional coding skills is still high and the need for AI democratization is less urgent."
+    ],
+    "insight_title": "Replit's CEO on Vibe Coding, Wealth Building, and What Most People Get Wrong About AI",
+    "source_name": "The a16z Show",
+    "source_date": "2026-04-15",
+    "key_tickers": []
+  },
+  "174": {
+    "id": 165,
+    "insight_id": 174,
+    "podcast_episode_id": 160,
+    "overview": "The debate centers on the sustainability of Nvidia's growth in the context of AI and broader technology markets. With software company valuations under pressure due to AI expectations, the question arises whether Nvidia can maintain its position as a key player in the transformation of electrons to valuable tokens. The importance of this debate is heightened by the potential for AI to revolutionize tool usage, which could significantly impact Nvidia's customer base and revenue streams.",
+    "key_takeaways_detailed": [
+      "Nvidia's strategic ecosystem building positions it to leverage the growing demand for AI tools and applications.",
+      "The company's large purchase commitments signal a long-term view on securing supply, which could be a competitive advantage in a market with potential component shortages.",
+      "The potential for AI to increase the number of tool users exponentially suggests a substantial growth opportunity for Nvidia and its partners.",
+      "Nvidia's commitment to accelerated computing, even in the absence of AI, indicates a diversified strategy that could mitigate risks associated with AI adoption rates."
+    ],
+    "investment_thesis": "Nvidia is well-positioned to capitalize on the AI-driven transformation of the technology market, with a robust ecosystem and strategic supply chain commitments. The investment thesis is based on the continued growth of AI applications, the increasing number of tool users, and Nvidia's ability to maintain its role in the transformation of electrons to valuable tokens. The timeframe for this thesis is medium to long-term, as AI adoption and the development of new tools are expected to accelerate over the coming years.",
+    "ticker_analysis": {
+      "NVDA": {
+        "rationale": "Nvidia is directly involved in the transformation of electrons to tokens and has a significant role in the AI and broader technology market.",
+        "positioning": "Long-term strategic position, as Nvidia's growth is tied to the expansion of AI and its ecosystem.",
+        "risk": "Key risks include competition from other tech giants, potential supply chain disruptions, and a slowdown in AI adoption."
+      },
+      "TSM": {
+        "rationale": "As a major foundry for Nvidia, TSMC's performance is tied to Nvidia's ability to secure components and scale production.",
+        "positioning": "Strategic long position, as TSMC's growth is aligned with the demand for advanced semiconductors from Nvidia.",
+        "risk": "Risks include technological disruptions and changes in the semiconductor market dynamics."
+      },
+      "INTC": {
+        "rationale": "Intel is a competitor in the semiconductor market and could be affected by Nvidia's growth or challenges.",
+        "positioning": "Tactical short position if Nvidia's growth outpaces Intel's, indicating a shift in market share.",
+        "risk": "Risks include Intel's ability to innovate and compete in the high-performance computing market."
+      },
+      "AMD": {
+        "rationale": "Advanced Micro Devices is another competitor in the semiconductor space, with potential implications for Nvidia's market position.",
+        "positioning": "Tactical short position if Nvidia's ecosystem and supply chain advantages lead to market share gains at AMD's expense.",
+        "risk": "Risks include AMD's ability to compete effectively in the GPU and AI markets."
+      },
+      "AAPL": {
+        "rationale": "Apple's involvement in both hardware and software makes it a relevant player in the AI ecosystem, with potential synergies or competition with Nvidia.",
+        "positioning": "Strategic long position, as Apple's growth in AI could complement Nvidia's offerings or create new opportunities.",
+        "risk": "Risks include potential competition in the AI space and the ability of both companies to innovate and maintain market leadership."
+      }
+    },
+    "positioning_guidance": "Investors should consider a long-term strategic position in Nvidia, with potential tactical short positions in competitors to hedge against market share shifts. The time horizon for these positions should align with the expected growth of AI and the technology market.",
+    "risk_factors": [
+      "A slowdown in global AI adoption could reduce demand for Nvidia's products and services.",
+      "Increased competition from other tech giants could erode Nvidia's market position.",
+      "Supply chain disruptions or component shortages could hinder Nvidia's ability to meet market demand.",
+      "Technological disruptions or shifts in the semiconductor market could impact Nvidia's growth prospects."
+    ],
+    "contrarian_signals": [
+      "A significant increase in valuations of software companies, suggesting a resurgence in the software market that could challenge Nvidia's growth narrative.",
+      "Reports of successful AI projects being completed with alternative technologies or platforms, indicating potential competition.",
+      "A decrease in the number of AI startups and projects, which could signal a slowdown in the AI market and affect Nvidia's ecosystem."
+    ],
+    "catalysts": [
+      "Announcements of new partnerships or acquisitions by Nvidia that expand its ecosystem and market reach.",
+      "Releases of new AI tools or applications that leverage Nvidia's technology, indicating the growth of the AI market.",
+      "Quarterly earnings reports that show continued growth in Nvidia's revenue and market share, validating the investment thesis.",
+      "Major AI conferences or events where Nvidia announces new technologies or partnerships, signaling the company's ongoing commitment to the AI market."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-04-16T05:07:39.444599",
+    "updated_at": "2026-04-16 10:07:39",
+    "episode_evidence": "Jensen Huang, CEO of Nvidia, emphasizes the company's pivotal role in the transformation of electrons to valuable tokens, which is a complex process involving artistry, engineering, and science. He states, 'Well in the end something has to transform electrons to tokens... The transformation of electrons to tokens is such an incredible journey.' This highlights the value Nvidia adds in the technology market, particularly in AI. Huang also discusses the company's ecosystem, mentioning, 'We probably have the largest ecosystem of partners...All of the computers, computer companies and all the application developers.' This ecosystem is crucial for Nvidia's growth and resilience in the face of commoditization. Furthermore, Huang touches on the potential for AI to exponentially increase the number of tool users, suggesting a significant growth opportunity for software companies that are tool makers. He says, 'I think the number of agents are going to grow exponentially.' Nvidia's commitment to accelerated computing is also evident, as Huang mentions their large purchase commitments, indicating a strategic move to secure scarce components for future growth.",
+    "falsification_tracks": [
+      "A significant decline in the number of AI projects or a slowdown in AI adoption across industries would challenge Nvidia's growth narrative.",
+      "A failure in Nvidia's ability to maintain its ecosystem of partners, leading to a decrease in the number of tool users and applications developed.",
+      "A substantial increase in the supply of GPUs that outpaces demand, which could lead to a drop in prices and affect Nvidia's profitability.",
+      "Reports of widespread commoditization in the software sector, particularly among tool makers, which could reduce the value proposition of Nvidia's offerings."
+    ],
+    "insight_title": "Jensen Huang \u2013 TPU competition, why we should sell chips to China, & Nvidia\u2019s supply chain moat",
+    "source_name": "Dwarkesh Podcast",
+    "source_date": "2026-04-15",
+    "key_tickers": [
+      "NVDA"
+    ]
+  },
+  "175": {
+    "id": 166,
+    "insight_id": 175,
+    "podcast_episode_id": 159,
+    "overview": "The debate on financial repression is particularly relevant in the current economic climate, where governments worldwide are grappling with high levels of debt and the need to fund large-scale fiscal stimulus. The conversation with Professor Hanno Lustig sheds light on the mechanisms through which governments can influence their funding costs and the broader implications for financial markets and society. Understanding financial repression is crucial for investors as it can impact asset prices, interest rates, and the distribution of wealth across different segments of the economy.",
+    "key_takeaways_detailed": [
+      "Governments have historically used financial repression to lower their borrowing costs, often at the expense of bondholders and savers.",
+      "Financial repression can be a politically expedient tool for funding wars and large-scale fiscal programs without raising taxes significantly.",
+      "The regressive nature of financial repression raises concerns about intergenerational equity, as it disproportionately affects those who rely on fixed income investments.",
+      "Investors should be aware of the potential for financial repression to influence monetary policy and market dynamics, affecting investment strategies and returns.",
+      "The current fiscal trajectory of countries like the United States and Japan, with high levels of debt, may increase the likelihood of financial repression being employed in the future."
+    ],
+    "investment_thesis": "Investing in the HFGM global macro ETF offers exposure to macroeconomic trends and government policies that can affect financial markets. Given the potential for financial repression to influence interest rates and asset prices, the ETF's focus on macroeconomic factors positions it to capitalize on or hedge against these policies. The investment thesis is based on the belief that financial repression will continue to be a tool used by governments to manage debt levels, and the ETF's strategy aligns with this outlook. The timeframe for this thesis is medium to long-term, as the effects of financial repression and policy responses can take time to materialize in the market.",
+    "ticker_analysis": {
+      "HFGM": {
+        "rationale": "HFGM is the ETF discussed in the podcast, which is highly rated by Morningstar and offers exposure to macroeconomic trends influenced by government policies, including financial repression.",
+        "positioning": "A strategic long position in HFGM would be appropriate for investors who believe in the continued relevance of macroeconomic factors in driving financial markets and are looking to gain exposure to these trends.",
+        "risk": "Key risks include changes in government policies that reduce the effectiveness of financial repression as a tool, as well as shifts in market sentiment that could lead to underperformance of the ETF relative to broader market indices."
+      }
+    },
+    "positioning_guidance": "Investors should consider a medium to long-term investment horizon when positioning in HFGM. Given the ETF's focus on macroeconomic trends, it may be less sensitive to short-term market fluctuations. A strategic allocation to HFGM could serve as a complement to a broader investment portfolio, providing diversification benefits and potential exposure to global macro themes.",
+    "risk_factors": [
+      "Unexpected changes in government fiscal policies that could reduce the effectiveness of financial repression.",
+      "Rapid shifts in inflation expectations that could disrupt the current debt management strategies of governments.",
+      "Geopolitical events that could impact the stability of financial markets and the ability of governments to employ financial repression.",
+      "Regulatory changes that affect the operations of ETFs or the ability of banks to hold government debt."
+    ],
+    "contrarian_signals": [
+      "Economic indicators suggesting a robust recovery that could reduce the need for government stimulus and financial repression.",
+      "Signs of fiscal responsibility and debt reduction efforts by governments that could mitigate the use of financial repression.",
+      "Increased market volatility or credit risk that could lead to a repricing of government debt, affecting the cost of funding."
+    ],
+    "catalysts": [
+      "Upcoming elections or political changes that could alter the fiscal policy landscape.",
+      "Major economic reports or data releases that could influence market expectations about inflation and interest rates.",
+      "Global events or crises that may prompt governments to employ financial repression as a response.",
+      "Announcements from central banks regarding changes in monetary policy that could impact financial repression strategies."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-04-16T05:08:24.623461",
+    "updated_at": "2026-04-16 10:08:24",
+    "episode_evidence": "In the Monetary Matters podcast, host Jack Farley and guest Hanno Lustig, a finance professor at Stanford University, explore the concept of financial repression. Lustig explains, 'Financial repression is a term that is sort of used to describe any time the government tries to fund itself by making sure that its funding costs are sort of below what the market rate would be.' This includes interventions such as encouraging banks to hold government debts, which can lower the government's borrowing costs at the expense of banks and bondholders. Lustig cites historical examples, particularly from wartime, where financial repression was used to keep bond yields artificially low while inflation increased, effectively shifting the war's financial burden from taxpayers to bondholders. He states, 'These governments were essentially shifting part of the burden of going to war... to bondholders.' The conversation also touches on the regressive nature of financial repression and its implications for intergenerational equity, especially in the context of Japan's debt and the United States' fiscal trajectory.",
+    "falsification_tracks": [
+      "A significant and sustained increase in interest rates that would challenge the government's ability to fund itself at below-market rates.",
+      "A major economic event that forces a reevaluation of current fiscal policies, such as a financial crisis or a rapid change in inflation expectations.",
+      "A shift in political landscape leading to policy changes that reduce the government's reliance on financial repression, such as significant tax reforms or austerity measures.",
+      "An international response or economic sanction that affects a country's ability to use financial repression as a tool, such as restrictions on bond issuances or capital controls."
+    ],
+    "insight_title": "Financial Repression, Pt. 1  | Professor Hanno Lustig on Hidden Taxes, Fiscal Sustainability, and Japan\u2019s Debt Puzzle",
+    "source_name": "Monetary Matters with Jack Farley",
+    "source_date": "2026-04-15",
+    "key_tickers": [
+      "HFGM"
+    ]
   }
 },
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 1956,
+    "id": 1979,
+    "name": "also touches",
+    "slug": "also-touches",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Nvidia's role in the transformation of electrons to valuable tokens and the acceleration of computing tasks positions it well in the AI and broader technology market.",
+    "last_episode_title": "Jensen Huang \u2013 TPU competition, why we should sell chips to China, & Nvidia\u2019s supply chain moat",
+    "last_podcast_name": "Dwarkesh Podcast",
+    "last_episode_date": "2026-04-15",
+    "appearance_count": 1
+  },
+  {
+    "id": 1980,
     "name": "\"I Don't Believe the Stagflation Narrative\"",
     "slug": "i-dont-believe-the-stagflation-narrative",
     "bio": null,
@@ -16042,7 +16311,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1957,
+    "id": 1981,
     "name": "Building Agents at Home",
     "slug": "building-agents-at-home",
     "bio": null,
@@ -16054,7 +16323,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1958,
+    "id": 1982,
     "name": "\"The Best Time to Invest\"",
     "slug": "the-best-time-to-invest",
     "bio": null,
@@ -16066,7 +16335,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1959,
+    "id": 1983,
     "name": "Governor Josh Shapiro of Pennsylvania",
     "slug": "governor-josh-shapiro-of-pennsylvania",
     "bio": null,
@@ -16078,7 +16347,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1960,
+    "id": 1984,
     "name": "Why $200 Oil Won\u2019t Spike Inflation to 9%",
     "slug": "why-200-oil-wont-spike-inflation-to-9",
     "bio": null,
@@ -16090,7 +16359,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1961,
+    "id": 1985,
     "name": "This special episode",
     "slug": "this-special-episode",
     "bio": null,
@@ -16102,7 +16371,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1962,
+    "id": 1986,
     "name": "Lupin Ramon",
     "slug": "lupin-ramon",
     "bio": null,
@@ -16114,7 +16383,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1963,
+    "id": 1987,
     "name": "When the Music Stops",
     "slug": "when-the-music-stops",
     "bio": null,
@@ -16126,7 +16395,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1964,
+    "id": 1988,
     "name": "Ground Infrastructure",
     "slug": "ground-infrastructure",
     "bio": null,
@@ -16138,7 +16407,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1965,
+    "id": 1989,
     "name": "Rory Johnston",
     "slug": "rory-johnston",
     "bio": null,
@@ -16150,7 +16419,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1966,
+    "id": 1990,
     "name": "Senator John Fetterman on Voting Rights",
     "slug": "senator-john-fetterman-on-voting-rights",
     "bio": null,
@@ -16162,7 +16431,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1967,
+    "id": 1991,
     "name": "Stock Market on Shaky Foundations",
     "slug": "stock-market-on-shaky-foundations",
     "bio": null,
@@ -16174,7 +16443,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1968,
+    "id": 1992,
     "name": "Elon Musk on Moonshots",
     "slug": "elon-musk-on-moonshots",
     "bio": null,
@@ -16186,7 +16455,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1969,
+    "id": 1993,
     "name": "Investing in Capitalism",
     "slug": "investing-in-capitalism",
     "bio": null,
@@ -16198,7 +16467,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1970,
+    "id": 1994,
     "name": "Harvard Professor Graham Allison",
     "slug": "harvard-professor-graham-allison",
     "bio": null,
@@ -16210,7 +16479,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1971,
+    "id": 1995,
     "name": "Andrew Yang",
     "slug": "andrew-yang",
     "bio": "Andrew Yang is an entrepreneur and political leader who popularized universal basic income in U.S. politics through his 2020 presidential campaign.",
@@ -16222,7 +16491,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1972,
+    "id": 1996,
     "name": "Inventing the Renaissance",
     "slug": "inventing-the-renaissance",
     "bio": null,
@@ -16234,7 +16503,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1973,
+    "id": 1997,
     "name": "Ray Dalio",
     "slug": "ray-dalio",
     "bio": "Ray Dalio is the founder of Bridgewater Associates and a macro investor known for his 'Principles' framework and work on long-term debt cycles.",
@@ -16246,7 +16515,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1974,
+    "id": 1998,
     "name": "Nobel Prize-winning economist Paul Krugman",
     "slug": "nobel-prize-winning-economist-paul-krugman",
     "bio": null,
@@ -16256,21 +16525,74 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-02-19",
     "appearance_count": 1
-  },
-  {
-    "id": 1975,
-    "name": "host Jack Mallers",
-    "slug": "host-jack-mallers",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Bitcoin serves as an early warning system for liquidity conditions and economic shifts, with potential to empower individuals in an AI-driven future.",
-    "last_episode_title": "Japan AI and the Next Liquidity Shock: Why Bitcoin's Weakness is an Early Warning",
-    "last_podcast_name": "The Jack Mallers Show",
-    "last_episode_date": "2026-02-19",
-    "appearance_count": 1
   }
 ],
   pundits: [
+  {
+    "id": 96,
+    "name": "Jensen Huang",
+    "slug": "jensen-huang",
+    "bio": "Co-founder and CEO of Nvidia, a leading company in GPU manufacturing and AI technology.",
+    "known_for": "Driving Nvidia's innovation in graphics processing and AI.",
+    "net_worth_usd": 151000000000.0,
+    "net_worth_source": "https://www.wikidata.org/wiki/Q305177",
+    "net_worth_updated_at": "2026-03-20T04:40:55.469936",
+    "voice_tone": "Confident and informative.",
+    "voice_style": "Factual and visionary, with a focus on the technical aspects of the industry.",
+    "voice_delivery_notes": "Clear and measured, with emphasis on the importance of technology and its applications.",
+    "voice_profile_updated_at": "2026-04-16 10:05:44",
+    "last_seen": "2026-04-16 10:05:44",
+    "last_episode_title": "Jensen Huang \u2013 TPU competition, why we should sell chips to China, & Nvidia\u2019s supply chain moat",
+    "last_podcast_name": "Dwarkesh Podcast",
+    "last_episode_date": "2026-04-15",
+    "mention_score": 4,
+    "mention_score_decayed": 4,
+    "last_main_idea": "Nvidia's role in the transformation of electrons to valuable tokens and the acceleration of computing tasks positions it well in the AI and broader technology market.",
+    "last_proof_cite": "Dwarkesh Podcast \u2022 2026-04-15 \u2022 Jensen Huang \u2013 TPU competition, why we should sell chips to China, & Nvidia\u2019s supply chain moat",
+    "last_proof_snippet": "We've seen the valuations of a bunch of software companies crash because people are expecting AI to come out of tight software And there's a potentially naive way of thinking about things which is like look in VDS ends GDS 2 file to TSMC TS",
+    "supporting_takeaway": "Nvidia has built a large ecosystem of partners across the supply chain and in application development.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-20T04:40:52.368193",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Jensen Huang",
+      "fetched_at": "2026-03-20T09:40:52.368095+00:00",
+      "cliff_notes": "Jensen Huang co-founded NVIDIA in 1993 with Curtis Priem and Chris Malachowsky. Huang's vision and leadership have been pivotal in NVIDIA's growth and transformation into a dominant player in the AI and GPU technology sector. His focus on innovation and technological advancement has positioned NVIDIA at the forefront of the AI revolution, influencing industries from gaming to data centers and autonomous vehicles. Huang's strategic foresight and commitment to research and development have made NVIDIA a household name in tech and a key player in the future of computing.",
+      "derived": {
+        "current_role": "Co-founder and CEO of NVIDIA",
+        "education": "Stanford University, Master's in Electrical Engineering"
+      },
+      "infobox": {
+        "Born": "1963",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Jensen Huang co-founded NVIDIA in 1993 with Curtis Priem and Chris Malachowsky. Huang's vision and leadership have been pivotal in NVIDIA's growth and transformation into a dominant player in the AI and GPU technology sector. His focus on innovation and technological advancement has positioned NVIDIA at the forefront of the AI revolution, influencing industries from gaming to data centers and autonomous vehicles.",
+        "Huang's strategic foresight and commitment to research and development have made NVIDIA a household name in tech and a key player in the future of computing."
+      ],
+      "sections": [
+        {
+          "heading": "NVIDIA's AI Transformation",
+          "body": "Jensen Huang has been instrumental in steering NVIDIA towards becoming a leader in AI computing, leveraging the company's expertise in GPUs to power AI applications across various industries."
+        },
+        {
+          "heading": "GPU Technology",
+          "body": "NVIDIA's GPUs have become the backbone of modern AI and deep learning, with Huang's leadership ensuring the company stays at the cutting edge of this technology."
+        },
+        {
+          "heading": "Strategic Acquisitions",
+          "body": "Huang's strategic vision includes acquisitions like Grok, which has further expanded NVIDIA's capabilities in AI and data analytics, showcasing his ability to anticipate and capitalize on emerging tech trends."
+        },
+        {
+          "heading": "Innovation and Future Vision",
+          "body": "Jensen Huang is known for his forward-thinking approach, with NVIDIA often introducing new technologies and strategies years in advance, setting the pace for the tech industry."
+        }
+      ]
+    },
+    "net_worth": "$151.00B"
+  },
   {
     "id": 98,
     "name": "Rory Johnston",
@@ -16289,7 +16611,7 @@ const dashboardData = {
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-03-19",
     "mention_score": 4,
-    "mention_score_decayed": 2.7,
+    "mention_score_decayed": 2.64,
     "last_main_idea": "The Iran conflict could lead to a renewed inflation cycle, affecting commodities and energy markets, with potential second-order effects that markets may currently be underpricing.",
     "last_proof_cite": "MacroVoices \u2022 2026-03-19 \u2022 MacroVoices-2026-03-19-Simon-White",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -16348,7 +16670,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-14",
     "mention_score": 3,
-    "mention_score_decayed": 3,
+    "mention_score_decayed": 2.93,
     "last_main_idea": "Invest in companies that can leverage AI to compress development time and disrupt incumbents, while also considering the emerging overlap between AI and crypto.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-14 \u2022 Ben Horowitz on AI Infrastructure, Economics and The New Laws of Software",
     "last_proof_snippet": "America's got to rebuild its entire infrastructure like right now. We don't have enough rare earth minerals. We don't have enough electricity. We don't have enough manufacturing capacity. Nvidia will make enough chips, but then we won't hav",
@@ -16397,71 +16719,6 @@ const dashboardData = {
     "net_worth": "$2.00B"
   },
   {
-    "id": 96,
-    "name": "Jensen Huang",
-    "slug": "jensen-huang",
-    "bio": "Co-founder and CEO of Nvidia, a leading company in AI and GPU technology.",
-    "known_for": "Driving Nvidia's innovation in AI and GPU technology.",
-    "net_worth_usd": 151000000000.0,
-    "net_worth_source": "https://www.wikidata.org/wiki/Q305177",
-    "net_worth_updated_at": "2026-03-20T04:40:55.469936",
-    "voice_tone": "Confident and visionary.",
-    "voice_style": "Factual and future-oriented, with a focus on technology's transformative potential.",
-    "voice_delivery_notes": "Speak with a steady pace, emphasizing the transformative aspects of AI.",
-    "voice_profile_updated_at": "2026-03-29 03:04:27",
-    "last_seen": "2026-03-29 03:04:27",
-    "last_episode_title": "all in with chamath jason sacks frie jensen huang live nvidia s future physical ai rise of the 03b9c382",
-    "last_podcast_name": "All-In Podcast",
-    "last_episode_date": "2026-03-28",
-    "mention_score": 3,
-    "mention_score_decayed": 1.98,
-    "last_main_idea": "Investing in AI-driven platforms and technologies is essential for capturing the growth in the global financial system and staying ahead in the AI era.",
-    "last_proof_cite": "All-In Podcast \u2022 2026-03-28 \u2022 all in with chamath jason sacks frie jensen huang live nvidia s future physical ai rise of the 03b9c382",
-    "last_proof_snippet": "Special episode this week. We preempted the weekly show and there's only three people. We preempt the show for President Trump Jesus and And I'll let you pick which order we do that But what an amazing run you've had an an a great event Eve",
-    "supporting_takeaway": "Nvidia's acquisition of Rock is seen as a significant move in the AI industry, highlighting the company's evolution from a GPU company to an AI factory.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-20T04:40:52.368193",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Jensen Huang",
-      "fetched_at": "2026-03-20T09:40:52.368095+00:00",
-      "cliff_notes": "Jensen Huang co-founded NVIDIA in 1993 with Curtis Priem and Chris Malachowsky. Huang's vision and leadership have been pivotal in NVIDIA's growth and transformation into a dominant player in the AI and GPU technology sector. His focus on innovation and technological advancement has positioned NVIDIA at the forefront of the AI revolution, influencing industries from gaming to data centers and autonomous vehicles. Huang's strategic foresight and commitment to research and development have made NVIDIA a household name in tech and a key player in the future of computing.",
-      "derived": {
-        "current_role": "Co-founder and CEO of NVIDIA",
-        "education": "Stanford University, Master's in Electrical Engineering"
-      },
-      "infobox": {
-        "Born": "1963",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Jensen Huang co-founded NVIDIA in 1993 with Curtis Priem and Chris Malachowsky. Huang's vision and leadership have been pivotal in NVIDIA's growth and transformation into a dominant player in the AI and GPU technology sector. His focus on innovation and technological advancement has positioned NVIDIA at the forefront of the AI revolution, influencing industries from gaming to data centers and autonomous vehicles.",
-        "Huang's strategic foresight and commitment to research and development have made NVIDIA a household name in tech and a key player in the future of computing."
-      ],
-      "sections": [
-        {
-          "heading": "NVIDIA's AI Transformation",
-          "body": "Jensen Huang has been instrumental in steering NVIDIA towards becoming a leader in AI computing, leveraging the company's expertise in GPUs to power AI applications across various industries."
-        },
-        {
-          "heading": "GPU Technology",
-          "body": "NVIDIA's GPUs have become the backbone of modern AI and deep learning, with Huang's leadership ensuring the company stays at the cutting edge of this technology."
-        },
-        {
-          "heading": "Strategic Acquisitions",
-          "body": "Huang's strategic vision includes acquisitions like Grok, which has further expanded NVIDIA's capabilities in AI and data analytics, showcasing his ability to anticipate and capitalize on emerging tech trends."
-        },
-        {
-          "heading": "Innovation and Future Vision",
-          "body": "Jensen Huang is known for his forward-thinking approach, with NVIDIA often introducing new technologies and strategies years in advance, setting the pace for the tech industry."
-        }
-      ]
-    },
-    "net_worth": "$151.00B"
-  },
-  {
     "id": 131,
     "name": "David Sachs",
     "slug": "david-sachs",
@@ -16479,7 +16736,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-04-10",
     "mention_score": 2,
-    "mention_score_decayed": 1.82,
+    "mention_score_decayed": 1.78,
     "last_main_idea": "Invest in AI companies that are leading the charge in enterprise adoption, as they are positioned to benefit from the exponential growth in revenue and the shift towards labor augmentation and replacement.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-04-10 \u2022 Anthropic's $30B Ramp, Mythos Doomsday, OpenClaw Ankled, Iran War Ceasefire, Israel's Influence",
     "last_proof_snippet": "How many PRs you think are going to get pushed to the core structural internet in 100 days? What's the over under number? Because I'll give you a number. You're going to say zero. My answer to that is I'll say like 10,000. But it's going to",
@@ -16540,7 +16797,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-04-09",
     "mention_score": 2,
-    "mention_score_decayed": 1.78,
+    "mention_score_decayed": 1.74,
     "last_main_idea": "Investment opportunities may arise from the physical dislocation in energy markets and shifts in energy security, with a focus on commodities like oil, uranium, and gold.",
     "last_proof_cite": "Macro Voices \u2022 2026-04-09 \u2022 MacroVoices #527 Adam Rozencwajg: What Comes Next After The Iran Crisis",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -16608,7 +16865,7 @@ const dashboardData = {
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-03-19",
     "mention_score": 2,
-    "mention_score_decayed": 1.35,
+    "mention_score_decayed": 1.32,
     "last_main_idea": "The Iran conflict could lead to a renewed inflation cycle, affecting commodities and energy markets, with potential second-order effects that markets may currently be underpricing.",
     "last_proof_cite": "MacroVoices \u2022 2026-03-19 \u2022 MacroVoices-2026-03-19-Simon-White",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -16865,6 +17122,66 @@ const dashboardData = {
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
+  },
+  {
+    "id": 182,
+    "name": "Hano Lustig",
+    "slug": "hano-lustig",
+    "bio": "Hano Lustig is the Masuhua Financial Group Professor of Finance at Stanford University. He is known for his research on financial repression and its impact on economies, particularly in advanced economies.",
+    "known_for": "His work on financial repression and its impact on economies, especially in advanced economies.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Informed and analytical.",
+    "voice_style": "Lustig presents a historical and economic perspective on financial repression.",
+    "voice_delivery_notes": "Speak with a measured pace, emphasizing key historical examples and current implications.",
+    "voice_profile_updated_at": "2026-04-16 10:05:21",
+    "last_seen": "2026-04-16 10:05:21",
+    "last_episode_title": "Financial Repression, Pt. 1  | Professor Hanno Lustig on Hidden Taxes, Fiscal Sustainability, and Japan\u2019s Debt Puzzle",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-04-15",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investing in HFGM global macro ETF, which is highly rated by Morningstar, may offer exposure to macroeconomic trends and government policies affecting financial markets.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-15 \u2022 Financial Repression, Pt. 1  | Professor Hanno Lustig on Hidden Taxes, Fiscal Sustainability, and Japan\u2019s Debt Puzzle",
+    "last_proof_snippet": "Today's episode is brought to you by the unlimited HFGM global macro ETF ticker HFGM. Later in the show, you'll hear more about HFGM currently the number one morning star rated funds it's its inception in the U.S. macro trading category. Le",
+    "supporting_takeaway": "Historically, financial repression has been used during wartime to keep bond yields artificially low.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-16T05:06:10.468903",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Hano Lustig",
+      "fetched_at": "2026-04-16T10:06:10.468631+00:00",
+      "cliff_notes": "Hano Lustig is a distinguished academic in the field of finance, currently holding the position of Masuhua Financial Group Professor of Finance at Stanford University. His research focuses on financial repression, a tool used by governments to fund themselves by ensuring their funding costs are below market rates. Lustig's work has shed light on the wide array of interventions that fall under financial repression, not just in developing economies but also in advanced economies. His insights into the topic are crucial for understanding fiscal sustainability and the implications of government policies on economic growth and stability.",
+      "derived": {
+        "current_role": "Masuhua Financial Group Professor of Finance at Stanford University",
+        "teaching_summary": "Professor of Finance at Stanford University"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Hano Lustig is a distinguished academic in the field of finance, currently holding the position of Masuhua Financial Group Professor of Finance at Stanford University. His research focuses on financial repression, a tool used by governments to fund themselves by ensuring their funding costs are below market rates. Lustig's work has shed light on the wide array of interventions that fall under financial repression, not just in developing economies but also in advanced economies.",
+        "His insights into the topic are crucial for understanding fiscal sustainability and the implications of government policies on economic growth and stability."
+      ],
+      "sections": [
+        {
+          "heading": "Financial Repression",
+          "body": "Hano Lustig is known for his research on financial repression, a tool used by governments to fund themselves by ensuring their funding costs are below market rates. His work covers a wide array of interventions and has been applied to both developing and advanced economies."
+        },
+        {
+          "heading": "Economic Impact",
+          "body": "Lustig's research delves into the impact of financial repression on economies, highlighting the consequences of government interventions on economic growth and stability. His work provides valuable insights for policymakers and investors alike."
+        },
+        {
+          "heading": "Advanced Economies",
+          "body": "A significant part of Lustig's work focuses on the use of financial repression in advanced economies. He argues that these interventions are not limited to developing nations but are also prevalent in more developed economic systems."
+        }
+      ]
+    }
   },
   {
     "id": 180,
@@ -17131,7 +17448,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-04-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Invest in companies and technologies at the forefront of AI and space exploration for potential high returns as these sectors are expected to drive the next wave of technological advancements.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-04-11 \u2022 SpaceX Goes Public, Claude\u2019s Mythos Release, and the US Data Center Delay | EP #246",
     "last_proof_snippet": "SpaceX is going public with a $2 trillion valuation. It's the beginning of the IPO wars. The stepping stones are really, really clear now. Starlink gets you into space profitably, then the data centers, then you get to the moon, refueling i",
@@ -17193,7 +17510,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-04-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Invest in companies and technologies at the forefront of AI and space exploration for potential high returns as these sectors are expected to drive the next wave of technological advancements.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-04-11 \u2022 SpaceX Goes Public, Claude\u2019s Mythos Release, and the US Data Center Delay | EP #246",
     "last_proof_snippet": "SpaceX is going public with a $2 trillion valuation. It's the beginning of the IPO wars. The stepping stones are really, really clear now. Starlink gets you into space profitably, then the data centers, then you get to the moon, refueling i",
@@ -17320,7 +17637,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Invest in software companies that define the market, focusing on backing scale-ready leaders, providing liquidity to early investors, and helping companies make strategic decisions.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-09 \u2022 \"The Best Time to Invest\": How AI Disruption is Reshaping Software Valuations | Ben Topor | Titan Capital Partners",
     "last_proof_snippet": "Today's episode is brought to you by PeakTay asset management and their AI enhanced ETF range, ticker's PQ&T and PQUS. You'll hear more about how they're using AI to enhance equity exposure later in the show. For now, let's get into it. Wel",
@@ -17388,7 +17705,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-04-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Investment opportunities may arise from the physical dislocation in energy markets and shifts in energy security, with a focus on commodities like oil, uranium, and gold.",
     "last_proof_cite": "Macro Voices \u2022 2026-04-09 \u2022 MacroVoices #527 Adam Rozencwajg: What Comes Next After The Iran Crisis",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -17645,7 +17962,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-04-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "Invest in Pennsylvania due to its pro-growth policies, job creation, and improved business climate.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-04-08 \u2022 Josh Shapiro on Trump, Iran War Chaos, Israel's Failure, the Economy, and 2028 Race",
     "last_proof_snippet": "All right, everybody. We've got an incredible guest today, Governor Josh Shapiro is here, obviously Governor of Pennsylvania. He's got Records setting popularity in Pennsylvania right now 60% approval at least he's a moderate. He's focused",
@@ -17711,7 +18028,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-04-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "The core thesis presented is that advancements in AI and computer science can lead to new fields and paradigms, offering investment opportunities in technological disruption and innovation.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-04-07 \u2022 Michael Nielsen \u2013 How science actually progresses",
     "last_proof_snippet": "Today, I'm speaking with Michael Nielsen. You've done many things. You're one of the pioneers of chronic computing, wrote the main textbook in the field of the open science movement. You're at a book about people learning that Chris Ola and",
@@ -17772,7 +18089,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "Investing in select few names within the China property sector can offer significant potential for value appreciation, given the right conditions and primary research.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-07 \u2022 Why Emerging Markets are Finally Outperforming Developed Markets | Robert Koenigsberger | Gramercy",
     "last_proof_snippet": "Today's episode is brought to you by Peak Day Asset Management and their AI enhanced ETF range, ticker's PQ&T and PQUS. You'll hear more about how they're using AI to enhance equity exposure later in the show. For now, let's get into it. He",
@@ -17832,7 +18149,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-04-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "Investment in Colossal represents a bet on the convergence of synthetic biology, AI, and environmental conservation, with potential for significant technological and societal impact.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-04-07 \u2022 How AI Is Bringing Extinct Animals Back (And What Comes Next) | Ben Lamm (Colossal) | EP #245",
     "last_proof_snippet": "The idea bring back the willy mammoth had been around for a long time. You jump in, take the mantle of CEO. I don't know if you were expecting to do that. I was going to fund it at the side project at first, but then I thought it was just r",
@@ -17958,7 +18275,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-04-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.83,
+    "mention_score_decayed": 0.81,
     "last_main_idea": "Investing in US defense and technology companies that align with maintaining the nation's global primacy and ensuring economic prosperity.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-04-06 \u2022 The Companies Changing Warfare Forever: Palantir & Anduril Execs on Drones, AI & the Future of War",
     "last_proof_snippet": "Trace Steven, Sean Sankar, welcome to the all-in-podcast at the Hillin Valley Forum. Thank you guys for being here. What's up? How are you guys doing? You're having us. You're great. Okay. Did it be here too? You guys are friends. Right? Yo",
@@ -18018,7 +18335,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-04-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.83,
+    "mention_score_decayed": 0.81,
     "last_main_idea": "Investing in US defense and technology companies that align with maintaining the nation's global primacy and ensuring economic prosperity.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-04-06 \u2022 The Companies Changing Warfare Forever: Palantir & Anduril Execs on Drones, AI & the Future of War",
     "last_proof_snippet": "Trace Steven, Sean Sankar, welcome to the all-in-podcast at the Hillin Valley Forum. Thank you guys for being here. What's up? How are you guys doing? You're having us. You're great. Okay. Did it be here too? You guys are friends. Right? Yo",
@@ -18078,7 +18395,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.83,
+    "mention_score_decayed": 0.81,
     "last_main_idea": "Investing in companies that leverage coding agents could offer significant productivity gains and reshape the software development landscape.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-06 \u2022 Peter Yang on Small Teams, Coding Agents, and Why Human Ambition Has No Ceiling",
     "last_proof_snippet": "Interesting set software with the world. I feel like coding what eat all knowledge work, right? And we kind of going to the restaurant already, the whole agent stack is emerging. Yeah. Identity, payments, marketing, even CLI versus MCP, lik",
@@ -18205,7 +18522,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.78,
+    "mention_score_decayed": 0.76,
     "last_main_idea": "Invest in AI technologies that leverage the breakthroughs in large language models, reasoning, agents, and self-improvement, as these advancements could lead to transformative software architectures and industry disruptions.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-03 \u2022 Marc Andreessen on AI Winters and Agent Breakthroughs",
     "last_proof_snippet": "This episode originally aired on the Layton Space Podcast. Mark Andreason has watched AI cycle through summers and winters for more than 35 years. From coding and list in 1989 to back in the foundation model companies today, he argues that",
@@ -18269,7 +18586,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.76,
+    "mention_score_decayed": 0.74,
     "last_main_idea": "Investing in technologies that can verify human interactions online is becoming critical as AI-generated content proliferates, posing both challenges and opportunities for social media platforms and the broader digital economy.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-02 \u2022 Alex Blania on Proof of Human and Building World's Identity Network",
     "last_proof_snippet": "How do you prove somebody's human? It is as surprising to her problem. I think that people are going to start getting used to being bots. But we currently see less than 1% of what it will look like in probably a year. The idea that AGI will",
@@ -18329,7 +18646,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.76,
+    "mention_score_decayed": 0.74,
     "last_main_idea": "Investing in technologies that can verify human interactions online is becoming critical as AI-generated content proliferates, posing both challenges and opportunities for social media platforms and the broader digital economy.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-02 \u2022 Alex Blania on Proof of Human and Building World's Identity Network",
     "last_proof_snippet": "How do you prove somebody's human? It is as surprising to her problem. I think that people are going to start getting used to being bots. But we currently see less than 1% of what it will look like in probably a year. The idea that AGI will",
@@ -18390,7 +18707,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-04-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.76,
+    "mention_score_decayed": 0.74,
     "last_main_idea": "Invest in sectors less affected by AI disruption and monitor geopolitical events for opportunities in private credit markets.",
     "last_proof_cite": "Macro Voices \u2022 2026-04-02 \u2022 MacroVoices #526 Matt Barrie: Pay To PrAI",
     "last_proof_snippet": "This is Macrovoisans, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisans is all about the brightest minds in the world of finance an",
@@ -18450,7 +18767,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-04-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.76,
+    "mention_score_decayed": 0.74,
     "last_main_idea": "Invest in sectors less affected by AI disruption and monitor geopolitical events for opportunities in private credit markets.",
     "last_proof_cite": "Macro Voices \u2022 2026-04-02 \u2022 MacroVoices #526 Matt Barrie: Pay To PrAI",
     "last_proof_snippet": "This is Macrovoisans, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisans is all about the brightest minds in the world of finance an",
@@ -18633,7 +18950,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-03-31",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "Investment in autonomous vehicle technology is poised to disrupt urban mobility and logistics, with companies like Uber positioned to capitalize on this shift.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-03-31 \u2022 Uber CEO on Winning the Robotaxi Race, the End of Car Ownership, and Uber\u2019s Next $1 Trillion Bet | Dara Khosrowshahi (Uber CEO) | 243",
     "last_proof_snippet": "The Robotaxi race is heating up. How are you going to win that race? Well, when you joined taking the mental Uber, I think Uber was losing $4.5 billion a year. Today it's earning over $10 billion a year. You really focused the organization.",
@@ -18694,7 +19011,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-31",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "Investing in companies that innovate in energy delivery and grid infrastructure can lead to significant returns as the demand for electricity increases and the need for a more efficient and sustainable grid becomes critical.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-31 \u2022 How Radiant and Heron Are Rethinking Power Generation and Delivery",
     "last_proof_snippet": "The grid is breaking. We're so bottleneck today on the lines that run Chris Cross across the country. I mean, it's this very complicated giant organic machine. New power is not the problem. Delivery is the problem. The energy services we're",
@@ -18755,7 +19072,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-31",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "Investing in companies that innovate in energy delivery and grid infrastructure can lead to significant returns as the demand for electricity increases and the need for a more efficient and sustainable grid becomes critical.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-31 \u2022 How Radiant and Heron Are Rethinking Power Generation and Delivery",
     "last_proof_snippet": "The grid is breaking. We're so bottleneck today on the lines that run Chris Cross across the country. I mean, it's this very complicated giant organic machine. New power is not the problem. Delivery is the problem. The energy services we're",
@@ -18820,7 +19137,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-31",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "Investing in AI-enhanced ETFs like PQNT and PQUS can provide enhanced equity exposure in the current market environment.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-31 \u2022 The Psychology of Market Champions: Inside the Minds of Point 72 & Citadel Portfolio Managers | Dr. Gio Valiante",
     "last_proof_snippet": "Today's episode is brought to you by Peak Day Asset Management and their AI enhanced ETF range, ticker's PQ&T and PQUS. You'll hear more about how they're using AI to enhance equity exposure later in the show. For now, let's get into it. We",
@@ -18884,7 +19201,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.71,
+    "mention_score_decayed": 0.69,
     "last_main_idea": "Invest in companies and technologies that are reshaping industries and have the potential to create significant economic value for a broad user base, rather than just the companies themselves.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-30 \u2022 Marc Andreessen on Evaluating Founders and AI's Consumer Surplus",
     "last_proof_snippet": "I'm competing with myself. Life just gets a lot simpler if you just assume everything is your own fault. Everybody's kind of feeling tense and nervous and anxious and, you know, fearful and so forth. But everybody's pretending they're not f",
@@ -18951,7 +19268,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.69,
+    "mention_score_decayed": 0.68,
     "last_main_idea": "The democratization of alternative investments provides retail investors with new opportunities, but also comes with structural differences and risks that must be understood.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-29 \u2022 The 2026 Private Credit Liquidity Crunch | Leyla Kunimoto on Redemptions in Semi-liquid Vehicles, Private/Public BDCs, and the Future of Alternatives",
     "last_proof_snippet": "Today's episode is brought you by Pictay asset management and their AI enhanced ETF range, ticker PQNT and PQUS. You'll hear more about how they're using AI to enhance equity exposure later in the show. For now, let's get into it. I'm joine",
@@ -19258,7 +19575,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.66,
+    "mention_score_decayed": 0.64,
     "last_main_idea": "Sovereign credit investing requires a deep understanding of the unique risks and dynamics of lending to governments, which can offer significant returns but also carries substantial risks, particularly in the current geopolitical climate.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-27 \u2022 Investing in Sovereign Credit with Lupin Ramon",
     "last_proof_snippet": "Today's episode is brought to you by the unlimited HFGM global macro ETF ticker HFGM. Later in the show, you'll hear more about HFGM currently the number one morning star rated funds sits its inception in the US macro trading category. Let'",
@@ -19323,7 +19640,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.66,
+    "mention_score_decayed": 0.64,
     "last_main_idea": "Investing in companies that apply lessons from SpaceX and Tesla can lead to innovation in the physical economy, focusing on scalability, communication, and technical expertise.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-27 \u2022 Lessons from SpaceX and Tesla: Building for the Physical Economy",
     "last_proof_snippet": "I interned at SpaceX four times. I couldn't leave. Like, it was the dream. I spent about a decade at Tesla and got to run around the batteries by chain. Chandler Lujica is the CEO of Gallaudet. I, next generation, Missile Propulsion, Turner",
@@ -19388,7 +19705,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.66,
+    "mention_score_decayed": 0.64,
     "last_main_idea": "Investing in companies that apply lessons from SpaceX and Tesla can lead to innovation in the physical economy, focusing on scalability, communication, and technical expertise.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-27 \u2022 Lessons from SpaceX and Tesla: Building for the Physical Economy",
     "last_proof_snippet": "I interned at SpaceX four times. I couldn't leave. Like, it was the dream. I spent about a decade at Tesla and got to run around the batteries by chain. Chandler Lujica is the CEO of Gallaudet. I, next generation, Missile Propulsion, Turner",
@@ -19760,7 +20077,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.63,
+    "mention_score_decayed": 0.62,
     "last_main_idea": "Investing in advanced manufacturing and workforce development for submarine production could lead to increased efficiency and meet the growing demand for naval capabilities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-25 \u2022 Submarine Manufacturing and Advanced Factories",
     "last_proof_snippet": "The real advantage that submarines bring is our stealth and access. We can pretty much go anywhere in the world undetected. We can carry nuclear missiles on our ballistic missile submarines, and that ensures that we continue our decades of",
@@ -19820,7 +20137,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.63,
+    "mention_score_decayed": 0.62,
     "last_main_idea": "Investing in advanced manufacturing and workforce development for submarine production could lead to increased efficiency and meet the growing demand for naval capabilities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-25 \u2022 Submarine Manufacturing and Advanced Factories",
     "last_proof_snippet": "The real advantage that submarines bring is our stealth and access. We can pretty much go anywhere in the world undetected. We can carry nuclear missiles on our ballistic missile submarines, and that ensures that we continue our decades of",
@@ -19879,7 +20196,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.63,
+    "mention_score_decayed": 0.62,
     "last_main_idea": "Investment in psychedelics for longevity and personal growth is based on the potential for these substances to induce significant changes in consciousness and promote personal rejuvenation.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-26 \u2022 Exploring Psychedelics for Longevity and Personal Growth",
     "last_proof_snippet": "Brian Johnson, thanks for being here. Yeah, it's good to see you. How are you feeling? Maybe just share with us what you did a few days ago. Yeah, I did a I did five MEO DMT, which is the most powerful psychedelic on the planet. Some are be",
@@ -19939,7 +20256,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.62,
+    "mention_score_decayed": 0.6,
     "last_main_idea": "Investing in companies that can provide innovative power solutions for the modern, electronic battlefield can offer significant opportunities as military forces worldwide seek to upgrade their capabilities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-24 \u2022 The Tactical Power Layer for Modern Warfare",
     "last_proof_snippet": "All the things we want to do is really about the soldier. In the mud, cold, wet, tired, hungry, what makes their lives easier or better. Your average soldier today, they're drawing just by themselves. 30 to 60 watts of power continuously du",
@@ -19999,7 +20316,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.62,
+    "mention_score_decayed": 0.6,
     "last_main_idea": "Investing in companies that can provide innovative power solutions for the modern, electronic battlefield can offer significant opportunities as military forces worldwide seek to upgrade their capabilities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-24 \u2022 The Tactical Power Layer for Modern Warfare",
     "last_proof_snippet": "All the things we want to do is really about the soldier. In the mud, cold, wet, tired, hungry, what makes their lives easier or better. Your average soldier today, they're drawing just by themselves. 30 to 60 watts of power continuously du",
@@ -20063,7 +20380,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-03-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.62,
+    "mention_score_decayed": 0.6,
     "last_main_idea": "Invest in AI and robotics sectors as they are poised for significant growth and disruption, with a focus on companies that align with human values and contribute to abundance.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-03-24 \u2022 The Future of AI and its Impact on Society and Investment",
     "last_proof_snippet": "We're living through a historic moment right now. The next thing that's really interesting and terrifying also is recursive self-improvement, but we don't have it yet. What we do have, I keep asking my friends, when does the asymptote arriv",
@@ -20131,7 +20448,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.6,
+    "mention_score_decayed": 0.59,
     "last_main_idea": "Investing in ground infrastructure for space can unlock the next wave of innovation, making space missions more useful and efficient.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-23 \u2022 Ground Infrastructure: The Overlooked Bottleneck in the Space Economy",
     "last_proof_snippet": "Every satellite requires a connection point back to birth. If you don't have it, you don't have a space mesh. It literally is just like a rock in space. You just won a $50 million contract with space forest out modernized. It Northwood, you",
@@ -20191,7 +20508,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.6,
+    "mention_score_decayed": 0.59,
     "last_main_idea": "Invest in companies that can leverage the evolving landscape of AI and GPU computing, particularly those with the agility to adapt and scale in a rapidly changing market.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-23 \u2022 Interview with Michael Intrader at Nvidia's GTC Conference",
     "last_proof_snippet": "I'm here at Nvidia's annual GTC conference, and I'm going to interview for amazing AI CEO's stick with us. I'm doing all of you! Our episode is sponsored by the New York Stock Exchange. Are you looking to change the world in race capital? D",
@@ -20252,7 +20569,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.6,
+    "mention_score_decayed": 0.59,
     "last_main_idea": "Svellen Capital sees opportunities in commodities and shipping markets amidst the Middle East crisis, with a focus on the practical implications of geopolitical events on global trade and logistics.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-23 \u2022 Monetary Matters: Middle East Crisis and Global Market Impact",
     "last_proof_snippet": "Today's episode is brought to you by the two-cream Cornfond Ticker C.O.R.N. Let's get into it. Welcome to this special edition of Other People's Money. I am joined today by Nadia Martin Wiggen, director at Svellen Capital. I've had Svellen",
@@ -20315,7 +20632,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.59,
+    "mention_score_decayed": 0.57,
     "last_main_idea": "The disruption in fertilizer supply due to geopolitical tensions presents an opportunity in agricultural commodities, particularly corn, which is heavily impacted by rising input costs and could see price support from tightened supply.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-22 \u2022 Monetary Matters with Jack Farley: Impact of Iran War on Fertilizer Prices and Agriculture",
     "last_proof_snippet": "Today's episode is brought to you by the two Korean corn fund, take our CORN. Let's get into it. I am joined by Josh Lindville, Vice President of Fertilizer at Stone X. Josh, welcome to monetary matters. Nice. They just have me on, excited",
@@ -20373,7 +20690,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.59,
+    "mention_score_decayed": 0.57,
     "last_main_idea": "Invest in innovation and infrastructure to create a smarter grid and incentivize clean energy adoption, while avoiding over-regulation that leads to unintended economic and environmental consequences.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-23 \u2022 California's Spending Woes and the Governor's Race",
     "last_proof_snippet": "Matt Mayhand, welcome to all in. Thanks, David. I have no idea who you are. Who are you? I mean, you're a guy who kind of popped up running for Governor of California last minute. Have that come about and who is Matt Mayhand? Well, David, l",
@@ -20437,7 +20754,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-03-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.56,
+    "mention_score_decayed": 0.55,
     "last_main_idea": "The integration of AI into mathematics can accelerate discovery and problem-solving, presenting opportunities for investment in AI technology and its applications in scientific research.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-03-20 \u2022 The Impact of AI on Mathematics and Scientific Discovery",
     "last_proof_snippet": "Okay, today, I'm chatting with Terrence Tau, who needs an interaction. Terrence, I want to begin by having you retell the story of how Kepler discovered the laws of planetary motion, because I think this will be a great jumping off point to",
@@ -20494,7 +20811,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-02-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.55,
+    "mention_score_decayed": 0.54,
     "last_main_idea": "Investing in AI and robotics companies that leverage neural networks for autonomous manufacturing could yield significant returns as this market is expected to become the largest economy globally.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-02-17 \u2022 Humanoid Run on Neural Net, Autonomous Manufacturing, $50T Market #229",
     "last_proof_snippet": "Brett Adcock: Humanoid Run on Neural Net, Autonomous Manufacturing, $50T Market #229 Moonshots with Peter Diamandis Episode 229 00:00:00 I am blown away by how far you've come. The things that you can do with Neural Nets now does completely",
@@ -20558,7 +20875,7 @@ const dashboardData = {
     "last_podcast_name": "a16z Live",
     "last_episode_date": "2026-02-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.55,
+    "mention_score_decayed": 0.54,
     "last_main_idea": "Invest in companies that are at the forefront of developing AI-enabled, immersive technologies that can redefine consumer interactions beyond the current app-centric model.",
     "last_proof_cite": "a16z Live \u2022 2026-02-15 \u2022 The Future of Consumer Technology and the Post-Mobile Phone Era",
     "last_proof_snippet": "Is there a better way? I think there is. Every single interface that I interact with, every single problem space that I'm trying to solve are going to be made easier by virtue of this new technology. If you were starting from scratch today,",
@@ -21309,7 +21626,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.5,
+    "mention_score_decayed": 0.49,
     "last_main_idea": "Invest in technology-driven businesses with a strong founder's mindset that focus on building and scaling rather than introspection, as they are more likely to shape the future and create significant value.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-15 \u2022 The Intersection of Technology, Entrepreneurship, and the Future",
     "last_proof_snippet": "We just have this fundamental view. The technology is like on balance in an armistly powerful force in the world. And the big problem with the world is that there's not enough technology. There's not enough information. There's not enough i",
@@ -21336,7 +21653,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.5,
+    "mention_score_decayed": 0.49,
     "last_main_idea": "Invest in platinum as a hybrid precious and industrial metal with potential for growth outside of traditional economic cycles, and consider the impact of AI on productivity and government deficits on interest rates.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-15 \u2022 Monetary Matters with Jack Farley: Precious Metals, Bonds, and Economic Cycles",
     "last_proof_snippet": "Join today by Alex Gorovich, founder and chief investment officer at Hauntay Asset Management and author of the second edition of the next perfect trade, the Magic Sword of Necessity. Alex, great to talk to you today. We haven't spoken in a",
@@ -21363,7 +21680,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.48,
+    "mention_score_decayed": 0.47,
     "last_main_idea": "Invest in technologies and platforms that democratize capitalism and leverage AI to create scalable solutions in coding and product development.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-13 \u2022 Investing in Capitalism: Trump Accounts, AI, and the Future of Wealth",
     "last_proof_snippet": "All right, everybody. Welcome back to the number one podcast in the world. Free birds out saving the world, creating new potatoes or I don't know, Kim Wa. Maybe some Brussels sprouts. I'm not sure what he's working on at this point in his p",

@@ -8,7 +8,11 @@
       "source_date": "2026-04-15",
       "summary": "In this episode of 'The a16z Show', the guest, Amjad Masad, CEO of Replet, discusses his journey from being unable to afford a computer to building a billion-dollar company that democratizes coding through AI. Masad shares his vision of transforming the tech industry from a monopoly to a democracy and his refusal to sell his company for a billion dollars, aiming instead for a trillion-dollar valuation. The conversation delves into how Replet's AI agent can produce a working app in under an hour, the importance of communication in building successful apps, and the future of AI in empowering individuals rather than enslaving them.",
       "key_takeaway": "The democratization of coding through AI has the potential to disrupt the tech industry, empowering individuals and creating new opportunities for innovation and growth.",
-      "tickers_mentioned": [],
+      "tickers_mentioned": [
+        "GOOGL",
+        "MSFT",
+        "AMZN"
+      ],
       "sentiment": "neutral",
       "display_on_main": 1,
       "display_order": 0,
@@ -16,6 +20,44 @@
       "archived_date": null,
       "archived_reason": null,
       "podcast_episode_id": 158
+    },
+    {
+      "id": 174,
+      "title": "Jensen Huang \u2013 TPU competition, why we should sell chips to China, & Nvidia\u2019s supply chain moat",
+      "source_type": "podcast",
+      "source_name": "Dwarkesh Podcast",
+      "source_date": "2026-04-15",
+      "summary": "In this episode, the guest discusses the valuations of software companies in relation to AI and the manufacturing process of hardware, particularly focusing on the role of Nvidia. The conversation delves into the transformation of electrons to tokens and the artistry and science involved in making tokens more valuable. The guest also touches on the ecosystem Nvidia has built, the role of tool makers in software companies, and the potential for AI to exponentially grow the number of tool users. The discussion also covers the shortage of GPUs, Nvidia's allocation strategy, and the company's commitment to accelerated computing even in the absence of AI.",
+      "key_takeaway": "Nvidia's role in the transformation of electrons to valuable tokens and the acceleration of computing tasks positions it well in the AI and broader technology market.",
+      "tickers_mentioned": [
+        "NVDA"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-16",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 160
+    },
+    {
+      "id": 175,
+      "title": "Financial Repression, Pt. 1  | Professor Hanno Lustig on Hidden Taxes, Fiscal Sustainability, and Japan\u2019s Debt Puzzle",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-04-15",
+      "summary": "In this episode of Monetary Matters with Jack Farley, the discussion revolves around financial repression and fiscal sustainability. The guest, Hano Lustig, a finance professor at Stanford University, explains financial repression as a government strategy to fund itself at below-market rates through various interventions. The conversation delves into historical examples, particularly during wartime, and analyzes the impact of such policies on bondholders and taxpayers. The episode also touches on the regressive nature of financial repression and its implications for intergenerational equity, especially in the context of Japan's debt and the United States' fiscal trajectory.",
+      "key_takeaway": "Investing in HFGM global macro ETF, which is highly rated by Morningstar, may offer exposure to macroeconomic trends and government policies affecting financial markets.",
+      "tickers_mentioned": [
+        "HFGM"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-16",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 159
     },
     {
       "id": 169,
@@ -141,11 +183,11 @@
         "ORCL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-04-12",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-04-16",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 152
     },
     {
@@ -184,11 +226,11 @@
         "TSLA"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-04-11",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-04-16",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 151
     },
     {
@@ -3122,6 +3164,20 @@
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should consider companies leveraging AI to lower the barrier to entry in software development, as this could disrupt traditional tech industry dynamics.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null
+    },
+    {
+      "id": 120,
+      "term": "Transformation of Electrons to Tokens",
+      "description": "The process of converting basic electrical energy into valuable digital tokens through advanced technology and software.",
+      "first_detected_date": "2026-04-16",
+      "last_mentioned_date": "2026-04-16",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should consider companies that can efficiently and innovatively transform electrons to tokens for potential growth.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null
