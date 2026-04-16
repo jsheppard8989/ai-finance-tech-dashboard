@@ -263,6 +263,43 @@ def _export_pipeline_state(site_dir: Path):
 
     fallback_cache = {}
 
+    # Deterministic "disk evidence" index:
+    # - When a curated episode isn't yet present in SQLite (`podcast_episodes` row missing),
+    #   we still want the pipeline-health dashboard to reflect whether audio/transcript
+    #   files exist locally.
+    #
+    # This fixes situations where:
+    #   - DB row is missing (analysis failed to insert), but
+    #   - the download/transcription artifacts are already on disk.
+    transcript_dir = Path(__file__).parent / "transcripts"
+    needed_rss = {
+        str(ep.get("rss_guid") or "").strip()
+        for ep in curated_eps
+        if ep.get("rss_guid")
+    }
+    rss_to_transcript_txt: dict[str, Path] = {}
+    if needed_rss and transcript_dir.is_dir():
+        for meta_path in transcript_dir.glob("*.meta.json"):
+            if len(rss_to_transcript_txt) >= len(needed_rss):
+                break
+            try:
+                meta = json.loads(meta_path.read_text(encoding="utf-8"))
+            except Exception:
+                continue
+            rg = str(meta.get("rss_guid") or "").strip()
+            if not rg or rg not in needed_rss:
+                continue
+            if rg in rss_to_transcript_txt:
+                continue
+            # transcript file name is the meta file name with the trailing
+            # ".meta.json" replaced by ".txt"
+            txt_name = meta_path.name
+            if txt_name.endswith(".meta.json"):
+                txt_name = txt_name[: -len(".meta.json")] + ".txt"
+            else:
+                txt_name = meta_path.stem + ".txt"
+            rss_to_transcript_txt[rg] = meta_path.with_name(txt_name)
+
     for ep in curated_eps:
         podcast = ep.get("podcast", "") or ""
         title = ep.get("title", "") or ""
@@ -334,8 +371,18 @@ def _export_pipeline_state(site_dir: Path):
         is_processed = bool(pe.get("is_processed")) if pe else False
         added_to_site = bool(pe.get("added_to_site")) if pe else False
 
-        downloaded = bool(audio_url) or bool(transcript_path)
-        transcribed = bool(transcript_path)
+        downloaded_db = bool(audio_url) or bool(transcript_path)
+        transcribed_db = bool(transcript_path)
+
+        # Disk evidence (from curation_log + transcript meta mapping)
+        audio_file = str(ep.get("audio_file") or "").strip()
+        downloaded_fs = bool(audio_file) and Path(audio_file).is_file()
+
+        transcript_txt = rss_to_transcript_txt.get(rss_guid) if rss_guid else None
+        transcribed_fs = bool(transcript_txt) and Path(transcript_txt).is_file()
+
+        downloaded = downloaded_db or downloaded_fs
+        transcribed = transcribed_db or transcribed_fs
         analyzed = is_processed
         insight_created = False
         if podcast_episode_id is not None:

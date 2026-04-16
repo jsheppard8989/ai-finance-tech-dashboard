@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-16T05:09:12.552376",
-  "last_updated": "2026-04-16T05:09:12.552376",
-  "last_pipeline_run": "2026-04-16T05:09:12.552376",
+  "generated_at": "2026-04-16T08:42:01.395685",
+  "last_updated": "2026-04-16T08:42:01.395685",
+  "last_pipeline_run": "2026-04-16T08:42:01.395685",
   "main_page": {
     "overton": 8,
     "insights": 8,
@@ -20,8 +20,8 @@
     "podcasts_analyzed": 2
   },
   "step_results": {
-    "downloaded": 2,
-    "transcribed": 2,
+    "downloaded": 4,
+    "transcribed": 3,
     "analyzed": 2,
     "insight_created": 2,
     "published": 2,
@@ -51,20 +51,19 @@
       "published": "2026-04-16",
       "rss_guid": "efed1cab-0c14-4883-88d0-4cad841892b5",
       "stages": {
-        "downloaded": false,
+        "downloaded": true,
         "transcribed": false,
         "analyzed": false,
         "insight_created": false,
         "published": false
       },
       "stage_reasons": {
-        "downloaded": "Not in DB yet (approved, but not pulled into pipeline DB).",
         "transcribed": "Not in DB yet (approved, but not pulled into pipeline DB).",
         "analyzed": "Not in DB yet (approved, but not pulled into pipeline DB).",
         "insight_created": "Not in DB yet (approved, but not pulled into pipeline DB).",
         "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
       },
-      "status": "needs_download"
+      "status": "needs_transcription"
     },
     {
       "id": "d8e62120-c865-428e-b1c2-1d965406f293",
@@ -73,20 +72,18 @@
       "published": "2026-04-08",
       "rss_guid": "d8e62120-c865-428e-b1c2-1d965406f293",
       "stages": {
-        "downloaded": false,
-        "transcribed": false,
+        "downloaded": true,
+        "transcribed": true,
         "analyzed": false,
         "insight_created": false,
         "published": false
       },
       "stage_reasons": {
-        "downloaded": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "transcribed": "Not in DB yet (approved, but not pulled into pipeline DB).",
         "analyzed": "Not in DB yet (approved, but not pulled into pipeline DB).",
         "insight_created": "Not in DB yet (approved, but not pulled into pipeline DB).",
         "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
       },
-      "status": "needs_download"
+      "status": "needs_analysis"
     },
     {
       "id": "substack:post:194289889",
@@ -126,10 +123,10 @@
       "id": "d8e62120-c865-428e-b1c2-1d965406f293",
       "podcast": "The a16z Show",
       "title": "The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
-      "status": "needs_download",
+      "status": "needs_analysis",
       "published": "2026-04-08",
       "age_days": 8,
-      "next_blocker": "downloaded"
+      "next_blocker": "analyzed"
     }
   ],
   "stale_threshold_days": 2,
