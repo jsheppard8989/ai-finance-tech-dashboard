@@ -1,6 +1,23 @@
 {
   "insights": [
     {
+      "id": 171,
+      "title": "Replit's CEO on Vibe Coding, Wealth Building, and What Most People Get Wrong About AI",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-04-15",
+      "summary": "In this episode of 'The a16z Show', the guest, Amjad Masad, CEO of Replet, discusses his journey from being unable to afford a computer to building a billion-dollar company that democratizes coding through AI. Masad shares his vision of transforming the tech industry from a monopoly to a democracy and his refusal to sell his company for a billion dollars, aiming instead for a trillion-dollar valuation. The conversation delves into how Replet's AI agent can produce a working app in under an hour, the importance of communication in building successful apps, and the future of AI in empowering individuals rather than enslaving them.",
+      "key_takeaway": "The democratization of coding through AI has the potential to disrupt the tech industry, empowering individuals and creating new opportunities for innovation and growth.",
+      "tickers_mentioned": [],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-15",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 158
+    },
+    {
       "id": 169,
       "title": "Bitcoin & the Bigger Shovel",
       "source_type": "podcast",
@@ -8,7 +25,11 @@
       "source_date": "2026-04-14",
       "summary": "In this episode of 'The Jack Mallers Show', Jack discusses Bitcoin's market dynamics amidst global economic and political uncertainties. He touches on Bitcoin's price, market cap, and its recent performance relative to its all-time high. Jack also delves into the challenges faced by central banks, particularly the Federal Reserve, in managing inflation and deflation pressures. He argues that Bitcoin offers a potential solution to the dilemmas posed by fiat currency devaluation and economic instability.",
       "key_takeaway": "Bitcoin is positioned as a potential solution to the economic challenges posed by central bank policies and fiat currency devaluation.",
-      "tickers_mentioned": [],
+      "tickers_mentioned": [
+        "AAPL",
+        "MSFT",
+        "GOOGL"
+      ],
       "sentiment": "neutral",
       "display_on_main": 1,
       "display_order": 0,
@@ -35,6 +56,51 @@
       "archived_date": null,
       "archived_reason": null,
       "podcast_episode_id": 155
+    },
+    {
+      "id": 172,
+      "title": "\"I Don't Believe the Stagflation Narrative\": How the Strong Consumer and AI Tailwinds Shape Sean Emory's Bullish Blueprint | Avory & Co",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-04-14",
+      "summary": "In this episode of the OPM podcast, host Jack Farley interviews Sean Emory, the founder and CIO of Avery and Co., a firm focused on building data-driven, high-conviction portfolios. They discuss the importance of investing in companies that are directionally accurate, aligning with the world's trajectory, and the integration of traditional fundamental investment philosophies with a modern, tech-focused approach. Emory shares his views on macroeconomic factors, the impact on small and mid-cap stocks, and the potential for companies like Square and Zoom to thrive in the current market environment.",
+      "key_takeaway": "Invest in companies that are directionally accurate with the world's trajectory, integrating traditional fundamental investment philosophies with a modern tech focus.",
+      "tickers_mentioned": [
+        "PQ&T",
+        "PQUS",
+        "SQUARE",
+        "ZOOM"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-15",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 157
+    },
+    {
+      "id": 173,
+      "title": "Elon Musk vs. Sam Altman, AI Job Loss, and OpenAI\u2019s $852B Valuation | EP #247",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-04-14",
+      "summary": "In this episode of Moonshots with Peter Diamandis, the discussion revolves around the rapid growth and valuation of AI companies, the potential for AI to replace white collar jobs, and the future of social contracts in the face of technological unemployment. The panelists also touch on the implications of large capital accumulations on political influence and the potential for AI to empower individuals to generate income. The conversation is optimistic about the future of technology and its impact on society and the economy.",
+      "key_takeaway": "Invest in AI companies that are positioned to benefit from the rapid growth and valuation in the industry, and consider the broader implications of AI on the future of work and social structures.",
+      "tickers_mentioned": [
+        "GOOGL",
+        "MSFT",
+        "AMZN",
+        "TSLA",
+        "NVDA"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-15",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 156
     },
     {
       "id": 168,
@@ -95,11 +161,11 @@
         "MSFT"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-04-10",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-04-16",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 150
     },
     {
@@ -162,11 +228,11 @@
         "E-TORO"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-04-10",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-04-16",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 149
     },
     {
@@ -186,11 +252,11 @@
         "USD"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-04-10",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-04-16",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 148
     },
     {
@@ -3032,6 +3098,34 @@
   ],
   "definitions": [],
   "overton": [
+    {
+      "id": 118,
+      "term": "High-Conviction Portfolios",
+      "description": "Portfolios built around a limited number of stocks that the investor strongly believes in.",
+      "first_detected_date": "2026-04-16",
+      "last_mentioned_date": "2026-04-16",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Concentrate investments in a few companies with strong growth potential and valuation discipline.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null
+    },
+    {
+      "id": 119,
+      "term": "AI-empowered software development",
+      "description": "The use of artificial intelligence to automate the process of software development, making it accessible to non-coders and accelerating the creation of applications.",
+      "first_detected_date": "2026-04-16",
+      "last_mentioned_date": "2026-04-16",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should consider companies leveraging AI to lower the barrier to entry in software development, as this could disrupt traditional tech industry dynamics.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null
+    },
     {
       "id": 24,
       "term": "Risk Off Playbook",

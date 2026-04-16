@@ -1,29 +1,31 @@
 {
-  "generated_at": "2026-04-15T05:06:40.181640",
-  "last_updated": "2026-04-15T05:06:40.181640",
-  "last_pipeline_run": "2026-04-15T05:06:40.181640",
+  "generated_at": "2026-04-15T22:08:35.161231",
+  "last_updated": "2026-04-15T22:08:35.161231",
+  "last_pipeline_run": "2026-04-15T22:08:35.161231",
   "main_page": {
     "overton": 8,
     "insights": 8,
-    "pundits": 92
+    "pundits": 95
   },
   "counts": {
-    "ticker_mentions": 161,
-    "podcast_episodes": 130,
+    "ticker_mentions": 162,
+    "podcast_episodes": 133,
     "newsletters": 7,
     "daily_scores": 99,
-    "overton_terms_total": 110,
-    "latest_insights_total": 144,
-    "today_mentions": {},
-    "podcasts_analyzed": 1
+    "overton_terms_total": 112,
+    "latest_insights_total": 147,
+    "today_mentions": {
+      "podcast": 1
+    },
+    "podcasts_analyzed": 4
   },
   "step_results": {
-    "downloaded": 1,
-    "transcribed": 1,
-    "analyzed": 1,
-    "insight_created": 1,
-    "published": 1,
-    "total": 5
+    "downloaded": 3,
+    "transcribed": 3,
+    "analyzed": 3,
+    "insight_created": 3,
+    "published": 3,
+    "total": 6
   },
   "episodes": [
     {
@@ -32,6 +34,22 @@
       "title": "Elon Musk vs. Sam Altman, AI Job Loss, and OpenAI\u2019s $852B Valuation | EP #247",
       "published": "2026-04-14",
       "rss_guid": "b320ec2a-378b-11f1-9dab-1be003e118cf",
+      "stages": {
+        "downloaded": true,
+        "transcribed": true,
+        "analyzed": true,
+        "insight_created": true,
+        "published": true
+      },
+      "stage_reasons": {},
+      "status": "complete"
+    },
+    {
+      "id": "05a65478-38c0-11f1-8dd1-5b93042621f1",
+      "podcast": "Monetary Matters with Jack Farley",
+      "title": "Financial Repression, Pt. 1  | Professor Hanno Lustig on Hidden Taxes, Fiscal Sustainability, and Japan\u2019s Debt Puzzle",
+      "published": "2026-04-15",
+      "rss_guid": "05a65478-38c0-11f1-8dd1-5b93042621f1",
       "stages": {
         "downloaded": false,
         "transcribed": false,
@@ -55,20 +73,14 @@
       "published": "2026-04-14",
       "rss_guid": "b1b43488-37c6-11f1-a1a0-9f7ea2fe6c90",
       "stages": {
-        "downloaded": false,
-        "transcribed": false,
-        "analyzed": false,
-        "insight_created": false,
-        "published": false
+        "downloaded": true,
+        "transcribed": true,
+        "analyzed": true,
+        "insight_created": true,
+        "published": true
       },
-      "stage_reasons": {
-        "downloaded": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "transcribed": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "analyzed": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "insight_created": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
-      },
-      "status": "needs_download"
+      "stage_reasons": {},
+      "status": "complete"
     },
     {
       "id": "98191957-2a28-4016-a98e-8b2eb5cd560b",
@@ -76,28 +88,6 @@
       "title": "Replit's CEO on Vibe Coding, Wealth Building, and What Most People Get Wrong About AI",
       "published": "2026-04-15",
       "rss_guid": "98191957-2a28-4016-a98e-8b2eb5cd560b",
-      "stages": {
-        "downloaded": false,
-        "transcribed": false,
-        "analyzed": false,
-        "insight_created": false,
-        "published": false
-      },
-      "stage_reasons": {
-        "downloaded": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "transcribed": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "analyzed": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "insight_created": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
-      },
-      "status": "needs_download"
-    },
-    {
-      "id": "4bc19c15-b1de-46d2-a029-dd6c127d9de2",
-      "podcast": "The a16z Show",
-      "title": "Ben Horowitz on AI Infrastructure, Economics and The New Laws of Software",
-      "published": "2026-04-14",
-      "rss_guid": "4bc19c15-b1de-46d2-a029-dd6c127d9de2",
       "stages": {
         "downloaded": true,
         "transcribed": true,
@@ -129,28 +119,43 @@
         "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
       },
       "status": "needs_download"
+    },
+    {
+      "id": "substack:post:194289889",
+      "podcast": "Dwarkesh Podcast",
+      "title": "Jensen Huang \u2013 TPU competition, why we should sell chips to China, & Nvidia\u2019s supply chain moat",
+      "published": "2026-04-15",
+      "rss_guid": "substack:post:194289889",
+      "stages": {
+        "downloaded": false,
+        "transcribed": false,
+        "analyzed": false,
+        "insight_created": false,
+        "published": false
+      },
+      "stage_reasons": {
+        "downloaded": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "transcribed": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "analyzed": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "insight_created": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
+      },
+      "status": "needs_download"
     }
   ],
   "available_from_rss": [
     {
-      "podcast": "The a16z Show",
-      "title": "Replit's CEO on Vibe Coding, Wealth Building, and What Most People Get Wrong About AI",
-      "published": "Wed, 15 Apr 2026 10:00:00 +0000",
+      "podcast": "Monetary Matters with Jack Farley",
+      "title": "Financial Repression, Pt. 1  | Professor Hanno Lustig on Hidden Taxes, Fiscal Sustainability, and Japan\u2019s Debt Puzzle",
+      "published": "Wed, 15 Apr 2026 11:41:00 -0000",
       "published_date": "2026-04-15",
       "rss_guid": ""
     },
     {
-      "podcast": "Moonshots with Peter Diamandis",
-      "title": "Elon Musk vs. Sam Altman, AI Job Loss, and OpenAI\u2019s $852B Valuation | EP #247",
-      "published": "Tue, 14 Apr 2026 15:00:00 -0000",
-      "published_date": "2026-04-14",
-      "rss_guid": ""
-    },
-    {
-      "podcast": "Monetary Matters with Jack Farley",
-      "title": "\"I Don't Believe the Stagflation Narrative\": How the Strong Consumer and AI Tailwinds Shape Sean Emory's Bullish Blueprint | Avory & Co",
-      "published": "Tue, 14 Apr 2026 14:00:00 -0000",
-      "published_date": "2026-04-14",
+      "podcast": "Dwarkesh Podcast",
+      "title": "Jensen Huang \u2013 TPU competition, why we should sell chips to China, & Nvidia\u2019s supply chain moat",
+      "published": "Wed, 15 Apr 2026 15:45:23 GMT",
+      "published_date": "2026-04-15",
       "rss_guid": ""
     },
     {

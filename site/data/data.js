@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-04-15T07:47:25.223145",
-  chartsVersion: "2026-04-15T05:06:28.172011",
+  generatedAt: "2026-04-15T22:08:43.093549",
+  chartsVersion: "2026-04-15T22:08:31.814788",
   priceSnapshot: {
   "GOOGL": {
-    "price": 332.91,
-    "change_pct": 14.43,
+    "price": 337.12,
+    "change_pct": 20.01,
     "name": "GOOGL",
-    "updated_at": "2026-04-15T05:06:28.170743"
+    "updated_at": "2026-04-15T22:08:31.813924"
   },
   "MSFT": {
-    "price": 393.11,
-    "change_pct": 5.95,
+    "price": 411.22,
+    "change_pct": 12.36,
     "name": "MSFT",
-    "updated_at": "2026-04-15T05:06:28.170762"
+    "updated_at": "2026-04-15T22:08:31.813938"
   },
   "WTI": {
-    "price": 2.8,
-    "change_pct": -6.67,
+    "price": 2.88,
+    "change_pct": -12.2,
     "name": "WTI",
-    "updated_at": "2026-04-15T05:06:28.170772"
+    "updated_at": "2026-04-15T22:08:31.813948"
   },
   "BTC": {
-    "price": 74081.39,
-    "change_pct": 10.75,
+    "price": 75082.51,
+    "change_pct": 12.18,
     "name": "BTC",
-    "updated_at": "2026-04-15T05:06:28.170780"
+    "updated_at": "2026-04-15T22:08:31.813953"
   },
   "NVDA": {
-    "price": 196.51,
-    "change_pct": 9.98,
+    "price": 198.87,
+    "change_pct": 16.14,
     "name": "NVDA",
-    "updated_at": "2026-04-15T05:06:28.170787"
+    "updated_at": "2026-04-15T22:08:31.813958"
   },
   "S&P 500": {
-    "price": 694.46,
-    "change_pct": 5.73,
+    "price": 699.94,
+    "change_pct": 8.5,
     "name": "S&P 500",
-    "updated_at": "2026-04-15T05:06:28.170795"
+    "updated_at": "2026-04-15T22:08:31.813964"
   },
   "TSLA": {
-    "price": 364.2,
-    "change_pct": -5.64,
+    "price": 391.95,
+    "change_pct": 5.33,
     "name": "TSLA",
-    "updated_at": "2026-04-15T05:06:28.170804"
+    "updated_at": "2026-04-15T22:08:31.813969"
   },
   "COPPER": {
-    "price": 6.08,
-    "change_pct": 10.95,
+    "price": 6.11,
+    "change_pct": 11.55,
     "name": "COPPER",
-    "updated_at": "2026-04-15T05:06:28.170811"
+    "updated_at": "2026-04-15T22:08:31.813974"
   },
   "GOLD": {
-    "price": 44.51,
-    "change_pct": 3.2,
+    "price": 44.99,
+    "change_pct": 13.73,
     "name": "GOLD",
-    "updated_at": "2026-04-15T05:06:28.170819"
+    "updated_at": "2026-04-15T22:08:31.813981"
   },
   "META": {
-    "price": 662.49,
-    "change_pct": 11.36,
+    "price": 671.58,
+    "change_pct": 22.65,
     "name": "META",
-    "updated_at": "2026-04-15T05:06:28.170826"
+    "updated_at": "2026-04-15T22:08:31.813987"
   },
   "QQQ": {
-    "price": 628.6,
-    "change_pct": 6.94,
+    "price": 637.4,
+    "change_pct": 11.09,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-04-15T05:06:28.170833"
+    "updated_at": "2026-04-15T22:08:31.813992"
   },
   "BTC-USD": {
-    "price": 74081.39,
-    "change_pct": 10.75,
+    "price": 75082.51,
+    "change_pct": 12.18,
     "name": "Bitcoin USD",
-    "updated_at": "2026-04-15T05:06:28.170842"
+    "updated_at": "2026-04-15T22:08:31.813998"
   }
 },
   tickerScores: [
@@ -411,14 +411,14 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "ARBOMB",
-    "total_score": 72.0,
+    "ticker": "SQUARE",
+    "total_score": 74.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
     "rank": 23,
-    "score": 72.0,
+    "score": 74.0,
     "mentions": 1,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
@@ -426,7 +426,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "CROWD",
+    "ticker": "ARBOMB",
     "total_score": 72.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -441,7 +441,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "WORK",
+    "ticker": "CROWD",
     "total_score": 72.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -456,7 +456,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "ZEN",
+    "ticker": "WORK",
     "total_score": 72.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -471,14 +471,14 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "ARBOB GASOLINE",
-    "total_score": 70.0,
+    "ticker": "ZEN",
+    "total_score": 72.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
     "rank": 27,
-    "score": 70.0,
+    "score": 72.0,
     "mentions": 1,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
@@ -486,7 +486,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "DELL",
+    "ticker": "ARBOB GASOLINE",
     "total_score": 70.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -501,7 +501,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "E-TORO",
+    "ticker": "DELL",
     "total_score": 70.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -516,7 +516,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "EMAX",
+    "ticker": "E-TORO",
     "total_score": 70.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -531,7 +531,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "NOW",
+    "ticker": "EMAX",
     "total_score": 70.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -546,7 +546,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "SMP-500",
+    "ticker": "NOW",
     "total_score": 70.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -561,14 +561,14 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "CRM",
-    "total_score": 68.0,
+    "ticker": "SMP-500",
+    "total_score": 70.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
     "rank": 33,
-    "score": 68.0,
+    "score": 70.0,
     "mentions": 1,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
@@ -576,7 +576,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "MINE",
+    "ticker": "CRM",
     "total_score": 68.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -591,14 +591,14 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "ILMN",
-    "total_score": 66.0,
+    "ticker": "MINE",
+    "total_score": 68.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
     "rank": 35,
-    "score": 66.0,
+    "score": 68.0,
     "mentions": 1,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
@@ -606,7 +606,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "PLTR",
+    "ticker": "ILMN",
     "total_score": 66.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -621,14 +621,14 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "CRSP",
-    "total_score": 64.0,
+    "ticker": "PLTR",
+    "total_score": 66.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
     "rank": 37,
-    "score": 64.0,
+    "score": 66.0,
     "mentions": 1,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
@@ -636,7 +636,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "GOOG",
+    "ticker": "CRSP",
     "total_score": 64.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -651,7 +651,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "HG",
+    "ticker": "GOOG",
     "total_score": 64.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -666,7 +666,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "HOOD",
+    "ticker": "HG",
     "total_score": 64.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -681,7 +681,7 @@ const dashboardData = {
     "contexts": []
   },
   {
-    "ticker": "SF",
+    "ticker": "HOOD",
     "total_score": 64.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -696,13 +696,28 @@ const dashboardData = {
     "contexts": []
   },
   {
+    "ticker": "SF",
+    "total_score": 64.0,
+    "raw_mention_count": 1,
+    "unique_sources": 1,
+    "podcast_mentions": 1,
+    "newsletter_mentions": 0,
+    "rank": 42,
+    "score": 64.0,
+    "mentions": 1,
+    "conviction_level": "medium",
+    "contrarian_signal": "neutral",
+    "timeframe": "long_term",
+    "contexts": []
+  },
+  {
     "ticker": "USDX",
     "total_score": 62.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 42,
+    "rank": 43,
     "score": 62.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -717,7 +732,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 43,
+    "rank": 44,
     "score": 60.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -732,7 +747,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 44,
+    "rank": 45,
     "score": 60.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -747,7 +762,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 45,
+    "rank": 46,
     "score": 60.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -762,7 +777,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 46,
+    "rank": 47,
     "score": 60.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -777,7 +792,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 47,
+    "rank": 48,
     "score": 48.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -792,7 +807,7 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 48,
+    "rank": 49,
     "score": 40.0,
     "mentions": 1,
     "conviction_level": "medium",
@@ -807,23 +822,8 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
-    "rank": 49,
-    "score": 32.0,
-    "mentions": 1,
-    "conviction_level": "medium",
-    "contrarian_signal": "neutral",
-    "timeframe": "long_term",
-    "contexts": []
-  },
-  {
-    "ticker": "CVNA",
-    "total_score": 24.0,
-    "raw_mention_count": 1,
-    "unique_sources": 1,
-    "podcast_mentions": 1,
-    "newsletter_mentions": 0,
     "rank": 50,
-    "score": 24.0,
+    "score": 32.0,
     "mentions": 1,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
@@ -833,6 +833,23 @@ const dashboardData = {
 ],
   archive: {
   "insights": [
+    {
+      "id": 171,
+      "title": "Replit's CEO on Vibe Coding, Wealth Building, and What Most People Get Wrong About AI",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-04-15",
+      "summary": "In this episode of 'The a16z Show', the guest, Amjad Masad, CEO of Replet, discusses his journey from being unable to afford a computer to building a billion-dollar company that democratizes coding through AI. Masad shares his vision of transforming the tech industry from a monopoly to a democracy and his refusal to sell his company for a billion dollars, aiming instead for a trillion-dollar valuation. The conversation delves into how Replet's AI agent can produce a working app in under an hour, the importance of communication in building successful apps, and the future of AI in empowering individuals rather than enslaving them.",
+      "key_takeaway": "The democratization of coding through AI has the potential to disrupt the tech industry, empowering individuals and creating new opportunities for innovation and growth.",
+      "tickers_mentioned": [],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-15",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 158
+    },
     {
       "id": 169,
       "title": "Bitcoin & the Bigger Shovel",
@@ -872,6 +889,51 @@ const dashboardData = {
       "archived_date": null,
       "archived_reason": null,
       "podcast_episode_id": 155
+    },
+    {
+      "id": 172,
+      "title": "\"I Don't Believe the Stagflation Narrative\": How the Strong Consumer and AI Tailwinds Shape Sean Emory's Bullish Blueprint | Avory & Co",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-04-14",
+      "summary": "In this episode of the OPM podcast, host Jack Farley interviews Sean Emory, the founder and CIO of Avery and Co., a firm focused on building data-driven, high-conviction portfolios. They discuss the importance of investing in companies that are directionally accurate, aligning with the world's trajectory, and the integration of traditional fundamental investment philosophies with a modern, tech-focused approach. Emory shares his views on macroeconomic factors, the impact on small and mid-cap stocks, and the potential for companies like Square and Zoom to thrive in the current market environment.",
+      "key_takeaway": "Invest in companies that are directionally accurate with the world's trajectory, integrating traditional fundamental investment philosophies with a modern tech focus.",
+      "tickers_mentioned": [
+        "PQ&T",
+        "PQUS",
+        "SQUARE",
+        "ZOOM"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-15",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 157
+    },
+    {
+      "id": 173,
+      "title": "Elon Musk vs. Sam Altman, AI Job Loss, and OpenAI\u2019s $852B Valuation | EP #247",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-04-14",
+      "summary": "In this episode of Moonshots with Peter Diamandis, the discussion revolves around the rapid growth and valuation of AI companies, the potential for AI to replace white collar jobs, and the future of social contracts in the face of technological unemployment. The panelists also touch on the implications of large capital accumulations on political influence and the potential for AI to empower individuals to generate income. The conversation is optimistic about the future of technology and its impact on society and the economy.",
+      "key_takeaway": "Invest in AI companies that are positioned to benefit from the rapid growth and valuation in the industry, and consider the broader implications of AI on the future of work and social structures.",
+      "tickers_mentioned": [
+        "GOOGL",
+        "MSFT",
+        "AMZN",
+        "TSLA",
+        "NVDA"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-15",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 156
     },
     {
       "id": 168,
@@ -932,11 +994,11 @@ const dashboardData = {
         "MSFT"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-04-10",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-04-16",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 150
     },
     {
@@ -999,11 +1061,11 @@ const dashboardData = {
         "E-TORO"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-04-10",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-04-16",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 149
     },
     {
@@ -1023,11 +1085,11 @@ const dashboardData = {
         "USD"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-04-10",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-04-16",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 148
     },
     {
@@ -3870,6 +3932,34 @@ const dashboardData = {
   "definitions": [],
   "overton": [
     {
+      "id": 118,
+      "term": "High-Conviction Portfolios",
+      "description": "Portfolios built around a limited number of stocks that the investor strongly believes in.",
+      "first_detected_date": "2026-04-16",
+      "last_mentioned_date": "2026-04-16",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Concentrate investments in a few companies with strong growth potential and valuation discipline.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null
+    },
+    {
+      "id": 119,
+      "term": "AI-empowered software development",
+      "description": "The use of artificial intelligence to automate the process of software development, making it accessible to non-coders and accelerating the creation of applications.",
+      "first_detected_date": "2026-04-16",
+      "last_mentioned_date": "2026-04-16",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should consider companies leveraging AI to lower the barrier to entry in software development, as this could disrupt traditional tech industry dynamics.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null
+    },
+    {
       "id": 24,
       "term": "Risk Off Playbook",
       "description": "A set of investment strategies employed by investors to mitigate risk during times of market uncertainty or perceived danger.",
@@ -5420,6 +5510,26 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 171,
+      "title": "Replit's CEO on Vibe Coding, Wealth Building, and What Most People Get Wrong About AI",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-04-15",
+      "summary": "In this episode of 'The a16z Show', the guest, Amjad Masad, CEO of Replet, discusses his journey from being unable to afford a computer to building a billion-dollar company that democratizes coding through AI. Masad shares his vision of transforming the tech industry from a monopoly to a democracy and his refusal to sell his company for a billion dollars, aiming instead for a trillion-dollar valuation. The conversation delves into how Replet's AI agent can produce a working app in under an hour, the importance of communication in building successful apps, and the future of AI in empowering individuals rather than enslaving them.",
+      "key_takeaway": "The democratization of coding through AI has the potential to disrupt the tech industry, empowering individuals and creating new opportunities for innovation and growth.",
+      "tickers_mentioned": "[]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-15",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 158,
+      "episode_release_date": "2026-04-15",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 169,
       "title": "Bitcoin & the Bigger Shovel",
       "source_type": "podcast",
@@ -5462,6 +5572,51 @@ const dashboardData = {
       ]
     },
     {
+      "id": 172,
+      "title": "\"I Don't Believe the Stagflation Narrative\": How the Strong Consumer and AI Tailwinds Shape Sean Emory's Bullish Blueprint | Avory & Co",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-04-14",
+      "summary": "In this episode of the OPM podcast, host Jack Farley interviews Sean Emory, the founder and CIO of Avery and Co., a firm focused on building data-driven, high-conviction portfolios. They discuss the importance of investing in companies that are directionally accurate, aligning with the world's trajectory, and the integration of traditional fundamental investment philosophies with a modern, tech-focused approach. Emory shares his views on macroeconomic factors, the impact on small and mid-cap stocks, and the potential for companies like Square and Zoom to thrive in the current market environment.",
+      "key_takeaway": "Invest in companies that are directionally accurate with the world's trajectory, integrating traditional fundamental investment philosophies with a modern tech focus.",
+      "tickers_mentioned": "[\"PQ&T\", \"PQUS\", \"SQUARE\", \"ZOOM\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-15",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 157,
+      "episode_release_date": "2026-04-14",
+      "guest_name": "\"I Don't Believe the Stagflation Narrative\"",
+      "key_tickers": [
+        "PQ&T",
+        "PQUS",
+        "SQUARE",
+        "ZOOM"
+      ]
+    },
+    {
+      "id": 173,
+      "title": "Elon Musk vs. Sam Altman, AI Job Loss, and OpenAI\u2019s $852B Valuation | EP #247",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-04-14",
+      "summary": "In this episode of Moonshots with Peter Diamandis, the discussion revolves around the rapid growth and valuation of AI companies, the potential for AI to replace white collar jobs, and the future of social contracts in the face of technological unemployment. The panelists also touch on the implications of large capital accumulations on political influence and the potential for AI to empower individuals to generate income. The conversation is optimistic about the future of technology and its impact on society and the economy.",
+      "key_takeaway": "Invest in AI companies that are positioned to benefit from the rapid growth and valuation in the industry, and consider the broader implications of AI on the future of work and social structures.",
+      "tickers_mentioned": "[\"GOOGL\", \"MSFT\", \"AMZN\", \"TSLA\", \"NVDA\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-15",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 156,
+      "episode_release_date": "2026-04-14",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 168,
       "title": "Building Agents at Home: Parenting, Work, and Benevolent Neglect",
       "source_type": "podcast",
@@ -5502,29 +5657,6 @@ const dashboardData = {
       "key_tickers": []
     },
     {
-      "id": 165,
-      "title": "What Running Windows at Microsoft Taught Steven Sinofsky About Apple",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-04-10",
-      "summary": "In this episode of the a16z Show, Steven Sinofsky, former president of the Windows Division at Microsoft and board partner at a16z, discusses the cultural and strategic differences between Apple and Microsoft. Sinofsky highlights the contrasting approaches to product development and market strategy, with Apple focusing on design and user experience, while Microsoft emphasizes technological solutions and enterprise compatibility. The conversation also touches on the impact of these differences on the companies' products and market positions, as well as the potential implications for future innovation and competition.",
-      "key_takeaway": "Investing in companies with a strong cultural identity and clear strategic focus can provide an edge in technology markets, as demonstrated by the contrasting paths of Apple and Microsoft.",
-      "tickers_mentioned": "[\"AAPL\", \"MSFT\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-04-10",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 150,
-      "episode_release_date": "2026-04-10",
-      "guest_name": null,
-      "key_tickers": [
-        "AAPL",
-        "MSFT"
-      ]
-    },
-    {
       "id": 166,
       "title": "Anthropic's $30B Ramp, Mythos Doomsday, OpenClaw Ankled, Iran War Ceasefire, Israel's Influence",
       "source_type": "podcast",
@@ -5543,57 +5675,6 @@ const dashboardData = {
       "episode_release_date": "2026-04-10",
       "guest_name": null,
       "key_tickers": []
-    },
-    {
-      "id": 163,
-      "title": "\"The Best Time to Invest\": How AI Disruption is Reshaping Software Valuations | Ben Topor | Titan Capital Partners",
-      "source_type": "podcast",
-      "source_name": "Monetary Matters with Jack Farley",
-      "source_date": "2026-04-09",
-      "summary": "In this episode of 'Other People's Money', Max Weathie interviews Ben Topore, founder and managing partner of Titan Capital Partners, a growth equity firm focusing on software markets. They discuss the rapidly shifting software landscape, the importance of understanding the different playbooks for various types of software, and the impact of AI on the industry. Ben also shares insights on investment strategies in growth equity and secondary markets, and the importance of strategic decision-making in competitive landscapes.",
-      "key_takeaway": "Invest in software companies that define the market, focusing on backing scale-ready leaders, providing liquidity to early investors, and helping companies make strategic decisions.",
-      "tickers_mentioned": "[\"PQT\", \"PQUS\", \"E-TORO\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-04-10",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 149,
-      "episode_release_date": "2026-04-09",
-      "guest_name": "\"The Best Time to Invest\"",
-      "key_tickers": [
-        "PQT",
-        "PQUS",
-        "E-TORO"
-      ]
-    },
-    {
-      "id": 164,
-      "title": "MacroVoices #527 Adam Rozencwajg: What Comes Next After The Iran Crisis",
-      "source_type": "podcast",
-      "source_name": "Macro Voices",
-      "source_date": "2026-04-09",
-      "summary": "In this episode of Macro Voices, hosts Eric Townsend and Patrick Suresne discuss the impact of geopolitical tensions, particularly the Iran conflict, on global energy and commodity markets. They feature interviews with Adam Rosenswag, co-founder of Garing and Rosenswag, and Jim Bianco, founder of Bianco Research. The conversation covers the physical dislocation in oil markets, the potential implications for food prices and inflation, and the outlook for commodities like uranium and gold. They also analyze the market's reaction to the potential ceasefire and its effects on oil prices and broader market trends.",
-      "key_takeaway": "Investment opportunities may arise from the physical dislocation in energy markets and shifts in energy security, with a focus on commodities like oil, uranium, and gold.",
-      "tickers_mentioned": "[\"WTI\", \"GOLD\", \"COPPER\", \"URANIUM\", \"SPX\", \"USD\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-04-10",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 148,
-      "episode_release_date": "2026-04-09",
-      "guest_name": null,
-      "key_tickers": [
-        "WTI",
-        "GOLD",
-        "COPPER",
-        "URANIUM",
-        "SPX",
-        "USD"
-      ]
     }
   ],
   "definitions": [
@@ -15801,12 +15882,167 @@ const dashboardData = {
     "source_name": "The Jack Mallers Show",
     "source_date": "2026-04-14",
     "key_tickers": []
+  },
+  "172": {
+    "id": 162,
+    "insight_id": 172,
+    "podcast_episode_id": 157,
+    "overview": "The debate centers on whether the current market is experiencing stagflation or if the consumer remains robust, with technology and other growth-oriented assets set to outperform. The importance lies in the allocation of investment capital, as a misjudgment could lead to significant underperformance. Emory's bullish stance is based on the belief that the consumer is resilient and that technology, particularly AI, will continue to be a tailwind for growth.",
+    "key_takeaways_detailed": [
+      "Invest in companies that are aligned with global trends to ensure a margin of safety in investments.",
+      "Integrate traditional investment philosophies with modern tech-focused strategies to capitalize on current market dynamics.",
+      "Monitor macroeconomic factors for their impact on small and mid-cap stocks, as valuation dislocations may offer investment opportunities.",
+      "Consider the consumer's financial health, including housing and spending habits, as a key indicator of economic strength.",
+      "Look through short-term macro noise for tech and growth-oriented assets, focusing on long-term trends and consumer behavior."
+    ],
+    "investment_thesis": "The core logic is to invest in companies that are directionally accurate with global trends, integrating traditional investment philosophies with a modern tech focus. The timeframe is long-term, and the thesis relies on continued consumer strength, technological advancement, and the ability to identify and invest in companies that are well-positioned for future growth.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple is a key player in consumer technology and has a strong alignment with global tech trends, making it relevant to Emory's thesis.",
+        "positioning": "Positioned long-term as a strategic investment due to its innovation in consumer tech and potential for continued growth.",
+        "risk": "Key risks include changes in consumer preferences, increased competition, and potential disruptions in the global supply chain."
+      },
+      "SQ": {
+        "rationale": "Square, now Block, is a financial services company that benefits from the digital transformation of payments and is well-positioned in the tech space.",
+        "positioning": "Strategic long position due to its potential for growth in digital payments and financial services.",
+        "risk": "Regulatory changes in the financial sector and competition from traditional banks and other fintech companies pose risks."
+      },
+      "ZM": {
+        "rationale": "Zoom has become a critical tool for remote work and communication, aligning with the shift towards digitalization and consumer tech focus.",
+        "positioning": "Tactical long position as the company may continue to benefit from the ongoing trend of remote work and digital communication.",
+        "risk": "The risk includes a potential slowdown in remote work trends post-pandemic and increased competition in the video conferencing space."
+      }
+    },
+    "positioning_guidance": "Investors should consider a long-term strategic position in companies that are directionally accurate with global trends, with a focus on consumer tech and AI. The portfolio should be diversified across different market caps to capture opportunities in both small and mid-cap stocks. The time horizon for these investments should be at least 3-5 years to allow for the realization of long-term growth potential.",
+    "risk_factors": [
+      "Economic downturns that could impact consumer spending and the overall market.",
+      "Regulatory changes that could affect tech companies, particularly in areas like data privacy and antitrust.",
+      "Technological disruptions that could render current business models obsolete."
+    ],
+    "contrarian_signals": [
+      "A rise in interest rates that could negatively impact growth stocks and tech companies.",
+      "A shift in consumer behavior away from digital platforms, potentially impacting companies like Zoom and Square.",
+      "Geopolitical tensions that could disrupt global supply chains and affect tech companies with international operations."
+    ],
+    "catalysts": [
+      "Release of new tech products or services that could drive growth for companies like Apple and Zoom.",
+      "Positive economic data that reinforces the strength of the consumer and the potential for continued growth.",
+      "Advancements in AI technology that could create new investment opportunities and drive growth in the tech sector."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-04-15T22:07:10.596772",
+    "updated_at": "2026-04-16 03:07:10",
+    "episode_evidence": "Sean Emory, founder and CIO of Avery and Co., emphasizes the importance of investing in companies that are 'directionally accurate' with the world's trajectory. He states, 'We're looking for directionally where things are going in the world. That is a big margin of safety when it comes to investing, being on the right side of history.' Emory also highlights the integration of traditional fundamental investment philosophies with a modern, tech-focused approach, as he mentions, 'You see Warren Buffett and some of the other books behind me, there's a lot of that philosophy inside of Avery, but also, I think a new school approach, which is maybe more a little bit more tech focus, a little bit more consumer tech focus as well.' Furthermore, Emory discusses the impact of macroeconomic factors on small and mid-cap stocks, noting a 'massive dislocation' in valuation gaps between smaller names and larger cap peers, which he believes could present opportunities. He also comments on the current market environment, suggesting that 'inflation's actually a lag indicator,' and that the consumer is in a 'fine shape,' contrary to the prevailing stagflation narrative.",
+    "falsification_tracks": [
+      "A sustained increase in unemployment rates that exceed pre-pandemic levels would challenge the thesis of a strong consumer.",
+      "If consumer spending shows a consistent decline over multiple quarters, it would indicate weaker consumer health than Emory suggests.",
+      "A significant drop in housing prices or a surge in rental rates could undermine the stability of the consumer's biggest asset and liability."
+    ],
+    "insight_title": "\"I Don't Believe the Stagflation Narrative\": How the Strong Consumer and AI Tailwinds Shape Sean Emory's Bullish Blueprint | Avory & Co",
+    "source_name": "Monetary Matters with Jack Farley",
+    "source_date": "2026-04-14",
+    "key_tickers": [
+      "PQ&T",
+      "PQUS",
+      "SQUARE",
+      "ZOOM"
+    ]
+  },
+  "173": {
+    "id": 163,
+    "insight_id": 173,
+    "podcast_episode_id": 156,
+    "overview": "The debate on AI's impact on the economy and society is more pertinent than ever, with the discussion highlighting the potential for AI to disrupt traditional job markets and social structures. The valuation of AI companies like OpenAI, reaching unprecedented levels, signals a significant shift in how technology is perceived and invested in. The conversation also points to the broader implications of AI on political influence and individual empowerment, suggesting a future where technology plays a central role in shaping societal norms and economic opportunities.",
+    "key_takeaways_detailed": [
+      "Invest in AI companies that are at the forefront of innovation and have the potential to capture significant market share in the rapidly growing AI industry.",
+      "Monitor the development of AI technologies closely, as advancements could lead to the obsolescence of certain white-collar jobs, impacting various sectors of the economy.",
+      "Consider the social implications of AI, including the potential need for new social contracts and policies to address technological unemployment.",
+      "Stay informed about the political influence of tech giants, as their growing capital accumulations may lead to shifts in political power dynamics."
+    ],
+    "investment_thesis": "The core logic is that AI companies are poised for exponential growth due to their ability to disrupt traditional industries and create new markets. The timeframe for this thesis is the next 5-10 years, during which significant advancements in AI technology and its applications are expected. For the thesis to hold, AI companies must continue to innovate, attract substantial investment, and successfully monetize their technologies.",
+    "ticker_analysis": {
+      "GOOGL": {
+        "rationale": "Google is a key player in AI development with its DeepMind subsidiary, making it relevant to the AI growth thesis.",
+        "positioning": "Strategic long position, as the company is expected to benefit from the AI boom.",
+        "risk": "Regulatory challenges and increased competition in the AI space could hinder Google's growth."
+      },
+      "MSFT": {
+        "rationale": "Microsoft has a strong presence in AI through its Azure cloud services and investments in AI technology.",
+        "positioning": "Strategic long position, as the company is well-positioned to capitalize on AI advancements.",
+        "risk": "Slower-than-expected AI adoption among enterprises could impact Microsoft's growth prospects."
+      },
+      "AMZN": {
+        "rationale": "Amazon's AWS is a leading cloud platform, and the company is investing heavily in AI for its various business segments.",
+        "positioning": "Strategic long position, given Amazon's potential to leverage AI for e-commerce and cloud services.",
+        "risk": "Increased competition in cloud services and potential regulatory scrutiny are key risks."
+      },
+      "TSLA": {
+        "rationale": "Tesla's use of AI in its autonomous driving technology makes it a relevant ticker in the AI discussion.",
+        "positioning": "Tactical long position, as the company's success is tied to the advancement of AI in automotive technology.",
+        "risk": "Technological setbacks in autonomous driving and increased competition in the electric vehicle market pose risks."
+      },
+      "NVDA": {
+        "rationale": "NVIDIA is a major supplier of GPUs, which are crucial for AI training and computing.",
+        "positioning": "Strategic long position, as the company is set to benefit from the growing demand for AI hardware.",
+        "risk": "Shifts in AI computing architectures away from GPUs or slower AI adoption could impact NVIDIA's prospects."
+      }
+    },
+    "positioning_guidance": "Investors should consider a diversified approach, allocating a portion of their portfolio to AI-related companies across different sectors. The position sizing should reflect the investor's risk tolerance and belief in the AI growth thesis. A long-term investment horizon is advised, given the transformative nature of AI technology.",
+    "risk_factors": [
+      "Regulatory hurdles that could slow down AI development and deployment.",
+      "Ethical concerns and potential backlash against AI replacing human jobs.",
+      "Technological setbacks or failures that could damage the reputation and progress of AI companies.",
+      "Increased competition that could lead to over-saturation and reduced profitability in the AI space."
+    ],
+    "contrarian_signals": [
+      "A significant number of AI projects failing to meet their goals or deliver on promises.",
+      "A shift in investor sentiment away from AI, leading to a decrease in capital inflows.",
+      "Economic downturns that could reduce the available funds for investment in AI technologies."
+    ],
+    "catalysts": [
+      "Major AI breakthroughs or successful commercial applications of AI technology.",
+      "Positive regulatory developments that encourage further investment and innovation in AI.",
+      "Technological milestones, such as the successful deployment of autonomous vehicles or significant improvements in natural language processing.",
+      "Key earnings reports or product launches from major AI companies that could indicate the health and growth of the industry."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-04-15T22:07:46.538011",
+    "updated_at": "2026-04-16 03:07:46",
+    "episode_evidence": "The podcast episode features a discussion on the rapid growth and valuation of AI companies, with specific emphasis on OpenAI's valuation and the lawsuit between Elon Musk and Sam Altman. 'OpenAI's valued at 70 times revenues right now. Their last raise was at $852 billion valuation,' the host mentions, highlighting the unprecedented scale of investment in AI. The panel also debates the potential for AI to replace white-collar jobs, with the assertion that 'AI will be able to do everything that a white-collar worker does, imminently.' This underscores the transformative impact AI is expected to have on the job market. Furthermore, the discussion touches on the political influence of large capital accumulations and the empowerment of individuals through AI to generate income, indicating a broader societal shift.",
+    "falsification_tracks": [
+      "A significant downturn in venture capital investments in AI companies that would challenge the current valuation trends.",
+      "Reports of AI companies failing to meet their projected growth targets or experiencing major technical setbacks.",
+      "Labor market data showing a decrease in white-collar job losses or an inability for AI to perform white-collar tasks as predicted.",
+      "A shift in political discourse or policy that limits the influence of capital on political processes, potentially affecting the growth of AI companies."
+    ],
+    "insight_title": "Elon Musk vs. Sam Altman, AI Job Loss, and OpenAI\u2019s $852B Valuation | EP #247",
+    "source_name": "Moonshots with Peter Diamandis",
+    "source_date": "2026-04-14",
+    "key_tickers": []
   }
 },
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 1934,
+    "id": 1956,
+    "name": "\"I Don't Believe the Stagflation Narrative\"",
+    "slug": "i-dont-believe-the-stagflation-narrative",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Invest in companies that are directionally accurate with the world's trajectory, integrating traditional fundamental investment philosophies with a modern tech focus.",
+    "last_episode_title": "\"I Don't Believe the Stagflation Narrative\": How the Strong Consumer and AI Tailwinds Shape Sean Emory's Bullish Blueprint | Avory & Co",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-04-14",
+    "appearance_count": 1
+  },
+  {
+    "id": 1957,
     "name": "Building Agents at Home",
     "slug": "building-agents-at-home",
     "bio": null,
@@ -15818,7 +16054,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1935,
+    "id": 1958,
     "name": "\"The Best Time to Invest\"",
     "slug": "the-best-time-to-invest",
     "bio": null,
@@ -15830,7 +16066,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1936,
+    "id": 1959,
     "name": "Governor Josh Shapiro of Pennsylvania",
     "slug": "governor-josh-shapiro-of-pennsylvania",
     "bio": null,
@@ -15842,7 +16078,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1937,
+    "id": 1960,
     "name": "Why $200 Oil Won\u2019t Spike Inflation to 9%",
     "slug": "why-200-oil-wont-spike-inflation-to-9",
     "bio": null,
@@ -15854,7 +16090,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1938,
+    "id": 1961,
     "name": "This special episode",
     "slug": "this-special-episode",
     "bio": null,
@@ -15866,7 +16102,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1939,
+    "id": 1962,
     "name": "Lupin Ramon",
     "slug": "lupin-ramon",
     "bio": null,
@@ -15878,7 +16114,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1940,
+    "id": 1963,
     "name": "When the Music Stops",
     "slug": "when-the-music-stops",
     "bio": null,
@@ -15890,7 +16126,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1941,
+    "id": 1964,
     "name": "Ground Infrastructure",
     "slug": "ground-infrastructure",
     "bio": null,
@@ -15902,7 +16138,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1942,
+    "id": 1965,
     "name": "Rory Johnston",
     "slug": "rory-johnston",
     "bio": null,
@@ -15914,7 +16150,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1943,
+    "id": 1966,
     "name": "Senator John Fetterman on Voting Rights",
     "slug": "senator-john-fetterman-on-voting-rights",
     "bio": null,
@@ -15926,7 +16162,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1944,
+    "id": 1967,
     "name": "Stock Market on Shaky Foundations",
     "slug": "stock-market-on-shaky-foundations",
     "bio": null,
@@ -15938,7 +16174,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1945,
+    "id": 1968,
     "name": "Elon Musk on Moonshots",
     "slug": "elon-musk-on-moonshots",
     "bio": null,
@@ -15950,7 +16186,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1946,
+    "id": 1969,
     "name": "Investing in Capitalism",
     "slug": "investing-in-capitalism",
     "bio": null,
@@ -15962,7 +16198,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1947,
+    "id": 1970,
     "name": "Harvard Professor Graham Allison",
     "slug": "harvard-professor-graham-allison",
     "bio": null,
@@ -15974,7 +16210,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1948,
+    "id": 1971,
     "name": "Andrew Yang",
     "slug": "andrew-yang",
     "bio": "Andrew Yang is an entrepreneur and political leader who popularized universal basic income in U.S. politics through his 2020 presidential campaign.",
@@ -15986,7 +16222,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1949,
+    "id": 1972,
     "name": "Inventing the Renaissance",
     "slug": "inventing-the-renaissance",
     "bio": null,
@@ -15998,7 +16234,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1950,
+    "id": 1973,
     "name": "Ray Dalio",
     "slug": "ray-dalio",
     "bio": "Ray Dalio is the founder of Bridgewater Associates and a macro investor known for his 'Principles' framework and work on long-term debt cycles.",
@@ -16010,7 +16246,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1951,
+    "id": 1974,
     "name": "Nobel Prize-winning economist Paul Krugman",
     "slug": "nobel-prize-winning-economist-paul-krugman",
     "bio": null,
@@ -16022,7 +16258,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1952,
+    "id": 1975,
     "name": "host Jack Mallers",
     "slug": "host-jack-mallers",
     "bio": null,
@@ -16030,18 +16266,6 @@ const dashboardData = {
     "last_main_idea": "Bitcoin serves as an early warning system for liquidity conditions and economic shifts, with potential to empower individuals in an AI-driven future.",
     "last_episode_title": "Japan AI and the Next Liquidity Shock: Why Bitcoin's Weakness is an Early Warning",
     "last_podcast_name": "The Jack Mallers Show",
-    "last_episode_date": "2026-02-19",
-    "appearance_count": 1
-  },
-  {
-    "id": 1953,
-    "name": "Ben Horowitz",
-    "slug": "ben-horowitz",
-    "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
-    "known_for": "Co-founding a16z and authoring 'The Hard Thing About Hard Things'.",
-    "last_main_idea": "The talent movements at xAI and the SSI valuation are the two most important signals from this episode. When top engineers leave a lab, it tells you something about the internal direction. When Ilya commands a $5B valuation on safety-first principles, it tells you the market believes safety-conscious AI development has commercial value. Apple's crisis is the clearest short thesis in consumer tech ",
-    "last_episode_title": "Ben Horowitz: xAI Executive Exodus, Ilya's $5B SSI Valuation, Apple's AI Crisis, The Pace of AI | #232",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-02-19",
     "appearance_count": 1
   }
@@ -16190,7 +16414,7 @@ const dashboardData = {
     "last_podcast_name": "All-In Podcast",
     "last_episode_date": "2026-03-28",
     "mention_score": 3,
-    "mention_score_decayed": 2.03,
+    "mention_score_decayed": 1.98,
     "last_main_idea": "Investing in AI-driven platforms and technologies is essential for capturing the growth in the global financial system and staying ahead in the AI era.",
     "last_proof_cite": "All-In Podcast \u2022 2026-03-28 \u2022 all in with chamath jason sacks frie jensen huang live nvidia s future physical ai rise of the 03b9c382",
     "last_proof_snippet": "Special episode this week. We preempted the weekly show and there's only three people. We preempt the show for President Trump Jesus and And I'll let you pick which order we do that But what an amazing run you've had an an a great event Eve",
@@ -16444,7 +16668,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-28",
     "mention_score": 2,
-    "mention_score_decayed": 1.35,
+    "mention_score_decayed": 1.32,
     "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-28 \u2022 the a16z show 20260319 1e92a9dd 78da 4417 b1ce 4b4318d1",
     "last_proof_snippet": "You just spend told you have superpowers. You've just been told you can have multiple employees for $200 a month. What do you do? If I was a young person today starting off my career, I would try to convince my parents to give me some money",
@@ -16508,7 +16732,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-28",
     "mention_score": 2,
-    "mention_score_decayed": 1.35,
+    "mention_score_decayed": 1.32,
     "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-28 \u2022 the a16z show 20260319 1e92a9dd 78da 4417 b1ce 4b4318d1",
     "last_proof_snippet": "You just spend told you have superpowers. You've just been told you can have multiple employees for $200 a month. What do you do? If I was a young person today starting off my career, I would try to convince my parents to give me some money",
@@ -16568,7 +16792,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-02-15",
     "mention_score": 2,
-    "mention_score_decayed": 1.35,
+    "mention_score_decayed": 1.32,
     "last_main_idea": "Invest in sectors with fertile ground for short selling, such as AI and tech, and under-allocated areas like junior mining, while combining long and short strategies for potential alpha.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-02-15 \u2022 Technical Analysis Deep Dive with Milton Berg - February 2026 Market Signals",
     "last_proof_snippet": "Today's episode is brought to you by the PICTEA AI Enhance International Equity ETF, ticker PQNT. You'll hear more about their using AI to enhance international equity returns later in the show. For now, let's get into it. Got a very specia",
@@ -16633,7 +16857,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-16",
     "mention_score": 2,
-    "mention_score_decayed": 1.02,
+    "mention_score_decayed": 1.0,
     "last_main_idea": "Invest in AI startups that focus on specific niches and use cases, as they can compete effectively against larger AI companies by capitalizing on the gaps between platforms.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-16 \u2022 AI Startups and the Future of Technology",
     "last_proof_snippet": "I think that every tech company is going to be an AI company and every AI company is going to be an agent company and so the sooner that you as kind of an employee or a business owner can kind of get on board and learn how to use that to yo",
@@ -16641,6 +16865,193 @@ const dashboardData = {
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
+  },
+  {
+    "id": 180,
+    "name": "Amjad Masad",
+    "slug": "amjad-masad",
+    "bio": "Amjad Masad is the CEO of Replet, a company that uses AI to democratize coding and make it accessible for everyone. His vision is to transform the tech industry from a monopoly into a more democratic space.",
+    "known_for": "Building a billion-dollar company with a mission to democratize the tech industry and make coding accessible to all.",
+    "net_worth_usd": 400000000.0,
+    "net_worth_source": "https://entrepreneurloop.com/replit-founder-net-worth-amjad-masad-billionaire-400m-funding/",
+    "net_worth_updated_at": "2026-04-15T22:05:02.977189",
+    "voice_tone": "Confident and visionary",
+    "voice_style": "Passionate about the potential of AI to empower individuals",
+    "voice_delivery_notes": "Speaks with conviction and a clear vision for the future of technology",
+    "voice_profile_updated_at": "2026-04-16 03:04:45",
+    "last_seen": "2026-04-16 03:04:45",
+    "last_episode_title": "Replit's CEO on Vibe Coding, Wealth Building, and What Most People Get Wrong About AI",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-04-15",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "The democratization of coding through AI has the potential to disrupt the tech industry, empowering individuals and creating new opportunities for innovation and growth.",
+    "last_proof_cite": "The a16z Show \u2022 2026-04-15 \u2022 Replit's CEO on Vibe Coding, Wealth Building, and What Most People Get Wrong About AI",
+    "last_proof_snippet": "The world was built by people that are not much smarter than you. Your job is to find the way of doing things that's more aligned where the world has headed. I think it's easy to start a good rich in the history of capitalism, a certainly i",
+    "supporting_takeaway": "The company's revenue grew from $2.5 million to $250 million in just over a year, demonstrating the potential of AI in software development.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-15T22:05:01.761088",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Amjad Masad",
+      "fetched_at": "2026-04-16T03:05:01.760585+00:00",
+      "cliff_notes": "Amjad Masad is the CEO and founder of Replet, a company that leverages AI to make coding accessible to everyone, regardless of their background or financial means. Growing up in Jordan without access to a computer, Masad was inspired to create a platform that could level the playing field in the tech industry. His company, Replet, has since reached a billion-dollar valuation, turning down offers to sell because Masad believes in the potential to build a trillion-dollar company that can reshape the tech landscape. Masad's vision is to turn the tech industry from a monopoly into a more democratic space, where coding and technology are accessible to all, reflecting the diversity of thought and problem-solving that can come from a broader range of individuals.",
+      "derived": {
+        "current_role": "CEO of Replet"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": "Jordanian"
+      },
+      "lead_paragraphs": [
+        "Amjad Masad is the CEO and founder of Replet, a company that leverages AI to make coding accessible to everyone, regardless of their background or financial means. Growing up in Jordan without access to a computer, Masad was inspired to create a platform that could level the playing field in the tech industry. His company, Replet, has since reached a billion-dollar valuation, turning down offers to sell because Masad believes in the potential to build a trillion-dollar company that can reshape the tech landscape.",
+        "Masad's vision is to turn the tech industry from a monopoly into a more democratic space, where coding and technology are accessible to all, reflecting the diversity of thought and problem-solving that can come from a broader range of individuals."
+      ],
+      "sections": [
+        {
+          "heading": "Democratizing Coding",
+          "body": "Amjad Masad's Replet aims to make coding accessible to everyone by using AI to simplify the process, thus democratizing the tech industry."
+        },
+        {
+          "heading": "Billion-Dollar Valuation",
+          "body": "Replet, under Masad's leadership, reached a billion-dollar valuation, yet Masad turned down acquisition offers, envisioning a future where the company could be worth a trillion dollars."
+        },
+        {
+          "heading": "Tech Industry Transformation",
+          "body": "Masad's mission is to transform the tech industry from a monopoly into a more democratic space, where coding and technology are accessible to all, fostering a more diverse and inclusive tech ecosystem."
+        },
+        {
+          "heading": "Visionary Leadership",
+          "body": "Amjad Masad's leadership at Replet is characterized by a strong vision to change the tech industry, turning down significant offers to sell in order to pursue a larger goal of creating a more equitable technological landscape."
+        }
+      ]
+    },
+    "net_worth": "$400.0M"
+  },
+  {
+    "id": 179,
+    "name": "Sean Emory",
+    "slug": "sean-emory",
+    "bio": "Sean Emory is the founder and Chief Investment Officer of Avery and Co., a firm that specializes in building data-driven, high-conviction portfolios. With a focus on directional investing and integrating technology with traditional investment philosophies, Avery and Co. aims to identify companies that are moving in the direction of the world's future.",
+    "known_for": "Directional investing and integrating tech focus with traditional investment philosophies.",
+    "net_worth_usd": 77300000.0,
+    "net_worth_source": "https://www.benzinga.com/sec/insider-trades/0001450656/sean-connolly",
+    "net_worth_updated_at": "2026-04-15T22:05:31.871463",
+    "voice_tone": "Confident and informative",
+    "voice_style": "Analytical with a focus on historical context and future trends",
+    "voice_delivery_notes": "Paced with emphasis on key investment insights and market analysis",
+    "voice_profile_updated_at": "2026-04-16 03:04:09",
+    "last_seen": "2026-04-16 03:04:09",
+    "last_episode_title": "\"I Don't Believe the Stagflation Narrative\": How the Strong Consumer and AI Tailwinds Shape Sean Emory's Bullish Blueprint | Avory & Co",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-04-14",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in companies that are directionally accurate with the world's trajectory, integrating traditional fundamental investment philosophies with a modern tech focus.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-14 \u2022 \"I Don't Believe the Stagflation Narrative\": How the Strong Consumer and AI Tailwinds Shape Sean Emory's Bullish Blueprint | Avory & Co",
+    "last_proof_snippet": "Today's episode is brought to you by PeakTay asset management and their AI enhanced ETF range, ticker's PQ&T and PQUS. You'll hear more about how they're using AI to enhance equity exposure later in the show. For now, let's get into it. Hel",
+    "supporting_takeaway": "Investing with a long-term perspective involves considering macroeconomic factors and their impact on smaller companies.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-15T22:05:30.953894",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Sean Emory",
+      "fetched_at": "2026-04-16T03:05:30.953654+00:00",
+      "cliff_notes": "Sean Emory is recognized for his innovative approach to investing, combining traditional investment strategies with a strong focus on technology and data analysis. As the founder and CIO of Avery and Co., he has been instrumental in developing the firm's investment philosophy centered around 'investing forward,' which involves identifying and investing in companies that are aligned with the world's future direction. This approach not only provides a margin of safety but also positions investors on the right side of history. Emory's work at Avery and Co. has been influential in the investment community, demonstrating the value of marrying technology with investment strategies to create high-conviction portfolios.",
+      "derived": {
+        "current_role": "Founder and CIO of Avery and Co."
+      },
+      "infobox": {
+        "Founded Avery and Co.": "10 years ago"
+      },
+      "lead_paragraphs": [
+        "Sean Emory is recognized for his innovative approach to investing, combining traditional investment strategies with a strong focus on technology and data analysis. As the founder and CIO of Avery and Co., he has been instrumental in developing the firm's investment philosophy centered around 'investing forward,' which involves identifying and investing in companies that are aligned with the world's future direction.",
+        "This approach not only provides a margin of safety but also positions investors on the right side of history. Emory's work at Avery and Co. has been influential in the investment community, demonstrating the value of marrying technology with investment strategies to create high-conviction portfolios."
+      ],
+      "sections": [
+        {
+          "heading": "Directional Investing",
+          "body": "Sean Emory's investment approach at Avery and Co. is characterized by directional investing, focusing on companies that are moving in the direction of the world's future."
+        },
+        {
+          "heading": "Data-Driven Portfolios",
+          "body": "Avery and Co. builds data-driven portfolios, leveraging technology to analyze and predict market trends, ensuring high-conviction investments."
+        },
+        {
+          "heading": "Integration of Tech and Traditional Investing",
+          "body": "Emory is known for integrating technology with traditional investment philosophies, creating a unique approach that enhances equity exposure and portfolio performance."
+        }
+      ]
+    },
+    "net_worth": "$77.3M"
+  },
+  {
+    "id": 178,
+    "name": "David Blondon",
+    "slug": "david-blondon",
+    "bio": "David Blondon is an expert in exponential investments, known for his insights into the world of finance and technology. He has a deep understanding of the rapid changes occurring in the tech industry, particularly in areas such as AI and its implications for the workforce.",
+    "known_for": "His expertise in exponential investments and analysis of the rapid growth and valuation of tech companies, especially in the AI sector.",
+    "net_worth_usd": 103000000.0,
+    "net_worth_source": "https://www.gurufocus.com/insider/58729/david-b-blundin",
+    "net_worth_updated_at": "2026-04-15T22:05:52.046931",
+    "voice_tone": "Confident and knowledgeable",
+    "voice_style": "Direct and to-the-point",
+    "voice_delivery_notes": "Speaks with authority and clarity",
+    "voice_profile_updated_at": "2026-04-16 03:03:03",
+    "last_seen": "2026-04-16 03:03:03",
+    "last_episode_title": "Elon Musk vs. Sam Altman, AI Job Loss, and OpenAI\u2019s $852B Valuation | EP #247",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-04-14",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in AI companies that are positioned to benefit from the rapid growth and valuation in the industry, and consider the broader implications of AI on the future of work and social structures.",
+    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-04-14 \u2022 Elon Musk vs. Sam Altman, AI Job Loss, and OpenAI\u2019s $852B Valuation | EP #247",
+    "last_proof_snippet": "It's the Musk versus Altman lawsuit. Musk has sued OpenAI for $100 billion. But I kind of figured, behind the scenes, they don't actually hate each other. These guys actually hate each other to the, like, extreme. OpenAI's valued at 70 time",
+    "supporting_takeaway": "AI is expected to replace many white collar jobs in the near future.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-15T22:05:51.125060",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "David Blondon",
+      "fetched_at": "2026-04-16T03:05:51.124834+00:00",
+      "cliff_notes": "David Blondon has established himself as an authority in the field of exponential investments, with a particular focus on the financial and technological landscape. His career has been marked by a deep dive into understanding the exponential growth patterns of tech companies, especially those in the AI space. Blondon's commentary often touches on the implications of these rapid advancements for the economy and the workforce, providing investors and tech enthusiasts with valuable insights into the future of these industries. His work is characterized by a keen eye for detail and an ability to distill complex financial and technological concepts into accessible and actionable information.",
+      "derived": {
+        "current_role": "Expert in Exponential Investments"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "David Blondon has established himself as an authority in the field of exponential investments, with a particular focus on the financial and technological landscape. His career has been marked by a deep dive into understanding the exponential growth patterns of tech companies, especially those in the AI space. Blondon's commentary often touches on the implications of these rapid advancements for the economy and the workforce, providing investors and tech enthusiasts with valuable insights into the future of these industries.",
+        "His work is characterized by a keen eye for detail and an ability to distill complex financial and technological concepts into accessible and actionable information."
+      ],
+      "sections": [
+        {
+          "heading": "Exponential Investments",
+          "body": "David Blondon is recognized for his expertise in exponential investments, analyzing how tech companies, particularly those in AI, are valued and grow at an unprecedented rate."
+        },
+        {
+          "heading": "AI and Workforce",
+          "body": "Blondon discusses the impact of AI on the workforce, suggesting that AI will soon be capable of performing tasks traditionally done by white-collar workers, leading to significant shifts in the job market."
+        },
+        {
+          "heading": "Tech Valuation",
+          "body": "He provides insights into the high valuations of tech companies, such as OpenAI, and the implications of these valuations for investors and the tech industry as a whole."
+        },
+        {
+          "heading": "Panel Moderation",
+          "body": "Blondon recently moderated a panel, showcasing his ability to engage with topics and ask probing questions, contributing to the discourse on tech and finance."
+        }
+      ]
+    },
+    "net_worth": "$103.0M"
   },
   {
     "id": 175,
@@ -16660,7 +17071,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "AI has the potential to revolutionize home management and parenting by automating administrative tasks, which could lead to increased satisfaction and potentially influence demographic trends.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-13 \u2022 Building Agents at Home: Parenting, Work, and Benevolent Neglect",
     "last_proof_snippet": "I was resigned to not challenging myself to build technical or hard things for like the next five years or so. I really want to be present with my kids. I need to take this break basically. That is no longer true. Weird super power of mine",
@@ -16844,7 +17255,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "Investing in companies with a strong cultural identity and clear strategic focus can provide an edge in technology markets, as demonstrated by the contrasting paths of Apple and Microsoft.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-10 \u2022 What Running Windows at Microsoft Taught Steven Sinofsky About Apple",
     "last_proof_snippet": "I think the Steve created a culture of artists and they thought of themselves that way and in many ways Microsoft was a culture of technologists, solving technology problems and it led to very very different products but also very very diff",
@@ -17041,7 +17452,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Investing in private credit, particularly through opportunistic funds, can provide higher returns by accepting additional credit risk and complexity, suitable for patient institutional capital.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-08 \u2022 Private Credit \u201cDoom\u201d Narrative On Shaky Foundation? | Michael Haynes On Why Retail Outflows Are Real But Credit Foundations Are Solid",
     "last_proof_snippet": "Today's episode is brought to you by Kaya NXT. Later, the show, you'll hear more about how you can take the next step for your clients with Kaya NXT's Alternatives Education courses. But for now, let's get into today's interview. I am joine",
@@ -17104,7 +17515,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Invest in technologies and platforms that promote open-source contributions and technological pluralism to hedge against an uncertain future and ensure a more equitable distribution of power.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-09 \u2022 Who Controls AI Acceleration? Vitalik Buterin and Guillaume Verdon Debate",
     "last_proof_snippet": "Rapid technological acceleration has been a fact of a human civilization for about a century, and that acceleration is itself accelerating to me that is the fundamental truth, right? And whether we yell at it or disagree with it, it is happ",
@@ -17170,7 +17581,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Invest in technologies and platforms that promote open-source contributions and technological pluralism to hedge against an uncertain future and ensure a more equitable distribution of power.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-09 \u2022 Who Controls AI Acceleration? Vitalik Buterin and Guillaume Verdon Debate",
     "last_proof_snippet": "Rapid technological acceleration has been a fact of a human civilization for about a century, and that acceleration is itself accelerating to me that is the fundamental truth, right? And whether we yell at it or disagree with it, it is happ",
@@ -17485,7 +17896,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "Investing in AI infrastructure and applications that can leverage the power of AI while addressing the challenges of verification and privacy.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-07 \u2022 Balaji on Why AI Raises the Cost of Verification",
     "last_proof_snippet": "AI doesn't take your job, AI makes you the CEO. The problem is, AI is a shortcut, and a shortcut is good, except when it's bad. If you don't know how to go the long way around, then you can't debug the AI. Do we not think that AI is we're j",
@@ -17730,7 +18141,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.79,
+    "mention_score_decayed": 0.78,
     "last_main_idea": "The disruption in shipping due to geopolitical conflicts presents a unique investment opportunity in shipping stocks, particularly for those with a keen understanding of the market dynamics.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-04 \u2022 \u201cBooks Will Be Written\u201d About This Shipping Market | Ed Finley-Richardson of Misadventures in Shipping on War-Induced Oil Tanker Mayhem, Squeeze for Asiabound Refined Products, and Persian Gulf \u201cFeeding Frenzy\u201d Scenario",
     "last_proof_snippet": "The oil market and the fertilizer market have been essentially broken by the closure of the straight of her mousse, but it's not just that. With war in the Middle East, cracks are forming in the shipping industry itself, particularly the ta",
@@ -18098,7 +18509,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.74,
+    "mention_score_decayed": 0.72,
     "last_main_idea": "Pictay asset management's AI-enhanced ETFs (PQNT and PQUS) aim to provide enhanced equity exposure through the use of artificial intelligence.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-01 \u2022 Why $200 Oil Won\u2019t Spike Inflation to 9% | Anna Wong on Recession Probability, PCE vs CPI, and Fed Reaction Function In A Scenario of Soaring Energy Prices",
     "last_proof_snippet": "Today's episode is brought you by Pictay asset management and their AI enhanced ETF range, ticker PQNT and PQUS. You'll hear more about how they're using AI to enhance equity exposure later in the show. For now, let's get into it. Very plea",
@@ -18158,7 +18569,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.74,
+    "mention_score_decayed": 0.72,
     "last_main_idea": "Investing in companies that understand complex problems and can leverage AI to gain a competitive advantage in their operations and product development.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-01 \u2022 What Happens When a Public Company Goes All In on AI",
     "last_proof_snippet": "The biggest mode is going to be which companies understand something that's super hard for other people to understand and if your answer to that is, I don't know, then you maybe could get vibe coded away. Block was one of the first to make",
@@ -18601,7 +19012,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.68,
+    "mention_score_decayed": 0.66,
     "last_main_idea": "Betting on talented individuals in businesses rather than predicting tech trends is a more consistent approach to investing.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-28 \u2022 the a16z show chris dixon from quant trading to building a16z crypto be2e5b4b",
     "last_proof_snippet": "And at the time I joined, there were only a couple of investing partners, and there were only one fun. Now we have sort of this complex of funds, and I was a, you know, reasonably prominent sort of angel investor, blogger. They were probabl",
@@ -18667,7 +19078,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.68,
+    "mention_score_decayed": 0.66,
     "last_main_idea": "Invest in companies that are driving innovation and can disrupt traditional industries by offering superior products at better prices, while keeping an eye on the competitive dynamics between the US and China in scientific research and technology.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-27 \u2022 Anthropic's Generational Run, OpenAI Panics, AI Moats, Meta Loses Lawsuits",
     "last_proof_snippet": "All right, everybody, welcome back to the number one podcast in the world, the fantastic four, the original. Oh, the cast is back. The cast is black in arms, brothers in arms. Here we go, good boys. We got a big newsweek, David Sachs. It's",
@@ -18724,7 +19135,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.68,
+    "mention_score_decayed": 0.66,
     "last_main_idea": "The current bull market is built on shaky foundations, and a shift towards a more cautious stance with a focus on security software and data lake control is advised.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-18 \u2022 Stock Market on Shaky Foundations | Blind Squirrel Macro\u2019s Rupert Mitchell on IPO Supply, Oil, and Private Credit",
     "last_proof_snippet": "This episode of Monetary Matters is brought to you by the two-creations Soybean Fund. Take your S.O.Y.B. Let's get into it. I've been worried about markets for several weeks now, in fact, long before a round kicked off. And I keep on seeing",
@@ -18783,7 +19194,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-03-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.68,
+    "mention_score_decayed": 0.66,
     "last_main_idea": "The historical insights from the Italian Renaissance period suggest that technological advancements, such as the printing press, can have a profound impact on society and information distribution, which parallels modern tech revolutions and their investment implications.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-03-06 \u2022 Inventing the Renaissance: Economic and Technological Insights",
     "last_proof_snippet": "Today, I'm chatting with Ada Palmer, who is a Renaissance historian, a novelist, a composer, based at the University of Chicago, and today we're discussing your book inventing the Renaissance. Ada, thanks for coming on the podcast. Then, lo",
@@ -19042,7 +19453,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.64,
+    "mention_score_decayed": 0.63,
     "last_main_idea": "Investors should consider the geopolitical risks and shifts in global power dynamics when constructing their portfolios, with a focus on sectors that may be affected by rising energy prices and inflation.",
     "last_proof_cite": "Macro Voices \u2022 2026-03-26 \u2022 Macro Voices Episode 525: Multi-Polar World Order, Iran Conflict, and Inflation Outlook",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -19110,7 +19521,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.64,
+    "mention_score_decayed": 0.63,
     "last_main_idea": "Investors should consider the geopolitical risks and shifts in global power dynamics when constructing their portfolios, with a focus on sectors that may be affected by rising energy prices and inflation.",
     "last_proof_cite": "Macro Voices \u2022 2026-03-26 \u2022 Macro Voices Episode 525: Multi-Polar World Order, Iran Conflict, and Inflation Outlook",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -19169,7 +19580,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.64,
+    "mention_score_decayed": 0.63,
     "last_main_idea": "Investing in cybersecurity solutions that can secure networks on top of compromised physical infrastructure is crucial for national security and economic prosperity.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-26 \u2022 Cybersecurity and National Security in the Telecommunications Sector",
     "last_proof_snippet": "I was a Davos last year in a cyber form, and one of the speakers was talking about salt typhoon. It was closed door, room of 60 cyber folks, and it's like, how many people know about this? It was five out of 60. What we learned was that Chi",
@@ -19229,7 +19640,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.64,
+    "mention_score_decayed": 0.63,
     "last_main_idea": "Investing in cybersecurity solutions that can secure networks on top of compromised physical infrastructure is crucial for national security and economic prosperity.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-26 \u2022 Cybersecurity and National Security in the Telecommunications Sector",
     "last_proof_snippet": "I was a Davos last year in a cyber form, and one of the speakers was talking about salt typhoon. It was closed door, room of 60 cyber folks, and it's like, how many people know about this? It was five out of 60. What we learned was that Chi",
@@ -19289,7 +19700,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.64,
+    "mention_score_decayed": 0.63,
     "last_main_idea": "The market is experiencing underlying stress that is not reflected in headline indices, suggesting a need for a more nuanced approach to investment decisions.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-25 \u2022 Monetary Matters: Analyzing Market Stress and the Impact of Oil Prices",
     "last_proof_snippet": "Today's episode is brought you by Pictay asset management and their AI enhanced ETF range, ticker PQ&T and PQUS. You'll hear more about how they're using AI to enhance equity exposure later in the show. For now, let's get into it. Very plea",
@@ -20209,7 +20620,7 @@ const dashboardData = {
     "last_podcast_name": null,
     "last_episode_date": null,
     "mention_score": 1,
-    "mention_score_decayed": 0.55,
+    "mention_score_decayed": 0.54,
     "last_main_idea": null,
     "last_proof_cite": null,
     "last_proof_snippet": null,
@@ -20266,7 +20677,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-02-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.55,
+    "mention_score_decayed": 0.54,
     "last_main_idea": "The Picta AI Enhanced International Equity ETF (PQNT) uses AI to enhance international equity returns, suggesting a potential for outperformance through technology-driven investment strategies.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-02-19 \u2022 Monetary Matters with Jack Farley: The US Dollar, Trade Deficits, and the Role of AI in Finance",
     "last_proof_snippet": "Today's episode is brought to you by the Picta AI Enhance International Equity ETF, Ticker PQNT. You'll hear more about they're using AI to enhance international equity returns later in the show. For now, let's get into it. Very pleased tod",
@@ -20336,7 +20747,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.54,
+    "mention_score_decayed": 0.52,
     "last_main_idea": "While not directly investment-focused, the episode provides insights into the political climate and potential policy directions that could indirectly affect various sectors and investment strategies.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-18 \u2022 Interview with Senator John Fetterman on Voting Rights, Policy Decisions, and the Democratic Party",
     "last_proof_snippet": "John Fetterman, thank you for joining us here on the All-In-Podcast for this all-in interview. Very excited to have him here today. I know you're in the middle of voting today. Sounds like the Save America Act might be starting its debate o",
@@ -20402,7 +20813,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.54,
+    "mention_score_decayed": 0.52,
     "last_main_idea": "Invest in companies that are at the forefront of AI innovation, hardware manufacturing, and secure supply chain management to capitalize on the new geopolitics of technology and the reindustrialization of the US.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-18 \u2022 The Geopolitics of Technology and the Future Economy",
     "last_proof_snippet": "Our models need to be superior than all the other models on Earth. We need to have the world's best AI innovation on a qualitative basis, so we need to have the most market share. If we have exquisite models that no one uses, we're kind of",
@@ -20466,7 +20877,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.54,
+    "mention_score_decayed": 0.52,
     "last_main_idea": "The current elevated oil prices and their subsequent impact on inflation and growth present a complex investment landscape, with stocks and bonds being particularly at risk. Investors should consider packaging trades to navigate these dynamics.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-19 \u2022 Monetary Matters with Jack Farley: Oil Shocks, Inflation, and Market Reactions",
     "last_proof_snippet": "Today's episode is brought to you by the unlimited hfgm global macro ETF ticker hfgm. Later in the show, you'll hear more about hfgm currently the number one morning star rated funds sits its inception in the U.S. macro trading category. Le",
@@ -20530,7 +20941,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-03-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.52,
+    "mention_score_decayed": 0.51,
     "last_main_idea": "Invest in companies at the forefront of AI, robotics, and space technology, as these sectors are poised for significant growth and disruption.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-03-17 \u2022 Elon Musk on Moonshots: Discussing AI, Robotics, and Future Technologies",
     "last_proof_snippet": "audience, and as you can see, still trying to monetize hope. Yeah, you look like you're in great shape. I'm doing great. Well, that's not like a sort of user of things going on or what. It's like it's our longevity exercise. We're getting t",
@@ -20594,7 +21005,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.52,
+    "mention_score_decayed": 0.51,
     "last_main_idea": "Farmland represents an underutilized asset class with diversification benefits and potential for strong returns, particularly in the context of water scarcity and aging farmer demographics.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-17 \u2022 Monetary Matters with Jack Farley: Farmland Investment Insights",
     "last_proof_snippet": "This episode of Other People's Money is brought to you by the two-Korean Soybean Fund, ticker SOYB. Let's get into it. Welcome to Other People's Money. I am joined today by Chris Morris, President of Lampun Partners in Institutional Farmlan",
@@ -20836,7 +21247,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-02-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.51,
+    "mention_score_decayed": 0.5,
     "last_main_idea": "Invest in AI and automation technologies that are driving the shift towards AI governance and efficiency in business operations.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-02-17 \u2022 The AI CEO Arrives: Sam Altman's Succession Plan, Job Loss Continues, and Our 2027 'Solve Everything' Paper",
     "last_proof_snippet": "The AI CEO Arrives: Sam Altman's Succession Plan, Job Loss Continues, and Our 2027 'Solve Everything' Paper | EP #230 Moonshots with Peter Diamandis Episode 230 00:00:00 When do we see a billion-dollar revenue company being run by an AI CEO",
@@ -20979,7 +21390,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.48,
+    "mention_score_decayed": 0.47,
     "last_main_idea": "Investment in AI technology within the defense sector is critical for maintaining national security and ensuring operational effectiveness.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-13 \u2022 AI in Defense and the Future of Military Technology",
     "last_proof_snippet": "We're faced with the biggest military build-up in history. We're trending toward an artificial general intelligence, a substrate, a layer, something that'll touch everything. But we're way behind an AI at the department. You are a CTO for t",
@@ -21006,7 +21417,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.48,
+    "mention_score_decayed": 0.47,
     "last_main_idea": "Investors should consider the geopolitical risks associated with the US-Iran conflict and the potential impact on global oil supply, as well as the long-term shift towards renewable energy sources.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-13 \u2022 Monetary Matters: The Impact of US-Iran Conflict on the World Economy",
     "last_proof_snippet": "Very pleased today to be joined by Martin Wolff, chief economics commentator for the financial times. Martin, welcome to monetary matters. It's a pleasure. Martin, how are you thinking about the ongoing war between the US and the right? Wha",
@@ -21033,7 +21444,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-03-12",
     "mention_score": 1,
-    "mention_score_decayed": 0.47,
+    "mention_score_decayed": 0.46,
     "last_main_idea": "The current geopolitical tensions, particularly in Iran, are creating significant market volatility, especially in oil prices, which presents both risks and opportunities for investors.",
     "last_proof_cite": "Macro Voices \u2022 2026-03-12 \u2022 Macro Voices Episode 523: Geopolitical Situation in Iran, Oil Prices, Precious Metals, and Market Analysis",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -21060,7 +21471,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-12",
     "mention_score": 1,
-    "mention_score_decayed": 0.47,
+    "mention_score_decayed": 0.46,
     "last_main_idea": "Investing in companies that leverage technology to enhance national defense and security could yield significant returns, especially if they align with the interests of the defense establishment.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-12 \u2022 The Intersection of Technology, Geopolitics, and National Defense",
     "last_proof_snippet": "We were the freak chef, and we spent 20 years for this moment. We're doing it, we're doing it, and I'm sure you're enjoying this as much as I am. I just got three things to say. God bless our troops. God bless America. And shout on that. Do",
@@ -21087,7 +21498,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.47,
+    "mention_score_decayed": 0.46,
     "last_main_idea": "The global semiconductor supply chain, with a focus on Taiwan's TSMC, presents both risks and opportunities in the context of U.S.-China relations and economic inequality.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-09 \u2022 All-In with Chamath, Jason, Sacks & Friedberg - Discussion with Graham Allison",
     "last_proof_snippet": "Welcome to another episode of the all-in-interview. I'm really excited to be joined by a back-to-all-in, Harvard Professor Graham Allison. Professor Allison, welcome back to all-in. Thanks for having me. We last had you at the summit in Los",
@@ -21114,7 +21525,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.47,
+    "mention_score_decayed": 0.46,
     "last_main_idea": "As the global liquidity cycle peaks, investors should consider rotating their asset allocation towards more defensive areas and higher yielding assets like private credit.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-09 \u2022 Monetary Matters with Jack Farley: Global Liquidity and Asset Allocation",
     "last_proof_snippet": "Later on, you'll hear more about the fund rise income fund and why sophisticated investors are turning to higher yielding assets like private credit. But for now, let's get into today's interview. Join today by Michael Howell of the Capital",
@@ -21141,7 +21552,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-03-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.47,
+    "mention_score_decayed": 0.46,
     "last_main_idea": "Investment in AI technology, particularly in personal AI agents like OpenClaw, could offer substantial returns as the technology matures and becomes more integrated into daily life.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-03-09 \u2022 The Future of Personal AI Agents with OpenClaw",
     "last_proof_snippet": "We have a special guest with us today. Alex Finn, give us the 101 here for folks. OpenClaw is basically a open source, fully customizable, self-improving, self-learning, self-evolving, personal AI agent. This is kind of the answer Apple's b",
@@ -21168,7 +21579,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.47,
+    "mention_score_decayed": 0.46,
     "last_main_idea": "Investing in technology that enhances real-time crime prevention and clearance rates can lead to more effective law enforcement and safer communities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-11 \u2022 Real-time Crime Prevention and the Future of Policing",
     "last_proof_snippet": "South American cartels fly illegal drones through these neighborhoods. They'll flip on night vision. Look through houses to see if you can tell me. Didn't go break in. I was working with a town in Tennessee. It's a good city. Their average",
@@ -21195,7 +21606,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.47,
+    "mention_score_decayed": 0.46,
     "last_main_idea": "The current geopolitical tensions and the rise of AI technology present both risks and opportunities, with the potential for economic disruption and the need for strategic investment in sectors less affected by AI.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-11 \u2022 Monetary Matters: Economic Consequences of War and AI's Impact",
     "last_proof_snippet": "This episode of Monetary Matters is brought to you by the two-cream Soybean Fund. Take your SOI-B. Let's get into it. Very pleased to welcome to Monetary Matters, Noble Laureate Economist, Professor at Columbia University, an author of Road",
@@ -21222,7 +21633,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.47,
+    "mention_score_decayed": 0.46,
     "last_main_idea": "The shift towards private markets and the potential for changing reporting cadence could redefine the landscape for early-stage investment opportunities and public market participation.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-11 \u2022 Capital Markets Evolution and the Future of IPOs",
     "last_proof_snippet": "All right, everybody, welcome to the all-in interview program. Today, we are delighted to have two of the most important individuals shaping capital markets over the next couple of years. SEC chair, Paul Ackens is with us as well as CFTC ch",
@@ -21249,7 +21660,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.47,
+    "mention_score_decayed": 0.46,
     "last_main_idea": "The shift towards private markets and the potential for changing reporting cadence could redefine the landscape for early-stage investment opportunities and public market participation.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-11 \u2022 Capital Markets Evolution and the Future of IPOs",
     "last_proof_snippet": "All right, everybody, welcome to the all-in interview program. Today, we are delighted to have two of the most important individuals shaping capital markets over the next couple of years. SEC chair, Paul Ackens is with us as well as CFTC ch",

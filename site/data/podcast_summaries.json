@@ -1,5 +1,58 @@
 [
   {
+    "id": 158,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Replit's CEO on Vibe Coding, Wealth Building, and What Most People Get Wrong About AI",
+    "episode_date": "2026-04-15",
+    "summary": "In this episode of 'The a16z Show', the guest, Amjad Masad, CEO of Replet, discusses his journey from being unable to afford a computer to building a billion-dollar company that democratizes coding through AI. Masad shares his vision of transforming the tech industry from a monopoly to a democracy and his refusal to sell his company for a billion dollars, aiming instead for a trillion-dollar valuation. The conversation delves into how Replet's AI agent can produce a working app in under an hour, the importance of communication in building successful apps, and the future of AI in empowering individuals rather than enslaving them.",
+    "key_takeaways": [
+      "Replet's AI agent can produce a working app in under an hour, significantly reducing the time and skill required to build software.",
+      "The company's revenue grew from $2.5 million to $250 million in just over a year, demonstrating the potential of AI in software development.",
+      "Amjad Masad believes that not having a coding background is becoming an advantage, as those closest to the problem are now winning in the tech industry.",
+      "Masad turned down a billion-dollar offer to buy his company because he believes he can build a trillion-dollar company.",
+      "Good communication is key to success, both in talking to AI and in general, as it allows for the simplification of complex ideas."
+    ],
+    "investment_thesis": "The democratization of coding through AI has the potential to disrupt the tech industry, empowering individuals and creating new opportunities for innovation and growth.",
+    "key_tickers": null
+  },
+  {
+    "id": 157,
+    "podcast_name": "Monetary Matters with Jack Farley",
+    "episode_title": "\"I Don't Believe the Stagflation Narrative\": How the Strong Consumer and AI Tailwinds Shape Sean Emory's Bullish Blueprint | Avory & Co",
+    "episode_date": "2026-04-14",
+    "summary": "In this episode of the OPM podcast, host Jack Farley interviews Sean Emory, the founder and CIO of Avery and Co., a firm focused on building data-driven, high-conviction portfolios. They discuss the importance of investing in companies that are directionally accurate, aligning with the world's trajectory, and the integration of traditional fundamental investment philosophies with a modern, tech-focused approach. Emory shares his views on macroeconomic factors, the impact on small and mid-cap stocks, and the potential for companies like Square and Zoom to thrive in the current market environment.",
+    "key_takeaways": [
+      "Avery and Co. focuses on data-driven, high-conviction portfolios that align with the world's direction.",
+      "Investing with a long-term perspective involves considering macroeconomic factors and their impact on smaller companies.",
+      "Square has shown consistent growth and innovation, making it an attractive investment.",
+      "Zoom, despite its competition, has a strong balance sheet and a growing product platform.",
+      "The potential IPOs of AI companies like OpenAI and Anthropic could significantly impact the market and related sectors."
+    ],
+    "investment_thesis": "Invest in companies that are directionally accurate with the world's trajectory, integrating traditional fundamental investment philosophies with a modern tech focus.",
+    "key_tickers": [
+      "PQ&T",
+      "PQUS",
+      "SQUARE",
+      "ZOOM"
+    ]
+  },
+  {
+    "id": 156,
+    "podcast_name": "Moonshots with Peter Diamandis",
+    "episode_title": "Elon Musk vs. Sam Altman, AI Job Loss, and OpenAI\u2019s $852B Valuation | EP #247",
+    "episode_date": "2026-04-14",
+    "summary": "In this episode of Moonshots with Peter Diamandis, the discussion revolves around the rapid growth and valuation of AI companies, the potential for AI to replace white collar jobs, and the future of social contracts in the face of technological unemployment. The panelists also touch on the implications of large capital accumulations on political influence and the potential for AI to empower individuals to generate income. The conversation is optimistic about the future of technology and its impact on society and the economy.",
+    "key_takeaways": [
+      "OpenAI is valued at 70 times its revenues, with a recent valuation of $852 billion.",
+      "AI is expected to replace many white collar jobs in the near future.",
+      "There is a significant amount of capital being invested daily in AI, with implications for future social contracts and political influence.",
+      "The panelists discuss the possibility of a redistributive model for a new social contract, but also the potential for AI to empower individuals to generate their own income.",
+      "The conversation suggests that AI could lead to a new form of entrepreneurship, where individuals operate their own large companies with fleets of AI agents."
+    ],
+    "investment_thesis": "Invest in AI companies that are positioned to benefit from the rapid growth and valuation in the industry, and consider the broader implications of AI on the future of work and social structures.",
+    "key_tickers": null
+  },
+  {
     "id": 155,
     "podcast_name": "The a16z Show",
     "episode_title": "Ben Horowitz on AI Infrastructure, Economics and The New Laws of Software",
