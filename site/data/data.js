@@ -3,80 +3,164 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-04-16T05:09:20.681508",
-  chartsVersion: "2026-04-16T05:09:09.515883",
+  generatedAt: "2026-04-16T22:09:16.187536",
+  chartsVersion: "2026-04-16T22:09:05.303926",
   priceSnapshot: {
   "GOOGL": {
-    "price": 337.12,
-    "change_pct": 20.01,
+    "price": 336.02,
+    "change_pct": 22.48,
     "name": "GOOGL",
-    "updated_at": "2026-04-16T05:09:09.514320"
+    "updated_at": "2026-04-16T22:09:05.302416",
+    "symbol_used": "GOOGL",
+    "instrument_type": "equity_or_other",
+    "is_continuous": false,
+    "display_ticker": "GOOGL",
+    "fetched_ok": true,
+    "stale": false,
+    "source_timestamp": "2026-04-16T22:09:05.302433"
   },
   "NVDA": {
-    "price": 198.87,
-    "change_pct": 16.14,
+    "price": 198.35,
+    "change_pct": 18.4,
     "name": "NVDA",
-    "updated_at": "2026-04-16T05:09:09.514347"
+    "updated_at": "2026-04-16T22:09:05.302447",
+    "symbol_used": "NVDA",
+    "instrument_type": "equity_or_other",
+    "is_continuous": false,
+    "display_ticker": "NVDA",
+    "fetched_ok": true,
+    "stale": false,
+    "source_timestamp": "2026-04-16T22:09:05.302453"
   },
   "MSFT": {
-    "price": 411.22,
-    "change_pct": 12.36,
+    "price": 420.26,
+    "change_pct": 17.8,
     "name": "MSFT",
-    "updated_at": "2026-04-16T05:09:09.514359"
+    "updated_at": "2026-04-16T22:09:05.302464",
+    "symbol_used": "MSFT",
+    "instrument_type": "equity_or_other",
+    "is_continuous": false,
+    "display_ticker": "MSFT",
+    "fetched_ok": true,
+    "stale": false,
+    "source_timestamp": "2026-04-16T22:09:05.302469"
   },
   "WTI": {
-    "price": 2.88,
-    "change_pct": -12.2,
+    "price": 89.84,
+    "change_pct": -11.38,
     "name": "WTI",
-    "updated_at": "2026-04-16T05:09:09.514371"
+    "updated_at": "2026-04-16T22:09:05.302479",
+    "symbol_used": "CL=F",
+    "instrument_type": "futures",
+    "is_continuous": true,
+    "display_ticker": "WTI",
+    "fetched_ok": true,
+    "stale": false,
+    "source_timestamp": "2026-04-16T22:09:05.302485"
   },
   "BTC": {
-    "price": 74566.1,
-    "change_pct": 11.41,
+    "price": 74676.62,
+    "change_pct": 10.98,
     "name": "BTC",
-    "updated_at": "2026-04-16T05:09:09.514382"
+    "updated_at": "2026-04-16T22:09:05.302494",
+    "symbol_used": "BTC-USD",
+    "instrument_type": "crypto_spot",
+    "is_continuous": false,
+    "display_ticker": "BTC",
+    "fetched_ok": true,
+    "stale": false,
+    "source_timestamp": "2026-04-16T22:09:05.302499"
   },
   "S&P 500": {
-    "price": 699.94,
-    "change_pct": 8.5,
+    "price": 7078.75,
+    "change_pct": 7.73,
     "name": "S&P 500",
-    "updated_at": "2026-04-16T05:09:09.514394"
+    "updated_at": "2026-04-16T22:09:05.302508",
+    "symbol_used": "ES=F",
+    "instrument_type": "futures",
+    "is_continuous": true,
+    "display_ticker": "S&P 500",
+    "fetched_ok": true,
+    "stale": false,
+    "source_timestamp": "2026-04-16T22:09:05.302514"
   },
   "TSLA": {
-    "price": 391.95,
-    "change_pct": 5.33,
+    "price": 388.9,
+    "change_pct": 7.48,
     "name": "TSLA",
-    "updated_at": "2026-04-16T05:09:09.514405"
+    "updated_at": "2026-04-16T22:09:05.302524",
+    "symbol_used": "TSLA",
+    "instrument_type": "equity_or_other",
+    "is_continuous": false,
+    "display_ticker": "TSLA",
+    "fetched_ok": true,
+    "stale": false,
+    "source_timestamp": "2026-04-16T22:09:05.302529"
   },
   "COPPER": {
-    "price": 6.08,
-    "change_pct": 8.84,
+    "price": 6.04,
+    "change_pct": 8.12,
     "name": "COPPER",
-    "updated_at": "2026-04-16T05:09:09.514417"
+    "updated_at": "2026-04-16T22:09:05.302538",
+    "symbol_used": "HG=F",
+    "instrument_type": "futures",
+    "is_continuous": true,
+    "display_ticker": "COPPER",
+    "fetched_ok": true,
+    "stale": false,
+    "source_timestamp": "2026-04-16T22:09:05.302543"
   },
   "GOLD": {
-    "price": 44.99,
-    "change_pct": 13.73,
+    "price": 4806.8,
+    "change_pct": 3.43,
     "name": "GOLD",
-    "updated_at": "2026-04-16T05:09:09.514428"
+    "updated_at": "2026-04-16T22:09:05.302553",
+    "symbol_used": "GC=F",
+    "instrument_type": "futures",
+    "is_continuous": true,
+    "display_ticker": "GOLD",
+    "fetched_ok": true,
+    "stale": false,
+    "source_timestamp": "2026-04-16T22:09:05.302558"
   },
   "META": {
-    "price": 671.58,
-    "change_pct": 22.65,
+    "price": 676.87,
+    "change_pct": 28.75,
     "name": "META",
-    "updated_at": "2026-04-16T05:09:09.514439"
+    "updated_at": "2026-04-16T22:09:05.302568",
+    "symbol_used": "META",
+    "instrument_type": "equity_or_other",
+    "is_continuous": false,
+    "display_ticker": "META",
+    "fetched_ok": true,
+    "stale": false,
+    "source_timestamp": "2026-04-16T22:09:05.302574"
   },
   "QQQ": {
-    "price": 637.4,
-    "change_pct": 11.09,
+    "price": 640.47,
+    "change_pct": 13.85,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-04-16T05:09:09.514450"
+    "updated_at": "2026-04-16T22:09:05.302583",
+    "symbol_used": "QQQ",
+    "instrument_type": "etf",
+    "is_continuous": false,
+    "display_ticker": "QQQ",
+    "fetched_ok": true,
+    "stale": false,
+    "source_timestamp": "2026-04-16T22:09:05.302589"
   },
   "BTC-USD": {
-    "price": 74566.1,
-    "change_pct": 11.41,
+    "price": 74676.62,
+    "change_pct": 10.98,
     "name": "Bitcoin USD",
-    "updated_at": "2026-04-16T05:09:09.514462"
+    "updated_at": "2026-04-16T22:09:05.302598",
+    "symbol_used": "BTC-USD",
+    "instrument_type": "crypto_spot",
+    "is_continuous": false,
+    "display_ticker": "BTC-USD",
+    "fetched_ok": true,
+    "stale": false,
+    "source_timestamp": "2026-04-16T22:09:05.302603"
   }
 },
   tickerScores: [
@@ -834,6 +918,23 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 176,
+      "title": "Technology, Culture, and the Next AI Interface with sign\u00fcll",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-04-16",
+      "summary": "The podcast episode explores the complex intersection of technology, culture, and human progress, particularly focusing on the development of AI and its impact on society. The discussion delves into the challenges of making AI models more accessible and useful, the role of tacit knowledge in Silicon Valley, and the shift towards valuing intuitive understanding alongside formal knowledge. Additionally, the conversation touches on the implications of technology on wealth distribution and the potential for ownership to address these disparities.",
+      "key_takeaway": "Investing in AI technologies that bridge the gap between formal and intuitive knowledge could offer significant returns as these become more integrated into daily life and business.",
+      "tickers_mentioned": [],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-16",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 162
+    },
+    {
       "id": 171,
       "title": "Replit's CEO on Vibe Coding, Wealth Building, and What Most People Get Wrong About AI",
       "source_type": "podcast",
@@ -993,11 +1094,11 @@ const dashboardData = {
         "MSFT"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-04-13",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-04-17",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 153
     },
     {
@@ -1177,6 +1278,27 @@ const dashboardData = {
       "archived_date": "2026-04-15",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 147
+    },
+    {
+      "id": 177,
+      "title": "The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-04-08",
+      "summary": "The podcast discusses the diffusion of AI capabilities in enterprise software and the challenges it presents. It highlights the shift from building software for humans to building software for agents, the importance of APIs and CLIs in agent interactions, and the economic implications of this shift. The conversation also touches on the role of domain knowledge in software, the impact of agents on enterprise systems, and the potential for a 'transistor moment' in AI that could change the current dynamics of the market.",
+      "key_takeaway": "Invest in companies that are adapting to build software for AI agents and can leverage domain knowledge effectively.",
+      "tickers_mentioned": [
+        "SAP",
+        "WORK",
+        "CRM"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 0,
+      "display_order": 0,
+      "added_date": "2026-04-16",
+      "archived_date": "2026-04-17",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
+      "podcast_episode_id": 161
     },
     {
       "id": 155,
@@ -3974,6 +4096,48 @@ const dashboardData = {
   "definitions": [],
   "overton": [
     {
+      "id": 121,
+      "term": "Agents",
+      "description": "In the context of this podcast, agents refer to AI-driven entities that perform tasks and interact with software systems.",
+      "first_detected_date": "2026-04-17",
+      "last_mentioned_date": "2026-04-17",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should consider companies that are agent-compatible and can adapt to an agent-centric software ecosystem.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null
+    },
+    {
+      "id": 122,
+      "term": "API-first",
+      "description": "An approach to software development where the API is built first to ensure that the software can be easily integrated with other systems and services.",
+      "first_detected_date": "2026-04-17",
+      "last_mentioned_date": "2026-04-17",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Look for companies that prioritize API development, signaling a readiness for agent-based interactions.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null
+    },
+    {
+      "id": 123,
+      "term": "NPS Score",
+      "description": "A measure of a company's reputation based on customer feedback, indicating the likelihood that a customer will recommend the company's products or services to others.",
+      "first_detected_date": "2026-04-17",
+      "last_mentioned_date": "2026-04-17",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "A high NPS score can be an indicator of strong customer satisfaction and potential for investment.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null
+    },
+    {
       "id": 118,
       "term": "High-Conviction Portfolios",
       "description": "Portfolios built around a limited number of stocks that the investor strongly believes in.",
@@ -5566,6 +5730,26 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 176,
+      "title": "Technology, Culture, and the Next AI Interface with sign\u00fcll",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-04-16",
+      "summary": "The podcast episode explores the complex intersection of technology, culture, and human progress, particularly focusing on the development of AI and its impact on society. The discussion delves into the challenges of making AI models more accessible and useful, the role of tacit knowledge in Silicon Valley, and the shift towards valuing intuitive understanding alongside formal knowledge. Additionally, the conversation touches on the implications of technology on wealth distribution and the potential for ownership to address these disparities.",
+      "key_takeaway": "Investing in AI technologies that bridge the gap between formal and intuitive knowledge could offer significant returns as these become more integrated into daily life and business.",
+      "tickers_mentioned": "[]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-16",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 162,
+      "episode_release_date": "2026-04-16",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 171,
       "title": "Replit's CEO on Vibe Coding, Wealth Building, and What Most People Get Wrong About AI",
       "source_type": "podcast",
@@ -5714,26 +5898,6 @@ const dashboardData = {
       "podcast_episode_id": 156,
       "episode_release_date": "2026-04-14",
       "guest_name": null,
-      "key_tickers": []
-    },
-    {
-      "id": 168,
-      "title": "Building Agents at Home: Parenting, Work, and Benevolent Neglect",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-04-13",
-      "summary": "In this episode of the a16z Show, Katherine Boyle and Sarah Wang interview Jessie Janae, a former Y Combinator founder turned homeschooling parent. Janae discusses her use of AI agents to manage various tasks around the house and support her family. She shares her journey from a tech entrepreneur to a parent leveraging AI to streamline household and homeschooling responsibilities. The conversation explores the potential of AI to transform family dynamics and parenting, including the possibility of AI reversing the decline in fertility rates by making parenthood more manageable and fulfilling.",
-      "key_takeaway": "AI has the potential to revolutionize home management and parenting by automating administrative tasks, which could lead to increased satisfaction and potentially influence demographic trends.",
-      "tickers_mentioned": "[\"AAPL\", \"GOOGL\", \"AMZN\", \"TSLA\", \"MSFT\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-04-13",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 153,
-      "episode_release_date": "2026-04-13",
-      "guest_name": "Building Agents at Home",
       "key_tickers": []
     }
   ],
@@ -16282,12 +16446,94 @@ const dashboardData = {
     "key_tickers": [
       "HFGM"
     ]
+  },
+  "177": {
+    "id": 167,
+    "insight_id": 177,
+    "podcast_episode_id": 161,
+    "overview": "The debate around AI in enterprise software is not just about the presence of AI, but the profound shift in how software is developed and used. The conversation with Box CEO Aaron Levie underscores the transition from human-centric to agent-centric software, which has significant implications for the design, architecture, and economic models of enterprise systems. The urgency of this shift is highlighted by the potential for AI agents to outnumber human users by orders of magnitude, necessitating a rethink of software interfaces and backends. The discussion also points to the potential for a 'transistor moment' in AI, which could disrupt the current market dynamics and create new opportunities for those who can effectively leverage AI agents.",
+    "key_takeaways_detailed": [
+      "Invest in companies that are proactively adapting their software development practices to accommodate AI agents, as this will be a key differentiator in the coming years.",
+      "Look for companies that can effectively leverage domain knowledge to create software that is not only accessible to AI agents but also robust and reliable.",
+      "Monitor the development and adoption of APIs and CLIs, as these will be critical for the interaction between AI agents and enterprise software.",
+      "Keep an eye on the economic models of companies in the AI space, as accurately estimating the potential of AI agents will be crucial for valuation and investment decisions.",
+      "Consider the potential for a 'transistor moment' in AI, which could significantly change the competitive landscape and create new market leaders."
+    ],
+    "investment_thesis": "The investment thesis is that the shift towards building software for AI agents will create a new set of winners in the enterprise software space. Companies that can effectively leverage domain knowledge and adapt their software to be agent-centric will gain a competitive advantage. This shift is expected to occur over the next 5-10 years, with the most significant changes happening within the next 2-3 years. For this thesis to hold, there must be continued advancements in AI capabilities, a growing number of AI agents in the market, and a willingness from enterprises to invest in agent-centric software development.",
+    "ticker_analysis": {
+      "BOX": {
+        "rationale": "Box is a cloud content management company that is well-positioned to adapt its software for AI agents, given its focus on cloud-based solutions and potential for integration with AI.",
+        "positioning": "Long-term strategic position, as Box's ability to adapt to the agent-centric software paradigm could lead to significant growth.",
+        "risk": "Slow adoption of AI by enterprise customers or failure of Box to effectively integrate AI into its platform."
+      },
+      "MSFT": {
+        "rationale": "Microsoft has a strong position in the enterprise software market and is investing heavily in AI, making it a key player in the shift towards agent-centric software.",
+        "positioning": "Strategic long position, as Microsoft's broad product offerings and AI investments could lead to increased market share.",
+        "risk": "Competition from other tech giants or failure to innovate fast enough in the AI space."
+      },
+      "GOOGL": {
+        "rationale": "Google's strength in AI and cloud computing positions it well to benefit from the trend towards building software for AI agents.",
+        "positioning": "Long-term strategic position, as Google's AI capabilities and cloud infrastructure could drive growth.",
+        "risk": "Regulatory challenges or a slowdown in AI development could impact Google's growth prospects."
+      },
+      "AMZN": {
+        "rationale": "Amazon's AWS is a leading cloud provider, and its investments in AI could make it a significant beneficiary of the shift towards agent-centric software.",
+        "positioning": "Strategic long position, as AWS's scale and AI capabilities could lead to increased market share.",
+        "risk": "Increased competition in the cloud market or a slowdown in AI adoption by enterprises."
+      },
+      "CRM": {
+        "rationale": "Salesforce's focus on customer relationship management software and its AI-driven Einstein platform make it a potential beneficiary of the move towards software for AI agents.",
+        "positioning": "Long-term strategic position, as Salesforce's AI investments could enhance its product offerings and drive growth.",
+        "risk": "Slow adoption of AI by Salesforce's customer base or competition from other CRM platforms with stronger AI capabilities."
+      }
+    },
+    "positioning_guidance": "Investors should consider a long-term strategic position in companies that are well-positioned to benefit from the shift towards building software for AI agents. This could involve a mix of cloud providers, AI specialists, and enterprise software companies that are actively investing in AI. The time horizon for these investments should be at least 3-5 years, with the potential for significant growth if the companies can successfully adapt to the agent-centric paradigm.",
+    "risk_factors": [
+      "Slow adoption of AI by enterprises, which could delay the shift towards agent-centric software.",
+      "Regulatory challenges that could hinder the development and deployment of AI agents.",
+      "Technological setbacks in AI development that could limit the capabilities of AI agents.",
+      "Increased competition in the AI space that could impact the growth prospects of companies investing in agent-centric software.",
+      "Economic downturns that could reduce the willingness of enterprises to invest in new AI technologies."
+    ],
+    "contrarian_signals": [
+      "A resurgence in simpler, non-AI driven software solutions that could challenge the need for agent-centric software.",
+      "A focus on human-centric software development that prioritizes user experience over agent interaction.",
+      "A shift in market dynamics that values interface polish over durability, cost parameters, and reliability, which could undermine the need for robust agent-centric software."
+    ],
+    "catalysts": [
+      "Major AI breakthroughs that significantly enhance the capabilities of AI agents.",
+      "Enterprise adoption of AI agents that leads to a rapid increase in the number of agents in the market.",
+      "Regulatory clarity that supports the development and deployment of AI agents in enterprise software.",
+      "Successful integration of AI into existing enterprise software platforms, demonstrating the benefits of agent-centric software.",
+      "The launch of new AI-driven products or services by major tech companies that highlight the advantages of agent-centric software."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-04-16T22:08:19.126703",
+    "updated_at": "2026-04-17 03:08:19",
+    "episode_evidence": "The podcast conversation with Box CEO Aaron Levie and others delves into the nuances of AI diffusion in enterprise software. Levie emphasizes the shift in perspective required for software development: 'If you have a hundred or a thousand times more agents than people, then your software has to be built for agents.' This indicates a significant change in software architecture, where the user is no longer a human but an AI agent. The discussion also highlights the importance of APIs and CLIs, as these will be the primary means through which AI agents interact with software systems. Levie suggests that the paradigm of giving coding agents access to SaaS tools is becoming increasingly successful, as it allows agents to 'code their way or use it through whatever task it's trying to achieve.' This implies a move towards more complex and flexible software that can be manipulated by AI, rather than simpler systems as previously assumed. The economic implications are also significant, with the conversation touching on the challenges of accurately estimating the size of the opportunity presented by AI agents, as 'everybody is trying to figure out the economics of all of this.'",
+    "falsification_tracks": [
+      "A significant slowdown in AI development or a lack of progress in AI capabilities that would limit the number of AI agents in the market.",
+      "A shift in market preference towards simpler software systems that do not require complex interactions with AI agents.",
+      "A decline in the use of APIs and CLIs as primary interaction methods for AI agents, indicating a move away from the discussed paradigm.",
+      "Enterprises failing to adapt their software development practices to accommodate AI agents, suggesting that the market is not moving towards building software for agents as predicted."
+    ],
+    "insight_title": "The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
+    "source_name": "The a16z Show",
+    "source_date": "2026-04-08",
+    "key_tickers": [
+      "SAP",
+      "WORK",
+      "CRM"
+    ]
   }
 },
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 1979,
+    "id": 2003,
     "name": "also touches",
     "slug": "also-touches",
     "bio": null,
@@ -16299,7 +16545,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1980,
+    "id": 2004,
     "name": "\"I Don't Believe the Stagflation Narrative\"",
     "slug": "i-dont-believe-the-stagflation-narrative",
     "bio": null,
@@ -16311,7 +16557,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1981,
+    "id": 2005,
     "name": "Building Agents at Home",
     "slug": "building-agents-at-home",
     "bio": null,
@@ -16323,7 +16569,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1982,
+    "id": 2006,
     "name": "\"The Best Time to Invest\"",
     "slug": "the-best-time-to-invest",
     "bio": null,
@@ -16335,7 +16581,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1983,
+    "id": 2007,
     "name": "Governor Josh Shapiro of Pennsylvania",
     "slug": "governor-josh-shapiro-of-pennsylvania",
     "bio": null,
@@ -16347,7 +16593,19 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1984,
+    "id": 2008,
+    "name": "Box CEO Aaron Levie",
+    "slug": "box-ceo-aaron-levie",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Invest in companies that are adapting to build software for AI agents and can leverage domain knowledge effectively.",
+    "last_episode_title": "The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-04-08",
+    "appearance_count": 1
+  },
+  {
+    "id": 2009,
     "name": "Why $200 Oil Won\u2019t Spike Inflation to 9%",
     "slug": "why-200-oil-wont-spike-inflation-to-9",
     "bio": null,
@@ -16359,7 +16617,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1985,
+    "id": 2010,
     "name": "This special episode",
     "slug": "this-special-episode",
     "bio": null,
@@ -16371,7 +16629,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1986,
+    "id": 2011,
     "name": "Lupin Ramon",
     "slug": "lupin-ramon",
     "bio": null,
@@ -16383,7 +16641,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1987,
+    "id": 2012,
     "name": "When the Music Stops",
     "slug": "when-the-music-stops",
     "bio": null,
@@ -16395,7 +16653,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1988,
+    "id": 2013,
     "name": "Ground Infrastructure",
     "slug": "ground-infrastructure",
     "bio": null,
@@ -16407,7 +16665,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1989,
+    "id": 2014,
     "name": "Rory Johnston",
     "slug": "rory-johnston",
     "bio": null,
@@ -16419,7 +16677,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1990,
+    "id": 2015,
     "name": "Senator John Fetterman on Voting Rights",
     "slug": "senator-john-fetterman-on-voting-rights",
     "bio": null,
@@ -16431,7 +16689,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1991,
+    "id": 2016,
     "name": "Stock Market on Shaky Foundations",
     "slug": "stock-market-on-shaky-foundations",
     "bio": null,
@@ -16443,7 +16701,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1992,
+    "id": 2017,
     "name": "Elon Musk on Moonshots",
     "slug": "elon-musk-on-moonshots",
     "bio": null,
@@ -16455,7 +16713,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1993,
+    "id": 2018,
     "name": "Investing in Capitalism",
     "slug": "investing-in-capitalism",
     "bio": null,
@@ -16467,7 +16725,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1994,
+    "id": 2019,
     "name": "Harvard Professor Graham Allison",
     "slug": "harvard-professor-graham-allison",
     "bio": null,
@@ -16479,7 +16737,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1995,
+    "id": 2020,
     "name": "Andrew Yang",
     "slug": "andrew-yang",
     "bio": "Andrew Yang is an entrepreneur and political leader who popularized universal basic income in U.S. politics through his 2020 presidential campaign.",
@@ -16491,7 +16749,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1996,
+    "id": 2021,
     "name": "Inventing the Renaissance",
     "slug": "inventing-the-renaissance",
     "bio": null,
@@ -16503,7 +16761,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 1997,
+    "id": 2022,
     "name": "Ray Dalio",
     "slug": "ray-dalio",
     "bio": "Ray Dalio is the founder of Bridgewater Associates and a macro investor known for his 'Principles' framework and work on long-term debt cycles.",
@@ -16512,18 +16770,6 @@ const dashboardData = {
     "last_episode_title": "The Great Debt Cycle and Economic Outlook",
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-03",
-    "appearance_count": 1
-  },
-  {
-    "id": 1998,
-    "name": "Nobel Prize-winning economist Paul Krugman",
-    "slug": "nobel-prize-winning-economist-paul-krugman",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "The Picta AI Enhanced International Equity ETF (PQNT) uses AI to enhance international equity returns, suggesting a potential for outperformance through technology-driven investment strategies.",
-    "last_episode_title": "Monetary Matters with Jack Farley: The US Dollar, Trade Deficits, and the Role of AI in Finance",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-02-19",
     "appearance_count": 1
   }
 ],
@@ -16925,7 +17171,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-28",
     "mention_score": 2,
-    "mention_score_decayed": 1.32,
+    "mention_score_decayed": 1.29,
     "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-28 \u2022 the a16z show 20260319 1e92a9dd 78da 4417 b1ce 4b4318d1",
     "last_proof_snippet": "You just spend told you have superpowers. You've just been told you can have multiple employees for $200 a month. What do you do? If I was a young person today starting off my career, I would try to convince my parents to give me some money",
@@ -16989,7 +17235,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-28",
     "mention_score": 2,
-    "mention_score_decayed": 1.32,
+    "mention_score_decayed": 1.29,
     "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-28 \u2022 the a16z show 20260319 1e92a9dd 78da 4417 b1ce 4b4318d1",
     "last_proof_snippet": "You just spend told you have superpowers. You've just been told you can have multiple employees for $200 a month. What do you do? If I was a young person today starting off my career, I would try to convince my parents to give me some money",
@@ -17049,7 +17295,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-02-15",
     "mention_score": 2,
-    "mention_score_decayed": 1.32,
+    "mention_score_decayed": 1.29,
     "last_main_idea": "Invest in sectors with fertile ground for short selling, such as AI and tech, and under-allocated areas like junior mining, while combining long and short strategies for potential alpha.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-02-15 \u2022 Technical Analysis Deep Dive with Milton Berg - February 2026 Market Signals",
     "last_proof_snippet": "Today's episode is brought to you by the PICTEA AI Enhance International Equity ETF, ticker PQNT. You'll hear more about their using AI to enhance international equity returns later in the show. For now, let's get into it. Got a very specia",
@@ -17114,7 +17360,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-16",
     "mention_score": 2,
-    "mention_score_decayed": 1.0,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Invest in AI startups that focus on specific niches and use cases, as they can compete effectively against larger AI companies by capitalizing on the gaps between platforms.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-16 \u2022 AI Startups and the Future of Technology",
     "last_proof_snippet": "I think that every tech company is going to be an AI company and every AI company is going to be an agent company and so the sooner that you as kind of an employee or a business owner can kind of get on board and learn how to use that to yo",
@@ -17122,6 +17368,261 @@ const dashboardData = {
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
+  },
+  {
+    "id": 186,
+    "name": "Anisha Charya",
+    "slug": "anisha-charya",
+    "bio": "Anisha Charya is a General Partner at Andreessen Horowitz (A16Z), known for her investment expertise in technology and culture sectors. She has a keen interest in the intersection of technology, culture, and human progress, focusing on how technology can shape personality development and make AI more accessible.",
+    "known_for": "Investment expertise in technology and culture sectors, focusing on the intersection of AI, human progress, and personality development.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Inquisitive and analytical",
+    "voice_style": "Explores the implications of tech on society and business",
+    "voice_delivery_notes": "Direct with a focus on drawing out detailed insights",
+    "voice_profile_updated_at": "2026-04-17 03:05:12",
+    "last_seen": "2026-04-17 03:05:12",
+    "last_episode_title": "Technology, Culture, and the Next AI Interface with sign\u00fcll",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-04-16",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investing in AI technologies that bridge the gap between formal and intuitive knowledge could offer significant returns as these become more integrated into daily life and business.",
+    "last_proof_cite": "The a16z Show \u2022 2026-04-16 \u2022 Technology, Culture, and the Next AI Interface with sign\u00fcll",
+    "last_proof_snippet": "It's funny how the internet now, everybody can comment on everything. Every technology cycle to me is increasingly harder because you're probably going into a different part of how the human mind operates, right now we're like developing pe",
+    "supporting_takeaway": "Making powerful AI models more accessible can greatly improve their Net Promoter Score (NPS) by democratizing their use.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-16T22:05:51.706593",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Anisha Charya",
+      "fetched_at": "2026-04-17T03:05:51.706018+00:00",
+      "cliff_notes": "Anisha Charya is a General Partner at Andreessen Horowitz (A16Z), where she focuses on investments in technology and culture sectors. She is particularly interested in the intersection of technology, culture, and human progress, and how these elements can shape the development of AI and its accessibility. Charya's work at A16Z involves identifying and supporting innovative companies that are pushing the boundaries of technology and its impact on society. Her insights into the challenges and opportunities in the tech industry, as well as her focus on making AI more accessible and useful, make her a valuable contributor to the field.",
+      "derived": {
+        "current_role": "General Partner at Andreessen Horowitz (A16Z)"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Anisha Charya is a General Partner at Andreessen Horowitz (A16Z), where she focuses on investments in technology and culture sectors. She is particularly interested in the intersection of technology, culture, and human progress, and how these elements can shape the development of AI and its accessibility. Charya's work at A16Z involves identifying and supporting innovative companies that are pushing the boundaries of technology and its impact on society.",
+        "Her insights into the challenges and opportunities in the tech industry, as well as her focus on making AI more accessible and useful, make her a valuable contributor to the field."
+      ],
+      "sections": [
+        {
+          "heading": "Technology and Culture",
+          "body": "Anisha Charya is passionate about the intersection of technology and culture, and how these two forces can shape human progress. She believes that as technology evolves, it can influence and change culture, and vice versa."
+        },
+        {
+          "heading": "AI and Personality Development",
+          "body": "Charya is particularly interested in the role of AI in personality development, and how technology can be used to shape and understand human behavior. She sees this as a challenging but important area of research and development in the tech industry."
+        },
+        {
+          "heading": "Accessibility of AI",
+          "body": "One of Charya's key focuses is making AI more accessible and useful to a wider audience. She believes that by making important technologies more affordable and easy to use, the overall impact and adoption of AI can be significantly improved."
+        },
+        {
+          "heading": "Investment Expertise",
+          "body": "As a General Partner at A16Z, Anisha Charya brings her expertise in technology and culture to identify and support innovative companies that are pushing the boundaries of these fields. Her investment decisions are driven by a deep understanding of the potential for technology to shape the future."
+        }
+      ]
+    }
+  },
+  {
+    "id": 78,
+    "name": "Martin Casado",
+    "slug": "martin-casado",
+    "bio": "Martin Casado is a prominent figure in the technology industry, known for co-founding Nicira, a company that was later acquired by VMware. He is currently a general partner at Andreessen Horowitz (a16z), where he focuses on enterprise technology investments. Casado is recognized for his insights into the future of technology, particularly in the areas of cloud computing and artificial intelligence.",
+    "known_for": "Co-founding Nicira, a company that was acquired by VMware, and his expertise in cloud computing and AI as a general partner at Andreessen Horowitz.",
+    "net_worth_usd": 600000000.0,
+    "net_worth_source": "https://www.thetwentyminutevc.com/martin-casado",
+    "net_worth_updated_at": "2026-03-19T15:48:58.459470",
+    "voice_tone": "Inquisitive and thoughtful",
+    "voice_style": "Questions the current state and future of enterprise software",
+    "voice_delivery_notes": "Engages in dialogue with a probing and analytical approach",
+    "voice_profile_updated_at": "2026-04-16 14:20:12",
+    "last_seen": "2026-04-16 14:20:12",
+    "last_episode_title": "The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-04-08",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in companies that are adapting to build software for AI agents and can leverage domain knowledge effectively.",
+    "last_proof_cite": "The a16z Show \u2022 2026-04-08 \u2022 The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
+    "last_proof_snippet": "The diffusion of AI capability is going to take longer than people in Silicon Valley realized. It's just absurd to think you're going to vibe could your way like SAP. All of that domain knowledge, it's not just represented in some well orch",
+    "supporting_takeaway": "Domain knowledge is not just in data layers but also in the UI and middle tiers.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-16T22:06:17.509156",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Martin Casado",
+      "fetched_at": "2026-04-17T03:06:17.508927+00:00",
+      "cliff_notes": "Martin Casado is a technology entrepreneur and venture capitalist with a focus on enterprise technology. He began his career by co-founding Nicira, a company that specialized in software-defined networking (SDN). Nicira was later acquired by VMware, where Casado continued to work, eventually becoming the Chief Technology Officer. His work in SDN and virtualization has been influential in shaping the modern data center and cloud infrastructure. Casado is now a general partner at Andreessen Horowitz, where he invests in and advises startups in the enterprise technology space. He is also known for his thought leadership on the future of AI and its implications for business and society.",
+      "derived": {
+        "current_role": "General Partner at Andreessen Horowitz",
+        "former_positions": "Co-founder of Nicira; Chief Technology Officer at Nicira",
+        "education": "Stanford University"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Martin Casado is a technology entrepreneur and venture capitalist with a focus on enterprise technology. He began his career by co-founding Nicira, a company that specialized in software-defined networking (SDN). Nicira was later acquired by VMware, where Casado continued to work, eventually becoming the Chief Technology Officer.",
+        "His work in SDN and virtualization has been influential in shaping the modern data center and cloud infrastructure. Casado is now a general partner at Andreessen Horowitz, where he invests in and advises startups in the enterprise technology space. He is also known for his thought leadership on the future of AI and its implications for business and society."
+      ],
+      "sections": [
+        {
+          "heading": "SDN Pioneer",
+          "body": "Martin Casado is recognized for his pioneering work in software-defined networking, which has revolutionized how networks are managed and configured in data centers."
+        },
+        {
+          "heading": "VMware Acquisition",
+          "body": "Casado's company Nicira was acquired by VMware, significantly impacting the trajectory of both companies and solidifying VMware's position in the SDN market."
+        },
+        {
+          "heading": "Venture Capital Insights",
+          "body": "As a general partner at Andreessen Horowitz, Casado provides valuable insights and guidance to startups, particularly in the areas of cloud computing and AI."
+        },
+        {
+          "heading": "AI and the Future of Work",
+          "body": "Casado has spoken about the diffusion of AI capabilities and its impact on the workforce, suggesting that software must be built with agents in mind to fully leverage the potential of AI."
+        }
+      ]
+    },
+    "net_worth": "$600.0M"
+  },
+  {
+    "id": 183,
+    "name": "Aaron Levy",
+    "slug": "aaron-levy",
+    "bio": "Aaron Levy is the CEO of Box, a leading cloud content management company. He has been instrumental in transforming Box into a major player in the cloud storage and content management space, focusing on the intersection of technology and business.",
+    "known_for": "His leadership in the cloud content management industry and insights into the future of AI and technology integration.",
+    "net_worth_usd": 107852195.0,
+    "net_worth_source": "https://strike.market/key-executives/0001606525",
+    "net_worth_updated_at": "2026-04-16T22:06:31.028180",
+    "voice_tone": "Analytical and forward-thinking",
+    "voice_style": "Discusses the necessity of building software for agents",
+    "voice_delivery_notes": "Presents ideas with conviction and clarity",
+    "voice_profile_updated_at": "2026-04-16 14:20:12",
+    "last_seen": "2026-04-16 14:20:12",
+    "last_episode_title": "The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-04-08",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in companies that are adapting to build software for AI agents and can leverage domain knowledge effectively.",
+    "last_proof_cite": "The a16z Show \u2022 2026-04-08 \u2022 The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
+    "last_proof_snippet": "The diffusion of AI capability is going to take longer than people in Silicon Valley realized. It's just absurd to think you're going to vibe could your way like SAP. All of that domain knowledge, it's not just represented in some well orch",
+    "supporting_takeaway": "Domain knowledge is not just in data layers but also in the UI and middle tiers.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-16T22:06:30.002480",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Aaron Levy",
+      "fetched_at": "2026-04-17T03:06:30.002193+00:00",
+      "cliff_notes": "Aaron Levy is recognized for his role as the CEO of Box, a company that specializes in cloud content management. Under his leadership, Box has grown to become a significant player in the cloud storage and content management market. Levy's vision has been pivotal in guiding the company's strategic direction and in shaping the broader industry's understanding of cloud technology's potential. His insights into the diffusion of AI capabilities and the economic implications of technology have made him a thought leader in the tech community.",
+      "derived": {
+        "current_role": "CEO at Box"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Aaron Levy is recognized for his role as the CEO of Box, a company that specializes in cloud content management. Under his leadership, Box has grown to become a significant player in the cloud storage and content management market. Levy's vision has been pivotal in guiding the company's strategic direction and in shaping the broader industry's understanding of cloud technology's potential.",
+        "His insights into the diffusion of AI capabilities and the economic implications of technology have made him a thought leader in the tech community."
+      ],
+      "sections": [
+        {
+          "heading": "Cloud Content Management",
+          "body": "Aaron Levy has been at the forefront of cloud content management, leading Box to become a major player in the industry."
+        },
+        {
+          "heading": "AI and Technology Integration",
+          "body": "Levy has shared his views on the diffusion of AI capabilities, suggesting that the integration of AI into business processes will take longer than anticipated and will require significant domain knowledge."
+        },
+        {
+          "heading": "Economic Implications of Technology",
+          "body": "Levy has discussed the economic challenges posed by new technologies, emphasizing the need for accurate estimation of the scale of opportunities and the importance of building software for agents in a world where they outnumber humans."
+        }
+      ]
+    },
+    "net_worth": "$107.9M"
+  },
+  {
+    "id": 184,
+    "name": "Steve Sinofsky",
+    "slug": "steve-sinofsky",
+    "bio": "Steve Sinofsky is a prominent figure in the technology industry, known for his tenure as the President of the Windows Division at Microsoft. He has since transitioned to various roles within the tech ecosystem, including being a board partner at A16z. Sinofsky is recognized for his insights into the diffusion of AI capabilities and the economic implications of technological advancements.",
+    "known_for": "His leadership in developing Microsoft's Windows division and his current role as a board partner at A16z, providing strategic guidance on technology trends.",
+    "net_worth_usd": 300000000.0,
+    "net_worth_source": "https://www.gurufocus.com/insider/3984/steven-j-sinofsky",
+    "net_worth_updated_at": "2026-04-16T22:06:47.925150",
+    "voice_tone": "Experienced and insightful",
+    "voice_style": "Shares historical context and industry knowledge",
+    "voice_delivery_notes": "Speaks with authority and a measured pace",
+    "voice_profile_updated_at": "2026-04-16 14:20:12",
+    "last_seen": "2026-04-16 14:20:12",
+    "last_episode_title": "The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-04-08",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in companies that are adapting to build software for AI agents and can leverage domain knowledge effectively.",
+    "last_proof_cite": "The a16z Show \u2022 2026-04-08 \u2022 The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
+    "last_proof_snippet": "The diffusion of AI capability is going to take longer than people in Silicon Valley realized. It's just absurd to think you're going to vibe could your way like SAP. All of that domain knowledge, it's not just represented in some well orch",
+    "supporting_takeaway": "Domain knowledge is not just in data layers but also in the UI and middle tiers.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-16T22:06:47.002600",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Steve Sinofsky",
+      "fetched_at": "2026-04-17T03:06:47.002387+00:00",
+      "cliff_notes": "Steve Sinofsky began his career at Microsoft in 1989, where he held various positions, ultimately becoming the President of the Windows Division. Under his leadership, the division released several successful versions of the Windows operating system, including Windows 7 and Windows 8. After leaving Microsoft in 2012, Sinofsky joined A16z as a board partner, where he focuses on advising startups and providing insights into the technology industry. His expertise in software development and understanding of market dynamics have made him a sought-after advisor in the tech world.",
+      "derived": {
+        "current_role": "Board Partner at A16z",
+        "former_positions": "President of the Windows Division at Microsoft",
+        "boards": "A16z"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Steve Sinofsky began his career at Microsoft in 1989, where he held various positions, ultimately becoming the President of the Windows Division. Under his leadership, the division released several successful versions of the Windows operating system, including Windows 7 and Windows 8. After leaving Microsoft in 2012, Sinofsky joined A16z as a board partner, where he focuses on advising startups and providing insights into the technology industry.",
+        "His expertise in software development and understanding of market dynamics have made him a sought-after advisor in the tech world."
+      ],
+      "sections": [
+        {
+          "heading": "Windows Division Leadership",
+          "body": "Sinofsky led the Windows Division at Microsoft, overseeing the development and release of several key versions of the Windows operating system."
+        },
+        {
+          "heading": "AI and Economic Implications",
+          "body": "As a board partner at A16z, Sinofsky discusses the diffusion of AI capabilities and the economic challenges posed by technological advancements, emphasizing the need for accurate market assessments."
+        },
+        {
+          "heading": "Organizational Logic",
+          "body": "Sinofsky highlights the importance of understanding organizational logic in the context of technological disruption, suggesting that the layers of industry will persist due to their encoding of organizational logic."
+        },
+        {
+          "heading": "Agents and Software Development",
+          "body": "He posits that with the rise of AI agents, software must be built to accommodate their needs, challenging the traditional approach to software development and API design."
+        }
+      ]
+    },
+    "net_worth": "$300.0M"
   },
   {
     "id": 182,
@@ -17201,7 +17702,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-15",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "The democratization of coding through AI has the potential to disrupt the tech industry, empowering individuals and creating new opportunities for innovation and growth.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-15 \u2022 Replit's CEO on Vibe Coding, Wealth Building, and What Most People Get Wrong About AI",
     "last_proof_snippet": "The world was built by people that are not much smarter than you. Your job is to find the way of doing things that's more aligned where the world has headed. I think it's easy to start a good rich in the history of capitalism, a certainly i",
@@ -17265,7 +17766,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-14",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Invest in companies that are directionally accurate with the world's trajectory, integrating traditional fundamental investment philosophies with a modern tech focus.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-14 \u2022 \"I Don't Believe the Stagflation Narrative\": How the Strong Consumer and AI Tailwinds Shape Sean Emory's Bullish Blueprint | Avory & Co",
     "last_proof_snippet": "Today's episode is brought to you by PeakTay asset management and their AI enhanced ETF range, ticker's PQ&T and PQUS. You'll hear more about how they're using AI to enhance equity exposure later in the show. For now, let's get into it. Hel",
@@ -17324,7 +17825,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-04-14",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Invest in AI companies that are positioned to benefit from the rapid growth and valuation in the industry, and consider the broader implications of AI on the future of work and social structures.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-04-14 \u2022 Elon Musk vs. Sam Altman, AI Job Loss, and OpenAI\u2019s $852B Valuation | EP #247",
     "last_proof_snippet": "It's the Musk versus Altman lawsuit. Musk has sued OpenAI for $100 billion. But I kind of figured, behind the scenes, they don't actually hate each other. These guys actually hate each other to the, like, extreme. OpenAI's valued at 70 time",
@@ -17388,7 +17889,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "AI has the potential to revolutionize home management and parenting by automating administrative tasks, which could lead to increased satisfaction and potentially influence demographic trends.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-13 \u2022 Building Agents at Home: Parenting, Work, and Benevolent Neglect",
     "last_proof_snippet": "I was resigned to not challenging myself to build technical or hard things for like the next five years or so. I really want to be present with my kids. I need to take this break basically. That is no longer true. Weird super power of mine",
@@ -17572,7 +18073,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Investing in companies with a strong cultural identity and clear strategic focus can provide an edge in technology markets, as demonstrated by the contrasting paths of Apple and Microsoft.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-10 \u2022 What Running Windows at Microsoft Taught Steven Sinofsky About Apple",
     "last_proof_snippet": "I think the Steve created a culture of artists and they thought of themselves that way and in many ways Microsoft was a culture of technologists, solving technology problems and it led to very very different products but also very very diff",
@@ -17769,7 +18270,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "Investing in private credit, particularly through opportunistic funds, can provide higher returns by accepting additional credit risk and complexity, suitable for patient institutional capital.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-08 \u2022 Private Credit \u201cDoom\u201d Narrative On Shaky Foundation? | Michael Haynes On Why Retail Outflows Are Real But Credit Foundations Are Solid",
     "last_proof_snippet": "Today's episode is brought to you by Kaya NXT. Later, the show, you'll hear more about how you can take the next step for your clients with Kaya NXT's Alternatives Education courses. But for now, let's get into today's interview. I am joine",
@@ -17832,7 +18333,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "Invest in technologies and platforms that promote open-source contributions and technological pluralism to hedge against an uncertain future and ensure a more equitable distribution of power.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-09 \u2022 Who Controls AI Acceleration? Vitalik Buterin and Guillaume Verdon Debate",
     "last_proof_snippet": "Rapid technological acceleration has been a fact of a human civilization for about a century, and that acceleration is itself accelerating to me that is the fundamental truth, right? And whether we yell at it or disagree with it, it is happ",
@@ -17898,7 +18399,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "Invest in technologies and platforms that promote open-source contributions and technological pluralism to hedge against an uncertain future and ensure a more equitable distribution of power.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-09 \u2022 Who Controls AI Acceleration? Vitalik Buterin and Guillaume Verdon Debate",
     "last_proof_snippet": "Rapid technological acceleration has been a fact of a human civilization for about a century, and that acceleration is itself accelerating to me that is the fundamental truth, right? And whether we yell at it or disagree with it, it is happ",
@@ -18213,7 +18714,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.83,
+    "mention_score_decayed": 0.81,
     "last_main_idea": "Investing in AI infrastructure and applications that can leverage the power of AI while addressing the challenges of verification and privacy.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-07 \u2022 Balaji on Why AI Raises the Cost of Verification",
     "last_proof_snippet": "AI doesn't take your job, AI makes you the CEO. The problem is, AI is a shortcut, and a shortcut is good, except when it's bad. If you don't know how to go the long way around, then you can't debug the AI. Do we not think that AI is we're j",
@@ -18458,7 +18959,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.78,
+    "mention_score_decayed": 0.76,
     "last_main_idea": "The disruption in shipping due to geopolitical conflicts presents a unique investment opportunity in shipping stocks, particularly for those with a keen understanding of the market dynamics.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-04 \u2022 \u201cBooks Will Be Written\u201d About This Shipping Market | Ed Finley-Richardson of Misadventures in Shipping on War-Induced Oil Tanker Mayhem, Squeeze for Asiabound Refined Products, and Persian Gulf \u201cFeeding Frenzy\u201d Scenario",
     "last_proof_snippet": "The oil market and the fertilizer market have been essentially broken by the closure of the straight of her mousse, but it's not just that. With war in the Middle East, cracks are forming in the shipping industry itself, particularly the ta",
@@ -18826,7 +19327,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "Pictay asset management's AI-enhanced ETFs (PQNT and PQUS) aim to provide enhanced equity exposure through the use of artificial intelligence.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-01 \u2022 Why $200 Oil Won\u2019t Spike Inflation to 9% | Anna Wong on Recession Probability, PCE vs CPI, and Fed Reaction Function In A Scenario of Soaring Energy Prices",
     "last_proof_snippet": "Today's episode is brought you by Pictay asset management and their AI enhanced ETF range, ticker PQNT and PQUS. You'll hear more about how they're using AI to enhance equity exposure later in the show. For now, let's get into it. Very plea",
@@ -18886,7 +19387,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "Investing in companies that understand complex problems and can leverage AI to gain a competitive advantage in their operations and product development.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-01 \u2022 What Happens When a Public Company Goes All In on AI",
     "last_proof_snippet": "The biggest mode is going to be which companies understand something that's super hard for other people to understand and if your answer to that is, I don't know, then you maybe could get vibe coded away. Block was one of the first to make",
@@ -19329,7 +19830,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.66,
+    "mention_score_decayed": 0.64,
     "last_main_idea": "Betting on talented individuals in businesses rather than predicting tech trends is a more consistent approach to investing.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-28 \u2022 the a16z show chris dixon from quant trading to building a16z crypto be2e5b4b",
     "last_proof_snippet": "And at the time I joined, there were only a couple of investing partners, and there were only one fun. Now we have sort of this complex of funds, and I was a, you know, reasonably prominent sort of angel investor, blogger. They were probabl",
@@ -19395,7 +19896,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.66,
+    "mention_score_decayed": 0.64,
     "last_main_idea": "Invest in companies that are driving innovation and can disrupt traditional industries by offering superior products at better prices, while keeping an eye on the competitive dynamics between the US and China in scientific research and technology.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-27 \u2022 Anthropic's Generational Run, OpenAI Panics, AI Moats, Meta Loses Lawsuits",
     "last_proof_snippet": "All right, everybody, welcome back to the number one podcast in the world, the fantastic four, the original. Oh, the cast is back. The cast is black in arms, brothers in arms. Here we go, good boys. We got a big newsweek, David Sachs. It's",
@@ -19452,7 +19953,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.66,
+    "mention_score_decayed": 0.64,
     "last_main_idea": "The current bull market is built on shaky foundations, and a shift towards a more cautious stance with a focus on security software and data lake control is advised.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-18 \u2022 Stock Market on Shaky Foundations | Blind Squirrel Macro\u2019s Rupert Mitchell on IPO Supply, Oil, and Private Credit",
     "last_proof_snippet": "This episode of Monetary Matters is brought to you by the two-creations Soybean Fund. Take your S.O.Y.B. Let's get into it. I've been worried about markets for several weeks now, in fact, long before a round kicked off. And I keep on seeing",
@@ -19511,7 +20012,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-03-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.66,
+    "mention_score_decayed": 0.64,
     "last_main_idea": "The historical insights from the Italian Renaissance period suggest that technological advancements, such as the printing press, can have a profound impact on society and information distribution, which parallels modern tech revolutions and their investment implications.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-03-06 \u2022 Inventing the Renaissance: Economic and Technological Insights",
     "last_proof_snippet": "Today, I'm chatting with Ada Palmer, who is a Renaissance historian, a novelist, a composer, based at the University of Chicago, and today we're discussing your book inventing the Renaissance. Ada, thanks for coming on the podcast. Then, lo",
@@ -19770,7 +20271,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.63,
+    "mention_score_decayed": 0.62,
     "last_main_idea": "Investors should consider the geopolitical risks and shifts in global power dynamics when constructing their portfolios, with a focus on sectors that may be affected by rising energy prices and inflation.",
     "last_proof_cite": "Macro Voices \u2022 2026-03-26 \u2022 Macro Voices Episode 525: Multi-Polar World Order, Iran Conflict, and Inflation Outlook",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -19838,7 +20339,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.63,
+    "mention_score_decayed": 0.62,
     "last_main_idea": "Investors should consider the geopolitical risks and shifts in global power dynamics when constructing their portfolios, with a focus on sectors that may be affected by rising energy prices and inflation.",
     "last_proof_cite": "Macro Voices \u2022 2026-03-26 \u2022 Macro Voices Episode 525: Multi-Polar World Order, Iran Conflict, and Inflation Outlook",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -19897,7 +20398,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.63,
+    "mention_score_decayed": 0.62,
     "last_main_idea": "Investing in cybersecurity solutions that can secure networks on top of compromised physical infrastructure is crucial for national security and economic prosperity.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-26 \u2022 Cybersecurity and National Security in the Telecommunications Sector",
     "last_proof_snippet": "I was a Davos last year in a cyber form, and one of the speakers was talking about salt typhoon. It was closed door, room of 60 cyber folks, and it's like, how many people know about this? It was five out of 60. What we learned was that Chi",
@@ -19957,7 +20458,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.63,
+    "mention_score_decayed": 0.62,
     "last_main_idea": "Investing in cybersecurity solutions that can secure networks on top of compromised physical infrastructure is crucial for national security and economic prosperity.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-26 \u2022 Cybersecurity and National Security in the Telecommunications Sector",
     "last_proof_snippet": "I was a Davos last year in a cyber form, and one of the speakers was talking about salt typhoon. It was closed door, room of 60 cyber folks, and it's like, how many people know about this? It was five out of 60. What we learned was that Chi",
@@ -20017,7 +20518,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.63,
+    "mention_score_decayed": 0.62,
     "last_main_idea": "The market is experiencing underlying stress that is not reflected in headline indices, suggesting a need for a more nuanced approach to investment decisions.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-25 \u2022 Monetary Matters: Analyzing Market Stress and the Impact of Oil Prices",
     "last_proof_snippet": "Today's episode is brought you by Pictay asset management and their AI enhanced ETF range, ticker PQ&T and PQUS. You'll hear more about how they're using AI to enhance equity exposure later in the show. For now, let's get into it. Very plea",
@@ -20937,7 +21438,7 @@ const dashboardData = {
     "last_podcast_name": null,
     "last_episode_date": null,
     "mention_score": 1,
-    "mention_score_decayed": 0.54,
+    "mention_score_decayed": 0.52,
     "last_main_idea": null,
     "last_proof_cite": null,
     "last_proof_snippet": null,
@@ -20994,7 +21495,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-02-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.54,
+    "mention_score_decayed": 0.52,
     "last_main_idea": "The Picta AI Enhanced International Equity ETF (PQNT) uses AI to enhance international equity returns, suggesting a potential for outperformance through technology-driven investment strategies.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-02-19 \u2022 Monetary Matters with Jack Farley: The US Dollar, Trade Deficits, and the Role of AI in Finance",
     "last_proof_snippet": "Today's episode is brought to you by the Picta AI Enhance International Equity ETF, Ticker PQNT. You'll hear more about they're using AI to enhance international equity returns later in the show. For now, let's get into it. Very pleased tod",
@@ -21064,7 +21565,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.52,
+    "mention_score_decayed": 0.51,
     "last_main_idea": "While not directly investment-focused, the episode provides insights into the political climate and potential policy directions that could indirectly affect various sectors and investment strategies.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-18 \u2022 Interview with Senator John Fetterman on Voting Rights, Policy Decisions, and the Democratic Party",
     "last_proof_snippet": "John Fetterman, thank you for joining us here on the All-In-Podcast for this all-in interview. Very excited to have him here today. I know you're in the middle of voting today. Sounds like the Save America Act might be starting its debate o",
@@ -21130,7 +21631,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.52,
+    "mention_score_decayed": 0.51,
     "last_main_idea": "Invest in companies that are at the forefront of AI innovation, hardware manufacturing, and secure supply chain management to capitalize on the new geopolitics of technology and the reindustrialization of the US.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-18 \u2022 The Geopolitics of Technology and the Future Economy",
     "last_proof_snippet": "Our models need to be superior than all the other models on Earth. We need to have the world's best AI innovation on a qualitative basis, so we need to have the most market share. If we have exquisite models that no one uses, we're kind of",
@@ -21194,7 +21695,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.52,
+    "mention_score_decayed": 0.51,
     "last_main_idea": "The current elevated oil prices and their subsequent impact on inflation and growth present a complex investment landscape, with stocks and bonds being particularly at risk. Investors should consider packaging trades to navigate these dynamics.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-19 \u2022 Monetary Matters with Jack Farley: Oil Shocks, Inflation, and Market Reactions",
     "last_proof_snippet": "Today's episode is brought to you by the unlimited hfgm global macro ETF ticker hfgm. Later in the show, you'll hear more about hfgm currently the number one morning star rated funds sits its inception in the U.S. macro trading category. Le",
@@ -21258,7 +21759,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-03-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.51,
+    "mention_score_decayed": 0.5,
     "last_main_idea": "Invest in companies at the forefront of AI, robotics, and space technology, as these sectors are poised for significant growth and disruption.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-03-17 \u2022 Elon Musk on Moonshots: Discussing AI, Robotics, and Future Technologies",
     "last_proof_snippet": "audience, and as you can see, still trying to monetize hope. Yeah, you look like you're in great shape. I'm doing great. Well, that's not like a sort of user of things going on or what. It's like it's our longevity exercise. We're getting t",
@@ -21322,7 +21823,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.51,
+    "mention_score_decayed": 0.5,
     "last_main_idea": "Farmland represents an underutilized asset class with diversification benefits and potential for strong returns, particularly in the context of water scarcity and aging farmer demographics.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-17 \u2022 Monetary Matters with Jack Farley: Farmland Investment Insights",
     "last_proof_snippet": "This episode of Other People's Money is brought to you by the two-Korean Soybean Fund, ticker SOYB. Let's get into it. Welcome to Other People's Money. I am joined today by Chris Morris, President of Lampun Partners in Institutional Farmlan",
@@ -21380,7 +21881,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.51,
+    "mention_score_decayed": 0.5,
     "last_main_idea": "Investing in companies and technologies that are advancing the understanding and capabilities of LLMs could be a pathway to participate in the development of AGI.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-17 \u2022 Understanding the Mechanics of Large Language Models (LLMs) and the Path to AGI",
     "last_proof_snippet": "A topic makes great products. Florida is fantastic, co-workers, fantastic, but they are crazy of silicon doing matrix multiplication. They don't have consciousness, they don't have an inner monologue, you take an inner limb and train it on",
@@ -21441,7 +21942,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.51,
+    "mention_score_decayed": 0.5,
     "last_main_idea": "Invest in companies that are digitizing the physical world and transforming traditional industries through technology.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-17 \u2022 Stealth Startups and the Digitization of the Physical World",
     "last_proof_snippet": "I don't know if some of you knew I was an angel investor in some companies. On the count of three, what's my favorite angel investment of all time? One, two, three. Thank you. Give it up. Travis Kalenik. Appreciate you. Alright. Wow. On a b",
@@ -21503,7 +22004,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.51,
+    "mention_score_decayed": 0.5,
     "last_main_idea": "Invest in companies that are digitizing the physical world and transforming traditional industries through technology.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-17 \u2022 Stealth Startups and the Digitization of the Physical World",
     "last_proof_snippet": "I don't know if some of you knew I was an angel investor in some companies. On the count of three, what's my favorite angel investment of all time? One, two, three. Thank you. Give it up. Travis Kalenik. Appreciate you. Alright. Wow. On a b",
@@ -21564,7 +22065,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-02-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.5,
+    "mention_score_decayed": 0.49,
     "last_main_idea": "Invest in AI and automation technologies that are driving the shift towards AI governance and efficiency in business operations.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-02-17 \u2022 The AI CEO Arrives: Sam Altman's Succession Plan, Job Loss Continues, and Our 2027 'Solve Everything' Paper",
     "last_proof_snippet": "The AI CEO Arrives: Sam Altman's Succession Plan, Job Loss Continues, and Our 2027 'Solve Everything' Paper | EP #230 Moonshots with Peter Diamandis Episode 230 00:00:00 When do we see a billion-dollar revenue company being run by an AI CEO",
@@ -21707,7 +22208,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.47,
+    "mention_score_decayed": 0.46,
     "last_main_idea": "Investment in AI technology within the defense sector is critical for maintaining national security and ensuring operational effectiveness.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-13 \u2022 AI in Defense and the Future of Military Technology",
     "last_proof_snippet": "We're faced with the biggest military build-up in history. We're trending toward an artificial general intelligence, a substrate, a layer, something that'll touch everything. But we're way behind an AI at the department. You are a CTO for t",
@@ -21734,7 +22235,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.47,
+    "mention_score_decayed": 0.46,
     "last_main_idea": "Investors should consider the geopolitical risks associated with the US-Iran conflict and the potential impact on global oil supply, as well as the long-term shift towards renewable energy sources.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-13 \u2022 Monetary Matters: The Impact of US-Iran Conflict on the World Economy",
     "last_proof_snippet": "Very pleased today to be joined by Martin Wolff, chief economics commentator for the financial times. Martin, welcome to monetary matters. It's a pleasure. Martin, how are you thinking about the ongoing war between the US and the right? Wha",
@@ -21761,7 +22262,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-03-12",
     "mention_score": 1,
-    "mention_score_decayed": 0.46,
+    "mention_score_decayed": 0.45,
     "last_main_idea": "The current geopolitical tensions, particularly in Iran, are creating significant market volatility, especially in oil prices, which presents both risks and opportunities for investors.",
     "last_proof_cite": "Macro Voices \u2022 2026-03-12 \u2022 Macro Voices Episode 523: Geopolitical Situation in Iran, Oil Prices, Precious Metals, and Market Analysis",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -21788,7 +22289,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-12",
     "mention_score": 1,
-    "mention_score_decayed": 0.46,
+    "mention_score_decayed": 0.45,
     "last_main_idea": "Investing in companies that leverage technology to enhance national defense and security could yield significant returns, especially if they align with the interests of the defense establishment.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-12 \u2022 The Intersection of Technology, Geopolitics, and National Defense",
     "last_proof_snippet": "We were the freak chef, and we spent 20 years for this moment. We're doing it, we're doing it, and I'm sure you're enjoying this as much as I am. I just got three things to say. God bless our troops. God bless America. And shout on that. Do",
@@ -21815,7 +22316,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.46,
+    "mention_score_decayed": 0.45,
     "last_main_idea": "The global semiconductor supply chain, with a focus on Taiwan's TSMC, presents both risks and opportunities in the context of U.S.-China relations and economic inequality.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-09 \u2022 All-In with Chamath, Jason, Sacks & Friedberg - Discussion with Graham Allison",
     "last_proof_snippet": "Welcome to another episode of the all-in-interview. I'm really excited to be joined by a back-to-all-in, Harvard Professor Graham Allison. Professor Allison, welcome back to all-in. Thanks for having me. We last had you at the summit in Los",
@@ -21842,7 +22343,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.46,
+    "mention_score_decayed": 0.45,
     "last_main_idea": "As the global liquidity cycle peaks, investors should consider rotating their asset allocation towards more defensive areas and higher yielding assets like private credit.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-09 \u2022 Monetary Matters with Jack Farley: Global Liquidity and Asset Allocation",
     "last_proof_snippet": "Later on, you'll hear more about the fund rise income fund and why sophisticated investors are turning to higher yielding assets like private credit. But for now, let's get into today's interview. Join today by Michael Howell of the Capital",
@@ -21869,7 +22370,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-03-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.46,
+    "mention_score_decayed": 0.45,
     "last_main_idea": "Investment in AI technology, particularly in personal AI agents like OpenClaw, could offer substantial returns as the technology matures and becomes more integrated into daily life.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-03-09 \u2022 The Future of Personal AI Agents with OpenClaw",
     "last_proof_snippet": "We have a special guest with us today. Alex Finn, give us the 101 here for folks. OpenClaw is basically a open source, fully customizable, self-improving, self-learning, self-evolving, personal AI agent. This is kind of the answer Apple's b",
@@ -21896,7 +22397,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.46,
+    "mention_score_decayed": 0.45,
     "last_main_idea": "Investing in technology that enhances real-time crime prevention and clearance rates can lead to more effective law enforcement and safer communities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-11 \u2022 Real-time Crime Prevention and the Future of Policing",
     "last_proof_snippet": "South American cartels fly illegal drones through these neighborhoods. They'll flip on night vision. Look through houses to see if you can tell me. Didn't go break in. I was working with a town in Tennessee. It's a good city. Their average",
@@ -21923,7 +22424,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.46,
+    "mention_score_decayed": 0.45,
     "last_main_idea": "The current geopolitical tensions and the rise of AI technology present both risks and opportunities, with the potential for economic disruption and the need for strategic investment in sectors less affected by AI.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-11 \u2022 Monetary Matters: Economic Consequences of War and AI's Impact",
     "last_proof_snippet": "This episode of Monetary Matters is brought to you by the two-cream Soybean Fund. Take your SOI-B. Let's get into it. Very pleased to welcome to Monetary Matters, Noble Laureate Economist, Professor at Columbia University, an author of Road",
@@ -21950,7 +22451,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.46,
+    "mention_score_decayed": 0.45,
     "last_main_idea": "The shift towards private markets and the potential for changing reporting cadence could redefine the landscape for early-stage investment opportunities and public market participation.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-11 \u2022 Capital Markets Evolution and the Future of IPOs",
     "last_proof_snippet": "All right, everybody, welcome to the all-in interview program. Today, we are delighted to have two of the most important individuals shaping capital markets over the next couple of years. SEC chair, Paul Ackens is with us as well as CFTC ch",
@@ -21977,7 +22478,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.46,
+    "mention_score_decayed": 0.45,
     "last_main_idea": "The shift towards private markets and the potential for changing reporting cadence could redefine the landscape for early-stage investment opportunities and public market participation.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-11 \u2022 Capital Markets Evolution and the Future of IPOs",
     "last_proof_snippet": "All right, everybody, welcome to the all-in interview program. Today, we are delighted to have two of the most important individuals shaping capital markets over the next couple of years. SEC chair, Paul Ackens is with us as well as CFTC ch",

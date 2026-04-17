@@ -1,39 +1,37 @@
 {
-  "generated_at": "2026-04-16T08:42:01.395685",
-  "last_updated": "2026-04-16T08:42:01.395685",
-  "last_pipeline_run": "2026-04-16T08:42:01.395685",
+  "generated_at": "2026-04-16T22:09:09.149943",
+  "last_updated": "2026-04-16T22:09:09.149943",
+  "last_pipeline_run": "2026-04-16T22:09:09.149943",
   "main_page": {
     "overton": 8,
     "insights": 8,
-    "pundits": 96
+    "pundits": 100
   },
   "counts": {
     "ticker_mentions": 163,
-    "podcast_episodes": 135,
+    "podcast_episodes": 137,
     "newsletters": 7,
     "daily_scores": 101,
-    "overton_terms_total": 113,
-    "latest_insights_total": 149,
-    "today_mentions": {
-      "podcast": 2
-    },
-    "podcasts_analyzed": 2
+    "overton_terms_total": 116,
+    "latest_insights_total": 151,
+    "today_mentions": {},
+    "podcasts_analyzed": 4
   },
   "step_results": {
-    "downloaded": 4,
-    "transcribed": 3,
-    "analyzed": 2,
-    "insight_created": 2,
-    "published": 2,
-    "total": 4
+    "downloaded": 2,
+    "transcribed": 1,
+    "analyzed": 1,
+    "insight_created": 1,
+    "published": 1,
+    "total": 2
   },
   "episodes": [
     {
-      "id": "05a65478-38c0-11f1-8dd1-5b93042621f1",
-      "podcast": "Monetary Matters with Jack Farley",
-      "title": "Financial Repression, Pt. 1  | Professor Hanno Lustig on Hidden Taxes, Fiscal Sustainability, and Japan\u2019s Debt Puzzle",
-      "published": "2026-04-15",
-      "rss_guid": "05a65478-38c0-11f1-8dd1-5b93042621f1",
+      "id": "efed1cab-0c14-4883-88d0-4cad841892b5",
+      "podcast": "The a16z Show",
+      "title": "Technology, Culture, and the Next AI Interface with sign\u00fcll",
+      "published": "2026-04-16",
+      "rss_guid": "efed1cab-0c14-4883-88d0-4cad841892b5",
       "stages": {
         "downloaded": true,
         "transcribed": true,
@@ -45,11 +43,11 @@
       "status": "complete"
     },
     {
-      "id": "efed1cab-0c14-4883-88d0-4cad841892b5",
-      "podcast": "The a16z Show",
-      "title": "Technology, Culture, and the Next AI Interface with sign\u00fcll",
+      "id": "macrovoices.podbean.com/38642e0b-b3e7-37f0-9c81-14b0f489cf8e",
+      "podcast": "Macro Voices",
+      "title": "MacroVoices #528 Luke Gromen: Hormuz Could Lead To a 1956 US Suez Moment",
       "published": "2026-04-16",
-      "rss_guid": "efed1cab-0c14-4883-88d0-4cad841892b5",
+      "rss_guid": "macrovoices.podbean.com/38642e0b-b3e7-37f0-9c81-14b0f489cf8e",
       "stages": {
         "downloaded": true,
         "transcribed": false,
@@ -64,71 +62,18 @@
         "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
       },
       "status": "needs_transcription"
-    },
-    {
-      "id": "d8e62120-c865-428e-b1c2-1d965406f293",
-      "podcast": "The a16z Show",
-      "title": "The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
-      "published": "2026-04-08",
-      "rss_guid": "d8e62120-c865-428e-b1c2-1d965406f293",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": false,
-        "insight_created": false,
-        "published": false
-      },
-      "stage_reasons": {
-        "analyzed": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "insight_created": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
-      },
-      "status": "needs_analysis"
-    },
-    {
-      "id": "substack:post:194289889",
-      "podcast": "Dwarkesh Podcast",
-      "title": "Jensen Huang \u2013 TPU competition, why we should sell chips to China, & Nvidia\u2019s supply chain moat",
-      "published": "2026-04-15",
-      "rss_guid": "substack:post:194289889",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "status": "complete"
     }
   ],
   "available_from_rss": [
     {
-      "podcast": "The a16z Show",
-      "title": "Technology, Culture, and the Next AI Interface with sign\u00fcll",
-      "published": "Thu, 16 Apr 2026 10:00:00 +0000",
+      "podcast": "Macro Voices",
+      "title": "MacroVoices #528 Luke Gromen: Hormuz Could Lead To a 1956 US Suez Moment",
+      "published": "Thu, 16 Apr 2026 11:48:30 -0500",
       "published_date": "2026-04-16",
       "rss_guid": ""
-    },
-    {
-      "podcast": "The a16z Show",
-      "title": "The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
-      "published": "Wed, 8 Apr 2026 10:00:00 +0000",
-      "published_date": "2026-04-08",
-      "rss_guid": ""
     }
   ],
-  "stale_episodes": [
-    {
-      "id": "d8e62120-c865-428e-b1c2-1d965406f293",
-      "podcast": "The a16z Show",
-      "title": "The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
-      "status": "needs_analysis",
-      "published": "2026-04-08",
-      "age_days": 8,
-      "next_blocker": "analyzed"
-    }
-  ],
+  "stale_episodes": [],
   "stale_threshold_days": 2,
   "rss_filter_criteria": {
     "cutoff_date": "2026-02-01",

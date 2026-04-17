@@ -1,6 +1,23 @@
 {
   "insights": [
     {
+      "id": 176,
+      "title": "Technology, Culture, and the Next AI Interface with sign\u00fcll",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-04-16",
+      "summary": "The podcast episode explores the complex intersection of technology, culture, and human progress, particularly focusing on the development of AI and its impact on society. The discussion delves into the challenges of making AI models more accessible and useful, the role of tacit knowledge in Silicon Valley, and the shift towards valuing intuitive understanding alongside formal knowledge. Additionally, the conversation touches on the implications of technology on wealth distribution and the potential for ownership to address these disparities.",
+      "key_takeaway": "Investing in AI technologies that bridge the gap between formal and intuitive knowledge could offer significant returns as these become more integrated into daily life and business.",
+      "tickers_mentioned": [],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-16",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 162
+    },
+    {
       "id": 171,
       "title": "Replit's CEO on Vibe Coding, Wealth Building, and What Most People Get Wrong About AI",
       "source_type": "podcast",
@@ -160,11 +177,11 @@
         "MSFT"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-04-13",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-04-17",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 153
     },
     {
@@ -344,6 +361,27 @@
       "archived_date": "2026-04-15",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 147
+    },
+    {
+      "id": 177,
+      "title": "The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-04-08",
+      "summary": "The podcast discusses the diffusion of AI capabilities in enterprise software and the challenges it presents. It highlights the shift from building software for humans to building software for agents, the importance of APIs and CLIs in agent interactions, and the economic implications of this shift. The conversation also touches on the role of domain knowledge in software, the impact of agents on enterprise systems, and the potential for a 'transistor moment' in AI that could change the current dynamics of the market.",
+      "key_takeaway": "Invest in companies that are adapting to build software for AI agents and can leverage domain knowledge effectively.",
+      "tickers_mentioned": [
+        "SAP",
+        "WORK",
+        "CRM"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 0,
+      "display_order": 0,
+      "added_date": "2026-04-16",
+      "archived_date": "2026-04-17",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
+      "podcast_episode_id": 161
     },
     {
       "id": 155,
@@ -3140,6 +3178,48 @@
   ],
   "definitions": [],
   "overton": [
+    {
+      "id": 121,
+      "term": "Agents",
+      "description": "In the context of this podcast, agents refer to AI-driven entities that perform tasks and interact with software systems.",
+      "first_detected_date": "2026-04-17",
+      "last_mentioned_date": "2026-04-17",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should consider companies that are agent-compatible and can adapt to an agent-centric software ecosystem.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null
+    },
+    {
+      "id": 122,
+      "term": "API-first",
+      "description": "An approach to software development where the API is built first to ensure that the software can be easily integrated with other systems and services.",
+      "first_detected_date": "2026-04-17",
+      "last_mentioned_date": "2026-04-17",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Look for companies that prioritize API development, signaling a readiness for agent-based interactions.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null
+    },
+    {
+      "id": 123,
+      "term": "NPS Score",
+      "description": "A measure of a company's reputation based on customer feedback, indicating the likelihood that a customer will recommend the company's products or services to others.",
+      "first_detected_date": "2026-04-17",
+      "last_mentioned_date": "2026-04-17",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "A high NPS score can be an indicator of strong customer satisfaction and potential for investment.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null
+    },
     {
       "id": 118,
       "term": "High-Conviction Portfolios",

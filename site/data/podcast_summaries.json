@@ -1,5 +1,21 @@
 [
   {
+    "id": 162,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Technology, Culture, and the Next AI Interface with sign\u00fcll",
+    "episode_date": "2026-04-16",
+    "summary": "The podcast episode explores the complex intersection of technology, culture, and human progress, particularly focusing on the development of AI and its impact on society. The discussion delves into the challenges of making AI models more accessible and useful, the role of tacit knowledge in Silicon Valley, and the shift towards valuing intuitive understanding alongside formal knowledge. Additionally, the conversation touches on the implications of technology on wealth distribution and the potential for ownership to address these disparities.",
+    "key_takeaways": [
+      "The development of AI models that mimic human personality is a significant and challenging frontier in technology.",
+      "Making powerful AI models more accessible can greatly improve their Net Promoter Score (NPS) by democratizing their use.",
+      "The gap between formal and intuitive knowledge is narrowing, with a growing appreciation for tacit knowledge in Silicon Valley.",
+      "The discussion of personality in AI models suggests a future where technology interfaces more closely with human-like qualities.",
+      "The concentration of wealth and power in tech is a growing concern, with the potential for ownership to mitigate these disparities."
+    ],
+    "investment_thesis": "Investing in AI technologies that bridge the gap between formal and intuitive knowledge could offer significant returns as these become more integrated into daily life and business.",
+    "key_tickers": null
+  },
+  {
     "id": 160,
     "podcast_name": "Dwarkesh Podcast",
     "episode_title": "Jensen Huang \u2013 TPU competition, why we should sell chips to China, & Nvidia\u2019s supply chain moat",
@@ -255,6 +271,27 @@
     ],
     "investment_thesis": "Invest in technologies and platforms that promote open-source contributions and technological pluralism to hedge against an uncertain future and ensure a more equitable distribution of power.",
     "key_tickers": null
+  },
+  {
+    "id": 161,
+    "podcast_name": "The a16z Show",
+    "episode_title": "The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
+    "episode_date": "2026-04-08",
+    "summary": "The podcast discusses the diffusion of AI capabilities in enterprise software and the challenges it presents. It highlights the shift from building software for humans to building software for agents, the importance of APIs and CLIs in agent interactions, and the economic implications of this shift. The conversation also touches on the role of domain knowledge in software, the impact of agents on enterprise systems, and the potential for a 'transistor moment' in AI that could change the current dynamics of the market.",
+    "key_takeaways": [
+      "AI diffusion in enterprise software is slower than anticipated.",
+      "Domain knowledge is not just in data layers but also in the UI and middle tiers.",
+      "Agents prefer better systems over simpler ones, focusing on durability, cost, and reliability.",
+      "The economic model of software is shifting as agents outnumber employees.",
+      "There's a tension between SaaS vendors and the agent's desire for data access.",
+      "A potential 'transistor moment' could disrupt the current AI market dynamics."
+    ],
+    "investment_thesis": "Invest in companies that are adapting to build software for AI agents and can leverage domain knowledge effectively.",
+    "key_tickers": [
+      "SAP",
+      "WORK",
+      "CRM"
+    ]
   },
   {
     "id": 147,
