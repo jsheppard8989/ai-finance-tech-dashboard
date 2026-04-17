@@ -18,6 +18,27 @@
       "podcast_episode_id": 162
     },
     {
+      "id": 178,
+      "title": "MacroVoices #528 Luke Gromen: Hormuz Could Lead To a 1956 US Suez Moment",
+      "source_type": "podcast",
+      "source_name": "Macro Voices",
+      "source_date": "2026-04-16",
+      "summary": "In this episode of Macro Voices, hosts Eric Townsend and Patrick Suresne discuss the Iran crisis, its implications for inflation, and potential market shifts. They are joined by Luke Groman of Forest for the Trees, who provides insights on the escalating risks around the Strait of Hormuz and potential non-linear breaks in global logistics. Additionally, Rory Johnson of Commodity Context offers an update on the Iran crisis and its impact on global energy markets. The episode also covers Patrick's trade of the week, focusing on positioning in bonds for inflation risk and potential growth slowdown.",
+      "key_takeaway": "Invest in sectors likely to benefit from increased inflation and supply chain disruptions, with a focus on energy, uranium, and domestic electrical infrastructure.",
+      "tickers_mentioned": [
+        "SPX",
+        "WTI",
+        "GC"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-17",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 163
+    },
+    {
       "id": 171,
       "title": "Replit's CEO on Vibe Coding, Wealth Building, and What Most People Get Wrong About AI",
       "source_type": "podcast",
@@ -90,11 +111,11 @@
         "GOOGL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-04-14",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-04-17",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 154
     },
     {

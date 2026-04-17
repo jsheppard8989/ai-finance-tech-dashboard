@@ -1,21 +1,23 @@
 {
-  "generated_at": "2026-04-16T22:09:09.149943",
-  "last_updated": "2026-04-16T22:09:09.149943",
-  "last_pipeline_run": "2026-04-16T22:09:09.149943",
+  "generated_at": "2026-04-17T05:10:43.575468",
+  "last_updated": "2026-04-17T05:10:43.575468",
+  "last_pipeline_run": "2026-04-17T05:10:43.575468",
   "main_page": {
     "overton": 8,
     "insights": 8,
-    "pundits": 100
+    "pundits": 102
   },
   "counts": {
-    "ticker_mentions": 163,
-    "podcast_episodes": 137,
+    "ticker_mentions": 164,
+    "podcast_episodes": 138,
     "newsletters": 7,
-    "daily_scores": 101,
+    "daily_scores": 102,
     "overton_terms_total": 116,
-    "latest_insights_total": 151,
-    "today_mentions": {},
-    "podcasts_analyzed": 4
+    "latest_insights_total": 152,
+    "today_mentions": {
+      "podcast": 1
+    },
+    "podcasts_analyzed": 1
   },
   "step_results": {
     "downloaded": 2,
@@ -27,27 +29,11 @@
   },
   "episodes": [
     {
-      "id": "efed1cab-0c14-4883-88d0-4cad841892b5",
+      "id": "18f25f54-7b66-4555-a89e-0c252393bf5a",
       "podcast": "The a16z Show",
-      "title": "Technology, Culture, and the Next AI Interface with sign\u00fcll",
-      "published": "2026-04-16",
-      "rss_guid": "efed1cab-0c14-4883-88d0-4cad841892b5",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "status": "complete"
-    },
-    {
-      "id": "macrovoices.podbean.com/38642e0b-b3e7-37f0-9c81-14b0f489cf8e",
-      "podcast": "Macro Voices",
-      "title": "MacroVoices #528 Luke Gromen: Hormuz Could Lead To a 1956 US Suez Moment",
-      "published": "2026-04-16",
-      "rss_guid": "macrovoices.podbean.com/38642e0b-b3e7-37f0-9c81-14b0f489cf8e",
+      "title": "From Models to Mobility: Building Waymo with Dmitri Dolgov",
+      "published": "2026-04-17",
+      "rss_guid": "18f25f54-7b66-4555-a89e-0c252393bf5a",
       "stages": {
         "downloaded": true,
         "transcribed": false,
@@ -62,14 +48,30 @@
         "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
       },
       "status": "needs_transcription"
+    },
+    {
+      "id": "macrovoices.podbean.com/38642e0b-b3e7-37f0-9c81-14b0f489cf8e",
+      "podcast": "Macro Voices",
+      "title": "MacroVoices #528 Luke Gromen: Hormuz Could Lead To a 1956 US Suez Moment",
+      "published": "2026-04-16",
+      "rss_guid": "macrovoices.podbean.com/38642e0b-b3e7-37f0-9c81-14b0f489cf8e",
+      "stages": {
+        "downloaded": true,
+        "transcribed": true,
+        "analyzed": true,
+        "insight_created": true,
+        "published": true
+      },
+      "stage_reasons": {},
+      "status": "complete"
     }
   ],
   "available_from_rss": [
     {
-      "podcast": "Macro Voices",
-      "title": "MacroVoices #528 Luke Gromen: Hormuz Could Lead To a 1956 US Suez Moment",
-      "published": "Thu, 16 Apr 2026 11:48:30 -0500",
-      "published_date": "2026-04-16",
+      "podcast": "The a16z Show",
+      "title": "From Models to Mobility: Building Waymo with Dmitri Dolgov",
+      "published": "Fri, 17 Apr 2026 10:00:00 +0000",
+      "published_date": "2026-04-17",
       "rss_guid": ""
     }
   ],
