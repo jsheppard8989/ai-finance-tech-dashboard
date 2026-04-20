@@ -1,5 +1,76 @@
 [
   {
+    "id": 167,
+    "podcast_name": "Monetary Matters with Jack Farley",
+    "episode_title": "Navigating the SaaS Apocalypse: Why AI Disruption is Mispriced | Deiya Pernas | Pernas Research",
+    "episode_date": "2026-04-19",
+    "summary": "In this episode of Monetary Matters with Jack Farley, Daya Apairness, co-founder of Pairness Research, discusses the impact of AI disruption on software stocks and the opportunities it presents. They delve into the sell-off in software stocks due to the expansion of AI's coding capabilities and how some companies are adjusting to the disruption. The conversation also touches on the potential for certain software companies to emerge stronger from the disruption with improved products, and highlights one software stock with over 100% upside potential in the next 12 months.",
+    "key_takeaways": [
+      "Software stocks have experienced a significant sell-off due to the expansion of AI's coding capabilities.",
+      "The sell-off has led to valuations not seen in years, presenting opportunities for investors.",
+      "Companies that can adjust to the AI disruption and improve their products for the new age of AI are poised for growth.",
+      "Pairness Research has identified a software stock with over 100% upside potential in the next 12 months.",
+      "The market is currently distinguishing SaaS companies primarily by size, with smaller companies selling off more disproportionately."
+    ],
+    "investment_thesis": "Invest in software companies that can adapt to AI disruption and emerge stronger, with the potential for significant upside in the next 12 months.",
+    "key_tickers": [
+      "SPRT"
+    ]
+  },
+  {
+    "id": 165,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Network Effects, AI Costs, and the Future of Consumer Investing with Anish Acharya on The Kevin Rose Show",
+    "episode_date": "2026-04-19",
+    "summary": "In this episode of the a16z Show, Kevin Rose interviews Anish Acharya, a general partner at a16z focused on consumer investing. They discuss the rapid changes in consumer tech, the impact of AI on venture economics, and the need for universal basic purpose. Anish shares his personal experience with programming and how the ease of building apps has shifted his perspective on idea generation. They also touch on the societal implications of AI, including the potential for job displacement and the need for a safety net fund. The conversation covers a wide range of topics, from the future of SaaS to the importance of purpose in a world increasingly shaped by AI.",
+    "key_takeaways": [
+      "The ease of building apps has changed the perspective on idea generation, making it more feasible to turn ideas into reality.",
+      "The cost structure for consumer products has shifted, with AI inference costs affecting the economics of venture funding.",
+      "The conversation around AI's impact on jobs is evolving, with a focus on the need for a safety net fund and universal basic purpose.",
+      "The future of SaaS is debated, with the argument that while conceptually simple, the actual implementation can be complex and time-consuming.",
+      "Agents and AI are expected to make choices and perform tasks on behalf of humans, leading to a world where product quality and efficiency are paramount."
+    ],
+    "investment_thesis": "The rapid advancement of AI and consumer tech is creating new opportunities and challenges for venture capital, with a focus on the need for universal basic purpose and the potential for AI to disrupt traditional job markets.",
+    "key_tickers": null
+  },
+  {
+    "id": 168,
+    "podcast_name": "Moonshots with Peter Diamandis",
+    "episode_title": "Sam Altman\u2019s Attack, Amazon vs. Starlink, and What Opus 4.7 Actually Means | #248",
+    "episode_date": "2026-04-18",
+    "summary": "In this episode, Peter Diamandis and his guests discuss the latest developments in AI, including the release of Anthropics Opus 4.7, the state of public opinion on AI, and the future of work and management in the AI era. They also touch on the potential for AI to transform organizations and the economy, as well as the ethical and philosophical implications of digital consciousness and uploading human minds to the cloud.",
+    "key_takeaways": [
+      "Only 23% of the public is optimistic about AI, indicating a significant gap in understanding and acceptance.",
+      "99% of people are underreacting to and unaware of the potential impacts of AI on their lives and jobs.",
+      "Anthropics Opus 4.7 is a solid release, but not as groundbreaking as previous versions, suggesting a maturation of AI technology.",
+      "The future of management may involve leaders with machine mediation handling far more complexity than before, potentially upending traditional organizational structures.",
+      "Digital consciousness and the idea of uploading human minds to the cloud philosophical and ethical debates about what it means to be human."
+    ],
+    "investment_thesis": "Invest in companies at the forefront of AI development and application, as they are poised to shape the future of work, management, and the economy.",
+    "key_tickers": [
+      "AMZN",
+      "AAPL",
+      "TSLA"
+    ]
+  },
+  {
+    "id": 166,
+    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "episode_title": "OpenAI's Identity Crisis, Datacenter Wars, Market Up on Iran News, Mamdani's First Tax, Swalwell Out",
+    "episode_date": "2026-04-17",
+    "summary": "In this episode, the hosts discuss the potential impact of a new real estate tax on second homes in New York City, targeting properties over 5 million dollars. They analyze how this tax could significantly affect demand and property values, particularly for non-residential owners. Additionally, the conversation delves into the controversy surrounding data centers, exploring the various reasons for public opposition, including concerns about energy consumption and wealth disparity. The hosts also touch on the role of data centers as symbols of wealth and progress, and the potential for shifts in public perception.",
+    "key_takeaways": [
+      "New York's proposed real estate tax on second homes over 5 million could significantly impact the luxury property market.",
+      "The tax may lead to a decrease in demand for second homes, potentially crashing the market for luxury properties.",
+      "There is a debate on the long-term effects of the tax on housing affordability in New York City.",
+      "Data centers are becoming increasingly unpopular due to concerns over energy consumption and water usage.",
+      "Public perception of data centers as symbols of wealth disparity and progress may lead to further opposition and regulation.",
+      "The discussion suggests that the backlash against data centers could be influenced by groups aiming to halt AI progress."
+    ],
+    "investment_thesis": "The investment thesis presented revolves around the potential negative impacts of new real estate taxes on luxury property demand and the growing controversy and potential regulation surrounding data centers, which could affect technology and real estate investments.",
+    "key_tickers": null
+  },
+  {
     "id": 164,
     "podcast_name": "The a16z Show",
     "episode_title": "From Models to Mobility: Building Waymo with Dmitri Dolgov",

@@ -1,6 +1,69 @@
 {
   "insights": [
     {
+      "id": 180,
+      "title": "Navigating the SaaS Apocalypse: Why AI Disruption is Mispriced | Deiya Pernas | Pernas Research",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-04-19",
+      "summary": "In this episode of Monetary Matters with Jack Farley, Daya Apairness, co-founder of Pairness Research, discusses the impact of AI disruption on software stocks and the opportunities it presents. They delve into the sell-off in software stocks due to the expansion of AI's coding capabilities and how some companies are adjusting to the disruption. The conversation also touches on the potential for certain software companies to emerge stronger from the disruption with improved products, and highlights one software stock with over 100% upside potential in the next 12 months.",
+      "key_takeaway": "Invest in software companies that can adapt to AI disruption and emerge stronger, with the potential for significant upside in the next 12 months.",
+      "tickers_mentioned": [
+        "SPRT"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-20",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 167
+    },
+    {
+      "id": 181,
+      "title": "Network Effects, AI Costs, and the Future of Consumer Investing with Anish Acharya on The Kevin Rose Show",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-04-19",
+      "summary": "In this episode of the a16z Show, Kevin Rose interviews Anish Acharya, a general partner at a16z focused on consumer investing. They discuss the rapid changes in consumer tech, the impact of AI on venture economics, and the need for universal basic purpose. Anish shares his personal experience with programming and how the ease of building apps has shifted his perspective on idea generation. They also touch on the societal implications of AI, including the potential for job displacement and the need for a safety net fund. The conversation covers a wide range of topics, from the future of SaaS to the importance of purpose in a world increasingly shaped by AI.",
+      "key_takeaway": "The rapid advancement of AI and consumer tech is creating new opportunities and challenges for venture capital, with a focus on the need for universal basic purpose and the potential for AI to disrupt traditional job markets.",
+      "tickers_mentioned": [
+        "AAPL",
+        "GOOGL",
+        "MSFT",
+        "AMZN",
+        "TSLA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-20",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 165
+    },
+    {
+      "id": 182,
+      "title": "Sam Altman\u2019s Attack, Amazon vs. Starlink, and What Opus 4.7 Actually Means | #248",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-04-18",
+      "summary": "In this episode, Peter Diamandis and his guests discuss the latest developments in AI, including the release of Anthropics Opus 4.7, the state of public opinion on AI, and the future of work and management in the AI era. They also touch on the potential for AI to transform organizations and the economy, as well as the ethical and philosophical implications of digital consciousness and uploading human minds to the cloud.",
+      "key_takeaway": "Invest in companies at the forefront of AI development and application, as they are poised to shape the future of work, management, and the economy.",
+      "tickers_mentioned": [
+        "AMZN",
+        "AAPL",
+        "TSLA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-20",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 168
+    },
+    {
       "id": 179,
       "title": "From Models to Mobility: Building Waymo with Dmitri Dolgov",
       "source_type": "podcast",
@@ -22,6 +85,27 @@
       "archived_date": null,
       "archived_reason": null,
       "podcast_episode_id": 164
+    },
+    {
+      "id": 183,
+      "title": "OpenAI's Identity Crisis, Datacenter Wars, Market Up on Iran News, Mamdani's First Tax, Swalwell Out",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-04-17",
+      "summary": "In this episode, the hosts discuss the potential impact of a new real estate tax on second homes in New York City, targeting properties over 5 million dollars. They analyze how this tax could significantly affect demand and property values, particularly for non-residential owners. Additionally, the conversation delves into the controversy surrounding data centers, exploring the various reasons for public opposition, including concerns about energy consumption and wealth disparity. The hosts also touch on the role of data centers as symbols of wealth and progress, and the potential for shifts in public perception.",
+      "key_takeaway": "The investment thesis presented revolves around the potential negative impacts of new real estate taxes on luxury property demand and the growing controversy and potential regulation surrounding data centers, which could affect technology and real estate investments.",
+      "tickers_mentioned": [
+        "AAPL",
+        "AMZN",
+        "GOOGL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-20",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 166
     },
     {
       "id": 176,
@@ -81,11 +165,11 @@
         "AMZN"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-04-15",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-04-20",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 158
     },
     {
@@ -100,11 +184,11 @@
         "NVDA"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-04-16",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-04-20",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 160
     },
     {
@@ -181,11 +265,11 @@
         "ZOOM"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-04-15",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-04-20",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 157
     },
     {
@@ -204,11 +288,11 @@
         "NVDA"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-04-15",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-04-20",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 156
     },
     {
@@ -3228,6 +3312,76 @@
   ],
   "definitions": [],
   "overton": [
+    {
+      "id": 124,
+      "term": "Universal Basic Purpose",
+      "description": "The idea that beyond financial support, individuals need a sense of purpose and meaningful work in a world increasingly influenced by AI and automation.",
+      "first_detected_date": "2026-04-20",
+      "last_mentioned_date": "2026-04-20",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should consider companies and technologies that can provide or enhance a sense of purpose for individuals.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null
+    },
+    {
+      "id": 125,
+      "term": "AI Inference Costs",
+      "description": "The financial costs associated with running AI models, which can significantly impact the economics of building and scaling consumer products.",
+      "first_detected_date": "2026-04-20",
+      "last_mentioned_date": "2026-04-20",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should be aware of the financial implications of AI inference costs when evaluating potential investments in the consumer tech space.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null
+    },
+    {
+      "id": 126,
+      "term": "Data Center Nimbyism",
+      "description": "Opposition to the construction of data centers in local communities, often due to concerns about energy consumption and environmental impact.",
+      "first_detected_date": "2026-04-20",
+      "last_mentioned_date": "2026-04-20",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should consider the potential for regulatory hurdles and public opposition when investing in data center-related companies.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null
+    },
+    {
+      "id": 127,
+      "term": "AI Disruption",
+      "description": "The significant impact of artificial intelligence's expanding coding capabilities on various industries, particularly software.",
+      "first_detected_date": "2026-04-20",
+      "last_mentioned_date": "2026-04-20",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should look for companies that can adapt and thrive in the new age of AI.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null
+    },
+    {
+      "id": 128,
+      "term": "SaaS Apocalypse",
+      "description": "A term used to describe the significant sell-off in software as a service (SaaS) stocks due to AI disruption.",
+      "first_detected_date": "2026-04-20",
+      "last_mentioned_date": "2026-04-20",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "This presents an opportunity for investors to find undervalued SaaS companies that can emerge stronger post-disruption.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null
+    },
     {
       "id": 121,
       "term": "Agents",
