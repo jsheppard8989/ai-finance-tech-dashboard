@@ -1,6 +1,29 @@
 {
   "insights": [
     {
+      "id": 179,
+      "title": "From Models to Mobility: Building Waymo with Dmitri Dolgov",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-04-17",
+      "summary": "This episode of 'The a16z Show' features an interview with Wemo Co. CEO Dmitry Dugov, discussing the future of autonomous driving. Dugov shares insights on the transition from scientific research to real-world scale, the importance of understanding the physical world, and the social aspects of driving. He also touches on the evolution of autonomous vehicle technology, the role of AI, and the shift towards custom-built vehicles designed for ride-hailing economies.",
+      "key_takeaway": "Investing in autonomous driving technologies offers significant potential as the industry moves from research to real-world deployment, with a focus on companies that understand the physical and social aspects of driving.",
+      "tickers_mentioned": [
+        "GOOGL",
+        "TSLA",
+        "BAM",
+        "APTV",
+        "LYFT"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-19",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 164
+    },
+    {
       "id": 176,
       "title": "Technology, Culture, and the Next AI Interface with sign\u00fcll",
       "source_type": "podcast",
@@ -8,7 +31,13 @@
       "source_date": "2026-04-16",
       "summary": "The podcast episode explores the complex intersection of technology, culture, and human progress, particularly focusing on the development of AI and its impact on society. The discussion delves into the challenges of making AI models more accessible and useful, the role of tacit knowledge in Silicon Valley, and the shift towards valuing intuitive understanding alongside formal knowledge. Additionally, the conversation touches on the implications of technology on wealth distribution and the potential for ownership to address these disparities.",
       "key_takeaway": "Investing in AI technologies that bridge the gap between formal and intuitive knowledge could offer significant returns as these become more integrated into daily life and business.",
-      "tickers_mentioned": [],
+      "tickers_mentioned": [
+        "AAPL",
+        "GOOGL",
+        "MSFT",
+        "AMZN",
+        "TSLA"
+      ],
       "sentiment": "bullish",
       "display_on_main": 1,
       "display_order": 0,
@@ -130,11 +159,11 @@
         "NVDA"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-04-15",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-04-20",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 155
     },
     {

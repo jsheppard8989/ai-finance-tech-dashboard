@@ -1,5 +1,21 @@
 [
   {
+    "id": 164,
+    "podcast_name": "The a16z Show",
+    "episode_title": "From Models to Mobility: Building Waymo with Dmitri Dolgov",
+    "episode_date": "2026-04-17",
+    "summary": "This episode of 'The a16z Show' features an interview with Wemo Co. CEO Dmitry Dugov, discussing the future of autonomous driving. Dugov shares insights on the transition from scientific research to real-world scale, the importance of understanding the physical world, and the social aspects of driving. He also touches on the evolution of autonomous vehicle technology, the role of AI, and the shift towards custom-built vehicles designed for ride-hailing economies.",
+    "key_takeaways": [
+      "Wemo is now providing nearly half a million fully autonomous rides per week across multiple cities.",
+      "The autonomous driving industry has moved from scientific research to accelerated global scaling and deployment.",
+      "Understanding the physical world and social aspects of driving is crucial for developing autonomous systems.",
+      "Driver's systems won't naturally evolve into full autonomy; it requires significant technological advancements.",
+      "The product is changing from custom-built vehicles to entirely new economies of ride-hailing."
+    ],
+    "investment_thesis": "Investing in autonomous driving technologies offers significant potential as the industry moves from research to real-world deployment, with a focus on companies that understand the physical and social aspects of driving.",
+    "key_tickers": null
+  },
+  {
     "id": 163,
     "podcast_name": "Macro Voices",
     "episode_title": "MacroVoices #528 Luke Gromen: Hormuz Could Lead To a 1956 US Suez Moment",

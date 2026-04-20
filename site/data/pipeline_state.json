@@ -1,33 +1,124 @@
 {
-  "generated_at": "2026-04-17T05:10:43.575468",
-  "last_updated": "2026-04-17T05:10:43.575468",
-  "last_pipeline_run": "2026-04-17T05:10:43.575468",
+  "generated_at": "2026-04-19T22:07:45.249922",
+  "last_updated": "2026-04-19T22:07:45.249922",
+  "last_pipeline_run": "2026-04-19T22:07:45.249922",
   "main_page": {
     "overton": 8,
     "insights": 8,
-    "pundits": 102
+    "pundits": 103
   },
   "counts": {
     "ticker_mentions": 164,
-    "podcast_episodes": 138,
+    "podcast_episodes": 139,
     "newsletters": 7,
     "daily_scores": 102,
     "overton_terms_total": 116,
-    "latest_insights_total": 152,
-    "today_mentions": {
-      "podcast": 1
-    },
+    "latest_insights_total": 153,
+    "today_mentions": {},
     "podcasts_analyzed": 1
   },
   "step_results": {
-    "downloaded": 2,
+    "downloaded": 6,
     "transcribed": 1,
     "analyzed": 1,
     "insight_created": 1,
+    "deep_dive_created": 1,
     "published": 1,
-    "total": 2
+    "total": 6
   },
   "episodes": [
+    {
+      "id": "f982e4f6-3ab1-11f1-8e60-4fb0fd7c7a89",
+      "podcast": "Moonshots with Peter Diamandis",
+      "title": "Sam Altman\u2019s Attack, Amazon vs. Starlink, and What Opus 4.7 Actually Means | #248",
+      "published": "2026-04-18",
+      "rss_guid": "f982e4f6-3ab1-11f1-8e60-4fb0fd7c7a89",
+      "stages": {
+        "downloaded": true,
+        "transcribed": false,
+        "analyzed": false,
+        "insight_created": false,
+        "deep_dive_created": false,
+        "published": false
+      },
+      "stage_reasons": {
+        "transcribed": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "analyzed": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "insight_created": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "deep_dive_created": "Deep Dive depends on insight promotion first.",
+        "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
+      },
+      "status": "needs_transcription"
+    },
+    {
+      "id": "74ce704e-3bb6-11f1-946b-1f469571db2d",
+      "podcast": "Monetary Matters with Jack Farley",
+      "title": "Navigating the SaaS Apocalypse: Why AI Disruption is Mispriced | Deiya Pernas | Pernas Research",
+      "published": "2026-04-19",
+      "rss_guid": "74ce704e-3bb6-11f1-946b-1f469571db2d",
+      "stages": {
+        "downloaded": true,
+        "transcribed": false,
+        "analyzed": false,
+        "insight_created": false,
+        "deep_dive_created": false,
+        "published": false
+      },
+      "stage_reasons": {
+        "transcribed": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "analyzed": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "insight_created": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "deep_dive_created": "Deep Dive depends on insight promotion first.",
+        "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
+      },
+      "status": "needs_transcription"
+    },
+    {
+      "id": "d1f5aef2-3b3b-11f1-bad0-f7343b5440a1",
+      "podcast": "Monetary Matters with Jack Farley",
+      "title": "Banks' \u201cConsiderable\u201d Exposure to Private Credit | Chris Whalen on Banks\u2019 Loans to NBFIs, Plus CRE, Gold, and Payments",
+      "published": "2026-04-18",
+      "rss_guid": "d1f5aef2-3b3b-11f1-bad0-f7343b5440a1",
+      "stages": {
+        "downloaded": true,
+        "transcribed": false,
+        "analyzed": false,
+        "insight_created": false,
+        "deep_dive_created": false,
+        "published": false
+      },
+      "stage_reasons": {
+        "transcribed": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "analyzed": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "insight_created": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "deep_dive_created": "Deep Dive depends on insight promotion first.",
+        "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
+      },
+      "status": "needs_transcription"
+    },
+    {
+      "id": "9148c04f-7a04-4ddf-b5aa-6881fc66c43e",
+      "podcast": "The a16z Show",
+      "title": "Network Effects, AI Costs, and the Future of Consumer Investing with Anish Acharya on The Kevin Rose Show",
+      "published": "2026-04-19",
+      "rss_guid": "9148c04f-7a04-4ddf-b5aa-6881fc66c43e",
+      "stages": {
+        "downloaded": true,
+        "transcribed": false,
+        "analyzed": false,
+        "insight_created": false,
+        "deep_dive_created": false,
+        "published": false
+      },
+      "stage_reasons": {
+        "transcribed": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "analyzed": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "insight_created": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "deep_dive_created": "Deep Dive depends on insight promotion first.",
+        "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
+      },
+      "status": "needs_transcription"
+    },
     {
       "id": "18f25f54-7b66-4555-a89e-0c252393bf5a",
       "podcast": "The a16z Show",
@@ -36,46 +127,88 @@
       "rss_guid": "18f25f54-7b66-4555-a89e-0c252393bf5a",
       "stages": {
         "downloaded": true,
+        "transcribed": true,
+        "analyzed": true,
+        "insight_created": true,
+        "deep_dive_created": true,
+        "published": true
+      },
+      "stage_reasons": {},
+      "status": "complete"
+    },
+    {
+      "id": "85ae6049-9d25-4887-b52c-7dd4f06af167",
+      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "title": "OpenAI's Identity Crisis, Datacenter Wars, Market Up on Iran News, Mamdani's First Tax, Swalwell Out",
+      "published": "2026-04-17",
+      "rss_guid": "85ae6049-9d25-4887-b52c-7dd4f06af167",
+      "stages": {
+        "downloaded": true,
         "transcribed": false,
         "analyzed": false,
         "insight_created": false,
+        "deep_dive_created": false,
         "published": false
       },
       "stage_reasons": {
         "transcribed": "Not in DB yet (approved, but not pulled into pipeline DB).",
         "analyzed": "Not in DB yet (approved, but not pulled into pipeline DB).",
         "insight_created": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "deep_dive_created": "Deep Dive depends on insight promotion first.",
         "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
       },
       "status": "needs_transcription"
-    },
-    {
-      "id": "macrovoices.podbean.com/38642e0b-b3e7-37f0-9c81-14b0f489cf8e",
-      "podcast": "Macro Voices",
-      "title": "MacroVoices #528 Luke Gromen: Hormuz Could Lead To a 1956 US Suez Moment",
-      "published": "2026-04-16",
-      "rss_guid": "macrovoices.podbean.com/38642e0b-b3e7-37f0-9c81-14b0f489cf8e",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "status": "complete"
     }
   ],
   "available_from_rss": [
     {
+      "podcast": "Monetary Matters with Jack Farley",
+      "title": "Navigating the SaaS Apocalypse: Why AI Disruption is Mispriced | Deiya Pernas | Pernas Research",
+      "published": "Sun, 19 Apr 2026 13:00:00 -0000",
+      "published_date": "2026-04-19",
+      "rss_guid": ""
+    },
+    {
       "podcast": "The a16z Show",
-      "title": "From Models to Mobility: Building Waymo with Dmitri Dolgov",
-      "published": "Fri, 17 Apr 2026 10:00:00 +0000",
+      "title": "Network Effects, AI Costs, and the Future of Consumer Investing with Anish Acharya on The Kevin Rose Show",
+      "published": "Sun, 19 Apr 2026 10:00:00 +0000",
+      "published_date": "2026-04-19",
+      "rss_guid": ""
+    },
+    {
+      "podcast": "Moonshots with Peter Diamandis",
+      "title": "Sam Altman\u2019s Attack, Amazon vs. Starlink, and What Opus 4.7 Actually Means | #248",
+      "published": "Sat, 18 Apr 2026 15:00:00 -0000",
+      "published_date": "2026-04-18",
+      "rss_guid": ""
+    },
+    {
+      "podcast": "Monetary Matters with Jack Farley",
+      "title": "Banks' \u201cConsiderable\u201d Exposure to Private Credit | Chris Whalen on Banks\u2019 Loans to NBFIs, Plus CRE, Gold, and Payments",
+      "published": "Sat, 18 Apr 2026 15:32:00 -0000",
+      "published_date": "2026-04-18",
+      "rss_guid": ""
+    },
+    {
+      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "title": "OpenAI's Identity Crisis, Datacenter Wars, Market Up on Iran News, Mamdani's First Tax, Swalwell Out",
+      "published": "Fri, 17 Apr 2026 20:35:00 +0000",
       "published_date": "2026-04-17",
       "rss_guid": ""
     }
   ],
-  "stale_episodes": [],
+  "stale_episodes": [
+    {
+      "id": "85ae6049-9d25-4887-b52c-7dd4f06af167",
+      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "title": "OpenAI's Identity Crisis, Datacenter Wars, Market Up on Iran News, Mamdani's First Tax, Swalwell Out",
+      "status": "needs_transcription",
+      "published": "2026-04-17",
+      "age_days": 2,
+      "next_blocker": "transcribed"
+    }
+  ],
+  "deep_dive_failures": [],
   "stale_threshold_days": 2,
   "rss_filter_criteria": {
     "cutoff_date": "2026-02-01",

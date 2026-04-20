@@ -129,6 +129,7 @@
               <th title="Transcribed">Transcr.</th>
               <th title="Analyzed">Analyzed</th>
               <th title="Insight created">Insight</th>
+              <th title="Deep Dive created">Deep Dive</th>
               <th title="On site">Site</th>
             </tr>
           </thead>
@@ -164,6 +165,7 @@
       transcribed: 'Transcribed',
       analyzed: 'Analyzed',
       insight_created: 'Insight created',
+      deep_dive_created: 'Deep Dive created',
       published: 'Published',
       total: 'Total tracked',
       curate: 'Podcast curation',
@@ -246,8 +248,8 @@
 
       // Episodes in pipeline (single source)
       const episodes = pipelineState.episodes || [];
-      const stageKeys = ['downloaded', 'transcribed', 'analyzed', 'insight_created', 'published'];
-      const stageLabels = { downloaded: 'Downloaded', transcribed: 'Transcribed', analyzed: 'Analyzed', insight_created: 'Insight created', published: 'On site' };
+      const stageKeys = ['downloaded', 'transcribed', 'analyzed', 'insight_created', 'deep_dive_created', 'published'];
+      const stageLabels = { downloaded: 'Downloaded', transcribed: 'Transcribed', analyzed: 'Analyzed', insight_created: 'Insight created', deep_dive_created: 'Deep Dive created', published: 'On site' };
 
       function getPublishedIso(ep) {
         const raw = ep.published_date || ep.published || '';
@@ -347,7 +349,7 @@
             cells.push('<span class="fail stage-x" data-stage="' + label + '" data-reason="' + String(reason).replace(/"/g, '&quot;') + '" title="Click for reason">✗</span>');
           }
         });
-        return '<td>' + cells[0] + '</td><td>' + cells[1] + '</td><td>' + cells[2] + '</td><td>' + cells[3] + '</td><td>' + cells[4] + '</td><td>' + cells[5] + '</td><td>' + cells[6] + '</td><td>' + cells[7] + '</td>';
+        return '<td>' + cells[0] + '</td><td>' + cells[1] + '</td><td>' + cells[2] + '</td><td>' + cells[3] + '</td><td>' + cells[4] + '</td><td>' + cells[5] + '</td><td>' + cells[6] + '</td><td>' + cells[7] + '</td><td>' + cells[8] + '</td><td>' + cells[9] + '</td>';
       }
 
       // Episodes in pipeline (all tracked episodes with stage view)
