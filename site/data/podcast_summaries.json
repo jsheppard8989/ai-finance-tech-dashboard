@@ -1,5 +1,21 @@
 [
   {
+    "id": 169,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Rethinking Git for the Age of Coding Agents with GitHub Cofounder Scott Chacon",
+    "episode_date": "2026-04-20",
+    "summary": "In this episode of the a16z Show, Matt Borenstein, general partner at a16z, interviews Scott Chacon, co-founder of GitHub and CEO of Git Butler. They discuss the evolution of software development tools, the challenges posed by AI and coding agents, and the future of platforms like GitHub. Chacon shares his insights on the importance of communication in software development and the potential for new tools to enhance collaboration and efficiency.",
+    "key_takeaways": [
+      "The most widely used developer tools were not originally designed for their current use cases.",
+      "Coding agents are struggling with traditional Git interfaces, necessitating new tool development.",
+      "Communication and real-time collaboration are becoming increasingly important in software development.",
+      "The future of software development tools may involve more accessible and intuitive interfaces for both humans and AI.",
+      "The role of GitHub and similar platforms is uncertain in a world where coding agents become more prevalent."
+    ],
+    "investment_thesis": "Investing in the evolution of software development tools that cater to the needs of both human developers and AI coding agents presents an opportunity for significant growth and innovation.",
+    "key_tickers": null
+  },
+  {
     "id": 167,
     "podcast_name": "Monetary Matters with Jack Farley",
     "episode_title": "Navigating the SaaS Apocalypse: Why AI Disruption is Mispriced | Deiya Pernas | Pernas Research",

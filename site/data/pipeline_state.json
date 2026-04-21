@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-04-20T22:04:07.355171",
-  "last_updated": "2026-04-20T22:04:07.355171",
-  "last_pipeline_run": "2026-04-20T22:04:07.355171",
+  "generated_at": "2026-04-21T05:07:35.089171",
+  "last_updated": "2026-04-21T05:07:35.089171",
+  "last_pipeline_run": "2026-04-21T05:07:35.089171",
   "main_page": {
     "overton": 8,
     "insights": 8,
-    "pundits": 106
+    "pundits": 107
   },
   "counts": {
     "ticker_mentions": 166,
-    "podcast_episodes": 143,
+    "podcast_episodes": 144,
     "newsletters": 7,
     "daily_scores": 104,
     "overton_terms_total": 121,
-    "latest_insights_total": 157,
+    "latest_insights_total": 158,
     "today_mentions": {},
-    "podcasts_analyzed": 4
+    "podcasts_analyzed": 1
   },
   "step_results": {
-    "downloaded": 2,
-    "transcribed": 0,
-    "analyzed": 0,
-    "insight_created": 0,
-    "deep_dive_created": 0,
-    "published": 0,
-    "total": 2
+    "downloaded": 3,
+    "transcribed": 1,
+    "analyzed": 1,
+    "insight_created": 1,
+    "deep_dive_created": 1,
+    "published": 1,
+    "total": 4
   },
   "episodes": [
     {
@@ -58,6 +58,23 @@
       "rss_guid": "6bdfde4c-b260-4c7b-a908-8e01d19cabbc",
       "stages": {
         "downloaded": true,
+        "transcribed": true,
+        "analyzed": true,
+        "insight_created": true,
+        "deep_dive_created": true,
+        "published": true
+      },
+      "stage_reasons": {},
+      "status": "complete"
+    },
+    {
+      "id": "64387a37-d697-4b42-b5d1-2a4e0c8d4dbf",
+      "podcast": "The Jack Mallers Show",
+      "title": "All Roads Lead to Bitcoin",
+      "published": "2026-04-21",
+      "rss_guid": "64387a37-d697-4b42-b5d1-2a4e0c8d4dbf",
+      "stages": {
+        "downloaded": true,
         "transcribed": false,
         "analyzed": false,
         "insight_created": false,
@@ -72,14 +89,46 @@
         "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
       },
       "status": "needs_transcription"
+    },
+    {
+      "id": "rss::the a16z show::marc andreessen: monitoring the situation and the future of media",
+      "podcast": "The a16z Show",
+      "title": "Marc Andreessen: Monitoring the Situation and the Future of Media",
+      "published": "2026-04-21",
+      "published_date": "2026-04-21",
+      "rss_guid": "",
+      "stages": {
+        "downloaded": false,
+        "transcribed": false,
+        "analyzed": false,
+        "insight_created": false,
+        "deep_dive_created": false,
+        "published": false
+      },
+      "stage_reasons": {
+        "downloaded": "Discovered on RSS feed; not yet pulled into curation/pipeline state.",
+        "transcribed": "Waiting for download first.",
+        "analyzed": "Waiting for transcript first.",
+        "insight_created": "Depends on analyze step first.",
+        "deep_dive_created": "Depends on insight promotion + Deep Dive generation first.",
+        "published": "Not on site until export after analysis and insight promotion."
+      },
+      "status": "needs_download"
     }
   ],
   "available_from_rss": [
     {
       "podcast": "The a16z Show",
-      "title": "Rethinking Git for the Age of Coding Agents with GitHub Cofounder Scott Chacon",
-      "published": "Mon, 20 Apr 2026 21:10:00 +0000",
-      "published_date": "2026-04-20",
+      "title": "Marc Andreessen: Monitoring the Situation and the Future of Media",
+      "published": "Tue, 21 Apr 2026 10:00:00 +0000",
+      "published_date": "2026-04-21",
+      "rss_guid": ""
+    },
+    {
+      "podcast": "The Jack Mallers Show",
+      "title": "All Roads Lead to Bitcoin",
+      "published": "Tue, 21 Apr 2026 04:53:20 GMT",
+      "published_date": "2026-04-21",
       "rss_guid": ""
     },
     {
@@ -97,7 +146,7 @@
       "title": "Banks' \u201cConsiderable\u201d Exposure to Private Credit | Chris Whalen on Banks\u2019 Loans to NBFIs, Plus CRE, Gold, and Payments",
       "status": "needs_transcription",
       "published": "2026-04-18",
-      "age_days": 2,
+      "age_days": 3,
       "next_blocker": "transcribed"
     }
   ],
