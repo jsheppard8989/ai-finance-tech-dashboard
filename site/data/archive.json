@@ -1,6 +1,29 @@
 {
   "insights": [
     {
+      "id": 185,
+      "title": "All Roads Lead to Bitcoin",
+      "source_type": "podcast",
+      "source_name": "The Jack Mallers Show",
+      "source_date": "2026-04-21",
+      "summary": "In this episode of The Jack Mallers Show, Jack discusses the current state of Bitcoin and the global macroeconomic environment. He argues that Bitcoin's properties as a monetary unit, including its scarcity, ease of storage and movement, and privacy, make it likely to outperform other assets in the coming years. Jack also touches on geopolitical tensions, the potential for economic instability, and the importance of staying humble and accumulating Bitcoin ('stacking sats') in the face of market volatility.",
+      "key_takeaway": "Bitcoin is poised to outperform other assets due to its unique properties as a monetary unit, and investors should consider accumulating Bitcoin as a hedge against economic instability.",
+      "tickers_mentioned": [
+        "AAPL",
+        "MSFT",
+        "TSLA",
+        "AMZN",
+        "GOOGL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-21",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 170
+    },
+    {
       "id": 184,
       "title": "Rethinking Git for the Age of Coding Agents with GitHub Cofounder Scott Chacon",
       "source_type": "podcast",
@@ -144,11 +167,11 @@
         "TSLA"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-04-16",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-04-22",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 162
     },
     {

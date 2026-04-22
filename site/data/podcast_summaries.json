@@ -1,5 +1,22 @@
 [
   {
+    "id": 170,
+    "podcast_name": "The Jack Mallers Show",
+    "episode_title": "All Roads Lead to Bitcoin",
+    "episode_date": "2026-04-21",
+    "summary": "In this episode of The Jack Mallers Show, Jack discusses the current state of Bitcoin and the global macroeconomic environment. He argues that Bitcoin's properties as a monetary unit, including its scarcity, ease of storage and movement, and privacy, make it likely to outperform other assets in the coming years. Jack also touches on geopolitical tensions, the potential for economic instability, and the importance of staying humble and accumulating Bitcoin ('stacking sats') in the face of market volatility.",
+    "key_takeaways": [
+      "Bitcoin's market cap is above 1.5 trillion USD, making it an attractive asset class.",
+      "Bitcoin is down 39.7% from its all-time high, indicating potential for future growth.",
+      "Geopolitical tensions and economic instability may affect Bitcoin's price in the short term.",
+      "The US economy's reliance on consumer spending and the potential for consumer credit delinquencies pose risks.",
+      "China's role in global supply chains and its stance as an unreliable partner highlight the need for reshoring and self-sufficiency.",
+      "Bitcoin's long-term value proposition remains strong regardless of short-term market fluctuations."
+    ],
+    "investment_thesis": "Bitcoin is poised to outperform other assets due to its unique properties as a monetary unit, and investors should consider accumulating Bitcoin as a hedge against economic instability.",
+    "key_tickers": null
+  },
+  {
     "id": 169,
     "podcast_name": "The a16z Show",
     "episode_title": "Rethinking Git for the Age of Coding Agents with GitHub Cofounder Scott Chacon",
