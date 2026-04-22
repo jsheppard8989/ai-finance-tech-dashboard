@@ -24,6 +24,29 @@
       "podcast_episode_id": 170
     },
     {
+      "id": 186,
+      "title": "Marc Andreessen: Monitoring the Situation and the Future of Media",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-04-21",
+      "summary": "The a16z Show podcast discusses the evolution of media from centralized to social platforms, examining how this shift has accelerated the cycle of news and controversy, and how it impacts politics, culture, and decision-making. The conversation with Mark Andrewson, co-founder and general partner at E16Z, delves into the history of CNN and its concept of 'randomonium', the impact of 24-hour news on society, and the potential for an internet-native president.",
+      "key_takeaway": "Investing in media and understanding its evolution is crucial as it shapes societal behavior, influences politics, and impacts decision-making processes.",
+      "tickers_mentioned": [
+        "AAPL",
+        "FB",
+        "GOOGL",
+        "TWTR",
+        "AMZN"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-22",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 171
+    },
+    {
       "id": 184,
       "title": "Rethinking Git for the Age of Coding Agents with GitHub Cofounder Scott Chacon",
       "source_type": "podcast",
@@ -188,11 +211,11 @@
         "GC"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-04-17",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-04-22",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 163
     },
     {
@@ -3356,6 +3379,20 @@
   ],
   "definitions": [],
   "overton": [
+    {
+      "id": 129,
+      "term": "Randomonium",
+      "description": "A concept from the history of CNN that emphasized the need for constant activity and emotional intensity in news coverage to keep viewers engaged.",
+      "first_detected_date": "2026-04-22",
+      "last_mentioned_date": "2026-04-22",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Understanding the emotional dynamics of media can inform investment strategies in modern news and social platforms.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null
+    },
     {
       "id": 124,
       "term": "Universal Basic Purpose",

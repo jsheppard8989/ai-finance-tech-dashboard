@@ -3,151 +3,151 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-04-21T22:07:10.735799",
-  chartsVersion: "2026-04-21T22:07:05.122942",
+  generatedAt: "2026-04-22T05:05:56.957895",
+  chartsVersion: "2026-04-22T05:05:39.639105",
   priceSnapshot: {
   "GOOGL": {
     "price": 332.29,
     "change_pct": 11.74,
     "name": "GOOGL",
-    "updated_at": "2026-04-21T22:07:05.121371",
+    "updated_at": "2026-04-22T05:05:39.637735",
     "symbol_used": "GOOGL",
     "instrument_type": "equity_or_other",
     "is_continuous": false,
     "display_ticker": "GOOGL",
     "fetched_ok": true,
     "stale": false,
-    "source_timestamp": "2026-04-21T22:07:05.121388"
+    "source_timestamp": "2026-04-22T05:05:39.637751"
   },
   "NVDA": {
     "price": 199.88,
     "change_pct": 13.73,
     "name": "NVDA",
-    "updated_at": "2026-04-21T22:07:05.121403",
+    "updated_at": "2026-04-22T05:05:39.637765",
     "symbol_used": "NVDA",
     "instrument_type": "equity_or_other",
     "is_continuous": false,
     "display_ticker": "NVDA",
     "fetched_ok": true,
     "stale": false,
-    "source_timestamp": "2026-04-21T22:07:05.121410"
+    "source_timestamp": "2026-04-22T05:05:39.637771"
   },
   "MSFT": {
     "price": 424.16,
     "change_pct": 14.83,
     "name": "MSFT",
-    "updated_at": "2026-04-21T22:07:05.121421",
+    "updated_at": "2026-04-22T05:05:39.637782",
     "symbol_used": "MSFT",
     "instrument_type": "equity_or_other",
     "is_continuous": false,
     "display_ticker": "MSFT",
     "fetched_ok": true,
     "stale": false,
-    "source_timestamp": "2026-04-21T22:07:05.121427"
+    "source_timestamp": "2026-04-22T05:05:39.637788"
   },
   "WTI": {
-    "price": 89.41,
-    "change_pct": -20.46,
+    "price": 91.09,
+    "change_pct": -19.35,
     "name": "WTI",
-    "updated_at": "2026-04-21T22:07:05.121437",
+    "updated_at": "2026-04-22T05:05:39.637798",
     "symbol_used": "CL=F",
     "instrument_type": "futures",
     "is_continuous": true,
     "display_ticker": "WTI",
     "fetched_ok": true,
     "stale": false,
-    "source_timestamp": "2026-04-21T22:07:05.121443"
+    "source_timestamp": "2026-04-22T05:05:39.637804"
   },
   "BTC": {
-    "price": 77741.1,
-    "change_pct": 8.32,
+    "price": 78009.97,
+    "change_pct": 8.7,
     "name": "BTC",
-    "updated_at": "2026-04-21T22:07:05.121454",
+    "updated_at": "2026-04-22T05:05:39.637814",
     "symbol_used": "BTC-USD",
     "instrument_type": "crypto_spot",
     "is_continuous": false,
     "display_ticker": "BTC",
     "fetched_ok": true,
     "stale": false,
-    "source_timestamp": "2026-04-21T22:07:05.121460"
+    "source_timestamp": "2026-04-22T05:05:39.637819"
   },
   "S&P 500": {
-    "price": 7139.75,
-    "change_pct": 7.35,
+    "price": 7136.25,
+    "change_pct": 7.2,
     "name": "S&P 500",
-    "updated_at": "2026-04-21T22:07:05.121470",
+    "updated_at": "2026-04-22T05:05:39.637829",
     "symbol_used": "ES=F",
     "instrument_type": "futures",
     "is_continuous": true,
     "display_ticker": "S&P 500",
     "fetched_ok": true,
     "stale": false,
-    "source_timestamp": "2026-04-21T22:07:05.121476"
+    "source_timestamp": "2026-04-22T05:05:39.637834"
   },
   "AMZN": {
     "price": 249.91,
     "change_pct": 18.68,
     "name": "AMZN",
-    "updated_at": "2026-04-21T22:07:05.121487",
+    "updated_at": "2026-04-22T05:05:39.637850",
     "symbol_used": "AMZN",
     "instrument_type": "equity_or_other",
     "is_continuous": false,
     "display_ticker": "AMZN",
     "fetched_ok": true,
     "stale": false,
-    "source_timestamp": "2026-04-21T22:07:05.121493"
+    "source_timestamp": "2026-04-22T05:05:39.637856"
   },
   "TSLA": {
     "price": 386.42,
     "change_pct": 1.35,
     "name": "TSLA",
-    "updated_at": "2026-04-21T22:07:05.121503",
+    "updated_at": "2026-04-22T05:05:39.637865",
     "symbol_used": "TSLA",
     "instrument_type": "equity_or_other",
     "is_continuous": false,
     "display_ticker": "TSLA",
     "fetched_ok": true,
     "stale": false,
-    "source_timestamp": "2026-04-21T22:07:05.121508"
+    "source_timestamp": "2026-04-22T05:05:39.637870"
   },
   "COPPER": {
-    "price": 6.03,
-    "change_pct": 8.05,
+    "price": 6.07,
+    "change_pct": 9.44,
     "name": "COPPER",
-    "updated_at": "2026-04-21T22:07:05.121519",
+    "updated_at": "2026-04-22T05:05:39.637879",
     "symbol_used": "HG=F",
     "instrument_type": "futures",
     "is_continuous": true,
     "display_ticker": "COPPER",
     "fetched_ok": true,
     "stale": false,
-    "source_timestamp": "2026-04-21T22:07:05.121525"
+    "source_timestamp": "2026-04-22T05:05:39.637885"
   },
   "QQQ": {
     "price": 644.33,
     "change_pct": 10.27,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-04-21T22:07:05.121535",
+    "updated_at": "2026-04-22T05:05:39.637893",
     "symbol_used": "QQQ",
     "instrument_type": "etf",
     "is_continuous": false,
     "display_ticker": "QQQ",
     "fetched_ok": true,
     "stale": false,
-    "source_timestamp": "2026-04-21T22:07:05.121541"
+    "source_timestamp": "2026-04-22T05:05:39.637899"
   },
   "BTC-USD": {
-    "price": 77741.1,
-    "change_pct": 8.32,
+    "price": 78009.97,
+    "change_pct": 8.7,
     "name": "Bitcoin USD",
-    "updated_at": "2026-04-21T22:07:05.121550",
+    "updated_at": "2026-04-22T05:05:39.637907",
     "symbol_used": "BTC-USD",
     "instrument_type": "crypto_spot",
     "is_continuous": false,
     "display_ticker": "BTC-USD",
     "fetched_ok": true,
     "stale": false,
-    "source_timestamp": "2026-04-21T22:07:05.121556"
+    "source_timestamp": "2026-04-22T05:05:39.637913"
   }
 },
   tickerScores: [
@@ -928,6 +928,29 @@ const dashboardData = {
       "podcast_episode_id": 170
     },
     {
+      "id": 186,
+      "title": "Marc Andreessen: Monitoring the Situation and the Future of Media",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-04-21",
+      "summary": "The a16z Show podcast discusses the evolution of media from centralized to social platforms, examining how this shift has accelerated the cycle of news and controversy, and how it impacts politics, culture, and decision-making. The conversation with Mark Andrewson, co-founder and general partner at E16Z, delves into the history of CNN and its concept of 'randomonium', the impact of 24-hour news on society, and the potential for an internet-native president.",
+      "key_takeaway": "Investing in media and understanding its evolution is crucial as it shapes societal behavior, influences politics, and impacts decision-making processes.",
+      "tickers_mentioned": [
+        "AAPL",
+        "FB",
+        "GOOGL",
+        "TWTR",
+        "AMZN"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-22",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 171
+    },
+    {
       "id": 184,
       "title": "Rethinking Git for the Age of Coding Agents with GitHub Cofounder Scott Chacon",
       "source_type": "podcast",
@@ -1092,11 +1115,11 @@ const dashboardData = {
         "GC"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-04-17",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-04-22",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 163
     },
     {
@@ -4261,6 +4284,20 @@ const dashboardData = {
   "definitions": [],
   "overton": [
     {
+      "id": 129,
+      "term": "Randomonium",
+      "description": "A concept from the history of CNN that emphasized the need for constant activity and emotional intensity in news coverage to keep viewers engaged.",
+      "first_detected_date": "2026-04-22",
+      "last_mentioned_date": "2026-04-22",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Understanding the emotional dynamics of media can inform investment strategies in modern news and social platforms.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null
+    },
+    {
       "id": 124,
       "term": "Universal Basic Purpose",
       "description": "The idea that beyond financial support, individuals need a sense of purpose and meaningful work in a world increasingly influenced by AI and automation.",
@@ -5985,6 +6022,26 @@ const dashboardData = {
       "key_tickers": []
     },
     {
+      "id": 186,
+      "title": "Marc Andreessen: Monitoring the Situation and the Future of Media",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-04-21",
+      "summary": "The a16z Show podcast discusses the evolution of media from centralized to social platforms, examining how this shift has accelerated the cycle of news and controversy, and how it impacts politics, culture, and decision-making. The conversation with Mark Andrewson, co-founder and general partner at E16Z, delves into the history of CNN and its concept of 'randomonium', the impact of 24-hour news on society, and the potential for an internet-native president.",
+      "key_takeaway": "Investing in media and understanding its evolution is crucial as it shapes societal behavior, influences politics, and impacts decision-making processes.",
+      "tickers_mentioned": "[\"AAPL\", \"FB\", \"GOOGL\", \"TWTR\", \"AMZN\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-22",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 171,
+      "episode_release_date": "2026-04-21",
+      "guest_name": "Marc Andreessen",
+      "key_tickers": []
+    },
+    {
       "id": 184,
       "title": "Rethinking Git for the Age of Coding Agents with GitHub Cofounder Scott Chacon",
       "source_type": "podcast",
@@ -6109,30 +6166,6 @@ const dashboardData = {
       "episode_release_date": "2026-04-17",
       "guest_name": null,
       "key_tickers": []
-    },
-    {
-      "id": 178,
-      "title": "MacroVoices #528 Luke Gromen: Hormuz Could Lead To a 1956 US Suez Moment",
-      "source_type": "podcast",
-      "source_name": "Macro Voices",
-      "source_date": "2026-04-16",
-      "summary": "In this episode of Macro Voices, hosts Eric Townsend and Patrick Suresne discuss the Iran crisis, its implications for inflation, and potential market shifts. They are joined by Luke Groman of Forest for the Trees, who provides insights on the escalating risks around the Strait of Hormuz and potential non-linear breaks in global logistics. Additionally, Rory Johnson of Commodity Context offers an update on the Iran crisis and its impact on global energy markets. The episode also covers Patrick's trade of the week, focusing on positioning in bonds for inflation risk and potential growth slowdown.",
-      "key_takeaway": "Invest in sectors likely to benefit from increased inflation and supply chain disruptions, with a focus on energy, uranium, and domestic electrical infrastructure.",
-      "tickers_mentioned": "[\"SPX\", \"WTI\", \"GC\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-04-17",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 163,
-      "episode_release_date": "2026-04-16",
-      "guest_name": null,
-      "key_tickers": [
-        "SPX",
-        "WTI",
-        "GC"
-      ]
     }
   ],
   "definitions": [
@@ -17390,12 +17423,101 @@ const dashboardData = {
     "source_name": "The Jack Mallers Show",
     "source_date": "2026-04-21",
     "key_tickers": []
+  },
+  "186": {
+    "id": 177,
+    "insight_id": 186,
+    "podcast_episode_id": 171,
+    "overview": "The rapid evolution of media from centralized entities like CNN to decentralized social platforms has profound implications for how society processes information, forms opinions, and makes decisions. The immediacy and constant flow of information have compressed news cycles, leading to a faster-paced society where attention is a scarce resource. This shift not only affects the speed at which news travels but also the depth of public discourse and the potential for misinformation to spread. Understanding these dynamics is crucial for investors as media continues to shape societal behavior, influence politics, and impact decision-making processes.",
+    "key_takeaways_detailed": [
+      "The concept of 'randomonium' illustrates the unpredictable and fragmented nature of news in the age of social media, where the 'current thing' can change rapidly.",
+      "The acceleration of news cycles has led to a society that is constantly in a state of reaction, with less time for contemplation and resolution of issues.",
+      "Investing in media requires an understanding of how technology platforms influence the speed and nature of news consumption, as well as the potential for new platforms to disrupt the current landscape.",
+      "The global village concept suggests that the interconnectedness of the world through media has both positive and negative implications for privacy, community, and the human experience.",
+      "The medium is the message, implying that the form of media technology shapes the content and the way it is received by the audience."
+    ],
+    "investment_thesis": "Investing in media companies and technologies that can adapt to and capitalize on the rapid evolution of news cycles and the decentralized nature of information dissemination is a strategic move. The core logic is that as the world becomes more interconnected and the speed of information increases, there will be opportunities for companies that can provide platforms for real-time communication, fact-checking, and content curation. The timeframe for this thesis is medium to long-term, as the full impact of these trends will likely unfold over several years. What has to go right includes the continued growth of social media and streaming platforms, as well as the development of new technologies that can handle the increasing volume and velocity of information.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's ecosystem of devices and services positions it to benefit from the increased consumption of media on mobile and streaming platforms.",
+        "positioning": "Strategic long-term hold, as Apple's hardware and software offerings are integral to the media consumption habits of a global audience.",
+        "risk": "Increased competition from other tech giants in the media and streaming space could erode Apple's market share."
+      },
+      "FB": {
+        "rationale": "Facebook's social media platforms are central to the distribution and discussion of current events and news.",
+        "positioning": "Tactical long, as the company's ability to adapt to changing media consumption patterns will be key to its future growth.",
+        "risk": "Regulatory challenges and privacy concerns could hinder Facebook's ability to monetize user data and content effectively."
+      },
+      "GOOGL": {
+        "rationale": "Google's search and advertising business is closely tied to the flow of information and news on the internet.",
+        "positioning": "Strategic long, as Google's dominance in search and its investment in YouTube position it well in the evolving media landscape.",
+        "risk": "Changes in search algorithms or advertising policies could disrupt Google's revenue streams."
+      },
+      "TWTR": {
+        "rationale": "Twitter is a real-time platform where news and current events are often first broken and discussed.",
+        "positioning": "Tactical long, as the platform's role in the media ecosystem could lead to increased user engagement and advertising opportunities.",
+        "risk": "The platform's ability to manage misinformation and maintain user trust is a significant risk."
+      },
+      "AMZN": {
+        "rationale": "Amazon's growing presence in streaming and its ownership of Twitch position it to benefit from the shift towards digital media consumption.",
+        "positioning": "Strategic long, as Amazon's ecosystem can support the infrastructure and content needed for the evolving media landscape.",
+        "risk": "Increased competition in the streaming market and potential regulatory scrutiny could impact Amazon's growth in this area."
+      }
+    },
+    "positioning_guidance": "Investors should consider a diversified approach to media investments, with a mix of strategic long-term holdings in companies with strong positions in the current media landscape, as well as tactical positions in companies that are poised to benefit from specific trends or technological advancements. The time horizon for these investments should reflect the rapid pace of change in the media industry, with a focus on companies that can adapt quickly to new consumer behaviors and technological developments.",
+    "risk_factors": [
+      "Regulatory changes that could impact the operations of social media and streaming platforms.",
+      "The rise of new media platforms that disrupt the current market leaders.",
+      "Technological disruptions that change the way consumers access and consume media.",
+      "Economic downturns that could reduce advertising spending and affect media companies' revenues.",
+      "The spread of misinformation and its impact on public discourse and trust in media platforms."
+    ],
+    "contrarian_signals": [
+      "A resurgence in traditional media consumption, with audiences seeking more curated and less fragmented news sources.",
+      "A pushback against the constant connectivity of the global village, leading to a desire for more privacy and less media exposure.",
+      "The development of new technologies that slow the speed of information dissemination, allowing for deeper analysis and discussion of news events."
+    ],
+    "catalysts": [
+      "The launch of new social media or streaming platforms that change the media landscape.",
+      "Major media events, such as elections or global crises, that highlight the role of different media platforms in shaping public opinion.",
+      "Technological breakthroughs in areas like artificial intelligence or virtual reality that transform media consumption.",
+      "Regulatory decisions that impact the operations or business models of major media companies.",
+      "Cultural shifts in the way society values and consumes media, potentially leading to new trends or preferences."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-04-22T05:04:53.783521",
+    "updated_at": "2026-04-22 10:04:53",
+    "episode_evidence": "The podcast episode with Mark Andrewson, co-founder and general partner at E16Z, provides a deep dive into the evolution of media and its impact on society. Andrewson discusses the concept of 'randomonium', a term coined by Reese Chunfeld, which refers to the idea that at any given moment, there is a 'current thing' happening in the world that is the most compelling and attention-grabbing event. This concept, Andrewson explains, was the original business plan for CNN, which aimed to lock onto the 'current thing' and cover it continuously, regardless of the fragmentary nature of the initial reports. 'The idea was this concept that Reese Chunfeld came up with, called Random Monium, which basically says, at any point in time, there is something happening in the world that is, like, the most amazing, interesting, controversial, blockers, compelling, trans-fixing thing that you can imagine,' Andrewson said. The episode also touches on the acceleration of news cycles due to the internet, which has taken the concept of 'randomonium' to an extreme, with global audiences cycling through new controversies every few days, often without resolution. 'The internet reinvented random monium,' Andrewson noted, highlighting the impact of social media and streaming platforms on the speed and nature of news consumption.",
+    "falsification_tracks": [
+      "A significant decrease in user engagement on social media platforms regarding current events would suggest a shift in the way society consumes news.",
+      "The emergence of a new dominant media platform that centralizes news consumption would challenge the thesis of decentralized media acceleration.",
+      "A sustained period where news cycles slow down, with fewer controversies arising or gaining traction, could indicate a change in societal behavior or media consumption patterns."
+    ],
+    "insight_title": "Marc Andreessen: Monitoring the Situation and the Future of Media",
+    "source_name": "The a16z Show",
+    "source_date": "2026-04-21",
+    "key_tickers": []
   }
 },
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 2164,
+    "id": 2193,
+    "name": "Marc Andreessen",
+    "slug": "marc-andreessen",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Investing in media and understanding its evolution is crucial as it shapes societal behavior, influences politics, and impacts decision-making processes.",
+    "last_episode_title": "Marc Andreessen: Monitoring the Situation and the Future of Media",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-04-21",
+    "appearance_count": 1
+  },
+  {
+    "id": 2194,
     "name": "GitHub Cofounder Scott Chacon",
     "slug": "github-cofounder-scott-chacon",
     "bio": null,
@@ -17407,7 +17529,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2165,
+    "id": 2195,
     "name": "Anish Acharya on The Kevin Rose Show",
     "slug": "anish-acharya-on-the-kevin-rose-show",
     "bio": null,
@@ -17419,7 +17541,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2166,
+    "id": 2196,
     "name": "Navigating the SaaS Apocalypse",
     "slug": "navigating-the-saas-apocalypse",
     "bio": null,
@@ -17431,7 +17553,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2167,
+    "id": 2197,
     "name": "From Models to Mobility",
     "slug": "from-models-to-mobility",
     "bio": null,
@@ -17443,7 +17565,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2168,
+    "id": 2198,
     "name": "also touches",
     "slug": "also-touches",
     "bio": null,
@@ -17455,7 +17577,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2169,
+    "id": 2199,
     "name": "\"I Don't Believe the Stagflation Narrative\"",
     "slug": "i-dont-believe-the-stagflation-narrative",
     "bio": null,
@@ -17467,7 +17589,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2170,
+    "id": 2200,
     "name": "Building Agents at Home",
     "slug": "building-agents-at-home",
     "bio": null,
@@ -17479,7 +17601,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2171,
+    "id": 2201,
     "name": "\"The Best Time to Invest\"",
     "slug": "the-best-time-to-invest",
     "bio": null,
@@ -17491,7 +17613,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2172,
+    "id": 2202,
     "name": "Governor Josh Shapiro of Pennsylvania",
     "slug": "governor-josh-shapiro-of-pennsylvania",
     "bio": null,
@@ -17503,7 +17625,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2173,
+    "id": 2203,
     "name": "Box CEO Aaron Levie",
     "slug": "box-ceo-aaron-levie",
     "bio": null,
@@ -17515,7 +17637,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2174,
+    "id": 2204,
     "name": "Why $200 Oil Won\u2019t Spike Inflation to 9%",
     "slug": "why-200-oil-wont-spike-inflation-to-9",
     "bio": null,
@@ -17527,7 +17649,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2175,
+    "id": 2205,
     "name": "This special episode",
     "slug": "this-special-episode",
     "bio": null,
@@ -17539,7 +17661,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2176,
+    "id": 2206,
     "name": "Lupin Ramon",
     "slug": "lupin-ramon",
     "bio": null,
@@ -17551,7 +17673,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2177,
+    "id": 2207,
     "name": "When the Music Stops",
     "slug": "when-the-music-stops",
     "bio": null,
@@ -17563,7 +17685,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2178,
+    "id": 2208,
     "name": "Ground Infrastructure",
     "slug": "ground-infrastructure",
     "bio": null,
@@ -17575,7 +17697,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2179,
+    "id": 2209,
     "name": "Rory Johnston",
     "slug": "rory-johnston",
     "bio": null,
@@ -17587,7 +17709,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2180,
+    "id": 2210,
     "name": "Senator John Fetterman on Voting Rights",
     "slug": "senator-john-fetterman-on-voting-rights",
     "bio": null,
@@ -17599,7 +17721,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2181,
+    "id": 2211,
     "name": "Stock Market on Shaky Foundations",
     "slug": "stock-market-on-shaky-foundations",
     "bio": null,
@@ -17611,7 +17733,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2182,
+    "id": 2212,
     "name": "Elon Musk on Moonshots",
     "slug": "elon-musk-on-moonshots",
     "bio": null,
@@ -17620,18 +17742,6 @@ const dashboardData = {
     "last_episode_title": "Elon Musk on Moonshots: Discussing AI, Robotics, and Future Technologies",
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-03-17",
-    "appearance_count": 1
-  },
-  {
-    "id": 2183,
-    "name": "Investing in Capitalism",
-    "slug": "investing-in-capitalism",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Invest in technologies and platforms that democratize capitalism and leverage AI to create scalable solutions in coding and product development.",
-    "last_episode_title": "Investing in Capitalism: Trump Accounts, AI, and the Future of Wealth",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-03-13",
     "appearance_count": 1
   }
 ],
@@ -17719,7 +17829,7 @@ const dashboardData = {
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-03-19",
     "mention_score": 4,
-    "mention_score_decayed": 2.35,
+    "mention_score_decayed": 2.3,
     "last_main_idea": "The Iran conflict could lead to a renewed inflation cycle, affecting commodities and energy markets, with potential second-order effects that markets may currently be underpricing.",
     "last_proof_cite": "MacroVoices \u2022 2026-03-19 \u2022 MacroVoices-2026-03-19-Simon-White",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -17778,7 +17888,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-14",
     "mention_score": 3,
-    "mention_score_decayed": 2.61,
+    "mention_score_decayed": 2.55,
     "last_main_idea": "Invest in companies that can leverage AI to compress development time and disrupt incumbents, while also considering the emerging overlap between AI and crypto.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-14 \u2022 Ben Horowitz on AI Infrastructure, Economics and The New Laws of Software",
     "last_proof_snippet": "America's got to rebuild its entire infrastructure like right now. We don't have enough rare earth minerals. We don't have enough electricity. We don't have enough manufacturing capacity. Nvidia will make enough chips, but then we won't hav",
@@ -17844,7 +17954,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-04-17",
     "mention_score": 2,
-    "mention_score_decayed": 1.95,
+    "mention_score_decayed": 1.91,
     "last_main_idea": "The investment thesis presented revolves around the potential negative impacts of new real estate taxes on luxury property demand and the growing controversy and potential regulation surrounding data centers, which could affect technology and real estate investments.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-04-17 \u2022 OpenAI's Identity Crisis, Datacenter Wars, Market Up on Iran News, Mamdani's First Tax, Swalwell Out",
     "last_proof_snippet": "All right, everybody. Welcome back to the number one podcast in the world. We've got the core for here and terror, I say the king of atoms. The king of atoms. Yes. Captain Travis Kalinicus here. How are you doing, brother? I'm pretty good.",
@@ -17905,7 +18015,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-04-10",
     "mention_score": 2,
-    "mention_score_decayed": 1.59,
+    "mention_score_decayed": 1.55,
     "last_main_idea": "Invest in AI companies that are leading the charge in enterprise adoption, as they are positioned to benefit from the exponential growth in revenue and the shift towards labor augmentation and replacement.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-04-10 \u2022 Anthropic's $30B Ramp, Mythos Doomsday, OpenClaw Ankled, Iran War Ceasefire, Israel's Influence",
     "last_proof_snippet": "How many PRs you think are going to get pushed to the core structural internet in 100 days? What's the over under number? Because I'll give you a number. You're going to say zero. My answer to that is I'll say like 10,000. But it's going to",
@@ -17966,7 +18076,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-04-09",
     "mention_score": 2,
-    "mention_score_decayed": 1.55,
+    "mention_score_decayed": 1.52,
     "last_main_idea": "Investment opportunities may arise from the physical dislocation in energy markets and shifts in energy security, with a focus on commodities like oil, uranium, and gold.",
     "last_proof_cite": "Macro Voices \u2022 2026-04-09 \u2022 MacroVoices #527 Adam Rozencwajg: What Comes Next After The Iran Crisis",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -18034,7 +18144,7 @@ const dashboardData = {
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-03-19",
     "mention_score": 2,
-    "mention_score_decayed": 1.18,
+    "mention_score_decayed": 1.15,
     "last_main_idea": "The Iran conflict could lead to a renewed inflation cycle, affecting commodities and energy markets, with potential second-order effects that markets may currently be underpricing.",
     "last_proof_cite": "MacroVoices \u2022 2026-03-19 \u2022 MacroVoices-2026-03-19-Simon-White",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -18293,6 +18403,70 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
+    "id": 196,
+    "name": "Mark Andrewson",
+    "slug": "mark-andrewson",
+    "bio": "Mark Andrewson is a co-founder and general partner at E16Z, where he leverages his deep understanding of media and its impact on society. He is known for his insights into the history of CNN and the concept of 'randomonium', reflecting on the evolution of media and its influence on behavior.",
+    "known_for": "His expertise in media history and the influence of media on societal behavior, particularly in the context of CNN and the concept of 'randomonium'.",
+    "net_worth_usd": 1600000000.0,
+    "net_worth_source": "https://finty.com/us/net-worth/marc-andreessen/",
+    "net_worth_updated_at": "2026-04-22T05:03:52.721541",
+    "voice_tone": "Inquisitive and informative",
+    "voice_style": "Analytical and historical",
+    "voice_delivery_notes": "Pacing is moderate with emphasis on key historical points and societal impacts",
+    "voice_profile_updated_at": "2026-04-22 10:03:39",
+    "last_seen": "2026-04-22 10:03:39",
+    "last_episode_title": "Marc Andreessen: Monitoring the Situation and the Future of Media",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-04-21",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investing in media and understanding its evolution is crucial as it shapes societal behavior, influences politics, and impacts decision-making processes.",
+    "last_proof_cite": "The a16z Show \u2022 2026-04-21 \u2022 Marc Andreessen: Monitoring the Situation and the Future of Media",
+    "last_proof_snippet": "If an alien invasion happens later this afternoon, it will be turned into a social media meme, and it will go viral. If you track like how distributed as media versus how centralized is media, like centralized media sort of peaked summer ar",
+    "supporting_takeaway": "The 24-hour news cycle, pioneered by CNN, has been taken to the extreme by the internet, compressing time and amplifying emotion.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-22T05:03:51.163595",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Mark Andrewson",
+      "fetched_at": "2026-04-22T10:03:51.163132+00:00",
+      "cliff_notes": "Mark Andrewson is a seasoned media expert and entrepreneur, recognized for his deep insights into the history and impact of media on society. As a co-founder and general partner at E16Z, Andrewson has been at the forefront of understanding how media shapes behavior and influences the world we live in. His commentary on the evolution of media, from the peak of centralized media in the 1970s to the current era of social media, highlights his expertise in the field. Andrewson's understanding of the media landscape, particularly his analysis of CNN's 24-hour coverage and the internet's acceleration of this concept, positions him as a thought leader in the media industry.",
+      "derived": {
+        "current_role": "Co-founder and General Partner at E16Z"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Mark Andrewson is a seasoned media expert and entrepreneur, recognized for his deep insights into the history and impact of media on society. As a co-founder and general partner at E16Z, Andrewson has been at the forefront of understanding how media shapes behavior and influences the world we live in. His commentary on the evolution of media, from the peak of centralized media in the 1970s to the current era of social media, highlights his expertise in the field.",
+        "Andrewson's understanding of the media landscape, particularly his analysis of CNN's 24-hour coverage and the internet's acceleration of this concept, positions him as a thought leader in the media industry."
+      ],
+      "sections": [
+        {
+          "heading": "Media Evolution",
+          "body": "Mark Andrewson has a keen understanding of the evolution of media, from the consolidation of newspapers and the dominance of television networks to the current era of social media."
+        },
+        {
+          "heading": "Impact on Society",
+          "body": "Andrewson's insights into how the shape of media influences societal behavior are particularly relevant in today's fast-paced, always-on media environment."
+        },
+        {
+          "heading": "CNN and 24-Hour News",
+          "body": "He is known for his analysis of CNN's introduction of 24-hour news coverage and its impact on the media landscape, setting a precedent for real-time news delivery."
+        },
+        {
+          "heading": "Concept of 'Randomonium'",
+          "body": "Andrewson's concept of 'randomonium' reflects his understanding of the unpredictable nature of media and its ability to shape public discourse and attention."
+        }
+      ]
+    },
+    "net_worth": "$1.60B"
+  },
+  {
     "id": 194,
     "name": "Scott Chacon",
     "slug": "scott-chacon",
@@ -18438,7 +18612,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Invest in software companies that can adapt to AI disruption and emerge stronger, with the potential for significant upside in the next 12 months.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-19 \u2022 Navigating the SaaS Apocalypse: Why AI Disruption is Mispriced | Deiya Pernas | Pernas Research",
     "last_proof_snippet": "for sask up is absolutely right. They have not shown at all the scares and fundamentals that reflect any sort of the perceived beers that you're talking about. What the market is overlooking is that most of these sask companies have the DNA",
@@ -18498,7 +18672,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "The rapid advancement of AI and consumer tech is creating new opportunities and challenges for venture capital, with a focus on the need for universal basic purpose and the potential for AI to disrupt traditional job markets.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-19 \u2022 Network Effects, AI Costs, and the Future of Consumer Investing with Anish Acharya on The Kevin Rose Show",
     "last_proof_snippet": "Yeah, idea guys are sort of having a moment. In fact, it's funny, like I'm like looking for new ideas to work on. You know, in the old days, somebody would give you their app idea and you be like, oh, here we go again. And now I'm like, coo",
@@ -19007,7 +19181,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Investing in HFGM global macro ETF, which is highly rated by Morningstar, may offer exposure to macroeconomic trends and government policies affecting financial markets.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-15 \u2022 Financial Repression, Pt. 1  | Professor Hanno Lustig on Hidden Taxes, Fiscal Sustainability, and Japan\u2019s Debt Puzzle",
     "last_proof_snippet": "Today's episode is brought to you by the unlimited HFGM global macro ETF ticker HFGM. Later in the show, you'll hear more about HFGM currently the number one morning star rated funds it's its inception in the U.S. macro trading category. Le",
@@ -19314,7 +19488,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-04-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.81,
+    "mention_score_decayed": 0.79,
     "last_main_idea": "Invest in companies and technologies at the forefront of AI and space exploration for potential high returns as these sectors are expected to drive the next wave of technological advancements.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-04-11 \u2022 SpaceX Goes Public, Claude\u2019s Mythos Release, and the US Data Center Delay | EP #246",
     "last_proof_snippet": "SpaceX is going public with a $2 trillion valuation. It's the beginning of the IPO wars. The stepping stones are really, really clear now. Starlink gets you into space profitably, then the data centers, then you get to the moon, refueling i",
@@ -19376,7 +19550,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-04-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.81,
+    "mention_score_decayed": 0.79,
     "last_main_idea": "Invest in companies and technologies at the forefront of AI and space exploration for potential high returns as these sectors are expected to drive the next wave of technological advancements.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-04-11 \u2022 SpaceX Goes Public, Claude\u2019s Mythos Release, and the US Data Center Delay | EP #246",
     "last_proof_snippet": "SpaceX is going public with a $2 trillion valuation. It's the beginning of the IPO wars. The stepping stones are really, really clear now. Starlink gets you into space profitably, then the data centers, then you get to the moon, refueling i",
@@ -19503,7 +19677,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.78,
+    "mention_score_decayed": 0.76,
     "last_main_idea": "Invest in software companies that define the market, focusing on backing scale-ready leaders, providing liquidity to early investors, and helping companies make strategic decisions.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-09 \u2022 \"The Best Time to Invest\": How AI Disruption is Reshaping Software Valuations | Ben Topor | Titan Capital Partners",
     "last_proof_snippet": "Today's episode is brought to you by PeakTay asset management and their AI enhanced ETF range, ticker's PQ&T and PQUS. You'll hear more about how they're using AI to enhance equity exposure later in the show. For now, let's get into it. Wel",
@@ -19571,7 +19745,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-04-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.78,
+    "mention_score_decayed": 0.76,
     "last_main_idea": "Investment opportunities may arise from the physical dislocation in energy markets and shifts in energy security, with a focus on commodities like oil, uranium, and gold.",
     "last_proof_cite": "Macro Voices \u2022 2026-04-09 \u2022 MacroVoices #527 Adam Rozencwajg: What Comes Next After The Iran Crisis",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -19828,7 +20002,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-04-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.76,
+    "mention_score_decayed": 0.74,
     "last_main_idea": "Invest in Pennsylvania due to its pro-growth policies, job creation, and improved business climate.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-04-08 \u2022 Josh Shapiro on Trump, Iran War Chaos, Israel's Failure, the Economy, and 2028 Race",
     "last_proof_snippet": "All right, everybody. We've got an incredible guest today, Governor Josh Shapiro is here, obviously Governor of Pennsylvania. He's got Records setting popularity in Pennsylvania right now 60% approval at least he's a moderate. He's focused",
@@ -19894,7 +20068,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-04-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.74,
+    "mention_score_decayed": 0.72,
     "last_main_idea": "The core thesis presented is that advancements in AI and computer science can lead to new fields and paradigms, offering investment opportunities in technological disruption and innovation.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-04-07 \u2022 Michael Nielsen \u2013 How science actually progresses",
     "last_proof_snippet": "Today, I'm speaking with Michael Nielsen. You've done many things. You're one of the pioneers of chronic computing, wrote the main textbook in the field of the open science movement. You're at a book about people learning that Chris Ola and",
@@ -19955,7 +20129,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.74,
+    "mention_score_decayed": 0.72,
     "last_main_idea": "Investing in select few names within the China property sector can offer significant potential for value appreciation, given the right conditions and primary research.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-07 \u2022 Why Emerging Markets are Finally Outperforming Developed Markets | Robert Koenigsberger | Gramercy",
     "last_proof_snippet": "Today's episode is brought to you by Peak Day Asset Management and their AI enhanced ETF range, ticker's PQ&T and PQUS. You'll hear more about how they're using AI to enhance equity exposure later in the show. For now, let's get into it. He",
@@ -20015,7 +20189,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-04-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.74,
+    "mention_score_decayed": 0.72,
     "last_main_idea": "Investment in Colossal represents a bet on the convergence of synthetic biology, AI, and environmental conservation, with potential for significant technological and societal impact.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-04-07 \u2022 How AI Is Bringing Extinct Animals Back (And What Comes Next) | Ben Lamm (Colossal) | EP #245",
     "last_proof_snippet": "The idea bring back the willy mammoth had been around for a long time. You jump in, take the mantle of CEO. I don't know if you were expecting to do that. I was going to fund it at the side project at first, but then I thought it was just r",
@@ -20141,7 +20315,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-04-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "Investing in US defense and technology companies that align with maintaining the nation's global primacy and ensuring economic prosperity.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-04-06 \u2022 The Companies Changing Warfare Forever: Palantir & Anduril Execs on Drones, AI & the Future of War",
     "last_proof_snippet": "Trace Steven, Sean Sankar, welcome to the all-in-podcast at the Hillin Valley Forum. Thank you guys for being here. What's up? How are you guys doing? You're having us. You're great. Okay. Did it be here too? You guys are friends. Right? Yo",
@@ -20201,7 +20375,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-04-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "Investing in US defense and technology companies that align with maintaining the nation's global primacy and ensuring economic prosperity.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-04-06 \u2022 The Companies Changing Warfare Forever: Palantir & Anduril Execs on Drones, AI & the Future of War",
     "last_proof_snippet": "Trace Steven, Sean Sankar, welcome to the all-in-podcast at the Hillin Valley Forum. Thank you guys for being here. What's up? How are you guys doing? You're having us. You're great. Okay. Did it be here too? You guys are friends. Right? Yo",
@@ -20261,7 +20435,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "Investing in companies that leverage coding agents could offer significant productivity gains and reshape the software development landscape.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-06 \u2022 Peter Yang on Small Teams, Coding Agents, and Why Human Ambition Has No Ceiling",
     "last_proof_snippet": "Interesting set software with the world. I feel like coding what eat all knowledge work, right? And we kind of going to the restaurant already, the whole agent stack is emerging. Yeah. Identity, payments, marketing, even CLI versus MCP, lik",
@@ -20388,7 +20562,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.68,
+    "mention_score_decayed": 0.66,
     "last_main_idea": "Invest in AI technologies that leverage the breakthroughs in large language models, reasoning, agents, and self-improvement, as these advancements could lead to transformative software architectures and industry disruptions.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-03 \u2022 Marc Andreessen on AI Winters and Agent Breakthroughs",
     "last_proof_snippet": "This episode originally aired on the Layton Space Podcast. Mark Andreason has watched AI cycle through summers and winters for more than 35 years. From coding and list in 1989 to back in the foundation model companies today, he argues that",
@@ -20452,7 +20626,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.66,
+    "mention_score_decayed": 0.64,
     "last_main_idea": "Investing in technologies that can verify human interactions online is becoming critical as AI-generated content proliferates, posing both challenges and opportunities for social media platforms and the broader digital economy.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-02 \u2022 Alex Blania on Proof of Human and Building World's Identity Network",
     "last_proof_snippet": "How do you prove somebody's human? It is as surprising to her problem. I think that people are going to start getting used to being bots. But we currently see less than 1% of what it will look like in probably a year. The idea that AGI will",
@@ -20512,7 +20686,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.66,
+    "mention_score_decayed": 0.64,
     "last_main_idea": "Investing in technologies that can verify human interactions online is becoming critical as AI-generated content proliferates, posing both challenges and opportunities for social media platforms and the broader digital economy.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-02 \u2022 Alex Blania on Proof of Human and Building World's Identity Network",
     "last_proof_snippet": "How do you prove somebody's human? It is as surprising to her problem. I think that people are going to start getting used to being bots. But we currently see less than 1% of what it will look like in probably a year. The idea that AGI will",
@@ -20573,7 +20747,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-04-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.66,
+    "mention_score_decayed": 0.64,
     "last_main_idea": "Invest in sectors less affected by AI disruption and monitor geopolitical events for opportunities in private credit markets.",
     "last_proof_cite": "Macro Voices \u2022 2026-04-02 \u2022 MacroVoices #526 Matt Barrie: Pay To PrAI",
     "last_proof_snippet": "This is Macrovoisans, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisans is all about the brightest minds in the world of finance an",
@@ -20633,7 +20807,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-04-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.66,
+    "mention_score_decayed": 0.64,
     "last_main_idea": "Invest in sectors less affected by AI disruption and monitor geopolitical events for opportunities in private credit markets.",
     "last_proof_cite": "Macro Voices \u2022 2026-04-02 \u2022 MacroVoices #526 Matt Barrie: Pay To PrAI",
     "last_proof_snippet": "This is Macrovoisans, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisans is all about the brightest minds in the world of finance an",
@@ -20816,7 +20990,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-03-31",
     "mention_score": 1,
-    "mention_score_decayed": 0.63,
+    "mention_score_decayed": 0.62,
     "last_main_idea": "Investment in autonomous vehicle technology is poised to disrupt urban mobility and logistics, with companies like Uber positioned to capitalize on this shift.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-03-31 \u2022 Uber CEO on Winning the Robotaxi Race, the End of Car Ownership, and Uber\u2019s Next $1 Trillion Bet | Dara Khosrowshahi (Uber CEO) | 243",
     "last_proof_snippet": "The Robotaxi race is heating up. How are you going to win that race? Well, when you joined taking the mental Uber, I think Uber was losing $4.5 billion a year. Today it's earning over $10 billion a year. You really focused the organization.",
@@ -20877,7 +21051,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-31",
     "mention_score": 1,
-    "mention_score_decayed": 0.63,
+    "mention_score_decayed": 0.62,
     "last_main_idea": "Investing in companies that innovate in energy delivery and grid infrastructure can lead to significant returns as the demand for electricity increases and the need for a more efficient and sustainable grid becomes critical.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-31 \u2022 How Radiant and Heron Are Rethinking Power Generation and Delivery",
     "last_proof_snippet": "The grid is breaking. We're so bottleneck today on the lines that run Chris Cross across the country. I mean, it's this very complicated giant organic machine. New power is not the problem. Delivery is the problem. The energy services we're",
@@ -20938,7 +21112,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-31",
     "mention_score": 1,
-    "mention_score_decayed": 0.63,
+    "mention_score_decayed": 0.62,
     "last_main_idea": "Investing in companies that innovate in energy delivery and grid infrastructure can lead to significant returns as the demand for electricity increases and the need for a more efficient and sustainable grid becomes critical.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-31 \u2022 How Radiant and Heron Are Rethinking Power Generation and Delivery",
     "last_proof_snippet": "The grid is breaking. We're so bottleneck today on the lines that run Chris Cross across the country. I mean, it's this very complicated giant organic machine. New power is not the problem. Delivery is the problem. The energy services we're",
@@ -21003,7 +21177,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-31",
     "mention_score": 1,
-    "mention_score_decayed": 0.63,
+    "mention_score_decayed": 0.62,
     "last_main_idea": "Investing in AI-enhanced ETFs like PQNT and PQUS can provide enhanced equity exposure in the current market environment.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-31 \u2022 The Psychology of Market Champions: Inside the Minds of Point 72 & Citadel Portfolio Managers | Dr. Gio Valiante",
     "last_proof_snippet": "Today's episode is brought to you by Peak Day Asset Management and their AI enhanced ETF range, ticker's PQ&T and PQUS. You'll hear more about how they're using AI to enhance equity exposure later in the show. For now, let's get into it. We",
@@ -21067,7 +21241,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.62,
+    "mention_score_decayed": 0.6,
     "last_main_idea": "Invest in companies and technologies that are reshaping industries and have the potential to create significant economic value for a broad user base, rather than just the companies themselves.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-30 \u2022 Marc Andreessen on Evaluating Founders and AI's Consumer Surplus",
     "last_proof_snippet": "I'm competing with myself. Life just gets a lot simpler if you just assume everything is your own fault. Everybody's kind of feeling tense and nervous and anxious and, you know, fearful and so forth. But everybody's pretending they're not f",
@@ -21134,7 +21308,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.6,
+    "mention_score_decayed": 0.59,
     "last_main_idea": "The democratization of alternative investments provides retail investors with new opportunities, but also comes with structural differences and risks that must be understood.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-29 \u2022 The 2026 Private Credit Liquidity Crunch | Leyla Kunimoto on Redemptions in Semi-liquid Vehicles, Private/Public BDCs, and the Future of Alternatives",
     "last_proof_snippet": "Today's episode is brought you by Pictay asset management and their AI enhanced ETF range, ticker PQNT and PQUS. You'll hear more about how they're using AI to enhance equity exposure later in the show. For now, let's get into it. I'm joine",
@@ -21441,7 +21615,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.57,
+    "mention_score_decayed": 0.56,
     "last_main_idea": "Sovereign credit investing requires a deep understanding of the unique risks and dynamics of lending to governments, which can offer significant returns but also carries substantial risks, particularly in the current geopolitical climate.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-27 \u2022 Investing in Sovereign Credit with Lupin Ramon",
     "last_proof_snippet": "Today's episode is brought to you by the unlimited HFGM global macro ETF ticker HFGM. Later in the show, you'll hear more about HFGM currently the number one morning star rated funds sits its inception in the US macro trading category. Let'",
@@ -21506,7 +21680,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.57,
+    "mention_score_decayed": 0.56,
     "last_main_idea": "Investing in companies that apply lessons from SpaceX and Tesla can lead to innovation in the physical economy, focusing on scalability, communication, and technical expertise.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-27 \u2022 Lessons from SpaceX and Tesla: Building for the Physical Economy",
     "last_proof_snippet": "I interned at SpaceX four times. I couldn't leave. Like, it was the dream. I spent about a decade at Tesla and got to run around the batteries by chain. Chandler Lujica is the CEO of Gallaudet. I, next generation, Missile Propulsion, Turner",
@@ -21571,7 +21745,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.57,
+    "mention_score_decayed": 0.56,
     "last_main_idea": "Investing in companies that apply lessons from SpaceX and Tesla can lead to innovation in the physical economy, focusing on scalability, communication, and technical expertise.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-27 \u2022 Lessons from SpaceX and Tesla: Building for the Physical Economy",
     "last_proof_snippet": "I interned at SpaceX four times. I couldn't leave. Like, it was the dream. I spent about a decade at Tesla and got to run around the batteries by chain. Chandler Lujica is the CEO of Gallaudet. I, next generation, Missile Propulsion, Turner",
@@ -21943,7 +22117,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.55,
+    "mention_score_decayed": 0.54,
     "last_main_idea": "Investing in advanced manufacturing and workforce development for submarine production could lead to increased efficiency and meet the growing demand for naval capabilities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-25 \u2022 Submarine Manufacturing and Advanced Factories",
     "last_proof_snippet": "The real advantage that submarines bring is our stealth and access. We can pretty much go anywhere in the world undetected. We can carry nuclear missiles on our ballistic missile submarines, and that ensures that we continue our decades of",
@@ -22003,7 +22177,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.55,
+    "mention_score_decayed": 0.54,
     "last_main_idea": "Investing in advanced manufacturing and workforce development for submarine production could lead to increased efficiency and meet the growing demand for naval capabilities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-25 \u2022 Submarine Manufacturing and Advanced Factories",
     "last_proof_snippet": "The real advantage that submarines bring is our stealth and access. We can pretty much go anywhere in the world undetected. We can carry nuclear missiles on our ballistic missile submarines, and that ensures that we continue our decades of",
@@ -22062,7 +22236,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.55,
+    "mention_score_decayed": 0.54,
     "last_main_idea": "Investment in psychedelics for longevity and personal growth is based on the potential for these substances to induce significant changes in consciousness and promote personal rejuvenation.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-26 \u2022 Exploring Psychedelics for Longevity and Personal Growth",
     "last_proof_snippet": "Brian Johnson, thanks for being here. Yeah, it's good to see you. How are you feeling? Maybe just share with us what you did a few days ago. Yeah, I did a I did five MEO DMT, which is the most powerful psychedelic on the planet. Some are be",
@@ -22122,7 +22296,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.54,
+    "mention_score_decayed": 0.52,
     "last_main_idea": "Investing in companies that can provide innovative power solutions for the modern, electronic battlefield can offer significant opportunities as military forces worldwide seek to upgrade their capabilities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-24 \u2022 The Tactical Power Layer for Modern Warfare",
     "last_proof_snippet": "All the things we want to do is really about the soldier. In the mud, cold, wet, tired, hungry, what makes their lives easier or better. Your average soldier today, they're drawing just by themselves. 30 to 60 watts of power continuously du",
@@ -22182,7 +22356,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.54,
+    "mention_score_decayed": 0.52,
     "last_main_idea": "Investing in companies that can provide innovative power solutions for the modern, electronic battlefield can offer significant opportunities as military forces worldwide seek to upgrade their capabilities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-24 \u2022 The Tactical Power Layer for Modern Warfare",
     "last_proof_snippet": "All the things we want to do is really about the soldier. In the mud, cold, wet, tired, hungry, what makes their lives easier or better. Your average soldier today, they're drawing just by themselves. 30 to 60 watts of power continuously du",
@@ -22246,7 +22420,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-03-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.54,
+    "mention_score_decayed": 0.52,
     "last_main_idea": "Invest in AI and robotics sectors as they are poised for significant growth and disruption, with a focus on companies that align with human values and contribute to abundance.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-03-24 \u2022 The Future of AI and its Impact on Society and Investment",
     "last_proof_snippet": "We're living through a historic moment right now. The next thing that's really interesting and terrifying also is recursive self-improvement, but we don't have it yet. What we do have, I keep asking my friends, when does the asymptote arriv",
@@ -22314,7 +22488,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.52,
+    "mention_score_decayed": 0.51,
     "last_main_idea": "Investing in ground infrastructure for space can unlock the next wave of innovation, making space missions more useful and efficient.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-23 \u2022 Ground Infrastructure: The Overlooked Bottleneck in the Space Economy",
     "last_proof_snippet": "Every satellite requires a connection point back to birth. If you don't have it, you don't have a space mesh. It literally is just like a rock in space. You just won a $50 million contract with space forest out modernized. It Northwood, you",
@@ -22374,7 +22548,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.52,
+    "mention_score_decayed": 0.51,
     "last_main_idea": "Invest in companies that can leverage the evolving landscape of AI and GPU computing, particularly those with the agility to adapt and scale in a rapidly changing market.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-23 \u2022 Interview with Michael Intrader at Nvidia's GTC Conference",
     "last_proof_snippet": "I'm here at Nvidia's annual GTC conference, and I'm going to interview for amazing AI CEO's stick with us. I'm doing all of you! Our episode is sponsored by the New York Stock Exchange. Are you looking to change the world in race capital? D",
@@ -22435,7 +22609,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.52,
+    "mention_score_decayed": 0.51,
     "last_main_idea": "Svellen Capital sees opportunities in commodities and shipping markets amidst the Middle East crisis, with a focus on the practical implications of geopolitical events on global trade and logistics.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-23 \u2022 Monetary Matters: Middle East Crisis and Global Market Impact",
     "last_proof_snippet": "Today's episode is brought to you by the two-cream Cornfond Ticker C.O.R.N. Let's get into it. Welcome to this special edition of Other People's Money. I am joined today by Nadia Martin Wiggen, director at Svellen Capital. I've had Svellen",
@@ -22498,7 +22672,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.51,
+    "mention_score_decayed": 0.5,
     "last_main_idea": "The disruption in fertilizer supply due to geopolitical tensions presents an opportunity in agricultural commodities, particularly corn, which is heavily impacted by rising input costs and could see price support from tightened supply.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-22 \u2022 Monetary Matters with Jack Farley: Impact of Iran War on Fertilizer Prices and Agriculture",
     "last_proof_snippet": "Today's episode is brought to you by the two Korean corn fund, take our CORN. Let's get into it. I am joined by Josh Lindville, Vice President of Fertilizer at Stone X. Josh, welcome to monetary matters. Nice. They just have me on, excited",
@@ -22556,7 +22730,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.51,
+    "mention_score_decayed": 0.5,
     "last_main_idea": "Invest in innovation and infrastructure to create a smarter grid and incentivize clean energy adoption, while avoiding over-regulation that leads to unintended economic and environmental consequences.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-23 \u2022 California's Spending Woes and the Governor's Race",
     "last_proof_snippet": "Matt Mayhand, welcome to all in. Thanks, David. I have no idea who you are. Who are you? I mean, you're a guy who kind of popped up running for Governor of California last minute. Have that come about and who is Matt Mayhand? Well, David, l",
@@ -22620,7 +22794,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-03-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.49,
+    "mention_score_decayed": 0.48,
     "last_main_idea": "The integration of AI into mathematics can accelerate discovery and problem-solving, presenting opportunities for investment in AI technology and its applications in scientific research.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-03-20 \u2022 The Impact of AI on Mathematics and Scientific Discovery",
     "last_proof_snippet": "Okay, today, I'm chatting with Terrence Tau, who needs an interaction. Terrence, I want to begin by having you retell the story of how Kepler discovered the laws of planetary motion, because I think this will be a great jumping off point to",
@@ -22677,7 +22851,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-02-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.48,
+    "mention_score_decayed": 0.47,
     "last_main_idea": "Investing in AI and robotics companies that leverage neural networks for autonomous manufacturing could yield significant returns as this market is expected to become the largest economy globally.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-02-17 \u2022 Humanoid Run on Neural Net, Autonomous Manufacturing, $50T Market #229",
     "last_proof_snippet": "Brett Adcock: Humanoid Run on Neural Net, Autonomous Manufacturing, $50T Market #229 Moonshots with Peter Diamandis Episode 229 00:00:00 I am blown away by how far you've come. The things that you can do with Neural Nets now does completely",
@@ -22741,7 +22915,7 @@ const dashboardData = {
     "last_podcast_name": "a16z Live",
     "last_episode_date": "2026-02-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.48,
+    "mention_score_decayed": 0.47,
     "last_main_idea": "Invest in companies that are at the forefront of developing AI-enabled, immersive technologies that can redefine consumer interactions beyond the current app-centric model.",
     "last_proof_cite": "a16z Live \u2022 2026-02-15 \u2022 The Future of Consumer Technology and the Post-Mobile Phone Era",
     "last_proof_snippet": "Is there a better way? I think there is. Every single interface that I interact with, every single problem space that I'm trying to solve are going to be made easier by virtue of this new technology. If you were starting from scratch today,",
@@ -22803,7 +22977,7 @@ const dashboardData = {
     "last_podcast_name": null,
     "last_episode_date": null,
     "mention_score": 1,
-    "mention_score_decayed": 0.48,
+    "mention_score_decayed": 0.47,
     "last_main_idea": null,
     "last_proof_cite": null,
     "last_proof_snippet": null,
@@ -23430,7 +23604,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.44,
+    "mention_score_decayed": 0.43,
     "last_main_idea": "Invest in technology-driven businesses with a strong founder's mindset that focus on building and scaling rather than introspection, as they are more likely to shape the future and create significant value.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-15 \u2022 The Intersection of Technology, Entrepreneurship, and the Future",
     "last_proof_snippet": "We just have this fundamental view. The technology is like on balance in an armistly powerful force in the world. And the big problem with the world is that there's not enough technology. There's not enough information. There's not enough i",
@@ -23457,7 +23631,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.44,
+    "mention_score_decayed": 0.43,
     "last_main_idea": "Invest in platinum as a hybrid precious and industrial metal with potential for growth outside of traditional economic cycles, and consider the impact of AI on productivity and government deficits on interest rates.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-15 \u2022 Monetary Matters with Jack Farley: Precious Metals, Bonds, and Economic Cycles",
     "last_proof_snippet": "Join today by Alex Gorovich, founder and chief investment officer at Hauntay Asset Management and author of the second edition of the next perfect trade, the Magic Sword of Necessity. Alex, great to talk to you today. We haven't spoken in a",
@@ -23484,7 +23658,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.42,
+    "mention_score_decayed": 0.41,
     "last_main_idea": "Invest in technologies and platforms that democratize capitalism and leverage AI to create scalable solutions in coding and product development.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-13 \u2022 Investing in Capitalism: Trump Accounts, AI, and the Future of Wealth",
     "last_proof_snippet": "All right, everybody. Welcome back to the number one podcast in the world. Free birds out saving the world, creating new potatoes or I don't know, Kim Wa. Maybe some Brussels sprouts. I'm not sure what he's working on at this point in his p",

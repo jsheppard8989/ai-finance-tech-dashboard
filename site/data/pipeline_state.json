@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-04-21T22:07:07.571942",
-  "last_updated": "2026-04-21T22:07:07.571942",
-  "last_pipeline_run": "2026-04-21T22:07:07.571942",
+  "generated_at": "2026-04-22T05:05:42.691045",
+  "last_updated": "2026-04-22T05:05:42.691045",
+  "last_pipeline_run": "2026-04-22T05:05:42.691045",
   "main_page": {
     "overton": 8,
     "insights": 8,
-    "pundits": 107
+    "pundits": 108
   },
   "counts": {
     "ticker_mentions": 166,
-    "podcast_episodes": 145,
+    "podcast_episodes": 146,
     "newsletters": 7,
     "daily_scores": 104,
-    "overton_terms_total": 121,
-    "latest_insights_total": 159,
+    "overton_terms_total": 122,
+    "latest_insights_total": 160,
     "today_mentions": {},
-    "podcasts_analyzed": 2
+    "podcasts_analyzed": 1
   },
   "step_results": {
     "downloaded": 3,
@@ -51,11 +51,11 @@
       "status": "needs_transcription"
     },
     {
-      "id": "b895718f-a269-4f64-a065-41cc3748fffe",
+      "id": "d557b656-099d-4e03-9e76-28b9c21afa67",
       "podcast": "The a16z Show",
-      "title": "Marc Andreessen: Monitoring the Situation and the Future of Media",
-      "published": "2026-04-21",
-      "rss_guid": "b895718f-a269-4f64-a065-41cc3748fffe",
+      "title": "Balaji Srinivasan: Prove Correct, Not Just Go Direct",
+      "published": "2026-04-22",
+      "rss_guid": "d557b656-099d-4e03-9e76-28b9c21afa67",
       "stages": {
         "downloaded": true,
         "transcribed": false,
@@ -74,11 +74,11 @@
       "status": "needs_transcription"
     },
     {
-      "id": "64387a37-d697-4b42-b5d1-2a4e0c8d4dbf",
-      "podcast": "The Jack Mallers Show",
-      "title": "All Roads Lead to Bitcoin",
+      "id": "b895718f-a269-4f64-a065-41cc3748fffe",
+      "podcast": "The a16z Show",
+      "title": "Marc Andreessen: Monitoring the Situation and the Future of Media",
       "published": "2026-04-21",
-      "rss_guid": "64387a37-d697-4b42-b5d1-2a4e0c8d4dbf",
+      "rss_guid": "b895718f-a269-4f64-a065-41cc3748fffe",
       "stages": {
         "downloaded": true,
         "transcribed": true,
@@ -94,9 +94,9 @@
   "available_from_rss": [
     {
       "podcast": "The a16z Show",
-      "title": "Marc Andreessen: Monitoring the Situation and the Future of Media",
-      "published": "Tue, 21 Apr 2026 10:00:00 +0000",
-      "published_date": "2026-04-21",
+      "title": "Balaji Srinivasan: Prove Correct, Not Just Go Direct",
+      "published": "Wed, 22 Apr 2026 10:00:00 +0000",
+      "published_date": "2026-04-22",
       "rss_guid": ""
     },
     {
@@ -114,7 +114,7 @@
       "title": "Banks' \u201cConsiderable\u201d Exposure to Private Credit | Chris Whalen on Banks\u2019 Loans to NBFIs, Plus CRE, Gold, and Payments",
       "status": "needs_transcription",
       "published": "2026-04-18",
-      "age_days": 3,
+      "age_days": 4,
       "next_blocker": "transcribed"
     }
   ],

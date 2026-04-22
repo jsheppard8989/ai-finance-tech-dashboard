@@ -1,5 +1,22 @@
 [
   {
+    "id": 171,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Marc Andreessen: Monitoring the Situation and the Future of Media",
+    "episode_date": "2026-04-21",
+    "summary": "The a16z Show podcast discusses the evolution of media from centralized to social platforms, examining how this shift has accelerated the cycle of news and controversy, and how it impacts politics, culture, and decision-making. The conversation with Mark Andrewson, co-founder and general partner at E16Z, delves into the history of CNN and its concept of 'randomonium', the impact of 24-hour news on society, and the potential for an internet-native president.",
+    "key_takeaways": [
+      "Media has shifted from centralized to social platforms, affecting how people interpret truth and conflict.",
+      "The 24-hour news cycle, pioneered by CNN, has been taken to the extreme by the internet, compressing time and amplifying emotion.",
+      "More voices mean more access to information but also more noise and manipulation.",
+      "Social media turns events into viral narratives, reshaping societal behavior and decision-making.",
+      "The concept of 'randomonium' from CNN's history reflects the need for emotional intensity and tribal dynamics in modern media.",
+      "The potential for an internet-native president who disregards traditional media entirely is a sign of further media evolution."
+    ],
+    "investment_thesis": "Investing in media and understanding its evolution is crucial as it shapes societal behavior, influences politics, and impacts decision-making processes.",
+    "key_tickers": null
+  },
+  {
     "id": 170,
     "podcast_name": "The Jack Mallers Show",
     "episode_title": "All Roads Lead to Bitcoin",
