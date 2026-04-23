@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-22T22:06:15.612761",
-  "last_updated": "2026-04-22T22:06:15.612761",
-  "last_pipeline_run": "2026-04-22T22:06:15.612761",
+  "generated_at": "2026-04-23T05:03:02.388679",
+  "last_updated": "2026-04-23T05:03:02.388679",
+  "last_pipeline_run": "2026-04-23T05:03:02.388679",
   "main_page": {
     "overton": 8,
     "insights": 8,
@@ -15,16 +15,16 @@
     "overton_terms_total": 122,
     "latest_insights_total": 161,
     "today_mentions": {},
-    "podcasts_analyzed": 2
+    "podcasts_analyzed": 0
   },
   "step_results": {
-    "downloaded": 2,
-    "transcribed": 1,
-    "analyzed": 1,
-    "insight_created": 1,
-    "deep_dive_created": 1,
-    "published": 1,
-    "total": 2
+    "downloaded": 1,
+    "transcribed": 0,
+    "analyzed": 0,
+    "insight_created": 0,
+    "deep_dive_created": 0,
+    "published": 0,
+    "total": 1
   },
   "episodes": [
     {
@@ -49,23 +49,6 @@
         "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
       },
       "status": "needs_transcription"
-    },
-    {
-      "id": "d557b656-099d-4e03-9e76-28b9c21afa67",
-      "podcast": "The a16z Show",
-      "title": "Balaji Srinivasan: Prove Correct, Not Just Go Direct",
-      "published": "2026-04-22",
-      "rss_guid": "d557b656-099d-4e03-9e76-28b9c21afa67",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "deep_dive_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "status": "complete"
     }
   ],
   "available_from_rss": [
@@ -84,7 +67,7 @@
       "title": "Banks' \u201cConsiderable\u201d Exposure to Private Credit | Chris Whalen on Banks\u2019 Loans to NBFIs, Plus CRE, Gold, and Payments",
       "status": "needs_transcription",
       "published": "2026-04-18",
-      "age_days": 4,
+      "age_days": 5,
       "next_blocker": "transcribed"
     }
   ],
