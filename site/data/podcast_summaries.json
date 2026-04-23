@@ -1,5 +1,21 @@
 [
   {
+    "id": 172,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Balaji Srinivasan: Prove Correct, Not Just Go Direct",
+    "episode_date": "2026-04-22",
+    "summary": "The podcast discusses the breakdown in trust across media, hiring, and online communication due to the rise of synthetic content and the need for a new stack built on cryptography, on-chain data, and verifiable records. The conversation emphasizes the shift from relying on institutions to assert truth to systems that make truth provable. Bolligies Renovison, an Angel Investor, Entrepreneur, and author, shares insights on replacing trust with provable facts in a world of infinite content.",
+    "key_takeaways": [
+      "Blockchain is likened to an armored car for information, making it easy to verify and difficult to fake.",
+      "The growing distrust in media is due to the increasing cost of verifying content as synthetic content floods systems.",
+      "A new stack is emerging that relies on cryptography and verifiable records to make truth provable rather than asserted.",
+      "The importance of decentralized production and global equality in access to information and tools is highlighted.",
+      "The need for technologists to build a better form of media that is open source, verifiable, and does not rely on trust but on cryptographic truth."
+    ],
+    "investment_thesis": "Invest in technologies and platforms that leverage cryptography and blockchain to provide verifiable information and restore trust in digital content.",
+    "key_tickers": null
+  },
+  {
     "id": 171,
     "podcast_name": "The a16z Show",
     "episode_title": "Marc Andreessen: Monitoring the Situation and the Future of Media",

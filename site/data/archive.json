@@ -1,6 +1,29 @@
 {
   "insights": [
     {
+      "id": 187,
+      "title": "Balaji Srinivasan: Prove Correct, Not Just Go Direct",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-04-22",
+      "summary": "The podcast discusses the breakdown in trust across media, hiring, and online communication due to the rise of synthetic content and the need for a new stack built on cryptography, on-chain data, and verifiable records. The conversation emphasizes the shift from relying on institutions to assert truth to systems that make truth provable. Bolligies Renovison, an Angel Investor, Entrepreneur, and author, shares insights on replacing trust with provable facts in a world of infinite content.",
+      "key_takeaway": "Invest in technologies and platforms that leverage cryptography and blockchain to provide verifiable information and restore trust in digital content.",
+      "tickers_mentioned": [
+        "COIN",
+        "SQ",
+        "GOOGL",
+        "MSFT",
+        "AMD"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-22",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 172
+    },
+    {
       "id": 185,
       "title": "All Roads Lead to Bitcoin",
       "source_type": "podcast",
@@ -146,11 +169,11 @@
         "LYFT"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-04-19",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-04-23",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 164
     },
     {
