@@ -100,6 +100,24 @@
     "key_tickers": null
   },
   {
+    "id": 173,
+    "podcast_name": "Monetary Matters with Jack Farley",
+    "episode_title": "Banks' \u201cConsiderable\u201d Exposure to Private Credit | Chris Whalen on Banks\u2019 Loans to NBFIs, Plus CRE, Gold, and Payments",
+    "episode_date": "2026-04-18",
+    "summary": "In this episode of Monetary Matters with Jack Farley, banking specialist Chris Wayland joins to discuss the current bank earnings season, with a focus on bank exposure to private credit and non-depository financial institutions. They delve into the nuances of credit risk migration, the impact of interest rate changes on commercial real estate, and the potential for private equity and credit debt to be converted into equity. The conversation also touches on the competitive landscape of payment platforms, with a particular emphasis on PayPal and its challenges against tech giants like Apple.",
+    "key_takeaways": [
+      "Banks generally have senior positions in private credit, with investors bearing the initial risk of losses.",
+      "Large banks are adept at managing exposure to non-depository financial institutions, often selling undesirable exposures and buying protection through CLOs.",
+      "Private credit was the only sector experiencing double-digit growth, leading many banks to invest, anticipating easy profits.",
+      "The lack of loan growth in the industry has driven banks towards private credit, which may result in losses for some.",
+      "Commercial real estate has not seen the predicted doom, but losses are real and often remain private, with discounts on asset sales and concessions being made by owners."
+    ],
+    "investment_thesis": "Investment in private credit and non-depository financial institutions presents both opportunities and risks for banks, with the potential for debt to be converted into equity in challenging economic conditions.",
+    "key_tickers": [
+      "HFGM"
+    ]
+  },
+  {
     "id": 168,
     "podcast_name": "Moonshots with Peter Diamandis",
     "episode_title": "Sam Altman\u2019s Attack, Amazon vs. Starlink, and What Opus 4.7 Actually Means | #248",
@@ -154,10 +172,10 @@
   },
   {
     "id": 163,
-    "podcast_name": "Macro Voices",
+    "podcast_name": "MacroVoices",
     "episode_title": "MacroVoices #528 Luke Gromen: Hormuz Could Lead To a 1956 US Suez Moment",
     "episode_date": "2026-04-16",
-    "summary": "In this episode of Macro Voices, hosts Eric Townsend and Patrick Suresne discuss the Iran crisis, its implications for inflation, and potential market shifts. They are joined by Luke Groman of Forest for the Trees, who provides insights on the escalating risks around the Strait of Hormuz and potential non-linear breaks in global logistics. Additionally, Rory Johnson of Commodity Context offers an update on the Iran crisis and its impact on global energy markets. The episode also covers Patrick's trade of the week, focusing on positioning in bonds for inflation risk and potential growth slowdown.",
+    "summary": "In this episode of Macro Voices, hosts Eric Townsend and Patrick Suresne discuss the Iran crisis, its implications for inflation, and potential market shifts. They are joined by Luke Groman of Forest for the Trees, who provides insights on the escalating risks around the Strait of Hormuz and potential non-linear breaks in global logistics. Additionally, Rory Johnston of Commodity Context offers an update on the Iran crisis and its impact on global energy markets. The episode also covers Patrick's trade of the week, focusing on positioning in bonds for inflation risk and potential growth slowdown.",
     "key_takeaways": [
       "The Iran crisis could have far-reaching effects on inflation and global logistics.",
       "Markets may be underpricing the severity of supply chain disruptions.",
@@ -406,7 +424,7 @@
   },
   {
     "id": 148,
-    "podcast_name": "Macro Voices",
+    "podcast_name": "MacroVoices",
     "episode_title": "MacroVoices #527 Adam Rozencwajg: What Comes Next After The Iran Crisis",
     "episode_date": "2026-04-09",
     "summary": "In this episode of Macro Voices, hosts Eric Townsend and Patrick Suresne discuss the impact of geopolitical tensions, particularly the Iran conflict, on global energy and commodity markets. They feature interviews with Adam Rosenswag, co-founder of Garing and Rosenswag, and Jim Bianco, founder of Bianco Research. The conversation covers the physical dislocation in oil markets, the potential implications for food prices and inflation, and the outlook for commodities like uranium and gold. They also analyze the market's reaction to the potential ceasefire and its effects on oil prices and broader market trends.",
@@ -711,7 +729,7 @@
   },
   {
     "id": 132,
-    "podcast_name": "Macro Voices",
+    "podcast_name": "MacroVoices",
     "episode_title": "MacroVoices #526 Matt Barrie: Pay To PrAI",
     "episode_date": "2026-04-02",
     "summary": "This episode of Macro Voices features two main discussions: the escalating conflict between the U.S. and Iran, and the implications of artificial intelligence on private credit markets. The hosts, Eric Townsend and Patrick Suresne, dissect President Trump's speech indicating potential military action against Iran's civilian electric power infrastructure, which could escalate the conflict. The first guest, Matt Barry, CEO of Freelancer.com, discusses the impact of AI on the business model and potential market dislocation. The second guest, Dr. Onis Ahaji, provides an in-depth analysis of the geopolitical situation after President Trump's address. The episode also includes Patrick's trade of the week focusing on private credit markets and their relation to public markets.",
@@ -844,7 +862,7 @@
     "podcast_name": "The a16z Show",
     "episode_title": "Marc Andreessen on Evaluating Founders and AI's Consumer Surplus",
     "episode_date": "2026-03-30",
-    "summary": "In this episode of 'The a16z Show', Harry Stebbings interviews Mark Andreessen, co-founder of Andreessen Horowitz (a16z), discussing various aspects of venture capital, the tech industry, and the future of AI. Andreessen shares his views on introspection in business, the centralization of the tech industry, labor displacement myths, and the counterintuitive nature of venture capital where experience can sometimes hinder success. The conversation also touches on the importance of AI's economic value and its impact on users rather than just the companies building it.",
+    "summary": "In this episode of 'The a16z Show', Harry Stebbings interviews Marc Andreessen, co-founder of Andreessen Horowitz (a16z), discussing various aspects of venture capital, the tech industry, and the future of AI. Andreessen shares his views on introspection in business, the centralization of the tech industry, labor displacement myths, and the counterintuitive nature of venture capital where experience can sometimes hinder success. The conversation also touches on the importance of AI's economic value and its impact on users rather than just the companies building it.",
     "key_takeaways": [
       "Introspection in business can be overrated, as it may lead to emotional biases that cloud judgment.",
       "Centralization in the tech industry is at an all-time high, with Silicon Valley being more dominant than ever.",
@@ -877,26 +895,8 @@
     ]
   },
   {
-    "id": 120,
-    "podcast_name": "Unknown Podcast",
-    "episode_title": "https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-18%2Fdff54dee-2ba4-02bd-9c43-d935696550da",
-    "episode_date": "2026-03-28",
-    "summary": "The podcast episode features a discussion on the evolution of privacy in the digital age, particularly in the context of cryptocurrencies like Z-Cash. The conversation covers the importance of privacy, the role of Z-Cash in addressing privacy concerns, and the potential for cryptocurrencies to shape the future of finance. The guest shares insights into the technological aspects of Z-Cash and its potential to disrupt traditional financial systems.",
-    "key_takeaways": [
-      "Privacy is a significant concern in the digital age, and cryptocurrencies like Z-Cash offer solutions.",
-      "Z-Cash addresses issues of privacy, simplicity, quantum resistance, and scalability.",
-      "There is a growing interest in privacy among younger generations, which could drive adoption of privacy-focused cryptocurrencies.",
-      "The guest argues for a coalition around privacy in the cryptocurrency space.",
-      "Z-Cash's utility in scalability may surpass its privacy benefits, making it commercially important."
-    ],
-    "investment_thesis": "Investing in Z-Cash could be a way to capitalize on the growing demand for privacy in digital transactions and the potential for scalability improvements in blockchain technology.",
-    "key_tickers": [
-      "ZEC"
-    ]
-  },
-  {
     "id": 119,
-    "podcast_name": "All-In Podcast",
+    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "episode_title": "all in with chamath jason sacks frie jensen huang live nvidia s future physical ai rise of the 03b9c382",
     "episode_date": "2026-03-28",
     "summary": "This podcast episode features a discussion on the future of AI in the context of global financial systems. The conversation covers the shift from legacy systems to AI-driven platforms, the significance of the acquisition of Rock by Nvidia, and the importance of disaggregated computing in the AI era. Additionally, the podcast delves into the role of open-source models in AI and the impact of AI on job markets and education.",
@@ -930,7 +930,7 @@
   },
   {
     "id": 116,
-    "podcast_name": "All-In Podcast",
+    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "episode_title": "ALLIN-INTV Jensen V2 Ch",
     "episode_date": "2026-03-28",
     "summary": "This special episode discusses the evolution of AI and the tech industry, with a focus on the acquisition of Grok and the concept of disaggregated inference. The conversation delves into the complexities of AI processing and the shift from a GPU-centric approach to a more heterogeneous computing model. It also touches on the importance of both proprietary and open-source AI models, the impact of AI on various industries, and the role of education in preparing for the AI-driven future.",
@@ -1027,7 +1027,7 @@
   },
   {
     "id": 107,
-    "podcast_name": "Macro Voices",
+    "podcast_name": "MacroVoices",
     "episode_title": "Macro Voices Episode 525: Multi-Polar World Order, Iran Conflict, and Inflation Outlook",
     "episode_date": "2026-03-26",
     "summary": "In this episode of Macro Voices, hosts Eric Townsend and Patrick Suresne discuss the geopolitical situation in Iran, the shift towards a multi-polar world order, and the economic impacts of rising energy prices. They also cover the risks of second-round food inflation and the stresses in emerging markets and private credit. The show features interviews with Lynn Alden, founder of Lynn Alden Investment Strategy, and Michael Every, global strategist for economics and markets at Robo Banks, who provide insights into the Iran conflict and its broader macro implications.",
@@ -1332,7 +1332,7 @@
   },
   {
     "id": 91,
-    "podcast_name": "Macro Voices",
+    "podcast_name": "MacroVoices",
     "episode_title": "Macro Voices: The Iran Conflict's Impact on Inflation and Energy Markets",
     "episode_date": "2026-03-19",
     "summary": "In this episode of Macro Voices, hosts Eric Townsend and Patrick Suresne discuss the market implications of the ongoing Iran conflict and the potential for secular inflation. They are joined by Bloomberg Macro strategist Simon White, who shares insights on the risk of renewed inflation, parallels to 1970s stagflation, and how shifts in commodities, credit, and the yield curve could reshape the macro outlook. Rory Johnston, founder of Commodity Context, provides an additional perspective on the conflict's impact on energy markets, particularly the oil sector.",

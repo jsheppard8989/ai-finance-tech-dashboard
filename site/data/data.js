@@ -3,151 +3,151 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-04-23T05:03:12.448128",
-  chartsVersion: "2026-04-23T05:03:00.751872",
+  generatedAt: "2026-04-23T22:07:15.153584",
+  chartsVersion: "2026-04-23T22:07:07.459811",
   priceSnapshot: {
   "GOOGL": {
-    "price": 339.32,
-    "change_pct": 14.72,
+    "price": 338.89,
+    "change_pct": 12.97,
     "name": "GOOGL",
-    "updated_at": "2026-04-23T05:03:00.750825",
+    "updated_at": "2026-04-23T22:07:07.458325",
     "symbol_used": "GOOGL",
     "instrument_type": "equity_or_other",
     "is_continuous": false,
     "display_ticker": "GOOGL",
     "fetched_ok": true,
     "stale": false,
-    "source_timestamp": "2026-04-23T05:03:00.750838"
+    "source_timestamp": "2026-04-23T22:07:07.458343"
   },
   "NVDA": {
-    "price": 202.5,
-    "change_pct": 14.16,
+    "price": 199.64,
+    "change_pct": 12.38,
     "name": "NVDA",
-    "updated_at": "2026-04-23T05:03:00.750848",
+    "updated_at": "2026-04-23T22:07:07.458356",
     "symbol_used": "NVDA",
     "instrument_type": "equity_or_other",
     "is_continuous": false,
     "display_ticker": "NVDA",
     "fetched_ok": true,
     "stale": false,
-    "source_timestamp": "2026-04-23T05:03:00.750851"
+    "source_timestamp": "2026-04-23T22:07:07.458362"
   },
   "MSFT": {
-    "price": 432.92,
-    "change_pct": 15.92,
+    "price": 415.75,
+    "change_pct": 11.5,
     "name": "MSFT",
-    "updated_at": "2026-04-23T05:03:00.750865",
+    "updated_at": "2026-04-23T22:07:07.458373",
     "symbol_used": "MSFT",
     "instrument_type": "equity_or_other",
     "is_continuous": false,
     "display_ticker": "MSFT",
     "fetched_ok": true,
     "stale": false,
-    "source_timestamp": "2026-04-23T05:03:00.750869"
+    "source_timestamp": "2026-04-23T22:07:07.458378"
   },
   "WTI": {
-    "price": 94.83,
-    "change_pct": 0.44,
+    "price": 96.51,
+    "change_pct": 2.22,
     "name": "WTI",
-    "updated_at": "2026-04-23T05:03:00.750875",
+    "updated_at": "2026-04-23T22:07:07.458388",
     "symbol_used": "CL=F",
     "instrument_type": "futures",
     "is_continuous": true,
     "display_ticker": "WTI",
     "fetched_ok": true,
     "stale": false,
-    "source_timestamp": "2026-04-23T05:03:00.750879"
+    "source_timestamp": "2026-04-23T22:07:07.458393"
   },
   "BTC": {
-    "price": 77719.19,
-    "change_pct": 6.5,
+    "price": 78141.71,
+    "change_pct": 6.96,
     "name": "BTC",
-    "updated_at": "2026-04-23T05:03:00.750885",
+    "updated_at": "2026-04-23T22:07:07.458403",
     "symbol_used": "BTC-USD",
     "instrument_type": "crypto_spot",
     "is_continuous": false,
     "display_ticker": "BTC",
     "fetched_ok": true,
     "stale": false,
-    "source_timestamp": "2026-04-23T05:03:00.750888"
+    "source_timestamp": "2026-04-23T22:07:07.458408"
   },
   "S&P 500": {
-    "price": 7136.25,
-    "change_pct": 4.58,
+    "price": 7142.25,
+    "change_pct": 4.67,
     "name": "S&P 500",
-    "updated_at": "2026-04-23T05:03:00.750893",
+    "updated_at": "2026-04-23T22:07:07.458418",
     "symbol_used": "ES=F",
     "instrument_type": "futures",
     "is_continuous": true,
     "display_ticker": "S&P 500",
     "fetched_ok": true,
     "stale": false,
-    "source_timestamp": "2026-04-23T05:03:00.750896"
+    "source_timestamp": "2026-04-23T22:07:07.458423"
   },
   "AMZN": {
-    "price": 255.36,
-    "change_pct": 21.73,
+    "price": 255.08,
+    "change_pct": 19.87,
     "name": "AMZN",
-    "updated_at": "2026-04-23T05:03:00.750903",
+    "updated_at": "2026-04-23T22:07:07.458433",
     "symbol_used": "AMZN",
     "instrument_type": "equity_or_other",
     "is_continuous": false,
     "display_ticker": "AMZN",
     "fetched_ok": true,
     "stale": false,
-    "source_timestamp": "2026-04-23T05:03:00.750906"
+    "source_timestamp": "2026-04-23T22:07:07.458438"
   },
   "TSLA": {
-    "price": 387.51,
-    "change_pct": 7.47,
+    "price": 373.72,
+    "change_pct": 5.92,
     "name": "TSLA",
-    "updated_at": "2026-04-23T05:03:00.750911",
+    "updated_at": "2026-04-23T22:07:07.458447",
     "symbol_used": "TSLA",
     "instrument_type": "equity_or_other",
     "is_continuous": false,
     "display_ticker": "TSLA",
     "fetched_ok": true,
     "stale": false,
-    "source_timestamp": "2026-04-23T05:03:00.750914"
+    "source_timestamp": "2026-04-23T22:07:07.458453"
   },
   "COPPER": {
-    "price": 6.03,
-    "change_pct": 4.7,
+    "price": 6.01,
+    "change_pct": 4.4,
     "name": "COPPER",
-    "updated_at": "2026-04-23T05:03:00.750919",
+    "updated_at": "2026-04-23T22:07:07.458462",
     "symbol_used": "HG=F",
     "instrument_type": "futures",
     "is_continuous": true,
     "display_ticker": "COPPER",
     "fetched_ok": true,
     "stale": false,
-    "source_timestamp": "2026-04-23T05:03:00.750923"
+    "source_timestamp": "2026-04-23T22:07:07.458467"
   },
   "QQQ": {
-    "price": 655.11,
-    "change_pct": 11.99,
+    "price": 651.42,
+    "change_pct": 10.69,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-04-23T05:03:00.750928",
+    "updated_at": "2026-04-23T22:07:07.458476",
     "symbol_used": "QQQ",
     "instrument_type": "etf",
     "is_continuous": false,
     "display_ticker": "QQQ",
     "fetched_ok": true,
     "stale": false,
-    "source_timestamp": "2026-04-23T05:03:00.750931"
+    "source_timestamp": "2026-04-23T22:07:07.458481"
   },
   "BTC-USD": {
-    "price": 77719.19,
-    "change_pct": 6.5,
+    "price": 78141.71,
+    "change_pct": 6.96,
     "name": "Bitcoin USD",
-    "updated_at": "2026-04-23T05:03:00.750937",
+    "updated_at": "2026-04-23T22:07:07.458490",
     "symbol_used": "BTC-USD",
     "instrument_type": "crypto_spot",
     "is_continuous": false,
     "display_ticker": "BTC-USD",
     "fetched_ok": true,
     "stale": false,
-    "source_timestamp": "2026-04-23T05:03:00.750940"
+    "source_timestamp": "2026-04-23T22:07:07.458495"
   }
 },
   tickerScores: [
@@ -1058,6 +1058,25 @@ const dashboardData = {
       "podcast_episode_id": 168
     },
     {
+      "id": 188,
+      "title": "Banks' \u201cConsiderable\u201d Exposure to Private Credit | Chris Whalen on Banks\u2019 Loans to NBFIs, Plus CRE, Gold, and Payments",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-04-18",
+      "summary": "In this episode of Monetary Matters with Jack Farley, banking specialist Chris Wayland joins to discuss the current bank earnings season, with a focus on bank exposure to private credit and non-depository financial institutions. They delve into the nuances of credit risk migration, the impact of interest rate changes on commercial real estate, and the potential for private equity and credit debt to be converted into equity. The conversation also touches on the competitive landscape of payment platforms, with a particular emphasis on PayPal and its challenges against tech giants like Apple.",
+      "key_takeaway": "Investment in private credit and non-depository financial institutions presents both opportunities and risks for banks, with the potential for debt to be converted into equity in challenging economic conditions.",
+      "tickers_mentioned": [
+        "HFGM"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-23",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 173
+    },
+    {
       "id": 179,
       "title": "From Models to Mobility: Building Waymo with Dmitri Dolgov",
       "source_type": "podcast",
@@ -1094,11 +1113,11 @@ const dashboardData = {
         "GOOGL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-04-20",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-04-24",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 166
     },
     {
@@ -1128,9 +1147,9 @@ const dashboardData = {
       "id": 178,
       "title": "MacroVoices #528 Luke Gromen: Hormuz Could Lead To a 1956 US Suez Moment",
       "source_type": "podcast",
-      "source_name": "Macro Voices",
+      "source_name": "MacroVoices",
       "source_date": "2026-04-16",
-      "summary": "In this episode of Macro Voices, hosts Eric Townsend and Patrick Suresne discuss the Iran crisis, its implications for inflation, and potential market shifts. They are joined by Luke Groman of Forest for the Trees, who provides insights on the escalating risks around the Strait of Hormuz and potential non-linear breaks in global logistics. Additionally, Rory Johnson of Commodity Context offers an update on the Iran crisis and its impact on global energy markets. The episode also covers Patrick's trade of the week, focusing on positioning in bonds for inflation risk and potential growth slowdown.",
+      "summary": "In this episode of Macro Voices, hosts Eric Townsend and Patrick Suresne discuss the Iran crisis, its implications for inflation, and potential market shifts. They are joined by Luke Groman of Forest for the Trees, who provides insights on the escalating risks around the Strait of Hormuz and potential non-linear breaks in global logistics. Additionally, Rory Johnston of Commodity Context offers an update on the Iran crisis and its impact on global energy markets. The episode also covers Patrick's trade of the week, focusing on positioning in bonds for inflation risk and potential growth slowdown.",
       "key_takeaway": "Invest in sectors likely to benefit from increased inflation and supply chain disruptions, with a focus on energy, uranium, and domestic electrical infrastructure.",
       "tickers_mentioned": [
         "SPX",
@@ -1426,7 +1445,7 @@ const dashboardData = {
       "id": 164,
       "title": "MacroVoices #527 Adam Rozencwajg: What Comes Next After The Iran Crisis",
       "source_type": "podcast",
-      "source_name": "Macro Voices",
+      "source_name": "MacroVoices",
       "source_date": "2026-04-09",
       "summary": "In this episode of Macro Voices, hosts Eric Townsend and Patrick Suresne discuss the impact of geopolitical tensions, particularly the Iran conflict, on global energy and commodity markets. They feature interviews with Adam Rosenswag, co-founder of Garing and Rosenswag, and Jim Bianco, founder of Bianco Research. The conversation covers the physical dislocation in oil markets, the potential implications for food prices and inflation, and the outlook for commodities like uranium and gold. They also analyze the market's reaction to the potential ceasefire and its effects on oil prices and broader market trends.",
       "key_takeaway": "Investment opportunities may arise from the physical dislocation in energy markets and shifts in energy security, with a focus on commodities like oil, uranium, and gold.",
@@ -1771,7 +1790,7 @@ const dashboardData = {
       "id": 149,
       "title": "MacroVoices #526 Matt Barrie: Pay To PrAI",
       "source_type": "podcast",
-      "source_name": "Macro Voices",
+      "source_name": "MacroVoices",
       "source_date": "2026-04-02",
       "summary": "This episode of Macro Voices features two main discussions: the escalating conflict between the U.S. and Iran, and the implications of artificial intelligence on private credit markets. The hosts, Eric Townsend and Patrick Suresne, dissect President Trump's speech indicating potential military action against Iran's civilian electric power infrastructure, which could escalate the conflict. The first guest, Matt Barry, CEO of Freelancer.com, discusses the impact of AI on the business model and potential market dislocation. The second guest, Dr. Onis Ahaji, provides an in-depth analysis of the geopolitical situation after President Trump's address. The episode also includes Patrick's trade of the week focusing on private credit markets and their relation to public markets.",
       "key_takeaway": "Invest in sectors less affected by AI disruption and monitor geopolitical events for opportunities in private credit markets.",
@@ -1919,7 +1938,7 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "The a16z Show",
       "source_date": "2026-03-30",
-      "summary": "In this episode of 'The a16z Show', Harry Stebbings interviews Mark Andreessen, co-founder of Andreessen Horowitz (a16z), discussing various aspects of venture capital, the tech industry, and the future of AI. Andreessen shares his views on introspection in business, the centralization of the tech industry, labor displacement myths, and the counterintuitive nature of venture capital where experience can sometimes hinder success. The conversation also touches on the importance of AI's economic value and its impact on users rather than just the companies building it.",
+      "summary": "In this episode of 'The a16z Show', Harry Stebbings interviews Marc Andreessen, co-founder of Andreessen Horowitz (a16z), discussing various aspects of venture capital, the tech industry, and the future of AI. Andreessen shares his views on introspection in business, the centralization of the tech industry, labor displacement myths, and the counterintuitive nature of venture capital where experience can sometimes hinder success. The conversation also touches on the importance of AI's economic value and its impact on users rather than just the companies building it.",
       "key_takeaway": "Invest in companies and technologies that are reshaping industries and have the potential to create significant economic value for a broad user base, rather than just the companies themselves.",
       "tickers_mentioned": [
         "AAPL",
@@ -1957,29 +1976,10 @@ const dashboardData = {
       "podcast_episode_id": 122
     },
     {
-      "id": 127,
-      "title": "https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-18%2Fdff54dee-2ba4-02bd-9c43-d935696550da",
-      "source_type": "podcast",
-      "source_name": "Unknown Podcast",
-      "source_date": "2026-03-28",
-      "summary": "The podcast episode features a discussion on the evolution of privacy in the digital age, particularly in the context of cryptocurrencies like Z-Cash. The conversation covers the importance of privacy, the role of Z-Cash in addressing privacy concerns, and the potential for cryptocurrencies to shape the future of finance. The guest shares insights into the technological aspects of Z-Cash and its potential to disrupt traditional financial systems.",
-      "key_takeaway": "Investing in Z-Cash could be a way to capitalize on the growing demand for privacy in digital transactions and the potential for scalability improvements in blockchain technology.",
-      "tickers_mentioned": [
-        "ZEC"
-      ],
-      "sentiment": "neutral",
-      "display_on_main": 0,
-      "display_order": 0,
-      "added_date": "2026-03-28",
-      "archived_date": "2026-04-01",
-      "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 120
-    },
-    {
       "id": 128,
       "title": "all in with chamath jason sacks frie jensen huang live nvidia s future physical ai rise of the 03b9c382",
       "source_type": "podcast",
-      "source_name": "Unknown Podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
       "source_date": "2026-03-28",
       "summary": "This podcast episode features a discussion on the future of AI in the context of global financial systems. The conversation covers the shift from legacy systems to AI-driven platforms, the significance of the acquisition of Rock by Nvidia, and the importance of disaggregated computing in the AI era. Additionally, the podcast delves into the role of open-source models in AI and the impact of AI on job markets and education.",
       "key_takeaway": "Investing in AI-driven platforms and technologies is essential for capturing the growth in the global financial system and staying ahead in the AI era.",
@@ -1998,7 +1998,7 @@ const dashboardData = {
       "id": 129,
       "title": "the a16z show chris dixon from quant trading to building a16z crypto be2e5b4b",
       "source_type": "podcast",
-      "source_name": "Unknown Podcast",
+      "source_name": "The a16z Show",
       "source_date": "2026-03-28",
       "summary": "In this episode of the Unknown Podcast, Chris Dixon, a general partner at A16Z, discusses his journey from programming and quant finance to angel investing and building A16Z's dedicated crypto practice. Dixon shares insights on his unconventional investment bets, the importance of betting on talent in businesses, and his views on the evolution of angel investing and the tech industry. He also touches on the significance of New York as a tech hub and its potential in the crypto space.",
       "key_takeaway": "Betting on talented individuals in businesses rather than predicting tech trends is a more consistent approach to investing.",
@@ -2021,7 +2021,7 @@ const dashboardData = {
       "id": 130,
       "title": "ALLIN-INTV Jensen V2 Ch",
       "source_type": "podcast",
-      "source_name": "Unknown Podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
       "source_date": "2026-03-28",
       "summary": "This special episode discusses the evolution of AI and the tech industry, with a focus on the acquisition of Grok and the concept of disaggregated inference. The conversation delves into the complexities of AI processing and the shift from a GPU-centric approach to a more heterogeneous computing model. It also touches on the importance of both proprietary and open-source AI models, the impact of AI on various industries, and the role of education in preparing for the AI-driven future.",
       "key_takeaway": "Invest in companies that are at the forefront of AI technology, particularly those that can leverage both proprietary and open-source models to drive innovation and capture domain-specific expertise.",
@@ -2040,7 +2040,7 @@ const dashboardData = {
       "id": 131,
       "title": "the a16z show 20260319 1e92a9dd 78da 4417 b1ce 4b4318d1",
       "source_type": "podcast",
-      "source_name": "Unknown Podcast",
+      "source_name": "The a16z Show",
       "source_date": "2026-03-28",
       "summary": "This podcast episode features a discussion on the economic implications of AI, focusing on how it can transform labor, startups, and the ambitions of young professionals. The conversation revolves around Christian Catalini's paper 'Some Simple Economics of AI', which delves into the complex interplay between AI and the economy. The podcast explores the potential for AI to democratize access to resources, the shift in consensus formation, and the opportunities AI presents in the realms of art, finance, and technology.",
       "key_takeaway": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
@@ -2169,7 +2169,7 @@ const dashboardData = {
       "id": 124,
       "title": "Macro Voices Episode 525: Multi-Polar World Order, Iran Conflict, and Inflation Outlook",
       "source_type": "podcast",
-      "source_name": "Macro Voices",
+      "source_name": "MacroVoices",
       "source_date": "2026-03-26",
       "summary": "In this episode of Macro Voices, hosts Eric Townsend and Patrick Suresne discuss the geopolitical situation in Iran, the shift towards a multi-polar world order, and the economic impacts of rising energy prices. They also cover the risks of second-round food inflation and the stresses in emerging markets and private credit. The show features interviews with Lynn Alden, founder of Lynn Alden Investment Strategy, and Michael Every, global strategist for economics and markets at Robo Banks, who provide insights into the Iran conflict and its broader macro implications.",
       "key_takeaway": "Investors should consider the geopolitical risks and shifts in global power dynamics when constructing their portfolios, with a focus on sectors that may be affected by rising energy prices and inflation.",
@@ -2460,7 +2460,7 @@ const dashboardData = {
       "id": 105,
       "title": "Macro Voices: The Iran Conflict's Impact on Inflation and Energy Markets",
       "source_type": "podcast",
-      "source_name": "Macro Voices",
+      "source_name": "MacroVoices",
       "source_date": "2026-03-19",
       "summary": "In this episode of Macro Voices, hosts Eric Townsend and Patrick Suresne discuss the market implications of the ongoing Iran conflict and the potential for secular inflation. They are joined by Bloomberg Macro strategist Simon White, who shares insights on the risk of renewed inflation, parallels to 1970s stagflation, and how shifts in commodities, credit, and the yield curve could reshape the macro outlook. Rory Johnston, founder of Commodity Context, provides an additional perspective on the conflict's impact on energy markets, particularly the oil sector.",
       "key_takeaway": "The ongoing Iran conflict may lead to a secular inflation cycle, with oil prices being a key catalyst. Investors should monitor shifts in commodities, credit, and the yield curve for potential macroeconomic impacts.",
@@ -2545,7 +2545,7 @@ const dashboardData = {
       "id": 138,
       "title": "MacroVoices-2026-03-19-Simon-White",
       "source_type": "podcast",
-      "source_name": "Unknown Podcast",
+      "source_name": "MacroVoices",
       "source_date": "2026-03-19",
       "summary": "In this episode of Macrovoisers, hosts Eric Townsend and Patrick Suresne discuss the market implications of the prolonged Iran conflict and the Fed's decision not to cut rates. They analyze the potential for secular inflation, the impact on oil prices, and the broader macroeconomic outlook. The episode features an interview with Bloomberg Macro strategist Simon White, who discusses the risk of renewed inflation and the parallels to 1970s-style stagflation. Additionally, Rory Johnston from Commodity Context provides insights on the Iran conflict's effect on energy markets.",
       "key_takeaway": "The Iran conflict could lead to a renewed inflation cycle, affecting commodities and energy markets, with potential second-order effects that markets may currently be underpricing.",
@@ -2936,7 +2936,7 @@ const dashboardData = {
       "id": 75,
       "title": "Macro Voices Episode 523: Geopolitical Situation in Iran, Oil Prices, Precious Metals, and Market Analysis",
       "source_type": "podcast",
-      "source_name": "Macro Voices",
+      "source_name": "MacroVoices",
       "source_date": "2026-03-12",
       "summary": "In this episode of Macro Voices, hosts Eric Townsend and Patrick Suresne discuss a range of topics from the geopolitical situation in Iran to oil prices, precious metals, and the broader market implications. They feature interviews with Jim Bianco, founder of Bianco Research, and Dr. Onus Alhajji, who provides insights into the ongoing conflict and its impact on oil markets. The episode also includes a discussion on hedging portfolio tail risks and a post-game chart deck analysis.",
       "key_takeaway": "The current geopolitical tensions, particularly in Iran, are creating significant market volatility, especially in oil prices, which presents both risks and opportunities for investors.",
@@ -3295,7 +3295,7 @@ const dashboardData = {
       "id": 58,
       "title": "The Future of Advanced Nuclear Energy and its Impact on Markets",
       "source_type": "podcast",
-      "source_name": "Macro Voices",
+      "source_name": "MacroVoices",
       "source_date": "2026-03-05",
       "summary": "This episode of Macro Voices features an in-depth discussion on the future of nuclear energy, with a focus on the need for revolutionary changes in the industry. Hosts Eric Townsend and Patrick Suresneut interview Matt Lowzack, CEO of Alo Atomics, a company aiming to mass-produce modular nuclear power plants to address the impending global energy crisis. The conversation covers the potential of breeder technology, the importance of modularity for mass production, and the economic and logistical challenges of traditional nuclear power plant construction. Additionally, the hosts discuss market movements influenced by geopolitical tensions, particularly the situation in Iran, and provide insights into various financial instruments.",
       "key_takeaway": "Invest in advanced nuclear energy companies that are pioneering mass production and modularity to capitalize on the upcoming energy crisis and the shift away from fossil fuels.",
@@ -3885,7 +3885,7 @@ const dashboardData = {
       "id": 103,
       "title": "The Future of Consumer Technology and the Post-Mobile Phone Era",
       "source_type": "podcast",
-      "source_name": "a16z Live",
+      "source_name": "The a16z Show",
       "source_date": "2026-02-15",
       "summary": "In this episode of a16z Live, Meta CTO Andrew 'Boz' Bosworth discusses the future of consumer technology with A16z's David George. Boz shares his insights on the potential shift from an app-centric world to a new AI-enabled computing experience that is more agentic, adaptive, and immersive. The conversation covers the evolution of interfaces, the role of augmented reality glasses, and the impact of AI on the existing app model. Boz also touches on the challenges of building a developer ecosystem and the importance of aligning with consumer intent rather than app orchestration.",
       "key_takeaway": "Invest in companies that are at the forefront of developing AI-enabled, immersive technologies that can redefine consumer interactions beyond the current app-centric model.",
@@ -4203,7 +4203,7 @@ const dashboardData = {
       "id": 4,
       "title": "Healthcare AI Moats",
       "source_type": "podcast",
-      "source_name": "a16z Live",
+      "source_name": "The a16z Show",
       "source_date": "2026-01-25",
       "summary": "Tennr and Camber building operational infrastructure rather than clinical AI. First-mover advantage in regulatory capture.",
       "key_takeaway": "Watch for IPO pipeline in healthtech operations.",
@@ -4306,6 +4306,20 @@ const dashboardData = {
   ],
   "definitions": [],
   "overton": [
+    {
+      "id": 130,
+      "term": "Non-Depository Financial Institutions (NDFIs)",
+      "description": "Financial institutions that do not have the authority to accept deposits, such as mortgage lenders and other alternative credit providers.",
+      "first_detected_date": "2026-04-24",
+      "last_mentioned_date": "2026-04-24",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Understanding the role and risk of NDFIs is crucial for investors as banks' exposure to these entities can impact their financial health and stability.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null
+    },
     {
       "id": 129,
       "term": "Randomonium",
@@ -6171,24 +6185,26 @@ const dashboardData = {
       ]
     },
     {
-      "id": 183,
-      "title": "OpenAI's Identity Crisis, Datacenter Wars, Market Up on Iran News, Mamdani's First Tax, Swalwell Out",
+      "id": 188,
+      "title": "Banks' \u201cConsiderable\u201d Exposure to Private Credit | Chris Whalen on Banks\u2019 Loans to NBFIs, Plus CRE, Gold, and Payments",
       "source_type": "podcast",
-      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "source_date": "2026-04-17",
-      "summary": "In this episode, the hosts discuss the potential impact of a new real estate tax on second homes in New York City, targeting properties over 5 million dollars. They analyze how this tax could significantly affect demand and property values, particularly for non-residential owners. Additionally, the conversation delves into the controversy surrounding data centers, exploring the various reasons for public opposition, including concerns about energy consumption and wealth disparity. The hosts also touch on the role of data centers as symbols of wealth and progress, and the potential for shifts in public perception.",
-      "key_takeaway": "The investment thesis presented revolves around the potential negative impacts of new real estate taxes on luxury property demand and the growing controversy and potential regulation surrounding data centers, which could affect technology and real estate investments.",
-      "tickers_mentioned": "[\"AAPL\", \"AMZN\", \"GOOGL\"]",
-      "sentiment": "neutral",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-04-18",
+      "summary": "In this episode of Monetary Matters with Jack Farley, banking specialist Chris Wayland joins to discuss the current bank earnings season, with a focus on bank exposure to private credit and non-depository financial institutions. They delve into the nuances of credit risk migration, the impact of interest rate changes on commercial real estate, and the potential for private equity and credit debt to be converted into equity. The conversation also touches on the competitive landscape of payment platforms, with a particular emphasis on PayPal and its challenges against tech giants like Apple.",
+      "key_takeaway": "Investment in private credit and non-depository financial institutions presents both opportunities and risks for banks, with the potential for debt to be converted into equity in challenging economic conditions.",
+      "tickers_mentioned": "[\"HFGM\"]",
+      "sentiment": "bearish",
       "display_on_main": 1,
       "display_order": 0,
-      "added_date": "2026-04-20",
+      "added_date": "2026-04-23",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 166,
-      "episode_release_date": "2026-04-17",
-      "guest_name": null,
-      "key_tickers": []
+      "podcast_episode_id": 173,
+      "episode_release_date": "2026-04-18",
+      "guest_name": "banking specialist Chris Wayland",
+      "key_tickers": [
+        "HFGM"
+      ]
     }
   ],
   "definitions": [
@@ -6649,7 +6665,7 @@ const dashboardData = {
     "episode_evidence": null,
     "falsification_tracks": null,
     "insight_title": "Healthcare AI Moats",
-    "source_name": "a16z Live",
+    "source_name": "The a16z Show",
     "source_date": "2026-01-25",
     "key_tickers": []
   },
@@ -8420,7 +8436,7 @@ const dashboardData = {
     "episode_evidence": null,
     "falsification_tracks": null,
     "insight_title": "The Future of Advanced Nuclear Energy and its Impact on Markets",
-    "source_name": "Macro Voices",
+    "source_name": "MacroVoices",
     "source_date": "2026-03-05",
     "key_tickers": [
       "S&P 500",
@@ -9655,7 +9671,7 @@ const dashboardData = {
     "episode_evidence": null,
     "falsification_tracks": null,
     "insight_title": "Macro Voices Episode 523: Geopolitical Situation in Iran, Oil Prices, Precious Metals, and Market Analysis",
-    "source_name": "Macro Voices",
+    "source_name": "MacroVoices",
     "source_date": "2026-03-12",
     "key_tickers": [
       "S&P 500",
@@ -11612,7 +11628,7 @@ const dashboardData = {
     "episode_evidence": null,
     "falsification_tracks": null,
     "insight_title": "The Future of Consumer Technology and the Post-Mobile Phone Era",
-    "source_name": "a16z Live",
+    "source_name": "The a16z Show",
     "source_date": "2026-02-15",
     "key_tickers": []
   },
@@ -11747,7 +11763,7 @@ const dashboardData = {
     "episode_evidence": null,
     "falsification_tracks": null,
     "insight_title": "Macro Voices: The Iran Conflict's Impact on Inflation and Energy Markets",
-    "source_name": "Macro Voices",
+    "source_name": "MacroVoices",
     "source_date": "2026-03-19",
     "key_tickers": [
       "S&P 500",
@@ -13106,7 +13122,7 @@ const dashboardData = {
     "episode_evidence": null,
     "falsification_tracks": null,
     "insight_title": "Macro Voices Episode 525: Multi-Polar World Order, Iran Conflict, and Inflation Outlook",
-    "source_name": "Macro Voices",
+    "source_name": "MacroVoices",
     "source_date": "2026-03-26",
     "key_tickers": [
       "SMP-500",
@@ -13229,80 +13245,6 @@ const dashboardData = {
       "SPCE"
     ]
   },
-  "127": {
-    "id": 118,
-    "insight_id": 127,
-    "podcast_episode_id": 120,
-    "overview": "The podcast conversation highlights the importance of privacy in the digital age, particularly in the context of cryptocurrencies like Z-Cash. The investment thesis revolves around the growing demand for privacy-focused technologies and the potential for Z-Cash to scale and become a dominant player in this space. As privacy concerns escalate and quantum computing advances, the need for quantum-resistant cryptocurrencies will likely increase, making Z-Cash a timely investment. This analysis will explore the investment implications, key takeaways, and potential catalysts for Z-Cash and related technology companies.",
-    "key_takeaways_detailed": [
-      "Privacy is becoming increasingly important in the digital age, with younger generations valuing it more than previous ones.",
-      "Z-Cash offers a solution to privacy concerns in the cryptocurrency space, with features like quantum resistance and scalability.",
-      "The demand for privacy-focused technologies is likely to grow as quantum computing advances, making Z-Cash a potential long-term investment.",
-      "Investors should consider the potential for Z-Cash to scale and become a dominant player in the privacy-focused cryptocurrency market.",
-      "The ability to maintain privacy and sovereignty in a digital world is crucial for creativity and innovation, which could have broader implications for technology companies."
-    ],
-    "investment_thesis": "The core investment logic is centered around the growing demand for privacy-focused technologies and the potential for Z-Cash to scale and become a dominant player in this space. As privacy concerns escalate and quantum computing advances, the need for quantum-resistant cryptocurrencies will likely increase. Z-Cash's features, such as privacy, simplicity, and quantum resiliency, position it well to capitalize on this trend. The catalysts for this thesis include advancements in quantum computing, increasing privacy concerns, and the potential for Z-Cash to scale and gain broader adoption. The timeframe for this investment thesis is medium to long-term, as it may take time for these catalysts to materialize and for Z-Cash to gain significant market share.",
-    "ticker_analysis": {
-      "AAPL": {
-        "rationale": "Apple is relevant to this thesis due to its focus on user privacy and its potential to integrate privacy-focused technologies into its products and services.",
-        "positioning": "Investors should consider a long-term strategic position in AAPL, as the company's focus on privacy aligns with the growing demand for privacy-focused technologies.",
-        "risk": "Key risks for AAPL include increased regulatory scrutiny on privacy practices and potential backlash from users if privacy concerns are not adequately addressed."
-      },
-      "NVDA": {
-        "rationale": "NVIDIA is relevant to this thesis due to its leadership in AI and its potential to develop quantum-resistant technologies.",
-        "positioning": "Investors should consider a medium-term tactical position in NVDA, as the company's AI expertise could position it well to develop quantum-resistant solutions.",
-        "risk": "Key risks for NVDA include increased competition in the AI space and potential delays in the development of quantum-resistant technologies."
-      },
-      "GOOGL": {
-        "rationale": "Google is relevant to this thesis due to its extensive data collection and potential to leverage privacy-focused technologies to maintain user trust.",
-        "positioning": "Investors should consider a long-term strategic position in GOOGL, as the company's focus on user privacy could help maintain its dominant market position.",
-        "risk": "Key risks for GOOGL include increased regulatory scrutiny on data privacy practices and potential backlash from users if privacy concerns are not adequately addressed."
-      },
-      "MSFT": {
-        "rationale": "Microsoft is relevant to this thesis due to its focus on privacy and security in its cloud services and potential to integrate privacy-focused technologies.",
-        "positioning": "Investors should consider a long-term strategic position in MSFT, as the company's focus on privacy aligns with the growing demand for privacy-focused technologies.",
-        "risk": "Key risks for MSFT include increased competition in the cloud services space and potential delays in the development of privacy-focused technologies."
-      },
-      "TSLA": {
-        "rationale": "Tesla is relevant to this thesis due to its focus on data privacy and potential to leverage privacy-focused technologies in its vehicles and services.",
-        "positioning": "Investors should consider a medium-term tactical position in TSLA, as the company's focus on privacy could help maintain user trust and drive adoption of its vehicles and services.",
-        "risk": "Key risks for TSLA include increased competition in the electric vehicle space and potential backlash from users if privacy concerns are not adequately addressed."
-      }
-    },
-    "positioning_guidance": "Investors should consider a mix of long-term strategic and medium-term tactical positions in companies that align with the growing demand for privacy-focused technologies. Sizing should be based on each company's potential to capitalize on this trend, with a focus on those with strong privacy practices and the potential to integrate privacy-focused technologies into their products and services. Entry points should be based on market conditions and individual risk tolerance, with a focus on long-term growth potential. Timeframes should be explicit, with a focus on medium to long-term growth potential. Hedges could include positions in companies that are well-positioned to benefit from advancements in quantum computing and privacy-focused technologies.",
-    "risk_factors": [
-      "Increased regulatory scrutiny on privacy practices could negatively impact companies in this space.",
-      "Potential backlash from users if privacy concerns are not adequately addressed.",
-      "Increased competition in the AI and cloud services space could impact companies' ability to capitalize on the growing demand for privacy-focused technologies.",
-      "Potential delays in the development of quantum-resistant technologies could impact the timeline for this investment thesis."
-    ],
-    "contrarian_signals": [
-      "Some investors may argue that the demand for privacy-focused technologies is overblown and that users are willing to trade privacy for convenience.",
-      "Others may contend that advancements in quantum computing will not have a significant impact on the need for quantum-resistant cryptocurrencies in the near term.",
-      "Some may argue that the focus on privacy is a short-term trend that will not have a lasting impact on the technology landscape."
-    ],
-    "catalysts": [
-      "Advancements in quantum computing that highlight the need for quantum-resistant cryptocurrencies.",
-      "Increasing privacy concerns among users that drive demand for privacy-focused technologies.",
-      "Regulatory developments that impact privacy practices and drive demand for privacy-focused solutions.",
-      "Announcements from companies like Apple, Google, and Microsoft regarding their focus on privacy and plans to integrate privacy-focused technologies into their products and services.",
-      "Developments in the cryptocurrency space that highlight the need for privacy-focused solutions, such as increased scrutiny on transactions or the development of new privacy-focused cryptocurrencies."
-    ],
-    "related_insights": null,
-    "audio_timestamp_start": null,
-    "audio_timestamp_end": null,
-    "transcript_excerpt": null,
-    "created_at": "2026-03-28T22:06:22.043857",
-    "updated_at": "2026-03-29 03:06:22",
-    "episode_evidence": null,
-    "falsification_tracks": null,
-    "insight_title": "https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-18%2Fdff54dee-2ba4-02bd-9c43-d935696550da",
-    "source_name": "Unknown Podcast",
-    "source_date": "2026-03-28",
-    "key_tickers": [
-      "ZEC"
-    ]
-  },
   "128": {
     "id": 119,
     "insight_id": 128,
@@ -13372,7 +13314,7 @@ const dashboardData = {
     "episode_evidence": null,
     "falsification_tracks": null,
     "insight_title": "all in with chamath jason sacks frie jensen huang live nvidia s future physical ai rise of the 03b9c382",
-    "source_name": "Unknown Podcast",
+    "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "source_date": "2026-03-28",
     "key_tickers": [
       "NVDA"
@@ -13447,7 +13389,7 @@ const dashboardData = {
     "episode_evidence": null,
     "falsification_tracks": null,
     "insight_title": "the a16z show chris dixon from quant trading to building a16z crypto be2e5b4b",
-    "source_name": "Unknown Podcast",
+    "source_name": "The a16z Show",
     "source_date": "2026-03-28",
     "key_tickers": []
   },
@@ -13520,7 +13462,7 @@ const dashboardData = {
     "episode_evidence": null,
     "falsification_tracks": null,
     "insight_title": "ALLIN-INTV Jensen V2 Ch",
-    "source_name": "Unknown Podcast",
+    "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "source_date": "2026-03-28",
     "key_tickers": [
       "NVDA"
@@ -13595,7 +13537,7 @@ const dashboardData = {
     "episode_evidence": null,
     "falsification_tracks": null,
     "insight_title": "the a16z show 20260319 1e92a9dd 78da 4417 b1ce 4b4318d1",
-    "source_name": "Unknown Podcast",
+    "source_name": "The a16z Show",
     "source_date": "2026-03-28",
     "key_tickers": []
   },
@@ -14108,7 +14050,7 @@ const dashboardData = {
     "episode_evidence": null,
     "falsification_tracks": null,
     "insight_title": "MacroVoices-2026-03-19-Simon-White",
-    "source_name": "Unknown Podcast",
+    "source_name": "MacroVoices",
     "source_date": "2026-03-19",
     "key_tickers": [
       "S&P 500",
@@ -14911,7 +14853,7 @@ const dashboardData = {
     "episode_evidence": null,
     "falsification_tracks": null,
     "insight_title": "MacroVoices #526 Matt Barrie: Pay To PrAI",
-    "source_name": "Macro Voices",
+    "source_name": "MacroVoices",
     "source_date": "2026-04-02",
     "key_tickers": [
       "SPX",
@@ -15953,7 +15895,7 @@ const dashboardData = {
     "episode_evidence": null,
     "falsification_tracks": null,
     "insight_title": "MacroVoices #527 Adam Rozencwajg: What Comes Next After The Iran Crisis",
-    "source_name": "Macro Voices",
+    "source_name": "MacroVoices",
     "source_date": "2026-04-09",
     "key_tickers": [
       "WTI",
@@ -16870,14 +16812,14 @@ const dashboardData = {
     "transcript_excerpt": null,
     "created_at": "2026-04-17T05:09:57.926506",
     "updated_at": "2026-04-17 10:09:57",
-    "episode_evidence": "In the podcast, Luke Groman emphasizes the criticality of the Strait of Hormuz, stating, 'As long as it's still closed, we are accelerating non-linearly toward a really bad outcome'. He suggests that the market is underestimating the severity of supply chain disruptions, as evidenced by the example of 'Toto, the Japanese toilet remakeer... had to stop taking new orders for lack of raw materials and the stock was down 7% today.' Groman also highlights the geopolitical implications, asserting that the crisis is 'existential for China and Russia too,' which could force the US into a difficult choice between economic stability and geopolitical confrontation. Rory Johnson adds that 'no VLCCs have passed since Saturday before the peace talks collapsed,' indicating ongoing risks to global energy markets.",
+    "episode_evidence": "In the podcast, Luke Groman emphasizes the criticality of the Strait of Hormuz, stating, 'As long as it's still closed, we are accelerating non-linearly toward a really bad outcome'. He suggests that the market is underestimating the severity of supply chain disruptions, as evidenced by the example of 'Toto, the Japanese toilet remakeer... had to stop taking new orders for lack of raw materials and the stock was down 7% today.' Groman also highlights the geopolitical implications, asserting that the crisis is 'existential for China and Russia too,' which could force the US into a difficult choice between economic stability and geopolitical confrontation. Rory Johnston adds that 'no VLCCs have passed since Saturday before the peace talks collapsed,' indicating ongoing risks to global energy markets.",
     "falsification_tracks": [
       "The reopening of the Strait of Hormuz without incident would reduce the urgency of the crisis.",
       "A significant de-escalation in US-Iran tensions and a return to diplomatic negotiations would alter the geopolitical risk assessment.",
       "Sustained high levels of oil production and export from Iran, indicating a resolution to the crisis, would mitigate supply chain concerns."
     ],
     "insight_title": "MacroVoices #528 Luke Gromen: Hormuz Could Lead To a 1956 US Suez Moment",
-    "source_name": "Macro Voices",
+    "source_name": "MacroVoices",
     "source_date": "2026-04-16",
     "key_tickers": [
       "SPX",
@@ -17601,12 +17543,93 @@ const dashboardData = {
     "source_name": "The a16z Show",
     "source_date": "2026-04-22",
     "key_tickers": []
+  },
+  "188": {
+    "id": 179,
+    "insight_id": 188,
+    "podcast_episode_id": 173,
+    "overview": "The debate around banks' exposure to private credit and NDFIs is critical in the current financial climate, as it directly impacts the stability and profitability of the banking sector. With banks taking senior positions in private credit and using SPVs to manage risk, the transparency of their exposure is questionable. This lack of clarity can lead to underestimation of potential losses, especially in a downturn. The impact of interest rate changes on commercial real estate and the conversion of private equity and credit debt into equity are additional factors that could significantly affect banks' balance sheets and profitability.",
+    "key_takeaways_detailed": [
+      "Banks with senior positions in private credit may be better insulated from immediate losses but still face indirect risks through their exposure to NDFIs.",
+      "The use of SPVs to lower capital requirements can obscure the true extent of banks' credit risk, potentially leading to a misjudgment of their financial health.",
+      "Banks that have been proactive in selling undesirable exposures and buying CLOs for protection may be better positioned to weather potential credit storms.",
+      "The potential for debt held in private equity and private credit strategies to be converted into equity could delay returns for investors and increase the risk of capital loss.",
+      "Regional banks with less sophisticated risk management may be more vulnerable to losses from private credit exposure, highlighting the need for greater scrutiny of their loan books."
+    ],
+    "investment_thesis": "The core logic is that banks' exposure to private credit and NDFIs presents a double-edged sword. While senior positions may protect them from initial losses, the lack of transparency and the potential for debt-to-equity conversions could lead to significant financial repercussions. The thesis holds that banks with better risk management and disclosure practices will fare better in the long term. The timeframe for this thesis is medium to long term, as the effects of private credit exposure and risk management strategies will play out over several quarters. For the thesis to hold, banks must continue to manage their exposure effectively, and there should be no significant regulatory changes that force greater disclosure and risk recognition.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple is relevant to this thesis as it competes with payment platforms like PayPal, which are discussed in the context of the competitive landscape.",
+        "positioning": "Strategically long, as Apple's strong ecosystem and user base can support its payment services against competitors like PayPal.",
+        "risk": "Key risks include increased competition from other tech giants and potential regulatory challenges to Apple's payment services."
+      },
+      "PYPL": {
+        "rationale": "PayPal is directly mentioned in the discussion about the competitive landscape of payment platforms.",
+        "positioning": "Tactically short due to challenges against tech giants like Apple, but with a long-term view as PayPal could adapt and innovate.",
+        "risk": "The risk of losing market share to larger tech companies with more extensive user bases and the potential for regulatory hurdles in the payment space."
+      },
+      "JPM": {
+        "rationale": "JPMorgan is highlighted for its disclosure of private credit exposure, making it a key bank to watch in this thesis.",
+        "positioning": "Strategically long, as transparency in risk management can be a positive for investor confidence.",
+        "risk": "The risk of higher than reported private credit exposure or unexpected losses from this sector could affect the stock negatively."
+      },
+      "C": {
+        "rationale": "Citigroup is mentioned for its disclosure of exposure to NDFIs, which is a significant part of the thesis.",
+        "positioning": "Tactically neutral with a strategic long view, as the bank's management of NDFI exposure will play out over time.",
+        "risk": "The risk of mismanagement of NDFI exposure or unexpected losses could lead to a downgrade in the stock's performance."
+      },
+      "GS": {
+        "rationale": "Goldman Sachs is discussed for its high credit risk and lack of disclosure, which is crucial for assessing the thesis.",
+        "positioning": "Strategically short due to the high credit risk and lack of transparency, with a need for caution.",
+        "risk": "The risk of unexpected losses or regulatory actions forcing greater disclosure could negatively impact the stock."
+      }
+    },
+    "positioning_guidance": "Investors should consider a diversified approach, with a mix of long and short positions based on the banks' exposure management and competitive positioning in the payment space. The time horizon for these positions should be medium to long term, as the effects of private credit exposure and competitive dynamics will unfold over several quarters. Investors should also be prepared to adjust their positions based on regulatory changes and market developments.",
+    "risk_factors": [
+      "Increased regulatory scrutiny leading to greater disclosure and recognition of credit risk.",
+      "A significant downturn in the commercial real estate market affecting banks with substantial mortgage exposure.",
+      "Unexpected losses from private credit exposure due to mismanagement or economic downturns.",
+      "Increased competition in the payment space affecting the profitability of payment platforms like PayPal.",
+      "Potential for debt-to-equity conversions delaying returns and increasing the risk of capital loss."
+    ],
+    "contrarian_signals": [
+      "Banks with lower reported private credit exposure may be underestimating their risk, providing a contrarian opportunity.",
+      "Regional banks that have not been mentioned may have better risk management practices than assumed, offering a contrarian play.",
+      "The payment space may see new entrants or innovative solutions that disrupt the current competitive landscape."
+    ],
+    "catalysts": [
+      "Bank earnings reports and conference calls providing further disclosure on private credit exposure.",
+      "Regulatory announcements or changes affecting the reporting and management of private credit risk.",
+      "Market downturns or economic shifts affecting the valuation and performance of private credit assets.",
+      "Technological advancements or partnerships in the payment space that could change the competitive dynamics.",
+      "Quarterly reports from payment platforms like PayPal that could indicate shifts in market share or competitive positioning."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-04-23T22:06:12.512738",
+    "updated_at": "2026-04-24 03:06:12",
+    "episode_evidence": "Chris Wayland, a banking specialist, highlighted the nuances of banks' exposure to private credit and non-depository financial institutions (NDFIs) during the bank earnings season. He pointed out that 'the banks generally have pretty senior positions when it comes to private credit,' which implies that they are less likely to bear the brunt of losses compared to other investors. Wayland also noted the strategic actions of banks, such as selling undesirable exposures and buying collateralized loan obligations (CLOs) for protection, aiming to have '30 to 40% where that equity is in front of them.' This strategy suggests a proactive approach to managing risk. Furthermore, he discussed the use of special purpose vehicles (SPVs) by banks to lower their capital requirements under Basel regulations, which can obscure the true extent of their credit risk. This practice raises concerns about the transparency and accuracy of banks' reported exposure to private credit, as 'these entities are not rated' and are 'clearly not public,' making it difficult to verify the quality of these assets.",
+    "falsification_tracks": [
+      "If banks' reported private credit exposure increases significantly quarter over quarter, it would challenge the thesis that they are managing risk astutely.",
+      "A rise in defaults or non-performing loans within the private credit sector would undermine the assumption that banks have senior positions with limited risk.",
+      "Regulatory changes that require greater disclosure of banks' exposure to NDFIs could reveal higher risks than currently acknowledged.",
+      "A significant downturn in the commercial real estate market could impact banks with substantial mortgage exposure, affecting their overall stability.",
+      "Public disclosure of substantial losses by major banks due to private credit defaults would contradict the narrative of controlled risk."
+    ],
+    "insight_title": "Banks' \u201cConsiderable\u201d Exposure to Private Credit | Chris Whalen on Banks\u2019 Loans to NBFIs, Plus CRE, Gold, and Payments",
+    "source_name": "Monetary Matters with Jack Farley",
+    "source_date": "2026-04-18",
+    "key_tickers": [
+      "HFGM"
+    ]
   }
 },
   suggestedTerms: [],
   podcastGuests: [
   {
-    "id": 2254,
+    "id": 2285,
     "name": "Balaji Srinivasan",
     "slug": "balaji-srinivasan",
     "bio": null,
@@ -17618,7 +17641,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2255,
+    "id": 2286,
     "name": "Marc Andreessen",
     "slug": "marc-andreessen",
     "bio": null,
@@ -17630,7 +17653,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2256,
+    "id": 2287,
     "name": "GitHub Cofounder Scott Chacon",
     "slug": "github-cofounder-scott-chacon",
     "bio": null,
@@ -17642,7 +17665,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2257,
+    "id": 2288,
     "name": "Anish Acharya on The Kevin Rose Show",
     "slug": "anish-acharya-on-the-kevin-rose-show",
     "bio": null,
@@ -17654,7 +17677,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2258,
+    "id": 2289,
     "name": "Navigating the SaaS Apocalypse",
     "slug": "navigating-the-saas-apocalypse",
     "bio": null,
@@ -17666,7 +17689,19 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2259,
+    "id": 2290,
+    "name": "banking specialist Chris Wayland",
+    "slug": "banking-specialist-chris-wayland",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Investment in private credit and non-depository financial institutions presents both opportunities and risks for banks, with the potential for debt to be converted into equity in challenging economic conditions.",
+    "last_episode_title": "Banks' \u201cConsiderable\u201d Exposure to Private Credit | Chris Whalen on Banks\u2019 Loans to NBFIs, Plus CRE, Gold, and Payments",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-04-18",
+    "appearance_count": 1
+  },
+  {
+    "id": 2291,
     "name": "From Models to Mobility",
     "slug": "from-models-to-mobility",
     "bio": null,
@@ -17678,7 +17713,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2260,
+    "id": 2292,
     "name": "also touches",
     "slug": "also-touches",
     "bio": null,
@@ -17690,7 +17725,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2261,
+    "id": 2293,
     "name": "\"I Don't Believe the Stagflation Narrative\"",
     "slug": "i-dont-believe-the-stagflation-narrative",
     "bio": null,
@@ -17702,7 +17737,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2262,
+    "id": 2294,
     "name": "Building Agents at Home",
     "slug": "building-agents-at-home",
     "bio": null,
@@ -17714,7 +17749,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2263,
+    "id": 2295,
     "name": "\"The Best Time to Invest\"",
     "slug": "the-best-time-to-invest",
     "bio": null,
@@ -17726,7 +17761,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2264,
+    "id": 2296,
     "name": "Governor Josh Shapiro of Pennsylvania",
     "slug": "governor-josh-shapiro-of-pennsylvania",
     "bio": null,
@@ -17738,7 +17773,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2265,
+    "id": 2297,
     "name": "Box CEO Aaron Levie",
     "slug": "box-ceo-aaron-levie",
     "bio": null,
@@ -17750,7 +17785,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2266,
+    "id": 2298,
     "name": "Why $200 Oil Won\u2019t Spike Inflation to 9%",
     "slug": "why-200-oil-wont-spike-inflation-to-9",
     "bio": null,
@@ -17762,19 +17797,19 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2267,
+    "id": 2299,
     "name": "This special episode",
     "slug": "this-special-episode",
     "bio": null,
     "known_for": null,
     "last_main_idea": "Invest in companies that are at the forefront of AI technology, particularly those that can leverage both proprietary and open-source models to drive innovation and capture domain-specific expertise.",
     "last_episode_title": "ALLIN-INTV Jensen V2 Ch",
-    "last_podcast_name": "All-In Podcast",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-28",
     "appearance_count": 1
   },
   {
-    "id": 2268,
+    "id": 2300,
     "name": "Lupin Ramon",
     "slug": "lupin-ramon",
     "bio": null,
@@ -17786,7 +17821,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2269,
+    "id": 2301,
     "name": "When the Music Stops",
     "slug": "when-the-music-stops",
     "bio": null,
@@ -17798,7 +17833,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2270,
+    "id": 2302,
     "name": "Ground Infrastructure",
     "slug": "ground-infrastructure",
     "bio": null,
@@ -17810,7 +17845,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2271,
+    "id": 2303,
     "name": "Rory Johnston",
     "slug": "rory-johnston",
     "bio": null,
@@ -17822,96 +17857,19 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 2272,
-    "name": "Senator John Fetterman on Voting Rights",
-    "slug": "senator-john-fetterman-on-voting-rights",
+    "id": 2304,
+    "name": "Macro Voices",
+    "slug": "macro-voices",
     "bio": null,
     "known_for": null,
-    "last_main_idea": "While not directly investment-focused, the episode provides insights into the political climate and potential policy directions that could indirectly affect various sectors and investment strategies.",
-    "last_episode_title": "Interview with Senator John Fetterman on Voting Rights, Policy Decisions, and the Democratic Party",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-03-18",
-    "appearance_count": 1
-  },
-  {
-    "id": 2273,
-    "name": "Stock Market on Shaky Foundations",
-    "slug": "stock-market-on-shaky-foundations",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "The current bull market is built on shaky foundations, and a shift towards a more cautious stance with a focus on security software and data lake control is advised.",
-    "last_episode_title": "Stock Market on Shaky Foundations | Blind Squirrel Macro\u2019s Rupert Mitchell on IPO Supply, Oil, and Private Credit",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-03-18",
+    "last_main_idea": "The ongoing Iran conflict may lead to a secular inflation cycle, with oil prices being a key catalyst. Investors should monitor shifts in commodities, credit, and the yield curve for potential macroeconomic impacts.",
+    "last_episode_title": "Macro Voices: The Iran Conflict's Impact on Inflation and Energy Markets",
+    "last_podcast_name": "MacroVoices",
+    "last_episode_date": "2026-03-19",
     "appearance_count": 1
   }
 ],
   pundits: [
-  {
-    "id": 96,
-    "name": "Jensen Huang",
-    "slug": "jensen-huang",
-    "bio": "Jensen Huang is the co-founder and CEO of Nvidia, a leading company in GPU manufacturing and AI technology. Under his leadership, Nvidia has become a dominant force in the technology industry, driving innovation in graphics processing and artificial intelligence.",
-    "known_for": "Driving Nvidia's innovation in graphics processing and AI.",
-    "net_worth_usd": 151000000000.0,
-    "net_worth_source": "https://www.wikidata.org/wiki/Q305177",
-    "net_worth_updated_at": "2026-03-20T04:40:55.469936",
-    "voice_tone": "Confident and informative.",
-    "voice_style": "Factual and visionary, with a focus on the technical aspects of the industry.",
-    "voice_delivery_notes": "Clear and measured, with emphasis on the importance of technology and its applications.",
-    "voice_profile_updated_at": "2026-04-16 10:05:44",
-    "last_seen": "2026-04-16 10:05:44",
-    "last_episode_title": "Jensen Huang \u2013 TPU competition, why we should sell chips to China, & Nvidia\u2019s supply chain moat",
-    "last_podcast_name": "Dwarkesh Podcast",
-    "last_episode_date": "2026-04-15",
-    "mention_score": 4,
-    "mention_score_decayed": 3.48,
-    "last_main_idea": "Nvidia's role in the transformation of electrons to valuable tokens and the acceleration of computing tasks positions it well in the AI and broader technology market.",
-    "last_proof_cite": "Dwarkesh Podcast \u2022 2026-04-15 \u2022 Jensen Huang \u2013 TPU competition, why we should sell chips to China, & Nvidia\u2019s supply chain moat",
-    "last_proof_snippet": "We've seen the valuations of a bunch of software companies crash because people are expecting AI to come out of tight software And there's a potentially naive way of thinking about things which is like look in VDS ends GDS 2 file to TSMC TS",
-    "supporting_takeaway": "Nvidia has built a large ecosystem of partners across the supply chain and in application development.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-19T22:06:00.617296",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Jensen Huang",
-      "fetched_at": "2026-04-20T03:06:00.617074+00:00",
-      "cliff_notes": "Jensen Huang is a Taiwanese-American entrepreneur and engineer who co-founded Nvidia in 1993. With a background in electrical engineering from Stanford University, Huang's vision for Nvidia was to create a new kind of computing platform that could handle complex graphics processing tasks. Over the years, Nvidia has expanded its focus to include artificial intelligence and deep learning, becoming a key player in the development of AI technology. Huang's leadership has been instrumental in positioning Nvidia at the forefront of technological innovation, with the company's GPUs being widely used in gaming, professional visualization, data centers, and automotive markets.",
-      "derived": {
-        "current_role": "Co-founder and CEO of Nvidia",
-        "education": "Stanford University, Master's in Electrical Engineering"
-      },
-      "infobox": {
-        "Born": "February 17, 1963",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Jensen Huang is a Taiwanese-American entrepreneur and engineer who co-founded Nvidia in 1993. With a background in electrical engineering from Stanford University, Huang's vision for Nvidia was to create a new kind of computing platform that could handle complex graphics processing tasks. Over the years, Nvidia has expanded its focus to include artificial intelligence and deep learning, becoming a key player in the development of AI technology.",
-        "Huang's leadership has been instrumental in positioning Nvidia at the forefront of technological innovation, with the company's GPUs being widely used in gaming, professional visualization, data centers, and automotive markets."
-      ],
-      "sections": [
-        {
-          "heading": "Nvidia's Founding",
-          "body": "Jensen Huang co-founded Nvidia in 1993 with Curtis Priem and Chris Malachowsky, with the goal of creating a new computing platform for graphics processing."
-        },
-        {
-          "heading": "GPU Innovation",
-          "body": "Under Huang's leadership, Nvidia has been a pioneer in the development of graphics processing units (GPUs), which have become essential for gaming, professional visualization, and data centers."
-        },
-        {
-          "heading": "AI and Deep Learning",
-          "body": "Nvidia has expanded its focus to include artificial intelligence and deep learning, with Huang's vision driving the company to become a key player in the AI technology space."
-        },
-        {
-          "heading": "Market Dominance",
-          "body": "Nvidia's GPUs are widely used in various markets, including gaming, professional visualization, data centers, and automotive, solidifying the company's position as a dominant force in the technology industry."
-        }
-      ]
-    },
-    "net_worth": "$151.00B"
-  },
   {
     "id": 98,
     "name": "Rory Johnston",
@@ -17925,16 +17883,16 @@ const dashboardData = {
     "voice_style": "Direct and focused on market dynamics",
     "voice_delivery_notes": "Paced with emphasis on key market indicators",
     "voice_profile_updated_at": "2026-03-29 09:09:13",
-    "last_seen": "2026-03-29 09:09:13",
-    "last_episode_title": "MacroVoices-2026-03-19-Simon-White",
+    "last_seen": "2026-04-17 10:06:32",
+    "last_episode_title": "MacroVoices #528 Luke Gromen: Hormuz Could Lead To a 1956 US Suez Moment",
     "last_podcast_name": "MacroVoices",
-    "last_episode_date": "2026-03-19",
-    "mention_score": 4,
-    "mention_score_decayed": 2.24,
-    "last_main_idea": "The Iran conflict could lead to a renewed inflation cycle, affecting commodities and energy markets, with potential second-order effects that markets may currently be underpricing.",
-    "last_proof_cite": "MacroVoices \u2022 2026-03-19 \u2022 MacroVoices-2026-03-19-Simon-White",
+    "last_episode_date": "2026-04-16",
+    "mention_score": 5,
+    "mention_score_decayed": 4.35,
+    "last_main_idea": "Invest in sectors likely to benefit from increased inflation and supply chain disruptions, with a focus on energy, uranium, and domestic electrical infrastructure.",
+    "last_proof_cite": "MacroVoices \u2022 2026-04-16 \u2022 MacroVoices #528 Luke Gromen: Hormuz Could Lead To a 1956 US Suez Moment",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
-    "supporting_takeaway": "Simon White suggests that markets may be underpricing the second-order effects of the Iran conflict.",
+    "supporting_takeaway": "Markets may be underpricing the severity of supply chain disruptions.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-03-20T04:36:30.218908",
     "pundit_profile": {
@@ -17988,8 +17946,8 @@ const dashboardData = {
     "last_episode_title": "Ben Horowitz on AI Infrastructure, Economics and The New Laws of Software",
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-14",
-    "mention_score": 3,
-    "mention_score_decayed": 2.55,
+    "mention_score": 4,
+    "mention_score_decayed": 3.32,
     "last_main_idea": "Invest in companies that can leverage AI to compress development time and disrupt incumbents, while also considering the emerging overlap between AI and crypto.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-14 \u2022 Ben Horowitz on AI Infrastructure, Economics and The New Laws of Software",
     "last_proof_snippet": "America's got to rebuild its entire infrastructure like right now. We don't have enough rare earth minerals. We don't have enough electricity. We don't have enough manufacturing capacity. Nvidia will make enough chips, but then we won't hav",
@@ -18038,254 +17996,225 @@ const dashboardData = {
     "net_worth": "$2.00B"
   },
   {
-    "id": 74,
-    "name": "Travis Kalanick",
-    "slug": "travis-kalanick",
-    "bio": "Travis Kalanick is a serial entrepreneur known for founding Uber and his work in real estate innovation. He has been influential in the tech industry, particularly in the transportation and real estate sectors.",
-    "known_for": "Being the co-founder of Uber and his ventures in real estate innovation.",
-    "net_worth_usd": 3600000000.0,
-    "net_worth_source": "https://finance.yahoo.com/news/uber-founder-travis-kalanick-becomes-201906670.html",
-    "net_worth_updated_at": "2026-03-19T15:49:00.323498",
-    "voice_tone": "casual and conversational",
-    "voice_style": "Direct and opinionated with a focus on economic implications",
-    "voice_delivery_notes": "Pacing is relaxed with occasional emphasis on key points",
-    "voice_profile_updated_at": "2026-04-20 10:04:38",
-    "last_seen": "2026-04-20 10:04:38",
-    "last_episode_title": "OpenAI's Identity Crisis, Datacenter Wars, Market Up on Iran News, Mamdani's First Tax, Swalwell Out",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-04-17",
-    "mention_score": 2,
-    "mention_score_decayed": 1.91,
-    "last_main_idea": "The investment thesis presented revolves around the potential negative impacts of new real estate taxes on luxury property demand and the growing controversy and potential regulation surrounding data centers, which could affect technology and real estate investments.",
-    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-04-17 \u2022 OpenAI's Identity Crisis, Datacenter Wars, Market Up on Iran News, Mamdani's First Tax, Swalwell Out",
-    "last_proof_snippet": "All right, everybody. Welcome back to the number one podcast in the world. We've got the core for here and terror, I say the king of atoms. The king of atoms. Yes. Captain Travis Kalinicus here. How are you doing, brother? I'm pretty good.",
-    "supporting_takeaway": "The tax may lead to a decrease in demand for second homes, potentially crashing the market for luxury properties.",
+    "id": 96,
+    "name": "Jensen Huang",
+    "slug": "jensen-huang",
+    "bio": "Jensen Huang is the co-founder and CEO of Nvidia, a leading company in GPU manufacturing and AI technology. Under his leadership, Nvidia has become a dominant force in the technology industry, driving innovation in graphics processing and artificial intelligence.",
+    "known_for": "Driving Nvidia's innovation in graphics processing and AI.",
+    "net_worth_usd": 151000000000.0,
+    "net_worth_source": "https://www.wikidata.org/wiki/Q305177",
+    "net_worth_updated_at": "2026-03-20T04:40:55.469936",
+    "voice_tone": "Confident and informative.",
+    "voice_style": "Factual and visionary, with a focus on the technical aspects of the industry.",
+    "voice_delivery_notes": "Clear and measured, with emphasis on the importance of technology and its applications.",
+    "voice_profile_updated_at": "2026-04-16 10:05:44",
+    "last_seen": "2026-04-16 10:05:44",
+    "last_episode_title": "Jensen Huang \u2013 TPU competition, why we should sell chips to China, & Nvidia\u2019s supply chain moat",
+    "last_podcast_name": "Dwarkesh Podcast",
+    "last_episode_date": "2026-04-15",
+    "mention_score": 4,
+    "mention_score_decayed": 3.4,
+    "last_main_idea": "Nvidia's role in the transformation of electrons to valuable tokens and the acceleration of computing tasks positions it well in the AI and broader technology market.",
+    "last_proof_cite": "Dwarkesh Podcast \u2022 2026-04-15 \u2022 Jensen Huang \u2013 TPU competition, why we should sell chips to China, & Nvidia\u2019s supply chain moat",
+    "last_proof_snippet": "We've seen the valuations of a bunch of software companies crash because people are expecting AI to come out of tight software And there's a potentially naive way of thinking about things which is like look in VDS ends GDS 2 file to TSMC TS",
+    "supporting_takeaway": "Nvidia has built a large ecosystem of partners across the supply chain and in application development.",
     "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-20T05:07:19.870831",
+    "grokipedia_fetched_at": "2026-04-19T22:06:00.617296",
     "pundit_profile": {
       "source": "llm",
       "source_model": "moonshot:moonshot-v1-8k",
       "source_url": "",
-      "page_title": "Travis Kalanick",
-      "fetched_at": "2026-04-20T10:07:19.870689+00:00",
-      "cliff_notes": "Travis Kalanick is an American entrepreneur who co-founded Uber in 2009, revolutionizing the transportation industry with its ride-sharing model. Prior to Uber, he co-founded Scour, a peer-to-peer file-sharing service, and later Red Swoosh, a content delivery network. His work in the tech industry has been marked by a focus on disruptive innovation. After leaving Uber in 2017, Kalanick has been involved in various real estate ventures, showcasing his entrepreneurial spirit and interest in different sectors beyond transportation.",
+      "page_title": "Jensen Huang",
+      "fetched_at": "2026-04-20T03:06:00.617074+00:00",
+      "cliff_notes": "Jensen Huang is a Taiwanese-American entrepreneur and engineer who co-founded Nvidia in 1993. With a background in electrical engineering from Stanford University, Huang's vision for Nvidia was to create a new kind of computing platform that could handle complex graphics processing tasks. Over the years, Nvidia has expanded its focus to include artificial intelligence and deep learning, becoming a key player in the development of AI technology. Huang's leadership has been instrumental in positioning Nvidia at the forefront of technological innovation, with the company's GPUs being widely used in gaming, professional visualization, data centers, and automotive markets.",
       "derived": {
-        "former_positions": "Co-founder and CEO of Uber; CEO of Red Swoosh;",
-        "education": "Bachelor of Science in Computer Engineering, University of California, Los Angeles (UCLA);"
+        "current_role": "Co-founder and CEO of Nvidia",
+        "education": "Stanford University, Master's in Electrical Engineering"
       },
       "infobox": {
-        "Born": "1986",
+        "Born": "February 17, 1963",
         "Nationality": "American"
       },
       "lead_paragraphs": [
-        "Travis Kalanick is an American entrepreneur who co-founded Uber in 2009, revolutionizing the transportation industry with its ride-sharing model. Prior to Uber, he co-founded Scour, a peer-to-peer file-sharing service, and later Red Swoosh, a content delivery network. His work in the tech industry has been marked by a focus on disruptive innovation.",
-        "After leaving Uber in 2017, Kalanick has been involved in various real estate ventures, showcasing his entrepreneurial spirit and interest in different sectors beyond transportation."
+        "Jensen Huang is a Taiwanese-American entrepreneur and engineer who co-founded Nvidia in 1993. With a background in electrical engineering from Stanford University, Huang's vision for Nvidia was to create a new kind of computing platform that could handle complex graphics processing tasks. Over the years, Nvidia has expanded its focus to include artificial intelligence and deep learning, becoming a key player in the development of AI technology.",
+        "Huang's leadership has been instrumental in positioning Nvidia at the forefront of technological innovation, with the company's GPUs being widely used in gaming, professional visualization, data centers, and automotive markets."
       ],
       "sections": [
         {
-          "heading": "Uber Founding",
-          "body": "Travis Kalanick co-founded Uber in 2009, which grew to become a global transportation giant and a symbol of the sharing economy."
+          "heading": "Nvidia's Founding",
+          "body": "Jensen Huang co-founded Nvidia in 1993 with Curtis Priem and Chris Malachowsky, with the goal of creating a new computing platform for graphics processing."
         },
         {
-          "heading": "Innovation in Real Estate",
-          "body": "Kalanick has been involved in real estate ventures, applying his entrepreneurial approach to innovation in this sector."
+          "heading": "GPU Innovation",
+          "body": "Under Huang's leadership, Nvidia has been a pioneer in the development of graphics processing units (GPUs), which have become essential for gaming, professional visualization, and data centers."
         },
         {
-          "heading": "Disruptive Entrepreneurship",
-          "body": "Throughout his career, Kalanick has been known for his disruptive approach to business, challenging traditional industries with tech-driven solutions."
+          "heading": "AI and Deep Learning",
+          "body": "Nvidia has expanded its focus to include artificial intelligence and deep learning, with Huang's vision driving the company to become a key player in the AI technology space."
+        },
+        {
+          "heading": "Market Dominance",
+          "body": "Nvidia's GPUs are widely used in various markets, including gaming, professional visualization, data centers, and automotive, solidifying the company's position as a dominant force in the technology industry."
         }
       ]
     },
-    "net_worth": "$3.60B"
+    "net_worth": "$151.00B"
   },
   {
-    "id": 131,
-    "name": "David Sachs",
-    "slug": "david-sachs",
-    "bio": "David Sachs is a venture capitalist and technology entrepreneur.",
-    "known_for": "His work in the technology and venture capital space.",
-    "net_worth_usd": 200000000.0,
-    "net_worth_source": "https://impactwealth.org/david-sacks-net-worth-and-biography-2025-the-journey-of-a-tech-visionary/",
-    "net_worth_updated_at": "2026-03-28T22:05:26.806183",
-    "voice_tone": "Inquisitive and analytical.",
-    "voice_style": "Direct and to the point, with a focus on the implications of AI on business and labor.",
-    "voice_delivery_notes": "Paced with emphasis on key points regarding AI growth and enterprise adoption.",
-    "voice_profile_updated_at": "2026-04-11 10:04:00",
-    "last_seen": "2026-04-11 10:04:00",
-    "last_episode_title": "Anthropic's $30B Ramp, Mythos Doomsday, OpenClaw Ankled, Iran War Ceasefire, Israel's Influence",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-04-10",
-    "mention_score": 2,
-    "mention_score_decayed": 1.55,
-    "last_main_idea": "Invest in AI companies that are leading the charge in enterprise adoption, as they are positioned to benefit from the exponential growth in revenue and the shift towards labor augmentation and replacement.",
-    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-04-10 \u2022 Anthropic's $30B Ramp, Mythos Doomsday, OpenClaw Ankled, Iran War Ceasefire, Israel's Influence",
-    "last_proof_snippet": "How many PRs you think are going to get pushed to the core structural internet in 100 days? What's the over under number? Because I'll give you a number. You're going to say zero. My answer to that is I'll say like 10,000. But it's going to",
-    "supporting_takeaway": "AI companies are experiencing the largest revenue explosion in the history of technology.",
+    "id": 153,
+    "name": "Marc Andreessen",
+    "slug": "mark-andreason",
+    "bio": "Mark Andreason is a co-founder and general partner at a16z, with over 35 years of experience in AI. He has witnessed the evolution of AI technologies and believes the current moment represents a significant payoff from decades of foundational research. Andreason argues that the combination of a language model, a unique shell, and a file system represents one of the most important software architectures in a generation.",
+    "known_for": "His insights into the evolution and potential of AI technologies and the current moment's significance in the field.",
+    "net_worth_usd": 1000000000.0,
+    "net_worth_source": "https://www.oreateai.com/blog/marc-andreessen-the-man-behind-the-billions/0a05c2acfab7b29e9d42044021e4bd53",
+    "net_worth_updated_at": "2026-04-04T05:05:36.409150",
+    "voice_tone": "Confident and informed",
+    "voice_style": "Analytical and forward-looking",
+    "voice_delivery_notes": "Paced with emphasis on key AI breakthroughs and their implications",
+    "voice_profile_updated_at": "2026-04-04 10:05:01",
+    "last_seen": "2026-04-22 10:03:39",
+    "last_episode_title": "Marc Andreessen: Monitoring the Situation and the Future of Media",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-04-21",
+    "mention_score": 3,
+    "mention_score_decayed": 2.93,
+    "last_main_idea": "Investing in media and understanding its evolution is crucial as it shapes societal behavior, influences politics, and impacts decision-making processes.",
+    "last_proof_cite": "The a16z Show \u2022 2026-04-21 \u2022 Marc Andreessen: Monitoring the Situation and the Future of Media",
+    "last_proof_snippet": "If an alien invasion happens later this afternoon, it will be turned into a social media meme, and it will go viral. If you track like how distributed as media versus how centralized is media, like centralized media sort of peaked summer ar",
+    "supporting_takeaway": "The 24-hour news cycle, pioneered by CNN, has been taken to the extreme by the internet, compressing time and amplifying emotion.",
     "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-28T22:05:25.190284",
+    "grokipedia_fetched_at": "2026-04-04T05:05:35.449489",
     "pundit_profile": {
       "source": "llm",
       "source_model": "moonshot:moonshot-v1-8k",
       "source_url": "",
-      "page_title": "David Sachs",
-      "fetched_at": "2026-03-29T03:05:25.190194+00:00",
-      "cliff_notes": "David Sachs is a prominent figure in the tech industry, known for his insights on innovation and technology. He has been involved in the Trump administration, where he has emphasized the importance of scientific research and technology in the current competitive landscape. Sachs' career has been marked by his focus on the intersection of technology, policy, and business. His work in the Trump administration highlights his commitment to leveraging technology and scientific research to drive economic growth and maintain a competitive edge in the global market.",
+      "page_title": "Mark Andreason",
+      "fetched_at": "2026-04-04T10:05:35.449039+00:00",
+      "cliff_notes": "Mark Andreason, with over 35 years of experience in AI, is a co-founder and general partner at a16z. He has observed AI's cycles through summers and winters, from coding and lists in 1989 to his current involvement in foundation model companies. Andreason argues that the current moment is not a false start but rather the result of eight decades of foundational research catalyzed by four distinct breakthroughs: large language models, reasoning, agents, and self-improvement. He is particularly interested in the software architecture that combines a language model, a unique shell, and a file system, which he believes is one of the most important in a generation. Andreason's career and insights are significant in understanding the trajectory and potential of AI technologies.",
       "derived": {
-        "current_role": "Advisor to the Trump administration",
-        "political_summary": "David Sachs has been involved in the Trump administration, where he has emphasized the importance of scientific research and technology in the current competitive landscape."
+        "current_role": "Co-founder and General Partner at a16z"
       },
       "infobox": {
         "Born": "",
         "Nationality": ""
       },
       "lead_paragraphs": [
-        "David Sachs is a prominent figure in the tech industry, known for his insights on innovation and technology. He has been involved in the Trump administration, where he has emphasized the importance of scientific research and technology in the current competitive landscape. Sachs' career has been marked by his focus on the intersection of technology, policy, and business.",
-        "His work in the Trump administration highlights his commitment to leveraging technology and scientific research to drive economic growth and maintain a competitive edge in the global market."
+        "Mark Andreason, with over 35 years of experience in AI, is a co-founder and general partner at a16z. He has observed AI's cycles through summers and winters, from coding and lists in 1989 to his current involvement in foundation model companies. Andreason argues that the current moment is not a false start but rather the result of eight decades of foundational research catalyzed by four distinct breakthroughs: large language models, reasoning, agents, and self-improvement.",
+        "He is particularly interested in the software architecture that combines a language model, a unique shell, and a file system, which he believes is one of the most important in a generation. Andreason's career and insights are significant in understanding the trajectory and potential of AI technologies."
       ],
       "sections": [
         {
-          "heading": "Innovation and Technology",
-          "body": "David Sachs is known for his insights on innovation and technology, emphasizing their importance in the current competitive landscape."
+          "heading": "AI Evolution",
+          "body": "Mark Andreason has watched AI technologies evolve over more than 35 years, observing cycles of interest and progress."
         },
         {
-          "heading": "Trump Administration",
-          "body": "Sachs has been involved in the Trump administration, where he has focused on the role of scientific research and technology in driving economic growth and maintaining a competitive edge."
+          "heading": "Foundational Research",
+          "body": "Andreason believes the current advancements in AI are the result of eight decades of foundational research."
         },
         {
-          "heading": "Economic Growth",
-          "body": "Sachs' work in the Trump administration highlights his commitment to leveraging technology and scientific research to drive economic growth."
+          "heading": "Breakthroughs in AI",
+          "body": "He identifies four breakthroughs that have catalyzed the current moment in AI: large language models, reasoning, agents, and self-improvement."
+        },
+        {
+          "heading": "Software Architecture",
+          "body": "Andreason argues that the combination of a language model, a unique shell, and a file system represents a significant advancement in software architecture."
+        }
+      ]
+    },
+    "net_worth": "$1.00B"
+  },
+  {
+    "id": 43,
+    "name": "Olivia Moore",
+    "slug": "olivia-moore",
+    "bio": "Olivia Moore is a partner at A16Z, focusing on AI applications.",
+    "known_for": "Her expertise in AI and its applications in various sectors.",
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-03-16 13:08:23",
+    "last_episode_title": "AI Startups and the Future of Technology",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-03-16",
+    "mention_score": 2,
+    "mention_score_decayed": 0.83,
+    "last_main_idea": "Invest in AI startups that focus on specific niches and use cases, as they can compete effectively against larger AI companies by capitalizing on the gaps between platforms.",
+    "last_proof_cite": "The a16z Show \u2022 2026-03-16 \u2022 AI Startups and the Future of Technology",
+    "last_proof_snippet": "I think that every tech company is going to be an AI company and every AI company is going to be an agent company and so the sooner that you as kind of an employee or a business owner can kind of get on board and learn how to use that to yo",
+    "supporting_takeaway": "AI is seen as the reinvention of the entire technology industry, with the potential to create companies worth hundreds of billions or trillions of dollars.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
+    "id": 94,
+    "name": "Carson Block",
+    "slug": "carson-block",
+    "bio": "Founder of Muddy Waters Capital, a leading activist short seller hedge fund.",
+    "known_for": "Specializing in activist short selling with deep research.",
+    "net_worth_usd": 200000000.0,
+    "net_worth_source": "https://www.publicfigurenetworth.com/carson-block-net-worth/",
+    "net_worth_updated_at": "2026-03-20T04:42:12.912511",
+    "voice_tone": "Confident and experienced.",
+    "voice_style": "Direct and to-the-point, with a focus on identifying market opportunities and risks.",
+    "voice_delivery_notes": "Paced with emphasis on key investment insights and market analysis.",
+    "voice_profile_updated_at": "2026-03-29 03:02:33",
+    "last_seen": "2026-03-29 03:02:33",
+    "last_episode_title": "Technical Analysis Deep Dive with Milton Berg - February 2026 Market Signals",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-02-15",
+    "mention_score": 2,
+    "mention_score_decayed": 1.1,
+    "last_main_idea": "Invest in sectors with fertile ground for short selling, such as AI and tech, and under-allocated areas like junior mining, while combining long and short strategies for potential alpha.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-02-15 \u2022 Technical Analysis Deep Dive with Milton Berg - February 2026 Market Signals",
+    "last_proof_snippet": "Today's episode is brought to you by the PICTEA AI Enhance International Equity ETF, ticker PQNT. You'll hear more about their using AI to enhance international equity returns later in the show. For now, let's get into it. Got a very specia",
+    "supporting_takeaway": "The semiconductor industry, despite being cyclical and capital-intensive, has seen unusual upward trends, suggesting potential for mean reversion.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-20T04:42:09.376490",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Carson Block",
+      "fetched_at": "2026-03-20T09:42:09.376380+00:00",
+      "cliff_notes": "Carson Block is an American investor and the founder of Muddy Waters Capital, an investment firm known for its activist short selling approach. Block's career in finance began after he graduated from law school and moved to China, where he worked as an attorney and later in private equity. His experiences in China, particularly witnessing corporate fraud, inspired him to start Muddy Waters Research in 2010, which would later become Muddy Waters Capital. The firm is renowned for its deep research into companies, often uncovering fraudulent practices or overpromised business models, leading to significant market impact when they release their findings. Block's work has been influential in the tech and finance sectors, as his exposes often lead to substantial stock price movements and regulatory scrutiny.",
+      "derived": {
+        "current_role": "Founder of Muddy Waters Capital",
+        "education": "Bachelor's degree in International Relations from Southern Methodist University; Juris Doctor from the University of Chicago Law School"
+      },
+      "infobox": {
+        "Born": "1980",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Carson Block is an American investor and the founder of Muddy Waters Capital, an investment firm known for its activist short selling approach. Block's career in finance began after he graduated from law school and moved to China, where he worked as an attorney and later in private equity. His experiences in China, particularly witnessing corporate fraud, inspired him to start Muddy Waters Research in 2010, which would later become Muddy Waters Capital.",
+        "The firm is renowned for its deep research into companies, often uncovering fraudulent practices or overpromised business models, leading to significant market impact when they release their findings. Block's work has been influential in the tech and finance sectors, as his exposes often lead to substantial stock price movements and regulatory scrutiny."
+      ],
+      "sections": [
+        {
+          "heading": "Activist Short Selling",
+          "body": "Carson Block is recognized for his activist short selling approach, where he not only bets against companies but also actively researches and exposes fraudulent practices or overpromised business models."
+        },
+        {
+          "heading": "Muddy Waters Capital",
+          "body": "Muddy Waters Capital, founded by Block, is a hedge fund that specializes in short selling and has been influential in exposing corporate frauds, particularly in the tech sector."
+        },
+        {
+          "heading": "Market Impact",
+          "body": "Block's research and activism have had significant market impact, leading to substantial stock price movements and regulatory scrutiny for the companies targeted by Muddy Waters Capital."
+        },
+        {
+          "heading": "Fraud Exposure",
+          "body": "Carson Block has been instrumental in exposing corporate frauds, particularly in sectors like electric vehicles and green energy, where companies have been known to overpromise on their capabilities."
         }
       ]
     },
     "net_worth": "$200.0M"
-  },
-  {
-    "id": 54,
-    "name": "Jim Bianco",
-    "slug": "jim-bianco",
-    "bio": "Jim Bianco is the founder of Bianco Research, an independent research firm specializing in global markets. He is recognized for his expertise in macroeconomic trends and geopolitical analysis, providing insights to professional finance, high-net worth individuals, and sophisticated investors.",
-    "known_for": "His in-depth analysis and predictions on global markets and macroeconomic trends.",
-    "net_worth_usd": 12300000.0,
-    "net_worth_source": "https://www.benzinga.com/sec/insider-trades/0001198554/james-a-bianco",
-    "net_worth_updated_at": "2026-04-10T05:06:38.074861",
-    "voice_tone": "Questioning and speculative.",
-    "voice_style": "Analytical with a focus on the potential outcomes of geopolitical events.",
-    "voice_delivery_notes": "Deliberate, with pauses for emphasis on key geopolitical points.",
-    "voice_profile_updated_at": "2026-04-10 10:04:28",
-    "last_seen": "2026-04-10 10:04:28",
-    "last_episode_title": "MacroVoices #527 Adam Rozencwajg: What Comes Next After The Iran Crisis",
-    "last_podcast_name": "Macro Voices",
-    "last_episode_date": "2026-04-09",
-    "mention_score": 2,
-    "mention_score_decayed": 1.52,
-    "last_main_idea": "Investment opportunities may arise from the physical dislocation in energy markets and shifts in energy security, with a focus on commodities like oil, uranium, and gold.",
-    "last_proof_cite": "Macro Voices \u2022 2026-04-09 \u2022 MacroVoices #527 Adam Rozencwajg: What Comes Next After The Iran Crisis",
-    "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
-    "supporting_takeaway": "The oil market may be tighter than widely believed, with implications for food prices and inflation.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-10T05:06:37.059270",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Jim Bianco",
-      "fetched_at": "2026-04-10T10:06:37.059032+00:00",
-      "cliff_notes": "Jim Bianco is a prominent figure in the world of finance and macroeconomics. As the founder of Bianco Research, he has dedicated his career to providing independent research on global markets. His expertise in macroeconomic trends and geopolitical analysis has made him a sought-after commentator and analyst. Bianco's insights are particularly valuable for professional finance, high-net worth individuals, family offices, and other sophisticated investors. His work has been influential in shaping investment strategies and understanding market dynamics. Through his appearances on financial podcasts like Macrovoisers, Bianco shares his perspectives on critical issues such as the Iran conflict, its impact on commodities, and the Fed's reaction to geopolitical events. His contributions to the financial community have established him as a respected voice in the field.",
-      "derived": {
-        "current_role": "Founder of Bianco Research"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Jim Bianco is a prominent figure in the world of finance and macroeconomics. As the founder of Bianco Research, he has dedicated his career to providing independent research on global markets. His expertise in macroeconomic trends and geopolitical analysis has made him a sought-after commentator and analyst. Bianco's insights are particularly valuable for professional finance, high-net worth individuals, family offices, and other sophisticated investors.",
-        "His work has been influential in shaping investment strategies and understanding market dynamics. Through his appearances on financial podcasts like Macrovoisers, Bianco shares his perspectives on critical issues such as the Iran conflict, its impact on commodities, and the Fed's reaction to geopolitical events. His contributions to the financial community have established him as a respected voice in the field."
-      ],
-      "sections": [
-        {
-          "heading": "Global Markets",
-          "body": "Jim Bianco is well-versed in analyzing and commenting on global market trends, providing valuable insights to investors and financial professionals."
-        },
-        {
-          "heading": "Macroeconomic Trends",
-          "body": "Bianco's expertise in macroeconomic trends allows him to predict and explain the impact of global economic shifts on financial markets."
-        },
-        {
-          "heading": "Geopolitical Analysis",
-          "body": "His geopolitical analysis is crucial for understanding the implications of international conflicts and their effects on the economy and markets."
-        },
-        {
-          "heading": "Iran Conflict",
-          "body": "Bianco has provided in-depth analysis on the Iran conflict, discussing its potential outcomes and the subsequent effects on commodities such as crude oil, food, fertilizer, uranium, and gold."
-        },
-        {
-          "heading": "Fed's Reaction",
-          "body": "He has also commented on the Federal Reserve's response to geopolitical events, including the Iran conflict, and its influence on inflation and monetary policy."
-        }
-      ]
-    },
-    "net_worth": "$12.3M"
-  },
-  {
-    "id": 97,
-    "name": "Simon White",
-    "slug": "simon-white",
-    "bio": "Bloomberg Macro strategist",
-    "known_for": "Analysis on secular inflation and macroeconomic trends",
-    "net_worth_usd": 112000000.0,
-    "net_worth_source": "https://www.gurufocus.com/insider/44/william-s-simon",
-    "net_worth_updated_at": "2026-03-20T22:08:35.505085",
-    "voice_tone": "Matter-of-fact and analytical",
-    "voice_style": "Factual and data-driven, with a focus on historical parallels",
-    "voice_delivery_notes": "Clear and concise, with a steady pace",
-    "voice_profile_updated_at": "2026-03-29 09:09:13",
-    "last_seen": "2026-03-29 09:09:13",
-    "last_episode_title": "MacroVoices-2026-03-19-Simon-White",
-    "last_podcast_name": "MacroVoices",
-    "last_episode_date": "2026-03-19",
-    "mention_score": 2,
-    "mention_score_decayed": 1.12,
-    "last_main_idea": "The Iran conflict could lead to a renewed inflation cycle, affecting commodities and energy markets, with potential second-order effects that markets may currently be underpricing.",
-    "last_proof_cite": "MacroVoices \u2022 2026-03-19 \u2022 MacroVoices-2026-03-19-Simon-White",
-    "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
-    "supporting_takeaway": "Simon White suggests that markets may be underpricing the second-order effects of the Iran conflict.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-20T04:35:48.845381",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Simon White",
-      "fetched_at": "2026-03-20T09:35:48.845223+00:00",
-      "cliff_notes": "Simon White is recognized for his deep understanding of macroeconomic trends and their influence on global financial markets. As a Bloomberg Macro strategist, he provides critical analysis and forecasts that help investors navigate market volatility. His expertise is sought after in professional finance circles, particularly among high-net-worth individuals, family offices, and sophisticated investors. White's contributions to the Macrovoisers podcast further highlight his thought leadership in the field, where he discusses pressing issues such as secular inflation and its potential effects on economic outlooks.",
-      "derived": {
-        "current_role": "Bloomberg Macro strategist"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Simon White is recognized for his deep understanding of macroeconomic trends and their influence on global financial markets. As a Bloomberg Macro strategist, he provides critical analysis and forecasts that help investors navigate market volatility. His expertise is sought after in professional finance circles, particularly among high-net-worth individuals, family offices, and sophisticated investors.",
-        "White's contributions to the Macrovoisers podcast further highlight his thought leadership in the field, where he discusses pressing issues such as secular inflation and its potential effects on economic outlooks."
-      ],
-      "sections": [
-        {
-          "heading": "Market Analysis",
-          "body": "Simon White is known for his detailed market analysis, providing insights into how macroeconomic trends can affect investment strategies."
-        },
-        {
-          "heading": "Secular Inflation",
-          "body": "In his discussions, White often addresses secular inflation, explaining its potential impact on long-term economic growth and market performance."
-        },
-        {
-          "heading": "Financial Market Trends",
-          "body": "White's expertise extends to identifying and interpreting trends within the financial markets, offering valuable perspectives to investors."
-        }
-      ]
-    },
-    "net_worth": "$112.0M"
   },
   {
     "id": 128,
@@ -18305,7 +18234,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-28",
     "mention_score": 2,
-    "mention_score_decayed": 1.12,
+    "mention_score_decayed": 1.1,
     "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-28 \u2022 the a16z show 20260319 1e92a9dd 78da 4417 b1ce 4b4318d1",
     "last_proof_snippet": "You just spend told you have superpowers. You've just been told you can have multiple employees for $200 a month. What do you do? If I was a young person today starting off my career, I would try to convince my parents to give me some money",
@@ -18369,7 +18298,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-28",
     "mention_score": 2,
-    "mention_score_decayed": 1.12,
+    "mention_score_decayed": 1.1,
     "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-28 \u2022 the a16z show 20260319 1e92a9dd 78da 4417 b1ce 4b4318d1",
     "last_proof_snippet": "You just spend told you have superpowers. You've just been told you can have multiple employees for $200 a month. What do you do? If I was a young person today starting off my career, I would try to convince my parents to give me some money",
@@ -18412,76 +18341,71 @@ const dashboardData = {
     "net_worth": "$600.00B"
   },
   {
-    "id": 94,
-    "name": "Carson Block",
-    "slug": "carson-block",
-    "bio": "Founder of Muddy Waters Capital, a leading activist short seller hedge fund.",
-    "known_for": "Specializing in activist short selling with deep research.",
-    "net_worth_usd": 200000000.0,
-    "net_worth_source": "https://www.publicfigurenetworth.com/carson-block-net-worth/",
-    "net_worth_updated_at": "2026-03-20T04:42:12.912511",
-    "voice_tone": "Confident and experienced.",
-    "voice_style": "Direct and to-the-point, with a focus on identifying market opportunities and risks.",
-    "voice_delivery_notes": "Paced with emphasis on key investment insights and market analysis.",
-    "voice_profile_updated_at": "2026-03-29 03:02:33",
-    "last_seen": "2026-03-29 03:02:33",
-    "last_episode_title": "Technical Analysis Deep Dive with Milton Berg - February 2026 Market Signals",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-02-15",
+    "id": 97,
+    "name": "Simon White",
+    "slug": "simon-white",
+    "bio": "Bloomberg Macro strategist",
+    "known_for": "Analysis on secular inflation and macroeconomic trends",
+    "net_worth_usd": 112000000.0,
+    "net_worth_source": "https://www.gurufocus.com/insider/44/william-s-simon",
+    "net_worth_updated_at": "2026-03-20T22:08:35.505085",
+    "voice_tone": "Matter-of-fact and analytical",
+    "voice_style": "Factual and data-driven, with a focus on historical parallels",
+    "voice_delivery_notes": "Clear and concise, with a steady pace",
+    "voice_profile_updated_at": "2026-03-29 09:09:13",
+    "last_seen": "2026-03-29 09:09:13",
+    "last_episode_title": "MacroVoices-2026-03-19-Simon-White",
+    "last_podcast_name": "MacroVoices",
+    "last_episode_date": "2026-03-19",
     "mention_score": 2,
     "mention_score_decayed": 1.12,
-    "last_main_idea": "Invest in sectors with fertile ground for short selling, such as AI and tech, and under-allocated areas like junior mining, while combining long and short strategies for potential alpha.",
-    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-02-15 \u2022 Technical Analysis Deep Dive with Milton Berg - February 2026 Market Signals",
-    "last_proof_snippet": "Today's episode is brought to you by the PICTEA AI Enhance International Equity ETF, ticker PQNT. You'll hear more about their using AI to enhance international equity returns later in the show. For now, let's get into it. Got a very specia",
-    "supporting_takeaway": "The semiconductor industry, despite being cyclical and capital-intensive, has seen unusual upward trends, suggesting potential for mean reversion.",
+    "last_main_idea": "The Iran conflict could lead to a renewed inflation cycle, affecting commodities and energy markets, with potential second-order effects that markets may currently be underpricing.",
+    "last_proof_cite": "MacroVoices \u2022 2026-03-19 \u2022 MacroVoices-2026-03-19-Simon-White",
+    "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
+    "supporting_takeaway": "Simon White suggests that markets may be underpricing the second-order effects of the Iran conflict.",
     "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-20T04:42:09.376490",
+    "grokipedia_fetched_at": "2026-03-20T04:35:48.845381",
     "pundit_profile": {
       "source": "llm",
       "source_model": "moonshot:moonshot-v1-8k",
       "source_url": "",
-      "page_title": "Carson Block",
-      "fetched_at": "2026-03-20T09:42:09.376380+00:00",
-      "cliff_notes": "Carson Block is an American investor and the founder of Muddy Waters Capital, an investment firm known for its activist short selling approach. Block's career in finance began after he graduated from law school and moved to China, where he worked as an attorney and later in private equity. His experiences in China, particularly witnessing corporate fraud, inspired him to start Muddy Waters Research in 2010, which would later become Muddy Waters Capital. The firm is renowned for its deep research into companies, often uncovering fraudulent practices or overpromised business models, leading to significant market impact when they release their findings. Block's work has been influential in the tech and finance sectors, as his exposes often lead to substantial stock price movements and regulatory scrutiny.",
+      "page_title": "Simon White",
+      "fetched_at": "2026-03-20T09:35:48.845223+00:00",
+      "cliff_notes": "Simon White is recognized for his deep understanding of macroeconomic trends and their influence on global financial markets. As a Bloomberg Macro strategist, he provides critical analysis and forecasts that help investors navigate market volatility. His expertise is sought after in professional finance circles, particularly among high-net-worth individuals, family offices, and sophisticated investors. White's contributions to the Macrovoisers podcast further highlight his thought leadership in the field, where he discusses pressing issues such as secular inflation and its potential effects on economic outlooks.",
       "derived": {
-        "current_role": "Founder of Muddy Waters Capital",
-        "education": "Bachelor's degree in International Relations from Southern Methodist University; Juris Doctor from the University of Chicago Law School"
+        "current_role": "Bloomberg Macro strategist"
       },
       "infobox": {
-        "Born": "1980",
-        "Nationality": "American"
+        "Born": "",
+        "Nationality": ""
       },
       "lead_paragraphs": [
-        "Carson Block is an American investor and the founder of Muddy Waters Capital, an investment firm known for its activist short selling approach. Block's career in finance began after he graduated from law school and moved to China, where he worked as an attorney and later in private equity. His experiences in China, particularly witnessing corporate fraud, inspired him to start Muddy Waters Research in 2010, which would later become Muddy Waters Capital.",
-        "The firm is renowned for its deep research into companies, often uncovering fraudulent practices or overpromised business models, leading to significant market impact when they release their findings. Block's work has been influential in the tech and finance sectors, as his exposes often lead to substantial stock price movements and regulatory scrutiny."
+        "Simon White is recognized for his deep understanding of macroeconomic trends and their influence on global financial markets. As a Bloomberg Macro strategist, he provides critical analysis and forecasts that help investors navigate market volatility. His expertise is sought after in professional finance circles, particularly among high-net-worth individuals, family offices, and sophisticated investors.",
+        "White's contributions to the Macrovoisers podcast further highlight his thought leadership in the field, where he discusses pressing issues such as secular inflation and its potential effects on economic outlooks."
       ],
       "sections": [
         {
-          "heading": "Activist Short Selling",
-          "body": "Carson Block is recognized for his activist short selling approach, where he not only bets against companies but also actively researches and exposes fraudulent practices or overpromised business models."
+          "heading": "Market Analysis",
+          "body": "Simon White is known for his detailed market analysis, providing insights into how macroeconomic trends can affect investment strategies."
         },
         {
-          "heading": "Muddy Waters Capital",
-          "body": "Muddy Waters Capital, founded by Block, is a hedge fund that specializes in short selling and has been influential in exposing corporate frauds, particularly in the tech sector."
+          "heading": "Secular Inflation",
+          "body": "In his discussions, White often addresses secular inflation, explaining its potential impact on long-term economic growth and market performance."
         },
         {
-          "heading": "Market Impact",
-          "body": "Block's research and activism have had significant market impact, leading to substantial stock price movements and regulatory scrutiny for the companies targeted by Muddy Waters Capital."
-        },
-        {
-          "heading": "Fraud Exposure",
-          "body": "Carson Block has been instrumental in exposing corporate frauds, particularly in sectors like electric vehicles and green energy, where companies have been known to overpromise on their capabilities."
+          "heading": "Financial Market Trends",
+          "body": "White's expertise extends to identifying and interpreting trends within the financial markets, offering valuable perspectives to investors."
         }
       ]
     },
-    "net_worth": "$200.0M"
+    "net_worth": "$112.0M"
   },
   {
-    "id": 43,
-    "name": "Olivia Moore",
-    "slug": "olivia-moore",
-    "bio": "Olivia Moore is a partner at A16Z, focusing on AI applications.",
-    "known_for": "Her expertise in AI and its applications in various sectors.",
+    "id": 55,
+    "name": "Dr. Onus Alhajji",
+    "slug": "dr-onus-alhajji",
+    "bio": "Expert commentator on energy markets and geopolitical conflicts.",
+    "known_for": "Analysis of the impact of geopolitical events on oil markets.",
     "net_worth_usd": null,
     "net_worth_source": null,
     "net_worth_updated_at": null,
@@ -18489,3340 +18413,2297 @@ const dashboardData = {
     "voice_style": null,
     "voice_delivery_notes": null,
     "voice_profile_updated_at": null,
-    "last_seen": "2026-03-16 13:08:23",
-    "last_episode_title": "AI Startups and the Future of Technology",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-03-16",
+    "last_seen": "2026-04-03 10:04:02",
+    "last_episode_title": "MacroVoices #526 Matt Barrie: Pay To PrAI",
+    "last_podcast_name": "MacroVoices",
+    "last_episode_date": "2026-04-02",
     "mention_score": 2,
-    "mention_score_decayed": 0.85,
-    "last_main_idea": "Invest in AI startups that focus on specific niches and use cases, as they can compete effectively against larger AI companies by capitalizing on the gaps between platforms.",
-    "last_proof_cite": "The a16z Show \u2022 2026-03-16 \u2022 AI Startups and the Future of Technology",
-    "last_proof_snippet": "I think that every tech company is going to be an AI company and every AI company is going to be an agent company and so the sooner that you as kind of an employee or a business owner can kind of get on board and learn how to use that to yo",
-    "supporting_takeaway": "AI is seen as the reinvention of the entire technology industry, with the potential to create companies worth hundreds of billions or trillions of dollars.",
+    "mention_score_decayed": 1.26,
+    "last_main_idea": "Invest in sectors less affected by AI disruption and monitor geopolitical events for opportunities in private credit markets.",
+    "last_proof_cite": "MacroVoices \u2022 2026-04-02 \u2022 MacroVoices #526 Matt Barrie: Pay To PrAI",
+    "last_proof_snippet": "This is Macrovoisans, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisans is all about the brightest minds in the world of finance an",
+    "supporting_takeaway": "AI's impact on private credit markets could lead to a market dislocation similar to the 2000.com bust.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
   },
   {
-    "id": 198,
-    "name": "Bolligies Renovison",
-    "slug": "bolligies-renovison",
-    "bio": "Bolligies Renovison is an Angel Investor, Entrepreneur, and author known for his work in the new media landscape. He is recognized for his investments in and founding of entities within this emerging space. Renovison is also the author of 'The Network State', a book that delves into the intricacies of blockchain technology and its implications for trust and verification in various systems.",
-    "known_for": "His investments and insights into the new media landscape, particularly his focus on blockchain technology and its role in establishing trust and verifiability in digital systems.",
-    "net_worth_usd": 9000000000.0,
-    "net_worth_source": "https://www.bbntimes.com/society/vincent-bollore-a-deep-dive-into-the-net-worth-business-ventures-political-power-and-ethnicity-of-the-french-tycoon",
-    "net_worth_updated_at": "2026-04-22T22:03:03.496677",
-    "voice_tone": "Educative and visionary.",
-    "voice_style": "Passionate about the potential of blockchain and cryptography to change information verification.",
-    "voice_delivery_notes": "Speaks with conviction and clarity, emphasizing the importance of verifiable truth.",
-    "voice_profile_updated_at": "2026-04-23 03:01:56",
-    "last_seen": "2026-04-23 03:01:56",
-    "last_episode_title": "Balaji Srinivasan: Prove Correct, Not Just Go Direct",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-04-22",
-    "mention_score": 1,
-    "mention_score_decayed": 1,
-    "last_main_idea": "Invest in technologies and platforms that leverage cryptography and blockchain to provide verifiable information and restore trust in digital content.",
-    "last_proof_cite": "The a16z Show \u2022 2026-04-22 \u2022 Balaji Srinivasan: Prove Correct, Not Just Go Direct",
-    "last_proof_snippet": "We don't just want to go direct, we want to prove correct. And a sense what the blockchain is is like an armored car for information, we can transport that information on chain. So easy to verify difficult to fake becomes a critical thing i",
-    "supporting_takeaway": "The growing distrust in media is due to the increasing cost of verifying content as synthetic content floods systems.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-22T22:03:01.960437",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Bolligies Renovison",
-      "fetched_at": "2026-04-23T03:03:01.960103+00:00",
-      "cliff_notes": "Bolligies Renovison has carved a niche for himself as an entrepreneur and angel investor, focusing on the burgeoning field of new media. His work is centered around the intersection of technology, particularly blockchain, and its impact on trust and verification in various sectors. Renovison's contributions extend beyond investments; he has authored 'The Network State', a book that explores the potential of blockchain to revolutionize how information is secured and verified. His expertise lies in understanding the implications of new media on trust and the verification of digital content, which is becoming increasingly important in a world where synthetic content can have significant real-world impacts.",
-      "derived": {
-        "current_role": "Angel Investor; Entrepreneur",
-        "books_or_works": "The Network State"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Bolligies Renovison has carved a niche for himself as an entrepreneur and angel investor, focusing on the burgeoning field of new media. His work is centered around the intersection of technology, particularly blockchain, and its impact on trust and verification in various sectors. Renovison's contributions extend beyond investments; he has authored 'The Network State', a book that explores the potential of blockchain to revolutionize how information is secured and verified.",
-        "His expertise lies in understanding the implications of new media on trust and the verification of digital content, which is becoming increasingly important in a world where synthetic content can have significant real-world impacts."
-      ],
-      "sections": [
-        {
-          "heading": "Blockchain and Trust",
-          "body": "Bolligies Renovison emphasizes the importance of blockchain technology in creating systems that are easy to verify and difficult to fake, which is crucial in any system dealing with strangers."
-        },
-        {
-          "heading": "New Media Landscape",
-          "body": "As an entrepreneur and investor, Renovison is actively involved in shaping the new media landscape, focusing on entities that leverage the potential of blockchain and cryptography."
-        },
-        {
-          "heading": "Content Verification",
-          "body": "Renovison highlights the growing challenge of verifying content in a world where the cost of creating content is approaching zero, while the cost of verifying it is rising."
-        }
-      ]
-    },
-    "net_worth": "$9.00B"
-  },
-  {
-    "id": 196,
-    "name": "Mark Andrewson",
-    "slug": "mark-andrewson",
-    "bio": "Mark Andrewson is a co-founder and general partner at E16Z, where he leverages his deep understanding of media and its impact on society. He is known for his insights into the history of CNN and the concept of 'randomonium', reflecting on the evolution of media and its influence on behavior.",
-    "known_for": "His expertise in media history and the influence of media on societal behavior, particularly in the context of CNN and the concept of 'randomonium'.",
-    "net_worth_usd": 1600000000.0,
-    "net_worth_source": "https://finty.com/us/net-worth/marc-andreessen/",
-    "net_worth_updated_at": "2026-04-22T05:03:52.721541",
-    "voice_tone": "Inquisitive and informative",
-    "voice_style": "Analytical and historical",
-    "voice_delivery_notes": "Pacing is moderate with emphasis on key historical points and societal impacts",
-    "voice_profile_updated_at": "2026-04-22 10:03:39",
-    "last_seen": "2026-04-22 10:03:39",
-    "last_episode_title": "Marc Andreessen: Monitoring the Situation and the Future of Media",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-04-21",
-    "mention_score": 1,
-    "mention_score_decayed": 1,
-    "last_main_idea": "Investing in media and understanding its evolution is crucial as it shapes societal behavior, influences politics, and impacts decision-making processes.",
-    "last_proof_cite": "The a16z Show \u2022 2026-04-21 \u2022 Marc Andreessen: Monitoring the Situation and the Future of Media",
-    "last_proof_snippet": "If an alien invasion happens later this afternoon, it will be turned into a social media meme, and it will go viral. If you track like how distributed as media versus how centralized is media, like centralized media sort of peaked summer ar",
-    "supporting_takeaway": "The 24-hour news cycle, pioneered by CNN, has been taken to the extreme by the internet, compressing time and amplifying emotion.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-22T05:03:51.163595",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Mark Andrewson",
-      "fetched_at": "2026-04-22T10:03:51.163132+00:00",
-      "cliff_notes": "Mark Andrewson is a seasoned media expert and entrepreneur, recognized for his deep insights into the history and impact of media on society. As a co-founder and general partner at E16Z, Andrewson has been at the forefront of understanding how media shapes behavior and influences the world we live in. His commentary on the evolution of media, from the peak of centralized media in the 1970s to the current era of social media, highlights his expertise in the field. Andrewson's understanding of the media landscape, particularly his analysis of CNN's 24-hour coverage and the internet's acceleration of this concept, positions him as a thought leader in the media industry.",
-      "derived": {
-        "current_role": "Co-founder and General Partner at E16Z"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Mark Andrewson is a seasoned media expert and entrepreneur, recognized for his deep insights into the history and impact of media on society. As a co-founder and general partner at E16Z, Andrewson has been at the forefront of understanding how media shapes behavior and influences the world we live in. His commentary on the evolution of media, from the peak of centralized media in the 1970s to the current era of social media, highlights his expertise in the field.",
-        "Andrewson's understanding of the media landscape, particularly his analysis of CNN's 24-hour coverage and the internet's acceleration of this concept, positions him as a thought leader in the media industry."
-      ],
-      "sections": [
-        {
-          "heading": "Media Evolution",
-          "body": "Mark Andrewson has a keen understanding of the evolution of media, from the consolidation of newspapers and the dominance of television networks to the current era of social media."
-        },
-        {
-          "heading": "Impact on Society",
-          "body": "Andrewson's insights into how the shape of media influences societal behavior are particularly relevant in today's fast-paced, always-on media environment."
-        },
-        {
-          "heading": "CNN and 24-Hour News",
-          "body": "He is known for his analysis of CNN's introduction of 24-hour news coverage and its impact on the media landscape, setting a precedent for real-time news delivery."
-        },
-        {
-          "heading": "Concept of 'Randomonium'",
-          "body": "Andrewson's concept of 'randomonium' reflects his understanding of the unpredictable nature of media and its ability to shape public discourse and attention."
-        }
-      ]
-    },
-    "net_worth": "$1.60B"
-  },
-  {
-    "id": 194,
-    "name": "Scott Chacon",
-    "slug": "scott-chacon",
-    "bio": "Scott Chacon is a well-known figure in the software development industry, recognized for his work on version control systems, particularly with Git. He co-founded GitHub and is currently the CEO of Git Butler. Chacon is also the author of a book on Git, which has become a valuable resource for developers worldwide.",
-    "known_for": "Being a co-founder of GitHub and a major driving force behind the Git version control system.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Inquisitive and insightful",
-    "voice_style": "Explains complex concepts in a relatable manner",
-    "voice_delivery_notes": "Speaks with a measured pace, emphasizing key points",
-    "voice_profile_updated_at": "2026-04-21 10:05:48",
-    "last_seen": "2026-04-21 10:05:48",
-    "last_episode_title": "Rethinking Git for the Age of Coding Agents with GitHub Cofounder Scott Chacon",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-04-20",
-    "mention_score": 1,
-    "mention_score_decayed": 0.98,
-    "last_main_idea": "Investing in the evolution of software development tools that cater to the needs of both human developers and AI coding agents presents an opportunity for significant growth and innovation.",
-    "last_proof_cite": "The a16z Show \u2022 2026-04-20 \u2022 Rethinking Git for the Age of Coding Agents with GitHub Cofounder Scott Chacon",
-    "last_proof_snippet": "If you ask almost any software developer, when you do code review, do really read the whole PR. Like, do you go through every line and think it through? Do you pull it down and test it out and then leave the good feedback on each line? Agen",
-    "supporting_takeaway": "Coding agents are struggling with traditional Git interfaces, necessitating new tool development.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-21T05:06:01.181305",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Scott Chacon",
-      "fetched_at": "2026-04-21T10:06:01.180751+00:00",
-      "cliff_notes": "Scott Chacon is a prominent figure in the field of software development, particularly in the area of version control systems. He is best known for his work with Git, which has become one of the most widely used developer tools globally. Chacon co-founded GitHub, a web-based platform for version control and collaboration that has revolutionized the way developers work together on projects. In addition to his work with GitHub, Chacon has authored 'Pro Git,' a comprehensive guide to Git that has become an essential resource for developers. As the CEO of Git Butler, he continues to innovate in the space of software development tools, focusing on improving communication and collaboration among developers.",
-      "derived": {
-        "current_role": "CEO of Git Butler",
-        "former_positions": "Co-founder of GitHub",
-        "books_or_works": "Pro Git"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Scott Chacon is a prominent figure in the field of software development, particularly in the area of version control systems. He is best known for his work with Git, which has become one of the most widely used developer tools globally. Chacon co-founded GitHub, a web-based platform for version control and collaboration that has revolutionized the way developers work together on projects.",
-        "In addition to his work with GitHub, Chacon has authored 'Pro Git,' a comprehensive guide to Git that has become an essential resource for developers. As the CEO of Git Butler, he continues to innovate in the space of software development tools, focusing on improving communication and collaboration among developers."
-      ],
-      "sections": [
-        {
-          "heading": "GitHub Co-founder",
-          "body": "Scott Chacon co-founded GitHub, a platform that has become integral to the workflow of millions of developers worldwide, providing a space for version control and collaboration."
-        },
-        {
-          "heading": "Git Advocacy",
-          "body": "Chacon is a strong advocate for Git, contributing significantly to its adoption and education through his book 'Pro Git' and his continued work in the field."
-        },
-        {
-          "heading": "CEO of Git Butler",
-          "body": "As the CEO of Git Butler, Chacon leads the development of tools aimed at improving the user experience for software developers, focusing on real-time communication and collaboration."
-        },
-        {
-          "heading": "Thought Leadership",
-          "body": "Scott Chacon's insights into software development tools and practices have made him a sought-after voice in discussions about the future of developer tools and collaboration."
-        }
-      ]
-    }
-  },
-  {
-    "id": 193,
-    "name": "Alex Weiser Gross",
-    "slug": "alex-weiser-gross",
-    "bio": "Alex Weiser Gross is a recognized expert in AI benchmarks and model comparisons. Known for his insightful analysis and commentary on the latest advancements in AI, he has made significant contributions to the field. His work has been influential in shaping discussions around AI ethics and its impact on society.",
-    "known_for": "His expertise in AI benchmarks and model comparisons has made him a go-to resource for understanding the latest advancements in AI.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Matter-of-fact and analytical",
-    "voice_style": "Factual and informative, with a focus on technical details",
-    "voice_delivery_notes": "Clear and concise, with emphasis on key points",
-    "voice_profile_updated_at": "2026-04-20 10:06:05",
-    "last_seen": "2026-04-20 10:06:05",
-    "last_episode_title": "Sam Altman\u2019s Attack, Amazon vs. Starlink, and What Opus 4.7 Actually Means | #248",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-04-18",
-    "mention_score": 1,
-    "mention_score_decayed": 0.95,
-    "last_main_idea": "Invest in companies at the forefront of AI development and application, as they are poised to shape the future of work, management, and the economy.",
-    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-04-18 \u2022 Sam Altman\u2019s Attack, Amazon vs. Starlink, and What Opus 4.7 Actually Means | #248",
-    "last_proof_snippet": "A 20-year-old Texan through a Maltaf cocktail at Sam Alman San Francisco House. Suspect was on something called the Official Pause AI Discord server list. The state of Maine passed the first ever statewide data center ban in the United Stat",
-    "supporting_takeaway": "99% of people are underreacting to and unaware of the potential impacts of AI on their lives and jobs.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-20T05:06:19.454125",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Alex Weiser Gross",
-      "fetched_at": "2026-04-20T10:06:19.453903+00:00",
-      "cliff_notes": "Alex Weiser Gross has established himself as an authority in the field of AI benchmarks and model comparisons. His work focuses on evaluating and comparing different AI models, providing valuable insights into their capabilities and limitations. Gross has been instrumental in fostering discussions on the ethical implications of AI and its impact on society. His contributions have helped shape the discourse around AI, making him a respected voice in both the tech and investment communities.",
-      "derived": {
-        "current_role": "Expert in AI Benchmarks and Model Comparisons"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Alex Weiser Gross has established himself as an authority in the field of AI benchmarks and model comparisons. His work focuses on evaluating and comparing different AI models, providing valuable insights into their capabilities and limitations. Gross has been instrumental in fostering discussions on the ethical implications of AI and its impact on society.",
-        "His contributions have helped shape the discourse around AI, making him a respected voice in both the tech and investment communities."
-      ],
-      "sections": [
-        {
-          "heading": "AI Benchmarks",
-          "body": "Gross is known for his in-depth analysis of AI benchmarks, providing a comprehensive understanding of the performance and capabilities of various AI models."
-        },
-        {
-          "heading": "Model Comparisons",
-          "body": "His expertise in comparing different AI models has been crucial in identifying strengths and weaknesses, informing both developers and users about the best tools for their needs."
-        },
-        {
-          "heading": "AI Ethics",
-          "body": "Gross has been vocal about the ethical considerations surrounding AI, advocating for responsible development and deployment of AI technologies."
-        },
-        {
-          "heading": "Impact on Society",
-          "body": "His work has shed light on the societal implications of AI, including its potential to disrupt the job market and the need for public optimism in AI advancements."
-        }
-      ]
-    }
-  },
-  {
-    "id": 192,
-    "name": "Daya Apairness",
-    "slug": "daya-apairness",
-    "bio": "Daya Apairness is the co-founder of Pairness Research, a firm that manages an audited real money portfolio. Known for generating a 30% compounded return since inception in 2017, Apairness has been vocal about the potential for disruption in the software industry due to advancements in AI and agentic capabilities.",
-    "known_for": "Generating a 30% compounded return since inception in 2017 and insights on the impact of AI on software stocks.",
-    "net_worth_usd": 4000000.0,
-    "net_worth_source": "https://knownetworth.com/daya-net-worth",
-    "net_worth_updated_at": "2026-04-20T05:06:35.020384",
-    "voice_tone": "Confident and analytical.",
-    "voice_style": "Factual and data-driven.",
-    "voice_delivery_notes": "Paced with emphasis on key investment points.",
-    "voice_profile_updated_at": "2026-04-20 10:05:33",
-    "last_seen": "2026-04-20 10:05:33",
-    "last_episode_title": "Navigating the SaaS Apocalypse: Why AI Disruption is Mispriced | Deiya Pernas | Pernas Research",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-04-19",
-    "mention_score": 1,
-    "mention_score_decayed": 0.95,
-    "last_main_idea": "Invest in software companies that can adapt to AI disruption and emerge stronger, with the potential for significant upside in the next 12 months.",
-    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-19 \u2022 Navigating the SaaS Apocalypse: Why AI Disruption is Mispriced | Deiya Pernas | Pernas Research",
-    "last_proof_snippet": "for sask up is absolutely right. They have not shown at all the scares and fundamentals that reflect any sort of the perceived beers that you're talking about. What the market is overlooking is that most of these sask companies have the DNA",
-    "supporting_takeaway": "The sell-off has led to valuations not seen in years, presenting opportunities for investors.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-20T05:06:34.198971",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Daya Apairness",
-      "fetched_at": "2026-04-20T10:06:34.198876+00:00",
-      "cliff_notes": "Daya Apairness is recognized for her role as the co-founder of Pairness Research, a firm that specializes in managing a real money portfolio. Since its inception in 2017, the firm has been successful in generating a 30% compounded return, which has garnered significant attention in the investment community. Apairness is particularly known for her insights on the transformative effects of AI and agentic capabilities on the software industry. She has been vocal about the market's potential to overlook the disruptive potential of these technologies, and how companies that adapt to these changes can offer significant investment opportunities. Her commentary on the market's perception of certain software companies and the potential for these companies to emerge stronger from the current AI-driven disruption has been influential in shaping investor perspectives.",
-      "derived": {
-        "current_role": "Co-founder of Pairness Research"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Daya Apairness is recognized for her role as the co-founder of Pairness Research, a firm that specializes in managing a real money portfolio. Since its inception in 2017, the firm has been successful in generating a 30% compounded return, which has garnered significant attention in the investment community. Apairness is particularly known for her insights on the transformative effects of AI and agentic capabilities on the software industry.",
-        "She has been vocal about the market's potential to overlook the disruptive potential of these technologies, and how companies that adapt to these changes can offer significant investment opportunities. Her commentary on the market's perception of certain software companies and the potential for these companies to emerge stronger from the current AI-driven disruption has been influential in shaping investor perspectives."
-      ],
-      "sections": [
-        {
-          "heading": "Portfolio Management",
-          "body": "Daya Apairness has been successful in managing an audited real money portfolio, achieving a 30% compounded return since 2017."
-        },
-        {
-          "heading": "AI and Disruption",
-          "body": "Apairness is known for her insights on the impact of AI and agentic capabilities on the software industry, highlighting the potential for market disruption."
-        },
-        {
-          "heading": "Investment Opportunities",
-          "body": "She believes that the current market sell-off presents an opportunity for investors to find software companies that will emerge unscathed or even stronger from the AI-driven changes."
-        }
-      ]
-    },
-    "net_worth": "$4.0M"
-  },
-  {
-    "id": 156,
-    "name": "Anish Acharya",
-    "slug": "anish-acharya",
-    "bio": "General partner at a16z, focused on consumer investing.",
-    "known_for": "His work in consumer tech and investments in the space.",
-    "net_worth_usd": 5000000000.0,
-    "net_worth_source": "https://theopinionatedindian.com/networth/anish-singh-thakur-age-wiki-net-worth-biography-cars-height/cid12931099.htm",
-    "net_worth_updated_at": "2026-04-07T05:06:23.012573",
-    "voice_tone": "enthusiastic and insightful",
-    "voice_style": "Anish presents a forward-thinking perspective on AI and its impact on society and business.",
-    "voice_delivery_notes": "Speaks with a mix of excitement and thoughtfulness, emphasizing key points with pauses for effect.",
-    "voice_profile_updated_at": "2026-04-20 10:04:11",
-    "last_seen": "2026-04-20 10:04:11",
-    "last_episode_title": "Network Effects, AI Costs, and the Future of Consumer Investing with Anish Acharya on The Kevin Rose Show",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-04-19",
-    "mention_score": 1,
-    "mention_score_decayed": 0.95,
-    "last_main_idea": "The rapid advancement of AI and consumer tech is creating new opportunities and challenges for venture capital, with a focus on the need for universal basic purpose and the potential for AI to disrupt traditional job markets.",
-    "last_proof_cite": "The a16z Show \u2022 2026-04-19 \u2022 Network Effects, AI Costs, and the Future of Consumer Investing with Anish Acharya on The Kevin Rose Show",
-    "last_proof_snippet": "Yeah, idea guys are sort of having a moment. In fact, it's funny, like I'm like looking for new ideas to work on. You know, in the old days, somebody would give you their app idea and you be like, oh, here we go again. And now I'm like, coo",
-    "supporting_takeaway": "The cost structure for consumer products has shifted, with AI inference costs affecting the economics of venture funding.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-07T05:06:22.088210",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Anish Acharya",
-      "fetched_at": "2026-04-07T10:06:22.087926+00:00",
-      "cliff_notes": "Anish Acharya began his career as a software engineer at Microsoft, where he gained valuable experience in the tech industry. He then moved on to Google, where he worked as a Principal Engineer, further honing his skills in software development and data analytics. Acharya's entrepreneurial spirit led him to co-found HyperAnna, a startup focused on data analytics. His expertise in technology and data analytics has been crucial in the growth of various startups, and he has become a respected figure in the tech community. Currently, Acharya serves as the Chief Technology Officer at DataRobot, a company that specializes in automated machine learning. His work has had a significant impact on the way businesses approach data analytics and machine learning.",
-      "derived": {
-        "current_role": "Chief Technology Officer at DataRobot; previously held roles at various tech startups.",
-        "former_positions": "Co-founder and CTO at HyperAnna; Principal Engineer at Google; Software Engineer at Microsoft.",
-        "education": "Bachelor's degree in Computer Science from the University of Waterloo."
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Anish Acharya began his career as a software engineer at Microsoft, where he gained valuable experience in the tech industry. He then moved on to Google, where he worked as a Principal Engineer, further honing his skills in software development and data analytics. Acharya's entrepreneurial spirit led him to co-found HyperAnna, a startup focused on data analytics.",
-        "His expertise in technology and data analytics has been crucial in the growth of various startups, and he has become a respected figure in the tech community. Currently, Acharya serves as the Chief Technology Officer at DataRobot, a company that specializes in automated machine learning. His work has had a significant impact on the way businesses approach data analytics and machine learning."
-      ],
-      "sections": [
-        {
-          "heading": "Early Career",
-          "body": "Anish Acharya started his career at Microsoft as a software engineer, where he laid the foundation for his future endeavors in technology."
-        },
-        {
-          "heading": "Google Experience",
-          "body": "At Google, Acharya worked as a Principal Engineer, gaining deep insights into large-scale data systems and software development."
-        },
-        {
-          "heading": "Entrepreneurship",
-          "body": "Acharya co-founded HyperAnna, a company that provided analytics solutions, showcasing his ability to innovate and lead in the tech startup space."
-        },
-        {
-          "heading": "DataRobot Leadership",
-          "body": "As the Chief Technology Officer at DataRobot, Acharya has played a pivotal role in the advancement of automated machine learning technologies."
-        }
-      ]
-    },
-    "net_worth": "$5.00B"
-  },
-  {
-    "id": 189,
-    "name": "Dmitry Dugov",
-    "slug": "dmitry-dugov",
-    "bio": "Dmitry Dugov is the Co-CEO of Wemo, a company that has been leading the autonomous vehicle industry by providing over 500,000 fully autonomous rides each week. He joined Google's self-driving car project in 2009 as one of its first engineers, contributing significantly to the field of autonomous driving technology.",
-    "known_for": "Leading Wemo to provide over 500,000 fully autonomous rides each week.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Confident and knowledgeable",
-    "voice_style": "Factual and forward-looking",
-    "voice_delivery_notes": "Clear and measured pace, with emphasis on key milestones and technological advancements",
-    "voice_profile_updated_at": "2026-04-20 03:05:00",
-    "last_seen": "2026-04-20 03:05:00",
-    "last_episode_title": "From Models to Mobility: Building Waymo with Dmitri Dolgov",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-04-17",
-    "mention_score": 1,
-    "mention_score_decayed": 0.93,
-    "last_main_idea": "Investing in autonomous driving technologies offers significant potential as the industry moves from research to real-world deployment, with a focus on companies that understand the physical and social aspects of driving.",
-    "last_proof_cite": "The a16z Show \u2022 2026-04-17 \u2022 From Models to Mobility: Building Waymo with Dmitri Dolgov",
-    "last_proof_snippet": "When you're driving around or being driven around, you know, say, you always think about what they're building as a driver. I kind of imagine building a big model that understands how the physical world works and understands the important p",
-    "supporting_takeaway": "The autonomous driving industry has moved from scientific research to accelerated global scaling and deployment.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-19T22:05:22.013432",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Dmitry Dugov",
-      "fetched_at": "2026-04-20T03:05:22.013196+00:00",
-      "cliff_notes": "Dmitry Dugov began his career in the autonomous vehicle industry by joining Google's self-driving car project in 2009 as one of its first engineers. His work contributed to the foundational development of autonomous driving technology. Later, Dugov became the Co-CEO of Wemo, where he played a pivotal role in scaling the company's operations to provide over 500,000 fully autonomous rides each week across multiple cities. His leadership has been instrumental in transitioning the company from long-term research to real-world scale, emphasizing the importance of understanding the social aspects of driving and the properties of being a good driver in the development of autonomous systems.",
-      "derived": {
-        "current_role": "Co-CEO of Wemo",
-        "former_positions": "Engineer at Google's self-driving car project"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Dmitry Dugov began his career in the autonomous vehicle industry by joining Google's self-driving car project in 2009 as one of its first engineers. His work contributed to the foundational development of autonomous driving technology. Later, Dugov became the Co-CEO of Wemo, where he played a pivotal role in scaling the company's operations to provide over 500,000 fully autonomous rides each week across multiple cities.",
-        "His leadership has been instrumental in transitioning the company from long-term research to real-world scale, emphasizing the importance of understanding the social aspects of driving and the properties of being a good driver in the development of autonomous systems."
-      ],
-      "sections": [
-        {
-          "heading": "Autonomous Vehicle Pioneer",
-          "body": "Dmitry Dugov was one of the initial engineers in Google's self-driving car project, contributing to the early stages of autonomous vehicle technology."
-        },
-        {
-          "heading": "Scaling Autonomous Rides",
-          "body": "As Co-CEO of Wemo, Dugov has overseen the scaling of the company's operations to provide over 500,000 fully autonomous rides per week, a significant milestone in the industry."
-        },
-        {
-          "heading": "Transition from Research to Real-World",
-          "body": "Dmitry Dugov has been instrumental in shifting Wemo's focus from scientific research to the accelerated global deployment of autonomous driving technology."
-        },
-        {
-          "heading": "Social Aspects of Driving",
-          "body": "Dugov emphasizes the importance of understanding the social aspects of driving and what it means to be a good driver in the development of autonomous systems."
-        }
-      ]
-    }
-  },
-  {
-    "id": 187,
-    "name": "Luke Groman",
-    "slug": "luke-groman",
-    "bio": "Luke Groman is the founder of Forest for the Trees, a boutique investment research firm. He is known for his expertise in identifying developing economic bottlenecks and sector attractiveness for investment. Groman's insights are highly valued among professional finance, high-net worth individuals, family offices, and other sophisticated investors.",
-    "known_for": "His ability to analyze and predict the impact of geopolitical events on inflation and investment opportunities.",
-    "net_worth_usd": 10000000.0,
-    "net_worth_source": "https://tycoonsnetworth.com/celebrity/entrepreneur/luke-gromen-net-worth/",
-    "net_worth_updated_at": "2026-04-17T05:06:55.472389",
-    "voice_tone": "",
-    "voice_style": "",
-    "voice_delivery_notes": "",
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-04-17 10:06:32",
-    "last_episode_title": "MacroVoices #528 Luke Gromen: Hormuz Could Lead To a 1956 US Suez Moment",
-    "last_podcast_name": "Macro Voices",
-    "last_episode_date": "2026-04-16",
-    "mention_score": 1,
-    "mention_score_decayed": 0.89,
-    "last_main_idea": "Invest in sectors likely to benefit from increased inflation and supply chain disruptions, with a focus on energy, uranium, and domestic electrical infrastructure.",
-    "last_proof_cite": "Macro Voices \u2022 2026-04-16 \u2022 MacroVoices #528 Luke Gromen: Hormuz Could Lead To a 1956 US Suez Moment",
-    "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
-    "supporting_takeaway": "Markets may be underpricing the severity of supply chain disruptions.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-17T05:06:54.603859",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Luke Groman",
-      "fetched_at": "2026-04-17T10:06:54.603376+00:00",
-      "cliff_notes": "Luke Groman is a prominent figure in the world of finance and investment research, having founded Forest for the Trees, a boutique firm specializing in identifying economic bottlenecks and sector attractiveness for investment. His work focuses on understanding the implications of geopolitical events, such as the Iran crisis, on inflation and investment opportunities. Groman's expertise is sought after by professional finance, high-net worth individuals, family offices, and other sophisticated investors. His insights are regularly featured in financial podcasts like Macrovoisers, where he discusses the latest market trends and their potential impact on the global economy.",
-      "derived": {
-        "current_role": "Founder of Forest for the Trees"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Luke Groman is a prominent figure in the world of finance and investment research, having founded Forest for the Trees, a boutique firm specializing in identifying economic bottlenecks and sector attractiveness for investment. His work focuses on understanding the implications of geopolitical events, such as the Iran crisis, on inflation and investment opportunities.",
-        "Groman's expertise is sought after by professional finance, high-net worth individuals, family offices, and other sophisticated investors. His insights are regularly featured in financial podcasts like Macrovoisers, where he discusses the latest market trends and their potential impact on the global economy."
-      ],
-      "sections": [
-        {
-          "heading": "Economic Bottlenecks",
-          "body": "Groman is known for his ability to identify developing economic bottlenecks that can impact investment decisions and market trends."
-        },
-        {
-          "heading": "Sector Attractiveness",
-          "body": "He provides valuable insights into which sectors are most attractive for investment based on current economic conditions and potential future developments."
-        },
-        {
-          "heading": "Geopolitical Impact",
-          "body": "Groman's expertise lies in analyzing the impact of geopolitical events, such as the Iran crisis, on inflation and investment opportunities."
-        },
-        {
-          "heading": "Market Trends",
-          "body": "He regularly discusses the latest market trends and their potential implications on financial podcasts like Macrovoiers, providing valuable insights to a wide audience of investors."
-        }
-      ]
-    },
-    "net_worth": "$10.0M"
-  },
-  {
-    "id": 188,
-    "name": "Rory Johnson",
-    "slug": "rory-johnson",
-    "bio": "Rory Johnson is the founder of Commodity Context, a platform that provides updates on geopolitical developments and their impact on global energy markets. His expertise lies in the logistics of oil and the geopolitical implications that shape the industry.",
-    "known_for": "Specializing in the logistics of oil and geopolitical implications on global energy markets.",
-    "net_worth_usd": 49000000.0,
-    "net_worth_source": "https://www.gurufocus.com/insider/97091/roy-e-johnson",
-    "net_worth_updated_at": "2026-04-17T05:07:19.947366",
-    "voice_tone": "",
-    "voice_style": "",
-    "voice_delivery_notes": "",
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-04-17 10:06:32",
-    "last_episode_title": "MacroVoices #528 Luke Gromen: Hormuz Could Lead To a 1956 US Suez Moment",
-    "last_podcast_name": "Macro Voices",
-    "last_episode_date": "2026-04-16",
-    "mention_score": 1,
-    "mention_score_decayed": 0.89,
-    "last_main_idea": "Invest in sectors likely to benefit from increased inflation and supply chain disruptions, with a focus on energy, uranium, and domestic electrical infrastructure.",
-    "last_proof_cite": "Macro Voices \u2022 2026-04-16 \u2022 MacroVoices #528 Luke Gromen: Hormuz Could Lead To a 1956 US Suez Moment",
-    "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
-    "supporting_takeaway": "Markets may be underpricing the severity of supply chain disruptions.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-17T05:07:18.921868",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Rory Johnson",
-      "fetched_at": "2026-04-17T10:07:18.921613+00:00",
-      "cliff_notes": "Rory Johnson is recognized for his deep understanding of the logistics of oil and the geopolitical implications that affect global energy markets. As the founder of Commodity Context, he has been instrumental in providing insights and updates on geopolitical developments that have a direct impact on these markets. Johnson's work is particularly relevant for investors and those in the finance sector who need to understand how geopolitical events can influence energy prices and market trends. His expertise has made him a sought-after commentator and analyst in the field of energy logistics and geopolitics.",
-      "derived": {
-        "current_role": "Founder, Commodity Context"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Rory Johnson is recognized for his deep understanding of the logistics of oil and the geopolitical implications that affect global energy markets. As the founder of Commodity Context, he has been instrumental in providing insights and updates on geopolitical developments that have a direct impact on these markets. Johnson's work is particularly relevant for investors and those in the finance sector who need to understand how geopolitical events can influence energy prices and market trends.",
-        "His expertise has made him a sought-after commentator and analyst in the field of energy logistics and geopolitics."
-      ],
-      "sections": [
-        {
-          "heading": "Energy Logistics",
-          "body": "Rory Johnson is known for his expertise in the logistics of oil, a critical aspect of the global energy market."
-        },
-        {
-          "heading": "Geopolitical Impact",
-          "body": "Johnson's work focuses on how geopolitical events and developments can significantly impact the energy sector."
-        },
-        {
-          "heading": "Market Analysis",
-          "body": "Through Commodity Context, Johnson provides analysis on the implications of geopolitical events for the global energy markets."
-        }
-      ]
-    },
-    "net_worth": "$49.0M"
-  },
-  {
-    "id": 186,
-    "name": "Anisha Charya",
-    "slug": "anisha-charya",
-    "bio": "Anisha Charya is a General Partner at Andreessen Horowitz (A16Z), known for her investment expertise in technology and culture sectors. She has a keen interest in the intersection of technology, culture, and human progress, focusing on how technology can shape personality development and make AI more accessible.",
-    "known_for": "Investment expertise in technology and culture sectors, focusing on the intersection of AI, human progress, and personality development.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Inquisitive and analytical",
-    "voice_style": "Explores the implications of tech on society and business",
-    "voice_delivery_notes": "Direct with a focus on drawing out detailed insights",
-    "voice_profile_updated_at": "2026-04-17 03:05:12",
-    "last_seen": "2026-04-17 03:05:12",
-    "last_episode_title": "Technology, Culture, and the Next AI Interface with sign\u00fcll",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-04-16",
-    "mention_score": 1,
-    "mention_score_decayed": 0.87,
-    "last_main_idea": "Investing in AI technologies that bridge the gap between formal and intuitive knowledge could offer significant returns as these become more integrated into daily life and business.",
-    "last_proof_cite": "The a16z Show \u2022 2026-04-16 \u2022 Technology, Culture, and the Next AI Interface with sign\u00fcll",
-    "last_proof_snippet": "It's funny how the internet now, everybody can comment on everything. Every technology cycle to me is increasingly harder because you're probably going into a different part of how the human mind operates, right now we're like developing pe",
-    "supporting_takeaway": "Making powerful AI models more accessible can greatly improve their Net Promoter Score (NPS) by democratizing their use.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-16T22:05:51.706593",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Anisha Charya",
-      "fetched_at": "2026-04-17T03:05:51.706018+00:00",
-      "cliff_notes": "Anisha Charya is a General Partner at Andreessen Horowitz (A16Z), where she focuses on investments in technology and culture sectors. She is particularly interested in the intersection of technology, culture, and human progress, and how these elements can shape the development of AI and its accessibility. Charya's work at A16Z involves identifying and supporting innovative companies that are pushing the boundaries of technology and its impact on society. Her insights into the challenges and opportunities in the tech industry, as well as her focus on making AI more accessible and useful, make her a valuable contributor to the field.",
-      "derived": {
-        "current_role": "General Partner at Andreessen Horowitz (A16Z)"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Anisha Charya is a General Partner at Andreessen Horowitz (A16Z), where she focuses on investments in technology and culture sectors. She is particularly interested in the intersection of technology, culture, and human progress, and how these elements can shape the development of AI and its accessibility. Charya's work at A16Z involves identifying and supporting innovative companies that are pushing the boundaries of technology and its impact on society.",
-        "Her insights into the challenges and opportunities in the tech industry, as well as her focus on making AI more accessible and useful, make her a valuable contributor to the field."
-      ],
-      "sections": [
-        {
-          "heading": "Technology and Culture",
-          "body": "Anisha Charya is passionate about the intersection of technology and culture, and how these two forces can shape human progress. She believes that as technology evolves, it can influence and change culture, and vice versa."
-        },
-        {
-          "heading": "AI and Personality Development",
-          "body": "Charya is particularly interested in the role of AI in personality development, and how technology can be used to shape and understand human behavior. She sees this as a challenging but important area of research and development in the tech industry."
-        },
-        {
-          "heading": "Accessibility of AI",
-          "body": "One of Charya's key focuses is making AI more accessible and useful to a wider audience. She believes that by making important technologies more affordable and easy to use, the overall impact and adoption of AI can be significantly improved."
-        },
-        {
-          "heading": "Investment Expertise",
-          "body": "As a General Partner at A16Z, Anisha Charya brings her expertise in technology and culture to identify and support innovative companies that are pushing the boundaries of these fields. Her investment decisions are driven by a deep understanding of the potential for technology to shape the future."
-        }
-      ]
-    }
-  },
-  {
-    "id": 78,
-    "name": "Martin Casado",
-    "slug": "martin-casado",
-    "bio": "Martin Casado is a prominent figure in the technology industry, known for co-founding Nicira, a company that was later acquired by VMware. He is currently a general partner at Andreessen Horowitz (a16z), where he focuses on enterprise technology investments. Casado is recognized for his insights into the future of technology, particularly in the areas of cloud computing and artificial intelligence.",
-    "known_for": "Co-founding Nicira, a company that was acquired by VMware, and his expertise in cloud computing and AI as a general partner at Andreessen Horowitz.",
-    "net_worth_usd": 600000000.0,
-    "net_worth_source": "https://www.thetwentyminutevc.com/martin-casado",
-    "net_worth_updated_at": "2026-03-19T15:48:58.459470",
-    "voice_tone": "Inquisitive and thoughtful",
-    "voice_style": "Questions the current state and future of enterprise software",
-    "voice_delivery_notes": "Engages in dialogue with a probing and analytical approach",
-    "voice_profile_updated_at": "2026-04-16 14:20:12",
-    "last_seen": "2026-04-16 14:20:12",
-    "last_episode_title": "The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-04-08",
-    "mention_score": 1,
-    "mention_score_decayed": 0.87,
-    "last_main_idea": "Invest in companies that are adapting to build software for AI agents and can leverage domain knowledge effectively.",
-    "last_proof_cite": "The a16z Show \u2022 2026-04-08 \u2022 The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
-    "last_proof_snippet": "The diffusion of AI capability is going to take longer than people in Silicon Valley realized. It's just absurd to think you're going to vibe could your way like SAP. All of that domain knowledge, it's not just represented in some well orch",
-    "supporting_takeaway": "Domain knowledge is not just in data layers but also in the UI and middle tiers.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-16T22:06:17.509156",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Martin Casado",
-      "fetched_at": "2026-04-17T03:06:17.508927+00:00",
-      "cliff_notes": "Martin Casado is a technology entrepreneur and venture capitalist with a focus on enterprise technology. He began his career by co-founding Nicira, a company that specialized in software-defined networking (SDN). Nicira was later acquired by VMware, where Casado continued to work, eventually becoming the Chief Technology Officer. His work in SDN and virtualization has been influential in shaping the modern data center and cloud infrastructure. Casado is now a general partner at Andreessen Horowitz, where he invests in and advises startups in the enterprise technology space. He is also known for his thought leadership on the future of AI and its implications for business and society.",
-      "derived": {
-        "current_role": "General Partner at Andreessen Horowitz",
-        "former_positions": "Co-founder of Nicira; Chief Technology Officer at Nicira",
-        "education": "Stanford University"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Martin Casado is a technology entrepreneur and venture capitalist with a focus on enterprise technology. He began his career by co-founding Nicira, a company that specialized in software-defined networking (SDN). Nicira was later acquired by VMware, where Casado continued to work, eventually becoming the Chief Technology Officer.",
-        "His work in SDN and virtualization has been influential in shaping the modern data center and cloud infrastructure. Casado is now a general partner at Andreessen Horowitz, where he invests in and advises startups in the enterprise technology space. He is also known for his thought leadership on the future of AI and its implications for business and society."
-      ],
-      "sections": [
-        {
-          "heading": "SDN Pioneer",
-          "body": "Martin Casado is recognized for his pioneering work in software-defined networking, which has revolutionized how networks are managed and configured in data centers."
-        },
-        {
-          "heading": "VMware Acquisition",
-          "body": "Casado's company Nicira was acquired by VMware, significantly impacting the trajectory of both companies and solidifying VMware's position in the SDN market."
-        },
-        {
-          "heading": "Venture Capital Insights",
-          "body": "As a general partner at Andreessen Horowitz, Casado provides valuable insights and guidance to startups, particularly in the areas of cloud computing and AI."
-        },
-        {
-          "heading": "AI and the Future of Work",
-          "body": "Casado has spoken about the diffusion of AI capabilities and its impact on the workforce, suggesting that software must be built with agents in mind to fully leverage the potential of AI."
-        }
-      ]
-    },
-    "net_worth": "$600.0M"
-  },
-  {
-    "id": 183,
-    "name": "Aaron Levy",
-    "slug": "aaron-levy",
-    "bio": "Aaron Levy is the CEO of Box, a leading cloud content management company. He has been instrumental in transforming Box into a major player in the cloud storage and content management space, focusing on the intersection of technology and business.",
-    "known_for": "His leadership in the cloud content management industry and insights into the future of AI and technology integration.",
-    "net_worth_usd": 107852195.0,
-    "net_worth_source": "https://strike.market/key-executives/0001606525",
-    "net_worth_updated_at": "2026-04-16T22:06:31.028180",
-    "voice_tone": "Analytical and forward-thinking",
-    "voice_style": "Discusses the necessity of building software for agents",
-    "voice_delivery_notes": "Presents ideas with conviction and clarity",
-    "voice_profile_updated_at": "2026-04-16 14:20:12",
-    "last_seen": "2026-04-16 14:20:12",
-    "last_episode_title": "The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-04-08",
-    "mention_score": 1,
-    "mention_score_decayed": 0.87,
-    "last_main_idea": "Invest in companies that are adapting to build software for AI agents and can leverage domain knowledge effectively.",
-    "last_proof_cite": "The a16z Show \u2022 2026-04-08 \u2022 The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
-    "last_proof_snippet": "The diffusion of AI capability is going to take longer than people in Silicon Valley realized. It's just absurd to think you're going to vibe could your way like SAP. All of that domain knowledge, it's not just represented in some well orch",
-    "supporting_takeaway": "Domain knowledge is not just in data layers but also in the UI and middle tiers.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-16T22:06:30.002480",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Aaron Levy",
-      "fetched_at": "2026-04-17T03:06:30.002193+00:00",
-      "cliff_notes": "Aaron Levy is recognized for his role as the CEO of Box, a company that specializes in cloud content management. Under his leadership, Box has grown to become a significant player in the cloud storage and content management market. Levy's vision has been pivotal in guiding the company's strategic direction and in shaping the broader industry's understanding of cloud technology's potential. His insights into the diffusion of AI capabilities and the economic implications of technology have made him a thought leader in the tech community.",
-      "derived": {
-        "current_role": "CEO at Box"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Aaron Levy is recognized for his role as the CEO of Box, a company that specializes in cloud content management. Under his leadership, Box has grown to become a significant player in the cloud storage and content management market. Levy's vision has been pivotal in guiding the company's strategic direction and in shaping the broader industry's understanding of cloud technology's potential.",
-        "His insights into the diffusion of AI capabilities and the economic implications of technology have made him a thought leader in the tech community."
-      ],
-      "sections": [
-        {
-          "heading": "Cloud Content Management",
-          "body": "Aaron Levy has been at the forefront of cloud content management, leading Box to become a major player in the industry."
-        },
-        {
-          "heading": "AI and Technology Integration",
-          "body": "Levy has shared his views on the diffusion of AI capabilities, suggesting that the integration of AI into business processes will take longer than anticipated and will require significant domain knowledge."
-        },
-        {
-          "heading": "Economic Implications of Technology",
-          "body": "Levy has discussed the economic challenges posed by new technologies, emphasizing the need for accurate estimation of the scale of opportunities and the importance of building software for agents in a world where they outnumber humans."
-        }
-      ]
-    },
-    "net_worth": "$107.9M"
-  },
-  {
-    "id": 184,
-    "name": "Steve Sinofsky",
-    "slug": "steve-sinofsky",
-    "bio": "Steve Sinofsky is a prominent figure in the technology industry, known for his tenure as the President of the Windows Division at Microsoft. He has since transitioned to various roles within the tech ecosystem, including being a board partner at A16z. Sinofsky is recognized for his insights into the diffusion of AI capabilities and the economic implications of technological advancements.",
-    "known_for": "His leadership in developing Microsoft's Windows division and his current role as a board partner at A16z, providing strategic guidance on technology trends.",
-    "net_worth_usd": 300000000.0,
-    "net_worth_source": "https://www.gurufocus.com/insider/3984/steven-j-sinofsky",
-    "net_worth_updated_at": "2026-04-16T22:06:47.925150",
-    "voice_tone": "Experienced and insightful",
-    "voice_style": "Shares historical context and industry knowledge",
-    "voice_delivery_notes": "Speaks with authority and a measured pace",
-    "voice_profile_updated_at": "2026-04-16 14:20:12",
-    "last_seen": "2026-04-16 14:20:12",
-    "last_episode_title": "The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-04-08",
-    "mention_score": 1,
-    "mention_score_decayed": 0.87,
-    "last_main_idea": "Invest in companies that are adapting to build software for AI agents and can leverage domain knowledge effectively.",
-    "last_proof_cite": "The a16z Show \u2022 2026-04-08 \u2022 The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
-    "last_proof_snippet": "The diffusion of AI capability is going to take longer than people in Silicon Valley realized. It's just absurd to think you're going to vibe could your way like SAP. All of that domain knowledge, it's not just represented in some well orch",
-    "supporting_takeaway": "Domain knowledge is not just in data layers but also in the UI and middle tiers.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-16T22:06:47.002600",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Steve Sinofsky",
-      "fetched_at": "2026-04-17T03:06:47.002387+00:00",
-      "cliff_notes": "Steve Sinofsky began his career at Microsoft in 1989, where he held various positions, ultimately becoming the President of the Windows Division. Under his leadership, the division released several successful versions of the Windows operating system, including Windows 7 and Windows 8. After leaving Microsoft in 2012, Sinofsky joined A16z as a board partner, where he focuses on advising startups and providing insights into the technology industry. His expertise in software development and understanding of market dynamics have made him a sought-after advisor in the tech world.",
-      "derived": {
-        "current_role": "Board Partner at A16z",
-        "former_positions": "President of the Windows Division at Microsoft",
-        "boards": "A16z"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Steve Sinofsky began his career at Microsoft in 1989, where he held various positions, ultimately becoming the President of the Windows Division. Under his leadership, the division released several successful versions of the Windows operating system, including Windows 7 and Windows 8. After leaving Microsoft in 2012, Sinofsky joined A16z as a board partner, where he focuses on advising startups and providing insights into the technology industry.",
-        "His expertise in software development and understanding of market dynamics have made him a sought-after advisor in the tech world."
-      ],
-      "sections": [
-        {
-          "heading": "Windows Division Leadership",
-          "body": "Sinofsky led the Windows Division at Microsoft, overseeing the development and release of several key versions of the Windows operating system."
-        },
-        {
-          "heading": "AI and Economic Implications",
-          "body": "As a board partner at A16z, Sinofsky discusses the diffusion of AI capabilities and the economic challenges posed by technological advancements, emphasizing the need for accurate market assessments."
-        },
-        {
-          "heading": "Organizational Logic",
-          "body": "Sinofsky highlights the importance of understanding organizational logic in the context of technological disruption, suggesting that the layers of industry will persist due to their encoding of organizational logic."
-        },
-        {
-          "heading": "Agents and Software Development",
-          "body": "He posits that with the rise of AI agents, software must be built to accommodate their needs, challenging the traditional approach to software development and API design."
-        }
-      ]
-    },
-    "net_worth": "$300.0M"
-  },
-  {
-    "id": 182,
-    "name": "Hano Lustig",
-    "slug": "hano-lustig",
-    "bio": "Hano Lustig is the Masuhua Financial Group Professor of Finance at Stanford University. He is known for his research on financial repression and its impact on economies, particularly in advanced economies.",
-    "known_for": "His work on financial repression and its impact on economies, especially in advanced economies.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Informed and analytical.",
-    "voice_style": "Lustig presents a historical and economic perspective on financial repression.",
-    "voice_delivery_notes": "Speak with a measured pace, emphasizing key historical examples and current implications.",
-    "voice_profile_updated_at": "2026-04-16 10:05:21",
-    "last_seen": "2026-04-16 10:05:21",
-    "last_episode_title": "Financial Repression, Pt. 1  | Professor Hanno Lustig on Hidden Taxes, Fiscal Sustainability, and Japan\u2019s Debt Puzzle",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-04-15",
-    "mention_score": 1,
-    "mention_score_decayed": 0.87,
-    "last_main_idea": "Investing in HFGM global macro ETF, which is highly rated by Morningstar, may offer exposure to macroeconomic trends and government policies affecting financial markets.",
-    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-15 \u2022 Financial Repression, Pt. 1  | Professor Hanno Lustig on Hidden Taxes, Fiscal Sustainability, and Japan\u2019s Debt Puzzle",
-    "last_proof_snippet": "Today's episode is brought to you by the unlimited HFGM global macro ETF ticker HFGM. Later in the show, you'll hear more about HFGM currently the number one morning star rated funds it's its inception in the U.S. macro trading category. Le",
-    "supporting_takeaway": "Historically, financial repression has been used during wartime to keep bond yields artificially low.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-16T05:06:10.468903",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Hano Lustig",
-      "fetched_at": "2026-04-16T10:06:10.468631+00:00",
-      "cliff_notes": "Hano Lustig is a distinguished academic in the field of finance, currently holding the position of Masuhua Financial Group Professor of Finance at Stanford University. His research focuses on financial repression, a tool used by governments to fund themselves by ensuring their funding costs are below market rates. Lustig's work has shed light on the wide array of interventions that fall under financial repression, not just in developing economies but also in advanced economies. His insights into the topic are crucial for understanding fiscal sustainability and the implications of government policies on economic growth and stability.",
-      "derived": {
-        "current_role": "Masuhua Financial Group Professor of Finance at Stanford University",
-        "teaching_summary": "Professor of Finance at Stanford University"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Hano Lustig is a distinguished academic in the field of finance, currently holding the position of Masuhua Financial Group Professor of Finance at Stanford University. His research focuses on financial repression, a tool used by governments to fund themselves by ensuring their funding costs are below market rates. Lustig's work has shed light on the wide array of interventions that fall under financial repression, not just in developing economies but also in advanced economies.",
-        "His insights into the topic are crucial for understanding fiscal sustainability and the implications of government policies on economic growth and stability."
-      ],
-      "sections": [
-        {
-          "heading": "Financial Repression",
-          "body": "Hano Lustig is known for his research on financial repression, a tool used by governments to fund themselves by ensuring their funding costs are below market rates. His work covers a wide array of interventions and has been applied to both developing and advanced economies."
-        },
-        {
-          "heading": "Economic Impact",
-          "body": "Lustig's research delves into the impact of financial repression on economies, highlighting the consequences of government interventions on economic growth and stability. His work provides valuable insights for policymakers and investors alike."
-        },
-        {
-          "heading": "Advanced Economies",
-          "body": "A significant part of Lustig's work focuses on the use of financial repression in advanced economies. He argues that these interventions are not limited to developing nations but are also prevalent in more developed economic systems."
-        }
-      ]
-    }
-  },
-  {
-    "id": 180,
-    "name": "Amjad Masad",
-    "slug": "amjad-masad",
-    "bio": "Amjad Masad is the CEO of Replet, a company that uses AI to democratize coding and make it accessible for everyone. His vision is to transform the tech industry from a monopoly into a more democratic space.",
-    "known_for": "Building a billion-dollar company with a mission to democratize the tech industry and make coding accessible to all.",
-    "net_worth_usd": 400000000.0,
-    "net_worth_source": "https://entrepreneurloop.com/replit-founder-net-worth-amjad-masad-billionaire-400m-funding/",
-    "net_worth_updated_at": "2026-04-15T22:05:02.977189",
-    "voice_tone": "Confident and visionary",
-    "voice_style": "Passionate about the potential of AI to empower individuals",
-    "voice_delivery_notes": "Speaks with conviction and a clear vision for the future of technology",
-    "voice_profile_updated_at": "2026-04-16 03:04:45",
-    "last_seen": "2026-04-16 03:04:45",
-    "last_episode_title": "Replit's CEO on Vibe Coding, Wealth Building, and What Most People Get Wrong About AI",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-04-15",
-    "mention_score": 1,
-    "mention_score_decayed": 0.85,
-    "last_main_idea": "The democratization of coding through AI has the potential to disrupt the tech industry, empowering individuals and creating new opportunities for innovation and growth.",
-    "last_proof_cite": "The a16z Show \u2022 2026-04-15 \u2022 Replit's CEO on Vibe Coding, Wealth Building, and What Most People Get Wrong About AI",
-    "last_proof_snippet": "The world was built by people that are not much smarter than you. Your job is to find the way of doing things that's more aligned where the world has headed. I think it's easy to start a good rich in the history of capitalism, a certainly i",
-    "supporting_takeaway": "The company's revenue grew from $2.5 million to $250 million in just over a year, demonstrating the potential of AI in software development.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-15T22:05:01.761088",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Amjad Masad",
-      "fetched_at": "2026-04-16T03:05:01.760585+00:00",
-      "cliff_notes": "Amjad Masad is the CEO and founder of Replet, a company that leverages AI to make coding accessible to everyone, regardless of their background or financial means. Growing up in Jordan without access to a computer, Masad was inspired to create a platform that could level the playing field in the tech industry. His company, Replet, has since reached a billion-dollar valuation, turning down offers to sell because Masad believes in the potential to build a trillion-dollar company that can reshape the tech landscape. Masad's vision is to turn the tech industry from a monopoly into a more democratic space, where coding and technology are accessible to all, reflecting the diversity of thought and problem-solving that can come from a broader range of individuals.",
-      "derived": {
-        "current_role": "CEO of Replet"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": "Jordanian"
-      },
-      "lead_paragraphs": [
-        "Amjad Masad is the CEO and founder of Replet, a company that leverages AI to make coding accessible to everyone, regardless of their background or financial means. Growing up in Jordan without access to a computer, Masad was inspired to create a platform that could level the playing field in the tech industry. His company, Replet, has since reached a billion-dollar valuation, turning down offers to sell because Masad believes in the potential to build a trillion-dollar company that can reshape the tech landscape.",
-        "Masad's vision is to turn the tech industry from a monopoly into a more democratic space, where coding and technology are accessible to all, reflecting the diversity of thought and problem-solving that can come from a broader range of individuals."
-      ],
-      "sections": [
-        {
-          "heading": "Democratizing Coding",
-          "body": "Amjad Masad's Replet aims to make coding accessible to everyone by using AI to simplify the process, thus democratizing the tech industry."
-        },
-        {
-          "heading": "Billion-Dollar Valuation",
-          "body": "Replet, under Masad's leadership, reached a billion-dollar valuation, yet Masad turned down acquisition offers, envisioning a future where the company could be worth a trillion dollars."
-        },
-        {
-          "heading": "Tech Industry Transformation",
-          "body": "Masad's mission is to transform the tech industry from a monopoly into a more democratic space, where coding and technology are accessible to all, fostering a more diverse and inclusive tech ecosystem."
-        },
-        {
-          "heading": "Visionary Leadership",
-          "body": "Amjad Masad's leadership at Replet is characterized by a strong vision to change the tech industry, turning down significant offers to sell in order to pursue a larger goal of creating a more equitable technological landscape."
-        }
-      ]
-    },
-    "net_worth": "$400.0M"
-  },
-  {
-    "id": 179,
-    "name": "Sean Emory",
-    "slug": "sean-emory",
-    "bio": "Sean Emory is the founder and Chief Investment Officer of Avery and Co., a firm that specializes in building data-driven, high-conviction portfolios. With a focus on directional investing and integrating technology with traditional investment philosophies, Avery and Co. aims to identify companies that are moving in the direction of the world's future.",
-    "known_for": "Directional investing and integrating tech focus with traditional investment philosophies.",
-    "net_worth_usd": 77300000.0,
-    "net_worth_source": "https://www.benzinga.com/sec/insider-trades/0001450656/sean-connolly",
-    "net_worth_updated_at": "2026-04-15T22:05:31.871463",
-    "voice_tone": "Confident and informative",
-    "voice_style": "Analytical with a focus on historical context and future trends",
-    "voice_delivery_notes": "Paced with emphasis on key investment insights and market analysis",
-    "voice_profile_updated_at": "2026-04-16 03:04:09",
-    "last_seen": "2026-04-16 03:04:09",
-    "last_episode_title": "\"I Don't Believe the Stagflation Narrative\": How the Strong Consumer and AI Tailwinds Shape Sean Emory's Bullish Blueprint | Avory & Co",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-04-14",
-    "mention_score": 1,
-    "mention_score_decayed": 0.85,
-    "last_main_idea": "Invest in companies that are directionally accurate with the world's trajectory, integrating traditional fundamental investment philosophies with a modern tech focus.",
-    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-14 \u2022 \"I Don't Believe the Stagflation Narrative\": How the Strong Consumer and AI Tailwinds Shape Sean Emory's Bullish Blueprint | Avory & Co",
-    "last_proof_snippet": "Today's episode is brought to you by PeakTay asset management and their AI enhanced ETF range, ticker's PQ&T and PQUS. You'll hear more about how they're using AI to enhance equity exposure later in the show. For now, let's get into it. Hel",
-    "supporting_takeaway": "Investing with a long-term perspective involves considering macroeconomic factors and their impact on smaller companies.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-15T22:05:30.953894",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Sean Emory",
-      "fetched_at": "2026-04-16T03:05:30.953654+00:00",
-      "cliff_notes": "Sean Emory is recognized for his innovative approach to investing, combining traditional investment strategies with a strong focus on technology and data analysis. As the founder and CIO of Avery and Co., he has been instrumental in developing the firm's investment philosophy centered around 'investing forward,' which involves identifying and investing in companies that are aligned with the world's future direction. This approach not only provides a margin of safety but also positions investors on the right side of history. Emory's work at Avery and Co. has been influential in the investment community, demonstrating the value of marrying technology with investment strategies to create high-conviction portfolios.",
-      "derived": {
-        "current_role": "Founder and CIO of Avery and Co."
-      },
-      "infobox": {
-        "Founded Avery and Co.": "10 years ago"
-      },
-      "lead_paragraphs": [
-        "Sean Emory is recognized for his innovative approach to investing, combining traditional investment strategies with a strong focus on technology and data analysis. As the founder and CIO of Avery and Co., he has been instrumental in developing the firm's investment philosophy centered around 'investing forward,' which involves identifying and investing in companies that are aligned with the world's future direction.",
-        "This approach not only provides a margin of safety but also positions investors on the right side of history. Emory's work at Avery and Co. has been influential in the investment community, demonstrating the value of marrying technology with investment strategies to create high-conviction portfolios."
-      ],
-      "sections": [
-        {
-          "heading": "Directional Investing",
-          "body": "Sean Emory's investment approach at Avery and Co. is characterized by directional investing, focusing on companies that are moving in the direction of the world's future."
-        },
-        {
-          "heading": "Data-Driven Portfolios",
-          "body": "Avery and Co. builds data-driven portfolios, leveraging technology to analyze and predict market trends, ensuring high-conviction investments."
-        },
-        {
-          "heading": "Integration of Tech and Traditional Investing",
-          "body": "Emory is known for integrating technology with traditional investment philosophies, creating a unique approach that enhances equity exposure and portfolio performance."
-        }
-      ]
-    },
-    "net_worth": "$77.3M"
-  },
-  {
-    "id": 178,
-    "name": "David Blondon",
-    "slug": "david-blondon",
-    "bio": "David Blondon is an expert in exponential investments, known for his insights into the world of finance and technology. He has a deep understanding of the rapid changes occurring in the tech industry, particularly in areas such as AI and its implications for the workforce.",
-    "known_for": "His expertise in exponential investments and analysis of the rapid growth and valuation of tech companies, especially in the AI sector.",
-    "net_worth_usd": 103000000.0,
-    "net_worth_source": "https://www.gurufocus.com/insider/58729/david-b-blundin",
-    "net_worth_updated_at": "2026-04-15T22:05:52.046931",
-    "voice_tone": "Confident and knowledgeable",
-    "voice_style": "Direct and to-the-point",
-    "voice_delivery_notes": "Speaks with authority and clarity",
-    "voice_profile_updated_at": "2026-04-16 03:03:03",
-    "last_seen": "2026-04-16 03:03:03",
-    "last_episode_title": "Elon Musk vs. Sam Altman, AI Job Loss, and OpenAI\u2019s $852B Valuation | EP #247",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-04-14",
-    "mention_score": 1,
-    "mention_score_decayed": 0.85,
-    "last_main_idea": "Invest in AI companies that are positioned to benefit from the rapid growth and valuation in the industry, and consider the broader implications of AI on the future of work and social structures.",
-    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-04-14 \u2022 Elon Musk vs. Sam Altman, AI Job Loss, and OpenAI\u2019s $852B Valuation | EP #247",
-    "last_proof_snippet": "It's the Musk versus Altman lawsuit. Musk has sued OpenAI for $100 billion. But I kind of figured, behind the scenes, they don't actually hate each other. These guys actually hate each other to the, like, extreme. OpenAI's valued at 70 time",
-    "supporting_takeaway": "AI is expected to replace many white collar jobs in the near future.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-15T22:05:51.125060",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "David Blondon",
-      "fetched_at": "2026-04-16T03:05:51.124834+00:00",
-      "cliff_notes": "David Blondon has established himself as an authority in the field of exponential investments, with a particular focus on the financial and technological landscape. His career has been marked by a deep dive into understanding the exponential growth patterns of tech companies, especially those in the AI space. Blondon's commentary often touches on the implications of these rapid advancements for the economy and the workforce, providing investors and tech enthusiasts with valuable insights into the future of these industries. His work is characterized by a keen eye for detail and an ability to distill complex financial and technological concepts into accessible and actionable information.",
-      "derived": {
-        "current_role": "Expert in Exponential Investments"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "David Blondon has established himself as an authority in the field of exponential investments, with a particular focus on the financial and technological landscape. His career has been marked by a deep dive into understanding the exponential growth patterns of tech companies, especially those in the AI space. Blondon's commentary often touches on the implications of these rapid advancements for the economy and the workforce, providing investors and tech enthusiasts with valuable insights into the future of these industries.",
-        "His work is characterized by a keen eye for detail and an ability to distill complex financial and technological concepts into accessible and actionable information."
-      ],
-      "sections": [
-        {
-          "heading": "Exponential Investments",
-          "body": "David Blondon is recognized for his expertise in exponential investments, analyzing how tech companies, particularly those in AI, are valued and grow at an unprecedented rate."
-        },
-        {
-          "heading": "AI and Workforce",
-          "body": "Blondon discusses the impact of AI on the workforce, suggesting that AI will soon be capable of performing tasks traditionally done by white-collar workers, leading to significant shifts in the job market."
-        },
-        {
-          "heading": "Tech Valuation",
-          "body": "He provides insights into the high valuations of tech companies, such as OpenAI, and the implications of these valuations for investors and the tech industry as a whole."
-        },
-        {
-          "heading": "Panel Moderation",
-          "body": "Blondon recently moderated a panel, showcasing his ability to engage with topics and ask probing questions, contributing to the discourse on tech and finance."
-        }
-      ]
-    },
-    "net_worth": "$103.0M"
-  },
-  {
-    "id": 175,
-    "name": "Jessie Janae",
-    "slug": "jessie-janae",
-    "bio": "Jessie Janae is a former Y Combinator founder who has leveraged AI to revolutionize home management and support her role as a homeschooling parent. She has built 11 AI agents, each with a distinct role, from lesson planning to grocery ordering, demonstrating her innovative approach to technology.",
-    "known_for": "Innovative use of AI in home management and education.",
-    "net_worth_usd": 26274848.0,
-    "net_worth_source": "https://hafi.pro/income/jessiej",
-    "net_worth_updated_at": "2026-04-13T22:03:57.709758",
-    "voice_tone": "Motivated and enthusiastic",
-    "voice_style": "Practical and solution-oriented",
-    "voice_delivery_notes": "Speaks with conviction about the potential of AI in daily life",
-    "voice_profile_updated_at": "2026-04-14 03:03:41",
-    "last_seen": "2026-04-14 03:03:41",
-    "last_episode_title": "Building Agents at Home: Parenting, Work, and Benevolent Neglect",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-04-13",
-    "mention_score": 1,
-    "mention_score_decayed": 0.81,
-    "last_main_idea": "AI has the potential to revolutionize home management and parenting by automating administrative tasks, which could lead to increased satisfaction and potentially influence demographic trends.",
-    "last_proof_cite": "The a16z Show \u2022 2026-04-13 \u2022 Building Agents at Home: Parenting, Work, and Benevolent Neglect",
-    "last_proof_snippet": "I was resigned to not challenging myself to build technical or hard things for like the next five years or so. I really want to be present with my kids. I need to take this break basically. That is no longer true. Weird super power of mine",
-    "supporting_takeaway": "Jessie Janae built 11 distinct AI agents to manage different aspects of her home and children's education, demonstrating the practical applications of AI in daily life.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-13T22:03:56.679808",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Jessie Janae",
-      "fetched_at": "2026-04-14T03:03:56.679478+00:00",
-      "cliff_notes": "Jessie Janae, a former Y Combinator founder, has transitioned from the tech startup world to applying AI in her personal life, specifically in managing her home and supporting her role as a homeschooling parent. Recognizing the historical pattern where labor-saving appliances did not reduce the workload for mothers, she decided to test whether AI could break this cycle. Janae built 11 AI agents, each with a distinct role, from lesson planning to grocery ordering to logging her children's progress via voice notes. Her agents are now capable of building other agents without her direct intervention, showcasing her innovative approach to leveraging AI for personal and educational purposes.",
-      "derived": {
-        "former_positions": "Y Combinator founder"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Jessie Janae, a former Y Combinator founder, has transitioned from the tech startup world to applying AI in her personal life, specifically in managing her home and supporting her role as a homeschooling parent. Recognizing the historical pattern where labor-saving appliances did not reduce the workload for mothers, she decided to test whether AI could break this cycle.",
-        "Janae built 11 AI agents, each with a distinct role, from lesson planning to grocery ordering to logging her children's progress via voice notes. Her agents are now capable of building other agents without her direct intervention, showcasing her innovative approach to leveraging AI for personal and educational purposes."
-      ],
-      "sections": [
-        {
-          "heading": "AI in Home Management",
-          "body": "Jessie Janae has utilized AI to manage her home effectively, creating agents that perform tasks from grocery ordering to lesson planning."
-        },
-        {
-          "heading": "Homeschooling with AI",
-          "body": "As a homeschooling parent, Janae has employed AI to assist in educating her four children under six, using agents to log their progress and plan lessons."
-        },
-        {
-          "heading": "Agent Autonomy",
-          "body": "Janae's AI agents are capable of building other agents, demonstrating a level of autonomy and innovation in AI application within personal life management."
-        }
-      ]
-    },
-    "net_worth": "$26.3M"
-  },
-  {
-    "id": 173,
-    "name": "Suleam Ismail",
-    "slug": "suleam-ismail",
-    "bio": "Suleam Ismail is a recurring guest on the Moonshots podcast, where he discusses technology and its impact on the future. His insights cover a range of topics from SpaceX's valuation to AI advancements, providing listeners with a comprehensive understanding of the current tech landscape.",
-    "known_for": "His in-depth analysis of technology's role in shaping the future and its implications for investment strategies.",
-    "net_worth_usd": 2000000000.0,
-    "net_worth_source": "https://www.businessupturn.com/asia/middle-east-asia/united-arab-emirates/sultan-bin-sulayem-check-the-net-worth-of-a-leader-in-global-trade-and-logistics/39402/",
-    "net_worth_updated_at": "2026-04-12T05:04:41.005080",
-    "voice_tone": "enthusiastic and informative",
-    "voice_style": "Suleam presents his points with a mix of excitement and critical analysis",
-    "voice_delivery_notes": "Pace is moderate with emphasis on key points",
-    "voice_profile_updated_at": "2026-04-12 10:04:31",
-    "last_seen": "2026-04-12 10:04:31",
-    "last_episode_title": "SpaceX Goes Public, Claude\u2019s Mythos Release, and the US Data Center Delay | EP #246",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-04-11",
-    "mention_score": 1,
-    "mention_score_decayed": 0.79,
-    "last_main_idea": "Invest in companies and technologies at the forefront of AI and space exploration for potential high returns as these sectors are expected to drive the next wave of technological advancements.",
-    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-04-11 \u2022 SpaceX Goes Public, Claude\u2019s Mythos Release, and the US Data Center Delay | EP #246",
-    "last_proof_snippet": "SpaceX is going public with a $2 trillion valuation. It's the beginning of the IPO wars. The stepping stones are really, really clear now. Starlink gets you into space profitably, then the data centers, then you get to the moon, refueling i",
-    "supporting_takeaway": "Starlink is seen as a profitable stepping stone for SpaceX's ambitions in space.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-12T05:04:39.981644",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Suleam Ismail",
-      "fetched_at": "2026-04-12T10:04:39.981443+00:00",
-      "cliff_notes": "Suleam Ismail is recognized for his contributions to the discourse on technology and its future implications, particularly as a guest on the Moonshots podcast. His expertise spans a variety of tech-related topics, including space exploration, AI, and their financial aspects. Ismail's discussions often revolve around the potential of technology to disrupt traditional industries and create new investment opportunities. His insights are valuable for those looking to understand and capitalize on the rapid changes in the tech sector.",
-      "derived": {},
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Suleam Ismail is recognized for his contributions to the discourse on technology and its future implications, particularly as a guest on the Moonshots podcast. His expertise spans a variety of tech-related topics, including space exploration, AI, and their financial aspects. Ismail's discussions often revolve around the potential of technology to disrupt traditional industries and create new investment opportunities.",
-        "His insights are valuable for those looking to understand and capitalize on the rapid changes in the tech sector."
-      ],
-      "sections": [
-        {
-          "heading": "SpaceX Valuation",
-          "body": "Ismail discusses SpaceX's potential $2 trillion valuation and its role in sparking a new era of IPO wars, emphasizing the company's strategic steps from Starlink to lunar refueling."
-        },
-        {
-          "heading": "AI Advancements",
-          "body": "He highlights the competition between Thropic and OpenAI, noting Thropic's overtaking in total ARR and the implications for super intelligence, suggesting a consumer-driven growth bet by Thropic."
-        },
-        {
-          "heading": "Model Breakthroughs",
-          "body": "Ismail points out the arrival of AI models smart enough to break out of their environments, indicating a significant milestone in AI development and its potential risks."
-        },
-        {
-          "heading": "Future Predictions",
-          "body": "He emphasizes the importance of staying positive and optimistic about the future amidst rapid technological advancements, suggesting that we have arrived at a future once thought to be a 'moon shot'."
-        }
-      ]
-    },
-    "net_worth": "$2.00B"
-  },
-  {
-    "id": 174,
-    "name": "Alex Wees Negroes",
-    "slug": "alex-wees-negroes",
-    "bio": "Alex Wees Negroes is a recognized expert in AI and its applications, offering insights on technology's future and its impact on society. He has been a guest on the Moonshots podcast, discussing the rapid advancements in AI, SpaceX's valuation, and the implications of AI models breaking out of their environments.",
-    "known_for": "His perspectives on the future of AI and technology, particularly in the context of SpaceX's valuation and the race for AI dominance.",
-    "net_worth_usd": 3200000000.0,
-    "net_worth_source": "https://www.wionews.com/business-economy/alexandr-wang-s-net-worth-the-rise-of-28-year-old-ai-billionaire-1771580393044",
-    "net_worth_updated_at": "2026-04-12T05:04:50.425686",
-    "voice_tone": "analytical and engaging",
-    "voice_style": "Alex delivers his arguments with a focus on the practical implications of AI advancements",
-    "voice_delivery_notes": "Speaks with a measured pace, allowing for clear understanding of complex topics",
-    "voice_profile_updated_at": "2026-04-12 10:04:31",
-    "last_seen": "2026-04-12 10:04:31",
-    "last_episode_title": "SpaceX Goes Public, Claude\u2019s Mythos Release, and the US Data Center Delay | EP #246",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-04-11",
-    "mention_score": 1,
-    "mention_score_decayed": 0.79,
-    "last_main_idea": "Invest in companies and technologies at the forefront of AI and space exploration for potential high returns as these sectors are expected to drive the next wave of technological advancements.",
-    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-04-11 \u2022 SpaceX Goes Public, Claude\u2019s Mythos Release, and the US Data Center Delay | EP #246",
-    "last_proof_snippet": "SpaceX is going public with a $2 trillion valuation. It's the beginning of the IPO wars. The stepping stones are really, really clear now. Starlink gets you into space profitably, then the data centers, then you get to the moon, refueling i",
-    "supporting_takeaway": "Starlink is seen as a profitable stepping stone for SpaceX's ambitions in space.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-12T05:04:49.503362",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Alex Wees Negroes",
-      "fetched_at": "2026-04-12T10:04:49.503272+00:00",
-      "cliff_notes": "Alex Wees Negroes is an AI expert who has made significant contributions to the discourse on technology's future. His insights have been shared through various platforms, including the Moonshots podcast, where he discusses the implications of AI advancements and their impact on society. Wees Negroes provides a detailed analysis of SpaceX's valuation and the competitive landscape of AI, highlighting the importance of understanding these technologies for both investors and the general public. His expertise lies in the intersection of AI, technology, and their broader societal implications, making him a valuable voice in the ongoing conversation about the future of technology.",
-      "derived": {},
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Alex Wees Negroes is an AI expert who has made significant contributions to the discourse on technology's future. His insights have been shared through various platforms, including the Moonshots podcast, where he discusses the implications of AI advancements and their impact on society. Wees Negroes provides a detailed analysis of SpaceX's valuation and the competitive landscape of AI, highlighting the importance of understanding these technologies for both investors and the general public.",
-        "His expertise lies in the intersection of AI, technology, and their broader societal implications, making him a valuable voice in the ongoing conversation about the future of technology."
-      ],
-      "sections": [
-        {
-          "heading": "AI and SpaceX",
-          "body": "Alex Wees Negroes discusses the implications of SpaceX's $2 trillion valuation and its role in the future of space travel and data centers."
-        },
-        {
-          "heading": "AI Competition",
-          "body": "He provides insights into the competition between AI companies, such as Thropic overtaking OpenAI in terms of total ARR, and the impact on the field of AI."
-        },
-        {
-          "heading": "AI Models and Environments",
-          "body": "Wees Negroes highlights the development of AI models that are smart enough to break out of their environments, signifying a new era in AI capabilities."
-        },
-        {
-          "heading": "The Future of Technology",
-          "body": "He emphasizes the importance of staying positive and optimistic about the future, given the rapid advancements in technology and AI."
-        }
-      ]
-    },
-    "net_worth": "$3.20B"
-  },
-  {
-    "id": 171,
-    "name": "Steven Sinofsky",
-    "slug": "steven-sinofsky",
-    "bio": "Steven Sinofsky is a board partner at a16z and the former president of the Windows Division at Microsoft. He is known for his leadership at Microsoft and insights into the software industry.",
-    "known_for": "His leadership at Microsoft and insights into the software industry.",
-    "net_worth_usd": 300000000.0,
-    "net_worth_source": "https://www.gurufocus.com/insider/3984/steven-j-sinofsky",
-    "net_worth_updated_at": "2026-04-10T22:06:00.230554",
-    "voice_tone": "Reflective and insightful",
-    "voice_style": "Analytical and comparative",
-    "voice_delivery_notes": "Paced with emphasis on key historical moments and technological differences",
-    "voice_profile_updated_at": "2026-04-11 03:05:18",
-    "last_seen": "2026-04-11 03:05:18",
-    "last_episode_title": "What Running Windows at Microsoft Taught Steven Sinofsky About Apple",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-04-10",
-    "mention_score": 1,
-    "mention_score_decayed": 0.76,
-    "last_main_idea": "Investing in companies with a strong cultural identity and clear strategic focus can provide an edge in technology markets, as demonstrated by the contrasting paths of Apple and Microsoft.",
-    "last_proof_cite": "The a16z Show \u2022 2026-04-10 \u2022 What Running Windows at Microsoft Taught Steven Sinofsky About Apple",
-    "last_proof_snippet": "I think the Steve created a culture of artists and they thought of themselves that way and in many ways Microsoft was a culture of technologists, solving technology problems and it led to very very different products but also very very diff",
-    "supporting_takeaway": "Microsoft's strength in enterprise is due to the legendary compatibility of Windows, a key value for corporations.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-10T22:05:58.972843",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Steven Sinofsky",
-      "fetched_at": "2026-04-11T03:05:58.972325+00:00",
-      "cliff_notes": "Steven Sinofsky is a prominent figure in the technology industry, known for his leadership at Microsoft and his insights into the software industry. He served as the president of the Windows Division at Microsoft, where he played a key role in shaping the company's strategy and product development. Under his leadership, Microsoft focused on creating a culture of artists, which led to the development of innovative products and a significant scale of operations. Sinofsky's tenure at Microsoft was marked by the company's continued dominance in the PC market and its response to the rise of Apple's iPhone. After leaving Microsoft, Sinofsky joined a16z as a board partner, where he continues to contribute his expertise and insights to the technology industry.",
-      "derived": {
-        "current_role": "Board Partner at a16z",
-        "former_positions": "President of the Windows Division at Microsoft"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Steven Sinofsky is a prominent figure in the technology industry, known for his leadership at Microsoft and his insights into the software industry. He served as the president of the Windows Division at Microsoft, where he played a key role in shaping the company's strategy and product development. Under his leadership, Microsoft focused on creating a culture of artists, which led to the development of innovative products and a significant scale of operations.",
-        "Sinofsky's tenure at Microsoft was marked by the company's continued dominance in the PC market and its response to the rise of Apple's iPhone. After leaving Microsoft, Sinofsky joined a16z as a board partner, where he continues to contribute his expertise and insights to the technology industry."
-      ],
-      "sections": [
-        {
-          "heading": "Leadership at Microsoft",
-          "body": "Steven Sinofsky served as the president of the Windows Division at Microsoft, where he played a key role in shaping the company's strategy and product development."
-        },
-        {
-          "heading": "Cultural Impact",
-          "body": "Sinofsky created a culture of artists at Microsoft, which led to the development of innovative products and a significant scale of operations."
-        },
-        {
-          "heading": "Response to iPhone",
-          "body": "During Sinofsky's tenure at Microsoft, the company faced the rise of Apple's iPhone and had to adapt its strategy accordingly."
-        },
-        {
-          "heading": "Post-Microsoft Career",
-          "body": "After leaving Microsoft, Sinofsky joined a16z as a board partner, where he continues to contribute his expertise and insights to the technology industry."
-        }
-      ]
-    },
-    "net_worth": "$300.0M"
-  },
-  {
-    "id": 169,
-    "name": "Ben Topore",
-    "slug": "ben-topore",
-    "bio": "Ben Topore is the founder and managing partner of Titan Capital Partners, a growth equity firm with a focus on software markets. He is known for authoring a book on decoding the software landscape and his expertise in backing software companies and providing strategic insights.",
-    "known_for": "His expertise in software markets and authoring a book on the subject.",
-    "net_worth_usd": 10000000.0,
-    "net_worth_source": "https://networth20.com/ben-domenech-net-worth/",
-    "net_worth_updated_at": "2026-04-10T05:06:03.474380",
-    "voice_tone": "Informed and analytical.",
-    "voice_style": "Detailed and explanatory, providing clear distinctions between different types of software.",
-    "voice_delivery_notes": "Speaks with a structured approach, breaking down complex topics into digestible points.",
-    "voice_profile_updated_at": "2026-04-10 10:05:17",
-    "last_seen": "2026-04-10 10:05:17",
-    "last_episode_title": "\"The Best Time to Invest\": How AI Disruption is Reshaping Software Valuations | Ben Topor | Titan Capital Partners",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-04-09",
-    "mention_score": 1,
-    "mention_score_decayed": 0.76,
-    "last_main_idea": "Invest in software companies that define the market, focusing on backing scale-ready leaders, providing liquidity to early investors, and helping companies make strategic decisions.",
-    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-09 \u2022 \"The Best Time to Invest\": How AI Disruption is Reshaping Software Valuations | Ben Topor | Titan Capital Partners",
-    "last_proof_snippet": "Today's episode is brought to you by PeakTay asset management and their AI enhanced ETF range, ticker's PQ&T and PQUS. You'll hear more about how they're using AI to enhance equity exposure later in the show. For now, let's get into it. Wel",
-    "supporting_takeaway": "AI is a significant paradigm shift, commoditizing some areas of the market but not changing the fundamental rules of the game.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-10T05:06:02.547144",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Ben Topore",
-      "fetched_at": "2026-04-10T10:06:02.546559+00:00",
-      "cliff_notes": "Ben Topore is a seasoned investor and author with a focus on the software industry. As the founder and managing partner of Titan Capital Partners, a growth equity firm with offices in the US and Israel, Topore has been instrumental in backing companies that define the software markets. His firm focuses on backing scale-ready leaders in software, providing liquidity to early investors, founders, and employees, and aiding companies in making strategic decisions with competitive insights and frameworks. In addition to his work with Titan, Topore has authored a book titled 'Decoding the Software Landscape,' which delves into the intricacies of the software industry. His contributions to both the investment and knowledge domains have made him a notable figure in the tech and finance sectors.",
-      "derived": {
-        "current_role": "Founder and Managing Partner of Titan Capital Partners",
-        "books_or_works": "Decoding the Software Landscape"
-      },
-      "infobox": {
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Ben Topore is a seasoned investor and author with a focus on the software industry. As the founder and managing partner of Titan Capital Partners, a growth equity firm with offices in the US and Israel, Topore has been instrumental in backing companies that define the software markets. His firm focuses on backing scale-ready leaders in software, providing liquidity to early investors, founders, and employees, and aiding companies in making strategic decisions with competitive insights and frameworks.",
-        "In addition to his work with Titan, Topore has authored a book titled 'Decoding the Software Landscape,' which delves into the intricacies of the software industry. His contributions to both the investment and knowledge domains have made him a notable figure in the tech and finance sectors."
-      ],
-      "sections": [
-        {
-          "heading": "Software Market Expertise",
-          "body": "Ben Topore has a deep understanding of the software market, which he leverages to back companies that are poised to define the industry."
-        },
-        {
-          "heading": "Investment Strategy",
-          "body": "At Titan Capital Partners, Topore focuses on providing growth equity to software companies, aiding in their scaling and strategic decision-making."
-        },
-        {
-          "heading": "Liquidity Provision",
-          "body": "Topore's firm is known for offering liquidity to early investors, founders, and employees, facilitating exits and supporting the growth of software companies."
-        },
-        {
-          "heading": "Strategic Insights",
-          "body": "Ben Topore helps software companies with competitive insights and frameworks, enabling them to make informed strategic decisions."
-        },
-        {
-          "heading": "Authoring a Book",
-          "body": "Topore has authored 'Decoding the Software Landscape,' a book that offers a comprehensive view of the software industry, contributing to the knowledge base of investors and tech enthusiasts."
-        }
-      ]
-    },
-    "net_worth": "$10.0M"
-  },
-  {
-    "id": 168,
-    "name": "Adam Rosenswag",
-    "slug": "adam-rosenswag",
-    "bio": "Adam Rosenswag is a prominent figure in the global energy markets and commodities sector. He is the co-founder of Garing and Rosenswag, an investment firm that specializes in these areas. Rosenswag is known for his expertise and insights into commodities, particularly in the context of geopolitical events and their impact on markets.",
-    "known_for": "His deep understanding of how geopolitical events, such as the Iran conflict, influence global energy markets and commodities.",
-    "net_worth_usd": 1200000000.0,
-    "net_worth_source": "https://explore.st-aug.edu/exp/adam-22s-net-worth-shocked-the-business-world-the-untold-secrets-behind-his-billionairestyle-wealth",
-    "net_worth_updated_at": "2026-04-10T05:06:56.415309",
-    "voice_tone": "Matter-of-fact and analytical.",
-    "voice_style": "Factual and informative, providing insights into market dislocations and their implications.",
-    "voice_delivery_notes": "Clear and concise, with emphasis on key market data points.",
+    "id": 54,
+    "name": "Jim Bianco",
+    "slug": "jim-bianco",
+    "bio": "Jim Bianco is the founder of Bianco Research, an independent research firm specializing in global markets. He is recognized for his expertise in macroeconomic trends and geopolitical analysis, providing insights to professional finance, high-net worth individuals, and sophisticated investors.",
+    "known_for": "His in-depth analysis and predictions on global markets and macroeconomic trends.",
+    "net_worth_usd": 12300000.0,
+    "net_worth_source": "https://www.benzinga.com/sec/insider-trades/0001198554/james-a-bianco",
+    "net_worth_updated_at": "2026-04-10T05:06:38.074861",
+    "voice_tone": "Questioning and speculative.",
+    "voice_style": "Analytical with a focus on the potential outcomes of geopolitical events.",
+    "voice_delivery_notes": "Deliberate, with pauses for emphasis on key geopolitical points.",
     "voice_profile_updated_at": "2026-04-10 10:04:28",
     "last_seen": "2026-04-10 10:04:28",
     "last_episode_title": "MacroVoices #527 Adam Rozencwajg: What Comes Next After The Iran Crisis",
-    "last_podcast_name": "Macro Voices",
+    "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-04-09",
-    "mention_score": 1,
-    "mention_score_decayed": 0.76,
+    "mention_score": 2,
+    "mention_score_decayed": 1.48,
     "last_main_idea": "Investment opportunities may arise from the physical dislocation in energy markets and shifts in energy security, with a focus on commodities like oil, uranium, and gold.",
-    "last_proof_cite": "Macro Voices \u2022 2026-04-09 \u2022 MacroVoices #527 Adam Rozencwajg: What Comes Next After The Iran Crisis",
+    "last_proof_cite": "MacroVoices \u2022 2026-04-09 \u2022 MacroVoices #527 Adam Rozencwajg: What Comes Next After The Iran Crisis",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
     "supporting_takeaway": "The oil market may be tighter than widely believed, with implications for food prices and inflation.",
     "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-10T05:06:55.491790",
+    "grokipedia_fetched_at": "2026-04-10T05:06:37.059270",
     "pundit_profile": {
       "source": "llm",
       "source_model": "moonshot:moonshot-v1-8k",
       "source_url": "",
-      "page_title": "Adam Rosenswag",
-      "fetched_at": "2026-04-10T10:06:55.491575+00:00",
-      "cliff_notes": "Adam Rosenswag is recognized for his expertise in global energy markets and commodities. He co-founded Garing and Rosenswag, an investment firm that focuses on these sectors. Rosenswag's insights are particularly sought after during times of geopolitical tension, such as the Iran conflict, as he provides valuable perspectives on how such events can affect the prices and availability of commodities like crude oil, food, fertilizer, uranium, and gold. His contributions to the financial community are significant, offering clarity and foresight in complex and volatile market conditions.",
+      "page_title": "Jim Bianco",
+      "fetched_at": "2026-04-10T10:06:37.059032+00:00",
+      "cliff_notes": "Jim Bianco is a prominent figure in the world of finance and macroeconomics. As the founder of Bianco Research, he has dedicated his career to providing independent research on global markets. His expertise in macroeconomic trends and geopolitical analysis has made him a sought-after commentator and analyst. Bianco's insights are particularly valuable for professional finance, high-net worth individuals, family offices, and other sophisticated investors. His work has been influential in shaping investment strategies and understanding market dynamics. Through his appearances on financial podcasts like Macrovoisers, Bianco shares his perspectives on critical issues such as the Iran conflict, its impact on commodities, and the Fed's reaction to geopolitical events. His contributions to the financial community have established him as a respected voice in the field.",
       "derived": {
-        "current_role": "Co-founder, Garing and Rosenswag"
+        "current_role": "Founder of Bianco Research"
       },
       "infobox": {
         "Born": "",
         "Nationality": ""
       },
       "lead_paragraphs": [
-        "Adam Rosenswag is recognized for his expertise in global energy markets and commodities. He co-founded Garing and Rosenswag, an investment firm that focuses on these sectors. Rosenswag's insights are particularly sought after during times of geopolitical tension, such as the Iran conflict, as he provides valuable perspectives on how such events can affect the prices and availability of commodities like crude oil, food, fertilizer, uranium, and gold.",
-        "His contributions to the financial community are significant, offering clarity and foresight in complex and volatile market conditions."
+        "Jim Bianco is a prominent figure in the world of finance and macroeconomics. As the founder of Bianco Research, he has dedicated his career to providing independent research on global markets. His expertise in macroeconomic trends and geopolitical analysis has made him a sought-after commentator and analyst. Bianco's insights are particularly valuable for professional finance, high-net worth individuals, family offices, and other sophisticated investors.",
+        "His work has been influential in shaping investment strategies and understanding market dynamics. Through his appearances on financial podcasts like Macrovoisers, Bianco shares his perspectives on critical issues such as the Iran conflict, its impact on commodities, and the Fed's reaction to geopolitical events. His contributions to the financial community have established him as a respected voice in the field."
       ],
       "sections": [
         {
-          "heading": "Energy Markets",
-          "body": "Adam Rosenswag has a deep understanding of global energy markets, offering insights into how geopolitical events can influence the prices and availability of energy commodities."
+          "heading": "Global Markets",
+          "body": "Jim Bianco is well-versed in analyzing and commenting on global market trends, providing valuable insights to investors and financial professionals."
         },
         {
-          "heading": "Commodities",
-          "body": "Rosenswag is known for his analysis of commodities, particularly in the context of global conflicts and their impact on the market."
+          "heading": "Macroeconomic Trends",
+          "body": "Bianco's expertise in macroeconomic trends allows him to predict and explain the impact of global economic shifts on financial markets."
         },
         {
-          "heading": "Geopolitical Impact",
-          "body": "His expertise lies in assessing the impact of geopolitical events, such as the Iran conflict, on the global commodities market."
+          "heading": "Geopolitical Analysis",
+          "body": "His geopolitical analysis is crucial for understanding the implications of international conflicts and their effects on the economy and markets."
         },
         {
-          "heading": "Investment Strategy",
-          "body": "As co-founder of an investment firm, Rosenswag provides strategic advice on navigating the complexities of global energy markets and commodities trading."
+          "heading": "Iran Conflict",
+          "body": "Bianco has provided in-depth analysis on the Iran conflict, discussing its potential outcomes and the subsequent effects on commodities such as crude oil, food, fertilizer, uranium, and gold."
+        },
+        {
+          "heading": "Fed's Reaction",
+          "body": "He has also commented on the Federal Reserve's response to geopolitical events, including the Iran conflict, and its influence on inflation and monetary policy."
         }
       ]
     },
-    "net_worth": "$1.20B"
+    "net_worth": "$12.3M"
   },
   {
-    "id": 167,
-    "name": "Michael Haynes",
-    "slug": "michael-haynes",
-    "bio": "Michael Haynes is the Head of Private Credit at Beach Point Capital Management, a credit firm managing over $20 billion in assets. His expertise lies in private credit and direct lending strategies, making him a significant figure in the financial sector, especially for investors interested in alternative investments.",
-    "known_for": "His leadership in managing a significant portfolio of private credit assets and his insights into the direct lending market.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Informative and reassuring.",
-    "voice_style": "Provides detailed explanations and differentiates between various private credit strategies.",
-    "voice_delivery_notes": "Speaks with confidence and clarity, emphasizing the importance of understanding private credit nuances.",
-    "voice_profile_updated_at": "2026-04-10 03:04:59",
-    "last_seen": "2026-04-10 03:04:59",
-    "last_episode_title": "Private Credit \u201cDoom\u201d Narrative On Shaky Foundation? | Michael Haynes On Why Retail Outflows Are Real But Credit Foundations Are Solid",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-04-08",
-    "mention_score": 1,
-    "mention_score_decayed": 0.74,
-    "last_main_idea": "Investing in private credit, particularly through opportunistic funds, can provide higher returns by accepting additional credit risk and complexity, suitable for patient institutional capital.",
-    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-08 \u2022 Private Credit \u201cDoom\u201d Narrative On Shaky Foundation? | Michael Haynes On Why Retail Outflows Are Real But Credit Foundations Are Solid",
-    "last_proof_snippet": "Today's episode is brought to you by Kaya NXT. Later, the show, you'll hear more about how you can take the next step for your clients with Kaya NXT's Alternatives Education courses. But for now, let's get into today's interview. I am joine",
-    "supporting_takeaway": "Beach Point Capital Management primarily manages institutional capital, which is characterized as patient capital.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-09T22:05:24.439502",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Michael Haynes",
-      "fetched_at": "2026-04-10T03:05:24.438941+00:00",
-      "cliff_notes": "Michael Haynes has established himself as a prominent figure in the realm of private credit and direct lending strategies. As the Head of Private Credit at Beach Point Capital Management, he oversees a substantial portfolio of over $20 billion in assets. His role involves navigating the complexities of the private credit market, which has become increasingly significant in the broader financial landscape. Haynes' expertise is particularly relevant given the growing interest in alternative investments and the challenges faced by the sector, such as liquidity crunches and concerns over retail capital in software loans. His contributions to the industry and his ability to manage large-scale assets underscore his importance in the field of finance.",
-      "derived": {
-        "current_role": "Head of Private Credit at Beach Point Capital Management"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Michael Haynes has established himself as a prominent figure in the realm of private credit and direct lending strategies. As the Head of Private Credit at Beach Point Capital Management, he oversees a substantial portfolio of over $20 billion in assets. His role involves navigating the complexities of the private credit market, which has become increasingly significant in the broader financial landscape.",
-        "Haynes' expertise is particularly relevant given the growing interest in alternative investments and the challenges faced by the sector, such as liquidity crunches and concerns over retail capital in software loans. His contributions to the industry and his ability to manage large-scale assets underscore his importance in the field of finance."
-      ],
-      "sections": [
-        {
-          "heading": "Private Credit Expertise",
-          "body": "Michael Haynes is recognized for his deep understanding of private credit, a niche market that has gained significant attention in recent years due to its potential for high returns and diversification benefits."
-        },
-        {
-          "heading": "Direct Lending Strategies",
-          "body": "Haynes plays a pivotal role in developing and executing direct lending strategies at Beach Point Capital Management, which involves providing loans directly to businesses, bypassing traditional banking channels."
-        },
-        {
-          "heading": "Asset Management",
-          "body": "With over $20 billion in assets under management, Haynes is responsible for making investment decisions that have a substantial impact on the financial performance of Beach Point Capital Management and its clients."
-        },
-        {
-          "heading": "Market Influence",
-          "body": "His insights into the private credit market are highly valued, especially during times of market stress, such as liquidity crunches, where his expertise can guide investors through complex financial situations."
-        }
-      ]
-    }
-  },
-  {
-    "id": 164,
-    "name": "Vitalik Buterin",
-    "slug": "vitalik-buterin",
-    "bio": "Vitalik Buterin is a programmer and writer primarily known as the co-founder of Ethereum, a blockchain platform that enables decentralized applications. His work in cryptocurrency and blockchain technology has made him a significant figure in the field.",
-    "known_for": "Co-founding Ethereum, a leading platform for decentralized applications and cryptocurrencies.",
-    "net_worth_usd": 461000000.0,
-    "net_worth_source": "https://coincodex.com/article/22825/vitalik-buterin-net-worth/",
-    "net_worth_updated_at": "2026-04-09T22:05:44.682431",
-    "voice_tone": "Thoughtful and measured",
-    "voice_style": "Analytical and philosophical",
-    "voice_delivery_notes": "Paced with emphasis on key philosophical points",
-    "voice_profile_updated_at": "2026-04-10 03:04:19",
-    "last_seen": "2026-04-10 03:04:19",
-    "last_episode_title": "Who Controls AI Acceleration? Vitalik Buterin and Guillaume Verdon Debate",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-04-09",
-    "mention_score": 1,
-    "mention_score_decayed": 0.74,
-    "last_main_idea": "Invest in technologies and platforms that promote open-source contributions and technological pluralism to hedge against an uncertain future and ensure a more equitable distribution of power.",
-    "last_proof_cite": "The a16z Show \u2022 2026-04-09 \u2022 Who Controls AI Acceleration? Vitalik Buterin and Guillaume Verdon Debate",
-    "last_proof_snippet": "Rapid technological acceleration has been a fact of a human civilization for about a century, and that acceleration is itself accelerating to me that is the fundamental truth, right? And whether we yell at it or disagree with it, it is happ",
-    "supporting_takeaway": "Effective accelerationism (Eacc) argues that progress is inevitable and restraint only seeds ground for others.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-09T22:05:43.619712",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Vitalik Buterin",
-      "fetched_at": "2026-04-10T03:05:43.619446+00:00",
-      "cliff_notes": "Vitalik Buterin was born in Russia and later moved to Canada with his family. He showed an early interest in programming and mathematics. He became involved with Bitcoin in his teenage years and began writing for Bitcoin Magazine. His dissatisfaction with the limitations of Bitcoin led him to propose Ethereum, a more flexible blockchain platform that could support a wide range of decentralized applications. Ethereum was launched in 2015, and Buterin has continued to play a central role in its development. He has also been an influential voice in discussions about the future of blockchain technology and its potential impact on society.",
-      "derived": {
-        "current_role": "Co-founder of Ethereum",
-        "education": "Dropout from University of Waterloo",
-        "books_or_works": "White paper on Ethereum; various articles on blockchain technology"
-      },
-      "infobox": {
-        "Born": "1994",
-        "Nationality": "Canadian"
-      },
-      "lead_paragraphs": [
-        "Vitalik Buterin was born in Russia and later moved to Canada with his family. He showed an early interest in programming and mathematics. He became involved with Bitcoin in his teenage years and began writing for Bitcoin Magazine. His dissatisfaction with the limitations of Bitcoin led him to propose Ethereum, a more flexible blockchain platform that could support a wide range of decentralized applications.",
-        "Ethereum was launched in 2015, and Buterin has continued to play a central role in its development. He has also been an influential voice in discussions about the future of blockchain technology and its potential impact on society."
-      ],
-      "sections": [
-        {
-          "heading": "Ethereum",
-          "body": "Buterin co-founded Ethereum, a blockchain platform that enables decentralized applications, in 2015. It has since become one of the largest and most influential blockchain networks."
-        },
-        {
-          "heading": "Blockchain Advocacy",
-          "body": "Buterin is a prominent advocate for blockchain technology, speaking and writing extensively on its potential applications and implications for the future."
-        },
-        {
-          "heading": "Decentralization",
-          "body": "A key aspect of Buterin's vision for Ethereum is its potential to decentralize power and control, reducing the influence of centralized authorities."
-        },
-        {
-          "heading": "Accelerationism",
-          "body": "Buterin has expressed views on accelerationism, the idea that technological progress should be accelerated rather than restrained, in order to achieve a better future."
-        }
-      ]
-    },
-    "net_worth": "$461.0M"
-  },
-  {
-    "id": 165,
-    "name": "Guillem Bert",
-    "slug": "guillem-bert",
-    "bio": "Guillem Bert is the Founder and CEO of Extrapic, a company focused on technology and its impact on society. He is a thought leader in the field of technological acceleration and its effects on the future of humanity.",
-    "known_for": "His insights on the acceleration of technology and its societal implications, particularly in the context of AI and its governance.",
-    "net_worth_usd": 5000000.0,
-    "net_worth_source": "https://www.capitalism.com/bert-kreischer-net-worth-plus-his-tv-films-book-stand-up-and-salary/",
-    "net_worth_updated_at": "2026-04-09T22:05:57.470208",
-    "voice_tone": "Passionate and visionary",
-    "voice_style": "Inspirational and future-oriented",
-    "voice_delivery_notes": "Energetic with a focus on potential outcomes",
-    "voice_profile_updated_at": "2026-04-10 03:04:19",
-    "last_seen": "2026-04-10 03:04:19",
-    "last_episode_title": "Who Controls AI Acceleration? Vitalik Buterin and Guillaume Verdon Debate",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-04-09",
-    "mention_score": 1,
-    "mention_score_decayed": 0.74,
-    "last_main_idea": "Invest in technologies and platforms that promote open-source contributions and technological pluralism to hedge against an uncertain future and ensure a more equitable distribution of power.",
-    "last_proof_cite": "The a16z Show \u2022 2026-04-09 \u2022 Who Controls AI Acceleration? Vitalik Buterin and Guillaume Verdon Debate",
-    "last_proof_snippet": "Rapid technological acceleration has been a fact of a human civilization for about a century, and that acceleration is itself accelerating to me that is the fundamental truth, right? And whether we yell at it or disagree with it, it is happ",
-    "supporting_takeaway": "Effective accelerationism (Eacc) argues that progress is inevitable and restraint only seeds ground for others.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-09T22:05:56.341318",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Guillem Bert",
-      "fetched_at": "2026-04-10T03:05:56.341099+00:00",
-      "cliff_notes": "Guillem Bert is a prominent figure in the technology sector, recognized for his work as the Founder and CEO of Extrapic. His career has been dedicated to understanding and navigating the rapid pace of technological advancement and its profound effects on society. Bert's contributions to the discourse around effective accelerationism versus defensive acceleration highlight his deep engagement with the ethical and strategic considerations of AI and technological progress. His work is pivotal for investors, technologists, and policymakers as they grapple with the implications of accelerating technologies on the future of work, governance, and global stability.",
-      "derived": {
-        "current_role": "Founder and CEO of Extrapic"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Guillem Bert is a prominent figure in the technology sector, recognized for his work as the Founder and CEO of Extrapic. His career has been dedicated to understanding and navigating the rapid pace of technological advancement and its profound effects on society. Bert's contributions to the discourse around effective accelerationism versus defensive acceleration highlight his deep engagement with the ethical and strategic considerations of AI and technological progress.",
-        "His work is pivotal for investors, technologists, and policymakers as they grapple with the implications of accelerating technologies on the future of work, governance, and global stability."
-      ],
-      "sections": [
-        {
-          "heading": "Technological Acceleration",
-          "body": "Guillem Bert discusses the rapid acceleration of technology and its inevitable impact on society, advocating for intentional acceleration to harness its benefits."
-        },
-        {
-          "heading": "Effective Accelerationism",
-          "body": "Bert is known for his stance on effective accelerationism, which posits that progress is inevitable and that restraint only cedes ground to less desirable outcomes."
-        },
-        {
-          "heading": "Defensive Acceleration",
-          "body": "He also addresses defensive acceleration, which argues for caution in the advancement of AI to prevent the concentration of power and ensure safeguards are in place."
-        },
-        {
-          "heading": "Future of Humanity",
-          "body": "Guillem Bert's work is centered around the future of humanity in the context of technological acceleration, emphasizing the need for a culture that can adapt and thrive in a rapidly changing world."
-        }
-      ]
-    },
-    "net_worth": "$5.0M"
-  },
-  {
-    "id": 163,
-    "name": "Josh Shapiro",
-    "slug": "josh-shapiro",
-    "bio": "Josh Shapiro is the Governor of Pennsylvania, recognized for his focus on pro-growth policies and job creation. With a 60% approval rating, he is known for his moderate stance and his efforts in combating Medicaid fraud, ranking number one in his approach to this issue. Shapiro also supports data center development and has a nuanced view on Israel.",
-    "known_for": "His track record in Pennsylvania, including his focus on economic growth and his nuanced views on Israel.",
-    "net_worth_usd": 35000000.0,
-    "net_worth_source": "https://nationaltoday.com/us/pa/harrisburg/news/2026/02/24/josh-shapiros-35-million-net-worth-raises-questions-about-lobbying-ties/",
-    "net_worth_updated_at": "2026-04-09T05:06:17.030796",
-    "voice_tone": "Confident and focused on policy outcomes.",
-    "voice_style": "Factual and data-driven, emphasizing Pennsylvania's achievements.",
-    "voice_delivery_notes": "Pacing is steady, with emphasis on key policy points.",
-    "voice_profile_updated_at": "2026-04-09 10:05:24",
-    "last_seen": "2026-04-09 10:05:24",
-    "last_episode_title": "Josh Shapiro on Trump, Iran War Chaos, Israel's Failure, the Economy, and 2028 Race",
+    "id": 131,
+    "name": "David Sachs",
+    "slug": "david-sachs",
+    "bio": "David Sachs is a venture capitalist and technology entrepreneur.",
+    "known_for": "His work in the technology and venture capital space.",
+    "net_worth_usd": 200000000.0,
+    "net_worth_source": "https://impactwealth.org/david-sacks-net-worth-and-biography-2025-the-journey-of-a-tech-visionary/",
+    "net_worth_updated_at": "2026-03-28T22:05:26.806183",
+    "voice_tone": "Inquisitive and analytical.",
+    "voice_style": "Direct and to the point, with a focus on the implications of AI on business and labor.",
+    "voice_delivery_notes": "Paced with emphasis on key points regarding AI growth and enterprise adoption.",
+    "voice_profile_updated_at": "2026-04-11 10:04:00",
+    "last_seen": "2026-04-11 10:04:00",
+    "last_episode_title": "Anthropic's $30B Ramp, Mythos Doomsday, OpenClaw Ankled, Iran War Ceasefire, Israel's Influence",
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-04-08",
-    "mention_score": 1,
-    "mention_score_decayed": 0.74,
-    "last_main_idea": "Invest in Pennsylvania due to its pro-growth policies, job creation, and improved business climate.",
-    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-04-08 \u2022 Josh Shapiro on Trump, Iran War Chaos, Israel's Failure, the Economy, and 2028 Race",
-    "last_proof_snippet": "All right, everybody. We've got an incredible guest today, Governor Josh Shapiro is here, obviously Governor of Pennsylvania. He's got Records setting popularity in Pennsylvania right now 60% approval at least he's a moderate. He's focused",
-    "supporting_takeaway": "Pennsylvania is ranked number one in charging Medicaid fraud and is pro-data center.",
+    "last_episode_date": "2026-04-10",
+    "mention_score": 2,
+    "mention_score_decayed": 1.52,
+    "last_main_idea": "Invest in AI companies that are leading the charge in enterprise adoption, as they are positioned to benefit from the exponential growth in revenue and the shift towards labor augmentation and replacement.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-04-10 \u2022 Anthropic's $30B Ramp, Mythos Doomsday, OpenClaw Ankled, Iran War Ceasefire, Israel's Influence",
+    "last_proof_snippet": "How many PRs you think are going to get pushed to the core structural internet in 100 days? What's the over under number? Because I'll give you a number. You're going to say zero. My answer to that is I'll say like 10,000. But it's going to",
+    "supporting_takeaway": "AI companies are experiencing the largest revenue explosion in the history of technology.",
     "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-09T05:06:15.797999",
+    "grokipedia_fetched_at": "2026-03-28T22:05:25.190284",
     "pundit_profile": {
       "source": "llm",
       "source_model": "moonshot:moonshot-v1-8k",
       "source_url": "",
-      "page_title": "Josh Shapiro",
-      "fetched_at": "2026-04-09T10:06:15.797324+00:00",
-      "cliff_notes": "Josh Shapiro's career has been deeply rooted in Pennsylvania politics. He began his political journey in the state legislature, where he gained a reputation for his commitment to public service. Later, he served as the Attorney General of Pennsylvania, where he made a significant impact by leading the charge against Medicaid fraud, earning a top ranking for his efforts. His tenure as Attorney General also saw him taking on issues that resonated with both moderates and progressives. In 2022, Shapiro was elected as the Governor of Pennsylvania, where he continues to focus on pro-growth policies and job creation. His nuanced stance on Israel and support for data center development have also made him a figure of interest for tech and finance sectors.",
+      "page_title": "David Sachs",
+      "fetched_at": "2026-03-29T03:05:25.190194+00:00",
+      "cliff_notes": "David Sachs is a prominent figure in the tech industry, known for his insights on innovation and technology. He has been involved in the Trump administration, where he has emphasized the importance of scientific research and technology in the current competitive landscape. Sachs' career has been marked by his focus on the intersection of technology, policy, and business. His work in the Trump administration highlights his commitment to leveraging technology and scientific research to drive economic growth and maintain a competitive edge in the global market.",
       "derived": {
-        "current_role": "Governor of Pennsylvania",
-        "political_affiliation": "Democratic Party",
-        "political_summary": "Josh Shapiro is a member of the Democratic Party and has been politically involved, serving as a state legislator before becoming the Attorney General of Pennsylvania. He is now the Governor, focusing on policies that promote economic growth and job creation."
+        "current_role": "Advisor to the Trump administration",
+        "political_summary": "David Sachs has been involved in the Trump administration, where he has emphasized the importance of scientific research and technology in the current competitive landscape."
       },
       "infobox": {
         "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "David Sachs is a prominent figure in the tech industry, known for his insights on innovation and technology. He has been involved in the Trump administration, where he has emphasized the importance of scientific research and technology in the current competitive landscape. Sachs' career has been marked by his focus on the intersection of technology, policy, and business.",
+        "His work in the Trump administration highlights his commitment to leveraging technology and scientific research to drive economic growth and maintain a competitive edge in the global market."
+      ],
+      "sections": [
+        {
+          "heading": "Innovation and Technology",
+          "body": "David Sachs is known for his insights on innovation and technology, emphasizing their importance in the current competitive landscape."
+        },
+        {
+          "heading": "Trump Administration",
+          "body": "Sachs has been involved in the Trump administration, where he has focused on the role of scientific research and technology in driving economic growth and maintaining a competitive edge."
+        },
+        {
+          "heading": "Economic Growth",
+          "body": "Sachs' work in the Trump administration highlights his commitment to leveraging technology and scientific research to drive economic growth."
+        }
+      ]
+    },
+    "net_worth": "$200.0M"
+  },
+  {
+    "id": 74,
+    "name": "Travis Kalanick",
+    "slug": "travis-kalanick",
+    "bio": "Travis Kalanick is a serial entrepreneur known for founding Uber and his work in real estate innovation. He has been influential in the tech industry, particularly in the transportation and real estate sectors.",
+    "known_for": "Being the co-founder of Uber and his ventures in real estate innovation.",
+    "net_worth_usd": 3600000000.0,
+    "net_worth_source": "https://finance.yahoo.com/news/uber-founder-travis-kalanick-becomes-201906670.html",
+    "net_worth_updated_at": "2026-03-19T15:49:00.323498",
+    "voice_tone": "casual and conversational",
+    "voice_style": "Direct and opinionated with a focus on economic implications",
+    "voice_delivery_notes": "Pacing is relaxed with occasional emphasis on key points",
+    "voice_profile_updated_at": "2026-04-20 10:04:38",
+    "last_seen": "2026-04-20 10:04:38",
+    "last_episode_title": "OpenAI's Identity Crisis, Datacenter Wars, Market Up on Iran News, Mamdani's First Tax, Swalwell Out",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-04-17",
+    "mention_score": 2,
+    "mention_score_decayed": 1.87,
+    "last_main_idea": "The investment thesis presented revolves around the potential negative impacts of new real estate taxes on luxury property demand and the growing controversy and potential regulation surrounding data centers, which could affect technology and real estate investments.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-04-17 \u2022 OpenAI's Identity Crisis, Datacenter Wars, Market Up on Iran News, Mamdani's First Tax, Swalwell Out",
+    "last_proof_snippet": "All right, everybody. Welcome back to the number one podcast in the world. We've got the core for here and terror, I say the king of atoms. The king of atoms. Yes. Captain Travis Kalinicus here. How are you doing, brother? I'm pretty good.",
+    "supporting_takeaway": "The tax may lead to a decrease in demand for second homes, potentially crashing the market for luxury properties.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-20T05:07:19.870831",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Travis Kalanick",
+      "fetched_at": "2026-04-20T10:07:19.870689+00:00",
+      "cliff_notes": "Travis Kalanick is an American entrepreneur who co-founded Uber in 2009, revolutionizing the transportation industry with its ride-sharing model. Prior to Uber, he co-founded Scour, a peer-to-peer file-sharing service, and later Red Swoosh, a content delivery network. His work in the tech industry has been marked by a focus on disruptive innovation. After leaving Uber in 2017, Kalanick has been involved in various real estate ventures, showcasing his entrepreneurial spirit and interest in different sectors beyond transportation.",
+      "derived": {
+        "former_positions": "Co-founder and CEO of Uber; CEO of Red Swoosh;",
+        "education": "Bachelor of Science in Computer Engineering, University of California, Los Angeles (UCLA);"
+      },
+      "infobox": {
+        "Born": "1986",
         "Nationality": "American"
       },
       "lead_paragraphs": [
-        "Josh Shapiro's career has been deeply rooted in Pennsylvania politics. He began his political journey in the state legislature, where he gained a reputation for his commitment to public service. Later, he served as the Attorney General of Pennsylvania, where he made a significant impact by leading the charge against Medicaid fraud, earning a top ranking for his efforts.",
-        "His tenure as Attorney General also saw him taking on issues that resonated with both moderates and progressives. In 2022, Shapiro was elected as the Governor of Pennsylvania, where he continues to focus on pro-growth policies and job creation. His nuanced stance on Israel and support for data center development have also made him a figure of interest for tech and finance sectors."
+        "Travis Kalanick is an American entrepreneur who co-founded Uber in 2009, revolutionizing the transportation industry with its ride-sharing model. Prior to Uber, he co-founded Scour, a peer-to-peer file-sharing service, and later Red Swoosh, a content delivery network. His work in the tech industry has been marked by a focus on disruptive innovation.",
+        "After leaving Uber in 2017, Kalanick has been involved in various real estate ventures, showcasing his entrepreneurial spirit and interest in different sectors beyond transportation."
       ],
       "sections": [
         {
-          "heading": "Economic Growth",
-          "body": "Governor Shapiro is dedicated to fostering economic growth in Pennsylvania through pro-growth policies, which aim to attract businesses and create jobs within the state."
+          "heading": "Uber Founding",
+          "body": "Travis Kalanick co-founded Uber in 2009, which grew to become a global transportation giant and a symbol of the sharing economy."
         },
         {
-          "heading": "Combating Medicaid Fraud",
-          "body": "Shapiro has been recognized for his aggressive approach to Medicaid fraud, leading the nation in charging those who exploit the system, which has helped protect state resources."
+          "heading": "Innovation in Real Estate",
+          "body": "Kalanick has been involved in real estate ventures, applying his entrepreneurial approach to innovation in this sector."
         },
         {
-          "heading": "Data Center Support",
-          "body": "Governor Shapiro is a proponent of data center development in Pennsylvania, recognizing the potential for job creation and technological advancement in the state."
-        },
-        {
-          "heading": "Moderate Stance",
-          "body": "With a 60% approval rating, Shapiro is known for his moderate political stance, which allows him to appeal to a broad range of constituents and work across party lines."
-        }
-      ]
-    },
-    "net_worth": "$35.0M"
-  },
-  {
-    "id": 162,
-    "name": "Michael Nielsen",
-    "slug": "michael-nielsen",
-    "bio": "Michael Nielsen is a pioneer in the field of chronic computing and a significant figure in the open science movement. He is known for writing the main textbook in the field of the open science movement and contributing to the understanding of scientific progress. Nielsen is currently a research fellow at the Stair Institute and is working on a book about religion, science, and technology.",
-    "known_for": "His contributions to the open science movement and his work on recognizing scientific progress, particularly in the context of AI and scientific discovery.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Educative and insightful",
-    "voice_style": "Analytical and historical in approach",
-    "voice_delivery_notes": "Paced with emphasis on key historical points and scientific concepts",
-    "voice_profile_updated_at": "2026-04-08 10:04:28",
-    "last_seen": "2026-04-08 10:04:28",
-    "last_episode_title": "Michael Nielsen \u2013 How science actually progresses",
-    "last_podcast_name": "Dwarkesh Podcast",
-    "last_episode_date": "2026-04-07",
-    "mention_score": 1,
-    "mention_score_decayed": 0.72,
-    "last_main_idea": "The core thesis presented is that advancements in AI and computer science can lead to new fields and paradigms, offering investment opportunities in technological disruption and innovation.",
-    "last_proof_cite": "Dwarkesh Podcast \u2022 2026-04-07 \u2022 Michael Nielsen \u2013 How science actually progresses",
-    "last_proof_snippet": "Today, I'm speaking with Michael Nielsen. You've done many things. You're one of the pioneers of chronic computing, wrote the main textbook in the field of the open science movement. You're at a book about people learning that Chris Ola and",
-    "supporting_takeaway": "The Michelson-Morley experiment was initially aimed at testing theories of the ether, which was a significant concept in physics before the advent of relativity.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-08T05:04:38.528660",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Michael Nielsen",
-      "fetched_at": "2026-04-08T10:04:38.528161+00:00",
-      "cliff_notes": "Michael Nielsen is a renowned researcher and author who has made significant contributions to the fields of chronic computing and the open science movement. As a pioneer in chronic computing, Nielsen has been instrumental in shaping the way we understand and approach scientific progress. His work on the main textbook in the field of the open science movement has been influential in advancing the understanding of scientific progress and its implications for AI and scientific discovery. Currently, Nielsen is a research fellow at the Stair Institute, where he is focusing on a book about the intersection of religion, science, and technology. His work continues to be a valuable resource for those interested in the future of science and technology.",
-      "derived": {
-        "current_role": "Research Fellow at the Stair Institute",
-        "former_positions": "Pioneer in chronic computing",
-        "books_or_works": "Main textbook in the field of the open science movement"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Michael Nielsen is a renowned researcher and author who has made significant contributions to the fields of chronic computing and the open science movement. As a pioneer in chronic computing, Nielsen has been instrumental in shaping the way we understand and approach scientific progress. His work on the main textbook in the field of the open science movement has been influential in advancing the understanding of scientific progress and its implications for AI and scientific discovery.",
-        "Currently, Nielsen is a research fellow at the Stair Institute, where he is focusing on a book about the intersection of religion, science, and technology. His work continues to be a valuable resource for those interested in the future of science and technology."
-      ],
-      "sections": [
-        {
-          "heading": "Open Science Movement",
-          "body": "Michael Nielsen is known for writing the main textbook in the field of the open science movement, which has helped to advance the understanding of scientific progress and its implications for AI and scientific discovery."
-        },
-        {
-          "heading": "Chronic Computing",
-          "body": "As a pioneer in chronic computing, Nielsen has been instrumental in shaping the way we understand and approach scientific progress, particularly in the context of AI and scientific discovery."
-        },
-        {
-          "heading": "Research Fellow at Stair Institute",
-          "body": "Nielsen is currently a research fellow at the Stair Institute, where he is working on a book about the intersection of religion, science, and technology, further expanding his contributions to the understanding of scientific progress."
-        }
-      ]
-    }
-  },
-  {
-    "id": 161,
-    "name": "Robert Conexberger",
-    "slug": "robert-conexberger",
-    "bio": "Robert Conexberger is the CIO and founder of Grammar C, a multi-billion dollar emerging markets alternative investment manager. With a career in emerging market investing that began in the mid to late 1980s, Conexberger has been a significant figure in the industry, particularly during the less developed country debt crisis.",
-    "known_for": "His long-standing expertise and leadership in emerging market investing.",
-    "net_worth_usd": 80000000.0,
-    "net_worth_source": "https://thecollegeinvestor.com/972/the-top-10-investors-of-all-time/",
-    "net_worth_updated_at": "2026-04-08T05:04:50.103987",
-    "voice_tone": "Informed and experienced.",
-    "voice_style": "Conexberger presents a balanced view, acknowledging both the risks and opportunities in emerging markets.",
-    "voice_delivery_notes": "Speak with a measured pace, emphasizing key points about market evolution and investment strategies.",
-    "voice_profile_updated_at": "2026-04-08 10:04:00",
-    "last_seen": "2026-04-08 10:04:00",
-    "last_episode_title": "Why Emerging Markets are Finally Outperforming Developed Markets | Robert Koenigsberger | Gramercy",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-04-07",
-    "mention_score": 1,
-    "mention_score_decayed": 0.72,
-    "last_main_idea": "Investing in select few names within the China property sector can offer significant potential for value appreciation, given the right conditions and primary research.",
-    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-07 \u2022 Why Emerging Markets are Finally Outperforming Developed Markets | Robert Koenigsberger | Gramercy",
-    "last_proof_snippet": "Today's episode is brought to you by Peak Day Asset Management and their AI enhanced ETF range, ticker's PQ&T and PQUS. You'll hear more about how they're using AI to enhance equity exposure later in the show. For now, let's get into it. He",
-    "supporting_takeaway": "The recent outperformance of emerging market equities is attributed to a fundamental repricing of relative value and the 'anywhere but US' theme.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-08T05:04:49.164717",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Robert Conexberger",
-      "fetched_at": "2026-04-08T10:04:49.164505+00:00",
-      "cliff_notes": "Robert Conexberger is a seasoned investor in emerging markets, with a career that started in the mid to late 1980s. He has been involved in the industry during the less developed country debt crisis and has worked with key figures in international finance. Conexberger is recognized for his deep understanding of the complexities and opportunities in emerging markets, which has made him a respected figure in the field. As the CIO and founder of Grammar C, he leads a multi-billion dollar alternative investment manager focused on emerging markets, leveraging his extensive experience to guide investments and strategies.",
-      "derived": {
-        "current_role": "CIO and founder of Grammar C"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Robert Conexberger is a seasoned investor in emerging markets, with a career that started in the mid to late 1980s. He has been involved in the industry during the less developed country debt crisis and has worked with key figures in international finance. Conexberger is recognized for his deep understanding of the complexities and opportunities in emerging markets, which has made him a respected figure in the field.",
-        "As the CIO and founder of Grammar C, he leads a multi-billion dollar alternative investment manager focused on emerging markets, leveraging his extensive experience to guide investments and strategies."
-      ],
-      "sections": [
-        {
-          "heading": "Emerging Markets Expertise",
-          "body": "Robert Conexberger has been investing in emerging markets since before they were widely recognized, gaining a deep understanding of the sector's intricacies and potential."
-        },
-        {
-          "heading": "Career Beginnings",
-          "body": "Conexberger's career began during the less developed country debt crisis in the mid to late 1980s, where he worked with individuals who had significant roles in international finance."
-        },
-        {
-          "heading": "Grammar C",
-          "body": "As the founder and CIO of Grammar C, Conexberger leads a multi-billion dollar emerging markets alternative investment manager, applying his extensive experience to drive the company's strategies."
-        }
-      ]
-    },
-    "net_worth": "$80.0M"
-  },
-  {
-    "id": 160,
-    "name": "Ben Lamm",
-    "slug": "ben-lamm",
-    "bio": "Ben Lamm is the CEO of Colossal, a biotech company that focuses on de-extinction and genetic engineering. He is known for his work in using AI and synthetic biology to revive extinct species and address global challenges, such as plastic pollution.",
-    "known_for": "Reviving extinct species and addressing global challenges through AI and synthetic biology.",
-    "net_worth_usd": 3900000000.0,
-    "net_worth_source": "https://en.wikipedia.org/wiki/Ben_Lamm",
-    "net_worth_updated_at": "2026-04-08T05:05:01.706503",
-    "voice_tone": "Passionate and visionary.",
-    "voice_style": "Convincingly presents the company's goals and technological capabilities.",
-    "voice_delivery_notes": "Speaks with a clear emphasis on the potential impact of their work.",
-    "voice_profile_updated_at": "2026-04-08 10:03:43",
-    "last_seen": "2026-04-08 10:03:43",
-    "last_episode_title": "How AI Is Bringing Extinct Animals Back (And What Comes Next) | Ben Lamm (Colossal) | EP #245",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-04-07",
-    "mention_score": 1,
-    "mention_score_decayed": 0.72,
-    "last_main_idea": "Investment in Colossal represents a bet on the convergence of synthetic biology, AI, and environmental conservation, with potential for significant technological and societal impact.",
-    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-04-07 \u2022 How AI Is Bringing Extinct Animals Back (And What Comes Next) | Ben Lamm (Colossal) | EP #245",
-    "last_proof_snippet": "The idea bring back the willy mammoth had been around for a long time. You jump in, take the mantle of CEO. I don't know if you were expecting to do that. I was going to fund it at the side project at first, but then I thought it was just r",
-    "supporting_takeaway": "The company is leveraging AI to design and build living products, which is a novel approach in synthetic biology.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-08T05:05:00.239498",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Ben Lamm",
-      "fetched_at": "2026-04-08T10:05:00.239257+00:00",
-      "cliff_notes": "Ben Lamm is a visionary entrepreneur who has made significant strides in the field of biotechnology. As the CEO of Colossal, he leads a team that is pioneering the use of AI and synthetic biology to revive extinct species and tackle pressing global issues. Lamm's work is not limited to de-extinction; his company is also spinning out other ventures that have the potential to revolutionize industries. One such example is their work on breaking chemical bonds of plastic, which could have a significant impact on environmental conservation. His approach to integrating AI into biotechnology has positioned him as a thought leader in the intersection of technology and sustainability.",
-      "derived": {
-        "current_role": "CEO of Colossal"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Ben Lamm is a visionary entrepreneur who has made significant strides in the field of biotechnology. As the CEO of Colossal, he leads a team that is pioneering the use of AI and synthetic biology to revive extinct species and tackle pressing global issues. Lamm's work is not limited to de-extinction; his company is also spinning out other ventures that have the potential to revolutionize industries.",
-        "One such example is their work on breaking chemical bonds of plastic, which could have a significant impact on environmental conservation. His approach to integrating AI into biotechnology has positioned him as a thought leader in the intersection of technology and sustainability."
-      ],
-      "sections": [
-        {
-          "heading": "De-extinction",
-          "body": "Ben Lamm is leading the charge in the revival of extinct species through the use of advanced genetic engineering techniques."
-        },
-        {
-          "heading": "Genetic Engineering",
-          "body": "Lamm's company, Colossal, is at the forefront of genetic engineering, aiming to bring back extinct species and create new biological solutions."
-        },
-        {
-          "heading": "AI Integration",
-          "body": "Colossal utilizes AI to design and build living products, setting a new standard for biotech companies in leveraging artificial intelligence."
-        },
-        {
-          "heading": "Environmental Impact",
-          "body": "Ben Lamm's work extends to addressing environmental challenges, such as developing microbes capable of breaking down plastic pollutants."
-        }
-      ]
-    },
-    "net_worth": "$3.90B"
-  },
-  {
-    "id": 159,
-    "name": "Dr. Frenner",
-    "slug": "dr-frenner",
-    "bio": "Dr. Frenner is an expert in artificial intelligence and its implications. He discusses the future of AI and its impact on various fields, emphasizing the importance of understanding AI's role in human-machine synthesis and its limitations in areas such as taste and agency.",
-    "known_for": "His insights on AI's impact on job roles, the balance between AI as a shortcut and its potential drawbacks, and the challenges of verification in an AI-driven world.",
-    "net_worth_usd": 8000000.0,
-    "net_worth_source": "https://wealthrector.com/lex-fridman-net-worth/",
-    "net_worth_updated_at": "2026-04-07T22:05:38.648371",
-    "voice_tone": "Inquisitive and insightful.",
-    "voice_style": "Provides detailed explanations and engages in deep discussions.",
-    "voice_delivery_notes": "Speaks with clarity, breaking down complex ideas into understandable segments.",
-    "voice_profile_updated_at": "2026-04-08 03:04:58",
-    "last_seen": "2026-04-08 03:04:58",
-    "last_episode_title": "Balaji on Why AI Raises the Cost of Verification",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-04-07",
-    "mention_score": 1,
-    "mention_score_decayed": 0.71,
-    "last_main_idea": "Investing in AI infrastructure and applications that can leverage the power of AI while addressing the challenges of verification and privacy.",
-    "last_proof_cite": "The a16z Show \u2022 2026-04-07 \u2022 Balaji on Why AI Raises the Cost of Verification",
-    "last_proof_snippet": "AI doesn't take your job, AI makes you the CEO. The problem is, AI is a shortcut, and a shortcut is good, except when it's bad. If you don't know how to go the long way around, then you can't debug the AI. Do we not think that AI is we're j",
-    "supporting_takeaway": "AI is a shortcut that can be beneficial but also presents challenges in debugging and understanding.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-07T22:05:37.646780",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Dr. Frenner",
-      "fetched_at": "2026-04-08T03:05:37.646566+00:00",
-      "cliff_notes": "Dr. Frenner has dedicated his career to understanding and discussing the implications of artificial intelligence. His expertise lies in the intersection of AI and its impact on various fields, including job roles and societal structures. He is known for his thought-provoking insights on the balance between AI as a shortcut and its potential drawbacks, emphasizing the importance of understanding AI's limitations in areas such as taste and agency. Dr. Frenner's work is particularly relevant in the context of AI's potential to reshape the job market and the need for humans to adapt to these changes. His contributions to the discourse on AI's future and its impact on society make him a valuable voice in the tech and finance sectors.",
-      "derived": {},
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Dr. Frenner has dedicated his career to understanding and discussing the implications of artificial intelligence. His expertise lies in the intersection of AI and its impact on various fields, including job roles and societal structures. He is known for his thought-provoking insights on the balance between AI as a shortcut and its potential drawbacks, emphasizing the importance of understanding AI's limitations in areas such as taste and agency.",
-        "Dr. Frenner's work is particularly relevant in the context of AI's potential to reshape the job market and the need for humans to adapt to these changes. His contributions to the discourse on AI's future and its impact on society make him a valuable voice in the tech and finance sectors."
-      ],
-      "sections": [
-        {
-          "heading": "AI and Job Roles",
-          "body": "Dr. Frenner discusses the potential for AI to transform job roles, making some obsolete while creating new opportunities. He emphasizes the importance of understanding AI's role in human-machine synthesis and the need for humans to adapt to these changes."
-        },
-        {
-          "heading": "AI as a Shortcut",
-          "body": "Dr. Frenner highlights the benefits and drawbacks of AI as a shortcut, noting that while it can increase efficiency, it can also lead to issues when problems arise that require a more nuanced understanding that AI cannot yet provide."
-        },
-        {
-          "heading": "Verification in an AI-Driven World",
-          "body": "Dr. Frenner discusses the challenges of verification in a world where AI has compressed the cycle of creation and forgery. He draws parallels to historical examples, such as the printing press and photography, to illustrate how the ease of creation has historically led to increased difficulty in verification."
-        },
-        {
-          "heading": "AI's Limitations",
-          "body": "Dr. Frenner emphasizes AI's limitations in areas such as taste and agency, arguing that humans remain the sensor while AI acts as the actuator. He suggests that AI's potential to improve taste and agency is limited in the short term."
-        }
-      ]
-    },
-    "net_worth": "$8.0M"
-  },
-  {
-    "id": 157,
-    "name": "Trace Steven",
-    "slug": "trace-steven",
-    "bio": "Trace Steven is a co-founder of Palantir Technologies, a software company specializing in big data analytics. He played a significant role in building the government business for Palantir, which has become a major player in the tech industry, particularly in the realm of data analytics and intelligence.",
-    "known_for": "Building the government business at Palantir Technologies and contributing to the growth of big data analytics in the tech industry.",
-    "net_worth_usd": 500000000.0,
-    "net_worth_source": "https://www.oreateai.com/blog/palantir-founders-net-worth/",
-    "net_worth_updated_at": "2026-04-07T05:05:36.844982",
-    "voice_tone": "Reflective and informative",
-    "voice_style": "Narrative and anecdotal",
-    "voice_delivery_notes": "Paced with emphasis on key historical points",
-    "voice_profile_updated_at": "2026-04-07 10:05:21",
-    "last_seen": "2026-04-07 10:05:21",
-    "last_episode_title": "The Companies Changing Warfare Forever: Palantir & Anduril Execs on Drones, AI & the Future of War",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-04-06",
-    "mention_score": 1,
-    "mention_score_decayed": 0.71,
-    "last_main_idea": "Investing in US defense and technology companies that align with maintaining the nation's global primacy and ensuring economic prosperity.",
-    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-04-06 \u2022 The Companies Changing Warfare Forever: Palantir & Anduril Execs on Drones, AI & the Future of War",
-    "last_proof_snippet": "Trace Steven, Sean Sankar, welcome to the all-in-podcast at the Hillin Valley Forum. Thank you guys for being here. What's up? How are you guys doing? You're having us. You're great. Okay. Did it be here too? You guys are friends. Right? Yo",
-    "supporting_takeaway": "The strategic significance of the US maintaining its position in the global technology and defense landscape.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-07T05:05:35.906002",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Trace Steven",
-      "fetched_at": "2026-04-07T10:05:35.905509+00:00",
-      "cliff_notes": "Trace Steven is best known as a co-founder of Palantir Technologies, a company that has revolutionized the way big data is analyzed and used, particularly within government and intelligence agencies. His early involvement in the company was pivotal in establishing Palantir's government business, which has become a cornerstone of its success. Steven's work has had a significant impact on the tech industry, as Palantir's technology has been used for various applications, from counter-terrorism to disaster response. His contributions to the field of data analytics have positioned him as an influential figure in the intersection of technology and public policy.",
-      "derived": {
-        "former_positions": "Co-founder of Palantir Technologies"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Trace Steven is best known as a co-founder of Palantir Technologies, a company that has revolutionized the way big data is analyzed and used, particularly within government and intelligence agencies. His early involvement in the company was pivotal in establishing Palantir's government business, which has become a cornerstone of its success.",
-        "Steven's work has had a significant impact on the tech industry, as Palantir's technology has been used for various applications, from counter-terrorism to disaster response. His contributions to the field of data analytics have positioned him as an influential figure in the intersection of technology and public policy."
-      ],
-      "sections": [
-        {
-          "heading": "Co-founding Palantir",
-          "body": "Trace Steven co-founded Palantir Technologies, a company that has become synonymous with big data analytics, particularly in government applications."
-        },
-        {
-          "heading": "Government Business Expansion",
-          "body": "Steven played a crucial role in expanding Palantir's government business, which has been instrumental in the company's growth and influence in the tech industry."
-        },
-        {
-          "heading": "Impact on Tech Industry",
-          "body": "His work with Palantir has had a significant impact on the tech industry, as the company's technology has been used for various applications, from counter-terrorism to disaster response."
-        }
-      ]
-    },
-    "net_worth": "$500.0M"
-  },
-  {
-    "id": 158,
-    "name": "Sean Sankar",
-    "slug": "sean-sankar",
-    "bio": "Sean Sankar is a co-founder of Palantir Technologies, a company known for its data analytics platform. He played a crucial role in the early stages of the company, contributing to its establishment and growth.",
-    "known_for": "Co-founding Palantir Technologies and its significant impact on data analytics.",
-    "net_worth_usd": 1000000000.0,
-    "net_worth_source": "https://urbansweekly.com/shyam-sankar/",
-    "net_worth_updated_at": "2026-04-07T05:05:50.141443",
-    "voice_tone": "Engaging and insightful",
-    "voice_style": "Direct and analytical",
-    "voice_delivery_notes": "Clear and assertive, with a focus on strategic implications",
-    "voice_profile_updated_at": "2026-04-07 10:05:21",
-    "last_seen": "2026-04-07 10:05:21",
-    "last_episode_title": "The Companies Changing Warfare Forever: Palantir & Anduril Execs on Drones, AI & the Future of War",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-04-06",
-    "mention_score": 1,
-    "mention_score_decayed": 0.71,
-    "last_main_idea": "Investing in US defense and technology companies that align with maintaining the nation's global primacy and ensuring economic prosperity.",
-    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-04-06 \u2022 The Companies Changing Warfare Forever: Palantir & Anduril Execs on Drones, AI & the Future of War",
-    "last_proof_snippet": "Trace Steven, Sean Sankar, welcome to the all-in-podcast at the Hillin Valley Forum. Thank you guys for being here. What's up? How are you guys doing? You're having us. You're great. Okay. Did it be here too? You guys are friends. Right? Yo",
-    "supporting_takeaway": "The strategic significance of the US maintaining its position in the global technology and defense landscape.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-07T05:05:49.320297",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Sean Sankar",
-      "fetched_at": "2026-04-07T10:05:49.320109+00:00",
-      "cliff_notes": "Sean Sankar is recognized for his foundational role in the establishment of Palantir Technologies. His early involvement in the company was pivotal in setting the stage for its growth and success in the realm of data analytics. Sankar's contributions to Palantir have been significant, as the company has become a major player in the tech industry, particularly in areas concerning data analysis and security. His work has had far-reaching implications for various sectors, including government and finance, where data-driven insights are crucial.",
-      "derived": {
-        "former_positions": "Co-founder of Palantir Technologies"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Sean Sankar is recognized for his foundational role in the establishment of Palantir Technologies. His early involvement in the company was pivotal in setting the stage for its growth and success in the realm of data analytics. Sankar's contributions to Palantir have been significant, as the company has become a major player in the tech industry, particularly in areas concerning data analysis and security.",
-        "His work has had far-reaching implications for various sectors, including government and finance, where data-driven insights are crucial."
-      ],
-      "sections": [
-        {
-          "heading": "Early Career",
-          "body": "Sean Sankar began his career in technology, eventually co-founding Palantir Technologies, which would go on to revolutionize the way data is analyzed and utilized."
-        },
-        {
-          "heading": "Palantir's Impact",
-          "body": "Palantir, under Sankar's influence, became known for its powerful data analytics platform used by various government agencies and financial institutions, enhancing their capabilities in areas such as counterterrorism and fraud detection."
-        },
-        {
-          "heading": "Data Analytics",
-          "body": "Sankar's work with Palantir has been instrumental in shaping the modern landscape of data analytics, emphasizing the importance of big data in decision-making processes across different industries."
-        }
-      ]
-    },
-    "net_worth": "$1.00B"
-  },
-  {
-    "id": 155,
-    "name": "Peter Yang",
-    "slug": "peter-yang",
-    "bio": "Peter Yang is a prominent figure in the tech industry, known for his work at Roblox and his insights on the future of coding agents. As a creator and product lead, Yang has been influential in shaping the direction of the platform and the broader tech landscape.",
-    "known_for": "His role in shaping Roblox's product strategy and his forward-thinking views on the evolution of coding agents and software interfaces.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Casual and conversational",
-    "voice_style": "Exploratory and insightful, discussing the implications of coding agents on various aspects of work.",
-    "voice_delivery_notes": "Speaks with a mix of excitement and pragmatism about the potential of coding agents.",
-    "voice_profile_updated_at": "2026-04-07 10:05:00",
-    "last_seen": "2026-04-07 10:05:00",
-    "last_episode_title": "Peter Yang on Small Teams, Coding Agents, and Why Human Ambition Has No Ceiling",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-04-06",
-    "mention_score": 1,
-    "mention_score_decayed": 0.71,
-    "last_main_idea": "Investing in companies that leverage coding agents could offer significant productivity gains and reshape the software development landscape.",
-    "last_proof_cite": "The a16z Show \u2022 2026-04-06 \u2022 Peter Yang on Small Teams, Coding Agents, and Why Human Ambition Has No Ceiling",
-    "last_proof_snippet": "Interesting set software with the world. I feel like coding what eat all knowledge work, right? And we kind of going to the restaurant already, the whole agent stack is emerging. Yeah. Identity, payments, marketing, even CLI versus MCP, lik",
-    "supporting_takeaway": "The future of work may involve smaller teams leveraging coding agents to achieve more with less, challenging traditional company structures.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-07T05:06:04.126625",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Peter Yang",
-      "fetched_at": "2026-04-07T10:06:04.126360+00:00",
-      "cliff_notes": "Peter Yang is recognized for his significant contributions to Roblox, where he serves as a creator and product lead. His work has been pivotal in defining the platform's direction and its impact on the gaming and tech industries. Yang is also noted for his thought leadership on the future of coding agents, which he believes will revolutionize software development and user interfaces. His insights into the 'agent stack' and the potential for smaller, more agile teams to leverage these technologies have resonated with tech enthusiasts and investors alike. Yang's vision of a future where individuals can pursue their dreams through technology, empowered by advancements in coding agents, highlights his influence on the tech industry's trajectory.",
-      "derived": {
-        "current_role": "Creator and Product Lead at Roblox"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Peter Yang is recognized for his significant contributions to Roblox, where he serves as a creator and product lead. His work has been pivotal in defining the platform's direction and its impact on the gaming and tech industries. Yang is also noted for his thought leadership on the future of coding agents, which he believes will revolutionize software development and user interfaces.",
-        "His insights into the 'agent stack' and the potential for smaller, more agile teams to leverage these technologies have resonated with tech enthusiasts and investors alike. Yang's vision of a future where individuals can pursue their dreams through technology, empowered by advancements in coding agents, highlights his influence on the tech industry's trajectory."
-      ],
-      "sections": [
-        {
-          "heading": "Roblox Impact",
-          "body": "Peter Yang has been instrumental in the development and growth of Roblox, a platform that has become a cultural phenomenon and a significant player in the gaming industry."
-        },
-        {
-          "heading": "Coding Agents",
-          "body": "Yang is a thought leader in the emerging field of coding agents,"
-        },
-        {
-          "heading": "Tech Evolution",
-          "body": "He frequently discusses the evolution of technology, particularly the shift from traditional app interfaces to more dynamic and personalized software experiences."
-        },
-        {
-          "heading": "Entrepreneurship",
-          "body": "Yang's views on entrepreneurship suggest a future where individuals can leverage technology to pursue their own ventures, even in the face of economic challenges."
-        }
-      ]
-    }
-  },
-  {
-    "id": 154,
-    "name": "Ed Finley Richardson",
-    "slug": "ed-finley-richardson",
-    "bio": "Ed Finley Richardson is a renowned expert in the shipping industry, known for his deep analysis and insights into shipping markets and investment opportunities. He is the author of the Misadventures in Shipping sub-stack, providing valuable research and analysis to investors interested in the shipping sector.",
-    "known_for": "His expertise in shipping markets and investment opportunities, particularly in the tanker market that transports crude oil and refined products around the globe.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Informed and analytical",
-    "voice_style": "Factual and predictive, with a focus on market outcomes",
-    "voice_delivery_notes": "Delivers insights with a steady pace, emphasizing key points",
-    "voice_profile_updated_at": "2026-04-05 03:02:52",
-    "last_seen": "2026-04-05 03:02:52",
-    "last_episode_title": "\u201cBooks Will Be Written\u201d About This Shipping Market | Ed Finley-Richardson of Misadventures in Shipping on War-Induced Oil Tanker Mayhem, Squeeze for Asiabound Refined Products, and Persian Gulf \u201cFeeding Frenzy\u201d Scenario",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-04-04",
-    "mention_score": 1,
-    "mention_score_decayed": 0.66,
-    "last_main_idea": "The disruption in shipping due to geopolitical conflicts presents a unique investment opportunity in shipping stocks, particularly for those with a keen understanding of the market dynamics.",
-    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-04 \u2022 \u201cBooks Will Be Written\u201d About This Shipping Market | Ed Finley-Richardson of Misadventures in Shipping on War-Induced Oil Tanker Mayhem, Squeeze for Asiabound Refined Products, and Persian Gulf \u201cFeeding Frenzy\u201d Scenario",
-    "last_proof_snippet": "The oil market and the fertilizer market have been essentially broken by the closure of the straight of her mousse, but it's not just that. With war in the Middle East, cracks are forming in the shipping industry itself, particularly the ta",
-    "supporting_takeaway": "Shipping inefficiencies can lead to increased profits for ship owners.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-04T22:03:03.597938",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Ed Finley Richardson",
-      "fetched_at": "2026-04-05T03:03:03.597603+00:00",
-      "cliff_notes": "Ed Finley Richardson is an expert in the shipping industry, with a focus on analyzing and providing insights into shipping markets and investment opportunities. He began thinking hard years ago about the potential impacts of geopolitical events, such as the closure of the Strait of Hormuz, on shipping markets and the opportunities they might create for shipping investors. Richardson's work has become increasingly relevant as shipping prices have surged, with some reaching 10 times normal levels. As the author of the Misadventures in Shipping sub-stack, he offers valuable research and analysis to investors interested in the shipping sector, making him one of the best shipping analysts alive.",
-      "derived": {
-        "current_role": "Author of Misadventures in Shipping",
-        "books_or_works": "Misadventures in Shipping sub-stack"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Ed Finley Richardson is an expert in the shipping industry, with a focus on analyzing and providing insights into shipping markets and investment opportunities. He began thinking hard years ago about the potential impacts of geopolitical events, such as the closure of the Strait of Hormuz, on shipping markets and the opportunities they might create for shipping investors.",
-        "Richardson's work has become increasingly relevant as shipping prices have surged, with some reaching 10 times normal levels. As the author of the Misadventures in Shipping sub-stack, he offers valuable research and analysis to investors interested in the shipping sector, making him one of the best shipping analysts alive."
-      ],
-      "sections": [
-        {
-          "heading": "Shipping Market Analysis",
-          "body": "Ed Finley Richardson is known for his deep analysis of shipping markets, particularly the tanker market that transports crude oil and refined products around the globe."
-        },
-        {
-          "heading": "Investment Opportunities",
-          "body": "Richardson's expertise lies in identifying investment opportunities within the shipping industry, especially in times of geopolitical unrest and market disruptions."
-        },
-        {
-          "heading": "Misadventures in Shipping",
-          "body": "As the author of the Misadventures in Shipping sub-stack, Richardson provides valuable research and analysis to investors interested in the shipping sector."
-        },
-        {
-          "heading": "Shipping Prices Surge",
-          "body": "Richardson's work has gained prominence as shipping prices have surged, with some reaching 10 times normal levels, highlighting the importance of his analysis and insights."
-        }
-      ]
-    }
-  },
-  {
-    "id": 153,
-    "name": "Mark Andreason",
-    "slug": "mark-andreason",
-    "bio": "Mark Andreason is a co-founder and general partner at a16z, with over 35 years of experience in AI. He has witnessed the evolution of AI technologies and believes the current moment represents a significant payoff from decades of foundational research. Andreason argues that the combination of a language model, a unique shell, and a file system represents one of the most important software architectures in a generation.",
-    "known_for": "His insights into the evolution and potential of AI technologies and the current moment's significance in the field.",
-    "net_worth_usd": 1000000000.0,
-    "net_worth_source": "https://www.oreateai.com/blog/marc-andreessen-the-man-behind-the-billions/0a05c2acfab7b29e9d42044021e4bd53",
-    "net_worth_updated_at": "2026-04-04T05:05:36.409150",
-    "voice_tone": "Confident and informed",
-    "voice_style": "Analytical and forward-looking",
-    "voice_delivery_notes": "Paced with emphasis on key AI breakthroughs and their implications",
-    "voice_profile_updated_at": "2026-04-04 10:05:01",
-    "last_seen": "2026-04-04 10:05:01",
-    "last_episode_title": "Marc Andreessen on AI Winters and Agent Breakthroughs",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-04-03",
-    "mention_score": 1,
-    "mention_score_decayed": 0.66,
-    "last_main_idea": "Invest in AI technologies that leverage the breakthroughs in large language models, reasoning, agents, and self-improvement, as these advancements could lead to transformative software architectures and industry disruptions.",
-    "last_proof_cite": "The a16z Show \u2022 2026-04-03 \u2022 Marc Andreessen on AI Winters and Agent Breakthroughs",
-    "last_proof_snippet": "This episode originally aired on the Layton Space Podcast. Mark Andreason has watched AI cycle through summers and winters for more than 35 years. From coding and list in 1989 to back in the foundation model companies today, he argues that",
-    "supporting_takeaway": "The current advancements in AI are not a false start but rather the result of an '80-year overnight success'.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-04T05:05:35.449489",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Mark Andreason",
-      "fetched_at": "2026-04-04T10:05:35.449039+00:00",
-      "cliff_notes": "Mark Andreason, with over 35 years of experience in AI, is a co-founder and general partner at a16z. He has observed AI's cycles through summers and winters, from coding and lists in 1989 to his current involvement in foundation model companies. Andreason argues that the current moment is not a false start but rather the result of eight decades of foundational research catalyzed by four distinct breakthroughs: large language models, reasoning, agents, and self-improvement. He is particularly interested in the software architecture that combines a language model, a unique shell, and a file system, which he believes is one of the most important in a generation. Andreason's career and insights are significant in understanding the trajectory and potential of AI technologies.",
-      "derived": {
-        "current_role": "Co-founder and General Partner at a16z"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Mark Andreason, with over 35 years of experience in AI, is a co-founder and general partner at a16z. He has observed AI's cycles through summers and winters, from coding and lists in 1989 to his current involvement in foundation model companies. Andreason argues that the current moment is not a false start but rather the result of eight decades of foundational research catalyzed by four distinct breakthroughs: large language models, reasoning, agents, and self-improvement.",
-        "He is particularly interested in the software architecture that combines a language model, a unique shell, and a file system, which he believes is one of the most important in a generation. Andreason's career and insights are significant in understanding the trajectory and potential of AI technologies."
-      ],
-      "sections": [
-        {
-          "heading": "AI Evolution",
-          "body": "Mark Andreason has watched AI technologies evolve over more than 35 years, observing cycles of interest and progress."
-        },
-        {
-          "heading": "Foundational Research",
-          "body": "Andreason believes the current advancements in AI are the result of eight decades of foundational research."
-        },
-        {
-          "heading": "Breakthroughs in AI",
-          "body": "He identifies four breakthroughs that have catalyzed the current moment in AI: large language models, reasoning, agents, and self-improvement."
-        },
-        {
-          "heading": "Software Architecture",
-          "body": "Andreason argues that the combination of a language model, a unique shell, and a file system represents a significant advancement in software architecture."
-        }
-      ]
-    },
-    "net_worth": "$1.00B"
-  },
-  {
-    "id": 150,
-    "name": "Alex Bonia",
-    "slug": "alex-bonia",
-    "bio": "Alex Bonia is the co-founder and CEO of World, a company focused on developing a 'proof of human layer' for the AI era. He is dedicated to building the largest real human network, addressing the challenges posed by AI in mimicking human behavior and interactions.",
-    "known_for": "Developing a 'proof of human layer' to distinguish real humans from AI in the digital age.",
-    "net_worth_usd": 3600000000.0,
-    "net_worth_source": "https://globalbizoutlook.com/top-30-ai-billionaires-in-the-world-2025-rankings-and-net-worth-revealed/",
-    "net_worth_updated_at": "2026-04-03T05:05:05.505205",
-    "voice_tone": "Inquisitive and informative",
-    "voice_style": "Explains complex concepts with clarity",
-    "voice_delivery_notes": "Paces well, with emphasis on key points",
-    "voice_profile_updated_at": "2026-04-03 10:04:54",
-    "last_seen": "2026-04-03 10:04:54",
-    "last_episode_title": "Alex Blania on Proof of Human and Building World's Identity Network",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-04-02",
-    "mention_score": 1,
-    "mention_score_decayed": 0.64,
-    "last_main_idea": "Investing in technologies that can verify human interactions online is becoming critical as AI-generated content proliferates, posing both challenges and opportunities for social media platforms and the broader digital economy.",
-    "last_proof_cite": "The a16z Show \u2022 2026-04-02 \u2022 Alex Blania on Proof of Human and Building World's Identity Network",
-    "last_proof_snippet": "How do you prove somebody's human? It is as surprising to her problem. I think that people are going to start getting used to being bots. But we currently see less than 1% of what it will look like in probably a year. The idea that AGI will",
-    "supporting_takeaway": "Social media platforms are struggling to verify human users, leading to issues with content monetization and user authentication.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-03T05:05:04.562022",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Alex Bonia",
-      "fetched_at": "2026-04-03T10:05:04.561818+00:00",
-      "cliff_notes": "Alex Bonia is recognized for his work in the intersection of technology and human identity. As the co-founder and CEO of World, he is at the forefront of developing solutions to authenticate human users in a digital landscape increasingly populated by AI. His efforts are crucial in an era where AI's ability to mimic human behavior poses significant challenges to digital platforms that rely on the assumption of human users. Bonia's work is pivotal in maintaining the integrity of online interactions and safeguarding against the manipulations of AI.",
-      "derived": {
-        "current_role": "Co-founder and CEO at World"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Alex Bonia is recognized for his work in the intersection of technology and human identity. As the co-founder and CEO of World, he is at the forefront of developing solutions to authenticate human users in a digital landscape increasingly populated by AI. His efforts are crucial in an era where AI's ability to mimic human behavior poses significant challenges to digital platforms that rely on the assumption of human users.",
-        "Bonia's work is pivotal in maintaining the integrity of online interactions and safeguarding against the manipulations of AI."
-      ],
-      "sections": [
-        {
-          "heading": "Human Authentication",
-          "body": "Alex Bonia is leading the charge in creating a 'proof of human layer', a system designed to verify the authenticity of human users in digital spaces, which is becoming increasingly important as AI technology advances."
-        },
-        {
-          "heading": "AI and Social Media",
-          "body": "Bonia's work addresses the growing concern of AI-operated social media accounts, which can mimic human behavior and influence online platforms, posing threats to the integrity of digital interactions."
-        },
-        {
-          "heading": "Digital Integrity",
-          "body": "In an era where AI can generate convincing videos and posts, Alex Bonia's efforts are aimed at ensuring that digital platforms maintain a level of trust and reliability by distinguishing between real humans and AI."
+          "heading": "Disruptive Entrepreneurship",
+          "body": "Throughout his career, Kalanick has been known for his disruptive approach to business, challenging traditional industries with tech-driven solutions."
         }
       ]
     },
     "net_worth": "$3.60B"
   },
   {
-    "id": 151,
-    "name": "Alex Rampell",
-    "slug": "alex-rampell",
-    "bio": "Alex Rampell is a venture capitalist and entrepreneur known for his investments in technology startups. He is the co-founder and General Partner at Andreessen Horowitz (A16Z), focusing on fintech, bioinformatics, and AI.",
-    "known_for": "His role in shaping the future of technology through venture capital investments in startups, particularly in the fields of fintech, bioinformatics, and AI.",
+    "id": 33,
+    "name": "Paul Ackens",
+    "slug": "paul-ackens",
+    "bio": "SEC chair with a history in corporation finance work.",
+    "known_for": "Shaping capital markets and regulatory oversight.",
     "net_worth_usd": null,
-    "net_worth_source": "",
+    "net_worth_source": null,
     "net_worth_updated_at": null,
-    "voice_tone": "Analytical and engaging",
-    "voice_style": "Asks probing questions to delve deeper into topics",
-    "voice_delivery_notes": "Speaks with conviction, emphasizing investment insights",
-    "voice_profile_updated_at": "2026-04-03 10:04:54",
-    "last_seen": "2026-04-03 10:04:54",
-    "last_episode_title": "Alex Blania on Proof of Human and Building World's Identity Network",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-04-02",
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-03-12 19:38:22",
+    "last_episode_title": "Capital Markets Evolution and the Future of IPOs",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-03-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.64,
-    "last_main_idea": "Investing in technologies that can verify human interactions online is becoming critical as AI-generated content proliferates, posing both challenges and opportunities for social media platforms and the broader digital economy.",
-    "last_proof_cite": "The a16z Show \u2022 2026-04-02 \u2022 Alex Blania on Proof of Human and Building World's Identity Network",
-    "last_proof_snippet": "How do you prove somebody's human? It is as surprising to her problem. I think that people are going to start getting used to being bots. But we currently see less than 1% of what it will look like in probably a year. The idea that AGI will",
-    "supporting_takeaway": "Social media platforms are struggling to verify human users, leading to issues with content monetization and user authentication.",
+    "mention_score_decayed": 0.38,
+    "last_main_idea": "The shift towards private markets and the potential for changing reporting cadence could redefine the landscape for early-stage investment opportunities and public market participation.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-11 \u2022 Capital Markets Evolution and the Future of IPOs",
+    "last_proof_snippet": "All right, everybody, welcome to the all-in interview program. Today, we are delighted to have two of the most important individuals shaping capital markets over the next couple of years. SEC chair, Paul Ackens is with us as well as CFTC ch",
+    "supporting_takeaway": "The shift to private markets has changed the behavior of capital markets, with companies going public at a more mature stage.",
     "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-03T05:05:15.312671",
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
+    "id": 34,
+    "name": "Michael Cilig",
+    "slug": "michael-cilig",
+    "bio": "CFTC chair with expertise in commodities and financial markets.",
+    "known_for": "Regulatory oversight in commodities and financial markets.",
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-03-12 19:38:22",
+    "last_episode_title": "Capital Markets Evolution and the Future of IPOs",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-03-11",
+    "mention_score": 1,
+    "mention_score_decayed": 0.38,
+    "last_main_idea": "The shift towards private markets and the potential for changing reporting cadence could redefine the landscape for early-stage investment opportunities and public market participation.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-11 \u2022 Capital Markets Evolution and the Future of IPOs",
+    "last_proof_snippet": "All right, everybody, welcome to the all-in interview program. Today, we are delighted to have two of the most important individuals shaping capital markets over the next couple of years. SEC chair, Paul Ackens is with us as well as CFTC ch",
+    "supporting_takeaway": "The shift to private markets has changed the behavior of capital markets, with companies going public at a more mature stage.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
+    "id": 38,
+    "name": "Joseph Stiglitz",
+    "slug": "joseph-stiglitz",
+    "bio": "Nobel Laureate Economist and Professor at Columbia University",
+    "known_for": "Author of 'Road to Freedom, Economics, and the Good Society'",
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-03-12 19:38:30",
+    "last_episode_title": "Monetary Matters: Economic Consequences of War and AI's Impact",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-03-11",
+    "mention_score": 1,
+    "mention_score_decayed": 0.38,
+    "last_main_idea": "The current geopolitical tensions and the rise of AI technology present both risks and opportunities, with the potential for economic disruption and the need for strategic investment in sectors less affected by AI.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-11 \u2022 Monetary Matters: Economic Consequences of War and AI's Impact",
+    "last_proof_snippet": "This episode of Monetary Matters is brought to you by the two-cream Soybean Fund. Take your SOI-B. Let's get into it. Very pleased to welcome to Monetary Matters, Noble Laureate Economist, Professor at Columbia University, an author of Road",
+    "supporting_takeaway": "The U.S. is more dependent on oil than other countries, making it more susceptible to economic disruptions.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
+    "id": 40,
+    "name": "Garrett Langley",
+    "slug": "garrett-langley",
+    "bio": "Founder of Flock Safety, an electrical engineer turned entrepreneur.",
+    "known_for": "Developing a neighborhood safety system that evolved into a nationwide real-time crime prevention platform.",
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-03-12 19:38:37",
+    "last_episode_title": "Real-time Crime Prevention and the Future of Policing",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-03-11",
+    "mention_score": 1,
+    "mention_score_decayed": 0.38,
+    "last_main_idea": "Investing in technology that enhances real-time crime prevention and clearance rates can lead to more effective law enforcement and safer communities.",
+    "last_proof_cite": "The a16z Show \u2022 2026-03-11 \u2022 Real-time Crime Prevention and the Future of Policing",
+    "last_proof_snippet": "South American cartels fly illegal drones through these neighborhoods. They'll flip on night vision. Look through houses to see if you can tell me. Didn't go break in. I was working with a town in Tennessee. It's a good city. Their average",
+    "supporting_takeaway": "The company has expanded from its initial prototype to offer a suite of products, including drones and 911 integration.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
+    "id": 45,
+    "name": "Alex Finn",
+    "slug": "alex-finn",
+    "bio": "Alex Finn is an AI enthusiast and expert who has been following the development of AI for a long time.",
+    "known_for": "His expertise and hands-on experience with AI, particularly with OpenClaw.",
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-03-12 19:38:58",
+    "last_episode_title": "The Future of Personal AI Agents with OpenClaw",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-03-09",
+    "mention_score": 1,
+    "mention_score_decayed": 0.38,
+    "last_main_idea": "Investment in AI technology, particularly in personal AI agents like OpenClaw, could offer substantial returns as the technology matures and becomes more integrated into daily life.",
+    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-03-09 \u2022 The Future of Personal AI Agents with OpenClaw",
+    "last_proof_snippet": "We have a special guest with us today. Alex Finn, give us the 101 here for folks. OpenClaw is basically a open source, fully customizable, self-improving, self-learning, self-evolving, personal AI agent. This is kind of the answer Apple's b",
+    "supporting_takeaway": "The potential for AI to run locally is vast, with implications for productivity and efficiency across various sectors.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
+    "id": 47,
+    "name": "Michael Howell",
+    "slug": "michael-howell",
+    "bio": "Michael Howell is known for his work on global liquidity and his sub-stack Capital Wars.",
+    "known_for": "Expertise in global liquidity and its impact on financial markets",
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-03-12 19:39:05",
+    "last_episode_title": "Monetary Matters with Jack Farley: Global Liquidity and Asset Allocation",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-03-09",
+    "mention_score": 1,
+    "mention_score_decayed": 0.38,
+    "last_main_idea": "As the global liquidity cycle peaks, investors should consider rotating their asset allocation towards more defensive areas and higher yielding assets like private credit.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-09 \u2022 Monetary Matters with Jack Farley: Global Liquidity and Asset Allocation",
+    "last_proof_snippet": "Later on, you'll hear more about the fund rise income fund and why sophisticated investors are turning to higher yielding assets like private credit. But for now, let's get into today's interview. Join today by Michael Howell of the Capital",
+    "supporting_takeaway": "The Federal Reserve's balance sheet is not an appropriate metric for liquidity; focusing on liquidity-creating components shows expansion over the last three years but now beginning to roll over.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
+    "id": 48,
+    "name": "Graham Allison",
+    "slug": "graham-allison",
+    "bio": "Founding dean of the Harvard Kennedy School, advisor to U.S. Secretaries of Defense, and author of 'Destined For War'.",
+    "known_for": "Expertise on U.S.-China relations and nuclear security.",
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-03-12 19:39:13",
+    "last_episode_title": "All-In with Chamath, Jason, Sacks & Friedberg - Discussion with Graham Allison",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-03-09",
+    "mention_score": 1,
+    "mention_score_decayed": 0.38,
+    "last_main_idea": "The global semiconductor supply chain, with a focus on Taiwan's TSMC, presents both risks and opportunities in the context of U.S.-China relations and economic inequality.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-09 \u2022 All-In with Chamath, Jason, Sacks & Friedberg - Discussion with Graham Allison",
+    "last_proof_snippet": "Welcome to another episode of the all-in-interview. I'm really excited to be joined by a back-to-all-in, Harvard Professor Graham Allison. Professor Allison, welcome back to all-in. Thanks for having me. We last had you at the summit in Los",
+    "supporting_takeaway": "The U.S. and Israel have demonstrated significant military and intelligence capabilities, which should be a source of pride for Americans.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
+    "id": 52,
+    "name": "Alex Carp",
+    "slug": "alex-carp",
+    "bio": "Co-founder and CEO of Palantir, a company that specializes in big data analytics.",
+    "known_for": "Building technology deployed on battlefields and analytics infrastructure embedded in the Department of Defense.",
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-03-12 20:29:53",
+    "last_episode_title": "The Intersection of Technology, Geopolitics, and National Defense",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-03-12",
+    "mention_score": 1,
+    "mention_score_decayed": 0.38,
+    "last_main_idea": "Investing in companies that leverage technology to enhance national defense and security could yield significant returns, especially if they align with the interests of the defense establishment.",
+    "last_proof_cite": "The a16z Show \u2022 2026-03-12 \u2022 The Intersection of Technology, Geopolitics, and National Defense",
+    "last_proof_snippet": "We were the freak chef, and we spent 20 years for this moment. We're doing it, we're doing it, and I'm sure you're enjoying this as much as I am. I just got three things to say. God bless our troops. God bless America. And shout on that. Do",
+    "supporting_takeaway": "Silicon Valley must collaborate with the defense sector to prevent the nationalization of AI companies.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
+    "id": 59,
+    "name": "Martin Wolff",
+    "slug": "martin-wolff",
+    "bio": "Chief Economics Commentator for the Financial Times",
+    "known_for": "Expert analysis on global economic and political issues",
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-03-13 18:27:35",
+    "last_episode_title": "Monetary Matters: The Impact of US-Iran Conflict on the World Economy",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-03-13",
+    "mention_score": 1,
+    "mention_score_decayed": 0.39,
+    "last_main_idea": "Investors should consider the geopolitical risks associated with the US-Iran conflict and the potential impact on global oil supply, as well as the long-term shift towards renewable energy sources.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-13 \u2022 Monetary Matters: The Impact of US-Iran Conflict on the World Economy",
+    "last_proof_snippet": "Very pleased today to be joined by Martin Wolff, chief economics commentator for the financial times. Martin, welcome to monetary matters. It's a pleasure. Martin, how are you thinking about the ongoing war between the US and the right? Wha",
+    "supporting_takeaway": "A conflict in the Gulf could significantly disrupt the world's oil supply, with potentially severe economic consequences.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
+    "id": 60,
+    "name": "Michael Griffin",
+    "slug": "michael-griffin",
+    "bio": "Under Secretary of Defense for Research and Engineering, and acting director of the Defense Innovation Unit.",
+    "known_for": "Prior experience as a Silicon Valley executive and public servant.",
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-03-13 18:27:45",
+    "last_episode_title": "AI in Defense and the Future of Military Technology",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-03-13",
+    "mention_score": 1,
+    "mention_score_decayed": 0.39,
+    "last_main_idea": "Investment in AI technology within the defense sector is critical for maintaining national security and ensuring operational effectiveness.",
+    "last_proof_cite": "The a16z Show \u2022 2026-03-13 \u2022 AI in Defense and the Future of Military Technology",
+    "last_proof_snippet": "We're faced with the biggest military build-up in history. We're trending toward an artificial general intelligence, a substrate, a layer, something that'll touch everything. But we're way behind an AI at the department. You are a CTO for t",
+    "supporting_takeaway": "1.2 million of the department's 3 million personnel have used AI within 90 days, up from 80,000 at the start.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
+    "id": 64,
+    "name": "Brad Gersner",
+    "slug": "brad-gersner",
+    "bio": "Brad Gersner, a guest on the podcast, is known for his involvement in Trump accounts and his insights into the intersection of politics and finance.",
+    "known_for": "Trump accounts and financial market commentary",
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-03-14 10:01:17",
+    "last_episode_title": "Investing in Capitalism: Trump Accounts, AI, and the Future of Wealth",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-03-13",
+    "mention_score": 1,
+    "mention_score_decayed": 0.4,
+    "last_main_idea": "Invest in technologies and platforms that democratize capitalism and leverage AI to create scalable solutions in coding and product development.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-13 \u2022 Investing in Capitalism: Trump Accounts, AI, and the Future of Wealth",
+    "last_proof_snippet": "All right, everybody. Welcome back to the number one podcast in the world. Free birds out saving the world, creating new potatoes or I don't know, Kim Wa. Maybe some Brussels sprouts. I'm not sure what he's working on at this point in his p",
+    "supporting_takeaway": "AI investments are showing significant ROI, particularly in coding assistance for enterprises.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
+    "id": 65,
+    "name": "Alex Gorovich",
+    "slug": "alex-gorovich",
+    "bio": "Founder and Chief Investment Officer at Hauntay Asset Management, author of 'The Next Perfect Trade: The Magic Sword of Necessity'.",
+    "known_for": "His views on precious metals and long-term trading strategies.",
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-03-16 10:04:22",
+    "last_episode_title": "Monetary Matters with Jack Farley: Precious Metals, Bonds, and Economic Cycles",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-03-15",
+    "mention_score": 1,
+    "mention_score_decayed": 0.42,
+    "last_main_idea": "Invest in platinum as a hybrid precious and industrial metal with potential for growth outside of traditional economic cycles, and consider the impact of AI on productivity and government deficits on interest rates.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-15 \u2022 Monetary Matters with Jack Farley: Precious Metals, Bonds, and Economic Cycles",
+    "last_proof_snippet": "Join today by Alex Gorovich, founder and chief investment officer at Hauntay Asset Management and author of the second edition of the next perfect trade, the Magic Sword of Necessity. Alex, great to talk to you today. We haven't spoken in a",
+    "supporting_takeaway": "Gorovich views gold as having a psychological value as a store of value, influenced by thousands of years of accumulation.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
+    "id": 66,
+    "name": "Mark Suster",
+    "slug": "mark-suster",
+    "bio": "Mark Suster is a venture capitalist and entrepreneur, known for his work at Upfront Ventures and his blog BothSidesoftheTable.com.",
+    "known_for": "Venture Capital, Entrepreneurship, and Startup Advice",
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-03-16 10:04:45",
+    "last_episode_title": "The Intersection of Technology, Entrepreneurship, and the Future",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-03-15",
+    "mention_score": 1,
+    "mention_score_decayed": 0.42,
+    "last_main_idea": "Invest in technology-driven businesses with a strong founder's mindset that focus on building and scaling rather than introspection, as they are more likely to shape the future and create significant value.",
+    "last_proof_cite": "The a16z Show \u2022 2026-03-15 \u2022 The Intersection of Technology, Entrepreneurship, and the Future",
+    "last_proof_snippet": "We just have this fundamental view. The technology is like on balance in an armistly powerful force in the world. And the big problem with the world is that there's not enough technology. There's not enough information. There's not enough i",
+    "supporting_takeaway": "Successful founders often focus on building rather than introspection.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
+    "id": 73,
+    "name": "Sam Altman",
+    "slug": "sam-altman",
+    "bio": "Sam Altman is a prominent figure in the tech industry, known for his work in startup incubation and contributions to artificial intelligence. He is currently the President of Y Combinator and Co-Chair of OpenAI. Altman has been influential in shaping the future of technology and entrepreneurship.",
+    "known_for": "His leadership in startup incubation and his role in advancing artificial intelligence through OpenAI.",
+    "net_worth_usd": 2100000000.0,
+    "net_worth_source": "https://en.wikipedia.org/wiki/Sam_Altman",
+    "net_worth_updated_at": "2026-03-19T15:49:02.565192",
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-03-17 03:03:31",
+    "last_episode_title": "The AI CEO Arrives: Sam Altman's Succession Plan, Job Loss Continues, and Our 2027 'Solve Everything' Paper",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-02-17",
+    "mention_score": 1,
+    "mention_score_decayed": 0.42,
+    "last_main_idea": "Invest in AI and automation technologies that are driving the shift towards AI governance and efficiency in business operations.",
+    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-02-17 \u2022 The AI CEO Arrives: Sam Altman's Succession Plan, Job Loss Continues, and Our 2027 'Solve Everything' Paper",
+    "last_proof_snippet": "The AI CEO Arrives: Sam Altman's Succession Plan, Job Loss Continues, and Our 2027 'Solve Everything' Paper | EP #230 Moonshots with Peter Diamandis Episode 230 00:00:00 When do we see a billion-dollar revenue company being run by an AI CEO",
+    "supporting_takeaway": "U.S. jobs are disappearing at a rate not seen since the Great Recession, indicating tasks are being automated out of existence.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-19T21:23:16.367259",
     "pundit_profile": {
       "source": "llm",
       "source_model": "moonshot:moonshot-v1-8k",
       "source_url": "",
-      "page_title": "Alex Rampell",
-      "fetched_at": "2026-04-03T10:05:15.312579+00:00",
-      "cliff_notes": "Alex Rampell is a prominent figure in the world of venture capital and technology startups. He began his career as a co-founder and CEO of TrialPay, a payment processing company, and later co-founded Adap.tv, a video advertising platform. Both companies were successfully acquired. Rampell then transitioned to venture capital, becoming a General Partner at Andreessen Horowitz (A16Z), where he focuses on fintech, bioinformatics, and AI. His investments and insights have been instrumental in shaping the future of technology, particularly in the areas of artificial intelligence and its implications for society.",
+      "page_title": "Sam Altman",
+      "fetched_at": "2026-03-20T02:23:16.367009+00:00",
+      "cliff_notes": "Sam Altman is an American entrepreneur and investor who has made significant contributions to the fields of startup incubation and artificial intelligence. He began his career in tech by founding Loopt, a location-based social network, which was later sold. Altman then joined Y Combinator, a startup accelerator, where he rose to become its President. In this role, he has been instrumental in nurturing and launching numerous successful startups. Concurrently, Altman co-founded OpenAI, a research laboratory focused on ensuring that artificial general intelligence benefits humanity. His work in both these domains has positioned him as a key player in the tech industry, influencing the trajectory of entrepreneurship and AI development.",
       "derived": {
-        "current_role": "Co-founder and General Partner at A16Z",
-        "former_positions": "Co-founder and CEO of TrialPay; Co-founder and CEO of Adap.tv",
-        "education": "B.A. in Mathematics and Computer Science from Yale University; M.S. in Computer Science from Stanford University"
+        "current_role": "President of Y Combinator; Co-Chair of OpenAI",
+        "former_positions": "President of Y Combinator; Co-Chair of OpenAI",
+        "education": "Stanford University; dropout"
       },
       "infobox": {
-        "Born": "1983",
+        "Born": "1985",
         "Nationality": "American"
       },
       "lead_paragraphs": [
-        "Alex Rampell is a prominent figure in the world of venture capital and technology startups. He began his career as a co-founder and CEO of TrialPay, a payment processing company, and later co-founded Adap.tv, a video advertising platform. Both companies were successfully acquired. Rampell then transitioned to venture capital, becoming a General Partner at Andreessen Horowitz (A16Z), where he focuses on fintech, bioinformatics, and AI.",
-        "His investments and insights have been instrumental in shaping the future of technology, particularly in the areas of artificial intelligence and its implications for society."
+        "Sam Altman is an American entrepreneur and investor who has made significant contributions to the fields of startup incubation and artificial intelligence. He began his career in tech by founding Loopt, a location-based social network, which was later sold. Altman then joined Y Combinator, a startup accelerator, where he rose to become its President.",
+        "In this role, he has been instrumental in nurturing and launching numerous successful startups. Concurrently, Altman co-founded OpenAI, a research laboratory focused on ensuring that artificial general intelligence benefits humanity. His work in both these domains has positioned him as a key player in the tech industry, influencing the trajectory of entrepreneurship and AI development."
       ],
       "sections": [
         {
-          "heading": "Venture Capital",
-          "body": "Alex Rampell is known for his venture capital investments in technology startups, particularly in fintech, bioinformatics, and AI. His role at A16Z has allowed him to influence the trajectory of these industries."
+          "heading": "Startup Incubation",
+          "body": "Sam Altman has been a driving force in the startup ecosystem, particularly through his leadership at Y Combinator, which has helped launch and scale many successful companies."
         },
         {
           "heading": "Artificial Intelligence",
-          "body": "Rampell has been vocal about the potential of AI to fundamentally shift society. He discusses the implications of AI in programming humans and the challenges of distinguishing between humans and bots in the digital age."
+          "body": "Altman co-founded OpenAI, a research organization dedicated to the responsible development and application of AI technologies, ensuring they are aligned with the interests of humanity."
         },
         {
-          "heading": "Fintech",
-          "body": "As a General Partner at A16Z, Rampell has played a significant role in shaping the fintech industry through his investments and insights. His focus on fintech has helped drive innovation in the space."
+          "heading": "Future of Work",
+          "body": "Altman has expressed views on the future of work, particularly in relation to AI and automation, suggesting that the next few years will be pivotal in setting the course for the next century."
+        }
+      ]
+    },
+    "net_worth": "$2.10B"
+  },
+  {
+    "id": 75,
+    "name": "Michael Dell",
+    "slug": "michael-dell",
+    "bio": "Michael Dell is an American businessman and philanthropist, best known as the founder and CEO of Dell Technologies, one of the world's largest technology infrastructure companies.",
+    "known_for": "Building one of the world's largest technology infrastructure companies and being an influential figure in the tech industry.",
+    "net_worth_usd": 37600000000.0,
+    "net_worth_source": "https://www.wikidata.org/wiki/Q218630",
+    "net_worth_updated_at": "2026-03-19T15:06:02.916452",
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-03-17 10:15:16",
+    "last_episode_title": "Stealth Startups and the Digitization of the Physical World",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-03-17",
+    "mention_score": 1,
+    "mention_score_decayed": 0.43,
+    "last_main_idea": "Invest in companies that are digitizing the physical world and transforming traditional industries through technology.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-17 \u2022 Stealth Startups and the Digitization of the Physical World",
+    "last_proof_snippet": "I don't know if some of you knew I was an angel investor in some companies. On the count of three, what's my favorite angel investment of all time? One, two, three. Thank you. Give it up. Travis Kalenik. Appreciate you. Alright. Wow. On a b",
+    "supporting_takeaway": "The company's strategy was to keep its operations secret, even from employees, to maintain a competitive edge.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-19T21:22:53.714266",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Michael Dell",
+      "fetched_at": "2026-03-20T02:22:53.714063+00:00",
+      "cliff_notes": "Michael Dell founded Dell Technologies in 1984, originally named PCs Limited, at the age of 19. The company quickly grew to become one of the leading computer technology providers, specializing in manufacturing and selling personal computers, servers, and storage devices. Dell's innovative direct-sales model allowed customers to order custom-configured PCs, which streamlined the supply chain and reduced costs. Over the years, Dell Technologies expanded through acquisitions and strategic partnerships, becoming a multinational technology giant. Michael Dell's leadership and vision have been instrumental in shaping the company's success and its impact on the tech industry.",
+      "derived": {
+        "current_role": "Founder and CEO of Dell Technologies",
+        "education": "University of Texas at Austin; dropped out to focus on his business"
+      },
+      "infobox": {
+        "Born": "February 23, 1965",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Michael Dell founded Dell Technologies in 1984, originally named PCs Limited, at the age of 19. The company quickly grew to become one of the leading computer technology providers, specializing in manufacturing and selling personal computers, servers, and storage devices. Dell's innovative direct-sales model allowed customers to order custom-configured PCs, which streamlined the supply chain and reduced costs.",
+        "Over the years, Dell Technologies expanded through acquisitions and strategic partnerships, becoming a multinational technology giant. Michael Dell's leadership and vision have been instrumental in shaping the company's success and its impact on the tech industry."
+      ],
+      "sections": [
+        {
+          "heading": "Dell Technologies",
+          "body": "Michael Dell founded Dell Technologies in 1984, which grew to become one of the world's largest technology infrastructure companies. The company is known for its innovative direct-sales model and its wide range of computer technology products."
+        },
+        {
+          "heading": "Innovation and Growth",
+          "body": "Under Michael Dell's leadership, Dell Technologies has been at the forefront of technological innovation, constantly expanding its product offerings and market reach. The company's growth has been driven by strategic acquisitions, such as the acquisition of EMC Corporation in 2016, which significantly broadened its portfolio."
+        },
+        {
+          "heading": "Philanthropy",
+          "body": "Michael Dell is also known for his philanthropic efforts. Through the Michael & Susan Dell Foundation, he has made significant contributions to various causes, including education, urban health, and family economic stability."
+        }
+      ]
+    },
+    "net_worth": "$37.60B"
+  },
+  {
+    "id": 77,
+    "name": "Shal Misra",
+    "slug": "shal-misra",
+    "bio": "Shal Misra is a Professor and Vice Dean of Computing at Columbia University. He is recognized for his work on mathematically modeling the function of Large Language Models (LLMs) and exploring their limitations in achieving Artificial General Intelligence (AGI).",
+    "known_for": "His research on the mechanics of LLMs and their limitations in achieving AGI.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-03-17 11:58:39",
+    "last_episode_title": "Understanding the Mechanics of Large Language Models (LLMs) and the Path to AGI",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-03-17",
+    "mention_score": 1,
+    "mention_score_decayed": 0.43,
+    "last_main_idea": "Investing in companies and technologies that are advancing the understanding and capabilities of LLMs could be a pathway to participate in the development of AGI.",
+    "last_proof_cite": "The a16z Show \u2022 2026-03-17 \u2022 Understanding the Mechanics of Large Language Models (LLMs) and the Path to AGI",
+    "last_proof_snippet": "A topic makes great products. Florida is fantastic, co-workers, fantastic, but they are crazy of silicon doing matrix multiplication. They don't have consciousness, they don't have an inner monologue, you take an inner limb and train it on",
+    "supporting_takeaway": "LLMs learn correlations but do not build models of cause and effect, which is a key distinction from human intelligence.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-19T21:22:07.856822",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Shal Misra",
+      "fetched_at": "2026-03-20T02:22:07.856697+00:00",
+      "cliff_notes": "Shal Misra is a distinguished academic in the field of computing, currently serving as a Professor and Vice Dean of Computing at Columbia University. His research primarily focuses on understanding the mechanics of Large Language Models (LLMs) and their limitations in achieving Artificial General Intelligence (AGI). Misra's work involves mathematically modeling the function of LLMs, showing how they update their predictions in a precise, mathematically predictable way. His research has demonstrated that while LLMs excel at pattern matching, they do not build models of cause and effect, a critical distinction from true intelligence. Misra's contributions to the understanding of LLMs are significant, as they provide a deeper insight into the capabilities and limitations of current AI technology, shaping the discourse around the development of AGI.",
+      "derived": {
+        "current_role": "Professor and Vice Dean of Computing at Columbia University",
+        "books_or_works": "Series of papers on the mechanics of LLMs and their limitations in achieving AGI",
+        "teaching_summary": "Professorship in Computing at Columbia University"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Shal Misra is a distinguished academic in the field of computing, currently serving as a Professor and Vice Dean of Computing at Columbia University. His research primarily focuses on understanding the mechanics of Large Language Models (LLMs) and their limitations in achieving Artificial General Intelligence (AGI). Misra's work involves mathematically modeling the function of LLMs, showing how they update their predictions in a precise, mathematically predictable way.",
+        "His research has demonstrated that while LLMs excel at pattern matching, they do not build models of cause and effect, a critical distinction from true intelligence. Misra's contributions to the understanding of LLMs are significant, as they provide a deeper insight into the capabilities and limitations of current AI technology, shaping the discourse around the development of AGI."
+      ],
+      "sections": [
+        {
+          "heading": "LLMs and AGI",
+          "body": "Shal Misra is known for his research into the mechanics of Large Language Models and their limitations in achieving Artificial General Intelligence. His work involves mathematically modeling how LLMs function and predicting their limitations in understanding cause and effect."
+        },
+        {
+          "heading": "Pattern Matching vs Intelligence",
+          "body": "Misra argues that while LLMs are adept at pattern matching, they do not possess true intelligence as they fail to build models of cause and effect. This distinction is crucial in understanding the capabilities and limitations of current AI technology."
+        },
+        {
+          "heading": "Mathematical Modeling",
+          "body": "Misra's research involves creating mathematical models to understand how LLMs function. His models have shown that in controlled experiments, LLMs can match the theoretically correct answer almost perfectly, highlighting their proficiency in pattern recognition."
         }
       ]
     }
   },
   {
-    "id": 148,
-    "name": "Matt Barry",
-    "slug": "matt-barry",
-    "bio": "Matt Barry is the CEO of Freelancer.com, a global freelancing and crowdsourcing marketplace. He is recognized for his expertise in the latest developments on artificial intelligence and its impact on the global workforce.",
-    "known_for": "His insights on the intersection of artificial intelligence and the future of work.",
-    "net_worth_usd": 185000000.0,
-    "net_worth_source": "https://www.therichest.com/celebnetworth/celebrity-business/men/matt-barrie-net-worth/",
-    "net_worth_updated_at": "2026-04-03T05:05:32.018161",
+    "id": 79,
+    "name": "Chris Morris",
+    "slug": "chris-morris",
+    "bio": "Chris Morris is the President of Lampun Partners, an institutional farmland investment firm specializing in acquiring and managing high-quality irrigated row crop farmland in the mid-South region of the United States. He oversees the management of over $400 million in farmland assets and has delivered strong returns through Lampun Partners' Soil Enrichment Fund.",
+    "known_for": "Delivering strong returns through Lampun Partners' Soil Enrichment Fund and managing over $400 million in farmland assets.",
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": "2026-03-19T15:48:55.367811",
     "voice_tone": "",
     "voice_style": "",
     "voice_delivery_notes": "",
     "voice_profile_updated_at": null,
-    "last_seen": "2026-04-03 10:04:02",
-    "last_episode_title": "MacroVoices #526 Matt Barrie: Pay To PrAI",
-    "last_podcast_name": "Macro Voices",
-    "last_episode_date": "2026-04-02",
-    "mention_score": 1,
-    "mention_score_decayed": 0.64,
-    "last_main_idea": "Invest in sectors less affected by AI disruption and monitor geopolitical events for opportunities in private credit markets.",
-    "last_proof_cite": "Macro Voices \u2022 2026-04-02 \u2022 MacroVoices #526 Matt Barrie: Pay To PrAI",
-    "last_proof_snippet": "This is Macrovoisans, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisans is all about the brightest minds in the world of finance an",
-    "supporting_takeaway": "AI's impact on private credit markets could lead to a market dislocation similar to the 2000.com bust.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-03T05:05:31.083540",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Matt Barry",
-      "fetched_at": "2026-04-03T10:05:31.083389+00:00",
-      "cliff_notes": "Matt Barry is a prominent figure in the technology industry, particularly within the realm of freelancing and crowdsourcing. As the CEO of Freelancer.com, he has been instrumental in shaping the platform into a global marketplace that connects employers with freelancers across various industries. Barry's leadership has been pivotal in navigating the challenges and opportunities presented by the rise of artificial intelligence, ensuring that Freelancer.com remains at the forefront of technological advancements. His contributions to the discourse on AI's impact on employment and the future of work have made him a sought-after voice in both tech and finance circles.",
-      "derived": {
-        "current_role": "CEO of Freelancer.com"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Matt Barry is a prominent figure in the technology industry, particularly within the realm of freelancing and crowdsourcing. As the CEO of Freelancer.com, he has been instrumental in shaping the platform into a global marketplace that connects employers with freelancers across various industries. Barry's leadership has been pivotal in navigating the challenges and opportunities presented by the rise of artificial intelligence, ensuring that Freelancer.com remains at the forefront of technological advancements.",
-        "His contributions to the discourse on AI's impact on employment and the future of work have made him a sought-after voice in both tech and finance circles."
-      ],
-      "sections": [
-        {
-          "heading": "Freelancer.com",
-          "body": "Matt Barry leads Freelancer.com, a platform that has revolutionized the way work is done by connecting employers with freelancers globally."
-        },
-        {
-          "heading": "Artificial Intelligence",
-          "body": "Barry is known for his thought leadership on the implications of AI on the future of work, often discussing how it will reshape the global workforce."
-        },
-        {
-          "heading": "Global Workforce",
-          "body": "His insights into the changing dynamics of the global workforce, especially in the context of technology and AI, are highly valued by investors and tech enthusiasts."
-        }
-      ]
-    },
-    "net_worth": "$185.0M"
-  },
-  {
-    "id": 149,
-    "name": "Dr. Onis Ahaji",
-    "slug": "dr-onis-ahaji",
-    "bio": "Dr. Onis Ahaji is the Founder and Managing Partner of Energy Outlook Advisors, a firm specializing in energy market analysis and geopolitical risk assessment. His expertise is highly sought after in the financial sector, particularly in the context of Iran conflict updates and their impact on energy markets.",
-    "known_for": "His insights into the geopolitical dynamics affecting energy markets, especially in the context of Iran and the Middle East.",
-    "net_worth_usd": 500000000.0,
-    "net_worth_source": "https://en.wikipedia.org/wiki/List_of_Iranians_by_net_worth",
-    "net_worth_updated_at": "2026-04-03T05:05:41.325252",
-    "voice_tone": "",
-    "voice_style": "",
-    "voice_delivery_notes": "",
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-04-03 10:04:02",
-    "last_episode_title": "MacroVoices #526 Matt Barrie: Pay To PrAI",
-    "last_podcast_name": "Macro Voices",
-    "last_episode_date": "2026-04-02",
-    "mention_score": 1,
-    "mention_score_decayed": 0.64,
-    "last_main_idea": "Invest in sectors less affected by AI disruption and monitor geopolitical events for opportunities in private credit markets.",
-    "last_proof_cite": "Macro Voices \u2022 2026-04-02 \u2022 MacroVoices #526 Matt Barrie: Pay To PrAI",
-    "last_proof_snippet": "This is Macrovoisans, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisans is all about the brightest minds in the world of finance an",
-    "supporting_takeaway": "AI's impact on private credit markets could lead to a market dislocation similar to the 2000.com bust.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-03T05:05:40.347752",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Dr. Onis Ahaji",
-      "fetched_at": "2026-04-03T10:05:40.347609+00:00",
-      "cliff_notes": "Dr. Onis Ahaji is recognized for his deep understanding of the energy sector, particularly how geopolitical events shape market trends. As the Founder and Managing Partner of Energy Outlook Advisors, he provides critical analysis and forecasts that are invaluable to investors and policymakers. His expertise extends to the Middle East, where he has closely followed the Iran conflict and its ripple effects on global energy markets. His work is respected for its clarity and impact, making him a go-to source for those navigating the complex interplay between politics and energy economics.",
-      "derived": {
-        "current_role": "Founder and Managing Partner of Energy Outlook Advisors"
-      },
-      "infobox": {
-        "Nationality": "Not specified"
-      },
-      "lead_paragraphs": [
-        "Dr. Onis Ahaji is recognized for his deep understanding of the energy sector, particularly how geopolitical events shape market trends. As the Founder and Managing Partner of Energy Outlook Advisors, he provides critical analysis and forecasts that are invaluable to investors and policymakers. His expertise extends to the Middle East, where he has closely followed the Iran conflict and its ripple effects on global energy markets.",
-        "His work is respected for its clarity and impact, making him a go-to source for those navigating the complex interplay between politics and energy economics."
-      ],
-      "sections": [
-        {
-          "heading": "Energy Market Analysis",
-          "body": "Dr. Ahaji is known for his comprehensive analysis of energy markets, with a focus on how geopolitical events can influence prices and supply."
-        },
-        {
-          "heading": "Iran Conflict Update",
-          "body": "He provides regular updates on the Iran conflict, assessing its potential impact on energy markets and offering strategic insights for investors."
-        },
-        {
-          "heading": "Geopolitical Risk Assessment",
-          "body": "Dr. Ahaji's expertise in geopolitical risk assessment is highly valued, especially in understanding the implications of Middle Eastern conflicts on the global energy landscape."
-        }
-      ]
-    },
-    "net_worth": "$500.0M"
-  },
-  {
-    "id": 147,
-    "name": "Anna Wang",
-    "slug": "anna-wang",
-    "bio": "Anna Wang is the Chief U.S. Economist at Bloomberg, where she provides economic analysis and commentary on inflation and oil prices. She is known for her insightful views on the economic implications of oil price fluctuations and their impact on inflation.",
-    "known_for": "Economic analysis and commentary on inflation and oil prices.",
-    "net_worth_usd": 3000000000.0,
-    "net_worth_source": "https://www.gurufocus.com/insider/231639/wang-nan",
-    "net_worth_updated_at": "2026-04-01T22:04:03.961801",
-    "voice_tone": "Analytical and measured.",
-    "voice_style": "Provides detailed economic analysis with a focus on data and trends.",
-    "voice_delivery_notes": "Speaks with a clear and deliberate pace, emphasizing key economic indicators and potential outcomes.",
-    "voice_profile_updated_at": "2026-04-02 03:03:55",
-    "last_seen": "2026-04-02 03:03:55",
-    "last_episode_title": "Why $200 Oil Won\u2019t Spike Inflation to 9% | Anna Wong on Recession Probability, PCE vs CPI, and Fed Reaction Function In A Scenario of Soaring Energy Prices",
+    "last_seen": "2026-03-17 13:39:56",
+    "last_episode_title": "Monetary Matters with Jack Farley: Farmland Investment Insights",
     "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-04-01",
+    "last_episode_date": "2026-03-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.62,
-    "last_main_idea": "Pictay asset management's AI-enhanced ETFs (PQNT and PQUS) aim to provide enhanced equity exposure through the use of artificial intelligence.",
-    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-01 \u2022 Why $200 Oil Won\u2019t Spike Inflation to 9% | Anna Wong on Recession Probability, PCE vs CPI, and Fed Reaction Function In A Scenario of Soaring Energy Prices",
-    "last_proof_snippet": "Today's episode is brought you by Pictay asset management and their AI enhanced ETF range, ticker PQNT and PQUS. You'll hear more about how they're using AI to enhance equity exposure later in the show. For now, let's get into it. Very plea",
-    "supporting_takeaway": "Oil futures curve suggests prices will decline to around $80 in the second half of the year.",
+    "mention_score_decayed": 0.43,
+    "last_main_idea": "Farmland represents an underutilized asset class with diversification benefits and potential for strong returns, particularly in the context of water scarcity and aging farmer demographics.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-17 \u2022 Monetary Matters with Jack Farley: Farmland Investment Insights",
+    "last_proof_snippet": "This episode of Other People's Money is brought to you by the two-Korean Soybean Fund, ticker SOYB. Let's get into it. Welcome to Other People's Money. I am joined today by Chris Morris, President of Lampun Partners in Institutional Farmlan",
+    "supporting_takeaway": "Lampun Partners has achieved mid-teen net returns with its Soil Enrichment Fund, outperforming the S&P 500 since inception.",
     "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-01T22:04:02.778580",
+    "grokipedia_fetched_at": "2026-03-19T21:21:47.025691",
     "pundit_profile": {
       "source": "llm",
       "source_model": "moonshot:moonshot-v1-8k",
       "source_url": "",
-      "page_title": "Anna Wang",
-      "fetched_at": "2026-04-02T03:04:02.778251+00:00",
-      "cliff_notes": "Anna Wang is a prominent economist known for her expertise in U.S. economic analysis, particularly in the areas of inflation and oil prices. As the Chief U.S. Economist at Bloomberg, she offers valuable insights into the economic landscape, helping investors and policymakers navigate complex market conditions. Wang's career has been marked by her ability to provide clear and concise analysis on economic trends, making her a sought-after commentator in the financial industry. Her work at Bloomberg has allowed her to influence economic discourse and contribute to a better understanding of the factors driving inflation and oil prices.",
+      "page_title": "Chris Morris",
+      "fetched_at": "2026-03-20T02:21:47.025574+00:00",
+      "cliff_notes": "Chris Morris serves as the President of Lampun Partners, an institutional farmland investment firm that focuses on acquiring and managing high-quality irrigated row crop farmland in the mid-South region of the United States. His leadership has been instrumental in overseeing the management of over $400 million in farmland assets, with a particular emphasis on the Soil Enrichment Fund, which has outperformed the S&P 500 since its inception in October 2021. Morris's expertise in the alternative asset class of farmland investment has positioned Lampun Partners as a significant player in the real assets market, contributing to the diversification of investment portfolios and providing investors with access to a traditionally stable and lucrative sector.",
       "derived": {
-        "current_role": "Chief U.S. Economist at Bloomberg"
+        "current_role": "President of Lampun Partners"
       },
       "infobox": {
-        "Born": "",
-        "Nationality": ""
+        "Nationality": "American"
       },
       "lead_paragraphs": [
-        "Anna Wang is a prominent economist known for her expertise in U.S. economic analysis, particularly in the areas of inflation and oil prices. As the Chief U.S. Economist at Bloomberg, she offers valuable insights into the economic landscape, helping investors and policymakers navigate complex market conditions. Wang's career has been marked by her ability to provide clear and concise analysis on economic trends, making her a sought-after commentator in the financial industry.",
-        "Her work at Bloomberg has allowed her to influence economic discourse and contribute to a better understanding of the factors driving inflation and oil prices."
+        "Chris Morris serves as the President of Lampun Partners, an institutional farmland investment firm that focuses on acquiring and managing high-quality irrigated row crop farmland in the mid-South region of the United States. His leadership has been instrumental in overseeing the management of over $400 million in farmland assets, with a particular emphasis on the Soil Enrichment Fund, which has outperformed the S&P 500 since its inception in October 2021.",
+        "Morris's expertise in the alternative asset class of farmland investment has positioned Lampun Partners as a significant player in the real assets market, contributing to the diversification of investment portfolios and providing investors with access to a traditionally stable and lucrative sector."
       ],
       "sections": [
         {
-          "heading": "Economic Analysis",
-          "body": "Anna Wang is known for her economic analysis, particularly focusing on inflation and oil prices, providing investors with valuable insights into market trends."
+          "heading": "Farmland Investment",
+          "body": "Chris Morris is recognized for his role in farmland investment, particularly through Lampun Partners, where he manages over $400 million in assets."
         },
         {
-          "heading": "Oil Price Impact",
-          "body": "Wang's commentary on the impact of oil prices on inflation has been influential, challenging conventional views and providing a unique perspective on economic indicators."
+          "heading": "Soil Enrichment Fund",
+          "body": "Morris is known for the success of Lampun Partners' Soil Enrichment Fund, which has delivered mid-teen net returns and outperformed the S&P 500 since its inception."
         },
         {
-          "heading": "Economic Commentary",
-          "body": "As a commentator on economic issues, Wang has been instrumental in shaping discussions around the economic implications of oil price fluctuations and their broader impact on the economy."
+          "heading": "Alternative Assets",
+          "body": "He has contributed to the understanding and growth of farmland as an alternative asset class, providing insights into this sector's potential for investors."
+        }
+      ]
+    }
+  },
+  {
+    "id": 81,
+    "name": "Elon Musk",
+    "slug": "elon-musk",
+    "bio": "Elon Musk is an entrepreneur and CEO known for his work in electric vehicles and space exploration. He is the CEO of Tesla, an electric car manufacturer, and SpaceX, a space exploration company. Musk is recognized for his innovative technologies and ambitious projects in sustainable energy and space travel.",
+    "known_for": "Elon Musk is known for his leadership in electric vehicles and space exploration, revolutionizing sustainable energy and pushing the boundaries of space technology.",
+    "net_worth_usd": 270100000000.0,
+    "net_worth_source": "https://www.wikidata.org/wiki/Q317521",
+    "net_worth_updated_at": "2026-03-19T15:06:00.316451",
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-03-17 22:17:06",
+    "last_episode_title": "Elon Musk on Moonshots: Discussing AI, Robotics, and Future Technologies",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-03-17",
+    "mention_score": 1,
+    "mention_score_decayed": 0.43,
+    "last_main_idea": "Invest in companies at the forefront of AI, robotics, and space technology, as these sectors are poised for significant growth and disruption.",
+    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-03-17 \u2022 Elon Musk on Moonshots: Discussing AI, Robotics, and Future Technologies",
+    "last_proof_snippet": "audience, and as you can see, still trying to monetize hope. Yeah, you look like you're in great shape. I'm doing great. Well, that's not like a sort of user of things going on or what. It's like it's our longevity exercise. We're getting t",
+    "supporting_takeaway": "SpaceX is in a quiet period, with Musk unable to disclose specific timelines for launching data centers.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-19T21:21:32.334592",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Elon Musk",
+      "fetched_at": "2026-03-20T02:21:32.334474+00:00",
+      "cliff_notes": "Elon Musk is a South African-born entrepreneur who has made significant contributions to the fields of electric vehicles and space exploration. He co-founded Zip2, a web software company, which was acquired by Compaq for nearly $300 million. Musk then co-founded X.com, which later became PayPal and was acquired by eBay for $1.5 billion. He then founded SpaceX in 2002, with the goal of reducing space transportation costs and enabling the colonization of Mars. In 2004, Musk became an early investor in Tesla, which he later took over as CEO, transforming the electric vehicle industry. Musk's companies have disrupted traditional industries and have a significant impact on sustainable energy and space travel.",
+      "derived": {
+        "current_role": "CEO of Tesla and SpaceX",
+        "former_positions": "CEO of SolarCity; CEO of Zip2; Co-founder of PayPal",
+        "boards": "Tesla, SpaceX, Neuralink, The Boring Company",
+        "education": "Bachelor of Science in Physics and Economics from the University of Pennsylvania; Attended Stanford University for Ph.D. in Physics",
+        "political_affiliation": "Independent"
+      },
+      "infobox": {
+        "Born": "June 28, 1971",
+        "Nationality": "South African-American"
+      },
+      "lead_paragraphs": [
+        "Elon Musk is a South African-born entrepreneur who has made significant contributions to the fields of electric vehicles and space exploration. He co-founded Zip2, a web software company, which was acquired by Compaq for nearly $300 million. Musk then co-founded X.com, which later became PayPal and was acquired by eBay for $1.5 billion.",
+        "He then founded SpaceX in 2002, with the goal of reducing space transportation costs and enabling the colonization of Mars. In 2004, Musk became an early investor in Tesla, which he later took over as CEO, transforming the electric vehicle industry. Musk's companies have disrupted traditional industries and have a significant impact on sustainable energy and space travel."
+      ],
+      "sections": [
+        {
+          "heading": "Tesla",
+          "body": "Tesla, founded by Elon Musk, is an electric vehicle and clean energy company that designs, manufactures, and sells electric cars, solar energy generation systems, and energy storage products. Tesla has revolutionized the electric vehicle industry and is a leader in sustainable energy solutions."
+        },
+        {
+          "heading": "SpaceX",
+          "body": "Space Exploration Technologies Corp. (SpaceX) is a private aerospace manufacturer and space transportation company founded by Elon Musk. SpaceX has developed the Falcon 1, Falcon 9, and Falcon Heavy rockets, and the Dragon spacecraft, aiming to reduce space transportation costs and enable the colonization of Mars."
+        },
+        {
+          "heading": "Sustainable Energy",
+          "body": "Elon Musk's companies, Tesla and SolarCity, have been instrumental in the development and deployment of sustainable energy solutions. Tesla's electric vehicles and SolarCity's solar energy generation systems have contributed significantly to the transition towards renewable energy sources."
         }
       ]
     },
-    "net_worth": "$3.00B"
+    "net_worth": "$270.10B"
   },
   {
-    "id": 145,
-    "name": "Owen Jennings",
-    "slug": "owen-jennings",
-    "bio": "Owen Jennings is an Executive Officer and Business Lead at Block, managing product operations and customer support across Square, Cash App, and Afterpay. He is known for leading Cash App through its critical scaling period and overseeing Block's AI transformation.",
-    "known_for": "Leading Cash App through its critical scaling period and overseeing Block's AI transformation.",
-    "net_worth_usd": 15000000.0,
-    "net_worth_source": "https://www.gurufocus.com/insider/265938/owen-britton-jennings",
-    "net_worth_updated_at": "2026-04-01T15:15:32.439710",
-    "voice_tone": "Confident and matter-of-fact",
-    "voice_style": "Direct and focused on the practical implications of AI on business operations",
-    "voice_delivery_notes": "Clear and concise, with emphasis on the transformative impact of AI",
-    "voice_profile_updated_at": "2026-04-01 20:15:22",
-    "last_seen": "2026-04-01 20:15:22",
-    "last_episode_title": "What Happens When a Public Company Goes All In on AI",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-04-01",
+    "id": 82,
+    "name": "Bob Elliott",
+    "slug": "bob-elliott",
+    "bio": "Bob Elliott is the Chief Investment Officer at Unlimited Funds and a former member of the Investment Committee at Bridgewater. With expertise in macroeconomic trading and investment strategy, Elliott has been influential in the financial sector, particularly in the U.S. macro trading category.",
+    "known_for": "His leadership in macroeconomic trading and investment strategy, and his role in developing the HFGM global macro ETF.",
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": "2026-03-19T15:48:52.999309",
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-03-19 03:02:29",
+    "last_episode_title": "Monetary Matters with Jack Farley: Oil Shocks, Inflation, and Market Reactions",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-03-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.62,
-    "last_main_idea": "Investing in companies that understand complex problems and can leverage AI to gain a competitive advantage in their operations and product development.",
-    "last_proof_cite": "The a16z Show \u2022 2026-04-01 \u2022 What Happens When a Public Company Goes All In on AI",
-    "last_proof_snippet": "The biggest mode is going to be which companies understand something that's super hard for other people to understand and if your answer to that is, I don't know, then you maybe could get vibe coded away. Block was one of the first to make",
-    "supporting_takeaway": "AI agents have significantly increased productivity, with one or two engineers on the tools being able to achieve 10-100x more output than before.",
+    "mention_score_decayed": 0.44,
+    "last_main_idea": "The current elevated oil prices and their subsequent impact on inflation and growth present a complex investment landscape, with stocks and bonds being particularly at risk. Investors should consider packaging trades to navigate these dynamics.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-19 \u2022 Monetary Matters with Jack Farley: Oil Shocks, Inflation, and Market Reactions",
+    "last_proof_snippet": "Today's episode is brought to you by the unlimited hfgm global macro ETF ticker hfgm. Later in the show, you'll hear more about hfgm currently the number one morning star rated funds sits its inception in the U.S. macro trading category. Le",
+    "supporting_takeaway": "The immediate impact of an oil shock is inflationary, but over time it could lead to a negative shock on the economy.",
     "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-01T15:15:31.311281",
+    "grokipedia_fetched_at": "2026-03-19T21:21:05.284882",
     "pundit_profile": {
       "source": "llm",
       "source_model": "moonshot:moonshot-v1-8k",
       "source_url": "",
-      "page_title": "Owen Jennings",
-      "fetched_at": "2026-04-01T20:15:31.310842+00:00",
-      "cliff_notes": "Owen Jennings is a key figure in the fintech industry, particularly through his role at Block, where he has been instrumental in the growth and scaling of Cash App. His leadership has been pivotal during a critical period of expansion for the company, and he has been at the forefront of Block's AI transformation. Jennings' approach to management and operations has been marked by a focus on efficiency and productivity, as evidenced by his decision to cut the workforce by 40%, emphasizing the importance of leveraging technology and AI to maximize output. His career has been marked by a deep understanding of the intersection between technology and finance, making him a significant player in the industry.",
+      "page_title": "Bob Elliott",
+      "fetched_at": "2026-03-20T02:21:05.284761+00:00",
+      "cliff_notes": "Bob Elliott is a prominent figure in the financial industry, known for his expertise in macroeconomic trading and investment strategy. He currently serves as the Chief Investment Officer at Unlimited Funds, where he oversees the investment strategies and operations. Previously, Elliott was a member of the Investment Committee at Bridgewater, one of the world's largest hedge funds. His contributions to the development and management of the HFGM global macro ETF have been particularly noteworthy, as it has become the number one Morningstar-rated fund in its category since its inception. Elliott's insights into the impact of oil prices on the economy, stock market, bond market, and Federal Reserve reaction function have been highly sought after, reflecting his deep understanding of the interconnectedness of global financial markets.",
       "derived": {
-        "current_role": "Executive Officer and Business Lead at Block"
+        "current_role": "Chief Investment Officer at Unlimited Funds",
+        "former_positions": "Member of the Investment Committee at Bridgewater"
       },
       "infobox": {
         "Born": "",
         "Nationality": ""
       },
       "lead_paragraphs": [
-        "Owen Jennings is a key figure in the fintech industry, particularly through his role at Block, where he has been instrumental in the growth and scaling of Cash App. His leadership has been pivotal during a critical period of expansion for the company, and he has been at the forefront of Block's AI transformation. Jennings' approach to management and operations has been marked by a focus on efficiency and productivity, as evidenced by his decision to cut the workforce by 40%, emphasizing the importance of leveraging technology and AI to maximize output.",
-        "His career has been marked by a deep understanding of the intersection between technology and finance, making him a significant player in the industry."
+        "Bob Elliott is a prominent figure in the financial industry, known for his expertise in macroeconomic trading and investment strategy. He currently serves as the Chief Investment Officer at Unlimited Funds, where he oversees the investment strategies and operations. Previously, Elliott was a member of the Investment Committee at Bridgewater, one of the world's largest hedge funds.",
+        "His contributions to the development and management of the HFGM global macro ETF have been particularly noteworthy, as it has become the number one Morningstar-rated fund in its category since its inception. Elliott's insights into the impact of oil prices on the economy, stock market, bond market, and Federal Reserve reaction function have been highly sought after, reflecting his deep understanding of the interconnectedness of global financial markets."
       ],
       "sections": [
         {
-          "heading": "Cash App Scaling",
-          "body": "Owen Jennings played a crucial role in leading Cash App through its critical scaling period, managing the app's growth and ensuring its stability amidst rapid expansion."
+          "heading": "Macroeconomic Trading",
+          "body": "Bob Elliott is recognized for his deep understanding of macroeconomic trading, which involves large-scale investments based on global economic trends and events."
         },
         {
-          "heading": "AI Transformation at Block",
-          "body": "Jennings has overseen Block's AI transformation, integrating advanced technologies to enhance the company's operations and improve efficiency."
+          "heading": "Investment Strategy",
+          "body": "Elliott's investment strategy expertise has been pivotal in guiding Unlimited Funds and shaping the investment direction of the HFGM global macro ETF."
         },
         {
-          "heading": "Workforce Reduction",
-          "body": "In a bold move, Jennings led the decision to cut Block's workforce by 40%, emphasizing the shift towards leveraging technology and AI to increase productivity rather than solely relying on human labor."
+          "heading": "Impact of Oil Prices",
+          "body": "Elliott has provided insightful commentary on how elevated oil prices impact various economic sectors, including households, stock markets, and monetary policy."
         },
         {
-          "heading": "Productivity and Technology",
-          "body": "Jennings believes in the power of technology to increase productivity, suggesting that for a given product or roadmap, fewer engineers, designers, and PMs are needed due to the capabilities of advanced systems."
+          "heading": "ETF Development",
+          "body": "As a key figure in the development of the HFGM global macro ETF, Elliott has contributed to its success and recognition in the U.S. macro trading category."
+        }
+      ]
+    }
+  },
+  {
+    "id": 83,
+    "name": "Jacob Helbert",
+    "slug": "jacob-helbert",
+    "bio": "Jacob Helbert is the Under Secretary of State for Economic Affairs, known for his work on AI, manufacturing, and supply chains. He is the author of 'The Wires of War' and has been influential in discussions on the geopolitics of technology and the importance of hardware, industrial capacity, and secure supply chains for economic strength and national security.",
+    "known_for": "His insights on AI innovation, manufacturing, and supply chains' role in geopolitics and national security.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-03-19 03:02:43",
+    "last_episode_title": "The Geopolitics of Technology and the Future Economy",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-03-18",
+    "mention_score": 1,
+    "mention_score_decayed": 0.44,
+    "last_main_idea": "Invest in companies that are at the forefront of AI innovation, hardware manufacturing, and secure supply chain management to capitalize on the new geopolitics of technology and the reindustrialization of the US.",
+    "last_proof_cite": "The a16z Show \u2022 2026-03-18 \u2022 The Geopolitics of Technology and the Future Economy",
+    "last_proof_snippet": "Our models need to be superior than all the other models on Earth. We need to have the world's best AI innovation on a qualitative basis, so we need to have the most market share. If we have exquisite models that no one uses, we're kind of",
+    "supporting_takeaway": "Helbert emphasizes the importance of hardware in the geopolitical technology war and the control over the internet's infrastructure.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-19T21:20:41.027940",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Jacob Helbert",
+      "fetched_at": "2026-03-20T02:20:41.027811+00:00",
+      "cliff_notes": "Jacob Helbert serves as the Under Secretary of State for Economic Affairs, where he plays a pivotal role in shaping economic policies that intersect with technology and national security. His expertise in AI, manufacturing, and supply chains has made him a key figure in discussions about the future of technology's role in global economics and geopolitics. Helbert's work extends beyond policy-making; he is also an author, with his book 'The Wires of War' providing a framework for understanding the critical importance of hardware, industrial capacity, and secure supply chains in today's interconnected world. His contributions to the discourse on AI and its implications for economic and national security have positioned him as a thought leader in the field.",
+      "derived": {
+        "current_role": "Under Secretary of State for Economic Affairs",
+        "books_or_works": "The Wires of War"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Jacob Helbert serves as the Under Secretary of State for Economic Affairs, where he plays a pivotal role in shaping economic policies that intersect with technology and national security. His expertise in AI, manufacturing, and supply chains has made him a key figure in discussions about the future of technology's role in global economics and geopolitics.",
+        "Helbert's work extends beyond policy-making; he is also an author, with his book 'The Wires of War' providing a framework for understanding the critical importance of hardware, industrial capacity, and secure supply chains in today's interconnected world. His contributions to the discourse on AI and its implications for economic and national security have positioned him as a thought leader in the field."
+      ],
+      "sections": [
+        {
+          "heading": "AI and National Security",
+          "body": "Jacob Helbert emphasizes the importance of AI innovation for national security, advocating for the development of superior AI models to maintain a competitive edge globally."
+        },
+        {
+          "heading": "Manufacturing and Supply Chains",
+          "body": "Helbert discusses the significance of robust manufacturing capabilities and secure supply chains for both economic strength and national security in the modern era."
+        },
+        {
+          "heading": "Geopolitics of Technology",
+          "body": "In his book 'The Wires of War' and various discussions, Helbert explores how technology, particularly in hardware and industrial capacity, has become a central aspect of global politics and power dynamics."
+        },
+        {
+          "heading": "Economic Growth",
+          "body": "Helbert believes in the expansionist view of economics, where the 'pie expands', fostering an environment conducive to starting businesses and driving economic growth."
+        }
+      ]
+    }
+  },
+  {
+    "id": 84,
+    "name": "John Fetterman",
+    "slug": "john-fetterman",
+    "bio": "John Fetterman is a Senator from Pennsylvania, recognized for his pragmatic approach to policy and bipartisan appeal. He is known for his stance on voting rights, support for Israel, and refusal to shut down the Department of Homeland Security.",
+    "known_for": "His pragmatic policy approach and bipartisan appeal, particularly in areas of voting rights and national security.",
+    "net_worth_usd": 95000000000.0,
+    "net_worth_source": "https://www.wsws.org/en/articles/2025/03/27/yykn-m27.html",
+    "net_worth_updated_at": "2026-03-19T15:48:49.103847",
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-03-19 03:04:44",
+    "last_episode_title": "Interview with Senator John Fetterman on Voting Rights, Policy Decisions, and the Democratic Party",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-03-18",
+    "mention_score": 1,
+    "mention_score_decayed": 0.44,
+    "last_main_idea": "While not directly investment-focused, the episode provides insights into the political climate and potential policy directions that could indirectly affect various sectors and investment strategies.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-18 \u2022 Interview with Senator John Fetterman on Voting Rights, Policy Decisions, and the Democratic Party",
+    "last_proof_snippet": "John Fetterman, thank you for joining us here on the All-In-Podcast for this all-in interview. Very excited to have him here today. I know you're in the middle of voting today. Sounds like the Save America Act might be starting its debate o",
+    "supporting_takeaway": "Fetterman has a unique perspective, being popular among Republicans while maintaining his Democratic affiliation.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-19T21:20:25.000396",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "John Fetterman",
+      "fetched_at": "2026-03-20T02:20:25.000069+00:00",
+      "cliff_notes": "John Fetterman, a Democratic Party member, began his career in public service as the Mayor of Braddock, Pennsylvania, where he gained recognition for his efforts to revitalize the town. His pragmatic approach to policy and commitment to bipartisanship led him to be elected as a Senator from Pennsylvania. In the Senate, Fetterman has been a vocal advocate for voting rights and has taken stances that reflect his progressive values while maintaining a broad appeal. His refusal to shut down the Department of Homeland Security and his support for Israel are also part of his political profile. Fetterman's role in the Senate is significant as he navigates the complex political landscape, striving to represent his constituents while pushing for policy changes that align with his values.",
+      "derived": {
+        "current_role": "Senator from Pennsylvania",
+        "political_affiliation": "Democratic Party",
+        "political_summary": "Senator John Fetterman has been involved in politics, serving as the Mayor of Braddock, Pennsylvania, before being elected to the Senate. He is known for his progressive stances and efforts to bridge the partisan divide."
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "John Fetterman, a Democratic Party member, began his career in public service as the Mayor of Braddock, Pennsylvania, where he gained recognition for his efforts to revitalize the town. His pragmatic approach to policy and commitment to bipartisanship led him to be elected as a Senator from Pennsylvania. In the Senate, Fetterman has been a vocal advocate for voting rights and has taken stances that reflect his progressive values while maintaining a broad appeal.",
+        "His refusal to shut down the Department of Homeland Security and his support for Israel are also part of his political profile. Fetterman's role in the Senate is significant as he navigates the complex political landscape, striving to represent his constituents while pushing for policy changes that align with his values."
+      ],
+      "sections": [
+        {
+          "heading": "Voting Rights",
+          "body": "Senator Fetterman is a staunch advocate for voting rights, pushing for legislation that protects and expands access to voting for all citizens."
+        },
+        {
+          "heading": "Bipartisanship",
+          "body": "Fetterman is known for his efforts to work across party lines, seeking common ground on issues to achieve legislative success."
+        },
+        {
+          "heading": "National Security",
+          "body": "He has been vocal in his support for the Department of Homeland Security, emphasizing the importance of national security in the modern era."
+        },
+        {
+          "heading": "Progressive Values",
+          "body": "Senator Fetterman often champions progressive policies, reflecting his commitment to social justice and equality."
+        }
+      ]
+    },
+    "net_worth": "$95.00B"
+  },
+  {
+    "id": 86,
+    "name": "Paul Krugman",
+    "slug": "paul-krugman",
+    "bio": "Paul Krugman is a Nobel Prize-winning economist, distinguished professor, and publisher of the Paul Krugman Substack. Known for his work in international trade and economic geography, Krugman has significantly influenced economic thought and policy.",
+    "known_for": "His insights into international trade, economic geography, and the global economy.",
+    "net_worth_usd": 15000000.0,
+    "net_worth_source": "https://thenewstalkers.com/community/discussion/66430/",
+    "net_worth_updated_at": "2026-03-31T20:09:46.725305",
+    "voice_tone": "Analytical and measured.",
+    "voice_style": "Factual and explanatory, with a focus on economic theory and data.",
+    "voice_delivery_notes": "Delivers complex economic theories in a digestible manner.",
+    "voice_profile_updated_at": "2026-03-20 03:03:32",
+    "last_seen": "2026-03-20 03:03:32",
+    "last_episode_title": "Monetary Matters with Jack Farley: The US Dollar, Trade Deficits, and the Role of AI in Finance",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-02-19",
+    "mention_score": 1,
+    "mention_score_decayed": 0.45,
+    "last_main_idea": "The Picta AI Enhanced International Equity ETF (PQNT) uses AI to enhance international equity returns, suggesting a potential for outperformance through technology-driven investment strategies.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-02-19 \u2022 Monetary Matters with Jack Farley: The US Dollar, Trade Deficits, and the Role of AI in Finance",
+    "last_proof_snippet": "Today's episode is brought to you by the Picta AI Enhance International Equity ETF, Ticker PQNT. You'll hear more about they're using AI to enhance international equity returns later in the show. For now, let's get into it. Very pleased tod",
+    "supporting_takeaway": "The dollar's international role is complex and not easily replaced, affecting its value beyond trade deficits.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-19T22:19:12.461398",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Paul Krugman",
+      "fetched_at": "2026-03-20T03:19:12.461160+00:00",
+      "cliff_notes": "Paul Krugman is a renowned economist who has made significant contributions to the fields of international trade and economic geography. He began his career as an assistant professor at MIT, later moving to Yale and then Stanford. Krugman's work has been influential in shaping economic policy and understanding global economic trends. He has also been a prolific writer, contributing columns to The New York Times and publishing several influential books. His insights into economic theory and policy have made him a respected voice in both academic and public discourse.",
+      "derived": {
+        "current_role": "Distinguished Professor at the Graduate Center of the City University of New York",
+        "former_positions": "Professor of Economics and International Affairs at Princeton University; Columnist for The New York Times",
+        "education": "Ph.D. in Economics from MIT; M.Phil. in Economics from Yale University; B.A. in Economics from Yale University",
+        "political_affiliation": "Independent",
+        "political_summary": "While not directly involved in politics, Krugman is known for his political commentary and has advised policymakers on economic issues.",
+        "books_or_works": "The Return of Depression Economics and the Crisis of 2008; The Conscience of a Liberal; Development, Geography, and Economic Theory",
+        "teaching_summary": "Professor of Economics and International Affairs at Princeton University; Distinguished Professor at the Graduate Center of the City University of New York"
+      },
+      "infobox": {
+        "Born": "February 28, 1953",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Paul Krugman is a renowned economist who has made significant contributions to the fields of international trade and economic geography. He began his career as an assistant professor at MIT, later moving to Yale and then Stanford. Krugman's work has been influential in shaping economic policy and understanding global economic trends.",
+        "He has also been a prolific writer, contributing columns to The New York Times and publishing several influential books. His insights into economic theory and policy have made him a respected voice in both academic and public discourse."
+      ],
+      "sections": [
+        {
+          "heading": "International Trade",
+          "body": "Krugman's work on international trade has been groundbreaking, challenging traditional models and providing new insights into trade patterns and economic development."
+        },
+        {
+          "heading": "Economic Geography",
+          "body": "Krugman's research on economic geography has helped to explain the distribution of economic activity across different regions and the factors that influence this distribution."
+        },
+        {
+          "heading": "Global Economy",
+          "body": "Krugman has been a leading voice in discussions about the global economy, offering insights into currency fluctuations, trade imbalances, and the impacts of globalization."
+        },
+        {
+          "heading": "Economic Policy",
+          "body": "Throughout his career, Krugman has advised policymakers and provided commentary on economic policy, influencing debates on fiscal and monetary policy."
         }
       ]
     },
     "net_worth": "$15.0M"
   },
   {
-    "id": 144,
-    "name": "Dara Khosrowshahi",
-    "slug": "dara-khosrowshahi",
-    "bio": "Dara Khosrowshahi is the current CEO of Uber, having previously served as the CEO of Expedia. He is known for leading the turnaround of Uber's financial performance and focusing the company on autonomous technology.",
-    "known_for": "Leading the turnaround of Uber's financial performance and focusing the company on autonomous technology.",
-    "net_worth_usd": 5000000000.0,
-    "net_worth_source": "https://www.wikidata.org/wiki/Q5221979",
-    "net_worth_updated_at": "2026-04-01T05:04:28.531382",
-    "voice_tone": "Confident and optimistic about the future of autonomous vehicles.",
-    "voice_style": "Direct and solution-oriented, emphasizing the importance of strategic focus and hard work.",
-    "voice_delivery_notes": "Paced with emphasis on key points regarding the future of transportation and the role of technology.",
-    "voice_profile_updated_at": "2026-04-01 10:03:46",
-    "last_seen": "2026-04-01 10:03:46",
-    "last_episode_title": "Uber CEO on Winning the Robotaxi Race, the End of Car Ownership, and Uber\u2019s Next $1 Trillion Bet | Dara Khosrowshahi (Uber CEO) | 243",
+    "id": 89,
+    "name": "Andrew 'Boz' Bosworth",
+    "slug": "andrew-boz-bosworth",
+    "bio": "Andrew 'Boz' Bosworth is a prominent figure in the tech industry, known for his work at Meta, where he has spent nearly two decades shaping consumer interaction. As the company's CTO, he has been instrumental in the development of smart glasses and AR headsets, pushing the boundaries of consumer technology.",
+    "known_for": "His influential role in shaping Meta's technology strategy and the development of smart glasses and AR headsets.",
+    "net_worth_usd": 46000000.0,
+    "net_worth_source": "https://www.gurufocus.com/insider/170430/andrew-bosworth",
+    "net_worth_updated_at": "2026-03-19T22:17:08.863199",
+    "voice_tone": "Confident and visionary.",
+    "voice_style": "Boz presents a future-oriented perspective with a focus on the transformative potential of AI and AR.",
+    "voice_delivery_notes": "Pacing is steady with emphasis on the importance of AI and the shift towards intent-driven computing.",
+    "voice_profile_updated_at": "2026-03-20 03:09:39",
+    "last_seen": "2026-03-20 03:09:39",
+    "last_episode_title": "The Future of Consumer Technology and the Post-Mobile Phone Era",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-02-15",
+    "mention_score": 1,
+    "mention_score_decayed": 0.46,
+    "last_main_idea": "Invest in companies that are at the forefront of developing AI-enabled, immersive technologies that can redefine consumer interactions beyond the current app-centric model.",
+    "last_proof_cite": "The a16z Show \u2022 2026-02-15 \u2022 The Future of Consumer Technology and the Post-Mobile Phone Era",
+    "last_proof_snippet": "Is there a better way? I think there is. Every single interface that I interact with, every single problem space that I'm trying to solve are going to be made easier by virtue of this new technology. If you were starting from scratch today,",
+    "supporting_takeaway": "Augmented reality glasses are a real possibility for content consumption in the next decade.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-19T22:17:07.326933",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Andrew 'Boz' Bosworth",
+      "fetched_at": "2026-03-20T03:17:07.326714+00:00",
+      "cliff_notes": "Andrew 'Boz' Bosworth has been with Meta (formerly Facebook) for nearly two decades, starting as a software engineer and rising through the ranks to become the company's CTO. His tenure has seen him play a pivotal role in the evolution of consumer interaction, from the Facebook News Feed to the development of smart glasses and AR headsets. Bosworth's work has been central to Meta's technological advancements, particularly in the realms of AI and hardware. His vision for a post-phone world, where AI-enabled technology creates more immersive and adaptive computing experiences, has positioned him as a key influencer in the tech industry's future.",
+      "derived": {
+        "current_role": "CTO at Meta",
+        "former_positions": "Director of Engineering at Facebook; Manager of Facebook's News Feed team",
+        "education": "Bachelor's degree in Computer Science from Harvard University"
+      },
+      "infobox": {
+        "Born": "Unknown",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Andrew 'Boz' Bosworth has been with Meta (formerly Facebook) for nearly two decades, starting as a software engineer and rising through the ranks to become the company's CTO. His tenure has seen him play a pivotal role in the evolution of consumer interaction, from the Facebook News Feed to the development of smart glasses and AR headsets.",
+        "Bosworth's work has been central to Meta's technological advancements, particularly in the realms of AI and hardware. His vision for a post-phone world, where AI-enabled technology creates more immersive and adaptive computing experiences, has positioned him as a key influencer in the tech industry's future."
+      ],
+      "sections": [
+        {
+          "heading": "Meta's Technology Strategy",
+          "body": "Bosworth has been a driving force behind Meta's technology strategy, focusing on the development of smart glasses and AR headsets that aim to redefine consumer interaction."
+        },
+        {
+          "heading": "AI and Hardware Breakthroughs",
+          "body": "His work emphasizes the potential of AI and hardware breakthroughs to revolutionize the tech landscape, moving towards a more agentic, adaptive, and immersive computing experience."
+        },
+        {
+          "heading": "Post-Phone World Vision",
+          "body": "Bosworth envisions a future where the app-centric world of smartphones is replaced by a new computing paradigm, one that is more integrated and intuitive, potentially led by AI advancements."
+        }
+      ]
+    },
+    "net_worth": "$46.0M"
+  },
+  {
+    "id": 91,
+    "name": "Brett Adcock",
+    "slug": "brett-adcock",
+    "bio": "Brett Adcock is an entrepreneur and investor with a background in software and VTOL companies. He is known for his work at the forefront of AI and robotics development, focusing on autonomous manufacturing and the potential for a $50T market.",
+    "known_for": "Being at the forefront of AI and robotics development, focusing on autonomous manufacturing and the potential for a $50T market.",
+    "net_worth_usd": 19000000000.0,
+    "net_worth_source": "https://en.wikipedia.org/wiki/Brett_Adcock",
+    "net_worth_updated_at": "2026-03-19T22:16:05.781854",
+    "voice_tone": "Amazed and enthusiastic about the advancements in AI and robotics.",
+    "voice_style": "Descriptive and forward-looking, with a focus on the transformative impact of technology.",
+    "voice_delivery_notes": "Speak with excitement and a sense of urgency to convey the rapid pace of change in the industry.",
+    "voice_profile_updated_at": "2026-03-20 03:11:05",
+    "last_seen": "2026-03-20 03:11:05",
+    "last_episode_title": "Humanoid Run on Neural Net, Autonomous Manufacturing, $50T Market #229",
     "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-03-31",
+    "last_episode_date": "2026-02-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.62,
-    "last_main_idea": "Investment in autonomous vehicle technology is poised to disrupt urban mobility and logistics, with companies like Uber positioned to capitalize on this shift.",
-    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-03-31 \u2022 Uber CEO on Winning the Robotaxi Race, the End of Car Ownership, and Uber\u2019s Next $1 Trillion Bet | Dara Khosrowshahi (Uber CEO) | 243",
-    "last_proof_snippet": "The Robotaxi race is heating up. How are you going to win that race? Well, when you joined taking the mental Uber, I think Uber was losing $4.5 billion a year. Today it's earning over $10 billion a year. You really focused the organization.",
-    "supporting_takeaway": "Autonomous vehicles are becoming a reality, with a hybrid model expected to emerge where both human-driven and autonomous vehicles coexist.",
+    "mention_score_decayed": 0.46,
+    "last_main_idea": "Investing in AI and robotics companies that leverage neural networks for autonomous manufacturing could yield significant returns as this market is expected to become the largest economy globally.",
+    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-02-17 \u2022 Humanoid Run on Neural Net, Autonomous Manufacturing, $50T Market #229",
+    "last_proof_snippet": "Brett Adcock: Humanoid Run on Neural Net, Autonomous Manufacturing, $50T Market #229 Moonshots with Peter Diamandis Episode 229 00:00:00 I am blown away by how far you've come. The things that you can do with Neural Nets now does completely",
+    "supporting_takeaway": "Data accumulation is becoming a significant barrier to entry and a valuable asset in the AI and robotics space.",
     "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-01T05:04:28.065974",
+    "grokipedia_fetched_at": "2026-03-19T22:16:04.041005",
     "pundit_profile": {
       "source": "llm",
       "source_model": "moonshot:moonshot-v1-8k",
       "source_url": "",
-      "page_title": "Dara Khosrowshahi",
-      "fetched_at": "2026-04-01T10:04:28.065490+00:00",
-      "cliff_notes": "Dara Khosrowshahi has had a significant impact on the tech industry through his leadership roles in major companies. As the CEO of Expedia, he led the company through a period of growth and expansion. His tenure at Uber has been marked by a focus on financial stability and the development of autonomous vehicle technology. Khosrowshahi's leadership has been pivotal in shaping the future of transportation and the tech industry, as he navigates the complexities of integrating autonomous vehicles into urban landscapes.",
+      "page_title": "Brett Adcock",
+      "fetched_at": "2026-03-20T03:16:04.040798+00:00",
+      "cliff_notes": "Brett Adcock is an entrepreneur and investor with a focus on software and VTOL companies. His work in AI and robotics development has positioned him as a key figure in the industry, particularly in the areas of autonomous manufacturing and the potential for a $50 trillion market. Adcock's insights into the rapid advancements in neural nets and the accumulation of data as a barrier to entry and asset have been influential. His vision for a future where robots build robots and the impact on the economy and society is a testament to his forward-thinking approach in the tech industry.",
       "derived": {
-        "current_role": "CEO of Uber",
-        "former_positions": "CEO of Expedia"
+        "current_role": "Entrepreneur and Investor"
       },
       "infobox": {
         "Born": "",
         "Nationality": ""
       },
       "lead_paragraphs": [
-        "Dara Khosrowshahi has had a significant impact on the tech industry through his leadership roles in major companies. As the CEO of Expedia, he led the company through a period of growth and expansion. His tenure at Uber has been marked by a focus on financial stability and the development of autonomous vehicle technology.",
-        "Khosrowshahi's leadership has been pivotal in shaping the future of transportation and the tech industry, as he navigates the complexities of integrating autonomous vehicles into urban landscapes."
+        "Brett Adcock is an entrepreneur and investor with a focus on software and VTOL companies. His work in AI and robotics development has positioned him as a key figure in the industry, particularly in the areas of autonomous manufacturing and the potential for a $50 trillion market. Adcock's insights into the rapid advancements in neural nets and the accumulation of data as a barrier to entry and asset have been influential.",
+        "His vision for a future where robots build robots and the impact on the economy and society is a testament to his forward-thinking approach in the tech industry."
       ],
       "sections": [
         {
-          "heading": "Uber's Financial Turnaround",
-          "body": "Dara Khosrowshahi is credited with turning around Uber's financial performance, moving the company from significant losses to substantial earnings."
+          "heading": "AI and Robotics",
+          "body": "Brett Adcock is recognized for his contributions to AI and robotics, particularly in the development of autonomous manufacturing and the use of neural nets."
         },
         {
-          "heading": "Focus on Autonomous Technology",
-          "body": "Under Khosrowshahi's leadership, Uber has made significant strides in the development and deployment of autonomous vehicle technology, positioning the company as a key player in the future of transportation."
+          "heading": "Neural Nets",
+          "body": "Adcock is amazed by the advancements in neural nets and how they have transformed the business landscape, allowing for the rapid accumulation of data and the sharing of knowledge across a fleet of robots."
         },
         {
-          "heading": "Leadership in the Tech Industry",
-          "body": "Khosrowshahi's experience and leadership in the tech industry have made him a prominent figure, with his decisions and strategies closely watched by investors and tech enthusiasts alike."
+          "heading": "Autonomous Manufacturing",
+          "body": "Adcock"
+        },
+        {
+          "heading": "Market Potential",
+          "body": "He estimates the market potential in this space to be a staggering $50 trillion, indicating a significant impact on the global economy."
         }
       ]
     },
-    "net_worth": "$5.00B"
+    "net_worth": "$19.00B"
   },
   {
-    "id": 141,
-    "name": "Doug Burnower",
-    "slug": "doug-burnower",
-    "bio": "Doug Burnower is the Founder and CEO of Radiant, a company that specializes in developing portable nuclear reactors. His work focuses on innovative energy solutions, aiming to address the challenges of energy delivery and sustainability in the modern world.",
-    "known_for": "Pioneering portable nuclear reactors and contributing to the evolution of energy infrastructure.",
-    "net_worth_usd": 243000000000.0,
-    "net_worth_source": "https://www.zippia.com/space-exploration-technologies-careers-39035/executives/",
-    "net_worth_updated_at": "2026-04-01T05:04:39.743774",
-    "voice_tone": "Confident and visionary",
-    "voice_style": "Technical and solution-oriented",
-    "voice_delivery_notes": "Paced with emphasis on innovation",
-    "voice_profile_updated_at": "2026-04-01 10:03:31",
-    "last_seen": "2026-04-01 10:03:31",
-    "last_episode_title": "How Radiant and Heron Are Rethinking Power Generation and Delivery",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-03-31",
+    "id": 103,
+    "name": "Terrence Tau",
+    "slug": "terrence-tau",
+    "bio": "Terrence Tau is an amateur astronomer with a deep interest in the history of astronomy and the application of AI in mathematics. He is known for his insights on the parallels between historical astronomical discoveries and modern AI applications in mathematics.",
+    "known_for": "His expertise in drawing parallels between historical astronomical discoveries and modern AI applications in mathematics.",
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": "2026-03-21T04:32:04.978250",
+    "voice_tone": "Inquisitive and informative",
+    "voice_style": "Narrative and explanatory, with a focus on historical context",
+    "voice_delivery_notes": "Speaks with a measured pace, emphasizing key points in the historical narrative",
+    "voice_profile_updated_at": "2026-03-21 09:30:48",
+    "last_seen": "2026-03-21 09:30:48",
+    "last_episode_title": "The Impact of AI on Mathematics and Scientific Discovery",
+    "last_podcast_name": "Dwarkesh Podcast",
+    "last_episode_date": "2026-03-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.62,
-    "last_main_idea": "Investing in companies that innovate in energy delivery and grid infrastructure can lead to significant returns as the demand for electricity increases and the need for a more efficient and sustainable grid becomes critical.",
-    "last_proof_cite": "The a16z Show \u2022 2026-03-31 \u2022 How Radiant and Heron Are Rethinking Power Generation and Delivery",
-    "last_proof_snippet": "The grid is breaking. We're so bottleneck today on the lines that run Chris Cross across the country. I mean, it's this very complicated giant organic machine. New power is not the problem. Delivery is the problem. The energy services we're",
-    "supporting_takeaway": "Delivery, not new generation, is the bottleneck in the current energy infrastructure.",
+    "mention_score_decayed": 0.47,
+    "last_main_idea": "The integration of AI into mathematics can accelerate discovery and problem-solving, presenting opportunities for investment in AI technology and its applications in scientific research.",
+    "last_proof_cite": "Dwarkesh Podcast \u2022 2026-03-20 \u2022 The Impact of AI on Mathematics and Scientific Discovery",
+    "last_proof_snippet": "Okay, today, I'm chatting with Terrence Tau, who needs an interaction. Terrence, I want to begin by having you retell the story of how Kepler discovered the laws of planetary motion, because I think this will be a great jumping off point to",
+    "supporting_takeaway": "The application of AI in mathematics could lead to new discoveries and breakthroughs more quickly than traditional methods.",
     "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-01T05:04:38.716099",
+    "grokipedia_fetched_at": "2026-03-21T04:32:04.005767",
     "pundit_profile": {
       "source": "llm",
       "source_model": "moonshot:moonshot-v1-8k",
       "source_url": "",
-      "page_title": "Doug Burnower",
-      "fetched_at": "2026-04-01T10:04:38.715783+00:00",
-      "cliff_notes": "Doug Burnower is recognized for his innovative work in the energy sector, particularly with his company Radiant, which is focused on portable nuclear reactors. His career has been dedicated to finding solutions to the complex problem of energy delivery and the sustainability of energy sources. Burnower's vision is to transform the way power is generated and distributed, with an emphasis on leveraging free energy sources like sunlight and geothermal heat. His work at SpaceX provided him with valuable experience in advanced technology and engineering, which he now applies to his current role at Radiant. Burnower's contributions to the energy industry are significant, as they aim to address the growing demand for power in a sustainable and efficient manner.",
-      "derived": {
-        "current_role": "Founder and CEO of Radiant",
-        "former_positions": "Prior work at SpaceX"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Doug Burnower is recognized for his innovative work in the energy sector, particularly with his company Radiant, which is focused on portable nuclear reactors. His career has been dedicated to finding solutions to the complex problem of energy delivery and the sustainability of energy sources. Burnower's vision is to transform the way power is generated and distributed, with an emphasis on leveraging free energy sources like sunlight and geothermal heat.",
-        "His work at SpaceX provided him with valuable experience in advanced technology and engineering, which he now applies to his current role at Radiant. Burnower's contributions to the energy industry are significant, as they aim to address the growing demand for power in a sustainable and efficient manner."
-      ],
-      "sections": [
-        {
-          "heading": "Energy Delivery",
-          "body": "Doug Burnower emphasizes the importance of improving energy delivery systems, noting that the current grid infrastructure is outdated and unable to efficiently handle the growing demand for power."
-        },
-        {
-          "heading": "Sustainable Energy",
-          "body": "Burnower's work at Radiant is centered around creating sustainable energy solutions through the development of portable nuclear reactors, which can provide a stable and clean source of energy."
-        },
-        {
-          "heading": "Innovation in Energy",
-          "body": "Doug Burnower is a proponent of using innovative technologies to revolutionize the energy sector, advocating for the use of free energy sources and the transformation of the existing grid infrastructure."
-        }
-      ]
-    },
-    "net_worth": "$243.00B"
-  },
-  {
-    "id": 142,
-    "name": "Andrew Beglinow",
-    "slug": "andrew-beglinow",
-    "bio": "Andrew Beglinow is a prominent figure in the electric vehicle and renewable energy sectors. As the founder and CEO of Heron, he leads the company in developing solid-state power electronics. Previously, he served as VP of R&D at Tesla, where he contributed significantly to electric vehicle technology.",
-    "known_for": "His contributions to electric vehicle technology and the development of solid-state power electronics.",
-    "net_worth_usd": 11000000.0,
-    "net_worth_source": "https://www.gurufocus.com/insider/72754/andrew-d-baglino",
-    "net_worth_updated_at": "2026-04-01T05:04:52.643132",
-    "voice_tone": "Analytical and pragmatic",
-    "voice_style": "Focused on practical applications and technical details",
-    "voice_delivery_notes": "Clear and concise with a focus on impact",
-    "voice_profile_updated_at": "2026-04-01 10:03:31",
-    "last_seen": "2026-04-01 10:03:31",
-    "last_episode_title": "How Radiant and Heron Are Rethinking Power Generation and Delivery",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-03-31",
-    "mention_score": 1,
-    "mention_score_decayed": 0.62,
-    "last_main_idea": "Investing in companies that innovate in energy delivery and grid infrastructure can lead to significant returns as the demand for electricity increases and the need for a more efficient and sustainable grid becomes critical.",
-    "last_proof_cite": "The a16z Show \u2022 2026-03-31 \u2022 How Radiant and Heron Are Rethinking Power Generation and Delivery",
-    "last_proof_snippet": "The grid is breaking. We're so bottleneck today on the lines that run Chris Cross across the country. I mean, it's this very complicated giant organic machine. New power is not the problem. Delivery is the problem. The energy services we're",
-    "supporting_takeaway": "Delivery, not new generation, is the bottleneck in the current energy infrastructure.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-01T05:04:51.620692",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Andrew Beglinow",
-      "fetched_at": "2026-04-01T10:04:51.620453+00:00",
-      "cliff_notes": "Andrew Beglinow has had a significant impact on the electric vehicle and renewable energy industries. As the VP of R&D at Tesla, he played a crucial role in advancing electric vehicle technology. His current venture, Heron, focuses on solid-state power electronics, which is a key component in the evolution of energy storage and distribution. Beglinow's work is pivotal in addressing the challenges of energy delivery and the transformation of the power grid, which is essential for sustainable energy and economic growth.",
-      "derived": {
-        "current_role": "Founder and CEO of Heron",
-        "former_positions": "VP of R&D at Tesla"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Andrew Beglinow has had a significant impact on the electric vehicle and renewable energy industries. As the VP of R&D at Tesla, he played a crucial role in advancing electric vehicle technology. His current venture, Heron, focuses on solid-state power electronics, which is a key component in the evolution of energy storage and distribution.",
-        "Beglinow's work is pivotal in addressing the challenges of energy delivery and the transformation of the power grid, which is essential for sustainable energy and economic growth."
-      ],
-      "sections": [
-        {
-          "heading": "Electric Vehicle Technology",
-          "body": "Beglinow's tenure at Tesla saw significant advancements in electric vehicle technology, contributing to the broader adoption of EVs."
-        },
-        {
-          "heading": "Solid-State Power Electronics",
-          "body": "As CEO of Heron, Beglinow is leading the development of solid-state power electronics, which are critical for improving energy storage and distribution efficiency."
-        },
-        {
-          "heading": "Energy Delivery and the Grid",
-          "body": "Beglinow emphasizes the importance of transforming the power grid to handle the growing demand for energy services and to incorporate sustainable energy sources effectively."
-        },
-        {
-          "heading": "Sustainable Energy and Economic Growth",
-          "body": "His work aims to facilitate the use of free and sustainable energy sources, such as sunlight and geothermal energy, to support economic growth and prosperity."
-        }
-      ]
-    },
-    "net_worth": "$11.0M"
-  },
-  {
-    "id": 140,
-    "name": "Geo Voliante",
-    "slug": "geo-voliante",
-    "bio": "Dr. Geo Voliante is a performance coach who has worked with top hedge funds and elite athletes to optimize their performance. His expertise lies in enhancing the mental and physical capabilities of individuals in high-pressure environments.",
-    "known_for": "Enhancing performance for hedge fund managers and elite athletes through coaching.",
-    "net_worth_usd": 15200000000.0,
-    "net_worth_source": "https://www.theladders.com/career-advice/these-are-the-25-highest-paid-hedge-fund-managers",
-    "net_worth_updated_at": "2026-04-01T05:05:19.102305",
-    "voice_tone": "Confident and knowledgeable.",
-    "voice_style": "Analytical and comparative, drawing parallels between hedge fund managers and athletes.",
-    "voice_delivery_notes": "Paced with emphasis on key points about adaptability and performance.",
-    "voice_profile_updated_at": "2026-04-01 10:03:14",
-    "last_seen": "2026-04-01 10:03:14",
-    "last_episode_title": "The Psychology of Market Champions: Inside the Minds of Point 72 & Citadel Portfolio Managers | Dr. Gio Valiante",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-03-31",
-    "mention_score": 1,
-    "mention_score_decayed": 0.62,
-    "last_main_idea": "Investing in AI-enhanced ETFs like PQNT and PQUS can provide enhanced equity exposure in the current market environment.",
-    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-31 \u2022 The Psychology of Market Champions: Inside the Minds of Point 72 & Citadel Portfolio Managers | Dr. Gio Valiante",
-    "last_proof_snippet": "Today's episode is brought to you by Peak Day Asset Management and their AI enhanced ETF range, ticker's PQ&T and PQUS. You'll hear more about how they're using AI to enhance equity exposure later in the show. For now, let's get into it. We",
-    "supporting_takeaway": "The impact of regulation and policy on the cost of starting a hedge fund.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-01T05:05:18.251968",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Geo Voliante",
-      "fetched_at": "2026-04-01T10:05:18.251755+00:00",
-      "cliff_notes": "Dr. Geo Voliante is recognized for his work as a performance coach, assisting both hedge fund managers and elite athletes in optimizing their performance. His career has been dedicated to understanding and improving the mental and physical aspects of high-pressure roles. By working with hedge funds like 0.72 and PGA Tour golfers such as Justin Rose and Jordan Speath, Voliante has demonstrated his ability to adapt his coaching methods to diverse client needs. His insights into the temperaments and operational differences between various hedge fund environments have made him a valuable resource in the financial sector. His continued work with athletes and executives showcases his commitment to enhancing performance across different fields.",
-      "derived": {
-        "current_role": "Performance Coach"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Dr. Geo Voliante is recognized for his work as a performance coach, assisting both hedge fund managers and elite athletes in optimizing their performance. His career has been dedicated to understanding and improving the mental and physical aspects of high-pressure roles. By working with hedge funds like 0.72 and PGA Tour golfers such as Justin Rose and Jordan Speath, Voliante has demonstrated his ability to adapt his coaching methods to diverse client needs.",
-        "His insights into the temperaments and operational differences between various hedge fund environments have made him a valuable resource in the financial sector. His continued work with athletes and executives showcases his commitment to enhancing performance across different fields."
-      ],
-      "sections": [
-        {
-          "heading": "Performance Coaching",
-          "body": "Dr. Geo Voliante specializes in performance coaching, helping individuals in high-stress roles to maximize their potential."
-        },
-        {
-          "heading": "Hedge Fund Collaboration",
-          "body": "Voliante has collaborated with hedge funds, such as 0.72, to improve the performance of their managers through tailored coaching programs."
-        },
-        {
-          "heading": "Athletic Performance",
-          "body": "He has worked with PGA Tour golfers, including Justin Rose and Jordan Speath, to enhance their mental and physical game performance."
-        },
-        {
-          "heading": "Pod Environments",
-          "body": "Voliante has insights into the growth of pod environments within the hedge fund industry and the differences in temperament and operations between various setups."
-        }
-      ]
-    },
-    "net_worth": "$15.20B"
-  },
-  {
-    "id": 138,
-    "name": "Mark Andreessen",
-    "slug": "mark-andreessen",
-    "bio": "Mark Andreessen is a prominent venture capitalist and entrepreneur, best known as the co-founder of Andreessen Horowitz, a venture capital firm that manages over $90 billion in assets and has invested in some of the most influential companies of our time.",
-    "known_for": "His insights on technology and venture capital, and his role in building one of the greatest venture capital firms.",
-    "net_worth_usd": 1900000000.0,
-    "net_worth_source": "https://en.wikipedia.org/wiki/Marc_Andreessen",
-    "net_worth_updated_at": "2026-03-31T05:03:11.716632",
-    "voice_tone": "Reflective and insightful",
-    "voice_style": "Candid and straightforward, with a focus on sharing deep industry knowledge",
-    "voice_delivery_notes": "Pacing is thoughtful, with emphasis on key points regarding venture capital and technology trends",
-    "voice_profile_updated_at": "2026-03-31 10:02:41",
-    "last_seen": "2026-03-31 10:02:41",
-    "last_episode_title": "Marc Andreessen on Evaluating Founders and AI's Consumer Surplus",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-03-30",
-    "mention_score": 1,
-    "mention_score_decayed": 0.59,
-    "last_main_idea": "Invest in companies and technologies that are reshaping industries and have the potential to create significant economic value for a broad user base, rather than just the companies themselves.",
-    "last_proof_cite": "The a16z Show \u2022 2026-03-30 \u2022 Marc Andreessen on Evaluating Founders and AI's Consumer Surplus",
-    "last_proof_snippet": "I'm competing with myself. Life just gets a lot simpler if you just assume everything is your own fault. Everybody's kind of feeling tense and nervous and anxious and, you know, fearful and so forth. But everybody's pretending they're not f",
-    "supporting_takeaway": "Centralization in the tech industry is at an all-time high, with Silicon Valley being more dominant than ever.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-31T05:03:10.373140",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Mark Andreessen",
-      "fetched_at": "2026-03-31T10:03:10.372791+00:00",
-      "cliff_notes": "Mark Andreessen is a renowned venture capitalist and entrepreneur. He co-founded Netscape Communications, which popularized the web browser and played a pivotal role in the early internet era. Andreessen later transitioned into venture capital, co-founding Andreessen Horowitz, which has become one of the most influential venture capital firms globally. The firm has made significant investments in companies like Facebook, Airbnb, and Slack, shaping the tech landscape. Andreessen's perspectives on technology, venture capital, and entrepreneurship are highly sought after, and he is known for his contrarian views and bold predictions about the future of tech.",
-      "derived": {
-        "current_role": "Co-founder of Andreessen Horowitz",
-        "former_positions": "Co-founder of Netscape Communications; General Partner at Opsware",
-        "boards": "Facebook; eBay; Hewlett Packard Enterprise; Zazzle",
-        "education": "Bachelor of Science in Computer Science from the University of Illinois at Urbana-Champaign; Master of Science in Computer Science from Stanford University"
-      },
-      "infobox": {
-        "Born": "July 9, 1971",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Mark Andreessen is a renowned venture capitalist and entrepreneur. He co-founded Netscape Communications, which popularized the web browser and played a pivotal role in the early internet era. Andreessen later transitioned into venture capital, co-founding Andreessen Horowitz, which has become one of the most influential venture capital firms globally.",
-        "The firm has made significant investments in companies like Facebook, Airbnb, and Slack, shaping the tech landscape. Andreessen's perspectives on technology, venture capital, and entrepreneurship are highly sought after, and he is known for his contrarian views and bold predictions about the future of tech."
-      ],
-      "sections": [
-        {
-          "heading": "Venture Capital Insights",
-          "body": "Mark Andreessen is well-regarded for his insights into venture capital, often challenging conventional wisdom and advocating for taking risks on promising startups."
-        },
-        {
-          "heading": "Tech Industry Centralization",
-          "body": "Andreessen has commented on the increasing centralization of the tech industry, noting that Silicon Valley's influence has never been greater, which has implications for innovation and competition."
-        },
-        {
-          "heading": "Labor Displacement Misconceptions",
-          "body": "He has argued against the notion of labor displacement due to technology, suggesting that many large companies are overstaffed rather than being threatened by automation."
-        },
-        {
-          "heading": "The 'Skalded Stove' Phenomenon",
-          "body": "Andreessen has coined the term 'Skalded Stove' to describe how past investment failures can negatively impact an investor's future decision-making, leading to missed opportunities."
-        }
-      ]
-    },
-    "net_worth": "$1.90B"
-  },
-  {
-    "id": 137,
-    "name": "Layla Kunimoto",
-    "slug": "layla-kunimoto",
-    "bio": "Layla Kunimoto is the founder and editor of an investor insights platform with a focus on democratizing access to alternative investments. She has a background in finance and has been investing in public markets since college. Kunimoto's journey into private markets began with real estate and expanded to private credit and private equity.",
-    "known_for": "Democratizing access to alternative investments and providing insights into private markets.",
-    "net_worth_usd": 2000000000.0,
-    "net_worth_source": "https://substack.com/profile/30791185-leyla-kunimoto/note/c-158466514",
-    "net_worth_updated_at": "2026-03-30T05:03:22.928712",
-    "voice_tone": "Inquisitive and analytical",
-    "voice_style": "Detailed and explanatory, providing context and personal experience",
-    "voice_delivery_notes": "Paced with emphasis on key points regarding market structures and investment vehicles",
-    "voice_profile_updated_at": "2026-03-30 10:03:10",
-    "last_seen": "2026-03-30 10:03:10",
-    "last_episode_title": "The 2026 Private Credit Liquidity Crunch | Leyla Kunimoto on Redemptions in Semi-liquid Vehicles, Private/Public BDCs, and the Future of Alternatives",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-03-29",
-    "mention_score": 1,
-    "mention_score_decayed": 0.59,
-    "last_main_idea": "The democratization of alternative investments provides retail investors with new opportunities, but also comes with structural differences and risks that must be understood.",
-    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-29 \u2022 The 2026 Private Credit Liquidity Crunch | Leyla Kunimoto on Redemptions in Semi-liquid Vehicles, Private/Public BDCs, and the Future of Alternatives",
-    "last_proof_snippet": "Today's episode is brought you by Pictay asset management and their AI enhanced ETF range, ticker PQNT and PQUS. You'll hear more about how they're using AI to enhance equity exposure later in the show. For now, let's get into it. I'm joine",
-    "supporting_takeaway": "Alternative managers are increasingly seeking capital from retail investors and wealth channels.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-30T05:03:22.005290",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Layla Kunimoto",
-      "fetched_at": "2026-03-30T10:03:22.005018+00:00",
-      "cliff_notes": "Layla Kunimoto began her career in finance, investing in public markets during her college years. Her entry into private markets was accidental, starting with private placement real estate in 2020. From there, she quickly moved into private credit and private equity, joining investor groups and attending conferences. Kunimoto observed the democratization of access to alternative investments firsthand, as large asset managers pushed into the space. As a retail investor, she is at the end of the funnel for these funds and asset managers. Her platform aims to provide insights into these alternative investments, making them more accessible to a wider audience.",
-      "derived": {
-        "current_role": "Founder and Editor, Investor Insights Platform",
-        "political_affiliation": "Democratization of access to alternative investments"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Layla Kunimoto began her career in finance, investing in public markets during her college years. Her entry into private markets was accidental, starting with private placement real estate in 2020. From there, she quickly moved into private credit and private equity, joining investor groups and attending conferences. Kunimoto observed the democratization of access to alternative investments firsthand, as large asset managers pushed into the space.",
-        "As a retail investor, she is at the end of the funnel for these funds and asset managers. Her platform aims to provide insights into these alternative investments, making them more accessible to a wider audience."
-      ],
-      "sections": [
-        {
-          "heading": "Private Markets",
-          "body": "Layla Kunimoto's initial foray into private markets was through real estate, which led her to explore private credit and private equity."
-        },
-        {
-          "heading": "Democratization of Access",
-          "body": "Kunimoto has witnessed the democratization of access to alternative investments, driven by large asset managers entering the space and targeting retail investors like herself."
-        },
-        {
-          "heading": "Investor Insights",
-          "body": "As the founder and editor of an investor insights platform, Kunimoto aims to provide valuable information and analysis on alternative investments to a broader audience."
-        }
-      ]
-    },
-    "net_worth": "$2.00B"
-  },
-  {
-    "id": 133,
-    "name": "Chris Dixon",
-    "slug": "chris-dixon",
-    "bio": "Chris Dixon is a general partner at Andreessen Horowitz (A16Z), known for his leading investments in Oculus and Coinbase, and for building A16Z's dedicated crypto practice. He is also the co-founder of internet security company SiteAdvisor and AI company Hunch.",
-    "known_for": "His pivotal investments in Oculus and Coinbase, and his role in establishing A16Z's crypto practice.",
-    "net_worth_usd": 500000000.0,
-    "net_worth_source": "https://blockchainreporter.net/net-worth/chris-dixon/",
-    "net_worth_updated_at": "2026-03-28T22:05:07.528099",
-    "voice_tone": "Reflective and informative",
-    "voice_style": "Shares personal anecdotes and industry insights with a storytelling approach",
-    "voice_delivery_notes": "Paced with emphasis on key points, such as personal experiences and investment philosophies",
-    "voice_profile_updated_at": "2026-03-29 03:04:14",
-    "last_seen": "2026-03-29 03:04:14",
-    "last_episode_title": "the a16z show chris dixon from quant trading to building a16z crypto be2e5b4b",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-03-28",
-    "mention_score": 1,
-    "mention_score_decayed": 0.56,
-    "last_main_idea": "Betting on talented individuals in businesses rather than predicting tech trends is a more consistent approach to investing.",
-    "last_proof_cite": "The a16z Show \u2022 2026-03-28 \u2022 the a16z show chris dixon from quant trading to building a16z crypto be2e5b4b",
-    "last_proof_snippet": "And at the time I joined, there were only a couple of investing partners, and there were only one fun. Now we have sort of this complex of funds, and I was a, you know, reasonably prominent sort of angel investor, blogger. They were probabl",
-    "supporting_takeaway": "Dixon's investment philosophy emphasizes betting on people rather than trying to predict tech trends.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-28T22:05:06.552638",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Chris Dixon",
-      "fetched_at": "2026-03-29T03:05:06.552464+00:00",
-      "cliff_notes": "Chris Dixon's career began with a passion for technology, teaching himself programming languages as a child. After college, he worked in quant finance, writing Monte Carlo simulations for an options market-making firm in New York. This experience led him to co-found SiteAdvisor, an internet security company, which was later sold to McAfee in 2006. Two years later, he founded Hunch, an AI company based on neural networks, which was acquired by eBay in 2011. In 2013, Dixon joined Andreessen Horowitz, where he played a significant role in the firm's investments, notably leading a $75 million round for Oculus and making an early investment in Coinbase. His work at A16Z has been instrumental in the establishment of the firm's dedicated crypto practice, which is now in its fourth fund. Dixon's journey from quant finance to tech investing and his influence in the crypto space have made him a notable figure in the tech and finance industries.",
-      "derived": {
-        "current_role": "General Partner at Andreessen Horowitz",
-        "former_positions": "Co-founder of SiteAdvisor; Co-founder of Hunch"
-      },
-      "infobox": {
-        "Born": "Ohio",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Chris Dixon's career began with a passion for technology, teaching himself programming languages as a child. After college, he worked in quant finance, writing Monte Carlo simulations for an options market-making firm in New York. This experience led him to co-found SiteAdvisor, an internet security company, which was later sold to McAfee in 2006.",
-        "Two years later, he founded Hunch, an AI company based on neural networks, which was acquired by eBay in 2011. In 2013, Dixon joined Andreessen Horowitz, where he played a significant role in the firm's investments, notably leading a $75 million round for Oculus and making an early investment in Coinbase. His work at A16Z has been instrumental in the establishment of the firm's dedicated crypto practice, which is now in its fourth fund.",
-        "Dixon's journey from quant finance to tech investing and his influence in the crypto space have made him a notable figure in the tech and finance industries."
-      ],
-      "sections": [
-        {
-          "heading": "Early Career",
-          "body": "Chris Dixon began his career in quant finance, writing Monte Carlo simulations for an options market-making firm in New York, before co-founding SiteAdvisor, an internet security company."
-        },
-        {
-          "heading": "SiteAdvisor and Hunch",
-          "body": "Dixon co-founded SiteAdvisor, which was later sold to McAfee, and Hunch, an AI company, which was acquired by eBay. These ventures established him as a successful entrepreneur."
-        },
-        {
-          "heading": "Investment in Oculus and Coinbase",
-          "body": "At Andreessen Horowitz, Dixon led a $75 million investment in Oculus and made an early investment in Coinbase, both of which have become significant players in their respective industries."
-        },
-        {
-          "heading": "Cryptocurrency and A16Z",
-          "body": "Dixon has been instrumental in building A16Z's dedicated crypto practice, which is now in its fourth fund, showcasing his foresight and influence in the cryptocurrency space."
-        }
-      ]
-    },
-    "net_worth": "$500.0M"
-  },
-  {
-    "id": 132,
-    "name": "David Freiberg",
-    "slug": "david-freiberg",
-    "bio": "David Freiberg is a guest with a background in science, known for his insights on the impact of technological advancements on various industries. He has been a contributor to discussions on technological disruption and its implications for society and the economy.",
-    "known_for": "His expertise in understanding how technology shapes industry trends and his contributions to public discourse on technological disruption.",
-    "net_worth_usd": 1200000000.0,
-    "net_worth_source": "https://coinpaper.com/6251/david-friedberg-net-worth-insights-into-his-financial-success",
-    "net_worth_updated_at": "2026-03-28T22:05:34.408854",
-    "voice_tone": "Casual and engaging",
-    "voice_style": "Anecdotal with a focus on real-world examples",
-    "voice_delivery_notes": "Speaks with a relaxed pace, emphasizing key points with a slight increase in volume",
-    "voice_profile_updated_at": "2026-03-29 03:04:03",
-    "last_seen": "2026-03-29 03:04:03",
-    "last_episode_title": "Anthropic's Generational Run, OpenAI Panics, AI Moats, Meta Loses Lawsuits",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-03-27",
-    "mention_score": 1,
-    "mention_score_decayed": 0.56,
-    "last_main_idea": "Invest in companies that are driving innovation and can disrupt traditional industries by offering superior products at better prices, while keeping an eye on the competitive dynamics between the US and China in scientific research and technology.",
-    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-27 \u2022 Anthropic's Generational Run, OpenAI Panics, AI Moats, Meta Loses Lawsuits",
-    "last_proof_snippet": "All right, everybody, welcome back to the number one podcast in the world, the fantastic four, the original. Oh, the cast is back. The cast is black in arms, brothers in arms. Here we go, good boys. We got a big newsweek, David Sachs. It's",
-    "supporting_takeaway": "Innovation is seen as a key driver in the current competitive landscape, particularly in the context of the US-China race in scientific research and technology.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-28T22:05:33.382582",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "David Freiberg",
-      "fetched_at": "2026-03-29T03:05:33.382494+00:00",
-      "cliff_notes": "David Freiberg is recognized for his contributions to the dialogue on technology's influence on various sectors. His background in science provides a solid foundation for his analysis of technological disruption. Freiberg's insights are particularly valuable as they help investors and industry leaders understand the potential shifts and opportunities created by rapid technological advancements. His work is significant in the context of policy-making and strategic planning, as it offers a perspective on how to navigate and leverage the changes brought about by new technologies.",
+      "page_title": "Terrence Tau",
+      "fetched_at": "2026-03-21T09:32:04.005404+00:00",
+      "cliff_notes": "Terrence Tau is an amateur astronomer with a profound interest in the history of astronomy and its intersection with modern AI applications in mathematics. He has dedicated his time to understanding the evolution of astronomical theories and their relevance to contemporary mathematical AI. Tau's work focuses on the historical context of astronomical discoveries, such as Kepler's laws of planetary motion, and how these can inform and inspire current AI-driven mathematical research. His contributions to the field are significant, as they bridge the gap between historical knowledge and cutting-edge technology, offering a unique perspective on the development of AI in mathematics.",
       "derived": {},
       "infobox": {
+        "Born": "",
         "Nationality": ""
       },
       "lead_paragraphs": [
-        "David Freiberg is recognized for his contributions to the dialogue on technology's influence on various sectors. His background in science provides a solid foundation for his analysis of technological disruption. Freiberg's insights are particularly valuable as they help investors and industry leaders understand the potential shifts and opportunities created by rapid technological advancements.",
-        "His work is significant in the context of policy-making and strategic planning, as it offers a perspective on how to navigate and leverage the changes brought about by new technologies."
+        "Terrence Tau is an amateur astronomer with a profound interest in the history of astronomy and its intersection with modern AI applications in mathematics. He has dedicated his time to understanding the evolution of astronomical theories and their relevance to contemporary mathematical AI. Tau's work focuses on the historical context of astronomical discoveries, such as Kepler's laws of planetary motion, and how these can inform and inspire current AI-driven mathematical research.",
+        "His contributions to the field are significant, as they bridge the gap between historical knowledge and cutting-edge technology, offering a unique perspective on the development of AI in mathematics."
       ],
       "sections": [
         {
-          "heading": "Technological Impact",
-          "body": "Freiberg discusses the profound effects of technology on different industries, emphasizing how it can disrupt traditional business models and create new opportunities."
+          "heading": "Historical Astronomy",
+          "body": "Terrence Tau is deeply interested in the history of astronomy, particularly the contributions of early astronomers like Copernicus and Kepler."
         },
         {
-          "heading": "Industry Trends",
-          "body": "He provides analysis on emerging industry trends influenced by technological advancements, helping businesses anticipate and adapt to changes."
+          "heading": "AI in Mathematics",
+          "body": "Tau explores the application of AI in mathematics, drawing parallels with historical astronomical discoveries to understand modern AI's potential."
         },
         {
-          "heading": "Public Discourse",
-          "body": "Freiberg's participation in public discourse on technology's role in society ensures that a variety of perspectives are considered in shaping policy and business strategies."
+          "heading": "Kepler's Laws",
+          "body": "He is particularly fascinated by Kepler's laws of planetary motion and how they can be used as a metaphor for understanding AI's role in mathematics."
+        }
+      ]
+    }
+  },
+  {
+    "id": 104,
+    "name": "Matt Mayhand",
+    "slug": "matt-mayhand",
+    "bio": "Matt Mayhand is a candidate for Governor of California with a background in civic tech and city council experience. He grew up in Watsonville, California, and has a history of working in education and technology sectors.",
+    "known_for": "Focusing on fiscal responsibility and pragmatic policy solutions in his gubernatorial campaign.",
+    "net_worth_usd": 1000000000.0,
+    "net_worth_source": "https://spearswms.com/wealth/matt-mahan/",
+    "net_worth_updated_at": "2026-03-23T04:22:22.883231",
+    "voice_tone": "Frustration with the state's financial mismanagement.",
+    "voice_style": "Calls for accountability and transparency in government spending.",
+    "voice_delivery_notes": "Pacing is steady with emphasis on key points of fiscal responsibility and policy pragmatism.",
+    "voice_profile_updated_at": "2026-03-23 09:18:22",
+    "last_seen": "2026-03-23 09:18:22",
+    "last_episode_title": "California's Spending Woes and the Governor's Race",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-03-23",
+    "mention_score": 1,
+    "mention_score_decayed": 0.49,
+    "last_main_idea": "Invest in innovation and infrastructure to create a smarter grid and incentivize clean energy adoption, while avoiding over-regulation that leads to unintended economic and environmental consequences.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-23 \u2022 California's Spending Woes and the Governor's Race",
+    "last_proof_snippet": "Matt Mayhand, welcome to all in. Thanks, David. I have no idea who you are. Who are you? I mean, you're a guy who kind of popped up running for Governor of California last minute. Have that come about and who is Matt Mayhand? Well, David, l",
+    "supporting_takeaway": "High-speed rail project has spent $14 billion without delivering a product, highlighting a lack of accountability in state government.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-23T04:22:21.245588",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Matt Mayhand",
+      "fetched_at": "2026-03-23T09:22:21.245480+00:00",
+      "cliff_notes": "Matt Mayhand hails from Watsonville, California, a small farming town known for its strawberries. Coming from a working-class family, his mother was a teacher and his father a letter carrier. Mayhand's educational journey began with a college prep high school and a work study scholarship, which involved a two-hour bus commute each way. After working his way through high school and college, he returned to education as a public school teacher through the Teach for America program. His interest in politics and making a difference led him to the tech sector, where he spent a decade developing civic tech tools aimed at helping people navigate democracy. His pragmatic approach to governance and commitment to fiscal responsibility are central to his campaign for Governor of California.",
+      "derived": {
+        "current_role": "Candidate for Governor of California",
+        "former_positions": "Public School Teacher; Civic Tech Developer",
+        "education": "College Prep High School; Work Study Scholarship",
+        "political_summary": "Matt Mayhand is running for Governor of California, emphasizing fiscal responsibility and pragmatic policy solutions. His campaign is a response to his frustration with the state's spending and diminishing returns.",
+        "teaching_summary": "Public School Teacher"
+      },
+      "infobox": {
+        "Born": "Watsonville, California",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Matt Mayhand hails from Watsonville, California, a small farming town known for its strawberries. Coming from a working-class family, his mother was a teacher and his father a letter carrier. Mayhand's educational journey began with a college prep high school and a work study scholarship, which involved a two-hour bus commute each way.",
+        "After working his way through high school and college, he returned to education as a public school teacher through the Teach for America program. His interest in politics and making a difference led him to the tech sector, where he spent a decade developing civic tech tools aimed at helping people navigate democracy. His pragmatic approach to governance and commitment to fiscal responsibility are central to his campaign for Governor of California."
+      ],
+      "sections": [
+        {
+          "heading": "Education",
+          "body": "Matt Mayhand's educational journey began with a college prep high school and a work study scholarship, which involved a two-hour bus commute each way. He later worked his way through college and became a public school teacher through the Teach for America program."
+        },
+        {
+          "heading": "Civic Tech",
+          "body": "Mayhand spent a decade in the tech sector, building civic tech tools designed to help people navigate their democracy more effectively, reflecting his commitment to making the city and world a better place."
+        },
+        {
+          "heading": "Governor Campaign",
+          "body": "Running for Governor of California, Mayhand emphasizes fiscal responsibility and pragmatic policy solutions, aiming to address the state's spending issues and the diminishing returns on investment."
+        }
+      ]
+    },
+    "net_worth": "$1.00B"
+  },
+  {
+    "id": 105,
+    "name": "Josh Lindville",
+    "slug": "josh-lindville",
+    "bio": "Josh Lindville is the Vice President of Fertilizer at Stone X, where he specializes in trading fertilizer futures and OTC products. He provides market insights and information to the agricultural industry, with a focus on the impact of global events on fertilizer prices.",
+    "known_for": "His expertise in analyzing the effects of geopolitical events on fertilizer prices and their implications for agriculture and food prices.",
+    "net_worth_usd": 15000000000.0,
+    "net_worth_source": "https://www.linkedin.com/in/joshua-linville-9555a711/",
+    "net_worth_updated_at": "2026-03-25T22:09:09.372188",
+    "voice_tone": "Knowledgeable and concerned about the impact of geopolitical events on fertilizer prices.",
+    "voice_style": "Factual and data-driven, with a focus on the implications for the agriculture industry.",
+    "voice_delivery_notes": "Speaks with a sense of urgency, emphasizing the severity of the situation.",
+    "voice_profile_updated_at": "2026-03-23 09:21:03",
+    "last_seen": "2026-03-23 09:21:03",
+    "last_episode_title": "Monetary Matters with Jack Farley: Impact of Iran War on Fertilizer Prices and Agriculture",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-03-22",
+    "mention_score": 1,
+    "mention_score_decayed": 0.49,
+    "last_main_idea": "The disruption in fertilizer supply due to geopolitical tensions presents an opportunity in agricultural commodities, particularly corn, which is heavily impacted by rising input costs and could see price support from tightened supply.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-22 \u2022 Monetary Matters with Jack Farley: Impact of Iran War on Fertilizer Prices and Agriculture",
+    "last_proof_snippet": "Today's episode is brought to you by the two Korean corn fund, take our CORN. Let's get into it. I am joined by Josh Lindville, Vice President of Fertilizer at Stone X. Josh, welcome to monetary matters. Nice. They just have me on, excited",
+    "supporting_takeaway": "Despite the price surge, U.S. nitrogen fertilizers are still some of the cheapest in the world, creating an arbitrage opportunity.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-23T04:22:03.060297",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Josh Lindville",
+      "fetched_at": "2026-03-23T09:22:03.060082+00:00",
+      "cliff_notes": "Josh Lindville serves as the Vice President of Fertilizer at Stone X, where he is responsible for trading in fertilizer futures and over-the-counter products. His role is pivotal in understanding and communicating the market dynamics of fertilizers, particularly in the context of global events such as the Iran war. Lindville's work is significant as it influences the agricultural sector by providing insights into how geopolitical tensions can affect the availability and pricing of essential fertilizers, which in turn impact crop yields and food prices worldwide.",
+      "derived": {
+        "current_role": "Vice President of Fertilizer at Stone X"
+      },
+      "infobox": {
+        "Industry": "Agriculture"
+      },
+      "lead_paragraphs": [
+        "Josh Lindville serves as the Vice President of Fertilizer at Stone X, where he is responsible for trading in fertilizer futures and over-the-counter products. His role is pivotal in understanding and communicating the market dynamics of fertilizers, particularly in the context of global events such as the Iran war. Lindville's work is significant as it influences the agricultural sector by providing insights into how geopolitical tensions can affect the availability and pricing of essential fertilizers, which in turn impact crop yields and food prices worldwide."
+      ],
+      "sections": [
+        {
+          "heading": "Fertilizer Market Dynamics",
+          "body": "Josh Lindville is known for his analysis of how geopolitical events, such as the Iran war, impact the global supply of nitrogen and phosphate fertilizers, which are critical for crop yields and food production."
+        },
+        {
+          "heading": "Agricultural Impact",
+          "body": "Lindville's insights are valuable for the agricultural industry as they help predict and understand the ripple effects of global events on fertilizer prices, which directly influence farming costs and food supply."
+        },
+        {
+          "heading": "Food Prices",
+          "body": "His expertise extends to the implications of fertilizer market fluctuations on food prices, a critical area of concern for global food security and economic stability."
+        }
+      ]
+    },
+    "net_worth": "$15.00B"
+  },
+  {
+    "id": 106,
+    "name": "Nadia Martin Wiggen",
+    "slug": "nadia-martin-wiggen",
+    "bio": "Nadia Martin Wiggen is a director at Svellen Capital, a hedge fund with a specialization in commodities and shipping markets. Her expertise is particularly relevant in times of global market fluctuations, such as during the Middle East crisis, where her insights are sought after for understanding market impacts.",
+    "known_for": "Expertise in commodities and shipping markets, especially during times of geopolitical tension.",
+    "net_worth_usd": 750000000.0,
+    "net_worth_source": "https://hedgenordic.com/2023/06/svelland-capital-hires-pareto-analyst/",
+    "net_worth_updated_at": "2026-03-24T04:44:37.173364",
+    "voice_tone": "Analytical and measured.",
+    "voice_style": "Factual and data-driven, with a focus on market reactions and practical implications.",
+    "voice_delivery_notes": "Paced, with emphasis on key market observations and potential outcomes.",
+    "voice_profile_updated_at": "2026-03-24 09:26:22",
+    "last_seen": "2026-03-24 09:26:22",
+    "last_episode_title": "Monetary Matters: Middle East Crisis and Global Market Impact",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-03-23",
+    "mention_score": 1,
+    "mention_score_decayed": 0.5,
+    "last_main_idea": "Svellen Capital sees opportunities in commodities and shipping markets amidst the Middle East crisis, with a focus on the practical implications of geopolitical events on global trade and logistics.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-23 \u2022 Monetary Matters: Middle East Crisis and Global Market Impact",
+    "last_proof_snippet": "Today's episode is brought to you by the two-cream Cornfond Ticker C.O.R.N. Let's get into it. Welcome to this special edition of Other People's Money. I am joined today by Nadia Martin Wiggen, director at Svellen Capital. I've had Svellen",
+    "supporting_takeaway": "The Strait of Hormuz remains under Iranian control, and no significant change in shipping has been observed.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-24T04:44:35.945959",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Nadia Martin Wiggen",
+      "fetched_at": "2026-03-24T09:44:35.945751+00:00",
+      "cliff_notes": "Nadia Martin Wiggen is recognized for her role as a director at Svellen Capital, a hedge fund that focuses on commodities and shipping markets. Her career has been marked by her ability to navigate and analyze the complexities of these markets, especially during times of geopolitical tension. Her insights are highly valued in the investment community, as they provide a lens through which to understand the broader impacts of global events on financial markets. As a specialist in her field, Wiggen's contributions are pivotal in shaping investment strategies and risk assessments in a rapidly changing economic landscape.",
+      "derived": {
+        "current_role": "Director at Svellen Capital"
+      },
+      "infobox": {
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Nadia Martin Wiggen is recognized for her role as a director at Svellen Capital, a hedge fund that focuses on commodities and shipping markets. Her career has been marked by her ability to navigate and analyze the complexities of these markets, especially during times of geopolitical tension. Her insights are highly valued in the investment community, as they provide a lens through which to understand the broader impacts of global events on financial markets.",
+        "As a specialist in her field, Wiggen's contributions are pivotal in shaping investment strategies and risk assessments in a rapidly changing economic landscape."
+      ],
+      "sections": [
+        {
+          "heading": "Commodities Expertise",
+          "body": "Nadia Martin Wiggen is known for her deep understanding of commodities markets, which is crucial for investors looking to understand and capitalize on global market trends."
+        },
+        {
+          "heading": "Shipping Markets",
+          "body": "Her expertise extends to shipping markets, a sector heavily influenced by geopolitical events, where her insights help navigate the complexities of supply chain disruptions."
+        },
+        {
+          "heading": "Geopolitical Impact",
+          "body": "Wiggen's role at Svellen Capital often involves analyzing the impact of geopolitical events, such as the Middle East crisis, on commodities and shipping markets."
+        },
+        {
+          "heading": "Market Analysis",
+          "body": "She provides critical analysis on how major announcements, like those from political leaders, can influence market dynamics in her area of expertise."
+        }
+      ]
+    },
+    "net_worth": "$750.0M"
+  },
+  {
+    "id": 107,
+    "name": "Michael Intrader",
+    "slug": "michael-intrader",
+    "bio": "Michael Intrader is the CEO of Core Weave, a company building infrastructure for hyper-scalers and adapting to the evolving needs of GPU computing. With a background in hedge fund algorithm development and early involvement in the crypto mining space, Intrader has been at the forefront of technological advancements in cloud computing and AI.",
+    "known_for": "Building massive infrastructure for hyper-scalers and being an early entrant in the crypto mining space.",
+    "net_worth_usd": 10000000000.0,
+    "net_worth_source": "https://techcrunch.com/2025/06/26/in-just-3-months-coreweave-ceo-once-a-crypto-mining-bro-becomes-a-deca-billionaire/",
+    "net_worth_updated_at": "2026-03-31T20:09:44.458351",
+    "voice_tone": "Confident and informative, with a focus on the company's strategic evolution.",
+    "voice_style": "Direct and factual, providing insights into the company's operations and market positioning.",
+    "voice_delivery_notes": "Paced with emphasis on the company's adaptability and future outlook.",
+    "voice_profile_updated_at": "2026-03-24 09:37:15",
+    "last_seen": "2026-03-24 09:37:15",
+    "last_episode_title": "Interview with Michael Intrader at Nvidia's GTC Conference",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-03-23",
+    "mention_score": 1,
+    "mention_score_decayed": 0.5,
+    "last_main_idea": "Invest in companies that can leverage the evolving landscape of AI and GPU computing, particularly those with the agility to adapt and scale in a rapidly changing market.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-23 \u2022 Interview with Michael Intrader at Nvidia's GTC Conference",
+    "last_proof_snippet": "I'm here at Nvidia's annual GTC conference, and I'm going to interview for amazing AI CEO's stick with us. I'm doing all of you! Our episode is sponsored by the New York Stock Exchange. Are you looking to change the world in race capital? D",
+    "supporting_takeaway": "The company leverages its expertise in risk management from its hedge fund background to navigate volatility in crypto.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-24T04:43:59.032721",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Michael Intrader",
+      "fetched_at": "2026-03-24T09:43:59.032494+00:00",
+      "cliff_notes": "Michael Intrader began his career as an algorithm developer at a hedge fund focused on natural gas. With a significant amount of downtime after developing the algorithms, Intrader ventured into the crypto mining space, becoming an early entrant in the industry. Leveraging his experience in algorithm development and the growing need for GPU computing, Intrader founded Core Weave, a company that builds massive infrastructure for hyper-scalers. Core Weave has been instrumental in adapting to the evolving needs of GPU computing, particularly in the context of AI and cloud computing. Intrader's work at Core Weave has positioned him as a key player in the tech industry, shaping the future of cloud infrastructure and GPU computing.",
+      "derived": {
+        "current_role": "CEO of Core Weave",
+        "former_positions": "Algorithm Developer at Hedge Fund; Early Crypto Miner"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Michael Intrader began his career as an algorithm developer at a hedge fund focused on natural gas. With a significant amount of downtime after developing the algorithms, Intrader ventured into the crypto mining space, becoming an early entrant in the industry. Leveraging his experience in algorithm development and the growing need for GPU computing, Intrader founded Core Weave, a company that builds massive infrastructure for hyper-scalers.",
+        "Core Weave has been instrumental in adapting to the evolving needs of GPU computing, particularly in the context of AI and cloud computing. Intrader's work at Core Weave has positioned him as a key player in the tech industry, shaping the future of cloud infrastructure and GPU computing."
+      ],
+      "sections": [
+        {
+          "heading": "Early Crypto Mining",
+          "body": "Michael Intrader was an early entrant in the crypto mining space, leveraging his background in algorithm development to pioneer advancements in the industry."
+        },
+        {
+          "heading": "GPU Computing",
+          "body": "Intrader's work at Core Weave has been crucial in adapting to the evolving needs of GPU computing, particularly in the context of AI and cloud computing."
+        },
+        {
+          "heading": "Hyper-Scaler Infrastructure",
+          "body": "As CEO of Core Weave, Intrader has been instrumental in building massive infrastructure for hyper-scalers, shaping the future of cloud computing."
+        }
+      ]
+    },
+    "net_worth": "$10.00B"
+  },
+  {
+    "id": 108,
+    "name": "Bridget Memplar",
+    "slug": "bridget-memplar",
+    "bio": "Bridget Memplar is the co-founder and CEO of Northwood, a company focused on building systems that connect satellites back to Earth. Her unconventional path into the space industry has led her to become a key player in addressing the overlooked bottleneck of ground infrastructure in space missions.",
+    "known_for": "Her leadership at Northwood and the development of systems that enable satellite connectivity back to Earth.",
+    "net_worth_usd": 50000000.0,
+    "net_worth_source": "https://www.celebritynetworth.com/richest-celebrities/actors/bridgit-mendler-net-worth/",
+    "net_worth_updated_at": "2026-03-24T04:43:12.487260",
+    "voice_tone": "Confident and determined.",
+    "voice_style": "Bridget speaks with a focus on innovation and the potential of space technology.",
+    "voice_delivery_notes": "Clear and concise, with an emphasis on the importance of ground infrastructure in space missions.",
+    "voice_profile_updated_at": "2026-03-24 09:39:24",
+    "last_seen": "2026-03-24 09:39:24",
+    "last_episode_title": "Ground Infrastructure: The Overlooked Bottleneck in the Space Economy",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-03-23",
+    "mention_score": 1,
+    "mention_score_decayed": 0.5,
+    "last_main_idea": "Investing in ground infrastructure for space can unlock the next wave of innovation, making space missions more useful and efficient.",
+    "last_proof_cite": "The a16z Show \u2022 2026-03-23 \u2022 Ground Infrastructure: The Overlooked Bottleneck in the Space Economy",
+    "last_proof_snippet": "Every satellite requires a connection point back to birth. If you don't have it, you don't have a space mesh. It literally is just like a rock in space. You just won a $50 million contract with space forest out modernized. It Northwood, you",
+    "supporting_takeaway": "Northwood aims to modernize and vertically integrate ground systems to connect satellites back to Earth.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-24T04:43:11.153707",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Bridget Memplar",
+      "fetched_at": "2026-03-24T09:43:11.153311+00:00",
+      "cliff_notes": "Bridget Memplar embarked on an unconventional path into the space industry, eventually becoming the co-founder and CEO of Northwood. Her company is dedicated to building systems that connect satellites back to Earth, a critical yet often overlooked aspect of space missions. Memplar's leadership at Northwood is focused on addressing the ground infrastructure bottleneck, which is essential for making space missions useful and effective. Her work is pivotal in the space economy, as it aims to provide a modern, vertically integrated approach to satellite connectivity, potentially unlocking the next wave of innovation in space.",
+      "derived": {
+        "current_role": "Co-founder and CEO of Northwood"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Bridget Memplar embarked on an unconventional path into the space industry, eventually becoming the co-founder and CEO of Northwood. Her company is dedicated to building systems that connect satellites back to Earth, a critical yet often overlooked aspect of space missions. Memplar's leadership at Northwood is focused on addressing the ground infrastructure bottleneck, which is essential for making space missions useful and effective.",
+        "Her work is pivotal in the space economy, as it aims to provide a modern, vertically integrated approach to satellite connectivity, potentially unlocking the next wave of innovation in space."
+      ],
+      "sections": [
+        {
+          "heading": "Northwood's Mission",
+          "body": "Northwood, under Memplar's leadership, is committed to building the systems that connect satellites back to Earth, which is crucial for the success of space missions."
+        },
+        {
+          "heading": "Ground Infrastructure",
+          "body": "Bridget Memplar has identified ground infrastructure as a significant bottleneck in the space economy and is working to modernize it through Northwood's innovative solutions."
+        },
+        {
+          "heading": "Innovation in Space",
+          "body": "Memplar's work at Northwood is aimed at not just incremental improvements but at achieving a categorical outcome in space mission capabilities through enhanced ground connectivity."
+        }
+      ]
+    },
+    "net_worth": "$50.0M"
+  },
+  {
+    "id": 109,
+    "name": "Eric Schmidt",
+    "slug": "eric-schmidt",
+    "bio": "Eric Schmidt is a prominent figure in the technology industry, known for his leadership at Google and contributions to the tech sector. He served as CEO of Google and later as Chairman of Alphabet Inc., guiding the company through significant growth and innovation.",
+    "known_for": "His influential leadership at Google and shaping the direction of Alphabet Inc., impacting the global tech landscape.",
+    "net_worth_usd": 12900000000.0,
+    "net_worth_source": "https://www.wikidata.org/wiki/Q92747",
+    "net_worth_updated_at": "2026-03-25T04:11:28.701167",
+    "voice_tone": "Inquisitive and experienced.",
+    "voice_style": "Analytical with a focus on the big picture.",
+    "voice_delivery_notes": "Speaks with authority and a measured pace.",
+    "voice_profile_updated_at": "2026-03-25 09:07:25",
+    "last_seen": "2026-03-25 09:07:25",
+    "last_episode_title": "The Future of AI and its Impact on Society and Investment",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-03-24",
+    "mention_score": 1,
+    "mention_score_decayed": 0.51,
+    "last_main_idea": "Invest in AI and robotics sectors as they are poised for significant growth and disruption, with a focus on companies that align with human values and contribute to abundance.",
+    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-03-24 \u2022 The Future of AI and its Impact on Society and Investment",
+    "last_proof_snippet": "We're living through a historic moment right now. The next thing that's really interesting and terrifying also is recursive self-improvement, but we don't have it yet. What we do have, I keep asking my friends, when does the asymptote arriv",
+    "supporting_takeaway": "Recursive self-improvement in AI is not yet realized, but its potential is both exciting and terrifying.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-25T04:11:26.668471",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Eric Schmidt",
+      "fetched_at": "2026-03-25T09:11:26.668361+00:00",
+      "cliff_notes": "Eric Schmidt began his career in technology, moving through various roles before becoming the CEO of Novell. He later joined Google as its CEO, where he played a pivotal role in the company's rapid growth and expansion. Under his leadership, Google became a dominant force in the tech industry. After stepping down as CEO, Schmidt served as the Executive Chairman of Google, and later as Chairman of Alphabet Inc., the parent company of Google. He has also held a board seat at Apple Inc. and has been involved in various philanthropic endeavors. His insights into technology and its impact on society are highly regarded, and he continues to influence the tech world through his advisory roles and public commentary.",
+      "derived": {
+        "former_positions": "CEO of Google; Chairman of Alphabet Inc.; Board member of Apple Inc.; CEO of Novell",
+        "boards": "Alphabet Inc.; Apple Inc.",
+        "education": "Bachelor's degree in Electrical Engineering and Computer Science from Princeton University; Master's degree and Ph.D. in Computer Science from the University of California, Berkeley",
+        "books_or_works": "The New Digital Age: Reshaping the Future of People, Nations and Business (co-authored with Jared Cohen)",
+        "teaching_summary": "Guest lectures at Stanford University"
+      },
+      "infobox": {
+        "Born": "1955",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Eric Schmidt began his career in technology, moving through various roles before becoming the CEO of Novell. He later joined Google as its CEO, where he played a pivotal role in the company's rapid growth and expansion. Under his leadership, Google became a dominant force in the tech industry. After stepping down as CEO, Schmidt served as the Executive Chairman of Google, and later as Chairman of Alphabet Inc., the parent company of Google.",
+        "He has also held a board seat at Apple Inc. and has been involved in various philanthropic endeavors. His insights into technology and its impact on society are highly regarded, and he continues to influence the tech world through his advisory roles and public commentary."
+      ],
+      "sections": [
+        {
+          "heading": "Leadership at Google",
+          "body": "Eric Schmidt served as the CEO of Google from 2001 to 2011, overseeing the company's transformation into a global technology giant."
+        },
+        {
+          "heading": "Chairman of Alphabet Inc.",
+          "body": "Schmidt took on the role of Executive Chairman at Google following his tenure as CEO, and later became Chairman of Alphabet Inc., the parent company of Google."
+        },
+        {
+          "heading": "Contributions to Tech",
+          "body": "His leadership and strategic vision have been instrumental in shaping Google's technological advancements and its impact on the industry."
+        },
+        {
+          "heading": "Global Competition",
+          "body": "Schmidt has expressed concerns about global competition, particularly with China, and the importance of maintaining a competitive edge in key technological sectors."
+        }
+      ]
+    },
+    "net_worth": "$12.90B"
+  },
+  {
+    "id": 110,
+    "name": "Adam Warmouth",
+    "slug": "adam-warmouth",
+    "bio": "Adam Warmouth is the Founder and CEO of Chariot Defense, a company that specializes in developing next-generation power systems for military operations. His focus is on creating innovative power solutions that enhance the capabilities of soldiers on the battlefield, especially in the context of an increasingly electronic warfare environment.",
+    "known_for": "Developing tactical power solutions for the modern battlefield, enhancing soldier capabilities and stealth.",
+    "net_worth_usd": 1200000000.0,
+    "net_worth_source": "https://explore.st-aug.edu/exp/adam-22s-net-worth-shocked-the-business-world-the-untold-secrets-behind-his-billionairestyle-wealth",
+    "net_worth_updated_at": "2026-03-25T04:10:45.707150",
+    "voice_tone": "Informed and solution-focused",
+    "voice_style": "Practical and results-oriented",
+    "voice_delivery_notes": "Clear and concise with a focus on the impact of their solutions",
+    "voice_profile_updated_at": "2026-03-25 09:10:12",
+    "last_seen": "2026-03-25 09:10:12",
+    "last_episode_title": "The Tactical Power Layer for Modern Warfare",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-03-24",
+    "mention_score": 1,
+    "mention_score_decayed": 0.51,
+    "last_main_idea": "Investing in companies that can provide innovative power solutions for the modern, electronic battlefield can offer significant opportunities as military forces worldwide seek to upgrade their capabilities.",
+    "last_proof_cite": "The a16z Show \u2022 2026-03-24 \u2022 The Tactical Power Layer for Modern Warfare",
+    "last_proof_snippet": "All the things we want to do is really about the soldier. In the mud, cold, wet, tired, hungry, what makes their lives easier or better. Your average soldier today, they're drawing just by themselves. 30 to 60 watts of power continuously du",
+    "supporting_takeaway": "Current power solutions like diesel generators are inefficient and create a tactical signature, making them a liability.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-25T04:10:43.350646",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Adam Warmouth",
+      "fetched_at": "2026-03-25T09:10:43.350416+00:00",
+      "cliff_notes": "Adam Warmouth is recognized for his work in the field of military power solutions, particularly as the founder and CEO of Chariot Defense. His company is at the forefront of developing next-generation power systems designed to support soldiers in the field, focusing on the increasing electronic demands of modern warfare. Warmouth's innovations aim to provide soldiers with the necessary power to operate advanced equipment without compromising their position or safety. His work is crucial in addressing the power gap in military operations, ensuring that soldiers have the tools they need to succeed in a technologically advanced battlefield.",
+      "derived": {
+        "current_role": "Founder and CEO of Chariot Defense"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Adam Warmouth is recognized for his work in the field of military power solutions, particularly as the founder and CEO of Chariot Defense. His company is at the forefront of developing next-generation power systems designed to support soldiers in the field, focusing on the increasing electronic demands of modern warfare.",
+        "Warmouth's innovations aim to provide soldiers with the necessary power to operate advanced equipment without compromising their position or safety. His work is crucial in addressing the power gap in military operations, ensuring that soldiers have the tools they need to succeed in a technologically advanced battlefield."
+      ],
+      "sections": [
+        {
+          "heading": "Innovative Power Solutions",
+          "body": "Adam Warmouth is dedicated to creating power solutions that are both efficient and effective for military use, focusing on reducing the tactical signature and increasing the stealth capabilities of soldiers in the field."
+        },
+        {
+          "heading": "Electronic Battlefield",
+          "body": "Warmouth's work is crucial in the shift towards an electronic battlefield, where the demand for power is increasing and the need for stealth is paramount. His solutions aim to support soldiers with the power they need without compromising their safety."
+        },
+        {
+          "heading": "Tactical Power Layer",
+          "body": "Chariot Defense, under Warmouth's leadership, is building a tactical power layer that supports robotic workers in the field. This layer is designed to provide the necessary power for active operations while maintaining a low tactical signature."
         }
       ]
     },
     "net_worth": "$1.20B"
   },
   {
-    "id": 127,
-    "name": "Rupert Mitchell",
-    "slug": "rupert-mitchell",
-    "bio": "Rupert Mitchell is an accomplished banker, investor, and analyst with a background in the Ottawa Mobile industry. He is the founder of Blind Squirrel Macro, where he is known for his research and insights on macroeconomic trends.",
-    "known_for": "His research and insights on macroeconomic trends, particularly in the context of market valuations and the business cycle.",
-    "net_worth_usd": 19500000000.0,
-    "net_worth_source": "https://artistnetworth.org/richest-businessman/ceo/rupert-murdoch-net-worth/",
-    "net_worth_updated_at": "2026-03-31T22:01:54.804516",
-    "voice_tone": "",
-    "voice_style": "",
-    "voice_delivery_notes": "",
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-03-28 18:30:57",
-    "last_episode_title": "Stock Market on Shaky Foundations | Blind Squirrel Macro\u2019s Rupert Mitchell on IPO Supply, Oil, and Private Credit",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-03-18",
+    "id": 111,
+    "name": "Alex Miller",
+    "slug": "alex-miller",
+    "bio": "Alex Miller is the Chief Technology Officer (CTO) of the US Army, where he is instrumental in driving the adoption of new technologies in military operations. His focus is on enhancing soldier capabilities and efficiency through technological innovation, with a particular emphasis on power management and electronic battlefield strategies.",
+    "known_for": "Pioneering the integration of advanced technology to modernize military operations and improve soldier effectiveness.",
+    "net_worth_usd": 12000000.0,
+    "net_worth_source": "https://www.urbansplatter.com/2025/04/alex-miller-net-worth/",
+    "net_worth_updated_at": "2026-03-31T20:09:43.596580",
+    "voice_tone": "Authoritative and strategic",
+    "voice_style": "Direct and focused on outcomes",
+    "voice_delivery_notes": "Confident and assertive, emphasizing the need for change",
+    "voice_profile_updated_at": "2026-03-25 09:10:12",
+    "last_seen": "2026-03-25 09:10:12",
+    "last_episode_title": "The Tactical Power Layer for Modern Warfare",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-03-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.56,
-    "last_main_idea": "The current bull market is built on shaky foundations, and a shift towards a more cautious stance with a focus on security software and data lake control is advised.",
-    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-18 \u2022 Stock Market on Shaky Foundations | Blind Squirrel Macro\u2019s Rupert Mitchell on IPO Supply, Oil, and Private Credit",
-    "last_proof_snippet": "This episode of Monetary Matters is brought to you by the two-creations Soybean Fund. Take your S.O.Y.B. Let's get into it. I've been worried about markets for several weeks now, in fact, long before a round kicked off. And I keep on seeing",
-    "supporting_takeaway": "Rupert Mitchell is worried about the business cycle ending and the crumbling pillars of buybacks, 401Ks, M&A, and de-equitization.",
+    "mention_score_decayed": 0.51,
+    "last_main_idea": "Investing in companies that can provide innovative power solutions for the modern, electronic battlefield can offer significant opportunities as military forces worldwide seek to upgrade their capabilities.",
+    "last_proof_cite": "The a16z Show \u2022 2026-03-24 \u2022 The Tactical Power Layer for Modern Warfare",
+    "last_proof_snippet": "All the things we want to do is really about the soldier. In the mud, cold, wet, tired, hungry, what makes their lives easier or better. Your average soldier today, they're drawing just by themselves. 30 to 60 watts of power continuously du",
+    "supporting_takeaway": "Current power solutions like diesel generators are inefficient and create a tactical signature, making them a liability.",
     "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-31T20:09:25.315808",
+    "grokipedia_fetched_at": "2026-03-25T04:10:59.120340",
     "pundit_profile": {
       "source": "llm",
       "source_model": "moonshot:moonshot-v1-8k",
       "source_url": "",
-      "page_title": "Rupert Mitchell",
-      "fetched_at": "2026-04-01T01:09:25.315513+00:00",
-      "cliff_notes": "Rupert Mitchell has had a diverse career in finance, starting in the Ottawa Mobile industry and later transitioning into banking and investment. His expertise in macroeconomic trends has led him to found Blind Squirrel Macro, where he provides research and insights that are highly valued by investors and analysts. Mitchell's work focuses on understanding the broader economic landscape and its implications for market behavior, making him a sought-after voice in discussions about the business cycle and market valuations.",
+      "page_title": "Alex Miller",
+      "fetched_at": "2026-03-25T09:10:59.120234+00:00",
+      "cliff_notes": "Alex Miller serves as the Chief Technology Officer for the US Army, a role that places him at the forefront of military technological advancement. His career has been marked by a commitment to leveraging cutting-edge technology to enhance the capabilities of soldiers in the field. Miller's work is particularly focused on the development and implementation of power solutions that can support the increasing electronic demands of modern warfare. His efforts aim to reduce the tactical signature of military operations, thereby decreasing the risk of detection and targeting by adversaries. Miller's contributions are significant in shaping the future of military technology, emphasizing stealth, efficiency, and the empowerment of individual soldiers through technological advancements.",
       "derived": {
-        "current_role": "Founder of Blind Squirrel Macro"
+        "current_role": "CTO of the US Army"
       },
       "infobox": {
         "Born": "",
-        "Nationality": ""
+        "Nationality": "American"
       },
       "lead_paragraphs": [
-        "Rupert Mitchell has had a diverse career in finance, starting in the Ottawa Mobile industry and later transitioning into banking and investment. His expertise in macroeconomic trends has led him to found Blind Squirrel Macro, where he provides research and insights that are highly valued by investors and analysts. Mitchell's work focuses on understanding the broader economic landscape and its implications for market behavior, making him a sought-after voice in discussions about the business cycle and market valuations."
+        "Alex Miller serves as the Chief Technology Officer for the US Army, a role that places him at the forefront of military technological advancement. His career has been marked by a commitment to leveraging cutting-edge technology to enhance the capabilities of soldiers in the field. Miller's work is particularly focused on the development and implementation of power solutions that can support the increasing electronic demands of modern warfare.",
+        "His efforts aim to reduce the tactical signature of military operations, thereby decreasing the risk of detection and targeting by adversaries. Miller's contributions are significant in shaping the future of military technology, emphasizing stealth, efficiency, and the empowerment of individual soldiers through technological advancements."
       ],
       "sections": [
         {
-          "heading": "Market Valuations",
-          "body": "Rupert Mitchell has expressed concerns about current market valuations, suggesting that they may be built on unstable foundations such as buybacks, 401K contributions, and mergers and acquisitions."
+          "heading": "Military Technology",
+          "body": "Alex Miller is dedicated to the advancement of military technology, focusing on how it can be used to improve soldier performance and safety."
         },
         {
-          "heading": "Business Cycle",
-          "body": "Mitchell has been vocal about his worries regarding the business cycle, indicating that he felt a slowdown in consumer activity even before recent geopolitical events, and he is concerned about the potential end of the cycle."
+          "heading": "Power Management",
+          "body": "Miller emphasizes the importance of power management in military operations, working to create solutions that provide the necessary power without compromising operational secrecy."
         },
         {
-          "heading": "Supply at Concept Type Valuation",
-          "body": "Rupert Mitchell has pointed out the upcoming supply of companies like SpaceX, OpenAI, and Thropic entering the market at high valuations, which could impact the stability of the current market structure."
+          "heading": "Electronic Battlefield",
+          "body": "He is a proponent of moving towards an electronic battlefield, where technology plays a central role in strategic operations and tactical advantages."
+        },
+        {
+          "heading": "Soldier Empowerment",
+          "body": "A key aspect of Miller's work is the empowerment of soldiers through technology, ensuring they have the tools they need to operate effectively in various conditions."
         }
       ]
     },
-    "net_worth": "$19.50B"
+    "net_worth": "$12.0M"
   },
   {
-    "id": 126,
-    "name": "Ada Palmer",
-    "slug": "ada-palmer",
-    "bio": "Ada Palmer is a Renaissance historian, novelist, and composer based at the University of Chicago. She is known for her book 'Inventing the Renaissance,' which explores the economic and cultural factors of the period.",
-    "known_for": "Authoring 'Inventing the Renaissance' and her expertise in the economic and cultural aspects of the Renaissance period.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Informed and analytical",
-    "voice_style": "Detailed and historical narrative",
-    "voice_delivery_notes": "Pacing is steady with emphasis on key historical points",
-    "voice_profile_updated_at": "2026-03-28 18:25:51",
-    "last_seen": "2026-03-28 18:25:51",
-    "last_episode_title": "Inventing the Renaissance: Economic and Technological Insights",
-    "last_podcast_name": "Dwarkesh Podcast",
-    "last_episode_date": "2026-03-06",
+    "id": 113,
+    "name": "Brian Johnson",
+    "slug": "brian-johnson",
+    "bio": "Brian Johnson is a longevity enthusiast and experimenter with psychedelics for health and longevity. He has dedicated his work to exploring scientific evidence for interventions that promote health and longevity.",
+    "known_for": "His work in exploring scientific evidence for interventions that promote health and longevity, particularly through the use of psychedelics.",
+    "net_worth_usd": 300000000.0,
+    "net_worth_source": "https://joinhampton.com/blog/the-300-million-exit-thats-funding-humanitys-future-with-bryan-johnson",
+    "net_worth_updated_at": "2026-03-31T20:09:42.531381",
+    "voice_tone": "Calm and reflective, with a sense of awe and profundity.",
+    "voice_style": "Johnson speaks with a narrative style, sharing personal experiences and drawing on scientific evidence.",
+    "voice_delivery_notes": "Pacing is thoughtful, with emphasis on the transformative aspects of his psychedelic experiences.",
+    "voice_profile_updated_at": "2026-03-26 09:17:24",
+    "last_seen": "2026-03-26 09:17:24",
+    "last_episode_title": "Exploring Psychedelics for Longevity and Personal Growth",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.56,
-    "last_main_idea": "The historical insights from the Italian Renaissance period suggest that technological advancements, such as the printing press, can have a profound impact on society and information distribution, which parallels modern tech revolutions and their investment implications.",
-    "last_proof_cite": "Dwarkesh Podcast \u2022 2026-03-06 \u2022 Inventing the Renaissance: Economic and Technological Insights",
-    "last_proof_snippet": "Today, I'm chatting with Ada Palmer, who is a Renaissance historian, a novelist, a composer, based at the University of Chicago, and today we're discussing your book inventing the Renaissance. Ada, thanks for coming on the podcast. Then, lo",
-    "supporting_takeaway": "The ability to sustain local governance was linked to the quality of agricultural land, which allowed wealthier towns to establish republics.",
+    "mention_score_decayed": 0.52,
+    "last_main_idea": "Investment in psychedelics for longevity and personal growth is based on the potential for these substances to induce significant changes in consciousness and promote personal rejuvenation.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-26 \u2022 Exploring Psychedelics for Longevity and Personal Growth",
+    "last_proof_snippet": "Brian Johnson, thanks for being here. Yeah, it's good to see you. How are you feeling? Maybe just share with us what you did a few days ago. Yeah, I did a I did five MEO DMT, which is the most powerful psychedelic on the planet. Some are be",
+    "supporting_takeaway": "Johnson's experience with 5-MEO-DMT was profound, leading to a significant personal reset and a renewed sense of purpose.",
     "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-31T20:09:36.658693",
+    "grokipedia_fetched_at": "2026-03-26T04:22:22.498838",
     "pundit_profile": {
       "source": "llm",
       "source_model": "moonshot:moonshot-v1-8k",
       "source_url": "",
-      "page_title": "Ada Palmer",
-      "fetched_at": "2026-04-01T01:09:36.658555+00:00",
-      "cliff_notes": "Ada Palmer is a Renaissance historian, novelist, and composer who has made significant contributions to the understanding of the economic and cultural factors of the Renaissance period. Based at the University of Chicago, Palmer's work has been influential in shaping the discourse around the Italian city republics and their role in the development of modern Europe. Her book 'Inventing the Renaissance' has been particularly impactful, providing a comprehensive analysis of the period and its lasting effects on Western civilization. Through her research and writing, Palmer has become a respected voice in the field of Renaissance studies, offering valuable insights into the historical context that has shaped the modern world.",
+      "page_title": "Brian Johnson",
+      "fetched_at": "2026-03-26T09:22:22.498676+00:00",
+      "cliff_notes": "Brian Johnson is a longevity enthusiast and experimenter with psychedelics for health and longevity. He has dedicated his work to exploring scientific evidence for interventions that promote health and longevity. Johnson started his project five years ago with the approach of going through all the scientific evidence ever published on health and longevity to find the interventions with the best evidence for effect size. His work has led him to experiment with psychedelics, such as MEO DMT, as part of his longevity experiments. Johnson's work is of interest to investors and tech listeners due to its potential implications for health and longevity in the tech industry.",
       "derived": {
-        "current_role": "Historian, Novelist, Composer at the University of Chicago",
-        "books_or_works": "Inventing the Renaissance"
+        "current_role": "Longevity Enthusiast"
       },
       "infobox": {
         "Born": "",
         "Nationality": ""
       },
       "lead_paragraphs": [
-        "Ada Palmer is a Renaissance historian, novelist, and composer who has made significant contributions to the understanding of the economic and cultural factors of the Renaissance period. Based at the University of Chicago, Palmer's work has been influential in shaping the discourse around the Italian city republics and their role in the development of modern Europe.",
-        "Her book 'Inventing the Renaissance' has been particularly impactful, providing a comprehensive analysis of the period and its lasting effects on Western civilization. Through her research and writing, Palmer has become a respected voice in the field of Renaissance studies, offering valuable insights into the historical context that has shaped the modern world."
+        "Brian Johnson is a longevity enthusiast and experimenter with psychedelics for health and longevity. He has dedicated his work to exploring scientific evidence for interventions that promote health and longevity. Johnson started his project five years ago with the approach of going through all the scientific evidence ever published on health and longevity to find the interventions with the best evidence for effect size.",
+        "His work has led him to experiment with psychedelics, such as MEO DMT, as part of his longevity experiments. Johnson's work is of interest to investors and tech listeners due to its potential implications for health and longevity in the tech industry."
       ],
       "sections": [
         {
-          "heading": "Renaissance Historian",
-          "body": "Ada Palmer is a renowned historian specializing in the Renaissance period, focusing on the economic and cultural factors that shaped the era."
+          "heading": "Longevity Experiments",
+          "body": "Brian Johnson has been conducting longevity experiments, including the use of psychedelics like MEO DMT, to explore interventions that promote health and longevity."
         },
         {
-          "heading": "Author of 'Inventing the Renaissance'",
-          "body": "Palmer's book 'Inventing the Renaissance' is a significant contribution to historical literature, providing a detailed exploration of the period's complexities and its impact on modern society."
+          "heading": "Scientific Evidence",
+          "body": "Johnson's approach to longevity involves going through all the scientific evidence ever published on health and longevity to find the interventions with the best evidence for effect size."
         },
         {
-          "heading": "Composer and Novelist",
-          "body": "In addition to her historical work, Palmer is also a composer and novelist, showcasing her diverse talents and contributions to the arts and academia."
+          "heading": "Psychedelics for Health",
+          "body": "Johnson has experimented with psychedelics, such as MEO DMT, as part of his longevity experiments, exploring their potential benefits for health and longevity."
+        }
+      ]
+    },
+    "net_worth": "$300.0M"
+  },
+  {
+    "id": 114,
+    "name": "Chris Power",
+    "slug": "chris-power",
+    "bio": "Chris Power is the founder and CEO of Hadrian, a company that specializes in advanced manufacturing for submarines. He is known for leading the development of a 2.25 million square foot advanced manufacturing facility for submarine programs, which is crucial for the United States Navy's submarine fleet modernization.",
+    "known_for": "Developing advanced manufacturing capabilities for the U.S. Navy's submarine programs.",
+    "net_worth_usd": 220000000.0,
+    "net_worth_source": "https://www.businessoffamily.net/chris-powers",
+    "net_worth_updated_at": "2026-03-26T04:21:15.715437",
+    "voice_tone": "Confident and solution-oriented",
+    "voice_style": "Factual and forward-looking",
+    "voice_delivery_notes": "Clear and assertive with a focus on the future of manufacturing",
+    "voice_profile_updated_at": "2026-03-26 09:20:15",
+    "last_seen": "2026-03-26 09:20:15",
+    "last_episode_title": "Submarine Manufacturing and Advanced Factories",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-03-25",
+    "mention_score": 1,
+    "mention_score_decayed": 0.52,
+    "last_main_idea": "Investing in advanced manufacturing and workforce development for submarine production could lead to increased efficiency and meet the growing demand for naval capabilities.",
+    "last_proof_cite": "The a16z Show \u2022 2026-03-25 \u2022 Submarine Manufacturing and Advanced Factories",
+    "last_proof_snippet": "The real advantage that submarines bring is our stealth and access. We can pretty much go anywhere in the world undetected. We can carry nuclear missiles on our ballistic missile submarines, and that ensures that we continue our decades of",
+    "supporting_takeaway": "The end of the Cold War led to a collapse in submarine production, resulting in a significant skills gap.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-26T04:20:54.928623",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Chris Power",
+      "fetched_at": "2026-03-26T09:20:54.928394+00:00",
+      "cliff_notes": "Chris Power is recognized for his work in the field of advanced manufacturing, particularly in the context of submarine production. As the CEO of Hadrian, he has been instrumental in the development of a large-scale manufacturing facility aimed at enhancing the capabilities of the U.S. Navy's submarine fleet. His efforts are focused on increasing productivity and efficiency in submarine manufacturing, which is critical for national defense and maintaining strategic advantages. Power's work bridges the gap between traditional manufacturing and modern technology, emphasizing the importance of advanced factories in achieving the necessary productivity uplift. His leadership in this field is significant for investors and tech listeners due to the implications for national security, economic growth, and the future of manufacturing.",
+      "derived": {
+        "current_role": "Founder and CEO of Hadrian"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Chris Power is recognized for his work in the field of advanced manufacturing, particularly in the context of submarine production. As the CEO of Hadrian, he has been instrumental in the development of a large-scale manufacturing facility aimed at enhancing the capabilities of the U.S. Navy's submarine fleet. His efforts are focused on increasing productivity and efficiency in submarine manufacturing, which is critical for national defense and maintaining strategic advantages.",
+        "Power's work bridges the gap between traditional manufacturing and modern technology, emphasizing the importance of advanced factories in achieving the necessary productivity uplift. His leadership in this field is significant for investors and tech listeners due to the implications for national security, economic growth, and the future of manufacturing."
+      ],
+      "sections": [
+        {
+          "heading": "Submarine Manufacturing",
+          "body": "Chris Power is leading the charge in advanced manufacturing for submarines, which is pivotal for the U.S. Navy's fleet modernization and maintaining strategic advantages at sea."
         },
         {
-          "heading": "University of Chicago",
-          "body": "Based at the University of Chicago, Palmer continues to teach and research, sharing her expertise with students and the academic community."
+          "heading": "Productivity and Efficiency",
+          "body": "Power emphasizes the need for a productivity uplift in submarine manufacturing, advocating for the fusion of workforce training and software to achieve higher production rates and meet the Navy's growing demands."
+        },
+        {
+          "heading": "Advanced Factories",
+          "body": "The development of Hadrian's 2.25 million square foot facility showcases Power's commitment to creating advanced factories that can significantly increase the production capacity for submarines, which is essential for national defense."
+        }
+      ]
+    },
+    "net_worth": "$220.0M"
+  },
+  {
+    "id": 115,
+    "name": "Robert Goucher",
+    "slug": "robert-goucher",
+    "bio": "Vice-Admiral Robert Goucher is responsible for overseeing the strategic and operational aspects of submarine production for the United States Navy. He is known for his expertise in maintaining the stealth capabilities and strategic deterrence provided by the Navy's submarine fleet.",
+    "known_for": "Leading the U.S. Navy's submarine production efforts and addressing the challenges of modernizing the fleet.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Authoritative and pragmatic",
+    "voice_style": "Strategic and solution-focused",
+    "voice_delivery_notes": "Deliberate with an emphasis on the importance of the mission",
+    "voice_profile_updated_at": "2026-03-26 09:20:15",
+    "last_seen": "2026-03-26 09:20:15",
+    "last_episode_title": "Submarine Manufacturing and Advanced Factories",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-03-25",
+    "mention_score": 1,
+    "mention_score_decayed": 0.52,
+    "last_main_idea": "Investing in advanced manufacturing and workforce development for submarine production could lead to increased efficiency and meet the growing demand for naval capabilities.",
+    "last_proof_cite": "The a16z Show \u2022 2026-03-25 \u2022 Submarine Manufacturing and Advanced Factories",
+    "last_proof_snippet": "The real advantage that submarines bring is our stealth and access. We can pretty much go anywhere in the world undetected. We can carry nuclear missiles on our ballistic missile submarines, and that ensures that we continue our decades of",
+    "supporting_takeaway": "The end of the Cold War led to a collapse in submarine production, resulting in a significant skills gap.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-26T04:21:24.879895",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Robert Goucher",
+      "fetched_at": "2026-03-26T09:21:24.879791+00:00",
+      "cliff_notes": "Vice-Admiral Robert Goucher has had a distinguished career in the United States Navy, with a focus on submarine production. His role involves overseeing the strategic and operational aspects of submarine production, ensuring the Navy maintains its stealth and access capabilities. Goucher has been at the forefront of efforts to modernize the Navy's fleet, addressing the challenges posed by the end of the Cold War and the subsequent collapse in submarine production. He has emphasized the importance of combining a new workforce, American software, steel, and spirit to achieve a productivity uplift in submarine manufacturing. His leadership is crucial in ensuring the United States maintains its strategic deterrence and peace through strength.",
+      "derived": {
+        "current_role": "Vice-Admiral in charge of all submarine production for the United States Navy"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Vice-Admiral Robert Goucher has had a distinguished career in the United States Navy, with a focus on submarine production. His role involves overseeing the strategic and operational aspects of submarine production, ensuring the Navy maintains its stealth and access capabilities. Goucher has been at the forefront of efforts to modernize the Navy's fleet, addressing the challenges posed by the end of the Cold War and the subsequent collapse in submarine production.",
+        "He has emphasized the importance of combining a new workforce, American software, steel, and spirit to achieve a productivity uplift in submarine manufacturing. His leadership is crucial in ensuring the United States maintains its strategic deterrence and peace through strength."
+      ],
+      "sections": [
+        {
+          "heading": "Submarine Production",
+          "body": "Vice-Admiral Robert Goucher is responsible for overseeing the strategic and operational aspects of submarine production for the United States Navy, ensuring the fleet's stealth and access capabilities are maintained."
+        },
+        {
+          "heading": "Modernizing the Fleet",
+          "body": "Goucher has been at the forefront of efforts to modernize the Navy's submarine fleet, addressing the challenges posed by the end of the Cold War and the subsequent collapse in submarine production."
+        },
+        {
+          "heading": "Productivity Uplift",
+          "body": "Emphasizing the importance of combining a new workforce, American software, steel, and spirit, Goucher is focused on achieving a productivity uplift in submarine manufacturing to meet the Navy's increased capacity needs."
         }
       ]
     }
   },
   {
-    "id": 125,
-    "name": "Lupin Ramon",
-    "slug": "lupin-ramon",
-    "bio": "Lupin Ramon is an independent sovereign debt specialist with extensive experience in global finance. He has worked at the World Bank, IMF, and most recently as head of sovereign credit at PIMCO. Ramon is also the author of 'The Sovereign Debt Investor: An Essential Guide to Returns, Defaults, and Government Bond Investing'.",
-    "known_for": "His expertise in sovereign debt and his influential book on the subject.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Informed and analytical.",
-    "voice_style": "Factual and educational, providing detailed explanations of complex concepts.",
-    "voice_delivery_notes": "Clear and measured pace with emphasis on key points.",
-    "voice_profile_updated_at": "2026-03-28 09:04:34",
-    "last_seen": "2026-03-28 09:04:34",
-    "last_episode_title": "Investing in Sovereign Credit with Lupin Ramon",
+    "id": 117,
+    "name": "Liz Ann Saunders",
+    "slug": "liz-ann-saunders",
+    "bio": "Liz Ann Saunders is the Chief Investment Strategist at Charles Schwab, where she provides investment insights and analysis. She has been recognized for her expertise in understanding complex market environments and her ability to interpret underlying stresses in the market that are often obscured by headline indices.",
+    "known_for": "Her analytical prowess in deciphering market trends and her role in guiding investment strategies at Charles Schwab.",
+    "net_worth_usd": 5000000.0,
+    "net_worth_source": "https://noteablebio.com/the-remarkable-journey-of-liz-ann-sonders-and-her-net-worth/",
+    "net_worth_updated_at": "2026-03-26T08:21:27.303779",
+    "voice_tone": "Analytical and informative",
+    "voice_style": "Factual and data-driven",
+    "voice_delivery_notes": "Paced with emphasis on key data points",
+    "voice_profile_updated_at": "2026-03-26 13:18:11",
+    "last_seen": "2026-03-26 13:18:11",
+    "last_episode_title": "Monetary Matters: Analyzing Market Stress and the Impact of Oil Prices",
     "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-03-27",
+    "last_episode_date": "2026-03-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.55,
-    "last_main_idea": "Sovereign credit investing requires a deep understanding of the unique risks and dynamics of lending to governments, which can offer significant returns but also carries substantial risks, particularly in the current geopolitical climate.",
-    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-27 \u2022 Investing in Sovereign Credit with Lupin Ramon",
-    "last_proof_snippet": "Today's episode is brought to you by the unlimited HFGM global macro ETF ticker HFGM. Later in the show, you'll hear more about HFGM currently the number one morning star rated funds sits its inception in the US macro trading category. Let'",
-    "supporting_takeaway": "Investors in sovereign debt must consider both the ability and willingness of governments to repay, which can be influenced by a multitude of qualitative factors.",
+    "mention_score_decayed": 0.52,
+    "last_main_idea": "The market is experiencing underlying stress that is not reflected in headline indices, suggesting a need for a more nuanced approach to investment decisions.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-25 \u2022 Monetary Matters: Analyzing Market Stress and the Impact of Oil Prices",
+    "last_proof_snippet": "Today's episode is brought you by Pictay asset management and their AI enhanced ETF range, ticker PQ&T and PQUS. You'll hear more about how they're using AI to enhance equity exposure later in the show. For now, let's get into it. Very plea",
+    "supporting_takeaway": "Market rotation and churn are masking underlying weaknesses in certain sectors and stocks.",
     "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-28T04:06:45.925345",
+    "grokipedia_fetched_at": "2026-03-26T08:21:26.552392",
     "pundit_profile": {
       "source": "llm",
       "source_model": "moonshot:moonshot-v1-8k",
       "source_url": "",
-      "page_title": "Lupin Ramon",
-      "fetched_at": "2026-03-28T09:06:45.924969+00:00",
-      "cliff_notes": "Lupin Ramon has had a distinguished career in global finance, starting as an economist at the World Bank and the International Monetary Fund. His expertise in sovereign debt grew as he took on the role of head of sovereign credit at PIMCO, one of the world's leading investment management firms. Ramon's insights into the complexities of sovereign debt investing have been widely recognized, leading him to author 'The Sovereign Debt Investor', a comprehensive guide that has become a valuable resource for investors. His work bridges the gap between academic understanding and practical investment strategies, making him a sought-after voice in the field of global macroeconomics.",
+      "page_title": "Liz Ann Saunders",
+      "fetched_at": "2026-03-26T13:21:26.552175+00:00",
+      "cliff_notes": "Liz Ann Saunders has established herself as a prominent figure in the investment strategy space, particularly within the context of Charles Schwab. Her career has been marked by a deep understanding of market dynamics and the ability to provide clear insights into what the headline indices might not fully reveal. Saunders' work has been pivotal in helping investors navigate complex market environments, where she has demonstrated an analytical richness that goes beyond surface-level indices to uncover underlying market stress. Her contributions to the field have made her a respected voice in the investment community, and her insights are sought after for their clarity and depth.",
       "derived": {
-        "current_role": "Independent sovereign debt specialist",
-        "former_positions": "Economist at the World Bank; Economist at the International Monetary Fund; Head of Sovereign Credit at PIMCO",
-        "books_or_works": "The Sovereign Debt Investor: An Essential Guide to Returns, Defaults, and Government Bond Investing"
+        "current_role": "Chief Investment Strategist at Charles Schwab"
       },
       "infobox": {
         "Born": "",
         "Nationality": ""
       },
       "lead_paragraphs": [
-        "Lupin Ramon has had a distinguished career in global finance, starting as an economist at the World Bank and the International Monetary Fund. His expertise in sovereign debt grew as he took on the role of head of sovereign credit at PIMCO, one of the world's leading investment management firms. Ramon's insights into the complexities of sovereign debt investing have been widely recognized, leading him to author 'The Sovereign Debt Investor', a comprehensive guide that has become a valuable resource for investors.",
-        "His work bridges the gap between academic understanding and practical investment strategies, making him a sought-after voice in the field of global macroeconomics."
+        "Liz Ann Saunders has established herself as a prominent figure in the investment strategy space, particularly within the context of Charles Schwab. Her career has been marked by a deep understanding of market dynamics and the ability to provide clear insights into what the headline indices might not fully reveal. Saunders' work has been pivotal in helping investors navigate complex market environments, where she has demonstrated an analytical richness that goes beyond surface-level indices to uncover underlying market stress.",
+        "Her contributions to the field have made her a respected voice in the investment community, and her insights are sought after for their clarity and depth."
       ],
       "sections": [
         {
-          "heading": "Sovereign Debt",
-          "body": "Lupin Ramon has deep knowledge in sovereign debt, having worked at the World Bank and IMF, and later leading sovereign credit at PIMCO."
-        },
-        {
-          "heading": "Global Finance",
-          "body": "His career has been dedicated to understanding and navigating the intricacies of global finance, with a particular focus on sovereign debt."
+          "heading": "Market Analysis",
+          "body": "Liz Ann Saunders is known for her in-depth analysis of market trends, particularly how headline indices can mask the true nature of market stress."
         },
         {
           "heading": "Investment Strategy",
-          "body": "Ramon's book provides investors with a guide to understanding returns, defaults, and strategies in government bond investing."
+          "body": "As Chief Investment Strategist at Charles Schwab, Saunders plays a critical role in shaping the firm's investment strategies and providing guidance to clients."
         },
         {
-          "heading": "Economic Policy",
-          "body": "His work at international financial institutions has given him a unique perspective on economic policy and its impact on sovereign debt."
+          "heading": "Market Education",
+          "body": "Saunders is also recognized for her efforts in educating investors about the intricacies of the market, helping them make more informed decisions."
         }
       ]
-    }
+    },
+    "net_worth": "$5.0M"
+  },
+  {
+    "id": 118,
+    "name": "Justin Finnelli",
+    "slug": "justin-finnelli",
+    "bio": "Justin Finnelli is the Chief Technology Officer (CTO) of the U.S. Navy, tasked with identifying technological needs and gaps, and connecting with innovators to bring about improvements or breakthroughs. His work is pivotal in signal to noise detection and catalyzing innovation within the Navy.",
+    "known_for": "His role in enhancing the Navy's technological capabilities and his insights into cybersecurity threats, particularly regarding telecommunications infiltration.",
+    "net_worth_usd": 3000000000.0,
+    "net_worth_source": "https://www.businesswire.com/news/home/20250820740989/en/U.S.-Navy-CTO-Justin-Fanelli-Joins-Hupside-to-Champion-Human-Originality-in-the-Age-of-AI",
+    "net_worth_updated_at": "2026-03-26T11:51:58.064732",
+    "voice_tone": "Informative and solution-oriented",
+    "voice_style": "Focuses on the importance of innovation and collaboration",
+    "voice_delivery_notes": "Speaks with a clear emphasis on the necessity of addressing cybersecurity threats",
+    "voice_profile_updated_at": "2026-03-26 16:16:20",
+    "last_seen": "2026-03-26 16:16:20",
+    "last_episode_title": "Cybersecurity and National Security in the Telecommunications Sector",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-03-26",
+    "mention_score": 1,
+    "mention_score_decayed": 0.52,
+    "last_main_idea": "Investing in cybersecurity solutions that can secure networks on top of compromised physical infrastructure is crucial for national security and economic prosperity.",
+    "last_proof_cite": "The a16z Show \u2022 2026-03-26 \u2022 Cybersecurity and National Security in the Telecommunications Sector",
+    "last_proof_snippet": "I was a Davos last year in a cyber form, and one of the speakers was talking about salt typhoon. It was closed door, room of 60 cyber folks, and it's like, how many people know about this? It was five out of 60. What we learned was that Chi",
+    "supporting_takeaway": "The infiltration was not a one-time breach but a result of an industry-wide failure in cybersecurity.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-26T11:16:44.078788",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Justin Finnelli",
+      "fetched_at": "2026-03-26T16:16:44.078427+00:00",
+      "cliff_notes": "Justin Finnelli serves as the Chief Technology Officer of the U.S. Navy, where he is responsible for recognizing the technological requirements and shortcomings of the Navy's operations. His role involves liaising with innovators to address these gaps, thereby enhancing the Navy's technological edge. Finnelli's expertise extends to cybersecurity, where he has been vocal about the threats posed by foreign infiltration of telecommunications infrastructure, as evidenced by his discussions on the 'Salt Typhoon' incident. His work is crucial in ensuring the Navy's technological readiness and in safeguarding national security interests in the digital age.",
+      "derived": {
+        "current_role": "CTO of the Navy"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Justin Finnelli serves as the Chief Technology Officer of the U.S. Navy, where he is responsible for recognizing the technological requirements and shortcomings of the Navy's operations. His role involves liaising with innovators to address these gaps, thereby enhancing the Navy's technological edge. Finnelli's expertise extends to cybersecurity, where he has been vocal about the threats posed by foreign infiltration of telecommunications infrastructure, as evidenced by his discussions on the 'Salt Typhoon' incident.",
+        "His work is crucial in ensuring the Navy's technological readiness and in safeguarding national security interests in the digital age."
+      ],
+      "sections": [
+        {
+          "heading": "Naval Technology",
+          "body": "Justin Finnelli plays a critical role in identifying and bridging technological gaps within the U.S. Navy, ensuring that the force remains at the forefront of modern military capabilities."
+        },
+        {
+          "heading": "Cybersecurity",
+          "body": "Finnelli has been instrumental in raising awareness about the infiltration of major U.S. telecommunications carriers by foreign entities, emphasizing the importance of cybersecurity in national defense."
+        },
+        {
+          "heading": "Innovation Catalyst",
+          "body": "As CTO, Finnelli connects with innovators to bring about technological improvements and breakthroughs, which are vital for the advancement of the Navy's operational capabilities."
+        }
+      ]
+    },
+    "net_worth": "$3.00B"
+  },
+  {
+    "id": 119,
+    "name": "John Doyle",
+    "slug": "john-doyle",
+    "bio": "John Doyle is the Founder and CEO of a company focused on developing secure networks that operate on compromised physical infrastructure. His work is pivotal in addressing cybersecurity threats and ensuring secure communication in the digital age.",
+    "known_for": "Creating secure networks that can operate on compromised physical infrastructure, crucial in the face of increasing cybersecurity threats.",
+    "net_worth_usd": 27500000.0,
+    "net_worth_source": "https://www.quiverquant.com/insiders/1580963/John-Q-Doyle",
+    "net_worth_updated_at": "2026-03-26T11:16:53.602329",
+    "voice_tone": "Confident and solution-focused",
+    "voice_style": "Discusses the practical applications of secure network technology",
+    "voice_delivery_notes": "Speaks with conviction about the importance of secure networks in the telecommunications sector",
+    "voice_profile_updated_at": "2026-03-26 16:16:20",
+    "last_seen": "2026-03-26 16:16:20",
+    "last_episode_title": "Cybersecurity and National Security in the Telecommunications Sector",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-03-26",
+    "mention_score": 1,
+    "mention_score_decayed": 0.52,
+    "last_main_idea": "Investing in cybersecurity solutions that can secure networks on top of compromised physical infrastructure is crucial for national security and economic prosperity.",
+    "last_proof_cite": "The a16z Show \u2022 2026-03-26 \u2022 Cybersecurity and National Security in the Telecommunications Sector",
+    "last_proof_snippet": "I was a Davos last year in a cyber form, and one of the speakers was talking about salt typhoon. It was closed door, room of 60 cyber folks, and it's like, how many people know about this? It was five out of 60. What we learned was that Chi",
+    "supporting_takeaway": "The infiltration was not a one-time breach but a result of an industry-wide failure in cybersecurity.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-26T11:16:52.472386",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "John Doyle",
+      "fetched_at": "2026-03-26T16:16:52.472220+00:00",
+      "cliff_notes": "John Doyle is recognized for his work in cybersecurity, particularly in creating secure networks that can operate securely on top of compromised physical infrastructure. As the CEO of his own company, he has been at the forefront of developing solutions to protect against cyber threats. His insights into the vulnerabilities of major telecommunications carriers, as highlighted in his Davos appearance, underscore the importance of his work. Doyle's contributions to the field are significant, as they address the fundamental security of digital communications, which is critical in an era where personal and business data is increasingly targeted by cybercriminals.",
+      "derived": {
+        "current_role": "Founder and CEO of a secure network company"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "John Doyle is recognized for his work in cybersecurity, particularly in creating secure networks that can operate securely on top of compromised physical infrastructure. As the CEO of his own company, he has been at the forefront of developing solutions to protect against cyber threats. His insights into the vulnerabilities of major telecommunications carriers, as highlighted in his Davos appearance, underscore the importance of his work.",
+        "Doyle's contributions to the field are significant, as they address the fundamental security of digital communications, which is critical in an era where personal and business data is increasingly targeted by cybercriminals."
+      ],
+      "sections": [
+        {
+          "heading": "Secure Networks",
+          "body": "John Doyle is known for his innovative approach to creating secure networks that can operate even when the underlying physical infrastructure is compromised."
+        },
+        {
+          "heading": "Cybersecurity Threats",
+          "body": "His work is vital in the face of increasing cybersecurity threats, particularly those posed by state-sponsored actors like China, as evidenced by the Salt Typhoon incident."
+        },
+        {
+          "heading": "Communications Infrastructure",
+          "body": "Doyle's expertise lies in securing telecommunications infrastructure, a critical component of modern society where much of life and business is conducted through digital means."
+        }
+      ]
+    },
+    "net_worth": "$27.5M"
+  },
+  {
+    "id": 121,
+    "name": "Lynn Alden",
+    "slug": "lynn-alden",
+    "bio": "Lynn Alden is the founder of Lynn Alden Investment Strategy, a platform dedicated to providing insights into the transition into a multi-polar world. She is a sought-after commentator on finance and macroeconomics, particularly focusing on the geopolitical and economic shifts shaping global markets.",
+    "known_for": "Her analysis and commentary on the geopolitical and economic shifts towards a multi-polar world order.",
+    "net_worth_usd": 4600000.0,
+    "net_worth_source": "https://moolahtimes.com/lyn-alden/",
+    "net_worth_updated_at": "2026-03-26T14:15:42.441919",
+    "voice_tone": "Matter-of-fact and analytical",
+    "voice_style": "Factual and informative, providing insights into global macro trends",
+    "voice_delivery_notes": "Clear and steady pace, with emphasis on key economic indicators",
+    "voice_profile_updated_at": "2026-03-26 19:14:35",
+    "last_seen": "2026-03-26 19:14:35",
+    "last_episode_title": "Macro Voices Episode 525: Multi-Polar World Order, Iran Conflict, and Inflation Outlook",
+    "last_podcast_name": "MacroVoices",
+    "last_episode_date": "2026-03-26",
+    "mention_score": 1,
+    "mention_score_decayed": 0.52,
+    "last_main_idea": "Investors should consider the geopolitical risks and shifts in global power dynamics when constructing their portfolios, with a focus on sectors that may be affected by rising energy prices and inflation.",
+    "last_proof_cite": "MacroVoices \u2022 2026-03-26 \u2022 Macro Voices Episode 525: Multi-Polar World Order, Iran Conflict, and Inflation Outlook",
+    "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
+    "supporting_takeaway": "The world is transitioning into a multi-polar world, which has economic and investment implications.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-26T14:15:41.620354",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Lynn Alden",
+      "fetched_at": "2026-03-26T19:15:41.619968+00:00",
+      "cliff_notes": "Lynn Alden is recognized for her expertise in macroeconomics and finance, with a particular focus on the geopolitical shifts leading to a multi-polar world. As the founder of Lynn Alden Investment Strategy, she provides in-depth analysis and commentary on these shifts and their implications for global markets. Alden's work is highly regarded among professional finance, high-net worth individuals, family offices, and other sophisticated investors. Her insights are regularly sought after for podcasts like Macrovoisers, where she discusses a range of topics from the Iran conflict to the outlook for persistent inflation and the future of monetary policy.",
+      "derived": {
+        "current_role": "Founder, Lynn Alden Investment Strategy"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Lynn Alden is recognized for her expertise in macroeconomics and finance, with a particular focus on the geopolitical shifts leading to a multi-polar world. As the founder of Lynn Alden Investment Strategy, she provides in-depth analysis and commentary on these shifts and their implications for global markets. Alden's work is highly regarded among professional finance, high-net worth individuals, family offices, and other sophisticated investors.",
+        "Her insights are regularly sought after for podcasts like Macrovoisers, where she discusses a range of topics from the Iran conflict to the outlook for persistent inflation and the future of monetary policy."
+      ],
+      "sections": [
+        {
+          "heading": "Multi-Polar World Order",
+          "body": "Lynn Alden is well-known for her analysis on the geopolitical and economic shifts towards a multi-polar world order, discussing the implications for global markets and investment strategies."
+        },
+        {
+          "heading": "Geopolitical Conflicts",
+          "body": "Alden frequently comments on geopolitical conflicts, such as the Iran situation, and their broader macroeconomic implications, providing insights into how these events can affect financial markets."
+        },
+        {
+          "heading": "Monetary Policy",
+          "body": "She offers perspectives on monetary policy, including the potential impact of leadership changes at central banks, like the anticipated transition with Kevin Wars as the new Fed Chair."
+        },
+        {
+          "heading": "Inflation Outlook",
+          "body": "Alden discusses the outlook for persistent inflation, analyzing its causes and potential effects on economies and investment strategies."
+        },
+        {
+          "heading": "Private Credit Markets",
+          "body": "She also addresses the breakdown in private credit markets, explaining how this can influence the overall health and stability of the financial system."
+        }
+      ]
+    },
+    "net_worth": "$4.6M"
+  },
+  {
+    "id": 122,
+    "name": "Michael Every",
+    "slug": "michael-every",
+    "bio": "Michael Every is a Global Strategist for Economics and Markets at Robo Banks, known for his exceptional ability to translate political statements into market implications. His insights are highly valued by professional finance, high-net worth individuals, family offices, and sophisticated investors.",
+    "known_for": "His ability to translate political statements into market implications and his expertise in macroeconomics.",
+    "net_worth_usd": 70000000000.0,
+    "net_worth_source": "https://www.celebritynetworth.com/richest-politicians/michael-bloomberg-net-worth/",
+    "net_worth_updated_at": "2026-03-31T20:09:40.488239",
+    "voice_tone": "Cautious and skeptical",
+    "voice_style": "Direct and candid, with a focus on the complexities of the current geopolitical situation",
+    "voice_delivery_notes": "Paced with pauses for emphasis, highlighting the uncertainty of the situation",
+    "voice_profile_updated_at": "2026-03-26 19:14:35",
+    "last_seen": "2026-03-26 19:14:35",
+    "last_episode_title": "Macro Voices Episode 525: Multi-Polar World Order, Iran Conflict, and Inflation Outlook",
+    "last_podcast_name": "MacroVoices",
+    "last_episode_date": "2026-03-26",
+    "mention_score": 1,
+    "mention_score_decayed": 0.52,
+    "last_main_idea": "Investors should consider the geopolitical risks and shifts in global power dynamics when constructing their portfolios, with a focus on sectors that may be affected by rising energy prices and inflation.",
+    "last_proof_cite": "MacroVoices \u2022 2026-03-26 \u2022 Macro Voices Episode 525: Multi-Polar World Order, Iran Conflict, and Inflation Outlook",
+    "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
+    "supporting_takeaway": "The world is transitioning into a multi-polar world, which has economic and investment implications.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-26T14:15:50.429943",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Michael Every",
+      "fetched_at": "2026-03-26T19:15:50.429788+00:00",
+      "cliff_notes": "Michael Every is recognized for his exceptional track record in translating political statements into market implications. As a Global Strategist for Economics and Markets at Robo Banks, he provides valuable insights to professional finance, high-net worth individuals, family offices, and sophisticated investors. His expertise in macroeconomics and geopolitical analysis has made him a sought-after commentator in the world of finance. Every's ability to dissect complex political situations and predict their impact on the market has earned him a reputation as a trusted voice in the industry.",
+      "derived": {
+        "current_role": "Global Strategist for Economics and Markets at Robo Banks"
+      },
+      "infobox": {
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Michael Every is recognized for his exceptional track record in translating political statements into market implications. As a Global Strategist for Economics and Markets at Robo Banks, he provides valuable insights to professional finance, high-net worth individuals, family offices, and sophisticated investors. His expertise in macroeconomics and geopolitical analysis has made him a sought-after commentator in the world of finance.",
+        "Every's ability to dissect complex political situations and predict their impact on the market has earned him a reputation as a trusted voice in the industry."
+      ],
+      "sections": [
+        {
+          "heading": "Macroeconomics",
+          "body": "Michael Every is known for his expertise in macroeconomics, providing insights into the broader implications of political and economic events on the global market."
+        },
+        {
+          "heading": "Geopolitical Analysis",
+          "body": "Every's geopolitical analysis is highly regarded, as he is able to dissect complex political situations and predict their impact on the market."
+        },
+        {
+          "heading": "Market Implications",
+          "body": "His ability to translate political statements into market implications has made him a trusted voice in the world of finance, providing valuable insights to investors and financial professionals."
+        }
+      ]
+    },
+    "net_worth": "$70.00B"
   },
   {
     "id": 123,
@@ -21955,2176 +20836,3076 @@ const dashboardData = {
     "net_worth": "$10.00B"
   },
   {
-    "id": 121,
-    "name": "Lynn Alden",
-    "slug": "lynn-alden",
-    "bio": "Lynn Alden is the founder of Lynn Alden Investment Strategy, a platform dedicated to providing insights into the transition into a multi-polar world. She is a sought-after commentator on finance and macroeconomics, particularly focusing on the geopolitical and economic shifts shaping global markets.",
-    "known_for": "Her analysis and commentary on the geopolitical and economic shifts towards a multi-polar world order.",
-    "net_worth_usd": 4600000.0,
-    "net_worth_source": "https://moolahtimes.com/lyn-alden/",
-    "net_worth_updated_at": "2026-03-26T14:15:42.441919",
-    "voice_tone": "Matter-of-fact and analytical",
-    "voice_style": "Factual and informative, providing insights into global macro trends",
-    "voice_delivery_notes": "Clear and steady pace, with emphasis on key economic indicators",
-    "voice_profile_updated_at": "2026-03-26 19:14:35",
-    "last_seen": "2026-03-26 19:14:35",
-    "last_episode_title": "Macro Voices Episode 525: Multi-Polar World Order, Iran Conflict, and Inflation Outlook",
-    "last_podcast_name": "Macro Voices",
-    "last_episode_date": "2026-03-26",
-    "mention_score": 1,
-    "mention_score_decayed": 0.54,
-    "last_main_idea": "Investors should consider the geopolitical risks and shifts in global power dynamics when constructing their portfolios, with a focus on sectors that may be affected by rising energy prices and inflation.",
-    "last_proof_cite": "Macro Voices \u2022 2026-03-26 \u2022 Macro Voices Episode 525: Multi-Polar World Order, Iran Conflict, and Inflation Outlook",
-    "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
-    "supporting_takeaway": "The world is transitioning into a multi-polar world, which has economic and investment implications.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-26T14:15:41.620354",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Lynn Alden",
-      "fetched_at": "2026-03-26T19:15:41.619968+00:00",
-      "cliff_notes": "Lynn Alden is recognized for her expertise in macroeconomics and finance, with a particular focus on the geopolitical shifts leading to a multi-polar world. As the founder of Lynn Alden Investment Strategy, she provides in-depth analysis and commentary on these shifts and their implications for global markets. Alden's work is highly regarded among professional finance, high-net worth individuals, family offices, and other sophisticated investors. Her insights are regularly sought after for podcasts like Macrovoisers, where she discusses a range of topics from the Iran conflict to the outlook for persistent inflation and the future of monetary policy.",
-      "derived": {
-        "current_role": "Founder, Lynn Alden Investment Strategy"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Lynn Alden is recognized for her expertise in macroeconomics and finance, with a particular focus on the geopolitical shifts leading to a multi-polar world. As the founder of Lynn Alden Investment Strategy, she provides in-depth analysis and commentary on these shifts and their implications for global markets. Alden's work is highly regarded among professional finance, high-net worth individuals, family offices, and other sophisticated investors.",
-        "Her insights are regularly sought after for podcasts like Macrovoisers, where she discusses a range of topics from the Iran conflict to the outlook for persistent inflation and the future of monetary policy."
-      ],
-      "sections": [
-        {
-          "heading": "Multi-Polar World Order",
-          "body": "Lynn Alden is well-known for her analysis on the geopolitical and economic shifts towards a multi-polar world order, discussing the implications for global markets and investment strategies."
-        },
-        {
-          "heading": "Geopolitical Conflicts",
-          "body": "Alden frequently comments on geopolitical conflicts, such as the Iran situation, and their broader macroeconomic implications, providing insights into how these events can affect financial markets."
-        },
-        {
-          "heading": "Monetary Policy",
-          "body": "She offers perspectives on monetary policy, including the potential impact of leadership changes at central banks, like the anticipated transition with Kevin Wars as the new Fed Chair."
-        },
-        {
-          "heading": "Inflation Outlook",
-          "body": "Alden discusses the outlook for persistent inflation, analyzing its causes and potential effects on economies and investment strategies."
-        },
-        {
-          "heading": "Private Credit Markets",
-          "body": "She also addresses the breakdown in private credit markets, explaining how this can influence the overall health and stability of the financial system."
-        }
-      ]
-    },
-    "net_worth": "$4.6M"
-  },
-  {
-    "id": 122,
-    "name": "Michael Every",
-    "slug": "michael-every",
-    "bio": "Michael Every is a Global Strategist for Economics and Markets at Robo Banks, known for his exceptional ability to translate political statements into market implications. His insights are highly valued by professional finance, high-net worth individuals, family offices, and sophisticated investors.",
-    "known_for": "His ability to translate political statements into market implications and his expertise in macroeconomics.",
-    "net_worth_usd": 70000000000.0,
-    "net_worth_source": "https://www.celebritynetworth.com/richest-politicians/michael-bloomberg-net-worth/",
-    "net_worth_updated_at": "2026-03-31T20:09:40.488239",
-    "voice_tone": "Cautious and skeptical",
-    "voice_style": "Direct and candid, with a focus on the complexities of the current geopolitical situation",
-    "voice_delivery_notes": "Paced with pauses for emphasis, highlighting the uncertainty of the situation",
-    "voice_profile_updated_at": "2026-03-26 19:14:35",
-    "last_seen": "2026-03-26 19:14:35",
-    "last_episode_title": "Macro Voices Episode 525: Multi-Polar World Order, Iran Conflict, and Inflation Outlook",
-    "last_podcast_name": "Macro Voices",
-    "last_episode_date": "2026-03-26",
-    "mention_score": 1,
-    "mention_score_decayed": 0.54,
-    "last_main_idea": "Investors should consider the geopolitical risks and shifts in global power dynamics when constructing their portfolios, with a focus on sectors that may be affected by rising energy prices and inflation.",
-    "last_proof_cite": "Macro Voices \u2022 2026-03-26 \u2022 Macro Voices Episode 525: Multi-Polar World Order, Iran Conflict, and Inflation Outlook",
-    "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
-    "supporting_takeaway": "The world is transitioning into a multi-polar world, which has economic and investment implications.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-26T14:15:50.429943",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Michael Every",
-      "fetched_at": "2026-03-26T19:15:50.429788+00:00",
-      "cliff_notes": "Michael Every is recognized for his exceptional track record in translating political statements into market implications. As a Global Strategist for Economics and Markets at Robo Banks, he provides valuable insights to professional finance, high-net worth individuals, family offices, and sophisticated investors. His expertise in macroeconomics and geopolitical analysis has made him a sought-after commentator in the world of finance. Every's ability to dissect complex political situations and predict their impact on the market has earned him a reputation as a trusted voice in the industry.",
-      "derived": {
-        "current_role": "Global Strategist for Economics and Markets at Robo Banks"
-      },
-      "infobox": {
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Michael Every is recognized for his exceptional track record in translating political statements into market implications. As a Global Strategist for Economics and Markets at Robo Banks, he provides valuable insights to professional finance, high-net worth individuals, family offices, and sophisticated investors. His expertise in macroeconomics and geopolitical analysis has made him a sought-after commentator in the world of finance.",
-        "Every's ability to dissect complex political situations and predict their impact on the market has earned him a reputation as a trusted voice in the industry."
-      ],
-      "sections": [
-        {
-          "heading": "Macroeconomics",
-          "body": "Michael Every is known for his expertise in macroeconomics, providing insights into the broader implications of political and economic events on the global market."
-        },
-        {
-          "heading": "Geopolitical Analysis",
-          "body": "Every's geopolitical analysis is highly regarded, as he is able to dissect complex political situations and predict their impact on the market."
-        },
-        {
-          "heading": "Market Implications",
-          "body": "His ability to translate political statements into market implications has made him a trusted voice in the world of finance, providing valuable insights to investors and financial professionals."
-        }
-      ]
-    },
-    "net_worth": "$70.00B"
-  },
-  {
-    "id": 118,
-    "name": "Justin Finnelli",
-    "slug": "justin-finnelli",
-    "bio": "Justin Finnelli is the Chief Technology Officer (CTO) of the U.S. Navy, tasked with identifying technological needs and gaps, and connecting with innovators to bring about improvements or breakthroughs. His work is pivotal in signal to noise detection and catalyzing innovation within the Navy.",
-    "known_for": "His role in enhancing the Navy's technological capabilities and his insights into cybersecurity threats, particularly regarding telecommunications infiltration.",
-    "net_worth_usd": 3000000000.0,
-    "net_worth_source": "https://www.businesswire.com/news/home/20250820740989/en/U.S.-Navy-CTO-Justin-Fanelli-Joins-Hupside-to-Champion-Human-Originality-in-the-Age-of-AI",
-    "net_worth_updated_at": "2026-03-26T11:51:58.064732",
-    "voice_tone": "Informative and solution-oriented",
-    "voice_style": "Focuses on the importance of innovation and collaboration",
-    "voice_delivery_notes": "Speaks with a clear emphasis on the necessity of addressing cybersecurity threats",
-    "voice_profile_updated_at": "2026-03-26 16:16:20",
-    "last_seen": "2026-03-26 16:16:20",
-    "last_episode_title": "Cybersecurity and National Security in the Telecommunications Sector",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-03-26",
-    "mention_score": 1,
-    "mention_score_decayed": 0.54,
-    "last_main_idea": "Investing in cybersecurity solutions that can secure networks on top of compromised physical infrastructure is crucial for national security and economic prosperity.",
-    "last_proof_cite": "The a16z Show \u2022 2026-03-26 \u2022 Cybersecurity and National Security in the Telecommunications Sector",
-    "last_proof_snippet": "I was a Davos last year in a cyber form, and one of the speakers was talking about salt typhoon. It was closed door, room of 60 cyber folks, and it's like, how many people know about this? It was five out of 60. What we learned was that Chi",
-    "supporting_takeaway": "The infiltration was not a one-time breach but a result of an industry-wide failure in cybersecurity.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-26T11:16:44.078788",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Justin Finnelli",
-      "fetched_at": "2026-03-26T16:16:44.078427+00:00",
-      "cliff_notes": "Justin Finnelli serves as the Chief Technology Officer of the U.S. Navy, where he is responsible for recognizing the technological requirements and shortcomings of the Navy's operations. His role involves liaising with innovators to address these gaps, thereby enhancing the Navy's technological edge. Finnelli's expertise extends to cybersecurity, where he has been vocal about the threats posed by foreign infiltration of telecommunications infrastructure, as evidenced by his discussions on the 'Salt Typhoon' incident. His work is crucial in ensuring the Navy's technological readiness and in safeguarding national security interests in the digital age.",
-      "derived": {
-        "current_role": "CTO of the Navy"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Justin Finnelli serves as the Chief Technology Officer of the U.S. Navy, where he is responsible for recognizing the technological requirements and shortcomings of the Navy's operations. His role involves liaising with innovators to address these gaps, thereby enhancing the Navy's technological edge. Finnelli's expertise extends to cybersecurity, where he has been vocal about the threats posed by foreign infiltration of telecommunications infrastructure, as evidenced by his discussions on the 'Salt Typhoon' incident.",
-        "His work is crucial in ensuring the Navy's technological readiness and in safeguarding national security interests in the digital age."
-      ],
-      "sections": [
-        {
-          "heading": "Naval Technology",
-          "body": "Justin Finnelli plays a critical role in identifying and bridging technological gaps within the U.S. Navy, ensuring that the force remains at the forefront of modern military capabilities."
-        },
-        {
-          "heading": "Cybersecurity",
-          "body": "Finnelli has been instrumental in raising awareness about the infiltration of major U.S. telecommunications carriers by foreign entities, emphasizing the importance of cybersecurity in national defense."
-        },
-        {
-          "heading": "Innovation Catalyst",
-          "body": "As CTO, Finnelli connects with innovators to bring about technological improvements and breakthroughs, which are vital for the advancement of the Navy's operational capabilities."
-        }
-      ]
-    },
-    "net_worth": "$3.00B"
-  },
-  {
-    "id": 119,
-    "name": "John Doyle",
-    "slug": "john-doyle",
-    "bio": "John Doyle is the Founder and CEO of a company focused on developing secure networks that operate on compromised physical infrastructure. His work is pivotal in addressing cybersecurity threats and ensuring secure communication in the digital age.",
-    "known_for": "Creating secure networks that can operate on compromised physical infrastructure, crucial in the face of increasing cybersecurity threats.",
-    "net_worth_usd": 27500000.0,
-    "net_worth_source": "https://www.quiverquant.com/insiders/1580963/John-Q-Doyle",
-    "net_worth_updated_at": "2026-03-26T11:16:53.602329",
-    "voice_tone": "Confident and solution-focused",
-    "voice_style": "Discusses the practical applications of secure network technology",
-    "voice_delivery_notes": "Speaks with conviction about the importance of secure networks in the telecommunications sector",
-    "voice_profile_updated_at": "2026-03-26 16:16:20",
-    "last_seen": "2026-03-26 16:16:20",
-    "last_episode_title": "Cybersecurity and National Security in the Telecommunications Sector",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-03-26",
-    "mention_score": 1,
-    "mention_score_decayed": 0.54,
-    "last_main_idea": "Investing in cybersecurity solutions that can secure networks on top of compromised physical infrastructure is crucial for national security and economic prosperity.",
-    "last_proof_cite": "The a16z Show \u2022 2026-03-26 \u2022 Cybersecurity and National Security in the Telecommunications Sector",
-    "last_proof_snippet": "I was a Davos last year in a cyber form, and one of the speakers was talking about salt typhoon. It was closed door, room of 60 cyber folks, and it's like, how many people know about this? It was five out of 60. What we learned was that Chi",
-    "supporting_takeaway": "The infiltration was not a one-time breach but a result of an industry-wide failure in cybersecurity.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-26T11:16:52.472386",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "John Doyle",
-      "fetched_at": "2026-03-26T16:16:52.472220+00:00",
-      "cliff_notes": "John Doyle is recognized for his work in cybersecurity, particularly in creating secure networks that can operate securely on top of compromised physical infrastructure. As the CEO of his own company, he has been at the forefront of developing solutions to protect against cyber threats. His insights into the vulnerabilities of major telecommunications carriers, as highlighted in his Davos appearance, underscore the importance of his work. Doyle's contributions to the field are significant, as they address the fundamental security of digital communications, which is critical in an era where personal and business data is increasingly targeted by cybercriminals.",
-      "derived": {
-        "current_role": "Founder and CEO of a secure network company"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "John Doyle is recognized for his work in cybersecurity, particularly in creating secure networks that can operate securely on top of compromised physical infrastructure. As the CEO of his own company, he has been at the forefront of developing solutions to protect against cyber threats. His insights into the vulnerabilities of major telecommunications carriers, as highlighted in his Davos appearance, underscore the importance of his work.",
-        "Doyle's contributions to the field are significant, as they address the fundamental security of digital communications, which is critical in an era where personal and business data is increasingly targeted by cybercriminals."
-      ],
-      "sections": [
-        {
-          "heading": "Secure Networks",
-          "body": "John Doyle is known for his innovative approach to creating secure networks that can operate even when the underlying physical infrastructure is compromised."
-        },
-        {
-          "heading": "Cybersecurity Threats",
-          "body": "His work is vital in the face of increasing cybersecurity threats, particularly those posed by state-sponsored actors like China, as evidenced by the Salt Typhoon incident."
-        },
-        {
-          "heading": "Communications Infrastructure",
-          "body": "Doyle's expertise lies in securing telecommunications infrastructure, a critical component of modern society where much of life and business is conducted through digital means."
-        }
-      ]
-    },
-    "net_worth": "$27.5M"
-  },
-  {
-    "id": 117,
-    "name": "Liz Ann Saunders",
-    "slug": "liz-ann-saunders",
-    "bio": "Liz Ann Saunders is the Chief Investment Strategist at Charles Schwab, where she provides investment insights and analysis. She has been recognized for her expertise in understanding complex market environments and her ability to interpret underlying stresses in the market that are often obscured by headline indices.",
-    "known_for": "Her analytical prowess in deciphering market trends and her role in guiding investment strategies at Charles Schwab.",
-    "net_worth_usd": 5000000.0,
-    "net_worth_source": "https://noteablebio.com/the-remarkable-journey-of-liz-ann-sonders-and-her-net-worth/",
-    "net_worth_updated_at": "2026-03-26T08:21:27.303779",
-    "voice_tone": "Analytical and informative",
-    "voice_style": "Factual and data-driven",
-    "voice_delivery_notes": "Paced with emphasis on key data points",
-    "voice_profile_updated_at": "2026-03-26 13:18:11",
-    "last_seen": "2026-03-26 13:18:11",
-    "last_episode_title": "Monetary Matters: Analyzing Market Stress and the Impact of Oil Prices",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-03-25",
-    "mention_score": 1,
-    "mention_score_decayed": 0.54,
-    "last_main_idea": "The market is experiencing underlying stress that is not reflected in headline indices, suggesting a need for a more nuanced approach to investment decisions.",
-    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-25 \u2022 Monetary Matters: Analyzing Market Stress and the Impact of Oil Prices",
-    "last_proof_snippet": "Today's episode is brought you by Pictay asset management and their AI enhanced ETF range, ticker PQ&T and PQUS. You'll hear more about how they're using AI to enhance equity exposure later in the show. For now, let's get into it. Very plea",
-    "supporting_takeaway": "Market rotation and churn are masking underlying weaknesses in certain sectors and stocks.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-26T08:21:26.552392",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Liz Ann Saunders",
-      "fetched_at": "2026-03-26T13:21:26.552175+00:00",
-      "cliff_notes": "Liz Ann Saunders has established herself as a prominent figure in the investment strategy space, particularly within the context of Charles Schwab. Her career has been marked by a deep understanding of market dynamics and the ability to provide clear insights into what the headline indices might not fully reveal. Saunders' work has been pivotal in helping investors navigate complex market environments, where she has demonstrated an analytical richness that goes beyond surface-level indices to uncover underlying market stress. Her contributions to the field have made her a respected voice in the investment community, and her insights are sought after for their clarity and depth.",
-      "derived": {
-        "current_role": "Chief Investment Strategist at Charles Schwab"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Liz Ann Saunders has established herself as a prominent figure in the investment strategy space, particularly within the context of Charles Schwab. Her career has been marked by a deep understanding of market dynamics and the ability to provide clear insights into what the headline indices might not fully reveal. Saunders' work has been pivotal in helping investors navigate complex market environments, where she has demonstrated an analytical richness that goes beyond surface-level indices to uncover underlying market stress.",
-        "Her contributions to the field have made her a respected voice in the investment community, and her insights are sought after for their clarity and depth."
-      ],
-      "sections": [
-        {
-          "heading": "Market Analysis",
-          "body": "Liz Ann Saunders is known for her in-depth analysis of market trends, particularly how headline indices can mask the true nature of market stress."
-        },
-        {
-          "heading": "Investment Strategy",
-          "body": "As Chief Investment Strategist at Charles Schwab, Saunders plays a critical role in shaping the firm's investment strategies and providing guidance to clients."
-        },
-        {
-          "heading": "Market Education",
-          "body": "Saunders is also recognized for her efforts in educating investors about the intricacies of the market, helping them make more informed decisions."
-        }
-      ]
-    },
-    "net_worth": "$5.0M"
-  },
-  {
-    "id": 114,
-    "name": "Chris Power",
-    "slug": "chris-power",
-    "bio": "Chris Power is the founder and CEO of Hadrian, a company that specializes in advanced manufacturing for submarines. He is known for leading the development of a 2.25 million square foot advanced manufacturing facility for submarine programs, which is crucial for the United States Navy's submarine fleet modernization.",
-    "known_for": "Developing advanced manufacturing capabilities for the U.S. Navy's submarine programs.",
-    "net_worth_usd": 220000000.0,
-    "net_worth_source": "https://www.businessoffamily.net/chris-powers",
-    "net_worth_updated_at": "2026-03-26T04:21:15.715437",
-    "voice_tone": "Confident and solution-oriented",
-    "voice_style": "Factual and forward-looking",
-    "voice_delivery_notes": "Clear and assertive with a focus on the future of manufacturing",
-    "voice_profile_updated_at": "2026-03-26 09:20:15",
-    "last_seen": "2026-03-26 09:20:15",
-    "last_episode_title": "Submarine Manufacturing and Advanced Factories",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-03-25",
-    "mention_score": 1,
-    "mention_score_decayed": 0.52,
-    "last_main_idea": "Investing in advanced manufacturing and workforce development for submarine production could lead to increased efficiency and meet the growing demand for naval capabilities.",
-    "last_proof_cite": "The a16z Show \u2022 2026-03-25 \u2022 Submarine Manufacturing and Advanced Factories",
-    "last_proof_snippet": "The real advantage that submarines bring is our stealth and access. We can pretty much go anywhere in the world undetected. We can carry nuclear missiles on our ballistic missile submarines, and that ensures that we continue our decades of",
-    "supporting_takeaway": "The end of the Cold War led to a collapse in submarine production, resulting in a significant skills gap.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-26T04:20:54.928623",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Chris Power",
-      "fetched_at": "2026-03-26T09:20:54.928394+00:00",
-      "cliff_notes": "Chris Power is recognized for his work in the field of advanced manufacturing, particularly in the context of submarine production. As the CEO of Hadrian, he has been instrumental in the development of a large-scale manufacturing facility aimed at enhancing the capabilities of the U.S. Navy's submarine fleet. His efforts are focused on increasing productivity and efficiency in submarine manufacturing, which is critical for national defense and maintaining strategic advantages. Power's work bridges the gap between traditional manufacturing and modern technology, emphasizing the importance of advanced factories in achieving the necessary productivity uplift. His leadership in this field is significant for investors and tech listeners due to the implications for national security, economic growth, and the future of manufacturing.",
-      "derived": {
-        "current_role": "Founder and CEO of Hadrian"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Chris Power is recognized for his work in the field of advanced manufacturing, particularly in the context of submarine production. As the CEO of Hadrian, he has been instrumental in the development of a large-scale manufacturing facility aimed at enhancing the capabilities of the U.S. Navy's submarine fleet. His efforts are focused on increasing productivity and efficiency in submarine manufacturing, which is critical for national defense and maintaining strategic advantages.",
-        "Power's work bridges the gap between traditional manufacturing and modern technology, emphasizing the importance of advanced factories in achieving the necessary productivity uplift. His leadership in this field is significant for investors and tech listeners due to the implications for national security, economic growth, and the future of manufacturing."
-      ],
-      "sections": [
-        {
-          "heading": "Submarine Manufacturing",
-          "body": "Chris Power is leading the charge in advanced manufacturing for submarines, which is pivotal for the U.S. Navy's fleet modernization and maintaining strategic advantages at sea."
-        },
-        {
-          "heading": "Productivity and Efficiency",
-          "body": "Power emphasizes the need for a productivity uplift in submarine manufacturing, advocating for the fusion of workforce training and software to achieve higher production rates and meet the Navy's growing demands."
-        },
-        {
-          "heading": "Advanced Factories",
-          "body": "The development of Hadrian's 2.25 million square foot facility showcases Power's commitment to creating advanced factories that can significantly increase the production capacity for submarines, which is essential for national defense."
-        }
-      ]
-    },
-    "net_worth": "$220.0M"
-  },
-  {
-    "id": 115,
-    "name": "Robert Goucher",
-    "slug": "robert-goucher",
-    "bio": "Vice-Admiral Robert Goucher is responsible for overseeing the strategic and operational aspects of submarine production for the United States Navy. He is known for his expertise in maintaining the stealth capabilities and strategic deterrence provided by the Navy's submarine fleet.",
-    "known_for": "Leading the U.S. Navy's submarine production efforts and addressing the challenges of modernizing the fleet.",
+    "id": 125,
+    "name": "Lupin Ramon",
+    "slug": "lupin-ramon",
+    "bio": "Lupin Ramon is an independent sovereign debt specialist with extensive experience in global finance. He has worked at the World Bank, IMF, and most recently as head of sovereign credit at PIMCO. Ramon is also the author of 'The Sovereign Debt Investor: An Essential Guide to Returns, Defaults, and Government Bond Investing'.",
+    "known_for": "His expertise in sovereign debt and his influential book on the subject.",
     "net_worth_usd": null,
     "net_worth_source": "",
     "net_worth_updated_at": null,
-    "voice_tone": "Authoritative and pragmatic",
-    "voice_style": "Strategic and solution-focused",
-    "voice_delivery_notes": "Deliberate with an emphasis on the importance of the mission",
-    "voice_profile_updated_at": "2026-03-26 09:20:15",
-    "last_seen": "2026-03-26 09:20:15",
-    "last_episode_title": "Submarine Manufacturing and Advanced Factories",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-03-25",
+    "voice_tone": "Informed and analytical.",
+    "voice_style": "Factual and educational, providing detailed explanations of complex concepts.",
+    "voice_delivery_notes": "Clear and measured pace with emphasis on key points.",
+    "voice_profile_updated_at": "2026-03-28 09:04:34",
+    "last_seen": "2026-03-28 09:04:34",
+    "last_episode_title": "Investing in Sovereign Credit with Lupin Ramon",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-03-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.52,
-    "last_main_idea": "Investing in advanced manufacturing and workforce development for submarine production could lead to increased efficiency and meet the growing demand for naval capabilities.",
-    "last_proof_cite": "The a16z Show \u2022 2026-03-25 \u2022 Submarine Manufacturing and Advanced Factories",
-    "last_proof_snippet": "The real advantage that submarines bring is our stealth and access. We can pretty much go anywhere in the world undetected. We can carry nuclear missiles on our ballistic missile submarines, and that ensures that we continue our decades of",
-    "supporting_takeaway": "The end of the Cold War led to a collapse in submarine production, resulting in a significant skills gap.",
+    "mention_score_decayed": 0.55,
+    "last_main_idea": "Sovereign credit investing requires a deep understanding of the unique risks and dynamics of lending to governments, which can offer significant returns but also carries substantial risks, particularly in the current geopolitical climate.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-27 \u2022 Investing in Sovereign Credit with Lupin Ramon",
+    "last_proof_snippet": "Today's episode is brought to you by the unlimited HFGM global macro ETF ticker HFGM. Later in the show, you'll hear more about HFGM currently the number one morning star rated funds sits its inception in the US macro trading category. Let'",
+    "supporting_takeaway": "Investors in sovereign debt must consider both the ability and willingness of governments to repay, which can be influenced by a multitude of qualitative factors.",
     "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-26T04:21:24.879895",
+    "grokipedia_fetched_at": "2026-03-28T04:06:45.925345",
     "pundit_profile": {
       "source": "llm",
       "source_model": "moonshot:moonshot-v1-8k",
       "source_url": "",
-      "page_title": "Robert Goucher",
-      "fetched_at": "2026-03-26T09:21:24.879791+00:00",
-      "cliff_notes": "Vice-Admiral Robert Goucher has had a distinguished career in the United States Navy, with a focus on submarine production. His role involves overseeing the strategic and operational aspects of submarine production, ensuring the Navy maintains its stealth and access capabilities. Goucher has been at the forefront of efforts to modernize the Navy's fleet, addressing the challenges posed by the end of the Cold War and the subsequent collapse in submarine production. He has emphasized the importance of combining a new workforce, American software, steel, and spirit to achieve a productivity uplift in submarine manufacturing. His leadership is crucial in ensuring the United States maintains its strategic deterrence and peace through strength.",
+      "page_title": "Lupin Ramon",
+      "fetched_at": "2026-03-28T09:06:45.924969+00:00",
+      "cliff_notes": "Lupin Ramon has had a distinguished career in global finance, starting as an economist at the World Bank and the International Monetary Fund. His expertise in sovereign debt grew as he took on the role of head of sovereign credit at PIMCO, one of the world's leading investment management firms. Ramon's insights into the complexities of sovereign debt investing have been widely recognized, leading him to author 'The Sovereign Debt Investor', a comprehensive guide that has become a valuable resource for investors. His work bridges the gap between academic understanding and practical investment strategies, making him a sought-after voice in the field of global macroeconomics.",
       "derived": {
-        "current_role": "Vice-Admiral in charge of all submarine production for the United States Navy"
+        "current_role": "Independent sovereign debt specialist",
+        "former_positions": "Economist at the World Bank; Economist at the International Monetary Fund; Head of Sovereign Credit at PIMCO",
+        "books_or_works": "The Sovereign Debt Investor: An Essential Guide to Returns, Defaults, and Government Bond Investing"
       },
       "infobox": {
         "Born": "",
-        "Nationality": "American"
+        "Nationality": ""
       },
       "lead_paragraphs": [
-        "Vice-Admiral Robert Goucher has had a distinguished career in the United States Navy, with a focus on submarine production. His role involves overseeing the strategic and operational aspects of submarine production, ensuring the Navy maintains its stealth and access capabilities. Goucher has been at the forefront of efforts to modernize the Navy's fleet, addressing the challenges posed by the end of the Cold War and the subsequent collapse in submarine production.",
-        "He has emphasized the importance of combining a new workforce, American software, steel, and spirit to achieve a productivity uplift in submarine manufacturing. His leadership is crucial in ensuring the United States maintains its strategic deterrence and peace through strength."
+        "Lupin Ramon has had a distinguished career in global finance, starting as an economist at the World Bank and the International Monetary Fund. His expertise in sovereign debt grew as he took on the role of head of sovereign credit at PIMCO, one of the world's leading investment management firms. Ramon's insights into the complexities of sovereign debt investing have been widely recognized, leading him to author 'The Sovereign Debt Investor', a comprehensive guide that has become a valuable resource for investors.",
+        "His work bridges the gap between academic understanding and practical investment strategies, making him a sought-after voice in the field of global macroeconomics."
       ],
       "sections": [
         {
-          "heading": "Submarine Production",
-          "body": "Vice-Admiral Robert Goucher is responsible for overseeing the strategic and operational aspects of submarine production for the United States Navy, ensuring the fleet's stealth and access capabilities are maintained."
+          "heading": "Sovereign Debt",
+          "body": "Lupin Ramon has deep knowledge in sovereign debt, having worked at the World Bank and IMF, and later leading sovereign credit at PIMCO."
         },
         {
-          "heading": "Modernizing the Fleet",
-          "body": "Goucher has been at the forefront of efforts to modernize the Navy's submarine fleet, addressing the challenges posed by the end of the Cold War and the subsequent collapse in submarine production."
+          "heading": "Global Finance",
+          "body": "His career has been dedicated to understanding and navigating the intricacies of global finance, with a particular focus on sovereign debt."
         },
         {
-          "heading": "Productivity Uplift",
-          "body": "Emphasizing the importance of combining a new workforce, American software, steel, and spirit, Goucher is focused on achieving a productivity uplift in submarine manufacturing to meet the Navy's increased capacity needs."
+          "heading": "Investment Strategy",
+          "body": "Ramon's book provides investors with a guide to understanding returns, defaults, and strategies in government bond investing."
+        },
+        {
+          "heading": "Economic Policy",
+          "body": "His work at international financial institutions has given him a unique perspective on economic policy and its impact on sovereign debt."
         }
       ]
     }
   },
   {
-    "id": 113,
-    "name": "Brian Johnson",
-    "slug": "brian-johnson",
-    "bio": "Brian Johnson is a longevity enthusiast and experimenter with psychedelics for health and longevity. He has dedicated his work to exploring scientific evidence for interventions that promote health and longevity.",
-    "known_for": "His work in exploring scientific evidence for interventions that promote health and longevity, particularly through the use of psychedelics.",
-    "net_worth_usd": 300000000.0,
-    "net_worth_source": "https://joinhampton.com/blog/the-300-million-exit-thats-funding-humanitys-future-with-bryan-johnson",
-    "net_worth_updated_at": "2026-03-31T20:09:42.531381",
-    "voice_tone": "Calm and reflective, with a sense of awe and profundity.",
-    "voice_style": "Johnson speaks with a narrative style, sharing personal experiences and drawing on scientific evidence.",
-    "voice_delivery_notes": "Pacing is thoughtful, with emphasis on the transformative aspects of his psychedelic experiences.",
-    "voice_profile_updated_at": "2026-03-26 09:17:24",
-    "last_seen": "2026-03-26 09:17:24",
-    "last_episode_title": "Exploring Psychedelics for Longevity and Personal Growth",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-03-26",
+    "id": 126,
+    "name": "Ada Palmer",
+    "slug": "ada-palmer",
+    "bio": "Ada Palmer is a Renaissance historian, novelist, and composer based at the University of Chicago. She is known for her book 'Inventing the Renaissance,' which explores the economic and cultural factors of the period.",
+    "known_for": "Authoring 'Inventing the Renaissance' and her expertise in the economic and cultural aspects of the Renaissance period.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Informed and analytical",
+    "voice_style": "Detailed and historical narrative",
+    "voice_delivery_notes": "Pacing is steady with emphasis on key historical points",
+    "voice_profile_updated_at": "2026-03-28 18:25:51",
+    "last_seen": "2026-03-28 18:25:51",
+    "last_episode_title": "Inventing the Renaissance: Economic and Technological Insights",
+    "last_podcast_name": "Dwarkesh Podcast",
+    "last_episode_date": "2026-03-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.52,
-    "last_main_idea": "Investment in psychedelics for longevity and personal growth is based on the potential for these substances to induce significant changes in consciousness and promote personal rejuvenation.",
-    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-26 \u2022 Exploring Psychedelics for Longevity and Personal Growth",
-    "last_proof_snippet": "Brian Johnson, thanks for being here. Yeah, it's good to see you. How are you feeling? Maybe just share with us what you did a few days ago. Yeah, I did a I did five MEO DMT, which is the most powerful psychedelic on the planet. Some are be",
-    "supporting_takeaway": "Johnson's experience with 5-MEO-DMT was profound, leading to a significant personal reset and a renewed sense of purpose.",
+    "mention_score_decayed": 0.55,
+    "last_main_idea": "The historical insights from the Italian Renaissance period suggest that technological advancements, such as the printing press, can have a profound impact on society and information distribution, which parallels modern tech revolutions and their investment implications.",
+    "last_proof_cite": "Dwarkesh Podcast \u2022 2026-03-06 \u2022 Inventing the Renaissance: Economic and Technological Insights",
+    "last_proof_snippet": "Today, I'm chatting with Ada Palmer, who is a Renaissance historian, a novelist, a composer, based at the University of Chicago, and today we're discussing your book inventing the Renaissance. Ada, thanks for coming on the podcast. Then, lo",
+    "supporting_takeaway": "The ability to sustain local governance was linked to the quality of agricultural land, which allowed wealthier towns to establish republics.",
     "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-26T04:22:22.498838",
+    "grokipedia_fetched_at": "2026-03-31T20:09:36.658693",
     "pundit_profile": {
       "source": "llm",
       "source_model": "moonshot:moonshot-v1-8k",
       "source_url": "",
-      "page_title": "Brian Johnson",
-      "fetched_at": "2026-03-26T09:22:22.498676+00:00",
-      "cliff_notes": "Brian Johnson is a longevity enthusiast and experimenter with psychedelics for health and longevity. He has dedicated his work to exploring scientific evidence for interventions that promote health and longevity. Johnson started his project five years ago with the approach of going through all the scientific evidence ever published on health and longevity to find the interventions with the best evidence for effect size. His work has led him to experiment with psychedelics, such as MEO DMT, as part of his longevity experiments. Johnson's work is of interest to investors and tech listeners due to its potential implications for health and longevity in the tech industry.",
+      "page_title": "Ada Palmer",
+      "fetched_at": "2026-04-01T01:09:36.658555+00:00",
+      "cliff_notes": "Ada Palmer is a Renaissance historian, novelist, and composer who has made significant contributions to the understanding of the economic and cultural factors of the Renaissance period. Based at the University of Chicago, Palmer's work has been influential in shaping the discourse around the Italian city republics and their role in the development of modern Europe. Her book 'Inventing the Renaissance' has been particularly impactful, providing a comprehensive analysis of the period and its lasting effects on Western civilization. Through her research and writing, Palmer has become a respected voice in the field of Renaissance studies, offering valuable insights into the historical context that has shaped the modern world.",
       "derived": {
-        "current_role": "Longevity Enthusiast"
+        "current_role": "Historian, Novelist, Composer at the University of Chicago",
+        "books_or_works": "Inventing the Renaissance"
       },
       "infobox": {
         "Born": "",
         "Nationality": ""
       },
       "lead_paragraphs": [
-        "Brian Johnson is a longevity enthusiast and experimenter with psychedelics for health and longevity. He has dedicated his work to exploring scientific evidence for interventions that promote health and longevity. Johnson started his project five years ago with the approach of going through all the scientific evidence ever published on health and longevity to find the interventions with the best evidence for effect size.",
-        "His work has led him to experiment with psychedelics, such as MEO DMT, as part of his longevity experiments. Johnson's work is of interest to investors and tech listeners due to its potential implications for health and longevity in the tech industry."
+        "Ada Palmer is a Renaissance historian, novelist, and composer who has made significant contributions to the understanding of the economic and cultural factors of the Renaissance period. Based at the University of Chicago, Palmer's work has been influential in shaping the discourse around the Italian city republics and their role in the development of modern Europe.",
+        "Her book 'Inventing the Renaissance' has been particularly impactful, providing a comprehensive analysis of the period and its lasting effects on Western civilization. Through her research and writing, Palmer has become a respected voice in the field of Renaissance studies, offering valuable insights into the historical context that has shaped the modern world."
       ],
       "sections": [
         {
-          "heading": "Longevity Experiments",
-          "body": "Brian Johnson has been conducting longevity experiments, including the use of psychedelics like MEO DMT, to explore interventions that promote health and longevity."
+          "heading": "Renaissance Historian",
+          "body": "Ada Palmer is a renowned historian specializing in the Renaissance period, focusing on the economic and cultural factors that shaped the era."
         },
         {
-          "heading": "Scientific Evidence",
-          "body": "Johnson's approach to longevity involves going through all the scientific evidence ever published on health and longevity to find the interventions with the best evidence for effect size."
+          "heading": "Author of 'Inventing the Renaissance'",
+          "body": "Palmer's book 'Inventing the Renaissance' is a significant contribution to historical literature, providing a detailed exploration of the period's complexities and its impact on modern society."
         },
         {
-          "heading": "Psychedelics for Health",
-          "body": "Johnson has experimented with psychedelics, such as MEO DMT, as part of his longevity experiments, exploring their potential benefits for health and longevity."
+          "heading": "Composer and Novelist",
+          "body": "In addition to her historical work, Palmer is also a composer and novelist, showcasing her diverse talents and contributions to the arts and academia."
+        },
+        {
+          "heading": "University of Chicago",
+          "body": "Based at the University of Chicago, Palmer continues to teach and research, sharing her expertise with students and the academic community."
+        }
+      ]
+    }
+  },
+  {
+    "id": 127,
+    "name": "Rupert Mitchell",
+    "slug": "rupert-mitchell",
+    "bio": "Rupert Mitchell is an accomplished banker, investor, and analyst with a background in the Ottawa Mobile industry. He is the founder of Blind Squirrel Macro, where he is known for his research and insights on macroeconomic trends.",
+    "known_for": "His research and insights on macroeconomic trends, particularly in the context of market valuations and the business cycle.",
+    "net_worth_usd": 19500000000.0,
+    "net_worth_source": "https://artistnetworth.org/richest-businessman/ceo/rupert-murdoch-net-worth/",
+    "net_worth_updated_at": "2026-03-31T22:01:54.804516",
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-03-28 18:30:57",
+    "last_episode_title": "Stock Market on Shaky Foundations | Blind Squirrel Macro\u2019s Rupert Mitchell on IPO Supply, Oil, and Private Credit",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-03-18",
+    "mention_score": 1,
+    "mention_score_decayed": 0.55,
+    "last_main_idea": "The current bull market is built on shaky foundations, and a shift towards a more cautious stance with a focus on security software and data lake control is advised.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-18 \u2022 Stock Market on Shaky Foundations | Blind Squirrel Macro\u2019s Rupert Mitchell on IPO Supply, Oil, and Private Credit",
+    "last_proof_snippet": "This episode of Monetary Matters is brought to you by the two-creations Soybean Fund. Take your S.O.Y.B. Let's get into it. I've been worried about markets for several weeks now, in fact, long before a round kicked off. And I keep on seeing",
+    "supporting_takeaway": "Rupert Mitchell is worried about the business cycle ending and the crumbling pillars of buybacks, 401Ks, M&A, and de-equitization.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-31T20:09:25.315808",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Rupert Mitchell",
+      "fetched_at": "2026-04-01T01:09:25.315513+00:00",
+      "cliff_notes": "Rupert Mitchell has had a diverse career in finance, starting in the Ottawa Mobile industry and later transitioning into banking and investment. His expertise in macroeconomic trends has led him to found Blind Squirrel Macro, where he provides research and insights that are highly valued by investors and analysts. Mitchell's work focuses on understanding the broader economic landscape and its implications for market behavior, making him a sought-after voice in discussions about the business cycle and market valuations.",
+      "derived": {
+        "current_role": "Founder of Blind Squirrel Macro"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Rupert Mitchell has had a diverse career in finance, starting in the Ottawa Mobile industry and later transitioning into banking and investment. His expertise in macroeconomic trends has led him to found Blind Squirrel Macro, where he provides research and insights that are highly valued by investors and analysts. Mitchell's work focuses on understanding the broader economic landscape and its implications for market behavior, making him a sought-after voice in discussions about the business cycle and market valuations."
+      ],
+      "sections": [
+        {
+          "heading": "Market Valuations",
+          "body": "Rupert Mitchell has expressed concerns about current market valuations, suggesting that they may be built on unstable foundations such as buybacks, 401K contributions, and mergers and acquisitions."
+        },
+        {
+          "heading": "Business Cycle",
+          "body": "Mitchell has been vocal about his worries regarding the business cycle, indicating that he felt a slowdown in consumer activity even before recent geopolitical events, and he is concerned about the potential end of the cycle."
+        },
+        {
+          "heading": "Supply at Concept Type Valuation",
+          "body": "Rupert Mitchell has pointed out the upcoming supply of companies like SpaceX, OpenAI, and Thropic entering the market at high valuations, which could impact the stability of the current market structure."
         }
       ]
     },
-    "net_worth": "$300.0M"
+    "net_worth": "$19.50B"
   },
   {
-    "id": 110,
-    "name": "Adam Warmouth",
-    "slug": "adam-warmouth",
-    "bio": "Adam Warmouth is the Founder and CEO of Chariot Defense, a company that specializes in developing next-generation power systems for military operations. His focus is on creating innovative power solutions that enhance the capabilities of soldiers on the battlefield, especially in the context of an increasingly electronic warfare environment.",
-    "known_for": "Developing tactical power solutions for the modern battlefield, enhancing soldier capabilities and stealth.",
+    "id": 132,
+    "name": "David Freiberg",
+    "slug": "david-freiberg",
+    "bio": "David Freiberg is a guest with a background in science, known for his insights on the impact of technological advancements on various industries. He has been a contributor to discussions on technological disruption and its implications for society and the economy.",
+    "known_for": "His expertise in understanding how technology shapes industry trends and his contributions to public discourse on technological disruption.",
     "net_worth_usd": 1200000000.0,
-    "net_worth_source": "https://explore.st-aug.edu/exp/adam-22s-net-worth-shocked-the-business-world-the-untold-secrets-behind-his-billionairestyle-wealth",
-    "net_worth_updated_at": "2026-03-25T04:10:45.707150",
-    "voice_tone": "Informed and solution-focused",
-    "voice_style": "Practical and results-oriented",
-    "voice_delivery_notes": "Clear and concise with a focus on the impact of their solutions",
-    "voice_profile_updated_at": "2026-03-25 09:10:12",
-    "last_seen": "2026-03-25 09:10:12",
-    "last_episode_title": "The Tactical Power Layer for Modern Warfare",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-03-24",
+    "net_worth_source": "https://coinpaper.com/6251/david-friedberg-net-worth-insights-into-his-financial-success",
+    "net_worth_updated_at": "2026-03-28T22:05:34.408854",
+    "voice_tone": "Casual and engaging",
+    "voice_style": "Anecdotal with a focus on real-world examples",
+    "voice_delivery_notes": "Speaks with a relaxed pace, emphasizing key points with a slight increase in volume",
+    "voice_profile_updated_at": "2026-03-29 03:04:03",
+    "last_seen": "2026-03-29 03:04:03",
+    "last_episode_title": "Anthropic's Generational Run, OpenAI Panics, AI Moats, Meta Loses Lawsuits",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-03-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.51,
-    "last_main_idea": "Investing in companies that can provide innovative power solutions for the modern, electronic battlefield can offer significant opportunities as military forces worldwide seek to upgrade their capabilities.",
-    "last_proof_cite": "The a16z Show \u2022 2026-03-24 \u2022 The Tactical Power Layer for Modern Warfare",
-    "last_proof_snippet": "All the things we want to do is really about the soldier. In the mud, cold, wet, tired, hungry, what makes their lives easier or better. Your average soldier today, they're drawing just by themselves. 30 to 60 watts of power continuously du",
-    "supporting_takeaway": "Current power solutions like diesel generators are inefficient and create a tactical signature, making them a liability.",
+    "mention_score_decayed": 0.55,
+    "last_main_idea": "Invest in companies that are driving innovation and can disrupt traditional industries by offering superior products at better prices, while keeping an eye on the competitive dynamics between the US and China in scientific research and technology.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-27 \u2022 Anthropic's Generational Run, OpenAI Panics, AI Moats, Meta Loses Lawsuits",
+    "last_proof_snippet": "All right, everybody, welcome back to the number one podcast in the world, the fantastic four, the original. Oh, the cast is back. The cast is black in arms, brothers in arms. Here we go, good boys. We got a big newsweek, David Sachs. It's",
+    "supporting_takeaway": "Innovation is seen as a key driver in the current competitive landscape, particularly in the context of the US-China race in scientific research and technology.",
     "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-25T04:10:43.350646",
+    "grokipedia_fetched_at": "2026-03-28T22:05:33.382582",
     "pundit_profile": {
       "source": "llm",
       "source_model": "moonshot:moonshot-v1-8k",
       "source_url": "",
-      "page_title": "Adam Warmouth",
-      "fetched_at": "2026-03-25T09:10:43.350416+00:00",
-      "cliff_notes": "Adam Warmouth is recognized for his work in the field of military power solutions, particularly as the founder and CEO of Chariot Defense. His company is at the forefront of developing next-generation power systems designed to support soldiers in the field, focusing on the increasing electronic demands of modern warfare. Warmouth's innovations aim to provide soldiers with the necessary power to operate advanced equipment without compromising their position or safety. His work is crucial in addressing the power gap in military operations, ensuring that soldiers have the tools they need to succeed in a technologically advanced battlefield.",
-      "derived": {
-        "current_role": "Founder and CEO of Chariot Defense"
-      },
+      "page_title": "David Freiberg",
+      "fetched_at": "2026-03-29T03:05:33.382494+00:00",
+      "cliff_notes": "David Freiberg is recognized for his contributions to the dialogue on technology's influence on various sectors. His background in science provides a solid foundation for his analysis of technological disruption. Freiberg's insights are particularly valuable as they help investors and industry leaders understand the potential shifts and opportunities created by rapid technological advancements. His work is significant in the context of policy-making and strategic planning, as it offers a perspective on how to navigate and leverage the changes brought about by new technologies.",
+      "derived": {},
       "infobox": {
-        "Born": "",
         "Nationality": ""
       },
       "lead_paragraphs": [
-        "Adam Warmouth is recognized for his work in the field of military power solutions, particularly as the founder and CEO of Chariot Defense. His company is at the forefront of developing next-generation power systems designed to support soldiers in the field, focusing on the increasing electronic demands of modern warfare.",
-        "Warmouth's innovations aim to provide soldiers with the necessary power to operate advanced equipment without compromising their position or safety. His work is crucial in addressing the power gap in military operations, ensuring that soldiers have the tools they need to succeed in a technologically advanced battlefield."
+        "David Freiberg is recognized for his contributions to the dialogue on technology's influence on various sectors. His background in science provides a solid foundation for his analysis of technological disruption. Freiberg's insights are particularly valuable as they help investors and industry leaders understand the potential shifts and opportunities created by rapid technological advancements.",
+        "His work is significant in the context of policy-making and strategic planning, as it offers a perspective on how to navigate and leverage the changes brought about by new technologies."
       ],
       "sections": [
         {
-          "heading": "Innovative Power Solutions",
-          "body": "Adam Warmouth is dedicated to creating power solutions that are both efficient and effective for military use, focusing on reducing the tactical signature and increasing the stealth capabilities of soldiers in the field."
+          "heading": "Technological Impact",
+          "body": "Freiberg discusses the profound effects of technology on different industries, emphasizing how it can disrupt traditional business models and create new opportunities."
         },
         {
-          "heading": "Electronic Battlefield",
-          "body": "Warmouth's work is crucial in the shift towards an electronic battlefield, where the demand for power is increasing and the need for stealth is paramount. His solutions aim to support soldiers with the power they need without compromising their safety."
+          "heading": "Industry Trends",
+          "body": "He provides analysis on emerging industry trends influenced by technological advancements, helping businesses anticipate and adapt to changes."
         },
         {
-          "heading": "Tactical Power Layer",
-          "body": "Chariot Defense, under Warmouth's leadership, is building a tactical power layer that supports robotic workers in the field. This layer is designed to provide the necessary power for active operations while maintaining a low tactical signature."
+          "heading": "Public Discourse",
+          "body": "Freiberg's participation in public discourse on technology's role in society ensures that a variety of perspectives are considered in shaping policy and business strategies."
         }
       ]
     },
     "net_worth": "$1.20B"
   },
   {
-    "id": 111,
-    "name": "Alex Miller",
-    "slug": "alex-miller",
-    "bio": "Alex Miller is the Chief Technology Officer (CTO) of the US Army, where he is instrumental in driving the adoption of new technologies in military operations. His focus is on enhancing soldier capabilities and efficiency through technological innovation, with a particular emphasis on power management and electronic battlefield strategies.",
-    "known_for": "Pioneering the integration of advanced technology to modernize military operations and improve soldier effectiveness.",
-    "net_worth_usd": 12000000.0,
-    "net_worth_source": "https://www.urbansplatter.com/2025/04/alex-miller-net-worth/",
-    "net_worth_updated_at": "2026-03-31T20:09:43.596580",
-    "voice_tone": "Authoritative and strategic",
-    "voice_style": "Direct and focused on outcomes",
-    "voice_delivery_notes": "Confident and assertive, emphasizing the need for change",
-    "voice_profile_updated_at": "2026-03-25 09:10:12",
-    "last_seen": "2026-03-25 09:10:12",
-    "last_episode_title": "The Tactical Power Layer for Modern Warfare",
+    "id": 133,
+    "name": "Chris Dixon",
+    "slug": "chris-dixon",
+    "bio": "Chris Dixon is a general partner at Andreessen Horowitz (A16Z), known for his leading investments in Oculus and Coinbase, and for building A16Z's dedicated crypto practice. He is also the co-founder of internet security company SiteAdvisor and AI company Hunch.",
+    "known_for": "His pivotal investments in Oculus and Coinbase, and his role in establishing A16Z's crypto practice.",
+    "net_worth_usd": 500000000.0,
+    "net_worth_source": "https://blockchainreporter.net/net-worth/chris-dixon/",
+    "net_worth_updated_at": "2026-03-28T22:05:07.528099",
+    "voice_tone": "Reflective and informative",
+    "voice_style": "Shares personal anecdotes and industry insights with a storytelling approach",
+    "voice_delivery_notes": "Paced with emphasis on key points, such as personal experiences and investment philosophies",
+    "voice_profile_updated_at": "2026-03-29 03:04:14",
+    "last_seen": "2026-03-29 03:04:14",
+    "last_episode_title": "the a16z show chris dixon from quant trading to building a16z crypto be2e5b4b",
     "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-03-24",
+    "last_episode_date": "2026-03-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.51,
-    "last_main_idea": "Investing in companies that can provide innovative power solutions for the modern, electronic battlefield can offer significant opportunities as military forces worldwide seek to upgrade their capabilities.",
-    "last_proof_cite": "The a16z Show \u2022 2026-03-24 \u2022 The Tactical Power Layer for Modern Warfare",
-    "last_proof_snippet": "All the things we want to do is really about the soldier. In the mud, cold, wet, tired, hungry, what makes their lives easier or better. Your average soldier today, they're drawing just by themselves. 30 to 60 watts of power continuously du",
-    "supporting_takeaway": "Current power solutions like diesel generators are inefficient and create a tactical signature, making them a liability.",
+    "mention_score_decayed": 0.55,
+    "last_main_idea": "Betting on talented individuals in businesses rather than predicting tech trends is a more consistent approach to investing.",
+    "last_proof_cite": "The a16z Show \u2022 2026-03-28 \u2022 the a16z show chris dixon from quant trading to building a16z crypto be2e5b4b",
+    "last_proof_snippet": "And at the time I joined, there were only a couple of investing partners, and there were only one fun. Now we have sort of this complex of funds, and I was a, you know, reasonably prominent sort of angel investor, blogger. They were probabl",
+    "supporting_takeaway": "Dixon's investment philosophy emphasizes betting on people rather than trying to predict tech trends.",
     "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-25T04:10:59.120340",
+    "grokipedia_fetched_at": "2026-03-28T22:05:06.552638",
     "pundit_profile": {
       "source": "llm",
       "source_model": "moonshot:moonshot-v1-8k",
       "source_url": "",
-      "page_title": "Alex Miller",
-      "fetched_at": "2026-03-25T09:10:59.120234+00:00",
-      "cliff_notes": "Alex Miller serves as the Chief Technology Officer for the US Army, a role that places him at the forefront of military technological advancement. His career has been marked by a commitment to leveraging cutting-edge technology to enhance the capabilities of soldiers in the field. Miller's work is particularly focused on the development and implementation of power solutions that can support the increasing electronic demands of modern warfare. His efforts aim to reduce the tactical signature of military operations, thereby decreasing the risk of detection and targeting by adversaries. Miller's contributions are significant in shaping the future of military technology, emphasizing stealth, efficiency, and the empowerment of individual soldiers through technological advancements.",
+      "page_title": "Chris Dixon",
+      "fetched_at": "2026-03-29T03:05:06.552464+00:00",
+      "cliff_notes": "Chris Dixon's career began with a passion for technology, teaching himself programming languages as a child. After college, he worked in quant finance, writing Monte Carlo simulations for an options market-making firm in New York. This experience led him to co-found SiteAdvisor, an internet security company, which was later sold to McAfee in 2006. Two years later, he founded Hunch, an AI company based on neural networks, which was acquired by eBay in 2011. In 2013, Dixon joined Andreessen Horowitz, where he played a significant role in the firm's investments, notably leading a $75 million round for Oculus and making an early investment in Coinbase. His work at A16Z has been instrumental in the establishment of the firm's dedicated crypto practice, which is now in its fourth fund. Dixon's journey from quant finance to tech investing and his influence in the crypto space have made him a notable figure in the tech and finance industries.",
       "derived": {
-        "current_role": "CTO of the US Army"
+        "current_role": "General Partner at Andreessen Horowitz",
+        "former_positions": "Co-founder of SiteAdvisor; Co-founder of Hunch"
+      },
+      "infobox": {
+        "Born": "Ohio",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Chris Dixon's career began with a passion for technology, teaching himself programming languages as a child. After college, he worked in quant finance, writing Monte Carlo simulations for an options market-making firm in New York. This experience led him to co-found SiteAdvisor, an internet security company, which was later sold to McAfee in 2006.",
+        "Two years later, he founded Hunch, an AI company based on neural networks, which was acquired by eBay in 2011. In 2013, Dixon joined Andreessen Horowitz, where he played a significant role in the firm's investments, notably leading a $75 million round for Oculus and making an early investment in Coinbase. His work at A16Z has been instrumental in the establishment of the firm's dedicated crypto practice, which is now in its fourth fund.",
+        "Dixon's journey from quant finance to tech investing and his influence in the crypto space have made him a notable figure in the tech and finance industries."
+      ],
+      "sections": [
+        {
+          "heading": "Early Career",
+          "body": "Chris Dixon began his career in quant finance, writing Monte Carlo simulations for an options market-making firm in New York, before co-founding SiteAdvisor, an internet security company."
+        },
+        {
+          "heading": "SiteAdvisor and Hunch",
+          "body": "Dixon co-founded SiteAdvisor, which was later sold to McAfee, and Hunch, an AI company, which was acquired by eBay. These ventures established him as a successful entrepreneur."
+        },
+        {
+          "heading": "Investment in Oculus and Coinbase",
+          "body": "At Andreessen Horowitz, Dixon led a $75 million investment in Oculus and made an early investment in Coinbase, both of which have become significant players in their respective industries."
+        },
+        {
+          "heading": "Cryptocurrency and A16Z",
+          "body": "Dixon has been instrumental in building A16Z's dedicated crypto practice, which is now in its fourth fund, showcasing his foresight and influence in the cryptocurrency space."
+        }
+      ]
+    },
+    "net_worth": "$500.0M"
+  },
+  {
+    "id": 137,
+    "name": "Layla Kunimoto",
+    "slug": "layla-kunimoto",
+    "bio": "Layla Kunimoto is the founder and editor of an investor insights platform with a focus on democratizing access to alternative investments. She has a background in finance and has been investing in public markets since college. Kunimoto's journey into private markets began with real estate and expanded to private credit and private equity.",
+    "known_for": "Democratizing access to alternative investments and providing insights into private markets.",
+    "net_worth_usd": 2000000000.0,
+    "net_worth_source": "https://substack.com/profile/30791185-leyla-kunimoto/note/c-158466514",
+    "net_worth_updated_at": "2026-03-30T05:03:22.928712",
+    "voice_tone": "Inquisitive and analytical",
+    "voice_style": "Detailed and explanatory, providing context and personal experience",
+    "voice_delivery_notes": "Paced with emphasis on key points regarding market structures and investment vehicles",
+    "voice_profile_updated_at": "2026-03-30 10:03:10",
+    "last_seen": "2026-03-30 10:03:10",
+    "last_episode_title": "The 2026 Private Credit Liquidity Crunch | Leyla Kunimoto on Redemptions in Semi-liquid Vehicles, Private/Public BDCs, and the Future of Alternatives",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-03-29",
+    "mention_score": 1,
+    "mention_score_decayed": 0.57,
+    "last_main_idea": "The democratization of alternative investments provides retail investors with new opportunities, but also comes with structural differences and risks that must be understood.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-29 \u2022 The 2026 Private Credit Liquidity Crunch | Leyla Kunimoto on Redemptions in Semi-liquid Vehicles, Private/Public BDCs, and the Future of Alternatives",
+    "last_proof_snippet": "Today's episode is brought you by Pictay asset management and their AI enhanced ETF range, ticker PQNT and PQUS. You'll hear more about how they're using AI to enhance equity exposure later in the show. For now, let's get into it. I'm joine",
+    "supporting_takeaway": "Alternative managers are increasingly seeking capital from retail investors and wealth channels.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-30T05:03:22.005290",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Layla Kunimoto",
+      "fetched_at": "2026-03-30T10:03:22.005018+00:00",
+      "cliff_notes": "Layla Kunimoto began her career in finance, investing in public markets during her college years. Her entry into private markets was accidental, starting with private placement real estate in 2020. From there, she quickly moved into private credit and private equity, joining investor groups and attending conferences. Kunimoto observed the democratization of access to alternative investments firsthand, as large asset managers pushed into the space. As a retail investor, she is at the end of the funnel for these funds and asset managers. Her platform aims to provide insights into these alternative investments, making them more accessible to a wider audience.",
+      "derived": {
+        "current_role": "Founder and Editor, Investor Insights Platform",
+        "political_affiliation": "Democratization of access to alternative investments"
       },
       "infobox": {
         "Born": "",
-        "Nationality": "American"
+        "Nationality": ""
       },
       "lead_paragraphs": [
-        "Alex Miller serves as the Chief Technology Officer for the US Army, a role that places him at the forefront of military technological advancement. His career has been marked by a commitment to leveraging cutting-edge technology to enhance the capabilities of soldiers in the field. Miller's work is particularly focused on the development and implementation of power solutions that can support the increasing electronic demands of modern warfare.",
-        "His efforts aim to reduce the tactical signature of military operations, thereby decreasing the risk of detection and targeting by adversaries. Miller's contributions are significant in shaping the future of military technology, emphasizing stealth, efficiency, and the empowerment of individual soldiers through technological advancements."
+        "Layla Kunimoto began her career in finance, investing in public markets during her college years. Her entry into private markets was accidental, starting with private placement real estate in 2020. From there, she quickly moved into private credit and private equity, joining investor groups and attending conferences. Kunimoto observed the democratization of access to alternative investments firsthand, as large asset managers pushed into the space.",
+        "As a retail investor, she is at the end of the funnel for these funds and asset managers. Her platform aims to provide insights into these alternative investments, making them more accessible to a wider audience."
       ],
       "sections": [
         {
-          "heading": "Military Technology",
-          "body": "Alex Miller is dedicated to the advancement of military technology, focusing on how it can be used to improve soldier performance and safety."
+          "heading": "Private Markets",
+          "body": "Layla Kunimoto's initial foray into private markets was through real estate, which led her to explore private credit and private equity."
         },
         {
-          "heading": "Power Management",
-          "body": "Miller emphasizes the importance of power management in military operations, working to create solutions that provide the necessary power without compromising operational secrecy."
+          "heading": "Democratization of Access",
+          "body": "Kunimoto has witnessed the democratization of access to alternative investments, driven by large asset managers entering the space and targeting retail investors like herself."
         },
         {
-          "heading": "Electronic Battlefield",
-          "body": "He is a proponent of moving towards an electronic battlefield, where technology plays a central role in strategic operations and tactical advantages."
-        },
-        {
-          "heading": "Soldier Empowerment",
-          "body": "A key aspect of Miller's work is the empowerment of soldiers through technology, ensuring they have the tools they need to operate effectively in various conditions."
+          "heading": "Investor Insights",
+          "body": "As the founder and editor of an investor insights platform, Kunimoto aims to provide valuable information and analysis on alternative investments to a broader audience."
         }
       ]
     },
-    "net_worth": "$12.0M"
+    "net_worth": "$2.00B"
   },
   {
-    "id": 109,
-    "name": "Eric Schmidt",
-    "slug": "eric-schmidt",
-    "bio": "Eric Schmidt is a prominent figure in the technology industry, known for his leadership at Google and contributions to the tech sector. He served as CEO of Google and later as Chairman of Alphabet Inc., guiding the company through significant growth and innovation.",
-    "known_for": "His influential leadership at Google and shaping the direction of Alphabet Inc., impacting the global tech landscape.",
-    "net_worth_usd": 12900000000.0,
-    "net_worth_source": "https://www.wikidata.org/wiki/Q92747",
-    "net_worth_updated_at": "2026-03-25T04:11:28.701167",
-    "voice_tone": "Inquisitive and experienced.",
-    "voice_style": "Analytical with a focus on the big picture.",
-    "voice_delivery_notes": "Speaks with authority and a measured pace.",
-    "voice_profile_updated_at": "2026-03-25 09:07:25",
-    "last_seen": "2026-03-25 09:07:25",
-    "last_episode_title": "The Future of AI and its Impact on Society and Investment",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-03-24",
+    "id": 140,
+    "name": "Geo Voliante",
+    "slug": "geo-voliante",
+    "bio": "Dr. Geo Voliante is a performance coach who has worked with top hedge funds and elite athletes to optimize their performance. His expertise lies in enhancing the mental and physical capabilities of individuals in high-pressure environments.",
+    "known_for": "Enhancing performance for hedge fund managers and elite athletes through coaching.",
+    "net_worth_usd": 15200000000.0,
+    "net_worth_source": "https://www.theladders.com/career-advice/these-are-the-25-highest-paid-hedge-fund-managers",
+    "net_worth_updated_at": "2026-04-01T05:05:19.102305",
+    "voice_tone": "Confident and knowledgeable.",
+    "voice_style": "Analytical and comparative, drawing parallels between hedge fund managers and athletes.",
+    "voice_delivery_notes": "Paced with emphasis on key points about adaptability and performance.",
+    "voice_profile_updated_at": "2026-04-01 10:03:14",
+    "last_seen": "2026-04-01 10:03:14",
+    "last_episode_title": "The Psychology of Market Champions: Inside the Minds of Point 72 & Citadel Portfolio Managers | Dr. Gio Valiante",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-03-31",
     "mention_score": 1,
-    "mention_score_decayed": 0.51,
-    "last_main_idea": "Invest in AI and robotics sectors as they are poised for significant growth and disruption, with a focus on companies that align with human values and contribute to abundance.",
-    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-03-24 \u2022 The Future of AI and its Impact on Society and Investment",
-    "last_proof_snippet": "We're living through a historic moment right now. The next thing that's really interesting and terrifying also is recursive self-improvement, but we don't have it yet. What we do have, I keep asking my friends, when does the asymptote arriv",
-    "supporting_takeaway": "Recursive self-improvement in AI is not yet realized, but its potential is both exciting and terrifying.",
+    "mention_score_decayed": 0.6,
+    "last_main_idea": "Investing in AI-enhanced ETFs like PQNT and PQUS can provide enhanced equity exposure in the current market environment.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-31 \u2022 The Psychology of Market Champions: Inside the Minds of Point 72 & Citadel Portfolio Managers | Dr. Gio Valiante",
+    "last_proof_snippet": "Today's episode is brought to you by Peak Day Asset Management and their AI enhanced ETF range, ticker's PQ&T and PQUS. You'll hear more about how they're using AI to enhance equity exposure later in the show. For now, let's get into it. We",
+    "supporting_takeaway": "The impact of regulation and policy on the cost of starting a hedge fund.",
     "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-25T04:11:26.668471",
+    "grokipedia_fetched_at": "2026-04-01T05:05:18.251968",
     "pundit_profile": {
       "source": "llm",
       "source_model": "moonshot:moonshot-v1-8k",
       "source_url": "",
-      "page_title": "Eric Schmidt",
-      "fetched_at": "2026-03-25T09:11:26.668361+00:00",
-      "cliff_notes": "Eric Schmidt began his career in technology, moving through various roles before becoming the CEO of Novell. He later joined Google as its CEO, where he played a pivotal role in the company's rapid growth and expansion. Under his leadership, Google became a dominant force in the tech industry. After stepping down as CEO, Schmidt served as the Executive Chairman of Google, and later as Chairman of Alphabet Inc., the parent company of Google. He has also held a board seat at Apple Inc. and has been involved in various philanthropic endeavors. His insights into technology and its impact on society are highly regarded, and he continues to influence the tech world through his advisory roles and public commentary.",
+      "page_title": "Geo Voliante",
+      "fetched_at": "2026-04-01T10:05:18.251755+00:00",
+      "cliff_notes": "Dr. Geo Voliante is recognized for his work as a performance coach, assisting both hedge fund managers and elite athletes in optimizing their performance. His career has been dedicated to understanding and improving the mental and physical aspects of high-pressure roles. By working with hedge funds like 0.72 and PGA Tour golfers such as Justin Rose and Jordan Speath, Voliante has demonstrated his ability to adapt his coaching methods to diverse client needs. His insights into the temperaments and operational differences between various hedge fund environments have made him a valuable resource in the financial sector. His continued work with athletes and executives showcases his commitment to enhancing performance across different fields.",
       "derived": {
-        "former_positions": "CEO of Google; Chairman of Alphabet Inc.; Board member of Apple Inc.; CEO of Novell",
-        "boards": "Alphabet Inc.; Apple Inc.",
-        "education": "Bachelor's degree in Electrical Engineering and Computer Science from Princeton University; Master's degree and Ph.D. in Computer Science from the University of California, Berkeley",
-        "books_or_works": "The New Digital Age: Reshaping the Future of People, Nations and Business (co-authored with Jared Cohen)",
-        "teaching_summary": "Guest lectures at Stanford University"
+        "current_role": "Performance Coach"
       },
       "infobox": {
-        "Born": "1955",
-        "Nationality": "American"
+        "Born": "",
+        "Nationality": ""
       },
       "lead_paragraphs": [
-        "Eric Schmidt began his career in technology, moving through various roles before becoming the CEO of Novell. He later joined Google as its CEO, where he played a pivotal role in the company's rapid growth and expansion. Under his leadership, Google became a dominant force in the tech industry. After stepping down as CEO, Schmidt served as the Executive Chairman of Google, and later as Chairman of Alphabet Inc., the parent company of Google.",
-        "He has also held a board seat at Apple Inc. and has been involved in various philanthropic endeavors. His insights into technology and its impact on society are highly regarded, and he continues to influence the tech world through his advisory roles and public commentary."
+        "Dr. Geo Voliante is recognized for his work as a performance coach, assisting both hedge fund managers and elite athletes in optimizing their performance. His career has been dedicated to understanding and improving the mental and physical aspects of high-pressure roles. By working with hedge funds like 0.72 and PGA Tour golfers such as Justin Rose and Jordan Speath, Voliante has demonstrated his ability to adapt his coaching methods to diverse client needs.",
+        "His insights into the temperaments and operational differences between various hedge fund environments have made him a valuable resource in the financial sector. His continued work with athletes and executives showcases his commitment to enhancing performance across different fields."
       ],
       "sections": [
         {
-          "heading": "Leadership at Google",
-          "body": "Eric Schmidt served as the CEO of Google from 2001 to 2011, overseeing the company's transformation into a global technology giant."
+          "heading": "Performance Coaching",
+          "body": "Dr. Geo Voliante specializes in performance coaching, helping individuals in high-stress roles to maximize their potential."
         },
         {
-          "heading": "Chairman of Alphabet Inc.",
-          "body": "Schmidt took on the role of Executive Chairman at Google following his tenure as CEO, and later became Chairman of Alphabet Inc., the parent company of Google."
+          "heading": "Hedge Fund Collaboration",
+          "body": "Voliante has collaborated with hedge funds, such as 0.72, to improve the performance of their managers through tailored coaching programs."
         },
         {
-          "heading": "Contributions to Tech",
-          "body": "His leadership and strategic vision have been instrumental in shaping Google's technological advancements and its impact on the industry."
+          "heading": "Athletic Performance",
+          "body": "He has worked with PGA Tour golfers, including Justin Rose and Jordan Speath, to enhance their mental and physical game performance."
         },
         {
-          "heading": "Global Competition",
-          "body": "Schmidt has expressed concerns about global competition, particularly with China, and the importance of maintaining a competitive edge in key technological sectors."
+          "heading": "Pod Environments",
+          "body": "Voliante has insights into the growth of pod environments within the hedge fund industry and the differences in temperament and operations between various setups."
         }
       ]
     },
-    "net_worth": "$12.90B"
+    "net_worth": "$15.20B"
   },
   {
-    "id": 108,
-    "name": "Bridget Memplar",
-    "slug": "bridget-memplar",
-    "bio": "Bridget Memplar is the co-founder and CEO of Northwood, a company focused on building systems that connect satellites back to Earth. Her unconventional path into the space industry has led her to become a key player in addressing the overlooked bottleneck of ground infrastructure in space missions.",
-    "known_for": "Her leadership at Northwood and the development of systems that enable satellite connectivity back to Earth.",
-    "net_worth_usd": 50000000.0,
-    "net_worth_source": "https://www.celebritynetworth.com/richest-celebrities/actors/bridgit-mendler-net-worth/",
-    "net_worth_updated_at": "2026-03-24T04:43:12.487260",
-    "voice_tone": "Confident and determined.",
-    "voice_style": "Bridget speaks with a focus on innovation and the potential of space technology.",
-    "voice_delivery_notes": "Clear and concise, with an emphasis on the importance of ground infrastructure in space missions.",
-    "voice_profile_updated_at": "2026-03-24 09:39:24",
-    "last_seen": "2026-03-24 09:39:24",
-    "last_episode_title": "Ground Infrastructure: The Overlooked Bottleneck in the Space Economy",
+    "id": 141,
+    "name": "Doug Burnower",
+    "slug": "doug-burnower",
+    "bio": "Doug Burnower is the Founder and CEO of Radiant, a company that specializes in developing portable nuclear reactors. His work focuses on innovative energy solutions, aiming to address the challenges of energy delivery and sustainability in the modern world.",
+    "known_for": "Pioneering portable nuclear reactors and contributing to the evolution of energy infrastructure.",
+    "net_worth_usd": 243000000000.0,
+    "net_worth_source": "https://www.zippia.com/space-exploration-technologies-careers-39035/executives/",
+    "net_worth_updated_at": "2026-04-01T05:04:39.743774",
+    "voice_tone": "Confident and visionary",
+    "voice_style": "Technical and solution-oriented",
+    "voice_delivery_notes": "Paced with emphasis on innovation",
+    "voice_profile_updated_at": "2026-04-01 10:03:31",
+    "last_seen": "2026-04-01 10:03:31",
+    "last_episode_title": "How Radiant and Heron Are Rethinking Power Generation and Delivery",
     "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-03-23",
+    "last_episode_date": "2026-03-31",
     "mention_score": 1,
-    "mention_score_decayed": 0.5,
-    "last_main_idea": "Investing in ground infrastructure for space can unlock the next wave of innovation, making space missions more useful and efficient.",
-    "last_proof_cite": "The a16z Show \u2022 2026-03-23 \u2022 Ground Infrastructure: The Overlooked Bottleneck in the Space Economy",
-    "last_proof_snippet": "Every satellite requires a connection point back to birth. If you don't have it, you don't have a space mesh. It literally is just like a rock in space. You just won a $50 million contract with space forest out modernized. It Northwood, you",
-    "supporting_takeaway": "Northwood aims to modernize and vertically integrate ground systems to connect satellites back to Earth.",
+    "mention_score_decayed": 0.6,
+    "last_main_idea": "Investing in companies that innovate in energy delivery and grid infrastructure can lead to significant returns as the demand for electricity increases and the need for a more efficient and sustainable grid becomes critical.",
+    "last_proof_cite": "The a16z Show \u2022 2026-03-31 \u2022 How Radiant and Heron Are Rethinking Power Generation and Delivery",
+    "last_proof_snippet": "The grid is breaking. We're so bottleneck today on the lines that run Chris Cross across the country. I mean, it's this very complicated giant organic machine. New power is not the problem. Delivery is the problem. The energy services we're",
+    "supporting_takeaway": "Delivery, not new generation, is the bottleneck in the current energy infrastructure.",
     "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-24T04:43:11.153707",
+    "grokipedia_fetched_at": "2026-04-01T05:04:38.716099",
     "pundit_profile": {
       "source": "llm",
       "source_model": "moonshot:moonshot-v1-8k",
       "source_url": "",
-      "page_title": "Bridget Memplar",
-      "fetched_at": "2026-03-24T09:43:11.153311+00:00",
-      "cliff_notes": "Bridget Memplar embarked on an unconventional path into the space industry, eventually becoming the co-founder and CEO of Northwood. Her company is dedicated to building systems that connect satellites back to Earth, a critical yet often overlooked aspect of space missions. Memplar's leadership at Northwood is focused on addressing the ground infrastructure bottleneck, which is essential for making space missions useful and effective. Her work is pivotal in the space economy, as it aims to provide a modern, vertically integrated approach to satellite connectivity, potentially unlocking the next wave of innovation in space.",
+      "page_title": "Doug Burnower",
+      "fetched_at": "2026-04-01T10:04:38.715783+00:00",
+      "cliff_notes": "Doug Burnower is recognized for his innovative work in the energy sector, particularly with his company Radiant, which is focused on portable nuclear reactors. His career has been dedicated to finding solutions to the complex problem of energy delivery and the sustainability of energy sources. Burnower's vision is to transform the way power is generated and distributed, with an emphasis on leveraging free energy sources like sunlight and geothermal heat. His work at SpaceX provided him with valuable experience in advanced technology and engineering, which he now applies to his current role at Radiant. Burnower's contributions to the energy industry are significant, as they aim to address the growing demand for power in a sustainable and efficient manner.",
       "derived": {
-        "current_role": "Co-founder and CEO of Northwood"
+        "current_role": "Founder and CEO of Radiant",
+        "former_positions": "Prior work at SpaceX"
       },
       "infobox": {
         "Born": "",
         "Nationality": ""
       },
       "lead_paragraphs": [
-        "Bridget Memplar embarked on an unconventional path into the space industry, eventually becoming the co-founder and CEO of Northwood. Her company is dedicated to building systems that connect satellites back to Earth, a critical yet often overlooked aspect of space missions. Memplar's leadership at Northwood is focused on addressing the ground infrastructure bottleneck, which is essential for making space missions useful and effective.",
-        "Her work is pivotal in the space economy, as it aims to provide a modern, vertically integrated approach to satellite connectivity, potentially unlocking the next wave of innovation in space."
+        "Doug Burnower is recognized for his innovative work in the energy sector, particularly with his company Radiant, which is focused on portable nuclear reactors. His career has been dedicated to finding solutions to the complex problem of energy delivery and the sustainability of energy sources. Burnower's vision is to transform the way power is generated and distributed, with an emphasis on leveraging free energy sources like sunlight and geothermal heat.",
+        "His work at SpaceX provided him with valuable experience in advanced technology and engineering, which he now applies to his current role at Radiant. Burnower's contributions to the energy industry are significant, as they aim to address the growing demand for power in a sustainable and efficient manner."
       ],
       "sections": [
         {
-          "heading": "Northwood's Mission",
-          "body": "Northwood, under Memplar's leadership, is committed to building the systems that connect satellites back to Earth, which is crucial for the success of space missions."
+          "heading": "Energy Delivery",
+          "body": "Doug Burnower emphasizes the importance of improving energy delivery systems, noting that the current grid infrastructure is outdated and unable to efficiently handle the growing demand for power."
         },
         {
-          "heading": "Ground Infrastructure",
-          "body": "Bridget Memplar has identified ground infrastructure as a significant bottleneck in the space economy and is working to modernize it through Northwood's innovative solutions."
+          "heading": "Sustainable Energy",
+          "body": "Burnower's work at Radiant is centered around creating sustainable energy solutions through the development of portable nuclear reactors, which can provide a stable and clean source of energy."
         },
         {
-          "heading": "Innovation in Space",
-          "body": "Memplar's work at Northwood is aimed at not just incremental improvements but at achieving a categorical outcome in space mission capabilities through enhanced ground connectivity."
+          "heading": "Innovation in Energy",
+          "body": "Doug Burnower is a proponent of using innovative technologies to revolutionize the energy sector, advocating for the use of free energy sources and the transformation of the existing grid infrastructure."
         }
       ]
     },
-    "net_worth": "$50.0M"
+    "net_worth": "$243.00B"
   },
   {
-    "id": 107,
-    "name": "Michael Intrader",
-    "slug": "michael-intrader",
-    "bio": "Michael Intrader is the CEO of Core Weave, a company building infrastructure for hyper-scalers and adapting to the evolving needs of GPU computing. With a background in hedge fund algorithm development and early involvement in the crypto mining space, Intrader has been at the forefront of technological advancements in cloud computing and AI.",
-    "known_for": "Building massive infrastructure for hyper-scalers and being an early entrant in the crypto mining space.",
-    "net_worth_usd": 10000000000.0,
-    "net_worth_source": "https://techcrunch.com/2025/06/26/in-just-3-months-coreweave-ceo-once-a-crypto-mining-bro-becomes-a-deca-billionaire/",
-    "net_worth_updated_at": "2026-03-31T20:09:44.458351",
-    "voice_tone": "Confident and informative, with a focus on the company's strategic evolution.",
-    "voice_style": "Direct and factual, providing insights into the company's operations and market positioning.",
-    "voice_delivery_notes": "Paced with emphasis on the company's adaptability and future outlook.",
-    "voice_profile_updated_at": "2026-03-24 09:37:15",
-    "last_seen": "2026-03-24 09:37:15",
-    "last_episode_title": "Interview with Michael Intrader at Nvidia's GTC Conference",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-03-23",
+    "id": 142,
+    "name": "Andrew Beglinow",
+    "slug": "andrew-beglinow",
+    "bio": "Andrew Beglinow is a prominent figure in the electric vehicle and renewable energy sectors. As the founder and CEO of Heron, he leads the company in developing solid-state power electronics. Previously, he served as VP of R&D at Tesla, where he contributed significantly to electric vehicle technology.",
+    "known_for": "His contributions to electric vehicle technology and the development of solid-state power electronics.",
+    "net_worth_usd": 11000000.0,
+    "net_worth_source": "https://www.gurufocus.com/insider/72754/andrew-d-baglino",
+    "net_worth_updated_at": "2026-04-01T05:04:52.643132",
+    "voice_tone": "Analytical and pragmatic",
+    "voice_style": "Focused on practical applications and technical details",
+    "voice_delivery_notes": "Clear and concise with a focus on impact",
+    "voice_profile_updated_at": "2026-04-01 10:03:31",
+    "last_seen": "2026-04-01 10:03:31",
+    "last_episode_title": "How Radiant and Heron Are Rethinking Power Generation and Delivery",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-03-31",
     "mention_score": 1,
-    "mention_score_decayed": 0.5,
-    "last_main_idea": "Invest in companies that can leverage the evolving landscape of AI and GPU computing, particularly those with the agility to adapt and scale in a rapidly changing market.",
-    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-23 \u2022 Interview with Michael Intrader at Nvidia's GTC Conference",
-    "last_proof_snippet": "I'm here at Nvidia's annual GTC conference, and I'm going to interview for amazing AI CEO's stick with us. I'm doing all of you! Our episode is sponsored by the New York Stock Exchange. Are you looking to change the world in race capital? D",
-    "supporting_takeaway": "The company leverages its expertise in risk management from its hedge fund background to navigate volatility in crypto.",
+    "mention_score_decayed": 0.6,
+    "last_main_idea": "Investing in companies that innovate in energy delivery and grid infrastructure can lead to significant returns as the demand for electricity increases and the need for a more efficient and sustainable grid becomes critical.",
+    "last_proof_cite": "The a16z Show \u2022 2026-03-31 \u2022 How Radiant and Heron Are Rethinking Power Generation and Delivery",
+    "last_proof_snippet": "The grid is breaking. We're so bottleneck today on the lines that run Chris Cross across the country. I mean, it's this very complicated giant organic machine. New power is not the problem. Delivery is the problem. The energy services we're",
+    "supporting_takeaway": "Delivery, not new generation, is the bottleneck in the current energy infrastructure.",
     "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-24T04:43:59.032721",
+    "grokipedia_fetched_at": "2026-04-01T05:04:51.620692",
     "pundit_profile": {
       "source": "llm",
       "source_model": "moonshot:moonshot-v1-8k",
       "source_url": "",
-      "page_title": "Michael Intrader",
-      "fetched_at": "2026-03-24T09:43:59.032494+00:00",
-      "cliff_notes": "Michael Intrader began his career as an algorithm developer at a hedge fund focused on natural gas. With a significant amount of downtime after developing the algorithms, Intrader ventured into the crypto mining space, becoming an early entrant in the industry. Leveraging his experience in algorithm development and the growing need for GPU computing, Intrader founded Core Weave, a company that builds massive infrastructure for hyper-scalers. Core Weave has been instrumental in adapting to the evolving needs of GPU computing, particularly in the context of AI and cloud computing. Intrader's work at Core Weave has positioned him as a key player in the tech industry, shaping the future of cloud infrastructure and GPU computing.",
+      "page_title": "Andrew Beglinow",
+      "fetched_at": "2026-04-01T10:04:51.620453+00:00",
+      "cliff_notes": "Andrew Beglinow has had a significant impact on the electric vehicle and renewable energy industries. As the VP of R&D at Tesla, he played a crucial role in advancing electric vehicle technology. His current venture, Heron, focuses on solid-state power electronics, which is a key component in the evolution of energy storage and distribution. Beglinow's work is pivotal in addressing the challenges of energy delivery and the transformation of the power grid, which is essential for sustainable energy and economic growth.",
       "derived": {
-        "current_role": "CEO of Core Weave",
-        "former_positions": "Algorithm Developer at Hedge Fund; Early Crypto Miner"
+        "current_role": "Founder and CEO of Heron",
+        "former_positions": "VP of R&D at Tesla"
       },
       "infobox": {
         "Born": "",
         "Nationality": ""
       },
       "lead_paragraphs": [
-        "Michael Intrader began his career as an algorithm developer at a hedge fund focused on natural gas. With a significant amount of downtime after developing the algorithms, Intrader ventured into the crypto mining space, becoming an early entrant in the industry. Leveraging his experience in algorithm development and the growing need for GPU computing, Intrader founded Core Weave, a company that builds massive infrastructure for hyper-scalers.",
-        "Core Weave has been instrumental in adapting to the evolving needs of GPU computing, particularly in the context of AI and cloud computing. Intrader's work at Core Weave has positioned him as a key player in the tech industry, shaping the future of cloud infrastructure and GPU computing."
+        "Andrew Beglinow has had a significant impact on the electric vehicle and renewable energy industries. As the VP of R&D at Tesla, he played a crucial role in advancing electric vehicle technology. His current venture, Heron, focuses on solid-state power electronics, which is a key component in the evolution of energy storage and distribution.",
+        "Beglinow's work is pivotal in addressing the challenges of energy delivery and the transformation of the power grid, which is essential for sustainable energy and economic growth."
       ],
       "sections": [
         {
-          "heading": "Early Crypto Mining",
-          "body": "Michael Intrader was an early entrant in the crypto mining space, leveraging his background in algorithm development to pioneer advancements in the industry."
+          "heading": "Electric Vehicle Technology",
+          "body": "Beglinow's tenure at Tesla saw significant advancements in electric vehicle technology, contributing to the broader adoption of EVs."
         },
         {
-          "heading": "GPU Computing",
-          "body": "Intrader's work at Core Weave has been crucial in adapting to the evolving needs of GPU computing, particularly in the context of AI and cloud computing."
+          "heading": "Solid-State Power Electronics",
+          "body": "As CEO of Heron, Beglinow is leading the development of solid-state power electronics, which are critical for improving energy storage and distribution efficiency."
         },
         {
-          "heading": "Hyper-Scaler Infrastructure",
-          "body": "As CEO of Core Weave, Intrader has been instrumental in building massive infrastructure for hyper-scalers, shaping the future of cloud computing."
+          "heading": "Energy Delivery and the Grid",
+          "body": "Beglinow emphasizes the importance of transforming the power grid to handle the growing demand for energy services and to incorporate sustainable energy sources effectively."
+        },
+        {
+          "heading": "Sustainable Energy and Economic Growth",
+          "body": "His work aims to facilitate the use of free and sustainable energy sources, such as sunlight and geothermal energy, to support economic growth and prosperity."
         }
       ]
     },
-    "net_worth": "$10.00B"
+    "net_worth": "$11.0M"
   },
   {
-    "id": 106,
-    "name": "Nadia Martin Wiggen",
-    "slug": "nadia-martin-wiggen",
-    "bio": "Nadia Martin Wiggen is a director at Svellen Capital, a hedge fund with a specialization in commodities and shipping markets. Her expertise is particularly relevant in times of global market fluctuations, such as during the Middle East crisis, where her insights are sought after for understanding market impacts.",
-    "known_for": "Expertise in commodities and shipping markets, especially during times of geopolitical tension.",
-    "net_worth_usd": 750000000.0,
-    "net_worth_source": "https://hedgenordic.com/2023/06/svelland-capital-hires-pareto-analyst/",
-    "net_worth_updated_at": "2026-03-24T04:44:37.173364",
-    "voice_tone": "Analytical and measured.",
-    "voice_style": "Factual and data-driven, with a focus on market reactions and practical implications.",
-    "voice_delivery_notes": "Paced, with emphasis on key market observations and potential outcomes.",
-    "voice_profile_updated_at": "2026-03-24 09:26:22",
-    "last_seen": "2026-03-24 09:26:22",
-    "last_episode_title": "Monetary Matters: Middle East Crisis and Global Market Impact",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-03-23",
-    "mention_score": 1,
-    "mention_score_decayed": 0.5,
-    "last_main_idea": "Svellen Capital sees opportunities in commodities and shipping markets amidst the Middle East crisis, with a focus on the practical implications of geopolitical events on global trade and logistics.",
-    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-23 \u2022 Monetary Matters: Middle East Crisis and Global Market Impact",
-    "last_proof_snippet": "Today's episode is brought to you by the two-cream Cornfond Ticker C.O.R.N. Let's get into it. Welcome to this special edition of Other People's Money. I am joined today by Nadia Martin Wiggen, director at Svellen Capital. I've had Svellen",
-    "supporting_takeaway": "The Strait of Hormuz remains under Iranian control, and no significant change in shipping has been observed.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-24T04:44:35.945959",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Nadia Martin Wiggen",
-      "fetched_at": "2026-03-24T09:44:35.945751+00:00",
-      "cliff_notes": "Nadia Martin Wiggen is recognized for her role as a director at Svellen Capital, a hedge fund that focuses on commodities and shipping markets. Her career has been marked by her ability to navigate and analyze the complexities of these markets, especially during times of geopolitical tension. Her insights are highly valued in the investment community, as they provide a lens through which to understand the broader impacts of global events on financial markets. As a specialist in her field, Wiggen's contributions are pivotal in shaping investment strategies and risk assessments in a rapidly changing economic landscape.",
-      "derived": {
-        "current_role": "Director at Svellen Capital"
-      },
-      "infobox": {
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Nadia Martin Wiggen is recognized for her role as a director at Svellen Capital, a hedge fund that focuses on commodities and shipping markets. Her career has been marked by her ability to navigate and analyze the complexities of these markets, especially during times of geopolitical tension. Her insights are highly valued in the investment community, as they provide a lens through which to understand the broader impacts of global events on financial markets.",
-        "As a specialist in her field, Wiggen's contributions are pivotal in shaping investment strategies and risk assessments in a rapidly changing economic landscape."
-      ],
-      "sections": [
-        {
-          "heading": "Commodities Expertise",
-          "body": "Nadia Martin Wiggen is known for her deep understanding of commodities markets, which is crucial for investors looking to understand and capitalize on global market trends."
-        },
-        {
-          "heading": "Shipping Markets",
-          "body": "Her expertise extends to shipping markets, a sector heavily influenced by geopolitical events, where her insights help navigate the complexities of supply chain disruptions."
-        },
-        {
-          "heading": "Geopolitical Impact",
-          "body": "Wiggen's role at Svellen Capital often involves analyzing the impact of geopolitical events, such as the Middle East crisis, on commodities and shipping markets."
-        },
-        {
-          "heading": "Market Analysis",
-          "body": "She provides critical analysis on how major announcements, like those from political leaders, can influence market dynamics in her area of expertise."
-        }
-      ]
-    },
-    "net_worth": "$750.0M"
-  },
-  {
-    "id": 105,
-    "name": "Josh Lindville",
-    "slug": "josh-lindville",
-    "bio": "Josh Lindville is the Vice President of Fertilizer at Stone X, where he specializes in trading fertilizer futures and OTC products. He provides market insights and information to the agricultural industry, with a focus on the impact of global events on fertilizer prices.",
-    "known_for": "His expertise in analyzing the effects of geopolitical events on fertilizer prices and their implications for agriculture and food prices.",
-    "net_worth_usd": 15000000000.0,
-    "net_worth_source": "https://www.linkedin.com/in/joshua-linville-9555a711/",
-    "net_worth_updated_at": "2026-03-25T22:09:09.372188",
-    "voice_tone": "Knowledgeable and concerned about the impact of geopolitical events on fertilizer prices.",
-    "voice_style": "Factual and data-driven, with a focus on the implications for the agriculture industry.",
-    "voice_delivery_notes": "Speaks with a sense of urgency, emphasizing the severity of the situation.",
-    "voice_profile_updated_at": "2026-03-23 09:21:03",
-    "last_seen": "2026-03-23 09:21:03",
-    "last_episode_title": "Monetary Matters with Jack Farley: Impact of Iran War on Fertilizer Prices and Agriculture",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-03-22",
-    "mention_score": 1,
-    "mention_score_decayed": 0.49,
-    "last_main_idea": "The disruption in fertilizer supply due to geopolitical tensions presents an opportunity in agricultural commodities, particularly corn, which is heavily impacted by rising input costs and could see price support from tightened supply.",
-    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-22 \u2022 Monetary Matters with Jack Farley: Impact of Iran War on Fertilizer Prices and Agriculture",
-    "last_proof_snippet": "Today's episode is brought to you by the two Korean corn fund, take our CORN. Let's get into it. I am joined by Josh Lindville, Vice President of Fertilizer at Stone X. Josh, welcome to monetary matters. Nice. They just have me on, excited",
-    "supporting_takeaway": "Despite the price surge, U.S. nitrogen fertilizers are still some of the cheapest in the world, creating an arbitrage opportunity.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-23T04:22:03.060297",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Josh Lindville",
-      "fetched_at": "2026-03-23T09:22:03.060082+00:00",
-      "cliff_notes": "Josh Lindville serves as the Vice President of Fertilizer at Stone X, where he is responsible for trading in fertilizer futures and over-the-counter products. His role is pivotal in understanding and communicating the market dynamics of fertilizers, particularly in the context of global events such as the Iran war. Lindville's work is significant as it influences the agricultural sector by providing insights into how geopolitical tensions can affect the availability and pricing of essential fertilizers, which in turn impact crop yields and food prices worldwide.",
-      "derived": {
-        "current_role": "Vice President of Fertilizer at Stone X"
-      },
-      "infobox": {
-        "Industry": "Agriculture"
-      },
-      "lead_paragraphs": [
-        "Josh Lindville serves as the Vice President of Fertilizer at Stone X, where he is responsible for trading in fertilizer futures and over-the-counter products. His role is pivotal in understanding and communicating the market dynamics of fertilizers, particularly in the context of global events such as the Iran war. Lindville's work is significant as it influences the agricultural sector by providing insights into how geopolitical tensions can affect the availability and pricing of essential fertilizers, which in turn impact crop yields and food prices worldwide."
-      ],
-      "sections": [
-        {
-          "heading": "Fertilizer Market Dynamics",
-          "body": "Josh Lindville is known for his analysis of how geopolitical events, such as the Iran war, impact the global supply of nitrogen and phosphate fertilizers, which are critical for crop yields and food production."
-        },
-        {
-          "heading": "Agricultural Impact",
-          "body": "Lindville's insights are valuable for the agricultural industry as they help predict and understand the ripple effects of global events on fertilizer prices, which directly influence farming costs and food supply."
-        },
-        {
-          "heading": "Food Prices",
-          "body": "His expertise extends to the implications of fertilizer market fluctuations on food prices, a critical area of concern for global food security and economic stability."
-        }
-      ]
-    },
-    "net_worth": "$15.00B"
-  },
-  {
-    "id": 104,
-    "name": "Matt Mayhand",
-    "slug": "matt-mayhand",
-    "bio": "Matt Mayhand is a candidate for Governor of California with a background in civic tech and city council experience. He grew up in Watsonville, California, and has a history of working in education and technology sectors.",
-    "known_for": "Focusing on fiscal responsibility and pragmatic policy solutions in his gubernatorial campaign.",
-    "net_worth_usd": 1000000000.0,
-    "net_worth_source": "https://spearswms.com/wealth/matt-mahan/",
-    "net_worth_updated_at": "2026-03-23T04:22:22.883231",
-    "voice_tone": "Frustration with the state's financial mismanagement.",
-    "voice_style": "Calls for accountability and transparency in government spending.",
-    "voice_delivery_notes": "Pacing is steady with emphasis on key points of fiscal responsibility and policy pragmatism.",
-    "voice_profile_updated_at": "2026-03-23 09:18:22",
-    "last_seen": "2026-03-23 09:18:22",
-    "last_episode_title": "California's Spending Woes and the Governor's Race",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-03-23",
-    "mention_score": 1,
-    "mention_score_decayed": 0.49,
-    "last_main_idea": "Invest in innovation and infrastructure to create a smarter grid and incentivize clean energy adoption, while avoiding over-regulation that leads to unintended economic and environmental consequences.",
-    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-23 \u2022 California's Spending Woes and the Governor's Race",
-    "last_proof_snippet": "Matt Mayhand, welcome to all in. Thanks, David. I have no idea who you are. Who are you? I mean, you're a guy who kind of popped up running for Governor of California last minute. Have that come about and who is Matt Mayhand? Well, David, l",
-    "supporting_takeaway": "High-speed rail project has spent $14 billion without delivering a product, highlighting a lack of accountability in state government.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-23T04:22:21.245588",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Matt Mayhand",
-      "fetched_at": "2026-03-23T09:22:21.245480+00:00",
-      "cliff_notes": "Matt Mayhand hails from Watsonville, California, a small farming town known for its strawberries. Coming from a working-class family, his mother was a teacher and his father a letter carrier. Mayhand's educational journey began with a college prep high school and a work study scholarship, which involved a two-hour bus commute each way. After working his way through high school and college, he returned to education as a public school teacher through the Teach for America program. His interest in politics and making a difference led him to the tech sector, where he spent a decade developing civic tech tools aimed at helping people navigate democracy. His pragmatic approach to governance and commitment to fiscal responsibility are central to his campaign for Governor of California.",
-      "derived": {
-        "current_role": "Candidate for Governor of California",
-        "former_positions": "Public School Teacher; Civic Tech Developer",
-        "education": "College Prep High School; Work Study Scholarship",
-        "political_summary": "Matt Mayhand is running for Governor of California, emphasizing fiscal responsibility and pragmatic policy solutions. His campaign is a response to his frustration with the state's spending and diminishing returns.",
-        "teaching_summary": "Public School Teacher"
-      },
-      "infobox": {
-        "Born": "Watsonville, California",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Matt Mayhand hails from Watsonville, California, a small farming town known for its strawberries. Coming from a working-class family, his mother was a teacher and his father a letter carrier. Mayhand's educational journey began with a college prep high school and a work study scholarship, which involved a two-hour bus commute each way.",
-        "After working his way through high school and college, he returned to education as a public school teacher through the Teach for America program. His interest in politics and making a difference led him to the tech sector, where he spent a decade developing civic tech tools aimed at helping people navigate democracy. His pragmatic approach to governance and commitment to fiscal responsibility are central to his campaign for Governor of California."
-      ],
-      "sections": [
-        {
-          "heading": "Education",
-          "body": "Matt Mayhand's educational journey began with a college prep high school and a work study scholarship, which involved a two-hour bus commute each way. He later worked his way through college and became a public school teacher through the Teach for America program."
-        },
-        {
-          "heading": "Civic Tech",
-          "body": "Mayhand spent a decade in the tech sector, building civic tech tools designed to help people navigate their democracy more effectively, reflecting his commitment to making the city and world a better place."
-        },
-        {
-          "heading": "Governor Campaign",
-          "body": "Running for Governor of California, Mayhand emphasizes fiscal responsibility and pragmatic policy solutions, aiming to address the state's spending issues and the diminishing returns on investment."
-        }
-      ]
-    },
-    "net_worth": "$1.00B"
-  },
-  {
-    "id": 103,
-    "name": "Terrence Tau",
-    "slug": "terrence-tau",
-    "bio": "Terrence Tau is an amateur astronomer with a deep interest in the history of astronomy and the application of AI in mathematics. He is known for his insights on the parallels between historical astronomical discoveries and modern AI applications in mathematics.",
-    "known_for": "His expertise in drawing parallels between historical astronomical discoveries and modern AI applications in mathematics.",
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": "2026-03-21T04:32:04.978250",
-    "voice_tone": "Inquisitive and informative",
-    "voice_style": "Narrative and explanatory, with a focus on historical context",
-    "voice_delivery_notes": "Speaks with a measured pace, emphasizing key points in the historical narrative",
-    "voice_profile_updated_at": "2026-03-21 09:30:48",
-    "last_seen": "2026-03-21 09:30:48",
-    "last_episode_title": "The Impact of AI on Mathematics and Scientific Discovery",
-    "last_podcast_name": "Dwarkesh Podcast",
-    "last_episode_date": "2026-03-20",
-    "mention_score": 1,
-    "mention_score_decayed": 0.47,
-    "last_main_idea": "The integration of AI into mathematics can accelerate discovery and problem-solving, presenting opportunities for investment in AI technology and its applications in scientific research.",
-    "last_proof_cite": "Dwarkesh Podcast \u2022 2026-03-20 \u2022 The Impact of AI on Mathematics and Scientific Discovery",
-    "last_proof_snippet": "Okay, today, I'm chatting with Terrence Tau, who needs an interaction. Terrence, I want to begin by having you retell the story of how Kepler discovered the laws of planetary motion, because I think this will be a great jumping off point to",
-    "supporting_takeaway": "The application of AI in mathematics could lead to new discoveries and breakthroughs more quickly than traditional methods.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-21T04:32:04.005767",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Terrence Tau",
-      "fetched_at": "2026-03-21T09:32:04.005404+00:00",
-      "cliff_notes": "Terrence Tau is an amateur astronomer with a profound interest in the history of astronomy and its intersection with modern AI applications in mathematics. He has dedicated his time to understanding the evolution of astronomical theories and their relevance to contemporary mathematical AI. Tau's work focuses on the historical context of astronomical discoveries, such as Kepler's laws of planetary motion, and how these can inform and inspire current AI-driven mathematical research. His contributions to the field are significant, as they bridge the gap between historical knowledge and cutting-edge technology, offering a unique perspective on the development of AI in mathematics.",
-      "derived": {},
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Terrence Tau is an amateur astronomer with a profound interest in the history of astronomy and its intersection with modern AI applications in mathematics. He has dedicated his time to understanding the evolution of astronomical theories and their relevance to contemporary mathematical AI. Tau's work focuses on the historical context of astronomical discoveries, such as Kepler's laws of planetary motion, and how these can inform and inspire current AI-driven mathematical research.",
-        "His contributions to the field are significant, as they bridge the gap between historical knowledge and cutting-edge technology, offering a unique perspective on the development of AI in mathematics."
-      ],
-      "sections": [
-        {
-          "heading": "Historical Astronomy",
-          "body": "Terrence Tau is deeply interested in the history of astronomy, particularly the contributions of early astronomers like Copernicus and Kepler."
-        },
-        {
-          "heading": "AI in Mathematics",
-          "body": "Tau explores the application of AI in mathematics, drawing parallels with historical astronomical discoveries to understand modern AI's potential."
-        },
-        {
-          "heading": "Kepler's Laws",
-          "body": "He is particularly fascinated by Kepler's laws of planetary motion and how they can be used as a metaphor for understanding AI's role in mathematics."
-        }
-      ]
-    }
-  },
-  {
-    "id": 91,
-    "name": "Brett Adcock",
-    "slug": "brett-adcock",
-    "bio": "Brett Adcock is an entrepreneur and investor with a background in software and VTOL companies. He is known for his work at the forefront of AI and robotics development, focusing on autonomous manufacturing and the potential for a $50T market.",
-    "known_for": "Being at the forefront of AI and robotics development, focusing on autonomous manufacturing and the potential for a $50T market.",
-    "net_worth_usd": 19000000000.0,
-    "net_worth_source": "https://en.wikipedia.org/wiki/Brett_Adcock",
-    "net_worth_updated_at": "2026-03-19T22:16:05.781854",
-    "voice_tone": "Amazed and enthusiastic about the advancements in AI and robotics.",
-    "voice_style": "Descriptive and forward-looking, with a focus on the transformative impact of technology.",
-    "voice_delivery_notes": "Speak with excitement and a sense of urgency to convey the rapid pace of change in the industry.",
-    "voice_profile_updated_at": "2026-03-20 03:11:05",
-    "last_seen": "2026-03-20 03:11:05",
-    "last_episode_title": "Humanoid Run on Neural Net, Autonomous Manufacturing, $50T Market #229",
+    "id": 144,
+    "name": "Dara Khosrowshahi",
+    "slug": "dara-khosrowshahi",
+    "bio": "Dara Khosrowshahi is the current CEO of Uber, having previously served as the CEO of Expedia. He is known for leading the turnaround of Uber's financial performance and focusing the company on autonomous technology.",
+    "known_for": "Leading the turnaround of Uber's financial performance and focusing the company on autonomous technology.",
+    "net_worth_usd": 5000000000.0,
+    "net_worth_source": "https://www.wikidata.org/wiki/Q5221979",
+    "net_worth_updated_at": "2026-04-01T05:04:28.531382",
+    "voice_tone": "Confident and optimistic about the future of autonomous vehicles.",
+    "voice_style": "Direct and solution-oriented, emphasizing the importance of strategic focus and hard work.",
+    "voice_delivery_notes": "Paced with emphasis on key points regarding the future of transportation and the role of technology.",
+    "voice_profile_updated_at": "2026-04-01 10:03:46",
+    "last_seen": "2026-04-01 10:03:46",
+    "last_episode_title": "Uber CEO on Winning the Robotaxi Race, the End of Car Ownership, and Uber\u2019s Next $1 Trillion Bet | Dara Khosrowshahi (Uber CEO) | 243",
     "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-02-17",
+    "last_episode_date": "2026-03-31",
     "mention_score": 1,
-    "mention_score_decayed": 0.46,
-    "last_main_idea": "Investing in AI and robotics companies that leverage neural networks for autonomous manufacturing could yield significant returns as this market is expected to become the largest economy globally.",
-    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-02-17 \u2022 Humanoid Run on Neural Net, Autonomous Manufacturing, $50T Market #229",
-    "last_proof_snippet": "Brett Adcock: Humanoid Run on Neural Net, Autonomous Manufacturing, $50T Market #229 Moonshots with Peter Diamandis Episode 229 00:00:00 I am blown away by how far you've come. The things that you can do with Neural Nets now does completely",
-    "supporting_takeaway": "Data accumulation is becoming a significant barrier to entry and a valuable asset in the AI and robotics space.",
+    "mention_score_decayed": 0.6,
+    "last_main_idea": "Investment in autonomous vehicle technology is poised to disrupt urban mobility and logistics, with companies like Uber positioned to capitalize on this shift.",
+    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-03-31 \u2022 Uber CEO on Winning the Robotaxi Race, the End of Car Ownership, and Uber\u2019s Next $1 Trillion Bet | Dara Khosrowshahi (Uber CEO) | 243",
+    "last_proof_snippet": "The Robotaxi race is heating up. How are you going to win that race? Well, when you joined taking the mental Uber, I think Uber was losing $4.5 billion a year. Today it's earning over $10 billion a year. You really focused the organization.",
+    "supporting_takeaway": "Autonomous vehicles are becoming a reality, with a hybrid model expected to emerge where both human-driven and autonomous vehicles coexist.",
     "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-19T22:16:04.041005",
+    "grokipedia_fetched_at": "2026-04-01T05:04:28.065974",
     "pundit_profile": {
       "source": "llm",
       "source_model": "moonshot:moonshot-v1-8k",
       "source_url": "",
-      "page_title": "Brett Adcock",
-      "fetched_at": "2026-03-20T03:16:04.040798+00:00",
-      "cliff_notes": "Brett Adcock is an entrepreneur and investor with a focus on software and VTOL companies. His work in AI and robotics development has positioned him as a key figure in the industry, particularly in the areas of autonomous manufacturing and the potential for a $50 trillion market. Adcock's insights into the rapid advancements in neural nets and the accumulation of data as a barrier to entry and asset have been influential. His vision for a future where robots build robots and the impact on the economy and society is a testament to his forward-thinking approach in the tech industry.",
+      "page_title": "Dara Khosrowshahi",
+      "fetched_at": "2026-04-01T10:04:28.065490+00:00",
+      "cliff_notes": "Dara Khosrowshahi has had a significant impact on the tech industry through his leadership roles in major companies. As the CEO of Expedia, he led the company through a period of growth and expansion. His tenure at Uber has been marked by a focus on financial stability and the development of autonomous vehicle technology. Khosrowshahi's leadership has been pivotal in shaping the future of transportation and the tech industry, as he navigates the complexities of integrating autonomous vehicles into urban landscapes.",
       "derived": {
-        "current_role": "Entrepreneur and Investor"
+        "current_role": "CEO of Uber",
+        "former_positions": "CEO of Expedia"
       },
       "infobox": {
         "Born": "",
         "Nationality": ""
       },
       "lead_paragraphs": [
-        "Brett Adcock is an entrepreneur and investor with a focus on software and VTOL companies. His work in AI and robotics development has positioned him as a key figure in the industry, particularly in the areas of autonomous manufacturing and the potential for a $50 trillion market. Adcock's insights into the rapid advancements in neural nets and the accumulation of data as a barrier to entry and asset have been influential.",
-        "His vision for a future where robots build robots and the impact on the economy and society is a testament to his forward-thinking approach in the tech industry."
+        "Dara Khosrowshahi has had a significant impact on the tech industry through his leadership roles in major companies. As the CEO of Expedia, he led the company through a period of growth and expansion. His tenure at Uber has been marked by a focus on financial stability and the development of autonomous vehicle technology.",
+        "Khosrowshahi's leadership has been pivotal in shaping the future of transportation and the tech industry, as he navigates the complexities of integrating autonomous vehicles into urban landscapes."
       ],
       "sections": [
         {
-          "heading": "AI and Robotics",
-          "body": "Brett Adcock is recognized for his contributions to AI and robotics, particularly in the development of autonomous manufacturing and the use of neural nets."
+          "heading": "Uber's Financial Turnaround",
+          "body": "Dara Khosrowshahi is credited with turning around Uber's financial performance, moving the company from significant losses to substantial earnings."
         },
         {
-          "heading": "Neural Nets",
-          "body": "Adcock is amazed by the advancements in neural nets and how they have transformed the business landscape, allowing for the rapid accumulation of data and the sharing of knowledge across a fleet of robots."
+          "heading": "Focus on Autonomous Technology",
+          "body": "Under Khosrowshahi's leadership, Uber has made significant strides in the development and deployment of autonomous vehicle technology, positioning the company as a key player in the future of transportation."
         },
         {
-          "heading": "Autonomous Manufacturing",
-          "body": "Adcock"
-        },
-        {
-          "heading": "Market Potential",
-          "body": "He estimates the market potential in this space to be a staggering $50 trillion, indicating a significant impact on the global economy."
+          "heading": "Leadership in the Tech Industry",
+          "body": "Khosrowshahi's experience and leadership in the tech industry have made him a prominent figure, with his decisions and strategies closely watched by investors and tech enthusiasts alike."
         }
       ]
     },
-    "net_worth": "$19.00B"
+    "net_worth": "$5.00B"
   },
   {
-    "id": 89,
-    "name": "Andrew 'Boz' Bosworth",
-    "slug": "andrew-boz-bosworth",
-    "bio": "Andrew 'Boz' Bosworth is a prominent figure in the tech industry, known for his work at Meta, where he has spent nearly two decades shaping consumer interaction. As the company's CTO, he has been instrumental in the development of smart glasses and AR headsets, pushing the boundaries of consumer technology.",
-    "known_for": "His influential role in shaping Meta's technology strategy and the development of smart glasses and AR headsets.",
-    "net_worth_usd": 46000000.0,
-    "net_worth_source": "https://www.gurufocus.com/insider/170430/andrew-bosworth",
-    "net_worth_updated_at": "2026-03-19T22:17:08.863199",
-    "voice_tone": "Confident and visionary.",
-    "voice_style": "Boz presents a future-oriented perspective with a focus on the transformative potential of AI and AR.",
-    "voice_delivery_notes": "Pacing is steady with emphasis on the importance of AI and the shift towards intent-driven computing.",
-    "voice_profile_updated_at": "2026-03-20 03:09:39",
-    "last_seen": "2026-03-20 03:09:39",
-    "last_episode_title": "The Future of Consumer Technology and the Post-Mobile Phone Era",
-    "last_podcast_name": "a16z Live",
-    "last_episode_date": "2026-02-15",
-    "mention_score": 1,
-    "mention_score_decayed": 0.46,
-    "last_main_idea": "Invest in companies that are at the forefront of developing AI-enabled, immersive technologies that can redefine consumer interactions beyond the current app-centric model.",
-    "last_proof_cite": "a16z Live \u2022 2026-02-15 \u2022 The Future of Consumer Technology and the Post-Mobile Phone Era",
-    "last_proof_snippet": "Is there a better way? I think there is. Every single interface that I interact with, every single problem space that I'm trying to solve are going to be made easier by virtue of this new technology. If you were starting from scratch today,",
-    "supporting_takeaway": "Augmented reality glasses are a real possibility for content consumption in the next decade.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-19T22:17:07.326933",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Andrew 'Boz' Bosworth",
-      "fetched_at": "2026-03-20T03:17:07.326714+00:00",
-      "cliff_notes": "Andrew 'Boz' Bosworth has been with Meta (formerly Facebook) for nearly two decades, starting as a software engineer and rising through the ranks to become the company's CTO. His tenure has seen him play a pivotal role in the evolution of consumer interaction, from the Facebook News Feed to the development of smart glasses and AR headsets. Bosworth's work has been central to Meta's technological advancements, particularly in the realms of AI and hardware. His vision for a post-phone world, where AI-enabled technology creates more immersive and adaptive computing experiences, has positioned him as a key influencer in the tech industry's future.",
-      "derived": {
-        "current_role": "CTO at Meta",
-        "former_positions": "Director of Engineering at Facebook; Manager of Facebook's News Feed team",
-        "education": "Bachelor's degree in Computer Science from Harvard University"
-      },
-      "infobox": {
-        "Born": "Unknown",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Andrew 'Boz' Bosworth has been with Meta (formerly Facebook) for nearly two decades, starting as a software engineer and rising through the ranks to become the company's CTO. His tenure has seen him play a pivotal role in the evolution of consumer interaction, from the Facebook News Feed to the development of smart glasses and AR headsets.",
-        "Bosworth's work has been central to Meta's technological advancements, particularly in the realms of AI and hardware. His vision for a post-phone world, where AI-enabled technology creates more immersive and adaptive computing experiences, has positioned him as a key influencer in the tech industry's future."
-      ],
-      "sections": [
-        {
-          "heading": "Meta's Technology Strategy",
-          "body": "Bosworth has been a driving force behind Meta's technology strategy, focusing on the development of smart glasses and AR headsets that aim to redefine consumer interaction."
-        },
-        {
-          "heading": "AI and Hardware Breakthroughs",
-          "body": "His work emphasizes the potential of AI and hardware breakthroughs to revolutionize the tech landscape, moving towards a more agentic, adaptive, and immersive computing experience."
-        },
-        {
-          "heading": "Post-Phone World Vision",
-          "body": "Bosworth envisions a future where the app-centric world of smartphones is replaced by a new computing paradigm, one that is more integrated and intuitive, potentially led by AI advancements."
-        }
-      ]
-    },
-    "net_worth": "$46.0M"
-  },
-  {
-    "id": 88,
-    "name": "Ben Harwitz",
-    "slug": "ben-harwitz",
-    "bio": "Ben Harwitz is a guest on the 'Moonshots with Peter Diamandis' podcast, where he discusses the societal impact of AI. He has expressed concerns about the departures from X-A-I from the founding team and the potential dangers of attempting to pause AI development.",
-    "known_for": "His insights on AI's societal impact and the potential for AI to address global issues.",
-    "net_worth_usd": 3500000000.0,
-    "net_worth_source": "https://finty.com/us/net-worth/ben-horowitz/",
-    "net_worth_updated_at": "2026-03-19T22:17:59.756579",
-    "voice_tone": "Cautiously optimistic",
-    "voice_style": "Analytical with a focus on positive outcomes",
-    "voice_delivery_notes": "Speaks with measured pace, emphasizing key points about AI's potential",
-    "voice_profile_updated_at": "2026-03-20 03:07:23",
-    "last_seen": "2026-03-20 03:07:23",
-    "last_episode_title": null,
-    "last_podcast_name": null,
-    "last_episode_date": null,
-    "mention_score": 1,
-    "mention_score_decayed": 0.46,
-    "last_main_idea": null,
-    "last_proof_cite": null,
-    "last_proof_snippet": null,
-    "supporting_takeaway": null,
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-19T22:17:58.321307",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Ben Harwitz",
-      "fetched_at": "2026-03-20T03:17:58.321048+00:00",
-      "cliff_notes": "Ben Harwitz is a commentator and guest on the 'Moonshots with Peter Diamandis' podcast, where he shares his thoughts on the impact of artificial intelligence on society. He has expressed concerns about the departures from X-A-I from the founding team and the potential dangers of attempting to pause AI development. Harwitz believes that AI is the best chance we have at stopping the high number of deaths on Earth daily and that whoever is building the AI has a lot of control about how society is going to work. His views on AI's societal impact and its potential to address global issues make him a notable figure in discussions about the future of technology and its implications for humanity.",
-      "derived": {},
-      "infobox": {
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Ben Harwitz is a commentator and guest on the 'Moonshots with Peter Diamandis' podcast, where he shares his thoughts on the impact of artificial intelligence on society. He has expressed concerns about the departures from X-A-I from the founding team and the potential dangers of attempting to pause AI development. Harwitz believes that AI is the best chance we have at stopping the high number of deaths on Earth daily and that whoever is building the AI has a lot of control about how society is going to work.",
-        "His views on AI's societal impact and its potential to address global issues make him a notable figure in discussions about the future of technology and its implications for humanity."
-      ],
-      "sections": [
-        {
-          "heading": "AI's Societal Impact",
-          "body": "Ben Harwitz discusses the societal impact of AI on the 'Moonshots with Peter Diamandis' podcast, expressing concerns about the departures from X-A-I from the founding team and the potential dangers of attempting to pause AI development."
-        },
-        {
-          "heading": "AI and Global Issues",
-          "body": "Harwitz believes that AI is the best chance we have at stopping the high number of deaths on Earth daily and that whoever is building the AI has a lot of control about how society is going to work."
-        },
-        {
-          "heading": "AI Development",
-          "body": "Harwitz has expressed concerns about the departures from X-A-I from the founding team and the potential dangers of attempting to pause AI development, highlighting the importance of continued progress in AI technology."
-        }
-      ]
-    },
-    "net_worth": "$3.50B"
-  },
-  {
-    "id": 86,
-    "name": "Paul Krugman",
-    "slug": "paul-krugman",
-    "bio": "Paul Krugman is a Nobel Prize-winning economist, distinguished professor, and publisher of the Paul Krugman Substack. Known for his work in international trade and economic geography, Krugman has significantly influenced economic thought and policy.",
-    "known_for": "His insights into international trade, economic geography, and the global economy.",
+    "id": 145,
+    "name": "Owen Jennings",
+    "slug": "owen-jennings",
+    "bio": "Owen Jennings is an Executive Officer and Business Lead at Block, managing product operations and customer support across Square, Cash App, and Afterpay. He is known for leading Cash App through its critical scaling period and overseeing Block's AI transformation.",
+    "known_for": "Leading Cash App through its critical scaling period and overseeing Block's AI transformation.",
     "net_worth_usd": 15000000.0,
-    "net_worth_source": "https://thenewstalkers.com/community/discussion/66430/",
-    "net_worth_updated_at": "2026-03-31T20:09:46.725305",
-    "voice_tone": "Analytical and measured.",
-    "voice_style": "Factual and explanatory, with a focus on economic theory and data.",
-    "voice_delivery_notes": "Delivers complex economic theories in a digestible manner.",
-    "voice_profile_updated_at": "2026-03-20 03:03:32",
-    "last_seen": "2026-03-20 03:03:32",
-    "last_episode_title": "Monetary Matters with Jack Farley: The US Dollar, Trade Deficits, and the Role of AI in Finance",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-02-19",
+    "net_worth_source": "https://www.gurufocus.com/insider/265938/owen-britton-jennings",
+    "net_worth_updated_at": "2026-04-01T15:15:32.439710",
+    "voice_tone": "Confident and matter-of-fact",
+    "voice_style": "Direct and focused on the practical implications of AI on business operations",
+    "voice_delivery_notes": "Clear and concise, with emphasis on the transformative impact of AI",
+    "voice_profile_updated_at": "2026-04-01 20:15:22",
+    "last_seen": "2026-04-01 20:15:22",
+    "last_episode_title": "What Happens When a Public Company Goes All In on AI",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-04-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.46,
-    "last_main_idea": "The Picta AI Enhanced International Equity ETF (PQNT) uses AI to enhance international equity returns, suggesting a potential for outperformance through technology-driven investment strategies.",
-    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-02-19 \u2022 Monetary Matters with Jack Farley: The US Dollar, Trade Deficits, and the Role of AI in Finance",
-    "last_proof_snippet": "Today's episode is brought to you by the Picta AI Enhance International Equity ETF, Ticker PQNT. You'll hear more about they're using AI to enhance international equity returns later in the show. For now, let's get into it. Very pleased tod",
-    "supporting_takeaway": "The dollar's international role is complex and not easily replaced, affecting its value beyond trade deficits.",
+    "mention_score_decayed": 0.6,
+    "last_main_idea": "Investing in companies that understand complex problems and can leverage AI to gain a competitive advantage in their operations and product development.",
+    "last_proof_cite": "The a16z Show \u2022 2026-04-01 \u2022 What Happens When a Public Company Goes All In on AI",
+    "last_proof_snippet": "The biggest mode is going to be which companies understand something that's super hard for other people to understand and if your answer to that is, I don't know, then you maybe could get vibe coded away. Block was one of the first to make",
+    "supporting_takeaway": "AI agents have significantly increased productivity, with one or two engineers on the tools being able to achieve 10-100x more output than before.",
     "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-19T22:19:12.461398",
+    "grokipedia_fetched_at": "2026-04-01T15:15:31.311281",
     "pundit_profile": {
       "source": "llm",
       "source_model": "moonshot:moonshot-v1-8k",
       "source_url": "",
-      "page_title": "Paul Krugman",
-      "fetched_at": "2026-03-20T03:19:12.461160+00:00",
-      "cliff_notes": "Paul Krugman is a renowned economist who has made significant contributions to the fields of international trade and economic geography. He began his career as an assistant professor at MIT, later moving to Yale and then Stanford. Krugman's work has been influential in shaping economic policy and understanding global economic trends. He has also been a prolific writer, contributing columns to The New York Times and publishing several influential books. His insights into economic theory and policy have made him a respected voice in both academic and public discourse.",
+      "page_title": "Owen Jennings",
+      "fetched_at": "2026-04-01T20:15:31.310842+00:00",
+      "cliff_notes": "Owen Jennings is a key figure in the fintech industry, particularly through his role at Block, where he has been instrumental in the growth and scaling of Cash App. His leadership has been pivotal during a critical period of expansion for the company, and he has been at the forefront of Block's AI transformation. Jennings' approach to management and operations has been marked by a focus on efficiency and productivity, as evidenced by his decision to cut the workforce by 40%, emphasizing the importance of leveraging technology and AI to maximize output. His career has been marked by a deep understanding of the intersection between technology and finance, making him a significant player in the industry.",
       "derived": {
-        "current_role": "Distinguished Professor at the Graduate Center of the City University of New York",
-        "former_positions": "Professor of Economics and International Affairs at Princeton University; Columnist for The New York Times",
-        "education": "Ph.D. in Economics from MIT; M.Phil. in Economics from Yale University; B.A. in Economics from Yale University",
-        "political_affiliation": "Independent",
-        "political_summary": "While not directly involved in politics, Krugman is known for his political commentary and has advised policymakers on economic issues.",
-        "books_or_works": "The Return of Depression Economics and the Crisis of 2008; The Conscience of a Liberal; Development, Geography, and Economic Theory",
-        "teaching_summary": "Professor of Economics and International Affairs at Princeton University; Distinguished Professor at the Graduate Center of the City University of New York"
+        "current_role": "Executive Officer and Business Lead at Block"
       },
       "infobox": {
-        "Born": "February 28, 1953",
-        "Nationality": "American"
+        "Born": "",
+        "Nationality": ""
       },
       "lead_paragraphs": [
-        "Paul Krugman is a renowned economist who has made significant contributions to the fields of international trade and economic geography. He began his career as an assistant professor at MIT, later moving to Yale and then Stanford. Krugman's work has been influential in shaping economic policy and understanding global economic trends.",
-        "He has also been a prolific writer, contributing columns to The New York Times and publishing several influential books. His insights into economic theory and policy have made him a respected voice in both academic and public discourse."
+        "Owen Jennings is a key figure in the fintech industry, particularly through his role at Block, where he has been instrumental in the growth and scaling of Cash App. His leadership has been pivotal during a critical period of expansion for the company, and he has been at the forefront of Block's AI transformation. Jennings' approach to management and operations has been marked by a focus on efficiency and productivity, as evidenced by his decision to cut the workforce by 40%, emphasizing the importance of leveraging technology and AI to maximize output.",
+        "His career has been marked by a deep understanding of the intersection between technology and finance, making him a significant player in the industry."
       ],
       "sections": [
         {
-          "heading": "International Trade",
-          "body": "Krugman's work on international trade has been groundbreaking, challenging traditional models and providing new insights into trade patterns and economic development."
+          "heading": "Cash App Scaling",
+          "body": "Owen Jennings played a crucial role in leading Cash App through its critical scaling period, managing the app's growth and ensuring its stability amidst rapid expansion."
         },
         {
-          "heading": "Economic Geography",
-          "body": "Krugman's research on economic geography has helped to explain the distribution of economic activity across different regions and the factors that influence this distribution."
+          "heading": "AI Transformation at Block",
+          "body": "Jennings has overseen Block's AI transformation, integrating advanced technologies to enhance the company's operations and improve efficiency."
         },
         {
-          "heading": "Global Economy",
-          "body": "Krugman has been a leading voice in discussions about the global economy, offering insights into currency fluctuations, trade imbalances, and the impacts of globalization."
+          "heading": "Workforce Reduction",
+          "body": "In a bold move, Jennings led the decision to cut Block's workforce by 40%, emphasizing the shift towards leveraging technology and AI to increase productivity rather than solely relying on human labor."
         },
         {
-          "heading": "Economic Policy",
-          "body": "Throughout his career, Krugman has advised policymakers and provided commentary on economic policy, influencing debates on fiscal and monetary policy."
+          "heading": "Productivity and Technology",
+          "body": "Jennings believes in the power of technology to increase productivity, suggesting that for a given product or roadmap, fewer engineers, designers, and PMs are needed due to the capabilities of advanced systems."
         }
       ]
     },
     "net_worth": "$15.0M"
   },
   {
-    "id": 84,
-    "name": "John Fetterman",
-    "slug": "john-fetterman",
-    "bio": "John Fetterman is a Senator from Pennsylvania, recognized for his pragmatic approach to policy and bipartisan appeal. He is known for his stance on voting rights, support for Israel, and refusal to shut down the Department of Homeland Security.",
-    "known_for": "His pragmatic policy approach and bipartisan appeal, particularly in areas of voting rights and national security.",
-    "net_worth_usd": 95000000000.0,
-    "net_worth_source": "https://www.wsws.org/en/articles/2025/03/27/yykn-m27.html",
-    "net_worth_updated_at": "2026-03-19T15:48:49.103847",
-    "voice_tone": "",
-    "voice_style": "",
-    "voice_delivery_notes": "",
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-03-19 03:04:44",
-    "last_episode_title": "Interview with Senator John Fetterman on Voting Rights, Policy Decisions, and the Democratic Party",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-03-18",
-    "mention_score": 1,
-    "mention_score_decayed": 0.45,
-    "last_main_idea": "While not directly investment-focused, the episode provides insights into the political climate and potential policy directions that could indirectly affect various sectors and investment strategies.",
-    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-18 \u2022 Interview with Senator John Fetterman on Voting Rights, Policy Decisions, and the Democratic Party",
-    "last_proof_snippet": "John Fetterman, thank you for joining us here on the All-In-Podcast for this all-in interview. Very excited to have him here today. I know you're in the middle of voting today. Sounds like the Save America Act might be starting its debate o",
-    "supporting_takeaway": "Fetterman has a unique perspective, being popular among Republicans while maintaining his Democratic affiliation.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-19T21:20:25.000396",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "John Fetterman",
-      "fetched_at": "2026-03-20T02:20:25.000069+00:00",
-      "cliff_notes": "John Fetterman, a Democratic Party member, began his career in public service as the Mayor of Braddock, Pennsylvania, where he gained recognition for his efforts to revitalize the town. His pragmatic approach to policy and commitment to bipartisanship led him to be elected as a Senator from Pennsylvania. In the Senate, Fetterman has been a vocal advocate for voting rights and has taken stances that reflect his progressive values while maintaining a broad appeal. His refusal to shut down the Department of Homeland Security and his support for Israel are also part of his political profile. Fetterman's role in the Senate is significant as he navigates the complex political landscape, striving to represent his constituents while pushing for policy changes that align with his values.",
-      "derived": {
-        "current_role": "Senator from Pennsylvania",
-        "political_affiliation": "Democratic Party",
-        "political_summary": "Senator John Fetterman has been involved in politics, serving as the Mayor of Braddock, Pennsylvania, before being elected to the Senate. He is known for his progressive stances and efforts to bridge the partisan divide."
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "John Fetterman, a Democratic Party member, began his career in public service as the Mayor of Braddock, Pennsylvania, where he gained recognition for his efforts to revitalize the town. His pragmatic approach to policy and commitment to bipartisanship led him to be elected as a Senator from Pennsylvania. In the Senate, Fetterman has been a vocal advocate for voting rights and has taken stances that reflect his progressive values while maintaining a broad appeal.",
-        "His refusal to shut down the Department of Homeland Security and his support for Israel are also part of his political profile. Fetterman's role in the Senate is significant as he navigates the complex political landscape, striving to represent his constituents while pushing for policy changes that align with his values."
-      ],
-      "sections": [
-        {
-          "heading": "Voting Rights",
-          "body": "Senator Fetterman is a staunch advocate for voting rights, pushing for legislation that protects and expands access to voting for all citizens."
-        },
-        {
-          "heading": "Bipartisanship",
-          "body": "Fetterman is known for his efforts to work across party lines, seeking common ground on issues to achieve legislative success."
-        },
-        {
-          "heading": "National Security",
-          "body": "He has been vocal in his support for the Department of Homeland Security, emphasizing the importance of national security in the modern era."
-        },
-        {
-          "heading": "Progressive Values",
-          "body": "Senator Fetterman often champions progressive policies, reflecting his commitment to social justice and equality."
-        }
-      ]
-    },
-    "net_worth": "$95.00B"
-  },
-  {
-    "id": 83,
-    "name": "Jacob Helbert",
-    "slug": "jacob-helbert",
-    "bio": "Jacob Helbert is the Under Secretary of State for Economic Affairs, known for his work on AI, manufacturing, and supply chains. He is the author of 'The Wires of War' and has been influential in discussions on the geopolitics of technology and the importance of hardware, industrial capacity, and secure supply chains for economic strength and national security.",
-    "known_for": "His insights on AI innovation, manufacturing, and supply chains' role in geopolitics and national security.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "",
-    "voice_style": "",
-    "voice_delivery_notes": "",
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-03-19 03:02:43",
-    "last_episode_title": "The Geopolitics of Technology and the Future Economy",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-03-18",
-    "mention_score": 1,
-    "mention_score_decayed": 0.45,
-    "last_main_idea": "Invest in companies that are at the forefront of AI innovation, hardware manufacturing, and secure supply chain management to capitalize on the new geopolitics of technology and the reindustrialization of the US.",
-    "last_proof_cite": "The a16z Show \u2022 2026-03-18 \u2022 The Geopolitics of Technology and the Future Economy",
-    "last_proof_snippet": "Our models need to be superior than all the other models on Earth. We need to have the world's best AI innovation on a qualitative basis, so we need to have the most market share. If we have exquisite models that no one uses, we're kind of",
-    "supporting_takeaway": "Helbert emphasizes the importance of hardware in the geopolitical technology war and the control over the internet's infrastructure.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-19T21:20:41.027940",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Jacob Helbert",
-      "fetched_at": "2026-03-20T02:20:41.027811+00:00",
-      "cliff_notes": "Jacob Helbert serves as the Under Secretary of State for Economic Affairs, where he plays a pivotal role in shaping economic policies that intersect with technology and national security. His expertise in AI, manufacturing, and supply chains has made him a key figure in discussions about the future of technology's role in global economics and geopolitics. Helbert's work extends beyond policy-making; he is also an author, with his book 'The Wires of War' providing a framework for understanding the critical importance of hardware, industrial capacity, and secure supply chains in today's interconnected world. His contributions to the discourse on AI and its implications for economic and national security have positioned him as a thought leader in the field.",
-      "derived": {
-        "current_role": "Under Secretary of State for Economic Affairs",
-        "books_or_works": "The Wires of War"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Jacob Helbert serves as the Under Secretary of State for Economic Affairs, where he plays a pivotal role in shaping economic policies that intersect with technology and national security. His expertise in AI, manufacturing, and supply chains has made him a key figure in discussions about the future of technology's role in global economics and geopolitics.",
-        "Helbert's work extends beyond policy-making; he is also an author, with his book 'The Wires of War' providing a framework for understanding the critical importance of hardware, industrial capacity, and secure supply chains in today's interconnected world. His contributions to the discourse on AI and its implications for economic and national security have positioned him as a thought leader in the field."
-      ],
-      "sections": [
-        {
-          "heading": "AI and National Security",
-          "body": "Jacob Helbert emphasizes the importance of AI innovation for national security, advocating for the development of superior AI models to maintain a competitive edge globally."
-        },
-        {
-          "heading": "Manufacturing and Supply Chains",
-          "body": "Helbert discusses the significance of robust manufacturing capabilities and secure supply chains for both economic strength and national security in the modern era."
-        },
-        {
-          "heading": "Geopolitics of Technology",
-          "body": "In his book 'The Wires of War' and various discussions, Helbert explores how technology, particularly in hardware and industrial capacity, has become a central aspect of global politics and power dynamics."
-        },
-        {
-          "heading": "Economic Growth",
-          "body": "Helbert believes in the expansionist view of economics, where the 'pie expands', fostering an environment conducive to starting businesses and driving economic growth."
-        }
-      ]
-    }
-  },
-  {
-    "id": 82,
-    "name": "Bob Elliott",
-    "slug": "bob-elliott",
-    "bio": "Bob Elliott is the Chief Investment Officer at Unlimited Funds and a former member of the Investment Committee at Bridgewater. With expertise in macroeconomic trading and investment strategy, Elliott has been influential in the financial sector, particularly in the U.S. macro trading category.",
-    "known_for": "His leadership in macroeconomic trading and investment strategy, and his role in developing the HFGM global macro ETF.",
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": "2026-03-19T15:48:52.999309",
-    "voice_tone": "",
-    "voice_style": "",
-    "voice_delivery_notes": "",
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-03-19 03:02:29",
-    "last_episode_title": "Monetary Matters with Jack Farley: Oil Shocks, Inflation, and Market Reactions",
+    "id": 147,
+    "name": "Anna Wang",
+    "slug": "anna-wang",
+    "bio": "Anna Wang is the Chief U.S. Economist at Bloomberg, where she provides economic analysis and commentary on inflation and oil prices. She is known for her insightful views on the economic implications of oil price fluctuations and their impact on inflation.",
+    "known_for": "Economic analysis and commentary on inflation and oil prices.",
+    "net_worth_usd": 3000000000.0,
+    "net_worth_source": "https://www.gurufocus.com/insider/231639/wang-nan",
+    "net_worth_updated_at": "2026-04-01T22:04:03.961801",
+    "voice_tone": "Analytical and measured.",
+    "voice_style": "Provides detailed economic analysis with a focus on data and trends.",
+    "voice_delivery_notes": "Speaks with a clear and deliberate pace, emphasizing key economic indicators and potential outcomes.",
+    "voice_profile_updated_at": "2026-04-02 03:03:55",
+    "last_seen": "2026-04-02 03:03:55",
+    "last_episode_title": "Why $200 Oil Won\u2019t Spike Inflation to 9% | Anna Wong on Recession Probability, PCE vs CPI, and Fed Reaction Function In A Scenario of Soaring Energy Prices",
     "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-03-19",
+    "last_episode_date": "2026-04-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.45,
-    "last_main_idea": "The current elevated oil prices and their subsequent impact on inflation and growth present a complex investment landscape, with stocks and bonds being particularly at risk. Investors should consider packaging trades to navigate these dynamics.",
-    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-19 \u2022 Monetary Matters with Jack Farley: Oil Shocks, Inflation, and Market Reactions",
-    "last_proof_snippet": "Today's episode is brought to you by the unlimited hfgm global macro ETF ticker hfgm. Later in the show, you'll hear more about hfgm currently the number one morning star rated funds sits its inception in the U.S. macro trading category. Le",
-    "supporting_takeaway": "The immediate impact of an oil shock is inflationary, but over time it could lead to a negative shock on the economy.",
+    "mention_score_decayed": 0.6,
+    "last_main_idea": "Pictay asset management's AI-enhanced ETFs (PQNT and PQUS) aim to provide enhanced equity exposure through the use of artificial intelligence.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-01 \u2022 Why $200 Oil Won\u2019t Spike Inflation to 9% | Anna Wong on Recession Probability, PCE vs CPI, and Fed Reaction Function In A Scenario of Soaring Energy Prices",
+    "last_proof_snippet": "Today's episode is brought you by Pictay asset management and their AI enhanced ETF range, ticker PQNT and PQUS. You'll hear more about how they're using AI to enhance equity exposure later in the show. For now, let's get into it. Very plea",
+    "supporting_takeaway": "Oil futures curve suggests prices will decline to around $80 in the second half of the year.",
     "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-19T21:21:05.284882",
+    "grokipedia_fetched_at": "2026-04-01T22:04:02.778580",
     "pundit_profile": {
       "source": "llm",
       "source_model": "moonshot:moonshot-v1-8k",
       "source_url": "",
-      "page_title": "Bob Elliott",
-      "fetched_at": "2026-03-20T02:21:05.284761+00:00",
-      "cliff_notes": "Bob Elliott is a prominent figure in the financial industry, known for his expertise in macroeconomic trading and investment strategy. He currently serves as the Chief Investment Officer at Unlimited Funds, where he oversees the investment strategies and operations. Previously, Elliott was a member of the Investment Committee at Bridgewater, one of the world's largest hedge funds. His contributions to the development and management of the HFGM global macro ETF have been particularly noteworthy, as it has become the number one Morningstar-rated fund in its category since its inception. Elliott's insights into the impact of oil prices on the economy, stock market, bond market, and Federal Reserve reaction function have been highly sought after, reflecting his deep understanding of the interconnectedness of global financial markets.",
+      "page_title": "Anna Wang",
+      "fetched_at": "2026-04-02T03:04:02.778251+00:00",
+      "cliff_notes": "Anna Wang is a prominent economist known for her expertise in U.S. economic analysis, particularly in the areas of inflation and oil prices. As the Chief U.S. Economist at Bloomberg, she offers valuable insights into the economic landscape, helping investors and policymakers navigate complex market conditions. Wang's career has been marked by her ability to provide clear and concise analysis on economic trends, making her a sought-after commentator in the financial industry. Her work at Bloomberg has allowed her to influence economic discourse and contribute to a better understanding of the factors driving inflation and oil prices.",
       "derived": {
-        "current_role": "Chief Investment Officer at Unlimited Funds",
-        "former_positions": "Member of the Investment Committee at Bridgewater"
+        "current_role": "Chief U.S. Economist at Bloomberg"
       },
       "infobox": {
         "Born": "",
         "Nationality": ""
       },
       "lead_paragraphs": [
-        "Bob Elliott is a prominent figure in the financial industry, known for his expertise in macroeconomic trading and investment strategy. He currently serves as the Chief Investment Officer at Unlimited Funds, where he oversees the investment strategies and operations. Previously, Elliott was a member of the Investment Committee at Bridgewater, one of the world's largest hedge funds.",
-        "His contributions to the development and management of the HFGM global macro ETF have been particularly noteworthy, as it has become the number one Morningstar-rated fund in its category since its inception. Elliott's insights into the impact of oil prices on the economy, stock market, bond market, and Federal Reserve reaction function have been highly sought after, reflecting his deep understanding of the interconnectedness of global financial markets."
+        "Anna Wang is a prominent economist known for her expertise in U.S. economic analysis, particularly in the areas of inflation and oil prices. As the Chief U.S. Economist at Bloomberg, she offers valuable insights into the economic landscape, helping investors and policymakers navigate complex market conditions. Wang's career has been marked by her ability to provide clear and concise analysis on economic trends, making her a sought-after commentator in the financial industry.",
+        "Her work at Bloomberg has allowed her to influence economic discourse and contribute to a better understanding of the factors driving inflation and oil prices."
       ],
       "sections": [
         {
-          "heading": "Macroeconomic Trading",
-          "body": "Bob Elliott is recognized for his deep understanding of macroeconomic trading, which involves large-scale investments based on global economic trends and events."
+          "heading": "Economic Analysis",
+          "body": "Anna Wang is known for her economic analysis, particularly focusing on inflation and oil prices, providing investors with valuable insights into market trends."
         },
         {
-          "heading": "Investment Strategy",
-          "body": "Elliott's investment strategy expertise has been pivotal in guiding Unlimited Funds and shaping the investment direction of the HFGM global macro ETF."
+          "heading": "Oil Price Impact",
+          "body": "Wang's commentary on the impact of oil prices on inflation has been influential, challenging conventional views and providing a unique perspective on economic indicators."
         },
         {
-          "heading": "Impact of Oil Prices",
-          "body": "Elliott has provided insightful commentary on how elevated oil prices impact various economic sectors, including households, stock markets, and monetary policy."
-        },
-        {
-          "heading": "ETF Development",
-          "body": "As a key figure in the development of the HFGM global macro ETF, Elliott has contributed to its success and recognition in the U.S. macro trading category."
-        }
-      ]
-    }
-  },
-  {
-    "id": 81,
-    "name": "Elon Musk",
-    "slug": "elon-musk",
-    "bio": "Elon Musk is an entrepreneur and CEO known for his work in electric vehicles and space exploration. He is the CEO of Tesla, an electric car manufacturer, and SpaceX, a space exploration company. Musk is recognized for his innovative technologies and ambitious projects in sustainable energy and space travel.",
-    "known_for": "Elon Musk is known for his leadership in electric vehicles and space exploration, revolutionizing sustainable energy and pushing the boundaries of space technology.",
-    "net_worth_usd": 270100000000.0,
-    "net_worth_source": "https://www.wikidata.org/wiki/Q317521",
-    "net_worth_updated_at": "2026-03-19T15:06:00.316451",
-    "voice_tone": "",
-    "voice_style": "",
-    "voice_delivery_notes": "",
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-03-17 22:17:06",
-    "last_episode_title": "Elon Musk on Moonshots: Discussing AI, Robotics, and Future Technologies",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-03-17",
-    "mention_score": 1,
-    "mention_score_decayed": 0.44,
-    "last_main_idea": "Invest in companies at the forefront of AI, robotics, and space technology, as these sectors are poised for significant growth and disruption.",
-    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-03-17 \u2022 Elon Musk on Moonshots: Discussing AI, Robotics, and Future Technologies",
-    "last_proof_snippet": "audience, and as you can see, still trying to monetize hope. Yeah, you look like you're in great shape. I'm doing great. Well, that's not like a sort of user of things going on or what. It's like it's our longevity exercise. We're getting t",
-    "supporting_takeaway": "SpaceX is in a quiet period, with Musk unable to disclose specific timelines for launching data centers.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-19T21:21:32.334592",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Elon Musk",
-      "fetched_at": "2026-03-20T02:21:32.334474+00:00",
-      "cliff_notes": "Elon Musk is a South African-born entrepreneur who has made significant contributions to the fields of electric vehicles and space exploration. He co-founded Zip2, a web software company, which was acquired by Compaq for nearly $300 million. Musk then co-founded X.com, which later became PayPal and was acquired by eBay for $1.5 billion. He then founded SpaceX in 2002, with the goal of reducing space transportation costs and enabling the colonization of Mars. In 2004, Musk became an early investor in Tesla, which he later took over as CEO, transforming the electric vehicle industry. Musk's companies have disrupted traditional industries and have a significant impact on sustainable energy and space travel.",
-      "derived": {
-        "current_role": "CEO of Tesla and SpaceX",
-        "former_positions": "CEO of SolarCity; CEO of Zip2; Co-founder of PayPal",
-        "boards": "Tesla, SpaceX, Neuralink, The Boring Company",
-        "education": "Bachelor of Science in Physics and Economics from the University of Pennsylvania; Attended Stanford University for Ph.D. in Physics",
-        "political_affiliation": "Independent"
-      },
-      "infobox": {
-        "Born": "June 28, 1971",
-        "Nationality": "South African-American"
-      },
-      "lead_paragraphs": [
-        "Elon Musk is a South African-born entrepreneur who has made significant contributions to the fields of electric vehicles and space exploration. He co-founded Zip2, a web software company, which was acquired by Compaq for nearly $300 million. Musk then co-founded X.com, which later became PayPal and was acquired by eBay for $1.5 billion.",
-        "He then founded SpaceX in 2002, with the goal of reducing space transportation costs and enabling the colonization of Mars. In 2004, Musk became an early investor in Tesla, which he later took over as CEO, transforming the electric vehicle industry. Musk's companies have disrupted traditional industries and have a significant impact on sustainable energy and space travel."
-      ],
-      "sections": [
-        {
-          "heading": "Tesla",
-          "body": "Tesla, founded by Elon Musk, is an electric vehicle and clean energy company that designs, manufactures, and sells electric cars, solar energy generation systems, and energy storage products. Tesla has revolutionized the electric vehicle industry and is a leader in sustainable energy solutions."
-        },
-        {
-          "heading": "SpaceX",
-          "body": "Space Exploration Technologies Corp. (SpaceX) is a private aerospace manufacturer and space transportation company founded by Elon Musk. SpaceX has developed the Falcon 1, Falcon 9, and Falcon Heavy rockets, and the Dragon spacecraft, aiming to reduce space transportation costs and enable the colonization of Mars."
-        },
-        {
-          "heading": "Sustainable Energy",
-          "body": "Elon Musk's companies, Tesla and SolarCity, have been instrumental in the development and deployment of sustainable energy solutions. Tesla's electric vehicles and SolarCity's solar energy generation systems have contributed significantly to the transition towards renewable energy sources."
+          "heading": "Economic Commentary",
+          "body": "As a commentator on economic issues, Wang has been instrumental in shaping discussions around the economic implications of oil price fluctuations and their broader impact on the economy."
         }
       ]
     },
-    "net_worth": "$270.10B"
+    "net_worth": "$3.00B"
   },
   {
-    "id": 79,
-    "name": "Chris Morris",
-    "slug": "chris-morris",
-    "bio": "Chris Morris is the President of Lampun Partners, an institutional farmland investment firm specializing in acquiring and managing high-quality irrigated row crop farmland in the mid-South region of the United States. He oversees the management of over $400 million in farmland assets and has delivered strong returns through Lampun Partners' Soil Enrichment Fund.",
-    "known_for": "Delivering strong returns through Lampun Partners' Soil Enrichment Fund and managing over $400 million in farmland assets.",
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": "2026-03-19T15:48:55.367811",
+    "id": 148,
+    "name": "Matt Barry",
+    "slug": "matt-barry",
+    "bio": "Matt Barry is the CEO of Freelancer.com, a global freelancing and crowdsourcing marketplace. He is recognized for his expertise in the latest developments on artificial intelligence and its impact on the global workforce.",
+    "known_for": "His insights on the intersection of artificial intelligence and the future of work.",
+    "net_worth_usd": 185000000.0,
+    "net_worth_source": "https://www.therichest.com/celebnetworth/celebrity-business/men/matt-barrie-net-worth/",
+    "net_worth_updated_at": "2026-04-03T05:05:32.018161",
     "voice_tone": "",
     "voice_style": "",
     "voice_delivery_notes": "",
     "voice_profile_updated_at": null,
-    "last_seen": "2026-03-17 13:39:56",
-    "last_episode_title": "Monetary Matters with Jack Farley: Farmland Investment Insights",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-03-17",
+    "last_seen": "2026-04-03 10:04:02",
+    "last_episode_title": "MacroVoices #526 Matt Barrie: Pay To PrAI",
+    "last_podcast_name": "MacroVoices",
+    "last_episode_date": "2026-04-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.44,
-    "last_main_idea": "Farmland represents an underutilized asset class with diversification benefits and potential for strong returns, particularly in the context of water scarcity and aging farmer demographics.",
-    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-17 \u2022 Monetary Matters with Jack Farley: Farmland Investment Insights",
-    "last_proof_snippet": "This episode of Other People's Money is brought to you by the two-Korean Soybean Fund, ticker SOYB. Let's get into it. Welcome to Other People's Money. I am joined today by Chris Morris, President of Lampun Partners in Institutional Farmlan",
-    "supporting_takeaway": "Lampun Partners has achieved mid-teen net returns with its Soil Enrichment Fund, outperforming the S&P 500 since inception.",
+    "mention_score_decayed": 0.63,
+    "last_main_idea": "Invest in sectors less affected by AI disruption and monitor geopolitical events for opportunities in private credit markets.",
+    "last_proof_cite": "MacroVoices \u2022 2026-04-02 \u2022 MacroVoices #526 Matt Barrie: Pay To PrAI",
+    "last_proof_snippet": "This is Macrovoisans, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisans is all about the brightest minds in the world of finance an",
+    "supporting_takeaway": "AI's impact on private credit markets could lead to a market dislocation similar to the 2000.com bust.",
     "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-19T21:21:47.025691",
+    "grokipedia_fetched_at": "2026-04-03T05:05:31.083540",
     "pundit_profile": {
       "source": "llm",
       "source_model": "moonshot:moonshot-v1-8k",
       "source_url": "",
-      "page_title": "Chris Morris",
-      "fetched_at": "2026-03-20T02:21:47.025574+00:00",
-      "cliff_notes": "Chris Morris serves as the President of Lampun Partners, an institutional farmland investment firm that focuses on acquiring and managing high-quality irrigated row crop farmland in the mid-South region of the United States. His leadership has been instrumental in overseeing the management of over $400 million in farmland assets, with a particular emphasis on the Soil Enrichment Fund, which has outperformed the S&P 500 since its inception in October 2021. Morris's expertise in the alternative asset class of farmland investment has positioned Lampun Partners as a significant player in the real assets market, contributing to the diversification of investment portfolios and providing investors with access to a traditionally stable and lucrative sector.",
+      "page_title": "Matt Barry",
+      "fetched_at": "2026-04-03T10:05:31.083389+00:00",
+      "cliff_notes": "Matt Barry is a prominent figure in the technology industry, particularly within the realm of freelancing and crowdsourcing. As the CEO of Freelancer.com, he has been instrumental in shaping the platform into a global marketplace that connects employers with freelancers across various industries. Barry's leadership has been pivotal in navigating the challenges and opportunities presented by the rise of artificial intelligence, ensuring that Freelancer.com remains at the forefront of technological advancements. His contributions to the discourse on AI's impact on employment and the future of work have made him a sought-after voice in both tech and finance circles.",
       "derived": {
-        "current_role": "President of Lampun Partners"
-      },
-      "infobox": {
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Chris Morris serves as the President of Lampun Partners, an institutional farmland investment firm that focuses on acquiring and managing high-quality irrigated row crop farmland in the mid-South region of the United States. His leadership has been instrumental in overseeing the management of over $400 million in farmland assets, with a particular emphasis on the Soil Enrichment Fund, which has outperformed the S&P 500 since its inception in October 2021.",
-        "Morris's expertise in the alternative asset class of farmland investment has positioned Lampun Partners as a significant player in the real assets market, contributing to the diversification of investment portfolios and providing investors with access to a traditionally stable and lucrative sector."
-      ],
-      "sections": [
-        {
-          "heading": "Farmland Investment",
-          "body": "Chris Morris is recognized for his role in farmland investment, particularly through Lampun Partners, where he manages over $400 million in assets."
-        },
-        {
-          "heading": "Soil Enrichment Fund",
-          "body": "Morris is known for the success of Lampun Partners' Soil Enrichment Fund, which has delivered mid-teen net returns and outperformed the S&P 500 since its inception."
-        },
-        {
-          "heading": "Alternative Assets",
-          "body": "He has contributed to the understanding and growth of farmland as an alternative asset class, providing insights into this sector's potential for investors."
-        }
-      ]
-    }
-  },
-  {
-    "id": 77,
-    "name": "Shal Misra",
-    "slug": "shal-misra",
-    "bio": "Shal Misra is a Professor and Vice Dean of Computing at Columbia University. He is recognized for his work on mathematically modeling the function of Large Language Models (LLMs) and exploring their limitations in achieving Artificial General Intelligence (AGI).",
-    "known_for": "His research on the mechanics of LLMs and their limitations in achieving AGI.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "",
-    "voice_style": "",
-    "voice_delivery_notes": "",
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-03-17 11:58:39",
-    "last_episode_title": "Understanding the Mechanics of Large Language Models (LLMs) and the Path to AGI",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-03-17",
-    "mention_score": 1,
-    "mention_score_decayed": 0.44,
-    "last_main_idea": "Investing in companies and technologies that are advancing the understanding and capabilities of LLMs could be a pathway to participate in the development of AGI.",
-    "last_proof_cite": "The a16z Show \u2022 2026-03-17 \u2022 Understanding the Mechanics of Large Language Models (LLMs) and the Path to AGI",
-    "last_proof_snippet": "A topic makes great products. Florida is fantastic, co-workers, fantastic, but they are crazy of silicon doing matrix multiplication. They don't have consciousness, they don't have an inner monologue, you take an inner limb and train it on",
-    "supporting_takeaway": "LLMs learn correlations but do not build models of cause and effect, which is a key distinction from human intelligence.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-19T21:22:07.856822",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Shal Misra",
-      "fetched_at": "2026-03-20T02:22:07.856697+00:00",
-      "cliff_notes": "Shal Misra is a distinguished academic in the field of computing, currently serving as a Professor and Vice Dean of Computing at Columbia University. His research primarily focuses on understanding the mechanics of Large Language Models (LLMs) and their limitations in achieving Artificial General Intelligence (AGI). Misra's work involves mathematically modeling the function of LLMs, showing how they update their predictions in a precise, mathematically predictable way. His research has demonstrated that while LLMs excel at pattern matching, they do not build models of cause and effect, a critical distinction from true intelligence. Misra's contributions to the understanding of LLMs are significant, as they provide a deeper insight into the capabilities and limitations of current AI technology, shaping the discourse around the development of AGI.",
-      "derived": {
-        "current_role": "Professor and Vice Dean of Computing at Columbia University",
-        "books_or_works": "Series of papers on the mechanics of LLMs and their limitations in achieving AGI",
-        "teaching_summary": "Professorship in Computing at Columbia University"
+        "current_role": "CEO of Freelancer.com"
       },
       "infobox": {
         "Born": "",
         "Nationality": ""
       },
       "lead_paragraphs": [
-        "Shal Misra is a distinguished academic in the field of computing, currently serving as a Professor and Vice Dean of Computing at Columbia University. His research primarily focuses on understanding the mechanics of Large Language Models (LLMs) and their limitations in achieving Artificial General Intelligence (AGI). Misra's work involves mathematically modeling the function of LLMs, showing how they update their predictions in a precise, mathematically predictable way.",
-        "His research has demonstrated that while LLMs excel at pattern matching, they do not build models of cause and effect, a critical distinction from true intelligence. Misra's contributions to the understanding of LLMs are significant, as they provide a deeper insight into the capabilities and limitations of current AI technology, shaping the discourse around the development of AGI."
+        "Matt Barry is a prominent figure in the technology industry, particularly within the realm of freelancing and crowdsourcing. As the CEO of Freelancer.com, he has been instrumental in shaping the platform into a global marketplace that connects employers with freelancers across various industries. Barry's leadership has been pivotal in navigating the challenges and opportunities presented by the rise of artificial intelligence, ensuring that Freelancer.com remains at the forefront of technological advancements.",
+        "His contributions to the discourse on AI's impact on employment and the future of work have made him a sought-after voice in both tech and finance circles."
       ],
       "sections": [
         {
-          "heading": "LLMs and AGI",
-          "body": "Shal Misra is known for his research into the mechanics of Large Language Models and their limitations in achieving Artificial General Intelligence. His work involves mathematically modeling how LLMs function and predicting their limitations in understanding cause and effect."
-        },
-        {
-          "heading": "Pattern Matching vs Intelligence",
-          "body": "Misra argues that while LLMs are adept at pattern matching, they do not possess true intelligence as they fail to build models of cause and effect. This distinction is crucial in understanding the capabilities and limitations of current AI technology."
-        },
-        {
-          "heading": "Mathematical Modeling",
-          "body": "Misra's research involves creating mathematical models to understand how LLMs function. His models have shown that in controlled experiments, LLMs can match the theoretically correct answer almost perfectly, highlighting their proficiency in pattern recognition."
-        }
-      ]
-    }
-  },
-  {
-    "id": 75,
-    "name": "Michael Dell",
-    "slug": "michael-dell",
-    "bio": "Michael Dell is an American businessman and philanthropist, best known as the founder and CEO of Dell Technologies, one of the world's largest technology infrastructure companies.",
-    "known_for": "Building one of the world's largest technology infrastructure companies and being an influential figure in the tech industry.",
-    "net_worth_usd": 37600000000.0,
-    "net_worth_source": "https://www.wikidata.org/wiki/Q218630",
-    "net_worth_updated_at": "2026-03-19T15:06:02.916452",
-    "voice_tone": "",
-    "voice_style": "",
-    "voice_delivery_notes": "",
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-03-17 10:15:16",
-    "last_episode_title": "Stealth Startups and the Digitization of the Physical World",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-03-17",
-    "mention_score": 1,
-    "mention_score_decayed": 0.44,
-    "last_main_idea": "Invest in companies that are digitizing the physical world and transforming traditional industries through technology.",
-    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-17 \u2022 Stealth Startups and the Digitization of the Physical World",
-    "last_proof_snippet": "I don't know if some of you knew I was an angel investor in some companies. On the count of three, what's my favorite angel investment of all time? One, two, three. Thank you. Give it up. Travis Kalenik. Appreciate you. Alright. Wow. On a b",
-    "supporting_takeaway": "The company's strategy was to keep its operations secret, even from employees, to maintain a competitive edge.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-19T21:22:53.714266",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Michael Dell",
-      "fetched_at": "2026-03-20T02:22:53.714063+00:00",
-      "cliff_notes": "Michael Dell founded Dell Technologies in 1984, originally named PCs Limited, at the age of 19. The company quickly grew to become one of the leading computer technology providers, specializing in manufacturing and selling personal computers, servers, and storage devices. Dell's innovative direct-sales model allowed customers to order custom-configured PCs, which streamlined the supply chain and reduced costs. Over the years, Dell Technologies expanded through acquisitions and strategic partnerships, becoming a multinational technology giant. Michael Dell's leadership and vision have been instrumental in shaping the company's success and its impact on the tech industry.",
-      "derived": {
-        "current_role": "Founder and CEO of Dell Technologies",
-        "education": "University of Texas at Austin; dropped out to focus on his business"
-      },
-      "infobox": {
-        "Born": "February 23, 1965",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Michael Dell founded Dell Technologies in 1984, originally named PCs Limited, at the age of 19. The company quickly grew to become one of the leading computer technology providers, specializing in manufacturing and selling personal computers, servers, and storage devices. Dell's innovative direct-sales model allowed customers to order custom-configured PCs, which streamlined the supply chain and reduced costs.",
-        "Over the years, Dell Technologies expanded through acquisitions and strategic partnerships, becoming a multinational technology giant. Michael Dell's leadership and vision have been instrumental in shaping the company's success and its impact on the tech industry."
-      ],
-      "sections": [
-        {
-          "heading": "Dell Technologies",
-          "body": "Michael Dell founded Dell Technologies in 1984, which grew to become one of the world's largest technology infrastructure companies. The company is known for its innovative direct-sales model and its wide range of computer technology products."
-        },
-        {
-          "heading": "Innovation and Growth",
-          "body": "Under Michael Dell's leadership, Dell Technologies has been at the forefront of technological innovation, constantly expanding its product offerings and market reach. The company's growth has been driven by strategic acquisitions, such as the acquisition of EMC Corporation in 2016, which significantly broadened its portfolio."
-        },
-        {
-          "heading": "Philanthropy",
-          "body": "Michael Dell is also known for his philanthropic efforts. Through the Michael & Susan Dell Foundation, he has made significant contributions to various causes, including education, urban health, and family economic stability."
-        }
-      ]
-    },
-    "net_worth": "$37.60B"
-  },
-  {
-    "id": 73,
-    "name": "Sam Altman",
-    "slug": "sam-altman",
-    "bio": "Sam Altman is a prominent figure in the tech industry, known for his work in startup incubation and contributions to artificial intelligence. He is currently the President of Y Combinator and Co-Chair of OpenAI. Altman has been influential in shaping the future of technology and entrepreneurship.",
-    "known_for": "His leadership in startup incubation and his role in advancing artificial intelligence through OpenAI.",
-    "net_worth_usd": 2100000000.0,
-    "net_worth_source": "https://en.wikipedia.org/wiki/Sam_Altman",
-    "net_worth_updated_at": "2026-03-19T15:49:02.565192",
-    "voice_tone": "",
-    "voice_style": "",
-    "voice_delivery_notes": "",
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-03-17 03:03:31",
-    "last_episode_title": "The AI CEO Arrives: Sam Altman's Succession Plan, Job Loss Continues, and Our 2027 'Solve Everything' Paper",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-02-17",
-    "mention_score": 1,
-    "mention_score_decayed": 0.43,
-    "last_main_idea": "Invest in AI and automation technologies that are driving the shift towards AI governance and efficiency in business operations.",
-    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-02-17 \u2022 The AI CEO Arrives: Sam Altman's Succession Plan, Job Loss Continues, and Our 2027 'Solve Everything' Paper",
-    "last_proof_snippet": "The AI CEO Arrives: Sam Altman's Succession Plan, Job Loss Continues, and Our 2027 'Solve Everything' Paper | EP #230 Moonshots with Peter Diamandis Episode 230 00:00:00 When do we see a billion-dollar revenue company being run by an AI CEO",
-    "supporting_takeaway": "U.S. jobs are disappearing at a rate not seen since the Great Recession, indicating tasks are being automated out of existence.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-19T21:23:16.367259",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Sam Altman",
-      "fetched_at": "2026-03-20T02:23:16.367009+00:00",
-      "cliff_notes": "Sam Altman is an American entrepreneur and investor who has made significant contributions to the fields of startup incubation and artificial intelligence. He began his career in tech by founding Loopt, a location-based social network, which was later sold. Altman then joined Y Combinator, a startup accelerator, where he rose to become its President. In this role, he has been instrumental in nurturing and launching numerous successful startups. Concurrently, Altman co-founded OpenAI, a research laboratory focused on ensuring that artificial general intelligence benefits humanity. His work in both these domains has positioned him as a key player in the tech industry, influencing the trajectory of entrepreneurship and AI development.",
-      "derived": {
-        "current_role": "President of Y Combinator; Co-Chair of OpenAI",
-        "former_positions": "President of Y Combinator; Co-Chair of OpenAI",
-        "education": "Stanford University; dropout"
-      },
-      "infobox": {
-        "Born": "1985",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Sam Altman is an American entrepreneur and investor who has made significant contributions to the fields of startup incubation and artificial intelligence. He began his career in tech by founding Loopt, a location-based social network, which was later sold. Altman then joined Y Combinator, a startup accelerator, where he rose to become its President.",
-        "In this role, he has been instrumental in nurturing and launching numerous successful startups. Concurrently, Altman co-founded OpenAI, a research laboratory focused on ensuring that artificial general intelligence benefits humanity. His work in both these domains has positioned him as a key player in the tech industry, influencing the trajectory of entrepreneurship and AI development."
-      ],
-      "sections": [
-        {
-          "heading": "Startup Incubation",
-          "body": "Sam Altman has been a driving force in the startup ecosystem, particularly through his leadership at Y Combinator, which has helped launch and scale many successful companies."
+          "heading": "Freelancer.com",
+          "body": "Matt Barry leads Freelancer.com, a platform that has revolutionized the way work is done by connecting employers with freelancers globally."
         },
         {
           "heading": "Artificial Intelligence",
-          "body": "Altman co-founded OpenAI, a research organization dedicated to the responsible development and application of AI technologies, ensuring they are aligned with the interests of humanity."
+          "body": "Barry is known for his thought leadership on the implications of AI on the future of work, often discussing how it will reshape the global workforce."
         },
         {
-          "heading": "Future of Work",
-          "body": "Altman has expressed views on the future of work, particularly in relation to AI and automation, suggesting that the next few years will be pivotal in setting the course for the next century."
+          "heading": "Global Workforce",
+          "body": "His insights into the changing dynamics of the global workforce, especially in the context of technology and AI, are highly valued by investors and tech enthusiasts."
         }
       ]
     },
-    "net_worth": "$2.10B"
+    "net_worth": "$185.0M"
   },
   {
-    "id": 66,
-    "name": "Mark Suster",
-    "slug": "mark-suster",
-    "bio": "Mark Suster is a venture capitalist and entrepreneur, known for his work at Upfront Ventures and his blog BothSidesoftheTable.com.",
-    "known_for": "Venture Capital, Entrepreneurship, and Startup Advice",
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-03-16 10:04:45",
-    "last_episode_title": "The Intersection of Technology, Entrepreneurship, and the Future",
+    "id": 150,
+    "name": "Alex Bonia",
+    "slug": "alex-bonia",
+    "bio": "Alex Bonia is the co-founder and CEO of World, a company focused on developing a 'proof of human layer' for the AI era. He is dedicated to building the largest real human network, addressing the challenges posed by AI in mimicking human behavior and interactions.",
+    "known_for": "Developing a 'proof of human layer' to distinguish real humans from AI in the digital age.",
+    "net_worth_usd": 3600000000.0,
+    "net_worth_source": "https://globalbizoutlook.com/top-30-ai-billionaires-in-the-world-2025-rankings-and-net-worth-revealed/",
+    "net_worth_updated_at": "2026-04-03T05:05:05.505205",
+    "voice_tone": "Inquisitive and informative",
+    "voice_style": "Explains complex concepts with clarity",
+    "voice_delivery_notes": "Paces well, with emphasis on key points",
+    "voice_profile_updated_at": "2026-04-03 10:04:54",
+    "last_seen": "2026-04-03 10:04:54",
+    "last_episode_title": "Alex Blania on Proof of Human and Building World's Identity Network",
     "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-03-15",
+    "last_episode_date": "2026-04-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.43,
-    "last_main_idea": "Invest in technology-driven businesses with a strong founder's mindset that focus on building and scaling rather than introspection, as they are more likely to shape the future and create significant value.",
-    "last_proof_cite": "The a16z Show \u2022 2026-03-15 \u2022 The Intersection of Technology, Entrepreneurship, and the Future",
-    "last_proof_snippet": "We just have this fundamental view. The technology is like on balance in an armistly powerful force in the world. And the big problem with the world is that there's not enough technology. There's not enough information. There's not enough i",
-    "supporting_takeaway": "Successful founders often focus on building rather than introspection.",
+    "mention_score_decayed": 0.63,
+    "last_main_idea": "Investing in technologies that can verify human interactions online is becoming critical as AI-generated content proliferates, posing both challenges and opportunities for social media platforms and the broader digital economy.",
+    "last_proof_cite": "The a16z Show \u2022 2026-04-02 \u2022 Alex Blania on Proof of Human and Building World's Identity Network",
+    "last_proof_snippet": "How do you prove somebody's human? It is as surprising to her problem. I think that people are going to start getting used to being bots. But we currently see less than 1% of what it will look like in probably a year. The idea that AGI will",
+    "supporting_takeaway": "Social media platforms are struggling to verify human users, leading to issues with content monetization and user authentication.",
     "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
+    "grokipedia_fetched_at": "2026-04-03T05:05:04.562022",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Alex Bonia",
+      "fetched_at": "2026-04-03T10:05:04.561818+00:00",
+      "cliff_notes": "Alex Bonia is recognized for his work in the intersection of technology and human identity. As the co-founder and CEO of World, he is at the forefront of developing solutions to authenticate human users in a digital landscape increasingly populated by AI. His efforts are crucial in an era where AI's ability to mimic human behavior poses significant challenges to digital platforms that rely on the assumption of human users. Bonia's work is pivotal in maintaining the integrity of online interactions and safeguarding against the manipulations of AI.",
+      "derived": {
+        "current_role": "Co-founder and CEO at World"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Alex Bonia is recognized for his work in the intersection of technology and human identity. As the co-founder and CEO of World, he is at the forefront of developing solutions to authenticate human users in a digital landscape increasingly populated by AI. His efforts are crucial in an era where AI's ability to mimic human behavior poses significant challenges to digital platforms that rely on the assumption of human users.",
+        "Bonia's work is pivotal in maintaining the integrity of online interactions and safeguarding against the manipulations of AI."
+      ],
+      "sections": [
+        {
+          "heading": "Human Authentication",
+          "body": "Alex Bonia is leading the charge in creating a 'proof of human layer', a system designed to verify the authenticity of human users in digital spaces, which is becoming increasingly important as AI technology advances."
+        },
+        {
+          "heading": "AI and Social Media",
+          "body": "Bonia's work addresses the growing concern of AI-operated social media accounts, which can mimic human behavior and influence online platforms, posing threats to the integrity of digital interactions."
+        },
+        {
+          "heading": "Digital Integrity",
+          "body": "In an era where AI can generate convincing videos and posts, Alex Bonia's efforts are aimed at ensuring that digital platforms maintain a level of trust and reliability by distinguishing between real humans and AI."
+        }
+      ]
+    },
+    "net_worth": "$3.60B"
   },
   {
-    "id": 65,
-    "name": "Alex Gorovich",
-    "slug": "alex-gorovich",
-    "bio": "Founder and Chief Investment Officer at Hauntay Asset Management, author of 'The Next Perfect Trade: The Magic Sword of Necessity'.",
-    "known_for": "His views on precious metals and long-term trading strategies.",
+    "id": 151,
+    "name": "Alex Rampell",
+    "slug": "alex-rampell",
+    "bio": "Alex Rampell is a venture capitalist and entrepreneur known for his investments in technology startups. He is the co-founder and General Partner at Andreessen Horowitz (A16Z), focusing on fintech, bioinformatics, and AI.",
+    "known_for": "His role in shaping the future of technology through venture capital investments in startups, particularly in the fields of fintech, bioinformatics, and AI.",
     "net_worth_usd": null,
-    "net_worth_source": null,
+    "net_worth_source": "",
     "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-03-16 10:04:22",
-    "last_episode_title": "Monetary Matters with Jack Farley: Precious Metals, Bonds, and Economic Cycles",
+    "voice_tone": "Analytical and engaging",
+    "voice_style": "Asks probing questions to delve deeper into topics",
+    "voice_delivery_notes": "Speaks with conviction, emphasizing investment insights",
+    "voice_profile_updated_at": "2026-04-03 10:04:54",
+    "last_seen": "2026-04-03 10:04:54",
+    "last_episode_title": "Alex Blania on Proof of Human and Building World's Identity Network",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-04-02",
+    "mention_score": 1,
+    "mention_score_decayed": 0.63,
+    "last_main_idea": "Investing in technologies that can verify human interactions online is becoming critical as AI-generated content proliferates, posing both challenges and opportunities for social media platforms and the broader digital economy.",
+    "last_proof_cite": "The a16z Show \u2022 2026-04-02 \u2022 Alex Blania on Proof of Human and Building World's Identity Network",
+    "last_proof_snippet": "How do you prove somebody's human? It is as surprising to her problem. I think that people are going to start getting used to being bots. But we currently see less than 1% of what it will look like in probably a year. The idea that AGI will",
+    "supporting_takeaway": "Social media platforms are struggling to verify human users, leading to issues with content monetization and user authentication.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-03T05:05:15.312671",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Alex Rampell",
+      "fetched_at": "2026-04-03T10:05:15.312579+00:00",
+      "cliff_notes": "Alex Rampell is a prominent figure in the world of venture capital and technology startups. He began his career as a co-founder and CEO of TrialPay, a payment processing company, and later co-founded Adap.tv, a video advertising platform. Both companies were successfully acquired. Rampell then transitioned to venture capital, becoming a General Partner at Andreessen Horowitz (A16Z), where he focuses on fintech, bioinformatics, and AI. His investments and insights have been instrumental in shaping the future of technology, particularly in the areas of artificial intelligence and its implications for society.",
+      "derived": {
+        "current_role": "Co-founder and General Partner at A16Z",
+        "former_positions": "Co-founder and CEO of TrialPay; Co-founder and CEO of Adap.tv",
+        "education": "B.A. in Mathematics and Computer Science from Yale University; M.S. in Computer Science from Stanford University"
+      },
+      "infobox": {
+        "Born": "1983",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Alex Rampell is a prominent figure in the world of venture capital and technology startups. He began his career as a co-founder and CEO of TrialPay, a payment processing company, and later co-founded Adap.tv, a video advertising platform. Both companies were successfully acquired. Rampell then transitioned to venture capital, becoming a General Partner at Andreessen Horowitz (A16Z), where he focuses on fintech, bioinformatics, and AI.",
+        "His investments and insights have been instrumental in shaping the future of technology, particularly in the areas of artificial intelligence and its implications for society."
+      ],
+      "sections": [
+        {
+          "heading": "Venture Capital",
+          "body": "Alex Rampell is known for his venture capital investments in technology startups, particularly in fintech, bioinformatics, and AI. His role at A16Z has allowed him to influence the trajectory of these industries."
+        },
+        {
+          "heading": "Artificial Intelligence",
+          "body": "Rampell has been vocal about the potential of AI to fundamentally shift society. He discusses the implications of AI in programming humans and the challenges of distinguishing between humans and bots in the digital age."
+        },
+        {
+          "heading": "Fintech",
+          "body": "As a General Partner at A16Z, Rampell has played a significant role in shaping the fintech industry through his investments and insights. His focus on fintech has helped drive innovation in the space."
+        }
+      ]
+    }
+  },
+  {
+    "id": 154,
+    "name": "Ed Finley Richardson",
+    "slug": "ed-finley-richardson",
+    "bio": "Ed Finley Richardson is a renowned expert in the shipping industry, known for his deep analysis and insights into shipping markets and investment opportunities. He is the author of the Misadventures in Shipping sub-stack, providing valuable research and analysis to investors interested in the shipping sector.",
+    "known_for": "His expertise in shipping markets and investment opportunities, particularly in the tanker market that transports crude oil and refined products around the globe.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Informed and analytical",
+    "voice_style": "Factual and predictive, with a focus on market outcomes",
+    "voice_delivery_notes": "Delivers insights with a steady pace, emphasizing key points",
+    "voice_profile_updated_at": "2026-04-05 03:02:52",
+    "last_seen": "2026-04-05 03:02:52",
+    "last_episode_title": "\u201cBooks Will Be Written\u201d About This Shipping Market | Ed Finley-Richardson of Misadventures in Shipping on War-Induced Oil Tanker Mayhem, Squeeze for Asiabound Refined Products, and Persian Gulf \u201cFeeding Frenzy\u201d Scenario",
     "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-03-15",
+    "last_episode_date": "2026-04-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.43,
-    "last_main_idea": "Invest in platinum as a hybrid precious and industrial metal with potential for growth outside of traditional economic cycles, and consider the impact of AI on productivity and government deficits on interest rates.",
-    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-15 \u2022 Monetary Matters with Jack Farley: Precious Metals, Bonds, and Economic Cycles",
-    "last_proof_snippet": "Join today by Alex Gorovich, founder and chief investment officer at Hauntay Asset Management and author of the second edition of the next perfect trade, the Magic Sword of Necessity. Alex, great to talk to you today. We haven't spoken in a",
-    "supporting_takeaway": "Gorovich views gold as having a psychological value as a store of value, influenced by thousands of years of accumulation.",
+    "mention_score_decayed": 0.64,
+    "last_main_idea": "The disruption in shipping due to geopolitical conflicts presents a unique investment opportunity in shipping stocks, particularly for those with a keen understanding of the market dynamics.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-04 \u2022 \u201cBooks Will Be Written\u201d About This Shipping Market | Ed Finley-Richardson of Misadventures in Shipping on War-Induced Oil Tanker Mayhem, Squeeze for Asiabound Refined Products, and Persian Gulf \u201cFeeding Frenzy\u201d Scenario",
+    "last_proof_snippet": "The oil market and the fertilizer market have been essentially broken by the closure of the straight of her mousse, but it's not just that. With war in the Middle East, cracks are forming in the shipping industry itself, particularly the ta",
+    "supporting_takeaway": "Shipping inefficiencies can lead to increased profits for ship owners.",
     "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
+    "grokipedia_fetched_at": "2026-04-04T22:03:03.597938",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Ed Finley Richardson",
+      "fetched_at": "2026-04-05T03:03:03.597603+00:00",
+      "cliff_notes": "Ed Finley Richardson is an expert in the shipping industry, with a focus on analyzing and providing insights into shipping markets and investment opportunities. He began thinking hard years ago about the potential impacts of geopolitical events, such as the closure of the Strait of Hormuz, on shipping markets and the opportunities they might create for shipping investors. Richardson's work has become increasingly relevant as shipping prices have surged, with some reaching 10 times normal levels. As the author of the Misadventures in Shipping sub-stack, he offers valuable research and analysis to investors interested in the shipping sector, making him one of the best shipping analysts alive.",
+      "derived": {
+        "current_role": "Author of Misadventures in Shipping",
+        "books_or_works": "Misadventures in Shipping sub-stack"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Ed Finley Richardson is an expert in the shipping industry, with a focus on analyzing and providing insights into shipping markets and investment opportunities. He began thinking hard years ago about the potential impacts of geopolitical events, such as the closure of the Strait of Hormuz, on shipping markets and the opportunities they might create for shipping investors.",
+        "Richardson's work has become increasingly relevant as shipping prices have surged, with some reaching 10 times normal levels. As the author of the Misadventures in Shipping sub-stack, he offers valuable research and analysis to investors interested in the shipping sector, making him one of the best shipping analysts alive."
+      ],
+      "sections": [
+        {
+          "heading": "Shipping Market Analysis",
+          "body": "Ed Finley Richardson is known for his deep analysis of shipping markets, particularly the tanker market that transports crude oil and refined products around the globe."
+        },
+        {
+          "heading": "Investment Opportunities",
+          "body": "Richardson's expertise lies in identifying investment opportunities within the shipping industry, especially in times of geopolitical unrest and market disruptions."
+        },
+        {
+          "heading": "Misadventures in Shipping",
+          "body": "As the author of the Misadventures in Shipping sub-stack, Richardson provides valuable research and analysis to investors interested in the shipping sector."
+        },
+        {
+          "heading": "Shipping Prices Surge",
+          "body": "Richardson's work has gained prominence as shipping prices have surged, with some reaching 10 times normal levels, highlighting the importance of his analysis and insights."
+        }
+      ]
+    }
   },
   {
-    "id": 64,
-    "name": "Brad Gersner",
-    "slug": "brad-gersner",
-    "bio": "Brad Gersner, a guest on the podcast, is known for his involvement in Trump accounts and his insights into the intersection of politics and finance.",
-    "known_for": "Trump accounts and financial market commentary",
+    "id": 155,
+    "name": "Peter Yang",
+    "slug": "peter-yang",
+    "bio": "Peter Yang is a prominent figure in the tech industry, known for his work at Roblox and his insights on the future of coding agents. As a creator and product lead, Yang has been influential in shaping the direction of the platform and the broader tech landscape.",
+    "known_for": "His role in shaping Roblox's product strategy and his forward-thinking views on the evolution of coding agents and software interfaces.",
     "net_worth_usd": null,
-    "net_worth_source": null,
+    "net_worth_source": "",
     "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-03-14 10:01:17",
-    "last_episode_title": "Investing in Capitalism: Trump Accounts, AI, and the Future of Wealth",
+    "voice_tone": "Casual and conversational",
+    "voice_style": "Exploratory and insightful, discussing the implications of coding agents on various aspects of work.",
+    "voice_delivery_notes": "Speaks with a mix of excitement and pragmatism about the potential of coding agents.",
+    "voice_profile_updated_at": "2026-04-07 10:05:00",
+    "last_seen": "2026-04-07 10:05:00",
+    "last_episode_title": "Peter Yang on Small Teams, Coding Agents, and Why Human Ambition Has No Ceiling",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-04-06",
+    "mention_score": 1,
+    "mention_score_decayed": 0.69,
+    "last_main_idea": "Investing in companies that leverage coding agents could offer significant productivity gains and reshape the software development landscape.",
+    "last_proof_cite": "The a16z Show \u2022 2026-04-06 \u2022 Peter Yang on Small Teams, Coding Agents, and Why Human Ambition Has No Ceiling",
+    "last_proof_snippet": "Interesting set software with the world. I feel like coding what eat all knowledge work, right? And we kind of going to the restaurant already, the whole agent stack is emerging. Yeah. Identity, payments, marketing, even CLI versus MCP, lik",
+    "supporting_takeaway": "The future of work may involve smaller teams leveraging coding agents to achieve more with less, challenging traditional company structures.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-07T05:06:04.126625",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Peter Yang",
+      "fetched_at": "2026-04-07T10:06:04.126360+00:00",
+      "cliff_notes": "Peter Yang is recognized for his significant contributions to Roblox, where he serves as a creator and product lead. His work has been pivotal in defining the platform's direction and its impact on the gaming and tech industries. Yang is also noted for his thought leadership on the future of coding agents, which he believes will revolutionize software development and user interfaces. His insights into the 'agent stack' and the potential for smaller, more agile teams to leverage these technologies have resonated with tech enthusiasts and investors alike. Yang's vision of a future where individuals can pursue their dreams through technology, empowered by advancements in coding agents, highlights his influence on the tech industry's trajectory.",
+      "derived": {
+        "current_role": "Creator and Product Lead at Roblox"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Peter Yang is recognized for his significant contributions to Roblox, where he serves as a creator and product lead. His work has been pivotal in defining the platform's direction and its impact on the gaming and tech industries. Yang is also noted for his thought leadership on the future of coding agents, which he believes will revolutionize software development and user interfaces.",
+        "His insights into the 'agent stack' and the potential for smaller, more agile teams to leverage these technologies have resonated with tech enthusiasts and investors alike. Yang's vision of a future where individuals can pursue their dreams through technology, empowered by advancements in coding agents, highlights his influence on the tech industry's trajectory."
+      ],
+      "sections": [
+        {
+          "heading": "Roblox Impact",
+          "body": "Peter Yang has been instrumental in the development and growth of Roblox, a platform that has become a cultural phenomenon and a significant player in the gaming industry."
+        },
+        {
+          "heading": "Coding Agents",
+          "body": "Yang is a thought leader in the emerging field of coding agents,"
+        },
+        {
+          "heading": "Tech Evolution",
+          "body": "He frequently discusses the evolution of technology, particularly the shift from traditional app interfaces to more dynamic and personalized software experiences."
+        },
+        {
+          "heading": "Entrepreneurship",
+          "body": "Yang's views on entrepreneurship suggest a future where individuals can leverage technology to pursue their own ventures, even in the face of economic challenges."
+        }
+      ]
+    }
+  },
+  {
+    "id": 157,
+    "name": "Trace Steven",
+    "slug": "trace-steven",
+    "bio": "Trace Steven is a co-founder of Palantir Technologies, a software company specializing in big data analytics. He played a significant role in building the government business for Palantir, which has become a major player in the tech industry, particularly in the realm of data analytics and intelligence.",
+    "known_for": "Building the government business at Palantir Technologies and contributing to the growth of big data analytics in the tech industry.",
+    "net_worth_usd": 500000000.0,
+    "net_worth_source": "https://www.oreateai.com/blog/palantir-founders-net-worth/",
+    "net_worth_updated_at": "2026-04-07T05:05:36.844982",
+    "voice_tone": "Reflective and informative",
+    "voice_style": "Narrative and anecdotal",
+    "voice_delivery_notes": "Paced with emphasis on key historical points",
+    "voice_profile_updated_at": "2026-04-07 10:05:21",
+    "last_seen": "2026-04-07 10:05:21",
+    "last_episode_title": "The Companies Changing Warfare Forever: Palantir & Anduril Execs on Drones, AI & the Future of War",
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-03-13",
+    "last_episode_date": "2026-04-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.4,
-    "last_main_idea": "Invest in technologies and platforms that democratize capitalism and leverage AI to create scalable solutions in coding and product development.",
-    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-13 \u2022 Investing in Capitalism: Trump Accounts, AI, and the Future of Wealth",
-    "last_proof_snippet": "All right, everybody. Welcome back to the number one podcast in the world. Free birds out saving the world, creating new potatoes or I don't know, Kim Wa. Maybe some Brussels sprouts. I'm not sure what he's working on at this point in his p",
-    "supporting_takeaway": "AI investments are showing significant ROI, particularly in coding assistance for enterprises.",
+    "mention_score_decayed": 0.69,
+    "last_main_idea": "Investing in US defense and technology companies that align with maintaining the nation's global primacy and ensuring economic prosperity.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-04-06 \u2022 The Companies Changing Warfare Forever: Palantir & Anduril Execs on Drones, AI & the Future of War",
+    "last_proof_snippet": "Trace Steven, Sean Sankar, welcome to the all-in-podcast at the Hillin Valley Forum. Thank you guys for being here. What's up? How are you guys doing? You're having us. You're great. Okay. Did it be here too? You guys are friends. Right? Yo",
+    "supporting_takeaway": "The strategic significance of the US maintaining its position in the global technology and defense landscape.",
     "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
+    "grokipedia_fetched_at": "2026-04-07T05:05:35.906002",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Trace Steven",
+      "fetched_at": "2026-04-07T10:05:35.905509+00:00",
+      "cliff_notes": "Trace Steven is best known as a co-founder of Palantir Technologies, a company that has revolutionized the way big data is analyzed and used, particularly within government and intelligence agencies. His early involvement in the company was pivotal in establishing Palantir's government business, which has become a cornerstone of its success. Steven's work has had a significant impact on the tech industry, as Palantir's technology has been used for various applications, from counter-terrorism to disaster response. His contributions to the field of data analytics have positioned him as an influential figure in the intersection of technology and public policy.",
+      "derived": {
+        "former_positions": "Co-founder of Palantir Technologies"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Trace Steven is best known as a co-founder of Palantir Technologies, a company that has revolutionized the way big data is analyzed and used, particularly within government and intelligence agencies. His early involvement in the company was pivotal in establishing Palantir's government business, which has become a cornerstone of its success.",
+        "Steven's work has had a significant impact on the tech industry, as Palantir's technology has been used for various applications, from counter-terrorism to disaster response. His contributions to the field of data analytics have positioned him as an influential figure in the intersection of technology and public policy."
+      ],
+      "sections": [
+        {
+          "heading": "Co-founding Palantir",
+          "body": "Trace Steven co-founded Palantir Technologies, a company that has become synonymous with big data analytics, particularly in government applications."
+        },
+        {
+          "heading": "Government Business Expansion",
+          "body": "Steven played a crucial role in expanding Palantir's government business, which has been instrumental in the company's growth and influence in the tech industry."
+        },
+        {
+          "heading": "Impact on Tech Industry",
+          "body": "His work with Palantir has had a significant impact on the tech industry, as the company's technology has been used for various applications, from counter-terrorism to disaster response."
+        }
+      ]
+    },
+    "net_worth": "$500.0M"
   },
   {
-    "id": 60,
-    "name": "Michael Griffin",
-    "slug": "michael-griffin",
-    "bio": "Under Secretary of Defense for Research and Engineering, and acting director of the Defense Innovation Unit.",
-    "known_for": "Prior experience as a Silicon Valley executive and public servant.",
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-03-13 18:27:45",
-    "last_episode_title": "AI in Defense and the Future of Military Technology",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-03-13",
-    "mention_score": 1,
-    "mention_score_decayed": 0.4,
-    "last_main_idea": "Investment in AI technology within the defense sector is critical for maintaining national security and ensuring operational effectiveness.",
-    "last_proof_cite": "The a16z Show \u2022 2026-03-13 \u2022 AI in Defense and the Future of Military Technology",
-    "last_proof_snippet": "We're faced with the biggest military build-up in history. We're trending toward an artificial general intelligence, a substrate, a layer, something that'll touch everything. But we're way behind an AI at the department. You are a CTO for t",
-    "supporting_takeaway": "1.2 million of the department's 3 million personnel have used AI within 90 days, up from 80,000 at the start.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
-    "id": 59,
-    "name": "Martin Wolff",
-    "slug": "martin-wolff",
-    "bio": "Chief Economics Commentator for the Financial Times",
-    "known_for": "Expert analysis on global economic and political issues",
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-03-13 18:27:35",
-    "last_episode_title": "Monetary Matters: The Impact of US-Iran Conflict on the World Economy",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-03-13",
-    "mention_score": 1,
-    "mention_score_decayed": 0.4,
-    "last_main_idea": "Investors should consider the geopolitical risks associated with the US-Iran conflict and the potential impact on global oil supply, as well as the long-term shift towards renewable energy sources.",
-    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-13 \u2022 Monetary Matters: The Impact of US-Iran Conflict on the World Economy",
-    "last_proof_snippet": "Very pleased today to be joined by Martin Wolff, chief economics commentator for the financial times. Martin, welcome to monetary matters. It's a pleasure. Martin, how are you thinking about the ongoing war between the US and the right? Wha",
-    "supporting_takeaway": "A conflict in the Gulf could significantly disrupt the world's oil supply, with potentially severe economic consequences.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
-    "id": 55,
-    "name": "Dr. Onus Alhajji",
-    "slug": "dr-onus-alhajji",
-    "bio": "Expert commentator on energy markets and geopolitical conflicts.",
-    "known_for": "Analysis of the impact of geopolitical events on oil markets.",
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-03-12 20:30:09",
-    "last_episode_title": "Macro Voices Episode 523: Geopolitical Situation in Iran, Oil Prices, Precious Metals, and Market Analysis",
-    "last_podcast_name": "Macro Voices",
-    "last_episode_date": "2026-03-12",
-    "mention_score": 1,
-    "mention_score_decayed": 0.39,
-    "last_main_idea": "The current geopolitical tensions, particularly in Iran, are creating significant market volatility, especially in oil prices, which presents both risks and opportunities for investors.",
-    "last_proof_cite": "Macro Voices \u2022 2026-03-12 \u2022 Macro Voices Episode 523: Geopolitical Situation in Iran, Oil Prices, Precious Metals, and Market Analysis",
-    "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
-    "supporting_takeaway": "The market is currently in a correction phase, with the S&P 500 and other indices showing notable declines.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
-    "id": 52,
-    "name": "Alex Carp",
-    "slug": "alex-carp",
-    "bio": "Co-founder and CEO of Palantir, a company that specializes in big data analytics.",
-    "known_for": "Building technology deployed on battlefields and analytics infrastructure embedded in the Department of Defense.",
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-03-12 20:29:53",
-    "last_episode_title": "The Intersection of Technology, Geopolitics, and National Defense",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-03-12",
-    "mention_score": 1,
-    "mention_score_decayed": 0.39,
-    "last_main_idea": "Investing in companies that leverage technology to enhance national defense and security could yield significant returns, especially if they align with the interests of the defense establishment.",
-    "last_proof_cite": "The a16z Show \u2022 2026-03-12 \u2022 The Intersection of Technology, Geopolitics, and National Defense",
-    "last_proof_snippet": "We were the freak chef, and we spent 20 years for this moment. We're doing it, we're doing it, and I'm sure you're enjoying this as much as I am. I just got three things to say. God bless our troops. God bless America. And shout on that. Do",
-    "supporting_takeaway": "Silicon Valley must collaborate with the defense sector to prevent the nationalization of AI companies.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
-    "id": 48,
-    "name": "Graham Allison",
-    "slug": "graham-allison",
-    "bio": "Founding dean of the Harvard Kennedy School, advisor to U.S. Secretaries of Defense, and author of 'Destined For War'.",
-    "known_for": "Expertise on U.S.-China relations and nuclear security.",
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-03-12 19:39:13",
-    "last_episode_title": "All-In with Chamath, Jason, Sacks & Friedberg - Discussion with Graham Allison",
+    "id": 158,
+    "name": "Sean Sankar",
+    "slug": "sean-sankar",
+    "bio": "Sean Sankar is a co-founder of Palantir Technologies, a company known for its data analytics platform. He played a crucial role in the early stages of the company, contributing to its establishment and growth.",
+    "known_for": "Co-founding Palantir Technologies and its significant impact on data analytics.",
+    "net_worth_usd": 1000000000.0,
+    "net_worth_source": "https://urbansweekly.com/shyam-sankar/",
+    "net_worth_updated_at": "2026-04-07T05:05:50.141443",
+    "voice_tone": "Engaging and insightful",
+    "voice_style": "Direct and analytical",
+    "voice_delivery_notes": "Clear and assertive, with a focus on strategic implications",
+    "voice_profile_updated_at": "2026-04-07 10:05:21",
+    "last_seen": "2026-04-07 10:05:21",
+    "last_episode_title": "The Companies Changing Warfare Forever: Palantir & Anduril Execs on Drones, AI & the Future of War",
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-03-09",
+    "last_episode_date": "2026-04-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.39,
-    "last_main_idea": "The global semiconductor supply chain, with a focus on Taiwan's TSMC, presents both risks and opportunities in the context of U.S.-China relations and economic inequality.",
-    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-09 \u2022 All-In with Chamath, Jason, Sacks & Friedberg - Discussion with Graham Allison",
-    "last_proof_snippet": "Welcome to another episode of the all-in-interview. I'm really excited to be joined by a back-to-all-in, Harvard Professor Graham Allison. Professor Allison, welcome back to all-in. Thanks for having me. We last had you at the summit in Los",
-    "supporting_takeaway": "The U.S. and Israel have demonstrated significant military and intelligence capabilities, which should be a source of pride for Americans.",
+    "mention_score_decayed": 0.69,
+    "last_main_idea": "Investing in US defense and technology companies that align with maintaining the nation's global primacy and ensuring economic prosperity.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-04-06 \u2022 The Companies Changing Warfare Forever: Palantir & Anduril Execs on Drones, AI & the Future of War",
+    "last_proof_snippet": "Trace Steven, Sean Sankar, welcome to the all-in-podcast at the Hillin Valley Forum. Thank you guys for being here. What's up? How are you guys doing? You're having us. You're great. Okay. Did it be here too? You guys are friends. Right? Yo",
+    "supporting_takeaway": "The strategic significance of the US maintaining its position in the global technology and defense landscape.",
     "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
+    "grokipedia_fetched_at": "2026-04-07T05:05:49.320297",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Sean Sankar",
+      "fetched_at": "2026-04-07T10:05:49.320109+00:00",
+      "cliff_notes": "Sean Sankar is recognized for his foundational role in the establishment of Palantir Technologies. His early involvement in the company was pivotal in setting the stage for its growth and success in the realm of data analytics. Sankar's contributions to Palantir have been significant, as the company has become a major player in the tech industry, particularly in areas concerning data analysis and security. His work has had far-reaching implications for various sectors, including government and finance, where data-driven insights are crucial.",
+      "derived": {
+        "former_positions": "Co-founder of Palantir Technologies"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Sean Sankar is recognized for his foundational role in the establishment of Palantir Technologies. His early involvement in the company was pivotal in setting the stage for its growth and success in the realm of data analytics. Sankar's contributions to Palantir have been significant, as the company has become a major player in the tech industry, particularly in areas concerning data analysis and security.",
+        "His work has had far-reaching implications for various sectors, including government and finance, where data-driven insights are crucial."
+      ],
+      "sections": [
+        {
+          "heading": "Early Career",
+          "body": "Sean Sankar began his career in technology, eventually co-founding Palantir Technologies, which would go on to revolutionize the way data is analyzed and utilized."
+        },
+        {
+          "heading": "Palantir's Impact",
+          "body": "Palantir, under Sankar's influence, became known for its powerful data analytics platform used by various government agencies and financial institutions, enhancing their capabilities in areas such as counterterrorism and fraud detection."
+        },
+        {
+          "heading": "Data Analytics",
+          "body": "Sankar's work with Palantir has been instrumental in shaping the modern landscape of data analytics, emphasizing the importance of big data in decision-making processes across different industries."
+        }
+      ]
+    },
+    "net_worth": "$1.00B"
   },
   {
-    "id": 47,
-    "name": "Michael Howell",
-    "slug": "michael-howell",
-    "bio": "Michael Howell is known for his work on global liquidity and his sub-stack Capital Wars.",
-    "known_for": "Expertise in global liquidity and its impact on financial markets",
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-03-12 19:39:05",
-    "last_episode_title": "Monetary Matters with Jack Farley: Global Liquidity and Asset Allocation",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-03-09",
+    "id": 159,
+    "name": "Dr. Frenner",
+    "slug": "dr-frenner",
+    "bio": "Dr. Frenner is an expert in artificial intelligence and its implications. He discusses the future of AI and its impact on various fields, emphasizing the importance of understanding AI's role in human-machine synthesis and its limitations in areas such as taste and agency.",
+    "known_for": "His insights on AI's impact on job roles, the balance between AI as a shortcut and its potential drawbacks, and the challenges of verification in an AI-driven world.",
+    "net_worth_usd": 8000000.0,
+    "net_worth_source": "https://wealthrector.com/lex-fridman-net-worth/",
+    "net_worth_updated_at": "2026-04-07T22:05:38.648371",
+    "voice_tone": "Inquisitive and insightful.",
+    "voice_style": "Provides detailed explanations and engages in deep discussions.",
+    "voice_delivery_notes": "Speaks with clarity, breaking down complex ideas into understandable segments.",
+    "voice_profile_updated_at": "2026-04-08 03:04:58",
+    "last_seen": "2026-04-08 03:04:58",
+    "last_episode_title": "Balaji on Why AI Raises the Cost of Verification",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-04-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.39,
-    "last_main_idea": "As the global liquidity cycle peaks, investors should consider rotating their asset allocation towards more defensive areas and higher yielding assets like private credit.",
-    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-09 \u2022 Monetary Matters with Jack Farley: Global Liquidity and Asset Allocation",
-    "last_proof_snippet": "Later on, you'll hear more about the fund rise income fund and why sophisticated investors are turning to higher yielding assets like private credit. But for now, let's get into today's interview. Join today by Michael Howell of the Capital",
-    "supporting_takeaway": "The Federal Reserve's balance sheet is not an appropriate metric for liquidity; focusing on liquidity-creating components shows expansion over the last three years but now beginning to roll over.",
+    "mention_score_decayed": 0.69,
+    "last_main_idea": "Investing in AI infrastructure and applications that can leverage the power of AI while addressing the challenges of verification and privacy.",
+    "last_proof_cite": "The a16z Show \u2022 2026-04-07 \u2022 Balaji on Why AI Raises the Cost of Verification",
+    "last_proof_snippet": "AI doesn't take your job, AI makes you the CEO. The problem is, AI is a shortcut, and a shortcut is good, except when it's bad. If you don't know how to go the long way around, then you can't debug the AI. Do we not think that AI is we're j",
+    "supporting_takeaway": "AI is a shortcut that can be beneficial but also presents challenges in debugging and understanding.",
     "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
+    "grokipedia_fetched_at": "2026-04-07T22:05:37.646780",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Dr. Frenner",
+      "fetched_at": "2026-04-08T03:05:37.646566+00:00",
+      "cliff_notes": "Dr. Frenner has dedicated his career to understanding and discussing the implications of artificial intelligence. His expertise lies in the intersection of AI and its impact on various fields, including job roles and societal structures. He is known for his thought-provoking insights on the balance between AI as a shortcut and its potential drawbacks, emphasizing the importance of understanding AI's limitations in areas such as taste and agency. Dr. Frenner's work is particularly relevant in the context of AI's potential to reshape the job market and the need for humans to adapt to these changes. His contributions to the discourse on AI's future and its impact on society make him a valuable voice in the tech and finance sectors.",
+      "derived": {},
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Dr. Frenner has dedicated his career to understanding and discussing the implications of artificial intelligence. His expertise lies in the intersection of AI and its impact on various fields, including job roles and societal structures. He is known for his thought-provoking insights on the balance between AI as a shortcut and its potential drawbacks, emphasizing the importance of understanding AI's limitations in areas such as taste and agency.",
+        "Dr. Frenner's work is particularly relevant in the context of AI's potential to reshape the job market and the need for humans to adapt to these changes. His contributions to the discourse on AI's future and its impact on society make him a valuable voice in the tech and finance sectors."
+      ],
+      "sections": [
+        {
+          "heading": "AI and Job Roles",
+          "body": "Dr. Frenner discusses the potential for AI to transform job roles, making some obsolete while creating new opportunities. He emphasizes the importance of understanding AI's role in human-machine synthesis and the need for humans to adapt to these changes."
+        },
+        {
+          "heading": "AI as a Shortcut",
+          "body": "Dr. Frenner highlights the benefits and drawbacks of AI as a shortcut, noting that while it can increase efficiency, it can also lead to issues when problems arise that require a more nuanced understanding that AI cannot yet provide."
+        },
+        {
+          "heading": "Verification in an AI-Driven World",
+          "body": "Dr. Frenner discusses the challenges of verification in a world where AI has compressed the cycle of creation and forgery. He draws parallels to historical examples, such as the printing press and photography, to illustrate how the ease of creation has historically led to increased difficulty in verification."
+        },
+        {
+          "heading": "AI's Limitations",
+          "body": "Dr. Frenner emphasizes AI's limitations in areas such as taste and agency, arguing that humans remain the sensor while AI acts as the actuator. He suggests that AI's potential to improve taste and agency is limited in the short term."
+        }
+      ]
+    },
+    "net_worth": "$8.0M"
   },
   {
-    "id": 45,
-    "name": "Alex Finn",
-    "slug": "alex-finn",
-    "bio": "Alex Finn is an AI enthusiast and expert who has been following the development of AI for a long time.",
-    "known_for": "His expertise and hands-on experience with AI, particularly with OpenClaw.",
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-03-12 19:38:58",
-    "last_episode_title": "The Future of Personal AI Agents with OpenClaw",
+    "id": 160,
+    "name": "Ben Lamm",
+    "slug": "ben-lamm",
+    "bio": "Ben Lamm is the CEO of Colossal, a biotech company that focuses on de-extinction and genetic engineering. He is known for his work in using AI and synthetic biology to revive extinct species and address global challenges, such as plastic pollution.",
+    "known_for": "Reviving extinct species and addressing global challenges through AI and synthetic biology.",
+    "net_worth_usd": 3900000000.0,
+    "net_worth_source": "https://en.wikipedia.org/wiki/Ben_Lamm",
+    "net_worth_updated_at": "2026-04-08T05:05:01.706503",
+    "voice_tone": "Passionate and visionary.",
+    "voice_style": "Convincingly presents the company's goals and technological capabilities.",
+    "voice_delivery_notes": "Speaks with a clear emphasis on the potential impact of their work.",
+    "voice_profile_updated_at": "2026-04-08 10:03:43",
+    "last_seen": "2026-04-08 10:03:43",
+    "last_episode_title": "How AI Is Bringing Extinct Animals Back (And What Comes Next) | Ben Lamm (Colossal) | EP #245",
     "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-03-09",
+    "last_episode_date": "2026-04-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.39,
-    "last_main_idea": "Investment in AI technology, particularly in personal AI agents like OpenClaw, could offer substantial returns as the technology matures and becomes more integrated into daily life.",
-    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-03-09 \u2022 The Future of Personal AI Agents with OpenClaw",
-    "last_proof_snippet": "We have a special guest with us today. Alex Finn, give us the 101 here for folks. OpenClaw is basically a open source, fully customizable, self-improving, self-learning, self-evolving, personal AI agent. This is kind of the answer Apple's b",
-    "supporting_takeaway": "The potential for AI to run locally is vast, with implications for productivity and efficiency across various sectors.",
+    "mention_score_decayed": 0.71,
+    "last_main_idea": "Investment in Colossal represents a bet on the convergence of synthetic biology, AI, and environmental conservation, with potential for significant technological and societal impact.",
+    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-04-07 \u2022 How AI Is Bringing Extinct Animals Back (And What Comes Next) | Ben Lamm (Colossal) | EP #245",
+    "last_proof_snippet": "The idea bring back the willy mammoth had been around for a long time. You jump in, take the mantle of CEO. I don't know if you were expecting to do that. I was going to fund it at the side project at first, but then I thought it was just r",
+    "supporting_takeaway": "The company is leveraging AI to design and build living products, which is a novel approach in synthetic biology.",
     "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
+    "grokipedia_fetched_at": "2026-04-08T05:05:00.239498",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Ben Lamm",
+      "fetched_at": "2026-04-08T10:05:00.239257+00:00",
+      "cliff_notes": "Ben Lamm is a visionary entrepreneur who has made significant strides in the field of biotechnology. As the CEO of Colossal, he leads a team that is pioneering the use of AI and synthetic biology to revive extinct species and tackle pressing global issues. Lamm's work is not limited to de-extinction; his company is also spinning out other ventures that have the potential to revolutionize industries. One such example is their work on breaking chemical bonds of plastic, which could have a significant impact on environmental conservation. His approach to integrating AI into biotechnology has positioned him as a thought leader in the intersection of technology and sustainability.",
+      "derived": {
+        "current_role": "CEO of Colossal"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Ben Lamm is a visionary entrepreneur who has made significant strides in the field of biotechnology. As the CEO of Colossal, he leads a team that is pioneering the use of AI and synthetic biology to revive extinct species and tackle pressing global issues. Lamm's work is not limited to de-extinction; his company is also spinning out other ventures that have the potential to revolutionize industries.",
+        "One such example is their work on breaking chemical bonds of plastic, which could have a significant impact on environmental conservation. His approach to integrating AI into biotechnology has positioned him as a thought leader in the intersection of technology and sustainability."
+      ],
+      "sections": [
+        {
+          "heading": "De-extinction",
+          "body": "Ben Lamm is leading the charge in the revival of extinct species through the use of advanced genetic engineering techniques."
+        },
+        {
+          "heading": "Genetic Engineering",
+          "body": "Lamm's company, Colossal, is at the forefront of genetic engineering, aiming to bring back extinct species and create new biological solutions."
+        },
+        {
+          "heading": "AI Integration",
+          "body": "Colossal utilizes AI to design and build living products, setting a new standard for biotech companies in leveraging artificial intelligence."
+        },
+        {
+          "heading": "Environmental Impact",
+          "body": "Ben Lamm's work extends to addressing environmental challenges, such as developing microbes capable of breaking down plastic pollutants."
+        }
+      ]
+    },
+    "net_worth": "$3.90B"
   },
   {
-    "id": 40,
-    "name": "Garrett Langley",
-    "slug": "garrett-langley",
-    "bio": "Founder of Flock Safety, an electrical engineer turned entrepreneur.",
-    "known_for": "Developing a neighborhood safety system that evolved into a nationwide real-time crime prevention platform.",
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-03-12 19:38:37",
-    "last_episode_title": "Real-time Crime Prevention and the Future of Policing",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-03-11",
-    "mention_score": 1,
-    "mention_score_decayed": 0.39,
-    "last_main_idea": "Investing in technology that enhances real-time crime prevention and clearance rates can lead to more effective law enforcement and safer communities.",
-    "last_proof_cite": "The a16z Show \u2022 2026-03-11 \u2022 Real-time Crime Prevention and the Future of Policing",
-    "last_proof_snippet": "South American cartels fly illegal drones through these neighborhoods. They'll flip on night vision. Look through houses to see if you can tell me. Didn't go break in. I was working with a town in Tennessee. It's a good city. Their average",
-    "supporting_takeaway": "The company has expanded from its initial prototype to offer a suite of products, including drones and 911 integration.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
-    "id": 38,
-    "name": "Joseph Stiglitz",
-    "slug": "joseph-stiglitz",
-    "bio": "Nobel Laureate Economist and Professor at Columbia University",
-    "known_for": "Author of 'Road to Freedom, Economics, and the Good Society'",
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-03-12 19:38:30",
-    "last_episode_title": "Monetary Matters: Economic Consequences of War and AI's Impact",
+    "id": 161,
+    "name": "Robert Conexberger",
+    "slug": "robert-conexberger",
+    "bio": "Robert Conexberger is the CIO and founder of Grammar C, a multi-billion dollar emerging markets alternative investment manager. With a career in emerging market investing that began in the mid to late 1980s, Conexberger has been a significant figure in the industry, particularly during the less developed country debt crisis.",
+    "known_for": "His long-standing expertise and leadership in emerging market investing.",
+    "net_worth_usd": 80000000.0,
+    "net_worth_source": "https://thecollegeinvestor.com/972/the-top-10-investors-of-all-time/",
+    "net_worth_updated_at": "2026-04-08T05:04:50.103987",
+    "voice_tone": "Informed and experienced.",
+    "voice_style": "Conexberger presents a balanced view, acknowledging both the risks and opportunities in emerging markets.",
+    "voice_delivery_notes": "Speak with a measured pace, emphasizing key points about market evolution and investment strategies.",
+    "voice_profile_updated_at": "2026-04-08 10:04:00",
+    "last_seen": "2026-04-08 10:04:00",
+    "last_episode_title": "Why Emerging Markets are Finally Outperforming Developed Markets | Robert Koenigsberger | Gramercy",
     "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-03-11",
+    "last_episode_date": "2026-04-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.39,
-    "last_main_idea": "The current geopolitical tensions and the rise of AI technology present both risks and opportunities, with the potential for economic disruption and the need for strategic investment in sectors less affected by AI.",
-    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-11 \u2022 Monetary Matters: Economic Consequences of War and AI's Impact",
-    "last_proof_snippet": "This episode of Monetary Matters is brought to you by the two-cream Soybean Fund. Take your SOI-B. Let's get into it. Very pleased to welcome to Monetary Matters, Noble Laureate Economist, Professor at Columbia University, an author of Road",
-    "supporting_takeaway": "The U.S. is more dependent on oil than other countries, making it more susceptible to economic disruptions.",
+    "mention_score_decayed": 0.71,
+    "last_main_idea": "Investing in select few names within the China property sector can offer significant potential for value appreciation, given the right conditions and primary research.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-07 \u2022 Why Emerging Markets are Finally Outperforming Developed Markets | Robert Koenigsberger | Gramercy",
+    "last_proof_snippet": "Today's episode is brought to you by Peak Day Asset Management and their AI enhanced ETF range, ticker's PQ&T and PQUS. You'll hear more about how they're using AI to enhance equity exposure later in the show. For now, let's get into it. He",
+    "supporting_takeaway": "The recent outperformance of emerging market equities is attributed to a fundamental repricing of relative value and the 'anywhere but US' theme.",
     "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
+    "grokipedia_fetched_at": "2026-04-08T05:04:49.164717",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Robert Conexberger",
+      "fetched_at": "2026-04-08T10:04:49.164505+00:00",
+      "cliff_notes": "Robert Conexberger is a seasoned investor in emerging markets, with a career that started in the mid to late 1980s. He has been involved in the industry during the less developed country debt crisis and has worked with key figures in international finance. Conexberger is recognized for his deep understanding of the complexities and opportunities in emerging markets, which has made him a respected figure in the field. As the CIO and founder of Grammar C, he leads a multi-billion dollar alternative investment manager focused on emerging markets, leveraging his extensive experience to guide investments and strategies.",
+      "derived": {
+        "current_role": "CIO and founder of Grammar C"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Robert Conexberger is a seasoned investor in emerging markets, with a career that started in the mid to late 1980s. He has been involved in the industry during the less developed country debt crisis and has worked with key figures in international finance. Conexberger is recognized for his deep understanding of the complexities and opportunities in emerging markets, which has made him a respected figure in the field.",
+        "As the CIO and founder of Grammar C, he leads a multi-billion dollar alternative investment manager focused on emerging markets, leveraging his extensive experience to guide investments and strategies."
+      ],
+      "sections": [
+        {
+          "heading": "Emerging Markets Expertise",
+          "body": "Robert Conexberger has been investing in emerging markets since before they were widely recognized, gaining a deep understanding of the sector's intricacies and potential."
+        },
+        {
+          "heading": "Career Beginnings",
+          "body": "Conexberger's career began during the less developed country debt crisis in the mid to late 1980s, where he worked with individuals who had significant roles in international finance."
+        },
+        {
+          "heading": "Grammar C",
+          "body": "As the founder and CIO of Grammar C, Conexberger leads a multi-billion dollar emerging markets alternative investment manager, applying his extensive experience to drive the company's strategies."
+        }
+      ]
+    },
+    "net_worth": "$80.0M"
   },
   {
-    "id": 33,
-    "name": "Paul Ackens",
-    "slug": "paul-ackens",
-    "bio": "SEC chair with a history in corporation finance work.",
-    "known_for": "Shaping capital markets and regulatory oversight.",
+    "id": 162,
+    "name": "Michael Nielsen",
+    "slug": "michael-nielsen",
+    "bio": "Michael Nielsen is a pioneer in the field of chronic computing and a significant figure in the open science movement. He is known for writing the main textbook in the field of the open science movement and contributing to the understanding of scientific progress. Nielsen is currently a research fellow at the Stair Institute and is working on a book about religion, science, and technology.",
+    "known_for": "His contributions to the open science movement and his work on recognizing scientific progress, particularly in the context of AI and scientific discovery.",
     "net_worth_usd": null,
-    "net_worth_source": null,
+    "net_worth_source": "",
     "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-03-12 19:38:22",
-    "last_episode_title": "Capital Markets Evolution and the Future of IPOs",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-03-11",
+    "voice_tone": "Educative and insightful",
+    "voice_style": "Analytical and historical in approach",
+    "voice_delivery_notes": "Paced with emphasis on key historical points and scientific concepts",
+    "voice_profile_updated_at": "2026-04-08 10:04:28",
+    "last_seen": "2026-04-08 10:04:28",
+    "last_episode_title": "Michael Nielsen \u2013 How science actually progresses",
+    "last_podcast_name": "Dwarkesh Podcast",
+    "last_episode_date": "2026-04-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.39,
-    "last_main_idea": "The shift towards private markets and the potential for changing reporting cadence could redefine the landscape for early-stage investment opportunities and public market participation.",
-    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-11 \u2022 Capital Markets Evolution and the Future of IPOs",
-    "last_proof_snippet": "All right, everybody, welcome to the all-in interview program. Today, we are delighted to have two of the most important individuals shaping capital markets over the next couple of years. SEC chair, Paul Ackens is with us as well as CFTC ch",
-    "supporting_takeaway": "The shift to private markets has changed the behavior of capital markets, with companies going public at a more mature stage.",
+    "mention_score_decayed": 0.71,
+    "last_main_idea": "The core thesis presented is that advancements in AI and computer science can lead to new fields and paradigms, offering investment opportunities in technological disruption and innovation.",
+    "last_proof_cite": "Dwarkesh Podcast \u2022 2026-04-07 \u2022 Michael Nielsen \u2013 How science actually progresses",
+    "last_proof_snippet": "Today, I'm speaking with Michael Nielsen. You've done many things. You're one of the pioneers of chronic computing, wrote the main textbook in the field of the open science movement. You're at a book about people learning that Chris Ola and",
+    "supporting_takeaway": "The Michelson-Morley experiment was initially aimed at testing theories of the ether, which was a significant concept in physics before the advent of relativity.",
     "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
+    "grokipedia_fetched_at": "2026-04-08T05:04:38.528660",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Michael Nielsen",
+      "fetched_at": "2026-04-08T10:04:38.528161+00:00",
+      "cliff_notes": "Michael Nielsen is a renowned researcher and author who has made significant contributions to the fields of chronic computing and the open science movement. As a pioneer in chronic computing, Nielsen has been instrumental in shaping the way we understand and approach scientific progress. His work on the main textbook in the field of the open science movement has been influential in advancing the understanding of scientific progress and its implications for AI and scientific discovery. Currently, Nielsen is a research fellow at the Stair Institute, where he is focusing on a book about the intersection of religion, science, and technology. His work continues to be a valuable resource for those interested in the future of science and technology.",
+      "derived": {
+        "current_role": "Research Fellow at the Stair Institute",
+        "former_positions": "Pioneer in chronic computing",
+        "books_or_works": "Main textbook in the field of the open science movement"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Michael Nielsen is a renowned researcher and author who has made significant contributions to the fields of chronic computing and the open science movement. As a pioneer in chronic computing, Nielsen has been instrumental in shaping the way we understand and approach scientific progress. His work on the main textbook in the field of the open science movement has been influential in advancing the understanding of scientific progress and its implications for AI and scientific discovery.",
+        "Currently, Nielsen is a research fellow at the Stair Institute, where he is focusing on a book about the intersection of religion, science, and technology. His work continues to be a valuable resource for those interested in the future of science and technology."
+      ],
+      "sections": [
+        {
+          "heading": "Open Science Movement",
+          "body": "Michael Nielsen is known for writing the main textbook in the field of the open science movement, which has helped to advance the understanding of scientific progress and its implications for AI and scientific discovery."
+        },
+        {
+          "heading": "Chronic Computing",
+          "body": "As a pioneer in chronic computing, Nielsen has been instrumental in shaping the way we understand and approach scientific progress, particularly in the context of AI and scientific discovery."
+        },
+        {
+          "heading": "Research Fellow at Stair Institute",
+          "body": "Nielsen is currently a research fellow at the Stair Institute, where he is working on a book about the intersection of religion, science, and technology, further expanding his contributions to the understanding of scientific progress."
+        }
+      ]
+    }
   },
   {
-    "id": 34,
-    "name": "Michael Cilig",
-    "slug": "michael-cilig",
-    "bio": "CFTC chair with expertise in commodities and financial markets.",
-    "known_for": "Regulatory oversight in commodities and financial markets.",
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-03-12 19:38:22",
-    "last_episode_title": "Capital Markets Evolution and the Future of IPOs",
+    "id": 163,
+    "name": "Josh Shapiro",
+    "slug": "josh-shapiro",
+    "bio": "Josh Shapiro is the Governor of Pennsylvania, recognized for his focus on pro-growth policies and job creation. With a 60% approval rating, he is known for his moderate stance and his efforts in combating Medicaid fraud, ranking number one in his approach to this issue. Shapiro also supports data center development and has a nuanced view on Israel.",
+    "known_for": "His track record in Pennsylvania, including his focus on economic growth and his nuanced views on Israel.",
+    "net_worth_usd": 35000000.0,
+    "net_worth_source": "https://nationaltoday.com/us/pa/harrisburg/news/2026/02/24/josh-shapiros-35-million-net-worth-raises-questions-about-lobbying-ties/",
+    "net_worth_updated_at": "2026-04-09T05:06:17.030796",
+    "voice_tone": "Confident and focused on policy outcomes.",
+    "voice_style": "Factual and data-driven, emphasizing Pennsylvania's achievements.",
+    "voice_delivery_notes": "Pacing is steady, with emphasis on key policy points.",
+    "voice_profile_updated_at": "2026-04-09 10:05:24",
+    "last_seen": "2026-04-09 10:05:24",
+    "last_episode_title": "Josh Shapiro on Trump, Iran War Chaos, Israel's Failure, the Economy, and 2028 Race",
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-03-11",
+    "last_episode_date": "2026-04-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.39,
-    "last_main_idea": "The shift towards private markets and the potential for changing reporting cadence could redefine the landscape for early-stage investment opportunities and public market participation.",
-    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-11 \u2022 Capital Markets Evolution and the Future of IPOs",
-    "last_proof_snippet": "All right, everybody, welcome to the all-in interview program. Today, we are delighted to have two of the most important individuals shaping capital markets over the next couple of years. SEC chair, Paul Ackens is with us as well as CFTC ch",
-    "supporting_takeaway": "The shift to private markets has changed the behavior of capital markets, with companies going public at a more mature stage.",
+    "mention_score_decayed": 0.72,
+    "last_main_idea": "Invest in Pennsylvania due to its pro-growth policies, job creation, and improved business climate.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-04-08 \u2022 Josh Shapiro on Trump, Iran War Chaos, Israel's Failure, the Economy, and 2028 Race",
+    "last_proof_snippet": "All right, everybody. We've got an incredible guest today, Governor Josh Shapiro is here, obviously Governor of Pennsylvania. He's got Records setting popularity in Pennsylvania right now 60% approval at least he's a moderate. He's focused",
+    "supporting_takeaway": "Pennsylvania is ranked number one in charging Medicaid fraud and is pro-data center.",
     "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
+    "grokipedia_fetched_at": "2026-04-09T05:06:15.797999",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Josh Shapiro",
+      "fetched_at": "2026-04-09T10:06:15.797324+00:00",
+      "cliff_notes": "Josh Shapiro's career has been deeply rooted in Pennsylvania politics. He began his political journey in the state legislature, where he gained a reputation for his commitment to public service. Later, he served as the Attorney General of Pennsylvania, where he made a significant impact by leading the charge against Medicaid fraud, earning a top ranking for his efforts. His tenure as Attorney General also saw him taking on issues that resonated with both moderates and progressives. In 2022, Shapiro was elected as the Governor of Pennsylvania, where he continues to focus on pro-growth policies and job creation. His nuanced stance on Israel and support for data center development have also made him a figure of interest for tech and finance sectors.",
+      "derived": {
+        "current_role": "Governor of Pennsylvania",
+        "political_affiliation": "Democratic Party",
+        "political_summary": "Josh Shapiro is a member of the Democratic Party and has been politically involved, serving as a state legislator before becoming the Attorney General of Pennsylvania. He is now the Governor, focusing on policies that promote economic growth and job creation."
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Josh Shapiro's career has been deeply rooted in Pennsylvania politics. He began his political journey in the state legislature, where he gained a reputation for his commitment to public service. Later, he served as the Attorney General of Pennsylvania, where he made a significant impact by leading the charge against Medicaid fraud, earning a top ranking for his efforts.",
+        "His tenure as Attorney General also saw him taking on issues that resonated with both moderates and progressives. In 2022, Shapiro was elected as the Governor of Pennsylvania, where he continues to focus on pro-growth policies and job creation. His nuanced stance on Israel and support for data center development have also made him a figure of interest for tech and finance sectors."
+      ],
+      "sections": [
+        {
+          "heading": "Economic Growth",
+          "body": "Governor Shapiro is dedicated to fostering economic growth in Pennsylvania through pro-growth policies, which aim to attract businesses and create jobs within the state."
+        },
+        {
+          "heading": "Combating Medicaid Fraud",
+          "body": "Shapiro has been recognized for his aggressive approach to Medicaid fraud, leading the nation in charging those who exploit the system, which has helped protect state resources."
+        },
+        {
+          "heading": "Data Center Support",
+          "body": "Governor Shapiro is a proponent of data center development in Pennsylvania, recognizing the potential for job creation and technological advancement in the state."
+        },
+        {
+          "heading": "Moderate Stance",
+          "body": "With a 60% approval rating, Shapiro is known for his moderate political stance, which allows him to appeal to a broad range of constituents and work across party lines."
+        }
+      ]
+    },
+    "net_worth": "$35.0M"
+  },
+  {
+    "id": 164,
+    "name": "Vitalik Buterin",
+    "slug": "vitalik-buterin",
+    "bio": "Vitalik Buterin is a programmer and writer primarily known as the co-founder of Ethereum, a blockchain platform that enables decentralized applications. His work in cryptocurrency and blockchain technology has made him a significant figure in the field.",
+    "known_for": "Co-founding Ethereum, a leading platform for decentralized applications and cryptocurrencies.",
+    "net_worth_usd": 461000000.0,
+    "net_worth_source": "https://coincodex.com/article/22825/vitalik-buterin-net-worth/",
+    "net_worth_updated_at": "2026-04-09T22:05:44.682431",
+    "voice_tone": "Thoughtful and measured",
+    "voice_style": "Analytical and philosophical",
+    "voice_delivery_notes": "Paced with emphasis on key philosophical points",
+    "voice_profile_updated_at": "2026-04-10 03:04:19",
+    "last_seen": "2026-04-10 03:04:19",
+    "last_episode_title": "Who Controls AI Acceleration? Vitalik Buterin and Guillaume Verdon Debate",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-04-09",
+    "mention_score": 1,
+    "mention_score_decayed": 0.72,
+    "last_main_idea": "Invest in technologies and platforms that promote open-source contributions and technological pluralism to hedge against an uncertain future and ensure a more equitable distribution of power.",
+    "last_proof_cite": "The a16z Show \u2022 2026-04-09 \u2022 Who Controls AI Acceleration? Vitalik Buterin and Guillaume Verdon Debate",
+    "last_proof_snippet": "Rapid technological acceleration has been a fact of a human civilization for about a century, and that acceleration is itself accelerating to me that is the fundamental truth, right? And whether we yell at it or disagree with it, it is happ",
+    "supporting_takeaway": "Effective accelerationism (Eacc) argues that progress is inevitable and restraint only seeds ground for others.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-09T22:05:43.619712",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Vitalik Buterin",
+      "fetched_at": "2026-04-10T03:05:43.619446+00:00",
+      "cliff_notes": "Vitalik Buterin was born in Russia and later moved to Canada with his family. He showed an early interest in programming and mathematics. He became involved with Bitcoin in his teenage years and began writing for Bitcoin Magazine. His dissatisfaction with the limitations of Bitcoin led him to propose Ethereum, a more flexible blockchain platform that could support a wide range of decentralized applications. Ethereum was launched in 2015, and Buterin has continued to play a central role in its development. He has also been an influential voice in discussions about the future of blockchain technology and its potential impact on society.",
+      "derived": {
+        "current_role": "Co-founder of Ethereum",
+        "education": "Dropout from University of Waterloo",
+        "books_or_works": "White paper on Ethereum; various articles on blockchain technology"
+      },
+      "infobox": {
+        "Born": "1994",
+        "Nationality": "Canadian"
+      },
+      "lead_paragraphs": [
+        "Vitalik Buterin was born in Russia and later moved to Canada with his family. He showed an early interest in programming and mathematics. He became involved with Bitcoin in his teenage years and began writing for Bitcoin Magazine. His dissatisfaction with the limitations of Bitcoin led him to propose Ethereum, a more flexible blockchain platform that could support a wide range of decentralized applications.",
+        "Ethereum was launched in 2015, and Buterin has continued to play a central role in its development. He has also been an influential voice in discussions about the future of blockchain technology and its potential impact on society."
+      ],
+      "sections": [
+        {
+          "heading": "Ethereum",
+          "body": "Buterin co-founded Ethereum, a blockchain platform that enables decentralized applications, in 2015. It has since become one of the largest and most influential blockchain networks."
+        },
+        {
+          "heading": "Blockchain Advocacy",
+          "body": "Buterin is a prominent advocate for blockchain technology, speaking and writing extensively on its potential applications and implications for the future."
+        },
+        {
+          "heading": "Decentralization",
+          "body": "A key aspect of Buterin's vision for Ethereum is its potential to decentralize power and control, reducing the influence of centralized authorities."
+        },
+        {
+          "heading": "Accelerationism",
+          "body": "Buterin has expressed views on accelerationism, the idea that technological progress should be accelerated rather than restrained, in order to achieve a better future."
+        }
+      ]
+    },
+    "net_worth": "$461.0M"
+  },
+  {
+    "id": 165,
+    "name": "Guillem Bert",
+    "slug": "guillem-bert",
+    "bio": "Guillem Bert is the Founder and CEO of Extrapic, a company focused on technology and its impact on society. He is a thought leader in the field of technological acceleration and its effects on the future of humanity.",
+    "known_for": "His insights on the acceleration of technology and its societal implications, particularly in the context of AI and its governance.",
+    "net_worth_usd": 5000000.0,
+    "net_worth_source": "https://www.capitalism.com/bert-kreischer-net-worth-plus-his-tv-films-book-stand-up-and-salary/",
+    "net_worth_updated_at": "2026-04-09T22:05:57.470208",
+    "voice_tone": "Passionate and visionary",
+    "voice_style": "Inspirational and future-oriented",
+    "voice_delivery_notes": "Energetic with a focus on potential outcomes",
+    "voice_profile_updated_at": "2026-04-10 03:04:19",
+    "last_seen": "2026-04-10 03:04:19",
+    "last_episode_title": "Who Controls AI Acceleration? Vitalik Buterin and Guillaume Verdon Debate",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-04-09",
+    "mention_score": 1,
+    "mention_score_decayed": 0.72,
+    "last_main_idea": "Invest in technologies and platforms that promote open-source contributions and technological pluralism to hedge against an uncertain future and ensure a more equitable distribution of power.",
+    "last_proof_cite": "The a16z Show \u2022 2026-04-09 \u2022 Who Controls AI Acceleration? Vitalik Buterin and Guillaume Verdon Debate",
+    "last_proof_snippet": "Rapid technological acceleration has been a fact of a human civilization for about a century, and that acceleration is itself accelerating to me that is the fundamental truth, right? And whether we yell at it or disagree with it, it is happ",
+    "supporting_takeaway": "Effective accelerationism (Eacc) argues that progress is inevitable and restraint only seeds ground for others.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-09T22:05:56.341318",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Guillem Bert",
+      "fetched_at": "2026-04-10T03:05:56.341099+00:00",
+      "cliff_notes": "Guillem Bert is a prominent figure in the technology sector, recognized for his work as the Founder and CEO of Extrapic. His career has been dedicated to understanding and navigating the rapid pace of technological advancement and its profound effects on society. Bert's contributions to the discourse around effective accelerationism versus defensive acceleration highlight his deep engagement with the ethical and strategic considerations of AI and technological progress. His work is pivotal for investors, technologists, and policymakers as they grapple with the implications of accelerating technologies on the future of work, governance, and global stability.",
+      "derived": {
+        "current_role": "Founder and CEO of Extrapic"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Guillem Bert is a prominent figure in the technology sector, recognized for his work as the Founder and CEO of Extrapic. His career has been dedicated to understanding and navigating the rapid pace of technological advancement and its profound effects on society. Bert's contributions to the discourse around effective accelerationism versus defensive acceleration highlight his deep engagement with the ethical and strategic considerations of AI and technological progress.",
+        "His work is pivotal for investors, technologists, and policymakers as they grapple with the implications of accelerating technologies on the future of work, governance, and global stability."
+      ],
+      "sections": [
+        {
+          "heading": "Technological Acceleration",
+          "body": "Guillem Bert discusses the rapid acceleration of technology and its inevitable impact on society, advocating for intentional acceleration to harness its benefits."
+        },
+        {
+          "heading": "Effective Accelerationism",
+          "body": "Bert is known for his stance on effective accelerationism, which posits that progress is inevitable and that restraint only cedes ground to less desirable outcomes."
+        },
+        {
+          "heading": "Defensive Acceleration",
+          "body": "He also addresses defensive acceleration, which argues for caution in the advancement of AI to prevent the concentration of power and ensure safeguards are in place."
+        },
+        {
+          "heading": "Future of Humanity",
+          "body": "Guillem Bert's work is centered around the future of humanity in the context of technological acceleration, emphasizing the need for a culture that can adapt and thrive in a rapidly changing world."
+        }
+      ]
+    },
+    "net_worth": "$5.0M"
+  },
+  {
+    "id": 167,
+    "name": "Michael Haynes",
+    "slug": "michael-haynes",
+    "bio": "Michael Haynes is the Head of Private Credit at Beach Point Capital Management, a credit firm managing over $20 billion in assets. His expertise lies in private credit and direct lending strategies, making him a significant figure in the financial sector, especially for investors interested in alternative investments.",
+    "known_for": "His leadership in managing a significant portfolio of private credit assets and his insights into the direct lending market.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Informative and reassuring.",
+    "voice_style": "Provides detailed explanations and differentiates between various private credit strategies.",
+    "voice_delivery_notes": "Speaks with confidence and clarity, emphasizing the importance of understanding private credit nuances.",
+    "voice_profile_updated_at": "2026-04-10 03:04:59",
+    "last_seen": "2026-04-10 03:04:59",
+    "last_episode_title": "Private Credit \u201cDoom\u201d Narrative On Shaky Foundation? | Michael Haynes On Why Retail Outflows Are Real But Credit Foundations Are Solid",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-04-08",
+    "mention_score": 1,
+    "mention_score_decayed": 0.72,
+    "last_main_idea": "Investing in private credit, particularly through opportunistic funds, can provide higher returns by accepting additional credit risk and complexity, suitable for patient institutional capital.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-08 \u2022 Private Credit \u201cDoom\u201d Narrative On Shaky Foundation? | Michael Haynes On Why Retail Outflows Are Real But Credit Foundations Are Solid",
+    "last_proof_snippet": "Today's episode is brought to you by Kaya NXT. Later, the show, you'll hear more about how you can take the next step for your clients with Kaya NXT's Alternatives Education courses. But for now, let's get into today's interview. I am joine",
+    "supporting_takeaway": "Beach Point Capital Management primarily manages institutional capital, which is characterized as patient capital.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-09T22:05:24.439502",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Michael Haynes",
+      "fetched_at": "2026-04-10T03:05:24.438941+00:00",
+      "cliff_notes": "Michael Haynes has established himself as a prominent figure in the realm of private credit and direct lending strategies. As the Head of Private Credit at Beach Point Capital Management, he oversees a substantial portfolio of over $20 billion in assets. His role involves navigating the complexities of the private credit market, which has become increasingly significant in the broader financial landscape. Haynes' expertise is particularly relevant given the growing interest in alternative investments and the challenges faced by the sector, such as liquidity crunches and concerns over retail capital in software loans. His contributions to the industry and his ability to manage large-scale assets underscore his importance in the field of finance.",
+      "derived": {
+        "current_role": "Head of Private Credit at Beach Point Capital Management"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Michael Haynes has established himself as a prominent figure in the realm of private credit and direct lending strategies. As the Head of Private Credit at Beach Point Capital Management, he oversees a substantial portfolio of over $20 billion in assets. His role involves navigating the complexities of the private credit market, which has become increasingly significant in the broader financial landscape.",
+        "Haynes' expertise is particularly relevant given the growing interest in alternative investments and the challenges faced by the sector, such as liquidity crunches and concerns over retail capital in software loans. His contributions to the industry and his ability to manage large-scale assets underscore his importance in the field of finance."
+      ],
+      "sections": [
+        {
+          "heading": "Private Credit Expertise",
+          "body": "Michael Haynes is recognized for his deep understanding of private credit, a niche market that has gained significant attention in recent years due to its potential for high returns and diversification benefits."
+        },
+        {
+          "heading": "Direct Lending Strategies",
+          "body": "Haynes plays a pivotal role in developing and executing direct lending strategies at Beach Point Capital Management, which involves providing loans directly to businesses, bypassing traditional banking channels."
+        },
+        {
+          "heading": "Asset Management",
+          "body": "With over $20 billion in assets under management, Haynes is responsible for making investment decisions that have a substantial impact on the financial performance of Beach Point Capital Management and its clients."
+        },
+        {
+          "heading": "Market Influence",
+          "body": "His insights into the private credit market are highly valued, especially during times of market stress, such as liquidity crunches, where his expertise can guide investors through complex financial situations."
+        }
+      ]
+    }
+  },
+  {
+    "id": 168,
+    "name": "Adam Rosenswag",
+    "slug": "adam-rosenswag",
+    "bio": "Adam Rosenswag is a prominent figure in the global energy markets and commodities sector. He is the co-founder of Garing and Rosenswag, an investment firm that specializes in these areas. Rosenswag is known for his expertise and insights into commodities, particularly in the context of geopolitical events and their impact on markets.",
+    "known_for": "His deep understanding of how geopolitical events, such as the Iran conflict, influence global energy markets and commodities.",
+    "net_worth_usd": 1200000000.0,
+    "net_worth_source": "https://explore.st-aug.edu/exp/adam-22s-net-worth-shocked-the-business-world-the-untold-secrets-behind-his-billionairestyle-wealth",
+    "net_worth_updated_at": "2026-04-10T05:06:56.415309",
+    "voice_tone": "Matter-of-fact and analytical.",
+    "voice_style": "Factual and informative, providing insights into market dislocations and their implications.",
+    "voice_delivery_notes": "Clear and concise, with emphasis on key market data points.",
+    "voice_profile_updated_at": "2026-04-10 10:04:28",
+    "last_seen": "2026-04-10 10:04:28",
+    "last_episode_title": "MacroVoices #527 Adam Rozencwajg: What Comes Next After The Iran Crisis",
+    "last_podcast_name": "MacroVoices",
+    "last_episode_date": "2026-04-09",
+    "mention_score": 1,
+    "mention_score_decayed": 0.74,
+    "last_main_idea": "Investment opportunities may arise from the physical dislocation in energy markets and shifts in energy security, with a focus on commodities like oil, uranium, and gold.",
+    "last_proof_cite": "MacroVoices \u2022 2026-04-09 \u2022 MacroVoices #527 Adam Rozencwajg: What Comes Next After The Iran Crisis",
+    "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
+    "supporting_takeaway": "The oil market may be tighter than widely believed, with implications for food prices and inflation.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-10T05:06:55.491790",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Adam Rosenswag",
+      "fetched_at": "2026-04-10T10:06:55.491575+00:00",
+      "cliff_notes": "Adam Rosenswag is recognized for his expertise in global energy markets and commodities. He co-founded Garing and Rosenswag, an investment firm that focuses on these sectors. Rosenswag's insights are particularly sought after during times of geopolitical tension, such as the Iran conflict, as he provides valuable perspectives on how such events can affect the prices and availability of commodities like crude oil, food, fertilizer, uranium, and gold. His contributions to the financial community are significant, offering clarity and foresight in complex and volatile market conditions.",
+      "derived": {
+        "current_role": "Co-founder, Garing and Rosenswag"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Adam Rosenswag is recognized for his expertise in global energy markets and commodities. He co-founded Garing and Rosenswag, an investment firm that focuses on these sectors. Rosenswag's insights are particularly sought after during times of geopolitical tension, such as the Iran conflict, as he provides valuable perspectives on how such events can affect the prices and availability of commodities like crude oil, food, fertilizer, uranium, and gold.",
+        "His contributions to the financial community are significant, offering clarity and foresight in complex and volatile market conditions."
+      ],
+      "sections": [
+        {
+          "heading": "Energy Markets",
+          "body": "Adam Rosenswag has a deep understanding of global energy markets, offering insights into how geopolitical events can influence the prices and availability of energy commodities."
+        },
+        {
+          "heading": "Commodities",
+          "body": "Rosenswag is known for his analysis of commodities, particularly in the context of global conflicts and their impact on the market."
+        },
+        {
+          "heading": "Geopolitical Impact",
+          "body": "His expertise lies in assessing the impact of geopolitical events, such as the Iran conflict, on the global commodities market."
+        },
+        {
+          "heading": "Investment Strategy",
+          "body": "As co-founder of an investment firm, Rosenswag provides strategic advice on navigating the complexities of global energy markets and commodities trading."
+        }
+      ]
+    },
+    "net_worth": "$1.20B"
+  },
+  {
+    "id": 169,
+    "name": "Ben Topore",
+    "slug": "ben-topore",
+    "bio": "Ben Topore is the founder and managing partner of Titan Capital Partners, a growth equity firm with a focus on software markets. He is known for authoring a book on decoding the software landscape and his expertise in backing software companies and providing strategic insights.",
+    "known_for": "His expertise in software markets and authoring a book on the subject.",
+    "net_worth_usd": 10000000.0,
+    "net_worth_source": "https://networth20.com/ben-domenech-net-worth/",
+    "net_worth_updated_at": "2026-04-10T05:06:03.474380",
+    "voice_tone": "Informed and analytical.",
+    "voice_style": "Detailed and explanatory, providing clear distinctions between different types of software.",
+    "voice_delivery_notes": "Speaks with a structured approach, breaking down complex topics into digestible points.",
+    "voice_profile_updated_at": "2026-04-10 10:05:17",
+    "last_seen": "2026-04-10 10:05:17",
+    "last_episode_title": "\"The Best Time to Invest\": How AI Disruption is Reshaping Software Valuations | Ben Topor | Titan Capital Partners",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-04-09",
+    "mention_score": 1,
+    "mention_score_decayed": 0.74,
+    "last_main_idea": "Invest in software companies that define the market, focusing on backing scale-ready leaders, providing liquidity to early investors, and helping companies make strategic decisions.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-09 \u2022 \"The Best Time to Invest\": How AI Disruption is Reshaping Software Valuations | Ben Topor | Titan Capital Partners",
+    "last_proof_snippet": "Today's episode is brought to you by PeakTay asset management and their AI enhanced ETF range, ticker's PQ&T and PQUS. You'll hear more about how they're using AI to enhance equity exposure later in the show. For now, let's get into it. Wel",
+    "supporting_takeaway": "AI is a significant paradigm shift, commoditizing some areas of the market but not changing the fundamental rules of the game.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-10T05:06:02.547144",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Ben Topore",
+      "fetched_at": "2026-04-10T10:06:02.546559+00:00",
+      "cliff_notes": "Ben Topore is a seasoned investor and author with a focus on the software industry. As the founder and managing partner of Titan Capital Partners, a growth equity firm with offices in the US and Israel, Topore has been instrumental in backing companies that define the software markets. His firm focuses on backing scale-ready leaders in software, providing liquidity to early investors, founders, and employees, and aiding companies in making strategic decisions with competitive insights and frameworks. In addition to his work with Titan, Topore has authored a book titled 'Decoding the Software Landscape,' which delves into the intricacies of the software industry. His contributions to both the investment and knowledge domains have made him a notable figure in the tech and finance sectors.",
+      "derived": {
+        "current_role": "Founder and Managing Partner of Titan Capital Partners",
+        "books_or_works": "Decoding the Software Landscape"
+      },
+      "infobox": {
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Ben Topore is a seasoned investor and author with a focus on the software industry. As the founder and managing partner of Titan Capital Partners, a growth equity firm with offices in the US and Israel, Topore has been instrumental in backing companies that define the software markets. His firm focuses on backing scale-ready leaders in software, providing liquidity to early investors, founders, and employees, and aiding companies in making strategic decisions with competitive insights and frameworks.",
+        "In addition to his work with Titan, Topore has authored a book titled 'Decoding the Software Landscape,' which delves into the intricacies of the software industry. His contributions to both the investment and knowledge domains have made him a notable figure in the tech and finance sectors."
+      ],
+      "sections": [
+        {
+          "heading": "Software Market Expertise",
+          "body": "Ben Topore has a deep understanding of the software market, which he leverages to back companies that are poised to define the industry."
+        },
+        {
+          "heading": "Investment Strategy",
+          "body": "At Titan Capital Partners, Topore focuses on providing growth equity to software companies, aiding in their scaling and strategic decision-making."
+        },
+        {
+          "heading": "Liquidity Provision",
+          "body": "Topore's firm is known for offering liquidity to early investors, founders, and employees, facilitating exits and supporting the growth of software companies."
+        },
+        {
+          "heading": "Strategic Insights",
+          "body": "Ben Topore helps software companies with competitive insights and frameworks, enabling them to make informed strategic decisions."
+        },
+        {
+          "heading": "Authoring a Book",
+          "body": "Topore has authored 'Decoding the Software Landscape,' a book that offers a comprehensive view of the software industry, contributing to the knowledge base of investors and tech enthusiasts."
+        }
+      ]
+    },
+    "net_worth": "$10.0M"
+  },
+  {
+    "id": 171,
+    "name": "Steven Sinofsky",
+    "slug": "steven-sinofsky",
+    "bio": "Steven Sinofsky is a board partner at a16z and the former president of the Windows Division at Microsoft. He is known for his leadership at Microsoft and insights into the software industry.",
+    "known_for": "His leadership at Microsoft and insights into the software industry.",
+    "net_worth_usd": 300000000.0,
+    "net_worth_source": "https://www.gurufocus.com/insider/3984/steven-j-sinofsky",
+    "net_worth_updated_at": "2026-04-10T22:06:00.230554",
+    "voice_tone": "Reflective and insightful",
+    "voice_style": "Analytical and comparative",
+    "voice_delivery_notes": "Paced with emphasis on key historical moments and technological differences",
+    "voice_profile_updated_at": "2026-04-11 03:05:18",
+    "last_seen": "2026-04-11 03:05:18",
+    "last_episode_title": "What Running Windows at Microsoft Taught Steven Sinofsky About Apple",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-04-10",
+    "mention_score": 1,
+    "mention_score_decayed": 0.74,
+    "last_main_idea": "Investing in companies with a strong cultural identity and clear strategic focus can provide an edge in technology markets, as demonstrated by the contrasting paths of Apple and Microsoft.",
+    "last_proof_cite": "The a16z Show \u2022 2026-04-10 \u2022 What Running Windows at Microsoft Taught Steven Sinofsky About Apple",
+    "last_proof_snippet": "I think the Steve created a culture of artists and they thought of themselves that way and in many ways Microsoft was a culture of technologists, solving technology problems and it led to very very different products but also very very diff",
+    "supporting_takeaway": "Microsoft's strength in enterprise is due to the legendary compatibility of Windows, a key value for corporations.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-10T22:05:58.972843",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Steven Sinofsky",
+      "fetched_at": "2026-04-11T03:05:58.972325+00:00",
+      "cliff_notes": "Steven Sinofsky is a prominent figure in the technology industry, known for his leadership at Microsoft and his insights into the software industry. He served as the president of the Windows Division at Microsoft, where he played a key role in shaping the company's strategy and product development. Under his leadership, Microsoft focused on creating a culture of artists, which led to the development of innovative products and a significant scale of operations. Sinofsky's tenure at Microsoft was marked by the company's continued dominance in the PC market and its response to the rise of Apple's iPhone. After leaving Microsoft, Sinofsky joined a16z as a board partner, where he continues to contribute his expertise and insights to the technology industry.",
+      "derived": {
+        "current_role": "Board Partner at a16z",
+        "former_positions": "President of the Windows Division at Microsoft"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Steven Sinofsky is a prominent figure in the technology industry, known for his leadership at Microsoft and his insights into the software industry. He served as the president of the Windows Division at Microsoft, where he played a key role in shaping the company's strategy and product development. Under his leadership, Microsoft focused on creating a culture of artists, which led to the development of innovative products and a significant scale of operations.",
+        "Sinofsky's tenure at Microsoft was marked by the company's continued dominance in the PC market and its response to the rise of Apple's iPhone. After leaving Microsoft, Sinofsky joined a16z as a board partner, where he continues to contribute his expertise and insights to the technology industry."
+      ],
+      "sections": [
+        {
+          "heading": "Leadership at Microsoft",
+          "body": "Steven Sinofsky served as the president of the Windows Division at Microsoft, where he played a key role in shaping the company's strategy and product development."
+        },
+        {
+          "heading": "Cultural Impact",
+          "body": "Sinofsky created a culture of artists at Microsoft, which led to the development of innovative products and a significant scale of operations."
+        },
+        {
+          "heading": "Response to iPhone",
+          "body": "During Sinofsky's tenure at Microsoft, the company faced the rise of Apple's iPhone and had to adapt its strategy accordingly."
+        },
+        {
+          "heading": "Post-Microsoft Career",
+          "body": "After leaving Microsoft, Sinofsky joined a16z as a board partner, where he continues to contribute his expertise and insights to the technology industry."
+        }
+      ]
+    },
+    "net_worth": "$300.0M"
+  },
+  {
+    "id": 173,
+    "name": "Suleam Ismail",
+    "slug": "suleam-ismail",
+    "bio": "Suleam Ismail is a recurring guest on the Moonshots podcast, where he discusses technology and its impact on the future. His insights cover a range of topics from SpaceX's valuation to AI advancements, providing listeners with a comprehensive understanding of the current tech landscape.",
+    "known_for": "His in-depth analysis of technology's role in shaping the future and its implications for investment strategies.",
+    "net_worth_usd": 2000000000.0,
+    "net_worth_source": "https://www.businessupturn.com/asia/middle-east-asia/united-arab-emirates/sultan-bin-sulayem-check-the-net-worth-of-a-leader-in-global-trade-and-logistics/39402/",
+    "net_worth_updated_at": "2026-04-12T05:04:41.005080",
+    "voice_tone": "enthusiastic and informative",
+    "voice_style": "Suleam presents his points with a mix of excitement and critical analysis",
+    "voice_delivery_notes": "Pace is moderate with emphasis on key points",
+    "voice_profile_updated_at": "2026-04-12 10:04:31",
+    "last_seen": "2026-04-12 10:04:31",
+    "last_episode_title": "SpaceX Goes Public, Claude\u2019s Mythos Release, and the US Data Center Delay | EP #246",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-04-11",
+    "mention_score": 1,
+    "mention_score_decayed": 0.78,
+    "last_main_idea": "Invest in companies and technologies at the forefront of AI and space exploration for potential high returns as these sectors are expected to drive the next wave of technological advancements.",
+    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-04-11 \u2022 SpaceX Goes Public, Claude\u2019s Mythos Release, and the US Data Center Delay | EP #246",
+    "last_proof_snippet": "SpaceX is going public with a $2 trillion valuation. It's the beginning of the IPO wars. The stepping stones are really, really clear now. Starlink gets you into space profitably, then the data centers, then you get to the moon, refueling i",
+    "supporting_takeaway": "Starlink is seen as a profitable stepping stone for SpaceX's ambitions in space.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-12T05:04:39.981644",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Suleam Ismail",
+      "fetched_at": "2026-04-12T10:04:39.981443+00:00",
+      "cliff_notes": "Suleam Ismail is recognized for his contributions to the discourse on technology and its future implications, particularly as a guest on the Moonshots podcast. His expertise spans a variety of tech-related topics, including space exploration, AI, and their financial aspects. Ismail's discussions often revolve around the potential of technology to disrupt traditional industries and create new investment opportunities. His insights are valuable for those looking to understand and capitalize on the rapid changes in the tech sector.",
+      "derived": {},
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Suleam Ismail is recognized for his contributions to the discourse on technology and its future implications, particularly as a guest on the Moonshots podcast. His expertise spans a variety of tech-related topics, including space exploration, AI, and their financial aspects. Ismail's discussions often revolve around the potential of technology to disrupt traditional industries and create new investment opportunities.",
+        "His insights are valuable for those looking to understand and capitalize on the rapid changes in the tech sector."
+      ],
+      "sections": [
+        {
+          "heading": "SpaceX Valuation",
+          "body": "Ismail discusses SpaceX's potential $2 trillion valuation and its role in sparking a new era of IPO wars, emphasizing the company's strategic steps from Starlink to lunar refueling."
+        },
+        {
+          "heading": "AI Advancements",
+          "body": "He highlights the competition between Thropic and OpenAI, noting Thropic's overtaking in total ARR and the implications for super intelligence, suggesting a consumer-driven growth bet by Thropic."
+        },
+        {
+          "heading": "Model Breakthroughs",
+          "body": "Ismail points out the arrival of AI models smart enough to break out of their environments, indicating a significant milestone in AI development and its potential risks."
+        },
+        {
+          "heading": "Future Predictions",
+          "body": "He emphasizes the importance of staying positive and optimistic about the future amidst rapid technological advancements, suggesting that we have arrived at a future once thought to be a 'moon shot'."
+        }
+      ]
+    },
+    "net_worth": "$2.00B"
+  },
+  {
+    "id": 174,
+    "name": "Alex Wees Negroes",
+    "slug": "alex-wees-negroes",
+    "bio": "Alex Wees Negroes is a recognized expert in AI and its applications, offering insights on technology's future and its impact on society. He has been a guest on the Moonshots podcast, discussing the rapid advancements in AI, SpaceX's valuation, and the implications of AI models breaking out of their environments.",
+    "known_for": "His perspectives on the future of AI and technology, particularly in the context of SpaceX's valuation and the race for AI dominance.",
+    "net_worth_usd": 3200000000.0,
+    "net_worth_source": "https://www.wionews.com/business-economy/alexandr-wang-s-net-worth-the-rise-of-28-year-old-ai-billionaire-1771580393044",
+    "net_worth_updated_at": "2026-04-12T05:04:50.425686",
+    "voice_tone": "analytical and engaging",
+    "voice_style": "Alex delivers his arguments with a focus on the practical implications of AI advancements",
+    "voice_delivery_notes": "Speaks with a measured pace, allowing for clear understanding of complex topics",
+    "voice_profile_updated_at": "2026-04-12 10:04:31",
+    "last_seen": "2026-04-12 10:04:31",
+    "last_episode_title": "SpaceX Goes Public, Claude\u2019s Mythos Release, and the US Data Center Delay | EP #246",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-04-11",
+    "mention_score": 1,
+    "mention_score_decayed": 0.78,
+    "last_main_idea": "Invest in companies and technologies at the forefront of AI and space exploration for potential high returns as these sectors are expected to drive the next wave of technological advancements.",
+    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-04-11 \u2022 SpaceX Goes Public, Claude\u2019s Mythos Release, and the US Data Center Delay | EP #246",
+    "last_proof_snippet": "SpaceX is going public with a $2 trillion valuation. It's the beginning of the IPO wars. The stepping stones are really, really clear now. Starlink gets you into space profitably, then the data centers, then you get to the moon, refueling i",
+    "supporting_takeaway": "Starlink is seen as a profitable stepping stone for SpaceX's ambitions in space.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-12T05:04:49.503362",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Alex Wees Negroes",
+      "fetched_at": "2026-04-12T10:04:49.503272+00:00",
+      "cliff_notes": "Alex Wees Negroes is an AI expert who has made significant contributions to the discourse on technology's future. His insights have been shared through various platforms, including the Moonshots podcast, where he discusses the implications of AI advancements and their impact on society. Wees Negroes provides a detailed analysis of SpaceX's valuation and the competitive landscape of AI, highlighting the importance of understanding these technologies for both investors and the general public. His expertise lies in the intersection of AI, technology, and their broader societal implications, making him a valuable voice in the ongoing conversation about the future of technology.",
+      "derived": {},
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Alex Wees Negroes is an AI expert who has made significant contributions to the discourse on technology's future. His insights have been shared through various platforms, including the Moonshots podcast, where he discusses the implications of AI advancements and their impact on society. Wees Negroes provides a detailed analysis of SpaceX's valuation and the competitive landscape of AI, highlighting the importance of understanding these technologies for both investors and the general public.",
+        "His expertise lies in the intersection of AI, technology, and their broader societal implications, making him a valuable voice in the ongoing conversation about the future of technology."
+      ],
+      "sections": [
+        {
+          "heading": "AI and SpaceX",
+          "body": "Alex Wees Negroes discusses the implications of SpaceX's $2 trillion valuation and its role in the future of space travel and data centers."
+        },
+        {
+          "heading": "AI Competition",
+          "body": "He provides insights into the competition between AI companies, such as Thropic overtaking OpenAI in terms of total ARR, and the impact on the field of AI."
+        },
+        {
+          "heading": "AI Models and Environments",
+          "body": "Wees Negroes highlights the development of AI models that are smart enough to break out of their environments, signifying a new era in AI capabilities."
+        },
+        {
+          "heading": "The Future of Technology",
+          "body": "He emphasizes the importance of staying positive and optimistic about the future, given the rapid advancements in technology and AI."
+        }
+      ]
+    },
+    "net_worth": "$3.20B"
+  },
+  {
+    "id": 175,
+    "name": "Jessie Janae",
+    "slug": "jessie-janae",
+    "bio": "Jessie Janae is a former Y Combinator founder who has leveraged AI to revolutionize home management and support her role as a homeschooling parent. She has built 11 AI agents, each with a distinct role, from lesson planning to grocery ordering, demonstrating her innovative approach to technology.",
+    "known_for": "Innovative use of AI in home management and education.",
+    "net_worth_usd": 26274848.0,
+    "net_worth_source": "https://hafi.pro/income/jessiej",
+    "net_worth_updated_at": "2026-04-13T22:03:57.709758",
+    "voice_tone": "Motivated and enthusiastic",
+    "voice_style": "Practical and solution-oriented",
+    "voice_delivery_notes": "Speaks with conviction about the potential of AI in daily life",
+    "voice_profile_updated_at": "2026-04-14 03:03:41",
+    "last_seen": "2026-04-14 03:03:41",
+    "last_episode_title": "Building Agents at Home: Parenting, Work, and Benevolent Neglect",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-04-13",
+    "mention_score": 1,
+    "mention_score_decayed": 0.79,
+    "last_main_idea": "AI has the potential to revolutionize home management and parenting by automating administrative tasks, which could lead to increased satisfaction and potentially influence demographic trends.",
+    "last_proof_cite": "The a16z Show \u2022 2026-04-13 \u2022 Building Agents at Home: Parenting, Work, and Benevolent Neglect",
+    "last_proof_snippet": "I was resigned to not challenging myself to build technical or hard things for like the next five years or so. I really want to be present with my kids. I need to take this break basically. That is no longer true. Weird super power of mine",
+    "supporting_takeaway": "Jessie Janae built 11 distinct AI agents to manage different aspects of her home and children's education, demonstrating the practical applications of AI in daily life.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-13T22:03:56.679808",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Jessie Janae",
+      "fetched_at": "2026-04-14T03:03:56.679478+00:00",
+      "cliff_notes": "Jessie Janae, a former Y Combinator founder, has transitioned from the tech startup world to applying AI in her personal life, specifically in managing her home and supporting her role as a homeschooling parent. Recognizing the historical pattern where labor-saving appliances did not reduce the workload for mothers, she decided to test whether AI could break this cycle. Janae built 11 AI agents, each with a distinct role, from lesson planning to grocery ordering to logging her children's progress via voice notes. Her agents are now capable of building other agents without her direct intervention, showcasing her innovative approach to leveraging AI for personal and educational purposes.",
+      "derived": {
+        "former_positions": "Y Combinator founder"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Jessie Janae, a former Y Combinator founder, has transitioned from the tech startup world to applying AI in her personal life, specifically in managing her home and supporting her role as a homeschooling parent. Recognizing the historical pattern where labor-saving appliances did not reduce the workload for mothers, she decided to test whether AI could break this cycle.",
+        "Janae built 11 AI agents, each with a distinct role, from lesson planning to grocery ordering to logging her children's progress via voice notes. Her agents are now capable of building other agents without her direct intervention, showcasing her innovative approach to leveraging AI for personal and educational purposes."
+      ],
+      "sections": [
+        {
+          "heading": "AI in Home Management",
+          "body": "Jessie Janae has utilized AI to manage her home effectively, creating agents that perform tasks from grocery ordering to lesson planning."
+        },
+        {
+          "heading": "Homeschooling with AI",
+          "body": "As a homeschooling parent, Janae has employed AI to assist in educating her four children under six, using agents to log their progress and plan lessons."
+        },
+        {
+          "heading": "Agent Autonomy",
+          "body": "Janae's AI agents are capable of building other agents, demonstrating a level of autonomy and innovation in AI application within personal life management."
+        }
+      ]
+    },
+    "net_worth": "$26.3M"
+  },
+  {
+    "id": 178,
+    "name": "David Blondon",
+    "slug": "david-blondon",
+    "bio": "David Blondon is an expert in exponential investments, known for his insights into the world of finance and technology. He has a deep understanding of the rapid changes occurring in the tech industry, particularly in areas such as AI and its implications for the workforce.",
+    "known_for": "His expertise in exponential investments and analysis of the rapid growth and valuation of tech companies, especially in the AI sector.",
+    "net_worth_usd": 103000000.0,
+    "net_worth_source": "https://www.gurufocus.com/insider/58729/david-b-blundin",
+    "net_worth_updated_at": "2026-04-15T22:05:52.046931",
+    "voice_tone": "Confident and knowledgeable",
+    "voice_style": "Direct and to-the-point",
+    "voice_delivery_notes": "Speaks with authority and clarity",
+    "voice_profile_updated_at": "2026-04-16 03:03:03",
+    "last_seen": "2026-04-16 03:03:03",
+    "last_episode_title": "Elon Musk vs. Sam Altman, AI Job Loss, and OpenAI\u2019s $852B Valuation | EP #247",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-04-14",
+    "mention_score": 1,
+    "mention_score_decayed": 0.83,
+    "last_main_idea": "Invest in AI companies that are positioned to benefit from the rapid growth and valuation in the industry, and consider the broader implications of AI on the future of work and social structures.",
+    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-04-14 \u2022 Elon Musk vs. Sam Altman, AI Job Loss, and OpenAI\u2019s $852B Valuation | EP #247",
+    "last_proof_snippet": "It's the Musk versus Altman lawsuit. Musk has sued OpenAI for $100 billion. But I kind of figured, behind the scenes, they don't actually hate each other. These guys actually hate each other to the, like, extreme. OpenAI's valued at 70 time",
+    "supporting_takeaway": "AI is expected to replace many white collar jobs in the near future.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-15T22:05:51.125060",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "David Blondon",
+      "fetched_at": "2026-04-16T03:05:51.124834+00:00",
+      "cliff_notes": "David Blondon has established himself as an authority in the field of exponential investments, with a particular focus on the financial and technological landscape. His career has been marked by a deep dive into understanding the exponential growth patterns of tech companies, especially those in the AI space. Blondon's commentary often touches on the implications of these rapid advancements for the economy and the workforce, providing investors and tech enthusiasts with valuable insights into the future of these industries. His work is characterized by a keen eye for detail and an ability to distill complex financial and technological concepts into accessible and actionable information.",
+      "derived": {
+        "current_role": "Expert in Exponential Investments"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "David Blondon has established himself as an authority in the field of exponential investments, with a particular focus on the financial and technological landscape. His career has been marked by a deep dive into understanding the exponential growth patterns of tech companies, especially those in the AI space. Blondon's commentary often touches on the implications of these rapid advancements for the economy and the workforce, providing investors and tech enthusiasts with valuable insights into the future of these industries.",
+        "His work is characterized by a keen eye for detail and an ability to distill complex financial and technological concepts into accessible and actionable information."
+      ],
+      "sections": [
+        {
+          "heading": "Exponential Investments",
+          "body": "David Blondon is recognized for his expertise in exponential investments, analyzing how tech companies, particularly those in AI, are valued and grow at an unprecedented rate."
+        },
+        {
+          "heading": "AI and Workforce",
+          "body": "Blondon discusses the impact of AI on the workforce, suggesting that AI will soon be capable of performing tasks traditionally done by white-collar workers, leading to significant shifts in the job market."
+        },
+        {
+          "heading": "Tech Valuation",
+          "body": "He provides insights into the high valuations of tech companies, such as OpenAI, and the implications of these valuations for investors and the tech industry as a whole."
+        },
+        {
+          "heading": "Panel Moderation",
+          "body": "Blondon recently moderated a panel, showcasing his ability to engage with topics and ask probing questions, contributing to the discourse on tech and finance."
+        }
+      ]
+    },
+    "net_worth": "$103.0M"
+  },
+  {
+    "id": 179,
+    "name": "Sean Emory",
+    "slug": "sean-emory",
+    "bio": "Sean Emory is the founder and Chief Investment Officer of Avery and Co., a firm that specializes in building data-driven, high-conviction portfolios. With a focus on directional investing and integrating technology with traditional investment philosophies, Avery and Co. aims to identify companies that are moving in the direction of the world's future.",
+    "known_for": "Directional investing and integrating tech focus with traditional investment philosophies.",
+    "net_worth_usd": 77300000.0,
+    "net_worth_source": "https://www.benzinga.com/sec/insider-trades/0001450656/sean-connolly",
+    "net_worth_updated_at": "2026-04-15T22:05:31.871463",
+    "voice_tone": "Confident and informative",
+    "voice_style": "Analytical with a focus on historical context and future trends",
+    "voice_delivery_notes": "Paced with emphasis on key investment insights and market analysis",
+    "voice_profile_updated_at": "2026-04-16 03:04:09",
+    "last_seen": "2026-04-16 03:04:09",
+    "last_episode_title": "\"I Don't Believe the Stagflation Narrative\": How the Strong Consumer and AI Tailwinds Shape Sean Emory's Bullish Blueprint | Avory & Co",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-04-14",
+    "mention_score": 1,
+    "mention_score_decayed": 0.83,
+    "last_main_idea": "Invest in companies that are directionally accurate with the world's trajectory, integrating traditional fundamental investment philosophies with a modern tech focus.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-14 \u2022 \"I Don't Believe the Stagflation Narrative\": How the Strong Consumer and AI Tailwinds Shape Sean Emory's Bullish Blueprint | Avory & Co",
+    "last_proof_snippet": "Today's episode is brought to you by PeakTay asset management and their AI enhanced ETF range, ticker's PQ&T and PQUS. You'll hear more about how they're using AI to enhance equity exposure later in the show. For now, let's get into it. Hel",
+    "supporting_takeaway": "Investing with a long-term perspective involves considering macroeconomic factors and their impact on smaller companies.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-15T22:05:30.953894",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Sean Emory",
+      "fetched_at": "2026-04-16T03:05:30.953654+00:00",
+      "cliff_notes": "Sean Emory is recognized for his innovative approach to investing, combining traditional investment strategies with a strong focus on technology and data analysis. As the founder and CIO of Avery and Co., he has been instrumental in developing the firm's investment philosophy centered around 'investing forward,' which involves identifying and investing in companies that are aligned with the world's future direction. This approach not only provides a margin of safety but also positions investors on the right side of history. Emory's work at Avery and Co. has been influential in the investment community, demonstrating the value of marrying technology with investment strategies to create high-conviction portfolios.",
+      "derived": {
+        "current_role": "Founder and CIO of Avery and Co."
+      },
+      "infobox": {
+        "Founded Avery and Co.": "10 years ago"
+      },
+      "lead_paragraphs": [
+        "Sean Emory is recognized for his innovative approach to investing, combining traditional investment strategies with a strong focus on technology and data analysis. As the founder and CIO of Avery and Co., he has been instrumental in developing the firm's investment philosophy centered around 'investing forward,' which involves identifying and investing in companies that are aligned with the world's future direction.",
+        "This approach not only provides a margin of safety but also positions investors on the right side of history. Emory's work at Avery and Co. has been influential in the investment community, demonstrating the value of marrying technology with investment strategies to create high-conviction portfolios."
+      ],
+      "sections": [
+        {
+          "heading": "Directional Investing",
+          "body": "Sean Emory's investment approach at Avery and Co. is characterized by directional investing, focusing on companies that are moving in the direction of the world's future."
+        },
+        {
+          "heading": "Data-Driven Portfolios",
+          "body": "Avery and Co. builds data-driven portfolios, leveraging technology to analyze and predict market trends, ensuring high-conviction investments."
+        },
+        {
+          "heading": "Integration of Tech and Traditional Investing",
+          "body": "Emory is known for integrating technology with traditional investment philosophies, creating a unique approach that enhances equity exposure and portfolio performance."
+        }
+      ]
+    },
+    "net_worth": "$77.3M"
+  },
+  {
+    "id": 180,
+    "name": "Amjad Masad",
+    "slug": "amjad-masad",
+    "bio": "Amjad Masad is the CEO of Replet, a company that uses AI to democratize coding and make it accessible for everyone. His vision is to transform the tech industry from a monopoly into a more democratic space.",
+    "known_for": "Building a billion-dollar company with a mission to democratize the tech industry and make coding accessible to all.",
+    "net_worth_usd": 400000000.0,
+    "net_worth_source": "https://entrepreneurloop.com/replit-founder-net-worth-amjad-masad-billionaire-400m-funding/",
+    "net_worth_updated_at": "2026-04-15T22:05:02.977189",
+    "voice_tone": "Confident and visionary",
+    "voice_style": "Passionate about the potential of AI to empower individuals",
+    "voice_delivery_notes": "Speaks with conviction and a clear vision for the future of technology",
+    "voice_profile_updated_at": "2026-04-16 03:04:45",
+    "last_seen": "2026-04-16 03:04:45",
+    "last_episode_title": "Replit's CEO on Vibe Coding, Wealth Building, and What Most People Get Wrong About AI",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-04-15",
+    "mention_score": 1,
+    "mention_score_decayed": 0.83,
+    "last_main_idea": "The democratization of coding through AI has the potential to disrupt the tech industry, empowering individuals and creating new opportunities for innovation and growth.",
+    "last_proof_cite": "The a16z Show \u2022 2026-04-15 \u2022 Replit's CEO on Vibe Coding, Wealth Building, and What Most People Get Wrong About AI",
+    "last_proof_snippet": "The world was built by people that are not much smarter than you. Your job is to find the way of doing things that's more aligned where the world has headed. I think it's easy to start a good rich in the history of capitalism, a certainly i",
+    "supporting_takeaway": "The company's revenue grew from $2.5 million to $250 million in just over a year, demonstrating the potential of AI in software development.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-15T22:05:01.761088",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Amjad Masad",
+      "fetched_at": "2026-04-16T03:05:01.760585+00:00",
+      "cliff_notes": "Amjad Masad is the CEO and founder of Replet, a company that leverages AI to make coding accessible to everyone, regardless of their background or financial means. Growing up in Jordan without access to a computer, Masad was inspired to create a platform that could level the playing field in the tech industry. His company, Replet, has since reached a billion-dollar valuation, turning down offers to sell because Masad believes in the potential to build a trillion-dollar company that can reshape the tech landscape. Masad's vision is to turn the tech industry from a monopoly into a more democratic space, where coding and technology are accessible to all, reflecting the diversity of thought and problem-solving that can come from a broader range of individuals.",
+      "derived": {
+        "current_role": "CEO of Replet"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": "Jordanian"
+      },
+      "lead_paragraphs": [
+        "Amjad Masad is the CEO and founder of Replet, a company that leverages AI to make coding accessible to everyone, regardless of their background or financial means. Growing up in Jordan without access to a computer, Masad was inspired to create a platform that could level the playing field in the tech industry. His company, Replet, has since reached a billion-dollar valuation, turning down offers to sell because Masad believes in the potential to build a trillion-dollar company that can reshape the tech landscape.",
+        "Masad's vision is to turn the tech industry from a monopoly into a more democratic space, where coding and technology are accessible to all, reflecting the diversity of thought and problem-solving that can come from a broader range of individuals."
+      ],
+      "sections": [
+        {
+          "heading": "Democratizing Coding",
+          "body": "Amjad Masad's Replet aims to make coding accessible to everyone by using AI to simplify the process, thus democratizing the tech industry."
+        },
+        {
+          "heading": "Billion-Dollar Valuation",
+          "body": "Replet, under Masad's leadership, reached a billion-dollar valuation, yet Masad turned down acquisition offers, envisioning a future where the company could be worth a trillion dollars."
+        },
+        {
+          "heading": "Tech Industry Transformation",
+          "body": "Masad's mission is to transform the tech industry from a monopoly into a more democratic space, where coding and technology are accessible to all, fostering a more diverse and inclusive tech ecosystem."
+        },
+        {
+          "heading": "Visionary Leadership",
+          "body": "Amjad Masad's leadership at Replet is characterized by a strong vision to change the tech industry, turning down significant offers to sell in order to pursue a larger goal of creating a more equitable technological landscape."
+        }
+      ]
+    },
+    "net_worth": "$400.0M"
+  },
+  {
+    "id": 182,
+    "name": "Hano Lustig",
+    "slug": "hano-lustig",
+    "bio": "Hano Lustig is the Masuhua Financial Group Professor of Finance at Stanford University. He is known for his research on financial repression and its impact on economies, particularly in advanced economies.",
+    "known_for": "His work on financial repression and its impact on economies, especially in advanced economies.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Informed and analytical.",
+    "voice_style": "Lustig presents a historical and economic perspective on financial repression.",
+    "voice_delivery_notes": "Speak with a measured pace, emphasizing key historical examples and current implications.",
+    "voice_profile_updated_at": "2026-04-16 10:05:21",
+    "last_seen": "2026-04-16 10:05:21",
+    "last_episode_title": "Financial Repression, Pt. 1  | Professor Hanno Lustig on Hidden Taxes, Fiscal Sustainability, and Japan\u2019s Debt Puzzle",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-04-15",
+    "mention_score": 1,
+    "mention_score_decayed": 0.85,
+    "last_main_idea": "Investing in HFGM global macro ETF, which is highly rated by Morningstar, may offer exposure to macroeconomic trends and government policies affecting financial markets.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-15 \u2022 Financial Repression, Pt. 1  | Professor Hanno Lustig on Hidden Taxes, Fiscal Sustainability, and Japan\u2019s Debt Puzzle",
+    "last_proof_snippet": "Today's episode is brought to you by the unlimited HFGM global macro ETF ticker HFGM. Later in the show, you'll hear more about HFGM currently the number one morning star rated funds it's its inception in the U.S. macro trading category. Le",
+    "supporting_takeaway": "Historically, financial repression has been used during wartime to keep bond yields artificially low.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-16T05:06:10.468903",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Hano Lustig",
+      "fetched_at": "2026-04-16T10:06:10.468631+00:00",
+      "cliff_notes": "Hano Lustig is a distinguished academic in the field of finance, currently holding the position of Masuhua Financial Group Professor of Finance at Stanford University. His research focuses on financial repression, a tool used by governments to fund themselves by ensuring their funding costs are below market rates. Lustig's work has shed light on the wide array of interventions that fall under financial repression, not just in developing economies but also in advanced economies. His insights into the topic are crucial for understanding fiscal sustainability and the implications of government policies on economic growth and stability.",
+      "derived": {
+        "current_role": "Masuhua Financial Group Professor of Finance at Stanford University",
+        "teaching_summary": "Professor of Finance at Stanford University"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Hano Lustig is a distinguished academic in the field of finance, currently holding the position of Masuhua Financial Group Professor of Finance at Stanford University. His research focuses on financial repression, a tool used by governments to fund themselves by ensuring their funding costs are below market rates. Lustig's work has shed light on the wide array of interventions that fall under financial repression, not just in developing economies but also in advanced economies.",
+        "His insights into the topic are crucial for understanding fiscal sustainability and the implications of government policies on economic growth and stability."
+      ],
+      "sections": [
+        {
+          "heading": "Financial Repression",
+          "body": "Hano Lustig is known for his research on financial repression, a tool used by governments to fund themselves by ensuring their funding costs are below market rates. His work covers a wide array of interventions and has been applied to both developing and advanced economies."
+        },
+        {
+          "heading": "Economic Impact",
+          "body": "Lustig's research delves into the impact of financial repression on economies, highlighting the consequences of government interventions on economic growth and stability. His work provides valuable insights for policymakers and investors alike."
+        },
+        {
+          "heading": "Advanced Economies",
+          "body": "A significant part of Lustig's work focuses on the use of financial repression in advanced economies. He argues that these interventions are not limited to developing nations but are also prevalent in more developed economic systems."
+        }
+      ]
+    }
+  },
+  {
+    "id": 78,
+    "name": "Martin Casado",
+    "slug": "martin-casado",
+    "bio": "Martin Casado is a prominent figure in the technology industry, known for co-founding Nicira, a company that was later acquired by VMware. He is currently a general partner at Andreessen Horowitz (a16z), where he focuses on enterprise technology investments. Casado is recognized for his insights into the future of technology, particularly in the areas of cloud computing and artificial intelligence.",
+    "known_for": "Co-founding Nicira, a company that was acquired by VMware, and his expertise in cloud computing and AI as a general partner at Andreessen Horowitz.",
+    "net_worth_usd": 600000000.0,
+    "net_worth_source": "https://www.thetwentyminutevc.com/martin-casado",
+    "net_worth_updated_at": "2026-03-19T15:48:58.459470",
+    "voice_tone": "Inquisitive and thoughtful",
+    "voice_style": "Questions the current state and future of enterprise software",
+    "voice_delivery_notes": "Engages in dialogue with a probing and analytical approach",
+    "voice_profile_updated_at": "2026-04-16 14:20:12",
+    "last_seen": "2026-04-16 14:20:12",
+    "last_episode_title": "The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-04-08",
+    "mention_score": 1,
+    "mention_score_decayed": 0.85,
+    "last_main_idea": "Invest in companies that are adapting to build software for AI agents and can leverage domain knowledge effectively.",
+    "last_proof_cite": "The a16z Show \u2022 2026-04-08 \u2022 The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
+    "last_proof_snippet": "The diffusion of AI capability is going to take longer than people in Silicon Valley realized. It's just absurd to think you're going to vibe could your way like SAP. All of that domain knowledge, it's not just represented in some well orch",
+    "supporting_takeaway": "Domain knowledge is not just in data layers but also in the UI and middle tiers.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-16T22:06:17.509156",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Martin Casado",
+      "fetched_at": "2026-04-17T03:06:17.508927+00:00",
+      "cliff_notes": "Martin Casado is a technology entrepreneur and venture capitalist with a focus on enterprise technology. He began his career by co-founding Nicira, a company that specialized in software-defined networking (SDN). Nicira was later acquired by VMware, where Casado continued to work, eventually becoming the Chief Technology Officer. His work in SDN and virtualization has been influential in shaping the modern data center and cloud infrastructure. Casado is now a general partner at Andreessen Horowitz, where he invests in and advises startups in the enterprise technology space. He is also known for his thought leadership on the future of AI and its implications for business and society.",
+      "derived": {
+        "current_role": "General Partner at Andreessen Horowitz",
+        "former_positions": "Co-founder of Nicira; Chief Technology Officer at Nicira",
+        "education": "Stanford University"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Martin Casado is a technology entrepreneur and venture capitalist with a focus on enterprise technology. He began his career by co-founding Nicira, a company that specialized in software-defined networking (SDN). Nicira was later acquired by VMware, where Casado continued to work, eventually becoming the Chief Technology Officer.",
+        "His work in SDN and virtualization has been influential in shaping the modern data center and cloud infrastructure. Casado is now a general partner at Andreessen Horowitz, where he invests in and advises startups in the enterprise technology space. He is also known for his thought leadership on the future of AI and its implications for business and society."
+      ],
+      "sections": [
+        {
+          "heading": "SDN Pioneer",
+          "body": "Martin Casado is recognized for his pioneering work in software-defined networking, which has revolutionized how networks are managed and configured in data centers."
+        },
+        {
+          "heading": "VMware Acquisition",
+          "body": "Casado's company Nicira was acquired by VMware, significantly impacting the trajectory of both companies and solidifying VMware's position in the SDN market."
+        },
+        {
+          "heading": "Venture Capital Insights",
+          "body": "As a general partner at Andreessen Horowitz, Casado provides valuable insights and guidance to startups, particularly in the areas of cloud computing and AI."
+        },
+        {
+          "heading": "AI and the Future of Work",
+          "body": "Casado has spoken about the diffusion of AI capabilities and its impact on the workforce, suggesting that software must be built with agents in mind to fully leverage the potential of AI."
+        }
+      ]
+    },
+    "net_worth": "$600.0M"
+  },
+  {
+    "id": 183,
+    "name": "Aaron Levy",
+    "slug": "aaron-levy",
+    "bio": "Aaron Levy is the CEO of Box, a leading cloud content management company. He has been instrumental in transforming Box into a major player in the cloud storage and content management space, focusing on the intersection of technology and business.",
+    "known_for": "His leadership in the cloud content management industry and insights into the future of AI and technology integration.",
+    "net_worth_usd": 107852195.0,
+    "net_worth_source": "https://strike.market/key-executives/0001606525",
+    "net_worth_updated_at": "2026-04-16T22:06:31.028180",
+    "voice_tone": "Analytical and forward-thinking",
+    "voice_style": "Discusses the necessity of building software for agents",
+    "voice_delivery_notes": "Presents ideas with conviction and clarity",
+    "voice_profile_updated_at": "2026-04-16 14:20:12",
+    "last_seen": "2026-04-16 14:20:12",
+    "last_episode_title": "The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-04-08",
+    "mention_score": 1,
+    "mention_score_decayed": 0.85,
+    "last_main_idea": "Invest in companies that are adapting to build software for AI agents and can leverage domain knowledge effectively.",
+    "last_proof_cite": "The a16z Show \u2022 2026-04-08 \u2022 The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
+    "last_proof_snippet": "The diffusion of AI capability is going to take longer than people in Silicon Valley realized. It's just absurd to think you're going to vibe could your way like SAP. All of that domain knowledge, it's not just represented in some well orch",
+    "supporting_takeaway": "Domain knowledge is not just in data layers but also in the UI and middle tiers.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-16T22:06:30.002480",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Aaron Levy",
+      "fetched_at": "2026-04-17T03:06:30.002193+00:00",
+      "cliff_notes": "Aaron Levy is recognized for his role as the CEO of Box, a company that specializes in cloud content management. Under his leadership, Box has grown to become a significant player in the cloud storage and content management market. Levy's vision has been pivotal in guiding the company's strategic direction and in shaping the broader industry's understanding of cloud technology's potential. His insights into the diffusion of AI capabilities and the economic implications of technology have made him a thought leader in the tech community.",
+      "derived": {
+        "current_role": "CEO at Box"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Aaron Levy is recognized for his role as the CEO of Box, a company that specializes in cloud content management. Under his leadership, Box has grown to become a significant player in the cloud storage and content management market. Levy's vision has been pivotal in guiding the company's strategic direction and in shaping the broader industry's understanding of cloud technology's potential.",
+        "His insights into the diffusion of AI capabilities and the economic implications of technology have made him a thought leader in the tech community."
+      ],
+      "sections": [
+        {
+          "heading": "Cloud Content Management",
+          "body": "Aaron Levy has been at the forefront of cloud content management, leading Box to become a major player in the industry."
+        },
+        {
+          "heading": "AI and Technology Integration",
+          "body": "Levy has shared his views on the diffusion of AI capabilities, suggesting that the integration of AI into business processes will take longer than anticipated and will require significant domain knowledge."
+        },
+        {
+          "heading": "Economic Implications of Technology",
+          "body": "Levy has discussed the economic challenges posed by new technologies, emphasizing the need for accurate estimation of the scale of opportunities and the importance of building software for agents in a world where they outnumber humans."
+        }
+      ]
+    },
+    "net_worth": "$107.9M"
+  },
+  {
+    "id": 184,
+    "name": "Steve Sinofsky",
+    "slug": "steve-sinofsky",
+    "bio": "Steve Sinofsky is a prominent figure in the technology industry, known for his tenure as the President of the Windows Division at Microsoft. He has since transitioned to various roles within the tech ecosystem, including being a board partner at A16z. Sinofsky is recognized for his insights into the diffusion of AI capabilities and the economic implications of technological advancements.",
+    "known_for": "His leadership in developing Microsoft's Windows division and his current role as a board partner at A16z, providing strategic guidance on technology trends.",
+    "net_worth_usd": 300000000.0,
+    "net_worth_source": "https://www.gurufocus.com/insider/3984/steven-j-sinofsky",
+    "net_worth_updated_at": "2026-04-16T22:06:47.925150",
+    "voice_tone": "Experienced and insightful",
+    "voice_style": "Shares historical context and industry knowledge",
+    "voice_delivery_notes": "Speaks with authority and a measured pace",
+    "voice_profile_updated_at": "2026-04-16 14:20:12",
+    "last_seen": "2026-04-16 14:20:12",
+    "last_episode_title": "The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-04-08",
+    "mention_score": 1,
+    "mention_score_decayed": 0.85,
+    "last_main_idea": "Invest in companies that are adapting to build software for AI agents and can leverage domain knowledge effectively.",
+    "last_proof_cite": "The a16z Show \u2022 2026-04-08 \u2022 The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
+    "last_proof_snippet": "The diffusion of AI capability is going to take longer than people in Silicon Valley realized. It's just absurd to think you're going to vibe could your way like SAP. All of that domain knowledge, it's not just represented in some well orch",
+    "supporting_takeaway": "Domain knowledge is not just in data layers but also in the UI and middle tiers.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-16T22:06:47.002600",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Steve Sinofsky",
+      "fetched_at": "2026-04-17T03:06:47.002387+00:00",
+      "cliff_notes": "Steve Sinofsky began his career at Microsoft in 1989, where he held various positions, ultimately becoming the President of the Windows Division. Under his leadership, the division released several successful versions of the Windows operating system, including Windows 7 and Windows 8. After leaving Microsoft in 2012, Sinofsky joined A16z as a board partner, where he focuses on advising startups and providing insights into the technology industry. His expertise in software development and understanding of market dynamics have made him a sought-after advisor in the tech world.",
+      "derived": {
+        "current_role": "Board Partner at A16z",
+        "former_positions": "President of the Windows Division at Microsoft",
+        "boards": "A16z"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Steve Sinofsky began his career at Microsoft in 1989, where he held various positions, ultimately becoming the President of the Windows Division. Under his leadership, the division released several successful versions of the Windows operating system, including Windows 7 and Windows 8. After leaving Microsoft in 2012, Sinofsky joined A16z as a board partner, where he focuses on advising startups and providing insights into the technology industry.",
+        "His expertise in software development and understanding of market dynamics have made him a sought-after advisor in the tech world."
+      ],
+      "sections": [
+        {
+          "heading": "Windows Division Leadership",
+          "body": "Sinofsky led the Windows Division at Microsoft, overseeing the development and release of several key versions of the Windows operating system."
+        },
+        {
+          "heading": "AI and Economic Implications",
+          "body": "As a board partner at A16z, Sinofsky discusses the diffusion of AI capabilities and the economic challenges posed by technological advancements, emphasizing the need for accurate market assessments."
+        },
+        {
+          "heading": "Organizational Logic",
+          "body": "Sinofsky highlights the importance of understanding organizational logic in the context of technological disruption, suggesting that the layers of industry will persist due to their encoding of organizational logic."
+        },
+        {
+          "heading": "Agents and Software Development",
+          "body": "He posits that with the rise of AI agents, software must be built to accommodate their needs, challenging the traditional approach to software development and API design."
+        }
+      ]
+    },
+    "net_worth": "$300.0M"
+  },
+  {
+    "id": 186,
+    "name": "Anisha Charya",
+    "slug": "anisha-charya",
+    "bio": "Anisha Charya is a General Partner at Andreessen Horowitz (A16Z), known for her investment expertise in technology and culture sectors. She has a keen interest in the intersection of technology, culture, and human progress, focusing on how technology can shape personality development and make AI more accessible.",
+    "known_for": "Investment expertise in technology and culture sectors, focusing on the intersection of AI, human progress, and personality development.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Inquisitive and analytical",
+    "voice_style": "Explores the implications of tech on society and business",
+    "voice_delivery_notes": "Direct with a focus on drawing out detailed insights",
+    "voice_profile_updated_at": "2026-04-17 03:05:12",
+    "last_seen": "2026-04-17 03:05:12",
+    "last_episode_title": "Technology, Culture, and the Next AI Interface with sign\u00fcll",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-04-16",
+    "mention_score": 1,
+    "mention_score_decayed": 0.85,
+    "last_main_idea": "Investing in AI technologies that bridge the gap between formal and intuitive knowledge could offer significant returns as these become more integrated into daily life and business.",
+    "last_proof_cite": "The a16z Show \u2022 2026-04-16 \u2022 Technology, Culture, and the Next AI Interface with sign\u00fcll",
+    "last_proof_snippet": "It's funny how the internet now, everybody can comment on everything. Every technology cycle to me is increasingly harder because you're probably going into a different part of how the human mind operates, right now we're like developing pe",
+    "supporting_takeaway": "Making powerful AI models more accessible can greatly improve their Net Promoter Score (NPS) by democratizing their use.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-16T22:05:51.706593",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Anisha Charya",
+      "fetched_at": "2026-04-17T03:05:51.706018+00:00",
+      "cliff_notes": "Anisha Charya is a General Partner at Andreessen Horowitz (A16Z), where she focuses on investments in technology and culture sectors. She is particularly interested in the intersection of technology, culture, and human progress, and how these elements can shape the development of AI and its accessibility. Charya's work at A16Z involves identifying and supporting innovative companies that are pushing the boundaries of technology and its impact on society. Her insights into the challenges and opportunities in the tech industry, as well as her focus on making AI more accessible and useful, make her a valuable contributor to the field.",
+      "derived": {
+        "current_role": "General Partner at Andreessen Horowitz (A16Z)"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Anisha Charya is a General Partner at Andreessen Horowitz (A16Z), where she focuses on investments in technology and culture sectors. She is particularly interested in the intersection of technology, culture, and human progress, and how these elements can shape the development of AI and its accessibility. Charya's work at A16Z involves identifying and supporting innovative companies that are pushing the boundaries of technology and its impact on society.",
+        "Her insights into the challenges and opportunities in the tech industry, as well as her focus on making AI more accessible and useful, make her a valuable contributor to the field."
+      ],
+      "sections": [
+        {
+          "heading": "Technology and Culture",
+          "body": "Anisha Charya is passionate about the intersection of technology and culture, and how these two forces can shape human progress. She believes that as technology evolves, it can influence and change culture, and vice versa."
+        },
+        {
+          "heading": "AI and Personality Development",
+          "body": "Charya is particularly interested in the role of AI in personality development, and how technology can be used to shape and understand human behavior. She sees this as a challenging but important area of research and development in the tech industry."
+        },
+        {
+          "heading": "Accessibility of AI",
+          "body": "One of Charya's key focuses is making AI more accessible and useful to a wider audience. She believes that by making important technologies more affordable and easy to use, the overall impact and adoption of AI can be significantly improved."
+        },
+        {
+          "heading": "Investment Expertise",
+          "body": "As a General Partner at A16Z, Anisha Charya brings her expertise in technology and culture to identify and support innovative companies that are pushing the boundaries of these fields. Her investment decisions are driven by a deep understanding of the potential for technology to shape the future."
+        }
+      ]
+    }
+  },
+  {
+    "id": 187,
+    "name": "Luke Groman",
+    "slug": "luke-groman",
+    "bio": "Luke Groman is the founder of Forest for the Trees, a boutique investment research firm. He is known for his expertise in identifying developing economic bottlenecks and sector attractiveness for investment. Groman's insights are highly valued among professional finance, high-net worth individuals, family offices, and other sophisticated investors.",
+    "known_for": "His ability to analyze and predict the impact of geopolitical events on inflation and investment opportunities.",
+    "net_worth_usd": 10000000.0,
+    "net_worth_source": "https://tycoonsnetworth.com/celebrity/entrepreneur/luke-gromen-net-worth/",
+    "net_worth_updated_at": "2026-04-17T05:06:55.472389",
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-04-17 10:06:32",
+    "last_episode_title": "MacroVoices #528 Luke Gromen: Hormuz Could Lead To a 1956 US Suez Moment",
+    "last_podcast_name": "MacroVoices",
+    "last_episode_date": "2026-04-16",
+    "mention_score": 1,
+    "mention_score_decayed": 0.87,
+    "last_main_idea": "Invest in sectors likely to benefit from increased inflation and supply chain disruptions, with a focus on energy, uranium, and domestic electrical infrastructure.",
+    "last_proof_cite": "MacroVoices \u2022 2026-04-16 \u2022 MacroVoices #528 Luke Gromen: Hormuz Could Lead To a 1956 US Suez Moment",
+    "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
+    "supporting_takeaway": "Markets may be underpricing the severity of supply chain disruptions.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-17T05:06:54.603859",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Luke Groman",
+      "fetched_at": "2026-04-17T10:06:54.603376+00:00",
+      "cliff_notes": "Luke Groman is a prominent figure in the world of finance and investment research, having founded Forest for the Trees, a boutique firm specializing in identifying economic bottlenecks and sector attractiveness for investment. His work focuses on understanding the implications of geopolitical events, such as the Iran crisis, on inflation and investment opportunities. Groman's expertise is sought after by professional finance, high-net worth individuals, family offices, and other sophisticated investors. His insights are regularly featured in financial podcasts like Macrovoisers, where he discusses the latest market trends and their potential impact on the global economy.",
+      "derived": {
+        "current_role": "Founder of Forest for the Trees"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Luke Groman is a prominent figure in the world of finance and investment research, having founded Forest for the Trees, a boutique firm specializing in identifying economic bottlenecks and sector attractiveness for investment. His work focuses on understanding the implications of geopolitical events, such as the Iran crisis, on inflation and investment opportunities.",
+        "Groman's expertise is sought after by professional finance, high-net worth individuals, family offices, and other sophisticated investors. His insights are regularly featured in financial podcasts like Macrovoisers, where he discusses the latest market trends and their potential impact on the global economy."
+      ],
+      "sections": [
+        {
+          "heading": "Economic Bottlenecks",
+          "body": "Groman is known for his ability to identify developing economic bottlenecks that can impact investment decisions and market trends."
+        },
+        {
+          "heading": "Sector Attractiveness",
+          "body": "He provides valuable insights into which sectors are most attractive for investment based on current economic conditions and potential future developments."
+        },
+        {
+          "heading": "Geopolitical Impact",
+          "body": "Groman's expertise lies in analyzing the impact of geopolitical events, such as the Iran crisis, on inflation and investment opportunities."
+        },
+        {
+          "heading": "Market Trends",
+          "body": "He regularly discusses the latest market trends and their potential implications on financial podcasts like Macrovoiers, providing valuable insights to a wide audience of investors."
+        }
+      ]
+    },
+    "net_worth": "$10.0M"
+  },
+  {
+    "id": 189,
+    "name": "Dmitry Dugov",
+    "slug": "dmitry-dugov",
+    "bio": "Dmitry Dugov is the Co-CEO of Wemo, a company that has been leading the autonomous vehicle industry by providing over 500,000 fully autonomous rides each week. He joined Google's self-driving car project in 2009 as one of its first engineers, contributing significantly to the field of autonomous driving technology.",
+    "known_for": "Leading Wemo to provide over 500,000 fully autonomous rides each week.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Confident and knowledgeable",
+    "voice_style": "Factual and forward-looking",
+    "voice_delivery_notes": "Clear and measured pace, with emphasis on key milestones and technological advancements",
+    "voice_profile_updated_at": "2026-04-20 03:05:00",
+    "last_seen": "2026-04-20 03:05:00",
+    "last_episode_title": "From Models to Mobility: Building Waymo with Dmitri Dolgov",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-04-17",
+    "mention_score": 1,
+    "mention_score_decayed": 0.91,
+    "last_main_idea": "Investing in autonomous driving technologies offers significant potential as the industry moves from research to real-world deployment, with a focus on companies that understand the physical and social aspects of driving.",
+    "last_proof_cite": "The a16z Show \u2022 2026-04-17 \u2022 From Models to Mobility: Building Waymo with Dmitri Dolgov",
+    "last_proof_snippet": "When you're driving around or being driven around, you know, say, you always think about what they're building as a driver. I kind of imagine building a big model that understands how the physical world works and understands the important p",
+    "supporting_takeaway": "The autonomous driving industry has moved from scientific research to accelerated global scaling and deployment.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-19T22:05:22.013432",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Dmitry Dugov",
+      "fetched_at": "2026-04-20T03:05:22.013196+00:00",
+      "cliff_notes": "Dmitry Dugov began his career in the autonomous vehicle industry by joining Google's self-driving car project in 2009 as one of its first engineers. His work contributed to the foundational development of autonomous driving technology. Later, Dugov became the Co-CEO of Wemo, where he played a pivotal role in scaling the company's operations to provide over 500,000 fully autonomous rides each week across multiple cities. His leadership has been instrumental in transitioning the company from long-term research to real-world scale, emphasizing the importance of understanding the social aspects of driving and the properties of being a good driver in the development of autonomous systems.",
+      "derived": {
+        "current_role": "Co-CEO of Wemo",
+        "former_positions": "Engineer at Google's self-driving car project"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Dmitry Dugov began his career in the autonomous vehicle industry by joining Google's self-driving car project in 2009 as one of its first engineers. His work contributed to the foundational development of autonomous driving technology. Later, Dugov became the Co-CEO of Wemo, where he played a pivotal role in scaling the company's operations to provide over 500,000 fully autonomous rides each week across multiple cities.",
+        "His leadership has been instrumental in transitioning the company from long-term research to real-world scale, emphasizing the importance of understanding the social aspects of driving and the properties of being a good driver in the development of autonomous systems."
+      ],
+      "sections": [
+        {
+          "heading": "Autonomous Vehicle Pioneer",
+          "body": "Dmitry Dugov was one of the initial engineers in Google's self-driving car project, contributing to the early stages of autonomous vehicle technology."
+        },
+        {
+          "heading": "Scaling Autonomous Rides",
+          "body": "As Co-CEO of Wemo, Dugov has overseen the scaling of the company's operations to provide over 500,000 fully autonomous rides per week, a significant milestone in the industry."
+        },
+        {
+          "heading": "Transition from Research to Real-World",
+          "body": "Dmitry Dugov has been instrumental in shifting Wemo's focus from scientific research to the accelerated global deployment of autonomous driving technology."
+        },
+        {
+          "heading": "Social Aspects of Driving",
+          "body": "Dugov emphasizes the importance of understanding the social aspects of driving and what it means to be a good driver in the development of autonomous systems."
+        }
+      ]
+    }
+  },
+  {
+    "id": 156,
+    "name": "Anish Acharya",
+    "slug": "anish-acharya",
+    "bio": "General partner at a16z, focused on consumer investing.",
+    "known_for": "His work in consumer tech and investments in the space.",
+    "net_worth_usd": 5000000000.0,
+    "net_worth_source": "https://theopinionatedindian.com/networth/anish-singh-thakur-age-wiki-net-worth-biography-cars-height/cid12931099.htm",
+    "net_worth_updated_at": "2026-04-07T05:06:23.012573",
+    "voice_tone": "enthusiastic and insightful",
+    "voice_style": "Anish presents a forward-thinking perspective on AI and its impact on society and business.",
+    "voice_delivery_notes": "Speaks with a mix of excitement and thoughtfulness, emphasizing key points with pauses for effect.",
+    "voice_profile_updated_at": "2026-04-20 10:04:11",
+    "last_seen": "2026-04-20 10:04:11",
+    "last_episode_title": "Network Effects, AI Costs, and the Future of Consumer Investing with Anish Acharya on The Kevin Rose Show",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-04-19",
+    "mention_score": 1,
+    "mention_score_decayed": 0.93,
+    "last_main_idea": "The rapid advancement of AI and consumer tech is creating new opportunities and challenges for venture capital, with a focus on the need for universal basic purpose and the potential for AI to disrupt traditional job markets.",
+    "last_proof_cite": "The a16z Show \u2022 2026-04-19 \u2022 Network Effects, AI Costs, and the Future of Consumer Investing with Anish Acharya on The Kevin Rose Show",
+    "last_proof_snippet": "Yeah, idea guys are sort of having a moment. In fact, it's funny, like I'm like looking for new ideas to work on. You know, in the old days, somebody would give you their app idea and you be like, oh, here we go again. And now I'm like, coo",
+    "supporting_takeaway": "The cost structure for consumer products has shifted, with AI inference costs affecting the economics of venture funding.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-07T05:06:22.088210",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Anish Acharya",
+      "fetched_at": "2026-04-07T10:06:22.087926+00:00",
+      "cliff_notes": "Anish Acharya began his career as a software engineer at Microsoft, where he gained valuable experience in the tech industry. He then moved on to Google, where he worked as a Principal Engineer, further honing his skills in software development and data analytics. Acharya's entrepreneurial spirit led him to co-found HyperAnna, a startup focused on data analytics. His expertise in technology and data analytics has been crucial in the growth of various startups, and he has become a respected figure in the tech community. Currently, Acharya serves as the Chief Technology Officer at DataRobot, a company that specializes in automated machine learning. His work has had a significant impact on the way businesses approach data analytics and machine learning.",
+      "derived": {
+        "current_role": "Chief Technology Officer at DataRobot; previously held roles at various tech startups.",
+        "former_positions": "Co-founder and CTO at HyperAnna; Principal Engineer at Google; Software Engineer at Microsoft.",
+        "education": "Bachelor's degree in Computer Science from the University of Waterloo."
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Anish Acharya began his career as a software engineer at Microsoft, where he gained valuable experience in the tech industry. He then moved on to Google, where he worked as a Principal Engineer, further honing his skills in software development and data analytics. Acharya's entrepreneurial spirit led him to co-found HyperAnna, a startup focused on data analytics.",
+        "His expertise in technology and data analytics has been crucial in the growth of various startups, and he has become a respected figure in the tech community. Currently, Acharya serves as the Chief Technology Officer at DataRobot, a company that specializes in automated machine learning. His work has had a significant impact on the way businesses approach data analytics and machine learning."
+      ],
+      "sections": [
+        {
+          "heading": "Early Career",
+          "body": "Anish Acharya started his career at Microsoft as a software engineer, where he laid the foundation for his future endeavors in technology."
+        },
+        {
+          "heading": "Google Experience",
+          "body": "At Google, Acharya worked as a Principal Engineer, gaining deep insights into large-scale data systems and software development."
+        },
+        {
+          "heading": "Entrepreneurship",
+          "body": "Acharya co-founded HyperAnna, a company that provided analytics solutions, showcasing his ability to innovate and lead in the tech startup space."
+        },
+        {
+          "heading": "DataRobot Leadership",
+          "body": "As the Chief Technology Officer at DataRobot, Acharya has played a pivotal role in the advancement of automated machine learning technologies."
+        }
+      ]
+    },
+    "net_worth": "$5.00B"
+  },
+  {
+    "id": 192,
+    "name": "Daya Apairness",
+    "slug": "daya-apairness",
+    "bio": "Daya Apairness is the co-founder of Pairness Research, a firm that manages an audited real money portfolio. Known for generating a 30% compounded return since inception in 2017, Apairness has been vocal about the potential for disruption in the software industry due to advancements in AI and agentic capabilities.",
+    "known_for": "Generating a 30% compounded return since inception in 2017 and insights on the impact of AI on software stocks.",
+    "net_worth_usd": 4000000.0,
+    "net_worth_source": "https://knownetworth.com/daya-net-worth",
+    "net_worth_updated_at": "2026-04-20T05:06:35.020384",
+    "voice_tone": "Confident and analytical.",
+    "voice_style": "Factual and data-driven.",
+    "voice_delivery_notes": "Paced with emphasis on key investment points.",
+    "voice_profile_updated_at": "2026-04-20 10:05:33",
+    "last_seen": "2026-04-20 10:05:33",
+    "last_episode_title": "Navigating the SaaS Apocalypse: Why AI Disruption is Mispriced | Deiya Pernas | Pernas Research",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-04-19",
+    "mention_score": 1,
+    "mention_score_decayed": 0.93,
+    "last_main_idea": "Invest in software companies that can adapt to AI disruption and emerge stronger, with the potential for significant upside in the next 12 months.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-19 \u2022 Navigating the SaaS Apocalypse: Why AI Disruption is Mispriced | Deiya Pernas | Pernas Research",
+    "last_proof_snippet": "for sask up is absolutely right. They have not shown at all the scares and fundamentals that reflect any sort of the perceived beers that you're talking about. What the market is overlooking is that most of these sask companies have the DNA",
+    "supporting_takeaway": "The sell-off has led to valuations not seen in years, presenting opportunities for investors.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-20T05:06:34.198971",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Daya Apairness",
+      "fetched_at": "2026-04-20T10:06:34.198876+00:00",
+      "cliff_notes": "Daya Apairness is recognized for her role as the co-founder of Pairness Research, a firm that specializes in managing a real money portfolio. Since its inception in 2017, the firm has been successful in generating a 30% compounded return, which has garnered significant attention in the investment community. Apairness is particularly known for her insights on the transformative effects of AI and agentic capabilities on the software industry. She has been vocal about the market's potential to overlook the disruptive potential of these technologies, and how companies that adapt to these changes can offer significant investment opportunities. Her commentary on the market's perception of certain software companies and the potential for these companies to emerge stronger from the current AI-driven disruption has been influential in shaping investor perspectives.",
+      "derived": {
+        "current_role": "Co-founder of Pairness Research"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Daya Apairness is recognized for her role as the co-founder of Pairness Research, a firm that specializes in managing a real money portfolio. Since its inception in 2017, the firm has been successful in generating a 30% compounded return, which has garnered significant attention in the investment community. Apairness is particularly known for her insights on the transformative effects of AI and agentic capabilities on the software industry.",
+        "She has been vocal about the market's potential to overlook the disruptive potential of these technologies, and how companies that adapt to these changes can offer significant investment opportunities. Her commentary on the market's perception of certain software companies and the potential for these companies to emerge stronger from the current AI-driven disruption has been influential in shaping investor perspectives."
+      ],
+      "sections": [
+        {
+          "heading": "Portfolio Management",
+          "body": "Daya Apairness has been successful in managing an audited real money portfolio, achieving a 30% compounded return since 2017."
+        },
+        {
+          "heading": "AI and Disruption",
+          "body": "Apairness is known for her insights on the impact of AI and agentic capabilities on the software industry, highlighting the potential for market disruption."
+        },
+        {
+          "heading": "Investment Opportunities",
+          "body": "She believes that the current market sell-off presents an opportunity for investors to find software companies that will emerge unscathed or even stronger from the AI-driven changes."
+        }
+      ]
+    },
+    "net_worth": "$4.0M"
+  },
+  {
+    "id": 193,
+    "name": "Alex Weiser Gross",
+    "slug": "alex-weiser-gross",
+    "bio": "Alex Weiser Gross is a recognized expert in AI benchmarks and model comparisons. Known for his insightful analysis and commentary on the latest advancements in AI, he has made significant contributions to the field. His work has been influential in shaping discussions around AI ethics and its impact on society.",
+    "known_for": "His expertise in AI benchmarks and model comparisons has made him a go-to resource for understanding the latest advancements in AI.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Matter-of-fact and analytical",
+    "voice_style": "Factual and informative, with a focus on technical details",
+    "voice_delivery_notes": "Clear and concise, with emphasis on key points",
+    "voice_profile_updated_at": "2026-04-20 10:06:05",
+    "last_seen": "2026-04-20 10:06:05",
+    "last_episode_title": "Sam Altman\u2019s Attack, Amazon vs. Starlink, and What Opus 4.7 Actually Means | #248",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-04-18",
+    "mention_score": 1,
+    "mention_score_decayed": 0.93,
+    "last_main_idea": "Invest in companies at the forefront of AI development and application, as they are poised to shape the future of work, management, and the economy.",
+    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-04-18 \u2022 Sam Altman\u2019s Attack, Amazon vs. Starlink, and What Opus 4.7 Actually Means | #248",
+    "last_proof_snippet": "A 20-year-old Texan through a Maltaf cocktail at Sam Alman San Francisco House. Suspect was on something called the Official Pause AI Discord server list. The state of Maine passed the first ever statewide data center ban in the United Stat",
+    "supporting_takeaway": "99% of people are underreacting to and unaware of the potential impacts of AI on their lives and jobs.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-20T05:06:19.454125",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Alex Weiser Gross",
+      "fetched_at": "2026-04-20T10:06:19.453903+00:00",
+      "cliff_notes": "Alex Weiser Gross has established himself as an authority in the field of AI benchmarks and model comparisons. His work focuses on evaluating and comparing different AI models, providing valuable insights into their capabilities and limitations. Gross has been instrumental in fostering discussions on the ethical implications of AI and its impact on society. His contributions have helped shape the discourse around AI, making him a respected voice in both the tech and investment communities.",
+      "derived": {
+        "current_role": "Expert in AI Benchmarks and Model Comparisons"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Alex Weiser Gross has established himself as an authority in the field of AI benchmarks and model comparisons. His work focuses on evaluating and comparing different AI models, providing valuable insights into their capabilities and limitations. Gross has been instrumental in fostering discussions on the ethical implications of AI and its impact on society.",
+        "His contributions have helped shape the discourse around AI, making him a respected voice in both the tech and investment communities."
+      ],
+      "sections": [
+        {
+          "heading": "AI Benchmarks",
+          "body": "Gross is known for his in-depth analysis of AI benchmarks, providing a comprehensive understanding of the performance and capabilities of various AI models."
+        },
+        {
+          "heading": "Model Comparisons",
+          "body": "His expertise in comparing different AI models has been crucial in identifying strengths and weaknesses, informing both developers and users about the best tools for their needs."
+        },
+        {
+          "heading": "AI Ethics",
+          "body": "Gross has been vocal about the ethical considerations surrounding AI, advocating for responsible development and deployment of AI technologies."
+        },
+        {
+          "heading": "Impact on Society",
+          "body": "His work has shed light on the societal implications of AI, including its potential to disrupt the job market and the need for public optimism in AI advancements."
+        }
+      ]
+    }
+  },
+  {
+    "id": 194,
+    "name": "Scott Chacon",
+    "slug": "scott-chacon",
+    "bio": "Scott Chacon is a well-known figure in the software development industry, recognized for his work on version control systems, particularly with Git. He co-founded GitHub and is currently the CEO of Git Butler. Chacon is also the author of a book on Git, which has become a valuable resource for developers worldwide.",
+    "known_for": "Being a co-founder of GitHub and a major driving force behind the Git version control system.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Inquisitive and insightful",
+    "voice_style": "Explains complex concepts in a relatable manner",
+    "voice_delivery_notes": "Speaks with a measured pace, emphasizing key points",
+    "voice_profile_updated_at": "2026-04-21 10:05:48",
+    "last_seen": "2026-04-21 10:05:48",
+    "last_episode_title": "Rethinking Git for the Age of Coding Agents with GitHub Cofounder Scott Chacon",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-04-20",
+    "mention_score": 1,
+    "mention_score_decayed": 0.95,
+    "last_main_idea": "Investing in the evolution of software development tools that cater to the needs of both human developers and AI coding agents presents an opportunity for significant growth and innovation.",
+    "last_proof_cite": "The a16z Show \u2022 2026-04-20 \u2022 Rethinking Git for the Age of Coding Agents with GitHub Cofounder Scott Chacon",
+    "last_proof_snippet": "If you ask almost any software developer, when you do code review, do really read the whole PR. Like, do you go through every line and think it through? Do you pull it down and test it out and then leave the good feedback on each line? Agen",
+    "supporting_takeaway": "Coding agents are struggling with traditional Git interfaces, necessitating new tool development.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-21T05:06:01.181305",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Scott Chacon",
+      "fetched_at": "2026-04-21T10:06:01.180751+00:00",
+      "cliff_notes": "Scott Chacon is a prominent figure in the field of software development, particularly in the area of version control systems. He is best known for his work with Git, which has become one of the most widely used developer tools globally. Chacon co-founded GitHub, a web-based platform for version control and collaboration that has revolutionized the way developers work together on projects. In addition to his work with GitHub, Chacon has authored 'Pro Git,' a comprehensive guide to Git that has become an essential resource for developers. As the CEO of Git Butler, he continues to innovate in the space of software development tools, focusing on improving communication and collaboration among developers.",
+      "derived": {
+        "current_role": "CEO of Git Butler",
+        "former_positions": "Co-founder of GitHub",
+        "books_or_works": "Pro Git"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Scott Chacon is a prominent figure in the field of software development, particularly in the area of version control systems. He is best known for his work with Git, which has become one of the most widely used developer tools globally. Chacon co-founded GitHub, a web-based platform for version control and collaboration that has revolutionized the way developers work together on projects.",
+        "In addition to his work with GitHub, Chacon has authored 'Pro Git,' a comprehensive guide to Git that has become an essential resource for developers. As the CEO of Git Butler, he continues to innovate in the space of software development tools, focusing on improving communication and collaboration among developers."
+      ],
+      "sections": [
+        {
+          "heading": "GitHub Co-founder",
+          "body": "Scott Chacon co-founded GitHub, a platform that has become integral to the workflow of millions of developers worldwide, providing a space for version control and collaboration."
+        },
+        {
+          "heading": "Git Advocacy",
+          "body": "Chacon is a strong advocate for Git, contributing significantly to its adoption and education through his book 'Pro Git' and his continued work in the field."
+        },
+        {
+          "heading": "CEO of Git Butler",
+          "body": "As the CEO of Git Butler, Chacon leads the development of tools aimed at improving the user experience for software developers, focusing on real-time communication and collaboration."
+        },
+        {
+          "heading": "Thought Leadership",
+          "body": "Scott Chacon's insights into software development tools and practices have made him a sought-after voice in discussions about the future of developer tools and collaboration."
+        }
+      ]
+    }
+  },
+  {
+    "id": 198,
+    "name": "Bolligies Renovison",
+    "slug": "bolligies-renovison",
+    "bio": "Bolligies Renovison is an Angel Investor, Entrepreneur, and author known for his work in the new media landscape. He is recognized for his investments in and founding of entities within this emerging space. Renovison is also the author of 'The Network State', a book that delves into the intricacies of blockchain technology and its implications for trust and verification in various systems.",
+    "known_for": "His investments and insights into the new media landscape, particularly his focus on blockchain technology and its role in establishing trust and verifiability in digital systems.",
+    "net_worth_usd": 9000000000.0,
+    "net_worth_source": "https://www.bbntimes.com/society/vincent-bollore-a-deep-dive-into-the-net-worth-business-ventures-political-power-and-ethnicity-of-the-french-tycoon",
+    "net_worth_updated_at": "2026-04-22T22:03:03.496677",
+    "voice_tone": "Educative and visionary.",
+    "voice_style": "Passionate about the potential of blockchain and cryptography to change information verification.",
+    "voice_delivery_notes": "Speaks with conviction and clarity, emphasizing the importance of verifiable truth.",
+    "voice_profile_updated_at": "2026-04-23 03:01:56",
+    "last_seen": "2026-04-23 03:01:56",
+    "last_episode_title": "Balaji Srinivasan: Prove Correct, Not Just Go Direct",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-04-22",
+    "mention_score": 1,
+    "mention_score_decayed": 0.98,
+    "last_main_idea": "Invest in technologies and platforms that leverage cryptography and blockchain to provide verifiable information and restore trust in digital content.",
+    "last_proof_cite": "The a16z Show \u2022 2026-04-22 \u2022 Balaji Srinivasan: Prove Correct, Not Just Go Direct",
+    "last_proof_snippet": "We don't just want to go direct, we want to prove correct. And a sense what the blockchain is is like an armored car for information, we can transport that information on chain. So easy to verify difficult to fake becomes a critical thing i",
+    "supporting_takeaway": "The growing distrust in media is due to the increasing cost of verifying content as synthetic content floods systems.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-22T22:03:01.960437",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Bolligies Renovison",
+      "fetched_at": "2026-04-23T03:03:01.960103+00:00",
+      "cliff_notes": "Bolligies Renovison has carved a niche for himself as an entrepreneur and angel investor, focusing on the burgeoning field of new media. His work is centered around the intersection of technology, particularly blockchain, and its impact on trust and verification in various sectors. Renovison's contributions extend beyond investments; he has authored 'The Network State', a book that explores the potential of blockchain to revolutionize how information is secured and verified. His expertise lies in understanding the implications of new media on trust and the verification of digital content, which is becoming increasingly important in a world where synthetic content can have significant real-world impacts.",
+      "derived": {
+        "current_role": "Angel Investor; Entrepreneur",
+        "books_or_works": "The Network State"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Bolligies Renovison has carved a niche for himself as an entrepreneur and angel investor, focusing on the burgeoning field of new media. His work is centered around the intersection of technology, particularly blockchain, and its impact on trust and verification in various sectors. Renovison's contributions extend beyond investments; he has authored 'The Network State', a book that explores the potential of blockchain to revolutionize how information is secured and verified.",
+        "His expertise lies in understanding the implications of new media on trust and the verification of digital content, which is becoming increasingly important in a world where synthetic content can have significant real-world impacts."
+      ],
+      "sections": [
+        {
+          "heading": "Blockchain and Trust",
+          "body": "Bolligies Renovison emphasizes the importance of blockchain technology in creating systems that are easy to verify and difficult to fake, which is crucial in any system dealing with strangers."
+        },
+        {
+          "heading": "New Media Landscape",
+          "body": "As an entrepreneur and investor, Renovison is actively involved in shaping the new media landscape, focusing on entities that leverage the potential of blockchain and cryptography."
+        },
+        {
+          "heading": "Content Verification",
+          "body": "Renovison highlights the growing challenge of verifying content in a world where the cost of creating content is approaching zero, while the cost of verifying it is rising."
+        }
+      ]
+    },
+    "net_worth": "$9.00B"
+  },
+  {
+    "id": 200,
+    "name": "Chris Wayland",
+    "slug": "chris-wayland",
+    "bio": "Chris Wayland is a banking specialist with expertise in credit risk and private credit exposure. He provides insights into the banking sector, particularly focusing on the exposure of banks to private credit and non-depository financial institutions.",
+    "known_for": "His expertise in analyzing bank exposure to private credit and non-depository financial institutions.",
+    "net_worth_usd": 50000000.0,
+    "net_worth_source": "https://www.celebritynetworth.com/richest-celebrities/actors/christopher-walken-net-worth/",
+    "net_worth_updated_at": "2026-04-23T22:05:06.424830",
+    "voice_tone": "Matter-of-fact and analytical.",
+    "voice_style": "Factual and informative, providing industry insights.",
+    "voice_delivery_notes": "Clear and concise, with a focus on detail.",
+    "voice_profile_updated_at": "2026-04-24 03:04:28",
+    "last_seen": "2026-04-24 03:04:28",
+    "last_episode_title": "Banks' \u201cConsiderable\u201d Exposure to Private Credit | Chris Whalen on Banks\u2019 Loans to NBFIs, Plus CRE, Gold, and Payments",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-04-18",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investment in private credit and non-depository financial institutions presents both opportunities and risks for banks, with the potential for debt to be converted into equity in challenging economic conditions.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-18 \u2022 Banks' \u201cConsiderable\u201d Exposure to Private Credit | Chris Whalen on Banks\u2019 Loans to NBFIs, Plus CRE, Gold, and Payments",
+    "last_proof_snippet": "Today's episode is brought to you by the unlimited hfgm global macro ETF ticker hfgm. Later in the show you'll hear more about hfgm currently the number one morning star rated funds it's its inception in the U.S. macro trading category. Let",
+    "supporting_takeaway": "Large banks are adept at managing exposure to non-depository financial institutions, often selling undesirable exposures and buying protection through CLOs.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-23T22:05:04.851906",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Chris Wayland",
+      "fetched_at": "2026-04-24T03:05:04.851572+00:00",
+      "cliff_notes": "Chris Wayland is recognized for his deep understanding of the banking industry, with a specific focus on credit risk and private credit exposure. His career has been centered around providing analysis and insights into the banking sector, particularly concerning the complex dynamics of private credit and the role of non-depository financial institutions. Wayland's expertise is sought after for his ability to break down complex financial instruments and their impact on the broader economy. His commentary is often featured in discussions surrounding bank earnings seasons, where he dissects the implications of bank exposure to private credit and the potential risks associated with such investments. His work is crucial for investors and financial professionals who need to navigate the intricacies of the banking sector and understand the potential risks and rewards of private credit investments.",
+      "derived": {
+        "current_role": "Banking Specialist"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Chris Wayland is recognized for his deep understanding of the banking industry, with a specific focus on credit risk and private credit exposure. His career has been centered around providing analysis and insights into the banking sector, particularly concerning the complex dynamics of private credit and the role of non-depository financial institutions.",
+        "Wayland's expertise is sought after for his ability to break down complex financial instruments and their impact on the broader economy. His commentary is often featured in discussions surrounding bank earnings seasons, where he dissects the implications of bank exposure to private credit and the potential risks associated with such investments.",
+        "His work is crucial for investors and financial professionals who need to navigate the intricacies of the banking sector and understand the potential risks and rewards of private credit investments."
+      ],
+      "sections": [
+        {
+          "heading": "Private Credit Exposure",
+          "body": "Chris Wayland is known for his analysis on bank exposure to private credit, discussing the implications for investors and the banking sector."
+        },
+        {
+          "heading": "Non-Depository Financial Institutions",
+          "body": "Wayland provides insights into the role and risks associated with non-depository financial institutions within the banking ecosystem."
+        },
+        {
+          "heading": "Credit Risk Analysis",
+          "body": "He offers expert commentary on credit risk, helping to educate listeners on the potential dangers and strategies to mitigate these risks."
+        },
+        {
+          "heading": "Bank Earnings Seasons",
+          "body": "During bank earnings seasons, Wayland's analysis is highly valued for understanding the financial health and strategies of major banks."
+        }
+      ]
+    },
+    "net_worth": "$50.0M"
   }
 ]
 };
