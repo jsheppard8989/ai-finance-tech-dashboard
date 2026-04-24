@@ -1,28 +1,45 @@
 {
-  "prompt": "Will the price of Bitcoin exceed $75,000 by the end of the next 42 days?",
-  "expires_rule": "Resolves Friday 12:00 PM CST 2026-05-15",
-  "crux_theme": "Bitcoin price movement",
+  "prompt": "Will MicroStrategy sell any Bitcoin within the next 42 days?",
+  "expires_rule": "Resolves Friday 12:00 PM CST 2026-06-05",
+  "crux_theme": "Crypto company asset management",
   "resolution_clarity": {
-    "source_of_truth": "Exchange price ticker data",
+    "source_of_truth": "MicroStrategy official announcements and filings",
     "resolution_sources": [
-      "Coinbase",
-      "Kraken",
-      "Bitstamp"
+      "MicroStrategy press releases",
+      "MicroStrategy SEC filings",
+      "MicroStrategy CEO social media accounts"
     ],
     "resolution_criteria": [
-      "Highest recorded price of Bitcoin (BTC-USD) during 00:00 UTC to 23:59 UTC on the expiration date"
+      "Sale transactions reflected in official financial statements",
+      "Publicly disclosed sale announcements"
     ]
   },
   "sides": {
     "a": "Affirmative (YES)",
     "b": "Negative (NO)"
   },
-  "friday_iso": "2026-04-03",
-  "week_label": "Week of 2026-04-03",
-  "debater_a": "Dara Khosrowshahi",
-  "debater_b": "Doug Burnower",
-  "generated_at": "2026-04-03T15:47:47.149606",
+  "friday_iso": "2026-04-24",
+  "week_label": "Week of 2026-04-24",
+  "debater_a": "Garrett Langley",
+  "debater_b": "Alex Finn",
+  "generated_at": "2026-04-24T05:06:54.744053",
   "bet_status": "open",
   "audio_href": "./audio/emp_ai_the_debate_11labs.mp3",
-  "prompt_hash": "f03c64f32b8dddec"
+  "debater_a_snapshot": {
+    "name": "Garrett Langley",
+    "known_for": "Developing a neighborhood safety system that evolved into a nationwide real-time crime prevention platform.",
+    "bio": "Founder of Flock Safety, an electrical engineer turned entrepreneur.",
+    "last_main_idea": "Investing in technology that enhances real-time crime prevention and clearance rates can lead to more effective law enforcement and safer communities.",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-03-11"
+  },
+  "debater_b_snapshot": {
+    "name": "Alex Finn",
+    "known_for": "His expertise and hands-on experience with AI, particularly with OpenClaw.",
+    "bio": "Alex Finn is an AI enthusiast and expert who has been following the development of AI for a long time.",
+    "last_main_idea": "Investment in AI technology, particularly in personal AI agents like OpenClaw, could offer substantial returns as the technology matures and becomes more integrated into daily life.",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-03-09"
+  },
+  "prompt_hash": "801c6f7629ac1ac6"
 }

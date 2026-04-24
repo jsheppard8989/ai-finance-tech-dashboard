@@ -1,6 +1,68 @@
 {
   "insights": [
     {
+      "id": 189,
+      "title": "Martin Shkreli on AI, Pharma, and What Actually Matters",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-04-23",
+      "summary": "In this episode of the a16z Show, the focus is on the shifting leverage across AI, hardware, and pharma industries. The discussion covers the significant investment made by the world's richest individuals in a single deal, the potential market cap up for grabs, and the surprising lack of startups in certain areas. The conversation delves into the economic aspects of AI, including who captures the value, pricing, and bottlenecks. It also touches on the increasing necessity of new approaches like photonic computing and specialized hardware due to the rising cost of compute power. The episode features an interview with Martin Schrelli, an American investor and businessman, who shares his insights on the ecosystem, the monetization potential of AI companies, and the challenges faced by traditional tech giants.",
+      "key_takeaway": "Investing in AI, hardware, and pharma presents significant opportunities due to the large market cap potential and the need for innovation in computing.",
+      "tickers_mentioned": [
+        "NVDA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-24",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 176
+    },
+    {
+      "id": 190,
+      "title": "MacroVoices #529 Ole S Hansen: Commodities in The Wake of The Iran Crisis",
+      "source_type": "podcast",
+      "source_name": "MacroVoices",
+      "source_date": "2026-04-23",
+      "summary": "In this episode of MacroVoices, hosts Eric Townsend and Patrick Suresne discuss the Iran conflict's impact on energy markets and secular inflation with Saxo Bank's Chief Commodity Strategist, Ole Hansen. They analyze the ripple effects on refined products, commodity inputs, and food inflation. The discussion also covers the potential for extreme backwardation in crude oil and the implications for trading strategies. Additionally, they touch on the broader outlook for commodity cycles, including fertilizer shortages and supply constraints across metals and agriculture.",
+      "key_takeaway": "The Iran conflict and energy market disruptions present opportunities in commodities, particularly in the context of extreme backwardation and supply constraints, which could drive further price increases and investment returns.",
+      "tickers_mentioned": [
+        "WTI CRUDE OIL",
+        "GOLD"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-24",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 175
+    },
+    {
+      "id": 191,
+      "title": "Iran's AI Supply Chain Threat, Claude vs. SaaS, and Elon's $60B Cursor Bet | EP #249",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-04-23",
+      "summary": "This episode of Moonshots with Peter Diamandis explores the geopolitical implications of dependency on volatile geographic regions, the impact of war on systems, and the rise of frontier labs competing with established businesses in the AI space. The discussion also touches on SpaceX's negotiations and the concept of a Dyson swarm, hinting at the final stages of the singularity. The conversation revolves around the rapid changes in technology and the need for governments and businesses to adapt to maintain relevance and sovereignty in the AI-driven future.",
+      "key_takeaway": "Invest in companies and technologies that are at the forefront of AI development and data center infrastructure, as these will be key drivers of growth and power in the coming years.",
+      "tickers_mentioned": [
+        "GOOGL",
+        "MSFT",
+        "TSLA",
+        "AMZN",
+        "NVDA"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-24",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 174
+    },
+    {
       "id": 187,
       "title": "Balaji Srinivasan: Prove Correct, Not Just Go Direct",
       "source_type": "podcast",
@@ -102,11 +164,11 @@
         "SPRT"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-04-20",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-04-24",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 167
     },
     {
@@ -146,11 +208,11 @@
         "TSLA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-04-20",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-04-24",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 168
     },
     {
@@ -165,11 +227,11 @@
         "HFGM"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-04-23",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-04-24",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 173
     },
     {

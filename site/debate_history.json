@@ -1,6 +1,18 @@
 {
-  "rotation_index": 8,
+  "rotation_index": 9,
   "weeks": [
+    {
+      "friday_iso": "2026-04-03",
+      "week_label": "Week of 2026-04-03",
+      "prompt": "Will the price of Bitcoin exceed $75,000 by the end of the next 42 days?",
+      "debater_a": "Dara Khosrowshahi",
+      "debater_b": "Doug Burnower",
+      "expires_rule": "Resolves Friday 12:00 PM CST 2026-05-15",
+      "resolution_status": "pending",
+      "resolution_notes": "",
+      "archived_at": "2026-04-24T05:06:54.743979",
+      "audio_href": "./audio/archive/debate_2026-04-03.mp3"
+    },
     {
       "friday_iso": "2026-03-20",
       "week_label": "Week of 2026-03-20",

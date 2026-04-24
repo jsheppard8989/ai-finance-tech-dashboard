@@ -1,5 +1,60 @@
 [
   {
+    "id": 176,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Martin Shkreli on AI, Pharma, and What Actually Matters",
+    "episode_date": "2026-04-23",
+    "summary": "In this episode of the a16z Show, the focus is on the shifting leverage across AI, hardware, and pharma industries. The discussion covers the significant investment made by the world's richest individuals in a single deal, the potential market cap up for grabs, and the surprising lack of startups in certain areas. The conversation delves into the economic aspects of AI, including who captures the value, pricing, and bottlenecks. It also touches on the increasing necessity of new approaches like photonic computing and specialized hardware due to the rising cost of compute power. The episode features an interview with Martin Schrelli, an American investor and businessman, who shares his insights on the ecosystem, the monetization potential of AI companies, and the challenges faced by traditional tech giants.",
+    "key_takeaways": [
+      "The potential market cap up for grabs in AI and related hardware is estimated to be between $5 to $10 trillion.",
+      "There is a surprising lack of startups in certain areas of AI and hardware, presenting opportunities for new entrants.",
+      "Economic aspects of AI are becoming more important than pure intelligence, focusing on who captures value and where the bottlenecks are.",
+      "New approaches to computing, such as photonic computing and specialized hardware, are becoming necessary due to increasing compute costs.",
+      "AI companies like OpenAI and Anthropic have significant monetization potential, with enterprise and consumer revenue streams.",
+      "Traditional tech giants may be at risk of disruption if they fail to innovate and adapt to the changing landscape of AI and hardware."
+    ],
+    "investment_thesis": "Investing in AI, hardware, and pharma presents significant opportunities due to the large market cap potential and the need for innovation in computing.",
+    "key_tickers": [
+      "NVDA"
+    ]
+  },
+  {
+    "id": 175,
+    "podcast_name": "MacroVoices",
+    "episode_title": "MacroVoices #529 Ole S Hansen: Commodities in The Wake of The Iran Crisis",
+    "episode_date": "2026-04-23",
+    "summary": "In this episode of MacroVoices, hosts Eric Townsend and Patrick Suresne discuss the Iran conflict's impact on energy markets and secular inflation with Saxo Bank's Chief Commodity Strategist, Ole Hansen. They analyze the ripple effects on refined products, commodity inputs, and food inflation. The discussion also covers the potential for extreme backwardation in crude oil and the implications for trading strategies. Additionally, they touch on the broader outlook for commodity cycles, including fertilizer shortages and supply constraints across metals and agriculture.",
+    "key_takeaways": [
+      "Iran conflict has significant implications for energy markets, particularly in terms of refined products and commodity inputs.",
+      "Extreme backwardation in crude oil presents powerful return tailwinds for traders.",
+      "Fertilizer shortages and supply constraints in metals and agriculture could drive the next leg of the commodity cycle.",
+      "Gold's behavior as a geopolitical hedge has shifted, with initial sell-offs followed by recoveries in the past.",
+      "The energy transition and renewable sector may gain momentum due to high energy prices, tightening markets for materials and commodities required for this transition."
+    ],
+    "investment_thesis": "The Iran conflict and energy market disruptions present opportunities in commodities, particularly in the context of extreme backwardation and supply constraints, which could drive further price increases and investment returns.",
+    "key_tickers": [
+      "WTI CRUDE OIL",
+      "GOLD"
+    ]
+  },
+  {
+    "id": 174,
+    "podcast_name": "Moonshots with Peter Diamandis",
+    "episode_title": "Iran's AI Supply Chain Threat, Claude vs. SaaS, and Elon's $60B Cursor Bet | EP #249",
+    "episode_date": "2026-04-23",
+    "summary": "This episode of Moonshots with Peter Diamandis explores the geopolitical implications of dependency on volatile geographic regions, the impact of war on systems, and the rise of frontier labs competing with established businesses in the AI space. The discussion also touches on SpaceX's negotiations and the concept of a Dyson swarm, hinting at the final stages of the singularity. The conversation revolves around the rapid changes in technology and the need for governments and businesses to adapt to maintain relevance and sovereignty in the AI-driven future.",
+    "key_takeaways": [
+      "Geopolitical dependency on volatile regions is becoming unacceptable, leading to a shift in global dynamics.",
+      "The aftermath of war is predicted to accelerate the competition between frontier labs and established businesses in AI.",
+      "Startups are expected to thrive in the native AI mode, while larger companies may struggle to adapt.",
+      "SpaceX's negotiations for a Dyson swarm suggest a significant step towards the singularity.",
+      "Governments worldwide are urged to invest in data centers to maintain sovereignty in the AI-driven future.",
+      "The investment in AI and data centers is compared to the industrialization efforts during World War II, indicating the scale of the required response."
+    ],
+    "investment_thesis": "Invest in companies and technologies that are at the forefront of AI development and data center infrastructure, as these will be key drivers of growth and power in the coming years.",
+    "key_tickers": null
+  },
+  {
     "id": 172,
     "podcast_name": "The a16z Show",
     "episode_title": "Balaji Srinivasan: Prove Correct, Not Just Go Direct",

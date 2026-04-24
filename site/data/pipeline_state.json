@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-04-23T22:07:11.357778",
-  "last_updated": "2026-04-23T22:07:11.357778",
-  "last_pipeline_run": "2026-04-23T22:07:11.357778",
+  "generated_at": "2026-04-24T05:06:31.719138",
+  "last_updated": "2026-04-24T05:06:31.719138",
+  "last_pipeline_run": "2026-04-24T05:06:31.719138",
   "main_page": {
     "overton": 8,
     "insights": 8,
-    "pundits": 105
+    "pundits": 108
   },
   "counts": {
     "ticker_mentions": 166,
-    "podcast_episodes": 147,
+    "podcast_episodes": 150,
     "newsletters": 7,
     "daily_scores": 104,
     "overton_terms_total": 123,
-    "latest_insights_total": 161,
+    "latest_insights_total": 164,
     "today_mentions": {},
-    "podcasts_analyzed": 1
+    "podcasts_analyzed": 3
   },
   "step_results": {
-    "downloaded": 4,
-    "transcribed": 1,
-    "analyzed": 1,
-    "insight_created": 1,
-    "deep_dive_created": 1,
-    "published": 1,
-    "total": 4
+    "downloaded": 3,
+    "transcribed": 3,
+    "analyzed": 3,
+    "insight_created": 3,
+    "deep_dive_created": 3,
+    "published": 3,
+    "total": 3
   },
   "episodes": [
     {
@@ -33,29 +33,6 @@
       "title": "Iran's AI Supply Chain Threat, Claude vs. SaaS, and Elon's $60B Cursor Bet | EP #249",
       "published": "2026-04-23",
       "rss_guid": "47f3a4dc-3ea8-11f1-8f82-cfbda70a42c5",
-      "stages": {
-        "downloaded": true,
-        "transcribed": false,
-        "analyzed": false,
-        "insight_created": false,
-        "deep_dive_created": false,
-        "published": false
-      },
-      "stage_reasons": {
-        "transcribed": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "analyzed": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "insight_created": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "deep_dive_created": "Deep Dive depends on insight promotion first.",
-        "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
-      },
-      "status": "needs_transcription"
-    },
-    {
-      "id": "d1f5aef2-3b3b-11f1-bad0-f7343b5440a1",
-      "podcast": "Monetary Matters with Jack Farley",
-      "title": "Banks' \u201cConsiderable\u201d Exposure to Private Credit | Chris Whalen on Banks\u2019 Loans to NBFIs, Plus CRE, Gold, and Payments",
-      "published": "2026-04-18",
-      "rss_guid": "d1f5aef2-3b3b-11f1-bad0-f7343b5440a1",
       "stages": {
         "downloaded": true,
         "transcribed": true,
@@ -75,20 +52,14 @@
       "rss_guid": "0bf6bdf6-fce2-42be-90f4-2d52cd2b4777",
       "stages": {
         "downloaded": true,
-        "transcribed": false,
-        "analyzed": false,
-        "insight_created": false,
-        "deep_dive_created": false,
-        "published": false
+        "transcribed": true,
+        "analyzed": true,
+        "insight_created": true,
+        "deep_dive_created": true,
+        "published": true
       },
-      "stage_reasons": {
-        "transcribed": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "analyzed": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "insight_created": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "deep_dive_created": "Deep Dive depends on insight promotion first.",
-        "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
-      },
-      "status": "needs_transcription"
+      "stage_reasons": {},
+      "status": "complete"
     },
     {
       "id": "macrovoices.podbean.com/1aa5699a-19de-3439-9a91-df4edcf50570",
@@ -98,45 +69,17 @@
       "rss_guid": "macrovoices.podbean.com/1aa5699a-19de-3439-9a91-df4edcf50570",
       "stages": {
         "downloaded": true,
-        "transcribed": false,
-        "analyzed": false,
-        "insight_created": false,
-        "deep_dive_created": false,
-        "published": false
+        "transcribed": true,
+        "analyzed": true,
+        "insight_created": true,
+        "deep_dive_created": true,
+        "published": true
       },
-      "stage_reasons": {
-        "transcribed": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "analyzed": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "insight_created": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "deep_dive_created": "Deep Dive depends on insight promotion first.",
-        "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
-      },
-      "status": "needs_transcription"
+      "stage_reasons": {},
+      "status": "complete"
     }
   ],
-  "available_from_rss": [
-    {
-      "podcast": "Moonshots with Peter Diamandis",
-      "title": "Iran's AI Supply Chain Threat, Claude vs. SaaS, and Elon's $60B Cursor Bet | EP #249",
-      "published": "Thu, 23 Apr 2026 15:00:00 -0000",
-      "published_date": "2026-04-23",
-      "rss_guid": ""
-    },
-    {
-      "podcast": "The a16z Show",
-      "title": "Martin Shkreli on AI, Pharma, and What Actually Matters",
-      "published": "Thu, 23 Apr 2026 15:34:18 +0000",
-      "published_date": "2026-04-23",
-      "rss_guid": ""
-    },
-    {
-      "podcast": "Macro Voices",
-      "title": "MacroVoices #529 Ole S Hansen: Commodities in The Wake of The Iran Crisis",
-      "published": "Thu, 23 Apr 2026 12:46:43 -0500",
-      "published_date": "2026-04-23",
-      "rss_guid": ""
-    }
-  ],
+  "available_from_rss": [],
   "stale_episodes": [],
   "deep_dive_failures": [],
   "stale_threshold_days": 2,
