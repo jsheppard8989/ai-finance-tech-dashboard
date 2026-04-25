@@ -1,5 +1,37 @@
 [
   {
+    "id": 178,
+    "podcast_name": "The a16z Show",
+    "episode_title": "AI Inside the Enterprise",
+    "episode_date": "2026-04-24",
+    "summary": "In this episode of the a16z Show, the panelists discuss the current state and future direction of AI in enterprise settings. They highlight the gap between what's possible with AI and what's being deployed in large organizations, the challenges of integration, and the need for companies to rethink their systems, permissions, and workflows to accommodate AI. The conversation also touches on the role of AI as a new kind of user within organizations and the implications for security and permissions.",
+    "key_takeaways": [
+      "AI is not just another layer of software; it's acting more like a new kind of user within organizations.",
+      "There's a growing gap between what's possible with AI and what's being deployed in large organizations.",
+      "Enterprises face significant challenges in integrating AI into their existing workflows, data systems, and decision-making processes.",
+      "AI is creating a moment of opportunity as tools become more powerful and companies learn to integrate them.",
+      "AI agents will not have more permissions than the people who use them, leading to potential security and compliance issues."
+    ],
+    "investment_thesis": "Investing in AI integration tools and platforms that can bridge the gap between AI capabilities and enterprise deployment is a key opportunity.",
+    "key_tickers": null
+  },
+  {
+    "id": 177,
+    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "episode_title": "SpaceX-Cursor Deal, SaaS Debt Bomb, New Apple CEO, SPLC Indictment, Colon Cancer Spike",
+    "episode_date": "2026-04-24",
+    "summary": "In this episode, the hosts discuss the importance of AI, data centers, and the role of the government in scientific research. They highlight the impact of the current presidential administration on AI development and the potential consequences if a different administration were in power. The conversation also touches on the media's role in investigative journalism and the need for new media approaches. Additionally, they cover the significance of fundamental science in cancer research and the potential for government agencies to play a role in preventing cancer by addressing industrial and food supply issues.",
+    "key_takeaways": [
+      "The current president is seen as supportive of AI development and business, contrasting with media portrayals.",
+      "Data centers are a critical component of AI infrastructure, and the president's stance on them is favorable for progress.",
+      "Investigative journalism has shifted, with new media and citizen journalism becoming increasingly important.",
+      "Government-funded scientific research, such as the genome atlas, plays a vital role in advancing medical knowledge.",
+      "The hosts advocate for the government to take a more active role in eliminating cancer-causing substances from the environment."
+    ],
+    "investment_thesis": "Invest in AI and data center infrastructure companies that benefit from a supportive regulatory environment and government-backed scientific research.",
+    "key_tickers": null
+  },
+  {
     "id": 176,
     "podcast_name": "The a16z Show",
     "episode_title": "Martin Shkreli on AI, Pharma, and What Actually Matters",

@@ -1,6 +1,48 @@
 {
   "insights": [
     {
+      "id": 192,
+      "title": "AI Inside the Enterprise",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-04-24",
+      "summary": "In this episode of the a16z Show, the panelists discuss the current state and future direction of AI in enterprise settings. They highlight the gap between what's possible with AI and what's being deployed in large organizations, the challenges of integration, and the need for companies to rethink their systems, permissions, and workflows to accommodate AI. The conversation also touches on the role of AI as a new kind of user within organizations and the implications for security and permissions.",
+      "key_takeaway": "Investing in AI integration tools and platforms that can bridge the gap between AI capabilities and enterprise deployment is a key opportunity.",
+      "tickers_mentioned": [
+        "IBM",
+        "MSFT",
+        "GOOGL",
+        "AMZN",
+        "CRM"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-25",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 178
+    },
+    {
+      "id": 193,
+      "title": "SpaceX-Cursor Deal, SaaS Debt Bomb, New Apple CEO, SPLC Indictment, Colon Cancer Spike",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-04-24",
+      "summary": "In this episode, the hosts discuss the importance of AI, data centers, and the role of the government in scientific research. They highlight the impact of the current presidential administration on AI development and the potential consequences if a different administration were in power. The conversation also touches on the media's role in investigative journalism and the need for new media approaches. Additionally, they cover the significance of fundamental science in cancer research and the potential for government agencies to play a role in preventing cancer by addressing industrial and food supply issues.",
+      "key_takeaway": "Invest in AI and data center infrastructure companies that benefit from a supportive regulatory environment and government-backed scientific research.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-25",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 177
+    },
+    {
       "id": 189,
       "title": "Martin Shkreli on AI, Pharma, and What Actually Matters",
       "source_type": "podcast",
@@ -145,11 +187,11 @@
         "GOOGL"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-04-21",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-04-25",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 169
     },
     {
@@ -187,11 +229,11 @@
         "TSLA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-04-20",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-04-25",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 165
     },
     {
@@ -3464,6 +3506,34 @@
   ],
   "definitions": [],
   "overton": [
+    {
+      "id": 131,
+      "term": "AI Integration",
+      "description": "The process of incorporating AI into existing enterprise workflows, data systems, and decision-making processes.",
+      "first_detected_date": "2026-04-25",
+      "last_mentioned_date": "2026-04-25",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should look for companies that can effectively bridge the gap between AI capabilities and enterprise deployment.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null
+    },
+    {
+      "id": 132,
+      "term": "AI as a New Kind of User",
+      "description": "The concept that AI is not just another layer of software, but is starting to act more like a new kind of user within organizations, pushing companies to rethink how systems, permissions, and workflows are designed.",
+      "first_detected_date": "2026-04-25",
+      "last_mentioned_date": "2026-04-25",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should consider the implications of AI as a new user type for security, permissions, and organizational design.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null
+    },
     {
       "id": 130,
       "term": "Non-Depository Financial Institutions (NDFIs)",

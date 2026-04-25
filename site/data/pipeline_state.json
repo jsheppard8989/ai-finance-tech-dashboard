@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-04-24T22:04:18.730241",
-  "last_updated": "2026-04-24T22:04:18.730241",
-  "last_pipeline_run": "2026-04-24T22:04:18.730241",
+  "generated_at": "2026-04-25T05:07:58.426526",
+  "last_updated": "2026-04-25T05:07:58.426526",
+  "last_pipeline_run": "2026-04-25T05:07:58.426526",
   "main_page": {
     "overton": 8,
     "insights": 8,
-    "pundits": 108
+    "pundits": 110
   },
   "counts": {
     "ticker_mentions": 166,
-    "podcast_episodes": 150,
+    "podcast_episodes": 152,
     "newsletters": 7,
     "daily_scores": 104,
-    "overton_terms_total": 123,
-    "latest_insights_total": 164,
+    "overton_terms_total": 125,
+    "latest_insights_total": 166,
     "today_mentions": {},
-    "podcasts_analyzed": 3
+    "podcasts_analyzed": 2
   },
   "step_results": {
     "downloaded": 2,
-    "transcribed": 0,
-    "analyzed": 0,
-    "insight_created": 0,
-    "deep_dive_created": 0,
-    "published": 0,
+    "transcribed": 2,
+    "analyzed": 2,
+    "insight_created": 2,
+    "deep_dive_created": 2,
+    "published": 2,
     "total": 2
   },
   "episodes": [
@@ -35,20 +35,14 @@
       "rss_guid": "6f16c3a2-1ec5-45ee-b043-3e16b2b6b297",
       "stages": {
         "downloaded": true,
-        "transcribed": false,
-        "analyzed": false,
-        "insight_created": false,
-        "deep_dive_created": false,
-        "published": false
+        "transcribed": true,
+        "analyzed": true,
+        "insight_created": true,
+        "deep_dive_created": true,
+        "published": true
       },
-      "stage_reasons": {
-        "transcribed": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "analyzed": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "insight_created": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "deep_dive_created": "Deep Dive depends on insight promotion first.",
-        "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
-      },
-      "status": "needs_transcription"
+      "stage_reasons": {},
+      "status": "complete"
     },
     {
       "id": "369a465a-ffb5-425a-b170-a8ee8901f4f5",
@@ -58,38 +52,17 @@
       "rss_guid": "369a465a-ffb5-425a-b170-a8ee8901f4f5",
       "stages": {
         "downloaded": true,
-        "transcribed": false,
-        "analyzed": false,
-        "insight_created": false,
-        "deep_dive_created": false,
-        "published": false
+        "transcribed": true,
+        "analyzed": true,
+        "insight_created": true,
+        "deep_dive_created": true,
+        "published": true
       },
-      "stage_reasons": {
-        "transcribed": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "analyzed": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "insight_created": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "deep_dive_created": "Deep Dive depends on insight promotion first.",
-        "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
-      },
-      "status": "needs_transcription"
+      "stage_reasons": {},
+      "status": "complete"
     }
   ],
-  "available_from_rss": [
-    {
-      "podcast": "The a16z Show",
-      "title": "AI Inside the Enterprise",
-      "published": "Fri, 24 Apr 2026 10:00:00 +0000",
-      "published_date": "2026-04-24",
-      "rss_guid": ""
-    },
-    {
-      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "title": "SpaceX-Cursor Deal, SaaS Debt Bomb, New Apple CEO, SPLC Indictment, Colon Cancer Spike",
-      "published": "Fri, 24 Apr 2026 21:20:00 +0000",
-      "published_date": "2026-04-24",
-      "rss_guid": ""
-    }
-  ],
+  "available_from_rss": [],
   "stale_episodes": [],
   "deep_dive_failures": [],
   "stale_threshold_days": 2,
