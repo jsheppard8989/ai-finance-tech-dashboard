@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-25T05:07:58.426526",
-  "last_updated": "2026-04-25T05:07:58.426526",
-  "last_pipeline_run": "2026-04-25T05:07:58.426526",
+  "generated_at": "2026-04-25T22:04:43.981259",
+  "last_updated": "2026-04-25T22:04:43.981259",
+  "last_pipeline_run": "2026-04-25T22:04:43.981259",
   "main_page": {
     "overton": 8,
     "insights": 8,
@@ -18,51 +18,48 @@
     "podcasts_analyzed": 2
   },
   "step_results": {
-    "downloaded": 2,
-    "transcribed": 2,
-    "analyzed": 2,
-    "insight_created": 2,
-    "deep_dive_created": 2,
-    "published": 2,
-    "total": 2
+    "downloaded": 1,
+    "transcribed": 0,
+    "analyzed": 0,
+    "insight_created": 0,
+    "deep_dive_created": 0,
+    "published": 0,
+    "total": 1
   },
   "episodes": [
     {
-      "id": "6f16c3a2-1ec5-45ee-b043-3e16b2b6b297",
-      "podcast": "The a16z Show",
-      "title": "AI Inside the Enterprise",
-      "published": "2026-04-24",
-      "rss_guid": "6f16c3a2-1ec5-45ee-b043-3e16b2b6b297",
+      "id": "b764bbf4-410e-11f1-b7a0-43bfc2f4d16e",
+      "podcast": "Monetary Matters with Jack Farley",
+      "title": "\u201cOverblown\u201d Sell-off in Software Loans | Matthew Bloomfield on Public BDCs (Business Development Companies) and Collateralized Loan Obligations (CLOs)",
+      "published": "2026-04-26",
+      "rss_guid": "b764bbf4-410e-11f1-b7a0-43bfc2f4d16e",
       "stages": {
         "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "deep_dive_created": true,
-        "published": true
+        "transcribed": false,
+        "analyzed": false,
+        "insight_created": false,
+        "deep_dive_created": false,
+        "published": false
       },
-      "stage_reasons": {},
-      "status": "complete"
-    },
-    {
-      "id": "369a465a-ffb5-425a-b170-a8ee8901f4f5",
-      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "title": "SpaceX-Cursor Deal, SaaS Debt Bomb, New Apple CEO, SPLC Indictment, Colon Cancer Spike",
-      "published": "2026-04-24",
-      "rss_guid": "369a465a-ffb5-425a-b170-a8ee8901f4f5",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "deep_dive_created": true,
-        "published": true
+      "stage_reasons": {
+        "transcribed": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "analyzed": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "insight_created": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "deep_dive_created": "Deep Dive depends on insight promotion first.",
+        "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
       },
-      "stage_reasons": {},
-      "status": "complete"
+      "status": "needs_transcription"
     }
   ],
-  "available_from_rss": [],
+  "available_from_rss": [
+    {
+      "podcast": "Monetary Matters with Jack Farley",
+      "title": "\u201cOverblown\u201d Sell-off in Software Loans | Matthew Bloomfield on Public BDCs (Business Development Companies) and Collateralized Loan Obligations (CLOs)",
+      "published": "Sun, 26 Apr 2026 01:24:00 -0000",
+      "published_date": "2026-04-26",
+      "rss_guid": ""
+    }
+  ],
   "stale_episodes": [],
   "deep_dive_failures": [],
   "stale_threshold_days": 2,
