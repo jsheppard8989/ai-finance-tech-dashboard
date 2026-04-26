@@ -1,5 +1,22 @@
 [
   {
+    "id": 179,
+    "podcast_name": "Monetary Matters with Jack Farley",
+    "episode_title": "\u201cOverblown\u201d Sell-off in Software Loans | Matthew Bloomfield on Public BDCs (Business Development Companies) and Collateralized Loan Obligations (CLOs)",
+    "episode_date": "2026-04-26",
+    "summary": "In this episode of Monetary Matters with Jack Farley, Matthew Bloomfield, Partner at Palmer Square Capital Management, discusses the structured credit market, specifically the CLO market, and the private credit market. They delve into the nuances of business development companies (BDCs), the risks and rewards of syndicated loans versus private credit loans, and the impact of market stress on these asset classes. The conversation also touches on the performance of publicly traded vehicles that own CLO equity and the strategic use of CLOs as a funding mechanism for BDCs.",
+    "key_takeaways": [
+      "Palmer Square Capital Management manages approximately $37 billion in assets, with a significant portion in the CLO market.",
+      "BDCs typically own private credit loans, but Palmer Square's BDC owns mostly broadly syndicated loans, which are perceived as less risky.",
+      "Large borrowers with EBITDA north of 400 million are favored by Palmer Square due to their better performance in tougher macro environments.",
+      "Syndicated loans offer transparency through tradability and monthly net asset value (NAV) publications.",
+      "CLO liabilities have widened, making them attractive from a relative value standpoint, and some BDCs are tactically adding allocations.",
+      "CLOs serve as an efficient funding mechanism for BDCs, allowing them to finance a pool of assets outside of traditional credit facilities."
+    ],
+    "investment_thesis": "Investing in syndicated loans through BDCs like Palmer Square's offers a less risky asset class with greater transparency and historical performance, making it an attractive option in the current market environment.",
+    "key_tickers": null
+  },
+  {
     "id": 178,
     "podcast_name": "The a16z Show",
     "episode_title": "AI Inside the Enterprise",

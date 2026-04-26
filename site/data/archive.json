@@ -1,6 +1,25 @@
 {
   "insights": [
     {
+      "id": 194,
+      "title": "\u201cOverblown\u201d Sell-off in Software Loans | Matthew Bloomfield on Public BDCs (Business Development Companies) and Collateralized Loan Obligations (CLOs)",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-04-26",
+      "summary": "In this episode of Monetary Matters with Jack Farley, Matthew Bloomfield, Partner at Palmer Square Capital Management, discusses the structured credit market, specifically the CLO market, and the private credit market. They delve into the nuances of business development companies (BDCs), the risks and rewards of syndicated loans versus private credit loans, and the impact of market stress on these asset classes. The conversation also touches on the performance of publicly traded vehicles that own CLO equity and the strategic use of CLOs as a funding mechanism for BDCs.",
+      "key_takeaway": "Investing in syndicated loans through BDCs like Palmer Square's offers a less risky asset class with greater transparency and historical performance, making it an attractive option in the current market environment.",
+      "tickers_mentioned": [
+        "PSBD"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-26",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 179
+    },
+    {
       "id": 192,
       "title": "AI Inside the Enterprise",
       "source_type": "podcast",
@@ -143,11 +162,11 @@
         "GOOGL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-04-21",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-04-26",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 170
     },
     {
@@ -3506,6 +3525,34 @@
   ],
   "definitions": [],
   "overton": [
+    {
+      "id": 133,
+      "term": "CLO Market",
+      "description": "Collateralized Loan Obligations (CLOs) are a type of structured credit product that pools loans and sells them as securities.",
+      "first_detected_date": "2026-04-26",
+      "last_mentioned_date": "2026-04-26",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors can gain exposure to the CLO market through BDCs, which may offer a more stable investment compared to private credit loans.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null
+    },
+    {
+      "id": 134,
+      "term": "BDCs",
+      "description": "Business Development Companies are closed-end investment companies that primarily invest in private credit loans.",
+      "first_detected_date": "2026-04-26",
+      "last_mentioned_date": "2026-04-26",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "BDCs can provide investors with access to the private credit market, offering both income and potential for capital appreciation.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null
+    },
     {
       "id": 131,
       "term": "AI Integration",
