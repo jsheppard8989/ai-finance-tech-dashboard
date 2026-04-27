@@ -3,143 +3,143 @@
     "price": 344.4,
     "change_pct": 12.75,
     "name": "GOOGL",
-    "updated_at": "2026-04-26T05:06:51.774437",
+    "updated_at": "2026-04-26T22:03:57.293387",
     "symbol_used": "GOOGL",
     "instrument_type": "equity_or_other",
     "is_continuous": false,
     "display_ticker": "GOOGL",
     "fetched_ok": true,
     "stale": false,
-    "source_timestamp": "2026-04-26T05:06:51.774450"
+    "source_timestamp": "2026-04-26T22:03:57.293401"
   },
   "NVDA": {
     "price": 208.27,
     "change_pct": 16.94,
     "name": "NVDA",
-    "updated_at": "2026-04-26T05:06:51.774459",
+    "updated_at": "2026-04-26T22:03:57.293411",
     "symbol_used": "NVDA",
     "instrument_type": "equity_or_other",
     "is_continuous": false,
     "display_ticker": "NVDA",
     "fetched_ok": true,
     "stale": false,
-    "source_timestamp": "2026-04-26T05:06:51.774463"
+    "source_timestamp": "2026-04-26T22:03:57.293414"
   },
   "MSFT": {
     "price": 424.62,
     "change_pct": 14.06,
     "name": "MSFT",
-    "updated_at": "2026-04-26T05:06:51.774469",
+    "updated_at": "2026-04-26T22:03:57.293421",
     "symbol_used": "MSFT",
     "instrument_type": "equity_or_other",
     "is_continuous": false,
     "display_ticker": "MSFT",
     "fetched_ok": true,
     "stale": false,
-    "source_timestamp": "2026-04-26T05:06:51.774473"
+    "source_timestamp": "2026-04-26T22:03:57.293425"
   },
   "WTI": {
-    "price": 94.4,
-    "change_pct": -2.25,
+    "price": 95.36,
+    "change_pct": -1.25,
     "name": "WTI",
-    "updated_at": "2026-04-26T05:06:51.774479",
+    "updated_at": "2026-04-26T22:03:57.293431",
     "symbol_used": "CL=F",
     "instrument_type": "futures",
     "is_continuous": true,
     "display_ticker": "WTI",
     "fetched_ok": true,
     "stale": false,
-    "source_timestamp": "2026-04-26T05:06:51.774482"
+    "source_timestamp": "2026-04-26T22:03:57.293435"
   },
   "BTC": {
-    "price": 78018.85,
-    "change_pct": 4.74,
+    "price": 79192.82,
+    "change_pct": 6.76,
     "name": "BTC",
-    "updated_at": "2026-04-26T05:06:51.774493",
+    "updated_at": "2026-04-26T22:03:57.293441",
     "symbol_used": "BTC-USD",
     "instrument_type": "crypto_spot",
     "is_continuous": false,
     "display_ticker": "BTC",
     "fetched_ok": true,
     "stale": false,
-    "source_timestamp": "2026-04-26T05:06:51.774496"
+    "source_timestamp": "2026-04-26T22:03:57.293445"
   },
   "S&P 500": {
-    "price": 7194.75,
-    "change_pct": 4.95,
+    "price": 7203.25,
+    "change_pct": 5.08,
     "name": "S&P 500",
-    "updated_at": "2026-04-26T05:06:51.774503",
+    "updated_at": "2026-04-26T22:03:57.293451",
     "symbol_used": "ES=F",
     "instrument_type": "futures",
     "is_continuous": true,
     "display_ticker": "S&P 500",
     "fetched_ok": true,
     "stale": false,
-    "source_timestamp": "2026-04-26T05:06:51.774506"
+    "source_timestamp": "2026-04-26T22:03:57.293455"
   },
   "AMZN": {
     "price": 263.99,
     "change_pct": 23.49,
     "name": "AMZN",
-    "updated_at": "2026-04-26T05:06:51.774512",
+    "updated_at": "2026-04-26T22:03:57.293462",
     "symbol_used": "AMZN",
     "instrument_type": "equity_or_other",
     "is_continuous": false,
     "display_ticker": "AMZN",
     "fetched_ok": true,
     "stale": false,
-    "source_timestamp": "2026-04-26T05:06:51.774515"
+    "source_timestamp": "2026-04-26T22:03:57.293465"
   },
   "TSLA": {
     "price": 376.3,
     "change_pct": 8.55,
     "name": "TSLA",
-    "updated_at": "2026-04-26T05:06:51.774521",
+    "updated_at": "2026-04-26T22:03:57.293471",
     "symbol_used": "TSLA",
     "instrument_type": "equity_or_other",
     "is_continuous": false,
     "display_ticker": "TSLA",
     "fetched_ok": true,
     "stale": false,
-    "source_timestamp": "2026-04-26T05:06:51.774524"
+    "source_timestamp": "2026-04-26T22:03:57.293475"
   },
   "COPPER": {
-    "price": 6.03,
-    "change_pct": 2.67,
+    "price": 6.07,
+    "change_pct": 3.46,
     "name": "COPPER",
-    "updated_at": "2026-04-26T05:06:51.774529",
+    "updated_at": "2026-04-26T22:03:57.293481",
     "symbol_used": "HG=F",
     "instrument_type": "futures",
     "is_continuous": true,
     "display_ticker": "COPPER",
     "fetched_ok": true,
     "stale": false,
-    "source_timestamp": "2026-04-26T05:06:51.774532"
+    "source_timestamp": "2026-04-26T22:03:57.293484"
   },
   "QQQ": {
     "price": 663.88,
     "change_pct": 12.79,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-04-26T05:06:51.774538",
+    "updated_at": "2026-04-26T22:03:57.293490",
     "symbol_used": "QQQ",
     "instrument_type": "etf",
     "is_continuous": false,
     "display_ticker": "QQQ",
     "fetched_ok": true,
     "stale": false,
-    "source_timestamp": "2026-04-26T05:06:51.774541"
+    "source_timestamp": "2026-04-26T22:03:57.293493"
   },
   "BTC-USD": {
-    "price": 78018.85,
-    "change_pct": 4.74,
+    "price": 79192.82,
+    "change_pct": 6.76,
     "name": "Bitcoin USD",
-    "updated_at": "2026-04-26T05:06:51.774546",
+    "updated_at": "2026-04-26T22:03:57.293499",
     "symbol_used": "BTC-USD",
     "instrument_type": "crypto_spot",
     "is_continuous": false,
     "display_ticker": "BTC-USD",
     "fetched_ok": true,
     "stale": false,
-    "source_timestamp": "2026-04-26T05:06:51.774549"
+    "source_timestamp": "2026-04-26T22:03:57.293502"
   }
 }

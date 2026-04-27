@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-26T05:06:54.382042",
-  "last_updated": "2026-04-26T05:06:54.382042",
-  "last_pipeline_run": "2026-04-26T05:06:54.382042",
+  "generated_at": "2026-04-26T22:03:59.201586",
+  "last_updated": "2026-04-26T22:03:59.201586",
+  "last_pipeline_run": "2026-04-26T22:03:59.201586",
   "main_page": {
     "overton": 8,
     "insights": 8,
@@ -18,33 +18,15 @@
     "podcasts_analyzed": 1
   },
   "step_results": {
-    "downloaded": 1,
-    "transcribed": 1,
-    "analyzed": 1,
-    "insight_created": 1,
-    "deep_dive_created": 1,
-    "published": 1,
-    "total": 1
+    "downloaded": 0,
+    "transcribed": 0,
+    "analyzed": 0,
+    "insight_created": 0,
+    "deep_dive_created": 0,
+    "published": 0,
+    "total": 0
   },
-  "episodes": [
-    {
-      "id": "b764bbf4-410e-11f1-b7a0-43bfc2f4d16e",
-      "podcast": "Monetary Matters with Jack Farley",
-      "title": "\u201cOverblown\u201d Sell-off in Software Loans | Matthew Bloomfield on Public BDCs (Business Development Companies) and Collateralized Loan Obligations (CLOs)",
-      "published": "2026-04-26",
-      "rss_guid": "b764bbf4-410e-11f1-b7a0-43bfc2f4d16e",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "deep_dive_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "status": "complete"
-    }
-  ],
+  "episodes": [],
   "available_from_rss": [],
   "stale_episodes": [],
   "deep_dive_failures": [],
