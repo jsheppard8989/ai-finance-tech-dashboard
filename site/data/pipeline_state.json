@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-27T05:05:36.755077",
-  "last_updated": "2026-04-27T05:05:36.755077",
-  "last_pipeline_run": "2026-04-27T05:05:36.755077",
+  "generated_at": "2026-04-27T22:02:56.732323",
+  "last_updated": "2026-04-27T22:02:56.732323",
+  "last_pipeline_run": "2026-04-27T22:02:56.732323",
   "main_page": {
     "overton": 8,
     "insights": 8,
@@ -18,16 +18,78 @@
     "podcasts_analyzed": 0
   },
   "step_results": {
-    "downloaded": 0,
+    "downloaded": 2,
     "transcribed": 0,
     "analyzed": 0,
     "insight_created": 0,
     "deep_dive_created": 0,
     "published": 0,
-    "total": 0
+    "total": 2
   },
-  "episodes": [],
-  "available_from_rss": [],
+  "episodes": [
+    {
+      "id": "4cf41fd8-3d05-11f1-b94d-3312c6eea9aa",
+      "podcast": "Moonshots with Peter Diamandis",
+      "title": "David Sinclair on the Longevity Pill, Age Reversal Timelines, and Updated Protocols | EP #250",
+      "published": "2026-04-27",
+      "rss_guid": "4cf41fd8-3d05-11f1-b94d-3312c6eea9aa",
+      "stages": {
+        "downloaded": true,
+        "transcribed": false,
+        "analyzed": false,
+        "insight_created": false,
+        "deep_dive_created": false,
+        "published": false
+      },
+      "stage_reasons": {
+        "transcribed": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "analyzed": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "insight_created": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "deep_dive_created": "Deep Dive depends on insight promotion first.",
+        "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
+      },
+      "status": "needs_transcription"
+    },
+    {
+      "id": "e834a2c7-4ca4-428a-a07b-121d3f63c6a9",
+      "podcast": "The a16z Show",
+      "title": "Ben Horowitz on Venture Capital and AI",
+      "published": "2026-04-27",
+      "rss_guid": "e834a2c7-4ca4-428a-a07b-121d3f63c6a9",
+      "stages": {
+        "downloaded": true,
+        "transcribed": false,
+        "analyzed": false,
+        "insight_created": false,
+        "deep_dive_created": false,
+        "published": false
+      },
+      "stage_reasons": {
+        "transcribed": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "analyzed": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "insight_created": "Not in DB yet (approved, but not pulled into pipeline DB).",
+        "deep_dive_created": "Deep Dive depends on insight promotion first.",
+        "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
+      },
+      "status": "needs_transcription"
+    }
+  ],
+  "available_from_rss": [
+    {
+      "podcast": "Moonshots with Peter Diamandis",
+      "title": "David Sinclair on the Longevity Pill, Age Reversal Timelines, and Updated Protocols | EP #250",
+      "published": "Mon, 27 Apr 2026 15:00:00 -0000",
+      "published_date": "2026-04-27",
+      "rss_guid": ""
+    },
+    {
+      "podcast": "The a16z Show",
+      "title": "Ben Horowitz on Venture Capital and AI",
+      "published": "Mon, 27 Apr 2026 10:05:18 +0000",
+      "published_date": "2026-04-27",
+      "rss_guid": ""
+    }
+  ],
   "stale_episodes": [],
   "deep_dive_failures": [],
   "stale_threshold_days": 2,
