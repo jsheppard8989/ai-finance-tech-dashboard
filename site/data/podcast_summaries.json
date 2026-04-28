@@ -1,5 +1,41 @@
 [
   {
+    "id": 181,
+    "podcast_name": "Moonshots with Peter Diamandis",
+    "episode_title": "David Sinclair on the Longevity Pill, Age Reversal Timelines, and Updated Protocols | EP #250",
+    "episode_date": "2026-04-27",
+    "summary": "In this episode of 'Moonshots with Peter Diamandis', the focus is on the groundbreaking field of epigenetic reprogramming and its potential to revolutionize longevity and health. The discussion centers around the upcoming first human trial for epigenetic reprogramming to cure blindness, the broader implications for age reversal across various tissues and organs, and the concept of a 'longevity singularity' - a point in time when the health of the human lifespan is significantly extended. The conversation also touches on lifestyle changes, such as diet and stress management, that can contribute to longevity.",
+    "key_takeaways": [
+      "The first human epigenetic reprogramming trial is imminent, aiming to cure blindness.",
+      "Epigenetic reprogramming has shown potential in improving memory, motor neurons, immune system, and other organs.",
+      "The technology behind reprogramming does not target specific organs but has systemic benefits.",
+      "The concept of a 'longevity singularity' is introduced, signifying a point where human health span is significantly extended.",
+      "Lifestyle changes, including diet and stress management, play a crucial role in longevity.",
+      "There is a belief that there is no inherent upper limit to human lifespan, with potential for extension into hundreds or even thousands of years."
+    ],
+    "investment_thesis": "Investment in biotechnology companies pioneering epigenetic reprogramming could offer significant returns as this field advances longevity and healthspan.",
+    "key_tickers": [
+      "N/A"
+    ]
+  },
+  {
+    "id": 180,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Ben Horowitz on Venture Capital and AI",
+    "episode_date": "2026-04-27",
+    "summary": "In this episode of 'The a16z Show', Ben Horowitz, co-founder of a16z, discusses the evolution of venture capital and the impact of AI on startups and the tech industry. Horowitz shares insights on the changing dynamics of venture capital, the importance of solving real problems rather than just building companies, and the potential dangers of overregulation in the AI space. The conversation also touches on the role of leadership in managing talented but difficult teams, the importance of culture in startups, and the shift in bottlenecks from code to capital, compute, energy, and organizational design.",
+    "key_takeaways": [
+      "Venture capital rules were built for a different era and need to adapt to the changing landscape of technology startups.",
+      "Network effects and firm design are crucial components of successful startups.",
+      "Leadership and culture are vital in managing talented but difficult teams within startups.",
+      "AI is shifting the equation in venture capital, with bottlenecks moving toward compute, energy, and organizational design.",
+      "Solving real problems is more important than just building companies, as it often leads to the discovery of much larger opportunities.",
+      "Overregulation of AI could lead to a dangerous concentration of power, with China potentially winning if the US becomes too scared to innovate."
+    ],
+    "investment_thesis": "Invest in startups that are addressing real problems and have the potential for significant growth, while considering the evolving landscape of venture capital and the impact of AI on various industries.",
+    "key_tickers": null
+  },
+  {
     "id": 179,
     "podcast_name": "Monetary Matters with Jack Farley",
     "episode_title": "\u201cOverblown\u201d Sell-off in Software Loans | Matthew Bloomfield on Public BDCs (Business Development Companies) and Collateralized Loan Obligations (CLOs)",

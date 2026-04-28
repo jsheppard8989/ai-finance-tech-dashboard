@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-04-27T22:02:56.732323",
-  "last_updated": "2026-04-27T22:02:56.732323",
-  "last_pipeline_run": "2026-04-27T22:02:56.732323",
+  "generated_at": "2026-04-28T05:07:18.233833",
+  "last_updated": "2026-04-28T05:07:18.233833",
+  "last_pipeline_run": "2026-04-28T05:07:18.233833",
   "main_page": {
     "overton": 8,
     "insights": 8,
-    "pundits": 111
+    "pundits": 112
   },
   "counts": {
     "ticker_mentions": 166,
-    "podcast_episodes": 153,
+    "podcast_episodes": 155,
     "newsletters": 7,
     "daily_scores": 104,
     "overton_terms_total": 127,
-    "latest_insights_total": 167,
+    "latest_insights_total": 169,
     "today_mentions": {},
-    "podcasts_analyzed": 0
+    "podcasts_analyzed": 2
   },
   "step_results": {
-    "downloaded": 2,
-    "transcribed": 0,
-    "analyzed": 0,
-    "insight_created": 0,
-    "deep_dive_created": 0,
-    "published": 0,
-    "total": 2
+    "downloaded": 3,
+    "transcribed": 2,
+    "analyzed": 2,
+    "insight_created": 2,
+    "deep_dive_created": 2,
+    "published": 2,
+    "total": 3
   },
   "episodes": [
     {
@@ -33,6 +33,23 @@
       "title": "David Sinclair on the Longevity Pill, Age Reversal Timelines, and Updated Protocols | EP #250",
       "published": "2026-04-27",
       "rss_guid": "4cf41fd8-3d05-11f1-b94d-3312c6eea9aa",
+      "stages": {
+        "downloaded": true,
+        "transcribed": true,
+        "analyzed": true,
+        "insight_created": true,
+        "deep_dive_created": true,
+        "published": true
+      },
+      "stage_reasons": {},
+      "status": "complete"
+    },
+    {
+      "id": "083c3e43-8148-45ec-87d5-cf2046094650",
+      "podcast": "The a16z Show",
+      "title": "John and Patrick Collison on Stripe's Growth, Agent Commerce, and the Future of Software",
+      "published": "2026-04-28",
+      "rss_guid": "083c3e43-8148-45ec-87d5-cf2046094650",
       "stages": {
         "downloaded": true,
         "transcribed": false,
@@ -58,35 +75,22 @@
       "rss_guid": "e834a2c7-4ca4-428a-a07b-121d3f63c6a9",
       "stages": {
         "downloaded": true,
-        "transcribed": false,
-        "analyzed": false,
-        "insight_created": false,
-        "deep_dive_created": false,
-        "published": false
+        "transcribed": true,
+        "analyzed": true,
+        "insight_created": true,
+        "deep_dive_created": true,
+        "published": true
       },
-      "stage_reasons": {
-        "transcribed": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "analyzed": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "insight_created": "Not in DB yet (approved, but not pulled into pipeline DB).",
-        "deep_dive_created": "Deep Dive depends on insight promotion first.",
-        "published": "Not in DB yet (approved, but not pulled into pipeline DB)."
-      },
-      "status": "needs_transcription"
+      "stage_reasons": {},
+      "status": "complete"
     }
   ],
   "available_from_rss": [
     {
-      "podcast": "Moonshots with Peter Diamandis",
-      "title": "David Sinclair on the Longevity Pill, Age Reversal Timelines, and Updated Protocols | EP #250",
-      "published": "Mon, 27 Apr 2026 15:00:00 -0000",
-      "published_date": "2026-04-27",
-      "rss_guid": ""
-    },
-    {
       "podcast": "The a16z Show",
-      "title": "Ben Horowitz on Venture Capital and AI",
-      "published": "Mon, 27 Apr 2026 10:05:18 +0000",
-      "published_date": "2026-04-27",
+      "title": "John and Patrick Collison on Stripe's Growth, Agent Commerce, and the Future of Software",
+      "published": "Tue, 28 Apr 2026 10:00:00 +0000",
+      "published_date": "2026-04-28",
       "rss_guid": ""
     }
   ],

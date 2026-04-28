@@ -1,6 +1,47 @@
 {
   "insights": [
     {
+      "id": 195,
+      "title": "David Sinclair on the Longevity Pill, Age Reversal Timelines, and Updated Protocols | EP #250",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-04-27",
+      "summary": "In this episode of 'Moonshots with Peter Diamandis', the focus is on the groundbreaking field of epigenetic reprogramming and its potential to revolutionize longevity and health. The discussion centers around the upcoming first human trial for epigenetic reprogramming to cure blindness, the broader implications for age reversal across various tissues and organs, and the concept of a 'longevity singularity' - a point in time when the health of the human lifespan is significantly extended. The conversation also touches on lifestyle changes, such as diet and stress management, that can contribute to longevity.",
+      "key_takeaway": "Investment in biotechnology companies pioneering epigenetic reprogramming could offer significant returns as this field advances longevity and healthspan.",
+      "tickers_mentioned": [
+        "N/A"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-28",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 181
+    },
+    {
+      "id": 196,
+      "title": "Ben Horowitz on Venture Capital and AI",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-04-27",
+      "summary": "In this episode of 'The a16z Show', Ben Horowitz, co-founder of a16z, discusses the evolution of venture capital and the impact of AI on startups and the tech industry. Horowitz shares insights on the changing dynamics of venture capital, the importance of solving real problems rather than just building companies, and the potential dangers of overregulation in the AI space. The conversation also touches on the role of leadership in managing talented but difficult teams, the importance of culture in startups, and the shift in bottlenecks from code to capital, compute, energy, and organizational design.",
+      "key_takeaway": "Invest in startups that are addressing real problems and have the potential for significant growth, while considering the evolving landscape of venture capital and the impact of AI on various industries.",
+      "tickers_mentioned": [
+        "GOOGL",
+        "MSFT",
+        "NVDA",
+        "TSLA"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-04-28",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 180
+    },
+    {
       "id": 194,
       "title": "\u201cOverblown\u201d Sell-off in Software Loans | Matthew Bloomfield on Public BDCs (Business Development Companies) and Collateralized Loan Obligations (CLOs)",
       "source_type": "podcast",
@@ -139,11 +180,11 @@
         "AMD"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-04-22",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-04-28",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 172
     },
     {
@@ -185,11 +226,11 @@
         "AMZN"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-04-22",
-      "archived_date": null,
-      "archived_reason": null,
+      "archived_date": "2026-04-28",
+      "archived_reason": "Auto-archived: keep 8 most recent on main",
       "podcast_episode_id": 171
     },
     {
